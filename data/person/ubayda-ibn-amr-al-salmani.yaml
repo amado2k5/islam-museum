@@ -17,3 +17,9 @@ relations:
 sources: [source/tabaqat-fuqaha-abbas-1981, source/sallabi-ali-vol1]
 provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-3" }
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 3 from PDF pp. 41-43; the book names him among Ibn Mas'ud's companions (PDF ص43); the 'two years before the Prophet's death' claim is the book's; a second source is needed" }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981, source/sallabi-ali-vol1]

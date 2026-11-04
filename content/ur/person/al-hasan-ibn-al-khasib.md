@@ -2,10 +2,7 @@
 id: person/al-hasan-ibn-al-khasib
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 17"]
 ---
 ## خلاصہ
-الحسن بن الخصیب، علمِ نجوم کے ماہرین میں سے ایک۔ {cite:fihrist-ibn-al-nadim p.385}
-
-## ان کی کتابیں
-ان کی ایک کتاب ہے جسے «الکارمہتر» کہا جاتا ہے، جس میں چار کتابیں ہیں: «المدخل الی علم الہیئۃ»، «تحویل سنی العالم»، «المواليد»، اور «تحویل سنی المواليد»۔ {cite:fihrist-ibn-al-nadim p.385}
+حسن بن خصیب، علمِ نجوم کے ماہرین میں سے؛ اس کی کتاب الکار مہتر چار کتب پر مشتمل ہے جن میں علمِ ہیئت کا مدخل، سنواتِ عالم کی تحویل، مواليد اور مواليد کے سنوات کی تحویل شامل ہیں۔ {cite:fihrist-ibn-al-nadim p. 411}

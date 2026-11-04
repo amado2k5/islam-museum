@@ -1,0 +1,28 @@
+id: event/samani-nishapur-509
+class: event
+kind: other
+label:
+  ar: "أبو بكر السمعاني يحمل ابنه الطفل عبد الكريم إلى نيسابور للسماع، ٥٠٩هـ/١١١٥م"
+  en: "Abu Bakr al-Sam'ani takes his small son 'Abd al-Karim to Nishapur for hadith hearings, 509/1115"
+  ur: "ابو بکر سمعانی اپنے خردسال بیٹے عبدالکریم کو سماعتِ حدیث کے لیے نیشاپور لے جاتے ہیں، 509ھ/1115ء"
+summary:
+  ar: "حمل أبو بكر السمعاني ابنه عبد الكريم إلى نيسابور سنة تسع وخمسمائة، وأحضره السماع من عبد الغفار الشيروتي وأبي العلاء عبيد بن محمد القشيري وجماعة {cite:tarikh-islam-dhahabi p. 119}؛ وكان قد أخذه وهو ابن سنتين معه إلى مجالس الحديث، ورحل به ومع أخيه الأكبر سنة ٥٠٩هـ إلى نيسابور ليزيد في تعليمه على محدثيها {cite:encyclopaedia-of-islam-2 vol. 8 p. 1024}."
+  en: "Abu Bakr al-Sam'ani carried his son 'Abd al-Karim to Nishapur in 509 (1115), sat him in the hearings of 'Abd al-Ghaffar al-Shiruti, Abu al-'Ala' 'Ubayd ibn Muhammad al-Qushayri and others {cite:tarikh-islam-dhahabi p. 119}; he had already taken him as a two-year-old into the hadith sessions, and now travelled with him and his elder brother to Nishapur for further instruction by its traditionists {cite:encyclopaedia-of-islam-2 vol. 8 p. 1024}."
+  ur: "ابو بکر سمعانی نے 509ھ (1115ء) میں اپنے بیٹے عبدالکریم کو نیشاپور پہنچایا اور عبدالغفار شیروتی، ابوالعلا عبید بن محمد قشیری اور دیگر کے دروسِ سماعت میں بٹھایا {cite:tarikh-islam-dhahabi p. 119}؛ وہ اسے دو سال کی عمر سے ہی مجالسِ حدیث میں لے جاتے تھے اور اب بڑے بھائی سمیت نیشاپور لے گئے تاکہ وہاں کے محدثین سے مزید تعلیم دلائیں {cite:encyclopaedia-of-islam-2 vol. 8 p. 1024}۔"
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1115~", hijri: "0509", calendar: julian, precision: year, status: tradition, derived: true, note: "حمله والده إلى نيسابور سنة تسع وخمسمائة {cite:tarikh-islam-dhahabi p. 119}؛ سنة ٥٠٩هـ {cite:encyclopaedia-of-islam-2 vol. 8 p. 1024}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-samani, role: "الطفل السامع", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-bakr-ibn-mansur-al-samani, role: "الوالد المرحّل", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 562, printed p. 119 (harvest OCR); EI2 vol. 8 art. al-Sam'ani (R. Sellheim), printed p. 1024"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-samani-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

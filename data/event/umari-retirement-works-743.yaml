@@ -1,0 +1,28 @@
+id: event/umari-retirement-works-743
+class: event
+kind: other
+label:
+  ar: "سنون الاعتزال والتصنيف، ٧٤٣-٧٤٩هـ/١٣٤٢-١٣٤٩م"
+  en: "The retirement years and the great works, 743-749/1342-1349"
+  ur: "اعتزال اور تصانیف کے سال، 743-749ھ/1342-1349ء"
+summary:
+  ar: "أقام ابن فضل الله بدمشق معتزلاً من ٧٤٣هـ إلى وفاته، ويُرجَّح أن كتبه الكبرى كانت ثمرة فراغ تلك السنين: «مسالك الأبصار في ممالك الأمصار» في أكثر من عشرين مجلدًا، و«التعريف بالمصطلح الشريف» في نظام الديوان والمراسلات، وكتاب في تاريخ أسرته وفضائل آل عمر في أربع مجلدات، إلى جانب رسائل ونثر وشعر كثير {cite:durar-kamina-jil-1993 1/333} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  en: "Al-Umari lived retired at Damascus from 743 until his death, and his great books were most likely the fruit of that leisure: the encyclopaedic Masalik al-Absar fi Mamalik al-Amsar in more than twenty volumes, al-Ta'rif bi'l-Mustalah al-Sharif on the chancery's order and correspondence, and a four-volume history of his family, the House of Umar — beside essays, ornate prose and much verse {cite:durar-kamina-jil-1993 1/333} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  ur: "عمری 743ھ سے اپنی وفات تک دمشق میں معتزل رہا، اور اس کی بزرگ کتابیں غالباً اسی فراغت کے ثمرے تھیں: بیس سے زائد جلدوں پر مشتمل دائرة المعارف «مسالک الابصار فی ممالک الامصار»، دیوان کے نظام اور مراسلات پر «التعریف بالمصطلح الشریف»، اور اپنے خاندان، آلِ عمر کی تاریخ پر چار جلدوں کی کتاب — اس کے علاوہ رسائل، مسجع نثر اور کثیر شاعری {cite:durar-kamina-jil-1993 1/333} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1342-08~", hijri: "0743~", calendar: julian, precision: month, status: historical, derived: true, note: "من عزله سنة ٧٤٣هـ إلى وفاته ٧٤٩هـ {cite:durar-kamina-jil-1993 1/333}؛ التحويل مشتق." }
+  end: { edtf: "1349~", hijri: "0749~", calendar: julian, precision: year, status: historical, derived: true }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "المصنف المعتزل", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الدرر الكامنة (ط دار الجيل 1993) 1/333 ترجمة 828؛ EI2 vol. 3 PDF pp. 790-791"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-umari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

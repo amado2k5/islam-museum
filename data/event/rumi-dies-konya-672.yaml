@@ -1,0 +1,25 @@
+id: event/rumi-dies-konya-672
+class: event
+kind: death
+label: { ar: "وفاة جلال الدين الرومي بقونية، ٦٧٢هـ", en: "Rumi dies at Konya, 672/1273", ur: "رومی کا قونیہ میں انتقال، 672ھ/1273ء" }
+summary:
+  ar: "توفي جلال الدين محمد الرومي بقونية في ١٧ ديسمبر ١٢٧٣م (٦٧٢هـ) عن ستة وستين عامًا، وكون أتباعه بعده طريقة المولوية؛ وأقدم إيوان يضم رفاته مؤرخ بسنة ٦٧٢هـ/١٢٧٣–١٢٧٤م، وتابوته الخشبي المكتوب سنة ٦٧٤هـ/١٢٧٧م، فيما صار تعقيد المولوية ومتحفها {cite:britannica-rumi} {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 289}."
+  en: "Jalal al-Din Muhammad al-Rumi died at Konya on 17 December 1273 (672 AH) at the age of sixty-six, and his disciples afterwards formed the Mawlawiyya order. The earliest iwan containing his cenotaph is dated 672/1273-74, and the inscribed wooden cenotaph itself 674/1277, in what became the Mevlevi complex and museum {cite:britannica-rumi} {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 289}."
+  ur: "جلال الدین محمد رومی 17 دسمبر 1273ء (672ھ) کو قونیہ میں چھیاسٹھ برس کی عمر میں فوت ہوئے؛ ان کے پیروکاروں نے بعد میں مولویہ سلسلہ قائم کیا۔ ان کے تابوت والا قدیم ترین ایوان 672ھ/1273–74ء کا مورخ ہے اور کتبہ دار لکڑی کا تابوت 674ھ/1277ء کا، جو مولوی تکیا اور عجائب گھر بنا۔"
+wings: [time]
+themes: [spirituality-and-sufism]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1273-12-17", hijri: "0672", calendar: gregorian, precision: day, status: historical, derived: true, note: "تنص بريتانيكا على وفاته ١٧ ديسمبر ١٢٧٣م بقونية {cite:britannica-rumi}؛ السنة الهجرية تحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/jalal-al-din-rumi, role: "المتوفى", sources: [source/britannica-rumi] }
+sources: [source/britannica-rumi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Britannica, 'Rumi' (Wayback capture 23 Oct 2026; ledger docs/authenticity-ledger/pages/britannica-rumi.yaml); EI2 art. ḲONYA, Monuments, vol. 5.1 PDF p. 289 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-konya-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

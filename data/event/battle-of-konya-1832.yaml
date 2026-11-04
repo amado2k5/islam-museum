@@ -1,23 +1,25 @@
 id: event/battle-of-konya-1832
 class: event
 kind: battle
-label: { ar: "معركة قونية (١٨٣٢)", en: "Battle of Konya" }
+label: { ar: "معركة قونية (١٨٣٢)", en: "Battle of Konya (1832)", ur: "قونیہ کی جنگ (1832ء)" }
 summary:
-  ar: "بطاقة أولية لمعركة قونية سنة ١٨٣٢م، نصر إبراهيم باشا على الصدر الأعظم رشيد باشا في الحرب المصرية العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Battle of Konya in 1832, Ibrahim Pasha's rout of Grand Vizier Reshid's army in the first Turko-Egyptian war; its sources are not yet checked on the page."
+  ar: "في أواخر سنة ١٨٣٢م سُحق جيش الصدر الأعظم العثماني رشيد باشا تحت أسوار قونية على يد الجيش المصري بقيادة إبراهيم باشا بن محمد علي في الحرب المصرية العثمانية الأولى — وهزيمة تثبت أن المدينة ما برحت تؤدي دورًا عسكريًا {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 288}."
+  en: "At the end of 1832 the Ottoman army of Grand Vizier Reshid Pasha was crushed under the walls of Konya by the Egyptian army of Ibrahim Pasha, son of Muhammad Ali, in the first Turko-Egyptian war — a defeat proving the city could still play a military role {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 288}."
+  ur: "1832ء کے آخر میں قونیہ کی فصیلوں کے نیچے صدرِ اعظم رشید پاشا کی عثمانی فوج کو محمد علی کے بیٹے ابراہیم پاشا کی مصری فوج نے پہلی مصری-عثمانی جنگ میں کچل دیا — یہ شکست ثابت کرتی ہے کہ شہر اب بھی فوجی کردار ادا کر سکتا تھا۔"
 wings: [time]
 periods: [period/colonial-era]
 regions: [anatolia-balkans]
 date:
-  start: { edtf: "1832", precision: year, status: tradition, derived: true }
-  end: { edtf: "1832", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+  start: { edtf: "1832-12~", hijri: "1248", calendar: gregorian, precision: month, status: historical, derived: true, note: "أواخر ١٨٣٢م تحت أسوار قونية {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 288}؛ السنة الهجرية تحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q2981297
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in Egyptian-Ottoman histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "EI2 art. ḲONYA (Cl. Cahen), vol. 5.1 PDF p. 288 (harvest OCR); originally a Wikidata card (Q2981297), rewritten against the page by Devin (SWE-2 Medium)"
+  generated_by: "Devin (SWE-2 High); rewritten by Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-konya-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

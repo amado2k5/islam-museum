@@ -1,0 +1,323 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "job.schema.json",
+  "title": "Museum entity: job",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "job"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "_base.schema.json#/$defs/name"
+      }
+    },
+    "domain": {
+      "enum": [
+        "governance-law",
+        "court-administration",
+        "scholarship-teaching",
+        "faith-preaching",
+        "medicine-care",
+        "sciences-numbers",
+        "arts-letters",
+        "building-making",
+        "trade-travel-sea",
+        "war-command",
+        "media-performance",
+        "sport",
+        "patronage-public-life",
+        "land-water"
+      ]
+    },
+    "kind": {
+      "enum": [
+        "office",
+        "craft",
+        "scholarly",
+        "religious",
+        "commercial",
+        "military",
+        "medical",
+        "artistic",
+        "service",
+        "administrative",
+        "modern-profession"
+      ]
+    },
+    "hirfa": {
+      "type": "boolean"
+    },
+    "broader": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "era": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "origins": {
+          "enum": [
+            "pre-islamic",
+            "prophetic",
+            "early-caliphate",
+            "classical",
+            "medieval",
+            "early-modern",
+            "modern"
+          ]
+        },
+        "first_attested": {
+          "$ref": "_base.schema.json#/$defs/date"
+        },
+        "status_today": {
+          "enum": [
+            "living",
+            "transformed",
+            "replaced",
+            "extinct"
+          ]
+        },
+        "successor_jobs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          }
+        }
+      }
+    },
+    "places": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "place"
+        ],
+        "properties": {
+          "place": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "start": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "end": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "arabia",
+          "levant-iraq",
+          "egypt-nile",
+          "maghreb",
+          "andalus-europe",
+          "anatolia-balkans",
+          "persia-central-asia",
+          "south-asia",
+          "southeast-asia",
+          "china-east-asia",
+          "west-africa-sahel",
+          "east-africa",
+          "africa",
+          "arab-world",
+          "americas-oceania",
+          "global"
+        ]
+      }
+    },
+    "organization": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "organized": {
+          "enum": [
+            "guild",
+            "neqaba",
+            "court-office",
+            "association",
+            "informal",
+            "mixed",
+            "none-known"
+          ]
+        },
+        "bodies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          }
+        }
+      }
+    },
+    "training": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "enum": [
+            "formal-schooling",
+            "apprenticeship",
+            "ijaza-chain",
+            "state-licence",
+            "mouth-to-mouth",
+            "hereditary-family",
+            "mixed"
+          ]
+        },
+        "certification": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "string"
+        }
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "workplaces": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "image": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "craft": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "materials": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "paper",
+              "parchment",
+              "ink",
+              "gold",
+              "silver",
+              "brass",
+              "bronze",
+              "copper",
+              "glass",
+              "ceramic",
+              "stone",
+              "marble",
+              "brick",
+              "wood",
+              "ivory",
+              "textile",
+              "wool",
+              "silk",
+              "cotton",
+              "leather"
+            ]
+          }
+        },
+        "techniques": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        },
+        "guild": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "bodies": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+              }
+            },
+            "shaykh_title": {
+              "$ref": "_base.schema.json#/$defs/localized"
+            }
+          }
+        },
+        "grades": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "initiation": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        },
+        "pir": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "marks": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        },
+        "practice": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "heritage": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "unesco_ich": {
+              "type": "string"
+            },
+            "sources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "made_listings": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "domain",
+    "kind",
+    "hirfa"
+  ],
+  "unevaluatedProperties": false
+}

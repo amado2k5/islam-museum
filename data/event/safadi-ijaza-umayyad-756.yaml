@@ -1,0 +1,27 @@
+id: event/safadi-ijaza-umayyad-756
+class: event
+kind: other
+label:
+  ar: "مجلس إجازة الصفدي بالجامع الأموي، ذو القعدة ٧٥٦هـ"
+  en: "Al-Safadi's ijaza session in the Umayyad Mosque, Dhu al-Qa'da 756"
+  ur: "صفدی کا اجازت مجلس جامع اموی میں، ذوالقعدہ 756ھ"
+summary:
+  ar: "أنشأ الصفدي جواب الملك الصالح إسماعيل بن الناصر محمد على كتاب السلطان المريني أبي الحسن، وأجاز رواية الرسالتين بخطه بعد أن أسمعهما عز الدين أبو يعلى حمزة بن القاضي قطب الدين موسى بن أحمد الأحمدي في مجلس واحد في ذي القعدة سنة ٧٥٦هـ بالجامع الأموي بدمشق، واصفاً قراءتهما بأنها أطريت السمع لفصاحتها وأمالت العطف لرجاحتها {cite:nafh-tib-maqqari p. 403}."
+  en: "In Dhu al-Qa'da 756 al-Safadi composed the reply of al-Malik al-Salih Isma'il ibn al-Nasir Muhammad to the letter of the Marinid sultan Abu al-Hasan, and granted ijaza for both risalas in his own hand after Izz al-Din Abu Ya'la Hamza read them back in a single session at the Umayyad Mosque of Damascus — a reading that, the record says, 'graced the ear with eloquence and swayed hearts with its weight' {cite:nafh-tib-maqqari p. 403}."
+  ur: "ذوالقعدہ 756ھ میں صفدی نے مرینی سلطان ابوالحسن کے خط کا جواب مرتب کیا جو ملک صالح اسماعیل بن ناصر محمد کی طرف سے تھا، اور جامع اموی دمشق میں عز الدین ابو یعلیٰ حمزہ کی ایک ہی مجلس میں قراءت کے بعد دونوں رسالوں کی روایت کی اجازت اپنے ہاتھ سے دی — ایسی قراءت جس نے 'فصاحت سے سمع کو محضوظ اور رجاحت سے دل کو جھکا دیا' {cite:nafh-tib-maqqari p. 403}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1355-11", hijri: "0756-11", calendar: julian, precision: month, status: historical, derived: true, note: "المجلس في ذي القعدة سنة ٧٥٦هـ بالجامع الأموي بدمشق {cite:nafh-tib-maqqari p. 403}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/al-safadi, role: "المُنشئ المُجيز", sources: [source/nafh-tib-maqqari] }
+sources: [source/nafh-tib-maqqari]
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 403 — سماع وإجازة الصفدي بالجامع الأموي ذو القعدة ٧٥٦هـ"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-safadi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -49,3 +49,9 @@ provenance:
   source: "English Wikipedia 'Syed Sheikh al-Hadi' (revision 1320685849 of 6 November 2025), Malay Wikipedia 'Syed Sheikh Syed Ahmad Al-Hadi' (revision 6686347 of 2 November 2025) and Wikidata item Q7444630 (item revision 2556587979 of 13 October 2026), each fetched by revision id through the MediaWiki/Wikidata APIs on 27 October 2026 with the returned ids asserted equal; the Wikidata item was read twice with identical claims. The QID was grounded through the page properties of both articles, which agree. Identity is pinned by biography — the Malacca-born Malayan reformist publisher and novelist (1867–1934) — as the brief required. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Malay form or the QID Q7444630, and data/_homonyms.yaml holds no shared Arabic label. No student_of relation to Ahmad Khatib al-Minangkabawi is written: neither article attests one. The Malay article's named settings for his learning are Penyengat and Terengganu, and both articles have him hearing Abduh lecture at al-Azhar and Rashid Rida in Mecca during the 1894/95 journey he made with Tahir Jalaluddin; hearing a lecture is not enrolment, and the brief's conditional edge therefore fails on the cited articles. His Jelutong death and burial place has no place record."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-93
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-syed-sheikh-al-hadi-en, source/wikipedia-syed-sheikh-al-hadi-ms, source/wikidata-syed-sheikh-al-hadi]

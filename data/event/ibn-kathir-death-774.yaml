@@ -1,0 +1,27 @@
+id: event/ibn-kathir-death-774
+class: event
+kind: death
+label:
+  ar: "وفاة ابن كثير بدمشق، شعبان ٧٧٤هـ"
+  en: "Ibn Kathir dies at Damascus, Sha'ban 774/February 1373"
+  ur: "ابن کثیر کی وفات دمشق میں، شعبان 774ھ/فروری 1373ء"
+summary:
+  ar: "توفي الشيخ عماد الدين أبو الفداء إسماعيل بن الشهاب الدين عمر بن كثير القرشي الشافعي، الإمام المفسر المحدث الواعظ الفقيه، يوم الخميس سادس عشر شعبان سنة ٧٧٤هـ بدمشق عن أربع وسبعين سنة {cite:suluk-maqrizi j.3 q.1 p. 208}؛ وقال ابن حجر في الدرر: مات في شعبان سنة ٧٧٤هـ وكان قد أضرّ في أواخر عمره {cite:durar-kamina-jil-1993 1/374}."
+  en: "The shaykh 'Imad al-Din Abu l-Fida' Isma'il, son of Shihab al-Din 'Umar ibn Kathir, al-Qurashi al-Shafi'i — the imam, mufassir, muhaddith, preacher and jurist — died on Thursday 16 Sha'ban 774 at Damascus, aged seventy-four {cite:suluk-maqrizi j.3 q.1 p. 208}; Ibn Hajar likewise dates his death to Sha'ban 774, noting that he had gone blind in his last years {cite:durar-kamina-jil-1993 1/374}."
+  ur: "شیخ عماد الدین ابوالفدا اسماعیل بن شہاب الدین عمر بن کثیر قرشی شافعی — امام، مفسر، محدث، واعظ اور فقیہ — جمعرات 16 شعبان 774ھ کو دمشق میں چوہتر برس کی عمر میں فوت ہوئے {cite:suluk-maqrizi j.3 q.1 p. 208}؛ ابن حجر بھی وفات شعبان 774ھ لکھتے ہیں اور بتاتے ہیں کہ وہ آخر عمر میں نابینا ہو گئے تھے {cite:durar-kamina-jil-1993 1/374}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1373-02", hijri: "0774-08", calendar: julian, precision: month, status: tradition, derived: true, note: "يوم الخميس سادس عشر شعبان ٧٧٤هـ عن أربع وسبعين سنة {cite:suluk-maqrizi j.3 q.1 p. 208}؛ شعبان ٧٧٤هـ {cite:durar-kamina-jil-1993 1/374}؛ التحويل مشتق.", sources: [source/suluk-maqrizi, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/suluk-maqrizi, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-kathir, role: "المتوفَّى", sources: [source/suluk-maqrizi, source/durar-kamina-jil-1993] }
+sources: [source/suluk-maqrizi, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "al-Maqrizi, al-Suluk j.3 q.1, s.a. 774, printed p. 208 (harvest OCR iB_Sl__3-1); Ibn Hajar, al-Durar al-Kamina 1/374 (harvest OCR DurarKamina__drkamth1); Dhayl al-Durar p. 99 (d. Shaban 774, Damascus)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-kathir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

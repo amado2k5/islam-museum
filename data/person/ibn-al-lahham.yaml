@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن اللحام"
   en: "Ibn al-Lahham"
-roles: [scholar]
+roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن اللحام؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn al-Lahham; the entry is not yet checked on the page."
+  ar: "علي بن محمد ابن اللحام، فقيه حنبلي من بعلبك، ناب بدمشق ودرّس بالمنصورية بمصر؛ توفي سنة 803هـ (1401م)."
+  en: "Ali Ibn al-Lahham (d. 803/1401), Hanbali jurist of Baalbek, deputy judge at Damascus and teacher at the Mansuriyya."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q6534437
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.5 p.6)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch3
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

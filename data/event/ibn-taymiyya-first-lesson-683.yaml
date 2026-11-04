@@ -1,0 +1,28 @@
+id: event/ibn-taymiyya-first-lesson-683
+class: event
+kind: other
+label:
+  ar: "أول درس لابن تيمية في السكرية بدمشق، ٦٨٣هـ/١٢٨٤م"
+  en: "Ibn Taymiyya's first lesson at the Sukkariyya, Damascus, 683/1284"
+  ur: "ابن تیمیہ کا پہلا درس، مدرسہ سکریہ دمشق، 683ھ/1284ء"
+summary:
+  ar: "خلف ابن تيمية أباه عبد الحليم (ت ٦٨٢هـ/١٢٨٤م) في وظيفته بمدرسة السكرية، فألقى أول درس له فيها يوم ٢ محرم ٦٨٣هـ/٢١ مارس ١٢٨٤م، وبعد سنة، في ١ صفر ٦٨٤هـ/١٧ أبريل ١٢٨٥م، شرع يدرّس التفسير {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}."
+  en: "Succeeding his father Abd al-Halim (d. 682/1284) in his post at the Sukkariyya madrasa, Ibn Taymiyya gave his first lesson there on 2 Muharram 683/21 March 1284; a year later, on 1 Safar 684/17 April 1285, he began teaching Qur'anic exegesis {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}."
+  ur: "اپنے والد عبد الحلیم (وفات 682ھ/1284ء) کی جگہ مدرسہ سکریہ کا منصب سنبھالتے ہوئے ابن تیمیہ نے وہاں 2 محرم 683ھ/21 مارچ 1284ء کو پہلا درس دیا؛ ایک سال بعد، 1 صفر 684ھ/17 اپریل 1285ء کو، انہوں نے تفسیر پڑھانا شروع کی {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1284-03-21", hijri: "0683-01-02", calendar: julian, precision: day, status: historical, derived: true, note: "أول درس ٢ محرم ٦٨٣هـ/٢١ مارس ١٢٨٤م {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}؛ التحويل مشتق." }
+  end: { edtf: "1285-04-17", hijri: "0684-02-01", calendar: julian, precision: day, status: historical, derived: true, note: "بدء تدريس التفسير ١ صفر ٦٨٤هـ/١٧ أبريل ١٢٨٥م {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "المُدرّس الخلف لأبيه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 983 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-taymiyya-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

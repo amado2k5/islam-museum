@@ -2,9 +2,7 @@
 id: person/thaun-al-falatuni
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 21"]
 ---
 ## خلاصہ
-ثاون افلاطون کا سخت حامی تھا۔ اس کی ایک کتاب ہے جس میں افلاطون کی کتابیں پڑھنے کے مراتب اور اس کی تصنیفات کے ناموں کا ذکر ہے۔ {cite:fihrist-ibn-al-nadim p.343}
-
-ابن الندیم نے افلاطون کی کتابوں کی ترتیب اور اس کے اقوال کے عنوانات اسی سے نقل کیے ہیں۔ {cite:fihrist-ibn-al-nadim p.344}
+تھاؤن، افلاطون کا مرید؛ اس نے افلاطون کی کتابوں کے مطالعہ کی ترتیب اور تصانیف کے نام پر کتاب لکھی، اور اسی سے ابن ندیم نے افلاطون کی کتابوں کی ترتیب اور مقالوں کے نام نقل کیے۔ {cite:fihrist-ibn-al-nadim p. 349}

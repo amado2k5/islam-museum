@@ -3,12 +3,19 @@ class: place
 kind: city
 label: { ar: "لاهور", en: "Lahore" }
 summary:
-  ar: "مدينة في باكستان، كانت من أهم مدن المغول، وفيها مسجد بادشاهي."
-  en: A city in Pakistan, among the most important Mughal cities; it holds the Badshahi Mosque.
+  ar: "مدينة كبرى في البنجاب على الضفة اليسرى لنهر راوري، أول ذكر باقٍ لها في «حدود العالم» سنة ٣٧٢هـ/٩٨٢م؛ صارت عاصمة الغزنويين بعد فقدان غزنة، ثم ازدهرت في العهد المغولي فاتخذها أكبر مركزًا لحملاته وجعلها جهانكير عاصمة سنة ١٠٣١هـ/١٦٢٣م {cite:encyclopaedia-of-islam-2 vol. 5.2 pp. 37-38}، وهي اليوم ثانية مدن باكستان {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+  en: "A major city of the Punjab on the left bank of the Ravi; its earliest surviving mention is in the Hudud al-'alam of 372/982. It became the Ghaznavid capital after the loss of Ghazna, flourished under the Mughals — Akbar's base of operations and Jahangir's capital from 1031/1623 {cite:encyclopaedia-of-islam-2 vol. 5.2 pp. 37-38} — and is today the second city of Pakistan {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+  ur: "پنجاب کا ایک بڑا شہر جو دریائے راوی کے بائیں کنارے واقع ہے؛ اس کا پہلا تحریری ذکر 372ھ/982ء کی «حدود العالم» میں ہے۔ غزنہ کے ہاتھ سے نکل جانے کے بعد یہ غزنویوں کا دارالسلطنت بنا، مغلوں کے عہد میں عروج پر پہنچا — اکبر کا مرکزِ عمل اور 1031ھ/1623ء سے جہانگیر کا دارالسلطنت {cite:encyclopaedia-of-islam-2 vol. 5.2 pp. 37-38} — اور آج پاکستان کا دوسرا بڑا شہر ہے {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
 wings: [place]
 regions: [south-asia]
 coordinates: [31.558, 74.3507]
 coordinate_precision: site
 external_ids: { wikidata: "Q11739", geonames: "1172451" }
-sources: [source/geonames-gazetteer]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
+sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; enriched by Devin (SWE-2 Medium) from EI2 vol. 5.2 LAHAWR" }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 5.2, LAHAWR PDF pp. 37-39 (printed pp. 597-599, P. Jackson) — siting on the Ravi, first mention 372/982, Ghaznavid second capital, Mongol sack 639/1241, Mughal prosperity under Akbar–Shah Jahan, Durrani/Sikh/British succession, partition 1947; coordinates from GeoNames"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1

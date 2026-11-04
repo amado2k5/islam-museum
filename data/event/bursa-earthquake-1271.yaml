@@ -1,0 +1,23 @@
+id: event/bursa-earthquake-1271
+class: event
+kind: other
+label: { ar: "زلزال بورصة الكبير 1855م", en: "The great Bursa earthquake of 1855", ur: "1855ء کا بورصہ کا عظیم زلزلہ" }
+summary:
+  ar: "أصاب زلزال سنة 1855م آثار بورصة إصابة بالغة: لحق بجامع أورخان غازي ضرر جسيم أُصلح بعده {cite:freely-ottoman-architecture-2011 p. 38}، وفقد جامع يلدرم بايزيد إحدى منارتيه {cite:freely-ottoman-architecture-2011 p. 41}، وتضرر جامع أمير سلطان فأُعيد بناؤه {cite:freely-ottoman-architecture-2011 p. 49}."
+  en: "The earthquake of 1855 CE struck Bursa's monuments hard: the Orhan Gazi Mosque suffered serious damage later repaired {cite:freely-ottoman-architecture-2011 p. 38}, the Yıldırım Bayezid Mosque lost one of its minarets {cite:freely-ottoman-architecture-2011 p. 41}, and the Emir Sultan Mosque was damaged and rebuilt {cite:freely-ottoman-architecture-2011 p. 49}."
+  ur: "1855ء کے زلزلے نے بورصہ کی یادگاروں کو سخت نقصان پہنچایا: اورخان غازی مسجد کو شدید ضرر ہوا جو بعد میں مرمت ہوئی {cite:freely-ottoman-architecture-2011 p. 38}، یلدرم بایزید مسجد کا ایک مینار گر گیا {cite:freely-ottoman-architecture-2011 p. 41}، اور امیر سلطان مسجد متاثر ہو کر دوبارہ تعمیر ہوئی {cite:freely-ottoman-architecture-2011 p. 49}۔"
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1855", hijri: "1271", calendar: julian, precision: year, status: tradition, derived: true, note: "1855م {cite:freely-ottoman-architecture-2011 p. 38, 41}؛ الهجري مشتق." }
+relations:
+  - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
+sources: [source/freely-ottoman-architecture-2011]
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (WIT Press 2011), printed pp. 38, 41, 49 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

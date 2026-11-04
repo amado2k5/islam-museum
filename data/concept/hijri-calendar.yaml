@@ -7,7 +7,7 @@ summary:
   en: "The lunar calendar that counts its years from the Prophet's hijra from Mecca to Medina, and sets the dates of Ramadan, the Hajj and the feasts. Reports say Umar ibn al-Khattab adopted the hijra as the starting point of dating; the reports differ on the occasion and the date, and need a second source (needs_source)."
 wings: [time, living]
 themes: [sacred-time]
-sources: [source/farghani-elements-astronomy, source/tarikh-khulafa-minhaj-1434]
+sources: [source/farghani-elements-astronomy, source/tarikh-khulafa-minhaj-1434, source/assabile-zaghloul-el-naggar]
 education:
   did_you_know:
     ar: "لم يبدأ التقويم الهجري من يوم الهجرة؛ استقر عمر بن الخطاب على جعل أول السنة المحرمَ سنة 17هـ."
@@ -17,6 +17,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
+provenance: { layer: own-research, source: "Earlier text from the sources the record cites (al-Farghani, Elements of astronomy; Tarikh al-Khulafa, Minhaj 1434); section added from Assabile el-hadara-el-nabaouia ep12 (transcript pass5-qwen, Qwen3-ASR)", generated_by: "Claude Haiku 5.5 (Claude Code) for the earlier text; Claude Code (claude-opus-5-5) for the el-hadara-el-nabaouia section", model: claude-opus-5-5, run: assabile-egypt-naggar-2 }
 status:
   review: draft
   completeness: 1

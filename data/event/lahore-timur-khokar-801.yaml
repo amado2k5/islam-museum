@@ -1,0 +1,28 @@
+id: event/lahore-timur-khokar-801
+class: event
+kind: other
+label:
+  ar: "شيخة كوكر يذعن لتيمور في لاهور ثم يُخمد، ٨٠١هـ/١٣٩٨م"
+  en: "Shaykha Khokar submits to Timur at Lahore and is suppressed, 801/1398"
+  ur: "شیخہ کھوکر کا لہور میں تیمور کے سامنے سر تسلیم خم کرنا اور پھر دبا دیا جانا، 801ھ/1398ء"
+summary:
+  ar: "كان شيخة كوكر قد عُيِّن واليًا على لاهور من طرف محمود شاه طغلق، فبادر إلى إظهار الطاعة لتيمور سنة ٨٠١هـ/١٣٩٨م، ولكنه لما أبدى بوادر خروج عن الطاعة أخمدته حملة قادها بير محمد بن جهانكير حفيد تيمور {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  en: "Shaykha Khokar, appointed governor of Lahore by Mahmud Shah Tughluq, made a timely submission to Timur in 801/1398; but on showing signs of disaffection he was suppressed by an army under the conqueror's grandson Pir Muhammad b. Jahangir {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  ur: "شیخہ کھوکر جسے محمود شاہ طغلق نے لہور کا گورنر مقرر کیا تھا، نے 801ھ/1398ء میں تیمور کے آگے بروقت سر تسلیم خم کیا؛ لیکن بے وفائی کے آثار دکھانے پر فاتح کے پوتے پیر محمد بن جہانگیر کی قیادت میں ایک فوج نے اسے کچل دیا {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [south-asia]
+date:
+  start: { edtf: "1398", hijri: "0801", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/timur-lang, role: "المُذعَن له", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/pir-muhammad-ibn-jahangir, role: "قائد الحملة", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 38 (LAHAWR, printed p. 598) — Shaykha Khokar's submission to Timur 801/1398 and suppression by Pir Muhammad"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

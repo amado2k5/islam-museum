@@ -1,0 +1,27 @@
+id: event/al-suyuti-shaykhuniyya-877
+class: event
+kind: other
+label:
+  ar: "السيوطي مدرّساً للحديث في الشيخونية، ٨٧٧هـ/١٤٧٢م"
+  en: "Al-Suyuti appointed teacher of hadith at the Shaykhuniyya, 877/1472"
+  ur: "سیوطی کا شیخونیہ میں مدرس حدیث مقرر ہونا، 877ھ/1472ء"
+summary:
+  ar: "نال السيوطي سنة ٨٧٧هـ/١٤٧٢م منصب تدريس الحديث في الشيخونية؛ فرشّحه له شيخه الكافياجي، ويبدو أنه حصل عليه كذلك بمساندة أمير مملوكي {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  en: "In 877/1472 al-Suyuti obtained the post of teacher of hadith at the Shaykhuniyya; though nominated by his teacher al-Kafiyaji, he seems to have owed the appointment also to the support of a Mamluk amir {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  ur: "877ھ/1472ء میں سیوطی کو شیخونیہ میں تدریس حدیث کا منصب ملا؛ اگرچہ ان کے استاذ کافیاجی نے انہیں نامزد کیا، لیکن شاید ایک مملوک امیر کی حمایت سے بھی یہ عہدہ ملا {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1472~", hijri: "0877", calendar: julian, precision: year, status: historical, derived: true, note: "سنة ٨٧٧هـ/١٤٧٢م؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-suyuti, role: "مدرّس الحديث", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed pp. 913-915, art. al-Suyuti (E. Geoffroy); shadharat-dhahab"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-suyuti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

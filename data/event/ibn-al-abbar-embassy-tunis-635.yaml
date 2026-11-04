@@ -1,0 +1,28 @@
+id: event/ibn-al-abbar-embassy-tunis-635
+class: event
+kind: other
+label:
+  ar: "وفد ابن الأبار إلى سلطان إفريقية يستغيث به لبلنسية، ٦٣٥هـ"
+  en: "Ibn al-Abbar's embassy to the sultan of Ifriqiya for beleaguered Valencia, 635/1238"
+  ur: "محصور بلنسیہ کے لیے ابن ابار کا افریقیہ کے سلطان کے پاس وفد، 635ھ/1238ء"
+summary:
+  ar: "لما حاصر جيمس الأول ملك أرغون بلنسية في رمضان ٦٣٥هـ (أبريل–مايو 1238م)، بُعث ابن الأبار في وفد إلى سلطان إفريقية الحفصي أبي زكريا يستمده النجدة؛ وأنشد أمامه قصيدته السينية في الرابع من المحرم (أغسطس 1238م كما طبع) مصوِّرًا فيها بلده المحاصَر تصويرًا موجعًا {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}، فبادر السلطان بإعانة أهلها وشحن الأساطيل بالمدد من المال والأقوات والكسى {cite:nafh-tib-maqqari p. 464}."
+  en: "When James I of Aragon besieged Valencia in Ramadan 635 (April–May 1238), Ibn al-Abbar was sent with a deputation to the Hafsid sovereign Abu Zakariyya' of Tunis to beg assistance; he recited before him his qasida rhyming in sin on 4 Muharram (17 August 1238 as printed), painting a moving picture of his besieged native city {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}. The sultan hastened to aid its people, loading fleets with money, provisions and clothing {cite:nafh-tib-maqqari p. 464}."
+  ur: "جب جیمز اول آراگونی نے رمضان 635ھ (اپریل–مئی 1238ء) میں بلنسیہ کا محاصرہ کیا تو ابن ابار کو حفصی سلطان ابو زکریا کے پاس امداد مانگنے کے لیے وفد میں بھیجا گیا؛ انہوں نے 4 محرم کو (مطبوعہ تاریخ کے مطابق 17 اگست 1238ء) سلطان کے سامنے اپنی سین راء قصیدہ پڑھا جس میں محصور آبائی شہر کا تکلیف دہ منظر کھینچا {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}۔ سلطان نے فوراً اہل شہر کی مدد کی اور بیڑوں کو مال، خوراک اور کپڑے سے لد کر روانہ کیا {cite:nafh-tib-maqqari p. 464}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1238~", hijri: "0635~", calendar: julian, precision: year, status: tradition, derived: true, note: "الحصار في رمضان ٦٣٥/أبريل–مايو 1238، والإنشاد في رابع المحرم كما في المطبوع؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}.", sources: [source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari] }
+relations:
+  - { type: occurred_at, target: place/tunis, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-abbar, role: "المستغيث بالقصيدة السينية", sources: [source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/abu-zakariya-al-hafsi, role: "السلطان المستغاث به", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 printed p. 705 (IBN AL-ABBĀR); al-Maqqari, Nafh al-Tib printed p. 464 — Apple Vision OCR of local scans"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-abbar-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

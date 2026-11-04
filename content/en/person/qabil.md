@@ -12,3 +12,6 @@ The book says that Adam wanted each of his two sons to bring an offering, so tha
 
 ## The killing
 The report says that Qabil harboured envy and then told his brother that he would kill him. Habil replied that God accepts only from those who guard themselves against wrong, and that he would not raise his hand to kill his brother. Then Qabil killed him. The reports differ on the place of the killing and on the means used {cite:qisas-anbiya-thaalabi-edition p.45}.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh holds that Qabil, the first killer in history, established killing, so a share of the burden of every killer until the Day of Resurrection is placed in his scale of misdeeds without lessening theirs, down to the pilot who bombs cities and villages. {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:05:00} In another episode he holds that haste after envy is what made the son of Adam kill his brother. {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:05:00}

@@ -1,0 +1,28 @@
+id: event/musa-bugha-expedition-263
+class: event
+kind: campaign
+label:
+  ar: "جيش موسى بن بغا لعزل ابن طولون يتفرق، ٢٦٣هـ/٨٧٧م"
+  en: "Musa ibn Bugha's army sent to remove Ibn Tulun dissolves, 263/877"
+  ur: "موسیٰ بن بغا کی ابن طولون کی برطرفی کے لیے روانہ فوج کا بکھرنا، 263ھ/877ء"
+summary:
+  ar: "لما رأى الموفق — المنشغل بحرب الزنج — أن ما بعث به ابن طولون من المال دون مراده، جهّز سنة ثلاث وستين ومائتين جيشاً بقيادة موسى بن بغا لعزله، فانهارت الحملة بمطالب الجند وبما بثّته قوى ابن طولون من الخوف؛ وكان ابن طولون قد كتب إلى الموفق يذكّره أن لا ولاية له على مصر أصلاً {cite:encyclopaedia-of-islam-2 vol. 1 p. 300-301} {cite:encyclopaedia-of-islam-2 vol. 10 p. 668}."
+  en: "When al-Muwaffaq, absorbed in the Zanj war, judged Ibn Tulun's remittance insufficient, he dispatched in 263/877 a force under Musa ibn Bugha to remove him; the expedition collapsed under the soldiers' demands and the fear Ibn Tulun's forces inspired. Ibn Tulun had written to al-Muwaffaq pointing out that he had no formal jurisdiction over Egypt at all {cite:encyclopaedia-of-islam-2 vol. 1 p. 300-301} {cite:encyclopaedia-of-islam-2 vol. 10 p. 668}."
+  ur: "جب موفق — جو زنج کی جنگ میں مصروف تھا — نے ابن طولون کی بھیجی ہوئی رقم ناکافی پائی تو 263ھ/877ء میں اس نے موسیٰ بن بغا کی قیادت میں اسے ہٹانے کے لیے فوج بھیجی؛ مگر سپاہیوں کے مطالبوں اور ابن طولون کی قوتوں سے بکھرنے والے خوف سے مہم ناکام ہو گئی۔ ابن طولون نے موفق کو لکھا تھا کہ مصر پر اس کا کوئی باقاعدہ اختیار ہی نہیں {cite:encyclopaedia-of-islam-2 vol. 1 p. 300-301} {cite:encyclopaedia-of-islam-2 vol. 10 p. 668}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq, egypt-nile]
+date:
+  start: { edtf: "0877~", hijri: "0263", calendar: julian, precision: year, status: tradition, derived: true, note: "أرسل الموفق جيشاً تحت موسى بن بغا لإزاحته سنة ٢٦٣هـ/٨٧٧م {cite:encyclopaedia-of-islam-2 vol. 1 p. 300-301}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: had_participant, target: person/ahmad-ibn-tulun, role: "المستهدف بالعزل", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "الآمر بالجيش", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/musa-ibn-bugha, role: "قائد الحملة المنهارة", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 pp. 300-301 art. AHMAD B. TULUN; vol. 10 p. 668 art. TULUNIDS (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ahmad-ibn-tulun-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

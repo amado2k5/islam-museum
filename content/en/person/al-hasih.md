@@ -2,12 +2,7 @@
 id: person/al-hasih
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 20"]
 ---
 ## Overview
-Al-Hasih, the head of the Mughtasila, who are the Sabians of the marshes, and who, according to Ibn al-Nadim, established their creed. {cite:fihrist-ibn-al-nadim p.477}
-
-## What is attributed to him
-Ibn al-Nadim says that he claimed the two worlds are male and female, that herbs are of the male law and the Akshut of the female law, and that trees are his roots. He had a pupil called Shim'un. {cite:fihrist-ibn-al-nadim p.477}
-
-This account is from Ibn al-Nadim alone and needs an additional source.
+al-Hasih, chief of the Mughtasila, the Sabians of the marshes, who formulated their creed; he holds that the two worlds are male and female, that the vegetables derive from the male order and the greens from the female, and the trees are their veins; his disciple was called al-Baqaya. {cite:fihrist-ibn-al-nadim p. 481}

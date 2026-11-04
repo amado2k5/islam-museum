@@ -3,11 +3,11 @@ class: person
 label:
   ar: "مستقيم زاده"
   en: "Mustakimzade Sulayman Sadeddin"
-roles: [scholar]
+roles: [jurist, sufi]
 gender: male
 summary:
-  ar: "بطاقة أولية لمستقيم زاده سليمان سعد الدين، فقيه ومتصوف ومؤرخ عثماني القرن الثامن عشر، توفي سنة ١٧٨٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mustakimzade Sulayman Sadeddin, the eighteenth-century Ottoman jurist, mystic and biographer, d. 1788; the source entry is not yet checked on the page."
+  ar: "سليمان سعد الدين «مستقيم زاده»، باحث متفقه صوفي عثماني صاحب «مجلة النصاب»؛ توفي سنة 1202هـ (1788م)."
+  en: "Sulayman “Mustakimzade” (1719–1788), Ottoman jurist-Sufi scholar, author of Majallat al-Nisab."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q6016435
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0063
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.127)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

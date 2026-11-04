@@ -1,0 +1,28 @@
+id: event/tirmidhi-qutayba-balkh-235
+class: event
+kind: other
+label:
+  ar: "سماع الترمذي من قتيبة بن سعيد قبل ٢٤٠هـ"
+  en: "Al-Tirmidhi hears Qutayba ibn Sa'id, before 240/854"
+  ur: "ترمذی کی قتیبہ بن سعید سے سماعت، 240ھ/854ء سے پہلے"
+summary:
+  ar: "كان قتيبة بن سعيد بن جميل أبو رجاء البغلاني — شيخ الشيخين البخاري ومسلم — من الثمانية الذين أكثر الترمذي الرواية عنهم في سننه حتى بلغ ما أخذه عنهم ثلاثة أرباع كتابه {cite:mawsuat-a3lam-ulama-adaba p. 451}؛ وسماعه منه واقع قبل وفاة قتيبة سنة ٢٤٠هـ، وهي محطة من رحلته الخراسانية {cite:mawsuat-a3lam-ulama-adaba p. 450-451}."
+  en: "Qutayba ibn Sa'id ibn Jamil, Abu Raja' al-Baghlani — shaykh of the two shaykhs al-Bukhari and Muslim — was one of the eight masters from whom al-Tirmidhi narrated most heavily in his Sunan, his intake from them amounting to three quarters of the book {cite:mawsuat-a3lam-ulama-adaba p. 451}; the hearing falls before Qutayba's death in 240/854 and forms a stop of his Khurasan journey {cite:mawsuat-a3lam-ulama-adaba p. 450-451}."
+  ur: "قتیبہ بن سعید بن جمیل ابو رجاء بغلانی — بخاری و مسلم کے شیخ — ان آٹھ مشائخ میں سے تھے جن سے ترمذی نے اپنی سنن میں سب سے زیادہ روایت کی، یہاں تک کہ ان سے لی گئی روایات کتاب کے تین چوتھائی بنیں {cite:mawsuat-a3lam-ulama-adaba p. 451}؛ یہ سماعت قتیبہ کی وفات 240ھ/854ء سے پہلے واقع ہوئی اور ان کی خراسانی مسافرت کا ایک موقف ہے {cite:mawsuat-a3lam-ulama-adaba p. 450-451}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0850~", hijri: "0235~", calendar: julian, precision: decade, status: tradition, derived: true, note: "قتيبة بن سعيد من الثمانية المكثر عنهم {cite:mawsuat-a3lam-ulama-adaba p. 451}؛ وفاته ٢٤٠هـ تجعل السماع قبلها؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: occurred_at, target: place/balkh, sources: [source/mawsuat-a3lam-ulama-adaba], note: "قتيبة بن سعيد البغلاني مقيم ببلخ، شيخ مشايخ خراسان؛ الموضع مشتق من محل إقامة الشيخ" }
+  - { type: had_participant, target: person/al-tirmidhi-muhammad-ibn-isa, role: "السامع", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: had_participant, target: person/qutayba-ibn-said, role: "الشيخ", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء ج4 ص450-451 (harvest OCR v04 pages 450-451)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-tirmidhi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

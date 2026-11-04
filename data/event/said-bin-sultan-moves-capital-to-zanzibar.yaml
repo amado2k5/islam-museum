@@ -1,0 +1,36 @@
+id: event/said-bin-sultan-moves-capital-to-zanzibar
+class: event
+kind: other
+label:
+  ar: "نقل سعيد بن سلطان عاصمته إلى زنجبار"
+  en: "Said bin Sultan moves his capital to Zanzibar"
+  ur: "سعید بن سلطان کا دارالحکومت زنجبار منتقل کرنا"
+summary:
+  ar: "نقل سعيد بن سلطان عاصمته من مسقط إلى زنجبار في ثلاثينيات القرن التاسع عشر، فصارت الجزيرة مقر سلطانه التجاري في غرب المحيط الهندي."
+  en: "Said bin Sultan moved his capital from Muscat to Zanzibar in the 1830s, and the island became the seat of his commercial power in the western Indian Ocean."
+  ur: "سعید بن سلطان نے 1830ء کی دہائی میں دارالحکومت مسقط سے زنجبار منتقل کیا، اور یہ جزیرہ مغربی بحر ہند میں ان کی تجارتی طاقت کا مرکز بن گیا۔"
+wings: [time, place]
+themes: [trade-and-finance]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start:
+    edtf: "183X"
+    hijri: "1251"
+    calendar: gregorian
+    precision: decade
+    status: historical
+    derived: true
+    note: "المقالتان الإنجليزية عن سعيد بن سلطان وبريطانيكا تؤرخان نقل العاصمة بالثلاثينيات لا بسنة. سنة 1251 الهجرية تحويل جدولي لمنتصف العقد (15 يونيو 1835) لا تاريخ ذكره المصدر."
+    sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan]
+relations:
+  - { type: occurred_at, target: place/zanzibar, sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
+  - { type: had_participant, target: person/said-bin-sultan, role: "نقل عاصمته من مسقط إلى زنجبار", sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
+sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Said bin Sultan' and Encyclopaedia Britannica 'Saʿīd ibn Sulṭān', as already recorded in person/said-bin-sultan and content/ar/person/said-bin-sultan.md (read for this story on 1 November 2026). The articles date the move to the 1830s, not to a year."
+  generated_by: "Cursor"
+  model: "Grok 4.7"
+  run: explorer-zanzibar
+status: { review: published, completeness: 2, generated_by: "Cursor (Grok 4.7)" }

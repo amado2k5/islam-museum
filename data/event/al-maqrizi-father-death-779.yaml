@@ -1,0 +1,27 @@
+id: event/al-maqrizi-father-death-779
+class: event
+kind: other
+label:
+  ar: "وفاة والد المقريزي، ٧٧٩هـ/١٣٧٨م"
+  en: "Death of al-Maqrizi's father, 779/1378"
+  ur: "مقریزی کے والد کی وفات، 779ھ/1378ء"
+summary:
+  ar: "توفي والد المقريزي سنة ٧٧٩هـ/١٣٧٧–١٣٧٨م وله خمسون سنة، وكان قد سبقه جده لأمه الفقيه اللغوي ابن الصائغ بثلاث سنين (٧٧٦هـ/١٣٧٥م)، ففقد الفتى في نحو الرابعة عشرة أبوه وجده اللذين نشأ في حجرهما؛ وكان أبوه شافعياً وجده لأبيه حنبلياً، وتفقه المقريزي أولاً على المذهب الحنفي مذهب جده لأمه ثم تحول شافعياً بعد مدة طويلة واستقر عليه أمره {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}."
+  en: "Al-Maqrizi's father died in 779/1377-8 at the age of fifty, three years after the maternal grandfather, the philologist-jurist Ibn al-Sa'igh (d. 776/1375); the boy of about fourteen thus lost the two men in whose care he had grown up. His father had been a Shafi'i and his paternal grandfather a Hanbali; al-Maqrizi himself first studied law on the Hanafi rite of his maternal grandfather, then turned Shafi'i after a long interval and settled on it {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}."
+  ur: "مقریزی کے والد 779ھ/1377-78ء میں پچاس سال کی عمر میں فوت ہوئے، ان کی وفات سے تین سال پہلے نانا ابن الصائغ (وفات 776ھ) کا انتقال ہو چکا تھا؛ اس طرح تقریباً چودہ سال کا لڑکا ان دونوں سرپرستوں سے محروم ہو گیا جن کی کفالت میں پلا تھا۔ والد شافعی اور دادا حنبلی تھے؛ مقریزی نے پہلے اپنے نانا کے حنفی مذہب پر فقہ پڑھی، پھر ایک طویل عرصے کے بعد شافعی ہو گئے اور اسی پر جم گئے {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1378~", hijri: "0779", calendar: julian, precision: year, status: historical, derived: true, note: "وفاة الأب سنة ٧٧٩هـ عن خمسين سنة؛ وجده لأمه ابن الصائغ توفي ٧٧٦هـ؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 6 p. 213}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-maqrizi, role: "الابن", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 6 (Mahk-Mid), printed pp. 213-214, art. al-Makrizi (F. Rosenthal); shadharat-dhahab juz s.a. 845 pp. 254-255"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-maqrizi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

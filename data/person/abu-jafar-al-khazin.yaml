@@ -3,11 +3,11 @@ class: person
 label:
   ar: "أبو جعفر الخازن"
   en: "Abu Ja'far al-Khazin"
-roles: [scholar]
+roles: [mathematician, astronomer]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي جعفر محمد بن الحسين الخازن الخراساني، رياضي وفلكي القرن العاشر صاحب زيج الصفائح، توفي سنة ٩٧١م؛ تذكره مصادر تاريخ العلوم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ja'far Muhammad ibn al-Husayn al-Khazin al-Khurasani, the tenth-century mathematician and astronomer author of Zij al-Safa'ih, d. 971; the source entry is not yet checked on the page."
+  ar: "محمد بن الحسين «أبو جعفر الخازن»، فلكي ورياضياتي خراساني صاحب «زيج الصفائح»؛ توفي نحو 400هـ (1010م)."
+  en: "Abu Ja'far al-Khazin (d. c.1010), Khurasani astronomer-mathematician, author of Zij al-Safa'ih."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q2991000
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Sezgin, GAS vol. V Mathematik — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0013
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.6 p.98)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

@@ -2,9 +2,7 @@
 id: person/al-qasim-ibn-sima
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 24"]
 ---
 ## Overview
-Al-Qasim ibn Sima, an Abbasid commander who, according to Ibn al-Athir, raided the summer lands in 298 AH. {cite:kamil-ibn-al-athir p. 48}
-
-The data hold no other details of his life or the result of the raid, which need an additional source.
+al-Qasim ibn Sima, of al-Rahba; he relates that the Arabs who had sought protection with the Qarmati broke faith and plotted to storm al-Rahba on the day of the feast while the people were busy at prayer, and that he fell upon them and took captives — his testimony transmitted in the Muntazam. {cite:muntazam-ibn-al-jawzi v. 13 p. 22}

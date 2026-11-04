@@ -40,3 +40,6 @@ translators: []
 
 ## الخطط
 أورد ابن عبد الحكم خطط القبائل حول المسجد ودار عمرو: قريش والأنصار وأسلم وغفار وجهينة وأهل الراية، ثم بلي ولخم وغافق ومهرة وتجيب والصدف وغيرهم. {cite:futuh-misr-amir-1999 p. 141} {cite:futuh-misr-amir-1999 p. 161} {cite:futuh-misr-amir-1999 p. 164} {cite:futuh-misr-amir-1999 p. 166} انظر [[place/khitat-al-fustat|خطط الفسطاط]].
+
+## في برنامج «ماذا قدم المسلمون للعالم» لراغب السرجاني
+يروي [[person/ragheb-al-sergani|راغب السرجاني]] في الحلقة الرابعة عشرة قصة نشأة الفسطاط: أن [[person/amr-ibn-al-as|عمرو بن العاص]] بعد فتح مصر، الذي يقول إن الرومان كانوا يحتلونها قبله تسعمئة سنة، نصب خيمته، فجاءت حمامة فعشّشت عليها وباضت بيضتين، فرقّ قلبه أن يُهيجها فترك الخيمة. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:17:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:18:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:19:00} ثم بنى المسلمون فساطيطهم حولها، فكان ذلك موضع المدينة، وأُنشئ المسجد إلى جوارها، كل ذلك حتى لا تُهاج الحمامة عن بيضها؛ وهذه روايته للخبر، وتذكر هذه الصفحة أقوالًا أخرى في سبب التسمية. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:19:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:19:30}

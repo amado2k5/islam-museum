@@ -1,0 +1,37 @@
+id: person/oussama-mellouli
+class: person
+label: { ar: "أسامة الملولي", en: "Oussama Mellouli", ur: "اسامہ ملولی" }
+names:
+  - { value: "Oussama Mellouli", kind: full }
+  - { value: "أسامة الملولي", kind: full }
+  - { value: "Ous", kind: alternate }
+gender: male
+summary:
+  ar: "سبّاح تونسي، وُلد في المرسى سنة 1984. فاز بذهبية 1500 متر حرة في أولمبياد بكين 2008، وبذهبية ماراثون 10 كيلومترات وبرونزية 1500 متر في لندن 2012، فكان أول سبّاح يفوز بميداليات في المياه المفتوحة والمسبح في دورة أولمبية واحدة، وشارك في ست دورات أولمبية بين 2000 و2020."
+  en: "Tunisian swimmer, born in La Marsa in 1984. He won the 1500 m freestyle at the Beijing 2008 Olympics, then the 10 km marathon gold and the 1500 m freestyle bronze at London 2012 — the first swimmer to medal in both open water and the pool at a single Olympics — and competed at six Olympic Games between 2000 and 2020."
+  ur: "تیونس کے تیراک، 1984 میں لا مرسا میں پیدا ہوئے۔ انہوں نے بیجنگ 2008 اولمپکس میں 1500 میٹر فری اسٹائل جیتا، پھر لندن 2012 میں 10 کلومیٹر میراتھن کا سونا اور 1500 میٹر فری اسٹائل کا کانسی کا تمغہ جیتا — ایک ہی اولمپکس میں کھلے پانی اور پول دونوں میں تمغہ جیتنے والے پہلے تیراک — اور 2000 سے 2020 تک چھ اولمپک کھیلوں میں حصہ لیا۔"
+roles: [swimmer]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1984-02-16"
+  hijri: "1404"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 16 February 1984 in La Marsa (English article infobox, Arabic and French articles; Wikidata). The English article's early-life section loosely says Tunis; La Marsa is a coastal suburb of the capital. La Marsa has no place entity in the graph, so the birthplace is recorded here and in prose only. The Hijri year 1404 is the tabular conversion of 16 February 1984 and is marked derived."
+  sources: [source/wikipedia-oussama-mellouli-en, source/wikipedia-oussama-mellouli-ar, source/wikipedia-oussama-mellouli-fr, source/wikidata-oussama-mellouli]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or French articles names a religion for him, and Wikidata records no religion (P140) statement. His nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-oussama-mellouli-en, source/wikipedia-oussama-mellouli-ar, source/wikipedia-oussama-mellouli-fr, source/wikidata-oussama-mellouli]
+external_ids: { wikidata: "Q331753" }
+sources: [source/wikipedia-oussama-mellouli-en, source/wikipedia-oussama-mellouli-ar, source/wikipedia-oussama-mellouli-fr, source/wikidata-oussama-mellouli]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380752668), Arabic Wikipedia (revision 74314894), French Wikipedia (revision 235639910) and Wikidata Q331753 (item revision 2517471105, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 Nov 2026; QID grounded from the English article's page property and confirmed in every edition's page properties; existence checked by name (English and Arabic) and by QID across data/person/ — no prior record; La Marsa has no place entity in data/place/."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-152A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

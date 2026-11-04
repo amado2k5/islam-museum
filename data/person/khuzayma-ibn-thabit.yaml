@@ -8,10 +8,11 @@ periods: [period/rashidun]
 wings: [people]
 relations:
   - { type: member_of, target: group/banu-khatma, note: "من أوائل من أسلم من بني خطمة عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
-sources: [source/tarikh-khulafa-minhaj-1434, source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
+sources: [source/tarikh-khulafa-minhaj-1434, source/ibn-hisham-saqqa, source/ibn-hajar-isaba, source/assabile-abu-ishaq-alheweny]
 status: { review: draft, completeness: 3 }
 external_ids: { wikidata: "Q1113013" }
 provenance:
   layer: own-research
+  source: "al-Suyuti's Tarikh al-Khulafa (Minhaj 1434), Ibn Hisham (Saqqa) and Ibn Hajar's al-Isaba, as listed in this record's sources (earlier record by Devin); section on Abu Ishaq al-Heweny's madrassat-al-hayat (Assabile transcripts pass5-qwen) added in run assabile-egypt-heweny-1 by Claude Code (claude-opus-5-5)"
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,49 @@
+id: person/ibrahim-kalin
+class: person
+label: { ar: "إبراهيم قالن", en: "İbrahim Kalın", ur: "ابراہیم قالن" }
+names:
+  - { value: "İbrahim Kalın", kind: full }
+gender: male
+summary:
+  ar: "إبراهيم قالن (وُلد في 15 أيلول 1971 في إسطنبول) أكاديمي تركي متخصص في الفلسفة الإسلامية ورئيس جهاز الاستخبارات الوطنية منذ حزيران 2023. تتلمذ على سيد حسين نصر وكتب دراسة مرجعية في نظرية المعرفة عند ملا صدرا، وأسس مؤسسة سيتا، وكان المتحدث باسم الرئيس أردوغان ومستشاره الأول من 2014 إلى 2023؛ وهو أيضًا عازف باغلاما وملحن."
+  en: "İbrahim Kalın (born 15 September 1971 in Istanbul) is a Turkish academic of Islamic philosophy and intelligence chief, director of the National Intelligence Organization since June 2023. A student of Seyyed Hossein Nasr, he wrote the standard study of Mulla Sadra's epistemology, founded the SETA think tank, and served as President Erdoğan's spokesperson and senior adviser from 2014 to 2023; he is also a bağlama player and composer."
+  ur: "ابراہیم قالن (پیدائش 15 ستمبر 1971، استنبول) ترک ماہر اسلامی فلسفہ اور انٹیلیجنس سربراہ ہیں، جون 2023 سے قومی انٹیلیجنس تنظیم کے ڈائریکٹر۔ وہ سید حسین نصر کے شاگرد ہیں، ملا صدرا پر ان کی کتاب مرجع ہے، انھوں نے سیٹا تھنک ٹینک قائم کیا اور 2014 سے 2023 تک صدر ایردوان کے ترجمان و مشیر رہے۔"
+roles: [scholar, philosopher, writer, politician, musician]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1971-09-15"
+  hijri: "1391"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 15 September 1971 in Istanbul (the English and Turkish articles and the Wikidata item agree; his family is from Erzurum). The hijri year 1391 is a tabular derived conversion of the Gregorian date (derived: true)."
+  sources: [source/wikipedia-ibrahim-kalin-en, source/wikipedia-ibrahim-kalin-tr, source/wikidata-ibrahim-kalin]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ibrahim-kalin-en, source/wikipedia-ibrahim-kalin-tr, source/wikidata-ibrahim-kalin] }
+  - { type: successor_of, target: person/hakan-fidan, sources: [source/wikipedia-ibrahim-kalin-en, source/wikipedia-hakan-fidan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or order for İbrahim Kalın himself. His Wikidata
+      item's only religion statement is Islam generically, which under the lane
+      doctrine settles nothing. His doctorate on Mulla Sadra under Seyyed Hossein
+      Nasr, his translations of Izutsu and of the Shadhili-Darqawi master's
+      letters, and his books on Islamic philosophy are his scholarship - subject
+      matter, not attestation of his own affiliation - and his inclusion in the
+      Muslim 500 list is a list filing. The value is therefore unknown.
+    sources: [source/wikipedia-ibrahim-kalin-en, source/wikipedia-ibrahim-kalin-tr, source/wikipedia-ibrahim-kalin-ar, source/wikidata-ibrahim-kalin]
+external_ids: { wikidata: "Q15440590" }
+sources:
+  - source/wikipedia-ibrahim-kalin-en
+  - source/wikipedia-ibrahim-kalin-tr
+  - source/wikipedia-ibrahim-kalin-ar
+  - source/wikidata-ibrahim-kalin
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'İbrahim Kalın' revision 1378296978 of 3 October 2026; Turkish Wikipedia article 'İbrahim Kalın' revision 38184346 of 6 October 2026; Arabic Wikipedia article 'إبراهيم قالن' revision 75963749 of 22 July 2026; Wikidata item Q15440590 revision 2521220579 of 22 July 2026 - each fetched live in-session on 2 November 2026 via the MediaWiki API, the QID grounded in the articles' own page properties, and every revision re-asserted identical on a second query. The successor_of edge is written here, in the successor's record: the English article records his appointment as MİT director on 5 June 2023, and Hakan Fidan's article records Fidan's move to the foreign ministry in June 2023; Fidan's record is built in this same wave (brief 182o1). The born_in edge targets place/istanbul, verified on origin/main. No record or draft stub for Kalın existed on origin/main when this record was built (checked by name fragments and by QID against origin/main on 2 November 2026)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-182o1"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

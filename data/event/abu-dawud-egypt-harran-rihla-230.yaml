@@ -1,0 +1,29 @@
+id: event/abu-dawud-egypt-harran-rihla-230
+class: event
+kind: other
+label:
+  ar: "رحلة أبي داود الواسعة: مصر والجزيرة وحران وحلب"
+  en: "Abu Dawud's wider journey: Egypt, the Jazira, Harran and Aleppo"
+  ur: "ابو داؤد کی وسیع مسافرت: مصر، جزیرہ، حران اور حلب"
+summary:
+  ar: "سمع أبو داود من خلق بالحجاز ومصر والشام والثغر وخراسان، ومن أبي جعفر النفيلي وطائفة بالجزيرة، ومن أبي توبة الربيع بن نافع بحلب، ومن أحمد بن أبي شعيب بحران، وحيوة ويزيد بن عبد ربه بحمص {cite:tarikh-islam-dhahabi p. 359}؛ وقال في سننه: شبّرت قثاءة بمصر ثلاثة عشر شبراً ورأيت أترجة على بعير قُطعت قطعتين {cite:tarikh-islam-dhahabi p. 362}. وتقع هذه الجولة في الثلاثينات الهجرية بعد رحلته الأولى، قبل استقراره بالبصرة."
+  en: "Abu Dawud heard a great many teachers in the Hijaz, Egypt, al-Sham, the frontier and Khurasan; Abu Ja'far al-Nufayli and a circle in the Jazira; Abu Tawba al-Rabi' ibn Nafi' at Aleppo; Ahmad ibn Abi Shu'ayb at Harran; and Haywa and Yazid ibn 'Abd Rabbih at Homs {cite:tarikh-islam-dhahabi p. 359}. In his Sunan he recalls measuring a cucumber thirteen spans at Egypt and seeing a citron carried on a camel cut into two halves {cite:tarikh-islam-dhahabi p. 362}. This wider circuit falls in the 230s of the hijra, after his first journey and before he settled at Basra."
+  ur: "ابو داؤد نے حجاز، مصر، شام، تھغر اور خراسان میں بہت سے مشائخ سے سماعت کی؛ جزیرہ میں ابو جعفر نفیلی اور ایک جماعت سے؛ حلب میں ابو توبہ ربیع بن نافع سے؛ حران میں احمد بن ابی شعیب سے؛ اور حمص میں ہیوہ اور یزید بن عبد ربہ سے {cite:tarikh-islam-dhahabi p. 359}۔ اپنی سنن میں وہ مصر میں تیرہ بند کھیرا ناپنا اور اونٹ پر لدے ترنج کے دو ٹکڑے کٹے دیکھنا یاد کرتے ہیں {cite:tarikh-islam-dhahabi p. 362}۔ یہ وسیع سفر پہلی مسافرت کے بعد اور بصرہ میں قیام سے پہلے، ہجرت کے تیسویں عشرے میں واقع ہوتا ہے۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [egypt-nile, levant-iraq]
+date:
+  start: { edtf: "0845~", hijri: "0230~", calendar: julian, precision: decade, status: tradition, derived: true, note: "سمع من خلق بالحجاز ومصر والشام والثغر وخراسان وبالجزيرة وحلب وحران وحمص {cite:tarikh-islam-dhahabi p. 359}؛ التاريخ تقريبي بعد الرحلة الأولى ٢٢٠-٢٢٢هـ وقبل الاستقرار بالبصرة؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/harran, sources: [source/tarikh-islam-dhahabi], note: "سمع من أحمد بن أبي شعيب بحران {cite:tarikh-islam-dhahabi p. 359}" }
+  - { type: occurred_at, target: place/aleppo, sources: [source/tarikh-islam-dhahabi], note: "سمع من أبي توبة الربيع بن نافع بحلب {cite:tarikh-islam-dhahabi p. 359}" }
+  - { type: occurred_at, target: place/misr, sources: [source/tarikh-islam-dhahabi], note: "سمع من خلق بمصر، ووصف في سننه قثاءة شبّرها بمصر {cite:tarikh-islam-dhahabi pp. 359, 362}" }
+  - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "الطالب الراحل", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "تاريخ الإسلام للذهبي س.a. 275 طبعة تدمري ص359, 362 (harvest OCR v20 pages 359, 362)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-abu-dawud-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

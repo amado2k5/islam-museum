@@ -49,3 +49,9 @@ provenance:
   source: "Chinese Wikipedia '哈德成' (revision 94697514 of 2 October 2026) and Wikidata item Q30610941 (item revision 2490092933 of 12 May 2026), fetched through the MediaWiki/Wikidata APIs on 27 October 2026, the article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the Chinese article's page properties; he has no English, Arabic or Urdu article. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q30610941, and no Arabic label is shared with any existing record, so no homonym entry is required. The traveled_to edge to place/mecca rests on the hajj of 1913 attested in the Chinese article. No founder_of edge is written for the Shanghai Islamic Normal School, which he co-founded in 1928 with Da Pusheng and others — the Chinese articles of both men attest the founding, and Da Pusheng's article adds Ma Fuxiang's chairmanship — because no group record for the school exists. No edge to Ma Jian is written here: their teacher–student edge is written once, in Ma Jian's own record, on this article's statement that Ma Jian was his student."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-99
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-ha-decheng-zh, source/wikidata-ha-decheng]

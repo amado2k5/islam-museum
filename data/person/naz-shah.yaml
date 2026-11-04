@@ -1,0 +1,61 @@
+id: person/naz-shah
+class: person
+
+label: { ar: "ناز شاه", en: "Naz Shah", ur: "ناز شاہ" }
+
+names:
+  - { value: "Naseem Shah", kind: full }
+  - { value: "Naz Shah", kind: alternate }
+  - { value: "نسيم شاه", kind: full }
+
+gender: female
+
+summary:
+  ar: "نسيم شاه، المعروفة بناز شاه (وُلدت في 13 تشرين الثاني 1973 في برادفورد)، سياسية عمالية بريطانية، عضوة البرلمان عن دائرة برادفورد الغربية منذ 2015. نشأت في ظروف صعبة، وأُرسلت طفلة إلى باكستان حيث زُوّجت زواجًا مرتبًا، وعملت قبل البرلمان في مجال الصحة النفسية المجتمعية، وخاضت حملة للإفراج عن والدتها. شغلت مناصب في حكومة الظل بين 2018 و2023، آخرها وزيرة ظل للحد من الجريمة."
+  en: "Naseem Shah, known as Naz Shah (born 13 November 1973 in Bradford), is a British Labour politician who has been MP for Bradford West since 2015. Raised in difficult circumstances, she was sent to Pakistan as a child and entered an arranged marriage there, worked in community mental health before Parliament, and campaigned for her mother's release from prison. She held Opposition frontbench posts from 2018 to 2023, most recently as Shadow Minister for Crime Reduction."
+  ur: "نسیم شاہ، جو ناز شاہ کے نام سے معروف ہیں (پیدائش 13 نومبر 1973، بریڈفورڈ)، برطانوی لیبر سیاست دان ہیں، جو 2015 سے بریڈفورڈ ویسٹ کی رکنِ پارلیمان ہیں۔ مشکل حالات میں پرورش پائی، بچپن میں پاکستان بھیجی گئیں جہاں ان کی طے شدہ شادی ہوئی، پارلیمان سے پہلے کمیونٹی ذہنی صحت کے شعبے میں کام کیا، اور اپنی والدہ کی رہائی کے لیے مہم چلائی۔ وہ 2018 سے 2023 تک اپوزیشن فرنٹ بینچ کے عہدوں پر رہیں، آخر میں شیڈو وزیر برائے انسدادِ جرائم رہیں۔"
+
+roles: [politician]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1973-11-13"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Bradford on 13 November 1973; the English and Arabic articles and Wikidata agree, the articles citing Feminist Judgments (2010). The Hijri year 1393 is the tabular conversion of the built date, marked derived. No place entity for Bradford exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-naz-shah-en, source/wikipedia-naz-shah-ar, source/wikidata-naz-shah]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a school or order for her, and the
+      English article never states a religion for her in its text
+      at all. The article files her under "English Muslims" as a
+      category and Wikidata gives a bare Islam statement; a
+      category filing and a structured value are not attestations
+      of the woman herself and settle nothing under the founder's
+      rulings of 1 November 2026, so her faith is recorded as
+      unknown.
+    sources: [source/wikipedia-naz-shah-en, source/wikipedia-naz-shah-ar, source/wikidata-naz-shah]
+
+external_ids: { wikidata: "Q19882845" }
+
+sources:
+  - source/wikipedia-naz-shah-en
+  - source/wikipedia-naz-shah-ar
+  - source/wikipedia-naz-shah-ur
+  - source/wikidata-naz-shah
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Naz Shah' (revision 1374008649 of 9 September 2026), Arabic Wikipedia article 'ناز شاه' (revision 76264033 of 19 August 2026), Urdu Wikipedia article 'ناز شاہ' (revision 9215836 of 19 November 2025) and Wikidata Q19882845 (item revision 2499947721 of 31 May 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's year 1973 is confirmed at day precision."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-166a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

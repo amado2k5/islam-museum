@@ -3,11 +3,11 @@ class: person
 label:
   ar: "الحسن المثنى"
   en: "Al-Hasan al-Muthanna"
-roles: [scholar]
+roles: [sayyid]
 gender: male
 summary:
-  ar: "بطاقة أولية للحسن المثنى بن الحسن بن علي، سيد أهل بيته في عصره ووالد محمد النفس الزكية؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Hasan al-Muthanna son of al-Hasan, the Alid family's leading man of his age and father of al-Nafs al-Zakiyya; his entry is not yet checked on the page."
+  ar: "الحسن المثنى بن الحسن بن علي، كبير الطالبيين في عهده ووالد محمد النفس الزكية؛ توفي بالمدينة نحو 90هـ (708م)."
+  en: "Al-Hasan al-Muthanna (d. c.708), chief of the Talibids, father of Muhammad al-Nafs al-Zakiyya."
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
@@ -17,10 +17,10 @@ external_ids:
   wikidata: Q6414181
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.186)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

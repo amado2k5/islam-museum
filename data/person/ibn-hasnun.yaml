@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن حسنون"
   en: "Ibn Hasnun"
-roles: [scholar]
+roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن حسنون، لغوي وقارئ عراقي القرن العاشر، توفي سنة ٩٩٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Hasnun, the tenth-century Iraqi linguist and qari, d. 996; the biographical entry is not yet checked on the page."
+  ar: "عبد الله ابن حسنون السامري، مسند القراء في زمانه ولغوي، صاحب «اللغات في القرآن»؛ توفي بمصر سنة 386هـ (996م)."
+  en: "Abd Allah Ibn Hasnun al-Samiri (908–996), doyen of the Qur'an readers and linguist, died in Egypt."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q57316754
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0062
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.79)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch3
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

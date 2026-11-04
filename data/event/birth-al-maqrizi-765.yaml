@@ -1,0 +1,27 @@
+id: event/birth-al-maqrizi-765
+class: event
+kind: birth
+label:
+  ar: "ولادة تقي الدين المقريزي بالقاهرة، نحو ٧٦٥هـ/١٣٦٤م"
+  en: "Birth of Taqi al-Din al-Maqrizi in Cairo, c. 765/1364"
+  ur: "قاہرہ میں تقی الدین مقریزی کی پیدائش، تقریباً 765ھ/1364ء"
+summary:
+  ar: "وُلد أحمد بن علي بن عبد القادر المقريزي بالقاهرة فيما يظهر سنة ٧٦٥هـ/١٣٦٣–١٣٦٤م، وقال ابن العماد إنه ولد بعد سنة ستين وسبعمائة؛ ونشأ في بيت علم ميسور: فجده لأمه العلامة شمس الدين محمد بن الصائغ الحنفي (ت ٧٧٦هـ) هو الذي أثر في تربيته الأولى، وأما نسبة «المقريزي» فإلى حارة المقارزة ببعلبك التي خرجت منها أسرة أبيه {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}."
+  en: "Ahmad ibn Ali ibn Abd al-Qadir al-Maqrizi was born in Cairo, apparently in 765/1363-4 — Ibn al-Imad says 'after 760' — into a prosperous scholarly family. His maternal grandfather, the Hanafi jurist Shams al-Din Muhammad Ibn al-Sa'igh (d. 776/1375), shaped his early upbringing, while the nisba al-Maqrizi points to the Maqariza quarter of Baalbek from which his paternal family came {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}."
+  ur: "احمد بن علی بن عبد القادر مقریزی قاہرہ میں ظاہراً 765ھ/1363-64ء میں پیدا ہوئے — ابن العماد کے مطابق «760ھ کے بعد» — اور وہ مالدار علمی گھرانے میں پلے۔ ان کے نانا، حنفی فقیہ شمس الدین محمد بن الصائغ (وفات 776ھ)، نے ابتدائی تربیت پر اثر ڈالا، جبکہ نسبت «مقریزی» بعلبک کی محلہ مقارزہ کی طرف اشارہ ہے جہاں سے ان کا پدری خاندان آیا تھا {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1364~", hijri: "0765", calendar: julian, precision: year, status: tradition, derived: true, note: "«فيما يظهر سنة ٧٦٥هـ/١٣٦٣-٤م»؛ ابن العماد: «ولد بعد سنة ستين وسبعمائة»؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-maqrizi, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 6 (Mahk-Mid), printed pp. 213-214, art. al-Makrizi (F. Rosenthal); shadharat-dhahab juz s.a. 845 pp. 254-255"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-maqrizi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

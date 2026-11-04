@@ -3,11 +3,11 @@ class: person
 label:
   ar: "قالون"
   en: "Qalun"
-roles: [scholar]
+roles: [quran-reader]
 gender: male
 summary:
-  ar: "بطاقة أولية لقالون، راوي نافع وأحد القراء السبعة بقراءته المروية عن المدني؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Qalun, the transmitter of Nafi' counted among the seven readers through his riwaya; his entry is not yet checked on the page."
+  ar: "عيسى بن ميناء «قالون»، من القراء السبعة رواية، شيخ قراءة المدينة وهو أصم؛ توفي سنة 220هـ (835م)."
+  en: "'Isa “Qalun” (120–220/738–835), Medinan master-reader, transmitter of Nafi''s second reading."
 wings: [people]
 regions: [maghreb]
 periods: [period/abbasid-early]
@@ -17,10 +17,10 @@ external_ids:
   wikidata: Q12232042
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.5 p.110)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

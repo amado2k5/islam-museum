@@ -1,0 +1,27 @@
+id: event/ibn-al-salah-born-577
+class: event
+kind: birth
+label:
+  ar: "ولادة ابن الصلاح بقرية شرخان قرب شهرزور، ٥٧٧هـ/١١٨١م"
+  en: "Birth of Ibn al-Salah at Sharakhan near Shahrazur, 577/1181"
+  ur: "ابن الصلاح کی پیدائش شہرزور کے قریب شرخان گاؤں میں، 577ھ/1181ء"
+summary:
+  ar: "وُلد تقي الدين أبو عمرو عثمان بن عبد الرحمن بن عثمان بن موسى الكردي الشهرزوري سنة سبع وسبعين وخمسمائة بقرية شرخان في نواحي إربل قرب شهرزور، ونشأ في بيت علم فوالده أبو القاسم صلاح الدين شيخ تلك الناحية {cite:tarikh-islam-dhahabi p. 185} {cite:shadharat-dhahab p. 229} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  en: "Taqi al-Din Abu 'Amr 'Uthman b. 'Abd al-Rahman b. 'Uthman b. Musa al-Kurdi al-Shahrazuri — Ibn al-Salah — was born in 577/1181 at Sharakhan, a village in the Irbil district near Shahrazur, into a house of learning: his father Abu al-Qasim Salah al-Din was the shaykh of that district {cite:tarikh-islam-dhahabi p. 185} {cite:shadharat-dhahab p. 229} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  ur: "تقی الدین ابو عمرو عثمان بن عبد الرحمٰن بن عثمان بن موسیٰ کردی شهرزوری — ابن الصلاح — 577ھ/1181ء میں اربیل کے علاقے میں شہرزور کے قریب شرخان گاؤں میں پیدا ہوئے، ایک علمی گھرانے میں: ان کے والد ابو القاسم صلاح الدین اس علاقے کے شیخ تھے {cite:tarikh-islam-dhahabi p. 185} {cite:shadharat-dhahab p. 229} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1181~", hijri: "0577", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة سبع وسبعين وخمسمائة {cite:tarikh-islam-dhahabi p. 185}؛ at Sharakhan near Shahrazur in 577/1181 {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/shahrazur, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-salah, role: "المولود", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 643, printed pp. 185 (harvest OCR); Shadharat al-Dhahab s.a. 643, printed p. 229 (harvest OCR); EI2 vol. 3 art. Ibn al-Salah (J. Robson), printed p. 959"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-salah-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

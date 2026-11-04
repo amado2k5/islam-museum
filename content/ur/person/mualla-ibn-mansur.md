@@ -2,9 +2,7 @@
 id: person/mualla-ibn-mansur
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 22"]
 ---
 ## خلاصہ
-معلّیٰ بن منصور رازی، جن کی کنیت ابو یعلیٰ تھی۔ انہوں نے ابو یوسف سے ان کی فقہ، اصول اور تصانیف روایت کیں۔ وہ بغداد میں سنہ 211 ہجری میں فوت ہوئے۔ {cite:fihrist-ibn-al-nadim p.287}
-
-ان کی تاریخ ایک ہی ماخذ میں مذکور ہے، اس لیے مزید ماخذ کی ضرورت ہے۔
+معلّیٰ بن منصور رازی، ابو یعلیٰ کہلائے؛ انہوں نے ابو یوسف کا فقہ، اصول اور کتابیں ان سے روایت کیں اور 211 ہجری میں بغداد میں فوت ہوئے۔ {cite:fihrist-ibn-al-nadim p. 287}

@@ -1,0 +1,30 @@
+id: event/taj-al-din-arrives-damascus-739
+class: event
+kind: other
+label:
+  ar: "قدوم تاج الدين السبكي دمشق مع والده، ٧٣٩هـ"
+  en: "Taj al-Din al-Subki arrives in Damascus with his father, 739"
+  ur: "تاج الدین سبکی کا والد کے ہمراہ دمشق آمد، 739ھ"
+summary:
+  ar: "قدم تاج الدين السبكي دمشق مع والده قاضي القضاة تقي الدين سنة ٧٣٩هـ، فسمع بها من زينب بنت الكمال وابن أبي اليسر وغيرهما {cite:durar-kamina-jil-1993 2/425}."
+  en: "Taj al-Din al-Subki came to Damascus in 739 with his father, the chief qadi Taqi al-Din, and heard hadith there from Zaynab bint al-Kamal, Ibn Abi al-Yusr and others {cite:durar-kamina-jil-1993 2/425}."
+  ur: "تاج الدین سبکی 739ھ میں اپنے والد قاضی القضاة تقی الدین کے ساتھ دمشق آئے اور وہاں زینب بنت کمال، ابن ابی الیسٰر اور دیگر سے حدیث سنی {cite:durar-kamina-jil-1993 2/425}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1339~", hijri: "0739", calendar: julian, precision: year, status: historical, derived: true, note: "قدم دمشق مع والده سنة ٧٣٩هـ {cite:durar-kamina-jil-1993 2/425}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/taj-al-din-al-subki, role: "الطالب القادم مع أبيه", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/taqi-al-din-al-subki, role: "الوالد قاضي القضاة الجديد", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/zaynab-bint-al-kamal, role: "المُسمِعة", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/taj-al-din-ibn-abi-al-yusr, role: "المُسمِع", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar al-Asqalani, al-Durar al-Kamina (Haidarabad/Jil 1993 print), vol. 2, printed pp. 425-427, entry no. 2547 (harvest scan DurarKamina__drkamth2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-taj-al-din-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,27 @@
+id: event/birth-ibn-qayyim-691
+class: event
+kind: other
+label:
+  ar: "مولد ابن قيم الجوزية بدمشق، ٧ صفر ٦٩١هـ/٢٩ يناير ١٢٩٢م"
+  en: "Birth of Ibn Qayyim al-Jawziyya at Damascus, 7 Safar 691/29 January 1292"
+  ur: "ابن قیم الجوزیہ کی پیدائش، دمشق، 7 صفر 691ھ/29 جنوری 1292ء"
+summary:
+  ar: "وُلد شمس الدين أبو بكر محمد بن أبي بكر بن أيوب بن سعد بن حريز الزرعي الدمشقي، المعروف بابن قيم الجوزية، بدمشق يوم ٧ صفر ٦٩١هـ/٢٩ يناير ١٢٩٢م، وكان أبوه قَيِّم مدرسة الجوزية التي كانت مجلس حكم لقاضي قضاة الحنابلة بدمشق {cite:encyclopaedia-of-islam-2 vol. 3 p. 853}؛ قال ابن حجر: ولد سنة ٦٩١ {cite:durar-kamina-jil-1993 3/400}."
+  en: "Shams al-Din Abu Bakr Muhammad ibn Abi Bakr ibn Ayyub ibn Sa'd ibn Hurayz al-Zur'i al-Dimashqi, known as Ibn Qayyim al-Jawziyya, was born at Damascus on 7 Safar 691/29 January 1292; his father was the superintendent (qayyim) of the Jawziyya madrasa, which served as a court of law for the Hanbali qadi al-qudat of Damascus {cite:encyclopaedia-of-islam-2 vol. 3 p. 853}; Ibn Hajar gives his birth year as 691 {cite:durar-kamina-jil-1993 3/400}."
+  ur: "شمس الدین ابو بکر محمد بن ابی بکر بن ایوب بن سعد بن حریز زرعی دمشقی، المعروف ابن قیم الجوزیہ، 7 صفر 691ھ/29 جنوری 1292ء کو دمشق میں پیدا ہوئے؛ ان کے والد جوزیہ مدرسہ کے قیم (نگہبان) تھے جو دمشق کے حنبلی قاضی القضاة کی عدالت کا مقام تھا {cite:encyclopaedia-of-islam-2 vol. 3 p. 853}؛ ابن حجر نے ان کی سالِ پیدائش 691ھ لکھی ہے {cite:durar-kamina-jil-1993 3/400}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1292-01-29", hijri: "0691-02-07", calendar: julian, precision: day, status: tradition, derived: true, note: "٧ صفر ٦٩١هـ/٢٩ يناير ١٢٩٢م {cite:encyclopaedia-of-islam-2 vol. 3 p. 853}؛ قيد الولادة سنة ٦٩١ {cite:durar-kamina-jil-1993 3/400}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-qayyim-al-jawziyya, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), printed p. 853, art. IBN KAYYIM AL-DJAWZIYYA (F. de la Granja) — harvest OCR; Ibn Hajar, al-Durar al-Kamina, Dar al-Jil 1993, j.3 pp. 400-403, entry 1067 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-qayyim-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

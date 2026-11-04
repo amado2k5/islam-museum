@@ -1,0 +1,27 @@
+id: event/qifti-steps-down-628
+class: event
+kind: other
+label:
+  ar: "القفطي يُعفى بطلبه ويتفرغ للتصنيف، ٦٢٨هـ"
+  en: "Al-Qifti is dismissed at his own request and turns to writing, 628/1230"
+  ur: "قفطی اپنی خواہش سے معزول ہوئے اور تصنیف میں لگ گئے، 628ھ/1230ء"
+summary:
+  ar: "عُزل القفطي عن ديوان المال سنة ثمان وعشرين وستمائة بناء على طلبه، فتفرغ بضع سنين لدراسته الخاصة حتى استوزره الملك العزيز سنة ثلاث وثلاثين وستمائة {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  en: "Dismissed at his own request in 628/1230, al-Qifti was able to devote a few years to his own studies until al-Malik al-Aziz appointed him vizier in 633/1236 {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  ur: "628ھ/1230ء میں اپنی ہی درخواست پر معزول ہوئے تو قفطی کو چند برس اپنی تحصیل کے لیے میسر آئے، یہاں تک کہ 633ھ/1236ء میں ملک عزیز نے انھیں وزیر مقرر کیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1230", hijri: "0628", calendar: julian, precision: year, status: tradition, derived: true, note: "628/1230 {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qifti, role: "المعزول بطلبه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 art. Ibn al-Kifti (A. Dietrich), printed p. 872"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qifti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

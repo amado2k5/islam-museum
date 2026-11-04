@@ -19,5 +19,11 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434) ص490–493؛ تاريخ بغداد للخطيب ج9 ص320–321، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High, SWE-2 Medium) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-24, lib-tarikh-baghdad-tb1
-sources: [source/tarikh-khulafa-minhaj-1434, source/tarikh-baghdad-khatib]
+sources: [source/tarikh-khulafa-minhaj-1434, source/tarikh-baghdad-khatib, source/assabile-abu-ishaq-alheweny]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tarikh-khulafa-minhaj-1434, source/tarikh-baghdad-khatib, source/assabile-abu-ishaq-alheweny]

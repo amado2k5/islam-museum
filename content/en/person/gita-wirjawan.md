@@ -1,0 +1,25 @@
+---
+id: person/gita-wirjawan
+lang: en
+source_lang: ar
+translators: []
+---
+
+## Summary
+
+Gita Wirjawan (born 1965) is an Indonesian businessman and former investment banker, the founder of the Ancora Group, who chaired the Investment Coordinating Board from 2009 to 2012 and served as Minister of Trade from 2011 to 2014; he is also a jazz musician and producer and the host of the Endgame podcast {cite:wikipedia-gita-wirjawan-en} {cite:wikipedia-gita-wirjawan-id}.
+
+## Life
+
+Wirjawan was born in Jakarta on 21 September 1965 {cite:wikipedia-gita-wirjawan-en} {cite:wikidata-gita-wirjawan}. His father Wirjawan Djojosugito came from Surakarta in Central Java and his mother Paula Warokka from Minahasa in North Sulawesi, and he is the youngest of five children {cite:wikipedia-gita-wirjawan-en} {cite:wikipedia-gita-wirjawan-id}. His father worked for the World Health Organization, so at thirteen he moved with the family to Dhaka in Bangladesh and then to India, attending the American Embassy School in New Delhi from grades six to twelve {cite:wikipedia-gita-wirjawan-en}. He took a bachelor's degree in business administration at the University of Texas at Austin in 1988, a master of business administration at Baylor University the following year, and a master of public administration at Harvard Kennedy School in 2000, where he was a Mason Fellow; he is also a certified public accountant of Texas and a chartered financial analyst {cite:wikipedia-gita-wirjawan-en} {cite:wikipedia-gita-wirjawan-id}. He met his wife, Yasmin Stamboel Wirjawan, when he gave her piano lessons during a college summer break; they married in 1993 and have three children {cite:wikipedia-gita-wirjawan-en}.
+
+## Work
+
+Wirjawan began his career in 1989 as an auditor at Morrison Brown & Argiz in Miami, then joined Citibank Indonesia in 1992 and rose to vice president; he was director of corporate finance at Bahana Securities from 1997 to 1999, joined Goldman Sachs in Singapore in 2000, served as senior vice president for international business development at ST Telemedia from 2003 to 2004, and was president director of JP Morgan Indonesia from 2004 to 2008, before founding the Ancora Group investment firm in 2008 {cite:wikipedia-gita-wirjawan-en} {cite:wikipedia-gita-wirjawan-id}. President Susilo Bambang Yudhoyono appointed him chairman of the Investment Coordinating Board in October 2009, a post he held until June 2012; the English article credits his tenure with raising foreign direct investment into Indonesia from 4.9 billion to 21.2 billion US dollars between 2009 and 2012, and with cutting licensing times {cite:wikipedia-gita-wirjawan-en}. On 19 October 2011 Yudhoyono moved him to Minister of Trade {cite:wikipedia-gita-wirjawan-en}. In December 2013 he chaired the Ninth Ministerial Conference of the World Trade Organization in Bali, which concluded the Bali Package and adopted the Trade Facilitation Agreement, the first multilateral deal in the organisation's history {cite:wikipedia-gita-wirjawan-en} {cite:wikipedia-gita-wirjawan-ms}. He resigned on 31 January 2014 to contest the Democratic Party's presidential nomination convention, which he lost to Dahlan Iskan, and returned to Ancora that July {cite:wikipedia-gita-wirjawan-en} {cite:wikipedia-gita-wirjawan-id}. He chaired the Badminton Association of Indonesia from 2012 to 2016, a term covering the men's doubles gold medal at the Rio 2016 Olympics {cite:wikipedia-gita-wirjawan-en}. Through the Ancora Foundation he has funded kindergartens across Indonesia and scholarships for Indonesians to study at universities including Harvard, Oxford, Cambridge and Stanford, and he is a founding partner of the Ikhlas Capital private equity firm; he also co-founded the production company Visinema Pictures and produces music under his own label {cite:wikipedia-gita-wirjawan-en} {cite:wikipedia-gita-wirjawan-id}. Since 2020 he has hosted Endgame, conversations with business leaders, academics and policymakers, which the article reports had passed 840,000 subscribers by August 2024 {cite:wikipedia-gita-wirjawan-en}. He has been a visiting scholar at Stanford's Shorenstein Asia-Pacific Research Center since 2022, a Fisher Family fellow at Harvard's Belfer Center in spring 2024 and a nonresident scholar at the Carnegie Endowment, and he sits on Chubb's international advisory board {cite:wikipedia-gita-wirjawan-en}. He holds the Bintang Mahaputra Adipradana, conferred in October 2014, and an honorary doctorate from Naresuan University in Thailand {cite:wikipedia-gita-wirjawan-en} {cite:wikipedia-gita-wirjawan-id}. No text read for this record names a faith for Wirjawan himself — the articles in all three languages are silent and Wikidata carries no religion statement for him — so his faith is recorded as unknown {cite:wikipedia-gita-wirjawan-en} {cite:wikipedia-gita-wirjawan-id} {cite:wikidata-gita-wirjawan}.
+
+## Sources
+
+- {cite:wikipedia-gita-wirjawan-en}
+- {cite:wikipedia-gita-wirjawan-id}
+- {cite:wikipedia-gita-wirjawan-ms}
+- {cite:wikidata-gita-wirjawan}

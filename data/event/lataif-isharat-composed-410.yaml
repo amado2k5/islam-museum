@@ -1,0 +1,27 @@
+id: event/lataif-isharat-composed-410
+class: event
+kind: publication
+label:
+  ar: "القشيري يصنّف «التفسير الكبير» قبل سنة ٤١٠هـ"
+  en: "Al-Qushayri composes his great tafsir, Lata'if al-isharat, before 410/1019"
+  ur: "قشیری نے «لطائف الاشارات» (تفسیر کبیر) 410ھ/1019ء سے پہلے تصنیف کی"
+summary:
+  ar: "صنّف القشيري «التفسير الكبير» — وهو تفسيره الصوفي المشهور بلطائف الإشارات — قبل سنة عشر وأربعمائة، فكان من أجود التفاسير عند ابن خلكان؛ ورتّب المجالس، وله أيضاً نهج القلوب وأحكام السماع وآداب الصوفية وعيون الأجوبة في فنون الأسئلة وغيرها {cite:tarikh-islam-dhahabi pp. 172-174} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}."
+  en: "Before 410/1019 al-Qushayri composed his 'great tafsir' — the celebrated mystical commentary Lata'if al-isharat, which Ibn Khallikan counts among the finest Qur'an commentaries — and he held his ordered assemblies; among his other books are Nahj al-qulub, Ahkam al-sama', Adab al-sufiyya and Uyun al-ajwiba fi funun al-as'ila {cite:tarikh-islam-dhahabi pp. 172-174} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}."
+  ur: "قشیری نے 410ھ/1019ء سے پہلے اپنی «تفسیر کبیر» — یعنی مشہور صوفیانہ تفسیر لطائف الاشارات — تصنیف کی جسے ابن خلکان بہترین تفاسیر میں شمار کرتے ہیں، اور وہ منظم مجالس قائم کرتے رہے؛ ان کی دیگر تصانیف میں نہج القلوب، احکام السماع، آداب الصوفیہ اور عیون الاجوبہ فی فنون الاسئلہ شامل ہیں {cite:tarikh-islam-dhahabi pp. 172-174} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1019~", hijri: "0410~", calendar: julian, precision: year, status: tradition, derived: true, note: "قال عبد الغافر: صنّف التفسير الكبير قبل العشر وأربعمائة {cite:tarikh-islam-dhahabi p. 174}؛ وعند دائرة المعارف صنّف لطائف الإشارات قبل ٤١٠هـ/١٠١٩م {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}؛ حد أقصى مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-qushayri-abu-l-qasim, role: "المصنّف", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 465, printed pp. 172-174 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 5.1 art. AL-KUSHAYRI printed p. 564"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qushayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

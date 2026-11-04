@@ -1,0 +1,45 @@
+id: job/hajib
+class: job
+label: { ar: "الحاجب", en: "Chamberlain (hajib)", ur: "حاجب (درباری)" }
+summary:
+  ar: "الحاجب هو المسؤول في البلاط الذي يتحكم في الوصول إلى الحاكم: يقدّم إليه الموظفين والوفود والملتمسين، ويرتّب المراسم، وفي كثير من الدول صار من أقوى رجال الحكم، وقد اشتقّ اسمه من الفعل «حجب» أي منع ورَدّ. ويختلف موقعه من دولة إلى أخرى، فهو دون الوزير في الدولة العباسية، وأقوى من الوزير في الأندلس الأموية، وقائد كبير في الدولة السامانية والغزنوية، ثم صار في دولة المماليك رئيساً للمراسم وقضاء بعض الدعاوى، إلى أن أُلغي سنة 860هـ."
+  en: "The hajib was the court official who controlled access to the ruler. He brought officials, delegations and petitioners before him and arranged the ceremonies. In many states he became one of the most powerful men in government. The name comes from the verb hajaba, to screen or block. His rank varied: below the vizier under the Abbasids, stronger than the vizier in Umayyad Spain, a senior commander under the Samanids and Ghaznavids, and in the Mamluk state the head of ceremony who also heard some cases, until the office was abolished in 860 AH."
+  ur: "حاجب دربار کا وہ اہلکار تھا جو حاکم تک رسائی پر نگاہ رکھتا تھا۔ وہ عہدیداروں، وفود اور درخواست گزاروں کو حاکم کے سامنے لاتا اور تقریبات کا انتظام کرتا تھا۔ کئی ریاستوں میں یہ حکومت کے سب سے طاقتور لوگوں میں شامل ہو گیا۔ اس کا نام فعل «حجب» سے ہے، یعنی روکنا یا آڑ کرنا۔ عباسی دور میں اس کا مرتبہ وزیر سے کم تھا، اندلس کے اموی دور میں وزیر سے زیادہ بااختیار تھا، اور مملوک ریاست میں تقریبات کا سربراہ بن گیا جو کچھ مقدمات بھی سنتا تھا، یہاں تک کہ 860ھ میں یہ منصب ختم کر دیا گیا۔"
+domain: court-administration
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  first_attested:
+    edtf: "0622/0705"
+    precision: century
+    status: debated
+    note: "The entry does not fix the origin. It reports that the Prophet kept a doorkeeper in some years, one named Abu Anasa in one source, and it records the debate over whether Muawiya (661–680) or Abd al-Malik (685–705) first set up the office. The range runs from the Prophet's years to the Umayyad caliphate, and the reports within it are the authors' own."
+    sources: [source/tdv-hacib]
+  status_today: transformed
+places:
+  - place: place/baghdad
+    note: "Under the Abbasids the hajib and the vizier were the two leading figures at court. Under al-Muqtadir the palace had 700 hajibs, and the chief-of-hajibs post was created in 940, according to the entry."
+    sources: [source/tdv-hacib]
+  - place: place/cordoba
+    note: "Under the Andalusian Umayyads the hajib was the chief of civil government and was sometimes called the nearest vizier. Ibn Abi Amir took the office for his own heir and in 981 took the title al-Mansur."
+    sources: [source/tdv-hacib]
+  - place: place/cairo
+    note: "In the Mamluk state the chief hajib (hajib al-hujjab) brought envoys before the sultan, supervised military matters, and from al-Kamil Shaban heard some civil cases. The office was abolished in 860 AH (1456) under al-Ashraf Inal."
+    sources: [source/tdv-hacib]
+regions: [levant-iraq, andalus-europe, egypt-nile, persia-central-asia, anatolia-balkans, maghreb, south-asia]
+organization:
+  organized: court-office
+training:
+  mode: mixed
+  certification: "No licence was granted. Under the Samanids, Ghaznavids and Seljuks the hajib was chosen from palace slave soldiers (ghulam) who rose through set ranks; Nizam al-Mulk describes a ladder of eight years and several ranks before the post. Under the Karakhanids and Khwarazmshahs the hajib was a trusted man chosen by the ruler."
+wings: [people]
+periods: [period/prophetic-era, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+sources: [source/tdv-hacib]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HÂCİB' (Aydın Taneri), vol. 14, pp. 508–511, Istanbul 1996; web edition read in full on 2 Nov 2026. Rewritten by Claude Code. Holders recorded from the entry's own account: Ibn Khaldun served as hajib to a Merinid sultan, and Ibn Abi Amir had his son made hajib and took the office's powers himself."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p2-ct02"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }

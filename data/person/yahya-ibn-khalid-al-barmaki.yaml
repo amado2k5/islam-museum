@@ -16,3 +16,9 @@ relations:
   - { type: member_of, target: group/barmakids, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/tarikh-dawla-abbasiyya-taqqush]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+occupations:
+  - job: job/sahib-al-barid
+    kind: episodic
+    status: historical
+    note: "The entry says Harun al-Rashid assigned him to restore the postal service to its Umayyad level. The entry does not give him the title sahib al-barid, so the role is recorded as an assignment."
+    sources: [source/tdv-berid]

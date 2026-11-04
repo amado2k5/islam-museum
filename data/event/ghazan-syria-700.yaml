@@ -5,6 +5,7 @@ label: { ar: "غزوة غازان للشام سنة 700هـ", en: "Ghazan's Camp
 summary:
   ar: "في سنة سبع مئة قويت الأراجيف بالتتار وأُكريت المحارة من الشام إلى مصر بخمسمائة درهم وأبيعت الأمتعة بالثمن البخس، وفي ربيع الآخر جاوز غازان بجيشه الفرات وقصد حلب وساق الشيخ تقي الدين بن تيمية في البريد إلى القاهرة يحرض الناس على الجهاد واجتمع بأكابر الأمراء ثم نودي في دمشق من قدر على الهرب فلينج بنفسه فانقلبت المدينة ورُصّ الخلق بالقلعة وأشرف الناس على خطة صعبة وبقي الخوف أياماً ثم تناقص برجعة غازان لما ناله من المشاق والثلوج {cite:shadharat-dhahab p. 429}."
   en: "In 700 Ghazan crossed the Euphrates for Aleppo; Ibn Taymiyya rode the barid post to Cairo rousing jihad while Damascus emptied at the crier's 'let him who can flee save himself' — then the fear eased as Ghazan turned back, worn by hardships and snows {cite:shadharat-dhahab p. 429}."
+  ur: "700ھ میں غازان نے حلب کی طرف فرات عبور کیا؛ ابن تیمیہ برید میں قاہرہ روانہ ہو کر لوگوں کو جہاد پر ابھارتا رہا جبکہ منادی کی صدا — جو بھاگ سکتا ہے اپنی جان بچا لے — پر دمشق خالی ہوتا گیا؛ پھر غازان کی مشقت اور برفوں کی وجہ سے واپسی پر خوف کم ہو گیا {cite:shadharat-dhahab p. 429}۔"
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
@@ -13,10 +14,12 @@ sides:
   - { label: { ar: "الدولة المملوكية" }, participants: [person/al-nasir-muhammad-ibn-qalawun, person/ibn-taymiyya] }
 map: { kind: campaign, precision: locality, center: [36.2000, 37.1500] }
 date: { start: { edtf: "1300~", hijri: "0700~", calendar: julian, precision: year, status: tradition, derived: true, note: "ربيع الآخر 700هـ {cite:shadharat-dhahab p. 429}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج5، سنين 601–700)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-41
 sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

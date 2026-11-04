@@ -1,23 +1,29 @@
 id: event/siege-of-lahore-1043
 class: event
 kind: siege
-label: { ar: "حصار لاهور", en: "Siege of Lahore (1043)" }
+label:
+  ar: "حصار لاهور من ائتلاف الأمراء الهنود، ٤٣٥هـ/١٠٤٣–١٠٤٤م"
+  en: "Confederate Hindu princes' siege of Lahore, 435/1043-4"
+  ur: "ہندو شہزادوں کی متحدہ فوج کا لہور کا محاصرہ، 435ھ/1043–44ء"
 summary:
-  ar: "بطاقة أولية لحصار لاهور؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Siege of Lahore (1043); its sources are not yet checked on the page."
+  ar: "في سنة ٤٣٥هـ/١٠٤٣–١٠٤٤م تعرضت لاهور لحصار طويل من ائتلاف أمراء هنود، لكنه لم ينجح؛ وبقيت المدينة في أيدي الغزنويين الذين جعلوها مركزًا إداريًا لأقاليمهم الهندية وثاني عواصم دولتهم {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+  en: "In 435/1043-4 Lahore underwent a long siege by a confederacy of Hindu princes, but it failed; the city remained firmly in Ghaznavid hands, serving as the administrative centre of their Indian provinces and effectively the second capital of the empire {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+  ur: "435ھ/1043–44ء میں ہندو شہزادوں کی متحدہ فوج نے لہور کا ایک طویل محاصرہ کیا لیکن ناکام رہا؛ شہر غزنویوں کے قبضے میں رہا جو اسے اپنے ہندوستانی صوبوں کا انتظامی مرکز اور مؤثر طور پر سلطنت کا دوسرا دارالسلطنت بنائے ہوئے تھے {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
 wings: [time]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [south-asia]
 date:
-  start: { edtf: "1043", precision: year, status: tradition, derived: true }
-  end: { edtf: "1043", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+  start: { edtf: "1043", hijri: "0435", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1044", hijri: "0435", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q135287688
 provenance:
   layer: own-research
-  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 37 (LAHAWR, printed p. 597) — long unsuccessful siege by a confederacy of Hindu princes 435/1043-4 (replaces unchecked Wikidata card)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

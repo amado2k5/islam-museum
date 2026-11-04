@@ -102,7 +102,7 @@ const teachLink = (q: (typeof qs)[number]) => ({ href: `${path}#pw-${q.teaches}`
   </section>
 )}
 <script src="../scripts/classroom-quiz.ts"></script>
-<style>
+<style is:global>
   .cq { margin: 0 0 1.2rem; }
   .cq [hidden] { display: none !important; }
   .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

@@ -3,24 +3,36 @@ class: person
 label:
   ar: جلال الدين الرومي
   en: Jalal al-Din Rumi
+  ur: جلال الدین رومی
+names:
+  - { kind: full, lang: ar, value: "جلال الدين محمد بن محمد البلخي الرومي" }
+  - { kind: laqab, lang: ar, value: "مولانا" }
 gender: male
 born:
-  edtf: '1207'
+  edtf: "1207-09-30~"
+  hijri: "0604"
   calendar: gregorian
-  precision: year
-  sources:
-  - source/wikidata
+  precision: day
+  status: historical
+  derived: true
+  note: "تنص بريتانيكا على مولده نحو ٣٠ سبتمبر ١٢٠٧م ببلخ؛ السنة الهجرية تحويل مشتق {cite:britannica-rumi}."
+  sources: [source/britannica-rumi, source/wikidata]
 died:
-  edtf: '1273'
+  edtf: "1273-12-17"
+  hijri: "0672"
   calendar: gregorian
-  precision: year
-  sources:
-  - source/wikidata
+  precision: day
+  status: historical
+  derived: true
+  note: "تنص بريتانيكا على وفاته ١٧ ديسمبر ١٢٧٣م بقونية؛ السنة الهجرية تحويل مشتق {cite:britannica-rumi}."
+  sources: [source/britannica-rumi, source/wikidata]
 roles:
 - poet-scholar
+- sufi
 summary:
-  ar: شاعر وعالم وفارسي بلخي عاش في قونية؛ صاحب المثنوي وأشهر شعراء التصوف؛ أسس أتباعه الطريقة المولوية.
-  en: Jalal al-Din Rumi.
+  ar: "جلال الدين محمد البلخي الرومي، المعروف بمولانا: أعظم شعراء التصوف بالفارسية وصاحب «المثنوي المعنوي»؛ ولد ببلخ سنة ٦٠٤هـ/١٢٠٧م ورحل مع أبيه بهاء الدين ولد حتى استقر بقونية، فلقي فيها شمس الدين التبريزي سنة ٦٤٢هـ/١٢٤٤م فانفتح له عالم المحبة الإلهية، وتوفي بها سنة ٦٧٢هـ/١٢٧٣م فأخذ أصحابه الطريقة المولوية عنه {cite:britannica-rumi}."
+  en: "Jalal al-Din Muhammad al-Balkhi al-Rumi, known by the honorific Mawlana: the greatest Sufi mystic and poet in the Persian language and author of the Mathnavi; born at Balkh in 604/1207, he travelled with his father Baha al-Din Walad until settling at Konya, met Shams al-Din of Tabriz there in 642/1244 — the turning point of his life — and died at Konya in 672/1273, after which his disciples formed the Mawlawiyya order {cite:britannica-rumi}."
+  ur: "جلال الدین محمد بلخی رومی، معروف بہ لقب مولانا: فارسی زبان کے عظیم ترین صوفی شاعر اور مثنوی معنوی کے مصنف؛ 604ھ/1207ء میں بلخ میں پیدا ہوئے، اپنے والد بہاء الدین ولد کے ساتھ سفر کرتے ہوئے قونیہ میں بسے، وہاں 642ھ/1244ء میں شمس الدین تبریزی سے ملاقات ان کی زندگی کا فیصلہ کن موڑ بنی، اور 672ھ/1273ء میں قونیہ میں وفات پائی؛ ان کے بعد مریدوں نے مولویہ سلسلہ قائم کیا۔"
 wings:
 - people
 themes:
@@ -29,11 +41,26 @@ themes:
 regions:
 - persia-central-asia
 - anatolia-balkans
+relations:
+- { type: born_in, target: place/balkh, sources: [source/britannica-rumi] }
+- { type: died_in, target: place/konya, sources: [source/britannica-rumi] }
+- { type: participated_in, target: event/departure-from-balkh-615, role: "الصبي الراحل مع أبيه وأهله", sources: [source/britannica-rumi] }
+- { type: participated_in, target: event/rumi-family-settles-konya-625, role: "المستقر بقونية مع أهله", sources: [source/britannica-rumi] }
+- { type: participated_in, target: event/death-of-baha-al-din-628, role: "الابن الخَلَف في التدريس", sources: [source/britannica-rumi] }
+- { type: participated_in, target: event/rumi-meets-shams-al-din-642, role: "اللاقي بشمس الدين", sources: [source/britannica-rumi] }
+- { type: participated_in, target: event/shams-al-din-disappears-645, role: "المفجوع بغياب شمس الدين", sources: [source/britannica-rumi] }
 sources:
+- source/britannica-rumi
 - source/wikidata
 external_ids:
   wikidata: Q43347
+provenance:
+  layer: own-research
+  source: "Britannica, 'Rumi' (Annemarie Schimmel), read through the Wayback capture of 23 October 2026; ledger docs/authenticity-ledger/pages/britannica-rumi.yaml; Wikidata Q43347 for identifiers"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-rumi-1
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), questions lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 2
+  generated_by: "Devin (SWE-2 Medium); earlier draft from Wikidata, 2026-10-16"

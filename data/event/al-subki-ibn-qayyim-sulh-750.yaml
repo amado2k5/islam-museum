@@ -1,0 +1,28 @@
+id: event/al-subki-ibn-qayyim-sulh-750
+class: event
+kind: other
+label:
+  ar: "الصلح بين السبكي وابن قيم الجوزية، ١٦ جمادى الآخرة ٧٥٠هـ"
+  en: "Reconciliation between al-Subki and Ibn Qayyim al-Jawziyya, 16 Jumada II 750"
+  ur: "سبکی اور ابن قیم الجوزیہ میں صلح، 16 جمادی الثانی 750ھ"
+summary:
+  ar: "في يوم الثلاثاء ١٦ جمادى الآخرة ٧٥٠هـ تمّ الصلح في بستان قاضي القضاة بين تقي الدين السبكي وشمس الدين ابن قيم الجوزية بوساطة الأمير سيف الدين بن فضل ملك العرب، وكان السبكي قد نقم عليه إكثاره الفتيا في مسألة الطلاق التي اختارها شيخه ابن تيمية، وجرت بينهما مناقشات فيها {cite:al-bidaya-wal-nihaya s.a. 750 p. 244}."
+  en: "On Tuesday 16 Jumada II 750, in the chief qadi's orchard, Taqi al-Din al-Subki and Shams al-Din Ibn Qayyim al-Jawziyya were reconciled through the mediation of the amir Sayf al-Din ibn Fadl, lord of the Arabs. Al-Subki had taken exception to Ibn Qayyim's frequent fatwas on the divorce question espoused by his teacher Ibn Taymiyya, and there had been extended disputes between them {cite:al-bidaya-wal-nihaya s.a. 750 p. 244}."
+  ur: "منگل 16 جمادی الثانی 750ھ کو قاضی القضاة کے باغ میں امیر سیف الدین بن فضل ملك العرب کی وساطت سے تقی الدین سبکی اور شمس الدین ابن قیم الجوزیہ میں صلح ہوئی۔ سبکی کو طلاق کے مسئلے پر ابن قیم کی کثیر فتاوے ناپسند تھے جو ان کے استاد ابن تیمیہ کے مؤخد تھا، اور دونوں میں طویل مباحث ہوئے تھے {cite:al-bidaya-wal-nihaya s.a. 750 p. 244}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1349-08-26~", hijri: "0750-06-16", calendar: julian, precision: day, status: historical, derived: true, note: "يوم الثلاثاء ١٦ جمادى الآخرة ٧٥٠هـ {cite:al-bidaya-wal-nihaya s.a. 750 p. 244}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/taqi-al-din-al-subki, role: "قاضي القضاة الطرف في الخلاف", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/ibn-qayyim-al-jawziyya, role: "المصالَح صاحب الفتيا", sources: [source/al-bidaya-wal-nihaya] }
+sources: [source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "al-Bidaya wa-l-Nihaya (Ibn Kathir), s.a. 750, printed p. 244 (harvest scan AAlexandrina-074483)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

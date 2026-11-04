@@ -21,3 +21,9 @@ provenance:
   run: lib-shadharat-batch-141, lib-daw-lami-batch-2-2026-10-31
 sources: [source/shadharat-dhahab, source/daw-lami-jil-1992]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab, source/daw-lami-jil-1992]

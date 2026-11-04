@@ -1,14 +1,21 @@
 id: place/konya
 class: place
 kind: city
-label: { en: "Konya", ar: "قونية" }
+label: { en: "Konya", ar: "قونية", ur: "قونیہ" }
 summary:
-  en: "Anatolian city, capital of the Seljuk Sultanate of Rum and the burial place of Rumi (d. 1273)."
-  ar: "مدينة في الأناضول، عاصمة سلطنة سلاجقة الروم وفيها مدفن جلال الدين الرومي (ت. 1273م)."
+  en: "Anatolian city, capital of the Seljuk Sultanate of Rum from the reign of Mas'ud I (512-550/1118-1155) and the burial place of Rumi (d. 672/1273); definitively annexed to the Ottoman state in 880/1475 {cite:encyclopaedia-of-islam-2 vol. 5.1 pp. 287-288}."
+  ar: "مدينة في الأناضول، عاصمة سلطنة سلاجقة الروم منذ عهد مسعود الأول (٥١٢–٥٥٠هـ/١١١٨–١١٥٥م) وفيها مدفن جلال الدين الرومي (ت. ٦٧٢هـ/1273م)؛ ضُمت نهائيًا إلى الدولة العثمانية سنة ٨٨٠هـ/١٤٧٥م {cite:encyclopaedia-of-islam-2 vol. 5.1 pp. 287-288}."
+  ur: "اناطولیہ کا شہر جو مسعود اول (512–550ھ/1118–1155ء) کے عہد سے سلجوق سلطنتِ روم کا دارالحکومت رہا اور رومی (وفات 672ھ/1273ء) کی آرام گاہ ہے؛ 880ھ/1475ء میں عثمانی سلطنت میں حتمی طور پر شامل ہوا۔"
 wings: [place]
 regions: [anatolia-balkans]
 coordinates: [37.8713, 32.4846]
 coordinate_precision: site
 external_ids: { wikidata: "Q79857", geonames: "306571", pleiades: "648647" }
-sources: [source/geonames-gazetteer, source/juha-nawadir-kubra-djuwaydi]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+sources: [source/geonames-gazetteer, source/juha-nawadir-kubra-djuwaydi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 art. ḲONYA (Cl. Cahen), vol. 5.1 PDF pp. 287-288 (harvest OCR); coordinates and gazetteer facts from GeoNames record 306571 (original card by Claude Sonnet 5.5)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-konya-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

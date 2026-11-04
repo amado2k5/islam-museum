@@ -33,7 +33,7 @@ relations:
   - { type: participated_in, target: event/mission-of-muadh-to-yemen, role: "أمير رسل النبي إلى اليمن", sources: [source/ibn-hisham-saqqa] }
 external_ids:
   wikidata: Q1147464
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-abd-al-rahman-mansour]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 provenance:
   layer: own-research
@@ -45,3 +45,9 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+occupations:
+  - job: job/treasurer
+    kind: episodic
+    status: historical
+    note: "The entry names him among the Companions appointed treasurer (sahib bayt al-mal). The entry gives no dates for the post."
+    sources: [source/tdv-hazinedar]

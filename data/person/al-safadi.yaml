@@ -1,20 +1,39 @@
 id: person/al-safadi
 class: person
-label: { ar: "خليل بن أيبك الصفدي", en: "Khalil ibn Aybak al-Safadi" }
+label: { ar: "خليل بن أيبك الصفدي", en: "Khalil ibn Aybak al-Safadi", ur: "خلیل بن ایبک صفدی" }
+born: { edtf: "1297~", hijri: "0696", calendar: julian, precision: year, status: historical, derived: true, note: "ولد بصفد سنة ست وتسعين وستمائة تقريباً (٦٩٦-٦٩٧هـ) {cite:durar-kamina-jil-1993 vol. 2 p. 88} {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
+died: { edtf: "1363-07-23", hijri: "0764-10-10", calendar: julian, precision: day, status: historical, derived: true, note: "توفي بدمشق ليلة عاشر شوال ٧٦٤هـ = ٢٣ يوليو ١٣٦٣م {cite:durar-kamina-jil-1993 vol. 2 p. 88-89} {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
 summary:
   ar: "صلاح الدين خليل بن أيبك الصفدي الشافعي المؤرخ والمنشئ؛ أنشأ جواب الملك الصالح إسماعيل بن الناصر محمد على كتاب السلطان أبي الحسن المريني، وأجاز رواية الرسالتين بخطه بعد أن أسمعهما عز الدين أبو يعلى حمزة ابن القاضي قطب الدين موسى بن أحمد الأحمدي في مجلس واحد في ذي القعدة سنة ٧٥٦ بالجامع الأموي بدمشق، واصفاً قراءتهما بأنها أطريت السمع لفصاحتها وأمالت العطف لرجاحتها {cite:nafh-tib-maqqari p. 403}."
   en: "Salah al-Din Khalil ibn Aybak al-Safadi — historian and chancery writer who composed al-Salih Isma'il's reply to the Marinid sultan's letter, and granted ijaza for both after Izz al-Din Abu Ya'la read them in a single session in the Umayyad Mosque of Damascus, Dhu al-Qa'da 756, a reading that 'graced the ear with eloquence' {cite:nafh-tib-maqqari p. 403}."
+  ur: "صلاح الدین خلیل بن ایبک صفدی — شافعی مورخ و انشا پرداز جنھوں نے ملک صالح اسماعیل بن ناصر محمد کی طرف سے مرینی سلطان ابوالحسن کے خط کا جواب لکھا، اور جامع اموی دمشق میں ذوالقعدہ 756ھ کی ایک مجلس میں عز الدین ابو یعلیٰ حمزہ کی قراءت کے بعد دونوں رسالوں کی اجازت اپنے ہاتھ سے دی — ایسی قراءت جس نے 'فصاحت سے سمع کو محضوظ کیا' {cite:nafh-tib-maqqari p. 403}۔"
 gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 relations:
   - { type: authored, target: work/ayan-al-asr, sources: [source/kashf-zunun-furqan] }
+  - { type: authored, target: work/al-wafi-bil-wafayat, sources: [source/durar-kamina-jil-1993] }
+  - { type: born_in, target: place/safad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/damascus, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: student_of, target: person/jamal-al-din-al-mizzi, sources: [source/durar-kamina-jil-1993] }
+  - { type: student_of, target: person/ibn-sayyid-al-nas-al-akbar, sources: [source/durar-kamina-jil-1993] }
+  - { type: student_of, target: person/ibn-nubata-al-misri, sources: [source/durar-kamina-jil-1993] }
+  - { type: student_of, target: person/abu-hayyan-al-gharnati, sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/birth-al-safadi-696, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/safadi-meets-ibn-taymiyya-717, role: "الطالب", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/safadi-copying-ibn-nubata-718, role: "الناسخ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/safadi-aleppo-service-723, role: "الكاتب الديواني", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/safadi-brother-death-742, role: "الراثي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/safadi-hajj-755, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/safadi-ijaza-umayyad-756, role: "المُنشئ المُجيز", sources: [source/nafh-tib-maqqari] }
+  - { type: participated_in, target: event/safadi-aleppo-lectures-759, role: "المُفيد", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-al-safadi-764, role: "المتوفَّى", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
 provenance:
   layer: own-research
-  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 403"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-nafh-tib-batch-61, lib-durar-kamina-batch-1-2-2026-10-31
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 403; Encyclopaedia of Islam 2nd ed. vol. 8 (Ned-Sam), printed pp. 759-760, art. al-Safadi (F. Rosenthal); al-Durar al-Kamina (Ibn Hajar), vol. 2, entry 1654, printed pp. 88-89"
+  generated_by: "Devin (SWE-2 Medium), after Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-61, lib-durar-kamina-batch-1-2-2026-10-31, explorer-al-safadi-1
 external_ids: { wikidata: "Q12220160" }
-sources: [source/nafh-tib-maqqari, source/kashf-zunun-furqan, source/durar-kamina-jil-1993]
-status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/nafh-tib-maqqari, source/kashf-zunun-furqan, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

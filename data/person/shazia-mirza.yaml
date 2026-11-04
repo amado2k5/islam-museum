@@ -1,0 +1,61 @@
+id: person/shazia-mirza
+class: person
+
+label: { ar: "شازيا مرزا", en: "Shazia Mirza", ur: "شازیہ مرزا" }
+
+names:
+  - { value: "Shazia Mirza", kind: full }
+  - { value: "شازیہ مرزا", kind: full }
+
+gender: female
+
+summary:
+  ar: "كوميدية وممثلة وكاتبة بريطانية وُلدت في برمنغهام لأبوين باكستانيين بنجابيين. عملت معلمة علوم قبل الكوميديا، وبرزت بعد 2001 بعروض عن حياة المرأة المسلمة في بريطانيا، وكتبت أعمدة في «الغارديان» و«نيو ستيتسمان» و«ديلي تلغراف» و«فايننشال تايمز» و«دون»، واختارتها بي بي سي ضمن «100 امرأة» سنة 2013، ومن عروضها الجوالة «ذا كارداشيانز ميد مي دو إت» و«كوكونت»."
+  en: "British stand-up comedian, actor and columnist, born in Birmingham to Punjabi Pakistani parents. A science teacher before comedy, she came to prominence after 2001 with routines about being a Muslim woman in Britain, has written columns for The Guardian, the New Statesman, The Daily Telegraph, the Financial Times and Dawn, was one of the BBC's 100 Women of 2013, and has toured shows including The Kardashians Made Me Do It and Coconut."
+  ur: "برطانوی اسٹینڈ اپ کامیڈین، اداکارہ اور کالم نگار، جو برمنگھم میں پنجابی پاکستانی والدین کے ہاں پیدا ہوئیں۔ کامیڈی سے پہلے سائنس کی استانی رہیں؛ 2001 کے بعد برطانیہ میں ایک مسلمان خاتون کی زندگی پر اپنی پرفارمنس سے شہرت پائی۔ «دی گارڈین»، «نیو سٹیٹس مین»، «ڈیلی ٹیلی گراف»، «فنانشل ٹائمز» اور «ڈان» میں کالم لکھتی رہی ہیں، 2013 میں بی بی سی کی «100 خواتین» میں شامل ہوئیں، اور ان کے معروف شوز میں «دی کارڈیشینز میڈ می ڈو اٹ» اور «کوکونٹ» شامل ہیں۔"
+
+roles: [comedian, actor, writer]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1972"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born in Birmingham, England. Her birth date is publicly unsettled: the English article carries no birth date at all — its infobox warns that her date of birth 'has been frequently altered without citation' — and files her under 'Year of birth missing (living people)' and '1970s births'. Wikidata gives 3 October 1972, referenced to a FreeBMD civil-registration record, and the Urdu article's categories file her under 1972 births, so the queue's year 1972 is built at year precision as debated; the day and month are not adopted. No Hijri year is recorded: a bare 1972 spans 1391–1392 AH. No place entity for Birmingham exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-shazia-mirza-en, source/wikipedia-shazia-mirza-ur, source/wikidata-shazia-mirza]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Her stand-up and her columns are built around her own life as a
+      Muslim woman in Britain — her widely quoted post-2001 opening
+      line, 'My name is Shazia Mirza. At least, that's what it says
+      on my pilot's licence', and her 2010 Guardian piece 'Halal
+      comedy? You might as well ask for halal bacon' are her own
+      framing, preserved here. That is a generic identification
+      naming no school or order, and no source read names one for
+      her. Her parents being Muslim Pakistanis is family background
+      and was not used, and Wikidata's structured religion value
+      gives Islam only, which settles nothing under the founder's
+      rulings of 1 November 2026.
+    sources: [source/wikipedia-shazia-mirza-en, source/wikipedia-shazia-mirza-ur, source/wikidata-shazia-mirza]
+
+external_ids: { wikidata: "Q4967528" }
+
+sources:
+  - source/wikipedia-shazia-mirza-en
+  - source/wikipedia-shazia-mirza-ur
+  - source/wikidata-shazia-mirza
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Shazia Mirza' (revision 1380614467 of 16 October 2026), Urdu Wikipedia article «شازیہ مرزا» (revision 9067252 of 30 August 2025) and Wikidata Q4967528 (item revision 2563196386 of 31 October 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by the coordinator against origin/main before dispatch — no prior record and no draft stub. The queue's year 1972 stands at year precision as debated: the English article deliberately carries no birth date, Wikidata gives 3 October 1972 on a FreeBMD reference, and the Urdu article files her under 1972 births by category only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-165a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

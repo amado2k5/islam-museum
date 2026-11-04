@@ -1,0 +1,23 @@
+id: event/karamanid-siege-bursa-1413
+class: event
+kind: siege
+label: { ar: "حصار القرمانيين لبورصة", en: "The Karamanid siege of Bursa", ur: "قرامانیوں کا بورصہ کا محاصرہ" }
+summary:
+  ar: "حاصر أمير القرمانيين التركماني مدينة بورصة سنة 1413م فدمّر جامع أورخان غازي، ثم أُصلح الجامع بعد أربع سنوات {cite:freely-ottoman-architecture-2011 p. 38}."
+  en: "The Karamanid Turcoman emir besieged Bursa in 1413 CE and destroyed the Orhan Gazi Mosque; the mosque was repaired four years later {cite:freely-ottoman-architecture-2011 p. 38}."
+  ur: "قرامانی ترکمان امیر نے 1413ء میں بورصہ کا محاصرہ کیا اور اورخان غازی مسجد تباہ کر دی؛ مسجد کی چار برس بعد مرمت ہوئی {cite:freely-ottoman-architecture-2011 p. 38}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1413", hijri: "0816", calendar: julian, precision: year, status: tradition, derived: true, note: "1413م {cite:freely-ottoman-architecture-2011 p. 38}؛ الهجري مشتق." }
+relations:
+  - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
+sources: [source/freely-ottoman-architecture-2011]
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (WIT Press 2011), printed p. 38 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

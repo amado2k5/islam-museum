@@ -26,3 +26,6 @@ translators: []
 ومن جوانبه: فقيه شافعي أفرده السبكي في طبقات الشافعية، ولغوي كان ابن النحاس لا يرضى في النحو إلا كلامه بالقاهرة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:14:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:19:00}.
 وعند احتضاره — عن ثمانين سنة وبعد ستة أيام مرضاً — دفع الخمر عن فمه قائلاً «لا ألقي الله وفي جوفي شيء من الخمر»، وتوفي فجر الجمعة 21 ذي القعدة 687هـ {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:22:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:23:00}.
 ويختم بنصيحة الآباء: لا تجبروا أولادكم على ما لا يحبون فلن يبدعوا — وقاعدته 50% من الوقت والقراءة والإنجاز للمجال الرئيسي {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:23:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:22:00}.
+
+## في سلسلة «الحضارة النبوية» لزغلول النجار
+يقول [[person/zaghloul-el-naggar|زغلول النجار]] في [[work/el-hadara-el-nabaouia|الحضارة النبوية]]، وهو يشرح حديث المضغة التي إذا صلحت صلح الجسد، إن المسلمين لم يدركوا قيمة الحديث إلا حين اكتشف ابن النفيس الدورة الدموية الصغرى، ويرى أنها «تُنسب خطأً» إلى وليم هارفي وغيره من العلماء الغربيين. {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep09 00:04:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep09 00:05:00}

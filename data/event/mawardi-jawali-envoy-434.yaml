@@ -1,0 +1,29 @@
+id: event/mawardi-jawali-envoy-434
+class: event
+kind: other
+label:
+  ar: "الماوردي رسول الخليفة بتوقيع إلى جلال الدولة في شأن الجوالي، ٤٣٤هـ"
+  en: "Al-Mawardi carries the caliph's rescript to Jalal al-Dawla over the Jawali, 434/1042-3"
+  ur: "جوالی کے معاملے پر جلال الدولہ کے پاس خلیفہ کے توقیع کے ساتھ ماوردی بطور رسول، 434ھ/1042-3ء"
+summary:
+  ar: "في سنة أربع وثلاثين وأربعمائة افتُتحت الجوالي في أول المحرم، فأنفذ الملك [[person/jalal-al-dawla|جلال الدولة]] من منع أصحاب الخليفة عنها وأخذ ما استخرجوه منها، فشقّ على الخليفة [[person/al-qaim-bi-amr-illah|القائم]] ذلك وخرج توقيعه إلى جلال الدولة وكان [[person/al-mawardi|الماوردي]] هو الرسول، يقول: «خرج التوقيع من الخليفة وكنت أنا الرسول»، وفيه إنكار عدوله عن شهوده والوفاء بعقوده ونقض ما عقده في الجوالي {cite:muntazam-ibn-al-jawzi j.8 p.455-456}. ويعدّها معجم الإسلام ثالث مهماته الأربع {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}."
+  en: "In 434 AH the Jawali was opened in early Muharram, and the king [[person/jalal-al-dawla|Jalal al-Dawla]] sent men to bar the caliph's servants from it and seize what they had collected. This weighed on the caliph [[person/al-qaim-bi-amr-illah|al-Qa'im]], and his rescript went out to Jalal al-Dawla with [[person/al-mawardi|al-Mawardi]] as the messenger — 'the rescript went out from the caliph and I was the messenger', he says — censuring his breach of oaths and repudiation of what he had covenanted over the Jawali {cite:muntazam-ibn-al-jawzi j.8 p.455-456}. The EI2 counts it the third of his four missions {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}."
+  ur: "434ھ میں محرم کے آغاز میں جوالی کھول دی گئی اور بادشاہ [[person/jalal-al-dawla|جلال الدولہ]] نے خلیفہ کے کارکنوں کو اس سے روکنے اور ان کے جمع کردہ مال کو چھیننے والے بھیجے۔ اس نے خلیفہ [[person/al-qaim-bi-amr-illah|قائم]] پر گراں گزرا اور ان کا توقیع جلال الدولہ کو بھیجا گیا جس کے رسول [[person/al-mawardi|ماوردی]] تھے — ان کا کہنا ہے «خلیفہ سے توقیع نکلا اور میں رسول تھا» — جس میں ان کے شہود کے خلاف عدول، عہد کی وفا اور جوالی کے معاہدے کی خلاف ورزی کی مذمت تھی {cite:muntazam-ibn-al-jawzi j.8 p.455-456}۔ دائرۃ المعارفِ اسلام اسے ان کی چار مہموں میں تیسری گنتی ہے {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1042~", hijri: "0434", calendar: julian, precision: year, status: tradition, derived: true, note: "أحداث سنة ٤٣٤هـ {cite:muntazam-ibn-al-jawzi j.8 p.455-456}؛ التحويل مشتق.", sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-mawardi, role: "الرسول بالتوقيع", sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/jalal-al-dawla, role: "الملك الموجه إليه", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qaim-bi-amr-illah, role: "الخليفة المرسل", sources: [source/muntazam-ibn-al-jawzi] }
+sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Ibn al-Jawzi, al-Muntazam j.8 s.a. 434 printed pp. 455-456 (harvest OCR AAlexandrina-224011); Encyclopaedia of Islam 2nd ed. vol. 6, art. al-Māwardī, printed p. 896"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mawardi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

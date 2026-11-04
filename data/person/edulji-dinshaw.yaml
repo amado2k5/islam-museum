@@ -1,0 +1,48 @@
+id: person/edulji-dinshaw
+class: person
+label: { ar: "إدولجي دينشا", en: "Edulji Dinshaw", ur: "ایڈلجی دنشا" }
+names:
+  - { value: "Seth Edulji Dinshaw", kind: full }
+  - { value: "سيث إدولجي دينشا", kind: full }
+  - { value: "Eduljee Dinshaw", kind: alternate }
+  - { value: "Edalji Dinshaw", kind: alternate }
+gender: male
+summary:
+  ar: "تاجر ومحسن بارسي من كراتشي (1842–1914)، نشأ فقيرًا فصار أكبر مالك للأراضي في المدينة بثروة جمعها من مقاولات الجيش البريطاني واستثمارات الأراضي والمصانع، وأنفق بسخاء على المستشفيات والمدارس لجميع الطوائف، فكان أول من نال وسام رفيق إمبراطورية الهند في كراتشي."
+  en: "Karachi Parsi merchant and philanthropist (1842–1914) who rose from poverty to become the city's largest landowner, on a fortune made in British Army contracting and in land and factories, and who gave lavishly to hospitals and schools for all communities; he was the first person in Karachi appointed a Companion of the Order of the Indian Empire."
+  ur: "کراچی کے پارسی تاجر اور فلاح کار (1842–1914)، جو غربت سے اٹھ کر شہر کے سب سے بڑے زمیندار بنے؛ ان کی دولت برطانوی فوج کی ٹھیکیداری اور زمین و کارخانوں میں سرمایہ کاری سے بنی، اور انھوں نے تمام برادریوں کے لیے اسپتالوں اور اسکولوں پر دل کھول کر خرچ کیا؛ وہ کراچی کے پہلے شخص تھے جنھیں کمپینین آف دی آرڈر آف دی انڈین ایمپائر بنایا گیا۔"
+roles: [merchant, patron]
+wings: [people]
+periods: [period/colonial-era]
+regions: [south-asia]
+born:
+  edtf: "1842-05-18"
+  hijri: "1258"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Karachi on 18 May 1842, attested identically by the English article and Wikidata Q7456465. The Hijri year is a tabular derived conversion: May 1842 falls inside 1258 AH. No place entity exists for Karachi, so no born_in edge is written."
+  sources: [source/wikipedia-edulji-dinshaw-en, source/wikidata-edulji-dinshaw]
+died:
+  edtf: "1914-05-08"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at sea near Port Said, Egypt, on 8 May 1914, on his way to England, attested identically by the English article and Wikidata. The Hijri year is a tabular derived conversion: May 1914 falls inside 1332 AH."
+  sources: [source/wikipedia-edulji-dinshaw-en, source/wikidata-edulji-dinshaw]
+faith:
+  - value: zoroastrian
+    basis: documented
+    note: "Two independent texts attest his Parsi identity for the man himself, which is what this lane's two-text rule requires. The English article's lead calls him 'a Karachi-based Parsi philanthropist' and its business section states 'Dinshaw was a member of the Parsi community'; Akhtar Balouch's Dawn feature opens 'This is the story of a Parsi father and his son... The father was Edulji Dinshaw' and reports the family's charitable drive being called the 'Zartashi jigra' (Zoroastrian spirit). Parsi is the Zoroastrian community of South Asia, hence the enum value. He is a non-Muslim benefactor held in the museum under the founder's keep-flagged precedent (the Magdi Yacoub precedent), per the founder's rulings review of 3 November 2026. His Wikidata item carries no religion statement, and structured data is not one of the two texts."
+    sources: [source/wikipedia-edulji-dinshaw-en, source/dawn-dinshaws-of-karachi-2015]
+external_ids: { wikidata: "Q7456465" }
+sources: [source/wikipedia-edulji-dinshaw-en, source/wikidata-edulji-dinshaw, source/dawn-dinshaws-of-karachi-2015]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Seth Edulji Dinshaw' (revision 1379866448 of 12 October 2026), Wikidata Q7456465 (item revision 2514239476 of 5 July 2026) and Akhtar Balouch, 'Heroes forgotten: Searching for the Dinshaws of Karachi', Dawn, 26 September 2015 (English translation by Arif Anjum, read at the Johbawa mirror), all fetched live in-session on 3 November 2026, every revision id re-asserted identical on a second live query. IDENTITY RESOLUTION (the queue mismatch, in full): the century-additions queue's §A row read 'Edalji Dinshaw (Contemporary Figure) — 1900–1970'. No documented person matches those years: not Seth Edulji Dinshaw (18 May 1842 – 8 May 1914, per both his article and his Wikidata item), and not his eldest son Nadirshaw Edulji Dinshaw (1862–1922, per his own article and item Q6957865). 'Edalji' is an attested spelling variant of the same name — the English article itself gives the form 'Eduljee', and Urdu transliteration (ایڈلجی) reads either way — and the founder's rulings review of 3 November 2026 identified the buildable man as Seth Edulji Dinshaw, the Parsi philanthropist of Karachi, under the keep-flagged precedent for non-Muslim benefactors. The queue's 1900–1970 is therefore recorded as a queue data error for the 1842–1914 man, and he is the man built here. The Urdu Wikipedia article on him is a garbled one-line stub (it calls him a military official) and is NOT registered as a source; the Urdu label and summary in this record are the lane's own translations. His two sons have no museum records and Karachi and Port Said have no place entities, so no relation edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-186-writer-a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

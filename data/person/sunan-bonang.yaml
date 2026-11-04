@@ -1,0 +1,78 @@
+id: person/sunan-bonang
+class: person
+
+label: { ar: "سونن بونانغ", en: "Sunan Bonang", ur: "سونن بونانگ" }
+
+names:
+  - { value: "Sunan Bonang", kind: full }
+  - { value: "Makhdum Ibrahim", kind: given }
+  - { value: "Raden Makdum Ibrahim", kind: alternate }
+  - { value: "Maulana Makhdum Ibrahim", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أحد الأولياء التسعة في جاوة (ت. 1525)، ابن سونن أمبل وتلميذه، ومعلّم رادين فاتح مؤسس دماك. اشتهر بدعوته بالفن: نظم التمبانغ المشهور «تومبو آتي» (شفاء القلب) وأدخل آلة البونانغ في الغاملان الجاوي مشبعًا إياه بمعاني الذكر، وتنسب إليه المرويات كتاب «بوك فان بونانغ» الذي دافع فيه عن أرثوذكسية إسلامية صارمة ضد البدع، كما تروي البابادات الجاوية عنه أخبار الكرامات ومجابهة أصحاب السحر الأسود."
+  en: "One of the nine Wali Songo of Java (d. 1525), son and student of Sunan Ampel and teacher of Raden Patah, the founder of Demak. He is remembered for preaching through art: he composed the famous tembang 'Tombo Ati' ('Remedy of the Heart'), gave the Javanese gamelan its bonang instrument and a new dhikr-laden character, and is associated with the Book of Bonang, which defends a strict Islamic orthodoxy against innovation; the Javanese babads also credit him with wonder-working contests against practitioners of black magic."
+  ur: "جاوا کے نو اولیا (ولی سونگو) میں سے ایک (وفات 1525ء)، سونن امپل کے بیٹے اور شاگرد، اور دماک کے بانی رادین پاتاہ کے استاد۔ وہ فن کے ذریعے تبلیغ کے لیے مشہور ہیں: معروف تمنبانگ ”تومبو آتی“ (دل کا علاج) انھیں سے منسوب ہے، انھوں نے جاوا کے گاملان میں بونانگ ساز شامل کر کے اسے ذکر کی فضا دی، اور ”کتاب بونانگ“ ان سے منسوب ہے جس میں بدعت کے مقابلے میں سخت اسلامی اعتدال پسندی — راست اعتقادی — کی حمایت ہے؛ جاوا کی باباد روایات ان سے کرامات اور اہلِ سحر سے مقابلے بھی منسوب کرتی ہیں۔"
+
+roles: [scholar]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1465"
+  hijri: "0869"
+  calendar: gregorian
+  precision: year
+  status: tradition
+  derived: true
+  note: "The year 1465 is given by the English and Indonesian articles and by Wikidata, but it rests on Javanese tradition (babad material), not contemporary documentation, and is recorded as tradition. The birthplace is disputed between the articles: the Indonesian article and its infobox give Lasem, the English article's infobox gives Rembang; neither place has an entity, so the birthplace is recorded here only. The Arabic article pairs the year with 869 AH, and that pairing — the source's own — is recorded as the Hijri year; the year 1465 spans 869-870 AH."
+  sources:
+    - source/wikipedia-sunan-bonang-en
+    - source/wikipedia-sunan-bonang-id
+    - source/wikipedia-sunan-bonang-ar
+    - source/wikidata-sunan-bonang
+
+died:
+  edtf: "1525"
+  hijri: "0931"
+  calendar: gregorian
+  precision: year
+  status: tradition
+  derived: true
+  note: "The year 1525 and the place, Tuban, are given by the English and Indonesian articles and by Wikidata, on the same traditional basis as the birth year. The Indonesian article gives his resting place as Kutorejo, Tuban; Tuban has no place entity, so the place is recorded here only. The Arabic article pairs the year with 931 AH, and that pairing — the source's own — is recorded as the Hijri year; the year 1525 spans 931-932 AH."
+  sources:
+    - source/wikipedia-sunan-bonang-en
+    - source/wikipedia-sunan-bonang-id
+    - source/wikipedia-sunan-bonang-ar
+    - source/wikidata-sunan-bonang
+
+relations:
+  - { type: child_of, target: person/sunan-ampel, sources: [source/wikipedia-sunan-bonang-en, source/wikipedia-sunan-bonang-id] }
+  - { type: student_of, target: person/sunan-ampel, sources: [source/wikipedia-sunan-bonang-id, source/wikipedia-sunan-bonang-en] }
+  - { type: sibling_of, target: person/sunan-drajat, sources: [source/wikipedia-sunan-drajat-en, source/wikipedia-sunan-drajat-id] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Two structured attestations name his branch and one names a school, but the school rests on a single source family: the Indonesian article's Muslim-scholar infobox gives his denomination as Sunni with the jurisprudence field blank, while the Arabic article's infobox — built on the Ba'alawi genealogical tradition and filing him under Shafi'i categories — gives his creed as Sunni and his madhhab as Shafi'i. No second independent source names a school for him: the English article discusses the orthodox, anti-innovation teaching of the Book of Bonang without naming a madhhab, and Wikidata carries no religion claim. His documented life is that of a Muslim saint and teacher of the Wali Songo who spread Islam in Java and taught Raden Patah. On the lane's arithmetic (compare Trenggana and Maulana Yusuf of Banten), a single-family school attestation is preserved here for the founder's ruling and no school is recorded."
+    sources:
+      - source/wikipedia-sunan-bonang-id
+      - source/wikipedia-sunan-bonang-ar
+      - source/wikipedia-sunan-bonang-en
+
+external_ids: { wikidata: "Q7443276" }
+
+sources:
+  - source/wikipedia-sunan-bonang-en
+  - source/wikipedia-sunan-bonang-id
+  - source/wikipedia-sunan-bonang-ar
+  - source/wikidata-sunan-bonang
+
+provenance:
+  layer: own-research
+  source: "English, Indonesian and Arabic Wikipedia articles on Sunan Bonang and Wikidata Q7443276, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query). His father Sunan Ampel has a record in the museum (person/sunan-ampel), so the child_of and student_of edges are written here; his other teachers named by the Indonesian article (Maulana Ishaq, Shaykh Ismail of Malacca) and his own student Sunan Kalijaga have, respectively, no record and a draft card that this batch does not touch, so those links are prose-only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-151g
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

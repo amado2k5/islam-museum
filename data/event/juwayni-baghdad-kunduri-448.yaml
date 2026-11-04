@@ -1,0 +1,28 @@
+id: event/juwayni-baghdad-kunduri-448
+class: event
+kind: other
+label:
+  ar: "الجويني ببغداد في صحبة الوزير الكندري، نحو ٤٤٨هـ"
+  en: "Al-Juwayni at Baghdad in the vizier al-Kunduri's company, c. 448/1056"
+  ur: "جوینی بغداد میں وزیر کندری کی صحبت میں، تقریباً 448ھ/1056ء"
+summary:
+  ar: "لما اضطربت الأحوال بالفتنة اضطر الجويني إلى السفر عن نيسابور فذهب إلى المعسكر ثم إلى بغداد، وصحب الوزير أبا نصر الكندري مدة يطوف معه ويلتقي في حضرته بكبار العلماء ويناظرهم ويحتك بهم حتى تحنك وتهذب وشاع ذكره {cite:tarikh-islam-dhahabi p. 230} {cite:siyar-alam-nubala j.18 pp. 2574-2575}؛ وذكر ابن عقيل عن عميد الملك أن أبا المعالي قدم فكلم أبا القاسم بن برهان في العباد هل لهم أفعال فأكله ابن برهان بالحجة {cite:siyar-alam-nubala j.18 p. 2574}."
+  en: "When affairs were thrown into disorder by the ordeal, al-Juwayni was forced to leave Nishapur for the army camp and then Baghdad, where he kept company with the vizier Abu Nasr al-Kunduri for a time, travelling with him and meeting and disputing the great scholars in his presence until he grew seasoned, polished and famous {cite:tarikh-islam-dhahabi p. 230} {cite:siyar-alam-nubala j.18 pp. 2574-2575}; Ibn Aqil reports from Amid al-Mulk that Abu al-Ma'ali once came and questioned Abu al-Qasim ibn Burhan on whether God's servants have acts of their own, and Ibn Burhan was silenced by the proof {cite:siyar-alam-nubala j.18 p. 2574}."
+  ur: "جب فتنے سے حالات بگڑ گئے تو جوینی نیشاپور سے رخصت ہونے پر مجبور ہوئے، پہلے لشکر گاہ پھر بغداد گئے، جہاں وہ کچھ عرصہ وزیر ابو نصر کندری کے ہمراہ رہے، ان کے ساتھ سفر کیا، ان کی حضوری میں بڑے علماء سے ملاقات و مناظرہ کیا، یہاں تک کہ وہ پختہ اور صیقل ہو گئے اور ان کا چرچا پھیل گیا {cite:tarikh-islam-dhahabi p. 230} {cite:siyar-alam-nubala j.18 pp. 2574-2575}؛ ابن عقی ٔل عمید الملک سے نقل کرتے ہیں کہ ابو المعالی نے ایک بار ابو القاسم بن برہان سے بندوں کے افعال پر سوال کیا تو ابن برہان حجت کے سامنے بھوت ہوئے {cite:siyar-alam-nubala j.18 p. 2574}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1056~", hijri: "0448~", calendar: julian, precision: year, status: tradition, derived: true, note: "بين اضطراب الأحوال بفتنة ٤٤٥هـ ووصوله إلى الحجاز سنة ٤٥٠هـ {cite:tarikh-islam-dhahabi p. 230} {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}؛ التاريخ تقريبي مشتق.", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "المناظر في حضرة الوزير", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: had_participant, target: person/al-kunduri-amid-al-mulk, role: "الوزير المصاحَب", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 478, printed p. 230 (harvest OCR); Siyar A'lam al-Nubala 18/2574-2575 (harvest OCR): 'fadhhaba ila al-ma'askar thumma ila Baghdad wa-sahiba al-wazir Aba Nasr al-Kunduri'"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-juwayni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

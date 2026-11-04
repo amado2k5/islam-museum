@@ -1,0 +1,24 @@
+id: event/mehmed-i-capital-returns-bursa
+class: event
+kind: other
+label: { ar: "محمد الأول يعيد العاصمة إلى بورصة", en: "Mehmed I returns the capital to Bursa", ur: "محمد اول کا بورصہ کو دوبارہ دارالحکومت بنانا" }
+summary:
+  ar: "كان السلطان محمد الأول محباً للسلم والعلم والفقهاء، فنقل عاصمة الدولة من أدرنة «مدينة الغزاة» إلى بورصة «مدينة الفقهاء» {cite:dawlat-uthmaniyya-salabi p. 78}."
+  en: "Sultan Mehmed I, a lover of peace, learning and the jurists, moved the capital of the state from Edirne, 'the city of the ghazis', back to Bursa, 'the city of the jurists' {cite:dawlat-uthmaniyya-salabi p. 78}."
+  ur: "سلطان محمد اول صلح، علم اور فقہاء کا دوست تھا، اس نے سلطنت کا دارالحکومت ادرنہ «غازیوں کا شہر» سے واپس بورصہ «فقہاء کا شہر» منتقل کیا {cite:dawlat-uthmaniyya-salabi p. 78}۔"
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1413~", hijri: "0816", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة محمد الأول بعد انفراده بالحكم 1413م؛ التاريخ مشتق {cite:dawlat-uthmaniyya-salabi p. 78}." }
+relations:
+  - { type: occurred_at, target: place/bursa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/muhammad-i-jalabi, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 78"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

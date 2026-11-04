@@ -1,0 +1,27 @@
+id: event/tabari-tabaristan-visit-289
+class: event
+kind: migration
+label:
+  ar: "سفرة الطبري الثانية إلى طبرستان"
+  en: "al-Tabari's second journey home to Tabaristan"
+  ur: "طبری کا طبرستان کا دوسرا سفر"
+summary:
+  ar: "في نصف قرنه البغدادي لم يخرج الطبري إلا في سفرتين إلى بلده طبرستان، كانت الثانية منهما سنة ٢٨٩-٢٩٠هـ/٩٠٢-٩٠٣م، وكان قد استقر بناحية الشماسية من بغداد بحلول سنة ٢٩٠هـ {cite:encyclopaedia-of-islam-2 vol. 10 p. 21-22}."
+  en: "During his half-century in Baghdad al-Tabari made only two journeys to his native Tabaristan, the second in 289-90/902-3; by 290/903 he was installed in the al-Shammasiyya quarter on the eastern side of the city, where he lived until his death {cite:encyclopaedia-of-islam-2 vol. 10 p. 21-22}."
+  ur: "بغداد میں اپنی نصف صدی کے قیام میں طبری صرف دو مرتبہ اپنے وطن طبرستان گئے، جن میں سے دوسرا سفر 289-90ھ/902-903ء میں تھا؛ 290ھ/903ء تک وہ شہر کے مشرقی محلے الشماسیہ میں مقیم ہو گئے تھے جہاں وہ وفات تک رہے {cite:encyclopaedia-of-islam-2 vol. 10 p. 21-22}."
+wings: [time]
+themes: [travel]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0902", hijri: "0289", calendar: julian, precision: year, status: historical, derived: true, note: "تنص الموسوعة على السفرة الثانية إلى طبرستان سنة ٢٨٩-٢٩٠هـ/٩٠٢-٩٠٣م {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}." }
+relations:
+  - { type: occurred_at, target: place/tabaristan, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 10, art. 'al-Tabari' (C. E. Bosworth), PDF pp. 21-22, Apple Vision OCR of the local harvest copy (books/encyclopaedia-of-islam-2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-tabari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

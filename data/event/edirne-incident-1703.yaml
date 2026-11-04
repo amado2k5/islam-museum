@@ -3,21 +3,26 @@ class: event
 kind: revolt
 label: { ar: "حادثة أدرنة (١٧٠٣)", en: "Edirne Incident" }
 summary:
-  ar: "بطاقة أولية لحادثة أدرنة سنة ١٧٠٣م، انتفاضة الإنكشارية التي خلعت مصطفى الثاني؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Edirne Incident of 1703, the janissary rising that deposed Mustafa II; its sources are not yet checked on the page."
+  ar: "في «حادثة أدرنة» المشهورة سنة ١١١٥هـ/١٧٠٣م، عُزل مصطفى الثاني — الذي كان يقيم بأدرنة — ونُصّب أخوه أحمد الثالث سلطاناً بفعل المنتقدين القادمين من إستانبول {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  en: "In the famous \"Edirne incident\" of 1115/1703, Mustafa II — who held his court at Edirne — was deposed in favour of his brother Ahmed III by malcontents coming from Istanbul {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  ur: "مشہور «واقعۂ ادرنہ» 1115ھ/1703ء میں مصطفی ثانی — جس کا دربار ادرنہ میں تھا — کو استنبول سے آنے والے مخالفین نے معزول کر کے اس کے بھائی احمد ثالث کو تخت نشیں کیا {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}۔"
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 date:
-  start: { edtf: "1703", precision: year, status: tradition, derived: true }
+  start: { edtf: "1703", hijri: "1115", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ١١١٥هـ/١٧٠٣م {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}؛ الميلادي مشتق." }
   end: { edtf: "1703", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/mustafa-ii-uthmani, role: "السلطان المعزول", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmed-iii-uthmani, role: "السلطان المنصب", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q5338335
 provenance:
   layer: own-research
-  source: "Wikidata candidate; incident attested in Ottoman histories — entry not yet checked on the page"
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 711 (harvest OCR); Wikidata Q5338335"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

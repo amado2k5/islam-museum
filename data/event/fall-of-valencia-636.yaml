@@ -10,11 +10,15 @@ periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
 date:
   start: { edtf: "1238-09-29~", hijri: "0636-02-17", calendar: julian, precision: day, status: tradition, derived: true, note: "الثلاثاء 17 صفر 636؛ التحويل مشتق {cite:nafh-tib-maqqari p. 464}." }
+relations:
+  - { type: occurred_at, target: place/valencia, sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/ibn-al-abbar, role: "كاتب المستغيثة السينية ثم المفارق بعد السقوط", sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2] }
+sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
-  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-nafh-tib-batch-13
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري؛ Encyclopaedia of Islam 2nd ed. vol. 3 printed p. 705 (IBN AL-ABBĀR) — Apple Vision OCR of local scans"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: "lib-nafh-tib-batch-13; explorer-ibn-al-abbar-1"
 external_ids: { wikidata: "Q9078168" }
-sources: [source/nafh-tib-maqqari]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

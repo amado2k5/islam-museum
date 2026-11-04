@@ -1,0 +1,68 @@
+id: person/zulfikar-ghose
+class: person
+
+label: { ar: "ذو الفقار غوش", en: "Zulfikar Ghose", ur: "ذوالفقار گھوش" }
+
+names:
+  - { value: "Zulfikar Ghose", kind: full }
+  - { value: "Khwaja Zulfikar Ahmed", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "ذو الفقار غوش (1935–2022) شاعر وروائي وكاتب مقالات باكستاني المولد. وُلد في سيالكوت ونشأ في بومباي، وهاجر مع أسرته إلى إنجلترا بعد تقسيم الهند، وتخرج في جامعة كيل سنة 1959، ودرّس في لندن قبل أن ينتقل سنة 1969 إلى جامعة تكساس في أوستن، حيث درّس الأدب الإنجليزي والكتابة الإبداعية حتى تقاعده أستاذًا فخريًا سنة 2007. من كتبه سيرته الذاتية «Confessions of a Native-Alien» (1965) و«The Murder of Aziz Khan» (1967) وثلاثية «The Incredible Brazilian» (1972–1978) و«The Triple Mirror of the Self» (1992)."
+  en: "Zulfikar Ghose (1935–2022) was a Pakistani-born poet, novelist and essayist. Born in Sialkot and raised in Bombay, he emigrated with his family to England after Partition, graduated from Keele University in 1959, and taught in London before moving in 1969 to the University of Texas at Austin, where he taught English literature and creative writing until his retirement as professor emeritus in 2007. His books include the autobiography Confessions of a Native-Alien (1965), The Murder of Aziz Khan (1967), The Incredible Brazilian trilogy (1972–1978) and The Triple Mirror of the Self (1992)."
+  ur: "ذوالفقار گھوش (1935–2022) پاکستانی نژاد شاعر، ناول نگار اور مضمون نگار تھے۔ سیالکوٹ میں پیدا ہوئے، بمبئی میں پلے بڑھے، تقسیمِ ہند کے بعد خاندان کے ساتھ انگلستان ہجرت کی، 1959 میں کیل یونیورسٹی سے فارغ التحصیل ہوئے، اور 1969 میں یونیورسٹی آف ٹیکساس، آسٹن منتقل ہو گئے جہاں 2007 میں پروفیسر ایمریٹس کی حیثیت سے سبکدوشی تک انگریزی ادب اور تخلیقی تحریر پڑھاتے رہے۔ ان کی کتابوں میں خودنوشت «Confessions of a Native-Alien» (1965)، «The Murder of Aziz Khan» (1967)، «The Incredible Brazilian» سہ جلدی سلسلہ (1972–1978) اور «The Triple Mirror of the Self» (1992) شامل ہیں۔"
+
+roles: [poet, writer]
+wings: [people]
+regions: [south-asia, americas-oceania]
+
+born:
+  edtf: "1935-03-13"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Sialkot, Punjab, in British India, the son of the businessman Khwaja Mohammed Ghose. The English article and Wikidata agree on 13 March 1935. The Hijri year 1353 is the tabular conversion of the built date, marked derived. The museum has no place entity for Sialkot, so the birthplace is carried in this note only and no born_in edge is written."
+  sources: [source/wikipedia-zulfikar-ghose-en, source/wikidata-zulfikar-ghose]
+
+died:
+  edtf: "2022-06-30"
+  hijri: "1443"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Austin, Texas, on 30 June 2022, aged 87, as reported by the Dawn and Guardian obituaries cited in the English article and agreed by Wikidata. The Hijri year 1443 is the tabular conversion of the built date, marked derived. The museum has no place entity for Austin, so no died_in edge is written."
+  sources: [source/wikipedia-zulfikar-ghose-en, source/wikidata-zulfikar-ghose]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Britannica and the English article describe Ghose as having grown up a
+      Muslim in Sialkot and Bombay, which is upbringing and does not settle an
+      adult affiliation. The English and Urdu articles both file him in a
+      'Pakistani Ahmadis' category, but no text in any source read attests a
+      personal Ahmadi affiliation for Ghose himself, and category filings
+      never settle faith. No source consulted names an adult affiliation for
+      him, and no two sources record unbelief in his own words, so the
+      atheist-or-sceptic test is not met either. Recorded as unknown, with
+      the upbringing and the category filing both stated here in full.
+    sources: [source/wikipedia-zulfikar-ghose-en, source/wikipedia-zulfikar-ghose-ur, source/wikidata-zulfikar-ghose]
+
+external_ids: { wikidata: "Q3248430" }
+
+sources:
+  - source/wikipedia-zulfikar-ghose-en
+  - source/wikipedia-zulfikar-ghose-ur
+  - source/wikidata-zulfikar-ghose
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Zulfikar Ghose' (revision 1381367377 of 21 October 2026), Urdu Wikipedia article 'ذوالفقار گھوش' (revision 10713595 of 2 June 2026) and Wikidata Q3248430 (item revision 2558288010 of 18 October 2026), all fetched live in-session via the MediaWiki API on 1 November 2026, the item revision re-asserted against a second live query and the QID grounded from the English article's own page property. No Arabic Wikipedia article on him exists, so the record's Arabic label and prose are the museum's own. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub. The century queue's dates 1935–2022 are confirmed by all three sources; its spelling 'Zulifikar' is not followed, the articles and the item giving 'Zulfikar'."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-160a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

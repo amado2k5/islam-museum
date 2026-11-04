@@ -3,23 +3,23 @@ class: person
 label:
   ar: "الشمري"
   en: "al-Shammari"
-roles: [scholar]
+roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لالشمري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Shammari; the entry is not yet checked on the page."
+  ar: "إبراهيم المشرقي المدني الشمري «الفرضي»، عالم بالفرائض حنبلي من أهل المجمعة بنجد؛ توفي بالمدينة سنة 1189هـ (1775م)."
+  en: "Ibrahim al-Shammari “al-Faridi” (d. 1189/1775), Hanbali inheritance scholar of Majma'a in Najd, died at Medina."
 wings: [people]
-regions: [levant-iraq]
+regions: [arabia]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q124832024
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.49)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  run: prose-fill-persons-batch2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

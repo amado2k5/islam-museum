@@ -1,5 +1,5 @@
 node_modules/
-dist/
+Dist/
 .cache/
 .DS_Store
 .env
@@ -17,5 +17,8 @@ node_modules
 workers/site/src/rules.generated.js
 dist-assets/
 .time-browser-logs/
+# Scratch source books and documents stay on disk and out of git.
 *.pdf
 *.txt
+*.epub
+*.djvu

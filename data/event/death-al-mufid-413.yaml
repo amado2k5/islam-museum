@@ -1,0 +1,30 @@
+id: event/death-al-mufid-413
+class: event
+kind: death
+label:
+  ar: "وفاة الشيخ المفيد ورياسة الشريف المرتضى، ٤١٣هـ"
+  en: "Death of al-Shaykh al-Mufid and al-Sharif al-Murtada's succession, 413/1022"
+  ur: "شیخ مفید کی وفات اور شریف مرتضیٰ کی قیادت، 413ھ/1022ء"
+summary:
+  ar: "توفي الشيخ المفيد سنة ٤١٣هـ/١٠٢٢م، فتولى بعده تلميذه الشريف المرتضى علم الهدى رئاسة الإمامية بالعاصمة، وصار الطوسي منذئذ أبرز تلاميذه {cite:encyclopaedia-of-islam-2 vol. 10 p. 744}."
+  en: "On the death of al-Shaykh al-Mufid in 413/1022 his pupil al-Sharif al-Murtada, 'Alam al-Huda — who had also studied under the Mu'tazili Abd al-Jabbar — took over the leadership of the capital's Imamis, and al-Tusi subsequently became his principal disciple {cite:encyclopaedia-of-islam-2 vol. 10 p. 744}."
+  ur: "413ھ/1022ء میں شیخ مفید کی وفات پر ان کے شاگرد شریف مرتضیٰ علم الہدیٰ — جو معتزلی عبدالجبار سے بھی پڑھ چکے تھے — دارالخلافہ کے امامیوں کے قائد بنے اور طوسی پھر ان کے مخصوص شاگرد بن گئے {cite:encyclopaedia-of-islam-2 vol. 10 p. 744}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [sects-and-schools]
+date:
+  start: { edtf: "1022~", hijri: "0413", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاة المفيد سنة ٤١٣هـ {cite:encyclopaedia-of-islam-2 vol. 10 p. 744}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-shaykh-al-mufid, role: "المتوفى", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-sharif-al-murtada, role: "الخليفة في رئاسة الإمامية", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/shaykh-al-tusi, role: "تلميذ المفيد الذي تحوّل إلى المرتضى", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 art. AL-TUSI printed p. 744 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-shaykh-al-tusi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

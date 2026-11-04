@@ -1,0 +1,27 @@
+id: event/tirmidhi-settles-jami-265
+class: event
+kind: other
+label:
+  ar: "استقرار الترمذي ببلدته وانكبابه على تأليف الجامع، نحو ٢٦٥هـ"
+  en: "Al-Tirmidhi settles back at his town and devotes himself to composing the Jami', c. 265/879"
+  ur: "ترمذی کا اپنے شہر میں استقرار اور جامع کی تصنیف میں انغماد، تقریباً 265ھ/879ء"
+summary:
+  ar: "استقر الترمذي ببلدته بعد أن استكمل رحلته العلمية وعكف على التأليف والمراجعة {cite:mawsuat-a3lam-ulama-adaba p. 451}؛ وصنّف الجامع المعروف بسنن الترمذي — أحد الكتب الستة — في ٣٩٥٦ حديثاً على خمسين كتاباً، وألحق به كتاب العلل بياناً لمنهجه في تقسيم الحديث إلى صحيح وحسن وغريب، وجمع أيضاً كتاب الشمائل المحمدية في أوصاف النبي {cite:encyclopaedia-of-islam-2 vol. 10 p. 579} {cite:mawsuat-a3lam-ulama-adaba p. 451-452}."
+  en: "Al-Tirmidhi settled back at his town after completing his scholarly journey and devoted himself to authorship and revision {cite:mawsuat-a3lam-ulama-adaba p. 451}; he composed the Jami' known as the Sunan of al-Tirmidhi — one of the Six Books — with 3,956 traditions over fifty chapters, appending the Kitab al-Ilal as a statement of his method in grading hadith sahih, hasan and gharib, and he also gathered the Kitab al-Shama'il al-Muhammadiyya on the Prophet's characteristics {cite:encyclopaedia-of-islam-2 vol. 10 p. 579} {cite:mawsuat-a3lam-ulama-adaba p. 451-452}."
+  ur: "ترمذی علمی مسافرت مکمل کرنے کے بعد اپنے شہر میں مستقر ہو گئے اور تصنیف و نظرثانی میں جُٹ گئے {cite:mawsuat-a3lam-ulama-adaba p. 451}؛ انہوں نے جامع مرتب کی جو سننِ ترمذی کے نام سے معروف ہے — کتبِ ستہ میں سے — جس میں پچاس ابواب پر 3956 احادیث ہیں، اور آخر میں کتاب العلل شامل کی جو صحیح، حسن اور غریب کی تقسیم پر ان کے منہج کی وضاحت ہے؛ انہوں نے اوصافِ نبوی پر کتاب الشمائل المحمدیہ بھی جمع کی {cite:encyclopaedia-of-islam-2 vol. 10 p. 579} {cite:mawsuat-a3lam-ulama-adaba p. 451-452}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0879~", hijri: "0265~", calendar: julian, precision: decade, status: tradition, derived: true, note: "استقرار بعد الرحلة وقبل وفاته ٢٧٩هـ {cite:mawsuat-a3lam-ulama-adaba p. 451}؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: occurred_at, target: place/tirmidh, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: had_participant, target: person/al-tirmidhi-muhammad-ibn-isa, role: "المصنّف", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء ج4 ص451-452 (harvest OCR v04 pages 451-452); Encyclopaedia of Islam 2nd ed. vol. 10, printed p. 579"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-tirmidhi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

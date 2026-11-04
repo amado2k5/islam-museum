@@ -27,3 +27,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يذكر عمر عبد الكافي عادة السانح والبارح في الجاهلية: كان الأعرابي إذا خرج لسفر زجر أول طائر يلقاه، فإن طار عن اليمين تفاءل وإن طار عن الشمال تشاءم. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:15:30} ويعدّ من بقاياها التشاؤم بالغراب وبغيره من العلامات، وينهى عن ذلك. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:16:00} ويرى أن الإسلام وضع مكانها سنة [[practice/istikhara|الاستخارة]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:16:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يشرح الشيخ السانح والبارح عند العرب: كان المسافر يزجر أول طائر يراه، فإن طار من اليمين إلى اليسار تفاءل وسافر، وإن طار من الشمال تشاءم ورجع، وكانوا يتشاءمون من الغراب ومن الهدهد لأنه من الهدّ والهدم، ويرى أن النبي علّم المسلمين بدلًا من ذلك صلاة الاستخارة، وأن الإسلام ما حرّم شيئًا إلا أوجد بديله. {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:04:30} انظر: [[practice/istikhara|الاستخارة]].

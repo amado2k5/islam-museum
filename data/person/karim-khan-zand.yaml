@@ -1,0 +1,75 @@
+id: person/karim-khan-zand
+class: person
+
+label: { ar: "كريم خان زند", en: "Karim Khan Zand", ur: "کریم خان زند" }
+
+names:
+  - { value: "Mohammad Karim Khan Zand", kind: full }
+  - { value: "محمد كريم خان زند", kind: full }
+  - { value: "Karim Beg", kind: alternate }
+  - { value: "Vakil al-Ra'aya", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "محمد كريم خان زند (ق. 1705 – 1 مارس 1779) زعيم من قبيلة زند في ناحية ملاير، خدم في جيش نادر شاه ثم أسس الدولة الزندية وحكم إيران — ما عدا خراسان وبلوشستان — من 1751 إلى 1779. رفض لقب الشاه وحكم بلقب «وكيل الرعايا» من شيراز، فأعاد إلى البلاد الأمن والرخاء بعد أربعين سنة من الحروب، وحاصر البصرة العثمانية وأخذها في 1775–1776، وأبقى آغا محمد خان القاجاري الشاب رهينة مكرّمًا في بلاطه."
+  en: "Mohammad Karim Khan Zand (c. 1705 – 1 March 1779) was a Zand tribesman of the Malayer district who, after service in Nader Shah's army, founded the Zand dynasty and ruled Iran, except Khorasan and Balochistan, from 1751 to 1779. Refusing the title of shah, he ruled as Vakil al-Ra'aya, 'representative of the people', from Shiraz, restoring peace and prosperity after forty years of war; he besieged and took Ottoman Basra in 1775–1776, and kept the young Agha Mohammad Khan Qajar as an honoured hostage at his court."
+  ur: "محمد کریم خان زند (ق. 1705ء – 1 مارچ 1779ء) ملایر کے علاقے کے زند قبیلے کے سردار تھے؛ نادر شاہ کی فوج میں خدمت کے بعد انہوں نے زند خاندان کی بنیاد رکھی اور 1751ء سے 1779ء تک خراسان و بلوچستان کے سوا تمام ایران پر حکومت کی۔ شاہ کا لقب اختیار کرنے سے انکار کر کے وہ شیراز سے «وکیل الرعایا» کے لقب سے حکمران بنے، چالیس سال کی جنگوں کے بعد ملک میں امن و خوشحالی واپس لائے، 1775ء–1776ء میں عثمانی بصرہ کا محاصرہ کر کے اسے فتح کیا، اور نوجوان آغا محمد خان قاجار کو اپنے دربار میں معزز یرغمال رکھا۔"
+
+roles: [ruler]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1705~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article gives c. 1705 for his birth in the village of Pari in the Malayer district, without a day; Wikidata's 23 May 1705 is a day precision no article read supports. The Arabic article pairs its c. 1705 with 1119 AH, which falls in 1707–1708 and so does not pair consistently, and the Hijri year is therefore omitted. Pari has no museum place record, so no born_in edge is written."
+  sources: [source/wikipedia-karim-khan-zand-en, source/wikipedia-karim-khan-zand-ar, source/wikidata-karim-khan-zand]
+
+died:
+  edtf: "1779-03-01"
+  hijri: "1193"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English article gives his death on 1 March 1779 after six months of illness, most likely tuberculosis, and his burial three days later in Shiraz's Nazar Garden; the Arabic article gives 13 Safar 1193, the same day, and Wikidata agrees on 1 March 1779 and on Shiraz."
+  sources: [source/wikipedia-karim-khan-zand-en, source/wikipedia-karim-khan-zand-ar, source/wikidata-karim-khan-zand]
+
+relations:
+  - { type: died_in, target: place/shiraz, sources: [source/wikipedia-karim-khan-zand-en, source/wikidata-karim-khan-zand] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a religion or a legal school for the man
+      himself, and Wikidata carries no religion value for him at all.
+      The tradition he ruled is stated in full — Persia's Twelver Shia
+      sanctuaries at Najaf and Karbala mattered enough to his subjects
+      that Ottoman interference with Iranian pilgrims who had died in
+      the 1773 plague and exactions on pilgrims were among his stated
+      grounds for the war of 1775–1776, while his own religious policy
+      broke with the Safavid pattern, the English article recording
+      that unlike the Safavids he did not seek the approval of the
+      ulama, formerly the bulwarks of the shah's authority. Rule over
+      a Shia state and concern for its pilgrims are dynastic context,
+      not a naming of the man's school, so his faith is recorded as
+      unknown.
+    sources: [source/wikipedia-karim-khan-zand-en, source/wikidata-karim-khan-zand]
+
+external_ids: { wikidata: "Q332583" }
+
+sources:
+  - source/wikipedia-karim-khan-zand-en
+  - source/wikipedia-karim-khan-zand-ar
+  - source/wikipedia-karim-khan-zand-ur
+  - source/wikidata-karim-khan-zand
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1373538412 of 6 September 2026), Arabic Wikipedia (revision 76958240 of 12 October 2026), Urdu Wikipedia (revision 8698624 of 10 May 2025) and Wikidata Q332583 (item revision 2561853448), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted against a second live query. Existence checked by the coordinator against origin/main before building: no prior record holds Karim Khan Zand under any spelling found (karim-khan-kermani is a different, later man)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-165j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

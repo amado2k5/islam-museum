@@ -3,21 +3,25 @@ class: event
 kind: siege
 label: { ar: "حصار القسطنطينية (١٤٢٢)", en: "Siege of Constantinople (1422)" }
 summary:
-  ar: "بطاقة أولية لحصار مراد الثاني للقسطنطينية سنة ١٤٢٢م، أول حصار عثماني كبير للمدينة؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Murad II's siege of Constantinople in 1422, the first great Ottoman siege of the city; its sources are not yet checked on the page."
+  ar: "بدأ السلطان مراد الثاني حصار القسطنطينية سنة 825هـ/1422م، وكان قد تولى العرش بعد وفاة أبيه محمد الأول وقضى على دعوى المدعي المعروف في التاريخ التركي بدزمه مصطفى الذي سنده الإمبراطور مانويل؛ ورُفع الحصار إما لمال بيزنطي وصل إلى الوزير إبراهيم باشا المحب للروم، أو لظهور مدعٍّ جديد للعرش في إزنيق هو أخو السلطان الأصغر مصطفى الذي خانه أنصاره فيما بعد وقُتل {cite:encyclopaedia-of-islam-2 vol. 7 p. 648-649}."
+  en: "In 825/1422 Sultan Murad II began a siege of Constantinople. He had come to the throne after the death of his father Mehemmed I and had just overcome the pretender known in Turkish history as Düzme Mustafa, whom the emperor Manuel had supported. The siege was raised, either through Byzantine gold reaching the graecophile vizier Ibrahim Pasha, or because a new pretender appeared in Iznik in the person of Murad's younger brother Mustafa, who was later betrayed by his supporters and killed {cite:encyclopaedia-of-islam-2 vol. 7 p. 648-649}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 date:
-  start: { edtf: "1422", precision: year, status: tradition, derived: true }
+  start: { edtf: "1422", hijri: "0825~", calendar: julian, precision: year, status: tradition, derived: true, note: "825هـ/1422م عند دائرة المعارف الإسلامية؛ التحويل الهجري مشتق {cite:encyclopaedia-of-islam-2 vol. 7 p. 648}." }
   end: { edtf: "1422", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: occurred_at, target: place/constantinople, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/murad-ii-uthmani, role: "السلطان المحاصِر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/manuel-ii-palaiologos, role: "الإمبراطور المحاصَر", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q700886
 provenance:
   layer: own-research
-  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 7, art. 'Murad II', PDF pp. 648-649, Apple Vision OCR; Wikidata candidate verified on the page by Devin (SWE-2 Medium)"
+  generated_by: "Devin (SWE-2 High); checked and enriched by Devin (SWE-2 Medium)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

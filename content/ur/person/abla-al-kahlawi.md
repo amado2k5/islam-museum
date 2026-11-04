@@ -1,0 +1,31 @@
+---
+id: person/abla-al-kahlawi
+lang: ur
+source_lang: ar
+translators: ["Claude Code (claude-opus-5-5), translation from the Arabic, run assabile-egypt-kahlawi-1"]
+---
+## خلاصہ
+عبلہ محمد مرسی عبداللطیف الکحلاوی ایک مصری فقیہہ اور داعیہ تھیں، جو 15 دسمبر 1948 کو قاہرہ کے محلہ زمالک میں پیدا ہوئیں اور 24 جنوری 2021 کو وفات پائی۔ {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikidata-abla-al-kahlawi} {cite:wikipedia-abla-al-kahlawi-en} وہ جامعہ ازہر کے کلیۂ اسلامی و عربی علوم برائے خواتین میں فقہ کی استاد اور اس کی ڈین تھیں، اور اپنے سامعین میں «ماما عبلہ» کے نام سے جانی جاتی تھیں۔ {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en}
+
+## خاندان
+وہ مصری دینی نعت خواں محمد الکحلاوی کی سب سے بڑی بیٹی تھیں، اور اسلامی فنِ تعمیر کے استاد محمد الکحلاوی اور نعت خواں احمد الکحلاوی کی بہن۔ {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en} عربی مضمون کے مطابق ان کی شادی کم عمری میں محمد یاسین بسیونی سے ہوئی، جو انجینئر اور فوجی افسر تھے اور جنہیں ان کے والد نے ان کے لیے چنا، اور جو جنگِ اکتوبر میں مارے گئے؛ پھر انہوں نے اپنی تین بیٹیوں کی پرورش اور کفالت تنہا کی۔ {cite:wikipedia-abla-al-kahlawi-ar}
+
+## تعلیم اور تدریس
+عربی مضمون کے مطابق وہ سفیر بننا چاہتی تھیں، مگر والد کی خواہش پر جامعہ ازہر کے کلیۂ اسلامی علوم میں داخل ہوئیں اور 1969 میں فارغ ہوئیں۔ {cite:wikipedia-abla-al-kahlawi-ar} انہوں نے 1974 میں «شوریٰ، اسلامی حکومت کا قاعدہ» کے موضوع پر مقالے کے ساتھ فقہِ مقارن میں ایم اے اور 1978 میں ڈاکٹریٹ کی۔ {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en} {cite:wikidata-abla-al-kahlawi} انہوں نے ریاض کے کالج آف ایجوکیشن برائے طالبات میں پڑھایا، 1979 میں مکہ کے کالج آف ایجوکیشن میں شعبۂ شریعہ کی سربراہ رہیں، اور پھر ازہر کے کالج برائے خواتین میں فقہِ مقارن کی استاد اور کلیۂ اسلامی و عربی علوم کی ڈین بن کر لوٹیں۔ {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en}
+
+## دعوت اور نشریات
+1987 سے 1989 تک انہوں نے مسجد الحرام میں خواتین کے لیے روزانہ درس دیے جن میں دنیا بھر سے آئی ہوئی حاجی خواتین شریک ہوتیں۔ {cite:wikipedia-abla-al-kahlawi-en} {cite:wikipedia-abla-al-kahlawi-ar} قاہرہ لوٹ کر انہوں نے البساتین میں اپنے والد کی مسجد، جامع ازہر اور مقطم میں بیت الحمد میں خواتین کے لیے اپنے درس جاری رکھے۔ {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en} انہوں نے اقرأ، الرسالہ اور الناس چینلوں پر ٹیلی وژن پروگرام پیش کیے، جن میں «فی حب المصطفیٰ» بھی ہے جو رمضان 1428ھ میں الرسالہ پر نشر ہوا اور اسابیل آرکائیو میں [[work/fi-hub-al-mustapha|فی حب المصطفیٰ]] کے نام سے محفوظ ہے۔ {cite:wikipedia-abla-al-kahlawi-ar} {cite:assabile-abla-al-kahlawi} عربی مضمون ان کے انداز کو نرم اور سادہ بتاتا ہے، کہتا ہے کہ انہوں نے سیرتِ نبوی اور اخلاقی و روحانی پہلو پر توجہ دی اور متنازع مسائل سے گریز کیا، اور یہ بھی ذکر کرتا ہے کہ بعض ناقدین کے خیال میں وہ دینی خطاب کو یکسانیت سے نہ نکال سکیں۔ {cite:wikipedia-abla-al-kahlawi-ar}
+
+انگریزی مضمون کے مطابق وہ 2009 میں «500 سب سے بااثر مسلمان» کی پہلی اشاعت میں شامل ہوئیں، 2006 میں ان 41 علما میں تھیں جنہوں نے ڈنمارک کے کارٹونوں کے بعد ہونے والے تشدد کی مذمت کی اور ساتھ ہی کارٹونوں کو رد کیا، اور «ہمارے اور آپ کے درمیان ایک مشترک کلمہ» نامی خط پر دستخط کرنے والوں میں تھیں۔ {cite:wikipedia-abla-al-kahlawi-en}
+
+## خیراتی کام
+انہوں نے مقطم میں الباقیات الصالحات انجمن قائم کی جو یتیموں، بزرگوں اور سرطان و الزائمر کے مریضوں کی دیکھ بھال کرتی ہے، اور اس کے ساتھ بزرگ مردوں اور عورتوں اور علاج کے لیے صوبوں سے آنے والے سرطان زدہ بچوں کے لیے مراکز بنائے۔ {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en} عربی مضمون کے مطابق 2020 میں انہیں مصر کی مثالی ماں چنا گیا۔ {cite:wikipedia-abla-al-kahlawi-ar}
+
+## تصانیف
+دونوں مضامین ان کی جن کتابوں کا ذکر کرتے ہیں ان میں «الخلع، لا علاج کا علاج: فقہِ مقارن کا مطالعہ» (2000)، «مسافر بلا طریق» (2003)، «قرآن و سنت کی روشنی میں فرزندی اور پدری» (2005)، «حج و عمرہ میں عورت کے مسائل» (2005)، «احبوہ کما احبکم» اور «قلبی معاک» (2011)، اور معیشت و ترقی کے تحفظ میں زکوٰۃ کے کردار پر ایک کتاب (1996) شامل ہیں۔ {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en}
+
+## وفات
+عربی مضمون اور ویکی ڈیٹا کے مطابق وہ 24 جنوری 2021 کو بہتر سال کی عمر میں کووڈ-19 سے فوت ہوئیں؛ انگریزی مضمون 25 جنوری بتاتا ہے۔ {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikidata-abla-al-kahlawi} {cite:wikipedia-abla-al-kahlawi-en}
+
+## ان کے پروگرام «فی حب المصطفیٰ» میں
+پروگرام میں وہ مصری عامیانہ عربی میں، جس میں فصیح عربی گھلی ملی ہے، گفتگو کرتی ہیں، ہر قسط نبی پر سلام سے شروع کرتی ہیں اور ناظرین کو سلام پر ختم کرتی ہیں۔ {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep01 00:00:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep04 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep04 00:07:30} محبت سیرت میں ان کا دروازہ ہے: ان کے بقول نبی محبت کا پیغام لائے، اور محبت تب ہی خالص ہوتی ہے جب اللہ سے گزرے۔ {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep01 00:00:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep02 00:04:00} وہ سیرت کی خواتین پر خاص توجہ دیتی ہیں: دو اقساط نبی کی ماؤں اور دودھ پلانے والیوں کے لیے رکھتی ہیں اور کاش کہتی ہیں کہ وہ ان میں سے ہوتیں، کہتی ہیں کہ عورت کو حقیقی آزادی نبی نے دی، اور ایک قسط عورت کے بطور ماں، بیٹی، بیوی اور بیوہ حقوق کے لیے رکھتی ہیں۔ {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:00:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep07 00:09:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep07 00:09:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep11 00:02:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep23 00:00:30} بعض مقامات پر وہ اس پر تنقید کرتی ہیں جسے وہ «برا زمانہ» کہتی ہیں: جنگیں، عالمگیریت، اقدار کی تجارت اور اخلاق سے خالی معیشت۔ {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep01 00:03:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep11 00:02:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep17 00:01:30} وہ پروگرام اس دعوت پر ختم کرتی ہیں کہ نبی سے محبت ان کے منہج کی پیروی ہو، صرف مدحیں اور میلاد نہیں، اور لوگ ایک دوسرے سے محبت کریں، خونریزی روکیں، اور تعلیم اور سائنسی برتری پر خرچ کریں۔ {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep27 00:08:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep27 00:08:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep27 00:09:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep27 00:10:00}

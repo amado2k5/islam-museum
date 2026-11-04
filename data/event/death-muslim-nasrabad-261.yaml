@@ -1,0 +1,27 @@
+id: event/death-muslim-nasrabad-261
+class: event
+kind: death
+label:
+  ar: "وفاة الإمام مسلم بن الحجاج بنصر آباد ظاهر نيسابور، ٢٥ رجب ٢٦١هـ"
+  en: "Death of Imam Muslim ibn al-Hajjaj at Nasrabad outside Nishapur, 25 Rajab 261/875"
+  ur: "امام مسلم بن حجاج کی وفات نصرآبادِ نیشاپور، 25 رجب 261ھ/875ء"
+summary:
+  ar: "توفي مسلم بن الحجاج عشية يوم الأحد ودُفن بنصر آباد ظاهر نيسابور يوم الاثنين لخمس بقين من شهر رجب الفرد سنة إحدى وستين ومائتين، وعمره خمس وخمسون سنة قمرياً {cite:wafayat-ayan v p. 195}؛ فتكون ولادته سنة ست ومائتين {cite:wafayat-ayan v p. 195}، وروى عنه أهل بغداد في دخولاته إليها وعدّه الترمذي من الثقات {cite:wafayat-ayan v p. 195}."
+  en: "Muslim ibn al-Hajjaj died on the eve of Sunday and was buried at Nasrabad outside Nishapur on Monday, five nights before the end of Rajab, in the year 261, aged fifty-five lunar years {cite:wafayat-ayan v p. 195} — which places his birth in 206 {cite:wafayat-ayan v p. 195}; the people of Baghdad had transmitted from him on his visits and al-Tirmidhi counted him among the trustworthy {cite:wafayat-ayan v p. 195}."
+  ur: "مسلم بن حجاج اتوار کی شام کو فوت ہوئے اور نیشاپور کے باہر نصرآباد میں پیر کو رجب الفرد کے آخری پانچ دن باقی رہتے ہوئے 261ھ میں سپردِ خاک ہوئے؛ ان کی عمر پچپن قمری برس تھی {cite:wafayat-ayan v p. 195} — جس سے ان کی پیدائش 206ھ بنتی ہے {cite:wafayat-ayan v p. 195}؛ بغداد کے لوگوں نے ان کے سفروں میں ان سے روایت کی اور ترمذی نے انہیں ثقہ شمار کیا {cite:wafayat-ayan v p. 195}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0875-05-06", hijri: "0261-07-25", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي عشية يوم الأحد ودفن يوم الاثنين لخمس بقين من رجب سنة ٢٦١هـ بنصر آباد ظاهر نيسابور، وعمره ٥٥ سنة {cite:wafayat-ayan v p. 195} = ٢٥ رجب ٢٦١هـ/٦ مايو ٨٧٥م {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-691}؛ التحويل مشتق.", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/wafayat-ayan] }
+  - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "المتوفَّى", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Ibn Khallikan, Wafayat al-A'yan ed. I. Abbas v p. 195 (harvest OCR scan); Encyclopaedia of Islam 2nd ed. vol. 7, art. Muslim b. al-Hadjdjadj, printed pp. 690-691"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muslim-ibn-al-hajjaj-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

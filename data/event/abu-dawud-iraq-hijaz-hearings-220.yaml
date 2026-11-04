@@ -1,0 +1,32 @@
+id: event/abu-dawud-iraq-hijaz-hearings-220
+class: event
+kind: other
+label:
+  ar: "أول رحلة أبي داود: بغداد والبصرة ومكة ٢٢٠هـ"
+  en: "Abu Dawud's first journey: Baghdad, Basra and Mecca, 220/835"
+  ur: "ابو داؤد کا پہلا سفر: بغداد، بصرہ اور مکہ، 220ھ/835ء"
+summary:
+  ar: "قال أبو عبيد الآجري عن أبي داود: صلّيت على عفّان ببغداد سنة عشرين، ودخلت البصرة وهم يقولون أمس مات عثمان بن الهيثم المؤذن — وقد مات في رجب سنة عشرين — وسمعت من أبي عمرو الضرير مجلساً واحداً، وتبعت عمر بن حفص بن غياث إلى منزله فلم أسمع منه؛ وسمع بمكة أيام الحج سنة عشرين من القعنبي وسليمان بن حرب وجماعة {cite:tarikh-islam-dhahabi p. 358}."
+  en: "In his own words, reported by Abu Ubayd al-Ajurri: he prayed over 'Affan at Baghdad in 220; he entered Basra as they were saying Uthman ibn al-Haytham the mu'adhdhin had died the day before — he had died in Rajab 220 — hearing Abu 'Amr al-Darir in a single session and following 'Umar ibn Hafs ibn Ghiyath home without hearing him; and at Mecca, in the pilgrimage days of 220, he heard al-Qa'nabi, Sulayman ibn Harb and others {cite:tarikh-islam-dhahabi p. 358}."
+  ur: "ابو عبید آجری کے واسطے سے ان کے اپنے الفاظ: میں نے 220ھ میں بغداد میں عفان کی نماز جنازہ پڑھی؛ اور بصرہ داخل ہوا جب لوگ کہہ رہے تھے کہ کل عثمان بن ہیثم مؤذن فوت ہو گیا — وہ رجب 220ھ میں فوت ہوئے — اور ابو عمرو ضریر سے ایک مجلس سنی، اور عمر بن حفص بن غیاث کے پیچھے ان کے گھر گیا مگر سماعت نہیں ہوئی؛ اور مکہ میں 220ھ کے ایام حج میں قعنبی، سلیمان بن حرب اور دیگر سے سماعت کی {cite:tarikh-islam-dhahabi p. 358}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq, arabia]
+date:
+  start: { edtf: "0835~", hijri: "0220", calendar: julian, precision: year, status: tradition, derived: true, note: "صلى على عفان ببغداد سنة عشرين، ودخل البصرة عقب وفاة عثمان بن الهيثم في رجب سنة عشرين، وسمع بمكة أيام الحج سنة عشرين {cite:tarikh-islam-dhahabi p. 358}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi], note: "صلّى على عفّان ببغداد سنة عشرين {cite:tarikh-islam-dhahabi p. 358}" }
+  - { type: occurred_at, target: place/basra, sources: [source/tarikh-islam-dhahabi], note: "دخل البصرة عقب وفاة عثمان بن الهيثم المؤذن في رجب سنة عشرين {cite:tarikh-islam-dhahabi p. 358}" }
+  - { type: occurred_at, target: place/mecca, sources: [source/tarikh-islam-dhahabi], note: "سمع من القعنبي وسليمان بن حرب وجماعة بمكة سنة عشرين أيام الحج {cite:tarikh-islam-dhahabi p. 358}" }
+  - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "الطالب الراحل", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-qanabi, role: "الشيخ بمكة", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/sulayman-ibn-harb, role: "الشيخ بمكة", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/affan-ibn-muslim, role: "المتوفَّى المصلَّى عليه", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "تاريخ الإسلام للذهبي س.a. 275 طبعة تدمري ص358 (harvest OCR v20 page 358)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-abu-dawud-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,27 @@
+id: event/battle-bab-shiraz-297
+class: event
+kind: battle
+label: { ar: "وقعة باب شيراز ٢٩٧هـ", en: "The battle at the gate of Shiraz, 297" }
+summary:
+  ar: "لما عاد مؤنس عن سبكري استولى كاتبُه عبد الرحمن بن جعفر على الأمور فأوعز أصحاب سبكري إلى العصيان، فعلم ابن الفرات وزير المقتدر أن مؤنساً يميل إلى سبكري فانفكّ وصيفَ كاتبه وجماعة من القواد ومحمد بن جعفر الفاريابي وعوّل عليه في فتح فارس. فسار محمد بن جعفر إلى فارس وواقع سبكري على باب شيراز فانهزم سبكري إلى المدينة وتحصّن بها، فتبعه محمد بن جعفر وحصره بها، فخرج إليه سبكري وحاربه مرة ثانية فهزمه ونهب ماله، ودخل سبكري مفازة خراسان فظفر به صاحب خراسان، واستولى محمد بن جعفر على فارس {cite:kamil-ibn-al-athir p. 45-46}."
+  en: "When Mu'nis returned without Subkari, his secretary Abd al-Rahman ibn Ja'far took charge and Subkari's men pushed him to rebellion. The vizier Ibn al-Furat, seeing Mu'nis lean toward Subkari, detached his secretary, a body of commanders and Muhammad ibn Ja'far al-Faryabi, and charged him with the conquest of Fars. Muhammad ibn Ja'far marched to Fars and met Subkari at the gate of Shiraz; Subkari broke for the city and fortified himself inside it, so al-Faryabi pursued and besieged him. Subkari sallied out and fought a second battle, was defeated and his baggage plundered; he entered the Khurasan desert road where the lord of Khurasan caught him, while Muhammad ibn Ja'far took possession of Fars {cite:kamil-ibn-al-athir p. 45-46}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0909~", hijri: "0297", calendar: julian, precision: year, status: tradition, derived: true, note: "ضمن حوادث سنة سبع وتسعين ومائتين عند ابن الأثير {cite:kamil-ibn-al-athir p. 45-46}؛ التحويل مشتق.", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "محمد بن جعفر الفاريابي في جند الخليفة" }
+  - label: { ar: "سبكري وعسكره" }
+relations:
+  - { type: occurred_at, target: place/shiraz, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/subkari-al-saffari, role: "المدافع عن شيراز ثم الهارب إلى خراسان", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-muqtadir-billah, role: "الخليفة", sources: [source/kamil-ibn-al-athir] }
+map: { kind: locator, precision: approximate, center: [29.6103, 52.5311] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (مسح AAlexandrina-129185)، حوادث سنة 297هـ ص 45-46، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: explorer-shiraz-1
+sources: [source/kamil-ibn-al-athir]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

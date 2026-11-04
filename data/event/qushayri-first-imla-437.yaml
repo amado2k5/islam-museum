@@ -1,0 +1,30 @@
+id: event/qushayri-first-imla-437
+class: event
+kind: other
+label:
+  ar: "أول مجالس الإملاء للقشيري في الحديث، ٤٣٧هـ"
+  en: "Al-Qushayri's first hadith dictation sessions, 437/1046"
+  ur: "قشیری کی پہلی مجالسِ املائے حدیث، 437ھ/1046ء"
+summary:
+  ar: "حجّ القشيري في رفقة أبي محمد الجويني — والد إمام الحرمين — وجماعة من مشاهير الشافعية، فسمع الحديث ببغداد والحجاز في تلك الأسفار، ثم عقد بعد عودته إلى نيسابور أول مجالس الإملاء في الحديث سنة ٤٣٧هـ، وأسس فيها مدرسته {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:encyclopaedia-of-islam-2 vol. 5.3 p. 194}."
+  en: "Al-Qushayri made the Pilgrimage in the company of Abu Muhammad al-Juwayni — father of Imam al-Haramayn — and other eminent Shafi'is, hearing hadith at Baghdad and in the Hijaz on that journey; probably after his return to Nishapur he held his first majalis al-imla', the hadith dictation sessions, in 437/1046, the year his own madrasa is recorded {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:encyclopaedia-of-islam-2 vol. 5.3 p. 194}."
+  ur: "قشیری نے ابو محمد جوینی — امام الحرمین کے والد — اور دیگر نامور شافعی علماء کی رفاقت میں حج کیا اور اسی سفر میں بغداد و حجاز میں حدیث سنی؛ غالباً نیشاپور واپسی کے بعد انھوں نے 437ھ/1046ء میں پہلی مجلسِ املائے حدیث قائم کی، اسی سال ان کی مدرسہ کا ذکر ملتا ہے {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:encyclopaedia-of-islam-2 vol. 5.3 p. 194}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1046~", hijri: "0437", calendar: julian, precision: year, status: tradition, derived: true, note: "عقد أول مجالس الإملاء في تدريس الحديث سنة ٤٣٧هـ/١٠٤٦م غالباً بعد عودته من الحج {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}؛ وفي دائرة المعارف أيضاً أنه أسس مدرسته سنة ٤٣٧هـ/١٠٤٥-١٠٤٦م {cite:encyclopaedia-of-islam-2 vol. 5.3 p. 194}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qushayri-abu-l-qasim, role: "المدرّس المُملي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-muhammad-al-juwayni, role: "رفيق الحج", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.1 art. AL-KUSHAYRI printed p. 564 + vol. 5.3 art. MADRASA printed p. 194 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qushayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

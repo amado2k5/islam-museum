@@ -11,3 +11,12 @@ Ridda in the lexicon is turning back from a thing; in law it is a Muslim's unbel
 
 ## Where to look further
 The hudud penalties, retaliation and marriage rules are treated in their own entries. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8719} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8722}
+
+## In Yusuf al-Qaradawi's lessons Ta'ammulat Qur'aniyya
+[[person/yusuf-al-qaradawi|Yusuf al-Qaradawi]] explains the verse in al-Ma'ida on those who turn back from their religion ([[passage/quran-5-54|al-Ma'ida 54]]); he relates that claimants to prophethood rose after the Prophet's death, among them Musaylima, Sajah, al-Aswad al-Ansi and Tulayha, that the Arabs apostatised except the people of Mecca, Medina and Ta'if, and that al-Hasan al-Basri said the verse refers to Abu Bakr and his companions. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:02:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:06:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:07:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:07:30} He mentions a treatise by Abu al-Hasan al-Nadwi, whom he says he knew and lived alongside, titled "An Apostasy, and No Abu Bakr for It", about intellectual apostasy spreading in newspapers and universities. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:21:30}
+
+:::perspectives
+- **Sunni position (codified fiqh)**: The Kuwaiti Encyclopaedia of Jurisprudence states that the apostate is asked to repent, and if he does not he is killed by the imam after that; the majority treat a female apostate the same, while the Hanafis differ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8715} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8716}
+- **The speaker's view (Yusuf al-Qaradawi, opinion)**: He distinguishes apostasy kept private and not preached from public apostasy that calls others to it, which he sees as a great trial (fitna) for the community that must be resisted, and he rejects the view that apostasy carries no worldly penalty. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:14:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:14:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:15:00}
+- **Academic and other views (not yet sourced)**: Not yet sourced here.
+:::

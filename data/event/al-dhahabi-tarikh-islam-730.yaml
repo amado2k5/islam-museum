@@ -1,0 +1,27 @@
+id: event/al-dhahabi-tarikh-islam-730
+class: event
+kind: other
+label:
+  ar: "الذهبي يصنّف «تاريخ الإسلام» ومجاميعه الكبرى، حوالي ٧٣٠هـ"
+  en: "Al-Dhahabi composes Tarikh al-Islam and his great compilations, c. 730/1330"
+  ur: "ذہبی کی تصنیفِ «تاریخ الاسلام» و بڑے مجموعے، تقریباً 730ھ/1330ء"
+summary:
+  ar: "ألّف الذهبي أعظم كتبه «تاريخ الإسلام» إلى سنة ٧٠٠هـ على نظام «المنتظم» لابن الجوزي، في سبعين طبقة من العقود، تجمع حوادث السنين ثم تراجم المتوفَّين فيها {cite:encyclopaedia-of-islam-2 vol. 2 p. 215}، واختصر منه ستة مختصرات منها «سير أعلام النبلاء» و«تذكرة الحفاظ» و«العبر» و«دوال الإسلام»، وصنّف في الرجال «ميزان الاعتدال» و«المشتبه» وأخرج «معجمه» الكبير والصغير والمختص بمحدثيه {cite:encyclopaedia-of-islam-2 vol. 2 p. 216} {cite:durar-kamina-jil-1993 3/336-337}."
+  en: "Al-Dhahabi composed his greatest work, Tarikh al-Islam, down to the year 700 on the model of Ibn al-Jawzi's al-Muntazam, in seventy decadal 'classes', pairing each year's events with the obituaries of its dead {cite:encyclopaedia-of-islam-2 vol. 2 p. 215}. He abridged it six times — among them Siyar A'lam al-Nubala', Tadhkirat al-Huffaz, al-Ibar and Duwal al-Islam — and wrote on rijal Mizan al-I'tidal, al-Mushtabih, besides extracting his great, small and select Mu'jam of his hadith teachers {cite:encyclopaedia-of-islam-2 vol. 2 p. 216} {cite:durar-kamina-jil-1993 3/336-337}."
+  ur: "ذہبی نے اپنی عظیم ترین تصنیف «تاریخ الاسلام» سال 700ھ تک، ابن الجوزی کے «المنتظم» کے اسلوب پر، ستر عشروں کی طبقات میں مرتب کی، جس میں ہر سال کے واقعات کے ساتھ اسی سال کے وفات یافتگان کی تراجم ہیں {cite:encyclopaedia-of-islam-2 vol. 2 p. 215}۔ اس کے چھ اختصارات کیے جن میں «سیر اعلام النبلاء»، «تذکرۃ الحفاظ»، «العبر» اور «دوال الاسلام» ہیں، اور رجال پر «میزان الاعتدال» اور «المشتبہ» لکھیے، نیز اپنے شیوخِ حدیث کا «معجم» الکبیر، الصغیر اور المختص برآمد کیا {cite:encyclopaedia-of-islam-2 vol. 2 p. 216} {cite:durar-kamina-jil-1993 3/336-337}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1330~", hijri: "0730~", calendar: julian, precision: decade, status: tradition, derived: true, note: "زمن التصنيف غير مصرّح به؛ وضع تقريباً في عشرينيات القرن الثامن.", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-dhahabi, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 2 (C-G), printed pp. 215-216, art. al-Dhahabi; durar-kamina-jil-1993 vol. 3 pp. 336-337"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-dhahabi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

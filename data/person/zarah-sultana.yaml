@@ -1,0 +1,62 @@
+id: person/zarah-sultana
+class: person
+
+label: { ar: "زارا سلطانة", en: "Zarah Sultana", ur: "زارہ سلطانہ" }
+
+names:
+  - { value: "Zarah Sultana", kind: full }
+  - { value: "زارا سلطانة", kind: full }
+
+gender: female
+
+summary:
+  ar: "زارا سلطانة (وُلدت في 31 تشرين الأول 1993 في برمنغهام)، سياسية بريطانية من أسرة ميربورية باكستانية الأصل. انتُخبت نائبة عن جنوب كوفنتري عن حزب العمال سنة 2019، وسُحب منها سوط الحزب في تموز 2024، ثم استقالت من العمال في تموز 2025 وشاركت جيرمي كوربين في تأسيس حزب «حزبكم» (Your Party)."
+  en: "Zarah Sultana (born 31 October 1993 in Birmingham) is a British politician from a British Mirpuri family of Pakistani origin. Elected Labour MP for Coventry South in 2019, she had the party whip suspended in July 2024, resigned from Labour in July 2025 and co-founded Your Party with Jeremy Corbyn."
+  ur: "زارہ سلطانہ (پیدائش 31 اکتوبر 1993، برمنگھم) برطانوی سیاست دان ہیں جن کا تعلق پاکستانی نژاد میرپوری خاندان سے ہے۔ وہ 2019 میں لیبر پارٹی سے کووینٹری ساؤتھ کی رکنِ پارلیمان منتخب ہوئیں، جولائی 2024 میں پارٹی وہپ معطل ہوا، اور جولائی 2025 میں انہوں نے لیبر چھوڑ کر جیریمی کوربن کے ساتھ نئی جماعت «یور پارٹی» کی بنیاد رکھی۔"
+
+roles: [politician]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1993-10-31"
+  hijri: "1414"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Birmingham on 31 October 1993; the English and Arabic articles and Wikidata agree. The Hijri year 1414 is the tabular conversion of the built date, marked derived. No place entity for Birmingham exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-zarah-sultana-en, source/wikipedia-zarah-sultana-ar, source/wikidata-zarah-sultana]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      She is identified generically as a Muslim and her practice is
+      documented: the English article states in its own text, cited
+      to an Evening Standard profile of 22 May 2024, that "Sultana
+      is a practising Muslim", and quotes her speaking of the abuse
+      she receives "as a Muslim and as a woman of colour". The
+      identification and the practice name no school or order, and
+      no source read names one for her, so no value is recorded and
+      the attestations are preserved here. Wikidata's structured
+      religion value gives Islam only, which settles nothing under
+      the founder's rulings of 1 November 2026.
+    sources: [source/wikipedia-zarah-sultana-en, source/wikidata-zarah-sultana]
+
+external_ids: { wikidata: "Q63929279" }
+
+sources:
+  - source/wikipedia-zarah-sultana-en
+  - source/wikipedia-zarah-sultana-ar
+  - source/wikipedia-zarah-sultana-ur
+  - source/wikidata-zarah-sultana
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Zarah Sultana' (revision 1382883094 of 30 October 2026), Arabic Wikipedia article 'زارا سلطانة' (revision 75197591 of 8 June 2026), Urdu Wikipedia article 'زارہ سلطانہ' (revision 11718507 of 27 July 2026) and Wikidata Q63929279 (item revision 2547931666 of 20 September 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's year 1993 is confirmed at day precision. Her faith is left unknown: the only attestations are a generic identification as a practising Muslim, which names no school."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-168a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

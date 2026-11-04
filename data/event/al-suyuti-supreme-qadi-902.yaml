@@ -1,0 +1,27 @@
+id: event/al-suyuti-supreme-qadi-902
+class: event
+kind: other
+label:
+  ar: "تولية السيوطي «قاضي القضاة الأعظم» ثم رجوع عنها، ٩٠٢هـ/١٤٩٦م"
+  en: "Al-Suyuti named 'supreme qadi' by the caliph, then the nomination is retracted, 902/1496"
+  ur: "سیوطی کی «قاضی القضاۃ اعظم» تقرری اور اس کی واپسی، 902ھ/1496ء"
+summary:
+  ar: "سنة ٩٠٢هـ/١٤٩٦م نجح السيوطي في أن يولّيه الخليفة العباسي المتوكل «القاضي الأعظم»، غير أن المتوكل اضطر إلى الرجوع عن تعيينه أمام عداء العلماء؛ وكان السيوطي يرى في الخلفاء العباسيين تجسيد الشرعية وخير ضامن للشريعة والسنة {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  en: "In 902/1496 al-Suyuti succeeded in having himself nominated 'supreme qadi' by the Abbasid caliph al-Mutawakkil in Cairo, but the caliph had to retract when faced with the hostility of the ʿulamaʾ. For al-Suyuti, the Abbasid caliphs were the incarnation of legitimacy, the best guarantors of the revealed Law and the prophetic Sunna {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  ur: "902ھ/1496ء میں سیوطی نے قاہرہ کے عباسی خلیفہ متوکل سے خود کو «قاضی القضاۃ اعظم» مقرر کروایا، لیکن علما کی مخالفت کے سامنے خلیفہ کو پیچھے ہٹنا پڑا۔ سیوطی کی نظر میں عباسی خلفا شرعیت کی علامت اور شریعت و سنت کے بہترین ضامن تھے {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1496~", hijri: "0902", calendar: julian, precision: year, status: historical, derived: true, note: "سنة ٩٠٢هـ/١٤٩٦م؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-suyuti, role: "المُعيَّن ثم المُلغى تعيينه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed pp. 913-915, art. al-Suyuti (E. Geoffroy); shadharat-dhahab"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-suyuti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

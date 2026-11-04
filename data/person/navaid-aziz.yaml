@@ -44,3 +44,9 @@ provenance:
   source: "He is the speaker named at §2 row 294 of the handoff ('Sheikh Navaid Aziz' / 'Navaid Aziz'), whose own lecture channel is carried by Muslim Central; the honorific in the row's label is not carried into the record. Existence checks first, all on 26 October 2026: name-fragment searches over data/person/ and data/source/ (navaid / aziz) returned no record of him — the aziz hits are the many classical Abd al-Aziz namesakes — English Wikipedia has no article on him (title missing, checked via the API) and a Wikidata entity search is not relied on since no item is cited anywhere for him, so there is no external_ids and no Wikidata source file. Identification rests on AlMaghrib Institute's own instructor page, his Muslim Central podcast page (the row's channel, in audio form) and the peer-reviewed study by Suljic and Wilner (2021), all read on 26 October 2026; the consultation-date precedent is used for the web profiles, which expose no revision ids. No source gives a birth date, so no born block is recorded. No relations are recorded: AlMaghrib Institute and the Islamic Information Society of Calgary have no group entities in the graph and Calgary and Montreal no place entities. His faith is recorded unknown: see the faith note."
   generated_by: "Muse (Muse Spark 1.3)"
   run: "modern-figures-batch-53"
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/almaghrib-navaid-aziz, source/listennotes-navaid-aziz, source/suljic-wilner-conversion-study]

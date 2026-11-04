@@ -5,15 +5,21 @@ label: { ar: "فتح الملتان وبيت الذهب", en: "The Siege of Mult
 summary:
   ar: "قطع محمد بياس إلى الملتان فقاتله أهلها فأبلى زائدة بن عمير الطائي وانهزم المشركون فدخلوا المدينة وحصرهم محمد ونفدت أزواد المسلمين فأكلوا الحمر ثم أتاهم رجل مستأمن فدلهم على مدخل الماء الذي منه شربهم وهو ماء يجري من نهر بسمد فيصير في مجتمع له مثل البركة في المدينة وهم يسمونه البلاح فنوره فلما عطشوا نزلوا على الحكم فقتل محمد المقاتلة وسبى الذرية وسبى سدنة البد وهم ستة آلاف وأصابوا ذهباً كثيراً فجمعت تلك الأموال في بيت يكون عشرة أذرع في ثمان أذرع يلقى ما أودعه في كوة مفتوحة في سطحه فسميت الملتان فرج بيت الذهب والفرج الثغر وكان بد الملتان بدّاً تهدى إليه الأموال وينذر له النذور ويحج إليه السند فيطوفون به ويحلقون رؤوسهم ولحاهم عنده ويزعمون أن صنماً فيه هو أيوب النبي."
   en: "Across the Bayas, Multan's folk fought — Za'ida ibn Umayr al-Ta'i excelled — then shut themselves in. The Muslims ate their donkeys till a protected man showed the water-intake — the spring al-Balah fed from Basmad's river — and cut it, they yielded on terms: the fighters slain, six thousand temple sadins and offspring enslaved, and gold heaped in a ten-by-eight cubit house filled through a roof hole — whence 'Multan, Faraj Bayt al-Dhahab', the frontier of the House of Gold. Its budd drew offerings and vows; Sind's pilgrims shaved heads and beards there and claimed its idol was the prophet Ayyub."
+  ur: "دریاۓ بیاس کے پار ملتان کے لوگوں نے مقابلہ کیا — زائدہ بن عمیر طائی نے بہادری دکھائی — پھر شہر میں محصور ہو گئے۔ مسلمانوں کی خوراک ختم ہوئی تو گدھے کھائے، یہاں تک کہ ایک امانتی شخص نے پانی کے سرچشمے — بہادر کے دریا سے آنے والی چشمہ بلاح — کا راستہ بتا دیا، اسے کاٹا گیا تو اہلِ شہر شرائط پر اتر آئے: لڑنے والے قتل، مندر کے چھ ہزار سدنے اور اولادیں اسیر، اور سونا دس بہ آٹھ ذراع کے گھر میں چھت کے سوراخ سے ڈالا گیا — اسی سے «ملتان، فرج بیت الذهب»، یعنی بیتِ الذهب کا سرحدی دروازہ۔ اس کے بد کو نظریں اور نذریں ملتیں؛ سندھ کے حاجی وہیں سر اور داڑھیاں مڑواتے اور اس کے بت کو نبی ایوب کہتے تھے {cite:futuh-buldan-maarif-1407}."
 periods: [period/umayyad]
+date:
+  start: { edtf: "0712", hijri: "0093", calendar: julian, precision: year, status: tradition, derived: true, note: "من حملة محمد بن القاسم على السند ٩٢–٩٥هـ/٧١١–٧١٤م؛ وقع فتح الملتان في أواخرها {cite:encyclopaedia-of-islam-2 vol. 7 p. 602}، والسنة تقريبية والتحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/futuh-buldan-maarif-1407] }
+  end: { edtf: "0713", hijri: "0094", calendar: julian, precision: year, status: tradition, derived: true, note: "نهاية نافذة الفتح ضمن حملة ٩٢–٩٥هـ/٧١١–٧١٤م {cite:encyclopaedia-of-islam-2 vol. 7 p. 602}.", sources: [source/encyclopaedia-of-islam-2] }
 relations:
   - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/zaida-ibn-umayr, role: "المبلي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/multan }
 wings: [time]
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1 }
+sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2 }
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
+  source: "البلاذري، فتح البلدان (دار المعرفة 1407)، باب فتح الملتان؛ ودائرة المعارف الإسلامية ج ٧ ص ٦٠٢-٦٠٣ (المجلد رقم ٧ ملف PDF) للإطار والتاريخ"
+  generated_by: "Devin (SWE-2 High); date and provenance added by Devin (SWE-2 Medium)"
+  run: explorer-multan-1
   extraction_flow: "Apple Vision OCR -> manual extraction"

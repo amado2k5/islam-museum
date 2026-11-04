@@ -1,0 +1,28 @@
+id: event/al-hakim-ibn-hibban-mustamli-334
+class: event
+kind: other
+label:
+  ar: "الحاكم النيسابوري مستملي ابن حبان، ٣٣٤هـ"
+  en: "Al-Hakim serves as Ibn Hibban's mustamli, 334/945"
+  ur: "حاکم نیشاپوری ابن حبان کے مستملی، 334ھ/945ء"
+summary:
+  ar: "استملى الحاكم على أبي حاتم ابن حبان سنة أربع وثلاثمائة بنيسابور، أي لقيه أول مرة وكتب عنه في مجلس إملائه {cite:tarikh-islam-dhahabi p. 122} {cite:encyclopaedia-of-islam-2 vol. 3 p. 113}."
+  en: "In 334/945-6 al-Hakim became the mustamli of Abu Hatim Ibn Hibban at Nishapur — meeting him for the first time and writing down the dictation in his circle {cite:tarikh-islam-dhahabi p. 122} {cite:encyclopaedia-of-islam-2 vol. 3 p. 113}."
+  ur: "334ھ/945ء میں حاکم نیشاپور میں ابو حاتم ابن حبان کے مستملی بنے — پہلی بار ان سے ملاقات ہوئی اور وہ ان کے مجلسِ املا میں لکھتے تھے {cite:tarikh-islam-dhahabi p. 122} {cite:encyclopaedia-of-islam-2 vol. 3 p. 113}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0945", hijri: "0334", calendar: julian, precision: year, status: tradition, derived: true, note: "«واستملى على أبي حاتم بن حبان سنة أربع وثلاثين» {cite:tarikh-islam-dhahabi p. 122}؛ المقابل ٩٤٥-٩٤٦م {cite:encyclopaedia-of-islam-2 vol. 3 p. 113}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-hakim-al-nisaburi, role: "المستملي الكاتب", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-hibban, role: "الشيخ المملي", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 405, printed p. 122 (harvest OCR); EI2 vol. 3 art. IBN HIBBAN p. 113 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-hakim-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

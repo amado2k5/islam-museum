@@ -1,0 +1,26 @@
+id: event/yildirim-bayezid-kulliye-bursa-1390
+class: event
+kind: founding
+label: { ar: "كُلّية يلدرم بايزيد ببورصة", en: "The Yıldırım Bayezid külliye at Bursa", ur: "بورصہ میں یلدرم بایزید کلیہ" }
+summary:
+  ar: "بنى بايزيد الأول كُلّيته السلطانية على تل شرق مركز بورصة في الأعوام 1390-1396م، وضمت جامعاً وزاوية ومدرستين ومطبخاً وقصراً وضريحه {cite:freely-ottoman-architecture-2011 p. 41}."
+  en: "Bayezid I erected his imperial külliye on a hilltop east of central Bursa in 1390-1396 CE: a mosque with a zaviye, two medreses, an imaret, a palace and his türbe {cite:freely-ottoman-architecture-2011 p. 41}."
+  ur: "بایزید اول نے 1390-1396ء میں بورصہ کے وسط سے مشرق میں ایک پہاڑی پر اپنی سلطانی کلیہ تعمیر کی: مسجد، زاویہ، دو مدرسے، امارت، محل اور ان کا تربہ {cite:freely-ottoman-architecture-2011 p. 41}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1390", hijri: "0792", calendar: julian, precision: year, status: tradition, derived: true, note: "1390-1396م {cite:freely-ottoman-architecture-2011 p. 41}؛ الهجري مشتق." }
+  end: { edtf: "1396", hijri: "0798", calendar: julian, precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: building/yildirim-bayezid-mosque-bursa, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: had_participant, target: person/bayazid-i-yildirim, role: "الباني", sources: [source/freely-ottoman-architecture-2011] }
+sources: [source/freely-ottoman-architecture-2011]
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (WIT Press 2011), printed p. 41 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

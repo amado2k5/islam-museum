@@ -1,0 +1,27 @@
+id: event/tabari-iraq-study-242
+class: event
+kind: migration
+label:
+  ar: "الطبري يدرس ببغداد ثم بأهل العراق"
+  en: "al-Tabari studies in Baghdad and southern Iraq"
+  ur: "طبری کی بغداد اور جنوبی عراق میں تعلیم"
+summary:
+  ar: "مضى الطبري من الري إلى [[place/baghdad|بغداد]] مركز علم الدنيا الإسلامية وله دون سبع عشرة سنة راجياً الدرس على أحمد بن حنبل ففاته بموته، ثم خرج إلى سواد العراق بحلول سنة ٢٤٢هـ/٨٥٦-٨٥٧م فقرأ على علماء [[place/wasit|واسط]] و[[place/basra|البصرة]] و[[place/kufa|الكوفة]] أمثال محمد بن عبد الأعلى الصنعاني ومحمد بن بشار بندار بالبصرة وأبي كريب محمد بن العلاء بالكوفة، ثم رجع إلى بغداد بعد أقل من سنتين {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+  en: "Al-Tabari went from Rayy to Baghdad, the intellectual centre of the Islamic world, before he was seventeen, hoping to study with Ahmad ibn Hanbal — a hope cut short by Ibn Hanbal's death. By 242/856-7 he had moved on to southern Iraq, studying with the leading scholars of Wasit, Basra and Kufa, among them Muhammad ibn Abd al-A'la al-San'ani and Muhammad ibn Bashshar (Bundar) at Basra and Abu Kurayb Muhammad ibn al-Ala at Kufa, before returning to Baghdad within two years {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+  ur: "طبری سترہ سال سے کم عمر میں رے سے بغداد آئے، امتناع کی یہاں احمد بن حنبل سے پڑھنے کی امید وفات کی وجہ سے پوری نہ ہوئی؛ 242ھ/856-57ء تک وہ جنوبی عراق گئے اور واسط، بصرہ اور کوفہ کے علماء سے استفادہ کیا، جن میں بصرہ کے محمد بن عبد الاعلی صنعانی اور محمد بن بشار بندار اور کوفہ کے ابو کریب محمد بن علاء شامل ہیں، پھر دو سال سے بھی کم مدت میں بغداد لوٹ آئے {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+wings: [time]
+themes: [travel]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0856~", hijri: "0242", calendar: julian, precision: year, status: historical, derived: true, note: "نص الموسوعة: توجه إلى جنوب العراق بحلول ٢٤٢هـ/٨٥٦-٨٥٧م {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}." }
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 10, art. 'al-Tabari' (C. E. Bosworth), PDF p. 21, Apple Vision OCR of the local harvest copy (books/encyclopaedia-of-islam-2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-tabari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

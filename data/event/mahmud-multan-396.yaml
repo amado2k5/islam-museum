@@ -1,0 +1,23 @@
+id: event/mahmud-multan-396
+class: event
+kind: campaign
+label: { ar: "حملتا محمود الغزنوي على الملتان ٣٩٦ و٤٠١هـ", en: "Mahmud of Ghazna's Multan campaigns, 396 and 401" }
+summary:
+  ar: "قصد محمود الغزنوي الملتان سنة ٣٩٦هـ/١٠٠٦م وهو في طريق حملاته الهندية، فانتصر في طريقه على أنندبال بن جيبال؛ ولما سمع صاحب الملتان أبو الفتوح داود بن نصر — وكان أهلها على مذهب القرامطة — بقدومه فرّ إلى سرنديب، فقضى محمود على المقاومة وافتتح المدينة وفرض عليها الجزية {cite:tarikh-islam-hasan-ibrahim p. 97-98}. ثم لما ارتد داود إلى عقائد القرامطة غزا محمود بلاده في سنتي ٤٠٠ و٤٠١هـ واستولى على حاضرتها وقبض على داود وأرسله إلى بلاد الغور حيث قضى بقية حياته، وقيل إنه سجن أبا الفتوح داود وقتل بعض أتباعه {cite:tarikh-islam-hasan-ibrahim p. 98} {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  en: "In 396/1006 Mahmud of Ghazna marched on Multan in the course of his Indian campaigns, defeating Anandpal ibn Jaypal on the way; when the lord of Multan, the Ismaili amir Abu'l-Futuh Dawud ibn Nasr, heard of his coming he fled to Sarandib, so Mahmud broke the resistance, took the city and laid the jizya on it {cite:tarikh-islam-hasan-ibrahim p. 97-98}. When Dawud then returned to Qarmati allegiance, Mahmud invaded his land in 400-401, seized his capital, captured Dawud and sent him to Ghur where he ended his days; some of his followers were put to the sword {cite:tarikh-islam-hasan-ibrahim p. 98} {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  ur: "محمود غزنوی 396ھ/1006ء میں اپنی ہندوستانی مہمات کے دوران ملتان کی طرف بڑھا اور راستے میں آنندپال بن جے پال کو شکست دی؛ جب ملتان کے حاکم اسماعیلی امیر ابو الفتوح داؤد بن نصر کو اس کی آمد کا علم ہوا تو وہ سرندیب فرار ہو گیا، محمود نے مزاحمت ختم کی، شہر فتح کیا اور جزیہ عائد کیا {cite:tarikh-islam-hasan-ibrahim p. 97-98}۔ پھر جب داؤد دوبارہ قرامطہ کے عقائد کی طرف لوٹا تو محمود نے 400-401ھ میں اس کے ملک پر چڑھائی کی، اس کا پایۂ تخت لیا، داؤد کو گرفتار کر کے غور بھیجا جہاں اس نے باقی عمر گزاری، اور اس کے بعض پیروکاروں کو تلوار سے مروایا گیا {cite:tarikh-islam-hasan-ibrahim p. 98} {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1006", hijri: "0396", calendar: julian, precision: year, status: tradition, derived: true, note: "الحملة الأولى سنة ٣٩٦هـ {cite:tarikh-islam-hasan-ibrahim p. 97-98}، وتورد المعارف «٣٩٦/١٠٠٦» {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}.", sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1010", hijri: "0401", calendar: julian, precision: year, status: tradition, derived: true, note: "الحملة الثانية سنتا ٤٠٠–٤٠١هـ، وتورد المعارف «٤٠١/١٠١٠» {cite:tarikh-islam-hasan-ibrahim p. 98} {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}.", sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/multan, sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "حسن إبراهيم حسن، تاريخ الإسلام، ج ٢ ص ٩٧-٩٨ (فتوح محمود الغزنوي)؛ ودائرة المعارف الإسلامية ج ٧ MULTĀN ص ٦٠٣ (PDF)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-multan-1
+sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

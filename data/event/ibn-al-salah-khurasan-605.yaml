@@ -1,0 +1,30 @@
+id: event/ibn-al-salah-khurasan-605
+class: event
+kind: other
+label:
+  ar: "ابن الصلاح يحصّل علم الحديث بخراسان: نيسابور ومرو، نحو ٦٠٥هـ"
+  en: "Ibn al-Salah gathers the science of hadith in Khurasan: Nishapur and Marw, c. 605"
+  ur: "ابن الصلاح خراسان میں علمِ حدیث حاصل کرتے ہیں: نیشاپور اور مرو، تقریباً 605ھ"
+summary:
+  ar: "سافر ابن الصلاح إلى خراسان وأقام بها زماناً وحصل علم الحديث هناك؛ فسمع بنيسابور من منصور الفراوي والمؤيد الطوسي والقاسم بن الصفار وزينب الشعرية وغيرهم، وبمرو من أبي المظفر عبد الرحيم بن السمعاني ومحمد بن إسماعيل المؤسَوي وأبي جعفر السنجي وجماعة {cite:shadharat-dhahab p. 229} {cite:tarikh-islam-dhahabi p. 185-186} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  en: "Ibn al-Salah travelled to Khurasan, stayed a while and acquired the science of hadith there: at Nishapur he heard from Mansur al-Furawi, al-Mu'ayyad al-Tusi, al-Qasim b. al-Saffar and Zaynab al-Shi'riyya among others, and at Marw from Abu al-Muzaffar 'Abd al-Rahim b. al-Sam'ani, Muhammad b. Isma'il al-Mu'sawi and Abu Ja'far al-Sanji among others {cite:shadharat-dhahab p. 229} {cite:tarikh-islam-dhahabi p. 185-186} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  ur: "ابن الصلاح خراسان گئے، وہاں کچھ عرصہ رہے اور علمِ حدیث حاصل کیا: نیشاپور میں منصور فراوی، مؤید طوسی، قاسم بن صفار اور زینب شعریہ سمیت دیگر سے، اور مرو میں ابو المظفر عبد الرحیم بن سمعانی، محمد بن اسماعیل مؤسوی اور ابو جعفر سنجی سمیت دیگر سے سماعت کی {cite:shadharat-dhahab p. 229} {cite:tarikh-islam-dhahabi p. 185-186} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1208~", hijri: "0605~", calendar: julian, precision: year, status: tradition, derived: true, note: "سافر إلى خراسان وأقام بها زماناً وحصل علم الحديث {cite:shadharat-dhahab p. 229}؛ بعد بغداد في رحلته نحو ٦٠٥هـ؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/merv, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-al-salah, role: "طالب الحديث", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/mansur-al-furawi, role: "شيخه بنيسابور", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-al-samani-abd-al-rahim, role: "شيخه بمرو", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 643, printed pp. 185-186 (harvest OCR); Shadharat al-Dhahab s.a. 643, printed p. 229 (harvest OCR); EI2 vol. 3 art. Ibn al-Salah (J. Robson), printed p. 959"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-salah-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

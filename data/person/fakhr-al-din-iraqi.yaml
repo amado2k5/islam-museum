@@ -1,0 +1,70 @@
+id: person/fakhr-al-din-iraqi
+class: person
+label:
+  ar: "فخر الدين العراقي"
+  en: "Fakhr al-Din Iraqi"
+  ur: "فخرالدین عراقی"
+names:
+  - { kind: full, value: "Fakhr al-Din Ibrahim Iraqi" }
+  - { kind: given, value: "Ibrahim" }
+  - { kind: laqab, value: "Fakhr al-Din" }
+  - { kind: nisba, value: "Iraqi" }
+roles: [poet, mystic, philosopher]
+gender: male
+summary:
+  ar: "فخر الدين العراقي (1213–1289) شاعر صوفي وفيلسوف من كميجان قرب همدان، مريد بهاء الدين زكريا السهروردي في ملتان وخليفته زمنًا وجيزة، ثم تلميذ صدر الدين القونوي في قونية حيث ألّف «اللمعات»، وتوفي بدمشق."
+  en: "Fakhr al-Din Iraqi (1213 - 1289) was a Sufi poet and philosopher from Komjan near Hamadan, a disciple of the Suhrawardi master Baha al-Din Zakariya in Multan and briefly his successor, then a student of Sadr al-Din al-Qunawi in Konya, where he wrote the Lama'at; he died in Damascus."
+  ur: "فخرالدین عراقی (1213ء – 1289ء) ہمدان کے قریب کمیجان سے تعلق رکھنے والے صوفی شاعر اور فلسفی تھے، ملتان میں بہاء الدین زکریا سہروردی کے مرید اور مختصر عرصے ان کے جانشین، پھر قونیہ میں صدر الدین قونوی کے شاگرد، جہاں انہوں نے «لمعات» لکھی؛ وفات دمشق میں ہوئی۔"
+regions: [persia-central-asia, south-asia, anatolia-balkans, levant-iraq]
+wings: [people]
+born:
+  edtf: "1213"
+  precision: year
+  calendar: gregorian
+  status: debated
+  note: "The English article gives his birth in 1213/14 at Komjan near Hamadan and the Arabic article's infobox gives 10 June 1213 at Hamadan, so the year 1213 is built. The Urdu article gives a birth around 600 AH (c. 1203-1204 CE), a variant preserved here and not followed. The year 1213 spans 609-610 AH, so no Hijri year is built."
+  sources:
+    - source/wikipedia-fakhr-al-din-iraqi-en
+    - source/wikipedia-fakhr-al-din-iraqi-ar
+    - source/wikipedia-fakhr-al-din-iraqi-ur
+died:
+  edtf: "1289"
+  precision: year
+  calendar: gregorian
+  status: historical
+  note: "The English article gives his death at Damascus in 1289 and the Arabic article gives 688 AH; because 1289 spans 687-688 AH, no Hijri year is asserted in the block. One Wikidata value gives 23 November 1289, a day precision the article texts do not support."
+  sources:
+    - source/wikipedia-fakhr-al-din-iraqi-en
+    - source/wikipedia-fakhr-al-din-iraqi-ar
+    - source/wikidata-fakhr-al-din-iraqi
+faith:
+  - value: sufi
+    basis: documented
+    note: "The English article states that he became a disciple of Baha al-Din Zakariya, leader of the Multani branch of the Suhrawardiyya, briefly succeeded him after his death in 1262, and later studied with Sadr al-Din al-Qunawi in Konya; the Arabic article likewise states his discipleship under Qunawi, his place as a murid in the Suhrawardi line, and his discipleship under Zakariya at Multan. Two independent texts therefore attest his Sufi discipleship for him himself. Wikidata's statements (Sunni Islam; Sufism) are structured data and were not used."
+    sources:
+      - source/wikipedia-fakhr-al-din-iraqi-en
+      - source/wikipedia-fakhr-al-din-iraqi-ar
+relations:
+  - type: student_of
+    target: person/baha-al-din-zakariya
+    sources:
+      - source/wikipedia-fakhr-al-din-iraqi-en
+      - source/wikipedia-fakhr-al-din-iraqi-ar
+  - type: died_in
+    target: place/damascus
+    sources:
+      - source/wikipedia-fakhr-al-din-iraqi-en
+      - source/wikipedia-fakhr-al-din-iraqi-ar
+sources:
+  - source/wikipedia-fakhr-al-din-iraqi-en
+  - source/wikipedia-fakhr-al-din-iraqi-ar
+  - source/wikipedia-fakhr-al-din-iraqi-ur
+  - source/wikidata-fakhr-al-din-iraqi
+external_ids:
+  wikidata: Q3353450
+provenance:
+  layer: own-research
+  source: "Built from the English, Arabic and Urdu Wikipedia articles and the Wikidata item, all fetched live on 2 November 2026; revision IDs are recorded in the source records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-181n1"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

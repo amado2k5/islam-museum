@@ -1,0 +1,26 @@
+id: event/shams-al-din-disappears-645
+class: event
+kind: other
+label: { ar: "اختفاء شمس الدين التبريزي", en: "Shams al-Din disappears for ever", ur: "شمس الدین تبریزی کا ہمیشہ کے لیے غائب ہونا" }
+summary:
+  ar: "سنة ٦٤٥هـ/١٢٤٧م اختفى [[person/shams-tabrizi|شمس الدين التبريزي]] في ليلة من ليالي قونية ولم يُرَ بعدها؛ وثبت في القرن العشرين أنه قُتل فعلاً، وليس ذلك ببعيد عن علم أبناء جلال الدين، الذين دفنوه على عجل قرب بئر لا تزال قائمة بقونية، فحوّلت هذه التجربة من الحب والشوق والفقد جلالَ الدين شاعراً {cite:britannica-rumi}."
+  en: "One night in 645/1247 Shams al-Din of Tabriz disappeared for ever at Konya. Twentieth-century research established that he was indeed murdered — not without the knowledge of Rumi's sons, who hurriedly buried him close to a well still extant in Konya. This experience of love, longing and loss turned Jalal al-Din into a poet {cite:britannica-rumi}."
+  ur: "645ھ/1247ء کی ایک رات شمس الدین تبریزی قونیہ میں ہمیشہ کے لیے غائب ہو گئے۔ بیسویں صدی کی تحقیق نے ثابت کیا کہ ان کا قتل ہوا — اور رومی کے بیٹوں کے علم کے بغیر نہیں — جنہوں نے انہیں قونیہ کے ایک اب بھی موجود کنویں کے قریب جلدی میں دفن کیا۔ محبت، شوق اور فقد کی اس تجربے نے جلال الدین کو شاعر بنا دیا۔"
+wings: [time]
+themes: [spirituality-and-sufism]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1247", hijri: "0645", calendar: julian, precision: year, status: historical, derived: true, note: "سنة 1247م عند بريتانيكا؛ السنة الهجرية تحويل مشتق {cite:britannica-rumi}." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/shams-tabrizi, role: "المختفي المقتول", sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/jalal-al-din-rumi, role: "المفجوع بغيابه", sources: [source/britannica-rumi] }
+sources: [source/britannica-rumi]
+provenance:
+  layer: own-research
+  source: "Britannica, 'Rumi', 'The influence of Shams al-Din', read through the Wayback capture of 23 October 2026; ledger docs/authenticity-ledger/pages/britannica-rumi.yaml"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-rumi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

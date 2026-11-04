@@ -1,0 +1,28 @@
+id: event/bayhaqi-studies-hakim-400
+class: event
+kind: other
+label:
+  ar: "السماع من الحاكم النيسابوري، قبل ٤٠٥هـ"
+  en: "Hearing hadith from al-Hakim al-Nisaburi, before 405/1014"
+  ur: "حاکم نیشاپوری سے سماعِ حدیث، 405ھ/1014ء سے قبل"
+summary:
+  ar: "روى البيهقي عن الحاكم أبي عبد الله محمد بن عبد الله النيسابوري صاحب «المستدرك» الذي استعمله في تصانيفه، وعن غيره من شيوخ نيسابور حتى بلغوا نحو مائة شيخ؛ وسماعه من الحاكم قبل وفاته سنة ٤٠٥هـ {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}."
+  en: "Al-Bayhaqi transmitted from al-Hakim Abu Abd Allah Muhammad ibn Abd Allah al-Nisaburi, author of the Mustadrak, whose work he used extensively in his own compilations, and from other Nishapuri shaykhs — about a hundred in all; his hearing from al-Hakim predates the master's death in 405/1014 {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}."
+  ur: "بيهقی نے حاکم ابو عبد اللہ محمد بن عبد اللہ نیشاپوری، صاحبِ مستدرک، سے روایت کیا جس کی کتاب کو اپنی تصانیف میں بہت استعمال کیا، اور نیشاپور کے دیگر شیوخ سے بھی — مجموعی طور پر تقریباً سو شیخ؛ حاکم سے سماع ان کی 405ھ/1014ء میں وفات سے پہلے ہے {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1009~", hijri: "0400~", calendar: julian, precision: year, status: tradition, derived: true, note: "سماعه من الحاكم قبل وفاته سنة ٤٠٥هـ؛ التاريخ تقريبي مشتق {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}." }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn, role: "الطالب المحدّث", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-hakim-al-nisaburi, role: "الشيخ المحدّث", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 art. AL-BAYHAKI printed p. 1190 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bayhaqi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,28 @@
+---
+id: work/fatwa-dar-alifta-subletting-a-rented-flat
+lang: en
+source_lang: ar
+translators: []
+---
+
+## Summary
+
+A question about a tenant letting the flat he rented to someone other than its owner, in which [[group/dar-al-ifta-al-misriyya|Dar al-Ifta al-Misriyya]] answered that this is permissible in sharia according to the majority of jurists, provided it does not harm the property and the property is of a kind whose use does not vary from person to person; a higher second rent is allowed, though adding something to the property is preferable, and all of this is bound by the agreement with the owner and by the laws governing tenancy. {cite:dar-alifta fatwa 9022}
+
+## The question
+
+The questioner asked: a man has rented a residential flat; may he let it to another person who is not its owner? {cite:dar-alifta fatwa 9022}
+
+## The answer
+
+Dar al-Ifta began with the legitimacy of leasing, which people greatly need, defining it with [[person/al-khatib-al-shirbini|al-Khatib al-Shirbini]] in [[work/mughni-al-muhtaj|Mughni al-Muhtaj]] (3/438) as a contract over an intended, known use that can be granted and permitted, for a known consideration, and with article 558 of the Civil Code; it grounded its permissibility in [[passage/quran-65-6|al-Talaq 6]], in the hadith of [[person/aisha|Aisha]] in [[work/sahih-al-bukhari|Sahih al-Bukhari]] that the Prophet and Abu Bakr hired a man of Banu al-Dil as a guide, in the consensus of the scholars on its permissibility when its elements are met, as [[person/ibn-qudama-al-maqdisi|Ibn Qudama]] says in [[work/al-mughni|al-Mughni]] (5/321), and in their consensus on the permissibility of renting houses when the period, the rent and the occupant are specified, as reported by [[person/ibn-al-mundhir-al-naysaburi|Ibn al-Mundhir]] in al-Ishraf (6/303). {cite:dar-alifta fatwa 9022}
+
+It then ruled that letting the rented property to someone other than the lessor is permissible in sharia according to the majority of Hanafis, Malikis, Shafi'is and, on the sounder view, Hanbalis, and that permissibility is also reported from Sa'id ibn al-Musayyib, [[person/abu-salama-ibn-abd-al-rahman|Abu Salama ibn Abd al-Rahman]], [[person/ibrahim-al-nakhai|al-Nakha'i]], [[person/amir-al-shabi|al-Sha'bi]], [[person/mujahid-ibn-jabr|Mujahid]], [[person/ikrima-mawla-ibn-abbas|Ikrima]], [[person/muhammad-ibn-sirin|Ibn Sirin]] and [[person/sufyan-al-thawri|al-Thawri]]; the permissibility applies where the use of the property does not vary from person to person and the second lease causes it no damage. {cite:dar-alifta fatwa 9022} It explained the permissibility by the fact that the tenant acquired ownership of the property's use through the first lease, ownership attaching to a use as it attaches to a thing, so he may dispose of it and take it either himself or through a deputy, and by the analogy that a lease is like a sale and sold goods may be resold after they are taken into possession, unless the parties agree otherwise or the second lease causes damage. {cite:dar-alifta fatwa 9022} It noted that the jurists allow the second rent to be lower than, equal to or higher than the first, but that the Hanafis require, where the second rent is higher, that the tenant add something to the property to match the increase, failing which he gives the excess in charity while the lease remains valid; it quoted [[person/ala-al-din-al-kasani|al-Kasani]] in [[work/badai-al-sanai|Bada'i' al-Sana'i']] (4/206), Ibn Maza in [[work/al-muhit-al-burhani|al-Muhit al-Burhani]] (7/429), [[person/muhammad-al-hattab|al-Hattab]] in [[work/mawahib-al-jalil|Mawahib al-Jalil]] (5/417) citing [[work/al-mudawwana-al-kubra|al-Mudawwana]], [[person/abu-ishaq-al-shirazi|al-Shirazi]] in [[work/al-muhadhdhab-fi-fiqh-al-shafii|al-Muhadhdhab]] (2/258) and [[person/al-buhuti-mansur-ibn-yunus|al-Buhuti]] in [[work/kashshaf-al-qina|Kashshaf al-Qina']] (3/565). {cite:dar-alifta fatwa 9022}
+
+Dar al-Ifta said that the use of residential flats generally does not vary from person to person, and subletting them causes no damage beyond the ordinary, so the default is permissibility, unless the flat is let to someone who will use it for something other than residence, such as a trade or a business; it referred to article 593 of the Egyptian Civil Code, Law 131 of 1948, which allows a tenant to assign the lease or sublet unless the agreement provides otherwise, and required compliance with the laws governing tenancy and their restrictions, among them article 18 of Law 136 of 1981, which allows the owner under an old-rent contract to seek eviction when it is established that the tenant sublet the property without his express written permission. {cite:dar-alifta fatwa 9022}
+
+It concluded that a tenant may let the rented property without blame in sharia, provided this does not harm the property and the property is of a kind whose use does not vary from person to person; the second rent may be higher, though adding something to the property is preferable to avoid the disagreement; and all of this is conditional on not breaching the agreement with the owner and on complying with the governing laws, so the man may let the flat he rented to someone other than its owner, observing the sharia and legal rules. {cite:dar-alifta fatwa 9022}
+
+## About this record
+
+Dar al-Ifta al-Misriyya published this fatwa on dar-alifta.org as no. 9022, dated 12 July 2026, in the category of earning, among the fatwas of the Grand Mufti [[person/nazir-ayyad|Nazir Muhammad Ayyad]]. {cite:dar-alifta fatwa 9022} The museum records this text as a historical document attributed to the body or scholar that issued it; it issues no ruling of its own.

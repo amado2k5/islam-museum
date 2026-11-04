@@ -104,8 +104,8 @@ const desc = fmt(R.read_lede, { n: String(ayahs.length), name });
     )}
 
     <nav class="ui" aria-label={R.sura_nav} style="display:flex;justify-content:space-between;gap:12px;margin-top:24px;flex-wrap:wrap">
-      {prev ? <a class="chip" href={`/${lang}/words/quran/${n - 1}/`}>← {labelOf(prev, lang)}</a> : <span />}
-      {next ? <a class="chip" href={`/${lang}/words/quran/${n + 1}/`}>{labelOf(next, lang)} →</a> : <span />}
+      {prev ? <a class="chip" href={`/${lang}/words/quran/${n - 1}/`}><span class="flip" aria-hidden="true">←</span> {labelOf(prev, lang)}</a> : <span />}
+      {next ? <a class="chip" href={`/${lang}/words/quran/${n + 1}/`}>{labelOf(next, lang)} <span class="flip" aria-hidden="true">→</span></a> : <span />}
     </nav>
 
     <p class="ui muted" style="font-size:.85rem;margin-top:20px;max-width:var(--measure)">

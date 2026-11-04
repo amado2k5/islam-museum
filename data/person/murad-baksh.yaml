@@ -1,0 +1,67 @@
+id: person/murad-baksh
+class: person
+
+label: { ar: "مراد بخش", en: "Murad Bakhsh", ur: "مراد بخش" }
+
+names:
+  - { value: "Mirza Muhammad Murad Bakhsh", kind: full }
+  - { value: "Muhammad Murad Bakhsh", kind: full }
+
+gender: male
+
+summary:
+  ar: "ميرزا محمد مراد بخش (9 أكتوبر 1624 – 14 ديسمبر 1661) أمير مغولي، أصغر أبناء الإمبراطور شاه جهان والممتاز محل الباقين. تولّى صوبه دارية بلخ وملتان وكشمير والدكن وكابل وكجرات ومالوا، وأعلن نفسه إمبراطورًا في أحمد آباد سنة 1657، وتحالفه مع أخيه أورنكزيب حسم معركة سموغر، ثم اعتقله أورنكزيب وسجنه في قلعة غواليور وأعدمه سنة 1661."
+  en: "Mirza Muhammad Murad Bakhsh (9 October 1624 – 14 December 1661) was a Mughal prince, the youngest surviving son of Emperor Shah Jahan and Mumtaz Mahal. He governed Balkh, Multan, Kashmir, the Deccan, Kabul, Gujarat and Malwa, proclaimed himself emperor at Ahmedabad in 1657, and his alliance and charge with his brother Aurangzeb decided the Battle of Samugarh — after which Aurangzeb had him arrested, imprisoned in Gwalior Fort and executed in 1661."
+  ur: "میرزا محمد مراد بخش (9 اکتوبر 1624ء – 14 دسمبر 1661ء) مغل شہزادے تھے، شہنشاہ شاہ جہاں اور ممتاز محل کے سب سے چھوٹے زندہ بچ جانے والے فرزند۔ وہ بلخ، ملتان، کشمیر، دکن، کابل، گجرات اور مالوا کے صوبہ دار رہے، 1657ء میں احمد آباد میں خود کو بادشاہ قرار دیا، اور اپنے بھائی اورنگزیب کے ساتھ ان کے اتحاد اور حملے نے سموگڑھ کی جنگ کا فیصلہ کیا — جس کے بعد اورنگزیب نے انھیں گرفتار کر کے گوالیار قلعے میں قید رکھا اور 1661ء میں قتل کر دیا۔"
+
+roles: [prince]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1624-10-09"
+  calendar: julian
+  precision: day
+  status: debated
+  note: "The English, Arabic and Urdu articles all give 9 October 1624, at Rohtasgarh Fort in Bihar; Wikidata gives 8 October 1624. The articles' day is built and the Wikidata reading preserved. Rohtasgarh has no place entity on main, so no born_in edge is written."
+  sources: [source/wikipedia-murad-baksh-en, source/wikipedia-murad-baksh-ar, source/wikipedia-murad-baksh-ur, source/wikidata-murad-baksh]
+
+died:
+  edtf: "1661-12-14"
+  calendar: julian
+  precision: day
+  status: historical
+  note: "All sources agree on 14 December 1661; he was executed at Gwalior Fort after three years of imprisonment, condemned for the murder of the diwan clerk Ali Naqi. Gwalior has no place entity on main, so no died_in edge is written."
+  sources: [source/wikipedia-murad-baksh-en, source/wikipedia-murad-baksh-ar, source/wikipedia-murad-baksh-ur, source/wikidata-murad-baksh]
+
+relations:
+  - { type: child_of, target: person/shah-jahan-mughal, sources: [source/wikipedia-murad-baksh-en, source/wikipedia-murad-baksh-ar, source/wikidata-murad-baksh] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school for the man himself. He was
+      raised in, and governed provinces of, the Sunni Hanafi
+      establishment of Shah Jahan's Mughal court — dynastic context,
+      which never settles faith under the founder rulings. Wikidata
+      files his religion both as Islam generically and as Sunni Islam;
+      structured statements never settle faith, and the English, Arabic
+      and Urdu article texts name no school for him. His faith is
+      therefore recorded as unknown.
+    sources: [source/wikipedia-murad-baksh-en, source/wikipedia-murad-baksh-ar, source/wikidata-murad-baksh]
+
+external_ids: { wikidata: "Q715820" }
+
+sources:
+  - source/wikipedia-murad-baksh-en
+  - source/wikipedia-murad-baksh-ar
+  - source/wikipedia-murad-baksh-ur
+  - source/wikidata-murad-baksh
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1374503021 of 12 September 2026), Arabic Wikipedia (revision 75662188 of 25 June 2026), Urdu Wikipedia (revision 11800418 of 18 August 2026) and Wikidata Q715820 (item revision 2528708564 of 8 August 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds Murad Bakhsh, person/shah-jahan-mughal exists on main (its QID Q83672 matches the father statement in his Wikidata item), so the child_of edge is written here, in the child's record; he is the youngest of this batch's siblings, so no sibling_of edges are written in his record. The sources divide by one day on his birth (9 against 8 October 1624); the rivalry is preserved in the birth note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-169m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

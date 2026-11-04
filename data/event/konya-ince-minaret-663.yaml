@@ -1,0 +1,25 @@
+id: event/konya-ince-minaret-663
+class: event
+kind: founding
+label: { ar: "بناء مدرسة إنجه ميناره بقونية، نحو ٦٦٣هـ", en: "The Ince Minareli Medrese is built at Konya, c. 663/1264", ur: "قونیہ میں انجے مینارلی مدرسہ کی تعمیر، تقریباً 663ھ/1264ء" }
+summary:
+  ar: "بُنيت مدرسة إنجه ميناره (ذات المئذنة الرفيعة) بقونية نحو سنة ٦٦٣هـ/١٢٦٤–١٢٦٥م بيد الصانع كالوك بن عبد الله؛ وقد رُممت كثيرًا وفقدت ثلثي مئذنتها الطوبية في حريق/انهيار سنة ١٣١٧هـ/١٨٩٩م، وكانت المئذنة تُكمل عصابات الكتابة العملاقة على مدخلها {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 289}."
+  en: "The Ince Minareli Medrese ('slender-minaret madrasa') at Konya was built about 663/1264-65 by the master Kaluk (Koluk) ibn Abd Allah. Heavily restored, it lost two-thirds of its brick minaret in 1317/1899; the minaret had served as a foil to the portal's giant inscriptive bands {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 289}."
+  ur: "قونیہ کا انجے مینارلی مدرسہ (پتلی مینار والا مدرسہ) تقریباً 663ھ/1264–65ء میں استاد کلوک بن عبد اللہ نے تعمیر کیا۔ بار بار مرمت کے باوجود اس کے اینٹوں کے مینار کا دو تہائی حصہ 1317ھ/1899ء میں گر گیا؛ یہ مینار داخلی دروازے کی دیوہیکل کتباتی پٹیوں کا مکمل تھا۔"
+wings: [time]
+themes: [architecture]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1264~", hijri: "0663", calendar: julian, precision: year, status: historical, derived: true, note: "نحو ٦٦٣هـ/١٢٦٤–١٢٦٥م {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 289}." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: building/ince-minaret-medrese, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., art. ḲONYA, Monuments, vol. 5.1 PDF p. 289 (harvest OCR, books/encyclopaedia-of-islam-2/Encyclopaedia_of_Islam_vol_5_1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-konya-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

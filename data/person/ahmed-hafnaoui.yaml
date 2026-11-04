@@ -1,0 +1,36 @@
+id: person/ahmed-hafnaoui
+class: person
+label: { ar: "أحمد أيوب الحفناوي", en: "Ahmed Hafnaoui", ur: "احمد حفناوی" }
+names:
+  - { value: "Ahmed Ayoub Hafnaoui", kind: full }
+  - { value: "أحمد أيوب الحفناوي", kind: full }
+gender: male
+summary:
+  ar: "سبّاح تونسي، وُلد في المتلوي سنة 2002. فجّر مفاجأة أولمبياد طوكيو 2020 بفوزه بذهبية 400 متر حرة من الحارة الثامنة، ثم فاز بذهبيتي 800 و1500 متر وفضية 400 متر في بطولة العالم بفوكوكا 2023، وهو حامل الأرقام القياسية الأفريقية في السباحة الحرة."
+  en: "Tunisian swimmer, born in Métlaoui in 2002. He produced the upset of the Tokyo 2020 Olympics by winning the 400 m freestyle gold from lane 8, then won the 800 m and 1500 m golds and the 400 m silver at the Fukuoka 2023 World Championships; he holds the African freestyle records."
+  ur: "تیونس کے تیراک، 2002 میں میتلاوی میں پیدا ہوئے۔ انہوں نے ٹوکیو 2020 اولمپکس میں لین 8 سے 400 میٹر فری اسٹائل کا سونا جیت کر سب کو حیران کر دیا، پھر فوکوکا 2023 عالمی چیمپئن شپ میں 800 اور 1500 میٹر کے سونے اور 400 میٹر کی چاندی جیتی؛ افریقی فری اسٹائل ریکارڈ ان کے پاس ہیں۔"
+roles: [swimmer]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "2002-12-04"
+  hijri: "1423"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 4 December 2002 in Métlaoui, Gafsa (English, Arabic and French articles; Wikidata). Métlaoui has no place entity in the graph, so the birthplace is recorded here and in prose only. The Hijri year 1423 is the tabular conversion of 4 December 2002 and is marked derived."
+  sources: [source/wikipedia-ahmed-hafnaoui-en, source/wikipedia-ahmed-hafnaoui-ar, source/wikipedia-ahmed-hafnaoui-fr, source/wikidata-ahmed-hafnaoui]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or French articles names a religion for him, and Wikidata records no religion (P140) statement. His nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-ahmed-hafnaoui-en, source/wikipedia-ahmed-hafnaoui-ar, source/wikipedia-ahmed-hafnaoui-fr, source/wikidata-ahmed-hafnaoui]
+external_ids: { wikidata: "Q104155849" }
+sources: [source/wikipedia-ahmed-hafnaoui-en, source/wikipedia-ahmed-hafnaoui-ar, source/wikipedia-ahmed-hafnaoui-fr, source/wikidata-ahmed-hafnaoui]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1360812659), Arabic Wikipedia (revision 74314898 — the article is explicitly the swimmer's, disambiguated from a musician of the same name), French Wikipedia (revision 234299558) and Wikidata Q104155849 (item revision 2541906461, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 Nov 2026; QID grounded from the English article's page property and confirmed in every edition's page properties; existence checked by name (English and Arabic) and by QID across data/person/ — no prior record; Métlaoui has no place entity in data/place/."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-152A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

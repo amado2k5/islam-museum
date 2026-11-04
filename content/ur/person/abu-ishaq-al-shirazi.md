@@ -16,3 +16,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## تصانیف
 ان کی کتابوں میں [[work/tabaqat-fuqaha|طبقات الفقہاء]] شامل ہے {cite:tabaqat-fuqaha-abbas-1981 p. 5-6}.
+
+## راغب السرجانی کے پروگرام «ماذا قدم المسلمون للعالم» میں
+تیرہویں قسط میں [[person/ragheb-al-sergani|راغب السرجانی]] ابو اسحاق شیرازی کا ذکر کرتے ہیں، جنہیں وہ پانچویں صدی ہجری کے شافعی فقیہ بتاتے ہیں، اور روایت کرتے ہیں کہ وہ اپنے ایک شاگرد کے ساتھ چل رہے تھے کہ ایک کتا ان کے راستے میں آ گیا؛ شاگرد اسے بھگانے کو لپکا، تو شیخ نے اس سے کہا: اسے کیوں بھگاتے ہو؟ میں اور یہ راستے میں شریک ہیں۔ {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep13 00:09:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep13 00:10:00} وہ اس میں ایک فقیہانہ نظر دیکھتے ہیں جو جانور کی قدر کو زمین پر انسان کے شریک کے طور پر پہچانتی ہے؛ یہ ایک قصہ ہے جو وہ اپنے ماخذ کا نام لیے بغیر بیان کرتے ہیں (needs_source)۔ {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep13 00:10:00}

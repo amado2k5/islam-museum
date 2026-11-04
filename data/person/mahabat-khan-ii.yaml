@@ -1,0 +1,63 @@
+id: person/mahabat-khan-ii
+class: person
+
+label: { ar: "مهابة خان الثاني", en: "Mahabat Khan II", ur: "مہابت خان دوم" }
+
+names:
+  - { value: "Mirza Luhrasp", kind: given }
+  - { value: "Luhrasp Khan", kind: alternate }
+  - { value: "Mahabat Khan", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "مهابة خان الثاني (ت. 2 يناير 1675)، المولود ميرزا لهراسب، نبيل مغولي في عهدي شاه جهان وأورنكزيب، والابن الثاني لزمانة بك مهابة خان الأول. صار مير بخشي الإمبراطورية سنة 1651 وورث لقب أبيه سنة 1652، وحكم كابل مرارًا وكجرات من 1662 إلى 1668، واشتهر بصراحته في نقد تنامي نفوذ القضاء والفقهاء السياسي في عهد أورنكزيب، وتُنسب إليه عمارة مسجد مهابة خان في بيشاور."
+  en: "Mahabat Khan II (d. 2 January 1675), born Mirza Luhrasp, was a Mughal noble under Shah Jahan and Aurangzeb and the second son of Zamana Beg, the first Mahabat Khan. He became mir bakhshi of the empire in 1651, inherited his father's title in 1652, governed Kabul repeatedly and Gujarat from 1662 to 1668, was known for outspoken criticism of the growing political power of the Islamic clergy under Aurangzeb, and has been credited by scholars with Peshawar's Mahabat Khan Mosque."
+  ur: "مہابت خان دوم (وفات 2 جنوری 1675ء)، اصل نام مرزا لہراسپ، شاہ جہاں اور اورنگزیب کے دور کے مغل امیر اور زمانہ بیگ، پہلے مہابت خان، کے دوسرے بیٹے تھے۔ وہ 1651ء میں سلطنت کے میر بخشی بنے، 1652ء میں والد کا لقب ورثے میں پایا، کابل کے بار بار حاکم رہے اور 1662ء سے 1668ء تک گجرات کی حکومت کی؛ اورنگزیب کے دور میں اسلامی علما کے بڑھتے سیاسی اثر پر کھلی تنقید کے لیے مشہور تھے، اور پشاور کی مہابت خان مسجد کی تعمیر محققین نے انہی سے منسوب کی ہے۔"
+
+roles: [general, governor, statesman]
+regions: [south-asia]
+wings: [people]
+
+died:
+  edtf: "1675-01-02"
+  calendar: julian
+  precision: day
+  status: historical
+  note: "The English article and Wikidata give 2 January 1675, in the Punjab; place/punjab has no entity on main, so no died_in edge is written. The harvest queue's dates for him, 1610–1678, are not supported by any text read: the article gives no birth date at all and a death in 1675, not 1678, and both queue figures are corrected here. No birth block is built, no source read giving his birth date."
+  sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii]
+
+relations:
+  - { type: child_of, target: person/mahabat-khan, sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school for Mahabat Khan II himself. The
+      English article records his career, his repeated governorships
+      of Kabul, and his outspoken criticism, in a letter to Aurangzeb,
+      of the increased political power of the Islamic judges and
+      theologians under that emperor — a political stance, not a
+      school. The construction of Peshawar's Mahabat Khan Mosque has
+      been attributed to him by scholars on verbal tradition; building
+      a mosque is patronage and names no school. His father was an
+      Iranian noble of Jahangir's court, and family background and
+      Mughal office settle nothing under the founder rulings. Wikidata
+      carries no religion statement for him, and his father's item
+      files Islam generically, which is structured data and settles
+      nothing in any case. His faith is therefore recorded as unknown.
+    sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii]
+
+external_ids: { wikidata: "Q141485494" }
+
+sources:
+  - source/wikipedia-mahabat-khan-ii-en
+  - source/wikidata-mahabat-khan-ii
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379692204 of 11 October 2026) and Wikidata Q141485494 (item revision 2557700186 of 16 October 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property and the item revision re-asserted identical against a second live query. He has no Arabic or Urdu Wikipedia article. IDENTITY CHECK, run first as the brief requires: the record already on origin/main at person/mahabat-khan was read in full — it holds a DIFFERENT man, his father Zamana Beg (label Mahabat Khan, summary identifying the amir who seized Jahangir in 1626 and died in 1634, Wikidata Q6732704, status draft), so the queue's man is built here under mahabat-khan-ii and the disambiguation is stated: this record is the son, Mirza Luhrasp, who inherited the title in 1652 and died in 1675. Existence otherwise checked against origin/main — no record holds the son under any slug, name fragment or QID. The child_of edge to his father's record is written here, in the child's record. Queue correction: the queue's 1610–1678 is unsupported — no birth date is attested and the death year is 1675."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-170m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

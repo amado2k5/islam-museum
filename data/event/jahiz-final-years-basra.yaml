@@ -1,0 +1,27 @@
+id: event/jahiz-final-years-basra
+class: event
+kind: other
+label:
+  ar: "الفالج يصيب الجاحظ في أواخر عمره بالبصرة"
+  en: "Hemiplegia strikes al-Jahiz in his last years at Basra"
+  ur: "بصرہ میں آخری عمر میں جاحظ کو فالج کی ضرب آئی"
+summary:
+  ar: "في أواخر عمره أصاب الجاحظَ الفالجُ، فكان يطلي نصفه الأيمن بالصندل والكافور لشدة حرارته، ونصفه الأيسر لو قُرض بالمقاريض ما أحسّ به من خَدَره وشدة برده، وكان يقول في مرضه: استطلحت على جسدي الأضداد {cite:wafayat-ayan p. 405} {cite:muruj-al-dhahab p. 568-569}؛ ويروي ابن خلكان عن بعض البرامكة أنه ركب البحر وانحدر إلى البصرة فأُخبر أن الجاحظ بها عليل بالفالج، فزارَه قبل وفاته {cite:wafayat-ayan p. 405}."
+  en: "In his last years al-Jahiz was struck by hemiplegia: he would anoint his right side with sandalwood and camphor for its burning heat, while his left side felt nothing even if cut with scissors, so numbed and cold it was; in his illness he said he had reconciled opposites upon his body {cite:wafayat-ayan p. 405} {cite:muruj-al-dhahab p. 568-569}. Ibn Khallikan relates from one of the Baramika that he sailed down to Basra, heard that al-Jahiz lay ill there with the palsy, and visited him before his death {cite:wafayat-ayan p. 405}."
+  ur: "اپنی آخری عمر میں جاحظ کو فالج کی ضرب آئی: وہ دائیں شق کو صندل اور کافور سے ملتے کیونکہ اس میں شدید حرارت تھی، جب کہ بایاں شق قینچیوں سے کاٹا بھی جائے تو اس کے خدر اور سردی سے انہیں کچھ محسوس نہ ہوتا؛ اپنی بیماری میں وہ کہتے تھے کہ میں نے اپنے جسم پر متضاد چیزوں کو ملا دیا {cite:wafayat-ayan p. 405} {cite:muruj-al-dhahab p. 568-569}۔ ابن خلکان ایک برمکی سے روایت کرتے ہیں کہ وہ سمندر کے راستے بصرہ پہنچا اور سنا کہ جاحظ وہاں فالج میں مبتلا ہیں، تو وفات سے پہلے ان کی عیادت کی {cite:wafayat-ayan p. 405}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0861/0869", hijri: "0247", calendar: julian, precision: year, status: tradition, derived: true, note: "«في أواخر عمره» عند ابن خلكان، بين مقتل الفتح بن خاقان سنة ٢٤٧هـ ووفاته سنة ٢٥٥هـ {cite:wafayat-ayan p. 405}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/wafayat-ayan] }
+  - { type: had_participant, target: person/al-jahiz, sources: [source/wafayat-ayan] }
+sources: [source/wafayat-ayan, source/muruj-al-dhahab]
+provenance:
+  layer: own-research
+  source: "Wafayat al-A'yan of Ibn Khallikan, Apple Vision OCR p. 405 (books/tareekh/wafayat-ayan/AAlexandrina-224013); Muruj al-Dhahab of al-Mas'udi vol. 2 pp. 568-569"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-jahiz-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

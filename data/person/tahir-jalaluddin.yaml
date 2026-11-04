@@ -50,3 +50,14 @@ provenance:
   source: "English Wikipedia 'Tahir bin Jalaluddin' (revision 1369810627 of 17 August 2026), Malay Wikipedia 'Muhammad Tahir Jalaluddin' (revision 6510890 of 6 April 2025), Indonesian Wikipedia 'Tahir Jalaluddin' (revision 28294698 of 2 November 2025) and Wikidata item Q2649246 (item revision 2555240888 of 9 October 2026), each fetched by revision id through the MediaWiki/Wikidata APIs on 27 October 2026 with the returned ids asserted equal; the Wikidata item was read twice with identical claims. The QID was grounded through the page properties of all three articles, which agree. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Malay form or the QID Q2649246, and data/_homonyms.yaml holds no shared Arabic label. The student_of relation rests on the cited articles themselves: the Malay article calls Ahmad Khatib 'his teacher' and describes Tahir's formation under him in Mecca, and the Indonesian article records that Tahir afterwards returned to Mecca and helped Ahmad Khatib teach. His services under Sultan Idris Shah I of Perak, who appointed him to the Perak council of notables and ulama in 1900 and took him to London for the coronation of George V in 1911, are attested by the Indonesian and Malay articles and are carried in the prose; no relation is written for them because the lane writes no patronage edge from the client's side. His Ampek Angkek birthplace and his Kuala Kangsar death and burial place have no place records."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-93
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-tahir-jalaluddin-en, source/wikipedia-tahir-jalaluddin-ms, source/wikipedia-tahir-jalaluddin-id, source/wikidata-tahir-jalaluddin]
+  - job: job/astronomer
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-tahir-jalaluddin-en, source/wikipedia-tahir-jalaluddin-ms, source/wikipedia-tahir-jalaluddin-id, source/wikidata-tahir-jalaluddin]

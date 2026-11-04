@@ -1,0 +1,69 @@
+id: person/mangkunegara-i
+class: person
+
+label: { ar: "مانغكونيغارا الأول", en: "Mangkunegara I", ur: "مانگکونیگارا اول" }
+
+names:
+  - { value: "Raden Mas Said", kind: full }
+  - { value: "Pangeran Sambernyawa", kind: laqab }
+  - { value: "Kanjeng Gusti Pangeran Adipati Arya Mangkunegara I", kind: regnal }
+
+gender: male
+
+summary:
+  ar: "مانغكونيغارا الأول (7 أبريل 1725 – 28 ديسمبر 1795)، وُلد باسم رادن ماس سعيد واشتُهر بلقب بانغيران سامبرنياوا أي «الأمير حاصد الأرواح»، أمير من ماتارام قاتل شركة الهند الشرقية الهولندية نحو ست عشرة سنة وخاض 250 معركة، حتى جعلته معاهدة سالاتيغا سنة 1757 مؤسس إمارة مانغكونيغاران في سوراكارتا وأول حكامها، فحكمها حتى وفاته. أعلنته إندونيسيا بطلًا قوميًا سنة 1988."
+  en: "Mangkunegara I (7 April 1725 – 28 December 1795), born Raden Mas Said and famed as Pangeran Sambernyawa, 'the Life-Reaping Prince', was a Mataram prince who fought the Dutch East India Company for some sixteen years and, by the English article's count, 250 battles, until the Treaty of Salatiga in 1757 made him founder and first ruler of the Mangkunegaran principality in Surakarta, which he ruled until his death. Indonesia proclaimed him a National Hero in 1988."
+  ur: "مانگکونیگارا اول (7 اپریل 1725ء – 28 دسمبر 1795ء)، پیدائشی نام رادن ماس سعید اور لقب پانگیران سامبرنیاوا یعنی «ارواح کاٹنے والا شہزادہ»، ماتارم کے شہزادے تھے جنہوں نے تقریباً سولہ سال ولندیزی ایسٹ انڈیا کمپنی سے جنگ کی اور 250 معرکے لڑے، حتیٰ کہ 1757ء میں سالاتیگا معاہدے نے انہیں سوراکارتا میں مانگکونیگاران ریاست کا بانی اور پہلا حکمران بنا دیا، جہاں انہوں نے وفات تک حکومت کی۔ انڈونیشیا نے 1988ء میں انہیں قومی ہیرو قرار دیا۔"
+
+roles: [ruler]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1725-04-07"
+  calendar: gregorian
+  precision: day
+  status: debated
+  note: "The day and month agree everywhere — 7 April, at Kartasura — but the year is split between two well-carried readings: 1725 in the English article's lead, in both of Wikidata's birth statements and in the article's categories, and 1726 in Ricklefs's 2018 monograph Soul Catcher, in the English article's infobox and in the Indonesian article's infobox (there citing the 1973 princely genealogy). The record follows 1725 with the 1726 reading preserved. The Hijri year is omitted — 7 April 1725 falls in 1137 AH and 7 April 1726 in 1138 AH, so the pairing is inconsistent across the rival years. Kartasura has no museum place record, so no born_in edge is written."
+  sources: [source/wikipedia-mangkunegara-i-en, source/wikipedia-mangkunegara-i-id, source/wikidata-mangkunegara-i]
+
+died:
+  edtf: "1795-12-28"
+  hijri: "1210"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English and Indonesian articles and Wikidata agree on 28 December 1795, at Surakarta; he was buried in the Mangadeg royal cemetery at Matesih. The English article's category files him under 1796 deaths against its own text — a filing error, not a rival date. Surakarta has no museum place record, so no died_in edge is written."
+  sources: [source/wikipedia-mangkunegara-i-en, source/wikipedia-mangkunegara-i-id, source/wikidata-mangkunegara-i]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school or an order for the man
+      himself. The tradition he ruled is stated in full — a prince
+      of the Mataram court world, where Islam was held within the
+      Javanese Kejawen synthesis; the English article records that
+      he married Raden Ayu Kusumapatahati, a daughter of the cleric
+      Kyai Kasan Nur Iman, and that a Javanese chronicle tradition
+      even proclaimed him with caliphal style in his youth. A
+      court's tradition and a father-in-law's learning are context,
+      not a naming of the man's school, so his faith is recorded
+      as unknown. The Indonesian article's infobox files his
+      religion as Islam and Wikidata carries no religion value at
+      all; structured filings never settle faith.
+    sources: [source/wikipedia-mangkunegara-i-en, source/wikipedia-mangkunegara-i-id, source/wikidata-mangkunegara-i]
+
+external_ids: { wikidata: "Q669258" }
+
+sources:
+  - source/wikipedia-mangkunegara-i-en
+  - source/wikipedia-mangkunegara-i-id
+  - source/wikidata-mangkunegara-i
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382223815 of 27 October 2026), Indonesian Wikipedia (revision 30114734 of 28 October 2026) and Wikidata Q669258 (item revision 2490928432), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Indonesian article agreeing, and the item revision re-asserted identical against a second live query. The Malay article is a two-line stub and was not used. Existence checked by the coordinator against origin/main before building: no prior record holds Mangkunegara I; his father Pangeran Mangkunagara of Kartasura has no record, so no child_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-167j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

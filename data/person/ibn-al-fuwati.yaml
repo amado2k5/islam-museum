@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن الفوطي"
   en: "Ibn al-Fuwati"
-roles: [scholar, writer]
+roles: [historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرزاق بن أحمد ابن الفوطي، مؤرخ وفلكي القرن الرابع عشر صاحب «الحوادث الجامعة»، توفي سنة ١٣٢٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Razzaq ibn Ahmad Ibn al-Fuwati, the fourteenth-century historian and astronomer author of al-Hawadith al-Jami'a, d. 1323; the biographical entry is not yet checked on the page."
+  ar: "عبد الرزاق «ابن الفوطي»، مؤرخ بغدادي فيلسوف النزعة تلميذ الطوسي صاحب «مجمع الآداب» و«الحوادث الجامعة»؛ توفي سنة 723هـ (1323م)."
+  en: "Abd al-Razzaq “Ibn al-Fuwati” (1244–1323), Baghdadi historian, pupil of al-Tusi, author of Majma' al-Adab and al-Hawadith al-Jami'a."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q5984303
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0036
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.349)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

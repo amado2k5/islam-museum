@@ -1,0 +1,27 @@
+id: event/jahiz-mutawakkil-audience
+class: event
+kind: gathering
+label:
+  ar: "الجاحظ يُعرض على المتوكل مؤدباً فيصرفه"
+  en: "al-Jahiz presented to al-Mutawakkil as tutor, then dismissed"
+  ur: "جاحظ متوکل کے سامنے مؤدب کے طور پر پیش کیے گئے پھر واپس کر دیے گئے"
+summary:
+  ar: "في خلافة المتوكل (٢٣٢–٢٤٧هـ/٨٤٧–٨٦١م) ذُكر الجاحظ للخليفة ليؤدب بعض ولده، فلما رآه استبشع منظره، فأمر له بعشرة آلاف درهم وصرفه {cite:muruj-al-dhahab p. 486-487} {cite:wafayat-ayan p. 404}؛ ويروي الجاحظ نفسه مقابلة يزعم أنه أجراها مع المتوكل، الذي كان يريد أن يعهد إليه بتعليم أولاده ثم صرفه لقبح منظره {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+  en: "In al-Mutawakkil's caliphate (232-247/847-861) al-Jahiz was mentioned to the caliph as a tutor for one of his sons; when the caliph saw him he was repelled by his looks, granted him ten thousand dirhams and dismissed him {cite:muruj-al-dhahab p. 486-487} {cite:wafayat-ayan p. 404}. Al-Jahiz himself records an interview he claims to have had with al-Mutawakkil, who was anxious to entrust him with the education of his children but finally dismissed him because of his ugliness {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+  ur: "متوکل کے دور خلافت (232-247ھ/847-861ء) میں جاحظ کا نام خلیفہ کے سامنے ان کے ایک بیٹے کے مؤدب کے طور پر آیا؛ جب خلیفہ نے انہیں دیکھا تو ان کے منظر سے نفرت کی، دس ہزار درہم عنایت کر کے واپس کر دیا {cite:muruj-al-dhahab p. 486-487} {cite:wafayat-ayan p. 404}۔ جاحظ نے خود ایک ملاقات بیان کی ہے جس میں متوکل ان سے بچوں کی تعلیم سپرد کرنا چاہتا تھا مگر آخر میں بدصورتی کے سبب انہیں واپس کر دیا {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0847/0861", hijri: "0232", calendar: julian, precision: year, status: tradition, derived: true, note: "الحادثة في خلافة المتوكل (٢٣٢–٢٤٧هـ) بلا سنة محددة في المصادر {cite:muruj-al-dhahab p. 486-487}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/samarra, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-jahiz, sources: [source/muruj-al-dhahab] }
+sources: [source/muruj-al-dhahab, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Muruj al-Dhahab of al-Mas'udi (Dar al-Ifriqiyya/Dar al-Tahrir) vol. 2 pp. 486-487; Wafayat al-A'yan of Ibn Khallikan, Apple Vision OCR p. 404 (books/tareekh/wafayat-ayan/AAlexandrina-224013); Encyclopaedia of Islam 2nd ed. vol. 2, printed p. 385"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-jahiz-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

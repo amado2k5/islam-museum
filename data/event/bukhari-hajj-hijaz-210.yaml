@@ -1,0 +1,27 @@
+id: event/bukhari-hajj-hijaz-210
+class: event
+kind: pilgrimage
+label:
+  ar: "حج البخاري وتخلّفه بالحجاز في طلب الحديث، ٢١٠هـ"
+  en: "Al-Bukhari's pilgrimage and his stay in the Hijaz seeking hadith, 210/825"
+  ur: "بخاری کا حج اور طلبِ حدیث میں حجاز میں قیام، 210ھ/825ء"
+summary:
+  ar: "رحل البخاري سنة ٢١٠هـ بعدما سمع الكثير ببلده من محمد بن سلام البيكندي ومحمد بن يوسف البيكندي وعبد الله بن محمد المسندي وإبراهيم بن الأشعث وطائفة {cite:tabaqat-shafiiyya-subki j.2 p. 3}؛ فلما بلغ ست عشرة سنة وكان قد حفظ كتب ابن المبارك حج مع أمه وأخيه، فلما رجعا تخلّف في طلب الحديث {cite:tabaqat-shafiiyya-subki j.2 p. 5} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}."
+  en: "Al-Bukhari set out in 210 after he had heard much in his own town from Muhammad ibn Salam al-Baykandi, Muhammad ibn Yusuf al-Baykandi, Abd Allah ibn Muhammad al-Musnadi, Ibrahim ibn al-Ash'ath and others {cite:tabaqat-shafiiyya-subki j.2 p. 3}; when he reached sixteen, having already memorised the works of Ibn al-Mubarak, he made the pilgrimage with his mother and his brother, and when they returned he remained behind seeking hadith {cite:tabaqat-shafiiyya-subki j.2 p. 5} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}."
+  ur: "بخاری نے 210ھ میں سفر کیا، اس سے پہلے اپنے شہر میں محمد بن سلام بیکندی، محمد بن یوسف بیکندی، عبداللہ بن محمد مسندی، ابراہیم بن اشعث اور دیگر سے کثیر سماع کر چکے تھے {cite:tabaqat-shafiiyya-subki j.2 p. 3}؛ سولہ برس کی عمر میں، جب وہ ابن مبارک کی کتابیں یاد کر چکے تھے، اپنی والدہ اور بھائی کے ساتھ حج کیا، اور جب وہ دونوں لوٹ گئے وہ طلبِ حدیث میں پیچھے رہ گیا {cite:tabaqat-shafiiyya-subki j.2 p. 5} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0825", hijri: "0210", calendar: julian, precision: year, status: tradition, derived: true, note: "رحل سنة عشر ومائتين، وحجّ مع أمه وأخيه وله ست عشرة سنة فتخلّف {cite:tabaqat-shafiiyya-subki j.2 p. 3, 5}؛ التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-bukhari, role: "الحاج والطالب", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), art. al-Bukhari, Muhammad b. Isma'il (W. Montgomery Watt), PDF pp. 1360-1361; Tabaqat al-Shafi'iyya al-Kubra (al-Matba'a al-Husayniyya) j.2 printed pp. 2-15, tarjama of Muhammad b. Isma'il al-Bukhari (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bukhari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -2,10 +2,7 @@
 id: person/zakarawayh-ibn-mihrawayh
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 26"]
 ---
 ## Overview
-Zakarawayh ibn Mihrawayh, whom al-Tabari calls the Qarmati. al-Tabari mentions his affair in the year 294 AH {cite:tabari-tarikh-abu-al-fadl j.10 p.130}.
-
-## His march
-He set out from the river of al-Muthanniya intending the pilgrimage, and then killed a group of the Alafiyyun at Waqisa {cite:tabari-tarikh-abu-al-fadl j.10 p.130}.
+Zakrawayh ibn Mihrawayh, whom al-Tabari calls al-Qarmati; he left Nahr al-Muthaniyya claiming the pilgrimage, then killed a party of caravan-men at Waqisa in 294 AH. Ibn al-Jawzi records that Wasif ibn Sawartekin met him in al-Muktafi's army, his companions were killed and he was struck a blow that reached his brain — he lived five days, then died. {cite:tabari-tarikh-abu-al-fadl}

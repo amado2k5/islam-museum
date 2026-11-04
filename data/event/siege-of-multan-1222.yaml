@@ -1,23 +1,27 @@
 id: event/siege-of-multan-1222
 class: event
 kind: siege
-label: { ar: "حصار ملتان (١٢٢٢)", en: "Siege of Multan (1222)" }
+label: { ar: "حصار المغول للملتان ١٢٢٢م", en: "The Mongol siege of Multan (1222)" }
 summary:
-  ar: "بطاقة أولية لحصار ملتان (١٢٢٢)؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Siege of Multan (1222); its sources are not yet checked on the page."
+  ar: "في عهد ناصر الدين قباجة على الملتان وأوج بلغ جند المغول نواحي السند في أثر جلال الدين الخوارزمشاه الفارّ أمامهم؛ وتروي كتب التاريخ أن المغول حاصروا الملتان سنة ١٢٢٢م دون أن يأخذوها، فصمدت لقباجة. ثم ضعف مركزه بعد لقائه غير الموفق بجلال الدين سنة ٦٢١هـ/١٢٢٤م حين بلغ النواحي هارباً من المغول المتقدمين {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  en: "In Nasir al-Din Qabacha's days over Multan and Uch, Mongol detachments reached the Indus marches in pursuit of the fleeing Jalal al-Din Khwarazm-Shah; the narrative histories record a Mongol siege of Multan in 1222 that failed to take the city, which held for Qabacha. His position was then weakened by the unsuccessful encounter with Jalal al-Din in 621/1224, when the Khwarazm-Shah reached the area fleeing the advancing Mongols {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  ur: "ناصر الدین قباجہ کے عہدِ ملتان و اُچ میں مغول دستے فرار خوارزم شاہ جلال الدین کے پیچھے سندھ کے کناروں تک پہنچے؛ تواریخ میں ملتان کا 1222ء کا محاصرہ درج ہے جو شہر لینے میں ناکام رہا اور قباجہ کے لیے قائم رہا۔ پھر 621ھ/1224ء میں جلال الدین سے ناکام مقابلے کے بعد — جو بڑھتے ہوئے مغلوں سے بھاگتا ہوا اس علاقے میں آیا — اس کا مرکز کمزور ہو گیا {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}۔"
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [south-asia]
 date:
-  start: { edtf: "1222", precision: year, status: tradition, derived: true }
-  end: { edtf: "1222", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+  start: { edtf: "1222", hijri: "0619", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة الحصار المروية ١٢٢٢م (٦١٩هـ تقريباً؛ التحويل مشتق)؛ والسياق المغولي عند الملتان موثق {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}.", sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1222", hijri: "0619", calendar: julian, precision: year, status: tradition, derived: true, note: "نهاية سنة الحصار." }
+relations:
+  - { type: occurred_at, target: place/multan, sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/nasir-al-din-qabacha, role: "صاحب الملتان المُحاصَر", sources: [source/encyclopaedia-of-islam-2] }
 external_ids:
   wikidata: Q136332982
 provenance:
   layer: own-research
-  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  source: "Wikidata candidate (siege of Multan, 1222) reviewed against Encyclopaedia of Islam 2nd ed. vol. 7 MULTĀN p. 603 (PDF pages): Qabacha's rule, the Mongol pressure of 619-625, and the 621/1224 encounter with Jalal al-Din; siege year rests on the imported card citing Hasan Ibrahim's Tarikh al-Islam"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  run: explorer-multan-1
+sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

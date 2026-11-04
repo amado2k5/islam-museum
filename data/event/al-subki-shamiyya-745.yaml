@@ -1,0 +1,27 @@
+id: event/al-subki-shamiyya-745
+class: event
+kind: other
+label:
+  ar: "السبكي يدرّس بالشامية البرانية، ٢١ ذو الحجة ٧٤٥هـ"
+  en: "Al-Subki teaches at the Shamiyya al-Barraniyya, 21 Dhu al-Hijja 745"
+  ur: "سبکی کی مدرسہ شامیہ برانیہ میں تدریس، 21 ذو الحجہ 745ھ"
+summary:
+  ar: "في يوم الأحد ٢١ ذي الحجة ٧٤٥هـ درّس قاضي القضاة تقي الدين السبكي الشافعي بالمدرسة الشامية البرانية بدمشق عن الشيخ شمس الدين بن النقيب، وحضر عنده القضاة والأعيان والأمراء وجمع من الفضلاء {cite:al-bidaya-wal-nihaya s.a. 745 p. 226}."
+  en: "On Sunday 21 Dhu al-Hijja 745 chief qadi Taqi al-Din al-Subki gave his first lesson at the Shamiyya al-Barraniyya madrasa in Damascus in succession to Shams al-Din ibn al-Naqib, before an assembly of qadis, notables, amirs and scholars {cite:al-bidaya-wal-nihaya s.a. 745 p. 226}."
+  ur: "اتوار 21 ذو الحجہ 745ھ کو قاضی القضاة تقی الدین سبکی نے دمشق کے مدرسہ شامیہ برانیہ میں شمس الدین بن النقیب کے بعد پہلا درس دیا؛ قاضی، اعیان، امیر اور فضلا کی ایک بڑی مجلس موجود تھی {cite:al-bidaya-wal-nihaya s.a. 745 p. 226}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1345-04-30~", hijri: "0745-12-21", calendar: julian, precision: day, status: historical, derived: true, note: "يوم الأحد ٢١ ذو الحجة ٧٤٥هـ {cite:al-bidaya-wal-nihaya s.a. 745 p. 226}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/taqi-al-din-al-subki, role: "المدرّس", sources: [source/al-bidaya-wal-nihaya] }
+sources: [source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "al-Bidaya wa-l-Nihaya (Ibn Kathir), s.a. 745, printed p. 226 (harvest scan AAlexandrina-074483)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,28 @@
+id: event/ibn-rajab-damascus-744
+class: event
+kind: other
+label:
+  ar: "انتقال ابن رجب مع أبيه إلى دمشق، ٧٤٤هـ"
+  en: "Ibn Rajab moves to Damascus with his father, 744"
+  ur: "ابن رجب کا والد کے ساتھ دمشق آمد، 744ھ"
+summary:
+  ar: "رحل والد ابن رجب، الشيخ شهاب الدين أحمد بن رجب البغدادي، مع أولاده من بغداد إلى دمشق سنة أربع وأربعين وسبعمئة، وكان ابن رجب يومها في الثامنة من عمره؛ وقد سمع أبوه من مشايخ بغداد قبل الرحيل {cite:ibn-rajab-jami-ulum-hikam p. 8} {cite:encyclopaedia-of-islam-2 vol. 3 p. 933}."
+  en: "Ibn Rajab's father, the shaykh Shihab al-Din Ahmad ibn Rajab al-Baghdadi, moved with his children from Baghdad to Damascus in 744/1343, when Ibn Rajab was about eight years old; the father had already heard hadith from the masters of Baghdad before the move {cite:ibn-rajab-jami-ulum-hikam p. 8} {cite:encyclopaedia-of-islam-2 vol. 3 p. 933}."
+  ur: "ابن رجب کے والد شیخ شہاب الدین احمد بن رجب بغدادی اپنے بچوں سمیت بغداد سے دمشق منتقل ہوئے، جب ابن رجب کی عمر تقریباً آٹھ برس تھی؛ والد نے رحلت سے پہلے بغداد کے مشائخ سے سماعت کی تھی {cite:ibn-rajab-jami-ulum-hikam p. 8} {cite:encyclopaedia-of-islam-2 vol. 3 p. 933}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1343~", hijri: "0744", calendar: julian, precision: year, status: historical, derived: true, note: "سنة أربع وأربعين وسبعمئة {cite:ibn-rajab-jami-ulum-hikam p. 8}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: had_participant, target: person/ibn-rajab, role: "الصبي المرتحل مع أبيه", sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: had_participant, target: person/ahmad-ibn-rajab, role: "الوالد شهاب الدين أحمد بن رجب", sources: [source/ibn-rajab-jami-ulum-hikam] }
+sources: [source/ibn-rajab-jami-ulum-hikam, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), editor's introduction p. 8; EI2 vol. 3 p. 933"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-rajab-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

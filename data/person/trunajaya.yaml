@@ -1,0 +1,68 @@
+id: person/trunajaya
+class: person
+
+label: { ar: "تروناجايا", en: "Trunajaya", ur: "تروناجایا" }
+
+names:
+  - { value: "Raden Trunajaya", kind: full }
+  - { value: "Panembahan Maduretna Panatagama", kind: regnal }
+  - { value: "Panembahan Maduretno", kind: alternate }
+  - { value: "Trunojoyo", kind: alternate }
+  - { value: "Tronajaya", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "تروناجايا (1649 – 2 كانون الثاني 1680)، ويُكتب أيضًا ترونوجويو، أمير وأمير حرب من أروسبايا في مادورا، قاد تمرّد تروناجايا (1674–1681) ضد سلطنة ماتارام. قُتل والده بأمر أمانغكورات الأول سنة 1656، فغادر بلاط بليريد إلى كاجوران وتزوّج ابنة بانيمباهان راما، وثار سنة 1674 بدعم مقاتلي ماكاسار، وأخذ بلاط بليريد في منتصف 1677، ثم هزمته قوات الشركة الهولندية في كيديري في تشرين الثاني 1678، وأُسر سنة 1679، وقتله أمانغكورات الثاني بيده في باياك في 2 كانون الثاني 1680."
+  en: "Trunajaya (1649 – 2 January 1680), also spelled Trunojoyo, was a prince and warlord from Arosbaya, Madura, who led the Trunajaya rebellion (1674–1681) against the Mataram Sultanate. His father was killed on Amangkurat I's orders in 1656; he left the Plered court for Kajoran, married Panembahan Rama's daughter, rose in 1674 with Makassarese support, took the court at Plered in mid-1677, was defeated by VOC forces at Kediri in November 1678, captured in 1679, and killed by Amangkurat II's own hand at Payak on 2 January 1680."
+  ur: "تروناجایا (1649ء – 2 جنوری 1680ء)، جسے ترونوجویو بھی لکھا جاتا ہے، مادورا کے آروسبایا سے تعلق رکھنے والے شہزادے اور جنگجو سردار تھے جنہوں نے ماتارام سلطنت کے خلاف تروناجایا بغاوت (1674ء–1681ء) کی قیادت کی۔ ان کے والد 1656ء میں امانگکورات اول کے حکم پر قتل ہوئے؛ وہ پلیرید دربار چھوڑ کر کاجوران گئے، پانیمباہان راما کی بیٹی سے شادی کی، 1674ء میں مکاساری حمایت سے اٹھے، وسط 1677ء میں پلیرید لیا، نومبر 1678ء میں کیدیری میں ولندیزی کمپنی سے شکست کھائی، 1679ء میں گرفتار ہوئے اور 2 جنوری 1680ء کو پایاک میں امانگکورات دوم کے ہاتھ سے قتل ہوئے۔"
+
+roles: [general]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1649"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born at Arosbaya, Bangkalan, Madura. The English and Arabic articles and the Wikidata item give 1649; the Indonesian article's lead gives 1649 while its early-life section says about 1649, so the year is built as debated. The year 1649 spans 1058-1059 AH, so no single Hijri year is built. No place entity for Arosbaya exists on main, so no born_in edge is written."
+  sources: [source/wikipedia-trunajaya-en, source/wikipedia-trunajaya-id, source/wikipedia-trunajaya-ar, source/wikidata-trunajaya]
+
+died:
+  edtf: "1680-01-02"
+  calendar: gregorian
+  precision: day
+  status: historical
+  hijri: "1090"
+  note: "Killed at Payak, Bantul — the English and Arabic articles say he was executed there on Amangkurat II's orders, the Indonesian article that Amangkurat II stabbed him with a keris during a ceremonial visit; all three articles and the Wikidata item give 2 January 1680, which falls in 1090 AH (conversion derived). No place entity for Payak exists on main, so no died_in edge is written."
+  sources: [source/wikipedia-trunajaya-en, source/wikipedia-trunajaya-id, source/wikipedia-trunajaya-ar, source/wikidata-trunajaya]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a religion, a school or an order for the man
+      himself. The Indonesian article records that he proclaimed
+      himself Panembahan Maduretna Panatagama, a royal style carrying a
+      religion-ordering title, and the rebellion's modern literature is
+      shelved under Islamic States in Java; a royal style, dynastic
+      context and the court Islam of Mataram settle no school under
+      the founder's rules, so his faith is recorded as unknown with
+      the attestation stated.
+    sources: [source/wikipedia-trunajaya-en, source/wikipedia-trunajaya-id, source/wikipedia-trunajaya-ar]
+
+external_ids: { wikidata: "Q12522411" }
+
+sources:
+  - source/wikipedia-trunajaya-en
+  - source/wikipedia-trunajaya-id
+  - source/wikipedia-trunajaya-ar
+  - source/wikidata-trunajaya
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Trunajaya' (revision 1330756016 of 2 January 2026), Indonesian Wikipedia 'Raden Trunajaya' (revision 29936889 of 22 September 2026), Arabic Wikipedia 'تروناجايا' (revision 76069498 of 2 August 2026) and Wikidata Q12522411 (item revision 2461908591 of 9 February 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Indonesian and Arabic articles agreeing. Existence checked against origin/main before building, by slug variants (trunajaya, trunojoyo, tronajaya) and by QID — no record holds this man. Queue/spelling correction: the queue spells him Trunojoyo; the articles' primary spelling is Trunajaya (Trunojoyo is the English article's redirect, the Indonesian article's alternate spelling, and the form in the modern Trunojoyo Airport and Trunojoyo University names), so the slug is trunajaya with Trunojoyo preserved as an alternate name. No relations are written: his father (killed 1656, unnamed in the articles), his uncle Cakraningrat II and his father-in-law Panembahan Rama have no records on origin/main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-178m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

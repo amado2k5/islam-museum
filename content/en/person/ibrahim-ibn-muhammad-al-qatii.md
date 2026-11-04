@@ -2,8 +2,7 @@
 id: person/ibrahim-ibn-muhammad-al-qatii
 lang: en
 source_lang: ar
-translators:
-  - ai:swe-2
+translators: ["Devin (SWE-2 Medium), batch 23"]
 ---
-## Summary
-Abu'l-Qasim al-Qati'i, Ibrahim ibn Muhammad; he lived at Qati'a 'Isa ibn 'Ali and transmitted from many; the qadi al-Mahamili, Abu'l-Husayn ibn al-Munadi, al-Khatibi and others narrated from him; al-Daraqutni called him reliable and truthful; he died in Jumada II 301 — well-versed in hadith, reliable and alert; his home was on the west side. {cite:muntazam-ibn-al-jawzi p. 208}
+## Overview
+Ibrahim ibn Muhammad al-Qati'i, who died in Jumada II 301 AH; sound in his knowledge of hadith, trustworthy and alert, his home on the western side in the qati'a of Isa; people wrote from him — per the Muntazam. {cite:muntazam-ibn-al-jawzi v. 13 p. 144}

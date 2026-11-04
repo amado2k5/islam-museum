@@ -49,9 +49,6 @@ a11y:
   prefs_links: تمام روابط کے نیچے لکیر
   prefs_note: 'صرف اسی آلہ پر محفوظ ہے؛ کہیں کچھ نہیں بھیجا جاتا۔'
 landing:
-  fatwa_title: "فتاوے"
-  fatwa_lede: "ازہر کے علماء کے فتاوے جو عوامی بدعات کے خلاف ہیں، فتاوائمۃ المسلمین سے، ہر فتوے اور اس کے صفحے کے ساتھ۔"
-  fatwa_cta: "فتاوے پڑھیں"
   shop_title: islam.museum تحفوں کی دکان
   shop_cta: دکان دیکھیں
   shop_prev: پچھلا
@@ -269,6 +266,7 @@ class:
   dataset: ڈیٹاسیٹ
   listing: فہرست
   screen: اسکریننگ روم
+  job: "پیشہ"
 search:
   title: تلاش
   placeholder: عجائب گھر میں تلاش کریں
@@ -340,6 +338,10 @@ graph:
   note: جھرمٹ دو مرحلوں اور تقریباً چالیس اندراجات تک محدود ہے؛ اس کے ساتھ کی فہرست یہی تعلقات الفاظ میں بتاتی ہے۔
   explore_link: تعلقات دریافت کریں
   cross: پڑوسیوں کے درمیان روابط دکھائیں
+  filter: 'صرف یہ دکھائیں'
+  filter_hint: 'کسی قسم پر کلک کریں تو صرف وہی دکھے گی؛ مزید اقسام پر کلک کر کے انہیں شامل کریں۔'
+  all: 'سب دکھائیں'
+  empty: 'اس اندراج کے گرد منتخب قسم کا کوئی تعلق نہیں۔'
 revelation:
   title: وحی اور تاریخ
   lede: قرآن کو اُس ترتیب سے پڑھیں جس میں وہ نازل ہوا، واقعات کے ساتھ ساتھ۔ ہر قطار ایک سورت ہے، اپنی ترتیبِ نزول میں، اور وہ عجائب گھر کے واقعات جنہیں روایت اس سے
@@ -1084,7 +1086,7 @@ why:
   before_doha: "Doha — the Museum of Islamic Art, opened in 2008 on its own island in the harbour, was designed by I. M. Pei and is led by Qatar Museums under Sheikha Al Mayassa bint Hamad Al Thani; its galleries hold masterpieces from three continents."
   before_aga_khan: "Toronto — the Aga Khan Museum, opened in 2014 and founded by the Aga Khan IV in a building designed by Fumihiko Maki, presents the arts and cultures of Muslim civilisations to North American audiences."
   before_discover: "Online — Discover Islamic Art, built by Museum With No Frontiers under its founder Eva Schubert and launched in 2005 with European Union Euromed Heritage funding of about €3.1 million, is the closest digital predecessor: some 150 experts in 14 countries catalogued 850 artefacts and 385 monuments. It covers the art and material culture of the Mediterranean, and its story ends in 1922."
-  before_libraries: "And the texts live elsewhere again: libraries such as al-Maktaba al-Shamela gather the books; platforms such as Google Arts & Culture host exhibitions lent by many museums; Wikipedia and Wikidata hold an uncurated raw layer of facts that anyone may read but no one has shaped into a museum."
+  before_libraries: "And the texts live elsewhere again: libraries such as al-Maktaba al-Shamela gather the books; platforms such as Google Arts & Culture host exhibitions lent by many museums."
   before_close: "None of this is a criticism. A museum of objects must choose its objects; an encyclopaedia must choose its readers; an exhibition must choose its theme. But it left a shape of work undone: the whole story, for everyone, in the open."
   before_links: "Visit them:"
   link_doha: "Museum of Islamic Art, Doha"
@@ -1117,6 +1119,14 @@ why:
   about_body: "What makes islam.museum different from the great museums and references that came before it — and where it is going next — is told on its own page."
   about_link: "Why islam.museum?"
 
+network:
+  title: اسلام میوزیم نیٹ ورک
+  lede: 'شراکت دار اور ساتھی — وہ اہلِ علم، ادارے اور برادریاں جو عجائب گھر سے مکالمے میں ہیں۔'
+  intro: 'عجائب گھر تبادلے سے پروان چڑھتا ہے: اہلِ علم، کتب خانے، اساتذہ اور قارئین جو اس کے صفحات کو پرکھتے، درست کرتے، آگے پہنچاتے اور اس کے کھلے ڈیٹا پر تعمیر کرتے ہیں۔ اس صفحے پر ان شراکت داروں اور ساتھیوں کی فہرست ہے جو اس تبادلے میں شامل ہوئے — ہمارے شکریے کے ساتھ۔'
+  e1_name: 'شریعت کا ارتقا — عبد اللہ احمد النعیم'
+  e1_desc: 'ایموری یونیورسٹی کے پروفیسر عبد اللہ احمد النعیم کی ویب سائٹ، جو شریعت کے مستقبل اور مسلم معاشروں کی داخلی گفتگو کے ذریعے اسلامی اصلاح کے لیے وقف ہے۔ ہم پروفیسر النعیم کے شکر گزار ہیں کہ انہوں نے عجائب گھر پر اپنی قیمتی آراء دیں اور اسلام میوزیم کو دنیا بھر میں اپنے سامعین اور ساتھیوں تک پہنچایا۔'
+  visit: 'ویب سائٹ دیکھیں'
+  closing: 'اس تبادلے میں شامل ہونے کے لیے — آراء، تصحیحات، اشتراک یا کھلے ڈیٹا کے استعمال کے لیے — discover@islam.museum پر لکھیں۔'
 support:
   title: اسلام میوزیم کی مدد کریں
   lede: یہ عجائب گھر مفت اور کھلا ہے، اس میں کوئی اشتہار نہیں اور کوئی ٹریکنگ نہیں۔ اگر یہ آپ کے لیے مفید ہے تو آپ کی مدد اسے ایسا ہی رکھتی ہے اور اسے تیزی سے آگے
@@ -1206,10 +1216,17 @@ explore:
     khutab:
       title: "خطبات اور دروس ایکسپلورر"
       desc: "خطبہ کی کتابوں سے تاریخی خطبے اور ریکارڈ شدہ دروس کے سلسلے، ہر ایک اپنے متن اور ماخذ سے منسلک۔"
+    fatwa:
+      title: "فتاویٰ ایکسپلورر"
+      desc: "فتاویٰ کی کتابوں اور سرکاری و معروف فتویٰ ویب سائٹس سے فتاویٰ، ماخذ کے لحاظ سے مرتب، ہر ایک کا خلاصہ میوزیم کے الفاظ میں اور اصل صفحے سے منسلک۔"
     poetry:
       title: "دیوانِ شعر"
       desc: "میوزیم میں دستاویزی قصائد شعراء کے تحت ترتیب سے، ہر قصیدہ اپنے سیاق و موقع کے ساتھ۔"
       menu: "شعراء کے تحت اشعار پڑھیں"
+    jobs:
+      title: "پیشوں کا براؤزر"
+      desc: "اسلامی تاریخ کے پیشے، قاضی اور کاتب سے دستکاروں تک، ہر پیشے کے ساتھ وہ لوگ جو اسے اختیار کرتے تھے اور وہ جگہیں جہاں یہ کام ہوتا تھا۔"
+      menu: "تاریخ کے پیشے اور دستکاریاں دیکھیں"
     timemachine:
       title: ٹائم مشین
       menu: کسی بھی تاریخ کا سفر، دونوں تقویموں میں
@@ -1490,6 +1507,16 @@ poetry:
   index_note: میوزیم میں اب تک موجود قصیدے، جہاں ڈیٹا تصدیق کرتا ہے وہاں ان کے مصنفین سے منسوب؛ جو ڈیٹا ثابت نہ کرے وہ الگ دکھایا گیا ہے
   died: وفات
   unattributed: ڈیٹا میں ابھی تک منسوب نہ کیے گئے قصائد
+  verses_title: "اشعار"
+  verses_note: "{p} قصائد کے {n} اشعار، ہر شعر کے ساتھ میوزیم کا اپنا ترجمہ اور اس کے ایڈیشن کا صفحہ۔"
+  verses_jump: "وہ قصائد جن کے اشعار موجود ہیں"
+  verses_by_poet: "شاعر کے لحاظ سے اشعار"
+  verses_by_metre: "بحر کے لحاظ سے اشعار"
+  verses_by_rhyme: "حرفِ روی کے لحاظ سے اشعار"
+  verse_ref: "شعر"
+  metre: "بحر"
+  rhyme: "حرفِ روی"
+  verse_page: "شعر کا صفحہ"
 hadith:
   title: حدیث کتب خانہ
   lede: 'میوزیم میں حدیث کے مجموعے: ہر تصنیف کو کتابوں اور متون کے ذریعے دیکھیں، اور ہر متن سے اس کی سند اور حوالے کے کارڈ تک جائیں'
@@ -1611,6 +1638,7 @@ tour:
   near_door_touch: 'دروازے سے گزرنے کے لیے اس کی طرف چلیں'
   help_map: 'نقشہ اور فرش کے ستارے: M دبائیں یا نقشے کا بٹن، یا فرش پر سنہری ستارے پر کلک کریں، تاکہ کسی دروازے یا نمائش تک پہنچ جائیں'
   look_day: 'دن کی روشنی'
+  look_hint: 'دن اور شام کی روشنی کے درمیان تبدیلی'
   help_light: 'روشنی: دن اور شام کے درمیان بدلنے کے لیے L دبائیں یا «دن کی روشنی» کا بٹن؛ «ہلکی گرافکس» سست آلات پر سائے اور اثرات بند کر دیتا ہے'
   lite_label: 'ہلکی گرافکس (سست آلات کے لیے)'
   lite_offer: 'اس آلے پر ٹور سست لگ رہا ہے۔'
@@ -2408,6 +2436,15 @@ world:
     - l: "او آئی سی — رکن ممالک"
       u: "https://www.oic-oci.org/"
 
+fatwa:
+  title: "فتاویٰ ایکسپلورر"
+  lede: "فتاویٰ کی کتابوں اور سرکاری و معروف فتویٰ ویب سائٹس سے فتاویٰ، ماخذ کے لحاظ سے مرتب۔ میوزیم ان فتاویٰ کو تاریخ کے طور پر ان کے جاری کرنے والوں سے منسوب کر کے درج کرتا ہے؛ وہ نہ کوئی حکم جاری کرتا ہے نہ کسی کو فتویٰ دیتا ہے۔"
+  note: "خلاصے میوزیم کے الفاظ میں ہیں؛ مکمل متن اور فتویٰ دینے والا اصل صفحے پر ہے۔"
+  by_source: "ماخذ کے لحاظ سے"
+  original: "اصل صفحہ"
+  empty: "ابھی کوئی فتویٰ نہیں۔"
+  count: "{n} فتاویٰ"
+
 khutab:
   title: "خطبات اور دروس ایکسپلورر"
   lede: "خطبہ کی کتابوں سے تاریخی خطبے اور ریکارڈ شدہ دروس کے سلسلے، ہر ایک اپنے متن اور ماخذ سے منسلک۔"
@@ -2415,3 +2452,75 @@ khutab:
   series: "ریکارڈ شدہ دروس کے سلسلے"
   empty: "ابھی کوئی اندراج نہیں۔"
   count: "{n} اندراج"
+jobs:
+  title: "پیشوں کا براؤزر"
+  lede: "اسلامی تاریخ میں لوگ روزی کے لیے کیا کام کرتے تھے، قاضی اور کاتب سے لے کر طبیب، معمار اور بُنکر تک: ہر پیشے کے ساتھ وہ لوگ جو اس پر فائز رہے، اور وہ جگہیں جہاں یہ کام ہوتا تھا۔"
+  badge: "زیرِ تیاری"
+  status: "یہ براؤزر تحقیق کے ساتھ ساتھ بڑھتا ہے۔ اس بلڈ میں پیشوں کے ریکارڈ: {jobs}، جن میں سے {articles} کا مضمون ہے۔ جن لوگوں کا پیشہ درج ہے: {holders}۔ اعداد آخری بلڈ کے مطابق ہیں۔"
+  domains_title: "شعبے کے لحاظ سے دیکھیں"
+  domains_note: "ہر پیشہ ایک ہی شعبے میں آتا ہے۔ ہر کارڈ میں اس شعبے کے پیشوں کے ریکارڈ اور ان میں درج لوگ دکھائے گئے ہیں۔"
+  crafts_title: "دستکاریوں کی الماری"
+  crafts_note: "دستکاریاں بھی دوسرے پیشوں کی طرح پیشے ہیں۔ یہ الماری ان ہاتھ کے ہنروں کی فہرست ہے جن کے ریکارڈ میوزیم کے پاس ہیں، اور یہ ماخذوں اور میوزیم کی اشیا کے ساتھ بڑھتی ہے۔"
+  crafts_empty: "ابھی دستکاری کے ریکارڈ نہیں ہیں۔"
+  az_title: "الف سے ی تک"
+  az_note: "تمام پیشوں کے ریکارڈ اس زبان میں ان کے نام کی ترتیب سے۔"
+  filter_label: "نام سے تلاش کریں"
+  filter_none: "اس تلاش سے کوئی پیشہ نہیں ملا۔"
+  az_empty: "ابھی پیشوں کے ریکارڈ نہیں ہیں۔"
+  count_jobs: "پیشوں کے ریکارڈ: {n}"
+  count_holders: "درج لوگ: {n}"
+  no_domain_jobs: "اس شعبے میں ابھی پیشوں کے ریکارڈ نہیں ہیں۔"
+  holders_title: "یہ پیشہ کس نے اختیار کیا"
+  holders_none: "اس پیشے میں ابھی کسی شخص کا اندراج نہیں ہوا۔"
+  holders_undated: "بغیر تاریخ کے"
+  holders_more: "ایک سے زیادہ بار یہ منصب سنبھالا"
+  craft_title: "دستکاری"
+  craft_materials: "مواد"
+  craft_techniques: "طریقے"
+  craft_guild: "طائفہ"
+  craft_grades: "درجات"
+  craft_initiation: "ابتدائی رسم"
+  craft_pir: "طائفے کا سرپرست (اس کی روایت)"
+  craft_marks: "نشانات"
+  craft_heritage: "زندہ ورثہ"
+  craft_unesco: "یونیسکو کی فہرست میں شامل"
+  craft_practice: "بطور عملی روایت دستکاری"
+  bodies_title: "اس کی تنظیمیں"
+  workplaces_title: "جہاں یہ کام ہوتا تھا"
+  related_title: "متعلقہ پیشے"
+  broader_label: "وسیع تر پیشہ"
+  narrower_label: "خاص پیشے"
+  successors_label: "بعد کے پیشے"
+  references_title: "حوالہ جات"
+  not_yet_title: "ابھی تحریر نہیں ہوا"
+  materials:
+    ink: "سیاہی"
+    paper: "کاغذ"
+    copper: "تانبا"
+    brass: "پیتل"
+    silver: "چاندی"
+    gold: "سونا"
+    glass: "شیشہ"
+    ceramic: "مٹی کے برتن"
+    stone: "پتھر"
+    marble: "سنگ مرمر"
+    brick: "اینٹ"
+    wood: "لکڑی"
+    ivory: "ہاتھی دانت"
+    textile: "کپڑا"
+    wool: "اون"
+    silk: "ریشم"
+    cotton: "کپاس"
+    leather: "چمڑا"
+    parchment: "چرمی ورق"
+    bronze: "کانسی"
+career:
+  heading: "پیشہ ورانہ سفر"
+  no_dates: "ان عہدوں کی تاریخیں درج نہیں، اس لیے یہ نیچے الفاظ میں دیے گئے ہیں۔"
+  primary: "اصل پیشہ"
+  secondary: "ایک اور پیشہ"
+  episodic: "عارضی منصب"
+  honorary: "اعزازی"
+  debated: "اختلافی"
+  tradition: "روایت کے مطابق"
+  undated: "بغیر تاریخ"

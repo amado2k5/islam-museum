@@ -42,3 +42,9 @@ provenance:
   source: "He is the teacher named at §2 row 287 of the handoff ('Ustadh Muhammad Tim Humble' / 'Tim Humble'); the honorific in the row's styling is not carried into the record. Existence checks first, all on 26 October 2026: name-fragment searches over data/person/ and data/source/ (humble) returned no record of him; the English Wikipedia API reports no article for him (missing title), and a Wikidata entity search returns no item, so no external_ids are recorded. Identification rests on two independent sources consulted 26 October 2026: the Muslim Central biography carried by Listen Notes (from Newcastle; accepted Islam at fourteen; Faculty of Hadith, Islamic University of Madinah, class of 2011; ijaza in the six books; IDC North East; founder of the Humble Foundation) — the same text is mirrored by other podcast directories and counts as one source family — and Muslim Ink's interview with him on his ruqyah practice, an independent editorial source in his own words, which names his website muhammadtim.com. His lectures are published on a YouTube channel under his name, the row's channel; no channel URL was independently verified in this run, so no YouTube source file is registered. No trusted source gives a birth date, so no born block is recorded. His faith is recorded unknown: see the faith note."
   generated_by: "Muse (Muse Spark 1.3)"
   run: "modern-figures-batch-52"
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/listennotes-tim-humble, source/muslimink-tim-humble]

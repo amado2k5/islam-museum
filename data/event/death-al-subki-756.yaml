@@ -1,0 +1,27 @@
+id: event/death-al-subki-756
+class: event
+kind: other
+label:
+  ar: "وفاة تقي الدين السبكي بمصر، جمادى الآخرة ٧٥٦هـ/يونيو ١٣٥٥م"
+  en: "Death of Taqi al-Din al-Subki in Egypt, Jumada II 756/June 1355"
+  ur: "تقی الدین سبکی کی وفات مصر میں، جمادی الثانی 756ھ/جون 1355ء"
+summary:
+  ar: "توفي قاضي القضاة تقي الدين السبكي بمصر ليلة الاثنين من جمادى الآخرة ٧٥٦هـ، ودُفن من صبيحة ذلك اليوم، وقد أكمل ثلاثاً وتسعين سنة ودخل في الرابعة أشهراً، بعد أن ولّي الحكم بدمشق نحو سبع عشرة سنة ثم نزل عنه لولده تاج الدين؛ ولمّا وصل مصر أقام دون الشهر ثم توفي، وصُلي عليه بالجامع الأموي بدمشق يوم الجمعة ٦ جمادى الآخرة {cite:al-bidaya-wal-nihaya s.a. 756 pp. 263-264}؛ وكان صاحب نحو مائة وخمسين مصنفاً في الفقه والفتاوى والمسائل والشعر {cite:encyclopaedia-of-islam-2 vol. 9 pp. 744-745}."
+  en: "Chief qadi Taqi al-Din al-Subki died in Egypt on the night of Monday in Jumada II 756/June 1355 and was buried that same morning. He had completed ninety-three years and entered his ninety-fourth, having held the bench at Damascus for about seventeen years before ceding it to his son Taj al-Din; on reaching Egypt he survived less than a month. A funeral prayer was held for him at the Umayyad Mosque in Damascus on Friday 6 Jumada II {cite:al-bidaya-wal-nihaya s.a. 756 pp. 263-264}. He authored some hundred and fifty works in law, fatwas, responsa and poetry {cite:encyclopaedia-of-islam-2 vol. 9 pp. 744-745}."
+  ur: "قاضی القضاة تقی الدین سبکی جمادی الثانی 756ھ/جون 1355ء میں پیر کی رات مصر میں وفات پا گئے اور اسی دن کی صبح دفن ہوئے۔ انہوں نے ترانوے برس مکمل کیے اور چورانوے میں داخل ہوئے؛ دمشق میں تقریباً سترہ برس قاضی رہے پھر بیٹے تاج الدین کو منصب سونپا؛ مصر پہنچ کر ایک ماہ سے کم زندہ رہے۔ دمشق کے جامع اموی میں جمعہ 6 جمادی الثانی کو ان کی غائبانہ نمازِ جنازہ پڑھی گئی {cite:al-bidaya-wal-nihaya s.a. 756 pp. 263-264}۔ انہوں نے فقہ، فتاویٰ، مسائل اور شاعری پر تقریباً ڈیڑھ سو تصانیف لکھیں {cite:encyclopaedia-of-islam-2 vol. 9 pp. 744-745}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1355-06-16~", hijri: "0756-06-03", calendar: julian, precision: day, status: historical, derived: true, note: "توفي ثالث جمادى الآخرة ٧٥٦هـ ودُفن بسعيد السعداء بالقاهرة {cite:durar-kamina-jil-1993 3/70}؛ وصُلي عليه بدمشق الجمعة ٦ جمادى الآخرة {cite:al-bidaya-wal-nihaya s.a. 756 pp. 263-264}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/al-bidaya-wal-nihaya, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/taqi-al-din-al-subki, role: "المتوفَّى", sources: [source/al-bidaya-wal-nihaya, source/encyclopaedia-of-islam-2] }
+sources: [source/al-bidaya-wal-nihaya, source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "al-Bidaya wa-l-Nihaya s.a. 756 pp. 263-264; Durar al-Kamina 3/63 (died in Cairo); EI2 vol. 9 pp. 744-745 (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

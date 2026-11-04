@@ -1,17 +1,20 @@
 id: work/tabaqat-al-shafiiyya-al-kubra
 class: work
 kind: book
-label: { ar: "طبقات الشافعية الكبرى", en: "Tabaqat al-Shafi'iyya al-Kubra" }
+label: { ar: "طبقات الشافعية الكبرى", en: "Tabaqat al-Shafi'iyya al-Kubra", ur: "طبقات الشافعیہ الکبریٰ" }
 summary:
-  ar: "بطاقة أولية لطبقات الشافعية الكبرى للسبكي؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for al-Subki's Tabaqat al-Shafi'iyya al-Kubra; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "معجم تاج الدين السبكي الأكبر في تراجم علماء الشافعية، وهو أكبر ثلاث نسخ من «الطبقات» — الكبرى والوسطى والصغرى — جمع فيه التاريخ والأدب والفقه والحديث على غرار «تبيين كذب المفتري» لابن عساكر مع أُسس أوسع {cite:durar-kamina-jil-1993 2/425} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
+  en: "Taj al-Din al-Subki's great biographical dictionary of Shafi'i scholars, the largest of his three Tabaqat versions (kubra, wusta, sughra), combining history, adab, law and tradition on the model of Ibn 'Asakir's Tabyin kadhib al-muftari but on broader foundations {cite:durar-kamina-jil-1993 2/425} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
+  ur: "تاج الدین سبکی کا شافعی علماء کا بڑا معجم تراجم، جو ان کی تین «طبقات» اصناف (کبریٰ، وسطیٰ، صغریٰ) میں سب سے بڑی ہے؛ اس میں ابن عساکر کے «تبیین کذب المفتری» کے نمونے پر مگر وسیع تر بنیادوں پر تاریخ، ادب، فقہ اور حدیث جمع ہیں {cite:durar-kamina-jil-1993 2/425} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}۔"
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/al-aalam]
 external_ids: { wikidata: "Q6810913" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Ibn Hajar, al-Durar al-Kamina, vol. 2 printed p. 425; Encyclopaedia of Islam 2nd ed. vol. 9, printed p. 745 (al-Subki A no. 9)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-taj-al-din-subki-1, wikidata-import-wave2
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

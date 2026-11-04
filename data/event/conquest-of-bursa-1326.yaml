@@ -1,23 +1,27 @@
 id: event/conquest-of-bursa-1326
 class: event
-kind: siege
+kind: conquest
 label: { ar: "فتح بورصة", en: "Conquest of Bursa" }
 summary:
-  ar: "بطاقة أولية لحصار وفتح بورصة من ١٣١٧ إلى ١٣٢٦م، أول عاصمة كبرى للدولة العثمانية الناشئة في عهد أورخان؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the siege and conquest of Bursa from 1317 to 1326, the first great capital of the rising Ottoman state under Orhan; its sources are not yet checked on the page."
+  ar: "حاصر العثمانيون بورصة حصاراً طويلاً عدة سنوات — ويذكر الصلابي أن عثمان فتحها سنة ٧١٧هـ/١٣١٧م بعد صراع شديد مع قائد حاميتها {cite:dawlat-uthmaniyya-salabi p. 47} — حتى استسلمت المدينة الجائعة في ٢ جمادى الأولى ٧٢٦هـ/٦ أبريل ١٣٢٦م ودفعت جزية ثقيلة، وخرج قائدها البيزنطي إلى القسطنطينية بينما بقي مستشاره الأعظم المسؤول عن الاستسلام مع العثمانيين {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}. وصارت بورصة العاصمة الرئيسة للدولة العثمانية من ٧٢٦هـ/١٣٢٦م إلى ٨٠٥هـ/١٤٠٢م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397}."
+  en: "The Ottomans blockaded Bursa for many years — al-Salabi has Osman taking it in 717/1317 after a hard struggle with its commander {cite:dawlat-uthmaniyya-salabi p. 47} — until the starved city surrendered on 2 Jumada I 726/6 April 1326 and paid a heavy tribute; the Byzantine commander was allowed to leave for Constantinople while his chief adviser, responsible for the surrender, stayed with the Ottomans {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}. Bursa then served as the main capital of the Ottoman state from 726/1326 to 805/1402 {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397}."
+  ur: "عثمانیوں نے بورصہ کا کئی برس محاصرہ کیا — صلابی کے مطابق عثمان نے 717ھ/1317ء میں اس کے سردار سے سخت جدوجہد کے بعد اسے فتح کیا {cite:dawlat-uthmaniyya-salabi p. 47} — یہاں تک کہ بھوکہ شہر 2 جمادی الاولی 726ھ/6 اپریل 1326ء کو ہار مان گیا اور بھاری جزیہ ادا کیا؛ بازنطینی سردار کو قسطنطنیہ جانے دیا گیا جبکہ ہتھیار ڈالنے کا ذمہ دار اس کا اعلیٰ مشیر عثمانیوں کے پاس رہا {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}۔ پھر بورصہ 726ھ/1326ء سے 805ھ/1402ء تک سلطنت عثمانیہ کا مرکزی دارالحکومت رہا {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397}۔"
 wings: [time]
 periods: [period/mongol-post-mongol]
 regions: [anatolia-balkans]
 date:
-  start: { edtf: "1317", precision: year, status: tradition, derived: true }
-  end: { edtf: "1326", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+  start: { edtf: "1317", hijri: "0717", calendar: julian, precision: year, status: tradition, derived: true, note: "فتح بورصة عام ٧١٧هـ/١٣١٧م بعد حصار دام سنوات {cite:dawlat-uthmaniyya-salabi p. 47}." }
+  end: { edtf: "1326-04-06", hijri: "0726-05-02", calendar: julian, precision: day, status: tradition, derived: true, note: "استسلمت المدينة في ٢ جمادى الأولى ٧٢٦هـ/٦ أبريل ١٣٢٦م؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}." }
+relations:
+  - { type: occurred_at, target: place/bursa, sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/uthman-i-uthmani, role: "المُفتَتِح في رواية الصلابي", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q1099263
 provenance:
   layer: own-research
-  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "الدولة العثمانية للصلابي ص 47؛ Encyclopaedia of Islam 2, vol. 1 BURSA, PDF pp. 1397-1398 (harvest OCR); Wikidata Q1099263"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -2,15 +2,16 @@
 id: person/abu-dawud-al-sijistani
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 ## Overview
-Abu Dawud Sulayman ibn al-Ash'ath al-Sijistani, the hadith scholar of Sistan, author of the [[work/sunan-abi-dawud|Sunan of Abu Dawud]], one of the Six Books. He was born around 202 AH and died around 275 AH (the conversion is derived). {cite:sunan-abi-dawud}
+Abu Dawud Sulayman ibn al-Ash'ath al-Azdi al-Sijistani, the hadith scholar of Sijistan, author of the [[work/sunan-abi-dawud|Sunan of Abu Dawud]], one of the six books. He was born in the year two hundred and two {cite:tarikh-islam-dhahabi p. 358} and died on the sixteenth of Shawwal in the year two hundred and seventy-five {cite:tarikh-islam-dhahabi p. 362}, February 889 {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}.
 
-## His travels and his book
-He travelled in search of hadith until he reached Basra, Baghdad, Khurasan, Syria and Egypt. In his book he restricted himself to the hadiths of rulings, arranged by the chapters of jurisprudence. {cite:sunan-abi-dawud}
+## His journey in quest of hadith
+He prayed over 'Affan at Baghdad in 220, entered Basra just after the death of 'Uthman ibn al-Haytham the mu'adhdhin in Rajab of that year, and heard al-Qa'nabi and Sulayman ibn Harb at Mecca in the pilgrimage days {cite:tarikh-islam-dhahabi p. 358}. He entered Kufa in 221 and Damascus in 222 {cite:tarikh-islam-dhahabi pp. 358, 362}, hearing a great many teachers in the Hijaz, Egypt, al-Sham, the frontier and Khurasan, in the Jazira, at Aleppo, Harran and Homs {cite:tarikh-islam-dhahabi p. 359}, and Qutayba and Ibn Rahwayh in Khurasan {cite:tarikh-islam-dhahabi p. 359}. He read law with Ahmad ibn Hanbal, kept his company for a time and was among the elite of his pupils {cite:tarikh-islam-dhahabi p. 360}.
 
-What is not covered here: the pages of the source. A second source is needed for the dates of birth and death.
+## His book, the Sunan
+He said: I wrote down five hundred thousand traditions from the Messenger of God and selected from them what I placed in the Sunan — four thousand eight hundred traditions — naming the sound ones and those resembling or approaching them {cite:tarikh-islam-dhahabi p. 360}. It is said he presented it to the Imam Ahmad, who admired and approved it {cite:tarikh-islam-dhahabi p. 359}, and he was the first to attach detailed notes on their value to the traditions themselves {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}.
 
-## Encyclopaedia of Islam account
-The Encyclopaedia of Islam (2nd ed.) entry on al-Ash'ath (the printed heading for Abu Dawud al-Sijistani) gives his birth as 202/817 and his death in Shawwal 275/February 889. He travelled widely for his studies and settled at Basra, which the article says is why some wrongly derived the nisba Sijistani from a village near Basra. His Kitab al-Sunan is one of the six canonical books accepted by Sunnis, and it was submitted to Ahmad b. Hanbal, who approved it. Ibn Dasa reports Abu Dawud's claim to have collected 4,800 traditions out of 500,000. The article says he added notes on the weakness or soundness of his traditions, and that his detailed notes prepared the way for the criticism of al-Tirmidhi. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
+## Settling at Basra
+The amir Abu Ahmad al-Muwaffaq asked him to move to Basra to revive it with learning after the ordeal of the Zanj, to transmit the Sunan to his sons and to hold them a separate session; Abu Dawud accepted the first two and refused the third, saying: people are equal in knowledge {cite:tarikh-islam-dhahabi pp. 361-362}. He made Basra his home until his death {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}.

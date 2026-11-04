@@ -1,0 +1,27 @@
+id: event/birth-ibn-fadl-allah-umari-700
+class: event
+kind: birth
+label:
+  ar: "مولد ابن فضل الله العمري بدمشق، ٧٠٠هـ/١٣٠١م"
+  en: "Birth of Ibn Fadl Allah al-Umari at Damascus, 700/1301"
+  ur: "ابن فضل اللہ عمری کی پیدائش، دمشق، 700ھ/1301ء"
+summary:
+  ar: "وُلد شهاب الدين أبو العباس أحمد بن يحيى بن فضل الله العدوي العمري بدمشق في ثالث شوال سنة ٧٠٠هـ (١٢ يونيو ١٣٠١م)، لأسرة شافعية توارثت كتابة السر في ديوان الإنشاء المملوكي، ونسبها يرجع — فيما أملاه هو — إلى عمر بن الخطاب، ومنه نسبته «العمري» {cite:durar-kamina-jil-1993 1/331} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  en: "Shihab al-Din Abu al-Abbas Ahmad ibn Yahya ibn Fadl Allah al-Adawi al-Umari was born at Damascus on 3 Shawwal 700 (12 June 1301), into a Shafi'i family already established in the Mamluk chancery; the nasab he himself dictated traced the line back to Umar ibn al-Khattab — whence the nisba al-Umari {cite:durar-kamina-jil-1993 1/331} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  ur: "شہاب الدین ابو العباس احمد بن یحیی بن فضل اللہ عدوی عمری 3 شوال 700ھ (12 جون 1301ء) کو دمشق میں پیدا ہوئے؛ ایک شافعی خاندان میں جو مملوک دیوانِ انشا میں کاتبِ سر کا منصب نسل در نسل رکھتا تھا؛ خود انہوں کے املا کردہ نسب عمر بن خطاب تک جاتا ہے — اور اسی سے نسبت «عمری» ہے {cite:durar-kamina-jil-1993 1/331} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1301-06-12", hijri: "0700-10-03", calendar: julian, precision: day, status: historical, derived: true, note: "ولد في ثالث شوال سنة ٧٠٠هـ {cite:durar-kamina-jil-1993 1/331} = ١٢ يونيو ١٣٠١م {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "المولود", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الدرر الكامنة (ط دار الجيل 1993) 1/331-333 ترجمة 828؛ EI2 vol. 3 PDF pp. 790-791, art. Ibn Fadl Allah al-Umari (K. S. Salibi)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-umari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

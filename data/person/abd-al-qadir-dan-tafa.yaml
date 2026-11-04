@@ -1,27 +1,44 @@
 id: person/abd-al-qadir-dan-tafa
 class: person
-label:
-  ar: "عبد القادر دان طافا"
-  en: "Abd al-Qadir dan Tafa"
-roles: [scholar]
+label: { ar: "عبد القادر دان طافا", en: "Abd al-Qadir dan Tafa", ur: "عبدالقادر دان تافا" }
+names:
+  - { value: "عبد القادر بن المصطفى بن محمد الطردي", kind: full }
+  - { value: "Abd al-Qadir ibn al-Mustafa ibn Muhammad al-Turudi", kind: full }
+  - { value: "Dan Tafa", kind: alternate }
+  - { value: "Ibn al-Mustafa", kind: alternate }
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد القادر دان طافا، العالم السقطاوي ومؤرخ الدولة؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Qadir dan Tafa, the Sokoto scholar and state chronicler; his entry is not yet checked on the page."
+  ar: "مؤرخ وعالم وفيلسوف من خلافة صكتو (1804–1864)، ابن خديجة كبرى بنات عثمان دان فوديو، عُدّ أعلم أهل زمانه، وأدار المعهد التعليمي الذي أسسه أبوه في سلامي فقصده العلماء من تمبكتو وغيرها، وترك أكثر من اثنين وسبعين مصنفًا في التاريخ والفلسفة والفقه."
+  en: "Sokoto Caliphate historian, scholar and philosopher (1804–1864), son of Khadijah, the eldest daughter of Usman dan Fodio. Counted the most learned man of his generation, he ran the teaching institute his father had founded at Salame, which drew scholars from Timbuktu and beyond, and left more than seventy-two works on history, philosophy and law."
+  ur: "خلافت سکوٹو کے مؤرخ، عالم اور فلسفی (1804–1864)، جو عثمان دان فودیو کی سب سے بڑی بیٹی خدیجہ کے بیٹے تھے۔ انھیں اپنے زمانے کا سب سے بڑا عالم مانا جاتا تھا؛ انھوں نے سلامے میں اپنے والد کے قائم کردہ تعلیمی ادارے کو چلایا جہاں ٹمبکٹو اور دور دراز سے علما آتے تھے، اور تاریخ، فلسفہ اور فقہ پر بہتر سے زائد تصانیف چھوڑیں۔"
+roles: [scholar, historian, theologian, philosopher, poet, jurist]
 wings: [people]
-regions: [west-africa-sahel]
 periods: [period/colonial-era]
-born: { edtf: "1804", precision: year, status: tradition, derived: true }
-died: { edtf: "1863", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
-external_ids:
-  wikidata: Q120838075
+regions: [west-africa-sahel]
+born:
+  edtf: "1804"
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1804 at Fankaaji, a village in Gobir, just before the hijra that opened the Sokoto revolution, attested by the English, Arabic and Urdu articles and by Wikidata Q120838075. No Hijri year is recorded: 1804 spans 1218 and 1219 AH and no text read pairs his birth with one of them. No place entity exists for Fankaaji, so no born_in edge is written."
+  sources: [source/wikipedia-abd-al-qadir-dan-tafa-en, source/wikipedia-abd-al-qadir-dan-tafa-ar, source/wikipedia-abd-al-qadir-dan-tafa-ur, source/wikidata-abd-al-qadir-dan-tafa]
+died:
+  edtf: "1864"
+  precision: year
+  status: debated
+  derived: true
+  note: "His death year is genuinely unresolved inside the sources. The English, Arabic and Urdu articles all date him 1804 – 1863/4, and Wikidata gives 1863; but the English article also records that he completed the Mawsufat al-sudan in 1864 and that he died at Salame 'at the age of 60', which on an 1804 birth gives 1864. The record builds 1864 and preserves the 1863 reading here in full. No Hijri year is recorded: the two candidate years span 1279–1281 AH. He was buried beside his mother behind his father's school at Salame; no place entity exists for Salame, so no died_in edge is written."
+  sources: [source/wikipedia-abd-al-qadir-dan-tafa-en, source/wikipedia-abd-al-qadir-dan-tafa-ar, source/wikipedia-abd-al-qadir-dan-tafa-ur, source/wikidata-abd-al-qadir-dan-tafa]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a legal school or a Sufi order for the man himself. The full texts of the English, Arabic, Urdu and Hausa articles were searched: they attest his learning in fiqh, tafsir and history, that his uncle Muhammad Sanbu taught him Sufism, and that his mother Khadijah translated Khalil's Mukhtasar — the Maliki manual — into Fulfulde; Muhammad Shareef's Sankore biography of him (The Life of Shaykh Dan Tafa, read in full-text on 3 November 2026) speaks of Maliki law and Qadiriyya adherence for the Torodbe tradition and his forebears, not for him personally. The Sokoto scholarly tradition he inherited was Maliki in law and Qadiri in devotion, as his grandfather Usman dan Fodio's record attests for the grandfather himself; descent, family and milieu never settle a value under the two-source rule — the same restraint this lane applied to his uncle Muhammad Bello — so his faith is recorded unknown, with his Sufi studies recorded here and in the prose."
+    sources: [source/wikipedia-abd-al-qadir-dan-tafa-en, source/wikipedia-abd-al-qadir-dan-tafa-ar, source/wikipedia-abd-al-qadir-dan-tafa-ur, source/wikidata-abd-al-qadir-dan-tafa]
+external_ids: { wikidata: "Q120838075" }
+sources: [source/wikipedia-abd-al-qadir-dan-tafa-en, source/wikipedia-abd-al-qadir-dan-tafa-ar, source/wikipedia-abd-al-qadir-dan-tafa-ur, source/wikidata-abd-al-qadir-dan-tafa]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  source: "English Wikipedia 'Abd al-Qadir dan Tafa' (revision 1358362920 of 8 June 2026), Arabic Wikipedia «عبد القادر بن المصطفى الطردي» (revision 77133714 of 2 November 2026), Urdu Wikipedia «عبدالقادر دان تافا» (revision 6935404 of 23 March 2025) and Wikidata Q120838075 (item revision 2469295713 of 4 March 2026), all fetched live in-session on 3 November 2026, every revision id re-asserted identical on a second live query; Muhammad Shareef's The Life of Shaykh Dan Tafa (Sankore Institute) was also read in full text for the faith search recorded in the faith note. This record REPLACES IN PLACE the draft stub that stood at this slug (Devin, run wikidata-import-wave2, review: draft, completeness 1, 'Draft card... not yet checked on the page'), under the founder's lineage-resolution ruling of 3 November 2026 (collective row D2, 'Usman Dan Fodio's Grandchildren', resolved into him and Hayatu ibn Sa'id); the stub's lone cited source (Tarikh Islam of Hasan Ibrahim Hasan) was expressly unread and is dropped. His parents Mallam Tafa and Khadijah bint Usman have no museum records, and neither Fankaaji nor Salame has a place entity, so no relation edges are written; his descent from Usman dan Fodio through his mother is stated in the prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-186-writer-a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

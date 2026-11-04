@@ -3,11 +3,11 @@ class: person
 label:
   ar: "شيذلة"
   en: "Shaydhala"
-roles: [qadi, mutakallim, preacher]
+roles: [qadi, preacher]
 gender: male
 summary:
-  ar: "بطاقة أولية لشيذلة، قاضي قضاة بغداد في القرن الحادي عشر؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shaydhala, the qadi al-qudat of eleventh-century Baghdad; the biographical entry is not yet checked on the page."
+  ar: "عزيزي الجبلي «شيذلة»، واعظ وفقيه شافعي وقاضي بغداد، صاحب «ديوان الأنس»؛ توفي سنة 494هـ (1100م)."
+  en: "'Azizi al-Jabali “Shaydhala” (d. 494/1100), Shafi'i preacher and qadi of Baghdad, author of Diwan al-Uns."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -16,10 +16,16 @@ external_ids:
   wikidata: Q63487755
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0086
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.232)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

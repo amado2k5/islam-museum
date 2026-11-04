@@ -1,0 +1,27 @@
+id: event/al-suyuti-imla-ibn-tulun-872
+class: event
+kind: other
+label:
+  ar: "السيوطي يحيي إملاء الحديث في جامع ابن طولون، ٨٧٢هـ/١٤٦٧م"
+  en: "Al-Suyuti revives hadith dictation at the mosque of Ibn Tulun, 872/1467"
+  ur: "سیوطی کا جامع ابن طولون میں املاء حدیث کی تجدید، 872ھ/1467ء"
+summary:
+  ar: "سنة ٨٧٢هـ/١٤٦٧م استأنف السيوطي تقليد إملاء الحديث في جامع ابن طولون، حيث كان أبوه قد خطب، وكانت هذه الطريقة قد انقطعت منذ نحو عشرين سنة بوفاة ابن حجر العسقلاني {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  en: "In 872/1467 al-Suyuti took up again the tradition of dictating hadith (imlaʿ) in the mosque of Ibn Tulun, where his father had been a preacher; the practice had lapsed some twenty years earlier at the death of Ibn Hajar al-ʿAsqalani {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  ur: "872ھ/1467ء میں سیوطی نے جامع ابن طولون میں — جہاں ان کے والد خطیب رہے تھے — املاء حدیث کی روایت دوبارہ جاری کی؛ یہ طریقہ ابن حجر عسقلانی کی وفات کے بعد تقریباً بیس سال سے منقطع تھا {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1467~", hijri: "0872", calendar: julian, precision: year, status: historical, derived: true, note: "سنة ٨٧٢هـ/١٤٦٧م؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-suyuti, role: "المُملي", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed pp. 913-915, art. al-Suyuti (E. Geoffroy); shadharat-dhahab"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-suyuti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

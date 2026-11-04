@@ -1,0 +1,39 @@
+id: person/abu-yaqub-yusuf-an-nasr
+class: person
+label: { ar: "أبو يعقوب يوسف الناصر", en: "Abu Yaqub Yusuf an-Nasr", ur: "ابو یعقوب یوسف الناصر" }
+names:
+  - { value: "أبو يعقوب يوسف بن أبي يوسف يعقوب بن عبد الحق", kind: full }
+gender: male
+summary:
+  ar: "سلطان بني مرين بالمغرب (1286–1307)، ابن السلطان أبي يوسف يعقوب بن عبد الحق وخليفته. تنازل عن معظم مواقع المرينيين في الأندلس، ثم وجّه قوته إلى بني عبد الواد فحاصر تلمسان سنوات طوال وبنى قبالتها مدينة المنصورة، حتى اغتاله أحد الخصيان في معسكر الحصار سنة 1307 وهو على وشك إسقاطها."
+  en: "Marinid sultan of Morocco (1286–1307), son and successor of Sultan Abu Yusuf Yaqub ibn Abd al-Haqq. He gave up most of the Marinid positions in al-Andalus, then turned his strength against the Abdalwadids of Tlemcen, besieging their capital for years from the counter-city of al-Mansura he built facing it, until a eunuch assassinated him in the siege camp in 1307 with the city near to falling."
+  ur: "مرین خاندان کے سلطانِ مغرب (1286–1307)، سلطان ابو یوسف یعقوب بن عبد الحق کے بیٹے اور جانشین۔ انھوں نے اندلس میں مرینیوں کے بیشتر مقامات چھوڑ دیے، پھر اپنی قوت بنو عبد الواد کی طرف موڑی اور تلمسان کا برسوں محاصرہ کیا، جس کے بالمقابل انھوں نے المنصورہ کا شہر بسایا، یہاں تک کہ 1307 میں محاصرے کے پڑاؤ میں ایک خواجہ سرا نے انھیں قتل کر دیا جب شہر گرنے کے قریب تھا۔"
+roles: [sultan]
+wings: [people]
+regions: [maghreb, andalus-europe]
+periods: [period/mongol-post-mongol]
+died:
+  edtf: "1307-05-13"
+  hijri: "0706"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated on 13 May 1307 in the siege camp of al-Mansura before Tlemcen, by a eunuch, in what the English article calls an obscure harem affair and the Arabic article a conspiracy of the eunuchs in Dhu al-Qa'da 706 AH. The English article and Wikidata agree on the day. No text read gives a birth year — Wikidata carries only c. 1230 at decade precision — so no born block is written."
+  sources: [source/wikipedia-abu-yaqub-yusuf-an-nasr-en, source/wikipedia-abu-yaqub-yusuf-an-nasr-ar, source/wikidata-abu-yaqub-yusuf-an-nasr]
+relations:
+  - { type: child_of, target: person/abu-yusuf-yaqub-marini, sources: [source/wikipedia-abu-yaqub-yusuf-an-nasr-en, source/wikipedia-abu-yaqub-yusuf-an-nasr-ar] }
+  - { type: successor_of, target: person/abu-yusuf-yaqub-marini, sources: [source/wikipedia-abu-yaqub-yusuf-an-nasr-en, source/wikipedia-abu-yaqub-yusuf-an-nasr-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read names an affiliation for the man himself. Wikidata's structured values (Islam and Sunni Islam) settle nothing by themselves, and the Maliki milieu of the Marinid court is context, not attestation. Nothing further is recorded."
+    sources: [source/wikipedia-abu-yaqub-yusuf-an-nasr-en, source/wikidata-abu-yaqub-yusuf-an-nasr]
+external_ids: { wikidata: "Q335476" }
+sources: [source/wikipedia-abu-yaqub-yusuf-an-nasr-en, source/wikipedia-abu-yaqub-yusuf-an-nasr-ar, source/wikipedia-abu-yaqub-yusuf-an-nasr-ur, source/wikidata-abu-yaqub-yusuf-an-nasr]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abu Yaqub Yusuf an-Nasr' (revision 1375704605 of 19 September 2026), Arabic Wikipedia «أبو يعقوب يوسف الناصر» (revision 72360284 of 1 November 2025), Urdu Wikipedia «ابو یعقوب یوسف الناصر» (revision 9994796 of 21 April 2026) and Wikidata Q335476, all read via API on 3 November 2026 with every revision ID re-asserted by a repeat query. This record replaces the Devin lib-ibar draft stub person/abu-yaqub-yusuf-marinid (completeness 2) under the founder's REPLACE ruling of 3 November 2026, per the Atatürk precedent."
+  generated_by: "Muse"
+  run: century-additions-wave-185-a
+status: { review: published, completeness: 3, generated_by: "Muse" }

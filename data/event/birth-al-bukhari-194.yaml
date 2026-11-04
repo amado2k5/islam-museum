@@ -1,0 +1,27 @@
+id: event/birth-al-bukhari-194
+class: event
+kind: birth
+label:
+  ar: "مولد الإمام البخاري ببخارى، شوال ١٩٤هـ"
+  en: "Birth of Imam al-Bukhari at Bukhara, Shawwal 194/810"
+  ur: "امام بخاری کی پیدائش بخارا میں، شوال 194ھ/810ء"
+summary:
+  ar: "وُلد أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة بن بردزبة الجعفي البخاري في شوال سنة ١٩٤هـ ببخارى، ونشأ يتيماً {cite:tabaqat-shafiiyya-subki j.2 p. 3, 14}؛ ونسبته إلى الجعفية لأن جده الأكبر المغيرة كان مولى يمان الجعفي عامل بخارى، الذي أسلم على يديه {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}، وكان والده إسماعيل من العلماء الورعين {cite:tabaqat-shafiiyya-subki j.2 p. 3}."
+  en: "Abu Abd Allah Muhammad ibn Isma'il ibn Ibrahim ibn al-Mughira ibn Bardizba al-Ju'fi al-Bukhari was born at Bukhara in Shawwal 194 and grew up an orphan {cite:tabaqat-shafiiyya-subki j.2 p. 3, 14}; his nisba al-Ju'fi comes from his great-grandfather al-Mughira, a mawla of Yaman al-Ju'fi the governor of Bukhara at whose hands he accepted Islam {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}, and his father Isma'il was one of the scrupulous scholars {cite:tabaqat-shafiiyya-subki j.2 p. 3}."
+  ur: "ابو عبداللہ محمد بن اسماعیل بن ابراہیم بن مغیرہ بن بردزبہ جعفی بخاری شوال 194ھ میں بخارا میں پیدا ہوئے اور یتیم پلے {cite:tabaqat-shafiiyya-subki j.2 p. 3, 14}؛ ان کی نسبت جعفی اس لیے ہے کہ ان کے پرڈادا مغیرہ بخارا کے عامل یمان جعفی کے مولیٰ تھے جن کے ہاتھوں وہ مسلمان ہوئے {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}، اور ان کے والد اسماعیل متقی علماء میں سے تھے {cite:tabaqat-shafiiyya-subki j.2 p. 3}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0810", hijri: "0194", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده في شوال سنة أربع وتسعين ومائة {cite:tabaqat-shafiiyya-subki j.2 p. 14} = ١٩٤هـ/٨١٠م عند دائرة المعارف {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}؛ التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/bukhara, sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-bukhari, role: "المولود", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), art. al-Bukhari, Muhammad b. Isma'il (W. Montgomery Watt), PDF pp. 1360-1361; Tabaqat al-Shafi'iyya al-Kubra (al-Matba'a al-Husayniyya) j.2 printed pp. 2-15, tarjama of Muhammad b. Isma'il al-Bukhari (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bukhari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

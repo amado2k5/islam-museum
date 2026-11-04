@@ -1,0 +1,27 @@
+id: event/birth-al-thaalibi-350
+class: event
+kind: birth
+label:
+  ar: "ولادة الثعالبي بنيسابور، ٣٥٠هـ"
+  en: "Al-Tha'alibi is born at Nishapur, 350/961"
+  ur: "ثعالبی کی ولادت نیشاپور میں، 350ھ/961ء"
+summary:
+  ar: "وُلد أبو منصور عبد الملك بن محمد بن إسماعيل الثعالبي النيسابوري سنة خمسين وثلاثمائة بنيسابور {cite:wafayat-ayan}، المدينة التي صارت في جيله منافساً ثقافياً لبغداد {cite:encyclopaedia-of-islam-2 vol. 10 p. 450}؛ وذكر ابن العماد أنه عاش ثمانين سنة {cite:shadharat-dhahab p. 246-247}."
+  en: "Abu Mansur Abd al-Malik ibn Muhammad ibn Isma'il al-Tha'alibi was born in 350 AH at Nishapur {cite:wafayat-ayan}, the city that in his generation became a cultural rival to Baghdad {cite:encyclopaedia-of-islam-2 vol. 10 p. 450}; Ibn al-Imad notes he lived eighty years {cite:shadharat-dhahab p. 246-247}."
+  ur: "ابو منصور عبدالملک بن محمد بن اسماعیل ثعالبی 350ھ میں نیشاپور میں پیدا ہوئے {cite:wafayat-ayan} — وہ شہر جو ان کے دور میں بغداد کا علمی حریف بن گیا {cite:encyclopaedia-of-islam-2 vol. 10 p. 450}؛ ابن عماد کے مطابق وہ اسی برس جیے {cite:shadharat-dhahab p. 246-247}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0961", hijri: "0350", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة خمسين وثلاثمائة {cite:wafayat-ayan}؛ عاش ثمانين سنة {cite:shadharat-dhahab p. 246-247}؛ التحويل مشتق.", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-thaalibi, role: "المولود", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 (T-U), PDF pp. 450-452, art. al-Tha'alibi, Abu Mansur 'Abd al-Malik (P. J. E. Cachia); wafayat-ayan (Ihsan Abbas ed.) notice of al-Tha'alibi; shadharat-dhahab vol. 3 s.a. 429, printed pp. 246-247"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-thaalibi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

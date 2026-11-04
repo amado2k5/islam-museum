@@ -2,10 +2,7 @@
 id: person/al-ahmar-al-nahwi
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 28"]
 ---
 ## Overview
-Al-Ahmar the grammarian, whom Harun al-Rashid sent to tutor his son Muhammad al-Amin. {cite:muruj-al-dhahab p.338}
-
-## Al-Rashid's instructions
-Al-Rashid instructed him to teach the boy the Qur'an, make him know the traditions, have him memorise poetry, teach him the sunna, and show him the proper places of speech. He was to keep him from laughing except at the proper times. He was to have him honour the shaykhs of the Banu Hashim, and to make use of every hour for benefit, without being so harsh that it killed his mind. {cite:muruj-al-dhahab p.338}
+al-Ahmar the grammarian, whom al-Rashid commissioned to educate his son Muhammad al-Amin; he counselled him to teach the boy the Qur'an, acquaint him with the reports, recite poetry to him, instruct him in the ways, show him where speech may go, and keep him from laughter save at its times.

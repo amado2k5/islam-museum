@@ -1,0 +1,29 @@
+id: event/ibn-taymiyya-hajj-691
+class: event
+kind: pilgrimage
+label:
+  ar: "حج ابن تيمية ورسالته في المناسك، ٦٩١هـ/١٢٩٢م"
+  en: "Ibn Taymiyya's pilgrimage and his treatise on the rites, 691/1292"
+  ur: "ابن تیمیہ کا حج اور مناسک پر رسالہ، 691ھ/1292ء"
+summary:
+  ar: "حج ابن تيمية إلى مكة في أواخر سنة ٦٩١هـ/نوفمبر ١٢٩٢م وعاد إلى دمشق في ٦٩٢هـ/فبراير ١٢٩٣م، حاملاً من هذه الرحلة مادة رسالته في «مناسك الحج» التي أنكر فيها بدعاً دخلت على أعمال الحج {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}."
+  en: "Ibn Taymiyya performed the pilgrimage to Mecca toward the end of 691/November 1292 and was back in Damascus in 692/February 1293, bringing from the journey the substance of his treatise Manasik al-hajj, in which he denounced a number of innovations that had entered the rites of the pilgrimage {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}."
+  ur: "ابن تیمیہ نے 691ھ کے آخر/نومبر 1292ء میں حج کیا اور 692ھ/فروری 1293ء میں دمشق لوٹ آئے، اس سفر سے اپنے رسالے «مناسک الحج» کی مادہ معمور کیا جس میں انہوں نے حج کے اعمال میں داخل ہونے والی متعدد بدعات کی تردید کی {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, arabia]
+date:
+  start: { edtf: "1292-11~", hijri: "0691~", calendar: julian, precision: month, status: tradition, derived: true, note: "حج أواخر ٦٩١هـ/نوفمبر ١٢٩٢م {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}؛ التحويل مشتق." }
+  end: { edtf: "1293-02~", hijri: "0692~", calendar: julian, precision: month, status: tradition, derived: true, note: "عاد إلى دمشق في ٦٩٢هـ/فبراير ١٢٩٣م {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 983 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-taymiyya-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -2,7 +2,10 @@
 id: work/ikhtilaf-al-hadith-shafii
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## Overview
-A book by the Imam al-Shafi'i, Muhammad ibn Idris, who died in 205 AH. Ibn Hajar mentions it in "Al-Majma al-Mu'assas", according to "Kashf al-Zunun". {cite:kashf-zunun-furqan p. 250}
+## Summary
+Ikhtilaf al-Hadith is a book by the imam Muhammad ibn Idris al-Shafi'i, who died in 204 AH; Ibn Hajar cited it in al-Mujma' al-Mu'assis. {cite:kashf-zunun-furqan p.251}
+
+## Details
+In Kashf al-Zunun Hajji Khalifa, among works titled ikhtilaf, lists Ikhtilaf al-Hadith by the imam Muhammad ibn Idris al-Shafi'i, noted by Ibn Hajar in al-Mujma' al-Mu'assis; the entry follows others on ikhtilaf of Abu Hanifa and al-Awza'i, of seasons and dietetics by Hippocrates, and of the bases of the schools by Abu Hanifa al-Nu'man, who composed it in defence of his school; the edition's notes observe that the author's autograph reading of al-Shafi'i's death in 205 AH should read 204 AH, as is well known. {cite:kashf-zunun-furqan p.251}

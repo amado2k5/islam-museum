@@ -1,0 +1,29 @@
+id: event/shirazi-writes-muhadhdhab-455
+class: event
+kind: publication
+label:
+  ar: "الشيرازي يكتب «المهذب»، ٤٥٥-٤٦٩هـ"
+  en: "Al-Shirazi writes al-Muhadhdhab, 455-469/1063-1077"
+  ur: "شیرازی کی تصنیف «المھذب»، 455-469ھ/1063-1077ء"
+summary:
+  ar: "بين سنة ٤٥٥هـ وسنة ٤٦٩هـ كتب الشيرازي موسوعته الفقهية «المهذب في فقه الإمام الشافعي»، وقد غدا — مع «التنبيه» — من خمسة كتب مرجعية في المذهب الشافعي وعليه جهاز نقدي واسع منه «المجموع شرح المهذب» للنووي في ثمانية عشر مجلداً؛ وبه تحوّل المناظر اللامع إلى مجتهد حقيقي يقرر مذهبه بنفسه {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
+  en: "Between 455/1063 and 469/1077 al-Shirazi wrote his great fiqh compendium al-Muhadhdhab fi fiqh al-imam al-Shafi'i which — with al-Tanbih — became one of the five reference works of the Shafi'i school and drew a vast critical apparatus, among it al-Nawawi's eighteen-volume al-Majmu' sharh al-Muhadhdhab; in it the brilliant controversialist gave way to a genuine mujtahid establishing his own doctrine {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
+  ur: "455ھ/1063ء سے 469ھ/1077ء کے درمیان شیرازی نے اپنا بڑا فقہی ذخیرہ «المھذب فی فقہ الامام الشافعی» لکھا جو — «التنبیہ» کے ساتھ — شافعی مذہب کی پانچ مرجع کتب میں شمار ہوتا ہے اور جس پر وسیع شرحی ادبیات لکھی گئیں جن میں نووی کی اٹھارہ جلدوں پر مشتمل «المجموع شرح المھذب» بھی ہے؛ اس میں درخشاں مناظر سے ایک حقیقی مجتہد کی صورت ابھری {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [scripture-and-its-sciences]
+date:
+  start: { edtf: "1063~", hijri: "0455", calendar: julian, precision: year, status: tradition, derived: true, note: "بين ٤٥٥ و٤٦٩هـ {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}؛ التحويل مشتق." }
+  end: { edtf: "1077~", hijri: "0469", precision: year, status: tradition, derived: true, note: "٤٦٩هـ {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-ishaq-al-shirazi, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 art. AL-SHIRAZI printed p. 495 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-shirazi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

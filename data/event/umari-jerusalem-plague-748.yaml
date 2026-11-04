@@ -1,0 +1,27 @@
+id: event/umari-jerusalem-plague-748
+class: event
+kind: other
+label:
+  ar: "الطاعون والرحيل إلى القدس، نحو ٧٤٨هـ/١٣٤٨م"
+  en: "The plague and the flight to Jerusalem, c. 748/1348"
+  ur: "طاعون اور قدس کی طرف روانگی، تقریباً 748ھ/1348ء"
+summary:
+  ar: "فلما وقع الطاعون عزم ابن فضل الله على الحج، ثم توجه بأهله إلى القدس، فماتت امرأته فدفنها ورجع {cite:durar-kamina-jil-1993 1/333}."
+  en: "When the plague struck, Ibn Fadl Allah resolved on the hajj, then took his household to Jerusalem; his wife died there and he buried her and returned {cite:durar-kamina-jil-1993 1/333}."
+  ur: "جب طاعون پھوٹا تو ابن فضل اللہ نے حج کا ارادہ کیا، پھر وہ اپنے گھر والوں کو لے کر قدس گیا؛ وہاں اس کی بیوی فوت ہوئی، اس نے اسے دفن کیا اور لوٹ آیا {cite:durar-kamina-jil-1993 1/333}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1348~", hijri: "0748~", calendar: julian, precision: year, status: historical, derived: true, note: "فلما وقع الطاعون عزم على الحج ثم توجه بأهله إلى القدس؛ ورد في ترجمته قبل وفاته سنة ٧٤٩هـ {cite:durar-kamina-jil-1993 1/333}؛ التاريخ تقريبي والتحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/jerusalem, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "المسافر بأهله", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "الدرر الكامنة (ط دار الجيل 1993) 1/333 ترجمة 828"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-umari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

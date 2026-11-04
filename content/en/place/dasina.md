@@ -2,7 +2,10 @@
 id: place/dasina
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## Overview
-Dasina: a civilised city of wide districts, rich in farming and building, with cheap prices. al-Idrisi reports that it lies four days east of Barsaklafa. {cite:nuzhat-al-mushtaq-2002 p.897}
+## Summary
+Dasina was a settled town with wide districts, rich in crops and building; its grain was plentiful and its prices low, and it lay forty miles from the sea. {cite:nuzhat-al-mushtaq-2002 p.897}
+
+## Details
+Al-Idrisi counts Dasina among the towns of the clime of Rumaniyya, and says that from the city of Barsaklasa to Dasina eastward was four days, and from it to the city of Armuqastru southward two days — Armuqastru being an ancient city of lofty buildings, broad canals, considerable size and low prices, lying on the slope of a mountain overlooking the sea. {cite:nuzhat-al-mushtaq-2002 p.897} Detailing the routes of that region he notes that from the city of Aghathubli to Ramsiyya was one day, from Amsiyya to Dasina one day eastward, and between the city of Dasina and the sea forty miles. {cite:nuzhat-al-mushtaq-2002 p.911}

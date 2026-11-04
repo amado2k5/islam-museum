@@ -1,0 +1,36 @@
+id: person/dina-nayeri
+class: person
+label: { ar: "دينا نايري", en: "Dina Nayeri", ur: "دینا نایری" }
+names:
+  - { value: "دينا نايري", kind: full }
+  - { value: "Dina Nayeri", kind: full }
+gender: female
+summary:
+  ar: "روائية وكاتبة مقالات ومذكرات إيرانية أمريكية، وُلدت في أصفهان سنة 1979. غادرت إيران طفلةً سنة 1988 بعد تحوّل والدتها إلى المسيحية، وعاشت لاجئة في دبي وإيطاليا قبل أن تستقر في أوكلاهوما؛ من كتبها روايتا «ملعقة شاي من الأرض والبحر» و«ملاذ» ومذكرات «اللاجئة الجاحدة» (2019)."
+  en: "Iranian-American novelist, essayist and memoirist, born in Isfahan in 1979. She left Iran as a child in 1988 after her mother converted to Christianity, lived as a refugee in Dubai and Italy, and settled in Oklahoma; her books include the novels A Teaspoon of Earth and Sea and Refuge and the memoir The Ungrateful Refugee (2019)."
+  ur: "ایرانی نژاد امریکی ناول نگار، مضمون نگار اور یادداشت نگار، 1979 میں اصفہان میں پیدا ہوئیں۔ 1988 میں اپنی والدہ کے عیسائیت قبول کرنے کے بعد بچپن میں ایران چھوڑا، دبئی اور اٹلی میں پناہ گزین رہیں اور اوکلاہوما میں آباد ہوئیں؛ ان کی کتابوں میں «اے ٹی سپون آف ارتھ اینڈ سی» اور «ریفیوج» اور یادداشت «دی ان گریٹ فل ریفیوجی» (2019) شامل ہیں۔"
+roles: [writer]
+wings: [people, living]
+regions: [persia-central-asia, americas-oceania]
+born:
+  edtf: "1979"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "The English and Persian articles and Wikidata agree on Isfahan and the year 1979; no source read gives a fuller date. A bare Gregorian year 1979 spans two Hijri years (1399 and 1400), so no Hijri year is recorded."
+  sources: [source/wikipedia-dina-nayeri-en, source/wikipedia-dina-nayeri-fa, source/wikidata-dina-nayeri]
+relations:
+  - { type: born_in, target: place/isfahan, sources: [source/wikipedia-dina-nayeri-en, source/wikidata-dina-nayeri] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion for Nayeri herself. The English article's infobox religion field is empty and Wikidata carries no religion statement. The conversion that shapes her family's story is her mother's: her mother converted to Christianity in Iran, was threatened with execution for it, and fled the country with her children in 1988, as the article records on the strength of Nayeri's own memoir writing. A parent's faith is family background, which never counts as the subject's own attestation, and nothing in the sources states what the novelist herself professes. Recorded as unknown on absence of attestation."
+    sources: [source/wikipedia-dina-nayeri-en, source/wikidata-dina-nayeri]
+external_ids: { wikidata: "Q47087449" }
+sources: [source/wikipedia-dina-nayeri-en, source/wikipedia-dina-nayeri-fa, source/wikidata-dina-nayeri]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1373641817), Persian Wikipedia (revision 44183799) and Wikidata Q47087449 (item revision 2516312637, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. No Arabic or Urdu Wikipedia article on her exists. Existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-157a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

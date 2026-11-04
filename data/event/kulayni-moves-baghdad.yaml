@@ -1,0 +1,27 @@
+id: event/kulayni-moves-baghdad
+class: event
+kind: migration
+label:
+  ar: "انتقال الكليني إلى بغداد، نحو العقد الأول من القرن الرابع"
+  en: "al-Kulayni moves to Baghdad, about the first decade of the fourth century"
+  ur: "کلینی کا بغداد منتقلی، تقریباً چوتھی صدی کا پہلا عشرہ"
+summary:
+  ar: "انتقل [[person/al-kulayni|الكليني]] في تاريخ مجهول، لعله في العقد الأول من القرن الرابع الهجري (٩١٣–٩٢٣م)، إلى [[place/baghdad|بغداد]] حيث عاش ودرّس في درب السلسلة قرب باب الكوفة على الضفة الغربية من دجلة {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}."
+  en: "At an unknown date, perhaps in the first decade of the 4th century AH (913-923), al-Kulayni moved to Baghdad, where he lived and taught in Darb al-Silsila near the Bab al-Kufa on the west bank of the Tigris {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}."
+  ur: "کلینی ایک نامعلوم تاریخ کو، غالباً چوتھی صدی ہجری کے پہلے عشرے (913–923ء) میں، [[place/baghdad|بغداد]] منتقل ہوا جہاں وہ دربِ سلسلہ میں بابِ کوفہ کے قریب دجلہ کے مغربی کنارے رہتا اور تدریس کرتا {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0913/0923", calendar: julian, precision: decade, status: tradition, derived: true, note: "«لعله في العقد الأول من القرن الرابع الهجري» {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-kulayni, role: "المنتقل المدرّس", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5, art. al-Kulaynī, printed p. 401 (W. Madelung)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-kulayni-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

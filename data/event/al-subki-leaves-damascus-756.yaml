@@ -1,0 +1,28 @@
+id: event/al-subki-leaves-damascus-756
+class: event
+kind: other
+label:
+  ar: "السبكي يفارق دمشق إلى مصر في محفة، ٢٦ ربيع الآخر ٧٥٦هـ"
+  en: "Al-Subki leaves Damascus for Egypt in a litter, 26 Rabi' II 756"
+  ur: "سبکی کا دمشق سے مصر روانگی محفہ میں، 26 ربیع الثانی 756ھ"
+summary:
+  ar: "في صبيحة يوم الأحد ٢٦ ربيع الآخر ٧٥٦هـ توجّه قاضي القضاة تقي الدين السبكي، بعد استقلال ولده تاج الدين في قضاء القضاة ومشيخة دار الحديث الأشرفية، مسافراً نحو الديار المصرية في محفّة ومعه جماعة من أهله وذويه، وقد كان الناس ودّعوه قبل ذلك وعنده ضعف، ومنهم من خاف عليه وعثاء السفر مع الكبر {cite:al-bidaya-wal-nihaya s.a. 756 p. 263}."
+  en: "On the morning of Sunday 26 Rabi' II 756, after his son Taj al-Din had taken over the chief judgeship and the shaykhhood of the Ashrafiyya hadith school, Taqi al-Din al-Subki set out for Egypt in a litter with a group of his household and kin. The people had already bidden him farewell, and he was frail; some feared for him the hardships of travel in old age {cite:al-bidaya-wal-nihaya s.a. 756 p. 263}."
+  ur: "اتوار 26 ربیع الثانی 756ھ کی صبح، اپنے بیٹے تاج الدین کے قضائے قضاة اور دار الحدیث اشرفیہ کی شیخت سنبھالنے کے بعد، تقی الدین سبکی اپنے گھر والوں اور رشتہ داروں کے ایک ہجوم کے ساتھ محفے میں مصر روانہ ہوئے۔ لوگ پہلے ہی الوداع کہہ چکے تھے اور وہ کمزور تھے؛ کچھ کو بڑھاپے میں سفر کی دقت کا خدشہ تھا {cite:al-bidaya-wal-nihaya s.a. 756 p. 263}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1355-05-07~", hijri: "0756-04-26", calendar: julian, precision: day, status: historical, derived: true, note: "صبيحة الأحد ٢٦ ربيع الآخر ٧٥٦هـ {cite:al-bidaya-wal-nihaya s.a. 756 p. 263}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: occurred_at, target: place/cairo, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/taqi-al-din-al-subki, role: "المسافر", sources: [source/al-bidaya-wal-nihaya] }
+sources: [source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "al-Bidaya wa-l-Nihaya (Ibn Kathir), s.a. 756, printed p. 263 (harvest scan AAlexandrina-074483)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,27 @@
+id: event/ibn-jawzi-ashura-sermon-568
+class: event
+kind: gathering
+label:
+  ar: "موعظة ابن الجوزي يوم عاشوراء سنة ٥٦٨هـ"
+  en: "Ibn al-Jawzi's Ashura sermon, 568/1172"
+  ur: "ابن الجوزی کا عاشورہ کا وعظ، 568ھ/1172ء"
+summary:
+  ar: "وعظ ابن الجوزي يوم العاشر من المحرم سنة ٥٦٨هـ الموافق للأول من أيلول/سبتمبر ١١٧٢م — وهو يوم عاشوراء — موعظة عامة حضرها جمع غفير، وفي السنة نفسها أذن له الخليفة المستضيء أن يعظ بحضوره سلسلة مجالس عند باب بدر {cite:encyclopaedia-of-islam-2 vol. 3 p. 783}."
+  en: "On 10 Muharram 568 / 1 September 1172 — the day of Ashura — Ibn al-Jawzi preached a popular exhortation before a very large crowd; in the same year the caliph al-Mustadi authorised him to preach a series of sermons in the caliph's presence at the Badr gate {cite:encyclopaedia-of-islam-2 vol. 3 p. 783}."
+  ur: "10 محرم 568ھ بمطابق یکم ستمبر 1172ء — یومِ عاشورہ — ابن الجوزی نے ایک بہت بڑی بھیڑ کے سامنے وعظ کیا؛ اسی سال خلیفہ مستضیع نے انھیں بابِ بدر پر اپنی موجودگی میں مجالسِ وعظ کی اجازت دی {cite:encyclopaedia-of-islam-2 vol. 3 p. 783}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1172-09-01", hijri: "0568-01-10", calendar: julian, precision: day, status: tradition, derived: true, note: "العاشر من المحرم ٥٦٨ = ١ أيلول/سبتمبر ١١٧٢ على ما في دائرة المعارف؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 3 p. 783}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-jawzi, role: "الواعظ", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H–Iram), printed p. 783, art. Ibn al-Djawzī"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-jawzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

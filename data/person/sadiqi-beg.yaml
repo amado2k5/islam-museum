@@ -1,0 +1,73 @@
+id: person/sadiqi-beg
+class: person
+
+label: { ar: "صادقي بك أفشار", en: "Sadiqi Beg", ur: "صادقی بیگ افشار" }
+
+names:
+  - { value: "Sadiqi Beg Afshar", kind: full }
+  - { value: "Sadiqi Beg", kind: alternate }
+  - { value: "Sadiqi Kitabdar", kind: alternate }
+  - { value: "Sadiqi", kind: pen }
+
+gender: male
+
+summary:
+  ar: "رسام وشاعر وكاتب سير صفوي (نحو 1533–1610)، وُلد في تبريز من قبيلة خدابنده لو التركمانية، وأمضى سنوات درويشًا متجولًا قبل أن يستقر في قزوين ويخدم في بلاط الشاهات إسماعيل الثاني ومحمد خدابنده وعباس الأول، فصار أمين المكتبة الملكية حتى أُقيل سنة 1596 مع احتفاظه بلقبه وراتبه ومشورة الشاه له. خلّف «مجمع الخواص» سيرًا لثلاثمائة وثلاثين شاعرًا وفنانًا، و«قانون الصور» منظومة فارسية في تقنيات التصوير، ولوحات لشاهنامات ملكية محفوظة إلى اليوم."
+  en: "Safavid painter, poet and biographer (c. 1533–1610), born in Tabriz into the Khodabandalu Turkoman tribe. Orphaned young, he spent years as a wandering dervish before settling in Qazvin and serving the courts of Isma'il II, Mohammad Khodabanda and Abbas I; he became head of the royal library, was dismissed in 1596 yet kept his title and salary and the shah's ear for the rest of his life. He left the Majma' al-khavass, biographies of some 330 poets and artists, the Qanun as-Suwar, a Persian verse treatise on painting technique, and paintings in royal Shahnamehs that still survive."
+  ur: "صفوی مصور، شاعر اور تذکرہ نگار (تقریباً 1533ء–1610ء)، تبریز میں خدابندہ لو ترکمان قبیلے میں پیدا ہوئے۔ بچپن میں یتیم ہوئے تو برسوں درویش بن کر گھومتے رہے، پھر قزوین میں سکونت اختیار کر کے اسماعیل ثانی، محمد خدابندہ اور عباس اول کے درباروں سے وابستہ ہوئے؛ شاہی کتب خانے کے سربراہ بنے، 1596ء میں برطرف ہوئے مگر لقب و تنخواہ اور شاہ کی مشاورت عمر بھر برقرار رہی۔ ان کی یادگار ”مجمع الخواص“ ہے، جس میں قریب 330 شاعروں اور فنکاروں کے حالات ہیں، اور ”قانون الصور“ فارسی نظم میں مصوری کی تکنیک پر رسالہ ہے۔"
+
+roles: [artist, poet, writer]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1533"
+  hijri: "0940"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article gives his birth as about 1533 in Tabriz and pairs it with 940 AH ('born in Tabriz in 940/1533'); the Persian article and Wikidata agree on 1533. The pairing — the English article's own — is recorded as the Hijri year; the year 1533 spans 939-940 AH."
+  sources:
+    - source/wikipedia-sadiqi-beg-en
+    - source/wikipedia-sadiqi-beg-fa
+    - source/wikidata-sadiqi-beg
+
+died:
+  edtf: "1610"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The year 1610 and the place, Isfahan, are given by the English and Persian articles and by Wikidata. No Hijri year is recorded: the year 1610 spans 1018-1019 AH and no source pairs it with a Hijri year."
+  sources:
+    - source/wikipedia-sadiqi-beg-en
+    - source/wikipedia-sadiqi-beg-fa
+    - source/wikidata-sadiqi-beg
+
+relations:
+  - { type: born_in, target: place/tabriz, sources: [source/wikipedia-sadiqi-beg-en, source/wikipedia-sadiqi-beg-fa] }
+  - { type: died_in, target: place/isfahan, sources: [source/wikipedia-sadiqi-beg-en, source/wikipedia-sadiqi-beg-fa] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion, branch or school for him: the English article has no religion field, the Persian article's artist infobox has none, and Wikidata carries no religion claim. His Afshar and Khodabandalu Qizilbash descent is tribal affiliation, which never counts as a personal attestation, and his decades of service at the Safavid court — including his years as a wandering dervish before them — are career facts, not attestations of a school. The English article notes that in the Qanun as-Suwar he deliberately abstained from using religious denominations to refer to techniques. With no attestation either way, no school is recorded, without a flag."
+    sources:
+      - source/wikipedia-sadiqi-beg-en
+      - source/wikipedia-sadiqi-beg-fa
+      - source/wikidata-sadiqi-beg
+
+external_ids: { wikidata: "Q4404551" }
+
+sources:
+  - source/wikipedia-sadiqi-beg-en
+  - source/wikipedia-sadiqi-beg-fa
+  - source/wikidata-sadiqi-beg
+
+provenance:
+  layer: own-research
+  source: "English and Persian Wikipedia articles on Sadiqi Beg and Wikidata Q4404551, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query). Tabriz and Isfahan have place entities, so the born_in and died_in edges are written. His link with the painter Mozaffar Ali is attested by both articles but in opposite directions — the Persian article names Mozaffar Ali as his teacher, the English calls Mozaffar Ali his pupil and nephew who taught him Behzad's style — and Mozaffar Ali has no record in the museum, so the link is prose-only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "century-additions-152G"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

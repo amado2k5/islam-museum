@@ -1,25 +1,43 @@
 id: person/al-raghib-al-isfahani
 class: person
-label:
-  ar: "الراغب الأصفهاني"
-  en: "al-Raghib al-Isfahani"
-roles: [scholar, writer]
+label: { ar: "الراغب الأصفهاني", en: "al-Raghib al-Isfahani", ur: "راغب اصفہانی" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم الحسين بن محمد بن المفضل الراغب الأصفهاني" }
+  - { kind: kunya, lang: ar, value: "أبو القاسم" }
+  - { kind: alternate, lang: ar, value: "الراغب" }
 gender: male
+roles: [scholar, writer]
+traditions: [sunni]
 summary:
-  ar: "بطاقة أولية للراغب الأصفهاني، أديب القرن الحادي عشر صاحب «مفردات غريب القرآن» و«محاضرات الأدباء»، توفي نحو سنة ١١٠٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Raghib al-Isfahani, the eleventh-century man of letters author of Mufradat Ghara'ib al-Qur'an and Muhadarat al-Udaba', d. about 1108; the biographical entry is not yet checked on the page."
+  ar: "أبو القاسم الحسين بن محمد بن المفضل، المعروف بالراغب الأصفهاني؛ أديب وعالم من أهل أصفهان عاش في زمن مجلس الصاحب بن عباد ومن بعده أبي العباس الدبّي، ولم يذكره شيء يثبت أنه فارق وطنه. اشتهر بـ«محاضرات الأدباء» و«مفردات ألفاظ القرآن» و«الذريعة إلى مكارم الشريعة» التي أخذ الغزالي عنها نحو نصف «ميزان العمل»، وتوفي على الأرجح في ربيع الآخر سنة ٤١٢هـ {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390} {cite:kashf-zunun-furqan p. 197-198}."
+  en: "Abu al-Qasim al-Husayn ibn Muhammad ibn al-Mufaddal, known as al-Raghib al-Isfahani; a man of letters and religious scholar of Isfahan who flourished in the age of al-Sahib Ibn Abbad's literary circle and his successor Abu al-Abbas al-Dabbi, with no sound evidence that he ever left his native city. Famed for the Muhadarat al-udaba', the Mufradat alfaz al-Qur'an, and al-Dhari'a ila makarim al-shari'a — al-Ghazali's direct source for a good half of his Mizan al-'amal — he died most probably in Rabi' II 412 {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390} {cite:kashf-zunun-furqan p. 197-198}."
+  ur: "ابو القاسم حسین بن محمد بن مفضل، راغب اصفہانی کے نام سے معروف؛ اصفہان کے اديب اور ماہر دینیات جو صاحب بن عباد کے ادبی مجلس اور اس کے جانشین ابو العباس دبّی کے زمانے میں رہے، اور کوئی مستند شہادت نہیں کہ وہ اپنے وطن سے نکلے۔ «محاضرات الادباء»، «مفردات الفاظ القرآن» اور «الذریعہ الی مکارم الشریعہ» کے باعث مشہور — آخری کتاب سے غزالی نے اپنے «میزان العمل» کا نصف حصہ لیا — غالباً ربیع الآخر 412ھ میں فوت ہوئے {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390} {cite:kashf-zunun-furqan p. 197-198}۔"
 wings: [people]
+themes: [scripture-and-its-sciences, ethics-and-character]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/shadharat-dhahab]
+died: { hijri: "0412-04", edtf: "1021-06~", calendar: julian, precision: month, status: tradition, derived: true, note: "رجّح جواهرجي في مجلة مجمع دمشق أنه توفي في ربيع الآخر ٤١٢هـ وعدّه محقق كشف الظنون بحثاً معتمداً؛ وعند المتأخرين: ٤٠٢هـ (حاشية تاريخ حكماء الإسلام)، ٤٥٢هـ (أسعد طلس)، والقرن السادس/١١٠٨م (حاجي خليفة والأعلام). التحويل مشتق.", sources: [source/kashf-zunun-furqan] }
+relations:
+  - { type: born_in, target: place/isfahan, note: "وطنه أصفهان ولا دليل على أنه فارقها {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/isfahan, note: "لا دليل صحيح على أنه زار بغداد أو فارق أصفهان {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/isfahan, note: "لم يثبت أنه فارق وطنه أصفهان {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/mufradat-gharib-al-quran, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/muhadarat-al-udaba, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/al-dharia-makarim-sharia, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/tafsil-al-nashatayn, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/durrat-al-tawil, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/jami-al-tafsir-raghib, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/raghib-circle-ibn-abbad-385, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/raghib-writes-dabbi-390, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/raghib-mufradat-quran-405, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/raghib-dies-412, sources: [source/kashf-zunun-furqan] }
+sources: [source/encyclopaedia-of-islam-2, source/kashf-zunun-furqan, source/al-aalam]
 external_ids:
   wikidata: Q4115571
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0025
-status:
-  review: draft
-  completeness: 1
+  source: "EI2 vol. 8 pp. 389-390 (E. K. Rowson); Kashf al-Zunun (Furqan) editor's footnote pp. 197-198; al-Zirikli, al-A'lam 2/261-262"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-raghib-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

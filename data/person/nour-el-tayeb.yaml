@@ -1,0 +1,39 @@
+id: person/nour-el-tayeb
+class: person
+label: { ar: "نور الطيب", en: "Nour El Tayeb", ur: "نور الطیب" }
+names:
+  - { value: "Nour El Tayeb", kind: full }
+  - { value: "نور الطيب", kind: full }
+gender: female
+summary:
+  ar: "لاعبة اسكواش مصرية محترفة سابقة، وُلدت في القاهرة سنة 1993. وصلت إلى التصنيف الثالث عالميًا سنة 2018، وفازت مع مصر ببطولة العالم للفرق ثلاث مرات، واعتزلت في يوليو 2024."
+  en: "Egyptian former professional squash player, born in Cairo in 1993. She reached world No. 3 in 2018, won three world team titles with Egypt, and retired in July 2024."
+  ur: "مصری سابق پیشہ ور اسکواش کھلاڑی، 1993 میں قاہرہ میں پیدا ہوئیں۔ 2018 میں عالمی نمبر 3 رہیں، مصر کے ساتھ تین عالمی ٹیم خطابات جیتے، اور جولائی 2024 میں ریٹائر ہوئیں۔"
+roles: [squash player]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1993-03-08"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 8 March 1993 in Cairo (the English and Arabic articles and Wikidata agree; the Arabic article's category places her birth in 1413 AH). The Hijri year 1413 is the tabular conversion of 8 March 1993 and is marked derived."
+  sources: [source/wikipedia-nour-el-tayeb-en, source/wikipedia-nour-el-tayeb-ar, source/wikidata-nour-el-tayeb]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-nour-el-tayeb-en, source/wikipedia-nour-el-tayeb-ar, source/wikidata-nour-el-tayeb] }
+  - { type: spouse_of, target: person/ali-farag, sources: [source/wikipedia-nour-el-tayeb-en, source/wikipedia-nour-el-tayeb-ar, source/wikidata-nour-el-tayeb] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a religion for her, and Wikidata records no religion (P140) statement. Her nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-nour-el-tayeb-en, source/wikipedia-nour-el-tayeb-ar, source/wikidata-nour-el-tayeb]
+external_ids: { wikidata: "Q7063881" }
+sources: [source/wikipedia-nour-el-tayeb-en, source/wikipedia-nour-el-tayeb-ar, source/wikidata-nour-el-tayeb]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377318088), Arabic Wikipedia (revision 71196866) and Wikidata Q7063881 (item revision 2516300863, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property and confirmed from the Arabic article; existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub; her husband Ali Farag's record (built in wave 154) carried the marriage in prose only because she had no record then, so the spouse edge is written once, here; the English article dates her career-high world No. 3 to March 2018 while the Arabic article's lead says February 2018, and the record states only the year."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-155a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

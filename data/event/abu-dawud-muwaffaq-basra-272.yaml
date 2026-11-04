@@ -1,0 +1,29 @@
+id: event/abu-dawud-muwaffaq-basra-272
+class: event
+kind: other
+label:
+  ar: "خلال الموفّق الثلاث: استيطان أبي داود البصرة ٢٧٠هـ تقريباً"
+  en: "Al-Muwaffaq's three wishes: Abu Dawud settles at Basra, c. 272/885"
+  ur: "موفق کی تین خواہشیں: ابو داؤد کا بصرہ میں قیام، تقریباً 272ھ/885ء"
+summary:
+  ar: "حدّث الخطابي عن أبي بكر بن جابر خادم أبي داود قال: كنت مع أبي داود ببغداد فصلينا المغرب فجاءه الأمير أبو أحمد الموفق فدخل، فقال له أبو داود: ما جاء بالأمير في مثل هذا الوقت؟ قال: خلال ثلاث: تنتقل إلى البصرة فتتخذها وطناً ليرحل إليك طلبة العلم فتعمر بك، فإنها قد خربت وانقطع عنها الناس لما جرى عليها من محنة الزنج؛ وتروي لأولادي السنن؛ وتفرد لهم مجلساً فإن أولاد الخلفاء لا يقعدون مع العامة. قال: أما هذه فلا سبيل إليها، لأن الناس في العلم سواء. فكانوا يحضرون ويقعدون في كمّ ضُرب عليه ستر ويسمعون مع العامة {cite:tarikh-islam-dhahabi pp. 361-362}. وبذلك استقر بالبصرة {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}."
+  en: "Al-Khattabi reported from Abu Bakr ibn Jabir, Abu Dawud's servant: I was with Abu Dawud at Baghdad when, after the sunset prayer, the amir Abu Ahmad al-Muwaffaq came in. Abu Dawud asked what brought the amir at such an hour, and he answered: three wishes — move to Basra and make it your home so that seekers of knowledge travel to you and it flourishes through you, for it lies ruined and deserted after the ordeal of the Zanj; transmit the Sunan to my sons; and hold them a separate session, for the sons of caliphs do not sit with the common folk. Abu Dawud answered: as for that, there is no way — people are equal in knowledge. So the princes attended, sitting behind a curtain drawn over a sleeve, hearing with the rest {cite:tarikh-islam-dhahabi pp. 361-362}. He accordingly settled at Basra {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}."
+  ur: "خطابی نے ابو بکر بن جابر — ابو داؤد کے خادم — سے روایت کی: میں بغداد میں ابو داؤد کے ساتھ تھا کہ مغرب کی نماز کے بعد امیر ابو احمد موفق اندر آئے۔ ابو داؤد نے پوچھا امیر کو اس وقت کیا لایا؟ انہوں نے کہا: تین خواہشیں — بصرہ منتقل ہو کر اسے اپنا وطن بنا لو تاکہ طالبانِ علم تمہاری طرف آئیں اور وہ تمہارے سبب آباد ہو، کیونکہ وہ زنج کی محنت سے ویران پڑی ہے؛ میرے بیٹوں کو سنن روایت کرو؛ اور ان کے لیے الگ مجلس رکھو کیونکہ خلفا کے بیٹے عوام کے ساتھ نہیں بیٹھتے۔ ابو داؤد نے کہا: یہ ممکن نہیں، کیونکہ علم میں سب برابر ہیں۔ پھر وہ حاضر ہوتے، پردہ کئے ہوئے آستین میں بیٹھتے اور عوام کے ساتھ سنتے {cite:tarikh-islam-dhahabi pp. 361-362}۔ اسی طرح وہ بصرہ میں مستقر ہو گئے {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0884~", hijri: "0272~", calendar: julian, precision: decade, status: tradition, derived: true, note: "الدعوة بعد وصف البصرة بما جرى عليها من محنة الزنج (انقضت ٢٧٠هـ) وقبل وفاة أبي داود ٢٧٥هـ {cite:tarikh-islam-dhahabi pp. 361-362}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi], note: "كان معه ببغداد حين جاءه الموفق بعد صلاة المغرب {cite:tarikh-islam-dhahabi p. 361}" }
+  - { type: occurred_at, target: place/basra, sources: [source/tarikh-islam-dhahabi], note: "انتقل إلى البصرة فاتخذها وطناً {cite:tarikh-islam-dhahabi p. 361}" }
+  - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "المطلوب إليه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "الأمير صاحب الخلال", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "تاريخ الإسلام للذهبي س.a. 275 طبعة تدمري ص361-362 (harvest OCR v20 pages 361-362); Encyclopaedia of Islam 2nd ed. vol. 1, art. Abu Dawud al-Sidjistani, printed p. 133"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-abu-dawud-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

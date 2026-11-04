@@ -1,13 +1,16 @@
 id: event/kaykhusraw-restoration-600
 class: event
 kind: conquest
-label: { ar: "ملك كيخسرو بلاد الروم من ابن أخيه", en: "Kaykhusraw I's restoration to the Rum Sultanate (600 AH)" }
+label: { ar: "ملك كيخسرو بلاد الروم من ابن أخيه", en: "Kaykhusraw I's restoration to the Rum Sultanate (600 AH)", ur: "کیخسرو اول کی سلطنتِ روم پر بحالی (600ھ)" }
 summary:
   ar: "في رجب سنة ستمائة ملك غياث الدين كيخسرو بن قلج أرسلان بلاد الروم؛ كان قد هرب من أخيه ركن الدين سليمان الذي أخذ قونية، فقصد الملك الظاهر صاحب حلب فلم يجد عنده قبولاً، وتقلب في البلاد حتى وصل القسطنطينية فأحسن إليه ملك الروم وأقطعه وتزوج ابنة بطريق كبير، فلما ملك الفرنج القسطنطينية هرب إلى حميه بقلعته؛ فلما مات أخوه سنة ستمائة خالف الأتراك الأوج على ابن أخيه واستدعوا غياث الدين، فسار وقصد قونية فهزمه عسكر ابن أخيه، فبقي حيران لا يدري أين يتوجه حتى وثب أهل أقصرا على الوالي ونادوا بشعار غياث الدين، فلما سمع أهل قونية قالوا نحن أولى لأنه كان حسن السيرة فينا، فنادوا باسمه وأخرجوا من عندهم واستدعوه فملك المدينة وقبض ابن أخيه ومن معه، وجمع الله له البلاد جميعها في ساعة واحدة {cite:kamil-ibn-al-athir p. 237-238}."
   en: "Rajab 600: Ghiyath al-Din Kaykhusraw's astonishing restoration — the exile who had been snubbed at Aleppo, pensioned in Constantinople and married to a patrician's daughter before the Frankish sack, was called back by the Oghuz Turks on his brother's death, routed before Konya — until the people of Aksaray rose crying his name and Konya followed: 'in one hour God gathered the whole kingdom for him' {cite:kamil-ibn-al-athir p. 237-238}."
 date:
   start: { hijri: "0600-07", edtf: "1204-03", calendar: julian, precision: month, status: tradition, note: "رجب ٦٠٠هـ {cite:kamil-ibn-al-athir p. 237-238}.", sources: [source/kamil-ibn-al-athir] }
 relations:
+- type: occurred_at
+  target: place/konya
+  sources: [source/kamil-ibn-al-athir]
 - type: had_participant
   target: person/ghiyath-al-din-kaykhusraw-i
   role: "السلطان المسترد لملك الروم"
@@ -21,4 +24,4 @@ provenance:
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 237-238"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-15
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); occurred_at Konya + ur added by Devin (SWE-2 Medium)" }

@@ -13,9 +13,12 @@ relations:
   - { type: had_participant, target: person/al-muhallab-ibn-abi-sufra, role: "من الأشراف وحامل البشارة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/kabul }
 wings: [time]
-sources: [source/futuh-buldan-maarif-1407]
+date:
+  start: { edtf: "0664~", hijri: "0044~", calendar: julian, precision: year, status: tradition, derived: true, note: "في أيام معاوية بعد استعماله ابن عامر على البصرة؛ وغزوة المهلب إلى ثغر السند في السياق نفسه سنة ٤٤؛ التحويل مشتق {cite:futuh-buldan-maarif-1407} {cite:mujam-al-buldan-yaqut}.", sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut] }
+sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407)، ثغور الهند، قراءة آبل فيجن؛ ومعجم البلدان لياقوت مادة «بنة» لغزوة المهلب سنة ٤٤"
+  generated_by: "Devin (SWE-2 Medium)"
   extraction_flow: "Apple Vision OCR -> manual extraction"

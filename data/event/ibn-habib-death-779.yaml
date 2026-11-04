@@ -1,0 +1,27 @@
+id: event/ibn-habib-death-779
+class: event
+kind: other
+label:
+  ar: "وفاة ابن حبيب الحلبي بحلب، ربيع الآخر ٧٧٩هـ"
+  en: "Death of Ibn Habib al-Halabi at Aleppo, Rabi' II 779/1377"
+  ur: "ابن حبیب حلبی کی وفات، حلب، ربیع الآخر 779ھ/1377ء"
+summary:
+  ar: "توفي الشيخ الإمام بدر الدين حسن بن زين الدين عمر بن حبيب الحلبي الشافعي بحلب عن سبعين سنة، وكان قد باشر كتابة الملك وكتابة الإنشاء ونيابة القضاء ونيابة كتابة السر، وكان إمام عصره في صناعتي الإنشاء والشروط، وانقطع في آخر عمره بعزله {cite:nujum-zahira 11/189} {cite:durar-kamina-jil-1993 2/29-30}؛ ومات في ربيع الآخر سنة ٧٧٩هـ وله ولد طاهر {cite:durar-kamina-jil-1993 2/30} {cite:al-aalam 2/218-219}."
+  en: "The shaykh and imam Badr al-Din Hasan ibn Zayn al-Din 'Umar ibn Habib al-Halabi al-Shafi'i died at Aleppo aged about seventy, having served in royal and chancery letter-writing and as deputy qadi and deputy secretary of the privy chancery; he was the master of his age in insha' and shurut, and late in life was dismissed {cite:nujum-zahira 11/189} {cite:durar-kamina-jil-1993 2/29-30}. He died in Rabi' II 779 leaving a son, Tahir {cite:durar-kamina-jil-1993 2/30} {cite:al-aalam 2/218-219}."
+  ur: "شیخ امام بدر الدین حسن بن زین الدین عمر بن حبیب حلبی شافعی حلب میں تقریباً ستر سال کی عمر میں فوت ہوا؛ اس نے کتابۃ الملک اور کتابۃ الانشاء اور نیابۃ القضاء اور نیابۃ کتابۃ السر کے منصب سنبھالے تھے، انشاء اور شروط میں اپنے عصر کا امام تھا اور آخری زندگی میں عزل ہوا {cite:nujum-zahira 11/189} {cite:durar-kamina-jil-1993 2/29-30}۔ ربیع الآخر 779ھ میں وفات پائی، بیٹا طاہر چھوڑا {cite:durar-kamina-jil-1993 2/30} {cite:al-aalam 2/218-219}."
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1377-08", hijri: "0779-04", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في ربيع الآخر سنة ٧٧٩هـ {cite:durar-kamina-jil-1993 2/30}؛ توفي بحلب {cite:nujum-zahira 11/189}؛ التحويل الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/nujum-zahira] }
+  - { type: had_participant, target: person/ibn-habib-al-halabi, role: "المتوفى", sources: [source/durar-kamina-jil-1993, source/nujum-zahira] }
+sources: [source/durar-kamina-jil-1993, source/nujum-zahira, source/al-aalam]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar, al-Durar al-Kamina 2/29-30 (archive.org DurarKamina OCR); Ibn Taghribirdi, al-Nujum al-Zahira 11/189 (archive.org Nojoom_Zahera OCR); al-Zirikli, al-A'lam 2/218-219 (archive.org Al_Alam_Zarkali OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-habib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

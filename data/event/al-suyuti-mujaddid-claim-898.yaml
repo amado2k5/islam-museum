@@ -1,0 +1,27 @@
+id: event/al-suyuti-mujaddid-claim-898
+class: event
+kind: declaration
+label:
+  ar: "السيوطي يعلن نفسه مجدّد القرن التاسع، نحو ٨٩٨هـ"
+  en: "Al-Suyuti announces himself as the renewer of the ninth century, c. 898/1492"
+  ur: "سیوطی کا نویں صدی کے مجدد ہونے کا اعلان، تقریباً 898ھ/1492ء"
+summary:
+  ar: "في توافق مع دعواه الاجتهاد، أعلن السيوطي قبل سنة ٩٠٠هـ/١٤٩٤م بسنتين أو ثلاث أنه مجدّد الإسلام للقرن التاسع من الهجرة، وخصّص لذلك رسالة في «الحاوي» وذكره في سيرته «التحدث بنعمة الله» {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  en: "In consistency with his claim to ijtihad, al-Suyuti, two or three years before 900/1494, announced himself as the renewer (mujaddid) of Islam for the ninth century of the Hijra — the subject of an epistle in his Hawi and of a passage in his autobiography al-Tahadduth bi-niʿmat Allah {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  ur: "اجتہاد کے دعوے کے مطابق، سیوطی نے 900ھ/1494ء سے دو تین سال پہلے خود کو ہجری کی نویں صدی کے لیے اسلام کا مجدد قرار دیا — اس موضوع پر ان کی رسالہ «الحاوی» میں اور سوانح «التحدث بنعمۃ اللہ» میں تذکرہ ہے {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1492~", hijri: "0898", calendar: julian, precision: year, status: historical, derived: true, note: "قبل سنة ٩٠٠هـ/١٤٩٤م بسنتين أو ثلاث؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-suyuti, role: "صاحب الإعلان", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed pp. 913-915, art. al-Suyuti (E. Geoffroy); shadharat-dhahab"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-suyuti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

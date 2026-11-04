@@ -3,7 +3,7 @@ import { graph, realNodes } from "../../../../lib/graph";
 
 const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job",
 ] as const;
 
 export const GET: APIRoute = () => {

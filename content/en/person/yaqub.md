@@ -54,3 +54,6 @@ The Sheikh draws an educational lesson from the story of Ya'qub and Yusuf: when 
 
 ## From Omar Abdelkafy's programme Bustan al-Amal
 At the opening of 'Bustan al-Amal' the Sheikh cites Ya'qub's words to his sons: go and seek news of Yusuf and his brother, and do not despair of God's mercy, as an example that the believer does not despair. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:30}
+
+## In Ahmad Farid's lessons 'The Boat'
+In [[work/the-boat-ahmad-farid|'The Boat']] [[person/ahmad-farid|Ahmad Farid]] offers Jacob as the example of faith as consolation in calamity. {cite:assabile-ahmad-farid the-boat/ep04 00:04:30} He describes how Jacob loved his son [[person/yusuf|Joseph]], and how, when Joseph's brothers asked to take him out to play, he excused himself twice: first that their taking him would grieve him, then that he feared a wolf would eat him while they were heedless. {cite:assabile-ahmad-farid the-boat/ep04 00:04:30} He asks how Jacob could have borne so long a separation with beautiful patience had God not made him patient through faith. {cite:assabile-ahmad-farid the-boat/ep04 00:05:00}

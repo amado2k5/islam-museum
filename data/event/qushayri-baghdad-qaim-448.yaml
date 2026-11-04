@@ -1,0 +1,28 @@
+id: event/qushayri-baghdad-qaim-448
+class: event
+kind: other
+label:
+  ar: "القشيري ببغداد محدّثاً في قصر القائم، ٤٤٨هـ"
+  en: "Al-Qushayri at Baghdad, teaching hadith in the caliph al-Qa'im's palace, 448/1056"
+  ur: "قشیری بغداد میں خلیفہ قائم کے قصر میں حدیث پڑھاتے ہوئے، 448ھ/1056ء"
+summary:
+  ar: "امتدّت مسيرة القشيري في أثناء المحنة إلى بغداد فورد على الخليفة القائم بأمر الله ولقي قبولاً، وعقد له المجلس في منازله المخصصة به بمحضر منه ومرأى، وخرج الأمر بإعزازه وإكرامه؛ وعند دائرة المعارف كلفه القائم بتدريس الحديث في قصره سنة ٤٤٨هـ {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:tarikh-islam-dhahabi p. 175}."
+  en: "Al-Qushayri's wanderings in the ordeal reached Baghdad, where he came before the caliph al-Qa'im bi-amr Allah and was received with favour: a session was held for him in the caliph's own residence, in his presence and under his eye, and a decree of honour was issued for him — the Encyclopaedia of Islam dates al-Qa'im's commission to teach hadith in the palace to 448/1056 {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:tarikh-islam-dhahabi p. 175}."
+  ur: "قشیری کا سفرِ محنت بغداد تک پہنچا، جہاں وہ خلیفہ قائم بأمر اللہ کی بارگاہ میں حاضر ہوئے اور قدر و منزلت پائی: ان کے لیے خلیفہ کی اپنی رحیش گاہ میں ان کی موجودگی میں مجلس قائم ہوئی اور اعزاز کا فرمان صادر ہوا — دائرۃ المعارف کے مطابق قائم نے انھیں 448ھ/1056ء میں قصر میں تدریسِ حدیث کی ذمہ داری دی {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:tarikh-islam-dhahabi p. 175}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1056", hijri: "0448", calendar: julian, precision: year, status: tradition, derived: true, note: "ذهب إلى بغداد سنة ٤٤٨هـ فكلفه الخليفة القائم بتدريس الحديث في قصره {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}؛ وورد على القائم فعقد له المجلس في منازله وأخرج الأمر بإعزازه {cite:tarikh-islam-dhahabi p. 175}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qushayri-abu-l-qasim, role: "محدّث القصر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qaim-bi-amr-illah, role: "الخليفة المُكرِم", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.1 art. AL-KUSHAYRI printed p. 564; al-Dhahabi, Tarikh al-Islam s.a. 465, printed p. 175 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qushayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

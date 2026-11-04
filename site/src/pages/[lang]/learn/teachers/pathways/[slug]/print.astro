@@ -29,7 +29,7 @@ const rooms: any[] = d.rooms ?? [];
 ---
 <BaseLayout lang={lang} title={`${pathwayTitle(n, lang)} · ${E.tp_print_view}`} description={summaryOf(n, lang)} path={path} alternates={alternates} noindex={true}>
   <div class="wrap edu tpp" style="padding-block:10px 24px">
-    <p class="ui no-print"><a href={pathwayPath(lang, n)}>← {labelOf(n, lang)}</a> · <button type="button" class="chip" style="border:1px solid var(--gold);cursor:pointer" onclick="window.print()">{E.tp_print}</button></p>
+    <p class="ui no-print"><a href={pathwayPath(lang, n)}><span class="flip" aria-hidden="true">←</span> {labelOf(n, lang)}</a> · <button type="button" class="chip" style="border:1px solid var(--gold);cursor:pointer" onclick="window.print()">{E.tp_print}</button></p>
     <section class="tpp-sheet">
       <h1 style="margin:0 0 .3rem">{labelOf(n, lang)}</h1>
       <p class="ui muted" style="margin:0 0 .6rem">{fmt(E.tp_grade_fmt, { g: c.grade })} · {loc(c.course_title)} <span dir="ltr">({c.course})</span> · {E.tp_strand} <span dir="ltr">{c.strand}</span>{(c.expectations ?? []).length > 0 && <> · <span dir="ltr">{c.expectations.join(", ")}</span></>} · {fmt(E.tp_duration, { n: String(d.duration_minutes) })}</p>

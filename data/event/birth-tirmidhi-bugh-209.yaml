@@ -1,0 +1,27 @@
+id: event/birth-tirmidhi-bugh-209
+class: event
+kind: birth
+label:
+  ar: "مولد أبي عيسى الترمذي بقرية بوغ قرب ترمذ، ذو الحجة ٢٠٩هـ"
+  en: "Birth of Abu 'Isa al-Tirmidhi at the village of Bugh near Tirmidh, Dhu al-Hijja 209/825"
+  ur: "ابوعیسیٰ ترمذی کی پیدائش ترمذ کے قریب دیہات بوغ میں، ذوالحجہ 209ھ/825ء"
+summary:
+  ar: "وُلد محمد بن عيسى بن سورة بن موسى بن الضحاك السلمي أبو عيسى الترمذي في ذي الحجة سنة تسع ومائتين بقرية بوغ من أحواز ترمذ على نهر جيحون — أو بمدينة ترمذ نفسها على رواية أخرى — وكان أصله في بني سليم من غيلان {cite:mawsuat-a3lam-ulama-adaba p. 450}، وذُكر مولده سنة عشر ومائتين {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
+  en: "Muhammad ibn 'Isa ibn Sawra ibn Musa ibn al-Dahhak al-Sulami, Abu 'Isa al-Tirmidhi, was born in Dhu al-Hijja 209/825 at the village of Bugh in the district of Tirmidh on the Jayhun (Oxus) — or at the town of Tirmidh itself on another report — his origin lying with the Banu Sulaym of Ghaylan {cite:mawsuat-a3lam-ulama-adaba p. 450}; his birth is also given as 210/825 {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
+  ur: "محمد بن عیسیٰ بن سورہ بن موسیٰ بن ضحاک سلمی ابوعیسیٰ ترمذی ذوالحجہ 209ھ/825ء میں ترمذ کے اطراف کے گاؤں بوغ میں دریائے جیحون کے کنارے پیدا ہوئے — ایک روایت کے مطابق خود شہر ترمذ میں — ان کا تعلق بنو سلیم قبیلے کے غیلان شاخ سے تھا {cite:mawsuat-a3lam-ulama-adaba p. 450}؛ ان کی پیدائش 210ھ/825ء بھی بیان ہوئی ہے {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0825~", hijri: "0209-12", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في ذي الحجة سنة تسع ومائتين {cite:mawsuat-a3lam-ulama-adaba p. 450}؛ وذكر المولد سنة ٢١٠هـ {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/tirmidh, sources: [source/mawsuat-a3lam-ulama-adaba], note: "بوغ قرية من أحواز ترمذ على جيحون {cite:mawsuat-a3lam-ulama-adaba p. 450}" }
+  - { type: had_participant, target: person/al-tirmidhi-muhammad-ibn-isa, role: "المولود", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص450 (harvest OCR v04 page-450); Encyclopaedia of Islam 2nd ed. vol. 10, art. al-Tirmidhi, printed p. 579"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-tirmidhi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

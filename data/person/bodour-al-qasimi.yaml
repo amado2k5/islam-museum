@@ -1,0 +1,38 @@
+id: person/bodour-al-qasimi
+class: person
+label: { ar: "بدور بنت سلطان القاسمي", en: "Bodour bint Sultan Al Qasimi", ur: "بدور بنت سلطان القاسمی" }
+names:
+  - { value: "Bodour bint Sultan bin Mohammed Al Qasimi", kind: full }
+  - { value: "Bodour bint Sultan Al Qasimi", kind: alternate }
+  - { value: "Bodour Al Qasimi", kind: alternate }
+gender: female
+summary:
+  ar: "بدور بنت سلطان القاسمي (وُلدت سنة 1978) ناشرة ومسؤولة عامة إماراتية وابنة حاكم الشارقة. أسست مجموعة كلمات، أول دار إماراتية متخصصة في كتب الأطفال بالعربية، سنة 2007، وشاركت في تأسيس جمعية الناشرين الإماراتيين سنة 2009، وترأست الاتحاد الدولي للناشرين في 2021–2022، أول رئيس عربي له وثاني امرأة تتولى رئاسته. وهي رئيسة الجامعة الأميركية في الشارقة منذ 2022، وعُيّنت سنة 2025 سفيرة للنوايا الحسنة لدى اليونسكو للتربية وثقافة الكتاب."
+  en: "Bodour bint Sultan Al Qasimi (born 1978) is an Emirati publisher and public official, a daughter of the Ruler of Sharjah. She founded Kalimat Group, the UAE's first dedicated Arabic children's publisher, in 2007, co-founded the Emirates Publishers Association in 2009, and served as president of the International Publishers Association in 2021–2022 — its first Arab president and second woman president. She has been president of the American University of Sharjah since 2022, and in 2025 she was appointed a UNESCO Goodwill Ambassador for Education and Book Culture."
+  ur: "بدور بنت سلطان القاسمی (پیدائش 1978) اماراتی ناشر اور عوامی عہدیدار ہیں، حاکمِ شارجہ کی صاحبزادی۔ انھوں نے 2007 میں کلیمات گروپ قائم کیا، جو عربی بچوں کی کتابوں کا پہلا مخصوص اماراتی اشاعتی ادارہ تھا، 2009 میں امارات پبلشرز ایسوسی ایشن کی شریک بانی رہیں، اور 2021–2022 میں بین الاقوامی ناشران انجمن (آئی پی اے) کی صدر رہیں — اس کی پہلی عرب اور دوسری خاتون صدر۔ وہ 2022 سے امریکن یونیورسٹی آف شارجہ کی صدر ہیں اور 2025 میں انہیں تعلیم و کتابی ثقافت کے لیے یونیسکو کی خیرسگالی سفیر مقرر کیا گیا۔"
+roles: [businesswoman, writer]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1978"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "The English article, the Arabic article and Wikidata agree on the year 1978 and give no day; the English article says she was born in Sharjah to Sultan bin Muhammad Al-Qasimi, Ruler of Sharjah since 1972, and Sheikha Jawaher bint Mohammed Al Qasimi. A bare year 1978 spans the two Hijri years 1398 and 1399, so no Hijri year is recorded."
+  sources: [source/wikipedia-bodour-al-qasimi-en, source/wikipedia-bodour-al-qasimi-ar, source/wikidata-bodour-al-qasimi]
+relations:
+  - { type: sibling_of, target: person/hoor-al-qasimi, sources: [source/wikipedia-sultan-bin-muhammad-al-qasimi-en, source/wikipedia-hoor-al-qasimi-ar, source/wikipedia-bodour-al-qasimi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for Bodour Al Qasimi
+      herself, and Wikidata carries no religion statement for her.
+      Her descent from the Ruler of Sharjah is family background,
+      which never settles faith under the founder doctrine. Her
+      faith is recorded as unknown.
+    sources: [source/wikipedia-bodour-al-qasimi-en, source/wikipedia-bodour-al-qasimi-ar, source/wikidata-bodour-al-qasimi]
+external_ids: { wikidata: "Q19601168" }
+sources: [source/wikipedia-bodour-al-qasimi-en, source/wikipedia-bodour-al-qasimi-ar, source/wikidata-bodour-al-qasimi, source/wikipedia-sultan-bin-muhammad-al-qasimi-en]
+provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article (revision 1368463295 of 9 August 2026), the Arabic Wikipedia article (revision 76936539 of 10 October 2026) and Wikidata Q19601168 (revision 2517584621 of 15 July 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session via the MediaWiki API; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Urdu Wikipedia article exists for her (the Wikidata item carries no urwiki sitelink), so no Urdu source is registered. RELATIONS - the sibling edge to Hoor Al Qasimi is written once, here in the elder sister's record (Bodour 1978, Hoor 1980, both years attested in the texts). BRIEF CORRECTION - the brief supposed the sisters to be half-sisters at most with different mothers reported; the texts say otherwise - the English article on Sultan bin Muhammad Al-Qasimi lists Bodour and Hoor among the children of the same wife, Jawaher bint Mohammed Al Qasimi (the father's article is registered as a source for this attestation), Bodour's own article names Jawaher as her mother, and the Arabic article on Hoor names the same mother for Hoor, so the sibling relation itself is attested by text. No child_of edge is written - the father has no person record on main. Her husband, Sultan bin Ahmed Al Qasimi, has no record on main, so no spouse edge is written. Faith - no text names a school for her herself and Wikidata carries no religion statement, so unknown.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-173a" }
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

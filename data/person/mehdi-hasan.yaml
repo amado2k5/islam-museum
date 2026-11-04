@@ -1,0 +1,66 @@
+id: person/mehdi-hasan
+class: person
+
+label: { ar: "مهدي حسن", en: "Mehdi Hasan", ur: "مہدی حسن" }
+
+names:
+  - { value: "Mehdi Raza Hasan", kind: full }
+  - { value: "مهدي رضا حسن", kind: full }
+
+gender: male
+
+summary:
+  ar: "مذيع وصحفي ومؤلف بريطاني أمريكي، وُلد في سويندون سنة 1979 لأبوين مهاجرين من الهند. عمل محررًا سياسيًا في «نيو ستيتسمان» و«هافنغتون بوست» البريطانية ومقدّمًا في الجزيرة الإنجليزية (برنامجا «هيد تو هيد» و«أب فرونت»)، وقدّم برنامجه على إم إس إن بي سي حتى إلغائه سنة 2023، وألّف كتاب «اربح كل جدال» (2023)، وأسس سنة 2024 شركة «زيتيو» الإعلامية وكتب في «الغارديان»."
+  en: "British-American broadcaster, journalist and author, born in Swindon in 1979 to Indian immigrant parents. A former New Statesman and HuffPost UK politics editor and an Al Jazeera English presenter (Head to Head, UpFront), he hosted The Mehdi Hasan Show on MSNBC until its cancellation in 2023, wrote Win Every Argument (2023), and in 2024 founded the media company Zeteo and joined The Guardian as a columnist."
+  ur: "برطانوی نژاد امریکی نشریاتی صحافی اور مصنف، جو 1979 میں سونڈن میں بھارتی مہاجر والدین کے ہاں پیدا ہوئے۔ نیو سٹیٹس مین اور ہف پوسٹ برطانیہ کے سیاسی مدیر اور الجزیرہ انگلش کے پیش کار (ہیڈ ٹو ہیڈ، اپ فرنٹ) رہے؛ ایم ایس این بی سی پر ان کا شو 2023 میں بند ہوا؛ 2023 میں کتاب «ون ایوری آرگیومنٹ» لکھی اور 2024 میں میڈیا کمپنی زیٹیو قائم کی اور گارڈین کے کالم نگار بنے۔"
+
+roles: [journalist, presenter, writer]
+wings: [people, living]
+regions: [andalus-europe, americas-oceania]
+
+born:
+  edtf: "1979-07-10"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Swindon, Wiltshire, on 10 July 1979; the English and Arabic articles and Wikidata agree. No place entity for Swindon exists in the museum, so no born_in edge is written. The Hijri year 1399 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-mehdi-hasan-en, source/wikipedia-mehdi-hasan-ar, source/wikidata-mehdi-hasan]
+
+relations: []
+
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: >-
+      Settled for the man himself under the founder's rulings of
+      1 November 2026. The Arabic Wikipedia's biographical text
+      describes Hasan, of himself, as a Twelver Shia Muslim, and its
+      infobox cites his own published post of 13 August 2021, which
+      opens with the words I'm a Shia Muslim. The YesPress profile,
+      independent of the encyclopedia tradition, states that he
+      identifies as a Twelver Shia Muslim and has been open about
+      that faith throughout his career. Two independent texts
+      therefore name the Twelver branch for him, and the mapping
+      from their word Shia to this value is stated here rather than
+      assumed silently. That his parents were Shia Muslims from
+      Hyderabad is family background and was not the basis of this
+      settlement, and Wikidata's structured religion values were
+      not used.
+    sources: [source/wikipedia-mehdi-hasan-ar, source/yespress-mehdi-hasan]
+
+external_ids: { wikidata: "Q6809310" }
+
+sources:
+  - source/wikipedia-mehdi-hasan-en
+  - source/wikipedia-mehdi-hasan-ar
+  - source/wikidata-mehdi-hasan
+  - source/yespress-mehdi-hasan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mehdi Hasan' (revision 1382505451 of 29 October 2026), Arabic Wikipedia article «مهدي حسن» (revision 76933842 of 9 October 2026), Wikidata Q6809310 (item revision 2548838398 of 23 September 2026) and the YesPress profile, fetched live in-session via the MediaWiki API and the profile site on 1 November 2026, the Wikidata revision re-asserted against a second live query and each QID grounded from the article's own page property. Existence checked by slug and name fragments across data/person/ — no prior record and no draft stub; person/mehdi-hassan is the Pakistani singer, a different man. The century queue's year 1979 is confirmed, with the day from the articles."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-163a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

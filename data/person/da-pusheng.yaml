@@ -48,3 +48,9 @@ provenance:
   source: "Chinese Wikipedia '达浦生' (revision 85222869 of 6 December 2024) and Wikidata item Q15929322 (item revision 2516542508 of 12 July 2026), fetched through the MediaWiki/Wikidata APIs on 27 October 2026, the article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the Chinese article's page properties; he has no English, Arabic or Urdu article. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q15929322, and no Arabic label is shared with any existing record, so no homonym entry is required. No student_of edge to Wang Haoran is written: he has no museum record. No founder_of edge is written for the Shanghai Islamic Normal School, founded in 1928 with Ma Fuxiang as chairman and Da Pusheng as principal, because no group record for the school exists. His appointment by Ma Linyi to direct the Gansu Hui education-promotion office, attested in this article, has no predicate in the registry."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-99
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-da-pusheng-zh, source/wikidata-da-pusheng]

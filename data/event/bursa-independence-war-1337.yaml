@@ -1,0 +1,24 @@
+id: event/bursa-independence-war-1337
+class: event
+kind: war
+label: { ar: "بورصة في حرب الاستقلال التركية", en: "Bursa in the Turkish war of independence", ur: "ترک جنگِ آزادی میں بورصہ" }
+summary:
+  ar: "تضررت صناعة الحرير البورصية ضرراً شديداً في زمن حرب الاستقلال (1337-1341هـ/1919-1922م)، ثم تحقق لها إنعاش جزئي في ظل السياسة الحمائية للجمهورية التركية {cite:encyclopaedia-of-islam-2 vol. 1 p. 1399}."
+  en: "Bursa's silk industry was badly hit in the years of the Turkish war of independence (1337-1341/1919-1922), before a partial recovery under the Turkish Republic's protectionist policy {cite:encyclopaedia-of-islam-2 vol. 1 p. 1399}."
+  ur: "ترک جنگِ آزادی کے برسوں (1337-1341ھ/1919-1922ء) میں بورصہ کی ریشم صنعت کو سخت نقصان ہوا، پھر ترک جمہوریہ کی حمائتی پالیسی میں جزئی بحالی ہوئی {cite:encyclopaedia-of-islam-2 vol. 1 p. 1399}۔"
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1919", hijri: "1337", calendar: julian, precision: year, status: tradition, derived: true, note: "1337-1341هـ/1919-1922م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1399}." }
+  end: { edtf: "1922", hijri: "1341", calendar: julian, precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/bursa, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 1 BURSA, PDF p. 1399 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

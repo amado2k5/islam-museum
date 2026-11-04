@@ -1,0 +1,28 @@
+id: event/al-qurtubi-studies-alexandria-656
+class: event
+kind: other
+label:
+  ar: "القرطبي يسمع المفهم على مؤلفه بالإسكندرية، سنة ٦٥٦هـ"
+  en: "Al-Qurtubi hears part of al-Mufhim from its author at Alexandria, 656/1258"
+  ur: "قرطبی نے اسکندریہ میں مؤلف سے «المفھم» کا حصہ سنا، 656ھ/1258ء"
+summary:
+  ar: "سمع القرطبي من الشيخ أبي العباس أحمد بن عمر القرطبي، نزيل الإسكندرية وصاحب «المفهم في شرح مسلم»، بعض هذا الشرح {cite:nafh-tib-maqqari 2/211}؛ وحدث الشيخ بمصر ومات بالثغر في رابع عشر ذي القعدة سنة ست وخمسين وستمائة {cite:siyar-alam-nubala 17/98}. وسمع القرطبي أيضًا عن أبي الحسن علي بن محمد بن علي بن حفص اليحصبي، وعن الحافظ أبي علي الحسن بن محمد بن محمد البكري {cite:nafh-tib-maqqari 2/211}."
+  en: "Al-Qurtubi heard part of al-Mufhim, the commentary on Sahih Muslim, from its author Abu al-Abbas Ahmad ibn Umar al-Qurtubi (Ibn al-Muzayyin), the famous hadith scholar resident at Alexandria {cite:nafh-tib-maqqari 2/211}; the master taught in Egypt and died at the thaghr on 14 Dhu al-Qa'da 656 {cite:siyar-alam-nubala 17/98}. Al-Qurtubi also heard from Abu al-Hasan Ali ibn Muhammad al-Yahsubi and the hafiz Abu Ali al-Hasan ibn Muhammad al-Bakri {cite:nafh-tib-maqqari 2/211}."
+  ur: "قرطبی نے صحیح مسلم کی شرح «المفھم» کا ایک حصہ اس کے مؤلف ابو العباس احمد بن عمر قرطبی (ابن مزین) سے سنا جو اسکندریہ کے معروف محدث مقیم تھے {cite:nafh-tib-maqqari 2/211}؛ شیخ نے مصر میں حدیث پڑھائی اور 14 ذوالقعدہ 656ھ کو ثغر میں فوت ہوئے {cite:siyar-alam-nubala 17/98}۔ قرطبی نے ابو الحسن علی بن محمد یحصبی اور حافظ ابو علی حسن بن محمد بکری سے بھی سماعت کی {cite:nafh-tib-maqqari 2/211}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1258-11~", hijri: "0656-11", calendar: julian, precision: month, status: tradition, derived: true, note: "وفاة شيخه ابن المزين بالثغر في 14 ذو القعدة 656 {cite:siyar-alam-nubala 17/98}؛ وسماعه منه قبل ذلك {cite:nafh-tib-maqqari 2/211}.", sources: [source/siyar-alam-nubala, source/nafh-tib-maqqari] }
+relations:
+  - { type: occurred_at, target: place/alexandria, sources: [source/siyar-alam-nubala] }
+  - { type: had_participant, target: person/al-qurtubi, role: "الطالب", sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/ahmad-ibn-umar-al-qurtubi-mufhim, role: "الشيخ", sources: [source/nafh-tib-maqqari, source/siyar-alam-nubala] }
+sources: [source/nafh-tib-maqqari, source/siyar-alam-nubala]
+provenance:
+  layer: own-research
+  source: "al-Maqqari, Nafh al-Tib (Dar Sadir) vol. 2 printed p. 211; al-Dhahabi, Siyar A'lam al-Nubala (Risala) vol. 17 printed p. 98 — Apple Vision OCR of local scans"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qurtubi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

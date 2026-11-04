@@ -2,9 +2,7 @@
 id: person/sallam-al-qari
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 20"]
 ---
 ## Overview
-Sallam al-Qari, known by the kunya Abu al-Mundhir, and called by the people of justice Abu al-Mudabbir. Ibn al-Nadim reports that he found his slave with his slave-girl, and asked him about it. The slave said: "This is God's decree." Sallam said to him: "You are free, because of your knowledge of decree and destiny." And he married him the slave-girl {cite:fihrist-ibn-al-nadim p.256}.
-
-The entry needs an additional source. The data does not record his period, nor anything beyond this anecdote.
+Sallam al-Qari, Abu'l-Mundhir, whom the people of justice called Abu'l-Mudabbir; he told his slave 'You are free for your knowledge of decree and destiny' and married him to his slave girl; it is said he forged traditions on the affair of qadar to expose people. {cite:fihrist-ibn-al-nadim p. 268}

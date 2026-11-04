@@ -1,0 +1,27 @@
+id: event/death-taj-al-din-771
+class: event
+kind: other
+label:
+  ar: "وفاة تاج الدين السبكي بدمشق، ٧ ذي الحجة ٧٧١هـ"
+  en: "Death of Taj al-Din al-Subki in Damascus, 7 Dhu al-Hijja 771"
+  ur: "تاج الدین سبکی کی وفات، دمشق، 7 ذی الحجہ 771ھ"
+summary:
+  ar: "توفي قاضي القضاة تاج الدين عبد الوهاب بن تقي الدين السبكي بدمشق ليلة الثلاثاء سابع ذي الحجة سنة ٧٧١هـ، أي نحو ٢ يوليو ١٣٧٠م، وقد خُطب يوم الجمعة قبلها فطُعن ليلة السبت رابع الشهر؛ وتذكر الموسوعة الإسلامية أنه مات بالطاعون بعد قليل من إطلاقه {cite:durar-kamina-jil-1993 2/426-427} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
+  en: "Chief qadi Taj al-Din Abd al-Wahhab ibn Taqi al-Din al-Subki died in Damascus on the night of Tuesday 7 Dhu al-Hijja 771 (c. 2 July 1370), having been stricken on the preceding Saturday night after the Friday sermon; the Encyclopaedia of Islam records that he died of plague soon after his release {cite:durar-kamina-jil-1993 2/426-427} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
+  ur: "قاضی القضاة تاج الدین عبد الوہاب بن تقی الدین سبکی دمشق میں منگل کی رات 7 ذی الحجہ 771ھ (تقریباً 2 جولائی 1370ء) کو فوت ہوئے؛ جمعے کی خطبت کے بعد ہفتے کی رات اچانک بیمار ہوئے تھے۔ اسلامی دائرۃ المعارف کے مطابق وہ رہائی کے فوراً بعد طاعون سے فوت ہوئے {cite:durar-kamina-jil-1993 2/426-427} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1370-07-02~", hijri: "0771-12-07", calendar: julian, precision: day, status: historical, derived: true, note: "مات ليلة الثلاثاء سابع ذي الحجة سنة ٧٧١هـ {cite:durar-kamina-jil-1993 2/426-427} = ٧ ذي الحجة ٧٧١هـ/٢ يوليو ١٣٧٠م {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/taj-al-din-al-subki, role: "المتوفَّى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar al-Asqalani, al-Durar al-Kamina (Haidarabad/Jil 1993 print), vol. 2, printed pp. 425-427, entry no. 2547 (harvest scan DurarKamina__drkamth2); Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed p. 745, art. al-Subki A no. 9 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-taj-al-din-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

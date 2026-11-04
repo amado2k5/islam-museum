@@ -1,0 +1,27 @@
+id: event/tabari-egypt-entry-253
+class: event
+kind: migration
+label:
+  ar: "دخول الطبري مصر وقراءته على علمائها"
+  en: "al-Tabari enters Egypt and studies with its scholars"
+  ur: "طبری کا مصر میں داخلہ اور وہاں کے علماء سے استفادہ"
+summary:
+  ar: "بعد سنين في بغداد خرج الطبري في رحلته الكبرى إلى الشام وفلسطين ومصر، فمر ببيروت وببلاد الشام، وكان دخوله مصر سنة ٢٥٣هـ/٨٦٧م على أثبت التقادير، فلقي فيها كبير محدثيها وصاحب القراءات يونس بن عبد الأعلى وقرأ فقه مالك على بني عبد الحكم وأخذ فقه الشافعي عن الربيع بن سليمان، وهم أهل البيت الذي كان أقرب الناس إلى الشافعي {cite:encyclopaedia-of-islam-2 vol. 10 p. 21} {cite:fihrist-ibn-al-nadim p. 326-327}."
+  en: "After years in Baghdad al-Tabari set out on his great study journey through Syria and Palestine to Egypt, passing through Beirut and such centres as Hims, al-Ramla and Askalan; his entry into Egypt can be fixed with some certainty at 253/867. There he met the leading Egyptian muhaddith and authority on the qira'at Yunus ibn Abd al-A'la, read Malik's fiqh with the Ibn Abd al-Hakam family, and took Shafi'i law from al-Rabi ibn Sulayman {cite:encyclopaedia-of-islam-2 vol. 10 p. 21} {cite:fihrist-ibn-al-nadim p. 326-327}."
+  ur: "بغداد میں سالوں کے بعد طبری نے شام اور فلسطین ہوتے ہوئے مصر کا عظیم علمی سفر کیا؛ بیروت، حمص، رملہ اور عسقلان سے گزر کر 253ھ/867ء میں مصر داخل ہوئے۔ وہاں انہوں نے بڑے محدث اور قراءات کے ماہر یونس بن عبد الاعلی سے ملاقات کی، بنی عبد الحکم سے مالکی فقہ پڑھی اور ربیع بن سلیمان سے شافعی فقہ لی {cite:encyclopaedia-of-islam-2 vol. 10 p. 21} {cite:fihrist-ibn-al-nadim p. 326-327}."
+wings: [time]
+themes: [travel]
+periods: [period/abbasid-fragmentation]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0867", hijri: "0253", calendar: julian, precision: year, status: historical, derived: true, note: "تنص الموسوعة على أن دخوله مصر يثبت على التقريب سنة ٢٥٣هـ/٨٦٧م {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}." }
+relations:
+  - { type: occurred_at, target: place/al-fustat, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/fihrist-ibn-al-nadim]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 10, art. 'al-Tabari' (C. E. Bosworth), PDF p. 21, Apple Vision OCR (books/encyclopaedia-of-islam-2); Fihrist p. 326-327 for the Egyptian teachers"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-tabari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

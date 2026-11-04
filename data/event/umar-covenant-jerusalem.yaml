@@ -12,6 +12,7 @@ date:
   start: { edtf: "0636~", hijri: "0015", calendar: julian, precision: year, status: tradition, derived: true, note: "15 هـ كما يذكره الكتاب {cite:bayt-al-maqdis-fi-al-islam-azhar p. 61-62}؛ التحويل إلى الميلادي مشتق ويحتاج مصدراً ثانياً." }
 relations:
   - { type: occurred_at, target: place/jerusalem }
+  - { type: occurred_at, target: place/al-aqsa-mosque, sources: [source/bayt-al-maqdis-fi-al-islam-azhar] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الكاتب والمانح للأمان" }
 sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
 provenance:

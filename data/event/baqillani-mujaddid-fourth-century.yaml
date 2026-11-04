@@ -1,0 +1,27 @@
+id: event/baqillani-mujaddid-fourth-century
+class: event
+kind: other
+label:
+  ar: "الباقلاني مجدد القرن الرابع عند المؤرخين، رأس المائة الرابعة ٤٠٠هـ"
+  en: "Al-Baqillani counted the mujaddid of the fourth century, turn of 400 AH"
+  ur: "باقلانی مؤرخین کے نزدیک چوتھی صدی کے مجدد، سرِ چوتھی صدی 400ھ"
+summary:
+  ar: "عُدَّ القاضي أبو بكر الباقلاني في كتب التراجم «سيف السنة» ومجدد الدين على رأس المائة الرابعة على الصحيح، وقيل جُدِّد به وبأبي سهل الصعلوكي؛ وكان ورعاً لم تُحفظ عنه زلة ولا نقيصة، ونقل الشذرات عن ابن تيمية أنه «أفضل المتكلمين المنتسبين إلى الأشعري، ليس فيهم مثله لا قبله ولا بعده» {cite:shadharat-dhahab p. 169-170}."
+  en: "The biographers counted the qadi Abu Bakr al-Baqillani 'the sword of the Sunna' and, on the soundest view, the mujaddid of the fourth Hijri century — some said the renewal was shared with Abu Sahl al-Su'luki. He was scrupulous: no lapse or fault was recorded of him, and the Shadharat quotes Ibn Taymiyya calling him 'the best of the mutakallimun attached to al-Ash'ari, with no equal before or after him' {cite:shadharat-dhahab p. 169-170}."
+  ur: "مترجمین قاضی ابوبکر باقلانی کو «سیف السنہ» اور — مضبوط ترین قول کے مطابق — چوتھی صدی ہجری کے سرے پر دین کے مجدد شمار کرتے ہیں؛ بعض نے تجدید ان کے اور ابی سہل صعلوکی کے ساتھ شریک کی۔ وہ متقی تھے، ان سے کوئی زلہ یا نقص محفوظ نہیں، اور شذرات ابن تیمیہ کا قول نقل کرتی ہے کہ وہ «اشعری سے منسوب متکلمین میں بہترین ہیں، نہ ان سے پہلے کوئی ان جیسا نہ بعد میں» {cite:shadharat-dhahab p. 169-170}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1009~", hijri: "0400", calendar: julian, precision: year, status: tradition, derived: true, note: "«على رأس المائة الرابعة»؛ التحويل مشتق {cite:shadharat-dhahab p. 169}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-baqillani, role: "المجدد المعدود", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "shadharat-dhahab vol. 3, s.a. 403, printed pp. 169-170"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-baqillani-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

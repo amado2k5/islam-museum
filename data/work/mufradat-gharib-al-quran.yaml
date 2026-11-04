@@ -1,17 +1,19 @@
 id: work/mufradat-gharib-al-quran
 class: work
 kind: book
-label: { ar: "المفردات في غريب القرآن", en: "Mufradat fi gharib al-Qur'an" }
+label: { ar: "المفردات في غريب القرآن", en: "Mufradat fi gharib al-Qur'an", ur: "مفردات فی غریب القرآن" }
 summary:
-  ar: "بطاقة أولية للمفردات في غريب القرآن للراغب الأصفهاني، معجم ألفاظ القرآن؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for al-Raghib al-Isfahani's Mufradat fi gharib al-Qur'an, the lexicon of Qur'anic words; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "معجم الراغب الأصفهاني في ألفاظ القرآن مرتب على الحروف، يبرز فيه ذوقه في التحليل الدلالي الدقيق، وأثره بادي في التفسير وفي معاجم الألفاظ بعده؛ وهو واحد من سلسلة مصنفاته في القرآن يذكر في مقدمته رسالتين سابقتين ويعد بثالثة هي «درة التأويل» {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}."
+  en: "al-Raghib al-Isfahani's alphabetical lexicon of Qur'anic vocabulary, in which his predilection for subtle semantic analysis is most pronounced; its influence can be traced in later tafsir and lexicography. One of a series of his monographs on the Qur'an, its introduction cites two earlier, apparently lost risalas and promises the Durrat al-ta'wil {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}."
+  ur: "راغب اصفہانی کا قرآنی الفاظ کا حروف تہجی پر مرتب معجم جس میں ان کا دقیق معنوی تجزیہ نمایاں ہے؛ اس کا اثر بعد کے تفاسیر اور معجنیات میں جلوہ گر ہے۔ ان کی قرآنی تصانیف کے سلسلے کی ایک کڑی، جس کے مقدمے میں دو سابقہ گم گشتہ رسائل کا ذکر اور «درۃ التاویل» کا وعدہ ہے {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}۔"
+wings: [words]
+themes: [scripture-and-its-sciences]
+sources: [source/encyclopaedia-of-islam-2, source/al-aalam]
 external_ids: { wikidata: "Q4702930" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "EI2 vol. 8 pp. 389-390 (E. K. Rowson); al-Zirikli, al-A'lam 2/261-262"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-raghib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

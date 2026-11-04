@@ -1,0 +1,27 @@
+id: event/death-al-maqrizi-845
+class: event
+kind: death
+label:
+  ar: "وفاة المقريزي بالقاهرة، ٨٤٥هـ/١٤٤٢م"
+  en: "Death of al-Maqrizi in Cairo, 845/1442"
+  ur: "مقریزی کی وفات، قاہرہ، 845ھ/1442ء"
+summary:
+  ar: "توفي تقي الدين المقريزي بالقاهرة يوم الخميس سادس عشر شهر رمضان سنة ٨٤٥هـ الموافق ١٤ شباط ١٤٤٢م، ودفن بمقبرة الصوفية خارج باب النصر، وعمره نحو ثمانين سنة. خلف مئتي سفر من تصانيفه ونقولاته: المواعظ والاعتبار في الخطط والآثار، والسلوك في دول الملوك، ودرر العقود، والمقفى، والخبر عن البشر الذي لم يتمه؛ وقال عنه ابن تغري بردي إنه قرأ عليه كثيراً من مصنفاته وأجاز له جميع روايته {cite:shadharat-dhahab p. 254-255} {cite:encyclopaedia-of-islam-2 vol. 6 p. 213-214}."
+  en: "Taqi al-Din al-Maqrizi died in Cairo on Thursday 16 Ramadan 845 (14 February 1442), aged about eighty, and was buried in the Sufi cemetery outside Bab al-Nasr. He left some two hundred volumes of his own writing and compilations — the Khitat (al-Mawa'iz wa-l-i'tibar), al-Suluk on the dynasties of kings, Durar al-uqud, al-Muqaffa, and the unfinished world history al-Khabar an al-bashar. Ibn Taghribirdi recalled reading many of his works with him and receiving his licence to transmit them all {cite:shadharat-dhahab p. 254-255} {cite:encyclopaedia-of-islam-2 vol. 6 p. 213-214}."
+  ur: "تقی الدین مقریزی جمعرات 16 رمضان 845ھ (14 فروری 1442ء) کو قاہرہ میں وفات پا گئے، عمر تقریباً اسی برس، اور باب النصر سے باہر صوفیوں کے قبرستان میں دفن ہوئے۔ وہ اپنی تصانیف و نقولات کے تقریباً دو سو سفر چھوڑ گئے — خطط (المواعظ والاعتبار)، السلوک، درر العقود، المقفیٰ، اور ادھوری عالمگیر تاریخ الخبر عن البشر۔ ابن تغری بردی کے بقول انہوں نے مقریزی کی بہت سی تصانیف ان ہی پر پڑھیں اور تمام روایت کی اجازت پائی {cite:shadharat-dhahab p. 254-255} {cite:encyclopaedia-of-islam-2 vol. 6 p. 213-214}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1442-02-14~", hijri: "0845-09-16", calendar: julian, precision: day, status: historical, derived: true, note: "توفي يوم الخميس ١٦ رمضان ٨٤٥هـ بالقاهرة ودفن بمقبرة الصوفية خارج باب النصر؛ التحويل مشتق {cite:shadharat-dhahab p. 255}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-maqrizi, role: "المتوفَّى", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 6 (Mahk-Mid), printed pp. 213-214, art. al-Makrizi (F. Rosenthal); shadharat-dhahab juz s.a. 845 pp. 254-255"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-maqrizi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

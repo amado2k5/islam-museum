@@ -109,6 +109,26 @@ The hadith of the three in the cave and [[concept/tawassul|appealing to God]] by
 
 Illness as good and [[concept/iyada|visiting the sick]], patience with a difficult spouse and [[person/ayyub|Ayyub]], and the wolves of [[person/umar-ibn-abd-al-aziz|Umar ibn Abd al-Aziz]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:09:30}
 
+## Episode 26: a key to good
+
+[[concept/sadaqa-jariya|Good and evil practices that continue]], [[person/amr-ibn-al-as|Amr ibn al-As]] and the conquest of Egypt, [[person/qabil|Qabil]], and [[person/umm-sharik-al-dawsiyya|Umm Sharik al-Dawsiyya]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:06:00}
+
+## Episode 27: strengthened hearts
+
+[[concept/ashab-al-kahf|The people of the cave]] and strengthened hearts, the heart of [[person/umm-musa|Musa's mother]], [[concept/qanaa|contentment]], and gatherings of [[concept/ukhuwwa|those who love one another for God]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:09:00}
+
+## Episode 28: the world does not stay the same
+
+[[concept/dunya|The world]] and the story of [[person/isa-ibn-maryam|Isa]] and the loaf, [[person/abd-al-malik-ibn-marwan|Abd al-Malik ibn Marwan]] and the mirror, [[person/yusuf|Yusuf]]'s brothers, and [[concept/muhasabat-al-nafs|self-examination]] after every prayer. {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:12:00}
+
+## Episode 29: customs without basis
+
+[[event/umar-letter-to-the-nile|Umar's letter to the Nile]], [[concept/tatayyur-omens|sanih and barih]], [[practice/istikhara|istikhara]], and [[concept/tawidh-amulets-and-incantations|the hand, the horseshoe and the luck band]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:00}
+
+## Episode 30: when will I see my community?
+
+The last visit: [[person/umar-ibn-al-khattab|Umar]] as a judge with no litigants, [[concept/huquq-al-zawjayn|spouses]] and children, [[concept/ukhuwwa|the brotherhood of humanity]], [[concept/ikhtilaf|excusing one another in disagreement]], [[person/al-hajjaj-ibn-yusuf|al-Hajjaj]] and the young man, [[concept/istighfar|seeking forgiveness]], and thanks to the production team and his family. {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:09:30}
+
 ## Topics of the episodes in the museum
 
 These are the museum records written from the episodes of the series, ordered by the first place each topic is cited. Each record carries its own prose and anchors.
@@ -231,7 +251,31 @@ These are the museum records written from the episodes of the series, ordered by
 
 ### Episode 24
 - [[concept/al-ajala-wal-tawani|Haste and procrastination]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:00:30}
+- [[person/qabil|Qabil (Cain)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:05:00}
 
 ### Episode 25
 - [[concept/iyada|Visiting the sick (iyada)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:00:30}
 - [[person/ayyub|Ayyub (Job)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00}
+
+### Episode 26
+- [[concept/sadaqa-jariya|Ongoing charity (sadaqa jariya)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:00:30}
+- [[person/amr-ibn-al-as|Amr ibn al-As]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:01:00}
+- [[person/umm-sharik-al-dawsiyya|Umm Sharik al-Dawsiyya]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:06:00}
+
+### Episode 27
+- [[concept/ashab-al-kahf|Companions of the Cave (Ashab al-Kahf)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:00:30}
+- [[concept/qanaa|Contentment (qana'a)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00}
+
+### Episode 28
+- [[concept/dunya|The world (dunya)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:00:30}
+- [[person/isa-ibn-maryam|Isa ibn Maryam (Jesus)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:01:00}
+- [[concept/muhasabat-al-nafs|Taking account of oneself (muhasabat al-nafs)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:11:30}
+
+### Episode 29
+- [[event/umar-letter-to-the-nile|The report of Umar's card to the Nile]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:01:00}
+- [[concept/tatayyur-omens|Tatayyur (taking omens of ill luck)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:03:30}
+- [[practice/istikhara|Istikhara (guidance prayer)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:04:30}
+- [[concept/tawidh-amulets-and-incantations|Ta'widh (amulets and incantations)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:00}
+
+### Episode 30
+- [[person/al-hajjaj-ibn-yusuf|al-Hajjaj ibn Yusuf al-Thaqafi]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:07:30}

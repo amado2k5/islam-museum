@@ -3,16 +3,16 @@ class: place
 kind: city
 label: { ar: "القسطنطينية", en: "Constantinople" }
 summary:
-  en: "Byzantine capital on the Bosporus, taken by Mehmed II in 1453 and made the Ottoman seat, Istanbul."
-  ar: "عاصمة بيزنطة على البوسفور، فتحها محمد الفاتح سنة 1453م وصارت دار السلطنة العثمانية إسطنبول."
+  en: "Constantinople — al-Kustantiniyya to the Arabs — was made the Eastern Roman capital by Constantine in 330 and stood behind its walls through Arab sieges under the Umayyads, a Frankish seizure in 1204, and Ottoman blockades under Bayezid I and Murad II, until Mehmed II took it on 29 May 1453 and made it the Ottoman seat, Istanbul {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 570-571}."
+  ar: "القسطنطينية التي عرفها العرب بهذا الاسم جعلها قسطنطين عاصمة الدولة الرومية الشرقية سنة 330م، وصمدت خلف أسوارها في وجه حصارات العرب في الدولة الأموية واستيلاء الفرنج سنة 1204م وحصارات العثمانيين في عهدي بايزيد الأول ومراد الثاني، حتى فتحها محمد الفاتح في 29 مايو 1453م فصارت دار السلطنة العثمانية إسطنبول {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 570-571}."
 wings: [place]
 regions: [anatolia-balkans]
 coordinates: [41.008, 28.978]
 coordinate_precision: site
-sources: [source/geonames-gazetteer]
+sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
-  source: "GeoNames gazetteer coordinates for the Timeline Explorer Mehmed II story map"
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Mehmed II story map; summary cited to Encyclopaedia of Islam, 2nd ed., vol. 5.1, art. 'al-Kustantiniyya', PDF pp. 570-571"
   generated_by: "Devin (SWE-2 Medium)"
-  run: explorer-mehmed-ii
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }
+  run: explorer-mehmed-ii; explorer-constantinople
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }

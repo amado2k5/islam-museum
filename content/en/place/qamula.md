@@ -5,4 +5,10 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-Qamula is a village on the western bank of the Nile, five miles from Damamil. Al-Idrisi regards it as like a city in gathering every blessing, and mentions, on the authority of a trustworthy person of his time, that it produces kinds of fruit, among them a fruit of great size. {cite:nuzhat-al-mushtaq-2002 p.129}
+Qamula is a village like a city, settled and complete, surrounded by every comfort and virtue, five miles from the place before it on the road. {cite:nuzhat-al-mushtaq-2002 p. 129}
+
+## Fruit
+A trustworthy informant of al-Idrisi's day reported that he saw there kinds of fruit and sorts of produce, among them a grape such that he thought there was none like it on earth in goodness, beauty and size; he weighed one berry and found it twelve dirhams in weight. {cite:nuzhat-al-mushtaq-2002 p. 129}
+
+## Produce
+The village has watermelons and kinds of bananas beyond the usual measure, and likewise pomegranates, quinces, plums and other fruit found only there, all of it abundant and sold at the lowest prices. Al-Idrisi says no more than this of it. {cite:nuzhat-al-mushtaq-2002 p. 129}

@@ -3,23 +3,23 @@ class: person
 label:
   ar: "العنقري"
   en: "Al-'Unqari"
-roles: [scholar]
+roles: [qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لالعنقري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Al-'Unqari; the entry is not yet checked on the page."
+  ar: "عبد الله العنقري، قاض حنبلي نجدي كفيف، ولي قضاء سدير ستة وثلاثين عاماً وصاحب «حاشية الروض المربع»؛ توفي سنة 1373هـ (1954م)."
+  en: "Abd Allah al-'Unqari (1873–1954), blind Najdi Hanbali judge of Sudayr, author of Hashiyat Rawd al-Murbi'."
 wings: [people]
-regions: [levant-iraq]
-periods: [period/abbasid-early]
+regions: [arabia]
+periods: [period/modern-era]
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q125098648
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.98)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

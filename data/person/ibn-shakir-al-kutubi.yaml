@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن شاكر الكتبي"
   en: "Ibn Shakir al-Kutubi"
-roles: [scholar, writer]
+roles: [historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن شاكر الكتبي، مؤرخ دمشق القرن الرابع عشر صاحب «فوات الوفيات»، توفي سنة ١٣٦٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Shakir al-Kutubi, the fourteenth-century Damascus historian author of Fawat al-Wafayat, d. 1363; the biographical entry is not yet checked on the page."
+  ar: "محمد بن شاكر الكتبي، مؤرخ دمشقي صاحب «عيون التواريخ»، كان فقيراً فتاجر في الكتب فثرى؛ توفي سنة 764هـ (1363م)."
+  en: "Muhammad ibn Shakir al-Kutubi (d. 764/1363), Damascene historian, author of 'Uyun al-Tawarikh."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q6536330
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0036
+  source: "Ibn al-'Imad, Shadharat al-dhahab - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.8 p.345)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch8
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

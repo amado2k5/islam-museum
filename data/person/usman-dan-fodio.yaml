@@ -1,0 +1,87 @@
+id: person/usman-dan-fodio
+class: person
+
+label: { ar: "عثمان بن فودي", en: "Usman dan Fodio", ur: "عثمان دان فودیو" }
+
+names:
+  - { value: "عثمان بن فودي", kind: full }
+  - { value: "Usman dan Fodio", kind: full }
+  - { value: "Usmanu bi Fodiye", kind: full }
+  - { value: "ʿUthmān dan Fodio", kind: latinized }
+  - { value: "Shehu Usman dan Fodio", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "عثمان بن فودي (1754–1817)، عالم فولاني من غوبير في بلاد الهوسا، مؤسس خلافة صوكوتو وأول خلفائها. كان صوفيًّا قادريًّا ومالكيَّ المذهب، ألّف أكثر من مائة كتاب في العلوم الشرعية، وقاد منذ سنة 1804 الجهاد الذي أطاح بممالك الهوسا وأقام أكبر دولة إسلامية في غرب أفريقيا في عصره، ثم ترك إدارة الدولة لابنه محمد بيلو وأخيه عبد الله وتفرّغ للتعليم والتصنيف."
+  en: "Usman dan Fodio (1754–1817), a Fulani scholar of Gobir in Hausaland, founder of the Sokoto Caliphate and its first caliph. A Qadiri Sufi and a Maliki jurist, he wrote more than a hundred books on the Islamic sciences and from 1804 led the jihad that overthrew the Hausa kingdoms and raised the largest Muslim state in West Africa of its age, then left the state's administration to his son Muhammad Bello and his brother Abdullahi and returned to teaching and writing."
+  ur: "عثمان دان فودیو (1754–1817)، ہاؤسا لینڈ کے علاقے گوبیر کے فولانی عالم، خلافت سوکوتو کے بانی اور اس کے پہلے خلیفہ۔ وہ قادری صوفی اور مالکی فقیہ تھے؛ انھوں نے اسلامی علوم پر سو سے زائد کتابیں لکھیں اور 1804 سے اس جہاد کی قیادت کی جس نے ہاؤسا بادشاہتوں کو ختم کر کے اپنے دور کی مغربی افریقہ کی سب سے بڑی مسلم ریاست قائم کی، پھر ریاست کی انتظامیہ اپنے بیٹے محمد بیلو اور بھائی عبد اللہ کے سپرد کر کے خود تعلیم و تصنیف کی طرف لوٹ آئے۔"
+
+roles: [caliph, scholar, theologian, mystic, poet, writer]
+regions: [west-africa-sahel]
+wings: [people]
+
+born:
+  edtf: "1754-12-15"
+  hijri: "1168"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Maratta in the Hausa state of Gobir. The English article and Wikidata give the full date, 15 December 1754; Britannica gives December 1754 at Maratta. The Hijri year 1168 is the tabular conversion of that date, marked derived. No place entity for Maratta or Gobir exists in the museum, so the birthplace is carried in this note only."
+  sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio, source/wikidata-usman-dan-fodio]
+
+died:
+  edtf: "1817-04-20"
+  hijri: "1232"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Sokoto. The English article gives 20 April 1817; Wikidata carries both the bare year 1817 and the day value 20 April 1817, and Britannica gives 1817 at Sokoto. The Hijri year 1232 is the tabular conversion, marked derived. No place entity for Sokoto exists in the museum, so the place of death is carried in this note only."
+  sources: [source/wikipedia-usman-dan-fodio-en, source/wikidata-usman-dan-fodio, source/britannica-usman-dan-fodio]
+
+relations:
+  - { type: sibling_of, target: person/abdullahi-dan-fodio, sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio] }
+  - { type: student_of, target: person/jibril-ibn-umar, sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio] }
+  - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio, source/wikipedia-usman-dan-fodio-ar] }
+
+faith:
+  - value: sunni-maliki
+    basis: documented
+    note: >-
+      Two independent sources name the school for the man himself. The Arabic
+      article opens by calling him Maliki in madhhab; the English article
+      records that he insisted on the observance of the Maliki fiqh in personal
+      observances as well as in commercial and criminal law, and counts Maliki
+      jurisprudence among the subjects of his hundreds of works. The Arabic
+      article also names his creed as Ash'ari; the creed is recorded in this
+      note only — the person schema has no creed compound.
+    sources: [source/wikipedia-usman-dan-fodio-ar, source/wikipedia-usman-dan-fodio-en]
+  - value: sufi
+    basis: documented
+    note: >-
+      Two independent sources name the order for the man himself. The English
+      article records his initiation into the Qadiriyya and that he later
+      became head of his Qadiriyya brotherhood, teaching his own wird;
+      Britannica records that his teacher Jibril ibn Umar admitted him to the
+      Qadiri and other Sufi orders. The Arabic article likewise calls him a
+      Sufi on the Qadiri path. His membership is also carried as a member_of
+      edge to the Qadiriyya group.
+    sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio, source/wikipedia-usman-dan-fodio-ar]
+
+external_ids: { wikidata: "Q380452" }
+
+sources:
+  - source/wikipedia-usman-dan-fodio-en
+  - source/wikipedia-usman-dan-fodio-ar
+  - source/wikipedia-usman-dan-fodio-ur
+  - source/wikidata-usman-dan-fodio
+  - source/britannica-usman-dan-fodio
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1383151957 of 1 November 2026), Arabic Wikipedia (revision 76475528), Urdu Wikipedia (revision 11348765), Encyclopaedia Britannica's entry (first published 20 July 1998, read in full 1 November 2026) and Wikidata Q380452 (item revision 2559181554), all fetched live in-session on 1 November 2026, the QID grounded from the English article's own page property and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub. His younger brother Abdullahi's museum record is a Devin-era draft card carrying no relations, so the sibling edge is written once, here in the elder brother's record, as the lane rule directs; the student_of edge to Jibril ibn Umar likewise targets a draft card, as this lane's precedents allow, and the teacher's card data is not relied on. Sokoto, Maratta, Gobir and Degel have no place entities, so the places of his life are carried in notes and prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-158j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

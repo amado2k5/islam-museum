@@ -57,6 +57,7 @@ _Second edition, 21 October 2026 (repository state: commit 5cef03793 on `main`, 
 | Claim in Parts B and C | Source | 17 Oct 2026 (first edition, filed) | 21 Oct 2026 (this edition) |
 |---|---|---|---|
 | Structured records; classes | `docs/coverage.md` regenerated from the data on `main` (`npm run graph && npm run coverage`) | 19,084 in 21 classes | **33,919 in 21 classes** |
+| Job class added to the schema (1 Nov 2026): `job` joins the classes, with the person `occupations` block and the job ties on things; no job records exist yet, so the count of classes that hold records stays 21 | submission-impacting (class list and API classes, `docs/ai-change-gates.md` §3) | "21 classes" in the structured-records row above and the figure in Part C stand as filed; the schema has no record count to correct | Merged on the founder's sign-off of 1 Nov 2026 (Job Browser decision 7). The class count becomes 22 with the first job record; Parts B and C must then be regenerated from `docs/coverage.md` before any resubmission. |
 | Relations between records | same | 29,996 | **32,526** |
 | Persons / places / events / buildings | same | 3,702 / 1,651 / 1,404 / 69 | **8,191 / 1,665 / 4,268 / 5,571** |
 | Qur'an passages; works; concepts; sources | same | 9,546 / 264 / 316 / 175 | **9,546 / 1,453 / 399 / 229** |

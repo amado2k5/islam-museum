@@ -1,0 +1,27 @@
+id: event/al-zamakhshari-kashshaf-528
+class: event
+kind: publication
+label:
+  ar: "إتمام «الكشاف» بمكة، ٥٢٨هـ/١١٣٣م"
+  en: "Completion of al-Kashshaf at Mecca, 528/1133"
+  ur: "مکہ میں «الکشاف» کی تکمیل، 528ھ/1133ء"
+summary:
+  ar: "في مجاورته الثانية بمكة أنجز الزمخشري — بناءً على تحريض مضيفه الشريف ابن وهّاس — تفسيره «الكشاف عن حقائق التنزيل» في سنتين، فأتمّه سنة ٥٢٨هـ/١١٣٣م؛ وهو العمل الذي تقوم عليه شهرته أولاً، إذ فسّر فيه القرآن نحواً ولغةً وبياناً وقراءاتٍ وإعجازاً، مستدلاً بنصوص النثر القديمة لا بالتفسير بالمأثور، مع رأي معتزلي أثار نقد أهل السنّة المحدِّثين {cite:encyclopaedia-of-islam-2 vol. 12 p. 918} {cite:shadharat-dhahab p. 599-600}."
+  en: "During his second sojourn at Mecca, encouraged by his host Sharif Ibn Wahhas, al-Zamakhshari completed in two years his Qur'an commentary al-Kashshaf 'an haqa'iq al-tanzil, finishing it in 528/1133 — the work on which his fame chiefly rests. In it he explained the scripture's grammar, lexicography, rhetoric, variant readings and inimitability, drawing on early prose rather than transmitted exegesis, while its Mu'tazili interpretations provoked criticism among traditionalist Sunnis {cite:encyclopaedia-of-islam-2 vol. 12 p. 918} {cite:shadharat-dhahab p. 599-600}."
+  ur: "مکہ میں اپنی دوسری مجاورت کے دوران، میزبان شریف ابن وہاس کی ترغیب پر، زمخشری نے دو برس میں اپنی تفسیر «الکشاف عن حقائق التنزیل» مکمل کی اور 528ھ/1133ء میں اسے تمام کیا — یہی وہ کتاب ہے جس پر ان کی شہرت کی بنیاد ہے۔ اس میں انہوں نے قرآن کی نحو، لغت، بیان، قراءتوں اور اعجاز کی تشریح کی، مأثور تفاسیر کے بجائے قدیم نثری نصوص سے استدلال کرتے ہوئے؛ اس کے معتزلی تاویلات پر سنی محدثین کی تنقید ہوئی {cite:encyclopaedia-of-islam-2 vol. 12 p. 918} {cite:shadharat-dhahab p. 599-600}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia]
+date:
+  start: { edtf: "1133~", hijri: "0528~", calendar: julian, precision: year, status: tradition, derived: true, note: "أتمّ «الكشاف» بعد سنتين من العمل سنة ٥٢٨هـ/١١٣٣م {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-zamakhshari, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 12 (Supplement), art. al-Zamakhshari 2 (J. van Ess), PDF p. 918; شذرات الذهب s.a. 538, printed pp. 599-600 (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-zamakhshari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

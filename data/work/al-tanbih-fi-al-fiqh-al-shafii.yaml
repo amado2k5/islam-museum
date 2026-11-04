@@ -3,10 +3,12 @@ class: work
 kind: book
 label: { ar: "التنبيه في الفقه الشافعي", en: "Al-Tanbih fi al-Fiqh al-Shafi'i" }
 summary:
-  ar: "بطاقة أولية لـالتنبيه في الفقه الشافعي؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Al-Tanbih fi al-Fiqh al-Shafi'i; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "متن أبي إسحاق الشيرازي المختصر في الفقه، صنّفه بين ٤٥٢ و٤٥٣هـ وجاءت عليه أكثر من سبعين شرحاً {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
+  en: "Abu Ishaq al-Shirazi's fiqh epitome, composed between 452/1060 and 453/1061; more than seventy commentaries were written on it {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
+  ur: "ابو اسحاق شیرازی کا فقہی متن جو 452-453ھ میں تصنیف ہوا اور جس پر ستر سے زائد شروحات لکھی گئیں {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}۔"
+authors: [person/abu-ishaq-al-shirazi]
+wings: [time]
+sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
 external_ids: { wikidata: "Q108806953" }
 provenance:
   layer: own-research
@@ -14,4 +16,4 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

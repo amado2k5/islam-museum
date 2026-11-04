@@ -1,0 +1,27 @@
+id: event/tirmidhi-loses-sight-275
+class: event
+kind: other
+label:
+  ar: "ذهاب بصر الترمذي في آخر عمره، نحو ٢٧٥هـ"
+  en: "Al-Tirmidhi loses his sight in old age, c. 275/888"
+  ur: "ترمذی کی آخری عمر میں بینائی جانا، تقریباً 275ھ/888ء"
+summary:
+  ar: "ضُرّ الترمذي في آخر عمره {cite:mawsuat-a3lam-ulama-adaba p. 450}؛ وذهب بصره فيما بعد من كثرة البكاء على ما يُروى {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
+  en: "Al-Tirmidhi lost his sight in the last part of his life {cite:mawsuat-a3lam-ulama-adaba p. 450}; in later life he became blind, allegedly from excessive weeping {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
+  ur: "ترمذی نے عمر کے آخری حصے میں بینائی کھو دی {cite:mawsuat-a3lam-ulama-adaba p. 450}؛ روایت ہے کہ کثرتِ رونے کی وجہ سے ان کا بصر چلا گیا {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0888~", hijri: "0275~", calendar: julian, precision: decade, status: tradition, derived: true, note: "ضُرّ في آخر عمره {cite:mawsuat-a3lam-ulama-adaba p. 450}؛ قبل وفاته ٢٧٩هـ؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/tirmidh, sources: [source/mawsuat-a3lam-ulama-adaba], note: "استقر ببلدته إلى وفاته {cite:mawsuat-a3lam-ulama-adaba p. 451}" }
+  - { type: had_participant, target: person/al-tirmidhi-muhammad-ibn-isa, role: "الضرير", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء ج4 ص450 (harvest OCR v04 page-450); Encyclopaedia of Islam 2nd ed. vol. 10, printed p. 579"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-tirmidhi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,48 @@
+id: media/illus-explorer-event-earthquake-jazira-508
+class: media
+kind: illustration
+label:
+  ar: "خلفية متصفح الزمن: زلزلة الجزيرة المخربة سنة 508"
+  en: "Time Browser backdrop: The earthquake that ruined al-Jazira, 508"
+  ur: "ٹائم براؤزر کا پس منظر: جزیرہ میں تباہ کن زلزلہ، ۵۰۸ھ"
+summary:
+  ar: خلفية مصوّرة خالية من الأشخاص لهذا الحدث، مولّدة محلياً. تعرض بيئة تاريخية متخيّلة لا إعادة بناء للواقعة؛ وتتوافر منها نسختان للكبار والصغار.
+  en: A locally generated, people-free illustrated backdrop for this event. It shows an imagined historical setting, not a reconstruction of the event; adult and kids versions are provided.
+  ur: اس واقعے کے لیے مقامی طور پر تیار کیا گیا، لوگوں سے خالی تصویری پس منظر۔ یہ واقعے کی بازتخلیق نہیں بلکہ ایک تصوراتی تاریخی ماحول دکھاتا ہے؛ بالغ اور بچوں کے الگ نسخے شامل ہیں۔
+wings:
+  - time
+alt:
+  en: An empty illustrated view of Harran, with earth-toned buildings and courtyards on a broad dry plain. No people or writing; it is not a reconstruction of the event.
+  ar: مشهد تصويري خالٍ لحرّان، بمبانٍ بلون التراب وأفنية على سهل جاف واسع؛ بلا أشخاص أو كتابة، وليس إعادة بناء للواقعة.
+  ur: حرّان کا لوگوں سے خالی تمثیلی منظر، مٹیالے رنگ کی عمارتوں اور صحنوں کے ساتھ ایک وسیع خشک میدان میں؛ کوئی لوگ یا تحریر نہیں، اور یہ واقعے کی بازتخلیق نہیں۔
+depicts:
+  - event/earthquake-jazira-508
+generated:
+  tool: scripts/time-browser-explorer-gen.py; cwebp
+  version: Diffusers 0.42.1; PyTorch 2.14.1; cwebp 1.6.0
+  model: stabilityai/stable-diffusion-xl-base-1.0
+  prompt_hash: 0c106fb6c2da453e1cbc8613f90f043d31d1512a7378c585766d232d7f0d511b
+  inputs_hash: 8ea800e4335a879d37098bbcd008cfc75a92dcfd758b47efbd8a668a13643d43
+  adult_prompt_sha256: 468096423d383725b49c1c1e9bcddaf168d636af247536fd8b706eba6e794083
+  kids_prompt_sha256: e0d5fcc2ee8d628b64aa6d3b3d3c25a0e9819079d579bd6ac3e7352fd29034d5
+  negative_prompt_sha256: aa607dad646dee87c54b4c28ea183cfbf4987bb10d850084906c192fb0a04816
+  settings_sha256: 9929203ac0019a2f2c12db9b5eede5eb0509ce488be72643785084d29252b660
+  date: 2026-11-03
+precision: approximate
+license: AI-GENERATED
+attribution: AI-generated locally with Stable Diffusion XL Base 1.0; no third-party licence claim.
+files:
+  webp: media/time-browser/explorer/event-earthquake-jazira-508.webp
+  kids: media/time-browser/explorer/event-earthquake-jazira-508-kids.webp
+sources:
+  - source/shadharat-dhahab
+provenance:
+  source: event/earthquake-jazira-508; historical context follows the cited sources on this record
+  generated_by: Copilot SDK in VS Code; local SDXL generation
+  model: unknown (record authoring); stabilityai/stable-diffusion-xl-base-1.0 (images)
+  editor: VS Code
+  run: Time Browser place backdrops 2026-11-03; prompts and settings SHA-256 hashes recorded in generated; no seed recorded.
+status:
+  review: published
+  completeness: 1
+  generated_by: Copilot SDK in VS Code; images generated locally with SDXL

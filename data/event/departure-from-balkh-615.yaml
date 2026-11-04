@@ -1,0 +1,26 @@
+id: event/departure-from-balkh-615
+class: event
+kind: migration
+label: { ar: "رحيل بهاء الدين ولد وأهله عن بلخ", en: "Baha al-Din Walad's family leaves Balkh", ur: "بہاء الدین ولد کا خاندان بلخ چھوڑتا ہے" }
+summary:
+  ar: "نحو سنة ٦١٥هـ/١٢١٨م خرج [[person/baha-al-din-walad|بهاء الدين ولد]]، الفقيه المتصوف، بأهله من [[place/balkh|بلخ]] — وقيل لخلاف مع الحاكم، وقيل فراراً من التتار المقبلين — ومعهم ولده جلال الدين؛ فمرّوا [[place/nishapur|بنيسابور]] حيث بارك فريد الدين العطار الصبيَّ في الرواية المشهورة، ثم حجّوا إلى مكة وجالوا في بلاد الشام والعراق قبل أن يبلغوا الأناضول {cite:britannica-rumi}."
+  en: "About 615/1218 the jurist and mystic Baha al-Din Walad left Balkh with his family — over a quarrel with the ruler or ahead of the approaching Mongols, as the accounts differ — taking his son Jalal al-Din. The family passed through Nishapur, where, in the well-known report, the mystic poet Farid al-Din Attar blessed the boy; they made the pilgrimage to Mecca and journeyed through Syria and Iraq before reaching Anatolia {cite:britannica-rumi}."
+  ur: "تقریباً 615ھ/1218ء میں فقیہ و صوفی بہاء الدین ولد اپنے خاندان سمیت بلخ چھوڑ آئے — حاکم سے جھگڑے یا قریب آتے منگولوں کے خوف سے، جیسا کہ روایات میں اختلاف ہے — اور ساتھ اپنے بیٹے جلال الدین کو بھی لے گئے۔ خاندان نیشاپور سے گزرا جہاں مشہور روایت کے مطابق صوفی شاعر فرید الدین عطار نے بچے کو دعا دی؛ انہوں نے مکہ کا حج کیا اور اناطولیہ پہنچنے سے پہلے شام و عراق کے سفر کیے۔"
+wings: [time]
+themes: [spirituality-and-sufism]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1218~", hijri: "0615", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو سنة 1218م عند بريتانيكا؛ السنة الهجرية تحويل مشتق {cite:britannica-rumi}." }
+relations:
+  - { type: occurred_at, target: place/balkh, sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/jalal-al-din-rumi, role: "الصبي الراحل مع أهله", sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/baha-al-din-walad, role: "رب الأسرة الراحل بها", sources: [source/britannica-rumi] }
+sources: [source/britannica-rumi]
+provenance:
+  layer: own-research
+  source: "Britannica, 'Rumi', 'Early life and travels', read through the Wayback capture of 23 October 2026; ledger docs/authenticity-ledger/pages/britannica-rumi.yaml"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-rumi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

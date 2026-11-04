@@ -1,0 +1,58 @@
+id: person/amangkurat-iii
+class: person
+
+label: { ar: "أمانغكورات الثالث", en: "Amangkurat III", ur: "امانگکورات سوم" }
+
+names:
+  - { value: "Raden Mas Sutikna", kind: given }
+  - { value: "Sampeyan Dalem Ingkang Sinuhun Kanjeng Susuhunan Prabu Amangkurat Senapati ing Ngalaga Abdurrahman Sayyidin Panatagama Khalifatullah Ingkang Jumeneng Kaping III", kind: regnal }
+  - { value: "Sunan Mas", kind: alternate }
+  - { value: "Pangeran Kencet", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أمانغكورات الثالث (توفي 1734)، وُلد باسم رادن ماس سوتيكنا ويُعرف بسونان ماس، سوسوهونان ماتارام من 1703 إلى 1705 والابن الوحيد لأمانغكورات الثاني. أخرجه من كارتاسورا عمّه غير الشقيق الأمير بوغير — بدعم موظفين سئموا حكمه وبدعم الهولنديين — في حرب الخلافة الجاوية الأولى، فصمد في شرق جاوة حتى استسلامه في سورابايا سنة 1708، ومات في منفاه في سيلان الهولندية سنة 1734."
+  en: "Amangkurat III (died 1734), born Raden Mas Sutikna and called Sunan Mas, was susuhunan of Mataram from 1703 to 1705, the only son of Amangkurat II. His half-uncle Prince Puger, backed by officials alienated by his rule and by the Dutch, drove him from Kartasura in the First Javanese War of Succession; he held out in east Java until his surrender at Surabaya in 1708, and died in exile in Dutch Ceylon in 1734."
+  ur: "امانگکورات سوم (وفات 1734ء)، پیدائشی نام رادن ماس سوتیکنا اور معروف نام سونان ماس، 1703ء سے 1705ء تک ماتارام کے سوسوہونان تھے، امانگکورات دوم کے اکلوتے بیٹے۔ ان کے سوتیلے چچا شہزادہ پوگیر نے — ان کے طرزِ حکمرانی سے بددل اہلکاروں اور ولندیزیوں کی پشت پناہی سے — پہلی جاوی جنگِ جانشینی میں انہیں کارتاسورا سے نکال دیا؛ وہ مشرقی جاوا میں 1708ء میں سورابایا میں ہتھیار ڈالنے تک ڈٹے رہے اور 1734ء میں ولندیزی سیلون کی جلاوطنی میں وفات پائی۔"
+
+roles: [sultan]
+regions: [southeast-asia]
+wings: [people]
+
+died:
+  edtf: "1734"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Died in exile in Dutch Ceylon (Sri Lanka); the English and Indonesian articles and the Wikidata item all give 1734 at year precision. The year 1734 spans 1146-1147 AH, so no single Hijri year is built. No article or item statement gives his birth year — both articles state it as unknown — so no born block is built. No place entity for Ceylon exists on main, so no died_in edge is written."
+  sources: [source/wikipedia-amangkurat-iii-en, source/wikipedia-amangkurat-iii-id, source/wikidata-amangkurat-iii]
+
+relations:
+  - { type: child_of, target: person/amangkurat-ii, sources: [source/wikipedia-amangkurat-iii-en, source/wikipedia-amangkurat-iii-id] }
+  - { type: successor_of, target: person/amangkurat-ii, sources: [source/wikipedia-amangkurat-iii-en, source/wikipedia-amangkurat-iii-id] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself; the
+      articles describe his court, his temper, his wars and his exile
+      only. The court Islam of his dynasty is dynastic context and
+      settles nothing under the founder's rules, so his faith is
+      recorded as unknown.
+    sources: [source/wikipedia-amangkurat-iii-en, source/wikipedia-amangkurat-iii-id]
+
+external_ids: { wikidata: "Q1866639" }
+
+sources:
+  - source/wikipedia-amangkurat-iii-en
+  - source/wikipedia-amangkurat-iii-id
+  - source/wikidata-amangkurat-iii
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Amangkurat III of Mataram' (revision 1358655715 of 10 June 2026), Indonesian Wikipedia 'Amangkurat III' (revision 29940229 of 22 September 2026) and Wikidata Q1866639 (item revision 2141973238 of 1 May 2024, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Indonesian article agreeing. The item has no Arabic article. Existence checked against origin/main before building, by slug variants and by QID — no record holds this man. Queue check: the queue's birth year 1669 is given by no article (both state the birth date as unknown) and the item has no birth statement, so no born block is built and the year is not followed; the death year 1734 is confirmed. The Babad Tanah Jawi curse story is attributed to the chronicle in the prose, as both articles present it."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-177m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,28 @@
+id: event/al-subki-rihla-damascus-hajj-710
+class: event
+kind: other
+label:
+  ar: "رحلة السبكي إلى دمشق وأداؤه الحج، نحو ٧١٠هـ"
+  en: "Al-Subki's journey to Damascus and the Pilgrimage, c. 710/1310"
+  ur: "سبکی کا دمشق کا سفر اور حج، تقریباً 710ھ/1310ء"
+summary:
+  ar: "بعد تحصيله بالقاهرة رحل السبكي إلى دمشق وأدّى فريضة الحج، ثم عاد إلى مصر فدرّس بالمدرسة المنصورية عند جامع ابن طولون {cite:encyclopaedia-of-islam-2 vol. 9 pp. 744-745}؛ ويذكر ابن كثير أنه رحل إلى الشام وقرأ بنفسه وكتب وخرّج {cite:al-bidaya-wal-nihaya s.a. 756 p. 264}."
+  en: "After his studies in Cairo, al-Subki travelled to Damascus and performed the Pilgrimage, then returned to Egypt to teach at the Mansuriyya madrasa beside the mosque of Ibn Tulun {cite:encyclopaedia-of-islam-2 vol. 9 pp. 744-745}; Ibn Kathir records that he journeyed to Syria, studied on his own, wrote and taught {cite:al-bidaya-wal-nihaya s.a. 756 p. 264}."
+  ur: "قاہرہ میں تعلیم کے بعد سبکی دمشق گئے اور حج ادا کیا، پھر مصر واپس آئے اور جامع ابن طولون کے پاس مدرسہ منصوریہ میں تدریس کی {cite:encyclopaedia-of-islam-2 vol. 9 pp. 744-745}؛ ابن کثیر کے مطابق وہ شام گئے، خود پڑھے، لکھا اور پڑھایا {cite:al-bidaya-wal-nihaya s.a. 756 p. 264}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1310~", hijri: "0710~", calendar: julian, precision: year, status: tradition, derived: true, note: "رحل إلى دمشق وحج ثم عاد مدرّساً بالمنصورية قبل ٧٢٣هـ {cite:encyclopaedia-of-islam-2 vol. 9 pp. 744-745}؛ التاريخ تقريبي مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/taqi-al-din-al-subki, role: "الرحّالة الحاج", sources: [source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya] }
+sources: [source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9, printed pp. 744-745, art. al-Subki A; al-Bidaya wa-l-Nihaya s.a. 756 p. 264 (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

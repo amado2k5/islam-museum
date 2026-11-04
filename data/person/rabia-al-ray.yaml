@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ربيعة الرأي"
   en: "Rabi'a al-Ra'y"
-roles: [scholar]
+roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لربيعة بن أبي عبد الرحمن المعروف بربيعة الرأي، فقيه المدينة القرن الثامن من شيوخ مالك، توفي سنة ٧٥٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Rabi'a ibn Abi Abd al-Rahman known as Rabi'at al-Ra'y, the eighth-century Medinan jurist among Malik's teachers, d. 753; the biographical entry is not yet checked on the page."
+  ar: "ربيعة بن فروخ «ربيعة الرأي»، فقيه المدينة المجتهد وشيخ مالك، صاحب الفتوى فيها؛ توفي سنة 136هـ (753م)."
+  en: "Rabi'a al-Ra'y (d. 136/753), Medinan mujtahid jurist, teacher of Malik and the city's fatwa-man."
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q12213123
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0040
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.16)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

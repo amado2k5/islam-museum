@@ -1,0 +1,36 @@
+id: event/zanzibar-revolution-1964
+class: event
+kind: revolt
+label:
+  ar: "ثورة زنجبار"
+  en: "Zanzibar Revolution"
+  ur: "زنجبار کا انقلاب"
+summary:
+  ar: "في ليلة 12 يناير 1964 أطاحت ثورة قادها جون أوكيلو بالسلطان جامشيد بن عبد الله، وتذكر المقالتان أن القتلى كانوا بين ألفين وأربعة آلاف، معظمهم من العرب والهنود."
+  en: "On the night of 12 January 1964 a revolution led by John Okello deposed Sultan Jamshid bin Abdullah; the English and Arabic articles report that between 2,000 and 4,000 people were killed, mostly Arabs and Indians."
+  ur: "12 جنوری 1964ء کی رات جان اوکیلو کی قیادت میں انقلاب نے سلطان جمشید بن عبداللہ کو معزول کر دیا؛ انگریزی اور عربی مضامین کے مطابق دو ہزار سے چار ہزار افراد ہلاک ہوئے، زیادہ تر عرب اور ہندوستانی۔"
+wings: [time, place, people]
+themes: [colonial-wars-and-resistance]
+periods: [period/modern-era]
+regions: [east-africa]
+date:
+  start:
+    edtf: "1964-01-12"
+    hijri: "1383-08-26"
+    calendar: gregorian
+    precision: day
+    status: historical
+    derived: true
+    note: "ليلة 12 يناير 1964 كما تسجلها مقالتا عبيد كرومي الإنجليزية والعربية. كان كرومي تلك الليلة في البر الأفريقي، والثورة وقعت في الجزيرة. اليوم الهجري 26 شعبان 1383 تحويل جدولي."
+    sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar]
+relations:
+  - { type: occurred_at, target: place/zanzibar, sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar] }
+  - { type: had_participant, target: person/abeid-karume, role: "كان في البر ليلة الثورة ثم دُعي لرئاسة الجمهورية", sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar] }
+sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision and Arabic Wikipedia article on Abeid Karume, as written in content/ar/person/abeid-karume.md and person/abeid-karume, read for this story on 1 November 2026."
+  generated_by: "Cursor"
+  model: "Grok 4.7"
+  run: explorer-zanzibar
+status: { review: published, completeness: 2, generated_by: "Cursor (Grok 4.7)" }

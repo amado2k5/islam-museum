@@ -1,0 +1,81 @@
+id: person/nef-i
+class: person
+
+label: { ar: "نفعي", en: "Nef'i", ur: "نفعی" }
+
+names:
+  - { value: "Ömer ibn Mehmed", kind: full }
+  - { value: "Nef'î", kind: pen }
+  - { value: "Darrî", kind: pen }
+
+gender: male
+
+summary:
+  ar: "عمر بن محمد، المعروف باسمه القلمي نفعي (نحو 1572 – 27 كانون الثاني 1635)، شاعر ديوان عثماني من حسن قلعة (باسينلر) من أعمال أرضروم، حفيد ميرزا علي والي باسينلر وابن محمد بك والي صاري قامش. جاء إلى إسطنبول في عهد أحمد الأول وتقلّد وظائف مالية منها مفتشية المناجم، وبلغ ذروته في عهد مراد الرابع الذي قرّبه لمدائحه. جمع هجاءه اللاذع في «سهام قضا» فصار أخوف شعراء الهجاء في عصره، وبسبب هجائه بيرم باشا خُنق في حطبخانة القصر وأُلقي جسده في البحر."
+  en: "Ömer, known by his pen name Nef'i (c. 1572 – 27 January 1635), was an Ottoman divan poet from Hasankale (Pasinler) in the Erzurum province, grandson of Mirza Ali, governor of Pasinler, and son of Mehmed Bey, governor of Sarıkamış. He came to Istanbul in the reign of Ahmed I, held finance posts including the comptrollership of mines, and reached his height under Murad IV, whose favour his qasidas won. His satires, gathered in the Sihâm-ı Kazâ, made him the most feared satirist of the age; after a satire on Bayram Pasha he was strangled in the palace woodshed and his body thrown into the sea."
+  ur: "عمر بن محمد، اپنے قلمی نام نفعی سے مشہور (تقریباً 1572ء – 27 جنوری 1635ء)، ارضروم کے علاقے حسن قلعہ (پاسینلر) سے تعلق رکھنے والے عثمانی دیوان شاعر تھے، پاسینلر کے والی میر زا علی کے پوتے اور صاری قامش کے والی محمد بے کے بیٹے۔ احمد اول کے عہد میں استنبول آئے، کانوں کی نگرانی سمیت مالی عہدے سنبھالے، اور مراد رابع کے عہد میں اپنے قصیدوں سے سلطان کی قربت حاصل کر کے عروج پایا۔ ان کا ہجو مجموعہ «سہامِ قضا» انہیں اپنے عہد کا سب سے خوفناک ہجو گو بنا گیا؛ بیرم پاشا پر ہجو کی وجہ سے انہیں قصر کی لکڑی خانے میں گلا گھونٹ کر ہلاک کیا گیا اور لاش سمندر میں پھینک دی گئی۔"
+
+roles: [poet, writer]
+regions: [anatolia-balkans]
+wings: [people]
+
+born:
+  edtf: "1572"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born at Hasankale (Pasinler) in the Erzurum province. The Turkish article gives 1572 flatly and the English about 1572; the TDV entry treats the year as an estimate built from Âlî's Mecmau'l-bahreyn and the notes Nef'i dropped into his own qasida for Hâfız Ahmed Pasha, pairing the estimate with 980 AH. The year 1572 spans 979–980 AH, so no single Hijri year is built. The queue's 1589 is attested in no source read and is not followed."
+  sources: [source/wikipedia-nef-i-tr, source/wikipedia-nef-i-en, source/dia-nefi]
+
+died:
+  edtf: "1635-01-27"
+  calendar: gregorian
+  precision: day
+  status: debated
+  hijri: "1044"
+  note: "Executed at Istanbul, strangled in the palace woodshed on Bayram Pasha's order and his body thrown into the sea, as Kâtib Çelebi's Fezleke and Naîmâ report in the TDV entry's account. The Turkish and Persian articles give the day as 27 January 1635 and the TDV entry holds that the chronogram verses confirm Sha'ban 1044, January 1635, against other dates in the sources; the English article gives the year only, the Arabic article gives 1636 against the 1044 pairing, and some biographical sources give 1045 AH instead — all readings preserved here."
+  sources: [source/wikipedia-nef-i-tr, source/wikipedia-nef-i-fa, source/dia-nefi, source/wikipedia-nef-i-en, source/wikipedia-nef-i-ar]
+
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-nef-i-en, source/wikipedia-nef-i-tr, source/wikidata-nef-i] }
+
+faith:
+  - value: sunni-maliki
+    basis: self-identified
+    note: >-
+      His own words, in the quatrain answering Tahir Efendi, who had
+      called him a dog (kelp) — "Maliki mezhebim benim zira,
+      itikadımca kelp tahirdir", my madhhab is Maliki, for in my
+      belief the dog is tahir, pure — a pun on Tahir and pure on
+      which he successfully defended himself when tried for the
+      verse. The quatrain is quoted in the prose of two independent
+      texts, the English article, which translates the line as "For
+      my sect is Maliki", and the Turkish article, which glosses
+      its first sense as Nef'i being a member of the Maliki
+      madhhab. Self-identification quoted in two independent
+      sources settles the value at basis self-identified under the
+      founder's rule, on the Kâtip Çelebi precedent. The TDV entry
+      confirms the exchange with Tâhir Efendi stands in his
+      Sihâm-ı Kazâ. Şeyhülislam Yahya's joking quatrain calling
+      him kâfir, and his famous reply, are literary sparring
+      between poets and attest nothing either way, and the TDV
+      entry's signs of Mevlevi sympathy fall short of attested
+      order membership and are not relied on.
+    sources: [source/wikipedia-nef-i-en, source/wikipedia-nef-i-tr, source/dia-nefi]
+
+external_ids: { wikidata: "Q3674672" }
+
+sources:
+  - source/wikipedia-nef-i-en
+  - source/wikipedia-nef-i-tr
+  - source/wikipedia-nef-i-ar
+  - source/wikipedia-nef-i-fa
+  - source/dia-nefi
+  - source/wikidata-nef-i
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382815577 of 30 October 2026), Turkish Wikipedia «Nef'î» (revision 37825781 of 24 August 2026), Arabic Wikipedia «نفعي (شاعر)» (revision 75473204 of 14 June 2026), Persian Wikipedia «نفعی» (revision 43442518 of 11 February 2026), Metin Akkuş's entry in the TDV İslâm Ansiklopedisi (2006, online edition, read in-session 1 November 2026) and Wikidata Q3674672 (item revision 2521117346 of 22 July 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Turkish, Arabic and Persian articles agreeing. No Urdu article exists. Existence checked against origin/main before building — no record holds this man under nef-i, nefi or any name fragment; the similar slug nefeszade-seyyid-ismail-efendi is a different man. Queue corrections — the queue's birth year 1589 is attested in no source read and the sources' c. 1572 is built instead; the Arabic article's patronymic ibn Abdullah is not followed against the Turkish article and the TDV entry, which give his father as Mehmed Bey; his first pen name is Darrî in the TDV entry and the textbook tradition, Zarrî in the Turkish article. place/istanbul exists on main; no place entity exists for Hasankale or Erzurum, so no born_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-174m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

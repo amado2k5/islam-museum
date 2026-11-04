@@ -2,12 +2,7 @@
 id: person/sharraa-ibn-zayd
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 29"]
 ---
 ## Overview
-Sharra'a ibn Zayd. al-Mas'udi reports that al-Walid ibn Yazid heard of his good companionship and sent for him {cite:muruj-al-dhahab p.201-202}.
-
-## His reply
-al-Walid asked him about drinks. He mentioned water, wine and intoxicants, and then praised listening to music. al-Walid took him as a boon-companion {cite:muruj-al-dhahab p.201-202}.
-
-The entry needs an additional source.
+al-Sharra' ibn Zayd, of whose wit al-Walid ibn Yazid heard and sent for him; asked about drink he said 'water — the mule and donkey share it with me; date wine — all flatulence; but wine — the sister of my soul and companion of my self; and music — it stirs the remembrance of sorrows and renews joy upon the seats of grief', so al-Walid made him his boon companion.

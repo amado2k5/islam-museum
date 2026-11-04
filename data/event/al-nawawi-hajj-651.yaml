@@ -1,0 +1,27 @@
+id: event/al-nawawi-hajj-651
+class: event
+kind: pilgrimage
+label:
+  ar: "حج النووي مع والده، ٦٥١هـ/١٢٥٣م"
+  en: "Al-Nawawi makes the pilgrimage with his father, 651/1253"
+  ur: "نووی کا والد کے ہمراہ حج، 651ھ/1253ء"
+summary:
+  ar: "حج النووي مع والده سنة ٦٥١هـ/١٢٥٣م، وكانت وقفة يوم جمعة، وأقاما بالمدينة نحو شهر ونصف؛ ويذكر والده أن ابنه أصابته الحمى منذ خروجهما من نوى فلم تفارقه حتى يوم عرفة ولم يتأوه قط {cite:shadharat-dhahab p. 355} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096} {cite:al-bidaya-wal-nihaya p. 294}."
+  en: "In 651/1253 al-Nawawi made the hajj with his father; the standing at Arafa fell on a Friday, and the two stayed in Medina for about a month and a half. His father recalled that a fever seized the young man on the road from Nawa and did not leave him until the day of Arafa, yet he never once moaned {cite:shadharat-dhahab p. 355} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096} {cite:al-bidaya-wal-nihaya p. 294}."
+  ur: "651ھ/1253ء میں نووی نے اپنے والد کے ساتھ حج کیا؛ وقوف عرفہ جمعہ کے دن تھا اور دونوں مدینہ میں تقریباً ڈیڑھ ماہ رہے۔ ان کے والد بیان کرتے ہیں کہ نوى سے نکلتے وقت بیٹے کو بخار ہو گیا جو عرفہ کے دن تک نہ اترا مگر اس نے کبھی کراہ نہیں کی {cite:shadharat-dhahab p. 355} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096} {cite:al-bidaya-wal-nihaya p. 294}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+date:
+  start: { edtf: "1253~", hijri: "0651", calendar: julian, precision: year, status: tradition, derived: true, note: "حج سنة ٦٥١هـ وكانت الوقفة يوم جمعة؛ التحويل مشتق {cite:shadharat-dhahab p. 355} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nawawi, role: "الحاج", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "shadharat-dhahab s.a. 676, printed p. 355; Encyclopaedia of Islam 2nd ed. vol. 7, art. al-Nawawi, PDF p. 1096; al-Bidaya wal-Nihaya s.a. 676 p. 294"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nawawi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

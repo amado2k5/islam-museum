@@ -1,0 +1,29 @@
+id: event/umari-sultan-anger-737
+class: event
+kind: other
+label:
+  ar: "سخط الناصر على ابن فضل الله وعزله، نحو ٧٣٧هـ/١٣٣٧م"
+  en: "al-Nasir's anger and al-Umari's dismissal, c. 737/1337"
+  ur: "ناصر کا غصہ اور عمری کی معزولی، تقریباً 737ھ/1337ء"
+summary:
+  ar: "سأل تنكز الناصر أن يقرر علم الدين ابن القطب في كتابة السر، فأنكر ابن فضل الله لكونه قبطيًا، ولما طُلب منه أن يزيد في معلوم ابن القطب قال مستشاطًا: «أما يكفي أن يكون كاتب السر حتى يزاد معلومه؟» ثم قام بين يدي السلطان وقال: «خدمتك عليّ حرام»؛ فاشتد غضب الناصر وأمر بإقامة أخيه علاء الدين مكانه وإلزامه بيته {cite:durar-kamina-jil-1993 1/332} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  en: "When Tankiz asked al-Nasir to confirm Alam al-Din Ibn al-Qutb as katib al-sirr, Ibn Fadl Allah objected that he was a Copt; ordered to raise Ibn al-Qutb's salary he flared, 'Is it not enough that he is katib al-sirr, that his pay must be raised too?' then rose before the sultan saying, 'Your service is forbidden me.' Al-Nasir's wrath burst: he had Ahmad's brother Ala al-Din installed in his place and confined him to his house {cite:durar-kamina-jil-1993 1/332} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  ur: "جب تنکز نے ناصر سے علم الدین ابن قطب کو کاتبِ سر مقرر کرنے کی درخواست کی تو ابن فضل اللہ نے اس پر اعتراض کیا کہ وہ قبطی ہے؛ جب اس سے ابن قطب کی تنخواہ بڑھانے کو کہا گیا تو وہ بھڑک اٹھا: «کیا یہ کافی نہیں کہ وہ کاتبِ سر ہے کہ اس کی تنخواہ بھی بڑھائی جائے؟» پھر وہ سلطان کے سامنے کھڑا ہوا اور کہا: «تمھاری خدمت مجھ پر حرام ہے۔» ناصر کا غضب بھڑکا؛ اس نے اس کے بھائی علاء الدین کو اس کی جگہ بٹھایا اور اسے گھر میں قید کر دیا {cite:durar-kamina-jil-1993 1/332} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1337~", hijri: "0737~", calendar: julian, precision: year, status: historical, derived: true, note: "وقع قبل وفاة أبيه في رمضان ٧٣٨هـ وسجنه في شعبان ٧٣٩هـ؛ التاريخ تقريبي {cite:durar-kamina-jil-1993 1/332}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "المعزول", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nasir-muhammad-ibn-qalawun, role: "السلطان الغاضب", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/alam-al-din-ibn-al-qutb, role: "المرشح لكتابة السر", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الدرر الكامنة (ط دار الجيل 1993) 1/332؛ EI2 vol. 3 PDF pp. 790-791, art. Ibn Fadl Allah al-Umari (K. S. Salibi)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-umari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

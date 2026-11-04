@@ -1,0 +1,23 @@
+id: event/kalenderoglu-plunders-bursa-1017
+class: event
+kind: raid
+label: { ar: "كلندر أوغلو ينهب بورصة", en: "Kalenderoğlu plunders Bursa", ur: "کلندر اوغلو کی بورصہ پر لوٹ مار" }
+summary:
+  ar: "هددت عصابات الجلالي مدينة بورصة من سنة 1003هـ/1595م، وجاءها كلندر أوغلو ناهباً سنة 1017هـ/1608م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}."
+  en: "Jelali bands threatened Bursa from 1003/1595, and in 1017/1608 Kalenderoğlu came to plunder the city {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}."
+  ur: "جلالی دستے 1003ھ/1595ء سے بورصہ کو دھمکاتے رہے، اور 1017ھ/1608ء میں کلندر اوغلو شہر لوٹنے آیا {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}۔"
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1608", hijri: "1017", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 1017هـ/1608م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}." }
+relations:
+  - { type: occurred_at, target: place/bursa, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 1 BURSA, PDF p. 1398 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

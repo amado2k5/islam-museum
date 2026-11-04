@@ -1,0 +1,32 @@
+id: work/taamolat-qurania-1
+class: work
+kind: lecture-series
+label:
+  ar: "تأملات قرآنية 1 (سلسلة دروس)"
+  en: "Ta'ammulat Qur'aniyya 1: Qur'anic reflections (lesson series)"
+  ur: "تأملات قرآنیہ 1: قرآنی غور و فکر (دروس کا سلسلہ)"
+summary:
+  ar: "سلسلة من تسع حلقات تلفزيونية قصيرة ليوسف القرضاوي في أرشيف أسابيل، يتأمل فيها آيات من سور آل عمران والنساء والمائدة والأنعام: أهل الكتاب واصطفاء آدم ونوح، ومريم وزكريا والكرامات، والمرأة والميراث والأسرة، والآيات المبشّرات والاستغفار، والطيبات والأيمان، وسورة الأنعام سورة التوحيد."
+  en: "A series of nine short television episodes by Yusuf al-Qaradawi on the Assabile archive, reflecting on verses of Al Imran, al-Nisa', al-Ma'ida and al-An'am: the People of the Book and the choosing of Adam and Noah, Maryam, Zakariyya and marvels, women, inheritance and the family, the verses of good news and asking forgiveness, good things and oaths, and al-An'am as the sura of God's oneness."
+  ur: "اسابیل آرکائیو میں یوسف قرضاوی کی نو مختصر ٹیلی وژن اقساط کا سلسلہ، جس میں وہ آل عمران، النساء، المائدہ اور الانعام کی آیات پر غور کرتے ہیں: اہل کتاب اور آدم و نوح کا انتخاب، مریم، زکریا اور کرامات، عورت، میراث اور خاندان، بشارت والی آیات اور استغفار، پاکیزہ چیزیں اور قسمیں، اور توحید کی سورت کے طور پر الانعام۔"
+wings: [ideas]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+authors: [person/yusuf-al-qaradawi]
+delivered: { by: person/yusuf-al-qaradawi }
+language: language/arabic
+relations:
+  - { type: about, target: concept/ahl-al-kitab, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: person/adam, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/nubuwwa, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: person/maryam, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/karamat-al-awliya, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/mirath-al-nisa, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/talaq, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/istighfar, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/kibr, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: practice/kaffarat-al-yamin, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/wasat-fiqh, sources: [source/assabile-yusuf-al-qaradawi] }
+sources: [source/assabile-yusuf-al-qaradawi]
+provenance: { layer: copyrighted-reference, source: "Assabile, taamolat-qurania-1 ep01-ep09 (series page https://www.assabile.com/yusuf-al-qaradawi/lessons/taamolat-qurania-1; manifest read 1 Nov 2026; transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows; claims tables in the harvest workspace)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: assabile-egypt-qaradawi-1 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-qaradawi-1" }

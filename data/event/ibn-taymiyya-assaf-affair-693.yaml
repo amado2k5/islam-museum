@@ -1,0 +1,27 @@
+id: event/ibn-taymiyya-assaf-affair-693
+class: event
+kind: persecution
+label:
+  ar: "قضية عساف النصراني وأول سجن لابن تيمية، ٦٩٣هـ/١٢٩٣م"
+  en: "The Assaf al-Nasrani affair and Ibn Taymiyya's first imprisonment, 693/1293"
+  ur: "عساف نصرانی کا معاملہ اور ابن تیمیہ کی پہلی قید، 693ھ/1293ء"
+summary:
+  ar: "أول دخول لابن تيمية في الحياة السياسية كان سنة ٦٩٣هـ/١٢٩٣م في قضية عساف النصراني، نصراني من السويداء اتُّهم بسبّ النبي؛ وقد أدت صرامة ابن تيمية في هذه القضية إلى سجنه لأول مرة في العذراوية، وفيها كتب أول مؤلف كبير له، كتاب «الصارم المسلول على شاتم الرسول» {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}."
+  en: "Ibn Taymiyya's first incursion into political life came in 693/1293 with the affair of Assaf al-Nasrani, a Christian of Suwayda accused of having insulted the Prophet. His intransigence in the affair led to his first imprisonment, at the Adhrawiyya, where he wrote his first major work, al-Sarim al-maslul 'ala shatim al-Rasul {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}."
+  ur: "ابن تیمیہ کی سیاسی زندگی میں پہلی شمولیت 693ھ/1293ء میں عساف نصرانی کے معاملے سے ہوئی، جو سویدا کا ایک مسیحی تھا اور پر رسول پر طعن کا متهم تھا؛ اس معاملے میں ان کی سخت موقف کی وجہ سے انہیں پہلی بار عذراویہ میں قید کیا گیا، جہاں انہوں نے اپنی پہلی بڑی تصنیف «الصارم المسلول علی شاتم الرسول» لکھی {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1293~", hijri: "0693~", calendar: julian, precision: year, status: tradition, derived: true, note: "قضية عساف النصراني سنة ٦٩٣هـ/١٢٩٣م {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "المدّعي المتشدد فالمسجون", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 983 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-taymiyya-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

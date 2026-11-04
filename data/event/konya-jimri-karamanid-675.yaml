@@ -1,0 +1,26 @@
+id: event/konya-jimri-karamanid-675
+class: event
+kind: conquest
+label: { ar: "القرمانيون يحتلون قونية وينصّبون جمري، ٦٧٥هـ", en: "The Karamanids occupy Konya and install Jimri, 675/1277", ur: "کرمانیوں کا قونیہ پر قبضہ اور جمری کا تنصیب، 675ھ/1277ء" }
+summary:
+  ar: "في سنوات ٦٧٥–٦٧٧هـ/١٢٧٧–١٢٧٨م احتل القرمانيون قونية مؤقتًا قادمين من جبال طوروس الغربية، ونصّبوا فيها سلجوقيًا زائفًا عُرف بجمري؛ وكانت هذه أول حلقة في انتقال مراكز النشاط السياسي عن قونية مع قيام الحماية المغولية على الأناضول السلجوقي {cite:encyclopaedia-of-islam-2 vol. 5.1 pp. 287-288}."
+  en: "In 675-677/1277-78 the Karamanids of the western Taurus temporarily occupied Konya and installed there a bogus Seljuk known as Jimri — the first episode in the shift of political centres away from Konya as the Mongol protectorate settled over Seljuk Anatolia {cite:encyclopaedia-of-islam-2 vol. 5.1 pp. 287-288}."
+  ur: "675–677ھ/1277–78ء میں مغربی طوروس کے کرمانیوں نے قونیہ پر عارضی قبضہ کیا اور وہاں جمری نام کے جعلی سلجوقی کو براجمان کیا — منگولوں کے زیرِ سایہ سلجوقی اناطولیہ میں قونیہ سے سیاسی مراکز کے منتقل ہونے کا یہ پہلا واقعہ تھا۔"
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1277", hijri: "0675", calendar: julian, precision: year, status: historical, derived: true, note: "الاحتلال المؤقت ٦٧٥–٦٧٧هـ/١٢٧٧–١٢٧٨م {cite:encyclopaedia-of-islam-2 vol. 5.1 pp. 287-288}؛ التحويل مشتق." }
+  end: { edtf: "1278", hijri: "0677", calendar: julian, precision: year, status: historical, derived: true }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: polity/qaramanid-beylik, role: "المحتل المنصِّب لجمري", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., art. ḲONYA (Cl. Cahen), vol. 5.1 PDF pp. 287-288 (harvest OCR, books/encyclopaedia-of-islam-2/Encyclopaedia_of_Islam_vol_5_1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-konya-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

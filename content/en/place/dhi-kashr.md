@@ -2,9 +2,12 @@
 id: place/dhi-kashr
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## Overview
-A hollow on the road of the migration, between Mudlij Dhi al-Ghadwayn and al-Jaddajid. {cite:mubarakpuri-raheeq}
+## Summary
+Dhi Kashr is a valley floor on the Hijra road, placed in Ibn Ishaq's itinerary between Mudlajat Dhi al-Ghadwayn and al-Jada'id. {cite:mubarakpuri-raheeq p. 167}
 
-An additional source is needed.
+## Details
+On the route the guide took with the Prophet and his companion on the Hijra, Ibn Ishaq lists the stages in sequence: "then he took them down into Marjih of Dhi al-Ghadwayn, then into the valley of Dhi Kashr, then led them up onto al-Jada'id, then onto al-Ajrad." {cite:mubarakpuri-raheeq p. 167}
+
+Dhi Kashr is thus one of the valley floors of the western Hijra road, among the successive depressions (madalij) traversed by the guide Abd Allah ibn Urayqit, in the stretch that follows Usfan and Qudayd and precedes al-Ajrad, Mudlajat Ti'hin, al-Ababid, al-Faja and al-Arj on the way to Quba'. {cite:mubarakpuri-raheeq p. 167}

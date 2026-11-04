@@ -1,0 +1,77 @@
+id: person/akbar-ii
+class: person
+
+label: { ar: "أكبر شاه الثاني", en: "Akbar II", ur: "اکبر شاہ ثانی" }
+
+names:
+  - { value: "أكبر شاه الثاني", kind: full }
+  - { value: "Mirza Akbar", kind: full }
+  - { value: "Akbar Shah II", kind: regnal }
+  - { value: "Abu Nasir Mu'in al-Din Muhammad Akbar Shah", kind: full }
+
+gender: male
+
+summary:
+  ar: "أكبر الثاني (22 أبريل 1760 – 28 سبتمبر 1837)، إمبراطور المغول التاسع عشر، ابن شاه عالم الثاني، حكم من 1806 إلى 1837. كانت سلطته الفعلية محدودة بنفوذ شركة الهند الشرقية، وقد أرسل رام موهان روي سفيراً إلى إنجلترا لمناشدة قضيته، وخلفه ابنه بهادر شاه الثاني آخر أباطرة المغول."
+  en: "Akbar II (22 April 1760 – 28 September 1837) was the nineteenth Mughal emperor, a son of Shah Alam II, reigning from 1806 to 1837. His effective power was confined by the East India Company; he sent Ram Mohan Roy as his envoy to England to plead his case, and was succeeded by his son Bahadur Shah II, the last Mughal emperor."
+  ur: "اکبر ثانی (22 اپریل 1760ء – 28 ستمبر 1837ء) انیسویں مغل بادشاہ، شاہ عالم ثانی کے فرزند، 1806ء سے 1837ء تک تخت نشین رہے۔ آپ کی اصل طاقت ایسٹ انڈیا کمپنی کے بڑھتے ہوئے اقتدار کے سامنے محدود تھی؛ آپ نے رام موہن رائے کو اپنا ایلچی بنا کر انگلستان بھیجا، اور آپ کے بعد آپ کے فرزند بہادر شاہ ثانی آخری مغل بادشاہ بنے۔"
+
+roles: [sultan]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1760-04-22"
+  hijri: "1173"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree at day precision on 22 April 1760; the Hijri year 1173 is converted from the Gregorian date. He was born at Mukundpur while his father was in exile; no museum place record exists for Mukundpur, so no born_in edge is written."
+  sources: [source/wikipedia-akbar-ii-en, source/wikidata-akbar-ii]
+
+died:
+  edtf: "1837-09-28"
+  hijri: "1253"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree at day precision on 28 September 1837, at Delhi; the Hijri year 1253 is converted from the Gregorian date."
+  sources: [source/wikipedia-akbar-ii-en, source/wikidata-akbar-ii]
+
+relations:
+  - { type: child_of, target: person/shah-alam-ii, sources: [source/wikipedia-akbar-ii-en, source/wikidata-akbar-ii] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-akbar-ii-en, source/wikidata-akbar-ii] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source consulted names a legal school for Akbar II himself in
+      text. The English article's infobox gives his religion as Sunni
+      Islam (Hanafi) — a single structured attestation that the article
+      body does not corroborate; the Arabic article's infobox gives
+      Islam only, and Wikidata's religion value is Islam generically.
+      The Mughal court's Hanafi tradition is the context of his reign,
+      and a court's tradition never counts as the man's own attestation.
+      Under the lane's doctrine a school is settled only on two
+      independent sources naming it for the person himself, so his faith
+      is recorded as unattested and the infobox attestation is preserved
+      here.
+    sources: [source/wikipedia-akbar-ii-en, source/wikipedia-akbar-ii-ar, source/wikidata-akbar-ii]
+
+external_ids: { wikidata: "Q2091579" }
+
+sources:
+  - source/wikipedia-akbar-ii-en
+  - source/wikipedia-akbar-ii-ar
+  - source/wikipedia-akbar-ii-ur
+  - source/wikidata-akbar-ii
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1373967525 of 9 September 2026), Arabic Wikipedia (revision 71455351 of 20 July 2025), Urdu Wikipedia (revision 11801373 of 18 August 2026) and Wikidata Q2091579 (item revision 2554307817), all fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (the Arabic and Urdu articles' agree) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub; the existing Akbar records are other men (the emperor Akbar I and modern namesakes). The child_of edge to Shah Alam II is written here, in the son's record, per the lane's write-once rule; no edge is written from this side to his son Bahadur Shah II, whose record already stands on its own."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-161j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

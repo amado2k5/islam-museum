@@ -1,0 +1,34 @@
+id: person/azar-nafisi
+class: person
+label: { ar: "آذار نفيسي", en: "Azar Nafisi", ur: "آذر نفیسی" }
+names:
+  - { value: "آذر نفیسی", kind: full }
+  - { value: "Azar Nafisi", kind: full }
+gender: female
+summary:
+  ar: "كاتبة وأستاذة أدب إنجليزي إيرانية أمريكية، وُلدت في طهران. فُصلت من جامعة طهران سنة 1981 لرفضها الحجاب الإلزامي، وهاجرت إلى الولايات المتحدة سنة 1997، وكتبت «قراءة لوليتا في طهران» (2003) الذي بقي في قائمة نيويورك تايمز للكتب الأكثر مبيعًا 117 أسبوعًا."
+  en: "Iranian-American writer and professor of English literature, born in Tehran. Expelled from the University of Tehran in 1981 for refusing the mandatory veil, she emigrated to the United States in 1997 and wrote Reading Lolita in Tehran (2003), which stayed on the New York Times bestseller list for 117 weeks."
+  ur: "ایرانی نژاد امریکی مصنفہ اور انگریزی ادب کی پروفیسر، تہران میں پیدا ہوئیں۔ 1981 میں لازمی حجاب سے انکار پر انہیں تہران یونیورسٹی سے برطرف کیا گیا؛ 1997 میں وہ امریکہ منتقل ہوئیں اور «ریڈنگ لولیتا ان تہران» (2003) لکھی، جو نیویارک ٹائمز کی سب سے زیادہ فروخت ہونے والی کتابوں کی فہرست میں 117 ہفتے رہی۔"
+roles: [writer, professor]
+wings: [people, living]
+regions: [persia-central-asia, americas-oceania]
+born:
+  edtf: "1948"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "QUEUE CORRECTION (year kept, certainty lowered): the queue gives 1948, and Wikidata gives a full date of 20 December 1948, but the English article states no birth date at all and the Arabic and Urdu articles give 1955. The record keeps the year 1948 at year precision with status debated; the day and month in Wikidata are stated in no article read and are not adopted, and the 1955 reading is preserved here. A bare Gregorian year 1948 spans two Hijri years (1367 and 1368), so no Hijri year is recorded. Tehran has no place entity, so no born_in edge is written."
+  sources: [source/wikidata-azar-nafisi, source/wikipedia-azar-nafisi-en, source/wikipedia-azar-nafisi-ar, source/wikipedia-azar-nafisi-ur]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or school for Nafisi. The English article describes her, in a sentence the article itself flags as needing a citation, as 'a secular woman' living and working in the Islamic Republic; that is an uncited characterization of her outlook, not an attestation of a school, and her parents' public roles are family background, which never counts. Wikidata carries no religion (P140) statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-azar-nafisi-en, source/wikipedia-azar-nafisi-ar, source/wikidata-azar-nafisi]
+external_ids: { wikidata: "Q258753" }
+sources: [source/wikipedia-azar-nafisi-en, source/wikipedia-azar-nafisi-ar, source/wikipedia-azar-nafisi-ur, source/wikidata-azar-nafisi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1373770275), Arabic Wikipedia (revision 74022895), Urdu Wikipedia (revision 10969807) and Wikidata Q258753 (item revision 2555588089, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. Existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-156a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

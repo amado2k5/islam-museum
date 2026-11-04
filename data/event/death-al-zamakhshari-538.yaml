@@ -1,0 +1,27 @@
+id: event/death-al-zamakhshari-538
+class: event
+kind: death
+label:
+  ar: "وفاة الزمخشري بجرجانية، ٥٣٨هـ/١١٤٤م"
+  en: "Death of al-Zamakhshari at Jurjaniyya, 538/1144"
+  ur: "جرجانیہ میں زمخشری کی وفات، 538ھ/1144ء"
+summary:
+  ar: "توفي أبو القاسم الزمخشري بجرجانية خوارزم ليلة عرفة سنة ٥٣٨هـ بعد رجوعه من مكة، وعاش إحدى وسبعين سنة {cite:shadharat-dhahab p. 599-601}؛ وتذكر الموسوعة الإسلامية أنه توفي في ٩ ذي الحجة ٥٣٨هـ الموافق ١٤ حزيران ١١٤٤م ودُفن قرب المدينة، وقد بلغت مجاوراته بمكة خمس سنين وحجّ سبع حجج بشهادته، فعُرف بلقب «جار الله» وسُمّي في بلاده «فخر خوارزم» {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}."
+  en: "Abu al-Qasim al-Zamakhshari died at Jurjaniyya in Khwarazm on the night of Arafa in 538, after returning from Mecca, aged seventy-one {cite:shadharat-dhahab p. 599-601}. The Encyclopaedia of Islam gives 9 Dhu al-Hijja 538, corresponding to 14 June 1144; he was buried near the town. By his own testimony he had lived at Mecca five years and made the pilgrimage seven times, earning the laqab 'Jar Allah', while at home he was known as the Glory of Khwarazm {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}."
+  ur: "ابوالقاسم زمخشری 538ھ میں مکہ سے واپسی کے بعد جرجانیہ خوارزم میں یوم عرفہ کی رات فوت ہوئے؛ ان کی عمر اکہتر برس تھی {cite:shadharat-dhahab p. 599-601}۔ دائرۃ المعارف الاسلامیہ کے مطابق وفات 9 ذی الحجہ 538ھ بمطابق 14 جون 1144ء ہوئی اور انہیں شہر کے قریب دفنایا گیا۔ اپنی شہادت کے مطابق انہوں نے مکہ میں پانچ برس قیام کیا اور سات بار حج کیا، جس سے «جار اللہ» کا لقب پایا، جبکہ اپنے وطن میں «فخر خوارزم» کہلائے {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1144-06-14", hijri: "0538-12-09", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة عرفة سنة ٥٣٨هـ {cite:shadharat-dhahab p. 601}؛ ٩ ذي الحجة ٥٣٨هـ = ١٤ حزيران ١١٤٤م {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/jurjaniyya, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-zamakhshari, role: "المتوفَّى", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد، s.a. 538، printed pp. 599-601 (harvest scan); Encyclopaedia of Islam 2nd ed. vol. 12 (Supplement) p. 918"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-zamakhshari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

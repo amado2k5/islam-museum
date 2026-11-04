@@ -1,0 +1,27 @@
+id: event/death-tirmidhi-bugh-279
+class: event
+kind: death
+label:
+  ar: "وفاة أبي عيسى الترمذي بقرية بوغ قرب ترمذ، الاثنين ١٣ رجب ٢٧٩هـ"
+  en: "Death of Abu 'Isa al-Tirmidhi at Bugh near Tirmidh, Monday 13 Rajab 279/892"
+  ur: "ابوعیسیٰ ترمذی کی وفات بوغ قریب ترمذ، پیر 13 رجب 279ھ/892ء"
+summary:
+  ar: "توفي الترمذي ليلة الاثنين لثلاث عشرة ليلة خلت من رجب سنة تسع وسبعين ومائتين بعد أن سجل حضوراً علمياً إيجابياً في تاريخ الحديث {cite:mawsuat-a3lam-ulama-adaba p. 451}؛ وتوفي بترمذ سنة ٢٧٩هـ {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}، وروى عنه الحبوبي والهيثم بن كليب وخلق {cite:taqrib-al-tahdhib p. 558}."
+  en: "Al-Tirmidhi died on the night of Monday, thirteen nights before the end of Rajab, in 279/892, having left a positive scholarly mark on the history of hadith {cite:mawsuat-a3lam-ulama-adaba p. 451}; he died at Tirmidh in 279/892 {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}, and al-Hububi, al-Haytham ibn Kulayb and many others narrated from him {cite:taqrib-al-tahdhib p. 558}."
+  ur: "ترمذی پیر کی رات کو رجب کے آخری تیرہ دنوں میں 279ھ/892ء میں فوت ہوئے، انہوں نے تاریخِ حدیث میں مثبت علمی حاضری درج کی {cite:mawsuat-a3lam-ulama-adaba p. 451}؛ وہ ترمذ میں 279ھ/892ء میں فوت ہوئے {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}، اور ان سے حبوبی، ہیشم بن کلیب اور بہت سے لوگوں نے روایت کی {cite:taqrib-al-tahdhib p. 558}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0892-10-07~", hijri: "0279-07-13", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الاثنين لثلاث عشرة خلت من رجب سنة ٢٧٩هـ {cite:mawsuat-a3lam-ulama-adaba p. 451} = ١٣ رجب ٢٧٩هـ ≈ ٧ أكتوبر ٨٩٢م؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/taqrib-al-tahdhib] }
+relations:
+  - { type: occurred_at, target: place/tirmidh, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2], note: "قرية بوغ من أحواز ترمذ؛ وتوفي بترمذ {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}" }
+  - { type: had_participant, target: person/al-tirmidhi-muhammad-ibn-isa, role: "المتوفَّى", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/taqrib-al-tahdhib] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/taqrib-al-tahdhib]
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء ج4 ص451 (harvest OCR v04 page-451); Encyclopaedia of Islam 2nd ed. vol. 10, printed p. 579; Taqrib al-Tahdhib scan p. 558 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-tirmidhi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
