@@ -14,25 +14,29 @@ born:
   precision: year
   status: tradition
   derived: true
-  note: "سنة 543هـ بجماعيل؛ التحويل مشتق {cite:shadharat-dhahab p. 57}."
+  note: "سنة 543هـ بجماعيل؛ التحويل مشتق {cite:shadharat-dhahab p. 57}. وعند ابن رجب: ولد بجماعيل سنة 543، وقال المنذري سنة 544 {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 93-94}."
 died:
   edtf: "1218~"
   hijri: "0614-11-17"
   calendar: julian
   precision: day
-  status: tradition
+  status: debated
   derived: true
-  note: "ليلة الخميس سابع عشر ذي القعدة 614هـ فجأة؛ التحويل مشتق {cite:shadharat-dhahab p. 60}."
+  note: "ليلة الخميس سابع عشر ذي القعدة 614هـ فجأة؛ التحويل مشتق {cite:shadharat-dhahab p. 60}. وعند ابن رجب: قال الضياء توفي ليلة الخميس وقت عشاء الآخرة السادس عشر من ذي القعدة، وقال المنذري السابع عشر {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 103}."
 relations:
   - { type: lived_in, target: place/damascus, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/jammail, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: student_of, target: person/ibn-al-mani, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: traveled_to, target: place/baghdad, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch91
-sources: [source/shadharat-dhahab]
+  generated_by: "Devin (SWE-2 Medium); Claude Code (OCR-harvest worker F)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: prose-fill-persons-batch91, ocr-harvest-2026-11-04
+  dhayl_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: dhayl-tabaqat-hanabila-faqi-v2 pp. 93-105 (entry 255)"
+sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2]
 status:
   review: published
   completeness: 3

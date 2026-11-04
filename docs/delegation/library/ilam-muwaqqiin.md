@@ -20,3 +20,11 @@ Read: vol. 6 pp. 1–6, 38–41, 125, 203–205, 603–608 (index).
 
 ## Next
 The ~70 fatwa "benefits" individually (pp. 40–208), the Prophet's fatwas (pp. 209ff.); earlier volumes are not in the library.
+
+## Third run (4 Nov 2026), batch 10 — the mufti benefits
+Read (vol. 6, printed = PDF): contents pp. 600–608; benefits 29–32 (pp. 124–130), 38–40 (pp. 141–143), 45 (pp. 158–159).
+- New: `concept/aqsam-al-muftin` (the four kinds of muftis, following a dead scholar, partial ijtihad); `question/may-a-mufti-take-a-fee-for-a-fatwa` (Ibn al-Qayyim first; the later scholars' "fee for the writing" view as he reports it, identified by the editor as Hanafi and Abu Hatim al-Qazwini's).
+- The editor's name is still not stated (an editor's note on p. 125 refers to "my edition" of al-Furusiyya, consistent with Mashhur Hasan Al Salman, but the title page remains unconfirmed).
+
+## Next
+Benefit 39 on stratagems (p. 142, for `concept/hila-legal-device`), the retraction of a fatwa (p. 143), the mufti's liability (p. 147), the Prophet's fatwas by topic (pp. 209–600).

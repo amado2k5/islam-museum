@@ -28,3 +28,12 @@ Read: Sumayi q1 PDF pp. 125–129 (the editor's study quoting Ibn al-Qayyim on t
 
 ## Next
 The stations proper begin in later quarters (not in this item); the `madsal` item (640 pp., another edition, wakefulness at p. 137, repentance at p. 453) and `20260717_20260717_0543` are not yet identified as editions.
+
+## Third run (4 Nov 2026), batch 12
+- Identified `madsal` (md5 26668905…): vol. 1 of Madarij al-Salikin, ed. Ridwan Jami' Ridwan (names garbled in OCR), Mu'assasat al-Mukhtar, Cairo, 1st ed. 1422/2001 → new `source/madarij-salikin-mukhtar-v1`. It runs from the editor's introduction to the 34th station (contentment), contents pp. 631–640. PDF pages cited; printed numbering runs about 6–7 lower and the offset was not fixed.
+- Read (PDF): pp. 5–8, 121–123, 136–139 (awakening, insight), 358–363 (turning back), 631–640 (contents, station list).
+- New: `concept/yaqaza`, `concept/inaba` (ar/en/ur).
+- `source/madarij-salikin-sumayi-q1` reliability note updated to point to the new identification.
+
+## Next
+In the same volume: stations not yet in the graph — reflection, firar (fleeing, PDF ~387), i'tisam (~379), ikhbat (~437), ri'aya (~483), thiqa (~549); existing thin station cards (tafwid, taslim) could take Ibn al-Qayyim's definitions.

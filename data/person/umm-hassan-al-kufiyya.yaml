@@ -1,0 +1,19 @@
+id: person/umm-hassan-al-kufiyya
+class: person
+label: { ar: "أم حسان الكوفية", en: "Umm Hassan al-Kufiyya", ur: "ام حسان کوفیہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل الكوفة يذكرها ابن الجوزي في «صفة الصفوة» بين عابدات الكوفة، كان سفيان الثوري وابن المبارك يزورونها، فلما اقترح عليها الثوري أن تكتب إلى بني عمها ليغيّروا سوء حالها قالت إنها لا تسأل الدنيا من يملكها فكيف تسألها من لا يملكها؛ وبلغ ابن المبارك أن سفيان تزوجها."
+  en: "A devout woman of Kufa whom Ibn al-Jawzi lists in Sifat al-Safwa among the women ascetics of Kufa. Sufyan al-Thawri and Ibn al-Mubarak used to visit her; when al-Thawri suggested she write to her cousins to relieve her poverty, she said she did not ask the world even of its Owner, so how could she ask it of those who do not own it. Ibn al-Mubarak heard that Sufyan later married her."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/kufa, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.602", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

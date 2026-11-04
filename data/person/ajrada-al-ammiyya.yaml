@@ -1,0 +1,19 @@
+id: person/ajrada-al-ammiyya
+class: person
+label: { ar: "عجردة العمية", en: "Ajrada al-Ammiyya", ur: "عجردہ عمیہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل البصرة يذكرها ابن الجوزي في «صفة الصفوة»، كانت تقوم الليل في المحراب إلى السحر ثم تدعو حتى الفجر، وتقول إن ذكر الموت لا يدعها تنام، ويُذكر أنها لم تفطر ستين عاماً، ورُئيت يوم عيد في جبة صوف وقناع صوف وهي جلد وعظم."
+  en: "A devout woman of Basra recorded by Ibn al-Jawzi in Sifat al-Safwa, who prayed in her prayer niche until the pre-dawn and then supplicated until daybreak, saying the remembrance of death would not let her sleep; it was said she had fasted for sixty years, and she was seen on a feast day in a woollen cloak and veil, nothing but skin and bone."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.709–710", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

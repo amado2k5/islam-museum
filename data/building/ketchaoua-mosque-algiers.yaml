@@ -1,0 +1,24 @@
+id: building/ketchaoua-mosque-algiers
+class: building
+kind: mosque
+label: { ar: "جامع كتشاوة في الجزائر", en: "Ketchaoua Mosque, Algiers", ur: "مسجد کتشاوہ، الجزائر" }
+summary:
+  ar: "جامع الجزائر المركزي، بني سنة 1612 قرب سوق الماعز ووسّعه حسن باشا سنة 1794، حوّله الفرنسيون سنة 1832 إلى كاتدرائية القديس فيليب، وعاد مسجداً بعد الاستقلال، ورُمّم سنة 2014 {cite:yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023 p. 222}."
+  en: "The central mosque of Algiers, built in 1612 near the goat market and enlarged by Hasan Pasha in 1794, turned by the French into the Cathedral of St Philippe in 1832, returned to use as a mosque after independence and restored in 2014 {cite:yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023 p. 222}."
+  ur: "الجزائر شہر کی مرکزی مسجد، 1612ء میں بکری منڈی کے پاس بنی، 1794ء میں حسن پاشا نے توسیع دی، 1832ء میں فرانسیسیوں نے سینٹ فلپ کیتھیڈرل بنا دیا، آزادی کے بعد پھر مسجد بنی اور 2014ء میں مرمت ہوئی {cite:yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023 p. 222}۔"
+wings: [objects, place]
+themes: [architecture]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+built: { edtf: "1612", calendar: gregorian, precision: year, status: historical, note: "Built 1612; repaired and enlarged by Hasan Pasha in 1794 {cite:yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023 p. 222}." }
+location: place/algiers
+relations:
+  - { type: located_in, target: place/algiers, sources: [source/yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023] }
+sources: [source/yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023]
+provenance:
+  layer: own-research
+  source: "Yilmaz 2023, vol. 1, printed pp. 222"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

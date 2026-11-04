@@ -7,13 +7,15 @@ summary:
 gender: male
 wings: [people]
 provenance:
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 35–38 (entry 5518)"
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 512–513"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch44
 external_ids: { wikidata: "Q12224353" }
-sources: [source/muruj-al-dhahab, source/al-bidaya-wal-nihaya, source/tarikh-baghdad-khatib]
+sensitivity: contested
+sources: [source/muruj-al-dhahab, source/al-bidaya-wal-nihaya, source/tarikh-baghdad-khatib, source/mizan-itidal-bijawi-v3]
 status:
   review: published
   completeness: 3
