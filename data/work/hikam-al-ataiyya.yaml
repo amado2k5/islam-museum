@@ -1,17 +1,24 @@
 id: work/hikam-al-ataiyya
 class: work
 kind: book
-label: { ar: "حكم العطائية", en: "Hikam al-'Ata'iyya" }
+label: { ar: "الحكم العطائية", en: "Hikam al-'Ata'iyya", ur: "الحکم العطائیہ" }
 summary:
-  ar: "بطاقة أولية لـحكم العطائية؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Hikam al-'Ata'iyya; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam, source/assabile-omar-abdelkafy]
+  ar: "مجموعة حكم في التصوف لابن عطاء الله السكندري (ت 709هـ)، عددها مئتان وأربع وستون حكمة غير مكاتباته ومناجاته، يرى محمد عبد المقصود هيكل أنها أول مصنفاته وأنها ألفت قبل وفاة شيخه المرسي سنة 686هـ، وأول من شرحها ابن عباد الرندي {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 38}."
+  en: "A collection of Sufi maxims by Ibn 'Ata' Allah al-Iskandari (d. 709 AH), two hundred and sixty-four in number besides his letters and intimate prayers; Muhammad 'Abd al-Maqsud Haykal thinks it was his first work, written before the death of his shaykh al-Mursi in 686 AH; its first commentator was Ibn 'Abbad al-Rundi {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 38}."
+  ur: "ابن عطاء اللہ سکندری (م 709ھ) کی تصوف میں حکمتوں کا مجموعہ، جن کی تعداد ان کے خطوط اور مناجات کے علاوہ دو سو چونسٹھ ہے؛ محمد عبد المقصود ہیکل کے خیال میں یہ ان کی پہلی تصنیف ہے جو ان کے شیخ مرسی کی 686ھ میں وفات سے پہلے لکھی گئی؛ اس کے پہلے شارح ابن عباد رندی ہیں {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 38}۔"
+language: language/arabic
+authors: [person/ibn-ata-allah-al-iskandari]
+genre: [tasawwuf]
+wings: [words, ideas]
+themes: [spirituality-and-sufism]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+sources: [source/al-aalam, source/assabile-omar-abdelkafy, source/hikam-ibn-abbad-haykal-ahram-1988, source/minah-qudsiyya-sharqawi-ilmiyya]
 external_ids: { wikidata: "Q12186557" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Wikidata candidate; summary and opening sections from Haykal's edition of Ibn 'Abbad's commentary (Ahram 1988) pp. 36-42"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)" }

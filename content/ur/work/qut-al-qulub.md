@@ -3,7 +3,7 @@ id: work/qut-al-qulub
 lang: ur
 source_lang: ar
 translators: ["Claude Code (OCR-harvest worker C), claude-opus-5-5, translation"]
-provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/majmu-fatawa-qasim-v10 pp. 551–552" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker C); enriched by Claude Code (OCR-harvest worker G)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/majmu-fatawa-qasim-v10 pp. 551–552; source/talbis-iblis-muniriyya-1928 p. 168" }
 ---
 ## خلاصہ
 «قوت القلوب» [[person/abu-talib-al-makki|ابو طالب مکی]] کی دل کے اعمال پر کتاب ہے، جیسے صبر، شکر، محبت، توکل اور توحید۔ یہ صفحہ فی الحال اسے [[person/ibn-taymiyya|ابن تیمیہ]] کے اس جواب کے ذریعے پیش کرتا ہے جو [[work/majmu-al-fatawa|مجموع الفتاویٰ]] کی دسویں جلد میں ہے، جہاں ان سے «احیاء علوم الدین» اور «قوت القلوب» کے بارے میں پوچھا گیا۔ {cite:majmu-fatawa-qasim-v10 p. 551}
@@ -16,3 +16,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-
 
 ## جو ابھی شامل نہیں
 کتاب خود ابھی کسی ایڈیشن میں نہیں پڑھی گئی، اس لیے یہ صفحہ نہ اس کے ابواب بتاتا ہے، نہ تاریخِ تصنیف، نہ مصنف کی تاریخِ وفات، اور نہ ابن تیمیہ کے سوا دوسروں کی آرا۔
+
+## قوت القلوب پر ابن الجوزی کی تنقید
+[[person/ibn-al-jawzi|ابن الجوزی]] «[[work/talbis-iblis|تلبیس ابلیس]]» میں «قوت القلوب» کو صوفیہ کے لیے لکھی گئی کتابوں میں شمار کرتے ہیں اور کہتے ہیں کہ [[person/abu-talib-al-makki|ابو طالب مکی]] نے اس میں باطل احادیث، دنوں اور راتوں کی بے اصل من گھڑت نمازیں، «فاسد اعتقاد»، بار بار «بعض اہلِ کشف نے کہا» کا جملہ، اور بعض صوفیہ سے یہ روایت درج کی کہ اللہ دنیا میں اپنے اولیا پر تجلی کرتا ہے۔ {cite:talbis-iblis-muniriyya-1928 p. 168} وہ خطیب بغدادی سے نقل کرتے ہیں کہ ابو طالب نے صوفیہ کی زبان میں «قوت القلوب» نامی کتاب لکھی اور اس میں «صفات کے بارے میں منکر اور قبیح باتیں» درج کیں۔ {cite:talbis-iblis-muniriyya-1928 p. 168} یہ ابن الجوزی اور خطیب کے احکام ہیں۔

@@ -27,8 +27,8 @@ relations:
   - { type: participated_in, target: event/ibn-jawzi-zenith-574, role: "شيخ الوعّاظ", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/ibn-jawzi-wasit-exile-590, role: "المنفيّ", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/ibn-jawzi-release-595, role: "المُطلَق العائد", sources: [source/encyclopaedia-of-islam-2] }
-sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan, source/assabile-abu-ishaq-alheweny, source/encyclopaedia-of-islam-2, source/zad-al-masir-dar-al-kitab-al-arabi-2001-v1]
-status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan, source/assabile-abu-ishaq-alheweny, source/encyclopaedia-of-islam-2, source/zad-al-masir-dar-al-kitab-al-arabi-2001-v1, source/talbis-iblis-muniriyya-1928]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker G)" }
 provenance:
   layer: own-research
   source: "shadharat-dhahab; tarikh-khulafa-minhaj-1434; assabile al-mubdioune ep12 lecture (2026-10 transcription); Encyclopaedia of Islam 2nd ed. vol. 3 (H–Iram), printed pp. 783-784, art. Ibn al-Djawzī"
@@ -37,4 +37,5 @@ provenance:
   run: explorer-ibn-al-jawzi-1
   enriched_by:
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/zad-al-masir-dar-al-kitab-al-arabi-2001-v1 PDF pp. 7–8 (editor's biography: lineage, birth variants 508/510/514, Ibn Rajab's critique, works, death)" }
+    - { generated_by: "Claude Code (OCR-harvest worker G)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/talbis-iblis-muniriyya-1928 PDF pp. 5, 8-9, 176, 407 (title page, preface, book on al-Hallaj, corrector's note)" }
   extraction_flow: "Apple Vision OCR -> manual extraction"

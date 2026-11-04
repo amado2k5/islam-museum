@@ -40,7 +40,9 @@ perspectives:
     evidence:
       - ref: source/tabaqat-sufiyya-sulami-khanji-1986
         note: { ar: "ص 44 (التصدير، نقلاً عن الخطيب)", en: "p. 44 (introduction, quoting al-Khatib)" }
-    sources: [source/tabaqat-sufiyya-sulami-khanji-1986]
+      - ref: source/talbis-iblis-muniriyya-1928
+        note: { ar: "ص 168 (PDF): ابن الجوزي يورد قول القطان بإسناده عن الخطيب في نقده لحقائق التفسير", en: "PDF p. 168: Ibn al-Jawzi quotes al-Qattan's words with his chain through al-Khatib in his critique of Haqa'iq al-Tafsir" }
+    sources: [source/tabaqat-sufiyya-sulami-khanji-1986, source/talbis-iblis-muniriyya-1928]
   - tradition: sunni
     id: khatib-subki-reliable
     standing: main
@@ -92,9 +94,9 @@ relations:
   - { type: related_to, target: person/al-sulami, sources: [source/tabaqat-sufiyya-sulami-khanji-1986] }
 provenance:
   layer: own-research
-  source: "طبقات الصوفية، ط. الخانجي 1986، التصدير ص 44-47"
+  source: "طبقات الصوفية، ط. الخانجي 1986، التصدير ص 44-47؛ تلبيس إبليس ط. المنيرية 1928 ص (PDF) 168"
   generated_by: "Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-sources: [source/tabaqat-sufiyya-sulami-khanji-1986]
+sources: [source/tabaqat-sufiyya-sulami-khanji-1986, source/talbis-iblis-muniriyya-1928]
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }
