@@ -12,3 +12,6 @@
 - The Halabi title page gives the death year 791 AH; this is reported as the title page's statement and not entered in the date record, which keeps the 685/691 debate.
 - The year on the Fleischer title page is garbled and is not given. The museum does not identify "H. O. Fleischer" further from these pages.
 - person/al-baydawi (a draft card by another agent from al-Manar) probably refers to the same man but was left alone; it may become an alias after a check.
+
+## Duplicate resolved (second run, OCR-harvest worker B)
+- `person/al-baydawi` (a one-line draft: Rashid Rida's quotation of "al-Baydawi" on Q. 2:142, Tafsir al-Manar vol. 2 p. 3; the Dar al-Ifta fatwa on naming a mosque links the same id for al-Baydawi "in Anwar al-Tanzil") is the author of Anwar al-Tanzil. Merged into `person/al-baydawi-abd-allah-ibn-umar`: `aliases: [person/al-baydawi]`, the Manar quotation kept as a prose section in ar/en/ur with its citation, the three fatwa links repointed, the duplicate yaml and prose removed.

@@ -1,0 +1,76 @@
+id: question/afdal-al-tabiin
+class: question
+label:
+  ar: "من أفضل التابعين؟"
+  en: "Who was the best of the Successors?"
+summary:
+  ar: "مسألة يجمع السيوطي أقوالها في «تدريب الراوي»: عن أحمد أن أفضلهم سعيد بن المسيب، وعنه أقوال أخرى في قيس وأبي عثمان النهدي وعلقمة ومسروق؛ وحكى ابن خفيف أن أهل المدينة يقولون ابن المسيب، وأهل الكوفة أويس القرني، وأهل البصرة الحسن، واستحسنه ابن الصلاح؛ ورجّح العراقي قول الكوفيين لحديث عمر في صحيح مسلم في أويس، وجمع البلقيني بأن الأفضل في الزهد والورع أويس وفي حفظ الخبر والأثر سعيد {cite:tadrib-rawi-awwama-v5 p. 257-260}."
+  en: "A question whose views al-Suyuti gathers in Tadrib al-Rawi: Ahmad is reported to have named Sa'id ibn al-Musayyab as the best, with other reports from him naming Qays, Abu Uthman al-Nahdi, Alqama and Masruq; Ibn Khafif reported that the people of Medina said Ibn al-Musayyab, those of Kufa Uways al-Qarani and those of Basra al-Hasan, which Ibn al-Salah approved; al-Iraqi preferred the Kufan view because of Umar's hadith about Uways in Sahih Muslim, and al-Bulqini reconciled them: best in asceticism and scrupulousness Uways, best in preserving reports Sa'id."
+wings: [people, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+question:
+  ar: "أيّ التابعين أفضل؟"
+  en: "Which of the Successors was the most excellent?"
+issue:
+  ar: "اختلاف الأقوال في تفضيل بعض التابعين على بعض، وأثر حديث أويس في المسألة."
+  en: "The differing views on ranking the Successors, and the bearing of the hadith about Uways on the question."
+short_answer:
+  ar: "عن أحمد: ابن المسيب، وعنه غيره؛ وعند أهل المدينة ابن المسيب، وعند أهل الكوفة أويس، وعند أهل البصرة الحسن؛ ورجّح العراقي أويساً لحديث مسلم، وفرّق البلقيني بين الأفضلية في الزهد والورع (أويس) والأفضلية في حفظ الحديث والأثر (سعيد)."
+  en: "From Ahmad: Ibn al-Musayyab, with other reports; for Medina Ibn al-Musayyab, for Kufa Uways, for Basra al-Hasan; al-Iraqi preferred Uways on the strength of Muslim's hadith, and al-Bulqini distinguished excellence in asceticism and scrupulousness (Uways) from excellence in preserving hadith and reports (Sa'id)."
+perspectives:
+  - tradition: sunni
+    id: sunni-ibn-al-musayyab
+    standing: main
+    stance: { ar: "سعيد بن المسيب", en: "Sa'id ibn al-Musayyab" }
+    summary:
+      ar: "عن أحمد بن حنبل: أفضل التابعين ابن المسيب، فلما قيل له: فعلقمة والأسود؟ قال: هو وهما؛ وهو قول أهل المدينة فيما حكاه ابن خفيف."
+      en: "Ahmad ibn Hanbal: the best Successor is Ibn al-Musayyab; asked about Alqama and al-Aswad he said: he and they; this is also the Medinan view as Ibn Khafif reports it."
+    holders: [person/ahmad-ibn-hanbal, person/said-ibn-al-musayyab]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-uways
+    standing: main
+    stance: { ar: "أويس القرني", en: "Uways al-Qarani" }
+    summary:
+      ar: "قول أهل الكوفة فيما حكاه ابن خفيف؛ وقال العراقي: الصحيح بل الصواب ما ذهب إليه أهل الكوفة، لحديث عمر في صحيح مسلم: «إن خير التابعين رجل يقال له أويس»، وهذا قاطع للنزاع عنده، وحمل تفضيل أحمد لغيره على أنه لعله لم يبلغه الحديث أو لم يصح عنده أو أراد الأفضلية في العلم. ويرى المحقق عوامة أن أحمد روى الحديث في مسنده، فيتعين الاحتمال الأخير."
+      en: "The Kufan view as Ibn Khafif reports it; al-Iraqi said the correct, indeed the right, view is the Kufans', because of Umar's hadith in Sahih Muslim: 'The best of the Successors is a man called Uways', which for him settles the dispute; he explained Ahmad's other preference as perhaps not having received the hadith, or not finding it sound, or meaning excellence in knowledge. The editor Awwama notes that Ahmad himself narrates the hadith in his Musnad, so only the last explanation stands."
+    holders: [person/abd-al-rahim-al-iraqi, person/uwais-al-qarni]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-hasan
+    standing: secondary
+    stance: { ar: "الحسن البصري", en: "Al-Hasan al-Basri" }
+    summary:
+      ar: "قول أهل البصرة فيما حكاه ابن خفيف، واستحسن ابن الصلاح هذا التقسيم بحسب الأمصار."
+      en: "The Basran view as Ibn Khafif reports it; Ibn al-Salah approved this division by city."
+    holders: [person/al-hasan-al-basri, person/ibn-al-salah, person/ibn-khafif]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-other-ahmad
+    standing: secondary
+    stance: { ar: "قيس وأبو عثمان وعلقمة ومسروق", en: "Qays, Abu Uthman, Alqama and Masruq" }
+    summary:
+      ar: "عن أحمد أيضاً: لا أعلم فيهم مثل أبي عثمان النهدي وقيس، وعنه: أفضلهم قيس وأبو عثمان وعلقمة ومسروق."
+      en: "Also from Ahmad: I know of none among them like Abu Uthman al-Nahdi and Qays; and: the best of them are Qays, Abu Uthman, Alqama and Masruq."
+    holders: [person/ahmad-ibn-hanbal, person/qays-ibn-abi-hazim, person/abu-uthman-al-nahdi]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-jam
+    standing: main
+    stance: { ar: "الجمع بين وجهي الفضل", en: "Reconciling two kinds of excellence" }
+    summary:
+      ar: "قال البلقيني: الأحسن أن يقال: الأفضل من حيث الزهد والورع أويس، ومن حيث حفظ الخبر والأثر سعيد؛ ويرى عوامة أن التفرقة بين الأفضلية والخيرية هي المتعينة، وينقل قول الذهبي في أويس: ليس في التابعين أحد أفضل منه، وأما أن يكون أحد مثله في الفضل فيمكن كسعيد بن المسيب."
+      en: "Al-Bulqini: it is best to say that in asceticism and scrupulousness the best is Uways, and in preserving reports Sa'id; Awwama holds that distinguishing excellence from goodness is the right course, and quotes al-Dhahabi on Uways: no Successor is better than he, though another may equal him in merit, such as Sa'id ibn al-Musayyab."
+    holders: [person/siraj-al-din-al-bulqini, person/al-dhahabi]
+    sources: [source/tadrib-rawi-awwama-v5]
+related: [group/tabiun, person/said-ibn-al-musayyab, person/uwais-al-qarni, person/al-hasan-al-basri, work/tadrib-al-rawi]
+sensitivity: contested
+sources: [source/tadrib-rawi-awwama-v5]
+provenance:
+  layer: own-research
+  source: "tadrib-rawi-awwama-v5 pp. 257–260"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

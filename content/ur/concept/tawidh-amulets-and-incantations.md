@@ -3,6 +3,7 @@ id: concept/tawidh-amulets-and-incantations
 lang: ur
 source_lang: ar
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "kitab-al-tawhid-ibn-abd-al-wahhab-imam-university pp. 27–31 (section added; earlier text by its original authors)" }
 ---
 
 ## خلاصہ
@@ -11,3 +12,6 @@ translators: []
 
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 شیخ ان چیزوں کو رد کرتے ہیں جو انہوں نے بعض عرب دیہات، بادیہ اور شہروں میں دیکھیں: نظر بد سے بچنے کے لیے دروازوں پر چھپا ہوا ہاتھ، لٹکی ہوئی گھوڑے کی نعل، معوذات والی زنجیر جو ایک ماں نے اپنے بے نماز بیٹے کے گلے میں ڈالی، اور ایک نوجوان کی کلائی میں کڑا جسے وہ «خوش قسمتی کا بند» کہتے ہیں اور اس میں عورتوں کی زینت کی مشابہت دیکھتے ہیں؛ ان کے نزدیک یہ رسمیں اللہ کے دین سے غیر متعلق ہیں؛ یہ ان کی رائے ہے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:09:00} وہ ان کے ساتھ دوسری رسمیں گنواتے ہیں جنہیں وہ بے بنیاد سمجھتے ہیں: نماز کے بعد جائے نماز اٹھا لینا کہ فرشتے اسے اٹھاتے ہیں، اور نماز سے پہلے چائے یا کافی کے بعد کلی کرنا؛ اور تمباکو نوشوں کو تلقین کرتے ہیں کہ منہ میں سگریٹ کی بو لے کر مسجد نہ آئیں، کیونکہ فرشتوں کو اس سے تکلیف ہوتی ہے جس سے آدم کی اولاد کو ہوتی ہے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:10:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:10:30}
+
+## محمد بن عبد الوہاب کی «کتاب التوحید» میں
+[[person/muhammad-ibn-abd-al-wahhab|محمد بن عبد الوہاب]] [[work/kitab-al-tawhid-ibn-abd-al-wahhab|کتاب التوحید]] میں مصیبت دور کرنے یا روکنے کے لیے چھلا، دھاگا وغیرہ پہننے پر ایک باب باندھتے ہیں، جس میں پیتل کے چھلے کے بارے میں عمران بن حصین کی حدیث اور عقبہ بن عامر کی حدیث «جس نے تعویذ لٹکایا اللہ اس کا کام پورا نہ کرے» لاتے ہیں، اور اپنے مسائل میں اسے شرکِ اصغر شمار کرتے ہیں۔ {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 27-28} پھر دم اور تعویذ پر ایک باب ہے جس میں ابن مسعود کی حدیث «دم، تعویذ اور تولہ شرک ہیں» لاتے ہیں، اور تعویذ کی تفسیر یوں کرتے ہیں کہ وہ چیز جو بچوں پر نظرِ بد سے بچانے کے لیے لٹکائی جائے، اور تولہ وہ چیز جس کے بارے میں لوگ سمجھتے تھے کہ وہ بیوی کو شوہر کا محبوب بناتی ہے۔ {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 29-30} وہ بتاتے ہیں کہ شرک سے خالی دم کی نبی نے نظرِ بد اور زہریلے ڈنک کے لیے اجازت دی، اور قرآن کے تعویذ کو بعض سلف نے جائز رکھا اور بعض نے نہیں، جن میں ابن مسعود ہیں؛ اور ابراہیم نخعی کا قول نقل کرتے ہیں: «وہ سب تعویذوں کو ناپسند کرتے تھے، قرآن کے ہوں یا غیر قرآن کے»، اور کہتے ہیں کہ ان کی مراد ابن مسعود کے اصحاب ہیں۔ {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 29-31}
