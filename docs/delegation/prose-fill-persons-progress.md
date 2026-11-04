@@ -735,3 +735,9 @@ Promoted: abu-al-rabi-al-asqalani, al-kamal-al-darir, al-muin-al-qurashi, al-mur
 Promoted: abu-dabbous, al-kamal-al-mahalli, al-kamal-salar-al-irbili, al-malik-al-amjad-hasan, al-qaysi-al-dimashqi, diya-al-din-al-muradi, ibn-al-barizi, ibn-hammawayh, ibn-nima, ibn-qurqul, jamal-al-din-ibn-yaghmur, majd-al-din-ibn-daqiq, muayyad-ibn-al-qalansi, muin-al-din-ibn-bundar, najib-al-din-abd-al-latif, najm-al-din-al-rabai, sayf-al-din-aqtay-mustaarib, shihab-al-din-ibn-taymiyya.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2010.** sweep continues through remaining trilingual drafts.
+
+### Batch 110 (4 Nov 2026, 16 records) — ibn-hisham-batch-5c-ii draft promotions (sweep worker)
+
+Promoted: aban-ibn-said-ibn-al-as, abu-al-rum-ibn-umayr, al-aswad-ibn-nawfal, ama-bint-khalid, amina-bint-khalf, amr-ibn-jahm, amr-ibn-umayya, baraka-bint-yasar, fatima-bint-safwan, habiba-bint-ubaydullah, jahm-ibn-qays, khuzayma-ibn-jahm, qays-ibn-abdullah-asadi, said-ibn-al-as-abu-uhayha, said-ibn-khalid, ubaydullah-ibn-jahsh.cite-check 16/16; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2026.** sweep continues through remaining trilingual drafts.
