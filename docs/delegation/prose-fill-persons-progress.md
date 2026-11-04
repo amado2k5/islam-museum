@@ -454,3 +454,9 @@ Promoted: nasr-ibn-ali-al-shirazi, rashid-ibn-hafs-al-zuhri, said-ibn-salim-al-q
 Promoted: abd-al-barr-ibn-al-shihna, ahmad-ibn-al-askari-hanbali, amir-ibn-muhammad-yemen, burhan-al-husayni-naqib, burhan-ibn-abi-sharif, ibn-al-furfur, ibn-al-karki, ibn-al-mallah-al-ramli, ibn-al-muwajjih, ibn-al-qarsali, ibn-al-samdisi, ibn-awn-hanafi, ibn-khalil-al-hadari, ibn-shishiri, ibn-thabit-al-zamzami, ibn-zuhayr-al-ramli, ibrahim-al-damiri-maliki, ibrahim-al-shadhili-misri, ibrahim-ibn-al-qalqashandi, ibrahim-ibn-muflih-mufti, jamal-ibn-ruslan-al-buwaydi, marjan-al-zafiri-aden, muhammad-al-shamakhi, muhyi-al-bardai-hanafi, qaytbay-ibn-barakat.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1270.** sweep continues through remaining trilingual drafts.
+
+### Batch 69 (4 Nov 2026, 2 records) — lib-shadharat-batch-144 draft promotions (sweep worker)
+
+Promoted: shihab-turki-tarabulsi, taqi-ibn-zurayq.cite-check 2/2; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1272.** sweep continues through remaining trilingual drafts.

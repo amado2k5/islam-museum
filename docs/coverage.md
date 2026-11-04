@@ -217,8 +217,8 @@ Average sources per entity: **1.2** · Women share of persons with a recorded ge
 
 | Key | Count |
 |---|---|
-| draft | 34496 |
-| published | 13461 |
+| draft | 34494 |
+| published | 13463 |
 
 ### Prose by language
 
