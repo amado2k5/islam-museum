@@ -211,3 +211,9 @@ Written: abdullah-ibn-hanzala, ghazala-al-kharijiyya, said-ibn-salih-al-hajib, m
 Written: kurush-al-malik, muhammad-ibn-abd-allah-ibn-tahir, amr-ibn-amir-muzayqiya, tawba-ibn-al-humayyir, sharraa-ibn-zayd, barukh-ibn-nariya, salih-ibn-muhammad-al-hariri, majnun-bani-amir, jamil-ibn-suhayb, muhriz-al-mudliji, musqala-ibn-utban, ad-ibn-aws, al-umani, ali-ibn-al-junayd-al-iskafi, khindif-bint-hilwan. cite-check 15/15; validate 0 errors; 317 tests; coverage regenerated.
 
 **Lane total: 353.** ~200 muruj cited thin rows remain; then tabari ~22, ansab 17, tabaqat 18.
+
+### Batch 30 (3 Nov 2026, 25 records) — Muruj draft-status promotions 1
+
+All 281 muruj draft/incomplete yamls already have ar+en+ur prose (written by an earlier lane); this batch promotes status to published/completeness 3 and fixes provenance: ibn-ishaq, abdullah-ibn-jafar, tawus-ibn-kaysan, abdallah-ibn-utba-ibn-masud, muhammad-ibn-al-hanafiyya, abd-al-samad-ibn-ali, zuhayr-ibn-janab-al-kalbi, abd-al-rahman-ibn-muhammad-ibn-al-ashath, al-kisai, batlamus, abdallah-ibn-malik-al-khuzai, abu-mikhnaf-lut-ibn-yahya, al-zubayr-ibn-bakkar, ali-ibn-yaqtin, jalinus, sawwar-ibn-abdallah-al-qadi, abdallah-ibn-muawiya-ibn-abdallah-ibn-jafar, abu-thawr-al-kalbi, al-aswad-ibn-ghaffar, al-hakam-ibn-utayba, al-hasan-ibn-sahl, ali-al-ridha, bakir-ibn-humran-al-ahmari, ibrahim-al-mawsili, isa-ibn-lahia-al-misri. cite-check 25/25; validate 0 errors; 317 tests; coverage regenerated.
+
+**Lane total: 378.** ~256 muruj promotions remain; then tabari ~9 no-prose, uncited thin ~511 rows, missing-prose persons.
