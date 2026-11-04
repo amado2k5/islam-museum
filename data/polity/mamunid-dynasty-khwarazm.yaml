@@ -1,0 +1,25 @@
+id: polity/mamunid-dynasty-khwarazm
+class: polity
+kind: dynasty
+label: { ar: "المأمونيون (خوارزمشاهية الجرجانية)", en: "Ma'munids (Khwarazmshahs of Jurjaniyya)", ur: "مامونی (جرجانیہ کے خوارزم شاہ)" }
+summary:
+  ar: "أسرة حكمت من الجرجانية (كركانج) ثم خوارزم كلها بلقب خوارزمشاه بعد 385هـ/995م، حتى فتح محمود الغزنوي خوارزم سنة 1017م {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 10} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 11}."
+  en: "Dynasty that ruled from Jurjaniyya (Gurganj) and then all Khwarazm as Khwarazmshahs after 385/995, until Mahmud of Ghazna conquered Khwarazm in 1017 {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 10} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 11}."
+  ur: "وہ خاندان جس نے 385ھ/995ء کے بعد جرجانیہ (گرگانج) سے اور پھر پورے خوارزم پر خوارزم شاہ کے لقب سے حکومت کی، یہاں تک کہ 1017ء میں محمود غزنوی نے خوارزم فتح کیا {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 10} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 11}۔"
+wings: [time, people, place]
+themes: [trade-and-finance, politics-governance-and-authority]
+regions: [persia-central-asia]
+start: { edtf: "0967~/0995", calendar: julian, precision: year, status: debated, note: "Ismoilov dates the house from Muhammad ibn Ali's fals of 356/967; the usual start is Ma'mun ibn Muhammad's seizure of Kath in 385/995 {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 224}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+end: { edtf: "1017", calendar: julian, precision: year, status: historical, note: "Conquest of Khwarazm by Mahmud of Ghazna {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 11}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: successor_of, target: polity/afrighid-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+  - { type: ruled_over, target: place/jurjaniyya, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+sources: [source/ismoilov-xorazmshohlar-tangalari-2025]
+provenance:
+  layer: own-research
+  source: "source/ismoilov-xorazmshohlar-tangalari-2025 scan pp. 10, 11, 69, 70, 79, 80, 82, 118, 161, 224"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }
