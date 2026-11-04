@@ -494,3 +494,9 @@ yahya-ibn-yamur	REJECT: ur: thin (133ch)
 zubayd-al-yami	REJECT: ur: thin (125ch)
 
 **Lane total: 1301.** sweep continues through remaining trilingual drafts.
+
+### Batch 72 (4 Nov 2026, 24 records) — lib-shadharat-batch-138 draft promotions (sweep worker)
+
+Promoted: abdullah-ibn-muflih, abu-faris-hafsi, ahmad-al-asyuti, ahmad-ibn-shah-rukh, al-amir-husayn-hafsi, al-barinbari, al-barmawi-shams, al-kughiri, al-mustain-billah-abbasid, al-nuwayri-al-khidr, burhan-al-din-al-hilli, fatima-bint-khalil, husayn-jalayir, ibn-hijja-al-hamawi, ibrahim-ibn-shah-rukh, ishaq-ibn-dawud-habashi, majd-al-din-al-barmawi, muhammad-ibn-sad-al-din-habashi, muhammad-tatar, muhyi-al-din-ibn-al-ghazali, nimat-allah-al-jarihi, qara-yaqub-al-nukdi, sibt-ibn-al-shahid, taqi-al-din-al-fasi.cite-check 24/24; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1325.** sweep continues through remaining trilingual drafts.
