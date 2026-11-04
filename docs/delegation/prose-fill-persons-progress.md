@@ -816,3 +816,9 @@ Leads (rejected):
 al-muwaffaq-ibn-ahmad-al-makki	REJECT: ar: thin (134ch)
 
 **Lane total: 2208.** sweep continues through remaining trilingual drafts.
+
+### Batch 123 (4 Nov 2026, 14 records) — ibn-hisham-batch-7a draft promotions (sweep worker)
+
+Promoted: abbad-ibn-hunayf, abu-habiba-ibn-al-azar, asim-ibn-adi, bahzaj, bijad-ibn-uthman, jariya-ibn-amir, khidham-ibn-khalid, malik-ibn-al-dukhshum, man-ibn-adi, muattib-ibn-qushayr, mujammi-ibn-jariya, nabtal-ibn-al-harith, thalaba-ibn-hatib, zayd-ibn-jariya.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2222.** sweep continues through remaining trilingual drafts.
