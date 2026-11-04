@@ -15,3 +15,5 @@ Status values: claimed, running, done, released.
 | hadith/adab-mufrad (4 folders: 1_20191007_20191007_1552, 20191216_20191216_1214, 20191216_20191216_1230, 20260503_20260503_0818) and hadith/arbaun-nawawi (4 folders: 20200420_20200420_2338, 20201225_20201225_1747, 20210807, 978_20200521) | harvest (adab-mufrad, arbaun-nawawi) | Claude Haiku 5.5 agent, worktree agent-adbfce87aed66236c | claimed: working one book at a time | 31 Oct 2026 |
 
 | hadith/awn-mabud (2 volumes: 8_20230503, amaaboud), hadith/bulugh-maram (4 volumes: 20200129_20200129_0747, 20200710_20200710_2028, 20221218_20221218_0728, 20221222_20221222_0758) | harvest (awn-mabud + bulugh-maram) | Claude Haiku 5.5 worktree agent a932522d | claimed: working one book at a time, awn-mabud first | 31 Oct 2026 |
+
+| 198 OCR'd books with no citation in the repo on 4 Nov 2026 (clusters A–J; list on the drive at `scratch/claude-2026-11-04/stage_list.tsv`) | harvest (sources, works, authors, subjects; ar/en/ur prose) | Claude Opus 5.5 coordinator + 10 workers (lane `lib-ocr-harvest`, branches harvest/claude-ocr-A..J) | running | 4 Nov 2026 |
