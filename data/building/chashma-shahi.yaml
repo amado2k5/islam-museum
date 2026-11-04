@@ -1,0 +1,25 @@
+id: building/chashma-shahi
+class: building
+kind: garden
+label: { ar: "جشمه شاهي (سرينغار)", en: "Chashma Shahi, Srinagar", ur: "چشمہ شاہی (سری نگر)" }
+summary:
+  ar: "بستان صغير على سفح جبل فوق بحيرة دال، بُني حول نبع مشهور سنة 1632م ويُنسب إلى شاه جهان، تنحدر مياهه على ثلاث مصاطب {cite:brookes-gardens-of-paradise-1987 p.146} {cite:brookes-gardens-of-paradise-1987 p.147}."
+  en: "A small hillside garden above Lake Dal built round a famous spring in 1632 and attributed to Shah Jahan, its water descending over three levels {cite:brookes-gardens-of-paradise-1987 p.146} {cite:brookes-gardens-of-paradise-1987 p.147}."
+wings: [objects, place]
+themes: [architecture, water-and-animals]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+built: { edtf: "1632", calendar: gregorian, precision: year, status: historical, sources: [source/brookes-gardens-of-paradise-1987], note: "Brookes, plan caption: built in 1632, attributed to Shah Jahan" }
+patron: person/shah-jahan-mughal
+location: place/srinagar
+relations:
+  - { type: located_in, target: place/srinagar, sources: [source/brookes-gardens-of-paradise-1987] }
+  - { type: exemplifies, target: concept/chaharbagh, sources: [source/brookes-gardens-of-paradise-1987] }
+sources: [source/brookes-gardens-of-paradise-1987]
+provenance:
+  layer: own-research
+  source: "Brookes 1987, printed pp. 146-147"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

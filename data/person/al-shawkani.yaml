@@ -46,6 +46,7 @@ relations:
   - { type: authored, target: work/al-qawl-al-mufid-fi-adillat-al-ijtihad-wa-al-taqlid, sources: [source/fath-al-qadir-dar-al-marifa] }
   - { type: authored, target: work/al-tuhaf-fi-madhahib-al-salaf, sources: [source/fath-al-qadir-dar-al-marifa] }
   - { type: authored, target: work/al-badr-al-tali, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: authored, target: work/irshad-al-fuhul, sources: [source/irshad-al-fuhul-dar-al-fikr] }
 faith:
   - value: sunni
     basis: documented
@@ -53,7 +54,7 @@ faith:
     sources: [source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1]
 traditions: [sunni, shia-zaydi]
 external_ids: { wikidata: "Q4325822" }
-sources: [source/al-aalam, source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1]
+sources: [source/al-aalam, source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1, source/irshad-al-fuhul-dar-al-fikr]
 provenance:
   layer: own-research
   source: "الأعلام للزركلي (ط2 القاهرة) ترجمة الشوكاني"
@@ -61,4 +62,5 @@ provenance:
   run: lib-alam-batch-1
   enriched_by:
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fath-al-qadir-dar-al-marifa PDF pp. 1, 4–6, 10–11 (biography, author's preface); source/fath-al-qadir-dar-al-wafa-v1 PDF pp. 26–27, 33, 43, 49–50 (editor's introduction)" }
+    - { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/irshad-al-fuhul-dar-al-fikr PDF pp. 4, 256, 269-270, 289 (Irshad al-Fuhul section, authored edge)" }
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
