@@ -1,20 +1,25 @@
 id: person/muhammad-ibn-ismail-al-sanani
 class: person
-label: { ar: "محمد بن إسماعيل الأمير الصنعاني", en: "Muhammad ibn Ismail al-Amir al-San'ani" }
+label: { ar: "محمد بن إسماعيل الأمير الصنعاني", en: "Muhammad ibn Ismail al-Amir al-San'ani", ur: "محمد بن اسماعیل الامیر صنعانی" }
 names:
   - { kind: full, lang: ar, value: "محمد بن إسماعيل بن صلاح بن محمد، أبو إبراهيم، الكحلاني ثم الصنعاني" }
 gender: male
-roles: [jurist, scholar]
-born: { hijri: "1099", precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
-died: { hijri: "1182", precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+roles: [jurist, scholar, muhaddith]
+relations:
+  - { type: born_in, target: place/kahlan, sources: [source/subul-salam-hallaq-ibn-al-jawzi-v1] }
+  - { type: lived_in, target: place/sanaa, sources: [source/subul-salam-hallaq-ibn-al-jawzi-v1] }
+  - { type: died_in, target: place/sanaa, sources: [source/subul-salam-hallaq-ibn-al-jawzi-v1] }
+  - { type: authored, target: work/subul-al-salam, sources: [source/subul-salam-hallaq-ibn-al-jawzi-v1] }
+born: { hijri: "1099-06", edtf: "1688-04~", calendar: gregorian, precision: month, status: tradition, derived: true, note: "ولد بكحلان ليلة الجمعة منتصف جمادى الآخرة سنة 1099هـ (مقدمة محقق سبل السلام ط. دار ابن الجوزي ص 21–22)؛ التحويل مشتق.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/subul-salam-hallaq-ibn-al-jawzi-v1] }
+died: { hijri: "1182-08", edtf: "1768-12~", calendar: gregorian, precision: month, status: tradition, derived: true, note: "مات بصنعاء يوم الثلاثاء ثالث شعبان سنة 1182هـ ودفن غربي منارة جامع المدرسة بأعلى صنعاء عن ثلاث وثمانين سنة (مقدمة محقق سبل السلام ص 26)؛ المحقق يكتب 1769م؛ التحويل هنا مشتق تقريبي.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/subul-salam-hallaq-ibn-al-jawzi-v1] }
 summary:
   ar: "محمد بن إسماعيل بن صلاح الكحلاني ثم الصنعاني، المعروف بالأمير، مجتهد يلقب «المؤيد بالله». أخذ عن زيد بن محمد بن الحسن وصلاح بن الحسين الأخفش وعبد الله بن علي الوزير وغيرهم، وصنف «سبل السلام» شرحا لـ«بلوغ المرام». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3134}"
   en: "Muhammad ibn Ismail ibn Salah al-Kahlani then al-San'ani, known as al-Amir, a mujtahid titled al-Mu'ayyad billah. He studied with Zayd ibn Muhammad ibn al-Hasan, Salah ibn al-Husayn al-Akhfash, Abd Allah ibn Ali al-Wazir and others, and wrote Subul al-Salam, a commentary on Bulugh al-Maram. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3134}"
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
-status: { review: draft, completeness: 1 }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/subul-salam-hallaq-ibn-al-jawzi-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; enriched by Claude Code (OCR-harvest worker A), claude-opus-5-5, run ocr-harvest-2026-11-04, from the Subul al-Salam editor's introduction" }
 provenance:
   layer: own-research
   source: "al-Mawsu'a al-Fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurists, p.3134; dates as printed (birth 1099 and death 1182 AH read from the heading order); not yet checked against al-Badr al-Tali' or al-A'lam"

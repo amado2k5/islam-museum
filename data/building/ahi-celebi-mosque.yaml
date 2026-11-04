@@ -11,13 +11,13 @@ wings: [objects]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 themes: [architecture]
-sources: [source/freely-ottoman-architecture-2011]
+sources: [source/freely-ottoman-architecture-2011, source/evliya-narrative-hammer-v1]
+status:
+  review: published
+  completeness: 3
 provenance:
   layer: own-research
-  source: "Freely, A History of Ottoman Architecture (WIT Press 2011), harvest scan"
-  generated_by: "Devin"
-  model: "claude-sonnet-4.5"
-  run: prose-backfill-2-batch18
-status:
-  review: draft
-  completeness: 3
+  source: "Freely, A History of Ottoman Architecture (WIT Press 2011), harvest scan; source/evliya-narrative-hammer-v1 scan p. 11"
+  generated_by: "Devin; enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-sonnet-4.5; claude-opus-5-5"
+  run: "prose-backfill-2-batch18; ocr-harvest-2026-11-04"

@@ -11,11 +11,11 @@ regions: [anatolia-balkans]
 coordinates: [40.1956, 29.0601]
 coordinate_precision: site
 external_ids: { wikidata: "Q40738", geonames: "750269", pleiades: "511384" }
-sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2]
+sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2, source/evliya-narrative-hammer-v2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
 provenance:
   layer: own-research
-  source: "Encyclopaedia of Islam 2, vol. 1 BURSA, PDF pp. 1397-1398 (harvest OCR); coordinates from GeoNames 750269"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: explorer-bursa
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+  source: "Encyclopaedia of Islam 2, vol. 1 BURSA, PDF pp. 1397-1398 (harvest OCR); coordinates from GeoNames 750269; source/evliya-narrative-hammer-v2 scan pp. 17-18"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "explorer-bursa; ocr-harvest-2026-11-04"
