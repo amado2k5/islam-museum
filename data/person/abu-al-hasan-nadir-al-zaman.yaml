@@ -1,0 +1,24 @@
+id: person/abu-al-hasan-nadir-al-zaman
+class: person
+label: { ar: "أبو الحسن نادر الزمان", en: "Abu'l Hasan, Nadir al-Zaman", ur: "ابو الحسن نادر الزمان" }
+summary:
+  ar: "مصور مغولي (ولد 997هـ/1588–1589م) ابن آقا رضا، أثنى عليه جهانگير فوق كل المصورين ولقبه «نادر الزمان» نحو 1618م، ومن أنفذ المصورين في البورتريه المغولي {cite:beach-grand-mogul-1978 p. 84}."
+  en: "Mughal painter (born 997 AH/1588–89), son of Aqa Riza, praised by Jahangir above all other artists and given the title Nadir al-Zaman (\"wonder of the age\") about 1618; among the most penetrating Mughal portraitists {cite:beach-grand-mogul-1978 p. 84}."
+  ur: "مغل مصور (پیدائش 997ھ/1588–89ء)، آقا رضا کے بیٹے، جنہیں جہانگیر نے سب مصوروں سے بڑھ کر سراہا اور تقریباً 1618ء میں «نادر الزمان» کا لقب دیا؛ مغل شبیہ نگاری کے سب سے گہرے فنکاروں میں {cite:beach-grand-mogul-1978 p. 84}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [south-asia]
+gender: male
+roles: [artist]
+born: { edtf: "1588/1589", hijri: "0997", calendar: gregorian, precision: year, status: historical, derived: false, note: "مستنتج من رسم مؤرخ 1009هـ «في سنتي الثالثة عشرة» {cite:beach-grand-mogul-1978 p. 84}." }
+relations:
+  - { type: child_of, target: person/aqa-riza-jahangiri, sources: [source/beach-grand-mogul-1978] }
+  - { type: patronized_by, target: person/jahangir-mughal, sources: [source/beach-grand-mogul-1978] }
+sources: [source/beach-grand-mogul-1978]
+provenance:
+  layer: own-research
+  source: "source/beach-grand-mogul-1978 scan pp. 84, 85"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

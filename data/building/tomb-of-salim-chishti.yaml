@@ -5,12 +5,12 @@ label:
   ar: "قبر سليم جشتي"
   en: "Tomb of Salim Chishti"
 summary:
-  ar: "بطاقة أولية لضريح سليم جشتي في فاتحبور سكري، الضريح الرخامي الأبيض الذي بناه أكبر لشيخه؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Tomb of Salim Chishti at Fatehpur Sikri, Akbar's white-marble tomb for his shaykh; its sources are not yet checked on the page."
+  ar: "ضريح الشيخ سليم الجشتي الرخامي في فناء الجامع الكبير بفتحبور سيكري، المبنى الرخامي الوحيد في مدينة أكبر الحمراء، وينسبه بروكس إلى شاه جهان {cite:brookes-gardens-of-paradise-1987 p.134} {cite:brookes-gardens-of-paradise-1987 p.135}."
+  en: "The marble tomb of Shaykh Salim Chishti in the courtyard of the great mosque of Fatehpur Sikri, the only marble building in Akbar's red sandstone city, which Brookes attributes to Shah Jahan {cite:brookes-gardens-of-paradise-1987 p.134} {cite:brookes-gardens-of-paradise-1987 p.135}."
 wings: [objects]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/brookes-gardens-of-paradise-1987]
 external_ids:
   wikidata: Q3180790
 provenance:
@@ -19,6 +19,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  extra_runs: ["worker H ocr-harvest-2026-11-04: Brookes 1987, first prose"]
 status:
-  review: draft
+  review: published
   completeness: 1
+location: place/fatehpur-sikri

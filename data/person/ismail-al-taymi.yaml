@@ -1,18 +1,29 @@
 id: person/ismail-al-taymi
 class: person
-label: { ar: "قوام السنة إسماعيل التيمي" }
+aliases: [person/qawwam-al-sunna-ismail]
+label: { ar: "قوام السنة إسماعيل التيمي", en: "Qawwam al-Sunna, Isma'il ibn Muhammad al-Taymi" }
 names:
   - { value: "إسماعيل بن محمد بن الفضل التيمي الطلحي الأصبهاني قوام السنة أبو القاسم", kind: full }
 summary:
   ar: "الحافظ الكبير قوام السنة أبو القاسم إسماعيل بن محمد التيمي الطلحي الأصبهاني الشافعي؛ قال أبو موسى المديني إمام أئمة وقته وأستاذ علماء عصره وقدوة أهل السنة في زمانه، وأصمت في صفر سنة أربع وثلاثين ثم أفلج؛ وكان إماماً في التفسير والحديث واللغة والأدب عارفاً بالمتون والأسانيد، أملى بجامع أصبهان قريباً من ثلاثة آلاف مجلس، وصنف تفسير الجامع في ثلاثين مجلدة كباراً والإيضاح في أربع مجلدات والموضح في ثلاث والمعتمد في عشر وتفسيراً بالعجمي وكتاب الترغيب والترهيب وشرح صحيحي البخاري ومسلم أتمهما ولده ودلائل النبوة والتذكرة في نحو ثلاثين جزءاً؛ وقال أئمة بغداد ما رحل إلى بغداد بعد أحمد بن حنبل أفضل ولا أحفظ منه؛ ومولده سنة سبع وخمسين وأربعمائة وتوفي بكرة يوم عيد الأضحى سنة خمس وثلاثين وخمسمائة {cite:shadharat-dhahab p. 585-586}."
   en: "The great hafiz Qawam al-Sunna Abu al-Qasim Ismail ibn Muhammad al-Taymi al-Talhi of Isfahan; Abu Musa al-Madini calls him 'imam of the imams of his time, teacher of its scholars, exemplar of the Sunna' — struck mute in Safar 534 then paralysed; imam in tafsir, hadith, language and adab, master of texts and isnads, who dictated nearly three thousand sessions at Isfahan's mosque; his works: the thirty-volume tafsir al-Jami', al-Idah, al-Mawdih, the ten-volume Mu'tamad, a Persian tafsir, al-Targhib wa'l-tarhib, commentaries on both Sahihs (finished by his son), Dala'il al-nubuwwa and the thirty-part Tadhkira; Baghdad's imams said none better-versed nor more retentive had journeyed to Baghdad after Ahmad ibn Hanbal; b. 457, d. the morning of Eid al-Adha 535 {cite:shadharat-dhahab p. 585-586}."
 gender: male
+traditions: [sunni]
+themes: [scripture-and-its-sciences, literature]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map (carried over from person/qawwam-al-sunna-ismail)"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
 wings: [people]
-roles: [scholar, writer]
+roles: [muhaddith, scholar, writer]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 born:
-  edtf: "1064~"
+  edtf: "1064/1065"
   hijri: "0457"
   calendar: julian
   precision: year
@@ -20,22 +31,23 @@ born:
   derived: true
   note: "مولده سنة سبع وخمسين وأربعمائة {cite:shadharat-dhahab p. 586}؛ التحويل مشتق."
 died:
-  edtf: "1140-08~"
-  hijri: "0535-12"
+  edtf: "1141-07-17~"
+  hijri: "0535-12-10"
   calendar: julian
   precision: day
   status: tradition
   derived: true
-  note: "أصمت في صفر سنة 534 ثم أفلج وتوفي بكرة يوم عيد الأضحى سنة خمس وثلاثين وخمسمائة {cite:shadharat-dhahab p. 586}؛ التحويل مشتق."
+  note: "أصمت في صفر سنة 534 ثم أفلج وتوفي بكرة يوم عيد الأضحى سنة خمس وثلاثين وخمسمائة {cite:shadharat-dhahab p. 586}؛ يوم عيد الأضحى هو العاشر من ذي الحجة، والتحويل إلى التقويم اليولياني مشتق بالحساب الجدولي (وكان القيد السابق 1140-08 خطأ في السنة)."
 relations:
   - { type: died_in, target: place/isfahan, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch102
-sources: [source/shadharat-dhahab]
+  source: "شذرات الذهب لابن العماد ج4 ص585-586 (AAlexandrina-223861)؛ موسوعة أعلام العلماء والأدباء ج2 ص101 (merged from person/qawwam-al-sunna-ismail, run prose-fill-persons-batch61)"
+  generated_by: "Claude Code (OCR-harvest worker A); merged from Devin records (runs prose-fill-persons-batch102, prose-fill-persons-batch61)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published
   completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker A); merge of two Devin records"

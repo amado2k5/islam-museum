@@ -13,7 +13,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker A)", model: claude-
 Al-'Ayni says he long held back from commenting on al-Bukhari out of awe; travelling to the northern lands before 800 AH with the book, he gathered from some of his teachers rare points for drawing out its treasures; back in Egypt he commented on al-Tahawi's *Ma'ani al-Athar*, then began a commentary on Abu Dawud's Sunan that obstacles kept him from finishing; finally, under the Mu'ayyadi state, three things moved him to comment on al-Bukhari: to show that hidden things lie in corners, to make known in gratitude the knowledge God had given him, and the repeated urging of some companions. {cite:umdat-qari-ilmiyya-2001-v1 p. 20-21} He asks the reader to judge it fairly and mend any flaw he finds. {cite:umdat-qari-ilmiyya-2001-v1 p. 22}
 
 ## His chains
-Al-'Ayni transmits the book by two routes, the first from [[person/al-iraqi-zayn-al-din|Zayn al-Din 'Abd al-Rahim al-'Iraqi]], with whom he heard it in the Citadel mosque, read aloud by Shihab al-Din Ahmad b. Muhammad al-Ashmuni the Hanafi. {cite:umdat-qari-ilmiyya-2001-v1 p. 22-23}
+Al-'Ayni transmits the book by two routes, the first from [[person/abd-al-rahim-al-iraqi|Zayn al-Din 'Abd al-Rahim al-'Iraqi]], with whom he heard it in the Citadel mosque, read aloud by Shihab al-Din Ahmad b. Muhammad al-Ashmuni the Hanafi. {cite:umdat-qari-ilmiyya-2001-v1 p. 22-23}
 
 ## Method
 The biography printed with this edition describes it as twenty-one volumes by the author's division, and says that it:
