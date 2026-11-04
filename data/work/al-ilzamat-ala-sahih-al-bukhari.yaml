@@ -1,12 +1,20 @@
 id: work/al-ilzamat-ala-sahih-al-bukhari
 class: work
 kind: book
-label: { ar: "الإلزمات على صحيح البخاري", en: "al-Ilzamat ala Sahih al-Bukhari" }
+label: { ar: "الإلزامات", en: "al-Ilzamat", ur: "الالزامات" }
+authors: [person/al-daraqutni]
+genre: [hadith]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+relations:
+  - { type: critic_of, target: work/sahih-al-bukhari, sources: [source/sharh-nawawi-misriyya-1347-v1] }
+  - { type: critic_of, target: work/sahih-muslim, sources: [source/sharh-nawawi-misriyya-1347-v1] }
 summary:
-  ar: "بطاقة أولية لـالإلزمات على صحيح البخاري؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for al-Ilzamat ala Sahih al-Bukhari; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب الدارقطني (ت 385هـ) الذي «ألزم» فيه البخاري ومسلماً إخراج أحاديث تركاها مع أن أسانيدها من جنس أسانيد صحيحيهما، وذكر صحابة رُويت أحاديثهم من وجوه صحاح ولم يخرجا لهم شيئاً؛ ويرى النووي أن هذا الإلزام ليس بلازم لأنهما لم يلتزما استيعاب الصحيح {cite:sharh-nawawi-misriyya-1347-v1 p. 24}."
+  en: "Al-Daraqutni's (d. 385 AH) book 'obliging' al-Bukhari and Muslim to include hadiths they left out although their chains were of the same kind as those in their Sahihs, and listing Companions whose reports came by sound routes yet from whom they included nothing; al-Nawawi holds the obligation not binding, since they never undertook to include all sound hadith {cite:sharh-nawawi-misriyya-1347-v1 p. 24}."
+  ur: "دارقطنی (وفات 385ھ) کی کتاب جس میں انہوں نے بخاری اور مسلم پر «لازم» کیا کہ وہ ایسی احادیث شامل کرتے جو انہوں نے چھوڑ دیں حالانکہ ان کی اسانید صحیحین جیسی تھیں، اور ایسے صحابہ ذکر کیے جن کی احادیث صحیح طرق سے آئیں مگر انہوں نے ان سے کچھ نہ لیا؛ نووی کے نزدیک یہ الزام لازم نہیں کیونکہ دونوں نے تمام صحیح کو جمع کرنے کا التزام نہیں کیا {cite:sharh-nawawi-misriyya-1347-v1 p. 24}۔"
+wings: [words]
+sources: [source/sharh-nawawi-misriyya-1347-v1, source/al-aalam]
 external_ids: { wikidata: "Q108882460" }
 provenance:
   layer: own-research
@@ -14,4 +22,4 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker A), claude-opus-5-5, run ocr-harvest-2026-11-04, from Sharh al-Nawawi vol. 1 p. 24" }
