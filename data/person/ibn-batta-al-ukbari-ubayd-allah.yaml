@@ -1,5 +1,6 @@
 id: person/ibn-batta-al-ukbari-ubayd-allah
 class: person
+aliases: [person/ibn-battah-al-ukbari]
 label: { ar: "ابن بطة العكبري عبيد الله بن محمد", en: "Ibn Batta al-Ukbari, Ubayd Allah ibn Muhammad", ur: "ابن بطہ عکبری، عبید اللہ بن محمد" }
 names:
   - { kind: full, lang: ar, value: "أبو عبد الله عبيد الله بن محمد بن بطة العكبري" }
@@ -26,6 +27,7 @@ relations:
   - { type: student_of, target: person/al-ajurri, sources: [source/ibana-kubra-muti-iman] }
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids: { wikidata: "Q5984193" }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/ibana-kubra-muti-iman]
 status:
   review: published

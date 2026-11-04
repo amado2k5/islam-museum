@@ -1,17 +1,27 @@
 id: work/nayl-al-awtar-shawkani
 class: work
 kind: book
-label: { ar: "نيل الأوطار", en: "Nayl al-Awtar (al-Shawkani)" }
+label: { ar: "نيل الأوطار من أسرار منتقى الأخبار", en: "Nayl al-Awtar min Asrar Muntaqa al-Akhbar (al-Shawkani)", ur: "نیل الاوطار من اسرار منتقی الاخبار" }
 summary:
-  ar: "بطاقة أولية لنيل الأوطار للشوكاني، شرح منتقى الأخبار لابن تيمية الجد؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for al-Shawkani's Nayl al-awtar, his monumental commentary on Muntaqa al-akhbar; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "شرح محمد بن علي الشوكاني على «منتقى الأخبار»، يسوق فيه أحاديث المتن ثم يشرحها بقوله «قوله ...»، وينقل كلام صاحب المتن بقوله «قال المصنف»، مرتباً على كتب الفقه وأبوابه: ففي الجزء الثاني من الطبعة القديمة أبواب اجتناب النجاسات ومواضع الصلوات وصفة الصلاة وما يبطلها، وفي الثالث صلاة الجماعة والإمامة وصلاة المسافر والجمع والجمعة والعيدين والكسوف والجنائز، وفي الخامس كتاب البيوع {cite:nayl-awtar-awn-bari-hamish j.2 p. 3} {cite:nayl-awtar-awn-bari-hamish j.2 p. 14} {cite:nayl-awtar-awn-bari-hamish j.3 p. 5-9} {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}."
+  en: "Muhammad b. 'Ali al-Shawkani's commentary on Muntaqa al-Akhbar: he gives the hadiths of the base text, then explains them lemma by lemma ('his words ...'), quoting the base text's author as 'the author said', in the order of the books and chapters of fiqh — vol. 2 of the old printing covers avoiding impurities and places of prayer, the description of prayer and what invalidates it; vol. 3 congregational prayer, the imamate, the traveller's prayer, combining prayers, Friday, the two Eids, eclipses and funerals; vol. 5 the book of sales {cite:nayl-awtar-awn-bari-hamish j.2 p. 3} {cite:nayl-awtar-awn-bari-hamish j.2 p. 14} {cite:nayl-awtar-awn-bari-hamish j.3 p. 5-9} {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}."
+  ur: "محمد بن علی شوکانی کی «منتقی الاخبار» کی شرح: وہ متن کی احادیث لاتے ہیں، پھر «قولہ ...» کہہ کر ٹکڑے ٹکڑے شرح کرتے ہیں، اور متن کے مصنف کا کلام «قال المصنف» سے نقل کرتے ہیں، فقہ کی کتب اور ابواب کی ترتیب پر — پرانی طباعت کی دوسری جلد میں نجاسات سے اجتناب اور نماز کی جگہوں، نماز کی صفت اور مبطلات کے ابواب ہیں؛ تیسری میں جماعت، امامت، مسافر کی نماز، جمع، جمعہ، عیدین، کسوف اور جنازے؛ اور پانچویں میں کتاب البیوع {cite:nayl-awtar-awn-bari-hamish j.2 p. 3} {cite:nayl-awtar-awn-bari-hamish j.2 p. 14} {cite:nayl-awtar-awn-bari-hamish j.3 p. 5-9} {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}۔"
+language: language/arabic
+authors: [person/al-shawkani]
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/nayl-awtar-awn-bari-hamish] }
+structure: "أحاديث «منتقى الأخبار» مرتبة على كتب الفقه وأبوابه، يلي كل باب شرح الشوكاني بالقول «قوله»؛ وفي الطبعة القديمة على الهامش «عون الباري» لصديق حسن القنوجي."
+editions: [source/nayl-awtar-awn-bari-hamish]
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/modern-era]
+regions: [arabia]
+sources: [source/al-aalam, source/nayl-awtar-awn-bari-hamish]
 external_ids: { wikidata: "Q16284306" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Nayl al-Awtar, old printing with 'Awn al-Bari in the margin, vols. 2, 3, 5: title pages and chapter tables (PDF pages)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker A); rewritten from a Devin (SWE-2 High) Wikidata draft card" }

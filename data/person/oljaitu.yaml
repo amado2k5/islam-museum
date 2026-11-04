@@ -1,5 +1,6 @@
 id: person/oljaitu
 class: person
+aliases: [person/khudabanda]
 label: { ar: "محمد أولجايتو", en: "Öljaitü", ur: "محمد خدابندہ اولجایتو" }
 names:
   - { value: "محمد خدابنده أولجايتو", kind: full }
@@ -25,7 +26,7 @@ born:
   status: historical
   derived: true
   note: "Born during his father Arghun's viceroyalty in Khorasan. The Arabic article gives 678 AH/1280 CE, the Urdu article 1280, and Wikidata 24 March 1280; the English article agrees on 24 March but gives the year as 1282. The 1280 reading, carried by three of the four, is recorded and the English article's 1282 preserved here. His birth name was Kharbanda; the Mongolian name Öljaitü means 'auspicious/blessed'."
-  sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikipedia-oljaitu-ur, source/wikidata-oljaitu]
+  sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikipedia-oljaitu-ur, source/wikidata-oljaitu, source/tarikh-khulafa-minhaj-1434]
 died:
   edtf: "1316-12-16"
   hijri: "0716"
@@ -45,10 +46,10 @@ faith:
     note: "Recorded as unknown under the founder's ruling of 3 November 2026: every phase of this man's religious life is documented, and no phase is settled as the value. The texts attest, in order: he was baptised a Christian in 1291 by his mother Uruk Khatun, a Keraite Christian, receiving the name Nicholas (Nikolya); he was raised in Buddhism, the faith of the early Ilkhans; he converted to Sunni Islam together with his brother Ghazan and took the name Muhammad; after his accession he came under the influence of the Shi'a theologians al-Hilli and Maitham al-Bahrani and in 1310 changed his school to Twelver Shi'a Islam, transferring al-Hilli's remains to a shrine at Soltaniyeh after the scholar's death; and the Mamluk historian al-Safadi reports that he became Sunni again in his last years, in Ramadan 716 AH. The Arabic article preserves the same two endings (that he remained Shia until his death, or returned to Sunni Islam under the influence of the qadi of Shiraz). Wikidata records only Islam, as structured data. With the final phase itself contested between the texts, the doubt rule governs and all phases stand in this note unsettled."
     sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikidata-oljaitu]
 external_ids: { wikidata: "Q297065" }
-sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikipedia-oljaitu-ur, source/wikidata-oljaitu]
+sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikipedia-oljaitu-ur, source/wikidata-oljaitu, source/tarikh-khulafa-minhaj-1434]
 provenance:
   layer: own-research
-  source: "English Wikipedia 'Öljaitü' (revision 1369785492 of 17 August 2026), Arabic Wikipedia «محمد أولجايتو» (revision 76774907 of 26 September 2026), Urdu Wikipedia «محمد خدابندہ اولجایتو» (revision 6535364 of 29 January 2025) and Wikidata Q297065, all read via API on 3 November 2026 with every revision ID re-asserted by a repeat query. This record replaces the Devin wikidata-import draft stub person/uljaitu-ilkhani (completeness 1, no dates, no prose) under the founder's REPLACE ruling of 3 November 2026, per the Atatürk precedent; the faith ruling for this record (unknown, all phases preserved) was given in the same ruling."
-  generated_by: "Muse"
+  source: "English Wikipedia 'Öljaitü' (revision 1369785492 of 17 August 2026), Arabic Wikipedia «محمد أولجايتو» (revision 76774907 of 26 September 2026), Urdu Wikipedia «محمد خدابندہ اولجایتو» (revision 6535364 of 29 January 2025) and Wikidata Q297065, all read via API on 3 November 2026 with every revision ID re-asserted by a repeat query. This record replaces the Devin wikidata-import draft stub person/uljaitu-ilkhani (completeness 1, no dates, no prose) under the founder's REPLACE ruling of 3 November 2026, per the Atatürk precedent; the faith ruling for this record (unknown, all phases preserved) was given in the same ruling. The duplicate person/khudabanda (al-Suyuti, Tarikh al-Khulafa' p. 735) was merged in as an alias on 4 November 2026 by Claude Code (OCR-harvest worker C), run ocr-harvest-2026-11-04, carrying over its one cited sentence."
+  generated_by: "Muse; merge of person/khudabanda by Claude Code (OCR-harvest worker C)"
   run: century-additions-wave-185-a
 status: { review: published, completeness: 3, generated_by: "Muse" }
