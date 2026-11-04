@@ -3,6 +3,7 @@ id: person/jafar-ibn-abi-talib
 lang: en
 source_lang: en
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1125–1127", note: "section added to earlier prose" }
 ---
 
 ## Brief
@@ -17,6 +18,9 @@ Ja'far returned to Medina only in 628. Months later, at [[event/battle-of-mutah|
 
 ## Legacy
 His day in the Negus's court is the tradition's first scene of Islam explained to a foreign ruler — a small Muslim voice, far from home, that carried. In memory he is Ja'far al-Tayyar, "the Flyer," wings in place of the arms he lost.
+
+## In Ahmad ibn Hanbal's Fada'il al-Sahaba
+[[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] gives him a short chapter: from al-Sha'bi, that the Prophet sent to Ja'far's wife to bring him Ja'far's sons and prayed, "O God, Ja'far has gone ahead to the best reward; be his successor among his offspring" (no. 1690, *mursal* with trustworthy narrators according to the editor [[person/wasi-allah-abbas|Wasi Allah Abbas]]); from an unnamed man, that the Prophet said, "I saw him in Paradise, his two wings stained with blood" (1691, weak for a break and an unknown transmitter); and from Ibn Shihab and Ubayd Allah ibn Aslam his words to Ja'far, "You resemble me in form and character" (1692–1693, both weak as *mursal*, the second also because of Ibn Lahi'a). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1125} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1126} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1127}
 
 ## For young visitors
 Ja'far had to stand before a king and explain his whole religion. He did it so well that the king protected all the refugees — and Ja'far died years later holding the army's flag.
