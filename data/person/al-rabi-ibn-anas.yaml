@@ -3,16 +3,22 @@ class: person
 label:
   ar: "الربيع بن أنس"
   en: "al-Rabi' ibn Anas"
+  ur: "ربیع بن انس"
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للربيع بن أنس البكري البصري، مفسر التابعين ومحدثهم؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Rabi' ibn Anas al-Bakri of Basra, the Successors' exegete and transmitter; his entry is not yet checked on the page."
+  ar: "الربيع بن أنس البكري البصري ثم الخراساني، مفسر من التابعين توفي سنة 139هـ؛ روى عن أبي العالية والحسن البصري، ونقل الطبري تفسيره في جامع البيان بإسناد عمار بن الحسن عن عبد الله بن أبي جعفر الرازي عن أبيه عنه."
+  en: "Al-Rabi' ibn Anas al-Bakri of Basra, later of Khurasan, an exegete among the Successors who died in 139 AH; he transmitted from Abu al-Aliya and al-Hasan al-Basri, and al-Tabari quotes his commentary in Jami' al-Bayan through Ammar ibn al-Hasan, from Abd Allah ibn Abi Ja'far, from his father, from him."
+  ur: "ربیع بن انس بکری بصری، بعد میں خراسانی، مفسر جن کی وفات 139ھ میں ہوئی؛ انہوں نے ابو العالیہ اور حسن بصری سے روایت کی، اور طبری جامع البیان میں ان کی تفسیر عمار بن حسن از عبد اللہ بن ابی جعفر از ان کے والد از ربیع کی سند سے نقل کرتے ہیں۔"
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-died: { edtf: "0756", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+died: { hijri: "0139", edtf: "0756/0757", calendar: julian, precision: year, status: historical, derived: true, note: "«= 139هـ» في حاشية البحث عن الجرح والتعديل وتهذيب التهذيب {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49}؛ التحويل مشتق.", sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+relations:
+  - { type: student_of, target: person/abu-al-aliya-al-riyahi, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: student_of, target: person/al-hasan-al-basri, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+themes: [scripture-and-its-sciences]
+sources: [source/al-aalam, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
 external_ids:
   wikidata: "Q12187683"
 provenance:
@@ -21,6 +27,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF p. 49 (biography in the footnote, chain in Jami' al-Bayan)" }
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2

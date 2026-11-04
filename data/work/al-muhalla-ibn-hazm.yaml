@@ -1,17 +1,26 @@
 id: work/al-muhalla-ibn-hazm
 class: work
 kind: book
-label: { ar: "المحلى بالآثار", en: "Al-Muhalla" }
+label:
+  ar: "المحلى بالآثار"
+  en: "al-Muhalla bi-l-Athar"
+  ur: "المحلی بالآثار"
 summary:
-  ar: "بطاقة أولية للمحلى بالآثار لابن حزم، موسوعة الفقه الظاهري؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Ibn Hazm's al-Muhalla bi'l-Athar, the Zahiri fiqh encyclopedia; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "«المحلى بالآثار في شرح المجلى بالاختصار» لابن حزم الأندلسي (ت 456هـ)، شرح مستقل لمتنه الفقهي المختصر «المجلى»، يورد فيه المسألة ثم برهانه من القرآن والسنة والإجماع، ثم أقوال المخالفين ويناقشها؛ وهو أشهر كتب الفقه الظاهري، كتبه مؤلفه إلى المسألة 2034 في هذه الطبعة وأتمه ابنه أبو رافع من «الإيصال»، ثم أكمله ابن خليل في «القدح المعلى». {cite:muhalla-dar-ibn-hazm-2016-v1 p.136} {cite:muhalla-dar-ibn-hazm-2016-v1 p.137} {cite:muhalla-dar-ibn-hazm-2016-v1 p.139} {cite:muhalla-dar-ibn-hazm-2016-v1 p.140}"
+  en: "Ibn Hazm of al-Andalus's (d. 456 AH) al-Muhalla bi-l-Athar fi Sharh al-Mujalla bi-l-Ikhtisar, an independent commentary on his short legal text al-Mujalla, stating each question, then his proof from the Qur'an, Sunna and consensus, then the opposing views, which he discusses; the best-known book of Zahiri law, written by its author to question 2034 in this edition, completed by his son Abu Rafi' from al-Isal, and later by Ibn Khalil in al-Qadh al-Mu'alla."
+  ur: "اندلس کے ابن حزم (م 456ھ) کی «المحلی بالآثار فی شرح المجلی بالاختصار»، ان کے مختصر فقہی متن «المجلی» کی مستقل شرح، جس میں وہ مسئلہ بیان کر کے قرآن، سنت اور اجماع سے اپنی دلیل دیتے، پھر مخالفین کے اقوال لا کر ان پر بحث کرتے ہیں؛ ظاہری فقہ کی سب سے مشہور کتاب، جسے مصنف نے اس طبع کے مسئلہ 2034 تک لکھا، ان کے بیٹے ابو رافع نے «الایصال» سے مکمل کیا، اور بعد میں ابن خلیل نے «القدح المعلی» میں تکمیل کی۔"
+genre: [fiqh]
+language: language/arabic
+authors: [person/ibn-hazm]
+wings: [ideas, words]
+themes: [development-of-law-theology-institutions, sects-and-schools]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+relations:
+  - { type: about, target: group/zahiri-madhhab, sources: [source/muhalla-dar-ibn-hazm-2016-v1] }
+  - { type: relies_on, target: work/al-isal-ila-fahm-kitab-al-khisal, sources: [source/muhalla-dar-ibn-hazm-2016-v1] }
+  - { type: relies_on, target: work/al-ihkam-fi-usul-al-ahkam, sources: [source/muhalla-dar-ibn-hazm-2016-v1] }
+sources: [source/muhalla-dar-ibn-hazm-2016-v1, source/al-aalam]
 external_ids: { wikidata: "Q4702937" }
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance: { layer: own-research, source: "muhalla-dar-ibn-hazm-2016-v1 PDF pp. 4, 8-10, 136-171; earlier card: Wikidata candidate (Devin, wikidata-import-wave2)", generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D)" }

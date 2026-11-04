@@ -26,3 +26,7 @@ Vol. 1 pp. 1-36 (imprint, editor's preface and general introduction: life, name,
 
 ## Next
 Vol. 6: Buyid entry into Baghdad 334 (p. 111 ff.), Mu'izz al-Dawla and al-Muhallabi (to enrich person/al-muhallabi-al-wazir, thin), death of Mu'izz al-Dawla 356, Bakhtiyar; vol. 7 dhayl: al-Rudhrawari (person/abu-shuja-al-rudhrawari has no prose).
+
+## Second pass (same run)
+- Vol. 6 pp. 180-181 (341 AH), 199 (345 AH), 239 (352 AH) read.
+- Enriched: person/al-muhallabi-al-wazir (beating of 341, Miskawayh as his companion, death Sat. 27 Sha'ban 352 at Zawata, confiscation; ar/en/ur sections; promoted to published). The Miskawayh-al-Muhallabi link is now patron_of on al-Muhallabi.
