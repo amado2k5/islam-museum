@@ -9,8 +9,11 @@ wings: [people]
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي ج2 ص 595"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-107
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch45
 external_ids: { wikidata: "Q138050163" }
 sources: [source/muruj-al-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
