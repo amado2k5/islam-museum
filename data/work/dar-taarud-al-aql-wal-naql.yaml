@@ -1,17 +1,28 @@
 id: work/dar-taarud-al-aql-wal-naql
 class: work
 kind: book
-label: { ar: "درء تعارض العقل والنقل", en: "Dar' Ta'arud al-Aql wa-l-Naql" }
+genre: [creed, polemic, kalam]
+label: { ar: "درء تعارض العقل والنقل", en: "Dar' Ta'arud al-'Aql wa'l-Naql", ur: "درء تعارض العقل والنقل" }
 summary:
-  ar: "بطاقة أولية لدرء تعارض العقل والنقل لابن تيمية، من أوسع كتبه في رد أهل الكلام؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Dar' Ta'arud al-Aql wa-l-Naql, Ibn Taymiyya's great work reconciling reason and revelation; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب كبير لابن تيمية (ت 728هـ) في نقض «القانون الكلي» الذي قرره الرازي وأتباعه في تقديم الدليل العقلي على السمعي عند التعارض، يرد عليه من أربعة وأربعين وجهاً ويستطرد إلى مسائل العلو وكلام الله وحدوث العالم؛ رجّح محققه محمد رشاد سالم أنه ألف بدمشق بين سنتي 713 و717هـ."
+  en: "A large book by Ibn Taymiyya (d. 728 AH) refuting the 'universal law' laid down by al-Razi and his followers – that rational proof takes precedence over scriptural proof when they conflict – in forty-four arguments, with digressions on God's elevation, His speech and the origination of the world; its editor Muhammad Rashad Salim dated it to Damascus between 713 and 717 AH."
+wings: [ideas, words]
+themes: [creed, philosophy-and-logic, polemic-and-apologetic, sects-and-schools]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/dar-taarud-salim-v1-1411] }
+authors: [person/ibn-taymiyya]
+language: language/arabic
+composed: { edtf: "1313/1317", hijri: "0713", calendar: julian, precision: year, status: historical, derived: true, note: "ترجيح المحقق محمد رشاد سالم أنه ألف بين 713 و717هـ (السنة الهجرية المسجلة أول المدة): بعد عودة ابن تيمية إلى دمشق آخر سنة 712هـ وقبل وفاة ابن الشريشي في شوال 718هـ {cite:dar-taarud-salim-v1-1411 p. 9}" }
+structure: "After the preface, the statement of the 'universal law' (vol. 1, PDF p. 96); a general answer, then a detailed answer in forty-four 'aspects' (wujuh): the first begins at printed p. 86 of vol. 1, aspects 1–19 run through vol. 1 to p. 320, followed by long digressions on the proof from the origination of motions and accidents, preponderance without a preponderant, infinite regress of events and the eternity of the world, God's speech, His rising over the Throne and His elevation, and events subsisting in His essence; aspect 20 opens vol. 3 and the last (44th) comes in the Dublin manuscript (editor's introduction, PDF pp. 19–21)."
+relations:
+  - { type: critic_of, target: person/fakhr-al-din-al-razi, sources: [source/dar-taarud-salim-v1-1411] }
 external_ids: { wikidata: "Q12211525" }
+sources: [source/dar-taarud-salim-v1-1411]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "درء تعارض العقل والنقل، تحقيق محمد رشاد سالم، ج1 ط2 1411هـ، ص 1–22، 96، 178–181 من ملف المسح"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C); earlier Wikidata card by Devin (SWE-2 High), wikidata-import-wave2" }
