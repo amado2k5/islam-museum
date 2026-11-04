@@ -618,3 +618,9 @@ jahan-shah-qaraqoyunlu	REJECT: ar: thin (144ch); ur: thin (141ch)
 Promoted: abd-al-karim-rumi, abd-al-wahhab-ibn-arabshah, abu-al-mawahib-al-tunisi, ahmad-ibn-ubba, al-iqsarai-al-muwahhibi, al-nasimi-al-manzilawi, al-zahir-qansuh, ali-al-arabi-rumi, hasan-al-samuni, ibn-al-khatib-rumi, ibn-hajji-al-hisbani, ismail-ibn-abdallah-al-salihi, jan-balat, khalil-al-faradisi, manla-zada-samarqandi, muhyi-al-din-al-tukshari, muslih-al-din-al-qastallani, qasim-baghdadi-kirmani, shams-al-din-ibn-jamaa, tuman-bay-i.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1649.** sweep continues through remaining trilingual drafts.
+
+### Batch 91 (4 Nov 2026, 20 records) — lib-shadharat-batch-123 draft promotions (sweep worker)
+
+Promoted: abd-al-qadir-al-rahawi, abdallah-al-yunini, al-fasihi-al-istrabadhi, al-izz-ibn-abd-al-ghani, al-jajarmi, al-khuyuqi-najm-al-din, al-kindi-abu-al-yumn, al-malik-al-mansur-hama, al-malik-al-qahir-masud, al-samiri-ibn-sinina, al-shaykh-al-imad, ibn-al-akhdar, ibn-al-anmati-ismail, ibn-al-hallawi, ibn-al-hurastani, ibn-al-samani-abd-al-rahim, ibn-shas-al-judhami, ibn-zuhra-al-husayni, jalal-al-din-hasan-alamut, kaykawus-i.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1669.** sweep continues through remaining trilingual drafts.
