@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 96).
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 95).
 - **Harvest drive OCR complete**: the last four library scans without text (the 1916–1929 Cairo printings of the Hamasa of Abu Tammam, the Mufaddaliyyat, al-Zawzani's commentary on the Mu'allaqat and al-Barquqi's commentary on the diwan of Hassan ibn Thabit) were read with Apple Vision, so every one of the 1,401 library PDFs now has page text for mining; the OCR status record and the harvest ledger are updated, and a new `lib-ocr-harvest` lane is registered for the 198 OCR'd books that no record cited yet.
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 94).
