@@ -12,7 +12,7 @@ provenance:
   source: "source/rezavi-iranian-influence-indian-architecture-2002, pp. 138-139"
 ---
 ## Definition
-The hasht bihisht plan (Persian, "eight paradises"), also called the nine-part plan, divides a usually irregular octagon (a chamfered square, the *musamman-i baghdadi*) by four crossing lines into nine units: a domed octagonal chamber in the centre, open rectangular halls on the sides, and double-storeyed vaulted octagonal chambers at the corners. It gave buildings a radial symmetry, stressed further by axial and diagonal passages linking the nine chambers. {cite:rezavi-iranian-influence-indian-architecture-2002 p.138}
+The hasht bihisht plan, also called the nine-part plan, divides a usually irregular octagon (a chamfered square, the *musamman-i baghdadi*) by four crossing lines into nine units: a domed octagonal chamber in the centre, open rectangular halls on the sides, and double-storeyed vaulted octagonal chambers at the corners. It gave buildings a radial symmetry, stressed further by axial and diagonal passages linking the nine chambers. {cite:rezavi-iranian-influence-indian-architecture-2002 p.138}
 
 ## Timurid origins
 [[person/syed-ali-nadeem-rezavi|Rezavi]] gives as Timurid examples the tomb of Abu Nasr Parsa at Balkh (c. 1460), the Ishratkhana at Samarqand (1464) and the tomb of Sharif Abdullah at Herat (1487). The Abu Nasr tomb directly influenced four Mughal tombs: the Sabz Burj and Nili Gumbad near Humayun's tomb (c. 1530-40), the Afsarwala tomb at Delhi (1560s) and the tomb of Shamsher Khan at Batala (1588-89). {cite:rezavi-iranian-influence-indian-architecture-2002 p.138}

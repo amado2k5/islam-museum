@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker H)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/rezavi-iranian-influence-indian-architecture-2002, pp. 129, 131, 133, 138-139"
+  source: "source/rezavi-iranian-influence-indian-architecture-2002, pp. 129, 131, 133, 138-139; source/brookes-gardens-of-paradise-1987, pp. 130-132, 136, 154"
 ---
 ## موجز
 ضريح همايون في دلهي ضريح الإمبراطور المغولي الثاني، ويعدّه [[person/syed-ali-nadeem-rezavi|سيد علي نديم رضوي]] مع تاج محل أشهر المباني المغولية القائمة على [[concept/hasht-bihisht-plan|المخطط التساعي]] التيموري. {cite:rezavi-iranian-influence-indian-architecture-2002 p.138}
@@ -19,3 +19,6 @@ provenance:
 
 ## عناصره
 يقوم الضريح وسط [[concept/chaharbagh|جهاربغ]]، والجهاربغ عند رضوي الإطار المعتاد للأضرحة المغولية. {cite:rezavi-iranian-influence-indian-architecture-2002 p.129} وفيه تظهر القبة المزدوجة البصلية أول مرة على نحو متردد قبل أن تكتمل في تاج محل، {cite:rezavi-iranian-influence-indian-architecture-2002 p.131} ويمثّل التلوين الثنائي بالأحمر والأبيض الذي حلّ في العمارة الأكبرية محل الفسيفساء الخزفية الإيرانية. {cite:rezavi-iranian-influence-indian-architecture-2002 p.132} كما تظهر في قبته الوسطى «شبكة العقود» الجصية على مثال ما في مسجد كابلي باغ. {cite:rezavi-iranian-influence-indian-architecture-2002 p.133} وفي بستانه «قبر الحلاق» المبني على الجهارطاق، وبقربه السبز برج ونيلي گنبد. {cite:rezavi-iranian-influence-indian-architecture-2002 p.133} {cite:rezavi-iranian-influence-indian-architecture-2002 p.138}
+
+## البناء والبستان عند بروكس
+يذكر [[person/john-brookes|جون بروكس]] أن [[person/hamida-banu-begum|حميدة بانو بيگم]] أرملة همايون، وهي فارسية من خراسان، أشرفت على بناء الضريح الذي بدئ نحو 1560م وتم سنة 1573م، فكان أول سلسلة الأضرحة البستانية المغولية الكبرى، وفي موضع آخر من كتابه يؤرخه بسنة 1564م. {cite:brookes-gardens-of-paradise-1987 p.131} {cite:brookes-gardens-of-paradise-1987 p.132} {cite:brookes-gardens-of-paradise-1987 p.154} يقوم على منصة مربعة كبيرة وتعلوه قبة رخامية ضخمة تدل على أصوله الفارسية، وبستانه في رأيه البستان المغولي الوحيد الباقي الذي حفظ صورته الأصلية: [[concept/chaharbagh|جهاربغ]] اتسع وتعقّد فصار شبكة مائية من قنوات ضيقة عند تقاطعها أحواض ضحلة، وقناته الوسطى صغيرة لعزة الماء. {cite:brookes-gardens-of-paradise-1987 p.130} {cite:brookes-gardens-of-paradise-1987 p.132} ومنه نما بستان [[building/tomb-of-akbar-sikandra|ضريح أكبر]] ثم القناة العاكسة في [[building/taj-mahal|تاج محل]]. {cite:brookes-gardens-of-paradise-1987 p.136} {cite:brookes-gardens-of-paradise-1987 p.154}

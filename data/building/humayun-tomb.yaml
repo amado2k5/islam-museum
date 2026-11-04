@@ -10,7 +10,7 @@ summary:
 wings: [objects]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim, source/rezavi-iranian-influence-indian-architecture-2002]
+sources: [source/tarikh-islam-hasan-ibrahim, source/rezavi-iranian-influence-indian-architecture-2002, source/brookes-gardens-of-paradise-1987]
 external_ids:
   wikidata: Q189648
 provenance:
@@ -19,8 +19,10 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-  extra_runs: ["worker H ocr-harvest-2026-11-04: Rezavi 2002 pp.129-139, first prose"]
+  extra_runs: ["worker H ocr-harvest-2026-11-04: Rezavi 2002 pp.129-139, first prose", "worker H ocr-harvest-2026-11-04: Brookes 1987 pp.130-154 section"]
 status:
   review: published
   completeness: 1
 location: place/delhi
+built: { edtf: "1560~/1573", calendar: gregorian, precision: year, status: historical, sources: [source/brookes-gardens-of-paradise-1987], note: "Brookes pp. 131-132: begun around 1560, completed 1573; p. 154 gives 1564" }
+patron: person/hamida-banu-begum

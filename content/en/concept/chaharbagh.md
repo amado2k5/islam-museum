@@ -9,10 +9,10 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker H)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/rezavi-iranian-influence-indian-architecture-2002, pp. 129-131"
+  source: "source/rezavi-iranian-influence-indian-architecture-2002, pp. 129-131; source/brookes-gardens-of-paradise-1987, pp. 116, 125-127, 132, 151, 154"
 ---
 ## Definition
-The chaharbagh (Persian, "four gardens") is a garden divided into four quarters by crossing water channels and walks, enclosed by screen walls and gateways. [[person/syed-ali-nadeem-rezavi|Syed Ali Nadeem Rezavi]] counts it among the most important things the Mughals took from the Iranian-Timurid tradition. {cite:rezavi-iranian-influence-indian-architecture-2002 p.129}
+The chaharbagh is a garden divided into four quarters by crossing water channels and walks, enclosed by screen walls and gateways. [[person/syed-ali-nadeem-rezavi|Syed Ali Nadeem Rezavi]] counts it among the most important things the Mughals took from the Iranian-Timurid tradition. {cite:rezavi-iranian-influence-indian-architecture-2002 p.129}
 
 ## Arrival in India
 Babur introduced the chaharbagh to India after 1526. Among his gardens that have been identified are the Bagh-i Fath, the Bagh-i Nilufar at Dholpur, the garden now called Rambagh (Aram Bagh or Bagh-i Gul Afshan, later renovated by Nur Jahan and renamed Bagh-i Nur Afshan), and the Bagh-i Hasht Bihisht, the last two on the left bank of the Yamuna at [[place/agra|Agra]]. {cite:rezavi-iranian-influence-indian-architecture-2002 p.129} {cite:rezavi-iranian-influence-indian-architecture-2002 p.130}
@@ -22,3 +22,6 @@ The chaharbagh became the standard setting for Mughal tombs, with a large platfo
 
 ## A model for cities
 Rezavi holds that the chaharbagh became not only an element of the Mughal urban landscape but also inspired the layout of Mughal cities themselves, its centripetal symmetry being invoked in the planning of Fathpur Sikri and Shahjahanabad. {cite:rezavi-iranian-influence-indian-architecture-2002 p.130} {cite:rezavi-iranian-influence-indian-architecture-2002 p.131}
+
+## From Kabul to the Taj, in Brookes
+[[person/john-brookes|John Brookes]] calls the garden tradition Babur carried to the plains of India purely Persian: enclosed, private and quadripartite. {cite:brookes-gardens-of-paradise-1987 p.116} Its first instances are the [[building/bagh-i-vafa-kabul|Bagh-i Vafa]] at Kabul (1504), with wall, channels and tank, {cite:brookes-gardens-of-paradise-1987 p.125} {cite:brookes-gardens-of-paradise-1987 p.127} and then the [[building/ram-bagh-agra|Ram Bagh]] at Agra. From that squared layout grew the garden of [[building/humayun-tomb|Humayun's tomb]], a water parterre of narrow channels with shallow tanks at their crossings, and from it the famous reflecting canal of the [[building/taj-mahal|Taj Mahal]]. {cite:brookes-gardens-of-paradise-1987 p.132} {cite:brookes-gardens-of-paradise-1987 p.154} In Shah Jahan's gardens on the plains the chaharbagh returned to its Persian form, though much enlarged, its narrow channels becoming smooth canals. {cite:brookes-gardens-of-paradise-1987 p.151}

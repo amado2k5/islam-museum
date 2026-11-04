@@ -12,7 +12,7 @@ provenance:
   source: "source/rezavi-iranian-influence-indian-architecture-2002, pp. 132-134, 136"
 ---
 ## Definition
-The chahartaq (Persian, "four arches") is a square domed chamber rising on four crossing arches; from it came stellate vaults built over cruciform domed chambers. [[person/syed-ali-nadeem-rezavi|Rezavi]] names it, with the arch-and-panel system, among the Iranian innovations that found wide acceptance under the Mughals. {cite:rezavi-iranian-influence-indian-architecture-2002 p.132}
+The chahartaq is a square domed chamber rising on four crossing arches; from it came stellate vaults built over cruciform domed chambers. [[person/syed-ali-nadeem-rezavi|Rezavi]] names it, with the arch-and-panel system, among the Iranian innovations that found wide acceptance under the Mughals. {cite:rezavi-iranian-influence-indian-architecture-2002 p.132}
 
 ## In Mughal architecture
 His earliest Mughal example is the [[building/kabuli-bagh-mosque|Kabuli Bagh Mosque]] built by Babur at Panipat (c. 1527), where the chahartaq covers the central nave. The western liwans of the Jami' Masjids of Fathpur Sikri and Shahjahanabad (Delhi) and the Badshahi Masjid of Lahore were built on the same pattern, as were the central rooms of Muqarrab Khan's baradari at Kairana and square tombs such as those of the Khusrau Bagh at Allahabad. {cite:rezavi-iranian-influence-indian-architecture-2002 p.134}
