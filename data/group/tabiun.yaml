@@ -3,22 +3,57 @@ class: group
 kind: people
 label:
   ar: "التابعون"
-  en: "The Tabi'un"
+  en: "The Tabi'un (Successors)"
 summary:
-  ar: "التابعون، من لقي الصحابة مؤمناً بالنبي ولم يلقه — الجيل الثاني الذي عليه مدار الرواية والفقه في الأمصار. بطاقة أولية وردت من وصف مرجعي مفتوح (ويكي البيانات) ولم تُراجع على صفحات المصدر بعد."
-  en: "The Tabi'un — those who met the Companions believing in the Prophet without meeting him; the second generation on which transmission and law turned in the provinces. Draft card from an open reference description (Wikidata); not yet checked on the source page."
+  ar: "التابعون هم الجيل الذي تلا الصحابة، ومعرفتهم أصل يُعرف به المتصل من المرسل. اختلف أهل الحديث في حدّ التابعي: قال الخطيب من صحب صحابياً، وقال الحاكم من لقيه، ورجّح ابن الصلاح والنووي الثاني، واشترط ابن حبان أن يراه في سن من يحفظ عنه. وقسّمهم مسلم ثلاث طبقات، وابن سعد أربعاً، والحاكم خمس عشرة طبقة أولها من أدرك العشرة كقيس بن أبي حازم، وآخرها من لقي آخر الصحابة موتاً في الأمصار. ومنهم المخضرمون، والفقهاء السبعة بالمدينة، واختُلف في أفضلهم. وأول التابعين موتاً عند البلقيني معضد بن يزيد سنة 30هـ، وآخرهم خلف بن خليفة سنة 180هـ {cite:tadrib-rawi-awwama-v5 p. 239-265}."
+  en: "The Tabi'un are the generation that followed the Companions; knowing them is one of the two bases by which a connected chain is told from a mursal one. Hadith scholars disagreed on the definition: al-Khatib required companionship with a Companion, al-Hakim only meeting one, and Ibn al-Salah and al-Nawawi preferred the latter, while Ibn Hibban required that the meeting be at an age to retain what was heard. Muslim divided them into three tiers, Ibn Sa'd into four and al-Hakim into fifteen, the first being those who met the Ten, such as Qays ibn Abi Hazim, and the last those who met the last Companion to die in each region. They include the mukhadramun and the Seven Jurists of Medina, and who was the best of them is debated. For al-Bulqini the first of them to die was Ma'did ibn Yazid in 30 AH and the last Khalaf ibn Khalifa in 180 AH."
 wings: [people]
 regions: [arabia, levant-iraq]
-periods: [period/umayyad]
-sources: [source/isaba-matba-al-saada-1328]
+periods: [period/rashidun, period/umayyad]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: related_to, target: group/sahaba, sources: [source/tadrib-rawi-awwama-v5] }
+  - { type: related_to, target: concept/mukhadram, sources: [source/tadrib-rawi-awwama-v5] }
+  - { type: related_to, target: group/al-fuqaha-al-saba, sources: [source/tadrib-rawi-awwama-v5] }
+  - { type: related_to, target: question/afdal-al-tabiin, sources: [source/tadrib-rawi-awwama-v5] }
+perspectives:
+  - tradition: sunni
+    id: sunni-liqa
+    standing: main
+    stance: { ar: "التابعي من لقي صحابياً", en: "A Successor is one who met a Companion" }
+    summary:
+      ar: "قول الحاكم، قال ابن الصلاح: هو أقرب، وقال النووي: هو الأظهر، وقال العراقي: عليه عمل الأكثرين من أهل الحديث، فعدّ مسلم وابن حبان الأعمش في التابعين لأنه رأى أنساً."
+      en: "Al-Hakim's view; Ibn al-Salah called it closer, al-Nawawi more evident, and al-Iraqi said most hadith scholars act on it, Muslim and Ibn Hibban counting al-A'mash among the Successors because he saw Anas."
+    holders: [person/al-hakim-al-nisaburi, person/ibn-al-salah, person/al-nawawi, person/abd-al-rahim-al-iraqi]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-suhba
+    standing: secondary
+    stance: { ar: "التابعي من صحب صحابياً", en: "A Successor is one who accompanied a Companion" }
+    summary:
+      ar: "قول الخطيب البغدادي: لا يُكتفى بمجرد اللقي، بخلاف الصحابي مع النبي، لشرف منزلة النبي."
+      en: "Al-Khatib al-Baghdadi: mere meeting is not enough, unlike a Companion with the Prophet, because of the Prophet's rank."
+    holders: [person/al-khatib-al-baghdadi-ahmad]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-tamyiz
+    standing: secondary
+    stance: { ar: "اللقاء في سن من يحفظ", en: "Meeting at an age to retain" }
+    summary:
+      ar: "اشترط ابن حبان أن يكون رآه في سن من يحفظ عنه، فعدّ خلف بن خليفة في أتباع التابعين وإن رأى عمرو بن حريث صغيراً، وقال العراقي: لما اختاره وجه."
+      en: "Ibn Hibban required that he saw him at an age to retain what he heard, so he counted Khalaf ibn Khalifa among the Followers of the Successors although he saw Amr ibn Hurayth as a small child; al-Iraqi said his choice has a point."
+    holders: [person/ibn-hibban]
+    sources: [source/tadrib-rawi-awwama-v5]
+sources: [source/tadrib-rawi-awwama-v5, source/isaba-matba-al-saada-1328]
 external_ids:
   wikidata: Q431712
 provenance:
   layer: own-research
-  source: "Wikidata Q431712 (religion claim Islam); book source: Ibn Hajar, al-Isaba (defines the Companion class and its contrast) — not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0007
+  source: "تدريب الراوي للسيوطي، تحقيق عوامة، المجلد الخامس، النوع الأربعون، ص 239–265؛ بطاقة أولية سابقة من ويكي البيانات Q431712"
+  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker F)"
+  model: "SWE-2 High; claude-opus-5-5"
+  run: wikidata-import-0007, ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker F)"
