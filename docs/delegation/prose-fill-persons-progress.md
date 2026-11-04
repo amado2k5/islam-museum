@@ -259,3 +259,9 @@ Promoted: ali-ibn-jafar-al-madini, ali-ibn-muhammad-al-himmani, ali-ibn-muhammad
 Promoted: barkhya-ibn-akhbya, batis-al-batriq, bint-samra-ibn-jundub, bishr-al-hafi, bishr-ibn-ghiyath-al-marisi, budasaf, bugha-al-saghir, buqrat, buran-bint-kisra-abrawiz, charlemagne-malik-al-ifranj, clovis-malik-al-ifranj, dahman-al-mughanni, dhu-al-janahayn, dhu-al-kala, dhu-al-thudiyya, dilf-ibn-abi-dulaf, dirar-ibn-damra, falgh-ibn-yaghur, faris-ibn-bugha, fithaghuras, fukhta-bint-qarita, hababa, hammad-al-rawiya, hammad-al-turki, hammad-ibn-salama. cite-check 25/25; validate 0 errors; tests pass; coverage regenerated.
 
 **Lane total: 553.** ~210 lib-muruj draft promotions remain; then tabari ~9, ansab 17, tabaqat 18, uncited ~511.
+
+### Batch 38 (4 Nov 2026, 25 records) — Muruj draft-status promotions 9 (sweep worker)
+
+Promoted: wasil-ibn-ata, ibn-durayd, ibrahim-al-fazari-al-munajjim, nawbakht-al-munajjim, porphyry-furfuris, rudhmir-malik-al-jalaliqa, umayya-ibn-ishaq-al-umawi, urumazd-bishop-of-jarbida, rabah-ibn-ajla, sadif-bint-humas, satih-al-kahin, shiqq-al-kahin, tarifa-al-kahina, kalamn-king-of-madyan, yathrib-ibn-qatiya, hatim-al-tai, mirdas-ibn-abi-amir-al-sulami, harith-ibn-sinbat, ibn-ayshun-al-harrani, malik-ibn-uqbun, thabit-ibn-qurra, zardusht, khalid-ibn-jafar-al-kilabi, malik-ibn-fahm, mariya-dhat-al-qirtayn. cite-check 25/25; validate 0 errors; 318 tests; graph+coverage regen.
+
+**Lane total: 578.** ~185 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts (mawsuat-a3lam 413, shadharat runs, wikidata-import-wave2 44, mawsua runs, uncited ~750).
