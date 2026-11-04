@@ -185,3 +185,11 @@ Written: muhammad-ibn-zayd-al-alawi (v12 p239; provenance block fixed), baha-al-
 Leads (+4): ibn-al-sabbagh-faqih (incidental, present at a funeral prayer), ali-ibn-muhammad-ibn-abi-al-shawarib (appointment line only), abun-ibn-makhlad-al-nasrani (incidental rebuilding note), ibn-al-muallim (vague fear reference). Remaining ~110 muntazam rows: zero-hit or no substantive passage → leads when swept.
 
 **Lane total: 296.**
+
+### Batch 26 (3 Nov 2026, 12 records, ar+en+ur) — Tabari/Muruj cited-summary cluster opens
+
+Written: ahmad-ibn-israil, al-hurr-ibn-yazid, bugha-al-shirabi, hujr-ibn-adi, rustam-farrukhzad, wasif-al-turki, zakarawayh-ibn-mihrawayh, khosrow-ii-parviz, shabib-ibn-bajra, abd-al-rahman-ibn-ahmad-al-alawi (tabari); ibn-abi-dhib, al-muzani (muruj). 10 yamls had flow-style provenance missing `source:` — rewritten. cite-check 12/12; validate 0 errors; 317 tests; coverage regenerated.
+
+Muntazam sweep: ~110 residual rows are zero-hit or incidental (sampled — mostly isnad/annalistic mentions); logged as leads en bloc.
+
+**Lane total: 308.** Remaining cited thin clusters: tabari ~32, muruj ~296, ansab 17, tabaqat 18.
