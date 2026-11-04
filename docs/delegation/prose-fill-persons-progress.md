@@ -807,3 +807,12 @@ Promoted: abu-hashim-al-mughira-ibn-miqsam, abu-qilaba-abd-allah-ibn-zayd, al-ha
 Promoted: adam, asiya, dawud, harun, isa-ibn-maryam, ishaq, lut, maryam, musa, nuh, salih, sulayman, yaqub, yunus, yusuf.cite-check 15/15; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2194.** sweep continues through remaining trilingual drafts.
+
+### Batch 122 (4 Nov 2026, 14 records) — lib-wafayat-batch-13 draft promotions (sweep worker)
+
+Promoted: al-adil-ii, al-aziz-fakhr-al-din-uthman, al-malik-al-masud-ibn-al-kamil, al-mughith-umar-ibn-al-adil, bardawil-al-ifranji, bint-nizam-al-mulk, ibn-abi-al-hadid, ibn-al-nabih, ibn-al-umayd, ibn-raiq, matta-ibn-yunus, muwaffaq-al-din-ibn-abi-al-hadid, najm-al-din-khidr, sabuktigin.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
+
+Leads (rejected):
+al-muwaffaq-ibn-ahmad-al-makki	REJECT: ar: thin (134ch)
+
+**Lane total: 2208.** sweep continues through remaining trilingual drafts.
