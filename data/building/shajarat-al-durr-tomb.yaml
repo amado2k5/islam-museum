@@ -10,7 +10,7 @@ summary:
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/khitat-maqrizi-1998]
+sources: [source/khitat-maqrizi-1998, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q23975588
 provenance:
@@ -19,7 +19,11 @@ provenance:
   generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
   model: claude-haiku-5-5
   run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch13
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 121-122"]
 status:
   review: published
   completeness: 3
   generated_by: "Claude Haiku 5.5; the garden and house near Sayyida Nafisa and the tomb of Shajar al-Durr, where the garden stood, are read from al-Maqrizi's Khitat (local scan, pp. 1384, 1657). The Khitat names the tomb's site, not a burial account; her death and burial are covered by the person record and are not repeated here"
+built: { edtf: "1250", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 121: her own mausoleum (1250)." }
+patron: person/shajar-al-durr
+status_now: standing

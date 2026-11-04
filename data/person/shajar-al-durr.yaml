@@ -15,5 +15,8 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR; Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane (Khitat sections)"
   model: "claude-haiku-5-5"
   run: "lib-tarikh-khulafa-batch-45, lib-shadharat-batch-129, showcase-prose-phase2-egypt-batch2"
-sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab]
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 118-121"]
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the death of al-Salih, the regency, Turanshah's killing, the sultanate, her marriage to Aybak and her killing of him are read from al-Maqrizi's Khitat (local scan, pp. 660–661, 1912–1916); her own death keeps its Shadharat citation and is not re-checked locally" }
+relations:
+  - { type: built, target: building/shajarat-al-durr-tomb, sources: [source/yeomans-islamic-cairo-2006] }

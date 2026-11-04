@@ -1,17 +1,32 @@
 id: work/kitab-al-umm
 class: work
 kind: book
-label: { ar: "كتاب الأم", en: "Kitab al-Umm" }
+label:
+  ar: "كتاب الأم"
+  en: "Kitab al-Umm"
+  ur: "کتاب الام"
 summary:
-  ar: "بطاقة أولية لكتاب الأم للشافعي، الموسوعة الفقهية التي جمعت مذهبه الجديد وأمهات مسائله؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for al-Shafi'i's Kitab al-Umm, the juristic encyclopedia holding his new school and its mother-questions; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب الأم للإمام محمد بن إدريس الشافعي (150-204هـ)، يرويه عنه الربيع بن سليمان المرادي، ويعرض فيه الشافعي مسائل الفقه بأبوابها مع حججه، ويناظر فيه مخالفيه. في جزئه الثامن كتب الدعوى والبينات والشهادات والأيمان والنذور، وثلاثة كتب في الخلاف: اختلاف العراقيين (ما اختلف فيه أبو حنيفة وابن أبي ليلى برواية أبي يوسف)، واختلاف علي وعبد الله بن مسعود، واختلاف مالك والشافعي. {cite:kitab-al-umm-wafa-v8 p.1} {cite:kitab-al-umm-wafa-v8 p.217} {cite:kitab-al-umm-wafa-v8 p.513}"
+  en: "Kitab al-Umm of the Imam Muhammad ibn Idris al-Shafi'i (150-204 AH), transmitted from him by al-Rabi' ibn Sulayman al-Muradi, in which al-Shafi'i sets out the questions of law chapter by chapter with his arguments and debates his opponents. Its eighth volume holds the books of claims and evidence, testimony, and oaths and vows, and three books on disagreement: the Disagreement of the Iraqis (where Abu Hanifa and Ibn Abi Layla differed, as related by Abu Yusuf), the Disagreement of Ali and Abd Allah ibn Mas'ud, and the Disagreement of Malik and al-Shafi'i."
+  ur: "امام محمد بن ادریس شافعی (150-204ھ) کی کتاب الام، جسے ان سے ربیع بن سلیمان مرادی روایت کرتے ہیں؛ اس میں امام شافعی فقہ کے مسائل ابواب کی ترتیب سے اپنے دلائل کے ساتھ بیان کرتے ہیں اور مخالفین سے مناظرہ کرتے ہیں۔ اس کی آٹھویں جلد میں دعویٰ و بینات، شہادات، اور ایمان و نذور کی کتابیں ہیں، اور اختلاف پر تین کتابیں: اختلاف العراقیین (جن مسائل میں امام ابو حنیفہ اور ابن ابی لیلیٰ نے اختلاف کیا، ابو یوسف کی روایت سے)، اختلاف علی و عبد اللہ بن مسعود، اور اختلاف مالک و الشافعی۔"
+genre: [fiqh]
+language: language/arabic
+authors: [person/al-shafii]
+structure: "Books (kutub) numbered continuously across the edition; vol. 8 of the Dar al-Wafa' edition: (65) Claims and Evidence p. 5; (66) Testimony p. 107; Oaths, Vows and Expiations p. 149; (68) Disagreement of the Iraqis p. 217; (69) Disagreement of Ali and Ibn Mas'ud p. 391; (70) Disagreement of Malik and al-Shafi'i p. 513 to the end (about p. 784)."
+wings: [ideas, words]
+themes: [law-and-courts, development-of-law-theology-institutions]
+periods: [period/abbasid-early]
+regions: [egypt-nile, arabia, levant-iraq]
+relations:
+  - { type: rules_on, target: concept/al-qada-bil-yamin-maa-al-shahid, sources: [source/kitab-al-umm-wafa-v8] }
+  - { type: rules_on, target: concept/tadmin-al-sunna, sources: [source/kitab-al-umm-wafa-v8] }
+  - { type: rules_on, target: practice/raf-al-yadayn-fil-salah, sources: [source/kitab-al-umm-wafa-v8] }
+sources: [source/kitab-al-umm-wafa-v8, source/al-aalam]
 external_ids: { wikidata: "Q3815705" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in juristic histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "kitab-al-umm-wafa-v8 pp. 1, 4-6, 107, 149, 217-218, 391-392, 513-514, 541-544, 785-788"
+  generated_by: "Claude Code (OCR-harvest worker D)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D); earlier draft card by Devin (SWE-2 High), wikidata-import-wave2" }

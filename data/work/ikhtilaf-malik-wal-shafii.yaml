@@ -1,0 +1,26 @@
+id: work/ikhtilaf-malik-wal-shafii
+class: work
+kind: book
+label:
+  ar: "كتاب اختلاف مالك والشافعي"
+  en: "Kitab Ikhtilaf Malik wa al-Shafi'i (The Disagreement of Malik and al-Shafi'i)"
+  ur: "کتاب اختلاف مالک و الشافعی"
+summary:
+  ar: "كتاب من كتب الأم في صورة أسئلة يوجّهها الربيع بن سليمان إلى الشافعي، يبدأ بقاعدة الشافعي في ثبوت الخبر عن النبي، ثم يتتبع مسائل أخذ فيها مالك بحديث وتركه في نظيرها، أو خالف ما رواه هو، في الصلاة والصدقات والبيوع والأقضية والحج والجهاد، وخلاف مالك لما روي عن عثمان وعائشة وابن عباس وزيد بن ثابت. وهو نقد الشافعي لمنهج شيخه، منسوب إليه. {cite:kitab-al-umm-wafa-v8 p.513} {cite:kitab-al-umm-wafa-v8 p.514}"
+  en: "A book of al-Umm in the form of questions put by al-Rabi' ibn Sulayman to al-Shafi'i. It opens with al-Shafi'i's rule for when a report from the Prophet is established, then follows questions in which Malik took a hadith in one case and left it in a parallel one, or departed from what he himself narrated, in prayer, alms, sales, judgements, pilgrimage and jihad, and Malik's departures from reports from Uthman, A'isha, Ibn Abbas and Zayd ibn Thabit. It is al-Shafi'i's critique of his teacher's method, attributed to him."
+  ur: "الام کی ایک کتاب جو ربیع بن سلیمان کے امام شافعی سے سوالات کی صورت میں ہے۔ یہ نبی سے خبر کے ثبوت کے بارے میں امام شافعی کے قاعدے سے شروع ہوتی ہے، پھر ان مسائل کا جائزہ لیتی ہے جن میں امام مالک نے ایک جگہ حدیث لی اور اس جیسی دوسری جگہ چھوڑ دی، یا اپنی ہی روایت کے خلاف کیا، نماز، صدقات، بیوع، اقضیہ، حج اور جہاد میں؛ اور عثمان، عائشہ، ابن عباس اور زید بن ثابت سے مروی آثار سے امام مالک کے اختلاف کو۔ یہ اپنے استاد کے منہج پر امام شافعی کی تنقید ہے، انہی کی طرف منسوب۔"
+genre: [fiqh, ikhtilaf]
+sensitivity: contested
+language: language/arabic
+authors: [person/al-shafii]
+wings: [ideas, words]
+themes: [law-and-courts, development-of-law-theology-institutions]
+periods: [period/abbasid-early]
+regions: [arabia, egypt-nile]
+relations:
+  - { type: part_of, target: work/kitab-al-umm, sources: [source/kitab-al-umm-wafa-v8] }
+  - { type: critic_of, target: person/malik-ibn-anas, sources: [source/kitab-al-umm-wafa-v8] }
+  - { type: about, target: person/malik-ibn-anas, sources: [source/kitab-al-umm-wafa-v8] }
+sources: [source/kitab-al-umm-wafa-v8]
+provenance: { layer: own-research, source: "kitab-al-umm-wafa-v8 pp. 513-784", generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D)" }
