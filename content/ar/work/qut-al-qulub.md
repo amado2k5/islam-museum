@@ -3,7 +3,7 @@ id: work/qut-al-qulub
 lang: ar
 source_lang: ar
 translators: []
-provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/majmu-fatawa-qasim-v10 pp. 551–552" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker C); enriched by Claude Code (OCR-harvest worker G)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/majmu-fatawa-qasim-v10 pp. 551–552; source/talbis-iblis-muniriyya-1928 p. 168" }
 ---
 ## موجز
 «قوت القلوب» كتاب لـ[[person/abu-talib-al-makki|أبي طالب المكي]] في أعمال القلوب، مثل الصبر والشكر والحب والتوكل والتوحيد. وتعرّفه هذه الصفحة الآن من جواب لـ[[person/ibn-taymiyya|ابن تيمية]] في المجلد العاشر من [[work/majmu-al-fatawa|مجموع الفتاوى]] سئل فيه عن «إحياء علوم الدين» و«قوت القلوب». {cite:majmu-fatawa-qasim-v10 p. 551}
@@ -16,3 +16,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-
 
 ## ما لم يذكر هنا
 لم يُقرأ الكتاب نفسه بعد في طبعة من طبعاته، فلا تذكر الصفحة أبوابه ولا تاريخ تأليفه ولا تاريخ وفاة مؤلفه؛ ولا آراء غير ابن تيمية فيه.
+
+## نقد ابن الجوزي لقوت القلوب
+يعدّ [[person/ibn-al-jawzi|ابن الجوزي]] في «[[work/talbis-iblis|تلبيس إبليس]]» «قوت القلوب» من الكتب التي صنفت للصوفية، ويقول إن [[person/abu-talib-al-makki|أبا طالب المكي]] ذكر فيه الأحاديث الباطلة وما لا يستند إلى أصل من صلوات الأيام والليالي وغير ذلك من الموضوع، وذكر فيه «الاعتقاد الفاسد»، وردد فيه قوله «قال بعض المكاشفين»، وذكر عن بعض الصوفية أن الله يتجلى في الدنيا لأوليائه. {cite:talbis-iblis-muniriyya-1928 p. 168} وينقل عن الخطيب البغدادي قوله إن أبا طالب صنف كتاباً سماه «قوت القلوب» على لسان الصوفية وذكر فيه «أشياء منكرة مستبشعة في الصفات». {cite:talbis-iblis-muniriyya-1928 p. 168} وهذا حكم ابن الجوزي والخطيب.

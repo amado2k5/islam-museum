@@ -3,6 +3,13 @@ id: person/ibn-al-jawzi
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/talbis-iblis-muniriyya-1928 pp. 5-9, 176, 407"
 ---
 
 ## Overview
@@ -33,3 +40,6 @@ He mentions that Ibn al-Jawzi repeated his reply to Abu Abd al-Rahman al-Sulami 
 
 ## In the editor's introduction to Zad al-Masir
 Abd al-Razzaq al-Mahdi gives his name as Jamal al-Din Abu al-Faraj Abd al-Rahman ibn Ali ibn Muhammad ibn Ali al-Qurashi al-Taymi al-Bakri, the Hanbali preacher, tracing his descent to Abu Bakr al-Siddiq; he was known as Ibn al-Jawzi after the Jawz landing in Baghdad, or, it is said, after a walnut tree (jawza) in his ancestor's house at Wasit. {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.7} He says he was born in Baghdad in 508 AH, or 510, or 514; memorised the Qur'an and read it in the variant readings; and took up preaching, until kings and viziers attended his sessions, one of which was reckoned at a hundred thousand people. {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.7} He quotes al-Muwaffaq al-Maqdisi that he was the imam of his age in preaching and master of many disciplines, and [[person/ibn-rajab|Ibn Rajab]] that a number of Hanbali shaykhs objected to his leaning to figurative reinterpretation in some of his words, that his statements on this are inconsistent, and that he revered [[person/ibn-aqil|Abu al-Wafa' ibn Aqil]] and followed most of what he said. {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.8} His works are said to have reached two hundred and fifty, among them in tafsir [[work/zad-al-masir|Zad al-Masir]], Nuzhat al-A'yun al-Nawazir and Umdat al-Rasikh on abrogation; in hadith al-Mawdu'at and al-Ilal al-Mutanahiya; and on creed Daf' Shubah al-Tashbih. He died on the eve of Friday, 12 Ramadan 597 AH, aged eighty-seven, and was buried at Bab Harb near Imam Ahmad. {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.8}
+
+## In Talbis Iblis
+On the title page of the second Muniriyya printing of his [[work/talbis-iblis|Talbis Iblis]] he is styled "the hadith master and imam Jamal al-Din Abu al-Faraj 'Abd al-Rahman ibn al-Jawzi al-Baghdadi", with his death dated 597 AH. {cite:talbis-iblis-muniriyya-1928 p. 5} In the book's preface he says he composed it to warn of the devil's trials and uncover what is hidden, and divided it into thirteen chapters that begin with holding to the Sunna and the community and end with long hope. {cite:talbis-iblis-muniriyya-1928 p. 8} {cite:talbis-iblis-muniriyya-1928 p. 9} In it he mentions that he compiled a separate book on the reports about [[person/al-hallaj|al-Hallaj]]. {cite:talbis-iblis-muniriyya-1928 p. 176} In his closing note the corrector Muhammad Munir al-Dimashqi calls the author "the scholar of the horizons and preacher of Iraq". {cite:talbis-iblis-muniriyya-1928 p. 407}

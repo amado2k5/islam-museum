@@ -3,7 +3,7 @@ id: work/qut-al-qulub
 lang: en
 source_lang: ar
 translators: ["Claude Code (OCR-harvest worker C), claude-opus-5-5, translation"]
-provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/majmu-fatawa-qasim-v10 pp. 551–552" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker C); enriched by Claude Code (OCR-harvest worker G)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/majmu-fatawa-qasim-v10 pp. 551–552; source/talbis-iblis-muniriyya-1928 p. 168" }
 ---
 ## Summary
 *Qut al-Qulub* ("The Nourishment of Hearts") is a book by [[person/abu-talib-al-makki|Abu Talib al-Makki]] on the works of the heart, such as patience, gratitude, love, reliance and tawhid. This page currently presents it through an answer by [[person/ibn-taymiyya|Ibn Taymiyya]] in volume 10 of [[work/majmu-al-fatawa|Majmu' al-Fatawa]], where he was asked about *Ihya' 'Ulum al-Din* and *Qut al-Qulub*. {cite:majmu-fatawa-qasim-v10 p. 551}
@@ -16,3 +16,6 @@ Ibn Taymiyya holds that Abu Talib knew hadith, reports and the words of the mast
 
 ## Not yet covered
 The book itself has not yet been read in any edition, so this page gives neither its chapters, its date nor its author's death date, nor views on it other than Ibn Taymiyya's.
+
+## Ibn al-Jawzi's critique of Qut al-Qulub
+In [[work/talbis-iblis|Talbis Iblis]], [[person/ibn-al-jawzi|Ibn al-Jawzi]] counts Qut al-Qulub among the books composed for the Sufis, and says that [[person/abu-talib-al-makki|Abu Talib al-Makki]] put in it false hadith and groundless fabricated prayers for particular days and nights, "corrupt belief", the repeated formula "one of those granted unveiling said", and the report from some Sufis that God manifests himself in this world to his friends. {cite:talbis-iblis-muniriyya-1928 p. 168} He quotes al-Khatib al-Baghdadi that Abu Talib wrote a book called Qut al-Qulub in the idiom of the Sufis and put in it "objectionable and repugnant things concerning the divine attributes". {cite:talbis-iblis-muniriyya-1928 p. 168} These are the judgements of Ibn al-Jawzi and al-Khatib.
