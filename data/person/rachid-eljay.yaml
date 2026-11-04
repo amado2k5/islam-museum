@@ -1,0 +1,33 @@
+id: person/rachid-eljay
+class: person
+label: { ar: "رشيد الجاي", en: "Rachid Eljay", ur: "رشید الجے" }
+names:
+  - { value: "رشيد أبو حذيفة", kind: kunya }
+  - { value: "Rachid Abou Houdeyfa", kind: kunya }
+gender: male
+summary:
+  ar: "إمام ومدوّن مرئي فرنسي من أصل مغربي، وُلد في بريست سنة 1980، تولى إمامة مسجد السنة في بريست سنة 2004، واشتهر بمقاطعه الدعوية على يوتيوب، ثم غيّر خطابه منذ أواخر 2015، ونجا من محاولة اغتيال سنة 2019."
+  en: "French imam and video creator of Moroccan origin, born in Brest in 1980. He became imam of the Sunna mosque in Brest in 2004 and grew famous through his preaching videos on YouTube; from late 2015 he changed his discourse, and in 2019 he survived an assassination attempt."
+  ur: "مراکشی نژاد فرانسیسی امام اور ویڈیو ساز، جو 1980 میں بریسٹ میں پیدا ہوئے۔ وہ 2004 میں بریسٹ کی مسجد السنہ کے امام بنے اور یوٹیوب پر اپنی دعوتی ویڈیوز سے مشہور ہوئے؛ 2015 کے اواخر سے انہوں نے اپنا اسلوب بدلا، اور 2019 میں قاتلانہ حملے سے بچ گئے۔"
+roles: [imam, preacher]
+wings: [people, living]
+born:
+  edtf: "1980-11-03"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Date and place (Brest) from the French Wikipedia article. No place record for Brest exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-rachid-eljay-fr]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The French article's lead says that after an initially Salafi period he came to advocate a Maliki discourse, and its body quotes the researcher Romain Caillet describing a gradual move to the Moroccan traditional line. Only one text names the Maliki school for him, and the doubt rule keeps the value unknown; his earlier preaching is described in the same article as quietist Salafi."
+    sources: [source/wikipedia-rachid-eljay-fr]
+sources: [source/wikipedia-rachid-eljay-fr]
+provenance:
+  layer: own-research
+  source: "French Wikipedia 'Rachid Eljay' (copy read on 30 August 2026), checked 4 November 2026. Platform reach (about 2.82 million YouTube subscribers, SpeakRJ, 29 October 2026) is recorded in the prose as a dated platform figure."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-189b
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

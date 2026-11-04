@@ -1,0 +1,32 @@
+id: person/bekir-develi
+class: person
+label: { ar: "بكر ديفيلي", en: "Bekir Develi", ur: "بکر دیویلی" }
+names:
+  - { value: "Bekir Develi", kind: full }
+gender: male
+summary:
+  ar: "مقدم تلفزيوني وكاتب تركي ألماني، وُلد في بيلفلد سنة 1975، قدّم على قناة TRT برامج رمضانية وسياحية لسنوات، ثم صار من أشهر مقدمي برامج الحوار الديني والاجتماعي على يوتيوب ببرنامجه «بينير غيميسي»."
+  en: "Turkish-German television presenter and writer, born in Bielefeld in 1975. He presented Ramadan and travel programmes on TRT for years, and then became one of the best-known hosts of religious and social talk programmes on YouTube with his show Peynir Gemisi."
+  ur: "ترک جرمن ٹیلی ویژن میزبان اور مصنف، جو 1975 میں بیله‌فیلڈ میں پیدا ہوئے۔ انہوں نے برسوں TRT پر رمضان اور سفری پروگرام پیش کیے، پھر اپنے پروگرام «پینیر گیمیسی» کے ساتھ یوٹیوب پر مذہبی و سماجی گفتگو کے معروف میزبان بن گئے۔"
+roles: [writer]
+wings: [people, living]
+born:
+  edtf: "1975-06-04"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Date and place (Bielefeld, Germany) from the Turkish Wikipedia article. No place record for Bielefeld exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-bekir-develi-tr]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Turkish article's infobox gives his religion as Islam (Sunni), which is structured data and never settles a value. No text read names a school or order for him, and he is a presenter rather than a scholar; nothing further is claimed."
+    sources: [source/wikipedia-bekir-develi-tr]
+sources: [source/wikipedia-bekir-develi-tr]
+provenance:
+  layer: own-research
+  source: "Turkish Wikipedia 'Bekir Develi' (copy read on 30 August 2026), checked 4 November 2026. Platform reach (about 1.51 million YouTube subscribers, youtubers.me Turkey list, November 2026) is recorded in the prose as a dated platform figure."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-189b
+status: { review: published, generated_by: "Muse (Muse Wonder)" }
