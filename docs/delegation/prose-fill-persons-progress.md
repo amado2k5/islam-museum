@@ -612,3 +612,9 @@ ibn-aja-aleppo	REJECT: ar: thin (147ch); en: thin (142ch); ur: thin (142ch)
 jahan-shah-qaraqoyunlu	REJECT: ar: thin (144ch); ur: thin (141ch)
 
 **Lane total: 1629.** sweep continues through remaining trilingual drafts.
+
+### Batch 90 (4 Nov 2026, 20 records) — lib-shadharat-batch-143 draft promotions (sweep worker)
+
+Promoted: abd-al-karim-rumi, abd-al-wahhab-ibn-arabshah, abu-al-mawahib-al-tunisi, ahmad-ibn-ubba, al-iqsarai-al-muwahhibi, al-nasimi-al-manzilawi, al-zahir-qansuh, ali-al-arabi-rumi, hasan-al-samuni, ibn-al-khatib-rumi, ibn-hajji-al-hisbani, ismail-ibn-abdallah-al-salihi, jan-balat, khalil-al-faradisi, manla-zada-samarqandi, muhyi-al-din-al-tukshari, muslih-al-din-al-qastallani, qasim-baghdadi-kirmani, shams-al-din-ibn-jamaa, tuman-bay-i.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1649.** sweep continues through remaining trilingual drafts.
