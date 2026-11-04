@@ -1,0 +1,35 @@
+id: work/mizan-al-itidal
+class: work
+kind: book
+label: { ar: "ميزان الاعتدال في نقد الرجال", en: "Mizan al-I'tidal fi Naqd al-Rijal" }
+summary:
+  ar: "معجم الذهبي (ت 748هـ) لنقلة الحديث الذين تُكلم فيهم بجرح أو تليين، مرتب على حروف المعجم. ذكر في مقدمته أنه ألفه بعد كتابه «المغني» وزاد فيه أسماء كثيرة أكثرها من «الكامل» لابن عدي، وأنه أسقط منه الصحابة وأئمة المذاهب المتبوعين، ورمز لمن أخرج له أصحاب الكتب الستة، وجمع فيه طبقات من الكذابين والمتروكين والضعفاء والمجهولين حتى الثقات الذين فيهم بدعة أو تُكلم فيهم بغير حجة، ويختم تراجم كثيرة بحكمه هو بعد أقوال النقاد."
+  en: "Al-Dhahabi's (d. 748 AH) dictionary of hadith transmitters who were criticised or softly faulted, in alphabetical order. In his introduction he says he wrote it after his al-Mughni and added many names, most of them from Ibn Adi's al-Kamil; that he left out the Companions and the imams of the followed schools; that he marked those whom the authors of the Six Books cite; and that it gathers grades of men from deliberate liars, abandoned and weak transmitters and the unknown up to trustworthy men with an innovation or criticised without warrant. Many entries end with his own verdict after the critics' sayings."
+genre: [rijal, hadith]
+disciplines: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/mizan-itidal-azimabadi-v1] }
+authors: [person/al-dhahabi]
+language: language/arabic
+structure: "خطبة ومقدمة في المنهج (الطبعة الحجرية، المجلد الأول، ص 5–8 من المسح) ← التراجم على حروف المعجم حتى في أسماء الآباء، بأرقام متصلة (5337–8044 في القسم الثالث من طبعة البجاوي) ← فصول الكنى والمبهمات وآخرها المبهمات من النساء (الطبعة الحجرية، المجلد الثاني، ص 688 من المسح)"
+editions: [source/mizan-itidal-bijawi-v3, source/mizan-itidal-azimabadi-v1, source/mizan-itidal-azimabadi-v2]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences, libraries-paper-and-the-book]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: mentions, target: person/ibn-ishaq, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: mentions, target: person/al-waqidi, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: mentions, target: person/al-tabari, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: mentions, target: person/muhammad-ibn-jarir-ibn-rustam, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: mentions, target: person/ibn-hibban, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: mentions, target: person/ibn-arabi-muhyi-al-din, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: mentions, target: person/ikrima-mawla-ibn-abbas, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: mentions, target: concept/jarh-wa-tadil, sources: [source/mizan-itidal-azimabadi-v1] }
+sources: [source/mizan-itidal-bijawi-v3, source/mizan-itidal-azimabadi-v1, source/mizan-itidal-azimabadi-v2]
+provenance:
+  layer: own-research
+  source: "mizan-itidal-azimabadi-v1 PDF pp. 5–8 (author's introduction, read in two scans); mizan-itidal-azimabadi-v2 PDF pp. 688–689; mizan-itidal-bijawi-v3 printed pp. 3, 93–97, 468–475, 498–499, 506–508, 659–666, 681–683"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

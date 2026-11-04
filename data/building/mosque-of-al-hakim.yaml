@@ -1,0 +1,25 @@
+id: building/mosque-of-al-hakim
+class: building
+kind: mosque
+label: { ar: "جامع الحاكم بأمر الله", en: "Mosque of al-Hakim bi-Amr Allah, Cairo", ur: "جامع الحاکم بامر اللہ، قاہرہ" }
+summary:
+  ar: "جامع فاطمي كبير عند باب النصر وباب الفتوح بالقاهرة، بدأه العزيز سنة 990م وأتمه ابنه الحاكم بين 1003 و1013م، وضُمّ إلى أسوار بدر الجمالي {cite:yeomans-islamic-cairo-2006 p.59}."
+  en: "Great Fatimid mosque by Bab al-Nasr and Bab al-Futuh in Cairo, begun by al-Aziz in 990 and completed by al-Hakim in 1003-1013, later built into Badr al-Jamali's walls {cite:yeomans-islamic-cairo-2006 p.59}."
+wings: [objects, place]
+themes: [architecture, mosques]
+regions: [egypt-nile]
+periods: [period/buyid-seljuk-fatimid-era]
+built: { edtf: "990/1013", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 59: begun by al-Aziz in 990, completed by al-Hakim between 1003 and 1013; minaret tops by Baybars al-Jashankir after 1303 (pp. 60-61); rebuilt early 1980s (p. 62)." }
+patron: person/al-hakim-bi-amr-allah
+location: place/cairo
+status_now: rebuilt
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 59-62"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

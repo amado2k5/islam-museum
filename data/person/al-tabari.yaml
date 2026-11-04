@@ -25,14 +25,15 @@ relations:
 - { type: participated_in, target: event/tabari-tarikh-dictation-302, role: "المملي لتاريخه", sources: [source/fihrist-ibn-al-nadim] }
 - { type: participated_in, target: event/tabari-hanbali-summons-309, role: "المحضور للمناظرة", sources: [source/muntazam-ibn-al-jawzi] }
 external_ids: { wikidata: "Q192124" }
-sources: [source/kamil-ibn-al-athir, source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981, source/muntazam-ibn-al-jawzi, source/assabile-tareq-al-suwaidan, source/encyclopaedia-of-islam-2]
+sources: [source/kamil-ibn-al-athir, source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981, source/muntazam-ibn-al-jawzi, source/assabile-tareq-al-suwaidan, source/encyclopaedia-of-islam-2, source/mizan-itidal-bijawi-v3]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
 provenance:
   layer: own-research
   source: "fihrist; kamil; muruj; tabaqat-fuqaha; muntazam; assabile al-mubdioune ep13-14 lecture (2026-10 transcription); Encyclopaedia of Islam 2nd ed. vol. 10 art. 'al-Tabari' (Bosworth), PDF pp. 21-23 (books/encyclopaedia-of-islam-2) for birth, journeys and death dates"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "unknown"
-  run: "education-E3-facts-batch14"
+  generated_by: "Devin (SWE-2 Medium); Claude Code (OCR-harvest worker F) for the Mizan section"
+  model: "unknown; claude-opus-5-5"
+  run: "education-E3-facts-batch14, ocr-harvest-2026-11-04"
+  mizan_source: "ميزان الاعتدال، تحقيق البجاوي، القسم الثالث، ص 498–499 (الترجمتان 7306–7307)"
 occupations:
   - job: job/faqih
     kind: secondary

@@ -25,3 +25,8 @@ Enriched (new Yeomans sections ar+en+ur): building/masjid-ibn-tulun (prose rewri
 
 ## Next
 Chapter 2 (Fatimid architecture, pp. 42-69): al-Azhar, al-Hakim mosque, Bab al-Futuh/al-Nasr/Zuwayla, al-Aqmar, Juyushi, al-Salih Tala'i, Sayyida Ruqayya; then chapters 4, 5, 7 (Ayyubid, Bahri and Burji Mamluk buildings, many thin or empty in data/building).
+
+## Batch 2: chapter 2, Fatimid architecture (pp. 42-69, read in full)
+Created: building/mosque-of-al-hakim, building/bab-al-nasr, building/bab-al-futuh, building/bab-zuwayla, building/mosque-of-al-salih-talai, concept/keel-arch; prose created for building/mausoleum-sayyida-ruqayya-cairo (record existed without prose).
+Enriched (Yeomans sections ar+en+ur): building/al-aqmar-mosque, building/al-azhar, building/masjid-al-husayn-cairo, building/dar-al-hikma-cairo, person/badr-al-jamali, person/talai-ibn-ruzzik, person/al-hakim-bi-amr-allah (labelled perspectives block: Sunni historians as summarised by Yeomans, then Yeomans's academic view; `sensitivity: contested`), concept/manara.
+Notes: Yeomans's account of Isma'ili doctrine (pp. 43-44) and of al-Nu'man's teaching at al-Azhar (pp. 51-53) not yet used; mashhads of Atika/al-Ja'fari, Umm Kulthum and Yahya al-Shabih (pp. 65-66) and the al-Azhar madrasas of Taybars, Aqbugha and Gawhar al-Qanaqba'i (p. 56) are leads for a later batch.

@@ -28,8 +28,9 @@ relations:
   - { type: participated_in, target: event/al-dhahabi-umm-al-salih-710, role: "مدرّس الحديث", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/al-dhahabi-tarikh-islam-730, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
   - { type: participated_in, target: event/al-dhahabi-blindness-743, role: "صاحب الحال", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/mizan-al-itidal, sources: [source/mizan-itidal-azimabadi-v1] }
   - { type: participated_in, target: event/death-al-dhahabi-748, role: "المتوفَّى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
-sources: [source/al-aalam, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+sources: [source/al-aalam, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/mizan-itidal-azimabadi-v1, source/mizan-itidal-azimabadi-v2, source/mizan-itidal-bijawi-v3]
 external_ids:
   wikidata: Q293554
 provenance:
@@ -37,7 +38,8 @@ provenance:
   source: "durar-kamina-jil-1993 vol. 3 pp. 336-338 (Apple Vision OCR); Encyclopaedia of Islam 2nd ed. vol. 2 (C-G), printed pp. 214-216, art. al-Dhahabi; Wikidata Q293554"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: explorer-al-dhahabi-1, wikidata-import-0007, lib-durar-kamina-batch-1-2-2026-10-31
+  run: explorer-al-dhahabi-1, wikidata-import-0007, lib-durar-kamina-batch-1-2-2026-10-31, ocr-harvest-2026-11-04
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5: mizan-itidal-azimabadi-v1 PDF pp. 5–7, mizan-itidal-azimabadi-v2 PDF p. 689, mizan-itidal-bijawi-v3 pp. 499, 659, 666"
 status:
   review: published
   completeness: 1
