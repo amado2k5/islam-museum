@@ -1,0 +1,23 @@
+id: work/rijal-hawl-al-rasul
+class: work
+kind: book
+label: { ar: "رجال حول الرسول", en: "Rijal Hawl al-Rasul (Men Around the Messenger)", ur: "رجال حول الرسول" }
+summary:
+  ar: "كتاب لخالد محمد خالد في سير ستين من أصحاب النبي بأسلوب أدبي، ظهر أولاً بالقاهرة سنة 1384هـ/1964م وفي خمسة أجزاء، ثم في طبعة موحدة؛ لا يدخل فيه الخلفاء الأربعة لأن المؤلف أفرد لكل منهم كتاباً، ويعتمد على الإصابة والاستيعاب وأسد الغابة وسيرة ابن هشام وطبقات ابن سعد والبداية والنهاية وحلية الأولياء."
+  en: "Khalid Muhammad Khalid's literary portraits of sixty Companions of the Prophet, first published in Cairo in 1384/1964 and in five parts, then in a unified edition; it leaves out the four caliphs, to whom the author devoted separate books, and draws on al-Isaba, al-Isti'ab, Usd al-Ghaba, Ibn Hisham, Ibn Sa'd, al-Bidaya wa-al-Nihaya and Hilyat al-Awliya'."
+language: language/arabic
+authors: [person/khalid-muhammad-khalid]
+genre: [biography]
+made: { by_muslims: true, basis: documented, sources: [source/rijal-hawl-al-rasul-muqattam-1994] }
+editions: [source/rijal-hawl-al-rasul-muqattam-1994]
+wings: [people, words]
+themes: [ethics-and-character]
+periods: [period/contemporary-era]
+regions: [egypt-nile]
+relations:
+  - { type: relies_on, target: work/al-isaba-fi-tamyiz-al-sahaba, sources: [source/rijal-hawl-al-rasul-muqattam-1994] }
+  - { type: relies_on, target: work/al-istiab, sources: [source/rijal-hawl-al-rasul-muqattam-1994] }
+  - { type: relies_on, target: work/hilyat-al-awliya, sources: [source/rijal-hawl-al-rasul-muqattam-1994] }
+provenance: { layer: own-research, source: "source/rijal-hawl-al-rasul-muqattam-1994 PDF pp. 7–13, 640–644, chapters cited in prose", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/rijal-hawl-al-rasul-muqattam-1994]
+status: { review: published, completeness: 3 }
