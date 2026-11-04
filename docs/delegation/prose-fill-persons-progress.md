@@ -545,3 +545,9 @@ Promoted: abd-al-haqq-ii-marinid, al-aziz-yusuf-ibn-barsbay, al-baalawi-abdullah
 Promoted: abd-al-qadir-ibn-shaykh-aydarus, abu-bakr-ibn-salim-baalwi, abu-numayy-ii-sharif-mecca, al-ghayti-najm-al-din, al-mulla-asad-shirazi, al-samadi-qadiri, al-tahir-ibn-al-ahdal, al-zughbi, ali-al-qitali-zade, ata-allah-muallim-selim, badr-al-din-al-ghazzi, hamid-afandi-mufti, ilyas-al-qarmani, ismail-al-nabulsi, jiwi-zade, malik-al-muhaddithin, molla-bistan, muhammad-al-bakri-siddiqi, muhammad-al-samarqandi-munshi, qutb-shah-golconda, shaykh-ibn-abdallah-aydarus, taqi-al-din-al-futuhi.cite-check 22/22; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1483.** sweep continues through remaining trilingual drafts.
+
+### Batch 80 (4 Nov 2026, 22 records) — lib-shadharat-batch-139 draft promotions (sweep worker)
+
+Promoted: al-bisati, al-faryani, al-kazaruni, al-mutadid-dawud-abbasid, al-qayati, al-sanbati, al-zahir-yahya-rasulid, ibn-al-adami, ibn-al-faris, ibn-al-furat, ibn-al-majdi, ibn-al-munaqib, ibn-ayyash, ibn-bisal, ibn-kamil-al-mansuri, ibn-nasir-al-din, ibn-nasr-allah-hanbali, ibn-ruslan, nur-al-din-muhammad-ibn-jaqmaq, qadi-al-aqalim, shah-rukh, siraj-al-din-makki-haramayn.cite-check 22/22; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1505.** sweep continues through remaining trilingual drafts.
