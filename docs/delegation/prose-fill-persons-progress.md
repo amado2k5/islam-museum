@@ -271,3 +271,9 @@ Promoted: wasil-ibn-ata, ibn-durayd, ibrahim-al-fazari-al-munajjim, nawbakht-al-
 Promoted: nizar-ibn-maadd, qubadh-malik-al-tawaif, quss-ibn-saida, riab-al-shanni, jayrun-ibn-sad, udhayna-ibn-al-sumayda, yarub-ibn-qahtan, kayumarth-ibn-umaym, rabah-ibn-murra, umaym-ibn-lawdh, wabar-ibn-umaym, shuayb, ubayd-ibn-ayyub-al-anbari, zawbaa-al-kahina, khalid-ibn-safwan, luqman-al-akbar, imran-ibn-amir-al-kahin, ibn-qutayba, khalid-ibn-sinan-al-absi, jam-malik-fars, umayya-ibn-abi-al-salt, yastasif, kaykhusraw, siyawush-ibn-kaykaus, humay-bint-bahman. cite-check 25/25; validate 0 errors; 318 tests; graph+coverage regen.
 
 **Lane total: 603.** ~160 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
+
+### Batch 40 (4 Nov 2026, 25 records) — muruj draft promotions 11 (sweep worker)
+
+Promoted: ibn-al-mazyar, yahya-ibn-khalid-al-barmaki, ilyas-ibn-mudar, maadd-ibn-adnan, nastura-al-rahib, surama-ibn-abi-anas, midam-mawla-rasul, qutham-ibn-al-abbas, jafar-ibn-muhammad-al-mawsili, musallama-ibn-aslam, salma-bint-hafsa, shahriyar-sijistan, sulayk-al-manaqib, jundub-ibn-zuhayr-al-azdi, uttab-ibn-ghaylan, kinana-ibn-bishr-al-tujibi, sad-ibn-humran-al-muradi, warash-ghulam-uthman, muhammad-ibn-talha-al-sajjad, muslim-sahib-al-mushaf, hurayth-ibn-jabir-al-jufi, ibn-jawn-al-saksaki, safwan-ibn-hudhayfa, shabib-ibn-rayi-al-tamimi, suwayd-ibn-ghafla.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 628.** ~135 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.

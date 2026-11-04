@@ -11,8 +11,11 @@ periods: [period/umayyad]
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 582"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-30
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch40
 external_ids: { wikidata: "Q12232298" }
 sources: [source/muruj-al-dhahab, source/siyar-alam-nubala-ideas-house, source/futuh-buldan-maarif-1407, source/sallabi-ali-vol1]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
