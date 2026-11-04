@@ -486,3 +486,44 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-04 | person/usama-ibn-zayd | copilot | claimed
 2026-11-04 | person/usama-ibn-zayd | copilot | blocked: full-size screening of the newly introduced dependency event-expedition-of-usama.webp shows robed figures; reserved owner correction requested in #3403. Definition deferred and museum record unchanged; no events dropped to conceal the defect.
 2026-11-04 | person/abu-said-al-khudri | copilot | claimed
+
+2026-11-04 | person/abd-al-rahman-ibn-awf | copilot | done - 6 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/abd-allah-ibn-rawaha | copilot | done - 4 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/abdullah-ibn-ubayy | copilot | done - 10 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/abu-al-hasan-al-marini | copilot | done - 5 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/abu-ayyub-al-ansari | copilot | done - 5 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/abu-dharr-al-ghifari | copilot | done - 7 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/abu-kalijar | copilot | done - 8 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/abu-said-al-khudri | copilot | done - 4 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/abu-talib | copilot | done - 9 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/adud-al-dawla | copilot | done - 7 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-aqra-ibn-habis | copilot | done - 7 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-hakim-bi-amr-allah | copilot | done - 8 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-kunduri-amid-al-mulk | copilot | done - 7 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-malik-al-aziz-uthman | copilot | done - 7 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-malik-al-kamil | copilot | done - 8 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-malik-al-muazzam | copilot | done - 6 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-malik-al-zahir-ghazi | copilot | done - 7 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-muqtadir-billah | copilot | done - 8 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-mutadid | copilot | done - 14 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-mutawakkil | copilot | done - 7 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-muthanna-ibn-haritha | copilot | done - 7 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-walid-ibn-uqba | copilot | done - 4 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/al-wathiq | copilot | done - 5 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/ammar-ibn-yasir | copilot | done - 4 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/asad-ibn-zurara | copilot | done - 5 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/bilal-ibn-rabah | copilot | done - 9 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/hakim-ibn-hizam | copilot | done - 4 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/iyyad-ibn-ghanm | copilot | done - 7 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/jafar-ibn-abi-talib | copilot | done - 7 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/muadh-ibn-jabal | copilot | done - 9 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/muawiya-ibn-khudayj | copilot | done - 5 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/muhammad-ibn-maslama | copilot | done - 5 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/musab-ibn-umayr | copilot | done - 8 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/musaylima | copilot | done - 6 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/muzaffar-al-din-kokburi | copilot | done - 6 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/qays-ibn-asim | copilot | done - 5 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/sad-ibn-muadh | copilot | done - 6 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/talha-ibn-ubaydullah | copilot | done - 6 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/ubada-ibn-al-samit | copilot | done - 10 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+2026-11-04 | person/uyayna-ibn-hisn | copilot | done - 8 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
