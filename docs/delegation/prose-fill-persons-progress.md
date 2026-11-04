@@ -253,3 +253,9 @@ Promoted: al-kindi, al-masudi, al-mawardi-al-laib, al-mubarrad, al-mughira-ibn-n
 Promoted: ali-ibn-jafar-al-madini, ali-ibn-muhammad-al-himmani, ali-ibn-muhammad-al-nawfali, ali-ibn-muhammad-ibn-bassam, ali-ibn-ribab, ali-ibn-yahya-al-munajjim, ali-zayn-al-abidin, alqama-ibn-safwan, amir-ibn-ismail-al-mudhhiji, amr-ibn-anbasa, amr-ibn-bilal-al-asadi, amr-ibn-masada, amr-ibn-ubayd, amr-ibn-uthman-ibn-affan, antara-ibn-shaddad, asad-ibn-yafar, asfar-ibn-shiruya, ata-ibn-yasar, atika-bint-zayd, ayyub-ibn-razah, azhar-al-samman, bahman-ibn-isfandiyar, bajir-al-tai, balakh-ibn-uqba, banan-ibn-al-harith. cite-check 25/25; validate 0 errors; tests pass; coverage regenerated.
 
 **Lane total: 528.** ~235 lib-muruj draft promotions remain; then tabari ~9, ansab 17, tabaqat 18, uncited ~511.
+
+### Batch 37 (3 Nov 2026, 25 records) — Muruj draft-status promotions 8
+
+Promoted: barkhya-ibn-akhbya, batis-al-batriq, bint-samra-ibn-jundub, bishr-al-hafi, bishr-ibn-ghiyath-al-marisi, budasaf, bugha-al-saghir, buqrat, buran-bint-kisra-abrawiz, charlemagne-malik-al-ifranj, clovis-malik-al-ifranj, dahman-al-mughanni, dhu-al-janahayn, dhu-al-kala, dhu-al-thudiyya, dilf-ibn-abi-dulaf, dirar-ibn-damra, falgh-ibn-yaghur, faris-ibn-bugha, fithaghuras, fukhta-bint-qarita, hababa, hammad-al-rawiya, hammad-al-turki, hammad-ibn-salama. cite-check 25/25; validate 0 errors; tests pass; coverage regenerated.
+
+**Lane total: 553.** ~210 lib-muruj draft promotions remain; then tabari ~9, ansab 17, tabaqat 18, uncited ~511.
