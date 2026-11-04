@@ -16,4 +16,7 @@ died: { hijri: "0264", edtf: "0878~", calendar: julian, precision: year, status:
 relations:
   - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي، وقال فيه: ناصر مذهبي (PDF ص51)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
+

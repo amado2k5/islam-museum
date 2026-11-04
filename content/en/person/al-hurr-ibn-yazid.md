@@ -2,12 +2,7 @@
 id: person/al-hurr-ibn-yazid
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 26"]
 ---
 ## Overview
-Al-Hurr ibn Yazid al-Tamimi, mentioned in the account of Karbala in 61 AH. {cite:tabari-tarikh-abu-al-fadl j.5 p.402}
-
-## The report
-Al-Tabari says that al-Husayn led al-Hurr and his companions in prayer, and then al-Hurr went back to his place. {cite:tabari-tarikh-abu-al-fadl j.5 p.402}
-
-The data do not give the rest of his story, which needs an additional source.
+al-Hurr ibn Yazid, who figures in the Karbala narrative of 61 AH: al-Husayn led him and his men in prayer, after which al-Hurr withdrew to his place. {cite:tabari-tarikh-abu-al-fadl}
