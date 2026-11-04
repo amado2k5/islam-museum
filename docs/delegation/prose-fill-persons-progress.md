@@ -533,3 +533,9 @@ ajiba-bint-al-baqdari	REJECT: ar: thin (140ch)
 Promoted: abu-bakr-ibn-qutlubak, al-buqai-ibrahim, al-silawi-ahmad, al-tawashi-al-ashashi, al-zarkashi-al-baghdadi, al-zayn-shaban, badr-al-din-ibn-khasb-al-subki, fatima-umm-al-hasan, haydara-al-shirazi, husam-al-din-al-abiwardi, ibn-al-qattan-al-misri, ibn-al-shihna, ibn-al-ulayf, ibn-nun-al-khwarazmi, ibrahim-ibn-mubarakshah, muhammad-al-shubrawi, muhammad-mirza-umar-shaykh, nasim-al-din-al-tabrizi, sarim-al-din-ibn-al-muayyad, shihab-ahmad-ibn-hilal, shihab-ahmad-ibn-mughli, tughri-birdi-al-zahiri, zayn-al-din-al-marighi.cite-check 23/23; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1439.** sweep continues through remaining trilingual drafts.
+
+### Batch 78 (4 Nov 2026, 22 records) — lib-shadharat-batch-140 draft promotions (sweep worker)
+
+Promoted: abd-al-haqq-ii-marinid, al-aziz-yusuf-ibn-barsbay, al-baalawi-abdullah, al-nuwaji, al-qalqashandi-ali, al-qaylawi, al-sayyid-al-nassaba, al-tabbakh, hasan-ibn-uman-kayfa, ibn-al-taj-baghdadi, ibn-aqbaras-ali, ibn-jamaa-abdullah, ibn-qadiri-salihi, ibn-qindas, ibn-sudun, ibrahim-al-zayyat, ilm-al-din-bulqini, jalal-al-din-hilli, kamal-al-din-al-jini, khalf-ayyubi-kayfa, muayyad-ahmad-ibn-inal, yahya-shirwani-khalwati.cite-check 22/22; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1461.** sweep continues through remaining trilingual drafts.
