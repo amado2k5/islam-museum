@@ -1,0 +1,21 @@
+id: place/eastern-cemetery-cairo
+class: place
+kind: site
+label: { ar: "المقبرة الشرقية (صحراء المماليك) بالقاهرة", en: "Eastern Cemetery (Northern Cemetery) of Cairo", ur: "قاہرہ کا مشرقی قبرستان" }
+summary:
+  ar: "جبانة القاهرة الشرقية التي عمّرها السلاطين والأمراء الجراكسة بالخوانق والقباب منذ خانقاه فرج بن برقوق (1400-1411م)، ويرى يومانز أنها لم تكن «مدينة للموتى» بل حياً عامراً بالطلبة والصوفية والزوار {cite:yeomans-islamic-cairo-2006 p.202} {cite:yeomans-islamic-cairo-2006 p.213}."
+  en: "Cairo's eastern necropolis, built up by Burji sultans and amirs with khanqahs and mausolea from Faraj ibn Barquq's khanqah (1400-1411) onwards; Yeomans holds it was never a 'city of the dead' but a living quarter of students, Sufis and visitors {cite:yeomans-islamic-cairo-2006 p.202} {cite:yeomans-islamic-cairo-2006 p.213}."
+wings: [place, living]
+themes: [cities, health-body-death, spirituality-and-sufism]
+regions: [egypt-nile]
+part_of: place/cairo
+relations:
+  - { type: part_of, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 202-205, 213-218"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

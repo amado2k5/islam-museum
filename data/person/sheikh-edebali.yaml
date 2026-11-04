@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/sicill-i-osmani]
 external_ids:
   wikidata: Q3481733
 provenance:
@@ -20,6 +20,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0017
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: sicill-i-osmani vol. 2 PDF p. 106"
+died: { hijri: "0726", edtf: "1326", calendar: julian, precision: year, status: tradition, derived: false, note: "سجل عثماني: توفي سنة 726 (1326) قبل السلطان بأربعة أشهر {cite:sicill-i-osmani vol. 2 PDF p. 106}", sources: [source/sicill-i-osmani] }
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2

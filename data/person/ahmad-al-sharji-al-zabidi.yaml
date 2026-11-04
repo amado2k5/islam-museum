@@ -1,0 +1,24 @@
+id: person/ahmad-al-sharji-al-zabidi
+class: person
+label: { ar: "أحمد الشرجي الزبيدي", en: "Ahmad al-Sharji al-Zabidi", ur: "احمد شرجی زبیدی" }
+names:
+  - { kind: full, lang: ar, value: "شهاب الدين أبو العباس أحمد الشرجي الزبيدي" }
+gender: male
+roles: [muhaddith, scholar]
+summary:
+  ar: "شهاب الدين أبو العباس أحمد الشرجي الزبيدي، صاحب «التجريد الصريح لأحاديث الجامع الصحيح»، كما يسميه صفحة عنوان «نيل الأوطار» التي على هامشها شرحه «عون الباري»؛ ولم ترد تواريخه في الصفحات المقروءة {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}."
+  en: "Shihab al-Din Abu al-'Abbas Ahmad al-Sharji al-Zabidi, author of al-Tajrid al-Sarih li-Ahadith al-Jami' al-Sahih, as he is named on the title page of the Nayl al-Awtar printing that carries its commentary 'Awn al-Bari in the margin; his dates do not appear in the pages read {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}."
+  ur: "شہاب الدین ابو العباس احمد شرجی زبیدی، «التجرید الصریح لاحادیث الجامع الصحیح» کے مصنف، جیسا کہ «نیل الاوطار» کی اس طباعت کے سرورق پر ان کا نام ہے جس کے حاشیے پر اس کی شرح «عون الباری» ہے؛ ان کی تاریخیں پڑھے گئے صفحات میں نہیں {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}۔"
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+relations:
+  - { type: authored, target: work/al-tajrid-al-sarih, sources: [source/nayl-awtar-awn-bari-hamish] }
+provenance:
+  layer: own-research
+  source: "Nayl al-Awtar, old printing with 'Awn al-Bari in the margin: vol. 5 PDF p. 2"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/nayl-awtar-awn-bari-hamish]
+status: { review: published, completeness: 1, generated_by: "Claude Code (OCR-harvest worker A)" }

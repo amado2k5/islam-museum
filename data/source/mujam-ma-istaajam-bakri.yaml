@@ -4,13 +4,21 @@ kind: primary
 type: book
 label: { ar: "معجم ما استعجم من أسماء البلاد والمواضع", en: "Mu'jam ma sta'jam (al-Bakri), ed. Wustenfeld 1876" }
 summary:
-  ar: "معجم جغرافي لأسماء البلاد والمواضع للبكري (ت 487هـ)، طبعة فستنفلد 1876م، بالعربية. الأرقام المذكورة أرقام صفحات الماسح الضوئي للنسخة."
-  en: "A geographical dictionary of the names of lands and places by al-Bakri (d. 487 AH), Wustenfeld edition of 1876, in Arabic. The page numbers cited are the scan's page numbers."
+  ar: "معجم جغرافي لأسماء البلاد والمواضع للبكري (ت 487هـ)، طبعة فرديناند فستنفلد عن مخطوطات ليدن وكمبردج ولندن وميلانو، الجزء الأول، غوتنغن وباريس 1876م، بمقدمة ألمانية. الأرقام المذكورة أرقام صفحات المسح."
+  en: "A geographical dictionary of the names of lands and places by al-Bakri (d. 487 AH), edited by Ferdinand Wüstenfeld from the Leiden, Cambridge, London and Milan manuscripts, volume 1, Göttingen and Paris 1876, with a German preface. The page numbers cited are scan pages."
 title: "معجم ما استعجم من أسماء البلاد والمواضع"
 author: [{ family: "البكري", given: "أبو عبيد عبد الله بن عبد العزيز" }]
+edition: "hrsg. von Ferdinand Wüstenfeld, Erster Band"
 issued: { "date-parts": [[1876]] }
-publisher: "Wustenfeld, Göttingen"
+publisher: "Göttingen: Deuerlich'sche Buchhandlung; Paris: Maisonneuve & Comp."
 language: ar
-reliability_note: "Classical geographical dictionary, eleventh century. Cite the scan page (PDF page) until printed numbers are verified. OCR by Apple Vision; check doubtful passages against the scan."
+reliability_note: "Volume 1 only (scan of 464 pages, Union Theological Seminary copy). German title page scan p.5; Wüstenfeld's Vorwort (in German) scan pp. 7-12; Arabic title page scan p.13; al-Bakri's introduction from scan p.15; the dictionary from the letter alif at scan p.71, in the Maghribi letter order. Cite the scan page (PDF page) until printed numbers are verified. OCR by Apple Vision; the vocalized Arabic is mostly legible, the German preface has OCR slips; check doubtful passages against the scan."
 open_access: true
-status: { review: draft, completeness: 1, generated_by: "Claude Code; bibliographic details from the scan's title page" }
+sources: [source/mujam-ma-istaajam-bakri]
+status: { review: published, completeness: 2, generated_by: "Claude Code; bibliographic details from the scan's title page; extended by Claude Code (OCR-harvest worker J)" }
+provenance:
+  layer: own-research
+  source: "German and Arabic title pages, Vorwort and introduction of the scan (scan pp. 5-18)"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04

@@ -1,14 +1,18 @@
 id: work/al-kashshaf
 class: work
 kind: book
-label: { ar: "الكشاف عن حقائق التنزيل", en: "al-Kashshaf 'an Haqa'iq al-Tanzil" }
+label: { ar: "الكشاف عن حقائق التنزيل", en: "al-Kashshaf 'an Haqa'iq al-Tanzil", ur: "الکشاف عن حقائق التنزیل" }
 summary:
   ar: "تفسير الزمخشري الذي لم يصنف قبله مثله؛ قال ابن العماد أول ما صنفه استفتح الخطبة بقوله الحمد لله الذي خلق القرآن فيقال إنه قيل له متى تركته على هذه الهيئة هجره الناس ولا يرغب أحد فيه فغيره بقوله الذي جعل القرآن وجعل عندهم بمعنى خلق، ورأيت في كثير من النسخ الحمد لله الذي أنزل القرآن وهذا إصلاح الناس لا إصلاح المصنف {cite:shadharat-dhahab p. 599-600}."
   en: "Al-Zamakhshari's unsurpassed tafsir — opened first with 'Praise God who created the Qur'an', then emended to 'who made the Qur'an' (ja'ala meaning created, for them), while many manuscripts read 'who sent down' — 'the people's correction, not the author's' {cite:shadharat-dhahab p. 599-600}."
 language: language/arabic
 authors: [person/al-zamakhshari]
 genre: [tafsir]
-wings: []
+composed: { edtf: "1134-01", hijri: "0528-04-02", calendar: julian, precision: month, status: historical, derived: true, note: "«ضحوة الاثنين الثاني من ربيع الآخر في عام ثمان وعشرين وخمسمائة» at Mecca (author's colophon as quoted by the editor, PDF p. 12); Gregorian month derived.", sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
+relations:
+  - { type: about, target: question/how-did-sunni-scholars-read-al-kashshaf, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 provenance:
@@ -16,5 +20,7 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-12
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/kashshaf-dar-al-marifa-shiha-2009 PDF pp. 11–17 (composition, purpose, value, Mu'tazili content, glosses)" }
+sources: [source/shadharat-dhahab, source/kashshaf-dar-al-marifa-shiha-2009]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker B)" }

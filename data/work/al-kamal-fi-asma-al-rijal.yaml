@@ -3,10 +3,10 @@ class: work
 kind: book
 label: { ar: "الكمال في أسماء الرجال", en: "al-Kamal fi Asma al-Rijal" }
 summary:
-  ar: "بطاقة أولية لكتاب الكمال في أسماء الرجال لعبد الغني المقدسي، معجم الرجال الحديثي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Abd al-Ghani al-Maqdisi's al-Kamal fi Asma al-Rijal, the hadith-men dictionary; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب عبد الغني المقدسي (ت 600هـ) «الكمال في معرفة الرجال»، يشتمل على رجال الصحيحين وأبي داود والترمذي والنسائي وابن ماجه، في عشر مجلدات كما يذكر ابن رجب."
+  en: "Abd al-Ghani al-Maqdisi's (d. 600 AH) al-Kamal fi Ma'rifat al-Rijal, covering the transmitters of the two Sahihs, Abu Dawud, al-Tirmidhi, al-Nasa'i and Ibn Maja, in ten volumes according to Ibn Rajab."
+wings: [words]
+sources: [source/al-aalam, source/dhayl-tabaqat-hanabila-faqi-v2]
 external_ids: { wikidata: "Q4702662" }
 provenance:
   layer: own-research
@@ -14,4 +14,5 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  harvest_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: summary checked on the page, dhayl-tabaqat-hanabila-faqi-v2 p. 19"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

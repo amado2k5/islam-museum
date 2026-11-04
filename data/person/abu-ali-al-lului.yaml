@@ -1,0 +1,22 @@
+id: person/abu-ali-al-lului
+class: person
+label: { ar: "أبو علي اللؤلؤي", en: "Abu 'Ali al-Lu'lu'i", ur: "ابو علی لؤلؤی" }
+names:
+  - { kind: full, lang: ar, value: "أبو علي محمد بن أحمد بن عمر اللؤلؤي" }
+  - { kind: kunya, lang: ar, value: "أبو علي" }
+gender: male
+roles: [muhaddith]
+traditions: [sunni]
+summary:
+  ar: "أبو علي محمد بن أحمد بن عمر اللؤلؤي، تلميذ أبي داود السجستاني وأحد الراويين اللذين تروى عنهما سنن أبي داود (مع ابن داسة)؛ غير الحسن بن زياد اللؤلؤي صاحب أبي حنيفة {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 10}."
+  en: "Abu 'Ali Muhammad ibn Ahmad ibn 'Umar al-Lu'lu'i, a student of Abu Dawud al-Sijistani and, with Ibn Dasa, one of the two transmitters through whom Abu Dawud's Sunan is handed down; not to be confused with al-Hasan ibn Ziyad al-Lu'lu'i, the companion of Abu Hanifa {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 10}."
+  ur: "ابو علی محمد بن احمد بن عمر لؤلؤی، ابو داؤد سجستانی کے شاگرد اور ابن داسہ کے ساتھ ان دو راویوں میں سے ایک جن کے ذریعے سنن ابی داؤد روایت ہوتی ہے؛ یہ ابو حنیفہ کے شاگرد حسن بن زیاد لؤلؤی سے الگ ہیں {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 10}۔"
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+relations:
+  - { type: student_of, target: person/abu-dawud-al-sijistani, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+provenance: { layer: own-research, source: "Sunan Abi Dawud, Dar Ibn Hazm 1997 vol. 1 p. 10 (printed)", generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1]
+status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker K)" }
