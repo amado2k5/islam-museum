@@ -3,6 +3,7 @@ id: person/abdullah-ibn-abbas
 lang: en
 source_lang: en
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1066–1068, 1203–1204", note: "section added to earlier prose" }
 ---
 
 ## Brief
@@ -15,6 +16,9 @@ Under the caliphs he became a teacher and jurist; under [[person/ali-ibn-abi-tal
 
 ## Legacy
 The whole genre of Qur'an commentary — tafsir — traces its ancestry to his teaching. Wherever a commentator writes "Ibn Abbas said," the chain claims to start here.
+
+## In Ahmad ibn Hanbal's Fada'il al-Sahaba
+[[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] gives Ibn Abbas two chapters. The first has Ibn Mas'ud's "What an excellent interpreter of the Qur'an Ibn Abbas is" (1556, 1558) and "Had Ibn Abbas reached our age, none of us would come to a tenth of him" (1559); Ibn Abbas's own remark, on the verse about the number of the Companions of the Cave ([[passage/quran-18-22|al-Kahf 18:22]]), that he was one of the few who know it (1557); al-Zuhri's report that the Emigrants asked Umar why he did not invite their sons as he invited Ibn Abbas, and he said, "That is the youth among the elders: he has a questioning tongue and an understanding heart" (1555, weak for a break, since al-Zuhri did not meet Umar, according to the editor [[person/wasi-allah-abbas|Wasi Allah Abbas]]); and the prayer "O God, give him understanding of the religion and teach him interpretation" through Muhammad ibn Ali (1560, weak for an unnamed transmitter and *irsal*). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1066} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1067} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1068} The second chapter has Ibn Abbas's report that the Messenger of God hugged him and said, "O God, teach him the Book" (1835, sound); Shu'ayb ibn Yasar's report that al-Abbas sent him to the Prophet, he saw a man with him, and the Prophet called him, sat him in his lap, stroked his head and prayed for him to have knowledge (1836); and Tawus's words: "I never saw anyone who revered God's sanctities more than Ibn Abbas; whenever I remember him I could weep if I wished" (1837, sound up to Tawus). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1203} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1204}
 
 ## For young visitors
 Ibn Abbas was only a boy when the Prophet died, but he spent his life asking the elders everything they remembered — and became the great explainer of the Qur'an.

@@ -3,16 +3,28 @@ class: person
 label:
   ar: "الملا علي القاري"
   en: "Ali al-Qari"
+  ur: "ملا علی قاری"
+names:
+  - { kind: full, lang: ar, value: "نور الدين ملا علي بن سلطان محمد القاري الهروي ثم المكي الحنفي" }
+  - { kind: kunya, lang: ar, value: "أبو الحسن" }
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للملا علي القاري الهراوي، الحنفي المكي صاحب مرقاة المفاتيح وفقه العبادات؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mulla Ali al-Qari of Herat, the Meccan Hanafi of Mirqat al-Mafatih and Fiqh al-Ibadat; his entry is not yet checked on the page."
+  ar: "نور الدين ملا علي بن سلطان محمد القاري الهروي ثم المكي الحنفي (ت شوال 1014هـ)، ولد بهراة وتعلم بها القرآن والقراءات، ثم رحل إلى مكة بين سنتي 952 و973هـ وجاورها أكثر من أربعين عاماً، وأخذ عن ابن حجر الهيتمي وعلي المتقي الهندي وغيرهما، وصنّف فوق مائة كتاب منها «مرقاة المفاتيح» و«شرح الشفا» و«شرح الفقه الأكبر» و«جمع الوسائل في شرح الشمائل»؛ ودفن بالمعلاة."
+  en: "Nur al-Din Mulla Ali ibn Sultan Muhammad al-Qari of Herat, later of Mecca, Hanafi (d. Shawwal 1014 AH). Born in Herat, where he learned the Qur'an and its readings, he moved to Mecca between 952 and 973 AH and lived there more than forty years, studying with Ibn Hajar al-Haytami, Ali al-Muttaqi al-Hindi and others; he wrote over a hundred works, among them Mirqat al-Mafatih, a commentary on al-Shifa, a commentary on al-Fiqh al-Akbar and Jam' al-Wasa'il fi Sharh al-Shama'il, and was buried in al-Ma'la."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-died: { edtf: "1605", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+died: { edtf: "1606", hijri: "1014-10", calendar: gregorian, precision: year, status: tradition, derived: true, note: "توفي بمكة في شوال سنة 1014هـ ودفن بالمعلاة، ونقل اللكنوي أنها 1014 لا 1016 ولا 1044 ولا 1010؛ والتحويل مشتق {cite:jam-wasail-thesis-qwayfili p.36}", sources: [source/jam-wasail-thesis-qwayfili] }
+traditions: [sunni]
+relations:
+  - { type: born_in, target: place/herat, sources: [source/jam-wasail-thesis-qwayfili] }
+  - { type: died_in, target: place/mecca, sources: [source/jam-wasail-thesis-qwayfili] }
+  - { type: student_of, target: person/ibn-hajar-al-haytami, sources: [source/jam-wasail-thesis-qwayfili] }
+  - { type: student_of, target: person/ali-al-muttaqi-hindi, sources: [source/jam-wasail-thesis-qwayfili] }
+  - { type: authored, target: work/jam-wasail-shamail, sources: [source/jam-wasail-thesis-qwayfili] }
+  - { type: authored, target: work/mirqat-al-mafatih, sources: [source/jam-wasail-thesis-qwayfili] }
+sources: [source/al-aalam, source/jam-wasail-thesis-qwayfili]
 external_ids:
   wikidata: Q2836379
 provenance:
@@ -21,6 +33,7 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: biography from the study in source/jam-wasail-thesis-qwayfili PDF pp. 25–36 (OCR digits reversed and read back); full prose trio"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

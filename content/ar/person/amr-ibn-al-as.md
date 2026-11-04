@@ -3,6 +3,7 @@ id: person/amr-ibn-al-as
 lang: ar
 source_lang: en
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1152–1155", note: "section added to earlier prose" }
 ---
 
 ## نبذة
@@ -15,6 +16,9 @@ translators: []
 
 ## الأثر
 صارت مصر إسلامية على يديه — وبقيت كذلك. وسياسيًّا هو رمز التراث للبرغماتي اللامع: الرجل الذي حطّ دائمًا على الجانب الفائز، بما فيه خلافة أخيرًا.
+
+## في «فضائل الصحابة» لأحمد بن حنبل
+في باب فضائله عند [[person/ahmad-ibn-hanbal|أحمد بن حنبل]]: حديث عقبة بن عامر: «أسلم الناس وآمن عمرو بن العاص» (الرواية 1744، صحّحه المحقق [[person/wasi-allah-abbas|وصي الله عباس]])، وحديث عمرو نفسه أن النبي دعاه وقال: «إني أريد أن أبعثك وجهاً فيسلّمك الله ويغنمك»، فقال: إني لم أسلم رغبةً في المال بل في الجهاد والكينونة معك، فقال: «نِعِمّا بالمال الصالح للمرء الصالح» (1745، صحيح). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1154} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1155} وفيه قول طلحة إنه سمع النبي يقول: «إن عمرو بن العاص من صالحي قريش» (1742، ضعيف لانقطاعه)، و«نعم أهل البيت عبد الله وأبو عبد الله وأم عبد الله» من طرق ضعّفها المحقق بالانقطاع أو الإرسال (1743، 1746، 1747). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1152} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1153} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1154} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1155}
 
 ## للزوار الصغار
 كان عمرو أذكى من بُعث يحاجّ المسلمين — ثم انضم إليهم، وفتح مصر، وبقي واليها بقية عمره.
