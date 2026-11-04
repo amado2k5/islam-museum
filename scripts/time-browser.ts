@@ -22,7 +22,7 @@ export interface GraphNode {
   summary: Record<string, string>
   span?: { earliest: number; latest: number }
   periods?: string[]
-  display?: { start?: { edtf?: string } }
+  display?: { start?: { edtf?: string }; end?: { edtf?: string } }
   data?: {
     sources?: string[]
     status?: { review?: string }
@@ -36,6 +36,8 @@ export interface Record_ {
   timelineKey: number
   derived: boolean
   date: string
+  dateRange: { start: string | null; end: string | null }
+  periods: string[]
   title: Record<string, string>
   summary: Record<string, string>
   href: string
@@ -97,6 +99,11 @@ export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
       timelineKey: pos.earliest,
       derived: pos.derived,
       date: n.display?.start?.edtf ?? '',
+      dateRange: {
+        start: n.display?.start?.edtf ?? null,
+        end: n.display?.end?.edtf ?? null,
+      },
+      periods: n.periods ?? [],
       title: { ar: n.label.ar ?? '', en: n.label.en ?? '', ...(n.label.ur ? { ur: n.label.ur } : {}) },
       summary,
       href: '',
