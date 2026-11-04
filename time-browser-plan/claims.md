@@ -569,3 +569,44 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-04 | person/al-muqtadi-billah | copilot | claimed
 2026-11-04 | person/al-mustansir-hafsi | copilot | claimed
 2026-11-04 | person/al-nasir-yusuf | copilot | claimed
+
+2026-11-04 | place/istanbul | copilot | done - 6 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | place/hama | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | place/jurjan | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | place/khuzistan | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | place/zabid | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-sharif-al-murtada | copilot | done - 6 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/yazid-ibn-abi-sufyan | copilot | done - 6 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/safwan-ibn-al-muattal | copilot | done - 5 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/hind-bint-utba | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/abdullah-ibn-sad-ibn-abi-sarh | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/abdullah-ibn-umar | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/abu-tahir-al-qarmati | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/abu-zakariya-al-hafsi | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-ahnaf-ibn-qays | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/babur-mughal | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-muqawqis | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-mustansir-billah | copilot | done - 5 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-tai-billah | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/asma-bint-umays | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/charles-v | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/hafsa | copilot | done - 6 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/ikrima-ibn-abi-jahl | copilot | done - 6 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/mahmud-ghaznawi | copilot | done - 5 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/musa-ibn-bugha | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/negus-of-aksum | copilot | done - 6 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/saad-ibn-abi-waqqas | copilot | done - 6 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/said-ibn-al-as | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/suhayl-ibn-amr | copilot | done - 6 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/mustafa-kemal-ataturk | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/zayd-ibn-thabit | copilot | done - 6 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/abd-al-rahman-iii-al-nasir | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/abu-hurayra | copilot | done - 5 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/abu-lahab | copilot | done - 5 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-malik-al-nasir-salah-al-din-dawud | copilot | done - 5 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-malik-al-salih-ayyub | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-malik-al-salih-ismail | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-miqdad-ibn-amr | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-muqtadi-billah | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-mustansir-hafsi | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+2026-11-04 | person/al-nasir-yusuf | copilot | done - 5 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
