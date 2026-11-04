@@ -18,3 +18,6 @@ Rida holds that most of the transmitted material in exegesis is a veil over the 
 
 ## To complete
 The academic study of how the Israʾiliyyat arose and spread has not yet been added, nor the views of other exegetes on how to classify them.
+
+## In two tafsir editions
+The editors of Tahdhib Tafsir al-Baghawi dropped the reports transmitted from the People of the Book (Isra'iliyyat) from their abridgement, while keeping al-Baghawi's wording in the rest. {cite:tahdhib-tafsir-baghawi-tayba-2009 p.3} {cite:tahdhib-tafsir-baghawi-tayba-2009 p.4} Khalil Ma'mun Shiha, in the introduction to his edition of al-Kashshaf, says al-Zamakhshari usually introduced such reports with "it is reported", signalling weakness, or left their truth to God, or noted their grade. {cite:kashshaf-dar-al-marifa-shiha-2009 p.15}

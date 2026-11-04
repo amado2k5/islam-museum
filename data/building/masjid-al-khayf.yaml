@@ -4,13 +4,11 @@ kind: mosque
 label:
   ar: "مسجد الخيف"
   en: "Mosque of al-Khayf"
-summary:
-  ar: "بطاقة أولية لمسجد الخيف، مسجد الخيف بمنى؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Mosque of al-Khayf, the mosque of al-Khayf at Mina; its sources are not yet checked on the page."
+summary: { ar: "مسجد الخيف بمنى، ألحق به السلطان قايتباي سنة 874هـ/1469م سبيلاً بأربعة شبابيك وصهريجاً وقناة {cite:haddad-asbila-makka-madina-2004 p.42}.", en: "The mosque of al-Khayf at Mina, to which Sultan Qaytbay added in 874 AH / 1469 a four-window sabil, a cistern and a channel {cite:haddad-asbila-makka-madina-2004 p.42}." }
 wings: [objects]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/haddad-asbila-makka-madina-2004]
 external_ids:
   wikidata: Q12242727
 provenance:
@@ -19,6 +17,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0097
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from al-Haddad 2004 pp. 42-43"]
 status:
-  review: draft
+  review: published
   completeness: 1
+location: place/mina

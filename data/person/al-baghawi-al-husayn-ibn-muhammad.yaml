@@ -1,12 +1,13 @@
 id: person/al-baghawi-al-husayn-ibn-muhammad
 class: person
-label: { ar: "البغوي الحسين بن محمد", en: "Al-Baghawi, al-Husayn ibn Muhammad" }
+label: { ar: "البغوي الحسين بن مسعود", en: "Al-Baghawi, al-Husayn ibn Mas'ud", ur: "البغوی حسین بن مسعود" }
 names:
   - { kind: full, lang: ar, value: "أبو محمد الحسين بن محمد بن الفراء البغوي" }
+  - { kind: full, lang: ar, value: "محيي السنة أبو محمد الحسين بن مسعود بن محمد الفراء البغوي الشافعي، ركن الدين" }
 gender: male
 roles: [muhaddith, jurist]
 traditions: [sunni]
-born: { edtf: "1044", hijri: "0436", calendar: julian, precision: year, status: tradition, sources: [source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+born: { edtf: "1044/1045", hijri: "0436", calendar: julian, precision: year, status: debated, derived: true, note: "436هـ عند الزركلي في الأعلام، و433هـ عند ياقوت في معجم البلدان، كما ينقلهما محققو تهذيب تفسير البغوي، ويقولون إن معظم المصادر لم تذكر سنة مولده {cite:tahdhib-tafsir-baghawi-tayba-2009 p.5}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba, source/tahdhib-tafsir-baghawi-tayba-2009] }
 died: { edtf: "1122~", hijri: "0516", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بمرو الروذ في شوال سنة ست عشرة وخمسمائة ودفن عند شيخه القاضي حسين {cite:shadharat-dhahab p. 529}؛ وقيل سنة عشر؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
 summary:
   ar: "محدث وفقيه من بلدة بغ في خراسان، بين مرو وهراة، ومن كتبه «شرح السنة». وفي شذرات الذهب توفي سنة ست عشرة وخمس مئة بمرو الروذ في شوال ودفن عند شيخه القاضي حسين، وكان سيداً زاهداً قانعاً يأكل الخبز وحده فلم يزل في ذلك حتى صار يأكله بالزيت وكان ابن أخيه يصنع الفراء، وقال ابن الأهدل هو صاحب الفنون الجامعة والمصنفات النافعة منها معالم التنزيل والجمع بين الصحيحين والمصابيح وصنف في الفقه التهذيب وشرح السنة وكان لا يلقي الدرس إلا على طهارة، وقال السبكي ما رأيناه يختار شيئاً إلا وإذا بحث عنه وجد أقوى من غيره مع اختصار كلامه وهو يدل على ذهن كثير، ونسبته إلى بغ قرية بقرب هراة {cite:shadharat-dhahab p. 529}."
@@ -17,8 +18,11 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: student_of, target: person/qadi-husayn-al-marwarrudhi, sources: [source/tahdhib-tafsir-baghawi-tayba-2009] }
+  - { type: died_in, target: place/marw-al-rudh, sources: [source/tahdhib-tafsir-baghawi-tayba-2009] }
 external_ids: { wikidata: "Q48210" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/tahdhib-tafsir-baghawi-tayba-2009]
 status:
   review: published
   completeness: 3
@@ -28,6 +32,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch50
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/tahdhib-tafsir-baghawi-tayba-2009 PDF pp. 5–6 (full name, nisba, birth variants, teachers, students, creed, works, death at Marw al-Rudh)" }
 occupations:
   - job: job/muhaddith
     kind: secondary
