@@ -1,17 +1,47 @@
 id: person/muhammad-ibn-al-saib-al-kalbi
 class: person
-label: { ar: "محمد بن السائب الكلبي", en: "Muhammad Ibn Al Saib Al Kalbi" }
+label: { ar: "محمد بن السائب الكلبي", en: "Muhammad ibn al-Sa'ib al-Kalbi", ur: "محمد بن السائب کلبی" }
+names:
+  - { kind: full, lang: ar, value: "أبو النضر محمد بن السائب الكلبي الكوفي" }
+  - { kind: kunya, lang: ar, value: "أبو النضر" }
+roles: [scholar, historian]
+gender: male
 summary:
-  ar: "أبو النضر محمد بن السائب الكلبي أبو هشام الكلبي، مفسر ونسابة ومنه أخذ ابنه هشام، ومن خط ابن الكوفي أنه أحد النسابين {cite:fihrist-ibn-al-nadim p. 299-301,323}."
-  en: "Kufan exegete-genealogist, father and teacher of Hisham al-Kalbi {cite:fihrist-ibn-al-nadim}"
+  ar: "أبو النضر محمد بن السائب الكلبي الكوفي، المفسر النسابة الأخباري، والد هشام الكلبي. روى عن الشعبي وجماعة، وروى عنه ابنه هشام وأبو معاوية، ويعدّه ابن النديم أحد النسابين. ترجمه الذهبي في «ميزان الاعتدال» ونقل فيه أشد أقوال نقاد الحديث: تركه يحيى القطان وابن مهدي، وقال ابن معين: ليس بثقة، والجوزجاني: كذاب، والدارقطني: متروك، وقال ابن عدي إن جماعة رضوه في التفسير وإن في حديثه مناكير، ولا سيما روايته عن أبي صالح عن ابن عباس {cite:mizan-itidal-bijawi-v3 p. 556-559} {cite:fihrist-ibn-al-nadim p. 299-300}."
+  en: "Abu al-Nadr Muhammad ibn al-Sa'ib al-Kalbi of Kufa, the exegete, genealogist and reporter of history, father of Hisham al-Kalbi. He narrated from al-Sha'bi and others, his son Hisham and Abu Mu'awiya narrated from him, and Ibn al-Nadim counts him among the genealogists. Al-Dhahabi's Mizan al-I'tidal collects the hadith critics' severest verdicts on him: Yahya al-Qattan and Ibn Mahdi abandoned him, Ibn Ma'in said he was not trustworthy, al-Juzjani called him a liar and al-Daraqutni 'abandoned', while Ibn Adi said a number of scholars accepted him in exegesis but his hadith contains objectionable reports, especially his chain from Abu Salih from Ibn Abbas {cite:mizan-itidal-bijawi-v3 p. 556-559} {cite:fihrist-ibn-al-nadim p. 299-300}."
+  ur: "ابو النضر محمد بن السائب کلبی کوفی، مفسر، نسب دان اور اخباری، ہشام کلبی کے والد۔ انہوں نے شعبی وغیرہ سے روایت کی، اور ان سے ان کے بیٹے ہشام اور ابو معاویہ نے روایت کی؛ ابن الندیم انہیں نسب دانوں میں شمار کرتے ہیں۔ ذہبی کی «میزان الاعتدال» ان کے بارے میں ناقدینِ حدیث کے سخت ترین اقوال جمع کرتی ہے: یحییٰ قطان اور ابن مہدی نے انہیں ترک کیا، ابن معین نے کہا ثقہ نہیں، جوزجانی نے کذاب اور دارقطنی نے متروک کہا؛ جبکہ ابن عدی کے مطابق ایک جماعت نے تفسیر میں انہیں قبول کیا مگر ان کی حدیث میں منکر روایات ہیں، خصوصاً ابو صالح عن ابن عباس کی سند سے {cite:mizan-itidal-bijawi-v3 p. 556-559} {cite:fihrist-ibn-al-nadim p. 299-300}۔"
 wings: [people]
-sources: [source/fihrist-ibn-al-nadim]
-status:
-  review: published
-  completeness: 3
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+periods: [period/umayyad]
+relations:
+  - { type: student_of, target: person/amir-al-shabi, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: lived_in, target: place/kufa, sources: [source/mizan-itidal-bijawi-v3] }
+perspectives:
+  - tradition: sunni
+    id: sunni-matruk
+    standing: main
+    stance: { ar: "متروك متهم في الحديث", en: "Abandoned and suspected in hadith" }
+    summary:
+      ar: "قال البخاري: تركه يحيى وابن مهدي؛ وقال ابن معين: ليس بثقة؛ والجوزجاني وغيره: كذاب؛ والدارقطني وجماعة: متروك؛ وابن حبان: وضوح الكذب فيه أظهر من أن يحتاج إلى الإغراق في وصفه، وأبو صالح لم ير ابن عباس، ولا يحل الاحتجاج به؛ وسئل أحمد: يحل النظر في تفسير الكلبي؟ قال: لا."
+      en: "Al-Bukhari: Yahya and Ibn Mahdi abandoned him; Ibn Ma'in: not trustworthy; al-Juzjani and others: a liar; al-Daraqutni and others: abandoned; Ibn Hibban: his lying is too evident to need describing, Abu Salih never saw Ibn Abbas, and he may not be cited as proof; Ahmad, asked whether one may read al-Kalbi's tafsir, said no."
+    holders: [person/yahya-ibn-said-al-qattan, person/abd-al-rahman-ibn-mahdi, person/yahya-ibn-main, person/ibrahim-ibn-yaqub-al-juzajani, person/al-daraqutni, person/ibn-hibban, person/ahmad-ibn-hanbal]
+    sources: [source/mizan-itidal-bijawi-v3]
+  - tradition: sunni
+    id: sunni-tafsir-accepted
+    standing: secondary
+    stance: { ar: "مرضيّ في التفسير دون الحديث", en: "Accepted in exegesis, not in hadith" }
+    summary:
+      ar: "قال ابن عدي: حدّث عنه سفيان وشعبة وجماعة ورضوه في التفسير، وأما في الحديث فعنده مناكير، وخاصة إذا روى عن أبي صالح عن ابن عباس؛ وروي عن الثوري: اتقوا الكلبي، فقيل له: فإنك تروي عنه، قال: أنا أعرف صدقه من كذبه."
+      en: "Ibn Adi: Sufyan, Shu'ba and others narrated from him and accepted him in exegesis, but in hadith he has objectionable reports, especially from Abu Salih from Ibn Abbas; al-Thawri is reported to have said: beware of al-Kalbi — and when told he himself narrated from him, he said: I know his truth from his lies."
+    holders: [person/sufyan-al-thawri]
+    sources: [source/mizan-itidal-bijawi-v3]
+sensitivity: contested
+sources: [source/mizan-itidal-bijawi-v3, source/fihrist-ibn-al-nadim]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }
 provenance:
   layer: own-research
-  source: "ابن النديم، الفهرست"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch21
+  source: "ميزان الاعتدال للذهبي (البجاوي) ج3 الترجمة قبل 7575، ص 556–559؛ الفهرست لابن النديم ص 299–300 (من سجل Devin السابق)"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
