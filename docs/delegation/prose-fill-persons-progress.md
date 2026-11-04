@@ -602,3 +602,13 @@ Promoted: abu-al-abbas-al-qurti, abu-al-hajjaj-al-biyasi, al-badrai, al-kamal-ib
 Promoted: abu-jalnak, afif-al-din-ibn-mazru, ahmad-ibn-muhsin, al-ayki, al-kamal-al-fuwayra, al-malik-al-awhad-karak, al-malik-al-muzaffar-hama, al-taqi-al-bayyi, badr-al-habashi, baha-al-din-al-qifti, ibn-al-nahhas-hujjat-al-arab, ibn-al-naqib-mufassir, ibn-al-qawwas, ibn-al-zahiri, ibn-wasil, izz-al-din-ibn-awad, sadr-al-din-ibn-al-kassar, shams-al-din-al-kalabadhi, shihab-al-abir, yaqut-al-mustasimi, zaynab-umm-al-khayr.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1673.** sweep continues through remaining trilingual drafts.
+
+### Batch 89 (4 Nov 2026, 19 records) — lib-shadharat-batch-141 draft promotions (sweep worker)
+
+Promoted: ahmad-ibn-arus, al-abadi-abd-al-qadir, al-izniki-muhammad, al-jafari-badr, al-shamni-qistantini, al-shihab-al-hijazi, al-ulaymi-shams, hasan-celebi-fanari, ibn-muflih-burhan, ibn-zaghdan, ibrahim-ibn-abd-rabbih, khayr-al-din-talsami, musannifak, qasim-ibn-qutlubugha, sayf-al-din-al-baktmari, sharaf-al-din-manawi, timurbugha, uzun-hasan, yalbay.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
+
+Leads (rejected):
+ibn-aja-aleppo	REJECT: ar: thin (147ch); en: thin (142ch); ur: thin (142ch)
+jahan-shah-qaraqoyunlu	REJECT: ar: thin (144ch); ur: thin (141ch)
+
+**Lane total: 1629.** sweep continues through remaining trilingual drafts.
