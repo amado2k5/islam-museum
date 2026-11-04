@@ -400,3 +400,9 @@ Promoted: ibn-al-tayn-abd-al-wahid, ibn-arqam-muhammad-ibn-abd-allah, ibn-atham-
 Promoted: ibn-janah-abd-al-aziz-al-janabadhi, ibn-khafaja-ibrahim, ibn-khalil-al-dimashqi-abu-al-hajjaj-yusuf, ibn-khaqan-al-qaysi-al-fath, ibn-khayr-al-ishbili, ibn-khumayr-ali-ibn-ahmad, ibn-khumays-husayn-ibn-nasr, ibn-khurradadhbih-ubayd-allah, ibn-khuzayma-muhammad, ibn-muadh-al-jayyani, ibn-ruzgan-muhammad, ibn-sahl-abu-asbagh-isa, ibrahim-al-ghafiqi, ibrahim-ibn-ali-al-ahdab, ibrahim-ibn-muhammad-al-batalyusi-al-alam, ibrahim-ibn-yahya-al-ansari-al-mursi, ibrahim-ismail-al-abyari, irbili-ahmad-ibn-musa, irbili-muhammad-ibn-ali, isa-ibn-abd-al-aziz-al-jaziri, iskandar-al-barudi, jad-al-haqq-ali-jad-al-haqq, jait-muhammad-al-aziz-ibn-yusuf, jamal-hamdan, jami-abd-al-rahman.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1084.** mawsuat-a3lam ~88 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
+
+### Batch 60 (4 Nov 2026, 25 records) — mawsuat-a3lam draft promotions 14 (sweep worker)
+
+Promoted: jibril-ibn-bukhtishu, jibril-tawfiq-salih, junada-al-azdi-al-harawi, kazim-jawad-al-arada, khalaf-al-ahmar, khalaf-ibn-hisham, khalid-ibn-abi-imran, khalil-ibn-muhammad-al-aqfahsi-abu-al-safa, khallaf-abd-al-wahhab-ibn-abd-al-wahid, khatib-zada-al-rumi, khayr-al-din-al-tunisi, khaythama-ibn-sulayman-al-atrabulusi, khidas-ibn-bishr, kushyar-ibn-labban, lutfullah-al-tawqani, mahmud-shukri-al-alusi, masruq-ibn-al-ajda, mehmet-akif-ersoy, muhammad-al-amin-al-mithqab, muhammad-al-amin-al-shinqiti, muhammad-al-bashir-al-khawja, muhammad-al-jazuli-al-sumalali, muhammad-al-jurbadhaqani, muhammad-al-shadhili-khuznadar, muhammad-al-tafilalti.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1109.** mawsuat-a3lam ~63 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
