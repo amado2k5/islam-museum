@@ -3,22 +3,37 @@ class: work
 kind: book
 label: { ar: "كتاب الجبر والمقابلة", en: "al-Kitab al-mukhtasar fi Hisab al-Jabr wal-Muqabala (The Algebra of al-Khwarizmi)" }
 summary:
-  ar: "كتاب الخوارزمي في الجبر والمقابلة. يذكر محققا طبعة القاهرة سنة 1939 أنه في مقدمة كتب تراثهم العلمي التي يعتنون بنشرها {cite:khwarizmi-jabr-cairo-1939 p.11}، وأن مخطوطهم الأصلي نسخة كُتبت بعد وفاة المؤلف بنحو خمسمائة سنة، فقد يحمل أخطاء نسخ {cite:khwarizmi-jabr-cairo-1939 p.12}."
-  en: "al-Khwarizmi's treatise on al-jabr and al-muqabala. The editors of the 1939 Cairo edition place it first among the scientific books of their heritage they chose to publish, and note that their base manuscript was a copy made about five hundred years after the author's death, so the text may carry copying errors."
+  ar: "كتاب مختصر في حساب الجبر والمقابلة ألّفه محمد بن موسى الخوارزمي في عهد المأمون، يذكر في مقدمته أنه وضعه لحاجة الناس في المواريث والوصايا والمقاسمات والتجارات ومساحة الأرضين {cite:khwarizmi-jabr-cairo-1939 p.30}. يبدأ بالضروب الستة للمعادلات وبراهينها الهندسية، ثم أبواب الضرب والجمع والنقصان والمسائل، ثم المعاملات والمساحة، ثم كتاب الوصايا وحساب الدور {cite:khwarizmi-jabr-cairo-1939 p.35}."
+  en: "A concise book on reckoning by al-jabr and al-muqabala written by Muhammad ibn Musa al-Khwarizmi under the caliph al-Ma'mun, which its preface says was made for people's needs in inheritance, bequests, partitions, trade and land measurement. It opens with the six types of equation and their geometric proofs, then multiplication, addition and subtraction of terms and worked problems, then commercial transactions and mensuration, then a book of bequests including the circular-reckoning problems."
 language: language/arabic
 authors: [person/al-khwarizmi]
 genre: [mathematics]
-wings: [ideas]
+composed: { edtf: "0813/0833", calendar: julian, precision: year, status: tradition, derived: true, note: "The preface names the caliph al-Ma'mun (Cairo 1939 ed., scan p.29); the editors give his reign as 813-833 CE (scan p.22). No year of composition is stated in the book." }
+structure: "Preface (scan pp. 29-30); the three kinds of number and the six types (scan pp. 30-35); geometric proofs of the three compound types (scan pp. 35-43); bab al-darb, multiplication of terms (scan pp. 43-46); bab al-jam' wal-nuqsan, addition and subtraction including surds (scan pp. 46-50); bab al-masa'il al-sitt, six model problems (scan pp. 50-54); bab al-masa'il al-mukhtalifa, miscellaneous problems (scan pp. 54-69); bab al-mu'amalat, transactions (scan pp. 69-70); bab al-misaha, mensuration (scan pp. 70-82); kitab al-wasaya, bequests, with bab al-'ayn wal-dayn, further bequest chapters, al-wasiyya bil-dirham, al-takmila, hisab al-dawr (marriage, manumission, acknowledgement and salam in final illness) (scan pp. 83-122). Scan pages of the Cairo 1939 edition."
+editions:
+  - "London 1831, ed. Friedrich Rosen, Arabic text with English translation (source/khwarizmi-jabr-rosen-1831)"
+  - "Cairo 1939, ed. Ali Mustafa Mosharafa and Muhammad Mursi Ahmad, Faculty of Science of the Egyptian University (source/khwarizmi-jabr-cairo-1939)"
+translations:
+  - "Latin, by Robert of Chester (twelfth century), translated into English by L. C. Karpinski (New York, 1915), as reported by the Cairo editors"
+  - "French translation of the mensuration chapter by Aristide Marre, from Rosen's text, as reported by the Cairo editors"
+wings: [ideas, words]
 themes: [mathematics]
 periods: [period/abbasid-early]
-regions: [persia-central-asia]
+regions: [levant-iraq]
 relations:
-  - { type: about, target: concept/algebra }
+  - { type: about, target: concept/algebra, sources: [source/khwarizmi-jabr-cairo-1939] }
+  - { type: about, target: concept/al-durub-al-sitta, sources: [source/khwarizmi-jabr-cairo-1939] }
+  - { type: about, target: concept/hisab-al-dawr, sources: [source/khwarizmi-jabr-cairo-1939] }
+  - { type: about, target: concept/ilm-al-misaha, sources: [source/khwarizmi-jabr-cairo-1939] }
+  - { type: about, target: concept/wasiyya-fiqh, sources: [source/khwarizmi-jabr-cairo-1939] }
+  - { type: mentions, target: person/abd-allah-al-mamun, sources: [source/khwarizmi-jabr-cairo-1939] }
+  - { type: influenced, target: person/abu-kamil-shuja-ibn-aslam, sources: [source/khwarizmi-jabr-cairo-1939] }
+  - { type: influenced, target: person/umar-khayyam, sources: [source/khwarizmi-jabr-cairo-1939] }
 provenance:
   layer: own-research
-  source: "al-Khwarizmi, Kitab al-Jabr wal-Muqabala, ed. Ali Mustafa Mosharafa and Muhammad Morsi Ahmad (Cairo, 1939), editors' introduction scan pp. 11-12"
-  generated_by: "Claude Haiku 5.5"
-  model: claude-haiku-5-5
-  run: lib-exp-batch-1
-sources: [source/khwarizmi-jabr-cairo-1939]
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; OCR of the editors' introduction only, the mathematics not yet read; death year of the author left empty" }
+  source: "source/khwarizmi-jabr-cairo-1939, whole edition read (scan pp. 1-130; introduction pp. 11-26, text pp. 29-122); source/khwarizmi-jabr-rosen-1831 title page and ends (scan pp. 1-3, 119-121)"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/khwarizmi-jabr-cairo-1939, source/khwarizmi-jabr-rosen-1831]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5 (first record); rewritten by Claude Code (OCR-harvest worker J) from the whole Cairo 1939 edition" }

@@ -1,0 +1,30 @@
+id: work/art-and-architecture-of-islamic-cairo
+class: work
+kind: book
+label: { ar: "فن القاهرة الإسلامية وعمارتها", en: "The Art and Architecture of Islamic Cairo" }
+summary:
+  ar: "كتاب بالإنجليزية لريتشارد يومانز (غارنت، 2006) يروي تاريخ عمارة القاهرة الإسلامية وفنونها الزخرفية من الفتح العربي سنة 642م إلى الفتح العثماني سنة 1517م، عصراً بعد عصر، من جامع عمرو إلى منشآت المماليك الجراكسة {cite:yeomans-islamic-cairo-2006 contents}."
+  en: "Richard Yeomans's English survey (Garnet, 2006) of the architecture and decorative arts of Islamic Cairo from the Arab conquest of 642 to the Ottoman conquest of 1517, dynasty by dynasty, from the Mosque of Amr to the Burji Mamluk foundations {cite:yeomans-islamic-cairo-2006 contents}."
+wings: [objects, made]
+themes: [architecture, cities, images-and-figural-art]
+regions: [egypt-nile]
+periods: [period/rashidun, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+languages: [en]
+authors: [person/richard-yeomans]
+composed: { edtf: "2006", calendar: gregorian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006] }
+structure: "Preface (p. 1); Introduction: Egypt and the Arab Conquest (p. 4); 1 Umayyad and Tulunid Architecture: Fustat and al-Qata'i (p. 14); 2 Fatimid Architecture (p. 42); 3 The Decorative Arts of the Tulunids and Fatimids (p. 70); 4 Ayyubid Architecture (p. 100); 5 The Architecture of the Bahri Mamluks (p. 124); 6 The Decorative Arts of the Ayyubids and Mamluks (p. 164); 7 The Architecture of the Burji Mamluks (p. 198); notes and references (p. 240); glossaries of Islamic and English terms (pp. 251, 253); chronology of dynasties and rulers (p. 256); table of dynasties (p. 258); bibliography (p. 259); index (p. 265). Printed pages."
+relations:
+  - { type: mentions, target: building/masjid-amr-fustat, sources: [source/yeomans-islamic-cairo-2006] }
+  - { type: mentions, target: building/masjid-ibn-tulun, sources: [source/yeomans-islamic-cairo-2006] }
+  - { type: mentions, target: building/nilometer-of-rawda, sources: [source/yeomans-islamic-cairo-2006] }
+  - { type: mentions, target: place/al-qatai, sources: [source/yeomans-islamic-cairo-2006] }
+  - { type: mentions, target: place/al-fustat, sources: [source/yeomans-islamic-cairo-2006] }
+  - { type: mentions, target: concept/samarran-stucco-styles, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006: imprint and contents (PDF pp. 7-8), preface (printed pp. 1-3), chapter 1 (printed pp. 14-41), back flap"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H); structure from the contents page; prose read from the text layer" }

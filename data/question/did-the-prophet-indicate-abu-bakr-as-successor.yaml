@@ -1,0 +1,35 @@
+id: question/did-the-prophet-indicate-abu-bakr-as-successor
+class: question
+label: { ar: "هل أشار النبي إلى خلافة أبي بكر؟", en: "Did the Prophet point to Abu Bakr as his successor?", ur: "کیا نبی نے ابو بکر کی خلافت کی طرف اشارہ کیا؟" }
+summary:
+  ar: "ينقل الحلي عن أهل السنة أن النبي لم ينص على إمام ومات عن غير وصية وأن أبا بكر تولى بمبايعة عمر برضا أربعة، ويرى أن خلافة الثلاثة باطلة؛ ويرى ابن تيمية أن النبي أرشد الأمة إلى خلافة أبي بكر ودلها عليها بأحاديث كحديث المرأة «فإن لم تجديني فأتي أبا بكر» وبتقديمه للصلاة بالناس."
+  en: "Al-Hilli reports the Sunni view as holding that the Prophet designated no imam and that Abu Bakr took office by Umar's pledge with the consent of four, and himself holds the three caliphates invalid; Ibn Taymiyya holds that the Prophet guided the community to Abu Bakr's caliphate through reports such as that of the woman told 'if you do not find me, go to Abu Bakr' and by putting him forward to lead the prayer."
+question: { ar: "هل أشار النبي إلى خلافة أبي بكر؟", en: "Did the Prophet point to Abu Bakr as his successor?" }
+issue: { ar: "هل ثبتت خلافة أبي بكر بنص أو إشارة من النبي، أم بالاختيار وحده، أم أن النص كان لعلي؟" }
+short_answer:
+  ar: "ابن تيمية: أرشد إليها ودلّ عليها دون عهد مكتوب، والأمة اختارت من علمت أنه الأحق؛ الحلي: النص كان لعلي، وخلافة من تقدمه باطلة."
+  en: "Ibn Taymiyya: the Prophet guided to it and indicated it without a written appointment, and the community chose the one it knew to be most deserving. Al-Hilli: the designation was for Ali, and the caliphates before him were invalid."
+perspectives:
+  - tradition: sunni-hanbali
+    id: ibn-taymiyya-minhaj
+    standing: main
+    stance: { ar: "النبي أرشد إلى خلافة أبي بكر ودلّ عليها، والبيان يكون بالنص الجلي وبغيره" }
+    summary: { ar: "يحتج ابن تيمية بحديث جبير بن مطعم في المرأة التي قال لها النبي: إن لم تجديني فأتي أبا بكر، وبما يروى من قوله: يأبى الله والمؤمنون إلا أبا بكر، وبأمره أبا بكر بالصلاة بالناس في مرضه وإقراره عليها في صحته، ويرى أن البيان يحصل تارة بالنص الجلي وتارة بنص قد يشتبه على بعض الناس، وأن اختيار الأمة من علمت أنه الأحق أكمل في المصلحة." }
+    holders: [person/ibn-taymiyya]
+    evidence: [{ ref: source/minhaj-sunna-salim-v8, note: { ar: "منهاج السنة، تحقيق رشاد سالم ج8 ص 575–578" } }, { ref: source/minhaj-sunna-shamela, note: { ar: "أحاديث الصلاة في مرض النبي، نسخة الشاملة ص 2529–2538" } }]
+    sources: [source/minhaj-sunna-salim-v8, source/minhaj-sunna-shamela]
+  - tradition: shia-twelver
+    id: hilli-minhaj-karama
+    standing: secondary
+    stance: { ar: "النص لعلي، وخلافة أبي بكر وعمر وعثمان باطلة" }
+    summary: { ar: "في نقل ابن تيمية: عقد الحلي فصلاً في إبطال خلافة أبي بكر وعمر وعثمان، وفصلاً في أن من تقدم علياً لم يكن إماماً، ونسب إلى أهل السنة أن أبا بكر تولى بمبايعة عمر برضا أبي عبيدة وسالم مولى أبي حذيفة وأسيد بن حضير وبشير بن سعد." }
+    holders: [person/al-allama-al-hilli]
+    evidence: [{ ref: source/minhaj-sunna-shamela, note: { ar: "نسخة الشاملة ص 62، 92، 2376" } }]
+    sources: [source/minhaj-sunna-shamela]
+related: [person/abu-bakr, event/abu-bakr-leads-the-prayers, event/saqifa, question/who-led-muslims-after-prophet, work/minhaj-al-sunnah]
+wings: [ideas, people]
+themes: [politics-governance-and-authority, sects-and-schools]
+sensitivity: contested
+sources: [source/minhaj-sunna-salim-v8, source/minhaj-sunna-shamela]
+provenance: { layer: own-research, source: "منهاج السنة، تحقيق رشاد سالم ج8 ص 575–578؛ نسخة الشاملة ص 62، 92، 2376، 2529–2538", generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C)" }

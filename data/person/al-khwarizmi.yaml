@@ -15,6 +15,7 @@ relations:
   - { type: participated_in, target: event/kitab-al-jabr-composed-820, role: "المؤلف", sources: [source/britannica-al-khwarizmi] }
   - { type: participated_in, target: event/meridian-degree-sinjar-827, role: "العالم المشارك", sources: [source/britannica-al-khwarizmi] }
   - { type: participated_in, target: event/surat-al-ard-composed-833, role: "المؤلف", sources: [source/britannica-al-khwarizmi] }
+  - { type: patronized_by, target: person/abd-allah-al-mamun, sources: [source/khwarizmi-jabr-cairo-1939] }
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
@@ -26,10 +27,10 @@ periods: [period/abbasid-early]
 provenance:
   layer: own-research
   source: "المسعودي، مروج الذهب وأهل المعاجن"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch34
-sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi]
+  generated_by: "Devin (SWE-2 Medium); section on the Cairo 1939 introduction added by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "prose-fill-persons-batch34; ocr-harvest-2026-11-04"
+sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-jabr-rosen-1831]
 education:
   did_you_know:
     ar: "من كتاب الخوارزمي في الجبر جاءت كلمة algebra، ومن اسمه اللاتيني Algoritmi جاءت كلمة algorithm."

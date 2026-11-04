@@ -1,0 +1,25 @@
+id: work/sharh-al-maqalat-al-arba-battani
+class: work
+kind: treatise
+label: { ar: "شرح المقالات الأربع لبطليموس", en: "Commentary on Ptolemy's Four Books (Tetrabiblos)", ur: "شرح المقالات الاربع لبطلیموس" }
+summary:
+  ar: "شرح لـ[[person/al-battani|البتاني]] على كتاب بطليموس في أحكام النجوم، كانت منه نسخة في الإسكوريال وصفها الغزيري ثم فقدت، ويرى نالينو أن مخطوطة برلين المنسوبة إليه ليست له {cite:nallino-albatenii-opus-astronomicum p. 29} {cite:nallino-albatenii-opus-astronomicum p. 32}."
+  en: "A commentary by [[person/al-battani|al-Battani]] on Ptolemy's astrological Tetrabiblos; a copy once in the Escorial, described by Casiri, is lost, and Nallino holds the Berlin manuscript ascribed to him is not his {cite:nallino-albatenii-opus-astronomicum p. 29} {cite:nallino-albatenii-opus-astronomicum p. 32}."
+  ur: "بطلیموس کی نجومی کتاب المقالات الاربع پر [[person/al-battani|البتانی]] کی شرح؛ اسکوریال کا ایک نسخہ جسے غزیری نے بیان کیا، گم ہو گیا، اور نالینو کے نزدیک برلن کا مخطوطہ جو ان سے منسوب ہے، ان کا نہیں {cite:nallino-albatenii-opus-astronomicum p. 29} {cite:nallino-albatenii-opus-astronomicum p. 32}."
+wings: [ideas, words]
+themes: [astronomy-and-timekeeping]
+periods: [period/abbasid-early]
+authors: [person/al-battani]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/nallino-albatenii-opus-astronomicum] }
+disciplines: [concept/astronomy]
+relations:
+  - { type: commentary_on, target: work/tetrabiblos, sources: [source/nallino-albatenii-opus-astronomicum] }
+sources: [source/nallino-albatenii-opus-astronomicum]
+provenance:
+  layer: own-research
+  source: "source/nallino-albatenii-opus-astronomicum Latin preface scan pp. 18, 29–32"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }
