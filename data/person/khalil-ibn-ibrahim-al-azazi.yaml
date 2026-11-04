@@ -1,0 +1,24 @@
+id: person/khalil-ibn-ibrahim-al-azazi
+class: person
+label: { ar: "خليل بن إبراهيم العزازي", en: "Khalil ibn Ibrahim al-Azazi", ur: "خلیل بن ابراہیم العزازی" }
+summary:
+  ar: "فلكي مصري شافعي من أواخر القرن الثالث عشر الهجري، صاحب رسالة في المزاول وفي خطوط فضل الدائر {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 18}."
+  en: "Egyptian Shafi'i astronomer of the late thirteenth century AH, author of a treatise on sundials and the lines of fadl al-da'ir {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 18}."
+  ur: "تیرھویں صدی ہجری کے اواخر کے مصری شافعی ماہرِ فلکیات، دھوپ گھڑیوں اور فضل الدائر کے خطوط پر رسالے کے مصنف {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 18}۔"
+wings: [people]
+themes: [astronomy-and-timekeeping]
+regions: [egypt-nile]
+gender: male
+roles: [scholar]
+periods: [period/colonial-era]
+floruit: { edtf: "1865/1885", hijri: "1282", calendar: gregorian, precision: decade, status: historical, derived: true, note: "Records an observation in 1282 AH in his sundial treatise; died in the last quarter of the 13th century AH {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 18} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 19}.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+relations:
+  - { type: authored, target: work/risalat-al-azazi-fi-al-mazawil, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
+provenance:
+  layer: own-research
+  source: "source/bibalex-azhar-astronomy-manuscripts-2006 scan pp. 18"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }
