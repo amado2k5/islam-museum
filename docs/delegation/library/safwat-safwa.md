@@ -15,5 +15,7 @@
 ## Done
 - (4 Nov 2026) Batch 1 (9 entities): new source; `work/sifat-al-safwa` rewritten from a Wikidata card with full ar/en/ur prose (Ibn al-Jawzi's ten criticisms of the Hilya and its three omissions, his plan by cities, counts of >1,000 people incl. >200 women, pp. 23–30; editor's method pp. 7–8); 7 new women ascetics (ar/en/ur): `mulayka-bint-al-munkadir`, `fatima-bint-muhammad-ibn-al-munkadir` (pp. 370–371), `hakima-al-makkiyya`, `nuqaysh-bint-salim`, `aisha-al-makkiyya` (p. 402), `khansa-bint-khidam-al-yamaniyya` (distinct from the Companion `al-khansa-bint-khidham`, per Ibn al-Jawzi; editor notes the rijal books know only the Companion), `suwayya-al-yamaniyya` (p. 415). Stub: `work/hilyat-al-awliya`.
 
+- (4 Nov 2026, run 3) Batch 2 (8 entities): 7 new women ascetics with ar/en/ur prose — Kufa: `umm-hassan-al-kufiyya` (p. 602), `maymuna-al-sawda` (pp. 605–606, under "the wise fools"); Basra: `ajrada-al-ammiyya` (709–710), `habiba-al-adawiyya` (710), `afira-al-abida` (711), `ubayda-bint-abi-kilab` (711–712), `umm-talq` (713); a Sifat al-Safwa section added to `rabia-al-adawiyya` (entry 588, pp. 708–709). Sections located: Baghdad women p. 512, Kufa 602–606, Basra 704–721, al-Ubulla 722, Abbadan 727, Bahrain 733, Nishapur 762, Mosul 797, al-Raqqa 800.
+
 ## Next
-Remaining named women ascetics by city (Basra, Kufa, Syria, Egypt …: contents pp. 967–1007), and the Companion women section near the start of the book.
+Basra entries 585–618 not yet done (Karima bint Sirin, Maryam al-Basriyya, Burda al-Sarimiyya, Amat al-Jalil al-Adawiyya, Zajla…); Syria and Egypt women sections later in the book; Hafsa bint Sirin (existing record) could take a Safwa section (p. 706).

@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker I)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/schibille-islamic-glass-2022 scan pp. 23, 57, 69–70, 233"
+  source: "source/schibille-islamic-glass-2022 scan pp. 23, 57, 69–70, 233; source/lavoix-catalogue-monnaies-musulmanes-bn-1887 scan pp. 616, 617"
   translator_of: content/ar/concept/islamic-glass-weights.md
 ---
 ## Summary
@@ -20,3 +20,6 @@ The last weight of "Egypt 2" [[concept/natron-glass|natron]] composition dates t
 
 ## Opaque weights
 Schibille analysed 33 fully opaque weights from the second quarter of the twelfth to the first quarter of the thirteenth century and found their white and aqua opacity due to tin oxide, labelling the group "Celadon" for its resemblance to jade-green celadon. {cite:schibille-islamic-glass-2022 p. 69} They contain up to 33% lead oxide and 27% tin oxide, and she thinks lead and tin were added together to a pre-formed glass at the working stage. {cite:schibille-islamic-glass-2022 p. 69} {cite:schibille-islamic-glass-2022 p. 70} Some polychrome Fatimid weights have yellow and green patches resembling a lead-tin vitreous pigment known as anima. {cite:schibille-islamic-glass-2022 p. 69}
+
+## In Lavoix
+Henri Lavoix holds that the Arabs took the use of glass weights from Byzantine monetary administration, drawing on E. T. Rogers's study of weights bearing the names of the Umayyad governors of Egypt, such as one reading "In the name of God; ordered by the amir Yazid ibn Hatim; weight of a dinar". {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 616} He cites al-Damiri for Muhammad ibn Ali advising Abd al-Malik ibn Marwan, at the time of his reform, to use glass weights that neither gain nor lose, and notes that the Cabinet des Médailles in Paris holds a glass piece inscribed "for the servant of God Abd al-Malik, Commander of the Faithful" whose weight is close to that of his dinars dated 76 and 77 AH. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 617}

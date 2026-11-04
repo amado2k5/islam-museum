@@ -11,3 +11,9 @@
 ## Notes
 - Al-Suyuti's own words from al-Itqan are cited through the thesis that quotes them; al-Itqan itself was not read in this pass.
 - The year of the thesis is not on the pages read.
+
+## Second pass (OCR-harvest worker B): the types as concept records
+Pages read (Dar al-Hadith 2006, PDF): 28–35 (type 1, occasions of revelation), 50–51 (type 3, verse-endings), 81–82 (type 4, polysemy and parallels), 87–88 (type 5, verbal similarity), 111–112 (type 6, the unnamed).
+- Created: `concept/asbab-al-nuzul`, `concept/al-fawasil`, `concept/al-wujuh-wal-nazair`, `concept/mutashabih-al-lafz` (distinct from `concept/muhkam-and-mutashabih`), `concept/al-mubhamat` — each with ar/en/ur prose and `related_to` edges to `concept/ulum-al-quran` and the authors al-Zarkashi names.
+- Not reproduced: the verse examples (referred to by sura only, or by passage id where the book names the ayah).
+- Next: type 2 (munasaba) to enrich the existing `concept/munasaba`; types 7–9 (openings and closings of suras, Meccan and Medinan).

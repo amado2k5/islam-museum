@@ -1,25 +1,40 @@
 id: person/abu-yala-al-mawsili
 class: person
-label:
-  ar: "أبو يعلى الموصلي"
-  en: "Abu Ya'la al-Mawsili"
+label: { ar: "أبو يعلى الموصلي", en: "Abu Ya'la al-Mawsili", ur: "ابو یعلیٰ موصلی" }
+names:
+  - { kind: full, lang: ar, value: "أبو يعلى أحمد بن علي بن المثنى بن يحيى بن عيسى بن هلال التميمي الموصلي" }
+  - { kind: kunya, lang: ar, value: "أبو يعلى" }
+  - { kind: nisba, lang: ar, value: "الموصلي" }
 roles: [scholar]
 gender: male
+traditions: [sunni]
 summary:
-  ar: "بطاقة أولية لأبي يعلى أحمد بن علي الموصلي، حافظ القرن العاشر صاحب «مسند أبي يعلى»، توفي سنة ٩١٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ya'la Ahmad ibn Ali al-Mawsili, the tenth-century hadith master author of the Musnad Abi Ya'la, d. 919; the biographical entry is not yet checked on the page."
+  ar: "أبو يعلى أحمد بن علي بن المثنى التميمي الموصلي (210-307هـ)، محدث الموصل والجزيرة وصاحب «المسند» و«المعجم»؛ ولد في 3 شوال 210هـ، وارتحل صغيراً باعتناء أبيه وخاله، وسمع من أبي خيثمة وعلي بن الجعد وأبي بكر بن أبي شيبة وطبقتهم، وروى عنه النسائي وابن حبان والطبراني وابن عدي وابن حمدان الحيري؛ وثقه الدارقطني والحاكم وابن حبان، وكان على رأي أبي حنيفة، وعاش سبعاً وتسعين سنة {cite:musnad-abu-yala-marifa-2005 p. 4-11}."
+  en: "Abu Ya'la Ahmad ibn 'Ali ibn al-Muthanna al-Tamimi al-Mawsili (210-307 AH), the hadith scholar of Mosul and the Jazira and author of the Musnad and the Mu'jam; born on 3 Shawwal 210, he travelled young under the care of his father and maternal uncle, heard Abu Khaythama, 'Ali ibn al-Ja'd, Abu Bakr ibn Abi Shayba and their generation, and was heard by al-Nasa'i, Ibn Hibban, al-Tabarani, Ibn 'Adi and Ibn Hamdan al-Hiri; al-Daraqutni, al-Hakim and Ibn Hibban declared him trustworthy, he followed Abu Hanifa's school, and he lived ninety-seven years {cite:musnad-abu-yala-marifa-2005 p. 4-11}."
+  ur: "ابو یعلیٰ احمد بن علی بن المثنیٰ تمیمی موصلی (210-307ھ)، موصل اور جزیرہ کے محدث اور «المسند» و «المعجم» کے مصنف؛ 3 شوال 210ھ کو پیدا ہوئے، کم عمری میں اپنے والد اور ماموں کی سرپرستی میں سفر کیا، ابو خیثمہ، علی بن الجعد، ابو بکر بن ابی شیبہ اور ان کے طبقے سے سنا، اور ان سے نسائی، ابن حبان، طبرانی، ابن عدی اور ابن حمدان حیری نے روایت کی؛ دارقطنی، حاکم اور ابن حبان نے انہیں ثقہ کہا، وہ ابو حنیفہ کے مسلک پر تھے، اور ستانوے برس زندہ رہے {cite:musnad-abu-yala-marifa-2005 p. 4-11}۔"
+born: { edtf: "0826", hijri: "0210", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد في ثالث شوال سنة 210هـ، فهو أكبر من النسائي بخمس سنين {cite:musnad-abu-yala-marifa-2005 p. 4}؛ السنة الميلادية مشتقة.", sources: [source/musnad-abu-yala-marifa-2005] }
+died: { edtf: "0919/0920", hijri: "0307", calendar: julian, precision: year, status: tradition, derived: true, note: "عاش إلى أثناء سنة 307هـ، وقيّده ابن المنادي في 14 جمادى الأولى {cite:musnad-abu-yala-marifa-2005 p. 11}؛ المقابل الميلادي مشتق.", sources: [source/musnad-abu-yala-marifa-2005] }
 wings: [people]
+themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
-periods: [period/abbasid-early]
-sources: [source/al-aalam]
+periods: [period/abbasid-fragmentation]
+faith:
+  - { value: sunni-hanafi, basis: documented, note: "قال عبد الغني الأزدي: كان على رأي أبي حنيفة، وقال الذهبي: نعم، لأنه أخذ الفقه عن أصحاب أبي يوسف {cite:musnad-abu-yala-marifa-2005 p. 9}", sources: [source/musnad-abu-yala-marifa-2005] }
+relations:
+  - { type: lived_in, target: place/mosul, sources: [source/musnad-abu-yala-marifa-2005] }
+  - { type: student_of, target: person/bishr-ibn-al-walid-al-kindi, note: "اشتغل بكتب أبي يوسف على بشر بن الوليد، كما قال أبو علي الحافظ {cite:musnad-abu-yala-marifa-2005 p. 9}", sources: [source/musnad-abu-yala-marifa-2005] }
+  - { type: student_of, target: person/yahya-ibn-main, note: "يذكر المحقق ابن معين في شيوخه {cite:musnad-abu-yala-marifa-2005 p. 7, 16}", sources: [source/musnad-abu-yala-marifa-2005] }
+  - { type: related_to, target: person/abu-zura-al-razi, note: "قال: عامة سماعي بالبصرة مع أبي زرعة {cite:musnad-abu-yala-marifa-2005 p. 9}", sources: [source/musnad-abu-yala-marifa-2005] }
 external_ids:
   wikidata: Q12178251
+sources: [source/musnad-abu-yala-marifa-2005, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0026
+  source: "Musnad Abi Ya'la, ed. Shiha (Dar al-Ma'rifa 2005), editor's introduction pp. 4-18 (biography after al-Dhahabi's Siyar and others); earlier Devin Wikidata card"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker A); rewritten from a Devin draft card (run wikidata-import-0026)"

@@ -3,6 +3,7 @@ id: event/battle-of-uhud
 lang: ar
 source_lang: ar
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sira-nabawiyya-sallabi pp. 512–524", note: "section added to earlier prose" }
 ---
 
 ## موجز
@@ -76,3 +77,6 @@ translators: []
 ويذكر الشيخ أن الثغرة التي تركها الرماة دخلها خالد بن الوليد فجُرح النبي، ويقارن ذلك بفرار الجيش من حوله في حنين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:45:30}.
 
 ويذكر الشيخ امرأة تُدعى نسيبة وقفت تترّس عن النبي في أحد، فأُصيب ظهرها ثم قُطعت يدها، ويقول إن يدها سبقتها إلى الجنة. ويروي أن بعض الناس في خلافة عمر، ممن لا يعرفون سيرتها، سألوها أين ذهبت يدها، وكان عمر يسمع {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:51:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:51:30}.
+
+## تحليل الصلابي: دروس أحد
+يعقد [[person/ali-muhammad-al-sallabi|علي محمد الصلابي]] في [[work/al-sira-al-nabawiyya-sallabi|السيرة النبوية]] مبحثاً لـ«بعض الدروس والعبر والفوائد» من أحد، وهي آراؤه وقراءته للأحداث. {cite:sira-nabawiyya-sallabi p.512} يرى فيه أن آيات أحد جاءت تذكّر المؤمنين بالسنن وتسلّيهم وتبيّن حكمة الله فيما وقع، وتعالج الأخطاء، وتضرب لهم المثل بالمجاهدين السابقين. {cite:sira-nabawiyya-sallabi p.513} {cite:sira-nabawiyya-sallabi p.514} {cite:sira-nabawiyya-sallabi p.515} ويعدّ من أهم الدروس أن مخالفة الرماة لأمر قائدهم سببت الفشل، وأن إيثار الدنيا على الآخرة خطر، ويقف عند معاملة النبي للرماة الذين أخطأوا وللمنافقين الذين انخذلوا. {cite:sira-nabawiyya-sallabi p.516} {cite:sira-nabawiyya-sallabi p.517} {cite:sira-nabawiyya-sallabi p.520} ويفرد فقرتين لحديث «أحد جبل يحبنا ونحبه» ولنزول الملائكة يوم أحد، ثم يلخّص سنن النصر كما يفهمها: أن النصر بيد الله، وله نواميس ثابتة، منها وحدة الصف، وطاعة أمر الله ورسوله، وترك التهافت على الدنيا، وأن قلة العدد ليست سبب الهزيمة مع وجوب الإعداد، والثبات والصبر وكثرة الذكر. {cite:sira-nabawiyya-sallabi p.522} {cite:sira-nabawiyya-sallabi p.523} {cite:sira-nabawiyya-sallabi p.524}

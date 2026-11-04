@@ -11,3 +11,7 @@
 ## Notes
 - The existing record's death year conflict (510 in the encyclopaedia vs 516 in Shadharat) is now supported for 516 by the Tahdhib editors; the data date was already 516.
 - The id keeps "ibn-muhammad" (ids are immutable); the label now reads al-Husayn ibn Mas'ud, with both name forms in `names`.
+
+## Second pass (OCR-harvest worker B)
+Pages read (Tahdhib, Dar Tayba 2009, PDF): 8–12 (end of al-Fatiha, opening of al-Baqara).
+- Enriched: `concept/al-muqattaat` (al-Baghawi's view from al-Sha'bi that the letters are among the ambiguous, with al-Zarkashi's type 7 from `source/burhan-dar-al-hadith-2006` PDF pp. 117–119); al-Baghawi is a holder in `question/what-do-the-opening-letters-of-the-suras-mean`.

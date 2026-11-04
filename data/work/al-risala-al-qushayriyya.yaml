@@ -1,0 +1,35 @@
+id: work/al-risala-al-qushayriyya
+class: work
+kind: book
+label: { ar: "الرسالة القشيرية", en: "Al-Risala al-Qushayriyya (The Epistle of al-Qushayri)", ur: "الرسالۃ القشیریہ" }
+summary:
+  ar: "رسالة كتبها أبو القاسم عبد الكريم بن هوازن القشيري (ت 465هـ) «إلى جماعة الصوفية ببلدان الإسلام» سنة 437هـ، يشكو فيها فترة الطريقة في زمانه، ويبدأ ببيان اعتقاد شيوخ الطائفة في مسائل الأصول، ثم يترجم لثلاثة وثمانين من مشايخهم، ويفسر ألفاظهم، ويعقد أبواباً للمقامات والأحوال من التوبة إلى المحبة والسماع والكرامات، ويختم بوصية للمريدين {cite:risala-qushayriyya-minhaj-2017 p. 40} {cite:risala-qushayriyya-minhaj-2017 p. 80} {cite:risala-qushayriyya-minhaj-2017 p. 84} {cite:risala-qushayriyya-minhaj-2017 p. 771}."
+  en: "An epistle written by Abu al-Qasim 'Abd al-Karim ibn Hawazin al-Qushayri (d. 465 AH) 'to the community of Sufis in the lands of Islam' in 437 AH, lamenting the decline of the path in his time; it opens with the creed of the shaykhs on the principles of religion, gives notices of eighty-three of their masters, explains their terms, devotes chapters to the stations and states from repentance to love, audition and miracles, and ends with counsel to disciples {cite:risala-qushayriyya-minhaj-2017 p. 40} {cite:risala-qushayriyya-minhaj-2017 p. 80} {cite:risala-qushayriyya-minhaj-2017 p. 84} {cite:risala-qushayriyya-minhaj-2017 p. 771}."
+  ur: "ابو القاسم عبد الکریم بن ہوازن قشیری (م 465ھ) کا رسالہ جو انہوں نے 437ھ میں «بلادِ اسلام کے صوفیہ کی جماعت کے نام» لکھا، جس میں اپنے زمانے میں طریق کی کمزوری کا شکوہ ہے؛ یہ مشائخ کے اصولی عقیدے سے شروع ہو کر ان کے تراسی مشائخ کے تراجم، ان کی اصطلاحات کی تشریح، توبہ سے محبت، سماع اور کرامات تک مقامات و احوال کے ابواب، اور مریدوں کو وصیت پر ختم ہوتا ہے {cite:risala-qushayriyya-minhaj-2017 p. 40} {cite:risala-qushayriyya-minhaj-2017 p. 80} {cite:risala-qushayriyya-minhaj-2017 p. 84} {cite:risala-qushayriyya-minhaj-2017 p. 771}۔"
+language: language/arabic
+authors: [person/al-qushayri-abu-l-qasim]
+genre: [tasawwuf]
+wings: [words, ideas]
+themes: [spirituality-and-sufism, ethics-and-character, creed]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+composed: { edtf: "1045/1046", hijri: "0437", calendar: julian, precision: year, derived: true, status: tradition, sources: [source/risala-qushayriyya-minhaj-2017], note: "The author dates the epistle to 437 AH {cite:risala-qushayriyya-minhaj-2017 p. 80}; Gregorian range derived." }
+relations:
+  - { type: relies_on, target: work/kitab-al-luma-fi-al-tasawwuf, sources: [source/risala-qushayriyya-minhaj-2017] }
+  - { type: mentions, target: person/abu-ali-al-daqqaq, sources: [source/risala-qushayriyya-minhaj-2017] }
+  - { type: mentions, target: person/al-sulami, sources: [source/risala-qushayriyya-minhaj-2017] }
+  - { type: mentions, target: person/sari-al-saqati, sources: [source/risala-qushayriyya-minhaj-2017] }
+  - { type: mentions, target: person/hamdun-al-qassar, sources: [source/risala-qushayriyya-minhaj-2017] }
+  - { type: mentions, target: person/ibrahim-al-khawwas, sources: [source/risala-qushayriyya-minhaj-2017] }
+  - { type: mentions, target: person/ruwaym-ibn-ahmad, sources: [source/risala-qushayriyya-minhaj-2017] }
+  - { type: mentions, target: person/abu-said-al-kharraz, sources: [source/risala-qushayriyya-minhaj-2017] }
+  - { type: mentions, target: person/amr-ibn-uthman-al-makki, sources: [source/risala-qushayriyya-minhaj-2017] }
+  - { type: mentions, target: concept/al-maqamat-wal-ahwal, sources: [source/risala-qushayriyya-minhaj-2017] }
+provenance:
+  layer: own-research
+  source: "الرسالة القشيرية، ط. دار المنهاج 2017، المقدمة ص 13-42، النص ص 79-100 و112-183، الأبواب ص 295-784"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/risala-qushayriyya-minhaj-2017, source/risala-qushayriyya-jawami-al-kalim]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }
