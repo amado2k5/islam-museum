@@ -62,6 +62,7 @@ open a new block on top with the new version and today's date.
 - **25 new contemporary biographies**: preachers, teachers and Qur'an reciters followed by millions — from Pakistan, Indonesia, Bangladesh, Turkey, Egypt and France — each with full Arabic, English and Urdu pages and sources.
 
 ### Added
+- **Next Timeline Explorer batch, final twenty person stories**: complete the forty-subject definitions and translated subject metadata. Owner-blocked Hamza and Usama proposals are deferred without changing their records or shared images; Abu Sa'id al-Khudri supplies the final slot.
 - **Next Timeline Explorer batch, first twenty person stories**: prepare cited chronological journeys with Arabic, English and Urdu subject metadata, reusing existing events rather than inventing dates or links. The preceding forty-story batch is merged in #3400; the new batch retains explicit source-data and image-owner follow-ups.
 - **Timeline Explorer verification**: the forty new stories pass the full local build and all 120 language-route browser checks; the authorized image correction is merged separately in #3398, resolving the earlier publication blocker. Existing event-language fallbacks and map-selector follow-ups are documented rather than claimed fixed.
 - **Safer Timeline Explorer scenery**: ten new adult/kids backdrops override five legacy illustrated scenes, and five shared backdrops with figures are replaced by empty landscapes after explicit founder approval. All fifteen images were visually screened at full size; historical facts and site code are unchanged.
