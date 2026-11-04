@@ -16,6 +16,11 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 95).
+- **Harvest drive OCR complete**: the last four library scans without text (the 1916–1929 Cairo printings of the Hamasa of Abu Tammam, the Mufaddaliyyat, al-Zawzani's commentary on the Mu'allaqat and al-Barquqi's commentary on the diwan of Hassan ibn Thabit) were read with Apple Vision, so every one of the 1,401 library PDFs now has page text for mining; the OCR status record and the harvest ledger are updated, and a new `lib-ocr-harvest` lane is registered for the 198 OCR'd books that no record cited yet.
+- **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 94).
+- **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 93).
+- **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 92).
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 91).
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 90).
 - **Persons**: 19 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 89).
@@ -73,6 +78,11 @@ open a new block on top with the new version and today's date.
 - **25 new contemporary biographies**: preachers, teachers and Qur'an reciters followed by millions — from Pakistan, Indonesia, Bangladesh, Turkey, Egypt and France — each with full Arabic, English and Urdu pages and sources.
 
 ### Added
+- **Next forty Explorer stories shipped**: #3416 merges the forty person journeys after integrated validation, citation checks and all 318 tests pass; sixteen screened backdrops are already merged in #3414. Completion claims and lane records now name the actual merges. No production or UAT deployment was run.
+- **Next forty Explorer journeys verified**: 270 chronological stops across existing cited events, with 120 Arabic/English/Urdu routes checked in the production build and browser. Sixteen new screened backdrops, merged separately in #3414, remove this batch's legacy illustration fallbacks; existing event-language gaps and reserved owner follow-ups remain explicit.
+- **Next Timeline Explorer batch, final twenty person stories**: complete the forty-subject definitions and translated subject metadata. Owner-blocked Hamza and Usama proposals are deferred without changing their records or shared images; Abu Sa'id al-Khudri supplies the final slot.
+- **Next Timeline Explorer batch, first twenty person stories**: prepare cited chronological journeys with Arabic, English and Urdu subject metadata, reusing existing events rather than inventing dates or links. The preceding forty-story batch is merged in #3400; the new batch retains explicit source-data and image-owner follow-ups.
+- **Sixteen native Timeline Explorer backdrops**: eight new adult/kids pairs replace legacy record-illustration fallbacks with screened empty-place scenes. Existing shared images and record illustrations are preserved; these assets ship separately from the next forty stories.
 - **Timeline Explorer verification**: the forty new stories pass the full local build and all 120 language-route browser checks; the authorized image correction is merged separately in #3398, resolving the earlier publication blocker. Existing event-language fallbacks and map-selector follow-ups are documented rather than claimed fixed.
 - **Safer Timeline Explorer scenery**: ten new adult/kids backdrops override five legacy illustrated scenes, and five shared backdrops with figures are replaced by empty landscapes after explicit founder approval. All fifteen images were visually screened at full size; historical facts and site code are unchanged.
 - **Developers page** (`/{lang}/developers/`, Arabic, English, Urdu): the museum's open data and API documented for libraries and builders — endpoints, the node/edge/record schema, worked examples with real responses, sample code, starter prompts for AI coding agents, and an honest list of what is not here yet.
