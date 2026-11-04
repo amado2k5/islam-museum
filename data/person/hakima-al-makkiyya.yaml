@@ -1,0 +1,25 @@
+id: person/hakima-al-makkiyya
+class: person
+label: { ar: "حكيمة المكية", en: "Hakima al-Makkiyya" }
+names:
+  - { kind: full, lang: ar, value: "حكيمة المكية" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من بني مخزوم جاورت بمكة، يذكرها ابن الجوزي في «صفة الصفوة» أول عابدات مكة برواية سلمة بن خالد المخزومي: كانت إذا رأت باب الكعبة مفتوحاً صرخت حتى يغمى عليها، ولا تكاد تفارق المسجد، فلما أخبرتها امرأة يوماً بفتح البيت في غيبتها صرخت واضطربت حتى ماتت."
+  en: "A devout woman of Banu Makhzum who lived beside the sanctuary in Mecca; Ibn al-Jawzi places her first among the devout women of Mecca in Sifat al-Safwa, on the report of Salama ibn Khalid al-Makhzumi: when she saw the door of the Ka'ba open she would cry out until she fainted, she hardly left the mosque, and when a woman told her one day that the House had been opened in her absence she cried out and trembled until she died."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+regions: [arabia]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance:
+  layer: own-research
+  source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.402"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }
