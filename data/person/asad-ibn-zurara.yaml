@@ -1,6 +1,6 @@
 id: person/asad-ibn-zurara
 class: person
-label: { en: "As'ad ibn Zurara", ar: "أسعد بن زرارة" }
+label: { en: "As'ad ibn Zurara", ar: "أسعد بن زرارة" , ur: "اسعد بن زرارہ"}
 names:
   - { kind: full, lang: ar, value: "أسعد بن زرارة بن عدس النجاري الخزرجي" }
   - { kind: kunya, lang: ar, value: "أبو أمامة" }
@@ -10,6 +10,7 @@ traditions: [sunni]
 summary:
   en: "A distinguished chief of the Banu al-Najjar clan of the Khazraj in Yathrib; one of the six pioneers who embraced Islam at al-Aqaba in 620 CE, leader of the Yathrib delegates, and the naqib of Banu al-Najjar at the Second Pledge of Aqaba."
   ar: "نقيب بني النجار وأحد النفر الستة من الخزرج الذين أسلموا عند العقبة بمكة في موسم حج سنة 11 من النبوة، وهو أول من بايع ليلتئذ وأول نقباء الأنصار وسيدهم بيثرب."
+  ur: "یثرب کے خزرجی بنو نجار کے سردار؛ عقبہ میں اسلام قبول کرنے والے ابتدائی چھ افراد میں شامل تھے اور بنو نجار کے نقیب مقرر ہوئے۔ {cite:mubarakpuri-raheeq}"
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -27,3 +28,15 @@ relations:
 external_ids: { wikidata: "Q4166500" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum p. 136" }
+
+provenance:
+  layer: own-research
+  source: Existing museum record, its defined source list and original status attribution; record-level provenance restored only. No source pages newly examined and no dates or relations changed.
+  generated_by: Devin; al-Raheeq al-Makhtum p. 136; Copilot SDK in VS Code (metadata completion)
+  model: unknown
+  run: explorer-next-40-subjects-2026-11-04
+  localization:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-next-40-subjects-2026-11-04
+    source: Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research.

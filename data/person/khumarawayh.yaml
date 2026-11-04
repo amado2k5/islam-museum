@@ -12,5 +12,6 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 561–569"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-31
-sources: [source/muntazam-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 39-41"]
+sources: [source/muntazam-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/yeomans-islamic-cairo-2006]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

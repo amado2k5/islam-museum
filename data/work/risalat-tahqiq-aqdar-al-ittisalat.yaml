@@ -1,0 +1,26 @@
+id: work/risalat-tahqiq-aqdar-al-ittisalat
+class: work
+kind: treatise
+label: { ar: "رسالة في تحقيق أقدار الاتصالات", en: "Epistle on Verifying the Quantities of Applications", ur: "رسالہ فی تحقیق اقدار الاتصالات" }
+summary:
+  ar: "رسالة مفقودة لـ[[person/al-battani|البتاني]] عملها للوزير أبي الحسن علي بن محمد بن الفرات، وعنوانها هو عنوان الباب الرابع والخمسين من الزيج في مطارح الشعاعات {cite:nallino-albatenii-opus-astronomicum p. 28}."
+  en: "A lost epistle by [[person/al-battani|al-Battani]] written for the vizier Abu al-Hasan Ali ibn Muhammad ibn al-Furat; its title is that of chapter 54 of the Zij, on the projection of rays {cite:nallino-albatenii-opus-astronomicum p. 28}."
+  ur: "[[person/al-battani|البتانی]] کا ایک گمشدہ رسالہ جو وزیر ابو الحسن علی بن محمد بن الفرات کے لیے لکھا گیا؛ اس کا عنوان زیج کے چون ویں باب (شعاعوں کے مطارح) کا عنوان ہے {cite:nallino-albatenii-opus-astronomicum p. 28}."
+wings: [ideas, words]
+themes: [astronomy-and-timekeeping]
+periods: [period/abbasid-early]
+authors: [person/al-battani]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/nallino-albatenii-opus-astronomicum] }
+disciplines: [concept/astronomy]
+relations:
+  - { type: commissioned_by, target: person/ali-ibn-al-furat, sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: relies_on, target: work/al-zij-al-sabi, sources: [source/nallino-albatenii-opus-astronomicum] }
+sources: [source/nallino-albatenii-opus-astronomicum]
+provenance:
+  layer: own-research
+  source: "source/nallino-albatenii-opus-astronomicum Latin preface scan pp. 17–18, 26, 28–29"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

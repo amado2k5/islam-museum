@@ -1,17 +1,29 @@
 id: work/minhaj-al-sunnah
 class: work
 kind: book
-label: { ar: "منهاج السنة النبوية", en: "Minhaj al-Sunnah al-Nabawiyyah" }
+genre: [creed, polemic]
+label: { ar: "منهاج السنة النبوية", en: "Minhaj al-Sunnah al-Nabawiyyah", ur: "منہاج السنۃ النبویہ" }
 summary:
-  ar: "بطاقة أولية لمنهاج السنة النبوية لابن تيمية، الرد المطول على منهاج الكرامة للعلامة الحلي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Ibn Taymiyya's Minhaj al-Sunnah al-Nabawiyyah, the long refutation of al-Hilli's Minhaj al-Karama; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب كبير لتقي الدين ابن تيمية (ت 728هـ) في الرد على «منهاج الكرامة في معرفة الإمامة» لابن المطهر الحلي، كتبه بعد أن أحضر إليه جماعة من أهل السنة كتاب الحلي المصنف للملك خدابنده؛ يتتبع فصول الحلي الستة في الإمامة ويرد عليها من جهة النقل والعقل، ويستطرد إلى القدر وحدوث العالم ونقد الفلاسفة والمتكلمين."
+  en: "A large book by Taqi al-Din Ibn Taymiyya (d. 728 AH) answering Ibn al-Mutahhar al-Hilli's Minhaj al-Karama fi Ma'rifat al-Imama, written after a group of Sunnis brought him al-Hilli's book, composed for the king Khudabanda; it follows al-Hilli's six chapters on the imamate and replies to them on transmitted and rational grounds, with long digressions on predestination, the origination of the world and the philosophers and theologians."
+wings: [ideas, words]
+themes: [creed, sects-and-schools, polemic-and-apologetic, politics-governance-and-authority]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/minhaj-sunna-shamela] }
+authors: [person/ibn-taymiyya]
+language: language/arabic
+structure: "The author's preface (reason for writing, the duty not to conceal knowledge, a general account of the Imamiyya), then al-Hilli's introduction and his six chapters quoted section by section with a reply to each: (1) the Imami and Sunni positions on the imamate, with a long digression on predestination, the eternity of the world and the philosophers; (2) that the Imami school must be followed, with the virtues of Ali; (3) the proofs of Ali's imamate in four methods: rational, from the Qur'an, from the Sunna and from his states; (4) the ways of proving the imamate of the Twelve; (5) that those who preceded Ali were not imams; (6) refuting the arguments for Abu Bakr's imamate."
+editions: [source/minhaj-sunna-bulaq-v2, source/minhaj-sunna-salim-v4, source/minhaj-sunna-salim-v8, source/minhaj-sunna-shamela]
+relations:
+  - { type: responded_to, target: work/minhaj-al-karamah, sources: [source/minhaj-sunna-shamela] }
+sensitivity: polemical
 external_ids: { wikidata: "Q6864903" }
+sources: [source/minhaj-sunna-shamela, source/minhaj-sunna-bulaq-v2, source/minhaj-sunna-salim-v4, source/minhaj-sunna-salim-v8]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in kalam histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "منهاج السنة، نسخة الشاملة ص 1–93، 345، 1883، 2367–2540؛ طبعة بولاق ج2 ص 2–6، 219–221، 262–267؛ تحقيق رشاد سالم ج4 ص 1–11، ج8 ص 1–6، 575–578"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C); earlier Wikidata card by Devin (SWE-2 High), wikidata-import-wave2" }

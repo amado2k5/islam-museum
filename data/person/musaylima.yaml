@@ -1,6 +1,6 @@
 id: person/musaylima
 class: person
-label: { en: "Musaylima", ar: "مسيلمة" }
+label: { en: "Musaylima", ar: "مسيلمة" , ur: "مسیلمہ بن حبیب"}
 names:
   - { kind: full, lang: ar, value: "مسيلمة بن حبيب الحنفي" }
   - { kind: alternate, lang: ar, value: "مسيلمة بن ثمامة، أبو ثمامة (قال ابن هشام)" }
@@ -14,6 +14,7 @@ traditions: []
 summary:
   en: "Chief and religious claimant of Banu Hanifa in Yamama who preached a parallel prophecy to Muhammad's and exchanged letters with him — killed at Yamama in the bloodiest battle of the Ridda wars."
   ar: "سيد بني حنيفة باليمامة ادّعى النبوة في موازاة محمد وراسله — قُتل باليمامة في أدمى معارك حروب الردة."
+  ur: "یمامہ کے بنو حنیفہ کے سردار اور نبوت کے دعوے دار، جنہوں نے نبی کے ساتھ خط و کتابت کی؛ جنگ یمامہ میں مارے گئے۔ {cite:tabari-donner-1993}"
 wings: [people]
 themes: [civil-wars-and-revolts, battles, prophets]
 periods: [period/prophetic-era, period/rashidun]
@@ -57,3 +58,14 @@ status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 education:
   levels: [scholars]
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b6", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: Existing museum record, its defined source list and original status attribution; record-level provenance restored only. No source pages newly examined and no dates or relations changed.
+  generated_by: Devin; 2026-10-11; Copilot SDK in VS Code (metadata completion)
+  model: unknown
+  run: explorer-next-40-subjects-2026-11-04
+  localization:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-next-40-subjects-2026-11-04
+    source: Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research.
