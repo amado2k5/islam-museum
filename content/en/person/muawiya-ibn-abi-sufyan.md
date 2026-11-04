@@ -3,6 +3,7 @@ id: person/muawiya-ibn-abi-sufyan
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1155–1158", note: "section added to earlier prose" }
 ---
 
 ## Overview
@@ -39,3 +40,7 @@ His name appears in the history of the Muslims in Syria: he was governor of Caes
 - **Guard:** al-Mukhtar, a mawla of Himyar (Mu'awiya was the first to appoint a guard chief) {cite:tarikh-khalifa-umari-1985 p. 228}
 - **Seal:** Abd Allah ibn Amr al-Himyari (Mu'awiya was the first to set up the bureau of the seal) {cite:tarikh-khalifa-umari-1985 p. 228}
 - **Iraq:** [[person/ziyad-ibn-abi-sufyan|Ziyad ibn Abi Sufyan]] (the first to hold all Iraq, from 50 AH until his death in 53 AH) {cite:tarikh-khalifa-umari-1985 p. 228}
+
+## In Ahmad ibn Hanbal's Fada'il al-Sahaba
+[[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] gives Mu'awiya a chapter with the hadith of al-Irbad ibn Sariya, who heard the Prophet call people to the pre-dawn meal and then say, "O God, teach Mu'awiya the Book and reckoning and protect him from punishment" (no. 1748, graded good by corroboration by the editor [[person/wasi-allah-abbas|Wasi Allah Abbas]]; Ibn Abd al-Barr faulted it for the unknown al-Harith ibn Ziyad); the same through Shurayh ibn Ubayd as *mursal* (1749, weak for *irsal* though its narrators are trustworthy, strengthened by the previous); and from Maslama ibn Mukhallad with the addition "and establish him in the lands" (1750, weak for a break). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1155} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1156} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1157} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1158}
+

@@ -1,0 +1,28 @@
+id: person/qays-ibn-al-rabi
+class: person
+label:
+  ar: "قيس بن الربيع"
+  en: "Qays ibn al-Rabi'"
+names:
+  - { kind: full, lang: ar, value: "قيس بن الربيع الأسدي الكوفي" }
+roles: [scholar]
+gender: male
+summary:
+  ar: "قيس بن الربيع الأسدي الكوفي، يصفه الذهبي في «ميزان الاعتدال» بأنه أحد أوعية العلم، صدوق في نفسه سيئ الحفظ. أثنى عليه شعبة وشريك ولقّبوه «قيساً الجوّال» لكثرة طلبه، وضعّفه ابن معين ووكيع وابن المديني والدارقطني، وقال النسائي متروك، وعلّل أحمد ترك حديثه بالتشيع وكثرة الخطأ، ورأى ابن حبان وابن نمير أن آفته ابن له كان يدخل عليه في كتبه بعد أن كبر، وختم ابن عدي بأن عامة رواياته مستقيمة {cite:mizan-itidal-bijawi-v3 p. 393-396}."
+  en: "Qays ibn al-Rabi' al-Asadi of Kufa, whom al-Dhahabi's Mizan al-I'tidal calls one of the vessels of learning, truthful in himself but of poor memory. Shu'ba and Sharik praised him — he was nicknamed 'Qays the wanderer' for his tireless seeking of hadith — while Ibn Ma'in, Waki', Ibn al-Madini and al-Daraqutni weakened him, al-Nasa'i called him abandoned, and Ahmad explained his rejection by Shi'ite leanings and frequent mistakes; Ibn Hibban and Ibn Numayr blamed a son of his who tampered with his books in his old age, and Ibn Adi concluded that most of his narrations are sound."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: lived_in, target: place/kufa, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: student_of, target: person/abu-ishaq-al-sabii, sources: [source/mizan-itidal-bijawi-v3] }
+sensitivity: contested
+sources: [source/mizan-itidal-bijawi-v3]
+provenance:
+  layer: own-research
+  source: "ميزان الاعتدال، تحقيق البجاوي، القسم الثالث، ص 393–396 (الترجمة 6911)"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

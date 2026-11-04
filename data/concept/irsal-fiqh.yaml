@@ -14,10 +14,11 @@ themes: ['law-and-courts']
 periods: ['period/prophetic-era']
 regions: ['global']
 provenance:
+  hadith_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: Muqaddima of Ibn al-Salah (Itr) and al-Kifaya (Hyderabad)"
   layer: own-research
   source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، مدخل «إرسال» ص 2173-2180 من المسح"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w01-batch-131
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/tamhid-furqan-2017-v1]
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; headword closed at p.2185 (أرش begins there); earlier note said open on p.2180-2181 (the testimony of the sender and the rest of the sending section; the rest of the entry read in batch 132); footnotes omitted; the en and ur prose are draft translations; the Maliki distinction on p.2177 is not fully legible in the scan text and is flagged in the prose" }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/tamhid-furqan-2017-v1, source/muqaddima-ibn-salah-itr, source/kifaya-khatib-hyderabad-1357]
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5; headword closed at p.2185 (أرش begins there); earlier note said open on p.2180-2181 (the testimony of the sender and the rest of the sending section; the rest of the entry read in batch 132); footnotes omitted; the en and ur prose are draft translations; the Maliki distinction on p.2177 is not fully legible in the scan text and is flagged in the prose" }

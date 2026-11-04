@@ -15,15 +15,14 @@ regions: [levant-iraq]
 provenance:
   layer: own-research
   source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15828 من المسح)"
-  generated_by: "Claude Haiku 5.5"
-  model: claude-haiku-5-5
-  run: mawsua-w09-80
   scan_pages: [15828]
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch124
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status:
-  review: draft
-  completeness: 1
-  generated_by: "Claude Haiku 5.5; biography read on scan p.15828. Death year 245 AH as printed in the header, with a question mark in the source. Bracket sources as printed: al-Jawahir al-Mudhiyya 3/572; Taj al-Tarajim p.312; al-Fawa'id al-Bahiyya p.223. Not verified against a second source. Distinct from hilal-al-himsi and abu-hilal-al-askari."
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary

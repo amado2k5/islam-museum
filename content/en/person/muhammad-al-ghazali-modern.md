@@ -3,6 +3,7 @@ id: person/muhammad-al-ghazali-modern
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "khutab-al-ghazali-dar-al-itisam-vol1 pp. 11–15, 24 (section added; earlier text by its original authors)" }
 ---
 ## Summary
 Shaykh Muhammad al-Ghazali, a contemporary Islamic writer, who wrote "Islam and Socialist Methods." The preface to the edition says he wrote it in 1947 as a sequel to his earlier book "Islam and Economic Conditions" {cite:islam-wal-manahij-nahdat-misr-2005 p.2} {cite:islam-wal-manahij-nahdat-misr-2005 p.5}.
@@ -29,3 +30,6 @@ He notes that there were no telephones or means of communication in that time {c
 He says the thief opened the wallet, found the identity card in it, and threw it away (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:38:00}.
 
 He says that ten pounds folded in a secret pocket were not found by the thief, who threw the wallet away in haste (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:38:30}.
+
+## In his own words, in the preface to his collected sermons
+In a chapter about himself in volume 1 of [[work/khutab-muhammad-al-ghazali|Khutab al-Shaykh Muhammad al-Ghazali]], he says he was born in 1336 AH/1917. He was the eldest of seven brothers; his father, a merchant, had him memorise the Qur'an and moved with him from the village of Nikla al-'Inab in Buhayra to Alexandria so that he could enter al-Azhar at ten. {cite:khutab-al-ghazali-dar-al-itisam-vol1 p. 13} He graduated from al-Azhar in 1360 AH/1941 and worked from then on in preaching and teaching. He describes "his own school" as drawing on all intellectual currents and legal schools and on the modern human sciences, together with the understanding of the Qur'an and Sunna. {cite:khutab-al-ghazali-dar-al-itisam-vol1 p. 15} He preached the Friday sermon at the Mosque of 'Amr ibn al-'As in Cairo, and his sermons were collected from recordings. {cite:khutab-al-ghazali-dar-al-itisam-vol1 p. 11-12} {cite:khutab-al-ghazali-dar-al-itisam-vol1 p. 24}

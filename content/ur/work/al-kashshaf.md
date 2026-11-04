@@ -24,3 +24,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## استعمال شدہ ایڈیشن
 میوزیم نے دار المعرفہ بیروت کا خلیل مامون شیحا کا تیار کردہ ایک جلد والا ایڈیشن استعمال کیا، جس پر ابن المنیر کی «الانتصاف» کی تعلیقات ہیں؛ تیسرا ایڈیشن 1430ھ / 2009ء۔ {cite:kashshaf-dar-al-marifa-shiha-2009 p.2} {cite:kashshaf-dar-al-marifa-shiha-2009 p.3}
+
+## دو مقامات پر الکشاف اور الانتصاف
+[[person/al-zamakhshari|زمخشری]] کا آیات کو مجاز اور سوال و جواب کے ذریعے [[group/mutazila|معتزلہ]] کے اصولوں پر پڑھنے کا طریقہ، اور حاشیے میں [[person/ibn-al-munayyir|ابن المنیر]] کے جوابات، دو نمایاں مقامات پر واضح ہیں: [[passage/quran-2-7|البقرہ: 7]] میں دلوں پر مہر، جہاں زمخشری اللہ کو برے فعل سے منزہ رکھنے کے لیے مہر کو مجاز قرار دیتے ہیں اور ابن المنیر جواب دیتے ہیں کہ کوئی حادث اللہ کی قدرت کے بغیر نہیں {cite:kashshaf-dar-al-marifa-shiha-2009 p.41} {cite:kashshaf-dar-al-marifa-shiha-2009 p.42} {cite:kashshaf-dar-al-marifa-shiha-2009 p.43}؛ اور [[passage/quran-7-143|الاعراف: 143]] میں موسیٰ کی رؤیت کی درخواست، جہاں زمخشری رؤیت کو اللہ کی صفات کے منافی سمجھتے ہیں اور ابن المنیر اسے جائز {cite:kashshaf-dar-al-marifa-shiha-2009 p.384} {cite:kashshaf-dar-al-marifa-shiha-2009 p.385}۔ دیکھیے [[question/who-seals-the-hearts-in-al-baqara-7|دلوں پر مہر کون لگاتا ہے؟]] اور [[question/does-lan-tarani-deny-that-god-can-be-seen|کیا «لن ترانی» رؤیت کی نفی کرتا ہے؟]]۔

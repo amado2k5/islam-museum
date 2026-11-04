@@ -3,6 +3,13 @@ id: person/ibn-ata-allah-al-iskandari
 lang: ar
 source_lang: ar
 translators: []
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/miftah-al-falah-saada-1332 pp. 3-6, 41-43, 53"
 ---
 
 ## موجز
@@ -16,3 +23,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يشرح عمر عبد الكافي حكم ابن عطاء الله في سلسلة [[work/sharh-al-hekam-al-ataeya|شرح الحكم العطائية]]، ويقول إنه اختارها لأن القلب يحتاج إلى شحنة إيمانية وعقيدة سوية يترقى بها العبد في مقامات العبادة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:03:30} ويفتتح الحلقة الأولى بأنه يبدأ «حكمة جديدة» من حكم ابن عطاء الله، {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:05:00} ويعلّق على حكمته في الطلب بأن معناها ليس ترك الدعاء. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:11:00}
+
+## مفتاح الفلاح
+تنسب الطبعة الأولى من [[work/miftah-al-falah|مفتاح الفلاح ومصباح الأرواح]] (مطبعة السعادة، 1332هـ) الكتاب إلى «تاج الدين بن عطاء الله السكندري»، وهو كتاب في الذكر يقول مؤلفه إنه لم ير من صنف فيه كتاباً كاملاً كافياً، فرتبه على قسمين: في الذكر وآدابه وفوائده، ثم في شرح الأذكار وأولها كلمة التوحيد. {cite:miftah-al-falah-saada-1332 p. 3} {cite:miftah-al-falah-saada-1332 p. 4} {cite:miftah-al-falah-saada-1332 p. 53} ويكثر فيه النقل عن الغزالي. {cite:miftah-al-falah-saada-1332 p. 6} {cite:miftah-al-falah-saada-1332 p. 41} {cite:miftah-al-falah-saada-1332 p. 43}

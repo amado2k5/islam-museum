@@ -3,7 +3,7 @@ id: work/al-mustasfa
 lang: ar
 source_lang: ar
 translators: []
-provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "mustasfa-hafiz-v1 PDF pp. 1-7, 53-57, 63, 71-79, 97-101; mustasfa-hafiz-v3 pp. 2, 199-202" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker D); Pole 2 section added by Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "mustasfa-hafiz-v1 PDF pp. 1-7, 53-57, 63, 71-79, 97-101; mustasfa-hafiz-v3 pp. 2, 199-202; mustasfa-tijariyya-1356-v1 PDF pp. 5, 136, 141, 143-144" }
 ---
 ## موجز
 
@@ -32,3 +32,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-
 ## ما لم يُذكر هنا
 
 لم يُقرأ في هذه الدفعة الجزء الثاني (الأدلة، ومنه الكلام في الاستصلاح) ولا الرابع، ولم يُنقل تاريخ تأليف الكتاب.
+
+## القطب الثاني: الأصول الموهومة (إضافة)
+يقسم الغزالي في القطب الثاني ما ظُن من الأدلة وليس منها أربعة أصول يسميها «الأصول الموهومة»: [[concept/shar-man-qablana|شرع من قبلنا]]، وقول الصحابي، والاستحسان، والاستصلاح. {cite:mustasfa-tijariyya-1356-v1 p.136} ففي قول الصحابي يحكي ما نُقل عن الشافعي في القديم من تقليد الصحابة ويضعّف القول بحجية قول الصحابي إذا انتشر ولم يُخالف، لأن السكوت ليس بقول. {cite:mustasfa-tijariyya-1356-v1 p.141} وفي الاستحسان يرد تأويلاته واحداً واحداً، ويرى أن ما ذكره الكرخي وبعض الحنفية من العدول بالمسألة عن نظائرها بدليل خاص لا يُنكر، وإنما يرجع الاستنكار إلى اللفظ. {cite:mustasfa-tijariyya-1356-v1 p.143} وفي الاستصلاح يقسم المصلحة إلى معتبرة وملغاة ومرسلة، ويعرّفها بالمحافظة على مقصود الشرع في حفظ الدين والنفس والعقل والنسل والمال؛ وانظر: [[concept/al-maslaha-al-mursala|المصلحة المرسلة]]. {cite:mustasfa-tijariyya-1356-v1 p.143} {cite:mustasfa-tijariyya-1356-v1 p.144} وفي طبعة المكتبة التجارية بالقاهرة (الطبعة الأولى 1356هـ/1937م) يقع هذا في الجزء الأول. {cite:mustasfa-tijariyya-1356-v1 p.5}

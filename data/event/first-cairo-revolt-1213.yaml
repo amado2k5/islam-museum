@@ -1,0 +1,26 @@
+id: event/first-cairo-revolt-1213
+class: event
+kind: revolt
+label: { ar: "ثورة القاهرة الأولى على الفرنسيس سنة 1213هـ (1798م)", en: "The first Cairo revolt against the French, 1213 AH (1798)", ur: "1213ھ (1798ء) میں فرانسیسیوں کے خلاف قاہرہ کی پہلی بغاوت" }
+summary:
+  ar: "قيام عامة القاهرة على الفرنسيين يوم الأحد الحادي عشر من جمادى الأولى سنة 1213هـ، كما يرويه الجبرتي: بعد أن قرر الفرنسيون ضريبة على الأملاك والعقار اجتمع جمع من غير رئيس، وقتلوا الجنرال «دبوي»، وأقاموا المتاريس في الأحياء الداخلية، فضرب الفرنسيون المدينة والجامع الأزهر بالمدافع والقنابر من القلعة والتلال، ثم دخلوا الأزهر بخيولهم ليلاً، واشتد بعد ذلك تتبع المتهمين {cite:ajaib-al-athar-moreh-v3 p.59} {cite:ajaib-al-athar-moreh-v3 p.60} {cite:ajaib-al-athar-moreh-v3 p.61} {cite:ajaib-al-athar-moreh-v3 p.62}."
+  en: "The rising of the common people of Cairo against the French on Sunday 11 Jumada I 1213 AH, as al-Jabarti tells it: after the French imposed a tax on houses and property, a crowd without a leader gathered, killed General Dupuy and barricaded the inner quarters; the French bombarded the city and al-Azhar with cannon and mortars from the Citadel and the hills, entered al-Azhar on horseback at night, and then hunted down those they suspected."
+wings: [time, place]
+themes: [colonial-wars-and-resistance, civil-wars-and-revolts, mosques]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1798-10-21", hijri: "1213-05-11", calendar: gregorian, precision: day, status: historical, note: "«واصبحوا يوم الأحد [21 تشرين الأول 1798]» عقب يوم السبت عاشر جمادى الأولى؛ التاريخ الميلادي بين قوسين للمحقق (عجائب الآثار 3، مسح ص59).", sources: [source/ajaib-al-athar-moreh-v3] }
+  end: { edtf: "1798-10-23", hijri: "1213-05-13", calendar: gregorian, precision: day, status: historical, note: "«واصبح يوم الثلاثاء [23 تشرين الأول 1798]» وقد اصطف الفرنسيون بباب الجامع الأزهر (مسح ص61)؛ اليوم الهجري محسوب من السياق.", sources: [source/ajaib-al-athar-moreh-v3] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: occurred_at, target: building/al-azhar, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: part_of, target: event/french-campaign-egypt-1213, sources: [source/ajaib-al-athar-moreh-v3] }
+sources: [source/ajaib-al-athar-moreh-v3]
+provenance:
+  layer: own-research
+  source: "source/ajaib-al-athar-moreh-v3 scan pp. 58-62"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

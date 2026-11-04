@@ -1,0 +1,31 @@
+id: work/kashf-al-mahjub
+class: work
+kind: book
+label: { ar: "كشف المحجوب", en: "Kashf al-Mahjub (The Unveiling of the Veiled)", ur: "کشف المحجوب" }
+summary:
+  ar: "كتاب أبي الحسن علي بن عثمان الجلابي الهجويري الغزنوي بالفارسية في التصوف، يقول مقدّم ترجمته العربية إنه أقدم مؤلف في التصوف بالفارسية وأول كتاب منظم في أصوله النظرية والعملية، كتبه جواباً لسؤال أبي سعيد الهجويري عن طريقة التصوف ومقامات الصوفية، بدأه نحو 435هـ وأتمه نحو 442هـ، واعتمد فيه على اللمع والرسالة القشيرية وطبقات السلمي {cite:kashf-al-mahjub-qandil-2007-v1 p. 11} {cite:kashf-al-mahjub-qandil-2007-v1 p. 12} {cite:kashf-al-mahjub-qandil-2007-v1 p. 200}."
+  en: "The Persian book on Sufism by Abu al-Hasan 'Ali ibn 'Uthman al-Jullabi al-Hujwiri al-Ghaznawi, which the introducer of its Arabic translation calls the oldest work on Sufism in Persian and the first systematic book on its theory and practice; written in answer to Abu Sa'id al-Hujwiri's question about the Sufi path and its stations, begun around 435 AH and finished around 442 AH, drawing on al-Luma', al-Qushayri's Risala and al-Sulami's Tabaqat {cite:kashf-al-mahjub-qandil-2007-v1 p. 11} {cite:kashf-al-mahjub-qandil-2007-v1 p. 12} {cite:kashf-al-mahjub-qandil-2007-v1 p. 200}."
+  ur: "ابو الحسن علی بن عثمان جلابی ہجویری غزنوی کی تصوف پر فارسی کتاب، جسے اس کے عربی ترجمے کے مقدمہ نگار فارسی میں تصوف کی قدیم ترین تصنیف اور اس کے نظری و عملی اصولوں پر پہلی منظم کتاب کہتے ہیں؛ ابو سعید ہجویری کے طریقِ تصوف اور صوفیہ کے مقامات کے بارے میں سوال کے جواب میں لکھی گئی، تقریباً 435ھ میں شروع اور 442ھ کے قریب مکمل ہوئی، اور اللمع، رسالۂ قشیریہ اور سلمی کی طبقات پر مبنی ہے {cite:kashf-al-mahjub-qandil-2007-v1 p. 11} {cite:kashf-al-mahjub-qandil-2007-v1 p. 12} {cite:kashf-al-mahjub-qandil-2007-v1 p. 200}۔"
+language: language/persian
+authors: [person/al-hujwiri]
+genre: [tasawwuf]
+wings: [words, ideas]
+themes: [spirituality-and-sufism, ethics-and-character]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [south-asia]
+translations:
+  - "Arabic, by Is'ad 'Abd al-Hadi Qandil (Cairo: Supreme Council for Culture, 2007); English, by R. A. Nicholson (London), as reported by Badi' Jum'a's introduction"
+relations:
+  - { type: relies_on, target: work/kitab-al-luma-fi-al-tasawwuf, sources: [source/kashf-al-mahjub-qandil-2007-v1] }
+  - { type: relies_on, target: work/al-risala-al-qushayriyya, sources: [source/kashf-al-mahjub-qandil-2007-v1] }
+  - { type: relies_on, target: work/tabaqat-al-sufiyya-sulami, sources: [source/kashf-al-mahjub-qandil-2007-v1] }
+  - { type: mentions, target: group/malamatiyya, sources: [source/kashf-al-mahjub-qandil-2007-v1] }
+  - { type: mentions, target: person/hamdun-al-qassar, sources: [source/kashf-al-mahjub-qandil-2007-v1] }
+provenance:
+  layer: own-research
+  source: "كشف المحجوب، الترجمة العربية، ج1 (القاهرة 2007)، ص 10-12 و198-201 و262-266 و390-397"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/kashf-al-mahjub-qandil-2007-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

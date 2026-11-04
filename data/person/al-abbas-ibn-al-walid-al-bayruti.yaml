@@ -1,0 +1,25 @@
+id: person/al-abbas-ibn-al-walid-al-bayruti
+class: person
+label: { ar: "العباس بن الوليد البيروتي", en: "al-Abbas ibn al-Walid al-Bayruti", ur: "عباس بن الولید بیروتی" }
+names:
+  - { kind: full, lang: ar, value: "أبو الفضل العباس بن الوليد البيروتي العذري الشامي" }
+gender: male
+roles: [scholar, teacher]
+summary:
+  ar: "أبو الفضل العباس بن الوليد البيروتي، مقرئ الشام، صاحب عبد الحميد بن بكار؛ ولد سنة 169هـ وتوفي سنة 270هـ بحسب ابن حجر. قرأ عليه الطبري القرآن ببيروت وأخذ عنه الحروف."
+  en: "Abu al-Fadl al-Abbas ibn al-Walid of Beirut, a master reciter of Syria and companion of Abd al-Hamid ibn Bakkar; born in 169 AH and died in 270 AH according to Ibn Hajar. Al-Tabari read the Qur'an with him in Beirut and took the readings from him."
+  ur: "ابو الفضل عباس بن الولید بیروتی، شام کے مقری، عبد الحمید بن بکار کے رفیق؛ ابن حجر کے مطابق 169ھ میں پیدا ہوئے اور 270ھ میں فوت ہوئے۔ طبری نے بیروت میں ان سے قرآن پڑھا اور حروف لیے۔"
+born: { hijri: "0169", edtf: "0785/0786", calendar: julian, precision: year, status: historical, derived: true, note: "قال ابن حجر: ولد سنة 169هـ {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.30}؛ التحويل مشتق.", sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+died: { hijri: "0270", edtf: "0883/0884", calendar: julian, precision: year, status: historical, derived: true, note: "توفي سنة 270هـ، أي أنه جاوز المائة {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.30}؛ التحويل مشتق.", sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+provenance:
+  layer: own-research
+  source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 30"
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

@@ -1,24 +1,25 @@
 id: building/baba-adams-mosque
 class: building
 kind: mosque
-label:
-  ar: "مسجد بابا آدم"
-  en: "Baba Adam's Mosque"
+label: { ar: "مسجد بابا آدم في رامپال (داكا)", en: "Mosque of Baba Adam, Rampal (Dhaka)", ur: "بابا آدم مسجد، رامپال (ڈھاکہ)" }
 summary:
-  ar: "بطاقة أولية لمسجد بابا آدم في منشيغانج ببنغلاديش، الجامع الأثري؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Baba Adam's Mosque of Munshiganj in Bengal, the historic mosque; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "مسجد برواقين وست قباب في رامپال بإقليم داكا، بناه الملك كافور في عهد السلطان جلال الدين فتح شاه في رجب 888هـ/أغسطس 1483 بحسب نقشه، وأعمدته من البازلت الأسود {c(138)}."
+  en: "A two-aisled, six-domed mosque at Rampal in Dhaka district, built according to its inscription by Malik Kafur under Sultan Jalal al-Din Fath Shah in Rajab 888 (August 1483), on black basalt pillars {c(138)}."
+  ur: "ضلع ڈھاکہ کے رامپال میں دو صفوں اور چھ گنبدوں کی مسجد، کتبے کے مطابق سلطان جلال الدین فتح شاہ کے عہد میں ملک کافور نے رجب 888ھ (اگست 1483) میں بنوائی، سیاہ بسالٹ کے ستونوں پر {c(138)}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [south-asia]
-periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1483-08", hijri: "0888-07", calendar: julian, precision: month, status: historical, note: "Mid-Rajab 888, from its inscription" }
+materials: [brick, stone]
+sources: [source/tarikh-islam-hasan-ibrahim, source/hasan-mosque-architecture-pre-mughal-bengal-1979]
 external_ids:
   wikidata: Q4837255
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
+  source: "Hasan 1979, printed pp. 138-140; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Hasan 1979 pp. 138-140, summary, date and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

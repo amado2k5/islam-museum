@@ -1,0 +1,25 @@
+id: person/ali-ibn-mamun-khwarazmshah
+class: person
+label: { ar: "علي بن مأمون خوارزمشاه", en: "Ali ibn Ma'mun, Khwarazmshah", ur: "علی بن مامون، خوارزم شاہ" }
+summary:
+  ar: "خوارزمشاه مأموني (387–406هـ/997–1015م عند المؤلف)، عرف له 33 طرازًا من النقود ضُربت في الجرجانية وكاث وفراوة ونسا وبخارى، ووُجدت نقوده حتى حوض الفولغا {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 70} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 71}."
+  en: "Ma'munid Khwarazmshah (387–406/997–1015 in the author's table) with 33 known coin types struck at Jurjaniyya, Kath, Farawa, Nasa and Bukhara, and coins found as far as the Volga basin {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 70} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 71}."
+  ur: "مامونی خوارزم شاہ (مصنف کے جدول میں 387–406ھ/997–1015ء) جن کے سکوں کی 33 اقسام معلوم ہیں جو جرجانیہ، کاث، فراوہ، نسا اور بخارا میں ڈھلیں، اور ان کے سکے دریائے وولگا کے علاقے تک ملے {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 70} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 71}۔"
+wings: [people]
+themes: [trade-and-finance, politics-governance-and-authority]
+regions: [persia-central-asia]
+gender: male
+roles: [ruler]
+periods: [period/abbasid-fragmentation]
+floruit: { edtf: "0997/1015", calendar: julian, precision: year, status: historical, note: "Reign 387–406 AH as given by Ismoilov {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 70}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+relations:
+  - { type: ruler_of, target: polity/mamunid-dynasty-khwarazm, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+  - { type: child_of, target: person/mamun-ibn-muhammad-khwarazmshah, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+sources: [source/ismoilov-xorazmshohlar-tangalari-2025]
+provenance:
+  layer: own-research
+  source: "source/ismoilov-xorazmshohlar-tangalari-2025 scan pp. 70–78, 163"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

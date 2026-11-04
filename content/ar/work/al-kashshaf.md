@@ -24,3 +24,6 @@ translators: []
 
 ## الطبعة المستعملة
 اعتمد المتحف طبعة دار المعرفة ببيروت في مجلد واحد، اعتنى بها خليل مأمون شيحا، وعليها تعليقات «الانتصاف» لابن المنير؛ الطبعة الثالثة 1430هـ/2009م. {cite:kashshaf-dar-al-marifa-shiha-2009 p.2} {cite:kashshaf-dar-al-marifa-shiha-2009 p.3}
+
+## الكشاف والانتصاف في موضعين
+يظهر منهج [[person/al-zamakhshari|الزمخشري]] في حمل الآيات على أصول [[group/mutazila|المعتزلة]] بطريق المجاز والسؤال والجواب، ويظهر رد [[person/ibn-al-munayyir|ابن المنير]] عليه في الحاشية، في موضعين بارزين: الختم على القلوب في [[passage/quran-2-7|البقرة: 7]]، حيث يجعل الزمخشري الختم مجازًا تنزيهًا لله عن فعل القبيح، ويرد ابن المنير بأنه لا حادث إلا بقدرة الله {cite:kashshaf-dar-al-marifa-shiha-2009 p.41} {cite:kashshaf-dar-al-marifa-shiha-2009 p.42} {cite:kashshaf-dar-al-marifa-shiha-2009 p.43}؛ وطلب موسى الرؤية في [[passage/quran-7-143|الأعراف: 143]]، حيث يرى الزمخشري الرؤية منافية لصفات الله ويرى ابن المنير جوازها {cite:kashshaf-dar-al-marifa-shiha-2009 p.384} {cite:kashshaf-dar-al-marifa-shiha-2009 p.385}. انظر [[question/who-seals-the-hearts-in-al-baqara-7|من الخاتم على القلوب؟]] و[[question/does-lan-tarani-deny-that-god-can-be-seen|هل ينفي «لن تراني» جواز الرؤية؟]].
