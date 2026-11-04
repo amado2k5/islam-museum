@@ -3,6 +3,13 @@ id: person/al-qushayri-abu-l-qasim
 lang: ur
 source_lang: ar
 translators: ["Devin (SWE-2 Medium), draft translation"]
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/risala-qushayriyya-minhaj-2017 pp. 16-18, 23-24, 35-37"
 ---
 ## خلاصہ
 نیشاپور کے امام ابو القاسم عبد الکریم بن ہوازن قشیری — زاہد صوفی شیخِ خراسان، استادِ جماعت اور طائفہ کے پیشوا، «رسالہ قشیریہ» اور «لطائف الاشارات» کے مصنف؛ انھوں نے شریعت اور حقیقت کو جمع کیا اور امامِ قدوہ، مفسر، محدث، فقیہ، متکلم، نحوی، کاتب اور شاعر تھے {cite:tarikh-islam-dhahabi pp. 171-173} {cite:encyclopaedia-of-islam-2 vol. 5 pp. 564-565}۔
@@ -15,3 +22,6 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 
 ## واپسی اور وفات
 جب 455ھ/1063ء میں ارسلانی دور طلوع ہوا اور نظام الملک نے توازن بحال کیا تو وہ نیشاپور لوٹے اور دس برس عزت کے ساتھ رہے، اور اتوار کی صبح 16 ربیع الثانی 465ھ کو فوت ہوئے — ابن الجوزی کے بقول رجب میں — اور اپنے مدرسہ میں ابو علی دقاق کے پہلو میں دفن ہوئے {cite:tarikh-islam-dhahabi pp. 175-176} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:muntazam-ibn-al-jawzi j.8 pp. 646-647}۔
+
+## الرسالۃ کے دار المنہاج ایڈیشن کے مقدمے میں
+[[work/al-risala-al-qushayriyya|الرسالۃ القشیریہ]] کے محقق ان کا نام یوں بتاتے ہیں: ابو القاسم عبد الکریم بن ہوازن بن عبد الملک بن طلحہ بن محمد قشیری استوائی نیشاپوری شافعی؛ قشیری بنو قشیر بن کعب کی نسبت سے، ان کی والدہ بنو سلیم سے تھیں؛ استوائی نیشاپور کے ایک علاقے استوا کی نسبت سے؛ لقب زین الاسلام، اور زیادہ تر «استاد» کہلائے۔ {cite:risala-qushayriyya-minhaj-2017 p. 16} وہ ربیع الاول 376ھ میں پیدا ہوئے اور یتیم پلے؛ ابو القاسم الیمانی سے ادب پڑھا، پھر نیشاپور میں [[person/abu-ali-al-daqqaq|ابو علی دقاق]] سے وابستہ ہوئے، ابو بکر طوسی سے فقہ، ابن فورک اور پھر ابو اسحاق اسفراینی سے اصولین پڑھے، اور باقلانی کی کتابوں کا مطالعہ کیا۔ {cite:risala-qushayriyya-minhaj-2017 p. 16} {cite:risala-qushayriyya-minhaj-2017 p. 17} {cite:risala-qushayriyya-minhaj-2017 p. 18} محقق ابن الاثیر سے نقل کرتے ہیں کہ طغرل بیگ کے وزیر کندری نے رافضہ کے ساتھ اشاعرہ پر بھی لعنت کروائی، تو قشیری، امام الحرمین اور دوسرے اپنے وطن چھوڑ گئے، اور بتاتے ہیں کہ قشیری نے اس پر تقریباً 445ھ میں «شکایۃ اہل السنۃ بحکایۃ ما نالہم من المحنۃ» لکھی۔ {cite:risala-qushayriyya-minhaj-2017 p. 23} {cite:risala-qushayriyya-minhaj-2017 p. 24} ان کی کتابوں میں وہ لطائف الاشارات، التحبیر فی التذکیر، ترتیب السلوک، نحو القلوب اور التیسیر فی علم التفسیر گناتے ہیں۔ {cite:risala-qushayriyya-minhaj-2017 p. 35} {cite:risala-qushayriyya-minhaj-2017 p. 36} ابن السبکی کے حوالے سے ان کی وفات اتوار 16 ربیع الآخر 465ھ کی صبح ہوئی، اور وہ اپنے مدرسے میں اپنے شیخ دقاق کے قدموں کے پاس دفن ہوئے؛ المنتظم کے مطابق ان کی وفات رجب میں ہوئی۔ {cite:risala-qushayriyya-minhaj-2017 p. 37} دیکھیے [[work/al-risala-al-qushayriyya|الرسالۃ القشیریہ]]۔

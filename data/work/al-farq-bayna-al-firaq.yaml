@@ -1,17 +1,31 @@
 id: work/al-farq-bayna-al-firaq
 class: work
 kind: book
-label: { ar: "الفرق بين الفرق", en: "al-Farq bayna al-Firaq" }
+label: { ar: "الفرق بين الفرق وبيان الفرقة الناجية منهم", en: "al-Farq bayn al-Firaq", ur: "الفرق بین الفرق" }
 summary:
-  ar: "بطاقة أولية لكتاب الفرق بين الفرق للبغدادي، تصنيف الفرق الإسلامية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for al-Baghdadi's al-Farq bayna al-Firaq, the survey of Islamic sects; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب في الفرق لأبي منصور عبد القاهر بن طاهر البغدادي (ت 429هـ)، ألّفه كما يذكر محققه استجابة لطلب تلاميذه شرح حديث افتراق الأمة وبيان فروق الفرق ومعالم الفرقة الناجية؛ رتبه خمسة أبواب: الحديث المأثور في الافتراق، وكيفية افتراق الأمة ثلاثاً وسبعين فرقة، وتفصيل مقالات فرق الأهواء (الرافضة والخوارج والمعتزلة والمرجئة والنجارية والضرارية والجهمية والكرامية والمشبهة)، والفرق التي يرى أنها انتسبت إلى الإسلام وليست منه، وأوصاف الفرقة الناجية التي هي عنده أهل السنة والجماعة بأصنافهم الثمانية {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 8} {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 9} {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 10} {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 272}."
+  en: "A work on the sects by Abu Mansur Abd al-Qahir ibn Tahir al-Baghdadi (d. 429 AH), written, as its editor relates, at his students' request to explain the hadith on the community's division, set out the differences among the sects and describe the saved group; it has five chapters: the transmitted hadith on division, how the community divided into seventy-three groups, the doctrines of the sects of 'caprice' (Rafida, Khawarij, Mu'tazila, Murji'a, Najjariyya, Dirariyya, Jahmiyya, Karramiyya, anthropomorphists), the groups he holds claimed Islam without belonging to it, and the features of the saved group, which for him is Ahl al-Sunna wa-l-Jama'a in its eight classes."
+  ur: "ابو منصور عبد القاہر بن طاہر بغدادی (م 429ھ) کی فرقوں پر کتاب، جو اس کے محقق کے بقول شاگردوں کی فرمائش پر امت کے افتراق کی حدیث کی شرح، فرقوں کے فروق اور فرقۂ ناجیہ کی علامات بیان کرنے کے لیے لکھی گئی؛ اس کے پانچ ابواب ہیں: افتراق کی ماثور حدیث، امت کے تہتر فرقوں میں بٹنے کی کیفیت، اہواء کے فرقوں (رافضہ، خوارج، معتزلہ، مرجئہ، نجاریہ، ضراریہ، جہمیہ، کرامیہ، مشبہہ) کے مقالات، وہ گروہ جو ان کے نزدیک اسلام کی طرف منسوب ہوئے مگر اس میں سے نہیں، اور فرقۂ ناجیہ کے اوصاف، جو ان کے نزدیک اپنی آٹھ اصناف کے ساتھ اہلِ سنت والجماعت ہیں۔"
+genre: [creed]
+language: language/arabic
+authors: [person/al-baghdadi-abd-al-qahir-ibn-tahir]
+structure: "Khisht edition: editor's study (pp. 5-22); Bab 1 on the hadith of division (p. 23); Bab 2 on how the community divided into seventy-three groups, with what unites those under the name of Islam (p. 28); Bab 3 on the doctrines of the sects of caprice in eight sections (p. 40); Bab 4 on the groups that claimed Islam without belonging to it, in seventeen sections (p. 202); Bab 5 on the saved group in seven sections: its classes, its salvation, its agreed principles, its view of the righteous forebears, its refraining from declaring one another unbelievers, its virtues and leading figures, and its works in religion and the world (p. 271)."
+wings: [ideas, words]
+themes: [creed, sects-and-schools, polemic-and-apologetic]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+sensitivity: polemical
+relations:
+  - { type: about, target: concept/al-iftiraq-al-ummah, sources: [source/farq-bayn-al-firaq-khisht-ibn-sina] }
+  - { type: mentions, target: group/khawarij, sources: [source/farq-bayn-al-firaq-khisht-ibn-sina] }
+  - { type: mentions, target: group/mutazila, sources: [source/farq-bayn-al-firaq-khisht-ibn-sina] }
+  - { type: mentions, target: group/murjia, sources: [source/farq-bayn-al-firaq-khisht-ibn-sina] }
+sources: [source/farq-bayn-al-firaq-khisht-ibn-sina, source/farq-bayn-al-firaq-tawfiqiyya, source/al-aalam]
 external_ids: { wikidata: "Q19454950" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "farq-bayn-al-firaq-khisht-ibn-sina pp. 1, 5, 7-10, 23-25, 28-29, 271-274; earlier draft card by Devin (wikidata-import-wave2)"
+  generated_by: "Claude Code (OCR-harvest worker L)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker L); earlier draft card by Devin (SWE-2 High)" }

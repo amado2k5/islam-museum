@@ -17,9 +17,14 @@ regions: [levant-iraq]
 story_roles:
   - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi] }
 external_ids: { wikidata: "Q2822175" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi, source/risala-qushayriyya-minhaj-2017]
 status:
   review: published
   completeness: 3
 
-provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص532", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص532; al-Risala al-Qushayriyya (Dar al-Minhaj 2017) pp. 90, 176 (which dates his death to 277 AH)"
+  generated_by: "Devin; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04

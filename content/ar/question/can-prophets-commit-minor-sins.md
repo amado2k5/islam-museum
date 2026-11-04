@@ -3,7 +3,7 @@ id: question/can-prophets-commit-minor-sins
 lang: ar
 source_lang: ar
 translators: []
-provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/al-shifa-ilmiyya-shumunni PDF pp. 527–540" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker E); section on al-Razi by Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/al-shifa-ilmiyya-shumunni PDF pp. 527–540; source/mafatih-al-ghayb-dar-al-fikr-1401-j3 PDF pp. 7–11" }
 ---
 ## الجواب المختصر
 يحكي [[person/al-qadi-iyyad|القاضي عياض]] في [[work/al-shifa-bi-tarif-huquq-al-mustafa|الشفا]] إجماع المسلمين على عصمة الأنبياء من الفواحش والكبائر الموبقات، ومن كتمان الرسالة والتقصير في التبليغ، ثم يحكي في الصغائر ثلاثة أقوال: الجواز، والوقف، والعصمة، ويختار الأخير. {cite:al-shifa-ilmiyya-shumunni p.527}
@@ -28,3 +28,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-
 
 ## ملاحظات للباحثين
 - الأقوال الثلاثة كلها داخل الإطار السني، وكلها هنا كما يحكيها عياض؛ لم يُضف بعد رأي أكاديمي ولا مواقف المذاهب الأخرى (كالقول الإمامي بالعصمة المطلقة) من مصادرها، وكذلك نصوص الطبري نفسه.
+
+## عند الرازي في «مفاتيح الغيب»
+في تفسير [[passage/quran-2-36|البقرة: 36]] يضبط [[person/fakhr-al-din-al-razi|فخر الدين الرازي]] الخلاف في عصمة الأنبياء في أربعة أبواب: الاعتقاد، والتبليغ، والأحكام والفتيا، والأفعال والسيرة. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.7} فينقل أن اعتقاد الكفر غير جائز عليهم عند أكثر الأمة، وأن الأمة أجمعت على عصمتهم من الكذب والتحريف فيما يتعلق بالتبليغ عمدًا، وجوّزه بعضهم سهوًا، وأجمعوا على امتناع الخطأ عمدًا في الفتيا واختلفوا في السهو. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.7} وفي الأفعال يحكي خمسة أقوال: تجويز الكبائر عمدًا وينسبه إلى الحشوية، وتجويز الصغائر عمدًا إلا ما ينفّر وينسبه إلى أكثر المعتزلة، وامتناعهما عمدًا مع جوازهما على جهة التأويل وهو قول الجبائي، وأنها لا تقع إلا سهوًا وخطأ ويؤاخذون بها، وامتناع الذنب مطلقًا وينسبه إلى «الرافضة»، وهي تسميته للإمامية؛ ويحكي في وقت العصمة ثلاثة أقوال، منها أنها وقت النبوة لا قبلها، وهو قول أكثر أصحابه. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.8} ثم يختار أنه لم يصدر عنهم ذنب حال النبوة البتة، ويسوق لذلك ستة عشر وجهًا، ويحمل ما احتج به المخالف من قصة آدم وغيرها على ترك الأولى. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.8} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.9} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.10} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.11}
