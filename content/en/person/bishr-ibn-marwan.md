@@ -2,7 +2,7 @@
 id: person/bishr-ibn-marwan
 lang: en
 source_lang: ar
-translators: []
+translators: ["Devin (SWE-2 Medium), batch 27"]
 ---
 ## Overview
-Bishr ibn Marwan ibn al-Hakam al-Umawi, brother and son of caliphs, governor of Iraq for his brother 'Abd al-Malik; fair and plump, his residence in Damascus stood at 'Uqba al-Kattan. He died in 75 AH, at the time of Mus'ab's killing. {cite:siyar-alam-nubala-ideas-house p.1209}
+Bishr ibn Marwan, brother of Abd al-Malik, who appointed him over Kufa in 73 AH; a man of letters and wit who loved poetry, evening talk, music and drink. His brother told him Ruh ibn Zinba', his uncle, must not be bypassed in any decision — so a courtier schemed against Ruh, writing on the wall of Bishr's chamber 'Ibn Marwan's fate approaches; secure yourself', until Ruh departed to Abd al-Malik.

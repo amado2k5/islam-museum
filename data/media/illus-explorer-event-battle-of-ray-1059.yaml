@@ -1,0 +1,50 @@
+id: media/illus-explorer-event-battle-of-ray-1059
+class: media
+kind: illustration
+label:
+  ar: "خلفية متصفح الزمن: معركة الري (١٠٥٩)"
+  en: "Time Browser backdrop: Battle of Ray (1059)"
+  ur: "ٹائم براؤزر کا پس منظر: رے کی جنگ، ۱۰۵۹ء"
+summary:
+  ar: خلفية مصوّرة خالية من الأشخاص لهذا الحدث، مولّدة محلياً. تعرض بيئة تاريخية متخيّلة لا إعادة بناء للواقعة؛ وتتوافر منها نسختان للكبار والصغار.
+  en: A locally generated, people-free illustrated backdrop for this event. It shows an imagined historical setting, not a reconstruction of the event; adult and kids versions are provided.
+  ur: اس واقعے کے لیے مقامی طور پر تیار کیا گیا، لوگوں سے خالی تصویری پس منظر۔ یہ واقعے کی بازتخلیق نہیں بلکہ ایک تصوراتی تاریخی ماحول دکھاتا ہے؛ بالغ اور بچوں کے الگ نسخے شامل ہیں۔
+wings:
+  - time
+alt:
+  en: An empty illustrated view of Rayy, with earth-toned historic-style buildings, courtyards and dry surrounding terrain. No people or writing; it is not a reconstruction of the event.
+  ar: مشهد تصويري خالٍ للريّ، بمبانٍ تاريخية الطراز بلون التراب وأفنية وأرض جافة؛ بلا أشخاص أو كتابة، وليس إعادة بناء للواقعة.
+  ur: رے کا لوگوں سے خالی تمثیلی منظر، مٹیالے رنگ کی تاریخی طرز کی عمارتوں، صحنوں اور خشک آس پاس کے علاقے کے ساتھ؛ کوئی لوگ یا تحریر نہیں، اور یہ واقعے کی بازتخلیق نہیں۔
+depicts:
+  - event/battle-of-ray-1059
+generated:
+  tool: scripts/time-browser-explorer-gen.py; cwebp
+  version: Diffusers 0.42.1; PyTorch 2.14.1; cwebp 1.6.0
+  model: stabilityai/stable-diffusion-xl-base-1.0
+  prompt_hash: d42f361feeeea4fac7333e94651028b330bc96cc3cf1930147ffb43ab5852a00
+  inputs_hash: 9f13afd6dd08c797503a2fdda35d9ff198c3042b2dab8d5a7998f201c0588dd7
+  adult_prompt_sha256: 214e8b85ad3a86ee396d29873a407758c054b29801b53d870ccf5462e66b4592
+  kids_prompt_sha256: 0d3c51c58bacba361560c3dae2e80aaf5c8bccbb6ab1020a9464f27332f87573
+  negative_prompt_sha256: aa607dad646dee87c54b4c28ea183cfbf4987bb10d850084906c192fb0a04816
+  settings_sha256: 9929203ac0019a2f2c12db9b5eede5eb0509ce488be72643785084d29252b660
+  adult_asset_commit: 63ce64deb52b822556976d610f9b4d6992ee9eaf
+  adult_asset_date: 2026-11-01
+  kids_asset_date: 2026-11-03
+precision: approximate
+license: AI-GENERATED
+attribution: AI-generated locally with Stable Diffusion XL Base 1.0; no third-party licence claim.
+files:
+  webp: media/time-browser/explorer/event-battle-of-ray-1059.webp
+  kids: media/time-browser/explorer/event-battle-of-ray-1059-kids.webp
+sources:
+  - source/tarikh-islam-hasan-ibrahim
+provenance:
+  source: event/battle-of-ray-1059; historical context follows the cited sources on this record
+  generated_by: Copilot SDK in VS Code; local SDXL generation
+  model: unknown (record authoring); stabilityai/stable-diffusion-xl-base-1.0 (images)
+  editor: VS Code
+  run: Time Browser place backdrops 2026-11-03; adult reused from Cursor batch 63ce64deb52b822556976d610f9b4d6992ee9eaf (2026-11-01), kids generated locally on 2026-11-03; prompt and settings SHA-256 hashes recorded in generated; no seed recorded.
+status:
+  review: published
+  completeness: 1
+  generated_by: Copilot SDK in VS Code; kids image generated locally, adult reused from Cursor batch

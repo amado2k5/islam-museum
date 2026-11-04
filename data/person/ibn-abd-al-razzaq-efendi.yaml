@@ -3,26 +3,26 @@ class: person
 label:
   ar: "ابن عبد الرزاق"
   en: "Ibn Abd al-Razzaq Efendi"
-roles: [jurist, writer]
+roles: [jurist, khatib]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن عبد الرزاق، الفقيه والكاتب العثماني، توفي سنة ١٧٢٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Abd al-Razzaq, the Ottoman jurist and writer, d. 1726; the biographical entry is not yet checked on the page."
+  ar: "عبد الرحمن ابن عبد الرزاق، فقيه حنفي دمشقي وخطيب جامع السنانية، صاحب «قلائد المنظوم» في الفرائض؛ توفي سنة 1138هـ (1726م)."
+  en: "Abd al-Rahman Ibn Abd al-Razzaq (1665–1726), Damascene Hanafi jurist and preacher, author of Qala'id al-Manzum."
 wings: [people]
-regions: [anatolia-balkans]
+regions: [levant-iraq]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q124747799
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0090
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.293)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: secondary

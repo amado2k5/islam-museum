@@ -2,10 +2,7 @@
 id: person/jamil-ibn-suhayb
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 29"]
 ---
-
 ## Overview
-Jamil ibn Suhayb, a landed notable (dihqan) of Fallujah. Ubayd ibn Abi al-Makhariq consulted him when he was appointed to an office among those of al-Hajjaj. Al-Mas'udi says that he answered with advice: that he should open his door and not take a chamberlain, that he should sit long with the people of his district, that his judgement should not differ between people, and that he should accept no gift from them. {cite:muruj-al-dhahab p. 136-137}
-
-The report then gives a final piece of advice: to collect money from them firmly, so that they would be pleased with him and al-Hajjaj would have no hold over him. {cite:muruj-al-dhahab p. 136-137}
+Jamil ibn Suhayb, the dihqan of al-Falluja whose counsel was sought; asked by Ubayd ibn Abi'l-Mukhariq how to serve al-Hajjaj, he gave four rules: 'open your door and keep no chamberlain; let the people of your charge sit long with you; let not your judgement differ between men; take no gift from those under you; then flay whatever lies behind them down to an old woman's ear, so they are pleased with you and al-Hajjaj finds no way against you'.

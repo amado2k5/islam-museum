@@ -3,11 +3,11 @@ class: person
 label:
   ar: "عبد الرحيم ابن الإخوة"
   en: "Abd al-Rahim ibn al-Ukhuwa"
-roles: [scholar, muhaddith, poet]
+roles: [jurist, calligrapher]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحيم ابن الإخوة، العالم العراقي صاحب «معالم القربة»، توفي سنة ١١٥٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahim ibn al-Ukhuwa, the Iraqi scholar author of Ma'alim al-Qurba, d. 1153; the biographical entry is not yet checked on the page."
+  ar: "عبد الرحيم «ابن الأخوة» الشيباني، ناسخ شافعي بغدادي، نسخ بخطه نحو ألف مجلدة؛ توفي سنة 548هـ (1153م)."
+  en: "Abd al-Rahim Ibn al-Ukhuwwa al-Shaybani (d. 548/1153), Baghdadi Shafi'i copyist said to have penned a thousand volumes."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
@@ -16,13 +16,13 @@ external_ids:
   wikidata: Q96782408
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0088
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.343)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch7
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: secondary

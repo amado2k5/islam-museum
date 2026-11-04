@@ -6,8 +6,8 @@ label:
 roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لصالح البهوتي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Salih al-Buhuti; the entry is not yet checked on the page."
+  ar: "صالح بن حسن البهوتي، فرضي حنبلي أزهري مصري، صاحب ألفية «عمدة الفارض»؛ توفي سنة 1121هـ (1709م)."
+  en: "Salih al-Buhuti (d. 1121/1709), Egyptian Azhari Hanbali inheritance scholar, author of 'Umdat al-Farid."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
@@ -16,13 +16,13 @@ external_ids:
   wikidata: Q124746658
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.190)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  run: prose-fill-persons-batch5
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary

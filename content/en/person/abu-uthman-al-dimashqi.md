@@ -2,10 +2,7 @@
 id: person/abu-uthman-al-dimashqi
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 17"]
 ---
 ## Overview
-Abu Uthman Sa'id ibn Ya'qub al-Dimashqi, one of the skilled copyists, who was attached to Ali ibn Isa. {cite:fihrist-ibn-al-nadim p.415}
-
-## His copying
-He copied some books of Euclid. Ibn al-Nadim says he saw the tenth book of them at Mosul, in the library of Ali ibn Ahmad al-Imrani. {cite:fihrist-ibn-al-nadim p.371}
+Abu Uthman Sa'id ibn Ya'qub al-Dimashqi, one of the excellent translators in Ibn al-Nadim's account; attached to Ali ibn Isa, he translated books of Euclid — Ibn al-Nadim saw the tenth of them at Mosul. {cite:fihrist-ibn-al-nadim p. 415}

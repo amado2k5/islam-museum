@@ -2,7 +2,7 @@
 id: person/ubaydallah-ibn-yahya-ibn-khaqan
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 23"]
 ---
 ## Overview
-al-Mutawakkil appointed him as secretary in the year 233 AH after the dismissal of Muhammad ibn al-Fadl al-Jarjara'i, and he served as vizier for him until he was killed, according to al-Mas'udi {cite:muruj-al-dhahab p.476}.
+Ubaydallah ibn Yahya ibn Khaqan; Ibn al-Jawzi records that al-Mutawakkil sent al-Fath to visit him in illness, and he answered 'ailing in two quarters — sickness and debt, and these two keep me busy enough'; al-Mutawakkil granted him a thousand dirhams. {cite:muntazam-ibn-al-jawzi v. 11 p. 180}

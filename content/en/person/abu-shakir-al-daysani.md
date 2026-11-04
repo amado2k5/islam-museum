@@ -2,12 +2,7 @@
 id: person/abu-shakir-al-daysani
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 20"]
 ---
 ## Overview
-Abu Shakir al-Daysani, whom Ibn al-Nadim mentions among the leading speaking heads of the Manichaeans. {cite:fihrist-ibn-al-nadim p.473}
-
-## In Ibn al-Nadim
-Ibn al-Nadim says he outwardly showed Islam and inwardly concealed heresy, and that he claimed to know hadith. He and other heretics wrote books defending the doctrine of the two principles, and their doctrines were refuted by the theologians. {cite:fihrist-ibn-al-nadim p.473}
-
-This is Ibn al-Nadim's description alone, and the claim is attributed to him. A second source is needed.
+Abu Shakir, among the chiefs of the Manichaean controversialists who, in Ibn al-Nadim's judgement, professed Islam outwardly while concealing unbelief — this is the source's own verdict —; he claimed knowledge of hadith and composed works in support of dualism and its doctrines. {cite:fihrist-ibn-al-nadim p. 481}

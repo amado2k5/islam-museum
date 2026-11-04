@@ -2,7 +2,7 @@
 id: person/uthman-al-tawil
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 22"]
 ---
 ## Overview
-Uthman al-Tawil, teacher of Abu al-Hudhayl al-Allaf. Ibn al-Nadim transmits from Abu al-Hudhayl that he took from him the justice and the doctrine of divine unity that he held, and that Uthman told him he had taken it from Wasil ibn Ata {cite:fihrist-ibn-al-nadim p.557-558}.
+Uthman al-Tawil, teacher of Abu Hudhayl al-Allaf, who said: 'I took this doctrine of justice and divine unity that I hold from him, and he told me he had taken it from Wasil ibn Ata'. {cite:fihrist-ibn-al-nadim p. 245}

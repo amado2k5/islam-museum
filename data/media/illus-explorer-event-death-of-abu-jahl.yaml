@@ -1,0 +1,51 @@
+id: media/illus-explorer-event-death-of-abu-jahl
+class: media
+kind: illustration
+label:
+  ar: "خلفية متصفح الزمن: مقتل أبي جهل في بدر"
+  en: "Time Browser backdrop: The death of Abu Jahl at Badr"
+  ur: "ٹائم براؤزر کا پس منظر: بدر میں ابو جہل کی موت"
+summary:
+  ar: خلفية مصوّرة خالية من الأشخاص لهذا الحدث، مولّدة محلياً. تعرض بيئة تاريخية متخيّلة لا إعادة بناء للواقعة؛ وتتوافر منها نسختان للكبار والصغار.
+  en: A locally generated, people-free illustrated backdrop for this event. It shows an imagined historical setting, not a reconstruction of the event; adult and kids versions are provided.
+  ur: اس واقعے کے لیے مقامی طور پر تیار کیا گیا، لوگوں سے خالی تصویری پس منظر۔ یہ واقعے کی بازتخلیق نہیں بلکہ ایک تصوراتی تاریخی ماحول دکھاتا ہے؛ بالغ اور بچوں کے الگ نسخے شامل ہیں۔
+wings:
+  - time
+alt:
+  en: An empty illustrated view of Badr, with sunlit low buildings and a dry desert landscape. No people or writing; it is not a reconstruction of the event.
+  ar: مشهد تصويري خالٍ لبدر، بمبانٍ منخفضة مضاءة بالشمس ومشهد صحراوي جاف؛ بلا أشخاص أو كتابة، وليس إعادة بناء للواقعة.
+  ur: بدر کا لوگوں سے خالی تمثیلی منظر، دھوپ میں روشن نیچی عمارتوں اور خشک صحرائی ماحول کے ساتھ؛ کوئی لوگ یا تحریر نہیں، اور یہ واقعے کی بازتخلیق نہیں۔
+depicts:
+  - event/death-of-abu-jahl
+generated:
+  tool: scripts/time-browser-explorer-gen.py; cwebp
+  version: Diffusers 0.42.1; PyTorch 2.14.1; cwebp 1.6.0
+  model: stabilityai/stable-diffusion-xl-base-1.0
+  prompt_hash: 1dfaaaf64782e9238e963005562b009378b0e944662a6c3297eb8e807dbe539c
+  inputs_hash: e0d191c84fa54e73f1488a9111c0d0a571b856c0bbc9ac9f3f6eef1e32acb2ce
+  adult_prompt_sha256: 066881dee574191373d9313c87d5f4e4ecef535867058162521f32c491c39585
+  kids_prompt_sha256: 0bebba64873936183bc5b48fa7ded2387b03c191d0032c26d0a7a06460137c62
+  negative_prompt_sha256: aa607dad646dee87c54b4c28ea183cfbf4987bb10d850084906c192fb0a04816
+  settings_sha256: 9929203ac0019a2f2c12db9b5eede5eb0509ce488be72643785084d29252b660
+  date: 2026-11-03
+precision: approximate
+license: AI-GENERATED
+attribution: AI-generated locally with Stable Diffusion XL Base 1.0; no third-party licence claim.
+files:
+  webp: media/time-browser/explorer/event-death-of-abu-jahl.webp
+  kids: media/time-browser/explorer/event-death-of-abu-jahl-kids.webp
+sources:
+  - source/mubarakpuri-raheeq
+  - source/sahih-al-bukhari
+  - source/sahih-muslim
+  - source/musnad-ahmad
+provenance:
+  source: event/death-of-abu-jahl; historical context follows the cited sources on this record
+  generated_by: Copilot SDK in VS Code; local SDXL generation
+  model: unknown (record authoring); stabilityai/stable-diffusion-xl-base-1.0 (images)
+  editor: VS Code
+  run: Time Browser place backdrops 2026-11-03; prompts and settings SHA-256 hashes recorded in generated; no seed recorded.
+status:
+  review: published
+  completeness: 1
+  generated_by: Copilot SDK in VS Code; images generated locally with SDXL

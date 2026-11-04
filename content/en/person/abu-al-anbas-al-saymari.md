@@ -2,7 +2,7 @@
 id: person/abu-al-anbas-al-saymari
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 27"]
 ---
 ## Overview
-Abu al-Anbas al-Saymari was the court jester of the caliph [[person/al-mutawakkil|al-Mutawakkil]]. Al-Mas'udi relates that he answered a poem of [[person/al-buhturi|al-Buhturi]] with a satirical poem of mockery, and al-Mutawakkil laughed greatly and gave each of them, and Abu al-Abbas al-Mubarrad, ten thousand dirhams. He also related the story of his donkey, which died, and al-Mutawakkil ordered the singers to sing that day with verses about the donkey. {cite:muruj-al-dhahab p.478-480}
+Abu'l-Anbas al-Saymari, al-Mutawakkil's jester; he countered al-Buhturi's panegyric with an outrageous lampoon until the caliph laughed and fell on his back, granting each of them and al-Mubarrad ten thousand dirhams. Of his lore: when his donkey died he recited in a dream 'my heart flew after a she-ass', and al-Mutawakkil had the singers perform donkey verses that day.

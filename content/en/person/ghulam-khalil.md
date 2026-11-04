@@ -2,8 +2,7 @@
 id: person/ghulam-khalil
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 21"]
 ---
-
 ## Overview
-Ghulam Khalil, whose name was Abd Allah ibn Ahmad ibn Muhammad ibn Ghallab ibn Khalid ibn Firas al-Bahili. Ibn al-Nadim mentions four books by him: "Supplication", "Devotion to God", "Prayer", and "Admonitions". {cite:fihrist-ibn-al-nadim p. 263}
+Ghulam Khalil — his name Abd Allah ibn Ahmad ibn Muhammad ibn Ghullab ibn Khalid ibn Firas al-Bahili; author of books on supplication, on cutting oneself off unto God, on prayer, and on exhortations. {cite:fihrist-ibn-al-nadim p. 268}

@@ -2,11 +2,7 @@
 id: person/khusraw-al-arzmaqan
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 22"]
 ---
-
 ## Overview
-Khusraw al-Arzmaqan, from Jukhi, a village on the river Wan. He claimed that the Light had been alive and always was, and that it had been sleeping; darkness overtook it and took some of its light, so he sent the son of the living to retrieve it. {cite:fihrist-ibn-al-nadim p.475-476}
-
-## His doctrine
-He would revile Jesus, and he concealed his doctrine and did not publicise it. According to what Ibn al-Nadim relays, he had no book. {cite:fihrist-ibn-al-nadim p.475-476}
+Khusraw al-Arzmaqan, of Jukha, from a village on the Nahrwan; he held that the Light was eternally alive but sleeping, that Darkness enveloped it and took light from it, whereupon the Father of the Living was sent to recover it — as Ibn al-Nadim recounts his doctrine. {cite:fihrist-ibn-al-nadim p. 474}

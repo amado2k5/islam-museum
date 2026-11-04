@@ -71,6 +71,6 @@ Public name: «مستكشف الخط الزمني» / Timeline Explorer / «ٹا
 - **Pages:** `/<lang>/time-browser/` (subject search, journeys, shelves), `/<lang>/time-browser/s/<class>/<slug>/` (the stage: focal card, strip, rail, details and map dialogs, kids toggle, node in `?node=`), `/<lang>/time-browser/guide/`. `/<lang>/time-browser/all/` is an unlinked, noindex QA list. Old `/<lang>/time-browser/<kind>/<slug>/` pages redirect to the museum entry.
 - **Entry points:** the homepage feature band after the day-cards (`site/src/components/ExplorerModule.astro`), the Explore menu, and "Explore the timeline" on each entity that is a subject.
 - **Dates:** formatted with `site/src/lib/dates.ts` (Hijri and Gregorian, approximate and debated chips). No raw EDTF string is rendered.
-- **Rules:** no runtime AI, no AI prompt or chat, no sign-in, no request from the page. The backdrop is a colour wash: no generated or stock imagery.
+- **Rules:** no runtime AI, no AI prompt or chat, no sign-in, no request from the page. Prepared Explorer backdrops may be generated locally and served as static assets; no image is fetched from another site.
 - **Checks before deploy:** `npm run validate`, `npm run cite-check -- <ids>` on the subjects and nodes, `npm test` (`scripts/time-browser*.test.ts`), `npm run build`, `npm run check:static`, `npm run check:weight`.
 - **Known open items:** Ibn Khaldun has 3 eligible nodes, so he does not ship yet; curated backdrop media per node; the "early Ottoman" era uses the gunpowder-empires period; a native Urdu review of the new strings.

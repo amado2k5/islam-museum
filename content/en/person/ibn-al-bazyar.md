@@ -2,12 +2,7 @@
 id: person/ibn-al-bazyar
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 18"]
 ---
-
 ## Overview
-Muhammad ibn Abdallah ibn Umar ibn al-Bazyar, a pupil of Habash ibn Abdallah. Ibn al-Nadim in the *Fihrist* describes him as an accomplished and distinguished man in the craft of astronomy. {cite:fihrist-ibn-al-nadim p. 385}
-
-Among his books, according to Ibn al-Nadim, are *Kitab al-Ahwiya* (On Climates) in nineteen treatises, *Kitab al-Zij* (Astronomical Tables), *Kitab al-Qiranat wa Tahwil Sinni al-Alam* (On Conjunctions and the Transfer of the World's Years), and *Kitab al-Mawalid wa Tahwil Sinni al-Mawalid* (On Nativities and the Transfer of Nativity Years). {cite:fihrist-ibn-al-nadim p. 385}
-
-His date and place of death: these need an additional source.
+Muhammad ibn Abd Allah ibn al-Bazyar, pupil of Habash ibn Abd Allah, an eminent master of the astrologer's art; author of a nineteen-discourse book on climates, a Zij, a book on conjunctions, and the transfer of the world's years. {cite:fihrist-ibn-al-nadim p. 411}

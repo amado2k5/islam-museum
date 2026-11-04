@@ -2,9 +2,7 @@
 id: person/al-majishun
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 18"]
 ---
 ## Overview
-Abd al-Malik ibn Abd al-Aziz ibn Abd Allah ibn Abi Salama al-Majishun. Ibn al-Nadim says that Sakina daughter of al-Husayn gave Abu Salama the nickname al-Majishun, a dye made in Medina. {cite:fihrist-ibn-al-nadim p. 281}
-
-He was among the leading companions of Malik, and he has books of jurisprudence written. {cite:fihrist-ibn-al-nadim p. 281}
+Abd al-Malik ibn Abd al-Aziz al-Majishun — Sakina bint al-Husayn coined his father's name, al-majishun being a Medinan dye — one of the senior companions of Malik, with composed books on fiqh. {cite:fihrist-ibn-al-nadim p. 301}

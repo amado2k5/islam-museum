@@ -2,13 +2,7 @@
 id: person/abu-hashisha
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), prose-fill-persons batch 16"]
 ---
 ## Overview
-Abu Hashisha, Muhammad ibn Ali ibn Umayya, Abu Ja'far, of the descendants of Abu Umayya the scribe. He was a skilled player of the tanbur in his craft. {cite:fihrist-ibn-al-nadim p.448-449}
-
-## His reports
-Ibn al-Nadim says that Juhzah claimed to have learned from him. He attributes to him two books: "al-Mughni al-Majid" and "Akhbar al-Tunburiyyin". {cite:fihrist-ibn-al-nadim p.448-449}
-
-## Notes for researchers
-- The source is single; a second source is needed, and no dates are available.
+Muhammad ibn Ali ibn Umayya, Abu Ja'far Abu Hashisha, a descendant of Abu Umayya the scribe; he was a master tambur-player whom al-Jahiz claimed to have learnt from, author of al-Mughni al-Majid and a book on the tamburists. {cite:fihrist-ibn-al-nadim p. 448-449}

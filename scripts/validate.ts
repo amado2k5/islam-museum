@@ -207,6 +207,17 @@ export function checkCurriculum(loaded: { entity: any; file: string }[]): Issue[
   return issues;
 }
 
+// Raw HTML and script-scheme URLs have no prose construct (GorillaQA #11): the renderer escapes them,
+// so an author must see the failure here, at authoring time, not silently in the output.
+export function proseUnsafeHtml(body: string): string | null {
+  const codeFree = body.replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
+  const htmlTag = codeFree.match(/<\/?[a-zA-Z][^>\n]*>/);
+  if (htmlTag) return `raw HTML is not allowed in prose — the renderer escapes it, so it can only show as text: "${htmlTag[0].slice(0, 60)}" (use the prose constructs: wiki-links, {cite:…}, :::perspectives)`;
+  const badUrl = codeFree.match(/\]\(\s*(?:javascript|data|vbscript)\s*:/i) ?? codeFree.match(/href\s*=\s*["']?\s*(?:javascript|data|vbscript)\s*:/i);
+  if (badUrl) return `javascript:/data:/vbscript: URLs are not allowed in prose: "${badUrl[0].slice(0, 60)}"`;
+  return null;
+}
+
 export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
   const issues: Issue[] = [];
   const err = (file: string, msg: string) => issues.push({ level: "error", file: rel(file), msg });
@@ -521,6 +532,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     for (const m of pr.body.matchAll(citeRe)) if (!known.has(`source/${m[1]}`)) err(pr.file, `{cite:${m[1]}} does not resolve to a source`);
     if (HONORIFIC.test(pr.body)) err(pr.file, "honorifics must not be typed into prose (the UI renders them)");
     if (/[﴿﴾]/.test(pr.body)) err(pr.file, "Qur'an text must never be typed into prose: link the ayah as [[passage/quran-<sura>-<aya>|label]] (docs/plan/09 rule 10)");
+    const unsafe = proseUnsafeHtml(pr.body);
+    if (unsafe) err(pr.file, unsafe);
 
     // scope rule in prose: a perspectives block must start with a Sunni entry, and non-Sunni doctrine must be labelled before it is stated
     for (const blk of pr.body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {

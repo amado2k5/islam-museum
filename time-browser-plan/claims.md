@@ -303,3 +303,54 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-03 | person/ibn-habib-al-halabi | devin | claimed
 2026-11-03 | person/ibn-habib-al-halabi | devin | done — 6 nodes, journey (4 new events + person rewrite); PR #3283
 2026-11-03 | person/ibn-habib-al-halabi | devin | done — 6 nodes, journey (born Damascus Sha'ban 710/early 1311, father appointed muhtasib of Aleppo → Tripoli hearing tour 758 → Tarikh Dawlat al-Atrak completed to 777, son Tahir's dhayl → dies Aleppo Rabi' II 779/1377); 4 new events + work/durrat-al-aslak + 8 stubs; person record rewritten (month-precision born/died, ar/en/ur labels+summary, born_in damascus/died_in+lived_in aleppo, child_of father stub, 6 authored, 4 participated_in, published); all dated facts from Durar al-Kamina (Dar al-Jil) 2/29-30 + Nujum al-Zahira 11/189-190 + al-A'lam 2/218-219 — archive.org djvu OCR used because the harvest SD card (~/islam-museum-harvest → /Volumes/exmicroSD) is not mounted; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-ibn-habib.json (6 nodes need images)
+2026-11-03 | place/tabuk | copilot | claimed
+2026-11-03 | place/khaybar | copilot | claimed
+2026-11-03 | place/badr | copilot | claimed
+2026-11-03 | place/harran | copilot | claimed
+2026-11-03 | place/rayy | copilot | claimed
+2026-11-03 | place/tabuk | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
+2026-11-03 | place/khaybar | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
+2026-11-03 | place/badr | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
+2026-11-03 | place/harran | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
+2026-11-03 | place/rayy | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
+2026-11-03 | place/misr | copilot | claimed
+2026-11-03 | place/armenia | copilot | claimed
+2026-11-03 | place/ifriqiya | copilot | claimed
+2026-11-03 | place/azerbaijan | copilot | claimed
+2026-11-03 | place/ghazna | copilot | claimed
+2026-11-03 | place/al-fustat | copilot | claimed
+2026-11-03 | place/khilat | copilot | claimed
+2026-11-03 | place/al-sham | copilot | claimed
+2026-11-03 | place/hamadan | copilot | claimed
+2026-11-03 | place/ramla | copilot | claimed
+2026-11-03 | place/dimyat | copilot | claimed
+2026-11-03 | place/khurasan | copilot | claimed
+2026-11-03 | place/wasit | copilot | claimed
+2026-11-03 | place/yemen | copilot | claimed
+2026-11-03 | place/amid | copilot | claimed
+2026-11-03 | place/balkh | copilot | claimed
+2026-11-03 | place/fars | copilot | claimed
+2026-11-03 | place/jazira | copilot | claimed
+2026-11-03 | place/khwarizm | copilot | claimed
+2026-11-03 | place/mutah | copilot | claimed
+2026-11-03 | place/misr | copilot | done — 14 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/armenia | copilot | done — 14 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/ifriqiya | copilot | done — 11 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/azerbaijan | copilot | done — 9 eligible dated, cited event nodes; completed missing place provenance
+2026-11-03 | place/ghazna | copilot | done — 9 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/al-fustat | copilot | done — 8 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/khilat | copilot | done — 8 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/al-sham | copilot | done — 7 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/hamadan | copilot | done — 7 eligible dated, cited event nodes; completed missing place provenance
+2026-11-03 | place/ramla | copilot | done — 7 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/ramla | copilot | follow-up — explicitly selected six events, retaining one account of the 460 AH earthquake; generated story now has six eligible chronological stops
+2026-11-03 | place/dimyat | copilot | done — 6 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/khurasan | copilot | done — 6 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/wasit | copilot | done — 6 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/yemen | copilot | done — 6 eligible dated, cited event nodes; completed missing place provenance
+2026-11-03 | place/amid | copilot | done — 5 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/balkh | copilot | done — 5 eligible dated, cited event nodes; completed missing place provenance
+2026-11-03 | place/fars | copilot | done — 5 eligible dated, cited event nodes; completed missing place provenance
+2026-11-03 | place/jazira | copilot | done — 5 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/khwarizm | copilot | done — 5 eligible dated, cited event nodes; completed missing place provenance
+2026-11-03 | place/mutah | copilot | done — 5 eligible dated, cited event nodes; completed missing place provenance

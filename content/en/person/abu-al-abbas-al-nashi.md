@@ -2,11 +2,7 @@
 id: person/abu-al-abbas-al-nashi
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 27"]
 ---
 ## Overview
-Abd Allah ibn Muhammad al-Nashi', the scribe of Anbar. He wrote a book against [[person/al-khalil-ibn-ahmad-al-farahidi|al-Khalil ibn Ahmad]] in which he mentioned kinds in which al-Khalil departed from the tradition of the Arabs, according to al-Mas'udi's description. {cite:muruj-al-dhahab p. 433}
-
-He has an ode in the letter "nun" of some four thousand verses with a single rhyme, in which he mentions the people of opinions, sects and schools, and works on various sciences. {cite:muruj-al-dhahab p. 433}
-
-He travelled from Iraq to Egypt and died there in 293 AH. {cite:muruj-al-dhahab p. 433}
+Abu'l-Abbas Abd Allah ibn Muhammad al-Nashi', secretary of al-Anbar; he composed a book against al-Khalil ibn Ahmad citing passages where al-Khalil departed from Arabic convention, and a nuniyya of some four thousand verses in a single rhyme naming the holders of every opinion, sect, school and creed. He travelled from Iraq to Egypt and died there in 293 AH.

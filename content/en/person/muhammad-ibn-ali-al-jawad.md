@@ -2,10 +2,7 @@
 id: person/muhammad-ibn-ali-al-jawad
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 28"]
 ---
-
 ## Overview
-Muhammad ibn Ali ibn Musa ibn Ja'far, known as al-Jawad. Al-Mas'udi says that he died on the fifth of Dhu al-Hijja 219 AH at the age of twenty-five, and was buried in Baghdad in the cemetery of Quraysh beside his grandfather Musa ibn Ja'far; the caliph al-Wathiq prayed over him. {cite:muruj-al-dhahab p. 443}
-
-Al-Mas'udi also relates that Umm al-Fadl, daughter of al-Ma'mun, poisoned him when she brought him from Medina to al-Mu'tasim, and that the people of the imamate differed about his age at the death of his father. {cite:muruj-al-dhahab p. 443}
+Muhammad ibn Ali ibn Musa ibn Ja'far — al-Jawad; he died on the twenty-fifth of Dhu'l-Hijja 219 AH aged twenty-five, and was buried at Baghdad in the Quraysh cemetery beside his grandfather Musa ibn Ja'far, al-Wathiq leading the funeral prayer.
