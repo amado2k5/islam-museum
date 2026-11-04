@@ -12,4 +12,7 @@ The hafiz Zayn al-Din Abd al-Rahim ibn al-Husayn al-Iraqi, a scholar who in 751 
 
 The data attribute to him the [[work/alfiyya-al-iraqi|Alfiyya of al-Iraqi]].
 
-The year of death is approximate in the museum's data and needs an additional source.
+This date of death agrees with al-Sakhawi above, who gives the month and place: Sha'ban 806 in Cairo. {cite:daw-lami-jil-1992 4/177}
+
+## Note on this record
+A duplicate record with the id `person/al-iraqi-zayn-al-din` has been merged into this one; that id remains as an alias pointing here.
