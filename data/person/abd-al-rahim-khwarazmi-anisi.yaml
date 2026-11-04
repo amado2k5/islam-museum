@@ -1,28 +1,30 @@
 id: person/abd-al-rahim-khwarazmi-anisi
 class: person
-label:
-  ar: "عبد الرحيم أنيسي الخوارزمي"
-  en: "Abd al-Rahim Khwarazmi Anisi"
-roles: [calligrapher]
-gender: male
+label: { ar: "عبد الرحيم الخوارزمي «أنيسي»", en: "Abd al-Rahim Khwarazmi, known as Anisi", ur: "عبد الرحیم خوارزمی «انیسی»" }
 summary:
-  ar: "بطاقة أولية لعبد الرحيم أنيسي الخوارزمي، الخطاط ابن عبد الرحمن؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahim Khwarazmi Anisi, the calligrapher son of Abd al-Rahman; his entry is not yet checked on the page."
+  ar: "خطاط نستعليق من بلاط الآق قويونلو في تبريز، اتخذ لقب «أنيسي» لقربه من السلطان يعقوب، وأتمّ كتابة نسخة «خمسة» نظامي التي تنقلت بين ثلاثة أمراء {cite:blair-islamic-calligraphy-2006 p. 324}."
+  en: "Nasta'liq calligrapher at the Aqqoyunlu court in Tabriz who took the pen name Anisi ('friend') for his closeness to Sultan Ya'qub, and finished copying the peripatetic Khamsa of Nizami {cite:blair-islamic-calligraphy-2006 p. 324}."
+  ur: "تبریز میں آق قویونلو دربار کے نستعلیق خطاط، جنہوں نے سلطان یعقوب سے قربت کی بنا پر «انیسی» تخلص اختیار کیا اور نظامی کے اس «خمسہ» کی کتابت مکمل کی جو کئی شہزادوں کے ہاتھوں سے گزرا {cite:blair-islamic-calligraphy-2006 p. 324}۔"
 wings: [people]
+themes: [arts-of-the-book]
 regions: [persia-central-asia]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam]
-external_ids:
-  wikidata: Q5734455
+gender: male
+roles: [calligrapher]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: patronized_by, target: person/yaqub-beg-aq-qoyunlu, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: lived_in, target: place/tabriz, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: exemplifies, target: concept/nastaliq-script, sources: [source/blair-islamic-calligraphy-2006] }
+sources: [source/blair-islamic-calligraphy-2006, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  source: "source/blair-islamic-calligraphy-2006 scan pp. 15, 324, 325, 326, 354"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }
+external_ids:
+  wikidata: Q5734455
 occupations:
   - job: job/calligrapher
     kind: primary
