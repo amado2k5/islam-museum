@@ -8,6 +8,7 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
   source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section"
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: section from source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 41–42, 56–57"
 ---
 
 ## خلاصہ
