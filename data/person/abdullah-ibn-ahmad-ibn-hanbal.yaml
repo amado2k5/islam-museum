@@ -3,23 +3,39 @@ class: person
 label:
   ar: "عبد الله بن أحمد بن حنبل"
   en: "Abdullah ibn Ahmad ibn Hanbal"
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن أحمد بن محمد بن حنبل الشيباني" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الرحمن" }
 roles: [scholar]
 gender: male
+traditions: [sunni-hanbali]
 summary:
-  ar: "بطاقة أولية لعبد الله بن أحمد بن حنبل، راوية مسند والده وفقيه القرن التاسع، توفي سنة ٩٠٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdullah ibn Ahmad ibn Hanbal, the ninth-century transmitter of his father's Musnad and jurist, d. 903; the biographical entry is not yet checked on the page."
+  ar: "أبو عبد الرحمن عبد الله بن أحمد بن حنبل (213–290هـ)، الحافظ ابن الإمام أحمد وأكثر الناس رواية عنه؛ روى عن أبيه وعن أكثر من أربعمائة شيخ، وعنه النسائي وابن أبي حاتم وأبو بكر القطيعي، وهو راوي «فضائل الصحابة» عن أبيه وصاحب زيادات فيه عن شيوخه؛ وثقه الدارقطني ووصفه الخلال بالصلاح وصدق اللهجة."
+  en: "Abu Abd al-Rahman Abd Allah ibn Ahmad ibn Hanbal (213–290 AH), the hafiz son of Imam Ahmad and his most prolific transmitter. He narrated from his father and from more than four hundred teachers, and al-Nasa'i, Ibn Abi Hatim and Abu Bakr al-Qati'i narrated from him. He transmitted his father's Fada'il al-Sahaba and added to it from his own teachers; al-Daraqutni called him trustworthy and al-Khallal praised his piety and truthfulness."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+born:
+  { edtf: "0828~", hijri: "0213", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 213هـ؛ التحويل مشتق {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.41}", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+died:
+  { edtf: "0903~", hijri: "0290", calendar: julian, precision: year, status: tradition, derived: true, note: "مات سنة 290هـ عن الخلال؛ التحويل مشتق {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.42}", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+faith:
+  - { value: sunni-hanbali, basis: documented, note: "ابن الإمام أحمد وراوي كتبه؛ مترجم في طبقات الحنابلة.", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+relations:
+  - { type: child_of, target: person/ahmad-ibn-hanbal, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: student_of, target: person/ahmad-ibn-hanbal, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: student_of, target: person/yahya-ibn-main, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: sibling_of, target: person/salih-ibn-ahmad-ibn-hanbal, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: lived_in, target: place/baghdad, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/al-aalam]
 external_ids:
   wikidata: Q12223448
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0044
+  source: "فضائل الصحابة لأحمد، تحقيق وصي الله عباس (ط2 1420هـ) ص41–42، 46، 53؛ والبطاقة الأولى من ويكي بيانات/الأعلام"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

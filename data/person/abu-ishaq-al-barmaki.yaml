@@ -1,0 +1,33 @@
+id: person/abu-ishaq-al-barmaki
+class: person
+label: { ar: "أبو إسحاق البرمكي الحنبلي", en: "Abu Ishaq al-Barmaki" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم بن عمر بن أحمد بن إبراهيم بن إسماعيل البرمكي" }
+  - { kind: kunya, lang: ar, value: "أبو إسحاق" }
+gender: male
+roles: [scholar]
+traditions: [sunni-hanbali]
+summary:
+  ar: "أبو إسحاق إبراهيم بن عمر بن أحمد البرمكي (361–445هـ)، فقيه حنبلي بغدادي من تلاميذ أبي بكر القطيعي، روى عنه «فضائل الصحابة» لأحمد بن حنبل، وقوبلت النسخة الخطية الفريدة للكتاب على نسخته؛ قال ابن أبي يعلى إنه كان ناسكاً زاهداً فقيهاً قيماً بالفرائض، وله حلقة بجامع المنصور."
+  en: "Abu Ishaq Ibrahim ibn Umar ibn Ahmad al-Barmaki (361–445 AH), a Hanbali jurist of Baghdad and pupil of Abu Bakr al-Qati'i, through whom Ahmad ibn Hanbal's Fada'il al-Sahaba was transmitted; the book's unique manuscript was collated with his copy. Ibn Abi Ya'la describes him as devout, ascetic, a jurist expert in inheritance law, with a circle in the Mansur mosque."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  { edtf: "0971~", hijri: "0361", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 361هـ؛ التحويل مشتق {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.36}", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+died:
+  { edtf: "1053~", hijri: "0445", calendar: julian, precision: year, status: tradition, derived: true, note: "مات سنة 445هـ؛ التحويل مشتق {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.36}", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+faith:
+  - { value: sunni-hanbali, basis: documented, note: "مترجم في «طبقات الحنابلة» لابن أبي يعلى كما ينقل المحقق.", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+relations:
+  - { type: student_of, target: person/al-qatiqi, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: member_of, target: group/hanbali-madhhab, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: lived_in, target: place/baghdad, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+provenance:
+  layer: own-research
+  source: "فضائل الصحابة، تحقيق وصي الله عباس (ط2 1420هـ) ص36، 54"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/fadail-sahaba-ahmad-wasi-allah-1999]
+status: { review: published, completeness: 3 }

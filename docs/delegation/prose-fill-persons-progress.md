@@ -642,3 +642,15 @@ Promoted: abdallah-ibn-yusuf-al-juwayni, abu-al-marhaf-al-namiri, abu-dalama, ab
 Promoted: abdullah-ibn-al-harith-sahmi, al-harith-ibn-al-harith-sahmi, al-harith-ibn-hatib-ibn-al-harith, al-saib-ibn-al-harith, bishr-ibn-al-harith-sahmi, fatima-bint-al-mujallal, fukayha-bint-yasar, hasana-umm-shurahbil, hatib-ibn-al-harith-jumahi, jabir-ibn-sufyan, junada-ibn-sufyan, mahmiyya-ibn-al-jaz, mamar-ibn-al-harith-sahmi, muhammad-ibn-hatib, qays-ibn-hudhafa, said-ibn-al-harith-sahmi, said-ibn-amr-tamimi, shurahbil-ibn-hasana, sufyan-ibn-mamar-jumahi, uthman-ibn-rabi.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1729.** sweep continues through remaining trilingual drafts.
+
+### Batch 95 (4 Nov 2026, 20 records) — lib-wafayat-batch-7 draft promotions (sweep worker)
+
+Promoted: abu-al-husayn-al-basri, abu-musa-al-madini, abu-talib-al-makki, al-farawi-kamal-al-din, al-farisi-ibn-shahuya, al-kalabadhi-ahmad, al-khwarizmi-ibn-al-abbas, al-maafiri-muhammad, al-masudi-al-shafii, al-qadai-muhammad-ibn-salama, al-qazzaz-al-qayrawani, al-tartushi, al-zubaydi-muhammad, ibn-al-qaysarani, ibn-dawud-al-zahiri, ibn-furak, ibn-hani-al-andalusi, ibn-manda-al-abdi, ibn-samun, qutrub.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1749.** sweep continues through remaining trilingual drafts.
+
+### Batch 96 (4 Nov 2026, 20 records) — lib-shadharat-batch-136 draft promotions (sweep worker)
+
+Promoted: abu-al-khayr-al-alai, abu-tahir-al-khujandi, ahmad-ibn-aqbaras, al-harfush, al-malik-al-mansur-hajji, ali-ibn-aybak-dimashqi, badr-al-din-al-kalastani, burhan-al-din-al-abnasi, ibn-abd-al-haqq-al-hanbali, ibn-khatib-sarmin, ibrahim-al-dajwi, ibrahim-al-sarayi, ibrahim-ibn-muflih, majd-al-din-al-kinani, sad-al-din-malik-al-habasha, shihab-al-din-al-abbadi, shihab-al-din-al-milkawi, siraj-al-din-al-fayyumi, sitt-al-qudat, umar-al-fayyumi.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1769.** sweep continues through remaining trilingual drafts.
