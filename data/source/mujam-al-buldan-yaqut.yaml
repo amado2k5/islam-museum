@@ -4,13 +4,19 @@ kind: primary
 type: book
 label: { ar: "معجم البلدان", en: "Mu'jam al-buldan (Yaqut al-Hamawi), Cairo 1907" }
 summary:
-  ar: "معجم البلدان لياقوت الحموي (ت 626هـ)، طبعة القاهرة 1907م، مجلدان. الأرقام المذكورة أرقام صفحات الماسح الضوئي للنسخة."
-  en: "The Mu'jam al-buldan of Yaqut al-Hamawi (d. 626 AH), Cairo edition of 1907, in two volumes. The page numbers cited are the scan's page numbers."
+  ar: "معجم البلدان لياقوت الحموي (ت 626هـ)، الطبعة الأولى بمطبعة السعادة بالقاهرة (1323هـ/1906م) التي عني بتصحيحها وكتابة المستدرك عليها محمد أمين الخانجي بقراءته على الشيخ أحمد بن الأمين الشنقيطي، في عشرة مجلدات؛ المقروء منها المجلدان الأول والثاني في مسح واحد. الأرقام المذكورة أرقام صفحات المسح."
+  en: "The Mu'jam al-buldan of Yaqut al-Hamawi (d. 626 AH), first edition, Matba'at al-Sa'ada, Cairo (1323 AH / 1906 CE), corrected and supplemented by Muhammad Amin al-Khanji, who read it with Shaykh Ahmad ibn al-Amin al-Shinqiti, in ten volumes; the scan read holds volumes 1 and 2. Page numbers cited are scan pages."
 title: "معجم البلدان"
 author: [{ family: "ياقوت الحموي", given: "شهاب الدين أبو عبد الله ياقوت بن عبد الله" }]
 issued: { "date-parts": [[1907]] }
-publisher: "القاهرة"
+publisher: "مطبعة السعادة، القاهرة (على نفقة أحمد ناجي الجمالي ومحمد أمين الخانجي وأخيه ومولوي عبد الله جيتيكر وسيد موسى شريف)"
 language: ar
-reliability_note: "Classical geographical encyclopedia, thirteenth century. Cite the scan page (PDF page) until printed numbers are verified. OCR by Apple Vision; check doubtful passages against the scan."
+reliability_note: "Classical geographical encyclopedia, thirteenth century. The scan (NYU Bobst Library copy, 856 scan pages) binds volumes 1 and 2 of the Khanji edition; the title page (scan p.5) reads 'end of 1323 AH, beginning of 1906 CE' and 'vol. 1 of ten'; the item id says 1907. Vol. 1 runs to the end of the letter alif (about scan p.415), vol. 2 covers ba and ta to scan p.~850. Cite the scan page (PDF page); vol. 1 printed page = scan page − 4 in the introduction (scan p.17 is printed 13). OCR by Apple Vision; headwords with full vowelling are sometimes misread and numbers in reported dates occasionally garbled (e.g. a death year at scan p.525); check doubtful passages against the scan."
 open_access: true
-status: { review: draft, completeness: 1, generated_by: "Claude Code; bibliographic details from the scan's title page" }
+status: { review: published, completeness: 2, generated_by: "Claude Code; bibliographic details from the scan's title page; extended by Claude Code (OCR-harvest worker J)" }
+provenance:
+  layer: own-research
+  source: "title page and introduction of the scan, vol. 1 scan pp. 5-17"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
