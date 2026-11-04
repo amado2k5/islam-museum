@@ -4,12 +4,16 @@ aliases: [person/sharhabil-ibn-hasana]   # merged 4 Nov 2026: the Wikidata-impor
 label: { en: Shurahbil ibn Hasana, ar: "شرحبيل ابن حسنة" }
 names:
   - { kind: full, lang: ar, value: "شرحبيل ابن حسنة" }
+  - { kind: full, lang: ar, value: "شرحبيل بن عبد الله بن المطاع بن عبد الله الكندي" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الله" }
 gender: male
 roles: [companion, military]
 traditions: [sunni]
 summary:
-  ar: "أخو جنادة وجابر لأمهما حسنة، ذكره ابن إسحاق مع أسرة سفيان بن معمر الجمحي في مهاجرة الحبشة."
-  en: Brother of Junada and Jabir through their mother Hasana; Ibn Ishaq names him with the family of Sufyan ibn Ma'mar al-Jumahi among the emigrants to Abyssinia.
+  ar: "شرحبيل بن عبد الله بن المطاع الكندي، حليف بني زهرة، أبو عبد الله، نُسب إلى أمه حسنة؛ من مهاجرة الحبشة ووجوه قريش، وكان أميراً على ربع من أرباع الشام لعمر، وتوفي في طاعون عمواس سنة 18هـ ابن سبع وستين سنة {cite:istiab-alam-2002 p. 330}؛ ويذكره ابن إسحاق أخاً لجابر وجنادة ابني سفيان لأمهما {cite:ibn-hisham-saqqa 4/8}."
+  en: "Shurahbil ibn 'Abd Allah ibn al-Muta' of Kinda, ally of Banu Zuhra, Abu 'Abd Allah, named after his mother Hasana; an emigrant to Abyssinia counted among the leading men of Quraysh, governor of one of the four districts of Syria for 'Umar, who died in the plague of 'Amwas in 18 AH aged sixty-seven {cite:istiab-alam-2002 p. 330}; Ibn Ishaq names him as half-brother through their mother of Jabir and Junada, sons of Sufyan {cite:ibn-hisham-saqqa 4/8}."
+  ur: "شرحبیل بن عبد اللہ بن المطاع کندی، بنو زہرہ کے حلیف، ابو عبد اللہ، اپنی والدہ حسنہ کی طرف منسوب؛ حبشہ کے مہاجرین اور قریش کے سرکردہ لوگوں میں سے، عمر کی طرف سے شام کے چار حصوں میں سے ایک کے امیر، اور 18ھ میں طاعونِ عمواس میں سڑسٹھ برس کی عمر میں فوت ہوئے {cite:istiab-alam-2002 p. 330}؛ ابن اسحاق انہیں سفیان کے بیٹوں جابر اور جنادہ کا ماں کی طرف سے بھائی بتاتے ہیں {cite:ibn-hisham-saqqa 4/8}۔"
+died: { edtf: "0639", hijri: "0018", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي في طاعون عمواس سنة 18هـ وهو ابن سبع وستين سنة {cite:istiab-alam-2002 p. 330}؛ السنة الميلادية مشتقة.", sources: [source/istiab-alam-2002] }
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -23,14 +27,17 @@ relations:
   - { type: sibling_of, target: person/junada-ibn-sufyan, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/jabir-ibn-sufyan, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/kinda, note: "من كندة حليف لبني زهرة {cite:istiab-alam-2002 p. 330}", sources: [source/istiab-alam-2002] }
+  - { type: lived_in, target: place/al-sham, note: "كان أميراً على ربع من أرباع الشام لعمر {cite:istiab-alam-2002 p. 330}", sources: [source/istiab-alam-2002] }
+  - { type: participated_in, target: event/plague-of-amwas, note: "توفي فيه {cite:istiab-alam-2002 p. 330}", sources: [source/istiab-alam-2002] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: "own-research"
-  source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch94
-sources: [source/ibn-hisham-saqqa]
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8; al-Isti'ab (Dar al-A'lam 2002) p. 330, entry 1153"
+  generated_by: "Devin (SWE-2 Medium); Claude Code (OCR-harvest worker A)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: prose-fill-persons-batch94, ocr-harvest-2026-11-04
+sources: [source/ibn-hisham-saqqa, source/istiab-alam-2002]
 external_ids:
   wikidata: Q3299394
 status:
