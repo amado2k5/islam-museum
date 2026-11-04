@@ -16,6 +16,8 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 39, Ibn Hisham al-Saqqa cohort).
+- **Persons**: 16 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 38, Ibn Hisham al-Saqqa cohort — entry recorded with batch 39).
 - **Events**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 1).
 - **Persons**: 13 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 130).
 - **Persons**: 14 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 129).
