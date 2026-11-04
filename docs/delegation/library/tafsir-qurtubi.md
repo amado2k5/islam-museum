@@ -14,3 +14,12 @@ Pages read (Resala vol. 1): 1–8 (title, imprint, author's preface and method),
 
 ## Next
 Al-Qurtubi's chapters on the seven ahruf (pp. 71–82), the collection of the Qur'an (83–95), non-Arabic words (110–111) and inimitability (112–121); sura-level material from the Alam al-Kutub set.
+
+## Batch 2 (second pass, OCR-harvest worker B)
+Pages read (Resala vol. 1): 110–111 (chapter on non-Arabic words), 176–191 (al-Fatiha, chapter 2 "on its revelation and its rulings", questions 1–14).
+- Created: `question/must-al-fatiha-be-recited-in-every-raka` (Malik/al-Shafi'i/Ahmad and al-Qurtubi; al-Hasan al-Basri; Abu Hanifa, al-Thawri, al-Awza'i and the two companions; al-Tabari with Ibn Abd al-Barr's reply), `question/must-the-follower-recite-al-fatiha-behind-the-imam` (al-Shafi'i and Ahmad, al-Qurtubi's choice; Malik's well-known view; Ibn Wahb, Ashhab, Ibn Abd al-Hakam, Ibn Habib and the Kufans), `question/does-the-quran-contain-non-arabic-words` (al-Baqillani and al-Tabari; some scholars; Ibn Atiyya).
+- Enriched: `work/al-jami-li-ahkam-al-quran` (sections on the method of rulings shown in al-Fatiha, and on Arabized words; three `about` edges).
+- Notes: "the Kufans" are linked only to Abu Hanifa; Ashhab, Ibn Habib, Ibn Abd al-Hakam have no linked records here. Verse wording and the long list of example words are not reproduced.
+
+## Next
+The seven ahruf (pp. 71–82) and the collection of the Qur'an (pp. 83–95); the Alam al-Kutub full text (needs a source record) for ahkam passages in al-Baqara (e.g. the qibla, fasting, the verse of debt).
