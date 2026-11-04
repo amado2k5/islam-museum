@@ -1,25 +1,47 @@
 id: person/mir-fendereski
 class: person
 label:
-  ar: "الفندرسكي"
+  ar: "مير فندرسكي"
   en: "Mir Fendereski"
-roles: [scholar]
+roles: [philosopher, mystic, poet, teacher]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد أمين الفندرسكي، فيلسوف وشاعر إصفهان في القرن السابع عشر، توفي سنة ١٦٤٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Amin al-Fendereski, the seventeenth-century philosopher and poet of Safavid Isfahan, d. 1640; the biographical entry is not yet checked on the page."
+  ar: "مير فندرسكي (نحو ١٥٦٢/٦٣–١٦٤٠م) فيلسوف ومتصوّف وشاعر صفوي من مدرسة أصفهان، اشتهر بتدريس فلسفة ابن سينا وبأسفاره المتكررة إلى الهند المغولية حيث علّق على ترجمة «يوغا فاسيشتا» الفارسية ووضع معجماً لمصطلحاتها."
+  en: "Mir Fendereski (c. 1562/63–1640) was a Safavid philosopher, mystic and poet of the School of Isfahan, famed as a teacher of Avicenna and for his repeated journeys to Mughal India, where he annotated the Persian Yoga Vāsiṣṭhā and compiled a glossary of its terms."
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Two independent texts attest the affiliation for the man himself: the Golha biographical entry opens by calling him an 'Imami mystic, philosopher, and poet', and Encyclopaedia Iranica describes his treatise on badāʾ — a distinctively Imami doctrine — as arguing from narrations of the Imams against Ṭusi's rejection of it, and notes his inclusion in Aʿyān al-shiʿa, the biographical dictionary of Shi'a notables. 'Imami' names the Twelver branch itself, so the value is recorded as shia-twelver by that mapping. Structured data alone (the Persian article's infobox, madhhab: Shi'a) was not used."
+    sources: [source/iranica-mir-fendereski, source/golha-mir-fendereski]
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+born:
+  edtf: "1562"
+  hijri: "0970"
+  precision: year
+  status: debated
+  sources: [source/iranica-mir-fendereski, source/golha-mir-fendereski, source/wikipedia-fa-mir-fendereski]
+  note: "Born probably in 970/1562-63: Iranica dates him 'probably born around 970/1562-63', since he died aged about eighty; the English article gives c. 1562 and the Persian 970 AH / 1563. The birthplace is disputed: the biographical tradition (the Persian article and Golha) names Findirisk in the Astarabad (Gorgan) region, the village his nisba preserves, while Iranica argues from his grandfather's flight into Khorasan and his father's eastern birth that he may have been born in the east of Persia, possibly Mashad, like his friend Mir Damad. No place entity for Findirisk exists in the museum, so no born_in edge is written."
+died:
+  edtf: "1640"
+  hijri: "1050"
+  precision: year
+  status: debated
+  sources: [source/iranica-mir-fendereski, source/golha-mir-fendereski]
+  note: "Died in Isfahan in 1050/1640 and was buried in the Takht-e Fulad cemetery there, in the tomb known as Tikyih-yi Mir by the tomb of Baba Rukn al-Din; his tombstone is dated 1640, but a manuscript of the Ṣenāʿiya and a chronogram quatrain give 1639, and both readings are preserved — 1640 follows the tombstone and Iranica. Iranica corrects the story that he was buried in an iron casket as a misunderstanding of the Takht-e Fulad burial. He left his library to Shah Safi."
+relations:
+  - {type: died_in, target: place/isfahan, sources: [source/iranica-mir-fendereski, source/golha-mir-fendereski]}
+  - {type: buried_in, target: place/isfahan, sources: [source/golha-mir-fendereski, source/wikipedia-fa-mir-fendereski]}
+sources: [source/wikipedia-mir-fendereski, source/wikipedia-fa-mir-fendereski, source/wikipedia-ar-al-fendereski, source/iranica-mir-fendereski, source/golha-mir-fendereski, source/wikidata-mir-fendereski, source/al-aalam]
 external_ids:
   wikidata: Q4116338
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0032
+  source: "Replaces the Devin wikidata-import draft stub at the same slug; identity follows Wikidata Q4116338. All statements were checked against the registered sources read in full (Encyclopaedia Iranica, Golha, and the English, Persian and Arabic Wikipedia articles); al-Aʿlām is retained as an unread pointer from the stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-187"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
