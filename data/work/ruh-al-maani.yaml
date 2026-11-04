@@ -1,17 +1,31 @@
 id: work/ruh-al-maani
 class: work
 kind: book
-label: { ar: "روح المعاني في تفسير القرآن", en: "Ruh al-Ma'ani" }
+label: { ar: "روح المعاني في تفسير القرآن العظيم والسبع المثاني", en: "Ruh al-Ma'ani", ur: "روح المعانی فی تفسیر القرآن العظیم والسبع المثانی" }
 summary:
-  ar: "بطاقة أولية لروح المعاني للآلوسي البغدادي، التفسير الكبير في ثلاثين مجلداً؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for al-Alusi's Ruh al-Ma'ani, the thirty-volume Baghdad tafsir; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "تفسير أبي الثناء شهاب الدين محمود الألوسي البغدادي (1217–1270هـ)، مفتي بغداد؛ شرع فيه ليلة السادس عشر من شعبان 1252هـ بعد رؤيا رآها في رجب من السنة نفسها، وسماه الوزير علي رضا باشا، واشتغل فيه خمسة عشر عامًا، فجاء في ثلاثين جزءًا، وطُبع أول مرة في بولاق سنة 1301هـ."
+  en: "The commentary of Abu al-Thana' Shihab al-Din Mahmud al-Alusi of Baghdad (1217–1270 AH), mufti of Baghdad; he began it on the night of 16 Sha'ban 1252 after a dream he had in Rajab of that year, the vizier Ali Rida Pasha named it, and he worked on it for fifteen years; it runs to thirty parts and was first printed at Bulaq in 1301 AH."
+  ur: "ابو الثناء شہاب الدین محمود آلوسی بغدادی (1217–1270ھ)، مفتیِ بغداد، کی تفسیر؛ انہوں نے رجب 1252ھ میں ایک خواب کے بعد اسی سال 16 شعبان کی رات اسے شروع کیا، وزیر علی رضا پاشا نے اس کا نام رکھا، اور وہ پندرہ برس اس پر کام کرتے رہے؛ یہ تیس اجزا میں ہے اور پہلی بار 1301ھ میں بولاق سے چھپی۔"
+genre: [tafsir]
+authors: [person/mahmud-al-alusi]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/ruh-al-maani-ilmiyya-1994-v1] }
+structure: "Thirty parts (juz'), printed in fifteen volumes in the old editions; opens with the author's preface and several introductory 'benefits' (fawa'id), the first on the meaning of tafsir and ta'wil."
+composed: { hijri: "1252-08-16", edtf: "1836-11-26", calendar: gregorian, precision: day, status: historical, derived: true, note: "Date the author began: the night of 16 Sha'ban 1252, his thirty-fourth year (preface, PDF p. 5). The thesis says he worked on it for fifteen years (PDF p. 34). Gregorian date by tabular conversion.", sources: [source/ruh-al-maani-ilmiyya-1994-v1, source/juhud-al-alusi-al-balaghiyya-thesis] }
+relations:
+  - { type: about, target: concept/tafsir, sources: [source/ruh-al-maani-ilmiyya-1994-v1] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/colonial-era]
+regions: [levant-iraq]
 external_ids: { wikidata: "Q7378644" }
+sources: [source/al-aalam, source/ruh-al-maani-ilmiyya-1994-v1, source/juhud-al-alusi-al-balaghiyya-thesis]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in tafsir histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/ruh-al-maani-ilmiyya-1994-v1 PDF pp. 1–6; source/juhud-al-alusi-al-balaghiyya-thesis PDF pp. 34, 41, 57. Earlier card: Wikidata candidate (Devin, wikidata-import-wave2)."
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  enriched_by:
+    - { generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: wikidata-import-wave2, source: "Wikidata candidate (original card)" }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
