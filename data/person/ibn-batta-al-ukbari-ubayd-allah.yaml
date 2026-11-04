@@ -1,32 +1,41 @@
 id: person/ibn-batta-al-ukbari-ubayd-allah
 class: person
-label: { ar: "ابن بطة العكبري عبيد الله بن محمد", en: "Ibn Batta al-Ukbari, Ubayd Allah ibn Muhammad" }
+label: { ar: "ابن بطة العكبري عبيد الله بن محمد", en: "Ibn Batta al-Ukbari, Ubayd Allah ibn Muhammad", ur: "ابن بطہ عکبری، عبید اللہ بن محمد" }
 names:
   - { kind: full, lang: ar, value: "أبو عبد الله عبيد الله بن محمد بن بطة العكبري" }
+  - { kind: full, lang: ar, value: "أبو عبد الله عبيد الله بن محمد بن محمد بن حمدان بن عمر بن عيسى بن إبراهيم بن سعد بن عتبة بن فرقد" }
 gender: male
-roles: [muhaddith, jurist]
-traditions: [sunni]
-born: { edtf: "0917", hijri: "0304", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "0997", hijri: "0387", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+roles: [scholar, jurist, theologian, teacher]
+traditions: [sunni, sunni-hanbali]
+born: { edtf: "0917", hijri: "0304", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة أربع وثلاثمائة؛ ونقل محقق الإبانة عن المنتظم لابن الجوزي أنه ولد يوم الاثنين لأربع خلون من شوال سنة 304 (دراسة المحقق ص 25). السنة الميلادية مشتقة.", sources: [source/mawsuat-a3lam-ulama-adaba, source/ibana-kubra-muti-iman] }
+died: { edtf: "0997", hijri: "0387", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي يوم عاشوراء سنة سبع وثمانين وثلاثمائة (دراسة محقق الإبانة ص 27)؛ السنة الميلادية مشتقة.", sources: [source/mawsuat-a3lam-ulama-adaba, source/ibana-kubra-muti-iman] }
 summary:
-  ar: "ولد في عكبرا القريبة من بغداد، محدث وفقيه حنبلي."
-  en: "Born in Ukbara near Baghdad, a Hanbali jurist and hadith scholar."
+  ar: "أبو عبد الله عبيد الله بن محمد بن بطة العكبري (304–387هـ)، محدث وفقيه حنبلي من عكبرا على دجلة فوق بغداد، رحل إلى البصرة والشام ومكة والثغور ثم لزم بيته يدرّس ويؤلف، وصنف «الإبانة الكبرى» و«الشرح والإبانة» في عقيدة أهل الحديث، وأخذ عن أبي بكر النجاد والخرقي والآجري وغيرهم."
+  en: "Abu Abd Allah Ubayd Allah ibn Muhammad Ibn Batta al-Ukbari (304–387 AH), a Hanbali hadith scholar and jurist from Ukbara on the Tigris above Baghdad, who travelled to Basra, Syria, Mecca and the frontier posts and then kept to his house teaching and writing; author of al-Ibana al-Kubra and al-Sharh wa-al-Ibana on the creed of the hadith scholars, and a student of Abu Bakr al-Najjad, al-Khiraqi, al-Ajurri and others."
 wings: [people]
-themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions, creed]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
+faith:
+  - { value: sunni-hanbali, basis: documented, note: "Counted among the senior Hanbali scholars of his time; his Ibana sets out the creed of the hadith scholars (editor's study, pp. 27, 58).", sources: [source/ibana-kubra-muti-iman] }
+relations:
+  - { type: authored, target: work/ibana-al-kubra-ibn-batta, sources: [source/ibana-kubra-muti-iman] }
+  - { type: born_in, target: place/ukbara, sources: [source/ibana-kubra-muti-iman] }
+  - { type: student_of, target: person/ahmad-ibn-salman-al-najjad, sources: [source/ibana-kubra-muti-iman] }
+  - { type: student_of, target: person/umar-ibn-husayn-al-khiraqi, sources: [source/ibana-kubra-muti-iman] }
+  - { type: student_of, target: person/al-ajurri, sources: [source/ibana-kubra-muti-iman] }
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/ibana-kubra-muti-iman]
 status:
   review: published
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص556"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch58
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص556؛ دراسة محقق الإبانة الكبرى (دار الراية 1415هـ) ص 25–28، 58"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker C)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "prose-fill-persons-batch58; ocr-harvest-2026-11-04"
 occupations:
   - job: job/muhaddith
     kind: secondary
