@@ -87,7 +87,15 @@ export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
     .map((n) => ({ n, pos: positionOf(n, byId) }))
     .filter((x): x is { n: GraphNode; pos: Position } => x.pos !== null)
     .sort((a, b) => (a.pos.earliest - b.pos.earliest) || a.n.id.localeCompare(b.n.id))
-  const records = spreadAcrossTime(pool, LAUNCH_PER_TOPIC)
+  let records = spreadAcrossTime(pool, LAUNCH_PER_TOPIC)
+  const required = pool.filter(({ n }) => TOUR_IDS.includes(n.id))
+  if (required.some(({ n }) => !records.some(record => record.n.id === n.id))) {
+    const optional = pool.filter(({ n }) => !TOUR_IDS.includes(n.id))
+    records = [
+      ...required,
+      ...spreadAcrossTime(optional, LAUNCH_PER_TOPIC - required.length),
+    ].sort((a, b) => (a.pos.earliest - b.pos.earliest) || a.n.id.localeCompare(b.n.id))
+  }
   return records.map(({ n, pos }) => {
     // Citation markers ({cite:...}) belong to the entity page, not to the stop card.
     const plain = (x: string) => x.replace(/\{cite:[^}]*\}/g, '').replace(/\s+/g, ' ').trim()
