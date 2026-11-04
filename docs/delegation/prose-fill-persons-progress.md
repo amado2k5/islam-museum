@@ -325,3 +325,9 @@ Promoted: kilab-ibn-hamza-al-aqili, muhammad-ibn-yazid-ibn-muslama, sulayman-ibn
 Promoted: aban-al-lahiqi, abd-al-ghani-ibn-said-al-azdi, abd-al-hamid-ibn-badis, abd-al-jabbar-al-jumurd, abd-al-qadir-al-baghdadi, abd-al-qadir-al-jilani, abd-al-rahman-al-jabarti, abd-al-rahman-al-tha-alibi, abd-al-rahman-badawi, abd-al-rahman-ibn-hormoz-al-araj, abd-al-rahman-ibn-ziyad-ibn-anam, abd-al-wahhab-ibn-ali-al-baghdadi, abd-al-wahid-ibn-zayd, abd-allah-ibn-ayyub-al-taymi, abd-allah-ibn-maslama-al-qanabi, abd-allah-ibn-miqdad-al-aqfahsi, abkarius-iskandar-ibn-yaqub, abu-al-arab-al-tamimi-muhammad, abu-al-aswad-al-duali, abu-al-khayr-al-armuni, abu-al-wafa-al-buzjani, abu-al-wafa-al-ghunaymi-al-taftazani, abu-ali-al-muhassin-al-tanukhi, abu-amir-muhammad-ibn-ahmad-al-balawi, abu-awana-yaqub-ibn-ishaq.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 785.** mawsuat-a3lam ~390 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
+
+### Batch 48 (4 Nov 2026, 25 records) — mawsuat-a3lam draft promotions 2 (sweep worker)
+
+Promoted: abu-bakr-ibn-abi-al-qasim-al-ahdal, abu-nuaym-al-asbahani-ahmad, abyani-abu-al-abbas, abyari-abd-al-hadi-naja, abyari-ali-ibn-ismail, afuqay-ahmad-ibn-al-qasim, ahmad-abd-al-sattar-al-jawari, ahmad-al-halawani-shihab-al-din, ahmad-al-hamlawi, ahmad-al-jarai, ahmad-al-saghir-ibn-hamallah, ahmad-al-tijani-kitabi, ahmad-al-tijani, ahmad-ibn-abdallah-al-asabi, ahmad-ibn-hamallah-al-tishiti, ahmad-ibn-imad-al-aqfahsi, ahmad-ibn-isa-al-khazzaz, ahmad-ibn-mustafa-ibn-al-khawja, ahmad-ibn-yahya-al-jalla, ahmad-ibn-yahya-tha-lab, ahmad-ibn-yusuf-al-tifashi, akhi-zade-yusuf-efendi, al-abbas-ibn-al-ahnaf, al-abbi-muhammad, al-abhari-abu-bakr.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 810.** mawsuat-a3lam ~363 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
