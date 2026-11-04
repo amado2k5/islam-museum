@@ -3,6 +3,7 @@ id: concept/istiwa-ala-al-arsh
 lang: ar
 source_lang: ar
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "al-ibana-ashari-dar-ibn-zaydun pp. 33–34 (section added; earlier text by its original authors)" }
 ---
 ## موجز
 يحذر الشعراوي من فهم الاستواء المنسوب إلى الله بالمفهوم البشري، لأن صفات الله ليست كصفات المخلوقين، فكما أن علم الله وقدرته وحياته لا تُقاس بعلم الإنسان وقدرته وحياته، فكذلك الاستواء {cite:tafsir-sharawi-khawatir-scan p.233}.
@@ -25,3 +26,6 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## عند الأشعري في «الإبانة»
+يعقد [[person/al-ashari|أبو الحسن الأشعري]] في [[work/al-ibana-ashari|«الإبانة»]] «باب ذكر الاستواء على العرش»، فيقول إن الله مستوٍ على عرشه كما قال، ويستدل بآيات صعود الكلم الطيب إليه والرفع والعروج، وبقول فرعون إنه يطّلع إلى إله موسى، وبأن المسلمين يرفعون أيديهم في الدعاء نحو السماء. {cite:al-ibana-ashari-dar-ibn-zaydun p. 33-34} ويرد على تفسير الاستواء بالاستيلاء والقهر، وينسبه إلى المعتزلة والجهمية والحرورية، بأن الله مستولٍ على الأشياء كلها، فلو كان الاستواء هو الاستيلاء لم يكن للعرش فيه اختصاص. {cite:al-ibana-ashari-dar-ibn-zaydun p. 34}
