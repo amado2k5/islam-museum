@@ -1,0 +1,28 @@
+id: work/mirat-al-zaman
+class: work
+kind: book
+label: { ar: "مرآة الزمان في تواريخ الأعيان", en: "Mir'at al-Zaman fi Tawarikh al-A'yan", ur: "مرآۃ الزمان فی تواریخ الاعیان" }
+summary:
+  ar: "تاريخ عام لسبط ابن الجوزي (581–654هـ) يبدأ بخلق السماوات والأرض، ثم يسرد السيرة والحوادث والوفيات على السنين من مولد النبي، وسماه مؤلفه «مرآة الزمان» «ليكون اسماً يوافق مسماه» {cite:mirat-al-zaman-risala-2013-v1 p.6}؛ وفي حوادث عصره (588–654هـ) يروي ما شهده بنفسه بصيغة «قال المصنف»، كمجلسه بجامع دمشق سنة 607هـ ومجلسه فيه بعد تسليم القدس سنة 626هـ {cite:mirat-al-zaman-risala-2013-v22 p.172} {cite:mirat-al-zaman-risala-2013-v22 p.296}."
+  en: "A universal history by Sibt ibn al-Jawzi (581-654 AH) beginning with the creation of the heavens and the earth and then narrating the Prophet's life, events and deaths year by year from the Prophet's birth; its author named it Mir'at al-zaman 'so that the name fits what it names'. For his own age (588-654 AH) he reports what he witnessed under 'the author said', such as his session in the Damascus mosque in 607 and his session there after the surrender of Jerusalem in 626."
+authors: [person/sibt-ibn-al-jawzi]
+language: language/arabic
+genre: [history, biography]
+wings: [words, time]
+themes: [history-writing-and-social-thought, crusades]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+structure: "Author's preface with five fasls: the meaning of ta'rikh and tawrikh; the principal histories and the chains of reports; the duration of the world; the style an author should use; the titles of the chapters (vol. 1 pp. 5-7). Then creation and the prophets, pre-Islamic nations, the sira, and annals with obituaries by year from the Hijra to 654 AH. Risala edition: 23 volumes, vol. 22 covering 588-654 AH."
+editions:
+  - "Damascus-Beirut, Dar al-Risala al-Alamiyya, 1st ed. 1434/2013, 23 vols, each volume with its own editor (source/mirat-al-zaman-risala-2013-v1; vol. 22 ed. Ibrahim al-Zaybaq, source/mirat-al-zaman-risala-2013-v22)"
+relations:
+  - { type: about, target: event/sibt-jihad-sermon-607, sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: about, target: event/jerusalem-cession-626, sources: [source/mirat-al-zaman-risala-2013-v22] }
+sources: [source/mirat-al-zaman-risala-2013-v1, source/mirat-al-zaman-risala-2013-v22]
+provenance:
+  layer: own-research
+  source: "source/mirat-al-zaman-risala-2013-v1 pp. 1-11; source/mirat-al-zaman-risala-2013-v22 pp. 1, 171-173, 207, 296-300"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

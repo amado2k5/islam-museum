@@ -13,7 +13,7 @@ provenance:
 ---
 
 ## Summary
-A mu'an'an chain is one phrased "so-and-so from (*an*) so-and-so"; [[person/ibn-al-salah|Ibn al-Salah]] treats it in the first appendix to the type of [[concept/mudal|mu'dal]]. {cite:muqaddima-ibn-salah-itr p. 61} Some counted it as mursal or broken until its connection was shown by another route; the sound view acted upon, for him, is that it belongs to [[concept/ittisal-al-isnad|the connected chain]], held by most hadith imams and used by those who stipulated soundness in their collections. {cite:muqaddima-ibn-salah-itr p. 61}
+A mu'an'an chain is one phrased "so-and-so from (*an*) so-and-so"; [[person/ibn-al-salah|Ibn al-Salah]] treats it in the first appendix to the type of [[concept/al-hadith-al-muadal|mu'dal]]. {cite:muqaddima-ibn-salah-itr p. 61} Some counted it as mursal or broken until its connection was shown by another route; the sound view acted upon, for him, is that it belongs to [[concept/ittisal-al-isnad|the connected chain]], held by most hadith imams and used by those who stipulated soundness in their collections. {cite:muqaddima-ibn-salah-itr p. 61}
 
 ## Two conditions
 [[person/ibn-abd-al-barr|Ibn Abd al-Barr]] almost claimed the consensus of the hadith imams on this, and [[person/abu-amr-al-dani|Abu Amr al-Dani]] claimed the consensus of the transmitters — on condition that the narrators linked by "from" are known to have met one another and are free of the taint of [[concept/tadlis|tadlis]]; then it is taken as outwardly connected unless the contrary appears. {cite:muqaddima-ibn-salah-itr p. 61} Ibn al-Salah notes that in his own time "from" had come to be widely used for transmission by licence, which does not remove it from the connected category. {cite:muqaddima-ibn-salah-itr p. 62}

@@ -14,11 +14,11 @@ regions: [arabia]
 relations:
   - { type: member_of, target: group/banu-tamim, sources: [source/kamil-ibn-al-athir] }
   - { type: related_to, target: person/farazdaq, note: "جدّه", sources: [source/kamil-ibn-al-athir] }
-sources: [source/kamil-ibn-al-athir, source/ansab-al-ashraf]
+sources: [source/kamil-ibn-al-athir, source/ansab-al-ashraf, source/mustadrak-ilmiyya-ata-v3]
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير ص349؛ أنساب الأشراف للبلاذري ج12 ص61-62"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   model: swe-2-high
   run: lib-ansab-1
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker A), claude-opus-5-5, run ocr-harvest-2026-11-04, from al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 707-708" }

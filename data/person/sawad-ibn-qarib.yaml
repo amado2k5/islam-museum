@@ -1,0 +1,24 @@
+id: person/sawad-ibn-qarib
+class: person
+label: { ar: "سواد بن قارب الأزدي", en: "Sawad ibn Qarib al-Azdi", ur: "سواد بن قارب ازدی" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "سواد بن قارب الأزدي، رجل من أهل اليمن من بيت شرف، كان كاهناً في الجاهلية؛ يروي الحاكم أن عمر بن الخطاب سأله في المسجد عن خبر «رئيّه» الذي أتاه ثلاث ليال يخبره بمبعث النبي، فحدّثه أنه رحل إلى مكة فعلم بالهجرة فأتى المدينة فأسلم وأنشد شعراً؛ وقال الذهبي: الإسناد منقطع {cite:mustadrak-ilmiyya-ata-v3 p. 704-706}."
+  en: "Sawad ibn Qarib al-Azdi, a Yemeni of a noble house and a soothsayer before Islam. Al-Hakim relates that 'Umar ibn al-Khattab asked him in the mosque about the familiar spirit that came to him on three nights announcing the Prophet's mission; Sawad told how he set out for Mecca, learned of the Hijra, went on to Medina, accepted Islam and recited a poem. Al-Dhahabi: the chain is broken {cite:mustadrak-ilmiyya-ata-v3 p. 704-706}."
+  ur: "سواد بن قارب ازدی، یمن کے ایک معزز گھرانے کے فرد، جو جاہلیت میں کاہن تھے۔ حاکم روایت کرتے ہیں کہ عمر بن خطاب نے مسجد میں ان سے اس 'رئی' کا حال پوچھا جو تین راتیں ان کے پاس آ کر نبی کی بعثت کی خبر دیتا رہا؛ سواد نے بتایا کہ وہ مکہ روانہ ہوئے، ہجرت کی خبر ملی تو مدینہ پہنچے، اسلام قبول کیا اور ایک نظم پڑھی۔ ذہبی: سند منقطع ہے {cite:mustadrak-ilmiyya-ata-v3 p. 704-706}۔"
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/al-azd, sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: traveled_to, target: place/medina, note: "قدم المدينة بعد الهجرة فأسلم {cite:mustadrak-ilmiyya-ata-v3 p. 705-706}", sources: [source/mustadrak-ilmiyya-ata-v3] }
+provenance:
+  layer: own-research
+  source: "al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 704-706, hadith 6558 with al-Dhahabi's note"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/mustadrak-ilmiyya-ata-v3]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

@@ -25,4 +25,4 @@ In his [[work/muqaddimat-ibn-al-salah|Muqaddima]] [[person/ibn-al-salah|Ibn al-S
 **An odd view**: al-Khatib reports from some hadith scholars that munqati' is a saying or act of a Successor or someone later, stopping at him; Ibn al-Salah calls this odd and far-fetched. {cite:muqaddima-ibn-salah-itr p. 59}
 
 ## Neighbouring types
-Next in Ibn al-Salah comes [[concept/mudal|the mu'dal]], a name for a special kind of munqati': every mu'dal is munqati', but not every munqati' is mu'dal. {cite:muqaddima-ibn-salah-itr p. 59} The whole topic bears on the requirement of [[concept/ittisal-al-isnad|a connected chain]] for a sound hadith.
+Next in Ibn al-Salah comes [[concept/al-hadith-al-muadal|the mu'dal]], a name for a special kind of munqati': every mu'dal is munqati', but not every munqati' is mu'dal. {cite:muqaddima-ibn-salah-itr p. 59} The whole topic bears on the requirement of [[concept/ittisal-al-isnad|a connected chain]] for a sound hadith.
