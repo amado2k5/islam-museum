@@ -1,0 +1,26 @@
+id: person/khalaf-ibn-qasim-ibn-al-dabbagh
+class: person
+label: { ar: "خلف بن القاسم ابن الدباغ", en: "Khalaf ibn al-Qasim Ibn al-Dabbagh", ur: "خلف بن القاسم ابن الدباغ" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم خلف بن القاسم بن سهل بن محمد بن يونس الأزدي" }
+  - { kind: laqab, lang: ar, value: "ابن الدباغ" }
+gender: male
+roles: [muhaddith]
+traditions: [sunni]
+summary:
+  ar: "أبو القاسم خلف بن القاسم بن سهل الأزدي القرطبي، المعروف بابن الدباغ (325–393هـ)، محدّث الأندلس في وقته؛ رحل إلى المشرق سنة 345هـ فتردد هناك نحو خمس عشرة سنة وسمع بمصر والشام ومكة، وكتب عن نحو ثلاث مئة رجل، وأكثر عنه ابن عبد البر ولم يكن يقدّم عليه من شيوخه أحداً، كما ينقل الحميدي {cite:tamhid-furqan-2017-v1 p. 12}."
+  en: "Abu al-Qasim Khalaf b. al-Qasim b. Sahl al-Azdi of Cordoba, known as Ibn al-Dabbagh (325–393 AH), the hadith scholar of al-Andalus in his time; he travelled East in 345 AH, spent some fifteen years there hearing in Egypt, Syria and Mecca, and wrote from about three hundred men; Ibn 'Abd al-Barr transmitted from him abundantly and, as al-Humaydi reports, ranked none of his teachers above him {cite:tamhid-furqan-2017-v1 p. 12}."
+  ur: "ابو القاسم خلف بن القاسم بن سہل ازدی قرطبی، ابن الدباغ کے نام سے معروف (325–393ھ)، اپنے وقت میں اندلس کے محدث؛ وہ 345ھ میں مشرق گئے، تقریباً پندرہ سال وہاں رہ کر مصر، شام اور مکہ میں سماع کیا، اور تقریباً تین سو افراد سے لکھا؛ ابن عبد البر نے ان سے بکثرت روایت کی اور حمیدی کے بقول اپنے کسی شیخ کو ان پر مقدم نہیں کرتے تھے {cite:tamhid-furqan-2017-v1 p. 12}۔"
+born: { hijri: "0325", edtf: "0937~", calendar: julian, precision: year, status: tradition, derived: true, note: "(٣٩٣-٣٢٥هـ) كما يكتبها محقق التمهيد ط. الفرقان ج1 ص 12؛ التحويل مشتق.", sources: [source/tamhid-furqan-2017-v1] }
+died: { hijri: "0393", edtf: "1003~", calendar: julian, precision: year, status: tradition, derived: true, note: "(٣٩٣-٣٢٥هـ) كما يكتبها محقق التمهيد ط. الفرقان ج1 ص 12؛ التحويل مشتق.", sources: [source/tamhid-furqan-2017-v1] }
+wings: [people]
+themes: [scripture-and-its-sciences, travel]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/cordoba, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: traveled_to, target: place/mecca, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/abu-al-walid-ibn-al-faradi, sources: [source/tamhid-furqan-2017-v1] }
+provenance: { layer: own-research, source: "al-Tamhid, al-Furqan ed. 2017 vol. 1, editor's introduction p. 12 (printed)", generated_by: "Claude Code (OCR-harvest worker A)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/tamhid-furqan-2017-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

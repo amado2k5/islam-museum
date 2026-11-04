@@ -15,13 +15,16 @@ wings: [place]
 regions: [persia-central-asia]
 coordinates: [39.7747, 64.4286]
 external_ids: { wikidata: Q5764, geonames: "1217662", pleiades: "762205391" }
-sources: [source/futuh-buldan-maarif-1407, source/ahsan-al-taqasim, source/farghani-elements-astronomy]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
+sources: [source/futuh-buldan-maarif-1407, source/ahsan-al-taqasim, source/farghani-elements-astronomy, source/mujam-al-buldan-yaqut]
+status: { review: published, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold)" }
 
-provenance:
-  model: "claude-haiku-5-5"
-  run: "farghani-389-577"
 kids:
   ar: "بخارى مدينة العلم على الحدود الفارسية، فيها سجن تحت الأرض وقبر السامانيين."
   en: "Bukhara, city of learning on the old frontier — home of the Samanid shrines and schools."
   ur: "بخارہ علم کا شہر پرانے سرحد پر — سامانی مقبرے اور مدارس کا گھر۔"
+provenance:
+  layer: own-research
+  source: "source/mujam-al-buldan-yaqut vols 1-2 scan pp. 485-490"
+  generated_by: "enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-haiku-5-5; claude-opus-5-5"
+  run: "farghani-389-577; ocr-harvest-2026-11-04"

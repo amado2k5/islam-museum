@@ -7,9 +7,11 @@ summary:
   en: "Bayhaq, a rustaq of Naysabur; the ascetic al-Aswad ibn Kulthum breached its walls and fell with his band before Adham ibn Kathum won the town."
 regions: [persia-central-asia]
 wings: [place]
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1 }
+sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut]
+status: { review: published, completeness: 2 }
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+  source: "source/mujam-al-buldan-yaqut vols 1-2 scan pp. 750-751"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "ocr-harvest-2026-11-04"

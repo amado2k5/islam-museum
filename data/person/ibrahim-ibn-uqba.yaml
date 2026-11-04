@@ -1,0 +1,32 @@
+id: person/ibrahim-ibn-uqba
+class: person
+label: { ar: "إبراهيم بن عقبة", en: "Ibrahim ibn 'Uqba", ur: "ابراہیم بن عقبہ" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم بن عقبة بن أبي عياش المدني" }
+gender: male
+roles: [muhaddith]
+traditions: [sunni]
+summary:
+  ar: "إبراهيم بن عقبة بن أبي عياش المدني، مولى آل الزبير بن العوام، تابعي من شيوخ مالك، أخو موسى ومحمد ابني عقبة؛ سمع أم خالد بنت خالد بن سعيد وسعيد بن المسيب وعروة وكريباً، وروى عنه مالك والثوري وابن عيينة وغيرهم، ووصفه ابن عبد البر بأنه ثقة حجة فيما نقل {cite:tamhid-furqan-2017-v1 p. 258-259}."
+  en: "Ibrahim b. 'Uqba b. Abi 'Ayyash of Medina, client of the family of al-Zubayr b. al-'Awwam, a Successor and one of Malik's teachers, brother of Musa and Muhammad b. 'Uqba; he heard Umm Khalid bint Khalid b. Sa'id, Sa'id b. al-Musayyab, 'Urwa and Kurayb, and Malik, al-Thawri, Ibn 'Uyayna and others transmitted from him; Ibn 'Abd al-Barr calls him trustworthy and an authority in what he transmitted {cite:tamhid-furqan-2017-v1 p. 258-259}."
+  ur: "ابراہیم بن عقبہ بن ابی عیاش مدنی، آلِ زبیر بن عوام کے مولیٰ، تابعی اور امام مالک کے شیوخ میں سے، موسیٰ اور محمد بن عقبہ کے بھائی؛ انہوں نے ام خالد بنت خالد بن سعید، سعید بن مسیب، عروہ اور کریب سے سنا، اور ان سے مالک، ثوری، ابن عیینہ وغیرہ نے روایت کی؛ ابن عبد البر انہیں ثقہ اور اپنی نقل میں حجت کہتے ہیں {cite:tamhid-furqan-2017-v1 p. 258-259}۔"
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: sibling_of, target: person/musa-ibn-uqba, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/said-ibn-al-musayyab, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/urwa-ibn-al-zubayr, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/umar-ibn-abd-al-aziz, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/kurayb-mawla-ibn-abbas, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/malik-ibn-anas, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/sufyan-al-thawri, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/sufyan-ibn-uyayna, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/hammad-ibn-zayd, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/ibn-ishaq, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/abd-al-aziz-al-darawardi, sources: [source/tamhid-furqan-2017-v1] }
+provenance: { layer: own-research, source: "al-Tamhid, al-Furqan ed. 2017 vol. 1 pp. 258–260 (printed)", generated_by: "Claude Code (OCR-harvest worker A)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/tamhid-furqan-2017-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

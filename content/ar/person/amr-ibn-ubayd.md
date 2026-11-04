@@ -3,6 +3,11 @@ id: person/amr-ibn-ubayd
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "mizan-itidal-bijawi-v3 printed pp. 273–280 (entry 6404)"
 ---
 ## موجز
 عمرو بن عبيد بن باب، مولى بني تميم، يكنى أبا عثمان. من شيوخ المعتزلة ومن أصحاب [[person/wasil-ibn-ata|واصل بن عطاء]]. توفي في أيام المنصور سنة 144هـ، وقيل سنة 145هـ. {cite:muruj-al-dhahab p. 214-216}
@@ -14,3 +19,26 @@ translators: []
 تذكر الرواية عند ابن النديم أنه اعتزل مجلس قتادة بعد موت الحسن، فسمى قتادة جماعته المعتزلة. {cite:fihrist-ibn-al-nadim p. 557} وفي موضع آخر خبر عن عيبه واصلاً بطول عنقه، وجواب واصل له، ثم مناظرتهما. {cite:fihrist-ibn-al-nadim supplement p. 525}
 
 يحتاج إلى مصدر إضافي: كل ما سبق يستند إلى مصدر واحد لكل خبر.
+
+## في ميزان الاعتدال للذهبي
+يترجم [[person/al-dhahabi|الذهبي]] في [[work/mizan-al-itidal|ميزان الاعتدال]] لعمرو بن عبيد بن باب، أبي عثمان البصري، ويصفه بأنه «المعتزلي القدري مع زهده وتألهه». {cite:mizan-itidal-bijawi-v3 p. 273} روى عن [[person/al-hasan-al-basri|الحسن]] وأبي قلابة، وروى عنه الحمّادان وعبد الوارث و[[person/yahya-ibn-said-al-qattan|يحيى القطان]] وعبد الوهاب الثقفي وعلي بن عاصم. {cite:mizan-itidal-bijawi-v3 p. 273} وولاؤه لبني تميم، وكان أبوه من شُرط الحجاج. {cite:mizan-itidal-bijawi-v3 p. 273} وذكر يعقوب الفسوي أنه كان نسّاجاً. {cite:mizan-itidal-bijawi-v3 p. 279}
+
+## نشأة الاعتزال
+نقل الذهبي عن ابن علية أن أول من تكلم في الاعتزال [[person/wasil-ibn-ata|واصل الغزال]]، ودخل معه عمرو بن عبيد فأُعجب به واصل وزوّجه أخته. {cite:mizan-itidal-bijawi-v3 p. 275} وشهد أبو عوانة واصلاً، وهو خطيب [[group/mutazila|المعتزلة]]، يخطب عند عمرو فيبلغ، فقال عمرو: أترون لو أن ملكاً من الملائكة أو نبياً من الأنبياء يزيد على هذا! {cite:mizan-itidal-bijawi-v3 p. 277} ونقل عن ابن حبان أنه كان من أهل الورع والعبادة إلى أن أحدث ما أحدث، واعتزل مجلس الحسن هو وجماعة معه فسُمّوا المعتزلة. {cite:mizan-itidal-bijawi-v3 p. 274}
+
+## الجرح فيه
+قال ابن معين: لا يُكتب حديثه، وقال النسائي: متروك الحديث، وقال [[person/ayyub-al-sakhtiyani|أيوب]] و[[person/yunus-ibn-ubayd|يونس]]: يكذب، وقال حميد: كان يكذب على الحسن، وقال الدارقطني وغيره: ضعيف. {cite:mizan-itidal-bijawi-v3 p. 274} وقال ابن حبان إنه كان يشتم الصحابة ويكذب في الحديث وهماً لا تعمداً. {cite:mizan-itidal-bijawi-v3 p. 274} وقال الفلاس: متروك صاحب بدعة، وذكر أن شعبة روى عنه حديثين وحدّث عنه الثوري بأحاديث. {cite:mizan-itidal-bijawi-v3 p. 275} ولما سئل ابن معين: أكان يكذب؟ قال: كان داعية إلى دينه، وفرّق بينه وبين قتادة وابن أبي عروبة وسلام بن مسكين بأنهم كانوا يصدقون ولا يدعون إلى بدعة. {cite:mizan-itidal-bijawi-v3 p. 277} وبمثل ذلك أجاب [[person/abd-allah-ibn-al-mubarak|ابن المبارك]] حين سئل لماذا روى عن سعيد وهشام الدستوائي وترك عمراً ورأيهم واحد: كان عمرو يدعو إلى رأيه ويظهر الدعوة، وكانا ساكتين. {cite:mizan-itidal-bijawi-v3 p. 275} ويذكر الذهبي أنه صحّ أن يحيى بن سعيد تركه بأخرة. {cite:mizan-itidal-bijawi-v3 p. 276}
+
+ومن الأخبار التي ساقها الذهبي في مواقفه: أنه قال لو شهد عنده علي وطلحة والزبير وعثمان على شراك نعل ما أجاز شهادتهم. {cite:mizan-itidal-bijawi-v3 p. 275} ونقل معاذ بن معاذ عنه قولاً في سورة [[passage/quran-111-1|المسد]] والقدر، احتج به معاذ على يحيى القطان في الرواية عنه. {cite:mizan-itidal-bijawi-v3 p. 276} وروى قريش بن أنس أن عمراً احتج في خلود القاتل بآية [[passage/quran-4-93|النساء 93]]، فاعترض عليه قريش بآية [[passage/quran-4-48|النساء 48]] في المغفرة لمن يشاء، فلم يرد عليه شيئاً. {cite:mizan-itidal-bijawi-v3 p. 277} وروى الأصمعي مناظرته مع [[person/abu-amr-ibn-al-ala|أبي عمرو بن العلاء]] في الوعد والوعيد، إذ فرّق أبو عمرو بين الوعد والإيعاد واستشهد بشعر العرب. {cite:mizan-itidal-bijawi-v3 p. 278} {cite:mizan-itidal-bijawi-v3 p. 279} وأورد عن [[person/hammad-ibn-zayd|حماد بن زيد]] أن أيوب ويونس وابن عون لم يردوا تحيته، وعن [[person/hammad-ibn-salama|حماد بن سلمة]] وغيره منامات في ذمه. {cite:mizan-itidal-bijawi-v3 p. 274} {cite:mizan-itidal-bijawi-v3 p. 279}
+
+## زهده والمنصور
+مع ذلك ينقل الذهبي عن [[person/al-hasan-al-basri|الحسن]] قوله: نعم الفتى عمرو بن عبيد إن لم يحدث. {cite:mizan-itidal-bijawi-v3 p. 279} ويقول الذهبي إن [[person/al-mansur|المنصور]] كان يخضع لزهده وعبادته، وينسب إليه أبياته المشهورة «كلكم يطلب صيد، كلكم يمشي رويد، غير عمرو بن عبيد». {cite:mizan-itidal-bijawi-v3 p. 279} ونقل عن [[person/ibn-qutayba|ابن قتيبة]] في «المعارف» أن المنصور رثاه بأبيات على قبره بمرّان. {cite:mizan-itidal-bijawi-v3 p. 279}
+
+## وفاته ورد الذهبي على تهمة الدهرية
+قال الخطيب: مات بطريق مكة سنة ثلاث وأربعين ومائة، وقيل سنة أربع. {cite:mizan-itidal-bijawi-v3 p. 279} ونقل أحمد بن زهير عن ابن معين أنه كان «رجل سوء من الدهرية»، أي ممن يقولون إن الناس مثل الزرع، وأنه كان يرى السيف. {cite:mizan-itidal-bijawi-v3 p. 280} فرد الذهبي: الدهرية كفار، «وما كان عمرو هكذا». {cite:mizan-itidal-bijawi-v3 p. 280}
+
+:::perspectives
+- **أهل السنة: ابن معين والنسائي وأيوب ويونس وحميد والفلاس والدارقطني وابن حبان**: متروك، داعية إلى بدعة الاعتزال والقدر، ومنهم من رماه بالكذب على الحسن. {cite:mizan-itidal-bijawi-v3 p. 274} {cite:mizan-itidal-bijawi-v3 p. 275} {cite:mizan-itidal-bijawi-v3 p. 277}
+- **أهل السنة: الذهبي**: معتزلي قدري مع زهده وتألهه، وينفي عنه تهمة الدهرية. {cite:mizan-itidal-bijawi-v3 p. 273} {cite:mizan-itidal-bijawi-v3 p. 280}
+- **رأي المعتزلة**: لم يُذكر هنا من مصادرهم بعد؛ ما يحكيه الذهبي من إعجاب واصل به ورثاء المنصور له منقول عن مصادر سنية. {cite:mizan-itidal-bijawi-v3 p. 275} {cite:mizan-itidal-bijawi-v3 p. 279}
+:::

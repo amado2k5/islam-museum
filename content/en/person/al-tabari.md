@@ -3,6 +3,11 @@ id: person/al-tabari
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance:
+  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section"
 ---
 ## Overview
 Abu Ja'far Muhammad ibn Jarir al-Tabari al-Amuli, born in Amul in 224 AH and died in Baghdad in 310 AH. Ibn al-Nadim counts him among those skilled in the sciences of the Qur'an, grammar, poetry, language and jurisprudence. {cite:fihrist-ibn-al-nadim p.326-327}
@@ -37,3 +42,13 @@ Of his brilliance: in Egypt, tested on prosody he had not mastered, he spent one
 His ordering of time: a siesta before noon, then authorship until the afternoon prayer, teaching Qur'an in the mosque until sunset, debating fiqh until the evening prayer, then seclusion for writing where none entered — with a nightly Qur'an portion that sometimes reached a quarter of the book {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:18:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:18:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:19:00}.
 Of his character toward opponents: when a student of Dawud al-Zahiri wronged him he composed a hundred-leaf rebuttal, then tore it up on hearing of Dawud's death; conversely he praised Muhammad ibn Dawud to his family though the man had written against him — turning enmity to affection {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:21:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:22:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:22:30}.
 He concludes: in him the creativity equation was almost complete — gift, nurture, journey, students, the taking and giving halves, and balance — among the rare few in whom it all met {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:11:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:12:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:23:00}.
+
+## In al-Dhahabi's Mizan al-I'tidal
+In [[work/mizan-al-itidal|Mizan al-I'tidal]], [[person/al-dhahabi|al-Dhahabi]] gives an entry to Muhammad ibn Jarir ibn Yazid al-Tabari, calling him the great imam and exegete, author of brilliant works, and records that he died in the year 310. {cite:mizan-itidal-bijawi-v3 p. 498} He judges him trustworthy and truthful, with a slight Shi'ism and a loyalty to the Prophet's family that do no harm. {cite:mizan-itidal-bijawi-v3 p. 499}
+
+He reports that the hafiz Ahmad ibn Ali al-Sulaymani spoke harshly of him, saying that he forged reports for the Rafida. {cite:mizan-itidal-bijawi-v3 p. 499} Al-Dhahabi rejects this as "a stone thrown on false suspicion": Ibn Jarir is one of the great relied-on imams of Islam; al-Dhahabi does not claim he was free of error, but it is not lawful to wrong him out of falsehood and caprice. {cite:mizan-itidal-bijawi-v3 p. 499} He states a general rule: what scholars say about one another should be weighed slowly, above all about a great imam. {cite:mizan-itidal-bijawi-v3 p. 499} Then, in an addition from one manuscript, he suggests that al-Sulaymani perhaps meant his namesake [[person/muhammad-ibn-jarir-ibn-rustam|Muhammad ibn Jarir ibn Rustam]], whom al-Dhahabi lists immediately afterwards as a Rafidi. {cite:mizan-itidal-bijawi-v3 p. 499}
+
+:::perspectives
+- **Sunni: al-Dhahabi**: trustworthy and truthful, one of the great imams of Islam, with a slight Shi'ism that does no harm; the charge of forgery is a stone thrown on suspicion. {cite:mizan-itidal-bijawi-v3 p. 499}
+- **Sunni: Ahmad ibn Ali al-Sulaymani as reported by al-Dhahabi**: he forged reports for the Rafida — possibly meaning Ibn Rustam, not the exegete. {cite:mizan-itidal-bijawi-v3 p. 499}
+:::

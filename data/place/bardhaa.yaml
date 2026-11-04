@@ -11,11 +11,11 @@ periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
 relations:
   - { type: part_of, target: place/arran, sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-futuh-buldan-batch-16
-  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273; source/mujam-al-buldan-yaqut vols 1-2 scan pp. 523-525"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "lib-futuh-buldan-batch-16; ocr-harvest-2026-11-04"

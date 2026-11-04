@@ -1,21 +1,82 @@
 id: person/al-battani
 class: person
-label: { ar: "محمد بن جابر البتاني", en: "al-Battani" }
+label: { ar: "محمد بن جابر البتاني", en: "al-Battani", ur: "محمد بن جابر البتانی" }
+names:
+  - { kind: full, value: "أبو عبد الله محمد بن جابر بن سنان الرقي الحراني البتاني الصابئ" }
+  - { kind: kunya, value: "أبو عبد الله" }
+  - { kind: nisba, value: "الحراني" }
+  - { kind: nisba, value: "الرقي" }
+  - { kind: nisba, value: "البتاني" }
+  - { kind: latinized, lang: la, value: "Albategnius" }
+  - { kind: latinized, lang: la, value: "Albatenius" }
 summary:
-  ar: "محمد بن جابر البتاني، عده المسعودي فيمن عُني بعلوم الهيئة بعد ظهور الإسلام {cite:muruj-al-dhahab p. 519}. وعند المسعودي هو أبو عبد الله محمد بن جابر صاحب الزيج الذي اعتمده في تاريخ مدد الخلفاء من الهجرة إلى سنة ست وثلاثين وثلثمائة إذ كان أهل صناعة النجوم يراعون هذه الأوقات ويحصلون علمها على التحديد {cite:muruj-al-dhahab p. 736}"
-  en: "Muhammad ibn Jabir al-Battani, numbered by al-Mas'udi among Islam's astronomers {cite:muruj-al-dhahab p. 519}."
+  ar: "أبو عبد الله محمد بن جابر بن سنان الحراني الرقي البتاني (قبل 244–317هـ)، فلكي ورياضي من أهل حران سكن الرقة ورصد فيها الكواكب من سنة 264 إلى 306هـ، وصاحب «الزيج» الذي صحح فيه أرصاد بطليموس وحركاته، وتوفي عائدًا من بغداد في قصر الجص قرب سامراء {cite:nallino-albatenii-opus-astronomicum p. 17} {cite:nallino-albatenii-opus-astronomicum p. 23} {cite:nallino-albatenii-opus-astronomicum p. 27}. وعند المسعودي أنه ممن عني بعلم الهيئة بعد ظهور الإسلام {cite:muruj-al-dhahab p. 519}."
+  en: "Abu Abd Allah Muhammad ibn Jabir ibn Sinan al-Harrani al-Raqqi al-Battani (born before 244, died 317 AH / 929 CE), astronomer and mathematician from Harran who lived in al-Raqqa, observed there from 264 to 306 AH, wrote the Zij that corrected Ptolemy's observations and motions, and died on his way back from Baghdad at Qasr al-Jiss near Samarra {cite:nallino-albatenii-opus-astronomicum p. 17} {cite:nallino-albatenii-opus-astronomicum p. 23} {cite:nallino-albatenii-opus-astronomicum p. 27}."
+  ur: "ابو عبد اللہ محمد بن جابر بن سنان حرانی رقی البتانی (244ھ سے پہلے – 317ھ)، حران کے ماہرِ فلکیات و ریاضی دان جو رقہ میں رہے، وہاں 264 سے 306ھ تک رصد کیا، اور «زیج» لکھی جس میں بطلیموس کے ارصاد و حرکات کی تصحیح کی؛ بغداد سے واپسی پر سامرا کے قریب قصر الجص میں فوت ہوئے {cite:nallino-albatenii-opus-astronomicum p. 17} {cite:nallino-albatenii-opus-astronomicum p. 27}."
 gender: male
+roles: [astronomer, mathematician, scientist, writer]
+floruit:
+  edtf: "0877/0919"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "تاريخ مولده غير معروف، ويرى نالينو أنه ولد قبل سنة 244هـ (858م) {cite:nallino-albatenii-opus-astronomicum p. 23}. بدأ الرصد سنة 264هـ واستمر إلى سنة 306هـ، ووضع الكواكب الثابتة في زيجه لسنة 299هـ، بحسب رواية جعفر بن المكتفي عنه عند ابن النديم والقفطي {cite:nallino-albatenii-opus-astronomicum p. 17}."
+died:
+  edtf: "0929"
+  hijri: "0317"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "توفي سنة 317هـ في قصر الجص عائدًا من بغداد (ابن النديم والقفطي)؛ وفي وفيات الأعيان «قصر الحضر»، ويرى نالينو أنه تصحيف {cite:nallino-albatenii-opus-astronomicum p. 17} {cite:nallino-albatenii-opus-astronomicum p. 27}."
 wings: [people]
+themes: [astronomy-and-timekeeping, mathematics, translation-and-transmission]
 periods: [period/abbasid-early]
+regions: [levant-iraq]
+disciplines: [concept/astronomy]
+relations:
+  - { type: authored, target: work/al-zij-al-sabi, sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: authored, target: work/kitab-marifat-matali-al-buruj-battani, sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: authored, target: work/risalat-tahqiq-aqdar-al-ittisalat, sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: authored, target: work/sharh-al-maqalat-al-arba-battani, sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: lived_in, target: place/raqqa, role: "موضع أرصاده ومعظم حياته", sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: lived_in, target: place/harran, role: "أصله ومنشأ أسرته", sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: traveled_to, target: place/antioch, role: "رصد فيها كسوفًا وخسوفًا سنة 901م", sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: traveled_to, target: place/baghdad, role: "قدمها مع بني الزيات من أهل الرقة في ظلامة خراج", sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: died_in, target: place/qasr-al-jiss, sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: child_of, target: person/jabir-ibn-sinan-al-harrani, confidence: low, note: "يرى نالينو أن أباه يبدو أنه جابر بن سنان الحراني صانع الآلات الذي ذكره ابن النديم", sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: influenced, target: work/de-motu-stellarum-plato-tiburtinus, sources: [source/nallino-albatenii-opus-astronomicum] }
+issue:
+  ar: "هل كان البتاني مسلمًا أم صابئيًا؟"
+  en: "Was al-Battani a Muslim or a Sabian?"
+perspectives:
+  - tradition: sunni
+    id: ibn-khallikan-abu-al-fida
+    standing: main
+    stance: { ar: "اسمه «محمد» يدل على إسلامه", en: "His name Muhammad indicates he was a Muslim" }
+    summary:
+      ar: "قال ابن خلكان إنه لم يقف على أنه أسلم، لكن اسمه محمدًا يدل على إسلامه؛ وزاد أبو الفداء أن مقدمة زيجه تدل على ذلك أيضًا، كما ينقل نالينو."
+      en: "Ibn Khallikan said he had not found that al-Battani embraced Islam, but that his name Muhammad shows he became a Muslim; Abu al-Fida added that the preface of his Zij shows it too, as Nallino reports."
+    holders: [person/ibn-khallikan, person/abu-al-fida]
+    sources: [source/nallino-albatenii-opus-astronomicum]
+  - tradition: academic
+    id: nallino
+    standing: secondary
+    stance: { ar: "مسلم يقينًا، ونسبة «الصابئ» موروثة عن آبائه", en: "Certainly a Muslim; the nisba al-Sabi was inherited from his forebears" }
+    summary:
+      ar: "يرى نالينو أن أوثق شاهد على إسلامه مقدمة الزيج التي يستشهد فيها بآيات كثيرة، والعبارات الإسلامية المنثورة في أواخر الأبواب، وأن لقب «الصابئ» قد ينتقل من الأب إلى الابن كما سمي مسلمون بالنصراني والمجوسي والإسرائيلي، وقد يكون لصق به لأنه حراني. وينقل أن بعض المتأخرين من الأوروبيين كرايسكه ومونتوكلا ورينو جعلوه صابئيًا بلا أساس."
+      en: "Nallino holds that the surest witness to his Islam is the Zij's preface, which cites many Qur'anic verses, and the Muslim formulas closing its chapters; the nisba al-Sabi could pass from father to son, as Muslims bore names like al-Nasrani, al-Majusi or al-Isra'ili, or could have stuck to him as a Harranian. He reports that some later Europeans (Reiske, Montucla, Reinaud) called him a Sabian without basis."
+    sources: [source/nallino-albatenii-opus-astronomicum]
+sources: [source/nallino-albatenii-opus-astronomicum, source/muruj-al-dhahab, source/farghani-elements-astronomy]
+external_ids: { wikidata: Q11079 }
 provenance:
   layer: own-research
-  source: "المسعودي، مروج الذهب وأهل المعاجن"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch27
-sources: [source/muruj-al-dhahab, source/farghani-elements-astronomy]
+  source: "source/nallino-albatenii-opus-astronomicum, Latin preface scan pp. 16–71 (printed VII–LXII); source/muruj-al-dhahab p. 519"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  note: "Enriched from the earlier record by Devin (SWE-2 Medium), prose-fill-persons-batch27."
 status:
   review: published
   completeness: 3
-
-external_ids: { wikidata: Q11079 }

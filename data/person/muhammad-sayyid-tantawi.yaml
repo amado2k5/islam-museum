@@ -30,17 +30,20 @@ died:
   note: "Died of a heart attack in Riyadh, Saudi Arabia, and was buried in Medina. Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia article gives the Hijri date as 24 Rabi' al-awwal 1431 AH."
   sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar, source/wikidata-muhammad-sayyid-tantawi]
 relations:
-  - { type: lived_in, target: place/medina, sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar] }
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar, source/tafsir-tantawi-wasit] }
+  - { type: lived_in, target: place/cairo, sources: [source/tafsir-tantawi-wasit] }
 faith:
   - value: sunni
     basis: documented
     note: "Wikidata records his religion as both Islam and Sunni Islam, and the Arabic Wikipedia infobox independently gives his jurisprudence as Shafi'i, one of the four Sunni schools. The English infobox gives no denomination."
     sources: [source/wikidata-muhammad-sayyid-tantawi, source/wikipedia-muhammad-sayyid-tantawi-ar]
 external_ids: { wikidata: "Q369971" }
-sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar, source/wikidata-muhammad-sayyid-tantawi]
+sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar, source/wikidata-muhammad-sayyid-tantawi, source/tafsir-tantawi-wasit]
 provenance:
   layer: own-research
   source: "English Wikipedia article 'Muhammad Sayyid Tantawi' (revision of 3 October 2026), Arabic Wikipedia article «محمد سيد طنطاوي» (revision of 7 October 2026), Wikidata Q369971; checked 24 Oct 2026"
   generated_by: "Muse (Muse Spark 1.3)"
   run: modern-figures-batch-1
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/tafsir-tantawi-wasit PDF pp. 1, 2, 9, 10, 2496, 2770, 3061, 6903 (al-Tafsir al-Wasit section added to the ar/en/ur prose; Medina added to lived_in sources)" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

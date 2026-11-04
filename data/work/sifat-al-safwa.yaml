@@ -3,15 +3,24 @@ class: work
 kind: book
 label: { ar: "صفة الصفوة", en: "Sifat al-Safwa" }
 summary:
-  ar: "بطاقة أولية لصفة الصفوة لابن الجوزي، تراجم الزهاد والعباد؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Sifat al-Safwa, Ibn al-Jawzi's biographies of the ascetics; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب لأبي الفرج ابن الجوزي (ت 597هـ) في أخبار الزهاد والعباد، ألّفه اختصاراً وتهذيباً لـ«حلية الأولياء» لأبي نعيم الأصبهاني مع زيادات كثيرة؛ يفتتحه بذكر النبي ثم الصحابة والصحابيات ثم التابعين ومن بعدهم مرتبين على البلدان من المدينة ومكة إلى أقاصي المشرق والمغرب، ويزيد عدد من فيه على ألف شخص منهم أكثر من مائتي امرأة."
+  en: "Abu al-Faraj Ibn al-Jawzi's (d. 597 AH) book on the ascetics and devout, written as an abridgement and correction of Abu Nu'aym al-Isfahani's Hilyat al-Awliya' with many additions. It opens with the Prophet, then the Companions male and female, then the Successors and later generations arranged by city from Medina and Mecca to the far East and West; it covers more than a thousand people, over two hundred of them women."
+genre: [biography, zuhd]
+made: { by_muslims: true, basis: documented, sources: [source/sifat-al-safwa-tartusi-2012] }
+authors: [person/ibn-al-jawzi]
+language: language/arabic
+structure: "مقدمة المؤلف ونقده للحلية (ص25–30)؛ باب في فضل الأولياء؛ ذكر النبي؛ الصحابة على طبقاتهم في الفضل؛ الصحابيات؛ ثم التابعون ومن بعدهم على البلدان: المدينة، مكة، الطائف، اليمن، بغداد، المدائن، واسط، البصرة، الأبلة … حتى نخشب في المشرق، ثم عكبرا والموصل والشام ومصر والمغرب والجبال والجزائر والسواحل والبوادي، ثم من لقوا في الطريق وبعرفة والطواف، ثم من لم يعرف اسمه، ثم البنيات الصغار، ثم عباد الجن (خطة المؤلف ص29–30)؛ 1031 ترجمة في طبعة طرطوسي."
+editions: [source/sifat-al-safwa-tartusi-2012]
+wings: [words, people]
+themes: [spirituality-and-sufism, women]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
 external_ids: { wikidata: "Q12220060" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/sifat-al-safwa-tartusi-2012 pp. 7–8, 23–30, 967–1007"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sifat-al-safwa-tartusi-2012, source/al-aalam]
+status: { review: published, completeness: 3 }

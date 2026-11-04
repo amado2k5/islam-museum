@@ -1,0 +1,24 @@
+id: person/wasi-allah-abbas
+class: person
+label: { ar: "وصي الله بن محمد عباس", en: "Wasi Allah ibn Muhammad Abbas" }
+names:
+  - { kind: full, lang: ar, value: "وصي الله بن محمد عباس" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "محقق محدث معاصر، أستاذ مشارك بجامعة أم القرى بمكة المكرمة عند صدور الطبعة الثانية من تحقيقه لكتاب «فضائل الصحابة» لأحمد بن حنبل؛ كان تحقيق الكتاب رسالته للدكتوراه، وطبعته الجامعة سنة 1403هـ ثم دار ابن الجوزي سنة 1420هـ، وترجم فيه لأكثر من 1762 راوياً وحكم على أسانيده."
+  en: "A contemporary hadith scholar and editor, associate professor at Umm al-Qura University in Mecca when the second edition of his critical edition of Ahmad ibn Hanbal's Fada'il al-Sahaba appeared; the edition was his doctoral thesis, printed by the university in 1403 AH and by Dar Ibn al-Jawzi in 1420 AH, with detailed notices of more than 1,762 transmitters and a grading of every chain."
+wings: [people]
+sensitivity: contested
+periods: [period/contemporary-era]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+provenance:
+  layer: own-research
+  source: "فضائل الصحابة، تحقيق وصي الله عباس (ط2 1420هـ) صفحة العنوان وص5–9، 44–47"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/fadail-sahaba-ahmad-wasi-allah-1999]
+status: { review: published, completeness: 3 }

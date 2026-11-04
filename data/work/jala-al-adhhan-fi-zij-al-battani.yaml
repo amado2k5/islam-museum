@@ -1,0 +1,24 @@
+id: work/jala-al-adhhan-fi-zij-al-battani
+class: work
+kind: book
+label: { ar: "جلاء الأذهان في زيج البتاني", en: "Jala' al-adhhan fi zij al-Battani", ur: "جلاء الاذہان فی زیج البتانی" }
+summary:
+  ar: "كتاب ذكر البيروني أنه صنفه في زيج البتاني، ومعنى عنوانه «جلاء الأذهان»، كما ينقل نالينو {cite:nallino-albatenii-opus-astronomicum p. 42}."
+  en: "A book that al-Biruni says he wrote on al-Battani's Zij, its title meaning 'the polishing of minds', as Nallino reports {cite:nallino-albatenii-opus-astronomicum p. 42}."
+  ur: "ایک کتاب جس کے بارے میں بیرونی بتاتے ہیں کہ انہوں نے اسے البتانی کی زیج پر لکھا؛ عنوان کا مطلب «ذہنوں کی جلا» ہے، جیسا کہ نالینو نقل کرتے ہیں {cite:nallino-albatenii-opus-astronomicum p. 42}."
+wings: [ideas, words]
+themes: [astronomy-and-timekeeping]
+authors: [person/al-biruni-muhammad-ibn-ahmad]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/nallino-albatenii-opus-astronomicum] }
+disciplines: [concept/astronomy]
+relations:
+  - { type: commentary_on, target: work/al-zij-al-sabi, sources: [source/nallino-albatenii-opus-astronomicum] }
+sources: [source/nallino-albatenii-opus-astronomicum]
+provenance:
+  layer: own-research
+  source: "source/nallino-albatenii-opus-astronomicum Latin preface scan p. 42"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 1 }

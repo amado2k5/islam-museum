@@ -1,0 +1,25 @@
+id: person/aisha-al-makkiyya
+class: person
+label: { ar: "عائشة المكية", en: "A'isha al-Makkiyya" }
+names:
+  - { kind: full, lang: ar, value: "عائشة المكية" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من مكة صحبت الفضيل بن عياض، يذكرها ابن الجوزي في «صفة الصفوة» برواية أبي عبيد القاسم بن سلام أنها رأته يستلقي ويمد رجله بحذاء الكعبة فقالت له: يقال إنك عالم، اقبل مني كلمة: لا تجالسه إلا بأدب فيمحو اسمك من ديوان القرب."
+  en: "A devout woman of Mecca who kept company with al-Fudayl ibn Iyad; Ibn al-Jawzi in Sifat al-Safwa reports from Abu Ubayd al-Qasim ibn Sallam that she saw him lying with his legs stretched out facing the Ka'ba and said: they say you are a scholar; accept a word from me — sit with Him only with good manners, lest He erase your name from the register of nearness."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+regions: [arabia]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance:
+  layer: own-research
+  source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.402"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

@@ -1,0 +1,39 @@
+id: work/jami-al-usul
+class: work
+kind: book
+label:
+  ar: "جامع الأصول في أحاديث الرسول"
+  en: "Jami' al-Usul fi Ahadith al-Rasul"
+  ur: "جامع الاصول فی احادیث الرسول"
+summary:
+  ar: "كتاب مجد الدين ابن الأثير الجزري (544–606هـ) الذي جمع فيه أحاديث الأصول الستة — الموطأ والبخاري ومسلم وأبي داود والترمذي والنسائي — بعد حذف الأسانيد إلا اسم الصحابي، ورتّبها في «كتب» على المعاني ثم رتّب الكتب على حروف المعجم، وقدّم له بمقدمة في علوم الحديث وتراجم الأئمة الستة، وختمه بشرح الغريب وتراجم الرجال؛ بناه على نقد «تجريد الصحاح» لرزين بن معاوية والرجوع إلى الأصول، واعتمد في الصحيحين على «الجمع بين الصحيحين» للحميدي {cite:jami-al-usul-arnaut-2016 p. 10-12} {cite:jami-al-usul-arnaut-2016 p. 57-62}."
+  en: "The book of Majd al-Din Ibn al-Athir al-Jazari (544–606 AH) gathering the hadiths of the six source-books — the Muwatta', al-Bukhari, Muslim, Abu Dawud, al-Tirmidhi and al-Nasa'i — with chains removed except the Companion's name, arranged in thematic 'books' that are themselves set in alphabetical order, opened with an introduction on the hadith sciences and the lives of the six imams and closed with rare-word glosses and narrator biographies; it grew out of his critique of Razin b. Mu'awiya's Tajrid al-Sihah and a return to the source-books, and for the two Sahihs it relies on al-Humaydi's al-Jam' bayn al-Sahihayn {cite:jami-al-usul-arnaut-2016 p. 10-12} {cite:jami-al-usul-arnaut-2016 p. 57-62}."
+  ur: "مجد الدین ابن الاثیر جزری (544–606ھ) کی کتاب جس میں انہوں نے چھ اصول — موطأ، بخاری، مسلم، ابو داود، ترمذی اور نسائی — کی احادیث جمع کیں، صحابی کے نام کے سوا اسانید حذف کیں، انہیں معانی کے لحاظ سے «کتب» میں اور کتب کو حروفِ تہجی پر مرتب کیا، شروع میں علومِ حدیث اور چھ ائمہ کے تراجم پر مقدمہ اور آخر میں غریب کی شرح اور رجال کے تراجم رکھے؛ اس کی بنیاد رزین بن معاویہ کی «تجرید الصحاح» پر تنقید اور اصول کی طرف رجوع پر ہے، اور صحیحین کے لیے حمیدی کی «الجمع بین الصحیحین» پر اعتماد کیا {cite:jami-al-usul-arnaut-2016 p. 10-12} {cite:jami-al-usul-arnaut-2016 p. 57-62}۔"
+language: language/arabic
+authors: [person/ibn-al-athir-al-jazri]
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/jami-al-usul-arnaut-2016] }
+structure: "ثلاثة أركان: الأول في المبادي (خمسة أبواب: الباعث على عمل الكتاب، وكيفية وضعه، وأصول الحديث وأحكامه — الرواة والجرح والتعديل والنسخ وأقسام الصحيح — وتراجم الأئمة الستة)، والثاني في المقاصد (الكتب مرتبة على حروف المعجم بدءاً بحرف الهمزة: كتاب الإيمان والإسلام…، وفي آخرها كتاب الفضائل والمناقب وكتاب اللواحق)، والثالث في الخواتم (ومنه قسم تراجم الرجال المذكورين في الكتاب) (ط. دار ابن كثير، ص 45، 60–65، 179 من المسح)."
+editions: [source/jami-al-usul-arnaut-2016]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: relies_on, target: work/sahih-al-bukhari, sources: [source/jami-al-usul-arnaut-2016] }
+  - { type: relies_on, target: work/sahih-muslim, sources: [source/jami-al-usul-arnaut-2016] }
+  - { type: relies_on, target: work/muwatta-malik, sources: [source/jami-al-usul-arnaut-2016] }
+  - { type: relies_on, target: work/sunan-abi-dawud, sources: [source/jami-al-usul-arnaut-2016] }
+  - { type: relies_on, target: work/jami-al-tirmidhi, sources: [source/jami-al-usul-arnaut-2016] }
+  - { type: relies_on, target: work/sunan-al-nasai, sources: [source/jami-al-usul-arnaut-2016] }
+  - { type: relies_on, target: work/al-jam-bayn-al-sahihayn-al-humaydi, sources: [source/jami-al-usul-arnaut-2016] }
+  - { type: revises, target: work/tajrid-al-sihah, sources: [source/jami-al-usul-arnaut-2016] }
+  - { type: mentions, target: concept/kutub-al-sitta, sources: [source/jami-al-usul-arnaut-2016] }
+provenance:
+  layer: own-research
+  source: "Jami' al-Usul, Dar Ibn Kathir 3rd ed. 2016, scan pp. 4–19 (prefaces, editor's introduction, author's life) and 45–66 (author's introduction, books I–II)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/jami-al-usul-arnaut-2016]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

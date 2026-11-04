@@ -1,0 +1,23 @@
+id: person/gars-al-din-al-halabi
+class: person
+label: { ar: "غرس الدين بن أحمد بن خليل الحلبي", en: "Gars al-Din ibn Ahmad ibn Khalil al-Halabi", ur: "غرس الدین بن احمد بن خلیل حلبی" }
+summary:
+  ar: "فلكي شامي توفي سنة 971هـ بحسب زوتر، صاحب «تنبيه النقاد على ما في الهيئة المشهورة من الفساد» (958هـ) الذي نقد فيه أصولًا بطلمية ونقل عن ابن الشاطر ومؤيد الدين العرضي {cite:heinen-islamic-cosmology p. 31} {cite:heinen-islamic-cosmology p. 32}."
+  en: "Syrian astronomer who died in 971 AH according to Suter, author of Tanbih al-naqqad (958 AH), critiquing Ptolemaic principles and citing Ibn al-Shatir and Mu'ayyad al-Din al-Urdi {cite:heinen-islamic-cosmology p. 31} {cite:heinen-islamic-cosmology p. 32}."
+  ur: "شامی فلکیات دان، زوٹر کے مطابق 971ھ میں فوت، «تنبیہ النقاد» (958ھ) کے مصنف جس میں بطلیموسی اصولوں پر تنقید کی اور ابن الشاطر اور مؤید الدین عرضی سے نقل کیا {cite:heinen-islamic-cosmology p. 31}."
+gender: male
+roles: [astronomer, writer]
+died: { edtf: "1563", hijri: "0971", calendar: gregorian, precision: year, status: tradition, derived: true, note: "سنة الوفاة عند زوتر كما ينقل هاينن {cite:heinen-islamic-cosmology p. 31}." }
+wings: [people]
+themes: [astronomy-and-timekeeping]
+regions: [levant-iraq]
+relations:
+  - { type: authored, target: work/tanbih-al-naqqad, sources: [source/heinen-islamic-cosmology] }
+sources: [source/heinen-islamic-cosmology]
+provenance:
+  layer: own-research
+  source: "source/heinen-islamic-cosmology scan pp. 31–32"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

@@ -1,0 +1,24 @@
+id: source/khwarizmi-jabr-rosen-1831
+class: source
+kind: primary
+type: book
+label: { en: "al-Khwarizmi, al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala, ed. Friedrich Rosen (London, 1831), Arabic text", ar: "الكتاب المختصر في حساب الجبر والمقابلة — الخوارزمي، طبعة لندن (روزن) 1831" }
+summary:
+  en: "The first printed edition of the Arabic text of al-Khwarizmi's algebra, published in London by Friedrich Rosen with an English translation; the scan read here holds the Arabic part only, from a University of California, Berkeley copy, with its pages in reverse order."
+  ar: "أول طبعة لنص كتاب الخوارزمي في الجبر بالعربية، نشرها فريدريك روزن بلندن مع ترجمة إنجليزية؛ والمسح المقروء هنا يضم القسم العربي وحده من نسخة جامعة كاليفورنيا في بركلي، وصفحاته مرتبة ترتيباً معكوساً."
+title: "الكتاب المختصر في حساب الجبر والمقابلة"
+author:
+  - { family: al-Khwarizmi, given: Muhammad ibn Musa }
+publisher: "London"
+issued: { "date-parts": [[1831]] }
+language: ar
+reliability_note: "Pages cited are PDF/scan pages (124), which run backwards: the Arabic title page is scan p.121 and the end of the text is scan p.2; the printed Arabic numerals on the pages (e.g. 133 on scan p.2, 131 on scan p.3) are the edition's own. The Arabic title page reads 'printed in the city of London in the Christian year 1830'; the library labels give 1831, the year the Cairo editors give (Cairo 1939 edition, scan p.26). The title page names the author 'al-Shaykh al-Ajall Abu Abd Allah Muhammad ibn Musa al-Khwarizmi'. The English translation is not in this scan. Scan p.1 is an errata leaf. OCR by Apple Vision; the Arabic text is largely clean."
+open_access: true
+status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker J); title page and opening and closing pages read (scan pp. 1-3, 119-123)" }
+provenance:
+  layer: own-research
+  source: "Arabic title page and library labels of the scan (scan pp. 119-123), end of text (scan p.2)"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/khwarizmi-jabr-rosen-1831]

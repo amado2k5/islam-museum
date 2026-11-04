@@ -5,16 +5,18 @@ label:
   en: "Ibn al-Mudhhib"
 roles: [muhaddith]
 gender: male
+born: { edtf: "0966~", hijri: "0355", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 355هـ؛ التحويل مشتق {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.35}", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
 summary:
-  ar: "الحسن ابن المذه التميمي، راوي مسند الإمام أحمد وواعظ بغدادي؛ توفي سنة 444هـ (1052م)."
+  ar: "الحسن بن علي بن محمد التميمي أبو علي ابن المذهب (355–444هـ)، راوي مسند الإمام أحمد وواعظ بغدادي؛ توفي سنة 444هـ (1052م)."
   en: "Al-Hasan Ibn al-Mudhhib (966–1052), Baghdadi transmitter of Imam Ahmad's Musnad and preacher."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/fadail-sahaba-ahmad-wasi-allah-1999]
 external_ids:
   wikidata: Q124745923
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the Fada'il al-Sahaba section from source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 35–36, 43, 53–54"
   layer: own-research
   source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.201)"
   generated_by: "Devin (SWE-2 Medium)"
@@ -23,3 +25,5 @@ provenance:
 status:
   review: published
   completeness: 3
+relations:
+  - { type: student_of, target: person/al-qatiqi, role: "روى عنه الزهد لأحمد وفضائل الصحابة والمسند", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }

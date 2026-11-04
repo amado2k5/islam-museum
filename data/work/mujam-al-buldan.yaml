@@ -5,14 +5,22 @@ label: { ar: "معجم البلدان", en: "Mujam al-Buldan" }
 summary:
   ar: "معجم ياقوت الحموي الجغرافي التاريخي الأدبي؛ بدأت فكرته بمرو سنة ٦١٥هـ وتمت مسودته بحلب في ٢٠ صفر ٦٢١هـ وشرع في تبييضه الأخير لخزانة القفطي في ٢١ محرم ٦٢٥هـ ولم يبلغ مادة رصافة بغداد {cite:encyclopaedia-of-islam-2 vol. 11 p. 265}."
   en: "Yaqut al-Hamawi's geographical, historical and literary dictionary: conceived at Marw in 615, drafted at Aleppo by 20 Safar 621, and begun in definitive form for al-Qifti's library on 21 Muharram 625; the last revision never reached 'Rusafat Baghdad' {cite:encyclopaedia-of-islam-2 vol. 11 p. 265}."
-wings: []
+authors: [person/yaqut-al-hamawi]
+language: language/arabic
+genre: [geography, dictionary]
+composed: { edtf: "1228-01", hijri: "0625-01", calendar: julian, precision: month, status: tradition, derived: true, note: "«وكان الشروع من هذا التبييض في ليلة إحدى وعشرين من محرم سنة خمس وعشرين وستمائة» (Cairo 1323/1906 ed., vol. 1, scan p.17); start of the fair copy, Gregorian derived" }
+structure: "Preface (vol. 1 scan pp. 6-17); five introductory chapters: 1 the shape of the earth (pp. 17-27), 2 the seven climes, their derivation and the qibla (pp. 28-37), 3 terms that recur in the book: barid, farsakh, mil, kura, iqlim, mikhlaf, ustan, tassuj, jund, sikka, misr, abad, longitude, latitude, degree, minute, sulh, silm, anwa, kharaj, fay', ghanima, qati'a (pp. 38-47), 4 the jurists on the lands of fay' and ghanima (pp. 48-52), 5 general reports on countries (pp. 52-54); then the dictionary in 28 books by first letter, each in 28 chapters by second letter, alphabetized letter by letter (from p. 55). Volumes 1-2 of the Khanji edition (scan pp. 1-856) cover the introduction and the letters alif, ba and ta."
+editions:
+  - "Cairo, Matba'at al-Sa'ada, 1323 AH / 1906 CE, ed. Muhammad Amin al-Khanji with a supplement (Munjam al-'umran), 10 volumes (source/mujam-al-buldan-yaqut, vols 1-2)"
+wings: [place, words]
+themes: [geography-and-cartography]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
-sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mujam-al-buldan-yaqut]
 provenance:
   layer: own-research
-  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 265-266"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: explorer-yaqut-1
-status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 265-266; source/mujam-al-buldan-yaqut vol. 1 scan pp. 5-55"
+  generated_by: "Devin (SWE-2 Medium); prose by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "explorer-yaqut-1; ocr-harvest-2026-11-04"
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium); Claude Code (OCR-harvest worker J)" }

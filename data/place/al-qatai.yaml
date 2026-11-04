@@ -1,0 +1,23 @@
+id: place/al-qatai
+class: place
+kind: town
+label: { ar: "القطائع", en: "al-Qata'i", ur: "القطائع" }
+summary:
+  ar: "مدينة الحكم التي أنشأها أحمد بن طولون عند سفح جبل المقطم بجوار الفسطاط على مثال سامراء، فيها جامعه وقصره وميدانه، ودُمّرت سنة 905م إلا الجامع {cite:yeomans-islamic-cairo-2006 p.29} {cite:yeomans-islamic-cairo-2006 p.41}."
+  en: "The seat of government Ahmad ibn Tulun laid out at the foot of the Muqattam beside Fustat on the model of Samarra, with his mosque, palace and hippodrome; destroyed in 905 except for the mosque {cite:yeomans-islamic-cairo-2006 p.29} {cite:yeomans-islamic-cairo-2006 p.41}."
+wings: [place, time]
+themes: [cities, architecture]
+regions: [egypt-nile]
+periods: [period/abbasid-fragmentation]
+part_of: place/cairo
+founded: { edtf: "0870", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 29: soon after he arrived in Egypt in 870 Ibn Tulun moved the seat of government from al-Askar to al-Qata'i." }
+relations:
+  - { type: part_of, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 27-29, 41"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

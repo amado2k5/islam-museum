@@ -1,18 +1,28 @@
 id: work/ilam-al-muwaqqiin
 class: work
 kind: book
-label: { ar: "إعلام الموقعين عن رب العالمين", en: "I'lam al-Muwaqqi'in 'an Rabb al-'Alamin" }
+genre: [usul-al-fiqh, fatwa]
+label: { ar: "إعلام الموقعين عن رب العالمين", en: "I'lam al-Muwaqqi'in 'an Rabb al-'Alamin", ur: "اعلام الموقعین عن رب العالمین" }
 summary:
-  ar: "للشيخ شمس الدين محمد بن أبي بكر بن قيم الجوزية الحنبلي الدمشقي المتوفى سنة ٧٥١هـ {cite:kashf-zunun-furqan p. 518}."
-  en: "Ibn Qayyim al-Jawziyya's I'lam al-Muwaqqi'in 'an Rabb al-'Alamin — on the authority and limits of juristic signing in God's name {cite:kashf-zunun-furqan p. 518}."
-wings: []
+  ar: "كتاب في أصول الفتوى والاجتهاد والتقليد لشمس الدين محمد بن أبي بكر ابن قيم الجوزية الحنبلي الدمشقي (ت 751هـ)، يختمه بفوائد تتعلق بالفتوى في آداب المفتي والمستفتي وأحكامهما، ثم بجملة من فتاوى النبي مرتبة على الأبواب."
+  en: "A book on the foundations of the fatwa, independent reasoning and following authority by Shams al-Din Muhammad ibn Abi Bakr Ibn Qayyim al-Jawziyya, the Hanbali of Damascus (d. 751 AH), which closes with 'benefits concerning the fatwa' on the conduct and rules of the mufti and the one who asks, and then a collection of the Prophet's own fatwas arranged by subject."
+wings: [ideas, words]
+themes: [development-of-law-theology-institutions, creed]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/ilam-muwaqqiin-ibn-jawzi-v6] }
+authors: [person/ibn-qayyim-al-jawziyya]
+language: language/arabic
+structure: "As seen in the last volume of the Dar Ibn al-Jawzi edition: the end of the long discussion of following authority, arguing that following the Companions is obligatory and that a Companion's opinion is a proof; then about seventy 'benefits concerning the fatwa' (kinds of question, the mufti's conduct, the four kinds of mufti, who may give fatwas, whether a layperson must follow one school, what to do when muftis disagree); then the Prophet's fatwas on creed, purity, prayer, the dead, zakat, fasting, hajj, the merits of suras and deeds, earnings, sales, pledges and debts, marriage, suckling, divorce, khul', zihar and li'an, and more."
+editions: [source/ilam-muwaqqiin-ibn-jawzi-v6]
+relations:
+  - { type: about, target: concept/taqlid, sources: [source/ilam-muwaqqiin-ibn-jawzi-v6] }
 provenance:
   layer: own-research
-  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 518 مدخل 1334"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-6
+  source: "كشف الظنون (ط الفرقان) ج1 ص 518؛ إعلام الموقعين، دار ابن الجوزي 1423هـ، المجلد السادس ص 1–6، 38–41، 125، 203–205، 603–608"
+  generated_by: "Claude Code (OCR-harvest worker C); first card Devin (SWE-2 High) from Apple Vision OCR"
+  model: claude-opus-5-5
+  run: "lib-kashf-batch-6; ocr-harvest-2026-11-04"
 external_ids: { wikidata: "Q12182337" }
-sources: [source/kashf-zunun-furqan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/kashf-zunun-furqan, source/ilam-muwaqqiin-ibn-jawzi-v6]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C)" }
