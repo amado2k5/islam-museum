@@ -3,6 +3,13 @@ id: person/amr-ibn-uthman-al-makki
 lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/risala-qushayriyya-minhaj-2017 p. 168"
 ---
 ## خلاصہ
 عمرو بن عثمان مکی، تیسری صدی کے صوفی مشائخ میں سے، جنہوں نے یونس بن عبدالاعلیٰ اور ربیع بن سلیمان سے سماع کیا، اور ان سے جعفر خلدی نے روایت کی۔ {cite:muntazam-ibn-al-jawzi p. 205}۔
@@ -10,3 +17,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 جب وہ جدہ کے قاضی مقرر ہوئے تو جنید نے ان سے کلام ترک کر دیا اور کہا: "میں اس شخص سے بات نہیں کروں گا جو زہد کا اظہار کرتا تھا، پھر اس میں دنیا کی طلب میں وسعت دیکھی گئی۔" {cite:muntazam-ibn-al-jawzi p. 205}۔
 
 ان کا انتقال بغداد میں سنہ 297ھ میں ہوا؛ اور کہا گیا ہے کہ سنہ 291ھ میں، لیکن پہلی تاریخ زیادہ درست ہے۔ {cite:muntazam-ibn-al-jawzi p. 205}۔
+
+## الرسالۃ القشیریہ میں
+[[work/al-risala-al-qushayriyya|الرسالۃ القشیریہ]] میں قشیری ابو عبد اللہ عمرو بن عثمان مکی کا ترجمہ دیتے ہیں: وہ ابو عبد اللہ نباجی سے ملے اور [[person/abu-said-al-kharraz|ابو سعید خراز]] کی صحبت میں رہے، «قوم کے شیخ اور اصول و طریق میں جماعت کے امام» تھے، اور 291ھ میں بغداد میں فوت ہوئے۔ {cite:risala-qushayriyya-minhaj-2017 p. 168} وہ ان کی یہ تعلیم نقل کرتے ہیں کہ دل جو کچھ تصور کرے یا فکر میں جو آئے — حسن، رونق، نور، کوئی صورت یا خیال — اللہ اس سے دور ہے، اور اس پر مثل اور کفو کی نفی والی آیات سے استدلال؛ ان کا قول: «علم آگے سے کھینچنے والا اور خوف پیچھے سے ہانکنے والا ہے، اور نفس ان کے بیچ اڑیل سواری ہے: علم کی تدبیر سے اس کی نگہداشت کرو اور خوف کی دھمکی سے اسے ہانکو»؛ اور: «وجد پر کوئی عبارت صادق نہیں آتی، کیونکہ وہ مومنوں کے پاس اللہ کا راز ہے»۔ {cite:risala-qushayriyya-minhaj-2017 p. 168}

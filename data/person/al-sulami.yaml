@@ -3,26 +3,29 @@ class: person
 label:
   ar: "أبو عبد الرحمن السلمي"
   en: "Abu Abd al-Rahman al-Sulami"
+  ur: "ابو عبد الرحمن سلمی"
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "أبو عبد الرحمن محمد بن الحسين السلمي النيسابوري، شيخ الصوفية ومصنف «طبقات الصوفية» و«حقائق التفسير» وغيرهما؛ أورده ابن الجوزي في وفيات شعبان سنة ٤١٢ {cite:muntazam-ibn-al-jawzi j.8 p.348}."
-  en: "Draft card for Abu Abd al-Rahman Muhammad ibn al-Husayn al-Sulami of Nishapur, author of Tabaqat al-Sufiyya and chronicler of eleventh-century Sufism, d. 1021; the biographical entry is not yet checked on the page."
+  ar: "أبو عبد الرحمن محمد بن الحسين السلمي النيسابوري، صاحب «طبقات الصوفية» و«حقائق التفسير»؛ ولد بنيسابور في 10 جمادى الآخرة 325هـ فيما يقول تلميذه الخشاب، ونشأ في كنف جده لأمه أبي عمرو إسماعيل بن نجيد فنسب إلى بني سليم، وبنى للصوفية خانقاه بنيسابور دفن فيها يوم الأحد 3 شعبان 412هـ؛ واختلف نقاد الحديث في توثيقه {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 16} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 17} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 30} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 44}."
+  en: "Abu 'Abd al-Rahman Muhammad ibn al-Husayn al-Sulami of Nishapur, author of Tabaqat al-Sufiyya and Haqa'iq al-Tafsir; born in Nishapur on 10 Jumada al-Akhira 325 AH according to his pupil al-Khashshab, raised by his maternal grandfather Abu 'Amr Isma'il ibn Nujayd and so named after the Banu Sulaym, he built a lodge for the Sufis in Nishapur where he was buried on Sunday 3 Sha'ban 412 AH; the hadith critics differed over his reliability {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 16} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 17} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 30} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 44}."
+  ur: "ابو عبد الرحمن محمد بن الحسین سلمی نیشاپوری، «طبقات الصوفیہ» اور «حقائق التفسیر» کے مصنف؛ ان کے شاگرد خشاب کے مطابق 10 جمادی الآخرہ 325ھ کو نیشاپور میں پیدا ہوئے، اپنے نانا ابو عمرو اسماعیل بن نجید کی سرپرستی میں پلے اور اسی لیے بنو سلیم کی نسبت سے مشہور ہوئے، نیشاپور میں صوفیہ کے لیے خانقاہ بنائی جس میں اتوار 3 شعبان 412ھ کو دفن ہوئے؛ ناقدینِ حدیث ان کی توثیق میں مختلف ہوئے {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 16} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 17} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 30} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 44}۔"
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [spirituality-and-sufism]
+born: { edtf: "0937-04~", hijri: "0325-06-10", calendar: julian, precision: month, status: tradition, derived: true, sources: [source/tabaqat-sufiyya-sulami-khanji-1986], note: "Tuesday 10 Jumada al-Akhira 325 AH per his pupil al-Khashshab; the editor equates it with 16 April 936; the tabular conversion gives late April 937 (derived); Abd al-Ghafir al-Farisi gives 330 AH {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 17}." }
 died: { edtf: "1021-11~", hijri: "0412-08", calendar: julian, precision: month, status: tradition, derived: true, note: "في وفيات شعبان ٤١٢ {cite:muntazam-ibn-al-jawzi j.8 p.348}." }
-sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
+sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi, source/tabaqat-sufiyya-sulami-khanji-1986]
 aliases: [person/abu-abd-al-rahman-al-sulami]
 external_ids:
   wikidata: Q293651
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0023
+  source: "Wikidata candidate (Shadharat not read on the page); summary, birth and prose from Shurayba's introduction to Tabaqat al-Sufiyya (Khanji 1986) pp. 16-17, 30, 34, 43-50"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
