@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Opus 5.5 (claude-opus-5-5)"]
 status:
   review: published
-provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "bidaya-abbadi-dar-al-salam-v3 PDF pp. 12-14 (printed 1174-1176); translated from the Arabic page" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "bidaya-abbadi-dar-al-salam-v3 PDF pp. 12-14 (printed 1174-1176); translated from the Arabic page", enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: Zahiri perspective and section from muhalla-dar-ibn-hazm-2016-v8 PDF pp. 175-178, 199-212" }
 ---
 ## Summary
 In the book of hunting in [[work/bidayat-al-mujtahid|Bidayat al-Mujtahid]], [[person/ibn-rushd|Ibn Rushd]] discusses the hunting animal, saying that agreement and disagreement about it concern partly the kind of animal and partly the conditions. {cite:bidaya-abbadi-dar-al-salam-v3 p. 12} The kind agreed upon is the dog; disputed are trained beasts and birds of prey other than the dog. {cite:bidaya-abbadi-dar-al-salam-v3 p. 12} {cite:bidaya-abbadi-dar-al-salam-v3 p. 13}
@@ -20,6 +20,14 @@ Ibn Rushd notes that some disliked hunting with the black dog, among them [[pers
 
 ## From the edition's commentary
 The commentator of the Dar al-Salam edition notes in the margin that those who allowed hunting with these animals required that the animal go when sent and come when called; that the majority do not require birds of prey to refrain from eating the game, citing Ibn Abbas: if the dog eats, do not eat, but if the falcon eats, eat, since you can beat a dog but cannot beat a falcon; and that the Shafi'is require of them what they require of the dog. {cite:bidaya-abbadi-dar-al-salam-v3 p. 14}
+
+## The view of Ibn Hazm the Zahiri in al-Muhalla
+
+In the Book of Hunting of [[work/al-muhalla-ibn-hazm|al-Muhalla]], [[person/ibn-hazm|Ibn Hazm]] puts the dog and other four-legged predators on the same footing as the falcon and other birds of prey: once trained, what any of them kills is lawful when its owner sent it and named God on sending it, whether it killed by wounding, crushing, striking or strangling; if it ate any of the prey, the prey is forbidden. {cite:muhalla-dar-ibn-hazm-2016-v8 p.199} He draws the line between trained and untrained from [[passage/quran-5-4|al-Ma'ida 4]] on trained hunting animals, and argues that all predators hunt by nature for themselves, so training must add something they did not know, which can only be not setting off until sent and holding the prey without eating. {cite:muhalla-dar-ibn-hazm-2016-v8 p.199} {cite:muhalla-dar-ibn-hazm-2016-v8 p.200}
+
+He reports their disagreement on when training is complete: Abu Hanifa and al-Shafi'i said that if it holds without eating time after time it is trained, without setting a number; Abu Yusuf and Muhammad ibn al-Hasan said three times, its kill being eaten from the fourth; [[person/dawud-al-zahiri|Dawud]] said once, its kill being eaten from the second; and Abu Thawr said its kill is eaten from the first time. He chooses Abu Thawr's view, since the first act is what shows it is trained, so it hunted that time as a trained animal. {cite:muhalla-dar-ibn-hazm-2016-v8 p.200} {cite:muhalla-dar-ibn-hazm-2016-v8 p.201} He faults Malik for disregarding whether the predator ate, and answers those who allow only what was wounded that a jarih in the language is an animal that earns, and that the verse allows what they hold for you without mentioning wounds. {cite:muhalla-dar-ibn-hazm-2016-v8 p.201} {cite:muhalla-dar-ibn-hazm-2016-v8 p.202} He reports Abu Hanifa's view that a falcon's prey may be eaten even if the falcon ate from it. {cite:muhalla-dar-ibn-hazm-2016-v8 p.212}
+
+At the start of the Book of Hunting he makes the slaughter of a runaway animal a shot with something that acts like a spear or arrow, citing 'Adi ibn Hatim's report on the blunt arrow: "If it strikes with its point, eat; if it strikes with its side and kills, it is beaten to death, so do not eat"; he reports that 'Ammar, Salman and Sa'id ibn al-Musayyab allowed game killed with a stone or pellet, while 'Umar forbade it, which is the view of Abu Hanifa, Malik, al-Shafi'i and Abu Sulayman Dawud. {cite:muhalla-dar-ibn-hazm-2016-v8 p.175} {cite:muhalla-dar-ibn-hazm-2016-v8 p.176} {cite:muhalla-dar-ibn-hazm-2016-v8 p.177}
 
 ## Not covered here
 Ibn Rushd's other conditions for the hunting animal (training, sending, naming God) and hunting with weapons are not given here.
