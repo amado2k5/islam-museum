@@ -26,3 +26,7 @@ Enriched
 
 ## Not done
 - The roughly 2,800 individual questions were not mined. Good candidates: the chapters on Qur'an commentary and on the signs of prophethood in part 2.
+
+## Second pass (worker F, run 2, ocr-harvest-2026-11-04)
+- New `concept/al-hadith-al-muallal` (trio): Ibn al-Salah's type 18 (Muqaddima pp. 89–93) on the hidden defect, illustrated from this book: the preface sayings on the worth of the science (Ibn Mahdi, Ibn Numayr, Abu Hatim's gem simile, Ahmad ibn Salih), PDF p. 13, and the first three questions on ritual purity (Abu Zur'a's corrections), PDF p. 14. Cited by PDF page as in the first pass.
+- Still not mined: the ~2,800 individual questions; the Qur'an-commentary and signs-of-prophethood chapters of part 2 remain good targets.
