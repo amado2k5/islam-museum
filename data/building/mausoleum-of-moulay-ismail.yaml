@@ -5,12 +5,12 @@ label:
   ar: "ضريح المولى إسماعيل"
   en: "Mausoleum of Moulay Ismail"
 summary:
-  ar: "بطاقة أولية لضريح المولى إسماعيل بمكناس، مشهد السلطان العلوي العظيم الذي افتُتح سنة ١٧٠٣م؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Mausoleum of Moulay Ismail of Meknes, the great Alawite sultan's shrine of 1703; its sources are not yet checked on the page."
+  ar: "ضريح السلطان المولى إسماعيل في مكناس، كسيت أسافل جدرانه ببلاطات على طراز دلفت ينسب التقليد المحلي صنعها إلى أسرى هولنديين {cite:newcomb-decorative-tiles-north-africa-1929 p.24}."
+  en: "The mausoleum of Sultan Moulay Ismail at Meknes, wainscoted with Delft-style tiles that local tradition attributes to Dutch captives {cite:newcomb-decorative-tiles-north-africa-1929 p.24}."
 wings: [objects]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/newcomb-decorative-tiles-north-africa-1929]
 external_ids:
   wikidata: Q3301845
 provenance:
@@ -19,6 +19,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  extra_runs: ["worker H ocr-harvest-2026-11-04: Newcomb 1929, first prose"]
 status:
-  review: draft
+  review: published
   completeness: 1
+location: place/meknes
