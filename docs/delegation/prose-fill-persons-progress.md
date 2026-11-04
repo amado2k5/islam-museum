@@ -771,3 +771,9 @@ Promoted: abbad-al-taliqani, abu-al-saib-utba-hamadhani, al-hasan-al-zaydi-naqib
 Promoted: abd-al-samad-al-dinawari, abd-allah-ibn-jafar-al-wathhab, abu-al-abbas-ibn-wasil, abu-rakwa, al-babbagha, al-muwaffaq-al-iskafi, al-shanbudhi, ibn-al-bahlul, ibn-al-hajjaj-al-shair, ibn-al-khashab, ibn-al-raffa-qari, ibn-bukayr, ibn-jinni, ibn-mandah-al-isfahani, jafar-ibn-al-furat-hinzaba.cite-check 15/15; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2104.** sweep continues through remaining trilingual drafts.
+
+### Batch 116 (4 Nov 2026, 15 records) — lib-shadharat-batch-121 draft promotions (sweep worker)
+
+Promoted: abd-al-wahhab-ibn-abd-al-qadir, abu-ali-al-farimi, abu-ali-al-hijri, al-mujir-al-wasiti, al-sadidi-physician, al-shihab-al-tusi, ibn-arfa-ras, ibn-kulayb, ibn-zubada, jamal-al-din-ibn-fadlan, jurdik, majd-al-din-kulathi, saad-al-nili, taj-al-din-al-sami, zafir-al-maliki.cite-check 15/15; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2119.** sweep continues through remaining trilingual drafts.
