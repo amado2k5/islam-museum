@@ -1,0 +1,36 @@
+id: event/battle-of-buzaa-615
+class: event
+kind: battle
+label: { ar: "كسر الأشرف ملك الروم كيكاووس قرب بزاعة سنة 615هـ", en: "Al-Ashraf defeats Kaykawus of Rum near Buza'a, 615 AH (1218)", ur: "615ھ (1218ء) میں بزاعہ کے قریب اشرف کے ہاتھوں سلطانِ روم کیکاؤس کی شکست" }
+summary:
+  ar: "في يوم الجمعة ثاني عشر ربيع الآخر سنة 615هـ كسر الملك الأشرف موسى بن العادل ملكَ الروم كيكاووس، بعد أن قصد كيكاووس حلب ومعه الأفضل صاحب سميساط فأخذا رعبان وتل باشر وتقدما إلى منبج، فعاد الأشرف من بلاد الفرنج إلى حلب ونزل باب بزاعة وقدّم العرب بين يديه، فالتقى اليزك باليزك على الساجور فانكسر الروم، واسترد الأشرف رعبان وتل باشر {cite:mirat-al-zaman-risala-2013-v22 p. 227-228}."
+  en: "On Friday 12 Rabi' II 615 AH al-Malik al-Ashraf Musa ibn al-Adil defeated Kaykawus, sultan of Rum, who had marched on Aleppo with al-Afdal of Sumaysat, taken Ra'ban and Tell Bashir and advanced to Manbij. Al-Ashraf came back from Frankish territory to Aleppo, camped at Bab Buza'a with the Bedouin in his van, and when the vanguards met on the Sajur the Rum army broke; al-Ashraf recovered Ra'ban and Tell Bashir {cite:mirat-al-zaman-risala-2013-v22 p. 227-228}."
+wings: [time, place]
+themes: [battles, wars-and-campaigns]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, anatolia-balkans]
+sides:
+  - label: { ar: "الملك الأشرف موسى وعساكر الشرق وحلب والعرب", en: "al-Malik al-Ashraf Musa with the armies of the Jazira and Aleppo and the Bedouin", ur: "الملک الاشرف موسیٰ، جزیرہ اور حلب کے لشکر اور عرب" }
+    participants: [polity/ayyubid-dynasty, group/arabs]
+    commanders: [person/al-malik-al-ashraf]
+    note: "قدّم المبارزين ابن خطلخ وسنقر الحلبي، وكان أكثر النكاية في الروم من العرب {cite:mirat-al-zaman-risala-2013-v22 p. 227}"
+  - label: { ar: "كيكاووس صاحب الروم ومعه الأفضل صاحب سميساط", en: "Kaykawus of Rum, with al-Afdal of Sumaysat", ur: "روم کا حاکم کیکاؤس اور اس کے ساتھ سمیساط کا حاکم افضل" }
+    participants: [polity/rum-seljuk-sultanate]
+    commanders: [person/kaykawus-i, person/al-malik-al-afdal-ali]
+date:
+  start: { edtf: "1218-07-06", hijri: "0615-04-12", calendar: julian, precision: day, status: historical, derived: true, note: "«وفي يوم الجمعة ثاني عشر ربيع الآخر كسر الملك الأشرفُ ملكَ الرُّوم كيكاووس» (مرآة الزمان 22/227)؛ التحويل الميلادي مشتق تقريبي موافق ليوم الجمعة.", sources: [source/mirat-al-zaman-risala-2013-v22] }
+relations:
+  - { type: had_participant, target: person/al-malik-al-ashraf, role: "الغالب", sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: had_participant, target: person/kaykawus-i, role: "المهزوم", sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: had_participant, target: person/al-malik-al-afdal-ali, role: "حليف كيكاووس", sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: occurred_at, target: place/buzaa, sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: occurred_at, target: place/aleppo, sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: related_to, target: place/manbij, sources: [source/mirat-al-zaman-risala-2013-v22] }
+sources: [source/mirat-al-zaman-risala-2013-v22]
+provenance:
+  layer: own-research
+  source: "source/mirat-al-zaman-risala-2013-v22 scan pp. 227-228, 230"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }
