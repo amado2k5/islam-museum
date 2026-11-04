@@ -11,15 +11,17 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/shadharat-dhahab, source/daw-lami-jil-1992]
+sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/subh-al-asha-cairo-v1, source/subh-al-asha-cairo-v14]
+relations:
+  - { type: authored, target: work/subh-al-asha, sources: [source/subh-al-asha-cairo-v1] }
 external_ids:
   wikidata: Q400919
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0015, lib-daw-lami-batch-1-2026-10-31
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 High; claude-opus-5-5"
+  run: "wikidata-import-0015, lib-daw-lami-batch-1-2026-10-31; ocr-harvest-2026-11-04"
 status:
   review: published
-  completeness: 1
+  completeness: 2

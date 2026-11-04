@@ -1,0 +1,22 @@
+id: person/ishaq-ibn-yasar
+class: person
+label: { ar: "إسحاق بن يسار", en: "Ishaq ibn Yasar" }
+names:
+  - { kind: full, lang: ar, value: "إسحاق بن يسار المخرمي المدني، مولى قيس بن مخرمة" }
+gender: male
+summary:
+  ar: "إسحاق بن يسار، والد محمد بن إسحاق صاحب السيرة، وابن يسار الذي كان من سبي عين التمر من موالي قيس بن مخرمة؛ يدل عليه نسب ابنه «محمد بن إسحاق بن يسار» في «ميزان الاعتدال»، وقول البلاذري إن يسار جدّ محمد بن إسحاق {cite:mizan-itidal-bijawi-v3 p. 468}{cite:futuh-buldan-maarif-1407 p. 345}."
+  en: "Ishaq ibn Yasar, father of Muhammad ibn Ishaq the author of the Sira, and son of the Yasar who was among the captives of Ayn al-Tamr and a client of Qays ibn Makhrama. The link rests on the son's lineage 'Muhammad ibn Ishaq ibn Yasar' in Mizan al-I'tidal and on al-Baladhuri's statement that Yasar was Muhammad ibn Ishaq's grandfather."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/yasar-mawla-qays, sources: [source/mizan-itidal-bijawi-v3, source/futuh-buldan-maarif-1407] }
+sources: [source/mizan-itidal-bijawi-v3, source/futuh-buldan-maarif-1407]
+provenance:
+  layer: own-research
+  source: "ميزان الاعتدال، تحقيق البجاوي، القسم الثالث، ص 468 (نسب محمد بن إسحاق)؛ فتوح البلدان، ص 345"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 1, generated_by: "Claude Code (OCR-harvest worker F)" }
