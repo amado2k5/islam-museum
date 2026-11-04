@@ -466,3 +466,31 @@ Promoted: shihab-turki-tarabulsi, taqi-ibn-zurayq.cite-check 2/2; validate 0 err
 Promoted: abu-ali-al-shalubin, al-harimi-abu-mansur, al-jawad-yunus, al-khunaji, al-kurdari, al-malik-al-mansur-ibn-shirkuh, al-malik-al-mughith-umar, al-malik-al-muzaffar-ghazi, al-mutadid-almohad, al-rafii-jili, al-sakhawi-alam, al-sarifini, ali-al-qifti, diya-al-din-al-maqdisi, ibn-abi-al-dam, ibn-al-battar, ibn-al-dabbagh, ibn-al-najjar, ibn-rawaha-izz, ismail-ibn-sawdakin, karima-bint-al-haqbaq, muin-al-din-ibn-juwayni, sayf-al-din-ibn-qudama, sultan-al-balabakki, taj-al-din-ibn-hamuwayh.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1297.** sweep continues through remaining trilingual drafts.
+
+### Batch 71 (4 Nov 2026, 4 records) — mawsua-w02-44 draft promotions (sweep worker)
+
+Promoted: abd-allah-ibn-yazid-al-khatmi, al-miqdad-ibn-madi-karib, amr-ibn-salama-al-jarmi, suwayd-ibn-al-numan.cite-check 4/4; validate 0 errors; tests pass; graph+coverage regen.
+
+Leads (rejected):
+abd-al-aziz-ibn-abi-hazim	REJECT: ur: thin (122ch)
+abd-al-rahman-ibn-zayd-ibn-al-khattab	REJECT: ur: thin (107ch)
+abd-allah-ibn-qurt	REJECT: ur: thin (128ch)
+abu-rayhana-shimun	REJECT: ur: thin (112ch)
+ahmad-ibn-husayn-ibn-rislan	REJECT: ur: thin (131ch)
+ahmad-ibn-ishaq-al-tamimi	REJECT: ur: thin (142ch)
+ahmad-ibn-muhammad-al-natifi	REJECT: ur: thin (115ch)
+al-atabi	REJECT: ur: thin (136ch)
+al-hasan-ibn-arafa-al-abdi	REJECT: ur: thin (145ch)
+al-tibi	REJECT: ur: thin (133ch)
+amr-ibn-abi-salama	REJECT: ur: thin (136ch)
+hilal-ibn-amir-al-muzani	REJECT: ur: thin (84ch)
+ibn-al-tin	REJECT: ur: thin (129ch)
+ibn-suraqa	REJECT: ur: thin (142ch)
+imran-ibn-muslim-al-qasir	REJECT: ur: thin (136ch)
+muadh-ibn-anas-al-juhani	REJECT: ur: thin (107ch)
+qasim-ibn-isa-ibn-naji	REJECT: ur: thin (127ch)
+sanad-ibn-anan	REJECT: ur: thin (130ch)
+yahya-ibn-yamur	REJECT: ur: thin (133ch)
+zubayd-al-yami	REJECT: ur: thin (125ch)
+
+**Lane total: 1301.** sweep continues through remaining trilingual drafts.
