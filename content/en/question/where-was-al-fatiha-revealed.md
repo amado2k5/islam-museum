@@ -29,3 +29,6 @@ Tantawi reports a third view, that it came down once in Mecca when prayer was pr
 
 ## In al-Baghawi
 At the start of his commentary on al-Fatiha, [[person/al-baghawi-al-husayn-ibn-muhammad|al-Baghawi]] says it is Meccan according to most, that Mujahid said Medinan, and that it is said to have come down twice, once in Mecca and once in Medina; he explains its name "the Seven Oft-Repeated" by its being seven verses by the scholars' agreement and repeated in prayer. {cite:tahdhib-tafsir-baghawi-tayba-2009 p.7}
+
+## In al-Baydawi
+[[person/al-baydawi-abd-allah-ibn-umar|Al-Baydawi]] reports that it is said to have come down in Mecca when prayer was prescribed and in Medina when the qibla was changed, and holds that it is Meccan, citing the verse of Surat al-Hijr on the Seven Oft-Repeated; see [[passage/quran-15-87|al-Hijr 87]]. {cite:anwar-al-tanzil-fleischer-v1 p.6}

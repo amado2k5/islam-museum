@@ -20,3 +20,14 @@ Al-Suyuti marks the compilers of each hadith with letters, among them *kh* for a
 :::
 
 Al-Albani also finds its alphabetical order not strictly kept, giving examples from the chapter on "kana". {cite:sahih-jami-saghir-maktab-islami-1988 p. 12-13}
+
+## In the Khayriyya printing
+Al-Jami' al-Saghir was printed by al-Matba'a al-Khayriyya in Cairo, owned by al-Sayyid 'Umar Husayn al-Khashshab, with al-Munawi's [[work/kunuz-al-haqaiq|Kunuz al-Haqa'iq]] in the margin; the printer notes that the sigla for sound, good and weak (s, h, d) are placed in the main text between brackets after the transmitters. {cite:jami-saghir-khayriyya-v1 p. 5} In this printing the hadith "Actions are only by intentions" stands at the end of al-Suyuti's preface, after the list of sigla, cited with the siglum "q 4" to 'Umar b. al-Khattab and then to Abu Sa'id and others. {cite:jami-saghir-khayriyya-v1 p. 6-7} This fits Zuhayr al-Shawish's observation that some manuscripts of the Jami' place it at the end of the preface and others omit it. {cite:sahih-jami-saghir-maktab-islami-1988 p. 9-10}
+
+## Al-Nabhani on its count and grades
+In the preface to [[work/al-fath-al-kabir|al-Fath al-Kabir]], [[person/yusuf-al-nabhani|al-Nabhani]] says the commentators give al-Jami' al-Saghir 10,934 hadiths, but that he counted them himself and found ten thousand and about ten more, thinking they had all followed al-Munawi. {cite:fath-kabir-halabi-v1 p. 6}
+
+:::perspectives
+- **Sunni: Yusuf al-Nabhani**: holds that, since al-Suyuti selected al-Jami' al-Saghir from [[work/jam-al-jawami-suyuti|Jam' al-Jawami']], he included no very weak hadiths, so most of it is sound or good and the weak are few — and that weak hadith is in any case acted upon in the merits of deeds, as he takes to be settled. {cite:fath-kabir-halabi-v1 p. 5}
+:::
+This view stands against those of al-Munawi and al-Albani given above.

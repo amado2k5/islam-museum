@@ -19,3 +19,6 @@ translators: []
 - **أهل السنة (الأشاعرة): نص الجلالين**: تفسير الرحمة بإرادة الخير، واليد بالاطلاع والمجازاة، والاستواء «استواءً يليق به» {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.23} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.700} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.286}.
 - **ما لم يُذكر هنا**: لم تُضف بعدُ الدراسات الأكاديمية في عقيدة الجلالين، ولا كلام شُرّاح الكتاب وأصحاب حواشيه؛ وستضيفها كتب لاحقة.
 :::
+
+## مقارنة بالتفسير الميسر
+في الآيات نفسها يقول [[work/al-tafsir-al-muyassar|التفسير الميسر]]، الذي اشترط تفسير الآيات وفق مذهب السلف في الاعتقاد، في آية يونس: الاستواء «أي: علا وارتفع» ثم «استواءً يليق بجلاله وعظمته»؛ ويبقي في آية البيعة ذكر اليد كما هو، ويضيف أنه سبحانه معهم يسمع أقوالهم ويرى مكانهم. {cite:tafsir-muyassar-king-fahd-1430 p.10} {cite:tafsir-muyassar-king-fahd-1430 p.224} {cite:tafsir-muyassar-king-fahd-1430 p.528} أما الجلالان فيقولان في آية يونس «استواءً يليق به» دون ذكر العلو، ويفسران اليد في آية البيعة بالاطلاع والمجازاة. {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.286} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.700}
