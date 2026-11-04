@@ -11,3 +11,12 @@
 ## Notes
 - The thesis's count of places of disagreement among the readers is unclear in the OCR and is not given.
 - The thesis's view that al-Tabari belonged to the "Baghdad trend" in grammar is given as its own conclusion; no question card was made because the pages read give only one voice.
+
+## Second pass (deep), OCR-harvest worker B
+Pages read in the thesis (PDF): 26–36 (journeys, teachers, students, works), 46–57 (al-Tabari's sources and chains; his influence on later exegetes, readers and grammarians), 74–93 (the seven ahruf, al-Tabari's view, typology of views, the thesis's preference; definition and transmission of the readings), 1364–1382 (Part Four: al-Tabari's stance on the readings, 854 places, his three criteria), 1446–1502 (indexes and table of contents). Offsets: PDF = typescript + 13 in Part One, + 18 in Part Four.
+
+### Batch 2a
+- Work: `work/jami-al-bayan` turned from a draft card into a full record (authors, genre, structure, 18 typed relations, published) with four new ar/en/ur sections (sources and chains; language and grammar sources; readings; influence).
+- Created: `question/did-al-tabari-reject-established-readings` (al-Tabari, Ibn al-Jazari, Babakr); persons `atiyya-al-awfi`, `al-abbas-ibn-al-walid-al-bayruti` (not the Umayyad commander `al-abbas-ibn-al-walid`), `ahmad-ibn-yusuf-al-taghlibi`.
+- Enriched: `concept/al-ahruf-al-sabaa` (published; al-Tabari's view, the kinds of views, the thesis's preference, and Ibn Atiyya's chapter from `source/muharrar-wajiz-dar-ibn-hazm` PDF pp. 21–24), `concept/qiraat`, `person/al-tabari` (teachers and students; 10 `student_of` edges), `person/ibn-mujahid` and `person/ahmad-ibn-kamil` (`student_of` al-Tabari), `person/yunus-ibn-abd-al-ala`; the source record's notes.
+- Doubts kept out: the thesis's footnote on Muqatil mixes Muqatil ibn Sulayman with Muqatil ibn Hayyan (not linked); "al-Hasan ibn Dawud al-Massisi" kept as the thesis has it; Abu Ubayd's death "214" in a footnote (OCR) not used.
