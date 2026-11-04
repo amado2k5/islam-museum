@@ -223,3 +223,15 @@ All 281 muruj draft/incomplete yamls already have ar+en+ur prose (written by an 
 Promoted: muhammad-ibn-tughj-al-ikhshid, muslim-ibn-uqba-al-murri, shuqran-mawla-rasul, ubayd-ibn-shariya, yahya-ibn-said-ibn-al-as, zarqa-al-yamama, abdallah-ibn-muti-al-adawi, abu-al-zaizaa, al-abbas-ibn-ali, al-musayyab-ibn-zuhayr, al-sari-ibn-al-hakam, al-walid-ibn-utba-ibn-abi-sufyan, hanash-ibn-al-mubashshir, husayn-ibn-ali-sahib-fakhkh, idris-ibn-idris, malik-ibn-al-haytham, mudrika-ibn-ilyas, sad-ibn-hudhayfa, shuayb-ibn-mihdam, yusuf-ibn-yaqub-al-qadi, al-farghani, al-fadl-ibn-jafar-ibn-al-furat, ali-ibn-zayd-alawi, amr-ibn-jurmuz, hamdan-ibn-hamdun. cite-check 25/25; validate 0 errors; 317 tests; coverage regenerated.
 
 **Lane total: 403.** ~231 muruj promotions remain; then tabari ~9, ansab 17, tabaqat 18, uncited ~511.
+
+### Batch 32 (3 Nov 2026, 25 records) — Muruj draft-status promotions 3
+
+Promoted: abbada-umm-jafar, abd-al-malik-ibn-muhammad-ibn-atiyya, abd-al-rahman-ibn-abi-bakr, abd-al-rahman-ibn-attab-ibn-usayd, abd-dakhim-ibn-iram, abdallah-ibn-al-ahmar, abdallah-ibn-al-kawwa-al-yashkuri, abdallah-ibn-ayyash-al-mantuf, abdallah-ibn-hammam-al-saluli, abdallah-ibn-jubayr, abdallah-ibn-khabbab, abdallah-ibn-musab, abdallah-ibn-najda, abdallah-ibn-sad-ibn-nufayl, abdallah-ibn-wahb-al-rasibi, abdallah-ibn-wal-al-tamimi, abdallah-ibn-yazid-al-ibadi, abdullah-ibn-al-zubayr-al-asadi, abdus-sahib-misr, abu-al-adiyya-al-amili, abu-al-atahiyya, abu-al-awar-al-sulami, abu-al-tamhan-al-qinai, abu-al-tayyib-tahir-ibn-abdallah, abu-ali-al-basir. cite-check 25/25; validate 0 errors; tests pass; coverage regenerated. Note: the draft-with-muruj pool is larger than the earlier ~231 estimate — 359 lib-muruj-dhahab draft yamls with full ar+en+ur prose remained at batch open (the ~562 figure earlier included richer multi-source records like abbas-ibn-abd-al-muttalib and abdullah-ibn-abbas, which keep their own provenance and stay draft for other reasons; filtered out of this promotion stream).
+
+**Lane total: 428.** ~334 lib-muruj draft promotions remain; then tabari ~9, ansab 17, tabaqat 18, uncited ~511.
+
+### Batch 33 (3 Nov 2026, 25 records) — Muruj draft-status promotions 4
+
+Promoted: abu-asim-al-nabil, abu-awn-abd-al-malik, abu-bakr-ibn-al-harith-ibn-hisham, abu-dawud-al-tayalisi, abu-haritha-al-nahri, abu-hashim-al-jafari, abu-hazim-al-araj, abu-humayd-al-tusi, abu-karb-al-himyari, abu-khalifa-al-jumhi, abu-l-baz-al-uqab, abu-l-fawaris-al-qarmati, abu-labid-al-jahdami, abu-mahjan-al-thaqafi, abu-malik-al-hadrami, abu-mashar, abu-muslim-al-nakhai, abu-nakhayla, abu-nuwas, abu-ubayda-mammar, abu-zaynab-ibn-awf, adham-ibn-muhriz-al-bahili, adi-ibn-zayd-al-ibadi, aflatun, afra-bint-uqayl. cite-check 25/25; validate 0 errors; tests pass; coverage regenerated. (abu-hazim-al-araj status line carried an extra run tag — regex widened; others uniform.)
+
+**Lane total: 453.** ~310 lib-muruj draft promotions remain; then tabari ~9, ansab 17, tabaqat 18, uncited ~511.
