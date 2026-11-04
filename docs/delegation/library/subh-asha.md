@@ -15,3 +15,10 @@ Vol. 1: title pages, author's preface (pp. 5-10), plan of the whole book (pp. 10
 
 ## Next
 Maqala 2 (masalik wa-mamalik, vols 3-5: descriptions of Cairo, Damascus, the Citadel, other realms), the barid stations (vol. 14 pp. 366-388) to enrich concept/diwan-al-barid, maqala 9 peace treaties (vol. 14 earlier pages).
+
+## Third pass (worker J, run 3)
+- Vol. 1 read: scan pp. 89-100 (bab 4 of the introduction: the name and origin of the Diwan al-Insha', its history under the Prophet, the caliphs, Umayyads, Abbasids, Maghrib/Andalus, and Egypt in five phases to Fath Allah).
+- Vol. 14 read: scan pp. 366-389 (conclusion, bab 1: the barid — word, history from Mu'awiya to its collapse after Timur 804 AH, silver plaques, the six sections of stations; samples of the Cairo-Qus, Qatya-Gaza and Gaza-Damascus routes with khans and moved stations).
+- Enriched: concept/diwan-al-barid (from a Qudama draft; Qalqashandi section ar/en/ur; promoted).
+- New: concept/diwan-al-insha (the chancery; kept distinct from concept/insha, the rhetorical term).
+- Next: maqala 2 descriptions of Cairo, Damascus and the Citadel (vols 3-4); maqala 9 treaties in vol. 14; offices of the chancery (vol. 1, bab 5 fasl 4, scan ~p. 130).

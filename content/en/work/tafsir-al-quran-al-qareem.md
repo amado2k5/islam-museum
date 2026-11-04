@@ -149,7 +149,7 @@ These are the museum records written from the episodes of the series, ordered by
 - [[person/abu-hazim-al-araj|Abu Hazim al-A'raj]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:16:00}
 - [[person/umar-ibn-abd-al-aziz|Umar ibn Abd al-Aziz]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:18:30}
 - [[concept/husn-al-khatima|A good ending (husn al-khatima)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:22:00}
-- [[person/zayd-al-khayr|Zayd al-Khayr]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:24:30}
+- [[person/zayd-al-khayl|Zayd al-Khayr]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:24:30}
 - [[concept/niyya|Niyya (intention in deeds)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:30}
 - [[person/muhammad|Muhammad]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:31:00}
 - [[person/abu-dharr-al-ghifari|Abu Dharr al-Ghifari]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:34:30}

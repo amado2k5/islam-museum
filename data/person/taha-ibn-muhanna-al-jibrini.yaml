@@ -1,0 +1,54 @@
+id: person/taha-ibn-muhanna-al-jibrini
+class: person
+label:
+  ar: طه بن مهنا الجبريني
+  en: Taha ibn Muhanna al-Jibrini
+  ur: طہٰ بن مہنا جبرینی
+names:
+- value: طه بن مهنا الجبريني المحتد الحلبي
+  kind: full
+gender: male
+summary:
+  ar: طه بن مهنا الجبريني المحتد الحلبي (1084-1178هـ/1673-1764م)، فاضل له كتابة على بعض «صحيح البخاري»، وكتاب في تراجم أهل بدر، ونظم، بحسب الزركلي نقلاً عن «سلك الدرر» {cite:alam-zirikli-1927-v2 p. 52}.
+  en: Taha ibn Muhanna, of Jibrin origin, of Aleppo (1084-1178 AH / 1673-1764), a scholar who wrote on part of Sahih al-Bukhari and a book on the lives of the people of Badr, and composed verse, according to al-Zirikli citing Silk al-Durar.
+  ur: طہٰ بن مہنا، اصلاً جبرین کے، حلبی (1084-1178ھ/1673-1764ء)، ایک فاضل جنہوں نے صحیح بخاری کے کچھ حصے پر لکھا، اہلِ بدر کے تراجم پر کتاب لکھی اور شعر کہے، زرکلی کے مطابق جو «سلک الدرر» سے نقل کرتے ہیں۔
+roles:
+- scholar
+wings:
+- people
+periods:
+- period/gunpowder-empires
+regions:
+- levant-iraq
+born:
+  edtf: '1673'
+  hijri: '1084'
+  calendar: gregorian
+  precision: year
+  status: tradition
+  note: 'رأس الترجمة: 1084-1178هـ / 1673-1764م (الأعلام ط1 PDF ص52)'
+  sources: &id001
+  - source/alam-zirikli-1927-v2
+died:
+  edtf: '1764'
+  hijri: '1178'
+  calendar: gregorian
+  precision: year
+  status: tradition
+  note: 'رأس الترجمة: 1084-1178هـ / 1673-1764م (الأعلام ط1 PDF ص52)'
+  sources: *id001
+relations:
+- type: lived_in
+  target: place/aleppo
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: alam-zirikli-1927-v2 PDF p. 52
+  generated_by: Claude Code (OCR-harvest worker L)
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Code (OCR-harvest worker L)

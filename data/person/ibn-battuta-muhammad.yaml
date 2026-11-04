@@ -20,12 +20,13 @@ relations:
   - { type: participated_in, target: event/ibn-battuta-completes-hajj-1326, sources: [source/britannica-ibn-battuta] }
   - { type: participated_in, target: event/ibn-battuta-envoy-to-china-1342, sources: [source/britannica-ibn-battuta] }
   - { type: participated_in, target: event/ibn-battuta-returns-to-fez-1349, sources: [source/britannica-ibn-battuta] }
+  - { type: traveled_to, target: place/maldives, sources: [source/rihla-ibn-battuta-ihya-al-ulum-1987] }
   - { type: participated_in, target: event/ibn-battuta-journey-to-mali-1352, sources: [source/britannica-ibn-battuta] }
   - { type: participated_in, target: event/ibn-battuta-dictates-rihla-1353, sources: [source/britannica-ibn-battuta] }
 story_roles:
   - { role: traveller-observer, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q7331" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/durar-kamina-jil-1993, source/rihla-ibn-battuta-khayriyya-1904]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/durar-kamina-jil-1993, source/rihla-ibn-battuta-khayriyya-1904, source/rihla-ibn-battuta-ihya-al-ulum-1987]
 education:
   did_you_know:
     ar: "ابن بطوطة رحّالة من طنجة جاب أقطار العالم الإسلامي، وخلّدت رحلته خبر بلاد وعادات أهلها في القرن الرابع عشر."
@@ -43,6 +44,6 @@ kids:
 provenance:
   layer: own-research
   source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص575; source/rihla-ibn-battuta-khayriyya-1904 scan pp. 14-15, 313, 412, 565-566"
-  generated_by: "Devin; enriched by Claude Code (OCR-harvest worker J)"
+  generated_by: "Devin; enriched by Claude Code (OCR-harvest worker J); Maldives edge by Claude Code (OCR-harvest worker L)"
   model: "SWE-2 High; claude-opus-5-5"
   run: "lib-mawsuat-a3lam, lib-durar-kamina-batch-1-2-2026-10-31; ocr-harvest-2026-11-04"

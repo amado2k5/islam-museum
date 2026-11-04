@@ -1,0 +1,21 @@
+---
+id: building/jami-masjid-firuzabad-delhi
+lang: en
+source_lang: ar
+translators: ["Claude Code (OCR-harvest worker H), translation"]
+status:
+  review: published
+provenance:
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011, printed pp. 60-68"
+---
+## Overview
+Returning from his Bengal campaign of 1353-54, [[person/firuz-shah-tughluq|Firuz Shah Tughluq]] began his own city of Firuzabad on the bank of the Yamuna near the village of Gawin, five *kos* from Delhi, with the citadel now called Kotla Firuz Shah. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 59} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 60} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 61} The citadel held his congregational mosque, with the "golden minaret", the Ashokan pillar, in front of it. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 62} The author notes that Afif gives only its name and its place in the citadel; she dates it to AH 755/1354, just south of the pyramidal structure and against the riverside fortification wall, and attributes its building to the vizier Khan-i Jahan and his son. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 63}
+
+## Architecture
+The mosque stood on a high plinth containing a basement storey (*tahkhana*) of vaulted cells, prayer taking place on the upper level; it had a single court with cloisters three bays deep on three sides and the sanctuary on the west. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 64} Its main entrance is on the north instead of the east, because the river ran close to the east wall: a square domed gateway with three outer doorways, originally reached by flights of steps. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 64} A narrow hidden passage runs inside the thickness of the west wall, and covered staircases and a bridge to the palace let the ladies of the harem reach their upper and lower galleries unseen, an arrangement the author thinks unique among Indian mosques; Franklin, who saw the building in 1793, confirmed this hidden access from the palaces. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 65} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 66} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 68} Franklin described four cloisters whose domed roofs rested on two hundred and sixty stone columns about sixteen feet high, with an octagonal dome in the centre. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 66} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 67} A deep pit in the middle of the court is thought to have been a well; an attempt to explore it in 1914-15 was abandoned when its sides collapsed, and it was filled in. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 66}
+
+## History
+In AH 769/1367 Firuz Shah brought the Ashokan pillar to Firuzabad and set it on a pyramidal building to the north of the mosque. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 67} [[person/timur-lang|Timur]] records in his *Malfuzat* that he went into the Masjid-i Jami and prayed there, and Firishta says he admired its design so much that he built a great mosque at [[place/samarqand|Samarqand]] on the same plan with masons taken from India. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 63} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 68} Visitors of the early reign of Akbar left writings on some of its arches, and a date found under the whitewash shows the mosque still in use for prayer in 1741. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 68} In 1847 a committee of the Archaeological Society of Delhi investigated it; its plans were lost in 1857. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 67} Today only the north gateway and the north, south and west walls survive. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 63} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 64}

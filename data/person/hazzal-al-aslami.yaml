@@ -1,0 +1,31 @@
+id: person/hazzal-al-aslami
+class: person
+label: { ar: "هزال الأسلمي", en: "Hazzal al-Aslami", ur: "ہزال اسلمی" }
+names:
+  - { kind: full, lang: ar, value: "هزال بن ذئاب بن يزيد بن كليب بن عامر بن خزيمة بن مازن بن الحارث بن سلامان بن أسلم" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "هزال بن ذئاب الأسلمي، من بني سلامان بن أسلم، روى عنه ابنه ومحمد بن المنكدر حديثاً واحداً فيما يظن ابن عبد البر، وهو قول النبي: «يا هزال، لو سترته بردائك»، وقيل إن بين ابن المنكدر وهزال نعيم بن هزال {cite:istiab-alam-2002 p. 745}."
+  en: "Hazzal ibn Dhi'ab al-Aslami, of Banu Salaman ibn Aslam; his son and Muhammad ibn al-Munkadir narrated from him what Ibn 'Abd al-Barr thinks is his only hadith, the Prophet's words 'O Hazzal, had you covered him with your cloak'; some say Nu'aym ibn Hazzal stands between Ibn al-Munkadir and Hazzal {cite:istiab-alam-2002 p. 745}."
+  ur: "ہزال بن ذئاب اسلمی، بنو سلامان بن اسلم سے؛ ان سے ان کے بیٹے اور محمد بن المنکدر نے وہ روایت کی جسے ابن عبد البر ان کی واحد حدیث سمجھتے ہیں، یعنی نبی کا فرمان: «اے ہزال، اگر تم اسے اپنی چادر سے ڈھانپ دیتے»؛ اور کہا گیا کہ ابن المنکدر اور ہزال کے درمیان نعیم بن ہزال ہیں {cite:istiab-alam-2002 p. 745}۔"
+wings: [people]
+themes: [ethics-and-character]
+regions: [arabia]
+periods: [period/prophetic-era]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 2671 ص 745", sources: [source/istiab-alam-2002] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
+  - { type: related_to, target: concept/satr, note: "«يا هزال، لو سترته بردائك» {cite:istiab-alam-2002 p. 745}", sources: [source/istiab-alam-2002] }
+provenance:
+  layer: own-research
+  source: "al-Isti'ab (Dar al-A'lam 2002) p. 745, entries 2671-2673 with the editor's note"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/istiab-alam-2002]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

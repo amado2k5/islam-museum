@@ -1,25 +1,38 @@
 id: person/al-usayrim
 class: person
-label:
-  ar: "الأصيرم"
-  en: "al-Usayrim"
+label: { ar: "الأصيرم", en: "al-Usayrim", ur: "اصیرم" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن ثابت بن وقش بن زغبة بن زعوراء بن عبد الأشهل الأنصاري" }
+  - { kind: laqab, lang: ar, value: "الأصيرم" }
 roles: [companion]
 gender: male
+traditions: [sunni]
 summary:
-  ar: "بطاقة أولية لعمرو بن ثابت الأصيرم، استشهد بأحد قبل إسلام ظاهر في القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Amr ibn Thabit al-Usayrim, who was martyred at Uhud before his Islam was manifest, seventh century; the biographical entry is not yet checked on the page."
+  ar: "الأصيرم، عمرو بن ثابت بن وقش من بني عبد الأشهل، ابن أخت حذيفة بن اليمان؛ كان يأبى الإسلام على قومه، فلما خرج النبي إلى أحد بدا له فأسلم وقاتل حتى أثبتته الجراحة ومات، فقال النبي: إنه لمن أهل الجنة؛ وكان أبو هريرة يقول: حدثوني عن رجل دخل الجنة لم يصلّ قط {cite:rawd-unuf-wakil-v6 p. 14} {cite:istiab-alam-2002 p. 495}."
+  en: "Al-Usayrim, 'Amr ibn Thabit ibn Waqsh of Banu 'Abd al-Ashhal, nephew of Hudhayfa ibn al-Yaman through his mother; he had refused Islam to his people, but when the Prophet set out for Uhud he changed his mind, became Muslim and fought until his wounds felled him and he died; the Prophet said, 'He is one of the people of Paradise'; Abu Hurayra used to say, 'Tell me of a man who entered Paradise without ever praying' {cite:rawd-unuf-wakil-v6 p. 14} {cite:istiab-alam-2002 p. 495}."
+  ur: "اصیرم، عمرو بن ثابت بن وقش، بنو عبد الاشہل سے، حذیفہ بن الیمان کے بھانجے؛ وہ اپنی قوم کے سامنے اسلام سے انکار کرتے رہے، مگر جب نبی احد کے لیے نکلے تو ان کا ارادہ بدلا، مسلمان ہوئے اور لڑتے رہے یہاں تک کہ زخموں نے گرا دیا اور فوت ہو گئے؛ نبی نے فرمایا: «وہ اہلِ جنت میں سے ہے»؛ ابو ہریرہ کہا کرتے تھے: «مجھے اس آدمی کے بارے میں بتاؤ جو کبھی نماز پڑھے بغیر جنت میں داخل ہوا» {cite:rawd-unuf-wakil-v6 p. 14} {cite:istiab-alam-2002 p. 495}۔"
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "استشهد يوم أحد {cite:istiab-alam-2002 p. 495}؛ السنة مشتقة من تاريخ الغزوة.", sources: [source/istiab-alam-2002] }
 wings: [people]
+themes: [converts-and-leavers]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 1758 ص 495؛ السيرة ج6 ص 14", sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
+faith:
+  - { value: sunni, basis: tradition, note: "أسلم يوم أحد بحسب رواية ابن إسحاق {cite:rawd-unuf-wakil-v6 p. 14}؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/banu-abd-al-ashhal, sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
+  - { type: participated_in, target: event/battle-of-uhud, sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
 external_ids:
   wikidata: Q12183492
+sources: [source/rawd-unuf-wakil-v6, source/istiab-alam-2002, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0052
+  source: "Ibn Hisham's Sira in al-Rawd al-Unuf ed. al-Wakil vol. 6 printed p. 14 and al-Suhayli p. 36; al-Isti'ab (Dar al-A'lam 2002) p. 495, entry 1758; earlier Devin Wikidata card"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker A); rewritten from a Devin draft card (run wikidata-import-0052)"

@@ -1,0 +1,20 @@
+id: person/sawda-bint-umara
+class: person
+label: { ar: "سودة بنت عمارة الهمدانية", en: "Sawda bint Umara al-Hamdaniyya", ur: "سودہ بنت عمارہ الہمدانیہ" }
+gender: female
+roles: [poet]
+summary:
+  ar: "شاعرة فصيحة من همدان قالت شعراً في نصرة علي يوم صفين، ثم وفدت على معاوية تشكو عامله بسر بن أرطاة، وحدثته بخبرها مع علي حين شكت إليه عامل الصدقة، فكتب لها ولقومها بحاجتها؛ يروي خبرها كحالة عن بلاغات النساء."
+  en: "An eloquent poet of Hamdan who composed verses for Ali at Siffin and later came before Mu'awiya to complain of his governor Busr ibn Abi Artat, telling him how Ali had once dismissed a tax collector she complained of; Mu'awiya had her request granted for her and her people. Kahhala tells her story from Balaghat al-Nisa'."
+  ur: "ہمدان کی ایک فصیح شاعرہ جنہوں نے صفین میں علی کی حمایت میں اشعار کہے، پھر معاویہ کے پاس ان کے عامل بسر بن ابی ارطاۃ کی شکایت لے کر آئیں اور بتایا کہ علی نے کس طرح زکوٰۃ کے ایک عامل کو ان کی شکایت پر معزول کیا تھا؛ معاویہ نے ان کے اور ان کی قوم کے لیے ان کی حاجت لکھوا دی۔ کحالہ بلاغات النساء سے نقل کرتے ہیں۔"
+wings: [people]
+themes: [women, literature, civil-wars-and-revolts]
+periods: [period/rashidun, period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, role: "وفدت عليه", sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
+  - { type: related_to, target: person/busr-ibn-abi-artat, role: "شكته إلى معاوية", sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
+  - { type: participated_in, target: event/battle-of-siffin, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
+provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج2 p.274–276", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v2]
+status: { review: published, completeness: 3 }

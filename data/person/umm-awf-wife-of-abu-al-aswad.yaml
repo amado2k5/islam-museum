@@ -1,0 +1,19 @@
+id: person/umm-awf-wife-of-abu-al-aswad
+class: person
+label: { ar: "أم عوف امرأة أبي الأسود الدؤلي", en: "Umm Awf, wife of Abu al-Aswad al-Du'ali", ur: "ام عوف، ابو الاسود دؤلی کی اہلیہ" }
+gender: female
+roles: [poet]
+summary:
+  ar: "امرأة فصيحة خاصمت زوجها أبا الأسود الدؤلي بعد طلاقها في مجلس معاوية على حضانة ابنهما، فقضى لها؛ يروي خبرها كحالة في «أعلام النساء» مثالاً على البلاغة."
+  en: "An eloquent woman who, after her divorce, disputed with her husband Abu al-Aswad al-Du'ali before Mu'awiya over the custody of their son and won; Kahhala's A'lam al-Nisa' gives the story as an example of eloquence."
+  ur: "ایک فصیح خاتون جنہوں نے طلاق کے بعد اپنے شوہر ابو الاسود دؤلی سے معاویہ کی مجلس میں اپنے بیٹے کی پرورش پر مقدمہ لڑا اور جیت گئیں؛ کحالہ کی «اعلام النساء» یہ واقعہ بلاغت کی مثال کے طور پر نقل کرتی ہے۔"
+wings: [people]
+themes: [women, literature, family-marriage-kinship, law-and-courts]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: spouse_of, target: person/abu-al-aswad-al-duali, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, role: "خاصمت زوجها عنده", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج3 p.380–382", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
+status: { review: published, completeness: 3 }

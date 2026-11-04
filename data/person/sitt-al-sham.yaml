@@ -1,20 +1,24 @@
 id: person/sitt-al-sham
 class: person
-label: { ar: "ست الشام بنت أيوب", en: "Sitt al-Sham bint Ayyub" }
-died: { edtf: "1220", hijri: "0616", calendar: julian, precision: day, status: tradition, derived: true, note: "توفيت يوم الجمعة سادس عشر ذي القعدة سنة ست عشرة وستمائة {cite:wafayat-ayan}." }
+label: { ar: "ست الشام بنت أيوب", en: "Sitt al-Sham bint Ayyub", ur: "ست الشام بنت ایوب" }
+died: { edtf: "1220-01", hijri: "0616-11-16", calendar: julian, precision: day, status: historical, derived: true, note: "توفيت يوم الجمعة سادس عشر ذي القعدة سنة ست عشرة وستمائة {cite:wafayat-ayan}؛ و«كانت وفاتها في ذي القعدة» سنة 616هـ عند سبط ابن الجوزي (مرآة الزمان 22/241). التحويل الميلادي مشتق ومُثبت بالشهر.", sources: [source/wafayat-ayan, source/mirat-al-zaman-risala-2013-v22] }
 summary:
-  ar: "ست الشام زمرّد خاتون بنت أيوب؛ شقيقة شمس الدولة توران شاه بن أيوب؛ زوجها ناصر الدين بن أسد الدين شيركوه صاحب حمص؛ بنت مدرسة داخل دمشق قبلي البيمارستان النوري وبنت المدرسة الأخرى ظاهر دمشق وبها قبرها وقبر أخيها وزوجها؛ وكان ابن الصلاح يتولى تدريس مدرستها مع الناصرية بالقدس والرواحية ودار الحديث {cite:wafayat-ayan}."
-  en: "Sitt al-Sham (Zumurrud Khatun) bint Ayyub (d. 616) — Salah al-Din's sister, wife of Nasir al-Din b. Shirkuh lord of Homs; founded two Damascus madrasas — one inside by the Nuriyya bimaristan and one outside where she and her husband lie; Ibn al-Salah taught at her school among four posts {cite:wafayat-ayan}."
+  ar: "ست الشام زمرّد خاتون بنت أيوب؛ شقيقة شمس الدولة توران شاه بن أيوب؛ زوجها ناصر الدين بن أسد الدين شيركوه صاحب حمص؛ بنت مدرسة داخل دمشق قبلي البيمارستان النوري وبنت المدرسة الأخرى ظاهر دمشق وبها قبرها وقبر أخيها وزوجها؛ وكان ابن الصلاح يتولى تدريس مدرستها مع الناصرية بالقدس والرواحية ودار الحديث {cite:wafayat-ayan}. وعند سبط ابن الجوزي كانت كثيرة البر والصدقات، يُعمل في دارها كل سنة من الأشربة والمعاجين والعقاقير بألوف الدنانير تفرقها على الناس، وهي أم حسام الدين لاجين، ووقفت دارها مدرسة قبيل وفاتها، ودفنت بتربتها في العوينة، وكان لها ولأختها ربيعة خاتون «نيف وثلاثون محرماً من الملوك» {cite:mirat-al-zaman-risala-2013-v22 p. 241-242}."
+  en: "Sitt al-Sham (Zumurrud Khatun) bint Ayyub (d. 616) — Salah al-Din's sister, wife of Nasir al-Din b. Shirkuh lord of Homs; founded two Damascus madrasas — one inside by the Nuriyya bimaristan and one outside where she and her husband lie; Ibn al-Salah taught at her school among four posts {cite:wafayat-ayan}. Sibt ibn al-Jawzi adds that every year her house prepared syrups, electuaries and drugs worth thousands of dinars to give away, that she was the mother of Husam al-Din Lajin, endowed her house as a madrasa shortly before her death, and that she and her sister Rabi'a Khatun counted 'thirty-odd kings' among their close kin {cite:mirat-al-zaman-risala-2013-v22 p. 241-242}."
 gender: female
 wings: [people]
+themes: [women, waqf, education]
 periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: sibling_of, target: person/shams-al-dawla-turanshah, sources: [source/wafayat-ayan, source/mirat-al-zaman-risala-2013-v22] }
+  - { type: spouse_of, target: person/nasir-al-din-muhammad-ibn-shirkuh, sources: [source/wafayat-ayan, source/mirat-al-zaman-risala-2013-v22] }
+  - { type: died_in, target: place/damascus, sources: [source/mirat-al-zaman-risala-2013-v22] }
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الثالث (عارضة 110 داخل ترجمة ابن الصلاح)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch118
-sources: [source/wafayat-ayan]
-status:
-  review: published
-  completeness: 3
+  source: "وفيات الأعيان لابن خلكان ج3؛ source/mirat-al-zaman-risala-2013-v22 scan pp. 239, 241-242"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: "prose-fill-persons-batch118; ocr-harvest-2026-11-04"
+sources: [source/wafayat-ayan, source/mirat-al-zaman-risala-2013-v22]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium); Claude Code (OCR-harvest worker J)" }

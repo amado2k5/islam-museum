@@ -1,0 +1,24 @@
+id: person/ahmad-al-sujai
+class: person
+label: { ar: "شمس الدين أحمد بن أحمد السجاعي", en: "Shams al-Din Ahmad ibn Ahmad al-Suja'i", ur: "شمس الدین احمد بن احمد السجاعی" }
+summary:
+  ar: "عالم أزهري شافعي (ت. 1197هـ/1782م) من السجاعية قرب المحلة، له مؤلفات في اللغة والفقه والفلك، منها «هداية أولي البصائر والأبصار» {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 34}."
+  en: "Azhari Shafi'i scholar (d. 1197/1782) from al-Suja'iyya near al-Mahalla, author of works on language, law and astronomy, including Hidayat uli al-basa'ir wal-absar {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 34}."
+  ur: "ازہری شافعی عالم (متوفی 1197ھ/1782ء) جو محلہ کے قریب السجاعیہ کے تھے، زبان، فقہ اور فلکیات پر تصانیف کے مصنف، جن میں «ہدایۃ اولی البصائر والابصار» ہے {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 34}۔"
+wings: [people]
+themes: [astronomy-and-timekeeping]
+regions: [egypt-nile]
+gender: male
+roles: [scholar]
+periods: [period/gunpowder-empires]
+died: { edtf: "1782", hijri: "1197", calendar: gregorian, precision: year, status: historical, derived: true, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+relations:
+  - { type: authored, target: work/hidayat-uli-al-basair-wal-absar, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
+provenance:
+  layer: own-research
+  source: "source/bibalex-azhar-astronomy-manuscripts-2006 scan pp. 34"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

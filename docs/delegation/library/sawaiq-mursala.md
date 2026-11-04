@@ -18,3 +18,9 @@ Read: v1 PDF pp. 1–3, 7–8, 17–19, 26–30, 54–58; text pp. 1–5, 21, 34
 
 ## Next
 The chapters on ta'wil (text pp. ~100–340), the second idol (the 242 aspects, pp. 470ff.), the editors' manuscript descriptions (v1 pp. 30–60), Badi's study.
+
+## Fourth run (4 Nov 2026), batch 3 — worker C
+Read: text pp. 23–37 (chapters 1–2 on ta'wil). Enriched `concept/tawil-quran` (Haiku draft, 1.1 KB ar → full ar/en/ur with Ibn al-Qayyim's three senses and kinds of false ta'wil; status published). The theologians' views are given only as he reports them.
+
+## Next
+Remaining ta'wil chapters (text pp. 38ff.), the second idol (pp. 470ff.).

@@ -1,23 +1,37 @@
 id: event/battle-of-the-pyramids-1213
 class: event
 kind: battle
-label: { ar: "معركة إمبابة (الأهرام)", en: "Battle of the Pyramids" }
+label: { ar: "وقعة إمبابة (معركة الأهرام) سنة 1213هـ / 1798م", en: "The battle of Imbaba (Battle of the Pyramids), 1213 AH / 1798", ur: "1213ھ / 1798ء میں امبابہ کی لڑائی (اہرام کی جنگ)" }
 summary:
-  ar: "بطاقة أولية لمعركة الأهرام قرب إمبابة سنة ١٢١٣هـ/١٧٩٨م، انتصار نابليون على جيوش المماليك في مطلع الحملة الفرنسية على مصر؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Battle of the Pyramids near Imbaba in 1213/1798, Napoleon's victory over the Mamluk armies at the opening of the French campaign in Egypt; its sources are not yet checked on the page."
-wings: [time]
+  ar: "الوقعة التي انكسر فيها مراد بيك وعسكر المماليك أمام الفرنسيس ببر إمبابة غربي النيل يوم السبت سابع صفر سنة 1213هـ، كما يرويها الجبرتي: تقاتلوا نحو ثلاثة أرباع ساعة والريح تسفّ الرمال في وجوه المصريين، ثم انهزم العسكر الغربي وغرق كثير من الخيالة، وفر مراد بيك إلى الصعيد، وترك إبراهيم بيك والباشا خيامهم في البر الشرقي، وخرج معظم أهل القاهرة ليلاً فنهبتهم العربان {cite:ajaib-al-athar-moreh-v3 p. 39-41}."
+  en: "The battle in which Murad Bey and the Mamluk army broke before the French on the Imbaba bank west of the Nile on Saturday 7 Safar 1213 AH, as al-Jabarti tells it: they fought for about three-quarters of an hour with the wind driving sand into the Egyptians' faces; the western army broke, many horsemen drowned, Murad Bey fled south, Ibrahim Bey and the pasha abandoned their tents on the east bank, and most of the people of Cairo fled by night, to be stripped by Bedouin {cite:ajaib-al-athar-moreh-v3 p. 39-41}."
+wings: [time, place]
+themes: [colonial-wars-and-resistance, battles]
 periods: [period/colonial-era]
 regions: [egypt-nile]
+sides:
+  - label: { ar: "الفرنسيس", en: "The French", ur: "فرانسیسی" }
+    commanders: [person/napoleon-bonaparte]
+    note: "تقدم طابور نحو ستة آلاف كبيرهم «ديزه»، ويقول الجبرتي إن بونابرت لم يشهد الوقعة وحضر بعد الهزيمة {cite:ajaib-al-athar-moreh-v3 p. 39}"
+  - label: { ar: "مراد بيك وإبراهيم بيك وأمراء المماليك والباشا والعسكر والرعايا", en: "Murad Bey, Ibrahim Bey, the Mamluk amirs, the Ottoman pasha, the troops and the townspeople", ur: "مراد بیگ، ابراہیم بیگ، مملوک امراء، عثمانی پاشا، لشکر اور عوام" }
+    participants: [group/arabs]
+    commanders: [person/murad-bey, person/ibrahim-bey]
+    note: "ومعهم عسكر الأرنؤوط من دمياط وعلي باشا الطرابلسي ونصوح باشا {cite:ajaib-al-athar-moreh-v3 p. 37} {cite:ajaib-al-athar-moreh-v3 p. 39}"
 date:
-  start: { edtf: "1798", precision: year, status: tradition, derived: true }
-  end: { edtf: "1798", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+  start: { edtf: "1798-07-21", hijri: "1213-02-07", calendar: gregorian, precision: day, status: historical, note: "«ولما كان يوم الجمعة سادس الشهر [٢٠ تموز، ١٧٩٨] وصل الفرنسيس الى الجسر الاسود واصبح يوم السبت فوصلوا الى ام دينار» ثم كانت الوقعة وقت القائلة من ذلك اليوم (عجائب الآثار 3، مسح ص39)؛ التاريخ الميلادي للسبت محسوب من قوسَي المحقق.", sources: [source/ajaib-al-athar-moreh-v3] }
+relations:
+  - { type: occurred_at, target: place/al-jizah, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: occurred_at, target: place/cairo, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: part_of, target: event/french-campaign-egypt-1213, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: had_participant, target: person/murad-bey, role: "قائد البر الغربي", sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: had_participant, target: person/ibrahim-bey, role: "قائد البر الشرقي", sources: [source/ajaib-al-athar-moreh-v3] }
+sources: [source/ajaib-al-athar-moreh-v3]
 external_ids:
   wikidata: Q332543
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in modern-Egyptian-history surveys — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/ajaib-al-athar-moreh-v3 scan pp. 37-41"
+  generated_by: "Claude Code (OCR-harvest worker J); earlier card by Devin (SWE-2 High)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

@@ -29,3 +29,8 @@ Vol. 1 Ajnadayn, Damascus, Homs, Yarmuk, Aleppo and Azaz sections; vol. 2 Egypt 
 ## Second pass (same run)
 - Read vol. 1 pp. 237-238, 245, 264-265, 267-268 (Aleppo and Azaz).
 - New: person/yuqanna-of-aleppo (ar/en/ur). Roles fix on person/khawla-bint-al-azwar (removed non-enum role).
+
+## Third pass (worker J, run 3)
+- Vol. 2 read: scan pp. 78-88 (Damietta, Tinnis, Shata and Abu Thawb, dated in the book to Sha'ban 20 AH), 117-120 (Ruha, Harran, start of Ras al-Ayn; not yet written up).
+- New: event/conquest-of-dimyat-futuh-al-sham (sides, status legend), person/shata-of-dimyat (the mid-Sha'ban grave visit reported by the book).
+- Next: Ruha/Harran/Ras al-Ayn (pp. 117-142) to enrich event/conquest-of-ruha, conquest-of-harran, conquest-of-ras-al-ayn as the book's telling; Mayyafariqin and Amid (pp. 143-152).

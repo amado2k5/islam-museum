@@ -1,0 +1,24 @@
+id: person/arthur-lane
+class: person
+label: { ar: "آرثر لين", en: "Arthur Lane", ur: "آرتھر لین" }
+summary:
+  ar: "مؤرخ خزف بريطاني من متحف فكتوريا وألبرت، ألّف «الخزف الإسلامي المبكر» (1947) و«الخزف الفرنسي» و«الخزف الإغريقي» في سلسلة فيبر {cite:lane-early-islamic-pottery-1947 p. 3} {cite:lane-early-islamic-pottery-1947 p. 6}."
+  en: "British ceramic historian at the Victoria and Albert Museum, author of Early Islamic Pottery (1947), French Faience and Greek Pottery in the Faber series {cite:lane-early-islamic-pottery-1947 p. 3} {cite:lane-early-islamic-pottery-1947 p. 6}."
+  ur: "وکٹوریا اینڈ البرٹ میوزیم کے برطانوی مؤرخِ ظروف، جنہوں نے فیبر سلسلے میں «ابتدائی اسلامی ظروف» (1947ء)، «فرانسیسی فائنس» اور «یونانی ظروف» لکھیں {cite:lane-early-islamic-pottery-1947 p. 3} {cite:lane-early-islamic-pottery-1947 p. 6}۔"
+wings: [people]
+themes: [arts-of-the-book, engineering-and-technology]
+regions: [andalus-europe]
+gender: male
+roles: [scholar]
+periods: [period/colonial-era]
+floruit: { edtf: "1947", calendar: gregorian, precision: year, status: historical, note: "Early Islamic Pottery published 1947 {cite:lane-early-islamic-pottery-1947 p. 7}.", sources: [source/lane-early-islamic-pottery-1947] }
+relations:
+  - { type: authored, target: work/lane-early-islamic-pottery, sources: [source/lane-early-islamic-pottery-1947] }
+sources: [source/lane-early-islamic-pottery-1947]
+provenance:
+  layer: own-research
+  source: "source/lane-early-islamic-pottery-1947 scan pp. 3, 6, 26, 36, 37, 58, 60, 61"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

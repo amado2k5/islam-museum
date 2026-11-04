@@ -1,24 +1,25 @@
 id: building/turbe-of-idris-baba
 class: building
 kind: tomb
-label:
-  ar: "ضريح إدريس بابا"
-  en: "Türbe of Idris Baba, Pécs"
+label: { ar: "ضريح إدريس بابا في پيچ", en: "Türbe of İdris Baba, Pécs", ur: "ادریس بابا کا مقبرہ، پیچ" }
 summary:
-  ar: "بطاقة أولية لـTürbe of Idris Baba, Pécs، المعلم التاريخي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Türbe of Idris Baba, Pécs, the historic monument; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "ضريح مثمن مقبب من الآجر خارج أسوار پيچ في مقبرة إسلامية قديمة، أحد ضريحين بكتاشيين باقيين في المجر مع ضريح گل بابا، صار مصلى بعد 1693 وأعيد ضريحاً في الستينيات {cite:yilmaz-ottoman-architecture-hungary-2024 p. 121}."
+  en: "An octagonal domed brick tomb outside the walls of Pécs in a former Muslim cemetery, one of two surviving Bektashi tombs in Hungary with Gül Baba's; a chapel after 1693, restored as a tomb in the 1960s {cite:yilmaz-ottoman-architecture-hungary-2024 p. 121}."
+  ur: "پیچ کی فصیل کے باہر ایک پرانے مسلم قبرستان میں اینٹ کا ہشت پہلو گنبد دار مقبرہ، گل بابا کے مقبرے کے ساتھ ہنگری کے دو باقی بکتاشی مزاروں میں سے ایک؛ 1693ء کے بعد چیپل، 1960 کی دہائی میں پھر مزار {cite:yilmaz-ottoman-architecture-hungary-2024 p. 121}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+built: { edtf: "1591/1663", calendar: gregorian, precision: decade, status: debated, note: "İdris Baba is attested alive by Peçevi (1591) and by Evliya (1663); the tomb follows" }
+materials: [brick]
+sources: [source/tarikh-islam-hasan-ibrahim, source/yilmaz-ottoman-architecture-hungary-2024]
 external_ids:
   wikidata: Q1095808
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
+  source: "Yilmaz 2024, pp. 120-121; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Yilmaz 2024 pp. 120-121, summary, dates and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

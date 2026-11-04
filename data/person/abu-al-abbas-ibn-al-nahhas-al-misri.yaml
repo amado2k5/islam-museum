@@ -1,0 +1,38 @@
+id: person/abu-al-abbas-ibn-al-nahhas-al-misri
+class: person
+label:
+  ar: "أبو العباس بن النحاس المصري"
+  en: "Abu al-Abbas ibn al-Nahhas al-Misri"
+  ur: "ابو العباس بن النحاس مصری"
+names:
+  - { kind: full, lang: ar, value: "أحمد بن محمد بن عيسى بن الجراح، أبو العباس بن النحاس الربعي المصري الحافظ" }
+  - { kind: kunya, lang: ar, value: "أبو العباس" }
+roles: [scholar]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "أحمد بن محمد بن عيسى بن الجراح، أبو العباس بن النحاس الربعي المصري، حافظ رحل فكتب بمصر والحجاز والشام والعراقين وخوزستان وأصبهان والجبال، وسمع بدمشق ابن جوصا، وأقام على ابن أبي حاتم مدة، ثم استوطن نيسابور من سنة 321 حتى يوم السبت سلخ ذي القعدة سنة 376، وروى عنه الحاكم وأبو نعيم والسلمي. يحكي الحاكم قصة حبسه أصول الشيخ محمد بن عبد الله الصفار ودعاء الصفار عليه، ويختم بأنه اطلع على كتبه بعد وفاته فما رأى إلا الخير {cite:tarikh-dimashq-amrawi-v5 p. 434-438}."
+  en: "Ahmad ibn Muhammad ibn Isa ibn al-Jarrah, Abu al-Abbas ibn al-Nahhas al-Rab'i of Egypt, a hafiz who travelled and wrote down hadith in Egypt, the Hijaz, Syria, the two Iraqs, Khuzistan, Isfahan and the Jibal, heard Ibn Jawsa in Damascus, stayed for a time with Ibn Abi Hatim, then settled in Nishapur from 321 until Saturday, the last day of Dhu al-Qa'da 376; al-Hakim, Abu Nu'aym and al-Sulami narrated from him. Al-Hakim tells how he kept back the original notebooks of the shaykh Muhammad ibn Abd Allah al-Saffar and how al-Saffar prayed against him, and ends by saying that when he saw his books after his death he found nothing but good {cite:tarikh-dimashq-amrawi-v5 p. 434-438}."
+  ur: "احمد بن محمد بن عیسیٰ بن الجراح، ابو العباس بن النحاس ربعی مصری، حافظ جنہوں نے مصر، حجاز، شام، دونوں عراق، خوزستان، اصبہان اور جبال میں سفر کر کے حدیث لکھی، دمشق میں ابن جوصا سے سنا، کچھ مدت ابن ابی حاتم کے پاس رہے، پھر 321 سے سنیچر سلخ ذو القعدہ 376 تک نیشاپور میں مقیم رہے؛ ان سے حاکم، ابو نعیم اور سلمی نے روایت کی۔ حاکم بتاتے ہیں کہ انہوں نے شیخ محمد بن عبد اللہ صفار کے اصل نسخے روک لیے اور صفار نے ان کے خلاف دعا کی، اور آخر میں کہتے ہیں کہ ان کی وفات کے بعد ان کی کتابیں دیکھیں تو خیر ہی پائی {cite:tarikh-dimashq-amrawi-v5 p. 434-438}۔"
+died: { hijri: "0376-11-30", edtf: "0987-04-07", calendar: julian, precision: day, status: tradition, derived: true, note: "الحاكم: استوطن نيسابور سنة إحدى وعشرين إلى يوم السبت سلخ ذي القعدة من سنة ست وسبعين وثلاثمائة، وأخبرني أنه ابن خمس وثمانين سنة {cite:tarikh-dimashq-amrawi-v5 p. 437}. يُفهم من السياق أن هذا يوم وفاته؛ والتحويل مشتق بالحساب الجدولي (ويوافق يوم سبت).", sources: [source/tarikh-dimashq-amrawi-v5] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [egypt-nile, persia-central-asia]
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: student_of, target: person/ibn-jawsa, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: student_of, target: person/ibn-abi-hatim-al-razi, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: student_of, target: person/abu-arubah-al-harrani, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: student_of, target: person/abd-allah-ibn-abi-dawud-al-sijistani, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: lived_in, target: place/nishapur, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: died_in, target: place/nishapur, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: traveled_to, target: place/damascus, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: traveled_to, target: place/jurjan, sources: [source/tarikh-dimashq-amrawi-v5] }
+sources: [source/tarikh-dimashq-amrawi-v5]
+provenance:
+  layer: own-research
+  source: "تاريخ مدينة دمشق لابن عساكر، تحقيق العمروي، المجلد الخامس، الترجمة 202، ص 434–438"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

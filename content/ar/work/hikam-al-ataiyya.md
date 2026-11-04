@@ -3,7 +3,23 @@ id: work/hikam-al-ataiyya
 lang: ar
 source_lang: ar
 translators: []
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/hikam-ibn-abbad-haykal-ahram-1988 pp. 36-42"
 ---
+## الكتاب وعدد حكمه
+«الحكم العطائية» مجموعة حكم في التصوف لـ[[person/ibn-ata-allah-al-iskandari|ابن عطاء الله السكندري]] (ت 709هـ)، يرى محمد عبد المقصود هيكل أنها أول ما صنف من كتبه، لأنه أشار إليها واقتبس منها في «التنوير في إسقاط التدبير» و«لطائف المنن» و«تاج العروس» وغيرها؛ وينقل عن حاجي خليفة أنه لما عرضها على شيخه أبي العباس المرسي قال: لقد أتيت في هذه الكراسة بمقاصد «الإحياء» وزيادة، فتكون قد ألفت قبل سنة 686هـ سنة وفاة المرسي. {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 38} وعددها مئتان وأربع وستون حكمة، غير مكاتباته لبعض إخوانه ومناجاته. {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 38}
+
+## أسلوبها وموضوعاتها
+يصفها هيكل بأنها فقرات قصيرة قليلة الألفاظ كثيرة المعاني، أكثرها خطاب للمريد السالك، تعتمد على انتقاء العبارة والتشبيه والسجع والجناس والمقابلة. {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 39} وينقل اختلاف الدارسين في ترابطها: فالتفتازاني وزكي مبارك يريان أن لا ارتباط منطقياً بين فقراتها، وابن عجيبة وزروق ومحققه عبد الحليم محمود يرونها حكمة واحدة متصلة؛ ويرى هيكل أن بين بعضها ترابطاً دون أن يُتكلّف ذلك في جميعها. {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 39} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 40} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 41} ويقول إن موضوعاتها تشمل الأحكام الشرعية من جهة أثرها في القلوب، والمجاهدة والمقامات والأحوال، والمعرفة وأدواتها، وآداب السلوك، وإنها متمشية مع الكتاب والسنة ليس فيها عبارات مستشنعة بحسب ظاهرها. {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 41} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 42}
+
+## شروحها
+أول من شرحها [[person/ibn-abbad-al-rundi|ابن عباد الرندي]] في [[work/ghayth-al-mawahib-al-aliyya|غيث المواهب العلية]]، وعليه اعتمد أكثر من بعده، ومنهم [[person/abd-allah-al-sharqawi|الشرقاوي]] في [[work/al-minah-al-qudsiyya|المنح القدسية]]؛ ومن شراحها كذلك ابن عجيبة في «إيقاظ الهمم» وزروق. {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 40}
+
 ## حكم يشرحها عمر عبد الكافي
 يشرح الشيخ عمر عبد الكافي هذا الكتاب في سلسلة [[work/sharh-al-hekam-al-ataeya|شرح الحكم العطائية]]، حكمةً بعد حكمة. ومن الحكم التي يتناولها في الحلقات الأولى: أن طلب العبد من ربه قد يكون اتهامًا له، وأن طلبه له غيبة منه عنه، وأن طلبه لغيره من قلة حيائه منه، وأن طلبه من غيره من بعده عنه {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:06:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:31:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:38:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:45:30}؛ وأن همة السالك كلما أرادت أن تقف عند ما كُشف لها نادتها هواتف الحقيقة بأن المطلوب أمامها، وأن ظواهر المكوَّنات كلما تبرّجت نادت حقائقها بأنها فتنة {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:46:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:51:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:59:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 01:04:30}؛ وأن من علامات النجح في النهايات الرجوع إلى الله في البدايات {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:09:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:22:00}؛ والفرق بين من يستدل بالله ومن يستدل عليه {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:47:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:47:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 01:07:00}؛ والعجب ممن يهرب مما لا انفكاك له عنه ويطلب ما لا بقاء له معه {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep03 00:31:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep03 00:41:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep03 00:42:00}؛ وألا يرفع العبد حاجته إلى غير من أوردها عليه {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep03 00:50:00}؛ وأن الإنسان قد يكون مسيئًا فيرى نفسه محسنًا لأنه يصحب من هو أسوأ منه حالًا {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:15:30}؛ وألا يصحب من لا ينهضه حاله ولا يدله على الله مقاله {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:42:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:46:00}؛ وألا يرتحل من كون إلى كون بل من الأكوان إلى المكوِّن {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:48:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:48:30}. ويُذكر نص الحكم هنا بمعناه، لأن النص المفرّغ من التسجيل غير دقيق.
 

@@ -1,0 +1,21 @@
+id: person/umm-sinan-bint-khaythama
+class: person
+label: { ar: "أم سنان بنت خيثمة المذحجية", en: "Umm Sinan bint Khaythama al-Madhhijiyya", ur: "ام سنان بنت خیثمہ المذحجیہ" }
+gender: female
+roles: [poet]
+summary:
+  ar: "شاعرة من مذحج قالت شعراً في نصرة علي ورثائه، ثم خرجت إلى معاوية تشكو مروان بن الحكم وقد حبس حفيدها بالمدينة، فكتب بإطلاقه وأمر لها براحلة وخمسة آلاف درهم؛ يروي خبرها كحالة عن بلاغات النساء."
+  en: "A poet of Madhhij who composed verses supporting Ali and mourning him, and later travelled to Mu'awiya to complain of Marwan ibn al-Hakam, who had imprisoned her grandson at Medina; Mu'awiya ordered the boy released and gave her a mount and five thousand dirhams. Kahhala tells her story from Balaghat al-Nisa'."
+  ur: "مذحج کی ایک شاعرہ جنہوں نے علی کی حمایت اور مرثیے میں اشعار کہے، پھر مروان بن الحکم کی شکایت لے کر معاویہ کے پاس گئیں جس نے مدینہ میں ان کے پوتے کو قید کیا تھا؛ معاویہ نے رہائی کا حکم لکھا اور انہیں سواری اور پانچ ہزار درہم دیے۔ کحالہ بلاغات النساء سے نقل کرتے ہیں۔"
+wings: [people]
+themes: [women, literature, civil-wars-and-revolts]
+periods: [period/rashidun, period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, role: "وفدت عليه", sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
+  - { type: related_to, target: person/marwan-ibn-al-hakam, role: "شكته إلى معاوية", sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
+  - { type: participated_in, target: event/battle-of-siffin, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
+provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج2 p.267–269", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v2]
+status: { review: published, completeness: 3 }

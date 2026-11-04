@@ -1,0 +1,20 @@
+id: person/rahiba-al-tufawiyya
+class: person
+label: { ar: "راهبة الطفاوية", en: "Rahiba al-Tufawiyya", ur: "راہبہ الطفاویہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من البصرة، أم عثمان بن سودة الطفاوي؛ يروي ابن الجوزي في «صفة الصفوة» دعاءها عند الموت ورؤيا ابنها لها توصيه بزيارة القبور والدعاء لأهلها."
+  en: "A devout woman of Basra, mother of Uthman ibn Sawda al-Tufawi; Ibn al-Jawzi's Sifat al-Safwa records her prayer at death and her son's dream in which she urged him to keep visiting the graves and praying for their people."
+  ur: "بصرہ کی ایک عابدہ، عثمان بن سودہ الطفاوی کی والدہ؛ ابن الجوزی کی «صفۃ الصفوہ» موت کے وقت ان کی دعا اور ان کے بیٹے کا خواب نقل کرتی ہے جس میں انہوں نے قبروں کی زیارت اور اہلِ قبور کے لیے دعا جاری رکھنے کی تاکید کی۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.716", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

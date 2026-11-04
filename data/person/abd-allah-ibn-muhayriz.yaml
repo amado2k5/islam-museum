@@ -1,0 +1,35 @@
+id: person/abd-allah-ibn-muhayriz
+class: person
+label:
+  ar: "عبد الله بن محيريز"
+  en: "Abd Allah ibn Muhayriz"
+  ur: "عبد اللہ بن محیریز"
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن محيريز الجمحي القرشي الشامي" }
+  - { kind: kunya, lang: ar, value: "أبو محيريز" }
+roles: [scholar]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "عبد الله بن محيريز الجمحي القرشي، تابعي نزل الشام، نشأ يتيماً في حجر أبي محذورة مؤذن مكة الذي جهّزه إلى الشام، وسمع أبا محذورة وأبا سعيد الخدري، وروى عنه الزهري ومكحول. يجمع له أحمد في «الزهد» أخباراً في كراهة الشهرة والمدح والحرير ونصح عبد الملك بن مروان وإيثار علف الدواب في الغزو، ومات في ولاية الوليد بن عبد الملك {cite:tarikh-kabir-hyderabad-3-1 p. 193-194} {cite:zuhd-ahmad-dkim-1983 p. 468-470}."
+  en: "Abd Allah ibn Muhayriz al-Jumahi al-Qurashi, a Successor who settled in Syria, grew up an orphan in the care of Abu Mahdhura, the muezzin of Mecca, who fitted him out for Syria; he heard Abu Mahdhura and Abu Sa'id al-Khudri, and al-Zuhri and Makhul narrated from him. Ahmad's al-Zuhd gathers reports of his dislike of fame, praise and silk, his counsel to Abd al-Malik ibn Marwan and his preference for spending on the mounts' fodder on campaign; he died in the reign of al-Walid ibn Abd al-Malik {cite:tarikh-kabir-hyderabad-3-1 p. 193-194} {cite:zuhd-ahmad-dkim-1983 p. 468-470}."
+  ur: "عبد اللہ بن محیریز جمحی قرشی، شام میں آباد ہونے والے تابعی، جو یتیمی میں مکہ کے مؤذن ابو محذورہ کی سرپرستی میں پلے جنہوں نے انہیں شام کے لیے تیار کر کے بھیجا؛ انہوں نے ابو محذورہ اور ابو سعید خدری سے سماع کیا اور زہری اور مکحول نے ان سے روایت کی۔ احمد کی «الزہد» شہرت، مدح اور ریشم سے ان کی ناپسندیدگی، عبد الملک بن مروان کو ان کی نصیحت اور جہاد میں سواریوں کے چارے پر خرچ کو ترجیح دینے کے اخبار جمع کرتی ہے؛ وہ ولید بن عبد الملک کے دور میں فوت ہوئے {cite:tarikh-kabir-hyderabad-3-1 p. 193-194} {cite:zuhd-ahmad-dkim-1983 p. 468-470}۔"
+died: { edtf: "0705/0715", calendar: julian, precision: decade, status: tradition, derived: true, note: "ضمرة عند البخاري: مات في ولاية الوليد بن عبد الملك {cite:tarikh-kabir-hyderabad-3-1 p. 193}. المدى مشتق من مدة خلافة الوليد (86–96هـ)." , sources: [source/tarikh-kabir-hyderabad-3-1] }
+wings: [people]
+themes: [spirituality-and-sufism, scripture-and-its-sciences]
+regions: [levant-iraq]
+periods: [period/umayyad]
+relations:
+  - { type: student_of, target: person/abu-mahdhura, sources: [source/tarikh-kabir-hyderabad-3-1] }
+  - { type: student_of, target: person/abu-said-al-khudri, sources: [source/tarikh-kabir-hyderabad-3-1] }
+  - { type: lived_in, target: place/al-sham, sources: [source/tarikh-kabir-hyderabad-3-1] }
+  - { type: related_to, target: person/abd-al-malik-ibn-marwan, sources: [source/zuhd-ahmad-dkim-1983] }
+  - { type: related_to, target: concept/zuhd, sources: [source/zuhd-ahmad-dkim-1983] }
+sources: [source/tarikh-kabir-hyderabad-3-1, source/zuhd-ahmad-dkim-1983]
+provenance:
+  layer: own-research
+  source: "التاريخ الكبير للبخاري (حيدر آباد) ج3 ق1 الترجمة 613 ص 193–194؛ الزهد لأحمد (دار الكتب العلمية) PDF ص 460، 468–470"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

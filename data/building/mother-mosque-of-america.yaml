@@ -1,24 +1,24 @@
 id: building/mother-mosque-of-america
 class: building
 kind: mosque
-label:
-  ar: "مسجد الأم"
-  en: "Mother Mosque of America, Cedar Rapids"
+label: { ar: "مسجد الأم في أمريكا، سيدار رابيدز", en: "Mother Mosque of America, Cedar Rapids", ur: "مدر موسک آف امریکہ، سیڈر ریپڈز" }
 summary:
-  ar: "بطاقة أولية لمسجد الأم في سيدار رابيدز بآيوا، أقدم مسجد باقٍ في أمريكا من سنة ١٩٣٤م؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Mother Mosque of America in Cedar Rapids, the oldest standing purpose-built mosque in the United States, 1934; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "أول مسجد بُني لغرضه في الولايات المتحدة، أُتم في سيدار رابيدز بولاية آيوا سنة 1934، بناء مستطيل بسيط من ألواح خشبية بيضاء على أساس من الطوب الإسمنتي تعلو بابه قبة {cite:khalidi-donnellon-mosques-usa-canada-catalogue pp. 4-5}."
+  en: "The first purpose-built mosque in the United States, completed at Cedar Rapids, Iowa, in 1934: a simple rectangular building of white clapboard on a cinder-block foundation with a dome over the front door {cite:khalidi-donnellon-mosques-usa-canada-catalogue pp. 4-5}."
+  ur: "امریکہ میں مسجد کے طور پر بنائی گئی پہلی عمارت، جو 1934ء میں سیڈر ریپڈز، آیووا میں مکمل ہوئی: سفید لکڑی کے تختوں کی سادہ مستطیل عمارت، سیمنٹ بلاک کی بنیاد پر، صدر دروازے کے اوپر گنبد کے ساتھ {cite:khalidi-donnellon-mosques-usa-canada-catalogue pp. 4-5}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [americas-oceania]
 periods: [period/modern-era]
-sources: [source/tarikh-islam-hasan-ibrahim]
+built: { edtf: "1934", calendar: gregorian, precision: year, status: historical, note: "Completion year given by Khalidi", sources: [source/khalidi-donnellon-mosques-usa-canada-catalogue] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/khalidi-donnellon-mosques-usa-canada-catalogue]
 external_ids:
   wikidata: Q3325149
 provenance:
   layer: own-research
-  source: "Wikidata candidate; mosque attested in American heritage registers — entry not yet checked on the page"
+  source: "U.S. Embassy Germany catalogue, printed pp. 4; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Mosques in the USA and Canada catalogue pp. 4, summary, date and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
