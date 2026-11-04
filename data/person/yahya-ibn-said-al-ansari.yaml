@@ -15,10 +15,17 @@ regions: [arabia]
 died: { hijri: "0143", edtf: "0760~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي (ط. إحسان عباس، PDF ص36): مات سنة ثلاث وأربعين ومائة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/tabaqat-fuqaha-abbas-1981] }
-provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص35–36", generated_by: "Claude (Haiku 5.5)", run: "lib-tabaqat-fuqaha-batch-3" }
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص35–36"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch126
 external_ids: { wikidata: "Q12251685" }
 sources: [source/tabaqat-fuqaha-abbas-1981]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 3 from Shirazi's list of Medina jurists; the death year as the book reports it; a second source is needed" }
+status:
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary
