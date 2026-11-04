@@ -1,24 +1,28 @@
 id: building/afsarwala-tomb
 class: building
 kind: tomb
-label:
-  ar: "قبر أفسر والا"
-  en: "Afsarwala Tomb, Delhi"
+label: { ar: "ضريح أفسروالا في دلهي", en: "Afsarwala Tomb, Delhi", ur: "افسر والا مقبرہ، دہلی" }
 summary:
-  ar: "بطاقة أولية لقبر أفسر والا في دلهي بمجمع همايون، المرقد من سنة ١٥٦٦م؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Afsarwala Tomb in Delhi's Humayun complex, the 1566 tomb; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "ضريح مربع مشطوف الزوايا بقبة مزدوجة على رقبة مثمنة عالية في ساحة ضريح همايون بدلهي، على مصطبة يشاركه فيها مسجد أفسروالي، وأحد شواهده يحمل الرقم 974 (1566–1567) {cite:nath-history-of-mughal-architecture-1-1982 p. 196} {cite:nath-history-of-mughal-architecture-1-1982 p. 197}."
+  en: "A square tomb with chamfered angles and a double dome on a high octagonal drum in the compound of Humayun's tomb, Delhi, on a platform shared with the Afsarwali mosque; one of its tombstones bears the figure 974 (1566-67) {cite:nath-history-of-mughal-architecture-1-1982 p. 196} {cite:nath-history-of-mughal-architecture-1-1982 p. 197}."
+  ur: "مقبرۂ ہمایوں کے احاطے میں مربع، کٹے کونوں والا مقبرہ جس کا دوہرا گنبد بلند ہشت پہلو گردن پر ہے، افسر والی مسجد کے ساتھ ایک ہی چبوترے پر؛ ایک قبر پر 974 (1566–67) کا عدد ہے {cite:nath-history-of-mughal-architecture-1-1982 p. 197}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+built: { edtf: "1566/1567", hijri: "0974", calendar: gregorian, precision: year, status: debated, note: "A tombstone bears the figure 974, to which Nath ascribes the tomb {cite:nath-history-of-mughal-architecture-1-1982 p. 197}." }
+location: place/delhi
+materials: [stone, marble]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/nath-history-of-mughal-architecture-1-1982] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/nath-history-of-mughal-architecture-1-1982]
 external_ids:
   wikidata: Q41650707
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
+  source: "Nath 1982, printed pp. 196-197; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Nath 1982 pp. 196-197, summary, dates and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

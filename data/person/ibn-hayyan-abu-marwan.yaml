@@ -17,7 +17,10 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
 story_roles:
   - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]
+relations:
+  - { type: born_in, target: place/cordoba, sources: [source/al-muqtabis-ibn-hayyan-hajji-dar-al-thaqafa] }
+  - { type: authored, target: work/al-muqtabis-ibn-hayyan, sources: [source/al-muqtabis-ibn-hayyan-hajji-dar-al-thaqafa] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab, source/al-muqtabis-ibn-hayyan-hajji-dar-al-thaqafa]
 status:
   review: published
   completeness: 3

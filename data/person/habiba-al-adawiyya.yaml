@@ -1,0 +1,19 @@
+id: person/habiba-al-adawiyya
+class: person
+label: { ar: "حبيبة العدوية", en: "Habiba al-Adawiyya", ur: "حبیبہ عدویہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل البصرة يذكرها ابن الجوزي في «صفة الصفوة»، كانت إذا صلت العتمة قامت على سطح تناجي ربها: «غارت النجوم، ونامت العيون، وغلّقت الملوك أبوابها، وبابك مفتوح، وخلا كل حبيب بحبيبه»، ثم تدعو عند السحر."
+  en: "A devout woman of Basra recorded by Ibn al-Jawzi in Sifat al-Safwa, who after the night prayer would stand on a rooftop addressing her Lord — 'the stars have set, eyes sleep, kings have locked their doors, and Your door is open; every lover is alone with his beloved' — and pray again at dawn."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.710", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

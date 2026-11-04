@@ -1,17 +1,31 @@
 id: work/al-taysir-fi-al-qiraat-al-sab
 class: work
 kind: book
-label: { ar: "التيسير في القراءات السبع", en: "Al-Taysir fi al-Qira'at al-Sab'" }
+label: { ar: "التيسير في القراءات السبع", en: "al-Taysir fi al-Qira'at al-Sab'", ur: "التیسیر فی القراءات السبع" }
 summary:
-  ar: "بطاقة أولية لـالتيسير في القراءات السبع؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Al-Taysir fi al-Qira'at al-Sab'; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب في القراءات السبع لأبي عمرو عثمان بن سعيد الداني (371-444هـ)، يبدأ بأبواب في أسماء القراء السبعة ورواتهم وأنسابهم وبلدانهم ووفياتهم، ثم في أسانيد المؤلف إليهم، ثم أصول القراءة كالإدغام الكبير لأبي عمرو والمد والقصر والهمز والإمالة والراءات واللامات والوقف وياءات الإضافة والزوائد، ثم فرش الحروف سورة سورة؛ ويصفه ناشره بأنه «الحجة في هذا العلم» {cite:taysir-pretzl-istanbul-1930 p. 7} {cite:taysir-pretzl-istanbul-1930 p. 8} {cite:taysir-pretzl-istanbul-1930 p. 10}."
+  en: "A work on the seven Qur'an readings by Abu Amr Uthman ibn Sa'id al-Dani (371-444 AH), opening with chapters on the names of the seven readers and their transmitters, lineages, cities and death dates, then the author's chains to them, then the general principles of reading - Abu Amr's major assimilation, lengthening and shortening, the hamza, inclination (imala), the ra's and lam's, pausing, the possessive ya's and the omitted ya's - and then the particular words surah by surah; its editor calls it 'the authority in this science'."
+  ur: "ابو عمرو عثمان بن سعید دانی (371-444ھ) کی قراءاتِ سبعہ پر کتاب، جو سات قراء اور ان کے راویوں کے ناموں، نسبوں، شہروں اور وفیات کے ابواب سے شروع ہوتی ہے، پھر مصنف کی ان تک اسانید، پھر قراءت کے اصول — ابو عمرو کا ادغامِ کبیر، مد و قصر، ہمزہ، امالہ، راء اور لام، وقف، یائے اضافت اور زوائد — اور پھر سورہ بسورہ فرشِ حروف؛ اس کے ناشر اسے «اس علم میں حجت» کہتے ہیں۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/abu-amr-al-dani]
+structure: "Pretzl edition: table of contents (PDF pp. 7-8), editor's preface and life of al-Dani (pp. 9-13); author's introduction; chapters on the readers and transmitters, the men, the chains; isti'adha, basmala, al-Fatiha; usul: Abu Amr's idgham kabir, ha' al-kinaya, madd, hamza (in one and two words, single hamza, transfer, Abu Amr's dropping, Hamza and Hisham's pausing), izhar and idgham, fath and imala, Kisa'i's pausing on ta' marbuta, Warsh's ra's, the lam's, pausing at word ends and on the written form, Hamza's pause before hamza, ya's of possession, omitted ya's; then farsh al-huruf."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+relations:
+  - { type: about, target: concept/qiraat, sources: [source/taysir-pretzl-istanbul-1930] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/taysir-pretzl-istanbul-1930] }
+  - { type: mentions, target: person/abu-amr-ibn-al-ala, sources: [source/taysir-pretzl-istanbul-1930] }
+  - { type: mentions, target: person/hamza-al-zayyat, sources: [source/taysir-pretzl-istanbul-1930] }
+  - { type: mentions, target: person/al-kisai, sources: [source/taysir-pretzl-istanbul-1930] }
+sources: [source/taysir-pretzl-istanbul-1930, source/al-aalam]
 external_ids: { wikidata: "Q19465685" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "taysir-pretzl-istanbul-1930 PDF pp. 5, 7-13; earlier draft card by Devin (wikidata import)"
+  generated_by: "Claude Code (OCR-harvest worker L)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker L); earlier draft card by Devin (SWE-2 High)" }

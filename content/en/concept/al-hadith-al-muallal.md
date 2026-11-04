@@ -1,0 +1,30 @@
+---
+id: concept/al-hadith-al-muallal
+lang: en
+source_lang: ar
+translators: ["Claude Opus 5.5 (claude-opus-5-5)"]
+status:
+  review: published
+provenance:
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "muqaddima-ibn-salah-itr pp. 89–93 (type 18); ilal-ibn-abi-hatim-salafiyya-v1 PDF pp. 13–14"
+---
+
+## Summary
+[[person/ibn-al-salah|Ibn al-Salah]] makes "knowing the mu'allal hadith" his eighteenth type, noting that hadith scholars call it *ma'lul*, a form the grammarians and lexicographers reject. {cite:muqaddima-ibn-salah-itr p. 89} He writes: know that knowledge of the hidden defects of hadith is among the most important, subtle and noble of the hadith sciences, mastered only by people of memory, experience and penetrating understanding; defects are hidden, obscure causes that damage a hadith. {cite:muqaddima-ibn-salah-itr p. 90} So a mu'allal hadith is one in which a defect has been found that impairs its soundness, though it appears free of it, and this can affect a chain whose narrators are trustworthy and which outwardly meets every condition of soundness. {cite:muqaddima-ibn-salah-itr p. 90}
+
+## How a defect is detected
+It is detected through a narrator's solitariness and others' contradiction of him, together with indications that alert the expert to a mursal version of a connected report, a stopped version of a raised one, one hadith entering another, or some narrator's slip — so that he becomes fairly sure and judges accordingly, or hesitates and suspends judgement; any of these prevents declaring the hadith sound. {cite:muqaddima-ibn-salah-itr p. 90} Often a connected report is faulted by a mursal one, which is why books of defects gather all the routes. {cite:muqaddima-ibn-salah-itr p. 90} [[person/al-khatib-al-baghdadi-ahmad|Al-Khatib]] said: the way to know a hadith's defect is to gather its routes, examine the disagreements of its narrators and weigh their standing in memory, precision and accuracy; and [[person/ali-ibn-al-madini|Ali ibn al-Madini]] is reported as saying: if a topic's routes are not gathered, its error does not appear. {cite:muqaddima-ibn-salah-itr p. 90} {cite:muqaddima-ibn-salah-itr p. 91}
+
+## Defects in the chain and in the text
+The defect usually lies in the chain, sometimes in the text; a defect in the chain may damage both chain and text, as with a mursal or stopped version, or only the chain. {cite:muqaddima-ibn-salah-itr p. 91} An example of the latter is the trustworthy Ya'la ibn Ubayd's narration from [[person/sufyan-al-thawri|Sufyan al-Thawri]] from Amr ibn Dinar from Ibn Umar of "the two parties to a sale have the option…": the chain is connected, upright from upright, yet defective and unsound, while the text is sound in any case, because Sufyan's leading students relate it from him from Abd Allah ibn Dinar — Ya'la slipped from Abd Allah ibn Dinar to Amr ibn Dinar, both trustworthy. {cite:muqaddima-ibn-salah-itr p. 91} An example of a defect in the text is the wording, found only in Muslim's version of Anas's hadith, that explicitly denies reciting the basmala: some faulted it because most narrators give only that they opened the recitation with the Fatiha, without mention of the basmala, and judged that whoever gave the other wording narrated his own understanding of it and erred; and it is also established that Anas, asked about opening with the basmala, said he remembered nothing about it from the Prophet. {cite:muqaddima-ibn-salah-itr p. 92}
+
+## Wider uses of the word
+Ibn al-Salah notes that "defect" is also used for evident damaging causes such as lying, heedlessness and poor memory, so that books of defects contain much criticism of narrators; that al-Tirmidhi called abrogation a defect; and that some applied the word to non-damaging variants, such as a mursal version of a hadith that a precise trustworthy narrator gives in full, even saying "some sound hadiths are sound yet defective". {cite:muqaddima-ibn-salah-itr p. 93}
+
+## A book of defects: Ibn Abi Hatim
+[[person/ibn-abi-hatim-al-razi|Ibn Abi Hatim]] opens his [[work/ilal-al-hadith-ibn-abi-hatim|Ilal al-Hadith]] with sayings on the worth of this science, among them [[person/abd-al-rahman-ibn-mahdi|Abd al-Rahman ibn Mahdi]]'s "to know the defect of a hadith I have is dearer to me than to write a hadith I do not have", and his "knowledge of hadith is inspiration", on which Ibn Numayr commented: he spoke truly — had you asked him how he knew, he would have had no answer. {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 13} [[person/abu-hatim-muhammad-al-razi|Abu Hatim]] likens it to two gemstones of the same colour, one worth a hundred dinars and the other ten dirhams, and Ahmad ibn Salih to telling gold from brass, which only its people can do. {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 13}
+
+The book then sets out its questions by topic, beginning with defects of reports on ritual purity. {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 14} In the first question Ibn Abi Hatim asked [[person/abu-zura-al-razi|Abu Zur'a]] about a hadith that Qabisa ibn Uqba related from al-Thawri from Khalid al-Hadhdha' from Abu Qilaba from Amr ibn Muhjil or Mihjan from Abu Dharr on dry ablution; Abu Zur'a said: this is an error made by Qabisa — it is Abu Qilaba from Amr ibn Bujdan from Abu Dharr. {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 14} In the second, Abu Zur'a weighed Shu'ba's and al-A'mash's version from Salama ibn Kuhayl from Dharr from Ibn Abd al-Rahman ibn Abza from his father, in the story of Ammar, against al-Thawri's from Salama from Abu Malik from Abd al-Rahman ibn Abza, and said: Shu'ba's is more likely. {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 14} In the third he pointed out a slip in a narrator's name in Abu Bakr ibn Abi Shayba's version — Hammad ibn al-Ja'd, not Muhammad ibn al-Ja'd. {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 14} These cases show the method Ibn al-Salah describes: gathering the routes, weighing the narrators, and naming the point of error.

@@ -3,6 +3,7 @@ id: concept/tasawwuf
 lang: ar
 source_lang: ar
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 pp. 1/4, 1/17–23 (section added; earlier text by its original authors)" }
 ---
 
 ## موجز
@@ -61,3 +62,6 @@ translators: []
 قال المقدّم إن الحلقة لم تكفِ الموضوع، وإنه أعدّ محاور لم يتناولها: الذكر الجماعي والعبادات الخاصة وتفصيل المولد، وإنه يستغرب أن أهل التصوف لم يكونوا قديماً يدخلون في صراعات حادة بينما يردّون اليوم رداً حاداً حين يُهاجَمون، وهذا عنده ليس من أخلاق التصوف {cite:assabile-tareq-al-suwaidan al-wassitiya/ep28 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep28 01:22:30}. ورأى أن التصوف ظاهرة إسلامية قديمة بأسماء متعددة: علم السلوك، والزهد كما عند الإمام أحمد، والروحانية؛ وأن له إيجابيات ضخمة: يذكّر بالله ويرقق القلوب في زمن جفافها، ويعظّم النبي، وحفظ الإسلام في الدول الشيوعية، ونشره في جنوب شرق آسيا بلا حروب {cite:assabile-tareq-al-suwaidan al-wassitiya/ep28 01:22:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep28 01:23:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep28 01:23:30}. ورأى أن عند بعض الصوفية مبالغات في التعامل مع الله والنبي والقبور والأولياء، وسرّه أن بين الحاضرين من يتبنى التصوف ويرفض هذه المبالغات، ودعا إلى أن تؤخذ من [[group/salafiyya|السلفية]] دقة اتباع السنة ومن الصوفية ترقيق القلوب، وإلى التوجه جميعاً نحو الوسطية {cite:assabile-tareq-al-suwaidan al-wassitiya/ep28 01:24:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep28 01:24:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep28 01:25:00}.
 
 هذه آراء المتحاورين في الحلقة، كلٌّ منسوب إلى قائله، ولا يحكم المتحف بينها.
+
+## عند أبي نعيم في «حلية الأولياء»
+يقول [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم الأصفهاني]] في مقدمة [[work/hilyat-al-awliya|«حلية الأولياء»]] إن اشتقاق التصوف عند أهل الإشارات من الصفاء والوفاء، وإنه في اللغة تفعّل من أحد أربعة: الصوفانة وهي بقلة، أو «صوفة» القبيلة التي كانت تجيز الحاج وتخدم الكعبة، أو صوفة القفا، أو الصوف. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/17} ويسوق أقوال الشيوخ في حدّه، ومنها قول السري السقطي: «التصوف خلق كريم يخرجه الكريم». ويقسّم كلام المتصوفة ثلاثة أنواع: الإشارة إلى التوحيد، والكلام في المراد ومراتبه، والكلام في المريد وأحواله. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/22-23} ويفرّق بين «المتحققين» الذين يترجم لهم وبين المتشبهين بهم في اللباس والمقال المخالفين لهم في العقيدة والفعال، ويذكر إنكاره وإنكار أهل الفقه والآثار على المنتسبين إلى التصوف من المباحية والحلولية. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/4}

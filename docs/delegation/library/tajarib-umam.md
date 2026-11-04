@@ -26,3 +26,15 @@ Vol. 1 pp. 1-36 (imprint, editor's preface and general introduction: life, name,
 
 ## Next
 Vol. 6: Buyid entry into Baghdad 334 (p. 111 ff.), Mu'izz al-Dawla and al-Muhallabi (to enrich person/al-muhallabi-al-wazir, thin), death of Mu'izz al-Dawla 356, Bakhtiyar; vol. 7 dhayl: al-Rudhrawari (person/abu-shuja-al-rudhrawari has no prose).
+
+## Second pass (same run)
+- Vol. 6 pp. 180-181 (341 AH), 199 (345 AH), 239 (352 AH) read.
+- Enriched: person/al-muhallabi-al-wazir (beating of 341, Miskawayh as his companion, death Sat. 27 Sha'ban 352 at Zawata, confiscation; ar/en/ur sections; promoted to published). The Miskawayh-al-Muhallabi link is now patron_of on al-Muhallabi.
+
+## Third pass (worker J, run 3)
+- Vol. 6 read: pp. 93-100 (Rus at Barda'a, 332), 111-133 (death of Tuzun, Ibn Shirzad's command, Buyid entry 11 Jumada II 334, deposition of al-Mustakfi 22 Jumada II, war with Nasir al-Dawla, famine, iqta' chapter), 151-153 and 156-157 (al-Saymari in the marshes, Shiraz, his death 339; al-Muhallabi chosen).
+- Enriched: event/buyid-entry-baghdad-334 (day date, Ibn Shirzad prelude; promoted), event/mustakfi-blinding-334 (Miskawayh's causes and scene; blinding not mentioned by him, recorded as a difference), event/rus-sack-of-bardaa-332 (Miskawayh's eyewitness-based account, sides, strength 30,000), person/abu-jafar-al-saymari (full name, death 339), person/abu-jaafar-ibn-shirzad.
+- Merged: event/nasir-dawla-march-335 (Muntazam card) became an alias of event/battle-of-baghdad-946, now the full war record (sides, Sha'ban 334 to Muharram 335; end date debated: 30 Dhu al-Hijja 334 per Miskawayh vs 1 Muharram 335 per Ibn al-Jawzi).
+- New: event/baghdad-famine-334, event/muizz-al-dawla-iqta-334.
+- Doubt: the place where the Rus fell ill reads «العراغة» in the OCR (perhaps al-Maragha); left unnamed in prose.
+- Next: vol. 6 death of Mu'izz al-Dawla 356 and Bakhtiyar; vol. 7 dhayl (al-Rudhrawari).

@@ -1,17 +1,29 @@
 id: work/asbab-al-nuzul-wahidi
 class: work
 kind: book
-label: { ar: "أسباب النزول", en: "Asbab al-Nuzul" }
+label: { ar: "أسباب نزول القرآن (أسباب النزول)", en: "Asbab Nuzul al-Qur'an (Asbab al-Nuzul)", ur: "اسباب نزول القرآن (اسباب النزول)" }
 summary:
-  ar: "للشيخ الإمام أبي الحسن علي بن أحمد الواحدي المفسر المتوفى سنة ٤٦٨هـ، وهو أشهر ما صنف فيه؛ وأول من صنف في هذا الشأن علي بن المديني شيخ المحدثين، ولابن الجوزي وابن حجر والسيوطي أيضًا مصنفات فيه {cite:kashf-zunun-furqan p. 381-382}."
-  en: "Al-Wahidi's Asbab al-Nuzul — 'the most famous work composed on the occasions of revelation'; the genre began with Ali ibn al-Madini, with later versions by Ibn al-Jawzi, Ibn Hajar and al-Suyuti {cite:kashf-zunun-furqan p. 381-382}."
-wings: []
+  ar: "كتاب الواحدي (ت 468هـ) في أسباب نزول آيات القرآن، وهو عند حاجي خليفة أشهر ما صنف في هذا الشأن {cite:kashf-zunun-furqan p. 381-382}؛ ألّفه لإفادة المبتدئين «إبانة ما أنزل فيه من الأسباب»، لأنه يرى أنه يمتنع معرفة تفسير الآية دون الوقوف على قصتها وبيان نزولها، وأنه لا يحل القول في الأسباب إلا بالرواية والسماع {cite:asbab-nuzul-wahidi-ilmiyya-1991 p.10}؛ ويذكر محققه ماهر ياسين فحل أنه جمع فيه أسباب النزول لأكثر من 500 آية مسندة أو معلقة، وأن اسمه الذي سماه به مؤلفه «أسباب نزول القرآن» {cite:asbab-nuzul-wahidi-maiman-2005 p.7} {cite:asbab-nuzul-wahidi-maiman-2005 p.49}."
+  en: "Al-Wahidi's (d. 468 AH) book on the occasions on which Qur'anic verses were revealed, which Hajji Khalifa calls the most famous work in the field; he wrote it to teach beginners 'what occasions there were for what was revealed', holding that a verse's interpretation cannot be known without its story and the account of its revelation, and that one may speak of these occasions only by transmission and hearing. Its editor Mahir Yasin Fahl says it gathers the occasions of more than 500 verses, with or without chains, and that its author's own title is Asbab nuzul al-Qur'an."
+authors: [person/al-wahidi]
+language: language/arabic
+genre: [tafsir]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+structure: "Author's preface (on the revelation in instalments, the duty of transmission in this science, the caution of the early generations); an opening section on the beginnings of revelation, how the Qur'an first came down and Gabriel's custody of it; then the occasions verse by verse in the order of the suras, each heading 'His saying, Mighty and Exalted: ... (the verse)' (Ilmiyya ed. pp. 9-11; Maiman ed. study pp. 52-53)."
+editions:
+  - "Cairo 1316 AH (early printing, as noted by Zaghlul)"
+  - "ed. al-Sayyid Ahmad Saqr (used as the base of Zaghlul's edition)"
+  - "Beirut, Dar al-Kutub al-Ilmiyya, 1411/1991, ed. Kamal Basyuni Zaghlul (source/asbab-nuzul-wahidi-ilmiyya-1991)"
+  - "Dammam, Dar al-Islah, 2nd ed. 1412/1992, ed. Isam ibn Abd al-Muhsin al-Humaydan (OCR item 20260427, not cited)"
+  - "Riyadh, Dar al-Maiman, 1426/2005, transmission of al-Arghiyani, ed. Mahir Yasin Fahl (source/asbab-nuzul-wahidi-maiman-2005)"
+sources: [source/kashf-zunun-furqan, source/asbab-nuzul-wahidi-ilmiyya-1991, source/asbab-nuzul-wahidi-maiman-2005]
 provenance:
   layer: own-research
-  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 381 مدخل 807"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-15
-sources: [source/kashf-zunun-furqan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 381 مدخل 807; source/asbab-nuzul-wahidi-ilmiyya-1991 pp. 1-11; source/asbab-nuzul-wahidi-maiman-2005 pp. 1-8, 49-54"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; rewritten by Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: "lib-kashf-batch-15; ocr-harvest-2026-11-04"
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)" }

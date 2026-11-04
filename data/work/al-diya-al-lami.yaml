@@ -1,17 +1,29 @@
 id: work/al-diya-al-lami
 class: work
 kind: book
-label: { ar: "الضياء اللامع من الخطب الجوامع", en: "al-Diya al-Lami min al-Khutab al-Jawami" }
+label: { ar: "الضياء اللامع من الخطب الجوامع", en: "Al-Diya' al-Lami' min al-Khutab al-Jawami' (Ibn 'Uthaymin)", ur: "الضیاء اللامع من الخطب الجوامع (ابن عثیمین)" }
 summary:
-  ar: "بطاقة أولية لـالضياء اللامع من الخطب الجوامع؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for al-Diya al-Lami min al-Khutab al-Jawami; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q131534245" }
+  ar: "مجموع خطب الجمعة والعيدين والاستسقاء لمحمد بن صالح العثيمين، التي ألقاها في الجامع الكبير بعنيزة خلفاً لشيخه عبد الرحمن بن ناصر السعدي من سنة 1376هـ إلى 1421هـ؛ نشر منها أكثر من 125 خطبة سنة 1392هـ مرتبة في عشرة أقسام من العلم وأصول الدين والعبادات والمعاملات والنكاح وتربية الأولاد والحدود والأطعمة ومواضيع عامة وخطب الشهور، ثم ملحقاً من 118 خطبة، ثم أضافت مؤسسته بعد وفاته جميع خطبه الأولى المكتوبة بخطه {cite:al-diya-al-lami-uthaymin-thurayya-2019 p. 5-11}."
+  en: "The collection of Friday, festival and rain-prayer sermons by Muhammad ibn Salih al-'Uthaymin, delivered in the Great Mosque of 'Unayza as successor to his teacher 'Abd al-Rahman ibn Nasir al-Sa'di from 1376 to 1421 AH. In 1392 AH he published more than 125 of them in ten sections: knowledge, the foundations of religion, worship, transactions, marriage, raising children, penalties, food, general topics and sermons for particular months. He later added a supplement of 118, and after his death his Foundation added all his first sermons written in his own hand {cite:al-diya-al-lami-uthaymin-thurayya-2019 p. 5-11}."
+  ur: "محمد بن صالح العثیمین کے جمعہ، عیدین اور استسقاء کے خطبات کا مجموعہ، جو انہوں نے اپنے استاد عبد الرحمن بن ناصر السعدی کے جانشین کے طور پر 1376ھ سے 1421ھ تک عنیزہ کی جامع کبیر میں دیے۔ انہوں نے 1392ھ میں ان میں سے 125 سے زیادہ خطبے دس اقسام میں شائع کیے: علم، اصولِ دین، عبادات، معاملات، نکاح، تربیتِ اولاد، حدود، اطعمہ، عام موضوعات اور خاص مہینوں کے خطبات۔ پھر 118 خطبوں کا ضمیمہ شامل کیا، اور ان کی وفات کے بعد ان کی فاؤنڈیشن نے ان کے ہاتھ کے لکھے ہوئے تمام ابتدائی خطبے شامل کر دیے {cite:al-diya-al-lami-uthaymin-thurayya-2019 p. 5-11}۔"
+genre: [sermons]
+made: { by_muslims: true, basis: documented, sources: [source/al-diya-al-lami-uthaymin-thurayya-2019] }
+authors: [person/muhammad-ibn-salih-al-uthaymin]
+language: language/arabic
+structure: "في ترتيب المؤلف (1392هـ) عشرة أقسام: العلم؛ أصول الدين (أسماء الله، آياته، البعثة والأخلاق، الغزوات، أشراط الساعة، القيامة والجنة والنار، القدر، محاسن الإسلام، الآداب)؛ العبادات (الطهارة، الصلاة، الزكاة، الصيام وزكاة الفطر وعيده، الحج والأضحية وعيدها، الجهاد)؛ المعاملات؛ النكاح؛ تربية الأولاد؛ الحدود والقصاص والأمر بالمعروف؛ النفقات والأطعمة؛ مواضيع عامة؛ خطب الشهور ووداع العام (ج1 ص 8–10). ونشرة 1440هـ في أجزاء متعددة."
+editions: [source/al-diya-al-lami-uthaymin-thurayya-2019]
+wings: [words]
+themes: [worship-and-the-pillars, ethics-and-character]
+periods: [period/contemporary-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: person/abd-al-rahman-ibn-nasir-al-sadi, sources: [source/al-diya-al-lami-uthaymin-thurayya-2019], note: "خطيب جامع عنيزة قبله حتى وفاته في جمادى الثانية 1376هـ، ص 8" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  source: "al-Diya' al-Lami', Dar al-Thurayya 2019, part 1 printed pp. 2, 5–12"
+  generated_by: "Claude Code (OCR-harvest worker K); first card by Devin (SWE-2 Medium)"
+  model: claude-opus-5-5
+  run: "wikidata-import-wave2; ocr-harvest-2026-11-04"
+external_ids: { wikidata: "Q131534245" }
+sources: [source/al-diya-al-lami-uthaymin-thurayya-2019, source/al-aalam]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K); first card by Devin (SWE-2 Medium)" }

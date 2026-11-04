@@ -18,9 +18,12 @@ made:
   precision: decade
 external_ids:
   wikidata: Q2997010
+relations:
+- { type: related_to, target: place/qayrawan, sources: [source/blair-islamic-calligraphy-2006] }
 sources:
 - source/wikidata
+- source/blair-islamic-calligraphy-2006
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16
+  review: published
+  completeness: 2
+  generated_by: "Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16; enriched by Claude Code (OCR-harvest worker I), claude-opus-5-5, run ocr-harvest-2026-11-04, from source/blair-islamic-calligraphy-2006 scan pp. 126, 166, 167"

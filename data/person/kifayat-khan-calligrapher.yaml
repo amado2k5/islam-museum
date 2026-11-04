@@ -1,0 +1,25 @@
+id: person/kifayat-khan-calligrapher
+class: person
+label: { ar: "كفايت خان (محمد جعفر خان)", en: "Kifayat Khan (Muhammad Ja'far Khan), calligrapher", ur: "کفایت خان (محمد جعفر خان)" }
+summary:
+  ar: "خطاط مغولي جعل الشكسته شائعًا في الهند، اسمه محمد جعفر خان بن محمد مقيم خان، خدم خمسًا وثلاثين سنة في ديوان الرواتب ثم صار محاسبًا في عهد أورنگزيب، وابتكر «روش كفايت خان» {cite:salim-tarikh-khatt-o-khattatin-2001 p. 152}."
+  en: "Mughal calligrapher who made shikasta popular in India; his name was Muhammad Ja'far Khan ibn Muhammad Muqim Khan, he served thirty-five years in the salary office and became an accountant under Aurangzeb, and devised the 'Kifayat Khan manner' {cite:salim-tarikh-khatt-o-khattatin-2001 p. 152}."
+  ur: "مغل خطاط جنہوں نے ہندوستان میں شکستہ کو مقبولِ عام بنایا؛ اصل نام محمد جعفر خان بن محمد مقیم خان، پینتیس سال تنخواہ کے شعبے میں ملازم رہے اور عہدِ عالمگیری میں محاسب مقرر ہوئے، اور «روشِ کفایت خان» ایجاد کی {cite:salim-tarikh-khatt-o-khattatin-2001 p. 152}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [south-asia]
+gender: male
+roles: [calligrapher]
+periods: [period/gunpowder-empires]
+died: { edtf: "1683", hijri: "1095", calendar: gregorian, precision: year, status: tradition, note: "Date as given in the book {cite:salim-tarikh-khatt-o-khattatin-2001 p. 152}; the Hijri and CE years printed there do not fully match (1095 AH = 1683–84 CE)." }
+relations:
+  - { type: patronized_by, target: person/aurangzeb-mughal, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+  - { type: exemplifies, target: concept/shikasta-script, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+sources: [source/salim-tarikh-khatt-o-khattatin-2001]
+provenance:
+  layer: own-research
+  source: "source/salim-tarikh-khatt-o-khattatin-2001 scan pp. 152, 153"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

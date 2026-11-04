@@ -1,0 +1,15 @@
+id: person/abd-al-rahman-rafat-al-basha
+class: person
+label: { ar: "عبد الرحمن رأفت الباشا", en: "Abd al-Rahman Ra'fat al-Basha", ur: "عبد الرحمن رأفت الباشا" }
+gender: male
+roles: [writer]
+summary:
+  ar: "الدكتور عبد الرحمن رأفت الباشا، مؤلف «صور من حياة الصحابة» الذي نشرته دار النفائس ببيروت سنة 1412هـ/1992م."
+  en: "Dr Abd al-Rahman Ra'fat al-Basha, author of Suwar min Hayat al-Sahaba, published by Dar al-Nafa'is, Beirut, in 1412/1992."
+wings: [people]
+periods: [period/contemporary-era]
+relations:
+  - { type: authored, target: work/suwar-min-hayat-al-sahaba, sources: [source/suwar-min-hayat-al-sahaba-nafais-1992] }
+provenance: { layer: own-research, source: "source/suwar-min-hayat-al-sahaba-nafais-1992 PDF pp. 1–3", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/suwar-min-hayat-al-sahaba-nafais-1992]
+status: { review: published, completeness: 2 }

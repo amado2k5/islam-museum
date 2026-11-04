@@ -3,6 +3,7 @@ id: person/muawiya-ibn-abi-sufyan
 lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1155–1158", note: "section added to earlier prose" }
 ---
 ## خلاصہ
 [[person/muawiya-ibn-abi-sufyan|معاویہ بن ابی سفیان]] صخر بن حرب بن امیہ قرشی اموی تھے، جنہیں ابن حجر "امیرُ المؤمنین" کہتے ہیں۔ وہ بعثت سے پانچ برس پہلے پیدا ہوئے، بعض کے نزدیک سات برس اور بعض کے نزدیک تیرہ برس پہلے، اور "پہلا قول زیادہ مشہور ہے"۔ وہ [[person/abu-sufyan-ibn-harb|ابو سفیان]] اور [[person/hind-bint-utba|ہند بنت عتبہ]] کے بیٹے تھے، اور ان کی بہن [[person/umm-habiba-bint-abi-sufyan|ام حبیبہ]] ام المومنین تھیں۔ {cite:ibn-hajar-isaba p.1431} {cite:ibn-hajar-isaba p.1432}
@@ -38,3 +39,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - **حرس:** المختار مولى لحمير («ومعاوية أول من اتخذ صاحب حرس») {cite:tarikh-khalifa-umari-1985 p. 228}
 - **مہر:** عبد الله بن عمرو الحميري («ومعاوية أول من وضع ديوان الخاتم») {cite:tarikh-khalifa-umari-1985 p. 228}
 - **عراق:** [[person/ziyad-ibn-abi-sufyan|زياد بن أبي سفيان]] («أول من جمعت له العراق، سنة خمسين حتى مات سنة ثلاث وخمسين») {cite:tarikh-khalifa-umari-1985 p. 228}
+
+## احمد بن حنبل کی «فضائل الصحابہ» میں
+[[person/ahmad-ibn-hanbal|احمد بن حنبل]] معاویہ کے لیے ایک باب باندھتے ہیں جس میں عرباض بن ساریہ کی حدیث ہے کہ انہوں نے نبی کو سحری کی طرف بلاتے اور پھر یہ فرماتے سنا: «اے اللہ، معاویہ کو کتاب اور حساب سکھا اور اسے عذاب سے بچا» (روایت 1748، محقق [[person/wasi-allah-abbas|وصی اللہ عباس]] کے نزدیک حسن لغیرہ؛ ابن عبد البر نے حارث بن زیاد کی جہالت کو علت بتایا)؛ یہی بات شریح بن عبید سے مرسلاً (1749، ارسال کی وجہ سے ضعیف مگر رجال ثقہ، سابقہ سے تقویت پاتی ہے)؛ اور مسلمہ بن مخلد سے «اور اسے ملکوں میں قدرت دے» کے اضافے کے ساتھ (1750، انقطاع کی وجہ سے ضعیف)۔ {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1155} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1156} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1157} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1158}
+

@@ -28,3 +28,5 @@ Editor's introduction pp. 5–47 (definition and 'adala pp. 11–19; books on th
 
 ## Next
 Remaining Companion chapters: add this book as a source with a "In Ahmad's Fada'il al-Sahaba" section to the existing Companion records (Uthman, Ali, the Ten, Fatima, al-Hasan/al-Husayn, Ibn Abbas, Aisha, Ja'far, Amr ibn al-As, Mu'awiya, al-Abbas).
+
+- (4 Nov 2026, run 3) Batch 3 (6 entities): a "In Ahmad's Fada'il al-Sahaba" section (ar/en/ur, with the editor's grades) added to `abdullah-ibn-abbas` (pp. 1066–1068, 1203–1204), `aisha` (1097–1100), `jafar-ibn-abi-talib` (1125–1127), `amr-ibn-al-as` (1152–1155), `muawiya-ibn-abi-sufyan` (1155–1158), `abbas-ibn-abd-al-muttalib` (1159–1162). The Qur'anic phrase in no. 1557 is linked as `passage/quran-18-22`, not typed. Remaining from the original list: Uthman, Ali, the Ten, Fatima, al-Hasan and al-Husayn.

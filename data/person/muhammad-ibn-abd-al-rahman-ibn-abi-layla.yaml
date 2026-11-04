@@ -16,9 +16,19 @@ relations:
   - { type: student_of, target: person/al-shaabi, role: "تفقه بالشعبي (PDF ص45)", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: student_of, target: person/al-hakam-ibn-utayba, role: "تفقه بالحكم بن عتيبة (PDF ص45)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 external_ids: { wikidata: "Q28715060" }
-sources: [source/tabaqat-fuqaha-abbas-1981, source/kitab-al-umm-wafa-v8]
-provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص45", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-4", enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: section from kitab-al-umm-wafa-v8 pp. 217-218" }
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 4 from PDF p.45; flag: the printed age (72) does not match the birth (74) and death (148) years" }
+sensitivity: contested
+sources: [source/tabaqat-fuqaha-abbas-1981, source/kitab-al-umm-wafa-v8, source/mizan-itidal-bijawi-v3]
+provenance:
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 613–616 (entry 7825)"
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص45"
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: section from kitab-al-umm-wafa-v8 pp. 217-218"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch120
+status:
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: secondary
