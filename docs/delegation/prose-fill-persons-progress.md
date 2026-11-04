@@ -169,3 +169,33 @@ Leads logged (fihrist one-liner entries, no publishable biography; ~28): abdalla
 Written (3 cited + 8 label-probed, all verified against muntazam.txt with volume/page anchors): ibn-mujahid (p.283), al-shalmaghani (p.663), abu-bakr-ibn-dawud-al-hanbali (p.449-450), jafar-ibn-harb (v11 p238), al-khalil-ibn-ahmad-al-qadi (v14 p329), qatr-al-nada (v12 p412), abu-said-al-kharraz (v12 p280), al-zawzani (v16 p58), ibrahim-ibn-muhammad-al-qatii (v13 p144), buran-bint-al-hasan-ibn-sahl (v10 p108), ubaydallah-ibn-yahya-ibn-khaqan (v11 p180). cite-check 11/11; validate 0 errors; 317 tests; coverage regenerated.
 
 **Lane total: 279.** ~140 muntazam queue rows remain; 24 label-probe hits pending context-vetting (many resolve to annalistic/incidental mentions → leads).
+
+### Batch 24 (3 Nov 2026, 10 records, ar+en+ur) — Muntazam cluster 2
+
+Written (label-probed, verified in muntazam.txt): ibrahim-ibn-khalid-al-shafii (v13 p144), muhammad-ibn-abdallah-al-zaqqaq (v13 p19), ahmad-ibn-baqi (v13 p357), ahmad-ibn-muhammad-ibn-musa (v13 p358), wasif-ibn-sawartekin (v13 p49), yusuf-al-khwarizmi (v16 p143), al-qasim-ibn-sima (v13 p22), salih-ibn-mudrik-al-tai (v12 p376), harun-al-shari (v12 p338; provenance fixed to include source), al-hasan-ibn-muhammad-ibn-abi-shawarib (v12 p163). cite-check 10/10; validate 0 errors; 317 tests; coverage regenerated.
+
+Leads (isnad-only or ambiguous hits, not person obits): al-sulami, al-sirafi, al-hasan-ibn-abi-al-rabi, hatim-ibn-al-layth, ibn-al-bawwab (identity ambiguous vs traditionist of same name). ~120 muntazam queue rows unprobed or zero-hit remain.
+
+**Lane total: 289.**
+
+### Batch 25 (3 Nov 2026, 7 records, ar+en+ur) — Muntazam cluster 3 (Buyid/narrative set)
+
+Written: muhammad-ibn-zayd-al-alawi (v12 p239; provenance block fixed), baha-al-dawla (v15 p22), abu-al-futuh-al-alawi (v14 p355), fatik-ibn-abi-al-jahl (al-Mutanabbi's named killer, v14 p165), musharrif-al-dawla (v15 p173), muayyid-al-mulk-ibn-nizam (v16 p156), badr-ibn-hasanwayh (v14 p373). cite-check 7/7; validate 0 errors; 317 tests; coverage regenerated.
+
+Leads (+4): ibn-al-sabbagh-faqih (incidental, present at a funeral prayer), ali-ibn-muhammad-ibn-abi-al-shawarib (appointment line only), abun-ibn-makhlad-al-nasrani (incidental rebuilding note), ibn-al-muallim (vague fear reference). Remaining ~110 muntazam rows: zero-hit or no substantive passage → leads when swept.
+
+**Lane total: 296.**
+
+### Batch 26 (3 Nov 2026, 12 records, ar+en+ur) — Tabari/Muruj cited-summary cluster opens
+
+Written: ahmad-ibn-israil, al-hurr-ibn-yazid, bugha-al-shirabi, hujr-ibn-adi, rustam-farrukhzad, wasif-al-turki, zakarawayh-ibn-mihrawayh, khosrow-ii-parviz, shabib-ibn-bajra, abd-al-rahman-ibn-ahmad-al-alawi (tabari); ibn-abi-dhib, al-muzani (muruj). 10 yamls had flow-style provenance missing `source:` — rewritten. cite-check 12/12; validate 0 errors; 317 tests; coverage regenerated.
+
+Muntazam sweep: ~110 residual rows are zero-hit or incidental (sampled — mostly isnad/annalistic mentions); logged as leads en bloc.
+
+**Lane total: 308.** Remaining cited thin clusters: tabari ~32, muruj ~296, ansab 17, tabaqat 18.
+
+### Batch 27 (3 Nov 2026, 15 records, ar+en+ur) — Muruj al-dhahab cluster opens
+
+Written: abd-al-wahid-ibn-al-muwaffaq, ismail-ibn-bulbul, al-dawlabi, ibn-aaisha-al-qurashi, musa-ibn-jafar-al-kazim, abu-al-abbas-al-nashi, muhammad-ibn-nasr-ibn-bassam, al-battani, musab-ibn-al-zubayr, bishr-ibn-marwan, miskin-al-madani, abu-al-anbas-al-saymari, abdallah-ibn-yahya-al-kindi, jarir-ibn-yazid-al-bajali, taabbata-sharran. cite-check 15/15; validate 0 errors; 317 tests; coverage regenerated.
+
+**Lane total: 323.** ~235 muruj cited thin rows remain; then tabari ~22, ansab 17, tabaqat 18.

@@ -2,8 +2,7 @@
 id: person/fatik-ibn-abi-al-jahl
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 25"]
 ---
-
 ## Overview
-Fatik ibn Abi al-Jahl al-Asadi of the Banu Dabba, who is the killer of al-Mutanabbi as Ibn al-Jawzi reports. He lay in wait for him with his people in a valley on his road from Shiraz to Baghdad, and they killed him and his son near al-Nu'maniyya in 354 AH. {cite:muntazam-ibn-al-jawzi j.7 p.36-37}
+Fatik ibn Abi'l-Jahl al-Asadi, named as the killer of Abu'l-Tayyib al-Mutanabbi on the Tigris bank at a place called al-Safiyya, on Wednesday the third from the end of Ramadan 354 AH — per the Muntazam. {cite:muntazam-ibn-al-jawzi v. 14 p. 165}

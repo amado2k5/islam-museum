@@ -2,9 +2,7 @@
 id: person/baha-al-dawla
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 25"]
 ---
 ## Overview
-Abu Nasr, son of Adud al-Dawla, titled Baha al-Dawla. The caliph al-Ta'i came to console him for his brother Sharaf al-Dawla, then clothed him in seven robes of honour and a black turban, and titled him "Baha al-Dawla and Diya' al-Milla". {cite:tarikh-khulafa-minhaj-1434 p.631-632}
-
-In 381 AH he seized al-Ta'i, and his companions pulled him from his throne, and a document was written on which he deposed himself and handed the affair to al-Qadir. {cite:tarikh-khulafa-minhaj-1434 p.631-632}
+Baha' al-Dawla Abu Nasr ibn Adud al-Dawla, of the Daylami emirs; he mulcted the Sharif Abu'l-Hasan of a million dinars cash, detained him two years and ten months, and then established him at Baghdad — per the Muntazam. {cite:muntazam-ibn-al-jawzi v. 15 p. 22}
