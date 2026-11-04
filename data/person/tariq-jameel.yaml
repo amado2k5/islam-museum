@@ -1,0 +1,39 @@
+id: person/tariq-jameel
+class: person
+label: { ar: "طارق جميل", en: "Tariq Jameel", ur: "طارق جمیل" }
+names:
+  - { value: "Tariq Jamil", kind: full }
+  - { value: "طارق جمیل", kind: full }
+  - { value: "Tariq Jameel", kind: alternate }
+gender: male
+summary:
+  ar: "داعية وعالم باكستاني وُلد في ميان جنو بالبنجاب سنة 1953، عضو في جماعة التبليغ، ترك دراسة الطب في لاهور ليلتحق بمدرسة عربية رائيوند، واشتهر بمحاضراته العاطفية في التصوف العملي وتهذيب النفس بالأردية، ونال وسام فخر الأداء سنة 2020، ويدير مؤسسة خيرية ومدارس، وتتابعه قناته على يوتيوب بملايين المشتركين."
+  en: "Pakistani preacher and scholar born in Mian Channu, Punjab, in 1953. A member of the Tablighi Jama'at, he left medical studies in Lahore for the Madrasa Arabia at Raiwind and became known for emotional Urdu sermons on self-purification; he received the Pride of Performance in 2020, runs a charitable foundation and schools, and his YouTube channel has millions of subscribers."
+  ur: "پاکستانی مبلغ و عالم، جو 1953ء میں پنجاب کے شہر میاں چنوں میں پیدا ہوئے۔ تبلیغی جماعت کے رکن ہیں؛ لاہور میں طب کی تعلیم چھوڑ کر مدرسہ عربیہ رائیونڈ سے دینی تعلیم حاصل کی، اور خود احتسابی و تزکیۂ نفس پر جذباتی اردو بیانات سے شہرت پائی۔ 2020ء میں پرائڈ آف پرفارمنس ملا، ایک فلاحی فاؤنڈیشن اور مدارس چلاتے ہیں، اور ان کے یوٹیوب چینل کے لاکھوں سبسکرائبر ہیں۔"
+roles: [preacher, scholar, writer]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1953-10-01"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Mian Channu, Punjab, on 1 October 1953: the English article's date, sourced to his own website, and the Urdu article agree. The English article's footnote records a Daily Jang report of 1 January 1953; the website date is followed and the variant preserved here. The Hijri year 1373 is a tabular conversion of the followed date, marked derived. No place record for Mian Channu exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-tariq-jameel-en, source/wikipedia-tariq-jameel-ur]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No prose text consulted names a legal school as his own. What the texts give: the English article states that he is a member of the Tablighi Jama'at and that he 'comes from a school of thought called Tablighi Jamaat' in the copy read (a fresher snapshot of the same article phrases it 'a school of thought called Deoband', citing Reetz's 2010 edited volume); the Urdu article's prose likewise records the membership and his Raiwind schooling. A movement's membership and a school-of-thought milieu are not a madhhab attestation. The school appears only in infoboxes — the English article's gives Sunni with Hanafi jurisprudence, the Urdu article's gives Ahl-e-Sunnat, Hanafi fiqh and Deobandi creed — one structured family, which never settles faith. Both readings are preserved here; under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-tariq-jameel-en, source/wikipedia-tariq-jameel-ur]
+sources: [source/wikipedia-tariq-jameel-en, source/wikipedia-tariq-jameel-ur]
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia articles on Tariq Jamil, read in full on 4 November 2026 (modern-figures harvest, 2026-11-04: official YouTube channel @tariqjamilofficial with 8.84 million subscribers per vidIQ, read 3 November 2026). The harvest records a Wikidata item for him, but wikidata.org returns HTTP 403 to this session's fetcher, so the QID could not be verified in session and no external identifier is recorded. No Arabic Wikipedia article was consulted."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-189"
+status:
+  review: published
+  completeness: 3
