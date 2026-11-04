@@ -3,15 +3,39 @@ class: work
 kind: book
 label: { ar: "فضائل الصحابة", en: "Fada'il al-Sahaba" }
 summary:
-  ar: "بطاقة أولية لفضائل الصحابة للإمام أحمد بن حنبل؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Fada'il al-Sahaba by Ahmad ibn Hanbal; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q16127162" }
+  ar: "كتاب في مناقب أصحاب النبي جمعه الإمام أحمد بن حنبل (ت 241هـ)، ورواه عنه ابنه عبد الله وزاد فيه عن شيوخه، ثم زاد فيه أبو بكر القطيعي (ت 368هـ)؛ يبدأ بالنهي عن سب الصحابة ثم يسوق فضائل أبي بكر وعمر وعثمان وعلي وبقية العشرة وأهل البيت والأنصار وطائفة من الصحابة والقبائل، في 1962 رواية مرقمة في طبعة وصي الله عباس، ويقوم على نسخة خطية فريدة في مكتبة جامع يني بإسطنبول."
+  en: "A book of the merits of the Prophet's Companions compiled by Ahmad ibn Hanbal (d. 241 AH), transmitted by his son Abd Allah with additions from his own teachers and further additions by Abu Bakr al-Qati'i (d. 368 AH). It opens with the prohibition of reviling the Companions, then gives the merits of Abu Bakr, Umar, Uthman, Ali, the rest of the Ten, the Prophet's household, the Ansar and many other Companions and tribes — 1,962 numbered narrations in Wasi Allah Abbas's edition, which rests on a unique manuscript in the Yeni Cami library, Istanbul."
+genre: [hadith, manaqib]
+made: { by_muslims: true, basis: documented, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+authors: [person/ahmad-ibn-hanbal]
+language: language/arabic
+composed:
+  edtf: "0855~"
+  hijri: "0241"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "قبل وفاة المؤلف سنة 241هـ (terminus ante quem)؛ لا يذكر المحقق سنة التأليف {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.29}"
+structure: "مقدمة المحقق في أربعة فصول (تعريف الصحابي وعدالتهم ص11–19؛ المؤلفات في الصحابة ص21–24؛ ترجمة أحمد ومؤلفاته ص25–32؛ وصف النسخة ونسبتها وعمل المحقق ص33–47)، ثم المتن: النهي عن سب الصحابة (ص55–76)، فضائل أبي بكر (76)، قول علي «خير هذه الأمة بعد نبيها أبو بكر وعمر» (90)، حديث الخلة (117)، «مروا أبا بكر فليصل بالناس» (129–274)، أول من أسلم (274)، فضائل عمر (299) وإسلامه (339)، باب خير هذه الأمة بعد نبيها (367)، زيادات القطيعي في عمر وأبي بكر (409)، فضائل عثمان (547)، أخبار علي ونسبه واسم أمه وفضائله (648–908)، عبد الرحمن بن عوف (908)، الزبير (914)، أبو عبيدة (922)، طلحة (928)، سعد بن أبي وقاص (935)، فاطمة (944)، الحسن والحسين (960)، الأنصار (993)، خالد بن الوليد (1024)، سعد بن معاذ (1029)، حارثة بن النعمان (1041)، صهيب (1043)، العرب، أسامة بن زيد (1052)، ابن مسعود (1056)، ابن عباس (1066)، خديجة وغيرها (1069)، عمار (1082)، أهل اليمن (1088)، عائشة (1097)، غفار وأسلم (1114)، جعفر (1125)، جرير بن عبد الله (1127)، ابن عمر (1130)، قوم من أهل الشام (1133)، أصحاب النبي (1148)، عمرو بن العاص (1152)، معاوية (1155)، العباس (1159)، عبد الله بن عباس (1203–1256)؛ ثم السماعات (1257–1261) والفهارس (1265–1383)."
+editions: [source/fadail-sahaba-ahmad-wasi-allah-1999]
+wings: [words, people]
+themes: [scripture-and-its-sciences, sects-and-schools]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: mentions, target: group/sahaba, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: mentions, target: group/ansar, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 5–55, 1250–1261, 1381–1383"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+external_ids: { wikidata: "Q16127162" }
+sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/al-aalam]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5" }
