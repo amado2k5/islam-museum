@@ -1,17 +1,41 @@
 id: work/radd-al-muhtar
 class: work
 kind: book
-label: { ar: "رد المحتار على الدر المختار", en: "Radd al-Muhtar ala al-Durr al-Mukhtar" }
+label:
+  ar: "رد المحتار على الدر المختار"
+  en: "Radd al-Muhtar ala al-Durr al-Mukhtar"
+  ur: "رد المحتار علی الدر المختار"
 summary:
-  ar: "بطاقة أولية لرد المحتار لابن عابدين، حاشية الدر المختار التي صارت المعتمد في الفتوى الحنفية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Ibn Abidin's Radd al-Muhtar, the supercommentary on al-Durr al-Mukhtar that became the standard Hanafi fatwa manual; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "حاشية محمد أمين ابن عابدين الدمشقي (ت 1252هـ) على «الدر المختار» للحصكفي، وهو شرح «تنوير الأبصار» للتمرتاشي، وتُعرف بحاشية ابن عابدين. تسير مع الشرح عبارةً عبارة بصيغة «قوله»، وتجمع أقوال كتب المذهب الحنفي ومتأخريه، وتعرض الخلاف بين أبي حنيفة وصاحبيه، وتنبّه على ما عليه الفتوى وعلى أثر العرف وأحوال زمان المؤلف. في المتحف جزآن مصوّران: الثالث (من العتق إلى الوقف) والرابع (من البيوع إلى الهبة، بولاق 1271هـ). {cite:radd-al-muhtar-scan-v3 p.20} {cite:radd-al-muhtar-bulaq-v4 p.2} {cite:radd-al-muhtar-bulaq-v4 p.528}"
+  en: "The gloss of Muhammad Amin Ibn Abidin of Damascus (d. 1252 AH) on al-Haskafi's al-Durr al-Mukhtar, itself a commentary on al-Timurtashi's Tanwir al-Absar; it is known as Hashiyat Ibn Abidin. It follows the commentary phrase by phrase under the formula 'his words', gathers the statements of the Hanafi books and their later authorities, sets out the differences between Abu Hanifa and his two companions, and marks the view on which fatwa is given and the weight of custom and of the author's own time. The museum holds two scanned volumes: vol. 3 (manumission to waqf) and vol. 4 (sales to gifts, Bulaq 1271 AH)."
+  ur: "محمد امین ابن عابدین دمشقی (وفات 1252ھ) کا حاشیہ، جو حصکفی کی «الدر المختار» پر ہے، اور وہ خود تمرتاشی کی «تنویر الابصار» کی شرح ہے؛ یہ «حاشیہ ابن عابدین» کے نام سے مشہور ہے۔ یہ «قولہ» کے صیغے سے شرح کے ایک ایک فقرے کے ساتھ چلتا ہے، حنفی کتب اور متاخرین کے اقوال جمع کرتا ہے، امام ابو حنیفہ اور صاحبین کا اختلاف بیان کرتا ہے، اور مفتیٰ بہ قول، عرف اور مصنف کے زمانے کے حالات پر تنبیہ کرتا ہے۔ میوزیم کے پاس دو اسکین شدہ جلدیں ہیں: جلد سوم (عتق سے وقف تک) اور جلد چہارم (بیوع سے ہبہ تک، بولاق 1271ھ)۔"
+genre: [fiqh, hashiya]
+language: language/arabic
+authors: [person/ibn-abidin]
+structure: "Gloss (hashiya) on al-Durr al-Mukhtar, ordered by the books (kutub) and chapters (abwab) of the Hanafi law manual; each note opens with the lemma «قوله» and marginal rubrics «مطلب» mark its topics. Vol. 3: Itq, Ayman, Hudud, Sariqa, Siyar (with jizya, the apostate and rebels), Laqit, Luqata, Ibaq, Mafqud, Sharika, Waqf. Vol. 4: Buyu' (with riba, salam, sarf), Kafala, Hawala, Qada', Shahadat, Wakala, Da'wa, Iqrar, Sulh, Mudaraba, Ida', Ariyya, Hiba."
+wings: [ideas, words]
+themes: [law-and-courts, development-of-law-theology-institutions]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+relations:
+  - { type: commentary_on, target: work/al-durr-al-mukhtar, sources: [source/radd-al-muhtar-scan-v3] }
+  - { type: rules_on, target: concept/itq-fiqh, sources: [source/radd-al-muhtar-scan-v3] }
+  - { type: rules_on, target: concept/istilad-umm-al-walad, sources: [source/radd-al-muhtar-scan-v3] }
+  - { type: rules_on, target: concept/baghy-fiqh, sources: [source/radd-al-muhtar-scan-v3] }
+  - { type: rules_on, target: concept/mal-fiqh, sources: [source/radd-al-muhtar-bulaq-v4] }
+  - { type: rules_on, target: concept/bay-al-taati, sources: [source/radd-al-muhtar-bulaq-v4] }
+  - { type: rules_on, target: concept/bay-al-istijrar, sources: [source/radd-al-muhtar-bulaq-v4] }
+  - { type: rules_on, target: concept/nuzul-an-al-wazaif, sources: [source/radd-al-muhtar-bulaq-v4] }
+  - { type: rules_on, target: concept/kasad-al-nuqud, sources: [source/radd-al-muhtar-bulaq-v4] }
+  - { type: rules_on, target: concept/urf, sources: [source/radd-al-muhtar-bulaq-v4] }
+  - { type: mentions, target: work/nashr-al-urf, sources: [source/radd-al-muhtar-bulaq-v4] }
+  - { type: mentions, target: work/tanbih-al-ruqud, sources: [source/radd-al-muhtar-bulaq-v4] }
+sources: [source/radd-al-muhtar-scan-v3, source/radd-al-muhtar-bulaq-v4, source/al-aalam]
 external_ids: { wikidata: "Q7280050" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in Hanafi legal histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "radd-al-muhtar-scan-v3 PDF pp. 3-22, 73-77, 495-497; radd-al-muhtar-bulaq-v4 PDF pp. 2-10, 18-22, 31, 528 (scan pages; offsets in the source records)"
+  generated_by: "Claude Code (OCR-harvest worker D)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D); earlier draft card by Devin (SWE-2 High), wikidata-import-wave2" }
