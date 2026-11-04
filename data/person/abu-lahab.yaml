@@ -1,6 +1,6 @@
 id: person/abu-lahab
 class: person
-label: { en: "Abu Lahab", ar: "أبو لهب" }
+label: { en: "Abu Lahab", ar: "أبو لهب" , ur: "ابو لہب"}
 names:
   - { kind: full, lang: ar, value: "عبد العزى بن عبد المطلب" }
 gender: male
@@ -11,6 +11,7 @@ traditions: []
 summary:
   en: "An uncle of the Prophet who became one of his most vocal opponents in Mecca, alongside his wife Umm Jamil — the household singled out in Qur'an 111."
   ar: "عمّ النبي الذي صار من أشد معارضيه صوتًا في مكة هو وزوجته أم جميل — البيت الذي تذكره سورة المسد."
+  ur: "نبی کے چچا اور مکہ میں ان کے نمایاں مخالفین میں سے؛ ان کی اہلیہ ام جمیل بھی اس مخالفت میں شریک تھیں اور قرآن کی سورۂ مسد میں اس گھرانے کا ذکر ہے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [anti-muslim-hatred, family-marriage-kinship]
 periods: [period/prophetic-era]
@@ -39,6 +40,9 @@ provenance:
   layer: own-research
   source: "Original entry: the sources listed in sources (Ibn Sa'd, Ibn Ishaq, al-Mubarakpuri, others); lecture addition: Sheikh Omar Abdelkafy, Tafsir al-Quran al-Qareem, episode 6"
   generated_by: "Devin; 2026-10-11 (original entry); Claude Sonnet (subagent), run omar-tafsir-bundle-6 (lecture section)"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+  run: "explorer-third-40-stories-2026-11-04"
+  model: "unknown"
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 
 education:

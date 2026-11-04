@@ -1,6 +1,6 @@
 id: person/hafsa
 class: person
-label: { en: Hafsa bint Umar, ar: حفصة بنت عمر }
+label: { en: Hafsa bint Umar, ar: حفصة بنت عمر , ur: "حفصہ بنت عمر"}
 names:
   - { kind: full, lang: ar, value: حفصة بنت عمر بن الخطاب }
 gender: female
@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   en: "A wife of the Prophet and daughter of Umar ibn al-Khattab, remembered in Sunni tradition as the keeper of the collected Qur'anic codex."
   ar: "زوجة النبي وابنة عمر بن الخطاب، تُذكر في التقليد السني بحفظها المصحف الجامع. وعندها كانت صحف جمع أبي بكر، فأرسل إليها عثمان يستعيرها لتُنسخ في المصاحف ثم تُرد، وأرسلت بها {cite:sahih-al-bukhari 4987}. وعند ابن عباس أنها وعائشة هما المرأتان اللتان تظاهرتا على النبي في خبر الاعتزال {cite:sahih-al-bukhari 4914}."
+  ur: "نبی کی اہلیہ اور عمر بن خطاب کی بیٹی، جنہیں سنی روایت میں جمع شدہ قرآنی صحیفوں کی نگہبان کے طور پر یاد کیا جاتا ہے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [women, scripture-and-its-sciences]
 periods: [period/prophetic-era, period/rashidun]
@@ -34,3 +35,15 @@ external_ids:
   wikidata: Q263791
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 74-83 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
+
+provenance:
+  layer: own-research
+  source: Existing museum record and its defined source list; original status attribution retained. No source pages newly examined and no facts, dates or relations changed.
+  generated_by: Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 74-83 added by Devin (SWE-2 High), lib-nisa-hawl-rasul; Copilot SDK in VS Code (metadata completion)
+  model: unknown
+  run: explorer-third-40-stories-2026-11-04
+  localization:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-third-40-stories-2026-11-04
+    source: Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research.

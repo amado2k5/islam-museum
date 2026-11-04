@@ -1,7 +1,7 @@
 id: person/negus-of-aksum
 aliases: [person/al-najashi]   # same person; merged from the Raheeq lane (al-Raheeq al-Makhtum pp. 92-98) so existing references resolve
 class: person
-label: { en: "the Negus of Aksum", ar: "النجاشي" }
+label: { en: "the Negus of Aksum", ar: "النجاشي" , ur: "نجاشی"}
 names:
   - { kind: full, lang: ar-Latn, value: "Ashama ibn Abjar" }
   - { kind: full, lang: ar, value: "أصحمة بن أبجر" }
@@ -15,6 +15,7 @@ traditions: []
 summary:
   en: "The Christian king of Aksum who gave the first Muslim exiles refuge and heard Ja'far's recitation — remembered in the tradition as a just ruler who, in some reports, himself became a Muslim."
   ar: "ملك الحبشة النصراني الذي وصفه النبي بأنه «ملك عادل لا يظلم عنده أحد»؛ آوى مهاجري المسلمين الأوائل، وسمع كلام جعفر وتلاوة سورة مريم، وأبى تسليمهم لرسولَي قريش وردّ هداياهما — وفي بعض الروايات أسلم. وفي الصحيح أن النبي نعاه للناس يوم مات وقال «مات اليوم رجل صالح فقوموا فصلوا على أخيكم أصحمة» وصفّ بهم في المصلى وكبّر عليه أربعاً — أول صلاة غائب مروية {cite:sahih-al-bukhari 3877} {cite:sahih-al-bukhari 3880}."
+  ur: "اکسوم کے مسیحی بادشاہ، جنہوں نے ابتدائی مسلمان مہاجرین کو پناہ دی اور جعفر کی تلاوت سنی؛ اسلامی روایت کی بعض خبروں میں ان کے قبول اسلام کا بھی ذکر ہے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [refugees-migrants-diaspora, islam-and-christianity]
 periods: [period/prophetic-era]
@@ -33,5 +34,5 @@ relations:
   - { type: participated_in, target: event/second-migration-to-abyssinia, role: "أبى تسليمهم وردّ هدايا الوفد", sources: [source/mubarakpuri-raheeq] }
 external_ids: { wikidata: "Q676801" }
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/assabile-abu-ishaq-alheweny]
-provenance: { layer: own-research, source: "Ibn Sa'd (Bewley), Ibn Ishaq (Guillaume), al-Raheeq al-Makhtum, Ibn Hisham and Sahih al-Bukhari (earlier record by Devin, with person/al-najashi merged in by Claude Code); section on Abu Ishaq al-Heweny's madrassat-al-hayat (Assabile transcripts pass5-qwen) added in run assabile-egypt-heweny-1 by Claude Code (claude-opus-5-5)", generated_by: "Devin (earlier record); Claude Code (claude-opus-5-5) for the Assabile section", model: claude-opus-5-5, run: assabile-egypt-heweny-1 }
+provenance: { layer: own-research, source: "Ibn Sa'd (Bewley), Ibn Ishaq (Guillaume), al-Raheeq al-Makhtum, Ibn Hisham and Sahih al-Bukhari (earlier record by Devin, with person/al-najashi merged in by Claude Code); section on Abu Ishaq al-Heweny's madrassat-al-hayat (Assabile transcripts pass5-qwen) added in run assabile-egypt-heweny-1 by Claude Code (claude-opus-5-5)", generated_by: "Devin (earlier record); Claude Code (claude-opus-5-5) for the Assabile section", model: claude-opus-5-5, run: assabile-egypt-heweny-1 , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}}
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; merged person/al-najashi (Devin; al-Raheeq pp. 92-98) by Claude Code (subagent), claude-sonnet-5-5" }

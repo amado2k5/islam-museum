@@ -1,6 +1,6 @@
 id: person/suhayl-ibn-amr
 class: person
-label: { en: "Suhayl ibn Amr", ar: "سهيل بن عمرو" }
+label: { en: "Suhayl ibn Amr", ar: "سهيل بن عمرو" , ur: "سہیل بن عمرو"}
 names:
   - { kind: full, lang: ar, value: "سهيل بن عمرو العامري" }
 gender: male
@@ -11,6 +11,7 @@ traditions: []
 summary:
   en: "Quraysh's orator and spokesman — the diplomat who faced Muhammad across the table at Hudaybiyya — who converted at the conquest and died a Muslim in the plague of Amwas."
   ar: "خطيب قريش ولسانها — الدبلوماسي الذي جلس في مفاوضة الحديبية في مقابل محمد — وأسلم يوم الفتح ومات مسلمًا في طاعون عمواس."
+  ur: "قریش کے خطیب اور حدیبیہ میں ان کے نمائندہ؛ فتح مکہ پر مسلمان ہوئے اور طاعون عمواس میں وفات پائی۔ {cite:ibn-ishaq-guillaume}"
 wings: [people]
 themes: [peace-making-and-coexistence, converts-and-leavers]
 periods: [period/prophetic-era]
@@ -40,3 +41,14 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b6", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: Existing museum record and its defined source list; original status attribution retained. No source pages newly examined and no facts, dates or relations changed.
+  generated_by: Devin; 2026-10-11; Copilot SDK in VS Code (metadata completion)
+  model: unknown
+  run: explorer-third-40-stories-2026-11-04
+  localization:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-third-40-stories-2026-11-04
+    source: Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research.

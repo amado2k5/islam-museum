@@ -1,9 +1,10 @@
 id: person/said-ibn-al-as
 class: person
-label: { ar: "سعيد بن العاص بن سعيد بن العاص بن أمية", en: "Sa'id ibn al-As ibn Sa'id ibn al-As ibn Umayya" }
+label: { ar: "سعيد بن العاص بن سعيد بن العاص بن أمية", en: "Sa'id ibn al-As ibn Sa'id ibn al-As ibn Umayya" , ur: "سعید بن عاص"}
 summary:
   ar: "سعيد بن العاص بن سعيد بن العاص بن أمية؛ عند البلاذري: كان عامل عثمان بن عفان على الكوفة فكتب إليه عثمان يأمره بإمداد حبيب بن مسلمة بأرمينية بجيش عليه سلمان بن ربيعة الباهلي فسار إليه في ستة آلاف رجل من أهل الكوفة. ولما دخل الكوفة والياً أبى أن يصعد المنبر حتى يغسل وقال إن الوليد كان نجساً رجساً {cite:muruj-al-dhahab p. 631} وكان أحد القرشيين الثلاثة في لجنة عثمان لنسخ المصاحف مع زيد بن ثابت {cite:sahih-al-bukhari 4987}."
   en: "Sa'id ibn al-As ibn Sa'id ibn al-As ibn Umayya; in al-Baladhuri: he was Uthman ibn Affan's governor of Kufa, to whom Uthman wrote ordering him to reinforce Habib ibn Maslama in Armenia with an army under Salman ibn Rabi'a al-Bahili, who marched to him with six thousand Kufans."
+  ur: "عثمان بن عفان کے دور میں کوفہ کے گورنر؛ آرمینیا میں حبیب بن مسلمہ کی مدد کے لیے سلمان بن ربیعہ کی قیادت میں فوج بھیجنے کا حکم انہیں ملا تھا۔ {cite:futuh-buldan-maarif-1407}"
 wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq]
@@ -15,6 +16,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 278"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-16
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+  model: "unknown"
 external_ids: { wikidata: "Q5951105" }
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -527,3 +527,45 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-04 | person/talha-ibn-ubaydullah | copilot | done - 6 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
 2026-11-04 | person/ubada-ibn-al-samit | copilot | done - 10 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
 2026-11-04 | person/uyayna-ibn-hisn | copilot | done - 8 stops; merged in #3416, images in #3414; ar/en/ur subject routes verified
+
+2026-11-04 | place/istanbul | copilot | claimed
+2026-11-04 | place/hama | copilot | claimed
+2026-11-04 | place/jurjan | copilot | claimed
+2026-11-04 | place/khuzistan | copilot | claimed
+2026-11-04 | place/zabid | copilot | claimed
+2026-11-04 | person/al-sharif-al-murtada | copilot | claimed
+2026-11-04 | person/yazid-ibn-abi-sufyan | copilot | claimed
+2026-11-04 | person/safwan-ibn-al-muattal | copilot | claimed
+2026-11-04 | person/hind-bint-utba | copilot | claimed
+2026-11-04 | person/abdullah-ibn-sad-ibn-abi-sarh | copilot | claimed
+2026-11-04 | person/abdullah-ibn-umar | copilot | claimed
+2026-11-04 | person/abu-tahir-al-qarmati | copilot | claimed
+2026-11-04 | person/abu-zakariya-al-hafsi | copilot | claimed
+2026-11-04 | person/al-ahnaf-ibn-qays | copilot | claimed
+2026-11-04 | person/babur-mughal | copilot | claimed
+2026-11-04 | person/al-muqawqis | copilot | claimed
+2026-11-04 | person/al-mustansir-billah | copilot | claimed
+2026-11-04 | person/al-tai-billah | copilot | claimed
+2026-11-04 | person/asma-bint-umays | copilot | claimed
+2026-11-04 | person/charles-v | copilot | claimed
+
+2026-11-04 | person/hafsa | copilot | claimed
+2026-11-04 | person/ikrima-ibn-abi-jahl | copilot | claimed
+2026-11-04 | person/mahmud-ghaznawi | copilot | claimed
+2026-11-04 | person/musa-ibn-bugha | copilot | claimed
+2026-11-04 | person/negus-of-aksum | copilot | claimed
+2026-11-04 | person/saad-ibn-abi-waqqas | copilot | claimed
+2026-11-04 | person/said-ibn-al-as | copilot | claimed
+2026-11-04 | person/suhayl-ibn-amr | copilot | claimed
+2026-11-04 | person/mustafa-kemal-ataturk | copilot | claimed
+2026-11-04 | person/zayd-ibn-thabit | copilot | claimed
+2026-11-04 | person/abd-al-rahman-iii-al-nasir | copilot | claimed
+2026-11-04 | person/abu-hurayra | copilot | claimed
+2026-11-04 | person/abu-lahab | copilot | claimed
+2026-11-04 | person/al-malik-al-nasir-salah-al-din-dawud | copilot | claimed
+2026-11-04 | person/al-malik-al-salih-ayyub | copilot | claimed
+2026-11-04 | person/al-malik-al-salih-ismail | copilot | claimed
+2026-11-04 | person/al-miqdad-ibn-amr | copilot | claimed
+2026-11-04 | person/al-muqtadi-billah | copilot | claimed
+2026-11-04 | person/al-mustansir-hafsi | copilot | claimed
+2026-11-04 | person/al-nasir-yusuf | copilot | claimed

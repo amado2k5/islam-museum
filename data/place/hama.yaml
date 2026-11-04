@@ -1,10 +1,11 @@
 id: place/hama
 class: place
 kind: city
-label: { ar: "حماة", en: "Hama" }
+label: { ar: "حماة", en: "Hama" , ur: "حماہ"}
 summary:
   ar: "مدينة سورية على نهر العاصي، اشتهرت بنواعيرها، وحكمها فرع من الأسرة الأيوبية، وهي موطن المؤرخ أبي الفداء."
   en: A Syrian city on the Orontes, famous for its water-wheels; a branch of the Ayyubid family ruled it, and it is the home of the historian Abu al-Fida.
+  ur: "دریائے عاصی کے کنارے شامی شہر، جو اپنے آبی پہیوں اور ایوبی حکمران خاندان کی ایک شاخ سے معروف ہے؛ مؤرخ ابو الفدا بھی یہیں سے تھے۔ {cite:geonames-gazetteer}"
 wings: [place]
 regions: [levant-iraq]
 coordinates: [35.1318, 36.7578]
@@ -17,3 +18,14 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b6", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: Existing museum record and its defined source list; original status attribution retained. No source pages newly examined and no facts, dates or relations changed.
+  generated_by: Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works; Copilot SDK in VS Code (metadata completion)
+  model: unknown
+  run: explorer-third-40-stories-2026-11-04
+  localization:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-third-40-stories-2026-11-04
+    source: Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research.

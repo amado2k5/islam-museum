@@ -1,6 +1,6 @@
 id: person/abu-hurayra
 class: person
-label: { en: "Abu Hurayra", ar: "أبو هريرة" }
+label: { en: "Abu Hurayra", ar: "أبو هريرة" , ur: "ابو ہریرہ"}
 names:
   - { kind: full, lang: ar, value: "عبد الرحمن بن صخر الدوسي" }
 gender: male
@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   en: "A convert of the Khaybar years who became, by far, the most prolific narrator of hadith in the Sunni collections — a fact celebrated by the tradition and debated by scholars."
   ar: "ممن أسلم زمن خيبر وصار، بفارق كبير، أكثر رواة الحديث في دواوين السنة — وهي حقيقة يحتفي بها التراث ويناقشها الباحثون. ويعللها هو في الصحيح بقوله «إني كنت ألزم رسول الله بشبع بطني حتى لا آكل الخمير ولا ألبس الحبير» {cite:sahih-al-bukhari 3708}. وعنده في مسلم حديث «أنا سيد ولد آدم يوم القيامة وأول من ينشق عنه القبر وأول شافع وأول مشفع» {cite:sahih-muslim 2278}."
+  ur: "خیبر کے زمانے میں مسلمان ہونے والے صحابی، جن سے سنی حدیث کے مجموعوں میں سب سے زیادہ روایات منقول ہیں؛ ان کی روایت کی کثرت پر علمی بحث بھی ہوئی ہے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [scripture-and-its-sciences, converts-and-leavers]
 periods: [period/prophetic-era, period/rashidun]
@@ -55,7 +56,7 @@ education:
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
-provenance: { layer: copyrighted-reference, source: "Earlier content of this record: provenance was not recorded when it was written (see the record's status line). Section added from Assabile, Tafsir Al Quran Al Qareem (pass5-qwen transcripts; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-tafsir-1 }
+provenance: { layer: copyrighted-reference, source: "Earlier content of this record: provenance was not recorded when it was written (see the record's status line). Section added from Assabile, Tafsir Al Quran Al Qareem (pass5-qwen transcripts; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-tafsir-1 , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}}
 occupations:
   - job: job/mufti
     kind: episodic
