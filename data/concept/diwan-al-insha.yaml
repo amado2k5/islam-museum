@@ -1,0 +1,28 @@
+id: concept/diwan-al-insha
+class: concept
+kind: political
+label: { ar: "ديوان الإنشاء (ديوان الرسائل)", en: "Diwan al-Insha' (the chancery)", ur: "دیوان الانشاء (دیوان الرسائل، شاہی دفترِ مراسلات)" }
+summary:
+  ar: "الديوان الذي تُنشأ عنه المكاتبات والولايات السلطانية، وكان يُعرف قديماً بديوان الرسائل؛ يعرّفه القلقشندي في مقدمة «صبح الأعشى» ويجعله «أول ديوان وضع في الإسلام» لأن النبي كان يكاتب أمراءه والملوك، ثم يؤرّخ له عند الأمويين والعباسيين والمغاربة والأندلسيين، وفي مصر في خمس حالات: من الفتح إلى الطولونيين، ثم الطولونيين والإخشيديين، ثم الفاطميين، ثم الأيوبيين، ثم الدولة التركية إلى زمانه، مع أسماء أصحابه {cite:subh-al-asha-cairo-v1 p. 89-100}."
+  en: "The office from which the sultan's letters and appointments were issued, formerly called the Diwan al-Rasa'il. In the introduction to Subh al-a'sha al-Qalqashandi defines it and calls it 'the first diwan established in Islam', because the Prophet corresponded with his commanders and with kings; he traces it under the Umayyads, the Abbasids, the Maghrib and al-Andalus, and in Egypt through five phases — from the conquest to the Tulunids, the Tulunids and Ikhshidids, the Fatimids, the Ayyubids, and the Turkish (Mamluk) state of his own day — naming its heads {cite:subh-al-asha-cairo-v1 p. 89-100}."
+term: { ar: "ديوان الإنشاء", en: "diwan al-insha'" }
+etymology: { ar: "ديوان: قيل عربي من «دوّنته» أي أثبتّه، وقيل فارسي معرّب، وحكى الماوردي وجهين في سبب التسمية؛ والإنشاء مصدر أنشأ الشيء إذا ابتدأه {cite:subh-al-asha-cairo-v1 p. 89-90}", en: "Diwan: said to be Arabic, from dawwantuhu, 'I recorded it', or an Arabised Persian word, al-Mawardi giving two explanations of the name; insha' is the verbal noun of ansha'a, to originate {cite:subh-al-asha-cairo-v1 p. 89-90}" }
+wings: [ideas, words, time]
+themes: [politics-governance-and-authority, literature, arts-of-the-book]
+periods: [period/crusades-ayyubid-mamluk, period/abbasid-early]
+regions: [egypt-nile, levant-iraq]
+relations:
+  - { type: related_to, target: concept/insha, sources: [source/subh-al-asha-cairo-v1] }
+  - { type: related_to, target: concept/diwan-al-barid, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: related_to, target: person/abd-al-hamid-ibn-yahya, sources: [source/subh-al-asha-cairo-v1] }
+  - { type: related_to, target: person/al-qadi-al-fadil, sources: [source/subh-al-asha-cairo-v1] }
+  - { type: related_to, target: person/ibn-fadl-allah-al-umari, sources: [source/subh-al-asha-cairo-v1] }
+  - { type: related_to, target: work/subh-al-asha, sources: [source/subh-al-asha-cairo-v1] }
+sources: [source/subh-al-asha-cairo-v1, source/subh-al-asha-cairo-v14]
+provenance:
+  layer: own-research
+  source: "source/subh-al-asha-cairo-v1 scan pp. 89-100; source/subh-al-asha-cairo-v14 scan pp. 366, 371"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

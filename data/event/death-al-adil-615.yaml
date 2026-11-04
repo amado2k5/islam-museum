@@ -1,23 +1,29 @@
 id: event/death-al-adil-615
 class: event
 kind: death
-label: { ar: "وفاة الملك العادل وملك أولاده بعده", en: "Death of al-Malik al-Adil and his sons' succession" }
+label: { ar: "وفاة الملك العادل وملك أولاده بعده", en: "Death of al-Malik al-Adil and his sons' succession", ur: "الملک العادل کی وفات اور ان کے بیٹوں کی جانشینی" }
 date:
-  start: { edtf: "1218~", hijri: "0615", calendar: julian, precision: year, status: tradition, derived: true }
+  start: { edtf: "1218-08-30/1218-08-31", hijri: "0615-06-07", calendar: julian, precision: day, status: debated, derived: true, note: "«وأقام مريضاً إلى يوم الجُمُعة إلى سابع أو ثامن جُمادى الآخرة، فتوفي بعالقين» (مرآة الزمان 22/231)؛ والسنة 615 عند ابن الأثير (الكامل ص393). التحويل الميلادي مشتق تقريبي.", sources: [source/mirat-al-zaman-risala-2013-v22, source/kamil-ibn-al-athir] }
 summary:
-  ar: "توفي الملك العادل أبو بكر بن أيوب وقد بلغ من العمر عتيا، فملك ولده الكامل مصر والمعظم دمشق والأشرف الجزيرة، وأطاع أكثرهم للكامل وكان أمر الأيوبيين فيه مجتمعًا {cite:kamil-ibn-al-athir p. 393}."
-  en: "al-Adil died in extreme old age; al-Kamil took Egypt, al-Mu'azzam Damascus, al-Ashraf the Jazira — all deferring to al-Kamil, so the Ayyubid house held together {cite:kamil-ibn-al-athir p. 393}."
-wings: [time]
+  ar: "توفي الملك العادل أبو بكر بن أيوب وقد بلغ من العمر عتيا، فملك ولده الكامل مصر والمعظم دمشق والأشرف الجزيرة، وأطاع أكثرهم للكامل وكان أمر الأيوبيين فيه مجتمعًا {cite:kamil-ibn-al-athir p. 393}. وعند سبط ابن الجوزي، وقد شهد دفنه، أنه مرض لما بلغه أخذ الفرنج برج السلسلة بدمياط وتوفي بعالقين يوم الجمعة سابع أو ثامن جمادى الآخرة سنة 615هـ، فكتم المعظم موته وحمله في محفة إلى قلعة دمشق ودفنه فيها، ثم نُقل سنة 619هـ إلى تربته عند دار العقيقي {cite:mirat-al-zaman-risala-2013-v22 p. 231-233}."
+  en: "al-Adil died in extreme old age; al-Kamil took Egypt, al-Mu'azzam Damascus, al-Ashraf the Jazira — all deferring to al-Kamil, so the Ayyubid house held together {cite:kamil-ibn-al-athir p. 393}. Sibt ibn al-Jawzi, who was present at the burial, says he fell ill on hearing that the Franks had taken the chain tower of Damietta and died at Aliqin on Friday 7 or 8 Jumada II 615; al-Mu'azzam hid the death, carried him in a litter to the citadel of Damascus and buried him there, and in 619 he was moved to his tomb by the house of al-Aqiqi {cite:mirat-al-zaman-risala-2013-v22 p. 231-233}."
+wings: [time, people]
+themes: [health-body-death, politics-governance-and-authority]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
 relations:
-  - { type: occurred_at, target: place/dimyat, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/al-malik-al-adil-ayyub, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/aliqin, sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: occurred_at, target: building/qalat-dimashq, sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: had_participant, target: person/al-malik-al-adil-ayyub, role: "المتوفى", sources: [source/kamil-ibn-al-athir, source/mirat-al-zaman-risala-2013-v22] }
   - { type: had_participant, target: person/al-malik-al-kamil, role: "خلفه بمصر", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/al-malik-al-muazzam, role: "خلفه بدمشق", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-muazzam, role: "خلفه بدمشق", sources: [source/kamil-ibn-al-athir, source/mirat-al-zaman-risala-2013-v22] }
   - { type: had_participant, target: person/al-malik-al-ashraf, role: "خلفه بالجزيرة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/sibt-ibn-al-jawzi, role: "شاهد الدفن", sources: [source/mirat-al-zaman-risala-2013-v22] }
 provenance:
   layer: own-research
-  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
-  run: lib-kamil-v12-batch07
-sources: [source/kamil-ibn-al-athir]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+  source: "الكامل في التاريخ لابن الأثير ص393؛ source/mirat-al-zaman-risala-2013-v22 scan pp. 227-233"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: "lib-kamil-v12-batch07; ocr-harvest-2026-11-04"
+sources: [source/kamil-ibn-al-athir, source/mirat-al-zaman-risala-2013-v22]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium); Claude Code (OCR-harvest worker J)" }
