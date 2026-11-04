@@ -313,3 +313,9 @@ Promoted: jamil-ibn-abdallah-al-udhri, mansur-al-namri, sallam-al-khasir, yasir-
 Promoted: said-ibn-humayd, yahya-ibn-umar-al-talibi, urwa-ibn-hizam, shahak-al-khadim, yahya-ibn-harthama, isa-ibn-al-shaykh-al-shaybani, ismail-ibn-qabiha, muhammad-ibn-yusuf-al-alawi, ibn-diraj-al-tufayli, saad-al-aasir, yunus-ibn-abd-al-ala, ubaydallah-ibn-khurdadhbih, ismail-ibn-hammad-al-qadi, muhammad-ibn-ahmad-ibn-isa, umm-al-sharif, ishaq-ibn-ayyub-al-anbari, harun-ibn-khumarawayh, rafi-ibn-harthama, ibn-abi-l-dunya, muhammad-ibn-abi-l-saj, nasr-ibn-ahmad, wasif-al-khadim, ibn-abdus-al-jahshiyari, muhammad-ibn-ali-al-abdi, kushajim.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 751.** ~10 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
+
+### Batch 46 (4 Nov 2026, 9 records) — muruj draft promotions 17 (final) (sweep worker)
+
+Promoted: kilab-ibn-hamza-al-aqili, muhammad-ibn-yazid-ibn-muslama, sulayman-ibn-rabia-al-bahili, muhammad-ibn-al-wazir-al-hafiz, harun-ibn-gharib, ibn-mishad, mutarrif-al-jurjani, ibn-al-aftas-al-alawi, ibrahim-ibn-musa-ibn-jafar.cite-check 9/9; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 760.** lib-muruj draft promotions complete; ~4,650 further trilingual drafts remain (mawsuat-a3lam 413, shadharat runs, wikidata-import-wave2 44, mawsua runs, uncited ~750).
