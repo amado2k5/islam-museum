@@ -11,7 +11,8 @@ provenance:
   source: "As cited in this record (Fihrist, Ibn al-Nadim; Tarikh Baghdad, al-Khatib). The provenance block was missing from the record when first merged; restored from its own sources on 1 Nov 2026 by Claude Code (claude-haiku-5-5). The occupation entry (chief judge under Harun al-Rashid) is from TDV 'KADI' (F. Atar, vol. 24 pp. 66-69)."
   generated_by: "Devin (SWE-2 High); restored by Claude Code (claude-haiku-5-5)"
   run: "jobs-p1-s02"
-sources: [source/fihrist-ibn-al-nadim, source/tarikh-baghdad-khatib]
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: section from kitab-al-kharaj-salafiyya-1392 PDF pp. 1, 5-6"
+sources: [source/fihrist-ibn-al-nadim, source/tarikh-baghdad-khatib, source/kitab-al-kharaj-salafiyya-1392]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 occupations:
   - job: job/qadi

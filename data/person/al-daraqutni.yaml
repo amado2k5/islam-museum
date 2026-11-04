@@ -42,7 +42,24 @@ relations:
   - { type: participated_in, target: event/death-daraqutni-385, role: "المتوفى", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
 external_ids:
   wikidata: "Q3607438"
-sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/al-aalam]
+perspectives:
+  - tradition: sunni
+    id: ayni
+    stance: { ar: "مستحق للتضعيف", en: "Deserves to be weakened", ur: "تضعیف کے مستحق" }
+    summary:
+      ar: "بدر الدين العيني (الحنفي) في «البناية شرح الهداية»، في مبحث القراءة: هو مستحق للتضعيف، كما ينقله عنه العظيم آبادي."
+      en: "Badr al-Din al-'Ayni (Hanafi), in al-Binaya sharh al-Hidaya, in the section on recitation: he deserves to be weakened — as al-'Azimabadi quotes him."
+      ur: "بدر الدین عینی (حنفی) «البنایہ شرح الہدایہ» میں قراءت کی بحث میں: وہ تضعیف کے مستحق ہیں — جیسا کہ عظیم آبادی ان سے نقل کرتے ہیں۔"
+    sources: [source/sunan-daraqutni-ibn-hazm-2011]
+  - tradition: sunni
+    id: azimabadi
+    stance: { ar: "ثقة إمام، وقول العيني لا يُلتفت إليه", en: "A reliable imam; al-'Ayni's remark is to be disregarded", ur: "ثقہ امام؛ عینی کا قول قابلِ التفات نہیں" }
+    summary:
+      ar: "شمس الحق العظيم آبادي في مقدمة «التعليق المغني»: وثقه وأثنى عليه عبد الغني المصري والحاكم وأبو الطيب الطبري والخطيب والأزهري، ومن المتأخرين السمعاني وابن الأثير والذهبي والنووي، فقول العيني إساءة أدب."
+      en: "Shams al-Haqq al-'Azimabadi, in the introduction to al-Ta'liq al-Mughni: 'Abd al-Ghani of Egypt, al-Hakim, Abu al-Tayyib al-Tabari, al-Khatib and al-Azhari, and among later scholars al-Sam'ani, Ibn al-Athir, al-Dhahabi and al-Nawawi declared him reliable and praised him, so al-'Ayni's remark is discourteous."
+      ur: "شمس الحق عظیم آبادی «التعلیق المغنی» کے مقدمے میں: عبد الغنی مصری، حاکم، ابو الطیب طبری، خطیب اور ازہری، اور متاخرین میں سمعانی، ابن الاثیر، ذہبی اور نووی نے ان کی توثیق و تعریف کی، اس لیے عینی کا قول بے ادبی ہے۔"
+    sources: [source/sunan-daraqutni-ibn-hazm-2011]
+sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/al-aalam, source/sunan-daraqutni-ibn-hazm-2011]
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 385، المطبوع ص 183-184، قراءة آبل فيجن وحصاد OCR)؛ تاريخ الإسلام للذهبي سنة 385 المطبوع ص 101-105 (حصاد OCR)؛ شذرات الذهب سنة 385 المطبوع ص 116-117 (حصاد OCR)"

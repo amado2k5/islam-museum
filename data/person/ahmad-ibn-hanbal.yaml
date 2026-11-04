@@ -63,6 +63,7 @@ provenance:
   source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
   generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
   run: madkhal-batch-1
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: tarikh-dimashq-amrawi-v5 pp. 252–335 (entry 136, read in part)"
 relations:
   - { type: authored, target: work/fadail-al-sahaba-ahmad, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: student_of, target: person/abd-al-razzaq-al-sanani, role: "رحل إليه إلى صنعاء مع يحيى بن معين (فضائل الصحابة ص26)", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
@@ -84,6 +85,7 @@ sources:
 - source/tabaqat-fuqaha-abbas-1981
 - source/assabile-omar-abdelkafy
 - source/fadail-sahaba-ahmad-wasi-allah-1999
+- source/tarikh-dimashq-amrawi-v5
 status:
   review: published
   completeness: 2

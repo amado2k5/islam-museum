@@ -11,8 +11,15 @@ summary:
   en: "Abu Abd Allah al-Hannat al-Shirazi, a jurist of Fars {cite:tabaqat-fuqaha-abbas-1981 p. 61}. Al-Shirazi gives neither his date of death nor his teachers. The editor's note in the book says the edition prints the name as 'al-Khayyat', while manuscript (ع) has the undotted letter, that is, al-Hannat {cite:tabaqat-fuqaha-abbas-1981 p. 61}."
 wings: [people]
 sources: [source/tabaqat-fuqaha-abbas-1981]
-provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch104
+status:
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary

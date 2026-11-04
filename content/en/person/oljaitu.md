@@ -2,6 +2,7 @@
 id: person/oljaitu
 lang: en
 source_lang: en
+provenance: { generated_by: "Muse; merge of person/khudabanda by Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/tarikh-khulafa-minhaj-1434 p. 735 (merged sentence)" }
 translators: []
 ---
 ## Summary
@@ -15,6 +16,8 @@ At Tabriz he was met by emissaries of the Yuan emperor Temür, carrying a messag
 
 ## The faith journey
 No Ilkhan's religious life is more layered. His mother Uruk Khatun was a Keraite Christian, and in 1291 the child was baptised and named Nicholas, after Pope Nicholas IV. He was nevertheless raised a Buddhist, in the tradition of the Ilkhanate's first rulers, and studied Buddhism in Khorasan. With Ghazan's conversion he became a Sunni Muslim, taking the name Muhammad and the Hanafi school of his brother, at a court in which Sufis such as Sa'd al-Din Hamuyi also formed him. After his accession, the Shi'a theologians al-Hilli and his pupil Maitham al-Bahrani drew him toward Shi'a Islam, and in 1310 he changed his school formally to Twelver Shi'ism; the change carried policy with it — coins struck in the names of the Twelve Imams and Shi'a notables advanced — and the English article records that Öljaitü had al-Hilli's remains transferred to the shrine he built for him at Soltaniyeh (al-Hilli outlived the sultan, dying in 1325, so the transfer itself belongs to the years after). The ending is contested: the Arabic article records both that he remained a Shi'a until his death and that, on the report of the qadi of Shiraz, he returned to Sunni Islam in his final year; the English article cites al-Safadi for a return to Sunnism in Ramadan 716 AH, on the 10th of that month. Because the final phase itself is read two ways by the texts, this museum keeps his affiliation unsettled — unknown — with every phase preserved in his record rather than any one of them promoted to the value. {cite:wikipedia-oljaitu-en} {cite:wikipedia-oljaitu-ar}
+
+Al-Suyuti, in *Tarikh al-Khulafa'*, calls him "Khudabanda, king of the Tatars", and says he proclaimed Rafd in his lands and ordered the preachers to mention in the Friday sermon only Ali ibn Abi Talib, his two sons and the Prophet's household, which continued until he died in 716 AH. {cite:tarikh-khulafa-minhaj-1434 p. 735}
 
 ## Death and legacy
 He died at Soltaniyeh on 16 December 1316 — the English article's death section says the 17th, a one-day discrepancy the record preserves — and was buried beneath his dome. Rashid al-Din, the great vizier-historian of the previous reign, was accused of poisoning him and executed two years later. His young son Abu Sa'id succeeded him, the last effective Ilkhan. Modern judgement, as the Arabic article summarises it, treats Öljaitü as a significant figure of the middle Ilkhanate: he built, he corresponded with Christendom, and his court was the theatre of the most remarkable royal religious journey in Mongol history — a journey this record presents whole, and declines to settle. {cite:wikipedia-oljaitu-en} {cite:wikipedia-oljaitu-ar} {cite:wikidata-oljaitu}
