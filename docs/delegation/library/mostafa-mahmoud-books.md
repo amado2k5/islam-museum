@@ -18,3 +18,16 @@
 
 ## Remaining book ids
 mm-shaytan-yahkum, mm-quran-kaen-hay (0379Pdf and alfirdwsiy2018 items byte-identical, md5 ee61cd78), mm-lughz-alhayat, mm-ra-ayt-allah, mm-lughz-almawt, mm-muhammad-sira, mm-ruh-wal-jasad, mm-israil-alnaziyya, mm-islam-fi-khandaq, mm-insan-wal-zill, mm-allah-wal-insan (more chapters), mm-anashid-alithm.
+
+## Batch 2 (worker G, 2026-11-04)
+
+- mm-lughz-almawt (item AAlexandrina-129548, Dar al-Awda, Jan 1972): source/mm-lughz-al-mawt-awda-1972; work/lughz-al-mawt with ar/en/ur prose. Printed = PDF − 2.
+- mm-muhammad-sira (item AAlexandrina-097921, Dar al-Ma'arif 5th ed., deposit 1985/4792): source/mm-muhammad-maarif-ed5; work/muhammad-muhawala-li-fahm-al-sira with ar/en/ur prose (about person/muhammad). Printed = PDF − 2.
+- person/mostafa-mahmoud: State Prize 1970 for «رجل تحت الصفر» and 1972 Beirut complete works (Muhammad ed. p. 98); two authored edges.
+- Lead: first-edition year of «محمد» not in the file.
+
+## Batch 3 (worker G, 2026-11-04)
+
+- mm-ra-ayt-allah (item AAlexandrina-093108, Dar al-Ma'arif 1976): source/mm-raaytu-allah-maarif-1976; work/raaytu-allah (commentary_on work/al-mawaqif-wal-mukhatabat); new person/al-niffari and work/al-mawaqif-wal-mukhatabat, all with ar/en/ur prose. Printed = PDF − 2. Lead: the chapter "مخطوطة جديدة عثر عليها للنفري" (PDF p. 160 in contents) not yet read; al-Niffari's death date needs an early biographical source.
+- mm-ruh-wal-jasad (item AAlexandrina-022482, 7th ed. Dar al-Ma'arif, deposit 1998/15760; first-edition statement from item AAlexandrina-117273, Dar al-Nahda al-Arabiyya, 1394 AH): two sources, work/al-ruh-wal-jasad with ar/en/ur prose. Contents page unreadable in OCR.
+- Excluded for now: mm-shaytan-yahkum and mm-israil-alnaziyya. Al-Shaytan yahkum (Dar al-Awda 1986) presents the "Protocols of the Elders of Zion" as genuine and attributes film production to a Jewish plot (PDF p. 10); it cannot be presented neutrally until the museum holds a cited academic source on the Protocols (concept/nazariyyat-al-muamara also lacks one). Al-Israiliyya al-naziyya is of the same polemical kind and was not opened.
