@@ -1,0 +1,28 @@
+id: person/yahya-ibn-muhammad-ibn-saaid
+class: person
+label: { ar: "يحيى بن محمد بن صاعد", en: "Yahya ibn Muhammad ibn Sa'id", ur: "یحییٰ بن محمد بن صاعد" }
+names:
+  - { value: "أبو محمد يحيى بن محمد بن صاعد بن كاتب الهاشمي البغدادي", kind: full, lang: ar }
+gender: male
+roles: [scholar, transmitter]
+traditions: [sunni]
+summary:
+  ar: "الحافظ أبو محمد يحيى بن محمد بن صاعد الهاشمي البغدادي، راوي كتاب الزهد لابن المبارك عن الحسين المروزي، وصاحب «زيادات» فيه؛ وثّقه الدارقطني، ووُلد سنة 228 ومات في ذي القعدة سنة 318 كما يلخص الذهبي {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 100}."
+  en: "The hadith master Abu Muhammad Yahya ibn Muhammad ibn Sa'id al-Hashimi al-Baghdadi, who transmitted Ibn al-Mubarak's Kitab al-Zuhd from al-Husayn al-Marwazi and added reports of his own to it; al-Daraqutni called him trustworthy; born 228, died in Dhu al-Qa'da 318, as summarised from al-Dhahabi {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 100}."
+  ur: "حافظ ابو محمد یحییٰ بن محمد بن صاعد ہاشمی بغدادی، حسین مروزی سے ابن المبارک کی کتاب الزہد کے راوی اور اس میں «زیادات» کے صاحب؛ دارقطنی نے انہیں ثقہ کہا؛ ولادت 228، وفات ذی القعدہ 318، ذہبی کے خلاصے کے مطابق {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 100}۔"
+born: { edtf: "0842~", hijri: "0228", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/zuhd-ibn-mubarak-farid-1995-v1] }
+died: { edtf: "0930~", hijri: "0318", calendar: julian, precision: year, status: tradition, derived: true, note: "في ذي القعدة سنة 318 (فريد ص 100 عن الذهبي)", sources: [source/zuhd-ibn-mubarak-farid-1995-v1] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, note: "من رواة كتاب الزهد لابن المبارك برواية المروزي", sources: [source/zuhd-ibn-mubarak-azami-scan] }
+provenance:
+  layer: own-research
+  source: "تراجم رواة نسخة المروزي في مقدمة أحمد فريد لكتاب الزهد ص 99-101؛ أسانيد نسخة الأعظمي ص 1-2، 304"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

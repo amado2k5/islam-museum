@@ -1,0 +1,27 @@
+id: person/husayn-ibn-al-hasan-al-marwazi
+class: person
+label: { ar: "الحسين بن الحسن المروزي", en: "al-Husayn ibn al-Hasan al-Marwazi", ur: "حسین بن حسن مروزی" }
+names:
+  - { value: "الحسين بن الحسن بن حرب السلمي المروزي", kind: full, lang: ar }
+gender: male
+roles: [scholar, transmitter]
+traditions: [sunni]
+summary:
+  ar: "الحسين بن الحسن بن حرب السلمي المروزي نزيل مكة، راوي كتاب الزهد عن ابن المبارك؛ روى عنه الترمذي وابن ماجه وابن صاعد، وقال أبو حاتم صدوق، وذكر ابن حبان أنه مات سنة 246 {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 99}."
+  en: "al-Husayn ibn al-Hasan ibn Harb al-Sulami al-Marwazi, resident of Mecca, transmitter of Ibn al-Mubarak's Kitab al-Zuhd; al-Tirmidhi, Ibn Majah and Ibn Sa'id transmitted from him, Abu Hatim called him truthful, and Ibn Hibban gave his death as 246 {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 99}."
+  ur: "حسین بن حسن بن حرب سلمی مروزی، مکہ کے باشندے، ابن المبارک سے کتاب الزہد کے راوی؛ ان سے ترمذی، ابن ماجہ اور ابن صاعد نے روایت کی، ابو حاتم نے انہیں صدوق کہا، اور ابن حبان کے مطابق ان کی وفات 246 میں ہوئی {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 99}۔"
+died: { edtf: "0860~", hijri: "0246", calendar: julian, precision: year, status: tradition, derived: true, note: "قال ابن حبان مات سنة 246، كما ينقل ابن حجر في تهذيب التهذيب عند فريد ص 99", sources: [source/zuhd-ibn-mubarak-farid-1995-v1] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [arabia]
+story_roles:
+  - { role: transmitter, status: tradition, note: "من رواة كتاب الزهد لابن المبارك برواية المروزي", sources: [source/zuhd-ibn-mubarak-azami-scan] }
+provenance:
+  layer: own-research
+  source: "تراجم رواة نسخة المروزي في مقدمة أحمد فريد لكتاب الزهد ص 99-101؛ أسانيد نسخة الأعظمي ص 1-2، 304"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }
