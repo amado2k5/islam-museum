@@ -1,0 +1,28 @@
+id: concept/al-hadith-al-muallal
+class: concept
+kind: term
+label:
+  ar: "الحديث المعلل (علل الحديث)"
+  en: "The defective hadith (mu'allal) and the science of hidden defects"
+summary:
+  ar: "الحديث المعلل عند ابن الصلاح هو الحديث الذي اطُّلع فيه على علة تقدح في صحته مع أن ظاهره السلامة منها، والعلة عبارة عن أسباب خفية غامضة قادحة، ويسميه المحدثون «المعلول». ومعرفة العلل عنده من أجلّ علوم الحديث وأدقها وأشرفها، لا يضطلع بها إلا أهل الحفظ والخبرة والفهم الثاقب، ويُستعان على إدراكها بتفرد الراوي ومخالفة غيره مع قرائن، والسبيل إليها عند الخطيب جمع الطرق والنظر في اختلاف الرواة. وتقع العلة في الإسناد غالباً وقد تقع في المتن. ومن أشهر كتب هذا الفن «علل الحديث» لابن أبي حاتم، وفيه سؤالاته لأبيه ولأبي زرعة {cite:muqaddima-ibn-salah-itr p. 89-93}{cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 13-14}."
+  en: "For Ibn al-Salah a mu'allal hadith is one in which a defect has been found that impairs its soundness although it appears free of it; the defect consists of hidden, obscure, damaging causes, and hadith scholars also call such a hadith ma'lul. Knowing hidden defects is for him among the most important, subtle and noble of the hadith sciences, mastered only by those with memory, experience and penetrating understanding; it is detected through a narrator's solitariness and others' contradiction of him together with telling indications, and for al-Khatib the way to it is gathering all routes and examining the narrators' disagreements. The defect lies mostly in the chain, sometimes in the text. Among the famous books of the field is Ibn Abi Hatim's Ilal al-Hadith, built on his questions to his father and to Abu Zur'a."
+term: { ar: "المعلَّل؛ المعلول؛ العلة", en: "mu'allal; ma'lul; 'illa" }
+wings: [ideas, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq, persia-central-asia]
+relations:
+  - { type: part_of, target: concept/mustalah-al-hadith, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: related_to, target: work/ilal-al-hadith-ibn-abi-hatim, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
+  - { type: related_to, target: concept/ziyadat-al-thiqa, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: related_to, target: concept/mudtarib, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: related_to, target: concept/illa, sources: [source/muqaddima-ibn-salah-itr] }
+sources: [source/muqaddima-ibn-salah-itr, source/ilal-ibn-abi-hatim-salafiyya-v1]
+provenance:
+  layer: own-research
+  source: "مقدمة ابن الصلاح، تحقيق عتر، النوع الثامن عشر، ص 89–93؛ علل الحديث لابن أبي حاتم، ط السلفية، الجزء الأول، ص PDF 13–14"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

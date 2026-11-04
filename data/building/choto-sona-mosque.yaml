@@ -1,24 +1,25 @@
 id: building/choto-sona-mosque
 class: building
 kind: mosque
-label:
-  ar: "مسجد صوتو سونا"
-  en: "Choto Sona Mosque, Gaur"
+label: { ar: "المسجد الذهبي الصغير (چهوتو سونا مسجد) في غور", en: "Choto Sona (Small Golden) Mosque, Gaur", ur: "چھوٹی سونا مسجد، گوڑ" }
 summary:
-  ar: "بطاقة أولية لمسجد صوتو سونا في غور ببنغلاديش، المسجد الذهبي الصغير من عهد حسين شاه؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Choto Sona Mosque of Gaur in Bangladesh, the Small Golden Mosque of Sultan Husayn's reign; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "مسجد مستطيل من الحجر في فيروزپور جنوب غور، سمي «الذهبي» لما كان عليه من التذهيب، ينسب إلى ولي محمد في عهد حسين شاه (899–925هـ/1493–1519)، برواق أوسط تغطيه سقوف چو چالا وجناحين بست قباب لكل منهما {c(160)} {c(161)} {c(162)}."
+  en: "An oblong stone mosque in Firuzpur, the southernmost quarter of Gaur, called 'golden' from its gilding, ascribed to Wali Muhammad in the reign of Husain Shah (AH 899-925/1493-1519), with a central nave under chau-chala roofs and two wings of six domes each {c(160)} {c(161)} {c(162)}."
+  ur: "گوڑ کے جنوبی ترین محلے فیروز پور میں پتھر کی مستطیل مسجد، سنہری کام کی وجہ سے «سونا» کہلائی؛ حسین شاہ کے عہد (899–925ھ/1493–1519) میں ولی محمد سے منسوب؛ مرکزی ایوان پر چو چالا چھتیں اور دونوں بازوؤں پر چھ چھ گنبد {c(160)}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [south-asia]
-periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1493/1519", calendar: julian, precision: year, status: debated, note: "Reign of Husain Shah; ascribed to Wali Muhammad from an undated inscription" }
+materials: [brick, stone]
+sources: [source/tarikh-islam-hasan-ibrahim, source/hasan-mosque-architecture-pre-mughal-bengal-1979]
 external_ids:
   wikidata: Q7560724
 provenance:
   layer: own-research
-  source: "Wikidata candidate; mosque attested in Bangladeshi heritage registers — entry not yet checked on the page"
+  source: "Hasan 1979, printed pp. 160-162; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Hasan 1979 pp. 160-162, summary, date and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

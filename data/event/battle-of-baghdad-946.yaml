@@ -1,23 +1,46 @@
 id: event/battle-of-baghdad-946
 class: event
-kind: battle
-label: { ar: "معركة بغداد (٩٤٦)", en: "Battle of Baghdad (946)" }
+kind: war
+aliases: [event/nasir-dawla-march-335]   # same war: Nasir al-Dawla's march on Baghdad (Muntazam record), merged here
+label: { ar: "حرب ناصر الدولة ومعز الدولة على بغداد (334-335هـ)", en: "The war of Nasir al-Dawla and Mu'izz al-Dawla for Baghdad (334-335 AH / 946)", ur: "بغداد پر ناصر الدولہ اور معز الدولہ کی جنگ (334-335ھ / 946ء)" }
 summary:
-  ar: "بطاقة أولية لمعركة بغداد سنة ٩٤٦م، انتصار معز الدولة البويهي على ناصر الدولة الحمداني وتثبيت السيطرة البويهية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Battle of Baghdad in 946, Mu'izz al-Dawla's victory over the Hamdanids; its sources are not yet checked on the page."
-wings: [time]
+  ar: "الحرب التي دارت بين معز الدولة البويهي ومعه الخليفة المطيع من جهة، وناصر الدولة الحمداني ومعه الأتراك التوزونية وأبو جعفر بن شيرزاد من جهة، من أواخر شعبان سنة 334هـ بعكبرا وسامراء إلى أن عبر الديلم دجلة إلى الجانب الشرقي من بغداد سحر يوم السبت انسلاخ ذي الحجة 334هـ بحيلة المعابر، فانهزم ناصر الدولة ومُلك الجانبان، ثم طلب ناصر الدولة الصلح في آخر المحرم سنة 335هـ وهرب من الأتراك إلى الموصل {cite:tajarib-al-umam-surush-v6 p. 121-126}. وعند ابن الجوزي كانت الهزيمة في أول يوم من المحرم سنة 335هـ، ونهب الديلم باب الطاق وسوق يحيى، وهلك في طريق عكبرا خلق كثير من الحر والعطش {cite:muntazam-ibn-al-jawzi p. 646-647}."
+  en: "The war between the Buyid Mu'izz al-Dawla, with the caliph al-Muti' in his camp, and the Hamdanid Nasir al-Dawla with Tuzun's Turks and Abu Ja'far ibn Shirzad, from late Sha'ban 334 around Ukbara and Samarra until the Daylamites crossed the Tigris to east Baghdad at dawn on Saturday, the last day of Dhu al-Hijja 334, by a ruse with pontoons; Nasir al-Dawla was routed, both banks were taken, and at the end of Muharram 335 he sued for peace and fled his own Turks for Mosul {cite:tajarib-al-umam-surush-v6 p. 121-126}. Ibn al-Jawzi puts the rout on 1 Muharram 335 and tells of the looting of Bab al-Taq and Suq Yahya and of the many who died of heat and thirst on the road to Ukbara {cite:muntazam-ibn-al-jawzi p. 646-647}."
+wings: [time, place]
+themes: [civil-wars-and-revolts, battles, cities]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
+sides:
+  - label: { ar: "معز الدولة البويهي والديلم، ومعهم الخليفة المطيع لله", en: "Mu'izz al-Dawla and the Daylamites, with the caliph al-Muti'", ur: "معز الدولہ اور دیلم، اور ان کے ساتھ خلیفہ مطیع" }
+    participants: [polity/buyid-dynasty, person/al-muti-billah]
+    commanders: [person/muizz-al-dawla, person/abu-jafar-al-saymari]
+    note: "ومن قواده اصفهدوست وموسى فياذة {cite:tajarib-al-umam-surush-v6 p. 120} {cite:tajarib-al-umam-surush-v6 p. 123}"
+  - label: { ar: "ناصر الدولة الحمداني والأتراك التوزونية وابن شيرزاد", en: "Nasir al-Dawla the Hamdanid, Tuzun's Turks and Ibn Shirzad", ur: "ناصر الدولہ ہمدانی، توزون کے ترک اور ابن شیرزاد" }
+    participants: [polity/hamdanid-dynasty, group/turks, group/qaramita]
+    commanders: [person/nasir-al-dawla, person/abu-jaafar-ibn-shirzad, person/al-husayn-ibn-said-al-hamdani]
+    note: "ومعهم ينال كوسه وتكين الشيرزادي والقرامطة من أصحاب ناصر الدولة، واستعان ابن شيرزاد بالعامة والعيارين {cite:tajarib-al-umam-surush-v6 p. 122} {cite:tajarib-al-umam-surush-v6 p. 123}"
+map: { kind: locator, precision: approximate, center: [44.36, 33.31] }
 date:
-  start: { edtf: "0946-04", precision: year, status: tradition, derived: true }
-  end: { edtf: "0946-08", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-al-tabari]
+  start: { edtf: "0946-04-01", hijri: "0334-08-26", calendar: julian, precision: day, status: historical, derived: true, note: "«ونزل ناصر الدولة ومعه الأتراك بسر من رأى لأربع بقين من شعبان وابتدأت الحرب بينه وبين أصحاب معز الدولة بعكبرا» (تجارب الأمم 6/121)؛ التحويل الميلادي مشتق تقريبي.", sources: [source/tajarib-al-umam-surush-v6] }
+  end: { edtf: "0946-08-01/0946-08-02", hijri: "0334-12-30", calendar: julian, precision: day, status: debated, derived: true, note: "عبور الديلم «فى سحر يوم السبت انسلاخ ذى الحجة» سنة 334 عند مسكويه (6/124)، والهزيمة «في أول يوم من المحرم» سنة 335 عند ابن الجوزي (المنتظم ص646)؛ وطلب ناصر الدولة الصلح «فى آخر المحرّم سنة خمس وثلاثين وثلاثمائة» (6/126). التحويل الميلادي مشتق.", sources: [source/tajarib-al-umam-surush-v6, source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tajarib-al-umam-surush-v6, source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/ukbara, sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: occurred_at, target: place/samarra, sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: occurred_at, target: place/tikrit, sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: had_participant, target: person/muizz-al-dawla, role: "الغالب", sources: [source/tajarib-al-umam-surush-v6, source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/nasir-al-dawla, role: "المهزوم", sources: [source/tajarib-al-umam-surush-v6, source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-jafar-al-saymari, role: "وزير معز الدولة وأول العابرين", sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: had_participant, target: person/abu-jaafar-ibn-shirzad, role: "مدبر بغداد لناصر الدولة", sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: had_participant, target: person/al-muti-billah, role: "الخليفة في معسكر معز الدولة", sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: caused, target: event/baghdad-famine-334, sources: [source/tajarib-al-umam-surush-v6] }
+sources: [source/tajarib-al-umam-surush-v6, source/muntazam-ibn-al-jawzi]
 external_ids:
   wikidata: Q4870385
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/tajarib-al-umam-surush-v6 scan pp. 120-127; المنتظم لابن الجوزي ص646-647 (من سجل event/nasir-dawla-march-335)"
+  generated_by: "Claude Code (OCR-harvest worker J); earlier cards by Devin (SWE-2 High, SWE-2 Medium)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

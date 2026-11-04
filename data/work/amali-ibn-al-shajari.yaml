@@ -1,17 +1,28 @@
 id: work/amali-ibn-al-shajari
 class: work
 kind: book
-label: { ar: "أمالي ابن الشجري", en: "Amali Ibn al-Shajari" }
+label: { ar: "أمالي ابن الشجري", en: "Amali Ibn al-Shajari", ur: "امالی ابن الشجری" }
 summary:
-  ar: "لأبي السعادات هبة الله بن علي المتوفى سنة ٥٧٢هـ؛ في خمسة فنون من الأدب، ثماني مجلدات {cite:kashf-zunun-furqan p. 597}."
-  en: "Ibn al-Shajari's Amali — eight volumes of dictations across five branches of adab {cite:kashf-zunun-furqan p. 597}."
-wings: []
+  ar: "أمالي الشريف أبي السعادات هبة الله بن علي ابن الشجري (450–542هـ) النحوي البغدادي، في أربعة وثمانين مجلساً، يغلب عليها النحو والصرف مع اللغة والأدب والبلاغة والعروض والتاريخ؛ وتنفرد بين كتب الأمالي بتأريخ المجالس، من المجلس الثامن في جمادى الأولى 524هـ، مع انقطاع للإملاء نحو عشر سنين بين المجلس 31 (شوال 526هـ) والمجلس 32 (ربيع الأول 536هـ) {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 189} {cite:kashf-zunun-furqan p. 597}."
+  en: "The dictations of al-Sharif Abu al-Sa'adat Hibat Allah ibn 'Ali Ibn al-Shajari (450–542 AH), grammarian of Baghdad, in eighty-four sessions, mostly on syntax and morphology but also on lexicon, literature, rhetoric, prosody and history. Among works of its kind it is unique in dating its sessions, from session 8 in Jumada al-Ula 524 AH; dictation stopped for about ten years between session 31 (Shawwal 526 AH) and session 32 (Rabi' al-Awwal 536 AH) {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 189} {cite:kashf-zunun-furqan p. 597}."
+  ur: "شریف ابو السعادات ہبۃ اللہ بن علی ابن الشجری (450–542ھ)، بغداد کے نحوی، کی امالی، جو چوراسی مجالس میں ہے۔ اس میں زیادہ تر نحو و صرف ہے، ساتھ لغت، ادب، بلاغت، عروض اور تاریخ بھی ہیں۔ امالی کی کتابوں میں یہ مجالس کی تاریخ لکھنے میں منفرد ہے، آٹھویں مجلس (جمادی الاولیٰ 524ھ) سے؛ مجلس 31 (شوال 526ھ) اور مجلس 32 (ربیع الاول 536ھ) کے درمیان املا تقریباً دس سال رکا رہا {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 189} {cite:kashf-zunun-furqan p. 597}۔"
+genre: [grammar, adab]
+made: { by_muslims: true, basis: documented, sources: [source/amali-ibn-al-shajari-tanahi-khanji-1992] }
+authors: [person/ibn-al-shajari]
+language: language/arabic
+structure: "أربعة وثمانون مجلساً في ثلاثة أجزاء في تحقيق الطناحي؛ المجلس 31 ختام الجزء الأول من النسخ (الدراسة ص 189)."
+editions: [source/amali-ibn-al-shajari-tanahi-khanji-1992]
+wings: [words]
+themes: [scripture-and-its-sciences]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
+relations:
+  - { type: mentions, target: person/al-mutanabbi, sources: [source/amali-ibn-al-shajari-tanahi-khanji-1992], note: "ذكره في خمسة وثمانين موضعاً، وأفرد له المجلس الأخير، الدراسة ص 10" }
 provenance:
   layer: own-research
-  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 597 مدخل 1702"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-20
-sources: [source/kashf-zunun-furqan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Amali Ibn al-Shajari, ed. al-Tanahi 1992: vol. 1 printed pp. 2–18, 189; first card from Kashf al-Zunun"
+  generated_by: "Claude Code (OCR-harvest worker K); first card by Devin (SWE-2 High)"
+  model: claude-opus-5-5
+  run: "lib-kashf-batch-20; ocr-harvest-2026-11-04"
+sources: [source/amali-ibn-al-shajari-tanahi-khanji-1992, source/kashf-zunun-furqan]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K); first card by Devin (SWE-2 High)" }

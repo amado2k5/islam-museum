@@ -3,6 +3,7 @@ id: event/treaty-of-hudaybiyya
 lang: ar
 source_lang: en
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sira-nabawiyya-sallabi pp. 687–694, 714", note: "section added to earlier prose" }
 ---
 في ذي القعدة من السنة السادسة للهجرة، خرج النبي من المدينة في ألف وأربعمائة من أصحابه معتمرين ساقوا الهدي وأحرموا بذي الحليفة ليعلم الناس أنهم لا يريدون قتالاً، فلما بلغوا عسفان بلغه أن قريشاً استنفرت أحابيشها لصد المسلمين عن المسجد الحرام. {cite:mubarakpuri-raheeq}
 
@@ -43,3 +44,6 @@ translators: []
 ويذكر الشيخ أن النبي قال لعمر: «يا عمر اهدأ»، فلم تطمئن نفس عمر، فذهب إلى أبي بكر يستعين به {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:40:30}.
 
 ويذكر الشيخ أن سهيل بن عمرو أسلم بعد ذلك، وأن عمر كان قد اقترح في الأسر أن تُخلع ثنيته حتى لا يقوم خطيباً ضد النبي، ثم قال عمر إن العرب تحتاج إلى خطيب فصيح، وإن لسهيل يوماً يقف فيه موقفاً {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:45:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:45:30}. ويذكر أن سهيل بعد وفاة النبي خطب في مكة فردّ من تردّد في الردة إلى الإسلام {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:46:00}.
+
+## تحليل الصلابي: دروس الحديبية
+يرى [[person/ali-muhammad-al-sallabi|علي محمد الصلابي]] أن غزوة الحديبية «غنية بالدروس العقائدية والفقهية والأصولية والتربوية»، ويذكر منها أمثلة. {cite:sira-nabawiyya-sallabi p.687} ففي العقيدة: قيام المغيرة بن شعبة على رأس النبي بالسيف عند قدوم رسل العدو، والفرق بين الفأل والطيرة، وحديث زيد بن خالد الجهني في من نسب المطر إلى الكواكب، وينقل كلام الشاطبي في أن التبرك بالآثار لم يقع من الصحابة بعد النبي مع أحد ممن خلفه. {cite:sira-nabawiyya-sallabi p.687} {cite:sira-nabawiyya-sallabi p.688} {cite:sira-nabawiyya-sallabi p.689} وفي الفقه: فدية الأذى من حديث كعب بن عجرة ([[passage/quran-2-196|البقرة: 196]])، وقضاء الصلاة لمن نام عنها، ومدة الهدنة وأقوال الفقهاء فيها: عشر سنين، أو أكثر بحسب المصلحة عند أبي حنيفة، أو تجديد العقد عند الشافعي، ويرجّح الأول. {cite:sira-nabawiyya-sallabi p.690} {cite:sira-nabawiyya-sallabi p.691} {cite:sira-nabawiyya-sallabi p.692} ويعرض رأيه أن فكرة أن الجهاد شُرع للدفاع فقط «فكرة دخيلة»، محيلاً على سيد قطب، وهو موقف من مواقف الخلاف المعاصر يُنسب إليه. {cite:sira-nabawiyya-sallabi p.693} وفي الأصول قاعدة «المطلق يجري على إطلاقه» من جواب النبي لمن سأله عن وعد دخول مكة، وفي التربية خبر عمر وما عمل من الصالحات مخافة كلامه يومئذ. {cite:sira-nabawiyya-sallabi p.693} {cite:sira-nabawiyya-sallabi p.694} ويعدّ الصلح «إيذاناً ببداية المد الإسلامي» إلى ما وراء الجزيرة بكتب النبي إلى الملوك. {cite:sira-nabawiyya-sallabi p.714}
