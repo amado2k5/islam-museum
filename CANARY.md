@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 19 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 101).
 - **Persons**: 19 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 100).
 - **Persons**: 19 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 99).
 - **Fixed: source records from the library harvest cite themselves**: 26 new edition records (al-Tamhid, Minhaj al-Sunna, al-Jabr, al-Battani, Islamic Cairo and others) carried a provenance layer without the self-citation the validator requires, which failed the site build; each now lists itself under `sources`, as every other edition record does.
