@@ -1,0 +1,24 @@
+id: person/georges-marcais
+class: person
+label: { ar: "جورج مارسيه", en: "Georges Marçais", ur: "ژورژ مارسے" }
+summary:
+  ar: "مستشرق فرنسي درس الفن والخزف الإسلامي في الجزائر، ونشر سلسلة «إسهام في دراسة الخزف الإسلامي»، منها «فخار وخزف بجاية» (1916) {cite:marcais-poteries-faiences-bougie-1916 p. 1}."
+  en: "French orientalist who studied Islamic art and ceramics in Algeria and published the series Contribution à l'étude de la céramique musulmane, including Les poteries et faïences de Bougie (1916) {cite:marcais-poteries-faiences-bougie-1916 p. 1}."
+  ur: "فرانسیسی مستشرق جنہوں نے الجزائر میں اسلامی فن اور ظروف کا مطالعہ کیا اور «اسلامی ظروف سازی کے مطالعے میں حصہ» کا سلسلہ شائع کیا، جس میں «بجایہ کے ظروف اور فائنس» (1916ء) ہے {cite:marcais-poteries-faiences-bougie-1916 p. 1}۔"
+wings: [people]
+themes: [arts-of-the-book, engineering-and-technology]
+regions: [maghreb, andalus-europe]
+gender: male
+roles: [scholar]
+periods: [period/colonial-era]
+floruit: { edtf: "1916", calendar: gregorian, precision: year, status: historical, note: "Publication of the Bougie study {cite:marcais-poteries-faiences-bougie-1916 p. 1}.", sources: [source/marcais-poteries-faiences-bougie-1916] }
+relations:
+  - { type: authored, target: work/marcais-poteries-faiences-bougie, sources: [source/marcais-poteries-faiences-bougie-1916] }
+sources: [source/marcais-poteries-faiences-bougie-1916]
+provenance:
+  layer: own-research
+  source: "source/marcais-poteries-faiences-bougie-1916 scan pp. 1, 6, 9, 10, 30"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }
