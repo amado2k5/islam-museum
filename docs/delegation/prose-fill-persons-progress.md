@@ -331,3 +331,9 @@ Promoted: aban-al-lahiqi, abd-al-ghani-ibn-said-al-azdi, abd-al-hamid-ibn-badis,
 Promoted: abu-bakr-ibn-abi-al-qasim-al-ahdal, abu-nuaym-al-asbahani-ahmad, abyani-abu-al-abbas, abyari-abd-al-hadi-naja, abyari-ali-ibn-ismail, afuqay-ahmad-ibn-al-qasim, ahmad-abd-al-sattar-al-jawari, ahmad-al-halawani-shihab-al-din, ahmad-al-hamlawi, ahmad-al-jarai, ahmad-al-saghir-ibn-hamallah, ahmad-al-tijani-kitabi, ahmad-al-tijani, ahmad-ibn-abdallah-al-asabi, ahmad-ibn-hamallah-al-tishiti, ahmad-ibn-imad-al-aqfahsi, ahmad-ibn-isa-al-khazzaz, ahmad-ibn-mustafa-ibn-al-khawja, ahmad-ibn-yahya-al-jalla, ahmad-ibn-yahya-tha-lab, ahmad-ibn-yusuf-al-tifashi, akhi-zade-yusuf-efendi, al-abbas-ibn-al-ahnaf, al-abbi-muhammad, al-abhari-abu-bakr.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 810.** mawsuat-a3lam ~363 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
+
+### Batch 49 (4 Nov 2026, 25 records) — mawsuat-a3lam draft promotions 3 (sweep worker)
+
+Promoted: al-abhari-athir-al-din, al-abili-muhammad-ibn-ibrahim, al-abraqawhi-ahmad, al-abri-abu-al-hasan, al-abshihi-muhammad-ibn-ahmad, al-abshitay-ahmad, al-adfawi-jafar-ibn-thaalaba, al-afyuni-abd-allah-ibn-umar, al-ahwal-muhammad-ibn-al-hasan, al-ahwas-al-ansari, al-akhsikathi-husam-al-din-muhammad, al-akwa-muhammad-ibn-ali, al-ama-al-tutili-ahmad-ibn-abd-allah, al-amidi-al-hasan-ibn-bishr, al-ansari-al-harawi-abd-allah, al-ansari-al-sarqusti-ismail, al-ardabili-faraj-ibn-muhammad, al-ardabili-yusuf-ibn-ibrahim, al-asadi-ahmad-al-sammaki, al-asili-abu-muhammad-abd-allah, al-asmandi-muhammad-ibn-abd-al-hamid, al-asmar-abd-al-salam, al-azdi-yahya-ibn-sadun, al-azjani-nasih-al-din-ahmad, al-azraqi-muhammad-ibn-abd-allah.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 835.** mawsuat-a3lam ~338 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
