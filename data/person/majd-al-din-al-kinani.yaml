@@ -19,12 +19,15 @@ faith:
 relations:
   - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 802)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-136
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch96
 occupations:
   - job: job/faqih
     kind: secondary
