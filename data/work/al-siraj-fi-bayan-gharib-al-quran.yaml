@@ -1,0 +1,28 @@
+id: work/al-siraj-fi-bayan-gharib-al-quran
+class: work
+kind: book
+label: { ar: "السراج في بيان غريب القرآن", en: "al-Siraj fi Bayan Gharib al-Qur'an", ur: "السراج فی بیان غریب القرآن" }
+summary:
+  ar: "مختصر معاصر في معاني غريب ألفاظ القرآن على ترتيب السور، للدكتور محمد بن عبد العزيز الخضيري، جمعه «من كتب التفسير والغريب ومعاني القرآن القديمة والمعاصرة»، وسهّل عبارته وحاول صياغة الأقوال المختلفة في عبارة واحدة جامعة متى أمكن، وإلا لجأ إلى الترجيح؛ نشره كرسي القرآن الكريم وعلومه بجامعة الملك سعود {cite:siraj-gharib-quran-khudayri-1435 p.2} {cite:siraj-gharib-quran-khudayri-1435 p.6}."
+  en: "A contemporary concise work on the meanings of the rare words of the Qur'an in sura order, by Dr Muhammad ibn Abd al-Aziz al-Khudayri, compiled 'from old and modern books of tafsir, gharib and ma'ani al-Qur'an', in simplified wording, combining differing views into one comprehensive phrase where possible and otherwise choosing between them; published by the Chair of the Holy Qur'an and its Sciences at King Saud University."
+authors: [person/muhammad-ibn-abd-al-aziz-al-khudayri]
+language: language/arabic
+genre: [tafsir, lexicon]
+wings: [words]
+themes: [scripture-and-its-sciences, linguistics]
+regions: [arabia]
+periods: [period/contemporary-era]
+structure: "Foreword by the Chair's supervisor Abd al-Rahman ibn Mu'ada al-Shihri (scan pp. 3-4); author's introduction (pp. 5-6); glossary from al-Fatiha onwards (p.7 ff.), each entry the Qur'anic phrase in brackets followed by its meaning."
+editions:
+  - "Riyadh, Maktabat Dar al-Minhaj, 1432 AH, printed with the support of the Chair of the Holy Qur'an and its Sciences, King Saud University (OCR item Alsiraj_Fi_Bayan..., not cited)"
+  - "Riyadh, Chair of the Holy Qur'an and its Sciences, King Saud University, 2nd ed. 1435 AH (source/siraj-gharib-quran-khudayri-1435)"
+relations:
+  - { type: about, target: concept/gharib-al-quran, sources: [source/siraj-gharib-quran-khudayri-1435] }
+sources: [source/siraj-gharib-quran-khudayri-1435]
+provenance:
+  layer: own-research
+  source: "source/siraj-gharib-quran-khudayri-1435 scan pp. 1-7"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

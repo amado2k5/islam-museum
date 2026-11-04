@@ -1,6 +1,6 @@
 id: person/sibt-ibn-al-jawzi
 class: person
-label: { ar: "سبط ابن الجوزي" }
+label: { ar: "سبط ابن الجوزي", en: "Sibt ibn al-Jawzi", ur: "سبط ابن الجوزی" }
 names:
   - { value: "شمس الدين يوسف بن قزأوغلي المعروف بسبط ابن الجوزي", kind: full }
   - { value: "شمس الدين أبو المظفر يوسف بن فرغلي التركي ثم البغدادي", kind: full }
@@ -16,8 +16,13 @@ regions: [levant-iraq]
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-122
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: "lib-shadharat-batch-122; ocr-harvest-2026-11-04"
 external_ids: { wikidata: "Q846343" }
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/shadharat-dhahab, source/mirat-al-zaman-risala-2013-v1, source/mirat-al-zaman-risala-2013-v22]
+relations:
+  - { type: authored, target: work/mirat-al-zaman, sources: [source/mirat-al-zaman-risala-2013-v1] }
+  - { type: student_of, target: person/al-kindi-abu-al-yumn, sources: [source/mirat-al-zaman-risala-2013-v1] }
+  - { type: participated_in, target: event/sibt-jihad-sermon-607, sources: [source/mirat-al-zaman-risala-2013-v22] }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)" }

@@ -1,0 +1,27 @@
+id: person/salman-ibn-amir-al-dabbi
+class: person
+label: { ar: "سلمان بن عامر الضبي", en: "Salman ibn 'Amir al-Dabbi", ur: "سلمان بن عامر ضبی" }
+names:
+  - { kind: full, lang: ar, value: "سلمان بن عامر بن أوس بن عمرو بن حجر الضبي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "سلمان بن عامر الضبي، صحابي من بني ضبة نزل البصرة وله دار بحضرة المسجد الجامع وتوفي بها في خلافة عثمان، بحسب خليفة بن خياط؛ ويروي الحاكم عنه أنه سأل النبي عن أبيه الذي كان يصل الرحم ويقري الضيف ومات قبل الإسلام {cite:mustadrak-ilmiyya-ata-v3 p. 706}."
+  en: "Salman ibn 'Amir al-Dabbi, a Companion of Banu Dabba who settled in Basra, where he had a house by the congregational mosque and died in the caliphate of 'Uthman, according to Khalifa ibn Khayyat; al-Hakim reports that he asked the Prophet about his father, who had kept family ties and fed guests but died before Islam {cite:mustadrak-ilmiyya-ata-v3 p. 706}."
+  ur: "سلمان بن عامر ضبی، بنو ضبہ کے صحابی جو بصرہ میں آباد ہوئے، جامع مسجد کے پاس ان کا گھر تھا اور خلیفہ بن خیاط کے مطابق عثمان کی خلافت میں وہیں وفات پائی؛ حاکم روایت کرتے ہیں کہ انہوں نے نبی سے اپنے والد کے بارے میں پوچھا جو صلہ رحمی کرتے اور مہمان نوازی کرتے تھے مگر اسلام سے پہلے فوت ہو گئے {cite:mustadrak-ilmiyya-ata-v3 p. 706}۔"
+wings: [people]
+periods: [period/prophetic-era, period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: member_of, target: group/banu-dabba, sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: lived_in, target: place/basra, note: "نزل البصرة وله دار بحضرة المسجد الجامع {cite:mustadrak-ilmiyya-ata-v3 p. 706}", sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: died_in, target: place/basra, sources: [source/mustadrak-ilmiyya-ata-v3] }
+provenance:
+  layer: own-research
+  source: "al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 p. 706, hadiths 6559-6560 with al-Dhahabi's notes"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/mustadrak-ilmiyya-ata-v3]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

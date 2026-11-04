@@ -1,28 +1,32 @@
 id: person/mustafa-raqim-calligrapher
 class: person
-label:
-  ar: "مصطفى راقم"
-  en: "Mustafa Raqim"
-roles: [calligrapher]
-gender: male
+label: { ar: "مصطفى راقم", en: "Mustafa Rakim", ur: "مصطفیٰ راقم" }
 summary:
-  ar: "بطاقة أولية لمصطفى راقم؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mustafa Raqim; the entry is not yet checked on the page."
+  ar: "خطاط عثماني (1757–1826) اشتهر بالأقلام الجليلة وطبّق أصول حافظ عثمان في الثلث على الثلث الجلي، فصمّم لوحات (levha) متوازنة ونقوشًا أثرية {cite:blair-islamic-calligraphy-2006 p. 541}."
+  en: "Ottoman calligrapher (1757–1826), renowned for large scripts, who applied Hafiz Osman's principles for thuluth to thuluth jali and designed balanced panels (levha) and monumental inscriptions {cite:blair-islamic-calligraphy-2006 p. 541}."
+  ur: "عثمانی خطاط (1757–1826) جو جلی قلموں میں مشہور تھے اور جنہوں نے ثلث کے لیے حافظ عثمان کے اصولوں کو ثلث جلی پر لاگو کیا، متوازن الواح (levha) اور یادگار کتبے بنائے {cite:blair-islamic-calligraphy-2006 p. 541}۔"
 wings: [people]
+themes: [arts-of-the-book]
 regions: [anatolia-balkans]
+gender: male
+roles: [calligrapher]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
-external_ids:
-  wikidata: Q98854487
+born: { edtf: "1757", calendar: gregorian, precision: year, status: historical }
+died: { edtf: "1826", calendar: gregorian, precision: year, status: historical }
+relations:
+  - { type: influenced_by, target: person/hafiz-osman, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: lived_in, target: place/istanbul, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: exemplifies, target: concept/thuluth-script, sources: [source/blair-islamic-calligraphy-2006] }
+sources: [source/blair-islamic-calligraphy-2006, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  source: "source/blair-islamic-calligraphy-2006 scan pp. 541, 542, 543, 565"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }
+external_ids:
+  wikidata: Q98854487
 occupations:
   - job: job/calligrapher
     kind: primary
