@@ -2,31 +2,32 @@ id: person/ala-al-din-al-samarqandi
 class: person
 label:
   ar: "علاء الدين السمرقندي"
-  en: "Ala al-Din al-Samarqandi"
-roles: [jurist]
+  en: "Ala' al-Din al-Samarqandi"
+  ur: "علاء الدین سمرقندی"
+names:
+  - { kind: full, lang: ar, value: "علاء الدين أبو بكر (أو أبو منصور) محمد بن أحمد بن أبي أحمد السمرقندي" }
+roles: [jurist, scholar, writer]
 gender: male
+traditions: [sunni]
+died: { edtf: "1157", precision: year, status: tradition, derived: true, note: "Year from the earlier Wikidata card (al-A'lam); not stated on the pages read in badai-sanai-ilmiyya-v1." }
 summary:
-  ar: "بطاقة أولية لعلاء الدين السمرقندي، الفقيه الحنفي صاحب تحفة الفقهاء؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ala al-Din al-Samarqandi, the Hanafi jurist of Tuhfat al-Fuqaha; his entry is not yet checked on the page."
+  ar: "علاء الدين محمد بن أحمد بن أبي أحمد السمرقندي، فقيه حنفي صاحب «تحفة الفقهاء»، يصفه تلميذه الكاساني في مقدمة البدائع بـ«أستاذي وارث السنة ومورّثها... رئيس أهل السنة»، ويقول إنه الوحيد من مشايخهم الذي صرف العناية إلى الترتيب في التصنيف. تفقّهت عليه ابنته فاطمة، وتفقّه عليه الكاساني فزوّجه إياها. ويكنّيه المحققون في موضع أبا بكر وفي آخر أبا منصور. {cite:badai-sanai-ilmiyya-v1 p.77} {cite:badai-sanai-ilmiyya-v1 p.88}"
+  en: "Ala' al-Din Muhammad ibn Ahmad ibn Abi Ahmad al-Samarqandi, a Hanafi jurist and author of Tuhfat al-Fuqaha'. His student al-Kasani calls him in the preface of al-Bada'i' 'my teacher, heir and bequeather of the sunna... head of the people of the sunna', and says he alone among their masters attended to systematic order in writing. His daughter Fatima studied with him, as did al-Kasani, to whom he married her. The editors give his kunya once as Abu Bakr and once as Abu Mansur."
+  ur: "علاء الدین محمد بن احمد بن ابی احمد سمرقندی، حنفی فقیہ اور «تحفۃ الفقہاء» کے مصنف۔ ان کے شاگرد کاسانی بدائع کے مقدمے میں انہیں «میرے استاد، سنت کے وارث اور اسے آگے پہنچانے والے... اہلِ سنت کے رئیس» کہتے ہیں، اور بتاتے ہیں کہ ان کے مشایخ میں صرف انہوں نے تصنیف میں ترتیب پر توجہ دی۔ ان کی بیٹی فاطمہ نے ان سے فقہ پڑھی، اور کاسانی نے بھی، جن سے انہوں نے اس کی شادی کی۔ محققین ایک جگہ ان کی کنیت ابو بکر اور دوسری جگہ ابو منصور لکھتے ہیں۔"
 wings: [people]
+themes: [law-and-courts]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "1157", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+relations:
+  - { type: authored, target: work/tuhfat-al-fuqaha, sources: [source/badai-sanai-ilmiyya-v1] }
+  - { type: member_of, target: group/hanafi-madhhab, sources: [source/badai-sanai-ilmiyya-v1] }
+sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam]
 external_ids:
   wikidata: Q31303123
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
-occupations:
-  - job: job/faqih
-    kind: primary
-    status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+  source: "badai-sanai-ilmiyya-v1 pp. 74-77, 88"
+  generated_by: "Claude Code (OCR-harvest worker D)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D); earlier draft card by Devin (SWE-2 High), Wikidata import" }

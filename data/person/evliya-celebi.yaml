@@ -8,20 +8,25 @@ names:
 roles: [traveler, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لأوليا جلبي، الرحالة العثماني صاحب سياهتنامه، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Evliya Çelebi, the Ottoman traveller and author of the Seyahatname, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+  ar: "أوليا جلبي بن درويش محمد، الرحالة العثماني صاحب «سياحتنامه»، وُلد بالقسطنطينية في العاشر من المحرم سنة 1020هـ في عهد السلطان أحمد الأول كما يذكر مترجمه هامر، وقضى إحدى وأربعين سنة في الرحلة {cite:evliya-narrative-hammer-v1 p.9} {cite:evliya-narrative-hammer-v1 p.12}."
+  en: "Evliya Çelebi, son of Dervish Mehmed, the Ottoman traveller and author of the Seyahatname, born in Constantinople on 10 Muharram 1020 AH under Sultan Ahmed I according to his translator Hammer, who spent forty-one years travelling."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+born: { edtf: "1611", hijri: "1020", calendar: julian, precision: year, status: tradition, note: "'born in the reign of Sultan Ahmed I, on the 10th of Moharrem 1020 (A.D. 1611)' (Hammer, Narrative vol. 1, scan p.9); EDTF year as given by Hammer", sources: [source/evliya-narrative-hammer-v1] }
+themes: [travel]
+relations:
+  - { type: authored, target: work/seyahatname, sources: [source/evliya-narrative-hammer-v1] }
+  - { type: born_in, target: place/istanbul, sources: [source/evliya-narrative-hammer-v1] }
+sources: [source/al-aalam, source/evliya-narrative-hammer-v1, source/evliya-narrative-hammer-v2]
 external_ids:
   wikidata: Q202308
+status:
+  review: published
+  completeness: 3
 provenance:
   layer: own-research
-  source: "Wikidata Q202308 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0003
-status:
-  review: draft
-  completeness: 1
+  source: "Wikidata Q202308 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page; source/evliya-narrative-hammer-v1 scan pp. 9-20"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 High; claude-opus-5-5"
+  run: "wikidata-import-0003; ocr-harvest-2026-11-04"
