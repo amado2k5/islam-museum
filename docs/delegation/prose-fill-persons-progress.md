@@ -277,3 +277,12 @@ Promoted: nizar-ibn-maadd, qubadh-malik-al-tawaif, quss-ibn-saida, riab-al-shann
 Promoted: ibn-al-mazyar, yahya-ibn-khalid-al-barmaki, ilyas-ibn-mudar, maadd-ibn-adnan, nastura-al-rahib, surama-ibn-abi-anas, midam-mawla-rasul, qutham-ibn-al-abbas, jafar-ibn-muhammad-al-mawsili, musallama-ibn-aslam, salma-bint-hafsa, shahriyar-sijistan, sulayk-al-manaqib, jundub-ibn-zuhayr-al-azdi, uttab-ibn-ghaylan, kinana-ibn-bishr-al-tujibi, sad-ibn-humran-al-muradi, warash-ghulam-uthman, muhammad-ibn-talha-al-sajjad, muslim-sahib-al-mushaf, hurayth-ibn-jabir-al-jufi, ibn-jawn-al-saksaki, safwan-ibn-hudhayfa, shabib-ibn-rayi-al-tamimi, suwayd-ibn-ghafla.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 628.** ~135 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
+
+### Batch 41 (4 Nov 2026, 24 records) — muruj draft promotions 12 (sweep worker)
+
+Promoted: urwa-ibn-udhayna-al-tamimi, haritha-ibn-qudama-al-sadi, imran-ibn-hittan, mujashi-ibn-wardan-ibn-alqama, zadawayh-mawla-bani-al-anbar, jafar-al-sadiq, kamil-ibn-ziyad, sasaa-ibn-suhan, isha-ibn-haywa-al-hadrami, sinan-ibn-anas, sulayman-ibn-qutta, uthman-ibn-utba-ibn-abi-sufyan, hassan-ibn-malik-ibn-bahdal, ismail-al-sahir, qudaa-al-asadi, ruh-ibn-zanba-al-judhami, rifaa-ibn-shaddad-al-bajali, shurahbil-ibn-dhi-al-kala, yazid-ibn-al-husayn-ibn-numayr, ibrahim-ibn-adi, naila-bint-qurays, ubaydallah-ibn-ali, samira-ibn-al-jad, sufyan-ibn-al-abrad.cite-check 24/24; validate 0 errors; tests pass; graph+coverage regen.
+
+Leads (rejected):
+zura-ibn-sharik-al-tamimi	REJECT: ar: thin (142ch)
+
+**Lane total: 652.** ~110 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
