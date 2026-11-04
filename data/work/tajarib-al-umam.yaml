@@ -1,0 +1,29 @@
+id: work/tajarib-al-umam
+class: work
+kind: book
+label: { ar: "تجارب الأمم", en: "Tajarib al-Umam (The Experiences of the Nations)", ur: "تجارب الامم" }
+summary:
+  ar: "تاريخ عام لأبي علي مسكويه (ت 421هـ) يبدأ بما بعد الطوفان وينتهي بسنة 369هـ، جعل غايته استخراج «التجارب» النافعة في السياسة وتدبير الملك، وترك ما لا تُستفاد منه تجربة {cite:tajarib-al-umam-surush-v1 p.48} {cite:tajarib-al-umam-surush-v1 p.49} {cite:tajarib-al-umam-surush-v1 p.34}. عوّل فيه على الطبري إلى سنة 295هـ، وجعل ما بعد سنة 340هـ مما شاهده أو سمعه من ابن العميد والمهلبي وشيوخ عصره، فصار مصدراً أساسياً لتاريخ البويهيين {cite:tajarib-al-umam-surush-v1 p.31} {cite:tajarib-al-umam-surush-v1 p.34}."
+  en: "A universal history by Abu Ali Miskawayh (d. 421 AH) running from after the Flood to 369 AH, whose stated aim is to draw out 'experiences' useful in politics and the conduct of rule, leaving aside what yields no lesson. He relied on al-Tabari up to 295 AH, and for the years after 340 on what he witnessed or heard from Ibn al-Amid, al-Muhallabi and the elders of his day, making it a primary source for Buyid history."
+authors: [person/ibn-miskawayh]
+language: language/arabic
+genre: [history]
+wings: [words, time]
+themes: [history-writing-and-social-thought, politics-governance-and-authority, philosophy-and-logic]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq]
+structure: "Author's preface (vol. 1 pp. 47-50); history of the nations after the Flood, the Persian kings from the Pishdadids (with the Testament of Ardashir and Anushirvan's account of his own conduct), then Islamic history year by year; vol. 6 covers 327-369 AH. In the Imami edition: 6 parts following the Aya Sofya manuscript's division, with 43 pages moved from part 2 to complete the pre-Umayyad period in part 1; vol. 7 the dhayl (Abu Shuja al-Rudhrawari's continuation and Hilal al-Sabi's history) and appendix; vol. 8 indexes. Title also found in the manuscripts as 'Tajarib al-umam wa-awaqib al-himam'."
+editions:
+  - "Tehran, Dar Surush, ed. Abu al-Qasim Imami, 8 vols, vols 1-2 1987 (2nd printing 1379 Sh), vols 3-8 1997-2001 (source/tajarib-al-umam-surush-v1, source/tajarib-al-umam-surush-v6)"
+  - "Cairo 1914-1916, ed. H. F. Amedroz (last two parts with the dhayl), English translation by D. S. Margoliouth, Oxford 1920-21 (as reported by the Imami edition, vol. 1 p. 5)"
+relations:
+  - { type: relies_on, target: work/tarikh-al-rusul-wa-al-muluk, sources: [source/tajarib-al-umam-surush-v1] }
+  - { type: about, target: event/khurasani-ghazis-at-rayy-355, sources: [source/tajarib-al-umam-surush-v6] }
+sources: [source/tajarib-al-umam-surush-v1, source/tajarib-al-umam-surush-v6]
+provenance:
+  layer: own-research
+  source: "source/tajarib-al-umam-surush-v1 pp. 3-6, 11-12, 19, 27-36, 47-50; source/tajarib-al-umam-surush-v6 pp. 259-266, 314-316"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }
