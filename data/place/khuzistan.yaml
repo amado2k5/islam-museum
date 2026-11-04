@@ -1,10 +1,11 @@
 id: place/khuzistan
 class: place
 kind: region
-label: { ar: "الأهواز", en: "Khuzistan (al-Ahwaz)" }
+label: { ar: "الأهواز", en: "Khuzistan (al-Ahwaz)" , ur: "خوزستان"}
 summary:
   ar: "الأهواز إقليم خوزستان وكورة عظيمة من كور الجبل؛ فتحها المسلمون في خلافة عمر وكانت دار مملكة هرمزان آخر مرازبة فارس؛ وتلقى فيها الأساورة شروط إسلامهم."
   en: "al-Ahwaz, the Khuzistan province — a great kura of the Jibal; conquered under Umar, seat of Hurmuzan the last Persian marzban, and where the asawira's conversion-conditions were granted."
+  ur: "اہواز یا خوزستان وہ ایرانی خطہ ہے جس کی فتح عمر بن خطاب کے دور میں ہوئی؛ موجودہ ریکارڈ اسے ہرمزان اور اساورہ کے معاہدوں سے وابستہ کرتا ہے۔ {cite:futuh-buldan-maarif-1407}"
 regions: [levant-iraq]
 wings: [place]
 sources: [source/futuh-buldan-maarif-1407]
@@ -13,3 +14,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+  run: "explorer-third-40-stories-2026-11-04"
+  model: "unknown"
+  source: "Existing museum record and its defined source list; missing provenance metadata completed only, without new source-page research."

@@ -1,10 +1,11 @@
 id: place/jurjan
 class: place
 kind: province
-label: { ar: "جرجان", en: "Jurjan" }
+label: { ar: "جرجان", en: "Jurjan" , ur: "جرجان"}
 summary:
   ar: "إقليم جرجان عند ركن بحر الخزر؛ صالح ملكه سعيد بن العاص على مائتي ألف درهم في غزوة طبرستان سنة تسع وعشرين."
   en: "The province at the Caspian's corner; its king treated with Sa'id ibn al-As for two hundred thousand dirhams in the 29 AH Tabaristan campaign."
+  ur: "بحیرۂ خزر کے کنارے کا خطہ، جس کے حکمران نے طبرستان کی مہم کے دوران سعید بن عاص کے ساتھ دو لاکھ درہم پر صلح کی۔ {cite:futuh-buldan-maarif-1407}"
 regions: [persia-central-asia]
 wings: [place]
 sources: [source/futuh-buldan-maarif-1407, source/wikipedia-gorgan-en]
@@ -13,5 +14,9 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+  run: "explorer-third-40-stories-2026-11-04"
+  model: "unknown"
+  source: "Existing museum record and its defined source list; missing provenance metadata completed only, without new source-page research."
 coordinates: [36.83694, 54.43722]
 coordinate_precision: site

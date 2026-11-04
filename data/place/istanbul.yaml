@@ -1,10 +1,11 @@
 id: place/istanbul
 class: place
 kind: city
-label: { en: "Istanbul", ar: "إسطنبول" }
+label: { en: "Istanbul", ar: "إسطنبول" , ur: "استنبول"}
 summary:
   en: "City formerly known as Constantinople, conquered by Mehmed II in 1453 and capital of the Ottoman Empire."
   ar: "مدينة كانت تُعرف بالقسطنطينية، فتحها محمد الفاتح سنة 1453م، وكانت عاصمة الدولة العثمانية."
+  ur: "قسطنطنیہ کے نام سے معروف یہ شہر ۱۴۵۳ء میں محمد ثانی نے فتح کیا اور یہ سلطنت عثمانیہ کا دارالحکومت رہا۔ {cite:geonames-gazetteer}"
 wings: [place]
 regions: [anatolia-balkans]
 coordinates: [41.0138, 28.9497]
@@ -27,3 +28,4 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch3"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}

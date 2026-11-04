@@ -78,6 +78,7 @@ open a new block on top with the new version and today's date.
 - **25 new contemporary biographies**: preachers, teachers and Qur'an reciters followed by millions — from Pakistan, Indonesia, Bangladesh, Turkey, Egypt and France — each with full Arabic, English and Urdu pages and sources.
 
 ### Added
+- **Another forty Timeline Explorer stories in preparation**: five places and thirty-five people selected from existing cited records, with explicit event curation and Arabic/English/Urdu subject metadata. Reserved shared-image defects are deferred to their owners rather than hidden by dropping events.
 - **Next forty Explorer stories shipped**: #3416 merges the forty person journeys after integrated validation, citation checks and all 318 tests pass; sixteen screened backdrops are already merged in #3414. Completion claims and lane records now name the actual merges. No production or UAT deployment was run.
 - **Next forty Explorer journeys verified**: 270 chronological stops across existing cited events, with 120 Arabic/English/Urdu routes checked in the production build and browser. Sixteen new screened backdrops, merged separately in #3414, remove this batch's legacy illustration fallbacks; existing event-language gaps and reserved owner follow-ups remain explicit.
 - **Next Timeline Explorer batch, final twenty person stories**: complete the forty-subject definitions and translated subject metadata. Owner-blocked Hamza and Usama proposals are deferred without changing their records or shared images; Abu Sa'id al-Khudri supplies the final slot.

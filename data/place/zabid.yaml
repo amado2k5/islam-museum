@@ -1,10 +1,11 @@
 id: place/zabid
 class: place
 kind: city
-label: { en: "Zabid", ar: "زبيد" }
+label: { en: "Zabid", ar: "زبيد" , ur: "زبید"}
 summary:
   en: "Yemeni coastal town, a centre of Islamic learning in the later Middle Ages and a UNESCO World Heritage site since 1993."
   ar: "مدينة ساحلية يمنية، كانت مركزًا للعلم الإسلامي في أواخر العصور الوسطى، ومدرجة في قائمة التراث العالمي لليونسكو منذ 1993."
+  ur: "یمن کا ساحلی شہر اور قرون وسطیٰ میں اسلامی تعلیم کا مرکز، جو ۱۹۹۳ء سے یونیسکو کے عالمی ورثے میں شامل ہے۔ {cite:geonames-gazetteer}"
 wings: [place]
 regions: [arabia]
 coordinates: [14.1951, 43.3152]
@@ -12,3 +13,15 @@ coordinate_precision: site
 external_ids: { geonames: "69500" }
 sources: [source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+
+provenance:
+  layer: own-research
+  source: Existing museum record and its defined source list; original status attribution retained. No source pages newly examined and no facts, dates or relations changed.
+  generated_by: Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works; Copilot SDK in VS Code (metadata completion)
+  model: unknown
+  run: explorer-third-40-stories-2026-11-04
+  localization:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-third-40-stories-2026-11-04
+    source: Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research.

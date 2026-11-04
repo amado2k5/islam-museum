@@ -1,6 +1,6 @@
 id: person/abdullah-ibn-sad-ibn-abi-sarh
 class: person
-label: { en: "Abdullah ibn Sa'd ibn Abi Sarh", ar: "عبد الله بن سعد بن أبي سرح" }
+label: { en: "Abdullah ibn Sa'd ibn Abi Sarh", ar: "عبد الله بن سعد بن أبي سرح" , ur: "عبد اللہ بن سعد بن ابی سرح"}
 names:
   - { kind: full, lang: ar, value: "عبد الله بن سعد بن أبي سرح بن الحارث العامري القرشي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A scribe of revelation who apostatized back to Quraysh; proscribed on the day of the Conquest, he was sheltered by his foster brother Uthman ibn Affan who pleaded for him until the Prophet granted him pardon; he returned to Islam and later governed Egypt under Umar and Uthman."
   ar: "كاتب للوحي في المدينة ارتد ولحق بمكة؛ أهدر النبي دمه يوم الفتح فاستأمن له أخوه من الرضاعة عثمان بن عفان بعد صمت طويل، فعفا عنه وأسلم وحسن إسلامه وولاه عمر ثم عثمان مصر."
+  ur: "کاتبِ وحی، جو قریش کی طرف لوٹ گئے تھے، پھر فتح مکہ پر عثمان کی سفارش سے معافی پاکر دوبارہ مسلمان ہوئے اور بعد میں مصر کے گورنر رہے۔ {cite:ibn-hisham-saqqa}"
 wings: [people]
 themes: [converts-and-leavers, laws-of-war-and-peace]
 periods: [period/prophetic-era, period/rashidun]
@@ -21,7 +22,7 @@ faith:
 relations:
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/fath-mecca-proscribed-persons, role: pardoned-person, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 51–52", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 51–52", generated_by: "Devin", run: "ibn-hisham-batch-1b" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}, model: "unknown"}
 external_ids: { wikidata: "Q423552" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 51–52" }

@@ -1,9 +1,10 @@
 id: person/al-muqawqis
 class: person
-label: { ar: "الموقس", en: "The Muqawqis" }
+label: { ar: "الموقس", en: "The Muqawqis" , ur: "مقوقس"}
 summary:
   ar: "الموقس صاحب مصر؛ صالح عمرو بن العاص على أن يسير من الروم من أراد ويُقرّ من أراد الإقامة على أمر سمّاه وأن يُفرض على القبط ديناران فبلغ ذلك ملك الروم فتسخّطه وبعث الجيوش فأغلقوا باب الإسكندرية فخرج إليه الموقس سائلاً ثلاثاً: أن لا يبذل للروم مثل ما بذل له فإنهم قد استغشّوه، وأن لا ينقض بالقبط فإن النقض لم يأت من قبلهم، وإن مات فأن يُدفن في كنيسة بالإسكندرية ذكرها — فأجابه عمرو."
   en: "The Muqawqis, lord of Egypt; he compounded with Amr ibn al-As — the Romans free to depart or stay on stated terms, two dinars laid on the Copts — which Rome's king rejected in wrath, sending hosts who shut Alexandria's gate; the Muqawqis came out to Amr asking three things: offer the Romans nothing like what was offered him, for they had deceived him; never break with the Copts, since the breach came not from them; and on his death, burial in a named church of Alexandria — and Amr granted them."
+  ur: "مصر کے حکمران، جن کی عمرو بن عاص کے ساتھ صلح اور قبطیوں و رومیوں کے لیے طے شدہ شرائط کا ذکر بلاذری کی روایت میں آتا ہے۔ {cite:futuh-buldan-maarif-1407}"
 wings: [people]
 periods: [period/rashidun]
 relations:
@@ -13,5 +14,7 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 302–303"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR; extended by Claude Opus 5.5 (claude-opus-5-5) from Futuh Misr (Amir ed.) pp. 56–107"
   run: lib-futuh-buldan-batch-19, lib-futuh-misr-batch-2-2026-10-31
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+  model: "unknown"
 sources: [source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
