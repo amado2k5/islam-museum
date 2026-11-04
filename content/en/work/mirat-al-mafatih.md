@@ -21,6 +21,10 @@ This volume, the tenth, continues the Book of Supplications and then covers the 
 ## The edition used
 First edition, Riyadh: Dar al-Qabas for Publishing and Distribution, 1438 AH (2017 CE). The cataloguing record gives fourteen volumes. Muhammad Sulayman Amin edited this volume and carried out the takhrij of its hadiths. {cite:mirat-al-mafatih-qabas-v10 p.3}
 
+## Volume 9 in another printing
+
+The museum's archive also holds volume 9 of an older printing of the book, without a title page, opening the Book of the Rites of Pilgrimage with the chapter on the Farewell Pilgrimage and the commentary on Jabir's long hadith (no. 2579). {cite:mirat-al-mafatih-v9-jabir p.1} It shows the commentator's method: he explains the chapter heading linguistically, quotes al-Nawawi, Iyad, al-Dhahabi, Ibn Kathir and al-Ubbi on the hadith's worth, then explains it phrase by phrase, comparing the Mishkat's wording with that of al-Masabih and Sahih Muslim, noting additions in the transmissions of Ahmad, al-Nasa'i, Ibn al-Jarud and al-Bayhaqi, and quoting al-Qari, al-Sindi and al-Albani. {cite:mirat-al-mafatih-v9-jabir p.1} {cite:mirat-al-mafatih-v9-jabir p.2} {cite:mirat-al-mafatih-v9-jabir p.3} See [[event/farewell-pilgrimage|the Farewell Pilgrimage]].
+
 ## For young visitors
 Mir'at al-Mafatih is a long book that explains the hadiths of the Mishkat al-Masabih one by one. It explains the words, the meaning and the rulings. This volume explains the remembrances for morning, evening and sleep, and the rules of the pilgrimage.
 
