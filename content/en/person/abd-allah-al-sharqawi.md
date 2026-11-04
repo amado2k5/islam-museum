@@ -3,6 +3,13 @@ id: person/abd-allah-al-sharqawi
 lang: en
 source_lang: ar
 translators: []
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/minah-qudsiyya-sharqawi-ilmiyya pp. 2, 176; source/hikam-ibn-abbad-haykal-ahram-1988 p. 36"
 ---
 ## Overview
 Abd Allah al-Sharqawi (1737–1812), in full Abd Allah ibn Hijazi ibn Ibrahim al-Sharqawi, was an Egyptian scholar who became Grand Imam of al-Azhar in 1208 AH on the death of Shaykh Ahmad al-Arusi and held the rectorship until his own death. He was the leading Shafi'i scholar and mufti of his era in Egypt and a shaykh of the Khalwatiyya Sufi order, combining jurisprudence, Sufism and popular leadership in a turbulent period of Egyptian history. {cite:wikipedia-abd-allah-al-sharqawi-ar} {cite:wikipedia-abd-allah-al-sharqawi-en}
@@ -21,3 +28,6 @@ After the French evacuation and the ensuing disorder, al-Sharqawi stood with Uma
 
 ## Death and works
 He died in Cairo on Thursday 2 Shawwal 1227 AH (1812), as al-Jabarti records, and was buried in the tomb he had built for himself beside the mosque he raised on the ruined endowment land in the desert cemetery. His works include al-Tuhfa al-Bahiyya fi Tabaqat al-Shafi'iyya (The Splendid Gift, on the generations of the Shafi'is) and a hashiya (gloss) on Sharh al-Tahrir in Shafi'i fiqh, together with the gloss on Tahrir Tanqih al-Lubab that his biographers list among his legal writings. Among his students was Muhammad al-Dawakhli, who took the fiqh of his school from him. {cite:wikipedia-abd-allah-al-sharqawi-ar} {cite:alsufi-abd-allah-al-sharqawi}
+
+## His commentary on the Hikam
+Al-Sharqawi wrote a commentary on [[work/hikam-al-ataiyya|al-Hikam al-'Ata'iyya]] entitled [[work/al-minah-al-qudsiyya|al-Minah al-Qudsiyya]], naming himself at its start "'Abd Allah ibn Hijazi al-Khalwati, known as al-Sharqawi" and stating at its end that he completed it on Saturday 13 Shawwal 1204 AH. {cite:minah-qudsiyya-sharqawi-ilmiyya p. 2} {cite:minah-qudsiyya-sharqawi-ilmiyya p. 176} Muhammad 'Abd al-Maqsud Haykal says it is almost a summary of Ibn 'Abbad al-Rundi's commentary. {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36}
