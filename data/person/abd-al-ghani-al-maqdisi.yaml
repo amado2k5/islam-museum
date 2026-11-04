@@ -6,12 +6,21 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "عبد الغني المقدسي الجماعيلي، حافظ حنبلي دمشقي صاحب «عمدة الأحكام»، انتهى إليه حفظ الحديث؛ توفي سنة 600هـ (1204م)."
-  en: "Abd al-Ghani al-Maqdisi (1146–1204), Hanbali hafiz of Damascus, in whom hadith memorisation culminated."
+  ar: "عبد الغني المقدسي الجماعيلي، حافظ حنبلي دمشقي صاحب «عمدة الأحكام»، انتهى إليه حفظ الحديث؛ توفي بمصر يوم الإثنين 23 ربيع الأول سنة 600هـ (أواخر 1203م) ودفن بالقرافة."
+  en: "Abd al-Ghani al-Maqdisi (born 541 or 544 AH, died 23 Rabi' al-Awwal 600 AH / late 1203 CE), Hanbali hafiz of Damascus, author of al-Umda fi al-Ahkam and al-Kamal fi Ma'rifat al-Rijal, in whom hadith memorisation culminated; he died in Egypt after trials at Isfahan, Mosul and Damascus."
+born: { edtf: "1146/1150", hijri: "0541", calendar: julian, precision: year, status: debated, derived: true, note: "ولد بجماعيل سنة 541 عند الضياء (ولعله في ربيع الآخر)؛ وعند المنذري وابن النجار 543 أو 544، والأظهر عنده 544؛ التحويل مشتق ويغطي الروايتين {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 5}", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+died: { edtf: "1203-11-30~", hijri: "0600-03-23", calendar: julian, precision: day, status: debated, derived: true, note: "توفي يوم الإثنين الثالث والعشرين من ربيع الأول سنة ستمائة ودفن يوم الثلاثاء بالقرافة؛ التحويل الجدولي مشتق ويقع على الأحد 30 نوفمبر 1203 فيحتمل فرق يوم؛ ووهم ابن الحنبلي فجعل وفاته سنة 595 {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 29}", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+relations:
+  - { type: student_of, target: person/abd-al-qadir-al-jilani, role: "قرأ عليه الفقه ببغداد نحو أربعين يوماً سنة 561 (ص5–6)", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: student_of, target: person/al-silafi, role: "أكثر عنه بالإسكندرية سنة 570 (ص6)", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: student_of, target: person/abu-musa-al-madini, role: "سمع منه بأصبهان بعد 570 (ص6)", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: authored, target: work/umdat-al-ahkam, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: authored, target: work/al-kamal-fi-asma-al-rijal, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: lived_in, target: place/damascus, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2]
 external_ids:
   wikidata: Q423563
 provenance:
@@ -20,6 +29,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch8
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: dhayl-tabaqat-hanabila-faqi-v2 pp. 5–8, 18–26, 29"
 status:
   review: published
   completeness: 3

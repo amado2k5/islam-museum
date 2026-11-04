@@ -1,0 +1,23 @@
+id: person/naila-bint-al-furafisa
+class: person
+label: { ar: "نائلة بنت الفرافصة الكلبية", en: "Na'ila bint al-Furafisa al-Kalbiyya", ur: "نائلہ بنت الفرافصہ کلبیہ" }
+names:
+  - { kind: full, lang: ar, value: "نائلة بنت الفرافصة الكلبية" }
+gender: female
+summary:
+  ar: "زوجة الخليفة عثمان بن عفان، من بني كلب، كانت نصرانية فأسلمت قبل أن يدخل بها، وولدت له مريم، وقيل ولداً اسمه عنبسة؛ ويُذكر أنها دافعت عنه يوم مقتله وانكبت عليه واتقت السيف بيدها فقُطعت أصابعها، وشهدت دفنه."
+  en: "Wife of the caliph Uthman ibn Affan, of Banu Kalb; she was a Christian and became Muslim before the marriage was consummated, and bore him Maryam and, it is said, a son named Anbasa. She is reported to have defended him on the day he was killed, throwing herself over him and shielding him from the sword with her hand so that her fingers were cut off, and to have attended his burial."
+wings: [people]
+themes: [women, family-marriage-kinship]
+periods: [period/rashidun]
+regions: [arabia]
+faith:
+  - { value: christian, basis: documented, note: "كانت على النصرانية قبل زواجها بعثمان {cite:sallabi-uthman-tawzi-2003 p.19}", sources: [source/sallabi-uthman-tawzi-2003] }
+  - { value: sunni, basis: tradition, note: "أسلمت قبل أن يدخل بها عثمان وحسن إسلامها {cite:sallabi-uthman-tawzi-2003 p.19}؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sallabi-uthman-tawzi-2003] }
+relations:
+  - { type: spouse_of, target: person/uthman-ibn-affan, sources: [source/sallabi-uthman-tawzi-2003] }
+  - { type: member_of, target: group/banu-kalb, sources: [source/sallabi-uthman-tawzi-2003] }
+  - { type: participated_in, target: event/murder-of-uthman, role: "دافعت عن زوجها فقطعت أصابعها", sources: [source/sallabi-uthman-tawzi-2003] }
+provenance: { layer: own-research, source: "source/sallabi-uthman-tawzi-2003 pp. 19–20, 400–401, 404", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sallabi-uthman-tawzi-2003]
+status: { review: published, completeness: 3 }

@@ -18,7 +18,9 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w05-batch18
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: authored, target: work/awn-al-bari, sources: [source/nayl-awtar-awn-bari-hamish] }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/nayl-awtar-awn-bari-hamish]
 status:
   review: draft
   completeness: 1

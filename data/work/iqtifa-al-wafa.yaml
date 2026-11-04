@@ -1,0 +1,24 @@
+id: work/iqtifa-al-wafa
+class: work
+kind: book
+label: { ar: "اقتفاء الوفا بأخبار دار المصطفى", en: "Iqtifa' al-Wafa bi-Akhbar Dar al-Mustafa (al-Samhudi)" }
+summary:
+  ar: "الكتاب الكبير المفصّل الأول من كتب السمهودي الثلاثة في تاريخ المدينة، لم يتم، إذ تركه مؤلفه في المسجد النبوي وسافر إلى مكة فاحترق فيما احترق من أماكن المسجد، كما يذكر محقق «وفاء الوفا» {cite:samhudi-wafa-al-wafa p.6}."
+  en: "The first and largest of al-Samhudi's three books on the history of Medina, never finished: its author left it in the Prophet's Mosque when he travelled to Mecca and it burned in the fire that struck parts of the mosque, as the editor of Wafa' al-Wafa' relates."
+language: language/arabic
+authors: [person/al-samhudi]
+genre: [history]
+wings: [place]
+themes: [cities, sacred-space-and-pilgrimage]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+relations:
+  - { type: about, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "source/samhudi-wafa-al-wafa scan pp. 6-7, 9"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

@@ -1,17 +1,27 @@
 id: work/al-tuhfa-al-iraqiyya
 class: work
-kind: book
-label: { ar: "التحفة العراقية في الأعمال القلبية", en: "al-Tuhfa al-'Iraqiyya" }
+kind: treatise
+genre: [spirituality, creed]
+label: { ar: "التحفة العراقية في الأعمال القلبية", en: "al-Tuhfa al-'Iraqiyya fi al-A'mal al-Qalbiyya", ur: "التحفۃ العراقیہ فی الاعمال القلبیہ" }
 summary:
-  ar: "بطاقة أولية لـالتحفة العراقية في الأعمال القلبية؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for al-Tuhfa al-'Iraqiyya; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "رسالة لابن تيمية (ت 728هـ) في أعمال القلوب التي تسمى المقامات والأحوال، كالمحبة والتوكل والإخلاص والشكر والصبر والخوف والرجاء والرضا، يقرر فيها أنها واجبة على جميع الخلق وأن الناس فيها ظالم لنفسه ومقتصد وسابق بالخيرات؛ وهي أول المجلد العاشر من مجموع الفتاوى (ص 5–90)."
+  en: "A treatise by Ibn Taymiyya (d. 728 AH) on the works of the heart that are called 'stations and states' – love, reliance, sincerity, gratitude, patience, fear, hope and contentment – holding that they are obligatory on all people and that people stand in them as those who wrong themselves, those who keep the middle way and those who race ahead in good deeds; it opens volume 10 of Majmu' al-Fatawa (pp. 5–90)."
+wings: [ideas, words]
+themes: [spirituality-and-sufism, creed, ethics-and-character]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/majmu-fatawa-qasim-v10] }
+authors: [person/ibn-taymiyya]
+language: language/arabic
+structure: "Opening on the works of the heart and the three degrees of people (pp. 5–9); the meeting of reward and punishment in one person against the Wa'idiyya (pp. 7–9); innovation, truthfulness and sincerity (pp. 9–17); inner works as the root of religion (pp. 16–18); reliance (tawakkul) and the error of calling it a station of the common people (pp. 18–27); the cosmic and religious senses of words, will and decree (pp. 27–29); the three kinds of people who have marvels (pp. 29–32); worship and seeking help (pp. 32–37); contentment, patience and praise (pp. 37–47); love of God and His Messenger, sincerity and the two kinds of tawhid (pp. 48–61); fear and hope (pp. 61–64); love and the Jahmiyya's denial of it (pp. 64–75); the lawful and innovated audition (sama') (pp. 75–81); love entails following the Messenger (p. 81ff.)."
+relations:
+  - { type: part_of, target: work/majmu-al-fatawa, sources: [source/majmu-fatawa-qasim-v10] }
 external_ids: { wikidata: "Q35583929" }
+sources: [source/majmu-fatawa-qasim-v10]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "مجموع الفتاوى، طبعة مجمع الملك فهد ج10 ص 5–8، 18–19، 40–43، والفهرس ص 770–772"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C); earlier Wikidata card by Devin (SWE-2 High), wikidata-import-wave2" }
