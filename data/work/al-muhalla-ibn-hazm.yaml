@@ -18,6 +18,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
 relations:
   - { type: about, target: group/zahiri-madhhab, sources: [source/muhalla-dar-ibn-hazm-2016-v1] }
+  - { type: relies_on, target: work/al-isal-ila-fahm-kitab-al-khisal, sources: [source/muhalla-dar-ibn-hazm-2016-v1] }
   - { type: relies_on, target: work/al-ihkam-fi-usul-al-ahkam, sources: [source/muhalla-dar-ibn-hazm-2016-v1] }
 sources: [source/muhalla-dar-ibn-hazm-2016-v1, source/al-aalam]
 external_ids: { wikidata: "Q4702937" }
