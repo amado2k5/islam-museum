@@ -596,3 +596,9 @@ Promoted: abu-abd-allah-al-hannati-al-tabari, abu-abd-allah-al-khatan, abu-ahmad
 Promoted: abu-al-abbas-al-qurti, abu-al-hajjaj-al-biyasi, al-badrai, al-kamal-ibn-al-shaar, al-mursi, al-sadr-al-bakri, al-shihab-al-qusi, al-yildani, bishara-al-armani, ibn-al-muqaddisiyya-al-adl, ibn-al-nahhas-al-asamm, ibn-batish, ibn-wathiq, iqbal-al-shirabi, isa-al-yunini-sallab, mujahid-al-din-ibn-adnba, mujir-al-din-yaqub, sayf-al-din-al-qaymari, shams-al-din-ibn-nuh, taqi-al-din-ibn-abi-al-yusr, zaki-al-din-ibn-abi-al-asba.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1652.** sweep continues through remaining trilingual drafts.
+
+### Batch 88 (4 Nov 2026, 21 records) — lib-shadharat-batch-135 draft promotions (sweep worker)
+
+Promoted: abu-jalnak, afif-al-din-ibn-mazru, ahmad-ibn-muhsin, al-ayki, al-kamal-al-fuwayra, al-malik-al-awhad-karak, al-malik-al-muzaffar-hama, al-taqi-al-bayyi, badr-al-habashi, baha-al-din-al-qifti, ibn-al-nahhas-hujjat-al-arab, ibn-al-naqib-mufassir, ibn-al-qawwas, ibn-al-zahiri, ibn-wasil, izz-al-din-ibn-awad, sadr-al-din-ibn-al-kassar, shams-al-din-al-kalabadhi, shihab-al-abir, yaqut-al-mustasimi, zaynab-umm-al-khayr.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1673.** sweep continues through remaining trilingual drafts.
