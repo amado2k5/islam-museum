@@ -21,7 +21,13 @@ regions: [levant-iraq, egypt-nile]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q12177855" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: authored, target: work/musnad-al-bazzar, sources: [source/musnad-bazzar-anas-thesis-1413] }
+  - { type: lived_in, target: place/basra, sources: [source/musnad-bazzar-anas-thesis-1413] }
+  - { type: traveled_to, target: place/isfahan, sources: [source/musnad-bazzar-anas-thesis-1413] }
+  - { type: died_in, target: place/ramla, sources: [source/musnad-bazzar-anas-thesis-1413] }
+  - { type: student_of, target: person/al-bukhari, sources: [source/musnad-bazzar-anas-thesis-1413] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/musnad-bazzar-anas-thesis-1413]
 status:
   review: published
   completeness: 3
@@ -31,3 +37,4 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch51
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: sections and relations from musnad-bazzar-anas-thesis-1413 PDF pp. 15-17, 28-33"

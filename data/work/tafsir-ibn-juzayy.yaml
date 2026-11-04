@@ -1,17 +1,30 @@
 id: work/tafsir-ibn-juzayy
 class: work
 kind: book
-label: { ar: "التسهيل لعلوم التنزيل", en: "Tafsir Ibn Juzayy" }
+label: { ar: "التسهيل لعلوم التنزيل", en: "Tafsir Ibn Juzayy (al-Tashil li-Ulum al-Tanzil)", ur: "التسہیل لعلوم التنزیل (تفسیرِ ابن جزی)" }
 summary:
-  ar: "بطاقة أولية للتسهيل لعلوم التنزيل لابن جزي الكلبي الغرناطي، تفسيره الوجيز المحرر؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Ibn Juzayy al-Kalbi's al-Tashil li-ulum al-tanzil, the classic Andalusian tafsir; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "تفسير محمد بن أحمد بن جزي الكلبي، موجز يشرح الألفاظ والتراكيب في جمل قصيرة، ويسرد الأقوال في الآية بـ«قيل» ثم يرجح بينها بعبارات مثل «والأول أرجح وأفصح»، ويعقد «تنبيهات» على مسائل كاختلاف ألفاظ القصص بين السور، ناقلًا عن الزمخشري وشيخه أبي جعفر بن الزبير؛ طُبع أول مرة بالقاهرة سنة 1355هـ."
+  en: "The commentary of Muhammad ibn Ahmad ibn Juzayy al-Kalbi, a concise work explaining words and constructions in short sentences, listing views on a verse with 'it is said' and then weighing them in phrases such as 'the first is preferable and more eloquent', and adding 'notes' (tanbih) on questions such as the differing wording of the same story in different suras, quoting al-Zamakhshari and his teacher Abu Ja'far ibn al-Zubayr; first printed in Cairo in 1355 AH."
+  ur: "محمد بن احمد بن جزی الکلبی کی تفسیر، ایک مختصر کتاب جو الفاظ و تراکیب کی مختصر جملوں میں وضاحت کرتی ہے، آیت میں اقوال «قیل» کے ساتھ گنوا کر پھر «پہلا زیادہ راجح اور فصیح ہے» جیسے الفاظ سے ترجیح دیتی ہے، اور مختلف سورتوں میں ایک ہی قصے کے الفاظ کے فرق جیسے مسائل پر «تنبیہات» لاتی ہے، زمخشری اور اپنے استاد ابو جعفر بن الزبیر سے نقل کرتے ہوئے؛ پہلی بار 1355ھ میں قاہرہ میں چھپی۔"
+genre: [tafsir]
+authors: [person/ibn-juzayy-al-kalbi-mufassir]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/tashil-maktaba-tijariyya-1355-j2] }
+relations:
+  - { type: about, target: concept/tafsir, sources: [source/tashil-maktaba-tijariyya-1355-j2] }
+  - { type: about, target: question/how-is-he-is-god-in-the-heavens-understood, sources: [source/tashil-maktaba-tijariyya-1355-j2] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
 external_ids: { wikidata: "Q19452865" }
+sources: [source/al-aalam, source/tashil-maktaba-tijariyya-1355-j2, source/tashil-maktaba-tijariyya-1355-ghafir]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/tashil-maktaba-tijariyya-1355-j2 PDF pp. 4–6, 55; source/tashil-maktaba-tijariyya-1355-ghafir PDF pp. 4–6. Earlier card: Wikidata candidate (Devin, wikidata-import-wave2)."
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  enriched_by:
+    - { generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: wikidata-import-wave2, source: "Wikidata candidate (original card)" }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

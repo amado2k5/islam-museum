@@ -1,0 +1,26 @@
+id: person/kazasker-mustafa-izzet
+class: person
+label: { ar: "قاضي عسكر مصطفى عزت أفندي", en: "Kazasker Mustafa Izzet Efendi", ur: "قاضی عسکر مصطفیٰ عزت آفندی" }
+summary:
+  ar: "خطاط وموسيقي وقارئ عثماني (1801–1876) تولى قضاء عسكر الأناضول، صمم سنة 1859 الألواح المدورة الثمانية الكبرى في آيا صوفيا {cite:blair-islamic-calligraphy-2006 p. 543}."
+  en: "Ottoman calligrapher, musician and Qur'an reciter (1801–76) who served as chief judge (kazasker) of Anatolia and in 1859 designed the eight great roundels of Hagia Sophia {cite:blair-islamic-calligraphy-2006 p. 543}."
+  ur: "عثمانی خطاط، موسیقار اور قاری (1801–1876) جو اناطولیہ کے قاضی عسکر رہے اور 1859ء میں آیا صوفیہ کے آٹھ بڑے مدوّر الواح ڈیزائن کیے {cite:blair-islamic-calligraphy-2006 p. 543}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [anatolia-balkans]
+gender: male
+roles: [calligrapher, musician, qadi]
+periods: [period/colonial-era]
+born: { edtf: "1801", calendar: gregorian, precision: year, status: historical }
+died: { edtf: "1876", calendar: gregorian, precision: year, status: historical }
+relations:
+  - { type: lived_in, target: place/istanbul, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: exemplifies, target: concept/thuluth-script, sources: [source/blair-islamic-calligraphy-2006] }
+sources: [source/blair-islamic-calligraphy-2006]
+provenance:
+  layer: own-research
+  source: "source/blair-islamic-calligraphy-2006 scan pp. 543, 544, 558, 564, 569, 570"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

@@ -1,0 +1,28 @@
+id: person/amr-ibn-abasa
+class: person
+label: { ar: "عمرو بن عبسة السلمي", en: "'Amr ibn 'Abasa al-Sulami", ur: "عمرو بن عبسہ سلمی" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن عبسة بن عامر بن خالد بن غاضرة السلمي" }
+  - { kind: kunya, lang: ar, value: "أبو يحيى" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "عمرو بن عبسة السلمي، أبو يحيى، أخو أبي ذر لأمه بحسب خليفة بن خياط، من ساكني الشام؛ يروي الحاكم عنه أنه أتى النبي أول ما بُعث وهو مستخفٍ، فسأله عن رسالته ومن تبعه، فقال: حر وعبد، فكان يقول: لقد رأيتني وأنا ربع الإسلام، وأمره النبي أن يلحق بقومه حتى يظهر أمره {cite:mustadrak-ilmiyya-ata-v3 p. 714-715}."
+  en: "'Amr ibn 'Abasa al-Sulami, Abu Yahya, Abu Dharr's half-brother through their mother according to Khalifa ibn Khayyat, who lived in Syria. Al-Hakim reports that he came to the Prophet at the very start of his mission, while he was still in hiding, asked him about his message and who followed him, and was told 'a free man and a slave'; he used to say 'I saw myself as a quarter of Islam', and the Prophet told him to return to his people until his cause prevailed {cite:mustadrak-ilmiyya-ata-v3 p. 714-715}."
+  ur: "عمرو بن عبسہ سلمی، ابو یحییٰ، خلیفہ بن خیاط کے مطابق ابو ذر کے ماں شریک بھائی، جو شام میں رہے۔ حاکم روایت کرتے ہیں کہ وہ بعثت کے بالکل آغاز میں نبی کے پاس آئے جب آپ چھپ کر رہتے تھے، آپ کی رسالت اور پیروکاروں کے بارے میں پوچھا تو جواب ملا 'ایک آزاد اور ایک غلام'؛ وہ کہا کرتے: 'میں نے خود کو اسلام کا چوتھائی دیکھا'، اور نبی نے انہیں اپنی قوم میں لوٹ جانے کو کہا یہاں تک کہ آپ کا معاملہ غالب ہو {cite:mustadrak-ilmiyya-ata-v3 p. 714-715}۔"
+wings: [people]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: member_of, target: group/banu-sulaym, sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: sibling_of, target: person/abu-dharr-al-ghifari, note: "أخوه لأمه، قاله خليفة بن خياط {cite:mustadrak-ilmiyya-ata-v3 p. 714}", sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: lived_in, target: place/al-sham, sources: [source/mustadrak-ilmiyya-ata-v3] }
+provenance:
+  layer: own-research
+  source: "al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 714-715, hadiths 6582-6584 with al-Dhahabi's notes"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/mustadrak-ilmiyya-ata-v3]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

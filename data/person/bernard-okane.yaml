@@ -1,0 +1,23 @@
+id: person/bernard-okane
+class: person
+label: { ar: "برنارد أوكين", en: "Bernard O'Kane", ur: "برنارڈ او کین" }
+summary:
+  ar: "مؤرخ للفن والعمارة الإسلامية، صاحب فصل «الخط الأثري في مصر الفاطمية» الذي يتتبع الكوفي المورَّق على الحجر والجص والخشب {cite:okane-monumental-calligraphy-fatimid-egypt p. 1}."
+  en: "Historian of Islamic art and architecture, author of the chapter 'Monumental Calligraphy in Fatimid Egypt', which traces floriated Kufic in stone, stucco and wood {cite:okane-monumental-calligraphy-fatimid-egypt p. 1}."
+  ur: "اسلامی فن اور فنِ تعمیر کے مؤرخ، «فاطمی مصر میں یادگار خطاطی» کے باب کے مصنف، جو پتھر، پلستر اور لکڑی پر مورّق کوفی کا سراغ لگاتا ہے {cite:okane-monumental-calligraphy-fatimid-egypt p. 1}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [egypt-nile]
+gender: male
+roles: [scholar, historian]
+periods: [period/contemporary-era]
+relations:
+  - { type: authored, target: work/monumental-calligraphy-in-fatimid-egypt, sources: [source/okane-monumental-calligraphy-fatimid-egypt] }
+sources: [source/okane-monumental-calligraphy-fatimid-egypt]
+provenance:
+  layer: own-research
+  source: "source/okane-monumental-calligraphy-fatimid-egypt scan pp. 1, 2, 10"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }
