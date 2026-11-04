@@ -1,0 +1,24 @@
+id: work/lavoix-catalogue-khalifes-orientaux
+class: work
+kind: book
+label: { ar: "فهرس النقود الإسلامية في المكتبة الوطنية: الخلفاء المشارقة (لافوا)", en: "Catalogue des monnaies musulmanes: Khalifes orientaux (Lavoix)", ur: "کیٹلاگ دے مونے مسلمان: خلفائے مشرق (لاوا)" }
+summary:
+  ar: "فهرس نقود الخلفاء المشارقة في خزانة الأوسمة بالمكتبة الوطنية في باريس، نشره هنري لافوا سنة 1887 بأمر وزير التعليم العام، وقدّم له بدراسة في بدايات النقود الإسلامية وإصلاح عبد الملك {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 663} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 661}."
+  en: "Catalogue of the eastern caliphs' coins in the Cabinet des Médailles of the Bibliothèque nationale, Paris, published by Henri Lavoix in 1887 by order of the Minister of Public Instruction, with a preface on the beginnings of Islamic coinage and Abd al-Malik's reform {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 663} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 661}."
+  ur: "پیرس کی بیبلیوتیک نیشنل کے کابینے دے میدائی میں خلفائے مشرق کے سکوں کا کیٹلاگ، جسے ہنری لاوا نے 1887ء میں وزیرِ تعلیمِ عامہ کے حکم سے شائع کیا، اور اس کے مقدمے میں اسلامی سکوں کے آغاز اور عبد الملک کی اصلاح پر بحث ہے {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 663} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 661}۔"
+wings: [objects, words]
+themes: [trade-and-finance, politics-governance-and-authority]
+regions: [global]
+language: language/french
+relations:
+  - { type: mentions, target: event/abd-al-malik-coinage, sources: [source/lavoix-catalogue-monnaies-musulmanes-bn-1887] }
+  - { type: mentions, target: concept/arab-byzantine-and-arab-sasanian-coinage, sources: [source/lavoix-catalogue-monnaies-musulmanes-bn-1887] }
+  - { type: mentions, target: concept/islamic-glass-weights, sources: [source/lavoix-catalogue-monnaies-musulmanes-bn-1887] }
+sources: [source/lavoix-catalogue-monnaies-musulmanes-bn-1887]
+provenance:
+  layer: own-research
+  source: "source/lavoix-catalogue-monnaies-musulmanes-bn-1887 scan pp. 9, 37, 612–618, 642–645, 655–663"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

@@ -3,6 +3,7 @@ id: event/battle-of-uhud
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sira-nabawiyya-sallabi pp. 512–524", note: "section added to earlier prose" }
 ---
 
 ## Summary
@@ -65,3 +66,6 @@ He recounts that the archers left their post at Uhud despite the order of their 
 He says Khalid ibn al-Walid entered through the gap the archers had left, and the Prophet was wounded. He sets this beside the flight of the army from around the Prophet at Hunayn {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:45:30}.
 
 He recounts a woman called Nusayba who stood as a shield over the Prophet at Uhud; her back was wounded and her hand was later cut off. He says her hand went ahead of her into Paradise. In the caliphate of Umar, people who did not know her story asked her where her hand had gone, and Umar was listening {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:51:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:51:30}.
+
+## Al-Sallabi's analysis: the lessons of Uhud
+In his [[work/al-sira-al-nabawiyya-sallabi|al-Sira al-Nabawiyya]], [[person/ali-muhammad-al-sallabi|Ali Muhammad al-Sallabi]] devotes a section to "some lessons, morals and benefits" of Uhud — his own reading of the events. {cite:sira-nabawiyya-sallabi p.512} He sees the Qur'anic verses on Uhud as reminding the believers of God's patterns in history, consoling them and explaining God's wisdom in what happened, correcting mistakes and holding up earlier fighters as examples. {cite:sira-nabawiyya-sallabi p.513} {cite:sira-nabawiyya-sallabi p.514} {cite:sira-nabawiyya-sallabi p.515} Among the chief lessons he counts that the archers' disobedience to their commander caused the setback and that preferring this world to the next is dangerous, and he dwells on how the Prophet treated the archers who erred and the hypocrites who withdrew. {cite:sira-nabawiyya-sallabi p.516} {cite:sira-nabawiyya-sallabi p.517} {cite:sira-nabawiyya-sallabi p.520} He gives paragraphs to the hadith "Uhud is a mountain that loves us and we love it" and to the angels at Uhud, then sums up the laws of victory as he understands them: victory is in God's hand and follows fixed patterns — unity of ranks, obedience to God and His Messenger, not scrambling for worldly gain; small numbers are not the cause of defeat, though preparation is required; and steadfastness, patience and much remembrance of God. {cite:sira-nabawiyya-sallabi p.522} {cite:sira-nabawiyya-sallabi p.523} {cite:sira-nabawiyya-sallabi p.524}

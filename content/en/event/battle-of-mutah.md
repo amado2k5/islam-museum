@@ -3,6 +3,7 @@ id: event/battle-of-mutah
 lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sira-nabawiyya-sallabi pp. 734–738", note: "section added to earlier prose" }
 ---
 
 ## Summary
@@ -59,3 +60,6 @@ In Jumada al-Ula of year 8 AH (629 CE) Sharahbil ibn Amr al-Ghassani took the li
 
 ## For Scholars
 The Battle of Mu'ta (Jumada al-Ula 8 AH, c. September 629 CE) was fought on the edge of Syria at Mu'ta in the Balqa. Its cause was the killing of the Prophet's envoy al-Harith ibn Umayr al-Azdi by Sharahbil ibn Amr, the Ghassanid governor of Busra. The Prophet sent three thousand men under Zayd ibn Haritha, ordering that Ja'far ibn Abi Talib succeed him if he fell, then Abd Allah ibn Rawaha — the first large engagement between the Muslims and Byzantine power with its Arab allies the Ghassanids, Lakhm and Judham. The three commanders were martyred in the named order; Thabit ibn Arqam raised the flag, and the troops called on Khalid ibn al-Walid, who led a disciplined withdrawal back to Medina. Some Medinans called them 'the runners-away'; the Prophet answered they were 'the returners-to-attack'. In the sira Mu'ta foreshadows the confrontation with Byzantium at Tabuk; al-Bukhari preserves the Prophet naming Khalid 'a sword among the swords of God' and his vision of the three martyrs in Paradise.
+
+## Al-Sallabi's analysis: Mu'ta
+[[person/ali-muhammad-al-sallabi|Ali Muhammad al-Sallabi]] relates the Muslims' farewell to the army, Abd Allah ibn Rawaha's weeping for fear of passing over the Fire, and his stand when the army hesitated before the Byzantine host: "We do not fight people by number, strength or multitude; we fight them only by this religion with which God has honoured us… it is one of the two good things: victory or martyrdom." {cite:sira-nabawiyya-sallabi p.734} {cite:sira-nabawiyya-sallabi p.735} He describes the martyrdom of the three commanders, Zayd, Ja'far and Ibn Rawaha, and then Khalid ibn al-Walid's withdrawal plan: holding the two armies apart, switching right and left wings and van and rear by night with loud noise, and rapid attacks at dawn to make the enemy think reinforcements had arrived. {cite:sira-nabawiyya-sallabi p.735} {cite:sira-nabawiyya-sallabi p.736} {cite:sira-nabawiyya-sallabi p.737} He dwells on the people of Medina meeting the army by throwing dust at it and crying "Runaways!", and the Prophet's reply, "They are not runaways but those who will return to the attack, God willing", seeing in it the effect of the Prophet's education even on children. {cite:sira-nabawiyya-sallabi p.738}

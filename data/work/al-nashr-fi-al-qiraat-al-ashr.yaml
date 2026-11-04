@@ -1,0 +1,27 @@
+id: work/al-nashr-fi-al-qiraat-al-ashr
+class: work
+kind: book
+label: { ar: "النشر في القراءات العشر", en: "al-Nashr fi al-Qira'at al-Ashr", ur: "النشر فی القراءات العشر" }
+summary:
+  ar: "كتاب في القراءات العشر وأصولها وتجويدها لشمس الدين أبي الخير محمد بن محمد بن الجزري الدمشقي (ت 833هـ)؛ من أشهر ما فيه ضابط القراءة الصحيحة: كل قراءة وافقت العربية ولو بوجه، ووافقت أحد المصاحف العثمانية ولو احتمالاً، وصح سندها، فهي صحيحة سواء كانت عن السبعة أو العشرة أو غيرهم، ومتى اختل ركن منها فهي ضعيفة أو شاذة أو باطلة {cite:nashr-dahman-damascus-1345-v1 p. 1} {cite:nashr-dahman-damascus-1345-v1 p. 19}."
+  en: "A work on the ten Qur'an readings, their principles and their recitation by Shams al-Din Abu al-Khayr Muhammad ibn Muhammad Ibn al-Jazari of Damascus (d. 833 AH); its best-known passage is the criterion of a valid reading: every reading that agrees with Arabic in at least one way, agrees with one of the Uthmanic copies even if only potentially, and has a sound chain is valid, whether from the seven, the ten or others, and if any of these pillars fails it is weak, anomalous or void."
+  ur: "شمس الدین ابو الخیر محمد بن محمد ابن الجزری دمشقی (م 833ھ) کی قراءاتِ عشرہ، ان کے اصول اور تجوید پر کتاب؛ اس کا مشہور ترین حصہ صحیح قراءت کا ضابطہ ہے: ہر وہ قراءت جو کسی ایک وجہ سے بھی عربی کے موافق ہو، عثمانی مصاحف میں سے کسی ایک کے احتمالاً ہی سہی موافق ہو، اور جس کی سند صحیح ہو، وہ صحیح ہے، خواہ سات سے ہو، دس سے یا دوسروں سے؛ اور اگر ان میں سے کوئی رکن مفقود ہو تو وہ ضعیف، شاذ یا باطل ہے۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/ibn-al-jazari]
+structure: "Dahman edition vol. 1: printer's preface (PDF pp. 2-4); author's introduction with the history of readers in the cities and the pillars of a valid reading (PDF pp. 19-23); the readers and their chains; the usul of reading. Vol. 2 begins at PDF p. 515 of the same scan."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+relations:
+  - { type: about, target: concept/qiraat, sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: mentions, target: person/abu-amr-al-dani, sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1]
+provenance:
+  layer: own-research
+  source: "nashr-dahman-damascus-1345-v1 PDF pp. 1-4, 19-23, 515"
+  generated_by: "Claude Code (OCR-harvest worker L)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker L)" }

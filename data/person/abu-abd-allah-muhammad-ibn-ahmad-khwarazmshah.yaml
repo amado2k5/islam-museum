@@ -1,0 +1,25 @@
+id: person/abu-abd-allah-muhammad-ibn-ahmad-khwarazmshah
+class: person
+label: { ar: "أبو عبد الله محمد بن أحمد خوارزمشاه", en: "Abu Abd Allah Muhammad ibn Ahmad, Khwarazmshah", ur: "ابو عبد اللہ محمد بن احمد، خوارزم شاہ" }
+summary:
+  ar: "آخر خوارزمشاهية الأفريغيين في كاث، أسره مأمون بن محمد أمير الجرجانية سنة 385هـ/995م وقتله، فانتهت الأسرة {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 50} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 70}."
+  en: "Last Afrighid Khwarazmshah of Kath, captured and killed by Ma'mun ibn Muhammad, emir of Jurjaniyya, in 385/995, ending the dynasty {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 50} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 70}."
+  ur: "کاث کے آخری آفریغی خوارزم شاہ، جنہیں جرجانیہ کے امیر مامون بن محمد نے 385ھ/995ء میں گرفتار کر کے قتل کیا اور خاندان ختم ہو گیا {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 50} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 70}۔"
+wings: [people]
+themes: [trade-and-finance, politics-governance-and-authority]
+regions: [persia-central-asia]
+gender: male
+roles: [ruler]
+periods: [period/abbasid-fragmentation]
+died: { edtf: "0995", hijri: "0385", calendar: julian, precision: year, status: historical, note: "Killed in Jurjaniyya after Ma'mun ibn Muhammad took Kath {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 70}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+relations:
+  - { type: ruler_of, target: polity/afrighid-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+  - { type: died_in, target: place/jurjaniyya, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+sources: [source/ismoilov-xorazmshohlar-tangalari-2025]
+provenance:
+  layer: own-research
+  source: "source/ismoilov-xorazmshohlar-tangalari-2025 scan pp. 10, 50, 51, 70"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

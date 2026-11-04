@@ -1,6 +1,8 @@
 id: person/ibn-al-shajari
 class: person
-label: { ar: "ابن الشجري" }
+label: { ar: "ابن الشجري", en: "Ibn al-Shajari", ur: "ابن الشجری" }
+names:
+  - { kind: full, lang: ar, value: "الشريف ضياء الدين أبو السعادات هبة الله بن علي بن محمد بن حمزة الحسني العلوي" }
 summary:
   ar: "أبو السعادات هبة الله بن علي المتوفى سنة ٥٧٢هـ؛ أماليه في خمسة فنون من الأدب في ثماني مجلدات {cite:kashf-zunun-furqan p. 597}."
   en: "Abu al-Sa'adat Hibatullah ibn Ali Ibn al-Shajari, d. AH 572 — his Amali spans eight volumes in five branches of adab {cite:kashf-zunun-furqan p. 597}."
@@ -11,11 +13,15 @@ regions: [levant-iraq]
 born: { edtf: "1058-08~", hijri: "0450-09", calendar: julian, precision: month, status: tradition, derived: true, note: "وكانت ولادته في شهر رمضان سنة خمسين وأربعمائة {cite:shadharat-dhahab p. 614}؛ التحويل مشتق." }
 died: { edtf: "1148-01~", hijri: "0542-09", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الخميس ثاني عشري رمضان سنة اثنتين وأربعين وخمسمائة ودفن من الغد في داره بالكرخ — ترجمته في أخبار سنة 542 {cite:shadharat-dhahab p. 614}؛ كشف الظنون أورده «المتوفى سنة 572» وهو خلاف مرجح عليه ما ورد في شذرات الذهب {cite:kashf-zunun-furqan p. 597}؛ التحويل مشتق." }
 relations:
-  - { type: authored, target: work/amali-ibn-al-shajari, sources: [source/kashf-zunun-furqan] }
+  - { type: authored, target: work/amali-ibn-al-shajari, sources: [source/kashf-zunun-furqan, source/amali-ibn-al-shajari-tanahi-khanji-1992] }
+  - { type: born_in, target: place/baghdad, sources: [source/amali-ibn-al-shajari-tanahi-khanji-1992] }
+  - { type: died_in, target: place/baghdad, sources: [source/amali-ibn-al-shajari-tanahi-khanji-1992], note: "ودفن من الغد في داره بالكرخ، الدراسة ص 16" }
+  - { type: related_to, target: person/al-zamakhshari, sources: [source/amali-ibn-al-shajari-tanahi-khanji-1992], note: "لقاؤهما ببغداد وتبادلهما الثناء، الدراسة ص 19" }
+  - { type: related_to, target: person/ibn-al-khashshab-abd-allah, sources: [source/amali-ibn-al-shajari-tanahi-khanji-1992], note: "كان شيخاً لابن الخشاب، الدراسة ص 18" }
 provenance:
   layer: own-research
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 597 مدخل 1702"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-20
-sources: [source/kashf-zunun-furqan, source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  run: "lib-kashf-batch-20; ocr-harvest-2026-11-04 (enrichment from al-Tanahi's study, Claude Code OCR-harvest worker K, claude-opus-5-5)"
+sources: [source/kashf-zunun-furqan, source/shadharat-dhahab, source/amali-ibn-al-shajari-tanahi-khanji-1992]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker K)" }

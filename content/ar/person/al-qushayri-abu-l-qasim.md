@@ -3,6 +3,13 @@ id: person/al-qushayri-abu-l-qasim
 lang: ar
 source_lang: ar
 translators: []
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/risala-qushayriyya-minhaj-2017 pp. 16-18, 23-24, 35-37"
 ---
 
 ## موجز
@@ -16,3 +23,6 @@ translators: []
 
 ## العودة والوفاة
 لما طلع صبح الدولة الأرسلانية سنة ٤٥٥هـ وأعاد نظام الملك التوازن عاد إلى نيسابور فأقام عشر سنين مرفّهاً محترماً، وتوفي صبيحة الأحد السادس عشر من ربيع الآخر سنة ٤٦٥هـ — وعند ابن الجوزي في رجب — ودُفن في مدرسته إلى جانب أبي علي الدقاق {cite:tarikh-islam-dhahabi pp. 175-176} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:muntazam-ibn-al-jawzi j.8 pp. 646-647}.
+
+## في مقدمة طبعة دار المنهاج من الرسالة
+يذكر محقق [[work/al-risala-al-qushayriyya|الرسالة القشيرية]] أنه أبو القاسم عبد الكريم بن هوازن بن عبد الملك بن طلحة بن محمد القشيري الأستوائي النيسابوري الشافعي، والقشيري نسبة إلى بني قشير بن كعب، وأمه من بني سليم، والأستوائي نسبة إلى أستوا من رساتيق نيسابور، ولقبه زين الإسلام، وغلب عليه لقب الأستاذ. {cite:risala-qushayriyya-minhaj-2017 p. 16} ولد في ربيع الأول سنة 376هـ ونشأ يتيماً، وقرأ الأدب على أبي القاسم الأليماني، ثم لزم [[person/abu-ali-al-daqqaq|أبا علي الدقاق]] بنيسابور، ودرس الفقه على أبي بكر الطوسي، والأصلين على ابن فورك ثم أبي إسحاق الإسفراييني، ونظر في كتب الباقلاني. {cite:risala-qushayriyya-minhaj-2017 p. 16} {cite:risala-qushayriyya-minhaj-2017 p. 17} {cite:risala-qushayriyya-minhaj-2017 p. 18} وينقل المحقق عن ابن الأثير أن الكندري وزير طغرل بك أمر بلعن الأشعرية مع الرافضة، ففارق القشيري وإمام الحرمين وغيرهما بلادهم، وأن القشيري كتب في ذلك «شكاية أهل السنة بحكاية ما نالهم من المحنة» نحو سنة 445هـ. {cite:risala-qushayriyya-minhaj-2017 p. 23} {cite:risala-qushayriyya-minhaj-2017 p. 24} ويعدّد من كتبه «لطائف الإشارات» و«التحبير في التذكير» و«ترتيب السلوك» و«نحو القلوب» و«التيسير في علم التفسير». {cite:risala-qushayriyya-minhaj-2017 p. 35} {cite:risala-qushayriyya-minhaj-2017 p. 36} وتوفي صبيحة الأحد 16 ربيع الآخر سنة 465هـ فيما ينقله عن ابن السبكي، ودفن في مدرسته عند قدمي شيخه الدقاق، وفي «المنتظم» أنه توفي في رجب. {cite:risala-qushayriyya-minhaj-2017 p. 37} وانظر [[work/al-risala-al-qushayriyya|الرسالة القشيرية]].
