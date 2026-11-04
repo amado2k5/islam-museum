@@ -9,8 +9,15 @@ summary:
   en: "Al-Harith ibn Yazid al-Ukli, a jurist of Kufa of this generation, named with al-Mughira ibn Miqsam, Abu Ma'shar, Abu Hashim, Mansur and others who took knowledge from al-Sha'bi and al-Nakha'i {cite:tabaqat-fuqaha-abbas-1981 p. 44}. Ibn Shubruma used to say: 'When al-Harith and I agree on a question, we do not mind who disagrees with us' {cite:tabaqat-fuqaha-abbas-1981 p. 45}."
 wings: [people]
 sources: [source/tabaqat-fuqaha-abbas-1981]
-provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-4" }
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 4 from PDF pp. 44-45; no dates on the page; not to be confused with al-Harith al-A'war (person/al-harith-al-awar)" }
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch120
+status:
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary
