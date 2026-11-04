@@ -16,3 +16,6 @@ Al-Maqrizi says that the Mansuri hospital and its complex were built on the site
 He also says that al-Malik al-Mansur Qalawun began building the hospital, a madrasa and a mausoleum there, and that the works were overseen by the amir Ala' al-Din Sanjar al-Shuja'i, administrator of the realms. {cite:khitat-maqrizi-1998 p.1249}
 
 He says that the al-Nasiriyya madrasa stands beside the minaret of the Mansuri dome. {cite:khitat-maqrizi-1998 p.1062}
+
+## In Yeomans
+Yeomans writes that Qalawun (1280-1290) deposed Baybars's sons and founded a dynasty that lasted a hundred years through a succession partly hereditary and partly appointed, inaugurating a period of stability. {cite:yeomans-islamic-cairo-2006 p.130} He routed the Mongols at Homs and secured a truce for the rest of his reign, took Marqab and Tripoli from the Franks, and kept good relations with the emperor at Constantinople, Rudolph of Habsburg and the kings of France, Castile and Sicily, with trade links to Genoa and even military alliances with Castile and Sicily. {cite:yeomans-islamic-cairo-2006 p.130} Yeomans sees something of this contact with the West in [[building/qalawun-complex|his complex]] on al-Mu'izz street (1284-1285), with its mosque, madrasa, maristan and mausoleum. {cite:yeomans-islamic-cairo-2006 p.130} {cite:yeomans-islamic-cairo-2006 p.132}

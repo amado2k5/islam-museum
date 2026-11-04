@@ -666,3 +666,21 @@ Promoted: afif-al-din-al-tilimsani, al-busiri, al-fakhr-al-balabakki, al-fakhr-i
 Promoted: abagha-khan, al-fariqani-aqsunqur, al-kawashi, al-malik-al-mansur-ii-hama, al-malik-al-said-baraka, al-sharishi, ata-malik-al-juwayni, baha-al-din-ibn-hanna, ibn-al-munayyir, ibn-bint-al-aazz, isa-ibn-muhanna, ismail-al-hadrami, izz-al-din-ibn-al-saigh, katila-al-harbi, najib-ibn-al-awd, shams-al-din-ibn-abi-umar, sunqur-al-ashqar, taqi-al-din-ibn-razin, tekuder-ahmad.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1808.** sweep continues through remaining trilingual drafts.
+
+### Batch 99 (4 Nov 2026, 19 records) — lib-wafayat-batch-8 draft promotions (sweep worker)
+
+Promoted: abd-al-ala-al-sadafi, abd-al-wahid-al-makhlu-almohad, abdallah-ibn-ghaniya, al-adil-abdallah-almohad, al-dulai-al-dimashqi, al-kurani-al-harawi, al-malik-al-mushammar, al-muhtadid-yahya-almohad, al-mustansir-yusuf-almohad, al-najirmi, al-qaid-fadl-ibn-salih, al-rammadi-yusuf-ibn-harun, al-said-ali-almohad, al-tusi-khatib-al-mawsili, ibn-al-shirzaji, ibn-wahra-al-hamadhani, najm-al-din-ibn-al-habbaz, radi-al-din-al-irbili, tughril-atabeg-of-aleppo.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1827.** sweep continues through remaining trilingual drafts.
+
+### Batch 100 (4 Nov 2026, 19 records) — lib-wafayat-batch-14 draft promotions (sweep worker)
+
+Promoted: abd-al-aziz-ibn-al-majishun, abu-al-makaram-al-misri, abu-rafaa-umara-ibn-wathima, al-hasan-ibn-ali-al-zayri, al-layth-ibn-ali-al-saffar, al-qahl-ibn-iyash, ali-ibn-yahya-al-zayri, awhad-al-zaman, constance-of-sicily, frederick-ii, ghalib-ibn-sasaa, hisham-ibn-muawiya-al-darir, ibn-al-tilmidh, nusayb-al-shair, suhaym-ibn-wathil, tahir-ibn-muhammad-al-saffar, william-i-sicily, yahya-ibn-tamim, zaim-al-din-yahya-ibn-abdallah.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1846.** sweep continues through remaining trilingual drafts.
+
+### Batch 101 (4 Nov 2026, 19 records) — lib-shadharat-batch-125 draft promotions (sweep worker)
+
+Promoted: abdallah-al-irmawi, al-hajari-isa, al-muhsin-ibn-salah-al-din, al-qatii-al-azji, al-qurtubi-muhammad-ibn-umar, al-zahir-dawud-ibn-yusuf, fakhr-al-din-al-irbili, ghanim-ibn-asakir, ibn-al-farid, ibn-al-jinbali, ibn-al-latti, ibn-dihya, ishaq-al-ilthi, mankubars-al-falaqi, muhyi-al-din-ibn-fadlan, nasr-ibn-abd-al-razzaq, sawab-al-adili, umar-al-suhrawardi, yusuf-ibn-haydara.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1865.** sweep continues through remaining trilingual drafts.

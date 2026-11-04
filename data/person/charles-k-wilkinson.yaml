@@ -1,0 +1,23 @@
+id: person/charles-k-wilkinson
+class: person
+label: { ar: "تشارلز كيرل ويلكنسون", en: "Charles Kyrle Wilkinson", ur: "چارلس کیرل ولکنسن" }
+summary:
+  ar: "أمين في متحف المتروبوليتان للفن (مولود 1897) عمل فيه ثلاثًا وأربعين سنة، وشارك في حفريات نيسابور، وألف كتاب «نيسابور: فخار العصر الإسلامي المبكر» (1973) {cite:wilkinson-nishapur-pottery p. 5} {cite:wilkinson-nishapur-pottery p. 10}."
+  en: "Curator at the Metropolitan Museum of Art (born 1897) who served it for forty-three years, took part in the Nishapur excavations and wrote 'Nishapur: Pottery of the Early Islamic Period' (1973) {cite:wilkinson-nishapur-pottery p. 5} {cite:wilkinson-nishapur-pottery p. 10}."
+  ur: "میٹروپولیٹن میوزیم آف آرٹ کے کیوریٹر (پیدائش 1897) جنہوں نے تینتالیس سال وہاں کام کیا، نیشاپور کی کھدائی میں حصہ لیا اور «نیشاپور: ابتدائی اسلامی دور کے ظروف» (1973) لکھی {cite:wilkinson-nishapur-pottery p. 10}."
+gender: male
+roles: [scholar, artist, writer]
+born: { edtf: "1897", calendar: gregorian, precision: year, status: historical, note: "From the Library of Congress cataloguing data in the book (Wilkinson, Charles Kyrle, 1897–) {cite:wilkinson-nishapur-pottery p. 5}." }
+wings: [people, today]
+themes: [images-of-islam]
+relations:
+  - { type: participated_in, target: event/met-excavations-at-nishapur, sources: [source/wilkinson-nishapur-pottery] }
+  - { type: authored, target: work/nishapur-pottery-of-the-early-islamic-period, sources: [source/wilkinson-nishapur-pottery] }
+sources: [source/wilkinson-nishapur-pottery]
+provenance:
+  layer: own-research
+  source: "source/wilkinson-nishapur-pottery scan pp. 5, 10–11, 24"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

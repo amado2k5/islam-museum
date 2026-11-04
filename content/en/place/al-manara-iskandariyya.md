@@ -19,3 +19,8 @@ He says that Ahmad ibn Tulun put a wooden dome on top of it, which the winds car
 
 ## In the eighth century
 Ibn Fadl Allah al-Umari reports that nothing remained of it but what is in the state of ruins and faded traces. He reports, on the authority of Ibn Zafir, that Ibn Qalaqis and the notable Ali ibn al-Darwi climbed it. The first described its dome, from which his companions seemed to see stars, and it seemed to him that the sea beneath it was a cloud {cite:umari-masalik-1924 p.241}.
+
+## In Ibn Battuta's Rihla
+[[person/ibn-battuta-muhammad|Ibn Battuta]] went to the lighthouse on his first passage through Alexandria and found one of its sides ruined; he describes it as a square building rising into the air, its door raised above the ground, facing a structure of the same height, with wooden planks laid between them to cross on, so that when they were removed there was no way to the door; inside the door was a seat for its guard, and inside were many rooms. {cite:rihla-ibn-battuta-khayriyya-1904 p.20} He gives its measurements: the passage inside nine spans wide, the wall ten spans thick, each of its four sides a hundred and forty spans; it stood on a high mound a parasang from the city, on a long tongue of land surrounded by the sea on three sides, on which lay the cemetery of Alexandria. {cite:rihla-ibn-battuta-khayriyya-1904 p.20}
+
+He then says he went to it again on his way back to the Maghrib in 750 AH and found it so ruined that it could not be entered nor its door reached, and that al-Malik al-Nasir had begun building a lighthouse like it opposite, but death prevented him from finishing it. {cite:rihla-ibn-battuta-khayriyya-1904 p.20}
