@@ -1,17 +1,28 @@
 id: work/madarij-al-salikin
 class: work
 kind: book
-label: { ar: "مدارج السالكين بين منازل إياك نعبد وإياك نستعين", en: "Madarij al-Salikin" }
+genre: [creed, tasawwuf, commentary]
+label: { ar: "مدارج السالكين بين منازل إياك نعبد وإياك نستعين", en: "Madarij al-Salikin", ur: "مدارج السالکین" }
 summary:
-  ar: "بطاقة أولية لـمدارج السالكين بين منازل إياك نعبد وإياك نستعين؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Madarij al-Salikin; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "شرح ابن قيم الجوزية (691–751هـ) على «منازل السائرين» لأبي إسماعيل الهروي الأنصاري، يتتبع منازله المائة في عشرة أقسام بالشرح والتعليق والمعارضة، ويبني عليها كلاماً واسعاً في التوحيد والأسماء والصفات والعبودية وأعمال القلوب، منطلقاً من آية «إياك نعبد وإياك نستعين» من الفاتحة."
+  en: "Ibn Qayyim al-Jawziyya's (691–751 AH) commentary on Manazil al-Sa'irin by Abu Isma'il al-Harawi al-Ansari, following its hundred stations in ten sections with explanation, notes and objections, and building on them a wide discussion of God's oneness, names and attributes, servanthood and the acts of the heart, starting from the verse 'You alone we worship and You alone we ask for help' in al-Fatiha."
+wings: [ideas, words]
+themes: [creed]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/madarij-salikin-sumayi-q1] }
+authors: [person/ibn-qayyim-al-jawziyya]
+language: language/arabic
+structure: "Opens with the meanings of al-Fatiha (the kinds of tawhid, prophethood, recompense, the cure of hearts and bodies, the refutation of those who leave the straight path), then follows al-Harawi's hundred stations in ten sections of ten — beginnings, doors, dealings, character, principles, valleys, states, friendships, realities and ends — each with three degrees (for the common, the elect and the elect of the elect). The Dar al-Sumay'i edition divides it into five parts; part 1 runs to the section on minor and major sins, part 2 to the station of refinement, part 3 from steadfastness to intimacy, part 4 from remembrance, part 5 from unveiling to the end."
+editions: [source/madarij-salikin-sumayi-q1]
+relations:
+  - { type: commentary_on, target: work/manazil-al-sairin, sources: [source/madarij-salikin-sumayi-q1] }
+sources: [source/madarij-salikin-sumayi-q1]
 external_ids: { wikidata: "Q19470629" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "مدارج السالكين، دار الصميعي 1432هـ، القسم الأول، ص 1–14، 800–804"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C); earlier Wikidata card by Devin (SWE-2 High), wikidata-import-wave2" }

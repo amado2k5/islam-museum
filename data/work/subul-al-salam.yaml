@@ -1,0 +1,32 @@
+id: work/subul-al-salam
+class: work
+kind: book
+label:
+  ar: "سبل السلام الموصلة إلى بلوغ المرام"
+  en: "Subul al-Salam al-Musila ila Bulugh al-Maram"
+  ur: "سبل السلام الموصلۃ الی بلوغ المرام"
+summary:
+  ar: "شرح محمد بن إسماعيل الأمير الصنعاني (1099–1182هـ) على «بلوغ المرام» لابن حجر، اختصره من «البدر التمام» للقاضي الحسين بن محمد المغربي مقتصراً على حل الألفاظ وبيان المعاني ومعرضاً عن ذكر الخلاف إلا ما يرتبط به الدليل، مع زيادات كثيرة؛ ويعدّه محققه محمد صبحي حلاق من خير الشروح المتوسطة لأحاديث الأحكام {cite:subul-salam-hallaq-ibn-al-jawzi-v1 p. 15-16}."
+  en: "Muhammad b. Isma'il al-Amir al-San'ani's (1099–1182 AH) commentary on Ibn Hajar's Bulugh al-Maram, abridged from al-Badr al-Tamam by the judge al-Husayn b. Muhammad al-Maghribi, keeping to explaining the words and meanings and leaving aside juristic disagreement except where the evidence requires it, with many additions; its editor Muhammad Subhi Hallaq counts it among the best middle-length commentaries on legal hadiths {cite:subul-salam-hallaq-ibn-al-jawzi-v1 p. 15-16}."
+  ur: "محمد بن اسماعیل الامیر صنعانی (1099–1182ھ) کی ابن حجر کی «بلوغ المرام» پر شرح، جو قاضی حسین بن محمد مغربی کی «البدر التمام» کا اختصار ہے، الفاظ کے حل اور معانی کے بیان تک محدود، فقہی اختلاف سے گریز کرتے ہوئے سوائے اس کے جس سے دلیل جڑی ہو، اور بہت سے اضافوں کے ساتھ؛ اس کے محقق محمد صبحی حلاق اسے احادیثِ احکام کی بہترین متوسط شروح میں شمار کرتے ہیں {cite:subul-salam-hallaq-ibn-al-jawzi-v1 p. 15-16}۔"
+language: language/arabic
+authors: [person/muhammad-ibn-ismail-al-sanani]
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/subul-salam-hallaq-ibn-al-jawzi-v1] }
+editions: [source/subul-salam-hallaq-ibn-al-jawzi-v1]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences, law-and-courts]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+relations:
+  - { type: commentary_on, target: work/bulugh-al-maram, sources: [source/subul-salam-hallaq-ibn-al-jawzi-v1] }
+  - { type: relies_on, target: work/fath-al-bari, sources: [source/subul-salam-hallaq-ibn-al-jawzi-v1] }
+  - { type: relies_on, target: work/al-minhaj-sharh-sahih-muslim, sources: [source/subul-salam-hallaq-ibn-al-jawzi-v1] }
+provenance:
+  layer: own-research
+  source: "Subul al-Salam, Dar Ibn al-Jawzi 3rd issue 1433 AH, vol. 1, editor's introduction pp. 15–39 (printed)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/subul-salam-hallaq-ibn-al-jawzi-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

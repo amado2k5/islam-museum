@@ -1,0 +1,35 @@
+id: person/abd-al-rahman-ibn-nasir-al-sadi
+class: person
+label: { ar: "عبد الرحمن بن ناصر السعدي", en: "Abd al-Rahman ibn Nasir al-Sa'di", ur: "عبد الرحمن بن ناصر السعدی" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن بن ناصر بن عبد الله بن سعدي" }
+  - { kind: full, lang: en, value: "Abd al-Rahman ibn Nasir ibn Abd Allah ibn Sa'di" }
+gender: male
+roles: [scholar, teacher, writer]
+born: { hijri: "1307", edtf: "1889/1890", calendar: gregorian, precision: year, status: historical, derived: true, note: "«1307هـ – 1376هـ» on the title page of the Obeikan edition (PDF p. 2); Gregorian span derived.", sources: [source/taysir-karim-rahman-obeikan-2001] }
+died: { hijri: "1376", edtf: "1956/1957", calendar: gregorian, precision: year, status: historical, derived: true, note: "Title page (PDF p. 2). Ibn Aqil says the rest of the commentary was printed 'after his death in the years 76 and 77' (PDF p. 9); the editor says he wrote to Muhammad Nasif about a month before his death in 1376 (PDF p. 17). Gregorian span derived.", sources: [source/taysir-karim-rahman-obeikan-2001] }
+summary:
+  ar: "عبد الرحمن بن ناصر بن عبد الله بن سعدي (1307–1376هـ)، عالم نجدي من عنيزة، صاحب التفسير المشهور «تيسير الكريم الرحمن في تفسير كلام المنان» الذي بدأه سنة 1342هـ، وشيخ عبد الله بن عقيل ومحمد بن صالح العثيمين."
+  en: "Abd al-Rahman ibn Nasir ibn Abd Allah ibn Sa'di (1307–1376 AH / 1889–1957), a Najdi scholar of Unayza, author of the widely read commentary Taysir al-Karim al-Rahman fi Tafsir Kalam al-Mannan, begun in 1342 AH, and teacher of Abd Allah ibn Aqil and Muhammad ibn Salih al-Uthaymin."
+  ur: "عبد الرحمن بن ناصر بن عبد اللہ بن سعدی (1307–1376ھ / 1889–1957ء)، عنیزہ کے نجدی عالم، مشہور تفسیر «تیسیر الکریم الرحمن فی تفسیر کلام المنان» کے مصنف جو انہوں نے 1342ھ میں شروع کی، اور عبد اللہ بن عقیل اور محمد بن صالح العثیمین کے استاد۔"
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/modern-era]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/unayza, sources: [source/taysir-karim-rahman-obeikan-2001] }
+  - { type: authored, target: work/taysir-al-karim-al-rahman, sources: [source/taysir-karim-rahman-obeikan-2001] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "His students Ibn Aqil and al-Uthaymin describe his commentary as following the method of the early generations (salaf) in the verses on the divine attributes (PDF pp. 9, 11)."
+    sources: [source/taysir-karim-rahman-obeikan-2001]
+traditions: [sunni]
+sources: [source/taysir-karim-rahman-obeikan-2001]
+provenance:
+  layer: own-research
+  source: "source/taysir-karim-rahman-obeikan-2001 PDF pp. 2, 5, 9–11, 13–17, 29–30"
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

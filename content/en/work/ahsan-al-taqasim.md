@@ -2,13 +2,33 @@
 id: work/ahsan-al-taqasim
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
+status:
+  review: published
+provenance:
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/muqaddasi-ahsan-taqasim-bga-1877 scan pp. 9-73"
+  translator_of: content/ar/work/ahsan-al-taqasim.md
 ---
-## Overview
-A book by Shams al-Din Abu Abdullah Muhammad ibn Ahmad al-Maqdisi, the Hanafi, arranged by the customary regions. {cite:kashf-zunun-furqan p.206}
+## Summary
+*Ahsan al-taqasim fi ma'rifat al-aqalim* ("The Best Divisions for Knowing the Regions") is a geography of the lands of Islam by [[person/al-muqaddasi|Shams al-Din Abu Abd Allah Muhammad ibn Ahmad ibn Abi Bakr al-Banna' al-Shami al-Maqdisi, known as al-Bashari]], as the title page of the Leiden edition names him. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.9} He says he found that scholars had covered the sciences before him, so he chose "a science they had neglected": the regions of Islam with their deserts, seas, lakes and rivers, their cities and towns, halting places and roads, drugs, mines and trades, and the differences between their peoples in speech, colour, schools, measures, weights, coins and food, their glories and their faults. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.11} {cite:muqaddasi-ahsan-taqasim-bga-1877 p.12} He says he published it after reaching forty and treading every region, which fell in 375 AH in the capital of Fars, under the Abbasid caliph al-Ta'i' li-llah, with al-Aziz bi-llah ruling the Maghrib. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.18} {cite:muqaddasi-ahsan-taqasim-bga-1877 p.19}
 
-## Contents
-It describes the inhabited quarter of the world and its lands, its climate, its seas, mountains, rivers, roads and routes, its mines and its distinctive properties. {cite:kashf-zunun-furqan p.206}
+## How he gathered it
+Al-Muqaddasi says he could complete it only after travelling the lands and entering the regions of Islam, meeting scholars, serving kings, sitting with judges, studying with jurists, frequenting men of letters, Qur'an readers and hadith writers, keeping company with ascetics and Sufis, attending storytellers' sessions, trading in every town, measuring the regions in parasangs and going round their borders. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.12} His highest foundation is what he saw himself; then questioning sensible people about places he could not reach, keeping what they agreed on and discarding what they disputed, and attributing to its source, or prefacing with "they claim", whatever his heart did not accept. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.13} Elsewhere he says that what was sound for him by eyewitness or widespread report he stated outright, while what he doubted or had from single reports he attributed to the person he heard it from. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.18}
 
-## The author's method
-"Kashf al-Zunun" reports that the author said his book is indispensable to travellers and not to be done without by scholars and leaders. He compiled it after travelling through the regions and measuring their distances in farsakhs, and he relied on asking about places he had not seen himself. {cite:kashf-zunun-furqan p.206}
+## His criticism of predecessors
+In his view none of his predecessors took his path: [[person/al-jayhani|Abu Abd Allah al-Jayhani]], vizier of the amir of Khurasan, was a man of philosophy and astronomy who gathered strangers and asked them about the realms, so he wrote of stars, geometry, the idols of India and unknown halting places, without detailing districts or ordering provinces. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.13} {cite:muqaddasi-ahsan-taqasim-bga-1877 p.14} [[person/abu-zayd-al-balkhi|Abu Zayd al-Balkhi]] aimed at maps and the image of the earth in twenty parts and was brief, and had not travelled the lands. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.14} [[person/ibn-al-faqih-al-hamadhani|Ibn al-Faqih al-Hamadhani]] mentioned only the great cities and filled his book with unsuitable matter, now urging renunciation, now worldly desire, now making the reader weep, now laugh. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.14} The books of [[person/al-jahiz|al-Jahiz]] and [[person/ubaydallah-ibn-khurdadhbih|Ibn Khurradadhbih]] he finds very brief and of little use. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.14} {cite:muqaddasi-ahsan-taqasim-bga-1877 p.15} He says he tried not to repeat what they had written except when necessary, "so as not to deny them their due or steal from their works". {cite:muqaddasi-ahsan-taqasim-bga-1877 p.16}
+
+## His terms
+Al-Muqaddasi explains shorthand he uses: "without equal" means there is nothing like it at all; "the utmost" marks excellence within a kind; "good" means there may be better. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.16} {cite:muqaddasi-ahsan-taqasim-bga-1877 p.17} "Al-Mashriq" means the Samanid state, "the East" also covers Fars, Kirman and Sind, "al-Maghrib" is the region itself, and "the West" takes in Egypt and Syria. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.17} In an addition from the Constantinople manuscript, given in the edition's apparatus, he compares the ranks of settlements to those of a state: the *amsar* are like kings, the *qasabat* like chamberlains, the towns like soldiers and the villages like foot-soldiers; see [[concept/al-misr-in-muqaddasi|the misr, qasaba and town in al-Muqaddasi]]. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.19}
+
+## The fourteen regions
+He describes only the realm of Islam, not troubling with the realms of non-Muslims because he had not entered them, except for Muslim communities there, and divides it into [[concept/aqalim-al-muqaddasi|fourteen regions]]: six Arab, namely Jazirat al-Arab, Iraq, Aqur, Sham, Misr and the Maghrib, and eight non-Arab, namely al-Mashriq, al-Daylam, al-Rihab, al-Jibal, Khuzistan, Fars, Kirman and al-Sind, with the desert of the Arabs and the desert of the Persians described separately. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.19} {cite:muqaddasi-ahsan-taqasim-bga-1877 p.20} For each region he drew a map with roads in red, sands in yellow, salt seas in green, rivers in blue and mountains in dun. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.19}
+
+## The introductory chapters
+Before the regions come chapters including: the seas and rivers, where he says he knew only two seas in Islam, that he sailed about two thousand parasangs on the southern sea and went round the whole Arabian peninsula from al-Qulzum to Abbadan, keeping company with its sea captains and reading their logbooks; {cite:muqaddasi-ahsan-taqasim-bga-1877 p.20} names and their variants; the peculiarities of the regions; {cite:muqaddasi-ahsan-taqasim-bga-1877 p.34} {cite:muqaddasi-ahsan-taqasim-bga-1877 p.42} [[concept/madhahib-in-muqaddasi|the schools and the dhimma]]; {cite:muqaddasi-ahsan-taqasim-bga-1877 p.47} what he himself witnessed; disputed places; {cite:muqaddasi-ahsan-taqasim-bga-1877 p.53} {cite:muqaddasi-ahsan-taqasim-bga-1877 p.56} the climes of the world and the centre of the qibla; and the realm of Islam, which he says is "not regular", so that it cannot be described as a square or by length and breadth, but branches out. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.68} {cite:muqaddasi-ahsan-taqasim-bga-1877 p.72}
+
+## The edition read
+De Goeje's edition, printed by Brill in Leiden in 1877 as volume III of the *Bibliotheca Geographorum Arabicorum*, was read; its apparatus gives the variants of the Berlin and Constantinople manuscripts. {cite:muqaddasi-ahsan-taqasim-bga-1877 p.9} {cite:muqaddasi-ahsan-taqasim-bga-1877 p.11} The pages cited are scan pages.
