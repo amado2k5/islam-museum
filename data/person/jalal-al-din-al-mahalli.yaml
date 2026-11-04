@@ -3,15 +3,20 @@ class: person
 label:
   ar: "جلال الدين المحلي"
   en: "Jalal al-Din al-Mahalli"
+  ur: "جلال الدین محلی"
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لجلال الدين محمد بن أحمد المحلي، فقيه مصر الشافعي شارك «تفسير الجلالين»، توفي سنة ١٤٥٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Jalal al-Din Muhammad ibn Ahmad al-Mahalli, the Egyptian Shafi'i jurist and co-author of the Tafsir al-Jalalayn, d. 1459; the biographical entry is not yet checked on the page."
+  ar: "جلال الدين محمد بن أحمد بن محمد بن إبراهيم المحلي الشافعي (791–864هـ)، الأصولي المتكلم الفقيه المفسر، وُلد بمصر، ودرّس بالمؤيدية والبرقوقية، وعُرض عليه القضاء فامتنع؛ من كتبه شرح جمع الجوامع وشرح الورقات في الأصول وشرح المنهاج في الفقه، وفسّر القرآن من الكهف إلى الناس ثم الفاتحة، فأتمّه السيوطي فصار «تفسير الجلالين» {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3}."
+  en: "Jalal al-Din Muhammad ibn Ahmad ibn Muhammad ibn Ibrahim al-Mahalli the Shafi'i (791–864 AH), legal theorist, theologian, jurist and exegete, born in Egypt; he taught at the Mu'ayyadiyya and the Barquqiyya and declined a judgeship. His works include commentaries on Jam' al-Jawami' and al-Waraqat in legal theory and on al-Minhaj in law; he explained the Qur'an from al-Kahf to al-Nas and then al-Fatiha, and al-Suyuti completed it as Tafsir al-Jalalayn {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3}."
+  ur: "جلال الدین محمد بن احمد بن محمد بن ابراہیم محلی شافعی (791–864ھ)، اصولی، متکلم، فقیہ اور مفسر، مصر میں پیدا ہوئے؛ مؤیدیہ اور برقوقیہ میں تدریس کی اور قضا کی پیشکش ٹھکرا دی۔ ان کی کتابوں میں اصول میں جمع الجوامع اور الورقات کی شرحیں اور فقہ میں المنہاج کی شرح ہیں؛ انہوں نے سورۂ کہف سے سورۂ ناس تک اور پھر سورۂ فاتحہ کی تفسیر کی، جسے سیوطی نے مکمل کیا اور وہ «تفسیر الجلالین» بنی {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3}۔"
+born: { hijri: "0791", edtf: "1388/1389", calendar: julian, precision: year, status: historical, derived: true, note: "«ولد بمصر سنة 791هـ» {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4}؛ التحويل مشتق.", sources: [source/tafsir-jalalayn-tamir-maktabat-al-iman] }
+died: { hijri: "0864", edtf: "1459/1460", calendar: julian, precision: year, status: historical, derived: true, note: "«وتوفي سنة 864هـ» {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4}؛ التحويل مشتق.", sources: [source/tafsir-jalalayn-tamir-maktabat-al-iman] }
+traditions: [sunni]
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/shadharat-dhahab, source/daw-lami-jil-1992]
+sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/tafsir-jalalayn-tamir-maktabat-al-iman, source/tafsir-jalalayn-lithograph-1278]
 external_ids:
   wikidata: Q6758211
 provenance:
@@ -20,6 +25,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0026, lib-daw-lami-batch-1-2026-10-31
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/tafsir-jalalayn-tamir-maktabat-al-iman PDF pp. 3–4; source/tafsir-jalalayn-lithograph-1278 PDF p. 369 (dates, works, teaching posts, part in Tafsir al-Jalalayn)" }
 status:
   review: published
-  completeness: 1
+  completeness: 2
