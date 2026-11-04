@@ -1,8 +1,10 @@
 id: person/al-qadi-iyyad
 class: person
-label: { ar: "القاضي عياض", en: "al-Qadi Iyad" }
+label: { ar: "القاضي عياض", en: "al-Qadi Iyad", ur: "قاضی عیاض" }
 names:
   - { value: "أبو الفضل عياض بن موسى بن عياض اليحصبي السبتي المالكي", kind: full }
+  - { value: "عياض بن موسى بن عياض بن عمرون بن موسى بن عياض بن محمد بن عبد الله بن موسى بن عياض اليحصبي", kind: nasab, lang: ar }
+  - { value: "أبو الفضل", kind: kunya, lang: ar }
 gender: male
 summary:
   ar: "قاضي سبتة مدة ثم قاضي غرناطة، الحافظ المحدث صاحب الشفا الذي لم يسبق إلى مثله ومشارق الأنوار في غريب الصحيحين والموطأ، كان إمام وقته في علوم شتى مفرط الذكاء عديم النظير شديد التعصب للسنة والتمسك بها حتى أمر بإحراق كتب الغزالي لأمر توهمه منها فقيل فيه ظلموا عياضاً وهو يحلم عنهم والظلم بين العالمين قديم جعلوا مكان الراء عيناً في اسمه كي يكتموه وإنه لمعلوم، ولد سنة ست وسبعين وأربع مئة وتوفي سنة أربع وأربعين وخمس مئة {cite:shadharat-dhahab p. 619}."
@@ -11,19 +13,30 @@ roles: [judge, scholar]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb, andalus-europe]
-born: { edtf: "1083~", hijri: "0476~", calendar: julian, precision: year, status: tradition, derived: true, note: "476هـ {cite:shadharat-dhahab p. 619}", sources: [source/shadharat-dhahab] }
-died: { edtf: "1149~", hijri: "0544~", calendar: julian, precision: year, status: tradition, derived: true, note: "544هـ {cite:shadharat-dhahab p. 619}", sources: [source/shadharat-dhahab] }
+born: { edtf: "1083~", hijri: "0476~", calendar: julian, precision: year, status: tradition, derived: true, note: "476هـ {cite:shadharat-dhahab p. 619}؛ في الترجمة المنقولة عن الديباج في طبعة دار الكتب العلمية للشفا: بسبتة في شعبان سنة «ست وتسعين وأربعمائة» كما قرأها التعرف الضوئي، وهي مخالفة لما في الشذرات {cite:al-shifa-ilmiyya-shumunni p.5}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1149~", hijri: "0544~", calendar: julian, precision: year, status: tradition, derived: true, note: "544هـ {cite:shadharat-dhahab p. 619}؛ بمراكش في جمادى الآخرة، وقيل في رمضان، سنة 544هـ، ودفن بباب إيلان {cite:al-shifa-ilmiyya-shumunni p.5}", sources: [source/shadharat-dhahab, source/al-shifa-ilmiyya-shumunni] }
 relations:
   - { type: authored, target: work/al-ilam-fi-hudud-al-ahkam, sources: [source/kashf-zunun-furqan] }
+  - { type: authored, target: work/al-shifa-bi-tarif-huquq-al-mustafa, sources: [source/al-shifa-ilmiyya-shumunni, source/shadharat-dhahab] }
+  - { type: student_of, target: person/al-sadafi, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: student_of, target: person/ibn-rushd-al-jadd, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: student_of, target: person/abu-bakr-ibn-al-arabi-qadi, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: student_of, target: person/al-maziri, role: "إجازة بالمكاتبة", sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: student_of, target: person/al-tartushi, role: "إجازة", sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: born_in, target: place/ceuta, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: died_in, target: place/marrakesh, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: lived_in, target: place/granada, role: "قاضيها سنة 531هـ", sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: traveled_to, target: place/cordoba, role: "رحلة طلب العلم سنة 509هـ", sources: [source/al-shifa-ilmiyya-shumunni] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-22
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: biography from Ibn Farhun's al-Dibaj as printed in source/al-shifa-ilmiyya-shumunni pp. 3–5; teachers, offices, works, death; prose trio rewritten"
 external_ids:
   wikidata: Q3101035
-sources: [source/shadharat-dhahab, source/kashf-zunun-furqan]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/shadharat-dhahab, source/kashf-zunun-furqan, source/al-shifa-ilmiyya-shumunni]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High)" }
 occupations:
   - job: job/qadi
     kind: secondary

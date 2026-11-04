@@ -14,3 +14,6 @@ When Shihab al-Din al-Ghuri was killed in 602 AH, some people of Ghazna came to 
 They rose against him to kill him, but he fled and went to the vizier Mu'ayyid al-Mulk, who secretly sent him to a place of safety. {cite:kamil-ibn-al-athir p.304}
 
 This is Ibn al-Athir's report of what the people of Ghazna said, not a judgement of the museum.
+
+## In the printings of his commentary
+The cover of the Dar al-Fikr printing of his commentary names him Muhammad al-Razi Fakhr al-Din, son of the learned Diya' al-Din Umar, known as the Preacher of Rayy, with the dates 544 and 604 AH, which the title page of the Dar al-Hadith printing also gives. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.1} {cite:mafatih-al-ghayb-dar-al-hadith-2012-v15 p.1} His commentary, [[work/tafsir-al-kabir-razi|al-Tafsir al-Kabir]], divides the discussion of each verse into questions that set out the views with their arguments. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.2}
