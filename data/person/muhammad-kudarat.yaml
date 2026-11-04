@@ -1,0 +1,66 @@
+id: person/muhammad-kudarat
+class: person
+
+label: { ar: "محمد قدرة الله", en: "Muhammad Kudarat", ur: "محمد دیپاتوان کدرات" }
+
+names:
+  - { value: "Muhammad Dipatuan Kudarat", kind: full }
+  - { value: "Muhammad Dipatuan Qudrat Allah Nasr al-Din", kind: alternate }
+  - { value: "Muhammad di-Pertuan Kudrat", kind: alternate }
+  - { value: "Sultan Kudarat", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "محمد ديباتوان قدرة الله (1581–1671)، سابع سلاطين ماغوينداناو في مينداناو بالفلبين، حكم من نحو 1616 أو 1619 إلى وفاته. من نسل الشريف كابونغسوان الذي حمل الإسلام إلى مينداناو، صدّ الغزوات الإسبانية عقودًا وحال دون انتشار الكاثوليكية في الجزيرة، وخاطب داتوات لاناو سنة 1639 خطابًا مشهورًا في الدفاع عن الحرية، وعقد معاهدة مع الإسبان سنة 1645، وتُسمّى باسمه مقاطعة وبلدية في الفلبين اليوم."
+  en: "Muhammad Dipatuan Kudarat (1581-1671) was the seventh sultan of Maguindanao in Mindanao, in the Philippines, reigning from about 1616 or 1619 until his death. A descendant of Shariff Kabungsuwan, who had brought Islam to Mindanao, he fought off Spanish invasions for decades and halted the spread of Catholicism on the island, addressed the datus of Lanao in 1639 in a famous speech in defence of liberty, and concluded a treaty with Spain in 1645; a Philippine province and municipality bear his name today."
+  ur: "محمد دیپاتوان قدرت اللہ (1581ء–1671ء) فلپائن کے مینداناؤ میں ماگوئنداناؤ کے ساتویں سلطان تھے، جن کا دور تقریباً 1616ء یا 1619ء سے وفات تک رہا۔ شریف کابونگ سوان کی نسل سے تھے جنہوں نے مینداناؤ میں اسلام پہنچایا؛ انھوں نے دہائیوں تک ہسپانوی حملے روکے اور جزیرے میں کیتھولک مذہب کا پھیلاؤ روکا، 1639ء میں لاناؤ کے داتوؤں سے آزادی کے دفاع میں مشہور خطاب کیا اور 1645ء میں سپین سے معاہدہ کیا؛ آج فلپائن کا ایک صوبہ اور ایک بلدیہ ان کے نام پر ہے۔"
+
+roles: [sultan]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1581"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English, Arabic and Indonesian articles all give 1581. The Wikidata item carries two birth values at normal rank, 1581 and 1590; the articles' 1581 is followed and the 1590 variant is preserved here. The year 1581 spans 988-989 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-muhammad-kudarat-en, source/wikipedia-muhammad-kudarat-ar, source/wikipedia-muhammad-kudarat-id, source/wikidata-muhammad-kudarat]
+
+died:
+  edtf: "1671"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Died at Simuay, in what is now the municipality of Sultan Kudarat, Maguindanao del Norte, at the age of 89-90 according to the English article; the English, Arabic and Indonesian articles and the Wikidata item all give 1671. The year 1671 spans 1081-1082 AH, so no single Hijri year is built. No place entity for Simuay exists on main, so no died_in edge is written."
+  sources: [source/wikipedia-muhammad-kudarat-en, source/wikipedia-muhammad-kudarat-ar, source/wikipedia-muhammad-kudarat-id, source/wikidata-muhammad-kudarat]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself.
+      The articles present him as a Muslim sultan defending an
+      Islamic sultanate: the Arabic article reports that he declared
+      jihad on the Christians in 1656, and the Wikidata item carries
+      a religion statement of Islam in general (Q432), which under
+      the founder's rules settles no school. Dynastic and personal
+      Muslim identity are stated here in full; with no school named
+      for him in any text, his faith is recorded as unknown.
+    sources: [source/wikipedia-muhammad-kudarat-en, source/wikipedia-muhammad-kudarat-ar, source/wikipedia-muhammad-kudarat-id, source/wikidata-muhammad-kudarat]
+
+external_ids: { wikidata: "Q1668453" }
+
+sources:
+  - source/wikipedia-muhammad-kudarat-en
+  - source/wikipedia-muhammad-kudarat-ar
+  - source/wikipedia-muhammad-kudarat-id
+  - source/wikidata-muhammad-kudarat
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Muhammad Kudarat' (revision 1379000051 of 7 October 2026), Arabic Wikipedia 'محمد قدرة الله' (revision 68361059 of 30 October 2024), Indonesian Wikipedia 'Muhammad Kudarat' (revision 29971243 of 25 September 2026) and Wikidata Q1668453 (item revision 2413152774 of 6 October 2025, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Indonesian articles agreeing. Existence checked against origin/main before building, by slug variants (sultan-kudarat, muhammad-kudarat, kudarat) and by QID — no record holds this man. Queue check: the queue's years 1581-1671 are followed. No child_of edge is written: his father Kapitan Laut Buisan has no record on origin/main, and his descent from Shariff Kabungsuwan, stated in the English article, is descent, not sonship."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-179m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

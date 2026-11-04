@@ -1,0 +1,31 @@
+id: event/al-ashari-composes-works-basra
+class: event
+kind: publication
+label:
+  ar: "الأشعري يصنّف «مقالات الإسلاميين» وكتب الرد على المعتزلة"
+  en: "Al-Ash'ari composes Maqalat al-Islamiyyin and his refutations of the Mu'tazila"
+  ur: "اشعری «مقالات الاسلامیین» اور معتزلہ کے رد کی کتب تصنیف کرتے ہیں"
+summary:
+  ar: "بعد توبته أخذ الأشعري يرد على المعتزلة ويهتك عوارهم، وصنّف كتباً كثيرة عدّها بنفسه في «العمد في الرؤية»، منها «الفصول في الرد على الملحدين» في اثني عشر كتاباً، و«خلق الأعمال»، و«الصفات»، و«الرؤية بالأبصار»، و«إيضاح البرهان»، و«اللمع في الرد على أهل البدع»، و«النقض على الجباعي»، و«التفسير» {cite:siyar-alam-nubala 15/85-86}؛ وعند ابن النديم منها «اللمع» و«الموجز» و«التبيين عن أصول الدين» و«الشرح والتفصيل في الرد على أهل الإفك والتضليل» {cite:fihrist-ibn-al-nadim pp. 648-649}. وأشهرها «مقالات الإسلاميين واختلاف المصلين»، كتابه الوصفي الذي يعرض مذاهب الفرق وأظهر فيه إحاطة تفصيلية بآراء المعتزلة {cite:encyclopaedia-of-islam-2 vol. 1 p. 743} {cite:maqalat-islamiyyin}."
+  en: "After his repentance al-Ash'ari set about refuting the Mu'tazila, and composed the many works he himself lists in al-Umd fi'l-Ru'ya, among them al-Fusul fi'l-Radd ala'l-Mulhidin in twelve books, Khalq al-A'mal, al-Sifat, al-Ru'ya bi'l-Absar, Idah al-Burhan, al-Luma' fi'l-Radd ala Ahl al-Bida', al-Naqd ala'l-Jubba'i, and a tafsir {cite:siyar-alam-nubala 15/85-86}; Ibn al-Nadim names al-Luma', al-Mujaz, al-Tabyin an Usul al-Din and al-Sharh wa'l-Tafsil fi'l-Radd ala Ahl al-Ifk wa'l-Tadlil {cite:fihrist-ibn-al-nadim pp. 648-649}. Most famous is his Maqalat al-Islamiyyin wa-Ikhtilaf al-Musallin, the descriptive work presenting the doctrines of the sects which displays his intimate knowledge of Mu'tazilite views {cite:encyclopaedia-of-islam-2 vol. 1 p. 743} {cite:maqalat-islamiyyin}."
+  ur: "توبہ کے بعد اشعری معتزلہ کے رد میں مشغول ہوئے اور بہت سی کتب تصنیف کیں جن کی فہرست انہوں نے خود «العمد فی الرؤیہ» میں دی، جن میں «الفصول فی الرد علی الملحدین» (بارہ کتب)، «خلق الاعمال»، «الصفات»، «الرؤیہ بالابصار»، «ایضاح البرہان»، «اللمع فی الرد علی اہل البدع»، «النقض علی الجباعی» اور ایک تفسیر شامل ہیں {cite:siyar-alam-nubala 15/85-86}؛ ابن الندیم نے «اللمع»، «الموجز»، «التبیین عن اصول الدین» اور «الشرح والتفصیل فی الرد علی اہل الافک والتضلیل» کے نام لیے {cite:fihrist-ibn-al-nadim pp. 648-649}۔ سب سے مشہور «مقالات الاسلامیین واختلاف المصلین» ہے، فرقوں کے مذاہب پر ان کی وصفی کتاب جو معتزلہ کے عقائد سے ان کی گہری واقفیت دکھاتی ہے {cite:encyclopaedia-of-islam-2 vol. 1 p. 743} {cite:maqalat-islamiyyin}۔"
+wings: [time]
+themes: [creed]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0914/0936", calendar: julian, precision: year, status: tradition, derived: true, note: "المصادر لا تؤرخ التصنيف؛ وقع بين توبته سنة ٣٠٠هـ ووفاته سنة ٣٢٤هـ {cite:encyclopaedia-of-islam-2 vol. 1 p. 743} {cite:siyar-alam-nubala 15/85-86}.", sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala, source/fihrist-ibn-al-nadim] }
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-ashari, role: "المصنّف", sources: [source/siyar-alam-nubala, source/fihrist-ibn-al-nadim, source/maqalat-islamiyyin] }
+  - { type: mentions, target: work/maqalat-islamiyyin, sources: [source/encyclopaedia-of-islam-2, source/maqalat-islamiyyin] }
+  - { type: mentions, target: work/al-luma-ashari, sources: [source/fihrist-ibn-al-nadim, source/siyar-alam-nubala] }
+  - { type: mentions, target: work/al-ibana-ashari, sources: [source/fihrist-ibn-al-nadim, source/siyar-alam-nubala] }
+sources: [source/siyar-alam-nubala, source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2, source/maqalat-islamiyyin]
+provenance:
+  layer: own-research
+  source: "سير أعلام النبلاء 15/85-86 (قائمة الأشعري لكتبه في العمد في الرؤية)؛ الفهرست ص 648-649؛ EI2 vol. 1 PDF p. 743 = printed p. 694"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-ashari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

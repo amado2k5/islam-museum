@@ -23,10 +23,32 @@ born:
   sources: [source/wikipedia-montek-singh-ahluwalia-en, source/wikipedia-montek-singh-ahluwalia-hi, source/wikidata-montek-singh-ahluwalia]
 relations: []
 faith:
-  - value: unknown
-    basis: unknown
-    note: "FLAGGED for the founder — attested affiliation with NO enum value, preserved verbatim. The Hindi article's infobox carries the religion field 'सिख धर्म' (Sikhism) for him personally; that is one infobox, one source family, and one infobox never counts. The Hindi text itself says only that he was born into a Punjabi Kalal family — family background. The English and Urdu articles name no religion, and Wikidata carries no religion value. Two further bars apply: first, no second independent text naming his affiliation was found in the sources read; second, schema/enums/faith.yaml contains no Sikh value at all, so even a fully attested Sikh affiliation could not be recorded as a value — under the wave-91 §B no-enum precedent it is preserved here in the note rather than recorded under an improvised value. Recorded unknown, flagged. He is in the queue as a non-Muslim contemporary of the group's subjects, and is built as the person the queue line names, on the Kosta Khetagurov precedent."
-    sources: [source/wikipedia-montek-singh-ahluwalia-en, source/wikipedia-montek-singh-ahluwalia-ur, source/wikipedia-montek-singh-ahluwalia-hi, source/wikidata-montek-singh-ahluwalia]
+  - value: sikh
+    basis: documented
+    note: >-
+      FLAGGED for the founder — attested affiliation with NO enum value,
+      preserved verbatim. The Hindi article's infobox carries the religion
+      field 'सिख धर्म' (Sikhism) for him personally; that is one infobox,
+      one source family, and one infobox never counts. The Hindi text itself
+      says only that he was born into a Punjabi Kalal family — family
+      background. The English and Urdu articles name no religion, and
+      Wikidata carries no religion value. Two further bars apply: first, no
+      second independent text naming his affiliation was found in the
+      sources read; second, schema/enums/faith.yaml contains no Sikh value
+      at all, so even a fully attested Sikh affiliation could not be
+      recorded as a value — under the wave-91 §B no-enum precedent it is
+      preserved here in the note rather than recorded under an improvised
+      value. Recorded unknown, flagged. He is in the queue as a non-Muslim
+      contemporary of the group's subjects, and is built as the person the
+      queue line names, on the Kosta Khetagurov precedent. Settled
+      sikh/documented by the founder's ruling of 1 November 2026 (rulings
+      packet #3, Part 7: the enum gained the sikh value on the founder's
+      direction).
+    sources:
+      - source/wikipedia-montek-singh-ahluwalia-en
+      - source/wikipedia-montek-singh-ahluwalia-ur
+      - source/wikipedia-montek-singh-ahluwalia-hi
+      - source/wikidata-montek-singh-ahluwalia
 external_ids: { wikidata: "Q3322629" }
 sources: [source/wikipedia-montek-singh-ahluwalia-en, source/wikipedia-montek-singh-ahluwalia-ur, source/wikipedia-montek-singh-ahluwalia-hi, source/wikidata-montek-singh-ahluwalia]
 provenance:

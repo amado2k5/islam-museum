@@ -1,0 +1,27 @@
+id: event/al-zamakhshari-ijaza-533
+class: event
+kind: other
+label:
+  ar: "إجازة الجواليقي للزمخشري ببغداد، ٥٣٣هـ/١١٣٨م"
+  en: "Al-Jawaliqi's ijaza to al-Zamakhshari at Baghdad, 533/1138"
+  ur: "بغداد میں جوالیقی کی طرف سے زمخشری کو اجازہ، 533ھ/1138ء"
+summary:
+  ar: "سنة ٥٣٣هـ/١١٣٨م خرج الزمخشري في سفرة أخرى إلى مكة مرّ خلالها ببغداد، فزار الأديب المشهور أبا منصور موهوب بن الجواليقي وتلقّى إجازته {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}؛ وقد سمع الزمخشري ببغداد في أسفاره وكانت له فيها مناظرات مع علمائها {cite:shadharat-dhahab p. 599} {cite:encyclopaedia-of-islam-2 vol. 12 p. 917}."
+  en: "In 533/1138 al-Zamakhshari made a further trip to Mecca, passing through Baghdad where he visited the celebrated man of letters Abu Mansur Mawhub ibn al-Jawaliqi and received his ijaza {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}. He had heard hadith in Baghdad on his journeys and debated with its scholars {cite:shadharat-dhahab p. 599} {cite:encyclopaedia-of-islam-2 vol. 12 p. 917}."
+  ur: "533ھ/1138ء میں زمخشری نے مکہ کا ایک اور سفر کیا جس میں وہ بغداد سے گزرے؛ وہاں انہوں نے مشہور ادیب ابو منصور موہوب بن جوالیقی سے ملاقات کی اور ان سے اجازہ حاصل کیا {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}۔ اپنے سفروں میں انہوں نے بغداد میں حدیث سنی اور اس کے علما سے مباحثے کیے {cite:shadharat-dhahab p. 599} {cite:encyclopaedia-of-islam-2 vol. 12 p. 917}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq, arabia]
+date:
+  start: { edtf: "1138~", hijri: "0533~", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٥٣٣هـ/١١٣٨م مرّ ببغداد فأخذ إجازة ابن الجواليقي {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-zamakhshari, role: "المُجاز", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 12 (Supplement), art. al-Zamakhshari 2 (J. van Ess), PDF p. 918; شذرات الذهب s.a. 538, printed p. 599 (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-zamakhshari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

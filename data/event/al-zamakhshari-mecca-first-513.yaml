@@ -1,0 +1,28 @@
+id: event/al-zamakhshari-mecca-first-513
+class: event
+kind: pilgrimage
+label:
+  ar: "حجّة الزمخشري الأولى وضيافة ابن وهّاس، نحو ٥١٣هـ/١١١٩م"
+  en: "Al-Zamakhshari's first pilgrimage and the hospitality of Ibn Wahhas, c. 513/1119"
+  ur: "زمخشری کا پہلا حج اور ابن وہاس کی مہمان نوازی، تقریباً 513ھ/1119ء"
+summary:
+  ar: "بعد أن عُفي من مرضه مرّ الزمخشري ببغداد فناظر فيها الحنفيّ أحمد بن علي الدامغاني والنحويّ الشريف هبة الله بن الشجري، ثم حجّ فاستقبله أمير مكة الشريف علي بن حمزة بن وهّاس — المتكلم الزيدي المعتزلي — فأقام ضيفاً مكرَّماً عنده سنتين، وجال خلالها في نواحي الجزيرة واليمن، ثم عاد إلى جرجانية حيث أكرمه الخوارزمشاهان محمد بن أنوشتكين (ت ٥٢١هـ/١١٢٧م) وابنه أتسز {cite:encyclopaedia-of-islam-2 vol. 12 p. 917-918}."
+  en: "On recovering, al-Zamakhshari visited Baghdad and debated with the Hanafi jurist Ahmad ibn Ali al-Damaghani and the grammarian al-Sharif Hibat Allah ibn al-Shajari. He then made the pilgrimage and was welcomed by the amir of Mecca, the Mu'tazili Zaydi man of letters Sharif Ali ibn Hamza ibn Wahhas, staying with him two years as a greatly honoured guest and visiting parts of Arabia and Yemen, before returning to Jurjaniyya, where the Khwarazmshahs Muhammad ibn Anushtakin (d. 521/1127) and his son Atsiz honoured him {cite:encyclopaedia-of-islam-2 vol. 12 p. 917-918}."
+  ur: "شفا کے بعد زمخشری بغداد گئے جہاں حنفی فقیہ احمد بن علی دامغانی اور نحوی شریف ہبت اللہ بن شجری سے مباحثے ہوئے۔ پھر انہوں نے حج کیا اور مکہ کے امیر، معتزلی زیدی ادیب شریف علی بن حمزہ بن وہاس نے ان کا استقبال کیا؛ وہ دو برس ان کے مکرَّم مہمان رہے اور جزیرہ نما اور یمن کے بعض علاقوں کا سفر کیا، پھر جرجانیہ لوٹے جہاں خوارزم شاہ محمد بن انوشتکین (وفات 521ھ/1127ء) اور اس کے بیٹے اتسز نے ان کا احترام کیا {cite:encyclopaedia-of-islam-2 vol. 12 p. 917-918}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, arabia]
+date:
+  start: { edtf: "1119~", hijri: "0513~", calendar: julian, precision: year, status: tradition, derived: true, note: "حجّ بعد شفائه من مرض سنة ٥١٢هـ فأقام بمكة سنتين ضيفاً على الشريف ابن وهّاس؛ السنة تقريبية والتحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 12 p. 917-918}." }
+  end: { edtf: "1121~", hijri: "0515~", calendar: julian, precision: year, status: tradition, derived: true, note: "أقام عند الأمير سنتين ثم عاد إلى جرجانية {cite:encyclopaedia-of-islam-2 vol. 12 p. 917-918}." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-zamakhshari, role: "الحاج المجاور", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 12 (Supplement), art. al-Zamakhshari 2 (J. van Ess), PDF pp. 917-918 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-zamakhshari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

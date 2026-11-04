@@ -1,0 +1,29 @@
+id: event/tirmidhi-rihla-lands-230
+class: event
+kind: other
+label:
+  ar: "رحلة الترمذي في طلب الحديث بأقاليم خراسان والعراق والحجاز، نحو ٢٣٠هـ"
+  en: "Al-Tirmidhi's hadith journeys through the lands of Khurasan, Iraq and the Hijaz, c. 230/845"
+  ur: "ترمذی کا طلبِ حدیث کا سفر خراسان، عراق اور حجاز، تقریباً 230ھ/845ء"
+summary:
+  ar: "طاف الترمذي في رحلته العلمية بأقاليم خراسان والعراق والحجاز وأكثر من السماع والجمع {cite:mawsuat-a3lam-ulama-adaba p. 450}؛ ورحل بعيداً في طلب الحديث عبر خراسان والعراق والحجاز، وكان في عداد تلاميذ البخاري ومسلم وأبي داود السجستاني {cite:encyclopaedia-of-islam-2 vol. 10 p. 579} {cite:mawsuat-a3lam-ulama-adaba p. 451}."
+  en: "Al-Tirmidhi ranged on his scholarly journey through the lands of Khurasan, Iraq and the Hijaz, hearing and gathering copiously {cite:mawsuat-a3lam-ulama-adaba p. 450}; he travelled widely in search of traditions through Khurasan, Iraq and the Hijaz, counting among the pupils of al-Bukhari, Muslim and Abu Dawud al-Sijistani {cite:encyclopaedia-of-islam-2 vol. 10 p. 579} {cite:mawsuat-a3lam-ulama-adaba p. 451}."
+  ur: "ترمذی نے اپنی علمی مسافرت میں خراسان، عراق اور حجاز کے علاقوں کا سفر کیا اور کثرت سے سماعت و جمع کیا {cite:mawsuat-a3lam-ulama-adaba p. 450}؛ وہ طلبِ حدیث میں خراسان، عراق اور حجاز وسیع سفر کرتے رہے اور بخاری، مسلم اور ابو داؤد سجستانی کے تلامذہ میں شمار ہوئے {cite:encyclopaedia-of-islam-2 vol. 10 p. 579} {cite:mawsuat-a3lam-ulama-adaba p. 451}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia, arabia, levant-iraq]
+date:
+  start: { edtf: "0845~", hijri: "0230~", calendar: julian, precision: decade, status: tradition, derived: true, note: "لا يؤرخه المصدر؛ رحلته في أقاليم خراسان والعراق والحجاز {cite:mawsuat-a3lam-ulama-adaba p. 450} {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}، وسماعه من مشايخ متوفين بين ٢٣٩هـ و٢٥٧هـ {cite:mawsuat-a3lam-ulama-adaba p. 451} يجعلها في عشرينات الثلاثين وأوائلها؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/khurasan, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/iraq, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/hijaz, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-tirmidhi-muhammad-ibn-isa, role: "الطالب الراحل", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء ج4 ص450-451 (harvest OCR v04 pages 450-451); Encyclopaedia of Islam 2nd ed. vol. 10, art. al-Tirmidhi, printed p. 579"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-tirmidhi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -2,13 +2,7 @@
 id: person/muhammad-ibn-abd-allah-ibn-tahir
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 29"]
 ---
-
 ## Overview
-Muhammad ibn Abdallah ibn Tahir, governor of Baghdad. Al-Suyuti says that al-Mu'tazz bestowed on him a robe of kingship, girded him with two swords, and then dismissed him. {cite:tarikh-khulafa-minhaj-1434 p.557}
-
-## Congratulation on a killing
-Al-Mas'udi relates that he was congratulated on the killing of Yahya ibn Umar, and that Abu Hashim al-Ja'fari came in and objected to congratulating anyone for the killing of a man of the House of the Prophet. Ibn Tahir then ordered the head taken down, when he saw how the people reacted. {cite:muruj-al-dhahab p.530-531}
-
-The years of his life and the details of his governorship need an additional source.
+Muhammad ibn Abd Allah ibn Tahir, amir of Baghdad; al-Mas'udi records he was congratulated on the killing of Yahya ibn Umar, and Abu Hashim al-Ja'fari came in and said 'you rejoice at the killing of a man whose death, were the Messenger alive, would have brought condolences', then cried 'sons of Tahir, eat it raw — the Prophet's flesh is indigestible' — whereupon Ibn Tahir ordered the head taken down.

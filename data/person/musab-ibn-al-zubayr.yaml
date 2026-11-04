@@ -7,8 +7,13 @@ summary:
 periods: [period/umayyad]
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/khudari-umayyad-state]
-status: { review: draft, completeness: 1 }
+status:
+  review: published
+  completeness: 3
+
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch27

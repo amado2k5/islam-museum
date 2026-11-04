@@ -1,0 +1,27 @@
+id: event/birth-al-zamakhshari-467
+class: event
+kind: birth
+label:
+  ar: "ولادة الزمخشري بزمخشر، ٤٦٧هـ/١٠٧٥م"
+  en: "Birth of al-Zamakhshari at Zamakhshar, 467/1075"
+  ur: "زمخشر میں زمخشری کی پیدائش، 467ھ/1075ء"
+summary:
+  ar: "وُلد أبو القاسم محمود بن عمر بن محمد الزمخشري الخوارزمي يوم الأربعاء سابع عشري رجب سنة سبع وستين وأربعمائة بزمخشر في خوارزم {cite:shadharat-dhahab p. 601}؛ ويذكر غيره أنه وُلد في ٢٧ رجب ٤٦٧هـ الموافق ١٨ آذار ١٠٧٥م {cite:encyclopaedia-of-islam-2 vol. 11 p. 449-450}. كان أبوه إمام مسجد البلدة فعلّمه القرآن {cite:encyclopaedia-of-islam-2 vol. 12 p. 917}."
+  en: "Abu al-Qasim Mahmud ibn Umar ibn Muhammad al-Zamakhshari al-Khwarazmi was born on Wednesday 17 Rajab 467 at Zamakhshar in Khwarazm {cite:shadharat-dhahab p. 601}; others give 27 Rajab 467, corresponding to 18 March 1075 {cite:encyclopaedia-of-islam-2 vol. 11 p. 449-450}. His father, imam of the local mosque, taught him the Qur'an {cite:encyclopaedia-of-islam-2 vol. 12 p. 917}."
+  ur: "ابوالقاسم محمود بن عمر بن محمد زمخشری خوارزمی بدھ کے دن 17 رجب 467ھ کو خوارزم کے شہر زمخشر میں پیدا ہوئے {cite:shadharat-dhahab p. 601}؛ بعض کے نزدیک 27 رجب 467ھ بمطابق 18 مارچ 1075ء {cite:encyclopaedia-of-islam-2 vol. 11 p. 449-450}۔ ان کے والد شہر کی مسجد کے امام تھے اور انہی نے انہیں قرآن پڑھایا {cite:encyclopaedia-of-islam-2 vol. 12 p. 917}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1075-03~", hijri: "0467-07-17", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الأربعاء ١٧ رجب ٤٦٧هـ {cite:shadharat-dhahab p. 601}؛ الموسوعة الإسلامية تعطي ٢٧ رجب ٤٦٧هـ = ١٨ آذار ١٠٧٥م {cite:encyclopaedia-of-islam-2 vol. 11 p. 449-450}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/zamakhshar, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-zamakhshari, role: "المولود", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد، س.a. 538، مطبوع pp. 601 (harvest scan); Encyclopaedia of Islam 2nd ed. vol. 11 pp. 449-450 and vol. 12 (Supplement) p. 917"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-zamakhshari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

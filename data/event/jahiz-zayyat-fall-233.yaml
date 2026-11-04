@@ -1,0 +1,28 @@
+id: event/jahiz-zayyat-fall-233
+class: event
+kind: other
+label:
+  ar: "سقوط ابن الزيات وكارثة تكاد تنزل بالجاحظ"
+  en: "Fall of Ibn al-Zayyat nearly proves fatal to al-Jahiz"
+  ur: "ابن زیات کی گراوٹ جاحظ پر قریب الوقوع آفت بن گئی"
+summary:
+  ar: "اتصل الجاحظ في بغداد بالوزير محمد بن عبد الملك الزيات، فلما سقط ابن الزيات سنة ٢٣٣هـ/٨٤٧م كاد سقوطه يهوي بالرجلين جميعاً، ثم لزم الجاحظ بعد ذلك قاضي القضاة أحمد بن أبي دؤاد (ت ٢٤٠هـ/٨٥٤م) وابنه محمد (ت ٢٣٩هـ/٨٥٣م)، ثم الفتح بن خاقان (ت ٢٤٧هـ/٨٦١م) {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+  en: "In Baghdad al-Jahiz attached himself to the vizier Muhammad ibn Abd al-Malik al-Zayyat; when al-Zayyat fell from favour in 233/847 the fall almost proved fatal to both men. Al-Jahiz then attached himself successively to the chief qadi Ahmad ibn Abi Du'ad (d. 240/854) and his son Muhammad (d. 239/853), and finally to al-Fath ibn Khakan (d. 247/861) {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+  ur: "بغداد میں جاحظ وزیر محمد بن عبدالملک زیات سے جُڑے؛ جب 233ھ/847ء میں ابن زیات کی گراوٹ ہوئی تو یہ دونوں کے لیے قریباً مہلک ثابت ہونے والی تھی۔ اس کے بعد جاحظ بالترتیب قاضی القضاة احمد بن ابی دؤاد (متوفی 240ھ/854ء) اور ان کے بیٹے محمد (متوفی 239ھ/853ء)، اور آخر میں فتح بن خاقان (متوفی 247ھ/861ء) سے وابستہ ہوئے {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+wings: [time]
+themes: [history-writing-and-social-thought]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0847", hijri: "0233", calendar: julian, precision: year, status: historical, derived: true, note: "سقوط ابن الزيات سنة ٢٣٣هـ/٨٤٧م عند الموسوعة {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-jahiz, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 2, art. 'al-Djahiz' (Ch. Pellat), printed p. 385, Apple Vision OCR of the local harvest copy (books/encyclopaedia-of-islam-2/Encyclopaedia_of_Islam_vol_2_C-G)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-jahiz-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

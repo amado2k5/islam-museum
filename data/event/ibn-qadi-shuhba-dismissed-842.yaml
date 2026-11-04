@@ -1,0 +1,27 @@
+id: event/ibn-qadi-shuhba-dismissed-842
+class: event
+kind: other
+label:
+  ar: "عزل ابن قاضي شهبة وتولية ابن حجي قضاء دمشق، ذو القعدة ٨٤٢هـ"
+  en: "Ibn Qadi Shuhba dismissed, Ibn Hajji made judge of Damascus, Dhu al-Qa'da 842"
+  ur: "ابن قاضی شہبہ کا عزل اور ابن حجی کا قاضی دمشق بننا، ذو القعدہ 842ھ"
+summary:
+  ar: "في ثالث ذي القعدة سنة اثنتين وأربعين وثمانمئة خُلع على بهاء الدين محمد بن نجم الدين عمر بن حجي كاتب السر بدمشق واستُقر في قضاء القضاة الشافعية بدمشق عوضاً عن تقي الدين ابن قاضي شهبة مع ما بيده من كتابة السر؛ وكان ابن حجي قد قبض عليه الأمير إينال الحكمي لما ثار بدمشق وأخذ منه مالاً، فكتب إلى السلطان حتى فرّق التحف السلطانية في الأمراء وفرّ وقدم القاهرة، فجُوزي بإضافة القضاء إليه بسفارة حمية المقر الكمالي محمد بن البارزي كاتب السر وعناية عظيم الدولة زين الدين عبد الباسط {cite:suluk-maqrizi p. 1135}."
+  en: "On the third of Dhu al-Qa'da 842, Baha' al-Din Muhammad ibn Najm al-Din Umar ibn Hajji, the confidential secretary of Damascus, was robed and installed as chief Shafi'i judge of Damascus in place of Taqi al-Din Ibn Qadi Shuhba, keeping his secretariat as well. Ibn Hajji had been seized by the rebel governor Inal al-Hakimi in Damascus, who took money from him; he wrote to the sultan, distributed the royal presents among the amirs, fled to Cairo, and was rewarded with the judgeship through the patronage of al-Maqarr al-Kamali Muhammad ibn al-Barizi and the minister Zayn al-Din Abd al-Basit {cite:suluk-maqrizi p. 1135}."
+  ur: "ذو القعدہ 842ھ کے تیسرے دن بہاء الدین محمد بن نجم الدین عمر بن حجی، کاتب السر دمشق، کو خلعت پہنائی گئی اور وہ تقی الدین ابن قاضی شہبہ کے بدل دمشق کا قاضی القضاۃ شافعی مقرر ہوا، اپنے پاس کاتب السر بھی رہا۔ ابن حجی کو باغی نائب اینال حکمی نے دمشق میں گرفتار کر کے مال لیا تھا؛ اس نے سلطان کو لکھا، امراء میں تحائف بانٹے، قاہرہ بھاگ آیا اور مقر کمالی محمد بن البارزی اور وزیر زین الدین عبد الباسط کی سفارش سے قضاء ملا {cite:suluk-maqrizi p. 1135}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1439-04-14~", hijri: "0842-11-03", calendar: julian, precision: day, status: historical, derived: true, note: "ثالث ذي القعدة ٨٤٢ {cite:suluk-maqrizi p. 1135}؛ التحويل مشتق.", sources: [source/suluk-maqrizi] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/ibn-qadi-shuhba, role: "المعزول", sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/bahaa-al-din-ibn-hajji, role: "كاتب السر الذي استُقر مكانه", sources: [source/suluk-maqrizi] }
+sources: [source/suluk-maqrizi]
+provenance:
+  layer: own-research
+  source: "السلوك للمقريزي (ط دار الكتب 1973، ج٤ ق٣، سنة 842، شهر ذو القعدة) ص 1135، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: explorer-ibn-qadi-shuhba-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

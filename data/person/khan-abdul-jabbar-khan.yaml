@@ -1,0 +1,48 @@
+id: person/khan-abdul-jabbar-khan
+class: person
+label: { ar: "خان عبد الجبار خان", en: "Khan Abdul Jabbar Khan", ur: "خان عبد الجبار خان" }
+names:
+  - { value: "Khan Abdul Jabbar Khan", kind: full }
+  - { value: "Dr. Khan Sahib", kind: laqab }
+gender: male
+summary:
+  ar: "طبيب وسياسي بشتوني (1883–1958) من أوتمانزاي، الأخ الأكبر لعبد الغفار خان، عُرف بـ«الدكتور خان صاحب». درس الطب في بومباي ولندن وخدم في الحرب الأولى، ثم قاد حكومة المقاطعة الحدودية الشمالية الغربية، وعارض تقسيم الهند، وصار أول رئيس وزراء لباكستان الغربية سنة 1955، واغتيل في لاهور سنة 1958."
+  en: "Pashtun physician and politician (1883–1958) from Utmanzai, elder brother of Abdul Ghaffar Khan, known as Dr. Khan Sahib. He studied medicine at Bombay and London and served in the First World War, led the government of the North-West Frontier Province, opposed the Partition of India, became the first Chief Minister of West Pakistan in 1955, and was assassinated at Lahore in 1958."
+  ur: "اتمانزئی سے تعلق رکھنے والے پشتون طبیب اور سیاست دان (1883ء–1958ء)، عبد الغفار خان کے بڑے بھائی، ’ڈاکٹر خان صاحب‘ کے نام سے مشہور۔ انھوں نے بمبئی اور لندن میں طب پڑھی اور پہلی جنگِ عظیم میں خدمات انجام دیں، شمال مغربی سرحدی صوبے کی حکومت کی قیادت کی، تقسیمِ ہند کی مخالفت کی، 1955ء میں مغربی پاکستان کے پہلے وزیرِ اعلیٰ بنے اور 1958ء میں لاہور میں قتل ہوئے۔"
+roles: [physician, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1883"
+  hijri: "1300"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "BIRTH-YEAR CONFLICT: the English and Arabic article texts both give 1883, at Utmanzai in Charsadda, to a Muhammadzai Pashtun family, his father Bahram Khan a local landlord; Wikidata gives 1882 (year precision), and the century queue followed Wikidata. The record follows the two article texts and records the variant. The Hijri year is a conversion of 1883. No place entity exists for Utmanzai or Charsadda, so no born_in edge is written."
+  sources: [source/wikipedia-khan-abdul-jabbar-khan-en, source/wikipedia-khan-abdul-jabbar-khan-ar, source/wikidata-khan-abdul-jabbar-khan]
+died:
+  edtf: "1958-05-09"
+  hijri: "1377"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated at Lahore on 9 May 1958, at about 8:30 in the morning, in the garden of his son Sadullah Khan's house; so the English article, the Arabic article and Wikidata, the English article naming the assassin as Atta Mohammad, a dismissed land-revenue clerk, and recording the allegation in some sources that the Khaksar leader Allama Mashraqi ordered it. His body was taken to Utmanzai and buried beside his wife Mary. The Hijri year is a conversion."
+  sources: [source/wikipedia-khan-abdul-jabbar-khan-en, source/wikipedia-khan-abdul-jabbar-khan-ar, source/wikidata-khan-abdul-jabbar-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No fetched text names a school for Khan Abdul Jabbar Khan himself. The articles present him as a Pashtun Muslim political leader; Wikidata carries no religion statement at all. His brother Abdul Ghaffar Khan's article describes the family both brothers were born into as a Sunni Muslim family, but family background never counts as the man's own attestation, so the value stays unknown."
+    sources: [source/wikipedia-khan-abdul-jabbar-khan-en, source/wikipedia-khan-abdul-jabbar-khan-ar, source/wikidata-khan-abdul-jabbar-khan]
+relations:
+  - { type: sibling_of, target: person/khan-abdul-ghaffar-khan, sources: [source/wikipedia-khan-abdul-jabbar-khan-en, source/wikipedia-khan-abdul-jabbar-khan-ar] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-khan-abdul-jabbar-khan-en] }
+external_ids: { wikidata: "Q6400031" }
+sources: [source/wikipedia-khan-abdul-jabbar-khan-en, source/wikipedia-khan-abdul-jabbar-khan-ar, source/wikipedia-khan-abdul-jabbar-khan-ur, source/wikidata-khan-abdul-jabbar-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Khan Abdul Jabbar Khan', rev. 1353771503 of 12 May 2026; Arabic Wikipedia 'خان عبد الجبار خان', rev. 76472972 of 8 September 2026; Urdu Wikipedia 'خان عبدالجبار خان', rev. 9163129 of 26 October 2025; Wikidata Q6400031 (item rev. 2429314244). All read via the MediaWiki/Wikidata APIs on 3 November 2026, every revision id re-asserted with a repeat query. His brother's existing record (person/khan-abdul-ghaffar-khan) names him as having no person record, which this record now supplies; the sibling edge is written once, here. No group entities exist for the Khudai Khidmatgar, the Frontier National Congress or the Republican Party, and no place entities for Utmanzai, Charsadda or Peshawar, so no member_of or born_in edges are written."
+  generated_by: "Muse (Muse Wonder)"
+  run: century-additions-184
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

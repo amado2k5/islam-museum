@@ -1,0 +1,70 @@
+id: person/pakubuwono-i
+class: person
+
+label: { ar: "باكوبوونو الأول", en: "Pakubuwono I", ur: "پاکوبوونو اول" }
+
+names:
+  - { value: "Raden Mas Darajat", kind: given }
+  - { value: "Sampeyan Dalem Ingkang Sinuhun Kanjeng Susuhunan Pakubuwana Senapati ing Ngalaga Abdurrahman Sayyidin Panatagama Khalifatullah Ingkang Jumeneng Kaping I", kind: regnal }
+  - { value: "Pangeran Puger", kind: alternate }
+  - { value: "Pakubuwana I", kind: alternate }
+  - { value: "Sunan Ngalaga", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "باكوبوونو الأول (1648 – 22 شباط 1719)، وُلد باسم رادن ماس داراجات وعُرف قبل ملكه بالأمير بوغير، سوسوهونان ماتارام — نُودي به في 6 تموز 1704 وصارت كارتاسورا بيده من 17 أيلول 1705 حتى وفاته. وهو ابن أصغر لأمانغكورات الأول، دافع عن بليريد سنة 1677، وحارب أخاه غير الشقيق أمانغكورات الثاني حتى استسلامه سنة 1681، وبعد جيل أزاح ابن أخيه أمانغكورات الثالث بدعم هولندي فأسّس سلالة باكوبوونو التي ينحدر منها حكّام سوراكارتا."
+  en: "Pakubuwono I (1648 – 22 February 1719), born Raden Mas Darajat and known before his reign as Prince Puger, was susuhunan of Mataram — proclaimed on 6 July 1704 and master of Kartasura from 17 September 1705 until his death. A younger son of Amangkurat I, he defended Plered in 1677, fought his half-brother Amangkurat II until his own surrender in 1681, and a generation later displaced his nephew Amangkurat III with Dutch support, founding the Pakubuwono line from which the rulers of Surakarta descend."
+  ur: "پاکوبوونو اول (1648ء – 22 فروری 1719ء)، پیدائشی نام رادن ماس داراجات اور تخت سے پہلے شہزادہ پوگیر کے نام سے معروف، ماتارام کے سوسوہونان تھے — 6 جولائی 1704ء کو اعلان ہوا اور 17 ستمبر 1705ء سے وفات تک کارتاسورا ان کے قبضے میں رہا۔ امانگکورات اول کے چھوٹے بیٹے تھے؛ 1677ء میں پلیرید کا دفاع کیا، اپنے سوتیلے بھائی امانگکورات دوم سے لڑے یہاں تک کہ 1681ء میں خود ہتھیار ڈالے، اور ایک نسل بعد ولندیزی مدد سے اپنے بھتیجے امانگکورات سوم کو ہٹا کر پاکوبوونو سلسلہ قائم کیا جس سے سوراکارتا کے حکمران اترتے ہیں۔"
+
+roles: [sultan]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1648"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born at Plered. The English article gives about 1648 and the Wikidata item 1648; the Indonesian article's lead gives 1648 while its infobox alone gives a day, 2 February 1648, which the lead does not support and which is therefore not built. The year 1648 spans 1057-1058 AH, so no single Hijri year is built. No place entity for Plered exists on main, so no born_in edge is written."
+  sources: [source/wikipedia-pakubuwono-i-en, source/wikipedia-pakubuwono-i-id, source/wikidata-pakubuwono-i]
+
+died:
+  edtf: "1719-02-22"
+  calendar: gregorian
+  precision: day
+  status: historical
+  hijri: "1131"
+  note: "Died at Kartasura; the English and Indonesian articles and the Wikidata item all give 22 February 1719, which falls in 1131 AH (conversion derived). No place entity for Kartasura exists on main, so no died_in edge is written."
+  sources: [source/wikipedia-pakubuwono-i-en, source/wikipedia-pakubuwono-i-id, source/wikidata-pakubuwono-i]
+
+relations:
+  - { type: child_of, target: person/amangkurat-i, sources: [source/wikipedia-pakubuwono-i-en, source/wikipedia-pakubuwono-i-id] }
+  - { type: successor_of, target: person/amangkurat-iii, sources: [source/wikipedia-pakubuwono-i-en, source/wikipedia-pakubuwono-i-id] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself. The
+      Javanese chronicles, as both articles report, depict him as a
+      great and wise ruler, and his regnal style carries the same
+      Panatagama and Khalifatullah titles as his father's; chronicle
+      characterisation, royal styles and dynastic context settle no
+      school under the founder's rules, so his faith is recorded as
+      unknown with the record stated.
+    sources: [source/wikipedia-pakubuwono-i-en, source/wikipedia-pakubuwono-i-id]
+
+external_ids: { wikidata: "Q2439218" }
+
+sources:
+  - source/wikipedia-pakubuwono-i-en
+  - source/wikipedia-pakubuwono-i-id
+  - source/wikidata-pakubuwono-i
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Pakubuwono I of Mataram' (revision 1365466235 of 22 July 2026), Indonesian Wikipedia 'Pakubuwana I' (revision 29383859 of 24 June 2026) and Wikidata Q2439218 (item revision 2451618674 of 5 January 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Indonesian article agreeing. The item has no Arabic article. Existence checked against origin/main before building, by slug variants (including paku-buwana-i) and by QID — no record holds this man. Queue check: the queue's dates 1648-1719 are confirmed; the Indonesian infobox's birth day (2 February 1648) is not followed, as above. The articles count his reign from his 1704 proclamation (Indonesian; English succession box) and from the 1705 fall of Kartasura (English text), and both counts are preserved in the prose. His succession edge records his displacement of his nephew Amangkurat III; he was his half-brother Amangkurat II's rival, never his successor, and no such edge is written. The sibling edge from Amangkurat II is written in the elder brother's record in this batch."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-177m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -56,3 +56,9 @@ provenance:
   source: "English, Russian and Chechen Wikipedia articles on Kunta-Haji Kishiev and Wikidata item Q2634976, each read at a recorded revision; existence checked both ways before building — name fragments (kunta, kishiev, кунта) across data/person found only the unrelated mukhtar-al-kunti, the Mauritanian scholar of the Kunta tribe, whose biography was read and is a different man, and Q2634976, grounded through the English article's page properties and confirmed through the Russian and Chechen articles', grepped across all data/person files with zero hits; the Wikidata item was read twice with identical revision and claims, and each article was fetched by its recorded revid with equality asserted. The English article's infobox is internally garbled (it names Kunta-Haji as his own teacher and 'Kunta' as his father) and was not used where the texts and the Russian article give his father as Kishi. No student_of edges are written: his teachers Gezi-Haji of Zandak and Tashev-Haji of Endirey have no records. His Arabic label (كونتا حاجي كيشييف) shares no exact string with any existing record's; it was checked against the two Muhammad records built in this same wave and against imam-shamil's family labels."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-106
+occupations:
+  - job: job/teacher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-kunta-haji-kishiev-en, source/wikipedia-kunta-haji-kishiev-ru, source/wikipedia-kunta-haji-kishiev-ce, source/wikidata-kunta-haji-kishiev]

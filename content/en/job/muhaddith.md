@@ -1,0 +1,66 @@
+---
+id: job/muhaddith
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+In the technical sense, a muhaddith is one who narrates hadith with its chain of transmission, keeps its texts in memory, knows the narrators and judges them reliable or weak. {cite:tdv-muhaddis p.390-392} Some scholars defined the term more widely, as anyone who learned hadith and transmitted it in the accepted manner. {cite:tdv-muhaddis p.390-392} The earliest books on the principles of hadith spoke more often of *ahl al-hadith* (people of hadith) and *sahib al-hadith* (companion of hadith) than of the word muhaddith. {cite:tdv-muhaddis p.390-392}
+
+## Origins
+Hadith was in origin the words, deeds and tacit approvals of the Prophet. With Islam the word came to stand against the Qur'an, and people spoke of verbal, practical and tacit hadith. The encyclopaedia suggests that the Prophet himself was the first to use the word of his own sayings. {cite:tdv-hadis p.27-64}
+
+The Companions first took hadith from the Prophet, and the Successors took it from them. These two generations settled in the main centres after the conquests, and each centre came to carry the hadith of its own. {cite:tdv-hadis p.27-64}
+
+## The isnad and the criticism of narrators
+The encyclopaedia names among the causes of compilation the rise of political and doctrinal groups, such as the Kharijites, the Ghulat, the Qadariyya and the Murji'a, then the Jahmiyya and the Mushabbiha, some of which forged hadith to support their views. {cite:tdv-hadis p.27-64} Forgery by people of interest and passion also made scholars ask who a narrator had learned from, and made them avoid the narrations of innovators. {cite:tdv-hadis p.27-64}
+
+The entry says the isnad became a question in the first half of the eighth century CE, and that after that narrations from Sunni-affiliated narrators were accepted and those from innovators were rejected. {cite:tdv-hadis p.27-64} It dates the science of criticism of narrators (jarh wa-ta'dil) to the first century AH, when the lives, piety, honesty, memory and any innovation of narrators came to be examined and collected. {cite:tdv-hadis p.27-64}
+
+The encyclopaedia reports that [[person/kathir-ibn-murra|Kathir ibn Murra al-Hadrami]] received a letter from Abd al-Aziz ibn Marwan, governor of Egypt between 684 and 705, which mentioned that Abd al-Aziz held the narrations of Abu Hurayra. This shows that officials too took an interest in guarding hadith against forgers. {cite:tdv-hadis p.27-64}
+
+The scholars treated a fault in the wording or meaning of a hadith as sufficient reason to doubt it, and the criticism of the isnad served as a first sifting before the criticism of the text. {cite:tdv-hadis p.27-64}
+
+## Centres of learning and travel
+The encyclopaedia lists the early centres by the Companions and Successors who taught in them. In Medina, Abu Hurayra, Aisha, Ibn Umar and Abu Sa'id al-Khudri lived, and Medina also raised Ibn Shihab al-Zuhri and the seven great jurists among the Successors. In Mecca the Companions included [[person/attab-ibn-usayd|Attab ibn Usayd]] and Abdullah ibn Abbas, and the Successors included Mujahid, Ata ibn Abi Rabah and Amr ibn Dinar. {cite:tdv-hadis p.27-64} In Kufa were Ali, Sa'd ibn Abi Waqqas and Ibn Mas'ud among the Companions, and Alqama, al-Nakha'i and al-Sha'bi among the Successors. In Basra were Anas ibn Malik, Abu Musa al-Ash'ari and Imran ibn Husayn, and al-Hasan al-Basri, Ibn Sirin and Qatada. {cite:tdv-hadis p.27-64} In Syria were Mu'adh ibn Jabal, Ubada ibn al-Samit and Abu al-Darda, and Abu Idris al-Khawlani and Umar ibn Abd al-Aziz among the Successors. In Egypt was Abdullah ibn Amr ibn al-As. The entry also names Companions who settled in the Maghrib, al-Andalus, Khurasan and Transoxiana. {cite:tdv-hadis p.27-64}
+
+Companions travelled to hear what had not reached them from others, and in later generations this became the search for hadith, the *talab al-hadith* or the journey (*rihla*). The entry says Makhul, a memoriser of hadith and a jurist, travelled through Egypt, Iraq, the Hijaz and Syria after his manumission until he had learned what was narrated in those lands. It says the Andalusian [[person/baqi-ibn-makhlad|Baqi ibn Makhlad]] spent thirty-four years of his life in study in the great centres. {cite:tdv-hadis p.27-64}
+
+The entry says the journeys were most common in the second and third centuries AH, lasted to about the end of the fifth century, and that a student went round the great centres and took from the well-known scholars there. Later journeys were made to reach a higher isnad or to find a hadith that had not been heard before. {cite:tdv-hadis p.27-64} It also says that scholars of Basra did not think a student should set out to study before the age of ten, those of Kufa not before fifteen or twenty, and those of Syria not before thirty. {cite:tdv-muhaddis p.390-392}
+
+## Ways of receiving hadith and the licence to narrate
+The entry says the highest way of receiving was hearing from the teacher's own mouth, in which the narrator usually says "he narrated to us" (*haddathana*). {cite:tdv-hadis p.27-64} If the student wrote down what was dictated to him in the teacher's session, this was dictation (*imla*), which the entry counts the strongest; the narrator says "he narrated to us by dictation". {cite:tdv-hadis p.27-64} If the student read to the teacher, or heard what someone else read in the teacher's presence, this was reading back (*ard* or *qira'a*). Such hadith were at first passed on with "he narrated to us", and later more often with "he informed us" (*akhbarana*). {cite:tdv-hadis p.27-64}
+
+Handing over (*munawala*) is when the teacher gives his book to the student and permits him to narrate from it; the entry counts it as an accepted method and the formula is "he informed us" (*anba'ana*). {cite:tdv-hadis p.27-64} Correspondence (*mukatiba*) is when a narrator writes to a scholar he has not met to send him what he narrates; the entry says the Companions too used this way. {cite:tdv-hadis p.27-64} When a teacher adds to his letter a permission to narrate, this is the licence (*ijaza*), and the student passes on what he holds with the formula "he gave us word" (*nabba'ana*). {cite:tdv-hadis p.27-64}
+
+The entry says that a muhaddith gained the right to teach only after long and exhausting study. {cite:tdv-hadis p.27-64} Some scholars held that a student should hear a thousand fascicles of hadith from scholars. {cite:tdv-muhaddis p.390-392} The entry recommends that a student begin with the well-known scholars of his own town for their care in narration and their piety, and then travel to others after taking from them. {cite:tdv-muhaddis p.390-392}
+
+## The conditions and manners of the muhaddith
+Some scholars required the muhaddith to know the isnads and their defects, the high and the low chains, and the names of narrators, to memorise many hadith and to have read many books. {cite:tdv-muhaddis p.390-392} The entry says that five qualities were required of a muhaddith: to hear hadith, to memorise it, to understand it, to act on it, and to teach it to others. {cite:tdv-muhaddis p.390-392} Some scholars, in their own times, were content with truthfulness and with keeping away from innovation and major sins. {cite:tdv-muhaddis p.390-392}
+
+The entry says that the beginner is advised to read first the two Sahihs, then the Sunan of Abu Dawud and al-Nasa'i and the Jami' of al-Tirmidhi, then the Sunan al-Kubra of al-Bayhaqi, the Musnad of Ahmad, and the Muwatta, with books on defects and on narrators, such as Ahmad's *al-Ilal*, al-Bukhari's *al-Tarikh al-kabir* and Ibn Abi Hatim's *al-Jarh wa-l-ta'dil*. {cite:tdv-muhaddis p.390-392} For the correct recording of names, kunyas and nisbas, it recommends Ibn Makula's *al-Ikmal*. {cite:tdv-muhaddis p.390-392}
+
+The entry lists manners for the student: that his purpose be the pleasure of God and the spread of the sunna, not worldly gain from knowledge; that he be humble and respectful towards his teacher; that he not take pride in narrating from someone younger than himself; and that he not think, after a little study, that he has become a muhaddith. {cite:tdv-muhaddis p.390-392} It lists manners for the muhaddith in a dictation session: ablution, taking a dignified seat at the front of the gathering, opening with a reading from the Qur'an, then the basmala, praise and prayer, and then reading the hadith in clear speech. {cite:tdv-muhaddis p.390-392} The session closes with stories and verses on asceticism and manners, given with their chains. {cite:tdv-muhaddis p.390-392}
+
+The entry says that some muhaddith, among them Abu Kilaba, [[person/ayyub-al-sakhtiyani|Ayyub al-Sakhtiyani]], [[person/al-amash-sulayman-ibn-mihran|al-A'mash]], [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] and [[person/al-bukhari|al-Bukhari]], refused to go to rulers to narrate to them, and did not take the money they sent, though they were in need. {cite:tdv-muhaddis p.390-392} The first view was that a muhaddith should not narrate for pay, and that a narrator who took pay was not to be believed. Later the view allowed a fee for teaching hadith, for fear that without it interest in knowledge would fall. {cite:tdv-muhaddis p.390-392}
+
+## Numbers and titles
+The entry says that the early period did not know titles that ranked muhaddith by the number of hadith they memorised, so the standard was learning and ability to understand. {cite:tdv-muhaddis p.390-392} The numbers differed. [[person/ibn-abi-shayba|Abu Bakr ibn Abi Shayba]] said that one who would be a muhaddith must write twenty thousand hadith by dictation. [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] said that one who knows a hundred to two hundred thousand hadith is not called a muhaddith, and that one who knows three hundred thousand is a middling muhaddith. {cite:tdv-muhaddis p.390-392}
+
+The entry says that learning and reason, not age, were what counted for narration, and that some scholars required a person who lived in a place where no one narrated hadith to pass on what he knew. {cite:tdv-muhaddis p.390-392} It says that [[person/al-bukhari|al-Bukhari]] began to narrate in adolescence and corrected the error of some of his teachers; that [[person/malik-ibn-anas|Malik ibn Anas]] narrated hadith at the age of seventeen; and that al-Shafi'i narrated in his youth. {cite:tdv-muhaddis p.390-392}
+
+The entry says that a muhaddith should stop narrating when his memory weakens and signs of senility appear, and that some narrated correctly after the age of one hundred, so eighty was not set as a general limit for narration. {cite:tdv-muhaddis p.390-392} Strong memorisers were honoured in every age, and students and people gathered to hear them in squares in the towns they passed through. {cite:tdv-muhaddis p.390-392} The entry says that a session in which [[person/yazid-ibn-harun|Yazid ibn Harun]] narrated in Baghdad drew great crowds, and that the caliph who saw it said that this was true kingship. {cite:tdv-muhaddis p.390-392} Some leading memorisers were called *amir al-mu'minin fi'l-hadith* (commander of the faithful in hadith). The entry suggests the title may rest on a narration from the Prophet that calls the later narrators of his hadith his successors, and it cites that narration with this caveat. {cite:tdv-muhaddis p.390-392}
+
+## From journey to dar al-hadith
+The entry says that the decline of the journeys came from the gathering of hadith into books, and from the founding, from the fourth century AH, of institutions for teaching hadith. {cite:tdv-hadis p.27-64} It says that the Nizamiyya madrasas, the first of which was in Baghdad, gathered well-known scholars, and that from the sixth century AH the dar al-hadith institutions appeared under that name, first in Damascus and then in Egypt and Baghdad, and later in Anatolia under the Seljuks and the Ottomans and in many Islamic lands. {cite:tdv-hadis p.27-64} Learning hadith thus came to take place in fixed buildings. {cite:tdv-hadis p.27-64}
+
+## Today
+The entries read do not describe the position of the muhaddith in the modern age, and this page makes no claim about it; that needs independent sources. The change the entry describes, from journeys to dar al-hadith institutions, stops in the later medieval centuries. {cite:tdv-hadis p.27-64}
+
+## Not yet covered
+The types of hadith (sahih, hasan, da'if, mursal and others) are not yet written out in detail. Also not yet covered: the Shi'i view of hadith and its narration, a list of the leading figures across the centuries, the tools, libraries and manuscripts, the workplace and what it looked like, travel in modern times, and the image. They need sources not read for this record.
+
+## References
+- TDV İslâm Ansiklopedisi, "HADİS", M. Yaşar Kandemir, vol. 15, pp. 27–64. {cite:tdv-hadis p.27-64}
+- TDV İslâm Ansiklopedisi, "MUHADDİS", M. Yaşar Kandemir, vol. 30, pp. 390–392. {cite:tdv-muhaddis p.390-392}
+- Works named in the bibliographies of these entries, not opened for this record: al-Khatib al-Baghdadi, *al-Jami' li-akhlaq al-rawi wa-adab al-sami'* and *Sharaf ashab al-hadith*; Ibn al-Salah, *al-Muqaddima*; Ibn Jama'a, *Tadhkirat al-sami'*; al-Suyuti, *Tadrib al-rawi*; and others listed in the two bibliographies.

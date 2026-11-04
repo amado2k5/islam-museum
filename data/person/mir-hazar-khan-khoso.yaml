@@ -50,3 +50,9 @@ provenance:
   source: "Built 27 October 2026 for wave 116 §A of the century-additions queue (queue line 641, 'Mir Hazar Khan Khoso — 1929–2021', verified against the queue copy in the fix clone) from the English Wikipedia article 'Mir Hazar Khan Khosa' (revision 1382137209 of 26 October 2026), the Arabic article «مير هزار خان كهوسو» (revision 75459616 of 14 June 2026) and Wikidata Q8168180, each read on 27 October 2026 and each checked against its recorded revision on a second read. No Urdu article exists for him. IDENTITY: pinned by biography to Mir Hazar Khan Khoso, born 30 September 1929, the Balochistan jurist who became caretaker prime minister in 2013 and died 26 June 2021; the English article spells the name 'Khosa' where the queue line and the record's slug spell it 'Khoso', and both spellings are recorded in names. EXISTENCE: checked three ways before building — name-fragment greps (khoso, khosa, hazar) across data/person/ returned no file for him; his QID Q8168180, grounded through the articles' page properties, was grepped across all data/person/ files with no match; and the biography matches no existing record. FAITH: unknown FLAGGED — generic Islam only in the Arabic infobox and Wikidata (see the faith note). RELATIONS: none written — neither his birthplace in Jaffarabad District nor his death place Quetta has a place entity, and all office successions are refused by lane rule."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-116
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-mir-hazar-khan-khoso-en, source/wikipedia-mir-hazar-khan-khoso-ar, source/wikidata-mir-hazar-khan-khoso]

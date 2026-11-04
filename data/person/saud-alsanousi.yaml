@@ -1,0 +1,34 @@
+id: person/saud-alsanousi
+class: person
+label: { ar: "سعود السنعوسي", en: "Saud Alsanousi", ur: "سعود السنعوسی" }
+names:
+  - { value: "سعود السنعوسي", kind: full }
+  - { value: "Saud Alsanousi", kind: full }
+gender: male
+summary:
+  ar: "روائي وكاتب مسرحي وصحفي كويتي وُلد سنة 1981. بدأ برواية «سجين المرايا» (2010)، وفازت روايته «ساق البامبو» بالجائزة العالمية للرواية العربية سنة 2013 فكان أصغر فائز بها، وتناولت موضوع العمالة الوافدة والهوية في الخليج. من أعماله «فئران أمي حصة» التي تناولت الطائفية في الكويت، وثلاثية «أسفار مدينة الطين» (2023–2024)."
+  en: "Kuwaiti novelist, playwright and journalist, born in 1981. He debuted with The Prisoner of Mirrors (2010); his novel The Bamboo Stalk, about migrant labour and identity in the Gulf, won the International Prize for Arabic Fiction in 2013, making him its youngest winner. His works include Mama Hissa's Mice, on sectarianism in Kuwait, and the trilogy The Scrolls of Mud City (2023–2024)."
+  ur: "کویتی ناول نگار، ڈراما نویس اور صحافی، 1981 میں پیدا ہوئے۔ ان کا پہلا ناول «سجين المرايا» (2010) تھا؛ «ساق البامبو» نے 2013 میں عربی فکشن کا عالمی انعام جیتا اور وہ اس کے سب سے کم عمر فاتح بنے۔ ان کے دیگر کاموں میں «فئران أمي حصة» اور ثلاثیہ «أسفار مدينة الطين» شامل ہیں۔"
+roles: [writer]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1981"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Both articles and Wikidata give only the year 1981; Wikidata records Kuwait (the country item) as his birthplace. The museum has no place entity for Kuwait, so the birthplace is carried in this note and no born_in edge is written. A bare Gregorian year 1981 spans two Hijri years (1401 and 1402), so no Hijri year is recorded."
+  sources: [source/wikipedia-saud-alsanousi-en, source/wikipedia-saud-alsanousi-ar, source/wikidata-saud-alsanousi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion for Alsanousi. His fiction treats Kuwait's religious and sectarian landscape — Mama Hissa's Mice takes sectarian division in Kuwait as its subject and The Bamboo Stalk a protagonist of mixed Kuwaiti and Filipino parentage — but the subjects a novelist chooses are not attestation of his own affiliation. Wikidata carries no religion statement for him. Recorded as unknown."
+    sources: [source/wikipedia-saud-alsanousi-en, source/wikipedia-saud-alsanousi-ar, source/wikidata-saud-alsanousi]
+external_ids: { wikidata: "Q7427043" }
+sources: [source/wikipedia-saud-alsanousi-en, source/wikipedia-saud-alsanousi-ar, source/wikidata-saud-alsanousi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1371558853), Arabic Wikipedia (revision 77009475) and Wikidata Q7427043 (item revision 2547577929, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. No Urdu Wikipedia article on him exists. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-158a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

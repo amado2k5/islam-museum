@@ -1,0 +1,27 @@
+id: event/tabari-tarikh-dictation-302
+class: event
+kind: publication
+label:
+  ar: "بلوغ إملاء الطبري تاريخَه سنة ٣٠٢هـ"
+  en: "al-Tabari's History reaches the year 302 in dictation"
+  ur: "طبری کی تاریخ کا املا 302ھ تک پہنچا"
+summary:
+  ar: "بلغ آخر ما أملاه الطبري من كتابه «تاريخ الرسل والملوك» سنة ٣٠٢هـ/٩١٤م، فيما أخبر ابن النديم؛ وقد اختصره جماعة وحذفوا أسانيده، وألحق به جماعة من حيث قطعه إلى زمان ابن النديم، فيهم أبو محمد عبد الله الفرغاني تلميذ الطبري الذي صنع له ذيلاً اشتمل على ترجمة مطولة له {cite:fihrist-ibn-al-nadim p. 326-327} {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+  en: "The last portion of al-Tabari's History of the Prophets and Kings that he dictated reached the year 302/914, as Ibn al-Nadim reports; scholars afterwards abridged it and stripped its isnads, while others appended continuations from where he stopped, among them his own student Abu Muhammad Abd Allah al-Farghani, whose supplement included a long obituary notice of his master {cite:fihrist-ibn-al-nadim p. 326-327} {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+  ur: "ابن ندیم کی روایت کے مطابق طبری نے اپنی کتاب «تاریخ الرسل والملوک» کا املا 302ھ/914ء تک کرایا؛ بعد کے علماء نے اس کا اختصار کیا اور اسناد حذف کیں، جب کہ بعض نے جہاں وہ رکا تھا وہاں سے اضافہ کیا، جن میں ان ہی کے شاگرد ابو محمد عبد اللہ فرغانی تھے جن کے ذیل میں استاد کی طویل ترجمانی حیات شامل تھی {cite:fihrist-ibn-al-nadim p. 326-327} {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+wings: [time]
+themes: [history-writing-and-social-thought]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0914", hijri: "0302", calendar: julian, precision: year, status: historical, derived: true, note: "قال ابن النديم: آخر ما أملى من التاريخ إلى سنة ٣٠٢هـ؛ السنة الميلادية تحويل مشتق {cite:fihrist-ibn-al-nadim p. 326-327}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Fihrist of Ibn al-Nadim (Ayman Fuad Sayyid ed.), pp. 326-327, Apple Vision OCR of the local harvest copy (books/tareekh/fihrist-ibn-nadim); EI2 vol. 10 p. 21 for al-Farghani's continuation"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-tabari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,27 @@
+id: event/death-al-dhahabi-748
+class: event
+kind: death
+label:
+  ar: "وفاة شمس الدين الذهبي بدمشق، ٧٤٨هـ"
+  en: "Death of Shams al-Din al-Dhahabi at Damascus, 748/1348"
+  ur: "شمس الدین ذہبی کی وفات دمشق میں، 748ھ/1348ء"
+summary:
+  ar: "توفي الذهبي بدمشق ليلة الثالث من ذي القعدة سنة ٧٤٨هـ {cite:durar-kamina-jil-1993 3/338}، وهو ما ورد عند السبكي والسيوطي بليلة الأحد-الاثنين ثالث ذي القعدة الموافق ٤ فبراير ١٣٤٨م، ودُفن بباب الصغير، وأضرّ قبل موته بسنين؛ وكان من أشهر تلاميذه عبد الوهاب السبكي صاحب «طبقات الشافعية الكبرى»، وكان أبوه تقي الدين السبكي أخلص أصدقائه {cite:encyclopaedia-of-islam-2 vol. 2 p. 214-215}."
+  en: "Al-Dhahabi died at Damascus on the night of 3 Dhu al-Qa'da 748 {cite:durar-kamina-jil-1993 3/338} — the Sunday-Monday night corresponding to 4 February 1348 as al-Subki and al-Suyuti report — and was buried at the Bab al-Saghir; he had been blinded some years before. Among his most famous pupils was Abd al-Wahhab al-Subki, author of the Tabaqat al-Shafi'iyya al-Kubra, whose father Taqi al-Din al-Subki was his most intimate friend {cite:encyclopaedia-of-islam-2 vol. 2 p. 214-215}."
+  ur: "ذہبی دمشق میں 3 ذی القعدہ 748ھ کی رات فوت ہوئے {cite:durar-kamina-jil-1993 3/338} — سبکی اور سیوطی کے مطابق اتوار-پیر کی وہ رات 4 فروری 1348ء تھی — اور باب الصغیر میں دفن ہوئے؛ وفات سے کچھ برس پہلے نابینا ہو چکے تھے۔ ان کے مشہور ترین شاگرد عبد الوہاب سبکی، صاحبِ «طبقات الشافعیہ الکبری»، تھے جن کے والد تقی الدین سبکی ان کے گہرے دوست تھے {cite:encyclopaedia-of-islam-2 vol. 2 p. 214-215}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1348-02-04", hijri: "0748-11-03", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة ثالث ذي القعدة ٧٤٨هـ {cite:durar-kamina-jil-1993 3/338} = ٤ فبراير ١٣٤٨م عند السبكي والسيوطي {cite:encyclopaedia-of-islam-2 vol. 2 p. 214}؛ وقيل ٧٥٣هـ عند ابن إياس.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-dhahabi, role: "المتوفَّى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "durar-kamina-jil-1993 vol. 3 p. 338; Encyclopaedia of Islam 2nd ed. vol. 2 (C-G), printed pp. 214-215"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-dhahabi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

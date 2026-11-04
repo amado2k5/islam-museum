@@ -1,0 +1,27 @@
+id: event/ibn-al-abbar-completes-takmila-tunis-650
+class: event
+kind: publication
+label:
+  ar: "ابن الأبار يتم «التكملة لكتاب الصلة» بتونس، نحو ٦٥٠هـ"
+  en: "Ibn al-Abbar finishes al-Takmila li-Kitab al-Sila at Tunis, ~650/1252"
+  ur: "ابن ابار نے تونس میں «التکملة لکتاب الصلة» مکمل کی، ~650ھ/1252ء"
+summary:
+  ar: "أتم ابن الأبار بتونس «كتاب التكملة لكتاب الصلة»، تتمةً لـ«صلة» ابن بشكوال التي كان شيخه أبو الربيع بن سالم قد حمله على إتمامها، فصارت من أعظم معاجم تراجم أعلام الأندلس؛ وهو صاحب نحو خمسة عشر تصنيفًا في نحو خمسة وأربعين مجلدًا، منها «المعجم في أصحاب الصدفي» و«الحلة السيرة» و«تحفة القادم» و«إعتاب الكتاب» و«درر السمت» {cite:encyclopaedia-of-islam-2 vol. 3 p. 705-706}."
+  en: "At Tunis Ibn al-Abbar finished the Kitab al-Takmila li-Kitab al-Sila, the continuation of Ibn Bashkuwal's Sila that his master Abu al-Rabi' ibn Salim had urged him to complete — it became one of the great biographical dictionaries of Andalusian notables. He authored some fifteen works in about forty-five volumes, among them the Mu'jam fi ashab al-Sadafi, al-Hulla al-siyara, Tuhfat al-kadim, I'tab al-kuttab and Durar al-simt {cite:encyclopaedia-of-islam-2 vol. 3 p. 705-706}."
+  ur: "ابن ابار نے تونس میں «التکملة لکتاب الصلة» مکمل کی جو ابن بشکوال کی «صلة» کا تتمہ ہے اور جسے اس کے شیخ ابو الربیع بن سالم نے مکمل کرنے کا کہا تھا — یہ اندلس کے اعلام کے عظیم تراجم معجموں میں شمار ہوا۔ اس کی تقریباً پندرہ تصانیف نحو پینتالیس جلدوں میں ہیں، جن میں «معجم فی اصحاب الصدفی»، «الحلة السیرا»، «تحفة القادم»، «إعتاب الکتاب» اور «درر السمت» شامل ہیں {cite:encyclopaedia-of-islam-2 vol. 3 p. 705-706}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1252~", hijri: "0650~", calendar: julian, precision: year, status: tradition, derived: true, note: "فرغ منها بتونس بعد استقراره بها 636هـ؛ التأريخ التقريبي والتحويل مشتقان {cite:encyclopaedia-of-islam-2 vol. 3 p. 705-706}.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/tunis, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-abbar, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 printed pp. 705-706 (IBN AL-ABBĀR) — Apple Vision OCR of local scans"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-abbar-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

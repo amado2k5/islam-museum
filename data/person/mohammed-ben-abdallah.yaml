@@ -1,0 +1,83 @@
+id: person/mohammed-ben-abdallah
+class: person
+
+label: { ar: "محمد الثالث بن عبد الله", en: "Mohammed ben Abdallah", ur: "محمد بن عبداللہ علوی" }
+
+names:
+  - { value: "Sidi Muhammad bin Abdallah al-Khatib", kind: full }
+  - { value: "محمد بن عبد الله الخطيب بن إسماعيل العلوي", kind: full }
+  - { value: "Muhammad III", kind: regnal }
+  - { value: "Shadow of God on Earth", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "سيدي محمد بن عبد الله الخطيب، المشهور بمحمد الثالث (ق. 1710 – 9 أبريل 1790)، سلطان المغرب من الأسرة العلوية بين 1757 و1790. كان عاملًا على مراكش في عهد أبيه عبد الله بن إسماعيل، فأعاد للدولة وحدتها بعد عقود من الاضطراب على العرش، وعمّر المدن التي خرّبها زلزال 1755 فأسس الصويرة وجدّد الدار البيضاء والرباط، وانتصر على الفرنسيين في العرائش سنة 1765 وأخرج البرتغاليين من مازاغان سنة 1769، وكان سنة 1777 أول حاكم يعترف باستقلال الولايات المتحدة الأمريكية، وختم ذلك بمعاهدة السلام والصداقة المغربية الأمريكية سنة 1786. وصفه عبد الله العروي بأنه «مهندس المغرب الحديث»."
+  en: "Sidi Muhammad bin Abdallah al-Khatib, commonly known as Muhammad III (c. 1710 – 9 April 1790), was the Alawite sultan of Morocco from 1757 to 1790. Governor of Marrakesh under his father Abdallah bin Ismail, he restored the sultanate after decades of succession strife, rebuilt the cities shattered by the 1755 earthquake — founding Essaouira and rebuilding Casablanca and Rabat — defeated the French at Larache in 1765, expelled the Portuguese from Mazagan in 1769, and in 1777 became the first ruler to recognise the independence of the United States, sealing the Moroccan–American Treaty of Peace and Friendship in 1786. Abdallah Laroui described him as 'the architect of modern Morocco'."
+  ur: "سیدی محمد بن عبد اللہ الخطیب، مشہور نام محمد سوم (ق۔ 1710ء – 9 اپریل 1790ء)، 1757ء سے 1790ء تک المغرب کے علوی سلطان رہے۔ والد عبد اللہ بن اسماعیل کے عہد میں مراکش کے گورنر تھے؛ تخت کی دہائیوں کی کشمکش کے بعد سلطنت کو دوبارہ متحد کیا، 1755ء کے زلزلے سے تباہ شدہ شہر آباد کیے — الصویرہ کی بنیاد رکھی اور دار البیضاء و رباط کی تعمیرِ نو کی — 1765ء میں العرائش میں فرانسیسیوں کو شکست دی، 1769ء میں پرتگالیوں کو مازاغان سے نکالا، اور 1777ء میں امریکہ کی آزادی کو تسلیم کرنے والے پہلے حکمران بنے، جس پر 1786ء میں مراکش–امریکہ معاہدۂ امن و دوستی مہر ثبت ہوئی۔ عبد اللہ العروی نے انہیں «جدید المغرب کا معمار» کہا۔"
+
+roles: [ruler]
+regions: [maghreb]
+wings: [people]
+
+born:
+  edtf: "1710~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The sources give only c. 1710, at Fez — so the English article, the Arabic article's biographical section and the Urdu article; the Arabic article's lead names Meknes instead, against its own body. The Arabic infobox pairs the year with 1134 AH, but 1134 AH falls in 1721–1722 and cannot pair with 1710, so that pairing is inconsistent and the Hijri year is omitted."
+  sources: [source/wikipedia-mohammed-ben-abdallah-en, source/wikipedia-mohammed-ben-abdallah-ar, source/wikipedia-mohammed-ben-abdallah-ur, source/wikidata-mohammed-ben-abdallah]
+
+died:
+  edtf: "1790-04-09"
+  hijri: "1204"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The date is unanimous, and the Arabic article pairs it with 24 Rajab 1204 AH. The place is disputed three ways — Meknes in the English article's text (citing Abitbol) and in the Arabic article's infobox and biographical section, Ain Atiq near Rabat in the Arabic article's death section (which has him die on the road to Rabat and be buried there), and Salé in Wikidata. The edge follows Meknes as the best-attested reading. The English article gives his burial in a small qubba near the Dar al-Makhzen of Rabat."
+  sources: [source/wikipedia-mohammed-ben-abdallah-en, source/wikipedia-mohammed-ben-abdallah-ar, source/wikidata-mohammed-ben-abdallah]
+
+relations:
+  - { type: born_in, target: place/fez, sources: [source/wikipedia-mohammed-ben-abdallah-en, source/wikipedia-mohammed-ben-abdallah-ar, source/wikidata-mohammed-ben-abdallah] }
+  - { type: died_in, target: place/meknes, sources: [source/wikipedia-mohammed-ben-abdallah-en, source/wikipedia-mohammed-ben-abdallah-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The sultan's own reported saying names his school — "I am
+      Maliki in madhhab, Wahhabi in creed" — transmitted by the
+      French historian Charles-André Julien and carried in that form
+      by the Arabic article and by Muhammad ibn Sa'd
+      al-Shuway'ir's monograph Tashih khata' tarikhi hawl
+      al-Wahhabiyya, both of them quoting Julien. That is a single
+      historiographical origin, one source family under the founder
+      rulings, so the Maliki naming is recorded here in full but
+      settlement is withheld until a second independent attestation
+      is read. The rest of his record is stated in full — influenced
+      by the Salafi call that reached him through Meccan pilgrims,
+      he fought religious innovations and the multiplication of the
+      Sufi orders and called to ijtihad and the Sunna, and in
+      Julien's account his religious zeal led him to authorise the
+      destruction of books that permitted the Ash'ari school and
+      the demolition of some zawiyas; as a young prince at Marrakesh
+      he had also taken the Nasiri tariqa from Shaykh Abu al-Abbas
+      al-Sharadi, as the Arabic article records. The English
+      article's infobox files him as Sunni Islam, and Wikidata
+      carries no religion value at all.
+    sources: [source/wikipedia-mohammed-ben-abdallah-ar, source/wikipedia-mohammed-ben-abdallah-en, source/wikidata-mohammed-ben-abdallah]
+
+external_ids: { wikidata: "Q548563" }
+
+sources:
+  - source/wikipedia-mohammed-ben-abdallah-en
+  - source/wikipedia-mohammed-ben-abdallah-ar
+  - source/wikipedia-mohammed-ben-abdallah-ur
+  - source/wikidata-mohammed-ben-abdallah
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1376354082 of 23 September 2026), Arabic Wikipedia (revision 77109138 of 30 October 2026), Urdu Wikipedia (revision 6852977 of 5 March 2025) and Wikidata Q548563 (item revision 2553831368), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. The Arabic article's creed section and al-Shuway'ir's monograph as it quotes Julien were also read in-session. Existence checked by the coordinator against origin/main before building: the muhammad-iii slugs on main belong to other men (Nizari, Marinid, Cordoba), and no record holds Mohammed III of Morocco; his father Abdallah bin Ismail has no record, so no child_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-166j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

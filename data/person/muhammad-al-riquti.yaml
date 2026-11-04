@@ -21,3 +21,9 @@ provenance:
   model: swe-2-high
   run: lib-nafh-tib-62
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); extracted from Nafh al-Tib via Apple Vision OCR" }
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/nafh-tib-maqqari]

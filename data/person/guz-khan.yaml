@@ -1,0 +1,63 @@
+id: person/guz-khan
+class: person
+
+label: { ar: "جوز خان", en: "Guz Khan", ur: "گز خان" }
+
+names:
+  - { value: "Guz Khan", kind: full }
+  - { value: "Ghulam Dastgir Khan", kind: full }
+  - { value: "غلام دستگیر خان", kind: full }
+  - { value: "Guzzy Bear", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "كوميدي وممثل بريطاني وُلد في كوفنتري سنة 1986 باسم غلام دستغير خان لأبوين باكستانيين بنجابيين. عمل معلمًا للعلوم الإنسانية قبل أن ينتشر مقطعه «باكيسوروس» سنة 2015 بشخصيته «مبين»، ثم ابتكر مسلسل بي بي سي الكوميدي «رجل مثل مبين» ومثّل فيه (2017–2025)، وظهر في «تاسك ماستر» و«علمنا يعني الموت» و«الجنتلمن»."
+  en: "British comedian and actor, born in Coventry in 1986 as Ghulam Dastgir Khan to Pakistani Punjabi parents. A humanities teacher before comedy, he went viral in 2015 with his character Mobeen in the 'Pakisaurus' video, then created and starred in the BBC comedy Man Like Mobeen (2017–2025), and has appeared in Taskmaster, Our Flag Means Death and The Gentlemen."
+  ur: "برطانوی کامیڈین اور اداکار، جو 1986 میں کوونٹری میں غلام دستگیر خان کے نام سے پاکستانی پنجابی والدین کے ہاں پیدا ہوئے۔ کامیڈی سے پہلے انسانی علوم کے استاد رہے؛ 2015 میں اپنے کردار «مبین» کی «پاکی سارس» ویڈیو سے وائرل ہوئے، پھر بی بی سی کی کامیڈی «مین لائک مبین» (2017–2025) بنائی اور اس میں اداکاری کی، اور «ٹاسک ماسٹر»، «آور فلیگ مینز ڈیتھ» اور «دی جنٹلمین» میں نظر آئے۔"
+
+roles: [comedian, actor, writer]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1986-01-24"
+  hijri: "1406"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Coventry, Warwickshire, England. The English article gives 24 January 1986, citing CoventryLive for his birth name; Wikidata gives the year 1986 at year precision, agreeing. The Hijri year 1406 is the tabular conversion of the built date, marked derived. No place entity for Coventry exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-guz-khan-en, source/wikidata-guz-khan]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The English article states that 'Khan is a Muslim', citing
+      the Birmingham Mail, and the Arabic article likewise describes
+      him as a Muslim of Pakistani Punjabi origin. That is a generic
+      identification naming no school or order, and no source read
+      names one for him. His parents being Punjabi Muslims is
+      family background and was not used; his best-known character,
+      Mobeen, is a fictional practising Muslim, which is a role and
+      not attestation; and Wikidata's structured religion value
+      gives Islam only, which settles nothing under the founder's
+      rulings of 1 November 2026.
+    sources: [source/wikipedia-guz-khan-en, source/wikipedia-guz-khan-ar, source/wikidata-guz-khan]
+
+external_ids: { wikidata: "Q23772268" }
+
+sources:
+  - source/wikipedia-guz-khan-en
+  - source/wikipedia-guz-khan-ar
+  - source/wikidata-guz-khan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Guz Khan' (revision 1376319204 of 23 September 2026), Arabic Wikipedia article «جوز خان» (revision 76923450 of 8 October 2026) and Wikidata Q23772268 (item revision 2556211886 of 12 October 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by the coordinator against origin/main before dispatch — no prior record and no draft stub. The queue's 1986 is confirmed: the English article gives 24 January 1986 and Wikidata agrees on the year."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-165a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

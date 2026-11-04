@@ -1,0 +1,28 @@
+id: event/thaalibi-khwarazmi-adab-985
+class: event
+kind: other
+label:
+  ar: "الثعالبي يقرأ الأدب على أبي بكر الخوارزمي، نحو ٣٧٥هـ"
+  en: "Al-Tha'alibi studies adab under Abu Bakr al-Khwarazmi, c. 375/985"
+  ur: "ثعالبی ابو بکر خوارزمی سے ادب پڑھتے ہیں، تقریباً 375ھ/985ء"
+summary:
+  ar: "قرأ الثعالبي الأدب في شبابه بنيسابور على الأديب المشهور أبي بكر الخوارزمي، ابن أخت الطبري وصاحب ديوان الرسائل، وذلك قبل وفاة شيخه سنة ٣٨٣هـ {cite:encyclopaedia-of-islam-2 vol. 10 p. 450}."
+  en: "In his youth at Nishapur al-Tha'alibi studied adab under the celebrated stylist Abu Bakr al-Khwarazmi — al-Tabari's nephew and author of a famous diwan of rasa'il — before the master's death in 383 AH {cite:encyclopaedia-of-islam-2 vol. 10 p. 450}."
+  ur: "جوانی میں ثعالبی نے نیشاپور میں مشہور ادیب ابو بکر خوارزمی — طبری کے بھانجے اور مشہور رسائل کے صاحب — سے ادب کی تعلیم حاصل کی، اپنے استاد کی وفات 383ھ سے پہلے {cite:encyclopaedia-of-islam-2 vol. 10 p. 450}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0985~", hijri: "0375~", calendar: julian, precision: year, status: tradition, derived: true, note: "قرأ عليه في شبابه قبل وفاة الخوارزمي سنة ٣٨٣هـ؛ السنة تقريبية مشتقة {cite:encyclopaedia-of-islam-2 vol. 10 p. 450}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-thaalibi, role: "الطالب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-bakr-al-khwarazmi, role: "الشيخ", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 (T-U), PDF pp. 450-452, art. al-Tha'alibi, Abu Mansur 'Abd al-Malik (P. J. E. Cachia); wafayat-ayan (Ihsan Abbas ed.) notice of al-Tha'alibi; shadharat-dhahab vol. 3 s.a. 429, printed pp. 246-247"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-thaalibi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

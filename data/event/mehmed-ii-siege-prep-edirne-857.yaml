@@ -1,0 +1,24 @@
+id: event/mehmed-ii-siege-prep-edirne-857
+class: event
+kind: campaign
+label: { ar: "محمد الثاني يعدّ حصار القسطنطينية من أدرنة", en: "Mehmed II prepares the Constantinople siege from Edirne", ur: "محمد ثانی کا ادرنہ سے محاصرہ قسطنطنیہ کی تیاری" }
+summary:
+  ar: "عاد محمد الثاني إلى أدرنة حين قرر حصار القسطنطينية، فوُضعت خطط الحصار فيها واختُبرت المدافع العظيمة في نواحيها، ومهّد الطريق بين أدرنة والقسطنطينية لجرّ المدافع العملاقة التي تحركت من أدرنة إلى قرب القسطنطينية في مدة شهرين {cite:encyclopaedia-of-islam-2 vol. 2 p. 711} {cite:dawlat-uthmaniyya-salabi p. 93}."
+  en: "Mehmed II returned to Edirne when he decided to besiege Constantinople; the siege plans were worked out in the city and the great guns tested in its environs, while the road between Edirne and Constantinople was levelled so the giant cannon could be hauled — they moved from Edirne to the vicinity of Constantinople in two months {cite:encyclopaedia-of-islam-2 vol. 2 p. 711} {cite:dawlat-uthmaniyya-salabi p. 93}."
+  ur: "محمد ثانی جب قسطنطنیہ کے محاصرے کا فیصلہ کر چکا تو ادرنہ لوٹا؛ محاصرے کی تدبیریں اسی شہر میں طے کیں گئیں اور عظیم توپوں کا آزمایش اس کے نواح میں ہوا، جبکہ ادرنہ سے قسطنطنیہ کی سڑک توپوں کے گھسیٹنے کے لیے ہموار کی گئی — توپیں ادرنہ سے قسطنطنیہ کے قریب دو مہینے میں پہنچیں {cite:encyclopaedia-of-islam-2 vol. 2 p. 711} {cite:dawlat-uthmaniyya-salabi p. 93}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1453", hijri: "0857", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة فتح القسطنطينية ٨٥٧هـ/١٤٥٣م {cite:dawlat-uthmaniyya-salabi p. 93}؛ الهجري مشتق." }
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/mehmed-ii, role: "السلطان المُعِدّ للحصار", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 711; al-Salabi, al-Dawla al-Uthmaniyya p. 93 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

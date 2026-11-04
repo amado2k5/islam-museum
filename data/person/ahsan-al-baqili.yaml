@@ -47,3 +47,9 @@ external_ids:
   wikidata: "Q124745966"
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
 provenance: { layer: own-research, source: "Tidjania.ma biography of al-Hajj al-Ahsan ibn Muhammad al-Ba'qili (page published 24 June 2020; drawn from al-Mukhtar al-Susi's al-Ma'sul, vol. 11, with a closing section by his daughter Zaynab Abu Aqil) and Wikidata item Q124745966 (item revision 2106896251 of 20 March 2024), both read in full on 26 October 2026. An Arabic Wikipedia article on him existed but has been deleted, so it could not be fetched by revision or registered as a source; the Latin-spelling searches that failed (Baqili, Baqqali) are recorded in the run report. The museum holds no place entities for Ikd, Baqila or Casablanca and no records for his teachers, so no relations are written.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-61 }
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tidjania-ahsan-al-baqili, source/wikidata-ahsan-al-baqili]

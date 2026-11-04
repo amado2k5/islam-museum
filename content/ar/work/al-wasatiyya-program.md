@@ -36,3 +36,23 @@ translators: []
 
 ## خاتمة الحلقة الأولى نموذجاً
 في ختام حلقة الإسلاموفوبيا قال المقدّم إن الغرب ليس كتلة واحدة، وإن فيه مفكرين كثيرين ينصفون الإسلام، وإن على المفكرين والعلماء والجاليات المسلمة في الغرب مسؤولية خاصة، وعلى الحكومات مسؤولية رئيسية لأن بيدها أدوات لا يملكها غيرها {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 01:18:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 01:19:00}. ودعا إلى إظهار الصورة التي يراها أصل الإسلام وصورة غالبية المسلمين، وإلى نبذ الإرهاب، وإلى أن يكون المسلمون فاعلين لا ناقدين فحسب، وسمّى ذلك الوسطية في المسألة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 01:19:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 01:20:00}.
+- الحلقة 20: خريجو كليات الشريعة بين تحديات الواقع والضعف العلمي — [[concept/khariju-kulliyyat-al-sharia|خريجو كليات الشريعة]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep20}.
+- الحلقة 21: الدعاة الجدد بين التجديد والابتداع (التسجيل مقطوع بعد نحو سبع دقائق) — [[concept/al-duat-al-judud|الدعاة الجدد]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep21}.
+- الحلقة 22: المرأة ودورها في العمل السياسي — [[concept/al-mara-wal-amal-al-siyasi|المرأة والعمل السياسي]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep22}.
+- الحلقة 23: حوار الحضارات، حقيقة أم سراب — [[concept/hiwar-al-hadarat|حوار الحضارات]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep23}.
+- الحلقة 24: الطب النبوي أو الطب البديل — [[concept/al-tibb-al-nabawi-wal-badil|الطب النبوي والطب البديل]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep24}.
+- الحلقة 25: الفتوى بين الحرية والاحتكار — [[concept/al-fatwa-hurriyya-am-ihtikar|الفتوى بين الحرية والاحتكار]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep25}.
+- الحلقة 26: تكرار في الأرشيف لحلقة الولاء والبراء (انظر الحلقة 9) {cite:assabile-tareq-al-suwaidan al-wassitiya/ep26}.
+- الحلقة 27: تغيير مناهج تدريس الدين في العالم العربي (التسجيل مقطوع عند نحو الدقيقة 54) — [[concept/taghyir-manahij-al-din|تغيير مناهج الدين]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27}.
+- الحلقة 28: التصوف روحانية أم انحراف — [[concept/tasawwuf|التصوف]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep28}.
+- الحلقة 29: الحجاب، عبادة أم عادة — [[concept/hijab|الحجاب]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep29}.
+- الحلقة 30: تأثير الجن والسحر بين الإنكار والإثبات (الجزء الأول؛ الجزء الثاني ليس في الأرشيف) — [[concept/tathir-al-jinn-wal-sihr|تأثير الجن والسحر]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep30}.
+- الحلقة 31: المتدين في الإعلام العربي المرئي، ظالم أم مظلوم — [[concept/surat-al-mutadayyin-fi-al-ilam|صورة المتدين في الإعلام]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31}.
+- الحلقة 32: القوامة، تسلط أم مسؤولية — [[concept/al-qiwama|القوامة]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep32}.
+- الحلقة 33: الإعجاز العلمي في القرآن والسنة، حقيقة أم مبالغة — [[concept/al-ijaz-al-ilmi|الإعجاز العلمي]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep33}.
+- الحلقتان 34 و35: البنوك الإسلامية والتقليدية، الفرق والشبهات والكفاءة — [[concept/al-bunuk-al-islamiyya|البنوك الإسلامية]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep34} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep35}.
+- الحلقة 36: تفسير الأحلام، تعبير للرؤيا أم بيع للأوهام — [[concept/tafsir-al-ahlam-al-yawm|تفسير الأحلام اليوم]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep36}.
+- الحلقة 37: الفن بين الالتزام والتحرر — [[concept/al-fann-bayn-al-iltizam-wal-taharrur|الفن بين الالتزام والتحرر]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep37}.
+- الحلقة 38: التعليم بين التغريب والحفاظ على الهوية — [[concept/al-talim-bayna-al-taghrib-wal-huwiyya|التعليم بين التغريب والهوية]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep38}.
+- الحلقة 39: التاريخ الإسلامي بين المثالية والواقعية — [[concept/al-tarikh-al-islami-bayna-al-mithaliyya-wal-waqiyya|التاريخ الإسلامي بين المثالية والواقعية]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep39}.
+- الحلقة 40: نظرية المؤامرة، حقيقة أم خيال (آخر حلقات الأرشيف) — [[concept/nazariyyat-al-muamara|نظرية المؤامرة]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep40}.

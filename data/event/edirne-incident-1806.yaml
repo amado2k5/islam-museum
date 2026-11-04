@@ -3,21 +3,24 @@ class: event
 kind: revolt
 label: { ar: "حادثة أدرنة (١٨٠٦)", en: "Edirne Incident (1806)" }
 summary:
-  ar: "بطاقة أولية لحادثة أدرنة سنة ١٨٠٦م، تجمّع الينيجارية ضد إصلاحات سليم الثالث؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Edirne Incident of 1806, the Janissary rally against Selim III's reforms; its sources are not yet checked on the page."
+  ar: "وقعت «حادثة أدرنة» الثانية سنة ١٨٠٦م لأسباب مشابهة للأولى، تجمّعاً ضد إصلاحات سليم الثالث بعد فتنة جنود الأرناؤوط سنة ١٨٠١م {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  en: "A second \"Edirne incident\" occurred in 1806 for much the same reasons as the first — a rally against Selim III's reforms, after the mutiny of Albanian troops of 1801 {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  ur: "دوسرا «واقعۂ ادرنہ» 1806ء میں اسی وجوہات پر واقع ہوا — سليم ثالث کی اصلاحات کے خلاف اجتماع، 1801ء کی البانی فوجی بغاوت کے بعد {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}۔"
 wings: [time]
 periods: [period/modern-era]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1806", precision: year, status: tradition, derived: true }
   end: { edtf: "1806", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q55600402
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 711 (harvest OCR); Wikidata Q55600402"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,27 @@
+id: event/ibn-al-abbar-alama-affair-645
+class: event
+kind: other
+label:
+  ar: "أزمة العلامة: عزل ابن الأبار وحبسه ثم عفوه عنه بتونس، نحو ٦٤٥هـ"
+  en: "The 'alama affair: Ibn al-Abbar dismissed, confined, then pardoned at Tunis, ~645/1247"
+  ur: "علامہ کا واقعہ: ابن ابار معزول، گھر میں نظر بند، پھر معاف شدہ، تونس ~645ھ/1247ء"
+summary:
+  ar: "أُمر ابن الأبار، رئيس ديوان الإنشاء بتونس، أن يترك في الوثائق الرسمية موضع التوثيق خاليًا ليملأه صاحب العلامة، فلم ينفذ التعليمات فعُزل عن منصبه وأُقيم محبوسًا في داره، ثم صُفح عنه وأعيد إلى مكتبه {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}."
+  en: "As chief of the chancellery at Tunis, Ibn al-Abbar was ordered to leave a blank in official documents where the sahib al-'alama filled in the authentication; he did not carry out the instruction, was dismissed and put under arrest in his own house — then pardoned and reinstated in office {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}."
+  ur: "تونس میں دیوان انشا کے سربراہ کی حیثیت سے ابن ابار کو حکم دیا گیا کہ سرکاری دستاویزات میں توثیق کی جگہ خالی چھوڑ دے تاکہ صاحب علامہ اسے پُر کرے؛ اس نے حکم پر عمل نہیں کیا تو عہدے سے معزول اور اپنے گھر میں نظر بند کر دیا گیا — پھر معاف کیا گیا اور دوبارہ منصب پر فائز ہوا {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1247~", hijri: "0645~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة أبي زكريا المتوفى 647هـ؛ التأريخ التقريبي والتحويل مشتقان {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/tunis, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-abbar, role: "المعزول المعفو عنه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 printed p. 705 (IBN AL-ABBĀR) — Apple Vision OCR of local scans"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-abbar-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

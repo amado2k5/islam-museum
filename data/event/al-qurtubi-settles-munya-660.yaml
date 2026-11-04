@@ -1,0 +1,27 @@
+id: event/al-qurtubi-settles-munya-660
+class: event
+kind: other
+label:
+  ar: "القرطبي يستقر بمنية بني خصيب في صعيد مصر، حوالي ٦٦٠هـ"
+  en: "Al-Qurtubi settles at Munyat Bani Khusayb in Upper Egypt, c. 660/1262"
+  ur: "قرطبی کا صعید مصر کی منیۃ بنی خصیب میں سکونت، تقریباً 660ھ/1262ء"
+summary:
+  ar: "استقر القرطبي بمنية بني خصيب من صعيد مصر، فكان نزيلها وعمل فيها تفسيره الكبير وتعب عليه وحشاه بكل فريدة {cite:siyar-alam-nubala 17/97}؛ وفي دائرة المعارف أنه استقر بمنية أبي الخصيب في الصعيد ومات ودُفن بها {cite:encyclopaedia-of-islam-2 vol. 5 p. 550}، وهي قرية عامرة على الضفة الشرقية من النيل {cite:nuzhat-al-mushtaq-2002 p. 124}."
+  en: "Al-Qurtubi settled at Munyat Bani Khusayb in Upper Egypt, became its resident and laboured there on his great Qur'an commentary, filling it with every rarity {cite:siyar-alam-nubala 17/97}. The Encyclopaedia of Islam confirms he settled at Munyat Abi l-Khusayb, where he died and was buried {cite:encyclopaedia-of-islam-2 vol. 5 p. 550}; the village stood prosperous on the Nile's east bank {cite:nuzhat-al-mushtaq-2002 p. 124}."
+  ur: "قرطبی صعید مصر کی منیۃ بنی خصیب میں مقیم ہوا اور وہیں اپنے عظیم تفسیری کارنامے پر محنت کرتا رہا، اسے ہر نایاب مادے سے مزین کیا {cite:siyar-alam-nubala 17/97}۔ انسائیکلوپیڈیا آف اسلام تصدیق کرتی ہے کہ وہ منیۃ ابی الخصیب میں مقیم، وہیں فوت ہوا اور دفن کیا گیا {cite:encyclopaedia-of-islam-2 vol. 5 p. 550}؛ گاؤں دریائے نیل کے مشرقی کنارے آباد تھا {cite:nuzhat-al-mushtaq-2002 p. 124}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1261~", hijri: "0660~", calendar: julian, precision: decade, status: tradition, derived: true, note: "تاريخ الاستقرار غير مصرّح به؛ وضع تقريباً بعد سماعه من شيوخ مصر المتوفين في خمسينيات القرن وقبل وفاته ٦٧١هـ {cite:nafh-tib-maqqari 2/211}.", sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari] }
+relations:
+  - { type: occurred_at, target: place/munyat-ibn-al-khasib, sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qurtubi, role: "النزيل", sources: [source/siyar-alam-nubala] }
+sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2, source/nuzhat-al-mushtaq-2002]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Siyar A'lam al-Nubala (Risala) vol. 17 printed p. 97; Encyclopaedia of Islam 2nd ed. vol. 5.1 printed p. 550; al-Idrisi, Nuzhat al-Mushtaq printed p. 124 — Apple Vision OCR of local scans"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qurtubi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

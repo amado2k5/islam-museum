@@ -1,0 +1,28 @@
+id: event/nasai-beating-damascus-303
+class: event
+kind: other
+label:
+  ar: "الاعتداء على النسائي بمسجد دمشق إبّان سؤاله عن فضائل معاوية، نحو المحرم ٣٠٣هـ"
+  en: "The assault on al-Nasa'i in the mosque of Damascus over the virtues of Mu'awiya, c. Muharram 303/915"
+  ur: "دمشق کی مسجد میں معاویہ کے فضائل کے سوال پر نسائی پر حملہ، تقریباً محرم 303ھ/915ء"
+summary:
+  ar: "دخل النسائي دمشق وقد صنّف «كتاب الخصائص في فضل علي بن أبي طالب» رجاء أن يهدي الله به المنحرفين عنه، إذ كان المنحرف عن علي بها كثيراً {cite:tazkirat-al-huffaz j.2 p. 618}؛ فسُئل عن معاوية وما روي في فضائله فقال: «أما يرضى رأساً برأس حتى يفضَّل؟»، وفي رواية: «ما أعرف له فضيلة إلا لا أشبع الله بطنه»، فما زالوا يدفعون في خصيتيه حتى أُخرج من المسجد، ثم حُمل إلى الرملة {cite:tarikh-islam-dhahabi p. 109} {cite:wafayat-ayan i p. 26}."
+  en: "Al-Nasa'i entered Damascus having composed his Khasa'is on the virtues of Ali ibn Abi Talib, hoping God would guide by it those estranged from him, for dissenters from Ali were many there {cite:tazkirat-al-huffaz j.2 p. 618}; asked about Mu'awiya and the reports of his virtues, he answered: 'Is he not content to come out head-to-head, without being preferred?' — and in another report: 'I know of no virtue of his save «may God never fill his belly»'; whereupon they kept kicking him in the groin until he was carried out of the mosque, then borne to al-Ramla {cite:tarikh-islam-dhahabi p. 109} {cite:wafayat-ayan i p. 26}."
+  ur: "نسائی دمشق پہنچے جہاں انہوں نے علی بن ابی طالب کے فضائل پر «کتاب الخصائص» تصنیف کی تھی تاکہ اس سے ان سے منحرف لوگ ہدایت پائیں، کیونکہ وہاں علی سے مخالفت بہت تھی {cite:tazkirat-al-huffaz j.2 p. 618}؛ ان سے معاویہ کے فضائل کے بارے میں پوچھا گیا تو فرمایا: «کیا وہ برابر برابر پر راضی نہیں کہ فضیلت دی جائے؟» — ایک روایت میں: «میں ان کی کوئی فضیلت نہیں جانتا سوائے «اللہ ان کا پیٹ نہ بھرے» کے»؛ اس پر وہ مسلسل ان کے پیٹ میں لاتیں مارتے رہے یہاں تک کہ انہیں مسجد سے باہر نکالا گیا اور پھر رملہ لے جایا گیا {cite:tarikh-islam-dhahabi p. 109} {cite:wafayat-ayan i p. 26}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0915-07~", hijri: "0303-01~", calendar: julian, precision: month, status: tradition, derived: true, note: "وقع بعد وصوله دمشق إثر خروجه من مصر في ذي القعدة ٣٠٢هـ وقبل وفاته في صفر ٣٠٣هـ {cite:tarikh-islam-dhahabi p. 109}؛ عُلّق على نحو المحرم ٣٠٣هـ تقديراً، والتحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
+  - { type: had_participant, target: person/al-nasai, role: "المعتدى عليه", sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "موضوع السؤال", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan, source/tazkirat-al-huffaz]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 303, printed p. 109 (harvest OCR vol. 301-320); Ibn Khallikan, Wafayat al-A'yan i p. 26 (harvest OCR); Tadhkirat al-Huffaz j.2 printed p. 618 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nasai-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

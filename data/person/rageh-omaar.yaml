@@ -1,0 +1,64 @@
+id: person/rageh-omaar
+class: person
+
+label: { ar: "راجح عمر", en: "Rageh Omaar", ur: "راجح عمر" }
+
+names:
+  - { value: "Rageh Omaar", kind: full }
+  - { value: "Raage Oomaar", kind: alternate }
+  - { value: "راجح عمر", kind: full }
+
+gender: male
+
+summary:
+  ar: "صحفي وكاتب بريطاني من أصل صومالي، وُلد في مقديشو سنة 1967 وانتقل إلى بريطانيا في الثانية من عمره. اشتهر مراسلًا لبي بي سي من بغداد إبان غزو العراق سنة 2003، ثم قدّم برنامج «ويتنس» على الجزيرة الإنجليزية، وهو منذ 2013 في أخبار آي تي في محررًا للشؤون الدولية، وألّف «يوم الثورة» (2005) و«نصف مني فقط: أن تكون مسلمًا في بريطانيا» (2006)."
+  en: "Somali-born British journalist and writer, born in Mogadishu in 1967 and brought to Britain at the age of two. He made his name as the BBC's Baghdad correspondent during the 2003 invasion of Iraq, presented Witness on Al Jazeera English, and since 2013 has been ITV News's international affairs editor; he wrote Revolution Day (2005) and Only Half of Me: Being a Muslim in Britain (2006)."
+  ur: "صومالی نژاد برطانوی صحافی اور مصنف، جو 1967 میں موغادیشو میں پیدا ہوئے اور دو سال کی عمر میں برطانیہ آئے۔ 2003 میں عراق پر حملے کے دوران بی بی سی کے بغداد نمائندے کے طور پر شہرت پائی، الجزیرہ انگلش پر «وٹنیس» پیش کیا، اور 2013 سے آئی ٹی وی نیوز کے بین الاقوامی امور کے مدیر ہیں؛ «ریوولوشن ڈے» (2005) اور «اونلی ہاف آف می» (2006) کے مصنف ہیں۔"
+
+roles: [journalist, presenter, writer]
+wings: [people, living]
+regions: [east-africa, andalus-europe]
+
+born:
+  edtf: "1967-07-19"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Mogadishu, Somalia, on 19 July 1967; the English and Arabic articles and Wikidata agree, and the Arabic article's birth categories pair the year with 1387 AH. The Hijri year is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-rageh-omaar-en, source/wikipedia-rageh-omaar-ar, source/wikidata-rageh-omaar]
+
+relations:
+  - { type: born_in, target: place/mogadishu, sources: [source/wikipedia-rageh-omaar-en, source/wikipedia-rageh-omaar-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The English article states of the man himself that Omaar
+      is a Muslim, citing a speaker agency profile, and the
+      title of his own book of 2006, Only Half of Me: Being a
+      Muslim in Britain, identifies him the same way in his own
+      words. Both attestations are generic and name no school
+      or order, so no value is recorded and his words are
+      preserved here. Wikidata's structured religion value
+      gives Sunni Islam, and the English and Arabic articles
+      file him under Sunni Muslim categories, but structured
+      values and category filings settle nothing under the
+      founder's rulings of 1 November 2026 and were not used.
+    sources: [source/wikipedia-rageh-omaar-en, source/wikipedia-rageh-omaar-ar, source/wikidata-rageh-omaar]
+
+external_ids: { wikidata: "Q2044233" }
+
+sources:
+  - source/wikipedia-rageh-omaar-en
+  - source/wikipedia-rageh-omaar-ar
+  - source/wikidata-rageh-omaar
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Rageh Omaar' (revision 1382472227 of 28 October 2026), Arabic Wikipedia article «راجح عمر» (revision 76803099 of 29 September 2026) and Wikidata Q2044233 (item revision 2514544957 of 6 July 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by slug and name fragments across data/person/ in the worktree and on origin/main — no prior record and no draft stub. The century queue's year 1967 is confirmed with the day from the articles. His elder brother Mohamed Abdullahi Omaar has no record in the museum, so no sibling edge is written; his wife Georgiana Montgomery-Cuninghame (married 2000) likewise has no record, so no spouse edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-164a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

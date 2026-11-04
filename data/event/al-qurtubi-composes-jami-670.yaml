@@ -1,0 +1,27 @@
+id: event/al-qurtubi-composes-jami-670
+class: event
+kind: other
+label:
+  ar: "القرطبي يصنف «الجامع لأحكام القرآن» وكتبه، حوالي ٦٧٠هـ"
+  en: "Al-Qurtubi composes al-Jami' li-Ahkam al-Qur'an and his other books, c. 670/1272"
+  ur: "قرطبی کی تصنیف «الجامع لاحکام القرآن» اور دیگر کتابیں، تقریباً 670ھ/1272ء"
+summary:
+  ar: "جمع القرطبي في تفسير القرآن كتابًا في خمسة عشر مجلدًا، وشرح أسماء الله الحسنى في مجلدين، وله «التذكرة في أمور الآخرة» وشرح التقصي وتآليف أخرى مفيدة {cite:nafh-tib-maqqari 2/210-211}؛ وقال الذهبي إن تفسيره العظيم الشأن سارت به الركبان {cite:nafh-tib-maqqari 2/211}. ويمتاز التفسير بكثرة الأحاديث والعناية باستنباط الأحكام وبيان المعنى، مع تقليل الإسرائيليات {cite:encyclopaedia-of-islam-2 vol. 5 p. 551}."
+  en: "Al-Qurtubi assembled his Qur'an commentary in fifteen volumes, explained the Most Beautiful Names of God in two (al-Asna), and wrote al-Tadhkira on the matters of the hereafter, a commentary on al-Taqassi and other useful works {cite:nafh-tib-maqqari 2/210-211}. Al-Dhahabi said caravans carry his great commentary {cite:nafh-tib-maqqari 2/211}. The tafsir stands out for its wealth of hadiths, its attention to deriving rulings and clarifying the Law's meaning, and its sparing use of isra'iliyyat {cite:encyclopaedia-of-islam-2 vol. 5 p. 551}."
+  ur: "قرطبی نے قرآن کی تفسیر پندرہ جلدوں میں جمع کی، اسمائے حسنیٰ کی شرح دو جلدوں میں (الأسنیٰ) لکھی، اور «التذکرۃ فی امور الآخرۃ»، شرح التقصی اور دیگر مفید تصانیف چھوڑیں {cite:nafh-tib-maqqari 2/210-211}۔ ذہبی کہتے ہیں کہ اس کی عظیم تفسیر قافلے اٹھا کر لے جاتے ہیں {cite:nafh-tib-maqqari 2/211}۔ تفسیر اپنی کثرتِ احادیث، احکام کے استنباط اور معانی کی وضاحت، اور اسرائیلیات کے محدود استعمال کے سبب ممتاز ہے {cite:encyclopaedia-of-islam-2 vol. 5 p. 551}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1271~", hijri: "0670~", calendar: julian, precision: decade, status: tradition, derived: true, note: "زمن التصنيف غير مصرّح به؛ وضع تقريباً في آخر عقد من حياته بمنية بني خصيب حيث استقر {cite:siyar-alam-nubala 17/97}.", sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
+relations:
+  - { type: occurred_at, target: place/munyat-ibn-al-khasib, sources: [source/siyar-alam-nubala] }
+  - { type: had_participant, target: person/al-qurtubi, role: "المصنّف", sources: [source/nafh-tib-maqqari] }
+sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2, source/siyar-alam-nubala]
+provenance:
+  layer: own-research
+  source: "al-Maqqari, Nafh al-Tib (Dar Sadir) vol. 2 printed pp. 210-211; Encyclopaedia of Islam 2nd ed. vol. 5.1 printed pp. 550-551; al-Dhahabi, Siyar A'lam al-Nubala (Risala) vol. 17 printed p. 97 — Apple Vision OCR of local scans"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qurtubi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

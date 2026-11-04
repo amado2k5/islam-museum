@@ -1,0 +1,38 @@
+id: person/alaa-al-aswany
+class: person
+label: { ar: "علاء الأسواني", en: "Alaa Al Aswany", ur: "علاء الاسوانی" }
+names:
+  - { value: "علاء الأسواني", kind: full }
+  - { value: "Alaa Al Aswany", kind: full }
+gender: male
+summary:
+  ar: "روائي وطبيب أسنان وناشط سياسي مصري، وُلد في القاهرة في 26 مايو 1957. عضو مؤسس في حركة كفاية، وهو مؤلف «عمارة يعقوبيان» (2002) و«شيكاجو» (2007) و«نادي السيارات» (2013)؛ ويعيش منذ 2019 في المنفى بين باريس ونيويورك."
+  en: "Egyptian novelist, dentist and political activist, born in Cairo on 26 May 1957. A founding member of the Kefaya movement, he is the author of The Yacoubian Building (2002), Chicago (2007) and The Automobile Club of Egypt (2013); since 2019 he has lived in exile in Paris and New York."
+  ur: "مصری ناول نگار، دندان ساز اور سیاسی کارکن، 26 مئی 1957 کو قاہرہ میں پیدا ہوئے۔ کفایہ تحریک کے بانی اراکین میں سے ہیں؛ ان کی تصانیف میں «عمارت یعقوبیان» (2002)، «شکاگو» (2007) اور «نادی السیارات» (2013) شامل ہیں؛ 2019 سے وہ پیرس اور نیویارک میں جلاوطنی کی زندگی گزار رہے ہیں۔"
+roles: [writer, activist]
+wings: [people, living]
+regions: [egypt-nile, americas-oceania]
+born:
+  edtf: "1957-05-26"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Cairo birthplace from the English and Arabic Wikipedia articles and Wikidata, all in agreement; the Hijri year (1376) is derived from the Gregorian date."
+  sources: [source/wikipedia-alaa-al-aswany-en, source/wikipedia-alaa-al-aswany-ar, source/wikidata-alaa-al-aswany]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-alaa-al-aswany-en, source/wikidata-alaa-al-aswany] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The sources read give conflicting structured signals and no textual attestation. Wikidata's structured religion value is Islam, while the English article files him in the category 'Former Muslim critics of Islam'; neither is text in an article, and structured data and category filings never settle faith, so both readings are preserved here and neither is adopted. His inclusion in the published list 'The 500 Most Influential Muslims' is a list entry about influence, not an attestation of his own faith. No source read records him naming a school or order or professing unbelief in his own words; his advocacy of a secular state and his criticism of the Muslim Brotherhood are political positions, stated in the prose, and are not treated as statements of personal faith in either direction. Recorded as unknown."
+    sources: [source/wikipedia-alaa-al-aswany-en, source/wikidata-alaa-al-aswany]
+external_ids: { wikidata: "Q467869" }
+sources: [source/wikipedia-alaa-al-aswany-en, source/wikipedia-alaa-al-aswany-ar, source/wikidata-alaa-al-aswany]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1372186455), Arabic Wikipedia (revision 76195578) and Wikidata Q467869 (item revision 2555647277, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. An Urdu Wikipedia article also exists and was not needed. Existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-157a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

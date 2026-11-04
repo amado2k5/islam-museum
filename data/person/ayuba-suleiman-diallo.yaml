@@ -1,0 +1,40 @@
+id: person/ayuba-suleiman-diallo
+class: person
+label: { ar: "أيوبا سليمان ديالو", en: "Ayuba Suleiman Diallo", ur: "ایوبا سلیمان دیالو" }
+names:
+  - { value: "Ayuba Suleiman Ibrahima Diallo", kind: full }
+  - { value: "Job ben Solomon", kind: alternate }
+  - { value: "Job, son of Solomon", kind: alternate }
+gender: male
+summary:
+  ar: "أيوبا سليمان ديالو (نحو 1701–1773)، المعروف عند الإنجليز باسم جوب بن سولومون، عالم فولاني من بوندو في السنغال، ابن كبير كهنتها؛ أُسر سنة 1730 وهو يبيع عبيدًا على نهر غامبيا، وبِيع إلى مزرعة تبغ في ماريلاند، فاكتُشف خطّه العربي، ووصلت رسالته إلى لندن فافتداه جيمس أوغلثورب، وقضى في لندن أربعة عشر شهرًا رُسمت فيها صورته وكتب فيها القرآن من حفظه، ثم عاد إلى بلاده سنة 1734. سيرته التي أملاها على توماس بلوت (1734) من أقدم سِيَر العبيد المطبوعة."
+  en: "Ayuba Suleiman Diallo (c. 1701–1773), known in England as Job ben Solomon, was a Fulani scholar of Bundu in Senegal, son of its high priest. Captured in 1730 while selling slaves on the Gambia River, he was sold to a Maryland tobacco plantation; his Arabic writing was noticed, his letter reached London, and James Oglethorpe had him bought and freed. In fourteen months in London his portrait was painted and he copied the Qur'an from memory, before returning home in 1734. The life he dictated to Thomas Bluett (1734) is one of the earliest printed slave narratives."
+  ur: "ایوبا سلیمان دیالو (تقریباً 1701ء–1773ء)، جو انگلستان میں جاب بن سلیمان کے نام سے جانے گئے، سینیگال کے بوندو کے فولانی عالم اور وہاں کے بڑے پادری کے بیٹے تھے؛ 1730ء میں دریائے گیمبیا پر غلام بیچتے ہوئے خود پکڑے گئے اور میری لینڈ کے تمباکو کے باغ میں بیچے گئے؛ ان کی عربی تحریر دیکھی گئی، ان کا خط لندن پہنچا، اور جیمس اوگلتھورپ نے انھیں خرید کر آزاد کرایا۔ لندن کے چودہ مہینوں میں ان کی تصویر بنی اور انھوں نے یاداشت سے قرآن لکھا، پھر 1734ء میں وطن لوٹ گئے۔ تھامس بلوٹ کو املا کرائی گئی ان کی سوانح (1734ء) سب سے پہلی چھپی ہوئی غلام روایات میں سے ایک ہے۔"
+roles: [scholar, writer]
+wings: [people]
+regions: [west-africa-sahel, americas-oceania]
+born:
+  edtf: "1701~"
+  precision: year
+  status: historical
+  note: "Born about 1701 at Bundu (Bondu), in present-day eastern Senegal, son of Suleiman Diallo, the high priest of Bundu; his grandfather Malik Sy (Ibrahima) had founded the town. The year is circa in every text. No Hijri year is given: 1701 spans 1112–1113 AH and no month is attested. Bundu has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-ayuba-suleiman-diallo-en, source/bluett-memoirs-job-1734]
+died:
+  edtf: "1773"
+  precision: year
+  status: historical
+  note: "His death was recorded in 1773 in the minutes of the Spalding Gentlemen's Society, of which he had been made a member in London; the English article reports it on Allan D. Austin's African Muslims in Antebellum America (1997), p. 61. He died in his homeland, having returned in 1734; no place entity exists for Bundu, so no died_in edge is written."
+  sources: [source/wikipedia-ayuba-suleiman-diallo-en]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Two independent primary-era texts attest the man's own Islam in detail: Thomas Bluett's Memoirs (1734) — Job writing Arabic at the Kent County courthouse and pronouncing 'Allah and Mahommed', refusing wine, praying in the woods at the cost of humiliation, and in London copying the Qur'an three times from memory and refuting the Trinity from the Arabic New Testament they gave him — and Francis Moore's Travels (1738), which continues his story at first hand after his return. Neither names a branch or school for him, and neither does the modern scholarship the encyclopedia article rests on (Oxford DNB; Austin 1997; Turner 1997; Curtis 2009; Diouf 1998). The English article's infobox fields 'Denomination: Sunni' and 'Jurisprudence: Maliki' rest on a single citation to a 2018 article on the WhyIslam advocacy site — structured values on one weak citation, which do not settle a value under the lane's doctrine; Bundu's Maliki tradition is his milieu, not an attestation for the man. The value therefore stays unknown, on the same settlement as person/bilali-muhammad and person/omar-ibn-said, with the Sunni-Maliki reading preserved here."
+    sources: [source/wikipedia-ayuba-suleiman-diallo-en, source/bluett-memoirs-job-1734]
+sources: [source/wikipedia-ayuba-suleiman-diallo-en, source/bluett-memoirs-job-1734]
+provenance:
+  layer: own-research
+  source: "Built in wave 186 under the founder's rulings review of 3 November 2026, which resolved the identity 'Ayuba Suleiman Diallo (c. 1701–1773), Job ben Solomon, the literate Fulbe imam whose enslavement and manumission are recorded in Maryland records'; the texts confirm the identity, dates and Maryland record. The brief calls him an imam: the texts call him a scholar and cleric's son who prayed, taught and transcribed — his father Suleiman was Bundu's high priest (Bluett's title), and Ayuba's own clerical standing is carried in prose as the texts give it rather than as a formal title. Read in full on 3 November 2026: the English Wikipedia article and the Documenting the American South (UNC) presentation of Bluett's 1734 Memoirs, with the National Humanities Center excerpts read in search results. Existence was checked by name fragments (diallo, ayuba, job-ben) across data/person/ and data/source/; the two other Diallo records are modern Guinean politicians. The reading tool does not expose the numeric Wikipedia revision id, so none is recorded; the article was fetched twice with identical text. No place entity exists for Bundu, Annapolis, Kent Island or the Gambia, so — like person/bilali-muhammad and person/omar-ibn-said — the record carries no relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-186-writer-b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

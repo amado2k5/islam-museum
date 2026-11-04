@@ -1,0 +1,29 @@
+id: event/ibn-al-tiqtaqa-fakhri-mosul-701
+class: event
+kind: publication
+label:
+  ar: "ابن الطقطقي يؤلف «الفخري» بالموصل سنة ٧٠١هـ"
+  en: "Ibn al-Tiqtaqa composes al-Fakhri at Mosul, 701/1302"
+  ur: "موصل میں ابن طقطقی کی تصنیف «فخری»، 701ھ/1302ء"
+summary:
+  ar: "في المدة من جمادى الآخرة إلى شوال سنة ٧٠١هـ/فبراير إلى أوائل يونيو ١٣٠٢م، أثناء إقامة بالموصل في طريقه إلى تبريز، ألّف ابن الطقطقي تاريخه «الفخري» لفخر الدين عيسى بن إبراهيم صاحب الموصل؛ والكتاب مرشد موجز للملوك (فورستنشبيغل) ثم تراجم الخلفاء إلى المستعصم، يعقب كل منها تراجم وزراء ذلك الخليفة، وقد اختار مادته الحكائية بمهارة ونظر إلى التاريخ نظرة تأملية {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}."
+  en: "Between Jumada II and Shawwal 701 (February to early June 1302), during a stay in Mosul on the way to Tabriz, Ibn al-Tiqtaqa wrote his history al-Fakhri for Fakhr al-Din Isa ibn Ibrahim of Mosul: a brief Furstenspiegel followed by biographies of the caliphs down to al-Musta'sim, each followed by the biographies of that caliph's viziers, its anecdotal material skilfully chosen and its approach reflective rather than factual {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}."
+  ur: "701ھ میں جمادی الثانی سے شوال تک (فروری تا ابتدائی جون 1302ء) تبریز کے سفر میں موصل کی اقامت کے دوران ابن طقطقی نے موصل کے حاکم فخر الدین عیسیٰ بن ابراہیم کے لیے اپنی تاریخ «الفخری» لکھی: مختصر مرشد الملوک کے بعد مستعصم تک خلفاء کی تراجم، ہر ایک کے ساتھ اس خلیفہ کے وزراء کی تراجم؛ حکیانہ مواد کا ماہرانہ انتخاب اور تاریخ پر فکر انگیز نکتۂ نظر {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1302-02~", hijri: "0701-05", calendar: julian, precision: month, status: tradition, derived: true, note: "من جمادى الآخرة إلى شوال ٧٠١هـ = فبراير إلى أوائل يونيو ١٣٠٢م {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1302-06~", hijri: "0701-10", calendar: julian, precision: month, status: tradition, derived: true, note: "إلى شوال ٧٠١هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: had_participant, target: person/ibn-al-tiqtaqa, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/fakhr-al-din-isa-ibn-ibrahim, role: "المُهداة إليه", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/mosul, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn al-Tiktaka (F. Rosenthal), printed p. 988 (harvest OCR scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-tiqtaqa-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

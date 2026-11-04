@@ -1,0 +1,80 @@
+id: person/shuja-ud-daula
+class: person
+
+label: { ar: "شجاع الدولة", en: "Shuja-ud-Daula", ur: "شجاع الدولہ" }
+
+names:
+  - { value: "شجاع الدولة", kind: full }
+  - { value: "Jalal-ud-din Haidar Abul Mansur Khan Shuja-ud-Daula", kind: full }
+  - { value: "Shuja-ud-Daula", kind: regnal }
+
+gender: male
+
+summary:
+  ar: "شجاع الدولة (19 يناير 1732 – 26 يناير 1775)، نواب أوده الثالث والوزير الأعظم للمغول، ابن صفدر جنك، حكم من 1754 إلى 1775. أيد الأمير علي كوهر (شاه عالم الثاني) وصار وزيره الأعظم، وقاتل إلى جانب أحمد شاه الأبدالي في بانيبات الثالثة سنة 1761، ثم هُزم مع حلفائه عند بوكسار سنة 1764 فعقد معاهدة الله آباد، ودُفن في كلاب باري بفيض آباد."
+  en: "Shuja-ud-Daula (19 January 1732 – 26 January 1775) was the third Nawab of Awadh and Grand Vizier of the Mughal Empire, a son of Safdar Jang, reigning from 1754 to 1775. He backed Prince Ali Gauhar (Shah Alam II) and became his Grand Vizier, fought beside Ahmad Shah Durrani at the Third Battle of Panipat in 1761, and after defeat with his allies at Buxar in 1764 signed the Treaty of Allahabad; he was buried at Gulab Bari, Faizabad."
+  ur: "شجاع الدولہ (19 جنوری 1732ء – 26 جنوری 1775ء) اودھ کے تیسرے نواب اور مغلیہ سلطنت کے وزیر اعظم، صفدر جنگ کے فرزند، 1754ء سے 1775ء تک حکمران رہے۔ آپ نے شہزادہ علی گوہر (شاہ عالم ثانی) کی حمایت کر کے ان کے وزیر اعظم بنے، 1761ء میں پانی پت کی تیسری لڑائی میں احمد شاہ ابدالی کے ساتھ لڑے، اور 1764ء میں بکسر کی شکست کے بعد معاہدۂ الٰہ آباد کیا؛ آپ فیض آباد کے گلاب باڑی میں دفن ہیں۔"
+
+roles: [sultan]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1732-01-19"
+  hijri: "1144"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree at day precision on 19 January 1732; Wikidata places his birth at Delhi. The Hijri year 1144 is converted from the Gregorian date."
+  sources: [source/wikipedia-shuja-ud-daula-en, source/wikidata-shuja-ud-daula]
+
+died:
+  edtf: "1775-01-26"
+  hijri: "1188"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree at day precision on 26 January 1775, at Faizabad; the Hijri year 1188 is converted from the Gregorian date. He was buried at Gulab Bari, Faizabad. No museum place record exists for Faizabad, so no died_in edge is written."
+  sources: [source/wikipedia-shuja-ud-daula-en, source/wikidata-shuja-ud-daula]
+
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikidata-shuja-ud-daula] }
+
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: >-
+      Settled under the founder's mapping of 1 November 2026 — two
+      independent texts stating Shia for the man, in a Twelver context,
+      settle shia-twelver with the mapping stated. The Arabic article
+      gives his religion as Shia Muslim, and the English Oudh State
+      article states in its body text, citing the Encyclopaedia of
+      Islam, that the Nawabs of Oudh were Shia Muslims who promoted
+      Shia as the state religion; his own English article's body
+      describes the Awadh of his reign as a Shi'a kingdom whose Kashmiri
+      Shi'a migrants looked to the state as the sword-arm of the Shi'as
+      in India, of the Nishapuri house whose Twelver tradition his
+      court maintained. Wikidata's religion value (Shia Islam), the
+      English article's Indian Shia Muslims category and the Urdu
+      article's Shia category filing are structured data and were not
+      counted; the settlement does not rest on his descent or his
+      throne, which never count by themselves.
+    sources: [source/wikipedia-shuja-ud-daula-ar, source/wikipedia-oudh-state-en, source/wikipedia-shuja-ud-daula-en]
+
+external_ids: { wikidata: "Q642993" }
+
+sources:
+  - source/wikipedia-shuja-ud-daula-en
+  - source/wikipedia-shuja-ud-daula-ar
+  - source/wikipedia-shuja-ud-daula-ur
+  - source/wikidata-shuja-ud-daula
+  - source/wikipedia-oudh-state-en
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1361390798 of 27 June 2026), Arabic Wikipedia (revision 77073998 of 26 October 2026), Urdu Wikipedia (revision 11800883 of 18 August 2026), the English Wikipedia Oudh State article (revision 1379038410 of 7 October 2026) and Wikidata Q642993 (item revision 2531027525), all fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (the Arabic and Urdu articles' agree) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub; the existing Shuja records are other men, and syed-mir-qasim is not his contemporary Mir Qasim. No child_of edge is written — his father Safdar Jang has no museum record. No edge is written from this side to his son Asaf-ud-Daula; the child edge stands in the son's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-161j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

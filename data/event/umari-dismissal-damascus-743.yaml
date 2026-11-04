@@ -1,0 +1,28 @@
+id: event/umari-dismissal-damascus-743
+class: event
+kind: other
+label:
+  ar: "عزل ابن فضل الله من ديوان دمشق، صفر ٧٤٣هـ/١٣٤٢م"
+  en: "Al-Umari dismissed from the Damascus chancery, Safar 743/1342"
+  ur: "عمری کی دمشق دیوان سے معزولی، صفر 743ھ/1342ء"
+summary:
+  ar: "عُزل شهاب الدين عن كتابة السر بدمشق في ثالث صفر سنة ٧٤٣هـ وأُقيم مكانه أخوه بدر الدين محمد، ورسم عليه بالفلكية أربعة أشهر، ثم طُلب إلى مصر لكثرة الشكايات منه، فشفع فيه أخوه علاء الدين فعاد إلى دمشق بطالًا لا يعود إلى المناصب أبدًا {cite:durar-kamina-jil-1993 1/333} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  en: "Shihab al-Din was dismissed from the Damascus chancery on 3 Safar 743 (July 1342), his brother Badr al-Din Muhammad taking his place; he was held at the Fulkiyya four months, then summoned to Egypt over the many complaints against him until his brother Ala al-Din interceded and he returned to Damascus out of office — never to hold one again {cite:durar-kamina-jil-1993 1/333} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  ur: "شہاب الدین کو 3 صفر 743ھ (جولائی 1342ء) کو دمشق کے کاتبِ سر کے منصب سے معزول کر دیا گیا اور اس کے بھائی بدر الدین محمد نے اس کی جگہ لی؛ وہ چار ماہ فلکیہ میں رہا، پھر اس کے خلاف شکایات کی کثرت پر مصر طلب کیا گیا، جب تک کہ اس کے بھائی علاء الدین نے سفارش کی اور وہ بے عہدہ دمشق واپس آیا — اور پھر کبھی منصب پر نہیں آیا {cite:durar-kamina-jil-1993 1/333} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1342-07-13~", hijri: "0743-02-03", calendar: julian, precision: day, status: historical, derived: true, note: "عُزل في ثالث صفر سنة ٧٤٣هـ {cite:durar-kamina-jil-1993 1/333}؛ سنة ٧٤٣هـ/١٣٤٢م {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "المعزول", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/badr-al-din-muhammad-ibn-fadl-allah, role: "الخلف في المنصب", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الدرر الكامنة (ط دار الجيل 1993) 1/333 ترجمة 828؛ EI2 vol. 3 PDF pp. 790-791"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-umari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

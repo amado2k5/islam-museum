@@ -15,3 +15,6 @@ translators: []
 
 ## علاقتها بالاستغفار والتوبة والعقوبة
 الكفارة والاستغفار والتوبة كل منها — بمشيئة الله — سبب لمغفرة الذنب؛ وتفترق عن العقوبة بأن فيها معنى العبادة وليست العقوبة كذلك. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13409} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13410}
+
+## في دروس يوسف القرضاوي «تأملات قرآنية»
+يقسّم [[person/yusuf-al-qaradawi|يوسف القرضاوي]] الأيمان مع الفقهاء ثلاثة: يمين لغو لا اعتبار لها، ويمين غموس يحلفها صاحبها وهو يعلم أنه كاذب فتغمسه في الإثم، ويمين منعقدة على أمر في المستقبل إذا حنث فيها فعليه الكفارة ([[passage/quran-5-89|المائدة 89]]). {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:11:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:11:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:12:00} ويقول إن الكفارة إطعام عشرة مساكين أو كسوتهم أو تحرير رقبة، وإن صيام ثلاثة أيام لمن لم يجد، وينبّه إلى أن كثيرًا من الناس يظنون الكفارة الصيام ابتداءً. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:12:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:13:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:13:30} ويرى أن الإسلام ينتهز أخطاء الناس ليجعل منها مددًا للمساكين. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:12:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep02 00:28:00}

@@ -1,0 +1,87 @@
+id: person/jahanara-begum
+class: person
+
+label: { ar: "جهنرا بيغوم", en: "Jahanara Begum", ur: "جہاں آرا بیگم" }
+
+names:
+  - { value: "Jahanara Begum", kind: full }
+  - { value: "Padshah Begum", kind: laqab }
+  - { value: "Begum Sahib", kind: laqab }
+
+gender: female
+
+summary:
+  ar: "جهنرا بيغوم (1614 – 16 سبتمبر 1681) أميرة مغولية، أكبر بنات الإمبراطور شاه جهان والممتاز محل الباقيات، حملت ختم الإمبراطورية ولقب «بادشاه بيغوم» بعد وفاة أمها سنة 1631، وكانت أقوى نساء عصرها في البلاط. وهي أيضًا أديبة صوفية، مريدة ملا شاه البدخشي في الطريقة القادرية منذ 1641، ومؤلفة «مونس الأرواح» في سيرة معين الدين الجشتي و«رسالة صاحبية» في سيرة مرشدها."
+  en: "Jahanara Begum (1614 – 16 September 1681) was a Mughal princess, the eldest surviving daughter of Emperor Shah Jahan and Mumtaz Mahal, who held the imperial seal and the title Padshah Begum after her mother's death in 1631 and was the most powerful woman of the imperial court. She was also a Sufi author — a disciple of Mullah Shah Badakhshi in the Qadiriyya order from 1641, and author of the Munis al-Arwah, a biography of Muinuddin Chishti, and the Risala-i Sahibiyya, a biography of her master."
+  ur: "جہاں آرا بیگم (1614ء – 16 ستمبر 1681ء) مغل شہزادی تھیں، شہنشاہ شاہ جہاں اور ممتاز محل کی سب سے بڑی زندہ بچ جانے والی صاحبزادی، جنھوں نے 1631ء میں والدہ کی وفات کے بعد شاہی مہر اور «پادشاہ بیگم» کا لقب سنبھالا اور دربار کی سب سے طاقتور خاتون قرار پائیں۔ وہ صوفی مصنف بھی تھیں — 1641ء سے سلسلہ قادریہ میں ملا شاہ بدخشی کی مرید، اور معین الدین چشتی کی سوانح «مونس الارواح» اور اپنے مرشد کی سوانح «رسالہ صاحبیہ» کی مصنف۔"
+
+roles: [princess, writer]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1614"
+  calendar: julian
+  precision: year
+  status: debated
+  note: "The Arabic and Urdu articles and Wikidata give her birth on 2 April 1614; the English article gives 23 March 1614. The year is built and both day readings preserved. No article text read names her birthplace, so no born place is built. No Hijri year is set, since a bare year spans two Hijri years."
+  sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ar, source/wikipedia-jahanara-begum-ur, source/wikidata-jahanara-begum]
+
+died:
+  edtf: "1681-09-16"
+  calendar: julian
+  precision: day
+  status: historical
+  note: "All four sources agree on 16 September 1681; she died in Delhi and is buried in the tomb she built in her lifetime in the Nizamuddin Dargah complex there."
+  sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ar, source/wikipedia-jahanara-begum-ur, source/wikidata-jahanara-begum]
+
+relations:
+  - { type: child_of, target: person/shah-jahan-mughal, sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ar, source/wikidata-jahanara-begum] }
+  - { type: sibling_of, target: person/roshanara-begum, sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ur] }
+  - { type: sibling_of, target: person/aurangzeb-mughal, sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ar, source/wikipedia-jahanara-begum-ur] }
+  - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ur] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-jahanara-begum-en, source/wikidata-jahanara-begum] }
+
+faith:
+  - value: sufi
+    basis: documented
+    note: >-
+      Two independent texts attest a completed personal discipleship
+      for Jahanara herself. The English article's Sufism section
+      states that, along with her brother Dara Shikoh, she was a
+      disciple of Mullah Shah Badakhshi, who initiated her into the
+      Qadiriyya Sufi order in 1641, that she made such progress on the
+      Sufi path that Mullah Shah would have named her his successor in
+      the Qadiriyya had the rules of the order allowed it, and that her
+      own Risala-i Sahibiyya describes her initiation by him. The Urdu
+      article's dedicated Sufi section, in its own text, independently
+      states that she and her brother Dara Shikoh were disciples of
+      Mullah Shah Badakhshi, who inducted them into the Qadiri order in
+      1641, and that he wished to leave her the charge of the silsila
+      after him but the order's rules did not permit it. A completed
+      discipleship attested for the person herself counts under the
+      founder rulings, so sufi is settled as documented. Her devotion
+      to Muinuddin Chishti, whose biography she wrote and whom she
+      regarded as her spiritual master although he died four centuries
+      before her, is reverence for a long-dead saint and is not the
+      attestation relied on. No text read names a legal school for her,
+      and the Mughal court's Hanafi establishment is dynastic context
+      that settles nothing, so no madhhab segment is recorded. Wikidata
+      also files Sufism among her structured religion values;
+      structured data never settles faith and is not relied on here.
+    sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ur]
+
+external_ids: { wikidata: "Q467310" }
+
+sources:
+  - source/wikipedia-jahanara-begum-en
+  - source/wikipedia-jahanara-begum-ar
+  - source/wikipedia-jahanara-begum-ur
+  - source/wikidata-jahanara-begum
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379323930 of 9 October 2026), Arabic Wikipedia (revision 75063221 of 5 June 2026), Urdu Wikipedia (revision 9571692 of 23 March 2026) and Wikidata Q467310 (item revision 2520277927 of 20 July 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds this princess (person/jahanara-shahnawaz is a different, twentieth-century woman); person/shah-jahan-mughal, person/aurangzeb-mughal, group/qadiriyya and place/delhi all exist on main. The child_of edge is written here, in the child's record; she is the eldest of this batch's siblings, so the sibling_of edges to Roshanara and to Aurangzeb are written here, each pair once; the member_of edge to the Qadiriyya follows the two texts that attest her initiation into the order. The sources divide on her birth day (23 March against 2 April 1614); both readings are preserved in the birth note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-169m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

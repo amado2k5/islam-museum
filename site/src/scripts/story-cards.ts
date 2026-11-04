@@ -37,8 +37,9 @@ function init(root: HTMLElement) {
   player.addEventListener("keydown", (e) => {
     // Enter/Space on the play button toggles via click — don't stop there.
     if (e.target !== playBtn || e.key === "ArrowLeft" || e.key === "ArrowRight") stopPlay();
-    if (e.key === "ArrowLeft") show(i + 1);
-    if (e.key === "ArrowRight") show(i - 1);
+    const rtl = getComputedStyle(root).direction === "rtl";
+    if (e.key === "ArrowLeft") show(rtl ? i + 1 : i - 1);
+    if (e.key === "ArrowRight") show(rtl ? i - 1 : i + 1);
   });
   show(0);
 }

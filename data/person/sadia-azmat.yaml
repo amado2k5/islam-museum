@@ -1,0 +1,60 @@
+id: person/sadia-azmat
+class: person
+
+label: { ar: "سعدية عظمت", en: "Sadia Azmat", ur: "سعدیہ عظمت" }
+
+names:
+  - { value: "Sadia Azmat", kind: full }
+  - { value: "سعدية عظمت", kind: full }
+  - { value: "عظمت سعدیہ", kind: full }
+
+gender: female
+
+summary:
+  ar: "سعدية عظمت فنانة كوميدية ومؤلفة ومذيعة إنجليزية، وُلدت في لايتون بلندن. بدأت الكوميديا الارتجالية سنة 2010 بعد عملها في مراكز اتصالات، وقدّمت عروضًا في مهرجان إدنبرة فرينج، وصنعت للبي بي سي الفيلم القصير «أشياء سُئلت عنها بوصفي مسلمة بريطانية» (2015)، وقدّمت بودكاست «نو كنتري فور يونغ وومن» (2018–2020)، ونشرت مذكراتها «سيكس بومب» سنة 2022."
+  en: "Sadia Azmat is an English stand-up comedian, author and broadcaster, born in Leyton, London. She began stand-up in 2010 after working in call centres, performed shows at the Edinburgh Fringe, made the BBC short Things I Have Been Asked As a British Muslim (2015), hosted the podcast No Country for Young Women (2018-2020), and published her memoir Sex Bomb in 2022."
+  ur: "سعدیہ عظمت انگریز اسٹینڈ اپ مزاح نگار، مصنف اور نشریاتی پیش کار ہیں، جو لندن کے لیٹن میں پیدا ہوئیں۔ انہوں نے کال سینٹروں میں کام کے بعد 2010 میں اسٹینڈ اپ شروع کیا، ایڈنبرا فرنج میں شوز پیش کیے، بی بی سی کے لیے مختصر فلم «ایک برطانوی مسلمان کی حیثیت سے مجھ سے پوچھے گئے سوالات» (2015) بنائی، پوڈکاسٹ «نو کنٹری فار ینگ ویمن» (2018–2020) کی میزبانی کی، اور 2022 میں اپنی یادداشت «سیکس بوم» شائع کی۔"
+
+roles: [comedian, writer, presenter]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1987"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born in Leyton, London. The birth year is split between two uncited readings: Wikidata gives 1987 at year precision with no reference, while the English article's infobox gives 1990 and the article files her under 1990 births, also with no citation visible. The queue's year is 1987, agreeing with Wikidata, so 1987 is built at year precision as debated and the 1990 reading is preserved here. No Hijri year is recorded: a bare 1987 spans 1407-1408 AH. No place entity for Leyton or London exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-sadia-azmat-en, source/wikidata-sadia-azmat]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      She identifies generically as a Muslim in her own voice: her
+      BBC short is titled Things I Have Been Asked As a British
+      Muslim, she began wearing hijab at the age of 19, and she
+      titled a 2019 Metro article in her own name "Horny Muslim
+      women like me aren't supposed to exist during Ramadan". That
+      is a generic identification naming no school or order, and no
+      source read names one for her, so no value is recorded and
+      her words are preserved here. Wikidata's structured religion
+      value gives Islam only, which settles nothing under the
+      founder's rulings of 1 November 2026.
+    sources: [source/wikipedia-sadia-azmat-en, source/wikidata-sadia-azmat]
+
+external_ids: { wikidata: "Q7397897" }
+
+sources:
+  - source/wikipedia-sadia-azmat-en
+  - source/wikidata-sadia-azmat
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Sadia Azmat' (revision 1378551013 of 5 October 2026) and Wikidata Q7397897 (item revision 2556635133 of 13 October 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. QUEUE CORRECTION: the queue's birth year 1987 is built, but only as debated, because the English article gives 1990; both readings are uncited, and the 1990 reading is preserved in the born note and the source files."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-166a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

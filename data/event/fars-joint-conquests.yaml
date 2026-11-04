@@ -3,18 +3,23 @@ class: event
 kind: conquest
 label: { ar: "فتح أرجان وشيراز وبلاد فارس", en: "The Joint Conquests of Fars" }
 summary:
-  ar: "اجتمع أبو موسى الأشعري وعثمان بن أبي العاص في آخر خلافة عمر ففتحا أرجان صلحاً على الجزية والخراج وفتحا شيراز وهي من أرض أردشير خرة على أن يكونوا ذمة يؤدون الخراج إلا من أحب منهم الجلاء ولا يقتلوا ولا يستعبدوا وفتحا سينيز من أرض أردشير خرة وترك أهلها عماراً للأرض وفتح عثمان حصن جنابا بأمان وجرا وكازرون والنوبندجان من سابور وفتح هرم بن حيان العبدي قلعة شبير عنوة بعد حصار وقتال."
-  en: "Late in Umar's caliphate Abu Musa and Uthman ibn Abi al-As joined: Arrajan by sulh on jizya and kharaj; Shiraz of Ardashir-Khurra — dhimma paying kharaj, free exodus for who wished, no killing no enslaving; Siniz whose folk stayed land-workers; Uthman took Hisn Jannaba by aman, and Jarra, Kazarun and Nawbandajan of Sabur; Harim ibn Hayyan took Qal'at Shabir by force after siege and fighting."
+  ar: "اجتمع أبو موسى الأشعري وعثمان بن أبي العاص في آخر خلافة عمر ففتحا أرجان صلحاً على الجزية والخراج وفتحا شيراز وهي من أرض أردشير خرة على أن يكونوا ذمة يؤدون الخراج إلا من أحب منهم الجلاء ولا يقتلوا ولا يستعبدوا وفتحا سينيز من أرض أردشير خرة وترك أهلها عماراً للأرض وفتح عثمان حصن جنابا بأمان وجرا وكازرون والنوبندجان من سابور وفتح هرم بن حيان العبدي قلعة شبير عنوة بعد حصار وقتال {cite:futuh-buldan-maarif-1407 p. 546-547}."
+  en: "Late in Umar's caliphate Abu Musa and Uthman ibn Abi al-As joined: Arrajan by sulh on jizya and kharaj; Shiraz of Ardashir-Khurra — dhimma paying kharaj, free exodus for who wished, no killing no enslaving; Siniz whose folk stayed land-workers; Uthman took Hisn Jannaba by aman, and Jarra, Kazarun and Nawbandajan of Sabur; Harim ibn Hayyan took Qal'at Shabir by force after siege and fighting {cite:futuh-buldan-maarif-1407 p. 546-547}."
 periods: [period/rashidun]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0643~", hijri: "0023~", calendar: julian, precision: year, status: tradition, derived: true, note: "في آخر خلافة عمر بن الخطاب (ت 23هـ/644م) {cite:futuh-buldan-maarif-1407 p. 546-547}؛ التحويل مشتق.", sources: [source/futuh-buldan-maarif-1407] }
 relations:
   - { type: had_participant, target: person/abu-musa-al-ashari, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/uthman-ibn-abi-al-as, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/harim-ibn-hayyan, role: "فاتح شبير", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: occurred_at, target: place/fars }
+  - { type: occurred_at, target: place/fars, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/shiraz, sources: [source/futuh-buldan-maarif-1407] }
 wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
+  source: "فتوح البلدان للبلاذري (ط مؤسسة المعارف 1407هـ/1987م) ص 546-547"
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"

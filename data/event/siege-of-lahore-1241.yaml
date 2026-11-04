@@ -1,23 +1,28 @@
 id: event/siege-of-lahore-1241
 class: event
 kind: siege
-label: { ar: "حصار لاهور (١٢٤١)", en: "Siege of Lahore (1241)" }
+label:
+  ar: "المغول يأخذون لاهور ويسلبونها، ٦٣٩هـ/١٢٤١م"
+  en: "The Mongols take and sack Lahore, 639/1241"
+  ur: "منگولوں کا لہور پر قبضہ اور لٹ مار، 639ھ/1241ء"
 summary:
-  ar: "بطاقة أولية لحصار لاهور (١٢٤١)؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Siege of Lahore (1241); its sources are not yet checked on the page."
+  ar: "في زمن خلفاء إلتمش الضعفاء كثر تمرد ولاة لاهور، وكان كبير خان أياز مستقلًا فيها فعليًا حين أخذها المغول وسلبوها سنة ٦٣٩هـ/١٢٤١م؛ غير أنهم لم يتبعوا نصرهم بل هجروا المدينة فورًا {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+  en: "Under Iltutmish's weak successors the governors of Lahore were frequently in rebellion, and Kabir Khan Ayaz was virtually independent there when the Mongols took and sacked the city in 639/1241; they did not follow up their victory but abandoned it immediately {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+  ur: "التتمش کے کمزور جانشینوں کے زمانے میں لہور کے گورنر اکثر باغی رہتے تھے اور کبیر خان ایاز وہاں عملاً خود مختار تھا جب 639ھ/1241ء میں منگولوں نے شہر پر قبضہ کر کے اسے لوٹا؛ لیکن انہوں نے اپنی فتح کا پیچھا نہ کیا اور شہر کو فوراً چھوڑ دیا {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
 wings: [time]
 periods: [period/mongol-post-mongol]
 regions: [south-asia]
 date:
-  start: { edtf: "1241", precision: year, status: tradition, derived: true }
-  end: { edtf: "1241", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+  start: { edtf: "1241", hijri: "0639", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q136458748
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 37 (LAHAWR, printed p. 597) — Mongol capture and sack 639/1241 (replaces unchecked Wikidata card)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

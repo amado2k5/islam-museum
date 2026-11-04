@@ -1,0 +1,29 @@
+id: event/tusi-arrives-baghdad-408
+class: event
+kind: migration
+label:
+  ar: "قدوم الشيخ الطوسي بغداد، ٤٠٨هـ"
+  en: "Al-Tusi's arrival in Baghdad, 408/1017"
+  ur: "شیخ طوسی کا بغداد آمد، 408ھ/1017ء"
+summary:
+  ar: "بعد استكمال دراسته الأولى بطوس، ترك أبو جعفر الطوسي خراسان — الشافعية أساساً ويسيطر عليها الغزنويون باطّراد — قاصداً بغداد حيث البويهيون الشيعة غالبون، وذلك سنة ٤٠٨هـ/١٠١٧م، فدرس فيها على كبار مشايخ الإمامية: ابن أبي جد وأحمد بن محمد بن موسى الأهوازي والغضائري وابن عبدون، وخصوصاً الشيخ المفيد الذي صار من أحب تلاميذه إليه رغم صغر سنه {cite:encyclopaedia-of-islam-2 vol. 10 p. 744}."
+  en: "After completing his preliminary studies at Tus, Abu Ja'far al-Tusi left a basically Shafi'i Khurasan, increasingly under Ghaznavid control, for Baghdad where the Shi'i Buyids were dominant, in 408/1017; there he studied under leading Imami masters — Ibn Abi Jid, Ahmad ibn Muhammad ibn Musa al-Ahwazi, al-Ghada'iri and Ibn Abdun — and above all al-Shaykh al-Mufid, of whom despite his youth he quickly became one of the favourite pupils {cite:encyclopaedia-of-islam-2 vol. 10 p. 744}."
+  ur: "طوس میں ابتدائی تعلیم مکمل کرنے کے بعد ابو جعفر طوسی نے خراسان — جو بنیادی طور پر شافعی اور تدریجاً غزنویوں کے زیرِ اثر تھا — کو چھوڑ کر 408ھ/1017ء میں بغداد کا رخ کیا جہاں شیعہ بویہی غالب تھے؛ وہاں انہوں نے ابن ابی جد، احمد بن محمد بن موسیٰ اہوازی، غضائری اور ابن عبدون جیسے امامی مشائخ سے پڑھا اور بالخصوص شیخ مفید سے لگاو رکھا جن کے وہ کم عمری کے باوجود پسندیدہ شاگردوں میں بن گئے {cite:encyclopaedia-of-islam-2 vol. 10 p. 744}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+themes: [sects-and-schools, cities]
+date:
+  start: { edtf: "1017~", hijri: "0408", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٤٠٨هـ {cite:encyclopaedia-of-islam-2 vol. 10 p. 744}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/shaykh-al-tusi, role: "الطالب القادم من طوس", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-shaykh-al-mufid, role: "أستاذه الأبرز", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 art. AL-TUSI printed p. 744 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-shaykh-al-tusi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

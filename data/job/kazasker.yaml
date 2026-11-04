@@ -1,0 +1,48 @@
+id: job/kazasker
+class: job
+label: { ar: "قاضي العسكر (الكازاسكر)", en: "Kazasker (chief military judge)", ur: "قاضی عسکر" }
+summary:
+  ar: "الكازاسكر هو قاضي العسكر، أي من يتولى الخصومات بين الجند، ومن أعلى قضاة الدولة العثمانية، وعضو الديوان الهمايوني، ومسؤول عن جانب من التعيينات والعزل والتعليم في الطبقة العلمية. وقد عُرف في صدر الإسلام قاضياً للجيش، ثم صار مؤسسة رسمية في الدولة العثمانية، وينقسم منصبه إلى كازاسكر رومللي وكازاسكر الأناضول."
+  en: "The kazasker was the chief military judge: he heard disputes among soldiers, sat in the Ottoman imperial council (Divan-i Humayun), and was responsible for part of the appointments, dismissals and training of the scholarly class. The office began as an army judgeship in early Islam and became a formal institution in the Ottoman state, divided between the kazasker of Rumelia and the kazasker of Anatolia."
+  ur: "قاضی عسکر فوج کے جھگڑوں کا فیصلہ کرنے والا چیف جج تھا۔ وہ عثمانی دیوانِ ہمایوں کا رکن تھا اور علمی طبقے کے کچھ تقرر، معزولی اور تربیت کا ذمہ دار تھا۔ یہ منصب صدرِ اسلام میں فوجی قاضی کی حیثیت سے شروع ہوا اور عثمانی ریاست میں باقاعدہ ادارہ بنا، جو رومیلی اور اناطولیہ کے قاضی عسکر میں تقسیم ہوا۔"
+domain: court-administration
+kind: office
+hirfa: false
+era:
+  origins: early-caliphate
+  first_attested:
+    edtf: "0634/0644"
+    precision: decade
+    status: historical
+    note: "The entry says that Umar appointed Abu al-Darda as army judge (kadılcünd) in Syria, and that the office was an institution from his time. The Ottoman institution is dated to the early reign of Murad I, 762 or 763 AH (1361–62 CE)."
+    sources: [source/tdv-kazasker]
+  status_today: replaced
+places:
+  - place: place/istanbul
+    note: "The kazaskers sat in the imperial council in Istanbul, and their courts met in their houses. Their registers (rûznâmçe) survive in the Istanbul muftiship's archive, according to the entry."
+    sources: [source/tdv-kazasker]
+  - place: place/bursa
+    note: "Candarli Kara Halil Hayreddin Pasha, the first Ottoman kazasker, had been judge of Bursa before the post, according to the entry."
+    sources: [source/tdv-kazasker]
+  - place: place/amasya
+    note: "During the interregnum Mehmed Celebi set up his seat at Amasya and appointed Candarli Ibrahim as kazasker, which led to two kazaskers for a time until 816 AH (1413 CE), according to the entry."
+    sources: [source/tdv-kazasker]
+  - place: place/konya
+    note: "In the Anatolian Seljuk period the judges of Konya held the offices of chief judge and kazasker together, according to the entry."
+    sources: [source/tdv-kazasker]
+regions: [arabia, levant-iraq, egypt-nile, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: court-office
+training:
+  mode: mixed
+  certification: "The kazaskers were drawn from the scholarly class and from its ranks of judges and professors, and were appointed by an imperial order recorded in the ruûs register. The entry describes the mülâzemet (probation) of scholars as a regular system that kazaskers ran."
+wings: [people]
+periods: [period/rashidun, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-kazasker]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'KAZASKER' (M. İpşirli, vol. 25, pp. 140–143, web edition read in full on 2 Nov 2026). Rewritten by Claude Code. Holders recorded from the entry's own account: Abu al-Darda (Umar's appointee in Syria), Abd al-Rahman ibn Rabia (army judge at Qadisiyya, per the entry), Candarli Kara Halil Hayreddin Pasha (first Ottoman kazasker), Sheikh Badr al-Din of Simavna (appointed kazasker by Musa Celebi), and Baha al-Din ibn Shaddad (appointed kazasker by Saladin, per the entry)."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p2-gl03"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }

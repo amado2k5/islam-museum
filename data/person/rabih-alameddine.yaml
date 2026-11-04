@@ -1,0 +1,36 @@
+id: person/rabih-alameddine
+class: person
+label: { ar: "ربيع علم الدين", en: "Rabih Alameddine", ur: "ربیع علم الدین" }
+names:
+  - { value: "ربيع علم الدين", kind: full }
+  - { value: "Rabih Alameddine", kind: full }
+gender: male
+summary:
+  ar: "روائي ورسام لبناني أمريكي، وُلد في عمّان سنة 1959 لأبوين درزيين لبنانيين ونشأ في الكويت ولبنان. تدرّب مهندسًا، وهو مؤلف «كوليدز» و«الحكواتي» و«امرأة غير ضرورية» و«ملاك التاريخ»؛ فازت روايته «الطرف الخطأ من التلسكوب» بجائزة بن/فوكنر، وفازت «القصة الحقيقية الحقيقية لرجا الساذج (ووالدته)» بالجائزة الوطنية للكتاب للرواية سنة 2025."
+  en: "Lebanese-American novelist and painter, born in Amman in 1959 to Lebanese Druze parents and raised in Kuwait and Lebanon. Trained as an engineer, he is the author of Koolaids, The Hakawati, An Unnecessary Woman and The Angel of History; The Wrong End of the Telescope won the PEN/Faulkner Award, and The True True Story of Raja the Gullible (and His Mother) won the National Book Award for Fiction in 2025."
+  ur: "لبنانی نژاد امریکی ناول نگار اور مصور، 1959 میں عمان میں لبنانی دروز والدین کے ہاں پیدا ہوئے اور کویت و لبنان میں پلے بڑھے۔ انجینئر کی تربیت پائی؛ ان کے ناولوں میں «کولیڈز»، «الحکاواتی»، «این ان نیسیسری وومن» اور «دی اینجل آف ہسٹری» شامل ہیں؛ «دی رانگ اینڈ آف دی ٹیلی سکوپ» نے پین/فاکنر ایوارڈ اور «دی ٹرو ٹرو اسٹوری آف راجا دی گلیبل» نے 2025 میں نیشنل بک ایوارڈ جیتا۔"
+roles: [writer, artist]
+wings: [people, living]
+regions: [levant-iraq, americas-oceania]
+born:
+  edtf: "1959"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "The English and Arabic articles and Wikidata agree on Amman and the year 1959; no source read gives a fuller date. A bare Gregorian year 1959 spans two Hijri years (1378 and 1379), so no Hijri year is recorded."
+  sources: [source/wikipedia-rabih-alameddine-en, source/wikipedia-rabih-alameddine-ar, source/wikidata-rabih-alameddine]
+relations:
+  - { type: born_in, target: place/amman, sources: [source/wikipedia-rabih-alameddine-en, source/wikidata-rabih-alameddine] }
+faith:
+  - value: atheist-or-sceptic
+    basis: self-identified
+    note: "Alameddine professes unbelief in his own words in two independent sources, fifteen years apart. In the Mississippi Review conversation of Spring 2002 he identifies as an atheist, as both Wikipedia articles record on that citation. In The Rumpus interview of 4 October 2017 he says: 'I'm an atheist, a devout atheist, but I find religion fascinating.' Recorded as atheist-or-sceptic on his self-identification, which meets the bar of unbelief stated in the person's own words across two independent sources. His parents were Lebanese Druze, as the San Francisco Chronicle reported and both articles record: that is family background, which never counts, and it is not the basis of this record. Wikidata's structured religion value is not used."
+    sources: [source/mississippi-review-alameddine-2002, source/rumpus-alameddine-interview-2017]
+external_ids: { wikidata: "Q2125041" }
+sources: [source/wikipedia-rabih-alameddine-en, source/wikipedia-rabih-alameddine-ar, source/wikidata-rabih-alameddine, source/mississippi-review-alameddine-2002, source/rumpus-alameddine-interview-2017]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380714143), Arabic Wikipedia (revision 76853944) and Wikidata Q2125041 (item revision 2545393222, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. The Rumpus interview of 4 October 2017 was read in full on the publisher's own page the same day. The Mississippi Review conversation of Spring 2002 could not be re-opened at its archived address in this run (the archive returned an access error) and is carried by the citation in both Wikipedia articles, as its source entity states. Existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-157a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -5,11 +5,11 @@ label:
   en: "Lutfi Pasha"
 names:
   - { kind: full, lang: ar, value: "لطفي باشا عبد المعين" }
-roles: [grand-vizier, historian, writer]
+roles: [vizier]
 gender: male
 summary:
-  ar: "بطاقة أولية للطفي باشا، الصدر الأعظم ومؤلف تاريخ آل عثمان وآصفنامه، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في تاريخ الدولة العثمانية للصلابي على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Lutfi Pasha, grand vizier and author of the Tawarikh-i Al-i Osman and Asafname, named from an open reference description (Wikidata); his entry in al-Salabi's history of the Ottoman state is not yet checked on the page, so no dates are given."
+  ar: "لطفي باشا الألباني، وزير عثماني فاضل صاحب «الكنوز في حل الرموز»؛ توفي نحو 970هـ (1562م)."
+  en: "Lutfi Pasha al-Albani (d. c.1562), Ottoman vizier, author of al-Kunuz fi Hall al-Rumuz."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
@@ -18,10 +18,10 @@ external_ids:
   wikidata: Q1584707
 provenance:
   layer: own-research
-  source: "Wikidata Q1584707 (religion claim Islam); book source: al-Salabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0010
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.5 p.243)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

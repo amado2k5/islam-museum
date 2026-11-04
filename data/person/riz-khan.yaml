@@ -1,0 +1,61 @@
+id: person/riz-khan
+class: person
+
+label: { ar: "ريز خان", en: "Riz Khan", ur: "رضوان خان" }
+
+names:
+  - { value: "Rizwan Ahmad Khan", kind: full }
+  - { value: "Riz Khan", kind: alternate }
+  - { value: "رضوان خان", kind: full }
+
+gender: male
+
+summary:
+  ar: "رضوان أحمد خان (وُلد في 1 نيسان 1962)، المعروف بريز خان، مذيع وصحفي ومؤلف بريطاني، وُلد في عدن لأب باكستاني بنجابي وأم غوجراتية. كان من مؤسسي مقدمي أخبار تلفزيون «بي بي سي وورلد سيرفيس» الإخباري، وقدّم برنامج «سؤال وجواب مع ريز خان» على سي إن إن الدولية منذ 1996، ثم برنامجه الخاص على الجزيرة الإنجليزية من 2006 إلى 2011، وألّف كتابا عن الأمير الوليد بن طلال (2005)."
+  en: "Rizwan Ahmad Khan (born 1 April 1962), known as Riz Khan, is a British broadcaster, journalist and author, born in Aden to a Pakistani Punjabi father and a Gujarati mother. A founding presenter of BBC World Service Television News, he hosted Q&A with Riz Khan on CNN International from 1996 and his own show on Al Jazeera English from 2006 to 2011, and wrote a biography of Prince Al-Waleed bin Talal (2005)."
+  ur: "رضوان احمد خان (پیدائش 1 اپریل 1962)، جو رض خان کے نام سے معروف ہیں، برطانوی نشریاتی صحافی اور مصنف ہیں، جو عدن میں پاکستانی پنجابی والد اور گجراتی والدہ کے ہاں پیدا ہوئے۔ وہ بی بی سی ورلڈ سروس ٹیلی ویژن نیوز کے بانی پیش کاروں میں سے تھے، 1996 سے سی این این انٹرنیشنل پر «Q&A with Riz Khan» کی میزبانی کی، پھر 2006 سے 2011 تک الجزیرہ انگلش پر اپنا پروگرام پیش کیا، اور شہزادہ الولید بن طلال پر کتاب لکھی (2005)۔"
+
+roles: [journalist, presenter, writer]
+wings: [people, living]
+regions: [arabia, andalus-europe]
+
+born:
+  edtf: "1962-04-01"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Aden on 1 April 1962; the English article states the day in its text, citing Al Jazeera, while Wikidata and the Arabic article carry April 1962 at month precision. The Hijri year 1381 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-rizwan-khan-en, source/wikipedia-rizwan-khan-ar, source/wikidata-rizwan-khan]
+
+relations:
+  - { type: born_in, target: place/aden, sources: [source/wikipedia-rizwan-khan-en, source/wikipedia-rizwan-khan-ar, source/wikidata-rizwan-khan] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Khan was born to a Pakistani Punjabi Muslim family, which is
+      family background and settles nothing. The English and Arabic
+      articles both file him in a British Sunni Muslims category, but a
+      category filing is not an attestation of the man himself, and
+      Wikidata carries only a bare Islam statement. No source read
+      names a school or order for Khan in its own text, so under the
+      founder's rulings of 1 November 2026 his faith is recorded as
+      unknown.
+    sources: [source/wikipedia-rizwan-khan-en, source/wikipedia-rizwan-khan-ar, source/wikidata-rizwan-khan]
+
+external_ids: { wikidata: "Q2919928" }
+
+sources:
+  - source/wikipedia-rizwan-khan-en
+  - source/wikipedia-rizwan-khan-ar
+  - source/wikidata-rizwan-khan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Rizwan Khan' (revision 1378608794 of 5 October 2026; the title 'Riz Khan' redirects to it), Arabic Wikipedia article 'رضوان خان' (revision 75171233 of 7 June 2026) and Wikidata Q2919928 (item revision 2558738199 of 19 October 2026), all fetched live in-session via the MediaWiki API on 1 November 2026, each revision re-asserted against a second live query and the QID grounded from the English article's own page property. Existence checked by slug and name fragments across data/person/ — no prior record and no draft stub; the existing syed-mir-qasim and rizwana-hasan records are different people. The century queue's year 1962 is confirmed; the queue names him by his professional name Riz Khan, and the record is filed under it."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-162a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

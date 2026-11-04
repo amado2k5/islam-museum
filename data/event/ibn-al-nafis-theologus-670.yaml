@@ -1,0 +1,27 @@
+id: event/ibn-al-nafis-theologus-670
+class: event
+kind: publication
+label:
+  ar: "ابن النفيس يصنّف «الرسالة الكاملية» (فاضل بن ناطق) بالقاهرة، نحو ٦٧٠هـ"
+  en: "Ibn al-Nafis composes the Theologus Autodidactus (Fadil ibn Natiq) at Cairo, c. 670/1270"
+  ur: "ابن نفیس قاہرہ میں «رسالہ کاملیہ» (فاضل بن ناطق) تصنیف کرتے ہیں، تقریباً 670ھ/1270ء"
+summary:
+  ar: "صنّف ابن النفيس بالقاهرة «الرسالة الكاملية في السيرة النبوية» — فاضل بن ناطق — توراً فكرياً يجعل فيه رجلاً وحيداً في جزيرة يسمّى كامل يستنبط بالعقل المجرّد أن أحداث سيرة النبي وتاريخ الجماعة، حتى وقائع المغول في عصره وحتى ملامح السلطان الذي لا شك أنه بيبرس، هي خير ما كان يمكن أن يقع، فيختم بتفسير طبيعي للنهايات {cite:encyclopaedia-of-islam-2 vol. 3 p. 898}؛ ولأنها تصوّر بيبرس (٦٥٨–٦٧٦هـ) فيّاً جرى التأريخ داخل عهده تقريباً."
+  en: "At Cairo Ibn al-Nafis composed al-Risala al-Kamiliyya fi al-sira al-nabawiyya — the Theologus Autodidactus — an intellectual tour de force in which a solitary man called Kamil on a desert island deduces by abstract reasoning that the events of the Prophet's life and the community's history, including the Mongol incursions of his own lifetime and even the physical appearance of the Muslim ruler — no doubt sultan Baybars — were the best things that could possibly have happened, ending with a naturalistic account of the Last Things {cite:encyclopaedia-of-islam-2 vol. 3 p. 898}; since it portrays the living Baybars (658–676 AH) the dating is placed approximately within his reign."
+  ur: "قاہرہ میں ابن نفیس نے «الرسالہ کاملیہ فی السیرۃ النبویہ» — تھیولوگس آٹوڈیڈاکٹس — تصنیف کی: ایک فکری مہارت جس میں ایک صحرا جزیرے کے تنہا انسان کامل محض عقلی استدلال سے یہ نتیجہ نکالتا ہے کہ سیرتِ نبوی اور امت کی تاریخ کے واقعات، بشمول اسی زمانے کے مغول حملوں اور مسلم حکمران — بلاشبہ سلطان بیبرس — کے اوصاف تک، بہترین ممکنہ وقوع تھے، اور آخرت کی ایک طبیعیت پسندانہ تعبیر پر ختم ہوتی ہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 898}؛ چونکہ یہ زندہ بیبرس (658–676ھ) کی تصویر کھینچتی ہے اس لیے تاریخ تقریباً اسی عہد میں رکھی گئی ہے۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1270~", hijri: "0670~", calendar: julian, precision: year, status: tradition, derived: true, note: "تصوّر الرسالة السلطان بيبرس حيّاً (٦٥٨–٦٧٦هـ) ووقائع المغول في عصره {cite:encyclopaedia-of-islam-2 vol. 3 p. 898}؛ التأريخ تقريبي داخل العهد والتحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-nafis, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3, art. Ibn al-Nafis, printed p. 898"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-nafis-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

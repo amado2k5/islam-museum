@@ -22,3 +22,9 @@ died: { hijri: "0231", edtf: "0846~", calendar: julian, precision: year, status:
 external_ids: { wikidata: "Q2829209" }
 sources: [source/wafayat-ayan, source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wafayat-ayan, source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib]

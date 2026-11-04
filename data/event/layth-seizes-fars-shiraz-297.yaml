@@ -1,0 +1,30 @@
+id: event/layth-seizes-fars-shiraz-297
+class: event
+kind: conquest
+label: { ar: "استيلاء الليث الصفاري على فارس وشيراز ٢٩٧هـ", en: "al-Layth al-Saffar seizes Fars and Shiraz, 297" }
+summary:
+  ar: "في سنة سبع وتسعين ومائتين سار الليث بن علي بن الليث من سجستان إلى فارس فأخذها واستولى عليها، وهرب سبكري عامل المقتدر عنها إلى أرجان، فجهّز المقتدر مؤنساً الخادم وسيّره إلى فارس معونةً لسبكري فاجتمعا بأرجان، وسيّر الليث أخاه في بعض جيشه إلى شيراز ليحفظها ثم سار في بعض جنده في طريق مختصر ليواقع الحسين بن حمدان. فأشرف العسكر الذي سُيّر إلى شيراز على عسكر مؤنس وسبكري فثاروا إليهم فاقتتلوا قتالاً شديداً فانهزم عسكر الليث وأُسر هو، وعاد مؤنس مع الليث إلى بغداد {cite:kamil-ibn-al-athir p. 44-45}."
+  en: "In 297 al-Layth ibn Ali ibn al-Layth marched from Sistan into Fars and seized it; Subkari, al-Muqtadir's governor, fled to Arrajan, so the caliph sent Mu'nis al-Khadim to Fars in support, and the two joined at Arrajan. Al-Layth sent his brother with part of the army to hold Shiraz, then took a shortcut to meet al-Husayn ibn Hamdan. The force sent to Shiraz caught sight of Mu'nis's and Subkari's army, which fell on them; after hard fighting al-Layth's army broke and he was taken prisoner, and Mu'nis carried him to Baghdad {cite:kamil-ibn-al-athir p. 44-45}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0909~", hijri: "0297", calendar: julian, precision: year, status: tradition, derived: true, note: "حوادث سنة سبع وتسعين ومائتين عند ابن الأثير {cite:kamil-ibn-al-athir p. 44-45}؛ التحويل مشتق.", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "الليث بن علي الصفاري وعسكره" }
+  - label: { ar: "مؤنس الخادم وسبكري في جند المقتدر" }
+relations:
+  - { type: occurred_at, target: place/shiraz, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/fars, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-layth-ibn-ali-al-saffar, role: "أمير الصفارية المستولي", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/subkari-al-saffari, role: "عامل فارس الهارب ثم العائد مع مؤنس", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muanis-al-muzaffar, role: "قائد جيش المقتدر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-muqtadir-billah, role: "الخليفة الآمر بالنجدة", sources: [source/kamil-ibn-al-athir] }
+map: { kind: locator, precision: approximate, center: [29.6103, 52.5311] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (مسح AAlexandrina-129185)، حوادث سنة 297هـ ص 44-45، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: explorer-shiraz-1
+sources: [source/kamil-ibn-al-athir]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

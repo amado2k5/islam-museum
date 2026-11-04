@@ -1,0 +1,64 @@
+id: person/sultan-haji-of-banten
+class: person
+
+label: { ar: "سلطان حاجي", en: "Sultan Haji of Banten", ur: "سلطان حاجی" }
+
+names:
+  - { value: "Abu an-Nasr Abd al-Qahhar", kind: full }
+  - { value: "Abu Nashar Abdul Qahar", kind: alternate }
+  - { value: "Sayyidi Shaykh Maulana Mansuruddin", kind: alternate }
+  - { value: "Haji of Banten", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أبو النصر عبد القهار، المعروف بسلطان حاجي (توفي 1687)، سلطان بانتن في جاوة — تعدّه المقالة الإنجليزية من 1682 والإندونيسية من 1683 — أزاح والده أغينغ تيرتايازا في حرب أهلية بدعم شركة الهند الشرقية الهولندية، وقبل سنة 1682 شروطًا أخضعت سياسة بانتن الخارجية وتجارتها للشركة، وخُتمت بمعاهدة 17 نيسان 1684. وتذكر المقالة الأوكرانية، استنادًا إلى موسوعة سوفيتية، أن اسمه «حاجي» جاء من حجّ أدّاه تحقيقًا لمسعى والده في التحالف مع العثمانيين."
+  en: "Abu an-Nasr Abd al-Qahhar, known as Sultan Haji (died 1687), was sultan of Banten in Java — counted from 1682 in the English article and from 1683 in the Indonesian — who displaced his father Ageng Tirtayasa in a civil war fought with Dutch East India Company support and accepted the conditions of 1682 that subordinated Banten's foreign policy and trade to the Company, sealed by the treaty of 17 April 1684. The Ukrainian article relates, on a Soviet encyclopedia's authority, that his name Haji came from a pilgrimage to Mecca undertaken for his father's design of an Ottoman alliance."
+  ur: "ابو النصر عبد القہار، جو سلطان حاجی کے نام سے معروف ہیں (وفات 1687ء)، جاوا میں بانتن کے سلطان تھے — انگریزی مقالہ ان کا دور 1682ء سے اور انڈونیشیائی 1683ء سے گنتا ہے — جنہوں نے ولندیزی ایسٹ انڈیا کمپنی کی مدد سے خانہ جنگی میں اپنے والد آگینغ تیرتایازا کو ہٹایا اور 1682ء کی وہ شرائط قبول کیں جن سے بانتن کی خارجہ پالیسی اور تجارت کمپنی کے تابع ہو گئی، اور 17 اپریل 1684ء کے معاہدے پر مہر لگی۔ یوکرینی مقالہ ایک سوویت انسائیکلوپیڈیا کے حوالے سے بتاتا ہے کہ ان کا نام «حاجی» مکہ کے اس حج سے پڑا جو انہوں نے اپنے والد کے عثمانی اتحاد کے منصوبے کے لیے کیا تھا۔"
+
+roles: [sultan]
+regions: [southeast-asia]
+wings: [people]
+
+died:
+  edtf: "1687"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Both articles end his reign in 1687 and the Wikidata item gives his death in 1687 at year precision; the English article files him under 1687 deaths. The year 1687 spans 1098-1099 AH, so no single Hijri year is built. No birth year is given by any article or by the item, so no born block is built."
+  sources: [source/wikipedia-sultan-haji-of-banten-en, source/wikipedia-sultan-haji-of-banten-id, source/wikipedia-sultan-haji-of-banten-uk, source/wikidata-sultan-haji-of-banten]
+
+relations:
+  - { type: child_of, target: person/ageng-tirtayasa, sources: [source/wikipedia-sultan-haji-of-banten-en, source/wikipedia-sultan-haji-of-banten-id] }
+  - { type: successor_of, target: person/ageng-tirtayasa, sources: [source/wikipedia-sultan-haji-of-banten-en, source/wikipedia-sultan-haji-of-banten-id] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself. The
+      Indonesian article gives him the further name Sayyidi Shaykh Maulana
+      Mansuruddin and records that Bantenese call him Syeikh Buyut
+      Mansuruddin, but names no order and describes no discipleship; the
+      Ukrainian article relates his pilgrimage to Mecca; the English
+      article records that the Muslim elite of Banten stayed loyal to his
+      father and resented his overtures to the Dutch. Styling, documented
+      practice and court context of that kind settle nothing under the
+      founder's rules, so his faith is recorded as unknown with the
+      attestations stated.
+    sources: [source/wikipedia-sultan-haji-of-banten-en, source/wikipedia-sultan-haji-of-banten-id, source/wikipedia-sultan-haji-of-banten-uk]
+
+external_ids: { wikidata: "Q4670294" }
+
+sources:
+  - source/wikipedia-sultan-haji-of-banten-en
+  - source/wikipedia-sultan-haji-of-banten-id
+  - source/wikipedia-sultan-haji-of-banten-uk
+  - source/wikidata-sultan-haji-of-banten
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abu an-Nasr of Banten' (revision 1346811528 of 3 April 2026), Indonesian Wikipedia 'Abu an-Nasr dari Banten' (revision 28424415 of 12 November 2025), Ukrainian Wikipedia 'Абдулкахар' (revision 45030032 of 6 April 2025) and Wikidata Q4670294 (item revision 2400211158 of 4 September 2025, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Indonesian and Ukrainian articles agreeing. The item has no Arabic article. Existence checked against origin/main before building, by slug variants and by QID — no record holds this man. Queue check: the queue's birth year 1639 is given by no article and no item statement, so no born block is built and the year is not followed; the death year 1687 is confirmed. The English article counts his reign and sultanate from 1682, the Indonesian from 1683, and the Ukrainian counts him the eighth sultan where the English counts the seventh; the two reign counts are preserved in the prose and no ordinal is built. His father's record (person/ageng-tirtayasa) exists on main as a draft card; the child_of and successor_of edges are written here, in the son's and successor's record, and the father's record is not edited. No place entity for Banten exists on main, so no born_in or died_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-177m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

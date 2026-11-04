@@ -18,5 +18,6 @@ faith:
   - { value: unknown, basis: unknown, note: "لم يذكر الكتاب إسلامها في هذا الموضع." }
 relations:
   - { type: participated_in, target: event/year-of-the-elephant-and-birth, role: "أول مرضعة بعد الأم", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/talqih-fuhum-ahl-al-athr, source/zad-al-maad, source/mukhtasar-sirat-al-rasul-al-najdi]
+sources: [source/mubarakpuri-raheeq, source/talqih-fuhum-ahl-al-athr, source/zad-al-maad, source/mukhtasar-sirat-al-rasul-al-najdi, source/assabile-abla-al-kahlawi]
+provenance: { layer: own-research, source: "al-Raheeq al-Makhtum p. 55 and the other listed Sira sources (earlier record by Devin); section on Abla al-Kahlawi's fi-hub-al-mustapha (Assabile transcripts pass5-qwen) added in run assabile-egypt-kahlawi-1", generated_by: "Devin (earlier record); Claude Code (claude-opus-5-5) for the Assabile section", model: claude-opus-5-5, run: assabile-egypt-kahlawi-1 }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 55" }

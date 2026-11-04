@@ -1,0 +1,29 @@
+id: event/raghib-writes-dabbi-390
+class: event
+kind: other
+label:
+  ar: "الراغب يؤلف في أيام وزارة أبي العباس الدبّي، ٣٨٥–٣٩٩هـ"
+  en: "al-Raghib writes during the vizierate of Abu al-Abbas al-Dabbi, 385–399"
+  ur: "راغب کی تصنیف، ابو العباس دبّی کی وزارت کے ایام میں، 385–399ھ"
+summary:
+  ar: "يذكر الراغب الأصفهاني خلفَ الصاحب بن عباد في الوزارة، أبا العباس الدبّي (ت ٣٩٩هـ/١٠٠٨م)، بلقبه الكامل على خلاف عادته في التسمية، فيرجّح محرر مقالته في «دائرة المعارف الإسلامية» أنه كان يكتب في مدة وزارة الدبّي نفسها {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}."
+  en: "al-Raghib refers to Ibn Abbad's successor in the vizierate, Abu al-Abbas al-Dabbi (d. 399/1008), exceptionally by his full title, which suggests to his EI2 biographer that he may have been writing during al-Dabbi's own vizierate {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}."
+  ur: "راغب اصفہانی ابن عباد کے جانشین وزیر ابو العباس دبّی (وفات 399ھ/1008ء) کا نام خلافِ عادت پورے لقب کے ساتھ لیتے ہیں، جس سے «انسائیکلوپیڈیا آف اسلام» کے مدبر کے نزدیک یہ امکان پیدا ہوتا ہے کہ وہ دبّی کی خود وزارت کے زمانے میں لکھ رہے تھے {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0995~", hijri: "0385", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد وفاة الصاحب بن عباد ٣٨٥هـ؛ ذكرُه الدبّي بلقبه الكامل يرجّح الكتابة في مدة وزارته {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}؛ التحويل مشتق." }
+  end: { edtf: "1008~", hijri: "0399", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاة أبي العباس الدبّي سنة ٣٩٩هـ/١٠٠٨م {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/isfahan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-raghib-al-isfahani, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-al-abbas-al-dabbi, role: "الوزير المذكور باللقب الكامل", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 8 pp. 389-390 (E. K. Rowson), art. al-Raghib al-Isfahani"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-raghib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

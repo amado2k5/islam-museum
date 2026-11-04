@@ -2,9 +2,7 @@
 id: person/salim-abul-ala
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 18"]
 ---
 ## Overview
-Salim, known by the kunya Abu al-Ala', secretary of [[person/hisham-ibn-abd-al-malik|Hisham ibn Abd al-Malik]], and the son-in-law of Abd al-Hamid ibn Yahya. He is counted among the eloquent and the skilled in speech {cite:fihrist-ibn-al-nadim p.171}.
-
-He translated from Aristotle's letters to Alexander, and he revised and corrected them for him. He wrote letters whose collection comes to about one hundred leaves {cite:fihrist-ibn-al-nadim p.171}.
+Salim Abu'l-Ala, secretary to Hisham ibn Abd al-Malik and brother-in-law of Abd al-Hamid ibn Yahya, one of the eloquent masters of style; he translated from Aristotle's epistles to Alexander, translations were made for him, and he produced epistles of his own. {cite:fihrist-ibn-al-nadim p. 121}

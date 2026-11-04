@@ -1,0 +1,78 @@
+id: person/fath-ali-shah-qajar
+class: person
+
+label: { ar: "فتح علي شاه القاجاري", en: "Fath-Ali Shah Qajar", ur: "فتح علی شاہ قاجار" }
+
+names:
+  - { value: "Fath-Ali Shah Qajar", kind: full }
+  - { value: "فتح علي شاه القاجاري", kind: full }
+  - { value: "Baba Khan", kind: alternate }
+  - { value: "Khaqan", kind: pen }
+
+gender: male
+
+summary:
+  ar: "فتح علي شاه القاجاري (5 أغسطس 1772 – 24 أكتوبر 1834)، وُلد باسم بابا خان في دامغان، وهو الشاه الثاني للدولة القاجارية في إيران، حكم من 1797 إلى 1834. كان في طفولته رهينة في بلاط كريم خان زند بشيراز، وعيّنه عمه آغا محمد خان وليًّا لعهده، فحوّل خانية قبلية إلى ملكية مستقرة مركزية وأشرف على نهضة فنية وبلاطية، لكنه خسر أقاليم إيران القوقازية لروسيا بمعاهدتي غلستان (1813) وتركمانجاي (1828). وكتب الشعر باسم «خاقان»."
+  en: "Fath-Ali Shah Qajar (5 August 1772 – 24 October 1834), born Baba Khan at Damghan, was the second shah of Qajar Iran, reigning from 1797 to 1834. A hostage in childhood at Karim Khan Zand's Shiraz court and his uncle Agha Mohammad Khan's designated heir, he restructured a tribal khanship into a centralized, stable monarchy and presided over a courtly and artistic revival, but lost Iran's Caucasian territories to Russia by the treaties of Gulistan (1813) and Turkmenchay (1828). He wrote poetry under the name Khaqan."
+  ur: "فتح علی شاہ قاجار (5 اگست 1772ء – 24 اکتوبر 1834ء)، پیدائشی نام بابا خان، دامغان میں پیدا ہوئے؛ ایران کے قاجار خاندان کے دوسرے شاہ تھے، 1797ء سے 1834ء تک حکمران رہے۔ بچپن میں شیراز میں کریم خان زند کے دربار میں یرغمال رہے اور چچا آغا محمد خان نے انہیں ولی عہد مقرر کیا؛ انہوں نے قبائلی خانی کو مستحکم بادشاہت میں بدلا اور فنی و درباری احیا کی سرپرستی کی، مگر گلستان (1813ء) اور ترکمان چائے (1828ء) کے معاہدوں میں ایران کے قفقازی علاقے روس سے ہار گئے۔ «خاقان» تخلص سے شاعری کرتے تھے۔"
+
+roles: [sultan, poet]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1772-08-05"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English and Arabic articles and Wikidata agree on 5 August 1772 at Damghan. The Arabic article's Hijri pairings for the birth — 1183 AH, and it is said 1185 AH — are inconsistent with that date, which falls in 1186 AH, so the Hijri year is omitted."
+  sources: [source/wikipedia-fath-ali-shah-qajar-en, source/wikipedia-fath-ali-shah-qajar-ar, source/wikidata-fath-ali-shah-qajar]
+
+died:
+  edtf: "1834-10-24"
+  hijri: "1250"
+  calendar: gregorian
+  precision: day
+  status: debated
+  note: "The Arabic article gives his death at Isfahan on 19 Jumada al-Akhirah 1250, which is 24 October 1834, and the English article's lead agrees; the English article's later-life text and Wikidata's first value give 23 October 1834, so the day is marked debated. Both articles agree he was buried in the Fatima Masumeh Shrine at Qom."
+  sources: [source/wikipedia-fath-ali-shah-qajar-en, source/wikipedia-fath-ali-shah-qajar-ar, source/wikidata-fath-ali-shah-qajar]
+
+relations:
+  - { type: born_in, target: place/damghan, sources: [source/wikipedia-fath-ali-shah-qajar-en, source/wikipedia-fath-ali-shah-qajar-ar] }
+  - { type: died_in, target: place/isfahan, sources: [source/wikipedia-fath-ali-shah-qajar-ar, source/wikidata-fath-ali-shah-qajar] }
+  - { type: successor_of, target: person/agha-muhammad-khan-qajar, sources: [source/wikipedia-fath-ali-shah-qajar-en, source/wikipedia-fath-ali-shah-qajar-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a legal school for the man himself. The
+      tradition he ruled is stated in full — he was shah of Twelver
+      Shia Iran, his monarchy rested on a mutually beneficial
+      relationship between state and religion, the Shia clergy
+      pressed him to declare war on Russia in 1804, his coinage
+      broke with the older practice of striking coins in a Shia
+      Imam's name, and he was buried in the Fatima Masumeh Shrine
+      at Qom beside Fatima, daughter of the Imam Musa al-Kazim.
+      Wikidata's single structured religion value is Shia Islam. A
+      state tradition, clerical pressure, coinage practice and a
+      shrine burial are dynastic context and practice; under the
+      founder rulings they do not name a school for the man himself,
+      and structured data never settles faith, so his faith is
+      recorded as unknown.
+    sources: [source/wikipedia-fath-ali-shah-qajar-en, source/wikipedia-fath-ali-shah-qajar-ar, source/wikidata-fath-ali-shah-qajar]
+
+external_ids: { wikidata: "Q175299" }
+
+sources:
+  - source/wikipedia-fath-ali-shah-qajar-en
+  - source/wikipedia-fath-ali-shah-qajar-ar
+  - source/wikipedia-fath-ali-shah-qajar-ur
+  - source/wikidata-fath-ali-shah-qajar
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1383097234 of 31 October 2026), Arabic Wikipedia (revision 76079927 of 3 August 2026), Urdu Wikipedia (revision 9873134 of 16 April 2026) and Wikidata Q175299 (item revision 2553831097), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted against a second live query. Existence checked by the coordinator against origin/main before building: no prior record holds him. The successor edge points to person/agha-muhammad-khan-qajar, verified on origin/main before writing (the published EI2-lane record for Agha Mohammad Khan Qajar, Q324974, founder of the dynasty, died 1797), and is written here, in the successor's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-165j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

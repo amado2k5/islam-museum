@@ -1,0 +1,27 @@
+id: event/death-ibn-fadl-allah-umari-749
+class: event
+kind: death
+label:
+  ar: "وفاة ابن فضل الله العمري بدمشق، ٧٤٩هـ/١٣٤٩م"
+  en: "Death of Ibn Fadl Allah al-Umari at Damascus, 749/1349"
+  ur: "ابن فضل اللہ عمری کی وفات، دمشق، 749ھ/1349ء"
+summary:
+  ar: "مات شهاب الدين أحمد بن فضل الله بحمى ربع أصابته فقضى يوم عرفة، تاسع ذي الحجة سنة ٧٤٩هـ (١ مارس ١٣٤٩م)، بدمشق، تاركًا «مسالك الأبصار» و«التعريف بالمصطلح الشريف» ورسائل ونظماً؛ ذكره الذهبي بأن له تصانيف أدبية كثيرة وباعًا طويلًا في الصناعتين وبراعة في البلاغتين {cite:durar-kamina-jil-1993 1/333} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  en: "Shihab al-Din Ahmad ibn Fadl Allah died at Damascus of a quartan fever on the Day of Arafa, 9 Dhu al-Hijja 749 (1 March 1349), leaving Masalik al-Absar, al-Ta'rif bi'l-Mustalah al-Sharif, essays and verse; al-Dhahabi records his many literary works and long reach in the two crafts and skill in the two rhetorics {cite:durar-kamina-jil-1993 1/333} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  ur: "شہاب الدین احمد بن فضل اللہ دمشق میں 9 ذی الحجہ 749ھ (1 مارچ 1349ء) کو، یومِ عرفہ، ربع بخار سے فوت ہوئے؛ انہوں نے «مسالک الابصار»، «التعریف بالمصطلح الشریف»، رسائل اور شاعری چھوڑی؛ ذہبی نے ان کی کثیر ادبی تصانیف اور دونوں صنعتوں میں طولِ بازو اور دونوں فنونِ بلاغت میں مہارت بیان کی ہے {cite:durar-kamina-jil-1993 1/333} {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1349-03-01", hijri: "0749-12-09", calendar: julian, precision: day, status: historical, derived: true, note: "مات بحمى ربع يوم عرفة سنة ٧٤٩هـ {cite:durar-kamina-jil-1993 1/333} = ٩ ذي الحجة ٧٤٩هـ/١ مارس ١٣٤٩م {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "المتوفى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الدرر الكامنة (ط دار الجيل 1993) 1/333 ترجمة 828؛ EI2 vol. 3 PDF pp. 790-791"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-umari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

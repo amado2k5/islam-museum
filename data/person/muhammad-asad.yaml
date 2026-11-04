@@ -1,0 +1,47 @@
+id: person/muhammad-asad
+class: person
+label: { ar: "محمد أسد", en: "Muhammad Asad", ur: "محمد اسد" }
+names:
+  - { value: "Leopold Weiss", kind: full }
+  - { value: "محمد أسد", kind: full }
+  - { value: "محمد اسد", kind: full }
+gender: male
+summary:
+  ar: "كاتب ومفكر وصحفي ومترجم ودبلوماسي نمساوي-باكستاني، وُلد باسم ليوبولد فايس في لمبرغ سنة 1900 لأسرة يهودية، واعتنق الإسلام السني في برلين سنة 1926، وجاب العالم العربي مراسلًا، وقرّب من الملك عبد العزيز في الحجاز، ثم خدم باكستان الوليدة مديرًا لإدارة الإعمار الإسلامي ومبعوثًا لها إلى الأمم المتحدة. أشهر كتبه «الطريق إلى مكة» (1954) وترجمته وتفسيره للقرآن «رسالة القرآن»."
+  en: "Austro-Hungarian-born Pakistani writer, thinker, journalist, translator and diplomat, born Leopold Weiss at Lemberg in 1900 to a Jewish family. He converted to Sunni Islam in Berlin in 1926, travelled the Arab world as a correspondent, was close to King Abdul Aziz in the Hejaz, and served the new state of Pakistan as Director of the Department of Islamic Reconstruction and as its envoy to the United Nations. His best-known books are The Road to Mecca (1954) and his Qur'an translation and commentary, The Message of the Qur'an."
+  ur: "آسٹروی۔ہنگری نژاد پاکستانی مصنف، مفکر، صحافی، مترجم اور سفارت کار، جو 1900 میں لمبرگ میں ایک یہودی خاندان میں لیوپولڈ ویز کے نام سے پیدا ہوئے۔ انھوں نے 1926 میں برلن میں اسلام قبول کیا، بطور نامہ نگار عرب دنیا کا سفر کیا، حجاز میں شاہ عبد العزیز کے قریب رہے، پھر نئی مملکت پاکستان کی خدمت بطور ڈائریکٹر محکمہ تعمیرِ نوِ اسلام اور اقوام متحدہ میں پاکستان کے مندوب کی۔ ان کی مشہور کتابیں «دی روڈ ٹو مکہ» (1954) اور ان کا ترجمۂ قرآن و تفسیر «دی میسج آف دی قرآن» ہیں۔"
+roles: [scholar, writer, translator, journalist, diplomat]
+wings: [people]
+born:
+  edtf: "1900-07-02"
+  hijri: "1318"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 2 July 1900 at Lemberg, Galicia, Austria-Hungary (now Lviv, Ukraine); the English article and Wikidata agree. No place entity for Lviv exists in data/place/, so no born_in relation is written. The Hijri year (1318) is derived by tabular conversion."
+  sources: [source/wikipedia-muhammad-asad-en, source/wikidata-muhammad-asad]
+died:
+  edtf: "1992-02-20"
+  hijri: "1412"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 20 February 1992 at Mijas, Spain, per the English article's infobox, and was buried in Granada per the Arabic article. Wikidata carries two conflicting death dates (20 and 23 February 1992); the article's text and infobox date, 20 February, is recorded. The Hijri year (1412) is derived by tabular conversion."
+  sources: [source/wikipedia-muhammad-asad-en, source/wikipedia-muhammad-asad-ar, source/wikidata-muhammad-asad]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-muhammad-asad-en] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two independent texts name the affiliation for the man himself. The English Wikipedia lead states that after travelling the Arab world as a journalist he 'converted to Sunni Islam in 1926', and the Institute of Objective Studies / IIIT conference concept note (New Delhi, 2022), a text independent of Wikipedia, states that 'He accepted Sunni Islam in 1926 (in Berlin)'. No source read names a legal school (madhhab) for him, so no compound value is recorded. Wikidata's structured values (Sunni Islam, Q483654, and Islam, Q432) corroborate but, as structured data, settle nothing by themselves. He was born into a Jewish family of rabbinic descent; his birth faith is family background and is recorded in the prose, not as a faith segment."
+    sources: [source/wikipedia-muhammad-asad-en, source/institute-of-objective-studies-asad, source/wikidata-muhammad-asad]
+external_ids: { wikidata: "Q369957" }
+sources: [source/wikipedia-muhammad-asad-en, source/wikipedia-muhammad-asad-ar, source/wikipedia-muhammad-asad-ur, source/wikidata-muhammad-asad, source/institute-of-objective-studies-asad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Muhammad Asad' (revision 1375608619 of 18 September 2026), Arabic Wikipedia «محمد أسد» (revision 76783745 of 27 September 2026), Urdu Wikipedia «محمد اسد» (revision 12108983 of 7 October 2026), Wikidata Q369957 (confirmed via the Wikidata API: born 2 July 1900 at Lviv, religion values Sunni Islam and Islam) and the Institute of Objective Studies / IIIT conference concept note (2022), all read via API or directly on 3 November 2026. No earlier record for him existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse"
+  run: century-additions-wave-184-b
+status: { review: published, completeness: 3, generated_by: "Muse" }

@@ -20,3 +20,9 @@ provenance:
   model: "claude-haiku-5-5"
   run: "harvest-group-a-dalil-16"
 status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5 from the OCR of the scan" }
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dalil-al-falihin-dar-al-marifa-vol1-2004, source/dalil-al-falihin-dar-al-kitab-vol8]

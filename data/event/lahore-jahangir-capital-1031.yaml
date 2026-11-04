@@ -1,0 +1,27 @@
+id: event/lahore-jahangir-capital-1031
+class: event
+kind: other
+label:
+  ar: "جهانكير يجعل لاهور عاصمته، ١٠٣١هـ/١٦٢٣م"
+  en: "Jahangir makes Lahore his capital, 1031/1623"
+  ur: "جہانگیر کا لہور کو دارالسلطنت بنانا، 1031ھ/1623ء"
+summary:
+  ar: "جعل جهانكير لاهور عاصمته ابتداءً من سنة ١٠٣١هـ/١٦٢٣م، وبقيت عاصمةً في معظم عهد ابنه شاه جهان الذي كان يوليها مكانة خاصة إذ هي مسقط رأسه، فأنشأ فيها مصنعًا للسجاد وجدَّد الدولة خانة {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  en: "Jahangir made Lahore his capital from 1031/1623, and it continued as such for most of the reign of Shah Jahan, who was particularly attached to it as his birthplace, establishing a carpet manufactory there and renovating the dawlat-khana {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  ur: "جہانگیر نے 1031ھ/1623ء سے لہور کو اپنا دارالسلطنت بنایا اور یہ اس کے بیٹے شاہ جہان کے بیشتر عہد میں بھی دارالسلطنت رہا؛ شاہ جہان کو اس سے خاص لگاؤ تھا کیونکہ یہ اس کی جائے پیدائش تھی، اس لیے اس نے وہاں قالین کا کارخانہ قائم کیا اور دولت خانہ کی مرمت کرائی {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1623", hijri: "1031", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/jahangir-mughal, role: "السلطان", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 38 (LAHAWR, printed p. 598) — Jahangir's capital from 1031/1623, continued under Shah Jahan"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

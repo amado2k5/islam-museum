@@ -1,0 +1,36 @@
+id: person/kaveh-akbar
+class: person
+label: { ar: "كاوه أكبر", en: "Kaveh Akbar", ur: "کاوہ اکبر" }
+names:
+  - { value: "کاوه اکبر", kind: full }
+  - { value: "Kaveh Akbar", kind: full }
+gender: male
+summary:
+  ar: "شاعر وروائي ومحرر إيراني أمريكي، وُلد في طهران سنة 1989. من أعماله مجموعتا الشعر «مناداة الذئب ذئبًا» و«جرس الحاج» والرواية الأكثر مبيعًا «شهيد!» (2024)، ويدير برنامج الكتابة الإبداعية في جامعة آيوا ويحرر قسم الشعر في مجلة «ذا نيشن»."
+  en: "Iranian-American poet, novelist and editor, born in Tehran in 1989. He is the author of the poetry collections Calling a Wolf a Wolf and Pilgrim Bell and of the bestselling novel Martyr! (2024); he directs the undergraduate creative writing programme at the University of Iowa and is poetry editor of The Nation."
+  ur: "ایرانی نژاد امریکی شاعر، ناول نگار اور مدیر، 1989 میں تہران میں پیدا ہوئے۔ ان کے شعری مجموعے «کالنگ اے وولف اے وولف» اور «پلگرم بیل» اور سب سے زیادہ فروخت ہونے والا ناول «مارٹر!» (2024) معروف ہیں؛ وہ یونیورسٹی آف آئیووا میں انڈرگریجویٹ تخلیقی تحریر کے پروگرام کے ڈائریکٹر اور «دی نیشن» کے شاعری مدیر ہیں۔"
+roles: [poet, novelist, editor]
+wings: [people, living]
+regions: [persia-central-asia, americas-oceania]
+born:
+  edtf: "1989-01-15"
+  hijri: "1409"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Tehran birthplace from English Wikipedia, the Persian Wikipedia and Wikidata, all in agreement. The Hijri year (1409) is derived from the Gregorian date. Tehran has no place entity, so no born_in edge is written and the birthplace is carried in the summary and prose."
+  sources: [source/wikipedia-kaveh-akbar-en, source/wikipedia-kaveh-akbar-fa, source/wikidata-kaveh-akbar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Akbar identifies as a Muslim in his own words in two independent interviews: to ZYZZYVA (2021), 'I identify as a Muslim, though there are plenty of Muslims in the world who would not approve of me being one'; and to EcoTheo Review (2021) he described being raised Muslim in a family 'pretty far on the secular side of Islam', fasting, and connecting with Islam anew in his sobriety. Neither interview, nor any other source read, names a school or branch for him, and his Iranian father's background is not evidence. His self-identification is preserved here, but with no source naming a specific school the value stays unknown."
+    sources: [source/zyzzyva-akbar-interview-2021, source/ecotheo-akbar-interview-2021, source/wikipedia-kaveh-akbar-en, source/wikidata-kaveh-akbar]
+external_ids: { wikidata: "Q28839955" }
+sources: [source/wikipedia-kaveh-akbar-en, source/wikipedia-kaveh-akbar-fa, source/wikidata-kaveh-akbar, source/ecotheo-akbar-interview-2021, source/zyzzyva-akbar-interview-2021]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379292378), Persian Wikipedia (revision 44282292) and Wikidata Q28839955 (item revision 2515542815, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. EcoTheo Review interview (published 15 December 2021) and ZYZZYVA Q&A (21 September 2021) read in full on the same date. Existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-156a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

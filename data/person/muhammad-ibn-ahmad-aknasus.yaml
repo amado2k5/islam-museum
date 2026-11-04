@@ -20,3 +20,9 @@ story_roles:
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 294-295, lib-mawsuat-a3lam" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص294-295", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+occupations:
+  - job: job/teacher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

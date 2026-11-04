@@ -24,6 +24,7 @@ date:
 relations:
   - { type: occurred_at, target: place/mecca }
   - { type: occurred_at, target: place/jerusalem }
+  - { type: occurred_at, target: place/al-aqsa-mosque, sources: [source/al-isra-wal-miraj-azhar] }
   - { type: had_participant, target: person/muhammad }
   - { type: had_participant, target: person/abu-bakr, role: "صدّق بالنبل فسمي الصديق", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/abu-jahl, role: "استهزأ بالخبر ونادى قريشاً للتكذيب", sources: [source/mubarakpuri-raheeq] }
@@ -54,7 +55,7 @@ perspectives:
     id: academic
     summary: { en: "Historians analyse the varied early reports and traditions regarding the dating and nature of the night journey, contrasting the concise Qur'anic text with the developed details in classical hadith literature." }
 external_ids: { wikidata: "Q381240" }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/al-isra-wal-miraj-azhar, source/al-isra-wal-miraj-dar-al-jeel-2003, source/tafsir-sharawi-khawatir-scan-pp-501-1000, source/assabile-omar-abdelkafy]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/al-isra-wal-miraj-azhar, source/al-isra-wal-miraj-dar-al-jeel-2003, source/tafsir-sharawi-khawatir-scan-pp-501-1000, source/assabile-omar-abdelkafy, source/assabile-ahmed-abdussalam]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 137-142" }
 provenance:
   layer: own-research

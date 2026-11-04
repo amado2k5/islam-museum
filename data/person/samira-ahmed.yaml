@@ -1,0 +1,69 @@
+id: person/samira-ahmed
+class: person
+
+label: { ar: "سميرة أحمد", en: "Samira Ahmed", ur: "سمیرا احمد" }
+
+names:
+  - { value: "Samira Ahmed", kind: full }
+  - { value: "سميرة أحمد", kind: full }
+
+gender: female
+
+summary:
+  ar: "صحفية وكاتبة ومذيعة بريطانية، وُلدت في واندزورث بلندن سنة 1968. تقدّم «فرونت رو» على إذاعة بي بي سي 4 و«نيوزواتش» على بي بي سي، وعملت قبل ذلك في أخبار القناة الرابعة، وفازت سنة 2020 بدعوى المساواة في الأجر ضد بي بي سي، وتكتب عمودًا منتظمًا في مجلة «نيو هيومانست»."
+  en: "British journalist, writer and broadcaster, born in Wandsworth, London, in 1968. She presents Front Row on BBC Radio 4 and Newswatch on BBC One, previously worked at Channel 4 News, won a landmark equal-pay tribunal against the BBC in 2020, and writes a regular column for New Humanist magazine."
+  ur: "برطانوی صحافی، مصنف اور نشریاتی پیش کار، جو 1968 میں لندن کے وینڈزورتھ میں پیدا ہوئیں۔ بی بی سی ریڈیو 4 پر «فرنٹ رو» اور بی بی سی پر «نیوزواچ» پیش کرتی ہیں، اس سے قبل چینل 4 نیوز میں کام کیا، 2020 میں بی بی سی کے خلاف مساوی اجرت کا مقدمہ جیتا، اور «نیو ہیومینسٹ» میگزین میں باقاعدہ کالم لکھتی ہیں۔"
+
+roles: [journalist, presenter, writer]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1968-06-15"
+  hijri: "1388"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Wandsworth, London, on 15 June 1968; the English and Arabic articles and Wikidata agree, the Arabic article citing her Who's Who entry. The Hijri year 1388 is the tabular conversion of the built date, marked derived. No place entity for London exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-samira-ahmed-en, source/wikipedia-samira-ahmed-ar, source/wikidata-samira-ahmed]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Her public association with secular humanism is well
+      attested. The English article records that she writes a
+      regular column for New Humanist magazine, the magazine of
+      Humanists UK, and that she was a trustee of that humanist
+      charity from 2023 to 2024, and an academic study of
+      British humanism describes her as a fellow humanist who
+      later served on the charity's board. Under the founder's
+      rulings of 1 November 2026, however, an atheist-or-sceptic
+      value may be recorded only where unbelief is stated in the
+      person's own words in two independent sources, and
+      movement affiliation alone never settles a faith value; no
+      statement of unbelief in her own words was found in the
+      sources read, so no value is recorded and the attestation
+      is preserved here instead. Her parents' backgrounds, her
+      father Athar Ahmed and her mother Lalita, born Chatterjee
+      in Lucknow, are family background and were not used, and
+      Wikidata carries no religion statement for her.
+    sources: [source/wikipedia-samira-ahmed-en, source/newhumanist-samira-ahmed, source/wikidata-samira-ahmed]
+
+external_ids: { wikidata: "Q7409552" }
+
+sources:
+  - source/wikipedia-samira-ahmed-en
+  - source/wikipedia-samira-ahmed-ar
+  - source/wikidata-samira-ahmed
+  - source/newhumanist-samira-ahmed
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Samira Ahmed' (revision 1367921971 of 6 August 2026), Arabic Wikipedia article «سميرة أحمد (صحفية)» (revision 75429446 of 13 June 2026), Wikidata Q7409552 (item revision 2539552511 of 2 September 2026) and her New Humanist contributor page (undated, read in full on the magazine's site), fetched live in-session via the MediaWiki API and the magazine site on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by slug and name fragments across data/person/ in the worktree and on origin/main — no prior record and no draft stub; the American author of the same name is a different person. The century queue's year 1968 is confirmed with the day from the articles."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-164a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

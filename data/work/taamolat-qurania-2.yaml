@@ -1,0 +1,37 @@
+id: work/taamolat-qurania-2
+class: work
+kind: lecture-series
+label:
+  ar: "تأملات قرآنية 2 (سلسلة دروس)"
+  en: "Ta'ammulat Qur'aniyya 2: Qur'anic reflections (lesson series)"
+  ur: "تأملات قرآنیہ 2: قرآنی غور و فکر (دروس کا سلسلہ)"
+summary:
+  ar: "سلسلة من ثلاث وعشرين حلقة ليوسف القرضاوي في أرشيف أسابيل، يشرح في كل منها آيات من سورة، من الفاتحة وآية الصيام وآية الكرسي وآيات المواريث إلى قصص الأنبياء وحديث الإفك وعباد الرحمن والفيء وجزء عمّ وسورة إبراهيم، ويقول في بعضها إنها دروس العشر الأواخر من رمضان في قطر."
+  en: "A series of twenty-three episodes by Yusuf al-Qaradawi on the Assabile archive, each explaining verses of one sura, from al-Fatiha, the verse of fasting, the Throne Verse and the inheritance verses to the stories of the prophets, the slander affair, the servants of the Most Merciful, fay', juz' 'Amma and Surat Ibrahim; in some he says they are lessons of the last ten nights of Ramadan in Qatar."
+  ur: "اسابیل آرکائیو میں یوسف قرضاوی کی تیئیس اقساط کا سلسلہ، جن میں سے ہر ایک میں وہ ایک سورت کی آیات کی شرح کرتے ہیں، فاتحہ، روزے کی آیت، آیت الکرسی اور میراث کی آیات سے انبیا کے قصوں، واقعۂ افک، عباد الرحمن، فے، جزء عمّ اور سورۃ ابراہیم تک؛ بعض میں وہ کہتے ہیں کہ یہ قطر میں رمضان کی آخری دس راتوں کے دروس ہیں۔"
+wings: [ideas]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+authors: [person/yusuf-al-qaradawi]
+delivered: { by: person/yusuf-al-qaradawi }
+language: language/arabic
+relations:
+  - { type: about, target: concept/al-fatiha-umm-al-kitab, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: practice/sawm-ramadan, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: practice/kaffarat-al-yamin, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/shafaa, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/mirath-al-nisa, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/ridda-fiqh, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: person/ayyub, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: person/yunus, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: person/aisha, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/zuhd, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/fay, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/wasat-fiqh, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: person/ismail, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/tafsir, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/ahl-al-kitab, sources: [source/assabile-yusuf-al-qaradawi] }
+  - { type: about, target: concept/nubuwwa, sources: [source/assabile-yusuf-al-qaradawi] }
+sources: [source/assabile-yusuf-al-qaradawi]
+provenance: { layer: copyrighted-reference, source: "Assabile, taamolat-qurania-2 ep01-ep23 (series page https://www.assabile.com/yusuf-al-qaradawi/lessons/taamolat-qurania-2; manifest read 1 Nov 2026; transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows; claims tables in the harvest workspace)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: assabile-egypt-qaradawi-1 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-qaradawi-1" }

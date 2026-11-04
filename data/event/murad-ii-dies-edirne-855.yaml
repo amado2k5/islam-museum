@@ -1,0 +1,24 @@
+id: event/murad-ii-dies-edirne-855
+class: event
+kind: death
+label: { ar: "وفاة مراد الثاني بأدرنة", en: "Murad II dies at Edirne", ur: "مراد ثانی کی ادرنہ میں وفات" }
+summary:
+  ar: "توفي مراد الثاني في قصره بأدرنة سنة ٨٥٥هـ/١٤٥١م عن عمر يناهز ٤٧ عاماً، ودُفن بجانب جامع المرادية في بورصة بناءً على وصيته، وخلفه ابنه محمد الثاني {cite:dawlat-uthmaniyya-salabi p. 83} {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  en: "Murad II died in his palace at Edirne in 855/1451, aged about 47, and was buried beside the Muradiye mosque in Bursa according to his will; he was succeeded by his son Mehmed II {cite:dawlat-uthmaniyya-salabi p. 83} {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  ur: "مراد ثانی 855ھ/1451ء میں ادرنہ کے اپنے محل میں تقریباً 47 سال کی عمر میں فوت ہوا اور وصیت کے مطابق بورصہ کی مرادیہ مسجد کے پاس دفن کیا گیا؛ اس کے بعد اس کا بیٹا محمد ثانی تخت نشیں ہوا {cite:dawlat-uthmaniyya-salabi p. 83} {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1451", hijri: "0855", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بأدرنة سنة ٨٥٥هـ/١٤٥١م {cite:dawlat-uthmaniyya-salabi p. 83}؛ الهجري مشتق." }
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/murad-ii-uthmani, role: "السلطان المتوفى", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Salabi, al-Dawla al-Uthmaniyya p. 83; Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 711 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

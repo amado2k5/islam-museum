@@ -408,6 +408,57 @@
           }
         }
       }
+    },
+    "jobs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "job",
+          "relation",
+          "sources"
+        ],
+        "properties": {
+          "job": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "relation": {
+            "enum": [
+              "made-by",
+              "used-by",
+              "built-by",
+              "staffed-by",
+              "reference-for",
+              "body-of",
+              "gathering-of",
+              "produced-by",
+              "workplace-of",
+              "route-of"
+            ]
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "required": [

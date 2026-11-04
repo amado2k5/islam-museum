@@ -207,6 +207,17 @@ export function checkCurriculum(loaded: { entity: any; file: string }[]): Issue[
   return issues;
 }
 
+// Raw HTML and script-scheme URLs have no prose construct (GorillaQA #11): the renderer escapes them,
+// so an author must see the failure here, at authoring time, not silently in the output.
+export function proseUnsafeHtml(body: string): string | null {
+  const codeFree = body.replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
+  const htmlTag = codeFree.match(/<\/?[a-zA-Z][^>\n]*>/);
+  if (htmlTag) return `raw HTML is not allowed in prose — the renderer escapes it, so it can only show as text: "${htmlTag[0].slice(0, 60)}" (use the prose constructs: wiki-links, {cite:…}, :::perspectives)`;
+  const badUrl = codeFree.match(/\]\(\s*(?:javascript|data|vbscript)\s*:/i) ?? codeFree.match(/href\s*=\s*["']?\s*(?:javascript|data|vbscript)\s*:/i);
+  if (badUrl) return `javascript:/data:/vbscript: URLs are not allowed in prose: "${badUrl[0].slice(0, 60)}"`;
+  return null;
+}
+
 export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
   const issues: Issue[] = [];
   const err = (file: string, msg: string) => issues.push({ level: "error", file: rel(file), msg });
@@ -337,7 +348,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     // ---- references inside structured fields (story roles, sides, tensions, locations ...)
     const REF_KEYS = new Set(["toward", "participants", "commanders", "passages", "part_of", "parent_period", "parent_concept", "publisher", "broadcaster",
       "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related",
-      "host", "occasion", "moderator", "co_speakers", "who", "by"]);
+      "host", "occasion", "moderator", "co_speakers", "who", "by",
+      "job", "under", "trained_under", "polity", "broader", "successor_jobs", "bodies", "tools", "workplaces", "outputs", "pir", "practice"]);
     const walkRefs = (node: any, path: string) => {
       if (!node || typeof node !== "object") return;
       if (Array.isArray(node)) { node.forEach((x, i) => walkRefs(x, `${path}[${i}]`)); return; }
@@ -349,6 +361,27 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       }
     };
     walkRefs(entity, "");
+
+    // ---- job blocks (docs/jobs/schema.md): every cited source exists; targets are of the class their key names; the craft block is present exactly when hirfa is set
+    const clsOf = (id: string) => String(id).split("/")[0];
+    if (entity.class === "job") {
+      if (entity.hirfa && !entity.craft) err(file, "hirfa: true needs a craft block (docs/jobs/schema.md section 1a)");
+      if (!entity.hirfa && entity.craft) err(file, "craft block without hirfa: true");
+    }
+    for (const [i, o] of ((entity.occupations ?? []) as any[]).entries()) {
+      const w = `occupations[${i}]`;
+      for (const s of o.sources ?? []) if (!known.has(s)) err(file, `${w}: source ${s} does not exist`);
+      if (o.job && clsOf(o.job) !== "job") err(file, `${w}.job: ${o.job} is not a job`);
+      if (o.under && clsOf(o.under) !== "person") err(file, `${w}.under: ${o.under} is not a person`);
+      if (o.place && clsOf(o.place) !== "place") err(file, `${w}.place: ${o.place} is not a place`);
+      if (o.polity && clsOf(o.polity) !== "polity") err(file, `${w}.polity: ${o.polity} is not a polity`);
+      for (const t of o.trained_under ?? []) if (clsOf(t) !== "person") err(file, `${w}.trained_under: ${t} is not a person`);
+    }
+    for (const [i, j] of ((entity.jobs ?? []) as any[]).entries()) {
+      const w = `jobs[${i}]`;
+      for (const s of j.sources ?? []) if (!known.has(s)) err(file, `${w}: source ${s} does not exist`);
+      if (j.job && clsOf(j.job) !== "job") err(file, `${w}.job: ${j.job} is not a job`);
+    }
 
     // ---- provenance layer (docs/sources-policy.md, founder's rule of 15 Oct 2026): the layer records where a thing came
     // from and no longer decides whether it may enter data/. Any source may be read and rewritten with a citation; a layer
@@ -499,6 +532,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     for (const m of pr.body.matchAll(citeRe)) if (!known.has(`source/${m[1]}`)) err(pr.file, `{cite:${m[1]}} does not resolve to a source`);
     if (HONORIFIC.test(pr.body)) err(pr.file, "honorifics must not be typed into prose (the UI renders them)");
     if (/[﴿﴾]/.test(pr.body)) err(pr.file, "Qur'an text must never be typed into prose: link the ayah as [[passage/quran-<sura>-<aya>|label]] (docs/plan/09 rule 10)");
+    const unsafe = proseUnsafeHtml(pr.body);
+    if (unsafe) err(pr.file, unsafe);
 
     // scope rule in prose: a perspectives block must start with a Sunni entry, and non-Sunni doctrine must be labelled before it is stated
     for (const blk of pr.body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {

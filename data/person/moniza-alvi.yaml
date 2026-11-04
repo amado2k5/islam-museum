@@ -1,0 +1,57 @@
+id: person/moniza-alvi
+class: person
+
+label: { ar: "مونيزا ألفي", en: "Moniza Alvi", ur: "منیزا علوی" }
+
+names:
+  - { value: "Moniza Alvi", kind: full }
+  - { value: "منیزا علوی", kind: full }
+
+gender: female
+
+summary:
+  ar: "مونيزا ألفي (وُلدت سنة 1954) شاعرة باكستانية بريطانية، وُلدت في لاهور لأب باكستاني وأم بريطانية، وانتقلت رضيعة إلى هاتفيلد في إنجلترا. عملت مدرّسة في المدارس الثانوية سنوات، ونالت جائزة «بوتري بزنس» سنة 1991 عن قصيدتها «هدايا من خالاتي في باكستان»، ورُشحت مجموعتها «البلد على كتفي» (1993) لجائزة ت. س. إليوت، كما رُشحت «أوروبا» (2008) و«في زمن التقسيم» (2013)، ونالت جائزة تشولموندلي (2002) وانتُخبت زميلة في الجمعية الملكية للأدب (2023)."
+  en: "Moniza Alvi (born 1954) is a Pakistani-British poet, born in Lahore to a Pakistani father and a British mother and brought to Hatfield, England, as an infant. She worked for years as a high-school teacher, won the Poetry Business Prize in 1991 for 'Presents from My Aunts in Pakistan', and saw The Country at My Shoulder (1993), Europa (2008) and At the Time of Partition (2013) all shortlisted for the T. S. Eliot Prize; she received a Cholmondeley Award in 2002 and was elected a Fellow of the Royal Society of Literature in 2023."
+  ur: "منیزا علوی (پیدائش 1954) پاکستانی برطانوی شاعرہ ہیں، جو لاہور میں پاکستانی والد اور برطانوی والدہ کے ہاں پیدا ہوئیں اور شیر خوارگی میں ہی انگلستان کے ہیٹفیلڈ منتقل ہو گئیں۔ کئی سال ہائی اسکول میں پڑھایا؛ 1991 میں نظم «Presents from My Aunts in Pakistan» پر پوئٹری بزنس انعام جیتا؛ ان کے مجموعے «The Country at My Shoulder» (1993)، «Europa» (2008) اور «At the Time of Partition» (2013) ٹی۔ ایس۔ ایلیٹ انعام کے لیے شارٹ لسٹ ہوئے؛ 2002 میں چولمنڈلی ایوارڈ ملا اور 2023 میں رائل سوسائٹی آف لٹریچر کی فیلو منتخب ہوئیں۔"
+
+roles: [poet, writer]
+wings: [people, living]
+regions: [south-asia, andalus-europe]
+
+born:
+  edtf: "1954-02-02"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Lahore on 2 February 1954; the English and Urdu articles and Wikidata all agree. The Hijri year 1373 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-moniza-alvi-en, source/wikipedia-moniza-alvi-ur, source/wikidata-moniza-alvi]
+
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-moniza-alvi-en, source/wikipedia-moniza-alvi-ur, source/wikidata-moniza-alvi] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a school, order or affiliation for her, and
+      Wikidata carries no religion statement for her. The Pakistani heritage
+      explored in her poetry is her subject matter, not an attestation of her
+      own faith, and under the founder's rulings of 1 November 2026 settles
+      nothing. Her faith is recorded as unknown.
+    sources: [source/wikipedia-moniza-alvi-en, source/wikidata-moniza-alvi]
+
+external_ids: { wikidata: "Q1812805" }
+
+sources:
+  - source/wikipedia-moniza-alvi-en
+  - source/wikipedia-moniza-alvi-ur
+  - source/wikidata-moniza-alvi
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Moniza Alvi' (revision 1369451136 of 15 August 2026), Urdu Wikipedia article 'منیزا علوی' (revision 8843632 of 18 June 2025) and Wikidata Q1812805 (item revision 2521469866 of 23 July 2026), all fetched live in-session via the MediaWiki API on 1 November 2026, the item revision re-asserted against a second live query and the QID grounded from the English article's own page property. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub. The century queue's year 1954 is confirmed by all sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-161a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

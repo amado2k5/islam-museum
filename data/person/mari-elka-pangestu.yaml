@@ -1,0 +1,45 @@
+id: person/mari-elka-pangestu
+class: person
+label: { ar: "ماري إلكا بانغيستو", en: "Mari Elka Pangestu", ur: "ماری ایلکا پانگیستو" }
+names:
+  - { value: "Mari Elka Pangestu", kind: full }
+  - { value: "Phang Hoei Lan", kind: alternate }
+gender: female
+summary:
+  ar: "ماري إلكا بانغيستو (وُلدت فانغ هوي لان في 23 تشرين الأول 1956 في جاكرتا) اقتصادية إندونيسية، أول امرأة من أصل صيني تتولى وزارة في إندونيسيا؛ وزيرة التجارة (2004–2011) ثم وزيرة السياحة والاقتصاد الإبداعي (2011–2014)، ودرست في الجامعة الوطنية الأسترالية ونالت الدكتوراه من جامعة كاليفورنيا ديفيس سنة 1986، وكانت مديرة إدارية في البنك الدولي (2020–2023)، وعُينت سنة 2024 مستشارة خاصة للرئيس ونائبة رئيس المجلس الاقتصادي الوطني."
+  en: "Mari Elka Pangestu (born Phang Hoei Lan on 23 October 1956 in Jakarta) is an Indonesian economist, the first woman of Chinese descent to hold a cabinet post in Indonesia; she was minister of trade (2004-2011) and then minister of tourism and creative economy (2011-2014), studied at the Australian National University and took her doctorate at UC Davis in 1986, was a World Bank managing director (2020-2023), and in 2024 was appointed a presidential special advisor and vice chair of the National Economic Council."
+  ur: "ماری ایلکا پانگیستو (پیدائش فانگ ہوئی لان، 23 اکتوبر 1956، جکارتہ) انڈونیشیائی ماہر معاشیات ہیں، انڈونیشیا میں وزارتی عہدہ پانے والی چینی نسل کی پہلی خاتون؛ وزیر تجارت (2004–2011) اور پھر وزیر سیاحت و تخلیقی معیشت (2011–2014) رہیں، آسٹریلین نیشنل یونیورسٹی سے تعلیم حاصل کی اور 1986 میں یو سی ڈیوس سے ڈاکٹریٹ کیا، ورلڈ بینک کی منیجنگ ڈائریکٹر (2020–2023) رہیں، اور 2024 میں صدارتی خصوصی مشیر اور قومی اقتصادی کونسل کی نائب صدر مقرر ہوئیں۔"
+roles: [economist, politician]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1956-10-23"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles and Wikidata agree on 23 October 1956, born at Jakarta. The date falls within the Hijri year 1376, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-mari-elka-pangestu-en, source/wikipedia-mari-elka-pangestu-id, source/wikidata-mari-elka-pangestu]
+relations:
+  - { type: born_in, target: place/jakarta, sources: [source/wikipedia-mari-elka-pangestu-en, source/wikipedia-mari-elka-pangestu-id, source/wikidata-mari-elka-pangestu] }
+faith:
+  - value: christian
+    basis: documented
+    note: >-
+      Two independent texts name a faith for Mari Elka
+      Pangestu herself - the Indonesian article states in
+      its prose that she is a Roman Catholic adherent,
+      and the Katolikana report of 22 October 2024 names
+      her one of two Catholic ministers of the Yudhoyono
+      era and describes her taking her 2024 oath in the
+      Christians-and-Catholics formula. The English
+      article names no faith and Wikidata carries no
+      religion statement, so the settlement rests on
+      those two texts alone, and the value recorded is
+      the generic christian of the enum.
+    sources: [source/wikipedia-mari-elka-pangestu-id, source/katolikana-mari-elka-pangestu-2024]
+external_ids: { wikidata: "Q3502322" }
+sources: [source/wikipedia-mari-elka-pangestu-en, source/wikipedia-mari-elka-pangestu-id, source/wikidata-mari-elka-pangestu, source/katolikana-mari-elka-pangestu-2024]
+provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article 'Mari Elka Pangestu' (revision 1380543833 of 16 October 2026), the Indonesian article 'Mari Elka Pangestu' (revision 29651412 of 28 August 2026), Wikidata Q3502322 (revision 2562813896 of 31 October 2026, re-asserted identical on a second live query on 1 November 2026) and the Katolikana report of 22 October 2024 read in full at its own URL, retrieved in-session; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed; the existing person/prajogo-pangestu is a different person (the Barito Pacific founder) and no relation is claimed. No Arabic or Urdu Wikipedia article exists for her, so the Arabic and Urdu prose is the museum's rendering. She is living - no death is recorded in any source read, and she was inaugurated into new presidential roles in October-November 2024 and remains active in 2026 coverage. One relation is written: born_in to place/jakarta, which exists on main. Faith - christian/documented on two independent texts: the Indonesian article's prose (Roman Catholic adherent) and Katolikana (Catholic minister; oath in the Christians-and-Catholics formula). The brief's subject gloss gave no faith; this settlement is the writer's correction on the texts.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-178a" }
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

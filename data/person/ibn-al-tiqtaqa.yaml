@@ -1,25 +1,36 @@
 id: person/ibn-al-tiqtaqa
 class: person
-label:
-  ar: "ابن الطقطقي"
-  en: "Ibn al-Tiqtaqa"
-roles: [writer, scholar]
-gender: male
+label: { ar: "ابن الطقطقي", en: "Ibn al-Tiqtaqa", ur: "ابن طقطقی" }
+names:
+  - { value: "صفي الدين محمد بن علي بن طباطبا", kind: full }
+born: { edtf: "1262~", hijri: "0660~", calendar: julian, precision: year, status: tradition, derived: true, note: "وُلد على ما يظهر قريباً من فتح المغول بغداد سنة ٦٥٦هـ، ولا يذكر أنه شهد الفتح بنفسه {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}؛ التقريب مشتق." }
+died: { edtf: "1309~", hijri: "0709", calendar: julian, precision: year, status: tradition, derived: true, note: "ت ٧٠٩هـ في فهرس مصادر تاريخ الإسلام للذهبي {cite:tarikh-islam-dhahabi s.a. 601-610 p. 738}؛ والزركلي يذكر ١٣٠٢م فقط {cite:al-aalam j.3 p. 149}؛ التحويل مشتق." }
 summary:
-  ar: "بطاقة أولية لمحمد بن علي ابن الطقطقي، مؤرخ الموصل صاحب «الفخري في الآداب السلطانية» في أواخر القرن الثالث عشر، توفي سنة ١٣٠٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Ali Ibn al-Tiqtaqa, the Mosuli historian author of al-Fakhri in the late thirteenth century, d. 1309; the biographical entry is not yet checked on the page."
+  ar: "صفي الدين محمد بن علي بن طباطبا المعروف بابن الطقطقي، مؤرخ عراقي من أهل الموصل ينتهي نسبه إلى الحسن بن علي عن طريق إبراهيم الطباطبا؛ وُلد على ما يظهر قريباً من فتح المغول بغداد سنة ٦٥٦هـ، وكان أبوه تاج الدين علي نقيباً كبيراً للعلويين فخسر حياته وماله في صراع سياسي مع الأخوين الجويني، وكان هو أيضاً نقيباً على العلويين بسلطان أضيق، وسافر كثيراً في العراق وأذربيجان؛ وأثناء إقامة بالموصل في طريقه إلى تبريز ألّف بين جمادى الآخرة وشوال ٧٠١هـ تاريخه «الفخري في الآداب السلطانية» لفخر الدين عيسى بن إبراهيم، وهو مرشد موجز للملوك ثم تراجم الخلفاء ووزرائهم إلى زمن المستعصم، وتوفي سنة ٧٠٩هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 988} {cite:tarikh-islam-dhahabi s.a. 601-610 p. 738} {cite:al-aalam j.3 p. 149}."
+  en: "Safi al-Din Muhammad ibn Ali ibn Tabataba, known as Ibn al-Tiqtaqa, an Iraqi historian of Mosul whose line runs to al-Hasan ibn Ali through Ibrahim al-Tabataba; born, it seems, shortly after the Mongol sack of Baghdad in 656/1258. His father Taj al-Din Ali, chief naqib of the Alids, lost his life and property in political intrigue against the Juwayni brothers; the son too was a naqib of the Alids with more limited authority, and travelled widely in Iraq and Adharbaydjan. During a stay at Mosul on the way to Tabriz, between Jumada II and Shawwal 701 (February–early June 1302), he composed his history al-Fakhri fi l-Adab al-Sultaniyya for Fakhr al-Din Isa ibn Ibrahim — a brief mirror for princes followed by lives of the caliphs and their viziers down to al-Musta'sim. He died in 709/1309 {cite:encyclopaedia-of-islam-2 vol. 3 p. 988} {cite:tarikh-islam-dhahabi s.a. 601-610 p. 738} {cite:al-aalam j.3 p. 149}."
+  ur: "صفی الدین محمد بن علی بن طباطبا المعروف ابن طقطقی، موصل کا عراقی مؤرخ جس کا نسب ابراہیم طباطبا کے ذریعے حسن بن علی تک پہنچتا ہے؛ غالباً 656ھ/1258ء میں بغداد کی مغول فتح کے فوراً بعد پیدا ہوا۔ اس کا والد تاج الدین علی علویوں کا سرکردہ نقیب تھا جو جوینی بھائیوں کی سیاسی چال میں جان اور مال سے ہاتھ بیٹھا؛ بیٹا بھی محدود دائرے میں علویوں کا نقیب تھا اور عراق و آذربائیجان میں کثیر سفر کیا۔ تبریز کے راستے موصل کی اقامت میں اس نے جمادی الثانی تا شوال 701ھ (فروری تا ابتدائی جون 1302ء) فخر الدین عیسیٰ بن ابراہیم کے لیے «الفخری فی الآداب السلطانیۃ» لکھی — مرشد الملوک کے بعد مستعصم تک خلفاء اور ان کے وزراء کی تراجم۔ 709ھ/1309ء میں فوت ہوا {cite:encyclopaedia-of-islam-2 vol. 3 p. 988} {cite:tarikh-islam-dhahabi s.a. 601-610 p. 738} {cite:al-aalam j.3 p. 149}۔"
+gender: male
+roles: [writer, scholar]
 wings: [people]
 regions: [levant-iraq]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam]
+periods: [period/mongol-post-mongol]
 external_ids:
   wikidata: Q1959585
+relations:
+  - { type: child_of, target: person/taj-al-din-ali-ibn-muhammad-naqib, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/mosul, sources: [source/encyclopaedia-of-islam-2, source/al-aalam] }
+  - { type: traveled_to, target: place/tabriz, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/al-fakhri-adab-sultaniyya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-ibn-al-tiqtaqa-660, role: "المولود", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-tiqtaqa-father-fall, role: "ابنه", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-tiqtaqa-travels, role: "الرحّالة النقيب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-tiqtaqa-fakhri-mosul-701, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-ibn-al-tiqtaqa-709, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/al-aalam] }
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0018
-status:
-  review: draft
-  completeness: 1
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn al-Tiktaka (F. Rosenthal), printed p. 988, citing Ibn Inaba, 'Umdat al-Talib p. 180 f.; al-Dhahabi, Tarikh al-Islam source list (601-610 AH volume) printed p. 738; al-Zirikli, al-A'lam j.3 p. 149 (harvest OCR scans). Earlier: Wikidata import card."
+  generated_by: "Devin (SWE-2 Medium); earlier: Devin (SWE-2 High)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-tiqtaqa-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

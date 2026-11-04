@@ -1,0 +1,23 @@
+id: event/british-multan-1848
+class: event
+kind: conquest
+label: { ar: "أخذ الإنجليز الملتان ١٨٤٨-١٨٤٩م", en: "The British take Multan, 1848-1849" }
+summary:
+  ar: "في سنة ١٨٤٥م بدأ الإنجليز حملتهم على دولة السيخ المتفككة في البنجاب؛ وبعد اعتداء وقع في الملتان على ضابطين إنجليزيين سنة ١٨٤٨م احتل الإنجليز المدينة وضمّوها مع سائر الإقليم إلى ممتلكاتهم سنة ١٨٤٩م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  en: "In 1845 the British began their campaign against the disintegrating Sikh state in the Panjab; after an assault in Multan on two British officers in 1848 the city was occupied by the British and annexed, with the rest of the province, to their possessions in 1849 {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  ur: "1845ء میں انگریزوں نے پنجاب کی بکھرتی ہوئی سکھ ریاست کے خلاف مہم شروع کی؛ ملتان میں دو انگریز افسروں پر 1848ء کے حملے کے بعد شہر پر انگریز قابض ہوئے اور 1849ء میں اسے باقی صوبے سمیت اپنی جاگیر میں ضم کر لیا {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}۔"
+wings: [time]
+periods: [period/colonial-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1848", hijri: "1264", calendar: gregorian, precision: year, status: tradition, derived: true, note: "الاعتداء والاحتلال ١٨٤٨م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1849", hijri: "1265", calendar: gregorian, precision: year, status: tradition, derived: true, note: "الضم مع سائر الإقليم ١٨٤٩م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 7, MULTĀN, p. 603 (PDF pages) — the 1848 assault, occupation and 1849 annexation"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-multan-1
+sources: [source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

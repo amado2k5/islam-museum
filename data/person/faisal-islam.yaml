@@ -1,0 +1,58 @@
+id: person/faisal-islam
+class: person
+
+label: { ar: "فيصل إسلام", en: "Faisal Islam", ur: "فیصل اسلام" }
+
+names:
+  - { value: "Faisal Islam", kind: full }
+  - { value: "فيصل إسلام", kind: full }
+
+gender: male
+
+summary:
+  ar: "صحفي بريطاني، وُلد في مانشستر سنة 1977 لأبوين بنغاليين من غرب البنغال. عمل مراسلًا في «ذا أوبزرفر» ثم محررًا للاقتصاد في أخبار القناة الرابعة ومحررًا سياسيًا لسكاي نيوز، وهو منذ 2019 محرر الاقتصاد في بي بي سي نيوز ويقدّم أحيانًا برنامج «نيوزنايت»."
+  en: "British journalist, born in Manchester in 1977 to Bengali parents from West Bengal. He worked at The Observer, was economics editor of Channel 4 News and political editor of Sky News, and since 2019 has been economics editor of BBC News and an occasional presenter of Newsnight."
+  ur: "برطانوی صحافی، جو 1977 میں مانچسٹر میں مغربی بنگال سے تعلق رکھنے والے بنگالی والدین کے ہاں پیدا ہوئے۔ «دی آبزرور» میں کام کیا، چینل 4 نیوز کے معاشی مدیر اور اسکائی نیوز کے سیاسی مدیر رہے، اور 2019 سے بی بی سی نیوز کے معاشی مدیر ہیں اور کبھی کبھار «نیوزنائٹ» بھی پیش کرتے ہیں۔"
+
+roles: [journalist, presenter]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1977"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born in Manchester, England. The English article gives 29 May 1977 but flags the date as needing a citation; the Arabic article's lead gives 1978 while its categories file him under both 1977 and 1978 births, and Wikidata carries three conflicting statements (the year 1977, 29 May 1977 and 1 January 1978). The year 1977 is built because the English article and two of the three Wikidata statements agree on it, at year precision only and marked debated; the day is not built. No Hijri year is recorded, because a bare Gregorian year spans two Hijri years. No place entity for Manchester exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-faisal-islam-en, source/wikipedia-faisal-islam-ar, source/wikipedia-faisal-islam-ur, source/wikidata-faisal-islam]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a religion for the man himself. The
+      English article records only that he was nominated for the
+      Services to Media award at the British Muslim Awards in
+      2015, a community awards listing that is not a profession
+      of faith, and that he was born to Bengali parents from West
+      Bengal, which is family background; neither was used.
+      Wikidata carries no religion statement for him.
+    sources: [source/wikipedia-faisal-islam-en, source/wikipedia-faisal-islam-ar, source/wikidata-faisal-islam]
+
+external_ids: { wikidata: "Q5431060" }
+
+sources:
+  - source/wikipedia-faisal-islam-en
+  - source/wikipedia-faisal-islam-ar
+  - source/wikipedia-faisal-islam-ur
+  - source/wikidata-faisal-islam
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Faisal Islam' (revision 1378909782 of 6 October 2026), Arabic Wikipedia article «فيصل إسلام» (revision 75296239 of 10 June 2026), Urdu Wikipedia article «فیصل اسلام» (revision 11845014 of 29 August 2026) and Wikidata Q5431060 (item revision 2551924861 of 1 October 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by slug and name fragments across data/person/ in the worktree and on origin/main — no prior record and no draft stub. QUEUE CORRECTION: the queue's bare year 1977 is built, but the day-level date in the English article is uncited and the year itself is contested by the Arabic article's 1978 reading, so the block is year-precision and debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-164a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

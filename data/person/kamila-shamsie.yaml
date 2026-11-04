@@ -1,0 +1,61 @@
+id: person/kamila-shamsie
+class: person
+
+label: { ar: "كاملة شمسي", en: "Kamila Shamsie", ur: "کاملہ شمسی" }
+
+names:
+  - { value: "Kamila Shamsie", kind: full }
+  - { value: "Kamila Nahid Shamsie", kind: alternate }
+
+gender: female
+
+summary:
+  ar: "كاملة شمسي (وُلدت سنة 1973) روائية باكستانية بريطانية وُلدت في كراتشي في أسرة من الكتّاب؛ والدتها الصحفية والمحررة منيزة شمسي، وخالة والدتها الكاتبة عطية حسين. تلقت تعليمها في مدرسة كراتشي النحوية وكلية هاملتون وجامعة ماساتشوستس في أمهرست، ونشرت ثماني روايات من «In the City by the Sea» (1998) إلى «Best of Friends» (2022)؛ وفازت روايتها «Home Fire» (2017) بجائزة المرأة للرواية. ومن كتبها غير الروائية «Offence — The Muslim Case» (2009). انتقلت إلى لندن سنة 2007 وتحمل الجنسيتين الباكستانية والبريطانية."
+  en: "Kamila Shamsie (born 1973) is a Pakistani-British novelist born in Karachi into a family of writers — her mother is the journalist and editor Muneeza Shamsie and her great-aunt was the writer Attia Hosain. Educated at Karachi Grammar School, Hamilton College and the University of Massachusetts Amherst, she has published eight novels from In the City by the Sea (1998) to Best of Friends (2022); Home Fire (2017) won the Women's Prize for Fiction. Her non-fiction includes Offence — The Muslim Case (2009). She moved to London in 2007 and holds dual Pakistani and British nationality."
+  ur: "کاملہ شمسی (پیدائش 1973) کراچی میں پیدا ہونے والی پاکستانی برطانوی ناول نگار ہیں، جن کا تعلق ادیبوں کے خاندان سے ہے — ان کی والدہ صحافی و ایڈیٹر منیزہ شمسی ہیں اور ان کی پرخالہ مصنفہ عطیہ حسین تھیں۔ کراچی گرامر اسکول، ہیملٹن کالج اور یونیورسٹی آف میساچوسٹس ایمہرسٹ سے تعلیم پائی، اور «In the City by the Sea» (1998) سے «Best of Friends» (2022) تک آٹھ ناول شائع کیے؛ «Home Fire» (2017) نے ویمنز پرائز برائے فکشن جیتا۔ ان کی غیر افسانوی کتابوں میں «Offence — The Muslim Case» (2009) شامل ہے۔ 2007 میں لندن منتقل ہو گئیں اور دوہری پاکستانی و برطانوی شہریت رکھتی ہیں۔"
+
+roles: [writer]
+wings: [people, living]
+regions: [south-asia, andalus-europe]
+
+born:
+  edtf: "1973-08-13"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Karachi on 13 August 1973; the English, Arabic and Urdu articles and Wikidata agree. The Hijri year 1393 is the tabular conversion of the built date, marked derived. The museum has no place entity for Karachi, so no born_in edge is written. Her mother Muneeza Shamsie and her great-aunt Attia Hosain have no records in the museum, so no family edges are written."
+  sources: [source/wikipedia-kamila-shamsie-en, source/wikipedia-kamila-shamsie-ar, source/wikipedia-kamila-shamsie-ur, source/wikidata-kamila-shamsie]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Shamsie has stated that she considers herself a Muslim, in the Evening
+      Standard's 2017 profile of her published under the title of what it is
+      to be a Muslim today, and her non-fiction book Offence — The Muslim
+      Case (2009) argues from within that identity. That is a
+      self-identification with Islam generically — it names no school or
+      order, and under the founder's rulings of 1 November 2026 a generic
+      attestation settles no value in the faith enum; Wikidata's Islam value
+      is structured data and settles nothing either. No source read names a
+      school or order for her, so her faith is recorded as unknown, with her
+      self-description preserved here in full.
+    sources: [source/evening-standard-kamila-shamsie, source/wikipedia-kamila-shamsie-en, source/wikidata-kamila-shamsie]
+
+external_ids: { wikidata: "Q3087962" }
+
+sources:
+  - source/wikipedia-kamila-shamsie-en
+  - source/wikipedia-kamila-shamsie-ar
+  - source/wikipedia-kamila-shamsie-ur
+  - source/wikidata-kamila-shamsie
+  - source/evening-standard-kamila-shamsie
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Kamila Shamsie' (revision 1374280929 of 11 September 2026), Arabic Wikipedia article 'كاملة شمسي' (revision 70744011 of 17 May 2025), Urdu Wikipedia article 'کاملہ شمسی' (revision 9307938 of 5 January 2026) and Wikidata Q3087962 (item revision 2561033987 of 26 October 2026), all fetched live in-session via the MediaWiki API on 1 November 2026, the item revision re-asserted against a second live query and the QID grounded from the English article's own page property; the Evening Standard profile of 20 September 2017 is the article's own citation for her self-description. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub. The century queue's year 1973 is confirmed by all sources. The alternate name is her birth name as given by the Arabic article."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-160a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

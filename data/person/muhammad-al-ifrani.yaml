@@ -1,0 +1,68 @@
+id: person/muhammad-al-ifrani
+class: person
+
+label: { ar: "محمد الصغير الإفراني", en: "Muhammad al-Ifrani", ur: "محمد الصغیر الافرانی" }
+
+names:
+  - { value: "Abu Abdallah Muhammad ibn Muhammad al-Ifrani al-Susi al-Marrakushi", kind: full }
+  - { value: "al-Saghir", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "محمد الصغير الإفراني (1669/1670–نحو 1743)، أبو عبد الله محمد بن محمد الإفراني السوسي المراكشي الملقب بالصغير، مؤرخ وكاتب سير مغربي {cite:wikipedia-muhammad-al-ifrani-en}. وُلد بمراكش في أسرة من قبيلة إفران الشلحية بحوض درعة، ودرس بها ثم بجامع القرويين بفاس، وعاد إلى مراكش مدرّساً وإماماً وخطيباً بالمسجد اليوسفي {cite:wikipedia-muhammad-al-ifrani-ar}. كتابه «نزهة الحادي» هو التاريخ المعتمد لسلاطين السعديين، سلالة أحمد المنصور، وكتابه «صفوة من انتشر» تراجم لصلحاء المغرب في القرن الحادي عشر الهجري، وله مصنف في مولاي إسماعيل وتاريخ عام للمغرب {cite:wikipedia-muhammad-al-ifrani-en}. اختُلف في سنة وفاته بمراكش بين 1742/1743 و1747 {cite:wikipedia-muhammad-al-ifrani-pt}."
+  en: "Muhammad al-Ifrani (1669/1670–c. 1743), in full Abu Abdallah Muhammad ibn Muhammad al-Ifrani al-Susi al-Marrakushi and called al-Saghir, was a Moroccan historian and biographer {cite:wikipedia-muhammad-al-ifrani-en}. Born at Marrakesh into the Ifran, a Shilha tribe of the Draa basin, he studied there and then at al-Qarawiyyin in Fes, returned to teach at Marrakesh, and served as imam and khatib of its Yusufi mosque {cite:wikipedia-muhammad-al-ifrani-ar}. His Nuzhat al-Hadi is the standard chronicle of the Saadian sultans, the dynasty of Ahmad al-Mansur; his Safwat man Intashar biographies the saints of seventeenth-century Morocco; he also wrote a monograph on Moulay Ismail and a general history of Morocco {cite:wikipedia-muhammad-al-ifrani-en}. The year of his death at Marrakesh is disputed, with readings from 1742/1743 to 1747 {cite:wikipedia-muhammad-al-ifrani-pt}."
+  ur: "محمد الصغیر الافرانی (1669/1670ء–تقریباً 1743ء)، پورا نام ابو عبد اللہ محمد بن محمد الافرانی السوسی المراکشی، لقب «الصغیر»، مراکشی مؤرخ اور سیرت نگار تھے {cite:wikipedia-muhammad-al-ifrani-en}۔ مراکش میں درعہ کے طاس کی شلحہ قبیلہ افران کے گھرانے میں پیدا ہوئے، وہیں اور پھر فاس کی قرویین میں تعلیم پائی، واپس آ کر مراکش میں درس دیا اور یوسفی مسجد کے امام و خطیب رہے {cite:wikipedia-muhammad-al-ifrani-ar}۔ ان کی «نزہۃ الحادی» سعدی سلاطین — احمد المنصور کے خاندان — کی معیاری تاریخ ہے اور «صفوۃ من انتشر» سترھویں صدی کے مراکشی اولیا کی سیرتیں؛ مولای اسماعیل پر بھی لکھا اور مراکش کی عمومی تاریخ بھی {cite:wikipedia-muhammad-al-ifrani-en}۔ مراکش میں ان کی وفات کا سال متنازع ہے، 1742/1743ء سے 1747ء تک روایات ہیں {cite:wikipedia-muhammad-al-ifrani-pt}۔"
+
+roles: [scholar, historian, biographer]
+regions: [maghreb]
+wings: [people]
+
+born:
+  edtf: "1669/1670"
+  calendar: gregorian
+  precision: year
+  status: historical
+  hijri: "1080"
+  note: "Born at Marrakesh in 1669/1670: the English, Portuguese and Catalan articles give the two years, the French the first and the Dutch the second, and the Arabic article dates his birth to about 1080 AH, the same span. The French article instead puts his birth in the region of Ifrane in the Little Atlas south of Agadir — his family's tribal country, against the other texts' Marrakesh, and not followed."
+  sources: [source/wikipedia-muhammad-al-ifrani-en, source/wikipedia-muhammad-al-ifrani-ar, source/wikipedia-muhammad-al-ifrani-fr, source/wikipedia-muhammad-al-ifrani-pt]
+
+died:
+  edtf: "1743~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Died at Marrakesh; the year is disputed across the texts read and every reading is preserved here. The English article gives about 1742/1743; the Arabic article's lead gives about 1156 AH (1743/1744) while its body reports the historians' range as 1138–1156 AH (1726–1744); the French article's lead gives 1744; the Portuguese lifespan runs 1743–1747; the Catalan text puts the death between 1743 and 1745; the Dutch text gives 1743 or 1745 while its lead gives 1747 — the year the queue row carried, which follows the Dutch lead and the Wikidata statement only. The block is built at the centre of the cluster, about 1743, with the status debated."
+  sources: [source/wikipedia-muhammad-al-ifrani-en, source/wikipedia-muhammad-al-ifrani-fr, source/wikipedia-muhammad-al-ifrani-ar, source/wikipedia-muhammad-al-ifrani-pt, source/wikipedia-muhammad-al-ifrani-ca, source/wikipedia-muhammad-al-ifrani-nl]
+
+relations:
+  - { type: born_in, target: place/marrakesh, sources: [source/wikipedia-muhammad-al-ifrani-en, source/wikipedia-muhammad-al-ifrani-ar] }
+  - { type: died_in, target: place/marrakesh, sources: [source/wikipedia-muhammad-al-ifrani-ar, source/wikipedia-muhammad-al-ifrani-pt] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for al-Ifrani himself.
+      The Arabic article calls him a jurist and records that he taught
+      Qur'an commentary, hadith and law at Marrakesh and served as
+      imam and khatib of the Yusufi mosque there; the Portuguese and
+      Dutch articles likewise give the imam-khatib post at the Ben
+      Yusuf madrasa. Documented practice and office settle no value
+      under the founder's ruling of 1 Nov 2026, and no Maliki value is
+      inferred from his Moroccan setting or his teaching. The Wikidata
+      item's P140 is the generic value Islam, which under the
+      founder's doctrine settles nothing and is not flagged.
+    sources: [source/wikipedia-muhammad-al-ifrani-ar, source/wikipedia-muhammad-al-ifrani-pt, source/wikipedia-muhammad-al-ifrani-nl, source/wikidata-muhammad-al-ifrani]
+
+external_ids: { wikidata: "Q3108470" }
+
+sources: [source/wikipedia-muhammad-al-ifrani-en, source/wikipedia-muhammad-al-ifrani-fr, source/wikipedia-muhammad-al-ifrani-ar, source/wikipedia-muhammad-al-ifrani-pt, source/wikipedia-muhammad-al-ifrani-ca, source/wikipedia-muhammad-al-ifrani-nl, source/wikidata-muhammad-al-ifrani]
+
+provenance:
+  layer: own-research
+  source: "English, French, Arabic, Portuguese, Catalan and Dutch Wikipedia articles on Muhammad al-Saghir al-Ifrani (read in-session 1 November 2026), with the Wikidata item Q3108470 for the identifier only"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-176m"
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

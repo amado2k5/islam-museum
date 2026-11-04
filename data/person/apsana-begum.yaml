@@ -1,0 +1,67 @@
+id: person/apsana-begum
+class: person
+
+label: { ar: "أبسانا بيجوم", en: "Apsana Begum", ur: "افسانہ بیگم" }
+
+names:
+  - { value: "Apsana Begum", kind: full }
+  - { value: "আফসানা বেগম", kind: full }
+  - { value: "أبسانا بيجوم", kind: full }
+
+gender: female
+
+summary:
+  ar: "أبسانا بيجوم (وُلدت في 25 أيار 1990 في شادويل بلندن لأبوين بنغلاديشيين)، سياسية بريطانية في حزب العمال، نائبة عن بوبلر ولايمهاوس منذ 2019، وهي أول نائبة في البرلمان البريطاني ترتدي الحجاب. درست في جامعة كوين ماري وكلية الدراسات الشرقية والأفريقية (SOAS)."
+  en: "Apsana Begum (born 25 May 1990 in Shadwell, London, to Bangladeshi parents) is a British Labour politician, MP for Poplar and Limehouse since 2019 and the first Member of Parliament in Britain to wear a hijab. She studied at Queen Mary University of London and SOAS."
+  ur: "افسانہ بیگم (پیدائش 25 مئی 1990، شیڈویل، لندن، بنگلہ دیشی والدین کے گھر) برطانوی لیبر سیاست دان ہیں، 2019 سے پوپلر و لائم ہاؤس کی رکنِ پارلیمان، اور برطانوی پارلیمان میں حجاب پہننے والی پہلی رکن ہیں۔ انہوں نے کوئین میری یونیورسٹی آف لندن اور سواس (SOAS) سے تعلیم حاصل کی۔"
+
+roles: [politician]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1990-05-25"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Shadwell, London on 25 May 1990; the English and Arabic articles and Wikidata agree. The Hijri year 1410 is the tabular conversion of the built date, marked derived. No place entity for Shadwell or London exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-apsana-begum-en, source/wikipedia-apsana-begum-ar, source/wikidata-apsana-begum]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Her practice and her generic self-identification are
+      documented: she is the first MP in Britain to wear a hijab,
+      and she has written of her own first-hand experience as one
+      of the "people of Muslim backgrounds like me". Documented
+      practice with a generic identification names no school or
+      order, so no value is recorded and the attestations are
+      preserved here. Two structured or filed values were expressly
+      not used: Wikidata's single structured religion statement
+      gives Sunni Islam, and the Urdu article files her under an
+      "English Sunni Muslims" category; structured data and
+      category filings never count under the founder's rulings of
+      1 November 2026, and no independent text read names the
+      Sunni school for her. Her parents' religion is family
+      background and was likewise not used.
+    sources: [source/wikipedia-apsana-begum-en, source/wikipedia-apsana-begum-ar, source/wikipedia-apsana-begum-ur, source/wikidata-apsana-begum]
+
+external_ids: { wikidata: "Q76363973" }
+
+sources:
+  - source/wikipedia-apsana-begum-en
+  - source/wikipedia-apsana-begum-ar
+  - source/wikipedia-apsana-begum-ur
+  - source/wikidata-apsana-begum
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Apsana Begum' (revision 1368398721 of 8 August 2026), Arabic Wikipedia article 'أبسانا بيجوم' (revision 72463621 of 15 November 2025), Urdu Wikipedia article 'افسانہ بیگم' (revision 11845082 of 29 August 2026) and Wikidata Q76363973 (item revision 2542481481 of 8 September 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's year 1990 is confirmed at day precision. Her faith is left unknown: Wikidata's Sunni Islam value is a single structured statement and the Urdu category filing is a filing; neither counts, and no text names a school for her."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-168a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

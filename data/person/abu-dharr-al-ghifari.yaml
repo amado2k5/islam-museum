@@ -32,7 +32,7 @@ relations:
 external_ids:
   wikidata: Q1029610
 sensitivity: polemical
-sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/sahih-al-bukhari, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy]
+sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/sahih-al-bukhari, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; run omar-abdelkafy-sharh-ketab-1" }
 provenance:
   layer: own-research
@@ -43,3 +43,9 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b3", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+occupations:
+  - job: job/mufti
+    kind: episodic
+    status: historical
+    note: "The entry names him among the third group of Companions, about 120, of whom few fatwas are recorded."
+    sources: [source/tdv-fetva]

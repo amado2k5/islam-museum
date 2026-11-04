@@ -1,0 +1,27 @@
+id: event/birth-al-mawardi-364
+class: event
+kind: birth
+label:
+  ar: "مولد أبي الحسن علي بن محمد الماوردي بالبصرة، ٣٦٤هـ"
+  en: "Birth of Abu al-Hasan Ali ibn Muhammad al-Mawardi at Basra, 364/974"
+  ur: "ابوالحسن علی بن محمد ماوردی کی پیدائش بصرہ میں، 364ھ/974ء"
+summary:
+  ar: "وُلد أبو الحسن علي بن محمد بن حبيب الماوردي البصري الشافعي بالبصرة سنة أربع وستين وثلاثمائة، وكان أبوه صانع ماء الورد وبائعه، وإليه نُسب {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}. وتوفي عن ست وثمانين سنة في ربيع الأول سنة خمسين وأربعمائة {cite:muntazam-ibn-al-jawzi j.8 p.199-200}."
+  en: "Abu al-Hasan Ali ibn Muhammad ibn Habib al-Mawardi al-Basri al-Shafi'i was born at Basra in 364/974; his father was a maker and seller of rose-water, from which his nisba derives {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}. He died aged eighty-six in Rabi' I 450 {cite:muntazam-ibn-al-jawzi j.8 p.199-200}."
+  ur: "ابوالحسن علی بن محمد بن حبیب ماوردی بصری شافعی 364ھ/974ء میں بصرہ میں پیدا ہوئے؛ ان کے والد گلاب کا پانی بنانے اور بیچنے والے تھے، جس سے ان کی نسبت پڑی {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}۔ وہ چھیاسی برس کی عمر میں ربيع الاول 450ھ میں فوت ہوئے {cite:muntazam-ibn-al-jawzi j.8 p.199-200}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0974~", hijri: "0364", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالبصرة سنة ٣٦٤هـ/974م {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}؛ ويؤيده أنه توفي سنة ٤٥٠هـ عن ست وثمانين سنة {cite:muntazam-ibn-al-jawzi j.8 p.199-200}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-mawardi, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/muntazam-ibn-al-jawzi] }
+sources: [source/encyclopaedia-of-islam-2, source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 6 (Mahk-Mid), art. al-Māwardī, printed p. 896; Ibn al-Jawzi, al-Muntazam j.8 printed pp. 199-200 (harvest OCR AAlexandrina-224011)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mawardi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

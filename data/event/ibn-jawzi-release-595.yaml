@@ -1,0 +1,27 @@
+id: event/ibn-jawzi-release-595
+class: event
+kind: other
+label:
+  ar: "إطلاق سراح ابن الجوزي وعودته إلى بغداد سنة ٥٩٥هـ"
+  en: "Ibn al-Jawzi released and returns to Baghdad, 595/1198–9"
+  ur: "ابن الجوزی کی رہائی اور بغداد واپسی، 595ھ/1198–9ء"
+summary:
+  ar: "أُطلق سراح ابن الجوزي من منفاه في واسط سنة ٥٩٥هـ/١١٩٨–١١٩٩م بشفاعة أم الخليفة الناصر — وكانت امرأة متدينة جداً كسب مودّتها ابن الواعظ الشيخ محيي الدين يوسف الذي كان سيعمل في خدمة الخلافة — فعاد ابن الجوزي إلى بغداد عودة ظافرة، ثم توفي بعد ذلك بقليل سنة ٥٩٧هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 784}."
+  en: "Ibn al-Jawzi was set free from his exile at Wasit in 595/1198–9 on the intervention of the caliph al-Nasir's mother, a very devout woman whose sympathy had been gained by one of the preacher's sons, the shaykh Muhyi al-Din Yusuf, who was to make his career in the service of the caliphate. Ibn al-Jawzi made a triumphant return to Baghdad, but died soon after, in 597 {cite:encyclopaedia-of-islam-2 vol. 3 p. 784}."
+  ur: "ابن الجوزی 595ھ/1198–9ء میں واسط کی جلاوطنی سے رہا ہوئے، خلیفہ ناصر کی والدہ کی سفارش پر — ایک نہایت دیندار خاتون جس کا دل ان کے فرزند شیخ محی الدین یوسف نے پا لیا تھا جو بعد میں خلافت کی خدمت میں رہا۔ ابن الجوزی کی بغداد واپسی فتح مندانہ ہوئی مگر وہ جلد ہی 597ھ میں فوت ہوئے {cite:encyclopaedia-of-islam-2 vol. 3 p. 784}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1198~", hijri: "0595", calendar: julian, precision: year, status: tradition, derived: true, note: "الإطلاق سنة ٥٩٥/١١٩٨–١١٩٩؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 3 p. 784}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-jawzi, role: "المُطلَق العائد", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H–Iram), printed p. 784, art. Ibn al-Djawzī"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-jawzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

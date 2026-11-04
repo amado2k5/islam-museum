@@ -1,0 +1,28 @@
+id: event/samani-father-death-510
+class: event
+kind: death
+label:
+  ar: "وفاة أبي بكر السمعاني وكفالة العمين للصبي عبد الكريم، ٥١٠هـ/١١١٦م"
+  en: "Death of Abu Bakr al-Sam'ani; the boy 'Abd al-Karim is raised by his two learned uncles, 510/1116"
+  ur: "ابو بکر سمعانی کی وفات؛ بچے عبدالکریم کی پرورش دو عالم چچاؤں کے سپرد، 510ھ/1116ء"
+summary:
+  ar: "مات أبو بكر السمعاني سنة عشر وخمسمائة في أولها، وقد أوصى بابنه قبل وفاته إلى أخويه العالمين، فتربّى أبو سعد بين أعمامه وأهله، فلما راهق أقبل على القرآن والفقه والاشتغال {cite:tarikh-islam-dhahabi p. 120}؛ وتوفي الأب عن ثلاث وأربعين سنة {cite:shadharat-dhahab p. 509}."
+  en: "Abu Bakr al-Sam'ani died at the beginning of 510 (1116); foreseeing his death he had entrusted his son to his two learned brothers, and Abu Sa'd grew up among his uncles and family, turning as a youth to Qur'an, fiqh and study {cite:tarikh-islam-dhahabi p. 120}. The father was forty-three {cite:shadharat-dhahab p. 509}."
+  ur: "ابو بکر سمعانی 510ھ (1116ء) کے آغاز میں فوت ہوئے؛ انہوں نے اپنی وفات سے پہلے بیٹے کو اپنے دو عالم بھائیوں کے سپرد کیا تھا، ابو سعد چچاؤں اور گھر والوں میں پلے اور جوانی کو پہنچتے ہی قرآن، فقہ اور تحصیل کی طرف مائل ہوئے {cite:tarikh-islam-dhahabi p. 120}۔ والد کی عمر تینتالیس سال تھی {cite:shadharat-dhahab p. 509}۔"
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1116~", hijri: "0510", calendar: julian, precision: year, status: tradition, derived: true, note: "مات أبوه سنة عشر في أولها {cite:tarikh-islam-dhahabi p. 120}؛ توفي سنة عشر وخمسمائة {cite:shadharat-dhahab p. 509}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/merv, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-bakr-ibn-mansur-al-samani, role: "المتوفى", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-samani, role: "الابن المكفول", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 562, printed p. 120 (harvest OCR); Ibn al-'Imad, Shadharat al-Dhahab, printed p. 509 (harvest OCR); EI2 vol. 8 art. al-Sam'ani, printed p. 1024"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-samani-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

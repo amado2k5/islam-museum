@@ -1,0 +1,49 @@
+id: person/asad-pasha-al-azm
+class: person
+label: { ar: "أسعد باشا العظم", en: "As'ad Pasha al-Azm", ur: "اسعد پاشا العظم" }
+names:
+  - { value: "أسعد بن إسماعيل العظم", kind: full }
+  - { value: "As'ad ibn Ismail al-Azm", kind: full }
+gender: male
+summary:
+  ar: "والي دمشق العثماني من سنة 1743 إلى عزله سنة 1757، وأبرز رجال أسرة العظم التي حكمت أقاليم الشام العثمانية. سحق جنود الإنكشارية المتمردين سنة 1746، وحمى قافلة الحج الشامية سنوات طويلة، وبنى قصر العظم بدمشق وخان أسعد باشا. عُزل سنة 1757 واختلفت الروايات في مصرعه سنة 1758."
+  en: "Ottoman governor of Damascus from 1743 until his deposition in 1757, and the most prominent figure of the al-Azm family that governed the provinces of Ottoman Syria. He crushed the rebellious janissaries in 1746, protected the Syrian Hajj caravan for years, and built the Azm Palace in Damascus and Khan As'ad Pasha. Deposed in 1757, he was executed the following year, with two accounts of his death."
+  ur: "دمشق کے عثمانی گورنر 1743 سے 1757 میں معزولی تک، اور العظم خاندان کی نمایاں ترین شخصیت جس نے عثمانی شام کے صوبوں پر حکومت کی۔ انہوں نے 1746 میں باغی ینی چریوں کو کچلا، برسوں شامی قافلۂ حج کی حفاظت کی، اور دمشق میں قصر العظم اور خان اسعد پاشا تعمیر کرائے۔ 1757 میں معزول ہوئے اور اگلے سال قتل کر دیے گئے، جن کی موت کی دو روایتیں ہیں۔"
+roles: [politician, patron]
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+born:
+  edtf: "~1706"
+  hijri: "1117"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "English Wikipedia gives his birth in 1706 at Ma'arrat al-Nu'man. The Arabic article's lead dates him 1701–1757 and Wikidata Q136169181 gives 1701, but the Arabic article's own body cites the historian Ibn Miru for a birth in 1117 AH (1705–06 CE), agreeing with the English article; c. 1706 is recorded and the 1701 reading is preserved here. No place entity exists for Ma'arrat al-Nu'man, so no born_in edge is written."
+  sources: [source/wikipedia-asad-pasha-al-azm-en, source/wikipedia-asad-pasha-al-azm-ar, source/wikidata-asad-pasha-al-azm]
+died:
+  edtf: "1758-03"
+  hijri: "1171"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "The English article's lead dates his death to March 1758. The accounts differ: one has him executed in March 1758 aboard a ship ostensibly carrying him to exile in Crete; the Türkiye Diyanet Vakfı Encyclopaedia of Islam account carried by the same article has him appointed to Aleppo on 21 January 1757 and to Sivas on 25 September 1757, then executed at Ankara on the way to exile at Ruse — his tomb there (the Azimi, İsmail Paşazade Hacı Esad, Türbesi) bears the year 1171 AH on its stone and records his fourteen years as Hajj caravan commander. The Arabic lead and Wikidata close his life in 1757; 1171 AH runs from October 1757 to September 1758 and covers both readings. No place entity exists for Ankara, so no died_in edge is written."
+  sources: [source/wikipedia-asad-pasha-al-azm-en, source/wikipedia-asad-pasha-al-azm-ar, source/wikidata-asad-pasha-al-azm]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-asad-pasha-al-azm-en, source/wikipedia-asad-pasha-al-azm-ar] }
+  - { type: commissioned, target: building/qasr-al-azm-dimashq, sources: [source/wikipedia-asad-pasha-al-azm-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read names a school or affiliation for the man himself. Wikidata Q136169181 records his religion as Islam without qualification. His office as an Ottoman governor, his protection of the Hajj caravan and his family's milieu do not settle his faith, so it is recorded as unknown."
+    sources: [source/wikidata-asad-pasha-al-azm, source/wikipedia-asad-pasha-al-azm-en]
+external_ids: { wikidata: "Q136169181" }
+sources: [source/wikipedia-asad-pasha-al-azm-en, source/wikipedia-asad-pasha-al-azm-ar, source/wikidata-asad-pasha-al-azm]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1374052835 of 9 September 2026), Arabic Wikipedia «أسعد إسماعيل العظم» (revision 76062057 of 1 August 2026) and Wikidata Q136169181 (item revision 2462228683 of 10 February 2026), fetched live in-session on 3 November 2026, every revision id re-asserted identical on a second live query; the item has no sitelinks, so articles and item were grounded separately. This record replaces the draft stub person/azmzade-asad-pasha — a Wikidata-import stub of completeness 1 that carried the item's misleading 'writer' role, Anatolia-Balkans regions and dates of 1701–1757 — under the founder's REPLACE ruling of 3 November 2026 (Atatürk precedent, PR #3280); the stub's deletion is merge work, not done here. The English article contradicts itself on the succession (lead: 'succeeded his father'; family section: his uncle Sulayman Pasha, governor of Damascus, died in 1743) and the family-section chronology is followed. His father Ismail Pasha al-Azm, his uncle Sulayman Pasha and his brother Sa'deddin Pasha have no records, so no family edges are written; Ma'arrat al-Nu'man and Ankara have no place entities, so no born_in or died_in edge is written. Khan As'ad Pasha (1752) has no building entity; the Azm Palace in Damascus does (building/qasr-al-azm-dimashq) and carries the commissioned edge; the Azm Palace he built earlier at Hama has no entity."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-185-writer-b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

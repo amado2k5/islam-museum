@@ -1,0 +1,20 @@
+---
+id: person/yahya-bey-dukagjini
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Yahya bey Dukagjini — in Turkish Dukaginzâde Yahyâ bey, or Taşlıcalı Yahyâ from the nickname Muallim Naci gave him — was an Albanian poet and military figure of the Ottoman sixteenth century, reckoned among the greatest diwan poets of his age. {cite:wikipedia-yahya-bey-dukagjini-en} Of the noble Dukagjini family, he was taken as a boy through the devşirme, enlisted as a janissary and rose to bölükbaşı, campaigning at Chaldiran in 1514, in the Ottoman–Mamluk war of 1516–17, at Baghdad in 1535 and at Szigetvár in 1566. {cite:wikipedia-yahya-bey-dukagjini-en} His birth is given as 1488 or 1489, his exact birthplace is unknown — somewhere in northern Albania, though the Turkish article's infobox names Taşlıca — and his death is placed by most sources in 1582, at Loznica, with 1575, 1573 and 1578–79 also reported and his burial disputed between Zvornik and Istanbul. {cite:wikipedia-yahya-bey-dukagjini-en} {cite:wikipedia-yahya-bey-dukagjini-tr} {cite:wikidata-yahya-bey-dukagjini}
+
+## Education and patrons
+Yahya's talent was noticed in the Acemi Oğlanlar school, and the Turkish article says lessons were arranged for him from Kemal Paşazade, Kadri Efendi and Fenarizade Muhyiddin Çelebi; the English article names the statesmen and scholars whose circles he entered, among them Ibn Kemal, İskender Çelebi and Pargalı Ibrahim Pasha. {cite:wikipedia-yahya-bey-dukagjini-tr} {cite:wikipedia-yahya-bey-dukagjini-en} His satirical qasida against his rival Khayali so pleased Rüstem Pasha, on a Persian campaign, that he was made administrator of foundations in Bursa and Istanbul. {cite:wikipedia-yahya-bey-dukagjini-en}
+
+## The elegy and the exile
+In 1553 Sultan Suleiman had his son Şehzade Mustafa executed on campaign near Ereğli. Yahya's elegy, the Şehzade Mersiyesi, openly blamed the plot's author, Grand Vizier Rüstem Pasha, who summoned him and asked how he dared bewail one the Sultan had condemned; Yahya answered that they had condemned him with the Sultan but bewailed him with the people. {cite:wikipedia-yahya-bey-dukagjini-en} Rüstem sought his execution; the Sultan forbade it but stripped his offices, and as a member of the askeri class who could not be left to starve he was sent into Balkan exile on a fief — near Zvornik according to Âşık Çelebi, or at Temeşvar according to others — on a comfortable income, and even in old age he marched with his men to Szigetvár and presented a qasida to the Sultan there. {cite:wikipedia-yahya-bey-dukagjini-en} {cite:wikipedia-yahya-bey-dukagjini-tr}
+
+## Poetry
+His main work is a vast diwan and a khamsa of five mesnevis: Şah u Geda (The King and the Beggar), said to have been written in a week; Yusuf ve Züleyha, on the pure love of Yusuf and Züleyha; Gencine-i Raz; Gülşen-i Envar; and Kitab-ı Usul, ten "stations" of moral aphorism and anecdote. {cite:wikipedia-yahya-bey-dukagjini-en} Gibb praised the retained simplicity, vigour and originality of his Turkish — nothing in it betrays a non-Constantinopolitan — and Yahya himself boasts in his epilogues that he translated no one and would not take a dead man's sweetmeat into his mouth. {cite:wikipedia-yahya-bey-dukagjini-en} He also wrote şehrengiz poems on Edirne and Istanbul, took inspiration from Rumi, and in old age is said to have written the Gül-i Şadberk, a poem on the miracles of the Prophet in a purely religious tone. {cite:wikipedia-yahya-bey-dukagjini-en}
+
+## Religion
+No source read names a branch or a school for Yahya: neither article carries a religion field and Wikidata carries no religion claim. {cite:wikipedia-yahya-bey-dukagjini-en} {cite:wikipedia-yahya-bey-dukagjini-tr} {cite:wikidata-yahya-bey-dukagjini} His documented life is that of a Muslim soldier-poet of the Ottoman court — his khamsa moves between romance and moral teaching and closes, in the Gül-i Şadberk, in praise of the Prophet's miracles — and his debt to Rumi is literary inspiration, not an attested membership of the Mevlevi order, so this record states the practice and records no school. {cite:wikipedia-yahya-bey-dukagjini-en}

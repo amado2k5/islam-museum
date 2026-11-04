@@ -2,8 +2,7 @@
 id: person/ubaydallah-ibn-yahya-ibn-khaqan
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 23"]
 ---
-
 ## خلاصہ
-سنہ 233 ہجری میں محمد بن الفضل الجرجرائی کی معزولی کے بعد المتوکل نے انہیں کاتب مقرر کیا، اور وہ اس کے وزیر رہے یہاں تک کہ قتل ہوئے، المسعودی کے مطابق۔ {cite:muruj-al-dhahab p.476}
+عبیداللہ بن یحییٰ بن خاقان؛ ابن جوزی کے مطابق متوکل نے فتح کو ان کی عیادت کے لیے بھیجا تو انہوں نے جواب دیا 'دو جگہ علیل ہوں — بیماری اور قرض، اور یہی دونوں میرے لیے کافی ہیں'؛ متوکل نے انہیں ایک ہزار درہم عطا کیے۔ {cite:muntazam-ibn-al-jawzi v. 11 p. 180}

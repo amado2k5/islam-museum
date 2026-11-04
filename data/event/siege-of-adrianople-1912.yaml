@@ -3,21 +3,24 @@ class: event
 kind: siege
 label: { ar: "حصار أدرنة", en: "Siege of Adrianople" }
 summary:
-  ar: "بطاقة أولية لحصار أدرنة من ١٩١٢ إلى ١٩١٣م، سقوط المدينة العثمانية بيد البلغاريين في حرب البلقان الأولى؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Adrianople of 1912–1913, the Ottoman city's fall to the Bulgarians in the First Balkan War; its sources are not yet checked on the page."
+  ar: "حاصر البلغاريون أدرنة في حرب البلقان الأولى 1912-1913م فسقطت المدينة العثمانية تحت الاحتلال البلغاري سنة 1913م، ودمّر الحصار مئذنة جامع دار الحديث {cite:encyclopaedia-of-islam-2 vol. 2 pp. 710, 712}."
+  en: "The Bulgarians besieged Edirne in the First Balkan War of 1912-13 and the Ottoman city fell under Bulgarian occupation in 1913; the siege destroyed the minaret of the Dar al-Hadith mosque {cite:encyclopaedia-of-islam-2 vol. 2 pp. 710, 712}."
+  ur: "پہلی بلقان جنگ 1912-13ء میں بلغاریوں نے ادرنہ کا محاصرہ کیا اور 1913ء میں عثمانی شہر بلغاری قبضے میں آ گیا؛ محاصرے نے جامع دار الحدیث کا مینار تباہ کیا {cite:encyclopaedia-of-islam-2 vol. 2 pp. 710, 712}۔"
 wings: [time]
 periods: [period/modern-era]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1912", precision: year, status: tradition, derived: true }
   end: { edtf: "1913", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q2887868
 provenance:
   layer: own-research
-  source: "Wikidata candidate; siege attested in Balkan histories — entry not yet checked on the page"
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF pp. 710, 712 (harvest OCR); Wikidata Q2887868"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

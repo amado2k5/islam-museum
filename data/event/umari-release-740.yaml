@@ -1,0 +1,28 @@
+id: event/umari-release-740
+class: event
+kind: other
+label:
+  ar: "إطلاق ابن فضل الله من السجن، ربيع الآخر ٧٤٠هـ/١٣٣٩م"
+  en: "Al-Umari's release from prison, Rabi' II 740/1339"
+  ur: "عمری کی قید سے رہائی، ربیع الآخر 740ھ/1339ء"
+summary:
+  ar: "رفع ابن فضل الله من سجنه قصة يسأل فيها الإفراج عن رجل قُطعت يده بتهمة تزوير توقيع وسُجن؛ فسأل الناصر عنه فلم يجد من يعرف خبره حتى قالوا: اسألوا أحمد بن فضل الله، فأخبر بقصته مفصلة، فأمر الناصر بالإفراج عنه وعنه في شهر ربيع الآخر سنة ٧٤٠هـ، واستدعاه واستخلصه على المناصحة {cite:durar-kamina-jil-1993 1/332-333}."
+  en: "From prison Ibn Fadl Allah raised a petition for a man whose hand had been cut off over an allegedly forged rescript; when al-Nasir asked about the man and none could explain his case, they said 'ask Ahmad ibn Fadl Allah', who laid out the story in detail — whereupon the sultan ordered both freed, in Rabi' II 740 (October-November 1339), then summoned him and bound him to loyal counsel {cite:durar-kamina-jil-1993 1/332-333}."
+  ur: "قید خانے سے ابن فضل اللہ نے ایک شخص کی رہائی کی عرضی پیش کی جس کے ہاتھ کو جعلی توقیع کے الزام میں کاٹا گیا تھا؛ جب ناصر نے اس کے بارے میں پوچھا اور کوئی اس کا معاملہ نہ بتا سکا تو کہا گیا «احمد بن فضل اللہ سے پوچھو»، جس نے پورا واقعہ تفصیل سے سنایا؛ اس پر سلطان نے دونوں کو رہا کرنے کا حکم دیا، ربیع الآخر 740ھ (اکتوبر-نومبر 1339ء)، پھر اسے بلایا اور خیرخواہی کی وصیت کی {cite:durar-kamina-jil-1993 1/332-333}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1339-10~", hijri: "0740-04", calendar: julian, precision: month, status: historical, derived: true, note: "أُفرج عنه في شهر ربيع الآخر سنة ٧٤٠هـ {cite:durar-kamina-jil-1993 1/332-333}؛ early months of 740/1339 {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "المُفرَج عنه", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nasir-muhammad-ibn-qalawun, role: "الآمر بالإفراج", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الدرر الكامنة (ط دار الجيل 1993) 1/332-333 ترجمة 828؛ EI2 vol. 3 PDF pp. 790-791"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-umari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

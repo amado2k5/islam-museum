@@ -10,3 +10,12 @@ translators: []
 
 ## مواطن البحث
 تُذكر أحكام الحدود والقصاص والنكاح في مواضعها. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8719} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8722}
+
+## في دروس يوسف القرضاوي «تأملات قرآنية»
+يشرح [[person/yusuf-al-qaradawi|يوسف القرضاوي]] آية من يرتد عن دينه في سورة المائدة ([[passage/quran-5-54|المائدة 54]])، ويروي أن مدعي النبوة ظهروا بعد وفاة النبي، ومنهم مسيلمة وسجاح والأسود العنسي وطليحة، وأن العرب ارتدوا إلا أهل مكة والمدينة والطائف، وينقل عن الحسن البصري أن الآية في أبي بكر وأصحابه. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:02:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:06:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:07:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:07:30} ويذكر رسالة لأبي الحسن الندوي، يقول إنه عرفه وعايشه، عنوانها «ردة ولا أبا بكر لها» في الردة الفكرية التي تنتشر في الصحف والجامعات. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:21:30}
+
+:::perspectives
+- **موقف أهل السنة (الفقه المدوَّن)**: تقرر الموسوعة الفقهية الكويتية أن المرتد يُستتاب، فإن تاب وإلا قُتل بعد الاستتابة على يد الإمام، وأن المرتدة عند الجمهور كالمرتد وخالف الحنفية. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8715} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8716}
+- **رأي المتحدث (يوسف القرضاوي، رأيه)**: يفرّق بين ردة يكتمها صاحبها في نفسه ولا يدعو إليها، وردة معلنة يدعو إليها صاحبها فيراها فتنة كبرى للجماعة يجب أن تُقاوم، ويرفض قول من يجعل الردة بلا عقوبة دنيوية. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:14:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:14:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep06 00:15:00}
+- **الآراء الأكاديمية وغيرها (لم تُوثّق بعد)**: لم تُوثّق هنا بعد.
+:::

@@ -5,11 +5,11 @@ label:
   en: "Uwais al-Qarni"
 names:
   - { kind: full, lang: ar, value: "أويس بن عامر القرني المرادي" }
-roles: [mystic, scholar]
+roles: [tabii, ascetic]
 gender: male
 summary:
-  ar: "بطاقة أولية لأويس القرني، التابعي اليمني الذي روى فيه خبر البرّ بالأم، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في الإصابة لابن حجر على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Uwais al-Qarni, the Yemenite successor famed for the report on devotion to his mother, named from an open reference description (Wikidata); his entry in Ibn Hajar's al-Isaba is not yet checked on the page, so no dates are given."
+  ar: "أويس بن عامر القرني، ناسك يمني من سادات التابعين أدرك عصر النبي ولم يره، قُتل بصفين غالباً سنة 37هـ (657م)."
+  en: "Uways al-Qarni (d. 37/657), Yemeni ascetic among the chief Tabi'in, killed most likely at Siffin."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
@@ -18,10 +18,10 @@ external_ids:
   wikidata: Q1393228
 provenance:
   layer: own-research
-  source: "Wikidata Q1393228 (religion claim Islam); book source: Ibn Hajar, al-Isaba — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0008
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.32)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

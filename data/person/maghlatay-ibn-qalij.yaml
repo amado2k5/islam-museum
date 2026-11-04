@@ -3,11 +3,11 @@ class: person
 label:
   ar: "مغلطاي بن قليج"
   en: "Maghlatay ibn Qalij"
-roles: [scholar]
+roles: [muhaddith, historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلاء الدين مغلطاي بن قليج، فقيه حنفي ومؤرخ القرن الرابع عشر، توفي سنة ١٣٦١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ala al-Din Maghlatay ibn Qalij, the fourteenth-century Hanafi jurist and historian, d. 1361; the biographical entry is not yet checked on the page."
+  ar: "مغلطاي بن قليج، مؤرخ حنفي وناقد محدث، مدرس المظفرية بمصر، صاحب «شرح البخاري» و«إكمال تهذيب الكمال»؛ توفي سنة 762هـ (1361م)."
+  en: "Mughaltay ibn Qalij (1290–1361), Egyptian Hanafi historian and hadith critic of the Muzaffariyya."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q12244433
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0053
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.7 p.275)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch4
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

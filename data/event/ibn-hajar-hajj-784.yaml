@@ -1,0 +1,28 @@
+id: event/ibn-hajar-hajj-784
+class: event
+kind: pilgrimage
+label:
+  ar: "حجّ ابن حجر مع وصيّه الخروبي، ٧٨٤هـ/١٣٨٢م"
+  en: "Ibn Hajar's pilgrimage with his guardian al-Kharrubi, 784/1382"
+  ur: "ابن حجر کی سرپرست خرّوبی کے ہمراہ حج، 784ھ/1382ء"
+summary:
+  ar: "أخذ زكي الدين الخروبي ابنَ حجر، وله إحدى عشرة سنة، إلى حج بيت الله سنة ٧٨٤هـ/١٣٨٢-١٣٨٣م، وكان قد حج قبل ذلك مع أبيه؛ وأقام بمكة إلى أن رجع به سنة ٧٨٦هـ، ثم توفي الوصي في المحرم سنة ٧٨٧هـ/فبراير ١٣٨٥م. وكان ابن حجر قد أتم حفظ القرآن وهو ابن تسع سنين، ولم يقطع مكثه بالحجاز دراسته {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}."
+  en: "In 784/1382-3 Zaki al-Din al-Kharrubi took the eleven-year-old Ibn Hajar on the pilgrimage to Mecca — he had already been once with his father — and stayed on with him until 786, dying soon after in Muharram 787 (February 1385). Ibn Hajar had already memorized the Qur'an by the age of nine, and the sojourn in Arabia did not interrupt his studies {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}."
+  ur: "784ھ/1382-83ء میں زکی الدین خرّوبی گیارہ برس کے ابن حجر کو حج پر مکہ لے گئے — وہ اس سے پہلے اپنے والد کے ساتھ جا چکے تھے — اور انہیں 786ھ تک وہیں رکھا، پھر محرم 787ھ (فروری 1385ء) میں سرپرست کا انتقال ہو گیا۔ ابن حجر نو برس کی عمر میں حافظِ قرآن ہو چکے تھے اور حجاز میں قیام نے ان کی تعلیم میں خلل نہیں ڈالا {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [arabia]
+date:
+  start: { edtf: "1382~", hijri: "0784", calendar: julian, precision: year, status: tradition, derived: true, note: "٧٨٤/١٣٨٢-١٣٨٣م {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1384~", hijri: "0786", calendar: julian, precision: year, status: tradition, derived: true, note: "رجع به سنة ٧٨٦هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "الحاج الصبي", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), PDF p. 808, art. Ibn Hadjar al-Askalani (F. Rosenthal)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-hajar-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

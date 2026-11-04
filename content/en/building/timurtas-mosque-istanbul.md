@@ -2,10 +2,11 @@
 id: building/timurtas-mosque-istanbul
 lang: en
 source_lang: ar
-translators: []
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 
-## Summary
-"Timurtaş Camii stands in Devoğlu Sokağı, the Street of the Giant's Son, across from Samanveren Camii, and is very like it: built over a vaulted ground floor, of the same brick and stone construction, with a large wooden porch." {cite:freely-ottoman-architecture-2011 p.146}
+## Overview
+Timurtaş Camii stands on Devoğlu Sokağı, the "Street of the Giant's Son", downhill across from Samanveren Camii in Istanbul; like its neighbour it is an ancient mosque of the age of Mehmet the Conqueror, though its exact date is unknown {cite:freely-ottoman-architecture-2011 p.132}.
 
-'Its minaret is unusual: instead of a balcony it is entirely enclosed, with four small grilled openings near the top through which the müezzin calls to prayer. It is thought Samanveren Camii originally had the same type of minaret, making them almost twin mosques; the exact date of neither is known, but both belong to the age of Fatih.' {cite:freely-ottoman-architecture-2011 p.146-147}
+## Architecture
+It closely resembles Samanveren Camii: built of brick and stone over a vaulted ground floor, with a large wooden porch {cite:freely-ottoman-architecture-2011 p.132}. Its unusual minaret has no balcony; it is entirely enclosed, four small grilled openings near the top serving the müezzin's call — a type Freely thinks Samanveren originally shared, so that the two seem almost twin mosques {cite:freely-ottoman-architecture-2011 p.132}.

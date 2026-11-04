@@ -1,0 +1,38 @@
+id: person/hedaya-malak
+class: person
+label: { ar: "هداية ملاك", en: "Hedaya Malak", ur: "ہدایہ ملاک" }
+names:
+  - { value: "Hedaya Malak Wahba", kind: full }
+  - { value: "هداية ملاك وهبة", kind: full }
+gender: female
+summary:
+  ar: "لاعبة تايكوندو مصرية، وُلدت في القاهرة سنة 1993. فازت ببرونزية أولمبياد ريو 2016 وبرونزية أولمبياد طوكيو 2020، وحملت علم مصر في حفل افتتاح أولمبياد طوكيو."
+  en: "Egyptian taekwondo practitioner, born in Cairo in 1993. She won bronze medals at the Rio 2016 and Tokyo 2020 Olympics and carried Egypt's flag at the Tokyo opening ceremony."
+  ur: "مصری تائیکوانڈو کھلاڑی، 1993 میں قاہرہ میں پیدا ہوئیں۔ انہوں نے ریو 2016 اور ٹوکیو 2020 اولمپکس میں کانسی کے تمغے جیتے اور ٹوکیو کی افتتاحی تقریب میں مصر کا پرچم اٹھایا۔"
+roles: [taekwondo athlete]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1993-04-21"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 21 April 1993 in Cairo (the English article's infobox and the Arabic article give Cairo; Wikidata agrees on the date). Wikidata's place-of-birth statement gives Azusa, California, which conflicts with both articles and is not followed. The Hijri year 1413 is the tabular conversion of 21 April 1993 and is marked derived."
+  sources: [source/wikipedia-hedaya-malak-en, source/wikipedia-hedaya-malak-ar, source/wikidata-hedaya-malak]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-hedaya-malak-en, source/wikipedia-hedaya-malak-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a religion for her, and Wikidata records no religion (P140) statement. The English article's 'See also' link to the list 'Muslim women in sport' is an editorial list link, not an attestation of her faith, and her silver medal at the 2013 Islamic Solidarity Games is national-team participation at a multi-sport event, not attestation. Her nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-hedaya-malak-en, source/wikipedia-hedaya-malak-ar, source/wikidata-hedaya-malak]
+external_ids: { wikidata: "Q1400134" }
+sources: [source/wikipedia-hedaya-malak-en, source/wikipedia-hedaya-malak-ar, source/wikidata-hedaya-malak]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379378229), Arabic Wikipedia (revision 76947004) and Wikidata Q1400134 (item revision 2518876550, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property and confirmed in the Arabic edition's page properties; existence checked by name (English and Arabic) and by QID across data/person/ — no prior record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-153A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,19 +1,36 @@
 id: person/al-thaalibi
 class: person
-label: { ar: "الثعالبي", en: "al-Tha'alibi" }
-born: { edtf: "0961", hijri: "0350", calendar: julian, precision: year, status: tradition, derived: true, note: "ولادته سنة خمسين وثلاثمائة {cite:wafayat-ayan}." }
-died: { edtf: "1038", hijri: "0429", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة تسع وعشرين وأربعمائة {cite:wafayat-ayan}." }
+label: { ar: "الثعالبي", en: "al-Tha'alibi", ur: "ثعالبی" }
+born: { edtf: "0961", hijri: "0350", calendar: julian, precision: year, status: tradition, derived: true, note: "ولادته سنة خمسين وثلاثمائة بنيسابور {cite:wafayat-ayan} {cite:encyclopaedia-of-islam-2 vol. 10 p. 450}؛ التحويل مشتق." }
+died: { edtf: "1038", hijri: "0429", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة تسع وعشرين وأربعمائة {cite:wafayat-ayan}؛ وقيل فيها أو التي قبلها، وعاش ثمانين سنة {cite:shadharat-dhahab p. 246-247}؛ التحويل مشتق." }
 summary:
-  ar: "أبو منصور عبد الملك بن محمد بن إسماعيل الثعالبي النيسابوري؛ قال ابن بسام صاحب الذخيرة في حقه: كان في وقته راعي ثلاثة العلم وجامع أشتات النثر والنظم، رأس المؤلفين في زمانه وإمام المصنفين بحق قرانه، سار ذكره سير المثل وضربت إليه أكباد الإبل؛ صاحب «يتيمة الدهر» و«فقه اللغة» و«لطائف المعارف» وغيرها؛ ولد سنة خمسين وثلاثمائة وتوفي سنة تسع وعشرين وأربعمائة {cite:wafayat-ayan}."
-  en: "al-Tha'alibi of Nishapur (350–429) — the great anthologist, author of Yatimat al-Dahr, Lata'if al-Ma'arif and Fiqh al-Lugha; Ibn Bassam called him head of authors of his age {cite:wafayat-ayan}."
+  ar: "أبو منصور عبد الملك بن محمد بن إسماعيل الثعالبي النيسابوري (٣٥٠-٤٢٩هـ)؛ قال ابن بسام صاحب «الذخيرة» في حقه: كان في وقته راعي ثلاثة العلم وجامع أشتات النثر والنظم، رأس المؤلفين في زمانه وإمام المصنفين بحق قرانه، سار ذكره سير المثل وضربت إليه أكباد الإبل {cite:wafayat-ayan}. قرأ الأدب على أبي بكر الخوارزمي، ووصل بآل ميكالة أشرف بيوت نيسابور، ورحل إلى بخارى في أيام السامانيين الأخيرة، وأقام بجرجان مرتين مهدياً إلى قابوس بن وشمكير، ثم إلى بلاط الخوارزمشاه مأمون بن مأمون بجرجانية حيث صحب ابن سينا والبيروني، ثم بغزنة، وعاد فقضى سنيّه الأخيرة بنيسابور؛ صاحب «يتيمة الدهر» و«فقه اللغة» و«لطائف المعارف» وذيلها «تتمة اليتيمة» {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-452}."
+  en: "al-Tha'alibi of Nishapur (350–429) — the great anthologist, author of Yatimat al-Dahr, Lata'if al-Ma'arif and Fiqh al-Lugha; Ibn Bassam called him head of authors of his age {cite:wafayat-ayan}. He studied adab under Abu Bakr al-Khwarazmi, tied himself to the Mikali family, travelled to Bukhara in the Samanids' last days, sojourned twice at Jurjan dedicating works to Qabus ibn Wushmgir, then joined the Khwarazmshah Ma'mun II's court at Jurjaniyya alongside Ibn Sina and al-Biruni, resided at Ghazna, and returned to spend his last years at Nishapur {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-452}."
+  ur: "نیشاپور کا ثعالبی (350-429ھ) — عظیم مرتب ادیب، «یتیمۃ الدہر»، «لطائف المعارف» اور «فقہ اللغہ» کا صاحب؛ ابن بسام نے اسے اپنے عہد کے مصنفوں کا سرغنہ کہا {cite:wafayat-ayan}۔ اس نے ابو بکر خوارزمی سے ادب پڑھا، آل میکالہ سے تعلق جوڑا، سامانیوں کے آخری ایام میں بخارا گیا، جرجان میں دو مرتبہ قیام کیا اور قابوس بن وشمگیر کے نام تصانیف وقف کیں، پھر جرجانیہ میں خوارزمشاہ مامون دوم کے دربار میں ابن سینا اور بیرونی کے ساتھ رہا، غزنہ میں مقیم ہوا، اور آخری برس نیشاپور میں گزارے {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-452}۔"
 gender: male
 roles: [writer, poet]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/abu-bakr-al-khwarazmi, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-al-thaalibi-350, role: "المولود", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/thaalibi-khwarazmi-adab-985, role: "الطالب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/thaalibi-mikali-schoolmaster-990, role: "المعلّم والمستظهر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/thaalibi-bukhara-journey-999, role: "المسافر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/thaalibi-jurjan-qabus-1005, role: "النزيل", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/thaalibi-khwarazmshah-court-1012, role: "ضيف البلاط", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/thaalibi-ghazna-residence-1017, role: "المقيم", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/thaalibi-return-nishapur-1020, role: "العائد", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/thaalibi-tatimmat-al-yatima-1029, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-al-thaalibi-429, role: "المتوفَّى", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الثالث (ترجمة الثعالبي)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
-  run: lib-wafayat-batch-27
-sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  source: "وفيات الأعيان لابن خلكان — الجزء الثالث (ترجمة الثعالبي)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org; Encyclopaedia of Islam 2nd ed. vol. 10 (T-U), PDF pp. 450-452; shadharat-dhahab vol. 3 s.a. 429, printed pp. 246-247"
+  generated_by: "Devin (SWE-2 Medium), after Devin (SWE-2 High) from djvu OCR text"
+  model: "SWE-2 Medium"
+  run: lib-wafayat-batch-27, explorer-al-thaalibi-1
+sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

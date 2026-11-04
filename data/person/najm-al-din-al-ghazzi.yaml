@@ -3,11 +3,11 @@ class: person
 label:
   ar: "نجم الدين الغزي"
   en: "Najm al-Din al-Ghazzi"
-roles: [scholar, poet]
+roles: [historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لنجم الدين الغزي، فقيه وشاعر شامي القرن السابع عشر صاحب الكواكب السائرة، توفي سنة ١٦٥١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Najm al-Din al-Ghazzi, the seventeenth-century Levantine jurist and poet author of al-Kawakib al-Sa'ira, d. 1651; the biographical entry is not yet checked on the page."
+  ar: "محمد نجم الدين الغزي، مؤرخ دمشقي وأديب، صاحب «الكواكب السائرة» في تراجم أعيان القرن العاشر؛ توفي سنة 1061هـ (1651م)."
+  en: "Muhammad Najm al-Din al-Ghazzi (1570–1651), Damascene historian, author of al-Kawakib al-Sa'ira."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q1963394
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0054
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.7 p.62)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

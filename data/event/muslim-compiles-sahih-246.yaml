@@ -1,0 +1,27 @@
+id: event/muslim-compiles-sahih-246
+class: event
+kind: publication
+label:
+  ar: "مسلم بن الحجاج يصنّف الجامع الصحيح في خمس عشرة سنة، نحو ٢٤٦-٢٦١هـ"
+  en: "Muslim ibn al-Hajjaj compiles the Jami' al-Sahih over fifteen years, c. 246-261/860-875"
+  ur: "مسلم بن حجاج نے پندرہ برس میں جامع صحیح مرتب کیا، تقریباً 246-261ھ/860-875ء"
+summary:
+  ar: "قال محمد بن الماسرجسي إنه سمع مسلماً يقول إنه صنّف هذا الصحيح من ثلاثمائة ألف حديث مسموعة، وقال أحمد بن سلمة إنه كتب مع مسلم في صحيحه خمس عشرة سنة وهو نحو أربعة آلاف حديث {cite:tazkirat-al-huffaz j.2 p. 527}؛ وهو «الجامع الصحيح» الذي أجمع أهل الحديث أنه مع صحيح البخاري أصحّ الكتب، وعدّه محررها الحديث محمد فؤاد عبد الباقي ما يزيد قليلاً على ثلاثة آلاف حديث مختلف {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-692}."
+  en: "Muhammad ibn al-Masirjisi heard Muslim say that he compiled this Sahih from three hundred thousand hadiths he had heard, and Ahmad ibn Salama says he worked with Muslim on the Sahih for fifteen years, the book running to about four thousand hadiths {cite:tazkirat-al-huffaz j.2 p. 527}; it is the Jami' al-Sahih, which the traditionists agree stands with al-Bukhari's Sahih as the soundest of books, and its modern editor Muhammad Fu'ad Abd al-Baqi counts a little over three thousand distinct traditions {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-692}."
+  ur: "محمد بن ماسرجسی نے مسلم کو کہتے سنا کہ انہوں نے یہ صحیح تین لاکھ مسموعہ احادیث سے مرتب کی، اور احمد بن سلمہ کہتے ہیں کہ وہ صحیح پر مسلم کے ساتھ پندرہ برس لکھتے رہے اور یہ تقریباً چار ہزار احادیث پر مشتمل ہے {cite:tazkirat-al-huffaz j.2 p. 527}؛ یہی «جامع صحیح» ہے جسے محدثین صحیح بخاری کے ساتھ صحیح ترین کتاب قرار دیتے ہیں، اور اس کے جدید مدون محمد فواد عبدالباقی کے شمار میں تین ہزار سے کچھ زیادہ متماثل احادیث ہیں {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-692}۔"
+wings: [time]
+periods: [period/abbasid-early, period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0860~", hijri: "0246~", calendar: julian, precision: decade, status: tradition, derived: true, note: "لا يؤرخه المصدر؛ أحمد بن سلمة كتب معه في صحيحه خمس عشرة سنة {cite:tazkirat-al-huffaz j.2 p. 527}، فيقع إفراغه تقريباً بين ٢٤٦هـ ووفاته سنة ٢٦١هـ؛ التحويل مشتق.", sources: [source/tazkirat-al-huffaz, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tazkirat-al-huffaz] }
+  - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "المصنّف", sources: [source/tazkirat-al-huffaz, source/encyclopaedia-of-islam-2] }
+sources: [source/tazkirat-al-huffaz, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Al-Dhahabi, Tadhkirat al-Huffaz j.2 p. 527 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 7, art. Muslim b. al-Hadjdjadj, printed pp. 690-692"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muslim-ibn-al-hajjaj-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

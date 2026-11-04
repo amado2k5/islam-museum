@@ -1,0 +1,69 @@
+id: person/ubaydullah-khan-ii
+class: person
+
+label: { ar: "عبيد الله خان الثاني", en: "Ubaydullah Khan II", ur: "عبید اللہ خان ثانی" }
+
+names:
+  - { value: "Muhammad Ubaidullah Khan", kind: full }
+  - { value: "Ubaydullah Khan II", kind: regnal }
+  - { value: "Ubaidullah Khan", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "عبيد الله خان الثاني (1675–1711)، سابع خان بخارى من الأسرة الأشتارخانية، ابن سبحان قلي خان وخليفته، حكم من 1702 إلى مقتله. سعى إلى الحدّ من سلطان زعماء القبائل الأوزبك وحصر الحكم في رجال يعيّنهم، فاصطدم بالأمراء وبخواجات جويبار، وأجرى سنة 1708 إصلاحًا نقديًا بعملة مخفّضة الفضة فأشعل أزمة، وقُتل في مؤامرة سنة 1711 ودُفن في مزار بهاء الدين نقشبند بجانب أبيه، فخلفه أخوه أبو الفيض خان. سمّاه المؤرخون «الثاني» تمييزًا له من عبيد الله خان الشيباني (حكم 1533–1540)."
+  en: "Ubaydullah Khan II (1675-1711) was the seventh khan of Bukhara of the Ashtarkhanid dynasty, the son and successor of Subhan Quli Khan, reigning from 1702 until his killing. He tried to break the power of the Uzbek tribal chiefs and rule through his own appointees, clashed with the emirs and the Juybari khojas, and carried out a monetary reform in 1708 whose debased coinage provoked a crisis; he was killed in a conspiracy in 1711, buried in the mazar of Bahauddin Naqshband beside his father, and succeeded by his brother Abu'l-Fayz Khan. Historians number him 'the Second' to distinguish him from the Shaybanid Ubaydullah Khan (r. 1533-1540)."
+  ur: "عبید اللہ خان ثانی (1675ء–1711ء) بخارا کے اشترخانی خاندان کے ساتویں خان، سبحان قلی خان کے بیٹے اور جانشین تھے، جن کا دور 1702ء سے قتل تک رہا۔ انھوں نے ازبک قبائلی سرداروں کی طاقت توڑ کر اپنے مقرر کردہ آدمیوں سے حکومت کی کوشش کی، امراء اور جویباری خواجوں سے ٹکرائے، اور 1708ء میں کم چاندی والی نئی کرنسی کی اصلاح کی جس سے بحران پیدا ہوا؛ 1711ء میں سازش میں قتل ہوئے، مزارِ بہاء الدین نقشبند میں والد کے پہلو میں دفن ہوئے اور ان کے بھائی ابوالفیض خان جانشین ہوئے۔ مورخین انھیں شیبانی عبید اللہ خان (دور 1533ء–1540ء) سے الگ کرنے کے لیے «ثانی» کہتے ہیں۔"
+
+roles: [ruler]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1675"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "The Russian article's lead gives 1675 and the Wikidata item gives 1675. The year 1675 spans 1085-1086 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-ubaydullah-khan-ii-ru, source/wikidata-ubaydullah-khan-ii]
+
+died:
+  edtf: "1711"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Killed in Bukhara in the conspiracy of 1711 described by the Russian article, which also records his burial in the mazar of Sheikh Bahauddin Naqshband beside his father; the Wikidata item gives 1711. The year 1711 spans 1122-1123 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-ubaydullah-khan-ii-ru, source/wikidata-ubaydullah-khan-ii]
+
+relations:
+  - { type: child_of, target: person/subhan-quli-khan, sources: [source/wikipedia-ubaydullah-khan-ii-ru, source/wikidata-ubaydullah-khan-ii] }
+  - { type: successor_of, target: person/subhan-quli-khan, sources: [source/wikipedia-ubaydullah-khan-ii-ru, source/wikipedia-subhan-quli-khan-ru] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself.
+      The Russian article records his attempt to tax the property
+      of religious organisations, which brought him into conflict
+      with the influential Juybari khojas, and his burial in the
+      mazar of Bahauddin Naqshband beside his father; fiscal policy
+      toward the religious estate and burial beside a Naqshbandi
+      shrine are context, not attestation of a school or an order
+      for the khan himself. The Wikidata item carries no religion
+      statement. Under the founder's rules his faith is recorded
+      as unknown, with the record stated.
+    sources: [source/wikipedia-ubaydullah-khan-ii-ru, source/wikidata-ubaydullah-khan-ii]
+
+external_ids: { wikidata: "Q12831410" }
+
+sources:
+  - source/wikipedia-ubaydullah-khan-ii-ru
+  - source/wikidata-ubaydullah-khan-ii
+
+provenance:
+  layer: own-research
+  source: "Russian Wikipedia 'Убайдулла-хан II' (revision 152432758 of 26 March 2026) and Wikidata Q12831410 (item revision 2544645797 of 12 September 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded through the item's own sitelinks and its father statement to Subhan Quli Khan's item — there is no English article for this khan. Existence checked against origin/main before building, by slug variants and by QID: the slug person/ubaydullah-khan is held by the COMPLETE published record of his Shaybanid namesake (1487-1539, Q6689180), exactly the man the queue row's gloss excludes, so this Ashtarkhanid is built under person/ubaydullah-khan-ii, following the house -ii convention, and the Shaybanid record is untouched. Queue check: the queue's gloss and years 1675-1711 are confirmed by both sources. The child_of and successor_of edges are written here, in the son's and successor's record, on the Russian article's statement that in 1702 Subhan Quli's son Ubaydullah ascended the throne, the Russian Subhan Quli article naming Ubaydullah II as his successor, and the item's father statement."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-179m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

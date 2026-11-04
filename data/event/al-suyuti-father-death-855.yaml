@@ -1,0 +1,27 @@
+id: event/al-suyuti-father-death-855
+class: event
+kind: death
+label:
+  ar: "وفاة والد السيوطي ويتمه، ٨٥٥هـ/١٤٥١م"
+  en: "Death of al-Suyuti’s father, 855/1451"
+  ur: "سیوطی کے والد کی وفات، 855ھ/1451ء"
+summary:
+  ar: "توفي والد السيوطي سنة ٨٥٥هـ/١٤٥١م وله من العمر خمس سنين وسبعة أشهر، وقد وصل في القرآن إلى سورة التحريم، فأسند أبوه وصايته إلى جماعة من العلماء منهم الكمال بن الهمام {cite:shadharat-dhahab p. 468-470} {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  en: "Al-Suyuti’s father died prematurely in 855/1451, when the boy was five years and seven months old and had already reached Surat al-Tahrim in the Qur’an; his father had entrusted his guardianship to a group of scholars, among them al-Kamal ibn al-Humam {cite:shadharat-dhahab p. 468-470} {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  ur: "سیوطی کے والد 855ھ/1451ء میں جلد انتقال کر گئے، جب وہ پانچ سال سات ماہ کے تھے اور قرآن میں سورۃ التحریم تک پہنچ چکے تھے؛ والد نے ان کی سرپرستی علما کے ایک گروہ کے سپرد کی جن میں کمال بن ہمام بھی تھے {cite:shadharat-dhahab p. 468-470} {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1451~", hijri: "0855", calendar: julian, precision: year, status: historical, derived: true, note: "وفاة الأب سنة ٨٥٥هـ/١٤٥١م؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-suyuti, role: "اليتيم", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed pp. 913-915, art. al-Suyuti (E. Geoffroy); shadharat-dhahab"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-suyuti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

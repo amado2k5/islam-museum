@@ -1,0 +1,24 @@
+id: event/orhan-gazi-mosque-bursa-739
+class: event
+kind: founding
+label: { ar: "بدء جامع أورخان غازي ببورصة", en: "Orhan Gazi Mosque begun in Bursa", ur: "بورصہ میں اورخان غازی مسجد کی بنیاد" }
+summary:
+  ar: "بدأ بناء جامع أورخان غازي، أول جامع سلطاني في بورصة، سنة 1339م؛ وهو نموذج للجامع ذي الإيوانات المتعامدة المحاور {cite:freely-ottoman-architecture-2011 p. 38}."
+  en: "Building of the Orhan Gazi Mosque, the first imperial mosque in Bursa, began in 1339 CE; it is the example of the 'cross-axial eyvan' mosque {cite:freely-ottoman-architecture-2011 p. 38}."
+  ur: "بورصہ کی پہلی سلطانی مسجد، اورخان غازی مسجد کی تعمیر 1339ء میں شروع ہوئی؛ یہ متعامد محوروں والی ایوان مسجد کی نمونہ ہے {cite:freely-ottoman-architecture-2011 p. 38}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1339", hijri: "0740", calendar: julian, precision: year, status: tradition, derived: true, note: "1339م {cite:freely-ottoman-architecture-2011 p. 38}؛ الهجري مشتق." }
+relations:
+  - { type: occurred_at, target: building/orhan-gazi-mosque-bursa, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
+sources: [source/freely-ottoman-architecture-2011]
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (WIT Press 2011), printed p. 38 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

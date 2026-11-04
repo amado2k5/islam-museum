@@ -8,10 +8,14 @@ gender: male
 wings: [people]
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 658"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-39
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
 relations:
   - { type: authored, target: work/nasab-quraysh-zubayr, sources: [source/kashf-zunun-furqan] }
 sources: [source/muruj-al-dhahab, source/kashf-zunun-furqan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
+

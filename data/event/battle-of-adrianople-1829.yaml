@@ -3,21 +3,24 @@ class: event
 kind: battle
 label: { ar: "معركة أدرنة (١٨٢٩)", en: "Battle of Adrianople (1829)" }
 summary:
-  ar: "بطاقة أولية لدخول الجيش الروسي مدينة أدرنة العثمانية سنة ١٨٢٩م في حرب البلقان؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Russian capture of Adrianople in 1829 during the Russo-Turkish War; its sources are not yet checked on the page."
+  ar: "في الحرب الروسية العثمانية 1828-1829م احتل الروس أدرنة، وكان لاحتلالهم أثر عميق على أهلها المسلمين؛ فبدأ المسلمون يهاجرون من المدينة وحلّ محلهم نصارى من القرى المجاورة {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  en: "In the Russo-Ottoman war of 1828-9 the Russians occupied Edirne, an occupation that deeply affected the city's Muslims, who began emigrating while Christians moved in from the surrounding villages {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  ur: "1828-29ء کی روسی عثمانی جنگ میں روسیوں نے ادرنہ پر قبضہ کیا جس کا شہر کے مسلمانوں پر گہرا اثر پڑا؛ مسلمان ہجرت کرنے لگے اور ارد گرد کے دیہاتوں سے مسیحی آ بسے {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}۔"
 wings: [time]
 periods: [period/colonial-era]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1829-08-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1829-08-08", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q28155605
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 711 (harvest OCR); Wikidata Q28155605"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

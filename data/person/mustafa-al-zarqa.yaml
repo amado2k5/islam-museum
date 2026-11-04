@@ -47,3 +47,9 @@ provenance:
   source: "The Arabic Wikipedia article on Mustafa al-Zarqa — the only Wikipedia article on him in any language — and Wikidata item Q12243342, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-62
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-mustafa-al-zarqa-ar, source/wikidata-mustafa-al-zarqa]

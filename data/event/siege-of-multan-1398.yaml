@@ -1,23 +1,27 @@
 id: event/siege-of-multan-1398
 class: event
 kind: siege
-label: { ar: "حصار الملتان (١٣٩٨)", en: "Siege of Multan" }
+label: { ar: "حصار بير محمد بن جهانكير الملتان ٨٠١هـ", en: "Pir Muhammad's six-month siege of Multan, 801/1398" }
 summary:
-  ar: "بطاقة أولية لحصار الملتان سنة ١٣٩٨م، أخذ بير محمد حفيد تيمور المدينة بعد حصار ستة أشهر؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Multan in 1398, Pir Muhammad's capture of the city after a six-month siege; its sources are not yet checked on the page."
+  ar: "لما اجتاح تيمور لنك بلاد الهند سنة ١٣٩٨-١٣٩٩م حاصر حفيده بير محمد بن جهانكير الملتان ستة أشهر حتى أخذها، وجاء في أعقاب الغزو أن صارت الملتان في قبضة خضر خان مؤسس دولة السيديين القصيرة بدلهي {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  en: "When Timur Lang swept into India in 1398-9 his grandson Pir Muhammad ibn Jahangir besieged Multan for six months until it fell; in the invasion's wake the city came under Khidr Khan, founder of the short-lived Sayyid dynasty of Delhi {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  ur: "جب 1398-99ء میں تیمور لنگ ہندوستان میں داخل ہوا تو اس کے پوتے پیر محمد بن جہانگیر نے ملتان کا چھ ماہ کا محاصرہ کیا یہاں تک کہ شہر گر گیا؛ اس حملے کے بعد شہر خضر خان کے زیر اثر آیا، جو دہلی کی عارضی سید سلطنت کا بانی بنا {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}۔"
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [south-asia]
 date:
-  start: { edtf: "1398", precision: year, status: tradition, derived: true }
-  end: { edtf: "1398", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+  start: { edtf: "1398", hijri: "0801", calendar: julian, precision: year, status: tradition, derived: true, note: "غزو تيمور للهند ١٣٩٨-١٣٩٩م وحصار الملتان ستة أشهر {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-hasan-ibrahim] }
+  end: { edtf: "1398", hijri: "0801", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة الاستيلاء." }
+relations:
+  - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-hasan-ibrahim] }
+  - { type: had_participant, target: person/timur-lang, role: "صاحب الغزو الذي حاصر حفيده المدينة", sources: [source/encyclopaedia-of-islam-2] }
 external_ids:
   wikidata: Q123739063
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Wikidata candidate reviewed against Encyclopaedia of Islam 2nd ed. vol. 7 MULTĀN p. 603 (PDF pages): Timur's 1398-9 invasion, Pir Muhammad's six-month siege, then Khidr Khan's sway"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-multan-1
+sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

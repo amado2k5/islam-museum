@@ -1,0 +1,65 @@
+id: job/physician
+class: job
+label: { ar: "الطبيب", en: "Physician (tabib)", ur: "طبیب" }
+summary:
+  ar: "الطبيب من يمارس تشخيص الأمراض ومعالجتها بعلم الطب. عرف المسلمون مهنته بالتعلّم والتجربة وملازمة الأطباء المجرّبين، ثم صارت في الدولة العباسية تُمنح بامتحان أمام رئيس الأطباء وإجازة، وفي الدولة العثمانية تقوم على المدرسة الطبية والدار الشفاء والإذن الرسمي والحكيم باشي. وهي اليوم مهنة حديثة تحكمها الجامعات والتراخيص الوطنية."
+  en: "The physician is the person who diagnoses and treats illness by the science of medicine. Muslims learned the craft by study, practice and apprenticeship to experienced physicians. In the Abbasid state a practitioner was admitted after an examination before the head of physicians, and in the Ottoman state the craft rested on the madrasa, the dârüşşifâ hospital, an official permit and the chief physician. Today it is a modern profession governed by universities and national licensing."
+  ur: "طبیب وہ ہے جو علمِ طب کے ذریعے بیماری کی تشخیص اور علاج کرے۔ مسلمانوں نے یہ فن مطالعے، تجربے اور تجربہ کار طبیبوں کی شاگردی سے سیکھا۔ عباسی دور میں رئیس الاطباء کے امتحان اور اجازت کے بعد پریکٹس کی اجازت ملتی تھی، اور عثمانی دور میں یہ مدرسے، دارالشفاء اور حکیم باشی کی سند پر قائم تھا۔"
+domain: medicine-care
+kind: medical
+hirfa: false
+era:
+  origins: pre-islamic
+  first_attested:
+    edtf: "0410/0632"
+    precision: century
+    status: historical
+    note: "The entry records simple remedies and surgical instruments among the Arabs before Islam, and contact in the two centuries before the Prophet's mission with Greek, Persian and Syriac medical traditions. It does not give a first date for a physician as a named practitioner, so the range is the widest bound the entry supports."
+    sources: [source/tdv-tip]
+  status_today: transformed
+places:
+  - place: place/baghdad
+    start: { edtf: "0908" }
+    end: { edtf: "0932" }
+    note: "In the reign of al-Muqtadir (908 to 932) the head of physicians examined the practitioners of the city and licensed those who passed; the entry gives the number from Ibn Abi Usaybia as about 860 in Baghdad."
+    sources: [source/tdv-hekimbasi]
+  - place: place/cordoba
+    note: "Under the Umayyads of al-Andalus the physicians formed an office attached to the market-supervision office (ihtisab), headed by a shaykh of physicians."
+    sources: [source/tdv-hekimbasi]
+  - place: place/cairo
+    note: "In the Fatimid and Ayyubid period the head of physicians was appointed by the deputy ruler and was ranked first among the professions, according to the entry's citation of Qalqashandi."
+    sources: [source/tdv-hekimbasi]
+  - place: place/damascus
+    note: "The entry states that the licensing before the head of physicians was still in use in Damascus in the early tenth century."
+    sources: [source/tdv-hekimbasi]
+  - place: place/istanbul
+    start: { edtf: "1481" }
+    end: { edtf: "1850" }
+    note: "The Ottoman chief physician (hekimbaşı) headed the palace and state medical services from the reign of Bayezid II; in 1850 the office was reduced to the palace chief physician and its wider powers ended."
+    sources: [source/tdv-hekimbasi, source/tdv-tip-osmanli]
+  - place: place/bursa
+    start: { edtf: "1399" }
+    note: "The Yıldırım Dârüşşifâ in Bursa, the first Ottoman dârüşşifâ listed by the entry, dated 1399."
+    sources: [source/tdv-tip-osmanli]
+  - place: place/salerno
+    start: { edtf: "1197" }
+    end: { edtf: "1250" }
+    note: "The entry says the office of chief physician was kept in Salerno under Frederick II (1197 to 1250), and later in Spain and other parts of Europe."
+    sources: [source/tdv-hekimbasi]
+regions: [levant-iraq, egypt-nile, andalus-europe, anatolia-balkans, persia-central-asia]
+organization:
+  organized: mixed
+training:
+  mode: mixed
+  certification: "In the early period, a practitioner with enough knowledge and experience worked without conditions. From the early tenth century in Baghdad, a licence (icazetü't-tıb) after examination before the head of physicians. In the Ottoman period, training by apprenticeship in a dârüşşifâ, study in the Süleymaniye Tıp Medresesi, a period of examination, and a permit with the chief physician's seal for practice in Istanbul."
+wings: [people]
+outputs: [work/al-qanun-fi-al-tibb, work/al-hawi-fi-al-tibb]
+periods: [period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-tip, source/tdv-tip-osmanli, source/tdv-hekimbasi]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'TIP' (P. E. Pormann, vol. 41 pp. 95–101, read 1 Nov 2026); 'TIP' (N. Sarı, 'Osmanlı Dönemi', vol. 41 pp. 101–111, read 1 Nov 2026); 'HEKİMBAŞI' (C. Akpınar, vol. 17 pp. 160–161, and N. Sarı, pp. 161–164, read 1 Nov 2026). The headwords TABİB and HEKİM were searched and do not exist as entries on the site; TIP and HEKİMBAŞI were used in their place. Holders: person records checked against the TIP text. Rewritten by Claude Code."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p1-physician"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }

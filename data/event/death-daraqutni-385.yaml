@@ -1,0 +1,27 @@
+id: event/death-daraqutni-385
+class: event
+kind: death
+label:
+  ar: "وفاة الدارقطني ودفنه بمقبرة معروف، ٧ ذو القعدة ٣٨٥هـ"
+  en: "Al-Daraqutni dies and is buried at Maqbarat Ma'ruf, 7 Dhu al-Qa'da 385/995"
+  ur: "دارقطنی کی وفات اور مقبرہ معروف میں تدفین، 7 ذوالقعدہ 385ھ/995ء"
+summary:
+  ar: "توفي الدارقطني آخر نهار يوم الثلاثاء سابع ذي القعدة سنة خمس وثمانين وثلاثمائة، ودفن في مقبرة معروف يوم الأربعاء، وكان مولده لخمس خلون من ذي القعدة سنة ست وثلاثمائة وله تسع وسبعون سنة ويومان {cite:muntazam-ibn-al-jawzi j.7 p.184}؛ وفي الشذرات أنه دفن قريباً من معروف الكرخي وله ثمانون سنة، وأن ابن شاهين توفي بعده بشهر {cite:shadharat-dhahab pp.116-117}؛ وقال الذهبي: توفي في ثامن ذي القعدة {cite:tarikh-islam-dhahabi p.105}."
+  en: "Al-Daraqutni died at the end of Tuesday, 7 Dhu al-Qa'da 385, and was buried at Maqbarat Ma'ruf on the Wednesday; born on 5 Dhu al-Qa'da 306, he was seventy-nine years and two days old {cite:muntazam-ibn-al-jawzi j.7 p.184}. The Shadharat has him buried near Ma'ruf al-Karkhi, aged eighty, with Ibn Shahin dying a month after him {cite:shadharat-dhahab pp.116-117}; al-Dhahabi gives the eighth of Dhu al-Qa'da {cite:tarikh-islam-dhahabi p.105}."
+  ur: "دارقطنی منگل کے روز 7 ذوالقعدہ 385ھ کو دن کے آخر میں فوت ہوئے اور بدھ کو مقبرہ معروف میں دفن ہوئے؛ ولادت 5 ذوالقعدہ 306ھ تھی اور عمر 79 برس اور دو دن تھی {cite:muntazam-ibn-al-jawzi j.7 p.184}؛ شذرات میں ہے کہ وہ معروف کرخی کے قریب دفن ہوئے، عمر 80 برس، اور ابن شاہین ان کے ایک ماہ بعد فوت ہوئے {cite:shadharat-dhahab pp.116-117}؛ ذہبی کے نزدیک وفات 8 ذوالقعدہ کو ہوئی {cite:tarikh-islam-dhahabi p.105}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0995-11-08~", hijri: "0385-11-07", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الثلاثاء 7 ذو القعدة 385، ودفن الأربعاء بمقبرة معروف {cite:muntazam-ibn-al-jawzi j.7 p.184}؛ وقيل ثامنه {cite:tarikh-islam-dhahabi p.105}؛ التحويل مشتق.", sources: [source/muntazam-ibn-al-jawzi, source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/baghdad, note: "مقبرة معروف قرب معروف الكرخي بالكرخ", sources: [source/muntazam-ibn-al-jawzi, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-daraqutni, role: "المتوفى", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Ibn al-Jawzi, al-Muntazam (Haydarabad 1357) j.7 s.a. 385, printed p. 184 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 385, printed p. 105 (harvest OCR); Ibn al-Imad, Shadharat al-Dhahab s.a. 385, printed pp. 116-117 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-daraqutni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

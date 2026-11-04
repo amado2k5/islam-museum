@@ -1,0 +1,27 @@
+id: event/lahore-humayun-reoccupies-962
+class: event
+kind: conquest
+label:
+  ar: "همايون يستعيد لاهور، ربيع الآخر ٩٦٢هـ/فبراير ١٥٥٥م"
+  en: "Humayun reoccupies Lahore, Rabi' II 962/February 1555"
+  ur: "ہمایوں کا لہور پر دوبارہ قبضہ، ربیع الثانی 962ھ/فروری 1555ء"
+summary:
+  ar: "بعد نحو خمس عشرة سنة من الحكم الأفغاني لشير شاه سوري وخلفائه، استعاد همايون لاهور في ربيع الآخر ٩٦٢هـ/فبراير ١٥٥٥م، فعادت المدينة إلى الحكم المغولي ودخلت أزهى عصورها {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  en: "After some fifteen years of Afghan rule under Shir Shah Suri and his successors, Humayun reoccupied Lahore in Rabi' II 962/February 1555, returning the city to Mughal rule and ushering in the era of its greatest prosperity {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  ur: "شیر شاہ سوری اور اس کے جانشینوں کی تقریباً پندرہ سالہ افغان حکمرانی کے بعد ہمایوں نے ربیع الثانی 962ھ/فروری 1555ء میں لہور پر دوبارہ قبضہ کیا، جس سے شہر دوبارہ مغل حکمرانی میں آیا اور اس کے عروج کا دور شروع ہوا {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1555", hijri: "0962", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/humayun-mughal, role: "المستعيد", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 38 (LAHAWR, printed p. 598) — Humayun reoccupies Lahore Rabi' II 962/February 1555"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

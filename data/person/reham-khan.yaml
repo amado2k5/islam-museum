@@ -1,0 +1,58 @@
+id: person/reham-khan
+class: person
+
+label: { ar: "ريحام خان", en: "Reham Khan", ur: "ریحام خان" }
+
+names:
+  - { value: "Reham Nayyar Khan", kind: full }
+  - { value: "ریحام نیر خان", kind: full }
+
+gender: female
+
+summary:
+  ar: "صحفية ومؤلفة وصانعة أفلام بريطانية باكستانية، وُلدت في أجدابيا بليبيا سنة 1973 لأسرة من بافا في خيبر بختونخوا. عملت مقدّمة طقس في بي بي سي منذ 2008، وانتقلت إلى التلفزيون الباكستاني سنة 2013، وأنتجت فيلم «جانان» (2016)، ونشرت مذكراتها سنة 2018، وأطلقت سنة 2025 حزب الجمهورية الباكستاني."
+  en: "British-Pakistani journalist, author and filmmaker, born in Ajdabiya, Libya, in 1973 to a family from Baffa in Khyber Pakhtunkhwa. A BBC weather presenter from 2008, she moved to Pakistani television in 2013, produced the film Janaan (2016), published a memoir in 2018, and in 2025 launched the Pakistan Republic Party."
+  ur: "برطانوی پاکستانی صحافی، مصنفہ اور فلم ساز، جو 1973 میں لیبیا کے شہر اجدابیا میں خیبر پختونخوا کے علاقے بافہ سے تعلق رکھنے والے خاندان میں پیدا ہوئیں۔ 2008 سے بی بی سی کی موسمی پیش کار رہیں، 2013 میں پاکستانی ٹیلی ویژن سے وابستہ ہوئیں، فلم «جانان» (2016) پروڈیوس کی، 2018 میں یادداشتیں شائع کیں اور 2025 میں پاکستان ریپبلک پارٹی کی بنیاد رکھی۔"
+
+roles: [journalist, presenter, writer]
+wings: [people, living]
+regions: [south-asia, andalus-europe, maghreb]
+
+born:
+  edtf: "1973-04-03"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Ajdabiya, Libya, on 3 April 1973; the English and Urdu articles and Wikidata agree. No place entity for Ajdabiya exists in the museum, so no born_in edge is written. The Hijri year 1393 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-reham-khan-en, source/wikipedia-reham-khan-ur, source/wikidata-reham-khan]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a school, order or affiliation for
+      Khan. The English and Urdu articles carry no religion
+      statement for her, and Wikidata gives a bare Islam, which is
+      structured data and settles nothing under the founder's
+      rulings of 1 November 2026. Her family's origin in Baffa,
+      in the Hazara country of Khyber Pakhtunkhwa, is background
+      and was not counted. Her faith is recorded as unknown.
+    sources: [source/wikipedia-reham-khan-en, source/wikidata-reham-khan]
+
+external_ids: { wikidata: "Q16225960" }
+
+sources:
+  - source/wikipedia-reham-khan-en
+  - source/wikipedia-reham-khan-ur
+  - source/wikidata-reham-khan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Reham Khan' (revision 1378230854 of 3 October 2026), Urdu Wikipedia article «ریحام خان» (revision 11498412 of 8 July 2026) and Wikidata Q16225960 (item revision 2519438368 of 19 July 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and each QID grounded from the article's own page property. Existence checked by slug and name fragments across data/person/ — no prior record and no draft stub. The century queue's year 1973 is confirmed, with the day from the articles. Her 2015 marriage to Imran Khan is carried in prose only; under the write-once rule the spouse edge belongs in the elder spouse's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-163a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

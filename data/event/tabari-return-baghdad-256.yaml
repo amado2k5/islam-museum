@@ -1,0 +1,27 @@
+id: event/tabari-return-baghdad-256
+class: event
+kind: migration
+label:
+  ar: "عودة الطبري إلى بغداد واستقراره بها"
+  en: "al-Tabari returns to Baghdad and settles there"
+  ur: "طبری کی بغداد واپسی اور وہاں سکونت"
+summary:
+  ar: "رجع الطبري من مصر إلى بغداد نحو سنة ٢٥٦هـ/٨٧٠م، فانقضت بذلك سنون رحلته في طلب العلم، واستقر بها خمسين سنة بقية عمره متفرغاً للتدريس والتصنيف، ولم يغادرها بعد ذلك إلا في سفرتين إلى بلده طبرستان {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+  en: "Al-Tabari returned from Egypt to Baghdad about 256/870, bringing his student Wanderjahre to an end; he settled there for the remaining fifty years of his life, devoting himself to teaching and authorship, and left only twice, for journeys to his native Tabaristan {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+  ur: "طبری تقریباً 256ھ/870ء میں مصر سے بغداد لوٹے اور اس کے ساتھ ان کے علمی سفر کا دور ختم ہوا؛ وہ اپنی باقی پچاس سالہ زندگی وہاں مقیم رہے اور تدریس و تصنیف میں مشغول ہوئے، اور اس کے بعد صرف دو مرتبہ اپنے وطن طبرستان گئے {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+wings: [time]
+themes: [travel]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0870~", hijri: "0256", calendar: julian, precision: year, status: historical, derived: true, note: "تنص الموسوعة على رجوعه من مصر إلى بغداد نحو سنة ٢٥٦هـ/٨٧٠م {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 10, art. 'al-Tabari' (C. E. Bosworth), PDF p. 21, Apple Vision OCR of the local harvest copy (books/encyclopaedia-of-islam-2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-tabari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

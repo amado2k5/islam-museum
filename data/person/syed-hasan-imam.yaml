@@ -1,0 +1,46 @@
+id: person/syed-hasan-imam
+class: person
+label: { ar: "سيد حسن إمام", en: "Syed Hasan Imam", ur: "سید حسن امام" }
+names:
+  - { value: "Syed Hasan Imam", kind: full }
+gender: male
+summary:
+  ar: "محامٍ وسياسي هندي (1871–1933) من نيورا قرب باتنا، الأخ الأصغر لسيد علي إمام. درس القانون في لندن ومارس في محكمة كلكتا العليا ثم صار قاضيًا فيها 1912–1916، ثم مارس في باتنا، ورأس جلسة الكونغرس الوطني الهندي الخاصة في بومباي سنة 1918، وكان رابع مسلم يرأس الكونغرس."
+  en: "Indian barrister and politician (1871–1933) from Neora near Patna, younger brother of Syed Ali Imam. He studied law in London, practised and then served as a judge of the Calcutta High Court from 1912 to 1916, then practised at Patna; he presided over the 1918 Bombay special session of the Indian National Congress, the fourth Muslim to head the Congress."
+  ur: "پٹنہ کے قریب نیورا سے تعلق رکھنے والے ہندوستانی بیرسٹر اور سیاست دان (1871ء–1933ء)، سید علی امام کے چھوٹے بھائی۔ انھوں نے لندن میں قانون پڑھا، کلکتہ ہائی کورٹ میں وکالت کی اور 1912ء سے 1916ء تک اس کے جج رہے، پھر پٹنہ میں وکالت کی؛ انھوں نے 1918ء میں بمبئی میں انڈین نیشنل کانگریس کے خصوصی اجلاس کی صدارت کی اور کانگریس کی صدارت کرنے والے چوتھے مسلمان تھے۔"
+roles: [jurist, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1871-08-31"
+  hijri: "1288"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 31 August 1871 at Neora village, Patna district, Bihar, son of Syed Imdad Imam, a professor of history at Patna College; so the English article, with Wikidata agreeing to the day. The Hijri year is a conversion. No place entity exists for Neora or Patna, so no born_in edge is written."
+  sources: [source/wikipedia-syed-hasan-imam-en, source/wikidata-syed-hasan-imam]
+died:
+  edtf: "1933-04-19"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 19 April 1933; so the English article and Wikidata (day precision). The article's biographical tradition places his burial at Japla in Shahabad district. The Hijri year is a conversion."
+  sources: [source/wikipedia-syed-hasan-imam-en, source/wikidata-syed-hasan-imam]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Shia reading stands one independent text short, for the founder's word. The English article's biographical text attests the man himself directly: 'A Shia Muslim by faith, he belonged to a distinguished, educated landed family.' That is one text. Wikidata's structured religion statements give Islam and Shia Islam, but structured data never counts as a text. The same biographical sentence circulates in derivative reproductions of the standard biographical-dictionary entry, which share its origin and so do not make a second independent text; the Dictionary of National Biography (India) entry itself, read in the CRL scan, keeps to his career and notes only that he 'kept his religious beliefs to himself'. The Urdu article names no school. Two independent texts attesting Shia for the man himself would settle shia-twelver under the founder's mapping rule, the Indian Shia community of his milieu being Twelver; until then the value stays unknown with the Shia attestation preserved here."
+    sources: [source/wikipedia-syed-hasan-imam-en, source/wikipedia-syed-hasan-imam-ur, source/wikidata-syed-hasan-imam]
+relations:
+  - { type: sibling_of, target: person/syed-ali-imam, sources: [source/wikipedia-syed-hasan-imam-en] }
+external_ids: { wikidata: "Q7660338" }
+sources: [source/wikipedia-syed-hasan-imam-en, source/wikipedia-syed-hasan-imam-ur, source/wikidata-syed-hasan-imam]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Syed Hasan Imam', rev. 1369374848 of 14 August 2026; Urdu Wikipedia 'سید حسن امام', rev. 11800999 of 18 August 2026 (a stub); Wikidata Q7660338 (item rev. 2530365821). All read via the MediaWiki/Wikidata APIs on 3 November 2026, every revision id re-asserted with a repeat query. The Dictionary of National Biography (India) entry 'Hasan Imam, Syed' (CRL digital collections scan, entry 198) was also read in full for the faith question, as recorded in the faith note; it is not registered as a source entity because it attests career facts only and the museum's text does not rest on it. The bare title 'Hasan Imam' on English Wikipedia redirects to a Bangladeshi actor born in 1935, a different man; this record is the 1871–1933 barrister. No group entity exists for the Indian National Congress, so no member_of edge is written."
+  generated_by: "Muse (Muse Wonder)"
+  run: century-additions-184
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

@@ -2,7 +2,12 @@
 id: place/miliana
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## Overview
-Miliana is a town in Algeria, through which Ibn Battuta passed on his way from the Maghrib. {cite:rihla-ibn-battuta-1958} Identifying the site with the present-day town needs an additional source.
+## Summary
+Miliana is a town in Algeria. Ibn Battuta reached it while tracking the qadi and his companion on his way out of the Maghrib. {cite:rihla-ibn-battuta-1958 p. 8}
+
+## Details
+At the start of his travels from the Maghrib, Ibn Battuta set out seeking the party of the qadi and his companion; he reached the city of Miliana and caught up with them there. The qadi's illness then grew severe, and they stayed by a spring three miles from Miliana. {cite:rihla-ibn-battuta-1958 p. 8}
+
+He also mentions a qadi who accompanied them from Miliana and left behind three thousand dinars of gold, in the story of the money abandoned after him. {cite:rihla-ibn-battuta-1958 p. 9} The recorded coordinates come from GeoNames for the modern town of the name; identifying it with the place the traveller passed through needs an additional source. {cite:geonames-gazetteer}

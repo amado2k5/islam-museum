@@ -1,0 +1,62 @@
+id: person/mo-gilligan
+class: person
+
+label: { ar: "مو غيليغان", en: "Mo Gilligan", ur: "مو گلیگن" }
+
+names:
+  - { value: "Mosiah Bikila Gilligan", kind: full }
+  - { value: "Mo Gilligan", kind: alternate }
+  - { value: "مو غيليغان", kind: full }
+
+gender: male
+
+summary:
+  ar: "موسايا بيكيلا غيليغان (وُلد في 19 شباط 1988)، المعروف بمو غيليغان، فنان كوميدي ومقدم تلفزيوني بريطاني، وُلد في لامبث بلندن لأبوين من أصل جامايكي وسانت لوسي. اشتهر بمقاطع الكوميديا على وسائل التواصل منذ 2017، وشارك في تقديم «ذا بيغ نارستي شو»، وقدّم برنامجه «ذا لايتش شو» على القناة الرابعة، وهو من حكام برنامج «ذا ماسكد سينغر» البريطاني منذ 2020."
+  en: "Mosiah Bikila Gilligan (born 19 February 1988), known as Mo Gilligan, is a British stand-up comedian and television presenter, born in Lambeth, London to parents of Jamaican and St Lucian descent. He rose through comedy clips on social media from 2017, co-hosted The Big Narstie Show, hosted The Lateish Show with Mo Gilligan on Channel 4, and has judged The Masked Singer UK since 2020."
+  ur: "موسایا بکیلا گلیگن (پیدائش 19 فروری 1988)، جو مو گلیگن کے نام سے معروف ہیں، برطانوی اسٹینڈ اپ مزاح نگار اور ٹیلی ویژن پیش کار ہیں، جو لندن کے لیمبیتھ میں جمیکا اور سینٹ لوسیا نژاد والدین کے ہاں پیدا ہوئے۔ وہ 2017 سے سوشل میڈیا پر مزاحیہ کلپس سے مشہور ہوئے، «دی بگ نارسٹی شو» کی مشترکہ میزبانی کی، چینل 4 پر اپنا پروگرام «دی لیٹش شو» پیش کیا، اور 2020 سے «دی ماسکڈ سنگر» برطانیہ کے ججوں میں شامل ہیں۔"
+
+roles: [comedian, presenter]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1988-02-19"
+  hijri: "1408"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Lambeth, London on 19 February 1988; the English article and Wikidata agree, the article citing Companies House records for the date. The Hijri year 1408 is the tabular conversion of the built date, marked derived. No place entity for Lambeth or London exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-mo-gilligan-en, source/wikidata-mo-gilligan]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      One attestation exists and is preserved in full: the English
+      article's personal-life section states "He is a Christian, and
+      attends Hillsong Church in Golders Green", cited there only to
+      a BBC iPlayer programme page. No second independent text
+      attesting any religion for the man himself was found - his
+      Wikidata item carries no religion statement at all - and under
+      the founder's rulings of 1 November 2026 a single attestation
+      does not settle a faith value, so his faith is recorded as
+      unknown with the attestation stated here. His Jamaican and
+      St Lucian parentage is biography, not evidence of faith, and
+      was not used.
+    sources: [source/wikipedia-mo-gilligan-en, source/wikidata-mo-gilligan]
+
+external_ids: { wikidata: "Q57313962" }
+
+sources:
+  - source/wikipedia-mo-gilligan-en
+  - source/wikidata-mo-gilligan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mo Gilligan' (revision 1381973054 of 25 October 2026) and Wikidata Q57313962 (item revision 2540259749 of 4 September 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's year 1988 is confirmed at day precision. Two targeted web searches found no second independent text attesting his Christianity beyond the English article's single sentence, so no faith value is settled."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-166a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

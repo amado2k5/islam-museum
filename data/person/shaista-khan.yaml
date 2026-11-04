@@ -1,0 +1,82 @@
+id: person/shaista-khan
+class: person
+
+label: { ar: "شايسته خان", en: "Shaista Khan", ur: "شائستہ خان" }
+
+names:
+  - { value: "Mirza Abu Talib", kind: full }
+  - { value: "Shaista Khan", kind: laqab }
+  - { value: "Amir-ul-Umara", kind: laqab }
+  - { value: "Mirza Abu-Talib Shaista Khan ibn Abu'l-Hasan Asaf Khan", kind: nasab }
+
+gender: male
+
+summary:
+  ar: "شايسته خان (22 نوفمبر 1600 – نحو 1694)، المولود ميرزا أبو طالب، قائد مغولي وصوبه دار البنغال، وخال الإمبراطور أورنكزيب. حكم الدكن حيث هاجمه شيفاجي في بونه سنة 1663، ثم حكم البنغال قرابة أربعة وعشرين عامًا (1664–1688) ففتح تشيتاغونغ سنة 1666 ووسّع دكا وبنى مساجدها وقصورها، وكان أطول صوبه دارات البنغال بقاءً في المنصب."
+  en: "Shaista Khan (22 November 1600 – c. 1694), born Mirza Abu Talib, was a Mughal general and subahdar of Bengal and the maternal uncle of Emperor Aurangzeb. He governed the Deccan, where Shivaji attacked him at Pune in 1663, then ruled Bengal for some twenty-four years (1664–1688), conquering Chittagong in 1666, expanding Dhaka and raising its mosques and palaces; his was the longest tenure of any subahdar of Bengal."
+  ur: "شائستہ خان (22 نومبر 1600ء – تقریباً 1694ء)، اصل نام مرزا ابو طالب، مغل جرنیل اور بنگال کے صوبیدار اور شہنشاہ اورنگزیب کے ماموں تھے۔ انھوں نے دکن کی حکومت کی، جہاں 1663ء میں پونے میں شیواجی نے ان پر حملہ کیا، پھر تقریباً چوبیس سال (1664ء–1688ء) بنگال کے حاکم رہے، 1666ء میں چٹاگانگ فتح کیا، ڈھاکہ کو وسعت دی اور اس کی مساجد و محلات بنوائے؛ بنگال کے صوبیداروں میں ان کی مدت سب سے لمبی تھی۔"
+
+roles: [general, governor, statesman]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1600-11-22"
+  calendar: julian
+  precision: day
+  status: historical
+  note: "The English and Arabic articles give 22 November 1600 at Delhi — the English article resting the day on the diary of William Hedges — and the Urdu article's prose gives the same date; Wikidata's birth statement is century-precision only and is not used. No Hijri year is set, none being paired with the date in the texts read."
+  sources: [source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar, source/wikipedia-shaista-khan-ur]
+
+died:
+  edtf: "1694"
+  calendar: julian
+  precision: year
+  status: debated
+  note: "The English article gives his death as circa 1694 and the Arabic and Urdu articles give the year 1694 plainly; the year is built at year precision with the circa qualification preserved. The English and Arabic articles place his death at Delhi. Wikidata carries the year only."
+  sources: [source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar, source/wikipedia-shaista-khan-ur, source/wikidata-shaista-khan]
+
+relations:
+  - { type: child_of, target: person/asaf-khan-iv, sources: [source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar, source/banglapedia-shaista-khan, source/wikidata-shaista-khan] }
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      One independent text names a school for Shaista Khan himself:
+      Abdul Karim's Banglapedia survey 'Islam, Bengal' states in
+      prose that great Mughal subahdars like Mir Jumla and Shaista
+      Khan were Shias. One text is one source, and the founder
+      standard requires two independent texts. The English and Arabic
+      articles' infoboxes file Shia Islam, but infobox filings are not
+      texts and settle nothing, and the two filings read as one copied
+      family in any case. Banglapedia's own entry on Shaista Khan,
+      read in full, names no faith for him. The remaining evidence is
+      family background — Banglapedia's 'Iranians, The' states that
+      the family of his grandfather Mirza Ghias Beg Itimaduddaula
+      belonged to the Shia sect — and family background never counts
+      under the founder rulings; his Persian origin and his Mughal
+      offices likewise settle nothing. Wikidata files his religion as
+      Islam generically, which under the rulings gives unknown
+      unflagged. His faith is therefore recorded as unknown, with the
+      single Banglapedia naming stated in full.
+    sources: [source/banglapedia-islam-bengal, source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar, source/wikidata-shaista-khan]
+
+external_ids: { wikidata: "Q7462487" }
+
+sources:
+  - source/wikipedia-shaista-khan-en
+  - source/wikipedia-shaista-khan-ar
+  - source/wikipedia-shaista-khan-ur
+  - source/wikidata-shaista-khan
+  - source/banglapedia-shaista-khan
+  - source/banglapedia-islam-bengal
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380967679 of 19 October 2026), Arabic Wikipedia (revision 73435218 of 12 February 2026), Urdu Wikipedia (revision 6873976 of 9 March 2025) and Wikidata Q7462487 (item revision 2490948185 of 13 May 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Abdul Karim's Banglapedia entries 'Shaista Khan' and 'Islam, Bengal' were read in full the same day. Existence checked against origin/main before building — no prior record holds this subahdar (person/shaista-suhrawardy-ikramullah is a different, twentieth-century person), by slug, by name fragment or by QID; person/asaf-khan-iv, place/delhi and place/dhaka exist on main. The child_of edge is written here, in the child's record; his sibling pair with Mumtaz Mahal is not written here, sibling_of belonging to the elder sibling's record. His Bengal tenure is carried as the articles give it — appointed on Mir Jumla's death in 1663, first governorship from 30 March 1664, with the break of 1678–1680 the articles divide over in detail."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-170m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

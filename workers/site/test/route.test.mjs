@@ -22,6 +22,9 @@ test("non-language paths go to static assets", () => {
   assert.deepEqual(resolve("/media/time-browser/explorer/x.webp"), { type: "r2", key: "media/time-browser/explorer/x.webp" });
   assert.deepEqual(resolve("/timeline-data/en/index.json"), { type: "r2", key: "timeline-data/en/index.json" });
   assert.deepEqual(resolve("/sitemap-index.xml"), { type: "r2", key: "sitemap-index.xml" });
+  // Search indexes are served from the same site (the search page loads them from its own origin).
+  assert.deepEqual(resolve("/pagefind-en/pagefind-ui.js"), { type: "r2", key: "pagefind-en/pagefind-ui.js" });
+  assert.deepEqual(resolve("/pagefind-ur/"), { type: "r2", key: "pagefind-ur/index.html" });
   assert.deepEqual(resolve("/favicon.svg"), { type: "r2", key: "favicon.svg" });
   assert.deepEqual(resolve("/search-synonyms.ar.json"), { type: "r2", key: "search-synonyms.ar.json" });
   assert.deepEqual(resolve("/robots.txt"), { type: "assets" });
@@ -98,3 +101,22 @@ test("aliasTarget redirects a former entity id to the current one in the same la
   assert.equal(aliasTarget("/brand/logo-mark.svg", aliases), null);
 });
 
+
+test("host rewrites translate only the listed production hosts in absolute Locations", async () => {
+  const { parseHostRewrites, rewriteHost, robotsDisallowed } = await import("../src/route.js");
+  const map = parseHostRewrites("api.islam.museum=uat-api.islam.museum, islam.museum=uat.islam.museum");
+  assert.equal(map.size, 2);
+  assert.equal(rewriteHost("https://api.islam.museum/api/v1/meta/index.json", map), "https://uat-api.islam.museum/api/v1/meta/index.json");
+  assert.equal(rewriteHost("https://islam.museum/openapi/v1.json?x=1", map), "https://uat.islam.museum/openapi/v1.json?x=1");
+  // Paths, other hosts and malformed values pass through untouched.
+  assert.equal(rewriteHost("/ar/person/muhammad/", map), "/ar/person/muhammad/");
+  assert.equal(rewriteHost("https://github.com/amado2k5/islam-museum", map), "https://github.com/amado2k5/islam-museum");
+  assert.equal(rewriteHost("https://api.islam.museum/x", new Map()), "https://api.islam.museum/x");
+  assert.equal(rewriteHost("https://api.islam.museum/x", parseHostRewrites(undefined)), "https://api.islam.museum/x");
+  assert.equal(parseHostRewrites("garbage,=x,y=").size, 0);
+  // Production: no ROBOTS var, so the site's own robots.txt is served and nothing is marked noindex.
+  assert.equal(robotsDisallowed({}), false);
+  assert.equal(robotsDisallowed({ ROBOTS: "disallow" }), true);
+  assert.equal(robotsDisallowed({ ROBOTS: "Disallow" }), true);
+  assert.equal(robotsDisallowed({ ROBOTS: "allow" }), false);
+});

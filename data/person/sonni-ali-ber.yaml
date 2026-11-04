@@ -1,0 +1,61 @@
+id: person/sonni-ali-ber
+class: person
+
+label: { ar: "سوني علي بير", en: "Sonni Ali Ber", ur: "سونی علی بیر" }
+
+names:
+  - { value: "Sonni Ali Ber", kind: full }
+  - { value: "Sunni Ali", kind: alternate }
+  - { value: "Si Ali", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "سوني علي بير (حكم نحو 1464–1492)، خامس عشر حكام أسرة سوني ومؤسس إمبراطورية سونغاي في غرب أفريقيا. ورث مملكة صغيرة على نهر النيجر فحوّلها بالفتوح إلى إمبراطورية: أخذ تمبكتو من الطوارق سنة 1469، وحاصر جني حتى استسلمت سنة 1473، وفتح ماسينا ودلتا النيجر الداخلية. وديانته متنازع عليها في المصادر نفسها: فقد نشأ في وسط تقليدي، وصلى وصام وتصدّق معلنًا إسلامه، لكنه أبى تطبيق الشريعة ووقّر الأشجار والأحجار، فهاجمه مؤرخو تمبكتو المسلمون، بينما تشكك شواهد قبور كوكيا في صورتهم. مات سنة 1492، وخلفه ابنه سوني بارو ثم أسكيا محمد."
+  en: "Sonni Ali Ber (r. c. 1464–1492), fifteenth ruler of the Sonni dynasty and founder of the Songhai Empire in West Africa. He inherited a small Niger-bend kingdom and turned it by conquest into an empire: he took Timbuktu from the Tuareg in 1469, starved Djenne into surrender in 1473, and conquered Massina and the Inner Niger Delta. His religion is contested in the sources themselves: raised in a traditional milieu, he professed Islam and observed the prayers, the fast and almsgiving, yet refused the sharia a place in Songhai and venerated trees and stones, for which the Muslim chroniclers of Timbuktu attacked him — a picture the funeral stelae of Kukiya partly contradict. He died in 1492 and was succeeded by his son Sunni Baru and then by Askia Muhammad."
+  ur: "سونی علی بیر (حکومت تقریباً 1464ء–1492ء)، سونی خاندان کے پندرہویں حکمران اور مغربی افریقا میں سلطنت سونغائی کے بانی تھے۔ انھیں دریائے نائیجر کے کنارے ایک چھوٹی سی مملکت ورثے میں ملی جسے انھوں نے فتوحات سے سلطنت بنا دیا: 1469ء میں انھوں نے طوارق سے ٹمبکٹو لیا، 1473ء میں جینے کو بھوکا مار کر تسلیم کرایا، اور ماسینا و اندرونی نائیجر ڈیلٹا فتح کیے۔ ان کا مذہب خود مصادر میں متنازع ہے: وہ روایتی ماحول میں پلے، اسلام کا اقرار کرتے، نماز، روزہ اور زکاۃ کی پابندی کرتے، مگر شریعت کو سونغائی میں نافذ کرنے سے انکار کیا اور درختوں اور پتھروں کی تعظیم کی، جس پر ٹمبکٹو کے مسلم مؤرخین نے ان پر حملے کیے — ایسی تصویر جس سے کوکیا کے مقبرہ کتبے جزوی طور پر اختلاف کرتے ہیں۔ 1492ء میں ان کی وفات ہوئی اور ان کے بعد ان کے بیٹے سنی بارو اور پھر اسکیا محمد تخت نشین ہوئے۔"
+
+roles: [ruler]
+regions: [west-africa-sahel]
+wings: [people]
+
+died:
+  edtf: "1492"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1492: so the English article and Wikidata. The Tarikh al-Sudan's account, quoted in the article, has him drown while crossing the Niger on 6 November 1492, a detail the article itself marks as conjecture; an oral tradition instead has him killed by his sister's son, Askia Muhammad. Both accounts are preserved here and in the prose. A bare year 1492 spans 897-898 AH, so no Hijri year is recorded."
+  sources: [source/wikipedia-sonni-ali-en, source/wikidata-sonni-ali]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      His religion is genuinely contested in the sources, and no source read names a school or
+      order for him, so the settlement is unknown with the readings preserved in full. The
+      English article reports that he received an Islamic education and professed Islam, and
+      that he observed the Islamic prayers, fasted and gave alms; it reports in the same
+      breath that his faith was syncretic and unorthodox, that he venerated certain trees and
+      stones by slaughtering at them, consulted soothsayers and magicians, and did not permit
+      the acceptance of the sharia in Songhai or see any barrier to enslaving Muslims — the
+      grounds on which al-Maghili and the Timbuktu chroniclers condemned him as outwardly or
+      nominally Muslim at best. It also records the counter-evidence: al-Sa'di acknowledged
+      his respect for some scholars, and the funeral stelae of Kukiya suggest the chroniclers,
+      who wrote for the Askia dynasty that overthrew his house, exaggerated his impiety.
+      Professed Islam with traditional practice, attested by hostile and apologetic readings
+      alike, names no school, so nothing further is recorded.
+    sources: [source/wikipedia-sonni-ali-en, source/wikidata-sonni-ali]
+
+external_ids: { wikidata: "Q945436" }
+
+sources:
+  - source/wikipedia-sonni-ali-en
+  - source/wikidata-sonni-ali
+
+provenance:
+  layer: own-research
+  source: "The English Wikipedia article on Sonni Ali and Wikidata Q945436, read in full (article text; item claims) at the revisions recorded in their source files, fetched live from the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. The founder commissioned this build in rulings packet #3 (Part 3, queue §H). No birth block is recorded: no source read gives a birth year — the reign begins about 1464, the figure his Wikidata item files as a birth year — and the queue figure of 1440 is attested nowhere. His father Sonni Muhammad Da'o, his son and successor Sunni Baru, and his sister's son Askia Muhammad, who overthrew Baru, are all prose-only except where a record already exists: Askia Muhammad I has a record built in an earlier wave, but the attested links between the two men are a kinship reported only by oral tradition and a succession that ran through Baru, so no relation edge is written and the connection is stated in both records' prose. His capital Gao and his conquest Timbuktu have place entities in the graph, but he was neither born nor buried at an attested place in the sources read, so no place edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-156h"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

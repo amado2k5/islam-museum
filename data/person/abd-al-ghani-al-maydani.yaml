@@ -3,11 +3,11 @@ class: person
 label:
   ar: "عبد الغني الميداني"
   en: "Abd al-Ghani al-Maydani"
-roles: [faqih]
+roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الغني الغنيمي الميداني، الفقيه الحنفي الدمشقي ومؤلف اللباب في شرح الكتاب؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Ghani al-Ghunaymi al-Maydani, the Damascus Hanafi jurist and author of al-Lubab; his entry is not yet checked on the page."
+  ar: "عبد الغني الغنيمي الميداني الدمشقي، من فقهاء الحنفية (١٢٢٢–١٢٩٨هـ)، صاحب «اللباب» شرح القدوري و«شرح العقيدة الطحاوية»."
+  en: "Abd al-Ghani al-Ghunaymi al-Maydani of Damascus, Hanafi jurist (1222–1298/1807–1881), author of al-Lubab and a Tahawiyya commentary."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/colonial-era]
@@ -23,5 +23,11 @@ provenance:
   model: "SWE-2 High"
   run: wikidata-import-wave2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

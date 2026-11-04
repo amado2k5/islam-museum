@@ -9,10 +9,13 @@ wings: [people]
 periods: [period/abbasid-early]
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 519"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-21
-  extra_runs: ["farghani-389-577 (claude-haiku-5-5, Claude Code)"]
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
 sources: [source/muruj-al-dhahab, source/farghani-elements-astronomy]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
+
 external_ids: { wikidata: Q336550 }

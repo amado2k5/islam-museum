@@ -1,0 +1,62 @@
+id: person/imtiaz-dharker
+class: person
+
+label: { ar: "إمتياز داركر", en: "Imtiaz Dharker", ur: "امتیاز دھارکر" }
+
+names:
+  - { value: "Imtiaz Dharker", kind: full }
+  - { value: "امتیاز دھارکر", kind: full }
+
+gender: female
+
+summary:
+  ar: "إمتياز داركر (وُلدت في 31 كانون الثاني 1954) شاعرة وفنانة وصانعة أفلام وثائقية باكستانية بريطانية، وُلدت في لاهور ونشأت في غلاسكو. نالت الميدالية الذهبية للملكة للشعر سنة 2014، وعُيّنت مستشارة لجامعة نيوكاسل سنة 2020، ومُنحت وسام الإمبراطورية البريطانية (OBE) في تكريمات رأس السنة 2025. من مجموعاتها «بردة وقصائد أخرى» (1989) و«بطاقات بريدية من الله» (1997) و«أتكلم نيابة عن الشيطان» (2001) و«فوق القمر» (2014) و«قارئ الظل» (2024)."
+  en: "Imtiaz Dharker (born 31 January 1954) is a Pakistani-British poet, artist and documentary film-maker, born in Lahore and brought up in Glasgow. She won the Queen's Gold Medal for Poetry in 2014, was appointed Chancellor of Newcastle University in 2020, and was appointed OBE in the 2025 New Year Honours. Her collections include Purdah and Other Poems (1989), Postcards from God (1997), I Speak for the Devil (2001), Over the Moon (2014) and Shadow Reader (2024)."
+  ur: "امتیاز دھارکر (پیدائش 31 جنوری 1954) پاکستانی برطانوی شاعرہ، فنکارہ اور دستاویزی فلم ساز ہیں، جو لاہور میں پیدا ہوئیں اور گلاسگو میں پروان چڑھیں۔ انہوں نے 2014 میں شاعری کے لیے ملکہ کا طلائی تمغہ جیتا، 2020 میں نیو کیسل یونیورسٹی کی چانسلر مقرر ہوئیں، اور 2025 کے نئے سال کے اعزازات میں انہیں او بی ای (OBE) سے نوازا گیا۔ ان کے مجموعوں میں «Purdah» (1989)، «Postcards from God» (1997)، «I Speak for the Devil» (2001)، «Over the Moon» (2014) اور «Shadow Reader» (2024) شامل ہیں۔"
+
+roles: [poet, writer, artist]
+wings: [people, living]
+regions: [south-asia, andalus-europe]
+
+born:
+  edtf: "1954-01-31"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Lahore on 31 January 1954. The English article's lead, the Urdu article and Wikidata give 1954, while the English article's own infobox template currently renders the year as 1955; the date is therefore marked debated. The Hijri year 1373 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-imtiaz-dharker-en, source/wikipedia-imtiaz-dharker-ur, source/wikidata-imtiaz-dharker]
+
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-imtiaz-dharker-en, source/wikipedia-imtiaz-dharker-ur, source/wikidata-imtiaz-dharker] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Her best-known self-description names no school and is, on her own
+      account, not a statement of faith at all. She has long described
+      herself as a Scottish Muslim Calvinist adopted by India and married
+      into Wales, and in a Big Issue North interview of October 2017 she
+      said of that phrase that she "wasn't really talking about faith",
+      explaining that it refuses easy labels. Wikidata carries only a bare
+      Islam statement, which settles nothing, and no source read names a
+      school or order for her. Under the founder's rulings of 1 November
+      2026 her faith is recorded as unknown.
+    sources: [source/wikipedia-imtiaz-dharker-en, source/big-issue-north-imtiaz-dharker-qa-2017]
+
+external_ids: { wikidata: "Q539265" }
+
+sources:
+  - source/wikipedia-imtiaz-dharker-en
+  - source/wikipedia-imtiaz-dharker-ur
+  - source/wikidata-imtiaz-dharker
+  - source/big-issue-north-imtiaz-dharker-qa-2017
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Imtiaz Dharker' (revision 1367639313 of 4 August 2026), Urdu Wikipedia article 'امتیاز دھارکر' (revision 10512048 of 20 May 2026) and Wikidata Q539265 (item revision 2553960914 of 6 October 2026), all fetched live in-session via the MediaWiki API on 1 November 2026, each revision re-asserted against a second live query and the QID grounded from the English article's own page property; and the Big Issue North author Q&A of October 2017, read in full on the publisher's site. Existence checked by slug and name fragments across data/person/ — no prior record and no draft stub. The century queue's year 1954 is confirmed by the lead and Wikidata, but the article infobox renders 1955, so the birth date is marked debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-162a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,69 @@
+id: person/yusuf-nabi
+class: person
+
+label: { ar: "يوسف نابي", en: "Yusuf Nabi", ur: "یوسف نبی" }
+
+names:
+  - { value: "Yusuf Nabi", kind: full }
+  - { value: "Nâbî", kind: pen }
+
+gender: male
+
+summary:
+  ar: "يوسف نابي (1642 – 13 نيسان 1712) شاعر ديوان عثماني وُلد في أورفة، انتقل إلى إسطنبول في الرابعة والعشرين فذاع صيته، وصحب الصدر الأعظم مصطفى باشا ولازمه في حملة لهستان سنة 1672 فكتب «فتحنامه كمانيچه». حجّ سنة 1679 ودوّن رحلته في «تحفة الحرمين»، ثم أقام نحو 25 سنة في حلب حيث نظم «خيرية» سنة 1701 لابنه أبي الخير، وهو ديوان نصائح صار أشهر أعماله. عاد إلى إسطنبول مع بلطجي محمد باشا وتولّى أمانة دار الضرب والمقابلة، ومات فيها ودُفن في مقبرة قرجه أحمد بأسكدار."
+  en: "Yusuf Nabi (1642 – 13 April 1712) was an Ottoman Divan poet born at Urfa who came to Istanbul at twenty-four and made his name, joined Sultan Mehmed IV's court circles and the 1672 Polish campaign, of which he wrote the Fetihname-i Kamaniçe. He made the Hajj in 1679 and recorded it in the Tuhfetü'l-Harameyn, then lived some twenty-five years in Aleppo, where in 1701 he composed the Hayriyye, a book of counsel for his son Ebulhayr that became his most famous work. He returned to Istanbul with Baltacı Mehmed Pasha, held the mint superintendency and the chief registrarship, died there and was buried in Karacaahmet cemetery in Üsküdar."
+  ur: "یوسف نبی (1642ء – 13 اپریل 1712ء) عثمانی دیوان شاعر تھے، اورفہ میں پیدا ہوئے، چوبیس سال کی عمر میں استنبول آئے اور نام پایا، 1672ء کی پولینڈ مہم میں شریک ہو کر «فتح نامۂ کمانیچہ» لکھی۔ 1679ء میں حج کیا اور سفرنامہ «تحفۃ الحرمین» لکھا، پھر تقریباً 25 سال حلب میں رہے جہاں 1701ء میں اپنے بیٹے ابوالخیر کے لیے نصائح کی کتاب «خیریہ» نظم کی، جو ان کی مشہور ترین تصنیف بنی۔ بلتاجی محمد پاشا کے ساتھ استنبول واپس آئے، دارالضرب کی امانت اور باش مقالہ جی کا عہدہ پایا، وہیں وفات پائی اور اسکدار کے قراجہ احمد قبرستان میں دفن ہوئے۔"
+
+roles: [poet, writer]
+regions: [anatolia-balkans, levant-iraq]
+wings: [people]
+
+born:
+  edtf: "1642"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Born at Urfa in 1642, as the English, Turkish and Urdu articles and Wikidata agree; the year spans 1051–1052 AH, so no Hijri year is built."
+  sources: [source/wikipedia-yusuf-nabi-en, source/wikipedia-yusuf-nabi-tr, source/wikipedia-yusuf-nabi-ur, source/wikidata-yusuf-nabi]
+
+died:
+  edtf: "1712-04-13"
+  calendar: gregorian
+  precision: day
+  status: debated
+  hijri: "1124"
+  derived: true
+  note: "Died at Istanbul. The Turkish article's lead gives 13 April 1712 and its body 12/13 April; the English and Urdu stubs give 10 April 1712, which Wikidata also carries as one of two statements (the other being 13 April); the Turkish reading is built, the rivals preserved here. The day falls cleanly in 1124 AH, built as derived. The English and Urdu stubs add that he died of wounds from a wild honey badger attack; the Turkish article and the TEİS entry it rests on give no such cause, and the claim is preserved here without endorsement."
+  sources: [source/wikipedia-yusuf-nabi-tr, source/wikipedia-yusuf-nabi-en, source/wikipedia-yusuf-nabi-ur, source/wikidata-yusuf-nabi]
+
+relations:
+  - { type: born_in, target: place/al-ruha, sources: [source/wikipedia-yusuf-nabi-en, source/wikipedia-yusuf-nabi-tr, source/wikipedia-yusuf-nabi-ur] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-yusuf-nabi-tr, source/wikipedia-yusuf-nabi-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school for the man himself. His
+      documented practice is stated in full: he performed the
+      Hajj in 1679 and wrote an account of the journey, the
+      Tuhfetü'l-Harameyn, served as a court poet under Mehmed IV
+      and held Ottoman state office — practice and office without
+      a named school, which under the founder's rule is recorded
+      as unknown. Wikidata carries no religion statement for him.
+    sources: [source/wikipedia-yusuf-nabi-tr, source/wikipedia-yusuf-nabi-en]
+
+external_ids: { wikidata: "Q2351863" }
+
+sources:
+  - source/wikipedia-yusuf-nabi-en
+  - source/wikipedia-yusuf-nabi-tr
+  - source/wikipedia-yusuf-nabi-ur
+  - source/wikidata-yusuf-nabi
+
+provenance:
+  layer: own-research
+  source: "Turkish Wikipedia «Nâbî» (revision 38078749 of 28 September 2026, resting on the TEİS entry by Abdulkadir Erkal), English Wikipedia (revision 1190168087 of 16 December 2023, a short stub), Urdu Wikipedia (revision 6072697 of 19 February 2024, a rendering of the English stub) and Wikidata Q2351863 (item revision 2551035938 of 29 September 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Turkish and Urdu articles agreeing. Existence checked against origin/main before building — no record holds this man under nabi, yusuf-nabi or any name fragment, and no Arabic or Persian article exists. The later queue row 'Mustafa Nâbî — 1642–1712' (line 1843) gives the same years and is, as its own annotation suspects, the same man duplicated: his name in every source is Yusuf, and this record covers the row. place/al-ruha (Urfa) and place/istanbul exist on main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-173m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

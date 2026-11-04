@@ -3,16 +3,22 @@ class: person
 label: { ar: "أبو الفتح الأرغياني", en: "Abu al-Fath al-Arghiyani" }
 died: { edtf: "1134~", hijri: "0529", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي على تيقظ من حاله مستهل المحرم سنة تسع وعشرين وخمسمائة {cite:wafayat-ayan}؛ وفي الشذرات توفي في ذي القعدة بنيسابور — أو التي قبلها {cite:shadharat-dhahab p. 570}." }
 summary:
-  ar: "أبو الفتح سهل بن أحمد بن علي الأرغياني؛ الفقيه الشافعي؛ كان إماماً كبيراً والمواظم على العبادة {cite:wafayat-ayan}."
-  en: "Abu al-Fath Sahl b. Ahmad al-Arghiyani (d. 529) — Shafi'i imam of great standing, constant in worship {cite:wafayat-ayan}."
+  ar: "أبو الفتح سهل بن أحمد الأرغياني، فقيه شافعي وقاضي أرغيان، تلميذ الجويني؛ توفي سنة 529هـ (1135م)."
+  en: "Abu al-Fath Sahl al-Arghiyani (d. 529/1135), Shafi'i jurist and qadi of Arghiyan, pupil of al-Juwayni."
 gender: male
-roles: [faqih]
+roles: [jurist, qadi]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الثاني (ترجمة الأرغياني)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
-  run: lib-wafayat-batch-19
+  source: "Ibn Khallikan, Wafayat al-a'yan - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.455)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: prose-fill-persons-batch9
 sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wafayat-ayan, source/shadharat-dhahab]

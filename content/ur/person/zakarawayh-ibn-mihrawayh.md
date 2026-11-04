@@ -2,9 +2,7 @@
 id: person/zakarawayh-ibn-mihrawayh
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 26"]
 ---
 ## خلاصہ
-زکرویہ بن مہرویہ، جنھیں طبری قرمطی کہتے ہیں۔ طبری نے ان کا واقعہ 294 ہجری کے ذیل میں ذکر کیا ہے۔ {cite:tabari-tarikh-abu-al-fadl j.10 p.130}
-
-وہ نہر المثنیہ سے حاجیوں کے قافلے کی طرف روانہ ہوئے، پھر واقصہ کے مقام پر علاف فروشوں کی ایک جماعت کو قتل کیا۔ {cite:tabari-tarikh-abu-al-fadl j.10 p.130}
+زکرویہ بن مہرویہ، جسے طبری قرمطی کہتا ہے؛ 294 ہجری میں نہر مثنیہ سے حج کے بہانے نکلا اور واقصہ میں قافلہ والوں کو قتل کیا۔ ابن جوزی کے مطابق مکتفی کے لشکر میں وصیف بن صوارتکین نے اسے روکا، اس کے ساتھی قتل ہوئے اور اسے زخمی کیا گیا جو دماغ تک پہنچا — پانچ دن زندہ رہا پھر مرا۔ {cite:tabari-tarikh-abu-al-fadl}

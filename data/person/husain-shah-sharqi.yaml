@@ -1,0 +1,52 @@
+id: person/husain-shah-sharqi
+class: person
+
+label: { ar: "حسين شاه الشرقي", en: "Husain Shah Sharqi", ur: "حسین شاہ شرقی" }
+
+names:
+  - { value: "Husain Shah Sharqi", kind: full }
+  - { value: "حسين شاه الشرقي", kind: full }
+  - { value: "Husain Shah", kind: regnal }
+  - { value: "Hussain Shah Sharqi", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "حسين شاه الشرقي (ت. 1505)، سادس سلاطين جونبور في شمال الهند وآخرهم، وابن محمود شاه الشرقي. خلف أخاه محمد شاه سنة 1458، ووسّع ملكه نحو أوريسا وغواليور، ثم خاض حربًا طويلة مع بهلول لودي صاحب دلهي انتهت بطرده من جونبور سنة 1479، فلجأ إلى كهلغاون في بهار حيث أمضى بقية عمره يسكّ النقود باسمه، وتوفي سنة 1505 ودُفن في جونبور. يُذكر اهتمامه بالفن والموسيقى وإسهامه في تطوير لون الخيال الغنائي."
+  en: "Husain Shah Sharqi (d. 1505), sixth and last sultan of Jaunpur in northern India and a son of Mahmud Shah Sharqi. He succeeded his brother Muhammad Shah in 1458, expanded his kingdom towards Orissa and Gwalior, then fought a long war with Bahlul Lodi of Delhi that ended with his expulsion from Jaunpur in 1479. He took asylum at Kahalgaon in Bihar, where he spent the rest of his life still minting coins in his own name, died in 1505 and was buried at Jaunpur. He is remembered for his interest in art and music and his contribution to the development of khayal singing."
+  ur: "حسین شاہ شرقی (وفات 1505ء)، شمالی ہندوستان کی جونپور سلطنت کے چھٹے اور آخری سلطان اور محمود شاہ شرقی کے بیٹے۔ وہ 1458ء میں اپنے بھائی محمد شاہ کے جانشین بنے، اڑیسہ اور گوالیار کی طرف اپنی مملکت وسیع کی، پھر دہلی کے بہلول لودی سے طویل جنگ لڑی جو 1479ء میں ان کی جونپور سے بے دخلی پر ختم ہوئی۔ انھوں نے بہار کے کہلگاؤں میں پناہ لی، جہاں باقی عمر اپنے نام کے سکے ڈھالتے گزاری، 1505ء میں وفات پائی اور جونپور میں دفن ہوئے۔ فن و موسیقی سے ان کی دلچسپی اور خیال گائیکی کی ترقی میں ان کا حصہ مشہور ہے۔"
+
+roles: [ruler]
+regions: [south-asia]
+wings: [people]
+
+died:
+  edtf: "1505"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1505, in exile at Kahalgaon in Bihar, and was buried at Jaunpur: so the English article's narrative, and Wikidata's single death value (+1505) agrees. No Hijri year is recorded (1505 CE spans 910–911 AH and no source pairs one)."
+  sources: [source/wikipedia-husain-shah-jaunpur-en, source/wikidata-husain-shah-jaunpur]
+
+relations:
+  - { type: child_of, target: person/mahmud-shah-sharqi, sources: [source/wikipedia-husain-shah-jaunpur-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school for Husain Shah, and none is recorded. The English article's only religious-biographical claim is that he admired Muhammad Jaunpuri, the claimant to be the Mahdi who appeared during his reign — and the article itself flags that claim as needing a citation; in any case it names no school for the sultan. His documented interests are stated in full in the prose: art and music, and a significant contribution to the development of khayal. Wikidata carries no religion value."
+    sources: [source/wikipedia-husain-shah-jaunpur-en, source/wikidata-husain-shah-jaunpur]
+
+external_ids: { wikidata: "Q121362544" }
+
+sources:
+  - source/wikipedia-husain-shah-jaunpur-en
+  - source/wikidata-husain-shah-jaunpur
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Husain Shah of Jaunpur' and Wikidata Q121362544, read in full (article text and wikitext; item claims) at the revisions recorded in their source files, fetched live from the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. The founder commissioned this build in rulings packet #3 (Part 3, queue §H). No birth block is recorded: the article files him under 'Year of birth unknown', Wikidata carries no birth value, and the queue figure of 1440 is attested in no source read. His father Mahmud Shah Sharqi has a record in the museum (built in wave 154 §G), so the child_of edge is written here, in the son's record, as the write-once rule requires; his brother and predecessor Muhammad Shah has no record, and Jaunpur, Kahalgaon and Bihar have no place entities, so the succession, the Kahalgaon exile and the Jaunpur burial are prose-only. The accession frame carries a preserved variant: the article's infobox prints his reign as 1458–1494, while its narrative has him finally expelled in 1479 and a Lodi prince placed on Jaunpur's throne in 1486."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-155h"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,24 @@
+id: event/russian-occupation-edirne-1878
+class: event
+kind: conquest
+label: { ar: "الاحتلال الروسي لأدرنة (١٨٧٨)", en: "Russian occupation of Edirne (1878)", ur: "ادرنہ پر روسی قبضہ (1878ء)" }
+summary:
+  ar: "سبب احتلال الروس لأدرنة في الأعوام 1878-1879م مزيداً من الدمار للمدينة؛ فقد جرّد الروس أثناء احتلالهم جامع يلدريم من خزفه وحلقتيه الرخاميتين، وأخذوا زخارف جامع السليمية {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}."
+  en: "The Russian occupation of Edirne in 1878-9 caused further devastation to the city: during their occupation the Russians stripped the Yıldırım mosque of its tiles and the two linked marble rings that gave it the name Küpeli Cami, and took away the tiles of the Selimiye's royal gallery {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}."
+  ur: "1878-79ء میں ادرنہ کا روسی قبضہ شہر کے لیے مزید تباہی کا سبب بنا؛ قبضے کے دوران روسیوں نے یلدرم مسجد کی کاشی کاری اور سنگِ مرمر کی دو جوڑی حلقیاں اتار لیں اور سلیمیہ کی شاہی مقصورہ کی کاشی کاری بھی لے گئے {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}۔"
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1878", hijri: "1295~", calendar: julian, precision: year, status: tradition, derived: true, note: "الاحتلال الروسي 1878-1879م {cite:encyclopaedia-of-islam-2 vol. 2 pp. 711-712}؛ الهجري مشتق." }
+  end: { edtf: "1879", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF pp. 711-712 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

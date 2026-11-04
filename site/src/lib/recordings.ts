@@ -9,6 +9,15 @@ import recordingsSuwaidan from "../data/recordings-tareq-al-suwaidan.json";
 import recordingsSergani from "../data/recordings-ragheb-el-sergani.json";
 import recordingsNaggar from "../data/recordings-zaghloul-el-naggar.json";
 import recordingsKishk from "../data/recordings-abdul-hamid-kishk.json";
+import recordingsQaradawi from "../data/recordings-yusuf-al-qaradawi.json";
+import recordingsShaarawy from "../data/recordings-muhammad-metwally-al-shaarawy.json";
+import recordingsKahlawi from "../data/recordings-abla-al-kahlawi.json";
+import recordingsHeweny from "../data/recordings-abu-ishaq-alheweny.json";
+import recordingsFarid from "../data/recordings-ahmad-farid.json";
+import recordingsMansour from "../data/recordings-abd-al-rahman-mansour.json";
+import recordingsAnwar from "../data/recordings-mosaad-anwar.json";
+import recordingsAbdussalam from "../data/recordings-ahmed-abdussalam.json";
+import recordingsHosny from "../data/recordings-mustafa-hosny.json";
 
 export interface RecordingRef {
   series: string;       // archive slug, e.g. aadau-al-islam
@@ -26,6 +35,15 @@ const SPEAKER_BY_SOURCE: Record<string, string> = {
   "source/assabile-ragheb-el-sergani": "ragheb-el-sergani",
   "source/assabile-zaghloul-el-naggar": "zaghloul-el-naggar",
   "source/assabile-abdul-hamid-kishk": "abdul-hamid-kishk",
+  "source/assabile-yusuf-al-qaradawi": "yusuf-al-qaradawi",
+  "source/assabile-muhammad-metwally-al-shaarawy": "muhammad-metwally-al-shaarawy",
+  "source/assabile-abla-al-kahlawi": "abla-al-kahlawi",
+  "source/assabile-abu-ishaq-alheweny": "abu-ishaq-alheweny",
+  "source/assabile-ahmad-farid": "ahmad-farid",
+  "source/assabile-abd-al-rahman-mansour": "abd-al-rahman-mansour",
+  "source/assabile-mosaad-anwar": "mosaad-anwar",
+  "source/assabile-ahmed-abdussalam": "ahmed-abdussalam",
+  "source/assabile-mustafa-hosny": "mustafa-hosny",
 };
 const LOCATOR = /^([a-z0-9-]+)\/ep(\d+)(?:\s+(\d{1,2}):(\d{2}):(\d{2}))?/;
 
@@ -37,6 +55,15 @@ const MAP_BY_SPEAKER: Record<string, Known> = {
   "ragheb-el-sergani": recordingsSergani as Known,
   "zaghloul-el-naggar": recordingsNaggar as Known,
   "abdul-hamid-kishk": recordingsKishk as Known,
+  "yusuf-al-qaradawi": recordingsQaradawi as Known,
+  "muhammad-metwally-al-shaarawy": recordingsShaarawy as Known,
+  "abla-al-kahlawi": recordingsKahlawi as Known,
+  "abu-ishaq-alheweny": recordingsHeweny as Known,
+  "ahmad-farid": recordingsFarid as Known,
+  "abd-al-rahman-mansour": recordingsMansour as Known,
+  "mosaad-anwar": recordingsAnwar as Known,
+  "ahmed-abdussalam": recordingsAbdussalam as Known,
+  "mustafa-hosny": recordingsHosny as Known,
 };
 
 export const seriesTitle = (slug: string) =>

@@ -3,11 +3,11 @@ class: person
 label:
   ar: "قره سنان"
   en: "Qara Sinan"
-roles: [writer]
+roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لقره سنان؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Qara Sinan, the fifteenth-century Ottoman writer, d. 1480; the biographical entry is not yet checked on the page."
+  ar: "يوسف بن عبد الملك «قره سنان»، فقيه حنفي تركي من علماء عصر محمد الفاتح؛ توفي سنة 852هـ (1448م)."
+  en: "Yusuf “Qara Sinan” (d. 852/1448), Turkish Hanafi jurist under Mehmed the Conqueror."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q135468696
 provenance:
   layer: own-research
-  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0092
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.8 p.241)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

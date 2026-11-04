@@ -1,0 +1,76 @@
+id: person/zeb-un-nissa
+class: person
+
+label: { ar: "زيب النساء", en: "Zeb-un-Nissa", ur: "زیب النساء" }
+
+names:
+  - { value: "Zeb-un-Nissa", kind: full }
+  - { value: "Makhfi", kind: pen }
+  - { value: "Zebunnisa", kind: alternate }
+
+gender: female
+
+summary:
+  ar: "زيب النساء (15 فبراير 1638 – 26 مايو 1702) أميرة مغولية، أكبر أبناء الإمبراطور أورنكزيب ودلرس بانو بيغوم، وشاعرة فارسية كتبت باسم «مخفي». حفظت القرآن في طفولتها وأتقنت الفارسية والعربية والأردية، ورعت العلماء والمترجمين وجمعت مكتبة كبيرة. سجنها أبوها في حصن سليم قره بدلهي في سنواتها العشرين الأخيرة، وجُمع شعرها بعد موتها في «ديوان مخفي»."
+  en: "Zeb-un-Nissa (15 February 1638 – 26 May 1702) was a Mughal princess, the eldest child of Emperor Aurangzeb and Dilras Banu Begum, and a Persian poet who wrote under the pen name Makhfi. She memorised the Quran as a child, mastered Persian, Arabic and Urdu, patronised scholars and translators and built a great library. Her father imprisoned her at Salimgarh Fort, Delhi, for the last twenty years of her life, and her poems were collected after her death as the Diwan-i-Makhfi."
+  ur: "زیب النساء (15 فروری 1638ء – 26 مئی 1702ء) مغل شہزادی تھیں، شہنشاہ اورنگزیب اور دلراس بانو بیگم کی سب سے بڑی اولاد، اور فارسی شاعرہ جو «مخفی» تخلص سے لکھتی تھیں۔ انھوں نے بچپن میں قرآن حفظ کیا، فارسی، عربی اور اردو پر عبور حاصل کیا، علما اور مترجمین کی سرپرستی کی اور ایک بڑی لائبریری بنائی۔ والد نے انھیں زندگی کے آخری بیس سال دہلی کے سلیم گڑھ قلعے میں قید رکھا، اور ان کا کلام وفات کے بعد «دیوانِ مخفی» میں جمع ہوا۔"
+
+roles: [princess, poet, writer]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1638-02-15"
+  calendar: julian
+  precision: day
+  status: historical
+  note: "The English, Arabic and Urdu articles and Wikidata all give 15 February 1638, at Daulatabad in the Deccan; Daulatabad has no place entity on main, so no born_in edge is written. No Hijri year is set: the Arabic article pairs her life with 1048–1113 AH yet itself notes a 1047 AH birth reading, and neither Hijri year converts cleanly onto the day dates built here."
+  sources: [source/wikipedia-zeb-un-nissa-en, source/wikipedia-zeb-un-nissa-ar, source/wikipedia-zeb-un-nissa-ur, source/wikidata-zeb-un-nissa]
+
+died:
+  edtf: "1702-05-26"
+  calendar: julian
+  precision: day
+  status: debated
+  note: "The English, Arabic and Urdu articles and Wikidata give 26 May 1702, at Delhi, after twenty years of imprisonment at Salimgarh Fort; the English article itself notes that conflicting sources give her death year alternately as 1701 and 1702, so the majority day date is built with the rivalry preserved."
+  sources: [source/wikipedia-zeb-un-nissa-en, source/wikipedia-zeb-un-nissa-ar, source/wikipedia-zeb-un-nissa-ur, source/wikidata-zeb-un-nissa]
+
+relations:
+  - { type: child_of, target: person/aurangzeb-mughal, sources: [source/wikipedia-zeb-un-nissa-en, source/wikipedia-zeb-un-nissa-ar, source/wikipedia-zeb-un-nissa-ur, source/wikidata-zeb-un-nissa] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-zeb-un-nissa-en, source/wikipedia-zeb-un-nissa-ar, source/wikidata-zeb-un-nissa] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The discipleship test set for her is not met. No text read attests
+      a personal initiation, a completed discipleship or membership of
+      a Sufi order for Zeb-un-Nissa herself. What the texts give is
+      inclination, patronage and poetic idiom: her Diwan is saturated
+      with the Sufi language of divine love, a travel account quoted in
+      the English article links her imprisonment to her Sufi
+      sympathies, the Urdu article calls her an arifa, a knower, and a
+      scholarly abstract on her verse says she lived like the Sufis —
+      poetry and sympathy are content, not discipleship, under the
+      founder rulings (the Jahanara standard). For a madhhab, the
+      English article's infobox files Sunni Islam and Wikidata's P140
+      files Sunni Islam; an infobox and structured data are not texts
+      and settle nothing, and no two independent texts name a school
+      for her. Her faith is therefore recorded as unknown, with the
+      Sufi colouring of her life and work stated in full.
+    sources: [source/wikipedia-zeb-un-nissa-en, source/wikipedia-zeb-un-nissa-ur, source/wikidata-zeb-un-nissa]
+
+external_ids: { wikidata: "Q169346" }
+
+sources:
+  - source/wikipedia-zeb-un-nissa-en
+  - source/wikipedia-zeb-un-nissa-ar
+  - source/wikipedia-zeb-un-nissa-ur
+  - source/wikidata-zeb-un-nissa
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381619874 of 23 October 2026), Arabic Wikipedia (revision 76358630 of 28 August 2026), Urdu Wikipedia (revision 9494374 of 14 March 2026) and Wikidata Q169346 (item revision 2563286332 of 1 November 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds this princess, by slug, by name fragment or by QID; person/aurangzeb-mughal and place/delhi exist on main, place/daulatabad does not, so no born_in edge is written. The child_of edge is written here, in the child's record. Her death year is carried as 1702 with the 1701 reading preserved in the death note. The Sufi test was run expressly: no initiation, discipleship or order membership is attested for her in any text read, so no sufi segment is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-170m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

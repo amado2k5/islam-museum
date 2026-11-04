@@ -1,0 +1,28 @@
+id: event/taj-al-din-ijaza-ibn-al-naqib-745
+class: event
+kind: other
+label:
+  ar: "إجازة ابن النقيب لتاج الدين السبكي بالإفتاء والتدريس، نحو ٧٤٥هـ"
+  en: "Ibn al-Naqib licenses Taj al-Din al-Subki to give fatwas and teach, c. 745"
+  ur: "ابن نقیب کی جانب سے تاج الدین سبکی کو افتاء و تدریس کی اجازت، تقریباً 745ھ"
+summary:
+  ar: "أذن شمس الدين ابن النقيب لتاج الدين السبكي بالإفتاء والتدريس قبل أن يكمل العشرين؛ فقد كان عمره ثمانية عشر عاماً حين توفي ابن النقيب {cite:durar-kamina-jil-1993 2/426-427}."
+  en: "Shams al-Din Ibn al-Naqib licensed Taj al-Din al-Subki to issue fatwas and teach before he turned twenty; he was eighteen years old when Ibn al-Naqib died {cite:durar-kamina-jil-1993 2/426-427}."
+  ur: "شمس الدین ابن نقیب نے تاج الدین سبکی کو بیس برس کی عمر سے پہلے افتاء اور تدریس کی اجازت دی؛ ابن نقیب کی وفات کے وقت ان کی عمر اٹھارہ برس تھی {cite:durar-kamina-jil-1993 2/426-427}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1345~", hijri: "0745", calendar: julian, precision: year, status: tradition, derived: true, note: "أذن له ابن النقيب بالإفتاء والتدريس ولم يكمل العشرين؛ كان عمره ثمانية عشر عاماً لما مات ابن النقيب {cite:durar-kamina-jil-1993 2/426-427}؛ التاريخ مقارب والتحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/taj-al-din-al-subki, role: "المأذون له", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/shams-al-din-ibn-al-naqib-al-muqri, role: "المُجيز", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar al-Asqalani, al-Durar al-Kamina (Haidarabad/Jil 1993 print), vol. 2, printed pp. 425-427, entry no. 2547 (harvest scan DurarKamina__drkamth2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-taj-al-din-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

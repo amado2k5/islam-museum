@@ -1,0 +1,29 @@
+id: event/mizzi-ashrafiyya-718
+class: event
+kind: other
+label:
+  ar: "المزي يتولى مشيخة دار الحديث الأشرفية بدمشق، سنة ٧١٨هـ"
+  en: "Al-Mizzi takes the shaykhhood of Dar al-Hadith al-Ashrafiyya, Damascus, 718/1318"
+  ur: "مزی کا دمشق میں دار الحدیث اشرفیہ کی مشیخت سنبھالنا، 718ھ/1318ء"
+summary:
+  ar: "ولي المزي دار الحديث سنة ثمان عشرة وسبعمائة بعد ابن الشريشي {cite:tarikh-islam-dhahabi p. 491}، وكان ابن تيمية هو الذي سعى له في توليتها {cite:tarikh-islam-dhahabi p. 492}؛ ومن ٧١٨/١٣١٩م صار رئيساً لدار الحديث الأشرفية، أحد أعظم مدارس الحديث بدمشق، وهي وقف، واشترط واقفها أن يكون شيخها أشعري العقيدة فكتب بخطه أنه أشعري، ومع ذلك شكك كثيرون في صدقه لصحبته ابن تيمية {cite:encyclopaedia-of-islam-2 vol. 7 p. 240} {cite:tabaqat-shafiiyya-subki j.10 p. 398}."
+  en: "Al-Mizzi took charge of the dar al-hadith in 718/1318 after Ibn al-Shirishi {cite:tarikh-islam-dhahabi p. 491}, and it was Ibn Taymiyya who had worked for his appointment {cite:tarikh-islam-dhahabi p. 492}. From 718/1319 he was head of the Dar al-Hadith al-Ashrafiyya, one of the great hadith academies of Damascus and a waqf; its founder had stipulated the shaykh be Ash'ari in creed, so al-Mizzi wrote in his own hand that he was an Ash'ari — yet many doubted his sincerity because of his companionship with Ibn Taymiyya {cite:encyclopaedia-of-islam-2 vol. 7 p. 240} {cite:tabaqat-shafiiyya-subki j.10 p. 398}."
+  ur: "مزی 718ھ/1318ء میں ابن الشریشی کے بعد دار الحدیث کے شیخ مقرر ہوئے {cite:tarikh-islam-dhahabi p. 491} اور ان کی اس تقرری کے لیے ابن تیمیہ نے کوشش کی تھی {cite:tarikh-islam-dhahabi p. 492}؛ 718ھ/1319ء سے وہ دمشق کی عظیم درسگاہ دار الحدیث اشرفیہ کے سربراہ رہے جو ایک وقف تھا؛ واقف نے شرط رکھا تھا کہ شیخ اشعری عقیدہ ہو، اس لیے مزی نے اپنے ہاتھ سے لکھا کہ وہ اشعری ہیں، لیکن ابن تیمیہ کی صحبت کے سبب بہت سے لوگ ان کی صداقت پر شک کرتے رہے {cite:encyclopaedia-of-islam-2 vol. 7 p. 240} {cite:tabaqat-shafiiyya-subki j.10 p. 398}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1318~", hijri: "0718", calendar: julian, precision: year, status: tradition, derived: true, note: "«ثم ولي دار الحديث سنة ثمان عشرة بعد ابن الشريشي» {cite:tarikh-islam-dhahabi p. 491}؛ عند دائرة المعارف ٧١٨/١٣١٩م {cite:encyclopaedia-of-islam-2 vol. 7 p. 240}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: building/dar-al-hadith-al-ashrafiyya, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "شيخ دار الحديث", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "الساعي في توليته", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/tabaqat-shafiiyya-subki]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam (Dhayl) s.a. 742, printed pp. 491-492 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 7 art. al-Mizzi, printed p. 240; Taj al-Din al-Subki, Tabaqat al-Shafi'iyya al-Kubra j.10 printed p. 398 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mizzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

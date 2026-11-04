@@ -1,0 +1,45 @@
+id: person/zehra-fyzee
+class: person
+label: { ar: "زهرة فيضي", en: "Zehra Fyzee", ur: "زہرہ فیضی" }
+names:
+  - { value: "زهرة فيضي", kind: full }
+  - { value: "Zehra Fyzee", kind: full }
+gender: female
+summary:
+  ar: "كاتبة ومسرحية ومحررة هندية (1866–1940)، كبرى أخوات فيضي الثلاث من عشيرة الطيّبجي في بومباي. كانت من أبرز المساهمات في مجلات النساء الأردية في عصرها — «تهذيب نسوان» و«خاتون» و«عصمت» — ونشرت مقالاتها مجموعةً في «مضامين» ومسرحية سنة 1921 وكتابًا في صحة النساء سنة 1934، وحررت كتابات أختها عطية ورحلة أختها نازلي وكتب شعر والدتها. وانتُخبت سنة 1914 لعضوية اللجنة العاملة لمؤتمر سيدات المسلمين لعموم الهند."
+  en: "Indian writer, playwright and editor (1866–1940), the eldest of the three Fyzee sisters of Bombay's Tyabji clan. She was a leading contributor to the Urdu women's journals of her day — Tehzeeb-e-Niswan, Khatun and Ismat — published her collected articles as Mazamin and a play in 1921 and a book on women's health in 1934, and edited the writings of her sister Atiya, her sister Nazli's travelogue and her mother's poetry books. In 1914 she was elected to the working committee of the All India Muslim Ladies Conference."
+  ur: "ہندوستانی مصنفہ، ڈراما نگار اور مدیرہ (1866ء–1940ء)، ممبئی کے طیب جی خاندان کی تینوں فیضی بہنوں میں سب سے بڑی۔ وہ اپنے دور کے اردو نسائی رسالوں — «تہذیبِ نسواں»، «خاتون» اور «عصمت» — کی نمایاں لکھنے والوں میں تھیں، ان کے مضامین کا مجموعہ «مضامین» اور ایک ڈراما 1921ء میں شائع ہوا اور خواتین کی صحت پر کتاب 1934ء میں آئی، اور انھوں نے اپنی بہن عطیہ کی تحریریں، بہن نازلی کا سفرنامہ اور والدہ کے شعری مجموعے مرتب کیے۔ 1914ء میں وہ آل انڈیا مسلم لیڈیز کانفرنس کی مجلسِ عاملہ کی رکن منتخب ہوئیں۔"
+roles: [writer, editor]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1866"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "The English article and Wikidata give only the year 1866. A bare Gregorian year spans two Hijri years (1282-1283), so no Hijri year is recorded. Her birthplace is not stated in the sources read; she was raised at Mazagaon, Mumbai, which has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-zehra-fyzee-en, source/wikidata-zehra-fyzee]
+died:
+  edtf: "1940-12-23"
+  hijri: "1359"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives her death on 23 December 1940; Wikidata carries the year 1940 at year precision only. The Hijri year is derived by tabular conversion. Her place of death is not stated in the sources read, so no died_in edge is written."
+  sources: [source/wikipedia-zehra-fyzee-en, source/wikidata-zehra-fyzee]
+relations:
+  - { type: sibling_of, target: person/atiya-fyzee, sources: [source/wikipedia-zehra-fyzee-en, source/wikidata-zehra-fyzee] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article names no religion for Zehra herself, and Wikidata carries no religion value. The family's identity is attested in the articles on her sister Atiya — born into an Ismaili Sulaimani Bohra family related to the Tyabjis — but that is family background carried by one source family, and family background never counts as a person's own attestation. Her own documented public life ran through Muslim women's institutions, presiding over a women's gathering connected to the Muhammadan Educational Conference in 1905 and sitting on the working committee of the All India Muslim Ladies Conference from 1914, which names no branch or school for her personally. The value stays unknown, unflagged, with the family reading preserved here — the same configuration as her sister Atiya's record."
+    sources: [source/wikipedia-zehra-fyzee-en, source/wikipedia-atiya-fyzee-en, source/wikidata-zehra-fyzee]
+external_ids: { wikidata: "Q28032887" }
+sources: [source/wikipedia-zehra-fyzee-en, source/wikidata-zehra-fyzee, source/hasan-fyzee-sisters-2020]
+provenance:
+  layer: own-research
+  source: "Founder build ruling of 1 Nov 2026 (rulings packet #3, Part 3): build Zehra Fyzee (1866–1940) — the packet's research-ready row; the dates are confirmed as given there. Researched from English Wikipedia 'Zehra Fyzee' (revision 1363731626 of 12 July 2026), Wikidata Q28032887 (item revision 2514086559 of 5 July 2026) and Md. Mahmudul Hasan, 'Atiya: The most iconoclastic of the Fyzee sisters' (Literature at Portsmouth, 1 July 2020), all read in full on 1 Nov 2026; the Wikipedia revision and the Wikidata item revision were fetched via the MediaWiki API and re-asserted identical on a second live query. Existence was checked by name fragments (fyzee, tyabji) and by the QID route across data/person/: her sister Atiya Fyzee and her brother-in-law Samuel Fyzee-Rahamin have records; Zehra had none and no draft stub. The sibling edge is written here, in the elder sister's record, under the write-once rule; Atiya's record carries no sibling edge, so nothing is duplicated. Her parents and her sister Nazli have no museum records, and her great-uncle Badruddin Tyabji's record is not linked, no predicate covering a great-uncle being written from this side in the lane's practice — the kinship is carried in prose. One brief claim is not carried: nothing in the sources read supports the description of her as an editor of Nazir Ahmad's novels; the sources document her editing of her two sisters' and her mother's writings."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "rulings-builds-r2"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

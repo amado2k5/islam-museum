@@ -1,0 +1,46 @@
+id: person/mehmed-sevket-eygi
+class: person
+label: { ar: "محمد شوكت أيغي", en: "Mehmed Şevket Eygi", ur: "محمد شوکت ایگی" }
+names:
+  - { value: "Mehmed Şevket Eygi", kind: full }
+  - { value: "Mehmet Şevket Eygi", kind: alternate }
+gender: male
+summary:
+  ar: "محمد شوكت أيغي (7 فبراير 1933 – 12 يوليو 2019) صحفي وكاتب عمود وناشر تركي؛ أخرج مجلة «إسلام» (1957) ثم صحيفة «بوغون» اليومية (1966) التي ارتبطت مقالاته فيها بأحداث «الأحد الدامي» سنة 1969، وعاش سنوات في المنفى الاختياري، ثم كتب عموده في «مللي غازته» من 1991 حتى وفاته. وثّقت الأبحاث الأكاديمية وتقارير رسمية ألمانية نشره نظريات مؤامرة معادية للسامية وإنكاره للهولوكوست، كما عُرف بدفاعه المعلن عن أهل السنة والجماعة."
+  en: "Mehmed Şevket Eygi (7 February 1933 – 12 July 2019) was a Turkish journalist, columnist and publisher. He brought out the magazine İslam in 1957 and the daily Bugün in 1966, whose pages carried his February 1969 call that preceded the 'Bloody Sunday' attack; after years abroad he wrote his column in Millî Gazete from 1991 until his death. Academic studies and German official reports document his propagation of antisemitic conspiracy theories and his Holocaust denial; he was also known for his professed defence of the Ahl al-Sunnah wa'l-Jama'a."
+  ur: "محمد شوکت ایگی (7 فروری 1933ء – 12 جولائی 2019ء) ترک صحافی، کالم نگار اور ناشر تھے؛ انھوں نے رسالہ «اسلام» (1957ء) اور پھر روزنامہ «بوگون» (1966ء) نکالا، جس میں ان کی فروری 1969ء کی تحریر «خونی اتوار» کے واقعے سے پہلے آئی؛ کچھ برس بیرونِ ملک گزارنے کے بعد وہ 1991ء سے وفات تک «مللی گازیتہ» میں کالم لکھتے رہے۔ علمی تحقیقات اور جرمن سرکاری رپورٹوں نے ان کی یہود مخالف سازشی نظریات کی اشاعت اور ہولوکاسٹ سے انکار کو دستاویزی شکل دی ہے؛ وہ اہلِ سنت والجماعت کے اپنے اعلانیہ دفاع کے لیے بھی جانے جاتے تھے۔"
+roles: [writer, activist]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1933-02-07"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 7 February 1933 at Ereğli in Zonguldak province, his family's only child; the English and Turkish articles agree. The Hijri year is a tabular derived conversion. Ereğli has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-mehmed-sevket-eygi-en, source/wikipedia-mehmed-sevket-eygi-tr]
+died:
+  edtf: "2019-07-12"
+  hijri: "1440"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 12 July 2019 in the Istanbul hospital where he was treated for heart disease; buried in Merkezefendi Cemetery after funeral prayers at Fatih Mosque on 13 July 2019. The Hijri year is a tabular derived conversion."
+  sources: [source/wikipedia-mehmed-sevket-eygi-en, source/wikipedia-mehmed-sevket-eygi-tr]
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-mehmed-sevket-eygi-en, source/wikipedia-mehmed-sevket-eygi-tr] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Settled on two independent texts attesting the affiliation for the man himself. First, the Zeytinburnu Municipality memorial volume, written by people who knew him: 'Mehmed Şevket Eygi, dinde reformu, yeniliği, değişimi, light ve ılımlı İslam'ı kabul etmiyor. Fırka-ı Nâciye olan Ehli Sünnet vel Cemaati tutuyor, destekliyor' — he rejects reform and 'light' Islam, and holds to and supports the Ahl al-Sunnah wa'l-Jama'a, the saved sect. Second, his own professed defence in his own book title, Ehl-i Sünnet'i Savunuyorum ('I Defend the Ahl al-Sunnah'), listed among his works in both the English and the Turkish article texts. No text read names a legal school for him, so no madhhab compound is recorded; that he wrote and worshipped inside Turkey's Hanafi-majority tradition is context, not attestation."
+    sources: [source/zeytinburnu-mehmed-sevket-eygi, source/wikipedia-mehmed-sevket-eygi-en, source/wikipedia-mehmed-sevket-eygi-tr]
+sources: [source/wikipedia-mehmed-sevket-eygi-en, source/wikipedia-mehmed-sevket-eygi-tr, source/zeytinburnu-mehmed-sevket-eygi]
+provenance:
+  layer: own-research
+  source: "Built in wave 186 under the founder's rulings review of 3 November 2026, which resolved the identity 'Mehmed Şevket Eygi (1933–2019), Turkish journalist and publisher (Bugün, Milli Gazete)'; the texts confirm it exactly. Read in full on 3 November 2026: the English and Turkish Wikipedia articles and the Zeytinburnu Belediyesi memorial volume (PDF); the German article was read in search extracts and agrees. Existence was checked by name fragments (eygi, sevket, şevket) across data/person/ and data/source/; no prior record, stub or source existed. The reading tool does not expose numeric Wikipedia revision ids, so none is recorded; the articles were fetched twice with identical text. No Wikidata item is asserted: the item was not verified through a readable page in this build, so external_ids carries none."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-186-writer-b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

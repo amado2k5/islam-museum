@@ -1,23 +1,58 @@
 id: person/ibn-al-salah
 class: person
-label: { ar: "ابن الصلاح", en: "Ibn al-Salah" }
+label: { ar: "ابن الصلاح", en: "Ibn al-Salah", ur: "ابن الصلاح" }
 names:
   - { kind: kunya, lang: ar, value: "أبو عمرو" }
   - { kind: alternate, lang: ar, value: "ابن الصلاح" }
-born: { edtf: "1181", hijri: "0577", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة سبع وسبعين وخمسمائة {cite:shadharat-dhahab p. 229}." }
-died: { edtf: "1245-09~", hijri: "0643-04-25~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الأربعاء الخامس والعشرون من ربيع الآخر بدمشق ودفن بمقابر الصوفية {cite:shadharat-dhahab p. 230}." }
+  - { kind: full, lang: ar, value: "تقي الدين عثمان بن عبد الرحمن بن عثمان بن موسى الكردي الشهرزوري" }
+born: { edtf: "1181~", hijri: "0577", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة سبع وسبعين وخمسمائة {cite:shadharat-dhahab p. 229} {cite:tarikh-islam-dhahabi p. 185}؛ بقرية شرخان في نواحي إربل قرب شهرزور {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+died: { edtf: "1245-09~", hijri: "0643-04-25~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي سحر يوم الأربعاء الخامس والعشرين من ربيع الآخر سنة ٦٤٣هـ بدمشق ودفن بمقابر الصوفية وله ست وستون سنة {cite:shadharat-dhahab p. 230} {cite:tarikh-islam-dhahabi p. 188}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi] }
 gender: male
 roles: [scholar, muhaddith]
 traditions: [sunni]
 summary:
-  ar: "الإمام الحافظ أبو عمرو بن الصلاح؛ أملى مجلساً سماه «الأحاديث الكلية» جمع فيه الأحاديث الجوامع التي يُقال إن مدار الدين عليها، فاشتمل على ستة وعشرين حديثاً أخذها النووي وبنى عليها «الأربعين». وهو الكردي الشهرزوري الموصلي الشافعي؛ تفقه بشهرزور على والده ثم أعاد على ابن يونس بالموصل وسافر إلى خراسان فحصل علم الحديث هناك، وتولى المدرسة النظامية بالقدس ثم درس بالرواحية ودار حديث الأشرف ومدرسة ست الشام بدمشق؛ وإذا أطلق «الشيخ» في علم الحديث فالمراد به كما أشار العراقي في ألفيته؛ من تصانيفه علوم الحديث وأدب المفتي والمستفتي وطبقات الشافعية الذي اختصره النووي {cite:shadharat-dhahab p. 229-230}."
+  ar: "الإمام الحافظ أبو عمرو بن الصلاح؛ أملى مجلساً سماه «الأحاديث الكلية» جمع فيه الأحاديث الجوامع التي يُقال إن مدار الدين عليها، فاشتمل على ستة وعشرين حديثاً أخذها النووي وبنى عليها «الأربعين». وهو الكردي الشهرزوري الموصلي الشافعي؛ تفقه بشهرزور على والده ثم أعاد على ابن يونس بالموصل وسافر إلى خراسان فحصل علم الحديث هناك، وتولى المدرسة الصلاحية بالقدس ثم درس بالرواحية ودار حديث الأشرف ومدرسة ست الشام بدمشق؛ وإذا أطلق «الشيخ» في علم الحديث فالمراد به كما أشار العراقي في ألفيته؛ من تصانيفه علوم الحديث وأدب المفتي والمستفتي وطبقات الشافعية الذي اختصره النووي {cite:shadharat-dhahab p. 229-230} {cite:tarikh-islam-dhahabi p. 185-186}."
   en: "The hadith master Abu Amr ibn al-Salah; author of the dictation 'al-Ahadith al-Kulliyya', twenty-six comprehensive hadiths on which al-Nawawi built his 'Arba'un'."
+  ur: "حافظِ حدیث ابو عمرو ابن الصلاح؛ «الأحاديث الكلية» کی املاء کے مصنف، چھبیس جامع احادیث جن پر نووی نے «الأربعین» قائم کی؛ شہرزور، موصل، خراسان، قدس اور دمشق کے سفر کے بعد دار الحدیث اشرفیہ اور مدرسہ ست الشام کے شیخ {cite:shadharat-dhahab p. 229-230} {cite:tarikh-islam-dhahabi p. 185-186}۔"
 wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
 relations:
+  - { type: born_in, target: place/shahrazur, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: child_of, target: person/salah-al-din-al-nasri, sources: [source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/salah-al-din-al-nasri, note: "تفقه على والده بشهرزور {cite:tarikh-islam-dhahabi p. 185}", sources: [source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/al-imad-ibn-yunus, note: "ولي الإعادة عنده بالموصل {cite:tarikh-islam-dhahabi p. 185}", sources: [source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/mansur-al-furawi, note: "سمع منه بنيسابور {cite:tarikh-islam-dhahabi p. 185}", sources: [source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/ibn-al-samani-abd-al-rahim, note: "سمع منه بمرو {cite:tarikh-islam-dhahabi p. 186}", sources: [source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/ibn-qudama-al-maqdisi, note: "سمع من الموفق شيخ الحنابلة لما دخل الشام {cite:tarikh-islam-dhahabi p. 186}", sources: [source/tarikh-islam-dhahabi] }
   - { type: authored, target: work/ahadith-kulliyya-ibn-al-salah, sources: [source/ibn-rajab-jami-ulum-hikam] }
-provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), author's introduction p. 26", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-1" }
+  - { type: authored, target: work/muqaddimat-ibn-al-salah, note: "علوم الحديث المعروف بمقدمة ابن الصلاح {cite:shadharat-dhahab p. 230} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/adab-al-mufti-wal-mustafti, note: "من تصانيفه {cite:shadharat-dhahab p. 230}", sources: [source/shadharat-dhahab] }
+  - { type: authored, target: work/tabaqat-al-fuqaha-al-shafiiyya, note: "طبقات الشافعية التي اختصرها النووي {cite:shadharat-dhahab p. 230}", sources: [source/shadharat-dhahab] }
+  - { type: authored, target: work/siyanat-sahih-muslim, note: "صيانة صحيح مسلم من تصانيفه {cite:shadharat-dhahab p. 230}", sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-al-salah-born-577, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-al-salah-shahrazur-mosul-590, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-al-salah-rihla-601, sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/ibn-al-salah-khurasan-605, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-al-salah-sham-617, sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/ibn-al-salah-quds-618, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-al-salah-rawahiyya-619, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-al-salah-ashrafiyya-630, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-al-salah-khallikan-632, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-salah-death-643, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 643, printed pp. 184-188 (harvest OCR); Shadharat al-Dhahab s.a. 643, printed pp. 229-230 (harvest OCR); EI2 vol. 3 art. Ibn al-Salah (J. Robson), printed p. 959; Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), author's introduction p. 26"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-salah-1
 external_ids: { wikidata: "Q4120436" }
-sources: [source/ibn-rajab-jami-ulum-hikam, source/shadharat-dhahab, source/manhaj-tawthiq-al-sunna-azhar]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); only what this book prints — dates and nisba details await a rijal source (needs_source born, died)" }
+sources: [source/ibn-rajab-jami-ulum-hikam, source/shadharat-dhahab, source/manhaj-tawthiq-al-sunna-azhar, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/ibn-rajab-jami-ulum-hikam, source/shadharat-dhahab, source/manhaj-tawthiq-al-sunna-azhar]

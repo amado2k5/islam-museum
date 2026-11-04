@@ -1,0 +1,64 @@
+id: person/ulubatli-hasan
+class: person
+
+label: { ar: "أولوباطلي حسن", en: "Ulubatlı Hasan", ur: "اولوباطلی حسن" }
+
+names:
+  - { value: "Ulubatlı Hasan", kind: full }
+  - { value: "الوباطلى حسن", kind: full }
+  - { value: "Baba Hasan Ağa", kind: alternate }
+  - { value: "Baba Hasan-ı Alemî", kind: alternate }
+  - { value: "Hasan of Ulubat", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أولوباطلي حسن (توفي 29 مايو 1453)، حامل راية السلطان محمد الثاني الذي رفع أول علم عثماني على أسوار القسطنطينية يوم الفتح فقُتل هناك. ظلّت واقعيته موضع جدل طويل — إذ رأى بعض المؤرخين أن قصته إضافة متأخرة إلى سيرة سفرانتزيس — حتى نشر المؤرخ حاقان يلماز وثائق جديدة: وقفية مؤرخة 828هـ/1425 تصفه بأنه «ديكُ علم الإسلام»، وقبره المكتشف بإسطنبول، ومنمنمة معاصرة (1460). وخلصت أبحاثه إلى أنه لم يكن فتى في الخامسة والعشرين كما تصوّره الرواية الشعبية، بل سكبانباشي مجرَّب مولود نحو 1390."
+  en: "Ulubatlı Hasan (died 29 May 1453), Sultan Mehmed II's standard-bearer, who raised the first Ottoman banner on the walls of Constantinople on the day of the conquest and was killed there. His very existence was long debated — some historians held his story a later expansion of Sphrantzes' chronicle — until the historian Hakan Yılmaz published new documents: a waqf deed of 828/1425 styling him 'planter of the banner of Islam', his discovered grave in Istanbul, and a contemporary miniature of 1460. Yılmaz's research concludes he was no twenty-five-year-old youth, as the popular account imagines, but an experienced sekbanbaşı born about 1390."
+  ur: "اولوباطلی حسن (وفات 29 مئی 1453ء)، سلطان محمد ثانی کے علم بردار، جنھوں نے فتح کے روز قسطنطنیہ کی فصیلوں پر پہلا عثمانی پرچم لہرایا اور وہیں شہید ہوئے۔ ان کے وجود پر طویل عرصہ بحث رہی — بعض مؤرخین ان کی داستان کو سفرانتزس کی تاریخ میں بعد کا اضافہ سمجھتے تھے — حتیٰ کہ مؤرخ حاقان یلماز نے نئی دستاویزات شائع کیں: 828ھ/1425ء کا ایک وقف نامہ جو انھیں «اسلام کے علم کا نصب کرنے والا» کہتا ہے، استنبول میں دریافت شدہ ان کی قبر، اور 1460ء کی ایک معاصر منمنمہ۔ یلماز کی تحقیق کے مطابق وہ عوامی روایت کے پچیس سالہ نوجوان نہیں بلکہ تقریباً 1390ء میں پیدا ہونے والے تجربہ کار سکبان باشی تھے۔"
+
+roles: [military]
+regions: [anatolia-balkans]
+wings: [people]
+
+born:
+  edtf: "1428~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The traditional account makes him twenty-five years old at the conquest, hence born about 1428 — the value in the English article, in Wikidata and in the founder's queue. The archival research of Hakan Yılmaz, on which both articles otherwise rest, displaces that image as a popular fiction: on his findings Hasan was the son of an Abdullah, born about 1390, an official palace standard-bearer since the reigns of Çelebi Mehmed and Murad II, and holder of a waqf deed drawn up for him by Molla Fenari in 828/1425 styling him 'planter of the banner of Islam'. The two datings cannot both stand; the traditional one is followed, with status debated, and Yılmaz's is preserved here. No Hijri year is recorded: about 1428 spans 831-832 AH and about 1390 spans 792-793 AH, and no source pairs a single year. He was born at Ulubat near Karacabey in Bursa province; Ulubat has no place entity in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-ulubatli-hasan-en, source/wikipedia-ulubatli-hasan-tr, source/wikidata-ulubatli-hasan]
+
+died:
+  edtf: "1453-05-29"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "The tradition carried by the Chronicon Maius ascribed to George Sphrantzes has him climb the Topkapı (St Romanos) tower on the morning of 29 May 1453, plant the banner, and die defending it until his surviving companions reached him. The date itself is shared by all accounts, but the man's historicity was long debated: some Greek and Romanian historians argued that the Chronicon Maius was expanded by Makarios Melissenos and that Hasan is absent from Sphrantzes' original short chronicle. Yılmaz answers from the long chronicle's own colophon — Sphrantzes' statement that he expanded it with his own hand on 29 March 1478 — and adds the documentary evidence: the 1425 waqf deed, the grave discovered in the Fatih district, and a miniature of 1460, drawn from the accounts of two men who took part in the conquest, showing an elderly bearded sekbanbaşı climbing the Romanos tower. The Turkish article concludes that on this new evidence he was a real person. The death carries debated status because the man himself was doubted, and both sides of the debate are preserved here."
+  sources: [source/wikipedia-ulubatli-hasan-en, source/wikipedia-ulubatli-hasan-tr, source/wikidata-ulubatli-hasan]
+
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-ulubatli-hasan-en, source/wikipedia-ulubatli-hasan-tr, source/wikidata-ulubatli-hasan] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-ulubatli-hasan-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a branch or a school for him. Wikidata's religion value is Islam alone, which names no school and, being generic, carries no flag under the lane rule. His own waqf deed of 828/1425 styles him 'planter of the banner of Islam' (Nasibu livâ'il-İslam) — a contemporary document of the man's office and deed as the sultan's standard-bearer, recorded here as his documented identity; the morning prayer before the final assault is the army's practice, not a personal attestation. Nothing further is attested, and nothing is recorded."
+    sources: [source/wikipedia-ulubatli-hasan-tr, source/wikipedia-ulubatli-hasan-en, source/wikidata-ulubatli-hasan]
+
+external_ids: { wikidata: "Q3622985" }
+
+sources:
+  - source/wikipedia-ulubatli-hasan-en
+  - source/wikipedia-ulubatli-hasan-tr
+  - source/wikidata-ulubatli-hasan
+
+provenance:
+  layer: own-research
+  source: "English and Turkish Wikipedia articles on Ulubatli Hasan and Wikidata Q3622985, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query). Both articles rest chiefly on Hakan Yılmaz's studies (Toplumsal Tarih 2019; the 2019 Fatih symposium proceedings, 2021; Türk Dünyası Tarih Kültür Dergisi 2024) and, for the sceptical side, on Erhan Afyoncu and Feridun Emecen. Istanbul has a place entity, so the died_in and buried_in edges are written; Ulubat, his birthplace, has none and is note-only. He was built, with debated date statuses, rather than stopped: two encyclopedia articles and a Wikidata item exist, and the recent documentary literature argues his reality with named documents, so a minimal honest record carrying the debate in full meets the lane standard."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "century-additions-153G"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

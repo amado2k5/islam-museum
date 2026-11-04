@@ -15,10 +15,11 @@ relations:
   - { type: occurred_at, target: place/nablus, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: occurred_at, target: place/jerusalem, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: occurred_at, target: place/gaza, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-92
-sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
+sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

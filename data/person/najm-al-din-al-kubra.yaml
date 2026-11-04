@@ -3,11 +3,11 @@ class: person
 label:
   ar: "نجم الدين الكبرى"
   en: "Najm al-Din al-Kubra"
-roles: [scholar, writer]
+roles: [sufi, muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لنجم الدين أبي الجناب أحمد بن عمر الخيوقي المعروف بالكبرى، شيخ الخوارزمية ومؤسس الطريقة الكبروية، قتل في مقاومة المغول بخوارزم سنة ١٢٢١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Najm al-Din Abu al-Jannab Ahmad ibn Umar al-Khiwaqi, 'al-Kubra', the Khwarezmian shaykh and founder of the Kubrawiyya order who died resisting the Mongols in 1221; the biographical entry is not yet checked on the page."
+  ar: "نجم الدين الكبرى أحمد بن عمر الخيوقي، صوفي محدث وشيخ خوارزم صاحب تفسير في 12 مجلدة، استشهد في فتنة التتار."
+  en: "Najm al-Din al-Kubra (1145–1221), Sufi shaykh of Khwarazm, martyred in the Mongol invasion."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
@@ -17,10 +17,10 @@ external_ids:
   wikidata: Q1797377
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0016
+  source: "Ibn al-'Imad, Shadharat al-dhahab - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.7 p.140)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch7
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

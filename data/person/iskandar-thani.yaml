@@ -1,0 +1,73 @@
+id: person/iskandar-thani
+class: person
+
+label: { ar: "إسكندر الثاني", en: "Iskandar Thani", ur: "اسکندر ثانی" }
+
+names:
+  - { value: "Iskandar Thani Alauddin Mughayat Syah", kind: regnal }
+  - { value: "Raja Bungsu", kind: alternate }
+  - { value: "Raja Mughal", kind: alternate }
+  - { value: "Sultan Husein Syah", kind: alternate }
+  - { value: "Iskandar Tsani", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "إسكندر الثاني علاء الدين مغايات شاه (نحو 1610 – 15 شباط 1641)، ثالث عشر سلاطين آتشيه. ابن سلطان بهانغ أحمد شاه الثاني، جُلب طفلًا إلى آتشيه بعد فتحها بهانغ سنة 1617، وتزوّج ابنة إسكندر مودا، بوتري سري علم — السلطانة تاج العالم لاحقًا — وخلف حماه سنة 1636. كان حاكمًا قويًا مركِّزًا للسلطة، وبلاطه مركزًا للعلم الشرعي برعايته نور الدين الرانيري منذ 1637، ومات سنة 1641 فخلَفته أرملته."
+  en: "Iskandar Thani Alauddin Mughayat Syah (c. 1610 – 15 February 1641) was the thirteenth sultan of Aceh. A son of Sultan Ahmad Shah II of Pahang, he was brought as a child to Aceh after its conquest of Pahang in 1617, married Iskandar Muda's daughter Putri Sri Alam — the later Sultana Taj al-Alam — and succeeded his father-in-law in 1636. A strong, centralising ruler whose court was a centre of Islamic learning under his patronage of Nuruddin ar-Raniri from 1637, he died in 1641 and was succeeded by his widow."
+  ur: "اسکندر ثانی علاء الدین مغایت شاہ (تقریباً 1610ء – 15 فروری 1641ء) آچے کے تیرہویں سلطان تھے۔ پہانگ کے سلطان احمد شاہ دوم کے بیٹے، 1617ء میں پہانگ کی فتح کے بعد بچپن میں آچے لائے گئے، اسکندر مودا کی بیٹی پوتری سری عالم — بعد کی سلطانہ تاج العالم — سے شادی کی اور 1636ء میں سسر کے جانشین ہوئے۔ طاقتور اور مرکزیت پسند حکمران، جن کا دربار 1637ء سے نور الدین الرانیری کی سرپرستی میں اسلامی علم کا مرکز رہا؛ 1641ء میں وفات پر ان کی بیوہ جانشین ہوئیں۔"
+
+roles: [sultan]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1610"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born in Pahang. The English and Arabic articles and the Wikidata item give 1610; the Indonesian article treats the year as unsettled — about 1610-1612, commonly placed at 1611 (Linehan 1611, Djajadiningrat about 1610, Lombard about 1612) — so 1610 is built as debated with all readings preserved here. The year 1610 spans 1018-1019 AH, so no single Hijri year is built. No place entity for Pahang exists on main, so no born_in edge is written."
+  sources: [source/wikipedia-iskandar-thani-en, source/wikipedia-iskandar-thani-id, source/wikipedia-iskandar-thani-ar, source/wikidata-iskandar-thani]
+
+died:
+  edtf: "1641-02-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  hijri: "1050"
+  note: "Died at Banda Aceh; the English, Indonesian and Arabic articles and the Wikidata item all give 15 February 1641, which falls in 1050 AH (conversion derived). No place entity for Banda Aceh is used here, so no died_in edge is written."
+  sources: [source/wikipedia-iskandar-thani-en, source/wikipedia-iskandar-thani-id, source/wikipedia-iskandar-thani-ar, source/wikidata-iskandar-thani]
+
+relations:
+  - { type: successor_of, target: person/iskandar-muda, sources: [source/wikipedia-iskandar-thani-en, source/wikipedia-iskandar-thani-id, source/wikipedia-iskandar-thani-ar] }
+  - { type: spouse_of, target: person/taj-al-alam, sources: [source/wikipedia-iskandar-thani-en, source/wikipedia-iskandar-thani-id, source/wikipedia-taj-al-alam-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself.
+      The articles describe a court known as a centre of Islamic
+      learning, his patronage of Nuruddin ar-Raniri, and — in the
+      Indonesian article — his strengthening of Islamic law, replacing
+      ordeal proof with witness procedure; the Indonesian article
+      calls ar-Raniri a Shafi'i scholar, a school named for the
+      court scholar, not for the sultan. Court Islam, patronage and
+      legal policy settle no school under the founder's rules, so
+      his faith is recorded as unknown with the record stated.
+    sources: [source/wikipedia-iskandar-thani-en, source/wikipedia-iskandar-thani-id, source/wikipedia-iskandar-thani-ar]
+
+external_ids: { wikidata: "Q4264509" }
+
+sources:
+  - source/wikipedia-iskandar-thani-en
+  - source/wikipedia-iskandar-thani-id
+  - source/wikipedia-iskandar-thani-ar
+  - source/wikidata-iskandar-thani
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Iskandar Thani' (revision 1358758011 of 10 June 2026), Indonesian Wikipedia 'Iskandar Tsani dari Aceh' (revision 30038704 of 6 October 2026), Arabic Wikipedia 'إسكندر شاه الثاني' (revision 69891598 of 18 March 2025) and Wikidata Q4264509 (item revision 2187265972 of 23 June 2024, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Indonesian and Arabic articles agreeing. Existence checked against origin/main before building, by slug variants (iskandar-thani, iskandar-tsani, iskandar-shah-ii) and by QID — no record holds this man. Queue check: the queue's years 1610-1641 are followed at the precision in the born and died notes (birth year debated in the Indonesian article). No child_of edge is written: his father Ahmad Shah II of Pahang has no record on origin/main. The spouse edge to Taj al-Alam is written here, in the elder spouse's record (born c. 1610 against her c. 1612); her child_of and successor edges are written in her own record in this batch."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-178m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

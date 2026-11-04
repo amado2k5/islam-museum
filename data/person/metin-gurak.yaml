@@ -1,0 +1,44 @@
+id: person/metin-gurak
+class: person
+label: { ar: "متين غوراك", en: "Metin Gürak", ur: "متین گوراک" }
+names:
+  - { value: "Metin Gürak", kind: full }
+gender: male
+summary:
+  ar: "متين غوراك (وُلد في 20 آب 1960 في كيزيلتبه بماردين) قائد عسكري تركي شغل رئاسة الأركان العامة الحادية والثلاثين من آب 2023 إلى آب 2025. ضابط مدفعية وطيار بري من أسرة تركمانية هاجرت من الموصل؛ قاد الجيش الثاني (2020–2023) وكان قبلها نائبًا لرئيس الأركان العامة."
+  en: "Metin Gürak (born 20 August 1960 in Kızıltepe, Mardin) is a Turkish general who served as the 31st Chief of the General Staff from August 2023 to August 2025. An artillery officer and army aviator of Turkmen family origin, he commanded the Second Army (2020–2023) and had earlier served as deputy chief of the General Staff."
+  ur: "متین گوراک (پیدائش 20 اگست 1960، قزل تپہ، ماردین) ترک جنرل ہیں جو اگست 2023 سے اگست 2025 تک جنرل اسٹاف کے 31ویں سربراہ رہے۔ وہ توپ خانے کے افسر اور بری ہوا باز ہیں، دوسری فوج کے کمانڈر (2020–2023) رہے۔"
+roles: [general]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1960-08-20"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 20 August 1960 in Kızıltepe, Mardin (all three articles and the Wikidata item agree). Kızıltepe has no place entity in the museum, so no born_in relation is written. The hijri year 1380 is a tabular derived conversion of the Gregorian date (derived: true)."
+  sources: [source/wikipedia-metin-gurak-en, source/wikipedia-metin-gurak-tr, source/wikipedia-metin-gurak-ar, source/wikidata-metin-gurak]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a faith for Metin Gürak himself. The English, Turkish and
+      Arabic articles are silent on his religion, and his Wikidata item carries no
+      religion statement. His family's Turkmen origin in Mosul is ancestry, not
+      attestation, and no text names a school or order for the man himself. The
+      value is therefore unknown.
+    sources: [source/wikipedia-metin-gurak-en, source/wikipedia-metin-gurak-tr, source/wikipedia-metin-gurak-ar, source/wikidata-metin-gurak]
+external_ids: { wikidata: "Q61077277" }
+sources:
+  - source/wikipedia-metin-gurak-en
+  - source/wikipedia-metin-gurak-tr
+  - source/wikipedia-metin-gurak-ar
+  - source/wikidata-metin-gurak
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Metin Gürak' revision 1378413865 of 4 October 2026; Turkish Wikipedia article 'Metin Gürak' revision 38308373 of 22 October 2026; Arabic Wikipedia article 'متين غوراك' revision 76080765 of 3 August 2026; Wikidata item Q61077277 revision 2527139010 of 4 August 2026 - each fetched live in-session on 2 November 2026 via the MediaWiki API, the QID grounded in the articles' own page properties, and every revision re-asserted identical on a second query. Correction to the brief's present-tense gloss: he is a former chief - all three articles date his tenure as the 31st chief of the General Staff from August 2023 to August 2025. No record or draft stub for him existed on origin/main when this record was built (checked by name fragments and by QID against origin/main on 2 November 2026)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-182o1"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

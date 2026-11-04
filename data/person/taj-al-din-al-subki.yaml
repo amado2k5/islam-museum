@@ -3,23 +3,49 @@ class: person
 label:
   ar: "تاج الدين السبكي"
   en: "Taj al-Din al-Subki"
+  ur: "تاج الدین سبکی"
+names:
+  - { value: "عبد الوهاب بن علي بن عبد الكافي بن علي بن تمام الأنصاري الخزرجي السبكي الشافعي", kind: full }
+  - { value: "تاج الدين أبو النصر", kind: kunya }
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لتاج الدين عبد الوهاب السبكي، فقيه القاهرة ومؤرخها صاحب «طبقات الشافعية الكبرى» و«جمع الجوامع»، توفي سنة ١٣٧٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Taj al-Din Abd al-Wahhab al-Subki, the Cairene jurist and historian author of Tabaqat al-Shafi'iyya and Jam' al-Jawami', d. 1370; the biographical entry is not yet checked on the page."
+  ar: "قاضي القضاة تاج الدين عبد الوهاب بن تقي الدين السبكي (٧٢٧–٧٧١هـ/١٣٢٧–١٣٧٠م)، فقيه شافعي وأصولي ومحدّث ومؤرخ؛ ولد بالقاهرة وقدم دمشق مع أبيه سنة ٧٣٩هـ فقرأ على المزي ولازم الذهبي وتخرج بابن رافع، وولي الأشرفية وخطابة الجامع وتوقيع الدست ثم قضاء دمشق في حياة أبيه، فامتُحن وعُزل وحُبس وأُعيد مراراً حتى انتهت إليه رياسة الشام، ومات بدمشق؛ من كتبه «طبقات الشافعية» الكبرى والوسطى والصغرى و«جمع الجوامع» و«الأشباه والنظائر» {cite:durar-kamina-jil-1993 2/425-427} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
+  en: "Qadi al-Qudat Taj al-Din Abd al-Wahhab ibn Taqi al-Din al-Subki (727–771/1327–1370), Shafi'i jurist, legal theorist, muhaddith and historian; born in Cairo, he moved to Damascus with his father in 739, read with al-Mizzi, attended al-Dhahabi and took his hadith diploma with Ibn Raf'a, then held the Ashrafiyya, the mosque preachership, the tawqi' al-dast and finally the judgeship of Damascus in his father's lifetime; he was tried, dismissed, imprisoned and restored several times until the headship of Syria was his, and died in Damascus. His works include the three Tabaqat al-Shafi'iyya, Jam' al-Jawami' and al-Ashbah wa-l-Naza'ir {cite:durar-kamina-jil-1993 2/425-427} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
+  ur: "قاضی القضاة تاج الدین عبد الوہاب بن تقی الدین سبکی (727–771ھ/1327–1370ء)، شافعی فقیہ، اصولی، محدث اور مؤرخ؛ قاہرہ میں پیدا ہوئے، 739ھ میں والد کے ساتھ دمشق آئے، مزی سے پڑھا، ذہبی کی صحبت میں رہے اور ابن رافع سے تخرج کیا؛ اشرفیہ، جامع کی خطابت، توقیع دست اور پھر والد کی حیات میں دمشق کا قضاء ملا؛ کئی بار آزمائے گئے، معزول اور قید ہوئے اور بحال ہوئے یہاں تک کہ شام کی ریاست ان تک پہنچی، اور دمشق میں فوت ہوئے۔ تصانیف میں «طبقات الشافعیہ» کی تینوں اصناف، «جمع الجوامع» اور «الاشباہ والنظائر» ہیں {cite:durar-kamina-jil-1993 2/425-427} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}۔"
 wings: [people]
 regions: [egypt-nile, levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
+born: { edtf: "1327~", hijri: "0727", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالقاهرة سنة ٧٢٧هـ أو ٧٢٨هـ أو ٧٢٩هـ/١٣٢٧–١٣٢٩م {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}؛ وفي معجم الذهبي ٧٢٨هـ {cite:durar-kamina-jil-1993 2/425}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+died: { edtf: "1370-07-02~", hijri: "0771-12-07", calendar: julian, precision: day, status: historical, derived: true, note: "مات بدمشق ليلة الثلاثاء سابع ذي الحجة سنة ٧٧١هـ {cite:durar-kamina-jil-1993 2/426-427} = ٧ ذي الحجة ٧٧١هـ/٢ يوليو ١٣٧٠م {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/taqi-al-din-al-subki, role: "والده", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/jamal-al-din-al-mizzi, sources: [source/durar-kamina-jil-1993] }
+  - { type: student_of, target: person/al-dhahabi, sources: [source/durar-kamina-jil-1993] }
+  - { type: student_of, target: person/taqi-al-din-ibn-rafa, sources: [source/durar-kamina-jil-1993] }
+  - { type: authored, target: work/tabaqat-al-shafiiyya-al-kubra, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/jam-al-jawami, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-taj-al-din-subki-727, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/taj-al-din-arrives-damascus-739, role: "الطالب القادم مع أبيه", sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/taj-al-din-ijaza-ibn-al-naqib-745, role: "المأذون له", sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/taj-al-din-tawqi-dast-754, role: "صاحب توقيع الدست", sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/taj-al-din-qadi-756, role: "القاضي الجديد", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/taj-al-din-dismissed-759, role: "القاضي المعزول", sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/taj-al-din-restored-759, role: "القاضي المعاد", sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/taj-al-din-ordeal-769, role: "القاضي المعزول المحبوس", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-taj-al-din-771, role: "المتوفَّى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/al-bidaya-wal-nihaya]
 external_ids:
   wikidata: Q12201802
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0018, lib-durar-kamina-batch-1-2-2026-10-31
+  source: "Ibn Hajar, al-Durar al-Kamina, vol. 2, printed pp. 425-427, entry no. 2547 (harvest scan DurarKamina__drkamth2); Encyclopaedia of Islam 2nd ed. vol. 9, printed p. 745, art. al-Subki A no. 9; al-Bidaya wa-l-Nihaya s.a. 756 p. 263; earlier: Wikidata candidate, Shadharat al-Dhahab"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-taj-al-din-subki-1, wikidata-import-0018, lib-durar-kamina-batch-1-2-2026-10-31
 status:
   review: published
-  completeness: 1
+  completeness: 2
+  generated_by: "Devin (SWE-2 Medium)"

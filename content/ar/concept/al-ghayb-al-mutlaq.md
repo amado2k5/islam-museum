@@ -18,3 +18,6 @@ translators: []
 
 ## ما لم يُراجع بعد
 هذه قراءة الشعراوي لمعنى الغيب. لم تُعرض هنا أقوال أكاديمية أو من تقاليد أخرى، ولم تُراجع بعد.
+
+## في سلسلة «الحضارة النبوية» لزغلول النجار
+يجعل [[person/zaghloul-el-naggar|زغلول النجار]] في [[work/el-hadara-el-nabaouia|الحضارة النبوية]] المنع من الخوض في الغيب المطلق ضابطًا من ضوابط الإعجاز العلمي في السنة، ويعدّ منه الذات الإلهية والروح وحياة البرزخ وحساب القبر والميزان والصراط والجنة والنار، ويقول إن على المسلم أن يقبل ما جاء فيها قبولًا تسليميًا دون محاولة إثباته علميًا. {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep01 00:07:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep01 00:08:00} ويشرح حديث مفاتيح الغيب الخمسة التي لا يعلمها إلا الله، ويقف عند نزول المطر فيقول إنه لا تملك قوة على الأرض أن تتحكم في أين ينزل ولا بأي قدر ولا في أي زمان، وعند ما تغيض الأرحام فيقول إن المرأة قد تحمل وتفقد الحمل دون أن تدري. {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep20 00:01:00} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep20 00:01:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep20 00:03:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep20 00:04:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep20 00:05:00}

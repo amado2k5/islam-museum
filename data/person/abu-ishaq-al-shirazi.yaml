@@ -17,6 +17,7 @@ summary:
   ar: فقيه شافعي وأصولي، صاحب «طبقات الفقهاء» و«المهذب»؛ وُلد بفيروزآباد سنة 393هـ، ودرس بفارس والبصرة ثم بغداد، وأصبح من كبار فقهاء الشافعية في عصره، وامتنع عن قضاء القضاة حين عرضه عليه الخليفة. وقرر لتدريس المدرسة النظامية ببغداد لما فرغت سنة 459هـ فاجتمع الناس فلم يحضر واختفى فدرس ابن الصباغ، ثم تلطفوا به حتى أجاب ودرس {cite:tarikh-khulafa-minhaj-1434 p. 645-646}. وفي فتنة الحنابلة والأشعرية مال إلى نصرة ابن القشيري وكتب إلى نظام الملك يشكو الحنابلة، ولما اشتدت الفتنة مضى إلى باب الطاق وأخذ في إعداد أهبة السفر فأنفذ إليه الخليفة من رده عن رأيه، وفي مجلس الصلح الذي عقده الوزير حضر فقال للشريف أبي جعفر «إنا ذاك الذي تعرف وهذه كتبي في أصول الفقه أقول فيها خلافاً للأشعرية» فقبل رأسه فأجابه الشريف «قد كان ما تقول، إلا أنك لما كنت فقيراً لم يظهر لنا ما في نفسك، فلما جاءك الأعوان والسلطان وخواجا بزوك أبديت ما كان مخفياً» {cite:muntazam-ibn-al-jawzi j.8 p.647-648}.
   en: A Shafi'i jurist and usulist, author of Tabaqat al-fuqaha and al-Muhadhdhab; born at Firuzabad in 393 AH, studied in Fars, Basra and Baghdad, and became one of the leading Shafi'i jurists of his time;
     he declined the chief qadiship when the caliph offered it.
+  ur: "شافعی فقیہ اور اصولی، «طبقات الفقہاء» اور «المھذب» کے مصنف؛ 393ھ میں فیروزآباد میں پیدا ہوئے، فارس، بصرہ اور بغداد میں پڑھے اور اپنے عصر کے ممتاز شافعی فقہاء میں شمار ہوئے؛ خلیفہ کے پیش کردہ قاضی القضاة کے منصب سے انہوں نے انکار کیا {cite:tarikh-khulafa-minhaj-1434 p. 645-646}۔"
 wings: [people]
 themes:
 - scripture-and-its-sciences
@@ -31,19 +32,83 @@ relations:
   target: work/tabaqat-fuqaha
   sources:
   - source/tabaqat-fuqaha-abbas-1981
+- type: authored
+  target: work/al-muhadhdhab-fiqh-shafii
+  sources: [source/encyclopaedia-of-islam-2]
+- type: authored
+  target: work/al-tanbih-fi-al-fiqh-al-shafii
+  sources: [source/encyclopaedia-of-islam-2]
+- type: authored
+  target: work/al-luma-fi-usul-al-fiqh
+  sources: [source/encyclopaedia-of-islam-2]
+- type: born_in
+  target: place/firuzabad
+  sources: [source/encyclopaedia-of-islam-2]
+- type: died_in
+  target: place/baghdad
+  sources: [source/encyclopaedia-of-islam-2]
 - type: lived_in
   target: place/baghdad
   sources:
   - source/tabaqat-fuqaha-abbas-1981
+- type: student_of
+  target: person/abul-tayyeb-tabari
+  sources: [source/encyclopaedia-of-islam-2]
+- type: student_of
+  target: person/al-qazwini-al-faqih
+  sources: [source/encyclopaedia-of-islam-2]
+- type: participated_in
+  target: event/shirazi-studies-fars-basra-410
+  role: "طالب الفقه"
+  sources: [source/encyclopaedia-of-islam-2]
+- type: participated_in
+  target: event/shirazi-arrives-baghdad-415
+  role: "الطالب القادم"
+  sources: [source/encyclopaedia-of-islam-2]
+- type: participated_in
+  target: event/shirazi-teaches-baghdad-428
+  role: "المدرّس"
+  sources: [source/encyclopaedia-of-islam-2]
+- type: participated_in
+  target: event/shirazi-composes-manuals-452
+  role: "المصنّف"
+  sources: [source/encyclopaedia-of-islam-2]
+- type: participated_in
+  target: event/shirazi-writes-muhadhdhab-455
+  role: "المصنّف"
+  sources: [source/encyclopaedia-of-islam-2]
+- type: participated_in
+  target: event/nizamiyya-founding-459
+  role: "المدرّس الذي شيّدت له المدرسة"
+  sources: [source/tarikh-khulafa-minhaj-1434, source/encyclopaedia-of-islam-2]
+- type: participated_in
+  target: event/qaim-death-muqtadi-accession-467
+  role: "من أسباب تولية المقتدي عند السبكي"
+  sources: [source/encyclopaedia-of-islam-2]
+- type: participated_in
+  target: event/qushayri-fitna-469
+  role: "المناصر للأشعرية"
+  sources: [source/muntazam-ibn-al-jawzi]
+- type: participated_in
+  target: event/nizamiyya-riot-470
+  role: "المخاطَب بكتاب نظام الملك"
+  sources: [source/muntazam-ibn-al-jawzi]
+- type: participated_in
+  target: event/shirazi-khurasan-nishapur-475
+  role: "المسافر المفاوض"
+  sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
-  source: طبقات الفقهاء، تحقيق إحسان عباس، مقدمة المحقق ص 5–6 (نسخة محلية)
-  generated_by: Claude (Haiku 5.5)
-  run: lib-tabaqat-fuqaha-batch-1
+  source: "طبقات الفقهاء، تحقيق إحسان عباس، مقدمة المحقق ص 5–6 (نسخة محلية)؛ enriched with dated events and relations from EI2 vol. 9 art. AL-SHIRAZI pp. 494-496 (harvest OCR) and al-Muntazam j.8 pp. 647-648"
+  generated_by: "Devin (SWE-2 Medium); base card Claude (Haiku 5.5)"
+  run: lib-tabaqat-fuqaha-batch-1; explorer-al-shirazi-1
 sources:
 - source/tabaqat-fuqaha-abbas-1981
 - source/tarikh-khulafa-minhaj-1434
 - source/shadharat-dhahab
+- source/assabile-ragheb-el-sergani
+- source/encyclopaedia-of-islam-2
+- source/muntazam-ibn-al-jawzi
 born:
   hijri: "0393"
   edtf: 1003~
@@ -61,11 +126,24 @@ died:
   precision: month
   status: tradition
   derived: true
-  note: "توفي في العشرين من جمادى الآخرة سنة ست وسبعين وأربعمائة وله ثلاث وثمانون سنة {cite:shadharat-dhahab p. 350}."
+  note: "توفي يوم الأربعاء في العشرين من جمادى الآخرة سنة ست وسبعين وأربعمائة وله ثلاث وثمانون سنة {cite:shadharat-dhahab p. 350}؛ وعند دائرة المعارف الإسلامية: الأربعاء ٢٤ جمادى الآخرة ٤٧٦هـ/نوفمبر ١٠٨٣م {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}؛ التحويل مشتق."
   sources:
   - source/tabaqat-fuqaha-abbas-1981
   - source/shadharat-dhahab
+  - source/encyclopaedia-of-islam-2
 status:
-  review: draft
-  completeness: 1
-  generated_by: Claude (Haiku 5.5); batch 1 from the editor's introduction
+  review: published
+  completeness: 2
+  generated_by: "Devin (SWE-2 Medium); enriched for the Timeline Explorer from EI2 vol. 9 pp. 494-496"
+occupations:
+  - job: job/teacher
+    kind: primary
+    place: place/baghdad
+    status: historical
+    note: "The entry on müderris places him as müderris of the Nizamiyya in Baghdad under Alp Arslan; he declined to teach there, on the ground that the land had been seized, until he was persuaded. The entry gives no date; the date in this record's summary is from another source and is not repeated here."
+    sources: [source/tdv-muderris]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/assabile-ragheb-el-sergani]

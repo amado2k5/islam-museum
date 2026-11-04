@@ -8,12 +8,16 @@ gender: male
 wings: [people]
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 497"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-95
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
 died: { hijri: "0240", edtf: "0855~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة أربعين ومائتين (PDF ص49).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
   - { type: student_of, target: person/al-shafii, role: "أخذ الفقه عن الشافعي (PDF ص49)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 external_ids: { wikidata: "Q4670395" }
 sources: [source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
+

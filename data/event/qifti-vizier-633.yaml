@@ -1,0 +1,28 @@
+id: event/qifti-vizier-633
+class: event
+kind: other
+label:
+  ar: "الملك العزيز يستوزر القفطي بحلب، ٦٣٣هـ"
+  en: "Al-Malik al-Aziz appoints al-Qifti vizier of Aleppo, 633/1236"
+  ur: "ملک عزیز نے قفطی کو حلب کا وزیر بنایا، 633ھ/1236ء"
+summary:
+  ar: "استوزر الملك العزيز محمد القفطيَ سنة ثلاث وثلاثين وستمائة {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ وتوفي العزيز في ربيع الأول ٦٣٤هـ وخلفه ابنه الطفل الناصر يوسف {cite:wafayat-ayan}."
+  en: "Al-Malik al-Aziz Muhammad appointed al-Qifti vizier in 633/1236 {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}; al-Aziz died in Rabi' I 634, leaving his child al-Nasir Yusuf as heir {cite:wafayat-ayan}."
+  ur: "ملک عزیز محمد نے 633ھ/1236ء میں قفطی کو وزیر مقرر کیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ عزیز کا ربیع الاول 634ھ میں انتقال ہوا اور ان کے خوردسال بیٹے ناصر یوسف جانشیں ہوئے {cite:wafayat-ayan}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1236", hijri: "0633", calendar: julian, precision: year, status: tradition, derived: true, note: "633/1236 {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qifti, role: "الوزير", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-aziz-ghiyath-al-din-muhammad, role: "صاحب حلب المستوزِر", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 art. Ibn al-Kifti (A. Dietrich), printed p. 872; Ibn Khallikan, Wafayat al-A'yan (al-Aziz d. Rabi' I 634)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qifti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

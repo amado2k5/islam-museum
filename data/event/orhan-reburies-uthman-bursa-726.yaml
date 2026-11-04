@@ -1,0 +1,24 @@
+id: event/orhan-reburies-uthman-bursa-726
+class: event
+kind: other
+label: { ar: "أورخان يعيد دفن أبيه عثمان في بورصة", en: "Orhan reburies his father Osman in Bursa", ur: "اورخان نے اپنے والد عثمان کو بورصہ میں دوبارہ دفنایا" }
+summary:
+  ar: "توفي عثمان غازي بسوغوت قبل الفتح بنحو سنتين، فنقله ابنه أورخان بعد دخول بورصة وأعاد دفنه فيما كان معمدية كنيسة النبي إلياس التي حُوّلت إلى مسجد بعد الفتح {cite:freely-ottoman-architecture-2011 p. 36-37}."
+  en: "Osman Gazi died at Söğüt about two years before the conquest; after entering Bursa his son Orhan reburied him in what had been the baptistry of the church of St. Elias the Prophet, converted into a mosque after the conquest {cite:freely-ottoman-architecture-2011 p. 36-37}."
+  ur: "عثمان غازی فتح سے تقریباً دو برس قبل سوغوت میں انتقال کر گئے؛ بورصہ میں داخلے کے بعد ان کے بیٹے اورخان نے انہیں قدیم کلیسائے ایلیاس کے بپتسمہ خانے میں دوبارہ دفنایا جو فتح کے بعد مسجد بنا دیا گیا تھا {cite:freely-ottoman-architecture-2011 p. 36-37}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1326~", hijri: "0726", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد فتح بورصة سنة ٧٢٦هـ/١٣٢٦م؛ التاريخ مشتق {cite:freely-ottoman-architecture-2011 p. 36-37}." }
+relations:
+  - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: had_participant, target: person/uthman-i-uthmani, role: "المُعاد دفنه", sources: [source/freely-ottoman-architecture-2011] }
+sources: [source/freely-ottoman-architecture-2011]
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (WIT Press 2011), printed pp. 36-37 (harvest OCR extra-architecture/A_History_of_Ottoman_Architecture_J._Freely_WIT_2011_BBS)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

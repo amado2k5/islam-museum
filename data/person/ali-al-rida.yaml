@@ -5,12 +5,12 @@ label:
   en: "Ali al-Rida"
 names:
   - { kind: full, lang: ar, value: "علي بن موسى بن جعفر الرضا" }
-roles: [imam, scholar]
+roles: [imam]
 gender: male
 traditions: [shia-twelver]
 summary:
-  ar: "بطاقة أولية لعلي الرضا، الإمام الثامن عند الإثني عشرية الذي ولّاه المأمون ولاية العهد، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في وفيات الأعيان والكامل لابن الأثير على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Ali al-Rida, the eighth imam of the Twelvers whom al-Ma'mun named heir apparent, named from an open reference description (Wikidata); his entries in Wafayat al-A'yan and Ibn al-Athir's al-Kamil are not yet checked on the page, so no dates are given."
+  ar: "علي الرضا بن موسى الكاظم، ثامن أئمة الإمامية الاثني عشر وولي عهد المأمون؛ توفي سنة 203هـ (818م)."
+  en: "Ali al-Rida (765–818), eighth of the Twelve Imams, named heir-apparent by al-Ma'mun."
 wings: [people]
 regions: [arabia, persia-central-asia]
 periods: [period/abbasid-early]
@@ -19,10 +19,10 @@ external_ids:
   wikidata: Q25105
 provenance:
   layer: own-research
-  source: "Wikidata Q25105 (religion claim Islam); book sources: Ibn Khallikan, Wafayat al-A'yan and Ibn al-Athir, al-Kamil — entries not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0004
+  source: "Ibn Khallikan, Wafayat al-a'yan - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.268)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch9
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

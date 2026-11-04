@@ -1,0 +1,27 @@
+id: event/muslim-first-hearing-218
+class: event
+kind: other
+label:
+  ar: "أول سماع مسلم بن الحجاج للحديث، ٢١٨هـ"
+  en: "Muslim ibn al-Hajjaj's first hearing of hadith, 218/833"
+  ur: "مسلم بن حجاج کا پہلا سماعِ حدیث، 218ھ/833ء"
+summary:
+  ar: "أول سماع مسلم بن الحجاج سنة ثمانية عشر ومائتين، وهو ابن نحو اثني عشر سنة؛ ثم أكثر الرواية عن يحيى بن يحيى النيسابوري والتميمي والقعنبي وأحمد بن يونس اليربوعي وإسماعيل بن أبي أويس وسعيد بن منصور وأحمد بن حنبل وخلق كثير {cite:tazkirat-al-huffaz j.2 p. 526-527}."
+  en: "Muslim ibn al-Hajjaj first heard hadith in 218, when he was about twelve years old; he then transmitted widely from Yahya ibn Yahya al-Naysaburi, al-Tamimi, al-Qa'nabi, Ahmad ibn Yunus al-Yarbu'i, Isma'il ibn Abi Uways, Sa'id ibn Mansur, Ahmad ibn Hanbal and a great many others {cite:tazkirat-al-huffaz j.2 p. 526-527}."
+  ur: "مسلم بن حجاج کا پہلا سماع 218ھ میں تھا جب وہ تقریباً بارہ برس کے تھے؛ پھر انہوں نے یحییٰ بن یحییٰ نیشاپوری، تمیمی، قعنبی، احمد بن یونس یربوعی، اسماعیل بن ابی اویس، سعید بن منصور، احمد بن حنبل اور بہت سے مشائخ سے کثرت سے روایت کی {cite:tazkirat-al-huffaz j.2 p. 526-527}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0833", hijri: "0218", calendar: julian, precision: year, status: tradition, derived: true, note: "أول سماعه سنة ثمانية عشر ومائتين {cite:tazkirat-al-huffaz j.2 p. 526-527}؛ التحويل مشتق.", sources: [source/tazkirat-al-huffaz] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tazkirat-al-huffaz] }
+  - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "السامع", sources: [source/tazkirat-al-huffaz] }
+sources: [source/tazkirat-al-huffaz]
+provenance:
+  layer: own-research
+  source: "Al-Dhahabi, Tadhkirat al-Huffaz j.2 printed pp. 526-528, tarjama of Muslim ibn al-Hajjaj (harvest OCR of Tabaqat al-Huffaz scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muslim-ibn-al-hajjaj-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

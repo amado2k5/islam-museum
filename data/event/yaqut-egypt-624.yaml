@@ -1,0 +1,27 @@
+id: event/yaqut-egypt-624
+class: event
+kind: other
+label:
+  ar: "رحلة ياقوت الثانية إلى مصر ودمشق بالتجارة، ٦٢٤هـ/١٢٢٧م"
+  en: "Yaqut's second journey to Egypt and Damascus for trade, 624/1227"
+  ur: "یاقوت کا دوسرا تجارتی سفر مصر اور دمشق، 624ھ/1227ء"
+summary:
+  ar: "تمكّن ياقوت في ظل رعاية القفطي بحلب من تجميع مال وفير، فسافر ببضاعة من الخام إلى مصر وعاد منها ببضاعة أخرى ربح منها {cite:mawsuat-a3lam-ulama-adaba p. 278}. وهي رحلته الثانية حلب–مصر–دمشق، سنة ٦٢٤هـ/١٢٢٧م {cite:encyclopaedia-of-islam-2 vol. 11 p. 265}."
+  en: "Under al-Qifti's patronage at Aleppo Yaqut amassed considerable funds, and travelled to Egypt with a cargo of raw cloth, returning with another cargo that brought him profit {cite:mawsuat-a3lam-ulama-adaba p. 278}. This was his second Aleppo–Egypt–Damascus journey, in 624/1227 {cite:encyclopaedia-of-islam-2 vol. 11 p. 265}."
+  ur: "حلب میں قفطی کی سرپرستی میں یاقوت نے کافی مال جمع کیا اور کچے کپڑے کی بضاعت لے کر مصر گیا، اور وہاں سے دوسری بضاعت لا کر نفع کمایا {cite:mawsuat-a3lam-ulama-adaba p. 278}. یہ اس کا دوسرا حلب–مصر–دمشق سفر تھا، 624ھ/1227ء {cite:encyclopaedia-of-islam-2 vol. 11 p. 265}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+date:
+  start: { edtf: "1227", hijri: "0624", calendar: julian, precision: year, status: tradition, derived: true, note: "الرحلة الثانية حلب–مصر–دمشق سنة ٦٢٤هـ/١٢٢٧م {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/yaqut-al-hamawi, role: "صاحب الرحلة والمعجز", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 264-266 + Ibn al-Imad Shadharat al-Dhahab s.a. 626 printed pp. 121-122 + Mawsuat A'lam al-Ulama' wal-Udaba' j.7 pp. 277-281 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-yaqut-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

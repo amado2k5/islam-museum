@@ -1,26 +1,49 @@
 id: person/shaykh-hamdullah
 class: person
-label:
-  ar: "حمد الله الأماسي"
-  en: "Shaykh Hamdullah"
-roles: [calligrapher]
+label: { ar: "حمد الله الأماسي", en: "Shaykh Hamdullah", ur: "شیخ حمد اللہ اماسی" }
+names:
+  - { value: "حمد الله بن مصطفى دده", kind: full }
+  - { value: "Hamdullah ibn Mustafa Dede", kind: full }
+  - { value: "Ibn al-Shaykh al-Amasi", kind: alternate }
+  - { value: "ابن الشيخ الأماسي", kind: alternate }
 gender: male
 summary:
-  ar: "بطاقة أولية للشيخ حمد الله الأماسي، مؤسس مدرسة الخط العثماني الذي فاضل بين الطرازات الستة؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shaykh Hamdullah of Amasya, founder of the Ottoman calligraphy school who perfected the six scripts; his entry is not yet checked on the page."
+  ar: "حمد الله الأماسي (1436–1520)، المعروف بالشيخ حمد الله وابن الشيخ، مؤسس مدرسة الخط العثماني و«قبلة الكتّاب»؛ وُلد في أماسيا لأسرة هاجرت من بخارى، وتعلّم الأقلام الستة لدى خير الدين المرعشي، وعلّم الشاهزاده بايزيد (الثاني لاحقًا) الخط في أماسيا، ثم صار خطاط البلاط في إسطنبول من 1481، وكتب نحو سبعة وأربعين مصحفًا، وصارت طريقته في النسخ معيار كتابة المصاحف في العالم الإسلامي."
+  en: "Hamdullah al-Amasi (1436–1520), known as Shaykh Hamdullah and Ibn al-Shaykh, was the founder of the Ottoman school of calligraphy and the 'Qibla of the Scribes'. Born at Amasya to a family from Bukhara, he mastered the six scripts under Hayreddin Mar'ashi, taught Prince Bayezid (the future Bayezid II) calligraphy at Amasya, and became court calligrapher at Istanbul from 1481. He wrote some forty-seven copies of the Qur'an, and his naskh became the standard hand for Qur'an manuscripts across the Islamic world."
+  ur: "حمد اللہ اماسی (1436ء–1520ء)، جو شیخ حمد اللہ اور ابن الشیخ کے نام سے مشہور ہیں، عثمانی خطاطی کے مکتب کے بانی اور «قبلۂ کُتّاب» تھے؛ اماسیہ میں بخارا سے آئے ہوئے خاندان میں پیدا ہوئے، خیر الدین مرعشی سے چھ قلم سیکھے، اماسیہ میں شہزادہ بایزید (بعد میں بایزید ثانی) کو خطاطی سکھائی، اور 1481ء سے استنبول میں دربار کے خطاط بنے۔ انھوں نے تقریباً سینتالیس مصاحف لکھے اور ان کا نسخ اسلامی دنیا میں قرآن لکھنے کا معیار بن گیا۔"
+roles: [calligrapher, teacher]
 wings: [people]
 regions: [anatolia-balkans]
-periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1520", precision: year, status: tradition, derived: true }
-sources: [source/duha-islam]
-external_ids:
-  wikidata: Q3561135
+born:
+  edtf: "1436"
+  hijri: "0840"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Amasya. The Sakıp Sabancı Museum's exhibition book gives 1436 (840 AH), and the Azerbaijani, Polish and French article texts and the Motif Akademi journal study agree on 1436. The Arabic article's lead gives 833 AH (1429 CE) while its own infobox gives 1436, and the Azerbaijani article notes researchers who place the birth anywhere in 833–840 AH (1426–1429 CE). The record follows 1436 with the 1429 reading preserved. Amasya has no place entity, so no born_in edge is written."
+  sources: [source/sakip-sabanci-shaykh-hamdullah, source/wikipedia-shaykh-hamdullah-ar, source/dergipark-shaikh-hamdullah-school]
+died:
+  edtf: "1520"
+  hijri: "0926"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died at Istanbul a few months after Süleyman's accession in 1520; Müstakimzade's chronogram, quoted by the Sakıp Sabancı Museum, dates the death to 926 AH/1520 CE. He was buried in Karacaahmet Cemetery at Üsküdar; the Arabic article's text names the Abu Ayyub al-Ansari cemetery against its own infobox (Karacaahmet) and against the Museum, Azerbaijani and French texts, and is not followed. The Azerbaijani article's stray 1526 death year and the 927 AH on his later-cut tombstone inscription are scribal readings, preserved here and not followed."
+  sources: [source/sakip-sabanci-shaykh-hamdullah, source/wikipedia-shaykh-hamdullah-ar]
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/sakip-sabanci-shaykh-hamdullah, source/wikipedia-shaykh-hamdullah-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read attests an order or school for Hamdullah himself. His father Mustafa Dede was a sheikh of the Suhrawardiyya (Sühreverdiyye) order who migrated from Bukhara to Amasya — attested for the father by the Sakıp Sabancı Museum and by the Azerbaijani, Polish and Japanese article texts — and the Polish article adds that this Sufi lineage (silsila) is what entitled Hamdullah to the title şeyh. A father's order and an inherited title are family background, which never settles the son; the texts attest Hamdullah's own piety (his withdrawal after 1512 to prayer and his students, per the Museum) but not his own initiation or affiliation. The Encyclopaedia of Islam 3 and TDV İslâm Ansiklopedisi entries cited by the Arabic article were not read in full for this build. The value therefore stays unknown, with the Suhrawardi family reading preserved here."
+    sources: [source/sakip-sabanci-shaykh-hamdullah, source/wikipedia-shaykh-hamdullah-ar]
+external_ids: { wikidata: "Q3561135" }
+sources: [source/wikipedia-shaykh-hamdullah-ar, source/sakip-sabanci-shaykh-hamdullah, source/dergipark-shaikh-hamdullah-school, source/wikidata-shaykh-hamdullah]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  source: "This record replaces, in place and at the same slug, the Devin wikidata-import draft stub person/shaykh-hamdullah (review: draft, completeness 1, run wikidata-import-wave2), whose only source was an unread pointer and whose periods value was wrong for a man who died in 1520. Built in wave 186 under the founder's rulings review of 3 November 2026, which resolved the identity 'Sheikh Hamdullah Efendi (1436–1520), Ottoman master calligrapher' — the texts confirm the identity and dates (with the 1429 birth reading disclosed). Read in full on 3 November 2026: Arabic Wikipedia «حمد الله الأماسي», the Sakıp Sabancı Museum exhibition page and its accompanying-book text, and the Motif Akademi journal study (Dergipark); the Azerbaijani, Polish, French and Japanese article texts were read in search extracts and agree on 1436, Amasya, the Suhrawardi father and Karacaahmet. The reading tool does not expose numeric Wikipedia revision ids, so none is recorded; each article was fetched twice with identical text. His teacher Hayreddin Mar'ashi has no museum person record, and the sultan he taught, Bayezid II, holds no record under that name, and Amasya has no place entity, so the only edge written is died_in Istanbul."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-186-writer-b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

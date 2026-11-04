@@ -759,8 +759,9 @@ function init(
       })
     );
     door.position.y = 3.4;
-    const label = textSprite(wingTitle(w.id), { px: 60 });
-    label.position.y = 8.9;
+    const label = textSprite(wingTitle(w.id), { px: 64 });
+    // Above the arch and in front of the frame so the title reads against the hall.
+    label.position.set(0, 9.2, 2.4);
     g.add(frame, door, label);
     portalGroup.add(g);
     interact.push({ obj: door, kind: "portal", wing: w, group: g });
@@ -2291,7 +2292,8 @@ function init(
         return;
       }
       if (journeyCard.classList.contains("show")) {
-        setScene("hall");
+        // Dismiss the narration first; the visitor stays in the journey scene.
+        journeyCard.classList.remove("show");
         return;
       }
       return;
@@ -2592,6 +2594,10 @@ function init(
     journeyPanel.classList.remove("show")) as EventListener);
   listen($<HTMLButtonElement>("#jBack"), "click", (() =>
     setScene("hall")) as EventListener);
+  listen($<HTMLButtonElement>("#jDismiss"), "click", (() => {
+    journeyCard.classList.remove("show");
+    (renderer.domElement as HTMLElement).focus({ preventScroll: true });
+  }) as EventListener);
 
   listen(window, "resize", (() => {
     camera.aspect = innerWidth / innerHeight;

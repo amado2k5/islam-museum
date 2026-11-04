@@ -3,11 +3,11 @@ class: person
 label:
   ar: "يونس بن عبد الرحمن"
   en: "Yunus ibn Abd al-Rahman"
-roles: [scholar]
+roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية ليونس بن عبد الرحمن الحجازي، محدث القرن الثامن، توفي سنة ٨٢٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yunus ibn Abd al-Rahman of the Hijaz, the eighth-century muhaddith, d. 823; the biographical entry is not yet checked on the page."
+  ar: "يونس بن عبد الرحمن، فقيه إمامي مولى علي بن يقطين من أصحاب موسى بن جعفر، له نحو ثلاثين كتاباً؛ توفي سنة 208هـ (823م)."
+  en: "Yunus ibn Abd al-Rahman (d. 208/823), Imami jurist, client of Ali ibn Yaqtin, author of some thirty books."
 wings: [people]
 regions: [arabia]
 periods: [period/abbasid-early]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q83277438
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0057
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.8 p.261)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch7
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

@@ -49,9 +49,6 @@ a11y:
   prefs_links: Underline all links
   prefs_note: 'Saved on this device only — nothing is sent anywhere.'
 landing:
-  fatwa_title: "Fatwas"
-  fatwa_lede: "Selections from Al-Azhar fatwas against popular innovations, from Fatawa A'immat al-Muslimin, with each ruling and its page."
-  fatwa_cta: "Read the fatwas"
   eyebrow: A digital museum · open to everyone
   title_pre: A museum for the
   title_strong: whole story
@@ -269,6 +266,7 @@ class:
   dataset: Dataset
   listing: Listing
   screen: Screening Room
+  job: "Job"
 search:
   title: Search
   placeholder: Search the museum
@@ -340,6 +338,10 @@ graph:
   note: The constellation is limited to two hops and about forty entries; the list beside it says the same connections in words.
   explore_link: Explore the connections
   cross: Show links between neighbours
+  filter: Show only
+  filter_hint: Click a type to show only it; click more types to add them.
+  all: Show all
+  empty: No connections of the chosen type around this entry.
 revelation:
   title: Revelation and history
   lede: Read the Quran in the order it was revealed, beside the events. Each row is one sura in its order of revelation, with the museum events the tradition links
@@ -410,6 +412,16 @@ poetry:
     without guessing.
   died: d.
   unattributed: Poems not yet attributed in the data
+  verses_title: "Verses"
+  verses_note: "{n} lines from {p} poems, each with the museum's own translation and its edition page."
+  verses_jump: "Poems with verses"
+  verses_by_poet: "Verses by poet"
+  verses_by_metre: "Verses by metre"
+  verses_by_rhyme: "Verses by rhyme letter"
+  verse_ref: "Line"
+  metre: "Metre"
+  rhyme: "Rhyme letter"
+  verse_page: "Verse page"
 hadith:
   title: The Hadith Library
   lede: 'The hadith collections in the museum: browse each work by book and report, and from every report to its page with its chain and links.'
@@ -1089,10 +1101,17 @@ explore:
     khutab:
       title: "Khutab and Durus Explorer"
       desc: "Historical sermons from the khutab collections and recorded lesson series, each linked to its text and its source."
+    fatwa:
+      title: "Fatwa Explorer"
+      desc: "Fatwas from fatwa collections and from official and well-known fatwa websites, grouped by source, each summarised in the museum's words and linked to its original page."
     poetry:
       title: "The Poetry Anthology"
       desc: "The documented poems arranged under their poets, each with its occasion and context."
       menu: "Read poetry by its poets"
+    jobs:
+      title: "Job Browser"
+      desc: "The jobs people held in Islamic history, from the judge and the scribe to the craftsman: each job with the people who held it and the places where it was done."
+      menu: "Browse jobs and crafts through history"
     timemachine:
       title: Time Machine
       menu: Travel to any date, in both calendars
@@ -1379,6 +1398,7 @@ tour:
   near_door_touch: 'Walk into the doorway to go through'
   help_map: 'Map and floor stars: press M or the Map button, or click a gold star on the floor, to jump to a doorway or an exhibit'
   look_day: 'Daytime'
+  look_hint: 'Switch between day and evening lighting'
   help_light: 'Lighting: press L or the Daytime button to switch between day and evening; Lighter graphics turns off shadows and effects on slower devices'
   lite_label: 'Lighter graphics (for slower devices)'
   lite_offer: 'The tour seems slow on this device.'
@@ -1614,7 +1634,7 @@ why:
   before_doha: "Doha — the Museum of Islamic Art, opened in 2008 on its own island in the harbour, was designed by I. M. Pei and is led by Qatar Museums under Sheikha Al Mayassa bint Hamad Al Thani; its galleries hold masterpieces from three continents."
   before_aga_khan: "Toronto — the Aga Khan Museum, opened in 2014 and founded by the Aga Khan IV in a building designed by Fumihiko Maki, presents the arts and cultures of Muslim civilisations to North American audiences."
   before_discover: "Online — Discover Islamic Art, built by Museum With No Frontiers under its founder Eva Schubert and launched in 2005 with European Union Euromed Heritage funding of about €3.1 million, is the closest digital predecessor: some 150 experts in 14 countries catalogued 850 artefacts and 385 monuments. It covers the art and material culture of the Mediterranean, and its story ends in 1922."
-  before_libraries: "And the texts live elsewhere again: libraries such as al-Maktaba al-Shamela gather the books; platforms such as Google Arts & Culture host exhibitions lent by many museums; Wikipedia and Wikidata hold an uncurated raw layer of facts that anyone may read but no one has shaped into a museum."
+  before_libraries: "And the texts live elsewhere again: libraries such as al-Maktaba al-Shamela gather the books; platforms such as Google Arts & Culture host exhibitions lent by many museums."
   before_close: "None of this is a criticism. A museum of objects must choose its objects; an encyclopaedia must choose its readers; an exhibition must choose its theme. But it left a shape of work undone: the whole story, for everyone, in the open."
   before_links: "Visit them:"
   link_doha: "Museum of Islamic Art, Doha"
@@ -1647,6 +1667,14 @@ why:
   about_body: "What makes islam.museum different from the great museums and references that came before it — and where it is going next — is told on its own page."
   about_link: "Why islam.museum?"
 
+network:
+  title: Islam Museum Network
+  lede: 'Affiliates and collaborators — the scholars, institutions and communities in conversation with the museum.'
+  intro: 'The museum grows through exchange: scholars, libraries, teachers and readers who test its pages, correct them, share them and build on its open data. This page lists the affiliates and collaborators who have joined that exchange — with our thanks.'
+  e1_name: 'Evolution of Sharia — Abdullahi Ahmed An-Na’im'
+  e1_desc: 'The website of Professor Abdullahi Ahmed An-Na’im of Emory University, dedicated to the future of Sharia and to Islamic reform through the internal discourse of Muslim communities. Our thanks to Professor An-Na’im for his valuable feedback on the museum, and for sharing islam.museum with his audience and collaborators around the world.'
+  visit: 'Visit the website'
+  closing: 'To join the exchange — feedback, corrections, collaboration or reuse of the open data — write to discover@islam.museum.'
 support:
   title: Support the museum
   lede: This museum is free and open, with no ads and no tracking. If it is useful to you, your support keeps it that way and helps it grow faster.
@@ -2431,6 +2459,15 @@ world:
     - l: "OIC — member states"
       u: "https://www.oic-oci.org/"
 
+fatwa:
+  title: "Fatwa Explorer"
+  lede: "Fatwas from fatwa collections and from official and well-known fatwa websites, grouped by source. The museum records these fatwas as history, attributed to those who issued them; it issues no ruling and advises no one."
+  note: "Summaries are in the museum's words; the full text and its author are on the original page."
+  by_source: "By source"
+  original: "Original page"
+  empty: "No fatwas yet."
+  count: "{n} fatwas"
+
 khutab:
   title: "Khutab and Durus Explorer"
   lede: "Historical sermons from the khutab collections and recorded lesson series, each linked to its text and its source."
@@ -2438,3 +2475,75 @@ khutab:
   series: "Recorded lesson series"
   empty: "No entries yet."
   count: "{n} entries"
+jobs:
+  title: "Job Browser"
+  lede: "What people did for a living in Islamic history, from the judge and the scribe to the physician, the builder and the weaver: each job with the people who held it and the places where it was done."
+  badge: "In the making"
+  status: "The browser grows as records are researched. Job records in this build: {jobs}, of which {articles} have an article. People with a job recorded: {holders}. Counts are as of the last build."
+  domains_title: "Browse by domain"
+  domains_note: "Each job belongs to one domain. Each card lists the job records in it and the people recorded in them."
+  crafts_title: "Crafts shelf"
+  crafts_note: "The crafts are jobs like the others. This shelf lists the hand trades the museum has records for, and it grows from the sources and the museum's objects."
+  crafts_empty: "No craft records yet."
+  az_title: "A to Z"
+  az_note: "Every job record, in the alphabetical order of its name in this language."
+  filter_label: "Filter by name"
+  filter_none: "No job matches this filter."
+  az_empty: "No job records yet."
+  count_jobs: "Job records: {n}"
+  count_holders: "People recorded: {n}"
+  no_domain_jobs: "No job records in this domain yet."
+  holders_title: "Held by"
+  holders_none: "No person is recorded in this job yet."
+  holders_undated: "Undated"
+  holders_more: "held it more than once"
+  craft_title: "The craft"
+  craft_materials: "Materials"
+  craft_techniques: "Techniques"
+  craft_guild: "Guild"
+  craft_grades: "Grades"
+  craft_initiation: "Initiation"
+  craft_pir: "Patron of the guild (its tradition)"
+  craft_marks: "Marks"
+  craft_heritage: "Living heritage"
+  craft_unesco: "Listed by UNESCO"
+  craft_practice: "The craft as a practice"
+  bodies_title: "Its bodies"
+  workplaces_title: "Where it was done"
+  related_title: "Related jobs"
+  broader_label: "Broader job"
+  narrower_label: "Narrower jobs"
+  successors_label: "Later jobs"
+  references_title: "References"
+  not_yet_title: "Not yet covered"
+  materials:
+    ink: "Ink"
+    paper: "Paper"
+    copper: "Copper"
+    brass: "Brass"
+    silver: "Silver"
+    gold: "Gold"
+    glass: "Glass"
+    ceramic: "Ceramic"
+    stone: "Stone"
+    marble: "Marble"
+    brick: "Brick"
+    wood: "Wood"
+    ivory: "Ivory"
+    textile: "Textile"
+    wool: "Wool"
+    silk: "Silk"
+    cotton: "Cotton"
+    leather: "Leather"
+    parchment: "Parchment"
+    bronze: "Bronze"
+career:
+  heading: "Career"
+  no_dates: "These posts have no recorded dates, so they are listed here in words."
+  primary: "Main post"
+  secondary: "Also held"
+  episodic: "Brief post"
+  honorary: "Honorary"
+  debated: "debated"
+  tradition: "tradition"
+  undated: "Undated"

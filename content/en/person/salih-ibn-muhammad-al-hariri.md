@@ -2,10 +2,7 @@
 id: person/salih-ibn-muhammad-al-hariri
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 29"]
 ---
 ## Overview
-Salih ibn Muhammad al-Hariri, one of the boon-companions of al-Muntasir in his time as a prince {cite:muruj-al-dhahab p.522-524}.
-
-## An anecdote
-Al-Muntasir asked him whether he had ever been in love. He recounted that he had loved a singing slave-girl belonging to a concubine (umm walad) of al-Rashid, at al-Rasafa in the days of al-Mu'tasim, and that she threatened him when he sent her a message. al-Muntasir sent for her, and she turned out to be an old woman, bent and past marriageable age, with some remnant of beauty. He married her to Salih, gave her a dowry, and scattered over him walnuts and perfumed coins. She stayed with him for a time, then he tired of her and divorced her {cite:muruj-al-dhahab p.522-524}.
+Salih ibn Muhammad al-Hariri, among al-Muntasir's boon companions in his emirate; asked if he had ever loved, he told how he loved a singing slave-girl of al-Rashid's household at al-Rusafa in al-Mu'tasim's days, who had threatened him for writing to her. Al-Muntasir sent for her — now a bent old woman with remnants of beauty — married him to her with a dower and scattered upon him leaded nuts and perfumed cloves; she stayed with him a while, then he wearied and left her.

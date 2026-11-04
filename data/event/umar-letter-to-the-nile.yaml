@@ -30,15 +30,16 @@ relations:
   role: كاتب البطاقة
   sources:
   - source/futuh-misr-amir-1999
-sources: &id001
+sources:
 - source/futuh-misr-amir-1999
+- source/assabile-omar-abdelkafy
 provenance:
   layer: own-research
   source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 202–204
   generated_by: Claude Opus 5.5
   model: claude-opus-5-5
   run: lib-futuh-misr-batch-4-2026-10-31
-  sources: *id001
+  sources: [source/futuh-misr-amir-1999]
 status:
   review: published
   completeness: 2

@@ -1,0 +1,27 @@
+id: event/lahore-balban-restore-664
+class: event
+kind: other
+label:
+  ar: "بلبان يعمر لاهور بعد توليه العرش، ٦٦٤هـ/١٢٦٦م"
+  en: "Balban restores Lahore after his accession, 664/1266"
+  ur: "بلبن کی تخت نشینی کے بعد لہور کی تعمیر نو، 664ھ/1266ء"
+summary:
+  ar: "أعاد السلطان غياث الدين بلبن تعمير لاهور عقب توليه عرش دهلي سنة ٦٦٤هـ/١٢٦٦م، بعد خراب أصابها منذ السلب المغولي سنة ٦٣٩هـ/١٢٤١م؛ وظلت مع ذلك لعقود منطقة ثغور تتعرض للغارات المغولية المتكررة {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  en: "The sultan Ghiyath al-Din Balban restored Lahore soon after his accession to the throne of Delhi in 664/1266, following the ruin left by the Mongol sack of 639/1241; it nevertheless remained for decades a frontier region exposed to regular Mongol attacks {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  ur: "سلطان غیاث الدین بلبن نے 664ھ/1266ء میں دہلی کے تخت پر بیٹھنے کے فوراً بعد لہور کی تعمیر نو کی، جب کہ شہر 639ھ/1241ء کے منگولوں کی لٹ مار سے تباہ ہوا تھا؛ اس کے باوجود یہ شہر کئی دہائیوں تک ایک سرحدی علاقہ رہا جہاں منگولوں کے باقاعدہ حملے ہوتے رہے {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [south-asia]
+date:
+  start: { edtf: "1266", hijri: "0664", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ghiyath-al-din-balban, role: "السلطان المعمِّر", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 38 (LAHAWR, printed p. 598) — restored by Balban soon after his accession 664/1266"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

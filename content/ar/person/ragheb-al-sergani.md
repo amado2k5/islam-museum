@@ -46,3 +46,11 @@ translators: []
 ## المراجع
 - المصادر المعرّفة المستشهد بها أعلاه، وهي مسجلة في `data/source/`.
 - ترجمات وتعديلات لاحقة للمقال تحتاج إلى مراجعة دورية مع تواريخ تحديث واضحة.
+
+## في برنامج «ماذا قدم المسلمون للعالم»
+يظهر راغب السرجاني ضيفًا دائمًا في برنامج تلفزيوني بعنوان [[work/what-did-muslims-bring-to-the-world|ماذا قدم المسلمون للعالم]]، يقدّمه فيه المذيع بوصفه الأستاذ بكلية الطب في جامعة القاهرة والمشرف العام على موقع قصة الإسلام، ويحفظ أرشيف أسابيل منه خمس عشرة حلقة مصوّرة. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:01:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep13 00:01:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep15 00:01:30} ويحمل البرنامج عنوان كتابه «ماذا قدم المسلمون للعالم» الذي نال جائزة المجلس الأعلى للشئون الإسلامية سنة 2009. {cite:wikipedia-ragheb-al-sergani-ar}
+
+يقول في الحلقة الأولى إنه يتحدث عن الحضارة الإسلامية لأنها ظُلمت في التوثيق والكتابة، وإن غرض البرنامج الخروج من أزمات الأمة المعاصرة بدراسة التاريخ. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:02:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:06:30} ويقدّم تعريفًا للحضارة يقول إنه مستقل عن التعريفات الأخرى ويجمع نظرة شمولية: علاقة الإنسان بالبيئة، وبالإنسان، وبربه. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:20:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:20:30} ويذكر أنه كتب مقالًا سمّاه «الكيل بأكثر من عشرة آلاف مكيال» عن ازدواج المعايير في معاملة الأمم. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:26:00} وفي الحلقة الخامسة عشرة يقول إنه أحصى بنفسه عدد القتلى في غزوات النبي وسراياه ليقيس مدى الدموية فيها. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep15 00:07:30}
+
+### آراؤه كما يعرضها في البرنامج (رأي المتحدث)
+ينتقد في مواضع كثيرة سياسات الغرب المعاصرة في العراق وفلسطين وأفغانستان وما يسميه الكيل بمكاييل كثيرة، ويرى أن الحضارة الإسلامية وحدها استكملت معاييره الثلاثة. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:25:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:26:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep02 00:12:00} ويعرض المتحف ذلك رأيًا له منسوبًا إليه، دون حكم عليه.

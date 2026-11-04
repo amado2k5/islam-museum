@@ -51,3 +51,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يرى الشيخ أن الزهد فُهم خطأ بأنه الفقر، وأن الإنسان قد يملك المليارات وهو زاهد، وقد لا يملك إلا دراهم معدودة وهو متطلع إلى الدنيا، ويذكر حديث ابن آدم الذي لو كان له وادٍ من ذهب لتمنى ثانيًا. {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:08:00}
+
+## في دروس يوسف القرضاوي «تأملات قرآنية»
+يقول [[person/yusuf-al-qaradawi|يوسف القرضاوي]] إن الغني ليس من أهل الدنيا إذا كانت الدنيا في يده لا في قلبه، وإن القرآن يرتب الآثار على إرادة الإنسان ([[passage/quran-17-18|الإسراء 18]]). {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:03:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:04:00} ويذكر قولًا ينسبه بعض السلف في الزهد في الدنيا لقلة غنائها وكثرة عنائها وسرعة فنائها، وقولًا يُنسب إلى علي في أن أولها بكاء وأوسطها عناء وآخرها فناء. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:11:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:12:00} ويقول إن يوسف وداود وسليمان أوتوا الملك، وإن من الصحابة أغنياء كعثمان وعبد الرحمن بن عوف ملكوا الدنيا ولم تملكهم. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:17:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:18:00}

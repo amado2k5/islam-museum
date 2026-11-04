@@ -2,10 +2,7 @@
 id: person/jafar-ibn-harb
 lang: en
 source_lang: ar
-translators: []
+translators: ["Devin (SWE-2 Medium), batch 23"]
 ---
 ## Overview
-The scholar Abu al-Fadl Ja'far ibn Harb of Hamadhan, the ascetic Mu'tazili, among the most devout of his people, author of works; he died in 236 AH. {cite:siyar-alam-nubala-ideas-house p.1297}
-
-## Anecdotes
-He attended al-Wathiq's assembly for disputation; when prayer time came al-Wathiq stepped forward and led them while Ja'far withdrew, removed his leather socks and prayed alone — though he was close to Yahya ibn Kamil. {cite:siyar-alam-nubala-ideas-house p.1297}
+Ja'far ibn Harb al-Hamdani, a Baghdadi Mu'tazili who studied kalam at Basra under Abu'l-Hudhayl al-Allaf; he was especially favoured by al-Wathiq and wrote works known among the mutakallimun. He died in 254 AH, per the Muntazam. {cite:muntazam-ibn-al-jawzi v. 11 p. 238}

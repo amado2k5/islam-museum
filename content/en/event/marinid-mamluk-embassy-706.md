@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-Between 703 and 706 AH the sultan [[person/abu-yaqub-yusuf-marinid|Abu Ya'qub al-Marini]] and al-Nasir Muhammad ibn Qalawun exchanged gifts and embassies. {cite:tarikh-ibn-khaldun-ibar}
+Between 703 and 706 AH the sultan [[person/abu-yaqub-yusuf-an-nasr|Abu Ya'qub al-Marini]] and al-Nasir Muhammad ibn Qalawun exchanged gifts and embassies. {cite:tarikh-ibn-khaldun-ibar}
 
 ## The gift from the Maghrib
 In 703 AH Abu Ya'qub allowed the people of the Maghrib to make the pilgrimage by ship. He sent a fine copy of the Qur'an written by Ahmad ibn Hasan the scribe and endowed it to the Holy Sanctuary. He sent with the pilgrims a garrison of about five hundred men from the Zanata, under the judge Muhammad ibn Raghbush. He presented al-Nasir with noble horses and mounts, said to number four hundred. {cite:tarikh-ibn-khaldun-ibar}

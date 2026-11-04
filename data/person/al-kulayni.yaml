@@ -1,26 +1,37 @@
 id: person/al-kulayni
 class: person
-label: { ar: "محمد بن يعقوب الكليني", en: "Muhammad ibn Ya'qub al-Kulayni" }
+label: { ar: "محمد بن يعقوب الكليني", en: "Muhammad ibn Ya'qub al-Kulayni", ur: "محمد بن یعقوب کلینی" }
 names:
   - { kind: full, lang: ar, value: "محمد بن يعقوب الكليني" }
 gender: male
 roles: [scholar]
-died: { edtf: "0940~", hijri: "0328", calendar: julian, precision: year, status: debated, derived: true, note: "مات ببغداد سنة ٣٢٨ أو سنة ٣٢٩ ودفن بالكوفة {cite:duha-islam p. 891}." }
+died: { edtf: "0941-05~", hijri: "0329-08~", calendar: julian, precision: month, status: debated, derived: true, note: "مات ببغداد سنة ٣٢٨ أو ٣٢٩ {cite:duha-islam p. 891}؛ رجّح معجم الإسلام شعبان ٣٢٩/أيار 941 لتحديد الطوسي في الرجال {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}؛ وتاريخ الإسلام يدرجه في سنة ٣٢٩ {cite:tarikh-islam-dhahabi p. 250}؛ التحويل مشتق.", sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
 summary:
-  ar: "محمد بن يعقوب الكليني، يعد من أفاضل الشيعة ورؤسائهم وهو عند الشيعة كالبخاري عند أهل السنة ويسمونه «ثقة الإسلام»؛ له كتاب الكافي في ثلاثة أجزاء: الأول في الأصول والثاني والثالث في الفروع، ويحتوي ستة عشر ألف حديث قسمها — كما فعل أهل السنة — إلى صحيح وحسن وقوي وضعيف، وقد اتفق في جمعه عشرون عاماً، ومات ببغداد سنة ٣٢٨ أو سنة ٣٢٩ ودفن بالكوفة {cite:duha-islam p. 850, 891}."
-  en: "al-Kulayni — 'the Bukhari of the Shi'a', titled Thiqat al-Islam; his al-Kafi gathered sixteen thousand hadiths over twenty years {cite:duha-islam p. 850, 891}."
+  ar: "محمد بن يعقوب الكليني أبو جعفر، محدث إمامي من قرية كلين قرب الري؛ تلمذ بقم ثم كان شيخ الإمامية بالري في زمانه عند النجاشي، وانتقل إلى بغداد نحو العقد الأول من القرن الرابع فأتم بها «الكافي» في عشرين سنة {cite:encyclopaedia-of-islam-2 vol. 5 p. 400-401}. يعد عند أحمد أمين من أفاضل الشيعة ورؤسائهم وهو عندهم كالبخاري عند أهل السنة ويسمونه «ثقة الإسلام»؛ «الكافي» فيه ستة عشر ألف حديث في ثلاثة أجزاء {cite:duha-islam p. 850, 891}. ومات ببغداد سنة ٣٢٨ أو ٣٢٩، والأرجح شعبان ٣٢٩/أيار 941 {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}."
+  en: "Muhammad ibn Ya'qub al-Kulayni, Abu Ja'far, the Imami traditionist from Kulayn near Rayy; schooled at Qumm, then shaykh of the Imamiyya of Rayy in al-Najashi's words, he moved to Baghdad about the first decade of the 4th century and there finished al-Kafi after twenty years' work {cite:encyclopaedia-of-islam-2 vol. 5 p. 400-401} — 'the Bukhari of the Shi'a', titled Thiqat al-Islam, his al-Kafi holding sixteen thousand hadiths {cite:duha-islam p. 850, 891}. Died at Baghdad 328 or 329, most likely Sha'ban 329/May 941 {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}."
+  ur: "محمد بن یعقوب کلینی، ابو جعفر، رے کے قریب گاؤں کلین کا امامی محدث؛ قم میں تلمذ حاصل کیا، پھر نجاشی کے بقول اپنے زمانے میں رے کے امامیہ کا شیخ تھا، اور چوتھی صدی کے پہلے عشرے میں بغداد منتقل ہو کر وہاں بیس سال کی محنت سے «الکافی» مکمل کی {cite:encyclopaedia-of-islam-2 vol. 5 p. 400-401} — شیعوں کے نزدیک ان کا وہی مقام ہے جو اہلِ سنت میں بخاری کا، انہیں «ثقۃ الاسلام» کہا جاتا ہے اور الکافی میں سولہ ہزار احادیث ہیں {cite:duha-islam p. 850, 891}۔ بغداد میں 328 یا 329ھ میں فوت ہوا، غالباً شعبان 329/مئی 941ء {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}۔"
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq, persia-central-asia]
 traditions: [shia-twelver]
 relations:
-  - { type: authored, target: work/al-kafi, sources: [source/duha-islam] }
+  - { type: born_in, target: place/kulayn, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/duha-islam] }
+  - { type: student_of, target: person/muhammad-ibn-ali-alan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/muhammad-ibn-ismail-al-naysaburi, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/al-kafi, sources: [source/duha-islam, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/kulayni-studies-qumm, role: "الطالب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/kulayni-shaykh-rayy, role: "شيخ الإمامية", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/kulayni-moves-baghdad, role: "المنتقل المدرّس", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/kulayni-completes-kafi-328, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-al-kulayni-329, role: "المتوفى", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
 external_ids:
   wikidata: Q2973730
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research
-  source: "ضحى الإسلام لأحمد أمين ص 850، 891"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-duha-islam-batch-8
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  source: "ضحى الإسلام لأحمد أمين ص 850، 891؛ Encyclopaedia of Islam 2nd ed. vol. 5, art. al-Kulaynī, printed pp. 400-401 (W. Madelung)؛ al-Dhahabi, Tarikh al-Islam, s.a. 329, printed p. 250"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-kulayni-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

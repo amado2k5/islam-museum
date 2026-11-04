@@ -1,0 +1,27 @@
+id: event/al-maqrizi-return-egypt-820
+class: event
+kind: migration
+label:
+  ar: "عودة المقريزي إلى مصر وانقطاعه للتاريخ، نحو ٨٢٠هـ"
+  en: "Return to Egypt and full-time scholarship, c. 820/1418"
+  ur: "مصر واپسی اور تاریخ کے لیے وقف، تقریباً 820ھ/1418ء"
+summary:
+  ar: "عاد المقريزي إلى مصر نحو سنة ٨٢٠هـ بعد نحو عشر سنين في دمشق، فانقطع في داره ملازماً للخلوة والعبادة والتصنيف، قلّ أن يتردد لأحد إلا لضرورة، وصار يضرب به المثل في التاريخ في حياته وبعد موته؛ وأقام سنين عدداً بمكة، وسمع فيها من ابن سكر وغيره {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}."
+  en: "After about ten years in Damascus, al-Maqrizi returned to Egypt around 820 and withdrew to his house, keeping to seclusion, worship and writing; he rarely called on anyone except from necessity, and his fame as a historian became proverbial in his lifetime. He also spent a number of years in Mecca, where he heard traditions from Ibn Sakr and others {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}."
+  ur: "دمشق میں تقریباً دس سال کے بعد مقریزی تقریباً 820ھ میں مصر لوٹ آئے اور اپنے گھر میں خلوت، عبادت اور تصنیف میں جُٹ گئے؛ ضرورت کے سوا کسی سے کم ملتے، اور مورخ کے طور پر ان کی شہرت زندگی ہی میں مثال بن گئی۔ انہوں نے مکہ میں بھی کئی برس گزارے اور وہاں ابن سکر وغیرہ سے سماع کیا {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1418~", hijri: "0820", calendar: julian, precision: year, status: historical, derived: true, note: "عودته إلى مصر بعد نحو عشر سنين في دمشق من ٨١٠هـ، فنحو ٨٢٠هـ؛ التاريخ تقديري والتحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 6 p. 213}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-maqrizi, role: "المؤرخ المتفرغ", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 6 (Mahk-Mid), printed pp. 213-214, art. al-Makrizi (F. Rosenthal); shadharat-dhahab juz s.a. 845 pp. 254-255"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-maqrizi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

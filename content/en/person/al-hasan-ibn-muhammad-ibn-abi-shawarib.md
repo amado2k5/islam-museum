@@ -2,7 +2,7 @@
 id: person/al-hasan-ibn-muhammad-ibn-abi-shawarib
 lang: en
 source_lang: ar
-translators: []
+translators: ["Devin (SWE-2 Medium), batch 24"]
 ---
 ## Overview
-Al-Hasan b. Muhammad b. Abi'l-Shawarib, chief qadi for al-Mu'tamad, of the house of Al Abi'l-Shawarib the judges; he entered the City of Peace and died there on 18 Dhu'l-Hijja 261 — Yusuf b. Ya'qub prayed over him; Ibn Jarir al-Tabari records that he died at Mecca. {cite:muntazam-ibn-al-jawzi p. 116}
+al-Hasan ibn Muhammad ibn Abd al-Malik ibn Abi'l-Shawarib al-Qurashi, who held the judgeship at Samarra — appointed by the chief qadi — of the Ibn Abi'l-Shawarib family of Baghdad judges, per the Muntazam. {cite:muntazam-ibn-al-jawzi v. 12 p. 163}

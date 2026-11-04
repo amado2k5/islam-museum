@@ -1,0 +1,29 @@
+id: event/juwayni-mecca-mujawara-450
+class: event
+kind: other
+label:
+  ar: "مجاورة الجويني بالحرمين أربع سنين، ٤٥٠–٤٥٤هـ"
+  en: "Al-Juwayni's four years of residence at the two sanctuaries, 450–454/1058–1062"
+  ur: "جوینی کی حرمین میں چار سالہ مجاورت، 450–454ھ/1058–1062ء"
+summary:
+  ar: "بلغ الجويني الحجاز سنة ٤٥٠هـ/١٠٥٨م فجاور بمكة والمدينة أربع سنين يدرس ويفتي ويجمع طرق المذهب، ومن هناك لُقب «إمام الحرمين» {cite:encyclopaedia-of-islam-2 vol. 2 p. 605} {cite:tarikh-islam-dhahabi p. 230}؛ ويروي شذرات الذهب أنه أقام بمكة أربع سنين يدرس ويفتي فقيل له إمام الحرمين {cite:shadharat-dhahab p. 310}."
+  en: "Al-Juwayni reached the Hijaz in 450/1058 and resided at Mecca and Medina for four years, teaching, giving fatwas and gathering the paths of the school — whence his honorary title 'Imam of the two sanctuaries' {cite:encyclopaedia-of-islam-2 vol. 2 p. 605} {cite:tarikh-islam-dhahabi p. 230}; Shadharat al-Dhahab likewise says he stayed at Mecca four years teaching and giving legal opinions, so he was called Imam al-Haramayn {cite:shadharat-dhahab p. 310}."
+  ur: "جوینی 450ھ/1058ء میں حجاز پہنچے اور مکہ و مدینہ میں چار سال مقیم رہے، درس دیتے، فتویٰ دیتے اور مذہب کی طرق جمع کرتے رہے — یہیں سے انھیں 'امام الحرمین' کا لقب ملا {cite:encyclopaedia-of-islam-2 vol. 2 p. 605} {cite:tarikh-islam-dhahabi p. 230}؛ شذرات الذہب کے مطابق بھی وہ مکہ میں چار سال درس و افتاء کرتے رہے جس سے یہ لقب پڑا {cite:shadharat-dhahab p. 310}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia]
+date:
+  start: { edtf: "1058~", hijri: "0450", calendar: julian, precision: year, status: tradition, derived: true, note: "بلغ الحجاز سنة ٤٥٠هـ/١٠٥٨م {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  end: { edtf: "1062~", hijri: "0454~", calendar: julian, precision: year, status: tradition, derived: true, note: "أربع سنين من المجاورة {cite:tarikh-islam-dhahabi p. 230}؛ التاريخ تقريبي مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/medina, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "المدرّس المفتي بالحرمين", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 2 art. al-Djuwayni, printed p. 605: 'in 450/1058 he reached the Hidjaz where he taught at Mecca and at Medina for four years'; al-Dhahabi, Tarikh al-Islam s.a. 478 p. 230 (harvest OCR); Ibn al-Imad, Shadharat al-Dhahab 3/310"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-juwayni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

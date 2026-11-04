@@ -1,0 +1,51 @@
+id: job/merchant
+class: job
+label: { ar: "التاجر", en: "Merchant (tajir)", ur: "تاجر" }
+summary:
+  ar: "التاجر هو من يتخذ تبادل السلع بقصد الربح مهنة، وجمعه تجّار. كانت مكة قبل الإسلام مركزاً للقوافل والأسواق، وتاجر فيها النبي محمد وخديجة بنت خويلد بالشراكة. ومن أهل التجارة من يشتري ويخزن ومن يستورد ومن يصدّر بوكلاء يشاركونه الربح، وتعرف الفقه في ذلك عقد المضاربة. وتحدد الموسوعة للتجارة أخلاقاً تحرّم الربا والغرر والغش، وتجعل تعلّم أحكامها واجباً على كل تاجر."
+  en: "The merchant is someone who makes the exchange of goods for profit his trade; the plural is tujjar. Before Islam Mecca was a centre of caravans and markets, and the Prophet Muhammad and Khadija bint Khuwaylid traded there in partnership. Merchants bought and stored, imported and exported, often through agents who shared the profit; the jurists' name for that partnership is mudaraba. The Turkish encyclopaedia sets out ethical limits that forbid interest, deception and gharar, and makes learning the rules of trade an obligation on every merchant."
+  ur: "تاجر وہ شخص ہے جو سامان کے تبادلے کو نفع کے لیے اپنا پیشہ بناتا ہے۔ اسلام سے پہلے مکہ قافلوں اور بازاروں کا مرکز تھا، جہاں نبی اور خدیجہ بنت خویلد شراکت سے تجارت کرتے تھے۔ مضاربت کی شراکت، جس میں سرمایہ ایک طرف سے اور محنت دوسری طرف سے ہوتی ہے، تجارت کا بنیادی ذریعہ رہی۔"
+domain: trade-travel-sea
+kind: commercial
+hirfa: false
+era:
+  origins: pre-islamic
+  first_attested:
+    edtf: "0500/0622"
+    precision: century
+    status: historical
+    note: "The DİA entry gives no year for the first merchants. It describes Mecca as a centre of caravans at the rise of Islam, and says that the trade of Khadija and Muhammad came before their marriage, and so before the first revelation. The range runs from the sixth century to the Hijra; it is the widest the entry supports."
+    sources: [source/tdv-ticaret, source/tdv-hatice]
+  status_today: transformed
+places:
+  - place: place/mecca
+    note: "Caravans from the north in summer and the south in winter stopped there, and fairs were held around it; the entry calls it a centre of trade and religion at the rise of Islam."
+    sources: [source/tdv-ticaret]
+  - place: place/siraf
+    start: { edtf: "0601/0700" }
+    note: "A Persian Gulf port that the entry names as a trading point for Chinese and Arab merchants in the first century of Islam (seventh century)."
+    sources: [source/tdv-ticaret]
+  - place: place/basra
+    start: { edtf: "0750" }
+    note: "The entry names Basra among the great centres of Abbasid trade, especially sea trade, from the 750s."
+    sources: [source/tdv-ticaret]
+  - place: place/baghdad
+    start: { edtf: "0750" }
+    note: "From the Abbasid move east, Baghdad became a more effective local and international trade centre than Damascus, according to the entry."
+    sources: [source/tdv-ticaret]
+regions: [arabia, levant-iraq, persia-central-asia, china-east-asia, south-asia, egypt-nile]
+organization:
+  organized: mixed
+training:
+  mode: mixed
+  certification: "The entry describes no certificate. It says that exercising trade is a communal obligation, and that learning the rules of trade is an individual obligation for each merchant; Umar kept from trade those who did not know its rules."
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/abbasid-early]
+sources: [source/tdv-ticaret, source/tdv-hatice, source/tdv-ebu-sufyan, source/tdv-mudarebe]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'TİCARET' (C. Kallek, vol. 41 pp. 134–144), 'MUDÂREBE' (C. Kallek, vol. 30 pp. 358–362), 'HATİCE' (M. Y. Kandemir, vol. 16 pp. 465–466), 'EBÛ SÜFYÂN' (İ. Aycan, vol. 10 pp. 230–232), all read on 1 Nov 2026 in the web edition. 'TÂCİR' has no headword in the encyclopaedia; 'KARUM' has none either (search finds only a passing mention in the entry on letters, not read). Rewritten by Claude Code. Museum graph at this commit: 52 holders from roles, 107 prose leads, read as census only; the two holders below are the ones the sources read here support."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p1-merchant"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }

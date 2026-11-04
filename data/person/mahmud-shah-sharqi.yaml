@@ -1,0 +1,57 @@
+id: person/mahmud-shah-sharqi
+class: person
+
+label: { ar: "محمود شاه الشرقي", en: "Mahmud Shah Sharqi", ur: "محمود شاہ شرقی" }
+
+names:
+  - { value: "Nasir-ud-Din Mahmud Shah Sharqi", kind: full }
+  - { value: "ناصر الدين محمود شاه الشرقي", kind: full }
+  - { value: "Mahmud Shah", kind: regnal }
+
+gender: male
+
+summary:
+  ar: "ناصر الدين محمود شاه الشرقي (ت. 1457)، رابع سلاطين جونبور في شمال الهند وخليفة أبيه إبراهيم شاه الشرقي سنة 1440. وسّع ملكه بالحملات على البنغال ومالوة وأوريسا وكالبي، وحاصر دلهي سنة 1452 أثناء حربه مع بهلول لودي، ومات سنة 1457 أثناء حملة شمس آباد فخلفه ابنه محمد شاه. تذكر المصادر بنائه المساجد وترميمه جامع أتالا في جونبور."
+  en: "Nasir-ud-Din Mahmud Shah Sharqi (d. 1457), fourth sultan of Jaunpur in northern India, who succeeded his father Ibrahim Shah Sharqi in 1440. He extended his kingdom by campaigns against Bengal, Malwa, Orissa and Kalpi, besieged Delhi in 1452 in his war with Bahlul Lodi, and died in 1457 during the Shamsabad campaign, when his son Muhammad Shah succeeded him. The sources also record his mosque building and his restoration of the Atala Mosque at Jaunpur."
+  ur: "ناصر الدین محمود شاہ شرقی (وفات 1457ء)، شمالی ہندوستان کی جونپور سلطنت کے چوتھے سلطان، جو 1440ء میں اپنے والد ابراہیم شاہ شرقی کے جانشین بنے۔ انھوں نے بنگال، مالوہ، اڑیسہ اور کالپی کی مہمات سے اپنی مملکت وسیع کی، 1452ء میں بہلول لودی سے جنگ میں دہلی کا محاصرہ کیا، اور 1457ء میں شمس آباد مہم کے دوران وفات پائی؛ ان کے بیٹے محمد شاہ جانشین بنے۔ منابع میں ان کی مساجد کی تعمیر اور جونپور کی اٹالا مسجد کی مرمت مذکور ہے۔"
+
+roles: [ruler]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1429~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Only weakly attested. The English article's infobox gives his birth as 16 April 1429 at Jaunpur, but the article is flagged as AI-generated (August 2025), the day-level precision is corroborated in no other source read, and Wikidata carries no birth value at all; the year is therefore carried only as a debated reading. The queue figure of 1420 is attested in no source read. No Hijri year is recorded (1429 CE spans 832–833 AH and no source pairs one). Jaunpur has no place entity in the museum, so the birthplace is note-only."
+  sources: [source/wikipedia-mahmud-shah-sharqi-en]
+
+died:
+  edtf: "1457"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1457, on campaign at Shamsabad, and was succeeded by his eldest son Muhammad Shah: so the English article's narrative, and Wikidata's single death value (+1457) agrees. The article's infobox gives the day as 12 September 1457 and a coin caption in the same article ends his reign in 1456; neither day-level reading is corroborated elsewhere. The queue figure of 1458 is attested in no source read. No Hijri year is recorded (1457 CE spans 861–862 AH and no source pairs one)."
+  sources: [source/wikipedia-mahmud-shah-sharqi-en, source/wikidata-mahmud-shah-sharqi]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school for Mahmud Shah, and none is recorded. His documented practice is stated in full: he ruled the Sharqi sultanate of Jaunpur, is described by the English article — on the standard histories it cites (Habib & Nizami; Haig; Saeed's The Sharqi of Jaunpur) — as a ruler who strengthened his religion, commissioned mosques and restored the Atala Mosque at Jaunpur. The sultanate's Sunni context is dynastic background, not a personal attestation of a school for the man himself. Wikidata carries no religion value."
+    sources: [source/wikipedia-mahmud-shah-sharqi-en, source/wikidata-mahmud-shah-sharqi]
+
+external_ids: { wikidata: "Q121362185" }
+
+sources:
+  - source/wikipedia-mahmud-shah-sharqi-en
+  - source/wikidata-mahmud-shah-sharqi
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mahmud Shah of Jaunpur' and Wikidata Q121362185, read in full (article text and wikitext) at the revisions recorded in their source files, fetched live from the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. No relations are written: his father Ibrahim Shah Sharqi has no record in the museum, so the child_of edge that would belong in this record has no target, and Jaunpur has no place entity, so the parentage, the Jaunpur birth and death places, and the succession by his son Muhammad Shah are all prose-only. This is the minimal honest record for a sultan whose only encyclopedia article is flagged as AI-generated; its reign frame is corroborated by the scholarly works that article cites and by Wikidata's death year."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "century-additions-154G"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

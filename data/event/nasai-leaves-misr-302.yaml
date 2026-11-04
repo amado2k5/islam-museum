@@ -1,0 +1,27 @@
+id: event/nasai-leaves-misr-302
+class: event
+kind: other
+label:
+  ar: "خروج النسائي من مصر إلى دمشق في ذي القعدة ٣٠٢هـ"
+  en: "Al-Nasa'i leaves Egypt for Damascus, Dhu al-Qa'da 302/915"
+  ur: "نسائی کا مصر سے دمشق کی طرف روانگی، ذیقعدہ 302ھ/915ء"
+summary:
+  ar: "خرج النسائي من مصر في آخر عمره إلى دمشق في شهر ذي القعدة سنة اثنتين وثلاثمائة، وقال الدارقطني إنه خرج حاجاً {cite:tarikh-islam-dhahabi p. 109} {cite:tazkirat-al-huffaz j.2 p. 620}؛ وكان قد فارق مصر بعد أن امتّحن فيه الناس على حديثه واستشهد بمقالته في الرجال {cite:wafayat-ayan i p. 26}."
+  en: "In the last year of his life al-Nasa'i left Egypt for Damascus in Dhu al-Qa'da 302/915, and al-Daraqutni says he set out on hajj {cite:tarikh-islam-dhahabi p. 109} {cite:tazkirat-al-huffaz j.2 p. 620}; he left Egypt after having taught there, his learning and his narrator criticism celebrated {cite:wafayat-ayan i p. 26}."
+  ur: "عمر کے آخری حصے میں نسائی ذیقعدہ 302ھ/915ء میں مصر سے دمشق روانہ ہوئے، اور دارقطنی کے مطابق وہ حج کے لیے نکلے تھے {cite:tarikh-islam-dhahabi p. 109} {cite:tazkirat-al-huffaz j.2 p. 620}؛ ان کے علم اور علمِ رجال پر انہیں مصر میں بھرپور شہرت حاصل تھی {cite:wafayat-ayan i p. 26}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [egypt-nile, levant-iraq]
+date:
+  start: { edtf: "0915-05~", hijri: "0302-11", calendar: julian, precision: month, status: tradition, derived: true, note: "خرج من مصر في ذي القعدة سنة اثنتين وثلاثمائة {cite:tarikh-islam-dhahabi p. 109} {cite:tazkirat-al-huffaz j.2 p. 620} = ذو القعدة ٣٠٢هـ ≈ مايو-يونيو ٩١٥م؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+relations:
+  - { type: occurred_at, target: place/misr, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: had_participant, target: person/al-nasai, role: "الراحل المودِّع", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz, source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 303, printed p. 109 (harvest OCR vol. 301-320); Tadhkirat al-Huffaz j.2 printed p. 620 (harvest OCR AAlexandrina-224163); Wafayat al-A'yan i pp. 26-27 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nasai-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

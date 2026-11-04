@@ -1,0 +1,23 @@
+id: event/iltutmish-multan-625
+class: event
+kind: conquest
+label: { ar: "أخذ إيلتتمش الملتان من قباجة ٦٢٥هـ", en: "Iltutmish takes Multan from Qabacha, 625" }
+summary:
+  ar: "ظلت الملتان في سنوات سلطنة دلهي الأولى تحت سلطان ناصر الدين قباجة، مملوك شهاب الدين الغوري الذي كان قد استقر على الملتان وأوج ولهاور وديبل. وضعف مركزه بعد لقائه غير الموفق بجلال الدين الخوارزمشاه سنة ٦٢١هـ/١٢٢٤م حين بلغ جلال الدين النواحي هارباً من المغول المتقدمين، ثم هزمه السلطان شمس الدين إيلتتمش هزيمة منكرة سنة ٦٢٥هـ/١٢٢٨م، فصارت الملتان جزءاً أصيلاً من سلطنة دلهي {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  en: "In the first years of the Delhi Sultanate Multan lay under Nasir al-Din Qabacha, the Ghurid mamluk established over Multan, Uch, Lahore and Daybul. His position was weakened by the unsuccessful encounter of 621/1224 with Jalal al-Din Khwarazm-Shah, who reached the region fleeing the advancing Mongols; then Sultan Shams al-Din Iltutmish defeated him in 625/1228, and Multan became an integral part of the Delhi Sultanate {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  ur: "دہلی سلطنت کے ابتدائی برسوں میں ملتان ناصر الدین قباجہ کے اثر میں تھا — شہاب الدین غوری کا غلام جو ملتان، اُچ، لاہور اور دیبل پر مستقر تھا۔ اس کا مرکز 621ھ/1224ء میں جلال الدین خوارزم شاہ سے ناکام مقابلے سے کمزور ہوا، جو بڑھتے ہوئے مغلوں سے بھگتاہوا اس علاقے میں آیا تھا؛ پھر سلطان شمس الدین التتمش نے 625ھ/1228ء میں اسے شکست دی اور ملتان سلطنتِ دہلی کا لازمی حصہ بن گیا {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [south-asia]
+date:
+  start: { edtf: "1228", hijri: "0625", calendar: julian, precision: year, status: tradition, derived: true, note: "هزيمة قباجة وضم الملتان سنة ٦٢٥هـ/١٢٢٨م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/nasir-al-din-qabacha, role: "المهزوم صاحب الملتان", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 7, MULTĀN, p. 603 (PDF pages) — Qabacha's sway, the 621/1224 encounter, defeat by Iltutmish 625/1228"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-multan-1
+sources: [source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -12,6 +12,7 @@ date:
 relations:
   - { type: occurred_at, target: place/al-aqsa-mosque }
   - { type: occurred_at, target: place/jerusalem }
+  - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/bayt-al-maqdis-fi-al-islam-azhar] }
 sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
 provenance:
   layer: own-research

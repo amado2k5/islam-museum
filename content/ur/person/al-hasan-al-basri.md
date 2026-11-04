@@ -54,3 +54,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 شیخ بیان کرتے ہیں کہ حسن بصری ایک ایسے شخص کے پاس گئے جس کا بیٹا فوت ہوا تھا اور اسے پرسکون اور مضبوط دل پایا، تو کہا: عقلمند وہ فوراً کرتا ہے جو جاہل دس دن بعد کرتا ہے؛ یعنی جاہل کچھ دن بعد ٹھنڈا ہوتا ہے، جبکہ عقلمند شروع ہی سے صبر سے کام لیتا ہے (needs_source: روایت جیسا کہ شیخ بیان کرتے ہیں)۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:30}
+
+## عبد الرحمٰن منصور کے پروگرام «اہالینا» میں
+[[person/abd-al-rahman-mansour|عبد الرحمٰن منصور]] اپنے پروگرام [[work/ahaleena|«اہالینا»]] میں حسن بصری کا یہ قول نقل کرتے ہیں کہ مصافحہ مودت، یعنی محبت، بڑھاتا ہے؛ وہ اسے «دلوں کی کنجیوں» والی قسط میں انس کی اس روایت کے بعد ذکر کرتے ہیں کہ نبی مصافحہ کرنے والے کے ہاتھ سے اپنا ہاتھ نہیں کھینچتے تھے جب تک وہ خود نہ کھینچ لے۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:30}

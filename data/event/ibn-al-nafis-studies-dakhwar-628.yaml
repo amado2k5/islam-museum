@@ -1,0 +1,28 @@
+id: event/ibn-al-nafis-studies-dakhwar-628
+class: event
+kind: other
+label:
+  ar: "ابن النفيس يشتغل بالطب على مهذب الدين الدخوار بدمشق، قبل ٦٢٨هـ"
+  en: "Ibn al-Nafis studies medicine under Muhadhdhib al-Din al-Dakhwar at Damascus, before 628/1230"
+  ur: "ابن نفیس دمشق میں مہذب الدین دخوار سے طب کی تعلیم حاصل کرتے ہیں، 628ھ/1230ء سے پہلے"
+summary:
+  ar: "اشتغل ابن النفيس في الطب على الشيخ مهذب الدين الدخوار شيخ الطب بدمشق وصاحب المدرسة التي بالصاغة العتيقة على الأطباء، فبرع في الصناعة والعلاج {cite:tarikh-islam-dhahabi s.a. 687 p. 312}؛ والدخوار متوفى سنة ٦٢٨هـ، فيكون الاشتغال عليه قبل ذلك {cite:encyclopaedia-of-islam-2 vol. 3 p. 897} {cite:shadharat-dhahab p. 127-128}. ويروي طارق السويدان في برنامج «المبدعون» أن أزمة صحية عرضت له سنة ٦٢٩هـ وهو ابن اثنتين وعشرين دفعته إلى دراسة الطب، وأنه التحق بالمستشفى النوري بدمشق فدرس على مهذب الدين عبد الرحيم وعمران الإسرائيلي {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:05:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:07:30}."
+  en: "Ibn al-Nafis studied medicine under the shaykh Muhadhdhib al-Din al-Dakhwar, Damascus's shaykh of medicine and endower of the physicians' madrasa in the old goldsmiths' quarter, and he excelled in the craft and in treatment {cite:tarikh-islam-dhahabi s.a. 687 p. 312}; al-Dakhwar died in 628/1230, so the apprenticeship predates that year {cite:encyclopaedia-of-islam-2 vol. 3 p. 897} {cite:shadharat-dhahab p. 127-128}. Tariq al-Suwaydan's al-Mubdi'un adds that a health crisis in 629 AH, when he was twenty-two, drove him to medicine, and that he enrolled at the Nuri hospital in Damascus studying under Muhadhdhib al-Din Abd al-Rahim and Imran al-Isra'ili {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:05:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:07:30}."
+  ur: "ابن نفیس نے دمشق میں شیخ مہذب الدین دخوار — جو دمشق کے شیخ الطب اور زرگرون کی قدیم محلہ میں اطباء کے مدرسے کے واقف تھے — سے طب پڑھی اور صنعت اور علاج میں مہارت حاصل کی {cite:tarikh-islam-dhahabi s.a. 687 p. 312}؛ دخوار کی وفات 628ھ/1230ء میں ہوئی، اس لیے یہ تحصیل اس سے پہلے کی ہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 897} {cite:shadharat-dhahab p. 127-128}۔ طارق سویدان کے پروگرام «المبدعون» کے مطابق 629ھ میں بائیس سال کی عمر میں ایک صحت کا بحران انھیں طب کی طرف لایا اور وہ دمشق کے نوری اسپتال میں داخل ہوئے جہاں انھوں نے مہذب الدین عبد الرحیم اور عمران اسرائیلی سے پڑھا {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:05:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:07:30}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1230~", hijri: "0628~", calendar: julian, precision: year, status: tradition, derived: true, note: "اشتغل على الدخوار الذي توفي ٦٢٨هـ {cite:tarikh-islam-dhahabi s.a. 687 p. 312} {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}؛ فالاشتغال قبلها بلا تاريخ دقيق، والتحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-nafis, role: "المتعلّم", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-dakhwar, role: "الأستاذ", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/assabile-tareq-al-suwaidan]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 687, printed p. 312 (harvest OCR 01.-_20240823__51); Encyclopaedia of Islam 2nd ed. vol. 3, art. Ibn al-Nafis, printed p. 897; Tariq al-Suwaydan, al-Mubdi'un ep. 17 timestamps (registered source)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-nafis-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

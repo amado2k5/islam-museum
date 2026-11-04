@@ -1,0 +1,27 @@
+id: event/death-al-thaalibi-429
+class: event
+kind: death
+label:
+  ar: "وفاة الثعالبي بنيسابور، ٤٢٩هـ"
+  en: "Al-Tha'alibi dies at Nishapur, 429/1038"
+  ur: "نیشاپور میں ثعالبی کی وفات، 429ھ/1038ء"
+summary:
+  ar: "توفي الثعالبي بنيسابور سنة تسع وعشرين وأربعمائة، وقال ابن العماد إنه توفي فيها أو التي قبلها، عن ثمانين سنة، بعد أن ملأ المشارق والمغارب دواوينه وتصانيفه التي تجاوزت ثمانين عنواناً في عدّ الصفدي {cite:wafayat-ayan} {cite:shadharat-dhahab p. 246-247} {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}."
+  en: "Al-Tha'alibi died at Nishapur in 429 AH — Ibn al-Imad allows the year before — at eighty years of age, having filled East and West with diwans and compilations that al-Safadi's list counts at eighty-six titles {cite:wafayat-ayan} {cite:shadharat-dhahab p. 246-247} {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}."
+  ur: "ثعالبی کی وفات نیشاپور میں 429ھ میں ہوئی — ابن عماد کے نزدیک ایک برس پہلے بھی ہو سکتی ہے — اسی برس کی عمر میں، ایسے حال میں کہ ان کے دواوین اور تصانیف مشرق و مغرب میں پھیل چکی تھیں؛ صفدی کی فہرست میں ان کے عنوانات چھیاسی ہیں {cite:wafayat-ayan} {cite:shadharat-dhahab p. 246-247} {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1038", hijri: "0429", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة تسع وعشرين وأربعمائة {cite:wafayat-ayan}؛ وقيل فيها أو التي قبلها {cite:shadharat-dhahab p. 246-247}؛ التحويل مشتق.", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-thaalibi, role: "المتوفَّى", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 (T-U), PDF pp. 450-452, art. al-Tha'alibi, Abu Mansur 'Abd al-Malik (P. J. E. Cachia); wafayat-ayan (Ihsan Abbas ed.) notice of al-Tha'alibi; shadharat-dhahab vol. 3 s.a. 429, printed pp. 246-247"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-thaalibi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

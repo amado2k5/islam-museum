@@ -1,0 +1,32 @@
+id: event/al-dhahabi-rihla-700
+class: event
+kind: other
+label:
+  ar: "رحلة الذهبي في طلب الحديث، حوالي ٧٠٠هـ"
+  en: "Al-Dhahabi's hadith journeys, c. 700/1300"
+  ur: "ذہبی کا طلبِ حدیث کے سفر، تقریباً 700ھ/1300ء"
+summary:
+  ar: "رحل الذهبي في طلب الحديث فسمع ببعلبك من ابن خليك بن علوان وزينب بنت عمر بن الكندي، وبمكة من التوزري، وبحلب من شوكر الزيني، وبنابلس من العماد بن بدران، وبالإسكندرية من أبي الحسن العراقي ويحيى الصواف، وأطال المقام بالقاهرة حيث أخذ عن ابن منصور الإفريقي وعن تقي الدين ابن دقيق العيد، حتى جاوزت شيوخه ألفاً وثلاثمائة جمع تراجمهم في «معجمه» {cite:encyclopaedia-of-islam-2 vol. 2 p. 215}؛ وذكر ابن حجر أنه خرج لنفسه نحو ثلاثين بلدانية {cite:durar-kamina-jil-1993 3/337}."
+  en: "Al-Dhahabi travelled in quest of hadith: he heard at Baalbek from Ibn Khulayk ibn Ulwan and Zaynab bint Umar ibn al-Kindi, at Mecca from al-Tuzari, at Aleppo from Shawkar al-Zayni, at Nablus from al-Imad ibn Badran, at Alexandria from Abu al-Hasan al-Iraqi and Yahya al-Sawwaf, and stayed longest at Cairo under Ibn Mansur al-Ifriqi and chiefly Taqi al-Din Ibn Daqiq al-Id — until his teachers passed 1,300, whose biographies he collected in his Mu'jam {cite:encyclopaedia-of-islam-2 vol. 2 p. 215}. Ibn Hajar notes he produced some thirty travel parts of his own {cite:durar-kamina-jil-1993 3/337}."
+  ur: "ذہبی نے طلبِ حدیث میں سفر کیا: بعلبک میں ابن خلیک بن علوان اور زینب بنت عمر بن الکندی سے، مکہ میں توزری سے، حلب میں شوکر زینی سے، نابلوس میں عماد بن بدران سے، اسکندریہ میں ابو الحسن عراقی اور یحیی صواف سے سنا، اور قاہرہ میں سب سے زیادہ قیام کیا جہاں ابن منصور افریقی اور خصوصاً تقی الدین ابن دقیق العید سے پڑھا — یہاں تک کہ ان کے شیوخ تیرہ سو سے تجاوز کر گئے جن کی تراجم انہوں نے اپنے «معجم» میں جمع کیں {cite:encyclopaedia-of-islam-2 vol. 2 p. 215}۔ ابن حجر کے مطابق انہوں نے اپنے لیے تقریباً تیس سفری جزوے مرتب کیے {cite:durar-kamina-jil-1993 3/337}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+date:
+  start: { edtf: "1300~", hijri: "0700~", calendar: julian, precision: decade, status: tradition, derived: true, note: "رحلة الطلب في أوائل القرن الثامن قبل تصديره بالجامع في المحرم ٧٠٠هـ {cite:durar-kamina-jil-1993 3/338}؛ السنة تقريبية.", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/baalbek, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/nablus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/alexandria, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-dhahabi, role: "الرحّالة", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 2 (C-G), printed p. 215, art. al-Dhahabi; durar-kamina-jil-1993 vol. 3 p. 337"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-dhahabi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,22 +1,53 @@
 id: person/al-qushayri-abu-l-qasim
 class: person
-label: { ar: "أبو القاسم القشيري", en: "Abu al-Qasim al-Qushayri" }
+label: { ar: "أبو القاسم القشيري", en: "Abu al-Qasim al-Qushayri", ur: "ابو القاسم قشیری" }
 names:
   - { value: "أبو القاسم عبد الكريم بن هوازن القشيري", kind: full }
+  - { kind: kunya, lang: ar, value: "أبو القاسم" }
+  - { kind: nisba, lang: ar, value: "القشيري" }
+  - { kind: nisba, lang: ar, value: "النيسابوري" }
 gender: male
+born: { edtf: "0986-08~", hijri: "0376-03", calendar: julian, precision: month, status: tradition, derived: true, note: "قال لي الخطيب: ولدت في ربيع الأول سنة ست وسبعين وثلاثمائة بناحية أستوا من نواحي نيسابور {cite:tarikh-islam-dhahabi p. 173}؛ ولد سنة ٣٧٦هـ بأستوا {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+died: { edtf: "1072-12-30~", hijri: "0465-04-16", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي صبيحة يوم الأحد السادس عشر من ربيع الآخر سنة ٤٦٥هـ على قول عبد الغافر الفارسي {cite:tarikh-islam-dhahabi p. 175} = 30 ديسمبر 1072م {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}؛ وعند ابن الجوزي توفي في رجب سنة خمس وستين وأربعمائة بنيسابور {cite:muntazam-ibn-al-jawzi j.8 pp. 646-647}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/muntazam-ibn-al-jawzi] }
+roles: [scholar, theologian, muhaddith]
+traditions: [sunni]
 summary:
-  ar: "صاحب الرسالة القشيرية؛ ممن أضافهم عميد الملك الكندري إلى الرافضة في اللعن على منابر خراسان ففارق خراسان مع أئمتها ثم أكرمه نظام الملك لما جاءت دولته {cite:shadharat-dhahab p. 310}. وعند ابن الجوزي ولد سنة ست وسبعين وثلثمائة وتوفي أبوه وهو طفل، ولزم أبا علي الدقاق فجذبه عن مخالطة أهل الدنيا، وأخذ الكلام عن ابن فورك فصار رأس الأشاعرة، وصنّف التفسير الكبير، وخرج إلى الحج في رفقة فيها الجويني والبيهقي؛ وتوفي في رجب سنة خمس وستين وأربعمائة بنيسابور ودُفن إلى جانب شيخه أبي علي الدقاق، ولم يدخل أحد من أولاده بيته ولا مس ثيابه ولا كتبه إلا بعد سنين احتراماً له وتعظيماً، ومن عجيب ما وقع أن الفرس التي كان يركبها ركبها عشرين سنة فلم تُعلف بعد وفاته وتلفت بعد أسبوع {cite:muntazam-ibn-al-jawzi j.8 p.646-647}."
-  en: "The Qushayri of the Risala — among the imams al-Kunduri drove from Khurasan by lumping the Ash'aris with the Rafida on the minbars, and whom Nizam al-Mulk's reign restored {cite:shadharat-dhahab p. 310}."
-died: { edtf: "1073-02~", hijri: "0465-07", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في رجب سنة خمس وستين وأربعمائة بنيسابور {cite:muntazam-ibn-al-jawzi j.8 p.646-647}؛ التحويل مشتق.", sources: [source/muntazam-ibn-al-jawzi] }
-roles: [scholar, theologian]
+  ar: "الإمام أبو القاسم عبد الكريم بن هوازن القشيري النيسابوري، شيخ خراسان ومقدّم الطائفة وصاحب «الرسالة القشيرية» أشهر متون التصوف؛ من أستوا، تربى على الأدب والفروسية، فلما دخل نيسابور لشأن ضيعته وقع في مجلس أبي علي الدقاق فلزمه وتزوج ابنته، وأخذ الفقه عن أبي بكر الطوسي والكلام عن ابن فورك وأبي إسحاق الإسفرائيني حتى صار رأس الأشاعرة؛ صنّف «التفسير الكبير» قبل سنة ٤١٠هـ وكتب «شكاية أهل السنة» في محنة لعن الأشاعرة على المنابر، فنُفي وسجن وحجّ مع أهل العلم، ثم عاد إلى نيسابور في دولة نظام الملك وتوفي بها سنة ٤٦٥هـ ودُفن في مدرسته إلى جانب أبي علي الدقاق {cite:encyclopaedia-of-islam-2 vol. 5 pp. 564-565} {cite:tarikh-islam-dhahabi pp. 170-176}."
+  en: "Abu al-Qasim Abd al-Karim ibn Hawazin al-Qushayri of Nishapur — shaykh of Khurasan, head of the Sufi community and author of the Risala, the most famous manual of Sufism; raised at Ustuwa on letters and horsemanship, he entered Nishapur on a tax errand and fell into Abu Ali al-Daqqaq's circle, married his daughter, and took law from Abu Bakr al-Tusi and kalam from Ibn Furak and Abu Ishaq al-Isfarayini until he stood at the head of the Ash'aris; he wrote his great tafsir before 410/1019, penned the 'Complaint of the people of the Sunna' through the pulpit-cursing ordeal, was imprisoned, exiled and made the Pilgrimage with the scholars, then returned to Nishapur under Nizam al-Mulk and died there in 465/1072, buried in his own madrasa beside Abu Ali al-Daqqaq {cite:encyclopaedia-of-islam-2 vol. 5 pp. 564-565} {cite:tarikh-islam-dhahabi pp. 170-176}."
+  ur: "نیشاپور کے امام ابو القاسم عبد الکریم بن ہوازن قشیری — شیخِ خراسان، طائفۂ صوفیہ کے پیشوا اور «رسالہ قشیریہ» کے مصنف جو تصوف کی مشہور ترین متون میں ہے؛ استوا میں ادب اور فروسیت کی تربیت پائی، ایک مالیاتی معاملے پر نیشاپور آئے تو ابو علی دقاق کے مجلس سے جُڑ گئے، ان کی بیٹی سے شادی کی، ابو بکر طوسی سے فقہ اور ابن فورک و ابو اسحاق اسفرائینی سے علمِ کلام پڑھا یہاں تک کہ اشاعرہ کے سرکردہ ہو گئے؛ انھوں نے 410ھ/1019ء سے پہلا اپنا بڑا تفسیری کارنامہ لکھا، منبروں پر لعن کی محنت میں «شکایت اہلِ سنت» تصنیف کی، قید و جلاوطنی سہی اور علماء کے ساتھ حج کیا، پھر نظام الملک کے دور میں نیشاپور لوٹے اور 465ھ/1072ء میں وہیں فوت ہوئے اور اپنی مدرسہ میں ابو علی دقاق کے پہلو میں دفن ہوئے {cite:encyclopaedia-of-islam-2 vol. 5 pp. 564-565} {cite:tarikh-islam-dhahabi pp. 170-176}۔"
 wings: [people]
+themes: [spirituality-and-sufism, development-of-law-theology-institutions]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: born_in, target: place/ustwa, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: died_in, target: place/nishapur, sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/abu-ali-al-daqqaq, role: "شيخ الطريقة", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/abu-bakr-al-tusi, role: "فقيهه في الفقه", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/ibn-furak, role: "أستاذه في الكلام والنظر", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/al-isfarayini-abu-ishaq-ibrahim, role: "شيخه في الأصول", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/lataif-al-isharat, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/risala-qushayriyya, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/shikayat-ahl-al-sunna, sources: [source/encyclopaedia-of-islam-2, source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/qushayri-daqqaq-circle-400, role: "الوافد المريد", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/qushayri-succeeds-daqqaq-405, role: "الخلف في مجالس التذكير", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/lataif-isharat-composed-410, role: "المصنّف", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/qushayri-ashari-manifesto-436, role: "صاحب المحضر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/qushayri-first-imla-437, role: "المدرّس المُملي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nishapur-ashari-fitna-445, role: "الشيخ المستهدف بالنفي", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/qushayri-imprisoned-shikaya-446, role: "المسجون الشاكي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/qushayri-baghdad-qaim-448, role: "محدّث القصر", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/ulama-hijra-nishapur-450, role: "الشيخ المهاجر", sources: [source/tabaqat-shafiiyya-subki, source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/qushayri-qazvin-tughril-454, role: "المنشد في صحبة السلطان", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/qushayri-return-nishapur-455, role: "العائد المكرَّم", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+external_ids: { wikidata: "Q4115259" }
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/shadharat-dhahab, source/tabaqat-shafiiyya-subki]
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-11
-external_ids: { wikidata: "Q4115259" }
-sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.1 art. AL-KUSHAYRI (H. Halm), printed pp. 564-565 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 465, printed pp. 170-176 (harvest OCR); Ibn al-Jawzi, al-Muntazam j.8 pp. 646-647 (harvest OCR); al-Subki, Tabaqat al-Shafi'iyya al-Kubra printed pp. 269-276 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qushayri-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

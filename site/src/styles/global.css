@@ -51,7 +51,7 @@ body {
 }
 html:is([lang="ar"], [lang="ur"]) body { font-family: var(--ar-body); line-height: 1.8; font-size: 1.15rem; }
 /* sans-serif option for Arabic (header toggle; Cairo) — the default stays Amiri / Noto Naskh */
-html[data-font="sans"] { --ar-body: "Cairo", "Tajawal", system-ui, sans-serif; --ar-display: "Cairo", "Noto Naskh Arabic", sans-serif; }
+html[data-font="sans"] { --ar-body: "Cairo", "Tajawal", system-ui, sans-serif; --ar-display: "Cairo", "Noto Naskh Arabic", sans-serif; --serif: var(--sans); }
 html:is([lang="ar"], [lang="ur"]) h1, html:is([lang="ar"], [lang="ur"]) h2, html:is([lang="ar"], [lang="ur"]) h3, html:is([lang="ar"], [lang="ur"]) .display { font-family: var(--ar-display); }
 .latin { font-family: var(--sans); }
 [lang="ar"] .ltr, .ltr { unicode-bidi: isolate; }
@@ -243,8 +243,8 @@ html[dir="rtl"] .reading-progress span { transform-origin: right; }
 @media (max-width: 720px) {
   /* keep the last content clear of the fixed toolbar (about 64px tall) */
   body { padding-bottom: 72px; }
-  .explore-bar { display: flex; position: fixed; inset-inline: 0; bottom: 0; z-index: 50; gap: 8px; justify-content: space-around; padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); background: var(--bg); border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(10, 37, 51, 0.08); }
-  .explore-bar a, .explore-bar button { flex: 1; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; font-family: var(--sans); font-size: 0.92rem; border-radius: 10px; background: var(--panel); color: var(--fg); border: 0; text-decoration: none; cursor: pointer; }
+  .explore-bar { display: flex; position: fixed; inset-inline: 0; bottom: 0; z-index: 50; gap: 12px; justify-content: space-around; padding: 10px 14px calc(10px + env(safe-area-inset-bottom)); background: var(--bg); border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(10, 37, 51, 0.08); }
+  .explore-bar a, .explore-bar button { flex: 1; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; text-align: center; font-family: var(--sans); font-size: 0.92rem; border-radius: 10px; background: var(--panel); color: var(--fg); border: 0; text-decoration: none; cursor: pointer; }
   html:is([lang="ar"], [lang="ur"]) .explore-bar a, html:is([lang="ar"], [lang="ur"]) .explore-bar button { font-family: var(--ar-body); font-size: 1rem; }
   main { padding-bottom: 76px; }
   html:is([lang="ar"], [lang="ur"]) body { font-size: 18px; line-height: 1.8; }
@@ -299,14 +299,21 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 .dd-menu .d { font-size: .86rem; color: var(--muted); line-height: 1.6; }
 .chip.soon { font-size: .72rem; border: 1px solid var(--gold); background: transparent; padding: 0 8px; }
 .nav-tools { margin-inline-start: auto; display: flex; align-items: center; gap: 8px; flex: none; flex-wrap: wrap; }
-.nav-tools .chip { white-space: nowrap; }
+.nav-tools .chip { white-space: nowrap; justify-content: center; text-align: center; }
 @media (max-width: 720px) {
   html.js .nav-links { display: none; }
   html.js .nav-links.open { display: flex; flex-direction: column; align-items: stretch; position: absolute; top: 100%; inset-inline: 0; background: var(--card); border-bottom: 1px solid var(--line); padding: 10px 16px 14px; gap: 0; box-shadow: 0 12px 24px rgba(10,37,51,.12); box-sizing: border-box; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
   html.js .nav-links.open .top-link, html.js .nav-links.open .dd > summary { padding: 11px 6px; border-bottom: 1px solid var(--line); border-radius: 0; }
+  /* GorillaQA #9: the direct links ("Architecture & Art", "Browse types") become
+     full-width rows like the dropdown summaries around them. */
+  html.js .nav-links.open .top-link { display: flex; width: 100%; box-sizing: border-box; }
+  html.js .nav-links.open .dd { width: 100%; }
   html.js .nav-links.open .dd-menu { position: static; box-shadow: none; border: 0; min-width: 0; max-width: none; max-height: none; overflow: visible; padding: 0 0 6px 10px; }
   html.js .nav-links.open .dd-menu .d { display: none; }
-  .nav-tools { margin-inline-start: 0; width: 100%; justify-content: flex-start; }
+  /* GorillaQA #10: keep the last menu entry clear of the fixed bottom bar (~76px). */
+  html.js .nav-links.open { padding-bottom: 92px; }
+  /* GorillaQA #3: spread the tools across the row instead of crowding one side. */
+  .nav-tools { margin-inline-start: 0; width: 100%; justify-content: space-between; }
   .nav-row { flex-wrap: wrap; position: relative; }
 }
 
@@ -518,6 +525,14 @@ html:is([lang="ar"], [lang="ur"]) .gx-label { font-family: var(--ar-body); font-
 .gx-side { background: var(--panel); border-radius: 14px; padding: 12px 14px; font-size: .92rem; }
 .gx-legend { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 3px 10px; }
 .gx-legend li { display: flex; align-items: center; gap: 6px; }
+.gx-filter { display: flex; align-items: center; gap: 6px; width: 100%; min-height: 28px; padding: 2px 6px; border: 1px solid transparent; border-radius: 8px; background: transparent; color: inherit; font: inherit; text-align: start; cursor: pointer; }
+.gx-filter:hover:not(:disabled) { border-color: var(--line); }
+.gx-filter:focus-visible { outline: 2px solid var(--gold); outline-offset: 1px; }
+.gx-filter:disabled { cursor: default; opacity: .45; }
+.gx-filter[aria-pressed="true"] { border-color: var(--gold); background: var(--card); font-weight: 600; }
+.gx-legend.is-filtered .gx-filter[aria-pressed="false"]:not(:disabled) { opacity: .6; }
+.gx-count { margin-inline-start: auto; font-size: .75rem; opacity: .75; }
+.gx-all { margin-top: 8px; }
 .gx-swatch { width: 11px; height: 11px; border-radius: 50%; display: inline-block; background: #7a5c3e; flex: none; }
 .gx-swatch[data-class="person"] { background: #c5a059; } .gx-swatch[data-class="place"] { background: #2a7b88; } .gx-swatch[data-class="event"] { background: #3f6fb5; }
 .gx-swatch[data-class="work"] { background: #9e4a38; } .gx-swatch[data-class="concept"] { background: #1c4e40; } .gx-swatch[data-class="group"] { background: #8e5aa8; }

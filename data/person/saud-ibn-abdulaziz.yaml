@@ -1,0 +1,76 @@
+id: person/saud-ibn-abdulaziz
+class: person
+
+label: { ar: "سعود الكبير بن عبد العزيز بن محمد آل سعود", en: "Saud ibn Abdulaziz ibn Muhammad Al Saud", ur: "سعود بن عبد العزیز بن محمد بن سعود" }
+
+names:
+  - { value: "Saud bin Abdulaziz bin Muhammad bin Saud Al Saud", kind: full }
+  - { value: "سعود بن عبد العزيز بن محمد بن سعود بن محمد بن مقرن آل سعود", kind: full }
+  - { value: "Saud al-Kabir", kind: laqab }
+  - { value: "سعود الكبير", kind: laqab }
+  - { value: "Abu Abdullah", kind: kunya }
+
+gender: male
+
+summary:
+  ar: "الإمام سعود بن عبد العزيز بن محمد آل سعود (1748 – 1814)، الملقّب بعد وفاته بسعود الكبير، ثالث أئمة الدولة السعودية الأولى وحاكمها من سنة 1803 حتى وفاته. كان القائد العسكري للدولة في حياة أبيه، فضمّ الأحساء وقاد نهب كربلاء سنة 1802، ثم امتدت الدولة في عهده إلى مكة والمدينة والبحرين وعُمان، وتوفي بالدرعية بحمّى سنة 1814 فخلفه ابنه عبد الله."
+  en: "Imam Saud ibn Abdulaziz ibn Muhammad Al Saud (1748–1814), called Saud al-Kabir, Saud the Great, after his death, was the third imam of the first Saudi state, ruling from 1803 until his death. He had been the state's chief military commander in his father's lifetime, taking al-Hasa and leading the sack of Karbala in 1802; under his own rule the state took Mecca and Medina and reached Bahrain and Oman. He died of a fever at Diriyah in 1814 and was succeeded by his son Abdullah."
+  ur: "امام سعود بن عبد العزیز بن محمد آل سعود (1748ء – 1814ء)، جنھیں وفات کے بعد سعود الکبیر کہا گیا، پہلی سعودی ریاست کے تیسرے امام تھے اور 1803ء سے وفات تک حکمران رہے۔ والد کی زندگی میں ریاست کے سپہ سالار تھے؛ احساء فتح کیا اور 1802ء میں کربلا پر حملے کی قیادت کی۔ ان کے دور میں ریاست مکہ، مدینہ، بحرین اور عمان تک پھیلی۔ 1814ء میں درعیہ میں بخار سے وفات پائی اور بیٹے عبد اللہ جانشین ہوئے۔"
+
+roles: [ruler, scholar]
+regions: [arabia]
+wings: [people]
+
+born:
+  edtf: "1748"
+  hijri: "1161"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article and the Arabic article agree on 1748, the Arabic article pairing it with 1161 AH and placing his birth in the al-Turaif quarter of Diriyah, and the English article making him his father's eldest son; Wikidata carries a second birth year, 1750, which is preserved here and makes the year debated. Diriyah has no museum place record yet, so no born_in edge is written."
+  sources: [source/wikipedia-saud-ibn-abdulaziz-en, source/wikipedia-saud-ibn-abdulaziz-ar, source/wikidata-saud-ibn-abdulaziz]
+
+died:
+  edtf: "1814-04-27"
+  hijri: "1229"
+  calendar: gregorian
+  precision: day
+  status: debated
+  note: "The English article records that he died at Diriyah on 27 April 1814 of a fever and was succeeded by his eldest son Abdullah; the Arabic article pairs his death year with 1229 AH. Wikidata carries 1 May 1814 as an alternative day, preserved here, so the day is marked debated. Diriyah has no museum place record yet, so no died_in edge is written."
+  sources: [source/wikipedia-saud-ibn-abdulaziz-en, source/wikipedia-saud-ibn-abdulaziz-ar, source/wikidata-saud-ibn-abdulaziz]
+
+relations:
+  - { type: child_of, target: person/abdulaziz-ibn-muhammad, sources: [source/wikipedia-saud-ibn-abdulaziz-en, source/wikipedia-saud-ibn-abdulaziz-ar, source/wikidata-saud-ibn-abdulaziz] }
+  - { type: successor_of, target: person/abdulaziz-ibn-muhammad, sources: [source/wikipedia-saud-ibn-abdulaziz-en, source/wikipedia-saud-ibn-abdulaziz-ar] }
+  - { type: student_of, target: person/muhammad-ibn-abd-al-wahhab, sources: [source/wikipedia-saud-ibn-abdulaziz-ar, source/wikipedia-saud-ibn-abdulaziz-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school for the man himself. The
+      Arabic article counts him among the leading scholars of his
+      age in exegesis, hadith and fiqh, says he studied under
+      Muhammad ibn Abd al-Wahhab and held teaching sessions in his
+      palace, and the English article describes his rule as the
+      reform movement's period of expansion while contrasting him
+      with his deeply religious father as a man interested in the
+      material side of rule. Scholarship, discipleship and movement
+      leadership name no madhhab by themselves, and Wikidata gives
+      only Islam. His faith is therefore recorded as unknown.
+    sources: [source/wikipedia-saud-ibn-abdulaziz-en, source/wikipedia-saud-ibn-abdulaziz-ar, source/wikidata-saud-ibn-abdulaziz]
+
+external_ids: { wikidata: "Q2227089" }
+
+sources:
+  - source/wikipedia-saud-ibn-abdulaziz-en
+  - source/wikipedia-saud-ibn-abdulaziz-ar
+  - source/wikipedia-saud-ibn-abdulaziz-ur
+  - source/wikidata-saud-ibn-abdulaziz
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377452397 of 29 September 2026), Arabic Wikipedia (revision 76079234 of 3 August 2026), Urdu Wikipedia (revision 6746751 of 19 February 2025) and Wikidata Q2227089 (item revision 2559157482), fetched live in-session on 1 November 2026; the QID was grounded from the Arabic article's own page property, the English and Urdu articles agreeing through the item's sitelinks, and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building: the museum's saud-bin-abdulaziz is King Saud (Q244206, 1902-1969), a different man, and ibn-saud is that king's father, also a different man; this imam is therefore built as saud-ibn-abdulaziz and his sources carry the ibn form so as not to collide with the king's sources. The child_of, successor_of and student_of edges are written here, in the son's, successor's and student's record; the two Muhammads of his father's generation are kept distinct throughout."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-164j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,63 @@
+id: person/fareed-zakaria
+class: person
+
+label: { ar: "فريد زكريا", en: "Fareed Zakaria", ur: "فرید زکریا" }
+
+names:
+  - { value: "Fareed Rafiq Zakaria", kind: full }
+  - { value: "فريد رفيق زكريا", kind: full }
+
+gender: male
+
+summary:
+  ar: "صحفي ومؤلف أمريكي من أصل هندي، وُلد في مومباي سنة 1964. كان مدير تحرير «فورين أفيرز» ومحرر «نيوزويك إنترناشيونال»، ويقدّم منذ 2008 برنامج «جي بي إس» على سي إن إن، ومن كتبه «مستقبل الحرية» (2003) و«العالم ما بعد الأمريكي» (2008) و«عصر الثورات» (2024)؛ ومنحته الهند وسام بادما بوشان سنة 2010."
+  en: "Indian-American journalist and author, born in Mumbai in 1964. A former managing editor of Foreign Affairs and editor of Newsweek International, he has hosted CNN's Fareed Zakaria GPS since 2008 and wrote The Future of Freedom (2003), The Post-American World (2008) and Age of Revolutions (2024); India awarded him the Padma Bhushan in 2010."
+  ur: "بھارتی نژاد امریکی صحافی اور مصنف، جو 1964 میں ممبئی میں پیدا ہوئے۔ فارن افیئرز کے منیجنگ ایڈیٹر اور نیوز ویک انٹرنیشنل کے مدیر رہے؛ 2008 سے سی این این پر «فرید زکریا جی پی ایس» پیش کر رہے ہیں؛ ان کی کتابوں میں «دی فیوچر آف فریڈم» (2003)، «دی پوسٹ امریکن ورلڈ» (2008) اور «ایج آف ریوولوشنز» (2024) شامل ہیں؛ بھارت نے 2010 میں انہیں پدما بھوشن دیا۔"
+
+roles: [journalist, writer, presenter]
+wings: [people, living]
+regions: [south-asia, americas-oceania]
+
+born:
+  edtf: "1964-01-20"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Mumbai on 20 January 1964; the English and Arabic articles and Wikidata agree. No place entity for Mumbai exists in the museum, so no born_in edge is written. His father, the politician and scholar Rafiq Zakaria, has no museum record, so no child_of edge is written. The Hijri year 1383 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-fareed-zakaria-en, source/wikipedia-fareed-zakaria-ar, source/wikidata-fareed-zakaria]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Zakaria's own self-description is preserved here because it
+      settles nothing under the founder's rulings of 1 November
+      2026. He has described himself as a nonpracticing Muslim; in
+      his Washington Post column of 10 December 2015 he wrote as a
+      Muslim and an American, and he has said of his views on faith
+      that they are complicated, somewhere between deism and
+      agnosticism, adding that he is completely secular in his
+      outlook. A self-identification that names no school and
+      expressly sits between positions cannot be converted into
+      any specific value. His birth into a Konkani Muslim family
+      is background and was not counted. His faith is recorded as
+      unknown.
+    sources: [source/wikipedia-fareed-zakaria-en]
+
+external_ids: { wikidata: "Q333425" }
+
+sources:
+  - source/wikipedia-fareed-zakaria-en
+  - source/wikipedia-fareed-zakaria-ar
+  - source/wikidata-fareed-zakaria
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Fareed Zakaria' (revision 1380129851 of 13 October 2026), Arabic Wikipedia article «فريد زكريا» (revision 75284511 of 10 June 2026) and Wikidata Q333425 (item revision 2549534405 of 26 September 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and each QID grounded from the article's own page property. Existence checked by slug and name fragments across data/person/ — no prior record and no draft stub. The century queue's year 1964 is confirmed, with the day from the articles."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-163a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

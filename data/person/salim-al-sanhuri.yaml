@@ -3,11 +3,11 @@ class: person
 label:
   ar: "سالم السنهوري"
   en: "Salim al-Sanhuri"
-roles: [scholar]
+roles: [jurist, mufti]
 gender: male
 summary:
-  ar: "بطاقة أولية لسالم السنهوري، فقيه مالكي ومفتي مصري القرن السادس عشر، توفي سنة ١٦٠٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Salim al-Sanhuri, the sixteenth-century Egyptian Maliki jurist and mufti, d. 1600; the biographical entry is not yet checked on the page."
+  ar: "سالم السنهوري، فقيه مالكي ومفتي مصر، صاحب حاشية على مختصر خليل في تسعة مجلدات؛ توفي سنة 1015هـ (1606م)."
+  en: "Salim al-Sanhuri (1538–1606), Egyptian Maliki mufti, author of a nine-volume gloss on Khalil's Mukhtasar."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q12215086
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0066
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.72)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

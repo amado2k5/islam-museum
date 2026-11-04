@@ -1,0 +1,46 @@
+id: job/qadi
+class: job
+label: { ar: "القاضي", en: "Qadi (judge)", ur: "قاضی" }
+summary:
+  ar: "القاضي هو من تعيّنه السلطة المختصة للفصل في الخصومات والدعاوى بين الناس بالأحكام الشرعية. بدأ القضاء في زمن النبي، وصار منصباً تعيّنه الدولة في عهد عمر، ثم تنظّم في العهد العباسي بقاضي القضاة، وبلغ في الدولة العثمانية ترتيباً دقيقاً بالتكوين في المدارس وتعيين البراءات. وهو اليوم، في أغلب الدول، موظف في نظام قضائي حديث أو يعمل في الأحوال الشخصية."
+  en: "The qadi is the person appointed by the competent authority to settle disputes between people by the rules of the sharia. The office began in the Prophet's time, became a state appointment under Umar, was organised under a chief judge in the Abbasid period, and reached a close Ottoman system of training and imperial appointment. Today it has mostly been absorbed into modern court systems or survives in personal-status matters."
+  ur: "قاضی وہ شخص ہے جسے مجاز اتھارٹی شریعت کے مطابق لوگوں کے جھگڑے اور مقدمات نمٹانے کے لیے مقرر کرتی ہے۔ یہ منصب نبی کے زمانے میں شروع ہوا، عمر کے دور میں ریاستی تقرری بنا، عباسی دور میں قاضی القضاة کے تحت منظم ہوا، اور عثمانی دور میں تعلیم اور شاہی فرمان کے ذریعے تقرری کا باقاعدہ نظام بنا۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  first_attested:
+    edtf: "0622/0632"
+    precision: decade
+    status: historical
+    note: "The DİA entry places the Prophet's judging in Medina, the years before his death in 632. It does not give a year for the first named appointments (Attab ibn Usayd to Mecca and others), so the range is the widest the entry supports."
+    sources: [source/tdv-kadi-atar]
+  status_today: transformed
+places:
+  - place: place/mecca
+    note: "Attab ibn Usayd was sent as governor and judge; the entry gives no year."
+    sources: [source/tdv-kadi-atar]
+  - place: place/baghdad
+    note: "Under Harun al-Rashid a chief judge (qadi al-qudat) was appointed to help choose the city judges."
+    sources: [source/tdv-kadi-atar]
+  - place: place/edirne
+    start: { edtf: "1451" }
+    note: "Ahmed Pasha of Bursa was appointed judge of Edirne in 855 AH (1451)."
+    sources: [source/tdv-ahmed-pasa-bursali]
+regions: [arabia, levant-iraq, anatolia-balkans]
+organization:
+  organized: court-office
+training:
+  mode: mixed
+  certification: "In the Ottoman period: study in the Sahn-ı Semân madrasas (from Mehmed II) and later the Süleymaniye, a period of apprenticeship (mülazemet), an examination, and an appointment by imperial berat. Before that, appointment by the caliph or a delegate."
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/gunpowder-empires]
+sources: [source/tdv-kadi-atar, source/tdv-kadi-osmanli-ortayli, source/tdv-ahmed-pasa-bursali]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'KADI' (F. Atar, vol. 24 pp. 66–69) and 'Osmanlı Devleti'nde Kadı' (İ. Ortaylı, vol. 24 pp. 69–73), both read in full on 1 Nov 2026; TDV 'AHMED PAŞA, Bursalı' (vol. 2 pp. 111–112) for Edirne 855 AH. Rewritten by Claude Code. Museum graph at this commit: 124 holders from roles, 674 prose leads, read as census only; the holders below are the two whose entries the DİA text supports"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p1-s02"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }

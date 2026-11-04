@@ -1,0 +1,27 @@
+id: event/birth-al-suyuti-849
+class: event
+kind: birth
+label:
+  ar: "ولادة جلال الدين السيوطي بالقاهرة، ٨٤٩هـ/١٤٤٥م"
+  en: "Birth of Jalal al-Din al-Suyuti in Cairo, 849/1445"
+  ur: "قاہرہ میں جلال الدین سیوطی کی پیدائش، 849ھ/1445ء"
+summary:
+  ar: "وُلد عبد الرحمن بن أبي بكر جلال الدين السيوطي في القاهرة يوم الأربعاء ١ رجب سنة ٨٤٩هـ الموافق ٣ تشرين الأول ١٤٤٥م، وكان أبوه يُدرّس الفقه الشافعي وينوب في القضاء؛ وينتسب السيوطي من جهة أبيه إلى أصل فارسي، وكانت الأسرة قد استقرت في أسيوط في العصر المملوكي، وأمه جارية شركسية. وتروى عن ولادته حكاية مبشّرة: قيل إن أمه وضعته وهي في مكتبة البيت، فلُقّب من أجل ذلك «ابن الكتب» {cite:encyclopaedia-of-islam-2 vol. 9 p. 913-914}."
+  en: "Abd al-Rahman ibn Abi Bakr, Jalal al-Din al-Suyuti, was born in Cairo on 1 Rajab 849 (3 October 1445). His father taught Shafiʿi law and acted as substitute qadi; through him the family was of Persian origin and had settled in Asyut in the Mamluk period, while his mother was a Circassian slave. An anecdote prefigures his fertile career: his mother is said to have borne him in the family library, which earned him the nickname 'son of books' (ibn al-kutub) {cite:encyclopaedia-of-islam-2 vol. 9 p. 913-914}."
+  ur: "عبد الرحمن بن ابی بکر، جلال الدین سیوطی، 1 رجب 849ھ (3 اکتوبر 1445ء) کو قاہرہ میں پیدا ہوئے۔ ان کے والد شافعی فقہ پڑھاتے اور نائب قاضی تھے؛ والد کی طرف سے خاندان فارسی نژاد تھا اور مملوک دور میں اسیوط میں آباد ہوا تھا، جبکہ والدہ ایک چرکسی لونڈی تھیں۔ ایک حکایت ان کے علمی مستقبل کی پیش بندی کرتی ہے: کہا جاتا ہے کہ والدہ نے انہیں گھر کی کتب خانے میں جنا، اسی لیے وہ «ابن الکتب» (کتابوں کا بیٹا) کہلائے {cite:encyclopaedia-of-islam-2 vol. 9 p. 913-914}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1445-10-03", hijri: "0849-07-01", calendar: julian, precision: day, status: historical, note: "١ رجب ٨٤٩/٣ تشرين الأول ١٤٤٥م؛ التاريخان مذكوران في المصدر {cite:encyclopaedia-of-islam-2 vol. 9 p. 913-914}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-suyuti, role: "المولود", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed pp. 913-915, art. al-Suyuti (E. Geoffroy); shadharat-dhahab"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-suyuti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

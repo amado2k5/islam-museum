@@ -1,0 +1,28 @@
+id: event/umari-damascus-chancery-741
+class: event
+kind: other
+label:
+  ar: "ولاية ابن فضل الله كتابة السر بدمشق، محرم ٧٤١هـ/١٣٤٠م"
+  en: "Al-Umari takes the Damascus chancery, Muharram 741/1340"
+  ur: "عمری کا دمشق میں کاتبِ سر مقرر ہونا، محرم 741ھ/1340ء"
+summary:
+  ar: "دخل شهاب الدين دمشق في المحرم سنة ٧٤١هـ فباشر كتابة السر بها عوضًا عن الشهاب يحيى بن القيسراني، وذلك بعد القبض على تنكز نائب الشام في ذي الحجة سنة ٧٤٠هـ {cite:durar-kamina-jil-1993 1/333} {cite:durar-kamina-jil-1993 1/520}."
+  en: "Shihab al-Din entered Damascus in Muharram 741 (June-July 1340) and took charge of its chancery in place of Shihab Yahya ibn al-Qaysarani, in the reshuffle that followed the arrest of Tankiz, viceroy of Syria, in Dhu al-Hijja 740 {cite:durar-kamina-jil-1993 1/333} {cite:durar-kamina-jil-1993 1/520}."
+  ur: "شہاب الدین محرم 741ھ (جون-جولائی 1340ء) میں دمشق داخل ہوا اور شہاب یحیی بن قیسارانی کی جگہ وہاں کاتبِ سر کا منصب سنبھالا؛ یہ شام کے نائب تنکز کی ذی الحجہ 740ھ میں گرفتاری کے بعد کے تبدیلیوں کا حصہ تھا {cite:durar-kamina-jil-1993 1/333} {cite:durar-kamina-jil-1993 1/520}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1340-06~", hijri: "0741-01", calendar: julian, precision: month, status: historical, derived: true, note: "دخل دمشق في المحرم سنة ٧٤١هـ {cite:durar-kamina-jil-1993 1/333}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "كاتب السر", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/shihab-yahya-ibn-al-qaysarani, role: "سابقه في المنصب", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الدرر الكامنة (ط دار الجيل 1993) 1/333 ترجمة 828 و1/520 ترجمة تنكز؛ EI2 vol. 3 PDF pp. 790-791"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-umari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

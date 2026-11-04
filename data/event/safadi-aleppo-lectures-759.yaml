@@ -1,0 +1,27 @@
+id: event/safadi-aleppo-lectures-759
+class: event
+kind: other
+label:
+  ar: "جولة الصفدي العلمية بحلب، ٧٥٩هـ"
+  en: "Al-Safadi's lecture tour at Aleppo, 759/1358"
+  ur: "صفدی کا حلب میں علمی دورہ، 759ھ/1358ء"
+summary:
+  ar: "جال الصفدي في الشام في جولات إفادة علمية أوصلته إلى حلب سنة ٧٥٩هـ، كما يشهد سماع «تصحيح التصحيف»، وكان أكثر وقته بين دمشق والقاهرة موزعاً بين وظيفته وعمله العلمي {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}."
+  en: "Al-Safadi travelled widely in Syria on lecture tours that brought him to Aleppo in 759/1358, as a sama' note in his Tashih al-tashif records; most of his time was divided between Damascus and Cairo and between his government post and his scholarly work {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}."
+  ur: "صفدی نے شام میں علمی افادت کے دورے کیے جن میں 759ھ/1358ء میں حلب بھی شامل رہا، جیسا کہ «تصحيح التصحيف» کے سماع سے ثابت ہوتا ہے؛ اس کا بیشتر وقت دمشق اور قاہرہ اور اس کی ملازمت اور علمی کام کے درمیان بٹا رہا {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1358", hijri: "0759", calendar: julian, precision: year, status: historical, derived: true, note: "جولة إفادة بحلب سنة ٧٥٩هـ (سماع في تصحيح التصحيف) {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-safadi, role: "المُفيد", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 8 (Ned-Sam), printed pp. 759-760, art. al-Safadi (F. Rosenthal)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-safadi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

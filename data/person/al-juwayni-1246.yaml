@@ -3,11 +3,11 @@ class: person
 label:
   ar: "الجويني"
   en: "al-Juwayni"
-roles: [scholar]
+roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لالجويني؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Juwayni; the entry is not yet checked on the page."
+  ar: "إبراهيم بن محمد الجويني «صدر الدين»، شيخ خراسان في عصره، رحّالة في الحديث؛ توفي بالعراق سنة 722هـ (1322م)."
+  en: "Ibrahim ibn Muhammad al-Juwayni “Sadr al-Din” (1246–1322), shaykh of Khurasan and travelling hadith scholar; died in Iraq."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q124821453
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.62)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  run: prose-fill-persons-batch2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

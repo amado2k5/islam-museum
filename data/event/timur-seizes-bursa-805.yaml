@@ -1,0 +1,24 @@
+id: event/timur-seizes-bursa-805
+class: event
+kind: conquest
+label: { ar: "تيمورلنك يستولي على بورصة", en: "Timur seizes Bursa", ur: "امیر تیمور کا بورصہ پر قبضہ" }
+summary:
+  ar: "بعد هزيمة بايزيد الأول في وقعة أنقرة سنة ٨٠٤هـ/١٤٠٢م استولى تيمورلنك على أزنيق وبورصة وغيرها من المدن والحصون {cite:dawlat-uthmaniyya-salabi p. 69-70}، وبذلك انتهت الفترة التي كانت فيها بورصة العاصمة الرئيسة للدولة العثمانية منذ ٧٢٦هـ/١٣٢٦م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397}."
+  en: "After Bayezid I's defeat at Ankara in 804/1402, Timur seized Nicaea (İznik) and Bursa among other towns and fortresses {cite:dawlat-uthmaniyya-salabi p. 69-70}, ending the period since 726/1326 in which Bursa had been the main capital of the Ottoman state {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397}."
+  ur: "804ھ/1402ء میں انقرہ میں بایزید اول کی شکست کے بعد امیر تیمور نے ازنیق اور بورصہ سمیت دیگر شہر اور قلعے فتح کیے {cite:dawlat-uthmaniyya-salabi p. 69-70}، اور اس طرح 726ھ/1326ء سے بورصہ کا بطور مرکزی عثمانی دارالحکومت دور ختم ہوا {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1402", hijri: "0804", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد وقعة أنقرة ٨٠٤هـ/١٤٠٢م {cite:dawlat-uthmaniyya-salabi p. 69-70}." }
+relations:
+  - { type: occurred_at, target: place/bursa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/timur-lang, role: "الغازي المنتصر", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 69-70؛ Encyclopaedia of Islam 2, vol. 1 BURSA, PDF p. 1397 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

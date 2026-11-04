@@ -1,0 +1,41 @@
+id: work/kissa-wa-fikra-program
+class: work
+kind: lecture-series
+label:
+  ar: "قصة وفكرة (برنامج تلفزيوني)"
+  en: "Qissa wa-Fikra, A Story and an Idea (television programme)"
+  ur: "قصة وفكرة: ایک قصہ اور ایک فکر (ٹیلی وژن پروگرام)"
+summary:
+  ar: "برنامج تلفزيوني لطارق السويدان يحفظ منه أرشيف أسابيل تسعًا وعشرين حلقة، تقرن كل حلقة سيرة شخصية تاريخية، من التاريخ الإسلامي أو من تاريخ العالم، بفكرة واحدة يستخرج منها الدروس، مثل التضحية من أجل الفكرة، والتغيير، وعلاقة العلماء بالحكام، والاستبداد، والإصلاح المتدرج، والتسامح، والعقل والدين."
+  en: "A television programme by Tareq al-Suwaidan, twenty-nine episodes of which are kept in the Assabile archive; each episode pairs the life of one historical figure, from Islamic or world history, with one idea from which he draws lessons, such as sacrifice for an idea, change, scholars and rulers, despotism, gradual reform, tolerance, and reason and religion."
+  ur: "طارق السویدان کا ٹیلی وژن پروگرام جس کی انتیس اقساط اسابیل آرکائیو میں محفوظ ہیں؛ ہر قسط اسلامی یا عالمی تاریخ کی کسی ایک شخصیت کی زندگی کو ایک فکر سے جوڑتی ہے اور اس سے اسباق نکالتی ہے، جیسے فکر کے لیے قربانی، تبدیلی، علما اور حکمران، استبداد، بتدریج اصلاح، درگزر، اور عقل و دین۔"
+wings: [ideas]
+themes: [history-writing-and-social-thought, ethics-and-character, politics-governance-and-authority, renewal-and-reform]
+regions: [arab-world, global]
+periods: [period/contemporary-era]
+sources: [source/assabile-tareq-al-suwaidan]
+authors: [person/tariq-al-suwaidan]
+delivered: { by: person/tariq-al-suwaidan }
+language: language/arabic
+delivery_date_status: uploaded
+relations:
+  - { type: about, target: person/salman-al-farisi, note: "ep01", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/malcolm-x, note: "ep02", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/al-mutanabbi, note: "ep04", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/izz-al-din-ibn-abd-al-salam, note: "ep05", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/boabdil-muhammad-xii, note: "ep08", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/alija-izetbegovic, note: "ep09", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/hasan-i-sabbah, note: "ep11", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/muhammad-ibn-ali-al-sanusi, note: "ep12", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/omar-mukhtar, note: "ep12", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/sulayman-al-qanuni, note: "ep14", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/ahmad-ibn-hanbal, note: "ep16, ep18, ep26", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: group/barmakids, note: "ep17", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/baqi-ibn-makhlad, note: "ep18", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/umar-ibn-abd-al-aziz, note: "ep19, ep24", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/aurangzeb-mughal, note: "ep24", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/roger-garaudy, note: "ep27", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/abu-hanifa, note: "ep28", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: event/french-campaign-egypt-1213, note: "ep29", sources: [source/assabile-tareq-al-suwaidan] }
+provenance: { layer: copyrighted-reference, source: "Assabile, kissa-wa-fikra ep01-ep29 (speaker page https://www.assabile.com/tareq-al-suwaidan; video episodes, manifest kissa-wa-fikra.manifest.tsv; transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader by reading sub-agents of the same session, key windows re-read by the writer)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: suwaidan-kissa-wa-fikra-1 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run suwaidan-kissa-wa-fikra-1" }

@@ -3,23 +3,64 @@ class: person
 label:
   ar: "زين العابدين الكشميري"
   en: "Zayn al-Abidin of Kashmir"
-roles: [ruler]
+  ur: "زین العابدین کشمیری"
+names:
+  - { value: "قطب الدين زين العابدين", kind: full }
+  - { value: "Qutb al-Din Zayn al-Abidin", kind: full }
+  - { value: "شاهي خان", kind: given }
+  - { value: "Shahi Khan", kind: given }
+  - { value: "Shah Rukh", kind: alternate }
+  - { value: "Budshah", kind: laqab }
+  - { value: "Al-Sultan al-Azam Na'ib Amir al-Mu'minin Qutb al-Dunya wa'l-Din Abu'l Mujahid al-Adil Zayn al-Abidin al-Sultan", kind: regnal }
+  - { value: "Qutb", kind: pen }
 gender: male
 summary:
-  ar: "بطاقة أولية لزين العابدين شاه مير المعروف ببادشاه الكبير، سلطان كشمير في القرن الخامس عشر الذي رعى الصنائع وردّ المهجرين وعدل بين الرعية، توفي سنة ١٤٧٠م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Zayn al-Abidin Shah Mir known as Budshah the Great, the fifteenth-century sultan of Kashmir who patronised crafts, recalled the exiled and ruled with equity, d. 1470; the dynastic handbook entry is not yet checked on the page."
+  ar: "تاسع سلاطين كشمير من أسرة شاه مير، حكم في 1418–1419 ثم 1420–1470، ويذكره الكشميريون بلقب بادشاه أي الملك العظيم. تُعدّ سنواته الخمسون عصرًا ذهبيًا من السلام والازدهار في كشمير الوسيطة: ألغى الجزية عن غير المسلمين، واستدعى الهندوس المهجّرين في الاضطهادات السابقة، وأعاد العطاءات والرعاية إلى علماء البراهمة، وسمح بإعادة بناء المعابد، وأنشأ دار ترجمة نقلت المهابهاراتا وراجاتارانغيني من السنسكريتية إلى الفارسية، وجلب الحرفيين من عالم سمرقند، وعمّر سريناغار بالأعمال العامة."
+  en: "Ninth sultan of Kashmir of the Shah Mir dynasty, reigning in 1418–1419 and again in 1420–1470, remembered by Kashmiris as Budshah, the Great King. His fifty years on the throne are counted a golden age of peace and prosperity in medieval Kashmir. He abolished the jizya imposed on non-Muslims, recalled Hindus exiled under earlier persecution, restored stipends and patronage to Brahmin scholars, allowed temples to be rebuilt and Hindu personal law to be followed, founded a translation bureau that rendered the Mahabharata and the Rajatarangini from Sanskrit into Persian, brought artisans from the Samarkand world, and filled Srinagar with public works."
+  ur: "کشمیر کے نویں سلطان، خاندانِ شاہ میر سے، جنہوں نے 1418–1419 اور پھر 1420–1470 میں حکومت کی؛ کشمیری انہیں بڈشاہ یعنی عظیم بادشاہ کے لقب سے یاد کرتے ہیں۔ ان کے پچاس سالہ دور کو قرونِ وسطیٰ کے کشمیر کا سنہری عہد شمار کیا جاتا ہے: انہوں نے غیر مسلموں پر عائد جزیہ ختم کیا، پہلے ظلم و ستم میں ملک بدر ہونے والے ہندوؤں کو واپس بلایا، برہمن علماء کی وظیفہ جات و سرپرستی بحال کی، مندروں کی تعمیرِ نو کی اجازت دی، ایک دارالترجمہ قائم کیا جس نے مہابھارت اور راج ترنگنی کا سنسکرت سے فارسی میں ترجمہ کیا، سمرقند کی دنیا سے کاریگر بلائے اور سرینگر کو عوامی تعمیرات سے بھر دیا۔"
+roles: [ruler, poet]
 wings: [people]
 regions: [south-asia]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/bosworth-new-islamic-dynasties-1996]
-external_ids:
-  wikidata: Q3029922
+born:
+  edtf: "1401~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: >-
+    Born at Srinagar. The year is given as c. 1401 by English Wikipedia, citing Srivara's
+    Rajatarangini and Firishta; Wikidata gives the year 1401. A bare year spans 803-804 AH,
+    so no Hijri year is recorded. Srinagar has no place entity in the graph, so the
+    birthplace is prose-only.
+  sources: [source/wikipedia-zayn-al-abidin-kashmir-en, source/wikidata-zayn-al-abidin-kashmir]
+died:
+  edtf: "1470-05-12"
+  hijri: "0874"
+  calendar: julian
+  precision: day
+  status: historical
+  derived: true
+  note: >-
+    Died at Naushahr, Srinagar, and was buried in the Mazar-e-Salatin royal cemetery near
+    his father. English Wikipedia gives the date in the Julian calendar, from Srivara's
+    record of Friday, the twelfth lunar day of Jyeshtha in the forty-sixth Laukika year;
+    Wikidata gives the same day. The Hijri year is derived from the tabular calendar.
+    Srinagar has no place entity in the graph, so the death and burial places are prose-only.
+  sources: [source/wikipedia-zayn-al-abidin-kashmir-en, source/wikidata-zayn-al-abidin-kashmir]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      English Wikipedia's infobox gives his religion as Sunni Islam, with an added note
+      naming the Hanafi school of jurisprudence. The Arabic article's infobox and Wikidata
+      give only Islam, and no prose in either article names a school for him. Infobox data
+      from a single article does not settle faith, so his school is recorded unknown; his
+      documented religious policies are stated in full in the summary and prose.
+    sources: [source/wikipedia-zayn-al-abidin-kashmir-en, source/wikipedia-zayn-al-abidin-shah-mir-ar, source/wikidata-zayn-al-abidin-kashmir]
+external_ids: { wikidata: "Q3029922" }
+sources: [source/wikipedia-zayn-al-abidin-kashmir-en, source/wikipedia-zayn-al-abidin-shah-mir-ar, source/wikidata-zayn-al-abidin-kashmir]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0025
-status:
-  review: draft
-  completeness: 1
+  source: "Stub replacement, coordinator-authorised, of the Devin-era draft card at this slug (run wikidata-import-0025, which cited source/bosworth-new-islamic-dynasties-1996 as not yet checked on the page); every inherited claim was re-verified against English Wikipedia (revision 1378456059), Arabic Wikipedia (revision 61622032) and Wikidata Q3029922 (item revision 2556110698, fetched live and re-asserted on a second live query). Queue correction stated plainly: the queue row's 1420-1470 are his REIGN years, not life years; his birth is c. 1401 (Srivara and Firishta, via the English article) and his death 12 May 1470. The Bosworth source is dropped from this record because its entry was not consulted on the page. No place entity exists for Srinagar or Kashmir, and no person records exist for his father Sikandar Shah of Kashmir or his son and successor Haider Shah, so places and family ties are prose-only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-155h-zayn
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

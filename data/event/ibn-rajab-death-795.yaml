@@ -1,0 +1,27 @@
+id: event/ibn-rajab-death-795
+class: event
+kind: other
+label:
+  ar: "وفاة ابن رجب بدمشق ودفنه بمقبرة الباب الصغير، رجب أو رمضان ٧٩٥هـ"
+  en: "Death of Ibn Rajab in Damascus and burial at Bab al-Saghir cemetery, Rajab or Ramadan 795"
+  ur: "دمشق میں ابن رجب کی وفات اور باب الصغیر میں تدفین، رجب یا رمضان 795ھ"
+summary:
+  ar: "توفي ابن رجب بدمشق سنة ٧٩٥هـ بلا خلاف في العام، واختلفوا في الشهر: رمضان عند السخاوي وابن العماد، ورجب عند ابن حجر والسيوطي، وتوقف أبو المحاسن الدمشقي بينهما؛ ودفن بمقبرة الباب الصغير جوار قبر الشيخ أبي الفرج عبد الواحد الشيرازي المقدسي (ت ٤٨٦هـ)، وروى ابن ناصر الدين أن حفار قبره لقيه قبل موته بأيام فحفر له لحداً في تلك البقعة فنزل فيه فأعجبه {cite:ibn-rajab-jami-ulum-hikam p. 9} {cite:encyclopaedia-of-islam-2 vol. 3 p. 934} {cite:durar-kamina-jil-1993 2/322}."
+  en: "Ibn Rajab died in Damascus in 795, with no disagreement over the year; the sources differ on the month — Ramadan for al-Sakhawi and Ibn al-Imad, Rajab for Ibn Hajar and al-Suyuti, while Abu al-Mahasin al-Dimashqi hesitated between them. He was buried at Bab al-Saghir cemetery beside the grave of the shaykh Abu al-Faraj Abd al-Wahid al-Shirazi al-Maqdisi (d. 486). Ibn Nasir al-Din relates that the gravedigger met him days before his death, dug his niche on that very spot, and Ibn Rajab lay down in it and approved {cite:ibn-rajab-jami-ulum-hikam p. 9} {cite:encyclopaedia-of-islam-2 vol. 3 p. 934} {cite:durar-kamina-jil-1993 2/322}."
+  ur: "ابن رجب 795ھ میں دمشق میں فوت ہوئے، اس سال پر کوئی اختلاف نہیں؛ مہینے میں اختلاف ہے — سخاوی اور ابن العماد کے نزدیک رمضان، ابن حجر اور سیوطی کے نزدیک رجب، جب کہ ابو المحاسن دمشقی دونوں میں متوقف رہے۔ وہ باب الصغیر کے قبرستان میں شیخ ابو الفرج عبد الواحد شیرازی مقدسی (وفات 486ھ) کی قبر کے پاس دفن ہوئے۔ ابن ناصر الدین روایت کرتے ہیں کہ قبر کھودنے والا ان سے موت سے چند دن پہلے ملا، اسی جگہ لحد کھودا اور ابن رجب اس میں لیٹ کر اسے پسند آیا {cite:ibn-rajab-jami-ulum-hikam p. 9} {cite:encyclopaedia-of-islam-2 vol. 3 p. 934} {cite:durar-kamina-jil-1993 2/322}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1393-05~", hijri: "0795-05", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب ٧٩٥هـ عند ابن حجر والسيوطي؛ رمضان عند السخاوي وابن العماد {cite:ibn-rajab-jami-ulum-hikam p. 9}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: had_participant, target: person/ibn-rajab, role: "المتوفى", sources: [source/ibn-rajab-jami-ulum-hikam] }
+sources: [source/ibn-rajab-jami-ulum-hikam, source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Jami' al-Ulum wal-Hikam introduction p. 9 (month disagreement, Bab al-Saghir, gravedigger anecdote); EI2 vol. 3 p. 934; Durar al-Kamina 2/322"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-rajab-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

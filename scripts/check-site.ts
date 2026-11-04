@@ -3,6 +3,7 @@
 // placeholder dates. Warns on empty meta descriptions.
 import { existsSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { parse } from "yaml";
 import { listFiles, p, rel } from "./lib.js";
 
 // Accepts a lazy iterable so callers can read one page at a time; holding every page's HTML in memory
@@ -85,6 +86,15 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     if (/<script[^>]*\ssrc=/.test(h)) errors.push(`${lang}/learn/teachers/offline/${id}.html has a <script src>`);
     const urls = h.replace(/xmlns="[^"]*"/g, "");
     if (/https?:\/\//.test(urls)) errors.push(`${lang}/learn/teachers/offline/${id}.html references an absolute http(s) URL`);
+  }
+  // the Job Browser home (docs/jobs/site.md section 1): it carries its in-the-making badge and at least one job row
+  const jobsHome = p("dist", "ar", "jobs", "index.html");
+  if (!existsSync(jobsHome)) errors.push("missing page: ar/jobs/index.html");
+  else {
+    const html = readFileSync(jobsHome, "utf8");
+    const badge = parse(readFileSync(p("i18n", "ar.yaml"), "utf8")).jobs?.badge;
+    if (!badge || !html.includes(badge)) errors.push("ar/jobs/ does not render its in-the-making badge");
+    if (!html.includes("data-job-row")) errors.push("ar/jobs/ lists no job record (no data-job-row)");
   }
   for (const w of warns) console.log("warn  " + w);
   for (const e of errors) console.log("ERROR " + e);

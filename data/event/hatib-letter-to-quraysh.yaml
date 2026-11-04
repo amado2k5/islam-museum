@@ -18,6 +18,6 @@ relations:
   - { type: had_participant, target: person/muhammad, role: "أرسل من أدرك الظعينة وحكم في أمر حاطب", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "طلب قتل حاطب فمنعه النبي", sources: [source/sallabi-ali-vol1] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1, source/assabile-abu-ishaq-alheweny]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 107-108" }
 provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 107-108", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-93-110" }
