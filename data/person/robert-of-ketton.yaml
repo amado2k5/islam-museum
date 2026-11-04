@@ -3,24 +3,33 @@ class: person
 label:
   ar: "روبرت الكيتوني"
   en: "Robert of Ketton"
+  ur: "رابرٹ کیٹونی"
+names:
+  - { kind: latinized, lang: la, value: "Robertus Retinensis" }
+  - { kind: alternate, lang: la, value: "Robertus Cestrensis" }
 roles: [translator]
 gender: male
 summary:
-  ar: "بطاقة أولية لروبرت الكيتوني، الراهب الإنجليزي الذي نقل معاني القرآن إلى اللاتينية لأول مرة سنة ١١٤٣م؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Robert of Ketton, the English monk who first rendered the Qur'an into Latin in 1143; his entry is not yet checked on the page."
+  ar: "روبرت الكيتوني، الراهب الإنجليزي الذي نقل معاني القرآن إلى اللاتينية لأول مرة سنة 1143م، ويسميه نالينو «روبرت الرتيني أو الشستري»، ويذكر أنه كان حيًا سنتي 1141 و1143م ومات في بنبلونة، وأنه ترجم زيج البتاني إلى اللاتينية ووضع على جداوله قوانين لحركات الأجرام على نصف نهار لندن {cite:nallino-albatenii-opus-astronomicum p. 59} {cite:nallino-albatenii-opus-astronomicum p. 43}."
+  en: "Robert of Ketton, the English monk who first rendered the Qur'an into Latin in 1143; Nallino, calling him 'Robertus Retinensis or Cestrensis', says he was alive in 1141 and 1143, died at Pamplona, translated al-Battani's Zij into Latin, and drew up canons for the meridian of London from its tables {cite:nallino-albatenii-opus-astronomicum p. 59} {cite:nallino-albatenii-opus-astronomicum p. 43}."
+  ur: "رابرٹ کیٹونی، انگریز راہب جنہوں نے 1143ء میں پہلی بار قرآن کے معانی لاطینی میں منتقل کیے؛ نالینو انہیں «رابرٹ رتینی یا شستری» کہتے ہیں اور بتاتے ہیں کہ وہ 1141 اور 1143ء میں زندہ تھے، پامپلونا میں فوت ہوئے، البتانی کی زیج کا لاطینی ترجمہ کیا اور اس کی جدولوں پر لندن کے نصف النہار کے قوانین بنائے {cite:nallino-albatenii-opus-astronomicum p. 59}."
 wings: [people]
+themes: [translation-and-transmission, astronomy-and-timekeeping, islam-and-christianity]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1160", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/al-istishraq-wal-khalfiyya-azhar]
+relations:
+  - { type: died_in, target: place/pamplona, sources: [source/nallino-albatenii-opus-astronomicum] }
+sources: [source/nallino-albatenii-opus-astronomicum, source/al-aalam, source/al-istishraq-wal-khalfiyya-azhar]
 external_ids:
   wikidata: Q332780
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "source/nallino-albatenii-opus-astronomicum Latin preface scan pp. 43, 58–59; earlier card from a Wikidata candidate"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  note: "Enriched from the card by Devin (SWE-2 High), wikidata-import-wave2. The death year 1160 is kept from that card and is not in Nallino."
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2

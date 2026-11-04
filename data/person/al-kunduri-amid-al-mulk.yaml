@@ -1,12 +1,13 @@
 id: person/al-kunduri-amid-al-mulk
 class: person
-label: { ar: "عميد الملك الكندري", en: "Amid al-Mulk al-Kunduri" }
+label: { ar: "عميد الملك الكندري", en: "Amid al-Mulk al-Kunduri" , ur: "عمید الملک کندری"}
 names:
   - { value: "عميد الملك الكندري", kind: full }
 gender: male
 summary:
   ar: "أول وزير لدولة السلاجقة؛ كان شديد التعصب على الشافعية كثير الوقيعة في الشافعي حتى خطب السلطان ألب أرسلان في لعن الرافضة على منابر خراسان فأذن له فأمر بلعنهم وأضاف إليهم الأشعرية ففارق أئمة خراسان منهم القشيري وإمام الحرمين، ولما قام بالمملكة ألب أرسلان أقره على حاله ثم سيره إلى خوارزم شاه ليخطب له ابنته فأرجف أعداؤه أنه خطبها لنفسه فعمد إلى لحيته فحلقها وإلى مذاكيره فحجبها فكان ذلك سبب سلامته، وقيل إن السلطان خصاه، ثم عزله ونقله إلى مرو الروذ وحبسه فلما أحس بالقتل دخل الحجرة وأخرج كفنه وودع عياله واغتسل {cite:shadharat-dhahab p. 310-311}. وعند ابن الجوزي قبض عليه ألب أرسلان في عشية يوم السبت السابع من المحرم سنة ٤٥٦ وأُخذ ما له ثم أُنفذ إلى مرو الروذ فاعتُقل بها، وخُلع في ذلك اليوم على نظام الملك {cite:muntazam-ibn-al-jawzi j.8 p.574-576}."
   en: "The Seljuks' first vizier — whose zeal against the Shafi'is won a licence to curse Rafida and Ash'aris alike from Khurasan's minbars, exiling Imam al-Haramayn and al-Qushayri; sent to ask Khwarazmshah's daughter for his master, rumour twisted it to a suit for himself, and he shaved his beard to survive — then was deposed, imprisoned at Marw al-Rudh, and took out his shroud to bid his family farewell {cite:shadharat-dhahab p. 310-311}."
+  ur: "سلجوقیوں کے اولین وزیر؛ ماخذ خراسان میں اشعریوں کے خلاف مہم، ان کے عہد کی سیاسی سرگرمیوں اور آخرکار معزولی اور قید کا ذکر کرتے ہیں۔ {cite:shadharat-dhahab}"
 died: { edtf: "1064~", hijri: "0456", calendar: julian, precision: year, status: tradition, derived: true, note: "قتله ألب أرسلان بمرو الروذ في آخر سنة ست وخمسين وأربعمائة وحُمل رأسه إلى نيسابور {cite:shadharat-dhahab p. 309}." }
 roles: [vizier]
 wings: [people]
@@ -17,6 +18,8 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-11
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
+  model: "unknown"
 sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 occupations:

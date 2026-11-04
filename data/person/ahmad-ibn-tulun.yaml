@@ -46,11 +46,13 @@ relations:
   - { type: participated_in, target: event/masjid-ibn-tulun-opened-265, role: "الباني", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/kundaj-interception-269, role: "المكاتب", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: participated_in, target: event/muwaffaq-forfeiture-269, role: "عاقد المحضر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: built, target: building/masjid-ibn-tulun, sources: [source/yeomans-islamic-cairo-2006] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 553–559"
   generated_by: "al-Ya'qubi section added by Claude Opus 5.5 (claude-opus-5-5), run lib-tarikh-yaqubi-batch-2-2026-10-31; Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-30
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 28-39"]
 external_ids: { wikidata: "Q374374" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/tarikh-yaqubi-houtsma-1883]
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/tarikh-yaqubi-houtsma-1883, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

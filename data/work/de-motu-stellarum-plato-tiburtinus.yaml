@@ -1,0 +1,26 @@
+id: work/de-motu-stellarum-plato-tiburtinus
+class: work
+kind: book
+label: { ar: "ترجمة أفلاطون التيفولي اللاتينية لزيج البتاني (في حركة النجوم)", en: "De motu stellarum: Plato of Tivoli's Latin translation of al-Battani's Zij", ur: "البتانی کی زیج کا افلاطون تیفولی کا لاطینی ترجمہ (حرکتِ نجوم میں)" }
+summary:
+  ar: "الترجمة اللاتينية الباقية لزيج البتاني، صنعها أفلاطون التيفولي في برشلونة في النصف الأول من القرن الثاني عشر، وطبعت في نورنبرغ سنة 1537م مع حواشي ريجيومونتانوس، وعرفت بعناوين «في حركة النجوم» و«في علم النجوم» و«في أعداد النجوم» {cite:nallino-albatenii-opus-astronomicum p. 40} {cite:nallino-albatenii-opus-astronomicum p. 59} {cite:nallino-albatenii-opus-astronomicum p. 65}."
+  en: "The surviving Latin translation of al-Battani's Zij, made by Plato of Tivoli at Barcelona in the first half of the twelfth century and printed at Nuremberg in 1537 with Regiomontanus' notes; known under the titles De motu stellarum, De scientia stellarum and De numeris stellarum {cite:nallino-albatenii-opus-astronomicum p. 40} {cite:nallino-albatenii-opus-astronomicum p. 59} {cite:nallino-albatenii-opus-astronomicum p. 65}."
+  ur: "البتانی کی زیج کا باقی رہنے والا لاطینی ترجمہ، جو افلاطون تیفولی نے بارہویں صدی کے نصفِ اول میں برشلونہ میں کیا اور 1537ء میں ریجیومونٹانس کے حواشی کے ساتھ نیورمبرگ میں چھپا {cite:nallino-albatenii-opus-astronomicum p. 59}."
+wings: [ideas, words]
+themes: [translation-and-transmission, astronomy-and-timekeeping]
+regions: [andalus-europe]
+authors: [person/plato-of-tivoli]
+language: language/latin
+disciplines: [concept/astronomy]
+editions:
+  - "Rudimenta astronomica Alfragrani. Item Albategnius astronomus peritissimus de motu stellarum ... cum demonstrationibus geometricis et additionibus Ioannis de Regiomonte, Norimbergae 1537 (Albategnius in 90 separately numbered folios; scan p. 59)."
+relations:
+  - { type: translation_of, target: work/al-zij-al-sabi, sources: [source/nallino-albatenii-opus-astronomicum] }
+sources: [source/nallino-albatenii-opus-astronomicum]
+provenance:
+  layer: own-research
+  source: "source/nallino-albatenii-opus-astronomicum Latin preface scan pp. 34, 40, 46, 59–65, 71"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

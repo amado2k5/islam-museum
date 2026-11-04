@@ -31,15 +31,15 @@ provenance:
   layer: own-research
   source: وفيات الأعيان لابن خلكان — الجزء الخامس، طبعة إحسان عباس، النص المقروء آلياً
     (djvu) من archive.org
-  generated_by: Devin (SWE-2 High) from djvu OCR text
-  run: lib-wafayat-batch-9
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch93
 sources:
 - source/wafayat-ayan
 - source/muntazam-ibn-al-jawzi
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High)
+  review: published
+  completeness: 3
 aliases:
 - person/mahiyar-al-daylami
 roles:

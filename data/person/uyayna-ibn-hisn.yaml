@@ -1,6 +1,6 @@
 id: person/uyayna-ibn-hisn
 class: person
-label: { en: "Uyayna ibn Hisn al-Fazari", ar: "عيينة بن حصن الفزاري" }
+label: { en: "Uyayna ibn Hisn al-Fazari", ar: "عيينة بن حصن الفزاري" , ur: "عیینہ بن حصن فزاری"}
 names:
   - { kind: full, lang: ar, value: "عيينة بن حصن بن حذيفة بن بدر الفزاري الغطفاني" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A powerful, mercurial chieftain of Banu Fazara in Najd (dubbed 'the foolish chief obeyed by ten thousand swords'); he witnessed the conquest of Mecca, Hunayn and al-Ta'if with the Prophet, was granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, came with the Banu Tamim delegation in 9 AH, and later faltered during the Ridda wars before repenting and returning to Islam."
   ar: "سيد بني فزارة وغطفان في نجد؛ قاد الأحزاب يوم الخندق، وشهد مع النبي فتح مكة وحنيناً والطائف، وأعطاه النبي مئة بعير بالجعرانة تأليفاً لقلبه، وقدم مع وفد بني تميم سنة 9هـ؛ ارتد مع طليحة ثم أسر وتاب وحسن إسلامه في خلافة أبي بكر وعمر. وعدّه عمرو بن معد يكرب عند عمر في حرّي العرب الذين يخشى لقاءهم وسماه المسعودي عيينة بن الحارث بن شهاب التميمي {cite:muruj-al-dhahab p. 621}"
+  ur: "نجد کے بنو فزارہ کے سردار؛ فتح مکہ، حنین اور طائف میں شریک ہوئے اور جعرانہ میں غنائم پانے والوں میں تھے۔ {cite:ibn-hisham-saqqa}"
 wings: [people]
 themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era, period/rashidun]
@@ -25,7 +26,7 @@ relations:
   - { type: participated_in, target: event/battle-of-hunayn, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/siege-of-taif, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-banu-tamim, role: "قدم مع الوفد", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137, 207", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137, 207", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}}
 sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/ibn-hajar-isaba, source/assabile-tareq-al-suwaidan]
 status: { review: draft, completeness: 3, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 136–137; extended by Claude Fable 5.1 from p. 207" }
 
