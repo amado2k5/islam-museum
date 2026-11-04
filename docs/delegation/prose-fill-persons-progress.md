@@ -442,3 +442,9 @@ Promoted: muslim-ibn-ibrahim, muslim-ibn-khalid-al-zanji, mutamir-ibn-sulayman, 
 Promoted: abbas-ibn-muhammad-ibn-musa-al-khallal, abd-allah-ibn-muhammad-al-tadili, abu-al-fath-al-naysaburi, ahmad-al-bashbishi, ahmad-ibn-abd-al-rahim-ibn-al-iraqi, ahmad-ibn-hazim-abu-al-qasim-al-balkhi, ahmad-ibn-said-ibn-al-hindi, ahmad-ibn-salman-al-najjad, al-itqani, ali-ibn-muhammad-hamid-al-din-al-darir, ali-ibn-musa-ibn-yazdad, hajjaj-ibn-amr-al-ansari, harb-ibn-ismail-al-kirmani, hushaym-ibn-bashir, ibrahim-ibn-hasan-al-tunisi, ismail-ibn-abd-al-rahman-al-suddi, ismail-ibn-muhammad-al-ajluni, jalal-al-din-al-karlani, khalid-ibn-madan, luqman-ibn-amir-al-wasabi, muhammad-ali-al-tahanawi, muhammad-ibn-ahmad-ulaysh, muhammad-radi-al-din-al-sarakhsi, muqatil-ibn-hayyan, mustafa-al-ruhaybani.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1241.** sweep continues through remaining trilingual drafts.
+
+### Batch 67 (4 Nov 2026, 4 records) — mawsua-w01-batch-85 draft promotions (sweep worker)
+
+Promoted: nasr-ibn-ali-al-shirazi, rashid-ibn-hafs-al-zuhri, said-ibn-salim-al-qaddah, yazid-ibn-yazid-ibn-jabir.cite-check 4/4; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1245.** sweep continues through remaining trilingual drafts.
