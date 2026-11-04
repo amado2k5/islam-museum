@@ -3,23 +3,46 @@ class: person
 label:
   ar: "بيرم زاده زكريا أفندي"
   en: "Bayramzade Zekeriya Efendi"
-roles: [scholar]
+names:
+  - { value: "زكريا أفندي بن بيرم أفندي", kind: full }
+  - { value: "Bayramzâde Zekeriyyâ Efendi", kind: full }
+roles: [scholar, jurist, teacher]
 gender: male
 summary:
-  ar: "بطاقة أولية لبيرم زاده زكريا أفندي، عالم وكاتب عثماني القرن السادس عشر، توفي سنة ١٥٩٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Bayramzade Zekeriya Efendi, the sixteenth-century Ottoman scholar, d. 1593; the source entry is not yet checked on the page."
+  ar: "بيرم زاده زكريا أفندي (١٥١٤–١٥٩٣م)، عالم وفقيه عثماني من أنقرة، تدرّج في التدريس والقضاء حتى صار قاضي عسكر الأناضول ثم الروملي وتولّى مشيخة الإسلام سنة ١٥٩٢م؛ وهو والد شيخ الإسلام زكريا زاده يحيى أفندي."
+  en: "Bayramzade Zekeriya Efendi (1514–1593) was an Ottoman scholar and jurist from Ankara who rose through the medreses and the judiciary to the kazaskerliks of Anatolia and Rumelia and held the Shaykh al-Islamate from 1592 until his sudden death; he was the father of Shaykh al-Islam Zekeriyazade Yahya Efendi."
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read for this record names a madhhab for Zekeriya Efendi personally. He rose through the Ottoman learned hierarchy to the Shaykh al-Islamate — the chief mufti's office of a Hanafi establishment — but office and milieu are not attestation, so his faith is recorded unknown. The Hanafi character of the institution he headed is stated in the prose, not in this field. His son's record (person/zekeriyazade-yahya) records unknown on the same ground."
+    sources: [source/dia-zekeriyya-efendi-bayramzade, source/wikipedia-bayramzade-zekeriya-efendi]
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/dawlat-uthmaniyya-salabi]
+born:
+  edtf: "1514"
+  hijri: "0920"
+  precision: year
+  sources: [source/dia-zekeriyya-efendi-bayramzade, source/wikipedia-bayramzade-zekeriya-efendi]
+  note: "Born at Ankara in 920/1514, son of Bayram Efendi (DİA; the Turkish article agrees). No place record for Ankara exists on main, so no born_in edge is written."
+died:
+  edtf: "1593-07-11"
+  hijri: "1001"
+  precision: day
+  sources: [source/dia-zekeriyya-efendi-bayramzade, source/wikipedia-bayramzade-zekeriya-efendi]
+  note: "Died suddenly at the palace in Istanbul on 11 Shawwal 1001 / 11 July 1593, while waiting to be received by the sultan, shortly after recounting a dream in which he had seen the Prophet; the funeral prayer was held at Fatih Mosque and he was buried beside the medrese, dar al-hadith and dar al-qurra he had built near the Sultan Selim Mosque, completed in Muharram 1001 / October 1592; his son Yahya arranged the endowment deed in 1594 (DİA)."
+relations:
+  - {type: died_in, target: place/istanbul, sources: [source/dia-zekeriyya-efendi-bayramzade, source/wikipedia-bayramzade-zekeriya-efendi]}
+  - {type: buried_in, target: place/istanbul, sources: [source/dia-zekeriyya-efendi-bayramzade]}
+sources: [source/dia-zekeriyya-efendi-bayramzade, source/wikipedia-bayramzade-zekeriya-efendi, source/wikidata-bayramzade-zekeriya-efendi, source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q30038995
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0070
+  source: "Replaces the Devin wikidata-import draft stub at the same slug; identity follows Wikidata Q30038995, carried from the stub (the item page returns HTTP 403 to this session's fetcher and the identifier could not be re-verified; no facts were taken from it). All statements were checked against the registered sources read in full: Mehmet İpşirli's TDV İslâm Ansiklopedisi entry and the Turkish Wikipedia article, whose sole citation is that entry. Al-Salabi's al-Dawla al-Uthmaniyya is retained as an unread pointer from the stub. The father–son edge is written once, as child_of on his son's record (person/zekeriyazade-yahya), so no parent_of edge is written here; his teachers Arapzade Abdülbaki Efendi and Malul Emir Efendi have no records on main, so no student_of edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-188"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
