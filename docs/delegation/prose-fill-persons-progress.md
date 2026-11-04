@@ -527,3 +527,9 @@ Leads (rejected):
 ajiba-bint-al-baqdari	REJECT: ar: thin (140ch)
 
 **Lane total: 1416.** sweep continues through remaining trilingual drafts.
+
+### Batch 77 (4 Nov 2026, 23 records) — lib-shadharat-batch-137 draft promotions (sweep worker)
+
+Promoted: abu-bakr-ibn-qutlubak, al-buqai-ibrahim, al-silawi-ahmad, al-tawashi-al-ashashi, al-zarkashi-al-baghdadi, al-zayn-shaban, badr-al-din-ibn-khasb-al-subki, fatima-umm-al-hasan, haydara-al-shirazi, husam-al-din-al-abiwardi, ibn-al-qattan-al-misri, ibn-al-shihna, ibn-al-ulayf, ibn-nun-al-khwarazmi, ibrahim-ibn-mubarakshah, muhammad-al-shubrawi, muhammad-mirza-umar-shaykh, nasim-al-din-al-tabrizi, sarim-al-din-ibn-al-muayyad, shihab-ahmad-ibn-hilal, shihab-ahmad-ibn-mughli, tughri-birdi-al-zahiri, zayn-al-din-al-marighi.cite-check 23/23; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1439.** sweep continues through remaining trilingual drafts.
