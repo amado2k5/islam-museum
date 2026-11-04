@@ -24,6 +24,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Clearer subject metadata**: Urdu labels and summaries added to forty existing records, with recorded localization provenance. Missing provenance restored on seven places and one migration event without changing existing event dates or relationships.
+- **Honest Explorer image status**: the forty-story batch remains unpublished pending replacement of five shared backdrops that contain figures. The owner request identifies each file and affected story; a prompt or an earlier screening claim is not treated as proof that an image is safe.
 
 ---
 
