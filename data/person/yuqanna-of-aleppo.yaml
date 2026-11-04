@@ -1,0 +1,25 @@
+id: person/yuqanna-of-aleppo
+class: person
+label: { ar: "يوقنا صاحب حلب", en: "Yuqanna, lord of Aleppo", ur: "یوقنا، حاکمِ حلب" }
+names:
+  - { kind: full, lang: ar, value: "يوقنا البطريق صاحب قلعة حلب" }
+gender: male
+roles: [general]
+summary:
+  ar: "البطريق صاحب قلعة حلب في «فتوح الشام» المنسوب إلى الواقدي: ورث حلب عن أبيه، ورفض نصيحة أخيه الراهب يوحنا بمصالحة المسلمين، وقتل من أهل حلب من صالحوهم ثم قتل أخاه حين أعلن إسلامه، ثم أسلم بعد فتح القلعة وقال إنه رأى النبي في منامه فاستيقظ يتكلم العربية، وصار يقاتل مع المسلمين، ومنه حيلته على حصن عزاز {cite:futuh-al-sham-ilmiyya-1997-v1 p.237} {cite:futuh-al-sham-ilmiyya-1997-v1 p.245} {cite:futuh-al-sham-ilmiyya-1997-v1 p.264} {cite:futuh-al-sham-ilmiyya-1997-v1 p.267}."
+  en: "The patrician lord of the citadel of Aleppo in the Futuh al-Sham ascribed to al-Waqidi: he inherited Aleppo from his father, rejected his monk brother Yuhanna's advice to make terms with the Muslims, killed those townspeople who had made peace with them and then his brother when he declared himself a Muslim, then embraced Islam after the citadel fell, saying he had seen the Prophet in a dream and woken speaking Arabic, and fought on the Muslim side, as in his stratagem against the fortress of Azaz."
+wings: [people]
+themes: [converts-and-leavers, conquest-and-its-debates]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: ruler_of, target: place/aleppo, sources: [source/futuh-al-sham-ilmiyya-1997-v1] }
+  - { type: participated_in, target: event/siege-of-aleppo-637, sources: [source/futuh-al-sham-ilmiyya-1997-v1] }
+sources: [source/futuh-al-sham-ilmiyya-1997-v1, source/dehghani-farsani-futuh-al-sham-thesis]
+provenance:
+  layer: own-research
+  source: "source/futuh-al-sham-ilmiyya-1997-v1 pp. 237-238, 245, 264-265, 267-268"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

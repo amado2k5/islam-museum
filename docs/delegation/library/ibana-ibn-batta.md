@@ -24,3 +24,12 @@ Kitab al-Iman chapters on abandoning prayer (pp. 669ff.), signs of hypocrisy, in
 
 ## Second run (4 Nov 2026)
 - Duplicate resolved: `person/ibn-battah-al-ukbari` (Wikidata draft Q5984193, no prose, no inbound links) is now an `aliases` entry of `person/ibn-batta-al-ukbari-ubayd-allah`, which also takes its Wikidata id; the duplicate's data file deleted.
+
+## Third run (4 Nov 2026), batch 8 — deep pass on Kitab al-Iman
+Read (Mu'ti ed., printed = PDF): pp. 669–685 (abandoning prayer), 703–704 (hypocrisy, author's comments), 720–746 (sins that are unbelief short of unbelief), 884–906 (the Murji'a), index pp. 936–942.
+- New: `concept/kufr-duna-kufr` (ar/en/ur).
+- Enriched: `group/murjia` (draft, 510-byte ar → full ar/en/ur with Ibn Batta's chapter; perspective `ibn-batta-ibana`; status published, completeness 2 — the group's own words still missing), `concept/abandoning-prayer-takfir` (draft with ar only → ar enriched + new en/ur; perspective `ibn-batta-ibana`; the narrator garbled in al-Sallabi is identified by the Ibana editor as Abu Hurayra in al-Hakim, p. 673).
+- Flags: Ibn Batta's verdicts on the Murji'a ("unbelief and misguidance") are recorded as his.
+
+## Next
+Hypocrisy chapter (pp. 685–704) for `concept/nifaq`; faith as fear and hope (pp. 756ff.); increase and decrease (pp. 806–861) for `question/does-faith-increase-and-decrease`; the Hamdan edition (Qadar).
