@@ -3,23 +3,73 @@ class: person
 label:
   ar: "ابن عطية الأندلسي"
   en: "Ibn Atiyah al-Andalusi"
-roles: [scholar]
+  ur: "ابن عطیہ اندلسی"
+names:
+  - { kind: full, lang: ar, value: "أبو محمد عبد الحق بن غالب بن عبد الرحمن بن عطية المحاربي الغرناطي" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+  - { kind: full, lang: en, value: "Abu Muhammad Abd al-Haqq ibn Ghalib ibn Atiyya al-Muharibi al-Gharnati" }
+roles: [scholar, judge, writer, poet]
 gender: male
+born:
+  edtf: "1088/1089"
+  hijri: "0481"
+  calendar: julian
+  precision: year
+  status: historical
+  derived: true
+  note: "«ولد سنة 481» (Majd Makki's introduction, Dar Ibn Hazm ed., PDF p. 2); the Gregorian span is derived."
+  sources: [source/muharrar-wajiz-dar-ibn-hazm]
+died:
+  edtf: "1147-02"
+  hijri: "0541-09-15"
+  calendar: julian
+  precision: month
+  status: debated
+  derived: true
+  note: "«توفي بحصن لورقة في منتصف رمضان سنة 541 عن ستين عاماً» (Majd Makki, PDF p. 3). The Dar al-Kutub al-Ilmiyya edition's title page gives «المتوفى سنة 546هـ»; the earlier card gave 1146 and 1141 CE. Gregorian month derived (mid-Ramadan 541 ≈ late February 1147)."
+  sources: [source/muharrar-wajiz-dar-ibn-hazm]
 summary:
-  ar: "بطاقة أولية لعبد الحق بن غالب ابن عطية، مفسر غرناطة وقاضيها في القرن الثاني عشر صاحب «المحرر الوجيز»، توفي سنة ١١٤٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Haqq ibn Ghalib Ibn Atiyah, the twelfth-century exegete and qadi of Granada author of al-Muharrar al-Wajiz, d. 1141; the biographical entry is not yet checked on the page."
+  ar: "أبو محمد عبد الحق بن غالب بن عطية المحاربي الغرناطي (481–541هـ)، فقيه مالكي ومفسّر وأديب أندلسي، ولي قضاء المرية سنة 529هـ، وصاحب «المحرر الوجيز في تفسير الكتاب العزيز» الذي بدأه في حياة أبيه وأثّر في القرطبي وابن جزي وأبي حيان والثعالبي."
+  en: "Abu Muhammad Abd al-Haqq ibn Ghalib ibn Atiyya al-Muharibi of Granada (481–541 AH / 1088–1147), Andalusian Maliki jurist, exegete and man of letters, judge of Almería from 529 AH, and author of al-Muharrar al-Wajiz, a commentary he began in his father's lifetime and which shaped al-Qurtubi, Ibn Juzayy, Abu Hayyan and al-Tha'alibi."
+  ur: "ابو محمد عبد الحق بن غالب بن عطیہ المحاربی الغرناطی (481–541ھ / 1088–1147ء)، اندلسی مالکی فقیہ، مفسر اور ادیب، 529ھ سے المریہ کے قاضی، اور «المحرر الوجیز» کے مصنف، جو انہوں نے اپنے والد کی زندگی میں شروع کی اور جس نے قرطبی، ابن جزی، ابو حیان اور ثعالبی کو متاثر کیا۔"
 wings: [people]
+themes: [scripture-and-its-sciences]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/granada, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: lived_in, target: place/almeria, note: "Judge of Almería from 529 AH for more than ten years", sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: died_in, target: place/lorca, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: traveled_to, target: place/cordoba, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: traveled_to, target: place/seville, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: traveled_to, target: place/murcia, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: traveled_to, target: place/valencia, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: traveled_to, target: place/jaen, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: child_of, target: person/ghalib-ibn-atiyya, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: student_of, target: person/ghalib-ibn-atiyya, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: student_of, target: person/al-sadafi, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: student_of, target: person/abu-ali-al-ghassani-al-jayyani, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: student_of, target: person/ibn-al-badhish, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: student_of, target: person/abd-al-rahman-ibn-attab-al-qurtubi, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: authored, target: work/tafsir-ibn-atiyya, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Maliki jurist; Ibn Juzayy calls him 'mindful of the Sunna' and Ibn Taymiyya judges his commentary 'more faithful to the Sunna and the community' than al-Kashshaf (quoted by Majd Makki, PDF pp. 7–8). The charge of Mu'tazili leanings is recorded in question/was-ibn-atiyyas-tafsir-mutazili."
+    sources: [source/muharrar-wajiz-dar-ibn-hazm]
+traditions: [sunni-maliki]
 external_ids:
   wikidata: Q5065223
+sources: [source/al-aalam, source/muharrar-wajiz-dar-ibn-hazm]
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0033
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/muharrar-wajiz-dar-ibn-hazm PDF pp. 2–10 (Majd Makki's introduction), 13–24 (Ibn Atiyya's preface). Corrected the earlier summary, which made him judge of Granada; the sources say Almería." }
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker B)"

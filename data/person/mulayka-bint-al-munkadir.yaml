@@ -1,0 +1,25 @@
+id: person/mulayka-bint-al-munkadir
+class: person
+label: { ar: "مليكة بنت المنكدر", en: "Mulayka bint al-Munkadir" }
+names:
+  - { kind: full, lang: ar, value: "مليكة بنت المنكدر" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل المدينة يذكرها ابن الجوزي في «صفة الصفوة» أول المعروفات من عابدات المدينة؛ يروي عن مالك بن دينار أنه رآها في الحِجر تدعو، فلما عرضا عليها الزواج عاتبت مالكاً وأيوب السختياني على انشغالهما بمحادثة النساء عن ذكر الله، وكانت تقول لمن كلمها في تخفيف العبادة: دعوني أبادر طيّ صحيفتي."
+  en: "A devout woman of Medina whom Ibn al-Jawzi places first among the known devout women of Medina in Sifat al-Safwa; he reports from Malik ibn Dinar that he saw her praying in the Hijr, and when marriage was suggested she reproached him and Ayyub al-Sakhtiyani for letting conversation with women distract them from remembrance of God; to those who urged her to lighten her worship she said: let me hasten before my record is rolled up."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+regions: [arabia]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance:
+  layer: own-research
+  source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.370"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

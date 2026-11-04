@@ -1,0 +1,25 @@
+id: person/khansa-bint-khidam-al-yamaniyya
+class: person
+label: { ar: "خنساء بنت خدام اليمنية", en: "Khansa' bint Khidam of Yemen" }
+names:
+  - { kind: full, lang: ar, value: "خنساء بنت خدام اليمنية" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من العرب باليمن يذكرها ابن الجوزي في «صفة الصفوة» أول عابدات اليمن وينص على أنها «ليست بالصحابية» التي تحمل الاسم نفسه؛ صامت أربعين عاماً حتى لصق جلدها بعظمها، وبكت حتى ذهب بصرها، وقامت حتى أقعدت، وكان طاووس ووهب بن منبه يعظمان قدرها؛ ويلاحظ المحقق أن مصادر الرجال تذكر خنساء بنت خدام صحابية معروفة."
+  en: "A devout Arab woman of Yemen whom Ibn al-Jawzi places first among the devout women of Yemen in Sifat al-Safwa, stating that she 'is not the Companion' of the same name; she fasted for forty years until her skin clung to her bones, wept until she lost her sight, and stood in prayer until she could no longer stand; Tawus and Wahb ibn Munabbih held her in high esteem. The editor notes that the biographical dictionaries know Khansa' bint Khidam as a well-known Companion."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+regions: [arabia]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/yemen, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance:
+  layer: own-research
+  source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.415"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }
