@@ -1,17 +1,35 @@
 id: work/irshad-al-sari
 class: work
 kind: book
-label: { ar: "إرشاد الساري إلى شرح صحيح البخاري", en: "Irshad al-Sari" }
+label:
+  ar: "إرشاد الساري لشرح صحيح البخاري"
+  en: "Irshad al-Sari li-Sharh Sahih al-Bukhari"
+  ur: "ارشاد الساری لشرح صحیح البخاری"
 summary:
-  ar: "بطاقة أولية لإرشاد الساري للقسطلاني، من أشهر شروح صحيح البخاري؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Irshad al-Sari, al-Qastallani's celebrated commentary on Sahih al-Bukhari; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "شرح شهاب الدين أحمد بن محمد القسطلاني (ت 923هـ) على صحيح البخاري، مزج فيه الشرح بالمتن مزجاً وميّز الأصل بالحمرة، ويحرر الروايات ويضبط الألفاظ ويشرح الغريب، واستمد كثيراً من «فتح الباري» لابن حجر؛ وصدّره بمقدمة في خمسة فصول: فضل أهل الحديث، وأول من دوّن الحديث، ومصطلح الحديث، وشرط البخاري وصحيحه، ونسب البخاري وسيرته {cite:irshad-sari-amiriyya-1323 p. 5-6} {cite:irshad-sari-amiriyya-1323 p. 21}."
+  en: "The commentary of Shihab al-Din Ahmad b. Muhammad al-Qastallani (d. 923 AH) on Sahih al-Bukhari, blending commentary into the text and marking the original in red, establishing the variant transmissions, fixing the wording and explaining rare words, and drawing heavily on Ibn Hajar's Fath al-Bari; it opens with an introduction in five chapters: the merit of the hadith scholars, the first to compile hadith, hadith terminology, al-Bukhari's conditions and his Sahih, and al-Bukhari's lineage and life {cite:irshad-sari-amiriyya-1323 p. 5-6} {cite:irshad-sari-amiriyya-1323 p. 21}."
+  ur: "شہاب الدین احمد بن محمد قسطلانی (وفات 923ھ) کی صحیح بخاری کی شرح، جس میں شرح کو متن میں ملا دیا گیا اور اصل کو سرخی سے ممتاز کیا گیا؛ اس میں روایات کی تحریر، الفاظ کا ضبط اور غریب کی شرح ہے، اور ابن حجر کی «فتح الباری» سے بہت استفادہ کیا گیا؛ اس کے شروع میں پانچ فصلوں کا مقدمہ ہے: اہلِ حدیث کی فضیلت، تدوینِ حدیث کا آغاز، اصطلاحاتِ حدیث، بخاری کی شرط اور ان کی صحیح، اور بخاری کا نسب اور سیرت {cite:irshad-sari-amiriyya-1323 p. 5-6} {cite:irshad-sari-amiriyya-1323 p. 21}۔"
+language: language/arabic
+authors: [person/al-qastallani-shihab-al-din]
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/irshad-sari-amiriyya-1323] }
+structure: "مقدمة في خمسة فصول (الأول في فضيلة أهل الحديث، الثاني في أول من دوّن الحديث، الثالث في مصطلح الحديث، الرابع في شرط البخاري وصحيحه ملخصاً من مقدمة فتح الباري، الخامس في نسب البخاري ومولده ونشأته)، ثم الشرح على ترتيب صحيح البخاري بدءاً ببدء الوحي ثم كتاب الإيمان (ط. بولاق 1304، فهرس الجزء الأول)."
+editions: [source/irshad-sari-bulaq-1304, source/irshad-sari-amiriyya-1323]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+relations:
+  - { type: commentary_on, target: work/sahih-al-bukhari, sources: [source/irshad-sari-amiriyya-1323] }
+  - { type: relies_on, target: work/fath-al-bari, sources: [source/irshad-sari-amiriyya-1323] }
+  - { type: mentions, target: concept/shart-al-shaykhayn, sources: [source/irshad-sari-amiriyya-1323] }
+  - { type: mentions, target: event/beginning-of-tadwin, sources: [source/irshad-sari-amiriyya-1323] }
 external_ids: { wikidata: "Q12182136" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Irshad al-Sari, Shamela text of the Amiriyya 7th ed. 1323 AH, introduction pp. 5–24, 32; Bulaq 6th ed. 1304 AH vol. 1 title and contents; earlier draft card from Wikidata (run wikidata-import-wave2)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/irshad-sari-amiriyya-1323, source/irshad-sari-bulaq-1304, source/al-aalam]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A); replaces the Wikidata draft card" }
