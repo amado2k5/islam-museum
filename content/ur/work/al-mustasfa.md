@@ -3,7 +3,7 @@ id: work/al-mustasfa
 lang: ur
 source_lang: ar
 translators: []
-provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "mustasfa-hafiz-v1 PDF pp. 1-7, 53-57, 63, 71-79, 97-101; mustasfa-hafiz-v3 pp. 2, 199-202; translated from the Arabic page" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker D); Pole 2 section added by Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "mustasfa-hafiz-v1 PDF pp. 1-7, 53-57, 63, 71-79, 97-101; mustasfa-hafiz-v3 pp. 2, 199-202; translated from the Arabic page; mustasfa-tijariyya-1356-v1 PDF pp. 5, 136, 141, 143-144" }
 ---
 ## خلاصہ
 
@@ -32,3 +32,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-
 ## جو یہاں ذکر نہیں ہوا
 
 اس مرحلے میں جلد دوم (ادلہ، جس میں استصلاح کی بحث ہے) اور جلد چہارم نہیں پڑھی گئیں، اور تاریخِ تالیف نہیں دی گئی۔
+
+## قطبِ دوم: اصولِ موہومہ (اضافہ)
+قطبِ دوم میں غزالی ان چار اصولوں کا ذکر کرتے ہیں جنہیں دلیل سمجھا گیا مگر وہ دلیل نہیں، اور انہیں «اصولِ موہومہ» کہتے ہیں: [[concept/shar-man-qablana|سابقہ شریعتیں]]، قولِ صحابی، استحسان اور استصلاح۔ {cite:mustasfa-tijariyya-1356-v1 p.136} قولِ صحابی میں وہ شافعی کے قدیم قول میں صحابہ کی تقلید کا ذکر کرتے ہیں اور اس قول کو ضعیف کہتے ہیں کہ صحابی کا قول پھیل جائے اور مخالفت نہ ہو تو حجت ہے، کیونکہ سکوت قول نہیں۔ {cite:mustasfa-tijariyya-1356-v1 p.141} استحسان میں وہ اس کی تاویلات کو ایک ایک کر کے رد کرتے ہیں، اور مانتے ہیں کہ کرخی اور بعض حنفیہ نے جو بیان کیا — کسی خاص دلیل سے مسئلے کو اس کے نظائر سے ہٹانا — قابلِ انکار نہیں، اعتراض صرف نام پر ہے۔ {cite:mustasfa-tijariyya-1356-v1 p.143} استصلاح میں وہ مصلحت کو معتبر، ملغیٰ اور مرسل میں تقسیم کرتے ہیں اور اس کی تعریف دین، جان، عقل، نسل اور مال کی حفاظت میں شریعت کے مقصود کی حفاظت سے کرتے ہیں؛ دیکھیے [[concept/al-maslaha-al-mursala|مصلحتِ مرسلہ]]۔ {cite:mustasfa-tijariyya-1356-v1 p.143} {cite:mustasfa-tijariyya-1356-v1 p.144} قاہرہ کے المکتبۃ التجاریہ ایڈیشن (طبع اول 1356ھ/1937ء) میں یہ جلد اول میں ہے۔ {cite:mustasfa-tijariyya-1356-v1 p.5}
