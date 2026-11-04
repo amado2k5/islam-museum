@@ -1,17 +1,23 @@
 id: work/jala-al-afham
 class: work
 kind: book
-label: { ar: "جلاء الأفهام في فضائل الصلاة والسلام على خير الأنام", en: "Jala' al-Afham" }
+label: { ar: "جلاء الأفهام في فضل الصلاة والسلام على محمد خير الأنام", en: "Jala' al-Afham fi Fadl al-Salat wa-l-Salam ala Muhammad Khayr al-Anam", ur: "جلاء الافہام فی فضل الصلاۃ والسلام علی محمد خیر الانام" }
 summary:
-  ar: "بطاقة أولية لـجلاء الأفهام في فضائل الصلاة والسلام على خير الأنام؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Jala' al-Afham; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب لابن قيم الجوزية (ت 751هـ) في الصلاة والسلام على النبي، في خمسة أبواب: الأحاديث الواردة فيها مع بيان صحيحها وحسنها ومعلولها، ثم معنى الصلاة والآل ووجه تشبيهها بالصلاة على إبراهيم، ثم مواطن الصلاة عليه، ثم فوائدها وثمراتها، ثم الصلاة على غير النبي؛ ويصفه مؤلفه بأنه «كتاب فرد في معناه»."
+  en: "A book by Ibn Qayyim al-Jawziyya (d. 751 AH) on invoking blessings and peace upon the Prophet, in five chapters: the hadiths on the subject with their grading as sound, good or defective; the meaning of the prayer of blessing and of 'the family', and why it is likened to the blessing on Abraham; the occasions for invoking blessings on him; its benefits and fruits; and invoking blessings on others than the Prophet. The author calls it 'a book unique in its subject'."
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/jala-al-afham-nushayri-atat] }
+authors: [person/ibn-qayyim-al-jawziyya]
+language: language/arabic
+structure: "مقدمة المؤلف (ص3–4 من النسخة)؛ الباب الأول في الأحاديث الواردة في الصلاة على النبي (ص4–139)؛ الباب الثاني في معنى الصلاة على النبي وعلى آله، وتفسير الآل، ووجه التشبيه بالصلاة على إبراهيم، وختمها بالحميد المجيد، ومعنى السلام والرحمة والبركة واللهم، في عشرة فصول (ص140–379)؛ الباب الثالث في مواطن الصلاة عليه، أولها آخر التشهد (ص380–520)؛ الباب الرابع في الفوائد والثمرات الحاصلة بالصلاة عليه (ص521–536)؛ الباب الخامس في الصلاة على غير النبي (ص537–)؛ الفهارس (إلى ص730)."
+editions: [source/jala-al-afham-nushayri-atat]
+wings: [words, ideas]
+themes: [worship-and-the-pillars, prophets]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+relations:
+  - { type: about, target: person/muhammad, sources: [source/jala-al-afham-nushayri-atat] }
 external_ids: { wikidata: "Q20385402" }
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance: { layer: own-research, source: "source/jala-al-afham-nushayri-atat pp. 1, 3–4, 140, 380, 521–522, 537, 730; draft card from a Wikidata import (Devin, wikidata-import-wave2) rewritten by Claude Code (OCR-harvest worker E)", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/jala-al-afham-nushayri-atat, source/al-aalam]
+status: { review: published, completeness: 3 }
