@@ -16,6 +16,12 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 22 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 76).
+- **Persons**: 23 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 75).
+- **Persons**: 23 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 74).
+- **Persons**: 23 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 73).
+- **Persons**: 24 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 72).
+- **Persons**: 4 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 71).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 70).
 - **Persons**: 2 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 69).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 68).
