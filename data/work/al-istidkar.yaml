@@ -1,0 +1,24 @@
+id: work/al-istidkar
+class: work
+kind: book
+label:
+  ar: "الاستذكار الجامع لمذاهب فقهاء الأمصار وعلماء الأقطار"
+  en: "al-Istidhkar al-Jami' li-Madhahib Fuqaha' al-Amsar"
+  ur: "الاستذکار الجامع لمذاہب فقہاء الامصار"
+summary:
+  ar: "شرح ابن عبد البر الأندلسي (ت 463هـ) لموطأ مالك برواية يحيى بن يحيى، على أبواب الموطأ ونسقه، ألّفه بسؤال جماعة من أهل العلم أن يرتّب لهم «التمهيد» على أبواب الموطأ ويحذف تكرار شواهده، ويشرح فيه أقوال الصحابة والتابعين ومالك ويذكر معها مذاهب سائر فقهاء الأمصار في كل مسألة. {cite:istidhkar-qalaji-1993-v1 p.163} {cite:istidhkar-qalaji-1993-v1 p.164} {cite:istidhkar-qalaji-1993-v1 p.165}"
+  en: "Ibn Abd al-Barr of al-Andalus's (d. 463 AH) commentary on Malik's Muwatta' in the transmission of Yahya ibn Yahya, following the Muwatta's chapters and order; he wrote it when scholars asked him to rearrange al-Tamhid by the Muwatta's chapters without its repeated supporting reports, and in it he explains the sayings of the Companions, the Followers and Malik, giving with each the positions of the jurists of the other regions."
+  ur: "اندلس کے ابن عبد البر (م 463ھ) کی یحییٰ بن یحییٰ کی روایت والے مؤطا امام مالک کی شرح، مؤطا کے ابواب اور ترتیب پر؛ انہوں نے یہ اس وقت لکھی جب اہلِ علم نے ان سے کہا کہ «التمہید» کو مؤطا کے ابواب پر مرتب کر کے اس کے شواہد کی تکرار حذف کر دیں؛ اس میں وہ صحابہ، تابعین اور مالک کے اقوال کی شرح کرتے ہیں اور ہر مسئلے میں دوسرے شہروں کے فقہا کے مذاہب بھی ذکر کرتے ہیں۔"
+genre: [hadith, fiqh]
+language: language/arabic
+authors: [person/ibn-abd-al-barr]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences, sects-and-schools, development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+relations:
+  - { type: commentary_on, target: work/muwatta-malik, sources: [source/istidhkar-qalaji-1993-v1] }
+  - { type: relies_on, target: work/al-tamhid-ibn-abd-al-barr, sources: [source/istidhkar-qalaji-1993-v1] }
+sources: [source/istidhkar-qalaji-1993-v1]
+provenance: { layer: own-research, source: "istidhkar-qalaji-1993-v1 PDF pp. 1-3, 9, 81-99, 127-131, 142-143, 151-152, 156, 160, 163-165", generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D)" }
