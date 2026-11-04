@@ -12,3 +12,6 @@ Qatada said "I never asked a narrator to repeat, and my ears never heard a thing
 
 ## His death
 He died at Wasit in the plague of 118 AH — also said 117 — at fifty-seven years of age. {cite:tazkirat-al-huffaz j.1 p.120}
+
+## His commentary in al-Tabari's Jami' al-Bayan
+Ahmad Khalid Babakr cites Fuat Sezgin that [[person/al-tabari|al-Tabari]] used Qatada ibn Di'ama al-Sadusi's commentary in more than three thousand places, by the chain "Bishr ibn Mu'adh told us: Yazid ibn Zuray' told us, from Sa'id, from Qatada". {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49} His footnote, from Ghayat al-Nihaya, calls him Abu al-Khattab of Basra, the blind exegete, one of the imams in the readings of the Qur'an, who transmitted the reading from [[person/abu-al-aliya-al-riyahi|Abu al-Aliya]]; the death year in that footnote as the OCR reads it (110 AH) differs from Tadhkirat al-Huffaz (117 or 118 AH) and is not used. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49}

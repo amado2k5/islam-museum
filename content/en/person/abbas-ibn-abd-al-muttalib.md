@@ -3,6 +3,7 @@ id: person/abbas-ibn-abd-al-muttalib
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1159–1162", note: "section added to earlier prose" }
 ---
 
 ## Summary
@@ -15,6 +16,9 @@ He openly embraced Islam at the [[event/conquest-of-mecca|conquest of Mecca]] in
 
 ## Legacy
 From al-Abbas descended the line that, a century later, overthrew the Umayyads and founded the Abbasid caliphate, the dynasty of Baghdad for five centuries. Wherever people disputed the status of the Family of the House, the Abbasids based their claim on him.
+
+## In Ahmad ibn Hanbal's Fada'il al-Sahaba
+In [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]]'s chapter "the merits of Abu al-Fadl al-Abbas ibn Abd al-Muttalib, uncle of the Messenger of God": the Prophet's words to Umar, "Do you not know that a man's uncle is like his father?" — meaning al-Abbas (no. 1751, weak for a break according to the editor [[person/wasi-allah-abbas|Wasi Allah Abbas]]) — and his words to al-Abbas, "Come here, for you are like my father" (1752, weak as *mursal*). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1159} It has Sa'id ibn al-Musayyab's report that Umar wanted to enlarge the mosque where al-Abbas had a house; al-Abbas refused to give it, they took Ubayy ibn Ka'b as arbiter, he ruled against al-Abbas, and al-Abbas said, "It is alms for the Muslims" (1753, sound). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1160} And a report from Abu Ja'far that the Prophet admired al-Abbas's handsomeness and, asked what beauty in a man is, said "the tongue" (1755, weak, *mu'dal*), and from Abu al-Duha the Prophet's saying about people whose faces showed rancour, "They will not attain good until they love you for God and for my kinship" (1756, weak as *mursal*). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1161} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1162}
 
 ## For young visitors
 Al-Abbas was taken prisoner at the greatest battle of his time, on the losing side. Later he joined the winning side, and his great-grandchildren founded an empire.

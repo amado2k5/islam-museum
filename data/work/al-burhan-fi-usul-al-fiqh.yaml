@@ -1,17 +1,30 @@
 id: work/al-burhan-fi-usul-al-fiqh
 class: work
 kind: book
-label: { ar: "البرهان في أصول الفقه", en: "al-Burhan fi Usul al-Fiqh" }
+label: { ar: "البرهان في أصول الفقه", en: "al-Burhan fi Usul al-Fiqh", ur: "البرہان فی اصول الفقہ" }
 summary:
-  ar: "بطاقة أولية للبرهان في أصول الفقه لإمام الحرمين الجويني، من أمهات كتب الأصول الشافعية؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for al-Burhan fi Usul al-Fiqh, Imam al-Haramayn al-Juwayni's foundational Shafi'i usul treatise; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب في أصول الفقه لإمام الحرمين أبي المعالي عبد الملك بن عبد الله بن يوسف الجويني، يفتتحه بأن أصول الفقه مستمدة من الكلام والعربية والفقه، ثم يبسط مباحث البيان والأوامر والنواهي والعموم والتأويل والأفعال والأخبار والإجماع والقياس والاستدلال والترجيح والفتوى؛ ومن أشهر ما فيه تقسيمه أصول الشريعة خمسة أضرب بحسب استنادها إلى الضرورة أو الحاجة العامة أو المكرمات، وعرضه ثلاثة مذاهب في الاستدلال المرسل {cite:burhan-juwayni-mostafa p. 2} {cite:burhan-juwayni-mostafa p. 551} {cite:burhan-juwayni-mostafa p. 674} {cite:burhan-juwayni-mostafa p. 675}."
+  en: "A work of legal theory by Imam al-Haramayn Abu al-Ma'ali Abd al-Malik ibn Abd Allah ibn Yusuf al-Juwayni, opening with the statement that legal theory draws on kalam, Arabic and substantive law, and then setting out exposition, commands, prohibitions, generality, interpretation, the Prophet's acts, reports, consensus, analogy, inference (istidlal), preference and fatwa; among its best-known passages are its division of the bases of the law into five kinds according to whether they rest on necessity, general need or noble conduct, and its account of three positions on unattested inference."
+  ur: "امام الحرمین ابو المعالی عبد الملک بن عبد اللہ بن یوسف جوینی کی اصولِ فقہ پر کتاب، جو اس بیان سے شروع ہوتی ہے کہ اصولِ فقہ کلام، عربی اور فقہ سے ماخوذ ہے، پھر بیان، اوامر، نواہی، عموم، تاویل، افعالِ نبوی، اخبار، اجماع، قیاس، استدلال، ترجیح اور فتویٰ کے مباحث پیش کرتی ہے؛ اس کے مشہور ترین حصوں میں اصولِ شریعت کی پانچ قسموں میں تقسیم ہے — اس اعتبار سے کہ وہ ضرورت، عام حاجت یا مکارم پر مبنی ہیں — اور مرسل استدلال میں تین مذاہب کا بیان۔"
+genre: [usul-al-fiqh]
+language: language/arabic
+authors: [person/imam-al-haramayn-al-juwayni]
+structure: "Introductions: the sources of usul (kalam, Arabic, fiqh), reason and revelation, knowledge (pp. 2-40); language, commands (p. 83), prohibitions (p. 139), general and specific (p. 162), interpretation (pp. 186-228), abrogation, the Prophet's acts (p. 274), earlier laws (p. 286); Book 1 on reports (p. 325); Book 2 on consensus (p. 390); Book 3 on analogy, with the chapter on the division of causes and bases (p. 551); Book 4 on inference, kitab al-istidlal (p. 674); Book 5 on preference, kitab al-tarjih (p. 694); then fatwa and ijtihad, ending with the question of al-Shafi'i's wavering views (p. 855)."
+wings: [ideas, words]
+themes: [development-of-law-theology-institutions, law-and-courts]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+  - { type: mentions, target: person/al-baqillani, sources: [source/burhan-juwayni-mostafa] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/burhan-juwayni-mostafa] }
+  - { type: mentions, target: person/al-shafii, sources: [source/burhan-juwayni-mostafa] }
+  - { type: mentions, target: concept/maqasid-al-shariah, sources: [source/burhan-juwayni-mostafa] }
+sources: [source/burhan-juwayni-mostafa, source/al-aalam]
 external_ids: { wikidata: "Q116756287" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "burhan-juwayni-mostafa pp. 2-3, 549-561, 674-678, 854-855; earlier draft card by Devin (wikidata-import-wave2)"
+  generated_by: "Claude Code (OCR-harvest worker L)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker L); earlier draft card by Devin (SWE-2 High)" }

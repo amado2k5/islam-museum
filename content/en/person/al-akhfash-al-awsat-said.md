@@ -15,3 +15,6 @@ The encyclopaedia gives his death as 215 AH (830 CE). {cite:mawsuat-a3lam-ulama-
 
 ## Encyclopaedia of Islam account
 The Encyclopaedia of Islam (2nd ed.) calls Abu l-Hasan Sa'id b. Mas'ada the most famous of the Akhfashes. He was a mawla of the Tamimite clan of Mujashi b. Darim and was born at Balkh. He was a pupil of the Mu'tazili Abu Shamir, but more especially of Sibawayh, whom he outlived although he was the older of the two. He gave instruction on the Book (the Qur'an) and made it widely known. He died between 210 and 221/825–835. Nothing of his own works is preserved, although the Fihrist mentions them; al-Tha'alibi (d. 427/1035) used his Kitab gharib al-Qur'an, and his Kitab al-ma'ani is often quoted in al-Baghdadi's Khizana. {cite:encyclopaedia-of-islam-2 vol. 1 p. 343}
+
+## His place in al-Tabari's Jami' al-Bayan
+The thesis says [[person/al-tabari|al-Tabari]] relied on the Ma'ani al-Qur'an of al-Akhfash al-Awsat Sa'id ibn Mas'ada (d. 210 AH in the thesis), quoting much from it with many verse-proofs, and that when he cited a view of his he would say "one of the Basran scholars of Arabic said". {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.50} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.51}

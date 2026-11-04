@@ -1,7 +1,7 @@
 id: concept/al-ahruf-al-sabaa
 class: concept
 kind: doctrine
-label: { ar: "الأحرف السبعة", en: "The seven ahruf" }
+label: { ar: "الأحرف السبعة", en: "The seven ahruf", ur: "احرفِ سبعہ" }
 summary:
   ar: "قول النبي «إن القرآن أنزل على سبعة أحرف فاقرؤوا منه ما تيسر» — رواها عمر لما سمع هشام بن حكيم يقرأ الفرقان على غير قراءته فقاد به إلى النبي فأقرأ كلاً منهما وقال لكلٍّ هكذا أنزلت {cite:sahih-al-bukhari 2419}. وقد اختلف العلماء في ماهيتها اختلافاً واسعاً: فمن أهل العلم من عدّها سبعة أوجه من الحروف في الأمر والنهي والوعد والوعيد والجدل والقصص والمثل، ومنهم من جعلها الاختلاف في الحركات والحذف والتقديم والتأخير والإبدال، ومنهم من ربطها بقراءات الأعراب — وهي مسألة من أدق مسائل علوم القرآن وأوسعها جدلاً."
   en: "The Prophet's saying 'the Qur'an was revealed in seven ahruf, so read of it what is easy' — narrated through Umar's dispute with Hisham ibn Hakim over Surat al-Furqan {cite:sahih-al-bukhari 2419}; its exact meaning is one of the widest debates in Qur'anic sciences."
@@ -10,8 +10,17 @@ themes: [scripture-and-its-sciences]
 issue:
   ar: "ما المراد بالأحرف السبعة التي أُنزل عليها القرآن؟"
   en: "What do the seven ahruf on which the Qur'an was revealed mean?"
+  ur: "جن سات احرف پر قرآن نازل ہوا ان سے کیا مراد ہے؟"
 relations:
   - { type: related_to, target: person/umar-ibn-al-khattab, sources: [source/sahih-al-bukhari] }
-provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 2419", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-1" }
-sources: [source/sahih-al-bukhari]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }
+  - { type: related_to, target: person/ubayy-ibn-kab, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: related_to, target: concept/qiraat, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+provenance:
+  layer: own-research
+  source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 2419"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: "hadith-bukhari-1"
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 74–87 (al-Tabari's view, the typology of views, the thesis's preference); source/muharrar-wajiz-dar-ibn-hazm PDF pp. 21–24 (Ibn Atiyya's chapter)" }
+sources: [source/sahih-al-bukhari, source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/muharrar-wajiz-dar-ibn-hazm]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }
