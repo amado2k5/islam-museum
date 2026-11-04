@@ -1,0 +1,42 @@
+id: question/may-one-say-i-am-a-believer-god-willing
+class: question
+label: { ar: "هل يقول المسلم: أنا مؤمن إن شاء الله؟", en: "May a Muslim say: I am a believer, God willing?", ur: "کیا مسلمان کہے: میں ان شاء اللہ مومن ہوں؟" }
+summary:
+  ar: "مسألة الاستثناء في الإيمان: يرى ابن بطة العكبري أن من صفة أهل العلم أن يقول الرجل «أنا مؤمن إن شاء الله» لا على وجه الشك بل إشفاقاً وتركاً لتزكية النفس، ويذكر محقق كتابه أن للعلماء فيه ثلاثة أقوال: الإيجاب، والمنع لأنه يوهم الشك، والتفصيل."
+  en: "The question of the exception in faith: Ibn Batta al-Ukbari holds that it is a mark of people of knowledge to say 'I am a believer, God willing', not out of doubt but out of apprehension and refusal to praise oneself; his editor notes that scholars hold three views: that it is required, that it is forbidden because it suggests doubt, and a distinction between the two."
+question: { ar: "هل يقول المسلم: أنا مؤمن إن شاء الله؟", en: "May a Muslim say: I am a believer, God willing?" }
+issue: { ar: "حكم الاستثناء في الإيمان، أي قول: أنا مؤمن إن شاء الله، ومعناه." }
+short_answer:
+  ar: "عند ابن بطة ومن وافقه من أهل الحديث: يستثني إشفاقاً لا شكاً؛ ويحكي محقق الإبانة قولاً بإيجابه وقولاً بمنعه لأنه يقتضي الشك، وقولاً وسطاً يجيزه باعتبار ويمنعه باعتبار."
+  en: "For Ibn Batta and the hadith scholars who agree with him, one makes the exception out of apprehension, not doubt; the Ibana's editor reports a view that it is required, a view that it is forbidden because it implies doubt, and a middle view that allows it in one sense and forbids it in another."
+perspectives:
+  - tradition: sunni-hanbali
+    id: ibn-batta-ibana
+    standing: main
+    stance: { ar: "يقول: أنا مؤمن إن شاء الله، لا على وجه الشك" }
+    summary: { ar: "يقرر ابن بطة أن من شأن المؤمنين دوام الإشفاق على إيمانهم والحذر من تزكية أنفسهم وخوف سوء الخاتمة، فلما لزم قلوبهم هذا الإشفاق لزموا الاستثناء في كلامهم، وأن من صفة أهل العقل والعلم أن يقول الرجل: أنا مؤمن إن شاء الله، لا على وجه الشك، لأن الإيمان إقرار بالربوبية وخضوع وتصديق." }
+    holders: [person/ibn-batta-al-ukbari-ubayd-allah]
+    evidence: [{ ref: source/ibana-kubra-muti-iman, note: { ar: "باب الاستثناء في الإيمان، ص 862–864" } }]
+    sources: [source/ibana-kubra-muti-iman]
+  - tradition: sunni
+    id: tafsil-ajurri
+    standing: main
+    stance: { ar: "يجوز باعتبار ويمنع باعتبار: لا استثناء في أصل التصديق، والاستثناء في كمال العمل" }
+    summary: { ar: "ينقل محقق الإبانة أن الآجري يجعل الاستثناء في الأعمال الموجبة لحقيقة الإيمان لا في الاعتقاد ولا في القول، فيستثني في كونه مؤمناً كاملاً ولا يستثني في صحة إيمانه، وأن شارح الطحاوية يرى المجيزين أسعد بالدليل: يمنع الاستثناء إن أراد الشك في أصل الإيمان، ويجوز إن أراد الإيمان الكامل الموصوف في القرآن أو تعليق الأمر بالمشيئة." }
+    holders: [person/al-ajurri, person/ibn-abi-al-izz-al-hanafi]
+    evidence: [{ ref: source/ibana-kubra-muti-iman, note: { ar: "حاشية المحقق ص 862–863، والدراسة ص 139" } }]
+    sources: [source/ibana-kubra-muti-iman]
+  - tradition: sunni
+    id: mani
+    standing: secondary
+    stance: { ar: "يمنع الاستثناء لأنه يقتضي الشك في الإيمان" }
+    summary: { ar: "يذكر محقق الإبانة أن قوماً منعوا الاستثناء لأنه يقتضي الشك في الإيمان، ولا يسمّيهم؛ ولم تُضف بعد أقوالهم من كتبهم." }
+    evidence: [{ ref: source/ibana-kubra-muti-iman, note: { ar: "حاشية المحقق ص 862" } }]
+    sources: [source/ibana-kubra-muti-iman]
+related: [concept/iman, work/ibana-al-kubra-ibn-batta, group/murjia]
+wings: [ideas]
+themes: [creed, sects-and-schools]
+sensitivity: contested
+sources: [source/ibana-kubra-muti-iman]
+provenance: { layer: own-research, source: "الإبانة الكبرى، كتاب الإيمان، تحقيق رضا معطي، ص 136–139، 862–864", generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C)" }

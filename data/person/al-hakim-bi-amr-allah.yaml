@@ -15,9 +15,13 @@ provenance:
   run: lib-tarikh-khulafa-batch-37
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
   model: "unknown"
-sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 57-59"]
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the disappearance in 411 AH, his age and reign, his scholarship and the confession account of 415 AH are read from al-Maqrizi's Khitat (local scan, pp. 1250, 2041–2042); the al-Suyuti and Muntazam accounts keep their own citations and are labelled as reports" }
 
 education:
   levels: [scholars]
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+relations:
+  - { type: built, target: building/mosque-of-al-hakim, sources: [source/yeomans-islamic-cairo-2006] }
+sensitivity: contested

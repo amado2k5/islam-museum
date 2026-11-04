@@ -1,23 +1,64 @@
 id: person/al-shawkani
 class: person
-label: { ar: "الشوكاني", en: "al-Shawkani" }
+label: { ar: "الشوكاني", en: "al-Shawkani", ur: "شوکانی" }
 names:
-  - { kind: full, lang: ar, value: "محمد بن علي بن محمد بن عبد الله الشوكاني" }
+  - { kind: full, lang: ar, value: "محمد بن علي بن محمد بن عبد الله الشوكاني ثم الصنعاني" }
+  - { kind: nisba, lang: ar, value: "الشوكاني" }
+  - { kind: full, lang: en, value: "Muhammad ibn Ali ibn Muhammad ibn Abd Allah al-Shawkani al-San'ani" }
 gender: male
-roles: [scholar]
-born: { edtf: "1759", calendar: gregorian, precision: year, status: tradition, sources: [source/al-aalam] }
-died: { edtf: "1834", calendar: gregorian, precision: year, status: tradition, sources: [source/al-aalam] }
+roles: [scholar, jurist, judge, writer]
+born:
+  edtf: "1760-07"
+  hijri: "1173-11-28"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "«ولد حسبما وجد بخطه في وسط نهار الاثنين الثامن والعشرين من شهر ذي القعدة سنة 1173» في هجرة شوكان (Dar al-Ma'rifa ed., PDF p. 4). Gregorian month derived by tabular conversion (≈ 11 July 1760). The earlier card gave 1759 from al-A'lam."
+  sources: [source/fath-al-qadir-dar-al-marifa, source/al-aalam]
+died:
+  edtf: "1834-10"
+  hijri: "1250-06-27"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "«ليلة الأربعاء السابع والعشرين من شهر جمادى الآخرة سنة 1250هـ» (Dar al-Ma'rifa ed., PDF p. 4); died in Sana'a (title page: «وفاته بصنعاء 1250هـ»). Gregorian month derived by tabular conversion (≈ 30 October 1834)."
+  sources: [source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1, source/al-aalam]
 summary:
-  ar: "محمد بن علي الشوكاني (١٧٥٩–١٨٣٤م)؛ فقيه مجتهد من علماء اليمن، من أهل صنعاء. من مؤلفاته «نيل الأوطار من أسرار منتقى الأخبار» في ثماني مجلدات و«الفوائد المجموعة في الأحاديث الموضوعة» {cite:al-aalam tarjama}."
-  en: "Muhammad ibn Ali al-Shawkani (1759–1834 CE) — the Yemeni mujtahid jurist of Sana'a, author of the eight-volume Nayl al-Awtar {cite:al-aalam tarjama}."
+  ar: "محمد بن علي الشوكاني (1173–1250هـ)، عالم يمني من صنعاء، تفقّه على المذهب الزيدي ثم ترك التقليد ودعا إلى الاجتهاد والأخذ بالدليل، وولي قضاء صنعاء في عهد ثلاثة من أئمة اليمن؛ صاحب «نيل الأوطار» و«فتح القدير» في التفسير الجامع بين الرواية والدراية، و«البدر الطالع»."
+  en: "Muhammad ibn Ali al-Shawkani (1173–1250 AH / 1760–1834), a Yemeni scholar of Sana'a, trained in the Zaydi school, who abandoned imitation (taqlid) to call for independent reasoning from the evidence, and served as chief judge of Sana'a under three of Yemen's imams; author of Nayl al-Awtar, of the commentary Fath al-Qadir, which unites transmitted report and reasoned understanding, and of al-Badr al-Tali'."
+  ur: "محمد بن علی شوکانی (1173–1250ھ / 1760–1834ء)، صنعاء کے یمنی عالم، جنہوں نے زیدی مسلک پر فقہ پڑھی پھر تقلید چھوڑ کر دلیل سے اجتہاد کی دعوت دی، اور یمن کے تین ائمہ کے دور میں صنعاء کے قاضی رہے؛ «نیل الاوطار»، روایت و درایت کو جمع کرنے والی تفسیر «فتح القدیر» اور «البدر الطالع» کے مصنف۔"
 wings: [people]
+themes: [scripture-and-its-sciences, sects-and-schools]
 periods: [period/modern-era]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/sanaa, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: died_in, target: place/sanaa, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: student_of, target: person/al-qasim-ibn-yahya-al-khawlani, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: student_of, target: person/al-hasan-ibn-ismail-al-maghribi, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: student_of, target: person/abd-allah-ibn-ismail-al-nihmi, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: student_of, target: person/ahmad-ibn-muhammad-al-harazi, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: student_of, target: person/abd-al-qadir-ibn-ahmad-al-sanani, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: authored, target: work/fath-al-qadir, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: authored, target: work/nayl-al-awtar-shawkani, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: authored, target: work/al-qawl-al-mufid-fi-adillat-al-ijtihad-wa-al-taqlid, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: authored, target: work/al-tuhaf-fi-madhahib-al-salaf, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: authored, target: work/al-badr-al-tali, sources: [source/fath-al-qadir-dar-al-marifa] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "The biography in the Dar al-Ma'rifa edition calls him «قاضي قضاة أهل السنة والجماعة» and describes his creed as that of the salaf, while recording that he was trained in and first taught the Zaydi school (PDF pp. 4–5); the editor Umayra notes his criticism of some Zaydi views 'though he was one of them' (Dar al-Wafa' ed., PDF p. 49)."
+    sources: [source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1]
+traditions: [sunni, shia-zaydi]
 external_ids: { wikidata: "Q4325822" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1]
 provenance:
   layer: own-research
   source: "الأعلام للزركلي (ط2 القاهرة) ترجمة الشوكاني"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-alam-batch-1
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fath-al-qadir-dar-al-marifa PDF pp. 1, 4–6, 10–11 (biography, author's preface); source/fath-al-qadir-dar-al-wafa-v1 PDF pp. 26–27, 33, 43, 49–50 (editor's introduction)" }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
