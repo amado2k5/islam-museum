@@ -557,3 +557,9 @@ Promoted: al-bisati, al-faryani, al-kazaruni, al-mutadid-dawud-abbasid, al-qayat
 Promoted: al-bukhari-makki-ahmad, al-dalji-uthmani, al-hariri-misri, al-qujawi, al-safawi-sayyid, al-tanbadhawi-bakri, al-tayyib-al-makhrama, ali-al-dhuwayb, badi-ibn-al-diya, burhan-ibn-al-mabit, ibn-tulun-shams-al-din, isa-pasha-damascus, maghwash-al-tunisi, muhammad-bik-qadi, qara-ughli, qutb-ibn-sultan, sad-ibn-al-dayl, sadi-chalabi, shahin-al-jarkasi, shams-al-din-al-shami, shihab-al-sunbati, wajih-al-din-al-shaybani.cite-check 22/22; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1527.** sweep continues through remaining trilingual drafts.
+
+### Batch 82 (4 Nov 2026, 21 records) — lib-wafayat-batch-5 draft promotions (sweep worker)
+
+Promoted: abd-al-azim-al-mundhiri, abu-al-salt-al-andalusi, ahmad-ibn-harun-al-rashid, al-fariqi, al-manazi, al-shibli, al-sukkari, al-urjani, asbagh-ibn-al-faraj, barkiyaruq, dalaj-ibn-ahmad, ibn-al-khayyat, ibn-faris, ibn-rashiq-al-qayrawani, ibn-tabataba, ibn-waki-al-tinnisi, ibrahim-ibn-hilal-al-sabi, iyas-ibn-muawiya, jafar-ibn-fallah, nasir-al-din-jafar-ibn-yaqub, yaqub-ibn-dawud-tahman.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1548.** sweep continues through remaining trilingual drafts.
