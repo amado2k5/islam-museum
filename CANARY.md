@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 13 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 130).
 - **Persons**: 14 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 129).
 - **Persons**: 14 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 128).
 - **Library harvest paused**: the OCR'd-book harvest lane (`lib-ocr-harvest`) is stopped at the founder's request after 13 batches; its claim row is released, and every book's progress file lists what remains to mine. Two downloads (Tafsir al-Tabari, Shakir edition, and Adwa' al-Bayan with its Tatimma) are on the harvest drive but not yet OCR'd or harvested.
