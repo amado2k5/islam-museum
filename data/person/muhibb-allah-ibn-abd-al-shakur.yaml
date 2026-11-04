@@ -13,13 +13,15 @@ gender: male
 roles: [jurist]
 wings: [people]
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix card of the Mawsu'a, scan p.1642; text only, footnotes and sources cited to the Mawsu'a page" }
+status:
+  review: published
+  completeness: 3
 provenance:
   layer: own-research
   source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1642 من المسح"
-  generated_by: "Claude Haiku 5.5"
-  model: claude-haiku-5-5
-  run: mawsua-w01-appendix
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
 occupations:
   - job: job/faqih
     kind: primary
