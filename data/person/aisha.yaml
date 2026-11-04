@@ -49,13 +49,14 @@ perspectives:
     sources: [source/momen-1985]
 sensitivity: contested
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his/her chapter in Ahmad's Fada'il al-Sahaba with the editor's grades, source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1097-1100"
   layer: own-research
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 329-330, article 'Aisha bint Abi Bakr' signed Ch. Pellat (EI2 enrichment, batch ei2-b003 part 3cs); earlier sources as listed in sources"
   generated_by: "Claude Code (claude-haiku-5-5)"
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
 external_ids:
   wikidata: Q4730963
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sahih-muslim, source/nisaa-annabi-aisha-qadi, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy, source/assabile-yusuf-al-qaradawi, source/assabile-muhammad-metwally-al-shaarawy, source/assabile-abd-al-rahman-mansour, source/assabile-ahmed-abdussalam]
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sahih-muslim, source/nisaa-annabi-aisha-qadi, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy, source/assabile-yusuf-al-qaradawi, source/assabile-muhammad-metwally-al-shaarawy, source/assabile-abd-al-rahman-mansour, source/assabile-ahmed-abdussalam, source/fadail-sahaba-ahmad-wasi-allah-1999]
 education:
   did_you_know:
     ar: "رُوي عن عائشة أكثر من ألفي حديث، وكان الصحابة إذا أشكل عليهم الأمر سألوها عن دقائق الدين."
@@ -65,7 +66,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+status: { review: published, completeness: 2, generated_by: "Devin; 2026-10-11" }
 occupations:
   - job: job/mufti
     kind: episodic

@@ -1,32 +1,43 @@
 id: person/ibn-balban-ala-al-din-ali
 class: person
-label: { ar: "ابن بلبان علاء الدين علي", en: "Ibn Balban Ala al-Din Ali" }
+label: { ar: "ابن بلبان علاء الدين علي", en: "Ibn Balban Ala al-Din Ali", ur: "ابن بلبان علاء الدین علی" }
 names:
-  - { kind: full, lang: ar, value: "أبو الحسن علاء الدين علي بن بلبان الفارسي" }
+  - { kind: full, lang: ar, value: "الأمير علاء الدين أبو الحسن علي بن بلبان بن عبد الله الفارسي المصري الحنفي" }
   - { kind: kunya, lang: ar, value: "أبو الحسن" }
   - { kind: laqab, lang: ar, value: "علاء الدين" }
   - { kind: nisba, lang: ar, value: "الفارسي" }
 gender: male
 roles: [scholar]
 traditions: [sunni]
-born: { edtf: "1276", hijri: "0675", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1339", hijri: "0739", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+born: { edtf: "1276", hijri: "0675", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 675هـ {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 44}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1, source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1339", hijri: "0739", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بمنزله على شاطئ النيل في 9 شوال 739هـ ودفن بتربته خارج باب النصر، كما قال ابن أبي الوفاء القرشي؛ وأرّخه السيوطي في حسن المحاضرة سنة 731هـ وعدّه شاكر سهواً منه {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 45}؛ السنة الميلادية مشتقة.", sources: [source/sahih-ibn-hibban-shakir-maarif-v1, source/mawsuat-a3lam-ulama-adaba] }
 summary:
-  ar: "عالم يُعرف بالفارسي، ولد سنة 675هـ (1276م) وتوفي سنة 739هـ (1339م)."
-  en: "Scholar known as al-Farisi, born 675 AH (1276 CE) and died 739 AH (1339 CE)."
+  ar: "الأمير علاء الدين أبو الحسن علي بن بلبان الفارسي المصري الحنفي (675-739هـ)، الفقيه النحوي المحدث، تفقه على السروجي وقرأ النحو على أبي حيان وسمع الحديث من الدمياطي، ورتّب صحيح ابن حبان على الأبواب في «الإحسان»، والمعجم الكبير للطبراني، وتوفي بمنزله على النيل ودفن خارج باب النصر {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 44-45}."
+  en: "Al-Amir 'Ala' al-Din Abu al-Hasan 'Ali ibn Balban al-Farisi, the Egyptian Hanafi (675-739 AH), jurist, grammarian and hadith scholar; he studied law with al-Saruji, grammar with Abu Hayyan and hadith with al-Dimyati, rearranged Ibn Hibban's Sahih by chapter in al-Ihsan, and al-Tabarani's al-Mu'jam al-Kabir too, and died at his house on the Nile and was buried outside Bab al-Nasr {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 44-45}."
+  ur: "امیر علاء الدین ابو الحسن علی بن بلبان فارسی، مصری حنفی (675-739ھ)، فقیہ، نحوی اور محدث؛ انہوں نے سروجی سے فقہ، ابو حیان سے نحو اور دمیاطی سے حدیث پڑھی، صحیح ابن حبان کو «الاحسان» میں ابواب پر مرتب کیا، اور طبرانی کی المعجم الکبیر کو بھی، اور نیل کے کنارے اپنے گھر میں وفات پائی اور باب النصر کے باہر دفن ہوئے {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 44-45}۔"
 wings: [people]
 themes: [scripture-and-its-sciences]
-periods: [period/mongol-post-mongol]
-regions: [persia-central-asia]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
 story_roles:
-  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+  - { role: scholar, status: tradition, sources: [source/sahih-ibn-hibban-shakir-maarif-v1, source/mawsuat-a3lam-ulama-adaba] }
+faith:
+  - { value: sunni-hanafi, basis: documented, note: "حنفي المذهب بحسب الجواهر المضية كما ينقلها شاكر {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 44-45}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+relations:
+  - { type: student_of, target: person/ahmad-ibn-ibrahim-al-saruji, note: "أخذ الفقه عن شمس الدين أبي العباس أحمد السروجي {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 44}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+  - { type: student_of, target: person/abu-hayyan-al-gharnati, note: "قرأ النحو على أبي حيان {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 44}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+  - { type: student_of, target: person/al-dimyati, note: "سمع الحديث من الحافظ الدمياطي {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 44}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+  - { type: lived_in, target: place/cairo, sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+  - { type: buried_in, target: building/bab-al-nasr, note: "دفن بتربته خارج باب النصر {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 45}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+  - { type: related_to, target: work/al-mujam-al-kabir, note: "رتّب المعجم الكبير للطبراني على أبواب الفقه بإشارة القطب الحلبي، كما قال ابن حجر وابن أبي الوفاء {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 45}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+sources: [source/sahih-ibn-hibban-shakir-maarif-v1, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "Shakir ed. of Sahih Ibn Hibban vol. 1 pp. 44-45 (notice on al-Amir 'Ala' al-Din, from al-Jawahir al-Mudiyya, al-Durar al-Kamina and others) and 49-50; earlier Devin record from Mawsu'at A'lam al-'Ulama' wa-al-Udaba' vol. 4 p. 24"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
   review: published
   completeness: 3
-provenance:
-  layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص24"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch58
+  generated_by: "Claude Code (OCR-harvest worker A); enriched from a Devin record (run prose-fill-persons-batch58)"

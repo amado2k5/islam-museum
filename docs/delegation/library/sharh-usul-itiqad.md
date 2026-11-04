@@ -21,3 +21,12 @@ Read: pp. 1–46 (title, editor's intro, life of the author, author's introducti
 
 ## Next
 The opening list of imams of the Sunna (after p. 46), the chapters on the vision of God, predestination and the order of the caliphs; the Karamat section (pp. 1621–1626 index).
+
+## Third run (4 Nov 2026), batch 9 — deep pass
+Read (Basira ed., printed = PDF): topic index pp. 1600–1626; the Qadariyya chapters pp. 563–564, 612, 623–630, 639, 642–643, 648, 654–659; magic pp. 1029–1035.
+- Enriched: `group/qadariyya` (draft, 555-byte ar → full ar/en/ur; perspective `lalakai-sharh-usul`; status published, completeness 2). Fixed a malformed `label.ar` (a cited Fihrist sentence had been pasted into the label): label is now «القدرية» and the sentence, with its citation `fihrist-ibn-al-nadim p. 557`, moved into the prose; `label.ur` added.
+- New: `question/does-magic-have-a-reality` (al-Lalaka'i and his editor first; the Mu'tazili view only as the editor reports it).
+- Flags: the definitions of sihr, the Mu'tazili view and al-Nawawi/al-Shafi'i quotations are the editor's note (p. 1029), labelled so; polemical reports on Amr ibn Ubayd (p. 648) attributed to their transmitters.
+
+## Next
+Vision of God (pp. 412–444) to enrich `concept/ruyat-allah`; the Prophet's seeing his Lord (pp. 427–435) for `question/did-the-prophet-see-his-lord`; karamat (pp. 1283ff.); the Murji'a chapters (index pp. 1614–1615).
