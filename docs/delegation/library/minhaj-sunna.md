@@ -41,3 +41,10 @@ Read: Shamela pp. 5–12 (full table of contents), 1078–1083 (the twelfth imam
 
 ## Next
 The verse of wilaya (pp. ~1936ff.), the hadith of the rank of Aaron (~2119), Fadak as gift (1148–1160), Khalid and Malik ibn Nuwayra (1323), the eternity-of-the-world digression (105–275).
+
+## Third run (4 Nov 2026), batch 13
+Read: Shamela pp. 1936–1945 (al-Hilli's first Qur'anic proof, the verse of wilaya).
+- New: `question/does-the-verse-of-wilaya-refer-to-ali` (Ibn Taymiyya first; al-Hilli as quoted; the editor's note on al-Tabari/Shakir/Ibn Kathir labelled; Ibn Taymiyya's verdict on the origin of rafd, p. 1939, recorded as his).
+
+## Next
+The hadith of the rank of Aaron (~2119), Fadak as gift (1148–1160), Khalid and Malik ibn Nuwayra (1323), the eternity-of-the-world digression (105–275).

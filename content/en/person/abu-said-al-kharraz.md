@@ -6,10 +6,10 @@ translators: ["Claude Opus 5.5 (claude-opus-5-5)"]
 status:
   review: published
 provenance:
-  generated_by: "Claude Code (OCR-harvest worker F)"
+  generated_by: "Claude Code (OCR-harvest worker F); al-Risala section by Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "tarikh-dimashq-amrawi-v5 pp. 129–143 (entry 70); muntazam-ibn-al-jawzi; mawsuat-a3lam-ulama-adaba"
+  source: "tarikh-dimashq-amrawi-v5 pp. 129–143 (entry 70); muntazam-ibn-al-jawzi; mawsuat-a3lam-ulama-adaba; risala-qushayriyya-minhaj-2017 pp. 90, 176"
 ---
 
 ## Summary
@@ -30,8 +30,11 @@ Ibn Asakir gives, with chains, reports of his self-denial, among them his own ac
 
 Abu al-Qasim ibn Mardan relates that a young man from Nihawand asked him about the reality of trust in God, and he answered: that you do not take a pass from Hamula — and the young man had in fact taken a pass from Hamula, the chief of Nihawand. {cite:tarikh-dimashq-amrawi-v5 p. 133} Reports of wonders are also told of him — two wild beasts climbing onto his shoulders in the desert of Mosul while he kept his heart from turning round, a voice that offered him the choice between a means and strength, and his burying himself in the sand until he was carried to the way-station; Ibn Asakir gives them as transmitted reports with their chains, and the museum does not assert them. {cite:tarikh-dimashq-amrawi-v5 p. 133} {cite:tarikh-dimashq-amrawi-v5 p. 134} {cite:tarikh-dimashq-amrawi-v5 p. 142} He also relates that al-Kharraz saw in a dream his son who had died before him and asked him for counsel, and after it did not wear a shirt for thirty years. {cite:tarikh-dimashq-amrawi-v5 p. 131}
 
+## In al-Risala al-Qushayriyya
+In [[work/al-risala-al-qushayriyya|al-Risala al-Qushayriyya]] al-Qushayri gives a notice of Abu Sa'id Ahmad ibn 'Isa al-Kharraz: a man of Baghdad who kept company with Dhu al-Nun al-Misri, al-Nibaji, Abu 'Ubayd al-Busri, al-Sari and Bishr, and died in 277 AH. {cite:risala-qushayriyya-minhaj-2017 p. 176} He quotes his saying, "Every inward that the outward contradicts is false", and his dream of Iblis, who told him he found nothing among the Sufis with which to deceive people since they had cast off the world, "except that I have one subtle snare among you": companionship with youths; and his saying that he kept company with the Sufis and no dispute arose between them, because he was with them against himself. {cite:risala-qushayriyya-minhaj-2017 p. 176} In the section on creed al-Qushayri quotes him: whoever thinks he arrives by exerting effort is toiling in vain, and whoever thinks he arrives without effort is indulging in wishful thinking. {cite:risala-qushayriyya-minhaj-2017 p. 90}
+
 ## Death
 Ibn Asakir relates from [[person/ruwaym-ibn-ahmad|Ruwaym]] that he was present at his death and heard him reciting verses on the longing of the knowers' hearts. {cite:tarikh-dimashq-amrawi-v5 p. 142} {cite:tarikh-dimashq-amrawi-v5 p. 143} The year is disputed:
 
-- **277 AH (al-Qushayri; preferred by al-Sulami; judged nearer by al-Khatib)**: al-Qushayri said he died in 277; Abu Bakr ibn Abi al-Ajuz, asked, said 247 or 277, and al-Sulami said: I think this (277) is more correct; al-Khatib said: the first view is certainly false, and the second is nearer the truth if it is reliably preserved. {cite:tarikh-dimashq-amrawi-v5 p. 130} {cite:tarikh-dimashq-amrawi-v5 p. 143}
+- **277 AH (al-Qushayri; preferred by al-Sulami; judged nearer by al-Khatib)**: al-Qushayri said he died in 277 {cite:risala-qushayriyya-minhaj-2017 p. 176}; Abu Bakr ibn Abi al-Ajuz, asked, said 247 or 277, and al-Sulami said: I think this (277) is more correct; al-Khatib said: the first view is certainly false, and the second is nearer the truth if it is reliably preserved. {cite:tarikh-dimashq-amrawi-v5 p. 130} {cite:tarikh-dimashq-amrawi-v5 p. 143}
 - **286 AH (Abu al-Qasim ibn Mardan)**: he said: I kept company with Abu Sa'id al-Kharraz for fourteen years, and he died in 286. {cite:tarikh-dimashq-amrawi-v5 p. 143} The Mawsu'at A'lam al-Ulama' wa-l-Udaba' follows this date. {cite:mawsuat-a3lam-ulama-adaba}

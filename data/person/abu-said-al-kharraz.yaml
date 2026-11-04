@@ -9,7 +9,7 @@ names:
 gender: male
 roles: [mystic]
 traditions: [sunni]
-died: { hijri: "0277", edtf: "0890/0891", calendar: julian, precision: year, status: debated, derived: true, note: "القشيري: مات سنة 277؛ وسئل أبو بكر بن أبي العجوز فقال: سنة 247 أو 277، ورجّح السلمي الثاني، وقال الخطيب: الأول باطل لا شك، والثاني أقرب إلى الصواب إن كان محفوظاً؛ وقال أبو القاسم بن مردان، وقد صحبه أربع عشرة سنة: مات سنة 286 {cite:tarikh-dimashq-amrawi-v5 p. 130} {cite:tarikh-dimashq-amrawi-v5 p. 143}. وتذكر الموسوعة 286 {cite:mawsuat-a3lam-ulama-adaba}. التحويل مشتق بالحساب الجدولي لسنة 277.", sources: [source/tarikh-dimashq-amrawi-v5, source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi] }
+died: { hijri: "0277", edtf: "0890/0891", calendar: julian, precision: year, status: debated, derived: true, note: "القشيري: مات سنة 277 {cite:risala-qushayriyya-minhaj-2017 p. 176}؛ وسئل أبو بكر بن أبي العجوز فقال: سنة 247 أو 277، ورجّح السلمي الثاني، وقال الخطيب: الأول باطل لا شك، والثاني أقرب إلى الصواب إن كان محفوظاً؛ وقال أبو القاسم بن مردان، وقد صحبه أربع عشرة سنة: مات سنة 286 {cite:tarikh-dimashq-amrawi-v5 p. 130} {cite:tarikh-dimashq-amrawi-v5 p. 143}. وتذكر الموسوعة 286 {cite:mawsuat-a3lam-ulama-adaba}. التحويل مشتق بالحساب الجدولي لسنة 277.", sources: [source/tarikh-dimashq-amrawi-v5, source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi] }
 summary:
   ar: "أبو سعيد أحمد بن عيسى الخراز الصوفي البغدادي، نسبته إلى خرز الجلود، صحب ذا النون المصري والسري السقطي وبشراً الحافي، ويصفه السلمي بإمام القوم في كل فن من علومهم، ويقال إنه أول من تكلم في علم الفناء والبقاء. اجتاز بصيدا من ساحل دمشق في سياحته فترجمه ابن عساكر في «تاريخ دمشق»، وجمع فيها أقواله وأخباره في التوكل والمراقبة والطيّ. اختُلف في وفاته بين 277 و286هـ {cite:tarikh-dimashq-amrawi-v5 p. 129-143}."
   en: "Abu Sa'id Ahmad ibn Isa al-Kharraz, the Baghdadi Sufi, named after the stitching of leather goods, who kept company with Dhu al-Nun al-Misri, al-Sari al-Saqati and Bishr al-Hafi; al-Sulami calls him the imam of the Sufis in every branch of their sciences, and he is said to have been the first to speak of the science of annihilation and subsistence (fana' and baqa'). He passed through Sidon on the Damascus coast in his wanderings, so Ibn Asakir gave him an entry in Tarikh Dimashq, gathering his sayings and reports on trust in God, self-watchfulness and long fasting. His death is put between 277 and 286 AH {cite:tarikh-dimashq-amrawi-v5 p. 129-143}."
@@ -28,11 +28,11 @@ relations:
   - { type: lived_in, target: place/mecca, sources: [source/tarikh-dimashq-amrawi-v5] }
   - { type: traveled_to, target: place/sayda, sources: [source/tarikh-dimashq-amrawi-v5] }
 external_ids: { wikidata: "Q2822175" }
-sources: [source/tarikh-dimashq-amrawi-v5, source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi]
+sources: [source/tarikh-dimashq-amrawi-v5, source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi, source/risala-qushayriyya-minhaj-2017]
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }
 provenance:
   layer: own-research
-  source: "تاريخ مدينة دمشق لابن عساكر، تحقيق العمروي، المجلد الخامس، الترجمة 70، ص 129–143؛ مع ما سبق من موسوعة أعلام العلماء والأدباء ج8 ص149 و532 والمنتظم (سجلا Devin المدمجان: person/abu-said-al-kharraz و person/ahmad-ibn-isa-al-khazzaz)"
-  generated_by: "Claude Code (OCR-harvest worker F)"
+  source: "تاريخ مدينة دمشق لابن عساكر، تحقيق العمروي، المجلد الخامس، الترجمة 70، ص 129–143؛ مع ما سبق من موسوعة أعلام العلماء والأدباء ج8 ص149 و532 والمنتظم (سجلا Devin المدمجان: person/abu-said-al-kharraz و person/ahmad-ibn-isa-al-khazzaz)؛ والرسالة القشيرية (المنهاج 2017) ص 90 و176 من إضافة العامل G"
+  generated_by: "Claude Code (OCR-harvest worker F); Risala enrichment by Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04

@@ -30,3 +30,12 @@ Vol. 10: *Amrad al-Qulub* (pp. 91–149, envy pp. 111–125), the prophets' prot
 ## Batch 2 (4 Nov 2026)
 - From vol. 10 pp. 551–552 (read in batch 1): enriched `work/ihya-ulum-al-din` (Ibn Taymiyya's assessment: a paragraph and a perspective in ar/en/ur; source and tour stop sources updated) and rewrote the draft `work/qut-al-qulub` card (completeness 2, from Ibn Taymiyya's assessment only).
 - `concept/al-maqamat-wal-ahwal` also cites vol. 10 pp. 5–6, 18.
+
+## Third run (4 Nov 2026), batch 11
+Read (vol. 10, printed = PDF): pp. 289–295 (the prophets' protection), 393–406 (innovated retreats).
+- New: `question/are-the-prophets-protected-from-sin` (Ibn Taymiyya first; the absolute-protection view as he reports it, unnamed in the passage).
+- Enriched: `concept/khalwa` (Devin Wikidata draft card, no prose → full ar/en/ur, perspectives: Ibn Taymiyya; al-Ghazali's method as Ibn Taymiyya reports it; status published).
+- Flags: the "cranes" (gharaniq) reports are mentioned only as Ibn Taymiyya's account of two views, with no wording quoted.
+
+## Next
+Vol. 10: *Amrad al-Qulub* (envy pp. 111–125, `concept/hasad` is already rich), the names of the ascetics and the term "Sufi" (pp. 366–370), the commentary on *Futuh al-Ghayb* (pp. 455–551), *al-Wasiyya al-Sughra* (pp. 654–666). Vol. 8: the three kinds of Qadariyya.

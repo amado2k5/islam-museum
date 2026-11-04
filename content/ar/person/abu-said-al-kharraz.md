@@ -6,10 +6,10 @@ translators: []
 status:
   review: published
 provenance:
-  generated_by: "Claude Code (OCR-harvest worker F)"
+  generated_by: "Claude Code (OCR-harvest worker F); al-Risala section by Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "tarikh-dimashq-amrawi-v5 ص 129–143 (الترجمة 70)؛ muntazam-ibn-al-jawzi؛ mawsuat-a3lam-ulama-adaba"
+  source: "tarikh-dimashq-amrawi-v5 ص 129–143 (الترجمة 70)؛ muntazam-ibn-al-jawzi؛ mawsuat-a3lam-ulama-adaba؛ risala-qushayriyya-minhaj-2017 pp. 90, 176"
 ---
 
 ## موجز
@@ -30,8 +30,11 @@ provenance:
 
 ويروي عنه أبو القاسم بن مردان أن فتى من نهاوند سأله عن حقيقة التوكل فقال: ألا تأخذ الحجة من حمولا، وكان الفتى قد أخذ حجة من حمولا رئيس نهاوند. {cite:tarikh-dimashq-amrawi-v5 p. 133} وتُروى عنه أخبار من باب الكرامات، كسَبُعَين صعدا على كتفيه في بادية الموصل وهو يحفظ قلبه عن الالتفات، وهاتف خيّره بين السبب والقوة، ودفنه نفسه في الرمل حتى حُمل إلى المرحلة؛ وهي في الكتاب روايات منقولة بأسانيدها يحكيها ابن عساكر ولا يقررها المتحف. {cite:tarikh-dimashq-amrawi-v5 p. 133} {cite:tarikh-dimashq-amrawi-v5 p. 134} {cite:tarikh-dimashq-amrawi-v5 p. 142} ويروي ابن عساكر أيضاً أنه رأى في المنام ابنه الذي مات قبله فأوصاه، فما لبس القميص ثلاثين سنة. {cite:tarikh-dimashq-amrawi-v5 p. 131}
 
+## في الرسالة القشيرية
+يترجم القشيري في [[work/al-risala-al-qushayriyya|الرسالة القشيرية]] لأبي سعيد أحمد بن عيسى الخراز، فيقول إنه من أهل بغداد، صحب ذا النون المصري والنباجي وأبا عبيد البسري والسري وبشراً، ومات سنة 277هـ. {cite:risala-qushayriyya-minhaj-2017 p. 176} وينقل عنه قوله: «كل باطن يخالفه ظاهر فهو باطل»، وأنه رأى إبليس في النوم فقال له إنه لا يجد في الصوفية ما يخادع به الناس لأنهم طرحوا الدنيا، «غير أن لي فيكم لطيفة»: صحبة الأحداث؛ وقوله إنه صحب الصوفية فما وقع بينه وبينهم خلاف لأنه كان معهم على نفسه. {cite:risala-qushayriyya-minhaj-2017 p. 176} وفي فصل الاعتقاد ينقل القشيري قوله: من ظن أنه ببذل الجهد يصل فمتعنٍّ، ومن ظن أنه بغير الجهد يصل فمتمنٍّ. {cite:risala-qushayriyya-minhaj-2017 p. 90}
+
 ## وفاته
 يروي ابن عساكر عن [[person/ruwaym-ibn-ahmad|رويم]] أنه حضر وفاته وهو ينشد أبياتاً في حنين قلوب العارفين. {cite:tarikh-dimashq-amrawi-v5 p. 142} {cite:tarikh-dimashq-amrawi-v5 p. 143} واختلف في سنة موته:
 
-- **سنة 277هـ (القشيري، ورجّحه السلمي، وقرّبه الخطيب)**: قال القشيري: مات سنة سبع وسبعين ومائتين؛ وسئل أبو بكر بن أبي العجوز فقال: سنة 247 أو 277، فقال السلمي: أظن أن هذا (277) أصح، وقال الخطيب: لا شك أن القول الأول باطل، والثاني أقرب إلى الصواب إن كان محفوظاً. {cite:tarikh-dimashq-amrawi-v5 p. 130} {cite:tarikh-dimashq-amrawi-v5 p. 143}
+- **سنة 277هـ (القشيري، ورجّحه السلمي، وقرّبه الخطيب)**: قال القشيري: مات سنة سبع وسبعين ومائتين {cite:risala-qushayriyya-minhaj-2017 p. 176}؛ وسئل أبو بكر بن أبي العجوز فقال: سنة 247 أو 277، فقال السلمي: أظن أن هذا (277) أصح، وقال الخطيب: لا شك أن القول الأول باطل، والثاني أقرب إلى الصواب إن كان محفوظاً. {cite:tarikh-dimashq-amrawi-v5 p. 130} {cite:tarikh-dimashq-amrawi-v5 p. 143}
 - **سنة 286هـ (أبو القاسم بن مردان)**: قال: صحبت أبا سعيد الخراز أربع عشرة سنة، ومات سنة ست وثمانين ومائتين. {cite:tarikh-dimashq-amrawi-v5 p. 143} وبها أخذت موسوعة أعلام العلماء والأدباء. {cite:mawsuat-a3lam-ulama-adaba}
