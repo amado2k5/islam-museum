@@ -12,9 +12,12 @@ periods: [period/buyid-seljuk-fatimid-era]
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — المسح المحلي المقروء بآبل فيجن (الجزء الأول)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-wafayat-batch-5
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch82
 external_ids:
   wikidata: Q387011
 sources: [source/wafayat-ayan, source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
