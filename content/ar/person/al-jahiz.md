@@ -3,6 +3,13 @@ id: person/al-jahiz
 lang: ar
 source_lang: ar
 translators: []
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/hayawan-jahiz-ilmiyya-2003-v1 pp. 1, 4, 7-11"
 ---
 ## موجز
 أبو عثمان عمرو بن بحر بن محبوب الكناني الليثي، المعروف بالجاحظ. أديب وعالم من أهل البصرة. وُلد نحو سنة 150هـ (767م) وتوفي سنة 255هـ (869م). {cite:mawsuat-a3lam-ulama-adaba} ويذكر المسعودي أن وفاته كانت بالبصرة في المحرم سنة 255هـ، وقيل سنة 256هـ. {cite:muruj-al-dhahab p.568}
@@ -23,3 +30,6 @@ translators: []
 ويروي ابن أخته يموت بن المزرع خبر مرضه، فكان يطلي نصفه الأيمن بالصندل والكافور لشدة حرارته. أما نصفه الآخر فلا يشعر به من خدره وبرده. {cite:muruj-al-dhahab p.568}
 
 ومن رسالته إلى محمد بن عبد الملك الزيات عبارات في أثر الأخلاق في القلوب، أوردها ابن النديم. {cite:fihrist-ibn-al-nadim p.527}
+
+## في مقدمة كتاب الحيوان
+يقتطف محمد باسل عيون السود في مقدمة طبعته من [[work/kitab-al-hayawan|كتاب الحيوان]] ترجمة الجاحظ من «شذرات الذهب»: أبو عثمان البصري المعتزلي، إليه تنسب الجاحظية من المعتزلة، أخذ عن القاضي [[person/abu-yusuf-al-qadi|أبي يوسف]] و[[person/thumama-ibn-ashras|ثمامة بن أشرس]] و[[person/al-nazzam|النظام]]، ونقل صاحب المغني عن ثعلب أنه ليس بثقة ولا مأمون، وقال غيره إن أحسن تآليفه كتاب الحيوان والبيان والتبيين. {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 4} ويجعل المحقق مولده سنة 148هـ ووفاته سنة 250هـ، وفي النص المقتطف: وقيل بقي إلى سنة 255هـ. {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 1} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 4} وفي افتتاح كتاب الحيوان يسرد الجاحظ نفسه طائفة من كتبه التي عابها عليه مخاطبه، منها كتبه في حيل اللصوص، والبخلاء، والقحطانية والعدنانية، والعرب والموالي، والأصنام، وخلق القرآن، والرد على المشبهة، ونظم القرآن، ورسائله الهاشميات. {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 7} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 8} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 10} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 11}

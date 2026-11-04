@@ -1,0 +1,26 @@
+id: person/ahmad-ibn-yusuf-al-taghlibi
+class: person
+label: { ar: "أحمد بن يوسف التغلبي", en: "Ahmad ibn Yusuf al-Taghlibi", ur: "احمد بن یوسف تغلبی" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن يوسف، أبو عبد الله التغلبي البغدادي" }
+gender: male
+roles: [scholar, teacher]
+summary:
+  ar: "أبو عبد الله أحمد بن يوسف التغلبي البغدادي، من كبار القراء في عصره، تلميذ أبي عبيد القاسم بن سلام وموسى بن حزام الترمذي؛ تلقى عنه الطبري القراءات ببغداد، ولم يؤرخ ابن الجزري لوفاته."
+  en: "Abu Abd Allah Ahmad ibn Yusuf al-Taghlibi of Baghdad, one of the great reciters of his time and a student of Abu Ubayd al-Qasim ibn Sallam and Musa ibn Hizam al-Tirmidhi; al-Tabari learned the readings from him in Baghdad. Ibn al-Jazari gives no date for his death."
+  ur: "ابو عبد اللہ احمد بن یوسف تغلبی بغدادی، اپنے زمانے کے بڑے قراء میں سے، ابو عبید قاسم بن سلام اور موسیٰ بن حزام ترمذی کے شاگرد؛ طبری نے بغداد میں ان سے قراءات حاصل کیں۔ ابن الجزری نے ان کی وفات کی تاریخ نہیں دی۔"
+relations:
+  - { type: student_of, target: person/abu-ubayd-al-qasim-ibn-sallam, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: lived_in, target: place/baghdad, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+provenance:
+  layer: own-research
+  source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 28"
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

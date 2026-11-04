@@ -22,6 +22,10 @@ relations:
   - { type: lived_in, target: place/samarqand, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: traveled_to, target: place/bukhara, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: student_of, target: person/al-nasai, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: student_of, target: person/abu-yala-al-mawsili, note: "روى عنه بحسب ترجمة ابن بلبان {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 53}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+  - { type: student_of, target: person/al-hasan-ibn-sufyan-al-nasawi, sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+  - { type: student_of, target: person/abu-khalifa-al-jumhi, note: "أكثر عنه بالعراق {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 52}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+  - { type: lived_in, target: place/nasa, note: "خرج إلى قضائها بعد سنة 334هـ {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 53}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
 perspectives:
   - tradition: sunni
     id: sunni-dhahabi
@@ -42,13 +46,13 @@ perspectives:
     holders: [person/al-ansari-al-harawi-abd-allah]
     sources: [source/mizan-itidal-bijawi-v3]
 sensitivity: contested
-sources: [source/wafayat-ayan, source/mizan-itidal-bijawi-v3]
+sources: [source/wafayat-ayan, source/mizan-itidal-bijawi-v3, source/sahih-ibn-hibban-shakir-maarif-v1]
 external_ids:
   wikidata: Q4794354
 provenance:
   layer: own-research
-  source: "Wikidata Q4794354; ميزان الاعتدال للذهبي، تحقيق البجاوي، القسم الثالث، ص 506–508 (الترجمة 7346)"
-  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker F)"
+  source: "Wikidata Q4794354; ميزان الاعتدال للذهبي، تحقيق البجاوي، القسم الثالث، ص 506–508 (الترجمة 7346)؛ صحيح ابن حبان بتحقيق شاكر ج1 ص 43، 51-54"
+  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker F); Claude Code (OCR-harvest worker A)"
   model: "SWE-2 High; claude-opus-5-5"
   run: wikidata-import-0014, ocr-harvest-2026-11-04
 status:

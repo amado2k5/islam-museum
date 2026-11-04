@@ -31,3 +31,13 @@ The long digression on the eternity of the world (Shamela pp. 105–275: Ibn Sin
 
 ## Second run (4 Nov 2026)
 - Duplicate resolved: `person/khudabanda` (draft, al-Suyuti p. 735) merged into `person/oljaitu` as an alias; its one cited sentence carried into the oljaitu prose (ar/en/ur) with source `tarikh-khulafa-minhaj-1434`; the duplicate's data and prose files deleted.
+
+## Third run (4 Nov 2026), batch 7 — deep pass
+Page note: the Shamela table of contents numbers (digits reversed in the export) run about 12 below the PDF/footer page; all citations use the PDF page, which equals the "NNNN Shamela.org" footer.
+Read: Shamela pp. 5–12 (full table of contents), 1078–1083 (the twelfth imam), 1128–1133 (wiping the feet), 1142–1147 (Fatima's inheritance), 1355–1361 (Yazid, al-Husayn, Ashura), 1785–1806 (the ten causes), 2112–2118 (Ghadir).
+- New question cards (Ibn Taymiyya first; the Imami or other positions only as he quotes them, each card saying so; `sensitivity: contested`): `must-the-feet-be-washed-in-wudu`, `do-prophets-leave-an-inheritance`, `how-should-yazid-ibn-muawiya-be-judged`, `how-should-the-killing-of-al-husayn-be-judged`, `does-the-ghadir-hadith-designate-ali-as-imam`, `did-al-hasan-al-askari-leave-a-son`.
+- New concept: `asbab-suqut-al-uquba` (the ten causes that avert punishment for sins).
+- Flags: Ibn Taymiyya's descriptions of Shi'i Ashura rites and of the occultation are an opponent's, recorded attributed to him; the editor's footnotes (al-Kafi narrative, Ahmad Subhi) are labelled as the editor's.
+
+## Next
+The verse of wilaya (pp. ~1936ff.), the hadith of the rank of Aaron (~2119), Fadak as gift (1148–1160), Khalid and Malik ibn Nuwayra (1323), the eternity-of-the-world digression (105–275).

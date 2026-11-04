@@ -3,24 +3,26 @@ class: person
 label:
   ar: "أبو الحسين النوري"
   en: "Abu al-Husayn al-Nuri"
+  ur: "ابو الحسین نوری"
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن محمد النوري، زاهد بغداد وشيخ المتصوفة في القرن التاسع صاحب «مقامات القلوب»، توفي سنة ٩٠٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Muhammad al-Nuri, the Baghdadi ascetic and shaykh of the early Sufis author of Maqamat al-Qulub, d. 907; the biographical entry is not yet checked on the page."
+  ar: "أبو الحسين أحمد بن محمد النوري، من صوفية بغداد في أيام الموفق، يعدّه السراج في اللمع «من الواجدين ومن أهل الإشارات اللطيفة» وله كلام مشكل وأشعار كثيرة؛ ويروي أن غلام خليل شهد عليه بالزندقة عند الموفق لقوله في عشق الله، فاحتج بآية المحبة فبكى الموفق {cite:luma-sarraj-jadir-dar-al-fath p. 546} {cite:luma-sarraj-jadir-dar-al-fath p. 547}."
+  en: "Abu al-Husayn Ahmad ibn Muhammad al-Nuri, a Baghdad Sufi of al-Muwaffaq's time, whom al-Sarraj in al-Luma' counts 'among the ecstatics and the people of subtle allusions', with difficult sayings and many verses; he relates that Ghulam Khalil testified to al-Muwaffaq that he was a zindiq for his talk of loving God passionately, and that he answered with the verse of divine love and al-Muwaffaq wept {cite:luma-sarraj-jadir-dar-al-fath p. 546} {cite:luma-sarraj-jadir-dar-al-fath p. 547}."
+  ur: "ابو الحسین احمد بن محمد نوری، موفق کے زمانے کے بغدادی صوفی، جنہیں سراج اللمع میں «واجدین اور لطیف اشارات والوں میں سے» شمار کرتے ہیں، جن کا کلام مشکل اور اشعار بہت ہیں؛ وہ بیان کرتے ہیں کہ غلام خلیل نے موفق کے سامنے اللہ سے عشق کی بات پر ان کے زندیق ہونے کی گواہی دی، تو انہوں نے آیتِ محبت سے جواب دیا اور موفق رو پڑا {cite:luma-sarraj-jadir-dar-al-fath p. 546} {cite:luma-sarraj-jadir-dar-al-fath p. 547}۔"
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 themes: [spirituality-and-sufism]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/luma-sarraj-jadir-dar-al-fath]
 external_ids:
   wikidata: Q2822100
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0027
+  source: "Wikidata candidate (al-Zirikli, al-A'lam, not read on the page); prose and summary from al-Luma' of al-Sarraj, al-Jadir's edition pp. 546-548"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
