@@ -319,3 +319,9 @@ Promoted: said-ibn-humayd, yahya-ibn-umar-al-talibi, urwa-ibn-hizam, shahak-al-k
 Promoted: kilab-ibn-hamza-al-aqili, muhammad-ibn-yazid-ibn-muslama, sulayman-ibn-rabia-al-bahili, muhammad-ibn-al-wazir-al-hafiz, harun-ibn-gharib, ibn-mishad, mutarrif-al-jurjani, ibn-al-aftas-al-alawi, ibrahim-ibn-musa-ibn-jafar.cite-check 9/9; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 760.** lib-muruj draft promotions complete; ~4,650 further trilingual drafts remain (mawsuat-a3lam 413, shadharat runs, wikidata-import-wave2 44, mawsua runs, uncited ~750).
+
+### Batch 47 (4 Nov 2026, 25 records) — mawsuat-a3lam draft promotions 1 (sweep worker)
+
+Promoted: aban-al-lahiqi, abd-al-ghani-ibn-said-al-azdi, abd-al-hamid-ibn-badis, abd-al-jabbar-al-jumurd, abd-al-qadir-al-baghdadi, abd-al-qadir-al-jilani, abd-al-rahman-al-jabarti, abd-al-rahman-al-tha-alibi, abd-al-rahman-badawi, abd-al-rahman-ibn-hormoz-al-araj, abd-al-rahman-ibn-ziyad-ibn-anam, abd-al-wahhab-ibn-ali-al-baghdadi, abd-al-wahid-ibn-zayd, abd-allah-ibn-ayyub-al-taymi, abd-allah-ibn-maslama-al-qanabi, abd-allah-ibn-miqdad-al-aqfahsi, abkarius-iskandar-ibn-yaqub, abu-al-arab-al-tamimi-muhammad, abu-al-aswad-al-duali, abu-al-khayr-al-armuni, abu-al-wafa-al-buzjani, abu-al-wafa-al-ghunaymi-al-taftazani, abu-ali-al-muhassin-al-tanukhi, abu-amir-muhammad-ibn-ahmad-al-balawi, abu-awana-yaqub-ibn-ishaq.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 785.** mawsuat-a3lam ~390 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
