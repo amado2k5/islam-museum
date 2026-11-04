@@ -1,0 +1,24 @@
+id: person/abd-al-warith-ibn-sufyan
+class: person
+label: { ar: "عبد الوارث بن سفيان", en: "'Abd al-Warith ibn Sufyan", ur: "عبد الوارث بن سفیان" }
+names:
+  - { kind: full, lang: ar, value: "عبد الوارث بن سفيان بن جبرون بن سليمان القرطبي" }
+gender: male
+roles: [muhaddith]
+traditions: [sunni]
+summary:
+  ar: "عبد الوارث بن سفيان بن جبرون القرطبي (317–395هـ)، بدأ الطلب على قاسم بن أصبغ سنة 333هـ وسمع منه أكثر رواياته، فكان أوثق الناس فيه وأكثرهم ملازمة له؛ وعنه أخذ ابن عبد البر علم قاسم، وقرأ عليه «مصنف» قاسم في السنن، و«المعارف» و«شرح غريب الحديث» لابن قتيبة {cite:tamhid-furqan-2017-v1 p. 13}."
+  en: "'Abd al-Warith b. Sufyan b. Jabrun of Cordoba (317–395 AH) began studying with Qasim b. Asbagh in 333 AH and heard most of his transmissions, becoming the most reliable and most constant of his companions; from him Ibn 'Abd al-Barr took Qasim's learning, reading with him Qasim's *Musannaf* on the Sunan and Ibn Qutayba's *al-Ma'arif* and *Sharh Gharib al-Hadith* {cite:tamhid-furqan-2017-v1 p. 13}."
+  ur: "عبد الوارث بن سفیان بن جبرون قرطبی (317–395ھ) نے 333ھ میں قاسم بن اصبغ سے پڑھنا شروع کیا اور ان کی اکثر روایات سنیں، یوں ان کے سب سے معتبر اور سب سے زیادہ ساتھ رہنے والے شاگرد بنے؛ ان سے ابن عبد البر نے قاسم کا علم لیا، اور ان پر قاسم کی سنن پر «مصنف» اور ابن قتیبہ کی «المعارف» اور «شرح غریب الحدیث» پڑھیں {cite:tamhid-furqan-2017-v1 p. 13}۔"
+born: { hijri: "0317", edtf: "0929~", calendar: julian, precision: year, status: tradition, derived: true, note: "(٣٩٥-٣١٧هـ) كما يكتبها محقق التمهيد ط. الفرقان ج1 ص 13؛ التحويل مشتق.", sources: [source/tamhid-furqan-2017-v1] }
+died: { hijri: "0395", edtf: "1005~", calendar: julian, precision: year, status: tradition, derived: true, note: "(٣٩٥-٣١٧هـ) كما يكتبها محقق التمهيد ط. الفرقان ج1 ص 13؛ التحويل مشتق.", sources: [source/tamhid-furqan-2017-v1] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/cordoba, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/qasim-ibn-asbagh, sources: [source/tamhid-furqan-2017-v1] }
+provenance: { layer: own-research, source: "al-Tamhid, al-Furqan ed. 2017 vol. 1, editor's introduction p. 13 (printed)", generated_by: "Claude Code (OCR-harvest worker A)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/tamhid-furqan-2017-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }
