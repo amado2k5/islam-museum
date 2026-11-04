@@ -15,6 +15,9 @@ open a new block on top with the new version and today's date.
 
 ## v1.1.0 — 2026-11-03
 
+### Data
+- **People**: 25 more biographies with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep).
+
 ### Added
 - **Developers page** (`/{lang}/developers/`, Arabic, English, Urdu): the museum's open data and API documented for libraries and builders — endpoints, the node/edge/record schema, worked examples with real responses, sample code, starter prompts for AI coding agents, and an honest list of what is not here yet.
 - **Network page** (`/{lang}/network/`): the scholars, institutions and communities in conversation with the museum.
