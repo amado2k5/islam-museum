@@ -343,6 +343,7 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-03 | place/al-sham | copilot | done — 7 eligible dated, cited event nodes; reused existing records
 2026-11-03 | place/hamadan | copilot | done — 7 eligible dated, cited event nodes; completed missing place provenance
 2026-11-03 | place/ramla | copilot | done — 7 eligible dated, cited event nodes; reused existing records
+2026-11-03 | place/ramla | copilot | follow-up — explicitly selected six events, retaining one account of the 460 AH earthquake; generated story now has six eligible chronological stops
 2026-11-03 | place/dimyat | copilot | done — 6 eligible dated, cited event nodes; reused existing records
 2026-11-03 | place/khurasan | copilot | done — 6 eligible dated, cited event nodes; reused existing records
 2026-11-03 | place/wasit | copilot | done — 6 eligible dated, cited event nodes; reused existing records
