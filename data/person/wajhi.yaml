@@ -1,0 +1,22 @@
+id: person/wajhi
+class: person
+label: { ar: "وجهي (شاعر گولكنده)", en: "Wajhi (poet of Golconda)", ur: "وجہی (گولکنڈہ کے شاعر)" }
+summary:
+  ar: "شاعر دكني من گولكنده نظم «قطب مشتري» بالأردية الدكنية سنة 1609–1610م للسلطان محمد قلي قطب شاه {cite:zebrowski-deccani-painting-1983 p. 155}."
+  en: "Deccani poet of Golconda who composed the Qutb Mushtari in Deccani Urdu in 1609–10 for Sultan Muhammad Quli Qutb Shah {cite:zebrowski-deccani-painting-1983 p. 155}."
+  ur: "گولکنڈہ کے دکنی شاعر جنہوں نے 1609–10ء میں سلطان محمد قلی قطب شاہ کے لیے دکنی اردو میں قطب مشتری لکھی {cite:zebrowski-deccani-painting-1983 p. 155}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [south-asia]
+gender: male
+roles: [poet]
+relations:
+  - { type: patronized_by, target: person/muhammad-quli-qutb-shah, sources: [source/zebrowski-deccani-painting-1983] }
+sources: [source/zebrowski-deccani-painting-1983]
+provenance:
+  layer: own-research
+  source: "source/zebrowski-deccani-painting-1983 scan pp. 155, 156"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }
