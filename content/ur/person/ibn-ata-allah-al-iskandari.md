@@ -3,6 +3,13 @@ id: person/ibn-ata-allah-al-iskandari
 lang: ur
 source_lang: ar
 translators: ["Devin (SWE-2 Medium), draft translation"]
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/miftah-al-falah-saada-1332 pp. 3-6, 41-43, 53"
 ---
 
 ## خلاصہ
@@ -16,3 +23,6 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی سلسلہ [[work/sharh-al-hekam-al-ataeya|شرح الحکم العطائیہ]] میں ابن عطاء اللہ کی حکمتوں کی شرح کرتے ہیں، اور کہتے ہیں کہ انہوں نے انہیں اس لیے چنا کہ دل کو ایمانی توانائی اور درست عقیدے کی ضرورت ہے جس سے بندہ عبادت کے مقامات میں ترقی کرے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:03:30} پہلی قسط کے آغاز میں وہ کہتے ہیں کہ ابن عطاء اللہ کی «ایک نئی حکمت» شروع کر رہے ہیں، {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:05:00} اور طلب والی حکمت پر تبصرہ کرتے ہیں کہ اس کا مطلب دعا چھوڑنا نہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:11:00}
+
+## مفتاح الفلاح
+[[work/miftah-al-falah|مفتاح الفلاح و مصباح الارواح]] کا پہلا ایڈیشن (مطبعۃ السعادۃ، 1332ھ) کتاب کو «تاج الدین ابن عطاء اللہ سکندری» سے منسوب کرتا ہے۔ یہ ذکر پر ایک کتاب ہے جس کے مصنف کہتے ہیں کہ انہوں نے اس موضوع پر کوئی مکمل اور کافی تصنیف نہ دیکھی؛ انہوں نے اسے دو حصوں میں مرتب کیا، ذکر، اس کے آداب اور فوائد پر، پھر اذکار کی شرح پر، جن کا آغاز کلمۂ توحید سے ہے۔ {cite:miftah-al-falah-saada-1332 p. 3} {cite:miftah-al-falah-saada-1332 p. 4} {cite:miftah-al-falah-saada-1332 p. 53} اس میں غزالی سے کثرت سے نقل ہے۔ {cite:miftah-al-falah-saada-1332 p. 6} {cite:miftah-al-falah-saada-1332 p. 41} {cite:miftah-al-falah-saada-1332 p. 43}
