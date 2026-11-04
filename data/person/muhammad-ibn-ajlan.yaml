@@ -1,0 +1,29 @@
+id: person/muhammad-ibn-ajlan
+class: person
+label:
+  ar: "محمد بن عجلان"
+  en: "Muhammad ibn Ajlan"
+names:
+  - { kind: full, lang: ar, value: "محمد بن عجلان المدني" }
+roles: [scholar]
+gender: male
+summary:
+  ar: "محمد بن عجلان المدني (ت 148هـ)، يصفه الذهبي في «ميزان الاعتدال» بإمام صدوق مشهور، روى عن أبيه والمقبري، وعنه مالك وشعبة والقطان، ووثقه أحمد وابن معين وابن عيينة وأبو حاتم، وأخرج له مسلم ثلاثة عشر حديثاً كلها شواهد، وتكلم المتأخرون في سوء حفظه، واضطرب في حديث نافع وفي التمييز بين روايات سعيد المقبري عن أبيه وعن أبي هريرة. وكان من أهل الفتوى له حلقة في المسجد النبوي، وخرج مع محمد بن عبد الله بن حسن فعفا عنه والي المدينة {cite:mizan-itidal-bijawi-v3 p. 644-647}."
+  en: "Muhammad ibn Ajlan of Medina (d. 148 AH), described by al-Dhahabi in Mizan al-I'tidal as a truthful, well-known imam who narrated from his father and al-Maqburi, with Malik, Shu'ba and al-Qattan narrating from him; Ahmad, Ibn Ma'in, Ibn Uyayna and Abu Hatim declared him trustworthy, Muslim cites thirteen of his hadiths, all as supporting reports, and later critics spoke of his weak memory — his confusion in Nafi''s hadith and in keeping apart Sa'id al-Maqburi's reports from his father and from Abu Hurayra. He gave fatwas and held a circle in the Prophet's Mosque, and joined the revolt of Muhammad ibn Abd Allah ibn Hasan, after which the governor of Medina pardoned him."
+died: { hijri: "0148", edtf: "0765", calendar: julian, precision: year, status: tradition, derived: true, note: "الذهبي: توفي ابن عجلان سنة ثمان وأربعين ومائة {cite:mizan-itidal-bijawi-v3 p. 647}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad, period/abbasid-early]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: student_of, target: person/nafi-mawla-ibn-umar, sources: [source/mizan-itidal-bijawi-v3] }
+sensitivity: contested
+sources: [source/mizan-itidal-bijawi-v3]
+provenance:
+  layer: own-research
+  source: "ميزان الاعتدال، تحقيق البجاوي، القسم الثالث، ص 644–647 (الترجمة 7938)"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

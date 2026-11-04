@@ -12,3 +12,9 @@
 - Birth day: the editor gives 27 Rajab 467; Shadharat al-Dhahab has 17 Rajab. Both recorded in prose; the date record was not changed.
 - The editor's polemical judgements on al-Zamakhshari's creed are attributed to the editor, never stated in the museum's voice.
 - Leads: the commentary text itself (al-Kashshaf on individual ayat) was not mined in this pass beyond the introduction.
+
+## Second pass (OCR-harvest worker B)
+Pages read (PDF, = printed): 41–43 (al-Baqara 7, the seal on hearts, with al-Intisaf), 384–385 (al-A'raf 143, God's speech to Moses and the request to see Him, with al-Intisaf).
+- Created: `question/who-seals-the-hearts-in-al-baqara-7` and `question/does-lan-tarani-deny-that-god-can-be-seen` (Sunni-Maliki Ibn al-Munayyir first, then al-Zamakhshari labelled as the Mu'tazili view; no verdict).
+- Enriched: `work/al-kashshaf` (section and two `about` edges), `person/ibn-al-munayyir` (section on al-Intisaf; `critic_of` edges to the work and al-Zamakhshari).
+- Each side's polemical terms are attributed, never used in the museum's voice; the verses both sides cite are not reproduced.

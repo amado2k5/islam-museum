@@ -1,0 +1,26 @@
+id: event/baghdad-famine-334
+class: event
+kind: famine
+label: { ar: "غلاء بغداد سنة 334هـ", en: "The Baghdad famine of 334 AH (945-946)", ur: "334ھ (945-946ء) کا بغداد کا قحط" }
+summary:
+  ar: "المجاعة التي أعقبت حرب معز الدولة وناصر الدولة على بغداد سنة 334هـ، ويصفها مسكويه بأن الناس عدموا الخبز البتة فأكلوا الموتى والحشيش والميتة، وكانت الدور والعقارات تُباع بالرغفان، وأكلت الكلاب لحوم الموتى لكثرتهم، وخرج الضعفاء إلى البصرة لأكل التمر فهلك أكثرهم في الطريق، حتى زالت الفتنة ودخلت الغلات الجديدة فانحلّ السعر {cite:tajarib-al-umam-surush-v6 p. 127-128}."
+  en: "The famine that followed the war of Mu'izz al-Dawla and Nasir al-Dawla for Baghdad in 334 AH. Miskawayh describes people without any bread eating the dead, grass and carrion, houses sold for loaves, dogs eating the unburied dead, and the weak setting out for Basra to eat dates and mostly dying on the road, until the fighting ended and the new harvest brought prices down {cite:tajarib-al-umam-surush-v6 p. 127-128}."
+wings: [time, place]
+themes: [the-poor-and-the-worker, health-body-death, cities]
+sensitivity: mature
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+map: { kind: locator, precision: approximate, center: [44.36, 33.31] }
+date:
+  start: { edtf: "0945/0946", hijri: "0334", calendar: julian, precision: year, status: historical, derived: true, note: "«وفى هذه السنة أفرط الغلاء» في حوادث سنة 334هـ بعد خبر هزيمة ناصر الدولة (تجارب الأمم 6/127)؛ التحويل الميلادي مشتق.", sources: [source/tajarib-al-umam-surush-v6] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: related_to, target: place/basra, sources: [source/tajarib-al-umam-surush-v6] }
+sources: [source/tajarib-al-umam-surush-v6]
+provenance:
+  layer: own-research
+  source: "source/tajarib-al-umam-surush-v6 scan pp. 122-123, 127-128"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

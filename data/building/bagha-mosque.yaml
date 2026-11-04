@@ -1,24 +1,25 @@
 id: building/bagha-mosque
 class: building
 kind: mosque
-label:
-  ar: "مسجد باغا"
-  en: "Bagha Mosque, Rajshahi"
+label: { ar: "مسجد باگها في راجشاهي", en: "Bagha Mosque, Rajshahi", ur: "باگھا مسجد، راجشاہی" }
 summary:
-  ar: "بطاقة أولية لمسجد باغا في راجشاهي ببنغلاديش، جامع السلطان نصرت شاه من سنة ١٥٢٣م بقبابه وتراكوتاه؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Bagha Mosque of Rajshahi in Bangladesh, Sultan Nusrat Shah's terracotta mosque of 1523; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "مسجد جامع برواقين وعشر قباب على بعد 35 ميلاً جنوب شرق راجشاهي، بناه السلطان نصرة شاه ابن حسين شاه سنة 930هـ/1523–1524 بحسب نقشه، سقطت قبابه في زلزال 1897 {c(136)} {c(137)}."
+  en: "A two-aisled, ten-domed congregational mosque 35 miles south-east of Rajshahi, built by Sultan Nusrat Shah son of Husain Shah in AH 930/1523-24 according to its inscription; its domes fell in the earthquake of 1897 {c(136)} {c(137)}."
+  ur: "راجشاہی سے 35 میل جنوب مشرق میں دو صفوں اور دس گنبدوں والی جامع مسجد، کتبے کے مطابق سلطان نصرت شاہ بن حسین شاہ نے 930ھ/1523–24ء میں بنوائی؛ اس کے گنبد 1897ء کے زلزلے میں گرے {c(136)}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+built: { edtf: "1523/1524", hijri: "0930", calendar: julian, precision: year, status: historical, note: "AH 930, from the inscription over its central door" }
+materials: [brick, stone]
+sources: [source/tarikh-islam-hasan-ibrahim, source/hasan-mosque-architecture-pre-mughal-bengal-1979]
 external_ids:
   wikidata: Q2656778
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
+  source: "Hasan 1979, printed pp. 136-137; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Hasan 1979 pp. 136-137, summary, date and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

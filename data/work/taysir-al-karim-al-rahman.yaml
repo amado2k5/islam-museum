@@ -13,6 +13,7 @@ made: { by_muslims: true, basis: documented, sources: [source/taysir-karim-rahma
 composed: { hijri: "1342", edtf: "1923/1924", calendar: gregorian, precision: year, status: historical, derived: true, note: "Start date in the author's hand on the cover of manuscript volume 1: «شرعت في هذا التفسير المبارك غرة شهر ( ) سنة 1342هـ» (month left blank; PDF p. 14). Volume 6 of the second manuscript was copied by Muhammad ibn Mansur ibn Zamil, completed 24 Rajab 1345 (PDF p. 15).", sources: [source/taysir-karim-rahman-obeikan-2001] }
 relations:
   - { type: about, target: concept/tafsir, sources: [source/taysir-karim-rahman-obeikan-2001] }
+  - { type: about, target: concept/qawaid-al-tafsir, sources: [source/taysir-karim-rahman-obeikan-2001] }
 wings: [words, ideas]
 themes: [scripture-and-its-sciences]
 periods: [period/modern-era]
@@ -24,4 +25,6 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker B)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/taysir-karim-rahman-obeikan-2001 PDF pp. 938–945 (colophon and the appendix of principles)" }
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

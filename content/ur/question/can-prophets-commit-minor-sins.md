@@ -3,7 +3,7 @@ id: question/can-prophets-commit-minor-sins
 lang: ur
 source_lang: ar
 translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"]
-provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/al-shifa-ilmiyya-shumunni PDF pp. 527–540" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker E); section on al-Razi by Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/al-shifa-ilmiyya-shumunni PDF pp. 527–540; source/mafatih-al-ghayb-dar-al-fikr-1401-j3 PDF pp. 7–11" }
 ---
 ## مختصر جواب
 [[person/al-qadi-iyyad|قاضی عیاض]] [[work/al-shifa-bi-tarif-huquq-al-mustafa|الشفا]] میں اس پر مسلمانوں کا اجماع نقل کرتے ہیں کہ انبیا فواحش اور ہلاک کرنے والے کبیرہ گناہوں سے، اور رسالت چھپانے یا تبلیغ میں کوتاہی سے معصوم ہیں؛ صغیرہ گناہوں کے بارے میں وہ تین اقوال نقل کرتے ہیں — جواز، توقف اور عصمت — اور آخری کو اختیار کرتے ہیں۔ {cite:al-shifa-ilmiyya-shumunni p.527}
@@ -28,3 +28,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-
 
 ## محققین کے لیے نوٹ
 - تینوں اقوال سنی دائرے کے اندر ہیں اور یہاں عیاض کی نقل کے مطابق ہیں؛ کوئی علمی رائے، دوسرے مکاتب کا موقف (جیسے امامیہ کا مطلق عصمت کا عقیدہ) اور خود طبری کی عبارتیں ابھی ان کے مصادر سے شامل نہیں کی گئیں۔
+
+## رازی کی «مفاتیح الغیب» میں
+[[passage/quran-2-36|البقرہ: 36]] کی تفسیر میں [[person/fakhr-al-din-al-razi|فخر الدین رازی]] انبیاء کی عصمت کے اختلاف کو چار ابواب میں منضبط کرتے ہیں: اعتقاد، تبلیغ، احکام و فتویٰ، اور افعال و سیرت۔ {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.7} وہ نقل کرتے ہیں کہ اکثر امت کے نزدیک کفر کا اعتقاد ان پر جائز نہیں؛ امت کا اجماع ہے کہ وہ تبلیغ میں جان بوجھ کر جھوٹ یا تحریف سے معصوم ہیں، جبکہ بعض نے بھول کو جائز رکھا؛ اور سب کا اتفاق ہے کہ فتویٰ میں جان بوجھ کر غلطی ممکن نہیں، بھول میں اختلاف ہے۔ {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.7} افعال میں وہ پانچ اقوال بیان کرتے ہیں: کبائر کا عمداً جواز، جسے وہ حشویہ کی طرف منسوب کرتے ہیں؛ نفرت انگیز گناہوں کے سوا صغائر کا عمداً جواز، اکثر معتزلہ کا قول؛ عمداً دونوں کا امتناع مگر تاویل کی بنا پر جواز، جبائی کا قول؛ گناہ صرف بھول اور خطا سے، جس پر ان کا مواخذہ ہوتا ہے؛ اور گناہ کا مطلق امتناع، جسے وہ «رافضہ» کی طرف منسوب کرتے ہیں، جو امامیہ کے لیے ان کی اصطلاح ہے۔ عصمت کے وقت پر وہ تین اقوال دیتے ہیں، جن میں یہ کہ یہ نبوت سے شروع ہوتی ہے نہ کہ پہلے، جو ان کے اکثر اصحاب کا قول ہے۔ {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.8} پھر وہ یہ اختیار کرتے ہیں کہ نبوت کے دوران ان سے کوئی گناہ سرزد نہیں ہوا، اس پر سولہ دلائل دیتے ہیں، اور مخالفین کے دلائل، جیسے قصۂ آدم، کو ترکِ اولیٰ پر محمول کرتے ہیں۔ {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.8} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.9} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.10} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.11}
