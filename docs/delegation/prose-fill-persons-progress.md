@@ -412,3 +412,9 @@ Promoted: jibril-ibn-bukhtishu, jibril-tawfiq-salih, junada-al-azdi-al-harawi, k
 Promoted: muhammad-al-tardi-ibn-sawda, muhammad-al-tatwani, muhammad-ibn-abd-allah-bulayhid, muhammad-ibn-abi-al-qasim-ibn-al-anbari, muhammad-ibn-ahmad-aknasus, muhammad-ibn-ahmad-al-andarshi-al-balansi, muhammad-ibn-al-harith-al-khushani, muhammad-ibn-ali-al-ansari-al-jayyani, muhammad-ibn-ibrahim-al-mutatabbib, muhammad-ibn-isa-al-khalifa, muhammad-ibn-mustafa-bayram, muhammad-ibn-umar-al-tunisi, muhammad-tawfiq-al-bakri, muhibb-al-din-al-khatib, mulla-hasan-al-bazzaz, munir-al-baalbaki, munzir-al-balluti, mus-ab-al-khushani, mustafa-al-bakri, mustafa-hilmi, najib-baladi, nashwan-al-himyari, pir-reis-ahmad-ibn-muhyi-al-din, qawwam-al-sunna-ismail, qudama-ibn-jafar.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1134.** mawsuat-a3lam ~38 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
+
+### Batch 62 (4 Nov 2026, 25 records) — mawsuat-a3lam draft promotions 16 (sweep worker)
+
+Promoted: radwan-al-junawi, razaq-allah-ibn-abd-al-wahhab, ruhi-al-khalidi, ruzbihan-al-baqli, sad-ibn-malik-al-khudri, safa-al-din-isa-al-bandanijy, said-ibn-aws-abu-zayd-al-ansari, said-ibn-harun-al-ashnandani, said-ibn-yahya-al-umawi-abu-uthman, salah-al-din-ibn-yusuf-al-kahhal, salim-ibn-fadl-baafdal, sati-al-husri, shamardal-ibn-shurayk, sidi-ibn-al-mukhtar-al-abyiri, sinjar-al-khayyat-alam-al-din, sudayy-ibn-ajlan-al-bahili, sulayman-ibn-muhammad-al-hawwat, sulayman-ibn-tarkhan-al-taymi, sulayman-ibn-umar-al-ahdal-abu-al-mahasin, taha-baqir, tamam-ibn-ghalib, tantawi-jawhari, tawfiq-al-hakim, taymur-ahmad-ibn-ismail, ubayd-allah-ibn-al-husayn-al-jallab.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1159.** mawsuat-a3lam ~13 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
