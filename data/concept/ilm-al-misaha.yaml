@@ -1,0 +1,22 @@
+id: concept/ilm-al-misaha
+class: concept
+kind: scientific
+label: { ar: "علم المساحة", en: "Mensuration (ilm al-misaha)" }
+term: { ar: "المساحة", en: "al-misaha" }
+summary:
+  ar: "علم قياس السطوح والأجسام. يبدأ الخوارزمي بابه فيه بأن معنى «واحد في واحد» مساحة ومعناه ذراع في ذراع، ثم يعطي قواعد تكسير المربع والمثلث والمعيّن والدائرة وقطعها والمخروط {cite:khwarizmi-jabr-cairo-1939 p.70} {cite:khwarizmi-jabr-cairo-1939 p.71}."
+  en: "The science of measuring areas and volumes. Al-Khwarizmi opens his chapter on it by saying that 'one by one' means an area, a cubit by a cubit, then gives rules for the area of the square, triangle, rhombus, circle and its segments, and for the cone."
+wings: [ideas]
+themes: [mathematics]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: concept/algebra, sources: [source/khwarizmi-jabr-cairo-1939] }
+sources: [source/khwarizmi-jabr-cairo-1939]
+provenance:
+  layer: own-research
+  source: "source/khwarizmi-jabr-cairo-1939 scan pp. 70-82"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3 }
