@@ -1,6 +1,6 @@
 id: person/jafar-ibn-abi-talib
 class: person
-label: { en: "Ja'far ibn Abi Talib", ar: "جعفر بن أبي طالب" }
+label: { en: "Ja'far ibn Abi Talib", ar: "جعفر بن أبي طالب" , ur: "جعفر بن ابی طالب"}
 names:
   - { kind: laqab, lang: ar-Latn, value: "Ja'far al-Tayyar (Ja'far the Flyer)" }
 gender: male
@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   en: "A brother of Ali who led the Muslim emigration to Abyssinia and answered the Negus for his people; killed at Mu'ta carrying the army's standard after Zayd ibn Haritha."
   ar: "أخو علي الذي قاد هجرة المسلمين إلى الحبشة وأجاب النجاشي عن قومه؛ قُتل في مؤتة حاملًا راية الجيش بعد زيد بن حارثة، وبإزائه في الجنة جناحان يطير بهما حتى لُقب «ذي الجناحين» فكان ابن عمر يسلم على ابنه «يا ابن ذي الجناحين» {cite:sahih-al-bukhari 4264}."
+  ur: "علی کے بھائی، جنہوں نے حبشہ ہجرت کرنے والے مسلمانوں کی قیادت کی اور نجاشی کے سامنے ان کا مؤقف بیان کیا؛ مؤتہ میں لشکر کا پرچم اٹھائے ہوئے مارے گئے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [refugees-migrants-diaspora, islam-and-christianity, battles]
 periods: [period/prophetic-era]
@@ -35,7 +36,7 @@ relations:
 external_ids:
   wikidata: Q1147498
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/sahih-al-bukhari, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar]
-provenance: { layer: own-research, source: "Ibn Sa'd (Bewley), Ibn Ishaq (Guillaume) and Sahih al-Bukhari (earlier record by Devin, 11 Oct 2026); section on Abu Ishaq al-Heweny's madrassat-al-hayat (Assabile transcripts pass5-qwen) added in run assabile-egypt-heweny-1 by Claude Code (claude-opus-5-5)", generated_by: "Devin (earlier record); Claude Code (claude-opus-5-5) for the Assabile section", model: claude-opus-5-5, run: assabile-egypt-heweny-1 }
+provenance: { layer: own-research, source: "Ibn Sa'd (Bewley), Ibn Ishaq (Guillaume) and Sahih al-Bukhari (earlier record by Devin, 11 Oct 2026); section on Abu Ishaq al-Heweny's madrassat-al-hayat (Assabile transcripts pass5-qwen) added in run assabile-egypt-heweny-1 by Claude Code (claude-opus-5-5)", generated_by: "Devin (earlier record); Claude Code (claude-opus-5-5) for the Assabile section", model: claude-opus-5-5, run: assabile-egypt-heweny-1 , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}}
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 
 education:

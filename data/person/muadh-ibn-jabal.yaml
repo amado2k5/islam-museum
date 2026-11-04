@@ -1,6 +1,6 @@
 id: person/muadh-ibn-jabal
 class: person
-label: { en: "Mu'adh ibn Jabal", ar: "معاذ بن جبل" }
+label: { en: "Mu'adh ibn Jabal", ar: "معاذ بن جبل" , ur: "معاذ بن جبل"}
 names:
   - { kind: full, lang: ar, value: "معاذ بن جبل بن عمرو الخزرجي" }
 gender: male
@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   en: "A young Ansari convert of the pledges of Aqaba, remembered as the most learned of the community in what is lawful and forbidden; the Prophet sent him to Yemen as its teacher and judge."
   ar: "أنصاري شاب من مؤمني بيعة العقبة، يذكره التراث أعلم الأمة بالحلال والحرام؛ بعثه النبي إلى اليمن معلمًا وقاضيًا. وفي الصحيح أن النبي عدّه في الأربعة الذين يُؤخذ عنهم القرآن {cite:sahih-al-bukhari 3806}، وأنه ممن جمع القرآن على عهده {cite:sahih-al-bukhari 3810}."
+  ur: "عقبہ کے عہد میں اسلام قبول کرنے والے انصاری صحابی؛ نبی نے انہیں یمن میں تعلیم اور قضا کی ذمہ داری دی۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [dawa-and-christian-mission, development-of-law-theology-institutions, islam-and-judaism]
 periods: [period/prophetic-era, period/rashidun]
@@ -41,6 +42,7 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: "claude-haiku-5-5"
   run: "omar-abdelkafy-al-dinu-al-qayem-person-extension"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
 education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
