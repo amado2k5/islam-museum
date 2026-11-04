@@ -301,3 +301,9 @@ Leads (rejected):
 layth-ibn-abi-sulaym	REJECT: ar: thin (141ch)
 
 **Lane total: 701.** ~60 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
+
+### Batch 44 (4 Nov 2026, 25 records) — muruj draft promotions 15 (sweep worker)
+
+Promoted: jamil-ibn-abdallah-al-udhri, mansur-al-namri, sallam-al-khasir, yasir-rakhila, kathir-azza, thumama-ibn-ashras, hisham-ibn-al-kalbi, ibn-abi-nuaym, zayd-ibn-musa-al-kazim, ibn-aisha-al-abbasi, muhammad-ibn-hazim-al-bahili, yazid-ibn-harun-al-wasiti, yusuf-ibn-ibrahim-al-katib, mutarrif-ibn-al-mughira, muhammad-ibn-al-qasim-al-alawi, jafar-ibn-dinar-al-khayyat, theophilos, ibrahim-ibn-al-mudabbir, muhammad-ibn-abi-al-azhar, hunayn-ibn-ishaq, muhammad-ibn-al-fadl-al-jarjarai, muhammad-ibn-humayd-al-tusi, shuja-umm-al-mutawakkil, ishaq-ibn-rahwayh, uthman-ibn-abi-shayba.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 726.** ~35 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
