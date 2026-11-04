@@ -4,7 +4,7 @@ label: { ar: "محب الدين الطبري شيخ الحرم", en: "Muhibb al-
 names:
   - { value: "محب الدين أبو العباس أحمد بن عبد الله بن محمد بن أبي بكر بن محمد الطبري المكي", kind: full }
 born: { edtf: "1218-09~", hijri: "0615-06", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بمكة في جمادى الآخرة سنة خمس عشرة وستمائة {cite:shadharat-dhahab p. 743}." }
-died: { edtf: "1296-04~", hijri: "0695-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الآخرة على الصحيح {cite:shadharat-dhahab p. 743}." }
+died: { edtf: "1295-04~", hijri: "0694-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الآخرة على الصحيح {cite:shadharat-dhahab p. 743}؛ ومحقق الرياض النضرة: في جمادى الآخرة سنة 694هـ على الصحيح ودفن بالمعلاة، وقيل في أحد الربيعين أو رمضان أو ذي القعدة من السنة {cite:riyad-nadira-dar-al-gharb-1996 p.37} {cite:riyad-nadira-dar-al-gharb-1996 p.38}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/riyad-nadira-dar-al-gharb-1996] }
 summary:
   ar: "شيخ الحرم بمكة، شيخ الشافعية ومحدث الحجاز؛ صنّف كتاباً كبيراً في الأحكام في ست مجلدات ورحل به إلى اليمن فأسمعه سلطانَها، ومن تصانيفه «الرياض النضرة في فضائل العشرة» و«ذخائر العقبى في مناقب ذوي القربى» و«السمط الثمين في مناقب أمهات المؤمنين» و«القرى في ساكن أم القرى» وشرح «التنبيه»؛ روى عنه الدمياطي وابن العطار وابن الخباز والبرزالي {cite:shadharat-dhahab p. 743}."
   en: "Shaykh of the Meccan haram — the Ri'yad al-Nadira, Dhakha'ir al-Uqba, al-Simt al-Thamin and al-Qira are his; carried his six-volume Ahkam to Yemen's sultan {cite:shadharat-dhahab p. 743}."
@@ -18,16 +18,19 @@ faith:
     basis: tradition
 relations:
   - { type: died_in, target: place/mecca, sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+  - { type: born_in, target: place/mecca, sources: [source/riyad-nadira-dar-al-gharb-1996] }
+  - { type: authored, target: work/al-riyad-al-nadira, sources: [source/riyad-nadira-ilmiyya-1984] }
+  - { type: traveled_to, target: place/yemen, role: "أقام عند الملك المظفر نحو سنتين", sources: [source/riyad-nadira-dar-al-gharb-1996] }
+sources: [source/shadharat-dhahab, source/riyad-nadira-dar-al-gharb-1996, source/riyad-nadira-ilmiyya-1984]
 status:
   review: published
   completeness: 3
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج7، سنة 694)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch97
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 694)، قراءة آبل فيجن؛ enriched from source/riyad-nadira-dar-al-gharb-1996 pp. 15, 31–56 by Claude Code (OCR-harvest worker E)"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker E)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "prose-fill-persons-batch97; ocr-harvest-2026-11-04"
 occupations:
   - job: job/faqih
     kind: secondary

@@ -1,0 +1,27 @@
+id: event/death-of-ahmad-ibn-hanbal
+class: event
+kind: other
+label: { ar: "وفاة أحمد بن حنبل وجنازته", en: "The death and funeral of Ahmad ibn Hanbal" }
+summary:
+  ar: "توفي أحمد بن حنبل ببغداد يوم الجمعة سنة 241هـ، واختلفت الروايات التي يجمعها ابن عساكر في شهره: لاثنتي عشرة ليلة خلت من ربيع الأول عند حنبل بن إسحاق وعباس الدوري ومطيّن، ومن ربيع الآخر عند ابنه عبد الله والفضل بن زياد ويعقوب بن سفيان، ولثلاث عشرة بقيت منه عند نصر بن القاسم، وجعلها أبو أمية الطرسوسي سنة 242 ولم يُتابع. صلى عليه أمير بغداد محمد بن عبد الله بن طاهر، ودُفن بعد العصر، وتُروى في عدد المصلين عليه تقديرات متفاوتة بين ثمانمائة ألف رجل وستين ألف امرأة وألف ألف وسبعمائة ألف {cite:tarikh-dimashq-amrawi-v5 p. 326-335}."
+  en: "Ahmad ibn Hanbal died in Baghdad on a Friday in 241 AH; the reports that Ibn Asakir gathers differ on the month: twelve nights into Rabi' al-Awwal according to Hanbal ibn Ishaq, Abbas al-Duri and Mutayyan, twelve nights into Rabi' al-Akhir according to his son Abd Allah, al-Fadl ibn Ziyad and Ya'qub ibn Sufyan, thirteen nights before its end according to Nasr ibn al-Qasim, while Abu Umayya al-Tarsusi gave 242 and was not followed. The governor of Baghdad Muhammad ibn Abd Allah ibn Tahir led the prayer, he was buried after the afternoon prayer, and estimates of those who prayed over him range from 800,000 men and 60,000 women to 1,700,000."
+wings: [time, people]
+themes: [religious-authorities]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { hijri: "0241-03-12", edtf: "0855-07-31", calendar: julian, precision: day, status: debated, derived: true, note: "يوم الجمعة لاثنتي عشرة ليلة خلت من ربيع الأول 241 (حنبل بن إسحاق، عباس الدوري، مطين) {cite:tarikh-dimashq-amrawi-v5 p. 327}؛ وقيل لاثنتي عشرة خلت من ربيع الآخر 241 = 30 أغسطس 855 (عبد الله بن أحمد، الفضل بن زياد، يعقوب بن سفيان) {cite:tarikh-dimashq-amrawi-v5 p. 328} {cite:tarikh-dimashq-amrawi-v5 p. 329}؛ وقيل لثلاث عشرة بقيت من ربيع الآخر (نصر بن القاسم) {cite:tarikh-dimashq-amrawi-v5 p. 328}؛ وقال أبو أمية سنة 242 ولم يُتابع {cite:tarikh-dimashq-amrawi-v5 p. 329}. التحويل مشتق.", sources: [source/tarikh-dimashq-amrawi-v5] }
+participants:
+  - { target: person/ahmad-ibn-hanbal, role: "المتوفى" }
+  - { target: person/muhammad-ibn-abd-allah-ibn-tahir, role: "أمير بغداد، صلى عليه" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-dimashq-amrawi-v5] }
+sources: [source/tarikh-dimashq-amrawi-v5]
+provenance:
+  layer: own-research
+  source: "tarikh-dimashq-amrawi-v5 pp. 326–335 (entry 136)"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: tarikh-dimashq-amrawi-v5 pp. 326–335"
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

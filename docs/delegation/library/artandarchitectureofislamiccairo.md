@@ -36,3 +36,25 @@ Created: building/citadel-of-cairo, building/bir-yusuf-cairo, building/mausoleum
 Enriched (ar+en+ur sections): building/mausoleum-of-imam-al-shafii, building/al-madrasa-al-salihiyya-cairo, building/shajarat-al-durr-tomb, person/salah-al-din-yusuf-ibn-ayyub, person/al-malik-al-kamil, person/al-malik-al-salih-ayyub, person/shajar-al-durr, concept/madrasa.
 Fix: source/yeomans-islamic-cairo-2006 now cites itself (validator rule for own-research sources).
 Doubts: Bir Yusuf and the Abbasid mausoleum dated with `status: debated` (Yeomans gives attribution/date as probable only). Rawda citadel's present state not given by the book, so no `status_now`.
+
+## Batches 4-5: chapter 5, Bahri Mamluk architecture (pp. 124-163, read in full)
+Created: building/mosque-of-al-zahir-baybars, building/madrasa-of-al-nasir-muhammad (possible overlap with building/al-madrasa-al-nasiriyya-cairo, Wikidata Q25463062, not verifiable here; left untouched), concept/khanqah.
+First prose for existing empty records: building/al-nasir-muhammad-mosque, building/ablaq-palace-cairo, building/tomb-of-salar-and-sangar, person/sanjar-al-jawli, building/amir-al-maridani-mosque, building/aqsunqur-mosque-cairo.
+Enriched: building/madrasa-of-al-zahir-baibars, person/baybars, building/qalawun-complex, person/qalawun, person/al-nasir-muhammad-ibn-qalawun, building/khanqah-of-baybars-al-gashankir, person/baybars-al-jashankir, building/masjid-sultan-hasan, person/ibn-khaldun (tour/halls.yaml stop sources updated to match).
+Doubts: Sanjar al-Jawli died 1344 per Yeomans vs 1345 on the earlier Wikidata card (noted in summary). Ablaq Palace: text says remains destroyed, Citadel map still marks "remains", so no status_now.
+Leads: mausolea of Sarghitmish, al-Sultaniyya and Yunus al-Dawadar (p. 162) and the madrasas of Shaykhu and al-Yusufi (p. 163) are only named.
+
+## Batch 6: chapter 7 part 1, Burji Mamluks (pp. 198-217)
+Created: building/funerary-complex-of-sultan-inal, place/eastern-cemetery-cairo, concept/sabil-kuttab, concept/qaa.
+First prose for: building/complex-sultan-barquq, building/farag-ibn-barquq-complex, building/emir-qurqumas-complex, building/khanqah-mausoleum-of-sultan-barsbay (Eastern Cemetery), building/al-ashraf-barsbay-complex (assigned to the al-Mu'izz street madrasa, 1425, with a note in the prose).
+Enriched: building/al-muayyad-mosque-cairo, person/barquq, person/faraj-ibn-barquq, person/al-muayyad-shaykh, person/barsbay, concept/waqf.
+Leads: tomb of Ganibak al-Ashrafi (1432), Bashtak palace (1334-9), mosque of Aslam al-Silahdar (1344-5) only treated inside other records.
+
+## Batch 7: chapter 7 part 2 and postscript (pp. 218-239)
+Created: building/sabil-kuttab-of-qaytbay-cairo, building/madrasa-of-sultan-al-ghuri, building/wakala-of-al-ghuri, building/mosque-of-muhammad-ali-cairo (Yeomans's harsh verdict and the quoted views of Flaubert, Nightingale and Curzon kept attributed).
+First prose for: building/qaytbay-complex-cairo, building/amir-qijmas-al-ishaqi-mosque, building/mausoleum-sabil-kuttab-al-ghouri, building/amir-khayrbak-complex (Yeomans's word "treachery" for Khayrbak's defection attributed to him).
+Enriched: person/qaytbay, person/qansuh-al-ghawri, person/tuman-bay-ii, work/art-and-architecture-of-islamic-cairo (section on the later chapters).
+Doubts: Qijmas mosque 1478-9 (text) vs 1480-1 (map); Khayrbak mosque 1520-1 (text) vs 1502 (map); both kept with notes.
+
+## Status of the book
+Architecture chapters 1, 2, 4, 5, 7 and the postscript read in full and harvested (about 110 records). Not yet harvested: chapters 3 and 6 (decorative arts: ceramics, glass, woodwork, metalwork, textiles, manuscripts, pp. 70-99, 164-197) and the introduction (pp. 4-13). Leads: Qaytbay's Ashrafiyya madrasa and sabil in Jerusalem, Qanibay al-Rammah (1503), Mahmud Pasha mosque (1567), Ganibak al-Ashrafi tomb.

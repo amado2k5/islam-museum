@@ -1,0 +1,51 @@
+id: question/did-uthman-banish-abu-dharr
+class: question
+label: { ar: "هل نفى عثمان أبا ذر إلى الربذة؟", en: "Did Uthman banish Abu Dharr to al-Rabadha?", ur: "کیا عثمان نے ابو ذر کو ربذہ جلاوطن کیا؟" }
+summary:
+  ar: "اختلف المؤرخون في نزول أبي ذر الغفاري الربذة في خلافة عثمان بعد خلافه مع معاوية بالشام في آية الكنز: فمن الأخبار ما يجعله نفياً من عثمان، ويرجح الصلابي، ناقلاً عن البخاري والحسن البصري وابن سيرين وابن العربي، أنه نزلها باختياره بإذن عثمان، ويرد الربط بين رأي أبي ذر وابن سبأ."
+  en: "Historians differ over Abu Dharr al-Ghifari's move to al-Rabadha under Uthman after his dispute with Mu'awiya in Syria over the verse on hoarding: some reports make it a banishment by Uthman, while al-Sallabi, citing al-Bukhari, al-Hasan al-Basri, Ibn Sirin and Ibn al-Arabi, holds that he settled there by choice with Uthman's leave, and rejects the link drawn between Abu Dharr's view and Ibn Saba."
+question: { ar: "هل نفى عثمان أبا ذر إلى الربذة؟", en: "Did Uthman banish Abu Dharr to al-Rabadha?", ur: "کیا عثمان نے ابو ذر کو ربذہ جلاوطن کیا؟" }
+issue: { ar: "هل كان نزول أبي ذر الربذة نفياً قسرياً من الخليفة أم اختياراً منه بإذنه، وهل تأثر رأيه في المال بابن سبأ؟", en: "Was Abu Dharr's move to al-Rabadha a forced banishment by the caliph or his own choice with the caliph's leave, and was his view on wealth influenced by Ibn Saba?" }
+short_answer:
+  ar: "الصلابي ومن ينقل عنهم من أهل السنة: نزلها باختياره بإذن عثمان، وأخبار النفي ضعيفة؛ ومن الأخبار التاريخية كالتي في الكامل لابن الأثير ما يذكر أن عثمان نفاه، وبنى عليه ابن المطهر الحلي من الإمامية."
+  en: "Al-Sallabi and the Sunni authorities he quotes: he went by choice with Uthman's leave, and the banishment reports are weak. Some historical reports, such as the one in Ibn al-Athir's al-Kamil, say Uthman banished him, and the Imami scholar Ibn al-Mutahhar al-Hilli built on that."
+perspectives:
+  - tradition: sunni
+    id: sallabi-choice
+    standing: main
+    stance: { ar: "نزل أبو ذر الربذة باختياره بإذن عثمان، ولم يكن ذلك نفياً قسرياً", en: "Abu Dharr settled at al-Rabadha by his own choice with Uthman's leave; it was not a forced banishment" }
+    summary: { ar: "يستند الصلابي إلى رواية البخاري عن زيد بن وهب: كتب معاوية يشكو أبا ذر فاستقدمه عثمان، فلما كثر عليه الناس قال له عثمان إن شئت تنحيت فكنت قريباً؛ وإلى رواية عند ابن حجر أن أبا ذر قال لعثمان ائذن لي بالربذة فأذن له؛ وإلى قول الحسن البصري «معاذ الله» لمن سأله أأخرجه عثمان، وإنكار ابن سيرين ذلك؛ ويرى أن رواية النفي عند ابن سعد فيها بريدة بن سفيان الأسلمي الذي ضعفه ابن حجر.", en: "Al-Sallabi relies on al-Bukhari's report from Zayd ibn Wahb: Mu'awiya wrote complaining of Abu Dharr, Uthman summoned him, and when people crowded around him Uthman said, if you wish, withdraw and stay nearby; on a report in Ibn Hajar that Abu Dharr asked Uthman's leave to go to al-Rabadha and was granted it; on al-Hasan al-Basri's 'God forbid!' to one who asked whether Uthman expelled him, and Ibn Sirin's denial; he holds that the banishment report in Ibn Sa'd contains Burayda ibn Sufyan al-Aslami, whom Ibn Hajar judged weak." }
+    holders: [person/ali-muhammad-al-sallabi, person/abu-bakr-ibn-al-arabi-qadi]
+    evidence: [{ ref: source/sallabi-uthman-tawzi-2003, note: { ar: "ص294–300 من نسخة PDF" } }]
+    sources: [source/sallabi-uthman-tawzi-2003]
+  - tradition: sunni
+    id: kamil-banishment
+    standing: secondary
+    stance: { ar: "عثمان نفى أبا ذر من المدينة إلى الربذة", en: "Uthman banished Abu Dharr from Medina to al-Rabadha" }
+    summary: { ar: "يذكر ابن الأثير في الكامل في حوادث سنة 30 إشخاص معاوية أبا ذر من الشام إلى المدينة، ونفي عثمان إياه إلى الربذة.", en: "Ibn al-Athir in al-Kamil, under the year 30, records Mu'awiya's sending Abu Dharr from Syria to Medina and Uthman's banishing him to al-Rabadha." }
+    holders: [person/ibn-al-athir-izz-al-din]
+    evidence: [{ ref: source/kamil-ibn-al-athir, note: { ar: "ص483" } }]
+    sources: [source/kamil-ibn-al-athir]
+  - tradition: academic
+    id: modern-ibn-saba-mazdak
+    standing: secondary
+    stance: { ar: "رأي أبي ذر في المال متصل بابن سبأ أو بأفكار مزدكية", en: "Abu Dharr's view on wealth was connected with Ibn Saba or with Mazdakite ideas" }
+    summary: { ar: "في نقل الصلابي: قارب أحمد أمين بين رأي أبي ذر ورأي مزدك، واحتمل أن يكون ابن سبأ تلقاه من مزدكية العراق فاعتنقه أبو ذر بحسن نية؛ وعظّم سعيد الأفغاني في «عائشة والسياسة» دور ابن سبأ؛ ويرد الصلابي ذلك بأن أخبار خلاف أبي ذر ومعاوية عند البخاري وابن كثير وكتب التراجم لا تذكر ابن سبأ، وبأن ظهور ابن سبأ في البصرة نحو سنة 32 كان بعد مناظرة أبي ذر لمعاوية سنة 30 ووفاته بالربذة سنة 31 أو 32.", en: "As al-Sallabi reports it: Ahmad Amin compared Abu Dharr's view with Mazdak's and thought Ibn Saba might have taken it from the Mazdakites of Iraq and Abu Dharr adopted it in good faith; Sa'id al-Afghani in 'A'isha wa-l-Siyasa magnified Ibn Saba's role. Al-Sallabi replies that the accounts of the dispute in al-Bukhari, Ibn Kathir and the biographical works do not mention Ibn Saba, and that Ibn Saba's appearance in Basra around 32 AH came after Abu Dharr's debate with Mu'awiya in 30 and his death at al-Rabadha in 31 or 32." }
+    holders: [person/ahmad-amin]
+    evidence: [{ ref: source/sallabi-uthman-tawzi-2003, note: { ar: "ص294، 300–302" } }]
+    sources: [source/sallabi-uthman-tawzi-2003]
+  - tradition: shia-twelver
+    id: hilli-banishment
+    standing: secondary
+    stance: { ar: "عثمان نفى أبا ذر وضربه", en: "Uthman banished Abu Dharr and beat him" }
+    summary: { ar: "في نقل الصلابي: ذهب ابن المطهر الحلي (ت 726هـ) إلى أن عثمان نفى أبا ذر وزاد أنه ضربه ضرباً وجيعاً، ورد عليه ابن تيمية.", en: "As al-Sallabi reports it: Ibn al-Mutahhar al-Hilli (d. 726 AH) held that Uthman banished Abu Dharr and added that he beat him severely; Ibn Taymiyya replied to him." }
+    holders: [person/al-allama-al-hilli]
+    evidence: [{ ref: source/sallabi-uthman-tawzi-2003, note: { ar: "ص300" } }]
+    sources: [source/sallabi-uthman-tawzi-2003]
+related: [person/abu-dharr-al-ghifari, person/uthman-ibn-affan, person/muawiya-ibn-abi-sufyan, place/al-rabadha, event/abu-dharr-exile, event/death-of-abu-dharr-at-al-rabadha, person/abdullah-ibn-saba, work/taysir-al-karim-al-mannan-sirat-uthman-sallabi]
+wings: [ideas, people]
+themes: [politics-governance-and-authority, factions-splits-schisms]
+sensitivity: contested
+sources: [source/sallabi-uthman-tawzi-2003, source/kamil-ibn-al-athir]
+provenance: { layer: own-research, source: "source/sallabi-uthman-tawzi-2003 pp. 294–303; source/kamil-ibn-al-athir p. 483", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3 }

@@ -1,0 +1,23 @@
+id: person/ferdinand-wustenfeld
+class: person
+label: { ar: "فرديناند فستنفلد", en: "Ferdinand Wüstenfeld" }
+names:
+  - { kind: full, lang: en, value: "Ferdinand Wüstenfeld" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "ناشر «معجم ما استعجم» للبكري عن أربع مخطوطات أوروبية، طُبع جزؤه الأول في غوتنغن وباريس سنة 1876م، وكتب له مقدمة ألمانية يروي فيها كيف نسخ مخطوطة ليدن بنفسه، وأتم نسخ جزئها الثاني في «الأيام المضطربة من سنة 1848» {cite:mujam-ma-istaajam-bakri p.5} {cite:mujam-ma-istaajam-bakri p.9}."
+  en: "Editor of al-Bakri's Mu'jam ma sta'jam from four European manuscripts, whose first volume appeared in Göttingen and Paris in 1876, with a German preface telling how he copied the Leiden manuscript himself, finishing its second part «in the troubled days of the year 1848»."
+wings: [people]
+themes: [translation-and-transmission]
+regions: [andalus-europe]
+relations:
+  - { type: wrote_about, target: work/mujam-ma-istaajam, sources: [source/mujam-ma-istaajam-bakri] }
+sources: [source/mujam-ma-istaajam-bakri]
+provenance:
+  layer: own-research
+  source: "source/mujam-ma-istaajam-bakri scan pp. 5, 7-12"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

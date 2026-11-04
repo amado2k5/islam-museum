@@ -1,0 +1,25 @@
+id: building/wakala-of-al-ghuri
+class: building
+kind: khan
+label: { ar: "وكالة الغوري وربعها", en: "Wakala and Rab' of Sultan al-Ghuri, Cairo", ur: "سلطان الغوری کی وکالہ اور ربع، قاہرہ" }
+summary:
+  ar: "وكالة السلطان الغوري وربعها (1504-1505م) بين الأزهر ومجمع الغوري، أحسن الوكالات حفظاً في القاهرة: مخازن في الأسفل ومساكن للتجار فوقها وشقق ربع في الطوابق العليا {cite:yeomans-islamic-cairo-2006 p.230}."
+  en: "Sultan al-Ghuri's wakala and rab' (1504-1505) between al-Azhar and the Ghuri complex, the best preserved in Cairo: stores below, merchants' rooms above, and rab' apartments on the upper floors {cite:yeomans-islamic-cairo-2006 p.230}."
+wings: [objects, place]
+themes: [architecture]
+regions: [egypt-nile]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1504/1505", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 230: waqala and rab' (1504-5)." }
+patron: person/qansuh-al-ghawri
+location: place/cairo
+status_now: standing
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 230-231"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

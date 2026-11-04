@@ -18,13 +18,13 @@ regions: [andalus-europe]
 story_roles:
   - { role: traveller-observer, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q337126" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/mujam-ma-istaajam-bakri]
 status:
   review: published
   completeness: 3
 provenance:
-  layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص725"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch50
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص725; source/mujam-ma-istaajam-bakri scan pp. 7-8, 13"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "prose-fill-persons-batch50; ocr-harvest-2026-11-04"

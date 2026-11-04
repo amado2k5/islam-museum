@@ -1,17 +1,30 @@
 id: work/dhayl-tabaqat-al-hanabila
 class: work
 kind: book
-label: { ar: "ذيل على طبقات الحنابلة", en: "Dhayl Tabaqat al-Hanabila" }
+label: { ar: "الذيل على طبقات الحنابلة", en: "al-Dhayl ala Tabaqat al-Hanabila" }
 summary:
-  ar: "بطاقة أولية لذيل طبقات الحنابلة لابن رجب، تتمته على طبقات ابن أبي يعلى؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Dhayl Tabaqat al-Hanabila, Ibn Rajab's continuation of Ibn Abi Ya'la's biographies; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب ابن رجب الحنبلي (736–795هـ) في تراجم فقهاء الحنابلة ومحدثيهم، ذيّل به على طبقات ابن أبي يعلى، ورتبه على الوفيات سنةً سنة؛ ويبدأ جزؤه الثاني في طبعة الفقي بوفيات المائة السابعة من سنة 601. يكثر فيه من النقل عن المؤرخين قبله، ثم يعقّب بقوله «قلت» برأيه ونقده."
+  en: "Ibn Rajab al-Hanbali's (736–795 AH) biographical dictionary of Hanbali jurists and traditionists, a continuation of Ibn Abi Ya'la's Tabaqat, arranged by year of death; in al-Fiqi's edition its second part opens the deaths of the seventh century from 601 AH. It quotes earlier historians at length and then adds the author's own judgement, introduced by «qultu» (I say)."
+genre: [tabaqat, biography]
+disciplines: [history, fiqh]
+made: { by_muslims: true, basis: documented, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+authors: [person/ibn-rajab]
+language: language/arabic
+structure: "تراجم مرتبة على سني الوفاة، بأرقام متصلة (الجزء الثاني في طبعة الفقي يبدأ بالترجمة 214، وفيات سنة 600، تحت عنوان «وفيات المائة السابعة من سنة 601 إلى سنة 700»)، وفي آخر الجزء فهرس التراجم"
+editions: [source/dhayl-tabaqat-hanabila-faqi-v2]
+wings: [words, people]
+themes: [libraries-paper-and-the-book]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: mentions, target: person/abd-al-ghani-al-maqdisi, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: mentions, target: person/diya-al-din-al-maqdisi, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+sources: [source/dhayl-tabaqat-hanabila-faqi-v2, source/al-aalam]
 external_ids: { wikidata: "Q12212712" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "dhayl-tabaqat-hanabila-faqi-v2 title page (PDF p. 1), pp. 5–30 (entry 214); earlier draft card from a Wikidata candidate (Devin, wikidata-import-wave2)"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }
