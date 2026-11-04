@@ -1,0 +1,35 @@
+id: person/ahmet-mahmut-unlu
+class: person
+label: { ar: "أحمد محمود أونلو", en: "Ahmet Mahmut Ünlü", ur: "احمد محمود اونلو" }
+names:
+  - { value: "Ahmet Mahmut Ünlü", kind: full }
+  - { value: "Cübbeli Ahmet Hoca", kind: alternate }
+gender: male
+summary:
+  ar: "واعظ وحافظ وكاتب تركي، وُلد في إسطنبول سنة 1965، تدرّب على يد محمود أوستا أوسمان أوغلو في جماعة إسماعيل آغا النقشبندية، وذاعت دروسه ومحاضراته عبر الكتب والتلفزيون ويوتيوب، وغادر جماعة إسماعيل آغا سنة 2024 وشارك في تأسيس جماعة جديدة تحمل اسم شيخه."
+  en: "Turkish preacher, hafiz and writer, born in Istanbul in 1965. He was trained by Mahmut Ustaosmanoğlu within the Naqshbandi İsmailağa community, and his lessons and talks spread through books, television and YouTube; in 2024 he left the İsmailağa community and co-founded a new community named after his teacher."
+  ur: "ترک واعظ، حافظ اور مصنف، جو 1965 میں استنبول میں پیدا ہوئے۔ انہوں نے نقشبندی اسماعیل آغا جماعت میں محمود استا عثمان اوغلو سے تربیت پائی، اور ان کے دروس کتابوں، ٹیلی ویژن اور یوٹیوب کے ذریعے پھیلے؛ 2024 میں انہوں نے اسماعیل آغا جماعت چھوڑ کر اپنے شیخ کے نام پر نئی جماعت کی بنیاد رکھی۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1965-02-27"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Date and place (Çarşamba, Fatih, Istanbul) from the English and Turkish Wikipedia articles, which agree."
+  sources: [source/wikipedia-ahmet-mahmut-unlu-en, source/wikipedia-ahmet-mahmut-unlu-tr]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ahmet-mahmut-unlu-en, source/wikipedia-ahmet-mahmut-unlu-tr] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Settled on attested personal practice in a living Sufi tradition. The Turkish article's text records that he was specially trained by Mahmut Ustaosmanoğlu in the lodge known as the İsmailağa branch of the Naqshbandi order, and the Güncel Oku biography independently records the same personal training by Ustaosmanoğlu, a leading figure of the Naqshbandi order; the English article's lead likewise says he studied under Ustaosmanoğlu. The English infobox's Hanafi and Maturidi entries are structured data and were not used, and his former office in the community was not used."
+    sources: [source/wikipedia-ahmet-mahmut-unlu-tr, source/gunceloku-ahmet-mahmut-unlu, source/wikipedia-ahmet-mahmut-unlu-en]
+sources: [source/wikipedia-ahmet-mahmut-unlu-en, source/wikipedia-ahmet-mahmut-unlu-tr, source/gunceloku-ahmet-mahmut-unlu]
+provenance:
+  layer: own-research
+  source: "English and Turkish Wikipedia 'Ahmet Mahmut Ünlü' (copies read on 30 August 2026) and the Güncel Oku biography, checked 4 November 2026. No student_of edge is written to Mahmut Ustaosmanoğlu because no person record for him exists in the museum. Platform reach (about 1.71 million YouTube subscribers, VidMaestro, 14 May 2026) is recorded in the prose as a dated platform figure."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-189b
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

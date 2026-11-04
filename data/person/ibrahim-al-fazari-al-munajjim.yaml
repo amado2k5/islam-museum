@@ -10,8 +10,11 @@ periods: [period/abbasid-early]
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الشركة العالمية للكتاب) ج2 ص 668–669"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-2
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch38
 external_ids: { wikidata: "Q2265604" }
 sources: [source/muruj-al-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3

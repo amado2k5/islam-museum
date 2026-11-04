@@ -15,6 +15,41 @@ open a new block on top with the new version and today's date.
 
 ## v1.1.0 — 2026-11-03
 
+### Data
+- **Persons**: 2 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 69).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 68).
+- **Persons**: 4 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 67).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 66).
+- **Persons**: 19 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 65).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 64).
+- **Persons**: 13 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 63).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 62).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 61).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 60).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 59).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 58).
+- **Persons**: 24 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 57).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 56).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 55).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 54).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 53).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 52).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 51).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 50).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 49).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 48).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 47).
+- **Persons**: 9 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 46).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 45).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 44).
+- **Persons**: 24 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 43).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 42).
+- **Persons**: 24 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 41).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 40).
+- **People**: 25 more biographies with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 39).
+- **People**: 25 more biographies with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep).
+- **25 new contemporary biographies**: preachers, teachers and Qur'an reciters followed by millions — from Pakistan, Indonesia, Bangladesh, Turkey, Egypt and France — each with full Arabic, English and Urdu pages and sources.
+
 ### Added
 - **Developers page** (`/{lang}/developers/`, Arabic, English, Urdu): the museum's open data and API documented for libraries and builders — endpoints, the node/edge/record schema, worked examples with real responses, sample code, starter prompts for AI coding agents, and an honest list of what is not here yet.
 - **Network page** (`/{lang}/network/`): the scholars, institutions and communities in conversation with the museum.
@@ -31,6 +66,9 @@ open a new block on top with the new version and today's date.
 ### Data
 - **Clearer subject metadata**: Urdu labels and summaries added to forty existing records, with recorded localization provenance. Missing provenance restored on seven places and one migration event without changing existing event dates or relationships.
 - **Honest Explorer image status**: the forty-story batch remains unpublished pending replacement of five shared backdrops that contain figures. The owner request identifies each file and affected story; a prompt or an earlier screening claim is not treated as proof that an image is safe.
+
+### Data
+- **Two scholars' pages completed**: Fayz Kashani, the Safavid philosopher and traditionist, and Şeyhülislam Zekeriya Efendi now carry full sourced biographies in Arabic, English and Urdu — both were early draft cards that other pages already linked to.
 
 ---
 

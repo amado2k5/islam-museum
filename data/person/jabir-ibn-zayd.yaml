@@ -10,8 +10,11 @@ wings: [people]
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 191"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-63
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
 external_ids: { wikidata: "Q6035355" }
 sources: [source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3

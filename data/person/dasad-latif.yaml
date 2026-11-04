@@ -1,0 +1,38 @@
+id: person/dasad-latif
+class: person
+label: { ar: "دسعد لطيف", en: "Dasad Latif", ur: "دسعد لطیف" }
+names:
+  - { value: "Das'ad Latif", kind: full }
+  - { value: "دَسْعَد لطيف", kind: full }
+gender: male
+summary:
+  ar: "داعية ومحاضر جامعي إندونيسي وُلد في بينرانغ بجنوب سولاوسي سنة 1973، يُدرّس علوم الاتصال في جامعة حسن الدين بمكاسر منذ 2006 ويحمل دكتوراه في الاتصال من جامعة ماليزيا الوطنية (2016) وثانية في الشريعة من جامعة علاء الدين الإسلامية (2018)، واشتهر بمحاضرات دينية خفيفة الروح بلهجة بوغيس المحلية تُبث تلفزيونياً وعلى يوتيوب، وترشح سنة 2013 لمنصب نائب عمدة مكاسر."
+  en: "Indonesian preacher and university lecturer born in Pinrang, South Sulawesi, in 1973. He has taught communications at Hasanuddin University in Makassar since 2006, holds a doctorate in communications from Universiti Kebangsaan Malaysia (2016) and a second doctorate in sharia from UIN Alauddin (2018), and is known for light, humorous sermons in the local Bugis dialect broadcast on television and YouTube. He ran for deputy mayor of Makassar in 2013."
+  ur: "انڈونیشی مبلغ و جامعی مدرس، جو 1973ء میں جنوبی سولاویسی کے پنرانگ میں پیدا ہوئے۔ 2006ء سے مکاسر کی حسن الدین یونیورسٹی میں ابلاغیات پڑھا رہے ہیں، نیشنل یونیورسٹی آف ملائیشیا سے ابلاغیات میں (2016ء) اور علاء الدین اسلامی یونیورسٹی سے شریعت میں (2018ء) ڈاکٹریٹ رکھتے ہیں، اور بوگیس لہجے میں مزاحیہ دینی خطبات سے شہرت رکھتے ہیں۔"
+roles: [preacher, teacher, writer]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1973-12-21"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Bungi, Pinrang, South Sulawesi, on 21 December 1973: the Indonesian article states it. The Hijri year 1393 is a tabular conversion of the followed date, marked derived. No place record for Pinrang exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-dasad-latif-id]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text consulted names a school for him. The Indonesian article records his two parallel first degrees — communications at Hasanuddin and Islamic judicature at IAIN Alauddin — his doctorates and his lectureship; a degree in Islamic judicature is formation and a teaching post, which never count, and the article names no madhhab for him. The value stays unknown."
+    sources: [source/wikipedia-dasad-latif-id]
+sources: [source/wikipedia-dasad-latif-id]
+provenance:
+  layer: own-research
+  source: "Indonesian Wikipedia article on Dasad Latif, read in full on 4 November 2026 (modern-figures harvest, 2026-11-04: YouTube @DasadLatif with 3.9 million subscribers). The harvest records a Wikidata item for him, but wikidata.org returns HTTP 403 to this session's fetcher, so the QID could not be verified in session and no external identifier is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-189"
+status:
+  review: published
+  completeness: 3

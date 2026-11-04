@@ -1,0 +1,42 @@
+id: person/yusuf-mansur
+class: person
+label: { ar: "يوسف منصور", en: "Yusuf Mansur", ur: "یوسف منصور" }
+names:
+  - { value: "Jam'an Nurkhatib Mansur", kind: full }
+  - { value: "Jam'an Nurchotib Mansur", kind: alternate }
+  - { value: "جمعان نور خطيب منصور", kind: full }
+  - { value: "Ustadz Yusuf Mansur", kind: alternate }
+gender: male
+summary:
+  ar: "داعية وكاتب إندونيسي وُلد في جاكرتا سنة 1976 في أسرة من البيتاوي، يدير معهد دار القرآن في تانغيرانغ وأسس سنة 2003 برنامجاً لحفظ القرآن، واشتهر بدعوة الصدقة حتى لُقّب بـ«أستاذ الصدقة»، وأسس تطبيق الدفع «بايترن»، وكتب كتباً من أشهرها «البحث عن الإله المفقود»."
+  en: "Indonesian preacher and writer born in Jakarta in 1976 into a Betawi family. He leads the Daarul Qur'an pesantren in Tangerang, founded a Qur'an-memorisation programme in 2003, became famous for charity-centred preaching that earned him the nickname 'Ustadz Sedekah', founded the Paytren payment app, and has written books including Mencari Tuhan yang Hilang (Seeking the Lost God)."
+  ur: "انڈونیشی مبلغ و مصنف، جو 1976ء میں جکارتا میں ایک بیٹاوی خاندان میں پیدا ہوئے۔ تانگیرانگ کے دار القرآن مدرسے کے سربراہ ہیں، 2003ء میں حفظِ قرآن کا پروگرام شروع کیا، صدقے پر مرکوز دعوت سے «استاذ صدقہ» کے لقب سے مشہور ہوئے، پےٹرین ایپ قائم کی، اور «تلاشِ گم شدہ خدا» سمیت متعدد کتب لکھیں۔"
+roles: [preacher, writer, teacher]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1976-12-19"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Jakarta on 19 December 1976: the English and Indonesian articles agree. The Hijri year 1396 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-yusuf-mansur-en, source/wikipedia-yusuf-mansur-id]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text consulted names a school for him. The two articles record his Betawi family background, his Daarul Qur'an pesantren and Qur'an-memorisation programmes, his charity preaching and his business ventures — none of which attests a school, and neither article carries a religious-life infobox entry for him. The value stays unknown."
+    sources: [source/wikipedia-yusuf-mansur-en, source/wikipedia-yusuf-mansur-id]
+relations:
+  - { type: born_in, target: place/jakarta, note: "Born in Jakarta: the English and Indonesian articles agree. The museum's place record for Jakarta exists on origin/main (read 4 November 2026); its own sources include Britannica, Geonames and the Jakarta provincial portal.", sources: [source/wikipedia-yusuf-mansur-en, source/wikipedia-yusuf-mansur-id] }
+sources: [source/wikipedia-yusuf-mansur-en, source/wikipedia-yusuf-mansur-id]
+provenance:
+  layer: own-research
+  source: "English and Indonesian Wikipedia articles on Yusuf Mansur, read in full on 4 November 2026 (modern-figures harvest, 2026-11-04: Facebook 6.6 million and Instagram 2.6 million followers per a February 2024 journal table; his YouTube channel is small, about 75.8 thousand subscribers). Both articles spell his birth name differently — Nurkhatib in English, Nurchotib in Indonesian — and both spellings are recorded. The harvest records a Wikidata item for him, but wikidata.org returns HTTP 403 to this session's fetcher, so the QID could not be verified in session and no external identifier is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-189"
+status:
+  review: published
+  completeness: 3

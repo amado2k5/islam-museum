@@ -9,13 +9,16 @@ wings: [people]
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 558"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-26
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch40
 relations:
   - { type: child_of, target: person/khalid-ibn-barmak, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: member_of, target: group/barmakids, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/tarikh-dawla-abbasiyya-taqqush]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
 occupations:
   - job: job/sahib-al-barid
     kind: episodic

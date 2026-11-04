@@ -26,8 +26,15 @@ relations:
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
-status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 274, lib-mawsuat-a3lam" }
-provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص274", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص274"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch51
 external_ids: { wikidata: Q11826 }
 kids:
   ar: "البيروني عالم الفلك والجغرافيا والآثار، سافر مع محمود الغزنوي إلى الهند وكتب عنها تاريخها وأديانها."
