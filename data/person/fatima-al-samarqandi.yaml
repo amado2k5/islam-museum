@@ -3,23 +3,32 @@ class: person
 label:
   ar: "فاطمة السمرقندية"
   en: "Fatima al-Samarqandi"
-roles: [scholar]
+  ur: "فاطمہ سمرقندیہ"
+names:
+  - { kind: full, lang: ar, value: "فاطمة بنت محمد بن أحمد بن أبي أحمد السمرقندي" }
+roles: [jurist, scholar]
 gender: female
+traditions: [sunni]
 summary:
-  ar: "بطاقة أولية لفاطمة بنت محمد السمرقندية، فقيهة الحنفية التي تعلمت على أبيها علاء الدين السمرقندي وتزوجت الكاساني في القرن الثاني عشر؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Fatima bint Muhammad al-Samarqandi, the twelfth-century Hanafi jurist taught by her father Ala al-Din and wife of al-Kasani; the biographical entry is not yet checked on the page."
+  ar: "فاطمة بنت محمد بن أحمد بن أبي أحمد السمرقندي، فقيهة حنفية، ابنة علاء الدين السمرقندي صاحب «تحفة الفقهاء» وزوجة الكاساني صاحب «البدائع». تفقّهت على أبيها وحفظت التحفة، وكانت تفتي، فكانت الفتوى تخرج بخطها وخط أبيها ثم بخط الثلاثة بعد زواجها، وأقامت بحلب حتى ماتت ودُفن زوجها عندها. {cite:badai-sanai-ilmiyya-v1 p.74} {cite:badai-sanai-ilmiyya-v1 p.75} {cite:badai-sanai-ilmiyya-v1 p.76}"
+  en: "Fatima bint Muhammad ibn Ahmad ibn Abi Ahmad al-Samarqandi, a Hanafi jurist, daughter of Ala' al-Din al-Samarqandi, author of Tuhfat al-Fuqaha', and wife of al-Kasani, author of al-Bada'i'. She studied law with her father and memorised al-Tuhfa, and gave fatwas: fatwas went out in her hand and her father's, and after her marriage in the hand of all three. She lived in Aleppo until her death, and her husband was buried beside her."
+  ur: "فاطمہ بنت محمد بن احمد بن ابی احمد سمرقندی، حنفی فقیہ، «تحفۃ الفقہاء» کے مصنف علاء الدین سمرقندی کی بیٹی اور «البدائع» کے مصنف کاسانی کی بیوی۔ انہوں نے اپنے والد سے فقہ پڑھی اور التحفہ حفظ کی، اور فتویٰ دیتی تھیں: فتاویٰ ان کے اور ان کے والد کے خط سے، اور شادی کے بعد تینوں کے خط سے جاری ہوتے تھے۔ وہ وفات تک حلب میں رہیں، اور ان کے شوہر ان کے پاس دفن ہوئے۔"
 wings: [people]
-regions: [persia-central-asia]
-periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+themes: [law-and-courts, women]
+regions: [persia-central-asia, levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: child_of, target: person/ala-al-din-al-samarqandi, sources: [source/badai-sanai-ilmiyya-v1] }
+  - { type: student_of, target: person/ala-al-din-al-samarqandi, sources: [source/badai-sanai-ilmiyya-v1] }
+  - { type: died_in, target: place/aleppo, sources: [source/badai-sanai-ilmiyya-v1] }
+  - { type: member_of, target: group/hanafi-madhhab, sources: [source/badai-sanai-ilmiyya-v1] }
+sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam]
 external_ids:
   wikidata: Q12230165
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0024
-status:
-  review: draft
-  completeness: 1
+  source: "badai-sanai-ilmiyya-v1 pp. 74-76"
+  generated_by: "Claude Code (OCR-harvest worker D)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D); earlier draft card by Devin (SWE-2 High), Wikidata import" }

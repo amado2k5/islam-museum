@@ -678,3 +678,9 @@ Promoted: abd-al-ala-al-sadafi, abd-al-wahid-al-makhlu-almohad, abdallah-ibn-gha
 Promoted: abd-al-aziz-ibn-al-majishun, abu-al-makaram-al-misri, abu-rafaa-umara-ibn-wathima, al-hasan-ibn-ali-al-zayri, al-layth-ibn-ali-al-saffar, al-qahl-ibn-iyash, ali-ibn-yahya-al-zayri, awhad-al-zaman, constance-of-sicily, frederick-ii, ghalib-ibn-sasaa, hisham-ibn-muawiya-al-darir, ibn-al-tilmidh, nusayb-al-shair, suhaym-ibn-wathil, tahir-ibn-muhammad-al-saffar, william-i-sicily, yahya-ibn-tamim, zaim-al-din-yahya-ibn-abdallah.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1846.** sweep continues through remaining trilingual drafts.
+
+### Batch 101 (4 Nov 2026, 19 records) — lib-shadharat-batch-125 draft promotions (sweep worker)
+
+Promoted: abdallah-al-irmawi, al-hajari-isa, al-muhsin-ibn-salah-al-din, al-qatii-al-azji, al-qurtubi-muhammad-ibn-umar, al-zahir-dawud-ibn-yusuf, fakhr-al-din-al-irbili, ghanim-ibn-asakir, ibn-al-farid, ibn-al-jinbali, ibn-al-latti, ibn-dihya, ishaq-al-ilthi, mankubars-al-falaqi, muhyi-al-din-ibn-fadlan, nasr-ibn-abd-al-razzaq, sawab-al-adili, umar-al-suhrawardi, yusuf-ibn-haydara.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1865.** sweep continues through remaining trilingual drafts.

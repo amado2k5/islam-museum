@@ -1,0 +1,27 @@
+id: person/ibn-hayyuya-al-khazzaz
+class: person
+label: { ar: "أبو عمر بن حيويه الخزاز", en: "Abu Umar ibn Hayyuya al-Khazzaz", ur: "ابو عمر بن حیویہ خزاز" }
+names:
+  - { value: "أبو عمر محمد بن العباس بن محمد بن زكريا بن حيويه البغدادي الخزاز", kind: full, lang: ar }
+gender: male
+roles: [scholar, transmitter]
+traditions: [sunni]
+summary:
+  ar: "المحدث أبو عمر محمد بن العباس بن حيويه البغدادي الخزاز، راوي كتاب الزهد عن ابن صاعد؛ قال الخطيب ثقة كتب طول عمره وروى المصنفات الكبار، وتوفي في ربيع الآخر سنة 382 وله سبع وثمانون سنة كما ينقل ابن العماد {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 101} {cite:zuhd-ibn-mubarak-azami-scan p. 304}."
+  en: "The hadith transmitter Abu Umar Muhammad ibn al-Abbas ibn Hayyuya al-Baghdadi al-Khazzaz, who transmitted Kitab al-Zuhd from Ibn Sa'id; al-Khatib called him trustworthy, writing all his life and transmitting the great compilations; he died in Rabi' al-Akhir 382 aged eighty-seven, as Ibn al-Imad reports {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 101} {cite:zuhd-ibn-mubarak-azami-scan p. 304}."
+  ur: "محدث ابو عمر محمد بن عباس بن حیویہ بغدادی خزاز، ابن صاعد سے کتاب الزہد کے راوی؛ خطیب نے انہیں ثقہ کہا، عمر بھر لکھتے رہے اور بڑی تصانیف روایت کیں؛ ابن العماد کے مطابق ربیع الآخر 382 میں ستاسی برس کی عمر میں وفات پائی {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 101} {cite:zuhd-ibn-mubarak-azami-scan p. 304}۔"
+died: { edtf: "0992~", hijri: "0382", calendar: julian, precision: year, status: tradition, derived: true, note: "في ربيع الآخر سنة 382 وله 87 سنة (فريد ص 101 عن شذرات الذهب)", sources: [source/zuhd-ibn-mubarak-farid-1995-v1] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, note: "من رواة كتاب الزهد لابن المبارك برواية المروزي", sources: [source/zuhd-ibn-mubarak-azami-scan] }
+provenance:
+  layer: own-research
+  source: "تراجم رواة نسخة المروزي في مقدمة أحمد فريد لكتاب الزهد ص 99-101؛ أسانيد نسخة الأعظمي ص 1-2، 304"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }
