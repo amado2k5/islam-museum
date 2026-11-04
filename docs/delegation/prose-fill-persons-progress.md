@@ -636,3 +636,9 @@ Promoted: abd-al-qadir-al-sabki, abd-al-rahman-ibn-ziyad-zabidi, abd-allah-al-fa
 Promoted: abdallah-ibn-yusuf-al-juwayni, abu-al-marhaf-al-namiri, abu-dalama, abu-hashim-al-jubai, abu-sad-al-mutawalli, abu-said-ibn-yunus-al-sadafi, abu-zayd-al-dabusi, al-muayyad-radi-al-din-al-naysaburi, al-qadi-al-numan, al-sayyida-nafisa, bahaa-al-din-zuhayr, buri-ibn-ayyub, dik-al-jinn, hammad-ibn-abi-hanifa, ibn-abi-asrun, ibn-naqiya, khalid-ibn-khudash, mihyar-al-daylami, shabib-ibn-shayba, shaqiq-al-balkhi.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1709.** sweep continues through remaining trilingual drafts.
+
+### Batch 94 (4 Nov 2026, 20 records) — ibn-hisham-batch-5c-iv draft promotions (sweep worker)
+
+Promoted: abdullah-ibn-al-harith-sahmi, al-harith-ibn-al-harith-sahmi, al-harith-ibn-hatib-ibn-al-harith, al-saib-ibn-al-harith, bishr-ibn-al-harith-sahmi, fatima-bint-al-mujallal, fukayha-bint-yasar, hasana-umm-shurahbil, hatib-ibn-al-harith-jumahi, jabir-ibn-sufyan, junada-ibn-sufyan, mahmiyya-ibn-al-jaz, mamar-ibn-al-harith-sahmi, muhammad-ibn-hatib, qays-ibn-hudhafa, said-ibn-al-harith-sahmi, said-ibn-amr-tamimi, shurahbil-ibn-hasana, sufyan-ibn-mamar-jumahi, uthman-ibn-rabi.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1729.** sweep continues through remaining trilingual drafts.
