@@ -1,10 +1,11 @@
 id: concept/abandoning-prayer-takfir
 class: concept
 kind: legal
-label: { ar: "حكم تارك الصلاة", en: "The ruling on one who abandons prayer" }
+label: { ar: "حكم تارك الصلاة", en: "The ruling on one who abandons prayer", ur: "نماز چھوڑنے والے کا حکم" }
 summary:
   ar: "ينقل الصلابي عن علي بن أبي طالب قوله: «من لم يصل فهو كافر» {cite:sallabi-ali-vol1 p. 287}، وينقل الكتاب قولًا عن أحد الرواة (اسمه مشوش في المسح الضوئي) أن أصحاب النبي لم يروا شيئًا من الأعمال تركه كفر غير الصلاة {cite:sallabi-ali-vol1 p. 287}. وينقل عن النووي أن تارك الصلاة تكاسلاً مع اعتقاد وجوبها اختُلف فيه: فذهب مالك والشافعي والجماهير إلى أنه لا يكفر بل يفسق ويُستتاب، وذهبت جماعة من السلف إلى تكفيره ومنها رواية عن علي، وذهب أبو حنيفة وجماعة من أهل الكوفة إلى أنه لا يكفر ولا يُقتل بل يُعزَّر ويُحبس حتى يصلي {cite:sallabi-ali-vol1 p. 288}."
   en: "Al-Sallabi quotes Ali: whoever does not pray is an unbeliever. He then reports from al-Nawawi the dispute over one who neglects prayer while believing it obligatory: the majority (Malik, al-Shafi'i) hold him a sinner to be asked to repent, others hold him an unbeliever, a view ascribed to Ali; Abu Hanifa and the Kufans hold him not an unbeliever but to be disciplined {cite:sallabi-ali-vol1 p. 288}."
+  ur: "صلابی علی بن ابی طالب کا قول نقل کرتے ہیں کہ جو نماز نہ پڑھے وہ کافر ہے؛ پھر نووی سے اس شخص کے بارے میں اختلاف نقل کرتے ہیں جو نماز کو واجب مانتے ہوئے سستی سے چھوڑ دے: جمہور (مالک، شافعی) کے نزدیک وہ فاسق ہے جس سے توبہ کرائی جائے، دوسروں کے نزدیک کافر، اور یہ قول علی سے منسوب ہے؛ ابو حنیفہ اور اہلِ کوفہ کے نزدیک وہ کافر نہیں بلکہ اسے تعزیر دی جائے {cite:sallabi-ali-vol1 p. 288}۔ ابن بطہ الابانہ الکبریٰ میں تارکِ نماز کی تکفیر کی روایات جمع کرتے ہیں {cite:ibana-kubra-muti-iman p. 683}۔"
 wings: [ideas]
 themes: [worship-and-the-pillars, takfir-and-its-critics]
 periods: [period/rashidun]
@@ -12,7 +13,7 @@ regions: [global]
 relations:
   - { type: related_to, target: concept/takfir, sources: [source/sallabi-ali-vol1] }
   - { type: related_to, target: person/ali-ibn-abi-talib, sources: [source/sallabi-ali-vol1] }
-sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1, source/ibana-kubra-muti-iman]
 perspectives:
   - tradition: sunni
     id: sunni-majority
@@ -26,11 +27,22 @@ perspectives:
       ar: "جماعة من السلف، ومنهم رواية عن علي بن أبي طالب، وإحدى الروايتين عن أحمد بن حنبل، وبه قال عبد الله بن المبارك وإسحاق بن راهويه، ووجه لبعض أصحاب الشافعي، يرون تكفير تارك الصلاة {cite:sallabi-ali-vol1 p. 288}."
       en: "A group of early scholars, including a narration from Ali, one of Ahmad ibn Hanbal's two narrations, Ibn al-Mubarak and Ishaq ibn Rahawayh, and a view of some Shafi'i jurists, hold that the one who abandons prayer is an unbeliever {cite:sallabi-ali-vol1 p. 288}."
     sources: [source/sallabi-ali-vol1]
+  - tradition: sunni-hanbali
+    id: ibn-batta-ibana
+    standing: secondary
+    stance: { ar: "تارك الصلاة وجاحد الفرائض كافر خارج من الملة", en: "One who abandons prayer and denies the obligations is an unbeliever outside the religion", ur: "نماز چھوڑنے والا اور فرائض کا منکر کافر اور دین سے خارج ہے" }
+    summary:
+      ar: "يروي ابن بطة في الإبانة الكبرى أحاديث جابر وبريدة وأبي ذر وآثار عمر وعلي وابن مسعود وأبي الدرداء وابن المبارك في تارك الصلاة، ثم يقول إنها كلها تدل على تكفير تارك الصلاة وجاحد الفرائض وإخراجه من الملة، ويستدل بآيات تقرن الدين القيم والأخوة في الدين بإقامة الصلاة وإيتاء الزكاة على أن الإيمان قول وعمل."
+      en: "In al-Ibana al-Kubra Ibn Batta transmits the hadiths of Jabir, Burayda and Abu Dharr and the reports of Umar, Ali, Ibn Mas'ud, Abu al-Darda' and Ibn al-Mubarak on one who abandons prayer, then says that all of them show that one who abandons prayer and denies the obligations is an unbeliever removed from the religion; he argues from verses that tie the upright religion and brotherhood in religion to establishing prayer and giving zakat that faith is word and deed."
+      ur: "الابانہ الکبریٰ میں ابن بطہ نماز چھوڑنے والے کے بارے میں جابر، بریدہ اور ابو ذر کی احادیث اور عمر، علی، ابن مسعود، ابو الدرداء اور ابن المبارک کے آثار روایت کرتے ہیں، پھر کہتے ہیں کہ یہ سب نماز چھوڑنے والے اور فرائض کے منکر کی تکفیر اور دین سے اخراج پر دلالت کرتے ہیں؛ اور ان آیات سے، جو دینِ قیم اور دینی اخوت کو نماز قائم کرنے اور زکوٰۃ دینے سے جوڑتی ہیں، یہ استدلال کرتے ہیں کہ ایمان قول و عمل ہے۔"
+    holders: [person/ibn-batta-al-ukbari-ubayd-allah]
+    evidence: [{ ref: source/ibana-kubra-muti-iman, note: { ar: "الإبانة الكبرى، تحقيق رضا معطي ص 669–684", en: "al-Ibana al-Kubra, ed. Rida Mu'ti, pp. 669–684" } }]
+    sources: [source/ibana-kubra-muti-iman]
   - tradition: academic
     id: academic
     summary:
       ar: "لم يعرض الكتاب في هذا الموضع مرجعاً أكاديمياً حديثاً في تحقيق نسبة قول التكفير إلى علي؛ يحتاج إلى مرجع محدد (needs_source)."
       en: "The book does not set out a modern academic study of whether the takfir view is correctly ascribed to Ali; to be added from a named source (needs_source)."
     sources: []
-provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 287-288", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp251-300" }
-status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 287-288; contested" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 287-288; ibana-kubra-muti-iman pp. 669-684", generated_by: "Claude Code (claude-haiku-5-5), sallabi run; enriched by Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); enriched by Claude Code (OCR-harvest worker C); contested" }
