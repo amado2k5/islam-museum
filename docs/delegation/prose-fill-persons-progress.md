@@ -789,3 +789,9 @@ Promoted: abdullah-ibn-al-muttalib-ibn-azhar, abdullah-ibn-sufyan-makhzumi, aish
 Promoted: abu-al-fadl-sad-ibn-sharif, abu-ali-ibn-al-ikhwa, abu-rafi-al-fadl-ibn-hazm, al-bazzi, al-husayn-ibn-said-al-hamdani, al-malik-al-mansur-nasir-al-din-muhammad, al-malik-al-nasir-salah-al-din-dawud, al-salah-ibn-uthman, al-zaki-ibn-rawaha, asad-ibn-al-furat, batikin-al-armani, muhammad-ibn-abd-al-rahman-ibn-abi-bakr, qunbul, saad-al-dawla-sharif, sitt-al-sham.cite-check 15/15; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2149.** sweep continues through remaining trilingual drafts.
+
+### Batch 119 (4 Nov 2026, 15 records) — lib-wafayat-batch-12 draft promotions (sweep worker)
+
+Promoted: abu-bakr-al-khwarazmi, al-ablah, al-aziz-ghiyath-al-din-muhammad, al-najjar-imran, al-salih-salah-al-din-ahmad, ali-ibn-al-muhsin-al-tanukhi, anushirwan-ibn-khalid, diya-al-din-al-qasim, fatkin-al-turki, ibn-al-habbariyya, ibn-al-mandai, ibn-al-mustawfi, rabia-khatun-bint-ayyub, rajih-al-hilli, taj-al-din-yahya-al-dimashqi.cite-check 15/15; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2164.** sweep continues through remaining trilingual drafts.
