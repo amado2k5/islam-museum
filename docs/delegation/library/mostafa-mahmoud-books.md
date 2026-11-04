@@ -18,3 +18,10 @@
 
 ## Remaining book ids
 mm-shaytan-yahkum, mm-quran-kaen-hay (0379Pdf and alfirdwsiy2018 items byte-identical, md5 ee61cd78), mm-lughz-alhayat, mm-ra-ayt-allah, mm-lughz-almawt, mm-muhammad-sira, mm-ruh-wal-jasad, mm-israil-alnaziyya, mm-islam-fi-khandaq, mm-insan-wal-zill, mm-allah-wal-insan (more chapters), mm-anashid-alithm.
+
+## Batch 2 (worker G, 2026-11-04)
+
+- mm-lughz-almawt (item AAlexandrina-129548, Dar al-Awda, Jan 1972): source/mm-lughz-al-mawt-awda-1972; work/lughz-al-mawt with ar/en/ur prose. Printed = PDF − 2.
+- mm-muhammad-sira (item AAlexandrina-097921, Dar al-Ma'arif 5th ed., deposit 1985/4792): source/mm-muhammad-maarif-ed5; work/muhammad-muhawala-li-fahm-al-sira with ar/en/ur prose (about person/muhammad). Printed = PDF − 2.
+- person/mostafa-mahmoud: State Prize 1970 for «رجل تحت الصفر» and 1972 Beirut complete works (Muhammad ed. p. 98); two authored edges.
+- Lead: first-edition year of «محمد» not in the file.
