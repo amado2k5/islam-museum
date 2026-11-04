@@ -578,3 +578,9 @@ Leads (rejected):
 abu-nasr-al-balkhi	REJECT: ar: thin (141ch); ur: thin (129ch)
 
 **Lane total: 1589.** sweep continues through remaining trilingual drafts.
+
+### Batch 85 (4 Nov 2026, 21 records) — lib-shadharat-batch-126 draft promotions (sweep worker)
+
+Promoted: abd-al-wahid-ibn-idris-almohad, aisha-bint-al-mustanjid, al-hujja-atabakiyya, al-khuyi-ahmad, al-mundhiri-nabulsi, al-qastallani-ahmad, al-salih-ismail-ibn-al-adil, al-zaki-al-barzali, artuq-ibn-ali-mardin, asad-al-din-shirkuh-homs, asiya-al-maqdisiyya, badal-al-tabrizi, ibn-al-dabithi, ibn-al-husayri, ibn-al-rumiyya, ibn-al-witar, ibn-shufayn, imad-al-din-ibn-al-shaykh, jamal-al-din-ibn-jarir, kamal-al-din-ibn-yunus, sayf-al-din-ibn-taymiyya.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1610.** sweep continues through remaining trilingual drafts.
