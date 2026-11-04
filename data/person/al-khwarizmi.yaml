@@ -25,9 +25,10 @@ wings: [people]
 periods: [period/abbasid-early]
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 519"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-21
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
 sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi]
 education:
   did_you_know:
@@ -38,7 +39,9 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
 external_ids: { wikidata: Q9038 }
 kids:
   ar: "الخوارزمي عالم بيت الحكمة، أسس علم الجبر وكتب عن الحساب والخريطة القديمة للعالم."

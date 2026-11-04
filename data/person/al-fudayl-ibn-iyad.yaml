@@ -8,9 +8,12 @@ gender: male
 wings: [people]
 provenance:
   layer: own-research
-  source: "muruj al-dhahab; assabile al-mubdioune ep16 lecture (2026-10 transcription)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-78
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
 external_ids: { wikidata: "Q3063361" }
 sources: [source/muruj-al-dhahab, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan, source/assabile-abu-ishaq-alheweny]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
