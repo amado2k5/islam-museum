@@ -1,0 +1,23 @@
+id: building/verinag-garden
+class: building
+kind: garden
+label: { ar: "بستان ويريناغ (كشمير)", en: "Verinag garden, Kashmir", ur: "ویری ناگ باغ (کشمیر)" }
+summary:
+  ar: "بستان مغولي عند نبع في حوض مثمن جنوب شرقي سرينغار، وُضع مخططه سنة 1609م، تخرج منه قناة مستقيمة نحو ثلاثمئة متر {cite:brookes-gardens-of-paradise-1987 p.138} {cite:brookes-gardens-of-paradise-1987 p.139}."
+  en: "A Mughal garden at a spring rising in an octagonal pool south-east of Srinagar, laid out in 1609, from which a straight canal runs some 300 metres {cite:brookes-gardens-of-paradise-1987 p.138} {cite:brookes-gardens-of-paradise-1987 p.139}."
+wings: [objects, place]
+themes: [architecture, water-and-animals]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+built: { edtf: "1609", calendar: gregorian, precision: year, status: historical, sources: [source/brookes-gardens-of-paradise-1987], note: "Brookes, plan caption: laid out in 1609" }
+patron: person/jahangir-mughal
+relations:
+  - { type: exemplifies, target: concept/chaharbagh, sources: [source/brookes-gardens-of-paradise-1987] }
+sources: [source/brookes-gardens-of-paradise-1987]
+provenance:
+  layer: own-research
+  source: "Brookes 1987, printed pp. 138-139"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

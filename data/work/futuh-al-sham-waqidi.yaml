@@ -1,0 +1,32 @@
+id: work/futuh-al-sham-waqidi
+class: work
+kind: book
+label: { ar: "فتوح الشام (المنسوب إلى الواقدي)", en: "Futuh al-Sham (ascribed to al-Waqidi)", ur: "فتوح الشام (واقدی سے منسوب)" }
+summary:
+  ar: "كتاب في فتوح الشام ومصر والجزيرة وأرمينية والعراق، يُطبع باسم أبي عبد الله محمد بن عمر الواقدي (ت 207هـ)، يبدأ بكتب أبي بكر إلى أهل اليمن ومكة وينتهي بالخبر الطويل في فتح البهنسا بصعيد مصر {cite:futuh-al-sham-ilmiyya-1997-v1 p.5} {cite:futuh-al-sham-ilmiyya-1997-v2 p.292}. يسوق الأخبار بأسانيد مجموعة وحوار وشعر ورسائل، ونسبته إلى الواقدي محل نظر: ففي متنه نقول عن المسعودي والطبري وابن خلكان وذي النون المصري، وهم بعد الواقدي {cite:futuh-al-sham-ilmiyya-1997-v2 p.200} {cite:futuh-al-sham-ilmiyya-1997-v2 p.203} {cite:futuh-al-sham-ilmiyya-1997-v2 p.291}؛ ويرى بحث أكاديمي حديث أن أصله فتوح الواقدي ثم أعيدت صياغته في القرنين السادس والسابع للهجرة {cite:dehghani-farsani-futuh-al-sham-thesis abstract}."
+  en: "A book on the conquests of Syria, Egypt, the Jazira, Armenia and Iraq, printed under the name of Abu Abd Allah Muhammad ibn Umar al-Waqidi (d. 207 AH); it opens with Abu Bakr's letters to the people of Yemen and Mecca and closes with a long account of the conquest of al-Bahnasa in Upper Egypt. It tells its story through collective chains of transmission, dialogue, verse and letters, and its ascription to al-Waqidi is questioned: the text quotes al-Mas'udi, al-Tabari, Ibn Khallikan and Dhu al-Nun al-Misri, all later than al-Waqidi, and a recent academic study holds that it is at root al-Waqidi's Futuh reworked in the 12th-13th centuries CE."
+authors: [person/al-waqidi]
+language: language/arabic
+genre: [history]
+wings: [words, time]
+themes: [history-writing-and-social-thought, conquest-and-its-debates, literature]
+periods: [period/rashidun]
+regions: [levant-iraq, egypt-nile]
+structure: "Vol. 1 (pp. 5-306): the mustering of the troops and Abu Bakr's charges to the commanders (pp. 5-21); Amr ibn al-As in Palestine; Khalid ibn al-Walid's march to Syria (p. 22); the battles around Damascus, with Khawla bint al-Azwar and the 'heroism of the women' (pp. 32-52); Ajnadayn (p. 55); the siege and conquest of Damascus and Abu Ubayda's appointment (pp. 62-99); Homs, Qinnasrin and al-Rastan (pp. 99-147); Yarmuk with Jabala ibn al-Ayham (pp. 148-218); Jerusalem (pp. 219-236); Aleppo and its citadels (pp. 237-266); Azaz (pp. 267-306). Vol. 2 (pp. 3-292): Marj al-Qaba'il beyond the passes; Caesarea, Tyre, Acre and Tripoli; Egypt, Maryut, Alexandria, Damietta, Tinnis and al-Farama (pp. 32-88); Diyar Bakr, Rabi'a, Qarqisiya, Mardin, Edessa and Harran, Ra's al-Ayn, Dara, Mayyafariqin and Amid, Jabal al-Judi, Bitlis, Armenia and Akhlat (pp. 88-169); Iraq, al-Khawarnaq, al-Hira, al-Qadisiyya, the Iwan and Nishapur (pp. 170-197); al-Bahnasa and Ahnas, its cemetery, the sojourn of Jesus there and its conquest (pp. 198-292). Contents: vol. 1 pp. 309-310, vol. 2 pp. 295-296."
+editions:
+  - "Beirut, Dar al-Kutub al-Ilmiyya (Muhammad Ali Baydun), 1st ed. 1417/1997, 2 vols, established and corrected by Abd al-Latif Abd al-Rahman (source/futuh-al-sham-ilmiyya-1997-v1, source/futuh-al-sham-ilmiyya-1997-v2)"
+relations:
+  - { type: about, target: event/conquest-of-jerusalem, sources: [source/futuh-al-sham-ilmiyya-1997-v1] }
+  - { type: about, target: event/conquest-of-al-bahnasa, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: about, target: person/khawla-bint-al-azwar, sources: [source/futuh-al-sham-ilmiyya-1997-v1] }
+  - { type: mentions, target: person/al-masudi, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: mentions, target: person/ibn-khallikan, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: mentions, target: person/dhu-al-nun-al-misri, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+sources: [source/futuh-al-sham-ilmiyya-1997-v1, source/futuh-al-sham-ilmiyya-1997-v2, source/dehghani-farsani-futuh-al-sham-thesis, source/tarikh-khulafa-minhaj-1434]
+provenance:
+  layer: own-research
+  source: "source/futuh-al-sham-ilmiyya-1997-v1 pp. 1-5, 40-50, 219-236, 306-310; source/futuh-al-sham-ilmiyya-1997-v2 pp. 1-3, 198-208, 283-296; source/dehghani-farsani-futuh-al-sham-thesis abstract"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

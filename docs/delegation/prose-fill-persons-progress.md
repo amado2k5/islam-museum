@@ -717,3 +717,15 @@ Promoted: abd-al-ghafir-al-farisi, abu-al-ala-ibn-zuhr, abu-khazim-ibn-abi-yala,
 Promoted: abd-al-ghani-ibn-nuqa, abd-al-mughith-al-harbi, abd-al-wahhab-al-shirazi, abu-al-fath-ibn-al-taawidhi, abu-al-suud-al-harimi, abu-madyan, abu-talib-al-karkhi-muallim, asad-ibn-al-matran, hayat-ibn-qays, ibn-al-mani, ibn-auf-al-zuhri, ismat-al-din-khatun, izz-al-din-abd-al-hadi, jakir-al-zahid, nasir-al-din-muhammad-ibn-shirkuh, nasr-ibn-mansur-muqri, qizil-arslan, wajih-al-din-qazwini.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1956.** sweep continues through remaining trilingual drafts.
+
+### Batch 107 (4 Nov 2026, 18 records) — lib-tabaqat-fuqaha-batch-6 draft promotions (sweep worker)
+
+Promoted: abd-al-hamid-kabd, abd-al-malik-ibn-adi-al-istarabadhi, abu-al-abbas-ibn-al-qass-al-tabari, abu-al-tayyib-ibn-salama, abu-ali-ibn-khayran, abu-bakr-ibn-al-mundhir-al-nisaburi, abu-bakr-muhammad-ibn-abd-allah-al-sayrafi, abu-hafs-ibn-al-wakil, abu-jafar-al-tirmidhi-muhammad-ibn-ahmad, abu-ubayd-ibn-harawayh, ahmad-ibn-umar-ibn-surayj, ahmad-ibn-yahya-al-mutakallim, al-zubayr-ibn-ahmad-al-basri, harith-al-naqqal, husayn-al-qallas, mansur-ibn-ismail-al-tamimi, muhammad-ibn-nasr-al-marwazi, zakariya-ibn-yahya-al-sajji.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1974.** sweep continues through remaining trilingual drafts.
+
+### Batch 108 (4 Nov 2026, 18 records) — lib-shadharat-batch-131 draft promotions (sweep worker)
+
+Promoted: abu-al-rabi-al-asqalani, al-kamal-al-darir, al-muin-al-qurashi, al-mursi-lawraqi, al-nujib-al-asqalani, al-rasani, al-sinaki, al-zayn-al-hafizi, badr-al-din-al-sinjari, bulos-al-habis, ibn-al-raffa, ibn-al-ustadh-aleppo, ibn-masdi, ibn-shuayb-al-siqilli, ibrahim-khatib-al-jabal, ismail-al-kurani, izz-al-din-al-maqdisi, nasir-al-din-al-qaymuri.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1992.** sweep continues through remaining trilingual drafts.

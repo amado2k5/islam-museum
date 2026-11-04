@@ -1,0 +1,23 @@
+id: person/zuhuri
+class: person
+label: { ar: "ظهوري (شاعر بيجاپور)", en: "Zuhuri (poet laureate of Bijapur)", ur: "ظہوری (بیجاپور کے ملک الشعرا)" }
+summary:
+  ar: "شاعر فارسي من بلاط الشاه عباس، قدم الدكن سنة 988هـ/1580–1581م فخدم سلاطين أحمدنگر ثم صار شاعر بلاط إبراهيم عادل شاه الثاني في بيجاپور، وصاحب «سه نثر» {cite:zebrowski-deccani-painting-1983 p. 67}."
+  en: "Persian poet from the court of Shah Abbas who came to the Deccan in 988 AH/1580–81, wrote for the sultans of Ahmadnagar and then became poet laureate of Ibrahim Adil Shah II at Bijapur; author of the Seh Nasr {cite:zebrowski-deccani-painting-1983 p. 67}."
+  ur: "شاہ عباس کے دربار کے فارسی شاعر جو 988ھ/1580–81ء میں دکن آئے، احمد نگر کے سلاطین کے لیے لکھا اور پھر بیجاپور میں ابراہیم عادل شاہ دوم کے ملک الشعرا بنے؛ سہ نثر کے مصنف {cite:zebrowski-deccani-painting-1983 p. 67}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [south-asia, persia-central-asia]
+gender: male
+roles: [poet]
+relations:
+  - { type: patronized_by, target: person/ibrahim-adil-shah-ii, sources: [source/zebrowski-deccani-painting-1983] }
+  - { type: lived_in, target: place/bijapur, sources: [source/zebrowski-deccani-painting-1983] }
+sources: [source/zebrowski-deccani-painting-1983]
+provenance:
+  layer: own-research
+  source: "source/zebrowski-deccani-painting-1983 scan pp. 67, 68, 155"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

@@ -1,14 +1,17 @@
 id: person/abd-al-rahim-al-iraqi
 class: person
-aliases: [person/al-iraqi-zayn-al-din]   # merged from the Kashf al-Zunun record (now a section); the id still resolves
+aliases: [person/al-iraqi-zayn-al-din]   # merged from the Kashf al-Zunun record (now a section); duplicate file removed 4 Nov 2026, the id still resolves
 label:
   ar: "عبد الرحيم العراقي"
   en: "Abd al-Rahim al-Iraqi"
-roles: [scholar]
+roles: [hadith-scholar, scholar]
 gender: male
+names:
+  - { kind: full, lang: ar, value: "زين الدين أبو الفضل عبد الرحيم بن الحسين العراقي" }
 summary:
-  ar: "بطاقة أولية لعبد الرحيم بن الحسين العراقي، حافظ القرن الخامس عشر وشيخ ابن حجر صاحب ألفية الحديث و«التقييد والإيضاح»، توفي سنة ١٤٠٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahim ibn al-Husayn al-Iraqi, the fifteenth-century hadith master and teacher of Ibn Hajar author of the Alfiyya and al-Taqyid wa-l-Idah, d. 1404; the biographical entry is not yet checked on the page."
+  ar: "الحافظ زين الدين أبو الفضل عبد الرحيم بن الحسين العراقي، كردي الأصل من رازنان، وُلد في 21 جمادى الأولى سنة 725 بالمنشية بين مصر والقاهرة {cite:daw-lami-jil-1992 4/171}؛ صاحب الألفية في علوم الحديث وشرحها و«المغني» في تخريج أحاديث الإحياء {cite:daw-lami-jil-1992 4/173}، ولي قضاء المدينة وخطابتها سنة 788 وابتدأ الإملاء بالقاهرة سنة 795 {cite:daw-lami-jil-1992 4/174}، ومات بالقاهرة في شعبان سنة 806 {cite:daw-lami-jil-1992 4/177}."
+  en: "The hadith master Zayn al-Din Abu al-Fadl 'Abd al-Rahim ibn al-Husayn al-'Iraqi, of Kurdish origin from Raznan, born 21 Jumada I 725 at al-Munshiyya between Fustat and Cairo {cite:daw-lami-jil-1992 4/171}; author of the Alfiyya on the hadith sciences with its commentary and of al-Mughni on the hadiths of the Ihya' {cite:daw-lami-jil-1992 4/173}; judge and preacher of Medina from 788 and dictation teacher in Cairo from 795 {cite:daw-lami-jil-1992 4/174}; died in Cairo in Sha'ban 806 {cite:daw-lami-jil-1992 4/177}."
+born: { edtf: "1325-05-05~", hijri: "0725-05-21", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد في حادي عشري جمادى الأولى سنة 725 بالمنشية {cite:daw-lami-jil-1992 4/171}؛ التحويل مشتق بالحساب الجدولي.", sources: [source/daw-lami-jil-1992] }
 wings: [people]
 regions: [levant-iraq, egypt-nile]
 periods: [period/mongol-post-mongol]
@@ -18,12 +21,13 @@ external_ids:
   wikidata: Q4664581
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0026, lib-daw-lami-batch-1-2026-10-31
+  source: "الضوء اللامع للسخاوي (ط دار الجيل 1992) 4/171-177؛ كشف الظنون (ط الفرقان) ج1 ص222؛ شذرات الذهب ص63؛ merged with person/al-iraqi-zayn-al-din (run lib-kashf-zunun-batch-3)"
+  generated_by: "Claude Code (OCR-harvest worker A); merge of Devin records (runs wikidata-import-0026, lib-daw-lami-batch-1-2026-10-31, lib-kashf-zunun-batch-3)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
   review: published
-  completeness: 1
+  completeness: 2
+  generated_by: "Claude Code (OCR-harvest worker A); merge of Devin records"
 relations:
   - { type: authored, target: work/alfiyya-al-iraqi, sources: [source/kashf-zunun-furqan] }
