@@ -1,0 +1,37 @@
+id: event/khurasani-ghazis-at-rayy-355
+class: event
+kind: revolt
+label: { ar: "فتنة غزاة خراسان بالري سنة 355هـ", en: "The Khurasani ghazis at Rayy, 355 AH", ur: "355ھ میں رے میں خراسانی غازیوں کا فتنہ" }
+summary:
+  ar: "قدم الري سنة 355هـ جمع من خراسان يُحزرون عشرين ألفاً يُظهرون أنهم غزاة إلى ثغور الروم، فطالبوا ركن الدولة بخراج البلدان، وكفّروا الديلم، ثم قاتلوهم في رمضان وهجموا على المدينة يوم الأربعاء منتصف رمضان، حتى ردّهم ركن الدولة بحيلة أوهم فيها جنده بوصول المدد؛ رواه مسكويه شاهداً، وكان معه خزانة كتب ابن العميد فسلمت من النهب {cite:tajarib-al-umam-surush-v6 p.259} {cite:tajarib-al-umam-surush-v6 p.263} {cite:tajarib-al-umam-surush-v6 p.264} {cite:tajarib-al-umam-surush-v6 p.265} {cite:tajarib-al-umam-surush-v6 p.262}."
+  en: "In 355 AH a host from Khurasan, estimated at twenty thousand and professing to be ghazis bound for the Byzantine frontier, came to Rayy, demanded the land-tax of the provinces from Rukn al-Dawla, denounced the Daylamis as unbelievers, then fought them in Ramadan and stormed the city on Wednesday mid-Ramadan, until Rukn al-Dawla drove them off with a ruse that made his troops think reinforcements had arrived. Miskawayh tells it as an eyewitness; Ibn al-Amid's library was in his keeping and escaped the plunder."
+wings: [time, place]
+themes: [civil-wars-and-revolts, libraries-paper-and-the-book, history-writing-and-social-thought]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0966-09-04", hijri: "0355-09-15", calendar: julian, precision: day, status: historical, derived: true, note: "«يوم الأربعاء للنصف من شهر رمضان» من سنة 355هـ (تجارب الأمم 6/263)؛ التحويل الميلادي مشتق تقريبي.", sources: [source/tajarib-al-umam-surush-v6] }
+relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/tajarib-al-umam-surush-v6] }
+sides:
+  - label: { ar: "ركن الدولة والديلم", en: "Rukn al-Dawla and the Daylamis" }
+    commanders: [person/rukn-al-dawla, person/ibn-al-umayd]
+    strength:
+      value: 800
+      status: historical
+      note: "كان ركن الدولة في خمسمائة من قواده وخواصه ونحو ثلاثمائة من الغلمان، وباقي عسكره متفرق في ولاياته (6/263)"
+      sources: [source/tajarib-al-umam-surush-v6]
+  - label: { ar: "غزاة خراسان", en: "The Khurasani ghazis" }
+    strength:
+      value: 20000
+      status: historical
+      note: "«يُحزرون عشرين ألفاً»، ولكل أهل بلد منهم رئيس (6/259)"
+      sources: [source/tajarib-al-umam-surush-v6]
+sources: [source/tajarib-al-umam-surush-v6]
+provenance:
+  layer: own-research
+  source: "source/tajarib-al-umam-surush-v6 pp. 259-266"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }
