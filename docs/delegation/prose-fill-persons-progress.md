@@ -693,3 +693,9 @@ Leads (rejected):
 mahmud-ibn-buri	REJECT: ar: thin (147ch)
 
 **Lane total: 1883.** sweep continues through remaining trilingual drafts.
+
+### Batch 103 (4 Nov 2026, 19 records) — lib-shadharat-batch-130 draft promotions (sweep worker)
+
+Promoted: abu-ali-lahiq-al-artahi, abu-bakr-ibn-qawam, al-bakharzi-said, al-kamil-mayyafariqin, al-malik-al-said-hasan, al-matiji, al-muazzam-turanshah-al-kabir, al-muhibb-mufid-al-jabal, al-salih-ismail-ibn-lulu, husam-al-din-al-hadhabani, ibn-al-ajami, ibn-darbas, ibn-sana-al-dawla, ibn-sayyid-al-nas-al-akbar, kitbugha, muhammad-al-yunini, muhammad-ibn-abd-al-hadi, sahib-sahyun-muzaffar, sharaf-al-din-al-maqdisi.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1902.** sweep continues through remaining trilingual drafts.
