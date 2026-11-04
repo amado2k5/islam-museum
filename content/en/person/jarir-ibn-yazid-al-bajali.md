@@ -2,11 +2,7 @@
 id: person/jarir-ibn-yazid-al-bajali
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 27"]
 ---
-
 ## Overview
-Jarir ibn Yazid al-Bajali, whom al-Mas'udi describes as the shrewd man of his age. Al-Mansur sent him to Abu Muslim when Abu Muslim resolved to oppose him and set out for Khurasan. {cite:muruj-al-dhahab p.280}
-
-## The message to Abu Muslim
-Jarir told him that he could not be sure it would not be said that he had sought vengeance for a people and then broken their pledge. Abu Muslim wished to turn back, but Malik ibn al-Haytham forbade him. Abu Muslim said that he had been tested with Iblis and had never been tested with the like of this, meaning Jariri. Jarir kept at him until he brought him before al-Mansur. {cite:muruj-al-dhahab p.280}
+Jarir ibn Yazid al-Bajali, the arch-schemer of his age; al-Mansur sent him to Abu Muslim who had resolved to renounce him and was moving toward Khurasan. Jarir warned 'I am not safe from it being said that you sought vengeance for a people then broke their allegiance', and when Abu Muslim wavered Malik ibn al-Haytham forbade his return; Abu Muslim said 'I have been afflicted with Iblis, but never with his like', meaning al-Jariri — who did not leave him until he brought him back to al-Mansur.

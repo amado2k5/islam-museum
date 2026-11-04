@@ -193,3 +193,9 @@ Written: ahmad-ibn-israil, al-hurr-ibn-yazid, bugha-al-shirabi, hujr-ibn-adi, ru
 Muntazam sweep: ~110 residual rows are zero-hit or incidental (sampled — mostly isnad/annalistic mentions); logged as leads en bloc.
 
 **Lane total: 308.** Remaining cited thin clusters: tabari ~32, muruj ~296, ansab 17, tabaqat 18.
+
+### Batch 27 (3 Nov 2026, 15 records, ar+en+ur) — Muruj al-dhahab cluster opens
+
+Written: abd-al-wahid-ibn-al-muwaffaq, ismail-ibn-bulbul, al-dawlabi, ibn-aaisha-al-qurashi, musa-ibn-jafar-al-kazim, abu-al-abbas-al-nashi, muhammad-ibn-nasr-ibn-bassam, al-battani, musab-ibn-al-zubayr, bishr-ibn-marwan, miskin-al-madani, abu-al-anbas-al-saymari, abdallah-ibn-yahya-al-kindi, jarir-ibn-yazid-al-bajali, taabbata-sharran. cite-check 15/15; validate 0 errors; 317 tests; coverage regenerated.
+
+**Lane total: 323.** ~235 muruj cited thin rows remain; then tabari ~22, ansab 17, tabaqat 18.
