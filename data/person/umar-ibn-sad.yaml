@@ -13,6 +13,9 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 341–342"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-8
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 198–199 (entry 6116)"
 external_ids: { wikidata: "Q618360" }
-sources: [source/tarikh-khulafa-minhaj-1434]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+died: { hijri: "0065", edtf: "0685", calendar: julian, precision: year, status: tradition, derived: true, note: "خليفة، كما ينقله الذهبي: قتله المختار سنة خمس وستين {cite:mizan-itidal-bijawi-v3 p. 199}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
+sensitivity: contested
+sources: [source/tarikh-khulafa-minhaj-1434, source/mizan-itidal-bijawi-v3]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker F)" }
