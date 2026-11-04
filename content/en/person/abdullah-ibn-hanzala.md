@@ -2,11 +2,7 @@
 id: person/abdullah-ibn-hanzala
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 28"]
 ---
 ## Overview
-Abd Allah ibn Hanzala, known as Ibn al-Ghasil, the leader of the people of Medina when they deposed [[person/yazid-ibn-muawiya|Yazid]] in 63 AH. {cite:tarikh-khulafa-minhaj-1434 p. 344-345}
-
-Al-Suyuti relates from him that he justified the deposition by what had reached him of Yazid's conduct; this is a statement attributed to him, not the museum's judgement. {cite:tarikh-khulafa-minhaj-1434 p. 344-345}
-
-Al-Mas'udi says that he went out, together with Abd Allah ibn Muti' al-Adawi, against Musrif ibn Uqba on the day of al-Harra. {cite:muruj-al-dhahab p. 67}
+Abd Allah ibn Hanzala, leader of the Medinese renunciation of Yazid in 63 AH; he said 'By God we did not rise against Yazid until we feared being stoned from heaven — a man who marries the mothers, daughters and sisters of his children, drinks wine and abandons prayer.'

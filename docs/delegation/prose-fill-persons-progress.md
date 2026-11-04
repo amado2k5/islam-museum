@@ -199,3 +199,9 @@ Muntazam sweep: ~110 residual rows are zero-hit or incidental (sampled — mostl
 Written: abd-al-wahid-ibn-al-muwaffaq, ismail-ibn-bulbul, al-dawlabi, ibn-aaisha-al-qurashi, musa-ibn-jafar-al-kazim, abu-al-abbas-al-nashi, muhammad-ibn-nasr-ibn-bassam, al-battani, musab-ibn-al-zubayr, bishr-ibn-marwan, miskin-al-madani, abu-al-anbas-al-saymari, abdallah-ibn-yahya-al-kindi, jarir-ibn-yazid-al-bajali, taabbata-sharran. cite-check 15/15; validate 0 errors; 317 tests; coverage regenerated.
 
 **Lane total: 323.** ~235 muruj cited thin rows remain; then tabari ~22, ansab 17, tabaqat 18.
+
+### Batch 28 (3 Nov 2026, 15 records, ar+en+ur) — Muruj cluster 2
+
+Written: abdullah-ibn-hanzala, ghazala-al-kharijiyya, said-ibn-salih-al-hajib, muhammad-ibn-ali-al-jawad, abu-al-azhar-al-muhallabi, al-dayzan-ibn-muawiya, al-kumayt-ibn-zayd, al-ahmar-al-nahwi, atika-bint-yazid, jamil-ibn-kab-al-thalabi, yamut-ibn-al-muzarri, al-shari-abu-al-amud, bint-al-numan-ibn-bashir, al-shaybaniyya-bint-hani, umayr-ibn-dabi. cite-check 15/15; validate 0 errors; 317 tests; coverage regenerated.
+
+**Lane total: 338.** ~220 muruj cited thin rows remain; then tabari ~22, ansab 17, tabaqat 18.
