@@ -3,7 +3,7 @@ id: question/can-prophets-commit-minor-sins
 lang: en
 source_lang: ar
 translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"]
-provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/al-shifa-ilmiyya-shumunni PDF pp. 527–540" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker E); section on al-Razi by Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/al-shifa-ilmiyya-shumunni PDF pp. 527–540; source/mafatih-al-ghayb-dar-al-fikr-1401-j3 PDF pp. 7–11" }
 ---
 ## Short answer
 In [[work/al-shifa-bi-tarif-huquq-al-mustafa|al-Shifa]], [[person/al-qadi-iyyad|Qadi Iyad]] reports the Muslims' consensus that prophets are protected from indecencies and ruinous grave sins, and from concealing the message or falling short in conveying it; on minor sins he reports three views — possible, suspended judgement, and protected — and chooses the last. {cite:al-shifa-ilmiyya-shumunni p.527}
@@ -28,3 +28,6 @@ Muslims agree that prophets do not commit big sins. Scholars differed about smal
 
 ## Research notes
 - All three views lie within the Sunni frame and are given here as Iyad reports them; no academic view, no other school's position (such as the Imami doctrine of complete protection) and none of al-Tabari's own texts have been added yet from their sources.
+
+## In al-Razi's Mafatih al-Ghayb
+Commenting on [[passage/quran-2-36|al-Baqara 36]], [[person/fakhr-al-din-al-razi|Fakhr al-Din al-Razi]] sorts the disagreement on the prophets' protection into four areas: belief, conveying the message, rulings and fatwas, and conduct. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.7} He reports that believing unbelief is impossible for them according to most of the community; that the community agrees they are protected from lying or distortion in conveying the message deliberately, while some allowed it by inadvertence; and that all agree they cannot err deliberately in a fatwa, differing over inadvertence. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.7} On conduct he gives five views: grave sins possible deliberately, which he ascribes to the Hashwiyya; minor sins possible deliberately except repellent ones, the view of most Mu'tazilis; neither deliberately but both by mistaken interpretation, al-Jubba'i's view; sins only by inadvertence and error, for which they are still held to account; and no sin at all, which he ascribes to the 'Rafida', his term for the Imami Shi'a. On when protection begins he gives three views, among them that it begins with prophethood and not before, the view of most of his own school. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.8} He then chooses that no sin came from them at all during prophethood, giving sixteen arguments, and reads his opponents' proofs, such as the story of Adam, as leaving what was better. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.8} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.9} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.10} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.11}
