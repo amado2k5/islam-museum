@@ -395,3 +395,5 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-04 | person/fatima | copilot | claimed
 2026-11-04 | person/shihab-al-din-ghuri | copilot | claimed
 2026-11-04 | person/abdullah-ibn-abbas | copilot | claimed
+
+2026-11-04 Copilot checkpoint: all forty new subjects are implemented (303 stops) and pass local automated validation, citation checks, tests, full build and 120 production-route browser checks. Claims remain open because five existing other-owner Explorer images fail the people check; see owner issue [#3350](https://github.com/amado2k5/islam-museum/issues/3350) and the exact paths in `DESIGN.md`. No batch push or merge is claimed.

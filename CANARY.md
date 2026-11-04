@@ -25,6 +25,9 @@ open a new block on top with the new version and today's date.
 ### Fixed
 - **Five Explorer fallback scenes**: ten new adult/kids landscape backdrops prevent five legacy record illustrations with figures from being selected at those stops. Every new image was inspected at full size; the legacy files and other owners' Explorer assets were left unchanged.
 
+### Tests
+- **Forty-story Explorer checkpoint**: all 120 built Arabic, English and Urdu routes have been checked in the browser, including desktop/mobile controls and the new Fadak kids backdrop. Local validation, citation checks, 318 tests and the complete site build pass; publication remains blocked by the five shared-image defects tracked in issue #3350.
+
 ### Data
 - **Clearer subject metadata**: Urdu labels and summaries added to forty existing records, with recorded localization provenance. Missing provenance restored on seven places and one migration event without changing existing event dates or relationships.
 - **Honest Explorer image status**: the forty-story batch remains unpublished pending replacement of five shared backdrops that contain figures. The owner request identifies each file and affected story; a prompt or an earlier screening claim is not treated as proof that an image is safe.
