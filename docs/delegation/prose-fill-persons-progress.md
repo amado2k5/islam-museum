@@ -584,3 +584,9 @@ abu-nasr-al-balkhi	REJECT: ar: thin (141ch); ur: thin (129ch)
 Promoted: abd-al-wahid-ibn-idris-almohad, aisha-bint-al-mustanjid, al-hujja-atabakiyya, al-khuyi-ahmad, al-mundhiri-nabulsi, al-qastallani-ahmad, al-salih-ismail-ibn-al-adil, al-zaki-al-barzali, artuq-ibn-ali-mardin, asad-al-din-shirkuh-homs, asiya-al-maqdisiyya, badal-al-tabrizi, ibn-al-dabithi, ibn-al-husayri, ibn-al-rumiyya, ibn-al-witar, ibn-shufayn, imad-al-din-ibn-al-shaykh, jamal-al-din-ibn-jarir, kamal-al-din-ibn-yunus, sayf-al-din-ibn-taymiyya.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1610.** sweep continues through remaining trilingual drafts.
+
+### Batch 86 (4 Nov 2026, 21 records) — lib-tabaqat-fuqaha-batch-8 draft promotions (sweep worker)
+
+Promoted: abu-abd-allah-al-hannati-al-tabari, abu-abd-allah-al-khatan, abu-ahmad-ibn-abi-muslim-al-faradi, abu-al-fadl-muhammad-ibn-ibrahim-al-fasawi, abu-al-fayyad-muhammad-ibn-al-husayn-ibn-al-muntasir, abu-al-hasan-al-shirji-al-faradi, abu-al-hasan-muhammad-ibn-yahya-ibn-saraqa, abu-al-husayn-ahmad-ibn-muhammad-al-kazaruni, abu-al-husayn-al-ardabili, abu-al-husayn-al-jallabi-al-tabari, abu-al-husayn-ibn-al-labban-al-basri, abu-al-tayyib-sahl-ibn-muhammad-al-suluki, abu-ali-al-hasan-ibn-hamkan-al-hamadhani, abu-bakr-ibn-al-daqqaq, abu-bakr-ibn-lal-al-hamadhani, abu-bishr-ahmad-ibn-muhammad-al-harawi-al-alim, abu-muhammad-abd-allah-ibn-muhammad-al-khwarazmi-al-bafi, abu-muhammad-al-istakhri-qadi-fasa, abu-nasr-ibn-al-hannat-al-shirazi, abu-said-ismail-ibn-ahmad-al-ismaili, hasan-ibn-ahmad-al-haddad-al-basri.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1631.** sweep continues through remaining trilingual drafts.
