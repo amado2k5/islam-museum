@@ -1,0 +1,24 @@
+id: event/met-excavations-at-nishapur
+class: event
+kind: discovery
+label: { ar: "حفريات متحف المتروبوليتان في نيسابور (1935–1940، 1947)", en: "The Metropolitan Museum's excavations at Nishapur (1935–1940, 1947)", ur: "نیشاپور میں میٹروپولیٹن میوزیم کی کھدائیاں (1935–1940، 1947)" }
+summary:
+  ar: "حفريات البعثة الإيرانية لمتحف المتروبوليتان في مدينة نيسابور القديمة بخراسان، بدأت بحفريات تجريبية سنة 1935 واستمرت إلى 1940 ثم موسم 1947، وكشفت بيوتًا ومصليات ومجمعًا رسميًا في تبه مدرسة ونقودًا كثيرة وأفران فخار، ولم تجد أثرًا لنيسابور الساسانية {cite:wilkinson-nishapur-pottery p. 24} {cite:wilkinson-nishapur-pottery p. 25} {cite:wilkinson-nishapur-pottery p. 27}."
+  en: "The excavations of the Metropolitan Museum's Iranian Expedition at ancient Nishapur in Khurasan, from test digs in 1935 to 1940 and a season in 1947, which uncovered houses, prayer halls, an official complex at Tepe Madraseh, many coins and pottery kilns, but no trace of Sasanian Nishapur {cite:wilkinson-nishapur-pottery p. 24} {cite:wilkinson-nishapur-pottery p. 25} {cite:wilkinson-nishapur-pottery p. 27}."
+  ur: "خراسان کے قدیم شہر نیشاپور میں میٹروپولیٹن میوزیم کی ایرانی مہم کی کھدائیاں، 1935ء کی آزمائشی کھدائی سے 1940ء تک اور 1947ء کا موسم؛ مکانات، نماز گاہیں، تپہ مدرسہ کا سرکاری احاطہ، بہت سے سکے اور بھٹیاں ملیں، مگر ساسانی نیشاپور کا نشان نہ ملا {cite:wilkinson-nishapur-pottery p. 24} {cite:wilkinson-nishapur-pottery p. 27}."
+wings: [place, objects, today]
+themes: [cities, architecture]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1935", calendar: gregorian, precision: year, status: historical }
+  end: { edtf: "1947", calendar: gregorian, precision: year, status: historical }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/wilkinson-nishapur-pottery] }
+sources: [source/wilkinson-nishapur-pottery]
+provenance:
+  layer: own-research
+  source: "source/wilkinson-nishapur-pottery introduction scan pp. 24–34"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

@@ -18,7 +18,9 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w09-60
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 577–579 (entry 7664)"
+died: { hijri: "0266-12", edtf: "0880", calendar: julian, precision: month, status: tradition, derived: true, note: "الذهبي: مات سنة ست وستين ومائتين عن ست وثمانين سنة، فجأة في ذي الحجة، ساجداً في صلاة العصر {cite:mizan-itidal-bijawi-v3 p. 578}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/mizan-itidal-bijawi-v3]
 status:
   review: draft
   completeness: 1
