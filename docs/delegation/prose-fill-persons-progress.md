@@ -666,3 +666,9 @@ Promoted: afif-al-din-al-tilimsani, al-busiri, al-fakhr-al-balabakki, al-fakhr-i
 Promoted: abagha-khan, al-fariqani-aqsunqur, al-kawashi, al-malik-al-mansur-ii-hama, al-malik-al-said-baraka, al-sharishi, ata-malik-al-juwayni, baha-al-din-ibn-hanna, ibn-al-munayyir, ibn-bint-al-aazz, isa-ibn-muhanna, ismail-al-hadrami, izz-al-din-ibn-al-saigh, katila-al-harbi, najib-ibn-al-awd, shams-al-din-ibn-abi-umar, sunqur-al-ashqar, taqi-al-din-ibn-razin, tekuder-ahmad.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1808.** sweep continues through remaining trilingual drafts.
+
+### Batch 99 (4 Nov 2026, 19 records) — lib-wafayat-batch-8 draft promotions (sweep worker)
+
+Promoted: abd-al-ala-al-sadafi, abd-al-wahid-al-makhlu-almohad, abdallah-ibn-ghaniya, al-adil-abdallah-almohad, al-dulai-al-dimashqi, al-kurani-al-harawi, al-malik-al-mushammar, al-muhtadid-yahya-almohad, al-mustansir-yusuf-almohad, al-najirmi, al-qaid-fadl-ibn-salih, al-rammadi-yusuf-ibn-harun, al-said-ali-almohad, al-tusi-khatib-al-mawsili, ibn-al-shirzaji, ibn-wahra-al-hamadhani, najm-al-din-ibn-al-habbaz, radi-al-din-al-irbili, tughril-atabeg-of-aleppo.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1827.** sweep continues through remaining trilingual drafts.
