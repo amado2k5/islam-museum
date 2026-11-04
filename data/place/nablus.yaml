@@ -1,12 +1,13 @@
 id: place/nablus
 class: place
 kind: city
-label: { ar: "نابلس", en: "Nablus" }
+label: { ar: "نابلس", en: "Nablus" , ur: "نابلس"}
 summary:
   ar: "مدينة السامرية، وفيها البئر التي يذكر أهل بيت المقدس أن عيسى جلس عندها وطلب الماء من المرأة السامرية، وتبعد عن الرملة يوماً. {cite:nuzhat-al-mushtaq-2002 p. 356} ووصفها المقدسي بأنها تسمّى دمشق الصغرى، كثيرة الزيتون في وادٍ ضغطه جبلان، سوقها من الباب إلى الباب وجامعها وسطها مبلّطة نظيفة ولأهلها دواميس عجيبة {cite:ahsan-al-taqasim p. 142}."
   en: "The city of the Samaritans, with the well where, as the people of Jerusalem say, a visitor asked a Samaritan woman for water; a day from Ramla. {cite:nuzhat-al-mushtaq-2002 p. 356}"
+  ur: "فلسطین کا شہر جسے مقدسی نے چھوٹا دمشق کہا؛ ان کے بیان میں یہ دو پہاڑوں کے درمیان وادی میں زیتون کی کثرت والا شہر ہے، جس کی جامع مسجد بازار کے وسط میں تھی۔ {cite:ahsan-al-taqasim p. 142}"
 wings: [place]
 regions: [levant-iraq]
-provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 356 (scan page)", generated_by: "Claude (Haiku 5.5)" }
+provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 356 (scan page)", generated_by: "Claude (Haiku 5.5)" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}}
 sources: [source/nuzhat-al-mushtaq-2002, source/ahsan-al-taqasim]
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }

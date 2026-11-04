@@ -1,19 +1,27 @@
 id: place/aksum
 class: place
 kind: city
-label: { en: "Aksum", ar: "أكسوم" }
+label: { en: "Aksum", ar: "أكسوم" , ur: "اکسوم"}
 summary:
   en: "Capital of the Christian kingdom of Aksum in the Ethiopian highlands, where early Muslims took refuge around 615 CE."
   ar: "عاصمة مملكة أكسوم المسيحية في المرتفعات الإثيوبية، لجأ إليها مسلمون أوائل نحو سنة 615م."
+  ur: "ایتھوپیا کے بلند علاقے میں واقع شہر۔ {cite:geonames-gazetteer} اس داستان میں حبشہ کی طرف ابتدائی مسلمانوں کی ہجرت اور وہاں سے واپسی کے واقعات شامل ہیں؛ اصل روایات منزل کو حبشہ کہتی ہیں۔ {cite:ibn-hisham-saqqa}"
 wings: [place]
 regions: [east-africa]
 coordinates: [14.12, 38.72]
 coordinate_precision: site
 coordinate_note: "Agrees with GeoNames within 0.4 km. The sources call the destination Abyssinia; this entry is the kingdom's capital."
 external_ids: { geonames: "344420", pleiades: "39303" }
-sources: [source/geonames-gazetteer]
+sources: [source/geonames-gazetteer, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from docs/plan/16 §6, checked against GeoNames" }
 education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  model: unknown
+  run: explorer-40-subjects-2026-11-04
+  source: "Existing museum record and its listed sources; source/provenance metadata restored for the 40-subject Explorer batch. No new dates, coordinates or relations."
+  generated_by: "Claude Sonnet 5.5; coordinates from docs/plan/16 §6, checked against GeoNames; Copilot SDK in VS Code (metadata completion)"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}

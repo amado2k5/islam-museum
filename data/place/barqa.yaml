@@ -1,10 +1,11 @@
 id: place/barqa
 class: place
 kind: region
-label: { ar: "برقة", en: "Barqa (Cyrenaica)" }
+label: { ar: "برقة", en: "Barqa (Cyrenaica)" , ur: "برقہ"}
 summary:
   ar: "برقة إقليم المغرب الأدنى بين مصر وإفريقية ومدينتها أنطابلس؛ صالحها عمرو بن العاص بعد فتح الإسكندرية على ثلاثة عشر ألف دينار جزية يبيعون فيها من أبنائهم من أحبّوا، وكان أهلها يبعثون بخراجهم إلى والي مصر من غير حاثّ فكانوا أخصب قوم بالمغرب ولم تدخلها فتنة؛ وبها قرية لواتة من البربر أهل العهد ومنها زويلة منقطع عقبة بن نافع الأول."
   en: "Barqa (Cyrenaica), the nearer Maghreb between Egypt and Ifriqiya, its city Antabulus; Amr ibn al-As compounded with it after Alexandria's fall for a thirteen-thousand-dinar jizya in which they might sell whom they wished of their children; its people sent their kharaj to Egypt's governor unpressed — the most prosperous folk of the Maghreb, untouched by fitna — and among it the covenant-holding Berber village of Lawata, and Zawila whence Uqba ibn Nafi's first charge began."
+  ur: "مصر اور افریقیہ کے درمیان واقع خطہ؛ بلاذری اس کے باشندوں کی عمرو بن عاص کے ساتھ صلح اور مصر کے والی کو خراج بھیجنے کا ذکر کرتے ہیں۔ {cite:futuh-buldan-maarif-1407}"
 wings: [place]
 periods: [period/rashidun]
 regions: [maghreb]
@@ -16,5 +17,6 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 314–316"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-20
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

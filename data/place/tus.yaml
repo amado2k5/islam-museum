@@ -1,10 +1,11 @@
 id: place/tus
 class: place
 kind: city
-label: { ar: "طوس", en: "Tus" }
+label: { ar: "طوس", en: "Tus" , ur: "طوس"}
 summary:
   ar: "طوس مدينة بخراسان؛ صالح مرزبانها كنازبك عبد الله بن عامر عنها على ستمائة ألف درهم."
   en: "Tus of Khurasan; its marzban Kanazbak compounded it with Ibn Amir at six hundred thousand dirhams."
+  ur: "خراسان کا شہر؛ بلاذری کے مطابق اس کے مرزبان کنازبک نے عبد اللہ بن عامر سے چھ لاکھ درہم پر صلح کی۔ {cite:futuh-buldan-maarif-1407}"
 regions: [persia-central-asia]
 wings: [place]
 sources: [source/futuh-buldan-maarif-1407, source/farghani-elements-astronomy, source/wikipedia-tus-iran-en]
@@ -15,5 +16,7 @@ provenance:
   extraction_flow: "Apple Vision OCR -> manual extraction"
   model: "claude-haiku-5-5"
   run: "farghani-389-577"
+  source: "Existing museum record and its listed sources; source/provenance metadata restored for the 40-subject Explorer batch. No new dates, coordinates or relations."
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
 coordinates: [36.479167, 59.509722]
 coordinate_precision: site

@@ -1,10 +1,11 @@
 id: place/al-jirana
 class: place
 kind: site
-label: { en: "al-Ji'rana", ar: "الجعرانة" }
+label: { en: "al-Ji'rana", ar: "الجعرانة" , ur: "جعرانہ"}
 summary:
   en: "A settlement between Mecca and Ta'if where the Prophet halted the spoils and captives of Hunayn, received Hawazin's delegation and granted them general amnesty, distributed the shares to al-Mu'allafa Qulubuhum, addressed the Ansar, and entered ihram for Umrah."
   ar: "موضع بين مكة والطائف حبس فيه النبي سبايا وغنائم حنين، واستقبل فيه وفد هوازن فرد إليهم أسرارهم وسباياهم، وقسم الفيء على المؤلفة قلوبهم، وخطب في الأنصار خطبته الشهيرة، وأحرم منه بعمرته في ذي القعدة سنة ثمان. وفيه حديث أبي موسى وبلال في الصحيح: أتاه أعرابي يسأله إنجاز ما وعده فقال «أبشر»، فلما أكثر عليه «أبشر» أقبل على أبي موسى وبلال كهيئة الغضبان فقال «ردّ البشرى فاقبلا أنتما»، ثم دعا بقدح فيه ماء فغسل فيه يديه ووجهه ومجّ فيه وقال «اشربا منه وأفرغا على وجوهكما ونحوركما وأبشرا»، ففعلا وأفضلا لأم سلمة من وراء الستر {cite:sahih-al-bukhari 4328}."
+  ur: "مکہ اور طائف کے درمیان ایک مقام جہاں حنین کے بعد غنائم تقسیم ہوئے، ہوازن کا وفد آیا اور نبی نے عمرے کا احرام باندھا۔ {cite:ibn-hisham-saqqa}"
 wings: [place]
 themes: [sacred-space-and-pilgrimage, battles]
 regions: [arabia]
@@ -16,6 +17,6 @@ coordinates: [21.5667, 39.95]
 coordinate_precision: locality
 coordinate_note: "ويكي بيانات Q4704166 (الجعرانة، موضع في منطقة مكة المكرمة)؛ على مستوى الناحية."
 external_ids: { wikidata: "Q4704166" }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 131–143", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 131–143", generated_by: "Devin", run: "ibn-hisham-batch-3" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}}
 sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 131–143; coordinates added by Claude Code (subagent), claude-sonnet-5-5" }

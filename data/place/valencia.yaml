@@ -1,10 +1,11 @@
 id: place/valencia
 class: place
 kind: city
-label: { ar: "بلنسية", en: "Valencia" }
+label: { ar: "بلنسية", en: "Valencia" , ur: "بلنسیہ"}
 summary:
   ar: "بلنسية مدينة شرق الأندلس على البحر، صار أمرها إلى الفقيه القاضي أبي أحمد ابن جحاف فاستولى عليها ردريق القنبيطور سنة ثمان وثمانين وأربعمائة وقيل التي قبلها بعد حصار عشرين شهراً وأحرقها وعاث فيها ومن أُحرق فيها الأديب أبو جعفر ابن البني، ثم فتحها الله على يدي الأمير أبي محمد مزدلي بعثاً من يوسف بن تاشفين سنة خمس وتسعين وأربعمائة وتولى عليها بعد ذلك بنو غانية وابن مردنيش {cite:nafh-tib-maqqari p. 455-456}، وفيها يقول ابن خفاجة: عاثت بساحتك الظباء يا دار ومحا محاسنك البلى والنار."
   en: "Valencia, the great city of eastern al-Andalus; held for the Almoravids by the qadi Ibn Jahhaf, taken by Rodrigo el Campeador in 488 after a twenty-month siege — the poet Ibn al-Banna among its burn victims — retaken by the Almoravid amir Mazdali in 495 {cite:nafh-tib-maqqari p. 455-456}."
+  ur: "مشرقی اندلس کا ساحلی شہر؛ مقری 488ھ، یا اس سے ایک سال پہلے، القنبیطور کے قبضے اور 495ھ میں مزدلی کے ہاتھوں اس کی بازیابی کا ذکر کرتے ہیں۔ {cite:nafh-tib-maqqari p. 455-456}"
 wings: [place]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
@@ -15,5 +16,6 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 455–456؛ الإحداثيات تقريبية"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-54
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

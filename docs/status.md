@@ -19,6 +19,8 @@ _Last updated 29 October 2026._ Read this first in a new session, then `docs/pla
 
 Latest Time Browser snapshot (2026-11-03): 20 additional place stories in PR #3310; the regenerated Explorer output contains 185 subjects and 1,862 nodes. The batch has 147 chronological stop occurrences across 141 unique events, with one Ramla earthquake stop; final build and route verification are pending.
 
+Time Browser update (2026-11-04): PR #3310 merged as `64ab392edc`; the founder approved a further 40 subjects (20 places and 20 people). They are implemented on `explorer/40-subjects-story-batch-copilot`: 303 chronological stop occurrences across 246 existing events, with Arabic/English/Urdu subject metadata and 286 passing citation checks. The generated total is 225 subjects / 2,165 nodes; 120 language routes passed browser checks. Final build/output verification is in progress. Existing event-language and image fallbacks remain; the subject-aware multi-location selector is still the Explorer owner's follow-up. No deployment, Worker or workflow change.
+
 Run `npm install && npm install --prefix site && npm test && npm run build` to confirm the state (expect 0 validation errors, 95 tests passing, about 65,000 pages).
 
 
