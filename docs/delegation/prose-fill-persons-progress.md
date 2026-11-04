@@ -699,3 +699,9 @@ mahmud-ibn-buri	REJECT: ar: thin (147ch)
 Promoted: abu-ali-lahiq-al-artahi, abu-bakr-ibn-qawam, al-bakharzi-said, al-kamil-mayyafariqin, al-malik-al-said-hasan, al-matiji, al-muazzam-turanshah-al-kabir, al-muhibb-mufid-al-jabal, al-salih-ismail-ibn-lulu, husam-al-din-al-hadhabani, ibn-al-ajami, ibn-darbas, ibn-sana-al-dawla, ibn-sayyid-al-nas-al-akbar, kitbugha, muhammad-al-yunini, muhammad-ibn-abd-al-hadi, sahib-sahyun-muzaffar, sharaf-al-din-al-maqdisi.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1902.** sweep continues through remaining trilingual drafts.
+
+### Batch 104 (4 Nov 2026, 18 records) — lib-tabaqat-fuqaha-batch-7 draft promotions (sweep worker)
+
+Promoted: abd-al-aziz-al-daraki, abu-abd-allah-al-hannat-al-shirazi, abu-al-hasan-ibn-al-marzuban, abu-al-hasan-ibn-khayran-al-baghdadi, abu-al-husayn-ibn-al-qattan, abu-ali-al-tabari-al-hasan-ibn-al-qasim, abu-ali-al-zajjaji-al-tabari, abu-ali-ibn-abi-hurayra, abu-bakr-al-khaffaf, abu-bakr-al-naysaburi-ibn-ziyad, abu-bakr-al-sibi, abu-hamid-al-marwarudhi, abu-ishaq-ibrahim-al-marwazi, abu-sahl-al-suluki, abu-zayd-al-marwazi, al-masarjisi-abu-al-hasan, al-qaffal-al-shashi, ibn-al-haddad-al-misri.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1920.** sweep continues through remaining trilingual drafts.
