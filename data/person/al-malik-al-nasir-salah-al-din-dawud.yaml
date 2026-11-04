@@ -13,11 +13,14 @@ periods: [period/crusades-ayyubid-mamluk]
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الثالث (عارضة 141 داخل ترجمة الملك المعظم)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
-  run: lib-wafayat-batch-15
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch118
+  extra_runs: ["lib-wafayat-batch-15: Devin (SWE-2 High) from djvu OCR text"]
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
-  model: "unknown"
 relations:
   - { type: participated_in, target: event/salih-ismail-takes-damascus-637, role: "مخلّص الصالح أيوب من الكرك", sources: [source/shadharat-dhahab] }
 sources: [source/wafayat-ayan, source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
