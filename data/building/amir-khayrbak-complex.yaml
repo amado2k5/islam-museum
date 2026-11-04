@@ -10,7 +10,7 @@ summary:
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q12241680
 provenance:
@@ -19,6 +19,9 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 233-234"]
 status:
-  review: draft
+  review: published
   completeness: 1
+built: { edtf: "1520/1521", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 233: mosque of Amir Khayrbak (1520-1); map p. 151 gives 1502." }
+status_now: standing
