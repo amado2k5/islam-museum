@@ -1,17 +1,38 @@
 id: work/fath-al-qadir
 class: work
 kind: book
-label: { ar: "فتح القدير", en: "Fath al-Qadir" }
+label:
+  ar: "فتح القدير الجامع بين فني الرواية والدراية من علم التفسير"
+  en: "Fath al-Qadir (al-Shawkani's commentary on the Qur'an)"
+  ur: "فتح القدیر (شوکانی کی تفسیر)"
 summary:
-  ar: "بطاقة أولية لفتح القدير للشوكاني، تفسيره الجامع بين فني الرواية والدراية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for al-Shawkani's Fath al-qadir, his tafsir combining riwaya and diraya; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "تفسير كامل للقرآن لمحمد بن علي الشوكاني (ت 1250هـ)، قصد فيه الجمع بين طريقة أهل الرواية الذين اقتصروا على المأثور وطريقة أهل الدراية الذين اعتمدوا على اللغة والعلوم الآلية، مع الترجيح بين الأقوال وبيان المعنى العربي والإعرابي والبياني؛ واستمد كثيرًا من آثاره من «الدر المنثور» للسيوطي. وأصله المخطوط بعنوان «مطلع البدرين ومجمع البحرين»."
+  en: "A complete commentary on the Qur'an by Muhammad ibn Ali al-Shawkani (d. 1250 AH), designed to unite the method of the transmitters, who confined themselves to reports, with that of the reasoners, who relied on the Arabic language and the instrumental sciences, while weighing conflicting interpretations and explaining the lexical, grammatical and rhetorical meaning; many of its reports are drawn from al-Suyuti's al-Durr al-Manthur. Its manuscript original is titled Matla' al-Badrayn wa-Majma' al-Bahrayn."
+  ur: "محمد بن علی شوکانی (م 1250ھ) کی قرآن کی مکمل تفسیر، جس میں انہوں نے اہلِ روایت — جو ماثور پر اکتفا کرتے تھے — اور اہلِ درایت — جو لغت اور آلی علوم پر اعتماد کرتے تھے — کے طریقوں کو جمع کرنے کا ارادہ کیا، اقوال میں ترجیح دی اور لغوی، اعرابی اور بیانی معنی واضح کیا؛ اس کی بہت سی روایات سیوطی کی «الدر المنثور» سے ماخوذ ہیں۔ اس کا مخطوطہ اصل «مطلع البدرین و مجمع البحرین» کے عنوان سے ہے۔"
+genre: [tafsir]
+authors: [person/al-shawkani]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/fath-al-qadir-dar-al-marifa] }
+composed: { hijri: "1241", edtf: "1825", calendar: gregorian, precision: year, status: historical, derived: true, note: "Terminus ante quem: the end note records that the book was read back to its author (tamma sama'an 'ala mu'allifih) on Monday morning 5 Rabi' I 1241 AH, written by Yahya ibn Ali al-Shawkani (Dar al-Ma'rifa ed., PDF p. 1672). Gregorian year derived. The date of completion itself is not stated in the edition read.", sources: [source/fath-al-qadir-dar-al-marifa] }
+structure: "مقدمة المؤلف (خطبة الكتاب) في منهجه وفضل علم التفسير، ثم تفسير السور على ترتيب المصحف من الفاتحة إلى الناس؛ يبدأ كل سورة بذكر كونها مكية أو مدنية والروايات في ذلك وفي فضلها، ثم يفسر الآيات لغةً وإعرابًا ومعنًى، ثم يختم كل مقطع بالآثار المروية فيه."
+relations:
+  - { type: relies_on, target: work/al-durr-al-manthur, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: relies_on, target: work/tafsir-ibn-atiyya, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: relies_on, target: work/tafsir-ibn-kathir, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: relies_on, target: work/al-kashshaf, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: about, target: concept/tafsir-bil-mathur, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: about, target: concept/tafsir-bil-raay, sources: [source/fath-al-qadir-dar-al-marifa] }
+  - { type: about, target: question/where-was-al-fatiha-revealed, sources: [source/fath-al-qadir-dar-al-marifa] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/modern-era]
+regions: [arabia]
 external_ids: { wikidata: "Q12230295" }
+sources: [source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/fath-al-qadir-dar-al-marifa PDF pp. 1–2, 8, 10–12, 552–553, 1672; source/fath-al-qadir-dar-al-wafa-v1 PDF pp. 1, 43, 49, 61–62. Earlier card: Wikidata import (Devin, wikidata-import-wave2)."
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
