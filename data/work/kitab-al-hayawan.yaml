@@ -1,0 +1,34 @@
+id: work/kitab-al-hayawan
+class: work
+kind: book
+label: { ar: "كتاب الحيوان", en: "Kitab al-Hayawan (The Book of Animals)", ur: "کتاب الحیوان" }
+summary:
+  ar: "كتاب أبي عثمان عمرو بن بحر الجاحظ في الحيوان، في سبعة مصاحف (أجزاء)، يمضي فيه من أصناف الحيوان إلى القرآن والحديث والشعر والأمثال والكلام والطبيعيات، ويفتتحه بالرد على من عاب كتبه؛ ويقول محققه محمد باسل عيون السود إن عنوانه يوهم أنه مقصور على الحيوان وهو يتضمن علوماً أكبر من العنوان {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 4} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 7} {cite:hayawan-jahiz-ilmiyya-2003-v4 p. 155}."
+  en: "Abu 'Uthman 'Amr ibn Bahr al-Jahiz's book on animals, in seven parts (masahif), which moves from the kinds of animals to the Qur'an, hadith, poetry, proverbs, theology and natural philosophy, and opens with a reply to a critic of his books; its editor Muhammad Basil 'Uyun al-Sud says the title suggests it is confined to animals while it holds far more {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 4} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 7} {cite:hayawan-jahiz-ilmiyya-2003-v4 p. 155}."
+  ur: "ابو عثمان عمرو بن بحر جاحظ کی حیوانات پر کتاب، سات مصاحف (اجزاء) میں، جو حیوانات کی اقسام سے قرآن، حدیث، شعر، امثال، کلام اور طبیعیات تک جاتی ہے اور اپنی کتابوں پر عیب لگانے والے کے جواب سے شروع ہوتی ہے؛ اس کے محقق محمد باسل عیون السود کہتے ہیں کہ عنوان سے لگتا ہے کہ یہ صرف حیوان تک محدود ہے، حالانکہ اس میں عنوان سے کہیں زیادہ علوم ہیں {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 4} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 7} {cite:hayawan-jahiz-ilmiyya-2003-v4 p. 155}۔"
+language: language/arabic
+authors: [person/al-jahiz]
+genre: [adab]
+wings: [words, ideas]
+themes: [literature, zoology, philosophy-and-logic, libraries-paper-and-the-book, translation-and-transmission]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: mentions, target: person/al-nazzam, sources: [source/hayawan-jahiz-ilmiyya-2003-v3] }
+  - { type: mentions, target: person/aristutalis, sources: [source/hayawan-jahiz-ilmiyya-2003-v1, source/hayawan-jahiz-ilmiyya-2003-v2] }
+  - { type: mentions, target: concept/kumun, sources: [source/hayawan-jahiz-ilmiyya-2003-v3] }
+  - { type: mentions, target: concept/niran-al-arab, sources: [source/hayawan-jahiz-ilmiyya-2003-v2, source/hayawan-jahiz-ilmiyya-2003-v3] }
+  - { type: mentions, target: concept/ghul, sources: [source/hayawan-jahiz-ilmiyya-2003-v3] }
+  - { type: mentions, target: concept/harakat-al-tarjama, sources: [source/hayawan-jahiz-ilmiyya-2003-v1] }
+  - { type: mentions, target: building/umayyad-mosque, sources: [source/hayawan-jahiz-ilmiyya-2003-v1] }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/hayawan-jahiz-ilmiyya-2003-v1] }
+  - { type: mentions, target: person/khalid-ibn-sinan-al-absi, sources: [source/hayawan-jahiz-ilmiyya-2003-v2] }
+  - { type: mentions, target: concept/hayawan-animal, sources: [source/hayawan-jahiz-ilmiyya-2003-v1] }
+provenance:
+  layer: own-research
+  source: "كتاب الحيوان، ط. دار الكتب العلمية 2003، المجلد 1 ص 1-55 و448، المجلد 2 ص 3 و478-510، المجلد 3 ص 3-87 و397-446 و595-599، المجلد 4 ص 155-157"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/hayawan-jahiz-ilmiyya-2003-v1, source/hayawan-jahiz-ilmiyya-2003-v2, source/hayawan-jahiz-ilmiyya-2003-v3, source/hayawan-jahiz-ilmiyya-2003-v4]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

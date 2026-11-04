@@ -1,0 +1,25 @@
+id: person/muhammad-shafi-haravi
+class: person
+label: { ar: "محمد شفيع الهروي «شفيعا»", en: "Muhammad Shafi' Haravi (Shafi'a)", ur: "محمد شفیع ہروی «شفیعا»" }
+summary:
+  ar: "خطاط من سادات هراة في العهد الصفوي، أتقن التعليق والنستعليق، وتعلم الشكسته من شاملو ثم هذّبه ووضع قواعده حتى سُمّي «خط شفيعا» {cite:salim-tarikh-khatt-o-khattatin-2001 p. 152}."
+  en: "Calligrapher from a well-known Sayyid family of Herat in the Safavid period, master of ta'liq and nasta'liq, who learned shikasta from Shamlu, refined it and fixed its rules, so that it came to be called 'Shafi'a script' {cite:salim-tarikh-khatt-o-khattatin-2001 p. 152}."
+  ur: "صفوی عہد میں ہرات کے مشہور سادات خاندان کے خطاط، تعلیق اور نستعلیق کے ماہر، جنہوں نے شاملو سے شکستہ سیکھا، اسے سنوارا اور اس کے قواعد مقرر کیے، یہاں تک کہ اسے «خطِ شفیعا» کہا جانے لگا {cite:salim-tarikh-khatt-o-khattatin-2001 p. 152}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [persia-central-asia]
+gender: male
+roles: [calligrapher]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: student_of, target: person/morteza-qoli-khan-shamlu, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+  - { type: lived_in, target: place/herat, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+  - { type: exemplifies, target: concept/shikasta-script, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+sources: [source/salim-tarikh-khatt-o-khattatin-2001]
+provenance:
+  layer: own-research
+  source: "source/salim-tarikh-khatt-o-khattatin-2001 scan pp. 152, 265"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

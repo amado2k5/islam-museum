@@ -1,0 +1,28 @@
+id: concept/tawarikh-al-ruwat
+class: concept
+kind: discipline
+label:
+  ar: "تواريخ الرواة ووفياتهم"
+  en: "Dates of narrators and their deaths (tawarikh al-ruwat)"
+summary:
+  ar: "النوع الستون من أنواع علوم الحديث عند ابن الصلاح والنووي: معرفة مواليد الرواة وسماعهم وقدومهم البلدان ووفياتهم، وبه يُعرف اتصال الحديث وانقطاعه ويُكشف من ادعى السماع ممن مات قبل أن يلقاه، كما فعل إسماعيل بن عياش وحفص بن غياث والحاكم. ومن كتبه «الوفيات» لابن زبر وذيوله المتعاقبة إلى العراقي. ويذكر النووي والسيوطي فيه عيوناً من التواريخ: سنّ النبي ووفاته، وبدء التاريخ بالهجرة، ووفيات العشرة، وأصحاب المذاهب، وأصحاب الكتب الستة، وسبعة من الحفاظ {cite:tadrib-rawi-awwama-v5 p. 502-540}."
+  en: "Type sixty of the hadith sciences in Ibn al-Salah and al-Nawawi: knowing when narrators were born, when they heard, when they arrived in a given city and when they died. It shows whether a chain is connected or broken and exposes those who claimed to have heard from men already dead, as Isma'il ibn Ayyash, Hafs ibn Ghiyath and al-Hakim did. Its books include Ibn Zabr's al-Wafayat and the successive supplements to it down to al-Iraqi. Al-Nawawi and al-Suyuti give choice examples: the Prophet's age and death, the start of the Hijri era, the deaths of the Ten, the founders of the schools, the authors of the six books and seven later hafizes."
+term: { ar: "التواريخ والوفيات", en: "al-tawarikh wa-l-wafayat" }
+wings: [ideas, time]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: concept/mustalah-al-hadith, sources: [source/tadrib-rawi-awwama-v5] }
+  - { type: related_to, target: concept/ittisal-al-isnad, sources: [source/tadrib-rawi-awwama-v5] }
+  - { type: related_to, target: concept/hijri-calendar, sources: [source/tadrib-rawi-awwama-v5] }
+  - { type: related_to, target: event/death-of-the-prophet, sources: [source/tadrib-rawi-awwama-v5] }
+  - { type: related_to, target: event/umar-adopts-hijri-calendar, sources: [source/tadrib-rawi-awwama-v5] }
+sources: [source/tadrib-rawi-awwama-v5]
+provenance:
+  layer: own-research
+  source: "تدريب الراوي للسيوطي، تحقيق عوامة، المجلد الخامس، النوع الستون، ص 502–540"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

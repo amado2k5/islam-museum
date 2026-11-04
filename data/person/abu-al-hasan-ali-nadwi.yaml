@@ -1,0 +1,32 @@
+id: person/abu-al-hasan-ali-nadwi
+class: person
+label: { ar: "أبو الحسن علي الحسني الندوي", en: "Abu al-Hasan 'Ali al-Hasani al-Nadwi", ur: "ابو الحسن علی حسنی ندوی" }
+names:
+  - { kind: full, lang: ar, value: "علي أبو الحسن بن عبد الحي بن فخر الدين الحسني" }
+  - { kind: full, lang: ar, value: "أبو الحسن علي الحسني الندوي" }
+  - { kind: nisba, lang: ar, value: "الندوي" }
+gender: male
+roles: [scholar, writer, teacher]
+traditions: [sunni]
+born: { edtf: "1914", hijri: "1333-01-06", calendar: gregorian, precision: year, status: historical, note: "6 محرم 1333هـ (الموافق عام 1914م) بقرية تكية كلان قرب رائي بريلي، ترجمة المؤلف ص 27؛ اليوم الميلادي غير مذكور في المصدر", sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004] }
+died: { edtf: "1999-12-31", hijri: "1420-09-23", calendar: gregorian, precision: day, status: historical, note: "يوم الجمعة 23 رمضان 1420هـ، آخر يوم من ديسمبر 1999م، في رائي بريلي، ترجمة المؤلف ص 34–35", sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004] }
+summary:
+  ar: "أبو الحسن علي بن عبد الحي الحسني الندوي (1333–1420هـ/1914–1999م)، عالم وداعية وأديب هندي، وُلد قرب رائي بريلي، ودرس في جامعة لكهنؤ وفي دار العلوم لندوة العلماء ودرّس فيها ثم صار أمينها العام، وألّف بالعربية والأردية كتباً منها «ماذا خسر العالم بانحطاط المسلمين؟» و«السيرة النبوية» و«رجال الفكر والدعوة في الإسلام»، ونال جائزة الملك فيصل العالمية سنة 1980م {cite:al-sira-al-nabawiyya-nadwi-ibn-kathir-2004 p. 26-35}."
+  en: "Abu al-Hasan 'Ali ibn 'Abd al-Hayy al-Hasani al-Nadwi (1333–1420 AH/1914–1999 CE), an Indian scholar, preacher and man of letters, born near Rae Bareli. He studied at Lucknow University and at the Dar al-'Ulum of Nadwat al-'Ulama', taught there and later became its secretary-general. He wrote in Arabic and Urdu, including Madha Khasira al-'Alam bi-Inhitat al-Muslimin?, al-Sira al-Nabawiyya and Rijal al-Fikr wa-al-Da'wa fi al-Islam, and received the King Faisal International Prize in 1980 {cite:al-sira-al-nabawiyya-nadwi-ibn-kathir-2004 p. 26-35}."
+  ur: "ابو الحسن علی بن عبد الحی حسنی ندوی (1333–1420ھ/1914–1999ء)، ہندوستانی عالم، داعی اور ادیب، رائے بریلی کے قریب پیدا ہوئے۔ انہوں نے لکھنؤ یونیورسٹی اور دار العلوم ندوۃ العلماء میں تعلیم پائی، وہیں پڑھایا اور پھر اس کے ناظم بنے۔ عربی اور اردو میں کتابیں لکھیں جن میں «ماذا خسر العالم بانحطاط المسلمین؟»، «السیرۃ النبویہ» اور «رجال الفکر والدعوۃ فی الاسلام» شامل ہیں، اور 1980ء میں شاہ فیصل عالمی ایوارڈ پایا {cite:al-sira-al-nabawiyya-nadwi-ibn-kathir-2004 p. 26-35}۔"
+wings: [people]
+regions: [south-asia]
+periods: [period/contemporary-era]
+relations:
+  - { type: authored, target: work/al-sira-al-nabawiyya-nadwi, sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004] }
+  - { type: student_of, target: person/husain-ahmad-madani, sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004], note: "حضر دروسه في البخاري والترمذي في ديوبند، ص 28" }
+  - { type: student_of, target: person/muhammad-ilyas-kandhlawi, sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004], note: "تأسّى به في الدعوة بعد رحلة 1939م، ص 29" }
+  - { type: traveled_to, target: place/damascus, sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004], note: "أستاذ زائر في كلية الشريعة بجامعة دمشق 1956م، ص 30" }
+sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004]
+provenance:
+  layer: own-research
+  source: "Biography of the author in al-Sira al-Nabawiyya, Dar Ibn Kathir 2004, pp. 25–38; author's prefaces pp. 41–45"
+  generated_by: "Claude Code (OCR-harvest worker K)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K)" }

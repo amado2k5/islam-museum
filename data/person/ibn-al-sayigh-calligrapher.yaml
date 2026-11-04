@@ -1,0 +1,25 @@
+id: person/ibn-al-sayigh-calligrapher
+class: person
+label: { ar: "ابن الصائغ (عبد الرحمن بن يوسف)", en: "Ibn al-Sa'igh (Abd al-Rahman ibn Yusuf), calligrapher", ur: "ابن الصائغ (عبد الرحمن بن یوسف)" }
+summary:
+  ar: "خطاط مملوكي مشهور (ت 845هـ/1441–1442م)، صاحب رسالة في الخط، كتب سنة 801هـ أكبر مصحف معروف من العصر المملوكي «بقلم واحد في ستين يومًا» {cite:blair-islamic-calligraphy-2006 p. 363}."
+  en: "Well-known Mamluk calligrapher (d. 845/1441–2), author of a treatise on calligraphy, who in 801/1398–9 penned the largest surviving Mamluk Qur'an 'with one pen in sixty days' {cite:blair-islamic-calligraphy-2006 p. 363}."
+  ur: "مشہور مملوک خطاط (وفات 845ھ/1441–2ء)، خطاطی پر ایک رسالے کے مصنف، جنہوں نے 801ھ/1398–9ء میں عہدِ مملوک کا سب سے بڑا باقی مصحف «ایک قلم سے ساٹھ دن میں» لکھا {cite:blair-islamic-calligraphy-2006 p. 363}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [egypt-nile]
+gender: male
+roles: [calligrapher, writer]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1441/1442", hijri: "0845", calendar: julian, precision: year, status: historical }
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: exemplifies, target: concept/muhaqqaq-script, sources: [source/blair-islamic-calligraphy-2006] }
+sources: [source/blair-islamic-calligraphy-2006]
+provenance:
+  layer: own-research
+  source: "source/blair-islamic-calligraphy-2006 scan pp. 363, 364, 365"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

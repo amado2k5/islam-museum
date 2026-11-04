@@ -3,6 +3,13 @@ id: person/al-jahiz
 lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/hayawan-jahiz-ilmiyya-2003-v1 pp. 1, 4, 7-11"
 ---
 ## خلاصہ
 ابو عثمان عمرو بن بحر بن محبوب الکنانی اللیثی، جو الجاحظ کے نام سے معروف ہیں۔ بصرہ کے ادیب اور عالم۔ تقریباً سنہ 150ھ (767ء) میں پیدا ہوئے اور سنہ 255ھ (869ء) میں وفات پائی۔ {cite:mawsuat-a3lam-ulama-adaba} مسعودی ذکر کرتے ہیں کہ ان کی وفات بصرہ میں محرم سنہ 255ھ میں ہوئی، اور کہا گیا ہے کہ سنہ 256ھ میں۔ {cite:muruj-al-dhahab p.568}
@@ -23,3 +30,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ان کے بھانجے یموت بن المزرع ان کی بیماری کا حال بیان کرتے ہیں کہ ان کے دائیں آدھے دھڑ پر شدتِ حرارت کے سبب صندل اور کافور لگایا جاتا تھا، جبکہ دوسرے آدھے حصے کو سن ہو جانے اور ٹھنڈک کی وجہ سے کچھ محسوس نہیں ہوتا تھا۔ {cite:muruj-al-dhahab p.568}
 
 محمد بن عبد الملک الزیات کے نام ان کے ایک خط میں اخلاق کے دلوں پر اثر کے بارے میں کچھ عبارات ہیں، جنہیں ابن الندیم نے نقل کیا ہے۔ {cite:fihrist-ibn-al-nadim p.527}
+
+## کتاب الحیوان کے مقدمے میں
+[[work/kitab-al-hayawan|کتاب الحیوان]] کے اپنے ایڈیشن میں محمد باسل عیون السود جاحظ کا ترجمہ «شذرات الذہب» سے لیتے ہیں: ابو عثمان بصری معتزلی، جن کی طرف معتزلہ میں جاحظیہ منسوب ہیں؛ انہوں نے قاضی [[person/abu-yusuf-al-qadi|ابو یوسف]]، [[person/thumama-ibn-ashras|ثمامہ بن اشرس]] اور [[person/al-nazzam|نظام]] سے علم لیا؛ «المغنی» کے مصنف ثعلب سے نقل کرتے ہیں کہ وہ نہ ثقہ تھے نہ قابلِ اعتماد، اور ایک اور نے کہا کہ ان کی بہترین تصانیف کتاب الحیوان اور البیان والتبیین ہیں۔ {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 4} محقق ان کی ولادت 148ھ اور وفات 250ھ بتاتے ہیں؛ اقتباس میں ہے کہ بعض کے نزدیک وہ 255ھ تک زندہ رہے۔ {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 1} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 4} کتاب الحیوان کے آغاز میں خود جاحظ اپنی بہت سی کتابیں گناتے ہیں جن پر ان کے مخاطب نے اعتراض کیا تھا، ان میں چوروں کے حیلے، بخلاء، قحطانیہ و عدنانیہ، عرب و موالی، بت، خلقِ قرآن، مشبہہ کی تردید، نظمِ قرآن اور ہاشمیات رسائل پر ان کی کتابیں ہیں۔ {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 7} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 8} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 10} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 11}
