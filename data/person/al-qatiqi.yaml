@@ -16,11 +16,18 @@ born:
 died:
   { edtf: "0978~", hijri: "0368", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي فيها (368)؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.97}", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the Fada'il al-Sahaba section from source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 40–41, 46–47, 53–55"
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 368)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-350-474-2
 external_ids: { wikidata: "Q55978666" }
 aliases: [person/abu-bakr-al-qutayi]
-sources: [source/muntazam-ibn-al-jawzi]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/muntazam-ibn-al-jawzi, source/fadail-sahaba-ahmad-wasi-allah-1999]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: student_of, target: person/abdullah-ibn-ahmad-ibn-hanbal, role: "سمع منه المسند والزهد والفضائل", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: traveled_to, target: place/basra, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: traveled_to, target: place/kufa, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: traveled_to, target: place/mosul, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: traveled_to, target: place/wasit, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }

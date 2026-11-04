@@ -3,23 +3,37 @@ class: person
 label:
   ar: "أبو الحسين الطيوري"
   en: "Abu al-Husayn al-Tayuri"
+names:
+  - { kind: full, lang: ar, value: "المبارك بن عبد الجبار بن أحمد بن القاسم الصيرفي" }
+  - { kind: kunya, lang: ar, value: "أبو الحسين" }
+  - { kind: laqab, lang: ar, value: "ابن الطيوري" }
+  - { kind: alternate, lang: ar, value: "ابن الحمامي" }
 roles: [scholar]
 gender: male
+traditions: [sunni]
 summary:
-  ar: "بطاقة أولية لأبو الحسين الطيوري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Husayn al-Tayuri; the entry is not yet checked on the page."
+  ar: "أبو الحسين المبارك بن عبد الجبار بن أحمد الصيرفي المعروف بابن الطيوري (ت 500هـ)، محدث بغدادي مكثر؛ سمع «فضائل الصحابة» لأحمد من ابن العلاف سنة 436هـ وقرأه عليه ابن ناصر السلامي في رجب سنة 500هـ؛ أثنى عليه السلفي وابن ماكولا وابن السكرة وابن السمعاني، وكان عنده نحو ألف جزء بخط الدارقطني، ورماه المؤتمن الساجي بالكذب فلم يتابعه أحد كما قال الذهبي."
+  en: "Abu al-Husayn al-Mubarak ibn Abd al-Jabbar ibn Ahmad al-Sayrafi, known as Ibn al-Tuyuri (d. 500 AH), a prolific hadith transmitter of Baghdad. He heard Ahmad's Fada'il al-Sahaba from Ibn al-Allaf in 436 and Ibn Nasir al-Salami read it to him in Rajab 500. Al-Silafi, Ibn Makula, Ibn Sukkara and Ibn al-Sam'ani praised him; he owned about a thousand fascicles in al-Daraqutni's hand; al-Mu'taman al-Saji accused him of lying, but, as al-Dhahabi says, no one followed him in that."
 wings: [people]
 regions: [levant-iraq]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam]
+periods: [period/buyid-seljuk-fatimid-era]
+died:
+  { edtf: "1106~", hijri: "0500", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة خمسمائة، عن الذهبي كما ينقل المحقق؛ التحويل مشتق {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.39}", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+faith:
+  - { value: sunni, basis: documented, note: "محدث بغدادي في إسناد كتاب أحمد؛ يُسجَّل ضمن الإطار السني للمتحف.", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+relations:
+  - { type: student_of, target: person/ibn-al-allaf-abu-tahir, role: "سمع منه فضائل الصحابة سنة 436هـ", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: student_of, target: person/abu-ishaq-al-barmaki, role: "روى عنه من أول فضائل عثمان إلى آخر فضائل علي", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: lived_in, target: place/baghdad, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/al-aalam]
 external_ids:
   wikidata: Q134546064
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "فضائل الصحابة، تحقيق وصي الله عباس (ط2 1420هـ) ص37، 39، 54–55؛ البطاقة الأولى من ويكي بيانات"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

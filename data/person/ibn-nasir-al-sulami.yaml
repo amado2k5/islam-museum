@@ -28,15 +28,17 @@ died:
   derived: true
   note: "ترجمته في أخبار سنة خمسين وخمسمائة {cite:shadharat-dhahab p. 635}؛ التحويل مشتق."
 relations:
+  - { type: student_of, target: person/abu-al-husayn-al-tayuri, role: "قرأ عليه فضائل الصحابة في رجب 500هـ", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: teacher_of, target: person/ibn-al-jawzi, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the Fada'il al-Sahaba section from source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 37–38, 1257–1258"
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-117
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/shadharat-dhahab, source/fadail-sahaba-ahmad-wasi-allah-1999]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 occupations:
   - job: job/teacher
     kind: secondary
