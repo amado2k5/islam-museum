@@ -1,0 +1,20 @@
+id: person/zajla-al-abida
+class: person
+label: { ar: "زجلة العابدة مولاة معاوية", en: "Zajla al-Abida, client of Mu'awiya", ur: "زجلہ العابدہ، معاویہ کی مولاۃ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل الشام، مولاة معاوية، يذكرها ابن الجوزي في «صفة الصفوة»؛ صامت حتى اسودّت وبكت حتى عمشت وصلّت حتى أُقعدت، وكانت تغسل ثياب المرابطين على الساحل، وقال سعيد بن عبد العزيز: ما بالشام ولا بالعراق أفضل من زجلة."
+  en: "A devout woman of Syria, a client (mawla) of Mu'awiya, recorded by Ibn al-Jawzi in Sifat al-Safwa: she fasted until her skin darkened, wept until her eyes weakened and prayed until she could only pray seated; she washed the clothes of the frontier garrisons on the coast, and Sa'id ibn Abd al-Aziz said there was none better in Syria or Iraq."
+  ur: "شام کی ایک عابدہ، معاویہ کی مولاۃ، جن کا ذکر ابن الجوزی نے «صفۃ الصفوہ» میں کیا ہے: انہوں نے اتنے روزے رکھے کہ رنگ سیاہ پڑ گیا، اتنا روئیں کہ آنکھیں کمزور ہو گئیں اور اتنی نماز پڑھی کہ بیٹھ کر پڑھنے لگیں؛ وہ ساحل پر سرحدی محافظوں کے کپڑے دھوتیں، اور سعید بن عبد العزیز نے کہا کہ شام اور عراق میں زجلہ سے افضل کوئی نہیں۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, role: "مولاة له", sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.715", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

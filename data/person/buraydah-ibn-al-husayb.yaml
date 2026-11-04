@@ -1,8 +1,10 @@
 id: person/buraydah-ibn-al-husayb
 class: person
+aliases: [person/burayda-ibn-al-husayb]   # merged 4 Nov 2026 (Futuh al-Buldan card); duplicate file removed, the id still resolves
 label:
   ar: بريدة بن الحصيب
   en: Buraydah ibn al-Husayb
+  ur: بریدہ بن الحصیب
 names:
 - kind: full
   lang: ar
@@ -16,6 +18,7 @@ summary:
   ar: صحابي من أسلم؛ قال ابن السكن إنه أسلم حين مرّ به النبي مهاجراً بالغميم وأقام في موضعه حتى مضت بدر وأحد، وغزا مع النبي ست عشرة غزوة، ونزل البصرة ثم غزا خراسان وسكن مرو ومات سنة 63هـ.
   en: A Companion of Aslam; Ibn al-Sakan says he embraced Islam when the Prophet passed him on the Hijra at al-Ghamim and stayed in his place until Badr and Uhud had passed; he took part in sixteen campaigns with the Prophet, settled in Basra,
     campaigned in Khurasan and lived in Merv, dying in 63 AH.
+  ur: قبیلہ اسلم کے ایک صحابی؛ ابن السکن کے مطابق وہ اس وقت مسلمان ہوئے جب نبی ہجرت کرتے ہوئے غمیم میں ان کے پاس سے گزرے؛ نبی کے ساتھ سولہ غزوات میں شریک ہوئے، بصرہ میں رہے، پھر خراسان کی مہم میں گئے اور مرو میں بسے، اور 63ھ میں وفات پائی۔
 wings: [people]
 themes:
 - converts-and-leavers
@@ -41,14 +44,15 @@ relations:
   - source/ibn-hajar-isaba
 provenance:
   layer: own-research
-  source: الإصابة في تمييز الصحابة، ترجمة 660، ص 141
-  generated_by: Claude (maintainer session)
-  model: claude-sonnet-5-5
-  run: isaba-batch-4
+  source: "الإصابة في تمييز الصحابة، ترجمة 660، ص 141؛ فتوح البلدان (مؤسسة المعارف 1407)"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  note: "first written by Claude (maintainer session, claude-sonnet-5-5, isaba-batch-4); merged with the duplicate person/burayda-ibn-al-husayb (Devin SWE-2, Futuh al-Buldan card) by worker E"
 external_ids: { wikidata: "Q4119824" }
 sources:
 - source/ibn-hajar-isaba
+- source/futuh-buldan-maarif-1407
 status:
-  review: draft
-  completeness: 2
-  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 141, entry 660)
+  review: published
+  completeness: 3

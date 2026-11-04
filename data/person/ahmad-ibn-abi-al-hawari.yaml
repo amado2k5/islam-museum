@@ -1,0 +1,24 @@
+id: person/ahmad-ibn-abi-al-hawari
+class: person
+label: { ar: "أحمد بن أبي الحواري", en: "Ahmad ibn Abi al-Hawari", ur: "احمد بن ابی الحواری" }
+gender: male
+roles: [mystic, muhaddith]
+summary:
+  ar: "أحمد بن أبي الحواري (ميمون)، أبو الحسن، زاهد من أهل دمشق وتلميذ أبي سليمان الداراني، سماه الجنيد «ريحانة الشام»؛ روى عن حفص بن غياث وأبي معاوية ووكيع، وتوفي سنة 230هـ بحسب ابن الجوزي في «صفة الصفوة»."
+  en: "Ahmad ibn Abi al-Hawari (Maymun), Abu al-Hasan, an ascetic of Damascus and disciple of Abu Sulayman al-Darani, whom al-Junayd called 'the sweet basil of Syria'; he transmitted from Hafs ibn Ghiyath, Abu Mu'awiya and Waki', and died in 230 AH according to Ibn al-Jawzi's Sifat al-Safwa."
+  ur: "احمد بن ابی الحواری (میمون)، ابو الحسن، دمشق کے ایک زاہد اور ابو سلیمان دارانی کے شاگرد، جنہیں جنید نے «شام کا ریحان» کہا؛ انہوں نے حفص بن غیاث، ابو معاویہ اور وکیع سے روایت کی، اور ابن الجوزی کی «صفۃ الصفوہ» کے مطابق 230ھ میں فوت ہوئے۔"
+died: { edtf: "0844/0845", hijri: "0230", calendar: julian, precision: year, status: tradition, derived: true, note: "وتوفي في سنة ثلاثين ومائتين {cite:sifat-al-safwa-tartusi-2012 p.824}.", sources: [source/sifat-al-safwa-tartusi-2012] }
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكور بين الزهاد في صفة الصفوة لابن الجوزي؛ يُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: student_of, target: person/abu-sulayman-al-darani, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: student_of, target: person/hafs-ibn-ghiyath, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: student_of, target: person/waki-ibn-al-jarrah, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.824", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

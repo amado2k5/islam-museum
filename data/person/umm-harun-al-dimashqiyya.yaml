@@ -1,0 +1,21 @@
+id: person/umm-harun-al-dimashqiyya
+class: person
+label: { ar: "أم هارون الدمشقية", en: "Umm Harun of Damascus", ur: "ام ہارون دمشقیہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل الشام كانت تأكل الخبز وحده وتمشي من دمشق إلى بيت المقدس كل شهر؛ يروي ابن الجوزي في «صفة الصفوة» قول أبي سليمان الداراني: ما كنت أرى أنه يكون بالشام مثلها."
+  en: "A devout woman of Syria who ate only bread and walked from Damascus to Jerusalem once a month; Ibn al-Jawzi's Sifat al-Safwa quotes Abu Sulayman al-Darani: 'I did not think there could be anyone like her in Syria.'"
+  ur: "شام کی ایک عابدہ جو صرف روٹی کھاتیں اور ہر مہینے دمشق سے بیت المقدس پیدل جاتیں؛ ابن الجوزی کی «صفۃ الصفوہ» ابو سلیمان دارانی کا قول نقل کرتی ہے: «میں نہیں سمجھتا تھا کہ شام میں ان جیسی کوئی ہوگی»۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: traveled_to, target: place/jerusalem, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.860", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }
