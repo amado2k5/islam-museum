@@ -6,26 +6,30 @@ names:
 gender: male
 roles: [historian, scholar]
 traditions: [sunni]
-born: { edtf: "1754", hijri: "1167", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1822", hijri: "1237", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+born: { edtf: "1753/1754", hijri: "1167", calendar: gregorian, precision: year, status: tradition, note: "1167هـ في موسوعة أعلام العلماء والأدباء، و«1753/1167» عند المحقق شموئيل موريه (عجائب الآثار 1، مسح ص13).", sources: [source/mawsuat-a3lam-ulama-adaba, source/ajaib-al-athar-moreh-2013-v1] }
+died: { edtf: "1825-05", hijri: "1240-09-24", calendar: gregorian, precision: month, status: debated, derived: true, note: "1237هـ في موسوعة أعلام العلماء والأدباء؛ وسنة 1240هـ عند جرجي زيدان ودافيد أيالون اعتماداً على قراءة النسخة على المؤلف في 14 ربيع الأول 1240؛ وسنة 1241هـ عند أحمد الحضراوي نقلاً عن أمين أفندي الحلواني؛ ويرجّح موريه 24 رمضان 1240هـ استنتاجاً من وثيقة المحكمة الشرعية المؤرخة 27 رمضان 1240 بنظارة أبنائه على أوقافه (عجائب الآثار 1، مسح ص18، 26–28). التحويل الميلادي مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/ajaib-al-athar-moreh-2013-v1] }
 summary:
-  ar: "مؤرخ مصر، ومدوّن وقائعها وسير رجالها في عصر الحملة الفرنسية وما بعدها."
-  en: "The historian of Egypt, who recorded its events and the lives of its men in the era of the French expedition and after."
+  ar: "عبد الرحمن بن حسن الجبرتي العقيلي الزيلعي الحنفي، مؤرخ مصر وصاحب «عجائب الآثار في التراجم والأخبار» و«مظهر التقديس»، دوّن وقائع مصر وتراجم رجالها من سنة 1100هـ إلى 1236هـ، وكُفّ بصره بعد مقتل ابنه خليل سنة 1237هـ؛ واختُلف في سنة وفاته بين 1237 و1240 و1241هـ {cite:ajaib-al-athar-moreh-2013-v1 p.13} {cite:ajaib-al-athar-moreh-2013-v1 p.18} {cite:ajaib-al-athar-moreh-2013-v1 p.27}."
+  en: "Abd al-Rahman ibn Hasan al-Jabarti al-Aqili al-Zayla'i al-Hanafi, historian of Egypt and author of Aja'ib al-athar and Mazhar al-taqdis, who recorded Egypt's events and biographies from 1100 to 1236 AH; he lost his sight after his son Khalil was killed in 1237 AH, and the year of his death is disputed between 1237, 1240 and 1241 AH."
 wings: [people]
 themes: [history-writing-and-social-thought]
 periods: [period/colonial-era]
 regions: [egypt-nile]
+relations:
+  - { type: authored, target: work/ajaib-al-athar, sources: [source/ajaib-al-athar-moreh-2013-v1] }
+  - { type: child_of, target: person/hassan-al-jabarti, sources: [source/ajaib-al-athar-moreh-2013-v1] }
+  - { type: student_of, target: person/murtada-al-zabidi, sources: [source/ajaib-al-athar-moreh-2013-v1] }
 story_roles:
   - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids:
   wikidata: Q658401
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/ajaib-al-athar-moreh-2013-v1, source/ajaib-al-athar-moreh-2013-v4]
 status:
   review: published
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص102"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch47
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص102; source/ajaib-al-athar-moreh-2013-v1 scan pp. 13-28"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "prose-fill-persons-batch47; ocr-harvest-2026-11-04"

@@ -1,17 +1,30 @@
 id: work/adwa-al-bayan
 class: work
 kind: book
-label: { ar: "أضواء البيان في إيضاح القرآن بالقرآن", en: "Adwa' al-Bayan" }
+label: { ar: "أضواء البيان في إيضاح القرآن بالقرآن", en: "Adwa' al-Bayan", ur: "اضواء البیان فی ایضاح القرآن بالقرآن" }
 summary:
-  ar: "بطاقة أولية لـأضواء البيان في إيضاح القرآن بالقرآن؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Adwa' al-Bayan; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "تفسير محمد الأمين بن محمد المختار الجكني الشنقيطي (1325–1393هـ)، أكبر كتبه وأعظمها، يقوم على بيان القرآن بالقرآن، ويتوسع في المسائل الفقهية وفي تقرير عقيدة أهل السنة في الصفات؛ بلغ فيه سورة المجادلة، وأتمه تلميذه عطية سالم في المجلدين الثامن والتاسع من المطبوع."
+  en: "The commentary of Muhammad al-Amin ibn Muhammad al-Mukhtar al-Jakani al-Shinqiti (1325–1393 AH), the largest and greatest of his books, built on explaining the Qur'an by the Qur'an and expanding on legal questions and on the Sunni creed concerning the attributes; he reached Surat al-Mujadila, and his student Atiyya Salim completed it in volumes 8 and 9 of the printing."
+  ur: "محمد الامین بن محمد المختار الجکنی الشنقیطی (1325–1393ھ) کی تفسیر، ان کی سب سے بڑی اور عظیم کتاب، جو قرآن کی قرآن سے وضاحت پر قائم ہے، اور فقہی مسائل اور صفات میں اہلِ سنت کے عقیدے کی تقریر میں تفصیل کرتی ہے؛ وہ سورۂ مجادلہ تک پہنچے، اور ان کے شاگرد عطیہ سالم نے مطبوعہ کی آٹھویں اور نویں جلد میں اسے مکمل کیا۔"
+genre: [tafsir]
+authors: [person/muhammad-al-amin-al-shinqiti-al-jakani]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/athar-shinqiti-adwa-ataat-2019-v1] }
+structure: "In the series edition, seven volumes (vol. 1: al-Fatiha to al-Nisa'); the older printing has nine parts, of which parts 8 and 9 are Atiyya Salim's completion (tatimma), part 9 beginning with al-Naba'."
+relations:
+  - { type: about, target: concept/tafsir-bil-mathur, sources: [source/athar-shinqiti-adwa-ataat-2019-v1] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/contemporary-era]
+regions: [arabia]
 external_ids: { wikidata: "Q22684228" }
+sources: [source/al-aalam, source/athar-shinqiti-adwa-ataat-2019-v1, source/tatimmat-adwa-al-bayan-1400-j9]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/athar-shinqiti-adwa-ataat-2019-v1 PDF pp. 1–2, 12–18, 24–25, 28, 35; source/tatimmat-adwa-al-bayan-1400-j9 PDF pp. 1–2. Earlier card: Wikidata candidate (Devin, wikidata-import-wave2)."
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  enriched_by:
+    - { generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: wikidata-import-wave2, source: "Wikidata candidate (original card)" }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
