@@ -1,17 +1,29 @@
 id: work/maalim-al-tanzil
 class: work
 kind: book
-label: { ar: "معالم التنزيل", en: "Ma'alim al-Tanzil" }
+label: { ar: "معالم التنزيل", en: "Ma'alim al-Tanzil", ur: "معالم التنزیل" }
 summary:
-  ar: "بطاقة أولية لتفسير معالم التنزيل للبغوي، التفسير السني الذي اعتمده كثير من المتأخرين؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for al-Baghawi's Ma'alim al-Tanzil, the Sunni commentary heavily used by later exegetes; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "تفسير الحسين بن مسعود البغوي (ت 516هـ)، المعروف بتفسير البغوي؛ ألّفه إجابة لسؤال جماعة من أصحابه، وجعله وسطًا بين الطويل الممل والقصير المخل، يفسر القرآن بالقرآن والحديث والأثر بإسناده، ويعنى بالقراءات والأحكام، ويعرض رأي أهل السنة وينتصر له مع ذكر آراء مخالفيهم."
+  en: "The Qur'an commentary of al-Husayn ibn Mas'ud al-Baghawi (d. 516 AH), known as Tafsir al-Baghawi; written at the request of a group of his companions as a middle course between the tediously long and the deficiently short, it explains the Qur'an by the Qur'an, hadith and reports with his own chains, attends to readings and legal rulings, and sets out and defends the Sunni view while recording its opponents' views."
+  ur: "حسین بن مسعود البغوی (م 516ھ) کی تفسیر، جو تفسیرِ بغوی کے نام سے معروف ہے؛ انہوں نے اسے اپنے ساتھیوں کی ایک جماعت کی درخواست پر لکھا، طویل اکتا دینے والی اور مختصر ناقص تفسیر کے درمیان، جس میں قرآن کی تفسیر قرآن، حدیث اور آثار سے اپنی اسناد کے ساتھ، قراءتوں اور احکام کا اہتمام، اور اہلِ سنت کی رائے کا بیان و دفاع مخالفین کی آرا کے ذکر کے ساتھ ہے۔"
+genre: [tafsir]
+authors: [person/al-baghawi-al-husayn-ibn-muhammad]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/tahdhib-tafsir-baghawi-tayba-2009] }
+relations:
+  - { type: about, target: concept/tafsir-bil-mathur, sources: [source/tahdhib-tafsir-baghawi-tayba-2009] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
 external_ids: { wikidata: "Q3513801" }
+sources: [source/al-aalam, source/tahdhib-tafsir-baghawi-tayba-2009]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in tafsir histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/tahdhib-tafsir-baghawi-tayba-2009 PDF pp. 3–7. Earlier card: Wikidata candidate (Devin, wikidata-import-wave2)."
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  enriched_by:
+    - { generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: wikidata-import-wave2, source: "Wikidata candidate (original card)" }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
