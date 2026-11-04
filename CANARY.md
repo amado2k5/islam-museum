@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 97).
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 96).
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 95).
 - **Harvest drive: missing books acquired**: 22 books the library plans named but the drive lacked (among them Sunan Abi Dawud with al-Khattabi's Ma'alim, Hilyat al-Awliya', al-Muhalla, al-Khallal's al-Sunna, Ibn Khuzayma's Kitab al-Tawhid, al-Ash'ari's al-Ibana, Nuzhat al-Nazar, Irshad al-Fuhul, Ibn Nubata's sermons, Ibn Uthaymin's sermons, al-Jahiz's al-Hayawan, Uyun al-Akhbar, Ibn Hawqal and Ibn Hayyan) were downloaded from open archive.org items with checksums, OCR'd on the founder's Mac and queued for harvest; six new titles are added to the library canon (`books.yaml`).
