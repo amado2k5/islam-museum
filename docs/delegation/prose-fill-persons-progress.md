@@ -630,3 +630,9 @@ Promoted: abd-al-qadir-al-rahawi, abdallah-al-yunini, al-fasihi-al-istrabadhi, a
 Promoted: abd-al-qadir-al-sabki, abd-al-rahman-ibn-ziyad-zabidi, abd-allah-al-fakihi, ahmad-ibn-al-aydarus, al-hamadani-taj-al-din, al-sharani, al-tablawi, ali-al-muttaqi-hindi, bayezid-ibn-sulayman, dada-khalifa, fatima-bint-quraymizan, humayun-mughal, ibn-hajar-al-haytami, ibn-nujaym, jaafari-tabrizi-qadi, maaruf-al-shibi, musa-al-hajjawi, saad-al-din-ibn-iraq, sharbi-miknasi, tashkopruzade.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1689.** sweep continues through remaining trilingual drafts.
+
+### Batch 93 (4 Nov 2026, 20 records) — lib-wafayat-batch-9 draft promotions (sweep worker)
+
+Promoted: abdallah-ibn-yusuf-al-juwayni, abu-al-marhaf-al-namiri, abu-dalama, abu-hashim-al-jubai, abu-sad-al-mutawalli, abu-said-ibn-yunus-al-sadafi, abu-zayd-al-dabusi, al-muayyad-radi-al-din-al-naysaburi, al-qadi-al-numan, al-sayyida-nafisa, bahaa-al-din-zuhayr, buri-ibn-ayyub, dik-al-jinn, hammad-ibn-abi-hanifa, ibn-abi-asrun, ibn-naqiya, khalid-ibn-khudash, mihyar-al-daylami, shabib-ibn-shayba, shaqiq-al-balkhi.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1709.** sweep continues through remaining trilingual drafts.
