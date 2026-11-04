@@ -15,11 +15,13 @@
 ## Done
 - **Batch 1** (introduction lithograph v1 PDF pp. 5–8; Bijawi part 3 printed pp. 3, 93–97, 468–475, 498–499, 506–508, 659–666, 681–683): sources ×3; `work/mizan-al-itidal` (new, full trio); `question/riwayat-ahl-al-bida` (new, Sunni perspectives Ibn Sirin / al-Dhahabi; academic + other still to add); `person/muhammad-ibn-jarir-ibn-rustam` (new); `person/ibn-hibban` (data rewritten from draft; first prose trio); enriched with Mizan sections + perspectives: `person/ibn-ishaq`, `person/al-waqidi` (father's name Umar vs Amr; death 207 vs 209 both kept), `person/al-tabari`, `person/ibn-arabi-muhyi-al-din`, `person/ikrima-mawla-ibn-abbas` (death 105/106/107), `person/al-dhahabi`, `concept/jarh-wa-tadil`.
 
+- **Batch 2** (Bijawi part 3 printed pp. 70–73, 138–141, 186–189, 263–268, 273–280, 420–423): enriched with Mizan sections + Sunni-critic perspectives: `person/amr-ibn-ubayd` (Mu'tazila origins; al-Dhahabi rejects the Dahri charge; Mu'tazili view still to source), `person/ali-ibn-al-madini` (Mihna; al-Dhahabi's rebuttal of al-Uqayli and his rule on solitary reports), `person/amr-ibn-shuayb` (the «عن أبيه عن جده» chain debate; death 118 at Ta'if added), `person/ata-ibn-saib` (first prose; the Kufan mukhtalit, death c. 136), `person/layth-ibn-abi-sulaym` (death 143 «قيل» vs al-Mas'udi 158, both kept), `person/ibn-dihya` (lineage, Ibn Wasil/Ibn Nuqta tests; birth 542-or-after vs ~546 kept).
+
 ## Flags / doubts
 - `person/ibn-ishaq` has `child_of person/yasar-mawla-qays` from an earlier lane; by the nasab (محمد بن إسحاق بن يسار) Yasar is his **grandfather**. Not changed (another lane's edge); flagged here.
-- `person/ata-ibn-al-saib` and `person/ata-ibn-saib` look like duplicates (another lane's); not touched.
+- `person/ata-ibn-al-saib` (al-Khashl, Balkh, from Futuh al-Buldan) and `person/ata-ibn-saib` (the Kufan traditionist) are two different men, not duplicates; the Kufan one was enriched and the prose says so.
 - Ibn Abd al-Salam's word on Ibn Arabi reads «شيعى سوء» in the OCR; read as «شيخ سوء» (agrees with the Shadharat record already in the museum).
 - Contested entries carry `sensitivity: contested` and Sunni-critic perspectives (all critics are Sunni; academic views not yet sourced).
 
 ## Next
-Other long entries of part 3: عمرو بن عبيد (p. 273–), عمرو بن شعيب (263–), علي بن المديني (138–), عثمان بن أبي شيبة (35–), عطاء بن السائب/الخراساني (70–75), ابن دحية (186), ابن أبي ليلى (613), قيس بن الربيع (393), علي بن زيد بن جدعان (127), الليث بن أبي سليم (420), محمد بن عجلان (644), ابن الثلجي (577), محمد بن سعيد المصلوب (561), عكرمة بن عمار (90), عمر بن سعد, الفرزدق (343), عين القضاة.
+Other long entries of part 3: عثمان بن أبي شيبة (35–), عطاء الخراساني (73–), ابن أبي ليلى (613), قيس بن الربيع (393), علي بن زيد بن جدعان (127), محمد بن عجلان (644), ابن الثلجي (577), محمد بن سعيد المصلوب (561), عكرمة بن عمار (90), عمر بن سعد, الفرزدق (343), عين القضاة.
