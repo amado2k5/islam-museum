@@ -1,0 +1,15 @@
+id: person/akram-diya-al-umari
+class: person
+label: { ar: "أكرم ضياء العمري", en: "Akram Diya' al-Umari", ur: "اکرم ضیاء العمری" }
+gender: male
+roles: [historian, scholar]
+summary:
+  ar: "الدكتور أكرم ضياء العمري، مؤرخ ومحدّث معاصر صاحب «السيرة النبوية الصحيحة» الذي حاول فيه تطبيق قواعد المحدثين في نقد روايات السيرة، وله مقال عن موسى بن عقبة يذكره في كتابه."
+  en: "Dr Akram Diya' al-Umari, a contemporary historian and hadith scholar, author of al-Sira al-Nabawiyya al-Sahiha, in which he sets out to apply the hadith scholars' rules to the criticism of sira reports; he also wrote an article on Musa ibn Uqba, which he mentions in the book."
+wings: [people]
+periods: [period/contemporary-era]
+relations:
+  - { type: authored, target: work/al-sira-al-nabawiyya-al-sahiha-umari, sources: [source/sahih-sira-umari-ulum-hikam-1994] }
+provenance: { layer: own-research, source: "source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 2, 5, 54", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sahih-sira-umari-ulum-hikam-1994]
+status: { review: published, completeness: 2 }

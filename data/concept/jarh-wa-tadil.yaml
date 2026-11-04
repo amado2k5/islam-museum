@@ -13,7 +13,8 @@ regions: [arabia]
 relations:
   - { type: related_to, target: concept/isnad, sources: [source/manhaj-tawthiq-al-sunna-azhar] }
   - { type: related_to, target: concept/mustalah-al-hadith, sources: [source/manhaj-tawthiq-al-sunna-azhar] }
-sources: [source/manhaj-tawthiq-al-sunna-azhar, source/mizan-itidal-azimabadi-v1]
+  - { type: related_to, target: concept/ikhtilat-al-ruwat, sources: [source/tadrib-rawi-awwama-v5] }
+sources: [source/manhaj-tawthiq-al-sunna-azhar, source/mizan-itidal-azimabadi-v1, source/tadrib-rawi-awwama-v5]
 provenance:
   layer: own-research
   source: "منهج توثيق السنة النبوية الشريفة للفيومي، ص ٤٣–٥٠؛ صياغة المتحف"
@@ -21,4 +22,5 @@ provenance:
   model: claude-haiku-5-5
   run: azhar-manhaj-tawthiq-2026-10-21, ocr-harvest-2026-11-04
   mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5: mizan-itidal-azimabadi-v1 PDF pp. 5–8"
-status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }
+  tadrib_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: tadrib-rawi-awwama-v5 printed pp. 541–552 (type 61)"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); Claude Code (OCR-harvest worker F)" }

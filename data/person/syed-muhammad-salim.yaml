@@ -1,0 +1,24 @@
+id: person/syed-muhammad-salim
+class: person
+label: { ar: "سيد محمد سليم (المؤرخ الباكستاني)", en: "Syed Muhammad Salim (Pakistani historian)", ur: "پروفیسر سید محمد سلیم" }
+summary:
+  ar: "أستاذ ومؤرخ باكستاني، وُلد في تجاره بولاية ألور في 22 أيلول 1922م، درس العربية في عليكره، وعمل في كليات السند، وألّف «تاريخ خط وخطاطين» الذي نُشر بعد وفاته سنة 2001م {cite:salim-tarikh-khatt-o-khattatin-2001 p. 14}."
+  en: "Pakistani educator and historian, born at Tijara in Alwar State on 22 September 1922, who studied Arabic at Aligarh, taught in colleges in Sindh and wrote Tarikh-i Khatt o Khattatin, published posthumously in 2001 {cite:salim-tarikh-khatt-o-khattatin-2001 p. 14}."
+  ur: "پاکستانی ماہرِ تعلیم اور مؤرخ، 22 ستمبر 1922ء کو ریاست الور کے قصبے تجارہ میں پیدا ہوئے، علی گڑھ میں عربی پڑھی، سندھ کے کالجوں میں پڑھایا اور «تاریخِ خط و خطاطین» لکھی جو 2001ء میں ان کی وفات کے بعد شائع ہوئی {cite:salim-tarikh-khatt-o-khattatin-2001 p. 14}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [south-asia]
+gender: male
+roles: [historian, teacher, scholar]
+periods: [period/contemporary-era]
+born: { edtf: "1922-09-22", hijri: "1341-01-28", calendar: gregorian, precision: day, status: historical }
+relations:
+  - { type: authored, target: work/tarikh-e-khatt-o-khattatin, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+sources: [source/salim-tarikh-khatt-o-khattatin-2001]
+provenance:
+  layer: own-research
+  source: "source/salim-tarikh-khatt-o-khattatin-2001 scan pp. 7, 14, 15, 16"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

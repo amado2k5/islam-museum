@@ -32,12 +32,16 @@ relations:
   - { type: participated_in, target: event/jahiz-zayyat-fall-233, role: "الملازم لابن الزيات", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/jahiz-mutawakkil-audience, role: "المعروض مؤدباً", sources: [source/muruj-al-dhahab, source/wafayat-ayan] }
   - { type: participated_in, target: event/jahiz-final-years-basra, role: "المصاب بالفالج", sources: [source/wafayat-ayan] }
+  - { type: student_of, target: person/al-nazzam, sources: [source/hayawan-jahiz-ilmiyya-2003-v1] }
+  - { type: student_of, target: person/thumama-ibn-ashras, sources: [source/hayawan-jahiz-ilmiyya-2003-v1] }
+  - { type: student_of, target: person/abu-yusuf-al-qadi, sources: [source/hayawan-jahiz-ilmiyya-2003-v1] }
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 224–225"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-66
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 224–225; Kitab al-Hayawan (Dar al-Kutub al-'Ilmiyya 2003) vol. 1 p. 4 (teachers)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker G)"
+  run: ocr-harvest-2026-11-04
+  model: claude-opus-5-5
 external_ids:
   wikidata: Q293497
-sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/kashf-zunun-furqan, source/mawsuat-a3lam-ulama-adaba, source/juha-nawadir-kubra-djuwaydi, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
-status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/kashf-zunun-furqan, source/mawsuat-a3lam-ulama-adaba, source/juha-nawadir-kubra-djuwaydi, source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/hayawan-jahiz-ilmiyya-2003-v1]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker G)" }

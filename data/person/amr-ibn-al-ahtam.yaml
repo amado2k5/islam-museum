@@ -23,8 +23,8 @@ relations:
   - { type: member_of, target: group/banu-minqar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-banu-tamim, role: "أصغر الوفد سناً؛ خُلّف في الإبل", sources: [source/ibn-hisham-saqqa] }
   - { type: authored, target: work/amr-ibn-al-ahtam-satire-of-qays-ibn-asim, sources: [source/ibn-hisham-saqqa] }
-sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High) from Futuh al-Buldan; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 206-213" }
+sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa, source/mustadrak-ilmiyya-ata-v3]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High) from Futuh al-Buldan; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 206-213; enriched by Claude Code (OCR-harvest worker A), claude-opus-5-5, run ocr-harvest-2026-11-04, from al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 710-711" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ) ص408؛ سيرة ابن هشام (السقا 1936) ج4 ص206-213"

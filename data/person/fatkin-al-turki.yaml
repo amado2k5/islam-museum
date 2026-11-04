@@ -11,7 +11,10 @@ periods: [period/buyid-seljuk-fatimid-era]
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الرابع (عارضة داخل ترجمة عضد الدولة)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
-  run: lib-wafayat-batch-12
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch119
 sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
