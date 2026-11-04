@@ -1,0 +1,43 @@
+id: question/credibility-of-ibn-battuta
+class: question
+label: { ar: "هل تُصدَّق أخبار ابن بطوطة عن عجائب الهند؟", en: "Should Ibn Battuta's tales of India be believed?", ur: "کیا ہند کے عجائب کے بارے میں ابن بطوطہ کی خبریں مانی جائیں؟" }
+summary:
+  ar: "يحكي ابن خلدون، في نص نقله مصحح طبعة القاهرة سنة 1322هـ في ذيل الجزء الأول من الرحلة، أن الناس في دولة أبي عنان تناجوا بتكذيب ابن بطوطة فيما يحدّث به عن ملك الهند، وأن الوزير فارس بن ودرار نهاه عن إنكار ما لم يره، ثم يقرر ابن خلدون قاعدة الإمكان بحسب المادة؛ ويقرر ابن جزي في خطبة الرحلة أنه أورد ما حكاه ابن بطوطة دون أن يبحث عن حقيقته، ويقسم ابن بطوطة أن ما نقله من كرم سلطان الهند حق."
+  en: "Ibn Khaldun, in a passage the corrector of the 1322 AH Cairo edition quotes in an appendix to part one of the Rihla, relates that at Abu Inan's court people whispered that Ibn Battuta was lying about the king of India, that the vizier Faris ibn Wadrar warned him not to deny what he had not seen, and then states his rule of what is possible given a thing's nature; Ibn Juzayy says in his preface that he set down Ibn Battuta's stories without investigating them, and Ibn Battuta swears that what he reports of the Indian sultan's generosity is true."
+question: { ar: "هل تُصدَّق أخبار ابن بطوطة عن عجائب الهند؟", en: "Should Ibn Battuta's tales of India be believed?" }
+issue: { ar: "كيف تلقّى معاصرو ابن بطوطة ما رواه من عجائب البلاد، وبأي ميزان يُحكم على الخبر الغريب؟" }
+short_answer:
+  ar: "ابن بطوطة: ما ينقله من كرم سلطان الهند حق شاهده؛ ابن جزي: نقل الحكايات كما رُويت دون اختبار؛ ابن خلدون: أهل الدولة تناجوا بتكذيبه، والوزير فارس بن ودرار حذّر من إنكار ما لم يُرَ، والميزان عنده الإمكان بحسب طبيعة الشيء."
+  en: "Ibn Battuta: what he reports of the Indian sultan's generosity is truth he witnessed. Ibn Juzayy: he recorded the stories as told, without testing them. Ibn Khaldun: courtiers whispered that he lied; the vizier Faris ibn Wadrar warned against denying what one has not seen; his own yardstick is possibility according to a thing's nature."
+perspectives:
+  - tradition: sunni-maliki
+    id: ibn-battuta-oath
+    standing: main
+    stance: { ar: "ما نقلته من كرم السلطان حق يقين شاهدته", en: "What I report of the sultan's generosity is certain truth I witnessed" }
+    summary: { ar: "يقول ابن بطوطة إن معظم أخبار محمد شاه مما شاهده بنفسه، ويشهد بالله وملائكته ورسله أن ما ينقله من كرمه الخارق للعادة حق، مع علمه بأن بعضه لا يسعه عقل كثير من الناس، ويقول إن أكثره ثابت بالتواتر في بلاد المشرق.", en: "Ibn Battuta says most of what he reports of Muhammad Shah he saw himself, swears by God, His angels and His messengers that what he relates of the sultan's extraordinary generosity is true, knowing that many people's minds cannot take some of it, and says most of it is established by widespread report in the East." }
+    holders: [person/ibn-battuta-muhammad]
+    evidence: [{ ref: source/rihla-ibn-battuta-khayriyya-1904, note: { ar: "الجزء الثاني، ص 40-41 المطبوعة (ص 354-355 من المسح)" } }]
+    sources: [source/rihla-ibn-battuta-khayriyya-1904]
+  - tradition: sunni-maliki
+    id: ibn-juzayy-preface
+    standing: main
+    stance: { ar: "أوردت الحكايات كما حكاها دون بحث عن حقيقتها", en: "I set down the stories as he told them without investigating their truth" }
+    summary: { ar: "يقول ابن جزي إنه أورد جميع ما أورده الشيخ من الحكايات والأخبار ولم يتعرض للبحث عن حقيقتها ولا لاختبارها، ويذكر أن ابن بطوطة سلك في إسناد صحاحها أقوم المسالك وخرج عن عهدة سائرها بألفاظ تشعر بذلك.", en: "Ibn Juzayy says he included all the shaykh's stories and reports without undertaking to investigate or test them, and that Ibn Battuta took the soundest course in vouching for the sound ones and freed himself of responsibility for the rest by wording that signals it." }
+    holders: [person/ibn-juzayy-muhammad]
+    evidence: [{ ref: source/rihla-ibn-battuta-khayriyya-1904, note: { ar: "خطبة ابن جزي، ص 14-15 من المسح" } }]
+    sources: [source/rihla-ibn-battuta-khayriyya-1904]
+  - tradition: sunni-maliki
+    id: ibn-khaldun-muqaddima
+    standing: main
+    stance: { ar: "لا يُنكر الخبر لمجرد غرابته؛ والميزان الإمكان بحسب طبيعة الشيء", en: "A report is not denied merely for being strange; the yardstick is what is possible given the thing's nature" }
+    summary: { ar: "يذكر ابن خلدون أن ابن بطوطة كان يحدّث في دولة أبي عنان بعجائب ملك الهند، كإحصائه أهل مدينته وفرض أرزاقهم ستة أشهر، ونثره الدراهم والدنانير بالمجانيق، فتناجى الناس بتكذيبه، وأنه لقي الوزير فارس بن ودرار فأراه إنكار ذلك، فحذّره الوزير أن ينكر ما لم يره فيكون كابن الوزير الذي نشأ في السجن فظن كل لحم لحم فأر؛ ثم يقرر أن المرء يميّز الممكن من الممتنع بعقله، وأن المراد الإمكان بحسب مادة الشيء لا الإمكان العقلي المطلق.", en: "Ibn Khaldun relates that at Abu Inan's court Ibn Battuta told of the marvels of the king of India, such as counting the people of his city and paying them six months' provisions, and scattering dirhams and dinars from catapults, so that people whispered he was lying; Ibn Khaldun met the vizier Faris ibn Wadrar and expressed his doubts, and the vizier warned him not to deny what he had not seen, lest he be like the vizier's son raised in prison who thought every meat was mouse meat; Ibn Khaldun then lays down that one should distinguish the possible from the impossible by sound reason, meaning possibility according to a thing's matter, not absolute logical possibility." }
+    holders: [person/ibn-khaldun]
+    evidence: [{ ref: source/rihla-ibn-battuta-khayriyya-1904, note: { ar: "ذيل الجزء الأول، نقلاً عن المقدمة، ص 303-304 المطبوعة (ص 313-314 من المسح)" } }]
+    sources: [source/rihla-ibn-battuta-khayriyya-1904]
+related: [person/ibn-battuta-muhammad, person/ibn-juzayy-muhammad, person/ibn-khaldun, person/abu-inan-faris, person/muhammad-ibn-tughluq, work/rihla-ibn-battuta]
+wings: [ideas, words]
+themes: [travel, history-writing-and-social-thought]
+sensitivity: contested
+sources: [source/rihla-ibn-battuta-khayriyya-1904]
+provenance: { layer: own-research, source: "source/rihla-ibn-battuta-khayriyya-1904 scan pp. 14-15, 313-314, 354-355", generated_by: "Claude Code (OCR-harvest worker J)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

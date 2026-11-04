@@ -1,0 +1,24 @@
+id: building/rawda-citadel
+class: building
+kind: fort
+label: { ar: "قلعة الروضة (قلعة الصالح أيوب)", en: "Citadel of Rawda Island (al-Salih Ayyub's citadel)", ur: "قلعۂ روضہ (الصالح ایوب کا قلعہ)" }
+summary:
+  ar: "قلعة بناها السلطان الصالح نجم الدين أيوب في جزيرة الروضة بين 1239 و1244م مقراً للحكم وثكنة لألف من مماليكه الذين عُرفوا بالبحرية {cite:yeomans-islamic-cairo-2006 p.118}."
+  en: "The citadel Sultan al-Salih Najm al-Din Ayyub built on Rawda Island in 1239-1244 as his seat of government and barracks for a thousand Mamluks, who came to be called the Bahriyya {cite:yeomans-islamic-cairo-2006 p.118}."
+wings: [objects, place]
+themes: [architecture]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+built: { edtf: "1239/1244", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 118: built 1239-1244; sixty towers per al-Maqrizi." }
+patron: person/al-malik-al-salih-ayyub
+location: place/cairo
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 105, 118-119"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

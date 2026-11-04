@@ -1,0 +1,24 @@
+id: building/mausoleum-of-the-abbasid-caliphs-cairo
+class: building
+kind: tomb
+label: { ar: "قبة الخلفاء العباسيين بالقاهرة", en: "Mausoleum of the Abbasid Caliphs, Cairo", ur: "عباسی خلفا کا مقبرہ، قاہرہ" }
+summary:
+  ar: "قبة أيوبية قرب مشهد السيدة نفيسة، أقدم شاهد مؤرخ فيها لأبي نضلة رسول الخليفة (ت 1242م)، دُفن فيها ابنا بيبرس ثم خلفاء بني العباس في القاهرة، وزخرفتها الداخلية من أبهى زخارف العصر {cite:yeomans-islamic-cairo-2006 p.121} {cite:yeomans-islamic-cairo-2006 p.122} {cite:yeomans-islamic-cairo-2006 p.123}."
+  en: "An Ayyubid mausoleum near the shrine of Sayyida Nafisa; its oldest dated cenotaph is that of Abu Nadla, the caliph's envoy (d. 1242); Baybars's sons and later the Cairo Abbasid caliphs were buried there; its interior decoration is among the richest of its age {cite:yeomans-islamic-cairo-2006 p.121} {cite:yeomans-islamic-cairo-2006 p.122} {cite:yeomans-islamic-cairo-2006 p.123}."
+wings: [objects, place]
+themes: [architecture]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+built: { edtf: "1242", calendar: julian, precision: year, status: debated, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 121: oldest inscribed cenotaph that of Abu Nadlah (d. 1242), possibly the building's date; attribution of the builder uncertain." }
+location: place/cairo
+status_now: standing
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 121-123"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

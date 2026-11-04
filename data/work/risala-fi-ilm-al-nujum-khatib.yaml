@@ -1,0 +1,23 @@
+id: work/risala-fi-ilm-al-nujum-khatib
+class: work
+kind: book
+label: { ar: "رسالة في علم النجوم للخطيب البغدادي", en: "al-Khatib al-Baghdadi's Risala fi ilm al-nujum", ur: "خطیب بغدادی کا رسالہ فی علم النجوم" }
+summary:
+  ar: "رسالة للخطيب البغدادي (ت 463هـ) تميز علم نجوم مقبولًا له أصل في القرآن والسنة والآثار من علم مردود، محفوظة في نسخة واحدة في السليمانية، ونقل عنها السيوطي {cite:heinen-islamic-cosmology p. 34} {cite:heinen-islamic-cosmology p. 35}."
+  en: "A treatise by al-Khatib al-Baghdadi (d. 463 AH) distinguishing an acceptable science of the stars rooted in Qur'an, Sunna and early reports from a rejected one, extant in a single Süleymaniye manuscript and quoted by al-Suyuti {cite:heinen-islamic-cosmology p. 34} {cite:heinen-islamic-cosmology p. 35}."
+  ur: "خطیب بغدادی (م 463ھ) کا رسالہ جو قرآن، سنت اور آثار میں اصل رکھنے والے مقبول علمِ نجوم کو مردود علم سے الگ کرتا ہے؛ سلیمانیہ میں واحد نسخہ، سیوطی نے اس سے نقل کیا {cite:heinen-islamic-cosmology p. 35}."
+wings: [ideas, words]
+themes: [cosmology-and-creation, scripture-and-its-sciences]
+authors: [person/al-khatib-al-baghdadi-ahmad]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/heinen-islamic-cosmology] }
+relations:
+  - { type: influenced, target: work/al-haya-al-saniyya-suyuti, sources: [source/heinen-islamic-cosmology] }
+sources: [source/heinen-islamic-cosmology]
+provenance:
+  layer: own-research
+  source: "source/heinen-islamic-cosmology scan pp. 34–35"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

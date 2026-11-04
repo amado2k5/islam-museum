@@ -24,5 +24,8 @@ relations:
   - { type: student_of, target: person/abd-al-rahman-ibn-mahdi, sources: [source/tabaqat-shafiiyya-subki] }
   - { type: student_of, target: person/abd-al-razzaq-al-sanani, sources: [source/tabaqat-shafiiyya-subki] }
 external_ids: { wikidata: "Q2470048" }
-sources: [source/tabaqat-shafiiyya-subki]
+sources: [source/tabaqat-shafiiyya-subki, source/mizan-itidal-bijawi-v3]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+provenance:
+  layer: own-research
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 138–141 (entry 5874)"
