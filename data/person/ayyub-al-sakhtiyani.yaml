@@ -1,19 +1,31 @@
 id: person/ayyub-al-sakhtiyani
 class: person
-label: { ar: "أيوب السختياني", en: "Ayyub al-Sakhtiyani" }
+label: { ar: "أيوب السختياني", en: "Ayyub al-Sakhtiyani", ur: "ایوب سختیانی" }
 names:
   - { kind: full, lang: ar, value: "أبو بكر أيوب بن أبي تميمة السختياني" }
+  - { kind: kunya, lang: ar, value: "أبو بكر" }
+  - { kind: nisba, lang: ar, value: "السختياني" }
 gender: male
-roles: [jurist, scholar]
+roles: [jurist, scholar, muhaddith]
 traditions: [sunni]
 summary:
-  ar: "أبو بكر أيوب بن أبي تميمة السختياني، مولى، مات سنة إحدى وثلاثين ومائة {cite:tabaqat-fuqaha-abbas-1981 p. 47}. قال الحسن: أيوب سيد شباب أهل البصرة، وقال شعبة: أيوب سيد الفقهاء، وأخذ عنه مالك وسفيان الثوري وغيرهما {cite:tabaqat-fuqaha-abbas-1981 p. 47}."
+  ar: "أبو بكر أيوب بن أبي تميمة السختياني، واسم أبي تميمة كيسان، من سبي كابل، مولى لعنزة وقيل غير ذلك، كان يبيع الجلود بالبصرة فقيل له السختياني؛ أحد أئمة الجماعة في الحديث والأمانة، ومن شيوخ مالك، مات سنة إحدى وثلاثين ومائة {cite:tamhid-furqan-2017-v1 p. 597} {cite:tamhid-furqan-2017-v1 p. 600} {cite:tabaqat-fuqaha-abbas-1981 p. 47}. قال الحسن: أيوب سيد شباب أهل البصرة، وقال شعبة: أيوب سيد الفقهاء، وأخذ عنه مالك وسفيان الثوري وغيرهما {cite:tabaqat-fuqaha-abbas-1981 p. 47}."
+  en: "Abu Bakr Ayyub b. Abi Tamima al-Sakhtiyani — Abu Tamima's name was Kaysan, taken captive at Kabul — a client of 'Anaza (or of others, by other reports) who sold leather in Basra, hence the name al-Sakhtiyani; one of the imams of the community in hadith and trustworthiness and a teacher of Malik, he died in 131 AH {cite:tamhid-furqan-2017-v1 p. 597} {cite:tamhid-furqan-2017-v1 p. 600} {cite:tabaqat-fuqaha-abbas-1981 p. 47}. Al-Hasan called him the master of Basra's young men, Shu'ba the master of the jurists; Malik and Sufyan al-Thawri took from him {cite:tabaqat-fuqaha-abbas-1981 p. 47}."
+  ur: "ابو بکر ایوب بن ابی تمیمہ سختیانی — ابو تمیمہ کا نام کیسان تھا، کابل کے قیدیوں میں سے — عنزہ کے مولیٰ (اور دوسری روایات میں کسی اور کے)، بصرہ میں چمڑا بیچتے تھے اس لیے سختیانی کہلائے؛ حدیث اور امانت میں جماعت کے ائمہ میں سے اور امام مالک کے شیخ، 131ھ میں فوت ہوئے {cite:tamhid-furqan-2017-v1 p. 597} {cite:tamhid-furqan-2017-v1 p. 600} {cite:tabaqat-fuqaha-abbas-1981 p. 47}۔ حسن نے انہیں بصرہ کے نوجوانوں کا سردار اور شعبہ نے فقہاء کا سردار کہا؛ مالک اور سفیان ثوری نے ان سے علم لیا {cite:tabaqat-fuqaha-abbas-1981 p. 47}۔"
 wings: [people]
-died: { hijri: "0131", edtf: "0749~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة إحدى وثلاثين ومائة (PDF ص47).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+themes: [scripture-and-its-sciences, slavery-and-freedom]
+periods: [period/umayyad]
+regions: [levant-iraq]
+died: { hijri: "0131", edtf: "0749~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة إحدى وثلاثين ومائة (PDF ص47). ابن عبد البر: توفي سنة إحدى وثلاثين ومئة بطريق مكة راجعاً إلى البصرة في الطاعون الجارف «لا أعلم في ذلك خلافاً» وهو ابن ثلاث وستين (التمهيد ط. الفرقان ج1 ص 600)؛ وينقل المحقق في الحاشية عن ابن سعد أنه مات في الطاعون بالبصرة.", sources: [source/tabaqat-fuqaha-abbas-1981, source/tamhid-furqan-2017-v1] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/muhammad-ibn-sirin, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/malik-ibn-anas, sources: [source/tamhid-furqan-2017-v1, source/tabaqat-fuqaha-abbas-1981] }
+  - { type: teacher_of, target: person/sufyan-al-thawri, sources: [source/tabaqat-fuqaha-abbas-1981] }
 external_ids: { wikidata: "Q12201128" }
-sources: [source/tabaqat-fuqaha-abbas-1981]
-provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-4" }
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 4 from PDF p.47" }
+sources: [source/tamhid-furqan-2017-v1, source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47؛ التمهيد ط. الفرقان 2017 ج1 ص 597–601 (enrichment by Claude Code, OCR-harvest worker A, claude-opus-5-5, run ocr-harvest-2026-11-04)", generated_by: "Claude (Haiku 5.5); Claude Code (OCR-harvest worker A)", model: "claude-haiku-5-5; claude-opus-5-5", run: "lib-tabaqat-fuqaha-batch-4; ocr-harvest-2026-11-04" }
+status: { review: published, completeness: 3, generated_by: "Claude (Haiku 5.5); enriched by Claude Code (OCR-harvest worker A) from al-Tamhid vol. 1" }
 occupations:
   - job: job/faqih
     kind: secondary

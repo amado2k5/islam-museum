@@ -1,0 +1,25 @@
+id: person/ali-mustafa-musharrafa
+class: person
+label: { ar: "علي مصطفى مشرفة", en: "Ali Mustafa Mosharafa" }
+names:
+  - { kind: full, lang: ar, value: "علي مصطفى مشرفة" }
+gender: male
+roles: [mathematician, scientist, teacher]
+summary:
+  ar: "أستاذ الرياضة التطبيقية بالجامعة المصرية، دكتور في الفلسفة ودكتور في العلوم من جامعة لندن، قدّم مع محمد مرسي أحمد لطبعة القاهرة سنة 1939 من كتاب الخوارزمي في الجبر والمقابلة وعلّق عليها {cite:khwarizmi-jabr-cairo-1939 p.1}."
+  en: "Professor of applied mathematics at the Egyptian University, PhD and DSc of the University of London, who with Muhammad Mursi Ahmad introduced and annotated the 1939 Cairo edition of al-Khwarizmi's Algebra."
+floruit: { edtf: "1937/1939", calendar: gregorian, precision: year, status: historical, note: "preface dated 26/9/1937, edition printed 1939 (scan pp. 7, 12)" }
+wings: [people, today]
+themes: [mathematics, education]
+regions: [egypt-nile]
+relations:
+  - { type: wrote_about, target: work/al-jabr-wal-muqabala, sources: [source/khwarizmi-jabr-cairo-1939] }
+  - { type: wrote_about, target: person/al-khwarizmi, sources: [source/khwarizmi-jabr-cairo-1939] }
+sources: [source/khwarizmi-jabr-cairo-1939]
+provenance:
+  layer: own-research
+  source: "source/khwarizmi-jabr-cairo-1939 title pages and preface, scan pp. 1, 7, 11-12, 126"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

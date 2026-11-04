@@ -1,0 +1,25 @@
+id: person/richard-yeomans
+class: person
+label: { ar: "ريتشارد يومانز", en: "Richard Yeomans" }
+summary:
+  ar: "باحث ورسام بريطاني، كان محاضراً أول في معهد التربية بجامعة وارِك ومنسّق الفن والتصميم فيه، وصاحب كتاب «فن القاهرة الإسلامية وعمارتها» (2006) {cite:yeomans-islamic-cairo-2006 back flap}."
+  en: "British scholar and painter, formerly Senior Lecturer and Coordinator for Art and Design at the Institute of Education, University of Warwick, author of The Art and Architecture of Islamic Cairo (2006) {cite:yeomans-islamic-cairo-2006 back flap}."
+names:
+  - { kind: full, lang: en, value: "Richard Yeomans" }
+  - { kind: full, lang: ar, value: "ريتشارد يومانز" }
+gender: male
+roles: [scholar, artist, writer, teacher]
+wings: [people, today]
+themes: [architecture, images-of-islam]
+regions: [egypt-nile]
+periods: [period/contemporary-era]
+relations:
+  - { type: authored, target: work/art-and-architecture-of-islamic-cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006: preface (printed pp. 1-3), back flap (PDF p. 285, garbled OCR read with care)"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H); no birth date given in the book" }
