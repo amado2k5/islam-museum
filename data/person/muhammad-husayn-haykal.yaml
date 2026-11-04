@@ -20,7 +20,7 @@ born:
   status: historical
   derived: false
   note: "The Arabic article gives the date in both calendars: 20 August 1888, corresponding to 12 Dhu al-Hijja 1305 AH, so the Hijri year is the source's own, not a conversion. Birthplace: the village of Kafr Ghannam — the English article places it under Mansoura, the Arabic article under Sinbillawin in Daqahliyah, and Wikidata records Mansoura. Neither Kafr Ghannam nor Mansoura has a place entity in the museum yet, so no born_in relation is written."
-  sources: [source/wikipedia-muhammad-husayn-haykal-en, source/wikipedia-muhammad-husayn-haykal-ar, source/wikipedia-muhammad-husayn-haykal-ur, source/wikidata-muhammad-husayn-haykal]
+  sources: [source/wikipedia-muhammad-husayn-haykal-en, source/wikipedia-muhammad-husayn-haykal-ar, source/wikipedia-muhammad-husayn-haykal-ur, source/wikidata-muhammad-husayn-haykal, source/hayat-muhammad-haykal-hindawi]
 died:
   edtf: "1956-12-08"
   hijri: "1376"
@@ -32,6 +32,7 @@ died:
   sources: [source/wikipedia-muhammad-husayn-haykal-en, source/wikipedia-muhammad-husayn-haykal-ar, source/wikipedia-muhammad-husayn-haykal-ur, source/wikidata-muhammad-husayn-haykal]
 relations:
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-muhammad-husayn-haykal-en, source/wikipedia-muhammad-husayn-haykal-ar] }
+  - { type: authored, target: work/hayat-muhammad-haykal, sources: [source/hayat-muhammad-haykal-hindawi] }
 faith:
   - value: unknown
     basis: unknown
@@ -44,4 +45,5 @@ provenance:
   source: "English Wikipedia 'Mohammed Hussein Heikal' (revision 1362974022), Arabic Wikipedia «محمد حسين هيكل» (revision 76918435), Urdu Wikipedia «محمد حسین ہیکل» (revision 12070493), Wikidata Q2362588 (verified via the API: human, born 1888-08-20 at Mansoura, died 1956-12-08 at Cairo, no religion statement), checked 24 October 2026"
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-6
+  # authored edge to work/hayat-muhammad-haykal added by Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04, from source/hayat-muhammad-haykal-hindawi pp. 1–20
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,19 @@
+id: person/muhammad-al-khudari
+class: person
+label: { ar: "محمد الخضري", en: "Muhammad al-Khudari", ur: "محمد الخضری" }
+names:
+  - { kind: full, lang: ar, value: "محمد الخضري بن عفيفي الباجوري" }
+gender: male
+roles: [scholar, historian, teacher]
+summary:
+  ar: "الشيخ محمد الخضري، مؤلف «نور اليقين في سيرة سيد المرسلين» و«محاضرات تاريخ الأمم الإسلامية»؛ يقدّمه غلاف الطبعة الرابعة من نور اليقين (1926م) مفتشاً بوزارة المعارف ومدرساً للتاريخ الإسلامي بالجامعة المصرية سابقاً، ويسمي نفسه في مقدمته ابن الشيخ عفيفي الباجوري."
+  en: "Shaykh Muhammad al-Khudari, author of Nur al-Yaqin fi Sirat Sayyid al-Mursalin and of lectures on the history of the Islamic nations; the title page of the fourth edition of Nur al-Yaqin (1926) presents him as an inspector at the Ministry of Education and former teacher of Islamic history at the Egyptian University, and in its preface he calls himself son of Shaykh Afifi al-Bajuri."
+wings: [people]
+themes: [prophets, history-writing-and-social-thought]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+relations:
+  - { type: authored, target: work/nur-al-yaqin, sources: [source/nur-al-yaqin-tijariyya-1926] }
+provenance: { layer: own-research, source: "source/nur-al-yaqin-tijariyya-1926 pp. 1, 3; source/muhadarat-tarikh-al-umam-al-islamiyya (title)", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/nur-al-yaqin-tijariyya-1926, source/muhadarat-tarikh-al-umam-al-islamiyya]
+status: { review: published, completeness: 2 }

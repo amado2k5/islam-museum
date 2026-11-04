@@ -20,13 +20,13 @@ regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q1046622" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/masalik-mamalik-ibn-khurdadhbih]
 status:
   review: published
   completeness: 3
 provenance:
-  layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص321"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch61
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص321; source/masalik-mamalik-ibn-khurdadhbih scan pp. 192-193, 238, 274"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "prose-fill-persons-batch61; ocr-harvest-2026-11-04"

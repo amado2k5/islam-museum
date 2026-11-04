@@ -4,14 +4,12 @@ kind: mosque
 label:
   ar: "مجموعة السلطان قايتباي بالقاهرة"
   en: "Sultan Qaytbay Complex, Cairo"
-summary:
-  ar: "بطاقة أولية لمجموعة السلطان الأشرف قايتباي في قرافة القاهرة، المدرسة والقبة والسبيل التي بُنيت سنة ١٤٧٤م؛ من أجمل مباني العصر المملوكي الباقية ولم تُراجع الصفحة بعد."
-  en: "Draft card for the Sultan al-Ashraf Qaytbay funerary complex in Cairo's Northern Cemetery, the madrasa, dome and sabil built in 1474; among the finest surviving Mamluk buildings per the cited encyclopedia, the page not yet checked."
+summary: { ar: "مجمع السلطان الأشرف قايتباي الجنائزي في المقبرة الشرقية (1472-1474م)، من أجمل مباني العصر نسباً وصنعة، بقبة حجرية تتشابك فيها النجوم والأرابيسك ومدرسة على هيئة القاعة {cite:yeomans-islamic-cairo-2006 p.219} {cite:yeomans-islamic-cairo-2006 p.221}.", en: "Sultan al-Ashraf Qaytbay's funerary complex in the Eastern Cemetery (1472-1474), among the best proportioned and crafted buildings of the age, with a stone dome of interlaced stars and arabesque and a qa'a-type madrasa {cite:yeomans-islamic-cairo-2006 p.219} {cite:yeomans-islamic-cairo-2006 p.221}." }
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [architecture]
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q12242839
 provenance:
@@ -20,6 +18,11 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0026
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 219-224"]
 status:
-  review: draft
+  review: published
   completeness: 1
+built: { edtf: "1472/1474", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 219: funerary complex of Qaytbay (1472-4)." }
+patron: person/qaytbay
+location: place/eastern-cemetery-cairo
+status_now: standing
