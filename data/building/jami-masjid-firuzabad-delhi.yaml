@@ -1,0 +1,25 @@
+id: building/jami-masjid-firuzabad-delhi
+class: building
+kind: mosque
+label: { ar: "الجامع في كوتلا فيروز شاه (فيروز آباد)", en: "Jami Masjid, Kotla Firuz Shah (Firuzabad)", ur: "جامع مسجد، کوٹلہ فیروز شاہ (فیروز آباد)" }
+summary:
+  ar: "جامع قلعة فيروز آباد في دلهي، بني سنة 755هـ/1354 على طابق سفلي من الحجرات قرب النهر، وصلى فيه تيمور سنة 1398، ولم يبق منه إلا البوابة الشمالية وثلاثة جدران {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 63} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 64} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 68}."
+  en: "The congregational mosque of Firuz Shah's citadel of Firuzabad in Delhi, built in AH 755/1354 over a basement of cells beside the river, where Timur prayed in 1398; only its north gateway and three walls survive {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 63} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 64} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 68}."
+  ur: "دہلی میں فیروز شاہ کے قلعے فیروز آباد کی جامع مسجد، جو 755ھ/1354ء میں دریا کے کنارے حجروں کی نچلی منزل پر بنی اور جہاں تیمور نے 1398ء میں نماز پڑھی؛ اب صرف شمالی دروازہ اور تین دیواریں باقی ہیں {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 63} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 64} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 68}۔"
+wings: [objects, place]
+themes: [architecture]
+regions: [south-asia]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1354", hijri: "0755", calendar: julian, precision: year, status: historical, note: "Begun with the citadel of Firuzabad; AH 755 as given by the author", sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+materials: [stone]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+  - { type: related_to, target: building/khirki-masjid-delhi, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011]
+provenance:
+  layer: own-research
+  source: "Seema Khan 2011, printed pp. 60-68"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

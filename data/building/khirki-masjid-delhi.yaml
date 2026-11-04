@@ -1,24 +1,28 @@
 id: building/khirki-masjid-delhi
 class: building
 kind: mosque
-label:
-  ar: "مسجد خيركي (دلهي)"
-  en: "Khirki Masjid, Delhi"
+label: { ar: "مسجد خركي، دلهي", en: "Khirki Masjid, Delhi", ur: "کھڑکی مسجد، دہلی" }
 summary:
-  ar: "بطاقة أولية لمسجد خيركي بدلهي، جامع تغلقي بناه خان جهان الوزير في القرن الرابع عشر من معالم عمارة التغلق؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Khirki Masjid of Delhi, the fourteenth-century Tughlaq congregational mosque built by the vizier Khan-i Jahan; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "مسجد من طابقين ذو أفنية أربعة في قرية خركي جنوب دلهي، ينسب إلى الوزير خان جهان في عهد فيروز شاه تغلق، اختلف في تاريخه بين ما قبل 1354 و1375 و1387، وسمي بنوافذه الحجرية المخرمة {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 76} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 77}."
+  en: "A two-storey four-court mosque at Khirki village in south Delhi, attributed to Firuz Shah Tughluq's vizier Khan-i Jahan, dated variously before 1354, to 1375 and to 1387, and named after its pierced stone windows {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 76} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 77}."
+  ur: "جنوبی دہلی کے گاؤں کھڑکی میں دو منزلہ چار صحنوں والی مسجد، جو فیروز شاہ تغلق کے وزیر خانِ جہاں سے منسوب ہے، جس کی تاریخ 1354ء سے پہلے، 1375ء اور 1387ء مختلف بتائی گئی ہے، اور جس کا نام اس کی جالی دار پتھر کی کھڑکیوں سے پڑا {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 76} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 77}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [south-asia]
 periods: [period/mongol-post-mongol]
-sources: [source/tarikh-islam-hasan-ibrahim]
+built: { edtf: "1351/1387", calendar: julian, precision: year, status: debated, note: "Debated: before the foundation of Firuzabad (Welch and Crane), 1375 (Abha Rani, R. Nath) or AH 789/1387 (Syed Ahmad Khan), as compiled by Seema Khan", sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+materials: [stone]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+  - { type: related_to, target: building/kali-masjid-nizamuddin, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011]
 external_ids:
   wikidata: Q6401780
 provenance:
   layer: own-research
-  source: "Wikidata candidate; attested in Delhi architectural heritage — entry not yet checked on the page"
+  source: "Seema Khan 2011, printed pp. 71-72, 76-80; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-audit
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Seema Khan 2011 pp. 71-72, 76-80, summary, dates and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
