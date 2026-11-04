@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 108).
 - **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 107).
 - **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 106).
 - **Library harvest from the OCR'd books** (batch 6): 83 records written or enriched with full Arabic, English and Urdu prose from 8 books on the harvest drive (1165pdf2229, asma-ul-husna-ibn-qayyim-jala, burhan-zarkashi, daraa-taarud, how-to-read-islamic-calligraphy-by-maryam-d-ekhtiar, mostafa-mahmoud, sunan-abi-dawud, tafsir-baghawi); new records: 21 source, 20 concept, 15 work, 10 question, 7 person, 5 building, 3 object, 1 practice; 23 existing records enriched. Every fact cites the book's edition and page.
