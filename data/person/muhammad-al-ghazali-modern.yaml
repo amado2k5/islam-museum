@@ -9,6 +9,7 @@ roles: [scholar, writer]
 wings: [people]
 periods: [period/contemporary-era]
 regions: [egypt-nile]
+born: { edtf: "1917", hijri: "1336", calendar: gregorian, precision: year, status: historical, note: "ولدت سنة 1336هـ الموافق سنة 1917م، بقلمه في خطبه ج1 ص 13", sources: [source/khutab-al-ghazali-dar-al-itisam-vol1] }
 died: { edtf: "1996", precision: year, status: tradition, derived: true }
 provenance:
   layer: own-research
@@ -16,7 +17,9 @@ provenance:
   generated_by: "Claude Haiku 5.5 (library-expansion)"
   model: claude-haiku-5-5
   run: "lib-exp-batch-1"
-sources: [source/islam-wal-manahij-nahdat-misr-2005, source/al-aalam, source/assabile-omar-abdelkafy]
+relations:
+  - { type: authored, target: work/khutab-muhammad-al-ghazali, sources: [source/khutab-al-ghazali-dar-al-itisam-vol1] }
+sources: [source/islam-wal-manahij-nahdat-misr-2005, source/al-aalam, source/assabile-omar-abdelkafy, source/khutab-al-ghazali-dar-al-itisam-vol1]
 external_ids:
   wikidata: Q3068445
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion)" }

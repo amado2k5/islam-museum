@@ -1,0 +1,25 @@
+---
+id: work/hilyat-al-awliya
+lang: en
+source_lang: ar
+translators: ["Claude Code (OCR-harvest worker K), claude-opus-5-5, translation from the Arabic, run ocr-harvest-2026-11-04"]
+status: { review: published }
+provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "Hilyat al-Awliya', Dar al-Kutub al-'Ilmiyya 1988, vol. 1 pp. 1–28; title pages and notice numbers of vols 2, 5, 7, 9, 10" }
+---
+## Summary
+*Hilyat al-Awliya' wa-Tabaqat al-Asfiya'* ("The Ornament of God's Friends and the Generations of the Pure") is the work of the hadith master [[person/abu-nuaym-al-asbahani-ahmad|Abu Nu'aym Ahmad ibn 'Abd Allah al-Isfahani]] (d. 430 AH). {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/1} In his introduction he says he agreed to a request to compile a book of the names of a group, with some of their hadith and sayings, "from the leading genuine Sufis and their imams", arranged in generations from the Companions, the Successors and their followers onward. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/3-4}
+
+## Why he wrote it
+Abu Nu'aym says one motive was what the questioner had heard of his own and the jurists' and traditionists' criticism of those who claimed Sufism — "the dissolute" and "the antinomians and incarnationists". Denouncing the liars, he says, is no slight on the righteous; it is a declaration of innocence from the liars, "to keep the truthful clear and raise the genuine". {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/4} He disowns the pedants and extremists, the pretenders, and those who copy the Sufis in dress and speech while differing from them in creed and conduct. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/4}
+
+## His introduction on God's friends and on Sufism
+- He begins with the divine saying "Whoever shows enmity to a friend of Mine, I declare war on him". He says God's friends have evident marks and gives reports with chains for each. They are those who, when seen, bring God to mind; they are kept safe from trials; they are the humble in food and dress who, if they swore by God, He would fulfil their oath, with the story of [[person/al-bara-ibn-malik|al-Bara' ibn Malik]]. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/4-7} Another mark is that "by their certainty rocks split and by their oaths seas part", with the story of [[person/al-ala-ibn-al-hadrami|al-'Ala' ibn al-Hadrami]] crossing the sea to Darin. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/7-8} (See [[concept/wali|wali]] and [[concept/karamat-al-awliya|the wonders of God's friends]].)
+- Then: "As for tasawwuf". He says the people of allusion derive it from safa' (purity) and wafa' (faithfulness). Linguistically it is a tafa''ul form from one of four things: the sufana, a plant; Sufa, a tribe that once escorted pilgrims and served the Ka'ba; the hairs at the nape (sufat al-qafa); or wool (suf). He explains the sense of each. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/17}
+- He gives the masters' definitions of [[concept/tasawwuf|tasawwuf]], such as Sari al-Saqati's "tasawwuf is a noble trait that the noble bring forth". He says Sufi speech is of three kinds: allusion to tawhid, discourse on the One sought and His ranks, and discourse on the seeker and his states. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/22-23}
+- He closes the introduction by describing his subjects as following the path of the Companions and Successors, and says: "them we follow, and them we befriend". {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/28}
+
+## Arrangement
+"We begin with those of the Companions known for some spiritual state," says Abu Nu'aym. The first of the Emigrants is [[person/abu-bakr|Abu Bakr al-Siddiq]] (notice 1), then 'Umar, 'Uthman, 'Ali and the rest of the Ten, then 'Uthman ibn Maz'un, Mus'ab ibn 'Umayr, 'Abd Allah ibn Jahsh and others. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/28} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/38-124} The notices are numbered continuously across the volumes. Volume 5 has [[person/kab-al-ahbar|Ka'b al-Ahbar]] (325); volume 7 ends with [[person/ibn-adham-ibrahim|Ibrahim ibn Adham]] (394); volume 9 has [[person/abu-sulayman-al-darani|Abu Sulayman al-Darani]] (448); and volume 10 opens with Ahmad ibn Abi al-Hawari (457). {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 5/364} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 7/367} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/254} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/5}
+
+## This edition
+Dar al-Kutub al-'Ilmiyya, Beirut, first edition 1409 AH/1988 CE, in ten parts. Its notes are few and record the variants of two copies marked "h" and "z". {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/2} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 1/3} The book gives its reports and stories with chains; some are sound and some weak by the hadith scholars' standards, and this edition does not grade them.

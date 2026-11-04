@@ -8,5 +8,11 @@ wings: [people]
 born: { hijri: "0060", edtf: "0680~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: ولد سنة ستين (PDF ص47).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 died: { hijri: "0117", edtf: "0735~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة سبع عشرة ومائة، وكان أعمى (PDF ص47).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 external_ids: { wikidata: "Q2121486" }
-sources: [source/fihrist-ibn-al-nadim, source/tabaqat-fuqaha-abbas-1981]
+sources: [source/fihrist-ibn-al-nadim, source/tabaqat-fuqaha-abbas-1981, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "see sources"
+  generated_by: "Devin (SWE-2 High)"
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 49" }

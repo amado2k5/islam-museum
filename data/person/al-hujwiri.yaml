@@ -1,0 +1,30 @@
+id: person/al-hujwiri
+class: person
+label: { ar: "الهجويري", en: "al-Hujwiri", ur: "ہجویری" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن علي بن عثمان بن أبي علي الجلابي الهجويري الغزنوي" }
+  - { kind: laqab, lang: ur, value: "داتا گنج بخش" }
+summary:
+  ar: "أبو الحسن علي بن عثمان الجلابي الهجويري الغزنوي، صوفي من القرن الخامس الهجري ولد بغزنة، تتلمذ على أبي العباس الشقاني وسلك على يد أبي الفضل محمد بن الحسن الختلي، ورحل بين الشام والتركستان والهند، ثم استقر بلاهور وتوفي بها نحو 465هـ، وقبره بها في مزار «داتا كنج بخش»؛ صاحب «كشف المحجوب» {cite:kashf-al-mahjub-qandil-2007-v1 p. 10} {cite:kashf-al-mahjub-qandil-2007-v1 p. 11}."
+  en: "Abu al-Hasan 'Ali ibn 'Uthman al-Jullabi al-Hujwiri al-Ghaznawi, a fifth-century AH Sufi born in Ghazna, pupil of Abu al-'Abbas al-Shaqqani and disciple of Abu al-Fadl Muhammad ibn al-Hasan al-Khuttali, who travelled from Syria to Turkestan and India, settled in Lahore and died there around 465 AH; his tomb there is the shrine of 'Data Ganj Bakhsh'; author of Kashf al-Mahjub {cite:kashf-al-mahjub-qandil-2007-v1 p. 10} {cite:kashf-al-mahjub-qandil-2007-v1 p. 11}."
+  ur: "ابو الحسن علی بن عثمان جلابی ہجویری غزنوی، پانچویں صدی ہجری کے صوفی، غزنی میں پیدا ہوئے، ابو العباس شقانی کے شاگرد اور ابو الفضل محمد بن الحسن ختلی کے مرید، شام سے ترکستان اور ہندوستان تک سفر کیا، لاہور میں مقیم ہوئے اور تقریباً 465ھ میں وہیں فوت ہوئے؛ ان کا مزار وہاں «داتا گنج بخش» کے نام سے ہے؛ «کشف المحجوب» کے مصنف {cite:kashf-al-mahjub-qandil-2007-v1 p. 10} {cite:kashf-al-mahjub-qandil-2007-v1 p. 11}۔"
+roles: [scholar, writer]
+traditions: [sunni, sufi]
+gender: male
+died: { edtf: "1072~", hijri: "0465", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/kashf-al-mahjub-qandil-2007-v1], note: "«حوالي سنة 465هـ» {cite:kashf-al-mahjub-qandil-2007-v1 p. 11}; approximate, conversion derived." }
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [south-asia, persia-central-asia]
+relations:
+  - { type: born_in, target: place/ghazna, sources: [source/kashf-al-mahjub-qandil-2007-v1] }
+  - { type: died_in, target: place/lahore, sources: [source/kashf-al-mahjub-qandil-2007-v1] }
+  - { type: buried_in, target: place/lahore, sources: [source/kashf-al-mahjub-qandil-2007-v1] }
+provenance:
+  layer: own-research
+  source: "كشف المحجوب، الترجمة العربية، ج1 (القاهرة 2007)، تقديم بديع جمعة ص 10-12، ومقدمة المؤلف ص 198-200"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/kashf-al-mahjub-qandil-2007-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

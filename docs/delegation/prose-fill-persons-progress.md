@@ -801,3 +801,30 @@ Promoted: abu-bakr-al-khwarazmi, al-ablah, al-aziz-ghiyath-al-din-muhammad, al-n
 Promoted: abu-hashim-al-mughira-ibn-miqsam, abu-qilaba-abd-allah-ibn-zayd, al-harith-al-ukli, al-qaqa-ibn-yazid, ayyub-al-sakhtiyani, habib-ibn-abi-thabit, hammad-ibn-abi-sulayman, humayd-ibn-abd-al-rahman-al-himyari, ibrahim-al-nakhai, mansur-ibn-al-mutamir, muhammad-ibn-abd-al-rahman-ibn-abi-layla, muslim-ibn-yasar, shahr-ibn-hawshab, shurayk-ibn-abd-allah-al-nakhai, ziyad-ibn-kulayb.cite-check 15/15; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2179.** sweep continues through remaining trilingual drafts.
+
+### Batch 121 (4 Nov 2026, 15 records) — hadith-bukhari-anbiya draft promotions (sweep worker)
+
+Promoted: adam, asiya, dawud, harun, isa-ibn-maryam, ishaq, lut, maryam, musa, nuh, salih, sulayman, yaqub, yunus, yusuf.cite-check 15/15; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2194.** sweep continues through remaining trilingual drafts.
+
+### Batch 122 (4 Nov 2026, 14 records) — lib-wafayat-batch-13 draft promotions (sweep worker)
+
+Promoted: al-adil-ii, al-aziz-fakhr-al-din-uthman, al-malik-al-masud-ibn-al-kamil, al-mughith-umar-ibn-al-adil, bardawil-al-ifranji, bint-nizam-al-mulk, ibn-abi-al-hadid, ibn-al-nabih, ibn-al-umayd, ibn-raiq, matta-ibn-yunus, muwaffaq-al-din-ibn-abi-al-hadid, najm-al-din-khidr, sabuktigin.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
+
+Leads (rejected):
+al-muwaffaq-ibn-ahmad-al-makki	REJECT: ar: thin (134ch)
+
+**Lane total: 2208.** sweep continues through remaining trilingual drafts.
+
+### Batch 123 (4 Nov 2026, 14 records) — ibn-hisham-batch-7a draft promotions (sweep worker)
+
+Promoted: abbad-ibn-hunayf, abu-habiba-ibn-al-azar, asim-ibn-adi, bahzaj, bijad-ibn-uthman, jariya-ibn-amir, khidham-ibn-khalid, malik-ibn-al-dukhshum, man-ibn-adi, muattib-ibn-qushayr, mujammi-ibn-jariya, nabtal-ibn-al-harith, thalaba-ibn-hatib, zayd-ibn-jariya.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2222.** sweep continues through remaining trilingual drafts.
+
+### Batch 124 (4 Nov 2026, 14 records) — mawsua-w09-80 draft promotions (sweep worker)
+
+Promoted: abd-al-khaliq-al-siyuri, abd-al-rahman-ibn-razin-al-hanbali, abd-al-rahman-ibn-ubaydan, al-husayn-ibn-al-fadl-al-bajali, ali-ibn-umar-ibn-abdus, ali-ibn-yahya-al-jaziri, hilal-al-ray, husayn-ibn-ali-al-tabari-sahib-al-uda, jalal-al-din-al-bulqini, khalaf-ibn-sulayman-ibn-fathun, mahmud-al-daqqauqi, muhammad-ibn-khalaf-ibn-al-murabit, umar-al-rajraji, yazid-ibn-ibrahim-al-tamimi.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2236.** sweep continues through remaining trilingual drafts.

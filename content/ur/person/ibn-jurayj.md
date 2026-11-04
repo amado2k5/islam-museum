@@ -12,3 +12,6 @@ translators: []
 
 ## وفات
 واقدی کے مطابق ابن جریج ذوالحجہ 150 ہجری کے آغاز میں فوت ہوئے۔ {cite:tazkirat-al-huffaz j.1 p.165}
+
+## طبری کی جامع البیان میں ان کی تفسیر
+[[work/jami-al-bayan|جامع البیان]] میں [[person/ata-ibn-abi-rabah|عطاء بن ابی رباح]] کی تفسیر [[person/al-tabari|طبری]] تک ابن جریج (م 150ھ) کے طریق سے پہنچتی ہے: قاسم بن حسن ہمدانی، از حسن بن داود مصیصی (مقالے میں یونہی)، از حجاج بن محمد مصیصی، از ابن جریج۔ {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.48} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49}

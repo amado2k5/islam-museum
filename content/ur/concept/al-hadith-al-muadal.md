@@ -4,8 +4,9 @@ lang: ur
 source_lang: ar
 translators: []
 status: { review: published }
-provenance: { generated_by: "Claude Code (OCR-harvest worker A)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "Nuzhat al-Nazar, ed. 'Itr, al-Bushra 2011, pp. 76, 79 (printed)" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker A); Claude Code (OCR-harvest worker F)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "muqaddima-ibn-salah-itr (Ibn al-Salah section, worker F); Nuzhat al-Nazar, ed. 'Itr, al-Bushra 2011, pp. 76, 79 (printed)" }
 ---
+
 ## خلاصہ
 [[person/ibn-hajar-al-asqalani|ابن حجر]] کی [[work/nuzhat-al-nazar|"نزہۃ النظر"]] میں سند سے سقط کی تیسری قسم: اگر دو یا زیادہ راوی مسلسل ساقط ہوں تو حدیث معضل ہے؛ ورنہ، اگر دو غیر مسلسل راوی، مثلاً دو جگہوں سے، ساقط ہوں تو منقطع ہے، اور اسی طرح اگر ایک راوی، یا دو سے زیادہ، ساقط ہوں بشرطیکہ مسلسل نہ ہوں۔ {cite:nuzhat-al-nazar-itr-bushra-2011 p. 79}
 
@@ -17,3 +18,19 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker A)", model: claude-
 
 ## سقط کی دوسری اقسام سے تعلق
 ابن حجر ظاہری سقط کو چار اقسام میں رکھتے ہیں: سند کے شروع میں [[concept/al-hadith-al-muallaq|معلق]]، آخر میں [[concept/al-hadith-al-mursal|مرسل]]، اور باقی جگہوں پر معضل اور منقطع۔ محقق ان سب کے رد کی وجہ ایک اصل کی طرف لوٹاتے ہیں: ساقط راوی نامعلوم ہے، اور احتیاط کا تقاضا ہے کہ اس کے ضعیف ہونے کا امکان مانا جائے۔ {cite:nuzhat-al-nazar-itr-bushra-2011 p. 76} مزید دیکھیے [[concept/inqita|انقطاع]]۔
+
+## ابن الصلاح کے «مقدمہ» میں
+### تعارف
+[[person/ibn-al-salah|ابن الصلاح]] کے نزدیک معضل [[concept/munqati|منقطع]] کی ایک خاص قسم کا لقب ہے: ہر معضل منقطع ہے مگر ہر منقطع معضل نہیں، اور بعض اسے [[concept/irsal-fiqh|مرسل]] کہتے ہیں؛ اس سے مراد وہ سند ہے جس سے دو یا زیادہ راوی گر گئے ہوں۔ {cite:muqaddima-ibn-salah-itr p. 59}
+
+### لفظ
+محدثین کہتے ہیں «اعضلہ فہو معضَل» (ضاد پر زبر)؛ ابن الصلاح کے نزدیک لغت کے لحاظ سے اس اصطلاح کا ماخذ مشکل ہے، وہ کہتے ہیں کہ تلاش کرنے پر انہیں «امرٌ عضیل» یعنی بند اور سخت معاملہ ملا، اور وہ «معضِل» (زیر کے ساتھ) کی طرف التفات نہیں کرتے اگرچہ معنی میں وہ عضیل جیسا ہے۔ {cite:muqaddima-ibn-salah-itr p. 59}
+
+### مثالیں
+اس کی مثال تبع تابعی کا «قال رسول اللہ» کہنا ہے، یا اس سے نیچے والے کا نبی، ابو بکر یا عمر سے واسطوں کا ذکر کیے بغیر روایت کرنا۔ {cite:muqaddima-ibn-salah-itr p. 59} {cite:muqaddima-ibn-salah-itr p. 60} ابو نصر سجزی کہتے ہیں کہ راوی کا «بلغنی» کہنا، جیسے [[person/malik-ibn-anas|مالک]] کا قول «مجھے [[person/abu-hurayra|ابو ہریرہ]] سے پہنچا کہ رسول اللہ نے فرمایا: غلام کے لیے اس کا کھانا اور کپڑا ہے»، اسے محدثین معضل کہتے ہیں۔ {cite:muqaddima-ibn-salah-itr p. 60} ابن الصلاح مزید کہتے ہیں کہ فقہا اور دوسرے مصنفین کا «قال رسول اللہ کذا» لکھنا سب معضل کے قبیل سے ہے، اور [[person/al-khatib-al-baghdadi-ahmad|خطیب]] نے اپنے کسی کلام میں اسے مرسل کہا، ان کے مذہب پر جو ہر غیر متصل کو مرسل کہتے ہیں۔ {cite:muqaddima-ibn-salah-itr p. 60}
+
+### وقف کے ذریعے اعضال
+[[person/al-hakim-al-nisaburi|حاکم]] نے معضل کی ایک قسم یہ بتائی کہ تبع تابعی تابعی سے ایسی روایت کرے جو اسی پر موقوف ہو، حالانکہ دوسروں کے ہاں وہ نبی تک متصل مسند ہو؛ ان کی مثال [[person/al-amash-sulayman-ibn-mihran|اعمش]] کی روایت میں [[person/amir-al-shabi|شعبی]] کا قول ہے: «قیامت کے دن آدمی سے کہا جائے گا: تم نے یہ یہ کیا...»، جو شعبی کے ہاں [[person/anas-ibn-malik|انس]] عن النبی متصل ہے۔ {cite:muqaddima-ibn-salah-itr p. 60} ابن الصلاح نے اسے پسند کیا، کیونکہ ایک واسطے کا انقطاع وقف کے ساتھ مل کر دو واسطوں — صحابی اور رسول اللہ — کے انقطاع پر مشتمل ہے، اس لیے اعضال کے نام کا زیادہ مستحق ہے۔ {cite:muqaddima-ibn-salah-itr p. 61}
+
+### تفریعات
+ابن الصلاح اس نوع کے ساتھ [[concept/muanan|معنعن سند]]، [[concept/al-hadith-al-muallaq|تعلیق]]، اور اس حدیث کی بحثیں ملحق کرتے ہیں جسے بعض ثقات مرسل اور بعض متصل روایت کریں؛ ان کے الگ کارڈ ہیں۔ {cite:muqaddima-ibn-salah-itr p. 61} {cite:muqaddima-ibn-salah-itr p. 67} {cite:muqaddima-ibn-salah-itr p. 71}
