@@ -3,24 +3,26 @@ class: person
 label:
   ar: "رويم بن أحمد"
   en: "Ruwaym ibn Ahmad"
+  ur: "رویم بن احمد"
 roles: [sufi]
 gender: male
 summary:
-  ar: "بطاقة أولية لرويم بن أحمد، الزاهد البغدادي من أصحاب الجنيد؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ruwaym ibn Ahmad, the Baghdadi ascetic of Junayd's circle; his entry is not yet checked on the page."
+  ar: "أبو محمد رويم بن أحمد البغدادي، يعدّه القشيري في الرسالة «من جلة المشايخ»، وكان مقرئاً فقيهاً على مذهب داود، ومات سنة 303هـ؛ ومن قوله إن من حكم الحكيم أن يوسع على إخوانه في الأحكام ويضيق على نفسه فيها {cite:risala-qushayriyya-minhaj-2017 p. 163}."
+  en: "Abu Muhammad Ruwaym ibn Ahmad of Baghdad, whom al-Qushayri in the Risala counts 'among the great shaykhs'; a Qur'an reciter and jurist of Dawud's school, he died in 303 AH; among his sayings is that the wise man is lenient with his brethren in rulings and strict with himself {cite:risala-qushayriyya-minhaj-2017 p. 163}."
+  ur: "ابو محمد رویم بن احمد بغدادی، جنہیں قشیری رسالے میں «بڑے مشائخ میں سے» شمار کرتے ہیں؛ قاری اور داود کے مسلک کے فقیہ، 303ھ میں فوت ہوئے؛ ان کا قول ہے کہ دانا آدمی احکام میں اپنے بھائیوں پر وسعت اور اپنے نفس پر تنگی رکھتا ہے {cite:risala-qushayriyya-minhaj-2017 p. 163}۔"
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "0915~", precision: decade, status: tradition, derived: true }
-sources: [source/al-aalam]
+died: { edtf: "0915/0916", hijri: "0303", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/risala-qushayriyya-minhaj-2017], note: "al-Qushayri: died 303 AH {cite:risala-qushayriyya-minhaj-2017 p. 163}; Gregorian range derived." }
+sources: [source/al-aalam, source/risala-qushayriyya-minhaj-2017]
 external_ids:
   wikidata: Q4356132
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Wikidata candidate (al-A'lam not read on the page); summary, death date and prose from al-Risala al-Qushayriyya (Dar al-Minhaj 2017) pp. 163-164"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
