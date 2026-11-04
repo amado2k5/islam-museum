@@ -15,6 +15,13 @@ regions: [arabia]
 relations:
   - { type: member_of, target: group/banu-tamim, note: "نسبتها إلى تميم مستفادة من سياق الخبر لا من نص صريح", sources: [source/ibn-hisham-saqqa] }
   - { type: authored, target: work/salma-bint-attab-verses-on-banu-al-anbar, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 270", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 270"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch113
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 270" }
+status:
+  review: published
+  completeness: 3

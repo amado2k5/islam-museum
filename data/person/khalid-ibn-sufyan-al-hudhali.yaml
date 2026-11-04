@@ -16,6 +16,13 @@ story_roles:
 relations:
   - { type: member_of, target: group/hudhayl, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/killing-of-khalid-ibn-sufyan-al-hudhali, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 267-268", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 267-268"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch113
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 267-268" }
+status:
+  review: published
+  completeness: 3
