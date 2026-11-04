@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/mm-allah-wal-insan-1957 pp. 5-9; source/mm-rihla-min-al-shakk-maarif pp. 5-14, 80-82, 90-91; source/mm-quran-muhawala-digital pp. 1-4; source/mm-hiwar-ma-sadiqi-al-mulhid-awda-1986 pp. 9, 124-129, 161-162"
+  source: "source/mm-muhammad-maarif-ed5 pp. 3, 98; source/mm-lughz-al-mawt-awda-1972 p. 6; source/mm-allah-wal-insan-1957 pp. 5-9; source/mm-rihla-min-al-shakk-maarif pp. 5-14, 80-82, 90-91; source/mm-quran-muhawala-digital pp. 1-4; source/mm-hiwar-ma-sadiqi-al-mulhid-awda-1986 pp. 9, 124-129, 161-162"
 ---
 ## خلاصہ
 مصطفیٰ محمود ایک مصری طبیب اور ادیب تھے۔ ان کی کتاب [[work/allah-wal-insan|«اللہ والانسان»]] (1957) کی پہلی اشاعت میں ان کے تعارفی صفحے کے مطابق انہوں نے دسمبر 1953 میں قصر العینی کی کلیۂ طب سے فراغت پائی اور سینے کے امراض میں تخصص کیا، 1947 میں ہفت روزہ «الرسالہ» میں افسانے لکھنا شروع کیے، پھر «آخر ساعہ»، «اخبار الیوم»، «التحریر» اور «روز الیوسف» میں کام کیا۔ {cite:mm-allah-wal-insan-1957 p. 5} وہ [[work/rihlati-min-al-shakk-ila-al-iman|«رحلتی من الشک الی الایمان»]] کے مصنف ہیں جس میں وہ شک سے ایمان تک اپنا سفر بیان کرتے ہیں۔ {cite:mm-rihla-min-al-shakk-maarif p. 5} {cite:mm-rihla-min-al-shakk-maarif p. 14}
@@ -19,6 +19,8 @@ provenance:
 
 ## صحافت اور ادب
 تعارف کے مطابق ان کی پہلی کتاب «اکل عیش» «الکتاب الذہبی» سلسلے میں افسانوں اور عوامی خاکوں کے ساتھ شائع ہوئی، اور انہوں نے «روز الیوسف میں مذاہب کے مسئلے پر آزادانہ بحث کی» جس کا قارئین پر گہرا اثر ہوا۔ {cite:mm-allah-wal-insan-1957 p. 5} «رحلتی» کے آخر میں ان کی چھبیس کتابوں کی فہرست ہے، جن میں افسانوں کے مجموعے، ناول، ڈرامے، مطالعات اور مضامین ہیں، مثلاً «اللہ والانسان»، «لغز الموت»، «لغز الحیاۃ»، «اینشٹائن اور نظریۂ اضافیت»، «العنکبوت» اور «الخروج من التابوت»، ڈرامہ «الشیطان یسکن فی بیتنا» جو اپریل 1973 میں لکھا گیا، اور «المدینہ» جو 1956 سے 1968 تک یورپ کے سفروں پر ہے۔ {cite:mm-rihla-min-al-shakk-maarif p. 91}
+
+«محمد: محاولۃ لفہم السیرۃ النبویہ» کے پانچویں ایڈیشن کے آخر میں ان کی کتابوں کی فہرست چون عنوانات دیتی ہے اور بتاتی ہے کہ ان کے ناول «رجل تحت الصفر» کو 1970 کا ریاستی انعام ملا اور ان کی کلیات 1972 میں بیروت سے شائع ہوئیں {cite:mm-muhammad-maarif-ed5 p. 98}۔ ان کی فکری کتابوں میں [[work/lughz-al-mawt|لغز الموت]] (دار العودہ، 1972) {cite:mm-lughz-al-mawt-awda-1972 p. 6} ہے، اور سیرت پر انہوں نے [[work/muhammad-muhawala-li-fahm-al-sira|محمد: محاولۃ لفہم السیرۃ النبویہ]] لکھی {cite:mm-muhammad-maarif-ed5 p. 3}۔
 
 ## شک سے ایمان تک کا سفر (ان کی اپنی زبانی)
 وہ کہتے ہیں کہ اس میں «تیس برس کتابوں میں ڈوبے رہنا» اور ہزاروں راتوں کی خلوت اور تفکر لگا۔ {cite:mm-rihla-min-al-shakk-maarif p. 6} وہ مراحل بیان کرتے ہیں: پہلے اللہ کو مادی انداز میں «کائنات میں پوشیدہ توانائی» سمجھنا؛ پھر «ہندی وحدت الوجود»، اسپینوزا کے فلسفے اور برگساں کے تصور میں پڑنا، یوگا کرنا اور تناسخ کے خیال سے متاثر ہونا جو ان کے ناولوں «العنکبوت» اور «الخروج من التابوت» میں ظاہر ہوا۔ {cite:mm-rihla-min-al-shakk-maarif p. 9} {cite:mm-rihla-min-al-shakk-maarif p. 10} {cite:mm-rihla-min-al-shakk-maarif p. 11} وہ کہتے ہیں کہ خود سائنس نے، جاندار چیزوں میں ایک ہی مادے اور ایک ہی قوانین کو دکھا کر، انہیں ایک ماورائی خالق تک پہنچایا، اور «مجھے اللہ کا مکمل اسلامی تصور دیا»۔ {cite:mm-rihla-min-al-shakk-maarif p. 12} {cite:mm-rihla-min-al-shakk-maarif p. 13} {cite:mm-rihla-min-al-shakk-maarif p. 14}

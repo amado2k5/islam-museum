@@ -29,7 +29,20 @@ summary:
 wings: [people]
 regions: [egypt-nile, levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/daw-lami-jil-1992]
+relations:
+  - { type: born_in, target: place/gaziantep, note: "عين تاب، على ثلاث مراحل من حلب", sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: died_in, target: place/cairo, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: student_of, target: person/al-iraqi-zayn-al-din, note: "سمع عليه صحيح البخاري بقلعة الجبل سنة 788", sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: student_of, target: person/siraj-al-din-al-bulqini, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: student_of, target: person/ali-ibn-abi-bakr-al-haythami, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: teacher_of, target: person/ibn-al-humam, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: teacher_of, target: person/qasim-ibn-qutlubugha, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: teacher_of, target: person/al-sakhawi, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: teacher_of, target: person/ibn-taghribirdi-yusuf, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: authored, target: work/umdat-al-qari, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: authored, target: work/al-binaya-sharh-al-hidaya, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: authored, target: work/nukhab-al-afkar, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/daw-lami-jil-1992, source/umdat-qari-ilmiyya-2001-v1]
 external_ids:
   wikidata: Q257745
 provenance:

@@ -1,0 +1,19 @@
+id: person/kamal-al-din-ibn-al-sharishi
+class: person
+label: { ar: "كمال الدين ابن الشريشي", en: "Kamal al-Din Ibn al-Sharishi", ur: "کمال الدین ابن الشریشی" }
+summary:
+  ar: "عالم دمشقي كان شيخ دار الحديث وشيخ الرباط الناصري، ولد سنة 653هـ وتوفي في شوال سنة 718هـ متوجهاً إلى الحج؛ تولى نظارة الجامع الأموي مدة يسيرة سنة 703هـ، وعيّن للمدرسة الشامية البرانية ودار الحديث بإشارة ابن تيمية، ثم ألف رداً على كتابه «درء تعارض العقل والنقل» أجاب عنه ابن تيمية في نحو مجلد."
+  en: "A Damascene scholar, shaykh of the Dar al-Hadith and of the Ribat al-Nasiri, born in 653 and died in Shawwal 718 AH on his way to the pilgrimage. He was briefly superintendent of the Umayyad Mosque in 703 AH, was appointed to the Shamiyya Barraniyya and the Dar al-Hadith on Ibn Taymiyya's advice, and later wrote objections to Ibn Taymiyya's Dar' Ta'arud al-'Aql wa'l-Naql, which Ibn Taymiyya answered in about a volume."
+gender: male
+roles: [scholar]
+born: { edtf: "1255", hijri: "0653", calendar: julian, precision: year, status: historical, derived: true, note: "ولد سنة 653هـ كما في حاشية محمد رشاد سالم {cite:dar-taarud-salim-v1-1411 p. 8}" }
+died: { edtf: "1318", hijri: "0718-10", calendar: julian, precision: month, status: historical, derived: true, note: "توفي في شوال سنة 718هـ متوجهاً إلى الحج، كما في حاشية محمد رشاد سالم {cite:dar-taarud-salim-v1-1411 p. 8}" }
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+relations:
+  - { type: critic_of, target: work/dar-taarud-al-aql-wal-naql, sources: [source/dar-taarud-salim-v1-1411] }
+  - { type: lived_in, target: place/damascus, sources: [source/dar-taarud-salim-v1-1411] }
+sources: [source/dar-taarud-salim-v1-1411]
+provenance: { layer: own-research, source: "درء تعارض العقل والنقل، تحقيق محمد رشاد سالم، ج1، مقدمة المحقق ص 4، 8–10", generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C)" }

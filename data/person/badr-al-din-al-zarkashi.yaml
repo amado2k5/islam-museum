@@ -1,6 +1,6 @@
 id: person/badr-al-din-al-zarkashi
 class: person
-label: { ar: "بدر الدين الزركشي" }
+label: { ar: "بدر الدين الزركشي", en: "Badr al-Din al-Zarkashi", ur: "بدر الدین زرکشی" }
 summary:
   ar: "الشيخ بدر الدين محمد بن عبد الله الزركشي الشافعي المتوفى سنة ٧٩٤هـ؛ صاحب إعلام الساجد بأحكام المساجد {cite:kashf-zunun-furqan p. 518}."
   en: "Badr al-Din Muhammad ibn Abdallah al-Zarkashi al-Shafi'i, d. AH 794 — author of I'lam al-Sajid bi-Ahkam al-Masajid {cite:kashf-zunun-furqan p. 518}."
@@ -8,14 +8,19 @@ gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
-died: { edtf: "1392~", hijri: "0794", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 794هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 518}." }
+born: { edtf: "1344/1345", hijri: "0745", calendar: julian, precision: year, status: historical, derived: true, note: "745هـ على صفحة عنوان طبعة دار الحديث للبرهان {cite:burhan-dar-al-hadith-2006 p.2}؛ التحويل مشتق.", sources: [source/burhan-dar-al-hadith-2006] }
+died: { edtf: "1392-05-26", hijri: "0794-07-03", calendar: julian, precision: day, status: historical, derived: true, note: "توفي يوم الأحد ثالث رجب سنة 794هـ {cite:burhan-dar-al-hadith-2006 p.10}؛ وفي كشف الظنون سنة 794هـ {cite:kashf-zunun-furqan p. 518}؛ التحويل جدولي مشتق.", sources: [source/burhan-dar-al-hadith-2006, source/kashf-zunun-furqan] }
 relations:
   - { type: authored, target: work/ilam-al-sajid, sources: [source/kashf-zunun-furqan] }
+  - { type: student_of, target: person/al-isnawi-abd-al-rahim, sources: [source/burhan-dar-al-hadith-2006] }
+  - { type: student_of, target: person/siraj-al-din-al-bulqini, sources: [source/burhan-dar-al-hadith-2006] }
 provenance:
   layer: own-research
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 518 مدخل 1332"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-6, lib-durar-kamina-batch-1-2-2026-10-31
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/burhan-dar-al-hadith-2006 PDF pp. 2, 9–10 (birth year, death day, teachers, works list)" }
 external_ids: { wikidata: "Q4322459" }
-sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993]
+sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993, source/burhan-dar-al-hadith-2006]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
