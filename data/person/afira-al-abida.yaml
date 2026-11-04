@@ -1,0 +1,19 @@
+id: person/afira-al-abida
+class: person
+label: { ar: "عفيرة العابدة", en: "Ufayra the Devout", ur: "عفیرہ عابدہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل البصرة يذكرها ابن الجوزي في «صفة الصفوة»، بكت حتى عميت، وقالت لمن تأسّف على عماها إن عمى القلب عن الله أشد من عمى العين عن الدنيا، وكانت لا تنام الليل، وتقول إنها عصت الله بكل جارحة فلئن أعانها لتطيعنّه بكل جارحة عصته بها."
+  en: "A devout woman of Basra recorded by Ibn al-Jawzi in Sifat al-Safwa, who wept until she went blind; to someone who pitied her blindness she said that the heart's blindness to God is worse than the eye's blindness to the world. She did not sleep at night, and said that she had disobeyed God with every limb and, if He helped her, would obey Him with every limb she had disobeyed Him with."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.711", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

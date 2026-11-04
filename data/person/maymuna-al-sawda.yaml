@@ -1,0 +1,19 @@
+id: person/maymuna-al-sawda
+class: person
+label: { ar: "ميمونة السوداء", en: "Maymuna al-Sawda'", ur: "میمونہ سوداء" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل الكوفة يذكرها ابن الجوزي في «صفة الصفوة» تحت «عقلاء المجانين المتعبدات الكوفيات»، ويروي عن عبد الواحد بن زيد أنه رأى في منامه أن رفيقه في الجنة ميمونة السوداء، فوجدها بالكوفة ترعى غنيمات يعدّها الناس مجنونة، والذئاب مع الغنم لا تعدو عليها."
+  en: "A devout woman of Kufa whom Ibn al-Jawzi places in Sifat al-Safwa among 'the wise fools, devout women of Kufa'. He relates from Abd al-Wahid ibn Zayd that he saw in a dream that his companion in Paradise would be Maymuna al-Sawda', and found her in Kufa, thought mad by the people, herding a few sheep among which wolves grazed without harming them."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/kufa, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.605–606", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }
