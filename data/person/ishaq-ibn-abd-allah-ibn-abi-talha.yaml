@@ -1,0 +1,30 @@
+id: person/ishaq-ibn-abd-allah-ibn-abi-talha
+class: person
+label: { ar: "إسحاق بن عبد الله بن أبي طلحة", en: "Ishaq ibn 'Abd Allah ibn Abi Talha", ur: "اسحاق بن عبد اللہ بن ابی طلحہ" }
+names:
+  - { kind: full, lang: ar, value: "إسحاق بن عبد الله بن أبي طلحة الأنصاري" }
+  - { kind: kunya, lang: ar, value: "أبو نجيح" }
+gender: male
+roles: [muhaddith]
+traditions: [sunni]
+summary:
+  ar: "إسحاق بن عبد الله بن أبي طلحة الأنصاري، يكنى أبا نجيح وقيل أبا محمد أو أبا يحيى، من صغار تابعي المدينة، لقي أنس بن مالك، وجده أبو طلحة زيد بن سهل الصحابي؛ قال الواقدي إن مالكاً كان لا يقدّم عليه في الحديث أحداً؛ توفي بالمدينة سنة اثنتين وثلاثين ومئة، وقيل أربع وثلاثين، ولمالك عنه في الموطأ خمسة عشر حديثاً {cite:tamhid-furqan-2017-v1 p. 400-401}."
+  en: "Ishaq b. 'Abd Allah b. Abi Talha al-Ansari, known as Abu Najih (or Abu Muhammad, or Abu Yahya), one of the younger Successors of Medina, who met Anas b. Malik and was the grandson of the Companion Abu Talha Zayd b. Sahl; al-Waqidi says Malik ranked no one above him in hadith; he died in Medina in 132 AH, or 134 by another report, and Malik has fifteen of his reports in the Muwatta' {cite:tamhid-furqan-2017-v1 p. 400-401}."
+  ur: "اسحاق بن عبد اللہ بن ابی طلحہ انصاری، کنیت ابو نجیح (یا ابو محمد یا ابو یحییٰ)، مدینہ کے صغار تابعین میں سے، انس بن مالک سے ملے، اور صحابی ابو طلحہ زید بن سہل کے پوتے تھے؛ واقدی کہتے ہیں کہ امام مالک حدیث میں کسی کو ان پر مقدم نہیں کرتے تھے؛ وہ 132ھ میں، اور ایک روایت میں 134ھ میں، مدینہ میں فوت ہوئے، اور موطأ میں مالک کی ان سے پندرہ روایات ہیں {cite:tamhid-furqan-2017-v1 p. 400-401}۔"
+died: { hijri: "0132", edtf: "0749~", calendar: julian, precision: year, status: debated, derived: true, note: "«توفي إسحاق بالمدينة في سنة اثنتين وثلاثين ومئة، وقيل: كانت وفاته سنة أربع وثلاثين ومئة» (التمهيد ط. الفرقان ج1 ص 401)؛ التحويل مشتق.", sources: [source/tamhid-furqan-2017-v1] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/abd-allah-ibn-abi-talha-al-ansari, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: lived_in, target: place/medina, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: died_in, target: place/medina, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/anas-ibn-malik, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/malik-ibn-anas, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/yahya-ibn-abi-kathir, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/al-awzai-abd-al-rahman, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/hammad-ibn-salama, sources: [source/tamhid-furqan-2017-v1] }
+provenance: { layer: own-research, source: "al-Tamhid, al-Furqan ed. 2017 vol. 1 pp. 400–402 (printed)", generated_by: "Claude Code (OCR-harvest worker A)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/tamhid-furqan-2017-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }
