@@ -19,3 +19,7 @@
 
 ## Next
 Ibn Hanbal entry pp. 256–309 (his learning, piety, wealth refusal, sayings), other long entries: Ahmad ibn Muhammad ibn Isa ibn al-Jarrah (p. 434), Ahmad ibn Mahbub al-Ramli (p. 488), Ahmad ibn al-Salt al-Himmani (p. 373).
+
+## Second pass (worker F, run 2, ocr-harvest-2026-11-04)
+Batch E (vol. 5, printed = PDF): new trios `person/abu-masud-al-razi` (Ahmad ibn al-Furat, entry 76, pp. 150–157; death 258 vs 268 kept as debated; Ibn Khirash's charge and Ibn Adi's rebuttal as perspectives), `person/ibn-jawsa` (Ahmad ibn Umayr, entry 65, pp. 109–117; the "Ibn Thawban" dispute, praise vs criticism as perspectives; d. 27 Jumada I 320); Tarikh Dimashq section appended to `person/ibn-abi-asim` (entry 62, pp. 104–107; Zahiri, judge of Isfahan 13 years, d. Rabi' II 287).
+- Next candidates (long entries, by line span): Abu Sa'id al-Kharraz (entry 70, p. 129; note two duplicate records exist: `person/abu-said-al-kharraz` and `person/ahmad-ibn-isa-al-khazzaz` — flag for merge), al-Khatib al-Baghdadi (entry 16, p. 31), al-Sanawbari the poet (entry 130, p. 239; no record), Ibn al-A'rabi Abu Sa'id (entry 144, p. 353; `person/ibn-al-arabi-ahmad` thin), Ahmad ibn al-Salt al-Himmani (entry 158, p. 373), Ibn al-Nahhas (entry 202, p. 434), Ahmad ibn Mahbub (entry 258, p. 488).
