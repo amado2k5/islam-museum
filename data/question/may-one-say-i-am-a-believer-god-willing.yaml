@@ -33,10 +33,25 @@ perspectives:
     summary: { ar: "يذكر محقق الإبانة أن قوماً منعوا الاستثناء لأنه يقتضي الشك في الإيمان، ولا يسمّيهم؛ ولم تُضف بعد أقوالهم من كتبهم." }
     evidence: [{ ref: source/ibana-kubra-muti-iman, note: { ar: "حاشية المحقق ص 862" } }]
     sources: [source/ibana-kubra-muti-iman]
-related: [concept/iman, work/ibana-al-kubra-ibn-batta, group/murjia]
+  - tradition: sunni-hanbali
+    id: ibn-taymiyya-kitab-al-iman
+    standing: main
+    stance: { ar: "يجوز الاستثناء وتركه باعتبارين، والاستثناء عائد إلى الإيمان المطلق لا إلى أصله", en: "The exception may be made or left in two senses; it refers to unqualified faith, not its root", ur: "استثنا کرنا اور چھوڑنا دو اعتبارات سے جائز ہے؛ یہ مطلق ایمان کی طرف لوٹتا ہے، اس کی اصل کی طرف نہیں" }
+    summary: { ar: "يرى ابن تيمية أن أصح الأقوال جواز الأمرين باعتبارين، وأن مأخذ عامة السلف أن الإيمان المطلق يتضمن فعل المأمورات كلها فالشهادة به تزكية، وأن تعليله بالموافاة مأخذ متأخري الكلابية، وينقل عن أحمد وابن عيينة كراهة سؤال الرجل: أمؤمن أنت؟", en: "Ibn Taymiyya holds the soundest view to be that both are allowed in two senses; that the ground of most early scholars was that unqualified faith includes all commanded acts, so testifying to it is self-praise; that grounding it in one's state at death is the later Kullabi ground; and he reports that Ahmad and Ibn Uyayna disliked the question 'Are you a believer?'", ur: "ابن تیمیہ کے نزدیک صحیح ترین قول یہ ہے کہ دونوں دو اعتبارات سے جائز ہیں؛ عام سلف کی بنیاد یہ تھی کہ مطلق ایمان تمام مامورات کو شامل ہے، اس لیے اس کی گواہی تزکیہ ہے؛ موت کے وقت کی حالت پر اسے مبنی کرنا متاخر کلابیہ کی بنیاد ہے؛ اور وہ احمد اور ابن عیینہ سے «کیا تم مومن ہو؟» کے سوال کی کراہت نقل کرتے ہیں۔" }
+    holders: [person/ibn-taymiyya]
+    evidence: [{ ref: source/majmu-fatawa-wafa-v7, note: { ar: "مجموعة الفتاوى ط. دار الوفاء ج7، ص 269–281 من ملف المسح", en: "Dar al-Wafa' vol. 7, scan pp. 269–281" } }]
+    sources: [source/majmu-fatawa-wafa-v7]
+  - tradition: other
+    id: murjia-jahmiyya-tahrim
+    standing: secondary
+    stance: { ar: "المرجئة والجهمية: يحرم الاستثناء لأنه شك", en: "Murji'a and Jahmiyya: the exception is forbidden as doubt", ur: "مرجئہ اور جہمیہ: استثنا حرام ہے کیونکہ یہ شک ہے" }
+    summary: { ar: "في نقل ابن تيمية: يجعلون الإيمان شيئاً واحداً هو التصديق الذي يعلمه الإنسان من نفسه، فلا يقال فيه إن شاء الله كما لا يقال: قرأت الفاتحة إن شاء الله، ويسمون المستثنين الشكاكة.", en: "As Ibn Taymiyya reports: they make faith one thing, the assent a person knows in himself, so one does not say 'God willing' of it, just as one does not say 'I recited the Fatiha, God willing'; they call those who make the exception 'the doubters'.", ur: "ابن تیمیہ کی نقل میں: وہ ایمان کو ایک ہی چیز یعنی وہ تصدیق سمجھتے ہیں جسے انسان اپنے اندر جانتا ہے، اس لیے اس میں ان شاء اللہ نہیں کہا جاتا جیسے یہ نہیں کہا جاتا کہ میں نے ان شاء اللہ فاتحہ پڑھی؛ وہ استثنا کرنے والوں کو شکاکہ کہتے ہیں۔" }
+    evidence: [{ ref: source/majmu-fatawa-wafa-v7, note: { ar: "ج7، ص 269–270 من ملف المسح", en: "vol. 7, scan pp. 269–270" } }]
+    sources: [source/majmu-fatawa-wafa-v7]
+related: [concept/iman, work/ibana-al-kubra-ibn-batta, group/murjia, work/kitab-al-iman-ibn-taymiyya, group/jahmiyya]
 wings: [ideas]
 themes: [creed, sects-and-schools]
 sensitivity: contested
-sources: [source/ibana-kubra-muti-iman]
-provenance: { layer: own-research, source: "الإبانة الكبرى، كتاب الإيمان، تحقيق رضا معطي، ص 136–139، 862–864", generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/ibana-kubra-muti-iman, source/majmu-fatawa-wafa-v7]
+provenance: { layer: own-research, source: "الإبانة الكبرى، كتاب الإيمان، تحقيق رضا معطي، ص 136–139، 862–864؛ مجموعة الفتاوى ط. دار الوفاء ج7 ص 269–281 من ملف المسح", generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C)" }

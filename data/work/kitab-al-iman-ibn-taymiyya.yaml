@@ -1,17 +1,28 @@
 id: work/kitab-al-iman-ibn-taymiyya
 class: work
 kind: book
-label: { ar: "كتاب الإيمان (ابن تيمية)", en: "The Book of Faith (Ibn Taymiyya)" }
+genre: [creed]
+label: { ar: "كتاب الإيمان (الإيمان الكبير)", en: "Kitab al-Iman (al-Iman al-Kabir) of Ibn Taymiyya", ur: "کتاب الایمان (الایمان الکبیر)" }
+aliases: [work/al-iman-al-kabir]
 summary:
-  ar: "بطاقة أولية لـكتاب الإيمان (ابن تيمية)؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for The Book of Faith (Ibn Taymiyya); its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب لابن تيمية (ت 728هـ) في حقيقة الإيمان والإسلام، يعرف بكتاب الإيمان الكبير، وهو أول المجلد السابع من مجموع الفتاوى؛ يقدم فيه دلالة الكتاب والسنة على مسمى الإيمان، ويرى أن الإيمان المطلق يستلزم الأعمال وأنه يزيد وينقص، ويرد على المرجئة والجهمية ومن نصر قول جهم في الإيمان، ويفصّل الأقوال في الاستثناء في الإيمان."
+  en: "A book by Ibn Taymiyya (d. 728 AH) on the reality of faith (iman) and submission (islam), known as Kitab al-Iman al-Kabir and opening volume 7 of Majmu' al-Fatawa. It sets out what the Qur'an and Sunna show the term 'faith' to cover, holds that unqualified faith entails deeds and that faith increases and decreases, answers the Murji'a, the Jahmiyya and those who championed Jahm's view of faith, and details the views on the 'exception' in faith."
+wings: [ideas, words]
+themes: [creed, sects-and-schools]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/majmu-fatawa-wafa-v7] }
+authors: [person/ibn-taymiyya]
+language: language/arabic
+structure: "Opening on faith and islam and the method of starting from the texts (scan p. 11); sections on disputed hadiths, on the terms 'righteous', 'martyr' and 'truthful', 'righteousness' and 'corruption', 'wickedness' and 'unbelief', and 'wronging oneself' when used alone or together; that al-Ash'ari championed Jahm's view of faith; that unqualified faith entails deeds; what faith means when joined with islam or with good deeds; conjunction implying difference; faith as righteousness (birr); the Murji'a's claim that faith in the heart is assent only; how the increase of faith is known; islam without iman in the Qur'an; Muhammad ibn Nasr's arguments; the hadith of Jibril on islam, iman and ihsan; the disputes over the names 'believer' and 'faith'; and the views on the exception in faith (contents, scan pp. 423–429). Kitab al-Iman al-Awsat follows in the same volume (contents p. 429ff.)."
+relations:
+  - { type: part_of, target: work/majmu-al-fatawa, sources: [source/majmu-fatawa-wafa-v7] }
 external_ids: { wikidata: "Q7719222" }
+sources: [source/majmu-fatawa-wafa-v7]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "مجموعة الفتاوى ط. دار الوفاء ج7، ص 9–11، 269–273، 279–281، والفهرس ص 423–429 من ملف المسح"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C); earlier Wikidata cards (work/kitab-al-iman-ibn-taymiyya Q7719222 and work/al-iman-al-kabir Q29513553, now an alias) by Devin (SWE-2 High), wikidata-import-wave2" }

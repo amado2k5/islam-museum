@@ -1,0 +1,20 @@
+id: person/abdullah-ibn-qays-al-jasi
+class: person
+label: { ar: "عبد الله بن قيس الجاسي", en: "Abdullah ibn Qays al-Jasi", ur: "عبد اللہ بن قیس جاسی" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن قيس الجاسي" }
+gender: male
+roles: [general]
+summary:
+  ar: "قائد الأسطول الإسلامي في الشام في خلافة عثمان، حليف بني فزارة، ولّاه معاوية بن أبي سفيان على البحر فغزا خمسين غزاة بين شاتية وصائفة لم يغرق فيها أحد من جنده، ثم قُتل وحده حين خرج طليعة في قارب إلى مرفأ من أرض الروم فعرفته امرأة تصدّق عليها."
+  en: "Commander of the Muslim fleet in Syria under Uthman, an ally of Banu Fazara; Mu'awiya ibn Abi Sufyan put him in charge of the sea and he led fifty winter and summer naval raids in which none of his men drowned, until he was killed alone when he went out scouting in a skiff to an anchorage in Byzantine territory and was recognised by a woman to whom he had given alms."
+wings: [people]
+themes: [armies-and-navies, seafaring-and-ports]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: allied_with, target: group/banu-fazara, role: "حليف بني فزارة", sources: [source/sallabi-uthman-tawzi-2003] }
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, role: "ولّاه البحر", sources: [source/sallabi-uthman-tawzi-2003] }
+provenance: { layer: own-research, source: "source/sallabi-uthman-tawzi-2003 pp. 195–196", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sallabi-uthman-tawzi-2003]
+status: { review: published, completeness: 3 }

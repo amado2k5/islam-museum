@@ -1,17 +1,51 @@
 id: work/sunan-al-darimi
 class: work
 kind: book
-label: { ar: "سنن الدارمي", en: "Sunan al-Darimi" }
+label:
+  ar: "مسند الدارمي (سنن الدارمي)"
+  en: "Musnad al-Darimi (Sunan al-Darimi)"
+  ur: "مسند الدارمی (سنن الدارمی)"
 summary:
-  ar: "بطاقة أولية لسنن الدارمي، مسند عبد الله بن عبد الرحمن الدارمي الجامع للحديث من القرن التاسع؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Sunan al-Darimi, the ninth-century musnad of Abd Allah ibn Abd al-Rahman; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q7638821" }
+  ar: "كتاب أبي محمد عبد الله بن عبد الرحمن الدارمي السمرقندي (181–255هـ)، مرتب على الأبواب ويفتتح بدلائل النبوة، عُرف قديماً بـ«المسند» واشتهر حديثاً بـ«سنن الدارمي»، وأطلق عليه بعضهم «الصحيح» وخالفهم آخرون لما فيه من المرسل والمنقطع والضعيف؛ وفيه خمسة عشر حديثاً ثلاثياً، وتعليقات فقهية للمؤلف تُظهر اجتهاده {cite:musnad-darimi-tasil-2015 p. 32} {cite:musnad-darimi-tasil-2015 p. 37} {cite:musnad-darimi-tasil-2015 p. 48-52}."
+  en: "The book of Abu Muhammad 'Abd Allah b. 'Abd al-Rahman al-Darimi of Samarqand (181–255 AH), arranged by topic and opening with the proofs of prophethood, known of old as 'al-Musnad' and in modern times as 'Sunan al-Darimi'; some called it 'al-Sahih' while others objected, given its mursal, broken and weak reports; it contains fifteen three-link (thulathi) hadiths and the author's own legal comments, which show his independent reasoning {cite:musnad-darimi-tasil-2015 p. 32} {cite:musnad-darimi-tasil-2015 p. 37} {cite:musnad-darimi-tasil-2015 p. 48-52}."
+  ur: "سمرقند کے ابو محمد عبد اللہ بن عبد الرحمٰن دارمی (181–255ھ) کی کتاب، ابواب پر مرتب اور دلائلِ نبوت سے شروع ہونے والی، جو قدیم زمانے میں «المسند» اور جدید دور میں «سنن الدارمی» کے نام سے معروف ہے؛ بعض نے اسے «الصحیح» کہا اور دوسروں نے اس میں مرسل، منقطع اور ضعیف روایات کی وجہ سے اختلاف کیا؛ اس میں پندرہ ثلاثی احادیث اور مصنف کی فقہی تعلیقات ہیں جو ان کے اجتہاد کو ظاہر کرتی ہیں {cite:musnad-darimi-tasil-2015 p. 32} {cite:musnad-darimi-tasil-2015 p. 37} {cite:musnad-darimi-tasil-2015 p. 48-52}۔"
+language: language/arabic
+authors: [person/al-darimi]
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/musnad-darimi-tasil-2015] }
+editions: [source/musnad-darimi-tasil-2015]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+sensitivity: contested
+issue:
+  ar: "هل يصح أن يسمى كتاب الدارمي «الصحيح»؟"
+  en: "May al-Darimi's book be called 'the Sahih'?"
+  ur: "کیا دارمی کی کتاب کو «الصحیح» کہنا درست ہے؟"
+perspectives:
+  - tradition: sunni
+    id: mughaltay
+    stance: { ar: "يُطلق عليه «الصحيح»", en: "It may be called 'the Sahih'", ur: "اسے «الصحیح» کہا جا سکتا ہے" }
+    summary:
+      ar: "مغلطاي: أطلق عليه اسم الصحيح جماعة من الحفاظ آخرهم ابن دقيق العيد، وسماه به أيضاً ابن القيم والبلقيني، ووقع في نسخة كوبريلي «المسند الصحيح الجامع»."
+      en: "Mughaltay: a number of hadith masters called it 'the Sahih', the last being Ibn Daqiq al-'Id; Ibn al-Qayyim and al-Bulqini also used the name, and the Köprülü manuscript titles it 'al-Musnad al-Sahih al-Jami''."
+      ur: "مغلطائی: کئی حفاظ نے اسے «الصحیح» کہا، آخری ابن دقیق العید؛ ابن القیم اور بلقینی نے بھی یہ نام استعمال کیا، اور نسخۂ کوپریلی میں «المسند الصحیح الجامع» ہے۔"
+    sources: [source/musnad-darimi-tasil-2015]
+  - tradition: sunni
+    id: iraqi-ibn-hajar
+    stance: { ar: "لا يُسمى صحيحاً لما فيه من الضعيف والمنقطع", en: "It cannot be called sound, given its weak and broken reports", ur: "اس میں ضعیف اور منقطع روایات کی وجہ سے اسے صحیح نہیں کہا جا سکتا" }
+    summary:
+      ar: "العراقي: لا يخفى ما فيه من الضعيف لحال رواته أو لإرساله؛ وابن حجر: لم يُر ذلك في كلام من يُعتمد عليه، والنسخة التي ظنها مغلطاي بخط المنذري ورقتها الأولى بخط ابن أبي الحصني، ولو أطلقه معتمد لخالفه الواقع."
+      en: "Al-'Iraqi: its weak reports, from their narrators or from mursal transmission, are plain; Ibn Hajar: no reliable scholar is found to have said so — the copy Mughaltay took to be in al-Mundhiri's hand has a first leaf written by Ibn Abi al-Husni — and had a reliable scholar said it, the contents would contradict him."
+      ur: "عراقی: اس میں راویوں کے حال یا ارسال کی وجہ سے ضعیف ظاہر ہے؛ ابن حجر: کسی معتمد کے کلام میں یہ نہیں ملا — جس نسخے کو مغلطائی نے منذری کا خط سمجھا اس کا پہلا ورق ابن ابی الحصنی کے خط میں ہے — اور اگر کوئی معتمد یہ کہتا تو کتاب کا مواد اس کے خلاف ہوتا۔"
+    sources: [source/musnad-darimi-tasil-2015]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in hadith-literature histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "al-Musnad of al-Darimi, Dar al-Ta'sil 2015, scholarly introduction pp. 20–53 (printed); earlier Wikidata draft card (run wikidata-import-wave2)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+external_ids: { wikidata: "Q7638821" }
+sources: [source/musnad-darimi-tasil-2015, source/al-aalam]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A); replaces the Wikidata draft card" }

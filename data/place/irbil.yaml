@@ -8,10 +8,11 @@ summary:
 wings: [place]
 regions: [levant-iraq]
 coordinates: [44.01, 36.19]
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); coordinates approximate (modern Erbil citadel)" }
+sources: [source/shadharat-dhahab, source/mujam-al-buldan-yaqut]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High); coordinates approximate (modern Erbil citadel)" }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج5، سنة 634)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-125
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 634)، قراءة آبل فيجن; source/mujam-al-buldan-yaqut vols 1-2 scan pp. 176-178"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "lib-shadharat-batch-125; ocr-harvest-2026-11-04"
