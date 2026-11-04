@@ -2,13 +2,7 @@
 id: person/miskin-al-madani
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 27"]
 ---
-
 ## Overview
-Miskin al-Madani, known as Abu Sadaqa. He was a tailor-slave of some of the family of al-Zubayr, who paid a tax of two dirhams a day. {cite:muruj-al-dhahab p.348-349}
-
-## The story
-Al-Mas'udi relates that he bought a melody from a black slave-girl who carried a jar, for four dirhams in two payments. His master shaved his beard and head, struck him fifty strokes, and then said: "If you had said it yesterday I would have freed you." {cite:muruj-al-dhahab p.348-349}
-
-He sang for al-Rashid at the gathering of singers; the curtain was raised, and he was ordered four thousand dinars, as the slave-girl had said. {cite:muruj-al-dhahab p.348-349}
+Miskin al-Madani, called Abu Sadaqa, a slave-tailor of the Zubayrids paying a two-dirham daily tax; he bought a melody from a black jar-bearer for four dirhams in two instalments — his master shaved his beard and head and gave him fifty strokes, then said 'had you said it yesterday I would have freed you'. He sang it to al-Rashid at the singers' gathering; the curtain was lifted and he was granted four thousand dinars.
