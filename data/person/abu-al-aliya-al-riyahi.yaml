@@ -3,27 +3,29 @@ class: person
 label:
   ar: "أبو العالية الرياحي"
   en: "Abu al-Aliya al-Riyahi"
+  ur: "ابو العالیہ ریاحی"
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي العالية الرياحي، رفيعة بن مهران البصري التابعي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Aliya al-Riyahi, Rufay'a ibn Mihran the Basran Successor; his entry is not yet checked on the page."
+  ar: "أبو العالية الرياحي، رفيع بن مهران البصري التابعي؛ يفرد له أحمد بن حنبل في كتاب الزهد باباً فيه قوله إنه يأتي على الناس زمان تخرب فيه صدورهم من القرآن، وقوله إن الصائم في عبادة ما لم يغتب {cite:zuhd-ahmad-dkim-1983 p. 371}."
+  en: "Abu al-Aliya al-Riyahi, Rufay' ibn Mihran, the Basran Successor; Ahmad ibn Hanbal gives him a chapter of Kitab al-Zuhd, with his saying that a time will come when people's breasts are emptied of the Qur'an, and that one who fasts is in worship as long as he does not backbite {cite:zuhd-ahmad-dkim-1983 p. 371}."
+  ur: "ابو العالیہ ریاحی، رفیع بن مہران بصری تابعی؛ احمد بن حنبل کتاب الزہد میں ان کے لیے ایک باب لاتے ہیں جس میں ان کا یہ قول ہے کہ لوگوں پر ایسا زمانہ آئے گا جب ان کے سینے قرآن سے ویران ہو جائیں گے، اور یہ کہ روزہ دار جب تک غیبت نہ کرے عبادت میں ہے {cite:zuhd-ahmad-dkim-1983 p. 371}۔"
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 died: { edtf: "0711", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/zuhd-ahmad-dkim-1983]
 external_ids:
   wikidata: Q12213579
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
+  generated_by: "Devin (SWE-2 High); prose and summary by Claude Code (OCR-harvest worker G), run ocr-harvest-2026-11-04, from Kitab al-Zuhd of Ahmad pp. 371-372"
+  model: "SWE-2 High; claude-opus-5-5"
   run: wikidata-import-wave2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary

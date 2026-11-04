@@ -24,11 +24,11 @@ relations:
   - { type: participated_in, target: event/muqaddasi-hajj-367, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/muqaddasi-khurasan-374, role: "الرحّالة", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/muqaddasi-shiraz-375, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/kashf-zunun-furqan, source/ahsan-al-taqasim, source/encyclopaedia-of-islam-2, source/muqaddasi-ahsan-taqasim-bga-1877]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
 provenance:
   layer: own-research
-  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 206 مدخل 117؛ المقدسي، أحسن التقاسيم ص 40-41؛ Encyclopaedia of Islam 2nd ed. vol. 7 (Mif–Naz), printed p. 544, art. al-Muḳaddasī"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: lib-kashf-batch-11; lib-geo-ahsan-1; explorer-muqaddasi-1
-sources: [source/kashf-zunun-furqan, source/ahsan-al-taqasim, source/encyclopaedia-of-islam-2]
-status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 206 مدخل 117؛ المقدسي، أحسن التقاسيم ص 40-41؛ Encyclopaedia of Islam 2nd ed. vol. 7 (Mif–Naz), printed p. 544, art. al-Muḳaddasī; source/muqaddasi-ahsan-taqasim-bga-1877 scan pp. 9, 11-20"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "lib-kashf-batch-11; lib-geo-ahsan-1; explorer-muqaddasi-1; ocr-harvest-2026-11-04"
