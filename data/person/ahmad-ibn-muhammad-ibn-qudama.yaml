@@ -1,0 +1,28 @@
+id: person/ahmad-ibn-muhammad-ibn-qudama
+class: person
+label: { ar: "أحمد بن محمد بن قدامة المقدسي", en: "Ahmad ibn Muhammad ibn Qudama al-Maqdisi" }
+names:
+  - { kind: full, lang: ar, value: "أبو العباس أحمد بن محمد بن قدامة بن مقدام المقدسي الجماعيلي" }
+  - { kind: kunya, lang: ar, value: "أبو العباس" }
+roles: [khatib, scholar]
+gender: male
+summary:
+  ar: "الشيخ أبو العباس أحمد بن محمد بن قدامة، خطيب جمّاعيل من أرض نابلس، ووالد الشيخ أبي عمر والموفق ابن قدامة؛ يصفه ابن رجب بالصلاح والزهد والعبادة والمهابة وأنه قرأ في رمضان خمساً وستين ختمة، ونقل عن ابن الحنبلي ثناءً بالغاً عليه، وحدّث وروى عنه ابناه. هاجر بأهله إلى دمشق سنة 551هـ لاستيلاء الفرنج على الأرض المقدسة، وولد سنة 491هـ وتوفي سنة 558هـ ودفن بسفح قاسيون وإلى جانبه ابنه أبو عمر {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 52}{cite:dhayl-tabaqat-hanabila-faqi-v2 p. 61}."
+  en: "Shaykh Abu al-Abbas Ahmad ibn Muhammad ibn Qudama, preacher of Jamma'il in the land of Nablus and father of Shaykh Abu Umar and of al-Muwaffaq Ibn Qudama. Ibn Rajab describes him as righteous, ascetic, devoted to worship and held in awe, and says he completed the Qur'an sixty-five times in one Ramadan; he narrated hadith and his two sons transmitted from him. He took his family to Damascus in 551 AH because the Franks had taken the Holy Land. Born 491 AH, died 558 AH, buried on the slope of Qasyun with his son Abu Umar beside him."
+born: { hijri: "0491", edtf: "1098", calendar: julian, precision: year, status: tradition, derived: true, note: "ابن رجب: كان مولده سنة إحدى وتسعين وأربعمائة {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 61}؛ التحويل مشتق.", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+died: { hijri: "0558", edtf: "1163", calendar: julian, precision: year, status: tradition, derived: true, note: "ابن رجب: توفي سنة ثمان وخمسين وخمسمائة ودفن بسفح جبل قاسيون {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 61}؛ التحويل مشتق (1162–1163م).", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: lived_in, target: place/jammail, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: lived_in, target: place/damascus, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+sources: [source/dhayl-tabaqat-hanabila-faqi-v2]
+provenance:
+  layer: own-research
+  source: "الذيل على طبقات الحنابلة لابن رجب، الجزء الثاني (ط الفقي)، ص 52، 61"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 1, generated_by: "Claude Code (OCR-harvest worker F)" }

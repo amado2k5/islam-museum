@@ -3,6 +3,7 @@ id: event/hilf-al-fudul
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "al-sira-al-nabawiyya-nadwi-ibn-kathir-2004 pp. 174–175 (section added; earlier text by its original authors)" }
 ---
 
 ## Summary
@@ -26,3 +27,6 @@ According to al-Mas'udi, the Pact of al-Fudul took place directly after their re
 
 ## For young visitors
 After the war of al-Fijar, a number of Quraysh families gathered in the house of Abdullah ibn Jud'an and agreed to support every wronged person in Mecca until he received his right. The Prophet attended this agreement as a young man. After the mission, he said that if he were called to it in Islam, he would answer.
+
+## In al-Nadwi's al-Sira al-Nabawiyya
+In [[work/al-sira-al-nabawiyya-nadwi|al-Sira al-Nabawiyya]], [[person/abu-al-hasan-ali-nadwi|Abu al-Hasan al-Nadwi]] tells the story of the pact from Ibn Kathir's Sira. He calls it "the noblest and most honourable pact ever heard of among the Arabs", and says the Prophet was glad of it and held to it even after his mission. {cite:al-sira-al-nabawiyya-nadwi-ibn-kathir-2004 p. 174} In his view it was prompted not by one man's case but by unease at the disorder and mistrust in and around Mecca, especially after the Fijar war, and by the need for security, respect for rights, and protection of strangers and visiting traders and craftsmen. {cite:al-sira-al-nabawiyya-nadwi-ibn-kathir-2004 p. 175} The editor's note gathers the explanations of the name. One is that three men named al-Fadl called for it, as Ibn Qutayba says; another is that people said "these have entered upon a matter of excellence (fadl)"; a third is that it was named after an ancient pact of Jurhum, as Ibn al-Athir says. The note quotes Ibn Sayyid al-Nas that the Prophet witnessed it at the age of twenty, in Dhu al-Qa'da after the Fijar war. It weakens the report "I witnessed no pact of Quraysh except the pact of the Mutayyabun", since the Prophet did not live at the time of that pact. {cite:al-sira-al-nabawiyya-nadwi-ibn-kathir-2004 p. 174-175}

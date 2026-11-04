@@ -44,15 +44,16 @@ relations:
   sources:
   - source/ibn-hajar-isaba
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his chapter in Khalid Muhammad Khalid's Rijal Hawl al-Rasul, source/rijal-hawl-al-rasul-muqattam-1994 PDF pp. 347-353"
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 2968، ص 515
-  generated_by: Claude (maintainer session)
-  model: claude-sonnet-5-5
-  run: isaba-batch-3
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch111
 external_ids: { wikidata: "Q3574949" }
 sources:
 - source/ibn-hajar-isaba
+- source/rijal-hawl-al-rasul-muqattam-1994
 status:
-  review: draft
-  completeness: 2
-  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 515, entry 2968)
+  review: published
+  completeness: 3

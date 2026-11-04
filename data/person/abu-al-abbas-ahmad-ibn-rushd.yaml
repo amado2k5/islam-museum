@@ -1,0 +1,28 @@
+id: person/abu-al-abbas-ahmad-ibn-rushd
+class: person
+label: { ar: "أحمد بن أبي الوليد بن رشد (والد ابن رشد الحفيد)", en: "Ahmad ibn Abi al-Walid ibn Rushd (father of Ibn Rushd al-Hafid)", ur: "احمد بن ابی الولید بن رشد (ابن رشد الحفید کے والد)" }
+names:
+  - { value: "أبو العباس أحمد بن أبي الوليد بن رشد", kind: full }
+gender: male
+summary:
+  ar: "فقيه قاضٍ قرطبي متفنن من بيت بني رشد، ابن ابن رشد الجد ووالد ابن رشد الحفيد؛ تفقه بأبيه ولازم أبا بكر البطليوسي وسمع من أبي محمد بن عتاب وابن مغيث وابني بقي وابن العربي والصدفي وابن تليد، وله برنامج وتفسير في أسفار وشرح على سنن النسائي؛ ولد سنة 487هـ وتوفي سنة 563هـ، بحسب ترجمة محمد صبحي حلاق نقلاً عن ابن أبي أصيبعة {cite:bidaya-hallaq-v1 p. 12}."
+  en: "A versatile Cordoban jurist and judge of the Banu Rushd, son of Ibn Rushd al-Jadd and father of Ibn Rushd al-Hafid; he studied law with his father, attended Abu Bakr al-Batalyawsi and heard Abu Muhammad ibn Attab, Ibn Mughith, the two sons of Baqi, Ibn al-Arabi, al-Sadafi and Ibn Talid; he left a barnamaj (list of teachers), a Qur'an commentary in several volumes and a commentary on the Sunan of al-Nasa'i; born 487 AH, died 563 AH, according to Muhammad Subhi Hallaq citing Ibn Abi Usaybi'a."
+  ur: "بنو رشد کے گھرانے کے ایک ہمہ جہت قرطبی فقیہ اور قاضی، ابن رشد الجد کے بیٹے اور ابن رشد الحفید کے والد؛ انہوں نے اپنے والد سے فقہ پڑھی، ابو بکر بطلیوسی کی صحبت اختیار کی اور ابو محمد بن عتاب، ابن مغیث، بقی کے دونوں بیٹوں، ابن العربی، الصدفی اور ابن تلید سے سنا؛ ان کا ایک برنامج، کئی جلدوں میں تفسیر اور سنن نسائی کی شرح ہے؛ ولادت 487ھ، وفات 563ھ، محمد صبحی حلاق کے مطابق جو ابن ابی اصیبعہ سے نقل کرتے ہیں۔"
+roles: [jurist, qadi]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+born: { edtf: "1094/1095", hijri: "0487", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة 487هـ (بداية المجتهد ط. حلاق PDF ص12)؛ التحويل مشتق", sources: [source/bidaya-hallaq-v1] }
+died: { edtf: "1167/1168", hijri: "0563", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 563هـ (بداية المجتهد ط. حلاق PDF ص12)؛ التحويل مشتق", sources: [source/bidaya-hallaq-v1] }
+relations:
+  - { type: child_of, target: person/ibn-rushd-al-jadd, sources: [source/bidaya-bakri-bayt-al-afkar, source/bidaya-hallaq-v1] }
+  - { type: student_of, target: person/ibn-rushd-al-jadd, role: "تفقه بأبيه", sources: [source/bidaya-hallaq-v1] }
+  - { type: lived_in, target: place/cordoba, sources: [source/bidaya-hallaq-v1] }
+sources: [source/bidaya-hallaq-v1, source/bidaya-bakri-bayt-al-afkar]
+provenance:
+  layer: own-research
+  source: "bidaya-hallaq-v1 PDF p. 12; bidaya-bakri-bayt-al-afkar p. 9"
+  generated_by: "Claude Code (OCR-harvest worker L)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker L)" }

@@ -1,17 +1,37 @@
 id: work/al-ibana-ashari
 class: work
 kind: book
-label: { ar: "الإبانة عن أصول الديانة", en: "Al-Ibana (al-Ash'ari)" }
+label: { ar: "الإبانة عن أصول الديانة", en: "Al-Ibana 'an Usul al-Diyana (al-Ash'ari)", ur: "الابانہ عن اصول الدیانہ (اشعری)" }
 summary:
-  ar: "بطاقة أولية للإبانة عن أصول الديانة لأبي الحسن الأشعري؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Abu al-Hasan al-Ash'ari's al-Ibana 'an Usul al-Diyana; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q12183691" }
+  ar: "كتاب أبي الحسن الأشعري في أصول الاعتقاد، يبدأ ببيان قول من يسميهم أهل الزيغ والبدعة ثم قول أهل الحق والسنة، وفيه يقول إن قوله التمسك بالكتاب والسنة وما روي عن الصحابة والتابعين وأئمة الحديث، وبما كان يقول به أحمد بن حنبل؛ ثم أبواب في رؤية الله بالأبصار في الآخرة، وأن القرآن كلام الله غير مخلوق، والاستواء على العرش، والوجه والعينين واليدين، والعلم والقدرة، والإرادة، والقدر والاستطاعة، والشفاعة والحوض وعذاب القبر، وإمامة الخلفاء الأربعة {cite:al-ibana-ashari-dar-ibn-zaydun p. 7-9} {cite:al-ibana-ashari-dar-ibn-zaydun p. 75-76}."
+  en: "Abu al-Hasan al-Ash'ari's book on the foundations of creed. It opens by setting out the view of those he calls the people of deviation and innovation, then the view of the people of truth and the Sunna, in which he says his position is to hold to the Book, the Sunna and what is reported from the Companions, the Successors and the imams of hadith, and to what Ahmad ibn Hanbal held. Chapters follow on the vision of God with the eyes in the hereafter, the Qur'an as God's uncreated speech, the rising over the Throne, the Face, Eyes and Hands, knowledge and power, will, decree and capacity, intercession, the Basin and the punishment of the grave, and the imamate of the four caliphs {cite:al-ibana-ashari-dar-ibn-zaydun p. 7-9} {cite:al-ibana-ashari-dar-ibn-zaydun p. 75-76}."
+  ur: "ابو الحسن اشعری کی عقیدے کے اصولوں پر کتاب۔ یہ پہلے ان لوگوں کا قول بیان کرتی ہے جنہیں وہ اہلِ زیغ و بدعت کہتے ہیں، پھر اہلِ حق و سنت کا قول، جس میں وہ کہتے ہیں کہ ان کا قول کتاب و سنت اور صحابہ، تابعین اور ائمۂ حدیث سے مروی باتوں کو تھامنا ہے، اور اس کو جس کے احمد بن حنبل قائل تھے۔ پھر ابواب ہیں: آخرت میں آنکھوں سے رؤیتِ باری، قرآن کا اللہ کا غیر مخلوق کلام ہونا، عرش پر استوا، وجہ، آنکھیں اور ہاتھ، علم اور قدرت، ارادہ، تقدیر اور استطاعت، شفاعت، حوض اور عذابِ قبر، اور چاروں خلفا کی امامت {cite:al-ibana-ashari-dar-ibn-zaydun p. 7-9} {cite:al-ibana-ashari-dar-ibn-zaydun p. 75-76}۔"
+genre: [creed]
+made: { by_muslims: true, basis: documented, sources: [source/al-ibana-ashari-dar-ibn-zaydun] }
+authors: [person/al-ashari]
+language: language/arabic
+structure: "خطبة المؤلف (ص 4)؛ باب في إبانة قول أهل الزيغ والبدعة (ص 7)؛ باب في إبانة قول أهل الحق والسنة (ص 8)؛ رؤية الله بالأبصار في الآخرة (ص 13–19)؛ القرآن كلام الله غير مخلوق والرد على الجهمية والواقفة (ص 20–33)؛ الاستواء على العرش (ص 33)؛ الوجه والعينان والبصر واليدان (ص 37)؛ العلم والقدرة والصفات (ص 41)؛ الإرادة (ص 46)؛ تقدير أعمال العباد والاستطاعة ومسائل التكليف وإيلام الأطفال والآجال والأرزاق والهدى والضلال (ص 52–64)؛ الروايات في القدر (ص 65)؛ الشفاعة والخروج من النار (ص 69)؛ الحوض وعذاب القبر (ص 70)؛ إمامة أبي بكر والخلفاء (ص 71–74)؛ الفهرس (ص 75–76). الصفحات من نشرة دار ابن زيدون."
+editions: [source/al-ibana-ashari-dar-ibn-zaydun]
+wings: [words, ideas]
+themes: [creed, sects-and-schools]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+relations:
+  - { type: mentions, target: person/ahmad-ibn-hanbal, sources: [source/al-ibana-ashari-dar-ibn-zaydun], note: "باب في إبانة قول أهل الحق والسنة، ص 8–9" }
+  - { type: mentions, target: group/jahmiyya, sources: [source/al-ibana-ashari-dar-ibn-zaydun] }
+  - { type: mentions, target: group/mutazila, sources: [source/al-ibana-ashari-dar-ibn-zaydun] }
+  - { type: mentions, target: concept/ruyat-allah, sources: [source/al-ibana-ashari-dar-ibn-zaydun] }
+  - { type: mentions, target: concept/istiwa-ala-al-arsh, sources: [source/al-ibana-ashari-dar-ibn-zaydun] }
+  - { type: mentions, target: concept/kalam-allah, sources: [source/al-ibana-ashari-dar-ibn-zaydun] }
+  - { type: mentions, target: concept/shafaa, sources: [source/al-ibana-ashari-dar-ibn-zaydun] }
+  - { type: mentions, target: concept/al-hawd-al-nabawi, sources: [source/al-ibana-ashari-dar-ibn-zaydun] }
+  - { type: mentions, target: concept/adhab-al-qabr, sources: [source/al-ibana-ashari-dar-ibn-zaydun] }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "al-Ibana, Dar Ibn Zaydun edition, pp. 1–10, 33–34, 71–76"
+  generated_by: "Claude Code (OCR-harvest worker K)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+external_ids: { wikidata: "Q12183691" }
+sources: [source/al-ibana-ashari-dar-ibn-zaydun, source/al-aalam]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K); first card by Devin (SWE-2 High)" }

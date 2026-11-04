@@ -27,9 +27,10 @@ relations:
   - { type: member_of, target: group/banu-hashim }
   - { type: member_of, target: group/quraysh }
 external_ids: { wikidata: "Q1146625" }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/tabaqat-ibn-sad]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 55" }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/tabaqat-ibn-sad, source/rijal-hawl-al-rasul-muqattam-1994]
+status: { review: published, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 55" }
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his chapter in Khalid Muhammad Khalid's Rijal Hawl al-Rasul, source/rijal-hawl-al-rasul-muqattam-1994 PDF pp. 545-548"
   layer: own-research
   source: "source/tabaqat-ibn-sad"
   generated_by: Devin

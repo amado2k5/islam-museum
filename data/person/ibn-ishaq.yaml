@@ -5,14 +5,14 @@ names:
   - { kind: full, lang: ar, value: "محمد بن إسحاق بن يسار المخرمي المدني، أبو بكر" }
   - { kind: kunya, lang: ar, value: "أبو بكر" }
 summary:
-  ar: "عند البلاذري: محمد بن إسحاق صاحب السيرة ابن يسار الذي كان من سبي كنيسة عين التمر زمن خالد بن الوليد وهو مولى قيس بن مخرمة بن المطلب بن عبد مناف. وعند المسعودي مات سنة خمسين ومائة ويقال سنة إحدى ويقال سنة اثنتين وخمسين ومائة {cite:muruj-al-dhahab p. 293}. ويترجم له الذهبي في «ميزان الاعتدال» بأنه أحد الأئمة الأعلام، ويجمع فيه أقوال الموثقين والطاعنين، ثم يحكم بأنه حسن الحديث صالح الحال صدوق، وأن ما انفرد به فيه نكارة، وأن ذنبه عنده ما حشا به السيرة من الأشياء المنكرة المنقطعة والأشعار المكذوبة {cite:mizan-itidal-bijawi-v3 p. 468-475}."
-  en: "In al-Baladhuri: Muhammad ibn Ishaq author of the sira, son of the Yasar taken in Ayn al-Tamr's church captives under Khalid ibn al-Walid — a mawla of Qays ibn Makhrama ibn al-Muttalib ibn Abd Manaf. Al-Dhahabi's Mizan al-I'tidal calls him one of the eminent imams, gathers the sayings of those who declared him trustworthy and of those who attacked him, and judges him fair in hadith, upright and truthful, with something objectionable in what he alone reports; his one fault, for al-Dhahabi, is the objectionable, broken reports and forged verses he packed into the Sira."
+  ar: "عند البلاذري: محمد بن إسحاق صاحب السيرة حفيد يسار الذي كان من سبي كنيسة عين التمر زمن خالد بن الوليد وهو مولى قيس بن مخرمة بن المطلب بن عبد مناف. وعند المسعودي مات سنة خمسين ومائة ويقال سنة إحدى ويقال سنة اثنتين وخمسين ومائة {cite:muruj-al-dhahab p. 293}. ويترجم له الذهبي في «ميزان الاعتدال» بأنه أحد الأئمة الأعلام، ويجمع فيه أقوال الموثقين والطاعنين، ثم يحكم بأنه حسن الحديث صالح الحال صدوق، وأن ما انفرد به فيه نكارة، وأن ذنبه عنده ما حشا به السيرة من الأشياء المنكرة المنقطعة والأشعار المكذوبة {cite:mizan-itidal-bijawi-v3 p. 468-475}."
+  en: "In al-Baladhuri: Muhammad ibn Ishaq author of the sira, grandson of the Yasar taken in Ayn al-Tamr's church captives under Khalid ibn al-Walid — a mawla of Qays ibn Makhrama ibn al-Muttalib ibn Abd Manaf. Al-Dhahabi's Mizan al-I'tidal calls him one of the eminent imams, gathers the sayings of those who declared him trustworthy and of those who attacked him, and judges him fair in hadith, upright and truthful, with something objectionable in what he alone reports; his one fault, for al-Dhahabi, is the objectionable, broken reports and forged verses he packed into the Sira."
 wings: [people]
 gender: male
 roles: [historian, scholar]
 died: { hijri: "0151", edtf: "0768", calendar: julian, precision: year, status: debated, derived: true, note: "الذهبي: مات سنة إحدى وخمسين ومائة، وقيل بعدها بسنة {cite:mizan-itidal-bijawi-v3 p. 475}؛ المسعودي: سنة خمسين ومائة، ويقال إحدى، ويقال اثنتين وخمسين {cite:muruj-al-dhahab p. 293}. التحويل إلى الميلادي مشتق.", sources: [source/mizan-itidal-bijawi-v3, source/muruj-al-dhahab] }
 relations:
-  - { type: child_of, target: person/yasar-mawla-qays, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: child_of, target: person/ishaq-ibn-yasar, note: "صُحّح: كان الحد يشير إلى يسار وهو جدّه لا أبوه، بدلالة النسب «محمد بن إسحاق بن يسار» وقول البلاذري إن يسار جدّه", sources: [source/mizan-itidal-bijawi-v3, source/futuh-buldan-maarif-1407] }
   - { type: authored, target: work/sira-ibn-ishaq-ibn-hisham, sources: [source/mizan-itidal-bijawi-v3] }
 perspectives:
   - tradition: sunni
@@ -35,13 +35,14 @@ perspectives:
     sources: [source/mizan-itidal-bijawi-v3]
 sensitivity: contested
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on al-Umari's assessment in al-Sira al-Nabawiyya al-Sahiha, source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 41-42,56-57"
   layer: own-research
   source: "المسعودي، مروج الذهب وأهل المعاجن؛ ميزان الاعتدال للذهبي، تحقيق البجاوي، القسم الثالث، ص 468–475"
   generated_by: "Devin (SWE-2 Medium); Claude Code (OCR-harvest worker F)"
   model: "SWE-2 Medium; claude-opus-5-5"
   run: prose-fill-persons-batch30, ocr-harvest-2026-11-04
 external_ids: { wikidata: "Q334847" }
-sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/mizan-itidal-bijawi-v3]
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/mizan-itidal-bijawi-v3, source/sahih-sira-umari-ulum-hikam-1994]
 status:
   review: published
   completeness: 3

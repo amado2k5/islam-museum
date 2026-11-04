@@ -8,13 +8,14 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
   source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section"
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: section from source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 41–42, 56–57"
 ---
 
 ## Overview
 Muhammad ibn Ishaq ibn Yasar, author of the *Sira* (Biography of the Prophet). {cite:futuh-buldan-maarif-1407 p.345}
 
 ## His lineage according to al-Baladhuri
-Al-Baladhuri says that his father [[person/yasar-mawla-qays|Yasar]] was among the captives of the church of Ayn al-Tamr in the days of Khalid ibn al-Walid, and was a client of Qays ibn Makhrama ibn al-Muttalib ibn Abd Manaf. {cite:futuh-buldan-maarif-1407 p.345}
+Al-Baladhuri says that his grandfather [[person/yasar-mawla-qays|Yasar]], father of his father [[person/ishaq-ibn-yasar|Ishaq]], was among the captives of the church of Ayn al-Tamr in the days of Khalid ibn al-Walid, and was a client of Qays ibn Makhrama ibn al-Muttalib ibn Abd Manaf. {cite:futuh-buldan-maarif-1407 p.345}
 
 ## His death
 According to al-Mas'udi he died in 150 AH. It is also said to be 151 AH, or 152 AH. {cite:muruj-al-dhahab p.293}
@@ -44,3 +45,7 @@ Al-Dhahabi gives his death as the year 151, or a year after it. {cite:mizan-itid
 - **Sunni: Shu'ba, Ali ibn al-Madini, Ahmad, Ibn Ma'in, al-Ijli, Ibn Adi and al-Dhahabi**: declared trustworthy, between "trustworthy", "truthful" and "fair in hadith", with reserve about what he alone reports. {cite:mizan-itidal-bijawi-v3 p. 469} {cite:mizan-itidal-bijawi-v3 p. 474} {cite:mizan-itidal-bijawi-v3 p. 475}
 - **Sunni: Hisham ibn Urwa, Sulayman al-Taymi, Malik, Yahya al-Qattan, al-Nasa'i and al-Daraqutni**: criticised, from being called a liar to "not strong" and "not relied on". {cite:mizan-itidal-bijawi-v3 p. 469}
 :::
+
+## In al-Umari's al-Sira al-Nabawiyya al-Sahiha
+[[person/akram-diya-al-umari|Akram Diya' al-Umari]] holds that Ibn Ishaq (d. 151 AH), al-Zuhri's student, was "an imam in the campaigns", but that his reports do not reach the grade of sound — only good, provided he states that he heard directly, since he practised *tadlis* — and that his sira mixes good and weak. {cite:sahih-sira-umari-ulum-hikam-1994 p.56} He considers Ibn Adi's testimony very important because it rests on examining his reports, sets out the charges against him — Qadarism, Shi'ism, *tadlis*, misreading names, and the accusation of lying in reporting from Fatima, wife of Hisham ibn Urwa — and says the last was not proven and was rebutted by imams including Ahmad ibn Hanbal; he quotes al-Dhahabi and al-Iraqi, including al-Dhahabi's verdict that he was "good in hadith, sound in character, truthful, though what he alone reports contains oddity". {cite:sahih-sira-umari-ulum-hikam-1994 p.57} He judges Ibn Ishaq's sira more accurate and reliable than al-Waqidi's campaigns, and in agreement with the hadith books on many points. {cite:sahih-sira-umari-ulum-hikam-1994 p.41} {cite:sahih-sira-umari-ulum-hikam-1994 p.42}
+
