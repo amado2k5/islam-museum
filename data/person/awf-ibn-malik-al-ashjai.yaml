@@ -15,6 +15,13 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
 relations:
   - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "راوي خبر الجزور؛ صاحب أبي بكر وعمر", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 274", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 274"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch113
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 274; his later life and hadith transmission not read here (needs_source)" }
+status:
+  review: published
+  completeness: 3

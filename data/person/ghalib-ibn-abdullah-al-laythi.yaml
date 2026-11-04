@@ -15,6 +15,13 @@ relations:
   - { type: participated_in, target: event/raid-of-ghalib-on-banu-al-mulawwah, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-ghalib-on-banu-murra, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/kinana, note: "من كلب بن عوف بن ليث", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 257-259, 271", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 257-259, 271"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch113
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 257-259, 271" }
+status:
+  review: published
+  completeness: 3

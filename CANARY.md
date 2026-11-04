@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 13 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 130).
 - **Persons**: 14 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 129).
 - **Persons**: 14 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 128).
 - **Library harvest paused**: the OCR'd-book harvest lane (`lib-ocr-harvest`) is stopped at the founder's request after 13 batches; its claim row is released, and every book's progress file lists what remains to mine. Two downloads (Tafsir al-Tabari, Shakir edition, and Adwa' al-Bayan with its Tatimma) are on the harvest drive but not yet OCR'd or harvested.
@@ -136,6 +137,7 @@ open a new block on top with the new version and today's date.
 - **Forty Explorer stories implemented**: the final twenty person journeys complete the selection, with 185 chronological stops across 132 existing events. All 172 subject/event records pass citation checks; existing Urdu wording is preserved and missing subject translations supplied. No event facts, dates or relations changed.
 - **Forty Explorer stories verified**: the full static build and all 120 Arabic/English/Urdu routes pass, including mobile kids imagery and details interactions. All 85 existing served image variants were screened; optional colour backgrounds and existing event-language fallbacks remain explicit. Concurrent harvest and biography work is preserved.
 - **Explorer hand-off**: preserve the forty-story work and concurrent source enrichments in #3452, with validation/build snapshots and the final citation-only differences documented. Work stops after the founder-requested wind-down merge; no deployment or further batch is started.
+- **Explorer completion resumed**: the founder reauthorized final verification and merging of the existing forty-story batch. Current biography publications are preserved, and final citation/output checks are rerun before shipping; no additional batch is started.
 - **Next forty Explorer stories shipped**: #3416 merges the forty person journeys after integrated validation, citation checks and all 318 tests pass; sixteen screened backdrops are already merged in #3414. Completion claims and lane records now name the actual merges. No production or UAT deployment was run.
 - **Next forty Explorer journeys verified**: 270 chronological stops across existing cited events, with 120 Arabic/English/Urdu routes checked in the production build and browser. Sixteen new screened backdrops, merged separately in #3414, remove this batch's legacy illustration fallbacks; existing event-language gaps and reserved owner follow-ups remain explicit.
 - **Next Timeline Explorer batch, final twenty person stories**: complete the forty-subject definitions and translated subject metadata. Owner-blocked Hamza and Usama proposals are deferred without changing their records or shared images; Abu Sa'id al-Khudri supplies the final slot.
