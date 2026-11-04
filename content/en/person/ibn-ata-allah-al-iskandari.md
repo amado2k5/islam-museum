@@ -3,6 +3,13 @@ id: person/ibn-ata-allah-al-iskandari
 lang: en
 source_lang: ar
 translators: ["Devin (SWE-2 Medium), draft translation"]
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/miftah-al-falah-saada-1332 pp. 3-6, 41-43, 53"
 ---
 
 ## Overview
@@ -16,3 +23,6 @@ He is famed for his Sufi and homiletic works, above all the *Hikam al-Ata'iyya*,
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Omar Abdelkafy explains Ibn Ata Allah's maxims in the series [[work/sharh-al-hekam-al-ataeya|Sharh al-Hikam al-'Ata'iyya]], and says he chose them because the heart needs a charge of faith and a sound creed by which the servant rises through the stations of worship. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:03:30} He opens the first episode by saying that he is beginning 'a new maxim' of Ibn Ata Allah's, {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:05:00} and comments on his maxim about asking that it does not mean giving up supplication. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:11:00}
+
+## Miftah al-Falah
+The first printing of [[work/miftah-al-falah|Miftah al-Falah wa-Misbah al-Arwah]] (Matba'at al-Sa'ada, 1332 AH) attributes the book to "Taj al-Din ibn 'Ata' Allah al-Iskandari". It is a book on dhikr whose author says he had seen no complete and sufficient work on the subject; he arranged it in two parts, on dhikr, its rules and benefits, and then on explaining the formulas, beginning with the word of unification. {cite:miftah-al-falah-saada-1332 p. 3} {cite:miftah-al-falah-saada-1332 p. 4} {cite:miftah-al-falah-saada-1332 p. 53} It quotes al-Ghazali often. {cite:miftah-al-falah-saada-1332 p. 6} {cite:miftah-al-falah-saada-1332 p. 41} {cite:miftah-al-falah-saada-1332 p. 43}

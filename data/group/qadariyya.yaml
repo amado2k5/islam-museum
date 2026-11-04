@@ -8,12 +8,13 @@ education:
 class: group
 kind: sect
 label:
-  ar: القدرية، وعند البلخي في الفهرست أول من تكلم في القدر والاعتزال أبو يونس الأسواري المعروف بسنسويه رجل من الأساورة وتابعه معبد الجهني ويقال إن سليمان بن عبد الملك تكلم فيه {cite:fihrist-ibn-al-nadim p. 557}
+  ar: القدرية
   en: "Qadariyya"
+  ur: "قدریہ"
 summary:
   ar: طائفة تُنسب إليها القول بأن للعباد الاستطاعة والمشيئة في أفعالهم، وأن علمهم بها ليس سابقاً من علم الله؛ ويصف الكتاب قولهم كما نقله، ويقارنه بمذاهب أهل الكتاب والمجوس.
   en: "A sect to which is ascribed the view that people have capacity (istita'a) and will over their acts, and that their knowledge of those acts does not precede God's knowledge; the book describes their view as it relays it, and compares it with the doctrines of the People of the Book and the Magians."
-wings: []
+wings: [ideas]
 periods:
 - period/abbasid-early
 regions:
@@ -22,6 +23,26 @@ themes:
 - sects-and-schools
 - creed
 perspectives:
+- tradition: sunni
+  id: lalakai-sharh-usul
+  standing: main
+  stance:
+    ar: 'نفاة القدر مبتدعة، وفي كفرهم واستتابتهم آثار مختلفة يجمعها اللالكائي'
+    en: 'The deniers of predestination are innovators; al-Lalaka''i gathers differing reports on their unbelief and on asking them to repent'
+    ur: 'تقدیر کے منکر بدعتی ہیں؛ لالکائی ان کے کفر اور توبہ طلب کرنے کے بارے میں مختلف آثار جمع کرتے ہیں'
+  summary:
+    ar: 'يعقد اللالكائي في شرح أصول اعتقاد أهل السنة أبواباً في القدرية: حديث «القدرية مجوس هذه الأمة» (ويضعفه المحقق)، ومن كفّرهم ولعنهم، ومن رأى استتابتهم، وإقامة الحدود عليهم، ومنع الصلاة خلفهم ومناكحتهم وأكل ذبائحهم، ومتى حدثت مسألة القدر، ويروي أن أول من تكلم فيه بالبصرة معبد الجهني وأن غيلان أخذ عنه.'
+    en: 'In Sharh Usul I''tiqad Ahl al-Sunna al-Lalaka''i devotes chapters to the Qadariyya – the hadith "the Qadariyya are the Magians of this community" (which the editor judges weak), those who declared them unbelievers and cursed them, those who held they should be asked to repent, the punishments carried out on them, the ban on praying behind them, intermarrying and eating their slaughter, and when the question of predestination arose – and relates that the first to speak of it in Basra was Ma''bad al-Juhani, from whom Ghaylan took it.'
+    ur: 'شرح اصول اعتقاد اہل السنہ میں لالکائی قدریہ پر کئی ابواب باندھتے ہیں – حدیث «قدریہ اس امت کے مجوس ہیں» (جسے محقق ضعیف کہتے ہیں)، جنہوں نے انہیں کافر کہا اور ان پر لعنت کی، جنہوں نے ان سے توبہ طلب کرنے کا کہا، ان پر سزاؤں کا نفاذ، ان کے پیچھے نماز، ان سے نکاح اور ان کے ذبیحے کی ممانعت، اور تقدیر کا مسئلہ کب پیدا ہوا – اور روایت کرتے ہیں کہ بصرہ میں سب سے پہلے معبد جہنی نے اس پر بات کی اور غیلان نے اس سے لیا۔'
+  holders:
+  - person/al-lalakai
+  evidence:
+  - ref: source/sharh-usul-itiqad-basira
+    note:
+      ar: شرح أصول اعتقاد أهل السنة، ط. دار البصيرة، ص 563–659
+      en: Sharh Usul I'tiqad Ahl al-Sunna, Dar al-Basira ed., pp. 563–659
+  sources:
+  - source/sharh-usul-itiqad-basira
 - tradition: sunni-hanbali
   id: book-account
   stance:
@@ -55,12 +76,15 @@ perspectives:
 provenance:
   layer: own-research
   source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
-  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
-  run: madkhal-batch-2-creed
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand); enriched by Claude Code (OCR-harvest worker C) from Sharh Usul I'tiqad pp. 563–659
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 sources:
 - source/madkhal-ibn-badran-turki
 - source/lumat-al-itiqad-ibn-uraiyir-2022
+- source/sharh-usul-itiqad-basira
+- source/fihrist-ibn-al-nadim
 status:
-  review: draft
-  completeness: 1
-  generated_by: Claude Haiku 5.5; from p. 96 of the book; the group's own words and the academic account are still to be added
+  review: published
+  completeness: 2
+  generated_by: Claude Haiku 5.5; enriched by Claude Code (OCR-harvest worker C); the group's own words are still to be added

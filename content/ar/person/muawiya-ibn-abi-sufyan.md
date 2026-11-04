@@ -3,6 +3,7 @@ id: person/muawiya-ibn-abi-sufyan
 lang: ar
 source_lang: ar
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1155–1158", note: "section added to earlier prose" }
 ---
 
 ## موجز
@@ -39,3 +40,7 @@ translators: []
 - **الحرس:** المختار مولى لحمير (ومعاوية أول من اتخذ صاحب حرس) {cite:tarikh-khalifa-umari-1985 p. 228}
 - **الخاتم:** عبد الله بن عمرو الحميري (ومعاوية أول من وضع ديوان الخاتم) {cite:tarikh-khalifa-umari-1985 p. 228}
 - **العراق:** [[person/ziyad-ibn-abi-sufyan|زياد بن أبي سفيان]] (أول من جمعت له العراق، سنة خمسين حتى مات سنة ثلاث وخمسين) {cite:tarikh-khalifa-umari-1985 p. 228}
+
+## في «فضائل الصحابة» لأحمد بن حنبل
+يعقد [[person/ahmad-ibn-hanbal|أحمد بن حنبل]] لمعاوية باباً فيه حديث العرباض بن سارية أنه سمع النبي يدعو إلى السحور ثم يقول: «اللهم علّم معاوية الكتاب والحساب وقِه العذاب» (الرواية 1748، حسّنه المحقق [[person/wasi-allah-abbas|وصي الله عباس]] لغيره، وعلّله ابن عبد البر بجهالة الحارث بن زياد)، ومن طريق شريح بن عبيد مرسلاً بمعناه (1749، ضعيف لإرساله ورجاله ثقات، ويقويه ما قبله)، وعن مسلمة بن مخلد بزيادة «ومكّن له في البلاد» (1750، ضعيف للانقطاع). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1155} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1156} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1157} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1158}
+

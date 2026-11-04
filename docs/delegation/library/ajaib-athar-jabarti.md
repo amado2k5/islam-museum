@@ -24,3 +24,7 @@ Vol. 1: title/imprint pp. 1-11, editor's introduction pp. 13-28 (composition, so
 
 ## Next
 Part 3 (French occupation: entry of the French into Cairo 1213, the Cairo revolts, Kleber's assassination by Sulayman al-Halabi), obituaries of Murtada al-Zabidi (1205) and Hasan al-Attar's circle in part 2.
+
+## Second pass (same run)
+- Vol. 3 (pdfarabic_106__3, 476 pp., md5 35e1a270f0a0..., text = scan - 32) -> source/ajaib-al-athar-moreh-v3; read scan pp. 58-62.
+- New: event/first-cairo-revolt-1213 (Sunday 11 Jumada I 1213 / 21 Oct 1798 per the editor's brackets, to Tuesday 23 Oct), ar/en/ur.

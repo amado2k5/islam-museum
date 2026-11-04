@@ -1,0 +1,27 @@
+id: concept/munqati
+class: concept
+kind: term
+label:
+  ar: "المنقطع"
+  en: "Munqati' (broken chain)"
+summary:
+  ar: "المنقطع عند ابن الصلاح ما لم يتصل إسناده، وفيه وفي الفرق بينه وبين المرسل مذاهب: قال الحاكم هو ما سقط منه قبل الوصول إلى التابعي راوٍ غير مذكور، أو ذُكر فيه راوٍ مبهم كرجل أو شيخ؛ وقال ابن عبد البر: المرسل مخصوص بالتابعين والمنقطع يشمله وغيره؛ وجعل الخطيب المنقطع والمرسل شاملين لكل ما لا يتصل، وهو عند ابن الصلاح أقرب، مع أن الأكثر في الاستعمال وصف ما رواه من دون التابعين عن الصحابة بالانقطاع {cite:muqaddima-ibn-salah-itr p. 56-59}."
+  en: "For Ibn al-Salah the munqati' is a report whose chain is not connected, and views differ on it and on how it differs from the mursal: al-Hakim defined it as a chain from which an unnamed narrator drops out before the Successor, or in which a narrator is left vague as 'a man' or 'a shaykh'; Ibn Abd al-Barr held that mursal is reserved for Successors while munqati' covers it and more; al-Khatib made both terms cover every unconnected chain, which Ibn al-Salah found closest, though in usage munqati' mostly describes reports of later narrators from Companions."
+term: { ar: "المنقطع" }
+wings: [ideas, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: concept/mustalah-al-hadith, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: related_to, target: concept/irsal-fiqh, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: related_to, target: concept/al-hadith-al-muadal, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: related_to, target: concept/ittisal-al-isnad, sources: [source/muqaddima-ibn-salah-itr] }
+sources: [source/muqaddima-ibn-salah-itr]
+provenance:
+  layer: own-research
+  source: "مقدمة ابن الصلاح، تحقيق عتر، النوع العاشر، ص 56–59"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }
