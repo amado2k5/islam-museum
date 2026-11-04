@@ -10,7 +10,7 @@ education:
     sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985]
 class: person
 aliases: [person/fatima-bint-muhammad]   # same person; merged from the Raheeq lane's spelling so existing references resolve
-label: { en: Fatima bint Muhammad, ar: فاطمة بنت محمد }
+label: { en: Fatima bint Muhammad, ar: فاطمة بنت محمد , ur: "فاطمہ بنت محمد"}
 names:
   - { kind: full, lang: ar, value: فاطمة بنت محمد بن عبد الله }
   - { kind: laqab, lang: ar-Latn, value: al-Zahra }
@@ -22,6 +22,7 @@ traditions: [sunni, shia-twelver]
 summary:
   en: "The youngest daughter of the Prophet and Khadija and wife of Ali ibn Abi Talib; mother of Hasan and Husayn and a central figure of Ahl al-Bayt in both Sunni and Shia tradition."
   ar: "صغرى بنات النبي وخديجة وزوجة علي بن أبي طالب، وهي أم الحسن والحسين وشخصية محورية في أهل البيت عند السنة والشيعة معًا. ومن بيتها في الصحيح: علّق عليّ على بابها ستراً موشياً فلم يدخل النبي حتى أشار «ما لي وللدنيا» فأرسلت به إلى أهل بيت بهم حاجة {cite:sahih-al-bukhari 2613}، وفي مسلم أدخلها النبي تحت المرط المرحل مع علي والحسنين وتلا آية التطهير {cite:sahih-muslim 2424}، وقال «إنما ابنتي بضعة مني يريني ما رابها ويؤذيني ما آذاها» {cite:sahih-muslim 2449}."
+  ur: "نبی کی سب سے چھوٹی بیٹی، علی بن ابی طالب کی اہلیہ اور حسن و حسین کی والدہ؛ سنی اور شیعی دونوں روایات میں ان کا احترام کیا جاتا ہے۔ {cite:ibn-sad-tabaqat-bewley} {cite:madelung-1997}"
 wings: [people]
 themes: [women, family-marriage-kinship, sects-and-schools]
 periods: [period/prophetic-era]
@@ -62,3 +63,4 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch5"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
