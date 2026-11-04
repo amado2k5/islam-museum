@@ -30,3 +30,9 @@ Chapter 2 (Fatimid architecture, pp. 42-69): al-Azhar, al-Hakim mosque, Bab al-F
 Created: building/mosque-of-al-hakim, building/bab-al-nasr, building/bab-al-futuh, building/bab-zuwayla, building/mosque-of-al-salih-talai, concept/keel-arch; prose created for building/mausoleum-sayyida-ruqayya-cairo (record existed without prose).
 Enriched (Yeomans sections ar+en+ur): building/al-aqmar-mosque, building/al-azhar, building/masjid-al-husayn-cairo, building/dar-al-hikma-cairo, person/badr-al-jamali, person/talai-ibn-ruzzik, person/al-hakim-bi-amr-allah (labelled perspectives block: Sunni historians as summarised by Yeomans, then Yeomans's academic view; `sensitivity: contested`), concept/manara.
 Notes: Yeomans's account of Isma'ili doctrine (pp. 43-44) and of al-Nu'man's teaching at al-Azhar (pp. 51-53) not yet used; mashhads of Atika/al-Ja'fari, Umm Kulthum and Yahya al-Shabih (pp. 65-66) and the al-Azhar madrasas of Taybars, Aqbugha and Gawhar al-Qanaqba'i (p. 56) are leads for a later batch.
+
+## Batch 3: chapter 4, Ayyubid architecture (pp. 100-123, read in full)
+Created: building/citadel-of-cairo, building/bir-yusuf-cairo, building/mausoleum-of-the-abbasid-caliphs-cairo, building/rawda-citadel, concept/iwan, place/al-qarafa.
+Enriched (ar+en+ur sections): building/mausoleum-of-imam-al-shafii, building/al-madrasa-al-salihiyya-cairo, building/shajarat-al-durr-tomb, person/salah-al-din-yusuf-ibn-ayyub, person/al-malik-al-kamil, person/al-malik-al-salih-ayyub, person/shajar-al-durr, concept/madrasa.
+Fix: source/yeomans-islamic-cairo-2006 now cites itself (validator rule for own-research sources).
+Doubts: Bir Yusuf and the Abbasid mausoleum dated with `status: debated` (Yeomans gives attribution/date as probable only). Rawda citadel's present state not given by the book, so no `status_now`.

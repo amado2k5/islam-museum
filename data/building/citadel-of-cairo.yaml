@@ -1,0 +1,25 @@
+id: building/citadel-of-cairo
+class: building
+kind: fort
+label: { ar: "قلعة الجبل (قلعة صلاح الدين) بالقاهرة", en: "Citadel of Cairo (Citadel of Salah al-Din)", ur: "قلعۂ قاہرہ (قلعۂ صلاح الدین)" }
+summary:
+  ar: "القلعة التي بدأ صلاح الدين بناءها على نتوء من جبل المقطم سنة 1176م، وأتمها الملك الكامل فكان أول من سكنها، وبقيت مقر الحكم في مصر قروناً {cite:yeomans-islamic-cairo-2006 p.105} {cite:yeomans-islamic-cairo-2006 p.107} {cite:yeomans-islamic-cairo-2006 p.109}."
+  en: "The fortress Salah al-Din began on a spur of the Muqattam hills in 1176, completed by al-Kamil, its first resident, and the seat of Egypt's rulers for centuries {cite:yeomans-islamic-cairo-2006 p.105} {cite:yeomans-islamic-cairo-2006 p.107} {cite:yeomans-islamic-cairo-2006 p.109}."
+wings: [objects, place]
+themes: [architecture]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+built: { edtf: "1176/1207", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 107: building began 1176; foundation inscription over Bab al-Mudarraj dated 1183; al-Kamil's towers 1207 (p. 110)." }
+patron: person/salah-al-din-yusuf-ibn-ayyub
+location: place/cairo
+status_now: standing
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 104-111"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
