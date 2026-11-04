@@ -12,3 +12,7 @@
 - The completion question (al-Waqi'a) is kept as a prose section, not a question card, because the pages read give only one voice (the Dar al-Fikr editors' note, which Dar al-Hadith reproduces). Classical reports on who completed the work are a lead for a later book.
 - Abu al-Qasim al-Balkhi, Abu Muslim al-Isfahani and al-Jubba'i are named in plain text: the existing records for al-Balkhi and al-Jubba'i could not be matched to these mentions from the pages alone.
 - The Dar al-Hadith ISBN failed its check digit as read and was left out.
+
+## Second pass (OCR-harvest worker B)
+Pages read: 29_20211208 (Dar al-Fikr part 3) PDF pp. 5–11 (al-Baqara 35–36: the questions on the forbidden tree; the first question on the protection of the prophets).
+- Enriched: `question/can-prophets-commit-minor-sins` (another worker's card: a new Sunni perspective for al-Razi, holder `fakhr-al-din-al-razi`, and a prose section in ar/en/ur with his four areas, five views on conduct and three on timing; the polemical names he uses are given as his terms), `work/tafsir-al-kabir-razi` (section on the method of numbered questions; `about` edge).

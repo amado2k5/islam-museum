@@ -1,24 +1,25 @@
 id: building/darasbari-mosque
 class: building
 kind: mosque
-label:
-  ar: "مسجد دراسباري"
-  en: "Darasbari Mosque"
+label: { ar: "مسجد درسباري ومدرستها في غور", en: "Darasbari Mosque and Madrasa, Gaur", ur: "درس باڑی مسجد و مدرسہ، گوڑ" }
 summary:
-  ar: "بطاقة أولية لمسجد دراسباري في تشاباي نوابغنج ببنغلادش، الجامع السلطاني؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Darasbari Mosque of Chapai Nawabganj in Bangladesh, the sultanate mosque; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "مسجد جامع في عمرپور بغور، بناه السلطان شمس الدين يوسف شاه سنة 884هـ/1479 بحسب نقشه بالطغراء، برواق أوسط تغطيه سقوف بنغالية ذات أربعة جوانب، وإلى جانبه مدرسة اسمها منه {c(155)} {c(156)} {c(158)}."
+  en: "A congregational mosque at Umarpur in Gaur, built according to its tughra inscription by Sultan Shams al-Din Yusuf Shah in AH 884/1479, with a central nave under four-sided Bengali roofs and an adjoining madrasa from which it takes its name {c(155)} {c(156)} {c(158)}."
+  ur: "گوڑ کے عمر پور میں جامع مسجد، طغرائی کتبے کے مطابق سلطان شمس الدین یوسف شاہ نے 884ھ/1479ء میں بنوائی؛ مرکزی ایوان پر چار رخی بنگالی چھتیں، اور ساتھ کا مدرسہ جس سے نام پڑا {c(155)}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [south-asia]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1479", hijri: "0884", calendar: julian, precision: year, status: historical, note: "AH 884, from its tughra inscription now in the Indian Museum, Calcutta" }
+materials: [brick, stone]
+sources: [source/tarikh-islam-hasan-ibrahim, source/hasan-mosque-architecture-pre-mughal-bengal-1979]
 external_ids:
   wikidata: Q5222105
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
+  source: "Hasan 1979, printed pp. 155-158; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Hasan 1979 pp. 155-158, summary, date and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

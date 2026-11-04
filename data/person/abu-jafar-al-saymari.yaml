@@ -1,16 +1,25 @@
 id: person/abu-jafar-al-saymari
 class: person
-label: { ar: "أبو جعفر الصيمري", en: "Abu Jafar al-Saymari" }
+label: { ar: "أبو جعفر الصيمري", en: "Abu Ja'far al-Saymari", ur: "ابو جعفر صیمری" }
+names:
+  - { kind: full, lang: ar, value: "أبو جعفر محمد بن أحمد الصيمري" }
 summary:
-  ar: "وزير معز الدولة بن بويه؛ سيره لمحاربة عمران بن شاهين صاحب البطائح فحاربه مرة بعد مرة وأسر أهله وعياله، فلما مات عماد الدولة سنة 338هـ كتب إليه معز الدولة بالمبادرة إلى شيراز لإصلاح الأمور بها فترك عمران وسار {cite:kamil-ibn-al-athir p. 365-366}."
-  en: "Mu'izz al-Dawla's vizier, sent against Umran ibn Shahin of the marshes campaign after campaign till Imad al-Dawla's death in 338 called him to Shiraz {cite:kamil-ibn-al-athir p. 365-366}."
+  ar: "وزير معز الدولة بن بويه؛ سيره لمحاربة عمران بن شاهين صاحب البطائح فحاربه مرة بعد مرة وأسر أهله وعياله، فلما مات عماد الدولة سنة 338هـ كتب إليه معز الدولة بالمبادرة إلى شيراز لإصلاح الأمور بها فترك عمران وسار {cite:kamil-ibn-al-athir p. 365-366}. وعند مسكويه اسمه أبو جعفر محمد بن أحمد الصيمري، وكان أول من عبر دجلة إلى الجانب الشرقي في حرب ناصر الدولة سنة 334هـ وهو الذي سكّن الجند بعد النهب، ومات سنة 339هـ في حمى حادة لما عاد لمحاربة عمران بن شاهين {cite:tajarib-al-umam-surush-v6 p. 125-126} {cite:tajarib-al-umam-surush-v6 p. 156}."
+  en: "Mu'izz al-Dawla's vizier, sent against Umran ibn Shahin of the marshes campaign after campaign till Imad al-Dawla's death in 338 called him to Shiraz {cite:kamil-ibn-al-athir p. 365-366}. Miskawayh names him Abu Ja'far Muhammad ibn Ahmad al-Saymari: first across the Tigris in the war with Nasir al-Dawla in 334, he restored order after the sack, and died in 339 of an acute fever on campaign against Imran ibn Shahin {cite:tajarib-al-umam-surush-v6 p. 125-126} {cite:tajarib-al-umam-surush-v6 p. 156}."
 gender: male
+died: { edtf: "0950/0951", hijri: "0339", calendar: julian, precision: year, status: historical, derived: true, note: "«وفيها مات أبو جعفر محمد بن أحمد الصيمرى فى حُمى حادّة» في حوادث سنة 339هـ (تجارب الأمم 6/156)؛ التحويل الميلادي مشتق.", sources: [source/tajarib-al-umam-surush-v6] }
 wings: [people]
-periods: [period/abbasid-early]
+themes: [politics-governance-and-authority]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+  - { type: participated_in, target: event/battle-of-baghdad-946, sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: participated_in, target: event/mustakfi-blinding-334, sources: [source/tajarib-al-umam-surush-v6] }
 provenance:
   layer: own-research
-  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kamil-batch-12
-sources: [source/kamil-ibn-al-athir]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "الكامل في التاريخ لابن الأثير ص365-366؛ source/tajarib-al-umam-surush-v6 scan pp. 116, 122-127, 151-153, 156-157"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: "lib-kamil-batch-12; ocr-harvest-2026-11-04"
+sources: [source/kamil-ibn-al-athir, source/tajarib-al-umam-surush-v6]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)" }

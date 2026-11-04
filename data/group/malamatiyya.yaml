@@ -4,22 +4,62 @@ kind: movement
 label:
   ar: "الملامتية"
   en: "Malamatiyya"
+  ur: "ملامتیہ"
 summary:
-  ar: "بطاقة أولية للملامتية، حركة زهد نيسابورية في القرن التاسع أخفت المقامات وتركت رياء الناس وسمّوا بالملامة لإسقاطهم الاستحسان؛ أخذت عنهم مذاهب متصوفة لاحقة ولم تُراجع الصفحة بعد."
-  en: "Draft card for the Malamatiyya, the ninth-century Nishapuri ascetic movement that concealed spiritual states and shunned public esteem, influencing later Sufi paths; the page not yet checked."
-wings: [people]
+  ar: "أهل الملامة أو الملامتية: طائفة من الصوفية ظهرت بنيسابور في النصف الثاني من القرن الثالث، يقول القشيري إن مذهبها انتشر من حمدون القصار، ويقول الهجويري إن للملامة في خلوص المحبة تأثيراً عظيماً ويقسمها إلى ملامة استقامة السير وملامة القصد وملامة الترك؛ وانتقدها ابن الجوزي فيما ينقله مترجم كشف المحجوب {cite:kashf-al-mahjub-qandil-2007-v1 p. 262} {cite:kashf-al-mahjub-qandil-2007-v1 p. 264} {cite:risala-qushayriyya-minhaj-2017 p. 152}."
+  en: "The People of Blame (Malamatiyya): a Sufi group that appeared in Nishapur in the second half of the third century AH; al-Qushayri says its way spread from Hamdun al-Qassar, and al-Hujwiri says blame has a great effect on the purity of love and divides it into the blame of right conduct, deliberate blame and the blame of abandonment; Ibn al-Jawzi criticised them, as the translator of Kashf al-Mahjub reports {cite:kashf-al-mahjub-qandil-2007-v1 p. 262} {cite:kashf-al-mahjub-qandil-2007-v1 p. 264} {cite:risala-qushayriyya-minhaj-2017 p. 152}."
+  ur: "اہلِ ملامت یا ملامتیہ: صوفیہ کا ایک گروہ جو تیسری صدی ہجری کے نصفِ آخر میں نیشاپور میں ظاہر ہوا؛ قشیری کہتے ہیں کہ ان کا مسلک حمدون قصار سے پھیلا، اور ہجویری کہتے ہیں کہ محبت کے خلوص میں ملامت کا بڑا اثر ہے اور اسے استقامتِ سیر، قصد اور ترک کی ملامت میں تقسیم کرتے ہیں؛ ابن الجوزی نے ان پر تنقید کی، جیسا کہ کشف المحجوب کی مترجمہ نقل کرتی ہیں {cite:kashf-al-mahjub-qandil-2007-v1 p. 262} {cite:kashf-al-mahjub-qandil-2007-v1 p. 264} {cite:risala-qushayriyya-minhaj-2017 p. 152}۔"
+wings: [people, ideas]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
 themes: [spirituality-and-sufism]
-sources: [source/duha-islam]
+issue:
+  ar: "هل طريق الملامة، أي إظهار ما يستوجب لوم الناس وكتمان المحاسن، مشروع؟"
+  en: "Is the way of blame — displaying what earns people's censure and hiding one's virtues — legitimate?"
+  ur: "کیا ملامت کا طریقہ — لوگوں کی ملامت کا موجب کام ظاہر کرنا اور خوبیاں چھپانا — جائز ہے؟"
+sensitivity: contested
+perspectives:
+  - tradition: sunni
+    id: ibn-al-jawzi-critique
+    standing: main
+    stance:
+      ar: "نقد ابن الجوزي: أسقطوا جاههم عند الناس بما لا يجوز، كما تنقله المترجمة"
+      en: "Ibn al-Jawzi's critique: they threw away their standing with people by impermissible means, as the translator reports"
+      ur: "ابن الجوزی کی تنقید: انہوں نے ناجائز طریقوں سے لوگوں میں اپنا وقار گرایا، جیسا کہ مترجمہ نقل کرتی ہیں"
+    summary:
+      ar: "تذكر مترجمة كشف المحجوب في حاشيتها أن الملامتية تعرضوا لنقد ابن الجوزي في تلبيس إبليس، فوصفهم بأنهم أسقطوا جاههم عند الناس."
+      en: "The translator of Kashf al-Mahjub notes that the Malamatiyya were criticised by Ibn al-Jawzi in Talbis Iblis, who described them as having thrown away their standing with people."
+      ur: "کشف المحجوب کی مترجمہ اپنے حاشیے میں بتاتی ہیں کہ ملامتیہ پر ابن الجوزی نے تلبیس ابلیس میں تنقید کی اور انہیں لوگوں میں اپنا وقار گرانے والا بتایا۔"
+    holders: [person/ibn-al-jawzi]
+    evidence:
+      - ref: source/kashf-al-mahjub-qandil-2007-v1
+        note: { ar: "ص 262 (حاشية المترجمة، محيلة إلى تلبيس إبليس)", en: "p. 262 (translator's note, citing Talbis Iblis)" }
+    sources: [source/kashf-al-mahjub-qandil-2007-v1]
+  - tradition: sufi
+    id: hujwiri-three-kinds
+    standing: secondary
+    stance:
+      ar: "رأي الهجويري الصوفي: الملامة نافعة في خلوص المحبة، ومنها مشروع ومنها مذموم"
+      en: "Al-Hujwiri's Sufi view: blame serves the purity of love; some kinds are sound and one is condemned"
+      ur: "ہجویری کی صوفی رائے: ملامت محبت کے خلوص میں نافع ہے؛ اس کی بعض قسمیں درست اور ایک مذموم ہے"
+    summary:
+      ar: "يرى الهجويري أن ملامة الخلق غذاء لأحباب الحق لأنها تحفظهم من العجب، ويقسم الملامة إلى ملامة استقامة السير، وملامة القصد بترك الجاه، وملامة الترك وهي أن يترك صاحبها الشريعة ويسمي ذلك ملامة، ويجعل هذه الأخيرة من الكفر والضلال؛ وتنقل المترجمة أن السلمي أشاد بهم، وأن ابن عربي وضعهم في أعلى درجات السالكين، وأن السهروردي وقف منهم موقفاً وسطاً."
+      en: "Al-Hujwiri holds that people's blame nourishes God's lovers because it guards them from self-admiration, and divides blame into the blame of right conduct, deliberate blame by renouncing rank, and the blame of abandonment, in which a man abandons the law and calls it blame — this last he treats as unbelief and error; the translator reports that al-Sulami praised them, Ibn 'Arabi put them at the highest degree of travellers, and al-Suhrawardi took a middle position."
+      ur: "ہجویری کے نزدیک لوگوں کی ملامت اللہ کے محبوں کی غذا ہے کیونکہ وہ انہیں خود پسندی سے بچاتی ہے؛ وہ ملامت کو استقامتِ سیر کی ملامت، جاہ ترک کرنے والی ملامتِ قصد، اور ملامتِ ترک میں تقسیم کرتے ہیں — جس میں آدمی شریعت چھوڑ کر اسے ملامت کہے — اور اس آخری کو کفر و گمراہی قرار دیتے ہیں؛ مترجمہ نقل کرتی ہیں کہ سلمی نے ان کی تعریف کی، ابن عربی نے انہیں سالکوں کے اعلیٰ درجے میں رکھا، اور سہروردی نے درمیانی موقف اختیار کیا۔"
+    holders: [person/al-hujwiri, person/al-sulami, person/ibn-arabi-muhyi-al-din]
+    evidence:
+      - ref: source/kashf-al-mahjub-qandil-2007-v1
+        note: { ar: "ص 262-266", en: "pp. 262-266" }
+    sources: [source/kashf-al-mahjub-qandil-2007-v1]
+sources: [source/duha-islam, source/kashf-al-mahjub-qandil-2007-v1, source/risala-qushayriyya-minhaj-2017]
 external_ids:
   wikidata: Q2622234
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Shalabi, Duha al-Islam encyclopedia — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0018
+  source: "Wikidata candidate (Duha al-Islam not read on the page); summary, perspectives and prose from Kashf al-Mahjub, Arabic tr. vol. 1 pp. 262-266, and al-Risala al-Qushayriyya (Minhaj 2017) p. 152"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

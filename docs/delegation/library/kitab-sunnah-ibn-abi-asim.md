@@ -20,3 +20,6 @@ Read: pp. 1–8, 307–317 (part 1 contents), 321–323, 336, 360 (the Basin), 5
 
 ## Next
 The chapters on the Kharijites (p. 438), the Rafida (p. 474), irja' (p. 461), the vision of God and the attributes (part 1), intercession (pp. 364–414).
+
+## Duplicate check (4 Nov 2026, third run, worker C)
+`work/kitab-al-sunna` (Devin wikidata-import-wave2 draft: label «كتاب السنة» only, no author, no prose, source `al-aalam` without a page, Wikidata Q120447507) was compared with `work/kitab-al-sunna-ibn-abi-asim`. Nothing in the draft's own record (no author, date, edition or page) ties it to Ibn Abi Asim rather than to the other works of the same title in the graph (`work/al-sunnah-ibn-hanbal` for Abd Allah ibn Ahmad, `work/kitab-al-sunnah-khallal`, and others not yet carded such as al-Marwazi's). It has no inbound links (the links in `question/did-the-prophet-indicate-abu-bakr-as-successor` and `concept/al-hawd` already point to the Ibn Abi Asim record). **Not merged**: it is not clearly the same book. Resolving it needs the Wikidata item's author statement checked against a recorded revision.
