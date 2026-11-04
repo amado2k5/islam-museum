@@ -16,3 +16,6 @@ He says that al-Kamil sent seventy messengers to the lands calling on Muslims to
 
 ## According to al-Suyuti
 Al-Suyuti says that he was too weak to resist the Franks when they took Damietta in 616 AH, so he built a city at the junction of the two seas and named it al-Mansura, and camped there with his army {cite:tarikh-khulafa-minhaj-1434 p. 694,696}.
+
+## His building in Cairo in Yeomans
+His father [[person/al-malik-al-adil-ayyub|al-Adil]] made him his deputy in Cairo, and he took charge of completing the [[building/citadel-of-cairo|Citadel]], becoming, as sultan, the first to live there. {cite:yeomans-islamic-cairo-2006 p.109} He enlarged its towers and added massive square keeps such as the Tower of the Serpents and the Burg al-Turfa (1207); his work is known by its rusticated masonry. {cite:yeomans-islamic-cairo-2006 p.110} {cite:yeomans-islamic-cairo-2006 p.111} He rebuilt the [[building/mausoleum-of-imam-al-shafii|tomb of al-Shafi'i]] as a dynastic mausoleum, burying his mother there and preparing a tomb for himself, though he died in Syria and was buried in Damascus. {cite:yeomans-islamic-cairo-2006 p.112} {cite:yeomans-islamic-cairo-2006 p.115} He formalised weekly pilgrimages in the Qarafa and often led the Friday-night procession from the shrine of Sayyida Nafisa to the shrines of the seven shaykhs. {cite:yeomans-islamic-cairo-2006 p.112}

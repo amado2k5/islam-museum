@@ -13,6 +13,8 @@ publisher: "دار المعرفة، بيروت"
 # ISBN: 9953-429-76-6
 edition: "7"
 language: ar
-reliability_note: "Modern edition: summaries only, no quotations (batch rule). Rights stay unverified."
+reliability_note: "Modern copyrighted work, used for attributed facts and the author's analysis in the museum's own words. Harvest items 110Pdf078, 20200713_20200713_2039 and 20230114_20230114_1915 are byte-identical OCR texts (md5 fc5badc5…) of this 7th edition, 934 PDF pages in one volume; printed page = PDF page (checked at pp. 10, 436, 779, 915). A different printing (title page reads «الطبعة الأولى للناشر 1429هـ-2008م», vol. 1 dated 1422/2001, 1176 pp., item AAlexandrina-117532) was not used. The author's preface is signed 18 Rajab 1421 / 16 October 2000 (p. 12)."
 open_access: false
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; title page (OCR p1–2)" }
+provenance: { layer: copyrighted-reference, source: "title and copyright pages, PDF pp. 1–2; preface pp. 5–12", generated_by: "Claude Haiku 5.5; enriched by Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5; title page (OCR p1–2); reliability note by Claude Code (OCR-harvest worker E)" }
+sources: [source/sira-nabawiyya-sallabi]

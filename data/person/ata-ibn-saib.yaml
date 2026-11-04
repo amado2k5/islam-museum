@@ -3,23 +3,52 @@ class: person
 label:
   ar: "عطاء بن السائب"
   en: "Ata ibn al-Sa'ib"
+names:
+  - { kind: full, lang: ar, value: "عطاء بن السائب بن زيد الثقفي، أبو زيد الكوفي" }
+  - { kind: kunya, lang: ar, value: "أبو زيد" }
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعطاء بن السائب الكوفي، من محدثي التابعين؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ata ibn al-Sa'ib of Kufa, a Successor hadith transmitter; his entry is not yet checked on the page."
+  ar: "عطاء بن السائب بن زيد الثقفي، أبو زيد الكوفي (ت نحو 136هـ)، من علماء التابعين وقراء الكوفة المجوّدين، تلا على أبي عبد الرحمن السلمي. يذكره الذهبي في «ميزان الاعتدال» مثالاً للثقة الذي تغيّر بأخرة وساء حفظه، فصار النقاد يقبلون ما سمعه منه القدماء كشعبة والثوري وحماد بن زيد، ويتوقفون فيما سمع منه المتأخرون {cite:mizan-itidal-bijawi-v3 p. 70-73}. وهو غير «عطاء بن السائب الخشل» مولى بني الليث الذي يذكره البلاذري في فتح بلخ."
+  en: "Ata ibn al-Sa'ib ibn Zayd al-Thaqafi, Abu Zayd of Kufa (d. c. 136 AH), a scholar of the Successors and one of Kufa's skilled Qur'an reciters, who recited to Abu Abd al-Rahman al-Sulami. Al-Dhahabi's Mizan al-I'tidal presents him as the example of a trustworthy man whose memory changed late in life: critics accepted what early students such as Shu'ba, al-Thawri and Hammad ibn Zayd heard from him, and held back on what later students heard. He is not the Ata ibn al-Sa'ib al-Khashl, client of Banu Layth, whom al-Baladhuri mentions at Balkh."
+died: { hijri: "0136", edtf: "0753", calendar: julian, precision: year, status: tradition, derived: true, note: "الذهبي: بقي إلى سنة ست وثلاثين ومائة، فيكون قد شارف مائة سنة {cite:mizan-itidal-bijawi-v3 p. 71}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-sources: [source/al-aalam]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: student_of, target: person/abu-abd-al-rahman-al-sulami-al-muqri, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: lived_in, target: place/kufa, sources: [source/mizan-itidal-bijawi-v3] }
+perspectives:
+  - tradition: sunni
+    id: sunni-ikhtilat
+    standing: main
+    stance: { ar: "ثقة اختلط بأخرة: يُقبل حديثه القديم دون الحديث", en: "Trustworthy but confused late in life: his early hadith is accepted, his late hadith not" }
+    summary:
+      ar: "أحمد: ثقة ثقة رجل صالح، من سمع منه قديماً فصحيح ومن سمع حديثاً لم يكن بشيء؛ البخاري: أحاديثه القديمة صحيحة؛ أبو حاتم: محله الصدق قبل أن يخلط؛ النسائي: ثقة في حديثه القديم، ورواية شعبة والثوري وحماد بن زيد عنه جيدة."
+      en: "Ahmad: trustworthy, trustworthy, a righteous man; who heard from him early has sound reports, who heard late has nothing; al-Bukhari: his early hadiths are sound; Abu Hatim: his place is truthfulness before he became confused; al-Nasa'i: trustworthy in his early hadith, and the narration of Shu'ba, al-Thawri and Hammad ibn Zayd from him is good."
+    holders: [person/ahmad-ibn-hanbal, person/al-bukhari, person/al-nasai]
+    sources: [source/mizan-itidal-bijawi-v3]
+  - tradition: sunni
+    id: sunni-ibn-main
+    standing: secondary
+    stance: { ar: "لا يُحتج به إلا من رواية شعبة وسفيان", en: "Not a proof except through Shu'ba and Sufyan" }
+    summary:
+      ar: "يحيى بن معين: لا يحتج به، وحديثه ضعيف إلا ما كان عن شعبة وسفيان."
+      en: "Yahya ibn Ma'in: not a proof; his hadith is weak except what comes through Shu'ba and Sufyan."
+    holders: [person/yahya-ibn-main]
+    sources: [source/mizan-itidal-bijawi-v3]
+sources: [source/al-aalam, source/mizan-itidal-bijawi-v3]
 external_ids:
   wikidata: "Q12227349"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Wikidata Q12227349; ميزان الاعتدال للذهبي، تحقيق البجاوي، القسم الثالث، ص 70–73 (الترجمة 5641)"
+  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker F)"
+  model: "SWE-2 High; claude-opus-5-5"
+  run: wikidata-import-wave2, ocr-harvest-2026-11-04
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 70–73 (entry 5641)"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker F)"
