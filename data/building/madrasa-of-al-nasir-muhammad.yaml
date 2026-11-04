@@ -1,0 +1,25 @@
+id: building/madrasa-of-al-nasir-muhammad
+class: building
+kind: madrasa
+label: { ar: "مدرسة الناصر محمد بن قلاوون وقبته", en: "Madrasa and Mausoleum of al-Nasir Muhammad, Cairo", ur: "الناصر محمد کا مدرسہ اور مقبرہ، قاہرہ" }
+summary:
+  ar: "مدرسة وقبة في شارع المعز بين مجمع قلاوون ومدرسة برقوق (1295-1303م)، بدأها كتبغا وأتمها الناصر محمد، بابها القوطي غنيمة من كنيسة القديس جورج في عكا {cite:yeomans-islamic-cairo-2006 p.138} {cite:yeomans-islamic-cairo-2006 p.140}."
+  en: "Madrasa and mausoleum on al-Mu'izz street between the Qalawun complex and Barquq's madrasa (1295-1303), begun by Kitbugha and completed by al-Nasir Muhammad, its Gothic doorway a trophy from the church of St George at Acre {cite:yeomans-islamic-cairo-2006 p.138} {cite:yeomans-islamic-cairo-2006 p.140}."
+wings: [objects, place]
+themes: [architecture]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+built: { edtf: "1295/1303", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 138: madrasa and mausoleum (1295-1303). Possible overlap with building/al-madrasa-al-nasiriyya-cairo (Wikidata Q25463062, not verified)." }
+patron: person/al-nasir-muhammad-ibn-qalawun
+location: place/cairo
+status_now: standing
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 138-140"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

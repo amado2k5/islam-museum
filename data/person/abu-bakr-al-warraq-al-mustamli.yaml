@@ -1,0 +1,27 @@
+id: person/abu-bakr-al-warraq-al-mustamli
+class: person
+label: { ar: "أبو بكر الوراق المستملي", en: "Abu Bakr al-Warraq al-Mustamli", ur: "ابو بکر وراق مستملی" }
+names:
+  - { value: "أبو بكر محمد بن إسماعيل بن العباس البغدادي المستملي الوراق", kind: full, lang: ar }
+gender: male
+roles: [scholar, transmitter]
+traditions: [sunni]
+summary:
+  ar: "أبو بكر محمد بن إسماعيل بن العباس البغدادي المستملي الوراق، يقرن مع ابن حيويه في رواية كتاب الزهد عن ابن صاعد؛ قال ابن العماد إنه كان صاحب حديث ثقة عاش خمساً وثمانين سنة، وذكره في سنة 378 {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 101} {cite:zuhd-ibn-mubarak-azami-scan p. 2}."
+  en: "Abu Bakr Muhammad ibn Isma'il ibn al-Abbas al-Baghdadi al-Mustamli al-Warraq, paired with Ibn Hayyuya in transmitting Kitab al-Zuhd from Ibn Sa'id; Ibn al-Imad calls him a trustworthy hadith man who lived eighty-five years and lists him under the year 378 {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 101} {cite:zuhd-ibn-mubarak-azami-scan p. 2}."
+  ur: "ابو بکر محمد بن اسماعیل بن عباس بغدادی مستملی وراق، ابن صاعد سے کتاب الزہد کی روایت میں ابن حیویہ کے ساتھ آتے ہیں؛ ابن العماد کے مطابق ثقہ محدث تھے، پچاسی برس جیے، اور انہیں سنہ 378 میں ذکر کیا {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 101} {cite:zuhd-ibn-mubarak-azami-scan p. 2}۔"
+died: { edtf: "0988~", hijri: "0378", calendar: julian, precision: year, status: tradition, derived: true, note: "ذكره ابن العماد في أحداث سنة 378 (فريد ص 101)", sources: [source/zuhd-ibn-mubarak-farid-1995-v1] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, note: "من رواة كتاب الزهد لابن المبارك برواية المروزي", sources: [source/zuhd-ibn-mubarak-azami-scan] }
+provenance:
+  layer: own-research
+  source: "تراجم رواة نسخة المروزي في مقدمة أحمد فريد لكتاب الزهد ص 99-101؛ أسانيد نسخة الأعظمي ص 1-2، 304"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

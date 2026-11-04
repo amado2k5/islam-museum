@@ -1,17 +1,36 @@
 id: work/al-minhaj-sharh-sahih-muslim
 class: work
 kind: book
-label: { ar: "المنهاج شرح صحيح مسلم", en: "Al-Minhaj bi Sharh Sahih Muslim" }
+label:
+  ar: "المنهاج شرح صحيح مسلم بن الحجاج"
+  en: "al-Minhaj fi Sharh Sahih Muslim b. al-Hajjaj"
+  ur: "المنہاج شرح صحیح مسلم بن الحجاج"
 summary:
-  ar: "بطاقة أولية لكتاب المنهاج شرح صحيح مسلم للنووي، من أشهر شروح الصحيح؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for al-Nawawi's al-Minhaj commentary on Sahih Muslim, among its most famous commentaries; its sources are not yet checked on the page."
-wings: []
-sources: [source/sahih-muslim]
+  ar: "شرح محيي الدين يحيى بن شرف النووي (631–676هـ) على صحيح مسلم، قصد فيه التوسط بين المختصرات المخلّة والمطولات المملّة، فيذكر الأحكام والآداب وشرح الغريب وضبط أسماء الرجال والمبهمات والجمع بين الأحاديث المختلفة ظاهراً، وقدّم له بمقدمة في إسناد الكتاب ورواته وشرط مسلم والجواب عما انتُقد عليه ومصطلح الحديث، أكثرها منقول عن ابن الصلاح {cite:sharh-nawawi-misriyya-1347-v1 p. 4-5} {cite:sharh-nawawi-misriyya-1347-v1 p. 12-15}."
+  en: "The commentary of Muhyi al-Din Yahya b. Sharaf al-Nawawi (631–676 AH) on Sahih Muslim, meant as a middle way between deficient abridgements and wearisome long works: rulings, ethics, rare words, the exact names of narrators and of those left unnamed, and reconciling apparently conflicting hadiths; it opens with an introduction on the book's chain and transmitters, Muslim's condition, replies to criticism and hadith terminology, much of it quoted from Ibn al-Salah {cite:sharh-nawawi-misriyya-1347-v1 p. 4-5} {cite:sharh-nawawi-misriyya-1347-v1 p. 12-15}."
+  ur: "محیی الدین یحییٰ بن شرف نووی (631–676ھ) کی صحیح مسلم پر شرح، جس میں ناقص مختصرات اور اکتا دینے والی طوالت کے درمیان متوسط راہ کا قصد کیا گیا: احکام، آداب، غریب کی شرح، رجال اور مبہمات کے ناموں کا ضبط، اور بظاہر متعارض احادیث میں تطبیق؛ اس کے شروع میں کتاب کی سند اور رواۃ، مسلم کی شرط، تنقید کے جوابات اور اصطلاحاتِ حدیث پر مقدمہ ہے، جس کا بڑا حصہ ابن الصلاح سے منقول ہے {cite:sharh-nawawi-misriyya-1347-v1 p. 4-5} {cite:sharh-nawawi-misriyya-1347-v1 p. 12-15}۔"
+language: language/arabic
+authors: [person/al-nawawi]
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/sharh-nawawi-misriyya-1347-v1] }
+structure: "مقدمة الشارح في فصول متتابعة: إسناد الكتاب إلى مسلم، شهرة الكتاب وطرق روايته، أصح الكتب بعد القرآن، شرط مسلم، طرق مسلم في الاحتياط، إلزامات الدارقطني، روايته عن الضعفاء، الكتب المخرّجة عليه، ما استُدرك عليهما، ثم فصول في الصحيح والحسن والضعيف وألفاظ المحدثين والمعنعن والتدليس والمختلط والناسخ والمنسوخ؛ ثم شرح مقدمة مسلم، ثم الكتب على ترتيب صحيح مسلم (ط. المطبعة المصرية 1347هـ ج1 ص 6–36)."
+editions: [source/sharh-nawawi-misriyya-1347-v1]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: commentary_on, target: work/sahih-muslim, sources: [source/sharh-nawawi-misriyya-1347-v1] }
+  - { type: relies_on, target: work/muqaddimat-ibn-al-salah, sources: [source/sharh-nawawi-misriyya-1347-v1] }
+  - { type: mentions, target: concept/shart-al-shaykhayn, sources: [source/sharh-nawawi-misriyya-1347-v1] }
+  - { type: mentions, target: concept/mustakhraj, sources: [source/sharh-nawawi-misriyya-1347-v1] }
+  - { type: mentions, target: work/al-ilzamat-ala-sahih-al-bukhari, sources: [source/sharh-nawawi-misriyya-1347-v1] }
 external_ids: { wikidata: "Q6806081" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Sharh al-Nawawi 'ala Muslim, al-Matba'a al-Misriyya 1347 AH vol. 1 pp. 2–27; earlier Wikidata draft card (run wikidata-import-wave2)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sharh-nawawi-misriyya-1347-v1, source/sahih-muslim]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A); replaces the Wikidata draft card" }
