@@ -1,0 +1,24 @@
+id: concept/kufr-duna-kufr
+class: concept
+kind: doctrine
+label: { ar: "كفر دون كفر", en: "Unbelief short of unbelief (kufr duna kufr)", ur: "کفر دون کفر" }
+summary:
+  ar: "مقولة مأثورة عن عطاء وطاوس في تفسير قول ابن عباس في آية الحكم بما أنزل الله، ومعناها أن من الذنوب ما سماه الشرع كفراً وهو لا يخرج صاحبه من الملة. جمع ابن بطة في الإبانة الكبرى باباً بعنوان «ذكر الذنوب التي تصير بصاحبها إلى كفر غير خارج به عن الملة» روى فيه أحاديث الشرك الخفي، والبراءة من النسب، وقتال المسلم، وإتيان الكاهن، والنياحة، والتمائم."
+  en: "A saying transmitted from Ata' and Tawus explaining Ibn Abbas's words on the verse about judging by what God sent down: some sins that the revealed texts call unbelief do not take their doer out of the religion. In al-Ibana al-Kubra Ibn Batta gathered a chapter titled 'The sins that bring their doer to an unbelief that does not take him out of the religion', with hadiths on hidden shirk, disowning one's lineage, fighting a Muslim, going to a soothsayer, lamentation and amulets."
+  ur: "عطاء اور طاؤس سے منقول ایک قول جو آیتِ حکم بما انزل اللہ کے بارے میں ابن عباس کے قول کی تشریح ہے: بعض گناہ جنہیں نصوص نے کفر کہا، اپنے مرتکب کو دین سے خارج نہیں کرتے۔ الابانہ الکبریٰ میں ابن بطہ نے «ان گناہوں کا ذکر جو مرتکب کو ایسے کفر تک پہنچاتے ہیں جو دین سے خارج نہیں کرتا» کے عنوان سے باب باندھا، جس میں خفی شرک، نسب سے براءت، مسلمان سے قتال، کاہن کے پاس جانے، نوحے اور تعویذوں کی احادیث ہیں۔"
+wings: [ideas, words]
+themes: [creed, takfir-and-its-critics]
+periods: [period/abbasid-early]
+regions: [global]
+relations:
+  - { type: part_of, target: concept/kufr, sources: [source/ibana-kubra-muti-iman] }
+  - { type: related_to, target: concept/iman, sources: [source/ibana-kubra-muti-iman] }
+  - { type: related_to, target: group/murjia, sources: [source/ibana-kubra-muti-iman] }
+sources: [source/ibana-kubra-muti-iman]
+provenance:
+  layer: own-research
+  source: "الإبانة الكبرى، كتاب الإيمان، تحقيق رضا معطي ص 720–746، والفهرس ص 938"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C)" }
