@@ -1,0 +1,40 @@
+id: person/abdul-somad
+class: person
+label: { ar: "عبد الصمد", en: "Abdul Somad", ur: "عبد الصمد" }
+names:
+  - { value: "Abdul Somad Batubara", kind: full }
+  - { value: "عَبْدُ ٱلصَّمَدِ بَاتُوبَارَا", kind: full }
+  - { value: "Ustaz Abdul Somad", kind: alternate }
+  - { value: "UAS", kind: alternate }
+gender: male
+summary:
+  ar: "داعية وعالم حديث إندونيسي وُلد في آساهان بشمال سومطرة سنة 1977، تعلّم في الأزهر ودار الحديث الحسنية بالرباط ونال الدكتوراه من جامعة أم درمان الإسلامية، ودرّس علم الحديث في جامعة سلطان شريف قاسم الإسلامية برياو (2009–2019)، واشتهر بخطابه الدعوي المرح عبر يوتيوب حتى صار من أكثر دعاة إندونيسيا متابعة، وألّف كتباً في الأسئلة الفقهية الشائعة وترجم كتباً عربية."
+  en: "Indonesian preacher and hadith scholar born in Asahan, North Sumatra, in 1977. He studied at Al-Azhar and at Dar al-Hadith al-Hasaniyyah in Rabat, took his doctorate at Omdurman Islamic University, taught hadith studies at UIN Sultan Syarif Kasim in Riau (2009–2019), and rose to fame through humorous sermons on YouTube, becoming one of Indonesia's most-followed preachers. He has written popular question-and-answer books and translated Arabic works."
+  ur: "انڈونیشی مبلغ و عالمِ حدیث، جو 1977ء میں شمالی سماٹرا کے آساہان میں پیدا ہوئے۔ الازہر اور رباط کے دار الحدیث الحسنیہ میں تعلیم پائی، ام درمان اسلامی یونیورسٹی سے ڈاکٹریٹ کیا، ریاو کی سلطان شریف قاسم اسلامی یونیورسٹی میں علومِ حدیث پڑھائے (2009ء–2019ء)، اور یوٹیوب پر اپنے مزاحیہ اندازِ خطابت سے انڈونیشیا کے سب سے زیادہ سنے جانے والے داعیوں میں شامل ہو گئے۔"
+roles: [preacher, scholar, writer, teacher]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1977-05-18"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Silo Lama, Asahan, North Sumatra, on 18 May 1977: the English and Indonesian articles agree. The Hijri year 1397 is a tabular conversion of the followed date, marked derived. No place record for Asahan exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-abdul-somad-en, source/wikipedia-abdul-somad-id]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No prose text consulted names a school or order for him. Both articles' infoboxes — one structured family, which never settles faith — give Sunni, Shafi'i jurisprudence and the Naqshbandi tariqa, with Ash'ari creed; the tariqa line cites two Indonesian press pieces (Tirto, 'The Tariqa Chosen by Abdul Somad', 2019; Padangkita, 2022, reporting a sermon in which he discussed tasawwuf and tariqa), neither of which could be read in full in this session. What the articles' prose gives is a Shattari Sufi scholar among his mother's ancestors (descent, which never counts), his fatwa offices in PERTI and Al Washliyah (office, which never counts) and sermons discussing Sufism (a preaching topic). The readings are preserved here; under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-abdul-somad-en, source/wikipedia-abdul-somad-id]
+sources: [source/wikipedia-abdul-somad-en, source/wikipedia-abdul-somad-id]
+provenance:
+  layer: own-research
+  source: "English and Indonesian Wikipedia articles on Abdul Somad, read in full on 4 November 2026 (modern-figures harvest, 2026-11-04: YouTube 'Ustadz Abdul Somad Official' with 5.12 million subscribers per vidIQ, read 2 November 2026; Instagram 8.9 million followers per a February 2024 journal table). The harvest records a Wikidata item for him, but wikidata.org returns HTTP 403 to this session's fetcher, so the QID could not be verified in session and no external identifier is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-189"
+status:
+  review: published
+  completeness: 3

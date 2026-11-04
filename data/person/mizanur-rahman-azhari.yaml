@@ -1,0 +1,36 @@
+id: person/mizanur-rahman-azhari
+class: person
+label: { ar: "ميزان الرحمن أزهري", en: "Mizanur Rahman Azhari", ur: "میزان الرحمن اظہری" }
+names:
+  - { value: "মিজানুর রহমান আজহারী", kind: full }
+  - { value: "Mizanur Rahman", kind: full }
+gender: male
+summary:
+  ar: "داعية وباحث إسلامي بنغلاديشي، وُلد في دكا سنة 1990، درس التفسير وعلوم القرآن في جامعة الأزهر ثم في الجامعة الإسلامية العالمية بماليزيا، واشتهر بمحاضرات الوعظ (الواز محفل) التي تصل إلى ملايين المشاهدين عبر المنصات الرقمية."
+  en: "Bangladeshi Islamic preacher and scholar, born in Dhaka in 1990. He studied tafsir and Qur'anic sciences at Al-Azhar University and then at the International Islamic University Malaysia, and became known for waz mahfil lectures that reach millions of viewers on digital platforms."
+  ur: "بنگلہ دیشی اسلامی مبلغ اور عالم، جو 1990 میں ڈھاکہ میں پیدا ہوئے۔ انہوں نے جامعہ الازہر اور پھر بین الاقوامی اسلامی یونیورسٹی ملائیشیا میں تفسیر و علومِ قرآن کی تعلیم حاصل کی، اور وعظ محفل کے خطبات سے شہرت پائی جو ڈیجیٹل پلیٹ فارموں پر لاکھوں ناظرین تک پہنچتے ہیں۔"
+roles: [preacher, scholar, writer]
+wings: [people, living]
+born:
+  edtf: "1990-01-26"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Date and place (Demra, Dhaka) from the Daily Star profile and the Speakers of Islam biography, which agree. One aggregator gives the year as 1991; it is not followed."
+  sources: [source/daily-star-mizanur-rahman-azhari, source/speakersofislam-mizanur-rahman-azhari]
+relations:
+  - { type: born_in, target: place/dhaka, sources: [source/daily-star-mizanur-rahman-azhari, source/speakersofislam-mizanur-rahman-azhari] }
+  - { type: lived_in, target: place/cairo, sources: [source/daily-star-mizanur-rahman-azhari] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither profile read names a school or order for him. His study at Al-Azhar and IIUM is institutional history, not a faith attestation, and no second text was found naming a madhhab for the man himself."
+    sources: [source/daily-star-mizanur-rahman-azhari, source/speakersofislam-mizanur-rahman-azhari]
+sources: [source/daily-star-mizanur-rahman-azhari, source/speakersofislam-mizanur-rahman-azhari]
+provenance:
+  layer: own-research
+  source: "The Daily Star profile 'Who is Mizanur Rahman Azhari?' (via thefreelibrary.com) and the Speakers of Islam biography of 16 March 2025, checked 4 November 2026. No English or Bengali Wikipedia article and no Wikidata item could be located in this pass (a Bengali Wikiquote page exists); the record is built from profiles under the lane's channel-queue rule, and platform reach (about 3.53 million YouTube subscribers, vidIQ, 3 November 2026) is recorded in the prose as a dated platform figure."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-189b
+status: { review: published, generated_by: "Muse (Muse Wonder)" }
