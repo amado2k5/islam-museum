@@ -16,9 +16,12 @@ relations:
   - { type: had_participant, target: person/nur-al-din-arslan-shah, role: "المنهزم", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-malik-al-adil-ayyub, role: "الطرف الغالب", sources: [source/kamil-ibn-al-athir] }
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
-  run: lib-kamil-v12-batch05
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-events-batch4
 sources: [source/kamil-ibn-al-athir]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+status:
+  review: published
+  completeness: 3
