@@ -1,26 +1,48 @@
 id: person/qazi-said-qumi
 class: person
 label:
-  ar: "القاضي سعيد قمي"
-  en: "Qazi Sa'id Qumi"
-roles: [scholar]
+  ar: "قاضي سعيد قمي"
+  en: "Qadi Sa'id Qumi"
+roles: [philosopher, jurist, mystic, physician, poet]
 gender: male
-themes: [philosophy-and-logic]
 summary:
-  ar: "بطاقة أولية للقاضي سعيد قمي، فيلسوف وعرفاني إيران الصفوي في القرن السابع عشر، توفي سنة ١٦٩٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Qadi Sa'id Qumi, the seventeenth-century Safavid philosopher and mystic, d. 1692; the biographical entry is not yet checked on the page."
+  ar: "قاضي سعيد قمي (محمد سعيد بن محمد مفيد، ١٦٤٠–بعد ١٦٩٦م)، المعروف بـ«حكيم كوجك» أي الحكيم الصغير، فيلسوف وفقيه ومتصوّف وطبيب بلاط صفوي من قم، جعل شرحه الضخم على «كتاب التوحيد» لابن بابويه منه أبرز أصوات مدرسة قم وناقداً لملا صدرا."
+  en: "Qadi Sa'id Qumi (Muhammad-Sa'id b. Muhammad-Mofid, 1640–after 1696), known as Hakim Kuchak, 'the Little Sage', was a Safavid philosopher, jurist, mystic and court physician of Qom whose vast commentary on Ibn Babawayh's Book of Tawhid made him the leading voice of the Qom school and a critic of Mulla Sadra."
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Attested for the man himself by independent texts: Encyclopaedia Iranica introduces him as a 'Shiʿite philosopher, jurist, and mystic' and describes his stand in the period's central theological debate as a 'traditional Twelver Shiʿite' separation of God's essence from His attributes; the Persian article calls him a Shi'a marjaʿ and traditionist of the Qom school, and WikiNoor names him one of the Imami scholars of the Safavid era. His life's work was a commentary on the Tawhid of Ibn Babawayh, the Imami traditionist. The texts' own Twelver and Imami wording is followed."
+    sources: [source/iranica-qazi-said-qomi, source/wikipedia-fa-qazi-said-qumi, source/wikinoor-qazi-said-qumi]
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+born:
+  edtf: "1640"
+  hijri: "1049"
+  precision: year
+  sources: [source/iranica-qazi-said-qomi, source/wikinoor-qazi-said-qumi]
+  note: "Born in Qom on 10 Dhu'l-Qa'da 1049, which Iranica converts to 3 March 1640; the English article converts the same Hijri year to 1639. The Hijri date governs."
+died:
+  edtf: "1696"
+  hijri: "1107"
+  precision: year
+  status: debated
+  sources: [source/iranica-qazi-said-qomi, source/wikipedia-fa-qazi-said-qumi, source/wikinoor-qazi-said-qumi]
+  note: "The death date is genuinely unsettled and all readings are preserved. The draft stub and the queue gave 1692, following the 1103 AH reading in al-Dhari'a which WikiNoor also records (alongside 1100 AH); the English article gives 18 Ramadan 1691; the Persian article says only that he died in Qom between 1100 and 1107 AH. Encyclopaedia Iranica shows, from the dated completion of the third volume of his Tawhid commentary on 18 Ramadan 1107 / 20 April 1696, that he was still alive then; 1696 is therefore the earliest defensible year and is recorded here, with the earlier readings left standing in this note."
+relations:
+  - {type: student_of, target: person/fayz-kashani, sources: [source/iranica-qazi-said-qomi, source/wikipedia-fa-qazi-said-qumi]}
+  - {type: born_in, target: place/qumm, sources: [source/iranica-qazi-said-qomi]}
+  - {type: died_in, target: place/qumm, sources: [source/wikipedia-fa-qazi-said-qumi, source/wikinoor-qazi-said-qumi]}
+  - {type: buried_in, target: place/qumm, sources: [source/wikipedia-fa-qazi-said-qumi]}
+sources: [source/wikipedia-qazi-said-qomi, source/wikipedia-fa-qazi-said-qumi, source/iranica-qazi-said-qomi, source/wikinoor-qazi-said-qumi, source/wikidata-qazi-said-qumi, source/al-aalam]
 external_ids:
   wikidata: Q3412455
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0045
+  source: "Replaces the Devin wikidata-import draft stub at the same slug; identity follows Wikidata Q3412455. All statements were checked against the registered sources read in full (Encyclopaedia Iranica, the English and Persian Wikipedia articles, and the WikiNoor entry); al-Aʿlām is retained as an unread pointer from the stub. The stub's provenance claim that he studied under Mir Fendereski is attested by no text read — Fendereski died in 1640, the year of Qumi's birth — and was dropped; the prose notes it as refused."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-187"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

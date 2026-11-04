@@ -1,25 +1,48 @@
 id: person/zekeriyazade-yahya
 class: person
 label:
-  ar: "يحيى أفندي زكريا زاده"
-  en: "Zekeriyazade Yahya"
-roles: [scholar, poet]
+  ar: "زكريا زاده يحيى أفندي"
+  en: "Zekeriyazade Yahya Efendi"
+roles: [scholar, jurist, poet, teacher]
 gender: male
 summary:
-  ar: "بطاقة أولية لزكريا زاده يحيى أفندي، شيخ الإسلام وشاعر البلاط العثماني في القرن السابع عشر، توفي سنة ١٦٤٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Zekeriyazade Yahya Efendi, the seventeenth-century Ottoman Shaykh al-Islam and court poet, d. 1644; the biographical entry is not yet checked on the page."
+  ar: "زكريا زاده يحيى أفندي (١٥٦١–١٦٤٤م)، نجل شيخ الإسلام بيرم زاده زكريا أفندي، عالم وفقيه عثماني تولّى مشيخة الإسلام ثلاث مرات في عهود مصطفى الأول ومراد الرابع وإبراهيم، ومن كبار أساتذة الغزل في الشعر الديواني التركي الكلاسيكي."
+  en: "Zekeriyazade Yahya Efendi (1561–1644), son of Shaykh al-Islam Bayramzade Zekeriya Efendi, was an Ottoman scholar and jurist who held the Shaykh al-Islamate for three terms under Mustafa I, Murad IV and Ibrahim, and one of the great ghazal masters of classical Turkish divan poetry."
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read for this record names a madhhab for Yahya Efendi personally. He rose through the Ottoman learned hierarchy and held the Shaykh al-Islamate — the chief mufti's office of a Hanafi establishment — for three terms, but office and milieu are not attestation, so his faith is recorded unknown. The Hanafi character of the institution he headed is stated in the prose, not in this field."
+    sources: [source/teis-seyhulislam-yahya, source/wikipedia-zekeriyazade-yahya-efendi]
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/dawlat-uthmaniyya-salabi]
+born:
+  edtf: "1561"
+  hijri: "0969"
+  precision: year
+  status: debated
+  sources: [source/teis-seyhulislam-yahya, source/wikipedia-zekeriyazade-yahya-efendi]
+  note: "The birth year is debated: the TEIS entry gives 960/1552 in some sources and 969/1561 in others, and follows the testimony of contemporaries for 1561; the Turkish article likewise gives 1561, at Istanbul. The German article's 1552 (at Ankara) is the same 960 AH reading under another conversion and is not followed; the queue's 1553 is that same year again. The record follows 969/1561."
+died:
+  edtf: "1644"
+  hijri: "1053"
+  precision: year
+  sources: [source/teis-seyhulislam-yahya, source/wikipedia-zekeriyazade-yahya-efendi]
+  note: "Died at Istanbul on 18 Dhu'l-Hijja 1053 / 27 February 1644 (TEIS), still holding the Shaykh al-Islamate in his third term, and was buried in the cemetery of his father Bayramzade Zekeriya Efendi's medrese by Sultan Selim."
+relations:
+  - {type: child_of, target: person/bayramzade-zekeriya-efendi, sources: [source/teis-seyhulislam-yahya, source/wikipedia-zekeriyazade-yahya-efendi]}
+  - {type: born_in, target: place/istanbul, sources: [source/teis-seyhulislam-yahya, source/wikipedia-zekeriyazade-yahya-efendi]}
+  - {type: died_in, target: place/istanbul, sources: [source/teis-seyhulislam-yahya, source/wikipedia-zekeriyazade-yahya-efendi]}
+  - {type: buried_in, target: place/istanbul, sources: [source/teis-seyhulislam-yahya]}
+sources: [source/wikipedia-zekeriyazade-yahya-efendi, source/wikipedia-de-zekeriyazade-yahya, source/teis-seyhulislam-yahya, source/wikidata-zekeriyazade-yahya, source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q187243
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0044
+  source: "Replaces the Devin wikidata-import draft stub at the same slug; identity follows Wikidata Q187243. All statements were checked against the registered sources read in full (the TEIS biographical entry and the Turkish and German Wikipedia articles); al-Salabi's al-Dawla al-Uthmaniyya is retained as an unread pointer from the stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-187"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

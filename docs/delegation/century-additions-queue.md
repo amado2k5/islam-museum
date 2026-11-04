@@ -1129,7 +1129,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ali-Akbar Dehkhoda (1879–1956)
 - [x] Arif Qazvini (1882–1934)
 - [x] Abolqasem Lahouti (1887–1957)
-- [~] Said Halim Pasha (1865–1921)
+- [x] Said Halim Pasha (1865–1921)
 - [x] Ahmed Cevdet Oran (1862–1935)
 - [x] Ebüzziya Tevfik (1849–1913)
 - [x] Ali Suavi (1839–1878)
@@ -1538,7 +1538,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Khan Amirzadeh Khan (1890–1950)
 - [x] Pir Pagaro (Sibghatullah Shah Rashdi) (1908–1943)
 - [x] Sheikh Abdul Majid Sindhi (1889–1978)
-- [~] Mirza Kalich Beg (1853–1929)
+- [x] Mirza Kalich Beg (1853–1929)
 - [x] Allah Bux Soomro (1900–1943)
 - [x] Sir Haji Abdullah Haroon (1872–1942)
 - [x] Lady Nusrat Abdullah Haroon (1886–1966)
@@ -1830,8 +1830,8 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Danishmand Khan — 1625–1670
 - [x] Shah Abbas II — 1632–1666
 - [x] Mirza Muhammad Tahir Nasab — 1630–1700
-- [ ] Mir Findesiri — 1563–1640
-- [ ] Qazi Sa'id Qomi — 1633–1692
+- [x] Mir Findesiri — 1563–1640
+- [x] Qazi Sa'id Qomi — 1633–1692
 - [x] Jamal al-Din Khwansari — 1651–1711
 - EXCLUDED (rulings review 2026-11-03: phantom — the 1688 death year belongs to Aqa Husayn Khwansari; no separable documented person) Mohammad-Saleh Khwansari — 1620–1688
 - [x] Sayyid Nezam al-Din Ahmad — 1610–1675
@@ -1841,7 +1841,7 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Neşâtî — 1600–1674
 - [x] Hoca İshak Efendi — 1690–1750 (CSV annotation suggests conflation with the d. 1834 namesake; resolve identity at build)
 - [x] Mustafa Nâbî — 1642–1712 (identical years to Nâbî above — probable CSV duplicate of one person; verify at build, build once if so)
-- [ ] Şeyhülislam Yahya Efendi — 1553–1644
+- [x] Şeyhülislam Yahya Efendi — 1553–1644
 - [x] Abdurrahman Hibri Efendi — 1604–1659
 - [x] Müneccimbaşı Ahmed Dede — 1631–1702
 - [x] Sultan Al-Rashid of Morocco — 1631–1672
