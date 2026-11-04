@@ -1,0 +1,20 @@
+id: concept/iwan
+class: concept
+kind: architectural_element
+label: { ar: "الإيوان", en: "Iwan", ur: "ایوان" }
+summary:
+  ar: "قاعة مقبوة مفتوحة الواجهة على صحن، عنصر قديم يرجع إلى العمارة البارثية والساسانية قبل الإسلام، صار صحن الإيوانات من فارس أساس المدارس في القاهرة {cite:yeomans-islamic-cairo-2006 p.116}."
+  en: "An open-fronted vaulted hall facing a courtyard, an ancient element going back to Parthian and Sassanian architecture; the Persian iwan-courtyard plan became the basis of Cairo's madrasas {cite:yeomans-islamic-cairo-2006 p.116}."
+wings: [objects, ideas]
+themes: [architecture, education]
+regions: [egypt-nile]
+relations:
+  - { type: practiced_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 116-117"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
