@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:233 (pp. 62-68, reports 5029-5048): the last reports on the heir clause, al-Tabari's own choice and his argument (attributed as his, with other scholars' positions left unjudged), and the opening of the weaning clause with the first reports on the time of weaning, in Arabic, English and Urdu.
 - Passage 2:233 (pp. 57-62, reports 4997-5028): the remaining positions on who the heir is (guardian, the child's heirs, the forbidden-degree kin, the infant himself, the surviving parent) and on what the like duty covers (nursing wage and upkeep), in Arabic, English and Urdu.
 - Passage 2:233 (pp. 50-56, reports 4984-4996): the last reports on harming a mother or father through the child, al-Tabari's grammar answers and his view of the leader's duty, and the first positions on who the heir is and what he owes, in Arabic, English and Urdu.
 - Passage 2:233 (pp. 45-50, reports 4973-4983): al-Tabari on the sentence limiting what a soul is charged with and his reply to the qadar reading, the readers' difference on the ban on harming a mother or father through the child, his choice, and the interpreters' reports, in Arabic, English and Urdu.
