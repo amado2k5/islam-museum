@@ -30,6 +30,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:173 gains more of al-Tabari's commentary (volume 3, pp. 318-324): the readings of "al-mayta", the meaning of "dedicated to other than God", and the first two views on "neither desiring nor transgressing" (the rebel and highway robber, and seeking or exceeding the forbidden), attributed, in Arabic, English and Urdu.
 - Passages 2:171, 2:172 and 2:173 gain al-Tabari commentary (volume 3, pp. 313-318): the close of 2:171 with his chosen reading of the likeness and the editor's footnote on it, the whole of 2:172, and the opening of 2:173 (the single particle "innama"), attributed, in Arabic, English and Urdu.
 - Passages 2:170 and 2:171 gain al-Tabari commentary (volume 3, pp. 307-312): the close of 2:170, and for 2:171 the views on the likeness of the one who shouts (the beast, the shepherd, the echo) with his grammatical explanation, attributed, in Arabic, English and Urdu.
 - Passages 2:168, 2:169 and 2:170 gain al-Tabari commentary (volume 3, pp. 300-306): the lawful and good foods and the views on "the footsteps of Satan", evil and indecency and saying about God what is not known, and the opening of 2:170 with the two readings of the pronoun and the report of its occasion, attributed, in Arabic, English and Urdu.
