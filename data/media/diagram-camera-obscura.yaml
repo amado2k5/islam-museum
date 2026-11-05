@@ -1,0 +1,35 @@
+id: media/diagram-camera-obscura
+class: media
+kind: illustration
+label:
+  ar: "مخطط: ما بُني عليه البيت المظلم عند ابن الهيثم وما بُني فوقه"
+  en: "Diagram: what Ibn al-Haytham's dark room was built on and what was built on it"
+  ur: "خاکہ: ابن الہیثم کا تاریک کمرہ کس بنیاد پر قائم تھا اور اس پر کیا بنایا گیا"
+summary:
+  ar: "مخطط بسيط يرسمه الموقع عند البناء من بيانات السجل: البيت المظلم عند ابن الهيثم في الوسط، وما سبقه (الضوء الداخل إلى البيوت من الثقوب، وعلم المناظر عند اليونان) في جانب، وما تلاه كما تذكره المصادر في الجانب الآخر."
+  en: "A simple schematic drawn by the site at build time from the record's data: Ibn al-Haytham's dark room in the middle, what came before (light entering houses through holes, and Greek optics) on one side, and what followed, as the sources name it, on the other."
+  ur: "ایک سادہ خاکہ جو سائٹ بناتے وقت ریکارڈ کے ڈیٹا سے کھینچتی ہے: درمیان میں ابن الہیثم کا تاریک کمرہ، ایک طرف وہ جو اس سے پہلے تھا (سوراخوں سے گھروں میں آنے والی روشنی، اور یونانی بصریات)، اور دوسری طرف وہ جو اس کے بعد آیا، جیسا کہ مصادر بتاتے ہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts:
+- invention/camera-obscura
+alt:
+  ar: "ثلاثة أعمدة يصل بينها سهمان. العمود الأول وعنوانه «ما بُني عليه» فيه مربعان منقطا الحدود: الضوء الداخل إلى البيوت من الثقوب والخروق والأبواب؛ وعلم المناظر عند اليونان ونظريات الإبصار. وفي الوسط مربع غليظ الحدود: البيت المظلم عند ابن الهيثم، ابن الهيثم. والعمود الأخير وعنوانه «ما بُني فوقه» فيه أربعة مربعات: مقالة في صورة الكسوف؛ تنقيح المناظر للفارسي؛ الترجمة اللاتينية وطبعة رزنر سنة 1572؛ علم المناظر في أوروبا من فيتيلو إلى ديكارت."
+  en: "Three columns joined by two arrows. The first column, headed Built on, holds two dashed boxes: light entering houses through holes, cracks and doors; Greek optics and the theories of vision. In the middle a box with a thick border: Ibn al-Haytham's dark room, Ibn al-Haytham. The last column, headed Built on it, holds four boxes: the Treatise on the Form of the Eclipse; al-Farisi's Tanqih al-Manazir; the Latin translation and Risner's printing of 1572; optics in Europe from Witelo to Descartes."
+  ur: "دو تیروں سے جڑے تین کالم۔ پہلے کالم میں، جس کا عنوان «اس کی بنیاد» ہے، نقطے دار حاشیے والے دو خانے ہیں: سوراخوں، دراڑوں اور دروازوں سے گھروں میں آنے والی روشنی؛ یونانی بصریات اور نظریاتِ بصارت۔ درمیان میں موٹے حاشیے والا خانہ: ابن الہیثم کا تاریک کمرہ، ابن الہیثم۔ آخری کالم میں، جس کا عنوان «اس پر بنایا گیا» ہے، چار خانے ہیں: گرہن کی صورت پر رسالہ؛ فارسی کی تنقیح المناظر؛ لاطینی ترجمہ اور 1572ء کی رزنر کی طباعت؛ یورپ میں بصریات، وٹیلو سے دیکارت تک۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time from the invention's precursors and dependents)"
+  version: "1"
+  date: "2026-11-05"
+sources:
+- source/manazir-sabra-1983
+- source/tdv-ibnul-heysem
+status:
+  review: published
+  completeness: 2
+  generated_by: "Copilot SDK in VS Code"
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b09"
+  source: "Ibn al-Haytham, Kitab al-Manazir, ed. Sabra (Kuwait 1983) scan pp. 9–10, 28–29, 44–50, 73; TDV İslâm Ansiklopedisi, İBNÜ'l-HEYSEM"
