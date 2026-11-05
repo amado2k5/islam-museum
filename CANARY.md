@@ -30,6 +30,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:159 now says plainly that al-Suddi's report no. 2374m is cut short in the printed text and that the editor notes a passage dropped by the copyist. Passage 2:164 gains al-Tabari commentary (volume 3, pp. 269-274): the reports on the occasion of revelation and his reading of them, creation as thing or quality, night and day, the ships, and the rain, in Arabic, English and Urdu.
 - Passages 2:162, 2:163 and 2:164 gain al-Tabari commentary (volume 3, pp. 264-269): the end of 2:162, the two views on the meaning of God's oneness in 2:163, and the argument of 2:164 with the first reports on its occasion of revelation, attributed, in Arabic, English and Urdu.
 - Passages 2:160, 2:161 and 2:162 gain al-Tabari commentary (volume 3, pp. 259-264): the exception for those who repent and make clear (and whom he names), who is meant by the curse of "all people" and his choice, and the abiding without lightening, each attributed, in Arabic, English and Urdu.
 - Passage 2:159 continues its al-Tabari commentary (volume 3, pp. 253-258): the meaning of "curse" as being put far from God's mercy, the differing views on who "the cursers" are (animals, angels and believers, others), and his choice and reasons, each attributed, in Arabic, English and Urdu.
