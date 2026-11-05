@@ -38,6 +38,10 @@ open a new block on top with the new version and today's date.
 
 - A connections diagram for every connected record: the tests and the API export now fail if any record with at least one typed connection to another record has no Connections Explorer file, if a diagram is not centred on its record or draws a link that is not a real connection, or if an entry page offers "explore connections" without a diagram behind it. Records linked only through shared themes have no diagram by design; their "see also" list is a recommendation, not a connection.
 
+### Performance
+
+- Search starts faster, above all on phones and slow connections: the list of variant spellings (Saladin, Salah al-Din…) is now split into small pieces and the search page fetches only the few it needs for the words typed, about 14 KB each, instead of the whole list on every visit (2 MB compressed, 10 MB in Arabic and Urdu). Each search still waits for its pieces, so results and counts are the same as before.
+
 ---
 
 ## v1.1.0 — 2026-11-03
