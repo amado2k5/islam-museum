@@ -27,3 +27,6 @@ Raising the voice in glorification before a bier is disliked, since the Companio
 ## Other cases
 Glorifying at thunder is recommended: the saying of Abdullah ibn al-Zubayr, glory be to Him whom the thunder glorifies with praise. Exclaiming with the word glory is allowed, as in the Prophet's words that the believer is not unclean. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5061} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5062} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5063}
 The reward for it is great, on the hadith that whoever says glory be to God and praise Him a hundred times a day has his sins dropped. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5063}
+
+## In al-Tabari's commentary
+On [[passage/quran-2-30|verse 30]], al-Tabari explains "we glorify You with praise" by saying the original meaning of tasbih for God among the Arabs is declaring Him free of what is not His attribute, that every remembrance of God among them is tasbih and prayer, and that it has been said tasbih is the angels' prayer; he reports from Qatada that it is the known glorification and from al-Suddi that it is prayer. He explains "we sanctify You" as purifying and exalting. {cite:tafsir-tabari-shakir-v01 p. 471} {cite:tafsir-tabari-shakir-v01 p. 476}
