@@ -1,9 +1,11 @@
 id: place/tripoli-al-sham
 class: place
 kind: city
-label: { ar: "طرابلس الشام" }
+label: { ar: "طرابلس الشام" , ur: "طرابلس الشام", en: "Tripoli in the Levant"}
 summary:
   ar: "طرابلس الشام مدينة ساحلية تحت جبل لبنان، افتتحها عمرو بن العاص بعد حصار شهرين، وأخذها الفرنج في 502 أو 503هـ، واستعادها قلاوون سنة 688هـ. {cite:farghani-elements-astronomy p. 526}"
+  ur: "جبل لبنان کے دامن میں ساحلی شہر؛ موجودہ عربی روایت میں عمرو بن عاص کے دو ماہ کے محاصرے کے بعد فتح، 502 یا 503 ہجری میں فرنگیوں کے قبضے اور 688 ہجری میں قلاوون کی واپسی کا ذکر ہے۔ {cite:farghani-elements-astronomy}"
+  en: "A coastal city below Mount Lebanon; its existing Arabic record describes its capture by Amr ibn al-As after a two-month siege, its Frankish capture in 502 or 503 AH and Qalawun's recovery of it in 688 AH. {cite:farghani-elements-astronomy}"
 wings: [place]
 regions: [levant-iraq]
 sources: [source/farghani-elements-astronomy]
@@ -13,4 +15,9 @@ provenance:
   generated_by: "Claude Code"
   model: "claude-haiku-5-5"
   run: "farghani-389-577"
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }

@@ -1,6 +1,6 @@
 id: person/thabit-ibn-aqram
 class: person
-label: { ar: "ثابت بن أقرم", en: "Thabit ibn Aqram" }
+label: { ar: "ثابت بن أقرم", en: "Thabit ibn Aqram" , ur: "ثابت بن اقرم"}
 names:
   - { kind: full, lang: ar, value: "ثابت بن أقرم بن ثعلبة بن عدي بن العجلان البلوي الأنصاري" }
   - { kind: alternate, lang: ar, value: "ثابت بن الأرقم" }
@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   ar: "صحابي من الأنصار، من بني المجلان. لما استُشهد القادة الثلاثة يوم مؤتة رفع الراية ثم عرضها على المسلمين رافضًا القيادة لنفسه، فاجتمع المسلمون على خالد بن الوليد. قُتل في حرب الردة."
   en: "Companion from the Ansar, of Banu al-Majlan. After the three commanders fell at Mu'tah he picked up the standard and then refused command, proposing Khalid ibn al-Walid. Killed in the Ridda wars."
+  ur: "بنو مجلان کے انصاری صحابی؛ مؤتہ میں تینوں قائدوں کے مارے جانے کے بعد پرچم اٹھایا، خود قیادت لینے سے انکار کیا اور خالد بن ولید کا نام پیش کیا؛ ردہ کی جنگوں میں مارے گئے۔ {cite:ibn-hisham-saqqa}"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia, levant-iraq]
@@ -24,3 +25,15 @@ relations:
   - { type: participated_in, target: event/battle-of-mutah, role: witness, sources: [source/ibn-hisham-saqqa] }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 21" }
+
+provenance:
+  layer: own-research
+  source: "Existing museum record and defined sources: source/ibn-hisham-saqqa. Attribution metadata restored only; no new source pages examined."
+  generated_by: kiro; mined from Ibn Hisham juz' 4 p. 21; Copilot SDK in VS Code (metadata restoration)
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
+  model: unknown
+  run: explorer-sixth-40-stories-2026-11-04

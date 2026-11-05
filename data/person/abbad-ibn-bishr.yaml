@@ -3,6 +3,7 @@ class: person
 label:
   ar: عباد بن بشر
   en: Abbad ibn Bishr
+  ur: "عباد بن بشر"
 names:
 - kind: full
   lang: ar
@@ -16,6 +17,7 @@ summary:
   ar: 'صحابي من بني عبد الأشهل؛ ذكره موسى بن عقبة فيمن شهد بدراً، وقال إنه ممن شارك في قتل كعب بن الأشرف، وقالت عائشة إن ثلاثة من الأنصار لم يكن أحد يعتد عليهم فضلاً: أسيد بن حضير وسعد بن معاذ وعباد بن بشر. وفي الصحيح خرج هو وأسيد بن حضير من عند النبي في ليلة مظلمة فإذا نور بين أيديهما حتى تفرقا {cite:sahih-al-bukhari 3805}.'
   en: 'A Companion of Banu Abd al-Ashhal; Musa ibn Uqba lists him among those at Badr and says he took part in the killing of Ka''b ibn al-Ashraf; Aisha said three of the Ansar had no one to rival them in merit: Usayd ibn Hudayr, Sa''d ibn Mu''adh
     and Abbad ibn Bishr.'
+  ur: "بنو عبد الاشہل کے صحابی؛ موسیٰ بن عقبہ انہیں بدر میں شریک اور کعب بن اشرف کے قتل میں شامل بتاتے ہیں، اور عائشہ نے انہیں انصار کے تین ممتاز افراد میں شمار کیا۔ {cite:ibn-hajar-isaba}"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -53,6 +55,11 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch111
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
 external_ids: { wikidata: "Q2736757" }
 sources:
 - source/ibn-hajar-isaba

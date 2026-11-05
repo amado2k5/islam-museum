@@ -25,7 +25,7 @@ relations:
   - { type: had_participant, target: person/malik-ibn-sinan, role: "والد أبي سعيد الخدري؛ امتص الدم من وجنة النبي فقال له فداك نفسي ثم قُتل", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/musab-ibn-umayr, role: "قاتل حتى قُطعت يداه ثم برك على اللواء بصدره وعنقه حتى قُتل", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim]
-provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] , explorer_metadata: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-sixth-40-stories-2026-11-04","source":"Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research."}, source: "Existing museum record and defined sources: source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim. Attribution metadata restored only; no new source pages examined."}
 status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 267-273" }
 
 education:

@@ -1,6 +1,6 @@
 id: person/umayya-ibn-khalaf
 class: person
-label: { en: "Umayya ibn Khalaf", ar: "أمية بن خلف" }
+label: { en: "Umayya ibn Khalaf", ar: "أمية بن خلف" , ur: "امیہ بن خلف"}
 names:
   - { kind: full, lang: ar, value: "أمية بن خلف الجمحي" }
 gender: male
@@ -11,6 +11,7 @@ traditions: []
 summary:
   en: "A headman of the clan of Jumah remembered above all as the owner who tortured Bilal — one of the named persecutors of the weak converts, killed at Badr."
   ar: "سيد من بني جُمح يذكر قبل كل شيء بأنه مولى بلال الذي عذّبه — من المسماة بأيديهم عذاب مستضعفي المسلمين، وقُتل ببدر."
+  ur: "بنو جمح کے سردار جنہیں بلال کو اذیت دینے والے مالک اور کمزور نو مسلموں پر ظلم کرنے والوں میں یاد کیا جاتا ہے؛ بدر میں مارے گئے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [anti-muslim-hatred, slavery-and-freedom, battles]
 periods: [period/prophetic-era]
@@ -34,3 +35,14 @@ status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 education:
   levels: [scholars]
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: "Existing museum record and defined sources: source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume. Attribution metadata restored only; no new source pages examined."
+  generated_by: Devin; 2026-10-11; Copilot SDK in VS Code (metadata restoration)
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
+  model: unknown
+  run: explorer-sixth-40-stories-2026-11-04

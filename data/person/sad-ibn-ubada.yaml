@@ -3,6 +3,7 @@ class: person
 label:
   ar: سعد بن عبادة
   en: Sa'd ibn Ubada
+  ur: "سعد بن عبادہ"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: سيد الخزرج، شهد العقبة وكان أحد النقباء، واختُلف في شهوده بدراً؛ اشتهر بالجود هو وأبوه وجده وولده، وكانت راية الأنصار معه، وقصة تخلفه عن بيعة أبي بكر مشهورة، ومات بحوران سنة 15هـ أو 16هـ.
   en: The chief of the Khazraj, present at al-Aqaba and one of the twelve naqibs; whether he was at Badr is disputed; he and his father, grandfather and son were famed for generosity, he carried the banner of the Ansar, his holding back from
     the pledge to Abu Bakr is well known, and he died at Hawran in 15 or 16 AH.
+  ur: "خزرج کے سردار، عقبیٰ کے شریک اور بارہ نقیبوں میں سے؛ انصار کا پرچم اٹھاتے تھے، ان کی سخاوت اور ابو بکر کی بیعت سے الگ رہنے کا ذکر معروف ہے؛ حوران میں 15 یا 16 ہجری میں وفات پائی۔ {cite:ibn-hajar-isaba}"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -56,6 +58,11 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-batch-4
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
 external_ids: { wikidata: "Q1370750" }
 sources:
 - source/ibn-hajar-isaba
