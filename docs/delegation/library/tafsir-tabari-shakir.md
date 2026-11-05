@@ -45,3 +45,5 @@
 3. Excluded so far: none.
 
 - Page markers: in `book.txt` the `[pNNN]` markers run two ahead of the printed page numbers from marker p367 onward (marker p371 is printed p. 369); cite the printed numbers.
+
+- Volume 2 (`waqtaftab-taftab02`, 615 markers): the offset is zero. Marker numbers equal the printed page numbers (checked at markers 10, 50, 100, 300, 400, 580, 600). Printed p. 7 holds the start of the commentary on 2:44. Cite as `{cite:tafsir-tabari-shakir-v02 p. N}` with printed numbers.
