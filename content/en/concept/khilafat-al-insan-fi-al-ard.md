@@ -15,3 +15,6 @@ He says God made the angels prostrate to Adam and made the universe subject to h
 
 ## Not yet checked
 This is Sha'rawi's reading of khilafa. No academic or other-tradition view is set out here and none is checked. The sacred saying he cites is referred in the scan's footnote and is not yet checked against its collections.
+
+## In al-Tabari's commentary
+On [[passage/quran-2-30|verse 30]], al-Tabari explains "khalifa" as from "khalafa", to take another's place after him, and records the interpreters' differing views on who preceded the children of Adam on the earth, reporting from Ibn Abbas that it was the jinn and from al-Hasan that the meaning is generations of Adam's descendants succeeding one another. {cite:tafsir-tabari-shakir-v01 p. 449} {cite:tafsir-tabari-shakir-v01 p. 451}
