@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 458-462): the views on which illness permits breaking the fast (including a view attributed to al-Shafi'i), al-Tabari's choice, the grammar of "other days", and the first view that breaking the fast on a journey is obligatory, each attributed, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 452-458): more reports on the traveller, the view attributed to Abu Hanifa and his companions on madness, al-Tabari's reasons for rejecting two readings of "witnessing the month" and choosing the third, and the first views on which illness permits breaking the fast, each attributed, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 447-452): the sending down of the Qur'an in Ramadan, the meanings of guidance, proofs and criterion, and the differing views on "witnessing the month" for residents and travellers, each view attributed to named transmitters, in Arabic, English and Urdu.
 - Passages 2:184-185 gain al-Tabari's commentary (volume 3, pp. 442-447): the close of 2:184 ("whoever volunteers good", "that you fast is better"), and the start of 2:185 (the word "month", the name Ramadan, and reports on the Qur'an being sent down on the Night of Qadr), each attributed, in Arabic, English and Urdu.
