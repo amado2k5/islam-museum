@@ -16,9 +16,11 @@ relations:
   - { type: had_participant, target: person/uthman-i-uthmani, role: "المُعاد دفنه", sources: [source/freely-ottoman-architecture-2011] }
 sources: [source/freely-ottoman-architecture-2011]
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "Freely, A History of Ottoman Architecture (WIT Press 2011), printed pp. 36-37 (harvest OCR extra-architecture/A_History_of_Ottoman_Architecture_J._Freely_WIT_2011_BBS)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: explorer-bursa
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+  run: prose-fill-events-batch6
+status:
+  review: published
+  completeness: 3

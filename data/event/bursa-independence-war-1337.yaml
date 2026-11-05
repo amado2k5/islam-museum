@@ -16,9 +16,11 @@ relations:
   - { type: occurred_at, target: place/bursa, sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "Encyclopaedia of Islam 2, vol. 1 BURSA, PDF p. 1399 (harvest OCR)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: explorer-bursa
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+  run: prose-fill-events-batch5
+status:
+  review: published
+  completeness: 3

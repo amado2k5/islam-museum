@@ -4,7 +4,7 @@ Lane doc: \`docs/agents/lanes/prose-fill-events.md\`. Programme: \`docs/delegati
 
 **Queue:** the class queue file(s) under \`docs/delegation/prose-queue/\`, worked bottom-up (zero-link tail first); the linked head belongs to \`prose-backfill-2\`.
 
-**Lane total: 100.** Phase 1 (draft promotions) underway: 1,860 trilingual draft records found; promoting in run-tag cohorts of ≤25.
+**Lane total: 150.** Phase 1 (draft promotions) underway: 1,860 trilingual draft records found; promoting in run-tag cohorts of ≤25.
 
 ## Batches
 
@@ -26,8 +26,20 @@ Promoted: death-aziz-595, death-ghiyath-ghuri-599, death-ibn-al-jawzi-597, death
 
 **Lane total: 75.** Next: raheeq-batch-11a remainder folded with lib-kamil-v12-batch04.
 
-### Batch 4 (4 Nov 2026, 25 records) — raheeq-batch-11a remainder + lib-kamil-v12-batch04 draft promotions (PR pending)
+### Batch 4 (4 Nov 2026, 25 records) — raheeq-batch-11a remainder + lib-kamil-v12-batch04 draft promotions (PR #3482)
 
 Promoted: saladin-karak-raid-580, saladin-mayyafariqin-581, shaqif-arnun-587, shii-rising-egypt-586, sirsuti-defeat-584, sulh-saladin-atabeg-581, tughril-qizil-war-584, turkman-kurd-fitna-581, alduz-takes-ghazna-603, aytaqmish-ismailis-604, baghdad-fitan-601, franks-sham-raid-600, fuwwa-raid-601, georgians-armenia-604, georgians-azerbaijan-raid-601, ibn-layun-aleppo-raids-604, ismailis-khurasan-600, kawkja-killed-600, khartabirt-siege-601, khwarazm-ghurid-khurasan-603, khwarazm-herat-siege-600, mahmud-mirbat-600, nur-aldin-adiliyya-defeat-600, qatada-madina-war-601, shihab-khwarazm-siege-600.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 100.**
+
+### Batch 5 (4 Nov 2026, 25 records) — lib-kamil-v12-batch04 remainder + lib-muntazam-258-349-batch27 draft promotions (PR #3488)
+
+Promoted: tirahiyya-victory-602, amr-transoxiana-investiture-285, dujayl-dredging-283, dvin-earthquake-280, fida-ransom-283, hajj-ajfar-mud-281, inheritance-fadl-decree-283, kharijites-executed-280, kufa-basra-storm-285, mutadid-banu-shayban-raid-280, mutadid-mosul-campaign-281, nasrani-hadd-riot-284, nayruz-mihrajan-ban-284, nile-record-low-278, rafi-ibn-harthama-defeat-283, raghib-naval-raid-285, tall-bani-shaqiq-bodies-276, uqbat-hulwan-pass-280, bursa-capital-moves-edirne-771, bursa-earthquake-1271, bursa-independence-war-1337, conquest-of-bursa-1326, jem-sultan-bursa-886, kalenderoglu-plunders-bursa-1017, karamanid-siege-bursa-1413.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 125.**
+
+### Batch 6 (4 Nov 2026, 25 records) — explorer-bursa + lib-kamil-v2/lib-muntazam-258-349 draft promotions
+
+Promoted: mehmed-i-capital-returns-bursa, muradiye-kulliye-bursa-1424, orhan-gazi-mosque-bursa-739, orhan-reburies-uthman-bursa-726, timur-seizes-bursa-805, ulu-cami-bursa-1396, yesil-cami-bursa-1412, yildirim-bayezid-kulliye-bursa-1390, alqama-abyssinia-raid, conquest-of-ahwaz, conquest-of-dinawar, conquest-of-hamadan, conquest-of-isfahan, conquest-of-jundishapur, conquest-of-qarqisiya, conquest-of-qazvin, conquest-of-rayy, conquest-of-sus, conquest-of-takrit, conquest-of-tripoli-west, hijri-calendar-decree, khaybar-partition, masjid-haram-expansion-17, baghdad-famine-330, baghdad-quakes-347.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 150.**
