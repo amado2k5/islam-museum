@@ -25,6 +25,6 @@ relations:
   - { type: corresponded_with, target: person/khosrow-ii, note: "رسول النبي إليه بحسب ابن إسحاق", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/four-lieutenants-egypt, role: "موجّه عين شمس", sources: [source/futuh-buldan-maarif-1407] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8; فتوح البلدان (معارف 1407) ص 304", generated_by: "Claude Sonnet 5.5; extended by Devin (SWE-2 High)", run: "ibn-hisham-batch-5c-iv + lib-futuh-buldan-batch-19" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8; فتوح البلدان (معارف 1407) ص 304", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch54" }
 sources: [source/ansab-al-ashraf, source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407, source/assabile-omar-abdelkafy]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; extended by Devin (SWE-2 High) — Futuh al-Buldan p. 304" }
+status: { review: published, completeness: 3 }

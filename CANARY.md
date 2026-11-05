@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 54 — Ibn Hisham Sirah remainder and Futuh al-Buldan cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 53 — Ibn Hisham Sirah cohorts).
 - Hidaya: added al-Tabari's commentary on "hudan lil-muttaqin" (pp. 230-233): guidance read as light for the God-fearing, the reports from Hasan and Ibn Abbas on taqwa, and the grammatical options for hudan, in Arabic, English and Urdu.
 - Concept al-Muqattaat (the disjoined letters at the openings of surahs) gains al-Tabari's survey of the views on "alif-lam-mim": names of the Qur'an, names of surahs, an oath, the words the letters stand for, and his conclusion that each letter carries many meanings; the abjad reckoning reported from Jewish rabbis is set aside as weakly sourced (Shakir edition, volume 1, pp. 205–220). Added in Arabic, English and Urdu.

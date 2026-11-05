@@ -25,6 +25,6 @@ relations:
   - { type: member_of, target: group/banu-hamdan, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-hamdan, role: "وافد همدان وخطيبه", sources: [source/ibn-hisham-saqqa] }
   - { type: authored, target: work/malik-ibn-al-namt-poem, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 243-246", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 243-246", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch54" }
 sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 243-246" }
+status: { review: published, completeness: 3 }
