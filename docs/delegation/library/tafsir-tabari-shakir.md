@@ -43,3 +43,5 @@
 1. Read vol. 1 introduction (PDF pp. 3–60): al-Tabari's method, the ahruf, the merit of tafsir (for concept/al-ahruf-al-sabaa, concept/tafsir-bil-mathur).
 2. Map the places in vol. 1–16 where al-Tabari gives his own preference among the readings (for question/did-al-tabari-reject-established-readings).
 3. Excluded so far: none.
+
+- Page markers: in `book.txt` the `[pNNN]` markers run two ahead of the printed page numbers from marker p367 onward (marker p371 is printed p. 369); cite the printed numbers.
