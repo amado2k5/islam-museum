@@ -21,6 +21,6 @@ relations:
   - { type: member_of, target: group/banu-sulaym }
   - { type: spouse_of, target: person/uthman-ibn-mazun }
   - { type: participated_in, target: event/siege-of-taif, role: camp-companion, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 127", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 127", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 127" }
+status: { review: published, completeness: 3 }

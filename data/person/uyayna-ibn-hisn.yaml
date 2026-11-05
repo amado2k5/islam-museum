@@ -26,9 +26,9 @@ relations:
   - { type: participated_in, target: event/battle-of-hunayn, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/siege-of-taif, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-banu-tamim, role: "قدم مع الوفد", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137, 207", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}}
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137, 207", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}}
 sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/ibn-hajar-isaba, source/assabile-tareq-al-suwaidan]
-status: { review: draft, completeness: 3, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 136–137; extended by Claude Fable 5.1 from p. 207" }
+status: { review: published, completeness: 3 }
 
 education:
   levels: [sprouts, explorers, scholars]

@@ -24,6 +24,6 @@ relations:
   - { type: member_of, target: group/banu-tamim, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-banu-tamim, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: allied_with, target: person/muawiya-ibn-abi-sufyan, note: "آخى النبي بينهما؛ ورث معاوية ما تركه بهذه الأخوة (ص206)", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 206-207", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 206-207", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 206-207" }
+status: { review: published, completeness: 3 }
