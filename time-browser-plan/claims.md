@@ -693,3 +693,24 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-04 | polity/seljuk-empire | copilot | done - 6 stops; #3493; ar/en/ur dev routes verified; full build deferred
 2026-11-04 | polity/tulunid-dynasty | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
 2026-11-04 | polity/umayyad-caliphate | copilot | done - 6 stops; #3493; ar/en/ur dev routes verified; full build deferred
+
+2026-11-04 | person/alp-arslan | copilot | claimed
+2026-11-04 | person/atsiz-ibn-uwaq | copilot | claimed
+2026-11-04 | person/badr-al-din-lulu | copilot | claimed
+2026-11-04 | person/baha-al-dawla | copilot | claimed
+2026-11-04 | person/bayazid-i-yildirim | copilot | claimed
+2026-11-04 | person/bayazid-ii | copilot | claimed
+2026-11-04 | person/hisham-ibn-abd-al-malik | copilot | claimed
+2026-11-04 | person/ibn-al-muslima | copilot | claimed
+2026-11-04 | person/ibn-al-samani-abd-al-rahim | copilot | claimed
+2026-11-04 | person/fakhr-al-din-al-razi | copilot | claimed
+2026-11-04 | person/jalal-al-dawla | copilot | claimed
+2026-11-04 | person/salih-rais | copilot | claimed
+2026-11-04 | person/salman-ibn-rabi-a | copilot | claimed
+2026-11-04 | person/sahib-al-zanj | copilot | claimed
+2026-11-04 | person/kayqubad-i | copilot | claimed
+2026-11-04 | person/khayr-al-din-barbarossa | copilot | claimed
+2026-11-04 | person/malikshah | copilot | claimed
+2026-11-04 | person/masud-ibn-muhammad-saljuqi | copilot | claimed
+2026-11-04 | person/muhammad-i-jalabi | copilot | claimed
+2026-11-04 | person/muhammad-khwarazmshah | copilot | claimed
