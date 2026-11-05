@@ -9,3 +9,9 @@ Verse 69 of [[passage/quran-2|Surat al-Baqara]], a Medinan surah. {cite:tanzil-q
 
 ## Place in the museum
 Its place: verse 69 of 286 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+## In al-Tabari's commentary
+
+Al-Tabari regards their asking its colour as another act of captiousness after the first, a demand for what they had been spared; God had at first limited them only as to kind, and when they asked about colour they were limited to one colour, as punishment for pressing their prophet. He explains "ma lawnuha" as an interrogative. On "yellow" there are two readings: al-Hasan, in two reports, says it was jet black, while in other reports he says yellow of horn and hoof, and so say Sa'id ibn Jubayr, Ibn Zayd and Mujahid; one report from al-Hasan says it was wild. Al-Tabari thinks those who said "black" followed the Arab usage of calling a black camel "yellow", citing verse of al-A'sha. {cite:tafsir-tabari-shakir-v02 p. 198} {cite:tafsir-tabari-shakir-v02 p. 199} {cite:tafsir-tabari-shakir-v02 p. 200}
+
+Al-Tabari answers those who read "yellow" as black: the Arabs call black camels "yellow", but not cattle, and they never describe black as "fāqi'", using words such as "halik" for intense black; so describing it as "fāqi'" is clear evidence that it was yellow. "Fāqi'" means pure, clear in colour, as reported from Qatada, Abu al-'Aliya and al-Suddi; from Ibn Abbas it is intensely yellow, and al-Tabari does not accept the addition to that report that it almost turned white. "Pleasing to those who look" means its fine form delights the beholder, and Wahb says that looking at it you would fancy the sun's rays came out of its hide. {cite:tafsir-tabari-shakir-v02 p. 200} {cite:tafsir-tabari-shakir-v02 p. 201} {cite:tafsir-tabari-shakir-v02 p. 202}
