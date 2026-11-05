@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:228 continues (vol. 4, pp. 506-511): the view that the waiting period means purity between menses, with the reports of 'A'isha, Zayd ibn Thabit and Ibn 'Umar, the case of al-Ahwas referred to Mu'awiya, and the opening of al-Tabari's discussion of the word in Arab usage, in Arabic, English and Urdu.
 - Passage 2:228 continues (vol. 4, pp. 500-505): the view that the word for the waiting period means menstruation, with the reports of Mujahid, Ibn 'Abbas, 'Ikrima and Qatada, and the rulings of 'Umar, Ibn Mas'ud, Abu Musa, 'Ali and 'Uthman that the husband may take her back until she bathes after the third menses, in Arabic, English and Urdu.
 - Passage 2:227 closes (vol. 4, pp. 493-499: the view that the husband is made to stand, the view that swearing off is nothing, and al-Tabari's own choice with his reasoning from the verse's ending) and 2:228 gets its first touch (p. 499), in Arabic, English and Urdu.
 - Passage 2:227 continues (vol. 4, pp. 487-493): the view that the husband is made to stand after four months and must return or divorce, with the reports of 'Umar, 'Ali, 'Uthman, Abu al-Darda', 'A'isha, Ibn 'Umar and twelve Companions, in Arabic, English and Urdu.
