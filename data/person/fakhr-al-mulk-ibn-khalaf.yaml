@@ -14,10 +14,11 @@ periods: [period/buyid-seljuk-fatimid-era]
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان؛ المنتظم لابن الجوزي ج7"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-wafayat-batch-22; lib-muntazam-batch-22
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch51
 sources: [source/wafayat-ayan, source/muntazam-ibn-al-jawzi]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 3 }
 occupations:
   - job: job/vizier
     kind: primary

@@ -950,3 +950,11 @@ Promoted (run `prose-fill-persons-batch50`): lib-wafayat-batch-1 — abu-bakr-ib
 Note: an editing slip briefly rewrote run tags on the 7 wafayat-batch-2 records already promoted in batch 49; they were restored to `prose-fill-persons-batch49` before commit — final diff touches exactly the 25 intended files.
 
 **Lane total: 859.** Next: remaining wafayat clean records (12: wafayat-3 ×4, wafayat-4 ×2, wafayat-5 ×1, wafayat-28 rem ×1, wafayat-29/30 ×1 each, kashf compound ×1, wafayat-22;muntazam compound ×1), then ibn-hisham-batch-* (~50), lib-futuh-buldan-* remainders, ~286 no-run-tag drafts to vet; wikidata-import cohorts still deferred.
+
+### Batch 51 (4 Nov 2026, 25 records) — lib-wafayat remainder + ibn-hisham-batch-1b + ibn-hisham-batch-2a (first 2) draft promotions (draft-promotions sweep, run-tag cohorts)
+
+Promoted (run `prose-fill-persons-batch51`): lib-wafayat remainder — abu-al-mahasin-al-shawwa, al-wathiq-abu-dabus, ibn-al-jubrani, yusuf-al-bayyasi (batch-3); al-buwayti, ibn-kajj (batch-4); abu-bakr-ibn-abd-al-rahman-ibn-al-harith (batch-5); yahya-ibn-ali-al-munajjim (batch-28 rem); abu-shujaa-ibn-qasas (batch-29); shihab-al-din-al-kuni (batch-30); abu-hayyan-al-tawhidi (kashf/wafayat-13 compound); fakhr-al-mulk-ibn-khalaf (wafayat-22/muntazam-22 compound); ibn-hisham-batch-1b (السيرة النبوية لابن هشام، طبعة السقا) — abdullah-ibn-khatal, abdullah-ibn-sad-ibn-abi-sarh, abu-quhafa, al-huwayrith-ibn-nuqayd, fadala-ibn-umayr, fartana, himas-ibn-qays, khirash-ibn-umayya, khunays-ibn-khalid, kurz-ibn-jabir-al-fihri, miqyas-ibn-subaba; ibn-hisham-batch-2a (first 2 of 8) — abdullah-ibn-abi-hadrad, abu-amir-al-ashari. cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+Note: the 13 ibn-hisham records use flow-style `provenance: {}` — handled in place, preserving the nested `localization` provenance on abdullah-ibn-sad-ibn-abi-sarh (explorer-third-40 run kept intact).
+
+**Lane total: 884.** Next: ibn-hisham-batch-2a remainder (6), ibn-hisham-batch-14/1a (8 each), ibn-hisham-batch-2b (7), ~40 more ibn-hisham tags, lib-futuh-buldan-* remainders, ~286 no-run-tag drafts to vet; wikidata-import cohorts still deferred.
