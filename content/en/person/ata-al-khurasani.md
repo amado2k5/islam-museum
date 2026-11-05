@@ -20,3 +20,7 @@ In Abu Zur'a's Marasil: Ahmad ibn Hanbal said he heard nothing from Ibn Abbas, t
 
 ## Notes
 - Conversion to the Common Era is derived.
+
+## In al-Tabari's commentary
+Al-Tabari gives a report from Ata al-Khurasani on the meaning of "al-Rahman al-Rahim": al-Rahman was among God's names that no creature bears, and when Musaylima took it, God joined it with al-Rahim so that the pair belongs to Him alone. Al-Tabari finds the view not corrupt in meaning, and holds that God may reserve the pairing to Himself. {cite:tafsir-tabari-shakir-v01 p. 130} {cite:tafsir-tabari-shakir-v01 p. 131}
+The editor notes that Ata ibn Abi Muslim is trusted by some and weakened by other scholars, and that the transmitter who reported from him is unidentified. {cite:tafsir-tabari-shakir-v01 p. 131}

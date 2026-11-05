@@ -14,9 +14,11 @@ themes: []
 regions: [global]
 periods: [period/prophetic-era]
 relations: []
-sources: [source/tafsir-sharawi-khawatir-scan]
+sources: [source/tafsir-sharawi-khawatir-scan, source/tafsir-tabari-shakir-v01]
 provenance:
   layer: own-research
+  enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-fatiha-opening-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 135, 143: the meaning of al-hamd lillah, the Ibn Abbas report, and the worlds ('alamin)" }
   source: "خواطر الشعراوي حول القرآن الكريم، المجلد الأول، الصفحات 55-64 (نسخة OCR محلية)"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
