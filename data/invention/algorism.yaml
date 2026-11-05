@@ -1,0 +1,150 @@
+id: invention/algorism
+class: invention
+label:
+  ar: "الحساب الهندي بالأرقام العشرية (كتاب الخوارزمي في الحساب وأصل كلمة «الخوارزمية»)"
+  en: "Algorism (reckoning with Indian decimal numerals in al-Khwarizmi's book of arithmetic)"
+  ur: "الگورزم (خوارزمی کی کتابِ حساب میں ہندی اعشاری ہندسوں سے حساب)"
+names:
+  - { value: "حساب الهند", kind: alternate, lang: ar }
+  - { value: "كتاب الحساب الهندي", kind: alternate, lang: ar }
+  - { value: "Algorismus", kind: latinized, lang: la }
+  - { value: "Algoritmi de numero Indorum", kind: alternate, lang: la }
+  - { value: "algorism", kind: alternate, lang: en }
+  - { value: "algorithm", kind: alternate, lang: en }
+  - { value: "algoritma", kind: alternate, lang: tr }
+summary:
+  ar: "طريقة الحساب بالأرقام الهندية التسعة والصفر في نظام عشري منزلي، يُجمع بها ويُطرح ويُضرب ويُقسم كتابةً بخطوات مرتّبة. ألّف فيها محمد بن موسى الخوارزمي في بغداد كتاباً دخلت به الأرقام الهندية والنظام العشري إلى العالم الإسلامي، وضاع أصله العربي وبقيت ترجمته اللاتينية التي تبدأ بعبارة «قال الخوارزمي» (Dixit Algorizmi)، فتعلّم منها الغرب الحساب، وصار اسمه «Algorismus» اسماً للأرقام نفسها، ومنه جاءت كلمة «algorithm» في لغات العالم."
+  en: "Reckoning with the nine Indian numerals and zero in a decimal place-value system, adding, subtracting, multiplying and dividing in writing by ordered steps. Muhammad ibn Musa al-Khwarizmi wrote a book on it in Baghdad through which the Indian numerals and the decimal system entered the Islamic world. Its Arabic original is lost, but a Latin translation survives that opens 'Dixit Algorizmi' ('al-Khwarizmi said'); from it the West learned arithmetic, his Latinized name 'Algorismus' became a name for the numerals themselves, and from it comes the world's word 'algorithm'."
+  ur: "نو ہندی ہندسوں اور صفر کے ساتھ اعشاری مقامی نظام میں حساب، جس میں جمع، تفریق، ضرب اور تقسیم مرتب قدموں کے ساتھ لکھ کر کی جاتی ہے۔ محمد بن موسیٰ خوارزمی نے بغداد میں اس پر ایک کتاب لکھی جس کے ذریعے ہندی ہندسے اور اعشاری نظام عالمِ اسلام میں داخل ہوئے۔ اس کا عربی اصل گم ہو گیا، مگر اس کا ایک لاطینی ترجمہ باقی ہے جو «Dixit Algorizmi» (یعنی «خوارزمی نے کہا») سے شروع ہوتا ہے؛ اسی سے مغرب نے حساب سیکھا، ان کا لاطینی نام «Algorismus» خود ہندسوں کا نام بن گیا، اور اسی سے دنیا کی زبانوں میں لفظ «algorithm» آیا۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas, words]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0813/0847"
+    calendar: julian
+    precision: year
+    status: historical
+    derived: true
+    note: "The book is lost in Arabic and its Latin translation carries no date of composition. The Cairo editors show from the Fihrist and the algebra's preface that al-Khwarizmi was a contemporary of al-Ma'mun, whose reign they give as 813 to 833 CE {cite:khwarizmi-jabr-cairo-1939 pp. 22–23}, and TDV shows from al-Tabari that he was still alive in 232 AH (847 CE) {cite:tdv-harizmi pp. 224–227}, so the range is that span of attested activity. A range cannot be written as a Hijri string, so only the EDTF range is given, and it is marked derived."
+    sources: [source/khwarizmi-jabr-cairo-1939, source/tdv-harizmi]
+  status_today: living
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "ينقل محققا طبعة القاهرة عن «الفهرست» أن الخوارزمي كان منقطعاً إلى خزانة الحكمة للمأمون، وأنه صاحب الزيجين المعروفين بالسند هند {cite:khwarizmi-jabr-cairo-1939 p. 22}. وتذكر موسوعة TDV أن زيج السند هند يقوم على كتاب «سدهانتا» لبراهماغوبتا، أو على كتاب بالاسم نفسه منبثق عنه، جاء به وفد هندي إلى بغداد نحو سنة 154 هـ (770–771م) في عهد المنصور {cite:tdv-harizmi pp. 224–227}؛ فكان الحساب الهندي حاضراً في بغداد قبل الخوارزمي في علم الفلك."
+    en: "The Cairo editors quote the Fihrist: al-Khwarizmi devoted himself to al-Ma'mun's treasury of wisdom and made the two astronomical tables known as the Sindhind {cite:khwarizmi-jabr-cairo-1939 p. 22}. TDV records that the Sindhind tables rest on Brahmagupta's Siddhanta, or on a work of the same name derived from it, which an Indian delegation brought to Baghdad around 154 AH (770–771 CE) under the caliph al-Mansur {cite:tdv-harizmi pp. 224–227}; Indian reckoning was thus already present in Baghdad's astronomy before al-Khwarizmi."
+    ur: "قاہرہ ایڈیشن کے محققین «الفہرست» سے نقل کرتے ہیں کہ خوارزمی مامون کے خزانۂ حکمت سے وابستہ رہے اور «سند ہند» کے نام سے مشہور دو فلکی زیجوں کے مصنف تھے {cite:khwarizmi-jabr-cairo-1939 p. 22}۔ ٹی ڈی وی لکھتا ہے کہ زیج سند ہند برہما گپت کی «سدھانت»، یا اسی نام کی اس سے ماخوذ کسی کتاب پر مبنی ہے، جسے ایک ہندی وفد خلیفہ منصور کے دور میں تقریباً 154ھ (770–771ء) میں بغداد لایا {cite:tdv-harizmi pp. 224–227}؛ یوں ہندی حساب خوارزمی سے پہلے ہی بغداد کے علمِ فلکیات میں موجود تھا۔"
+makers:
+  - person: person/al-khwarizmi
+    role: transmitter
+    place: place/baghdad
+    note: "Author of the book on Indian reckoning (Kitab al-Hisab al-Hindi), through which, TDV says, the Indian numerals and the decimal system entered the Islamic world; its Arabic original is lost and a twelfth-century Latin translation survives in Cambridge {cite:tdv-harizmi pp. 224–227}. The Cairo editors say the Indian method of reckoning, zero included, reached the West through this book {cite:khwarizmi-jabr-cairo-1939 p. 25}."
+    sources: [source/tdv-harizmi, source/khwarizmi-jabr-cairo-1939]
+attribution:
+  status: transmission
+  claim:
+    ar: "لم يخترع الخوارزمي الأرقام الهندية ولا النظام العشري، لكنه ألّف الكتاب الذي دخلت به إلى العالم الإسلامي، ثم وصلت بترجمته اللاتينية إلى الغرب، فصار اسمه اسماً لطريقة الحساب بها."
+    en: "Al-Khwarizmi did not invent the Indian numerals or the decimal system; he wrote the book through which they entered the Islamic world and, in its Latin translation, reached the West, so that his name became the name of the method of reckoning with them."
+    ur: "خوارزمی نے نہ ہندی ہندسے ایجاد کیے نہ اعشاری نظام؛ انہوں نے وہ کتاب لکھی جس کے ذریعے یہ عالمِ اسلام میں داخل ہوئے اور اس کے لاطینی ترجمے کے ذریعے مغرب تک پہنچے، یہاں تک کہ ان کا نام ان سے حساب کرنے کے طریقے کا نام بن گیا۔"
+  basis:
+    ar: "تقول موسوعة TDV إن الأرقام الهندية والنظام العشري دخلت العالم الإسلامي بكتاب الخوارزمي في الحساب الهندي، وإن أصله العربي مفقود، وإن ترجمة لاتينية له من القرن الثاني عشر وُجدت في مكتبة كامبريدج ونشرها بونكومپاني بعنوان «Algoritmi de numero indorum» (روما 1857)، ثم نشر كورت فوغل صورة المخطوطة نفسها (آلن 1963)، ثم نشر أندريه ألار نشرة نقدية مع ترجمة فرنسية (باريس 1992) {cite:tdv-harizmi pp. 224–227}. ويقول محققا طبعة القاهرة إن طريقة الحساب الهندية، ومعها استعمال الصفر، إنما وصلت إلى الغرب عن طريق كتاب الخوارزمي في الحساب {cite:khwarizmi-jabr-cairo-1939 p. 25}. أما الأرقام نفسها فهندية الأصل كما يدل اسمها، وكان الحساب الهندي قد دخل بغداد قبله مع «سدهانتا» براهماغوبتا {cite:tdv-harizmi pp. 224–227}؛ فعمل الخوارزمي هو النقل والتعليم، لا الاختراع."
+    en: "TDV says the Indian numerals and the decimal system entered the Islamic world through al-Khwarizmi's book on Indian reckoning; that its Arabic original is lost; that a twelfth-century Latin translation was found in Cambridge and published by B. Boncompagni as 'Algoritmi de numero indorum' (Rome 1857); that Kurt Vogel then published a facsimile of the same manuscript (Aalen 1963); and that André Allard published a critical edition with a French translation (Paris 1992) {cite:tdv-harizmi pp. 224–227}. The Cairo editors say the Indian method of reckoning, the use of zero included, reached the West through al-Khwarizmi's book of arithmetic {cite:khwarizmi-jabr-cairo-1939 p. 25}. The numerals themselves are Indian, as their name says, and Indian reckoning had come to Baghdad before him with Brahmagupta's Siddhanta {cite:tdv-harizmi pp. 224–227}; al-Khwarizmi's work was to transmit and teach, not to invent."
+    ur: "ٹی ڈی وی کہتا ہے کہ ہندی ہندسے اور اعشاری نظام خوارزمی کی ہندی حساب والی کتاب کے ذریعے عالمِ اسلام میں داخل ہوئے؛ کہ اس کا عربی اصل گم ہے؛ کہ اس کا بارہویں صدی کا ایک لاطینی ترجمہ کیمبرج کی لائبریری میں ملا اور بی۔ بونکومپانی نے اسے «Algoritmi de numero indorum» کے نام سے شائع کیا (روم 1857)؛ کہ پھر کرٹ فوگل نے اسی مخطوطے کا عکس شائع کیا (آلن 1963)؛ اور یہ کہ آندرے الار نے فرانسیسی ترجمے کے ساتھ اس کا تنقیدی ایڈیشن شائع کیا (پیرس 1992) {cite:tdv-harizmi pp. 224–227}۔ قاہرہ کے محققین کہتے ہیں کہ حساب کا ہندی طریقہ، صفر کے استعمال سمیت، خوارزمی کی کتابِ حساب کے ذریعے مغرب تک پہنچا {cite:khwarizmi-jabr-cairo-1939 p. 25}۔ خود ہندسے ہندی ہیں، جیسا کہ ان کا نام بتاتا ہے، اور ہندی حساب ان سے پہلے برہما گپت کی «سدھانت» کے ساتھ بغداد آ چکا تھا {cite:tdv-harizmi pp. 224–227}؛ خوارزمی کا کام منتقل کرنا اور سکھانا تھا، ایجاد کرنا نہیں۔"
+precursors:
+  - external:
+      ar: "الأرقام الهندية والنظام العشري المنزلي مع الصفر"
+      en: "The Indian numerals and the decimal place-value system with zero"
+      ur: "ہندی ہندسے اور صفر کے ساتھ اعشاری مقامی نظام"
+    note: "TDV: the Indian numerals and the decimal number system entered the Islamic world through al-Khwarizmi's book on Indian reckoning. The Cairo editors: the Indian method of reckoning, including the use of zero, reached the West through his book of arithmetic."
+    sources: [source/tdv-harizmi, source/khwarizmi-jabr-cairo-1939]
+  - external:
+      ar: "«سدهانتا» براهماغوبتا التي جاء بها وفد هندي إلى بغداد نحو 154 هـ"
+      en: "Brahmagupta's Siddhanta, brought to Baghdad by an Indian delegation around 154 AH"
+      ur: "برہما گپت کی «سدھانت»، جسے ایک ہندی وفد تقریباً 154ھ میں بغداد لایا"
+    note: "TDV: al-Khwarizmi's Sindhind tables rest on Brahmagupta's Siddhanta, or a work of the same name derived from it, brought to Baghdad by an Indian delegation around 154 AH (770–771 CE) under al-Mansur; the word Sindhind is a corruption of the Sanskrit siddhanta."
+    sources: [source/tdv-harizmi]
+dependents:
+  - external:
+      ar: "الترجمة اللاتينية في القرن الثاني عشر «Algoritmi de numero Indorum»"
+      en: "The twelfth-century Latin translation, 'Algoritmi de numero Indorum'"
+      ur: "بارہویں صدی کا لاطینی ترجمہ «Algoritmi de numero Indorum»"
+    note: "TDV: the Arabic original is lost; a twelfth-century Latin translation was found in the Cambridge library and published by B. Boncompagni as Algoritmi de numero indorum (Rome 1857), in facsimile by Kurt Vogel (Aalen 1963) and in a critical edition with French translation by André Allard, Le calcul indien (Paris 1992)."
+    sources: [source/tdv-harizmi]
+  - external:
+      ar: "«Carmen de Algorismo» لألكسندر دي فيلا دي (نحو 1220م)"
+      en: "Alexander de Villa Dei's Carmen de Algorismo (about 1220)"
+      ur: "الیگزینڈر دی ویلا دئی کی «Carmen de Algorismo» (تقریباً 1220ء)"
+    note: "The Cairo editors: the West learned arithmetic from al-Khwarizmi's book in Latin and from books built on it, among them the Carmen de Algorismo of Alexander de Villa Dei, about 1220 CE, printed by J. O. Halliwell in Rara Mathematica (London 1839); it rests on Muhammad ibn Musa's book of arithmetic and remained a reference for centuries."
+    sources: [source/khwarizmi-jabr-cairo-1939]
+  - external:
+      ar: "«Algorismus vulgaris» لجون أوف هاليفاكس (نحو 1250م)"
+      en: "John of Halifax's Algorismus vulgaris (about 1250)"
+      ur: "جان آف ہیلی فیکس کی «Algorismus vulgaris» (تقریباً 1250ء)"
+    note: "The Cairo editors: the Algorismus vulgaris of John of Halifax, about 1250 CE (ed. M. Curtze, Copenhagen 1897), like the Carmen de Algorismo, rests on Muhammad ibn Musa's book of arithmetic, and both remained references in teaching the science for centuries."
+    sources: [source/khwarizmi-jabr-cairo-1939]
+  - external:
+      ar: "اسم الأرقام اللاتيني «Algorismus» والكلمة الإسبانية «guarismo»"
+      en: "The Latin name 'Algorismus' for the numerals and the Spanish word 'guarismo'"
+      ur: "ہندسوں کا لاطینی نام «Algorismus» اور ہسپانوی لفظ «guarismo»"
+    note: "The Cairo editors: the numerals 1 to 9 and 0 were called Algorismus in Latin until the early eighteenth century, and the Spanish word for numerals or digits is guarismo. TDV: Latin sources give his name as Alkarismi, Algoritmi, Algorismi or Algorism."
+    sources: [source/khwarizmi-jabr-cairo-1939, source/tdv-harizmi]
+  - external:
+      ar: "كلمة «algorithm» بمعنى الطريقة المرتبة في حل المسائل"
+      en: "The word 'algorithm' for an ordered method of solving problems"
+      ur: "مسائل حل کرنے کے مرتب طریقے کے معنی میں لفظ «algorithm»"
+    note: "The Cairo editors: English 'algorithm', no doubt a corruption of al-Khwarizmi's name, means the set procedure for solving problems, and Chaucer uses 'augrim' for zero. TDV: al-Khwarizmi applied to algebra a method like the one he applied to Indian arithmetic, setting the operations in an ordered sequence, and this practice was later called 'algoritma' after him, an ordered technique of calculation."
+    sources: [source/khwarizmi-jabr-cairo-1939, source/tdv-harizmi]
+spread: []
+impact:
+  fields: [mathematics]
+  changed:
+    ar: "صار الحساب يُكتب بتسعة أرقام وصفر، تأخذ فيها كل خانة قيمتها من موضعها، فيُجمع ويُطرح ويُضرب ويُقسم بخطوات مرتبة؛ وبكتاب الخوارزمي دخلت هذه الطريقة العالم الإسلامي {cite:tdv-harizmi pp. 224–227} ثم الغرب، حيث بقي اسمه «Algorismus» اسماً للأرقام حتى أوائل القرن الثامن عشر {cite:khwarizmi-jabr-cairo-1939 p. 25}."
+    en: "Reckoning came to be written with nine numerals and zero, each place taking its value from its position, and added, subtracted, multiplied and divided by ordered steps. Through al-Khwarizmi's book this method entered the Islamic world {cite:tdv-harizmi pp. 224–227} and then the West, where his name 'Algorismus' stayed the name of the numerals until the early eighteenth century {cite:khwarizmi-jabr-cairo-1939 p. 25}."
+    ur: "حساب نو ہندسوں اور صفر سے لکھا جانے لگا، جن میں ہر خانہ اپنی قیمت اپنے مقام سے لیتا ہے، اور جمع، تفریق، ضرب اور تقسیم مرتب قدموں سے ہونے لگی۔ خوارزمی کی کتاب کے ذریعے یہ طریقہ عالمِ اسلام میں داخل ہوا {cite:tdv-harizmi pp. 224–227} اور پھر مغرب میں، جہاں ان کا نام «Algorismus» اٹھارہویں صدی کے آغاز تک ہندسوں کا نام رہا {cite:khwarizmi-jabr-cairo-1939 p. 25}۔"
+  history:
+    ar: "يقول محققا طبعة القاهرة إن الغربيين تعلموا الحساب من ترجمة كتاب الخوارزمي اللاتينية ومن كتب بُنيت عليه، ككتاب ألكسندر دي فيلا دي نحو 1220م وكتاب جون أوف هاليفاكس نحو 1250م، وبقي الكتابان مرجعاً في تعليم الحساب قروناً {cite:khwarizmi-jabr-cairo-1939 pp. 25–26}، حتى قالوا إن الخوارزمي «وضع علم الجبر وعلّمه وعلّم الحساب للناس أجمعين» {cite:khwarizmi-jabr-cairo-1939 p. 26}."
+    en: "The Cairo editors say Westerners learned arithmetic from the Latin translation of al-Khwarizmi's book and from books built on it, such as Alexander de Villa Dei's of about 1220 and John of Halifax's of about 1250, both of which remained references for teaching arithmetic for centuries {cite:khwarizmi-jabr-cairo-1939 pp. 25–26}; they conclude that al-Khwarizmi founded algebra and taught it, and taught arithmetic, to all people {cite:khwarizmi-jabr-cairo-1939 p. 26}."
+    ur: "قاہرہ کے محققین کہتے ہیں کہ اہلِ مغرب نے حساب خوارزمی کی کتاب کے لاطینی ترجمے سے اور اس پر بنی کتابوں سے سیکھا، جیسے تقریباً 1220ء کی الیگزینڈر دی ویلا دئی کی کتاب اور تقریباً 1250ء کی جان آف ہیلی فیکس کی کتاب، اور یہ دونوں صدیوں تک حساب کی تعلیم میں مرجع رہیں {cite:khwarizmi-jabr-cairo-1939 pp. 25–26}؛ وہ نتیجہ نکالتے ہیں کہ خوارزمی نے الجبرا کی بنیاد رکھی اور اسے سکھایا، اور تمام لوگوں کو حساب سکھایا {cite:khwarizmi-jabr-cairo-1939 p. 26}۔"
+  significance: 5
+  why: "The book through which the Indian numerals, zero and the decimal place-value system entered the Islamic world and, in Latin, the West; the numerals the world writes today came this way, and al-Khwarizmi's Latinized name became the words algorism and algorithm."
+described_in: [work/kitab-al-hisab-al-khwarizmi]
+examples: []
+sites: [place/baghdad]
+concepts: []
+today:
+  form:
+    ar: "تُكتب الأعداد اليوم في أغلب العالم بالأرقام العشرية العشرة، ويُحسب بها بالخطوات المرتبة نفسها. وأقدم شاهد باقٍ على كتاب الخوارزمي هو ترجمته اللاتينية في كامبريدج، وهي منشورة في طبعات بونكومپاني (1857) وفوغل (1963) وألار (1992) {cite:tdv-harizmi pp. 224–227}."
+    en: "Most of the world today writes numbers with the ten decimal numerals and calculates with them by the same ordered steps. The oldest surviving witness to al-Khwarizmi's book is its Latin translation in Cambridge, in print in the editions of Boncompagni (1857), Vogel (1963) and Allard (1992) {cite:tdv-harizmi pp. 224–227}."
+    ur: "آج دنیا کا بیشتر حصہ اعداد دس اعشاری ہندسوں سے لکھتا ہے اور انہی مرتب قدموں سے ان کے ساتھ حساب کرتا ہے۔ خوارزمی کی کتاب کا سب سے پرانا باقی گواہ کیمبرج میں اس کا لاطینی ترجمہ ہے، جو بونکومپانی (1857)، فوگل (1963) اور الار (1992) کے ایڈیشنوں میں چھپا ہوا ہے {cite:tdv-harizmi pp. 224–227}۔"
+  descendants:
+    ar: "كلمة «algorithm»، أي الطريقة المرتبة في حل المسائل، تحريف لاسم الخوارزمي {cite:khwarizmi-jabr-cairo-1939 p. 25}، وهي اليوم اسم كل خطوات مرتبة يتبعها الحاسوب. والإسبانية تسمي الرقم «guarismo» من اسمه أيضاً {cite:khwarizmi-jabr-cairo-1939 p. 25}."
+    en: "The word 'algorithm', an ordered method of solving problems, is a corruption of al-Khwarizmi's name {cite:khwarizmi-jabr-cairo-1939 p. 25}, and today it names every ordered set of steps a computer follows. Spanish also calls a digit 'guarismo' after him {cite:khwarizmi-jabr-cairo-1939 p. 25}."
+    ur: "لفظ «algorithm»، یعنی مسائل حل کرنے کا مرتب طریقہ، خوارزمی کے نام کی بگڑی ہوئی صورت ہے {cite:khwarizmi-jabr-cairo-1939 p. 25}، اور آج یہ ہر اس مرتب سلسلۂ قدم کا نام ہے جس پر کمپیوٹر چلتا ہے۔ ہسپانوی زبان بھی ہندسے کو انہی کے نام سے «guarismo» کہتی ہے {cite:khwarizmi-jabr-cairo-1939 p. 25}۔"
+media:
+  image: media/dixit-algorizmi-cambridge
+  diagram: media/diagram-algorism
+kids:
+  ar: "قبل نحو ألف ومئتي سنة كتب عالم في بغداد اسمه الخوارزمي كتاباً يعلّم الناس الحساب بتسعة أرقام جاءت من الهند، ومعها الصفر. بهذه الأرقام يكفي أن تغيّر مكان الرقم لتتغير قيمته: فالواحد قد يكون واحداً أو عشرة أو مئة! تُرجم كتابه إلى اللاتينية، فتعلّم منه الناس في أوروبا الحساب، وصار اسمه كلمة نستعملها اليوم: «algorithm»، أي الخطوات المرتبة التي يتبعها الحاسوب."
+  en: "About twelve hundred years ago a scholar in Baghdad named al-Khwarizmi wrote a book teaching people to calculate with nine numerals that came from India, together with zero. With these numerals you only need to move a digit to change its value: a one can mean one, ten or a hundred! His book was translated into Latin, people in Europe learned to calculate from it, and his name became a word we use today: 'algorithm', the ordered steps a computer follows."
+  ur: "تقریباً بارہ سو سال پہلے بغداد میں خوارزمی نام کے ایک عالم نے ایک کتاب لکھی جو لوگوں کو ہندوستان سے آئے نو ہندسوں اور صفر سے حساب کرنا سکھاتی تھی۔ ان ہندسوں میں کسی ہندسے کی جگہ بدلنے سے ہی اس کی قیمت بدل جاتی ہے: ایک کا مطلب ایک، دس یا سو ہو سکتا ہے! ان کی کتاب کا لاطینی میں ترجمہ ہوا، یورپ کے لوگوں نے اس سے حساب سیکھا، اور ان کا نام ایک لفظ بن گیا جو ہم آج استعمال کرتے ہیں: «algorithm»، یعنی وہ مرتب قدم جن پر کمپیوٹر چلتا ہے۔"
+sources:
+  - source/tdv-harizmi
+  - source/khwarizmi-jabr-cairo-1939
+  - source/muqaddima-ibn-khaldun
+  - source/wikimedia-commons
+status:
+  review: published
+  completeness: 3
+  generated_by: "Copilot SDK in VS Code"
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b10"
+  source: "TDV İslâm Ansiklopedisi, HÂRİZMÎ, Muhammed b. Mûsâ (İhsan Fazlıoğlu, vol. 16, 1997, pp. 224–227), web edition; al-Khwarizmi, Kitab al-Jabr wal-Muqabala, ed. Mosharafa and Ahmad (Cairo 1939), scan pp. 22–26 (editors' introduction); Ibn Khaldun, al-Muqaddima pp. 494–495 (the craft of arithmetic)"

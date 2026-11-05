@@ -1084,13 +1084,17 @@ candidates:
       - "source/tdv-cebir pp. 195–201"
   - id: algorithm-word
     label: "The word algorithm and the Latin form of al-Khwarizmi's name"
-    state: "[~]"
+    state: "[x]"
     batch: 2
     domain: mathematics
     era: abbasid-golden
     from: founder-supplied-lead
-    records: [person/al-khwarizmi]
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.3a"]
+    records: ["invention/algorism", "person/al-khwarizmi", "work/kitab-al-hisab-al-khwarizmi", "source/tdv-harizmi", "media/dixit-algorizmi-cambridge", "media/diagram-algorism"]
+    lead_sources:
+      - "founder-approved operative brief (2026-11-04) §6.3a"
+      - "source/tdv-harizmi pp. 224–227"
+      - "source/khwarizmi-jabr-cairo-1939 scan pp. 22–30"
+      - "source/muqaddima-ibn-khaldun pp. 494–495"
   - id: binomial-theorem-triangle
     label: "The binomial theorem and triangle associated with al-Karaji and al-Samaw'al"
     state: "[~]"

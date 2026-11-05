@@ -1,0 +1,35 @@
+id: media/diagram-algorism
+class: media
+kind: illustration
+label:
+  ar: "رسم: ما بُني عليه الحساب الهندي عند الخوارزمي وما بُني عليه"
+  en: "Diagram: what al-Khwarizmi's algorism was built on and what was built on it"
+  ur: "خاکہ: خوارزمی کا ہندی حساب کس پر بنا اور اس پر کیا بنا"
+summary:
+  ar: "رسم تخطيطي بسيط يرسمه الموقع وقت البناء من بيانات السجل: في الوسط الحساب الهندي والخوارزمي، وعن جانب ما سبقه من الأرقام الهندية و«سدهانتا» براهماغوبتا، وعن الجانب الآخر ما جاء بعده من الترجمة اللاتينية وكتب الألغوريسموس والكلمات المشتقة من اسمه."
+  en: "A simple schematic drawn by the site at build time from the record's data: algorism and al-Khwarizmi in the middle, what came before (the Indian numerals and Brahmagupta's Siddhanta) on one side, and what followed (the Latin translation, the algorism books and the words drawn from his name) on the other."
+  ur: "سائٹ کی تعمیر کے وقت ریکارڈ کے ڈیٹا سے بننے والا ایک سادہ خاکہ: درمیان میں ہندی حساب اور خوارزمی، ایک طرف اس سے پہلے کی چیزیں (ہندی ہندسے اور برہما گپت کی «سدھانت»)، اور دوسری طرف بعد میں آنے والی چیزیں (لاطینی ترجمہ، الگورزم کی کتابیں اور ان کے نام سے بنے الفاظ)۔"
+license: CC0
+creator: "islam.museum"
+depicts:
+- invention/algorism
+alt:
+  ar: "ثلاثة أعمدة بينها سهمان. العمود الأول بعنوان: بُني على، وفيه مربعان بإطار متقطع: الأرقام الهندية والنظام العشري المنزلي مع الصفر، و«سدهانتا» براهماغوبتا التي جاء بها وفد هندي إلى بغداد نحو 154 هـ. في الوسط مربع بإطار سميك: الحساب الهندي بالأرقام العشرية، الخوارزمي. العمود الأخير بعنوان: بُني عليه، وفيه خمسة مربعات: الترجمة اللاتينية في القرن الثاني عشر، وكتاب ألكسندر دي فيلا دي، وكتاب جون أوف هاليفاكس، واسم الأرقام اللاتيني Algorismus والكلمة الإسبانية guarismo، وكلمة algorithm."
+  en: "Three columns joined by two arrows. The first column, headed Built on, holds two dashed boxes: the Indian numerals and the decimal place-value system with zero; Brahmagupta's Siddhanta, brought to Baghdad by an Indian delegation around 154 AH. In the middle a box with a thick border: Algorism, al-Khwarizmi. The last column, headed Built on it, holds five boxes: the twelfth-century Latin translation; Alexander de Villa Dei's Carmen de Algorismo; John of Halifax's Algorismus vulgaris; the Latin name Algorismus for the numerals and the Spanish word guarismo; the word algorithm."
+  ur: "تین کالم جنہیں دو تیر جوڑتے ہیں۔ پہلا کالم، جس کا عنوان ہے: جس پر بنا، اس میں ٹوٹی لکیر والے دو خانے ہیں: ہندی ہندسے اور صفر کے ساتھ اعشاری مقامی نظام؛ برہما گپت کی «سدھانت»، جسے ایک ہندی وفد تقریباً 154ھ میں بغداد لایا۔ درمیان میں موٹے کنارے والا خانہ: الگورزم، خوارزمی۔ آخری کالم، جس کا عنوان ہے: جو اس پر بنا، اس میں پانچ خانے ہیں: بارہویں صدی کا لاطینی ترجمہ؛ الیگزینڈر دی ویلا دئی کی Carmen de Algorismo؛ جان آف ہیلی فیکس کی Algorismus vulgaris؛ ہندسوں کا لاطینی نام Algorismus اور ہسپانوی لفظ guarismo؛ لفظ algorithm۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time from the invention's precursors and dependents)"
+  version: "1"
+  date: "2026-11-08"
+sources:
+- source/tdv-harizmi
+- source/khwarizmi-jabr-cairo-1939
+status:
+  review: published
+  completeness: 2
+  generated_by: "Copilot SDK in VS Code"
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b10"
+  source: "TDV İslâm Ansiklopedisi, HÂRİZMÎ, Muhammed b. Mûsâ, vol. 16, pp. 224–227; al-Khwarizmi, Kitab al-Jabr wal-Muqabala (Cairo 1939) scan pp. 22–26"
