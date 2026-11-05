@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Verse-text repair, sweep batch 5: 25 Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text (exact matches only).
 - Passage 2:223 continues (vol. 4, pp. 410-414): the reports of Umm Salama, Jabir, 'Umar and the Himyar visitors on the occasion of the verse, and the start of al-Tabari's own choice on the meaning of the word for 'however', in Arabic, English and Urdu.
 - Verse-text repair, sweep batch 4: 25 Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text (exact matches only).
 - Passage 2:223 continues (vol. 4, pp. 405-410): the reports of Ibn 'Umar, Abu al-Darda', the withdrawal view, and the reports on the occasion of the verse (Mujahid from Ibn 'Abbas, Jabir, Umm Salama), with the editor's gradings and chain notes, in Arabic, English and Urdu.
