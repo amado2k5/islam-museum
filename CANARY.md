@@ -26,6 +26,10 @@ open a new block on top with the new version and today's date.
 
 - The open-data guide now documents all 23 schema classes and the invention API endpoints.
 
+### Fixed
+
+- The Connections Explorer loads again: the site's content security policy now allows pages to fetch from the museum's API host (api.islam.museum), where the explorer's graph-data requests are redirected — the policy previously blocked those loads, so every entry failed with a "could not load" message.
+
 ---
 
 ## v1.1.0 — 2026-11-03
