@@ -30,6 +30,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:167 gains the rest of al-Tabari's commentary (volume 3, pp. 293-299): the return wished for, the two views on how deeds become regrets and his choice, and that they do not leave the Fire, attributed, in Arabic, English and Urdu.
 - Library note on al-Tabari (Shakir) records a page-header audit of volumes 2 and 3: the only out-of-order scan pages are volume 3 markers 279-282 (printed 281, 282, 279, 280); every other marker equals its printed page, so existing citations stand.
 - Passages 2:166 and 2:167 gain al-Tabari commentary (volume 3, pp. 287-293): who the followed and the followers are, the meanings given to the "ties" that are cut and his choice, and the opening of 2:167, attributed, in Arabic, English and Urdu.
 - Passage 2:165 gains al-Tabari commentary (volume 3, printed pp. 279-286): the two views on the "equals", the answer on "as they love God", and the readers' differences on "if those who did wrong could see" with his chosen reading, in Arabic, English and Urdu. Passage 2:164 loses a note wrongly saying printed pp. 279-280 were missing: the scan holds them out of order (as scan pages 281-282) and they are now read. Note for later work: in this volume's scan, scan page numbers and printed numbers can differ; citations use the printed number.
