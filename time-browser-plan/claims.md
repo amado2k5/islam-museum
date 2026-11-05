@@ -714,3 +714,24 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-04 | person/masud-ibn-muhammad-saljuqi | copilot | claimed
 2026-11-04 | person/muhammad-i-jalabi | copilot | claimed
 2026-11-04 | person/muhammad-khwarazmshah | copilot | claimed
+
+2026-11-04 | person/muizz-al-dawla | copilot | claimed
+2026-11-04 | person/murad-i-uthmani | copilot | claimed
+2026-11-04 | person/murad-ii-uthmani | copilot | claimed
+2026-11-04 | person/genghis-khan | copilot | claimed
+2026-11-04 | person/nizam-al-mulk | copilot | claimed
+2026-11-04 | person/sanjar | copilot | claimed
+2026-11-04 | person/sayf-al-dawla | copilot | claimed
+2026-11-04 | person/sayf-al-din-ghazi-ii | copilot | claimed
+2026-11-04 | person/selim-i-ottoman | copilot | claimed
+2026-11-04 | person/selim-ii-uthmani | copilot | claimed
+2026-11-04 | person/sibt-ibn-al-jawzi | copilot | claimed
+2026-11-04 | person/tughril-iii | copilot | claimed
+2026-11-04 | person/yusuf-ibn-tashfin | copilot | claimed
+2026-11-04 | person/fakhr-al-din-ibn-al-shaykh | copilot | claimed
+2026-11-04 | person/hasan-ibn-ali | copilot | claimed
+2026-11-04 | polity/rashidun-caliphate | copilot | claimed
+2026-11-04 | polity/rum-seljuk-sultanate | copilot | claimed
+2026-11-04 | polity/timurid-empire | copilot | claimed
+2026-11-04 | polity/aksumite-kingdom | copilot | claimed
+2026-11-04 | polity/bahri-dynasty | copilot | claimed

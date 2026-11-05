@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Fifth Explorer batch, final twenty stories**: fifteen more people and five dynasties complete forty new stories with 215 chronological stops. Arabic, English and Urdu subject metadata is complete; 170 existing events and 65 screened native scene variants are reused, with event-language and colour-background fallbacks retained explicitly.
 - **Fifth Explorer batch, first twenty stories**: twenty more people gain curated chronological journeys and missing English/Urdu subject metadata, restated from existing cited Arabic records. Existing facts, dates, relations and translations remain unchanged; scene assets and runtime code are not modified.
 - **Fourth Explorer batch completion**: forty completion records now document 21 people and 19 dynasties, 200 chronological stops and 120 verified subject-language routes in #3493. Citation and local test results are recorded with their exact snapshots; the full production build remains explicitly deferred.
 - **Fourth Explorer batch checked locally**: all 120 language routes and 181 cited records pass local checks, using 80 existing screened scene variants. Subject metadata is translated; existing event-language and colour-background fallbacks remain explicit. A full production build is deferred under the founder's progress-first direction.
