@@ -145,6 +145,11 @@ Audio harvest (`scripts/harvest/audio/`) also needs `ffmpeg`, `mlx-whisper`, the
 `.venv-audio` environment (Voxtral, Qwen3-ASR; setup in
 `docs/agents/audio-video-harvest.md` §3.1) and, optionally, the Swift Apple speech
 tool; it is equally outside the site.
+Borrow-only books (Internet Archive, Open Library) are read in the shared
+browser, one request at a time and never through the archive.org API: the
+founder signs in or solves a CAPTCHA when asked, and the pages are OCR'd from
+screenshots on the Mac (Apple Vision) into the harvest workspace, never into git
+(`docs/agents/mining-sources.md` §1b).
 
 ## 8. Troubleshooting
 

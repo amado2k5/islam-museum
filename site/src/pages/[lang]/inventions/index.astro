@@ -1,0 +1,75 @@
+---
+// The Inventions Browser's home: the domains and the A-to-Z list of every invention record in the language. Counts are
+// read from the graph at build time and appear on this page only; no shared layout carries a number (docs/site/README.md).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { href, labelOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { INVENTION_DOMAINS, inventionDomainLabel, inventionNodes, hasInventionArticle, inventionMakers } from "../../../lib/inventions";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const I = T.inventions;
+const label = (n: { label: any; slug: string }) => labelOf(n as any, lang);
+const collator = new Intl.Collator(lang, { sensitivity: "base" });
+const byLabel = (a: any, b: any) => collator.compare(label(a), label(b)) || a.id.localeCompare(b.id);
+const inDomain = (id: string) => inventionNodes.filter((n) => n.data.domain === id).sort(byLabel);
+const everyInvention = [...inventionNodes].sort(byLabel);
+const searchText = (n: any) => [n.label.ar, n.label.en, n.label.ur].filter(Boolean).join(" ");
+const count = (n: number) => num(n, lang);
+const status = fmt(I.status, { inventions: count(inventionNodes.length), articles: count(inventionNodes.filter(hasInventionArticle).length), makers: count(inventionMakers.length) });
+---
+<BaseLayout lang={lang} title={I.title} description={I.lede} path={`/${lang}/inventions/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{I.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {I.title}</nav>
+    <h1>{I.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{I.lede}</p>
+    <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+
+    <section aria-labelledby="domains-title" style="margin-top:2rem">
+      <h2 id="domains-title">{I.domains_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{I.domains_note}</p>
+      <ul class="grid-cards" role="list" style="margin:1rem 0 2rem">
+        {INVENTION_DOMAINS.map((d) => {
+          const xs = inDomain(d);
+          return (
+            <li>
+              <div class="card">
+                <h3 class="card-title">{inventionDomainLabel(d, lang)}</h3>
+                <p class="ui" style="margin:4px 0 8px">{I.count_inventions.replace("{n}", count(xs.length))}</p>
+                {xs.length > 0 ? (
+                  <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+                    {xs.map((x) => <li><a class="chip" style="background:var(--bg)" href={href(lang, x.id)}>{label(x)}</a></li>)}
+                  </ul>
+                ) : <p class="ui muted" style="margin:0">{I.no_domain}</p>}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+
+    <section aria-labelledby="az-title" style="margin-top:2rem">
+      <h2 id="az-title">{I.az_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{I.az_note}</p>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="invention-filter">{I.filter_label}</label>
+        <input id="invention-filter" type="search" data-invention-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <ul role="list" data-invention-list style="list-style:none;padding:0;margin:0">
+        {everyInvention.map((x) => (
+          <li data-invention-row data-search={searchText(x)} style="display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;padding:10px 0;border-bottom:1px solid var(--line)">
+            <a href={href(lang, x.id)} style="font-weight:600">{label(x)}</a>
+            <span class="chip">{inventionDomainLabel(x.data.domain, lang)}</span>
+            {x.data.kind && <span class="ui muted">{I.kinds?.[x.data.kind] ?? x.data.kind}</span>}
+          </li>
+        ))}
+      </ul>
+      <p class="panel ui" data-invention-none hidden>{I.filter_none}</p>
+      {everyInvention.length === 0 && <p class="panel ui">{I.az_empty}</p>}
+    </section>
+  </div>
+  <script src="../../../scripts/inventions-filter.ts"></script>
+</BaseLayout>

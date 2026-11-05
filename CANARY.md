@@ -17,6 +17,8 @@ open a new block on top with the new version and today's date.
 
 ### Added
 
+- The Inventions Browser opens at /ar/inventions/, /en/inventions/ and /ur/inventions/ with its first sourced record, Ibn al-Nafis's account of the pulmonary circulation: the domains, an A-to-Z list with a name filter, and an Explore menu entry and landing card. The invention page shows the Wellcome manuscript image with its credit, quick facts, the makers, the claim and its basis, what came before and after, and a diagram drawn at build time.
+- Guidance for every agent on borrow-only books: they are borrowed and read in the browser one request at a time, the founder signs in when asked, and pages are OCR'd from screenshots outside git.
 - The machine-readable foundation for the Muslim Inventions Browser: a new invention record class and sourced links to related people, places, works, objects and concepts.
 - Static API exports for invention records and their precursor and dependent chains.
 - The research queue now contains 506 provisional leads (467 active and 39 cited exclusions), including three page-anchored claims from the *1001 Inventions* Home chapter; an early-engineering screen leaves al-Muradi's gearing, the saqiya improvement and Sistan windmill claims unresolved, while concept screens excluded twelve non-invention signals, generic Ibn Taymiyya, Kamal Khujandi and Ulubatlı Hasan census signals and the Alpujarras Rebellion event hit were closed as unrelated, and the generic chess-transmission, kohl, miswak and turban leads were closed with cited reasons. No invention records have been published.

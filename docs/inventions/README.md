@@ -74,6 +74,7 @@ Standing authorization and the initial lane decisions are recorded in [`decision
 - **Media:** each eventual record needs a hero image. Use only whitelisted sources/licences, no figurative depiction of prophets or Companions, and no AI portraits. No record is counted complete if its required image or diagram is absent.
 - **Overlapping lanes:** reuse existing person, work, object, concept and source IDs; touch shared records only with additive, sourced blocks and preserve concurrent work.
 - **Harvest storage:** all downloads and OCR stay in `/Volumes/exmicroSD/islam-museum-harvest/inventions/`, outside Git. An openly served EPUB of *1001 Inventions* and its search index, and the registered CC BY 4.0 Mahgoub et al. paper, are stored there; the EPUB's publication year is not established, and the separate IA item labeled 2007 was unavailable to borrow. CNN, National Geographic and History Hit access outcomes are recorded in [`research.md`](./research.md); no source files or OCR are in Git.
+- **Borrow-only books:** a restricted Internet Archive or Open Library book is borrowed and read in the browser, one request at a time, never through the archive.org API; the founder signs in or solves a CAPTCHA when asked, and the pages are OCR'd from screenshots on the Mac (Apple Vision) into the harvest folder above. Full rules: [`docs/agents/mining-sources.md`](../agents/mining-sources.md) section 1b.
 - **Deployment:** never deploy. Every merged phase report states that merged is not live and whether a Worker/workflow file changed.
 
 ## 10. Done means

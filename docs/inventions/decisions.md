@@ -386,3 +386,13 @@ Scope of the sign-off is limited to the exact class, enums, predicates, existing
 **Decision:** Exclude this queue signal only. The linked event account describes a political and military revolt and its planning, but names no particular technical or cultural invention, improvement, or transmission. This does not claim that the revolt had no military innovation; it closes only this generic event hit, which made no such claim.
 
 **Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum event record changed.
+
+## D-038 — Launch the browser with one invention (5 November 2026)
+
+**Question:** Should the browser wait for a full first batch, or ship as soon as one record meets every gate?
+
+**Rule applied:** The founder asked to ship to production as soon as possible; a record is published once it cites defined sources (`docs/agents/publication-standard.md`), and the browser shows an "in the making" badge and build-time counts.
+
+**Decision:** Ship the browser home, the invention page sections and the Explore entry with one record, `invention/pulmonary-circulation`, sourced from West 2008 (Journal of Applied Physiology) and the Wellcome WMS Or. 51 catalogue record. The external precursor and dependent labels may carry Urdu (`ur`) alongside the required Arabic and English. Later records follow the batch queue.
+
+**Touches:** `data/invention/`, `content/{ar,en,ur}/invention/`, `site/src/pages/[lang]/inventions/`, `site/src/components/Invention*.astro`, `site/src/lib/inventions.ts`, `i18n/*.yaml`, `scripts/gen-schema.ts`, `scripts/check-site.ts`.

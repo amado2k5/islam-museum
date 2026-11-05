@@ -96,6 +96,15 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     if (!badge || !html.includes(badge)) errors.push("ar/jobs/ does not render its in-the-making badge");
     if (!html.includes("data-job-row")) errors.push("ar/jobs/ lists no job record (no data-job-row)");
   }
+  // the Inventions Browser home: it carries its in-the-making badge and at least one invention row
+  const inventionsHome = p("dist", "ar", "inventions", "index.html");
+  if (!existsSync(inventionsHome)) errors.push("missing page: ar/inventions/index.html");
+  else {
+    const html = readFileSync(inventionsHome, "utf8");
+    const badge = parse(readFileSync(p("i18n", "ar.yaml"), "utf8")).inventions?.badge;
+    if (!badge || !html.includes(badge)) errors.push("ar/inventions/ does not render its in-the-making badge");
+    if (!html.includes("data-invention-row")) errors.push("ar/inventions/ lists no invention record (no data-invention-row)");
+  }
   // audit of 5 November 2026: each exhibit appears once on the exhibits index, entity pages show no review state or
   // completeness score, every language has its embed index and its own not-found page
   for (const lang of ["ar", "en", "ur"]) {

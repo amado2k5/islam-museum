@@ -243,7 +243,7 @@ const inventionChainItem = {
       properties: { invention: entityRef, note: str, sources: sourcesReq } },
     { type: "object", additionalProperties: false, required: ["external", "note", "sources"],
       properties: {
-        external: { type: "object", additionalProperties: false, required: ["ar", "en"], properties: { ar: str, en: str } },
+        external: { type: "object", additionalProperties: false, required: ["ar", "en"], properties: { ar: str, en: str, ur: str } },
         note: str, sources: sourcesReq,
       } },
   ],
