@@ -1,0 +1,36 @@
+id: media/diagram-algebra
+class: media
+kind: illustration
+label:
+  ar: "رسم: ما بُني عليه علم الجبر عند الخوارزمي وما بُني عليه"
+  en: "Diagram: what al-Khwarizmi's algebra was built on and what was built on it"
+  ur: "خاکہ: خوارزمی کا الجبرا کس پر بنا اور اس پر کیا بنا"
+summary:
+  ar: "رسم تخطيطي بسيط يرسمه الموقع وقت البناء من بيانات السجل: في الوسط علم الجبر والمقابلة والخوارزمي، وعن جانب ما سبقه عند المصريين والبابليين واليونان والهنود، وعن الجانب الآخر ما جاء بعده كما تذكره المصادر."
+  en: "A simple schematic drawn by the site at build time from the record's data: algebra and al-Khwarizmi in the middle, what came before among the Egyptians, Babylonians, Greeks and Indians on one side, and what followed, as the sources name it, on the other."
+  ur: "سائٹ کی تعمیر کے وقت ریکارڈ کے ڈیٹا سے بننے والا ایک سادہ خاکہ: درمیان میں الجبر والمقابلہ اور خوارزمی، ایک طرف مصریوں، بابلیوں، یونانیوں اور ہندیوں کے ہاں اس سے پہلے کی چیزیں، اور دوسری طرف مآخذ کے مطابق اس کے بعد آنے والی چیزیں۔"
+license: CC0
+creator: "islam.museum"
+depicts:
+- invention/algebra
+alt:
+  ar: "ثلاثة أعمدة بينها سهمان. العمود الأول بعنوان: بُني على، وفيه أربعة مربعات بإطار متقطع: معادلات الدرجة الأولى في بردية أحمس المصرية، وجداول المربعات والمكعبات البابلية، والحلول الهندسية والتحليلية عند اليونان، وقواعد الهنود في حل المعادلات. في الوسط مربع بإطار سميك: علم الجبر والمقابلة، الخوارزمي. العمود الأخير بعنوان: بُني عليه، وفيه ستة مربعات: شروح كتاب الخوارزمي، وكتاب أبي كامل، وجبر الكرجي والسموأل، وتصنيف عمر الخيام لمعادلات الدرجة الثالثة، وشروح أهل الأندلس، والترجمة اللاتينية وكلمة algebra."
+  en: "Three columns joined by two arrows. The first column, headed Built on, holds four dashed boxes: first-degree equations in the Egyptian Ahmes papyrus; Babylonian tables of squares and cubes; Greek geometric and analytic solutions; Indian rules for solving equations. In the middle a box with a thick border: Algebra, al-Khwarizmi. The last column, headed Built on it, holds six boxes: commentaries on al-Khwarizmi's book; Abu Kamil's book; al-Karaji's and al-Samaw'al's algebra; Umar al-Khayyam's classification of cubic equations; the Andalusian commentaries; the Latin translation and the word algebra."
+  ur: "تین کالم جنہیں دو تیر جوڑتے ہیں۔ پہلا کالم، جس کا عنوان ہے: جس پر بنا، اس میں ٹوٹی لکیر والے چار خانے ہیں: مصری احمس پیپرس میں یک درجی مساواتیں؛ بابلی مربعوں اور مکعبوں کے جدول؛ یونانیوں کے ہندسی اور تحلیلی حل؛ مساوات حل کرنے کے ہندی قاعدے۔ درمیان میں موٹے کنارے والا خانہ: الجبر والمقابلہ، خوارزمی۔ آخری کالم، جس کا عنوان ہے: جو اس پر بنا، اس میں چھ خانے ہیں: خوارزمی کی کتاب کی شرحیں؛ ابو کامل کی کتاب؛ کرجی اور سموأل کا الجبرا؛ عمر خیام کی سہ درجی مساواتوں کی درجہ بندی؛ اہلِ اندلس کی شرحیں؛ لاطینی ترجمہ اور لفظ الجبرا۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time from the invention's precursors and dependents)"
+  version: "1"
+  date: "2026-11-06"
+sources:
+- source/khwarizmi-jabr-cairo-1939
+- source/muqaddima-ibn-khaldun
+- source/tdv-cebir
+status:
+  review: published
+  completeness: 2
+  generated_by: "Copilot SDK in VS Code"
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b07"
+  source: "al-Khwarizmi, Kitab al-Jabr wal-Muqabala (Cairo 1939) scan pp. 13–26; Ibn Khaldun, al-Muqaddima pp. 495–496; TDV İslâm Ansiklopedisi, CEBİR"

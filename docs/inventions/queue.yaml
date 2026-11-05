@@ -1070,13 +1070,18 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: algebra-as-discipline
     label: "Algebra as a discipline in al-Khwarizmi's work"
-    state: "[~]"
+    state: "[x]"
     batch: 2
     domain: mathematics
     era: abbasid-golden
     from: founder-supplied-lead
-    records: [person/al-khwarizmi, concept/algebra]
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.3a", "founder-approved operative brief (2026-11-04) §6.4"]
+    records: ["invention/algebra", "person/al-khwarizmi", "concept/algebra", "source/tdv-cebir", "media/bodleian-huntington-214-algebra", "media/diagram-algebra"]
+    lead_sources:
+      - "founder-approved operative brief (2026-11-04) §6.3a"
+      - "founder-approved operative brief (2026-11-04) §6.4"
+      - "source/khwarizmi-jabr-cairo-1939 scan pp. 13–43, 51–53, 83"
+      - "source/muqaddima-ibn-khaldun pp. 495–496"
+      - "source/tdv-cebir pp. 195–201"
   - id: algorithm-word
     label: "The word algorithm and the Latin form of al-Khwarizmi's name"
     state: "[~]"

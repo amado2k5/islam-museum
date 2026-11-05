@@ -6,6 +6,17 @@ names:
   - { kind: full, lang: ar, value: "أبو عبد الله محمد بن موسى الخوارزمي" }
 roles: [mathematician, astronomer]
 traditions: [sunni]
+faith:
+  - value: sunni
+    basis: self-identified
+    note: "In the preface to his algebra he praises God, asks blessings on the Prophet Muhammad and on all the prophets and messengers, and names al-Ma'mun the imam and commander of the faithful (Cairo 1939 ed., scan pp. 29–30). This shows him a Muslim in his own words; no source read names his school, so he is recorded within the museum's Sunni frame (docs/scope.md)."
+    sources: [source/khwarizmi-jabr-cairo-1939]
+inventions:
+  - invention: invention/algebra
+    role: inventor
+    place: place/baghdad
+    note: "Wrote al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala under al-Ma'mun, which set out the three kinds of term, the six types and their proofs; Ibn Khaldun names him the first to write in the art."
+    sources: [source/khwarizmi-jabr-cairo-1939, source/muqaddima-ibn-khaldun, source/tdv-cebir]
 born: { edtf: "0780", hijri: "0164", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "0850", hijri: "0235", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 themes: [mathematics, astronomy-and-timekeeping, geography-and-cartography]
@@ -30,7 +41,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium); section on the Cairo 1939 introduction added by Claude Code (OCR-harvest worker J)"
   model: "SWE-2 Medium; claude-opus-5-5"
   run: "prose-fill-persons-batch34; ocr-harvest-2026-11-04"
-sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-jabr-rosen-1831]
+sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-jabr-rosen-1831, source/muqaddima-ibn-khaldun, source/tdv-cebir]
 education:
   did_you_know:
     ar: "من كتاب الخوارزمي في الجبر جاءت كلمة algebra، ومن اسمه اللاتيني Algoritmi جاءت كلمة algorithm."
