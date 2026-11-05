@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:177 and 2:178 gain al-Tabari commentary (volume 3, pp. 356-361): the close of 2:177 ("those are the ones who were true") and, for 2:178, what "prescribed" means, the view that qisas offsets blood-money, and the interpreters' differing reports on its occasion, attributed, in Arabic, English and Urdu.
 - Passage 2:177 gains more of al-Tabari's commentary (volume 3, pp. 349-355): the reports on "hardship and affliction", the grammarians' views on the two words and his preference, why "the patient" is in the accusative as praise (and his rejection of coordination with "those who ask"), and "in time of stress", attributed, in Arabic, English and Urdu.
 - Passage 2:177 gains more of al-Tabari's commentary (volume 3, pp. 344-349): giving to kin, the wayfarer, those who ask, freeing slaves, the two views on a due beyond zakat, keeping covenants, and the first reports on "hardship and affliction", attributed, in Arabic, English and Urdu.
 - Passage 2:177 gains more of al-Tabari's commentary (volume 3, pp. 337-343): the report that Jews and Christians are addressed and his choice, how "righteousness is whoever believes" is read, and giving wealth "for love of it" with the reports on a due beyond zakat, attributed, in Arabic, English and Urdu.
