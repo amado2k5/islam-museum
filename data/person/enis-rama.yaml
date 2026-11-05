@@ -1,0 +1,27 @@
+id: person/enis-rama
+class: person
+names: [{ kind: full, value: "Enis Rama" }]
+label: { ar: "إينيس راما", en: "Enis Rama", ur: "انیس راما" }
+summary:
+  ar: "إمام ومؤلف كوسوفي (المولود 1976 في ميتروفيتسا)، إمام جامع عيسى بك في ميتروفيتسا ورئيس تحرير قناة Peace TV الألبانية؛ درس الحديث في الجامعة الإسلامية بالمدينة المنورة ويحاضر أسبوعيا في ميتروفيتسا وبريشتينا. بلغ عدد متابعي صفحته على فيسبوك 237 ألفا في أكتوبر 2024 بحسب دراسة «كونتكست»."
+  en: "Kosovar imam and author (born 12 June 1976 in Mitrovica), imam of the Isa Beg Mosque in Mitrovica and chief editor of Peace TV Shqip; trained in hadith at the Islamic University of Medina, he lectures weekly in Mitrovica and Pristina. His Facebook page counted 237,000 followers in October 2024 (Context study)."
+  ur: "انیس راما (پیدائش 1976ء، میتروویتسا) کوسوو کے امام اور مصنف ہیں، میتروویتسا کی عیسیٰ بیگ مسجد کے امام اور پیس ٹی وی البانوی کے مدیرِ اعلیٰ؛ جامعہ اسلامیہ مدینہ منورہ میں حدیث کی تعلیم حاصل کی اور میتروویتسا و پرشٹینا میں ہفتہ وار دروس دیتے ہیں۔ اکتوبر 2024ء میں ان کے فیس بک صفحے کے فالوورز 237 ہزار تھے (کانٹیکسٹ مطالعہ)۔"
+gender: male
+born: { edtf: "1976-06-12", hijri: "1396", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 12 June 1976 in Mitrovica, per the Albanian Wikipedia article; the Hijri year 1396 is derived from the Gregorian date. Mitrovica has no place record in the tree, so no born_in edge is written. He is a different man from the Ottoman figures Enis Mehmed Mevlevi (person/enis-mevlevi) and Enis Receb Dede (person/enis-receb-dede), whose records also stand in the tree; the given-name overlap was checked against data/_homonyms.yaml and the labels are distinct, so no homonym entry is needed.", sources: [source/wikipedia-enis-rama-sq] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this wave names a school for the man himself. His best-known lecture series are commentaries on Ibn Taymiyya's al-Aqida al-Wasitiyya and on Kitab al-Tawhid — teaching subjects, which under the founder rule never attest the teacher's own school — and the Albanian article that carries his biography records no school at all. His school therefore stays unknown."
+    sources: [source/wikipedia-enis-rama-sq]
+roles: [preacher, writer]
+wings: [people, living]
+regions: [anatolia-balkans]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-enis-rama-sq] }
+sources: [source/context-cupi-2025, source/wikipedia-enis-rama-sq]
+provenance:
+  layer: own-research
+  source: "The 2026-11-04 wave-191 harvest entry (Enis Rama, Kosovo; 237K followers in the Context study), researched against the Albanian Wikipedia article read in full on 4 November 2026 and the Context (2025) study (platforms accessed October 2024). The given-name overlap with the tree's enis-mevlevi and enis-receb-dede records was checked against data/_homonyms.yaml: different people, distinct labels, no homonym entry needed. De-duplicated against main, where no record for this man existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-191"
+status: { review: published, completeness: 2 }

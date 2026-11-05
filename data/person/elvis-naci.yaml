@@ -1,0 +1,26 @@
+id: person/elvis-naci
+class: person
+names: [{ kind: full, value: "Elvis Naçi" }, { kind: alternate, value: "Elvis Naci" }]
+label: { ar: "إلفيس ناتشي", en: "Elvis Naçi", ur: "ایلوس ناچی" }
+summary:
+  ar: "عالم دين وإمام ألباني (المولود 1977 في تيرانا)، مدير سابق للدعوة الإسلامية في المشيخة الإسلامية في ألبانيا وواعظ في جامع الطبّاق في تيرانا، ومؤسس مؤسسة فردوس الثقافية غير الربحية التي جمعت نداءاتها بعد زلزال 2019 أكثر من سبعة ملايين يورو؛ يتابع صفحته على فيسبوك أكثر من 1.4 مليون شخص."
+  en: "Albanian theologian and imam (born 1977 in Tirana), formerly director of Islamic preaching at the Islamic Community of Albania and preacher at Tirana's Tabak (Tanners') Mosque, and founder of the Firdeus Non-Profit Cultural Foundation, whose appeals after the 2019 earthquake raised over €7 million; his Facebook page counts over 1.4 million followers."
+  ur: "ایلوس ناچی (پیدائش 1977ء، تیرانا) البانوی عالمِ دین اور امام ہیں، البانیا کی اسلامی کمیونٹی میں اسلامی دعوت کے سابق ڈائریکٹر اور تیرانا کی طباق مسجد کے واعظ، اور فردوس فاؤنڈیشن کے بانی، جس کی 2019ء کے زلزلے کے بعد کی اپیلوں میں سات ملین یورو سے زائد رقم جمع ہوئی؛ ان کے فیس بک صفحے کے فالوورز چودہ لاکھ سے زائد ہیں۔"
+gender: male
+born: { edtf: "1977-04-07", hijri: "1397", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 7 April 1977 in Tirana, per the English Wikipedia article; the Hijri year 1397 is derived from the Gregorian date. Tirana has no place record in the tree, so no born_in edge is written.", sources: [source/wikipedia-elvis-naci-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English Wikipedia infobox records 'Jurisprudence: Hanafi' for him as structured data. No prose text read in this wave attests a school for the man himself: the article's body describes his preaching and his criticism of radical Islam without naming a school for him, and the Context study names none either. Under the founder rule (faith only on two independent texts attesting the value for the person himself; structured data never counts) his school stays unknown, with the infobox reading preserved here."
+    sources: [source/wikipedia-elvis-naci-en, source/context-cupi-2025]
+roles: [preacher]
+wings: [people, living]
+regions: [anatolia-balkans]
+relations: []
+sources: [source/context-cupi-2025, source/wikipedia-elvis-naci-en, source/telegrafi-naci-earthquake-2019]
+provenance:
+  layer: own-research
+  source: "The 2026-11-04 wave-191 harvest entry (Elvis Naçi, Albania; YouTube 578K subscribers and Facebook over 1.4M followers as harvested), researched against the English Wikipedia article and Telegrafi's earthquake-fundraising report, both read in full on 4 November 2026, and the Context (2025) study of Albanian and Kosovar imams' platform followings (platforms accessed October 2024). De-duplicated against main, where no record existed under this name or its spelling variants."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-191"
+status: { review: published, completeness: 3 }

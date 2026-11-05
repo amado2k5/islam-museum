@@ -1,0 +1,36 @@
+id: person/ousmane-madani-haidara
+class: person
+names:
+  - { kind: full, value: "Chérif Ousmane Madani Haïdara" }
+  - { kind: alternate, value: "Ousmane Madani Haïdara" }
+  - { kind: alternate, value: "Cherif Haidara" }
+label: { ar: "شريف عثمان مدني حيدرة", en: "Chérif Ousmane Madani Haïdara", ur: "شریف عثمان مدنی حیدرہ" }
+summary:
+  ar: "داعية صوفي مالي، مؤسس حركة أنصار الدين (1991) — وهي حركة مالية ذات توجّه صوفي لا علاقة لها بالجماعة المسلحة ذات الاسم المشابه في الشمال — ورئيس المجلس الإسلامي الأعلى في مالي منذ أبريل 2019. وصوله مؤسسي لا منصّاتي: لا يوجد له عدد متابعين على أي منصة، بينما نقل الباحث جايلز هولدر عن موقع حركته نفسه أن أعضاءها تجاوزوا مئة ألف في أربعة وعشرين بلدًا."
+  en: "Malian Sufi preacher, founder of the Ançar Dine movement (1991) — a Sufi-oriented Malian movement unrelated to the armed group of a similar name in the north — and president of the High Islamic Council of Mali since April 2019. His reach is institutional rather than platform-based: no follower count exists for him on any platform, while the movement's own site, as quoted by the scholar Gilles Holder, claimed more than one hundred thousand members in twenty-four countries."
+  ur: "مالی کے صوفی واعظ، حرکت انصار الدین (1991) کے بانی — یہ مالی کی صوفی رجحان کی حامل حرکت ہے اور شمال کی اسی نام کی مسلح جماعت سے اس کا کوئی تعلق نہیں — اور اپریل 2019 سے مالی کی سپریم اسلامک کونسل کے صدر۔ ان کی رسائی ادارہ جاتی ہے، پلیٹ فارم پر مبنی نہیں: کسی پلیٹ فارم پر ان کے فالوورز کی کوئی تعداد موجود نہیں، جبکہ محقق جائلز ہولڈر نے حرکت کی اپنی ویب سائٹ کے حوالے سے لکھا کہ اس کے ارکان چوبیس ممالک میں ایک لاکھ سے زیادہ تھے۔"
+gender: male
+born:
+  edtf: "1955-05-12"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Tamani in the Ségou region of Mali. The French article's biography and the Faso Actu profile give 12 May 1955; the French article's infobox gives 11 May 1955, and sites mirroring structured data repeat 11 May — both readings are preserved. The Hijri year 1374 is derived from the Gregorian date. No place record for Tamani or Ségou exists in the tree, so no born_in edge is written."
+  sources: [source/wikipedia-ousmane-madani-haidara-fr, source/fassoactu-haidara-2026]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Three independent texts describe the man himself in prose as a Sufi: the French article's lead calls him 'un prédicateur Soufi malien' (a Malian Sufi preacher); the English article's lead states that he 'is a follower of the Maliki school of Islam and a Sufi' (citing Holder 2012 for the school and Voice of America, 2016, for the Sufi description); and Luca Raineri's 2024 Sant'Anna policy brief names him 'the Sufi Chérif Ousmane Madani Haïdara'. His founding and leading of the Sufi-based Ançar Dine movement is the setting of these descriptions, not their basis. Preserved but NOT settled: the Maliki school — Holder calls him in prose 'the Maliki spiritual guide of Ansar Dine' and the English article repeats the school on Holder's authority, but the attestations trace to that single scholarly origin, so under the two-independent-texts rule no Maliki value is recorded; the Groupement des leaders spirituels musulmans, which he has headed since 2011, claims to represent Mali's majority Malikite Islam — a collective claim, not a personal attestation."
+    sources: [source/wikipedia-ousmane-madani-haidara-fr, source/wikipedia-ousmane-madani-haidara-en, source/raineri-sahel-brief-2024, source/holder-ansar-dine-2012]
+roles: [preacher]
+wings: [people, living]
+regions: [west-africa-sahel]
+sources: [source/wikipedia-ousmane-madani-haidara-en, source/wikipedia-ousmane-madani-haidara-fr, source/holder-ansar-dine-2012, source/raineri-sahel-brief-2024, source/voa-sufi-leaders-2016, source/fassoactu-haidara-2026]
+provenance:
+  layer: own-research
+  source: "The wave-191 harvest entry (institutional reach: the High Islamic Council presidency; the Ançar Dine membership as documented by Holder 2012), researched 4 November 2026 against the English and French Wikipedia articles read in full, Holder's 2012 Cahiers d'études africaines study, Raineri's 2024 Sant'Anna policy brief, Voice of America's 2016 report (read in its Tolerance.ca republication) and a Faso Actu profile of September 2026. FLAG HONOURED: there is NO platform follower count for him — the reach anchor recorded here is institutional (the Council presidency since April 2019 and the movement's documented membership), and no platform figure has been invented. Existence checks: greps for haidara/ousmane over data/person/ found no record of him (the existing ousmane-sembene and ousmane-sonko records are other men), and data/_homonyms.yaml has no entry for him. No Wikidata QID is recorded: the item was not verified in this session. No relations: no place record exists in the tree for Tamani, Ségou or Bamako, and data/group/ansar.yaml is the Medinan Ansar, not his movement, so no edge is written. Open conflicts preserved, not fused: birth on 12 May (French biography, Faso Actu) vs 11 May (French infobox); the movement's founding in 1991 (English article, Faso Actu) vs 1993 (French article)."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-191"
+status: { review: published, completeness: 3 }

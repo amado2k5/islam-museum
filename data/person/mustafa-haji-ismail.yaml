@@ -1,0 +1,31 @@
+id: person/mustafa-haji-ismail
+class: person
+names:
+  - { kind: full, value: "Mustafa Haji Ismail Harun" }
+  - { kind: full, value: "Shiikh Mustafe Xaaji Ismaaciil Xaaji Haaruun" }
+  - { kind: full, value: "مصطفى حاجي إسماعيل حاجي هارون" }
+  - { kind: alternate, value: "Sheikh Mustafe Haji Ismail Haji Harun" }
+  - { kind: alternate, value: "Sheikh Mustafa Haji Ismail Harun" }
+  - { kind: alternate, value: "Sheekh Mustafe" }
+label: { ar: "مصطفى حاجي إسماعيل هارون", en: "Mustafa Haji Ismail Harun", ur: "مصطفی حاجی اسماعیل ہارون" }
+summary:
+  ar: "عالم وداعية صومالي وصفته «صومالي غارديان» سنة 2026 بأنه أبرز علماء الدين في الصومال. تخرّج مهندسًا كهربائيًا من جامعة الصومال الوطنية سنة 1980، وهو من أهل بوراو، درّس فيها وسُجن في عهد النظام العسكري، ثم استقر في النرويج. تُسمع محاضراته في العالم الناطق بالصومالية كله: بلغ عدد مشتركي قناته الخاصة على يوتيوب «Sheekh Mustafe Official Channel» 452 ألف مشترك في نوفمبر 2026، وتوزّع دور إنتاج محاضراته رقميًا على نطاق أوسع."
+  en: "Somali scholar and preacher described by Somali Guardian in 2026 as Somalia's most prominent religious scholar. An electrical-engineering graduate of Somali National University (1980) from Burao who taught there and was imprisoned under the military regime, he later settled in Norway. His lectures are heard across the Somali-speaking world: his own YouTube channel, Sheekh Mustafe Official Channel, counted 452,000 subscribers in November 2026, and production houses distribute his lectures further."
+  ur: "صومالی عالم اور واعظ جنہیں «صومالی گارڈین» نے 2026 میں صومالیہ کا نمایاں ترین دینی عالم قرار دیا۔ بوراو سے تعلق رکھنے والے، صومالی نیشنل یونیورسٹی سے 1980 میں الیکٹریکل انجینئرنگ کے فارغ التحصیل؛ تدریس کی، فوجی حکومت کے دور میں قید کاٹی، پھر ناروے میں مقیم ہو گئے۔ ان کے خطبات پورے صومالی بولنے والے خطے میں سنے جاتے ہیں: ان کے اپنے یوٹیوب چینل «Sheekh Mustafe Official Channel» کے نومبر 2026 میں 452 ہزار سبسکرائبر تھے، اور پروڈکشن ادارے ان کے خطبات مزید تقسیم کرتے ہیں۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read names a legal school or order for him. The Somali Guardian and Axadle reports describe his scholarship and public interventions, the biographical sketch describes his learning and preaching, and the Wikidata item's statements could not be read in this session; none of them attests a school for the man himself. Somalia's prevailing Shafi'i tradition is milieu, not attestation. Recorded unknown under the two-source rule."
+    sources: [source/somaliguardian-mustafe-2026, source/medium-mustafa-biography]
+roles: [scholar, preacher]
+wings: [people, living]
+regions: [east-africa]
+external_ids: { wikidata: "Q124099593" }
+sources: [source/wikidata-mustafa-haji-ismail, source/youtubers-me-sheekh-mustafe, source/somaliguardian-mustafe-2026, source/axadle-mustafe-2026, source/medium-mustafa-biography, source/vidiq-hadaf-production]
+provenance:
+  layer: own-research
+  source: "The wave-191 harvest entry (own YouTube channel 'Sheekh Mustafe Official Channel', 452K subscribers by youtubers.me), researched 4 November 2026 against: the Wikidata item Q124099593 (item page opened and read — English label, description 'Norwegian-Somali ulama and philosopher' and aliases verified; the statement values could not be rendered in the fetched view and the machine-readable endpoint returned 403, so no fact in this record rests on a Wikidata statement); youtubers.me channel statistics; Somali Guardian (24 January 2026) and Axadle Times (24 January 2026) reports of his Hargeisa address; an unsourced Medium biography (18 December 2024) used only as a lead where it agrees with the Wikidata item's description; and vidIQ's Hadaf Production page for the distribution of his lectures. Existence checks: greps for mustafa-haji/mustafe over data/person/ found no existing record of him (the matches were other men), and data/_homonyms.yaml has no entry for him. No born block: the only birth year found (1956) rests on the unsourced sketch alone, and no trusted source gives a date. No relations: no place record exists in the tree for Burao, Hargeisa or Norway, so no born_in or lived_in edge is written."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-191"
+status: { review: published, completeness: 2 }

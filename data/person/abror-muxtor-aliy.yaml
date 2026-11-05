@@ -1,0 +1,25 @@
+id: person/abror-muxtor-aliy
+class: person
+names: [{ kind: full, value: "Abror Muxtor Aliy" }, { kind: full, value: "Abror Abduazimov" }, { kind: alternate, value: "Аброр Мухтор Алий" }]
+label: { ar: "أبرور مختار علي", en: "Abror Muxtor Aliy", ur: "ابرور مختار علی" }
+summary:
+  ar: "مدوّن وداعية إسلامي أوزبكي (المولود 1976 في منطقة نامانغان)، اسمه الحقيقي أبرور عبد العظيموف ويكتب باسم أبرور مختار علي؛ أشهر داعية مستقل على الإنترنت في أوزبكستان، تبلغ قناته على يوتيوب نحو 1.1 مليون مشترك، وعمل في مؤسسات الإدارة الدينية الرسمية قبل أن تُقيله السلطات من منصبين حكوميين في سبتمبر 2022."
+  en: "An Uzbek Islamic blogger and preacher (born 1976 in the Namangan region), whose real name is Abror Abduazimov and who publishes as Abror Muxtor Aliy; Uzbekistan's most prominent independent online preacher, his YouTube channel counts about 1.1 million subscribers, and he worked in the official religious administration before the authorities dismissed him from two government positions in September 2022."
+  ur: "ابرور مختار علی (پیدائش 1976ء، نامانگان علاقہ) ازبک مسلمان بلاگر اور مبلغ ہیں؛ ان کا اصل نام ابرور عبد العظیموف ہے اور وہ اسی قلمی نام سے شائع ہوتے ہیں۔ وہ ازبکستان کے سب سے نمایاں آزاد آن لائن مبلغ ہیں، ان کے یوٹیوب چینل کے تقریباً 1.1 ملین سبسکرائبر ہیں، اور وہ سرکاری دینی انتظامیہ میں کام کر چکے ہیں یہاں تک کہ حکام نے ستمبر 2022 میں انہیں دو سرکاری عہدوں سے برطرف کر دیا۔"
+gender: male
+born: { edtf: "1976-07-22", hijri: "1396", calendar: gregorian, precision: day, status: debated, derived: true, note: "Biographical profiles reproduced with his lecture app give 22 July 1976, in Karkidon village, Chust district, Namangan region; a mirrored encyclopedia text gives a conflicting 22 March 1976, so the day is recorded as debated while the year and region agree. No place record exists in the tree for Karkidon or Chust, so no born_in relation is written.", sources: [source/app-abror-muxtor-aliy] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read names a legal school or order for the man himself. The US State Department's 2022 report mentions him only as a popular Islamic blogger and records his dismissal from posts in the Islamic academy and muftiate — office, not attestation; its demography section describes Uzbekistan's Muslims in general as mostly Sunni of the Hanafi school, which is the country's milieu, not a statement about him. The app biography lists his posts and teachers' institutions without naming a school for him. Under the two-source rule no faith value is recorded."
+    sources: [source/us-state-dept-irf-uzbekistan-2022, source/app-abror-muxtor-aliy]
+roles: [preacher, scholar, writer]
+wings: [people, living]
+regions: [persia-central-asia]
+sources: [source/youtube-abror-muxtor-aliy, source/us-state-dept-irf-uzbekistan-2022, source/app-abror-muxtor-aliy]
+provenance:
+  layer: own-research
+  source: "The wave-191 harvest entry (YouTube @abrormuxtoraliy.official, 1.1 million subscribers by vidIQ's count of 3 November 2026, re-read directly on 4 November 2026: 1,100,000 subscribers, 5,409 videos, 169,640,637 views), researched against the US Department of State's 2022 International Religious Freedom report on Uzbekistan (ecoi.net rendering, read in full) and the Uzbek biographical profile reproduced with his lecture app (AppBrain). No English Wikipedia article was found and no Wikidata item was verified in this session, so no QID is recorded. Existence checks: the slug and the variants abduazimov/mukhtor were grepped against data/person/ and data/_homonyms.yaml before writing — no record and no same-name collision."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-191"
+status: { review: published, completeness: 2 }
