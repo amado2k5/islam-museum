@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:225 closes (vol. 4, pp. 451-455: the views on the clause about what hearts have earned, al-Tabari's own two-part choice, and the closing remark) and 2:226 gets its first touch (pp. 456-457: the meaning of swearing off and the first view on the kind of oath), in Arabic, English and Urdu.
 - Verse-text repair, sweep batch 13: 25 Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text (exact matches only).
 - Verse-text repair, sweep batch 12: 25 Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text (exact matches only).
 - Passage 2:225 continues (vol. 4, pp. 446-451): al-Tabari's own choice on the meaning of idle talk in oaths (with his rejection of the view that it covers oaths to disobedience), and the start of his treatment of the clause on what hearts have earned, in Arabic, English and Urdu.
