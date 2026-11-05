@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:227 continues (vol. 4, pp. 487-493): the view that the husband is made to stand after four months and must return or divorce, with the reports of 'Umar, 'Ali, 'Uthman, Abu al-Darda', 'A'isha, Ibn 'Umar and twelve Companions, in Arabic, English and Urdu.
 - Passage 2:227 continues (vol. 4, pp. 481-487): the reports that the passing of four months brings a final single divorce (Ibn Mas'ud, Ibn 'Abbas, 'Umar, 'Ali, Shurayh, Masruq, al-Hasan, al-Nakha'i and others) and the opposing reports that it is a divorce the husband may revoke (Sa'id ibn al-Musayyab, Abu Bakr ibn 'Abd al-Rahman, Makhul, Rabi'a), in Arabic, English and Urdu.
 - Passage 2:226 closes (vol. 4, pp. 475-477: the views on expiation when the husband returns, with al-Tabari's choice) and 2:227 gets its first touch (pp. 477-481: whether the passing of four months itself divorces, with the reports of 'Ali, Ibn Mas'ud, 'Uthman, Zayd ibn Thabit and Ibn 'Abbas), in Arabic, English and Urdu.
 - Passage 2:226 continues (vol. 4, pp. 469-475): the reports on returning where there is an excuse, al-Tabari's own choice that returning means intercourse (with the resolve of the heart sufficing while an excuse lasts), and the views on the closing clause of forgiveness and mercy, in Arabic, English and Urdu.
