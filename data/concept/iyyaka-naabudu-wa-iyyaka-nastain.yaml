@@ -29,7 +29,7 @@ perspectives:
       ar: "يرى الشعراوي أن تقديم «إياك» يحسم أن العبادة لا تُشرك، وأن الانتقال إلى الخطاب يرفع المعاني الغيبية إلى رؤية إيمانية حاضرة {cite:tafsir-sharawi-khawatir-scan p.78} {cite:tafsir-sharawi-khawatir-scan p.77}."
       en: "Sha'rawi holds that fronting 'You' settles that worship admits no partner, and that the move to direct address brings the unseen truths into a present faith-sight {cite:tafsir-sharawi-khawatir-scan p.78} {cite:tafsir-sharawi-khawatir-scan p.77}."
       ur: "شعراوی کے مطابق «إياك» کو پہلے رکھنے سے یہ طے ہوتا ہے کہ عبادت میں کوئی شریک نہیں، اور خطاب کی طرف انتقال غیب کی حقیقتوں کو حاضر ایمانی بصیرت میں لے آتا ہے {cite:tafsir-sharawi-khawatir-scan p.78} {cite:tafsir-sharawi-khawatir-scan p.77}۔"
-    sources: [source/tafsir-sharawi-khawatir-scan]
+    sources: [source/tafsir-sharawi-khawatir-scan, source/tafsir-tabari-shakir-v01]
   - tradition: academic
     id: academic-not-checked
     stance:
@@ -58,6 +58,8 @@ relations: []
 sources: [source/tafsir-sharawi-khawatir-scan]
 provenance:
   layer: own-research
+  enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-fatiha-verses-2-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 160-166: the meaning of iyyaka na'budu and nasta'in, the tafwid debate, and the order and repetition of iyyaka" }
   source: "خواطر الشعراوي حول القرآن الكريم، المجلد الأول، الصفحات 74-83 (نسخة OCR محلية)"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
