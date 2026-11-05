@@ -14,6 +14,6 @@ died: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status
 relations:
   - { type: member_of, target: group/ghatafan, note: "من أشجع، وأشجع من غطفان؛ طلب عيينة بدمه بصفته رئيس غطفان", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "المقتول بعد تحية الإسلام", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 275-277", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 275-277", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 275-277" }
+status: { review: published, completeness: 3 }
