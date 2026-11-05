@@ -12,9 +12,12 @@ relations:
   - { type: occurred_at, target: place/makkah, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, sources: [source/kamil-ibn-al-athir] }
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
-  run: lib-kamil-v2-batch03
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-events-batch6
 sources: [source/kamil-ibn-al-athir]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+status:
+  review: published
+  completeness: 3
