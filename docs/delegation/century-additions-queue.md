@@ -1658,7 +1658,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 ## C. 926–1025 additions (2, flagged)
 
 - [x] Abu Yaqub Yusuf al-Warraq (904–973) — FLAG: name form may conflate two historical men (the d. 973 al-Warraq is the Andalusi geographer Muhammad ibn Yusuf al-Warraq); resolve identity before building.
-- EXCLUDED unless the founder directs otherwise: Hasdai ibn Shaprut (915–970) — the source row itself identifies him as a Jewish statesman of Cordoba; not a Muslim figure.
+- CONFIRMED EXCLUDED (2026-11-05 evidence review): Hasdai ibn Shaprut (915–970) — the source row itself identifies him as a Jewish statesman of Cordoba; not a Muslim figure. The review confirms the exclusion on two independent texts (Encyclopaedia Britannica; Chabad.org): Jewish.
 
 ## D. 1326–1425 additions (10)
 
@@ -1719,7 +1719,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sadeqi Beg — 1533–1610
 - [x] Mir Imad Hasani — 1554–1615
 - [x] Leo Africanus (Al-Hassan al-Wazzan) — 1494–1554
-- EXCLUDED (pending Ahmad's direction; the rows themselves identify Hindu courtiers of Akbar, cf. the Hasdai precedent): Raja Todar Mal — 1500–1589; Tansen (Ramtanu Pandey) — 1506–1589; Birbal (Mahesh Das) — 1528–1586
+- CONFIRMED EXCLUDED (2026-11-05 evidence review; the rows themselves identify Hindu courtiers of Akbar, cf. the Hasdai precedent): Raja Todar Mal — 1500–1589 (Hindu; no credible text attests a Muslim affiliation); Birbal (Mahesh Das) — 1528–1586 (Hindu — Encyclopaedia Britannica). Tansen (Ramtanu Pandey) — 1506–1589: the exclusion STANDS but is recharacterised as disputed/legendary rather than settled-Hindu (Britannica reports conflicting burial traditions; the conversion story is legend, with no solid evidence); a build-as-unknown with the contest preserved is possible only on the founder's explicit word.
 
 ## H. 1426–1525 additions (20)
 
