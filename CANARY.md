@@ -29,6 +29,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:158 continues its al-Tabari commentary (volume 3, pp. 241-246): the scholars' positions on one who leaves the running between Safa and Marwa (Malik, al-Shafi'i, al-Thawri and the Hanafi school, 'Ata', Ibn 'Abbas, Anas, Mujahid), his own choice and reasons, and his reply to the variant reading "not to go round them", each attributed, in Arabic, English and Urdu.
 - Passage 2:158 continues its al-Tabari commentary (volume 3, pp. 235-240): the report of 'A'isha to 'Urwa and the Ansar reports on Manat, his own view that the running is among God's signs, and the three positions of scholars on one who leaves it (obligatory, compensated by a sacrifice, or voluntary), each attributed, in Arabic, English and Urdu.
 - Passage 2:158 continues its al-Tabari commentary (volume 3, pp. 230-235): the answer on "no blame in going round them" and the early reports (al-Sha'bi, Anas, Ibn 'Abbas, Mujahid, Ibn Zayd) on the idols and the Muslims' reluctance, each attributed, in Arabic, English and Urdu.
 - Passage 2:158 continues its al-Tabari commentary (volume 3, pp. 226-230): Safa and Marwa as the two mountains, "signs of God", the senses of hajj and 'umra, and the question raised by "no blame in going round them", each attributed, in Arabic, English and Urdu.
