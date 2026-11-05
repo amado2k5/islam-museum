@@ -1,0 +1,25 @@
+id: person/nurlan-baizhigitov
+class: person
+names: [{ kind: full, value: "Nurlan Baizhigitov" }, { kind: alternate, value: "Нұрлан Байжігітов" }, { kind: alternate, value: "Nurlan Imam" }, { kind: alternate, value: "Nurlan Baizhigituly" }]
+label: { ar: "نورلان بايجيغيتوف", en: "Nurlan Baizhigitov", ur: "نورلان بائی جیگیتوف" }
+summary:
+  ar: "إمام وداعية كازاخستاني (المولود 1979 في منطقة جامبيل)، إمام أكبر لمسجد يريسكيلدي قاجي في أستانا منذ مايو 2023، اشتهر بلقب «إمام تيك توك»؛ يعدّ حسابه على إنستغرام نحو 927 ألف متابع بحسب دراسة محكّمة (يناير 2025)، ويعرف بخطبه في حقوق النساء ودعوته إلى إفطار الصلاة الوطني في واشنطن."
+  en: "A Kazakhstani imam and preacher (born 1979 in the Zhambyl region), chief imam of Astana's Yryskeldi Kazhy Mosque since May 2023 and popularly known as the 'TikTok Imam'; his Instagram account counted 927 thousand followers in a peer-reviewed study (January 2025), and he is known for sermons on women's rights and for his invitation to the National Prayer Breakfast in Washington."
+  ur: "نورلان بائی جیگیتوف (پیدائش 1979ء، جامبیل علاقہ) قازق امام اور مبلغ ہیں، مئی 2023 سے آستانہ کی یریسکلدی قاجی مسجد کے امامِ اکبر اور عوام میں «ٹک ٹاک امام» کے لقب سے مشہور ہیں۔ ایک محققانہ مطالعے کے مطابق جنوری 2025 میں ان کے انسٹاگرام فالوورز تقریباً 927 ہزار تھے، اور وہ خواتین کے حقوق پر خطبوں اور واشنگٹن کے نیشنل پریئر بریک فاسٹ کی دعوت کے لیے جانے جاتے ہیں۔"
+gender: male
+born: { edtf: "1979-01-01", hijri: "1399", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 1 January 1979 in Merke district of Zhambyl region, per Kazinform; the Hijri year 1399 is derived from the Gregorian date. No place record exists in the tree for Merke, so no born_in relation is written.", sources: [source/kazinform-nurlan-baizhigitov] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read names a legal school or order for the man himself. The Millah study profiles his preaching — including sermons presenting women's rights from the Sharia perspective — and counts him among the sanctioned clergy's imams; Kazinform lists his imam posts up to the chief imamate of Yryskeldi Kazhy Mosque. Sermon content, religious office and the Kazakh official-clergy milieu are not a school attestation, and no second text exists. Under the two-source rule no faith value is recorded."
+    sources: [source/millah-kazakh-preachers-2025, source/kazinform-nurlan-baizhigitov]
+roles: [preacher, scholar]
+wings: [people, living]
+regions: [persia-central-asia]
+sources: [source/millah-kazakh-preachers-2025, source/kazinform-nurlan-baizhigitov]
+provenance:
+  layer: own-research
+  source: "The wave-191 harvest entry (Instagram 927 thousand in the Millah study; TikTok ~581 thousand and Instagram 850 thousand per Kazinform, February 2024), researched against Kerim et al., Millah: Journal of Religious Studies 24(2), 2025 (read in full) and the Kazinform report of his National Prayer Breakfast attendance (read in full), both on 4 November 2026. The Millah body text once misprints his name 'Nurlzhan Baizhigitov'; the Kazinform and Table 1 spelling is followed. No Wikipedia article was found and no Wikidata item was verified in this session, so no QID is recorded. Existence checks: the slug and variants (nurlan, baizhigitov, baizhigituly) were grepped against data/person/ and data/_homonyms.yaml before writing — no record and no same-name collision."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-191"
+status: { review: published, completeness: 2 }

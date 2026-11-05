@@ -1,0 +1,28 @@
+id: person/elvedin-pezic
+class: person
+names: [{ kind: full, value: "Elvedin Pezić" }, { kind: alternate, value: "Elvedin Pezic" }]
+label: { ar: "إلفدين بيزيتش", en: "Elvedin Pezić", ur: "ایلودین پیزچ" }
+summary:
+  ar: "داعية بوسني (المولود 1977 في ترافنيك)، من أكثر الأصوات الدينية استماعا في المنطقة الناطقة بالبوسنية؛ درس في الجامعة الإسلامية بالمدينة المنورة ونال الدكتوراه في كلية الدراسات الإسلامية في نوفي بازار سنة 2023، وينشر تسجيلات دروسه يوميا؛ تجاوز عدد متابعي صفحته الرسمية على فيسبوك 372 ألفا في أغسطس 2026."
+  en: "Bosnian preacher (born 1977 in Travnik), among the most listened-to religious authorities of the Bosnian-speaking area; he studied at the Islamic University of Medina and took a doctorate at the Faculty of Islamic Studies in Novi Pazar in 2023, and posts lecture recordings daily — his official Facebook page counted over 372,000 followers in August 2026."
+  ur: "ایلودین پیزچ (پیدائش 1977ء، تراونیک) بوسنیائی مبلغ ہیں، بوسنیائی بولنے والے علاقے کے سب سے زیادہ سنے جانے والے دینی اہلِ علم میں سے ایک؛ انہوں نے جامعہ اسلامیہ مدینہ منورہ میں تعلیم حاصل کی اور 2023ء میں نووی پازار سے ڈاکٹریٹ کیا اور روزانہ اپنے دروس کی ریکارڈنگ شائع کرتے ہیں؛ اگست 2026ء میں ان کے سرکاری فیس بک صفحے کے فالوورز 372 ہزار سے زائد تھے۔"
+gender: male
+born: { edtf: "1977", hijri: "1397", calendar: gregorian, precision: year, status: historical, derived: true, note: "Born in 1977 in Travnik, per El-Asr's biographical report of his December 2023 doctoral defence; only the year is attested, and the Hijri year 1397 is the year's principal equivalent, derived. Travnik has no place record in the tree, so no born_in edge is written.", sources: [source/el-asr-pezic-doctorate] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this wave attests a school for the man himself. Srpske.rs describes him in news prose as a 'Salafist preacher' and reports that his August 2026 detention rested on an allegation of spreading Wahhabi ideology — a movement descriptor and a police allegation, neither of them an attestation of his own school; and his dissertation, as El-Asr reports it, presents Hanafi positions first because the Hanafi school is officially followed in his region, a statement about his audience's milieu, not about himself. Under the founder rule his school stays unknown, with these readings preserved."
+    sources: [source/srpske-pezic-detention-2026, source/el-asr-pezic-doctorate]
+roles: [preacher, writer]
+wings: [people, living]
+regions: [anatolia-balkans]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/el-asr-pezic-doctorate] }
+  - { type: lived_in, target: place/sarajevo, sources: [source/el-asr-pezic-doctorate] }
+sources: [source/srpske-pezic-detention-2026, source/el-asr-pezic-doctorate]
+provenance:
+  layer: own-research
+  source: "The 2026-11-04 wave-191 harvest entry (Elvedin Pezić, Bosnia & Herzegovina; Facebook over 372,000 per an August 2026 news report), researched against the Srpske.rs detention report and El-Asr's doctorate report, both read in full on 4 November 2026. No Bosnian-language Wikipedia article for him was found in two search passes, so the record rests on those two reports. De-duplicated against main, where no record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-191"
+status: { review: published, completeness: 2 }

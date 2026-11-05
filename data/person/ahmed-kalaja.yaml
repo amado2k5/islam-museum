@@ -1,0 +1,28 @@
+id: person/ahmed-kalaja
+class: person
+names: [{ kind: full, value: "Ahmed Kalaja" }, { kind: alternate, value: "Hoxhë Ahmed Kalaja" }]
+label: { ar: "أحمد كالايا", en: "Ahmed Kalaja", ur: "احمد کالایا" }
+summary:
+  ar: "إمام وشخصية عامة ألباني (المولود 1977 في تيرانا)، إمام وخطيب جامع دینه خوجا في تيرانا وعضو مجلس مفتي تيرانا منذ أكثر من خمسة عشر عاما؛ درس في دمشق والمدينة المنورة، وأطروحته في جامعة إيست أنغليا (2017) تناولت دور رجال الدين المسلمين في الوئام بين الأديان في ألبانيا. بلغ عدد متابعي صفحته على فيسبوك 326 ألفا في أكتوبر 2024 بحسب دراسة «كونتكست»."
+  en: "Albanian imam and public figure (born 16 April 1977 in Tirana), imam-khatib of Tirana's Dine Hoxha Mosque and a member of the Tirana Council of Muftis for over fifteen years; trained in Damascus and Medina, and author of a 2017 University of East Anglia dissertation on Muslim clergy and interreligious harmony in Albania. His Facebook page counted 326,000 followers in October 2024 (Context study)."
+  ur: "احمد کالایا (پیدائش 1977ء، تیرانا) البانوی امام اور عوامی شخصیت ہیں، تیرانا کی دینے خوجا مسجد کے امام و خطیب اور پندرہ برس سے زائد عرصے سے تیرانا مفتی کونسل کے رکن؛ دمشق اور مدینہ منورہ میں تعلیم حاصل کی اور 2017ء میں یونیورسٹی آف ایسٹ اینگلیا سے البانیا میں بین المذاہب ہم آہنگی پر مقالہ لکھا۔ اکتوبر 2024ء میں ان کے فیس بک صفحے کے فالوورز 326 ہزار تھے (کانٹیکسٹ مطالعہ)۔"
+gender: male
+born: { edtf: "1977-04-16", hijri: "1397", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 16 April 1977 in Tirana, per the Russian Wikipedia article; the Hijri year 1397 is derived from the Gregorian date. Tirana has no place record in the tree, so no born_in edge is written.", sources: [source/wikipedia-ahmed-kalaja-ru] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Russian Wikipedia infobox records 'Течение, школа: суннизм' (current/school: Sunnism) for him as structured data. No prose text read in this wave attests a school for the man himself, so under the founder rule (faith only on two independent texts attesting the value for the person himself; structured data never counts) his school stays unknown, with the infobox reading preserved here."
+    sources: [source/wikipedia-ahmed-kalaja-ru]
+roles: [preacher]
+wings: [people, living]
+regions: [anatolia-balkans]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-ahmed-kalaja-ru] }
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-ahmed-kalaja-ru] }
+sources: [source/context-cupi-2025, source/wikipedia-ahmed-kalaja-ru]
+provenance:
+  layer: own-research
+  source: "The 2026-11-04 wave-191 harvest entry (Ahmed Kalaja, Albania; Facebook 326K / Instagram 248K in the Context study), researched against the Russian Wikipedia article read in full on 4 November 2026 and the Context (2025) study (platforms accessed October 2024). De-duplicated against main, where no record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-191"
+status: { review: published, completeness: 2 }

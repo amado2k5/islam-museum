@@ -1,0 +1,41 @@
+id: person/daud-kim
+class: person
+names:
+  - { value: "Kim Jae-han", kind: full }
+  - { value: "김재한", kind: full }
+  - { value: "Daud Kim", kind: full }
+  - { value: "Jay Kim", kind: alternate }
+  - { value: "David Kim", kind: alternate }
+label:
+  ar: "داود كيم"
+  en: "Daud Kim"
+  ur: "داؤد کم"
+summary:
+  ar: "مغنٍّ ومدوّن فيديو كوري جنوبي، وُلد باسم كيم جاي هان في سيول سنة 1992. بدأ مغنيا باسم جاي كيم وبنى قاعدة جماهيرية في جنوب شرق آسيا عبر البث المباشر ولقاءات المعجبين، ثم اعتنق الإسلام في سبتمبر 2019 وأصبح أشهر صانع محتوى مسلم في كوريا، إذ بلغ عدد مشتركي قناته على يوتيوب 8.45 مليون مشترك بحسب إحصاء vidIQ المحدّث في نوفمبر 2026. وأثارت حملته لبناء مسجد في إنتشون سنة 2024 اهتماما وطنيا حين ألغى اعتراض الأهالي صفقة الأرض."
+  en: "South Korean singer and YouTuber, born Kim Jae-han in Seoul in 1992. He began as the singer Jay Kim, built a Southeast Asian fan base through live streaming and fan meetings, embraced Islam in September 2019 and became South Korea's best-known Muslim content creator, with 8.45 million YouTube subscribers by vidIQ's count updated in November 2026. His 2024 campaign to build a mosque in Incheon drew national attention when local opposition ended the land purchase."
+  ur: "جنوبی کوریائی گلوکار اور یوٹیوبر، 1992 میں سیول میں کم جے ہان کے نام سے پیدا ہوئے۔ جے کم کے نام سے گلوکاری شروع کی، لائیو اسٹریمنگ اور مداحوں سے ملاقاتوں کے ذریعے جنوب مشرقی ایشیا میں مداح بنائے، ستمبر 2019 میں اسلام قبول کیا اور کوریا کے سب سے معروف مسلم کانٹینٹ ساز بن گئے؛ نومبر 2026 کے vidIQ شمار کے مطابق ان کے یوٹیوب سبسکرائبرز 8.45 ملین تھے۔ 2024 میں انچیون میں مسجد بنانے کی ان کی مہم اس وقت قومی توجہ کا مرکز بنی جب مقامی مخالفت نے زمین کا سودا ختم کر دیا۔"
+gender: male
+born:
+  edtf: "1992-07-21"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born Kim Jae-han on 21 July 1992 in Seoul, per the StarsUnfolded biography profile, the only text consulted that gives a birth date; it is a single secondary profile and the date is recorded on its authority alone. The Hijri year 1413 is a tabular conversion of the recorded date, marked derived. No place record for Seoul exists in the museum, so no born_in edge is written."
+  sources: [source/starsunfolded-daud-kim]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No prose text consulted names a school or order for the man himself. The biography profile's quick-info field gives his religion as Islam — structured data, which never counts — and the texts describe his 2019 conversion, his Korean Qur'an reading and his Muslim-centred vlogging without naming any school or affiliation. The readings are preserved here and the value stays unknown."
+    sources: [source/starsunfolded-daud-kim, source/wikitubia-daud-kim]
+roles: [musician]
+wings: [people, living]
+regions: [china-east-asia]
+sources: [source/vidiq-daud-kim, source/wikitubia-daud-kim, source/starsunfolded-daud-kim]
+provenance:
+  layer: own-research
+  source: "The 2026-11-04 harvest entry (YouTube @jaehankim66, 8.45M subscribers per the vidIQ page updated 4 November 2026), researched against the vidIQ channel statistics page, the Wikitubia profile and the StarsUnfolded biography profile, all read in full on 4 November 2026. The 2019 case is recorded only in the neutral attributed form the StarsUnfolded profile footnotes to The Korea Times (a public accusation in 2020 over a June 2019 incident; his apology video said his lawyer had reached a settlement with the woman); no verdict is recorded. The Incheon mosque: the press-derived account (land contract April 2024, local protests, contract terminated) and the Wikitubia profile's claim that the mosque was completed in 2024 conflict and are both preserved in the prose; neither is asserted as the museum's finding. Wikidata could not be checked: wikidata.org returns HTTP 403 to this session's fetcher, so no QID is recorded (wave-189/190 pattern). Existence checks: slug and name-variant greps over data/person/ and data/_homonyms.yaml found no existing record and no namesake needing an entry."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-191"
+status: { review: published, completeness: 2 }
