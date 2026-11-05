@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:228: replaced three short typed Qur'an phrases (from 65:1 and 2:228) in the Tabari prose with links to the verses, in Arabic, English and Urdu, and re-ran the verse-text sweep over the vol. 4 files (0 pending).
 - Passage 2:228 continues (vol. 4, pp. 512-517): al-Tabari's reasoning that the word for the waiting period can mean either the time of menses or of purity, his own choice of three periods of purity, his reply to the objection about the second purity and to the view on the four-month oath, his explanation of the word for divorced women, and the first reports on what God created in their wombs, in Arabic, English and Urdu.
 - Passage 2:228 continues (vol. 4, pp. 506-511): the view that the waiting period means purity between menses, with the reports of 'A'isha, Zayd ibn Thabit and Ibn 'Umar, the case of al-Ahwas referred to Mu'awiya, and the opening of al-Tabari's discussion of the word in Arab usage, in Arabic, English and Urdu.
 - Passage 2:228 continues (vol. 4, pp. 500-505): the view that the word for the waiting period means menstruation, with the reports of Mujahid, Ibn 'Abbas, 'Ikrima and Qatada, and the rulings of 'Umar, Ibn Mas'ud, Abu Musa, 'Ali and 'Uthman that the husband may take her back until she bathes after the third menses, in Arabic, English and Urdu.
