@@ -3,11 +3,14 @@
 // Gregorian twin of every day, the year's observances linked to their museum
 // pages, a two-way converter and an .ics download. Conversion runs in the
 // browser through the same tested functions as scripts/hijri/convert.ts
-// (Umm al-Qura 1318–1500 AH, tabular otherwise). Without JavaScript the current
-// month, today's date and the observance list stay readable.
+// (Umm al-Qura 1318–1500 AH, tabular otherwise). The HTML is a function of the
+// commit, not the clock (docs/site/README.md): it shows the month of the built
+// commit's day, and hijri-calendar.ts moves the "today" line, the highlight and
+// the displayed month to the viewer's own day on load. Without JavaScript that
+// month, its date line and the observance list stay readable.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { href } from "../../../lib/graph";
+import { href, graph } from "../../../lib/graph";
 import { civilToHijri, hijriToCivil, toJDN, tabularToJDN, fmt, type YMD } from "../../../../../scripts/hijri/convert";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -45,8 +48,9 @@ const monthLen = (y: number, m: number) => {
   return hijriJDN(ny, nm, 1) - hijriJDN(y, m, 1);
 };
 
-const now = new Date();
-const today: YMD = { y: now.getFullYear(), m: now.getMonth() + 1, d: now.getDate() };
+// The built commit's day (build-graph.ts records the HEAD commit date), never the build machine's clock.
+const [gy, gm, gd] = graph.generated.slice(0, 10).split("-").map(Number);
+const today: YMD = { y: gy, m: gm, d: gd };
 const todayH = civilToHijri("gregorian", today);
 const fmtD = (g: YMD) => `${g.y}-${String(g.m).padStart(2, "0")}-${String(g.d).padStart(2, "0")}`;
 const gregDay = (y: number, m: number, d: number) => { const c = hijriToCivil({ y, m, d }); return c.calendar === "julian" ? `${fmtD(c.date)} Julian` : fmtD(c.date); };
@@ -61,8 +65,7 @@ const curObs = OBS.filter((o) => o.m === cur.m);
 const payload = {
   months: C.months, weekdays: C.weekday_names,
   obs: OBS.map((o) => ({ ...o, label: C.obs[o.key], href: o.link ? href(lang, o.link) : undefined })),
-  today: { h: todayH.date, g: today },
-  t: { prev: C.prev_month, next: C.next_month, today: C.today, approx: C.approx, umalqura: C.umalqura, observances: C.observances, obs_none: C.obs_none, jump: C.jump },
+  t: { prev: C.prev_month, next: C.next_month, today: C.today, is_today: C.is_today, approx: C.approx, umalqura: C.umalqura, observances: C.observances, obs_none: C.obs_none, jump: C.jump },
 };
 ---
 <BaseLayout lang={lang} title={C.title} description={C.lede} path={`/${lang}/calendar/`}>

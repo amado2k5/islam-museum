@@ -1,15 +1,16 @@
 // Hijri calendar client (docs/plan/06 Phase 2): browses the Hijri year month by
 // month in the browser, using the same conversion code as scripts/hijri/convert.ts
-// (Umm al-Qura 1318–1500 AH, tabular elsewhere). No server calls.
-import { civilToHijri, hijriToCivil, toJDN, tabularToJDN, type YMD } from "../../../scripts/hijri/convert";
+// (Umm al-Qura 1318–1500 AH, tabular elsewhere). No server calls. "Today" is the
+// viewer's day, read from the browser clock on load; the static HTML carries the
+// built commit's month as the no-JS view (calendar/index.astro).
+import { civilToHijri, hijriToCivil, toJDN, tabularToJDN, fmt, type YMD } from "../../../scripts/hijri/convert";
 
 {
 type Obs = { m: number; days: number[]; key: string; label: string; href?: string };
 type Payload = {
   months: string[]; weekdays: string[];
   obs: Obs[];
-  today: { h: YMD; g: YMD };
-  t: { prev: string; next: string; today: string; approx: string; umalqura: string; observances: string; obs_none: string; jump: string };
+  t: { prev: string; next: string; today: string; is_today: string; approx: string; umalqura: string; observances: string; obs_none: string; jump: string };
 };
 
 const hijriJDN = (y: number, m: number, d: number): number => {
@@ -34,7 +35,11 @@ function init(root: HTMLElement) {
   const rangeEl = root.querySelector("[data-range]") as HTMLElement;
   const detail = root.querySelector("[data-detail]") as HTMLElement;
   const obsList = root.querySelector("[data-obslist]") as HTMLElement;
-  const { months, weekdays, obs, today, t } = payload;
+  const { months, weekdays, obs, t } = payload;
+  // The viewer's day, the same way the Time Machine's today cards read it (today-client.ts).
+  const now = new Date();
+  const g: YMD = { y: now.getFullYear(), m: now.getMonth() + 1, d: now.getDate() };
+  const today = { g, h: civilToHijri("gregorian", g).date };
   const obsFor = (m: number, d: number) => obs.filter((o) => o.m === m && o.days.includes(d));
   const inUQ = (y: number) => y >= 1318 && y <= 1500;
   let cur = { y: today.h.y, m: today.h.m };
@@ -126,6 +131,9 @@ function init(root: HTMLElement) {
     URL.revokeObjectURL(a.href);
   });
   render();
+  detail.textContent = `${t.is_today} ${today.h.d} ${months[today.h.m - 1]} ${today.h.y} = ${fmt(today.g)}`;
+  (root.querySelector("[data-jy]") as HTMLInputElement).value = String(today.h.y);
+  (root.querySelector("[data-jm]") as HTMLSelectElement).value = String(today.h.m);
 }
 document.querySelectorAll("[data-cal]").forEach((r) => init(r as HTMLElement));
 }

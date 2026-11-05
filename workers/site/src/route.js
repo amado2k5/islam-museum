@@ -13,9 +13,10 @@ const isLangPath = (pathname) => LANGS.some((l) => pathname === `/${l}` || pathn
 // R2 under the same paths (for example "media/time-browser/explorer/x.webp"); keep this list in step with
 // workers/r2-sync/batch/publish.mjs (DATA_TARGETS), wrangler.production.toml (run_worker_first) and deploy.yml.
 export const R2_DATA_DIRS = ["media", "edu", "timeline-data", "gift-shop", "brand", "openapi", "pagefind-ar", "pagefind-en", "pagefind-ur"];
-// Data files at the site root (sitemaps, feed, llms.txt, search synonyms, favicons) follow the same rule. Keep in step
-// with ROOT_FILES in publish.mjs and workers/r2-sync/src/index.js, run_worker_first and deploy.yml.
-export const R2_ROOT_FILES = [/^\/sitemap[\w-]*\.xml$/, /^\/feed\.xml$/, /^\/llms(-full)?\.txt$/, /^\/search-synonyms\.\w+\.json$/, /^\/favicon[\w-]*\.(png|svg|ico)$/, /^\/apple-touch-icon\.png$/];
+// Data files at the site root (sitemaps, feed, llms.txt, search synonyms, favicons, the RFC 9727 API catalog under
+// /.well-known/) follow the same rule. Keep in step with ROOT_FILES in publish.mjs and workers/r2-sync/src/index.js,
+// run_worker_first and deploy-env.yml.
+export const R2_ROOT_FILES = [/^\/sitemap[\w-]*\.xml$/, /^\/feed\.xml$/, /^\/llms(-full)?\.txt$/, /^\/search-synonyms\.\w+\.json$/, /^\/favicon[\w-]*\.(png|svg|ico)$/, /^\/apple-touch-icon\.png$/, /^\/\.well-known\/api-catalog$/];
 const isDataPath = (pathname) => R2_DATA_DIRS.some((d) => pathname.startsWith(`/${d}/`)) || R2_ROOT_FILES.some((r) => r.test(pathname));
 
 // Returns { type: "r2", key } | { type: "redirect", location } | { type: "assets" }.
@@ -31,6 +32,13 @@ export function resolve(pathname) {
   const last = pathname.split("/").pop();
   if (last.includes(".")) return { type: "r2", key: pathname.slice(1) };
   return { type: "redirect", location: `${pathname}/` };
+}
+
+// The R2 key of the not-found page for a missing path: the page in the URL's language (site/src/pages/[lang]/404.astro),
+// or null for any other path, which gets the Arabic /404.html from the assets layer.
+export function notFoundKey(pathname) {
+  const lang = LANGS.find((l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`));
+  return lang ? `${lang}/404/index.html` : null;
 }
 
 // Parses the static 301/302 rules of a _redirects file. Dynamic rules (with :placeholders) are ignored

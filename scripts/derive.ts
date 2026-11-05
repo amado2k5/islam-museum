@@ -75,6 +75,22 @@ export function buildSynonyms(c: Compiled, lang: "ar" | "en" = "ar") {
   return { whole: Object.fromEntries([...out].sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, [...v].slice(0, 3)])), words: wordMap };
 }
 
+/**
+ * Search synonyms are also written as SYNONYM_SHARDS (256) small files, search-synonyms.<lang>_<shard>.json, so the search page
+ * fetches only the shards of the words being typed (the whole Arabic map is about 10 MB, 2 MB compressed, and downloading
+ * it competed with the search index on every visit). A key's shard is FNV-1a of its normalised form; the search page
+ * carries a copy of shardOf (site/src/pages/[lang]/search/index.astro) and scripts/search-synonyms.test.ts keeps the two equal.
+ */
+export const SYNONYM_SHARDS = 256;
+export function shardOf(k: string) { let h = 2166136261; for (let i = 0; i < k.length; i++) { h ^= k.charCodeAt(i); h = Math.imul(h, 16777619); } return ((h >>> 0) % 256).toString(16).padStart(2, "0"); }
+export function synonymShards(syn: { whole: Record<string, string[]>; words: Record<string, string> }) {
+  const out = new Map<string, { whole: Record<string, string[]>; words: Record<string, string> }>();
+  for (let i = 0; i < SYNONYM_SHARDS; i++) out.set(i.toString(16).padStart(2, "0"), { whole: {}, words: {} });
+  for (const [k, v] of Object.entries(syn.whole)) out.get(shardOf(k))!.whole[k] = v;
+  for (const [k, v] of Object.entries(syn.words)) out.get(shardOf(k))!.words[k] = v;
+  return out;
+}
+
 /** "People also explored": shared neighbours (weight 3) and shared themes (weight 1), plus the same period, computed once at build time. */
 export function buildRelated(c: Compiled, perNode = 8) {
   const skip = (n: Node) => n.stub || n.class === "source" || n.class === "media" || (n.class === "passage" && n.data.unit === "ayah");
@@ -162,6 +178,9 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   mkdirSync(p(".cache", "derived"), { recursive: true });
   for (const [k, v] of Object.entries(d)) writeFileSync(p(".cache", "derived", `${k}.json`), JSON.stringify(v));
   mkdirSync(p("site", "public"), { recursive: true });
-  for (const lang of ["ar", "en"] as const) writeFileSync(p("site", "public", `search-synonyms.${lang}.json`), JSON.stringify(d.synonyms[lang]));   // loaded by the client-side search page
+  for (const lang of ["ar", "en"] as const) {
+    writeFileSync(p("site", "public", `search-synonyms.${lang}.json`), JSON.stringify(d.synonyms[lang]));   // the whole map, for anyone who wants it
+    for (const [shard, part] of synonymShards(d.synonyms[lang])) writeFileSync(p("site", "public", `search-synonyms.${lang}_${shard}.json`), JSON.stringify(part));   // what the search page loads
+  }
   console.log(`derived: ${d.timeline.length} timeline rows, ${d.map.features.length} map features, ${Object.keys(d.ego).length} ego graphs, ${Object.keys(d.related).length} related lists, ${Object.keys(d.synonyms.ar.whole).length} ar + ${Object.keys(d.synonyms.en.whole).length} en whole-label variants`);
 }

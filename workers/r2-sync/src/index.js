@@ -56,7 +56,7 @@ const newFolders = (key, seen) => {
 
 // Data files at the bucket root (sitemaps, feed, llms.txt, search synonyms, favicons).
 // Keep in step with ROOT_FILES in batch/publish.mjs and R2_ROOT_FILES in workers/site/src/route.js.
-export const ROOT_FILES = [/^sitemap[\w-]*\.xml$/, /^feed\.xml$/, /^llms(-full)?\.txt$/, /^search-synonyms\.\w+\.json$/, /^favicon[\w-]*\.(png|svg|ico)$/, /^apple-touch-icon\.png$/];
+export const ROOT_FILES = [/^sitemap[\w-]*\.xml$/, /^feed\.xml$/, /^llms(-full)?\.txt$/, /^search-synonyms\.\w+\.json$/, /^favicon[\w-]*\.(png|svg|ico)$/, /^apple-touch-icon\.png$/, /^\.well-known\/api-catalog$/];
 
 function validateDst(dst, allowed, allowRootFiles = false) {
   const listed = (d) => allowed.some((p) => d.startsWith(p)) || (allowRootFiles && ROOT_FILES.some((r) => r.test(d)));
