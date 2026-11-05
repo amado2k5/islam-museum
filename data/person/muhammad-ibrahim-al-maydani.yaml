@@ -36,16 +36,14 @@ provenance:
   layer: own-research
   source: الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 7523-7524
     من المسح
-  generated_by: Claude Haiku 5.5
-  model: claude-haiku-5-5
-  run: mawsua-w04-batch63
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch44
 sources:
 - source/fiqh-mawsua-kuwaitiyya-noor-v3
 status:
-  review: draft
-  completeness: 1
-  generated_by: Claude Haiku 5.5; appendix entry from the scan; dates as printed;
-    cross-references produce no entry
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary
