@@ -84,7 +84,7 @@ precursors:
     note: "TDV says the Sasanian hospital and medical school of Jundishapur, where the Prophet-era physician al-Harith ibn Kalada studied, was known as a bimaristan, which helped the word take hold among the Arabs early on. The source draws no line from it to Rufayda's tent."
     sources: [source/tdv-bimaristan]
 dependents:
-  - external: { ar: "مستشفى الوليد بن عبد الملك (88هـ/707م)", en: "Al-Walid ibn Abd al-Malik's hospital (88/707)", ur: "ولید بن عبد الملک کا شفاخانہ (88ھ/707ء)" }
+  - invention: invention/walid-bimaristan
     note: "The permanent establishment al-Maqrizi calls the first hospital in Islam, with salaried physicians and provision for lepers and the blind; reported by TDV from al-Khitat II, 405. A later hospital, not shown to derive from the tent."
     sources: [source/tdv-bimaristan]
   - external: { ar: "بيمارستان هارون الرشيد في بغداد", en: "Harun al-Rashid's bimaristan in Baghdad", ur: "بغداد میں ہارون الرشید کا بیمارستان" }
@@ -132,5 +132,5 @@ provenance:
   layer: own-research
   generated_by: "Copilot SDK in VS Code"
   model: "unknown"
-  run: "inventions-p3-b02"
+  run: "inventions-p3-b02; inventions-p3-b05 (dependent linked to invention/walid-bimaristan)"
   source: "Ibn Hajar, al-Isaba (al-Maktaba al-Asriyya one-volume print), pp. 566, 1871–1872, read on the page images 2026-11-05; TDV İslâm Ansiklopedisi, BÎMÂRİSTAN, read 2026-11-05"

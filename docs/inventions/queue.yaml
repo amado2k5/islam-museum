@@ -3747,16 +3747,19 @@ candidates:
     flags: [compare-intelligence-function-with-earlier-postal-systems, verify-source-backed-maker-eligibility]
   - id: bimaristan-damascus-foundation
     label: "Al-Walid I's Damascus bimaristan foundation"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: institutions-systems
     era: first-century
     from: founder-supplied-lead
-    records: ["person/al-walid-ibn-abd-al-malik"]
+    records: ["invention/walid-bimaristan", "person/al-walid-ibn-abd-al-malik", "source/khitat-maqrizi-1998", "source/bidaya-ilmiyya-v5", "source/tarikh-khulafa-minhaj-1434", "source/tdv-bimaristan", "media/nur-al-din-bimaristan-entrance", "media/diagram-walid-bimaristan"]
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.3a"
       - "data/person/al-walid-ibn-abd-al-malik.yaml"
       - source/tdv-bimaristan
+      - "source/khitat-maqrizi-1998 scan pp. 2336–2337"
+      - "source/bidaya-ilmiyya-v5 p. 176"
+      - "source/tarikh-khulafa-minhaj-1434 pp. 366–367"
     flags: [contested-date-and-institution-type, verify-source-backed-maker-eligibility]
   - id: hisba-market-inspector
     label: "Hisba and the market inspector"
