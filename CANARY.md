@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:118 closes its al-Tabari commentary and 2:119 gains its first (volume 2, pp. 557-561): 'We have made the signs clear', the sending with the truth, the two readings of 'you will not be asked about the companions of Hell' with the mursal reports and al-Tabari's reasons for the reading as a report, and the editor's notes on the chains and on Ibn Kathir's remark, each attributed, in Arabic, English and Urdu.
 - Passage 2:118 gains more of al-Tabari's commentary (volume 2, pp. 551-556): his reasons for taking the Christians as those who 'do not know' and the Jews as 'those before them', the narrators' other views, the sense of 'lawla' and 'tashabahat', and his reading of the whole verse, each attributed, in Arabic, English and Urdu.
 - Passage 2:117 closes its al-Tabari commentary and 2:118 gains its first (volume 2, pp. 546-551): his preferred reading of 'Be, and it is' as general, his arguments against the figurative reading, the grammar of 'fa-yakun', and the narrators' views on who said 'why does God not speak to us' (Christians, Jews, Arab polytheists), each attributed, in Arabic, English and Urdu.
 - Passage 2:117 gains more of al-Tabari's commentary (volume 2, pp. 541-546): the meaning of 'qada' with its Arabic usage, his question on when 'Be' is said and the interpreters' four views (particular, general by knowledge, particular in meaning, and a figure of speech), each attributed with the editor's notes, in Arabic, English and Urdu.
