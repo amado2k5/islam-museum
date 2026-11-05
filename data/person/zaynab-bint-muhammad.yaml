@@ -74,9 +74,9 @@ relations:
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 11302، ص 1887 (تراجم النساء)
-  generated_by: Claude (maintainer session)
-  model: claude-sonnet-5-5
-  run: isaba-women-1
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
 external_ids: { wikidata: "Q1164707" }
 sources:
 - source/ibn-hajar-isaba
@@ -86,6 +86,5 @@ sources:
 - source/fath-al-bari
 - source/fiqh-al-sira-al-ghazali
 status:
-  review: draft
-  completeness: 2
-  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1887, entry 11302)
+  review: published
+  completeness: 3
