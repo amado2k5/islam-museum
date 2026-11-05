@@ -1,6 +1,6 @@
 id: person/khalid-ibn-said-ibn-al-as
 class: person
-label: { en: Khalid ibn Sa'id ibn al-As, ar: "خالد بن سعيد بن العاص" }
+label: { en: Khalid ibn Sa'id ibn al-As, ar: "خالد بن سعيد بن العاص" , ur: "خالد بن سعید بن عاص"}
 names:
   - { kind: full, lang: ar, value: "خالد بن سعيد بن العاص بن أمية بن عبد شمس" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "صحابي من بني عبد شمس، هاجر إلى الحبشة بزوجته وولديه، وقدم في السفينتين، وقُتل بمرج الصفر في خلافة أبي بكر."
   en: A Companion of Banu Abd Shams; he emigrated to Abyssinia with his wife and two children, arrived in the two ships, and was killed at Marj al-Suffar in Abu Bakr's caliphate.
+  ur: "بنو عبد شمس کے صحابی تھے۔ اپنی اہلیہ اور دو بچوں کے ساتھ حبشہ ہجرت کی، پھر واپس آئے؛ موجودہ سوانح میں یمن کی ذمہ داریوں اور شام کی مہمات سے ان کا تعلق درج ہے۔ {cite:ibn-hisham-saqqa}"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -28,7 +29,7 @@ relations:
   - { type: died_in, target: place/marj-al-suffar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-farwa-ibn-musayk, role: "بُعث مع فروة على الصدقة فأقام في بلاده حتى توفي النبي", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 3, 229", generated_by: "Claude Sonnet 5.5; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 3, 229", generated_by: "Claude Sonnet 5.5; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}}
 external_ids:
   wikidata: Q1110702
 sources: [source/ibn-hisham-saqqa]

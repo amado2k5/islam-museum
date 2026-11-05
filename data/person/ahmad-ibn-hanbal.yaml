@@ -3,6 +3,7 @@ class: person
 label:
   ar: أحمد بن حنبل
   en: "Ahmad ibn Hanbal"
+  ur: "احمد بن حنبل"
 names:
 - kind: full
   lang: ar
@@ -49,6 +50,7 @@ faith:
 summary:
   ar: إمام محدّث، جمع المسند، وصاحب المذهب الحنبلي الذي يقدّم النص والأثر، ولم يؤلّف في الفقه إلا رسالة واحدة في الصلاة، وكتب عنه أصحابه أكثر من ثلاثين سفراً من كلامه وفتواه. وعند السيوطي امتنع في المحنة عن أن يقول في القرآن أكثر من كلام الله فقيد مع محمد بن نوح العجلي وأرسلا إلى بلاد الروم فبلغتهم وفاة المأمون قبل وصولهم {cite:tarikh-khulafa-minhaj-1434 p. 491-493}، ثم ضربه المعتصم في سنة عشرين على خلق القرآن {cite:tarikh-khulafa-minhaj-1434 p. 522}.
   en: "An imam and hadith scholar who compiled the Musnad; eponym of the Hanbali school, which gives precedence to the revealed text and transmitted reports. He wrote only one treatise on jurisprudence, on prayer, while his students wrote more than thirty volumes of his words and fatwas."
+  ur: "امام اور محدث، مسند کے مرتب اور حنبلی فقہی مکتب سے منسوب شخصیت تھے۔ ان کے علمی کام میں نصوص اور منقول روایات کو مرکزی اہمیت حاصل تھی۔ {cite:madkhal-ibn-badran-turki}"
 wings: [people]
 periods:
 - period/abbasid-early
@@ -64,6 +66,8 @@ provenance:
   generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
   run: madkhal-batch-1
   mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: tarikh-dimashq-amrawi-v5 pp. 252–335 (entry 136, read in part)"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+  model: "unknown"
 relations:
   - { type: authored, target: work/fadail-al-sahaba-ahmad, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: student_of, target: person/abd-al-razzaq-al-sanani, role: "رحل إليه إلى صنعاء مع يحيى بن معين (فضائل الصحابة ص26)", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
