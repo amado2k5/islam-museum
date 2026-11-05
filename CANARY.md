@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:226 continues (vol. 4, pp. 464-469): the reasoning behind each view on which oath amounts to swearing off, al-Tabari's own choice, the meaning of the word for returning with the reports on what counts as returning (intercourse, or a declaration where there is an excuse), in Arabic, English and Urdu.
 - Added a list of the Arabic and Urdu commentary spans in 2:1 to 2:195 that match the Qur'an text only approximately and were deliberately left unchanged, so a later pass can resolve them.
 - Verse-text repair, sweep batch 15: Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text (exact matches only).
 - Passage 2:226 continues (vol. 4, pp. 457-463): the reports on what kind of oath amounts to swearing off from a wife (anger and intent to harm, any oath barring intercourse, any oath to her harm), from 'Ali, Ibn 'Abbas, al-Hasan, al-Nakha'i, al-Sha'bi, al-Zuhri and Sa'id ibn al-Musayyab, with the editor's notes, in Arabic, English and Urdu.
