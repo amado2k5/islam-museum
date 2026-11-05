@@ -41,6 +41,7 @@ open a new block on top with the new version and today's date.
 - An index of the embeddable widgets at /ar/embed/, /en/embed/ and /ur/embed/, listing "Did you know?" and "Trail of the week" with the code to place each on another site.
 - Eight contemporary Urdu-language scholars and preachers from Pakistan and India join the People wing: Faiz Syed of IRC TV (4.17 million YouTube subscribers); Dawat-e-Islami's founder Ilyas Qadri and the preacher Abdul Habib Attari; the late Khadim Hussain Rizvi, founder of Tehreek-e-Labbaik Pakistan, whose archive channel still publishes his recordings; Mufti Salman Azhari; Ashraf Asif Jalali; and Minhaj-ul-Quran's Hussain and Hassan Mohi-ud-Din Qadri — each with sourced pages in Arabic, English and Urdu.
 - Seven more contemporary Urdu-language scholars and preachers from Pakistan and India join the People wing: Youth Club's Tuaha Ibn Jalil; the naat reciter Owais Raza Qadri; Dawat-e-Islami's council head Imran Attari and Ubaid Raza Attari; the debater Ilyas Ghumman; the Qur'an teacher Nighat Hashmi; and the speaker Sahil Adeem — each with sourced pages in Arabic, English and Urdu.
+- Four Islamic media and da'wah organisations from Pakistan join the collection: Madani Channel, the television station of Dawat-e-Islami (3.63 million YouTube subscribers); Youth Club (1.71 million); Dawat-e-Islami's own channel (1.15 million); and Minhaj TV of Minhaj-ul-Quran International (146,000) — each with sourced pages in Arabic, English and Urdu.
 
 ### Changed
 
