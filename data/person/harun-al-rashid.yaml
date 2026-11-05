@@ -6,6 +6,16 @@ summary:
   en: "Harun ibn Muhammad al-Mahdi, fifth Abbasid caliph; in al-Baladhuri: as prince he led the summer raid of year 163 for his father, besieging Damalu and granting its people aman — settled at Baghdad's Samalu quarter — and in year 165 descending on the Gulf, repairing Masisa and its mosque, increasing its garrison and building the Adhana-bridge palace on the Sayhan; as caliph he learned in year 171 that the Byzantines had conspired to fortify Tarsus and forestalled them through Harthama ibn A'yan and Faraj ibn Sulaym, settling the two levies, ordered Ayn Zarba built and fortified in year 180 and the city of the Black Church likewise, named the march cities the 'Awasim, returned the Cypriot captives taken by Hayy ibn Ma'yuf, restored Filastin's deserted estates to their people through Harthama with the takhafif and rudud, disbursed funds through the marches and coasts, and carried the craft of raiding, in Mu'awiya ibn Amr's words, to a pitch unmatched before him. Tarikh Baghdad (#7347): born at Rayy three nights short of Dhu'l-Hijja 150 (another report 149), given the bay'a at Baghdad on Friday 14 Rabi' I 170 — the very day al-Hadi died — aged nineteen years, two months and thirteen days, with al-Ma'mun born that same night; he kept al-Khuld, alternated a year of hajj with a year of ghazw, took a hundred scholars and their sons on pilgrimage, loved fiqh and fuqaha' and loathed kalam disputation; he wept convulsively at Abu Mu'awiya al-Darir's hadith 'I would love to be killed in God's path then live again' yet was told his place in Islam was too great to go raiding in person. He died at Tus on Saturday night, four days into Jumada II 193, buried at Sanabadh with his son Salih praying over him — forty-five years old after twenty-three years, two months and sixteen days of rule {cite:tarikh-baghdad-khatib j.11 p.5-15}."
 wings: [people]
 periods: [period/abbasid-early]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "Al-Suyuti identifies Harun as the Abbasid caliph, describes his prayer, pilgrimage and charity and his opposition to Bishr al-Marisi's teaching on the created Qur'an (Tarikh al-Khulafa, Minhaj edition, pp. 456–457; p. 457 checked on the scan). Muslim identity rests on that biography, not on his name or office alone. Sunni is the museum's default frame under docs/scope.md; no contrary tradition is attested in the passages read."
+    sources: [source/tarikh-khulafa-minhaj-1434]
+inventions:
+  - invention: invention/harun-bimaristan
+    role: commissioner
+    sources: [source/tdv-bimaristan]
 relations:
   - { type: child_of, target: person/al-mahdi, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/captives-of-samalu, role: "أمير الصائفة سنة 163", sources: [source/futuh-buldan-maarif-1407] }
@@ -16,7 +26,7 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-13, lib-tarikh-khalifa-batch-2-2026-10-31
 external_ids: { wikidata: "Q131002" }
-sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/tarikh-baghdad-khatib, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985]
+sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/tarikh-baghdad-khatib, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/tdv-bimaristan]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 
 education:

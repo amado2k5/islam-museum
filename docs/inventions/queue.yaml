@@ -1281,16 +1281,18 @@ candidates:
     flags: [verify-specific-medical-institutional-contribution, reconcile-first-hospital-claims]
   - id: harun-al-rashid-baghdad-bimaristan
     label: "Harun al-Rashid's Baghdad bimaristan"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: medicine-surgery
     era: abbasid-golden
     from: scholarly-reference
-    records: ["person/harun-al-rashid"]
+    records: ["invention/harun-bimaristan", "person/harun-al-rashid", "person/jibril-ibn-bukhtishu", "source/tdv-buhtisu", "media/diagram-harun-bimaristan"]
     lead_sources:
       - "data/person/harun-al-rashid.yaml"
       - source/tdv-bimaristan
-    flags: [verify-specific-improvement-over-jundishapur, identify-contributors-and-roles, verify-source-backed-maker-eligibility]
+      - "source/tdv-buhtisu introduction and section 3"
+      - "source/tarikh-khulafa-minhaj-1434 pp. 456–457 (p. 457 checked on the image)"
+    flags: [transmission-not-invention-of-hospitals, commissioner-distinct-from-physicians, foundation-year-unknown]
   - id: al-razi-smallpox-measles
     label: "Differentiation of smallpox and measles"
     state: "[~]"
