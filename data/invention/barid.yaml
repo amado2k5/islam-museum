@@ -1,0 +1,149 @@
+id: invention/barid
+class: invention
+label:
+  ar: "البريد (نظام التتابع بين المحطات)"
+  en: "The barid (the state relay post)"
+  ur: "برید (چوکیوں کے ذریعے سرکاری ڈاک)"
+names:
+  - { value: "البريد", kind: alternate, lang: ar }
+  - { value: "ديوان البريد", kind: alternate, lang: ar }
+  - { value: "السكك", kind: alternate, lang: ar }
+  - { value: "The caliphal post", kind: alternate, lang: en }
+  - { value: "Berîd", kind: alternate, lang: tr }
+summary:
+  ar: "شبكة من المحطات على الطرق الكبرى تُبدَّل فيها الدواب والرسل، فتنقل كتب الدولة وأخبار الأقاليم إلى الخليفة بسرعة. عرفها الفرس والروم قبل الإسلام، وتذكر المصادر أن معاوية بن أبي سفيان أول من وضعها في الإسلام، بنتها له دهاقين الفرس وأهل دواوين الروم، وأحكمها عبد الملك بن مروان، ثم أعادها العباسيون ديواناً، وأحياها الظاهر بيبرس، وبقيت إلى أن سقطت دمشق في يد تيمور سنة 804هـ."
+  en: "A network of stations on the main roads where mounts and riders were changed, so that the state's letters and the news of the provinces reached the caliph quickly. The Persians and Byzantines had such a post before Islam. The sources name Mu'awiya ibn Abi Sufyan as the first to set it up in Islam, built for him by Persian dihqans and men from the Byzantine bureaux. Abd al-Malik ibn Marwan perfected it, the Abbasids ran it as a bureau, al-Zahir Baybars revived it, and it lasted until Timur took Damascus in 804 AH."
+  ur: "بڑی شاہراہوں پر چوکیوں کا ایک جال جہاں سواریاں اور ہرکارے بدلے جاتے تھے، تاکہ حکومت کے خطوط اور صوبوں کی خبریں تیزی سے خلیفہ تک پہنچیں۔ اسلام سے پہلے فارس اور روم میں ایسی ڈاک موجود تھی۔ مآخذ کے مطابق اسلام میں اسے سب سے پہلے معاویہ بن ابی سفیان نے قائم کیا، جسے فارسی دہقانوں اور رومی دفاتر کے لوگوں نے ان کے لیے بنایا۔ عبد الملک بن مروان نے اسے پختہ کیا، عباسیوں نے اسے ایک دیوان کی صورت دی، الظاہر بیبرس نے اسے دوبارہ زندہ کیا، اور یہ 804ھ میں تیمور کے دمشق لینے تک قائم رہی۔"
+domain: institutions-systems
+kind: system
+disciplines: [geography]
+wings: [made]
+periods: [period/umayyad]
+regions: [levant-iraq]
+era:
+  origins: first-century
+  first_attested:
+    edtf: "0661/0680"
+    calendar: julian
+    precision: year
+    status: historical
+    derived: true
+    note: "No source gives a year. Al-Qalqashandi, citing Abu Hilal al-Askari, places it after the caliphate was settled for Mu'awiya, so the range is his reign as caliph, 41–60 AH (661–680 CE). A range cannot be written as a Hijri string, so only the EDTF range is given; it is derived."
+    sources: [source/subh-al-asha-cairo-v14, source/tarikh-khulafa-minhaj-1434, source/tdv-berid]
+  status_today: transformed
+origin:
+  place: place/damascus
+  context:
+    ar: "لما استقر الأمر لمعاوية بعد مقتل علي وتسليم الحسن، صارت دولة واحدة تمتد من خراسان إلى مصر والمغرب تُحكم من دمشق، واحتاج الخليفة أن تصله أخبار الأقاليم البعيدة سريعة. وكان الفرس والروم قد عرفوا البريد قبل الإسلام، فاستدعى معاوية دهاقين الفرس وأهل أعمال الروم فوضعوه له."
+    en: "Once the caliphate was settled for Mu'awiya after Ali's death and al-Hasan's handover, a single state stretching from Khurasan to Egypt and the Maghrib was ruled from Damascus, and the caliph needed the news of distant provinces to reach him fast. The Persians and the Byzantines had known the barid before Islam, so Mu'awiya summoned Persian dihqans and men from the Byzantine administration, who set it up for him."
+    ur: "علی کی وفات اور حسن کی دست برداری کے بعد جب خلافت معاویہ کے لیے مستحکم ہوئی تو خراسان سے مصر اور مغرب تک ایک ہی ریاست دمشق سے چلائی جانے لگی، اور خلیفہ کو ضرورت تھی کہ دور دراز صوبوں کی خبریں جلد اس تک پہنچیں۔ فارس اور روم اسلام سے پہلے برید کو جانتے تھے، چنانچہ معاویہ نے فارسی دہقانوں اور رومی انتظامیہ کے لوگوں کو بلایا جنہوں نے ان کے لیے اسے قائم کیا۔"
+makers:
+  - person: person/muawiya-ibn-abi-sufyan
+    role: commissioner
+    place: place/damascus
+    note: "Caliph 41–60 AH. Al-Qalqashandi and al-Suyuti, both quoting Abu Hilal al-Askari's al-Awa'il, name him the first to set up the barid in Islam; al-Qalqashandi adds that Persian dihqans and men from the Byzantine bureaux built it for him. TDV adds the cost (4 million dirhams) and the intelligence role he gave it."
+    sources: [source/subh-al-asha-cairo-v14, source/tarikh-khulafa-minhaj-1434, source/tdv-berid, source/ibn-hajar-isaba]
+attribution:
+  status: improvement
+  claim:
+    ar: "معاوية بن أبي سفيان أول من وضع البريد في الإسلام."
+    en: "Mu'awiya ibn Abi Sufyan was the first to set up the barid in Islam."
+    ur: "معاویہ بن ابی سفیان اسلام میں برید قائم کرنے والے پہلے شخص تھے۔"
+  basis:
+    ar: "ينقل القلقشندي والسيوطي عن أبي هلال العسكري في «الأوائل» أن معاوية أول من وضع البريد في الإسلام، ويذكر القلقشندي أن الأكاسرة والقياصرة عرفوه قبله وأن دهاقين الفرس وأهل دواوين الروم وضعوه له؛ فهو نقلٌ لنظام قائم وتنظيمٌ له في دولة جديدة، لا ابتكار من عدم. ويذكر القلقشندي قولاً آخر بأن أول من وضعه عبد الملك بن مروان، وينقل عن العسكري أن عبد الملك أحكمه. وتوافق موسوعة الديانة التركية على أن معاوية أول خليفة نظّم البريد على مثال الفرس والروم."
+    en: "Al-Qalqashandi and al-Suyuti both quote Abu Hilal al-Askari's al-Awa'il that Mu'awiya was the first to set up the barid in Islam. Al-Qalqashandi adds that the Persian and Byzantine emperors had it before him and that Persian dihqans and men from the Byzantine bureaux built it for him, so it was an existing system taken over and organised for a new state, not made from nothing. He also records a second report that Abd al-Malik ibn Marwan was the first, and quotes al-Askari that Abd al-Malik perfected it. The TDV encyclopaedia agrees that Mu'awiya was the first caliph to organise the barid on the Persian and Byzantine model."
+    ur: "قلقشندی اور سیوطی دونوں ابو ہلال عسکری کی «الاوائل» سے نقل کرتے ہیں کہ معاویہ اسلام میں برید قائم کرنے والے پہلے شخص تھے۔ قلقشندی مزید بتاتے ہیں کہ فارس اور روم کے بادشاہوں کے ہاں یہ پہلے سے تھا اور فارسی دہقانوں اور رومی دفاتر کے لوگوں نے اسے ان کے لیے بنایا؛ یوں یہ ایک موجود نظام کو نئی ریاست کے لیے اپنانا اور منظم کرنا تھا، عدم سے ایجاد نہیں۔ وہ ایک دوسری روایت بھی درج کرتے ہیں کہ پہلے عبد الملک بن مروان تھے، اور عسکری سے نقل کرتے ہیں کہ عبد الملک نے اسے پختہ کیا۔ ترکی دیانت انسائیکلوپیڈیا (TDV) بھی متفق ہے کہ معاویہ پہلے خلیفہ تھے جنہوں نے فارسی اور رومی نمونے پر برید منظم کیا۔"
+  perspectives: []
+precursors:
+  - external:
+      ar: "بريد الأكاسرة (الفرس الساسانيين)"
+      en: "The post of the Persian (Sasanian) kings"
+      ur: "فارس کے (ساسانی) بادشاہوں کی ڈاک"
+    note: "Al-Qalqashandi: the barid existed under the Akasira, and Mu'awiya had Persian dihqans set it up for him. TDV: the Sasanians had a relay post."
+    sources: [source/subh-al-asha-cairo-v14, source/tdv-berid]
+  - external:
+      ar: "بريد القياصرة (الروم)"
+      en: "The Byzantine imperial post"
+      ur: "رومی قیصروں کی ڈاک"
+    note: "Al-Qalqashandi, after al-Ta'rif: the Byzantine emperors had the barid, and men from their administration helped build Mu'awiya's. TDV gives the Latin veredus as one proposed origin of the word."
+    sources: [source/subh-al-asha-cairo-v14, source/tdv-berid]
+  - external:
+      ar: "رسل النبي إلى الملوك ودور البريد في عهد عمر"
+      en: "The Prophet's envoys and the post houses of Umar's time"
+      ur: "نبی کے سفیر اور عمر کے دور کے ڈاک خانے"
+    note: "TDV: envoys carried letters in the Prophet's time (the hadith 'I do not detain envoys (burud)', Abu Dawud, Jihad 151); news of Yarmuk came by courier, and Umar had post houses built on the road near Kufa."
+    sources: [source/tdv-berid]
+dependents:
+  - external:
+      ar: "إحكام عبد الملك بن مروان للبريد وصاحب البريد"
+      en: "Abd al-Malik ibn Marwan's perfected barid and its sahib al-barid"
+      ur: "عبد الملک بن مروان کا پختہ کیا ہوا برید اور صاحبِ برید"
+    note: "Al-Qalqashandi quotes al-Askari that Abd al-Malik perfected it and records his order never to keep a courier waiting. TDV: under him the sahib al-barid reported straight to the caliph, and Qabisa ibn Dhu'ayb was the leading Umayyad master of the post."
+    sources: [source/subh-al-asha-cairo-v14, source/tdv-berid]
+  - external:
+      ar: "ديوان البريد العباسي"
+      en: "The Abbasid diwan al-barid"
+      ur: "عباسی دیوانِ برید"
+    note: "Al-Qalqashandi: Harun al-Rashid's vizier Yahya ibn Khalid restored it as it was under the Umayyads, with mules at the stations. TDV: stations every 2–4 farsakh, 930 stations, a budget of 8 million dirhams."
+    sources: [source/subh-al-asha-cairo-v14, source/tdv-berid]
+  - external:
+      ar: "بريد المماليك الذي أحياه الظاهر بيبرس"
+      en: "The Mamluk barid revived by al-Zahir Baybars"
+      ur: "الظاہر بیبرس کا دوبارہ زندہ کیا ہوا مملوک برید"
+    note: "Al-Qalqashandi: Baybars, on the advice of his chancery secretary Sharaf al-Din Abd al-Wahhab (Ibn Fadl Allah al-Umari's uncle), restored the barid between Egypt and Syria and it lasted until Timur took Damascus in 804 AH. TDV: Cairo to Damascus in about four days."
+    sources: [source/subh-al-asha-cairo-v14, source/tdv-berid]
+  - external:
+      ar: "نظام المنزل العثماني والبريد الحديث"
+      en: "The Ottoman menzil system and the modern post"
+      ur: "عثمانی منزل کا نظام اور جدید ڈاک"
+    note: "TDV: the Ottomans ran a menzil relay with couriers (ulak, tatar); the modern European-style post was adopted under Mahmud II."
+    sources: [source/tdv-berid]
+spread: []
+impact:
+  fields: [institutions-systems, navigation-geography]
+  changed:
+    ar: "صار للدولة طريق ثابت سريع للأخبار والأوامر بين العاصمة والأقاليم، وصار صاحب البريد عين الخليفة على ولاته، فارتبط البريد بالإدارة والاستخبار معاً."
+    en: "The state gained a fixed, fast route for news and orders between the capital and the provinces, and the master of the post became the caliph's eye on his governors, so the barid served administration and intelligence together."
+    ur: "ریاست کو دارالحکومت اور صوبوں کے درمیان خبروں اور احکام کا ایک مستقل اور تیز راستہ مل گیا، اور صاحبِ برید خلیفہ کی اپنے گورنروں پر نگاہ بن گیا، یوں برید انتظام اور جاسوسی دونوں کا کام دینے لگا۔"
+  history:
+    ar: "بقي البريد نحو سبعة قرون، ينقطع ويعود: أعاده العباسيون ديواناً، وقطعه البويهيون، واستعمل الزنكيون والأيوبيون النجّابين والحمام، وأحياه بيبرس، حتى زال بعد غزو تيمور."
+    en: "The barid lasted some seven centuries, lapsing and returning: the Abbasids rebuilt it as a bureau, the Buyids cut it, the Zangids and Ayyubids used camel couriers and pigeons, and Baybars revived it until it ended after Timur's invasion."
+    ur: "برید تقریباً سات صدیوں تک رکتا اور پھر چلتا رہا: عباسیوں نے اسے دیوان کی صورت میں دوبارہ بنایا، بویہیوں نے اسے ختم کیا، زنگیوں اور ایوبیوں نے اونٹ سواروں اور کبوتروں سے کام لیا، اور بیبرس نے اسے زندہ کیا یہاں تک کہ تیمور کے حملے کے بعد یہ ختم ہو گیا۔"
+  significance: 4
+  why: "The first state post organised in Islam, the model for the Abbasid, Mamluk and Ottoman relay systems and a working tool of caliphal administration and intelligence."
+described_in: [work/subh-al-asha, work/tarikh-al-khulafa]
+examples: []
+sites: [place/damascus]
+concepts: [concept/diwan-al-barid, concept/pigeon-post]
+today:
+  form:
+    ar: "لم يبق البريد القديم، لكن اسمه بقي في العربية للخدمة البريدية الحديثة، وبقي تاريخه مكتوباً في كتب الإنشاء."
+    en: "The old relay post is gone, but its name lives on in Arabic for the modern postal service, and its history is kept in the chancery manuals."
+    ur: "پرانی برید باقی نہیں رہی، مگر اس کا نام عربی میں جدید ڈاک کے لیے باقی ہے، اور اس کی تاریخ انشا کی کتابوں میں محفوظ ہے۔"
+  descendants:
+    ar: "خدمات البريد الحكومية في البلدان الإسلامية، التي ورثت الاسم والفكرة: شبكة ثابتة تنقل الرسائل بين مراكز معلومة."
+    en: "The state postal services of Muslim countries, which inherited the name and the idea: a fixed network carrying letters between known points."
+    ur: "مسلم ممالک کی سرکاری ڈاک کی خدمات، جنہیں نام اور خیال دونوں ورثے میں ملے: معلوم مراکز کے درمیان خط پہنچانے والا ایک مستقل جال۔"
+media:
+  image: media/barid-stations-yemen-map
+  diagram: media/diagram-barid
+kids:
+  ar: "قبل نحو ألف وأربعمئة سنة، أراد الخليفة معاوية أن تصله الأخبار من البلاد البعيدة بسرعة، فأقام على الطرق محطات فيها دواب مستريحة. يركض الرسول بالرسالة إلى المحطة التالية، فيأخذها رسول آخر على دابة نشيطة، وهكذا حتى تصل. هذا هو البريد، ومنه جاء اسم البريد الذي نرسل به الرسائل اليوم."
+  en: "About fourteen hundred years ago, the caliph Mu'awiya wanted news from faraway lands to reach him fast. So he set up stations along the roads with rested animals. A rider raced with a letter to the next station, where a fresh rider on a fresh animal took it on, and so on until it arrived. This was the barid, and the Arabic word for post still comes from it."
+  ur: "تقریباً چودہ سو سال پہلے خلیفہ معاویہ چاہتے تھے کہ دور کے علاقوں کی خبریں ان تک جلد پہنچیں۔ اس لیے انہوں نے راستوں پر چوکیاں بنائیں جہاں تازہ دم جانور ہوتے تھے۔ ایک سوار خط لے کر اگلی چوکی تک دوڑتا، وہاں دوسرا سوار تازہ جانور پر اسے آگے لے جاتا، یہاں تک کہ خط پہنچ جاتا۔ یہی برید تھی، اور عربی میں ڈاک کا لفظ آج بھی اسی سے آتا ہے۔"
+sources:
+  - source/subh-al-asha-cairo-v14
+  - source/tarikh-khulafa-minhaj-1434
+  - source/tdv-berid
+  - source/ibn-hajar-isaba
+  - source/wikimedia-commons
+status:
+  review: published
+  completeness: 3
+  generated_by: "Copilot SDK in VS Code"
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b04"
+  source: "al-Qalqashandi, Subh al-A'sha vol. 14 pp. 367–370; al-Suyuti, Tarikh al-Khulafa (Minhaj ed.) p. 332; TDV İslâm Ansiklopedisi, BERÎD (vol. 5, pp. 498–501)"
