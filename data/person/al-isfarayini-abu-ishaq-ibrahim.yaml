@@ -1,6 +1,6 @@
 id: person/al-isfarayini-abu-ishaq-ibrahim
 class: person
-label: { ar: "الإسفراييني أبو إسحاق إبراهيم بن محمد", en: "Al-Isfara'ini, Abu Ishaq Ibrahim ibn Muhammad" }
+label: { ar: "الإسفراييني أبو إسحاق إبراهيم بن محمد", en: "Al-Isfara'ini, Abu Ishaq Ibrahim ibn Muhammad", ur: "ابو اسحاق ابراہیم الاسفراینی" }
 names:
   - { kind: full, lang: ar, value: "أبو إسحاق إبراهيم بن محمد الإسفراييني" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 born: { edtf: "0949~", hijri: "0337", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "1027", hijri: "0418", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab], note: "توفي بنيسابور يوم عاشوراء سنة ثمان عشرة وأربعمائة ثم نُقل إلى بلده إسفرايين فدُفن بمشهده المعروف؛ كان يقول أشتيه أن أموت بنيسابور ليصلّي عليّ جميع أهلها {cite:shadharat-dhahab p. 210}." }
 summary:
+  ur: "نیشاپور اور جرجان کے درمیان اسفراین کے شافعی فقیہ اور متکلم؛ بغداد میں علم کلام اور اصول فقہ کی تعلیم حاصل کی۔ {cite:mawsuat-a3lam-ulama-adaba}"
   ar: "متكلم وفقيه شافعي من إسفرايين بين نيسابور وجرجان، تلقى علم الكلام وأصول الفقه في بغداد."
   en: "A Shafi'i theologian and jurist from Isfara'in, between Nishapur and Gurgan. He studied theology and legal theory in Baghdad."
 wings: [people]
@@ -28,6 +29,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch52
+  explorer_localization: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "explorer-fifth-40-stories-2026-11-04", source: "Missing Urdu label and concise summary restated from the existing Arabic museum record and its defined sources; no new facts or source-page research." }
 occupations:
   - job: job/faqih
     kind: secondary

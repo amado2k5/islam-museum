@@ -9,7 +9,7 @@ education:
     ur: "حسان بن ثابت، انصار کے شاعر جنھوں نے شعر سے نبی کا دفاع کیا؛ نبی نے ان کے لیے مسجد میں منبر نصب کیا جس پر وہ کلام کہتے۔"
     sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 class: person
-label: { en: "Hassan ibn Thabit", ar: "حسان بن ثابت" }
+label: { en: "Hassan ibn Thabit", ar: "حسان بن ثابت", ur: "حسان بن ثابت" }
 names:
   - { kind: full, lang: ar, value: "حسان بن ثابت بن المنذر النجاري الأنصاري" }
   - { kind: laqab, lang: ar, value: "شاعر الرسول" }
@@ -17,6 +17,7 @@ gender: male
 roles: [companion, poet]
 traditions: [sunni]
 summary:
+  ur: "بنو نجار سے تعلق رکھنے والے انصار کے شاعر؛ نبی کے دفاع میں شاعری کرتے تھے اور طویل عمر پائی۔ {cite:mubarakpuri-raheeq}"
   en: "The renowned 'Poet of the Prophet'; an Ansari chief of Banu al-Najjar who defended Islam and the Prophet with his eloquent poetry, endorsed by the Prophet with the supplication 'O God, support him with the Holy Spirit'; lived to over a hundred years."
   ar: "شاعر الرسول وشاعر الأنصار؛ صحابي جليل من بني النجار كان ينفح عن رسول الله ويهجو خصومه بشعره، وكان النبي ينصب له منبراً في المسجد ويقول: «اللهم أيده بروح القدس»؛ عُمّر طويلاً وتوفي في خلافة معاوية. وزار الحارث بن أبي شمر الغساني بالشام وقال له حين ساماه النعمان بن المنذر يا بن الفريعة لقد نبئت أنك تفضل النعمان عليّ فقال وكيف أفضله عليك فوالله لقفاك أحسن من وجهه ثم أتم الفخر شعراً في ابن الفريعة {cite:muruj-al-dhahab p. 426-427}، وفي مسلم سمعه البراء يقول له النبي «اهجهم وجبريل معك» {cite:sahih-muslim 2486}"
 wings: [people]
@@ -51,3 +52,4 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch6"
+  explorer_localization: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "explorer-fifth-40-stories-2026-11-04", source: "Missing Urdu label and concise summary restated from the existing Arabic museum record and its defined sources; no new facts or source-page research." }
