@@ -14,14 +14,16 @@ themes: []
 regions: [global]
 periods: [period/prophetic-era]
 relations: []
-sources: [source/tafsir-sharawi-khawatir-scan]
+sources: [source/tafsir-sharawi-khawatir-scan, source/tafsir-tabari-shakir-v01]
 provenance:
   layer: own-research
   source: "خواطر الشعراوي حول القرآن الكريم، المجلد الأول، الصفحات 52-54 و66 (نسخة OCR محلية)"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: "tafsir-sharawi-remaining batch 1 (pages 32-131)"
+  enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-rahman-rahim-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 126-132: the grammar of rahman and rahim, the two transmitted accounts and the editor's grades, the universal and particular senses, Ibn Abbas and Ata al-Khurasani reports, the Musaylima account, the pre-Islamic and Qur'anic evidence against the claim of ignorance, and the synonym view" }
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
   generated_by: "tafsir-sharawi-remaining (Claude Haiku 5.5); scan pages 52-66 read from OCR; the hadith on p.66 is cited by Sha'rawi to Ahmad's Musnad and its grading is not checked here"

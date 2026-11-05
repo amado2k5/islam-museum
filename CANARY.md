@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Concepts al-Rahman al-Rahim and Rahma gain al-Tabari's commentary on the two names in Arabic, English and Urdu: the grammar of rahman and rahim, why both are named, the general mercy of al-Rahman against the particular mercy of al-Rahim, and his rejection of the claim that the Arabs did not know the name (Shakir edition, volume 1, pp. 126–132). Al-Rahman al-Rahim moves to published.
 - Concept al-Basmala gains al-Tabari's commentary in Arabic, English and Urdu: the verse-count dispute, the meaning of the phrase and the implied verb (Shakir edition, volume 1, pp. 109, 114–116). Status moved to published.
 - Concept al-Sirat al-Mustaqim moved from draft to published with full Arabic, English and Urdu prose: al-Tabari's consensus that it is the clear road, his preferred reading of "guide us", and the link to the next verse (Shakir edition, volume 1, pp. 170–171).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 51 — Wafayat remainder and Ibn Hisham Sirah cohorts).
