@@ -76,7 +76,7 @@ const collections = wing === "objects"
     )}
 
     {wing === "place" && placesWithCoords.length > 0 && (
-      <figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure>
+      <figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} declutter /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure>
     )}
 
     {wing === "words" && (
