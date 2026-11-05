@@ -23,6 +23,7 @@ relations:
   - { type: child_of, target: person/jafar-ibn-abi-talib, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/asma-bint-umays, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: born-in-abyssinia, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: own-research
   source: "المسعودي، مروج الذهب وأهل المعاجن"

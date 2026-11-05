@@ -158,6 +158,7 @@ open a new block on top with the new version and today's date.
 - The pathway total is now 300: the duplicate Alexandria trail (exhibit/path-alexandria-city) became an alias of exhibit/path-alexandria, and the homepage and learning pages say 300 in Arabic, English and Urdu.
 
 - The People wing's two longest-open questions are closed on the evidence. Sharif Finch's page keeps his affiliation as unknown, and now records why the question is settled rather than pending: a commissioned evidence review found that the profile said to document Christian practice in his own words does not hold up — his only first-person statement calls himself religious and names no faith, and no text attests Islam for him. The same review confirms that four names once held back for a ruling stay out of the museum: Hasdai ibn Shaprut, Raja Todar Mal and Birbal, each attested in the affiliation the original rows gave them, and Tansen, whose affiliation the sources leave genuinely disputed and legendary.
+- The Companions become a queryable set: the group record for the Sahaba is published, and the first 24 Companion records — al-Abbas, Ibn Abbas, Ibn Masud, Abu Bakr and their generation — now carry a sourced membership edge to it, the first batch of 474 under the coverage-expansion programme's opening phase, so the founding generation can be asked for as a set, not found name by name.
 
 ---
 

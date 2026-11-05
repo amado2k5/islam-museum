@@ -4,31 +4,31 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 
 ## Batch 01 (25 entities: the group + 24 published records)
 
-- [ ] group/sahaba — publish (review: published, completeness 2)
-- [ ] person/abbas-ibn-abd-al-muttalib
-- [ ] person/abbas-ibn-mirdas
-- [ ] person/abd-allah-ibn-yazid-al-khatmi
-- [ ] person/abd-allah-ibn-zayd-al-ansari
-- [ ] person/abdullah-ibn-abbas
-- [ ] person/abdullah-ibn-abi-hadrad
-- [ ] person/abdullah-ibn-abi-umayya
-- [ ] person/abdullah-ibn-al-harith-sahmi
-- [ ] person/abdullah-ibn-al-mughaffal-al-muzani
-- [ ] person/abdullah-ibn-al-muttalib-ibn-azhar
-- [ ] person/abdullah-ibn-hudhafa-al-sahmi
-- [ ] person/abdullah-ibn-jafar
-- [ ] person/abdullah-ibn-masud
-- [ ] person/abdullah-ibn-sad-ibn-abi-sarh
-- [ ] person/abdullah-ibn-sufyan-makhzumi
-- [ ] person/abu-al-rum-ibn-umayr
-- [ ] person/abu-al-tufayl-amir-ibn-wathila
-- [ ] person/abu-amir-al-ashari
-- [ ] person/abu-bakr
-- [ ] person/abu-bakra-al-thaqafi
-- [ ] person/abu-barza-al-aslami
-- [ ] person/abu-hatib-ibn-amr
-- [ ] person/abu-juhayfa-al-suwai
-- [ ] person/abu-khaythama
+- [x] group/sahaba — publish (review: published, completeness 2)
+- [x] person/abbas-ibn-abd-al-muttalib
+- [x] person/abbas-ibn-mirdas
+- [x] person/abd-allah-ibn-yazid-al-khatmi
+- [x] person/abd-allah-ibn-zayd-al-ansari
+- [x] person/abdullah-ibn-abbas
+- [x] person/abdullah-ibn-abi-hadrad
+- [x] person/abdullah-ibn-abi-umayya
+- [x] person/abdullah-ibn-al-harith-sahmi
+- [x] person/abdullah-ibn-al-mughaffal-al-muzani
+- [x] person/abdullah-ibn-al-muttalib-ibn-azhar
+- [x] person/abdullah-ibn-hudhafa-al-sahmi
+- [x] person/abdullah-ibn-jafar
+- [x] person/abdullah-ibn-masud
+- [x] person/abdullah-ibn-sad-ibn-abi-sarh
+- [x] person/abdullah-ibn-sufyan-makhzumi
+- [x] person/abu-al-rum-ibn-umayr
+- [x] person/abu-al-tufayl-amir-ibn-wathila
+- [x] person/abu-amir-al-ashari
+- [x] person/abu-bakr
+- [x] person/abu-bakra-al-thaqafi
+- [x] person/abu-barza-al-aslami
+- [x] person/abu-hatib-ibn-amr
+- [x] person/abu-juhayfa-al-suwai
+- [x] person/abu-khaythama
 
 ## Remaining published records (182)
 

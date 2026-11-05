@@ -11,6 +11,8 @@ periods: [period/prophetic-era]
 regions: [arabia]
 themes: [scripture-and-its-sciences]
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/tadrib-rawi-awwama-v5]
+relations:
+  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 provenance:
   layer: own-research
   source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء (ص 7149 من المسح)"
