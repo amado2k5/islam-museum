@@ -18,3 +18,5 @@ He holds that Iblis's disobedience was at the top, since he answered the command
 
 ## Not yet checked
 This is Sha'rawi's reading, with objections he reports without naming their holders. No historical or linguistic study of prostration is set out here, the report he cites has not been checked at its source, and none is checked.
+
+On [[passage/quran-2-34|verse 34]], al-Tabari holds that the angels' prostration was an honour to Adam and obedience to God, not worship of Adam, and reports from Qatada that the obedience was to God and the prostration to Adam. {cite:tafsir-tabari-shakir-v01 p. 512}
