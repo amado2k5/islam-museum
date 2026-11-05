@@ -1258,16 +1258,17 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: rufayda-field-hospital-tent
     label: "Rufayda's medical tent at Medina"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: medicine-surgery
     era: first-century
     from: scholarly-reference
-    records: ["person/rufayda-al-aslamiyya"]
+    records: ["invention/rufayda-medical-tent", "person/rufayda-al-aslamiyya"]
     lead_sources:
       - "data/person/rufayda-al-aslamiyya.yaml"
       - source/nisa-hawl-alrasul
       - source/tdv-bimaristan
+      - source/ibn-hajar-isaba
     flags: [verify-specific-medical-institutional-contribution, reconcile-first-hospital-claims]
   - id: harun-al-rashid-baghdad-bimaristan
     label: "Harun al-Rashid's Baghdad bimaristan"
