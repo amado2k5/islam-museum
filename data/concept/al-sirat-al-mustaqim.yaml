@@ -4,21 +4,25 @@ kind: term
 label:
   ar: "الصراط المستقيم"
   en: "al-Sirat al-Mustaqim"
+  ur: "الصراط المستقیم"
 summary:
-  ar: "بطاقة أولية للصراط المستقيم، الطريق المستقيم الذي يدعو إليه المؤمنون في الفاتحة؛ لم تُراجع الصفحة بعد."
-  en: "Draft card for al-sirat al-mustaqim, the straight path believers petition in the Fatiha; the page not yet checked."
+  ar: "الصراط المستقيم في الفاتحة: عند الطبري هو الطريق الواضح الذي لا اعوجاج فيه، وأولى تأويلات «اهدنا» عنده التوفيق للثبات على ما ارتضاه الله من قول وعمل {cite:tafsir-tabari-shakir-v01 p. 171}."
+  en: "The straight path petitioned in the Fatiha: for al-Tabari it is the clear road with no crookedness, and the best reading of 'guide us' is steadfastness in what God approves {cite:tafsir-tabari-shakir-v01 p. 171}."
+  ur: "سورۂ فاتحہ میں مانگا گیا صراطِ مستقیم: طبری کے نزدیک یہ وہ واضح راستہ ہے جس میں ٹیڑھ نہ ہو {cite:tafsir-tabari-shakir-v01 p. 171}۔"
 wings: [ideas]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/tafsir-tabari-shakir-v01]
 external_ids:
   wikidata: Q7529988
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: cited encyclopedia — entry not yet checked on the page"
+  source: "Wikidata candidate; prose from Tabari, Jami al-Bayan, Shakir edition vol. 1 pp. 170-171"
+  enriched_by:
+    - { generated_by: "Claude Code (Tabari harvest)", model: claude-haiku-5-5, run: tabari-harvest-2026-11-04, source: "source/tafsir-tabari-shakir-v01 PDF pp. 170-171" }
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-audit
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

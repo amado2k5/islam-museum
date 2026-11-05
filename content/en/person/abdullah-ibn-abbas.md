@@ -37,3 +37,7 @@ Abu al-Abbas Abdullah ibn Abbas (3 BH – 68 AH / 619–687 CE), acclaimed as th
 
 ## His place in al-Tabari's Jami' al-Bayan
 One of the chains for Ibn Abbas's exegesis that recurs most in [[work/jami-al-bayan|Jami' al-Bayan]] is that of [[person/atiyya-al-awfi|Atiyya al-Awfi]] and his descendants: Muhammad ibn Sa'd, from his father, from his uncle, from al-Husayn ibn al-Hasan, from his father, from his grandfather Atiyya, from Ibn Abbas; [[person/al-tabari|al-Tabari]] quotes it in some 1,560 places according to Fuat Sezgin, as Ahmad Khalid Babakr cites. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.48}
+
+## In al-Tabari's commentary
+Al-Tabari gives a report from Ibn Abbas, through Abu Rawq and al-Dahhak, that "al-hamd lillah" means thanks to God, submission to Him, and acknowledgment of His blessing, guidance and origination; the editor grades the chain as weak. {cite:tafsir-tabari-shakir-v01 p. 135}
+Al-Tabari also gives the view of Ibn Abbas and Sa'id ibn Jubayr that "the worlds" are each kind of creation and each generation within it, which he says is the common view of the exegetes. {cite:tafsir-tabari-shakir-v01 p. 143}
