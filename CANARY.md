@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:125 closes its al-Tabari commentary and 2:126 gains its first (volume 3, pp. 41-46): the senses of "those who stay" and "those who bow and prostrate", and the opening of "make this a safe land" with the views on whether the sanctuary was safe from creation and the reports cited for it, each attributed, in Arabic, English and Urdu.
 - Passage 2:125 continues al-Tabari's commentary (volume 3, pp. 36-41): his reasoning for the station of Abraham, the senses of "musalla", the command to purify the House (and the two ways he gives of understanding it, with the editor's caution), and the senses of "those who circle it" and "those who stay", each attributed, in Arabic, English and Urdu.
 - Passage 2:125 continues al-Tabari's commentary (volume 3, pp. 31-36): the two readings of "ittakhidhu" and what each is joined to, the views on "the station of Abraham" (the whole pilgrimage, the standing places, the sanctuary, the stone he stood on, the station in the Sacred Mosque) and his choice, each attributed, in Arabic, English and Urdu.
 - Passage 2:125 continues al-Tabari's commentary (volume 3, pp. 26-31): the senses of "a resort for the people" and "a place of safety", and the opening of the commentary on "take the station of Abraham as a place of prayer" with the readers' disagreement and the report from 'Umar, each attributed, in Arabic, English and Urdu.
