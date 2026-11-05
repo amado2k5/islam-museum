@@ -1,0 +1,27 @@
+id: person/osman-nuri-topbas
+class: person
+names: [{ kind: full, value: "Osman Nuri Topbaş" }]
+label: { ar: "عثمان نوري طوباش", en: "Osman Nuri Topbaş", ur: "عثمان نوری توپباش" }
+summary:
+  ar: "عالم ومتصوّف تركي (المولود 1942 في إسطنبول)، مرشد الطريقة النقشبندية في حيّ قاضي كوي بإسطنبول (جماعة إرن كوي)، ومؤلف كتب دينية تُنشر مجانًا بعشرات اللغات؛ ابن الشيخ موسى طوباش الذي سبقه في قيادة الجماعة."
+  en: "A Turkish scholar and Sufi master (born 1942 in Istanbul), the spiritual leader of the Naqshbandi community based in Kadıköy, Istanbul (the Erenköy community), and the author of religious works published free of charge in dozens of languages; he is the son of Musa Topbaş, who led the community before him."
+  ur: "عثمان نوری توپباش (پیدائش 1942ء، استنبول) ترک عالم اور صوفی بزرگ ہیں، استنبول کے قاضی کوئے میں واقع نقشبندی جماعت (ایرن کوئے جماعت) کے روحانی رہنما اور ایسی دینی کتابوں کے مصنف ہیں جو درجنوں زبانوں میں مفت شائع ہوتی ہیں؛ وہ موسیٰ توپباش کے بیٹے ہیں جو ان سے پہلے اس جماعت کے رہنما تھے۔"
+gender: male
+born: { edtf: "1942-01-21", hijri: "1361", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 21 January 1942 in Erenköy, Kadıköy, Istanbul, per the English and Turkish articles; the Hijri year 1361 is derived from the Gregorian date. His father was Musa Topbaş, the previous leader of the Erenköy community, and his mother Fatma Feride, daughter of H. Fahri Kığılı; the family came from Kadınhanı, Konya.", sources: [source/wikipedia-osman-nuri-topbas-en, source/wikipedia-osman-nuri-topbas-tr] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts describe the man himself in prose as a Sufi: the English article's lead calls him 'a Turkish Sufi master' and 'the spiritual leader of the Naqshbandi Sufi Order based in Kadıköy, Istanbul', and the Turkish article's lead calls him a mutasavvıf (a Sufi) alongside cleric and Islamic scholar. Structured data was not used: the English infobox's Sunni / Hanafi / Naqshbandi / Maturidi entries and the Turkish infobox's religion entry are infobox values, not text attestations, and are recorded here only as readings. His Naqshbandi community leadership is the setting of the two lead descriptions, not the basis of the value."
+    sources: [source/wikipedia-osman-nuri-topbas-en, source/wikipedia-osman-nuri-topbas-tr]
+roles: [scholar, writer]
+wings: [people, living]
+regions: [anatolia-balkans]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-osman-nuri-topbas-en, source/wikipedia-osman-nuri-topbas-tr] }
+sources: [source/wikipedia-osman-nuri-topbas-en, source/wikipedia-osman-nuri-topbas-tr]
+provenance:
+  layer: own-research
+  source: "The 2026-11-04 harvest entry (YouTube channel 'Osman Nuri Topbaş', about 179 thousand subscribers by vidIQ's count read on 1 November 2026), researched against the English and Turkish Wikipedia articles read in full on 4 November 2026."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-190"
+status: { review: published, completeness: 3 }
