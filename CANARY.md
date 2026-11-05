@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:223 closes (vol. 4, pp. 418-419) and 2:224 gets its first touch (pp. 419-423): the views on the prohibition of making God an object for oaths (Tawus, Ibn 'Abbas, Qatada, 'Ata', al-Dahhak, al-Suddi, al-Nakha'i, Mujahid, 'A'isha), in Arabic, English and Urdu.
 - Verse-text repair, sweep batch 6: 25 Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text (exact matches only).
 - Passage 2:223 continues (vol. 4, pp. 414-418): the close of al-Tabari's own choice on the word 'anna' with the poets' usage, and his reading of the clause on making provision for oneself, with the competing view of 'Ata', in Arabic, English and Urdu.
 - Wording repair in the 2:223 commentary: the remaining quoted two-word verse clause in Arabic, English and Urdu was replaced by a plain reference to the word 'anna', in line with the no-typed-Qur'an rule.
