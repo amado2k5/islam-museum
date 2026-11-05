@@ -9,3 +9,7 @@ Verse 92 of [[passage/quran-2|Surat al-Baqara]], a Medinan surah. {cite:tanzil-q
 
 ## Place in the museum
 Its place: verse 92 of 286 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+## In al-Tabari's commentary
+
+On "Moses came to you with clear proofs, then you took the calf after him while you were wrongdoers", al-Tabari begins by saying that the clear proofs are the signs Moses brought pointing to his truthfulness and prophethood, such as the staff that turned into a plain serpent. {cite:tafsir-tabari-shakir-v02 p. 354}
