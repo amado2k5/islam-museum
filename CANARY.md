@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:223 continues (vol. 4, pp. 414-418): the close of al-Tabari's own choice on the word 'anna' with the poets' usage, and his reading of the clause on making provision for oneself, with the competing view of 'Ata', in Arabic, English and Urdu.
 - Wording repair in the 2:223 commentary: the remaining quoted two-word verse clause in Arabic, English and Urdu was replaced by a plain reference to the word 'anna', in line with the no-typed-Qur'an rule.
 - Verse-text repair, sweep batch 5: 25 Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text (exact matches only).
 - Passage 2:223 continues (vol. 4, pp. 410-414): the reports of Umm Salama, Jabir, 'Umar and the Himyar visitors on the occasion of the verse, and the start of al-Tabari's own choice on the meaning of the word for 'however', in Arabic, English and Urdu.
