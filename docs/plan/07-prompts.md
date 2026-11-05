@@ -74,6 +74,8 @@ Procedure (do not skip steps):
 7. RUN npm run validate and fix every error. Report: the claims table, the sources used, anything you could not source, and any sensitivity concerns. Do not mark the entity reviewed.
 ```
 
+If a source is borrow-only (Internet Archive or Open Library), add to the prompt: "Borrow it in the browser, one request at a time, never through the archive.org API; ask the founder to sign in or solve a CAPTCHA if asked; OCR the pages from screenshots into the harvest workspace, never into git (docs/agents/mining-sources.md §1b)."
+
 Class-specific additions:
 - `event`: give `date.start`/`date.end` separately; `participants[]` with roles; `caused_by`/`caused`; `occurred_at`; link the `passage`s traditionally connected (asbab al-nuzul) with `status: tradition`.
 - `place`: `historical_names[]` with periods; `coordinates`; `part_of`; a "What was here" paragraph per major period, each cited; modern travel note only from official sources.

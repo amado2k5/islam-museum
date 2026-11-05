@@ -1,0 +1,91 @@
+---
+// The invention page's own sections: the image with its credit, the quick facts, the makers, the claim and its basis,
+// what came before and what was built on it, and the build-time diagram. A section with no content is not rendered.
+// Imported only by EntityLayout.astro, and rendered only for class invention.
+import InventionDiagram from "./InventionDiagram.astro";
+import { byId, href, labelOf } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+import { formatDate } from "../lib/dates";
+import { inventionDomainLabel } from "../lib/inventions";
+import type { Node } from "../../../scripts/build-graph";
+
+interface Props { node: Node; lang: Lang }
+const { node: n, lang } = Astro.props;
+const T = ui(lang);
+const I = T.inventions;
+const d = n.data;
+const loc = (v: any): string => (v && typeof v === "object" ? v[lang] ?? v.en ?? v.ar ?? "" : typeof v === "string" ? v : "");
+const noCites = (s: string) => s.replace(/\s*\{cite:[^}]*\}/g, "").trim();
+const link = (id: string) => { const x = byId.get(id); return x && !x.stub ? { href: href(lang, id), label: labelOf(x, lang) } : x ? { label: labelOf(x, lang) } : undefined; };
+const dl = "display:grid;grid-template-columns:minmax(120px,max-content) 1fr;gap:8px 18px;margin:0";
+
+const img = d.media?.image ? byId.get(d.media.image) : undefined;
+const imgUrl: string | undefined = img?.data.url;
+const first = d.era?.first_attested ? formatDate(d.era.first_attested, lang) : undefined;
+const origin = d.origin?.place ? link(d.origin.place) : undefined;
+const described = (d.described_in ?? []).map(link).filter(Boolean) as { href?: string; label: string }[];
+const makers = (d.makers ?? []).map((m: any) => ({ who: m.person ? link(m.person) : undefined, ext: loc(m.external), role: I.roles?.[m.role] ?? m.role })).filter((m: any) => m.who || m.ext);
+const claim = loc(d.attribution?.claim);
+const basis = noCites(loc(d.attribution?.basis));
+const sources = [...new Set<string>((d.sources ?? []) as string[])].map(link).filter(Boolean) as { href?: string; label: string }[];
+const chain = (xs: any[] = []) => xs.map((x) => (x.invention ? link(x.invention) : x.external ? { label: loc(x.external) } : undefined)).filter((x) => x && x.label) as { href?: string; label: string }[];
+const before = chain(d.precursors);
+const after = chain(d.dependents);
+---
+{img && imgUrl && (
+  <figure class="sec" style="margin:0 0 1.5rem">
+    <img src={imgUrl} alt={loc(img.data.alt)} loading="lazy" decoding="async" style="width:100%;max-width:720px;height:auto;border-radius:10px;display:block" />
+    <figcaption class="ui muted" style="font-size:.85rem;margin-top:6px">{I.image_credit}: {labelOf(img, lang).replace(/^[^:：]+[:：]\s*/, "")}. {img.data.attribution}</figcaption>
+  </figure>
+)}
+
+<section class="sec panel ui" aria-labelledby="inv-facts">
+  <h2 id="inv-facts" style="font-size:1.1rem;margin:0 0 10px">{I.facts_title}</h2>
+  <dl style={dl}>
+    {d.domain && <><dt class="muted">{I.f_domain}</dt><dd style="margin:0">{inventionDomainLabel(d.domain, lang)}</dd></>}
+    {d.kind && <><dt class="muted">{I.f_kind}</dt><dd style="margin:0">{I.kinds?.[d.kind] ?? d.kind}</dd></>}
+    {first?.text && <><dt class="muted">{I.f_first}</dt><dd style="margin:0">{first.text}{(first.derived || d.era.first_attested.derived) && <span class="muted"> ({I.derived})</span>}</dd></>}
+    {d.era?.origins && <><dt class="muted">{I.f_era}</dt><dd style="margin:0">{I.eras?.[d.era.origins] ?? d.era.origins}</dd></>}
+    {origin && <><dt class="muted">{I.f_origin}</dt><dd style="margin:0">{origin.href ? <a href={origin.href}>{origin.label}</a> : origin.label}</dd></>}
+    {described.length > 0 && <><dt class="muted">{I.f_described_in}</dt><dd style="margin:0">{described.map((w, i) => <>{i > 0 && " · "}{w.href ? <a href={w.href}>{w.label}</a> : w.label}</>)}</dd></>}
+    {d.attribution?.status && <><dt class="muted">{I.attribution_status}</dt><dd style="margin:0">{I.statuses?.[d.attribution.status] ?? d.attribution.status}</dd></>}
+  </dl>
+</section>
+
+{makers.length > 0 && (
+  <section class="sec" aria-labelledby="inv-makers">
+    <h2 id="inv-makers">{I.makers_title}</h2>
+    <ul>
+      {makers.map((m: any) => <li>{m.who ? (m.who.href ? <a href={m.who.href}>{m.who.label}</a> : m.who.label) : m.ext} <span class="chip">{m.role}</span></li>)}
+    </ul>
+  </section>
+)}
+
+{claim && (
+  <section class="sec" aria-labelledby="inv-claim">
+    <h2 id="inv-claim">{I.attribution_title}</h2>
+    <p><strong>{claim}</strong></p>
+    {basis && <p>{basis}</p>}
+    {sources.length > 0 && <p class="ui muted" style="font-size:.9rem">{T.entity.sources}: {sources.map((s, i) => <>{i > 0 && " · "}{s.href ? <a href={s.href}>{s.label}</a> : s.label}</>)}</p>}
+  </section>
+)}
+
+{(before.length > 0 || after.length > 0) && (
+  <section class="sec" aria-labelledby="inv-chain">
+    {before.length > 0 && <>
+      <h2 id="inv-chain">{I.precursors_title}</h2>
+      <ul>{before.map((x) => <li>{x.href ? <a href={x.href}>{x.label}</a> : x.label}</li>)}</ul>
+    </>}
+    {after.length > 0 && <>
+      <h2 id={before.length > 0 ? undefined : "inv-chain"}>{I.dependents_title}</h2>
+      <ul>{after.map((x) => <li>{x.href ? <a href={x.href}>{x.label}</a> : x.label}</li>)}</ul>
+    </>}
+  </section>
+)}
+
+{d.media?.diagram && (
+  <section class="sec" aria-labelledby="inv-diagram">
+    <h2 id="inv-diagram">{I.diagram_title}</h2>
+    <InventionDiagram id={d.media.diagram} lang={lang} />
+  </section>
+)}

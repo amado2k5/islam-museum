@@ -3,7 +3,7 @@
 **Idea.** About 200 prominent Sunni books (hadith, tafsir, Qur'an sciences, sira, shamail, sahaba, sahabiyat, tabaqat, rijal, creed, history, geography, fiqh, usul, adab) are located as reference copies, extracted to page text, and mined one book per lane into the knowledge graph. The list is `scripts/harvest/library/books.yaml` (id, title, author, death year, category).
 
 **How a book becomes text** (on the founder's Mac, outside git; see `docs/status.md` for the live state of downloads and extraction):
-1. `scripts/harvest/library/fetch_books.py` finds open archive.org PDFs (never borrow-only) and records them in `~/islam-museum-harvest/library/manifest.jsonl`. Matches are heuristic: check the item title for books that matter.
+1. `scripts/harvest/library/fetch_books.py` finds open archive.org PDFs (never borrow-only; a borrow-only book is read in the browser and OCR'd from the screen, per [`mining-sources.md`](../mining-sources.md) section 1b) and records them in `~/islam-museum-harvest/library/manifest.jsonl`. Matches are heuristic: check the item title for books that matter.
 2. `ocr_all.py [--cat <category>] [--only <book-id>]` extracts page text (text layer, or Apple Vision OCR for scans; two-column pages are read right column first) into `~/islam-museum-harvest/books/<category>/<book-id>/<item>/`.
 3. `make_sources.py --write` creates draft `source` entities; check the edition details against a physical copy before the source is marked reviewed.
 4. `make_work_order.py <book-id>` prints the order for a lane: the book's facts, its extracted copies, the category guidance, and the progress state.

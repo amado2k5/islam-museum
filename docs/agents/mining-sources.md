@@ -15,6 +15,17 @@ You work from the book's extracted text, never from memory. Retrieve, then write
 
 **Recordings.** For a lecture, podcast or video, the book rules apply with two changes: the anchor is the recording's series, episode and timestamp (not a page), and transcripts and audio stay in the harvest workspace. Follow [`audio-video-harvest.md`](audio-video-harvest.md) for discovery, download, transcription and the checks by listening.
 
+## 1b. Borrow-only books: borrow in the browser and OCR the screen (founder, 5 November 2026)
+
+When a book is not downloadable (Internet Archive marks it "access-restricted", Open Library shows only **Borrow**), any agent may borrow it and read it in the browser, for any lane and any prompt. The rules:
+
+- **Browser only, one thing at a time.** Open the item's page in the shared browser (archive.org or openlibrary.org) and click **Borrow**. Never use the archive.org API, `advancedsearch`, `curl`, `wget` or any scripted download for it, and never open several items or tabs at once: one request, wait for it, then the next.
+- **The founder logs in.** If the page asks for a login or a CAPTCHA, stop and ask the founder (with the agent's ask-the-user tool) to sign in or solve it in that browser; never type, store or ask for the account's password. Then carry on in the same tab.
+- **Read and OCR the screen.** Turn to each page in the reader (1-up mode, page by page), take a screenshot of the page area, and run on-device OCR on it: on the founder's Mac, Apple Vision (`VNRecognizeTextRequest`, through a small Swift or `shortcuts`/`osascript` helper) handles Arabic, Latin and English; any other local OCR tool is fine. Record the printed page number of each image, not the reader's `n` index.
+- **Storage stays outside git.** Screenshots and OCR text go in the harvest workspace (`~/islam-museum-harvest/books/<category>/<book-id>/borrowed/`, or the lane's folder on the external drive, such as `/Volumes/exmicroSD/islam-museum-harvest/inventions/`), never in the repository and never on R2. A borrowed book is copyrighted: the rights in section 2 apply unchanged (rewrite in the museum's words, cite the page, at most a 40-word quotation).
+- **Return the loan** when the reading is done, and note in the lane's progress file which item was read, which pages, and when.
+- **If archive.org is down** (HTTP 503 for everyone, not only us), wait and retry later; do not switch to the API or to another mirror to get round it.
+
 ## 2. Rights: what you may take (`docs/sources-policy.md`)
 
 Everything the book says, rewritten. Read the book, copyrighted or not, including a modern edition's apparatus (tahqiq notes, indexes, margin rubrics), and write what it says in the museum's own words, organised by entity, with the page cited after every sentence that states a fact. Facts, chronology, names with nasab, places, numbers, grades attributed to a named scholar, isnad heads and citations all enter `data/`. Quotations are verbatim, at most 40 words, in quotation marks, with the page. What stays out of git: the book's text beyond those quotations (a page-by-page retelling or a sentence-by-sentence rewording is not the museum's text), and the source files themselves (OCR text, page images, claims tables).
