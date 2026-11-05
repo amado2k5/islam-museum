@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Fifth Explorer batch checked locally**: forty final stories (36 people and four dynasties) provide 214 chronological stops and 120 Arabic/English/Urdu subject routes, with 210 passing citation checks. All stops were traversed in the browser; 61 existing screened scenes are reused. Existing event-language and colour-background fallbacks remain explicit; no new images, runtime code or deployment.
 - **Fifth Explorer selection tightened**: the explicitly unverified Bahri candidate is deferred, replaced by the cited Hassan ibn Thabit story. Urdu dynasty summaries stay faithful to existing Arabic facts; the final forty comprise 36 people and four polities.
 - **Fifth Explorer batch, final twenty stories**: fifteen more people and five dynasties complete forty new stories with 215 chronological stops. Arabic, English and Urdu subject metadata is complete; 170 existing events and 65 screened native scene variants are reused, with event-language and colour-background fallbacks retained explicitly.
 - **Fifth Explorer batch, first twenty stories**: twenty more people gain curated chronological journeys and missing English/Urdu subject metadata, restated from existing cited Arabic records. Existing facts, dates, relations and translations remain unchanged; scene assets and runtime code are not modified.

@@ -741,3 +741,44 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 
 2026-11-04 | person/kayqubad-i | copilot | deferred: original record explicitly says its source page is unverified; own definition and metadata additions withdrawn
 2026-11-04 | person/al-isfarayini-abu-ishaq-ibrahim | copilot | claimed
+
+2026-11-04 | person/alp-arslan | copilot | done
+2026-11-04 | person/atsiz-ibn-uwaq | copilot | done
+2026-11-04 | person/badr-al-din-lulu | copilot | done
+2026-11-04 | person/baha-al-dawla | copilot | done
+2026-11-04 | person/bayazid-i-yildirim | copilot | done
+2026-11-04 | person/bayazid-ii | copilot | done
+2026-11-04 | person/hisham-ibn-abd-al-malik | copilot | done
+2026-11-04 | person/ibn-al-muslima | copilot | done
+2026-11-04 | person/ibn-al-samani-abd-al-rahim | copilot | done
+2026-11-04 | person/fakhr-al-din-al-razi | copilot | done
+2026-11-04 | person/jalal-al-dawla | copilot | done
+2026-11-04 | person/salih-rais | copilot | done
+2026-11-04 | person/salman-ibn-rabi-a | copilot | done
+2026-11-04 | person/sahib-al-zanj | copilot | done
+2026-11-04 | person/al-isfarayini-abu-ishaq-ibrahim | copilot | done
+2026-11-04 | person/khayr-al-din-barbarossa | copilot | done
+2026-11-04 | person/malikshah | copilot | done
+2026-11-04 | person/masud-ibn-muhammad-saljuqi | copilot | done
+2026-11-04 | person/muhammad-i-jalabi | copilot | done
+2026-11-04 | person/muhammad-khwarazmshah | copilot | done
+2026-11-04 | person/muizz-al-dawla | copilot | done
+2026-11-04 | person/murad-i-uthmani | copilot | done
+2026-11-04 | person/murad-ii-uthmani | copilot | done
+2026-11-04 | person/genghis-khan | copilot | done
+2026-11-04 | person/nizam-al-mulk | copilot | done
+2026-11-04 | person/sanjar | copilot | done
+2026-11-04 | person/sayf-al-dawla | copilot | done
+2026-11-04 | person/sayf-al-din-ghazi-ii | copilot | done
+2026-11-04 | person/selim-i-ottoman | copilot | done
+2026-11-04 | person/selim-ii-uthmani | copilot | done
+2026-11-04 | person/sibt-ibn-al-jawzi | copilot | done
+2026-11-04 | person/tughril-iii | copilot | done
+2026-11-04 | person/yusuf-ibn-tashfin | copilot | done
+2026-11-04 | person/fakhr-al-din-ibn-al-shaykh | copilot | done
+2026-11-04 | person/hasan-ibn-ali | copilot | done
+2026-11-04 | polity/rashidun-caliphate | copilot | done
+2026-11-04 | polity/rum-seljuk-sultanate | copilot | done
+2026-11-04 | polity/timurid-empire | copilot | done
+2026-11-04 | polity/aksumite-kingdom | copilot | done
+2026-11-04 | person/hassan-ibn-thabit | copilot | done
