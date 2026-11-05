@@ -5,7 +5,12 @@ names:
   - { kind: full, lang: ar, value: "جبرائيل بن بختيشوع بن جرجيس" }
 gender: male
 roles: [physician]
-traditions: [sunni]
+traditions: []
+faith:
+  - value: christian
+    basis: documented
+    note: "TDV's BUHTÎŞÛ‘ entry explicitly describes the medical family as Nestorian Christian and identifies this physician in section 3. This corrects the unsourced Sunni tag; he is credited in the Baghdad hospital story, not listed as a Sunni Muslim maker."
+    sources: [source/tdv-buhtisu]
 died: { edtf: "0830", hijri: "0215", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
   ar: "طبيب درس في بيمارستان جنديسابور، وخدم الخلفاء الرشيد وغيره، ولد وعاش في جنديسابور. وعند المسعودي منع الرشيد عن سمكة أهديت له بالحيرة فجعل في ثلاثة أقداح قطعاً منها وصب على واحد خمراً وعلى الثاني ماءً بثلج وخلط الثالث بألوان الطعام، فلما انتبه الرشيد وجد ما صب عليه الخمر قد تفتت وما في الماء قد ربا وما خالطه الطعام قد تغيرت رائحته وحدثت له سهوكة، فحمل إليه خمسة آلاف دينار وقال من يلومني على محبة هذا الرجل {cite:muruj-al-dhahab p. 332-333}"
@@ -16,7 +21,7 @@ periods: [period/abbasid-early]
 regions: [persia-central-asia]
 story_roles:
   - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/muruj-al-dhahab]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/muruj-al-dhahab, source/tdv-buhtisu]
 status:
   review: published
   completeness: 3

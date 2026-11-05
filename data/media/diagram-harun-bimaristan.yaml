@@ -1,0 +1,29 @@
+id: media/diagram-harun-bimaristan
+class: media
+kind: illustration
+label:
+  ar: "رسم: انتقال نموذج جنديسابور إلى بيمارستان الرشيد"
+  en: "Diagram: the Jundishapur model and Harun's bimaristan"
+  ur: "خاکہ: جندیشاپور کا نمونہ اور ہارون کا بیمارستان"
+summary:
+  ar: "رسم علاقات يولده الموقع وقت البناء من بيانات الاختراع؛ يبين النموذج السابق والأطباء، وتكليف الرشيد، والمستشفيات اللاحقة. ليس إعادة بناء لمخطط المستشفى المفقود."
+  en: "A relationship diagram generated at build time from the invention record: the earlier model and physicians, Harun's commission and later hospitals. It is not a reconstruction of the lost hospital's plan."
+  ur: "ایجاد کے ریکارڈ سے سائٹ کی تعمیر کے وقت بننے والا تعلقات کا خاکہ: پرانا نمونہ اور طبیب، ہارون کی سرپرستی اور بعد کے شفاخانے۔ یہ گم شدہ عمارت کے نقشے کی تعمیر نو نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/harun-bimaristan]
+alt:
+  ar: "من اليسار إلى اليمين في رسم العلاقات: مستشفى جنديسابور وأطباء بختيشوع؛ بيمارستان هارون الرشيد في الوسط؛ ثم البيمارستانات اللاحقة في بغداد وغيرها. الأسهم تبين انتقالاً مؤسسياً لا مخطط غرف."
+  en: "Relationship boxes connect the Jundishapur hospital and Bukhtishu physicians to Harun's bimaristan, then to later hospitals in Baghdad and other cities. The arrows show institutional transmission, not a room plan."
+  ur: "تعلقات کے خانوں میں جندیشاپور کا شفاخانہ اور بختیشوع کے طبیب ہارون کے بیمارستان سے جڑتے ہیں، پھر بغداد اور دوسرے شہروں کے بعد کے شفاخانوں سے۔ تیر ادارے کی منتقلی دکھاتے ہیں، کمروں کا نقشہ نہیں۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time from precursors and dependents)"
+  version: "1"
+  date: "2026-11-05"
+sources: [source/tdv-bimaristan, source/tdv-buhtisu]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b13"
+  source: "TDV BÎMÂRİSTAN, early eastern hospitals; TDV BUHTÎŞÛ‘, introduction and section 3"
