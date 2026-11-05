@@ -19,6 +19,11 @@
 - Added to work/jami-al-bayan in ar/en/ur: the section "The introduction in the first volume".
 - Not yet read: the chapters themselves (PDF pp. 7–617).
 
+## Readings in vol. 1 (locations, third pass)
+- Correction: vol. 1 of this edition is 627 PDF pages. The PDF pp. 1364–1382 noted earlier belong to the Babakr thesis, not to this edition.
+- The volume's index (PDF pp. 618–621) lists the commentary passages where al-Tabari discusses the readers' disagreements, by printed page: printed p. 148 and 152 (the reading of "malik" in al-Fatiha), 182 (reading "ghayr al-maghdub" with a nasb vowel, which he disliked), 282 (reading "bima kanu yakdhibun"), 524 (reading "fa-azallahuma"). Printed-to-PDF offset not yet established.
+- Next: open the printed p. 148 and 152 passages (find the PDF page by the printed number once the offset is set) and write the readings record from them.
+
 ## Next steps
 1. Read vol. 1 introduction (PDF pp. 3–60): al-Tabari's method, the ahruf, the merit of tafsir (for concept/al-ahruf-al-sabaa, concept/tafsir-bil-mathur).
 2. Map the places in vol. 1–16 where al-Tabari gives his own preference among the readings (for question/did-al-tabari-reject-established-readings).
