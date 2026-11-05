@@ -38,3 +38,5 @@ Omar Abdelkafy says that Adam was forbidden a single tree among very many, that 
 
 ## In al-Tabari's commentary
 On [[passage/quran-2-30|verse 30]] and after, al-Tabari gives through Ibn Abbas the account of Adam's making by God's own hand from sticky clay, the breathing in of the spirit, his sneeze and praise, and God's teaching him all the names. A second report from Ibn Abbas has the Angel of Death take red, white and black earth for the clay, which is why Adam's children differ. Al-Tabari gives these reports to clarify meaning, not to rest an argument on their soundness. {cite:tafsir-tabari-shakir-v01 p. 455} {cite:tafsir-tabari-shakir-v01 p. 459}
+
+On [[passage/quran-2-31|verse 31]], al-Tabari reports that Adam was so named because he was made from the "adim" of the earth, and from the Prophet, by a chain the editor calls sound, that he was made from a handful taken from all the earth, so his children came according to the earth. {cite:tafsir-tabari-shakir-v01 p. 480} {cite:tafsir-tabari-shakir-v01 p. 482}
