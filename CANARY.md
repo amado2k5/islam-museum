@@ -35,6 +35,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:243 close (pp. 274-279, reports 5611-5616): the further reports on the people who left their homes, al-Tabari's choice on the sense of the plural for thousands and on their number (labelled as his), the lesson of the account and the note on the end of the old division, in Arabic, English and Urdu.
 - Passage 2:243 (pp. 267-274, reports 5598-5610): the reports on the people who left their homes, their number, the plague, Ezekiel and their return to life, from Wahb b. Munabbih, Ibn Abbas, al-Suddi, Muhammad b. Ishaq, Ibn Zayd and al-Hasan, with the editor's notes labelled as his, in Arabic, English and Urdu; reported without a museum verdict.
 - Passages 2:241-2:243 (pp. 262-267, reports 5590-5597): who the divorced women's provision covers (Ata', Mujahid, Said b. Jubayr, Ibn Zayd) with al-Tabari's choice labelled as his, the clarity clause, and the opening of the account of those who left their homes (Ibn Abbas), with the editor's notes and the graders' judgements attributed, in Arabic, English and Urdu; stated as reports, not as a ruling.
 - Passage 2:240 close (pp. 255-262, reports 5574-5589): the abrogation reports, the reports that it was by bequest, those that the ruling stands, al-Tabari's choice (labelled as his), the Furay'a report with the editor's notes and gradings labelled as his, the grammar and the leaving clause, in Arabic, English and Urdu; stated as reports, not as a ruling.
