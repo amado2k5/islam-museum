@@ -15,9 +15,12 @@ relations:
   - { type: had_participant, target: person/abu-khazim, role: "القاضي المستفتى", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/yusuf-ibn-yaqub-al-qadi, role: "المخالف في الفتيا", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 283)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
-  run: lib-muntazam-258-349-batch27
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-events-batch5
 sources: [source/muntazam-ibn-al-jawzi]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+status:
+  review: published
+  completeness: 3

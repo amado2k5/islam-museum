@@ -17,9 +17,11 @@ relations:
   - { type: had_participant, target: person/bayazid-ii, role: "الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi]
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "Encyclopaedia of Islam 2, vol. 1 BURSA, PDF p. 1398 (harvest OCR); الدولة العثمانية للصلابي ص 163"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: explorer-bursa
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+  run: prose-fill-events-batch5
+status:
+  review: published
+  completeness: 3
