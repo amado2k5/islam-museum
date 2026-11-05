@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:231 first touch (vol. 5, pp. 7-13): al-Tabari's explanation of keeping and releasing divorced women at the end of their term, the reports on harmful repeated taking-back, the root of the word for release, and the clauses on wronging oneself and on mockery of God's signs, in Arabic, English and Urdu; the library note now records the volume 5 page offset (zero) and a gap of printed pp. 423-426 in the scan.
 - Passage 2:230 closes (vol. 4, pp. 595-600): the last hadith on the second husband, the clause on the two returning to each other, the meaning of hoping to keep God's limits, and the closing sentence of the verse, in Arabic, English and Urdu; the library note records that volume 4 is finished and that volume 5 is not in the mounted harvest folder, so its offset is still to be set.
 - Passage 2:230 continues (vol. 4, pp. 589-595): the reports from the Prophet on the second husband's consummation, from 'A'isha (the wife of Rifa'a), Abu Hurayra, Anas and Ibn 'Abbas, with the editor's notes on their chains, in Arabic, English and Urdu.
 - Passage 2:229 closes (vol. 4, pp. 583-585): the meaning of God's limits; passage 2:230 first touch (pp. 585-589): the views on the clause on a woman not being lawful to her divorcer until another husband, al-Tabari's choice of Mujahid's reading, his reasoning that both contract and consummation are meant, and the hadith of 'A'isha, in Arabic, English and Urdu.
