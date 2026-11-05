@@ -75,3 +75,5 @@ translators: []
 
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
 يرى الشيخ في غرق فرعون سنة الله في أن المكر السيئ يرتد على أهله: فموسى الرضيع أُلقي في اليمّ فنجا، وفرعون القوي نزل اليمّ فغرق، ولم تنجه قوته. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:30} انظر: [[concept/al-makr-al-sayyi|المكر السيئ]].
+
+وفي تفسير [[passage/quran-2-49|الآية 49]] يذكر الطبري أن «فرعون» اسم كانت تسمى به ملوك العماليقة بمصر كما سُمّي ملوك الروم قيصر، ويقال إن اسم فرعون موسى الوليد بن مصعب بن الريان، وأن «آل فرعون» أهل دينه وقومه وأشياعه. {cite:tafsir-tabari-shakir-v02 p. 37} {cite:tafsir-tabari-shakir-v02 p. 38}
