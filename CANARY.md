@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:107 closes its al-Tabari commentary and 2:108 gains its first (volume 2, pp. 487-492): sovereignty versus ownership, the denial of the Jews who rejected abrogation, the reports on the occasion of the verse (Rafi' ibn Huraymila and Wahb ibn Zayd, the Arabs, Quraysh and al-Safa, Abu al-Aliya's mursal report with the editor's note), and the grammarians' views on 'am', each attributed, in Arabic, English and Urdu.
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 54 — Ibn Hisham Sirah remainder and Futuh al-Buldan cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 53 — Ibn Hisham Sirah cohorts).
 - Hidaya: added al-Tabari's commentary on "hudan lil-muttaqin" (pp. 230-233): guidance read as light for the God-fearing, the reports from Hasan and Ibn Abbas on taqwa, and the grammatical options for hudan, in Arabic, English and Urdu.
