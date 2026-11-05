@@ -29,6 +29,11 @@
 - PDF p. 148: al-Tabari says the readers differ on "malik" in al-Fatiha 4 (three readings, with and without the alif, and the kasra or fatha on the kaf). He says he has set out the transmitted readings and his preferred reading in his separate book on the readings, and that this commentary is about the meanings, not the readings. No preference is stated here.
 - Next: PDF p. 152 (the rejected reading with fatha on the kaf) and p. 182 (the reading of "ghayr" with fatha, which he disliked). Then write concept/qiraat from them.
 
+## PDF pp. 152 and 182 (fifth pass)
+- PDF p. 152: mostly interpretation. al-Tabari argues against reading "rabb al-alamin" and "malik yawm al-din" as only about this world, or only about the next, and against taking "malik yawm al-din" to mean the one who holds the power to establish the Day. The reading rejected at this place (fatha on the kaf) is named in the index; its argument is not yet read on this page.
+- PDF p. 182: on "ghayr al-maghdub" he argues that the phrase is parsed as qualifying the people of al-Fatiha 7 and that the Qur'an's own description of them makes it impossible that they are both pleased with and angry at the same time. Grammatical and reading points follow on this page.
+- Still to read: the rest of p. 152 (the rejected reading) and p. 182 (the reading and its grounds), then the readings concept.
+
 ## Next steps
 1. Read vol. 1 introduction (PDF pp. 3–60): al-Tabari's method, the ahruf, the merit of tafsir (for concept/al-ahruf-al-sabaa, concept/tafsir-bil-mathur).
 2. Map the places in vol. 1–16 where al-Tabari gives his own preference among the readings (for question/did-al-tabari-reject-established-readings).
