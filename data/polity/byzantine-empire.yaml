@@ -1,13 +1,26 @@
 id: polity/byzantine-empire
 class: polity
 kind: empire
-label: { en: "The Byzantine Empire", ar: "الدولة البيزنطية (الروم)" }
+label: { en: "The Byzantine Empire", ar: "الدولة البيزنطية (الروم)" , ur: "بازنطینی سلطنت"}
 summary:
   en: "The Roman power that ruled Egypt and Syria, controlled the sea trade routes that strangled Yemen’s caravan economy, set up client kings among the Arabs of al-Sham, and armed Abyssinia’s fleet for the second occupation of Yemen."
   ar: "قوة الروم الحاكمة لمصر والشام، المسيطرة على طرق التجارة البحرية التي أضعفت تجارة اليمن؛ اصطنعت ملوكاً من عرب الشام، وهيأت للأحباش الأسطول الذي احتل اليمن ثانية سنة 525م."
+  ur: "رومی طاقت جو مصر اور شام پر حکمران رہی، بحری تجارتی راستوں پر اثر رکھتی تھی اور شام کے عرب علاقوں میں حلیف بادشاہوں کی پشت پناہی کرتی تھی۔ {cite:mubarakpuri-raheeq}"
 wings: []
 themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq, egypt-nile]
 sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+
+provenance:
+  layer: own-research
+  source: Existing museum record and its defined source list; original status attribution retained. No source pages newly examined and no facts, dates or relations changed.
+  generated_by: Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b); Copilot SDK in VS Code (metadata completion)
+  model: unknown
+  run: explorer-fourth-40-stories-2026-11-04
+  localization:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-fourth-40-stories-2026-11-04
+    source: Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research.

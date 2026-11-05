@@ -610,3 +610,86 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-04 | person/al-muqtadi-billah | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
 2026-11-04 | person/al-mustansir-hafsi | copilot | done - 4 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
 2026-11-04 | person/al-nasir-yusuf | copilot | done - 5 stops; merged in #3452; ar/en/ur subject routes verified; existing screened images and optional colour backgrounds
+
+2026-11-04 | person/abu-jahl | copilot | claimed
+2026-11-04 | person/umm-salama | copilot | claimed
+2026-11-04 | person/al-adid-fatimid | copilot | claimed
+2026-11-04 | person/ala-al-din-tekish | copilot | claimed
+2026-11-04 | person/haritha-ibn-al-numan | copilot | claimed
+2026-11-04 | person/hilal-ibn-umayya | copilot | claimed
+2026-11-04 | person/murara-ibn-al-rabi | copilot | claimed
+2026-11-04 | person/al-barqani-ahmad-ibn-muhammad | copilot | claimed
+2026-11-04 | person/thabit-ibn-qays | copilot | claimed
+2026-11-04 | person/abd-allah-ibn-zayd-al-ansari | copilot | claimed
+2026-11-04 | person/amir-ibn-fuhayra | copilot | claimed
+2026-11-04 | person/attab-ibn-usayd | copilot | claimed
+2026-11-04 | person/qatada-ibn-al-numan | copilot | claimed
+2026-11-04 | person/abu-hamid-al-isfarayini | copilot | claimed
+2026-11-04 | person/ahmad-ibn-hanbal | copilot | claimed
+2026-11-04 | person/al-aziz-ghiyath-al-din-muhammad | copilot | claimed
+2026-11-04 | person/al-walid-ibn-al-mughira | copilot | claimed
+2026-11-04 | person/said-bin-sultan | copilot | claimed
+2026-11-04 | person/wahshi-ibn-harb | copilot | claimed
+2026-11-04 | person/khalid-ibn-said-ibn-al-as | copilot | claimed
+
+2026-11-04 | person/mutim-ibn-adi | copilot | claimed
+2026-11-04 | polity/abbasid-caliphate | copilot | claimed
+2026-11-04 | polity/umayyad-caliphate | copilot | claimed
+2026-11-04 | polity/ayyubid-dynasty | copilot | claimed
+2026-11-04 | polity/ilkhanate | copilot | claimed
+2026-11-04 | polity/fatimid-caliphate | copilot | claimed
+2026-11-04 | polity/ghaznavid-empire | copilot | claimed
+2026-11-04 | polity/ghurid-dynasty | copilot | claimed
+2026-11-04 | polity/hafsid-dynasty | copilot | claimed
+2026-11-04 | polity/byzantine-empire | copilot | claimed
+2026-11-04 | polity/almohad-caliphate | copilot | claimed
+2026-11-04 | polity/almoravid-dynasty | copilot | claimed
+2026-11-04 | polity/khwarazmian-empire | copilot | claimed
+2026-11-04 | polity/mongol-empire | copilot | claimed
+2026-11-04 | polity/mughal-empire | copilot | claimed
+2026-11-04 | polity/ottoman-empire | copilot | claimed
+2026-11-04 | polity/seljuk-empire | copilot | claimed
+2026-11-04 | polity/tulunid-dynasty | copilot | claimed
+2026-11-04 | polity/samanid-dynasty | copilot | claimed
+2026-11-04 | polity/marinid-dynasty | copilot | claimed
+
+2026-11-04 | person/abd-allah-ibn-zayd-al-ansari | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/abu-hamid-al-isfarayini | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/abu-jahl | copilot | done - 9 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/ahmad-ibn-hanbal | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/al-adid-fatimid | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/al-aziz-ghiyath-al-din-muhammad | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/al-barqani-ahmad-ibn-muhammad | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/al-walid-ibn-al-mughira | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/ala-al-din-tekish | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/amir-ibn-fuhayra | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/attab-ibn-usayd | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/haritha-ibn-al-numan | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/hilal-ibn-umayya | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/khalid-ibn-said-ibn-al-as | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/murara-ibn-al-rabi | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/mutim-ibn-adi | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/qatada-ibn-al-numan | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/said-bin-sultan | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/thabit-ibn-qays | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/umm-salama | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | person/wahshi-ibn-harb | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/abbasid-caliphate | copilot | done - 6 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/almohad-caliphate | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/almoravid-dynasty | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/ayyubid-dynasty | copilot | done - 7 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/byzantine-empire | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/fatimid-caliphate | copilot | done - 6 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/ghaznavid-empire | copilot | done - 6 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/ghurid-dynasty | copilot | done - 6 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/hafsid-dynasty | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/ilkhanate | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/khwarazmian-empire | copilot | done - 7 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/marinid-dynasty | copilot | done - 6 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/mongol-empire | copilot | done - 7 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/mughal-empire | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/ottoman-empire | copilot | done - 6 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/samanid-dynasty | copilot | done - 4 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/seljuk-empire | copilot | done - 6 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/tulunid-dynasty | copilot | done - 5 stops; #3493; ar/en/ur dev routes verified; full build deferred
+2026-11-04 | polity/umayyad-caliphate | copilot | done - 6 stops; #3493; ar/en/ur dev routes verified; full build deferred

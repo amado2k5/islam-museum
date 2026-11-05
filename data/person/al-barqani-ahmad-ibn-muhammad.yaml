@@ -1,6 +1,6 @@
 id: person/al-barqani-ahmad-ibn-muhammad
 class: person
-label: { ar: "البرقاني أحمد بن محمد", en: "Al-Barqani, Ahmad ibn Muhammad" }
+label: { ar: "البرقاني أحمد بن محمد", en: "Al-Barqani, Ahmad ibn Muhammad" , ur: "احمد بن محمد برقانی"}
 names:
   - { kind: full, lang: ar, value: "أبو بكر أحمد بن محمد بن أحمد بن غالب الخوارزمي الشافعي" }
 gender: male
@@ -11,6 +11,7 @@ died: { edtf: "1034", hijri: "0425", calendar: julian, precision: year, status: 
 summary:
   ar: "فقيه شافعي من خوارزم، نُسب إلى قرية برقان من قرى كاث، وعُرف بالبرقاني. أورده ابن الجوزي في وفيات سنة ٤٢٥ بوصف مجلس إملائه وموته {cite:muntazam-ibn-al-jawzi j.8 p.421-422}."
   en: "A Shafi'i jurist from Khwarazm, known as al-Barqani after the village of Barqan near Kath."
+  ur: "خوارزم کے شافعی فقیہ تھے۔ کاث کے قریب برقان نامی بستی کی نسبت سے برقانی کہلائے۔ {cite:mawsuat-a3lam-ulama-adaba}"
 wings: [people]
 themes: [development-of-law-theology-institutions, scripture-and-its-sciences]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -27,6 +28,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch50
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
 occupations:
   - job: job/faqih
     kind: secondary

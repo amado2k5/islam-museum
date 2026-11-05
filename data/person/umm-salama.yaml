@@ -1,7 +1,7 @@
 id: person/umm-salama
 class: person
 aliases: [person/umm-salama-bint-abi-umayya]
-label: { en: Umm Salama (Hind bint Abi Umayya), ar: أم سلمة هند بنت أبي أمية }
+label: { en: Umm Salama (Hind bint Abi Umayya), ar: أم سلمة هند بنت أبي أمية , ur: "ام سلمہ، ہند بنت ابی امیہ"}
 names:
   - { kind: full, lang: ar, value: هند بنت أبي أمية بن المغيرة المخزومية }
   - { kind: kunya, lang: ar, value: أم سلمة }
@@ -13,6 +13,7 @@ traditions: [sunni]
 summary:
   en: "A wife of the Prophet remembered for her counsel at Hudaybiyya and for the hundreds of hadith transmitted on her authority in Sunni tradition."
   ar: "زوجة النبي، تُذكر برأيها يوم الحديبية وبمئات الأحاديث التي رُويت عنها في التقليد السني."
+  ur: "نبی کی اہلیہ تھیں۔ سنی روایت میں صلح حدیبیہ کے موقع پر ان کے مشورے اور ان سے منقول بہت سی احادیث کا ذکر ملتا ہے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [women, scripture-and-its-sciences]
 periods: [period/prophetic-era, period/rashidun]
@@ -40,5 +41,5 @@ relations:
   - { type: participated_in, target: event/treaty-of-hudaybiyya, role: advised-the-prophet, sources: [source/ibn-sad-tabaqat-bewley] }
 external_ids: { wikidata: "Q42104" }
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/assabile-omar-abdelkafy, source/assabile-mustafa-hosny]
-provenance: { layer: own-research, source: "Ibn Hisham juz' 4 pp. 10-11 (ibn-hisham batch 5c); Assabile, wa-nafsun-ma-sawaha ep06 (section added by Claude Code, claude-opus-5-5, run omar-abdelkafy-wa-nafsun-1)", generated_by: "Devin; Claude Sonnet 5.5; Claude Code (claude-opus-5-5)" }
+provenance: { layer: own-research, source: "Ibn Hisham juz' 4 pp. 10-11 (ibn-hisham batch 5c); Assabile, wa-nafsun-ma-sawaha ep06 (section added by Claude Code, claude-opus-5-5, run omar-abdelkafy-wa-nafsun-1)", generated_by: "Devin; Claude Sonnet 5.5; Claude Code (claude-opus-5-5)" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}, run: "explorer-fourth-40-stories-2026-11-04", model: "unknown"}
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; merged with the duplicate person/umm-salama-bint-abi-umayya (ibn-hisham batch 5c, Ibn Hisham juz' 4 pp. 10-11) by Claude Sonnet 5.5" }

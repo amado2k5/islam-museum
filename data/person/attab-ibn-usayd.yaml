@@ -1,6 +1,6 @@
 id: person/attab-ibn-usayd
 class: person
-label: { en: "Attab ibn Usayd", ar: "عتّاب بن أسيد" }
+label: { en: "Attab ibn Usayd", ar: "عتّاب بن أسيد" , ur: "عتاب بن اسید"}
 names:
   - { kind: full, lang: ar, value: "عتّاب بن أسيد بن أبي العيص بن أمية بن عبد شمس" }
 gender: male
@@ -10,6 +10,7 @@ roles: [emir, companion]
 summary:
   en: "A young Umayyad Qurashi companion whom the Prophet appointed over Mecca when he marched to Hunayn in Shawwal 8 AH and confirmed as its governor on his return through al-Ji'rana; the Prophet teased his youth, and Attab administered the city and led its pilgrimage in the Prophet's lifetime."
   ar: "صحابي قرشي أموي شاب؛ استخلفه النبي على مكة حين غادرها إلى حنين في شوال سنة 8هـ، ثم ثبّته عاملاً عليها عند عودته من الجعرانة، وقال فيه: «ما لقوم يستعملون مثل هذا الحدث» فقيل: يا رسول الله إنه يقرأ، فأقرّه، وكان يؤم أهل مكة ويحج بهم في حياة النبي."
+  ur: "قریش کے نوجوان صحابی تھے۔ فتح مکہ کے بعد نبی نے حنین روانگی کے وقت انہیں مکہ کا عامل بنایا اور واپسی پر ان کی تقرری برقرار رکھی۔ {cite:mubarakpuri-raheeq}"
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -29,6 +30,9 @@ provenance:
   layer: own-research
   source: "al-Raheeq al-Makhtum (Mubarakpuri); Encyclopaedia of Islam, 2nd ed., vol. 1, PDF p. 800, entry UMAWI (the continuation of the ATTAB B. ASID B. ABI'L-IS B. UMAYYA AL-UMAWI heading that ends the seq 418 row; batch ei2-b013 part 56, seq 419)"
   generated_by: "Devin; Claude Code (claude-haiku-5-5)"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+  run: "explorer-fourth-40-stories-2026-11-04"
+  model: "unknown"
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 414, 422; EI2 sections added by Claude Code (claude-haiku-5-5)" }
 occupations:
