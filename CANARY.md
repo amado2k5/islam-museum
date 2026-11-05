@@ -16,6 +16,10 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 47 — Ottoman-era Salabi, Muntazam and Nafh al-Tib cohorts).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 46 — al-Isaba remainder, Shadharat al-Dhahab and Ibn Khaldun al-Ibar East cohorts).
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 45 — Shadharat al-Dhahab and al-Isaba cohorts).
+- **Tabari (Shakir) readings, locations**: the harvest progress file records where volume 1's commentary discusses the readers' disagreements, from the volume's index; the thesis page references were corrected.
 - **Fifth Explorer batch checked locally**: forty final stories (36 people and four dynasties) provide 214 chronological stops and 120 Arabic/English/Urdu subject routes, with 210 passing citation checks. All stops were traversed in the browser; 61 existing screened scenes are reused. Existing event-language and colour-background fallbacks remain explicit; no new images, runtime code or deployment.
 - **Fifth Explorer selection tightened**: the explicitly unverified Bahri candidate is deferred, replaced by the cited Hassan ibn Thabit story. Urdu dynasty summaries stay faithful to existing Arabic facts; the final forty comprise 36 people and four polities.
 - **Fifth Explorer batch, final twenty stories**: fifteen more people and five dynasties complete forty new stories with 215 chronological stops. Arabic, English and Urdu subject metadata is complete; 170 existing events and 65 screened native scene variants are reused, with event-language and colour-background fallbacks retained explicitly.
