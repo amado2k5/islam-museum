@@ -26,10 +26,10 @@ relations:
   - { type: participated_in, target: event/boycott-of-the-three, role: "مقاطَع", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/repentance-of-the-three-accepted, role: "تيب عليه", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-salima, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 120–124, 175–181", generated_by: "Devin", run: "ibn-hisham-batch-2b" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}}
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 120–124, 175–181", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}}
 external_ids: { wikidata: "Q12234969" }
 sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-abu-ishaq-alheweny, source/assabile-mustafa-hosny]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 120–124" }
+status: { review: published, completeness: 3 }
 
 education:
   levels: [sprouts, explorers, scholars]

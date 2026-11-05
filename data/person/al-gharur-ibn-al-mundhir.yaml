@@ -18,6 +18,6 @@ story_roles:
 relations:
   - { type: child_of, target: person/al-numan-ibn-al-mundhir, note: "الغرور بن المنذر بن النعمان بن المنذر: فهو حفيد النعمان", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/ridda-wars, role: "قائد ردة في البحرين", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 222 and n. 2", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 222 and n. 2", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 222" }
+status: { review: published, completeness: 3 }
