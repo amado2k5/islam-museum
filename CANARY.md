@@ -29,6 +29,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:143 continues its al-Tabari commentary (volume 3, pp. 150-154): more attributed reports on "witnesses over the people" (Noah's people, the report of the angels and messengers, and the views of al-Dahhak, al-Rabi', Ibn 'Abbas and 'Ata'), in Arabic, English and Urdu.
 - Passage 2:143 continues its al-Tabari commentary (volume 3, pp. 145-149): "just" as the sense of "middle", and "witnesses over the people" with the reports of Noah and his people, the mound on the Day of Resurrection and the funeral reports, each attributed, in Arabic, English and Urdu.
 - Passages 2:142 (end) and 2:143 (opening) gain al-Tabari commentary (volume 3, pp. 139-144): the hypocrites' objection, "to God belong the east and the west", and the meaning of "a middle community" (best, just, moderate), each attributed, in Arabic, English and Urdu.
 - Passage 2:142 continues its al-Tabari commentary (volume 3, pp. 135-139): further reports on how long the Prophet prayed toward Jerusalem, the views on whether that was his choice or God's obligation, and the reasons given for the objection, each attributed, in Arabic, English and Urdu.
