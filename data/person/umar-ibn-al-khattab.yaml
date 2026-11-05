@@ -21,7 +21,7 @@ story_roles:
   - { role: successor, toward: person/abu-bakr, start: { edtf: "0634-08" }, status: historical, note: "Nominated by Abu Bakr on his deathbed.", sources: [source/watt-1956-medina] }
   - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0634" }, end: { edtf: "0644" }, status: historical, sources: [source/watt-1956-medina] }
 faith:
-  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). He predates the Sunni-Shia division." }
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). He predates the Sunni-Shia division. Ibn Taymiyya, a Sunni authority, names him amir al-mu'minin and quotes his letter to his governors on prayer (al-Hisba, p. 17); TDV lists him among the caliphs who inspected the markets themselves.", sources: [source/hisba-ibn-taymiyya-ilmiyya, source/tdv-hisbe] }
 labelled:
   - { label: { en: "al-Faruq (the one who distinguishes truth from falsehood)", ar: "الفاروق" }, by: "Islamic tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
@@ -55,7 +55,9 @@ perspectives:
 sensitivity: contested
 external_ids:
   wikidata: Q8467
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/assabile-tareq-al-suwaidan, source/assabile-ahmed-abdussalam]
+inventions:
+  - { invention: invention/hisba, role: commissioner, sources: [source/tdv-hisbe] }
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/assabile-tareq-al-suwaidan, source/assabile-ahmed-abdussalam, source/hisba-ibn-taymiyya-ilmiyya, source/tdv-hisbe]
 education:
   did_you_know:
     ar: "في عشر سنوات من خلافة عمر فتحت الجيوش الشام ومصر ومعظم دولة الفرس؛ وتذكره السنة بلقب الفاروق."

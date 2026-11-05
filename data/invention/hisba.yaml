@@ -1,0 +1,181 @@
+id: invention/hisba
+class: invention
+label:
+  ar: "الحسبة ووالي السوق"
+  en: "Hisba and the market inspector"
+  ur: "حسبہ اور بازار کا محتسب"
+names:
+  - { value: "ولاية الحسبة", kind: alternate, lang: ar }
+  - { value: "المحتسب", kind: alternate, lang: ar }
+  - { value: "صاحب السوق", kind: alternate, lang: ar }
+  - { value: "عامل السوق", kind: alternate, lang: ar }
+  - { value: "muhtasib", kind: alternate, lang: en }
+  - { value: "market inspector", kind: alternate, lang: en }
+  - { value: "almotacén", kind: alternate, lang: es }
+  - { value: "ihtisab", kind: alternate, lang: tr }
+summary:
+  ar: "ولاية يعيّن فيها الحاكم رجلاً كفئاً يتفقد الأسواق والطرق، فينظر في الغش في المكاييل والموازين والأقوات، وفي تضييق الطرق والأبنية الآيلة للسقوط، ويؤدّب على قدر المخالفة دون أن ينتظر شكوى أو خصومة {cite:muqaddima-ibn-khaldun p. 221}. وتذكر موسوعة TDV أن النبي كان يتفقد السوق بنفسه ثم عيّن عمّالاً عليه، وأن عمر بن الخطاب عيّن عمّالاً على سوق المدينة، منهم امرأة هي الشفاء بنت عبد الله، ثم صار اسم الوظيفة «المحتسب» في العهد العباسي {cite:tdv-hisbe §history}."
+  en: "An office in which the ruler appoints a capable person to watch over the markets and streets: he looks into fraud in measures, weights and foodstuffs, into blocked streets and buildings about to fall, and punishes in proportion to the offence without waiting for a complaint or a lawsuit {cite:muqaddima-ibn-khaldun p. 221}. The TDV encyclopedia says the Prophet inspected the market himself and later appointed officers over it, that Umar ibn al-Khattab appointed officers over the Medina market, among them a woman, al-Shifa' bint Abd Allah, and that under the Abbasids the officer came to be called the muhtasib {cite:tdv-hisbe §history}."
+  ur: "ایک منصب جس میں حکمران ایک اہل شخص کو بازاروں اور راستوں کی نگرانی پر مقرر کرتا ہے: وہ ناپ تول اور غذائی اشیاء میں دھوکے، تنگ کیے گئے راستوں اور گرنے والی عمارتوں کو دیکھتا ہے، اور کسی شکایت یا مقدمے کا انتظار کیے بغیر جرم کے مطابق سزا دیتا ہے {cite:muqaddima-ibn-khaldun p. 221}۔ ٹی ڈی وی انسائیکلوپیڈیا کہتا ہے کہ نبی بازار کا خود معائنہ کرتے تھے اور بعد میں اس پر عامل مقرر کیے، کہ عمر بن الخطاب نے مدینہ کے بازار پر عامل مقرر کیے، جن میں ایک خاتون شفاء بنت عبد اللہ بھی تھیں، اور یہ کہ عباسی دور میں اس عہدیدار کو محتسب کہا جانے لگا {cite:tdv-hisbe §history}۔"
+domain: institutions-systems
+kind: institution
+disciplines: [law]
+wings: [ideas, place]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+era:
+  origins: first-century
+  first_attested:
+    edtf: "0634/0644"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "TDV places the first appointed market officers in the Prophet's time and names those appointed by Umar ibn al-Khattab over the Medina market {cite:tdv-hisbe §history}; no source read gives a year for any appointment. The range recorded here is Umar's caliphate (13–23 AH), the earliest span in which named appointees are reported for him, converted to the Julian calendar and marked derived."
+    sources: [source/tdv-hisbe]
+  status_today: transformed
+origin:
+  place: place/medina
+  polity: polity/rashidun-caliphate
+  context:
+    ar: "تذكر موسوعة TDV أن النبي كان يدخل السوق بنفسه فيتفقده، وأن المصادر تسمّي من عيّنهم عمّالاً على السوق: سعيد بن العاص في مكة، وعبد الله بن سعيد بن أُحيحة وعمر بن الخطاب وسمراء بنت نهيك الأسدية والشفاء بنت عبد الله في المدينة، ويقال إن عمر هو الذي عيّن الشفاء {cite:tdv-hisbe §history}. ويستشهد ابن تيمية بحديث صُبرة الطعام: أدخل النبي يده في كومة طعام فوجدها مبلولة، فقال إن من غشّ ليس منّا، وهو في صحيح مسلم {cite:hisba-ibn-taymiyya-ilmiyya p. 18}. ثم تقول TDV إن عمر وعثمان وعليّاً تفقدوا الأسواق بأنفسهم وعيّنوا عليها عمّالاً {cite:tdv-hisbe §history}."
+    en: "The TDV encyclopedia says the Prophet went into the market himself to inspect it, and that the sources name those he appointed as market officers: Sa'id ibn al-As in Mecca, and Abd Allah ibn Sa'id ibn Uhayha, Umar ibn al-Khattab, Samra' bint Nuhayk al-Asadiyya and al-Shifa' bint Abd Allah in Medina; it is also said that Umar was the one who appointed al-Shifa' {cite:tdv-hisbe §history}. Ibn Taymiyya cites the hadith of the heap of grain: the Prophet put his hand into a pile of food, found it wet underneath, and said that whoever cheats is not one of us, a report in Sahih Muslim {cite:hisba-ibn-taymiyya-ilmiyya p. 18}. TDV then says that Umar, Uthman and Ali inspected the markets themselves and appointed officers over them {cite:tdv-hisbe §history}."
+    ur: "ٹی ڈی وی انسائیکلوپیڈیا کہتا ہے کہ نبی خود بازار میں جا کر اس کا معائنہ کرتے تھے، اور مآخذ ان لوگوں کے نام بتاتے ہیں جنہیں آپ نے بازار کا عامل مقرر کیا: مکہ میں سعید بن العاص، اور مدینہ میں عبد اللہ بن سعید بن اُحیحہ، عمر بن الخطاب، سمراء بنت نہیک الاسدیہ اور شفاء بنت عبد اللہ؛ یہ بھی کہا جاتا ہے کہ شفاء کو عمر نے مقرر کیا {cite:tdv-hisbe §history}۔ ابن تیمیہ غلے کے ڈھیر والی حدیث نقل کرتے ہیں: نبی نے کھانے کے ایک ڈھیر میں ہاتھ ڈالا تو نیچے سے گیلا پایا، اور فرمایا کہ جو دھوکا دے وہ ہم میں سے نہیں، یہ روایت صحیح مسلم میں ہے {cite:hisba-ibn-taymiyya-ilmiyya p. 18}۔ پھر ٹی ڈی وی کہتا ہے کہ عمر، عثمان اور علی نے خود بازاروں کا معائنہ کیا اور ان پر عامل مقرر کیے {cite:tdv-hisbe §history}۔"
+makers:
+  - person: person/umar-ibn-al-khattab
+    role: commissioner
+    place: place/medina
+    start: { edtf: "0634", calendar: julian, precision: year, status: historical, sources: [source/watt-1956-medina] }
+    end: { edtf: "0644", calendar: julian, precision: year, status: historical, sources: [source/watt-1956-medina] }
+    note: "TDV: as caliph, Umar inspected the markets himself and appointed al-Sa'ib ibn Yazid, Abd Allah ibn Utba ibn Mas'ud and Sulayman ibn Abi Hathma as officers over the Medina market, and it is said he appointed al-Shifa' bint Abd Allah; the whip these officers carried later became the muhtasib's emblem. He is recorded as commissioner, not inventor: the sources place the first market officers in the Prophet's time, and the Prophet is not recorded here as a maker."
+    sources: [source/tdv-hisbe]
+attribution:
+  status: contested
+  claim:
+    ar: "نشأت ولاية السوق، ثم الحسبة، في المدينة في عهد النبي والخلفاء الراشدين، لا تقليداً لموظف السوق اليوناني أو البيزنطي."
+    en: "The office of the market officer, and after it the hisba, began in Medina in the time of the Prophet and the Rightly Guided Caliphs, not as an imitation of the Greek or Byzantine market official."
+    ur: "بازار کے عامل کا منصب، اور اس کے بعد حسبہ، مدینہ میں نبی اور خلفائے راشدین کے دور میں شروع ہوا، یونانی یا بازنطینی بازار افسر کی نقل کے طور پر نہیں۔"
+  basis:
+    ar: "يجعل محققو «معالم القربة» النبي أول من قام بعمل المحتسب، والخلفاء الراشدين أول من باشروا الحسبة بأنفسهم ثم ولّوا عليها المحتسبين لما اتسعت الفتوح {cite:maalim-qurba-edition-1976 p. 5} {cite:maalim-qurba-edition-1976 p. 6}. وتنقل موسوعة TDV قول بعض المستشرقين إن الوظيفة مأخوذة عن الأغورانوموس اليوناني أو الإيديل الروماني أو الوالي البيزنطي، وترى أنه لا دليل عليه: فالوظيفة ظهرت في المدينة حيث لا أثر بيزنطي، ولم تظهر أولاً في الشام ومصر، وكانت دينية من أولها، ونظام السوق البيزنطي المعروف متأخر عنها نحو ثلاثة قرون. وتقرّ TDV بأن كتب الحسبة تنقل بعض قواعد السوق البيزنطية {cite:tdv-hisbe §history}. فالخلاف في الأصل، لا في وجود ولاية السوق في المدينة."
+    en: "The editors of Ma'alim al-Qurba make the Prophet the first to do the muhtasib's work, and the Rightly Guided Caliphs the first to carry out the hisba themselves and then appoint muhtasibs as the conquests widened {cite:maalim-qurba-edition-1976 p. 5} {cite:maalim-qurba-edition-1976 p. 6}. The TDV encyclopedia reports the view of some orientalists that the office was taken from the Greek agoranomos, the Roman aedile or the Byzantine prefect, and holds that nothing supports it: the office appeared in Medina, where there was no Byzantine influence, and not first in Syria or Egypt; it was religious from the start; and the known Byzantine market ordinance is about three centuries later. TDV grants that the hisba manuals quote some Byzantine market rules {cite:tdv-hisbe §history}. The disagreement is about origin, not about the existence of market officers in Medina."
+    ur: "معالم القربہ کے محققین نبی کو محتسب کا کام کرنے والا پہلا شخص قرار دیتے ہیں، اور خلفائے راشدین کو وہ پہلے لوگ جنہوں نے حسبہ خود انجام دیا اور پھر فتوحات پھیلنے پر محتسب مقرر کیے {cite:maalim-qurba-edition-1976 p. 5} {cite:maalim-qurba-edition-1976 p. 6}۔ ٹی ڈی وی انسائیکلوپیڈیا بعض مستشرقین کا یہ قول نقل کرتا ہے کہ یہ منصب یونانی اگورانوموس، رومی ایڈائل یا بازنطینی حاکم سے لیا گیا، اور سمجھتا ہے کہ اس کی کوئی دلیل نہیں: یہ منصب مدینہ میں ظاہر ہوا جہاں بازنطینی اثر نہ تھا، پہلے شام یا مصر میں نہیں؛ یہ شروع سے دینی تھا؛ اور معلوم بازنطینی بازاری ضابطہ اس سے تقریباً تین صدیاں بعد کا ہے۔ ٹی ڈی وی مانتا ہے کہ حسبہ کی کتابیں بعض بازنطینی بازاری قواعد نقل کرتی ہیں {cite:tdv-hisbe §history}۔ اختلاف اصل میں ہے، مدینہ میں بازار کے عاملوں کے وجود میں نہیں۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-hisba-manuals
+      standing: main
+      summary:
+        ar: "يجعل ابن تيمية الحسبة واحدة من الولايات الإسلامية، كالشرطة والحكم والدواوين المالية، وكلها مقصودها الأمر بالمعروف والنهي عن المنكر، ويذكر من عمل المحتسب أمر العامة بالصلوات في أوقاتها، والنظر في الأئمة والمؤذنين، وفي الصدق والأمانة والتطفيف والغش في الصناعات والبياعات {cite:hisba-ibn-taymiyya-ilmiyya p. 11} {cite:hisba-ibn-taymiyya-ilmiyya p. 16} {cite:hisba-ibn-taymiyya-ilmiyya p. 17}. ويقول ابن الأخوة إن الحسبة من قواعد الأمور الدينية، وإن أئمة الصدر الأول كانوا يباشرونها بأنفسهم، وإن المحتسب يعيّنه الإمام أو نائبه، ويُشترط أن يكون مسلماً حراً بالغاً عاقلاً عدلاً قادراً {cite:maalim-qurba-edition-1976 p. 53}. ويجعلها ابن خلدون وظيفة دينية خادمة للقضاء {cite:muqaddima-ibn-khaldun p. 221}."
+        en: "Ibn Taymiyya counts the hisba among the Islamic offices, alongside the police, the judiciary and the financial bureaux, all of which aim at enjoining good and forbidding wrong. Among the muhtasib's duties he lists bidding people to pray at the set times, overseeing imams and muezzins, and watching over honesty, trusts, short measure and fraud in crafts and trade {cite:hisba-ibn-taymiyya-ilmiyya p. 11} {cite:hisba-ibn-taymiyya-ilmiyya p. 16} {cite:hisba-ibn-taymiyya-ilmiyya p. 17}. Ibn al-Ukhuwwa says the hisba is one of the foundations of religious affairs, that the imams of the first generation carried it out themselves, and that the muhtasib is appointed by the imam or his deputy and must be Muslim, free, adult, sane, just and capable {cite:maalim-qurba-edition-1976 p. 53}. Ibn Khaldun calls it a religious office that serves the judgeship {cite:muqaddima-ibn-khaldun p. 221}."
+        ur: "ابن تیمیہ حسبہ کو اسلامی مناصب میں شمار کرتے ہیں، جیسے پولیس، عدلیہ اور مالی دفاتر، جن سب کا مقصد نیکی کا حکم دینا اور برائی سے روکنا ہے۔ محتسب کے کاموں میں وہ لوگوں کو وقت پر نماز کی تلقین، اماموں اور مؤذنوں کی نگرانی، اور صنعتوں اور تجارت میں سچائی، امانت، کم تولنے اور دھوکے کی نگرانی گنواتے ہیں {cite:hisba-ibn-taymiyya-ilmiyya p. 11} {cite:hisba-ibn-taymiyya-ilmiyya p. 16} {cite:hisba-ibn-taymiyya-ilmiyya p. 17}۔ ابن الاخوہ کہتے ہیں کہ حسبہ دینی امور کی بنیادوں میں سے ہے، کہ پہلی نسل کے ائمہ اسے خود انجام دیتے تھے، اور یہ کہ محتسب کو امام یا اس کا نائب مقرر کرتا ہے اور اس کا مسلمان، آزاد، بالغ، عاقل، عادل اور قادر ہونا شرط ہے {cite:maalim-qurba-edition-1976 p. 53}۔ ابن خلدون اسے ایک دینی منصب کہتے ہیں جو قضا کا خادم ہے {cite:muqaddima-ibn-khaldun p. 221}۔"
+      holders: [person/ibn-taymiyya, person/ibn-al-ukhuwwa, person/ibn-khaldun]
+      sources: [source/hisba-ibn-taymiyya-ilmiyya, source/maalim-qurba-edition-1976, source/muqaddima-ibn-khaldun]
+    - tradition: academic
+      id: academic-tdv
+      standing: main
+      summary:
+        ar: "ترى موسوعة TDV الإسلامية أن الحسبة نشأت في المدينة: تفقد النبي السوق ثم عيّن عمّالاً عليه، وعيّن عمر وعثمان عمّالاً بأسمائهم، وبقي «صاحب السوق» في العهد الأموي، ثم ظهر لقب المحتسب في العهد العباسي، ولا يُعرف إن كان تغيير الاسم غيّر الوظيفة. وترد قول المستشرقين بالأصل اليوناني أو البيزنطي لانعدام الدليل، مع إقرارها بأن كتب الحسبة نقلت بعض القواعد البيزنطية."
+        en: "The TDV Encyclopedia of Islam holds that the hisba began in Medina: the Prophet inspected the market and then appointed officers over it, Umar and Uthman appointed named officers, the 'master of the market' carried on under the Umayyads, and the title muhtasib appeared under the Abbasids, though it is unclear whether the change of name changed the office. It rejects the orientalist view of a Greek or Byzantine origin for lack of evidence, while granting that the hisba manuals took over some Byzantine rules."
+        ur: "ٹی ڈی وی اسلامی انسائیکلوپیڈیا کے مطابق حسبہ مدینہ میں شروع ہوا: نبی نے بازار کا معائنہ کیا پھر اس پر عامل مقرر کیے، عمر اور عثمان نے نام بنام عامل مقرر کیے، اموی دور میں «صاحب السوق» باقی رہا، اور عباسی دور میں محتسب کا لقب ظاہر ہوا، اگرچہ یہ واضح نہیں کہ نام کی تبدیلی سے منصب بدلا یا نہیں۔ وہ یونانی یا بازنطینی اصل کے مستشرقانہ قول کو دلیل نہ ہونے کی بنا پر رد کرتا ہے، البتہ مانتا ہے کہ حسبہ کی کتابوں نے بعض بازنطینی قواعد لیے۔"
+      sources: [source/tdv-hisbe]
+    - tradition: academic
+      id: academic-byzantine-origin
+      standing: other
+      summary:
+        ar: "تنقل موسوعة TDV أن بعض المستشرقين، ومنهم غودفروا-ديمومبين وفون غرونباوم وفوستر، رأوا أن وظيفة صاحب السوق ثم المحتسب أُخذت عن الأغورانوموس اليوناني أو الإيديل الروماني أو الوالي البيزنطي في المدن التي فتحها المسلمون."
+        en: "The TDV encyclopedia reports that some orientalists, among them Gaudefroy-Demombynes, von Grunebaum and Foster, held that the office of the market officer and then the muhtasib was taken from the Greek agoranomos, the Roman aedile or the Byzantine prefect of the cities the Muslims conquered."
+        ur: "ٹی ڈی وی انسائیکلوپیڈیا نقل کرتا ہے کہ بعض مستشرقین، جن میں گودفروا دیمومبین، فون گرونباوم اور فوسٹر شامل ہیں، کا خیال تھا کہ بازار کے عامل اور پھر محتسب کا منصب مسلمانوں کے فتح کردہ شہروں کے یونانی اگورانوموس، رومی ایڈائل یا بازنطینی حاکم سے لیا گیا۔"
+      sources: [source/tdv-hisbe]
+precursors:
+  - external:
+      ar: "الأغورانوموس اليوناني ووالي السوق البيزنطي (أصل مزعوم)"
+      en: "The Greek agoranomos and the Byzantine market prefect (a claimed origin)"
+      ur: "یونانی اگورانوموس اور بازنطینی بازار حاکم (ایک دعویٰ کردہ اصل)"
+    note: "Recorded only as a disputed claim. TDV reports that some orientalists derived the office from these officials and rejects the derivation for lack of evidence; it grants that later hisba manuals quote some Byzantine market rules. No source read shows a line from these offices to the Medina market officers."
+    sources: [source/tdv-hisbe]
+dependents:
+  - external:
+      ar: "صاحب السوق في العهد الأموي"
+      en: "The Umayyad master of the market"
+      ur: "اموی دور کا صاحب السوق"
+    note: "TDV: the Umayyads kept the office of master of the market; Asim al-Ahwal (d. 142/759) inspected the weights in the Kufa market, and outside the market the head of police dealt with hisba matters."
+    sources: [source/tdv-hisbe]
+  - external:
+      ar: "المحتسب العباسي في بغداد"
+      en: "The Abbasid muhtasib in Baghdad"
+      ur: "بغداد کا عباسی محتسب"
+    note: "TDV: al-Tabari records that in 157 (773–74), under al-Mansur, Abu Zakariyya Yahya ibn Abd Allah held the hisba in Baghdad; some modern researchers place the first use of the title muhtasib under al-Mahdi, al-Hadi or al-Ma'mun. The Ma'alim editors date the hisba in Egypt to 253/867."
+    sources: [source/tdv-hisbe, source/maalim-qurba-edition-1976]
+  - external:
+      ar: "كتب الحسبة"
+      en: "The hisba manuals"
+      ur: "حسبہ کی کتابیں"
+    note: "Manuals written for muhtasibs, among them those of al-Shayzari, Ibn Bassam and Ibn al-Ukhuwwa (d. 729 AH). Ibn al-Ukhuwwa's Ma'alim al-Qurba gives chapters on market wrongs, weights and measures, bakers, bloodletters, physicians, bone-setters and surgeons."
+    sources: [source/maalim-qurba-edition-1976, source/tdv-hisbe]
+  - external:
+      ar: "المحتسب في المغرب والأندلس ومصر والشام"
+      en: "The muhtasib in the Maghreb, al-Andalus, Egypt and Syria"
+      ur: "مغرب، اندلس، مصر اور شام میں محتسب"
+    note: "Ibn Khaldun: under the Fatimids (Ubaydids) in Egypt and the Maghreb and the Umayyads of al-Andalus the hisba fell under the judge, who appointed to it as he wished; when royal and religious offices later separated, it became a royal office of its own."
+    sources: [source/muqaddima-ibn-khaldun]
+  - external:
+      ar: "الاحتساب العثماني"
+      en: "The Ottoman ihtisab"
+      ur: "عثمانی احتساب"
+    note: "The TDV entry's Ottoman section (Ziya Kazıcı, printed in vol. 18, pp. 143–145) traces the office of the muhtasib and its market regulations in the Ottoman state."
+    sources: [source/tdv-hisbe]
+  - external:
+      ar: "موظف السوق في الممالك الصليبية والإسبانية، والألموتاسين الإسباني"
+      en: "The market officer of the Crusader and Spanish kingdoms, and the Spanish almotacén"
+      ur: "صلیبی اور ہسپانوی سلطنتوں کا بازار افسر، اور ہسپانوی المتاسن"
+    note: "TDV: the office passed to the Kingdom of Jerusalem and the Spanish kingdoms, where market officers were called çavaçoque or zabazoque (from sahib al-suq) and mathesseb (from muhtasib); in Spanish today almotacén means an inspector of weights and measures."
+    sources: [source/tdv-hisbe]
+spread: []
+impact:
+  fields: [institutions-systems, everyday-life]
+  changed:
+    ar: "صار للسوق في المدينة الإسلامية موظف ثابت يعيّنه الحاكم، يأخذ أجره، ويتحرك من تلقاء نفسه دون شكوى: يختبر الموازين ويختمها، ويمنع البيع في الطرق الضيقة، ويحدد للخبازين ما يخبزون كل يوم حتى لا ينقطع الخبز، ويمتحن الفصّادين والأطباء والمجبّرين {cite:maalim-qurba-edition-1976 p. 137} {cite:maalim-qurba-edition-1976 p. 147} {cite:maalim-qurba-edition-1976 p. 157} {cite:maalim-qurba-edition-1976 p. 260}."
+    en: "The market of the Muslim city gained a standing officer, appointed by the ruler and paid a salary, who acted on his own initiative without waiting for a complaint: he tested and sealed the weights, kept stalls out of narrow streets, set the bakers a daily quota so the town never ran short of bread, and examined bloodletters, physicians and bone-setters {cite:maalim-qurba-edition-1976 p. 137} {cite:maalim-qurba-edition-1976 p. 147} {cite:maalim-qurba-edition-1976 p. 157} {cite:maalim-qurba-edition-1976 p. 260}."
+    ur: "مسلم شہر کے بازار کو ایک مستقل افسر ملا، جسے حکمران مقرر کرتا اور تنخواہ دیتا تھا، اور جو کسی شکایت کا انتظار کیے بغیر خود کارروائی کرتا تھا: وہ باٹ جانچتا اور ان پر مہر لگاتا، تنگ گلیوں سے دکانیں ہٹواتا، نان بائیوں کے لیے روزانہ کی مقدار مقرر کرتا تاکہ شہر میں روٹی کم نہ پڑے، اور فصد کرنے والوں، طبیبوں اور ہڈی جوڑنے والوں کا امتحان لیتا تھا {cite:maalim-qurba-edition-1976 p. 137} {cite:maalim-qurba-edition-1976 p. 147} {cite:maalim-qurba-edition-1976 p. 157} {cite:maalim-qurba-edition-1976 p. 260}۔"
+  history:
+    ar: "تقول موسوعة TDV إن الوظيفة بقيت باسم «صاحب السوق» في العهد الأموي، ثم صار صاحبها «المحتسب» في العهد العباسي، وانتشرت في مصر والشام والمغرب والأندلس وإيران والأناضول والدولة العثمانية، وانتقلت إلى الممالك الصليبية والإسبانية {cite:tdv-hisbe §history}. ويقول ابن خلدون إنها كانت تحت القاضي عند الفاطميين وأمويي الأندلس، ثم صارت ولاية سلطانية مستقلة {cite:muqaddima-ibn-khaldun p. 221}."
+    en: "The TDV encyclopedia says the office kept the name 'master of the market' under the Umayyads, its holder became the muhtasib under the Abbasids, and it spread to Egypt, Syria, the Maghreb, al-Andalus, Iran, Anatolia and the Ottoman state, and passed to the Crusader and Spanish kingdoms {cite:tdv-hisbe §history}. Ibn Khaldun says it was under the judge for the Fatimids and the Umayyads of al-Andalus and later became a royal office of its own {cite:muqaddima-ibn-khaldun p. 221}."
+    ur: "ٹی ڈی وی انسائیکلوپیڈیا کہتا ہے کہ اموی دور میں یہ منصب «صاحب السوق» کے نام سے باقی رہا، عباسی دور میں اس کا حامل محتسب کہلایا، اور یہ مصر، شام، مغرب، اندلس، ایران، اناطولیہ اور عثمانی ریاست تک پھیلا، اور صلیبی اور ہسپانوی سلطنتوں میں منتقل ہوا {cite:tdv-hisbe §history}۔ ابن خلدون کہتے ہیں کہ فاطمیوں اور اندلس کے امویوں کے ہاں یہ قاضی کے تحت تھا اور بعد میں ایک الگ شاہی منصب بن گیا {cite:muqaddima-ibn-khaldun p. 221}۔"
+  significance: 4
+  why: "A standing, salaried public office for the market and the street, traced by Sunni and academic sources alike to Medina, that ran for more than a thousand years across the Muslim world, produced its own manuals and passed by name into Crusader and Spanish market law."
+described_in: [work/maalim-al-qurba-fi-ahkam-al-hisba, work/al-hisba-fi-al-islam, work/al-muqaddima]
+examples: []
+sites: [place/medina]
+concepts: [concept/hisba, concept/hisba-enjoining-good]
+today:
+  form:
+    ar: "تلاحظ موسوعة TDV أن الإسبانية ما زالت تستعمل كلمة almotacén بمعنى مفتش الموازين والمكاييل، ويرى محققو «معالم القربة» أن ما كان يتولاه المحتسب توزّع اليوم على وزارات التموين والصحة والداخلية وغيرها {cite:tdv-hisbe §history} {cite:maalim-qurba-edition-1976 p. 6}."
+    en: "The TDV encyclopedia notes that Spanish still uses almotacén for an inspector of weights and measures, and the Ma'alim al-Qurba editors observe that the muhtasib's duties are spread today across ministries of supply, health, the interior and others {cite:tdv-hisbe §history} {cite:maalim-qurba-edition-1976 p. 6}."
+    ur: "ٹی ڈی وی انسائیکلوپیڈیا بتاتا ہے کہ ہسپانوی میں آج بھی almotacén کا لفظ ناپ تول کے معائنہ کار کے لیے استعمال ہوتا ہے، اور معالم القربہ کے محققین کہتے ہیں کہ محتسب کے کام آج رسد، صحت، داخلہ اور دوسری وزارتوں میں بٹ گئے ہیں {cite:tdv-hisbe §history} {cite:maalim-qurba-edition-1976 p. 6}۔"
+  descendants:
+    ar: "مفتشو الموازين والمكاييل، ورقابة الأسواق والأغذية، وتراخيص المهن الطبية، كلها أعمال كانت في يد المحتسب {cite:maalim-qurba-edition-1976 p. 6}."
+    en: "Weights-and-measures inspectors, market and food inspection, and the licensing of medical practitioners: all work that once lay in the muhtasib's hands {cite:maalim-qurba-edition-1976 p. 6}."
+    ur: "ناپ تول کے معائنہ کار، بازار اور خوراک کی نگرانی، اور طبی پیشوں کے لائسنس: یہ سب وہ کام ہیں جو کبھی محتسب کے ہاتھ میں تھے {cite:maalim-qurba-edition-1976 p. 6}۔"
+media:
+  image: media/walters-476-glass-weight
+  diagram: media/diagram-hisba
+kids:
+  ar: "في المدينة قديماً كان في السوق رجل، وأحياناً امرأة، يعيّنه الخليفة ليتأكد أن الباعة لا يغشّون. كان يزن الموازين ليرى أنها صحيحة، ويتأكد أن الخبّاز ينضج خبزه جيداً، وأن أحداً لا يضع بضاعته في وسط الطريق. وكان اسمه بعد ذلك «المحتسب»."
+  en: "Long ago in Medina, the caliph chose a man, and sometimes a woman, to watch over the market and make sure no seller cheated. This officer checked that the weights were true, that the baker baked his bread properly, and that nobody left their goods in the middle of the road. Later this officer was called the muhtasib."
+  ur: "بہت پہلے مدینہ میں خلیفہ ایک مرد کو، اور کبھی ایک عورت کو، بازار کی نگرانی کے لیے چنتے تھے تاکہ کوئی بیچنے والا دھوکا نہ دے۔ یہ افسر دیکھتا کہ باٹ ٹھیک ہیں، نان بائی روٹی اچھی طرح پکاتا ہے، اور کوئی اپنا سامان راستے کے بیچ میں نہیں رکھتا۔ بعد میں اس افسر کو محتسب کہا جانے لگا۔"
+sources:
+  - source/tdv-hisbe
+  - source/maalim-qurba-edition-1976
+  - source/hisba-ibn-taymiyya-ilmiyya
+  - source/muqaddima-ibn-khaldun
+  - source/watt-1956-medina
+  - source/wikimedia-commons
+status:
+  review: published
+  completeness: 3
+  generated_by: "Copilot SDK in VS Code"
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b11"
+  source: "TDV İslâm Ansiklopedisi, HİSBE (Kallek, Bazmee Ansari, Kazıcı), web edition, history section; Ibn al-Ukhuwwa, Ma'alim al-Qurba (1976 ed.) scan pp. 5–6, 53, 137, 147, 157, 251, 258–260; Ibn Taymiyya, al-Hisba (Dar al-Kutub al-Ilmiyya) pp. 11, 16–18, 20–21; Ibn Khaldun, al-Muqaddima p. 221"

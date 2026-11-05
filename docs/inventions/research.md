@@ -157,6 +157,8 @@ These are three distinct candidates, not a settled chronology. The Rufayda lead 
 
 **Update (8 November 2026, D-047).** The algorism lead was verified on the harvested OCR of the Cairo 1939 edition of al-Khwarizmi's *al-Jabr* (`source/khwarizmi-jabr-cairo-1939`): the editors' introduction (Fihrist entry, surviving works, the Latin afterlife of his arithmetic, *Carmen de Algorismo*, *Algorismus vulgaris*, scan pp. 22–26) and his preface (scan pp. 29–30), with Ibn Khaldun's chapter on arithmetic (*Muqaddima* pp. 494–495). The TDV entry "HÂRİZMÎ, Muhammed b. Mûsâ" by İhsan Fazlıoğlu (vol. 16, 1997, pp. 224–227) was read online and registered as `source/tdv-harizmi`. The Arabic original of *Kitab al-Hisab al-Hindi* is lost; the record does not claim he invented the numerals.
 
+**Update (5 November 2026, D-048).** The hisba lead was verified on TDV "HİSBE" (history section: the Prophet's and the caliphs' market officers, the Umayyad *sahib al-suq*, the Abbasid muhtasib of 157 AH, the rejected agoranomos/praefectus thesis, the *mathesseb* and *almotacén*), the harvested OCR of Ibn al-Ukhuwwa's *Ma'alim al-Qurba* (1976 ed., scan pp. 5–6, 53, 137, 147, 157, 251, 258–260), Ibn Taymiyya's *al-Hisba* (pp. 11, 16–18, 20–21) and Ibn Khaldun's *Muqaddima* (pp. 216, 221, re-read on the page). Published as `invention/hisba` with Umar ibn al-Khattab as commissioner; al-Mawardi's *al-Ahkam al-Sultaniyya* is harvested but has no source record yet and was not cited.
+
 ### Early engineering and windmill screen (5 November 2026)
 
 This was a bounded source screen of the Banū Mūsā feedback-device, saqiya-improvement and Sistan windmill leads. It did not establish any new invention attribution or maker eligibility.
