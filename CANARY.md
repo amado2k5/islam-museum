@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:178 gains more of al-Tabari's commentary (volume 3, pp. 361-367): the reports on 'Ali and others about setting off blood-money, his reasoning for which reading of the verse stands and why, the meaning of "prescribed" and "qisas", and the first views on pardon and "reasonable pursuit", attributed, in Arabic, English and Urdu.
 - Passages 2:177 and 2:178 gain al-Tabari commentary (volume 3, pp. 356-361): the close of 2:177 ("those are the ones who were true") and, for 2:178, what "prescribed" means, the view that qisas offsets blood-money, and the interpreters' differing reports on its occasion, attributed, in Arabic, English and Urdu.
 - Passage 2:177 gains more of al-Tabari's commentary (volume 3, pp. 349-355): the reports on "hardship and affliction", the grammarians' views on the two words and his preference, why "the patient" is in the accusative as praise (and his rejection of coordination with "those who ask"), and "in time of stress", attributed, in Arabic, English and Urdu.
 - Passage 2:177 gains more of al-Tabari's commentary (volume 3, pp. 344-349): giving to kin, the wayfarer, those who ask, freeing slaves, the two views on a due beyond zakat, keeping covenants, and the first reports on "hardship and affliction", attributed, in Arabic, English and Urdu.
