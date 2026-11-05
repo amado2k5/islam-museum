@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:182 gains more of al-Tabari's commentary (volume 3, pp. 401-407): the further views on setting right a partial bequest, his choice and his reason, the readings, and the meanings of "janaf" and "ithm", each attributed, in Arabic, English and Urdu.
 - Passages 2:180, 2:181 and 2:182 gain al-Tabari commentary (volume 3, pp. 395-401): his choice that a bequest binds from any amount, who bears the sin of altering a bequest, and the first views on setting right a partial bequest, each attributed, in Arabic, English and Urdu.
 - Passage 2:180 gains more of al-Tabari's commentary (volume 3, pp. 390-395): the reports of those who held the bequest wholly abrogated, what "good" means, and the differing views on the amount of wealth at which a bequest binds, each attributed, in Arabic, English and Urdu.
 - Passage 2:180 gains more of al-Tabari's commentary (volume 3, pp. 385-390): his answer that the bequest is obligatory for non-heirs, and the three positions among scholars on whether the verse is abrogated by the inheritance verses, each attributed, in Arabic, English and Urdu.
