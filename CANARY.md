@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 462-467): the view that fasting on a journey must be made up and its supporting report, and the opposing view that breaking the fast on a journey is a concession (reports of 'Umar ibn 'Abd al-'Aziz, 'Umar ibn al-Khattab, Anas and others), each attributed, with the editor's notes on chains, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 458-462): the views on which illness permits breaking the fast (including a view attributed to al-Shafi'i), al-Tabari's choice, the grammar of "other days", and the first view that breaking the fast on a journey is obligatory, each attributed, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 452-458): more reports on the traveller, the view attributed to Abu Hanifa and his companions on madness, al-Tabari's reasons for rejecting two readings of "witnessing the month" and choosing the third, and the first views on which illness permits breaking the fast, each attributed, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 447-452): the sending down of the Qur'an in Ramadan, the meanings of guidance, proofs and criterion, and the differing views on "witnessing the month" for residents and travellers, each view attributed to named transmitters, in Arabic, English and Urdu.
