@@ -15,3 +15,7 @@ Sha'rawi holds that "in" (fi) indicates an enclosing container: error surrounds 
 
 ## Author's view
 This is Sha'rawi's reading and is attributed to him. The scan gives no other linguistic or exegetical view, and none has been checked. The edition is unverified.
+
+## In al-Tabari's commentary: "and those are the successful"
+Al-Tabari explains al-muflihun as those who succeed and attain what they sought from God through their deeds and their belief in God, His books and His messengers: the winning of reward, abiding in the gardens, and safety from the punishment God prepared for His enemies. He reports Ibn Abbas as saying they are those who attained what they sought and were saved from the evil they fled. {cite:tafsir-tabari-shakir-v01 p. 249} {cite:tafsir-tabari-shakir-v01 p. 250}
+He argues from Arabic poetry that attaining one's aim is one meaning of falah, with a line of Labid ibn Rabi'a among his witnesses. He adds that falah is the verbal noun of "aflaha" and also means survival, citing lines by Labid, Ubayd and al-Nabigha al-Dhubyani. {cite:tafsir-tabari-shakir-v01 p. 250}
