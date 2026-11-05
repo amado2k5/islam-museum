@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { execSync } from 'node:child_process'
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { buildRecords, spreadAcrossTime, TOPICS, LAUNCH_PER_TOPIC, type GraphNode } from './time-browser.ts'
+import { buildRecords, spreadAcrossTime, tourSubset, TOUR_IDS, TOPICS, LAUNCH_PER_TOPIC, type GraphNode } from './time-browser.ts'
 
 // The CI test job runs `npm test` without the build, so compile the graph once here when it is missing
 // (the same guard as scripts/edu.test.ts).
@@ -22,6 +22,84 @@ describe('time-browser batch spread', () => {
     expect(picked[0]).toBe(0)
     expect(picked[49]).toBe(999)
     expect(new Set(picked).size).toBe(50)
+  })
+})
+
+describe('time-browser required tour stops', () => {
+  const polityPool = (): GraphNode[] => Array.from({ length: 155 }, (_, i) => {
+    const slug = i === 108 ? 'qutlughkhanid-kirman' : `test-${i}`
+    return {
+      id: `polity/${slug}`,
+      class: 'polity',
+      slug,
+      label: { ar: 'اختبار', en: 'Test' },
+      summary: { ar: 'ملخص', en: 'Summary' },
+      span: { earliest: 1000 + i, latest: 1000 + i },
+      data: { sources: ['source/test'] },
+    }
+  })
+
+  it('retains a required stop omitted by ordinary sampling without exceeding the cap', () => {
+    const pool = polityPool()
+    const required = 'polity/qutlughkhanid-kirman'
+    expect(spreadAcrossTime(pool, LAUNCH_PER_TOPIC).some(n => n.id === required)).toBe(false)
+    const records = buildRecords(pool, 'polity')
+    expect(records).toHaveLength(LAUNCH_PER_TOPIC)
+    expect(records.some(r => r.id === required)).toBe(true)
+    expect(new Set(records.map(r => r.id)).size).toBe(LAUNCH_PER_TOPIC)
+    expect(records[0].id).toBe(pool[0].id)
+    expect(records.at(-1)?.id).toBe(pool.at(-1)?.id)
+    expect(records.map(r => r.timelineKey)).toEqual(records.map(r => r.timelineKey).sort((a, b) => a - b))
+    expect(buildRecords([...pool].reverse(), 'polity')).toEqual(records)
+  })
+
+  it('retains every required stop in the current production graph', () => {
+    const records = TOPICS.flatMap(topic => buildRecords(graph.nodes, topic))
+    expect(tourSubset(records).map(r => r.id)).toEqual(TOUR_IDS)
+  })
+
+  it('retains multiple required stops in the same topic', () => {
+    const required = TOUR_IDS.filter(id => id.startsWith('period/'))
+    const pool = polityPool().map((n, i) => {
+      const id = required[[21, 47, 83].indexOf(i)] ?? `period/test-${i}`
+      return { ...n, id, class: 'period', slug: id.slice('period/'.length) }
+    })
+    const records = buildRecords(pool, 'period')
+    expect(records).toHaveLength(LAUNCH_PER_TOPIC)
+    for (const id of required) expect(records.some(r => r.id === id)).toBe(true)
+    expect(new Set(records.map(r => r.id)).size).toBe(LAUNCH_PER_TOPIC)
+    expect(records.map(r => r.timelineKey)).toEqual(records.map(r => r.timelineKey).sort((a, b) => a - b))
+  })
+
+  it('keeps the ordinary sample unchanged when it already contains the required stop', () => {
+    const pool = polityPool()
+    pool[108].id = 'polity/test-108'
+    pool[0].id = 'polity/qutlughkhanid-kirman'
+    expect(buildRecords(pool, 'polity').map(r => r.id)).toEqual(
+      spreadAcrossTime(pool, LAUNCH_PER_TOPIC).map(n => n.id),
+    )
+  })
+
+  it('leaves small pools and topics without required stops unchanged', () => {
+    const pool = polityPool()
+    const small = pool.slice(100, 110)
+    expect(buildRecords(small, 'polity').map(r => r.id)).toEqual(small.map(n => n.id))
+    const optional = pool.filter(n => !TOUR_IDS.includes(n.id))
+    expect(buildRecords(optional, 'polity').map(r => r.id)).toEqual(
+      spreadAcrossTime(optional, LAUNCH_PER_TOPIC).map(n => n.id),
+    )
+  })
+
+  it('does not make an uncited tour stop eligible or hide missing tour stops', () => {
+    const pool = polityPool()
+    pool[108].data = { sources: [] }
+    const records = buildRecords(pool, 'polity')
+    expect(records.some(r => r.id === 'polity/qutlughkhanid-kirman')).toBe(false)
+    const otherStops = TOPICS.flatMap(topic => buildRecords(graph.nodes, topic))
+      .filter(r => r.kind !== 'polity')
+    expect(() => tourSubset([...otherStops, ...records])).toThrow(
+      'time-browser: tour stop polity/qutlughkhanid-kirman is not a prepared stop',
+    )
   })
 })
 
