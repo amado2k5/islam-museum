@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Concept al-Muqattaat (the disjoined letters at the openings of surahs) gains al-Tabari's survey of the views on "alif-lam-mim": names of the Qur'an, names of surahs, an oath, the words the letters stand for, and his conclusion that each letter carries many meanings; the abjad reckoning reported from Jewish rabbis is set aside as weakly sourced (Shakir edition, volume 1, pp. 205–220). Added in Arabic, English and Urdu.
 - The Fatiha closes in al-Tabari's commentary across Arabic, English and Urdu: the reports identifying the sirat and the grammar of "ghayr al-maghdub", God's anger (ghadab), "nor of those who are astray", the reason the Fatiha is long and the hadith of the divided prayer, with Adi ibn Hatim's reports (Shakir edition, volume 1, pp. 171–201).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 52 — Ibn Hisham Sirah cohorts).
 - Concepts Iyyaka na'budu wa-iyyaka nasta'in, Hidaya and Malik yawm al-din, and the person Ismail ibn Abd al-Rahman al-Suddi, gain al-Tabari's commentary on the Fatiha verses 4 to 6 in Arabic, English and Urdu: abasement and help in worship, the order and repetition of "iyyaka", guidance as steadfast help, the day of religion as the day of reckoning, and the chain that runs through al-Suddi (Shakir edition, volume 1, pp. 156–169).
