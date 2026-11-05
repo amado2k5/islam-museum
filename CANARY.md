@@ -241,6 +241,9 @@ open a new block on top with the new version and today's date.
 ### Fixed
 - **Release notes recovered**: this changelog file was emptied by a merge accident on a parallel branch; its full text through 4 November is restored here from the last intact copy in the repository's own history, so the public changelog is complete again.
 
+### Data
+- **Six dawah media organisations**: new sourced pages for Kazakhstan's ÁLI stýdıasy studio channel, the TALIM KZ channel and the Hazret Sultan Mosque's official channel; Kenya-based Somali-language producer Hadaf Production and the Somali community channel Safiirka Islaamka; and Tanzania's Khidmatulquran Islamic Foundation, organiser of national Qur'an competitions since 2004 — each in Arabic, English and Urdu.
+
 ---
 
 ## v1.0.2 — 2026-10-31
