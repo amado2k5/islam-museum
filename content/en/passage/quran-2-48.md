@@ -9,3 +9,6 @@ Verse 48 of [[passage/quran-2|Surat al-Baqara]], a Medinan surah. {cite:tanzil-q
 
 ## Place in the museum
 Its place: verse 48 of 286 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+## In al-Tabari's commentary
+On "and beware of a Day when no soul will avail another in anything" al-Tabari says the sense is: beware of a day on which no soul will avail another at all, and allows also that it means "a day which no soul will make good", with the returning pronoun to "day" dropped, citing a line of rajaz. {cite:tafsir-tabari-shakir-v02 p. 26}
