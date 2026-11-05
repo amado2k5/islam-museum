@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:184 gains more of al-Tabari's commentary (volume 3, pp. 413-419): the competing views on the "limited days" (three days a month versus Ramadan), his choice, the make-up days for the ill and travelling, the reading of "yutiqunahu", and the first reports on the early option to feed instead of fasting, each attributed, in Arabic, English and Urdu.
 - Passages 2:182-184 gain al-Tabari's commentary (volume 3, pp. 407-413): the close of 2:182, the meaning of fasting and the competing views on who "those before you" are (Christians, People of the Book, all people), his choice, and the start of 2:184, each attributed, in Arabic, English and Urdu.
 - Passage 2:182 gains more of al-Tabari's commentary (volume 3, pp. 401-407): the further views on setting right a partial bequest, his choice and his reason, the readings, and the meanings of "janaf" and "ithm", each attributed, in Arabic, English and Urdu.
 - Passages 2:180, 2:181 and 2:182 gain al-Tabari commentary (volume 3, pp. 395-401): his choice that a bequest binds from any amount, who bears the sin of altering a bequest, and the first views on setting right a partial bequest, each attributed, in Arabic, English and Urdu.
