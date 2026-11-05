@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Verse-text repair, sweep batch 3: 25 Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text; only spans that match Tanzil exactly were changed.
 - Passage 2:223 continues (vol. 4, pp. 401-405): the rest of the views on the word for 'however' or 'whenever' (Ibn 'Abbas, Mujahid, 'Ata', al-Dahhak, Ibn 'Umar via Nafi', Malik) with the editor's notes on chains and textual corrections, in Arabic, English and Urdu.
 - Verse-text repair, sweep batch 2: 25 Arabic and Urdu commentary files for 2:16 to 2:27 had typed verse wording replaced by links to the verse in the frozen Tanzil text, as the no-typed-Qur'an rule requires.
 - Passage 2:222 closes (vol. 4, pp. 396-397) and 2:223 gets its first touch (pp. 397-401): the field metaphor, why women are called a tilth, and the views on the meaning of the word for 'however' (Ibn 'Abbas, 'Ikrima, Mujahid, Muhammad ibn Ka'b, Qatada, al-Suddi and the account of the Jewish man's remark), in Arabic, English and Urdu, without typed verse wording.
