@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:223 continues (vol. 4, pp. 405-410): the reports of Ibn 'Umar, Abu al-Darda', the withdrawal view, and the reports on the occasion of the verse (Mujahid from Ibn 'Abbas, Jabir, Umm Salama), with the editor's gradings and chain notes, in Arabic, English and Urdu.
 - Verse-text repair, sweep batch 3: 25 Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text; only spans that match Tanzil exactly were changed.
 - Passage 2:223 continues (vol. 4, pp. 401-405): the rest of the views on the word for 'however' or 'whenever' (Ibn 'Abbas, Mujahid, 'Ata', al-Dahhak, Ibn 'Umar via Nafi', Malik) with the editor's notes on chains and textual corrections, in Arabic, English and Urdu.
 - Verse-text repair, sweep batch 2: 25 Arabic and Urdu commentary files for 2:16 to 2:27 had typed verse wording replaced by links to the verse in the frozen Tanzil text, as the no-typed-Qur'an rule requires.
