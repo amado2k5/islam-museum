@@ -23,3 +23,5 @@ Al-Tamimi asked Ibn 'Abbas about the crops and offspring, and he said, the crop 
 Some readers read "wa-yuhliku" with the verb raised, joined to "he calls God to witness"; al-Tabari holds this reading impermissible, though Arabic allows it, because it goes against what the authoritative body of readers agree on, and because in the reading of Ubayy ibn Ka'b and his codex, as reported to him, it is "to spread corruption in it and to destroy the crops and offspring", which is among the clearest proofs of the correctness of the subjunctive joined to "to spread corruption". {cite:tafsir-tabari-shakir-v04 p. 243}
 
 On "and God does not love corruption": al-Tabari says it means God does not love acts of disobedience, cutting the road and frightening the way. {cite:tafsir-tabari-shakir-v04 p. 243}
+
+Al-Tabari explains that "fasad" is the verbal noun of "fasada al-shay' yafsudu", like "dhahaba yadhhabu dhahaban", and that some Arabs make the verbal noun of "fasada" "fusudan" and of "dhahaba" "dhuhuban"; the editor refers to al-Farra's Ma'ani al-Qur'an. {cite:tafsir-tabari-shakir-v04 p. 243} {cite:tafsir-tabari-shakir-v04 p. 244}
