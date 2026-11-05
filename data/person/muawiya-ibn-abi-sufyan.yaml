@@ -46,6 +46,10 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+  sources:
+  - source/ibn-hajar-isaba
+inventions:
+- { invention: invention/barid, role: commissioner, sources: [source/subh-al-asha-cairo-v14, source/tarikh-khulafa-minhaj-1434, source/tdv-berid] }
 relations:
 - type: child_of
   target: person/abu-sufyan-ibn-harb
@@ -113,8 +117,11 @@ provenance:
   source: الإصابة في تمييز الصحابة، ترجمة 8366، ص 1431
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
-  run: isaba-batch-8, lib-tarikh-khalifa-batch-2-2026-10-31
+  run: isaba-batch-8, lib-tarikh-khalifa-batch-2-2026-10-31, inventions-p3-b04 (Copilot SDK in VS Code: faith source and barid invention tie)
 sources:
+- source/subh-al-asha-cairo-v14
+- source/tarikh-khulafa-minhaj-1434
+- source/tdv-berid
 - source/tarikh-khalifa-umari-1985
 - source/umayyad-birth-to-fall-2006
 - source/ibn-hajar-isaba

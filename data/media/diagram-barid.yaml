@@ -1,0 +1,35 @@
+id: media/diagram-barid
+class: media
+kind: illustration
+label:
+  ar: "رسم: ما بُني عليه البريد وما بُني عليه"
+  en: "Diagram: what the barid was built on and what was built on it"
+  ur: "خاکہ: برید کس پر بنی اور اس پر کیا بنا"
+summary:
+  ar: "رسم تخطيطي بسيط يرسمه الموقع وقت البناء من بيانات السجل: في الوسط بريد معاوية بن أبي سفيان، وعن يمينه ما سبقه، وعن يساره ما جاء بعده من أنظمة البريد كما تذكرها المصادر."
+  en: "A simple schematic drawn by the site at build time from the record's data: Mu'awiya ibn Abi Sufyan's barid in the middle, what came before it on one side and the later post systems the sources name on the other."
+  ur: "سائٹ کی تعمیر کے وقت ریکارڈ کے ڈیٹا سے بننے والا ایک سادہ خاکہ: درمیان میں معاویہ بن ابی سفیان کی برید، ایک طرف وہ جو اس سے پہلے تھا اور دوسری طرف بعد کے وہ ڈاک کے نظام جن کا ذکر مآخذ میں ہے۔"
+license: CC0
+creator: "islam.museum"
+depicts:
+- invention/barid
+alt:
+  ar: "ثلاثة أعمدة بينها سهمان. العمود الأول بعنوان: بُني على، وفيه ثلاثة مربعات بإطار متقطع: بريد الأكاسرة (الفرس الساسانيين)، وبريد القياصرة (الروم)، ورسل النبي إلى الملوك ودور البريد في عهد عمر. في الوسط مربع بإطار سميك: البريد، معاوية بن أبي سفيان. العمود الأخير بعنوان: بُني عليه، وفيه أربعة مربعات: إحكام عبد الملك بن مروان للبريد وصاحب البريد، وديوان البريد العباسي، وبريد المماليك الذي أحياه الظاهر بيبرس، ونظام المنزل العثماني والبريد الحديث"
+  en: "Three columns joined by two arrows. The first column, headed Built on, holds three dashed boxes: the post of the Persian (Sasanian) kings; the Byzantine imperial post; the Prophet's envoys and the post houses of Umar's time. In the middle a box with a thick border: The barid, Mu'awiya ibn Abi Sufyan. The last column, headed Built on it, holds four boxes: Abd al-Malik ibn Marwan's perfected barid and its sahib al-barid; the Abbasid diwan al-barid; the Mamluk barid revived by al-Zahir Baybars; the Ottoman menzil system and the modern post"
+  ur: "تین کالم جنہیں دو تیر جوڑتے ہیں۔ پہلا کالم، جس کا عنوان ہے: جس پر بنا، اس میں ٹوٹی لکیر والے تین خانے ہیں: فارس کے (ساسانی) بادشاہوں کی ڈاک؛ رومی قیصروں کی ڈاک؛ نبی کے سفیر اور عمر کے دور کے ڈاک خانے۔ درمیان میں موٹے کنارے والا خانہ: برید، معاویہ بن ابی سفیان۔ آخری کالم، جس کا عنوان ہے: جو اس پر بنا، اس میں چار خانے ہیں: عبد الملک بن مروان کا پختہ کیا ہوا برید اور صاحبِ برید؛ عباسی دیوانِ برید؛ الظاہر بیبرس کا دوبارہ زندہ کیا ہوا مملوک برید؛ عثمانی منزل کا نظام اور جدید ڈاک"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time from the invention's precursors and dependents)"
+  version: "1"
+  date: "2026-11-05"
+sources:
+- source/subh-al-asha-cairo-v14
+- source/tdv-berid
+status:
+  review: published
+  completeness: 2
+  generated_by: "Copilot SDK in VS Code"
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b04"
+  source: "al-Qalqashandi, Subh al-A'sha vol. 14 pp. 367–370; TDV İslâm Ansiklopedisi, BERÎD"

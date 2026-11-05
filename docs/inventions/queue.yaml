@@ -3732,15 +3732,17 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: barid-postal-relay
     label: "Mu'awiya's systematization of the barid postal-intelligence system"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: institutions-systems
     era: first-century
     from: founder-supplied-lead
-    records: ["person/muawiya-ibn-abi-sufyan"]
+    records: ["invention/barid", "person/muawiya-ibn-abi-sufyan", "source/subh-al-asha-cairo-v14", "source/tarikh-khulafa-minhaj-1434", "source/tdv-berid", "media/barid-stations-yemen-map", "media/diagram-barid"]
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - source/tdv-berid
+      - "source/subh-al-asha-cairo-v14 pp. 367–370"
+      - "source/tarikh-khulafa-minhaj-1434 p. 332"
       - "Clifford Edmund Bosworth, Encyclopaedia Iranica, BARĪD: https://iranicaonline.org/articles/barid-the-official-postal-and-intelligence-service-of-the-early-islamic-caliphate-and-its-successor-states/"
     flags: [compare-intelligence-function-with-earlier-postal-systems, verify-source-backed-maker-eligibility]
   - id: bimaristan-damascus-foundation
