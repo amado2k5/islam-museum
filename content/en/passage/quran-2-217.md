@@ -9,3 +9,7 @@ Verse 217 of [[passage/quran-2|Surat al-Baqara]], a Medinan surah. Scholars conn
 
 ## Place in the museum
 Its place: verse 217 of 286 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+## In al-Tabari's commentary
+
+On "they ask you about the sacred month, about fighting in it": it means your companions ask you, Muhammad, about the sacred month, which is Rajab, about fighting in it. {cite:tafsir-tabari-shakir-v04 p. 299}
