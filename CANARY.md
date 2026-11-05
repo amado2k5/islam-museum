@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 512-516): the reports of 'Adi ibn Hatim and Sahl ibn Sa'd on the white and black thread, and the reports that the true dawn is the spreading one and not the false dawn (Abu Mijlaz, Ibn 'Abbas, Ibn Thawban, Samura ibn Jundub), with the editor's notes on chains and on text restored from Ibn Kathir, each attributed, in Arabic, English and Urdu.
 - Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 507-511): the remaining views and readings on "seek what God has written for you", his choice (labelled as his), and the first views on the white and black thread with the editor's note quoting the report of 'Adi ibn Hatim, each attributed, in Arabic, English and Urdu.
 - Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 504-507): the meaning of "mubashara" as reported from named commentators, and the differing views on "seek what God has written for you" (the child, intercourse, the Night of Qadr), each attributed, in Arabic, English and Urdu.
 - Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 499-503): further reports on the occasion of the verse (Mujahid, 'Ikrima, Qatada, al-Suddi, 'Ata', Ibn Hibban), with the editor's notes on chains and wording, each attributed, in Arabic, English and Urdu.
