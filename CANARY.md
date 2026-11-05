@@ -29,6 +29,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:150 gains an al-Tabari commentary section (volume 3, pp. 199-203): who "the people" and "those who do wrong" are, what argument each is said to have had against the Prophet and the believers over the qibla, and the meaning of "hujja", each attributed, in Arabic, English and Urdu.
 - Passages 2:148 (end) and 2:149 gain al-Tabari commentary (volume 3, pp. 194-198): the readings of "wijha" and his choice, "race to the good", "God will bring you all together", and the repeated command to face the Sacred Mosque, each attributed, in Arabic, English and Urdu.
 - Passages 2:146 (end), 2:147 and 2:148 (opening) gain al-Tabari commentary (volume 3, pp. 188-193): what the party conceals, "the truth is from your Lord" (and his answer on whether the Prophet doubted), and "for each there is a direction", each attributed, in Arabic, English and Urdu.
 - Passages 2:144 (end), 2:145 and 2:146 (opening) gain al-Tabari commentary (volume 3, pp. 184-188): that God is not unaware, why the People of the Book would not follow the Prophet's qibla nor each other's, the warning about following their desires, and that they know it as they know their sons, each attributed, in Arabic, English and Urdu.
