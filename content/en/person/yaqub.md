@@ -57,3 +57,5 @@ At the opening of 'Bustan al-Amal' the Sheikh cites Ya'qub's words to his sons: 
 
 ## In Ahmad Farid's lessons 'The Boat'
 In [[work/the-boat-ahmad-farid|'The Boat']] [[person/ahmad-farid|Ahmad Farid]] offers Jacob as the example of faith as consolation in calamity. {cite:assabile-ahmad-farid the-boat/ep04 00:04:30} He describes how Jacob loved his son [[person/yusuf|Joseph]], and how, when Joseph's brothers asked to take him out to play, he excused himself twice: first that their taking him would grieve him, then that he feared a wolf would eat him while they were heedless. {cite:assabile-ahmad-farid the-boat/ep04 00:04:30} He asks how Jacob could have borne so long a separation with beautiful patience had God not made him patient through faith. {cite:assabile-ahmad-farid the-boat/ep04 00:05:00}
+
+On [[passage/quran-2-40|verse 40]], al-Tabari says Jacob was called Israel, meaning God's servant and chosen one, and "Children of Israel" are his descendants. {cite:tafsir-tabari-shakir-v01 p. 553}
