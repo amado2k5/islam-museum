@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:228 closes (vol. 4, pp. 535-538): al-Tabari's reasoning for the degree men have, and the meaning of the closing words of the verse; passage 2:229 first touch (pp. 538-541): the view that the verse sets the number of divorces, with the reports of 'Urwa, Qatada and Ibn Zayd and the editor's notes on the hadith chains, in Arabic, English and Urdu.
 - Passage 2:228 continues (vol. 4, pp. 529-535): the ruling on a husband who takes his wife back intending harm, the clause on women's rights like those over them, al-Tabari's choice, and the views on the degree men have over women, with his choice of Ibn 'Abbas's reading, in Arabic, English and Urdu; also replaces a typed verse title phrase from the previous batch with a link to 2:229.
 - Passage 2:228 continues (vol. 4, pp. 524-529): al-Tabari's reasoning that the prohibition covers both menses and pregnancy, his answer on the mention of belief, the meaning and plurals of the word for husbands, and the reports that the husband has more right to take her back during the waiting period, in Arabic, English and Urdu.
 - Passage 2:228 continues (vol. 4, pp. 518-523): the views on what the divorced woman may not hide, namely menses, pregnancy or both, the reasons given for the prohibition, and al-Tabari's own choice of menses and pregnancy, in Arabic, English and Urdu.
