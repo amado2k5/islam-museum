@@ -177,6 +177,7 @@ open a new block on top with the new version and today's date.
 - **People**: 25 more biographies with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 39).
 - **People**: 25 more biographies with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep).
 - **25 new contemporary biographies**: preachers, teachers and Qur'an reciters followed by millions — from Pakistan, Indonesia, Bangladesh, Turkey, Egypt and France — each with full Arabic, English and Urdu pages and sources.
+- Passage Al-Baqara 2:2 gains al-Tabari's commentary on "that Book" (the reports that it means "this Book", the question of how "that" can mean "this", and the view that it means the Torah and the Gospel) and on "no doubt in it" (the reports from Mujahid, Qatada, al-Rabi' ibn Anas and others), in Arabic, English and Urdu (Shakir edition, volume 1, pp. 221-229). Concept al-Muqattaat gains al-Tabari's rejection of the view that the letters are filler like "bal", and his argument that the letters carry many meanings (pp. 221-224).
 
 ### Added
 - **Another forty Timeline Explorer stories in preparation**: five places and thirty-five people selected from existing cited records, with explicit event curation and Arabic/English/Urdu subject metadata. Reserved shared-image defects are deferred to their owners rather than hidden by dropping events.
