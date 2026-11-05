@@ -31,3 +31,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## راغب السرجانی کے پروگرام «ماذا قدم المسلمون للعالم» میں
 چودہویں قسط میں [[person/ragheb-al-sergani|راغب السرجانی]] روایت کرتے ہیں کہ عدی بن حاتم اپنے گھر کے اردگرد نظر آنے والی چیونٹیوں کے لیے روٹی کے ٹکڑے کرتے اور کہتے کہ یہ ہماری پڑوسن ہیں، اور کہتے ہیں کہ جب انہوں نے یہ پڑھا تو حیران رہ گئے۔ {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:16:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:16:30} وہ اس کا موازنہ اسلام سے پہلے عدی کی حالت سے کرتے ہیں، جب وہ رکوسی عیسائی تھے اور اپنی قوم سے غنیمت کا چوتھائی حصہ لیتے تھے، اور ذکر کرتے ہیں کہ نبی نے ان سے اس بارے میں پوچھا اور یہ کہ یہ ان کے اپنے دین میں بھی ان کے لیے جائز نہ تھا۔ {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:16:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:17:00} یہ ان کی روایت ہے، پہلی خبر کے ماخذ کا نام لیے بغیر (needs_source)۔
+
+## طبری کی تفسیر میں
+طبری عدی بن حاتم سے روایت کرتے ہیں کہ نبی نے ان سے فرمایا کہ «المغضوب عليهم» یہود ہیں اور «الضالين» نصاریٰ ہیں۔ سماک بن حرب کی طویل روایت میں، جس میں عدی کا اسلام ہے، محقق اس اسلام کے واقعے کو اس سند میں معلول قرار دیتے ہیں۔ {cite:tafsir-tabari-shakir-v01 p. 185} {cite:tafsir-tabari-shakir-v01 p. 186} {cite:tafsir-tabari-shakir-v01 p. 193}

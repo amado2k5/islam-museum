@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- The Fatiha closes in al-Tabari's commentary across Arabic, English and Urdu: the reports identifying the sirat and the grammar of "ghayr al-maghdub", God's anger (ghadab), "nor of those who are astray", the reason the Fatiha is long and the hadith of the divided prayer, with Adi ibn Hatim's reports (Shakir edition, volume 1, pp. 171–201).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 52 — Ibn Hisham Sirah cohorts).
 - Concepts Iyyaka na'budu wa-iyyaka nasta'in, Hidaya and Malik yawm al-din, and the person Ismail ibn Abd al-Rahman al-Suddi, gain al-Tabari's commentary on the Fatiha verses 4 to 6 in Arabic, English and Urdu: abasement and help in worship, the order and repetition of "iyyaka", guidance as steadfast help, the day of religion as the day of reckoning, and the chain that runs through al-Suddi (Shakir edition, volume 1, pp. 156–169).
 - Concept al-Hamd lillah gains al-Tabari's treatment of praise and thanks (hamd and shukr, the article on hamd, and the reading of the nominative); a new concept al-Rabb sets out the three senses of rabb that al-Tabari joins in "Lord of the worlds"; Malik yawm al-din gains his preference for "king" over "owner" and his sense of din as reckoning (Shakir edition, volume 1, pp. 137–143, 149–155). Added in Arabic, English and Urdu.

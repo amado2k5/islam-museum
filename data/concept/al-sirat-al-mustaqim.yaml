@@ -19,6 +19,7 @@ provenance:
   layer: own-research
   source: "Wikidata candidate; prose from Tabari, Jami al-Bayan, Shakir edition vol. 1 pp. 170-171"
   enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-fatiha-end-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 171-184: the reports identifying the sirat and the grammar of ghayr" }
     - { generated_by: "Claude Code (Tabari harvest)", model: claude-haiku-5-5, run: tabari-harvest-2026-11-04, source: "source/tafsir-tabari-shakir-v01 PDF pp. 170-171" }
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"

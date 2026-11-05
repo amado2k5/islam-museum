@@ -32,3 +32,6 @@ translators: []
 
 ## في برنامج «ماذا قدم المسلمون للعالم» لراغب السرجاني
 يروي [[person/ragheb-al-sergani|راغب السرجاني]] في الحلقة الرابعة عشرة أن عدي بن حاتم كان يفتّ الخبز للنمل الذي يراه حول بيته ويقول إنهن جارات لنا، ويقول إنه ذُهل حين قرأ ذلك. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:16:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:16:30} ويقارن بين ذلك وبين حاله قبل إسلامه، إذ كان نصرانيًا ركوسيًا يأخذ ربع الغنائم من قومه، ويذكر أن النبي سأله عن ذلك وأنه لا يحل له في دينه. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:16:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:17:00} وهذه روايته دون ذكر مصدر الخبر الأول (needs_source).
+
+## في تفسير الطبري
+يروي الطبري عن عدي بن حاتم أن النبي قال له إن المغضوب عليهم اليهود والضالين النصارى، ويذكر أن رواية سماك بن حرب عنه بطولها فيها إسلام عدي، ويصف المحقق قصة إسلامه في هذا الإسناد بأنها معلولة. {cite:tafsir-tabari-shakir-v01 p. 185} {cite:tafsir-tabari-shakir-v01 p. 186} {cite:tafsir-tabari-shakir-v01 p. 193}

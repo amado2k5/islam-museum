@@ -55,9 +55,11 @@ perspectives:
       ur: "ان صفحات میں شعراوی کی رائے ہے۔"
     sources: []
 relations: []
-sources: [source/tafsir-sharawi-khawatir-scan, source/assabile-yusuf-al-qaradawi]
+sources: [source/tafsir-sharawi-khawatir-scan, source/assabile-yusuf-al-qaradawi, source/tafsir-tabari-shakir-v01]
 provenance:
   layer: own-research
+  enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-fatiha-end-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 198-201: why the Fatiha is long and the hadith of the division of the prayer" }
   source: "خواطر الشعراوي حول القرآن الكريم، المجلد الأول، الصفحات 51-52 (نسخة OCR محلية)"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
