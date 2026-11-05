@@ -1,7 +1,7 @@
 // Run: node --test workers/site/test/
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor } from "../src/route.js";
+import { resolve, notFoundKey, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor } from "../src/route.js";
 
 test("language pages map to index.html keys", () => {
   assert.deepEqual(resolve("/ar/person/muhammad/"), { type: "r2", key: "ar/person/muhammad/index.html" });
@@ -122,4 +122,12 @@ test("host rewrites translate only the listed production hosts in absolute Locat
   assert.equal(robotsDisallowed({ ROBOTS: "disallow" }), true);
   assert.equal(robotsDisallowed({ ROBOTS: "Disallow" }), true);
   assert.equal(robotsDisallowed({ ROBOTS: "allow" }), false);
+});
+
+test("a missing page gets the not-found page in its URL's language; other paths get the Arabic root page", () => {
+  assert.equal(notFoundKey("/en/no-such-page/"), "en/404/index.html");
+  assert.equal(notFoundKey("/ur/person/nobody/"), "ur/404/index.html");
+  assert.equal(notFoundKey("/ar/x.json"), "ar/404/index.html");
+  assert.equal(notFoundKey("/english/x/"), null);
+  assert.equal(notFoundKey("/media/x.png"), null);
 });
