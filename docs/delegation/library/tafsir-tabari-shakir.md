@@ -52,3 +52,18 @@
 - The page presents al-Tabari's reading (v02 pp. 282-283) that the "evil" of 2:81 is associating partners, not major sins, labelled as his reading. A second Sunni voice exists in the harvest copy of Ibn Kathir (`books/tafsir/tafsir-ibn-kathir/AAlexandrina-024188`, printed p. 119): he reports that Ibn Abbas, Abu Wa'il, Abu al-'Aliya, Mujahid, 'Ikrima, al-Hasan, Qatada and al-Rabi' ibn Anas take it as shirk, that al-Hasan and al-Suddi also say "a major sin", and that Mujahid, al-Hasan, Qatada and others read "his sin has encompassed him" as the major sin that makes the Fire due; he concludes that all these statements are close in meaning.
 - Not yet used: `data/source/tafsir-ibn-kathir.yaml` records a different edition (Dar al-Andalus), so its page cannot be cited until the edition is registered or confirmed. Next: register the Alexandria edition as a source, then add the `perspectives` entries (Sunni: al-Tabari, Ibn Kathir; academic and other views still to be added from sources, none asserted from memory).
 - Volume 3 (`waqtaftab-taftab03`, 635 markers): the offset is zero. Marker numbers equal the printed page numbers (checked at markers 10, 100, 300, 450, 580, 600). Printed p. 7 holds the start of the commentary on 2:124; the volume ends with the commentary near 2:195 and "the fourth part begins" at about p. 598. Cite as `{cite:tafsir-tabari-shakir-v03 p. N}` with printed numbers.
+
+## Page-header audit, volumes 2 and 3 (5 November 2026)
+Method: the printed number in the first lines of every scanned page in `pages.json` was compared with the marker (scan page) number, for all 615 pages of volume 2 and all 635 of volume 3.
+
+| Volume | Marker range | Printed numbers | Finding |
+|---|---|---|---|
+| 3 | 1-7 | none | front matter, no printed number |
+| 3 | 8-278 | equal to the marker | offset zero |
+| 3 | 279, 280, 281, 282 | 281, 282, 279, 280 | out of order: printed pp. 279-280 sit at markers 281-282, printed pp. 281-282 at markers 279-280 |
+| 3 | 283-595 | equal to the marker | offset zero |
+| 3 | 596 on | none or index | end matter and index |
+| 2 | 1-600 | equal to the marker | offset zero; no out-of-order or duplicated pages |
+| 2 | 601 on | index pages | not commentary |
+
+Other differences in the raw comparison are single-digit OCR misreads of the header number (for example marker 225 read as 220, 295 as 290, 36 as 31); the neighbouring pages are consistent, so these are not swaps. Citations use the printed number. The only repair needed is the pair of swapped stretches at volume 3 markers 279-282. Citations in the museum so far: the passage 2:165 text (printed pp. 279-286) was read from the correct pages, and earlier pull requests (#3730-#3788) cite no page in 279-282 from a marker, so no citation needed correcting; the note wrongly claiming missing pages in 2:164 was removed in #3787.
