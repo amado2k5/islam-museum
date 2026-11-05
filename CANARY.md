@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:178, 2:179 and 2:180 gain al-Tabari commentary (volume 3, pp. 380-384): the close of 2:178 with his choice on the painful punishment, 2:179 on life in retaliation, and the opening of 2:180 on the bequest, attributed, in Arabic, English and Urdu.
 - Passage 2:178 gains the rest of al-Tabari's commentary on "an alleviation and a mercy" and on "whoever transgresses after that" (volume 3, pp. 373-379): the reports on blood-money in earlier communities and the two views on the painful punishment, attributed, in Arabic, English and Urdu.
 - Passage 2:178 gains more of al-Tabari's commentary (volume 3, pp. 367-373): the reports on "whoever is pardoned something by his brother", the view that it means a remainder of the blood-money, his choice, the meaning of the reasonable pursuit and good payment, the grammar of the nominative, and the opening on "an alleviation and a mercy", attributed, in Arabic, English and Urdu.
 - Passage 2:178 gains more of al-Tabari's commentary (volume 3, pp. 361-367): the reports on 'Ali and others about setting off blood-money, his reasoning for which reading of the verse stands and why, the meaning of "prescribed" and "qisas", and the first views on pardon and "reasonable pursuit", attributed, in Arabic, English and Urdu.
