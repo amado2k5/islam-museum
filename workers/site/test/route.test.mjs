@@ -27,6 +27,9 @@ test("non-language paths go to static assets", () => {
   assert.deepEqual(resolve("/pagefind-ur/"), { type: "r2", key: "pagefind-ur/index.html" });
   assert.deepEqual(resolve("/favicon.svg"), { type: "r2", key: "favicon.svg" });
   assert.deepEqual(resolve("/search-synonyms.ar.json"), { type: "r2", key: "search-synonyms.ar.json" });
+  // The RFC 9727 API catalog (/.well-known/api-catalog) is a root data file too; other .well-known paths are not.
+  assert.deepEqual(resolve("/.well-known/api-catalog"), { type: "r2", key: ".well-known/api-catalog" });
+  assert.deepEqual(resolve("/.well-known/security.txt"), { type: "assets" });
   assert.deepEqual(resolve("/robots.txt"), { type: "assets" });
   assert.deepEqual(resolve("/_astro/app.js"), { type: "assets" });
   assert.deepEqual(resolve("/"), { type: "assets" });

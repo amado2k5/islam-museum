@@ -147,6 +147,9 @@ jobs:
           # is deleted by keep-newest.
           retention-days: 14
           if-no-files-found: error
+          # upload-artifact v4.4+ leaves out dot-files by default, which dropped dist/.well-known/ (the
+          # RFC 9727 API catalog the homepage Link header advertises) from every deploy.
+          include-hidden-files: true
 
   # Founder's rule, 22 October 2026: the five newest successful builds' artifacts are kept
   # (rollback copies); every other dist artifact is deleted. This job runs only when both
