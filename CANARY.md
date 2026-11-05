@@ -29,6 +29,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:142 (end) and 2:143 (opening) gain al-Tabari commentary (volume 3, pp. 139-144): the hypocrites' objection, "to God belong the east and the west", and the meaning of "a middle community" (best, just, moderate), each attributed, in Arabic, English and Urdu.
 - Passage 2:142 continues its al-Tabari commentary (volume 3, pp. 135-139): further reports on how long the Prophet prayed toward Jerusalem, the views on whether that was his choice or God's obligation, and the reasons given for the objection, each attributed, in Arabic, English and Urdu.
 - Passage 2:142 gains an al-Tabari commentary section (volume 3, pp. 129-134): who "the fools" are, the meaning of "qibla", and the reported durations of prayer toward Jerusalem and the reasons given for the change, each attributed, in Arabic, English and Urdu.
 - Passage 2:141 gains an al-Tabari commentary section (volume 3, pp. 128-129): who "that community" refers to, and his explanation that each community has what it earned and is not asked about others, in Arabic, English and Urdu.
