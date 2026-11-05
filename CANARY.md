@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:184-185 gain al-Tabari's commentary (volume 3, pp. 442-447): the close of 2:184 ("whoever volunteers good", "that you fast is better"), and the start of 2:185 (the word "month", the name Ramadan, and reports on the Qur'an being sent down on the Night of Qadr), each attributed, in Arabic, English and Urdu.
 - Passage 2:184 (volume 3, pp. 427-437): replaced an unsourced remark about the schools with a statement limited to what the cited pages report from Ibn 'Abbas and Ibn 'Umar, in Arabic, English and Urdu.
 - Passage 2:184 gains more of al-Tabari's commentary (volume 3, pp. 436-442): his answer on the pregnant and nursing woman (labelled as his own choice, with the contrary reports noted), the meaning of "fidya", the readings of "fidya of a poor person's food" and his preferences, the differing amounts of food, and the first views on "whoever volunteers good", each attributed, in Arabic, English and Urdu.
 - Passage 2:184 gains more of al-Tabari's commentary (volume 3, pp. 431-436): the remaining reports on the ransom clause, including conflicting reports from Ibn 'Abbas on whether it was abrogated, al-Tabari's own choice that it was abrogated and his stated reasons, and the objection about the pregnant and nursing woman with the report of Anas al-Ka'bi, each attributed, in Arabic, English and Urdu.
