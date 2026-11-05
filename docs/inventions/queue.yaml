@@ -1,0 +1,191 @@
+version: 1
+states: ["[ ]", "[~]", "[x]", "[-]"]
+note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
+candidates:
+  - id: bimaristan-damascus-foundation
+    label: "Al-Walid I's Damascus bimaristan foundation"
+    state: "[~]"
+    batch: 1
+    domain: institutions-systems
+    era: first-century
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.3a"]
+    flags: ["contested-date-and-institution-type"]
+  - id: paper-mill-samarkand
+    label: "Paper-making and the Samarkand mill"
+    state: "[~]"
+    batch: 1
+    domain: materials-industry
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.3a", "PROMPT-COPILOT.md §6.4"]
+    flags: ["trace-the-documented-transmission-and-local-contribution"]
+  - id: algebra-as-discipline
+    label: "Algebra as a discipline in al-Khwarizmi's work"
+    state: "[~]"
+    batch: 1
+    domain: mathematics
+    era: abbasid-golden
+    from: founder-supplied-lead
+    records: [person/al-khwarizmi, concept/algebra]
+    lead_sources: ["PROMPT-COPILOT.md §6.3a", "PROMPT-COPILOT.md §6.4"]
+  - id: algorithm-word
+    label: "The word algorithm and the Latin form of al-Khwarizmi's name"
+    state: "[~]"
+    batch: 1
+    domain: mathematics
+    era: abbasid-golden
+    from: founder-supplied-lead
+    records: [person/al-khwarizmi]
+    lead_sources: ["PROMPT-COPILOT.md §6.3a"]
+  - id: hindu-arabic-numerals-transmission
+    label: "Transmission and extension of Hindu-Arabic numerals"
+    state: "[~]"
+    batch: 1
+    domain: mathematics
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.3a", "PROMPT-COPILOT.md §6.4"]
+  - id: frequency-analysis-al-kindi
+    label: "Frequency analysis in cryptanalysis"
+    state: "[~]"
+    batch: 1
+    domain: mathematics
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+  - id: alembic-and-distillation
+    label: "The alembic and the systematic practice of distillation"
+    state: "[~]"
+    batch: 1
+    domain: pharmacy-chemistry
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.3a", "PROMPT-COPILOT.md §6.4"]
+    flags: ["name-the-hellenistic-precursors", "investigate-jabir-corpus-attribution"]
+  - id: banu-musa-feedback-devices
+    label: "Valves and feedback mechanisms in the Banu Musa's devices"
+    state: "[~]"
+    batch: 1
+    domain: mechanics-automata
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.3"]
+    flags: ["maker-tradition-needs-sourced-perspectives"]
+  - id: al-zahrawi-surgical-instruments
+    label: "Surgical instruments described in al-Tasrif"
+    state: "[~]"
+    batch: 1
+    domain: medicine-surgery
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.3", "PROMPT-COPILOT.md §6.4"]
+  - id: ibn-firnas-glider-account
+    label: "The reported glider of Abbas ibn Firnas"
+    state: "[~]"
+    batch: 1
+    domain: mechanics-automata
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.3a"]
+    flags: ["single-late-transmission-chain", "legend-or-contested"]
+  - id: decimal-fractions-al-uqlidisi-al-kashi
+    label: "Decimal fractions associated with al-Uqlidisi and al-Kashi"
+    state: "[~]"
+    batch: null
+    domain: mathematics
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+  - id: al-razi-smallpox-measles
+    label: "Differentiation of smallpox and measles"
+    state: "[~]"
+    batch: null
+    domain: medicine-surgery
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+  - id: al-zahrawi-catgut-sutures
+    label: "Catgut sutures in al-Tasrif"
+    state: "[~]"
+    batch: null
+    domain: medicine-surgery
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+  - id: cataract-hollow-needle
+    label: "The hollow needle for cataract surgery"
+    state: "[~]"
+    batch: null
+    domain: medicine-surgery
+    era: abbasid-golden
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+  - id: soporific-sponge
+    label: "The soporific sponge"
+    state: "[~]"
+    batch: null
+    domain: medicine-surgery
+    era: middle-period
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+    flags: ["contested"]
+  - id: pulmonary-circulation
+    label: "Pulmonary circulation"
+    state: "[~]"
+    batch: null
+    domain: medicine-surgery
+    era: middle-period
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+    flags: ["discovery", "maker-tradition-needs-sourced-perspectives"]
+  - id: universal-astrolabe-al-zarqali
+    label: "The universal astrolabe (safiha)"
+    state: "[~]"
+    batch: null
+    domain: astronomy-instruments
+    era: middle-period
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+  - id: jalali-calendar
+    label: "The Jalali calendar"
+    state: "[~]"
+    batch: null
+    domain: timekeeping
+    era: middle-period
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+    flags: ["maker-tradition-needs-sourced-perspectives"]
+  - id: crank-connecting-rod-al-jazari
+    label: "Al-Jazari's crank and connecting rod"
+    state: "[~]"
+    batch: null
+    domain: mechanics-automata
+    era: middle-period
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §4.1", "PROMPT-COPILOT.md §6.3"]
+  - id: double-acting-suction-pump-al-jazari
+    label: "Al-Jazari's double-acting suction pump"
+    state: "[~]"
+    batch: null
+    domain: mechanics-automata
+    era: middle-period
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.3", "PROMPT-COPILOT.md §6.4"]
+  - id: coffee-yemen
+    label: "Coffee in Yemen"
+    state: "[~]"
+    batch: null
+    domain: food-drink
+    era: middle-period
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+  - id: ziryab-table-manners
+    label: "The table-manners story associated with Ziryab"
+    state: "[~]"
+    batch: null
+    domain: food-drink
+    era: middle-period
+    from: founder-supplied-lead
+    lead_sources: ["PROMPT-COPILOT.md §6.4"]
+    flags: ["legend", "honesty-shelf"]
