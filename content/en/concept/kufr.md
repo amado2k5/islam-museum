@@ -36,3 +36,7 @@ A disbeliever has no guardianship over a Muslim, and may not marry off his Musli
 
 ## Partnership, war and waqf
 The Malikis and Hanbalis allow partnership with a disbeliever, on condition that he does not deal in wine or pork {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13400}. Disbelievers may not be enlisted in war except when needed, on the report of Aisha about the man the Prophet turned back until he became a Muslim {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13400}. A disbeliever may endow to a Muslim or to a non-Muslim, provided it is not for a sin {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13400}.
+
+## In al-Tabari's commentary: the meaning of kufr
+Al-Tabari takes kufr in "those who disbelieve" to mean denial (juhud), because the rabbis of the Jews of Medina denied Muhammad's prophethood, hid it from the people and concealed his case while knowing it. {cite:tafsir-tabari-shakir-v01 p. 255}
+He says the root sense of kufr among the Arabs is covering a thing, which is why they called the night "kafir", for its darkness covers what it clothes, citing lines of verse including one by Labid ibn Rabi'a. In the same way, he says, the rabbis covered Muhammad's case and hid it from people although they knew his prophethood and found his description in their books, and he links this to a verse of al-Baqara on those who conceal the clear signs and guidance God sent down. {cite:tafsir-tabari-shakir-v01 p. 255}
