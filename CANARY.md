@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 504-507): the meaning of "mubashara" as reported from named commentators, and the differing views on "seek what God has written for you" (the child, intercourse, the Night of Qadr), each attributed, in Arabic, English and Urdu.
 - Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 499-503): further reports on the occasion of the verse (Mujahid, 'Ikrima, Qatada, al-Suddi, 'Ata', Ibn Hibban), with the editor's notes on chains and wording, each attributed, in Arabic, English and Urdu.
 - Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 494-498): the reports on the occasion of the verse (Ibn Abi Layla, Mu'adh, al-Bara', Ibn 'Abbas, Ka'b ibn Malik and others) with the editor's notes on chains and on the differing name of the Ansari, each attributed, in Arabic, English and Urdu.
 - Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 488-493): the senses of "a garment for you" and the two kinds of "betrayal" mentioned in the verse, with the report of Ibn Abi Layla; the prose notes the editor's mention that the text has a gap at one point, each view attributed, in Arabic, English and Urdu.
