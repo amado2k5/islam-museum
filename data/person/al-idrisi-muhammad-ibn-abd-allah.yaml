@@ -6,6 +6,17 @@ names:
 gender: male
 roles: [geographer, scientist]
 traditions: [sunni]
+faith:
+  - value: sunni
+    basis: self-identified
+    note: "His preface opens with the basmala and asks blessings on 'our master Muhammad' and his family before praising God (Cairo 2002 ed., scan p. 3). This shows him a Muslim in his own words; no source read names his school, so he is recorded within the museum's Sunni frame (docs/scope.md). TDV traces his lineage to Idris I, founder of the Idrisid dynasty."
+    sources: [source/nuzhat-al-mushtaq-2002, source/tdv-idrisi-serif]
+inventions:
+  - invention: invention/tabula-rogeriana
+    role: inventor
+    place: place/palermo
+    note: "Wrote Nuzhat al-mushtaq for Roger II to accompany the silver disc of the seven climes, dividing each clime into ten sections with seventy sectional maps; finished in Shawwal 548 AH."
+    sources: [source/nuzhat-al-mushtaq-2002, source/tdv-idrisi-serif]
 born: { edtf: "1100", hijri: "0493", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "1164", hijri: "0560", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
@@ -22,7 +33,7 @@ relations:
   - { type: authored, target: work/nuzhat-al-mushtaq }
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/nuzhat-al-mushtaq-2002, source/mawsuat-a3lam-ulama-adaba]
+sources: [source/nuzhat-al-mushtaq-2002, source/mawsuat-a3lam-ulama-adaba, source/tdv-idrisi-serif]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the prose rests on the Nuzhat al-Mushtaq 2002 scan pp. 4, 7, 588 in the local workspace. The birth and death years (status tradition) come from Mawsu'at A'lam pp. 408-410, which is not in the local workspace and was not re-checked in this pass" }
 provenance: { layer: own-research, source: "نزهة المشتاق (طبعة القاهرة 2002) ص 4، 7، 588؛ موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص408-410 لتاريخي الميلاد والوفاة", generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane", model: "claude-haiku-5-5", run: "showcase-prose-phase1-batch1" }
 kids:

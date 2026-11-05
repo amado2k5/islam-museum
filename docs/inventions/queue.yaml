@@ -2364,12 +2364,16 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: tabula-rogeriana-idrisi-map
     label: "The Tabula Rogeriana and al-Idrisi's world map"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: navigation-geography
     era: middle-period
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    records: ["invention/tabula-rogeriana", "person/al-idrisi-muhammad-ibn-abd-allah", "person/roger-of-sicily", "work/nuzhat-al-mushtaq", "source/tdv-idrisi-serif", "media/miller-tabula-rogeriana", "media/diagram-tabula-rogeriana"]
+    lead_sources:
+      - "founder-approved operative brief (2026-11-04) §6.4"
+      - "source/nuzhat-al-mushtaq-2002 scan pp. 3–14"
+      - "source/tdv-idrisi-serif pp. 493–495"
   - id: kitab-i-bahriye
     label: "Piri Reis's Kitab-i Bahriye"
     state: "[~]"
