@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:185-186 gain al-Tabari's commentary (volume 3, pp. 477-483): the close of 2:185 (his grammatical choice on "and that you complete the number", the takbir at the end of the fast as reported from named commentators, and "that you may give thanks"), and the start of 2:186 ("I am near") with the differing reports of what the verse was revealed about, each attributed, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 472-477): the objection from the report "fasting on a journey is no part of righteousness" and his answer, the grammar of "or on a journey", "God wants ease for you" with the reports of Ibn 'Abbas and others, and the start of "that you complete the number", each attributed, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 467-472): further reports that breaking the fast on a journey is a concession, al-Tabari's own choice and his stated reasons (labelled as his), and the Hamza al-Aslami reports, each attributed, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 462-467): the view that fasting on a journey must be made up and its supporting report, and the opposing view that breaking the fast on a journey is a concession (reports of 'Umar ibn 'Abd al-'Aziz, 'Umar ibn al-Khattab, Anas and others), each attributed, with the editor's notes on chains, in Arabic, English and Urdu.
