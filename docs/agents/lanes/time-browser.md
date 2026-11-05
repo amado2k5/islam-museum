@@ -118,3 +118,11 @@ Source: the two original TimelineThis specifications, the live builds, the two d
 - Kids prose: how many records get a kids version in the launch set?
 - Tour: which 5–7 stops should it step through?
 - 2026-10-29 Claude: animals survey and first animal story (5 nodes); see time-browser-plan/ANIMALS-COVERAGE-2026-10-29.md
+
+## 2026-11-04 — fourth forty, foreground-only
+
+Founder-authorized content batch: 21 people and 19 dynasties, 200 chronological stops from 141 existing events, with 120 Arabic/English/Urdu subject routes. Forty definitions and additive Urdu/provenance metadata are committed in two twenty-definition content commits; no new facts, dates, edges, media or runtime code. Main through `ea11a8e3b6` is deliberately merged, with graph/coverage regenerated.
+
+Local citation/preservation audit: 181 pass. Exact dev-route audit: 120 routes, 600 localized stop occurrences, 80 existing screened native image variants, no rejected shared images or legacy record illustrations. Browser sweep: all 120 routes, zero page/console errors. Desktop Arabic/English advance/details and 390px Urdu RTL/deep-link/kids-stage/details checks pass. Existing limitations: 150 Urdu event-language stop-occurrence fallbacks, zero English fallbacks and 127 unique-node colour backgrounds; subject metadata itself is localized in all three languages.
+
+Integrated validation passes with zero errors; final full tests precede push/merge. Full build is explicitly unrun for this batch under the founder's progress-first direction; no CI wait. Reserved image issue #3484 concerns whole deferred candidates, not the selected forty; #3485 records the unchanged renderer's kids-stage/adult-details mismatch. Earlier owner follow-ups remain separate. No subagents or deployments; no Worker/workflow change. The founder deploys these `scripts/` definitions manually when ready.
