@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:228 continues (vol. 4, pp. 524-529): al-Tabari's reasoning that the prohibition covers both menses and pregnancy, his answer on the mention of belief, the meaning and plurals of the word for husbands, and the reports that the husband has more right to take her back during the waiting period, in Arabic, English and Urdu.
 - Passage 2:228 continues (vol. 4, pp. 518-523): the views on what the divorced woman may not hide, namely menses, pregnancy or both, the reasons given for the prohibition, and al-Tabari's own choice of menses and pregnancy, in Arabic, English and Urdu.
 - Passage 2:228: replaced three short typed Qur'an phrases (from 65:1 and 2:228) in the Tabari prose with links to the verses, in Arabic, English and Urdu, and re-ran the verse-text sweep over the vol. 4 files (0 pending).
 - Passage 2:228 continues (vol. 4, pp. 512-517): al-Tabari's reasoning that the word for the waiting period can mean either the time of menses or of purity, his own choice of three periods of purity, his reply to the objection about the second purity and to the view on the four-month oath, his explanation of the word for divorced women, and the first reports on what God created in their wombs, in Arabic, English and Urdu.
