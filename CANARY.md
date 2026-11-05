@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:108 ends and 2:109 gains its first al-Tabari commentary (volume 2, pp. 497-502): the straight path likeness, his reading of the address as to the Companions, the reports on who 'many of the People of the Book' are and his rejection of the single-person reading, the grammar of 'envy from themselves', and the reports on 'after the truth had become clear to them', each attributed, in Arabic, English and Urdu.
 - Passage 2:108 closes its al-Tabari commentary (volume 2, pp. 492-497): his view on the particle 'am', the sense of exchanging faith for disbelief and the Abu al-Aliya gloss, his reading of these verses as addressed to the Companions, and the sense of 'strayed' and 'the right path' with its road likeness, each attributed, in Arabic, English and Urdu.
 - Passage 2:107 closes its al-Tabari commentary and 2:108 gains its first (volume 2, pp. 487-492): sovereignty versus ownership, the denial of the Jews who rejected abrogation, the reports on the occasion of the verse (Rafi' ibn Huraymila and Wahb ibn Zayd, the Arabs, Quraysh and al-Safa, Abu al-Aliya's mursal report with the editor's note), and the grammarians' views on 'am', each attributed, in Arabic, English and Urdu.
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 54 — Ibn Hisham Sirah remainder and Futuh al-Buldan cohorts).
