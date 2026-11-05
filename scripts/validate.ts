@@ -8,7 +8,7 @@ import { createHash } from "node:crypto";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import edtf from "edtf";
-import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadStubs, p, readYaml, rel, resolvePredicate, type Prose } from "./lib.js";
+import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadProseFor, loadStubs, p, readYaml, rel, resolvePredicate, type Prose } from "./lib.js";
 import { hijriToCivil, toJDN } from "./hijri/convert.js";
 
 export interface Issue { level: "error" | "warn"; file: string; msg: string }
@@ -106,7 +106,8 @@ const KIDS_BANNED: { what: string; re: RegExp }[] = [
   { what: "moral shaming of the child", re: /(?<!\p{L})(يا للعار|عار عليك|لا تكن جبانًا|لا تكن جبانا|shame on you|naughty|coward|cowardly|شرم کرو|بزدل)(?!\p{L})/iu },
   { what: "a promise the museum cannot keep", re: /(?<!\p{L})(سيضمن الله|سوف ينجح دائمًا|will always succeed|guarantees? that|always be rewarded|ہمیشہ کامیاب)(?!\p{L})/iu },
 ];
-export function checkLeveledReading(prose: Prose[], loaded: { entity: any; file: string }[]): Issue[] {
+// `subject` is the entities whose own fields are checked (default: all of `loaded`); `loaded` is still where ids are looked up.
+export function checkLeveledReading(prose: Prose[], loaded: { entity: any; file: string }[], subject: { entity: any; file: string }[] = loaded): Issue[] {
   const issues: Issue[] = [];
   const err = (file: string, msg: string) => issues.push({ level: "error", file, msg });
   const levels = loadLevels();
@@ -156,7 +157,7 @@ export function checkLeveledReading(prose: Prose[], loaded: { entity: any; file:
     const found = [...langsByLevel.keys()].sort();
     if (declared.join() !== found.join()) err(ent.file, `education.levels [${declared.join(", ")}] must match the leveled sections in content/ [${found.join(", ")}]`);
   }
-  for (const { entity, file } of loaded) {
+  for (const { entity, file } of subject) {
     const edu = entity.education;
     if (!edu) continue;
     if (edu.levels?.length && !present.has(entity.id)) err(file, `education.levels [${edu.levels.join(", ")}] declared but content/ has no leveled section for ${entity.id}`);
@@ -179,11 +180,12 @@ export function checkLeveledReading(prose: Prose[], loaded: { entity: any; file:
 // ---- curriculum pathways (docs/delegation/education-master-plan.md §5 E2): a lesson trail mapped to a jurisdiction's
 // curriculum must be walkable by a class (5 to 15 steps over existing records), addressed to teachers and students,
 // levelled, and explained in the three published languages in the museum's own words.
-export function checkCurriculum(loaded: { entity: any; file: string }[]): Issue[] {
+// `subject` is the entities whose own fields are checked (default: all of `loaded`); `loaded` is still where ids are looked up.
+export function checkCurriculum(loaded: { entity: any; file: string }[], subject: { entity: any; file: string }[] = loaded): Issue[] {
   const issues: Issue[] = [];
   const err = (file: string, msg: string) => issues.push({ level: "error", file, msg });
   const ids = new Set(loaded.map((x) => x.entity.id));
-  for (const { entity: e, file } of loaded) {
+  for (const { entity: e, file } of subject) {
     // mastery check (plan §5 E2): 5 questions, 4 options, one answer, each teaching a step of this trail, in three languages
     if (e.quiz) {
       const n = (e.rooms ?? []).length;
@@ -267,7 +269,18 @@ function parseTanzilFile(path: string): TanzilParse {
   return parsed;
 }
 
-export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
+/**
+ * Validate the repository, plus any `extra` entities appended to it.
+ *
+ * `onlyExtra: true` checks just the entities in `extra` (and the prose files of those ids): the repository still
+ * supplies the context they are checked against (which ids, aliases, stubs, sources and external ids exist, and
+ * the entities a fixture refers to), but its own entities and prose files are not checked again. A test that
+ * wants to see what the rules say about one fixture entity uses it; otherwise every such test re-checks tens of
+ * thousands of files and takes tens of seconds. Without it, behaviour is unchanged. In this mode `entityCount`
+ * and `proseCount` count what was checked, and the repository-wide totals (such as the 6,236 ayat) are not checked.
+ */
+export function validateAll(extra: { entity: any; file: string }[] = [], options: { onlyExtra?: boolean } = {}): { issues: Issue[]; entityCount: number; proseCount: number } {
+  const onlyExtra = options.onlyExtra === true;
   const issues: Issue[] = [];
   const err = (file: string, msg: string) => issues.push({ level: "error", file: rel(file), msg });
   const warn = (file: string, msg: string) => issues.push({ level: "warn", file: rel(file), msg });
@@ -279,35 +292,51 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
   const idPatterns = readYaml<Record<string, { pattern: string }>>(p("schema", "external-id-patterns.yaml"));
 
   // ---- load
-  const loaded = [...loadEntities(), ...extra];
-  const stubs = loadStubs();
+  // `repo` is read, never changed, when onlyExtra is set, so the cached copy is shared instead of copied.
+  const repo = loadEntities({ shared: onlyExtra });
+  const loaded = [...repo, ...extra];
+  // `subject` is what gets checked: everything, or only the extra entities. The items are the same objects as in `loaded`.
+  const subject = onlyExtra ? extra : loaded;
+  const inSubject: Set<object> | null = onlyExtra ? new Set<object>(extra) : null;
+  const stubs = loadStubs({ shared: onlyExtra });
   const known = new Set<string>();
   const entitiesById = new Map<string, any>();
   const stubIds = new Set(stubs.map((s) => s.id));
   const aliasOwner = new Map<string, string>();
   const externalIds = new Map<string, string>();
 
-  for (const { entity, file } of loaded) {
-    if (!entity || typeof entity !== "object") { err(file, "file is empty or not a YAML mapping"); continue; }
+  // The index covers the whole repository (references must resolve against all of it); in onlyExtra mode only
+  // the problems on the extra entities are reported.
+  for (const item of loaded) {
+    const { entity, file } = item;
+    const report = !inSubject || inSubject.has(item);
+    const indexErr = (f: string, msg: string) => { if (report) err(f, msg); };
+    if (!entity || typeof entity !== "object") { indexErr(file, "file is empty or not a YAML mapping"); continue; }
     const dir = basename(dirname(file));
     const slug = basename(file, ".yaml");
-    if (!SLUG.test(slug)) err(file, `slug "${slug}" must be lowercase ASCII words joined by hyphens`);
-    if (entity.id !== `${dir}/${slug}`) err(file, `id "${entity.id}" must equal "${dir}/${slug}" (path decides identity)`);
-    if (entity.class !== dir) err(file, `class "${entity.class}" must match its directory "${dir}"`);
-    if (known.has(entity.id)) err(file, `duplicate id ${entity.id}`);
+    if (!SLUG.test(slug)) indexErr(file, `slug "${slug}" must be lowercase ASCII words joined by hyphens`);
+    if (entity.id !== `${dir}/${slug}`) indexErr(file, `id "${entity.id}" must equal "${dir}/${slug}" (path decides identity)`);
+    if (entity.class !== dir) indexErr(file, `class "${entity.class}" must match its directory "${dir}"`);
+    if (known.has(entity.id)) indexErr(file, `duplicate id ${entity.id}`);
     known.add(entity.id);
     entitiesById.set(entity.id, entity);
     for (const a of entity.aliases ?? []) {
-      if (aliasOwner.has(a)) err(file, `alias ${a} also claimed by ${aliasOwner.get(a)}`);
+      if (aliasOwner.has(a)) indexErr(file, `alias ${a} also claimed by ${aliasOwner.get(a)}`);
       aliasOwner.set(a, entity.id);
     }
   }
-  for (const id of stubIds) if (known.has(id)) warn(p("data", "_stubs.yaml"), `${id} is now written; remove it from the stub list (data/_stubs.yaml or data/_stubs.d/)`);
+  // External ids are collected while checking each entity, so a check of only the extra entities starts from the
+  // ids the repository already uses: a fixture that repeats one is still reported.
+  if (onlyExtra) {
+    for (const { entity } of repo) for (const [k, v] of Object.entries<string>(entity?.external_ids ?? {})) externalIds.set(`${k}:${v}`, entity.id);
+  }
+  const subjectIds: Set<string> | null = onlyExtra ? new Set<string>(subject.map((x) => x.entity?.id)) : null;
+  for (const id of stubIds) if (known.has(id) && (!subjectIds || subjectIds.has(id))) warn(p("data", "_stubs.yaml"), `${id} is now written; remove it from the stub list (data/_stubs.yaml or data/_stubs.d/)`);
   const resolves = (id: string) => known.has(id) || stubIds.has(id) || aliasOwner.has(id);
   const classOf = (id: string) => id.split("/")[0];
 
   // ---- per entity
-  for (const { entity, file } of loaded) {
+  for (const { entity, file } of subject) {
     if (!entity?.class || !CLASSES.includes(entity.class)) { err(file, `unknown class "${entity?.class}"`); continue; }
     const validate = ajv.getSchema(`${entity.class}.schema.json`)!;
     if (!validate(entity)) {
@@ -625,7 +654,9 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
 
   // ---- the Qur'an text is frozen (docs/plan/15 §6.3): every passage/quran-* must equal the committed Tanzil file, character for character
   const quran = loaded.find((x) => x.entity?.id === "work/quran");
-  if (quran) {
+  // A check of only the extra entities reads the frozen files just when one of them is the Qur'an work or one of its passages.
+  const quranInScope = !onlyExtra || subject.some((x) => x.entity?.id === "work/quran" || (x.entity?.class === "passage" && x.entity.work === "work/quran"));
+  if (quran && quranInScope) {
     const ts = quran.entity.text_source;
     const files: Record<string, string[]> = {};
     for (const f of ts?.files ?? []) {
@@ -638,7 +669,7 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     }
     const mt: Map<string, string> | undefined = (files as any)["map:text"], ms: Map<string, string> | undefined = (files as any)["map:text_search"];
     let ayat = 0, suras = 0;
-    for (const { entity: e, file } of loaded) {
+    for (const { entity: e, file } of subject) {
       if (e?.class !== "passage" || e.work !== "work/quran") continue;
       if (e.unit === "sura") { suras++; continue; }
       ayat++;
@@ -647,15 +678,20 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (ms && ms.get(e.ref) !== e.text_search) err(file, `text_search of ${e.ref} differs from the frozen Tanzil Simple Clean file`);
       if (e.provenance?.layer !== "by") err(file, "Qur'an passages must carry provenance.layer: by (Tanzil attribution)");
     }
-    if (mt && (ayat !== 6236 || suras !== 114 || mt.size !== 6236)) err(quran.file, `expected 114 suras and 6,236 ayat, found ${suras} and ${ayat}`);
+    // the totals are a property of the whole repository, so they are checked only when it is
+    if (!onlyExtra && mt && (ayat !== 6236 || suras !== 114 || mt.size !== 6236)) err(quran.file, `expected 114 suras and 6,236 ayat, found ${suras} and ${ayat}`);
   }
 
   // ---- prose
   // content/ holds prose only: a data file saved there is silently never rendered (found in the wild: a .yaml under content/ar/event/)
-  for (const d of readdirSync(p("content"), { recursive: true, withFileTypes: true }) as any[]) {
-    if (d.isFile() && !d.name.endsWith(".md") && !d.name.startsWith(".")) err(rel(join(d.parentPath ?? d.path, d.name)), "content/ holds .md prose only (data belongs in data/<class>/<slug>.yaml)");
+  // (a repository-wide scan, so it is not repeated for a check of only the extra entities)
+  if (!onlyExtra) {
+    for (const d of readdirSync(p("content"), { recursive: true, withFileTypes: true }) as any[]) {
+      if (d.isFile() && !d.name.endsWith(".md") && !d.name.startsWith(".")) err(rel(join(d.parentPath ?? d.path, d.name)), "content/ holds .md prose only (data belongs in data/<class>/<slug>.yaml)");
+    }
   }
-  const prose = loadProse();
+  // A check of only the extra entities reads just their own prose files, if they have any.
+  const prose = onlyExtra ? loadProseFor([...subjectIds!], LANGS) : loadProse();
   const proseByIdLang = new Map(prose.map((item) => [`${item.lang}:${item.id}`, item]));
   const linkRe = /\[\[([a-z]+\/[a-z0-9-]+)(?:\|[^\]]*)?\]\]/g;
   const citeRe = /\{cite:([a-z0-9-]+)(?:\s[^}]*)?\}/g;
@@ -686,7 +722,7 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     }
     if (!/^## /m.test(pr.body)) warn(pr.file, "no section headings");
   }
-  for (const { entity, file } of loaded) {
+  for (const { entity, file } of subject) {
     if (entity.class !== "invention" || entity.status?.review !== "published") continue;
     for (const lang of PUBLISHED_LANGS) {
       const proseFile = proseByIdLang.get(`${lang}:${entity.id}`);
@@ -698,9 +734,9 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (missing.length) err(proseFile.file, `missing required invention headings: ${missing.join(", ")}`);
     }
   }
-  for (const i of checkLeveledReading(prose, loaded)) issues.push(i);
-  for (const i of checkCurriculum(loaded)) issues.push(i);
-  for (const { entity, file } of loaded) {
+  for (const i of checkLeveledReading(prose, loaded, subject)) issues.push(i);
+  for (const i of checkCurriculum(loaded, subject)) issues.push(i);
+  for (const { entity, file } of subject) {
     if (["person", "event"].includes(entity.class) && !seen.has(`ar:${entity.id}`) && entity.status?.completeness >= 2) {
       warn(file, "completeness >= 2 but no Arabic prose in content/ar/");
     }
@@ -709,7 +745,7 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
   // Content lint (build-time): no replacement characters, no placeholder digits in dates, no garbled era marks.
   // "062X" (an EDTF decade) is a legitimate unspecified digit; an X after a hyphen (a month or day) is a placeholder.
   const PLACEHOLDER_DATE = /-\d*X/;
-  for (const { entity, file } of loaded) {
+  for (const { entity, file } of subject) {
     for (const [path, s] of textFields(entity)) {
       if (s.includes("\uFFFD")) err(file, `${path}: contains U+FFFD (replacement character): the text was corrupted`);
       if (s.includes("ق.م هـ")) err(file, `${path}: "ق.م هـ" is garbled; the BCE Hijri form is "ق.هـ"`);
@@ -728,13 +764,16 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     .toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
   const homonymsFile = p("data", "_homonyms.yaml");
   const homonyms = new Set<string>(existsSync(homonymsFile) ? ((readYaml(homonymsFile) ?? {}).namesakes ?? []).flat() : []);
-  const byTitle = new Map<string, { id: string; cls: string; file: string }[]>();
-  for (const { entity, file } of loaded) {
+  const byTitle = new Map<string, { id: string; cls: string; file: string; checked: boolean }[]>();
+  for (const item of loaded) {
+    const { entity, file } = item;
     const t = entity.label?.ar ? titleKey(entity.label.ar) : "";
     if (!t) continue;
-    byTitle.set(t, [...(byTitle.get(t) ?? []), { id: entity.id, cls: entity.class, file }]);
+    byTitle.set(t, [...(byTitle.get(t) ?? []), { id: entity.id, cls: entity.class, file, checked: !inSubject || inSubject.has(item) }]);
   }
   for (const [t, group] of byTitle) {
+    // a check of only the extra entities reports a shared title just when one of them is part of it
+    if (onlyExtra && !group.some((g) => g.checked)) continue;
     const classes = new Set(group.map((g) => g.cls));
     // A place and an event can share a name (the pool and the proclamation at it), so this is a review warning, not a failure.
     if (group.length > 1 && classes.size > 1) warn(group[0].file, `title "${t}" is used by ${group.map((g) => g.id).join(", ")}: if it is one thing, merge it (keep one id, list the other under aliases)`);
@@ -743,7 +782,7 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     if (people.length > 1 && !people.every((g) => homonyms.has(g.id))) err(people[1].file, `person "${t}" exists twice: ${people.map((g) => g.id).join(", ")}. Merge them (keep one id, list the other under aliases) or list both ids in data/_homonyms.yaml if they are different people`);
   }
 
-  return { issues, entityCount: loaded.length, proseCount: prose.length };
+  return { issues, entityCount: subject.length, proseCount: prose.length };
 }
 
 function readYamlJson(path: string) {
