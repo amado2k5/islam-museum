@@ -1,9 +1,10 @@
 id: person/abd-allah-ibn-jubayr
 class: person
-label: { ar: "عبد الله بن جبير بن النعمان الأنصاري الأوسي", en: "Abd Allah ibn Jubayr ibn al-Numan al-Ansari" }
+label: { ar: "عبد الله بن جبير بن النعمان الأنصاري الأوسي", en: "Abd Allah ibn Jubayr ibn al-Numan al-Ansari" , ur: "عبد اللہ بن جبیر انصاری"}
 summary:
   ar: "صحابي أنصاري أوسي بدري. عيّنه النبي قائداً لفصيلة الرماة الخمسين في غزوة أحد وأوصاهم بألا يبرحوا موقفهم على الجبل نصراً كان أم هزيمة. لما تركه أغلب أصحابه طمعاً في الغنيمة ثبت هو وتسعة معه في الجبل. قُتل على يد خالد بن الوليد وفرسانه لما نفّذوا الالتفاف. كان بدرياً وهو شرف رفيع {cite:mubarakpuri-raheeq p.255}."
   en: "An Ansari Companion of the Aws who fought at Badr. The Prophet appointed him commander of the fifty-archer detachment at Uhud and charged them not to leave their position on the hill in victory or defeat. When most of his men left seeking spoils, he held firm with nine others on the hill. He was killed by Khalid ibn al-Walid and his cavalry when they executed the flanking manoeuvre. He was a Badri, which is a high honour {cite:mubarakpuri-raheeq p.255}."
+  ur: "اوس کے انصاری صحابی اور بدر کے شریک؛ احد میں پچاس تیر اندازوں کے قائد مقرر ہوئے، اپنے ساتھیوں کی اکثریت کے چلے جانے کے بعد نو افراد کے ساتھ ڈٹے رہے اور گھڑ سواروں کے حملے میں مارے گئے۔ {cite:mubarakpuri-raheeq}"
 wings: [people]
 gender: male
 traditions: [sunni]
@@ -13,5 +14,5 @@ relations:
   - { type: participated_in, target: event/battle-of-badr, role: "شهد بدراً" }
 external_ids: { wikidata: "Q12223476" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
-provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] , explorer_metadata: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-sixth-40-stories-2026-11-04","source":"Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research."}, source: "Existing museum record and defined sources: source/mubarakpuri-raheeq, source/ibn-hisham-sira. Attribution metadata restored only; no new source pages examined."}
 status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 255-264" }
