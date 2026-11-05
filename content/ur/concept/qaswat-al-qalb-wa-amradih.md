@@ -22,3 +22,6 @@ translators: []
 
 ## عمر عبد الکافی کے پروگرام المنجیات سے
 «المنجیات» میں عمر عبد الکافی ان چیزوں کی بات کرتے ہیں جو علما نے دل کو بگاڑنے والی گنوائی ہیں، ان میں: وہ علم جس پر عمل نہ ہو، وہ عمل جس میں اخلاص اور اتباع نہ ہو، اور اللہ کی محبت اور شوق سے خالی دل، {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:13:30} اور کہتے ہیں کہ جو اپنے علم پر عمل نہ کرے وہ اپنے عمل میں بھٹک جاتا ہے۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:04:00}
+
+## تفسیرِ طبری میں: «فی قلوبہم مرض»
+طبری منافقین کے دلوں کی بیماری کی تفسیر محمد اور ان کی لائی ہوئی چیز کے بارے میں شک اور حیرت سے کرتے ہیں، جو دین کی بیماری ہے نہ کہ جسموں کی؛ اور اس پر ابن عباس، سدی، قتادہ، ربیع بن انس اور ابن زید کی روایات لاتے ہیں۔ {cite:tafsir-tabari-shakir-v01 p. 279} {cite:tafsir-tabari-shakir-v01 p. 280} {cite:tafsir-tabari-shakir-v01 p. 281}
