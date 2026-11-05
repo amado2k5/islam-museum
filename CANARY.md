@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 472-477): the objection from the report "fasting on a journey is no part of righteousness" and his answer, the grammar of "or on a journey", "God wants ease for you" with the reports of Ibn 'Abbas and others, and the start of "that you complete the number", each attributed, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 467-472): further reports that breaking the fast on a journey is a concession, al-Tabari's own choice and his stated reasons (labelled as his), and the Hamza al-Aslami reports, each attributed, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 462-467): the view that fasting on a journey must be made up and its supporting report, and the opposing view that breaking the fast on a journey is a concession (reports of 'Umar ibn 'Abd al-'Aziz, 'Umar ibn al-Khattab, Anas and others), each attributed, with the editor's notes on chains, in Arabic, English and Urdu.
 - Passage 2:185 gains more of al-Tabari's commentary (volume 3, pp. 458-462): the views on which illness permits breaking the fast (including a view attributed to al-Shafi'i), al-Tabari's choice, the grammar of "other days", and the first view that breaking the fast on a journey is obligatory, each attributed, in Arabic, English and Urdu.
