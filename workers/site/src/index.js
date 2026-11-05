@@ -5,7 +5,7 @@
 // The two rule files are bundled at deploy time (scripts/bundle-rules.mjs writes
 // src/rules.generated.js): static assets consume _redirects and _headers themselves
 // and do not serve them, so they cannot be fetched through env.ASSETS.
-import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation, aliasTarget, parseHostRewrites, rewriteHost, robotsDisallowed, ROBOTS_DISALLOW_TEXT, ROBOTS_NOINDEX_TAG } from "./route.js";
+import { resolve, notFoundKey, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation, aliasTarget, parseHostRewrites, rewriteHost, robotsDisallowed, ROBOTS_DISALLOW_TEXT, ROBOTS_NOINDEX_TAG } from "./route.js";
 import { redirectsText, headersText, aliasesText } from "./rules.generated.js";
 
 const rules = {
@@ -104,9 +104,12 @@ export default {
 
     const object = await env.SITE_BUCKET.get(target.key);
     if (!object) {
-      // Never cached: the page appears as soon as a publish writes it to R2.
-      const notFound = await env.ASSETS.fetch(new URL("/404.html", url));
-      const headers = new Headers(notFound.headers);
+      // Never cached: the page appears as soon as a publish writes it to R2. The not-found page follows the URL's
+      // language (/en/… gets /en/404/); the Arabic /404.html from the assets is the fallback.
+      const key = notFoundKey(url.pathname);
+      const localized = key ? await env.SITE_BUCKET.get(key) : null;
+      const notFound = localized ?? await env.ASSETS.fetch(new URL("/404.html", url));
+      const headers = new Headers(localized ? {} : notFound.headers);
       headers.set("content-type", "text/html; charset=utf-8");
       headers.set("cache-control", "no-store");
       return respond(new Response(request.method === "HEAD" ? null : notFound.body, { status: 404, headers }));

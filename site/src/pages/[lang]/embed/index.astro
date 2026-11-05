@@ -1,0 +1,51 @@
+---
+// Index of the embeddable widgets (docs/delegation/education-master-plan.md §5 E5): the same chrome-free page as the
+// widgets themselves (static, no JavaScript, no storage), listing each widget with its iframe code. The widgets and
+// their sizes are the ones the developers page documents (site/src/pages/[lang]/developers/index.astro).
+import { LANGS, ui, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const widgets = [
+  { slug: "fact", title: E.embed_fact_title, w: 360, h: 220 },
+  { slug: "trail-of-the-week", title: E.embed_trail_week, w: 360, h: 480 },
+];
+const code = (w: (typeof widgets)[number]) =>
+  `<iframe src="https://islam.museum/${lang}/embed/${w.slug}/" width="${w.w}" height="${w.h}" title="${w.title}" loading="lazy" style="border:0"></iframe>`;
+---
+<!doctype html>
+<html lang={lang} dir={T.dir}>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>{E.embed_index_title} — islam.museum</title>
+<style>
+  body{margin:0;padding:14px;font-family:Georgia,'Times New Roman',serif;background:#faf6ea;color:#1c2733;min-width:0}
+  .kicker{font-family:system-ui,sans-serif;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#7a5a1e;margin:0 0 .4rem}
+  h1{font-size:1.05rem;margin:0 0 .4rem;line-height:1.4}
+  h2{font-size:.95rem;margin:1rem 0 .3rem}
+  p{margin:0 0 .6rem;font-size:.95rem;line-height:1.6}
+  a{color:#1f4e79}
+  pre{margin:0;padding:.5rem;background:#fff;border:1px solid #e3d9bd;font-size:.75rem;white-space:pre-wrap;overflow-wrap:anywhere;direction:ltr;text-align:left}
+  .label{font-family:system-ui,sans-serif;font-size:.75rem;margin:0 0 .2rem;color:#5b6470}
+  .from{font-family:system-ui,sans-serif;font-size:.75rem;margin-top:.6rem}
+  .from a{text-decoration:none;border-bottom:1px dotted #a8862f;color:#7a5a1e}
+</style>
+</head>
+<body>
+  <p class="kicker">islam.museum</p>
+  <h1>{E.embed_index_title}</h1>
+  <p>{E.embed_index_lede}</p>
+  {widgets.map((w) => (
+    <section>
+      <h2><a href={`/${lang}/embed/${w.slug}/`}>{w.title}</a></h2>
+      <p class="label">{E.embed_index_code}</p>
+      <pre><code>{code(w)}</code></pre>
+    </section>
+  ))}
+  <p class="from"><a href={`/${lang}/developers/`}>{E.embed_from}</a></p>
+</body>
+</html>

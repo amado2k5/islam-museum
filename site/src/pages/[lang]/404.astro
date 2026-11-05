@@ -1,0 +1,9 @@
+---
+// /<lang>/404/: the not-found page in each language. The site Worker answers a missing /<lang>/… page with it
+// (workers/site/src/route.js notFoundKey); the root /404.html stays Arabic for every other path.
+import NotFound from "../../components/NotFound.astro";
+import { LANGS, type Lang } from "../../lib/i18n";
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+---
+<NotFound lang={lang} path={`/${lang}/404/`} alternates={{ ar: "/ar/404/", en: "/en/404/", ur: "/ur/404/" }} />

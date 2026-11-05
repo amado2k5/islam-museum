@@ -34,6 +34,13 @@ export function resolve(pathname) {
   return { type: "redirect", location: `${pathname}/` };
 }
 
+// The R2 key of the not-found page for a missing path: the page in the URL's language (site/src/pages/[lang]/404.astro),
+// or null for any other path, which gets the Arabic /404.html from the assets layer.
+export function notFoundKey(pathname) {
+  const lang = LANGS.find((l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`));
+  return lang ? `${lang}/404/index.html` : null;
+}
+
 // Parses the static 301/302 rules of a _redirects file. Dynamic rules (with :placeholders) are ignored
 // here and must be checked separately.
 export function parseRedirects(text) {
