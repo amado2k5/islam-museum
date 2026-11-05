@@ -1,0 +1,29 @@
+id: person/khadim-hussain-rizvi
+class: person
+names:
+  - { kind: full, value: "Khadim Hussain Rizvi" }
+  - { kind: full, value: "خادم حسین رضوی" }
+  - { kind: alternate, value: "Allama Khadim Hussain Rizvi" }
+label: { ar: "خادم حسين رضوي", en: "Khadim Hussain Rizvi", ur: "خادم حسین رضوی" }
+summary:
+  ar: "عالم وخطيب باكستاني (22 مايو 1966 – 19 نوفمبر 2020)، مؤسس تحريك لبيك باكستان وأميرها الأول، عُرف بدفاعه الصارم عن قوانين التجديف الباكستانية وباعتصامي فيض آباد 2017 واحتجاجات آسيا بيبي 2018. ورغم وفاته سنة 2020 ما زالت قناته الأرشيفية الرسمية على يوتيوب تنشر تسجيلاته وبلغت نحو 1.2 مليون مشترك في نوفمبر 2026."
+  en: "Pakistani Islamic scholar and preacher (22 May 1966 – 19 November 2020), founder and first ameer of Tehreek-e-Labbaik Pakistan, known for his uncompromising defence of Pakistan's blasphemy laws, the 2017 Faizabad sit-in and the 2018 Asia Bibi protests. Although he died in 2020, his official archive YouTube channel still publishes his recordings and counted some 1.2 million subscribers in November 2026."
+  ur: "پاکستانی عالم اور خطیب (22 مئی 1966 – 19 نومبر 2020)، تحریکِ لبیک پاکستان کے بانی اور پہلے امیر، جو پاکستان کے قوانینِ توہین کے سخت دفاع، 2017 کے فیض آباد دھرنے اور 2018 کے آسیہ بی بی احتجاج کے لیے جانے گئے۔ 2020 میں وفات کے باوجود ان کا سرکاری آرکائیو یوٹیوب چینل ان کی ریکارڈنگز شائع کرتا رہا اور نومبر 2026 میں اس کے تقریباً 1.2 ملین سبسکرائبر تھے۔"
+gender: male
+born: { edtf: "1966-05-22", hijri: "1386", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 22 May 1966 in Pindigheb, West Pakistan, per the English article's lead and infobox, citing The Express Tribune of 19 November 2020 for the date; the Hijri year 1386 is derived from the Gregorian date. Lower-authority copies elsewhere give 22 June 1966; the article's cited date is followed here.", sources: [source/wikipedia-khadim-hussain-rizvi-en] }
+died: { edtf: "2020-11-19", hijri: "1442", calendar: gregorian, precision: day, status: historical, derived: true, note: "Died 19 November 2020 in Lahore, Punjab, Pakistan, per the English article's lead, infobox and Death section, citing SAMAA TV of 19 November 2020 and Dawn; the Hijri year 1442 is derived from the Gregorian date.", sources: [source/wikipedia-khadim-hussain-rizvi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Press and reference coverage consistently situate Rizvi and his movement in the Barelvi movement — the English article carries a Barelvi-movement sidebar and a Movement: Barelvi infobox entry, and commentary describes the TLP's rise as a Barelvi political revival — and the same infobox gives Denomination: Sunni, Jurisprudence: Hanafi and Creed: Maturidi. All of that is movement milieu and structured data: the infobox entries never count in this lane, and prose situating a movement does not attest a specific school or order for the man himself in two independent texts. No two independent prose texts read attest a specific school or order for Rizvi himself, so the value stays unknown and the Barelvi-movement reading is preserved here, exactly as the lane doctrine directs for this record."
+    sources: [source/wikipedia-khadim-hussain-rizvi-en]
+roles: [scholar, preacher, politician, writer, emir]
+wings: [people]
+regions: [south-asia]
+sources: [source/wikipedia-khadim-hussain-rizvi-en, source/vidiq-khadim-hussain-rizvi]
+provenance:
+  layer: own-research
+  source: "The wave-193 harvest entry §A.6 (official archive channel @allamakhadimhussainrizvi9263 at 1.2 million subscribers in the harvest), researched against the English Wikipedia article read in full on 5 November 2026 and vidIQ's statistics for the archive channel read the same day (1,200,000 subscribers, confirming the harvest figure as a present-day channel figure for a deceased figure). The brief's birth year of 1956 is an error: every source read, including the article's cited Express Tribune obituary notice, gives 1966, and 1966 is recorded. The article's infobox dates his TLP office from 1 August 2015 while its body also says he founded the political party in 2017 as a front for Tehreek Labbaik Ya Rasool Allah; both statements are carried in the prose as the article gives them. No Wikidata QID could be verified from the pages read, so none is recorded. No relations are written: Tehreek-e-Labbaik Pakistan has no group record on main, and no place edge is written — he died in Lahore, but place/lahore is not documented for him as a lived-in place in the sources read and the brief directs no Lahore edge by default."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-193"
+status: { review: published, completeness: 3 }
