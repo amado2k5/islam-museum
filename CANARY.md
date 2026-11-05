@@ -20,6 +20,7 @@ open a new block on top with the new version and today's date.
 - The machine-readable foundation for the Muslim Inventions Browser: a new invention record class and sourced links to related people, places, works, objects and concepts.
 - Static API exports for invention records and their precursor and dependent chains.
 - Seven contemporary figures join the People wing, opening the museum's Ethiopian coverage: the menzuma artist Muaz Habib, the Afaan Oromo teacher Anwar Yusuf and the comparative-religion preacher Wahid Omar Negash from Ethiopia; the Bangladeshi scholars Ahmadullah, Abu Taw Haa Muhammad Adnan and Enayetullah Abbasi; and the Senegalese preacher Abdoul Wahab Dièye — each with sourced pages in Arabic, English and Urdu.
+- Five Islamic media groups join the collection: Minber TV and Nejashi TV from Ethiopia, Africa TV from Nigeria, and Taw Haa Tv and Holy Tune from Bangladesh — channels carrying sermons, lectures and nasheed to audiences from tens of thousands to over ten million subscribers, each with sourced pages in Arabic, English and Urdu.
 
 ### Changed
 
