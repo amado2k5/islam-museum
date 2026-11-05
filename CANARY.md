@@ -36,6 +36,7 @@ open a new block on top with the new version and today's date.
 - The Hijri calendar's "Today is" line, highlighted day and opening month now follow the reader's own date, worked out in the browser with the same conversion as the Time Machine. They had been fixed on the day the site was built. Without JavaScript the page still shows a complete month.
 - A page that does not exist under /en/ or /ur/ now says so in English or Urdu instead of Arabic; the rest of the site keeps the Arabic page.
 - Each exhibit now appears once on the exhibits list in every language. The two Alexandria trails were one trail recorded twice: they are now one, and the old address still leads to it. "Great Mosques of the Garrison Cities" and «دول المغرب الأدنى» (States of the Maghreb) are different trails that shared a title with another, and now have their own.
+- The Urdu embed index (/ur/embed/) now reads in Urdu; it had been added with English placeholder text.
 
 ### Tests
 
