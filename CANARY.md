@@ -35,6 +35,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:238 (pp. 189-195, reports 5432-5440): more reports on the afternoon-prayer view (Abu Hurayra, Ibn 'Abbas, the Abu Hashim b. 'Utba report, Samura, Umm Habiba) and the report of al-Bara' b. 'Azib on a wording said to have been abrogated, given as transmitted with no verdict, with the editor's gradings labelled as his, in Arabic, English and Urdu.
 - Passage 2:238 (pp. 182-188, reports 5419-5431): al-Tabari's grounds for the afternoon-prayer view, the reports of the Battle of the Trench from Ibn Mas'ud, 'Ali and others, with the editor's sources and gradings labelled as his, in Arabic, English and Urdu.
 - Passage 2:238 (pp. 175-181, reports 5398-5418): more reports that the middle prayer is the afternoon prayer (Umm Salama, 'A'isha, Hafsa, Ibn 'Abbas, Qatada, al-Dahhak, Samura from the Prophet, Abu Ayyub), with the editor's gradings labelled as his, in Arabic, English and Urdu.
 - Passage 2:238 (pp. 169-175, reports 5381-5397): the reports that the middle prayer is the afternoon prayer, from Ibn 'Abbas, 'Ali, Abu Hurayra, Ibn 'Umar, Abu Sa'id al-Khudri and 'A'isha, including the reports of an explanatory addition in 'A'isha's codex (described as reported, not as Qur'an), with the editor's gradings labelled as his, in Arabic, English and Urdu.
