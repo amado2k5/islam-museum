@@ -29,6 +29,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:144 (end), 2:145 and 2:146 (opening) gain al-Tabari commentary (volume 3, pp. 184-188): that God is not unaware, why the People of the Book would not follow the Prophet's qibla nor each other's, the warning about following their desires, and that they know it as they know their sons, each attributed, in Arabic, English and Urdu.
 - Passage 2:144 continues its al-Tabari commentary (volume 3, pp. 179-183): what counts as facing the qibla, the reports on the House's door as its qibla, "wherever you are, turn your faces toward it", and "those given the Book know it is the truth", each attributed, in Arabic, English and Urdu.
 - Passage 2:144 continues its al-Tabari commentary (volume 3, pp. 173-178): the reasons given for the Prophet's longing for the Ka'ba, the meaning of "shatr" (toward), and the disagreement over which part of the Sacred Mosque is meant, each attributed, in Arabic, English and Urdu.
 - Passages 2:143 (end) and 2:144 (opening) gain al-Tabari commentary (volume 3, pp. 168-173): "God would never let your faith be lost" as the prayers toward Jerusalem, "Compassionate and Merciful", and "We see the turning of your face toward the sky", each attributed, in Arabic, English and Urdu.
