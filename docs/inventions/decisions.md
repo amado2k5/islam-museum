@@ -396,3 +396,13 @@ Scope of the sign-off is limited to the exact class, enums, predicates, existing
 **Decision:** Ship the browser home, the invention page sections and the Explore entry with one record, `invention/pulmonary-circulation`, sourced from West 2008 (Journal of Applied Physiology) and the Wellcome WMS Or. 51 catalogue record. The external precursor and dependent labels may carry Urdu (`ur`) alongside the required Arabic and English. Later records follow the batch queue.
 
 **Touches:** `data/invention/`, `content/{ar,en,ur}/invention/`, `site/src/pages/[lang]/inventions/`, `site/src/components/Invention*.astro`, `site/src/lib/inventions.ts`, `i18n/*.yaml`, `scripts/gen-schema.ts`, `scripts/check-site.ts`.
+
+## D-039 — Publish Rufayda's tent as a contested "first hospital" (5 November 2026)
+
+**Question:** Can Rufayda's tent be published although the sources disagree on what the first hospital in Islam was?
+
+**Rule applied:** One cited source is enough for a fact (`docs/agents/publication-standard.md`); a contested attribution uses the `perspectives` block, Sunni first, then academic, with no verdict (AGENTS.md, voice and scope); a maker needs a sourced Sunni faith basis.
+
+**Decision:** Publish `invention/rufayda-medical-tent` as kind `institution`, attribution status `contested`. The facts (her tent in the mosque, her care for the wounded, Sa'd ibn Mu'adh moved there at the Trench, the Prophet's visits) come from Ibn Hajar's *al-Isaba* pp. 566 and 1871–1872, verified on the page images, which also record al-Bukhari's sound chain. The perspectives are: Isaba (Sunni, main; describes the tent, makes no priority claim), al-Maqrizi via TDV (Sunni, secondary; first hospital is al-Walid's in 88/707) and TDV (academic; first bimaristan was the mobile war hospital in Rufayda's tent). Rufayda is the maker (keeper of the tent); her faith entry now cites *al-Isaba* entry 11222. The dependents (al-Walid, Harun, the Sawad mobile hospital) are listed as later institutions without a claimed direct line. Ibn Hisham is cited only as TDV's reference because the local OCR does not cover the passage.
+
+**Touches:** `data/invention/rufayda-medical-tent.yaml`, `data/media/prophets-mosque-1908-mirat-al-haramayn.yaml`, `data/media/diagram-rufayda-tent.yaml`, `data/person/rufayda-al-aslamiyya.yaml`, `content/{ar,en,ur}/invention/rufayda-medical-tent.md`, `site/src/components/InventionDiagram.astro`, `i18n/*.yaml`, `docs/inventions/*`.
