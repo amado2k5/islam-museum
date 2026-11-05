@@ -31,7 +31,7 @@ describe("invention class and ties", () => {
   });
 
   it("requires a source-backed Sunni basis for the named inventor", () => {
-    const records = loadEntities().map(({ entity }) => entity);
+    const records = loadEntities({ shared: true }).map(({ entity }) => entity);
     const source = records.find((entity) => entity.class === "source")!.id;
     const place = records.find((entity) => entity.class === "place")!.id;
     const media = records.find((entity) => entity.class === "media")!.id;
@@ -75,7 +75,7 @@ describe("invention class and ties", () => {
       provenance: { source: "fixture", generated_by: "test", model: "test", run: "inventions-test" },
       status: { review: "draft" },
     };
-    const result = validateAll([{ entity: fixture, file: p("data", "invention", "validator-probe.yaml") }]);
+    const result = validateAll([{ entity: fixture, file: p("data", "invention", "validator-probe.yaml") }], { onlyExtra: true });
     const messages = result.issues.filter((issue) => issue.file.endsWith("validator-probe.yaml")).map((issue) => issue.msg);
     expect(messages).toContain("makers[0].person: person/nonexistent-inventions-test has no source-backed Sunni faith entry");
   });
