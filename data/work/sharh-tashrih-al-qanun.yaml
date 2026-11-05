@@ -15,7 +15,9 @@ regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
 editions: ["Arabic printed text, edition not verified (see source/sharh-tashrih-qanun-print)"]
 external_ids: { wikidata: "Q18205558" }
-sources: [source/sharh-tashrih-qanun-print]
+inventions:
+  - { invention: invention/pulmonary-circulation, relation: first-describes, sources: [source/west-2008-ibn-al-nafis] }
+sources: [source/sharh-tashrih-qanun-print, source/west-2008-ibn-al-nafis]
 provenance:
   layer: own-research
   source: "Sharh Tashrih al-Qanun, preface and scan pages 1, 7, 9, 35 (digital copy)"

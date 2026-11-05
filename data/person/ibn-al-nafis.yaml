@@ -17,6 +17,13 @@ regions: [egypt-nile, levant-iraq]
 faith:
   - value: sunni-shafii
     basis: tradition
+    sources: [source/west-2008-ibn-al-nafis, source/shadharat-dhahab, source/tarikh-islam-dhahabi]
+inventions:
+  - invention: invention/pulmonary-circulation
+    role: inventor
+    place: place/cairo
+    note: "Described the passage of the blood from the right ventricle through the lungs to the left ventricle in his commentary on the anatomy of Ibn Sina's Canon."
+    sources: [source/west-2008-ibn-al-nafis]
 relations:
   - { type: born_in, target: place/damascus, sources: [source/al-aalam] }
   - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab, source/assabile-tareq-al-suwaidan] }
@@ -30,7 +37,7 @@ relations:
   - { type: participated_in, target: event/ibn-al-nafis-theologus-670, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/mansuri-maristan-683, role: "الموقِف عليه", sources: [source/tarikh-islam-dhahabi] }
   - { type: participated_in, target: event/death-ibn-al-nafis-687, role: "المتوفى", sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/al-aalam, source/assabile-tareq-al-suwaidan, source/assabile-zaghloul-el-naggar]
+sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/al-aalam, source/assabile-tareq-al-suwaidan, source/assabile-zaghloul-el-naggar, source/west-2008-ibn-al-nafis]
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium)" }
 provenance:
   layer: own-research
@@ -49,4 +56,4 @@ occupations:
     kind: secondary
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/al-aalam, source/assabile-tareq-al-suwaidan, source/assabile-zaghloul-el-naggar]
+    sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/al-aalam, source/assabile-tareq-al-suwaidan, source/assabile-zaghloul-el-naggar, source/west-2008-ibn-al-nafis]
