@@ -76,3 +76,313 @@ Scope of the sign-off is limited to the exact class, enums, predicates, existing
 **Decision:** Preserve the complete recovered `CANARY.md` from `origin/main` and add v1.2.0 for Phase 1. Do not retain the Phase 0 branch's temporary v0.1.0/v0.2.0 release-note history over the recovered product history, and keep the root package version at 0.1.0, matching `origin/main`; the public product version comes from `CANARY.md`.
 
 **Touches:** `CANARY.md`, `package.json`, `package-lock.json`; no API version change.
+
+## D-007 — Keep the Ibn Khalaf al-Muradi mechanism as a lead (5 November 2026)
+
+**Question:** Can the intermittent gearing attributed to Ibn Khalaf al-Muradi be promoted to an invention record from the sources currently available?
+
+**Rule applied:** Sections 3, 6.3 and 10 require a cited basis for the maker's Muslim identity and Sunni inclusion, and require popular summaries to remain leads until the technical claim is checked against specialist literature or the primary text. Faith is not inferred from a name, language, place or period.
+
+**Decision:** Keep the candidate at `[~]`. TDV's “HİYEL” and Al-Hassani's secondary summary identify a useful mechanism lead, but no maker-faith basis or verified device-level primary evidence was established. Hill's cited books were not available as open text and Samsó's review could not be accessed; do not create an invention or person record on this evidence.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-008 — Keep the Sistan windmill and saqiya claims unresolved (5 November 2026)
+
+**Question:** Do the screened sources establish a qualifying Muslim-origin claim for the Sistan vertical-axis windmill or a specific Muslim improvement to the saqiya?
+
+**Rule applied:** A technology's existence or transmission in Muslim lands is not proof of Muslim invention. An inherited device may be recorded only with its precursor and a sourced, specific improvement; state-party and popular accounts are leads, not independent technical evidence.
+
+**Decision:** Keep both candidates at `[~]`. The Sistan sources leave the era and origin unsettled and identify no qualifying maker; Wilson's accessible abstract places saqiya and related water technologies before Islamic expansion but does not identify a later Muslim improvement. Do not state an origin or improvement until a specific maker and contribution are supported.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-009 — Keep al-Khujandi's instrument claims as leads (5 November 2026)
+
+**Question:** Can the Fakhri sextant, a separate mural quadrant, or the *shamila* be promoted to invention records?
+
+**Rule applied:** A record needs a specific, sourced contribution and a source-backed Sunni inclusion basis. Conflicting technical claims remain attributed to their sources; no maker's faith or tradition is inferred from name, origin or patronage.
+
+**Decision:** Keep all three at `[~]`. The Cheikho scan's introduction places the Fakhri sextant at Rayy, and pp. 68-69 preserve an account attributed to al-Biruni after he saw it; the text describes a meridian installation and a one-sixth-circle arc. Its apparatus notes a corrected reading of sixty divisions, while the exact scale precision remains unsettled against Van Brummelen's 10-arcminute account and MacTutor's seconds claim. Neither the Mawsu'a passage nor the Cheikho text establishes al-Khujandi's Sunni tradition, despite the existing person record's `traditions: [sunni]`. The sources do not establish that the mural quadrant is distinct from the Fakhri sextant, and the *shamila* still lacks an inspected primary account. Correct the location to Rayy, preserve the possible overlap, and retain all three leads until identity and attribution requirements are met.
+
+**Touches:** `docs/inventions/queue.yaml`, `docs/inventions/research.md`, and the external source registry; no museum data or prose change.
+
+## D-010 — Keep al-Farghani's astronomy concepts as leads (5 November 2026)
+
+**Question:** Do the 15 queue leads derived from al-Farghani's astronomy concepts establish 15 inventions?
+
+**Rule applied:** Section 3 treats scientific concepts as leads, not automatic invention claims. A record needs a source-backed distinct contribution and a maker whose Muslim and Sunni basis is recorded in the person record.
+
+**Decision:** Keep the 15 candidates at `[~]`. The cited 1669 edition and the existing work record establish that the treatise discusses eclipses, the zodiac, epicycles and eccentric orbs, celestial motions, heliacal rising, parallax, the lunar year, stars, solstices and equinoxes, distances and sizes; they do not establish that al-Farghani originated each topic. The lunar-year arithmetic and fixed-star motion warrant comparison with earlier sources, but neither is promoted on the current evidence. `person/al-farghani` has no `faith` block, so do not create invention records until both contribution and maker eligibility are supported.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-011 — Keep the qibla-methods lead unresolved (5 November 2026)
+
+**Question:** Does al-Umari's account establish a Muslim invention of determining the qibla by stars, winds, mountains or rivers?
+
+**Rule applied:** A method may qualify, but a queue concept is not an invention without an attributable maker or a specifically documented Muslim contribution; cited source passages must also be verified.
+
+**Decision:** Keep the candidate at `[~]`. The concept cites al-Umari's 1924 edition for four methods, but its source record says the passages were read from OCR and not checked against the images. The account describes practices of multiple lands and names no maker or specific innovation. Verify the scan and trace a maker/contribution before considering a record.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-012 — Scope the chess lead to attributed variants (5 November 2026)
+
+**Question:** Can chess itself, or one of its variants reported in Muslim sources, enter the browser as a Sunni Muslim invention?
+
+**Rule applied:** The browser requires a Muslim maker and Sunni basis, and distinguishes an invention from the transmission or description of an older game. A documented variant may be a separate lead if its maker and contribution can be verified.
+
+**Decision:** Do not treat chess as a Muslim-origin invention. Encyclopaedia Iranica and TDV trace the game to Indian antecedents and its early passage through Persia into Muslim societies. Keep only the specific variant lead open: OCR of al-Mas'udi's *Muruj al-dhahab* calls the seven-by-eight *jawarihiyya* form newly devised in the author's time but does not name its maker; the OCR has not been checked against the scan. Neither al-Mas'udi's nor al-Suli's existing person record contains a faith basis. The candidate remains `[~]` pending a named maker, the specific contribution, and Sunni eligibility.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-013 — Exclude five unrelated concept signals (5 November 2026)
+
+**Question:** Do the *kadhib*, *luzum*, *qadar*, *ri'aya* or Yawm Arafa concepts describe inventions or transmissions for this browser?
+
+**Rule applied:** A census hit is only a lead. The queue excludes material that does not describe a created invention, improvement, production method, institution or transmission, with a source-backed reason for each exclusion.
+
+**Decision:** Mark all five `[-]`. Their cited records describe, respectively, a legal and moral category, a legal term, a creed doctrine, a spiritual and ethical station, and a pilgrimage day with its rulings. None identifies a created technology or cultural form within the browser's scope. Keep their source records in the museum; the exclusion applies only to this invention queue.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-014 — Keep khalwa and Nasta'liq as unresolved cultural leads (5 November 2026)
+
+**Question:** Can the historical development of Sufi khalwa or Nasta'liq script be attributed to an eligible Sunni Muslim maker?
+
+**Rule applied:** A cultural practice or form can be considered, but inclusion still requires a specific, sourced contribution and a source-backed Sunni maker; a gradual or legendary attribution must remain explicit and contested.
+
+**Decision:** Keep both at `[~]`. The khalwa source describes later retreat practices without naming an originator or dating a particular method. The Nasta'liq reference describes gradual development from naskh and ta'liq, alongside a legend naming Mir Ali Tabrizi; the existing Mir Ali record has no `faith` block. Do not select one attribution or create an invention record until the contribution and maker eligibility are supported.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-015 — Exclude seven unrelated museum census signals (5 November 2026)
+
+**Question:** Do the two passage records and five work records identify inventions or transmissions within the browser's scope?
+
+**Rule applied:** Museum census hits are leads only. Exclude a record-linked signal when its cited source identifies a different kind of work and no specific invention, improvement, production method or transmission.
+
+**Decision:** Mark all seven `[-]`. Arba'un 5 is a religious-practice hadith record, Qur'an 2:108 is a canonical passage record, the two *Aqida* works are creed treatises, and the three lecture/television series concern historical narrative, religious biography or the speaker's scientific-miracle interpretations. Their existing sources establish these identities, not an invention claim. The exclusions apply only to this queue; no museum record is changed.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-016 — Exclude the generic chess-transmission lead (5 November 2026)
+
+**Question:** Does the game's early passage into Muslim societies establish a qualifying Muslim transmission record?
+
+**Rule applied:** A transmission is in scope only when a Muslim transmitter's specific act is itself the record; general diffusion of an inherited game is not a Muslim invention.
+
+**Decision:** Mark `chess-transmission` `[-]`. TDV and Encyclopaedia Iranica trace chess from Indian antecedents through Persia into Muslim societies but do not identify a discrete Muslim transmitter's act or a specific adaptation in this lead. Keep the separately scoped *jawarihiyya* variant at `[~]` pending verification of its maker, contribution and Sunni basis.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-017 — Keep waqf as a historical-development lead (5 November 2026)
+
+**Question:** Does the current waqf lead support a comparison with the English trust or a single invention attribution?
+
+**Rule applied:** Do not imply institutional equivalence or a singular inventor without source-backed evidence; keep gradual institutional development distinct from a specific contribution.
+
+**Decision:** Keep the candidate at `[~]` but remove the English-trust comparison from its label and flags. The TDV entry describes waqf as developing over time from individual endowments and does not identify a single inventor or establish the proposed comparison. Verify a specific early contribution and eligible maker before considering a record.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-018 — Keep barid as a possible Umayyad systematization (5 November 2026)
+
+**Question:** Does Mu'awiya's organization of the barid qualify as an original invention or a specific Muslim improvement?
+
+**Rule applied:** Distinguish an original invention from adaptation of earlier systems; require a source-backed contribution and maker eligibility before promotion.
+
+**Decision:** Keep the candidate at `[~]` as a possible systematization/improvement, not an original invention. TDV attributes the first systematic Umayyad postal organization and the added intelligence function to Mu'awiya, while Iranica traces courier networks to Achaemenid and Sasanian antecedents and notes Byzantine influence. The exact institutional change and the source-backed Sunni eligibility basis still need verification. The Cambridge repository's thesis file is padlocked and was not used.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-019 — Narrow the minaret lead to the Fustat mosque episode (5 November 2026)
+
+**Question:** Does the early minaret lead establish that Maslama ibn Mukhallad invented the minaret as an architectural form?
+
+**Rule applied:** Distinguish an original form from adaptation of earlier structures and distinguish a patron or organizer from the maker. A queue lead also needs a source-backed Sunni basis for its named maker before promotion.
+
+**Decision:** Narrow the lead to the minarets attributed to Maslama's expansion of the Mosque of Amr at Fustat, and link the existing Maslama and mosque records. TDV reports minarets added to the mosque in 53/673; the museum's cited *Futūḥ Miṣr* and Yeomans account describe the expansion and corner towers, with Yeomans reporting Creswell's proposed Roman-tower model. These sources identify an organizer/patron, not the builders, and the Maslama person record has no `faith` block. Keep `[~]`; do not call this the invention of the minaret unless the earlier architectural forms, specific contribution and maker eligibility are established.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-020 — Keep the fountain-pen attribution unresolved (5 November 2026)
+
+**Question:** Does the fountain-pen lead attributed to al-Mu'izz identify a qualifying Muslim maker?
+
+**Rule applied:** Commissioning a device does not establish who made it. A lead remains open until the contribution and the maker's source-backed Muslim and Sunni eligibility are established; inaccessible source text is not treated as evidence.
+
+**Decision:** Keep the candidate at `[~]` and add C. E. Bosworth's 1981 Oxford Academic DOI as a bibliographic lead. The publisher page returned HTTP 403, so the article was not read and its reported account was not used as evidence. Britannica identifies al-Mu'izz as a Fatimid caliph and the Fatimids as Ismaili; if he is asserted as the maker, that would not meet this browser's Sunni inclusion rule. The actual maker and the specific device claim remain unverified.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-021 — Narrow the tiraz lead to the inscription shift (5 November 2026)
+
+**Question:** Does the tiraz lead establish a Muslim invention of textile production?
+
+**Rule applied:** Separate an inherited craft from a specifically evidenced adaptation, and distinguish the ruler who orders a policy from the craftsperson who makes an object. The named maker still needs a source-backed Sunni basis.
+
+**Decision:** Narrow the lead to the reported Umayyad shift from Greek to Arabic inscriptions on tiraz and link the existing Abd al-Malik ibn Marwan person record. TDV describes earlier Persian and Byzantine textile precedents and associates the inscription change with Abd al-Malik, but this does not establish a new textile-making technique or identify the makers. His person record has no `faith` block. Keep `[~]` pending evidence for the specific adaptation, its maker and eligibility.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-022 — Keep the Greek-fire adaptation lead unresolved (5 November 2026)
+
+**Question:** Does the current lead identify a specific Muslim adaptation of Byzantine Greek fire, with an eligible maker?
+
+**Rule applied:** A general claim of transmission or use is insufficient without a defined Muslim act or improvement, a named maker and a source-backed Sunni basis. Do not use inaccessible or unauthorized source copies as evidence.
+
+**Decision:** Keep the candidate at `[~]` and add John Haldon's 2006 Cambridge chapter as a bibliographic lead. Cambridge's contents record verifies the chapter citation, but its full text was not accessed; the available Internet Archive scan is an unofficial community upload whose authorization could not be established, so it and its OCR were not used. No specific adaptation, maker or date has been established in this screen.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-023 — Keep the three early bimaristan claims separate (5 November 2026)
+
+**Question:** Do Rufayda's medical tent, al-Walid's Damascus facility and Harun al-Rashid's Baghdad bimaristan establish a single early hospital invention?
+
+**Rule applied:** Do not merge distinct claims or dates into a “first hospital” narrative. Each candidate must identify the specific medical or institutional contribution, distinguish patron from practitioner, represent earlier models and contributors, and establish maker eligibility from sources.
+
+**Decision:** Keep the three leads separate and at `[~]`, linked to the existing Rufayda, al-Walid and Harun al-Rashid person records. TDV's bimaristan entry describes three different cases: a tent for wounded people, a Damascus facility for lepers and blind people, and a Baghdad hospital modeled on Jundishapur. The dates and institution types are not interchangeable, and no screen here establishes a discrete invention or decisive improvement by an eligible named maker.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-024 — Keep early timekeeping leads specific and unresolved (5 November 2026)
+
+**Question:** Do the mosque gnomon/sundial and Umayyad/Fatimid court-clock leads establish an original Muslim timekeeping invention?
+
+**Rule applied:** Distinguish an inherited instrument or its use from a documented Muslim improvement, and identify the specific instrument, maker and date before promotion.
+
+**Decision:** Keep both candidates at `[~]`. TDV's “SAAT” and “GÜNEŞ SAATİ” articles discuss earlier Egyptian, Babylonian and Greek timekeeping traditions alongside later Islamic use and particular refinements, but the screened passages do not identify a maker for the proposed early mosque installation or establish an original invention. Require a defined Muslim contribution; split the clock lead by period and instrument before assigning any attribution.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-025 — Keep hisba open only for a specific institutional change (5 November 2026)
+
+**Question:** Does the hisba and market-inspector lead identify a Muslim invention?
+
+**Rule applied:** An institution or office can qualify only through a documented creation, adaptation or improvement with an attributable, eligible maker; naming a role alone is insufficient.
+
+**Decision:** Keep the candidate at `[~]`. The registered TDV hisba entry supplies institutional and legal context but does not establish a single inventor or a specific early change by a named maker. Do not equate the existence of market oversight with invention of the institution.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-026 — Keep the al-Razi clinical distinction as a lead (5 November 2026)
+
+**Question:** Does the current evidence establish that al-Razi first distinguished smallpox from measles as an eligible Sunni Muslim maker?
+
+**Rule applied:** A popular-source claim is a lead only; establish priority from medical sources and the named maker's Muslim/Sunni basis from the person record or reliable biography before promotion.
+
+**Decision:** Keep the candidate at `[~]` and link `person/al-razi-abu-bakr`. The existing person record repeats the priority claim from the popular *Al-Mubdi'un* program, but has no `faith` block; the primary *Kitab al-Judari wa-l-Hasba* and comparative medical history were not read in this screen. Do not treat the claim as established or infer the maker's faith.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-027 — Keep al-Zahrawi's surgical leads unverified (5 November 2026)
+
+**Question:** Do the catgut-suture and surgical-instrument leads establish a specific invention by an eligible Sunni maker?
+
+**Rule applied:** Verify the primary passage and earlier use before assigning novelty; the named maker must have a source-backed Muslim/Sunni basis. A census or popular claim does not replace those checks.
+
+**Decision:** Keep the two candidates at `[~]` with separate verification flags. No existing Abu al-Qasim al-Zahrawi person record was found in the repository, and this screen did not read *al-Tasrif* or a scholarly medical-history source. Do not promote the general claims about catgut or the treatise's instrument illustrations to invention records until the specific contribution, comparison and maker eligibility are supported.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-028 — Retain Ammar's hollow needle as a primary-source lead (5 November 2026)
+
+**Question:** Does the primary text establish the hollow cataract needle as an eligible Sunni Muslim invention?
+
+**Rule applied:** A maker's first-person priority claim is evidence of attribution, not independent proof of priority. Verify the text against the page image, compare earlier surgery, and establish the maker's source-backed Muslim/Sunni basis before promotion.
+
+**Decision:** Keep the candidate at `[~]` and add Max Meyerhof's 1937 Wellcome Library edition as a primary-source lead. Visual inspection of the Spanish translation at printed pp. 19–21 confirms that Ammar attributes to himself the devising and use of a hollow cataract needle, claims no one had operated with it before him, and describes its hollow channel and triangular openings; a manuscript note gives Tiberias/Baghdad variants. An accessible third-party extract of the EI3 entry reports that later sources repeat Ammar's claim without independent evidence and that medieval accounts dispute whether this operation could be performed; official access to that entry was not verified, so it remains a research lead only. The Arabic facsimile has not been compared with the translation, and neither independent priority nor the maker's faith/tradition is established. Do not write an invention record yet.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum data or prose change.
+
+## D-029 — Refine the barid improvement question (5 November 2026)
+
+**Question:** Does the source evidence establish a specific change to the barid system, and is Mu'awiya's maker eligibility ready for promotion?
+
+**Rule applied:** Record an evidenced adaptation or improvement with its precursor; do not promote a candidate unless the maker's Muslim/Sunni basis is cited in the person's `faith` block.
+
+**Decision:** The full TDV “Berîd” entry establishes the attributed change within early Islamic postal practice: earlier caliphs used official couriers, while Mu'awiya established the first systematic Umayyad postal organization and added an intelligence function; Abd al-Malik later developed it further. Iranica documents Achaemenid and Sasanian courier networks and Byzantine influence, but the screened sources do not compare those earlier systems' intelligence functions. Replace the broad queue flag with `compare-intelligence-function-with-earlier-postal-systems`; keep the candidate at `[~]` pending that comparison and the source-backed maker basis. The existing Mu'awiya `faith` entry has no source list, and its related `source/ibn-hajar-isaba` record is draft with edition details unconfirmed. Do not infer eligibility from his Companion role.
+
+**Touches:** `docs/inventions/queue.yaml`, `docs/inventions/research.md` and this decision log; no museum data or prose change.
+
+## D-030 — Exclude six non-invention census signals (5 November 2026)
+
+**Question:** Do the linked early-chronology museum records identify an invention lead?
+
+**Rule applied:** A person, event, or religious narrative is not an invention signal without a specific created invention, improvement, production method, or transmission. Record exclusions with sources and leave the underlying museum records untouched.
+
+**Decision:** Exclude the queue signals for Amr ibn al-As, al-Zubayr ibn al-Awwam, the first pledge of al-Aqaba, the re-excavation of Zamzam, the prostration at surat al-Najm, and Aisha. Their linked records document political/military roles, a pledge and teaching mission, a pre-Islamic excavation of an existing well, a religious narrative, and scholarship/transmission, respectively; none establishes a specific qualifying invention. The excluded entries retain their linked museum records and source citations.
+
+**Touches:** `docs/inventions/queue.yaml`, `docs/inventions/research.md` and this decision log; no museum data or prose change.
+
+## D-031 — Exclude generic kohl and miswak practices (5 November 2026)
+
+**Question:** Do the broad kohl-cosmetic and miswak leads identify inventions made by eligible Sunni Muslim makers?
+
+**Rule applied:** An inherited practice is not attributed as a Muslim invention without evidence of a specific Muslim-created contribution and a named, eligible maker. Exclusions must be supported by defined sources.
+
+**Decision:** Exclude the generic kohl and miswak candidates. The open-access Riesmeier et al. article states that kohl has been used since at least 5000 BCE and analyzes ancient Egyptian containers; the King Saud University page for al-Sadhan's review reports chewing-stick use in Babylonia about 7,000 years ago and later among Greek, Roman and Egyptian societies. Neither source identifies a specific Muslim invention or maker. If a distinct, source-backed Muslim refinement is found later, it must be queued as a separate candidate. At the time of D-031, keep the turban candidate at `[~]` pending its separate screen; D-032 records the subsequent source-based decision.
+
+**Touches:** two new source records in `data/source/`, two exclusions in `docs/inventions/queue.yaml`, and `docs/inventions/research.md`; no existing museum person or practice record changed.
+
+## D-032 — Exclude the generic turban lead (5 November 2026)
+
+**Question:** Does the broad turban lead identify a Sunni Muslim invention?
+
+**Rule applied:** A garment with pre-Islamic antecedents is not attributed as a Muslim invention without evidence of a specific Muslim-created form, production method or other improvement and a named eligible maker.
+
+**Decision:** Exclude the generic turban candidate. The TDV İslâm Ansiklopedisi “SARIK” entry traces wrapped headwear to ancient times, cites Babylonian and Persian use, and says the turban was known among Arabs before Islam. This closes only the broad garment lead; any independently sourced Muslim refinement or distinctive form must be queued separately.
+
+**Touches:** `data/source/tdv-sarik.yaml`, `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no existing museum clothing or person record changed.
+
+## D-033 — Keep Rufayda's tent as an unresolved institutional lead (5 November 2026)
+
+**Question:** Does the account of Rufayda al-Aslamiyya's tent establish an invention or medical institution attributable to her?
+
+**Rule applied:** A hospital or medical practice may qualify, but the source chain, specific contribution and meaning of “first” must be clear before writing an invention record. Attribute historical claims to their sources and distinguish temporary care tents from permanent hospitals.
+
+**Decision:** Keep the candidate at `[~]`. The TDV “BÎMÂRİSTAN” entry explicitly calls Rufayda's tent during the Battle of the Trench the first Islamic bimaristan and a mobile war hospital, citing Ibn Hisham (II, p. 239) and Ahmad Isa (p. 9). The same entry later reports al-Maqrizi's claim that al-Walid established the first Islamic hospital in 88/707. Rufayda's existing person record contains a Sunni faith field with `basis: tradition`; the unresolved question is the tent's institutional novelty and how the different “first” claims are defined. The TDV-cited Ibn Hisham passage was not independently verified. The available OCR for a different Wüstenfeld edition covers juz' 4 (7–11 AH), not the Battle of the Trench, and cannot verify this citation. Do not promote or exclude the candidate on the current evidence.
+
+**Touches:** `data/source/tdv-bimaristan.yaml`, `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum person record changed.
+
+## D-034 — Exclude Ibn Taymiyya's generic person-census signal (5 November 2026)
+
+**Question:** Does the generic census hit for Ibn Taymiyya identify a specific invention lead?
+
+**Rule applied:** A person-record match is only a discovery signal; exclude it when the linked record and its cited sources identify no specific invention, improvement, production method or transmission in scope.
+
+**Decision:** Exclude this queue signal only. The linked record presents Ibn Taymiyya as a Hanbali jurist and theologian and documents his creed work and historical roles; this candidate names no technical or cultural contribution. The record remains unchanged, and the exclusion makes no claim about the full extent of his scholarship.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum person or work record changed.
+
+## D-035 — Exclude Kamal Khujandi's timekeeping census signal (5 November 2026)
+
+**Question:** Does the generic timekeeping census hit for Kamal Khujandi identify a relevant invention contribution?
+
+**Rule applied:** A person-record match is only a discovery signal; exclude it when the linked record and its cited sources identify no specific invention, improvement, production method or transmission in scope.
+
+**Decision:** Exclude this queue signal only. Paul E. Losensky's Encyclopaedia Iranica entry describes Khujandi as a Persian poet and Sufi shaikh, and discusses his khanqah, disciples and divan; it identifies no timekeeping or other specific invention contribution. The exclusion does not treat Sufism as disqualifying and does not alter Khujandi's person record.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum person or work record changed.
+
+## D-036 — Exclude Ulubatlı Hasan's generic person-census signal (5 November 2026)
+
+**Question:** Does the generic timekeeping census hit for Ulubatlı Hasan identify a specific invention contribution?
+
+**Rule applied:** A person-record match is only a discovery signal; exclude it when the linked record and its cited sources identify no specific invention, improvement, production method or transmission in scope.
+
+**Decision:** Exclude this queue signal only. The linked biography concerns Hasan's contested historicity and his reported role as Sultan Mehmed II's standard-bearer during the conquest of Constantinople; it identifies no timekeeping or other invention contribution. The queue exclusion does not resolve the historical debate or alter the person record.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum person record changed.
+
+## D-037 — Exclude the Alpujarras Rebellion event-census signal (5 November 2026)
+
+**Question:** Does the generic timekeeping event-census hit for the Alpujarras Rebellion identify a specific invention?
+
+**Rule applied:** An event-record match is only a discovery signal; exclude it when the linked event and cited account identify no particular invention, technical change, production method or transmission.
+
+**Decision:** Exclude this queue signal only. The linked event account describes a political and military revolt and its planning, but names no particular technical or cultural invention, improvement, or transmission. This does not claim that the revolt had no military innovation; it closes only this generic event hit, which made no such claim.
+
+**Touches:** `docs/inventions/queue.yaml` and `docs/inventions/research.md`; no museum event record changed.
