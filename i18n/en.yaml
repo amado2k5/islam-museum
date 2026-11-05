@@ -267,6 +267,27 @@ class:
   listing: Listing
   screen: Screening Room
   job: "Job"
+  invention: Invention
+inventionDomains:
+  astronomy-instruments: Astronomy and its instruments
+  mathematics: Mathematics and computation
+  medicine-surgery: Medicine and surgery
+  pharmacy-chemistry: Pharmacy, chemistry and distillation
+  optics-physics: Optics and physics
+  mechanics-automata: Mechanics, automata and clocks
+  water-agriculture: Water, irrigation and agriculture
+  navigation-geography: Navigation, cartography and geography
+  architecture-building: Architecture and building techniques
+  materials-industry: Materials and industry
+  military: Military technology
+  food-drink: Food, drink and the table
+  music-instruments: Music and instruments
+  timekeeping: Timekeeping
+  institutions-systems: Institutions and systems
+  everyday-life: Everyday life
+  modern-science: Modern science
+  modern-technology: Modern technology
+  modern-medicine: Modern medicine and biotechnology
 search:
   title: Search
   placeholder: Search the museum
@@ -1112,6 +1133,10 @@ explore:
       title: "Job Browser"
       desc: "The jobs people held in Islamic history, from the judge and the scribe to the craftsman: each job with the people who held it and the places where it was done."
       menu: "Browse jobs and crafts through history"
+    inventions:
+      title: "Muslim Inventions Browser"
+      desc: "Sourced inventions and discoveries, from their makers and settings to the work built on them."
+      menu: "Browse inventions and their chains"
     timemachine:
       title: Time Machine
       menu: Travel to any date, in both calendars
@@ -1719,7 +1744,7 @@ developers:
   col_type: 'Type'
   col_meaning: 'Meaning'
   f_id: 'The record''s permanent identifier, class/slug.'
-  f_class: 'One of the 22 classes: person, place, building, work, event, passage, source…'
+  f_class: 'One of the 23 classes: person, place, building, work, event, passage, source, invention…'
   f_label: 'The record''s name in Arabic, English and Urdu, as available.'
   f_summary: 'A short sourced summary in up to three languages.'
   f_wings: 'Which of the museum''s nine wings the record belongs to (a record may sit in several).'

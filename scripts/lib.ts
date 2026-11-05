@@ -11,7 +11,7 @@ export const rel = (f: string) => relative(ROOT, f);
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention",
 ] as const;
 export type EntityClass = (typeof CLASSES)[number];
 // Languages that have UI strings (i18n/<lang>.yaml); prose may exist in any of them.
@@ -116,7 +116,7 @@ export function parseRef(ref: string): { cls: string; slug: string } {
 }
 
 // ---------- predicates ----------
-export interface Predicate { inverse: string; domain: string[]; range: string[]; label: Localized; inverse_label: Localized; temporal: boolean }
+export interface Predicate { inverse: string; domain: string[]; range: string[]; label: Localized; inverse_label: Localized; temporal: boolean; derived?: boolean }
 export interface ResolvedPredicate { canonical: string; reversed: boolean; pred: Predicate }
 
 export function loadPredicates(): Record<string, Predicate> {
@@ -131,4 +131,25 @@ export function resolvePredicates(preds: Record<string, Predicate>): Map<string,
     if (!m.has(pred.inverse)) m.set(pred.inverse, { canonical: name, reversed: true, pred });
   }
   return m;
+}
+
+export function resolvePredicate(
+  preds: Record<string, Predicate>,
+  name: string,
+  fromClass: string,
+  toClass: string,
+): ResolvedPredicate | undefined {
+  const candidates: ResolvedPredicate[] = [];
+  for (const [canonical, pred] of Object.entries(preds)) {
+    if (canonical === name) candidates.push({ canonical, reversed: false, pred });
+    else if (pred.inverse === name && pred.inverse !== canonical) candidates.push({ canonical, reversed: true, pred });
+  }
+  const includes = (classes: string[], cls: string) => classes.includes("*") || classes.includes(cls);
+  const matches = (candidate: ResolvedPredicate) => candidate.reversed
+    ? includes(candidate.pred.range, fromClass) && includes(candidate.pred.domain, toClass)
+    : includes(candidate.pred.domain, fromClass) && includes(candidate.pred.range, toClass);
+  const matching = candidates.filter(matches);
+  if (matching.length === 1) return matching[0];
+  if (matching.length > 1 || candidates.length > 1) return undefined;
+  return candidates[0];
 }

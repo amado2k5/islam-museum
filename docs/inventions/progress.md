@@ -13,17 +13,22 @@ This file is updated with every merged phase or batch. A merged change is not li
   - Two later `origin/main` refreshes added 38 non-overlapping Tabari content commits through `62ecc19deb`; the merges are `a6039695d1` and `52f2757691`. On the latest tree, the census and validation passed and the full suite passed (19 files, 323 passed, 1 skipped).
   - A third refresh added 20 more non-overlapping Tabari content commits through `2f36c83f6c`, merged as `d2486ef7a0`. The regenerated report now records 208 English/Arabic prose-hit files; validation and the full test suite passed again.
   - Next step: refresh `origin/main` once more before pushing, then open the Phase 0 PR and merge it after CI passes.
+- **5 November 2026 — Phase 1 implementation complete; PR/merge pending.** The branch is `inventions/p1-copilot`, based on refreshed `origin/main` at `daf9b0f70c`. The authorized invention class, enums, predicates, ties, validator, graph derivation, API exports, API metadata and English/Arabic/Urdu labels are implemented. The schema generator has been rerun. `npm run validate` passes; `npm test` passes (20 files, 330 passed, 1 skipped); the focused invention tests pass (7/7); `npm run build` passes (162,965 pages, check-site 0 errors/2 warnings, check-weight 0 over budget, 897 books/0 skipped); and `git diff --check` passes. The generated empty index, dataset, chains, API class list and `llms.txt` links were checked. Final origin refresh, commit, PR and merge remain.
+  - D-004 keeps dates within the existing Julian/Gregorian calendar enum and records Hijri dates in the separate `hijri` field.
+  - D-005 defers `/api/v1/inventions/timeline.json`, which is outside the endpoints approved by D-000.
+  - The Phase 1 submission-impacting note is recorded in the A.5 claims register and DPGA evidence map. A later origin refresh recovered the product release notes through v1.1.0; D-006 sets the Phase 1 block to v1.2.0 and keeps the root package version at 0.1.0, matching origin/main.
+  - The first site build exhausted the local system volume while writing 13 GB of generated pages. The build output was redirected through a temporary `dist` symlink to the prepared external volume; the full build and its checks then passed. Remove that temporary build output and symlink after final artifact verification.
 
 ## Current state
 
-- Phase: 0 — planning.
-- Branch: `inventions/p0-copilot`.
-- Merged batches: none.
-- Downloads: none.
-- Schema/API/site changes: none.
+- Phase: 1 — schema and API foundation (implementation and local gates complete; PR/merge pending).
+- Branch: `inventions/p1-copilot`.
+- Phase 0 is merged; Phase 1 is not yet committed or merged.
+- Downloads: no new downloads for Phase 1.
+- Schema/API changes: implemented and locally validated; no invention records or browser page yet.
 - Worker/workflow changes: none.
 - Deployment: none; do not deploy.
-- Local gates: census, validation, tests and whitespace check pass; repository-wide TypeScript check has the existing failures noted above.
+- Local gates: schema generation, validation, full and focused tests, build, generated-output checks and whitespace check pass.
 
 ## Flags
 

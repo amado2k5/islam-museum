@@ -459,6 +459,39 @@
           }
         }
       }
+    },
+    "inventions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "invention",
+          "relation",
+          "sources"
+        ],
+        "properties": {
+          "invention": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "relation": {
+            "enum": [
+              "first-use",
+              "demonstration",
+              "publication",
+              "patent-granted"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "required": [

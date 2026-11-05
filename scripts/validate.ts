@@ -8,10 +8,27 @@ import { createHash } from "node:crypto";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import edtf from "edtf";
-import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadStubs, p, readYaml, rel, resolvePredicates, type Prose } from "./lib.js";
+import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadStubs, p, readYaml, rel, resolvePredicate, type Prose } from "./lib.js";
 import { hijriToCivil, toJDN } from "./hijri/convert.js";
 
 export interface Issue { level: "error" | "warn"; file: string; msg: string }
+
+const INVENTION_HEADINGS: Record<string, string[]> = {
+  ar: ["الموجز", "ما هو", "العالم قبله", "القصة", "المخترع والمخترعون", "كيف يعمل", "الانتشار", "ما بُني عليه", "ما بُني فوقه",
+    "الأثر في الحياة", "كيف غيّر التاريخ", "من اخترعه حقاً؟", "اليوم", "الشواهد الباقية", "في الثقافة", "للصغار", "المراجع"],
+  en: ["Summary", "What it is", "The world before it", "The story", "The maker(s)", "How it works", "The spread", "What it was built on",
+    "What was built on it", "Impact on daily life", "How it changed history", "Who invented it?", "Today", "Surviving examples", "In culture",
+    "For young readers", "References"],
+  ur: ["خلاصہ", "یہ کیا ہے", "اس سے پہلے کی دنیا", "کہانی", "بنانے والے", "یہ کیسے کام کرتا ہے", "پھیلاؤ", "اس کی بنیاد کیا تھی",
+    "اس پر کیا بنایا گیا", "روزمرہ زندگی پر اثر", "اس نے تاریخ کو کیسے بدلا", "اسے حقیقتاً کس نے ایجاد کیا؟", "آج", "باقی ماندہ شواہد",
+    "ثقافت میں", "بچوں کے لیے", "مراجع"],
+};
+
+export function missingInventionHeadings(lang: string, body: string): string[] {
+  const expected = INVENTION_HEADINGS[lang] ?? [];
+  const actual = new Set([...body.matchAll(/^##\s+(.+?)\s*$/gm)].map((match) => match[1]));
+  return expected.filter((heading) => !actual.has(heading));
+}
 
 const CONFLICT_KINDS = new Set(["war", "campaign", "battle", "skirmish", "raid", "siege", "naval-battle", "revolt", "civil-war", "mutiny", "massacre", "conquest"]);
 const SPATIAL_KINDS = new Set(["battle", "siege", "naval-battle", "campaign", "war", "conquest", "treaty", "migration", "revolt", "massacre", "council", "founding", "raid", "skirmish"]);
@@ -229,13 +246,14 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
   ajv.addSchema(readYamlJson("schema/_base.schema.json"));
   for (const c of CLASSES) ajv.addSchema(readYamlJson(`schema/${c}.schema.json`));
 
-  const predicates = resolvePredicates(loadPredicates());
+  const predicates = loadPredicates();
   const idPatterns = readYaml<Record<string, { pattern: string }>>(p("schema", "external-id-patterns.yaml"));
 
   // ---- load
   const loaded = [...loadEntities(), ...extra];
   const stubs = loadStubs();
   const known = new Set<string>();
+  const entitiesById = new Map<string, any>();
   const stubIds = new Set(stubs.map((s) => s.id));
   const aliasOwner = new Map<string, string>();
   const externalIds = new Map<string, string>();
@@ -249,6 +267,7 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     if (entity.class !== dir) err(file, `class "${entity.class}" must match its directory "${dir}"`);
     if (known.has(entity.id)) err(file, `duplicate id ${entity.id}`);
     known.add(entity.id);
+    entitiesById.set(entity.id, entity);
     for (const a of entity.aliases ?? []) {
       if (aliasOwner.has(a)) err(file, `alias ${a} also claimed by ${aliasOwner.get(a)}`);
       aliasOwner.set(a, entity.id);
@@ -294,7 +313,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (!REF.test(s) || classOf(s) !== "source") err(file, `sources: "${s}" is not a source/<slug> id`);
       else if (!known.has(s)) err(file, `sources: ${s} does not exist (cited sources must exist)`);
     }
-    if (!["source", "dataset", "question", "passage", "media"].includes(entity.class) && own.size === 0) {
+    if (entity.class === "invention" && own.size === 0) err(file, "invention requires at least one defined source");
+    else if (!["source", "dataset", "question", "passage", "media"].includes(entity.class) && own.size === 0) {
       (entity.status?.review === "draft" ? warn : err)(file, "no sources listed (every entity must cite at least one)");
     }
 
@@ -330,8 +350,9 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     // relations
     entity.relations?.forEach((r: any, i: number) => {
       const where = `relations[${i}]`;
-      const rp = predicates.get(r.type);
+      const rp = resolvePredicate(predicates, r.type, entity.class, String(r.target ?? "").split("/")[0]);
       if (!rp) { err(file, `${where}: unknown predicate "${r.type}" (see schema/predicates.yaml)`); return; }
+      if (rp.pred.derived) { err(file, `${where}: ${r.type} is generated from invention fields and cannot be written in relations:`); return; }
       if (!REF.test(r.target ?? "")) { err(file, `${where}: target "${r.target}" is not a class/slug id`); return; }
       if (!resolves(r.target)) err(file, `${where}: target ${r.target} does not exist; add the entity or declare it in data/_stubs.yaml`);
       // a relation written with the inverse name has its domain and range swapped
@@ -349,7 +370,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     const REF_KEYS = new Set(["toward", "participants", "commanders", "passages", "part_of", "parent_period", "parent_concept", "publisher", "broadcaster",
       "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related",
       "host", "occasion", "moderator", "co_speakers", "who", "by",
-      "job", "under", "trained_under", "polity", "broader", "successor_jobs", "bodies", "tools", "workplaces", "outputs", "pir", "practice"]);
+      "job", "under", "trained_under", "polity", "broader", "successor_jobs", "bodies", "tools", "workplaces", "outputs", "pir", "practice",
+      "person", "invention", "via", "examples", "sites", "concepts", "described_in", "image", "diagram", "map"]);
     const walkRefs = (node: any, path: string) => {
       if (!node || typeof node !== "object") return;
       if (Array.isArray(node)) { node.forEach((x, i) => walkRefs(x, `${path}[${i}]`)); return; }
@@ -381,6 +403,94 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       const w = `jobs[${i}]`;
       for (const s of j.sources ?? []) if (!known.has(s)) err(file, `${w}: source ${s} does not exist`);
       if (j.job && clsOf(j.job) !== "job") err(file, `${w}.job: ${j.job} is not a job`);
+    }
+
+    const sourceRefs = (refs: unknown, where: string) => {
+      if (!Array.isArray(refs) || refs.length === 0) {
+        err(file, `${where}: at least one source is required`);
+        return;
+      }
+      for (const source of refs) {
+        if (typeof source !== "string" || classOf(source) !== "source") err(file, `${where}: "${source}" is not a source/<slug> id`);
+        else if (!known.has(source)) err(file, `${where}: ${source} does not exist`);
+      }
+    };
+    const expectedRefClass = (id: unknown, expected: string | string[], where: string) => {
+      if (typeof id !== "string") return;
+      const classes = Array.isArray(expected) ? expected : [expected];
+      if (!classes.includes(classOf(id))) err(file, `${where}: ${id} is not a ${classes.join(" or ")}`);
+    };
+    const list = (value: unknown): any[] => Array.isArray(value) ? value : [];
+    if (entity.class === "invention") {
+      if (!entity.origin?.place && !entity.origin?.polity) err(file, "origin: place or polity is required");
+      if (entity.origin?.place) expectedRefClass(entity.origin.place, "place", "origin.place");
+      if (entity.origin?.polity) expectedRefClass(entity.origin.polity, "polity", "origin.polity");
+      sourceRefs(entity.era?.first_attested?.sources, "era.first_attested.sources");
+
+      for (const [i, maker] of list(entity.makers).entries()) {
+        const where = `makers[${i}]`;
+        expectedRefClass(maker.person, "person", `${where}.person`);
+        sourceRefs(maker.sources, `${where}.sources`);
+        const person = entitiesById.get(maker.person);
+        const faith = Array.isArray(person?.faith) ? person.faith : [];
+        for (const [j, entry] of faith.entries()) {
+          if (entry?.basis) sourceRefs(entry.sources, `${where}.person.faith[${j}].sources`);
+        }
+        const sourcedFaith = faith.filter((entry: any) => entry?.basis && Array.isArray(entry.sources) && entry.sources.length > 0);
+        if (sourcedFaith.length === 0) err(file, `${where}.person: ${maker.person} has no sourced faith basis`);
+        const needsSunniBasis = ["inventor", "co-inventor", "improver", "disputed"].includes(maker.role);
+        if (needsSunniBasis && !sourcedFaith.some((entry: any) => /^sunni(?:-|$)/.test(String(entry.value)))) {
+          err(file, `${where}.person: ${maker.person} has no source-backed Sunni faith entry`);
+        }
+        if (faith.some((entry: any) => entry?.basis === "debated") && !list(person?.perspectives).length) {
+          err(file, `${where}.person: disputed faith needs a sourced perspectives block`);
+        }
+      }
+
+      for (const field of ["precursors", "dependents"] as const) {
+        for (const [i, item] of list(entity[field]).entries()) {
+          const where = `${field}[${i}]`;
+          if (item.invention) expectedRefClass(item.invention, "invention", `${where}.invention`);
+          if (item.external && (!item.external.ar || !item.external.en)) err(file, `${where}.external: both ar and en labels are required`);
+          sourceRefs(item.sources, `${where}.sources`);
+        }
+      }
+      for (const [i, item] of list(entity.spread).entries()) {
+        const where = `spread[${i}]`;
+        expectedRefClass(item.place, "place", `${where}.place`);
+        if (item.via) expectedRefClass(item.via, "journey", `${where}.via`);
+        sourceRefs(item.sources, `${where}.sources`);
+      }
+      for (const [field, expected] of [["described_in", "work"], ["examples", "object"], ["sites", ["building", "place"]], ["concepts", "concept"]] as const) {
+        for (const id of list(entity[field])) expectedRefClass(id, expected, `${field}`);
+      }
+      for (const field of ["image", "diagram", "map"] as const) {
+        const id = entity.media?.[field];
+        if (id) expectedRefClass(id, "media", `media.${field}`);
+      }
+      if (entity.status?.review === "published" && !entity.media?.image) err(file, "media.image is required before an invention can be published");
+      if (entity.spread?.length && !entity.media?.map) err(file, "media.map is required when spread entries exist");
+      if (entity.impact?.significance !== undefined && !entity.impact?.why) err(file, "impact.why is required when impact.significance is set");
+
+      const perspectives = list(entity.attribution?.perspectives);
+      if (["contested", "legend"].includes(entity.attribution?.status) && perspectives.length === 0) {
+        err(file, `attribution.status ${entity.attribution.status} requires sourced perspectives`);
+      }
+      if (entity.attribution?.status === "original" && perspectives.length > 0) {
+        err(file, "attribution.perspectives must be absent or empty when attribution.status is original");
+      }
+      const perspectiveRank = (tradition: string) => (tradition.startsWith("sunni") ? 0 : tradition === "academic" ? 1 : 2);
+      perspectives.forEach((perspective: any, i: number) => {
+        sourceRefs(perspective.sources, `attribution.perspectives[${i}].sources`);
+        if (i === 0 && !String(perspective.tradition).startsWith("sunni")) err(file, "attribution.perspectives must begin with a Sunni perspective");
+        if (i > 0 && perspectiveRank(perspective.tradition) < perspectiveRank(perspectives[i - 1].tradition)) {
+          err(file, `attribution.perspectives[${i}] is out of order: Sunni, academic, then other`);
+        }
+      });
+    }
+    for (const [i, tie] of list(entity.inventions).entries()) {
+      expectedRefClass(tie.invention, "invention", `inventions[${i}].invention`);
+      sourceRefs(tie.sources, `inventions[${i}].sources`);
     }
 
     // ---- provenance layer (docs/sources-policy.md, founder's rule of 15 Oct 2026): the layer records where a thing came
@@ -519,6 +629,7 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     if (d.isFile() && !d.name.endsWith(".md") && !d.name.startsWith(".")) err(rel(join(d.parentPath ?? d.path, d.name)), "content/ holds .md prose only (data belongs in data/<class>/<slug>.yaml)");
   }
   const prose = loadProse();
+  const proseByIdLang = new Map(prose.map((item) => [`${item.lang}:${item.id}`, item]));
   const linkRe = /\[\[([a-z]+\/[a-z0-9-]+)(?:\|[^\]]*)?\]\]/g;
   const citeRe = /\{cite:([a-z0-9-]+)(?:\s[^}]*)?\}/g;
   const seen = new Set<string>();
@@ -547,6 +658,18 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (n && vb && vb.index! < n.index!) warn(pr.file, `non-Sunni view stated before its label: "${sentence.slice(0, 80)}…" (name the community first, docs/scope.md)`);
     }
     if (!/^## /m.test(pr.body)) warn(pr.file, "no section headings");
+  }
+  for (const { entity, file } of loaded) {
+    if (entity.class !== "invention" || entity.status?.review !== "published") continue;
+    for (const lang of PUBLISHED_LANGS) {
+      const proseFile = proseByIdLang.get(`${lang}:${entity.id}`);
+      if (!proseFile) {
+        err(file, `published invention needs content/${lang}/invention/${entity.id.split("/")[1]}.md`);
+        continue;
+      }
+      const missing = missingInventionHeadings(lang, proseFile.body);
+      if (missing.length) err(proseFile.file, `missing required invention headings: ${missing.join(", ")}`);
+    }
   }
   for (const i of checkLeveledReading(prose, loaded)) issues.push(i);
   for (const i of checkCurriculum(loaded)) issues.push(i);

@@ -41,6 +41,8 @@ A second edition of the dossier (21 October 2026) carries the current figures be
 
 26 October 2026 (embed pages): `/{lang}/embed/fact/` and `/{lang}/embed/trail-of-the-week/` are static widget pages third-party sites may embed on their pages — self-contained HTML, inline CSS, no JavaScript, no visitor storage, no tracking, one link back to islam.museum, under 15 KB each. The privacy posture of indicators 7 and 9a is unchanged: embedding sites load museum files; the museum collects nothing. Two items must be closed before the reviewer reaches them: the API URLs (indicator 6) and the licence line plus English and Urdu alt text for the 750 AI illustrations in the art gallery (indicators 2, 8 and 9b). The "available languages" answer in the form said Urdu articles were in progress; 11,742 are now published, so the answer is under-stated, not wrong.
 
+**5 November 2026 — Inventions Browser Phase 1 (pending merge and founder deployment):** indicators 5 and 6 now have implementation evidence in `docs/data/README.md`: the schema lists 23 classes, including the empty `invention` class, and documents `/api/v1/invention/index.json`, `/api/v1/inventions.json` and `/api/v1/inventions/chains.json`. No invention records are included in current totals. These endpoints are build outputs and must not be presented as live until deployment; the submission's 17 October answers and the 21 October figures above remain dated as filed.
+
 ## Renewal
 
 DPG status lasts one year; the DPGA emails before expiry. Each renewal: refresh this map and the dossier's claims register (`unesco-nomination-dossier.md` A.5), regenerate `docs/coverage.md`, and re-read the current Standard for changed wording.

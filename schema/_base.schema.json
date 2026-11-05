@@ -297,7 +297,8 @@
         "dataset",
         "listing",
         "screen",
-        "job"
+        "job",
+        "invention"
       ]
     },
     "aliases": {
@@ -411,6 +412,14 @@
           }
         },
         "map": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "image": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "diagram": {
           "type": "string",
           "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
         }

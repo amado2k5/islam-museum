@@ -267,6 +267,27 @@ class:
   listing: فہرست
   screen: اسکریننگ روم
   job: "پیشہ"
+  invention: ایجاد
+inventionDomains:
+  astronomy-instruments: فلکیات اور اس کے آلات
+  mathematics: ریاضی اور حساب
+  medicine-surgery: طب اور جراحی
+  pharmacy-chemistry: دواسازی، کیمیا اور کشید
+  optics-physics: بصریات اور طبیعیات
+  mechanics-automata: میکانیات، خودکار آلات اور گھڑیاں
+  water-agriculture: پانی، آب پاشی اور زراعت
+  navigation-geography: جہاز رانی، نقشہ سازی اور جغرافیہ
+  architecture-building: فنِ تعمیر اور تعمیراتی طریقے
+  materials-industry: مواد اور صنعت
+  military: عسکری ٹیکنالوجی
+  food-drink: خوراک، مشروبات اور دسترخوان
+  music-instruments: موسیقی اور آلات
+  timekeeping: وقت کی پیمائش
+  institutions-systems: ادارے اور نظام
+  everyday-life: روزمرہ زندگی
+  modern-science: جدید سائنس
+  modern-technology: جدید ٹیکنالوجی
+  modern-medicine: جدید طب اور حیاتیاتی ٹیکنالوجی
 search:
   title: تلاش
   placeholder: عجائب گھر میں تلاش کریں
@@ -1171,7 +1192,7 @@ developers:
   col_type: 'Type'
   col_meaning: 'Meaning'
   f_id: 'The record''s permanent identifier, class/slug.'
-  f_class: 'One of the 22 classes: person, place, building, work, event, passage, source…'
+  f_class: 'One of the 23 classes: person, place, building, work, event, passage, source, invention…'
   f_label: 'The record''s name in Arabic, English and Urdu, as available.'
   f_summary: 'A short sourced summary in up to three languages.'
   f_wings: 'Which of the museum''s nine wings the record belongs to (a record may sit in several).'
@@ -1324,6 +1345,10 @@ explore:
       title: "پیشوں کا براؤزر"
       desc: "اسلامی تاریخ کے پیشے، قاضی اور کاتب سے دستکاروں تک، ہر پیشے کے ساتھ وہ لوگ جو اسے اختیار کرتے تھے اور وہ جگہیں جہاں یہ کام ہوتا تھا۔"
       menu: "تاریخ کے پیشے اور دستکاریاں دیکھیں"
+    inventions:
+      title: "مسلمانوں کی ایجادات کا براؤزر"
+      desc: "ماخذوں سے ثابت ایجادات اور دریافتیں، ان کے بنانے والوں، ماحول اور ان سے آگے بننے والی چیزوں سمیت۔"
+      menu: "ایجادات اور ان کے سلسلے دیکھیں"
     timemachine:
       title: ٹائم مشین
       menu: کسی بھی تاریخ کا سفر، دونوں تقویموں میں

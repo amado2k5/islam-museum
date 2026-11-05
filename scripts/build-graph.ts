@@ -5,13 +5,14 @@ import { fileURLToPath } from "node:url";
 import { MultiDirectedGraph } from "graphology";
 import {
   Entity, LANGS, Localized, loadEnumIds, Prose, dateRange, listFiles, loadEntities, loadPredicates, loadProse, loadStubs, p, rel,
-  resolvePredicates, Range, ROOT,
+  resolvePredicate, Predicate, Range, ROOT,
 } from "./lib.js";
 import { gitDates } from "./git-dates.js";
 
 export interface Edge {
   from: string; to: string; type: string; inverse: boolean;
-  start?: any; end?: any; role?: string; note?: string; sources?: string[]; confidence?: string; perspective?: string;
+  start?: any; end?: any; via?: string; role?: string; note?: string; sources?: string[]; confidence?: string; perspective?: string;
+  derived?: boolean;
 }
 /** `updated`: YYYY-MM-DD of the last commit that touched this prose file (scripts/git-dates.ts). */
 export interface ProseDoc { sections: { heading: string; markdown: string }[]; frontmatter: Record<string, any>; updated: string }
@@ -70,9 +71,77 @@ function splitSections(pr: Prose, updated: string): ProseDoc {
   return { sections, frontmatter: pr.frontmatter, updated };
 }
 
+const inventionRolePredicate: Record<string, string> = {
+  inventor: "invented",
+  "co-inventor": "invented",
+  improver: "improved",
+  describer: "described",
+  transmitter: "transmitted",
+  translator: "transmitted",
+  disputed: "invented",
+};
+
+export function deriveInventionEdges(
+  entities: Entity[],
+  predicates: Record<string, Predicate>,
+  nodeIds: ReadonlySet<string>,
+): Edge[] {
+  const edges = new Map<string, Edge>();
+  const add = (from: string, to: string, type: string, meta: Partial<Edge>) => {
+    const predicate = predicates[type];
+    if (!predicate || !nodeIds.has(from) || !nodeIds.has(to)) return;
+    const forward: Edge = { from, to, type, inverse: false, derived: true, ...meta };
+    const inverse: Edge = { from: to, to: from, type: predicate.inverse, inverse: true, derived: true, ...meta };
+    for (const edge of [forward, inverse]) {
+      const key = `${edge.from}|${edge.to}|${edge.type}`;
+      const previous = edges.get(key);
+      if (!previous) edges.set(key, edge);
+      else {
+        const sources = [...new Set([...(previous.sources ?? []), ...(edge.sources ?? [])])].sort();
+        edges.set(key, { ...previous, sources });
+      }
+    }
+  };
+  const makerEdge = (person: string, invention: string, role: string, meta: Partial<Edge>) => {
+    const type = inventionRolePredicate[role];
+    if (type) add(person, invention, type, { ...meta, role });
+  };
+  const internalLink = (item: any, from: string, to: string) => {
+    if (item?.invention) add(from, to, "built_on", { note: item.note, sources: item.sources });
+  };
+
+  for (const entity of entities) {
+    if (entity.class === "invention") {
+      for (const maker of entity.makers ?? []) makerEdge(maker.person, entity.id, maker.role, {
+        start: maker.start, end: maker.end, role: maker.role, note: maker.note, sources: maker.sources,
+      });
+      for (const item of entity.precursors ?? []) internalLink(item, entity.id, item.invention);
+      for (const item of entity.dependents ?? []) internalLink(item, item.invention, entity.id);
+      for (const item of entity.spread ?? []) add(entity.id, item.place, "spread_to", {
+        start: item.start, via: item.via, note: item.note, sources: item.sources,
+      });
+      for (const work of entity.described_in ?? []) add(work, entity.id, "described", { sources: entity.sources });
+      for (const object of entity.examples ?? []) add(object, entity.id, "example_of", { sources: entity.sources });
+    }
+
+    for (const tie of entity.inventions ?? []) {
+      if (entity.class === "person") makerEdge(entity.id, tie.invention, tie.role, {
+        start: tie.start, end: tie.end, role: tie.role, note: tie.note, sources: tie.sources,
+      });
+      if (entity.class === "object" && tie.relation === "example-of") add(entity.id, tie.invention, "example_of", { role: tie.relation, sources: tie.sources });
+      if (entity.class === "work" && ["describes", "first-describes", "patent-of"].includes(tie.relation)) {
+        add(entity.id, tie.invention, "described", { role: tie.relation, sources: tie.sources });
+      }
+      if (entity.class === "place" && tie.relation === "spread-to") add(tie.invention, entity.id, "spread_to", {
+        start: tie.start, sources: tie.sources,
+      });
+    }
+  }
+  return [...edges.values()];
+}
+
 export function compile(): Compiled {
-  const preds = loadPredicates();
-  const resolved = resolvePredicates(preds);
+  const predicates = loadPredicates();
   const loaded = loadEntities();
   const entities = loaded.map((x) => x.entity);
   const stubs = loadStubs();
@@ -114,14 +183,16 @@ export function compile(): Compiled {
   const add = (e: Edge) => { const k = `${e.from}|${e.to}|${e.type}`; if (!edges.has(k)) edges.set(k, e); };
   for (const e of entities) {
     for (const r of e.relations ?? []) {
-      const rp = resolved.get(r.type);
+      const rp = resolvePredicate(predicates, r.type, e.class, String(r.target ?? "").split("/")[0]);
       if (!rp || !nodes.has(r.target)) continue; // validate.ts reports these
+      if (rp.pred.derived) continue;
       const [src, dst] = rp.reversed ? [r.target, e.id] : [e.id, r.target];
       const { type: _t, target: _g, ...meta } = r;
       add({ from: src, to: dst, type: rp.canonical, inverse: false, ...meta });
       add({ from: dst, to: src, type: rp.pred.inverse, inverse: true, ...meta });
     }
   }
+  for (const edge of deriveInventionEdges(entities, predicates, new Set(nodes.keys()))) add(edge);
   for (const e of edges.values()) { g.addEdge(e.from, e.to, { type: e.type }); }
   for (const n of nodes.values()) n.degree = g.degree(n.id);
 
