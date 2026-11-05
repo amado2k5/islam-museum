@@ -3799,14 +3799,16 @@ candidates:
     flags: [verify-specific-institutional-change, distinguish-role-from-invention, identify-eligible-maker]
   - id: waqf-and-english-trust-comparison
     label: "The historical development of waqf as an institution"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: institutions-systems
     era: first-century
     from: founder-supplied-lead
+    records: ["invention/waqf", "person/umar-ibn-al-khattab", "source/tdv-vakif", "media/hurrem-sultan-waqfiyya-tiem-2192", "media/diagram-waqf"]
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
-      - "TDV İslâm Ansiklopedisi, VAKIF: https://islamansiklopedisi.org.tr/vakif (lead/reference)"
+      - "source/tdv-vakif §fiqh, §history"
+      - "source/sahih-al-bukhari-bugha scan pp. 1207, 1222–1223, 1226"
     flags: [verify-specific-early-development-and-attribution]
   - id: museum-record-concept-islam-and-the-rise-of-civilisation
     label: "Museum lead for Why Islam rose by its own merits"

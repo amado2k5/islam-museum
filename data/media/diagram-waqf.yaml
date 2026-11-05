@@ -1,0 +1,35 @@
+id: media/diagram-waqf
+class: media
+kind: illustration
+label:
+  ar: "رسم: ما بُني عليه الوقف وما بُني عليه"
+  en: "Diagram: what waqf rests on and what was built on it"
+  ur: "خاکہ: وقف کس پر قائم ہے اور اس پر کیا بنا"
+summary:
+  ar: "رسم تخطيطي بسيط يرسمه الموقع وقت البناء من بيانات السجل: في الوسط الوقف وعمر بن الخطاب، وعن جانب الإنفاق والصدقة في القرآن والسنة، وعن الجانب الآخر ما جاء بعده من ديوان الأحباس وديوان البر وأقدم وقفية مصرية والمدارس الوقفية والعمارات والمستشفيات ووقف النقود العثماني ونظارة الأوقاف ووزاراتها الحديثة."
+  en: "A simple schematic drawn by the site at build time from the record's data: waqf and Umar ibn al-Khattab in the middle, spending and charity in the Qur'an and Sunna on one side, and on the other what followed: the diwans of ahbas and birr, the oldest Egyptian deed, the waqf madrasa, the soup kitchens and hospitals, the Ottoman cash waqf and the ministries of awqaf."
+  ur: "سائٹ کی تعمیر کے وقت ریکارڈ کے ڈیٹا سے بننے والا ایک سادہ خاکہ: درمیان میں وقف اور عمر بن الخطاب، ایک طرف قرآن و سنت میں انفاق اور صدقہ، اور دوسری طرف بعد میں آنے والی چیزیں: دیوان الاحباس اور دیوان البر، مصر کی سب سے پرانی وقفیہ، وقفی مدرسہ، لنگر خانے اور ہسپتال، عثمانی نقدی وقف اور اوقاف کی وزارتیں۔"
+license: CC0
+creator: "islam.museum"
+depicts:
+- invention/waqf
+alt:
+  ar: "ثلاثة أعمدة بينها سهمان. العمود الأول بعنوان: بُني على، وفيه مربع واحد: الإنفاق في سبيل الله والصدقة في القرآن والسنة. في الوسط مربع بإطار سميك: الوقف، عمر بن الخطاب. العمود الأخير بعنوان: بُني عليه، وفيه ستة مربعات: ديوان الأحباس الأموي وديوان البر العباسي، وأقدم وقفية لأرض زراعية في مصر سنة 307هـ، والمدارس الوقفية، والعمارات والمستشفيات والسبل، ووقف النقود العثماني وفتوى أبي السعود، ونظارة الأوقاف العثمانية ووزارات الأوقاف الحديثة."
+  en: "Three columns joined by two arrows. The first column, headed Built on, holds one box: spending in the way of God and charity in the Qur'an and the Sunna. In the middle a box with a thick border: Waqf, Umar ibn al-Khattab. The last column, headed Built on it, holds six boxes: the Umayyad diwan of ahbas and the Abbasid diwan of birr; the oldest known deed endowing farmland in Egypt, 307 AH; the waqf madrasa; waqf soup kitchens, hospitals, fountains and public works; the Ottoman cash waqf and Ebussuud's fatwa; the Ottoman Ministry of Imperial Waqfs and modern ministries of awqaf."
+  ur: "تین کالم جنہیں دو تیر جوڑتے ہیں۔ پہلا کالم، جس کا عنوان ہے: جس پر بنا، اس میں ایک خانہ ہے: قرآن و سنت میں اللہ کی راہ میں خرچ اور صدقہ۔ درمیان میں موٹے کنارے والا خانہ: وقف، عمر بن الخطاب۔ آخری کالم، جس کا عنوان ہے: جو اس پر بنا، اس میں چھ خانے ہیں: اموی دیوان الاحباس اور عباسی دیوان البر؛ مصر میں زرعی زمین کی سب سے پرانی وقفیہ، 307ھ؛ وقفی مدرسہ؛ وقفی لنگر خانے، ہسپتال، سبیلیں اور رفاہی کام؛ عثمانی نقدی وقف اور ابو السعود کا فتویٰ؛ عثمانی نظارتِ اوقاف اور جدید وزارتِ اوقاف۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time from the invention's precursors and dependents)"
+  version: "1"
+  date: "2026-11-05"
+sources:
+- source/tdv-vakif
+- source/sahih-al-bukhari-bugha
+status:
+  review: published
+  completeness: 2
+  generated_by: "Copilot SDK in VS Code"
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b12"
+  source: "TDV İslâm Ansiklopedisi, VAKIF, vol. 42 (2012), web edition; Sahih al-Bukhari (al-Bugha ed.) scan p. 1207"
