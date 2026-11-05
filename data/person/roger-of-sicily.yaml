@@ -8,6 +8,17 @@ summary:
 wings: [people]
 roles: [ruler]
 periods: [period/abbasid-fragmentation]
+faith:
+  - value: christian
+    basis: documented
+    note: "Al-Idrisi, writing at his court, calls him 'al-nasir lil-milla al-nasraniyya', the champion of the Christian religion (Nuzhat al-mushtaq, Cairo 2002 ed., scan p. 4)."
+    sources: [source/nuzhat-al-mushtaq-2002]
+inventions:
+  - invention: invention/tabula-rogeriana
+    role: commissioner
+    place: place/palermo
+    note: "In al-Idrisi's account he gathered the geographers' books and the travellers, compared their reports for some fifteen years, tested distances on a drawing board, and ordered the silver disc of the seven climes and the book to accompany it."
+    sources: [source/nuzhat-al-mushtaq-2002]
 regions: [andalus-europe]
 died:
   edtf: "1153~"
@@ -27,5 +38,5 @@ provenance:
     model: unknown
     run: explorer-sixth-40-stories-2026-11-04
     source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
-sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab]
+sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab, source/nuzhat-al-mushtaq-2002]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
