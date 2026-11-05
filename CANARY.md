@@ -29,6 +29,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:160, 2:161 and 2:162 gain al-Tabari commentary (volume 3, pp. 259-264): the exception for those who repent and make clear (and whom he names), who is meant by the curse of "all people" and his choice, and the abiding without lightening, each attributed, in Arabic, English and Urdu.
 - Passage 2:159 continues its al-Tabari commentary (volume 3, pp. 253-258): the meaning of "curse" as being put far from God's mercy, the differing views on who "the cursers" are (animals, angels and believers, others), and his choice and reasons, each attributed, in Arabic, English and Urdu.
 - Passages 2:158 (end) and 2:159 gain al-Tabari commentary (volume 3, pp. 247-252): the readings and meaning of "whoever volunteers good", and "those who conceal what We sent down" with the reports on who is meant and the general application he draws, each attributed, in Arabic, English and Urdu.
 - Passage 2:158 continues its al-Tabari commentary (volume 3, pp. 241-246): the scholars' positions on one who leaves the running between Safa and Marwa (Malik, al-Shafi'i, al-Thawri and the Hanafi school, 'Ata', Ibn 'Abbas, Anas, Mujahid), his own choice and reasons, and his reply to the variant reading "not to go round them", each attributed, in Arabic, English and Urdu.
