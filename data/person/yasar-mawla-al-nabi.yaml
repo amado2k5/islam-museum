@@ -14,6 +14,6 @@ regions: [arabia]
 died: { edtf: "0627~", hijri: "0006~", calendar: julian, precision: year, status: debated, note: "قُتل قبل رجوع النبي من ذي قرد (needs_source).", sources: [source/ibn-hisham-saqqa] }
 relations:
   - { type: participated_in, target: event/sariyya-of-kurz-ibn-jabir-against-the-killers-of-yasar, role: "الراعي المقتول", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 290", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 290", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 290" }
+status: { review: published, completeness: 3 }

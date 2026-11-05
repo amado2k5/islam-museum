@@ -16,6 +16,6 @@ story_roles:
 relations:
   - { type: member_of, target: group/ansar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "صاحب عمرو", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 282-283", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 282-283", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 282-283" }
+status: { review: published, completeness: 3 }

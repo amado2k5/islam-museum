@@ -18,6 +18,6 @@ relations:
   - { type: member_of, target: group/banu-al-hadrami }
   - { type: allied_with, target: group/banu-al-aswad-b-razn, note: "حلف الحضرمي يومئذ إلى الأسود بن رزن.", sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/mecca, confidence: medium, note: "قتل في أرض خزاعة — أي نواحي مكة — دون تحديد في النص." , sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 31", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 31", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 31" }
+status: { review: published, completeness: 3 }
