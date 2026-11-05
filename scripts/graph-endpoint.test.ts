@@ -5,9 +5,14 @@
 // for every ID. Search died the same way. These tests fail in seconds when either side drifts:
 //
 //   1. the fetch template in the page matches the path scripts/export-api.ts writes;
-//   2. when the build output exists, person/muhammad is present at the URL the page fetches and has a centre and nodes.
+//   2. when the build output exists, person/muhammad is present at the URL the page fetches and has a centre and nodes;
+//   3. every connected entity (at least one typed relation, scripts/export-api.ts connectedIds) gets a neighbourhood whose
+//      centre is the entity and whose edges are real typed relations, and, when the build output exists, a file on disk.
+//      The audit of 5 November 2026 read a missing file as a defect where the entity had theme-only `related` entries.
 import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
+import { compile } from "./build-graph";
+import { buildNeighbourhoods, connectedIds, missingNeighbourhoods } from "./export-api";
 import { p, rel } from "./lib";
 
 const PAGE_SCRIPT = p("site", "src", "scripts", "graph.ts");
@@ -39,4 +44,40 @@ describe("graph explorer data endpoint", () => {
       expect(Array.isArray(data.edges), "edges must be an array").toBe(true);
     },
   );
+
+  describe("every connected entity has a neighbourhood", () => {
+    const c = compile();
+    const real = c.nodes.filter((n) => !n.stub);
+    const hoods = buildNeighbourhoods(c, real);
+    const connected = connectedIds(c);
+    const edgeKeys = new Set(c.edges.filter((e) => !e.inverse).map((e) => `${e.from}|${e.to}|${e.type}`));
+
+    it("no connected entity is left without one, and no unconnected entity gets one", () => {
+      expect(missingNeighbourhoods(c, real, hoods)).toEqual([]);
+      const extra = [...hoods.keys()].filter((n) => !connected.has(n.id)).map((n) => n.id);
+      expect(extra).toEqual([]);
+      // EntityLayout.astro shows the "explore connections" link when degree > 0: that link must find a file.
+      expect(real.filter((n) => n.degree > 0 && !connected.has(n.id)).map((n) => n.id)).toEqual([]);
+    });
+
+    it("each neighbourhood is centred on its entity and draws only typed relations", () => {
+      const bad: string[] = [];
+      for (const [n, h] of hoods) {
+        const ids = new Set(h.nodes.map((x) => x.id));
+        if (h.centre !== n.id || !ids.has(n.id) || h.edges.length === 0) bad.push(`${n.id}: centre or edges`);
+        for (const e of h.edges) {
+          if (!edgeKeys.has(`${e.s}|${e.t}|${e.r}`)) bad.push(`${n.id}: edge ${e.s} ${e.r} ${e.t} is not a typed relation`);
+          if (!ids.has(e.s) || !ids.has(e.t)) bad.push(`${n.id}: edge ${e.s} ${e.r} ${e.t} names a node outside the file`);
+        }
+        if (bad.length > 20) break;
+      }
+      expect(bad).toEqual([]);
+    });
+
+    const GRAPH_DIR = p("site", "public", "api", "v1", "graph");
+    it.skipIf(!existsSync(OUTPUT))("when the API is built, every connected entity has its file", () => {
+      const missing = real.filter((n) => connected.has(n.id) && !existsSync(`${GRAPH_DIR}/${n.class}/${n.slug}.json`)).map((n) => n.id);
+      expect(missing.slice(0, 20)).toEqual([]);
+    });
+  });
 });
