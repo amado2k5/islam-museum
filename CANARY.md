@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:233 (pp. 50-56, reports 4984-4996): the last reports on harming a mother or father through the child, al-Tabari's grammar answers and his view of the leader's duty, and the first positions on who the heir is and what he owes, in Arabic, English and Urdu.
 - Passage 2:233 (pp. 45-50, reports 4973-4983): al-Tabari on the sentence limiting what a soul is charged with and his reply to the qadar reading, the readers' difference on the ban on harming a mother or father through the child, his choice, and the interpreters' reports, in Arabic, English and Urdu.
 - Passage 2:233 (pp. 38-44, reports 4968-4972): al-Tabari's own choice on the limit of nursing, his answers to the objection from the thirty-month verse, the readers' difference on the clause on completing nursing, and the father's duty of provision and clothing, in Arabic, English and Urdu.
 - Passage 2:233 (pp. 32-38, reports 4950-4967): al-Tabari on why the verse adds completeness to the two years, and the interpreters' four positions on the limit of nursing (some infants only, infants whose parents differ, no nursing after two years, a duty on mothers eased afterwards), with the editor's notes on narrators, in Arabic, English and Urdu.
