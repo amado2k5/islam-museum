@@ -30,6 +30,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:162, 2:163 and 2:164 gain al-Tabari commentary (volume 3, pp. 264-269): the end of 2:162, the two views on the meaning of God's oneness in 2:163, and the argument of 2:164 with the first reports on its occasion of revelation, attributed, in Arabic, English and Urdu.
 - Passages 2:160, 2:161 and 2:162 gain al-Tabari commentary (volume 3, pp. 259-264): the exception for those who repent and make clear (and whom he names), who is meant by the curse of "all people" and his choice, and the abiding without lightening, each attributed, in Arabic, English and Urdu.
 - Passage 2:159 continues its al-Tabari commentary (volume 3, pp. 253-258): the meaning of "curse" as being put far from God's mercy, the differing views on who "the cursers" are (animals, angels and believers, others), and his choice and reasons, each attributed, in Arabic, English and Urdu.
 - Passages 2:158 (end) and 2:159 gain al-Tabari commentary (volume 3, pp. 247-252): the readings and meaning of "whoever volunteers good", and "those who conceal what We sent down" with the reports on who is meant and the general application he draws, each attributed, in Arabic, English and Urdu.
