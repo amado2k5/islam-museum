@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 499-503): further reports on the occasion of the verse (Mujahid, 'Ikrima, Qatada, al-Suddi, 'Ata', Ibn Hibban), with the editor's notes on chains and wording, each attributed, in Arabic, English and Urdu.
 - Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 494-498): the reports on the occasion of the verse (Ibn Abi Layla, Mu'adh, al-Bara', Ibn 'Abbas, Ka'b ibn Malik and others) with the editor's notes on chains and on the differing name of the Ansari, each attributed, in Arabic, English and Urdu.
 - Passage 2:187 gains more of al-Tabari's commentary (volume 3, pp. 488-493): the senses of "a garment for you" and the two kinds of "betrayal" mentioned in the verse, with the report of Ibn Abi Layla; the prose notes the editor's mention that the text has a gap at one point, each view attributed, in Arabic, English and Urdu.
 - Passages 2:186-187 gain al-Tabari's commentary (volume 3, pp. 484-488): the close of 2:186 (the senses of "respond to Me", "believe in Me", and his two answers on unanswered prayer, with the editor's note on the supporting report's chain) and the start of 2:187 ("rafath"), each attributed, in Arabic, English and Urdu.
