@@ -35,6 +35,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:233 (close, pp. 75-76) and 2:234 first touch (pp. 77-81, reports 5071-5074): al-Tabari's reasons for his choice on the nursing-clause and his gloss on the closing sentence; on 2:234 his treatment of the missing predicate, the meaning of the widow's waiting period, and the reports and hadiths (Ibn 'Abbas, Ibn Shihab, Umm Salama, Hafsa), in Arabic, English and Urdu.
 - Passage 2:233 (pp. 68-74, reports 5049-5070): the positions on the time of weaning and al-Tabari's choice, and the clause on hiring wet nurses with the interpreters' readings of handing over what was given and his choice, in Arabic, English and Urdu; a leftover verse-adjacent phrase in the Arabic of an earlier batch is reworded.
 - Passage 2:233 (pp. 62-68, reports 5029-5048): the last reports on the heir clause, al-Tabari's own choice and his argument (attributed as his, with other scholars' positions left unjudged), and the opening of the weaning clause with the first reports on the time of weaning, in Arabic, English and Urdu.
 - Passage 2:233 (pp. 57-62, reports 4997-5028): the remaining positions on who the heir is (guardian, the child's heirs, the forbidden-degree kin, the infant himself, the surviving parent) and on what the like duty covers (nursing wage and upkeep), in Arabic, English and Urdu.
