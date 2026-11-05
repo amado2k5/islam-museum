@@ -1,4 +1,4 @@
-# Phase 1, batch 01: evidence for the founder's `accept` decision (31 Oct 2026)
+# Phase 2, batch 01: evidence for the founder's `accept` decision (31 Oct 2026)
 
 Founder decision: **accept** for all 25 books. The register (`scripts/harvest/library/authenticity.yaml`) requires, for each `accept`: two independent school sources, a named edition (publisher and editor), and an authenticity basis. Search on 31 Oct 2026 did not meet that bar for any book, so **no entry was recorded**. This note is the evidence found, book by book, for the founder to decide what to do next.
 

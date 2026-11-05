@@ -1,4 +1,4 @@
-# Phase 11: China, the Americas, and the print era
+# Phase 12: China, the Americas, and the print era
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -17,7 +17,7 @@ Unsized. Presence: Ma Zhu/Liu Zhi 0 matches; Ayuba 0; Omar ibn Said 6. These are
 
 ## Entry criteria
 
-- Phase 1 for cited canon.
+- Phase 2 for cited canon.
 - Founder decision 5 (language sources).
 
 ## Exit criteria (definition of done)

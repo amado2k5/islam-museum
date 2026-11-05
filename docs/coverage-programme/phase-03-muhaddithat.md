@@ -1,4 +1,4 @@
-# Phase 02: The muhaddithat (women hadith scholars)
+# Phase 3: The muhaddithat (women hadith scholars)
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -20,7 +20,7 @@ Target: 9,328 female scholars (Aga Khan Library listing, cited in Wikipedia); Al
 
 - Founder decision 3 (scope, faith labelling).
 - Nadwi text access confirmed for the pilot slice (founder-supplied).
-- Phase 1 ledger entry for any book cited as a source (`isaba` is canon with its ledger decision still undecided).
+- Phase 2 ledger entry for any book cited as a source (`isaba` is canon with its ledger decision still undecided).
 - Name-matching normaliser for Arabic names, documented.
 
 ## Exit criteria (definition of done)
@@ -36,8 +36,8 @@ Pilot: one batch of 10 (5+5) from the chosen slice, reviewed by the founder befo
 
 ## Dependencies on other phases
 
-- Shares the person-entity pattern with Phase 3 (the pilot proves it).
-- Depends on Phase 1 only for the cited books' ledger status.
+- Shares the person-entity pattern with Phase 4 (the pilot proves it).
+- Depends on Phase 2 only for the cited books' ledger status.
 
 ## Known risks
 

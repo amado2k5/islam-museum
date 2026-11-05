@@ -1,4 +1,4 @@
-# Phase 07: Africa sweep
+# Phase 8: Africa sweep
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -17,7 +17,7 @@ Unsized. Presence measure: Timbuktu 37 files, Harar 46, Sokoto 33, Swahili 11 (t
 
 ## Entry criteria
 
-- Phase 1 for chronicles in canon.
+- Phase 2 for chronicles in canon.
 - Founder decision 5 (manuscript access).
 
 ## Exit criteria (definition of done)
@@ -32,7 +32,7 @@ Waves by city or tradition. Waves of 10 (5+5 across two writers); at most 25 ent
 
 ## Dependencies on other phases
 
-- Contends with 6 and 8 for shared `place/` entries (Timbuktu institutions belong to Phase 8).
+- Contends with 6 and 8 for shared `place/` entries (Timbuktu institutions belong to Phase 9).
 
 ## Known risks
 

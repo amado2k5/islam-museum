@@ -1,4 +1,4 @@
-# Phase 06: Southeast Asia sweep
+# Phase 7: Southeast Asia sweep
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -17,7 +17,7 @@ Unsized. Presence measure (section 2.5 of the README): Indonesia 242 files, Mala
 
 ## Entry criteria
 
-- Phase 1 for any canon book cited.
+- Phase 2 for any canon book cited.
 - Founder decision 5 (language sources and holdings).
 
 ## Exit criteria (definition of done)
@@ -33,7 +33,7 @@ Waves by sub-region: Indonesia, Malaysia, Brunei, Patani. Waves of 10 (5+5 acros
 ## Dependencies on other phases
 
 - Contends with 4 and 7 for `place/` and `polity/`.
-- Phase 11 covers the print era across regions outside 6–7.
+- Phase 12 covers the print era across regions outside 6–7.
 
 ## Known risks
 

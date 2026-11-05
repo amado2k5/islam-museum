@@ -1,4 +1,4 @@
-# Phase 01: Canon decisions
+# Phase 2: Canon decisions
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -35,7 +35,7 @@ Each batch: the founder names the books; the agent prepares the check list from 
 ## Dependencies on other phases
 
 - Phases 2, 3, 6–11 cite against this ledger, so their citation checks depend on it.
-- Phase 12 and 14 do not depend on it.
+- Phase 13 and 14 do not depend on it.
 
 ## Known risks
 

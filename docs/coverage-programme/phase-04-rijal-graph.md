@@ -1,4 +1,4 @@
-# Phase 03: The rijal graph (narrators and teacher–student edges)
+# Phase 4: The rijal graph (narrators and teacher–student edges)
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -19,7 +19,7 @@ Unsized. The narrator count of these corpora is not measured here, and no figure
 
 ## Entry criteria
 
-- Phase 2 pattern proven (person records).
+- Phase 3 pattern proven (person records).
 - Founder decision 4 (rijal inclusion rule: non-Sunni narrators in the corpora).
 - Founder decision 6 (edge schema: `studied_under` and transmitted-to predicates in `schema/predicates.yaml`).
 - Founder runs the name-match and returns counts.
@@ -37,8 +37,8 @@ Waves by century. Place-entity pre-check in every brief. Edge schema checked bef
 
 ## Dependencies on other phases
 
-- Depends on Phase 2 (pattern) and Phase 1 (ledger for the cited books).
-- Phase 13's census can use its edges for thickening.
+- Depends on Phase 3 (pattern) and Phase 2 (ledger for the cited books).
+- Phase 14's census can use its edges for thickening.
 
 ## Known risks
 

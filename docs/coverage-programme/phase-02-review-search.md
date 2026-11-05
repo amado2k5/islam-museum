@@ -1,4 +1,4 @@
-# Phase 1: review search, batches 01–12
+# Phase 2: review search, batches 01–12
 
 Status: search notes only. These are summaries of web search results taken on 31 October 2026. They were not checked against the full texts, and they are not authenticity decisions. Decisions on canon books stay with the founder (`scripts/harvest/library/authenticity.yaml`, `docs/authenticity-ledger/`).
 

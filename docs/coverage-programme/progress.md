@@ -13,4 +13,7 @@ Programme home: [`README.md`](README.md). One dated entry per merged batch. Flag
   - FLAG: the Wikidata flag count (about 4,199) is not measured; 5,604 files mention Wikidata (README 2.8).
   - FLAG: rijal and Nadwi text is not readable from this environment; Phases 2–3 open with a founder-run pilot (README section 5).
 
-- **31 October 2026 — Phase 1 opened (founder go).** Queue `phase-01-queue.md`: 286 undecided canon books in 12 batches of 25, ordered by harvest folder. Batch 01 is with the founder. Decisions are recorded only by the founder.
+- **31 October 2026 — Phase 1 opened (founder go).** Queue `phase-02-queue.md`: 286 undecided canon books in 12 batches of 25, ordered by harvest folder. Batch 01 is with the founder. Decisions are recorded only by the founder.
+
+- **5 November 2026 — Amendment folded in; Phase 1 opened (founder go).** The 1 November 2026 founder amendment is now part of the plan: the AI-resource moves are Phase 1, and the fourteen phases of 31 October 2026 are renumbered 2–15 (files renamed to match). Gap 13 was re-measured on current main (49,418 data files; README section 2.11): the audit's Muhammad-neighbourhood numbers are unchanged (6 relations on his record; 61 inbound edges from 60 records; no successor edge; no Ali edge), companion-role records are 474 (was 448) with zero `member_of` edges to `group/sahaba`, and per-entity JSON-LD already exists — Phase 1's Move 5 is reduced to its relational extension. Phase 1 queue opened (`phase-01-queue.md`, 474 records + the group). Canon (now Phase 2) batch 01 remains with the founder.
+  - FLAG: Content-Signal flip and the Sahaba lane stay founder-gated (README section 7, decisions 10–11); neither is executed under this go.

@@ -1,4 +1,4 @@
-# Phase 09: The working civilization
+# Phase 10: The working civilization
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -16,7 +16,7 @@ Unsized. Presence measure: waqf 88 files, coin 92 (mostly mentions), guild 7, so
 
 ## Entry criteria
 
-- Phase 1 for cited canon.
+- Phase 2 for cited canon.
 - Relation predicates confirmed (`schema/predicates.yaml`).
 
 ## Exit criteria (definition of done)
