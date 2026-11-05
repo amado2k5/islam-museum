@@ -1,0 +1,33 @@
+id: person/ubaid-raza-attari
+class: person
+names:
+  - { kind: full, value: "Ubaid Raza Attari" }
+  - { kind: full, value: "عبید رضا عطاری" }
+  - { kind: alternate, value: "Maulana Ubaid Raza Attari Madani" }
+  - { kind: alternate, value: "Ubayd Raza al-Madani" }
+  - { kind: alternate, value: "Abu Usayd Ubaid Raza Attari" }
+label: { ar: "عبيد رضا عطاري", en: "Ubaid Raza Attari", ur: "عبید رضا عطاری" }
+summary:
+  ar: "داعية باكستاني من دعوة إسلامي، وهو الابن الأكبر لمؤسس الحركة محمد إلياس قادري وخليفته المعيّن (خليفة أمير أهل السنة). يجول في باكستان وأوروبا خطيبا في الاجتماعات السنّية للحركة، وبلغت قناته على يوتيوب نحو 167 ألف مشترك في نوفمبر 2026."
+  en: "A Pakistani preacher of Dawat-e-Islami, the elder son of the movement's founder Muhammad Ilyas Qadri and his designated successor (Khalifa-e-Ameer-e-Ahl-e-Sunnat). He tours Pakistan and Europe preaching at the movement's Sunnah-inspired gatherings; his YouTube channel counted some 167,000 subscribers in November 2026."
+  ur: "دعوتِ اسلامی کے پاکستانی مبلغ، تحریک کے بانی محمد الیاس قادری کے بڑے صاحبزادے اور ان کے نامزد خلیفہ (خلیفۂ امیرِ اہلِ سنت)۔ وہ پاکستان اور یورپ میں تحریک کے سنتوں بھرے اجتماعات میں خطاب کرتے ہیں؛ نومبر 2026 میں ان کے یوٹیوب چینل کے تقریباً 167 ہزار سبسکرائبر تھے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent texts attest a specific school or order for him personally. What the sources give: Dawat-e-Islami's own pages style him throughout by his office — successor (khalifa) of Ameer-e-Ahl-e-Sunnat — which is an office within his father's movement, not attestation; the movement's Barelvi milieu and his father's documented Qadri–Razavi affiliation are movement milieu and family background, which never count for the son. A Dawat-e-Islami-managed channel description calls him 'a devoted disciple in the Silsila Qadiriyyah' — a single text from his own movement's ecosystem naming an order for him, which under the two-text rule does not settle a value; the reading is preserved here verbatim. Under the two-text rule and the doubt rule the value stays unknown."
+    sources: [source/dawateislami-ilyas-qadri-founder, source/dawateislami-ubaid-europe, source/dawateislami-ubaid-holland, source/dawateislami-ubaid-channel-description]
+roles: [preacher, teacher]
+wings: [people, living]
+regions: [south-asia]
+relations:
+  - type: child_of
+    target: person/ilyas-qadri
+    sources: [source/dawateislami-ilyas-qadri-founder, source/dawateislami-ubaid-holland]
+sources: [source/dawateislami-ilyas-qadri-founder, source/dawateislami-ubaid-europe, source/dawateislami-ubaid-holland, source/dawateislami-ubaid-channel-description, source/vidiq-ubaid-raza-attari]
+provenance:
+  layer: own-research
+  source: "The wave-193 harvest entry §D.14 (YouTube @maulanaubaidrazaattari, 167K), researched against Dawat-e-Islami's official founder page and two of its own reports and announcements, all read in full on 5 November 2026, and a vidIQ re-read of 5 November 2026 confirming 167,000 subscribers (6,415,644 views, 1,925 videos; channel created 27 October 2018, country Pakistan). FAMILY RELATION as briefed, in words: he is the ELDER SON of Muhammad Ilyas Qadri (person/ilyas-qadri, built in this same wave by another writer) and his designated successor — the founder page's Family section states 'His eldest son is Ubayd Raza al-Madani, who was appointed the shaykh's successor and spiritual representative', and the movement's April 2026 Holland announcement states he follows 'in the footsteps of his respected father'; the relation is written once, in this record, as child_of. The successor designation is stated in prose only: no successor_of relation is written, as briefed. Spelling variants in the movement's own texts (Ubaid / Ubayd / Abu Usayd) are recorded as alternate names. No born block is written: no source read gives his birth date. No Wikipedia article and no Wikidata item were found for him personally (his father has both; they are not his)."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-193"
+status: { review: published, completeness: 2 }

@@ -1,0 +1,29 @@
+id: person/muhammad-imran-attari
+class: person
+names:
+  - { kind: full, value: "Haji Muhammad Imran Attari" }
+  - { kind: full, value: "حاجی محمد عمران عطاری" }
+  - { kind: alternate, value: "Maulana Imran Attari" }
+  - { kind: alternate, value: "Muhammad Imran Attari" }
+label: { ar: "عمران عطاري", en: "Maulana Imran Attari", ur: "عمران عطاری" }
+summary:
+  ar: "داعية باكستاني من كراتشي، وُلد سنة 1970، عمل في تجارة العائلة ثم أسس مشروعه الخاص في الملابس، وانضم إلى دعوة إسلامي سنة 1992 متطوعا حتى صار نكران مجلسها المركزي للشورى، وهو الهيئة التي تقود الحركة. بلغت قناته الرسمية على يوتيوب نحو 895 ألف مشترك في نوفمبر 2026."
+  en: "Pakistani preacher from Karachi, born in 1970, who worked in his family business and then founded his own garment enterprise before joining Dawat-e-Islami as a volunteer in 1992; he is now Nigran (head) of its Markazi Majlis-e-Shura, the central council that leads the movement. His official YouTube channel counted some 895,000 subscribers in November 2026."
+  ur: "کراچی سے تعلق رکھنے والے پاکستانی مبلغ، جو 1970 میں پیدا ہوئے، خاندانی کاروبار اور پھر اپنے گارمنٹس کے کاروبار کے بعد 1992 میں دعوتِ اسلامی میں رضاکار کے طور پر شامل ہوئے اور اب اس کی مرکزی مجلسِ شوریٰ کے نگران ہیں۔ نومبر 2026 میں ان کے سرکاری یوٹیوب چینل کے تقریباً 895 ہزار سبسکرائبر تھے۔"
+gender: male
+born: { edtf: "1970-07-08", hijri: "1390", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 8 July 1970 in Karachi, per the official channel biography published by Dawat-e-Islami's Social Media Department — the only source found for the date, an organisational self-presentation rather than independent corroboration; the Hijri year 1390 is derived from the Gregorian date.", sources: [source/youtube-maulana-imran-attari] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read attests a specific school or order for the man himself under this lane's two-text rule. His whole recorded career is inside Dawat-e-Islami — he joined it in 1992 and now heads its central Shura — but headship of, and membership in, a movement never count as attestation, and no prose text read names a school or order for Attari himself. Recorded unknown; nothing is inferred from his organisation's milieu."
+    sources: [source/youtube-maulana-imran-attari]
+roles: [preacher]
+wings: [people, living]
+regions: [south-asia]
+sources: [source/youtube-maulana-imran-attari, source/vidiq-maulana-imran-attari]
+provenance:
+  layer: own-research
+  source: "The wave-193 harvest entry §A.7 (YouTube @maulanaimranattari at 895,000 subscribers in the harvest), researched against his official channel's biography text, read in full on 5 November 2026 in the description of the channel's 'Grand Ijtima' video, and vidIQ's channel statistics read the same day (895,000 subscribers, confirming the harvest figure). No English Wikipedia article and no Wikidata item were found, so no QID is recorded. No relations are written: Dawat-e-Islami has no group record on main yet. No place edge is written: place/karachi does not exist on main. The born block rests on the single organisational source named in its note and is flagged here so a reviewer can strike it if the lane requires independent corroboration for dates."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-193"
+status: { review: published, completeness: 2 }
