@@ -1,0 +1,94 @@
+version: 1
+
+domains:
+  - id: astronomy-instruments
+    label: { ar: "الفلك وآلاته", en: "Astronomy and its instruments", ur: "فلکیات اور آلات" }
+  - id: mathematics
+    label: { ar: "الرياضيات", en: "Mathematics and computation", ur: "ریاضی اور حساب" }
+  - id: medicine-surgery
+    label: { ar: "الطب والجراحة", en: "Medicine and surgery", ur: "طب اور جراحی" }
+  - id: pharmacy-chemistry
+    label: { ar: "الصيدلة والكيمياء", en: "Pharmacy, chemistry and distillation", ur: "دواسازی، کیمیا اور کشید" }
+  - id: optics-physics
+    label: { ar: "البصريات والفيزياء", en: "Optics and physics", ur: "بصریات اور طبیعیات" }
+  - id: mechanics-automata
+    label: { ar: "الحيل والآلات", en: "Mechanics, automata and clocks", ur: "میکانکس، خودکار آلات اور گھڑیاں" }
+  - id: water-agriculture
+    label: { ar: "الماء والزراعة", en: "Water, irrigation and agriculture", ur: "پانی، آب پاشی اور زراعت" }
+  - id: navigation-geography
+    label: { ar: "الملاحة والجغرافيا", en: "Navigation, cartography and geography", ur: "ملاحی، نقشہ سازی اور جغرافیہ" }
+  - id: architecture-building
+    label: { ar: "العمارة والبناء", en: "Architecture and building techniques", ur: "فنِ تعمیر اور تعمیراتی طریقے" }
+  - id: materials-industry
+    label: { ar: "المواد والصناعة", en: "Materials and industry", ur: "مواد اور صنعت" }
+  - id: military
+    label: { ar: "الحرب والسلاح", en: "Military technology", ur: "فوجی ٹیکنالوجی" }
+  - id: food-drink
+    label: { ar: "الطعام والشراب", en: "Food, drink and the table", ur: "کھانا، مشروبات اور دسترخوان" }
+  - id: music-instruments
+    label: { ar: "الموسيقى وآلاتها", en: "Music and instruments", ur: "موسیقی اور آلات" }
+  - id: timekeeping
+    label: { ar: "الوقت وقياسه", en: "Timekeeping", ur: "وقت کی پیمائش" }
+  - id: institutions-systems
+    label: { ar: "النظم والمؤسسات", en: "Institutions and systems", ur: "ادارے اور نظام" }
+  - id: everyday-life
+    label: { ar: "الحياة اليومية", en: "Everyday life", ur: "روزمرہ زندگی" }
+  - id: modern-science
+    label: { ar: "العلوم الحديثة", en: "Modern science", ur: "جدید سائنس" }
+  - id: modern-technology
+    label: { ar: "التقنية الحديثة", en: "Modern technology", ur: "جدید ٹیکنالوجی" }
+  - id: modern-medicine
+    label: { ar: "الطب الحديث", en: "Modern medicine", ur: "جدید طب" }
+
+kinds:
+  - device
+  - instrument
+  - machine
+  - technique
+  - process
+  - substance
+  - material
+  - method
+  - concept
+  - system
+  - institution
+  - crop
+  - recipe
+  - structure
+  - software
+  - algorithm
+  - discovery
+
+eras:
+  - pre-islamic-inherited
+  - first-century
+  - abbasid-golden
+  - middle-period
+  - gunpowder-empires
+  - nineteenth-century
+  - twentieth-century
+  - twenty-first-century
+
+status_today: [living, transformed, replaced, extinct, revived]
+attribution_status: [original, improvement, transmission, contested, legend]
+maker_roles: [inventor, co-inventor, improver, describer, transmitter, translator, commissioner, commercializer, disputed]
+
+inclusion:
+  maker:
+    required: true
+    rule: "A Muslim identity needs a cited basis in the person's faith block; a name, country, family or era is not evidence."
+  tradition:
+    default: "For a Muslim of a Sunni polity and milieu where sources attest no other tradition, record the museum's Sunni default frame and its source basis."
+    other_attested_tradition: "Close the candidate as out of scope and cite the attestation."
+    disputed_tradition: "Include only with a sourced, Sunni-first perspectives block on the maker record."
+  contribution:
+    included: [made, first_described, decisively_improved]
+    inherited: "Name the precursor; include only a sourced Muslim contribution, improvement, adaptation or act of transmission."
+    non_muslim_maker: "Do not include as a maker; retain their documented role in the invention's history."
+  uncertainty:
+    no_identity_basis: "Keep as an awaiting-identity-basis lead."
+    contested_claim: "Use contested attribution and cited perspectives."
+    unsupported_popular_claim: "Use legend only when the story is widely repeated; narrate it as a story and cite both the claim and the scholarly view."
+  chronology:
+    order: [first-century, abbasid-golden, middle-period, gunpowder-empires, nineteenth-century, twentieth-century, twenty-first-century]
+    inherited_precursor_era: "Use pre-islamic-inherited for a named precursor, never to imply that the precursor is a Sunni Muslim invention."
