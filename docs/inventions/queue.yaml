@@ -1763,12 +1763,16 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: camera-obscura-ibn-al-haytham
     label: "Camera-obscura experiments described by Ibn al-Haytham"
-    state: "[~]"
+    state: "[x]"
     batch: 2
     domain: optics-physics
     era: abbasid-golden
     from: founder-supplied-lead
-    lead_sources: ["1001 Inventions, 2nd ed., Home chapter, printed p. 29 (lead only)"]
+    records: ["invention/camera-obscura", "person/ibn-al-haytham", "work/kitab-al-manazir", "source/manazir-sabra-1983", "source/tdv-ibnul-heysem", "media/tanqih-al-manazir-page", "media/diagram-camera-obscura"]
+    lead_sources:
+      - "1001 Inventions, 2nd ed., Home chapter, printed p. 29 (lead only)"
+      - "source/manazir-sabra-1983 scan pp. 9–78, 171–172"
+      - "source/tdv-ibnul-heysem pp. 82–87"
     flags: ["verify-experiment-versus-invention", "verify-tradition-and-perspectives", "popular-claim"]
   - id: museum-record-concept-aqsam-al-talif-saba
     label: "Museum lead for The seven kinds of authorship"
