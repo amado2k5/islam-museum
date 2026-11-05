@@ -45,6 +45,7 @@ open a new block on top with the new version and today's date.
 - Search starts faster, above all on phones and slow connections: the list of variant spellings (Saladin, Salah al-Din…) is now split into small pieces and the search page fetches only the few it needs for the words typed, about 14 KB each, instead of the whole list on every visit (2 MB compressed, 10 MB in Arabic and Urdu). Each search still waits for its pieces, so results and counts are the same as before.
 
 ### Data
+- Passage 2:259 (pp. 447-454, report 5910): the long report from Wahb ibn Munabbih (via Ibn Humayd, Salama and Ibn Ishaq) on Urmiya, the fall of Jerusalem to Nebuchadnezzar and the century of death, summarised as transmitted from Israelite sources without a museum verdict, with the editor's comparison notes labelled as his, in Arabic, English and Urdu.
 
 - The pathway total is now 300: the duplicate Alexandria trail (exhibit/path-alexandria-city) became an alias of exhibit/path-alexandria, and the homepage and learning pages say 300 in Arabic, English and Urdu.
 
