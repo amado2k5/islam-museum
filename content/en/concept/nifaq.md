@@ -26,3 +26,6 @@ The speaker distinguishes a person who behaves one way at work and another way a
 
 ## Hypocrisy in Sheikh Omar Abdelkafy's lessons (episode 3)
 The Sheikh says that the first level is for the disobedient monotheists who died with debts owed to people, and he holds that the punishment of the hypocrites is harsher than that of the Jews. This is a comparison between groups that he presents as his own view, which has not been checked against a source (needs_source, his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:45:30}
+
+## In al-Tabari's commentary: the verses on the hypocrites in al-Baqara
+Al-Tabari reports the agreement of the exegetes that "and among the people are those who say: we believe in God and the Last Day, yet they are not believers" was revealed about a group of hypocrites, and gives Ibn Abbas that they were the hypocrites of the Aws and Khazraj and Mujahid that thirteen verses at the start of al-Baqara describe the hypocrites. {cite:tafsir-tabari-shakir-v01 p. 268} {cite:tafsir-tabari-shakir-v01 p. 269}
