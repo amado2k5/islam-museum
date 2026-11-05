@@ -17,6 +17,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Sixth Explorer batch**: forty new curated stories (34 people, four places and two dynasties) reuse 116 existing events for 187 chronological stops and 120 Arabic/English/Urdu subject routes. Missing subject translations and provenance are added without changing existing facts, dates, relations or statuses; 52 screened native scene variants are reused. Existing Urdu event-text and optional colour-background fallbacks remain explicit; no new images or runtime changes.
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 49 — Muntazam, Tarikh al-Khulafa, Ottoman Salabi and Wafayat cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 48 — Nafh al-Tib, Kamil fi'l-Tarikh and Muntazam cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 47 — Ottoman-era Salabi, Muntazam and Nafh al-Tib cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 46 — al-Isaba remainder, Shadharat al-Dhahab and Ibn Khaldun al-Ibar East cohorts).
@@ -198,6 +199,9 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Two scholars' pages completed**: Fayz Kashani, the Safavid philosopher and traditionist, and Şeyhülislam Zekeriya Efendi now carry full sourced biographies in Arabic, English and Urdu — both were early draft cards that other pages already linked to.
+
+### Data
+- **Nine more contemporary voices, and two broadcasters**: new sourced pages for Saliha Erdim, Ning Umi Laila, Firanda Andirja, Hayati İnanç, Nihat Hatipoğlu, Gus Baha, Osman Nuri Topbaş, Gus Mus and Gus Muwafiq — preachers, teachers and writers that Indonesian and Turkish audiences learn from today — plus the Indonesian dawah networks Yufid.TV and Rodja TV, each in Arabic, English and Urdu.
 
 ---
 

@@ -16,13 +16,14 @@ died: { edtf: "1234-10~", hijri: "0632-02-04", calendar: julian, precision: day,
 provenance:
   layer: own-research
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-wafayat-batch-2
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch49
 relations:
   - { type: authored, target: work/al-alaq-al-khatira, sources: [source/kashf-zunun-furqan] }
 external_ids: { wikidata: "Q253568" }
 sources: [source/wafayat-ayan, source/kashf-zunun-furqan, source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 3 }
 occupations:
   - job: job/qadi
     kind: secondary
