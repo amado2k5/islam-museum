@@ -1,0 +1,37 @@
+id: person/firanda-andirja
+class: person
+label: { ar: "فيراندا أنديرجا", en: "Firanda Andirja", ur: "فیراندا اندیرجا" }
+names:
+  - { value: "Firanda Andirja Abidin", kind: full }
+gender: male
+summary:
+  ar: "عالم وداعية إندونيسي، وُلد في سورابايا في 28 أكتوبر 1979، درس في الجامعة الإسلامية بالمدينة المنورة حتى نال الدكتوراه في العقيدة سنة 2016، وألقى الدروس باللغة الإندونيسية في المسجد النبوي بين 2012 و2018 بتكليف من الحكومة السعودية، وهو من أعلام إذاعة وتلفزيون رودجا، وله عشرات الكتب في العقيدة والفقه والتفسير، وقناته الرسمية على يوتيوب يتابعها نحو 853 ألف مشترك."
+  en: "Indonesian scholar and preacher, born in Surabaya on 28 October 1979. He studied at the Islamic University of Madinah through a doctorate in aqidah (2016), delivered the Indonesian-language studies at the Prophet's Mosque in Madinah from 2012 to 2018 on a Saudi government appointment, is a regular voice of Radio Rodja and Rodja TV, and has written dozens of books on creed, jurisprudence and Qur'an commentary; his official YouTube channel has about 853,000 subscribers."
+  ur: "انڈونیشی عالم اور مبلغ، جو 28 اکتوبر 1979ء کو سورابایا میں پیدا ہوئے۔ انہوں نے مدینہ منورہ کی اسلامی یونیورسٹی سے عقیدے میں ڈاکٹریٹ (2016ء) کیا، 2012ء سے 2018ء تک سعودی حکومت کی تقرری پر مسجد نبوی میں انڈونیشی زبان کے دروس دیے، ریڈیو روجا اور روجا ٹی وی کی باقاعدہ آواز ہیں، اور عقیدہ، فقہ و تفسیر پر درجنوں کتابیں لکھیں؛ ان کے سرکاری یوٹیوب چینل کے تقریباً 8 لاکھ 53 ہزار سبسکرائبر ہیں۔"
+roles: [preacher, scholar, writer]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1979-10-28"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Dr Soetomo Hospital, Surabaya, on 28 October 1979, per the Indonesian Wikipedia article, which also records that he was taken to Sorong, Papua, as an infant and schooled there. The Hijri year 1399 is a tabular conversion of the Gregorian date, marked derived. No place record for Surabaya exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-firanda-andirja-id]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two prose texts attest a faith value for Firanda Andirja himself. The Indonesian article's infobox gives his denomination as Sunni and his movement as Salafiyah — structured data, which never settles faith. Independent prose (the Pengetahuan biography) describes him as 'a Salafi scholar' (ulama Salafi): a movement descriptor of the same family as the infobox's movement field, and movement affiliation never counts as attestation of a personal madhhab or creed value. Both readings are preserved here; under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-firanda-andirja-id, source/pengetahuan-firanda-andirja]
+sources: [source/wikipedia-firanda-andirja-id, source/pengetahuan-firanda-andirja]
+provenance:
+  layer: own-research
+  source: "Indonesian Wikipedia article 'Firanda Andirja' and the Pengetahuan biography, read in full on 4 November 2026 (modern-figures harvest, 2026-11-04: official YouTube channel @firandaandirjaofficial with about 853,000 subscribers, read June 2026). No student_of edges are written: no person records for his Madinah teachers exist in the museum. No Wikidata identifier was verified in this session and none is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  model: "Muse Wonder"
+  run: "wave-190"
+status:
+  review: published
+  completeness: 3
