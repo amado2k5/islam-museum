@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:142 gains an al-Tabari commentary section (volume 3, pp. 129-134): who "the fools" are, the meaning of "qibla", and the reported durations of prayer toward Jerusalem and the reasons given for the change, each attributed, in Arabic, English and Urdu.
 - Passage 2:141 gains an al-Tabari commentary section (volume 3, pp. 128-129): who "that community" refers to, and his explanation that each community has what it earned and is not asked about others, in Arabic, English and Urdu.
 - Passage 2:140 closes its al-Tabari commentary (volume 3, pp. 122-127): his choice of reading "am taqulun", the argument against the claim that Abraham and the others were Jews or Christians, the views on "who is more wrong than he who conceals a testimony" (and why he takes it to concern the prophets named), and "God is not unaware of what you do", each attributed, in Arabic, English and Urdu.
 - Passage 2:138 closes its al-Tabari commentary, and 2:139 and 2:140 gain their first (volume 3, pp. 117-122): the two meanings given for "the dye of God" (God's religion, or the natural disposition), "to Him we are worshippers", "do you dispute with us about God" and the opening of "or do you say that Abraham... were Jews or Christians" with the two readings, each attributed, in Arabic, English and Urdu.
