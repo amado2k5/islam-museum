@@ -22,3 +22,6 @@ Omar Abdelkafy explains Ibn Ata Allah's maxim on the signs of a dead heart: not 
 
 ## From Omar Abdelkafy's programme al-Munjiyat
 In al-Munjiyat Omar Abdelkafy speaks of what the scholars gathered of the things that corrupt the heart, among them knowledge not acted upon, deeds without sincerity or following the Prophet's example, and a heart empty of love and longing for God, {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:13:30} and says that whoever does not act on what he knows loses his way in what he does. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:04:00}
+
+## In al-Tabari's commentary: "in their hearts is a sickness"
+Al-Tabari explains the sickness in the hearts of the hypocrites as doubt and bewilderment about Muhammad and what he brought, a sickness in religion rather than in bodies, citing Ibn Abbas, al-Suddi, Qatada, al-Rabi' ibn Anas and Ibn Zayd. {cite:tafsir-tabari-shakir-v01 p. 279} {cite:tafsir-tabari-shakir-v01 p. 280} {cite:tafsir-tabari-shakir-v01 p. 281}

@@ -22,3 +22,6 @@ translators: []
 
 ## من برنامج المنجيات (عمر عبد الكافي)
 يتحدث عمر عبد الكافي في «المنجيات» عما جمعه العلماء من مفسدات القلب، ومنها: العلم الذي لا يُعمل به، والعمل الذي لا إخلاص فيه ولا اقتداء، وقلب فارغ من محبة الله والشوق إليه، {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:13:30} ويقول إن من لم يعمل بما يعلم تاه فيما يعمل. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:04:00}
+
+## في تفسير الطبري: «في قلوبهم مرض»
+يفسّر الطبري المرض في قلوب المنافقين بأنه الشك والحيرة في أمر محمد وما جاء به، وهو مرض في الدين لا في الأجساد، ويروي ذلك عن ابن عباس والسدي وقتادة والربيع بن أنس وابن زيد. {cite:tafsir-tabari-shakir-v01 p. 279} {cite:tafsir-tabari-shakir-v01 p. 280} {cite:tafsir-tabari-shakir-v01 p. 281}
