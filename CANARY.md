@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:229 continues (vol. 4, pp. 559-565): the remaining views on when taking a ransom is lawful, al-Tabari's choice that both must fear falling short and his answer to the objection, and the views on what the limits of God are, in Arabic, English and Urdu.
 - Passage 2:229 continues (vol. 4, pp. 553-559): the reports on the wives of Thabit ibn Qays (Habiba and Jamila) and the editor's note that they were two women, and the first views on what the fear of not keeping God's limits means, with the graded steps in the reports of Sa'id ibn Jubayr and al-Dahhak, in Arabic, English and Urdu.
 - Passage 2:229 continues (vol. 4, pp. 547-553): the meaning of keeping and releasing, the prohibition on taking back the dower, the variant readings of the verb for fearing and al-Tabari's choice among them, the state in which taking a payment is allowed, and the report of the first khul' (Jamila and Thabit ibn Qays), in Arabic, English and Urdu; also paraphrases typed verse phrases in earlier Arabic prose.
 - Passage 2:229 continues (vol. 4, pp. 541-547): the views on the verse as a number of divorces or as the sunna of divorce, al-Tabari's choice of the number reading, the meaning of keeping or releasing, the Abu Razin report and the editor's objection to it, in Arabic, English and Urdu; also rewords a close paraphrase of the 2:228 wording in the Arabic prose.
