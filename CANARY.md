@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:232 (rest, pp. 27-31) and 2:233 first touch (pp. 30-32, reports 4948-4949): al-Tabari's argument on the guardian (attributed as his), the demonstrative, purity and the knowledge of hearts, and the opening of 2:233 on mothers and nursing, in Arabic, English and Urdu.
 - Passage 2:232 (pp. 20-26, reports 4932-4947): the remaining occasion reports (Ma'qil ibn Yasar and Jabir ibn 'Abd Allah), the reports that read it as a ban on guardians' obstruction, al-Tabari's own choice, his word study of the verb, the report on marriage gifts, and the start of his argument on the guardian (his view, attributed as his), in Arabic, English and Urdu.
 - Passages 2:231 (rest, pp. 13-16, reports 4924-4926) and 2:232 first touch (pp. 17-19, reports 4927-4931, the Ma'qil ibn Yasar reports): al-Tabari's reading of the clauses on God's favour, the Book, wisdom and admonition, and the occasion reports with the editor's notes, in Arabic, English and Urdu.
 - Passage 2:231 first touch (vol. 5, pp. 7-13): al-Tabari's explanation of keeping and releasing divorced women at the end of their term, the reports on harmful repeated taking-back, the root of the word for release, and the clauses on wronging oneself and on mockery of God's signs, in Arabic, English and Urdu; the library note now records the volume 5 page offset (zero) and a gap of printed pp. 423-426 in the scan.
