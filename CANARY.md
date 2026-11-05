@@ -18,6 +18,8 @@ open a new block on top with the new version and today's date.
 ### Data
 - **Fourth Explorer batch, final twenty stories**: one further person and nineteen dynasties complete forty stories / 200 chronological stops across 120 Arabic, English and Urdu routes. They reuse 80 existing screened image variants, retain optional colour backgrounds and existing event-language fallbacks, and add no event facts, dates or relations.
 - **Fourth Explorer batch, first twenty stories**: twenty person stories reuse existing dated, cited events, with Arabic, English and Urdu subject metadata. Original facts, dates, relations and existing translations are preserved; no images or runtime code are changed.
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 40 — Wafayat al-a'yan and Tarikh al-khulafa cohorts).
+- **Events**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 4).
 - **Events**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 3).
 - **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 39, Ibn Hisham al-Saqqa cohort).
 - **Persons**: 16 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 38, Ibn Hisham al-Saqqa cohort — entry recorded with batch 39).
