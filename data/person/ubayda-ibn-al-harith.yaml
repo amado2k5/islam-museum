@@ -1,6 +1,6 @@
 id: person/ubayda-ibn-al-harith
 class: person
-label: { en: "Ubayda ibn al-Harith", ar: "عبيدة بن الحارث" }
+label: { en: "Ubayda ibn al-Harith", ar: "عبيدة بن الحارث" , ur: "عبیدہ بن حارث"}
 names:
   - { kind: full, lang: ar, value: "عبيدة بن الحارث بن المطلب بن عبد مناف الهاشمي" }
 gender: male
@@ -10,6 +10,7 @@ traditions: [sunni]
 summary:
   en: "A Hashimi Muhajir, the eldest of the three Muslim duelists at Badr; he exchanged two blows with Utba ibn Rabi'a that left both mortally wounded, and died at al-Safra days later on the march home."
   ar: "هاشمي مهاجري، أسنّ المبارزين الثلاثة يوم بدر؛ اختلف بينه وبين عتبة بن ربيعة ضربتان أثخن كلٌّ منهما صاحبه، فقُطعت رجله ومات بالصفراء بعد أربعة أو خمسة أيام."
+  ur: "ہاشمی مہاجر اور بدر کے تین مسلمان مبارزوں میں سب سے عمر رسیدہ؛ عتبہ بن ربیعہ کے ساتھ مقابلے میں شدید زخمی ہوئے اور واپسی کے سفر میں چار یا پانچ دن بعد صفراء میں وفات پائی۔ {cite:mubarakpuri-raheeq}"
 wings: [people]
 themes: [battles]
 periods: [period/prophetic-era]
@@ -28,3 +29,15 @@ relations:
 external_ids: { wikidata: "Q662348" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mishkat-al-masabih]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 216-217)" }
+
+provenance:
+  layer: own-research
+  source: "Existing museum record and defined sources: source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mishkat-al-masabih. Attribution metadata restored only; no new source pages examined."
+  generated_by: Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 216-217); Copilot SDK in VS Code (metadata restoration)
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
+  model: unknown
+  run: explorer-sixth-40-stories-2026-11-04

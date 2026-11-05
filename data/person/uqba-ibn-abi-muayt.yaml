@@ -1,6 +1,6 @@
 id: person/uqba-ibn-abi-muayt
 class: person
-label: { en: "Uqba ibn Abi Mu'ayt", ar: "عقبة بن أبي معيط" }
+label: { en: "Uqba ibn Abi Mu'ayt", ar: "عقبة بن أبي معيط" , ur: "عقبہ بن ابی معیط"}
 names:
   - { kind: full, lang: ar, value: "عقبة بن أبي معيط بن عمرو بن أمية" }
 gender: male
@@ -11,6 +11,7 @@ traditions: []
 summary:
   en: "A Qurashi of Banu Abd Shams among the documented harassers of the Prophet in Mecca; captured at Badr, he was one of the two captives executed on the march home — a fact the sources record soberly. وفي صحيح البخاري أن ابن عمرو شاهده وقد جاء إلى النبي وهو يصلي فوضع رداءه في عنقه فخنقه خنقاً شديداً حتى جاء أبو بكر فدفعه عنه «أتقتلون رجلاً أن يقول ربي الله» {cite:sahih-al-bukhari 3678}."
   ar: "قرشي من بني عبد شمس من الموثق أذاهم للنبي بمكة؛ أُسر ببدر وكان أحد الأسيرين اللذين أُعدما في طريق العودة — حقيقة تسجلها المصادر بجفاف."
+  ur: "بنو عبد شمس کے قریشی، مکہ میں نبی کو اذیت پہنچانے والوں میں مذکور؛ بدر میں گرفتار ہوئے اور واپسی کے سفر میں قتل کیے جانے والے دو قیدیوں میں سے تھے۔ {cite:ibn-ishaq-guillaume}"
 wings: [people]
 themes: [anti-muslim-hatred, battles]
 periods: [period/prophetic-era]
@@ -35,3 +36,14 @@ status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 education:
   levels: [scholars]
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: "Existing museum record and defined sources: source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari. Attribution metadata restored only; no new source pages examined."
+  generated_by: Devin; 2026-10-11; Copilot SDK in VS Code (metadata restoration)
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
+  model: unknown
+  run: explorer-sixth-40-stories-2026-11-04

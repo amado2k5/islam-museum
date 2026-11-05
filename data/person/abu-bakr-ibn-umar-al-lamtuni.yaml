@@ -12,8 +12,9 @@ regions: [maghreb, west-africa-sahel]
 provenance:
   layer: own-research
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء، مخطوط ممسوح)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-wafayat-batch-1
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch50
 external_ids: { wikidata: "Q334882" }
 sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 3 }
