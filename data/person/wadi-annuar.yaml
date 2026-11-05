@@ -1,0 +1,42 @@
+id: person/wadi-annuar
+class: person
+names:
+  - { value: "Mohammad Wadi Annuar bin Ayub", kind: full }
+  - { value: "محمد وادي انوار", kind: full }
+  - { value: "Ustaz Wadi Annuar", kind: alternate }
+  - { value: "Wadi Anuar", kind: alternate }
+label:
+  ar: "وادي أنوار"
+  en: "Wadi Annuar"
+  ur: "وادی انوار"
+summary:
+  ar: "داعية ماليزي موجّه إلى الشباب، وُلد في سونغاي بيتاني بولاية قدح سنة 1983 وتخصص في الشريعة واللغة العربية في دمشق. أسس معهد تحفيظ القرآن الذي صار «أكاديمية دار العلمي»، ويرأس شركة «دعوة غلوبال»، واشتهر بمواعظه عن أشراط الساعة وسير الصحابة؛ بلغ متابعوه 3.4 ملايين على تيك توك و1.3 مليون على إنستغرام بحسب تحليل معهد ISEAS في أكتوبر 2026، وجمعت مبادرته «ركوب دعوة الشباب» في ألور ستار نحو 40 ألف شاب في سبتمبر 2026."
+  en: "Malaysian youth-focused preacher, born in Sungai Petani, Kedah, in 1983 and trained in Shariah and Arabic in Damascus. He founded the tahfiz school that became Akademi Darul Ilmi and heads Dakwah Global Sdn. Bhd.; he is known for sermons on the signs of the end times and the lives of the Companions. ISEAS analysis in October 2026 counted 3.4 million TikTok and 1.3 million Instagram followers for him, and his 'Ride Dakwah Anak Muda' gathering in Alor Setar drew some 40,000 young people in September 2026."
+  ur: "نوجوانوں پر مرکوز ملائیشیائی مبلغ، 1983 میں قدح کے سنگائی پیتانی میں پیدا ہوئے اور دمشق میں شریعت و عربی کی تعلیم حاصل کی۔ انہوں نے تحفیظ اسکول قائم کیا جو اکیڈمی دار العلمی بنا، اور ڈاکواہ گلوبل کے سربراہ ہیں؛ قیامت کی نشانیوں اور صحابہ کی سیرت پر خطبات سے معروف ہیں۔ اکتوبر 2026 کے ISEAS تجزیے کے مطابق ٹک ٹاک پر ان کے فالوورز 3.4 ملین اور انسٹاگرام پر 1.3 ملین تھے، اور ستمبر 2026 میں الور ستار میں ان کی «رائیڈ ڈاکواہ انک مودا» تقریب میں تقریباً 40 ہزار نوجوان شریک ہوئے۔"
+gender: male
+born:
+  edtf: "1983-09-20"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born Mohammad Wadi Annuar bin Ayub on 20 September 1983 in Sungai Petani, Kedah: the Malay article's infobox and text and the English article's infobox and lead agree. The Malay article gives the same day in Hijri as 12 Dhu al-Hijja 1403, so the stored Hijri year follows the article's own date. No place record for Sungai Petani or Kedah exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-wadi-annuar-ms, source/wikipedia-wadi-annuar-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives his denomination as Sunni and his creed as Ash'ari — structured data from one article family, which never settles faith. No prose text consulted names a school for the man himself: the texts give his formation (a diploma specialising in Shariah and Arabic at a Damascus institute), his teaching licences from Malaysian religious authorities and his offices (founder of Akademi Darul Ilmi, chief executive of Dakwah Global), and formation, licences and offices never count. The readings are preserved here and the value stays unknown."
+    sources: [source/wikipedia-wadi-annuar-en, source/wikipedia-wadi-annuar-ms]
+roles: [preacher, teacher, writer]
+wings: [people, living]
+regions: [southeast-asia]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-wadi-annuar-ms, source/wikipedia-wadi-annuar-en] }
+sources: [source/wikipedia-wadi-annuar-ms, source/wikipedia-wadi-annuar-en, source/fulcrum-wadi-annuar-rdam-2026]
+provenance:
+  layer: own-research
+  source: "The 2026-11-04 harvest entry (TikTok 2.9M per a speaker bio the harvest read; Instagram 1.2–1.3M; YouTube c. 820K), researched against the Malay and English Wikipedia articles and the ISEAS Fulcrum commentary of 1 October 2026, all read in full on 4 November 2026. The speaker-bio page itself (a Google Sites page) redirected to a sign-in from this session and could not be re-read, so no source entity is registered for it; the Fulcrum commentary's later counts (TikTok 3.4M, Instagram 1.3M, both October 2026) are used as the current dated figures, superseding the harvest's 2.9M TikTok figure. Only one relation is written: he studied in Damascus from 2001 and place/damascus exists in the museum; no birthplace record exists for Sungai Petani, and no group record exists for Akademi Darul Ilmi or Dakwah Global, so no further edges are written. Wikidata could not be checked: wikidata.org returns HTTP 403 to this session's fetcher, so no QID is recorded (wave-189/190 pattern). Existence checks: slug and name-variant greps over data/person/ and data/_homonyms.yaml found no existing record and no namesake needing an entry."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-191"
+status: { review: published, completeness: 3 }
