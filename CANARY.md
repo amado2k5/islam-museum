@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Verse-text repair, sweep batch 2: 25 Arabic and Urdu commentary files for 2:16 to 2:27 had typed verse wording replaced by links to the verse in the frozen Tanzil text, as the no-typed-Qur'an rule requires.
 - Passage 2:222 closes (vol. 4, pp. 396-397) and 2:223 gets its first touch (pp. 397-401): the field metaphor, why women are called a tilth, and the views on the meaning of the word for 'however' (Ibn 'Abbas, 'Ikrima, Mujahid, Muhammad ibn Ka'b, Qatada, al-Suddi and the account of the Jewish man's remark), in Arabic, English and Urdu, without typed verse wording.
 - Repair: swept al-Tabari commentary on 2:14 to 2:2x of volumes 1 to 3 (batch 1 of the sweep), replacing quoted verse phrases of three or more words in the Arabic and Urdu prose with passage links, matched against the frozen Tanzil text. Single words, two-word glosses, names, hadith and poetry are untouched.
 - Repair: checked the passage links added in the earlier typed-verse repair for al-Tabari vol. 4 (2:196-2:221) against the frozen Tanzil text and corrected the ones pointing to a neighbouring or wrong verse (for example 2:200, 2:210 and 2:216), in the Arabic and Urdu prose.
