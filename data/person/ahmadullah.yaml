@@ -1,0 +1,30 @@
+id: person/ahmadullah
+class: person
+names:
+  - { kind: full, value: "শায়খ আহমাদুল্লাহ" }
+  - { kind: full, value: "Ahmadullah" }
+  - { kind: alternate, value: "Shaykh Ahmadullah" }
+label: { ar: "أحمد الله", en: "Shaykh Ahmadullah", ur: "احمد اللہ" }
+summary:
+  ar: "عالم وفقيه وناشط اجتماعي بنغلاديشي، وُلد في مقاطعة لاكشميبور سنة 1981، درس في مدارس قومية وتخرج في دار العلوم هاتهزاري، وأسس مؤسسة السنة الخيرية ويرأسها، وأسس موقع الأسئلة والأجوبة IQA.info، وتصل محاضراته إلى الملايين عبر قناة يوتيوب بدأت قناةً للمؤسسة ثم صارت تحمل اسمه."
+  en: "Bangladeshi Islamic scholar, jurist and social activist, born in Lakshmipur District in 1981. He studied in Qawmi madrasas and graduated from Darul Uloom Hathazari, founded and chairs the As-Sunnah Foundation charity, and founded the IQA.info question-and-answer site; his lectures reach millions through a YouTube channel that began as the Foundation's and now carries his name."
+  ur: "بنگلہ دیشی اسلامی عالم، فقیہ اور سماجی کارکن، جو 1981 میں ضلع لکشمی پور میں پیدا ہوئے۔ انہوں نے قومی مدارس میں تعلیم حاصل کی اور دارالعلوم ہاٹھازاری سے فارغ التحصیل ہوئے، اس-سنہ فاؤنڈیشن کی بنیاد رکھی اور اس کے چیئرمین ہیں، اور IQA.info سوالات و جوابات کی ویب سائٹ قائم کی؛ ان کے خطبات ایک یوٹیوب چینل کے ذریعے لاکھوں تک پہنچتے ہیں جو پہلے فاؤنڈیشن کا تھا اور اب ان کے نام سے ہے۔"
+gender: male
+born: { edtf: "1981-12-15", hijri: "1402", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 15 December 1981 in Bashikpur village, Sadar Upazila, Lakshmipur District, per the English article's body and infobox, citing Bengali press; the Hijri year 1402 is derived from the Gregorian date.", sources: [source/wikipedia-ahmadullah-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives Religion: Sunni Islam, Denomination: Sunni, Jurisprudence: Hanafi and Creed: Athari. Those are structured data, which never settles faith in this lane, alone or combined. No prose text read names a school or creed for the man himself: his Qawmi madrasa formation (Darul Uloom Hathazari, ifta studies at Khulna Darul Uloom) and the recorded influence of his teacher Khandaker Abdullah Jahangir are institutional history, not attestation, and a Dhaka Post headline of 22 August 2023 reporting his remark that the Saudi Salafi ideology is part of the faith reports a position, not a school attestation. Recorded unknown until two independent texts attest a value for him."
+    sources: [source/wikipedia-ahmadullah-en]
+roles: [scholar, preacher, writer]
+wings: [people, living]
+regions: [south-asia]
+relations:
+  - { type: lived_in, target: place/dhaka, sources: [source/wikipedia-ahmadullah-en] }
+sources: [source/wikipedia-ahmadullah-en, source/newspoint-ians-ahmadullah-visa, source/factsider-ahmadullah]
+provenance:
+  layer: own-research
+  source: "The wave-192 harvest entry §2.1 (YouTube channel 'Ahmadullah', 3.33 million subscribers per the article's YouTube infobox, its figures dated 30 November 2025), researched against the English Wikipedia article read in full on 5 November 2026, the IANS analysis of the April 2026 Australian visa cancellation read the same day, and the factsider biography, whose 2022–2023 text describes his videos as published on the As-Sunnah Foundation's channel — the channel's earlier state. No Wikidata item could be read or verified in this session (no item surfaced in search, and the item endpoints were not reachable), so no QID is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-192"
+status: { review: published, completeness: 3 }
