@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 41 — al-Isaba companion-biography cohorts).
 - **Tabari (Shakir) edition, 16 volumes**: 16 source records (one per volume, with ar/en/ur labels and summaries) for Ahmad and Mahmud Shakir's edition of Jami' al-Bayan (Maktabat Ibn Taymiyya), and a new section on the edition in the Jami' al-Bayan work in Arabic, English and Urdu. The body of the commentary is not yet harvested.
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 40 — Wafayat al-a'yan and Tarikh al-khulafa cohorts).
 - **Events**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 4).
