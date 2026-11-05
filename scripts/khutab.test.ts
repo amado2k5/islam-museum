@@ -31,7 +31,7 @@ const onFile = (issues: Issue[], f: string) => issues.filter((i) => i.level === 
 describe("khutab-durus rules (docs/plan/25 §8)", () => {
   it("rejects a sermon with no speaker", () => {
     const f = work("khutab-no-speaker");
-    const { issues } = validateAll([f]);
+    const { issues } = validateAll([f], { onlyExtra: true });
     expect(onFile(issues, f.file).some((i) => /delivered\.by/.test(i.msg))).toBe(true);
   });
   it("accepts a well-formed sermon", () => {
@@ -42,7 +42,7 @@ describe("khutab-durus rules (docs/plan/25 §8)", () => {
       composed: { hijri: "0010-12-09", precision: "day" },
       ruler_at_time: [{ who: "polity/rashidun-caliphate", role: "contemporary" }],
     });
-    const { issues } = validateAll([f]);
+    const { issues } = validateAll([f], { onlyExtra: true });
     expect(onFile(issues, f.file)).toEqual([]);
   });
   it("rejects a ruler role beyond contemporary without a citation", () => {
@@ -50,7 +50,7 @@ describe("khutab-durus rules (docs/plan/25 §8)", () => {
       delivered: { by: "person/muhammad" },
       ruler_at_time: [{ who: "polity/rashidun-caliphate", role: "named-in-dua" }],
     });
-    const { issues } = validateAll([f]);
+    const { issues } = validateAll([f], { onlyExtra: true });
     expect(onFile(issues, f.file).some((i) => /ruler_at_time/.test(i.msg))).toBe(true);
   });
   it("rejects a series lesson with no order", () => {
@@ -59,7 +59,7 @@ describe("khutab-durus rules (docs/plan/25 §8)", () => {
       kind: "lecture", delivered: { by: "person/muhammad" },
       relations: [{ type: "part_of", target: "work/khutab-series" }],
     });
-    const { issues } = validateAll([series, lesson]);
+    const { issues } = validateAll([series, lesson], { onlyExtra: true });
     expect(onFile(issues, lesson.file).some((i) => /order/.test(i.msg))).toBe(true);
   });
   it("accepts a series lesson with an order", () => {
@@ -68,12 +68,12 @@ describe("khutab-durus rules (docs/plan/25 §8)", () => {
       kind: "lecture", delivered: { by: "person/muhammad" }, order: 3,
       relations: [{ type: "part_of", target: "work/khutab-series2" }],
     });
-    const { issues } = validateAll([series, lesson]);
+    const { issues } = validateAll([series, lesson], { onlyExtra: true });
     expect(onFile(issues, lesson.file)).toEqual([]);
   });
   it("rejects a YouTube URL in the media store", () => {
     const m = media("khutab-yt", { url: "https://www.youtube.com/watch?v=abc123" });
-    const { issues } = validateAll([m]);
+    const { issues } = validateAll([m], { onlyExtra: true });
     expect(onFile(issues, m.file).some((i) => /YouTube/.test(i.msg))).toBe(true);
   });
 });

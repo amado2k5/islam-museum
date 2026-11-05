@@ -60,16 +60,18 @@ export function clearRepoCache(): void {
   proseCache = null;
 }
 
-export function loadStubs(): Stub[] {
+// `shared: true` returns the cached array itself instead of a copy: the caller promises to only read it and never
+// to change it or anything inside it. Copying ~17,000 entities costs seconds, and a read-only check does not need it.
+export function loadStubs(opts: { shared?: boolean } = {}): Stub[] {
   // data/_stubs.yaml plus any data/_stubs.d/*.yaml, so parallel contributors never edit the same file
   if (!stubCache) {
     const files = [p("data", "_stubs.yaml"), ...listFiles(p("data", "_stubs.d"), ".yaml")];
     stubCache = files.filter((f) => existsSync(f)).flatMap((f) => readYaml<Stub[]>(f) ?? []);
   }
-  return structuredClone(stubCache);
+  return opts.shared ? stubCache : structuredClone(stubCache);
 }
 
-export function loadEntities(): { entity: Entity; file: string }[] {
+export function loadEntities(opts: { shared?: boolean } = {}): { entity: Entity; file: string }[] {
   if (!entityCache) {
     const out: { entity: Entity; file: string }[] = [];
     for (const cls of CLASSES) {
@@ -77,23 +79,45 @@ export function loadEntities(): { entity: Entity; file: string }[] {
     }
     entityCache = out;
   }
-  return structuredClone(entityCache);
+  return opts.shared ? entityCache : structuredClone(entityCache);
+}
+
+/** Read one prose file (content/<lang>/<class>/<slug>.md); null for anything not at that depth (content/<lang>/_pages/*). */
+function readProseFile(file: string): Prose | null {
+  const r = rel(file).split("/"); // content/<lang>/<class>/<slug>.md
+  if (r.length !== 4) return null;
+  const raw = readFileSync(file, "utf8");
+  const m = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  const fm = m ? (parse(m[1]) ?? {}) : {};
+  return { id: `${r[2]}/${r[3].replace(/\.md$/, "")}`, lang: r[1], file, frontmatter: fm, body: m ? m[2] : raw };
 }
 
 export function loadProse(): Prose[] {
   if (!proseCache) {
     const out: Prose[] = [];
     for (const file of listFiles(p("content"), ".md")) {
-      const r = rel(file).split("/"); // content/<lang>/<class>/<slug>.md
-      if (r.length !== 4) continue; // skips content/<lang>/_pages/*
-      const raw = readFileSync(file, "utf8");
-      const m = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
-      const fm = m ? (parse(m[1]) ?? {}) : {};
-      out.push({ id: `${r[2]}/${r[3].replace(/\.md$/, "")}`, lang: r[1], file, frontmatter: fm, body: m ? m[2] : raw });
+      const item = readProseFile(file);
+      if (item) out.push(item);
     }
     proseCache = out;
   }
   return structuredClone(proseCache);
+}
+
+/** The prose files of just these entity ids, in these languages, read straight from disk (no repository-wide scan). */
+export function loadProseFor(ids: Iterable<string>, langs: readonly string[]): Prose[] {
+  const out: Prose[] = [];
+  for (const id of ids) {
+    if (typeof id !== "string" || !/^[a-z]+\/[a-z0-9-]+$/.test(id)) continue; // only well-formed class/slug ids name a path
+    const [cls, slug] = id.split("/");
+    for (const lang of langs) {
+      const file = p("content", lang, cls, `${slug}.md`);
+      if (!existsSync(file)) continue;
+      const item = readProseFile(file);
+      if (item) out.push(item);
+    }
+  }
+  return out;
 }
 
 // ---------- dates ----------
