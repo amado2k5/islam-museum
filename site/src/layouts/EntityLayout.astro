@@ -137,7 +137,6 @@ const crumbs = [
   ...(wingChips[0] ? [{ label: T.nav[wingChips[0]], href: wingHref(lang, wingChips[0] as any) }] : []),
   { label: T.class[n.class] },
 ];
-const reviewStatus = d.status?.review ?? "draft";
 // the constellation link only where export-api wrote a neighbourhood (a lone verse has none of its own)
 const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" && n.degree < 2);
 ---
@@ -185,8 +184,6 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
               {n.periods.length > 0 && <><dt class="muted">{T.entity.era}</dt><dd style="margin:0">{n.periods.map((p) => <a href={href(lang, p)}>{labelOf(byId.get(p)!, lang)}</a>).reduce((a: any[], c, i) => (i ? [...a, " · ", c] : [c]), [])}</dd></>}
               {n.regions.length > 0 && <><dt class="muted">{T.entity.region}</dt><dd style="margin:0">{n.regions.map((r) => regionLabel(r, lang)).join(" · ")}</dd></>}
               {(Object.keys(d.external_ids ?? {}).length > 0 || d.iiif_manifest) && <><dt class="muted">{T.entity.identifiers}</dt><dd style="margin:0">{(Object.entries(d.external_ids) as [string, string][]).filter(([k, v]) => externalUrl(k, v)).map(([k, v]) => <a href={externalUrl(k, v)} rel="noopener" style="margin-inline-end:10px">{T.ids[k] ?? k}</a>)}{d.iiif_manifest && <a href={d.iiif_manifest} rel="noopener" style="margin-inline-end:10px">{T.ids.iiif}</a>}</dd></>}
-              <dt class="muted">{T.entity.review}</dt>
-              <dd style="margin:0"><span class="chip">{T.status[reviewStatus]}</span> {d.status?.completeness !== undefined && <span class="status-note">{T.entity.completeness} {d.status.completeness}/5 · <a href={`${REPO}/issues/new?template=suggest-entity.yml&title=${encodeURIComponent(`Complete: ${n.id}`)}`}>{T.entity.complete_help}</a></span>}</dd>
             </dl>
             {d.sensitivity === "figurative-prophet" && <p class="muted" style="font-size:.85rem;margin:10px 0 0">{T.entity.figurative}</p>}
             {d.sensitivity === "contested" && <p role="note" style="font-size:.9rem;margin:10px 0 0;padding-inline-start:10px;border-inline-start:4px solid #b45309"><strong>{T.entity.contested_label}:</strong> {T.entity.contested_notice}</p>}
@@ -344,6 +341,9 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
       <p class="muted">
         <a href={`${REPO}/edit/main/data/${n.class}/${n.slug}.yaml`} rel="noopener">{T.entity.edit}</a> ·
         <a href={`${REPO}/issues/new?template=report-error.yml&title=${encodeURIComponent(`Error: ${n.id}`)}`} rel="noopener">{T.entity.report}</a> ·
+        {/* The record's review state and completeness score are workflow internals (docs/agents/publication-standard.md) and are
+            not shown to readers; the invitation to complete the record stays. */}
+        {d.status?.completeness !== undefined && <><a href={`${REPO}/issues/new?template=suggest-entity.yml&title=${encodeURIComponent(`Complete: ${n.id}`)}`} rel="noopener">{T.entity.complete_help}</a> · </>}
         <a href={`/api/v1/${n.class}/${n.slug}.json`} class="ltr">JSON</a>
       </p>
     </section>

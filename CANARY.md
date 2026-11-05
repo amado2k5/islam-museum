@@ -26,6 +26,7 @@ open a new block on top with the new version and today's date.
 ### Changed
 
 - The open-data guide now documents all 23 schema classes and the invention API endpoints.
+- Entry pages no longer show a "Draft" label or a "Completeness n/5" score, which are internal workflow notes; the invitation to help complete an entry stays, next to "Report an error".
 
 ### Fixed
 
@@ -33,6 +34,7 @@ open a new block on top with the new version and today's date.
 - The museum's API catalog at /.well-known/api-catalog, the machine-readable list of its data services that every page's Link header points to, is published again. The build kept the site in an archive that silently leaves out folders whose names begin with a dot, so the catalog never reached the live site and the address answered "not found"; the archive now keeps them, and the catalog is served with the other root data files.
 - The Hijri calendar's "Today is" line, highlighted day and opening month now follow the reader's own date, worked out in the browser with the same conversion as the Time Machine. They had been fixed on the day the site was built. Without JavaScript the page still shows a complete month.
 - A page that does not exist under /en/ or /ur/ now says so in English or Urdu instead of Arabic; the rest of the site keeps the Arabic page.
+- Each exhibit now appears once on the exhibits list in every language. The two Alexandria trails were one trail recorded twice: they are now one, and the old address still leads to it. "Great Mosques of the Garrison Cities" and «دول المغرب الأدنى» (States of the Maghreb) are different trails that shared a title with another, and now have their own.
 
 ### Tests
 
@@ -41,6 +43,10 @@ open a new block on top with the new version and today's date.
 ### Performance
 
 - Search starts faster, above all on phones and slow connections: the list of variant spellings (Saladin, Salah al-Din…) is now split into small pieces and the search page fetches only the few it needs for the words typed, about 14 KB each, instead of the whole list on every visit (2 MB compressed, 10 MB in Arabic and Urdu). Each search still waits for its pieces, so results and counts are the same as before.
+
+### Data
+
+- The pathway total is now 300: the duplicate Alexandria trail (exhibit/path-alexandria-city) became an alias of exhibit/path-alexandria, and the homepage and learning pages say 300 in Arabic, English and Urdu.
 
 ---
 
