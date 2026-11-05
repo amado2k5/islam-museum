@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:225 continues (vol. 4, pp. 446-451): al-Tabari's own choice on the meaning of idle talk in oaths (with his rejection of the view that it covers oaths to disobedience), and the start of his treatment of the clause on what hearts have earned, in Arabic, English and Urdu.
 - Verse-text repair, sweep batch 11: 25 Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text (exact matches only).
 - Passage 2:225 continues (vol. 4, pp. 440-446): the last views on the idle-talk oaths (oaths to disobedience, filler oaths, self-imprecations, oaths broken in forgetfulness) with the editor's gradings, and the start of al-Tabari's own reasoning on the word for idle talk, in Arabic, English and Urdu.
 - Verse-text repair, sweep batch 10: 25 Arabic and Urdu commentary files had typed verse wording replaced by links to the verse in the frozen Tanzil text (exact matches only).
