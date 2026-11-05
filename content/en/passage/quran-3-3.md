@@ -14,4 +14,4 @@ Its place: verse 3 of 200 verses in the surah. The text is kept in the frozen Ta
 
 In 6554, Mujahid (through Muhammad ibn Amr, Abu Asim, Isa and Ibn Abi Najih): confirming what came before, a book or a messenger. In 6555 the same from Mujahid (through al-Muthanna, Abu Hudhayfa, Shibl and Ibn Abi Najih). In 6556, Muhammad ibn Jafar ibn al-Zubayr (through Ibn Humayd, Salama and Ibn Ishaq): He sent it down with truth in what they disagreed on; the editor says it is the remainder of the earlier reports that ended at 6553. {cite:tafsir-tabari-shakir-v06 p. 161} In 6557, Qatada (through Bishr, Yazid and Said): it is the Qur'an, confirming the books that had gone before it. In 6558, al-Rabi' (through al-Muthanna, Ishaq, Ibn Abi Jafar and his father): confirming what came before of scripture and messenger.
 
-We stop at the end of p. 161, where the explanation of the mention of the Torah and the Gospel begins. These are reports as transmitted, with no museum verdict.
+These are reports as transmitted, with no museum verdict.
