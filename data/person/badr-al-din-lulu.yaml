@@ -1,8 +1,10 @@
 id: person/badr-al-din-lulu
 class: person
-label: { ar: "بدر الدين لؤلؤ صاحب الموصل" }
+label: { ar: "بدر الدين لؤلؤ صاحب الموصل" , ur: "بدر الدین لؤلؤ", en: "Badr al-Din Lu'lu'"}
 summary:
   ar: "صاحب الموصل، ولما وصل أخبار التتر إلى الموصل بعد ملكهم مراغة سنة ثمان عشرة وستمائة خافه أهلها حتى همّ بعضهم بالجلاء، فسير جمعاً صالحاً من عسكره نجدة إلى مظفر الدين صاحب إربل وهمّ أن يحفظ المضايق الوعرة من جهة التتر، ووصلت كتب الخليفة ورسله إلى الموصل يأمرهم بالاستعداد {cite:kamil-ibn-al-athir p. 412}. وفي الشذرات استولى على الموصل سنة إحدى وعشرين وخنق ابن أستاذه محمود بن القاهر وزعم أنه مات {cite:shadharat-dhahab p. 95}، وتسلطن رسمياً سنة إحدى وثلاثين وانقرض البيت الأتابكي {cite:shadharat-dhahab p. 143}."
+  ur: "موصل کا حکمران جس نے منگولوں کے مراغہ پر قبضے کے بعد شہر کے دفاع کا انتظام کیا؛ اس کے اقتدار میں مقامی اتابکی خاندان کا خاتمہ ہوا۔ {cite:kamil-ibn-al-athir}"
+  en: "Ruler of Mosul who prepared its defence after the Mongol capture of Maragha and brought the local atabeg dynasty to an end. {cite:kamil-ibn-al-athir}"
 died: { edtf: "1259-08~", hijri: "0657-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في شعبان سنة سبع وخمسين وستمائة وقد نيف على الثمانين وانخرط نظام بلده من بعده {cite:shadharat-dhahab p. 297}." }
 gender: male
 wings: [people]
@@ -13,6 +15,8 @@ provenance:
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 412"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-09
+  explorer_localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fifth-40-stories-2026-11-04","source":"Missing English/Urdu labels and concise summaries restated from this existing Arabic museum record and its defined sources; no new facts or source-page research."}
+  model: "unknown"
 relations:
   - { type: participated_in, target: event/lulu-takes-mosul-621, role: "المستولي", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/zangid-house-ends-631, role: "المتسلطن", sources: [source/shadharat-dhahab] }
