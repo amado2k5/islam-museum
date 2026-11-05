@@ -17,8 +17,8 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وہ ایک دوسری توجیہ بھی ذکر کرتے ہیں کہ مراد وہ سورتیں ہیں جو البقرہ سے پہلے مکہ اور مدینہ میں نازل ہوئیں، کیونکہ وہ سب اسی کتاب کا حصہ ہیں، لیکن پہلے قول کو واضح تر ہونے کی بنا پر ترجیح دیتے ہیں۔ {cite:tafsir-tabari-shakir-v01 p. 226} {cite:tafsir-tabari-shakir-v01 p. 227}
 بعض لوگوں کا قول یہ بھی نقل کرتے ہیں کہ مراد تورات اور انجیل ہیں، اور کہتے ہیں کہ اس صورت میں «ذلک» اپنے اصل معنی یعنی غائب کی خبر ہی رہتا ہے اور کوئی تکلف نہیں۔ {cite:tafsir-tabari-shakir-v01 p. 227} {cite:tafsir-tabari-shakir-v01 p. 228}
 
-## طبری کی تفسیر میں: «لا ریب فیہ»
-طبری «لا ریب فیہ» کا مطلب «لا شک فیہ» بیان کرتے ہیں، اور یہ [[person/mujahid-ibn-jabr|مجاہد]]، عطاء، سدی، [[person/abdullah-ibn-abbas|ابن عباس]]، [[person/abdullah-ibn-masud|ابن مسعود]]، [[person/qatada-ibn-diama|قتادہ]] اور [[person/al-rabi-ibn-anas|ربیع بن انس]] سے روایت کرتے ہیں، نیز [[person/ibn-jurayj|ابن جریج]] کی ابن عباس سے روایت۔ {cite:tafsir-tabari-shakir-v01 p. 228} {cite:tafsir-tabari-shakir-v01 p. 229}
+## طبری کی تفسیر میں: [[passage/quran-2-2|2:2]]
+طبری [[passage/quran-2-2|2:2]] کا مطلب «لا شک فیہ» بیان کرتے ہیں، اور یہ [[person/mujahid-ibn-jabr|مجاہد]]، عطاء، سدی، [[person/abdullah-ibn-abbas|ابن عباس]]، [[person/abdullah-ibn-masud|ابن مسعود]]، [[person/qatada-ibn-diama|قتادہ]] اور [[person/al-rabi-ibn-anas|ربیع بن انس]] سے روایت کرتے ہیں، نیز [[person/ibn-jurayj|ابن جریج]] کی ابن عباس سے روایت۔ {cite:tafsir-tabari-shakir-v01 p. 228} {cite:tafsir-tabari-shakir-v01 p. 229}
 وہ کہتے ہیں کہ «الریب» اس قول سے مصدر ہے کہ «رابنی الشیء یریبنی ریباً»، اور شک کے معنی میں اس کے استعمال پر ساعدہ بن جؤیہ کا ایک شعر بطور دلیل لاتے ہیں۔ «فیہ» کی ضمیر کتاب کی طرف لوٹتی ہے، گویا مراد یہ ہے کہ اس کتاب کے اللہ کی طرف سے ہونے میں کوئی شک نہیں، یہ متقین کے لیے ہدایت ہے۔ {cite:tafsir-tabari-shakir-v01 p. 229}
 ابن کثیر، ابن ابی حاتم کے حوالے سے نقل کرتے ہیں کہ اس بارے میں ان کے علم میں کوئی اختلاف نہیں۔ {cite:tafsir-tabari-shakir-v01 p. 229}
 «ھدی للمتقین» پر کلام [[concept/hidaya|ہدایت]] کے مدخل میں دیکھا جائے۔

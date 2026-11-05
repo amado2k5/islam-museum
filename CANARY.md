@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Repair: swept al-Tabari commentary on 2:14 to 2:2x of volumes 1 to 3 (batch 1 of the sweep), replacing quoted verse phrases of three or more words in the Arabic and Urdu prose with passage links, matched against the frozen Tanzil text. Single words, two-word glosses, names, hadith and poetry are untouched.
 - Repair: checked the passage links added in the earlier typed-verse repair for al-Tabari vol. 4 (2:196-2:221) against the frozen Tanzil text and corrected the ones pointing to a neighbouring or wrong verse (for example 2:200, 2:210 and 2:216), in the Arabic and Urdu prose.
 - Passage 2:222: al-Tabari's commentary continues (vol. 4 pp. 391-396): the remaining reports on the time of cleanness, his argument against reading the command as permitting the place of the blood, and the views on who the purifiers are (those who wash for prayer, those who avoid the forbidden passage, those who do not return to sins) with his choice, in Arabic, English and Urdu, without typed verse wording.
 - Passage 2:222: al-Tabari's commentary continues (vol. 4 pp. 386-391): his choice that being clean means having washed, and the two views on the command to come to them from where God commanded (the permitted passage versus the time of cleanness), with the reports of Ibn 'Abbas, Mujahid, 'Ikrima, Qatada, Ibrahim and Abu Razin, in Arabic, English and Urdu, without typed verse wording.

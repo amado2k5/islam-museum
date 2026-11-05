@@ -18,8 +18,8 @@ translators: []
 ويذكر وجهاً ثانياً: أن المراد السور التي نزلت قبل البقرة بمكة والمدينة، لأنها كلها من جملة هذا الكتاب، ثم يرجح القول الأول لأنه أظهر في معنى الكلام. {cite:tafsir-tabari-shakir-v01 p. 226} {cite:tafsir-tabari-shakir-v01 p. 227}
 ويذكر قول بعضهم إن المراد التوراة والإنجيل، ويقول إنه إن وُجّه الكلام إلى هذا الوجه لم يكن فيه تكلف، لأن «ذلك» تكون حينئذ إخباراً عن غائب على حقيقته. {cite:tafsir-tabari-shakir-v01 p. 227} {cite:tafsir-tabari-shakir-v01 p. 228}
 
-## في تفسير الطبري: «لا ريب فيه»
-يذكر الطبري أن معنى «لا ريب فيه» «لا شك فيه»، ويروي ذلك عن [[person/mujahid-ibn-jabr|مجاهد]] وعطاء والسدي و[[person/abdullah-ibn-abbas|ابن عباس]] و[[person/abdullah-ibn-masud|ابن مسعود]] و[[person/qatada-ibn-diama|قتادة]] و[[person/al-rabi-ibn-anas|الربيع بن أنس]]، وعن [[person/ibn-jurayj|ابن جريج]] عن ابن عباس. {cite:tafsir-tabari-shakir-v01 p. 228} {cite:tafsir-tabari-shakir-v01 p. 229}
+## في تفسير الطبري: [[passage/quran-2-2|2:2]]
+يذكر الطبري أن معنى [[passage/quran-2-2|2:2]] «لا شك فيه»، ويروي ذلك عن [[person/mujahid-ibn-jabr|مجاهد]] وعطاء والسدي و[[person/abdullah-ibn-abbas|ابن عباس]] و[[person/abdullah-ibn-masud|ابن مسعود]] و[[person/qatada-ibn-diama|قتادة]] و[[person/al-rabi-ibn-anas|الربيع بن أنس]]، وعن [[person/ibn-jurayj|ابن جريج]] عن ابن عباس. {cite:tafsir-tabari-shakir-v01 p. 228} {cite:tafsir-tabari-shakir-v01 p. 229}
 ويقول إن «الريب» مصدر من قولهم «رابني الشيء يريبني ريباً»، ويستشهد على استعماله بمعنى الشك ببيت لساعدة بن جؤية. ويعود الضمير في «فيه» على الكتاب، فكأن المعنى: لا شك في أن هذا الكتاب من عند الله هدى للمتقين. {cite:tafsir-tabari-shakir-v01 p. 229}
 ويذكر ابن كثير أن ابن أبي حاتم قال إنه لا يعلم في هذا خلافاً. {cite:tafsir-tabari-shakir-v01 p. 229}
 أما الكلام في «هدى للمتقين» فيُنظر في مدخل [[concept/hidaya|الهداية]].
