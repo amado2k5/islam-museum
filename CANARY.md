@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 43 — al-Isaba remainder, Ibn Khaldun Ibar Maghreb and East cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 42 — al-Isaba women and Wafayat al-a'yan cohorts).
 - **Events**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 6).
 - **Tabari on the seven ahruf**: the ahruf concept record now quotes al-Tabari's own argument from the first volume of the Shakir edition, in Arabic, English and Urdu: each ahruf is a different wording of one word, the recitation in them was permitted rather than required, and the community followed Uthman's single text.
