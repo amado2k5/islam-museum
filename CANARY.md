@@ -17,6 +17,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Sixth Explorer batch**: forty new curated stories (34 people, four places and two dynasties) reuse 116 existing events for 187 chronological stops and 120 Arabic/English/Urdu subject routes. Missing subject translations and provenance are added without changing existing facts, dates, relations or statuses; 52 screened native scene variants are reused. Existing Urdu event-text and optional colour-background fallbacks remain explicit; no new images or runtime changes.
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 48 — Nafh al-Tib, Kamil fi'l-Tarikh and Muntazam cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 47 — Ottoman-era Salabi, Muntazam and Nafh al-Tib cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 46 — al-Isaba remainder, Shadharat al-Dhahab and Ibn Khaldun al-Ibar East cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 45 — Shadharat al-Dhahab and al-Isaba cohorts).
