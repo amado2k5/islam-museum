@@ -35,6 +35,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:251 (pp. 357-363, reports 5741-5743): the three accounts of David and Goliath transmitted from Wahb b. Munabbih (two) and Mujahid, with the editor's notes labelled as his and the report that the People of the Book relate, in Arabic, English and Urdu; reported without a museum verdict.
 - Passages 2:249 close (pp. 352-353), 2:250 (pp. 353-354) and 2:251 start (pp. 354-357, report 5740): the grammar of the word for a band, the prayer for patience and steadfast feet, and the account from Wahb b. Munabbih of David and Goliath and Talut's turn against him, with the editor's notes labelled as his, in Arabic, English and Urdu; reported without a museum verdict.
 - Passage 2:249 (pp. 347-352, reports 5726-5739): the number who crossed the river and the Badr comparison, the views on who spoke the two sayings with al-Tabari's choice and argument (labelled as his), the sense of certainty of meeting God, with the editor's notes and the hadith references labelled as his and the scholars', in Arabic, English and Urdu; reported without a museum verdict.
 - Passage 2:249 (pp. 340-346, reports 5710-5725): where the river was, the test of drinking and the handful (al-Tabari's reading and his choice of the reading of the word for the handful labelled as his), the reports on how many crossed, with the editor's notes and the hadith references labelled as his and the scholars', in Arabic, English and Urdu; reported without a museum verdict.
