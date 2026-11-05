@@ -17,7 +17,7 @@ This file is updated with every merged phase or batch. A merged change is not li
   - D-004 keeps dates within the existing Julian/Gregorian calendar enum and records Hijri dates in the separate `hijri` field.
   - D-005 defers `/api/v1/inventions/timeline.json`, which is outside the endpoints approved by D-000.
   - The Phase 1 submission-impacting note is recorded in the A.5 claims register and DPGA evidence map. The origin refresh added 106 commits; the only overlapping path was `CANARY.md`, resolved by preserving its complete recovered v1.1.0 release history and adding v1.2.0 per D-006. The root package version remains 0.1.0, matching origin/main.
-  - The first site build exhausted the local system volume while writing 13 GB of generated pages. The successful post-merge build used the temporary `dist` symlink to the prepared external volume; generated API and site outputs were verified, and the temporary build output and symlink are being removed.
+  - The first site build exhausted the local system volume while writing 13 GB of generated pages. The successful post-merge build used the temporary `dist` symlink to the prepared external volume; generated API and site outputs were verified, and the temporary build output and symlink have been removed.
 
 ## Current state
 
