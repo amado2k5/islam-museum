@@ -34,6 +34,11 @@
 - PDF p. 182: on "ghayr al-maghdub" he argues that the phrase is parsed as qualifying the people of al-Fatiha 7 and that the Qur'an's own description of them makes it impossible that they are both pleased with and angry at the same time. Grammatical and reading points follow on this page.
 - Still to read: the rest of p. 152 (the rejected reading) and p. 182 (the reading and its grounds), then the readings concept.
 
+## PDF p. 152, the fatha reading of "malik" (sixth pass)
+- On p. 152 al-Tabari explains the reading with fatha on the kaf ("malika yawm al-din") as a vocative, "O owner of the Day", and gives grammatical grounds (Yusuf 29, and an old Arabic verse of a poet from the tribe of Asad, with a note on its source).
+- The index lists this reading among those he rejects. The rejection is not on p. 152 as read; it should be on the following page, to be checked.
+- Next: the page after 152 for the rejection, then p. 182 for the reading of "ghayr".
+
 ## Next steps
 1. Read vol. 1 introduction (PDF pp. 3–60): al-Tabari's method, the ahruf, the merit of tafsir (for concept/al-ahruf-al-sabaa, concept/tafsir-bil-mathur).
 2. Map the places in vol. 1–16 where al-Tabari gives his own preference among the readings (for question/did-al-tabari-reject-established-readings).

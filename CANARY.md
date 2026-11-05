@@ -199,6 +199,9 @@ open a new block on top with the new version and today's date.
 ### Data
 - **Two scholars' pages completed**: Fayz Kashani, the Safavid philosopher and traditionist, and Şeyhülislam Zekeriya Efendi now carry full sourced biographies in Arabic, English and Urdu — both were early draft cards that other pages already linked to.
 
+### Data
+- **Nine more contemporary voices, and two broadcasters**: new sourced pages for Saliha Erdim, Ning Umi Laila, Firanda Andirja, Hayati İnanç, Nihat Hatipoğlu, Gus Baha, Osman Nuri Topbaş, Gus Mus and Gus Muwafiq — preachers, teachers and writers that Indonesian and Turkish audiences learn from today — plus the Indonesian dawah networks Yufid.TV and Rodja TV, each in Arabic, English and Urdu.
+
 ---
 
 ## v1.0.2 — 2026-10-31
