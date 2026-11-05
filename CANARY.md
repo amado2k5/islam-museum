@@ -35,6 +35,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:238 (pp. 228-234, reports 5498-5528): the three views on the meaning of devotion in the last clause (obedience, silence, stillness and humility) with the reports of Ibn 'Abbas, Mujahid, Ibn Mas'ud and Zayd b. Arqam, and the editor's gradings labelled as his, in Arabic, English and Urdu.
 - Passage 2:238 (pp. 221-228, reports 5493-5497): al-Tabari's evidence for the afternoon prayer from sayings of the Prophet (Abu Basra, Buraydah and others), his own labelled surmise on why God urged guarding it, and his account of the name of the middle prayer, with the editor's notes labelled as his, in Arabic, English and Urdu.
 - Passage 2:238 (pp. 214-221, reports 5472-5492): the dawn-prayer view of Ibn 'Abbas, Abu al-'Aliya, Jabir, 'Ata', 'Ikrima, Mujahid and others with its ground, the view that it is one of the five and not known, and al-Tabari's own choice of the afternoon prayer (labelled as his, other views kept under their names, no museum verdict), with the editor's remarks labelled as his, in Arabic, English and Urdu.
 - Passage 2:238 (pp. 208-214, reports 5461-5471): the reports of the reading with a conjunction and the afternoon prayer named after the middle one (Hafsa, 'A'isha, Ibn 'Abbas, 'Ubayd b. 'Umayr), described as a reading attributed to codices and not as Qur'an, the sunset-prayer view of Qubaysa b. Dhu'ayb, and the start of the dawn-prayer view, with the editor's remarks labelled as his, in Arabic, English and Urdu.
