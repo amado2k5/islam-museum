@@ -34,7 +34,7 @@ relations:
   - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
 external_ids:
   wikidata: Q423600
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-abd-al-rahman-mansour, source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/fadail-sahaba-ahmad-wasi-allah-1999]
+sources: [source/ibn-sad-tabaqat-bewley, source/tafsir-tabari-shakir-v01, source/watt-1956-medina, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-abd-al-rahman-mansour, source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/fadail-sahaba-ahmad-wasi-allah-1999]
 provenance:
   layer: "own-research"
   source: "Ibn Sa'd (Bewley), Watt (1956), al-Mas'udi's Muruj al-dhahab, Sahih al-Bukhari, Sahih Muslim, al-Sallabi and al-Nuwayri's Nihayat al-arab as listed (earlier record by Devin, 11 Oct 2026); section on Abd al-Rahman Mansour's ahaleena (Assabile transcripts pass5-qwen) added in run assabile-egypt-mansour-1"
@@ -43,6 +43,7 @@ provenance:
   run: "assabile-egypt-mansour-1"
   localization: {"generated_by": "Copilot SDK in VS Code", "model": "unknown", "run": "explorer-40-subjects-2026-11-04", "source": "Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
   enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-fatiha-opening-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 135, 143: the Ibn Abbas report on al-hamd lillah and the Ibn Abbas and Sa'id ibn Jubayr view on the worlds ('alamin)" }
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 48" }
     - { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1066-1068, 1203-1204 (section on his chapter in Ahmad's Fada'il al-Sahaba with the editor's grades)" }
 education:
