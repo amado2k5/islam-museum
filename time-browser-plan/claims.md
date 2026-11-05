@@ -735,3 +735,9 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-04 | polity/timurid-empire | copilot | claimed
 2026-11-04 | polity/aksumite-kingdom | copilot | claimed
 2026-11-04 | polity/bahri-dynasty | copilot | claimed
+
+2026-11-04 | polity/bahri-dynasty | copilot | deferred: original record explicitly says its source page is unverified; own definition and metadata additions withdrawn
+2026-11-04 | person/hassan-ibn-thabit | copilot | claimed
+
+2026-11-04 | person/kayqubad-i | copilot | deferred: original record explicitly says its source page is unverified; own definition and metadata additions withdrawn
+2026-11-04 | person/al-isfarayini-abu-ishaq-ibrahim | copilot | claimed
