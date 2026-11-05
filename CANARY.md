@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:228 continues (vol. 4, pp. 529-535): the ruling on a husband who takes his wife back intending harm, the clause on women's rights like those over them, al-Tabari's choice, and the views on the degree men have over women, with his choice of Ibn 'Abbas's reading, in Arabic, English and Urdu; also replaces a typed verse title phrase from the previous batch with a link to 2:229.
 - Passage 2:228 continues (vol. 4, pp. 524-529): al-Tabari's reasoning that the prohibition covers both menses and pregnancy, his answer on the mention of belief, the meaning and plurals of the word for husbands, and the reports that the husband has more right to take her back during the waiting period, in Arabic, English and Urdu.
 - Passage 2:228 continues (vol. 4, pp. 518-523): the views on what the divorced woman may not hide, namely menses, pregnancy or both, the reasons given for the prohibition, and al-Tabari's own choice of menses and pregnancy, in Arabic, English and Urdu.
 - Passage 2:228: replaced three short typed Qur'an phrases (from 65:1 and 2:228) in the Tabari prose with links to the verses, in Arabic, English and Urdu, and re-ran the verse-text sweep over the vol. 4 files (0 pending).
