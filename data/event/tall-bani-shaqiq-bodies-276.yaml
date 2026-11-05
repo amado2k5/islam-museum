@@ -13,9 +13,12 @@ date:
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 276)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
-  run: lib-muntazam-258-349-batch27
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-events-batch5
 sources: [source/muntazam-ibn-al-jawzi]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+status:
+  review: published
+  completeness: 3
