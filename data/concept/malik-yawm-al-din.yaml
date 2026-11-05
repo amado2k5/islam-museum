@@ -55,9 +55,11 @@ perspectives:
       ur: "ان صفحات میں غیر سنی رائے نہیں؛ یہاں صرف شعراوی کی رائے ہے۔"
     sources: []
 relations: []
-sources: [source/tafsir-sharawi-khawatir-scan]
+sources: [source/tafsir-sharawi-khawatir-scan, source/tafsir-tabari-shakir-v01]
 provenance:
   layer: own-research
+  enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-fatiha-verses-2-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 158-160: the day of religion as the day of reckoning and the chain through al-Suddi" }
   source: "خواطر الشعراوي حول القرآن الكريم، المجلد الأول، الصفحات 68-74 (نسخة OCR محلية)"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
