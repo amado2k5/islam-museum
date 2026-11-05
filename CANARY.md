@@ -29,6 +29,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:153 (end), 2:154 and 2:155 (opening) gain al-Tabari commentary (volume 3, pp. 214-219): patience and prayer, the martyrs as "alive" and what he says was singled out for them, and the trials announced in 2:155, each attributed, in Arabic, English and Urdu.
 - Passages 2:151 (end), 2:152 and 2:153 (opening) gain al-Tabari commentary (volume 3, pp. 208-213): how "as We sent among you a messenger" is joined, the meaning of reciting, purifying, the Book and wisdom, "remember Me and I will remember you", gratitude, and "seek help through patience and prayer", each attributed, in Arabic, English and Urdu.
 - Passages 2:150 (end) and 2:151 (opening) gain al-Tabari commentary (volume 3, pp. 204-208): his reading of the exception "except those who do wrong" and the readings he rejects, "do not fear them but fear Me", completing the favour, and the link to Abraham's supplication, each attributed, in Arabic, English and Urdu.
 - Passage 2:150 gains an al-Tabari commentary section (volume 3, pp. 199-203): who "the people" and "those who do wrong" are, what argument each is said to have had against the Prophet and the believers over the qibla, and the meaning of "hujja", each attributed, in Arabic, English and Urdu.
