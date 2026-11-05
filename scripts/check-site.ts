@@ -96,6 +96,27 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     if (!badge || !html.includes(badge)) errors.push("ar/jobs/ does not render its in-the-making badge");
     if (!html.includes("data-job-row")) errors.push("ar/jobs/ lists no job record (no data-job-row)");
   }
+  // audit of 5 November 2026: each exhibit appears once on the exhibits index, entity pages show no review state or
+  // completeness score, every language has its embed index and its own not-found page
+  for (const lang of ["ar", "en", "ur"]) {
+    const T = parse(readFileSync(p("i18n", `${lang}.yaml`), "utf8"));
+    const index = p("dist", lang, "exhibits", "index.html");
+    if (!existsSync(index)) errors.push(`missing page: ${lang}/exhibits/index.html`);
+    else {
+      const titles = [...readFileSync(index, "utf8").matchAll(/<h2 class="card-title"[^>]*>([^<]*)<\/h2>/g)].map((m) => m[1].trim());
+      const twice = [...new Set(titles.filter((t, i) => titles.indexOf(t) !== i))];
+      if (twice.length) errors.push(`${lang}/exhibits/ lists the same title more than once: ${twice.join(", ")}`);
+    }
+    const abbasid = p("dist", lang, "exhibits", "path-abbasid-age", "index.html");
+    if (existsSync(abbasid)) {
+      const html = readFileSync(abbasid, "utf8");
+      if (html.includes(`${T.entity.completeness} `) || html.includes(`<span class="chip">${T.status.draft}</span>`)) errors.push(`${lang}/exhibits/path-abbasid-age/ shows the review state or completeness score`);
+    }
+    const embed = p("dist", lang, "embed", "index.html");
+    if (!existsSync(embed) || !readFileSync(embed, "utf8").includes(T.edu.embed_index_title)) errors.push(`${lang}/embed/ index is missing or not in its language`);
+    const notFound = p("dist", lang, "404", "index.html");
+    if (!existsSync(notFound) || !readFileSync(notFound, "utf8").includes(`<html lang="${lang}"`)) errors.push(`${lang}/404/ is missing or not in its language`);
+  }
   for (const w of warns) console.log("warn  " + w);
   for (const e of errors) console.log("ERROR " + e);
   console.log(`checked ${paths.length} pages: ${errors.length} errors, ${warns.length} warnings`);
