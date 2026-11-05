@@ -1,4 +1,4 @@
-# Phase 04: DİA as a programme
+# Phase 5: DİA as a programme
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -17,7 +17,7 @@ Unsized until an index crawl is done. The brief's figure (about 16,800 articles,
 
 ## Entry criteria
 
-- Phase 1 for cited books where DİA cites a canon book.
+- Phase 2 for cited books where DİA cites a canon book.
 - Founder decision 5 (access terms and whether a crawl is permitted).
 - Turkish-language prose: Arabic first still applies; the Turkish source is first-class for facts.
 
@@ -34,14 +34,14 @@ Waves by category (Ottoman, Turkish, then Ottoman-world places). Waves of 10 (5+
 
 ## Dependencies on other phases
 
-- Depends on Phase 1 for canon citations.
+- Depends on Phase 2 for canon citations.
 - Contends with Phases 6 and 7 for `place/` and `polity/`: run place pre-check.
 
 ## Known risks
 
 - Crawl under the site's terms: founder confirms before any crawl.
 - Turkish-to-Arabic translation accuracy: a translator note on each record.
-- Overlap with EI2 (Phase 5) on the same entries: reuse first.
+- Overlap with EI2 (Phase 6) on the same entries: reuse first.
 
 ## Founder decisions needed before this phase starts
 

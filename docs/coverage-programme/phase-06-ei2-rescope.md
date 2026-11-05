@@ -1,4 +1,4 @@
-# Phase 05: EI2 re-scope (the live `ei2` lane)
+# Phase 6: EI2 re-scope (the live `ei2` lane)
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -13,11 +13,11 @@ Recognise that the Encyclopaedia of Islam, 2nd edition, is already an approved, 
 
 ## Size estimate and derivation
 
-Size: the lane's own scope (13 volumes, as `docs/agents/lanes/ei2.md` states, all entries, A to Z). Entry count per volume not measured here. The lane's progress file (`docs/delegation/ei2-progress.md`) is the record of batch sizes; Phase 5's size is the lane's, not this plan's. PR #1599: GitHub records MERGED on 25 October 2026 (`mergedAt` equals `closedAt`), while its body says it was held until main validated. Read on `main` before any change.
+Size: the lane's own scope (13 volumes, as `docs/agents/lanes/ei2.md` states, all entries, A to Z). Entry count per volume not measured here. The lane's progress file (`docs/delegation/ei2-progress.md`) is the record of batch sizes; Phase 6's size is the lane's, not this plan's. PR #1599: GitHub records MERGED on 25 October 2026 (`mergedAt` equals `closedAt`), while its body says it was held until main validated. Read on `main` before any change.
 
 ## Entry criteria
 
-- Founder confirms that Phase 5 is a re-scope, not a new lane.
+- Founder confirms that Phase 6 is a re-scope, not a new lane.
 - `git log` on `main` confirms PR #1599's content state.
 
 ## Exit criteria (definition of done)
@@ -33,7 +33,7 @@ The lane's own mechanics (`docs/agents/lanes/ei2.md`); English-first drafting, t
 ## Dependencies on other phases
 
 - Shares `place/` and `person/` with Phases 4, 6, 7; reuse first.
-- Phase 1 ledger for cited books.
+- Phase 2 ledger for cited books.
 
 ## Known risks
 

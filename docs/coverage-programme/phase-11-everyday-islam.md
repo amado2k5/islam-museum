@@ -1,4 +1,4 @@
-# Phase 10: Everyday Islam
+# Phase 11: Everyday Islam
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -16,7 +16,7 @@ Unsized. Presence measure: maqam 40, hammam 37, coffee 15 (text-term matches). P
 
 ## Entry criteria
 
-- Phase 1 for cited canon.
+- Phase 2 for cited canon.
 - Founder decision 3 (how practices are framed across traditions).
 
 ## Exit criteria (definition of done)

@@ -1,4 +1,4 @@
-# Phase 13: Graph health loop
+# Phase 14: Graph health loop
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 

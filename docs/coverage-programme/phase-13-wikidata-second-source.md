@@ -1,4 +1,4 @@
-# Phase 12: The Wikidata second-source debt
+# Phase 13: The Wikidata second-source debt
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 

@@ -1,4 +1,4 @@
-# Phase 14: Render-QA sweep
+# Phase 15: Render-QA sweep
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 

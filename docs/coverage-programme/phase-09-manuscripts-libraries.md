@@ -1,4 +1,4 @@
-# Phase 08: Manuscripts and libraries
+# Phase 9: Manuscripts and libraries
 
 Part of the coverage expansion programme. Master plan: [`README.md`](README.md). Progress: [`progress.md`](progress.md).
 
@@ -17,7 +17,7 @@ Unsized. Presence measure: codex 28 files, manuscript 153 (mostly mentions); Sul
 
 ## Entry criteria
 
-- Phase 1 for cited books.
+- Phase 2 for cited books.
 - Founder decision 5 (catalogue access).
 
 ## Exit criteria (definition of done)
