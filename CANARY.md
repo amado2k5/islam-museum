@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:230 continues (vol. 4, pp. 589-595): the reports from the Prophet on the second husband's consummation, from 'A'isha (the wife of Rifa'a), Abu Hurayra, Anas and Ibn 'Abbas, with the editor's notes on their chains, in Arabic, English and Urdu.
 - Passage 2:229 closes (vol. 4, pp. 583-585): the meaning of God's limits; passage 2:230 first touch (pp. 585-589): the views on the clause on a woman not being lawful to her divorcer until another husband, al-Tabari's choice of Mujahid's reading, his reasoning that both contract and consummation are meant, and the hadith of 'A'isha, in Arabic, English and Urdu.
 - Passage 2:229 continues (vol. 4, pp. 577-583): more reports on the amount of the ransom (Umm al-Rubayyi' and 'Uthman, Ibn 'Abbas, Qabisa), the claim by Bakr ibn 'Abdallah that it is abrogated by the verse in al-Nisa', and al-Tabari's choice and his two reasons against abrogation, then the start of the clause on God's limits, in Arabic, English and Urdu.
 - Passage 2:229 continues (vol. 4, pp. 571-577): al-Tabari's refusal of the grammarian's two aspects, and the views on whether the ransom is limited to the dower or may be any amount, with the reports of 'Umar, Ibn 'Umar, al-Hasan and others, in Arabic, English and Urdu.
