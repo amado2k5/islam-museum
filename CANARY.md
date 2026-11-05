@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:226 closes (vol. 4, pp. 475-477: the views on expiation when the husband returns, with al-Tabari's choice) and 2:227 gets its first touch (pp. 477-481: whether the passing of four months itself divorces, with the reports of 'Ali, Ibn Mas'ud, 'Uthman, Zayd ibn Thabit and Ibn 'Abbas), in Arabic, English and Urdu.
 - Passage 2:226 continues (vol. 4, pp. 469-475): the reports on returning where there is an excuse, al-Tabari's own choice that returning means intercourse (with the resolve of the heart sufficing while an excuse lasts), and the views on the closing clause of forgiveness and mercy, in Arabic, English and Urdu.
 - Passage 2:226 continues (vol. 4, pp. 464-469): the reasoning behind each view on which oath amounts to swearing off, al-Tabari's own choice, the meaning of the word for returning with the reports on what counts as returning (intercourse, or a declaration where there is an excuse), in Arabic, English and Urdu.
 - Added a list of the Arabic and Urdu commentary spans in 2:1 to 2:195 that match the Qur'an text only approximately and were deliberately left unchanged, so a later pass can resolve them.
