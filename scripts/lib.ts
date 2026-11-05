@@ -46,16 +46,18 @@ export function loadEnumIds(name: string): string[] {
 }
 
 export interface Stub { id: string; label?: Localized; note?: string }
-// Parsing ~17,000 entity files takes seconds, and the pipeline tests load them once per test. The parsed
-// result is kept for the life of the process and handed out as a fresh deep copy, so a caller that mutates
-// its copy cannot change what the next caller sees. A test that edits a data file on disk must call
-// clearRepoCache() before it reads the repository again.
+// Parsing ~17,000 entity files and ~2,000 prose files takes seconds, and the pipeline tests load them once
+// per test. The parsed result is kept for the life of the process and handed out as a fresh deep copy, so a
+// caller that mutates its copy cannot change what the next caller sees. A test that edits a data or content
+// file on disk must call clearRepoCache() before it reads the repository again.
 let entityCache: { entity: Entity; file: string }[] | null = null;
 let stubCache: Stub[] | null = null;
+let proseCache: Prose[] | null = null;
 
 export function clearRepoCache(): void {
   entityCache = null;
   stubCache = null;
+  proseCache = null;
 }
 
 export function loadStubs(): Stub[] {
@@ -79,16 +81,19 @@ export function loadEntities(): { entity: Entity; file: string }[] {
 }
 
 export function loadProse(): Prose[] {
-  const out: Prose[] = [];
-  for (const file of listFiles(p("content"), ".md")) {
-    const r = rel(file).split("/"); // content/<lang>/<class>/<slug>.md
-    if (r.length !== 4) continue; // skips content/<lang>/_pages/*
-    const raw = readFileSync(file, "utf8");
-    const m = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
-    const fm = m ? (parse(m[1]) ?? {}) : {};
-    out.push({ id: `${r[2]}/${r[3].replace(/\.md$/, "")}`, lang: r[1], file, frontmatter: fm, body: m ? m[2] : raw });
+  if (!proseCache) {
+    const out: Prose[] = [];
+    for (const file of listFiles(p("content"), ".md")) {
+      const r = rel(file).split("/"); // content/<lang>/<class>/<slug>.md
+      if (r.length !== 4) continue; // skips content/<lang>/_pages/*
+      const raw = readFileSync(file, "utf8");
+      const m = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+      const fm = m ? (parse(m[1]) ?? {}) : {};
+      out.push({ id: `${r[2]}/${r[3].replace(/\.md$/, "")}`, lang: r[1], file, frontmatter: fm, body: m ? m[2] : raw });
+    }
+    proseCache = out;
   }
-  return out;
+  return structuredClone(proseCache);
 }
 
 // ---------- dates ----------
