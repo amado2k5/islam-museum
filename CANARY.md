@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:229 continues (vol. 4, pp. 577-583): more reports on the amount of the ransom (Umm al-Rubayyi' and 'Uthman, Ibn 'Abbas, Qabisa), the claim by Bakr ibn 'Abdallah that it is abrogated by the verse in al-Nisa', and al-Tabari's choice and his two reasons against abrogation, then the start of the clause on God's limits, in Arabic, English and Urdu.
 - Passage 2:229 continues (vol. 4, pp. 571-577): al-Tabari's refusal of the grammarian's two aspects, and the views on whether the ransom is limited to the dower or may be any amount, with the reports of 'Umar, Ibn 'Umar, al-Hasan and others, in Arabic, English and Urdu.
 - Passage 2:229: replaced one more short typed verse phrase in the Arabic Tabari prose with a paraphrase.
 - Passage 2:229: replaced short typed phrases from the verse in the Tabari prose with paraphrases, in Arabic, English and Urdu.
