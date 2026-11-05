@@ -3,7 +3,7 @@
 // Run: npm run validate [-- --strict]   (--strict turns warnings into failures)
 import { basename, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { readFileSync, existsSync, readdirSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { createHash } from "node:crypto";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
@@ -235,16 +235,45 @@ export function proseUnsafeHtml(body: string): string | null {
   return null;
 }
 
+// The schema files do not change while a process runs, and compiling them is repeated work on every
+// validateAll() call (the pipeline tests make one call per test). Build the validator once per process.
+let schemaValidator: Ajv2020 | null = null;
+function getSchemaValidator(): Ajv2020 {
+  if (!schemaValidator) {
+    const a = new Ajv2020({ allErrors: true, strict: false });
+    addFormats(a);
+    a.addSchema(readYamlJson("schema/_base.schema.json"));
+    for (const c of CLASSES) a.addSchema(readYamlJson(`schema/${c}.schema.json`));
+    schemaValidator = a;
+  }
+  return schemaValidator;
+}
+
+// The frozen Tanzil files are read, hashed and split into lines on every call. Keep the parse per file, keyed
+// by size and modification time, so an edited file is read again. The sha256 comparison with the recorded
+// value still runs on every call; only the work that depends on the file's bytes alone is reused.
+interface TanzilParse { key: string; sha256: string; map: Map<string, string>; flat: string[] }
+const tanzilParses = new Map<string, TanzilParse>();
+function parseTanzilFile(path: string): TanzilParse {
+  const st = statSync(path);
+  const key = `${st.size}:${st.mtimeMs}`;
+  const hit = tanzilParses.get(path);
+  if (hit && hit.key === key) return hit;
+  const buf = readFileSync(path);
+  const map = new Map<string, string>();
+  for (const line of buf.toString("utf8").split(/\r?\n/)) { if (!line || line.startsWith("#")) continue; const [s, a, ...t] = line.split("|"); map.set(`${s}:${a}`, t.join("|")); }
+  const parsed: TanzilParse = { key, sha256: createHash("sha256").update(buf).digest("hex"), map, flat: [...map.entries()].flat() };
+  tanzilParses.set(path, parsed);
+  return parsed;
+}
+
 export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
   const issues: Issue[] = [];
   const err = (file: string, msg: string) => issues.push({ level: "error", file: rel(file), msg });
   const warn = (file: string, msg: string) => issues.push({ level: "warn", file: rel(file), msg });
 
   // ---- schemas
-  const ajv = new Ajv2020({ allErrors: true, strict: false });
-  addFormats(ajv);
-  ajv.addSchema(readYamlJson("schema/_base.schema.json"));
-  for (const c of CLASSES) ajv.addSchema(readYamlJson(`schema/${c}.schema.json`));
+  const ajv = getSchemaValidator();
 
   const predicates = loadPredicates();
   const idPatterns = readYaml<Record<string, { pattern: string }>>(p("schema", "external-id-patterns.yaml"));
@@ -602,12 +631,10 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     for (const f of ts?.files ?? []) {
       const path = p(f.path);
       if (!existsSync(path)) { err(quran.file, `text_source file ${f.path} is missing`); continue; }
-      const buf = readFileSync(path);
-      if (createHash("sha256").update(buf).digest("hex") !== f.sha256) err(quran.file, `${f.path} no longer matches its frozen sha256: the Tanzil source must never be edited`);
-      const m = new Map<string, string>();
-      for (const line of buf.toString("utf8").split(/\r?\n/)) { if (!line || line.startsWith("#")) continue; const [s, a, ...t] = line.split("|"); m.set(`${s}:${a}`, t.join("|")); }
-      files[f.use] = [...m.entries()].flat();
-      (files as any)[`map:${f.use}`] = m;
+      const tz = parseTanzilFile(path);
+      if (tz.sha256 !== f.sha256) err(quran.file, `${f.path} no longer matches its frozen sha256: the Tanzil source must never be edited`);
+      files[f.use] = tz.flat;
+      (files as any)[`map:${f.use}`] = tz.map;
     }
     const mt: Map<string, string> | undefined = (files as any)["map:text"], ms: Map<string, string> | undefined = (files as any)["map:text_search"];
     let ayat = 0, suras = 0;
