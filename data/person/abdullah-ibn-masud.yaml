@@ -37,6 +37,7 @@ relations:
   - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: lived_in, target: place/kufa, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: member_of, target: group/sahaba, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-sad-tabaqat-bewley] }
 external_ids:
   wikidata: Q423557
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999]

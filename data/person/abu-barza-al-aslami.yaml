@@ -25,6 +25,7 @@ relations:
   - { type: traveled_to, target: place/khurasan, sources: [source/istiab-alam-2002] }
   - { type: lived_in, target: place/merv, note: "أتى خراسان فنزل مرو {cite:istiab-alam-2002 p. 783}", sources: [source/istiab-alam-2002] }
   - { type: participated_in, target: event/conquest-of-istakhr, note: "كان على ميمنة ابن عامر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/sahaba, sources: [source/istiab-alam-2002] }
 provenance:
   layer: own-research
   source: "al-Isti'ab (Dar al-A'lam 2002) p. 719 entry 2580 and p. 783 entry 2853 (with p. 782 on Abu Bakra's funeral); earlier Devin card from Futuh al-Buldan"
