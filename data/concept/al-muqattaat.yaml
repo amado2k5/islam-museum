@@ -10,7 +10,7 @@ wings: [ideas]
 themes: []
 periods: [period/prophetic-era]
 external_ids: { wikidata: "Q192951" }
-sources: [source/assabile-omar-abdelkafy, source/tafsir-manar-v08, source/burhan-dar-al-hadith-2006, source/tahdhib-tafsir-baghawi-tayba-2009]
+sources: [source/assabile-omar-abdelkafy, source/tafsir-manar-v08, source/burhan-dar-al-hadith-2006, source/tahdhib-tafsir-baghawi-tayba-2009, source/tafsir-tabari-shakir-v01]
 provenance:
   layer: own-research
   source: "تفسير المنار، المجلد الثامن، ص 261-263 (نسخة OCR محلية)"
@@ -18,5 +18,6 @@ provenance:
   model: claude-haiku-5-5
   run: "lib-exp-tafsir-manar v6-v8 batch 1"
   enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-baqara-letters-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 205-220: the views on the disjoined letters, Rabi ibn Anas, the abjad report and the editor grade" }
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/burhan-dar-al-hadith-2006 PDF pp. 117–119 (type 7); source/tahdhib-tafsir-baghawi-tayba-2009 PDF p. 11" }
 status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); Rida's preferred view only; the other classical views on the letters are still to be added from the tafsir and 'ulum al-Qur'an sources" }
