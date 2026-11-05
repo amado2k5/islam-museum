@@ -958,3 +958,9 @@ Promoted (run `prose-fill-persons-batch51`): lib-wafayat remainder — abu-al-ma
 Note: the 13 ibn-hisham records use flow-style `provenance: {}` — handled in place, preserving the nested `localization` provenance on abdullah-ibn-sad-ibn-abi-sarh (explorer-third-40 run kept intact).
 
 **Lane total: 884.** Next: ibn-hisham-batch-2a remainder (6), ibn-hisham-batch-14/1a (8 each), ibn-hisham-batch-2b (7), ~40 more ibn-hisham tags, lib-futuh-buldan-* remainders, ~286 no-run-tag drafts to vet; wikidata-import cohorts still deferred.
+
+### Batch 52 (4 Nov 2026, 25 records) — ibn-hisham-batch-2a remainder + ibn-hisham-batch-14 + ibn-hisham-batch-1a + ibn-hisham-batch-2b (first 3) draft promotions (draft-promotions sweep, run-tag cohorts)
+
+Promoted (run `prose-fill-persons-batch52`): ibn-hisham-batch-2a remainder — ayman-ibn-ubayd, durayd-ibn-al-simma, qarib-ibn-al-aswad, rabia-ibn-rufy, shayba-ibn-uthman, subay-ibn-al-harith; ibn-hisham-batch-14 — abu-afak, amir-ibn-al-adbat-al-ashjai, asma-bint-marwan, jabbar-ibn-sakhr, muhallim-ibn-jaththama, rifaa-ibn-qays-al-jushami, umayr-ibn-adi-al-khatmi, yasar-mawla-al-nabi; ibn-hisham-batch-1a — amr-ibn-salim, budayl-ibn-warqa, hatib-ibn-abi-baltaa, malik-ibn-abbad-al-hadrami, nawfal-ibn-muawiya, sara-al-mawla, tamim-ibn-asad, umm-habiba-bint-abi-sufyan; ibn-hisham-batch-2b (first 3 of 7) — abbas-ibn-mirdas, abdullah-ibn-abi-umayya, abu-bakra-al-thaqafi. cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 909.** Next: ibn-hisham-batch-2b remainder (4), ibn-hisham-batch-8a/3/9a/9b/9c/5c-*/7b/11/17/19 and other ibn-hisham tags (~35 more clean), lib-futuh-buldan-* remainders, ~286 no-run-tag drafts to vet; wikidata-import cohorts still deferred.
