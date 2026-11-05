@@ -2724,15 +2724,19 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: tiraz-textile-production
     label: "The shift to Arabic inscriptions on Umayyad tiraz"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: materials-industry
     era: first-century
     from: founder-supplied-lead
-    records: ["person/abd-al-malik-ibn-marwan"]
+    records: ["invention/tiraz", "person/abd-al-malik-ibn-marwan", "source/tdv-tiraz", "media/met-tiraz-fragment-448561", "media/diagram-tiraz"]
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - "TDV İslâm Ansiklopedisi, TIRAZ: https://islamansiklopedisi.org.tr/tiraz (lead/reference)"
+      - "source/futuh-buldan-maarif-1407 pp. 335–336"
+      - "source/muqaddima-ibn-khaldun p. 256"
+      - "source/tarikh-khulafa-minhaj-1434 pp. 356, 358–359"
+      - "source/tdv-tiraz pp. 112–114"
     flags: [verify-policy-versus-making, verify-precursor-textile-forms, verify-source-backed-maker-sunni-basis]
   - id: block-printing-tarsh
     label: "Block printing by tarsh"
