@@ -45,3 +45,7 @@ The thesis cites Goldziher quoting Nöldeke, before the book was found, that if 
 ## Notes for researchers (second pass)
 - Pages cited are PDF pages of the thesis; its own numbering runs about thirteen pages behind in Part One and eighteen in Part Four.
 - The body of the thesis names "Muqatil ibn Sulayman al-Balkhi", but its footnote mixes in the name of Muqatil ibn Hayyan al-Nabati, so Muqatil is not linked to a record here.
+
+## The edition used in this harvest
+
+The copy used here is the second edition by Ahmad Muhammad Shakir and Mahmud Muhammad Shakir, published by Maktabat Ibn Taymiyya in Cairo in sixteen volumes {cite:tafsir-tabari-shakir-v01 p. 1} {cite:tafsir-tabari-shakir-v16 p. 1}. Its first page records that the text was read aloud to al-Tabari himself in the year 306 AH, a note of transmission at the head of the book {cite:tafsir-tabari-shakir-v01 p. 3}. The printing year is not read on the pages used here, so it is not given. Each volume is cited as its own source record.
