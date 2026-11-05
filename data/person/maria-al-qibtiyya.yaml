@@ -61,15 +61,14 @@ relations:
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 11781، ص 1958 (تراجم النساء)
-  generated_by: Claude (maintainer session)
-  model: claude-sonnet-5-5
-  run: isaba-women-1
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
 external_ids: { wikidata: "Q263779" }
 sources:
 - source/ibn-hajar-isaba
 - source/mubarakpuri-raheeq
 - source/nisa-hawl-alrasul
 status:
-  review: draft
-  completeness: 2
-  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1958, entry 11781)
+  review: published
+  completeness: 3

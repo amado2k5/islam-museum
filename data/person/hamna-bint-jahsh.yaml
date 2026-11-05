@@ -63,14 +63,13 @@ relations:
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 11104، ص 1849 (تراجم النساء)
-  generated_by: Claude (maintainer session)
-  model: claude-sonnet-5-5
-  run: isaba-women-1
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
 external_ids: { wikidata: "Q4120121" }
 sources:
 - source/ibn-hajar-isaba
 - source/nisa-hawl-alrasul
 status:
-  review: draft
-  completeness: 2
-  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1849, entry 11104)
+  review: published
+  completeness: 3
