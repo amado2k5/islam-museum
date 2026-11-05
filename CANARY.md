@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:126 continues al-Tabari's commentary (volume 3, pp. 46-51): the two sides on whether the sanctuary of Mecca was sacred from creation or made so through Abraham, with the reports each side cited and the editor's notes on their chains, and al-Tabari's own reconciling choice, each attributed, in Arabic, English and Urdu.
 - Person Ibrahim gains a short al-Tabari section (volume 3, pp. 7-36): the views on the "words" he was tested with, on "My covenant does not reach the wrongdoers" and on the station of Abraham, pointing to the passage pages 2:124-2:126 for detail, in Arabic, English and Urdu.
 - Passage 2:125 closes its al-Tabari commentary and 2:126 gains its first (volume 3, pp. 41-46): the senses of "those who stay" and "those who bow and prostrate", and the opening of "make this a safe land" with the views on whether the sanctuary was safe from creation and the reports cited for it, each attributed, in Arabic, English and Urdu.
 - Passage 2:125 continues al-Tabari's commentary (volume 3, pp. 36-41): his reasoning for the station of Abraham, the senses of "musalla", the command to purify the House (and the two ways he gives of understanding it, with the editor's caution), and the senses of "those who circle it" and "those who stay", each attributed, in Arabic, English and Urdu.
