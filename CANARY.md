@@ -29,6 +29,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:158 continues its al-Tabari commentary (volume 3, pp. 226-230): Safa and Marwa as the two mountains, "signs of God", the senses of hajj and 'umra, and the question raised by "no blame in going round them", each attributed, in Arabic, English and Urdu.
 - Passages 2:155 (end), 2:156, 2:157 and 2:158 (opening) gain al-Tabari commentary (volume 3, pp. 220-225): the trials and the good news to the patient, the formula of return, blessings and mercy, and the words Safa and Marwa, each attributed, in Arabic, English and Urdu.
 - Passages 2:153 (end), 2:154 and 2:155 (opening) gain al-Tabari commentary (volume 3, pp. 214-219): patience and prayer, the martyrs as "alive" and what he says was singled out for them, and the trials announced in 2:155, each attributed, in Arabic, English and Urdu.
 - Passages 2:151 (end), 2:152 and 2:153 (opening) gain al-Tabari commentary (volume 3, pp. 208-213): how "as We sent among you a messenger" is joined, the meaning of reciting, purifying, the Book and wisdom, "remember Me and I will remember you", gratitude, and "seek help through patience and prayer", each attributed, in Arabic, English and Urdu.
