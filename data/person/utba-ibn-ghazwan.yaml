@@ -3,6 +3,7 @@ class: person
 label:
   ar: عتبة بن غزوان
   en: Utba ibn Ghazwan
+  ur: "عتبہ بن غزوان"
 aliases: [person/utbah-ibn-ghazwan]
 names:
 - kind: full
@@ -17,6 +18,7 @@ summary:
   ar: من السابقين الأولين، هاجر إلى الحبشة ثم إلى المدينة وشهد بدراً وما بعدها؛ ولاه عمر في الفتوح فاختط البصرة، واستعفى من الإمرة فأبى عمر، ومات في الطريق سنة 17هـ وقيل 20هـ.
   en: One of the earliest Muslims, he emigrated to Abyssinia and then to Medina and fought at Badr and after; Umar sent him in the conquests and he laid out the city of Basra; he asked Umar to relieve him of command and Umar refused, and he died
     on the road in 17 AH, or by another report 20 AH.
+  ur: "ابتدائی مسلمان؛ حبشہ اور پھر مدینہ ہجرت کی اور بدر و بعد کی مہمات میں شریک ہوئے؛ عمر نے فتوحات میں ذمہ داری دی تو بصرہ کی بنیاد رکھی؛ راستے میں 17 یا ایک دوسری روایت کے مطابق 20 ہجری میں وفات پائی۔ {cite:ibn-hajar-isaba}"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -55,6 +57,11 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-batch-2
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
 external_ids: { wikidata: "Q1145321" }
 sources:
 - source/ibn-hajar-isaba

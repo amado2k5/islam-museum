@@ -1,9 +1,10 @@
 id: person/roger-of-sicily
 class: person
-label: { ar: "رجار صاحب صقلية" }
+label: { ar: "رجار صاحب صقلية" , ur: "روجر، حکمران صقلیہ", en: "Roger II of Sicily"}
 summary:
   ar: "صاحب صقلية أيام دولة المعز بن باديس وولده؛ نزلت أساطيله إلى المهدية في ثلاثمائة مركب وعليها جرجي بن ميخائيل الأنطاكي سنة 543هـ فاستولى على بلاد الساحل كلها ووضع على أهلها الجري حتى استنقذهم عبد المؤمن شيخ الموحدين {cite:tarikh-ibn-khaldun-ibar p. 1635-1636}."
   en: "Lord of Sicily (Roger II); his fleets took Mahdiyya in 543 under George of Antioch and he imposed the jarī tax on the coastal towns until Abd al-Mu'min the Almohad recovered them {cite:tarikh-ibn-khaldun-ibar p. 1635-1636}."
+  ur: "صقلیہ کے حکمران جن کے بیڑوں نے جرجی بن میخائیل انطاکی کی قیادت میں 543 ہجری میں مہدیہ پر قبضہ کیا اور ساحلی شہروں پر محصول عائد کیا؛ بعد میں عبد المؤمن نے یہ علاقے واپس لیے، جیسا کہ ابن خلدون بیان کرتے ہیں۔ {cite:tarikh-ibn-khaldun-ibar}"
 wings: [people]
 roles: [ruler]
 periods: [period/abbasid-fragmentation]
@@ -21,5 +22,10 @@ provenance:
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ibar-batch-8
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
 sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

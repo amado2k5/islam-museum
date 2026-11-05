@@ -1,6 +1,6 @@
 id: person/umm-ayman
 class: person
-label: { en: Umm Ayman (Baraka bint Tha'laba), ar: أم أيمن بركة بنت ثعلبة }
+label: { en: Umm Ayman (Baraka bint Tha'laba), ar: أم أيمن بركة بنت ثعلبة , ur: "ام ایمن، برکہ بنت ثعلبہ"}
 names:
   - { kind: full, lang: ar, value: بركة بنت ثعلبة الحبشية }
   - { kind: kunya, lang: ar, value: أم أيمن }
@@ -12,6 +12,7 @@ traditions: [sunni]
 summary:
   en: "An Abyssinian freedwoman of the Prophet's family who cared for him as a child and again after his mother's death, and is counted among the Companions."
   ar: "مولاة حبشية من بيت أهل النبي، رعت شأنه صغيرًا ثم بعد وفاة أمه، وتُعد من الصحابة."
+  ur: "نبی کے خاندان کی حبشی آزاد کردہ خاتون جنہوں نے بچپن میں اور والدہ کی وفات کے بعد ان کی دیکھ بھال کی؛ صحابہ میں شمار ہوتی ہیں۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [women, slavery-and-freedom, race-colour-ethnicity]
 periods: [period/prophetic-era, period/rashidun]
@@ -39,3 +40,8 @@ provenance:
   generated_by: "Devin; Claude Sonnet (subagent) for the lecture section"
   model: sonnet
   run: omar-tafsir-bundle-5
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.

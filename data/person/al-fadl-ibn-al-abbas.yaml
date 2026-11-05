@@ -1,6 +1,6 @@
 id: person/al-fadl-ibn-al-abbas
 class: person
-label: { en: "al-Fadl ibn al-Abbas", ar: "الفضل بن العباس" }
+label: { en: "al-Fadl ibn al-Abbas", ar: "الفضل بن العباس" , ur: "فضل بن عباس"}
 names:
   - { kind: full, lang: ar, value: "الفضل بن العباس بن عبد المطلب" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "Son of al-Abbas ibn Abd al-Muttalib; rode behind the Prophet from Arafat to Muzdalifa in the Farewell Pilgrimage, walked beside him in the last illness, and helped turn and wash his body before burial."
   ar: "ابن العباس بن عبد المطلب؛ أردفه النبي خلفه من عرفة إلى المزدلفة في حجة الوداع، ومشى يعينه في مرضه الأخير، وكان ممن قلّبه عند غسله قبل الدفن."
+  ur: "عباس بن عبد المطلب کے بیٹے؛ حجۃ الوداع میں عرفات سے مزدلفہ تک نبی کے پیچھے سوار رہے، آخری بیماری میں چلنے میں سہارا دیا اور تدفین سے پہلے غسل میں مدد کی۔ {cite:mubarakpuri-raheeq}"
 wings: [people]
 themes: [family-marriage-kinship]
 periods: [period/prophetic-era]
@@ -25,3 +26,15 @@ relations:
 external_ids: { wikidata: "Q2680782" }
 sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }
+
+provenance:
+  layer: own-research
+  source: "Existing museum record and defined sources: source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari. Attribution metadata restored only; no new source pages examined."
+  generated_by: Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23); Copilot SDK in VS Code (metadata restoration)
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
+  model: unknown
+  run: explorer-sixth-40-stories-2026-11-04

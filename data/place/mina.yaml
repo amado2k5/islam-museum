@@ -1,10 +1,11 @@
 id: place/mina
 class: place
 kind: site
-label: { ar: "منى", en: "Mina" }
+label: { ar: "منى", en: "Mina" , ur: "منیٰ"}
 summary:
   ar: "واد بين مكة والمشعر، يرمي فيه الحجاج الجمار ويبيتون فيه أيام التشريق."
   en: "A valley between Makkah and al-Mash'ar, where pilgrims throw the jamarat (pebbles) and spend the nights of the Days of Tashriq."
+  ur: "مکہ اور مشعر کے درمیان وادی جہاں حاجی جمرات کو کنکریاں مارتے ہیں اور ایام تشریق کی راتیں گزارتے ہیں۔ {cite:geonames-gazetteer}"
 regions: [arabia]
 wings: [place]
 coordinates: [21.41334, 39.89392]
@@ -27,3 +28,8 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch4"
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
