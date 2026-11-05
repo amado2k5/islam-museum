@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 45 — Shadharat al-Dhahab and al-Isaba cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 44 — Ibn Khaldun Ibar East remainder, Kuwait Fiqh Encyclopedia and Futuh al-Buldan cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 43 — al-Isaba remainder, Ibn Khaldun Ibar Maghreb and East cohorts).
 - **Compilation of the Qur'an (Tabari's account)**: the event record now includes al-Tabari's account of the copy made under Uthman (Hafsa's sheet, the dispute between the Syrian and Iraqi readings, Zayd's commission), in Arabic, English and Urdu, and is marked published.
