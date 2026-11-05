@@ -122,7 +122,7 @@ export function exportApi(c: Compiled) {
     write(`${n.class}/${slug}.json`, JSON.stringify({ ...n, slug, connections, related: [], license: { prose: "CC BY-SA 4.0", data: "CC0 1.0" } }, null, 1));
   }
   // Constellation neighbourhoods (docs/plan/21 §C.5): /api/v1/graph/<class>/<slug>.json, two hops, at most 40 nodes, one node per id.
-  exportNeighbourhoods(c, real, related);
+  exportNeighbourhoods(c, real);
   write("graph/nodes.ndjson", c.nodes.map((n) => JSON.stringify(compact(n))).join("\n") + "\n");
   write("graph/edges.ndjson", c.edges.filter((e) => !e.inverse).map((e) => JSON.stringify(e)).join("\n") + "\n");
   write("themes/index.json", JSON.stringify(themeIndex(c), null, 1));
@@ -144,8 +144,29 @@ export function exportApi(c: Compiled) {
 
 const shortText = (s: string | undefined, n = 120) => (s && s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s ?? "");
 
-/** Two-hop neighbourhood per entity: the centre, its strongest neighbours, then theirs, capped at 40 nodes; forward edges among them. */
-export function exportNeighbourhoods(c: Compiled, real: Node[], related: Record<string, string[]>) {
+/**
+ * The one definition of "connected" for the graph endpoint: an entity with at least one typed relation, i.e. a forward
+ * edge (schema/predicates.yaml) between two nodes of the graph, in either direction. Every connected entity gets
+ * /api/v1/graph/<class>/<slug>.json; an entity without one has no neighbourhood to draw and no file.
+ *
+ * This is not the record's `related` list (scripts/derive.ts buildRelated): that is a "see also" recommendation, scored
+ * from typed neighbours and shared themes, and it leaves out ayah passages, sources and media. An entity can therefore
+ * have `related` entries from its themes alone and no graph file, or a graph file (an ayah's part_of edge) and `related: []`.
+ */
+export function connectedIds(c: Compiled): Set<string> {
+  const known = new Set(c.nodes.map((n) => n.id));
+  const out = new Set<string>();
+  for (const e of c.edges) {
+    if (e.inverse || !known.has(e.from) || !known.has(e.to)) continue;
+    out.add(e.from); out.add(e.to);
+  }
+  return out;
+}
+
+export type Neighbourhood = { centre: string; nodes: { id: string; c: string; l: any; s?: { ar: string; en: string }; hop: number }[]; edges: { s: string; t: string; r: string }[] };
+
+/** Two-hop neighbourhood per connected entity: the centre, its strongest neighbours, then theirs, capped at 40 nodes; forward edges among them. */
+export function buildNeighbourhoods(c: Compiled, real: Node[]): Map<Node, Neighbourhood> {
   const byId = new Map(c.nodes.map((n) => [n.id, n]));
   const adj = new Map<string, { to: string; type: string }[]>();
   for (const e of c.edges) {
@@ -157,6 +178,7 @@ export function exportNeighbourhoods(c: Compiled, real: Node[], related: Record<
   // passages crowd a neighbourhood; they come after everything else, and the best-connected neighbours first
   const rank = (id: string) => (byId.get(id)!.class === "passage" ? -1e6 : 0) + (byId.get(id)?.degree ?? 0);
   const pick = (ids: Set<string>, exclude: Set<string>, n: number) => [...ids].filter((i) => !exclude.has(i)).sort((a, b) => rank(b) - rank(a)).slice(0, n);
+  const out = new Map<Node, Neighbourhood>();
   for (const n of real) {
     const first = adj.get(n.id);
     if (!first?.length) continue;
@@ -181,8 +203,23 @@ export function exportNeighbourhoods(c: Compiled, real: Node[], related: Record<
       if (eseen.has(k)) continue;
       eseen.add(k); edges.push({ s: e.from, t: e.to, r: e.type });
     }
-    write(`graph/${n.class}/${n.slug}.json`, JSON.stringify({ centre: n.id, nodes, edges }));
+    out.set(n, { centre: n.id, nodes, edges });
   }
+  return out;
+}
+
+/** Connected entities without a neighbourhood: the build fails on any (scripts/graph-endpoint.test.ts checks the same). */
+export function missingNeighbourhoods(c: Compiled, real: Node[], hoods: Map<Node, Neighbourhood>): string[] {
+  const connected = connectedIds(c);
+  const have = new Set([...hoods.keys()].map((n) => n.id));
+  return real.filter((n) => connected.has(n.id) && !have.has(n.id)).map((n) => n.id);
+}
+
+export function exportNeighbourhoods(c: Compiled, real: Node[]) {
+  const hoods = buildNeighbourhoods(c, real);
+  const missing = missingNeighbourhoods(c, real, hoods);
+  if (missing.length) throw new Error(`graph endpoint: ${missing.length} connected entities have no neighbourhood, e.g. ${missing.slice(0, 5).join(", ")}`);
+  for (const [n, hood] of hoods) write(`graph/${n.class}/${n.slug}.json`, JSON.stringify(hood));
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
