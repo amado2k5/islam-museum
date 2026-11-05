@@ -37,6 +37,7 @@ open a new block on top with the new version and today's date.
 - A page that does not exist under /en/ or /ur/ now says so in English or Urdu instead of Arabic; the rest of the site keeps the Arabic page.
 - Each exhibit now appears once on the exhibits list in every language. The two Alexandria trails were one trail recorded twice: they are now one, and the old address still leads to it. "Great Mosques of the Garrison Cities" and «دول المغرب الأدنى» (States of the Maghreb) are different trails that shared a title with another, and now have their own.
 - The Urdu embed index (/ur/embed/) now reads in Urdu; it had been added with English placeholder text.
+- On the Places wing overview map, no dot now covers a place name and no two names touch: names are drawn above the dots, and the space each name needs is measured as it actually renders, including Arabic script.
 
 ### Tests
 
