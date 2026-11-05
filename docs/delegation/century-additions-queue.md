@@ -622,7 +622,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] A. K. Fazlul Huq — 1873–1962
 - [x] Maulana Bhashani — 1880–1976
 - [x] Liaquat Ali Khan — 1895–1951
-- [ ] Muhammad Ali Jinnah — 1876–1948
+- [x] Muhammad Ali Jinnah — 1876–1948
 - [x] Fatima Jinnah — 1893–1967
 - [x] Khawaja Nazimuddin — 1894–1964
 - [x] Malik Feroz Khan Noon — 1893–1970
@@ -1350,7 +1350,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Huseyn Shaheed Suhrawardy (1892–1963)
 - [x] Sir Khawaja Nazimuddin (1894–1964)
 - [x] Liaquat Ali Khan (1895–1951)
-- [ ] Muhammad Ali Jinnah (1876–1948)
+- [x] Muhammad Ali Jinnah (1876–1948)
 - [x] Fatima Jinnah (1893–1967)
 - [x] Begum Ra'ana Liaquat Ali Khan (1905–1990)
 - [x] Jahanara Shahnawaz (1896–1979)
@@ -1503,7 +1503,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdullo Rakhimbayev (1896–1938)
 - [x] Shirinsho Shotemur (1899–1937)
 - [x] Nusratullo Maksum (1899–1937)
-- [ ] Abdurrahim Hatif (1880–1940) — STOPPED (wave 186, 2026-11-03): the rulings-review identity (poet laureate, Academy of Sciences vice-president) is contradicted by every text — the documented bearer of the name and dates (1926–2013) is the Najibullah-era politician (vice-president, acting president Apr 1992); the queued dates (1880–1940) match neither man; founder decision pending on whether the politician is wanted as his own row
+- [x] Abdul Rahim Hatif (1926–2013) — BUILT as his own row (founder rulings, 2026-11-05; rulings packet §2, option A): the queue's 'Abdurrahim Hatif (1880–1940)', carrying the rulings-review identity (poet laureate, Academy of Sciences vice-president), has no documented bearer (waves 112 §B and 186 searched EN/RU/UZ/TG/FA); the documented bearer <redacted> the name is the Najibullah-era Afghan politician — first vice president Jul 1991–Apr 1992, acting president 16–28 Apr 1992 — built under his corrected identity and dates as person/abdul-rahim-hatif, on the Maksum queue-correction precedent (line above); faith unknown
 - [x] Berdi Kerbabayev (1894–1974)
 - EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Sultan Sanjar's Memory Preservers (1850–1920)
 - EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Magtymguly Pyragy Keepers (1820–1920)

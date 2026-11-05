@@ -90,6 +90,8 @@ open a new block on top with the new version and today's date.
 - Passage 2:259 (pp. 454-459, reports 5911-5917): Wahb ibn Munabbih's further accounts (the Persian king's rebuilding, the restoration of Urmiya's body), al-Suddi on Uzayr, al-Tabari's explanation of the question about how long he stayed and the reply (labelled as his), and Qatada, al-Rabi' and Ibn Jurayj, with the editor's notes labelled as his, in Arabic, English and Urdu; Israelite-source reports given as transmitted without a museum verdict.
 - Passage 2:259 (pp. 447-454, report 5910): the long report from Wahb ibn Munabbih (via Ibn Humayd, Salama and Ibn Ishaq) on Urmiya, the fall of Jerusalem to Nebuchadnezzar and the century of death, summarised as transmitted from Israelite sources without a museum verdict, with the editor's comparison notes labelled as his, in Arabic, English and Urdu.
 
+- Two long-held figures join the People wing by the founder's rulings. Muhammad Ali Jinnah, the founder of Pakistan, finally has his page: his religious affiliation was argued in print and litigated in court for forty years and he never declared one himself, so the page records it as unknown with every reading preserved in full. Abdul Rahim Hatif, the Afghan vice president who served as acting president for two weeks in April 1992, is built under his own name and dates — the queue had carried a man who never existed in his place. Ahmed al-Hiba's page now also preserves, as a reading the founder considered and declined, the three further texts that attest his Sufi shaykhhood.
+
 - The pathway total is now 300: the duplicate Alexandria trail (exhibit/path-alexandria-city) became an alias of exhibit/path-alexandria, and the homepage and learning pages say 300 in Arabic, English and Urdu.
 
 ---
