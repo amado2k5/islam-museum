@@ -3,10 +3,10 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { mkdtempSync, writeFileSync } from "node:fs";
+import { mkdtempSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
-import { diff, reconcile, applyToPrevious, withRetry, bootstrapPrevious, abortStagingMultipartUploads, loadBatch } from "../batch/publish.mjs";
+import { diff, reconcile, applyToPrevious, withRetry, bootstrapPrevious, abortStagingMultipartUploads, loadBatch, rootFiles } from "../batch/publish.mjs";
 
 const dir = mkdtempSync(join(tmpdir(), "publish-test-"));
 const file = (text) => {
@@ -91,3 +91,13 @@ test("abortStagingMultipartUploads aborts every listed upload and survives a fai
   assert.equal(abortStagingMultipartUploads(() => { throw new Error("AccessDenied"); }), 0);
 });
 
+
+test("rootFiles lists the root data files, including the nested .well-known/api-catalog", () => {
+  const root = mkdtempSync(join(tmpdir(), "publish-root-"));
+  for (const name of ["sitemap-index.xml", "feed.xml", "favicon.svg", "robots.txt", "404.html"]) writeFileSync(join(root, name), name);
+  mkdirSync(join(root, ".well-known"));
+  writeFileSync(join(root, ".well-known", "api-catalog"), "{}");
+  writeFileSync(join(root, ".well-known", "security.txt"), "x");
+  mkdirSync(join(root, "sitemap-dir.xml"));
+  assert.deepEqual(rootFiles(root).sort(), [".well-known/api-catalog", "favicon.svg", "feed.xml", "sitemap-index.xml"]);
+});

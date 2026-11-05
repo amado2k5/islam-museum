@@ -29,6 +29,7 @@ open a new block on top with the new version and today's date.
 ### Fixed
 
 - The Connections Explorer loads again: the site's content security policy now allows pages to fetch from the museum's API host (api.islam.museum), where the explorer's graph-data requests are redirected — the policy previously blocked those loads, so every entry failed with a "could not load" message.
+- The museum's API catalog at /.well-known/api-catalog, the machine-readable list of its data services that every page's Link header points to, is published again. The build kept the site in an archive that silently leaves out folders whose names begin with a dot, so the catalog never reached the live site and the address answered "not found"; the archive now keeps them, and the catalog is served with the other root data files.
 
 ---
 

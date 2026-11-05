@@ -28,7 +28,7 @@ const TARGETS = [
 ];
 // Data files at the dist root (sitemaps, feed, llms.txt, search synonyms, favicons), published under their own
 // names. Keep in step with R2_ROOT_FILES in workers/site/src/route.js and ROOT_FILES in ../src/index.js.
-const ROOT_FILES = [/^sitemap[\w-]*\.xml$/, /^feed\.xml$/, /^llms(-full)?\.txt$/, /^search-synonyms\.\w+\.json$/, /^favicon[\w-]*\.(png|svg|ico)$/, /^apple-touch-icon\.png$/];
+const ROOT_FILES = [/^sitemap[\w-]*\.xml$/, /^feed\.xml$/, /^llms(-full)?\.txt$/, /^search-synonyms\.\w+\.json$/, /^favicon[\w-]*\.(png|svg|ico)$/, /^apple-touch-icon\.png$/, /^\.well-known\/api-catalog$/];
 const ROOT_CACHE = "public, max-age=3600, stale-while-revalidate=86400";
 // HTML pages served by workers/site. Off unless PUBLISH_HTML=1, so the default publish is unchanged.
 const HTML_TARGETS = [
@@ -70,6 +70,14 @@ function walk(dir) {
   });
 }
 
+// The ROOT_FILES present in a build, by their key (path relative to the dist root). Root files are matched by name;
+// the one nested root file, .well-known/api-catalog, is listed by its relative path.
+export function rootFiles(root) {
+  const wellKnown = join(root, ".well-known");
+  const names = [...readdirSync(root), ...(existsSync(wellKnown) ? readdirSync(wellKnown).map((n) => `.well-known/${n}`) : [])];
+  return names.filter((name) => ROOT_FILES.some((r) => r.test(name)) && statSync(join(root, name)).isFile());
+}
+
 // key -> { path, sha, md5, cacheControl } for every file the site serves from R2.
 // Only the hashes are kept: holding the bytes of the whole site (about 300,000 files)
 // ran the runner out of memory, so each batch reads its own files when it is packed.
@@ -84,9 +92,8 @@ function desiredFiles() {
       files.set(`${t.prefix}/${rel}`, { path: full, sha: sha(bytes), md5: createHash("md5").update(bytes).digest("hex"), cacheControl: t.cacheControl });
     }
   }
-  for (const name of readdirSync(distRoot)) {
+  for (const name of rootFiles(distRoot)) {
     const full = join(distRoot, name);
-    if (!ROOT_FILES.some((r) => r.test(name)) || !statSync(full).isFile()) continue;
     const bytes = readFileSync(full);
     files.set(name, { path: full, sha: sha(bytes), md5: createHash("md5").update(bytes).digest("hex"), cacheControl: ROOT_CACHE });
   }
