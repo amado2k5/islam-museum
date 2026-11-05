@@ -75,3 +75,5 @@ He says that if Pharaoh had gone up into space and seen creation, he ought to ha
 
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh sees in Pharaoh's drowning God's law that evil scheming recoils on those who scheme: the infant Musa was cast into the river and saved, while mighty Pharaoh went into the sea and drowned, and his power did not save him. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:30} See: [[concept/al-makr-al-sayyi|evil scheming]].
+
+On [[passage/quran-2-49|verse 49]], al-Tabari says "Pharaoh" is a title borne by the kings of the Amalekites in Egypt, as Roman kings were called Caesar, and that the Pharaoh of Moses is said to have been named al-Walid ibn Mus'ab ibn al-Rayyan; "Pharaoh's people" are those of his religion, his community and his followers. {cite:tafsir-tabari-shakir-v02 p. 37} {cite:tafsir-tabari-shakir-v02 p. 38}

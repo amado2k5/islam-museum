@@ -75,3 +75,5 @@ translators: []
 
 ## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
 شیخ فرعون کے غرق ہونے میں اللہ کی یہ سنت دیکھتے ہیں کہ بری چال چلنے والوں پر پلٹتی ہے: شیر خوار موسیٰ دریا میں ڈالے گئے اور بچ گئے، جبکہ طاقتور فرعون سمندر میں اترا اور ڈوب گیا، اور اس کی طاقت اسے نہ بچا سکی۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:30} دیکھیے: [[concept/al-makr-al-sayyi|بری چال]]۔
+
+[[passage/quran-2-49|آیت 49]] میں طبری بتاتے ہیں کہ «فرعون» وہ لقب ہے جو مصر کے عمالقہ کے بادشاہ رکھتے تھے جیسے رومی بادشاہ قیصر، اور کہا جاتا ہے کہ موسیٰ کے فرعون کا نام ولید بن مصعب بن ریان تھا، اور «آلِ فرعون» اس کے دین، قوم اور پیرو ہیں۔ {cite:tafsir-tabari-shakir-v02 p. 37} {cite:tafsir-tabari-shakir-v02 p. 38}
