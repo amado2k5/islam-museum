@@ -31,6 +31,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:229: replaced short typed phrases from the verse in the Tabari prose with paraphrases, in Arabic, English and Urdu.
 - Passage 2:229 continues (vol. 4, pp. 565-571): al-Tabari on why blame is lifted from both spouses for the ransom, his question on the woman's own sin in paying, the hadith that call women who seek separation without cause hypocrites with the editor's gradings of their chains, in Arabic, English and Urdu.
 - Passage 2:229 continues (vol. 4, pp. 559-565): the remaining views on when taking a ransom is lawful, al-Tabari's choice that both must fear falling short and his answer to the objection, and the views on what the limits of God are, in Arabic, English and Urdu.
 - Passage 2:229 continues (vol. 4, pp. 553-559): the reports on the wives of Thabit ibn Qays (Habiba and Jamila) and the editor's note that they were two women, and the first views on what the fear of not keeping God's limits means, with the graded steps in the reports of Sa'id ibn Jubayr and al-Dahhak, in Arabic, English and Urdu.
