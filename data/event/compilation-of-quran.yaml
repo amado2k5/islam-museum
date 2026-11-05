@@ -12,8 +12,8 @@ relations:
   - { type: had_participant, target: person/zayd-ibn-thabit, role: "الجامع", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/khuzayma-ibn-thabit, role: "عنده الآيتان", sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
-sources: [source/tarikh-khulafa-minhaj-1434, source/sahih-al-bukhari]
-status: { review: draft, completeness: 1 }
+sources: [source/tarikh-khulafa-minhaj-1434, source/sahih-al-bukhari, source/tafsir-tabari-shakir-v01]
+status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker B, tabari run)" }
 provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
