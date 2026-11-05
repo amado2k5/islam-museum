@@ -17,10 +17,11 @@ relations:
 provenance:
   layer: own-research
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-wafayat-batch-4
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch51
 sources: [source/wafayat-ayan, source/tabaqat-fuqaha-abbas-1981]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); batch 8 (PDF ص62) added by Claude (Haiku 5.5)" }
+status: { review: published, completeness: 3 }
 occupations:
   - job: job/faqih
     kind: secondary
