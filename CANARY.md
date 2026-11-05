@@ -30,6 +30,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:175, 2:176 and 2:177 gain al-Tabari commentary (volume 3, pp. 331-337): the views on "how patient they are with the Fire" and his choice, what "that" refers to in 2:176 and who differ about the Book, and the opening of 2:177 (righteousness is not turning the face east or west), attributed, in Arabic, English and Urdu.
 - Passages 2:173, 2:174 and 2:175 gain al-Tabari commentary (volume 3, pp. 324-330): the rest of 2:173 with his choice on "neither desiring nor transgressing" and a note that the editor judges part of the printed text corrupt, 2:174 on those who conceal the Book and what they "eat", and the opening of 2:175, attributed, in Arabic, English and Urdu.
 - Passage 2:173 gains more of al-Tabari's commentary (volume 3, pp. 318-324): the readings of "al-mayta", the meaning of "dedicated to other than God", and the first two views on "neither desiring nor transgressing" (the rebel and highway robber, and seeking or exceeding the forbidden), attributed, in Arabic, English and Urdu.
 - Passages 2:171, 2:172 and 2:173 gain al-Tabari commentary (volume 3, pp. 313-318): the close of 2:171 with his chosen reading of the likeness and the editor's footnote on it, the whole of 2:172, and the opening of 2:173 (the single particle "innama"), attributed, in Arabic, English and Urdu.
