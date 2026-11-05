@@ -12,23 +12,23 @@ This file is updated with every merged phase or batch. A merged change is not li
   - Phase 0 commit `cc2131d308` was merged with refreshed `origin/main` `5fb35c65cf` as `f6a40029b8`; incoming changes did not overlap Phase 0 files. The census, validation and full test suite were rerun successfully after the merge.
   - Two later `origin/main` refreshes added 38 non-overlapping Tabari content commits through `62ecc19deb`; the merges are `a6039695d1` and `52f2757691`. On the latest tree, the census and validation passed and the full suite passed (19 files, 323 passed, 1 skipped).
   - A third refresh added 20 more non-overlapping Tabari content commits through `2f36c83f6c`, merged as `d2486ef7a0`. The regenerated report now records 208 English/Arabic prose-hit files; validation and the full test suite passed again.
-  - Next step: refresh `origin/main` once more before pushing, then open the Phase 0 PR and merge it after CI passes.
-- **5 November 2026 — Phase 1 implementation complete; PR/merge pending.** The branch is `inventions/p1-copilot`, based on refreshed `origin/main` at `daf9b0f70c`. The authorized invention class, enums, predicates, ties, validator, graph derivation, API exports, API metadata and English/Arabic/Urdu labels are implemented. The schema generator has been rerun. `npm run validate` passes; `npm test` passes (20 files, 330 passed, 1 skipped); the focused invention tests pass (7/7); `npm run build` passes (162,965 pages, check-site 0 errors/2 warnings, check-weight 0 over budget, 897 books/0 skipped); and `git diff --check` passes. The generated empty index, dataset, chains, API class list and `llms.txt` links were checked. Final origin refresh, commit, PR and merge remain.
+  - Phase 0 PR #3674 was opened and merged at `f16f28f825`; Phase 1 follows.
+- **5 November 2026 — Phase 1 implementation complete; PR/merge pending.** The branch is `inventions/p1-copilot`; it began at `daf9b0f70c` and now includes refreshed `origin/main` at `6d78f41539` via merge commit `e7aceeeed4`. The authorized invention class, enums, predicates, ties, validator, graph derivation, API exports, API metadata and English/Arabic/Urdu labels are implemented in commit `e2710cbb7f`. The schema generator has been rerun. Before the origin refresh, `npm run validate`, `npm test` (20 files, 330 passed, 1 skipped), focused invention tests (7/7), `npm run build` (162,965 pages, check-site 0 errors/2 warnings, check-weight 0 over budget, 897 books/0 skipped), and `git diff --check` passed. After the origin refresh, `npm run validate && npm test` passed (20 files, 331 passed; authenticity check 0 errors/1 warning). The fresh post-merge `npm run build` passed: 163,238 pages built, check-site checked 163,250 pages with 0 errors/2 warnings, check-weight found 0 over-budget routes across 41 routes, and 897 books were generated with 0 skipped. The invention dataset and chains are empty as expected; the class index is `[]`, API metadata includes `invention`, and `llms.txt` links to the dataset, chains and class index. A final `origin/main` fetch found no commits beyond `6d78f41539`; merging `FETCH_HEAD` was already up to date.
   - D-004 keeps dates within the existing Julian/Gregorian calendar enum and records Hijri dates in the separate `hijri` field.
   - D-005 defers `/api/v1/inventions/timeline.json`, which is outside the endpoints approved by D-000.
-  - The Phase 1 submission-impacting note is recorded in the A.5 claims register and DPGA evidence map. A later origin refresh recovered the product release notes through v1.1.0; D-006 sets the Phase 1 block to v1.2.0 and keeps the root package version at 0.1.0, matching origin/main.
-  - The first site build exhausted the local system volume while writing 13 GB of generated pages. The build output was redirected through a temporary `dist` symlink to the prepared external volume; the full build and its checks then passed. Remove that temporary build output and symlink after final artifact verification.
+  - The Phase 1 submission-impacting note is recorded in the A.5 claims register and DPGA evidence map. The origin refresh added 106 commits; the only overlapping path was `CANARY.md`, resolved by preserving its complete recovered v1.1.0 release history and adding v1.2.0 per D-006. The root package version remains 0.1.0, matching origin/main.
+  - The first site build exhausted the local system volume while writing 13 GB of generated pages. The successful post-merge build used the temporary `dist` symlink to the prepared external volume; generated API and site outputs were verified, and the temporary build output and symlink are being removed.
 
 ## Current state
 
-- Phase: 1 — schema and API foundation (implementation and local gates complete; PR/merge pending).
+- Phase: 1 — schema and API foundation (committed and merged with refreshed origin/main; post-merge gates and PR/merge pending).
 - Branch: `inventions/p1-copilot`.
-- Phase 0 is merged; Phase 1 is not yet committed or merged.
+- Phase 0 is merged; Phase 1 implementation commit `e2710cbb7f` is in the branch, along with origin refresh merge `e7aceeeed4`.
 - Downloads: no new downloads for Phase 1.
 - Schema/API changes: implemented and locally validated; no invention records or browser page yet.
 - Worker/workflow changes: none.
 - Deployment: none; do not deploy.
-- Local gates: schema generation, validation, full and focused tests, build, generated-output checks and whitespace check pass.
+- Local gates: pre-refresh validation, full/focused tests and build passed; post-refresh validation, tests and full site build passed.
 
 ## Flags
 
