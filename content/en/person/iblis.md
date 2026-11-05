@@ -23,3 +23,5 @@ On [[passage/quran-2-33|verse 33]], al-Tabari reports from Ibn Abbas, al-Suddi, 
 On [[passage/quran-2-34|verse 34]], al-Tabari records the dispute over whether he was an angel, including reports from Ibn Abbas that his name was al-Harith or Azazil, of a tribe of angels called the Jinn, and a keeper of Paradise. {cite:tafsir-tabari-shakir-v01 p. 502} {cite:tafsir-tabari-shakir-v01 p. 503}
 
 On [[passage/quran-2-34|verse 34]], al-Tabari sets out two views of his origin, that he was an angel (of a tribe called the Jinn) or that he is the origin of the jinn and not an angel, as al-Hasan al-Basri said, attributing each report to its narrator. {cite:tafsir-tabari-shakir-v01 p. 504} {cite:tafsir-tabari-shakir-v01 p. 507}
+
+On verse 34, al-Tabari derives the name "Iblis" from "iblas", despair of good, remorse and grief, and says it is not declined, like foreign names. {cite:tafsir-tabari-shakir-v01 p. 509} {cite:tafsir-tabari-shakir-v01 p. 510}
