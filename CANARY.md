@@ -35,6 +35,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:251 (pp. 369-375, reports 5747-5754): Ibn Jurayj and Mujahid on David's promise, the stones and the killing of Goliath; al-Tabari's choice on kingship, wisdom and teaching; the closing clause on repelling some people by others, with Mujahid, Ali, al-Rabi', and two reported sayings of the Prophet and the editor's chain assessments labelled as his, in Arabic, English and Urdu; reported without a museum verdict.
 - Passage 2:251 (pp. 363-369, reports 5744-5746): the further accounts of David and Goliath from al-Suddi, al-Rabi' and Ibn Zayd (the horn, the mail, the stones, Talut's envy and the cave), with the editor's notes labelled as his, in Arabic, English and Urdu; reported without a museum verdict.
 - Passage 2:251 (pp. 357-363, reports 5741-5743): the three accounts of David and Goliath transmitted from Wahb b. Munabbih (two) and Mujahid, with the editor's notes labelled as his and the report that the People of the Book relate, in Arabic, English and Urdu; reported without a museum verdict.
 - Passages 2:249 close (pp. 352-353), 2:250 (pp. 353-354) and 2:251 start (pp. 354-357, report 5740): the grammar of the word for a band, the prayer for patience and steadfast feet, and the account from Wahb b. Munabbih of David and Goliath and Talut's turn against him, with the editor's notes labelled as his, in Arabic, English and Urdu; reported without a museum verdict.
