@@ -1,0 +1,36 @@
+id: person/faiz-syed
+class: person
+names:
+  - { kind: full, value: "Faiz Ali Syed" }
+  - { kind: alternate, value: "Adv. Faiz Syed" }
+label: { ar: "فيض سيد", en: "Faiz Syed", ur: "فیض سید" }
+summary:
+  ar: "داعية ومحاضر هندي من أورنغ آباد، مؤسس «مركز البحوث الإسلامية للتعليم والرعاية» (IRC) سنة 2001 ومدير قناة IRC TV؛ بلغت قناته على يوتيوب 4.17 مليون مشترك في نوفمبر 2026 بحسب vidIQ، وقد ألقى — بحسب موقعه الرسمي — أكثر من 2,000 محاضرة بالأردية والهندية في أكثر من 200 مدينة هندية."
+  en: "Indian preacher and lecturer from Aurangabad, founder of the Islamic Research Centre Education & Welfare Trust (IRC) in 2001 and director of IRC TV; his YouTube channel counted 4.17 million subscribers in November 2026 per vidIQ, and his official website credits him with more than 2,000 lectures in Urdu and Hindi in more than 200 Indian cities."
+  ur: "اورنگ آباد سے تعلق رکھنے والے ہندوستانی مبلغ و مقرر، «اسلامک ریسرچ سینٹر ایجوکیشن اینڈ ویلفیئر ٹرسٹ» (IRC) کے بانی (2001ء) اور IRC TV کے ڈائریکٹر؛ vidIQ کے مطابق نومبر 2026ء میں ان کے یوٹیوب چینل کے سبسکرائبر 4.17 ملین تھے، اور ان کی سرکاری ویب سائٹ کے مطابق وہ 200 سے زائد ہندوستانی شہروں میں 2,000 سے زیادہ لیکچر دے چکے ہیں۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this wave attests a specific school or order for Faiz Syed himself. His official website lists his degrees — including an M.A in Islamic Studies and, in his channels' video descriptions, a Fazil-e-Diniyat — which are educational credentials, not an attestation of a madhhab or tariqa; his offices (founder-president of IRC, director of IRC TV) are headship, which never counts. Under this lane's two-text rule his school therefore stays unknown, with no reading strong enough to preserve beyond the credentials themselves."
+    sources: [source/advfaizsyed-faiz-syed, source/vidiq-irc-tv]
+roles: [scholar, preacher]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1979-12-12"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Aurangabad, Maharashtra, India, on 12 December 1979, to Azam Ali Syed and Aliya Fatima, as stated on his official website; the date rests on that primary source alone and is flagged as such in the wave report. There is no place record for Aurangabad, so no born_in edge is written. Hijri year 1400 derived from the Gregorian date."
+  sources: [source/advfaizsyed-faiz-syed]
+relations: []
+sources: [source/advfaizsyed-faiz-syed, source/vidiq-irc-tv]
+provenance:
+  layer: own-research
+  source: "The wave-193 harvest entry (Adv. Faiz Syed, India; YouTube IRC TV @IRCTV, harvest reach 4.23M), researched against his official website advfaizsyed.com and the vidIQ statistics page for IRC TV, both read in full on 5 November 2026. Live count re-read at build: vidIQ gives 4,170,000 subscribers (1,071,425,329 views, 34,207 videos) at its 5 November 2026 update — the figure carried in this record; his own website's 4.23 million is the site's September 2026 figure and is preserved in the vidIQ source note, not carried. No English Wikipedia article exists for him (the Wikitia page is a mirrored Wikipedia draft, not a live article) and no Wikidata item could be found, so no wikidata id is recorded. De-duplicated against main: no faiz-syed record exists (faizal-kottikollon and faizunnesa-choudhurani are different people). No place record for Aurangabad or Karachi exists in the tree, so no place edges are written; his founder relation to IRC is not written because no group record for IRC exists on main."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-193"
+status: { review: published, completeness: 2 }

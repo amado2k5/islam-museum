@@ -1,0 +1,37 @@
+id: person/ilyas-qadri
+class: person
+names:
+  - { kind: full, value: "Muhammad Ilyas Attar Qadri" }
+  - { kind: alternate, value: "Ilyas Qadri" }
+  - { kind: alternate, value: "Maulana Ilyas Qadri" }
+label: { ar: "محمد إلياس عطار قادري", en: "Ilyas Qadri", ur: "محمد الیاس عطار قادری" }
+summary:
+  ar: "عالم باكستاني من كراتشي (وُلد 1950)، مؤسس حركة دعوة إسلامي سنة 1981 وأميرها منذ تأسيسها، تصفه «مسلم 500» بأنه قائد فرع القادرية الرضوية العطارية من الطريقة القادرية الصوفية؛ ألّف نحو ثلاثين كتابًا أشهرها «فيضان سنت»، وبلغت قناته على يوتيوب 2.25 مليون مشترك في نوفمبر 2026 بحسب vidIQ."
+  en: "Pakistani scholar from Karachi (born 1950), founder of Dawat-e-Islami in 1981 and its leader since its foundation, and described by The Muslim 500 as a leader of the Qadiriyyah, Radaviyyah, Attariya branch of the Qadri Sufi order; author of some 30 books, chief among them Faizan-e-Sunnat. His YouTube channel counted 2.25 million subscribers in November 2026 per vidIQ."
+  ur: "کراچی سے تعلق رکھنے والے پاکستانی عالم (پیدائش 1950ء)، دعوتِ اسلامی کے بانی (1981ء) اور اس کے قیام سے امیر، «مسلم 500» انہیں قادری صوفی سلسلے کی قادریہ رضویہ عطاریہ شاخ کا قائد قرار دیتی ہے؛ تقریباً تیس کتب کے مصنف جن میں «فیضانِ سنت» سب سے مشہور ہے۔ vidIQ کے مطابق نومبر 2026ء میں ان کے یوٹیوب چینل کے سبسکرائبر 2.25 ملین تھے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown under this lane's two-independent-text rule, with the readings preserved. The Muslim 500 (Royal Islamic Strategic Studies Centre, 2010 edition, p. 102) states in prose: 'Sheikh Muhammad Ilyas Attar Qadiri is a leader of the Qadiriyyah, Radaviyyah, Attariya branch of the Qadri Sufi order.' The English Wikipedia article states in its lead prose that he 'belongs to the Qadri-Razavi order of Sufism', and its Sufism section records that he became a murid of Ziauddin Madani, was authorised in Sufism by Waqaruddin and Fazlur Rahman Malik, and was authorised in the four major orders by Shariful Haq Amjadi. These do not settle the value in this lane: the article's lead claim rests on The Muslim 500 itself (its reference 1) and its Sufism section on 'Attar - The Life and the Journey' (Maktaba tul Madinah, 2010), his own movement's biography, so the attestations reduce to one independent text plus his own ecosystem; and The Muslim 500's wording is leadership of a branch, and headship never counts as attestation in this lane. The school question is likewise unsettled: the Hanafi attestation stands only in Dawat-e-Islami's own LMS biography prose ('in jurisprudence (Fiqh), he follows Imam al-A'zam Abu Hanifa... and is thus Hanafi') together with the article's infobox fields (Sunni / Hanafi / Maturidi / Barelvi), which this lane excludes as attestation. All readings preserved here, none adopted."
+    sources: [source/muslim500-ilyas-qadri, source/wikipedia-ilyas-qadri-en]
+roles: [scholar, preacher, writer]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1950-07-12"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Karachi, Pakistan, on 12 July 1950, corresponding to 26 Ramadan 1369 AH; the English Wikipedia article and Dawat-e-Islami's official founder biography agree on the date, and the founder biography gives the Hijri correspondence explicitly. There is no place record for Karachi, so no born_in edge is written."
+  sources: [source/wikipedia-ilyas-qadri-en, source/dawateislami-ilyas-qadri-founder]
+relations: []
+sources: [source/wikipedia-ilyas-qadri-en, source/dawateislami-ilyas-qadri-founder, source/muslim500-ilyas-qadri, source/vidiq-maulana-ilyas-qadri]
+provenance:
+  layer: own-research
+  source: "The wave-193 harvest entry (Maulana Muhammad Ilyas Attar Qadri, b. 12 July 1950 Karachi, founder/emir of Dawat-e-Islami; YouTube @maulanailyasqadri 2.3M, Facebook ~6.9M in the harvest), researched against the English Wikipedia article, Dawat-e-Islami's official founder biography, The Muslim 500 (2010 edition) entry and the vidIQ channel statistics page, all read in full on 5 November 2026. Live count re-read at build: vidIQ gives 2,250,000 subscribers (407,786,078 views, 7,173 videos) at its 5 November 2026 update — the figure carried in this record, superseding the harvest's rounded 2.3M; the harvest's Facebook figure was not re-read and is not carried. A Wikidata QID could not be verified in this run (search results exposed no QID and the Wikidata lookup route returned access-denied), so no wikidata id is recorded rather than guessed. De-duplicated against main: no ilyas-qadri record exists (muhammad-ilyas-kandhlawi and tez-ilyas are different people). No place record for Karachi exists, and no group record for Dawat-e-Islami exists on main, so no place or founder_of edges are written."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-193"
+status: { review: published, completeness: 2 }

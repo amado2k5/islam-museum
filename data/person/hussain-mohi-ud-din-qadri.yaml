@@ -1,0 +1,41 @@
+id: person/hussain-mohi-ud-din-qadri
+class: person
+names:
+  - {kind: latinized, value: "Hussain Mohi-ud-Din Qadri"}
+  - {kind: full, value: "حسين محيي الدين قادري"}
+label:
+  ar: "حسين محيي الدين قادري"
+  en: "Hussain Mohi-ud-Din Qadri"
+  ur: "حسین محی الدین قادری"
+summary:
+  ar: "أكاديمي وكاتب باكستاني في الاقتصاد، الابن الأصغر لمحمد طاهر القادري؛ رئيس منظمة منهاج القرآن العالمية ونائب رئيس مجلس أمناء جامعة منهاج لاهور، ومؤلف خمسين كتابًا بحسب ملف جامعته."
+  en: "Pakistani economist, academic and author; the younger son of Muhammad Tahir-ul-Qadri. He is President of Minhaj-ul-Quran International and Deputy Chairman of the Board of Governors of Minhaj University Lahore, and the author of 50 books according to his university profile."
+  ur: "پاکستانی ماہر معاشیات، استاد اور مصنف؛ محمد طاہر القادری کے چھوٹے صاحبزادے، منہاج القرآن انٹرنیشنل کے صدر اور منہاج یونیورسٹی لاہور کے بورڈ آف گورنرز کے ڈپٹی چیئرمین۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text attesting a specific school or order for Hussain Mohi-ud-Din Qadri himself was found in the sources read. His father Muhammad Tahir-ul-Qadri's documented affiliations are family background, which never settles a son's faith under the lane's rule, so the value stays unknown."
+    sources: [source/mul-hussain-qadri-profile, source/minhaj-hussain-qadri-dclg-meeting]
+roles: [scholar, writer, teacher, activist]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1982-10-24"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 24 October 1982 in Lahore, per his Minhaj University Lahore profile. Hijri year derived from the Gregorian date."
+  sources: [source/mul-hussain-qadri-profile]
+relations:
+  - type: child_of
+    target: person/tahir-ul-qadri
+    sources: [source/mul-hussain-qadri-profile, source/minhaj-hussain-qadri-dclg-meeting, source/minhaj-hussain-qadri-phd]
+  - type: sibling_of
+    target: person/hassan-mohi-ud-din-qadri
+    sources: [source/minhaj-hussain-qadri-phd, source/minhaj-hassan-phd]
+sources: [source/mul-hussain-qadri-profile, source/minhaj-hussain-qadri-dclg-meeting, source/minhaj-hussain-qadri-phd, source/minhaj-hassan-phd, source/vidiq-drhussainqadri]
+provenance: {layer: own-research, source: "Writer C web research for wave 193: Minhaj University Lahore official profile, Minhaj-ul-Quran news reports of 2009 and 2012, and vidIQ channel statistics, read in full on 5 November 2026.", generated_by: "Muse (Muse Wonder)", run: "modern-figures-wave-193"}
+status: {review: published, completeness: 2}
