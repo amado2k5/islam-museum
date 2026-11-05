@@ -1,0 +1,37 @@
+id: person/abdul-habib-attari
+class: person
+names:
+  - { kind: full, value: "Abdul Habib Attari" }
+  - { kind: alternate, value: "Haji Abdul Habib Attari" }
+  - { kind: alternate, value: "Maulana Abdul Habib Attari" }
+label: { ar: "عبد الحبيب عطاري", en: "Abdul Habib Attari", ur: "عبد الحبیب عطاری" }
+summary:
+  ar: "داعية باكستاني من كراتشي (وُلد 1974)، عضو المجلس التنفيذي المركزي (ركن شورى) لحركة دعوة إسلامي، يرأس قناة مدني وجامعة المدينة؛ بلغت قناته على يوتيوب 2.3 مليون مشترك في نوفمبر 2026 بحسب vidIQ، ومن أشهر برامجه على قناة مدني «ذهني آزمائش»."
+  en: "Pakistani preacher from Karachi (born 1974), a member (Rukn-e-Shura) of Dawat-e-Islami's Central Executive Committee who heads Madani Channel and Jamia-tul-Madinah; his YouTube channel counted 2.3 million subscribers in November 2026 per vidIQ, and his best-known Madani Channel programme is Zehni Azmaish."
+  ur: "کراچی سے تعلق رکھنے والے پاکستانی مبلغ (پیدائش 1974ء)، دعوتِ اسلامی کی مرکزی مجلسِ شوریٰ کے رکن (رکنِ شوریٰ)، مدنی چینل اور جامعۃ المدینہ کے سربراہ؛ vidIQ کے مطابق نومبر 2026ء میں ان کے یوٹیوب چینل کے سبسکرائبر 2.3 ملین تھے، اور مدنی چینل پر ان کا مشہور پروگرام «ذہنی آزمائش» ہے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent texts read in this wave attest a specific school or order for Abdul Habib Attari himself. Preserved readings: his official website says he delivers speeches 'propagating the sayings of great Sufi Sheikh of Qadria Silsila, Abdul Qadir Jilani' — a description of the content he teaches, not of his own order membership; the same site places him under the spiritual upbringing of Muhammad Ilyas Attar Qadri and inside Dawat-e-Islami, a movement other texts describe as Barelvi Sunni — milieu, discipleship naming (his nisba Attari) and office, none of which count as attestation under this lane's rules. His school therefore stays unknown, with the readings preserved here."
+    sources: [source/abdulhabibattari-abdul-habib-attari]
+roles: [scholar, preacher]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1974-10-14"
+  hijri: "1394"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Karachi, Pakistan, on 14 October 1974, given on his official website as 27 Ramadan 1394 AH; the date rests on that primary source (the same date is repeated by Dawat-e-Islami's own course pages, a single source family) and is flagged as such in the wave report. There is no place record for Karachi, so no born_in edge is written."
+  sources: [source/abdulhabibattari-abdul-habib-attari]
+relations: []
+sources: [source/abdulhabibattari-abdul-habib-attari, source/vidiq-abdul-habib-attari]
+provenance:
+  layer: own-research
+  source: "The wave-193 harvest entry (Abdul Habib Attari, Pakistan, Dawat-e-Islami Rukn-e-Shura preacher; YouTube @abdulhabibattari 2.3M per vidIQ 2026-11-05), researched against his official website introduction (abdulhabibattari.net) and the vidIQ channel statistics page, both read in full on 5 November 2026. Live count re-read at build: vidIQ gives 2,300,000 subscribers (430,551,020 views, 10,838 videos) at its 5 November 2026 update, confirming the harvest figure. No English Wikipedia article and no Wikidata item were found for him (the Wikitia page is a mirror, not a live Wikipedia article), so no wikidata id is recorded. De-duplicated against main: no abdul-habib-attari record exists. No place record for Karachi exists, and no group record for Dawat-e-Islami exists on main, so no place or membership edges are written."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-193"
+status: { review: published, completeness: 2 }

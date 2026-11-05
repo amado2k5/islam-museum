@@ -38,6 +38,7 @@ open a new block on top with the new version and today's date.
 - Seven contemporary figures join the People wing, opening the museum's Ethiopian coverage: the menzuma artist Muaz Habib, the Afaan Oromo teacher Anwar Yusuf and the comparative-religion preacher Wahid Omar Negash from Ethiopia; the Bangladeshi scholars Ahmadullah, Abu Taw Haa Muhammad Adnan and Enayetullah Abbasi; and the Senegalese preacher Abdoul Wahab Dièye — each with sourced pages in Arabic, English and Urdu.
 - Five Islamic media groups join the collection: Minber TV and Nejashi TV from Ethiopia, Africa TV from Nigeria, and Taw Haa Tv and Holy Tune from Bangladesh — channels carrying sermons, lectures and nasheed to audiences from tens of thousands to over ten million subscribers, each with sourced pages in Arabic, English and Urdu.
 - An index of the embeddable widgets at /ar/embed/, /en/embed/ and /ur/embed/, listing "Did you know?" and "Trail of the week" with the code to place each on another site.
+- Eight contemporary Urdu-language scholars and preachers from Pakistan and India join the People wing: Faiz Syed of IRC TV (4.17 million YouTube subscribers); Dawat-e-Islami's founder Ilyas Qadri and the preacher Abdul Habib Attari; the late Khadim Hussain Rizvi, founder of Tehreek-e-Labbaik Pakistan, whose archive channel still publishes his recordings; Mufti Salman Azhari; Ashraf Asif Jalali; and Minhaj-ul-Quran's Hussain and Hassan Mohi-ud-Din Qadri — each with sourced pages in Arabic, English and Urdu.
 
 ### Changed
 

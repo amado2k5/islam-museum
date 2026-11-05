@@ -1,0 +1,38 @@
+id: person/muhammad-ashraf-asif-jalali
+class: person
+names:
+  - {kind: latinized, value: "Muhammad Ashraf Asif Jalali"}
+  - {kind: full, value: "محمد أشرف آصف جلالي"}
+label:
+  ar: "محمد أشرف آصف جلالي"
+  en: "Muhammad Ashraf Asif Jalali"
+  ur: "محمد اشرف آصف جلالی"
+summary:
+  ar: "عالم دين وزعيم حركي باكستاني مقيم في لاهور؛ مؤسس تحريك صراط مستقيم ورئيس تحريك لبيك يا رسول الله وجناحها السياسي تحريك لبيك إسلام، وهي تنظيمات منفصلة عن تحريك لبيك باكستان التي أسسها خادم حسين رضوي."
+  en: "Pakistani scholar and movement leader based in Lahore; founder of Tehreek-e-Sirat-e-Mustaqeem and chairman of Tehreek Labbaik Ya Rasool Allah and its political wing Tehreek Labbaik Islam — organisations distinct from Khadim Hussain Rizvi's Tehreek-e-Labbaik Pakistan."
+  ur: "لاہور میں مقیم پاکستانی عالم دین اور تحریکی رہنما؛ تحریک صراط مستقیم کے بانی اور تحریک لبیک یا رسول اللہ اور اس کے سیاسی ونگ تحریک لبیک اسلام کے چیئرمین۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His own party's website describes him as 'affiliated with the Ahle Sunnat Wa Jamaat Barelvi movement', and reporting likewise places him inside the Barelvi movement; that is movement affiliation (milieu), not a prose attestation of a specific school of law for Jalali himself. No two independent texts attesting a specific school for him personally were found, so the value stays unknown and the Barelvi-movement reading is preserved here."
+    sources: [source/tehreek-labbaik-islam-about, source/bitter-winter-tlp-taking-to-the-streets]
+roles: [scholar, preacher, teacher, writer, activist, politician]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1968-04-12"
+  hijri: "1388"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 12 April 1968 in Bhikhi Sharif, district Mandi Bahauddin; the date and place are given by his organisation's official biography and matched by his party's website. Hijri year derived from the Gregorian date."
+  sources: [source/sirat-e-mustaqeem-jalali-biography, source/tehreek-labbaik-islam-about]
+relations:
+  - type: lived_in
+    target: place/lahore
+    sources: [source/sirat-e-mustaqeem-jalali-biography]
+sources: [source/sirat-e-mustaqeem-jalali-biography, source/tehreek-labbaik-islam-about, source/bitter-winter-tlp-taking-to-the-streets, source/bitter-winter-wilders-verdict, source/vidiq-thedrjalali]
+provenance: {layer: own-research, source: "Writer C web research for wave 193: the official biography on siratemustaqeem.net, the Tehreek Labbaik Islam About page, two Bitter Winter articles and vidIQ channel statistics, read in full on 5 November 2026.", generated_by: "Muse (Muse Wonder)", run: "modern-figures-wave-193"}
+status: {review: published, completeness: 2}
