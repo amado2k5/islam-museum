@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 50 — Wafayat al-A'yan cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 49 — Muntazam, Tarikh al-Khulafa, Ottoman Salabi and Wafayat cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 48 — Nafh al-Tib, Kamil fi'l-Tarikh and Muntazam cohorts).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill persons batch 47 — Ottoman-era Salabi, Muntazam and Nafh al-Tib cohorts).

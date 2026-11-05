@@ -13,12 +13,13 @@ periods: [period/crusades-ayyubid-mamluk]
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الثالث (ترجمة القاضي الفاضل)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
-  run: lib-wafayat-batch-27
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch50
 external_ids:
   wikidata: Q11903820
 sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 3 }
 occupations:
   - job: job/vizier
     kind: secondary
