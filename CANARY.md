@@ -29,6 +29,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passage 2:144 continues its al-Tabari commentary (volume 3, pp. 173-178): the reasons given for the Prophet's longing for the Ka'ba, the meaning of "shatr" (toward), and the disagreement over which part of the Sacred Mosque is meant, each attributed, in Arabic, English and Urdu.
 - Passages 2:143 (end) and 2:144 (opening) gain al-Tabari commentary (volume 3, pp. 168-173): "God would never let your faith be lost" as the prayers toward Jerusalem, "Compassionate and Merciful", and "We see the turning of your face toward the sky", each attributed, in Arabic, English and Urdu.
 - Passage 2:143 continues its al-Tabari commentary (volume 3, pp. 164-168): what "it was heavy" refers to (the turning, the qibla or the prayer) and his choice, and the reports on "God would never let your faith be lost" as the prayer toward Jerusalem, each attributed, in Arabic, English and Urdu.
 - Passage 2:143 continues its al-Tabari commentary (volume 3, pp. 158-163): his answer on how "that We might know" is understood and the other views he sets aside, and the meaning of "follows the Messenger" and "turns on his heels", each attributed, in Arabic, English and Urdu.
