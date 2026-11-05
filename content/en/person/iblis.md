@@ -17,3 +17,5 @@ The book says that Iblis was sent down at al-Ubulla in the land of Iraq, and it 
 
 ## In al-Tabari's commentary
 On [[passage/quran-2-30|verse 30]], al-Tabari gives two reports from Ibn Abbas about Iblis. In the first he was of a clan of angels created from the fire of the samum and a keeper of Paradise, whom God sent with a host of angels against the jinn who had spread corruption on the earth; he grew conceited, and God saw his pride though the angels did not. In the second he was set over the lowest heaven and pride arose in his chest. He refused to bow to Adam, saying he was better, and God made him despair ("iblas") of all good. {cite:tafsir-tabari-shakir-v01 p. 455} {cite:tafsir-tabari-shakir-v01 p. 459}
+
+On [[passage/quran-2-33|verse 33]], al-Tabari reports from Ibn Abbas, al-Suddi, Said ibn Jubayr and Sufyan that what Iblis concealed in himself was pride and the intention not to prostrate to Adam. {cite:tafsir-tabari-shakir-v01 p. 498} {cite:tafsir-tabari-shakir-v01 p. 499}
