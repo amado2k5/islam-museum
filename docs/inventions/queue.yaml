@@ -3784,14 +3784,18 @@ candidates:
     flags: [contested-date-and-institution-type, verify-source-backed-maker-eligibility]
   - id: hisba-market-inspector
     label: "Hisba and the market inspector"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: institutions-systems
     era: first-century
     from: founder-supplied-lead
+    records: ["invention/hisba", "person/umar-ibn-al-khattab", "media/walters-476-glass-weight", "media/diagram-hisba"]
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
-      - source/tdv-hisbe
+      - "source/tdv-hisbe §history"
+      - "source/maalim-qurba-edition-1976 scan pp. 5–6, 53, 137, 147, 157, 251, 258–260"
+      - "source/hisba-ibn-taymiyya-ilmiyya pp. 11, 16–18, 20–21"
+      - "source/muqaddima-ibn-khaldun pp. 216, 221"
     flags: [verify-specific-institutional-change, distinguish-role-from-invention, identify-eligible-maker]
   - id: waqf-and-english-trust-comparison
     label: "The historical development of waqf as an institution"
