@@ -18,10 +18,13 @@ relations:
   - { type: part_of, target: concept/adab, sources: [source/ibn-rajab-jami-ulum-hikam] }
 provenance:
   layer: own-research
+  enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-fatiha-end-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 185-189: the three views of God anger and the people angered" }
   source: "جامع العلوم والحكم، شرح الحديث السادس عشر ص 343–344 والثامن عشر ص 430 (ط دار ابن كثير 1429هـ/2008م)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-jami-ulum-hikam-batch-7
 sources:
+- source/tafsir-tabari-shakir-v01
 - source/ibn-rajab-jami-ulum-hikam
 - source/assabile-omar-abdelkafy
 - source/assabile-muhammad-metwally-al-shaarawy

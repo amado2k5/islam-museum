@@ -100,12 +100,15 @@ relations:
   - source/ibn-hisham-saqqa
 provenance:
   layer: own-research
+  enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-fatiha-end-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 185-193: the Adi reports on angered and astray" }
   source: الإصابة في تمييز الصحابة، ترجمة 5961، ص 1014
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch127
 external_ids: { wikidata: "Q2630337" }
 sources:
+- source/tafsir-tabari-shakir-v01
 - source/ibn-hajar-isaba
 - source/ibn-hisham-saqqa
 - source/sahih-al-bukhari
