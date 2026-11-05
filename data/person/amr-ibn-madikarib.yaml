@@ -90,15 +90,14 @@ relations:
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 6697، ص 1130؛ سيرة ابن هشام (السقا 1936) ج4 ص230-231؛ فتوح البلدان؛ مروج الذهب ج2 ص619-622
-  generated_by: Claude (maintainer session); extended by Claude Code
-  model: claude-fable-5-1
-  run: ibn-hisham-batch-9a
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: "prose-fill-persons-batch54"
 sources:
 - source/ibn-hajar-isaba
 - source/ibn-hisham-saqqa
 - source/futuh-buldan-maarif-1407
 - source/muruj-al-dhahab
 status:
-  review: draft
-  completeness: 2
-  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1130, entry 6697)
+  review: published
+  completeness: 3

@@ -20,6 +20,6 @@ relations:
   - { type: sibling_of, target: person/adi-ibn-hatim, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/capture-and-release-of-hatims-daughter, role: "الأسيرة المُطلَقة", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/islam-of-adi-ibn-hatim, role: "أشارت على أخيها بالإسلام", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 225-227 and n. 4 p. 225", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 225-227 and n. 4 p. 225", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch54" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 225-227" }
+status: { review: published, completeness: 3 }
