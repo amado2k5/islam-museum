@@ -14,6 +14,11 @@
 - Not done yet: the body of the commentary, verse by verse. The volumes have been OCR'd (book.txt and pages.json on the harvest drive) but not read beyond their title pages. The next pass should start with the introduction of vol. 1 and then the chapters on the readings, the ahruf and the sources for the work's method.
 - Printed page offsets are not established; citations are PDF pages.
 
+## Introduction of vol. 1 (second pass)
+- Read: PDF pp. 4–6 (praise, the author's aim); the volume's index on PDF pp. 618–621 (the chapters of the introduction, with the author's own summary of the seven ahruf).
+- Added to work/jami-al-bayan in ar/en/ur: the section "The introduction in the first volume".
+- Not yet read: the chapters themselves (PDF pp. 7–617).
+
 ## Next steps
 1. Read vol. 1 introduction (PDF pp. 3–60): al-Tabari's method, the ahruf, the merit of tafsir (for concept/al-ahruf-al-sabaa, concept/tafsir-bil-mathur).
 2. Map the places in vol. 1–16 where al-Tabari gives his own preference among the readings (for question/did-al-tabari-reject-established-readings).
