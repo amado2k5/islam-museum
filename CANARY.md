@@ -35,6 +35,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- Passages 2:245 close (pp. 286-291, reports 5622-5625) and 2:246 start (pp. 291-292, reports 5626-5627): the readings of the multiplying verb with al-Tabari's choice (labelled as his), the withholding and expanding with the price report and the editor's and scholars' gradings attributed, the return, and the prophet of the Children of Israel named Shamwil with his lineage as transmitted, in Arabic, English and Urdu.
 - Passages 2:244-2:245 (pp. 280-286, reports 5617-5621): the command to fight and why al-Tabari rejects reading it as addressed to the revived people (labelled as his), the meaning of the loan to God and the reports on Abu al-Dahdah, with the editor's notes and chain judgements attributed to him and the scholars he cites, in Arabic, English and Urdu.
 - Passage 2:243 close (pp. 274-279, reports 5611-5616): the further reports on the people who left their homes, al-Tabari's choice on the sense of the plural for thousands and on their number (labelled as his), the lesson of the account and the note on the end of the old division, in Arabic, English and Urdu.
 - Passage 2:243 (pp. 267-274, reports 5598-5610): the reports on the people who left their homes, their number, the plague, Ezekiel and their return to life, from Wahb b. Munabbih, Ibn Abbas, al-Suddi, Muhammad b. Ishaq, Ibn Zayd and al-Hasan, with the editor's notes labelled as his, in Arabic, English and Urdu; reported without a museum verdict.
