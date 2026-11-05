@@ -46,3 +46,33 @@ Scope of the sign-off is limited to the exact class, enums, predicates, existing
 **Decision:** Phase 0 adds internal planning documents and a census command, but no reader-facing feature, data class, page or endpoint. Keep package version `0.1.0`; initialize the empty `CANARY.md` with a `v0.1.0` block and a reader-facing note. The schema/API and browser-home phases will receive the required minor bumps.
 
 **Touches:** `CANARY.md`; no package version change.
+
+## D-004 — Use the repository date calendar model (5 November 2026)
+
+**Question:** How should invention dates preserve a Hijri date when the Phase 1 example uses `calendar: hijri`?
+
+**Rule applied:** `schema/_base.schema.json` permits only `julian` and `gregorian` for `calendar`; `hijri` is a separate string field. The Hijri conversion helpers also accept only those civil calendars.
+
+**Decision:** Keep the existing date schema. Record a source's Hijri date in `hijri`; use `calendar` only when the source explicitly identifies a Julian or Gregorian civil calendar. Do not write `calendar: hijri`, and do not invent an EDTF conversion or calendar designation. Correct the Phase 1 example accordingly.
+
+**Touches:** `docs/inventions/schema.md` and future invention dates; no schema expansion.
+
+## D-005 — Defer the unapproved invention timeline endpoint (5 November 2026)
+
+**Question:** Should Phase 1 also add `/api/v1/inventions/timeline.json`, which appears in the operative prompt's later browser requirements?
+
+**Rule applied:** D-000 item 4 grants submission-impacting approval only for `/api/v1/invention/*`, `/api/v1/inventions.json` and `/api/v1/inventions/chains.json`. The timeline route is outside that exact authorization.
+
+**Decision:** Do not implement the timeline endpoint in Phase 1. The structured `era.first_attested` data remains available through the approved class and dataset endpoints. A timeline endpoint requires a separate approved proposal and matching outreach updates if it changes submission claims.
+
+**Touches:** Phase 1 API scope and future browser work; no route added.
+
+## D-006 — Base the Phase 1 release on the refreshed canary history (5 November 2026)
+
+**Question:** Which product release version should record the Phase 1 class and API after `origin/main` advances?
+
+**Rule applied:** `docs/engineering/15-release-notes-and-versioning.md` says a new class or endpoint takes a minor product-version bump, and the top `CANARY.md` block is the version shown to readers. The refreshed `origin/main` (`6d78f41539`) restores the release history through v1.1.0; its root `package.json` remains at 0.1.0.
+
+**Decision:** Preserve the complete recovered `CANARY.md` from `origin/main` and add v1.2.0 for Phase 1. Do not retain the Phase 0 branch's temporary v0.1.0/v0.2.0 release-note history over the recovered product history, and keep the root package version at 0.1.0, matching `origin/main`; the public product version comes from `CANARY.md`.
+
+**Touches:** `CANARY.md`, `package.json`, `package-lock.json`; no API version change.

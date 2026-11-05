@@ -373,6 +373,57 @@
           }
         }
       }
+    },
+    "inventions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "invention",
+          "role",
+          "sources"
+        ],
+        "properties": {
+          "invention": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "role": {
+            "enum": [
+              "inventor",
+              "co-inventor",
+              "improver",
+              "describer",
+              "transmitter",
+              "translator",
+              "commissioner",
+              "commercializer",
+              "disputed"
+            ]
+          },
+          "start": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "end": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "place": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "unevaluatedProperties": false

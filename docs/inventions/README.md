@@ -1,6 +1,6 @@
 # Muslim Inventions Browser (متصفح اختراعات المسلمين)
 
-**Status: Phase 0 planning.** This is the working plan and queue for a static, trilingual browser of inventions and discoveries attributed to Sunni Muslim makers. No invention class, data, API or site page is implemented in this phase. The browser begins publishing only after the Phase 1 schema/API change is approved by the standing authorization recorded as D-000 and passes the submission-impact gates.
+**Status: Phase 1 — schema/API implementation (5 November 2026).** The `invention` class and approved static API are implemented on `inventions/p1-copilot`; local validation, tests and the full site build pass, with PR/merge pending. No invention records or browser pages exist yet, and nothing is live until the founder deploys.
 
 The source of truth is the museum graph: records live in `data/invention/<slug>.yaml`, prose in `content/{ar,en,ur}/invention/<slug>.md`, and source files stay outside Git. The plan follows the Job Browser's companion-document shape in [`../jobs/README.md`](../jobs/README.md), but uses the invention-specific inclusion and attribution rules in [`taxonomy.yaml`](./taxonomy.yaml).
 
@@ -39,7 +39,7 @@ The machine-readable 19-domain taxonomy, invention kinds, eras, attribution valu
 
 ## 4. Schema in one view
 
-The proposed `invention` record keeps the identity, domain, kind, era, origin, dated makers, attribution and perspectives, precursors, dependents, spread, impacts, surviving examples, source works, sites, concepts, present-day form, external identifiers, media and trilingual prose/metadata together. Every relation is sourced and written once; inverse edges are computed. Full proposed shapes and validator rules are in [`schema.md`](./schema.md).
+The `invention` record keeps the identity, domain, kind, era, origin, dated makers, attribution and perspectives, precursors, dependents, spread, impacts, surviving examples, source works, sites, concepts, present-day form, external identifiers, media and trilingual prose/metadata together. Every relation is sourced and written once; inverse edges are computed. The generated schema and validator implement the shapes in [`schema.md`](./schema.md).
 
 ## 5. Site in one view
 

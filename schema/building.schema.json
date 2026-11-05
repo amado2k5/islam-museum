@@ -127,6 +127,41 @@
           }
         }
       }
+    },
+    "inventions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "invention",
+          "relation",
+          "sources"
+        ],
+        "properties": {
+          "invention": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "relation": {
+            "enum": [
+              "site-of",
+              "spread-to",
+              "made-in"
+            ]
+          },
+          "start": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "required": [

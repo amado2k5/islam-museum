@@ -10,14 +10,14 @@ File: `data/invention/<slug>.yaml`; id `invention/<slug>` is immutable and renam
 id: invention/crankshaft-al-jazari
 class: invention
 label: { ar: "…", en: "…", ur: "…" }
-names: [{ value: "…", kind: variant, lang: en }]
+names: [{ value: "…", kind: alternate, lang: en }]
 summary: { ar: "…", en: "…", ur: "…" }
 domain: mechanics-automata
 kind: device
 disciplines: [engineering]
 era:
   origins: middle-period
-  first_attested: { edtf: "1206", hijri: "0602", calendar: hijri, precision: year, status: historical, sources: [source/…] }
+  first_attested: { hijri: "0602", precision: year, status: historical, sources: [source/…] }
   status_today: living
 origin:
   place: place/…
@@ -38,7 +38,7 @@ dependents:
 spread:
   - { place: place/…, start: { edtf: "13XX" }, via: journey/…, note: "…", sources: [source/…] }
 impact:
-  fields: [engineering]
+  fields: [mechanics-automata]
   changed: { ar: "…", en: "…", ur: "…" }
   history: { ar: "…", en: "…", ur: "…" }
   significance: 4

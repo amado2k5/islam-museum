@@ -656,3 +656,67 @@ codified_in:
   label: { en: "Codified in", ar: "مُقنَّن في" }
   inverse_label: { en: "Codifies", ar: "يقنّن" }
   temporal: false
+
+# Inventions Browser (docs/inventions/schema.md): these edges are generated from sourced structured fields.
+invented:
+  inverse: invented_by
+  domain: [person]
+  range: [invention]
+  label: { en: "Invented", ar: "اخترع" }
+  inverse_label: { en: "Invented by", ar: "اخترعه" }
+  temporal: false
+  derived: true
+
+improved:
+  inverse: improved_by
+  domain: [person]
+  range: [invention]
+  label: { en: "Improved", ar: "طوّر" }
+  inverse_label: { en: "Improved by", ar: "طُوِّر على يد" }
+  temporal: false
+  derived: true
+
+described:
+  inverse: described_by
+  domain: [person,work]
+  range: [invention]
+  label: { en: "Described", ar: "وصف" }
+  inverse_label: { en: "Described by", ar: "وُصف على يد" }
+  temporal: false
+  derived: true
+
+transmitted:
+  inverse: transmitted_by
+  domain: [person,work]
+  range: [invention]
+  label: { en: "Transmitted", ar: "نقل" }
+  inverse_label: { en: "Transmitted by", ar: "نُقل على يد" }
+  temporal: false
+  derived: true
+
+built_on:
+  inverse: enabled
+  domain: [invention]
+  range: [invention]
+  label: { en: "Built on", ar: "بُني على" }
+  inverse_label: { en: "Enabled", ar: "أتاح" }
+  temporal: false
+  derived: true
+
+spread_to:
+  inverse: received
+  domain: [invention]
+  range: [place]
+  label: { en: "Spread to", ar: "انتشر إلى" }
+  inverse_label: { en: "Received", ar: "انتقل إليه" }
+  temporal: true
+  derived: true
+
+example_of:
+  inverse: exemplified_by
+  domain: [object]
+  range: [invention]
+  label: { en: "Example of", ar: "مثال على" }
+  inverse_label: { en: "Exemplified by", ar: "يتجسد في" }
+  temporal: false
+  derived: true

@@ -23,10 +23,21 @@ const faith = ids("faith");
 const sermonType = ids("sermon-type");
 const jobDomains = ids("job-domains");
 const materials = ids("materials");
+const inventionDomains = ids("invention-domains");
+const disciplines = ids("disciplines");
+const attributionStatuses = ids("attribution-status");
+const inventionTaxonomy = parse(readFileSync(new URL("../docs/inventions/taxonomy.yaml", import.meta.url), "utf8")) as {
+  eras: string[];
+  status_today: string[];
+  maker_roles: string[];
+};
+const inventionEras: string[] = inventionTaxonomy.eras;
+const inventionStatusToday: string[] = inventionTaxonomy.status_today;
+const inventionMakerRoles: string[] = inventionTaxonomy.maker_roles;
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention",
 ] as const;
 
 const ref = (name: string) => ({ $ref: `_base.schema.json#/$defs/${name}` });
@@ -36,6 +47,10 @@ const str = { type: "string" };
 const strs = { type: "array", items: str };
 const intStr = { type: "integer" };
 const enm = (v: string[]) => ({ enum: v });
+const localized3 = {
+  type: "object", additionalProperties: false, required: ["ar", "en", "ur"],
+  properties: { ar: str, en: str, ur: str },
+};
 const madeBlock = {
   type: "object", additionalProperties: false, required: ["by_muslims", "basis"],
   properties: { by_muslims: { type: "boolean" }, basis: enm(["self-identified", "documented", "unverified"]), sources: strs },
@@ -126,7 +141,7 @@ const base = {
     sources: entityRefs,
     media: {
       type: "object", additionalProperties: false,
-      properties: { hero: entityRef, gallery: entityRefs, map: entityRef },
+      properties: { hero: entityRef, gallery: entityRefs, map: entityRef, image: entityRef, diagram: entityRef },
     },
     status: {
       type: "object", additionalProperties: false, required: ["review"],
@@ -222,6 +237,27 @@ const occupation = { type: "object", additionalProperties: false, required: ["jo
   family_business: { type: "boolean" }, status: enm(claimStatus), note: str, sources: sourcesReq } };
 const jobTies = { type: "array", items: { type: "object", additionalProperties: false, required: ["job", "relation", "sources"], properties: {
   job: entityRef, relation: enm(jobRelations), status: enm(claimStatus), note: str, sources: sourcesReq } } };
+const inventionChainItem = {
+  oneOf: [
+    { type: "object", additionalProperties: false, required: ["invention", "sources"],
+      properties: { invention: entityRef, note: str, sources: sourcesReq } },
+    { type: "object", additionalProperties: false, required: ["external", "note", "sources"],
+      properties: {
+        external: { type: "object", additionalProperties: false, required: ["ar", "en"], properties: { ar: str, en: str } },
+        note: str, sources: sourcesReq,
+      } },
+  ],
+};
+const inventionTie = (relations: string[], extraProperties: Record<string, unknown> = {}) => ({
+  type: "array",
+  items: { type: "object", additionalProperties: false, required: ["invention", "relation", "sources"],
+    properties: { invention: entityRef, relation: enm(relations), ...extraProperties, sources: sourcesReq } },
+});
+const personInventionTies = {
+  type: "array",
+  items: { type: "object", additionalProperties: false, required: ["invention", "role", "sources"],
+    properties: { invention: entityRef, role: enm(inventionMakerRoles), start: D, end: D, place: entityRef, note: str, sources: sourcesReq } },
+};
 const craftBlock = { type: "object", additionalProperties: false, properties: {
   materials: { type: "array", items: enm(materials) }, techniques: L,
   guild: { type: "object", additionalProperties: false, properties: { bodies: entityRefs, shaykh_title: L } },
@@ -248,6 +284,41 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       tools: entityRefs, workplaces: entityRefs, outputs: entityRefs, image: entityRef, craft: craftBlock,
     },
     required: ["domain", "kind", "hirfa"],
+  },
+  invention: {
+    properties: {
+      names: { type: "array", items: ref("name") },
+      domain: enm(inventionDomains),
+      ...kind("invention"),
+      disciplines: { type: "array", items: enm(disciplines) },
+      era: { type: "object", additionalProperties: false, required: ["origins", "first_attested", "status_today"],
+        properties: { origins: enm(inventionEras), first_attested: D, status_today: enm(inventionStatusToday) } },
+      origin: { type: "object", additionalProperties: false, required: ["context"],
+        properties: { place: entityRef, polity: entityRef, context: localized3 } },
+      makers: { type: "array", minItems: 1, items: { type: "object", additionalProperties: false, required: ["person", "role", "sources"],
+        properties: { person: entityRef, role: enm(inventionMakerRoles), start: D, end: D, place: entityRef, note: str, sources: sourcesReq } } },
+      attribution: { type: "object", additionalProperties: false, required: ["status", "claim", "basis"],
+        properties: { status: enm(attributionStatuses), claim: localized3, basis: localized3, perspectives: { type: "array", items: ref("perspective") } } },
+      precursors: { type: "array", items: inventionChainItem },
+      dependents: { type: "array", items: inventionChainItem },
+      spread: { type: "array", items: { type: "object", additionalProperties: false, required: ["place", "start", "sources"],
+        properties: { place: entityRef, start: D, via: entityRef, note: str, sources: sourcesReq } } },
+      impact: { type: "object", additionalProperties: false, required: ["fields", "changed", "history"],
+        properties: {
+          fields: { type: "array", minItems: 1, uniqueItems: true, items: enm(inventionDomains) },
+          changed: localized3, history: localized3, significance: { type: "integer", minimum: 1, maximum: 5 }, why: str,
+        } },
+      described_in: entityRefs,
+      examples: entityRefs,
+      sites: entityRefs,
+      concepts: entityRefs,
+      today: { type: "object", additionalProperties: false, required: ["form", "descendants"],
+        properties: { form: localized3, descendants: localized3 } },
+      media: { type: "object", additionalProperties: false, required: ["diagram"],
+        properties: { hero: entityRef, gallery: entityRefs, map: entityRef, image: entityRef, diagram: entityRef } },
+    },
+    required: ["names", "domain", "kind", "disciplines", "era", "origin", "makers", "attribution", "precursors", "dependents",
+      "spread", "impact", "described_in", "examples", "sites", "concepts", "today", "media", "sources", "provenance"],
   },
   person: {
     properties: {
@@ -452,6 +523,13 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
 };
 
 for (const c of ["object", "building", "work", "group", "event", "place", "journey"]) classProps[c].properties.jobs = jobTies;
+classProps.person.properties.inventions = personInventionTies;
+classProps.object.properties.inventions = inventionTie(["example-of", "tool-for", "product-of"]);
+classProps.work.properties.inventions = inventionTie(["describes", "first-describes", "patent-of", "disputes"]);
+classProps.building.properties.inventions = inventionTie(["site-of", "spread-to", "made-in"], { start: D });
+classProps.place.properties.inventions = inventionTie(["site-of", "spread-to", "made-in"], { start: D });
+classProps.event.properties.inventions = inventionTie(["first-use", "demonstration", "publication", "patent-granted"]);
+classProps.concept.properties.inventions = inventionTie(["theory-of", "applied-in"]);
 
 writeFileSync(new URL("_base.schema.json", root), JSON.stringify(base, null, 2) + "\n");
 

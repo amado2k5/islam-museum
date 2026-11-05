@@ -266,6 +266,27 @@ class:
   listing: مُدرَج
   screen: قاعة العرض
   job: "وظيفة"
+  invention: اختراع
+inventionDomains:
+  astronomy-instruments: الفلك وآلاته
+  mathematics: الرياضيات والحساب
+  medicine-surgery: الطب والجراحة
+  pharmacy-chemistry: الصيدلة والكيمياء والتقطير
+  optics-physics: البصريات والفيزياء
+  mechanics-automata: الحيل والآلات والساعات
+  water-agriculture: الماء والري والزراعة
+  navigation-geography: الملاحة ورسم الخرائط والجغرافيا
+  architecture-building: العمارة وتقنيات البناء
+  materials-industry: المواد والصناعة
+  military: التقنيات العسكرية
+  food-drink: الطعام والشراب
+  music-instruments: الموسيقى وآلاتها
+  timekeeping: قياس الوقت
+  institutions-systems: المؤسسات والنظم
+  everyday-life: الحياة اليومية
+  modern-science: العلوم الحديثة
+  modern-technology: التقنية الحديثة
+  modern-medicine: الطب الحديث والتقنية الحيوية
 search:
   title: بحث
   placeholder: ابحث في المتحف
@@ -1098,6 +1119,10 @@ explore:
       title: "متصفح الوظائف"
       desc: "الوظائف التي عرفها المسلمون، من القاضي والكاتب إلى الحِرَف اليدوية، ولكل وظيفة من شغلها وأين مورست."
       menu: "تصفح الوظائف والحِرَف عبر التاريخ"
+    inventions:
+      title: متصفح اختراعات المسلمين
+      desc: اختراعات واكتشافات موثقة، من صانعيها وسياقاتها إلى ما بُني عليها.
+      menu: تصفّح الاختراعات وسلاسلها
     timemachine:
       title: آلة الزمن
       menu: سافر إلى أي تاريخ، بالتقويمين
@@ -1692,7 +1717,7 @@ developers:
   col_type: 'النوع'
   col_meaning: 'المعنى'
   f_id: 'معرّف السجلّ الدائم: الصنف/المفتاح.'
-  f_class: 'أحد الأصناف الاثنين والعشرين: شخص، مكان، بناء، أثر، حدث، نصّ، مصدر…'
+  f_class: 'أحد الأصناف الثلاثة والعشرين: شخص، مكان، بناء، أثر، حدث، نصّ، مصدر، اختراع…'
   f_label: 'اسم السجلّ بالعربية والإنجليزية والأردية، بحسب المتاح.'
   f_summary: 'ملخّص قصير موثّق بالمصادر بثلاث لغات كحدّ أقصى.'
   f_wings: 'أجنحة المتحف التسعة التي ينتمي إليها السجلّ (وقد ينتمي إلى عدّة أجنحة).'

@@ -29,13 +29,85 @@ function themeIndex(c: Compiled) {
   return themes.map((t) => ({ ...t, entries: c.nodes.filter((n) => !n.stub && n.themes.includes(t.id)).map((n) => n.id) }));
 }
 
+export function inventionApiData(c: Compiled) {
+  const byId = new Map(c.nodes.map((node) => [node.id, node]));
+  const inventions = c.nodes.filter((node) => !node.stub && node.class === "invention").sort((a, b) => a.id.localeCompare(b.id));
+  const taxonomy = yparse(rf(p("docs", "inventions", "taxonomy.yaml"), "utf8"));
+  const items = inventions.map((node) => {
+    const data = node.data;
+    const place = data.origin?.place ? byId.get(data.origin.place) : undefined;
+    return {
+      id: node.id, slug: node.slug, label: node.label, summary: node.summary, domain: data.domain, kind: data.kind,
+      disciplines: data.disciplines, era: data.era, makers: data.makers, attribution: data.attribution,
+      origin: { ...data.origin, coordinates: place?.coordinates }, spread: data.spread, precursors: data.precursors,
+      dependents: data.dependents, described_in: data.described_in, examples: data.examples, sites: data.sites,
+      concepts: data.concepts, today: data.today, media: data.media, significance: data.impact?.significance,
+      status: data.status?.review,
+    };
+  });
+
+  const chainNodes = new Map<string, Record<string, unknown>>();
+  const chainEdges = new Map<string, Record<string, unknown>>();
+  const addInventionNode = (id: string) => {
+    const node = byId.get(id);
+    if (!node || node.class !== "invention") return;
+    chainNodes.set(id, {
+      id, class: "invention", label: node.label, domain: node.data.domain, era: node.data.era?.origins,
+      external: false, stub: node.stub || undefined,
+    });
+  };
+  const addExternalNode = (label: Record<string, string>) => {
+    const name = (label.en ?? label.ar).normalize("NFKC").trim().toLowerCase();
+    const id = `external:${encodeURIComponent(name)}`;
+    if (!chainNodes.has(id)) chainNodes.set(id, { id, class: "external", label, external: true });
+    return id;
+  };
+  const addChainEdge = (from: string, to: string, item: Record<string, any>) => {
+    const key = `${from}|${to}|built_on`;
+    const previous = chainEdges.get(key) as { sources?: string[]; notes?: string[] } | undefined;
+    const sources = [...new Set([...(previous?.sources ?? []), ...(item.sources ?? [])])].sort();
+    const notes = [...new Set([...(previous?.notes ?? []), ...(item.note ? [item.note] : [])])].sort();
+    chainEdges.set(key, { from, to, type: "built_on", derived: true, sources, ...(notes.length ? { notes } : {}) });
+  };
+
+  for (const node of inventions) {
+    addInventionNode(node.id);
+    for (const item of node.data.precursors ?? []) {
+      const target = item.invention;
+      if (target) {
+        addInventionNode(target);
+        addChainEdge(node.id, target, item);
+      } else if (item.external) addChainEdge(node.id, addExternalNode(item.external), item);
+    }
+    for (const item of node.data.dependents ?? []) {
+      const source = item.invention;
+      if (source) {
+        addInventionNode(source);
+        addChainEdge(source, node.id, item);
+      } else if (item.external) addChainEdge(addExternalNode(item.external), node.id, item);
+    }
+  }
+  return {
+    inventions: {
+      generated: c.generated,
+      filters: { domains: taxonomy.domains, eras: taxonomy.eras },
+      items,
+    },
+    chains: {
+      generated: c.generated,
+      nodes: [...chainNodes.values()].sort((a, b) => String(a.id).localeCompare(String(b.id))),
+      edges: [...chainEdges.values()].sort((a, b) => String(a.from).localeCompare(String(b.from)) || String(a.to).localeCompare(String(b.to))),
+    },
+  };
+}
+
 export function exportApi(c: Compiled) {
   rmSync(OUT, { recursive: true, force: true });
   const real = c.nodes.filter((n) => !n.stub);
   const related = buildRelated(c);
   for (const cls of CLASSES) {
     const items = real.filter((n) => n.class === cls);
-    if (!items.length) continue;
+    if (!items.length && cls !== "invention") continue;
     write(`${cls}/index.json`, JSON.stringify(items.map(compact), null, 1));
     for (const n of items) {
       const connections = c.edges.filter((e) => e.from === n.id).map(({ from, ...e }) => e);
@@ -59,8 +131,11 @@ export function exportApi(c: Compiled) {
   // few lines of client script, so the numbers are never baked into the 100k+ static pages and a content commit leaves them untouched.
   // No `generated` field: the file changes only when a count does.
   write("meta/counts.json", JSON.stringify({ wings: wingCounts(real), entities: real.length }));
+  const inventionData = inventionApiData(c);
+  write("inventions.json", JSON.stringify(inventionData.inventions, null, 1));
+  write("inventions/chains.json", JSON.stringify(inventionData.chains, null, 1));
   write("meta/index.json", JSON.stringify({
-    version: "v1", generated: c.generated, classes: CLASSES.filter((k) => real.some((n) => n.class === k)),
+    version: "v1", generated: c.generated, classes: CLASSES.filter((k) => k === "invention" || real.some((n) => n.class === k)),
     docs: "https://github.com/amado2k5/islam-museum/blob/main/docs/plan/09-ai-content-pipeline.md",
     license: { prose: "CC BY-SA 4.0", data: "CC0 1.0" },
   }, null, 1));

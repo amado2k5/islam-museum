@@ -78,6 +78,8 @@ _Second edition, 21 October 2026 (repository state: commit 5cef03793 on `main`, 
 | Founder's name form | founder's instruction (21 Oct 2026) | Ahmed Abdelaal | **Ahmed Abdel Aal** in Parts B and C; `GOVERNANCE.md`, `LICENSE` and commit trailers still use "Abdelaal" |
 | Legal entity | founder's statement (21 Oct 2026) | "incorporation in progress" | **none exists, no filing made; intention only.** `GOVERNANCE.md` and the DPGA ownership answer still say "in progress" and need the same correction |
 
+**Phase 1 update (5 November 2026; pending merge and founder deployment):** the schema/API class list grows from 22 to 23 with `invention`. No invention records have been added, so this change does not increase entity, relation, prose or media totals. The approved build outputs are `/api/v1/invention/index.json`, `/api/v1/inventions.json` and `/api/v1/inventions/chains.json`; do not describe them as live until the founder deploys.
+
 What the dossier deliberately does not claim: an institutional partner, a legal entity, a human-reviewed corpus, a user study, a licence for the AI illustrations that has not been written down, or a track record longer than the project has.
 
 ### A.6 Changes since the first edition, and open items
