@@ -14,3 +14,6 @@ The book gives reports saying that Iblis was unable to enter the garden because 
 The book lists ten punishments sent down upon him. Among them were his removal from office, his expulsion from the neighbourhood, the distortion of his form, the change of his name from ʿAzazil to Iblis, his cursing, the removal of knowledge from him, and the closing of the door of repentance before him {cite:qisas-anbiya-thaalabi-edition p.34}.
 
 The book says that Iblis was sent down at al-Ubulla in the land of Iraq, and it explains al-Ubulla as Basra. It then gives another view on the place of his descent {cite:qisas-anbiya-thaalabi-edition p.32}.
+
+## In al-Tabari's commentary
+On [[passage/quran-2-30|verse 30]], al-Tabari gives two reports from Ibn Abbas about Iblis. In the first he was of a clan of angels created from the fire of the samum and a keeper of Paradise, whom God sent with a host of angels against the jinn who had spread corruption on the earth; he grew conceited, and God saw his pride though the angels did not. In the second he was set over the lowest heaven and pride arose in his chest. He refused to bow to Adam, saying he was better, and God made him despair ("iblas") of all good. {cite:tafsir-tabari-shakir-v01 p. 455} {cite:tafsir-tabari-shakir-v01 p. 459}
