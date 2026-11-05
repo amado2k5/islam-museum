@@ -11,6 +11,7 @@ This file is updated with every merged phase or batch. A merged change is not li
   - TypeScript checks are not clean on the current base: `npx tsc --noEmit` reports existing errors across test/site files; the focused census check is blocked by the missing `edtf` declaration in `scripts/lib.ts`. No census-file diagnostics were reported.
   - Phase 0 commit `cc2131d308` was merged with refreshed `origin/main` `5fb35c65cf` as `f6a40029b8`; incoming changes did not overlap Phase 0 files. The census, validation and full test suite were rerun successfully after the merge.
   - Two later `origin/main` refreshes added 38 non-overlapping Tabari content commits through `62ecc19deb`; the merges are `a6039695d1` and `52f2757691`. On the latest tree, the census and validation passed and the full suite passed (19 files, 323 passed, 1 skipped).
+  - A third refresh added 20 more non-overlapping Tabari content commits through `2f36c83f6c`, merged as `d2486ef7a0`. The regenerated report now records 208 English/Arabic prose-hit files; validation and the full test suite passed again.
   - Next step: refresh `origin/main` once more before pushing, then open the Phase 0 PR and merge it after CI passes.
 
 ## Current state
