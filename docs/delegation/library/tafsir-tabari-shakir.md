@@ -209,4 +209,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 5: pp. 301-307 filed in ar, en and ur (reports 10678-10685; verse 135 continues). Report 10678 is the first numbered report after p. 301 and begins on printed p. 304.
 - Batch 6: pp. 308-314 filed in ar, en and ur (reports 10686-10696; verse 135 closes at p. 312, verse 136 is filed in full, and verse 137 opens on p. 314).
 - Batch 7: pp. 315-321 filed in ar, en and ur (reports 10697-10710): verse 137 closes at p. 318, verses 138 and 139 are filed, and verse 140 is filed to report 10710.
-- Progress: current report 10710, printed p. 321. Next is report 10711, the rest of verse 140 from p. 321 on.
+- Batch 8: pp. 322-328 filed in ar, en and ur (reports 10711-10720): verse 140 closes at p. 322; verse 141 is filed to report 10720 at p. 328.
+- Progress: current report 10720, printed p. 328. Next is report 10721, the rest of verse 141 from p. 328 on.
