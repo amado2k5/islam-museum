@@ -1,0 +1,76 @@
+id: invention/abu-wafa-fixed-opening-constructions
+class: invention
+label: { ar: "إنشاءات أبي الوفاء بفتحة فرجار واحدة", en: "Abu al-Wafa's fixed-opening construction repertoire", ur: "ابو الوفا کی ایک کھلاؤ والی ہندسی تعمیرات" }
+names:
+  - { value: "One-opening compass and straightedge constructions for artisans", kind: alternate, lang: en }
+summary:
+  ar: "مجموعة منظمة من الإنشاءات بالمسطرة وفتحة فرجار واحدة، ذات حدود في اختيار الفتحة وتاريخ انتقال متنازع؛ لا اختراع الفرجار {cite:abu-wafa-woepcke-constructions-1855 pp.224–227,321–324}."
+  en: "Organized straightedge/one-opening constructions, with limits on radius choice and contested transmission; not invention of the compass {cite:abu-wafa-woepcke-constructions-1855 pp.224–227,321–324}."
+  ur: "خط کش و پرکار کے ایک کھلاؤ کی منظم تعمیرات، رداس کے انتخاب کی حدود اور متنازع انتقال؛ پرکار کی ایجاد نہیں {cite:abu-wafa-woepcke-constructions-1855 pp.224–227,321–324}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0993/1008"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Conditional compilation window discussed by Raynaud sec.1 note2, not exact invention or surviving-copy date. Possible993–998 authorial window versus posthumous redaction explicitly retained; no fabricated Hijri."
+    sources: [source/raynaud-abu-wafa-latinus-2012]
+  status_today: living
+origin:
+  place: place/baghdad
+  context: { ar: "سياق عالم أقام ببغداد؛ لا ورشة محددة لكل إنشاء {cite:britannica-abu-al-wafa biography}.", en: "Setting of a Baghdad-based scholar, not a located workshop for every construction {cite:britannica-abu-al-wafa biography}.", ur: "بغداد میں مقیم عالم کا سیاق، ہر تعمیر کی مخصوص کارگاہ نہیں {cite:britannica-abu-al-wafa biography}۔" }
+makers:
+  - person: person/abu-al-wafa-al-buzjani
+    role: improver
+    place: place/baghdad
+    sources: [source/abu-wafa-woepcke-constructions-1855, source/raynaud-abu-wafa-latinus-2012]
+attribution:
+  status: improvement
+  claim: { ar: "تنظيم وتطوير إنشاءات مقيدة، لا أول هندسة أو فرجار أو كل حل مفرد.", en: "Organization/development of constrained constructions, not first geometry, compass or every individual solution.", ur: "مقید تعمیرات کی تنظیم و ترقی، پہلا ہندسہ، پرکار یا ہر انفرادی حل نہیں۔" }
+  basis:
+    ar: "يسمي فوبكه مجموعة مترابطة، مع شرط اختيار الفتحة وأصل فارسي مترجم عن دروس وصياغة سابقة {cite:abu-wafa-woepcke-constructions-1855 pp.218–219,226–227}."
+    en: "Woepcke identifies a connected repertoire, with radius-choice caveat and Persian translation of earlier lessons/redaction {cite:abu-wafa-woepcke-constructions-1855 pp.218–219,226–227}."
+    ur: "ووپکے مربوط مجموعہ بتاتے، رداس کے انتخاب کی شرط اور پہلے دروس و تدوین کے فارسی ترجمے سمیت {cite:abu-wafa-woepcke-constructions-1855 pp.218–219,226–227}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "الإطار السني ونسبة المساهمة المحددة", en: "Sunni frame and bounded attribution", ur: "سنی سیاق اور متعین نسبت" }
+      summary: { ar: "هوية الفرد مسلماً موثقة، والإطار السني معلن لا شهادة مذهب؛ نثبت مجموعة منسوبة لا أصل كل إنشاء.", en: "Individual Muslim identity documented; Sunni declared, not personal school proof. Credit an attributed repertoire, not every construction's origin.", ur: "فرد کی مسلم شناخت مستند؛ سنی سیاق اعلان کردہ، ذاتی مسلک کا ثبوت نہیں۔ مجموعہ منسوب، ہر تعمیر کا آغاز نہیں۔" }
+      sources: [source/britannica-abu-al-wafa, source/abu-wafa-woepcke-constructions-1855]
+    - tradition: academic
+      stance: { ar: "فرضية انتقال فوبكه", en: "Woepcke's transmission hypothesis", ur: "ووپکے کا انتقال کا مفروضہ" }
+      summary: { ar: "يرجح احتمال تقاليد شرقية وراء معالجة بعض مسائل النهضة، دون عدها مجرد نسخ.", en: "Suggests eastern traditions behind some Renaissance problem choices, without reducing them to mere copies.", ur: "بعض نشاۃ ثانیہ مسائل کے انتخاب کے پیچھے مشرقی روایت کا امکان، محض نقل نہیں۔" }
+      sources: [source/abu-wafa-woepcke-constructions-1855]
+    - tradition: academic
+      stance: { ar: "اختبار رينو وإعادة الاكتشاف", en: "Raynaud's tests and independent reconstruction", ur: "رینو کی جانچ اور آزاد دوبارہ دریافت" }
+      summary: { ar: "يرى التشابه غير كاف ويختبر حلولاً وحروف أشكال واحتمالات في أعمال معينة؛ لا حكم عالمي بعدم التأثير العربي.", en: "Similarity insufficient; tests solutions, lettering and probabilities in particular works. Not a global verdict against Arabic influence.", ur: "مماثلت ناکافی؛ مخصوص تصانیف میں حل، حروف و احتمالات کی جانچ۔ عربی اثر کی عمومی نفی نہیں۔" }
+      sources: [source/raynaud-abu-wafa-latinus-2012]
+precursors:
+  - external: { ar: "تقاليد الإنشاء بالمسطرة والفرجار ومواد هندسية أقدم", en: "Earlier straightedge/compass construction traditions", ur: "خط کش و پرکار کی پہلے کی ہندسی روایت" }
+    note: "Some constructions have Greek/Indian precedents; no identity of every fixed-opening method or universal Pappus theorem inferred."
+    sources: [source/abu-wafa-youschkevitch-dsb, source/abu-wafa-woepcke-constructions-1855]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics]
+  changed: { ar: "ترتيب عملي لإنشاءات مترابطة مع ضبط الأداة وثبات الفتحة {cite:abu-wafa-woepcke-constructions-1855 pp.226–227,321–324}.", en: "Practical organization of connected constructions with tool checking and a held opening {cite:abu-wafa-woepcke-constructions-1855 pp.226–227,321–324}.", ur: "آلے کی پڑتال و برقرار کھلاؤ سے مربوط تعمیرات کی عملی ترتیب {cite:abu-wafa-woepcke-constructions-1855 pp.226–227,321–324}۔" }
+  history: { ar: "مساهمة في الهندسة العملية؛ انتقالها إلى أعمال أوروبية بعينها محل نقاش {cite:raynaud-abu-wafa-latinus-2012 secs.2,11}.", en: "Practical geometry contribution; transmission to particular European works remains debated {cite:raynaud-abu-wafa-latinus-2012 secs.2,11}.", ur: "عملی ہندسے میں حصہ؛ مخصوص یورپی تصانیف تک انتقال زیر بحث {cite:raynaud-abu-wafa-latinus-2012 secs.2,11}۔" }
+  significance: 4
+  why: "Selected translated primary explicitly organizes one-opening constructions; specialist study bounds authorship, compilation and transmission. Distinct from spherical calculation; no universal-first or automatic descent."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "تعليم الإنشاء تحت قيد أداة، مع صورة مقارنة حديثة معلنة.", en: "Teaching construction under a tool constraint with an explicitly modern comparison photo.", ur: "آلے کی شرط میں تعمیر کی تعلیم، واضح جدید تقابلی تصویر کے ساتھ۔" }
+  descendants: { ar: "لا آلة أو برنامج حديث محدد ثبت نسبه هنا.", en: "No named modern tool/software lineage established here.", ur: "یہاں کسی خاص جدید آلے یا پروگرام کا نسب ثابت نہیں۔" }
+media: { image: media/compass-radomil-modern, diagram: media/diagram-abu-wafa-fixed-opening }
+kids: { ar: "تخيل أنك لا تغير فتحة الفرجار وأنت ترسم. نظم أبو الوفاء مسائل تساعد على التفكير تحت هذا الشرط؛ ليس كل رسم قديماً اختراعه ولا كل رسم مشابه منقولاً عنه.", en: "Imagine drawing without changing your compass opening. Abu al-Wafa organized problems under that constraint; not every old construction was his invention or every similar later drawing borrowed from him.", ur: "تصور کریں پرکار کا کھلاؤ بدلے بغیر رسم بناتے ہیں۔ ابو الوفا نے اس شرط کے مسائل منظم کیے؛ ہر پرانی تعمیر ان کی ایجاد، ہر ملتا بعد کا نقشہ ان سے نقل نہیں۔" }
+sources: [source/abu-wafa-woepcke-constructions-1855, source/raynaud-abu-wafa-latinus-2012, source/commons-compass-radomil, source/britannica-abu-al-wafa, source/abu-wafa-youschkevitch-dsb, source/abu-wafa-mactutor]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b35", source: "Actual selected Woepcke French/Persian-based text and321 image, selected Raynaud chronology/method/conclusions and licensed inspected modern compass; no direct Arabic collation" }
