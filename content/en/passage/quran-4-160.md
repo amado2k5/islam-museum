@@ -16,6 +16,6 @@ As for 'hindering many from God's path', the sense is that they hindered God's s
 
 As for 'their taking of usury', it means taking what they added to their capital for the extension of a term after it was due; al-Tabari has explained usury earlier. {cite:tafsir-tabari-shakir-v09 p. 391}
 
-We stop here after report 10835 at p. 391, in the commentary on verse 160, and will continue from p. 392. {cite:tafsir-tabari-shakir-v09 p. 391}
+Al-Tabari says 'they were forbidden it' means they were forbidden usury. 'Their eating of people's wealth falsely' means the bribes they took for judgement, the price they took for books they wrote with their own hands and then said: this is from God; and the like of such foul food. God punished them by forbidding them the good things that had been lawful to them. He described them as eating people's wealth falsely because they ate it without right. {cite:tafsir-tabari-shakir-v09 p. 392}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
