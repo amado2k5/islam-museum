@@ -189,6 +189,11 @@ describe("no AI or compute at runtime (docs/adr/0002)", () => {
   it("accepts a same-origin static fetch", async () => {
     expect(scan([await w("a.html", '<script>fetch("/search-synonyms.json")</script>')])).toEqual([]);
   });
+  it("accepts a built URL that ends as a static file and rejects one that does not", async () => {
+    expect(scan([await w("e.html", '<script>fetch("/search-synonyms." + l + "_" + k + ".json").then(f)</script>')])).toEqual([]);
+    expect(scan([await w("f.html", '<script>fetch("/ask/" + q + "/run").then(f)</script>')]).join()).toMatch(/non-static/);
+    expect(scan([await w("g.html", '<script>fetch("/ask/" + q).then(f)</script>')]).join()).toMatch(/non-static/);
+  });
   it("rejects external calls, sockets and non-static paths", async () => {
     expect(scan([await w("b.html", '<script>fetch("https://api.example.com/ask")</script>')]).join()).toMatch(/external origin/);
     expect(scan([await w("c.html", '<script>fetch("/ask?q=1")</script>')]).join()).toMatch(/non-static/);
