@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.2.0 — 2026-11-05
 
 ### Added
+- Invention38: al-Razi's nested substance classification and structured alchemical handbook, fully told in Arabic, English and Urdu. Six earthy-material classes are not a periodic table; uncertain names, edition limits, genuine/spurious works and disputed religious readings remain explicit. Three defined sources, a credited public-domain modern halite comparison and the preserved maker biography accompany the account. No hazardous recipes, deployment or new code.
 - Invention37: al-Razi's documented clinical comparison of smallpox and measles, fully told in Arabic, English and Urdu. The inspected translated primary supports relative comparison, not all diagnosis, virology or vaccination; unknown composition date and conflicting religious readings remain explicit. Seven defined sources and a credited public-domain1848 translation title page accompany the preserved, expanded maker biography. Historical description only, no clinical instructions or deployment.
 - Invention36: Ibn al-Haytham's fourth-power/exhaustion volume method, full Arabic/English/Urdu account and preserved maker biography. Perpendicular-axis8/15 distinguished from ordinary axial1/2 and modern reconstruction from historical claims; five defined sources and licensed explicitly comparative image. Content only, no deployment.
 

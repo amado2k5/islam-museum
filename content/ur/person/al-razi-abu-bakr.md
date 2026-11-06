@@ -2,9 +2,9 @@
 id: person/al-razi-abu-bakr
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code, clinical/identity extension from Arabic"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code, clinical/identity extension from Arabic", "Copilot SDK in VS Code, classification extension from Arabic"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "گرین ہل1848 کے منتخب حصے، بریٹانیکا، قایا، ایڈمسن؛ اصل دِیون ریکارڈ اور ہائیکو ترجمے کی نسبت محفوظ" }
+provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "گرین ہل1848 کے منتخب حصے، بریٹانیکا، قایا، ایڈمسن؛ اصل دِیون ریکارڈ اور ہائیکو ترجمے کی نسبت محفوظ", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "عربی1–3 اور فیراریو منتخب24–30 سے درجہ بندی کا اضافہ؛ سابق متن محفوظ" }] }
 ---
 ## خلاصہ
 ابو بکر محمد بن زکریا الرازی، فلسفی اور طبیب، «المنصوری» کے مصنف جو طب میں ہے۔ {cite:muruj-al-dhahab p. 547}
@@ -30,6 +30,10 @@ provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension
 **علمی قرأت:** ایڈمسن ابو حاتم کی مخالف روایت کے ساتھ باقی تصانیف، مختلف خبریں اور انکار نبوت کے خیالات کی نسبت کی حدود بیان کرتے ہیں {cite:sep-abu-bakr-al-razi sec.5}۔
 
 **قایا کی قرأت:** قایا ربوبیت کی تعبیر کا دفاع کرتے ہیں؛ یہ ان کی قرأت ہے، میوزیم کا فیصلہ نہیں {cite:tdv-razi-ebu-bekir pp.479–485}۔ ذیل کے پروگرام کی باتیں مقرر ہی کی طرف منسوب رہتی ہیں؛ نئی دستاویز ہر اولیت یا قصے کی تصدیق نہیں کرتی۔
+
+## مادوں کی درجہ بندی اور رہنما کتاب کی ترتیب
+
+[[invention/razi-substance-classification|مادوں کی درجہ بندی اور منظم کتاب الاسرار]] میں مادے، آلات اور اعمال مرتب ہیں؛ ارضی مادوں کی چھ قسمیں بڑے تقسیم کے اندر ہیں، دوری جدول یا پوری کیمیا کی ایجاد نہیں {cite:razi-asrar-danishpazhuh-1964 p.2}۔ فیراریو عمل مرکز ترتیب،1964 طبعت کو حتمی تنقیدی متن نہ سمجھنے کی تنبیہ، اور اصلی «الاسرار» اور منحول «الشبوب والاملاح» کا فرق بتاتے ہیں {cite:ferrario-razi-pseudorazi-2024 pp.25–29}۔ نوشادر کی قسم دو حقیقی تصانیف میں بھی بدلتی ہے، اس لیے جگہ کا فرق اکیلا نسبت کا فیصلہ نہیں {cite:ferrario-razi-pseudorazi-2024 p.28}۔ یہ طبی تقابل سے الگ حصہ ہے، نیچے ہر عوامی بیان کی ماضی تک پھیلی توثیق نہیں۔
 
 ## پروگرام «المبدعون» میں
 طارق السویدان ابوبکر رازی کو «انسانی معالج اور موسوعائی عالم» پیش کرتے ہوئے ان پر تخلیق کا فارمولا ڈالتے ہیں: جلد آغاز، سیکھنے کی شوقین محبت، اور نایاب یادداشت {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:01:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:02:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:04:00}۔

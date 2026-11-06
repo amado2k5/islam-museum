@@ -1762,12 +1762,14 @@ candidates:
     flags: ["name-the-hellenistic-precursors", "investigate-jabir-corpus-attribution"]
   - id: classification-of-substances-al-razi
     label: "Al-Razi's classification of substances"
-    state: "[~]"
+    state: "[x]"
+    invention: invention/razi-substance-classification
     batch: 2
     domain: pharmacy-chemistry
     era: abbasid-golden
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    flags: ["completed-b38-d078", "six-earthy-classes-not-all-matter-or-periodic-table", "arabic1964-selected1-3-not-critical-edition", "ferrario2024-selected24-30", "kharsini-identity-and-sal-ammoniac-variation-retained", "maker-identity-dispute-not-personal-sunni-certificate", "modern-pd-usgs-halite-comparison-not-medieval-sample"]
   - id: kerosene-from-petroleum-al-razi
     label: "Kerosene from petroleum attributed to al-Razi"
     state: "[~]"
