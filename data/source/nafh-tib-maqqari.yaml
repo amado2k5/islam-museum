@@ -2,12 +2,21 @@ id: source/nafh-tib-maqqari
 class: source
 kind: primary
 type: book
-label: { ar: "نفح الطيب من غصن الأندلس الرطيب — المقري", en: "Nafh al-Tib min Ghusn al-Andalus al-Ratib — al-Maqqari" }
+label: { ar: "نفح الطيب من غصن الأندلس الرطيب — المقري", en: "Nafh al-Tib min Ghusn al-Andalus al-Ratib — al-Maqqari", ur: "نفح الطیب — مقری" }
 summary:
   ar: "نفح الطيب من غصن الأندلس الرطيب لأحمد بن محمد المقري (ت 1041هـ)، الموسوعة الأندلسية الكبرى؛ أربعة أجزاء ممسوحة في مكتبة الحصاد المحلية أُجريت عليها قراءة آلية بآبل فيجن."
   en: "Al-Maqqari's Nafh al-Tib (d. 1041 AH), the great Andalusian compendium; four scanned volumes OCR'd with Apple Vision in the local harvest."
+  ur: "مقری کی اندلسی تالیف؛ مقامی ذخیرے میں چار جلدوں کی OCR ہے، جبکہ اس دور میں ابن فرناس کا متعلقہ حصہ شاملہ سے پڑھا گیا۔"
 title: "نفح الطيب من غصن الأندلس الرطيب"
 author: [{ family: "al-Maqqari", given: "Ahmad b. Muhammad" }]
 language: ar
-open_access: false
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+URL: "https://shamela.ws/book/1002"
+edition: "Ihsan Abbas edition, Dar Sadir; Shamela's book record reports eight parts. Selected online text3:374–375 read, not an independently inspected full eight-volume set."
+reliability_note: "D-069 read actual online Arabic entry160 at https://shamela.ws/book/1002/1783, whose raw HTML title confirms3:374, and continuation1784/3:375. Editor's footnote points to al-Mughrib1:333 and al-Muqtabis fol256b; their original flight passages not independently read, so not separate eyewitness confirmations. Primary here means the late compendium's actual account, not a ninth-century flight log. Local harvested files include1,4,8/index material, not the needed3; do not claim local-image verification of this online entry. No flight year, measured distance/time, exact launch site or wing dimensions in the read passage."
+open_access: true
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b30"
+  source: "Actual Shamela edition record and Maqqari3:374–375 Arabic text; prior source metadata by Devin (SWE-2 High) retained"

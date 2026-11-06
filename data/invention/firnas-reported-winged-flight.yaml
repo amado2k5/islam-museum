@@ -1,0 +1,108 @@
+id: invention/firnas-reported-winged-flight
+class: invention
+label: { ar: "محاولة الطيران المنسوبة إلى ابن فرناس", en: "Ibn Firnas's reported winged flight", ur: "ابن فرناس سے منسوب پروں والی پرواز" }
+names:
+  - { value: "The reported glider of Abbas ibn Firnas", kind: alternate, lang: en }
+summary:
+  ar: "خبر عن كسوة بالريش وجناحين ومحاولة طيران انتهت بإصابة في رواية المقري؛ يخالفها وصف حديث للنجاة سالماً. ليست أول طائرة مثبتة {cite:nafh-tib-maqqari v.3 p.374} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}."
+  en: "Account of feathers, two wings and a flight attempt ending in injury in Maqqari, unlike a modern unharmed-landing account; not a verified first airplane {cite:nafh-tib-maqqari v.3 p.374} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}."
+  ur: "مقری کے ہاں پر، دو بازو اور پرواز کی کوشش جو چوٹ پر ختم ہوئی؛ جدید سلامت اٹھنے کے بیان سے مختلف، پہلا ثابت طیارہ نہیں {cite:nafh-tib-maqqari v.3 p.374} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}۔"
+domain: mechanics-automata
+kind: device
+disciplines: [engineering]
+wings: [ideas, made]
+regions: [andalus-europe]
+periods: [period/abbasid-early]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0875?"
+    calendar: julian
+    precision: year
+    status: tradition
+    note: "Conventional uncertain event chronology from Lienhard, not Maqqari's writing date or a year supplied by the actual3:374 passage. Lienhard's own postscript warns confusion of names/date/details in secondary accounts. No invented Hijri date; any displayed conversion is derived."
+    sources: [source/lienhard-firnas-1910]
+  status_today: extinct
+origin:
+  place: place/cordoba
+  context:
+    ar: "قرطبة الأموية سياق حياة الرجل في السيرة؛ لا نثبت برجاً بعينه أو إحداثيات انطلاق {cite:tdv-abbas-firnas-kirbiyik biography}."
+    en: "Umayyad Cordoba is the biographical setting, not a verified launch tower or coordinates {cite:tdv-abbas-firnas-kirbiyik biography}."
+    ur: "اموی قرطبہ سوانح کا سیاق ہے، کوئی ثابت برجِ پرواز یا نقطۂ آغاز نہیں {cite:tdv-abbas-firnas-kirbiyik biography}۔"
+makers:
+  - person: person/abbas-ibn-firnas
+    role: inventor
+    place: place/cordoba
+    note: "Claimed maker/experimenter in a contested account, not first verified aviator. Explicit Muslim basis Hasan4:378; Sunni frame separately labelled, accusations retained as attributed positions."
+    sources: [source/nafh-tib-maqqari, source/tarikh-islam-hasan-ibrahim, source/tdv-abbas-firnas-kirbiyik]
+attribution:
+  status: contested
+  claim:
+    ar: "محاولة بشرية بأجنحة تنسب إلى ابن فرناس، لا اختراع الطائرة الحديثة أو أسبقية محققة."
+    en: "A human winged-flight attempt attributed to Ibn Firnas, not invention of modern aircraft or established priority."
+    ur: "ابن فرناس سے منسوب انسانی پروں والی کوشش، جدید طیارے کی ایجاد یا قطعی سبقت نہیں۔"
+  basis:
+    ar: "المقري يروي الجناحين والإصابة، وحسن يصف طائرة شراعية ونجاة سالمة؛ التفاصيل والنتيجة ليست شهادة تقنية واحدة متفقة {cite:nafh-tib-maqqari v.3 p.374} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}."
+    en: "Maqqari reports wings and injury; Hasan describes a glider and unharmed survival. Details/outcome are not one agreed technical record {cite:nafh-tib-maqqari v.3 p.374} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}."
+    ur: "مقری پر اور چوٹ بتاتے ہیں، حسن شہپری طیارہ اور سلامت بچنا؛ تفصیل و انجام کوئی ایک متفق فنی ریکارڈ نہیں {cite:nafh-tib-maqqari v.3 p.374} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-frame-maqqari-account
+      summary:
+        ar: "الإطار السني يعرض رواية المقري منسوبة إليه: ريش وجناحان وامتداد في الجو وإصابة مع تعليل بغياب الذيل؛ لا يحولها إلى تقرير طيران مقاس {cite:nafh-tib-maqqari v.3 p.374}."
+        en: "Sunni museum frame presents Maqqari's attributed account: feathers, wings, aerial travel and injury explained by no tail; not a measured flight report {cite:nafh-tib-maqqari v.3 p.374}."
+        ur: "سنی سیاق میں مقری کی منسوب روایت: پر، بازو، ہوا میں سفر اور دم نہ ہونے سے چوٹ کی تعبیر؛ ناپا ہوا پروازی ریکارڈ نہیں {cite:nafh-tib-maqqari v.3 p.374}۔"
+      sources: [source/nafh-tib-maqqari]
+    - tradition: academic
+      id: hasan-unharmed-description
+      summary:
+        ar: "يسميه حسن إبراهيم حسن فلكياً مسلماً ويصفه صاعداً بطائرة شراعية ثم ناهضاً سالماً؛ نحفظ اختلافه عن خبر الإصابة {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}."
+        en: "Hasan explicitly calls him Muslim, describing a glider and unharmed survival; its difference from the injury account remains visible {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}."
+        ur: "حسن صراحت سے مسلم کہہ کر شہپری طیارہ اور سلامت بچنا بیان کرتے ہیں؛ چوٹ کی روایت سے فرق واضح رہتا ہے {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}۔"
+      sources: [source/tarikh-islam-hasan-ibrahim]
+    - tradition: academic
+      id: lienhard-retelling-and-caveat
+      summary:
+        ar: "يروي لينهارد سنة875 وبرجاً، ثم يضيف تنبيهاً إلى غياب مادة أولية عن أرمين فيرمان واحتمال اختلاط الاسم والتاريخ والتفاصيل؛ لا نعتمد تلك القصة سابقاً مستقلاً {cite:lienhard-firnas-1910 narrative and postscript}."
+        en: "Lienhard gives875 and a tower, then warns of no primary material for Armen Firman and possible confusion of name/date/details; not an independently confirmed precursor {cite:lienhard-firnas-1910 narrative and postscript}."
+        ur: "لینہارڈ875 اور برج بتا کر ارمین فرمان کے لیے اولین مواد نہ ہونے اور نام، تاریخ، تفصیل میں خلط کا انتباہ دیتے ہیں؛ اسے الگ ثابت سابق نہیں مانا {cite:lienhard-firnas-1910 narrative and postscript}۔"
+      sources: [source/lienhard-firnas-1910]
+precursors:
+  - external: { ar: "محاكاة الطير في الحكاية", en: "Bird imitation within the account", ur: "روایت میں پرندے کی نقل" }
+    note: "Narrated analogy, not a separate invented device or independently verified Armen Firman chain."
+    sources: [source/nafh-tib-maqqari]
+dependents: []
+spread: []
+impact:
+  fields: [mechanics-automata]
+  changed:
+    ar: "شاهد روائي على تصور محاولة الطيران البشري، لا إثبات وسيلة نقل عملية {cite:nafh-tib-maqqari v.3 p.374}."
+    en: "Narrative witness to imagining attempted human flight, not proof of practical transport {cite:nafh-tib-maqqari v.3 p.374}."
+    ur: "انسانی پرواز کی کوشش سوچنے کا روایتی شاہد، عملی سواری کا ثبوت نہیں {cite:nafh-tib-maqqari v.3 p.374}۔"
+  history:
+    ar: "اسم بارز في ذاكرة الطيران؛ لا نسب هندسي مثبت إلى الطائرات الحديثة {cite:lienhard-firnas-1910 narrative and postscript}."
+    en: "Prominent in aviation memory, without established engineering descent to modern aircraft {cite:lienhard-firnas-1910 narrative and postscript}."
+    ur: "ہوابازی کی یاد میں نمایاں نام، جدید طیاروں تک ثابت فنی نسب نہیں {cite:lienhard-firnas-1910 narrative and postscript}۔"
+  significance: 3
+  why: "Widely recounted bounded experiment with actual late Arabic text, conflicting modern outcome and important distinction between commemoration, technical evidence and priority."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "خبر تاريخي واسم في الذاكرة؛ الصورة لجسر قرطبة الحديث لا جناحين باقيين {cite:commons-firnas-bridge-saez Description}."
+    en: "Historical account and remembered name; image is the modern Cordoba bridge, not surviving wings {cite:commons-firnas-bridge-saez Description}."
+    ur: "تاریخی روایت اور یاد کیا جانے والا نام؛ تصویر قرطبہ کے جدید پل کی ہے، باقی پروں کی نہیں {cite:commons-firnas-bridge-saez Description}۔"
+  descendants:
+    ar: "لا سلسلة نقل محددة مثبتة هنا؛ الجسر تسمية تذكارية لا نسل للآلة {cite:commons-firnas-bridge-saez Description} {cite:lienhard-firnas-1910 postscript}."
+    en: "No specific transmission chain established here; bridge naming is remembrance, not apparatus descent {cite:commons-firnas-bridge-saez Description} {cite:lienhard-firnas-1910 postscript}."
+    ur: "یہاں کوئی خاص سلسلۂ انتقال ثابت نہیں؛ پل کا نام یادگار ہے، آلے کا تسلسل نہیں {cite:commons-firnas-bridge-saez Description} {cite:lienhard-firnas-1910 postscript}۔"
+media: { image: media/firnas-bridge-saez, diagram: media/diagram-firnas-reported-flight }
+kids:
+  ar: "تقول حكاية قديمة إن ابن فرناس حاول الطيران بجناحين، لكن أخبار الهبوط تختلف. نتعلم مقارنة الروايات، لا القفز أو صنع أجنحة لتجربتها."
+  en: "An old account says Ibn Firnas tried wings, but landing stories differ. Learn to compare accounts, not to jump or build wings to try."
+  ur: "پرانی روایت میں ابن فرناس نے پر آزمانے کی کوشش کی، مگر اترنے کے بیانات مختلف ہیں۔ روایتوں کا موازنہ سیکھیں، چھلانگ یا پر بنا کر آزمانا نہیں۔"
+sources: [source/nafh-tib-maqqari, source/tarikh-islam-hasan-ibrahim, source/tdv-abbas-firnas-kirbiyik, source/lienhard-firnas-1910, source/islamweb-firnas-406804, source/commons-firnas-bridge-saez]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b30", source: "Actual Arabic Maqqari3:374–375 online; visually inspected Hasan4:378/scan382 and imprint; actual TDV, UH including caveat and labelled Islamweb identity view; actual licensed2014 bridge photo. No eyewitness flight log, local Maqqari3 scan, White article reading, duration/distance or modern-aircraft priority claimed" }
