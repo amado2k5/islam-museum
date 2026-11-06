@@ -13,4 +13,4 @@ lang: ar
 بعد فتح إسطنبول بتسع سنين فقط، بنا وزير السلطان الأعظم جامعاً على طراز بورصة القديم — وما زال واقفاً في حي السوق حتى اليوم.
 
 ## ملاحظات للمحققين
-- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص138-140 (Mahmut Pasha Camii وتربته).
+- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص138-140 ⁦(Mahmut Pasha Camii وتربته)⁩.

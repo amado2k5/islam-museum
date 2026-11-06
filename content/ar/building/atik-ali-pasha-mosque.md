@@ -13,4 +13,4 @@ lang: ar
 مقابل أقدم عمود في إسطنبول جامع بناه وزير عثماني سنة 1496م، ووصفه رحالة فرنسي منذ نحو خمسة قرون وهو ما زال يكشف أعمدته الرخامية الخضراء.
 
 ## ملاحظات للمحققين
-- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص215-218 (Atik Ali Pasha Camii ومدرسته).
+- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص215-218 ⁦(Atik Ali Pasha Camii ومدرسته)⁩.
