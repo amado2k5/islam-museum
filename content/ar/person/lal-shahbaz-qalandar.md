@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-السيد عثمان المروندي، المعروف بلعل شهباز قلندر (1177 – 19 فبراير 1274)، ولي صوفي وشاعر استقر في سيهون بالسند {cite:wikipedia-lal-shahbaz-qalandar-ar}. تذكر المقالة العربية في متنها أنه كان من أتباع الطريقة السهروردية {cite:wikipedia-lal-shahbaz-qalandar-ar}. وتقدمه المقالتان الإنجليزية والأردية قلندرًا جوّالًا، وتُحفظ القراءات المتنافسة في هذا السجل {cite:wikipedia-lal-shahbaz-qalandar-en} {cite:wikipedia-lal-shahbaz-qalandar-ur}.
+السيد عثمان المروندي، المعروف بلعل شهباز قلندر ⁦(1177 – 19 فبراير 1274)⁩، ولي صوفي وشاعر استقر في سيهون بالسند {cite:wikipedia-lal-shahbaz-qalandar-ar}. تذكر المقالة العربية في متنها أنه كان من أتباع الطريقة السهروردية {cite:wikipedia-lal-shahbaz-qalandar-ar}. وتقدمه المقالتان الإنجليزية والأردية قلندرًا جوّالًا، وتُحفظ القراءات المتنافسة في هذا السجل {cite:wikipedia-lal-shahbaz-qalandar-en} {cite:wikipedia-lal-shahbaz-qalandar-ur}.
 
 ## حياته وسياحته
 

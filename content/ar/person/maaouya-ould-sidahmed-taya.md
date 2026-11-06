@@ -7,7 +7,7 @@ translators: []
 
 # معاوية ولد سيدي أحمد الطايع
 
-معاوية ولد سيدي أحمد الطايع (وُلد في 28 نوفمبر 1941) ضابط وسياسي موريتاني كان رئيس موريتانيا بين 1984 و2005، وهو أطول رؤسائها بقاء في المنصب. {cite:wikipedia-maaouya-ould-sidahmed-taya-en} {cite:wikidata-maaouya-ould-sidahmed-taya}
+معاوية ولد سيدي أحمد الطايع ⁦(وُلد في 28 نوفمبر 1941)⁩ ضابط وسياسي موريتاني كان رئيس موريتانيا بين 1984 و2005، وهو أطول رؤسائها بقاء في المنصب. {cite:wikipedia-maaouya-ould-sidahmed-taya-en} {cite:wikidata-maaouya-ould-sidahmed-taya}
 
 ## الصعود
 
