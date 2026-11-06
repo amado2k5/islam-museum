@@ -209,4 +209,15 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 5: pp. 301-307 filed in ar, en and ur (reports 10678-10685; verse 135 continues). Report 10678 is the first numbered report after p. 301 and begins on printed p. 304.
 - Batch 6: pp. 308-314 filed in ar, en and ur (reports 10686-10696; verse 135 closes at p. 312, verse 136 is filed in full, and verse 137 opens on p. 314).
 - Batch 7: pp. 315-321 filed in ar, en and ur (reports 10697-10710): verse 137 closes at p. 318, verses 138 and 139 are filed, and verse 140 is filed to report 10710.
-- Progress: current report 10710, printed p. 321. Next is report 10711, the rest of verse 140 from p. 321 on.
+- Batch 8: pp. 322-328 filed in ar, en and ur (reports 10711-10720): verse 140 closes at p. 322; verse 141 is filed to report 10720 at p. 328.
+- Batch 9: pp. 329-335 filed in ar, en and ur (reports 10721-10736): verses 142 and 143 are filed in full.
+- Batch 10: pp. 336-342 filed in ar, en and ur (reports 10737-10747): verses 144 to 146 are filed in full, and verse 147 is begun.
+- Batch 11: pp. 343-349 filed in ar, en and ur (reports 10748-10764): verse 147 closes; verse 148 is filed to the foot of p. 349.
+- Batch 12: pp. 350-356 filed in ar, en and ur (reports 10765-10769): verses 148 to 152 are filed in full, and verse 153 is begun to report 10769.
+- Batch 13: pp. 357-363 filed in ar, en and ur (reports 10770-10773): verse 153 closes at p. 361, verse 154 is filed in full, and verse 155 is begun to p. 363.
+- Batch 14: pp. 364-370 filed in ar, en and ur (reports 10774-10782): verse 155 closes at p. 366, verse 156 is filed in full, and verse 157 is filed to report 10782 at p. 370.
+- Batch 15: pp. 371-377 filed in ar, en and ur (reports 10783-10792): verse 157 is filed in full.
+- Batch 16: pp. 378-384 filed in ar, en and ur (reports 10793-10820): verse 158 is filed in full and verse 159 to report 10820 at p. 384.
+- Batch 17: pp. 385-391 filed in ar, en and ur (reports 10821-10835): verse 159 closes at p. 390 and verse 160 is filed to report 10835 at p. 391.
+- Batch 18: pp. 392-398 filed in ar, en and ur (reports 10836-10838): verse 160 closes at p. 392, verse 161 is filed in full, and verse 162 is filed to p. 398.
+- Progress: current report 10838, printed p. 395. Next is the rest of verse 162 from printed p. 398 on (the reports continue there).

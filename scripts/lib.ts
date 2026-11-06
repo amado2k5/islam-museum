@@ -129,16 +129,18 @@ export interface Range { earliest: number; latest: number }
 
 /**
  * Parse an EDTF string into a numeric year range; throws on invalid input.
- * An open or unknown end ("1079/..", "../1429", "1079/") has no number: the edtf library gives ±Infinity or null,
- * which JSON writes as null and breaks every consumer of the compiled graph. Such an end collapses onto the known one,
- * so "after 1079" is placed at 1079 (its earliest attested point), never at infinity. Both ends unknown is an error.
+ * An open-ended interval ("1079/.." is "1079 or later", "../1079" is "1079 or earlier", "1079/" is "end unknown") has an
+ * infinite or null bound in the EDTF library. A bound that is not a finite number would reach graph.json as null and stop
+ * the build (derive.ts calls toFixed on it, 6 Nov 2026: one record with died "1079/.." failed every build of main), so the
+ * open side takes the known side's value: the range is then the one point we know, and nothing is invented. An interval open
+ * on both sides ("../..") carries no date and throws.
  */
 export function edtfRange(s: string): Range {
   const d: any = edtf(s);
-  const lo = typeof d.min === "number" && Number.isFinite(d.min) ? msToYear(d.min) : undefined;
-  const hi = typeof d.max === "number" && Number.isFinite(d.max) ? msToYear(d.max) : undefined;
-  if (lo === undefined && hi === undefined) throw new Error(`EDTF "${s}" has no known bound`);
-  return { earliest: lo ?? hi!, latest: hi ?? lo! };
+  const lo = Number.isFinite(d.min) ? d.min : d.max;
+  const hi = Number.isFinite(d.max) ? d.max : d.min;
+  if (!Number.isFinite(lo) || !Number.isFinite(hi)) throw new Error(`EDTF "${s}" is open on both sides: it has no date`);
+  return { earliest: msToYear(lo), latest: msToYear(hi) };
 }
 
 export function dateRange(d: any): Range | undefined {

@@ -2,6 +2,45 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: arabic-fiscal-register-reform
+    label: "Abd al-Malik's Arabic fiscal-register reform"
+    state: "[x]"
+    batch: 1
+    domain: institutions-systems
+    era: first-century
+    from: scholarly-reference
+    records: ["person/abd-al-malik-ibn-marwan", "source/baladhuri-hitti-1916", "source/tdv-divan-duri"]
+    invention: invention/arabic-fiscal-register-reform
+    lead_sources:
+      - "Actual Hitti1916volumeI title and inspected printed301/465–466 scan pages"
+      - "Actual Duri phased-language/Yildiz administrative-religious paragraphs; reinspectedPD643PERF558"
+    flags: [completed-D134-b92, register-language-not-invention-of-Arabic, inherited-accounts-and-expertise-retained, Sulaiman-translator-Sarjun-response-distinct, Syrian-Iraqi-narratives-not-one-person, phases-not-simultaneous-changeover, staff-continuity-and-disruption-labelled, source81AH700-not-new-conversion, Iraqi-date-narrative-not-forced-synchronization, Hitti-pages-not-Arabic-margin-pagination, title1916not-aggregate1924, papyrus-earlier-context-not-reform-register, original-maker-source-media-prose-preserved, no-private-faith-inference-for-clerks]
+  - id: muawiya-seal-copy-registry
+    label: "Muawiya's seal-and-copy registry"
+    state: "[x]"
+    batch: 1
+    domain: institutions-systems
+    era: first-century
+    from: scholarly-reference
+    records: ["person/muawiya-ibn-abi-sufyan", "concept/diwan-al-khatim", "source/tarikh-khulafa-minhaj-1434", "source/tdv-divan-duri"]
+    invention: invention/muawiya-seal-copy-registry
+    lead_sources:
+      - "Actual Suyuti332,Duri early-Umayyad retained-copy/control paragraph,TDV Aycan2020"
+      - "Actual Commons2016Eugster photograph and CC BY-SA3.0 metadata/history"
+    flags: [completed-D133-b91, registry-not-invention-of-seals, barid-transport-distinct, unnamed-recipient-not-invented,100000-200000-literary-story-not-original-warrant, source-reign-horizon-not-foundation-day, Ziyad-control-antecedent-qualified, seal-not-guaranteed-confidentiality-or-truth, modern-wax-not-historic-material-proof, no-flame-instructions, concept-reused-not-duplicated, original-maker-concept-source-fields-prose-preserved, individual-Muslim-evidence-not-name-inference]
+  - id: abd-al-malik-epigraphic-dinar
+    label: "Abd al-Malik's epigraphic gold-coin standard"
+    state: "[x]"
+    batch: 1
+    domain: institutions-systems
+    era: first-century
+    from: scholarly-reference
+    records: ["person/abd-al-malik-ibn-marwan", "source/tarikh-khulafa-minhaj-1434", "source/mwnf-coin-77ah-shovelton", "source/met-dinar-453447"]
+    invention: invention/abd-al-malik-epigraphic-dinar
+    lead_sources:
+      - "Actual Suyuti354–356/359–360, TDV biography and MWNF/Ashmolean explanations"
+      - "Actual Met API453447 and inspected public-domain DP239701 photograph"
+    flags: [completed-D132-b90, gold-standard-not-invention-of-money, older-and-transitional-coins-retained, literary75AH-description76AH-issue77AH-distinct, pictured79AH-not-first-issue, probable-mint-not-certain, actual-specimen-weight-not-inferred, no-Quran-inscription-transcription, individual-faith-basis-rechecked, existing-maker-fields-prose-preserved, Met-public-API-not-unread-HTML, PD-flag-verified, Justinian-response-interpretation-qualified]
   - id: umar-military-stipend-register
     label: "Umar's recurring military stipend register"
     state: "[x]"

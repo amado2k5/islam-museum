@@ -20,6 +20,8 @@ Report 10708, from Abu Wa'il through Ibrahim al-Taymi and al-Awwam ibn Hawshab, 
 
 Report 10710, from Ibn Abbas through Ali ibn Abi Talha and Mu'awiya, says that this verse and similar Qur'anic passages show that God commanded believers to unity and forbade them to differ. {cite:tafsir-tabari-shakir-v09 p. 321}
 
-We stop here after report 10710 at p. 321, in the commentary on verse 140, and will continue from report 10711. {cite:tafsir-tabari-shakir-v09 p. 321}
+Al-Tabari says the prohibition on sitting with those who engage in unbelief and mockery includes an order to part from them. God told that the hypocrites and unbelievers will all be gathered together in hell, and matched in punishment as they agreed in this world in enmity to the believers and helped one another to abandon God's religion and its people. {cite:tafsir-tabari-shakir-v09 p. 322}
+
+The readers differ on 'it has been revealed to you'. Most read it with a damma on the nun and a shadda on the zay, as a passive; some Kufan readers read a fatha on the nun and a shadda, and some Meccan readers a fatha and no shadda. Al-Tabari prefers the damma, because the sense there puts earlier words first, with the delay in the later phrase about might belonging to God. They also differ on the 'Book that was sent down', and he prefers the fatha, because God's name has been mentioned earlier. {cite:tafsir-tabari-shakir-v09 p. 323}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

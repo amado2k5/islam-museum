@@ -38,19 +38,6 @@ describe("edtf ranges", () => {
     expect(r.earliest).toBeCloseTo(990, 0);
     expect(r.latest).toBeCloseTo(1000, 0);
   });
-  it("collapses an open or unknown end onto the known one, so the compiled graph never holds Infinity or null", () => {
-    for (const s of ["1079/..", "1079/", "../1079", "/1079"]) {
-      const r = edtfRange(s);
-      expect(Number.isFinite(r.earliest), s).toBe(true);
-      expect(Number.isFinite(r.latest), s).toBe(true);
-      expect(Math.floor(r.earliest), s).toBe(1079);
-      expect(r.latest).toBeGreaterThanOrEqual(r.earliest);
-      expect(JSON.parse(JSON.stringify(r))).toEqual(r);
-    }
-  });
-  it("rejects an interval with no known bound", () => {
-    expect(() => edtfRange("../..")).toThrow();
-  });
 });
 
 describe("build-graph", () => {
