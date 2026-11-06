@@ -9,7 +9,7 @@ translators: []
 
 ## ملخص
 
-ساليف كيتا — واسمه الكامل ساليف كيتا تراوري — لاعب كرة قدم مالي، وُلد في باماكو سنة 1946 وتوفي فيها سنة 2023. {cite:wikipedia-salif-keita-footballer-ar} مهاجم لُقّب بـ«النمر الأسود»، صار أيقونة سانت إتيان، وفاز بأول جائزة أفضل لاعب أفريقي سنة 1970، ولعب لمرسيليا وفالنسيا وسبورتينغ لشبونة. {cite:wikipedia-salif-keita-footballer-en} وهو غير الموسيقي ساليف كيتا (مواليد 1949). {cite:wikidata-salif-keita-footballer} ولا يرد في أي مصدر تمت مراجعته أي ذكر لديانته، لذا يبقى إيمانه في سجله غير معروف. {cite:wikipedia-salif-keita-footballer-ar}{cite:wikidata-salif-keita-footballer}
+ساليف كيتا — واسمه الكامل ساليف كيتا تراوري — لاعب كرة قدم مالي، وُلد في باماكو سنة 1946 وتوفي فيها سنة 2023. {cite:wikipedia-salif-keita-footballer-ar} مهاجم لُقّب بـ«النمر الأسود»، صار أيقونة سانت إتيان، وفاز بأول جائزة أفضل لاعب أفريقي سنة 1970، ولعب لمرسيليا وفالنسيا وسبورتينغ لشبونة. {cite:wikipedia-salif-keita-footballer-en} وهو غير الموسيقي ساليف كيتا ⁦(مواليد 1949)⁩. {cite:wikidata-salif-keita-footballer} ولا يرد في أي مصدر تمت مراجعته أي ذكر لديانته، لذا يبقى إيمانه في سجله غير معروف. {cite:wikipedia-salif-keita-footballer-ar}{cite:wikidata-salif-keita-footballer}
 
 ## مسيرته
 

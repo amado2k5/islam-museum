@@ -16,7 +16,7 @@ translators: []
 رأي للشيخ: الناس اليوم يفصلون العبادات عن المعاملات، وهذا الفصل خلل فيهم، والصحابة فهموا الشهادة كاملة. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:52:30}
 
 ## الشجرة وشعب الإيمان
-يشبّه الشيخ «لا إله إلا الله» بشجرة أوراقها وثمارها يانعة، ولها فروع تربو على سبعين فرعًا (needs_source: العدد لم يُسنَد في التسجيل). {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:02:00}
+يشبّه الشيخ «لا إله إلا الله» بشجرة أوراقها وثمارها يانعة، ولها فروع تربو على سبعين فرعًا ⁦(needs_source: العدد لم يُسنَد في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:02:00}
 ويرى أن الناس وقفوا عند صغار الأمور فكبّروها، وتركوا أصل العقيدة، فصاروا يتحدثون عن نواقض الوضوء أكثر من نواقض «لا إله إلا الله». {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:02:30}
 
 ## أبو جهل والشهادة
@@ -27,11 +27,11 @@ translators: []
 ويرى أن أعظم من فهم أخلاقيات «لا إله إلا الله» هم الأنبياء والصحابة والسلف الصالح. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:05:30}
 
 ## الدعوة في مكة
-يروي الشيخ أن النبي مكث في مكة ثلاث عشرة سنة لم يحدّث الناس فيها عن الصلاة ولا الزكاة ولا الحج ولا الجهاد، وإنما بيّن لهم مفهوم «لا إله إلا الله» (needs_source: هذه رواية الشيخ ولم تُسنَد في التسجيل)، فلما فهموه صار كل واحد منهم أمة بأسرها. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 01:06:30}
+يروي الشيخ أن النبي مكث في مكة ثلاث عشرة سنة لم يحدّث الناس فيها عن الصلاة ولا الزكاة ولا الحج ولا الجهاد، وإنما بيّن لهم مفهوم «لا إله إلا الله» ⁦(needs_source: هذه رواية الشيخ ولم تُسنَد في التسجيل)⁩، فلما فهموه صار كل واحد منهم أمة بأسرها. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 01:06:30}
 ويذكر الشيخ أن المسلمين في [[building/dar-al-arqam|دار الأرقم]] فهموا قضية التوحيد في ثلاث عشرة سنة. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:14:30}
 
 ## المسؤولية أمام الله
 رأي للشيخ: كل من قال «لا إله إلا الله»، من الحاكم إلى الفلاح، مسؤول أمام الله عن عمله. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:12:30}
 
-## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+## من سلسلة شرح الحكم العطائية ⁦(عمر عبد الكافي)⁩
 يسأل عمر عبد الكافي عمّن نطق بالشهادتين ثم مات بلا صلاة ولا صيام، ويرى أن أبا جهل كان أذكى منه لأنه أدرك أن «لا إله إلا الله» ليست كلمة تقال فقط بل تقتضي التصديق والعمل. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:17:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:18:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:18:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:19:00} ويذكر أن عصاة الموحدين يعذَّبون في النار مدة كلٌّ بقدره ثم يخرجون، وأن الله يغار على كلمة التوحيد في قلوبهم. وهذا كلامه في الوعظ. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:20:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:21:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:22:00}

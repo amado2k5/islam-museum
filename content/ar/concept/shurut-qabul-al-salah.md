@@ -8,7 +8,7 @@ translators: []
 «شروط قبول الصلاة» عنوان سلسلة خطب لـ[[person/abdul-hamid-kishk|عبد الحميد كشك]]، يبني فيها على حديث قدسي يرويه، مضمونه أن الله يتقبل الصلاة ممن تواضع بها لعظمته، ولم يستطل على خلقه، ولم يبت مصرًّا على معصيته، وقطع نهاره في ذكره، ورحم المسكين وابن السبيل والأرملة ورحم المصاب. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep01 00:25:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep05 00:15:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep05 00:16:00} ويعدّها خمسة شروط، ويخصّ كل شرط منها بخطبة. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:12:00}
 
 ## شروط الصحة وشروط القبول
-يقابل كشك بين ما يُذكر عادة من شروط صحة الصلاة، كستر العورة والطهارة، وبين الشروط التي يتحدث عنها هو، أي شروط قبولها (needs_source: السطر مشوّش في بعض كلماته). {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep01 00:23:30}
+يقابل كشك بين ما يُذكر عادة من شروط صحة الصلاة، كستر العورة والطهارة، وبين الشروط التي يتحدث عنها هو، أي شروط قبولها ⁦(needs_source: السطر مشوّش في بعض كلماته)⁩. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep01 00:23:30}
 
 ## الشروط الخمسة كما يعرضها
 1. **التواضع لعظمة الله بالصلاة.** يجعله أول الشروط، ويقرنه بالحديث عن النبي معلّمًا ومرشدًا. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep01 00:25:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:14:00}

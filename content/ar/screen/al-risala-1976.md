@@ -37,7 +37,7 @@ translators: []
 
 ## المراجع
 - ويكيبيديا الإنجليزية، «The Message (1976 film)»، المراجعة 1383107512. {cite:wikipedia-the-message-1976-en}
-- ويكيبيديا العربية، «الرسالة (فلم)»، المراجعة 76830426. {cite:wikipedia-the-message-1976-ar}
+- ويكيبيديا العربية، «الرسالة ⁦(فلم)⁩»، المراجعة 76830426. {cite:wikipedia-the-message-1976-ar}
 - NPR، 7 أغسطس 2016. {cite:npr-message-2016}
 - The Atlantic، 2012. {cite:atlantic-message-2012}
 - The New York Times، 10 مارس 1977. {cite:nyt-message-review-1977}

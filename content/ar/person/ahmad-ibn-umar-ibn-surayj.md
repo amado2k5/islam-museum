@@ -13,4 +13,4 @@ translators: []
 
 وينقل الشيرازي عن شيخه أبي الحسن الشيرجي أن فهرست كتبه يشتمل على أربعمائة مصنف. {cite:tabaqat-fuqaha-abbas-1981 p.57}
 
-أخذ العلم عن أبي القاسم الأنماطي ([[person/uthman-ibn-said-al-anmati|عثمان بن سعيد الأنماطي]]). {cite:tabaqat-fuqaha-abbas-1981 p.58}
+أخذ العلم عن أبي القاسم الأنماطي ⁦([[person/uthman-ibn-said-al-anmati|عثمان بن سعيد الأنماطي]])⁩. {cite:tabaqat-fuqaha-abbas-1981 p.58}

@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-الحسين بن طلال (14 نوفمبر 1935 – 7 فبراير 1999) ثالث ملوك المملكة الأردنية الهاشمية، تولّى الحكم من عام 1952 حتى وفاته. {cite:wikipedia-hussein-bin-talal-ar} {cite:wikipedia-hussein-bin-talal-en}
+الحسين بن طلال ⁦(14 نوفمبر 1935 – 7 فبراير 1999)⁩ ثالث ملوك المملكة الأردنية الهاشمية، تولّى الحكم من عام 1952 حتى وفاته. {cite:wikipedia-hussein-bin-talal-ar} {cite:wikipedia-hussein-bin-talal-en}
 
 وهو من الأسرة الهاشمية، ويُعدّ من الجيل الأربعين من ذرية النبي محمد من ابنته فاطمة وزوجها علي؛ فقد حكمت الأسرة الهاشمية مكة أكثر من سبعمئة عام وتحكم الأردن منذ 1921. {cite:wikipedia-hussein-bin-talal-en}
 

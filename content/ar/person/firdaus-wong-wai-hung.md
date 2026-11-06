@@ -9,7 +9,7 @@ translators: []
 
 ## موجز
 
-فردوس وونغ واي هونغ داعية ماليزي من أصل صيني، مؤسس منظمة «مسلمون عائدون متعددو الأعراق» (Multiracial Reverted Muslims، MRM) ورئيسها، متخصص في مقارنة الأديان والدعوة الميدانية إلى غير المسلمين. {cite:source/idtp-study-guide-firdaus-wong} اعتنق الإسلام سنة 2005 وهو في الثانية والعشرين من عمره بعد سنوات من البحث الديني، وأحصت صحيفة Focus Malaysia في مارس 2024 أكثر من 540 ألف متابع له على فيسبوك وأكثر من 350 ألفا على إنستغرام. {cite:source/idtp-study-guide-firdaus-wong} {cite:source/focus-malaysia-firdaus-wong-2024}
+فردوس وونغ واي هونغ داعية ماليزي من أصل صيني، مؤسس منظمة «مسلمون عائدون متعددو الأعراق» ⁦(Multiracial Reverted Muslims، MRM)⁩ ورئيسها، متخصص في مقارنة الأديان والدعوة الميدانية إلى غير المسلمين. {cite:source/idtp-study-guide-firdaus-wong} اعتنق الإسلام سنة 2005 وهو في الثانية والعشرين من عمره بعد سنوات من البحث الديني، وأحصت صحيفة Focus Malaysia في مارس 2024 أكثر من 540 ألف متابع له على فيسبوك وأكثر من 350 ألفا على إنستغرام. {cite:source/idtp-study-guide-firdaus-wong} {cite:source/focus-malaysia-firdaus-wong-2024}
 
 ## النشأة والتعليم
 

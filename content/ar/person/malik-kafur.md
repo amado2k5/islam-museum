@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-مالك كافور (ت 1316) هو العبد القائد ونائب سلطان دهلي علاء الدين الخلجي {cite:wikipedia-malik-kafur-ar}. لا تعطي المقالة الإنجليزية سنة مولد له، لذا لا يُبنى في هذا السجل مولد {cite:wikipedia-malik-kafur-en}. كان من أصل هندوسي وأسلم بعد أسره سنة 1299، وإسلامه تذكره المقالة الأردية أيضًا {cite:wikipedia-malik-kafur-en} {cite:wikipedia-malik-kafur-ur}. ولما لم يُسمِّ أي نص مذهبًا أو طريقة له، يُسجَّل دينه مجهولًا مع إثبات إسلامه كاملًا {cite:wikipedia-malik-kafur-en}.
+مالك كافور ⁦(ت 1316)⁩ هو العبد القائد ونائب سلطان دهلي علاء الدين الخلجي {cite:wikipedia-malik-kafur-ar}. لا تعطي المقالة الإنجليزية سنة مولد له، لذا لا يُبنى في هذا السجل مولد {cite:wikipedia-malik-kafur-en}. كان من أصل هندوسي وأسلم بعد أسره سنة 1299، وإسلامه تذكره المقالة الأردية أيضًا {cite:wikipedia-malik-kafur-en} {cite:wikipedia-malik-kafur-ur}. ولما لم يُسمِّ أي نص مذهبًا أو طريقة له، يُسجَّل دينه مجهولًا مع إثبات إسلامه كاملًا {cite:wikipedia-malik-kafur-en}.
 
 ## عبد الألف دينار
 

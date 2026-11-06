@@ -15,11 +15,11 @@ translators: []
 تضم مواد المتحف عن هذا المكان: الأحداث التي جرت فيه: 5، من توفوا فيه: 8.
 
 ### الأحداث التي جرت فيه
-- [[event/battle-of-mutah|غزوة مؤتة]] (629م)
-- [[event/mutah-khalid-command-withdrawal|قيادة خالد بن الوليد وانسحاب الجيش]] (629م)
-- [[event/mutah-martyrdom-of-ibn-rawaha|استشهاد عبد الله بن رواحة بعد تردده]] (629م)
-- [[event/mutah-martyrdom-of-jafar|استشهاد جعفر بن أبي طالب وعقره فرسه]] (629م)
-- [[event/mutah-martyrdom-of-zayd|استشهاد زيد بن حارثة قائدًا أول]] (629م)
+- [[event/battle-of-mutah|غزوة مؤتة]] ⁦(629م)⁩
+- [[event/mutah-khalid-command-withdrawal|قيادة خالد بن الوليد وانسحاب الجيش]] ⁦(629م)⁩
+- [[event/mutah-martyrdom-of-ibn-rawaha|استشهاد عبد الله بن رواحة بعد تردده]] ⁦(629م)⁩
+- [[event/mutah-martyrdom-of-jafar|استشهاد جعفر بن أبي طالب وعقره فرسه]] ⁦(629م)⁩
+- [[event/mutah-martyrdom-of-zayd|استشهاد زيد بن حارثة قائدًا أول]] ⁦(629م)⁩
 
 ### من توفوا فيه
 - [[person/jafar-ibn-abi-talib|جعفر بن أبي طالب]]

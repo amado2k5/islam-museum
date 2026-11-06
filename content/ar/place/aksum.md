@@ -15,10 +15,10 @@ translators: []
 تضم مواد المتحف عن هذا المكان: الأحداث التي جرت فيه: 5، من وُلدوا فيه: 1، من توفوا فيه: 10، من قصدوه: 51.
 
 ### الأحداث التي جرت فيه
-- [[event/first-migration-to-abyssinia|الهجرة الأولى إلى الحبشة]] (615م)
-- [[event/second-migration-to-abyssinia|الهجرة الثانية إلى الحبشة]] (616م)
-- [[event/return-of-abyssinian-emigrants|قدوم مهاجري الحبشة مع جعفر بن أبي طالب]] (628م)
-- [[event/emigrants-carried-in-two-ships|حمل النجاشي مهاجري الحبشة إلى النبي في سفينتين]] (628م)
+- [[event/first-migration-to-abyssinia|الهجرة الأولى إلى الحبشة]] ⁦(615م)⁩
+- [[event/second-migration-to-abyssinia|الهجرة الثانية إلى الحبشة]] ⁦(616م)⁩
+- [[event/return-of-abyssinian-emigrants|قدوم مهاجري الحبشة مع جعفر بن أبي طالب]] ⁦(628م)⁩
+- [[event/emigrants-carried-in-two-ships|حمل النجاشي مهاجري الحبشة إلى النبي في سفينتين]] ⁦(628م)⁩
 - [[event/ubaydullah-ibn-jahsh-leaves-islam-in-abyssinia|تنصّر عبيد الله بن جحش بأرض الحبشة]]
 
 ### من وُلدوا فيه

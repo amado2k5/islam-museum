@@ -19,7 +19,7 @@ translators: []
 وبدأت ارتداء النقاب بدوام كامل سنة 1999. {cite:wikipedia-naima-b-robert-en} وبعد عملها معلمة في الفصول الدراسية وتأسيسها مدرسة منزلية خاصة، اتجهت إلى الكتابة. {cite:wikipedia-naima-b-robert-en}
 
 ## الأعمال
-تروي مذكراتها «من شفاه أخواتي» (From My Sisters' Lips، 2005) قصة اعتناقها الإسلام وحياتها امرأة منقبة في بريطانيا. {cite:wikipedia-naima-b-robert-en}
+تروي مذكراتها «من شفاه أخواتي» ⁦(From My Sisters' Lips، 2005)⁩ قصة اعتناقها الإسلام وحياتها امرأة منقبة في بريطانيا. {cite:wikipedia-naima-b-robert-en}
 
 نشرت ثلاثة عشر كتابًا مصورًا للأطفال ذات موضوعات إسلامية، بدءًا بـ«الحجاب الدوّار» (The Swirling Hijaab) الذي اختير ضمن برنامج «بوك ترست»؛ ونال كتابها «رحلة عبر الفنون الإسلامية» جائزة «واو!» من مؤسسة محو الأمية الوطنية البريطانية، وصدر «قمر رمضان» (Ramadan Moon) سنة 2009. {cite:wikipedia-naima-b-robert-en} وتُنشر كتبها المصورة بما يصل إلى 31 لغة. {cite:wikipedia-naima-b-robert-en} وكانت كتبها الأولى للأطفال قد صدرت باسم ولادتها: ثاندو مكلارين. {cite:wikipedia-naima-b-robert-en}
 
@@ -37,6 +37,6 @@ translators: []
 وهي من الأعضاء المؤسِّسين لجمعية «العدالة للمحجبات» (Veiled Justice)، ومثّلت مسجد شرق لندن في قضايا النساء المسلمات، وتحدثت دعمًا للنقاب في وسائل إعلام بريطانية منها «التلغراف» و«بي بي سي نيوز» و«التايمز أونلاين» وبرنامج «المتاهة الأخلاقية» في راديو بي بي سي 4 وسلسلة «المسجد المتخفي» على القناة الرابعة، إضافة إلى قناة الإسلام وقناة AIM TV. {cite:wikipedia-naima-b-robert-en}
 
 ## المراجع
-- «Na'ima B. Robert»، ويكيبيديا الإنجليزية (مراجعة رُوجعت في 26 أكتوبر 2026). {cite:wikipedia-naima-b-robert-en}
+- «Na'ima B. Robert»، ويكيبيديا الإنجليزية ⁦(مراجعة رُوجعت في 26 أكتوبر 2026)⁩. {cite:wikipedia-naima-b-robert-en}
 - «[Interview] Secrets of a Productive Muslimah: Na'ima B. Robert»، موقع Productive Muslim، 2014. {cite:productivemuslim-naima-b-robert}
 - «Na'ima B. Robert — YouTube channel (The Marriage Conversation)». {cite:youtube-naima-b-robert}

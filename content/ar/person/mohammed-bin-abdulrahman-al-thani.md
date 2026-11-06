@@ -7,7 +7,7 @@ translators: []
 
 ## ملخص
 
-محمد بن عبد الرحمن آل ثاني (وُلد سنة 1980) سياسي قطري يشغل رئاسة الوزراء منذ آذار 2023 ووزارة الخارجية منذ 2016 {cite:wikipedia-mohammed-bin-abdulrahman-al-thani-en} {cite:wikipedia-mohammed-bin-abdulrahman-al-thani-ar}.
+محمد بن عبد الرحمن آل ثاني ⁦(وُلد سنة 1980)⁩ سياسي قطري يشغل رئاسة الوزراء منذ آذار 2023 ووزارة الخارجية منذ 2016 {cite:wikipedia-mohammed-bin-abdulrahman-al-thani-en} {cite:wikipedia-mohammed-bin-abdulrahman-al-thani-ar}.
 
 ## حياته
 

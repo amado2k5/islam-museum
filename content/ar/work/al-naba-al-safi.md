@@ -60,7 +60,7 @@ translators: []
 
 ### الحلقة 6
 - [[concept/al-rizq-al-rububi|الرزق عطاء الربوبية والإمامة عطاء الألوهية]] {cite:assabile-omar-abdelkafy al-naba-al-safi/ep06 00:05:30}
-- [[concept/mawt|المَوْت (أحكامه في حقوق الميت والتزاماته)]] {cite:assabile-omar-abdelkafy al-naba-al-safi/ep06 00:06:30}
+- [[concept/mawt|المَوْت ⁦(أحكامه في حقوق الميت والتزاماته)⁩]] {cite:assabile-omar-abdelkafy al-naba-al-safi/ep06 00:06:30}
 - [[concept/tawadu|التواضع]] {cite:assabile-omar-abdelkafy al-naba-al-safi/ep06 00:19:00}
 - [[concept/al-farah-wal-surur|الفرح والسرور]] {cite:assabile-omar-abdelkafy al-naba-al-safi/ep06 00:45:00}
 

@@ -17,13 +17,13 @@ provenance:
 ## ترتيب الكتاب
 رتبه المؤلف على قسمين: الأول على مقدمة وفصول وأبواب وأصول، والثاني في شرح الأذكار، وفيه فصول وخاتمة. {cite:miftah-al-falah-saada-1332 p. 4} {cite:miftah-al-falah-saada-1332 p. 53}
 
-- المقدمة في ماهية الذكر (ص 5). {cite:miftah-al-falah-saada-1332 p. 5}
-- فصول في نتائج الأذكار، وفي ما ورد في فضل الذكر والاجتماع عليه، وفي التحذير من ترك الذكر، وفي آثار السلف (ص 6-18). {cite:miftah-al-falah-saada-1332 p. 6} {cite:miftah-al-falah-saada-1332 p. 10} {cite:miftah-al-falah-saada-1332 p. 15} {cite:miftah-al-falah-saada-1332 p. 16}
-- فصل في آداب الذكر (ص 19)، وباب فوائد الذكر على الإجمال (ص 21)، وباب في فوائد أذكار يستعملها المريد السائر، ومنها أسماء الله الحسنى (ص 24-33). {cite:miftah-al-falah-saada-1332 p. 19} {cite:miftah-al-falah-saada-1332 p. 21} {cite:miftah-al-falah-saada-1332 p. 24}
-- فصل في ترتيب المريد بين الاستغفار والصلاة على النبي بحسب حاله (ص 34). {cite:miftah-al-falah-saada-1332 p. 34}
-- باب التوحيد (ص 41)، وباب المعرفة (ص 42)، وفصل في المفاضلة بين الذكر وقراءة القرآن (ص 43)، وفصل في آفات المسير إلى الله (ص 48). {cite:miftah-al-falah-saada-1332 p. 41} {cite:miftah-al-falah-saada-1332 p. 42} {cite:miftah-al-falah-saada-1332 p. 43} {cite:miftah-al-falah-saada-1332 p. 48}
-- باب ما ينبغي لأهل الطريق أن يأخذوا أنفسهم به (ص 49). {cite:miftah-al-falah-saada-1332 p. 49}
-- القسم الثاني: مباحث نحوية ومعنوية في كلمة لا إله إلا الله، وفضلها وأسماؤها (ص 53-81)، ثم باب الرقى والاستغفار (ص 82)، وأذكار الصباح والمساء (ص 83)، وما يقال في السفر (ص 90)، وفي عيادة المريض (ص 92). {cite:miftah-al-falah-saada-1332 p. 53} {cite:miftah-al-falah-saada-1332 p. 69} {cite:miftah-al-falah-saada-1332 p. 82} {cite:miftah-al-falah-saada-1332 p. 83} {cite:miftah-al-falah-saada-1332 p. 90} {cite:miftah-al-falah-saada-1332 p. 92}
+- المقدمة في ماهية الذكر ⁦(ص 5)⁩. {cite:miftah-al-falah-saada-1332 p. 5}
+- فصول في نتائج الأذكار، وفي ما ورد في فضل الذكر والاجتماع عليه، وفي التحذير من ترك الذكر، وفي آثار السلف ⁦(ص 6-18)⁩. {cite:miftah-al-falah-saada-1332 p. 6} {cite:miftah-al-falah-saada-1332 p. 10} {cite:miftah-al-falah-saada-1332 p. 15} {cite:miftah-al-falah-saada-1332 p. 16}
+- فصل في آداب الذكر ⁦(ص 19)⁩، وباب فوائد الذكر على الإجمال ⁦(ص 21)⁩، وباب في فوائد أذكار يستعملها المريد السائر، ومنها أسماء الله الحسنى ⁦(ص 24-33)⁩. {cite:miftah-al-falah-saada-1332 p. 19} {cite:miftah-al-falah-saada-1332 p. 21} {cite:miftah-al-falah-saada-1332 p. 24}
+- فصل في ترتيب المريد بين الاستغفار والصلاة على النبي بحسب حاله ⁦(ص 34)⁩. {cite:miftah-al-falah-saada-1332 p. 34}
+- باب التوحيد ⁦(ص 41)⁩، وباب المعرفة ⁦(ص 42)⁩، وفصل في المفاضلة بين الذكر وقراءة القرآن ⁦(ص 43)⁩، وفصل في آفات المسير إلى الله ⁦(ص 48)⁩. {cite:miftah-al-falah-saada-1332 p. 41} {cite:miftah-al-falah-saada-1332 p. 42} {cite:miftah-al-falah-saada-1332 p. 43} {cite:miftah-al-falah-saada-1332 p. 48}
+- باب ما ينبغي لأهل الطريق أن يأخذوا أنفسهم به ⁦(ص 49)⁩. {cite:miftah-al-falah-saada-1332 p. 49}
+- القسم الثاني: مباحث نحوية ومعنوية في كلمة لا إله إلا الله، وفضلها وأسماؤها ⁦(ص 53-81)⁩، ثم باب الرقى والاستغفار ⁦(ص 82)⁩، وأذكار الصباح والمساء ⁦(ص 83)⁩، وما يقال في السفر ⁦(ص 90)⁩، وفي عيادة المريض ⁦(ص 92)⁩. {cite:miftah-al-falah-saada-1332 p. 53} {cite:miftah-al-falah-saada-1332 p. 69} {cite:miftah-al-falah-saada-1332 p. 82} {cite:miftah-al-falah-saada-1332 p. 83} {cite:miftah-al-falah-saada-1332 p. 90} {cite:miftah-al-falah-saada-1332 p. 92}
 
 ## تعريف الذكر وأقسامه
 يعرّف المؤلف الذكر بأنه التخلص من الغفلة والنسيان بدوام حضور القلب مع الحق، وقيل ترديد اسم المذكور بالقلب واللسان، ويوسّعه حتى يقول إن المتكلم والمتفقه والمدرس والمفتي والواعظ والمتفكر في عظمة الله والممتثل لأمره ذاكرون. {cite:miftah-al-falah-saada-1332 p. 5} ويقسمه إلى ذكر باللسان وبالجنان وبالأعضاء، ومقيد بزمان أو مكان كالذكر في الصلاة والحج وقبل النوم، ومطلق كالتسبيح والتحميد والتهليل والتكبير والحوقلة. {cite:miftah-al-falah-saada-1332 p. 5} وينقل عن [[person/al-ghazali-abu-hamid|الغزالي]] أن حقيقة الذكر استيلاء المذكور على القلب، وأن له ثلاث قشور، أعلاها ذكر اللسان، يتكلف الذاكر معه إحضار القلب حتى يشارك القلب اللسان. {cite:miftah-al-falah-saada-1332 p. 6}

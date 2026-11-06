@@ -10,5 +10,5 @@ translators: []
 
 شهد بيعة العقبة الثانية وكان أحد النقباء الاثني عشر، وشهد بدراً وأحداً وثبت مع النبي، وكان من كبار أصحاب رسول الله وأحد الذين تنزلت الملائكة لقراءتهم القرآن. {cite:mubarakpuri-raheeq}
 
-## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+## من سلسلة شرح الحكم العطائية ⁦(عمر عبد الكافي)⁩
 يروي عمر عبد الكافي أن أسيد بن حضير كان يقرأ القرآن ليلًا، فجالت فرسه ورأى فوقه مثل الظلة فيها أمثال المصابيح، فتوقف عن القراءة، فقال له النبي: اقرأ يا أسيد، وأخبره أنها الملائكة نزلت لقراءته ولو ظل يقرأ لرآها أهل المدينة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:34:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:34:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:35:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:35:30} ويستخلص أن الرجل الصالح إذا قرأ بحضور قلب تنزّلت لقراءته الرحمة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:35:30}

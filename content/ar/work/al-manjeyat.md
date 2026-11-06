@@ -11,7 +11,7 @@ translators: []
 ## الحلقة الأولى: التوبة
 - يقسم الناس في أمر الذنوب أقسامًا ثلاثة. {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:02:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:03:00}
 - يذكر أن المسلمين نحو مليار وثلاثمئة مليون، ويرى أن عليهم أن يأخذوا بيد البشرية إلى الهداية، وأنه لا فضل لعربي على أعجمي إلا بالتقوى. {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:03:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:04:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:05:30}
-- يقول إن الصغيرة لا تبقى صغيرة مع الإصرار (انظر [[concept/minor-sins-saghair|الصغائر]]). {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:07:00}
+- يقول إن الصغيرة لا تبقى صغيرة مع الإصرار ⁦(انظر [[concept/minor-sins-saghair|الصغائر]])⁩. {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:07:00}
 - يروي قصة الرجل من بني إسرائيل الذي قتل تسعة وتسعين نفسًا، فأغلق العابد في وجهه باب التوبة، ودلّه العالم على ترك أرض المعصية. {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:07:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:08:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:09:00}
 - يسوق نصيحة من يريد أن يعصي الله: أن يعصيه في غير ملكه، وألا يأكل من رزقه، وأن يعصيه حيث لا يراه. {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:15:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:17:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:19:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:19:30}
 - يقول إن من علامات عدم قبول التوبة أن يظل العبد يفرح بالمعصية إذا ظفر بها. {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:22:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:22:30}
@@ -47,7 +47,7 @@ translators: []
 - يقول إن الحرام إذا دخل على الحلال بعثره. {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:20:30}
 
 ## الحلقة السادسة: مفسدات القلب
-- يذكر ما جمعه العلماء مما يفسد القلب (انظر [[concept/qaswat-al-qalb-wa-amradih|قسوة القلب وأمراضه]]). {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:00}
+- يذكر ما جمعه العلماء مما يفسد القلب ⁦(انظر [[concept/qaswat-al-qalb-wa-amradih|قسوة القلب وأمراضه]])⁩. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:00}
 - يتحدث عن أداء الصلاة في وقتها وعن إجابة الأذان. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:02:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:02:30}
 - يذمّ العلم الذي لا يُعمل به، والعمل الذي لا إخلاص فيه ولا اقتداء. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:04:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:09:30}
 - يصف صلاة الخاشع الذي يصلي كأنها آخر صلاة له وملك الموت وراءه. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:06:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:06:30}
@@ -66,7 +66,7 @@ translators: []
 
 ## الحلقة الثامنة: عقبات في الطريق
 - يقول إن [[concept/shayatin-al-ins-wal-jinn|شيطان الإنس]] أخطر من شيطان الجن. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:02:00}
-- يذكر من العقبات الزوجة التي تذيع سيئات زوجها وتصغّره أمام أولاده، والزوج الذي لا يعذر (انظر [[concept/huquq-al-zawjayn|حقوق الزوجين]]). {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:04:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:04:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:10:30}
+- يذكر من العقبات الزوجة التي تذيع سيئات زوجها وتصغّره أمام أولاده، والزوج الذي لا يعذر ⁦(انظر [[concept/huquq-al-zawjayn|حقوق الزوجين]])⁩. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:04:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:04:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:10:30}
 - يعيب أن يصير رمضان شهر الطعام والولائم، ويذكر من حِكَم الصوم أن يشعر الإنسان بالجائع. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:08:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:09:00}
 - يذكر حديث «كلكم راع» في [[concept/mas-uliyya|المسؤولية]]. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:09:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:10:00}
 - يقول إن الولد الذي يُطعم من الشبهة والحرام يتمرد، ويحذّر من الصاحب الذي لا ينصح والشريك الذي لا ينصف. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:15:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:18:30}

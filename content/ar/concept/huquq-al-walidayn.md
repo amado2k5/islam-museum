@@ -16,7 +16,7 @@ translators: []
 يذكر الشيخ أن أحق الناس بالرجل أمه، وأن أحق الناس بالمرأة زوجها. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:18:30}
 
 ## قصة الذي حمل أمه
-يروي الشيخ أن رجلا حمل أمه في الحج، فسأل عمر بن الخطاب هل أدى حقها، فأجابه عمر بأن حقها أعظم من ذلك (needs_source: صيغة الجواب غير واضحة في التسجيل). {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:19:30} {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:20:00}
+يروي الشيخ أن رجلا حمل أمه في الحج، فسأل عمر بن الخطاب هل أدى حقها، فأجابه عمر بأن حقها أعظم من ذلك ⁦(needs_source: صيغة الجواب غير واضحة في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:19:30} {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:20:00}
 
 ## الدعاء للوالدين
 يقول الشيخ إن منزلة العبد في الجنة ترتفع بدعاء ولده الصالح له. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:28:00}
@@ -40,7 +40,7 @@ translators: []
 
 :::perspectives
 - **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
-- **speaker's view (Omar Abdelkafy)**: يقول الشيخ إنه لا ينبغي أن يُحرم الوالدان من زكاة المال، وإن الابن لا يقطع أباه أو أمه منها {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:41:00} (needs_source: الجملة في صيغة سؤال وتقرير، والنص مشوش جزئيا).
+- **speaker's view (Omar Abdelkafy)**: يقول الشيخ إنه لا ينبغي أن يُحرم الوالدان من زكاة المال، وإن الابن لا يقطع أباه أو أمه منها {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:41:00} ⁦(needs_source: الجملة في صيغة سؤال وتقرير، والنص مشوش جزئيا)⁩.
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
@@ -51,7 +51,7 @@ translators: []
 يضرب الشيخ مثلا بوالد يعطي ابنه هاتفا فيستعمله الابن في كشف أسرار والديه، ويقول إن النعم لا ينبغي أن تُستعمل في إغضاب الوالدين أو الله. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:16:00}
 ينتقد الشيخ الشبان الذين يفتخرون بمناصب آبائهم، ويرى أن الأبناء الذين يحتقرون كلام آبائهم ويصفونه بالقديم مخطئون، وأن القيم لا تتغير بتغير الزمن. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:13:00}
 ويقول إن الفخر بالآباء والأموال حماقة، ويذكر غنيا وفقيرا يتفاخر كل منهما بأبيه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:18:30}
-ويذكر ما جاء في القرآن من رد إسماعيل على أبيه في شأن الرؤيا، إذ طلب منه أن يفعل ما أُمر به ووعده بالصبر (needs_source: السورة غير مسماة في التسجيل). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:09:30}
+ويذكر ما جاء في القرآن من رد إسماعيل على أبيه في شأن الرؤيا، إذ طلب منه أن يفعل ما أُمر به ووعده بالصبر ⁦(needs_source: السورة غير مسماة في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:09:30}
 ينقل الشيخ نصيحة إبراهيم لأبيه بوصفها نموذجا للنصح الرفيق المبني على العلم. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:36:00}
 ويستشهد بحديث في المسؤولية عن الرعية، ويطبقه على الابن الذي ينفق مال أبيه فيما يغضب الله. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:15:30}
 

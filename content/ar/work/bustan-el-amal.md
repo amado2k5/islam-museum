@@ -35,7 +35,7 @@ translators: []
 
 ## الحلقة 7: كلا إن معي ربي
 
-نظرتان في الشدائد: عالم الشهادة وعالم الغيب ([[concept/al-yaqin|اليقين]])، وموعظة غسل الموتى، و[[concept/istighfar|الاستغفار]] للمدين. {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:09:30}
+نظرتان في الشدائد: عالم الشهادة وعالم الغيب ⁦([[concept/al-yaqin|اليقين]])⁩، وموعظة غسل الموتى، و[[concept/istighfar|الاستغفار]] للمدين. {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:09:30}
 
 ## الحلقة 8: إبراهيم وهاجر بوادٍ غير ذي زرع
 
@@ -193,7 +193,7 @@ translators: []
 - [[person/abu-talib|أبو طالب بن عبد المطلب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30}
 - [[person/khadija|خديجة بنت خويلد]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:02:00}
 - [[event/journey-to-taif|خروج النبي إلى الطائف]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:05:00}
-- [[event/conquest-of-mecca|فتح مكة (الفتح الأعظم)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:07:00}
+- [[event/conquest-of-mecca|فتح مكة ⁦(الفتح الأعظم)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:07:00}
 
 ### الحلقة 12
 - [[concept/al-iaqa-al-sulukiyya|الإعاقة السلوكية]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:00:30}

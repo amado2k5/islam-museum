@@ -14,4 +14,4 @@ translators: []
 قال الواقدي مات ابن جريج في أول ذي الحجة سنة خمسين ومائة. {cite:tazkirat-al-huffaz j.1 p.165}
 
 ## تفسيره في جامع البيان للطبري
-في [[work/jami-al-bayan|جامع البيان]] يصل تفسير [[person/ata-ibn-abi-rabah|عطاء بن أبي رباح]] إلى [[person/al-tabari|الطبري]] عن طريق ابن جريج (ت 150هـ): القاسم بن الحسن الهمداني، عن الحسن بن داود المصيصي (كذا في البحث)، عن حجاج بن محمد المصيصي، عن ابن جريج. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.48} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49}
+في [[work/jami-al-bayan|جامع البيان]] يصل تفسير [[person/ata-ibn-abi-rabah|عطاء بن أبي رباح]] إلى [[person/al-tabari|الطبري]] عن طريق ابن جريج ⁦(ت 150هـ)⁩: القاسم بن الحسن الهمداني، عن الحسن بن داود المصيصي ⁦(كذا في البحث)⁩، عن حجاج بن محمد المصيصي، عن ابن جريج. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.48} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49}

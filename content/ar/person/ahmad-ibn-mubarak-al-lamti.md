@@ -7,7 +7,7 @@ translators: []
 
 ## موجز
 
-أبو العباس أحمد بن مبارك بن محمد بن علي بن مبارك السجلماسي اللمطي (1090–1156هـ / 1679–1743م) فقيه مالكي مغربي من سجلماسة.{cite:wikipedia-ahmad-ibn-mubarak-al-lamti-ar}{cite:wikipedia-ahmad-ibn-mubarak-al-lamti-en} انتقل مع أسرته إلى فاس سنة 1698 فدرس بالقرويين ونال الإجازة، ثم تتلمذ على المتصوّف عبد العزيز الدباغ ولازمه، وجمع كلامه في كتاب «الإبريز» فصار أشهر أعماله.{cite:wikipedia-ahmad-ibn-mubarak-al-lamti-en}{cite:wikipedia-ahmad-ibn-mubarak-al-lamti-ar}
+أبو العباس أحمد بن مبارك بن محمد بن علي بن مبارك السجلماسي اللمطي ⁦(1090–1156هـ / 1679–1743م)⁩ فقيه مالكي مغربي من سجلماسة.{cite:wikipedia-ahmad-ibn-mubarak-al-lamti-ar}{cite:wikipedia-ahmad-ibn-mubarak-al-lamti-en} انتقل مع أسرته إلى فاس سنة 1698 فدرس بالقرويين ونال الإجازة، ثم تتلمذ على المتصوّف عبد العزيز الدباغ ولازمه، وجمع كلامه في كتاب «الإبريز» فصار أشهر أعماله.{cite:wikipedia-ahmad-ibn-mubarak-al-lamti-en}{cite:wikipedia-ahmad-ibn-mubarak-al-lamti-ar}
 
 ## النشأة والطلب
 

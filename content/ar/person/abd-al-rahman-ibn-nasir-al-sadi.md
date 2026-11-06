@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-الشيخ عبد الرحمن بن ناصر بن عبد الله بن سعدي (1307–1376هـ) عالم من أهل [[place/unayza|عنيزة]] في نجد، وصاحب تفسير [[work/taysir-al-karim-al-rahman|تيسير الكريم الرحمن في تفسير كلام المنان]]. {cite:taysir-karim-rahman-obeikan-2001 p.2} {cite:taysir-karim-rahman-obeikan-2001 p.9} {cite:taysir-karim-rahman-obeikan-2001 p.14} يصفه محقق تفسيره عبد الرحمن بن معلا اللويحق بأنه «شيخ مشايخنا العلامة»، ويقول إنه جعل جلّ عنايته في التفسير بالمعاني التي هي المراد الأعظم. {cite:taysir-karim-rahman-obeikan-2001 p.13}
+الشيخ عبد الرحمن بن ناصر بن عبد الله بن سعدي ⁦(1307–1376هـ)⁩ عالم من أهل [[place/unayza|عنيزة]] في نجد، وصاحب تفسير [[work/taysir-al-karim-al-rahman|تيسير الكريم الرحمن في تفسير كلام المنان]]. {cite:taysir-karim-rahman-obeikan-2001 p.2} {cite:taysir-karim-rahman-obeikan-2001 p.9} {cite:taysir-karim-rahman-obeikan-2001 p.14} يصفه محقق تفسيره عبد الرحمن بن معلا اللويحق بأنه «شيخ مشايخنا العلامة»، ويقول إنه جعل جلّ عنايته في التفسير بالمعاني التي هي المراد الأعظم. {cite:taysir-karim-rahman-obeikan-2001 p.13}
 
 ## التدريس والتلاميذ
 كان يدرّس في حلقات الدروس بالمسجد الجامع في عنيزة، وفيها سمع منه تلميذه [[person/abd-allah-ibn-abd-al-aziz-ibn-aqil|عبد الله بن عبد العزيز بن عقيل]] بعض تفسيره شفهيًّا. {cite:taysir-karim-rahman-obeikan-2001 p.9} ويسميه ابن عقيل و[[person/muhammad-ibn-salih-al-uthaymin|محمد بن صالح العثيمين]] كلاهما «شيخنا» في مقدمتيهما لتفسيره. {cite:taysir-karim-rahman-obeikan-2001 p.9} {cite:taysir-karim-rahman-obeikan-2001 p.11}

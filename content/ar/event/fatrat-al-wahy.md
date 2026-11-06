@@ -6,7 +6,7 @@ translators: []
 ---
 
 ## موجز
-انقطاع الوحي بعد نزوله الأول بـ[[place/ghar-hira|حراء]]؛ يرجّح الرحيق المختوم برواية ابن سعد عن ابن عباس أنه كان أياماً، ويرى أن ما اشتهر من ثلاث سنين أو سنتين ونصف لا يصح {cite:mubarakpuri-raheeq p.69} {cite:fath-al-bari 1/27} {cite:fath-al-bari 12/360}. ثم جاءه جبريل للمرة الثانية بأوائل سورة المدثر ([[event/second-revelation-al-muddaththir|نزول المدثر]]) {cite:mubarakpuri-raheeq p.69} {cite:mubarakpuri-raheeq p.70} {cite:sahih-al-bukhari 2/733}.
+انقطاع الوحي بعد نزوله الأول بـ[[place/ghar-hira|حراء]]؛ يرجّح الرحيق المختوم برواية ابن سعد عن ابن عباس أنه كان أياماً، ويرى أن ما اشتهر من ثلاث سنين أو سنتين ونصف لا يصح {cite:mubarakpuri-raheeq p.69} {cite:fath-al-bari 1/27} {cite:fath-al-bari 12/360}. ثم جاءه جبريل للمرة الثانية بأوائل سورة المدثر ⁦([[event/second-revelation-al-muddaththir|نزول المدثر]])⁩ {cite:mubarakpuri-raheeq p.69} {cite:mubarakpuri-raheeq p.70} {cite:sahih-al-bukhari 2/733}.
 
 ## مدتها
 روى ابن سعد عن ابن عباس ما يفيد أن الفترة كانت أياماً، وهو الذي يترجّح عند المؤلف بل يتعيّن عنده بعد إدارة النظر في جميع الجوانب، وأما ما اشتهر من أنها دامت ثلاث سنين أو سنتين ونصف فلا يصح عنده بحال {cite:mubarakpuri-raheeq p.69} {cite:fath-al-bari 1/27} {cite:fath-al-bari 12/360}.

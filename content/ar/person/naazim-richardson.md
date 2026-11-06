@@ -9,7 +9,7 @@ translators: []
 
 ## موجز
 
-ناظم ريتشاردسون (26 نوفمبر 1965 – 24 يوليو 2020) مدرّب ملاكمة أمريكي من فيلادلفيا، يُعرف أكثر ما يُعرف بتدريبه برنارد هوبكينز وشين موزلي.{cite:wikipedia-naazim-richardson-en}{cite:wikidata-naazim-richardson}
+ناظم ريتشاردسون ⁦(26 نوفمبر 1965 – 24 يوليو 2020)⁩ مدرّب ملاكمة أمريكي من فيلادلفيا، يُعرف أكثر ما يُعرف بتدريبه برنارد هوبكينز وشين موزلي.{cite:wikipedia-naazim-richardson-en}{cite:wikidata-naazim-richardson}
 وتصفه مقالة ويكيبيديا الإنجليزية بأنه مسلم متدين، وكان يُنادى بلقب «الأخ ناظم».{cite:wikipedia-naazim-richardson-en}
 
 ## النشأة والمسيرة

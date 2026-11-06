@@ -14,9 +14,9 @@ translators: []
 
 ## من درس الشيخ عمر عبد الكافي: الدين القيم
 
-يرى الشيخ (رأي شخصي) أن قضية فلسطين قضية إسلامية، وأن أرض فلسطين وقف إسلامي، وأن عمر بن الخطاب أوقف بيت المقدس بالذات (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:12:00}.
+يرى الشيخ ⁦(رأي شخصي)⁩ أن قضية فلسطين قضية إسلامية، وأن أرض فلسطين وقف إسلامي، وأن عمر بن الخطاب أوقف بيت المقدس بالذات (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:12:00}.
 
-ويصف الشيخ (رأي شخصي) وضع فلسطين بأنه مخزٍ، ويذكر موقفين في تاريخ بيت المقدس: الفتح الإسلامي، ثم أيام الصليبيين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:03:30}.
+ويصف الشيخ ⁦(رأي شخصي)⁩ وضع فلسطين بأنه مخزٍ، ويذكر موقفين في تاريخ بيت المقدس: الفتح الإسلامي، ثم أيام الصليبيين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:03:30}.
 
 ويذكر الشيخ أن المسجد الأقصى بقي محتلاً من الصليبيين اثنتين وتسعين سنة (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:09:30}، ويقول في موضع آخر إن بيت المقدس بقي في أيدي الظالمين قرابة مئة عام ثم رُدّ (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:22:00}.
 
@@ -26,10 +26,10 @@ translators: []
 
 ويذكر الشيخ دعاء القاضي لصلاح الدين بأن يطهّر الله المسجد الأقصى من المشركين، وأن ينفذ أمره ونهيه في المشرق والمغرب {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:43:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:44:00}.
 
-ويذكر الشيخ أن القاضي قال إن الجيش شُرّف بتحرير المسجد الأقصى، وأن من نصره الله لا يضره أحد {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:29:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:32:00}. ويرى الشيخ (رأي شخصي) أن الانتصار رضا من الله لا فعل المسلمين وحدهم {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:21:30}.
+ويذكر الشيخ أن القاضي قال إن الجيش شُرّف بتحرير المسجد الأقصى، وأن من نصره الله لا يضره أحد {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:29:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:32:00}. ويرى الشيخ ⁦(رأي شخصي)⁩ أن الانتصار رضا من الله لا فعل المسلمين وحدهم {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:21:30}.
 
 ويقول الشيخ إن الصحابة كانوا يعلّموننا أن بيت المقدس سيُحتل مرتين، وإن الفعل المضارع في الآية يفيد الاستمرار (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:25:30}، ويقرأ أول الوعدين على أنه دخول عمر بيت المقدس دون حرب {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:23:00}.
 
-ويرى الشيخ (رأي شخصي) أن المسجد الأقصى لا يعود إلا بالتوحيد الخالص {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:08:00}.
+ويرى الشيخ ⁦(رأي شخصي)⁩ أن المسجد الأقصى لا يعود إلا بالتوحيد الخالص {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:08:00}.
 
 ويروي الشيخ أن الصحابة طلبوا من بلال أن يؤذّن في المسجد الأقصى، فأذّن فأبكى كل الحاضرين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:19:30}.

@@ -12,23 +12,23 @@ translators: []
 تضم مواد هذا العصر في المتحف اليوم: الأحداث البارزة: 10، الدول: 8، الجماعات: 13، الشخصيات الأكثر ورودًا: 28، المباني: 4.
 
 ### الأحداث البارزة
-- [[event/sacrifice-of-ismail|أمر ذبح إسماعيل]] (نحو 1900ق.م)
-- [[event/building-of-the-kaaba|رفع قواعد الكعبة]] (نحو 1900ق.م)
-- [[event/qusayy-takes-mecca|استيلاء قصي بن كلاب على مكة]] (440م)
-- [[event/flood-of-al-aram|سيل العرم]] (نحو 450م)
-- [[event/massacre-of-najran|مذبحة نجران (أصحاب الأخدود)]] (523م)
-- [[event/abyssinian-occupation-of-yemen|الاحتلال الحبشي الثاني لليمن]] (525م إلى 575م)
-- [[event/persian-rule-of-yemen|تحرير اليمن والولاية الفارسية]] (575م إلى 638م)
-- [[event/battle-of-dhu-qar|يوم ذي قار]] (نحو 604م)
+- [[event/sacrifice-of-ismail|أمر ذبح إسماعيل]] ⁦(نحو 1900ق.م)⁩
+- [[event/building-of-the-kaaba|رفع قواعد الكعبة]] ⁦(نحو 1900ق.م)⁩
+- [[event/qusayy-takes-mecca|استيلاء قصي بن كلاب على مكة]] ⁦(440م)⁩
+- [[event/flood-of-al-aram|سيل العرم]] ⁦(نحو 450م)⁩
+- [[event/massacre-of-najran|مذبحة نجران ⁦(أصحاب الأخدود)⁩]] ⁦(523م)⁩
+- [[event/abyssinian-occupation-of-yemen|الاحتلال الحبشي الثاني لليمن]] ⁦(525م إلى 575م)⁩
+- [[event/persian-rule-of-yemen|تحرير اليمن والولاية الفارسية]] ⁦(575م إلى 638م)⁩
+- [[event/battle-of-dhu-qar|يوم ذي قار]] ⁦(نحو 604م)⁩
 
 ### الدول
-- [[polity/byzantine-empire|الدولة البيزنطية (الروم)]]
-- [[polity/sasanian-empire|الدولة الساسانية (الفرس)]]
-- [[polity/aksumite-kingdom|مملكة أكسوم (الحبشة)]]
-- [[polity/ghassanid-kingdom|مملكة الغساسنة]] (نحو 220م إلى 636م)
-- [[polity/himyarite-kingdom|مملكة حمير]] (نحو 115ق.م إلى 638م)
-- [[polity/kingdom-of-saba|مملكة سبأ]] (نحو 1100ق.م إلى نحو 115ق.م)
-- [[polity/lakhmid-kingdom|مملكة الحيرة (المناذرة)]] (نحو 268م إلى 632م)
+- [[polity/byzantine-empire|الدولة البيزنطية ⁦(الروم)⁩]]
+- [[polity/sasanian-empire|الدولة الساسانية ⁦(الفرس)⁩]]
+- [[polity/aksumite-kingdom|مملكة أكسوم ⁦(الحبشة)⁩]]
+- [[polity/ghassanid-kingdom|مملكة الغساسنة]] ⁦(نحو 220م إلى 636م)⁩
+- [[polity/himyarite-kingdom|مملكة حمير]] ⁦(نحو 115ق.م إلى 638م)⁩
+- [[polity/kingdom-of-saba|مملكة سبأ]] ⁦(نحو 1100ق.م إلى نحو 115ق.م)⁩
+- [[polity/lakhmid-kingdom|مملكة الحيرة ⁦(المناذرة)⁩]] ⁦(نحو 268م إلى 632م)⁩
 - [[polity/nabataean-kingdom|مملكة الأنباط]]
 
 ### الجماعات
@@ -36,7 +36,7 @@ translators: []
 - [[group/hawazin|هوازن]]
 - [[group/jurhum|جرهم]]
 - [[group/himyar|حمير]]
-- [[group/banu-lakhm|لخم (المناذرة)]]
+- [[group/banu-lakhm|لخم ⁦(المناذرة)⁩]]
 - [[group/banu-shayban|بنو شيبان بن بكر بن وائل]]
 
 ### الشخصيات الأكثر ورودًا
@@ -55,7 +55,7 @@ translators: []
 - [[building/kaaba|الكعبة]]
 - [[building/dar-al-nadwa|دار الندوة]]
 - [[building/marib-dam|سد مأرب]]
-- [[building/al-qullays|القليس (الكعبة اليمانية)]]
+- [[building/al-qullays|القليس ⁦(الكعبة اليمانية)⁩]]
 
 ## ما تغطيه هذه الصفحة
 القوائم أعلاه أشهر المواد وأكثرها ورودًا في المتحف لا كل ما فيه، وتُضاف مواد العصر تباعًا من المصادر الأصلية مع كل دفعة جديدة.

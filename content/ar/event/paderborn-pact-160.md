@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-في سنة 160هـ الموافقة 777م اتصل [[person/sulayman-ibn-yaqzan-al-arabi|سليمان بن يقظان الأعرابي]] والي برشلونة وجيرندة بشارلمان ([[person/charlemagne-malik-al-ifranj|شارلمان]]) في بادربورن. {cite:tarikh-dawla-abbasiyya-taqqush p.80-82}
+في سنة 160هـ الموافقة 777م اتصل [[person/sulayman-ibn-yaqzan-al-arabi|سليمان بن يقظان الأعرابي]] والي برشلونة وجيرندة بشارلمان ⁦([[person/charlemagne-malik-al-ifranj|شارلمان]])⁩ في بادربورن. {cite:tarikh-dawla-abbasiyya-taqqush p.80-82}
 
 ## الخطة
 جرى ذلك بالتفاهم مع [[person/husayn-ibn-yahya-al-ansari|حسين بن يحيى الأنصاري]] والي سرقسطة، و[[person/abd-al-rahman-ibn-habib-al-fihri|عبد الرحمن بن حبيب الفهري]]، وبتشجيع من الخليفة المهدي. وكانت الخطة أن يعبر شارلمان جبال البرينيه إلى سرقسطة فيسلّمها له الأعرابي، بينما يزحف الفهري من المغرب وينزل مرسية. فيُضرب الطوق على عبد الرحمن الداخل وتُعلن البلاد خضوعها للحكم العباسي. {cite:tarikh-dawla-abbasiyya-taqqush p.80-82}

@@ -6,7 +6,7 @@ translators: []
 ---
 
 ## موجز
-جبل النور جبل على مبعدة نحو ميلين من [[place/mecca|مكة]]، فيه [[place/ghar-hira|غار حراء]] الذي كان [[person/muhammad|النبي]] يخلو فيه شهر رمضان قبل البعثة، وفيه نزل عليه أول الوحي ([[event/first-revelation|بدء الوحي]]) {cite:mubarakpuri-raheeq p.65} {cite:rahma-lil-alamin 1/47}.
+جبل النور جبل على مبعدة نحو ميلين من [[place/mecca|مكة]]، فيه [[place/ghar-hira|غار حراء]] الذي كان [[person/muhammad|النبي]] يخلو فيه شهر رمضان قبل البعثة، وفيه نزل عليه أول الوحي ⁦([[event/first-revelation|بدء الوحي]])⁩ {cite:mubarakpuri-raheeq p.65} {cite:rahma-lil-alamin 1/47}.
 
 ## ما لم يُذكر هنا
 لا يصف الكتاب الجبل ولا ارتفاعه ولا سبب تسميته؛ وما في كتب البلدان من أن اسمه القديم حراء يحتاج إلى مصدر يُقرأ ويُقتبس.

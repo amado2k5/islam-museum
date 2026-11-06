@@ -12,7 +12,7 @@ provenance:
   source: "source/zebrowski-deccani-painting-1983 scan pp. 12, 13, 59, 60, 62, 66"
 ---
 ## موجز
-لم تظهر عند مارك زبروفسكي لوحات تنسب إلى بيجاپور قبل عهد [[person/ali-adil-shah-i|علي عادل شاه الأول]] (1557–1579م)، وأهم آثاره مخطوطة [[work/nujum-al-ulum|«نجوم العلوم»]] المؤرخة 978هـ/1570–1571م، و[[work/javahir-al-musiqat-i-muhammadi|«جواهر الموسيقات»]] بالأردية الدكنية. {cite:zebrowski-deccani-painting-1983 p. 59} {cite:zebrowski-deccani-painting-1983 p. 60} {cite:zebrowski-deccani-painting-1983 p. 62}
+لم تظهر عند مارك زبروفسكي لوحات تنسب إلى بيجاپور قبل عهد [[person/ali-adil-shah-i|علي عادل شاه الأول]] ⁦(1557–1579م)⁩، وأهم آثاره مخطوطة [[work/nujum-al-ulum|«نجوم العلوم»]] المؤرخة 978هـ/1570–1571م، و[[work/javahir-al-musiqat-i-muhammadi|«جواهر الموسيقات»]] بالأردية الدكنية. {cite:zebrowski-deccani-painting-1983 p. 59} {cite:zebrowski-deccani-painting-1983 p. 60} {cite:zebrowski-deccani-painting-1983 p. 62}
 
 ## الذروة في عهد إبراهيم الثاني
 كان [[person/ibrahim-adil-shah-ii|إبراهيم عادل شاه الثاني]] أعظم راعٍ للفنون أنجبه الدكن، فانفجر التصوير البيجاپوري في عهده ناضجًا باهرًا، تعادل أفضل أعماله أروع اللوحات المغولية والصفوية. {cite:zebrowski-deccani-painting-1983 p. 66} ويميز المؤلف أربعة أساتذة مجهولين يسميهم بأماكن روائعهم: «مصور بيكانير» صاحب موكب إبراهيم، و«مصور بودليان» صاحب «درويش يستقبل زائرًا»، و«مصور لينينغراد» الذي يرجح أنه [[person/farrukh-husain|فرخ حسين]]، و«مصور دبلن». واشتهر التصوير البيجاپوري حتى قلّد مصورون مغول كفرخ بيگ ومحمد علي أعرافه لجهانگير. {cite:zebrowski-deccani-painting-1983 p. 12}

@@ -7,7 +7,7 @@ translators: []
 
 # محمد ولد الغزواني
 
-محمد ولد الغزواني (وُلد 1956) عسكري وسياسي موريتاني، رئيس موريتانيا منذ 1 أغسطس 2019، خلفًا لمحمد ولد عبد العزيز الذي كان من أقرب المقرّبين إليه زمنًا طويلًا.{cite:source/wikipedia-mohamed-ould-ghazouani-ar}{cite:source/wikipedia-mohamed-ould-ghazouani-fr}
+محمد ولد الغزواني ⁦(وُلد 1956)⁩ عسكري وسياسي موريتاني، رئيس موريتانيا منذ 1 أغسطس 2019، خلفًا لمحمد ولد عبد العزيز الذي كان من أقرب المقرّبين إليه زمنًا طويلًا.{cite:source/wikipedia-mohamed-ould-ghazouani-ar}{cite:source/wikipedia-mohamed-ould-ghazouani-fr}
 
 ## من الجيش إلى الرئاسة
 

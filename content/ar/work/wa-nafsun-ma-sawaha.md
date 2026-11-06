@@ -7,7 +7,7 @@ translators: []
 
 ## موجز
 
-يدرج أرشيف أسابيل هذه السلسلة بين الدروس الصوتية لعمر عبد الكافي، وعدد حلقاتها تسع وعشرون. {cite:assabile-omar-abdelkafy series-list} والحلقة نحو عشر دقائق، تبدأ بنشيد مطلعه «تلك النفس وما سوّاها»، ويُذكر في أولها وآخرها أن البرنامج برعاية مؤسسة الشيخ علي بن عبد الله الجفالي الخيرية ومكتب الجمعية العلمية السعودية للقرآن الكريم وعلومه (تبيان) فرع جدة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:00:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:01:00} ويقول الشيخ في الحلقة الأولى إنه سيأخذ في كل حلقة ملاحظة أو عنوانًا في تربية القرآن للنفس الإنسانية، وكيف ربّى القرآن نفوس الصحابة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:30}
+يدرج أرشيف أسابيل هذه السلسلة بين الدروس الصوتية لعمر عبد الكافي، وعدد حلقاتها تسع وعشرون. {cite:assabile-omar-abdelkafy series-list} والحلقة نحو عشر دقائق، تبدأ بنشيد مطلعه «تلك النفس وما سوّاها»، ويُذكر في أولها وآخرها أن البرنامج برعاية مؤسسة الشيخ علي بن عبد الله الجفالي الخيرية ومكتب الجمعية العلمية السعودية للقرآن الكريم وعلومه ⁦(تبيان)⁩ فرع جدة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:00:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:01:00} ويقول الشيخ في الحلقة الأولى إنه سيأخذ في كل حلقة ملاحظة أو عنوانًا في تربية القرآن للنفس الإنسانية، وكيف ربّى القرآن نفوس الصحابة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:30}
 
 ## الحلقة 1: النفس الإنسانية والنفس الكاملة
 
@@ -117,7 +117,7 @@ translators: []
 
 [[person/haman|هامان]] في رواية الشيخ عن الهيروغليفية، ونبوءة غلبة الروم ورهان أبي بكر، والجسد والجسم. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:07:30}
 
-## الحلقة 29: المبشرات (الختام)
+## الحلقة 29: المبشرات ⁦(الختام)⁩
 
 حلم الله، وعاقبة [[concept/zulm|الظلم]]، وقصة إبراهيم، ودورة الحضارات بين الشرق والغرب، وشكر الفريق الفني في ختام البرنامج. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:09:00}
 

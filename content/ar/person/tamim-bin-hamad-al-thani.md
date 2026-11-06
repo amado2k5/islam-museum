@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-تميم بن حمد آل ثاني (وُلد 3 يونيو 1980) أمير قطر منذ 25 يونيو 2013، وهو ثامن أمرائها وأحد أصغر الملوك سنًا في العالم عند تولّيه الحكم. {cite:wikipedia-tamim-bin-hamad-al-thani-en} {cite:wikipedia-tamim-bin-hamad-al-thani-ar}
+تميم بن حمد آل ثاني ⁦(وُلد 3 يونيو 1980)⁩ أمير قطر منذ 25 يونيو 2013، وهو ثامن أمرائها وأحد أصغر الملوك سنًا في العالم عند تولّيه الحكم. {cite:wikipedia-tamim-bin-hamad-al-thani-en} {cite:wikipedia-tamim-bin-hamad-al-thani-ar}
 
 ## النشأة والتعليم
 وُلد تميم بن حمد في الدوحة بقطر في 3 يونيو 1980، وهو الابن الرابع للشيخ حمد بن خليفة آل ثاني، والثاني من زوجته الثانية الشيخة موزا بنت ناصر المسند. {cite:wikipedia-tamim-bin-hamad-al-thani-en}

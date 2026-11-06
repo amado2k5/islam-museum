@@ -15,7 +15,7 @@ translators: []
 
 ## بناء البرنامج
 يقوم البرنامج على سلسلة نماذج يمرّ بها بالترتيب، ويعيد تلخيصها في أول كل حلقة تقريباً: {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep09 00:03:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep30 00:01:00}
-- **فهم القيادة** (الحلقات 1–8): تعريفها بأنها «القدرة على تحريك الناس نحو الهدف» وأركان هذا التعريف الأربعة، ثم القائد السيئ، ثم علم الأتباع وأنواعهم الثمانية. المادة في [[concept/al-qiyada|القيادة]] و[[concept/al-qiyada-al-sayyia|القيادة السيئة]] و[[concept/ilm-al-atba|علم الأتباع]]. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep01 00:14:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep02 00:04:30}
+- **فهم القيادة** ⁦(الحلقات 1–8)⁩: تعريفها بأنها «القدرة على تحريك الناس نحو الهدف» وأركان هذا التعريف الأربعة، ثم القائد السيئ، ثم علم الأتباع وأنواعهم الثمانية. المادة في [[concept/al-qiyada|القيادة]] و[[concept/al-qiyada-al-sayyia|القيادة السيئة]] و[[concept/ilm-al-atba|علم الأتباع]]. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep01 00:14:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep02 00:04:30}
 - **استكشاف القادة** (9–13): ست علامات، وطرق البحث عنها. المادة في [[concept/istikshaf-al-qada|استكشاف القادة]].
 - **التربية القيادية** (14–18): خمسة عناصر في كل منها خمسة أجزاء. المادة في [[concept/al-tarbiya-al-qiyadiyya|التربية القيادية]].
 - **التدريب على القيادة العامة** (19–27): أدوار القائد الثمانية، ثم الكفاءات التي يحتاجها كل دور والمهارات التي تُدرَّب عليها. المادة في [[concept/adwar-al-qaid-al-thamaniya|أدوار القائد الثمانية]].
@@ -29,17 +29,17 @@ translators: []
 
 **الحلقة 2.** لماذا السيرة شاهداً على علم القيادة: نموذج «مزايا السيرة النبوية» بأجزائه السبعة، وأنواع مصادر السيرة الستة. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep02 00:25:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep02 00:38:00} المادة في: [[concept/al-qiyada|القيادة]].
 
-**الحلقة 3.** القائد السيئ: دوافعه الثلاثة (الخوف والطمع والشهوة)، وأنماطه السبعة مع أمثلة من السيرة. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep03 00:16:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep03 00:30:30} المادة في: [[concept/al-qiyada-al-sayyia|القيادة السيئة]]، [[person/uyayna-ibn-hisn|عيينة بن حصن]]، [[person/al-jadd-ibn-qays|الجد بن قيس]].
+**الحلقة 3.** القائد السيئ: دوافعه الثلاثة ⁦(الخوف والطمع والشهوة)⁩، وأنماطه السبعة مع أمثلة من السيرة. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep03 00:16:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep03 00:30:30} المادة في: [[concept/al-qiyada-al-sayyia|القيادة السيئة]]، [[person/uyayna-ibn-hisn|عيينة بن حصن]]، [[person/al-jadd-ibn-qays|الجد بن قيس]].
 
 **الحلقة 4.** لماذا يتبع الناس القائد السيئ: تجربة ميلغرام، ومسيلمة، وعيينة «الأحمق المطاع»، ثم نموذجه لتقليل القادة السيئين. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep04 00:03:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep04 00:40:00} المادة في: [[concept/al-qiyada-al-sayyia|القيادة السيئة]]، [[person/uyayna-ibn-hisn|عيينة بن حصن]].
 
 **الحلقة 5.** أدوات التحريك، والهدف، وعلم الأتباع، والفرق بين التابع والمقلد، وأسباب التبعية، وبطانة الخير يوم الخندق. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep05 00:04:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep05 00:14:30} المادة في: [[concept/ilm-al-atba|علم الأتباع]]، [[concept/consultation-shura|الشورى]].
 
-**الحلقة 6.** معايير تصنيف الأتباع الثلاثة، والتابع الشريك (أبو بكر)، والتابع المؤثر (عمر). {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep06 00:06:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep06 00:32:30} المادة في: [[concept/ilm-al-atba|علم الأتباع]]، [[person/abu-bakr|أبو بكر الصديق]]، [[person/umar-ibn-al-khattab|عمر بن الخطاب]].
+**الحلقة 6.** معايير تصنيف الأتباع الثلاثة، والتابع الشريك ⁦(أبو بكر)⁩، والتابع المؤثر ⁦(عمر)⁩. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep06 00:06:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep06 00:32:30} المادة في: [[concept/ilm-al-atba|علم الأتباع]]، [[person/abu-bakr|أبو بكر الصديق]]، [[person/umar-ibn-al-khattab|عمر بن الخطاب]].
 
-**الحلقة 7.** التابع المساند (أبو سفيان بن حرب)، والتابع المشير (الحباب بن المنذر)، والتابع الملتزم (أبو ذر). {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:07:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:33:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:42:30} المادة في: [[concept/ilm-al-atba|علم الأتباع]]، [[person/abu-sufyan-ibn-harb|أبو سفيان بن حرب]]، [[person/hubab-ibn-al-mundhir|الحباب بن المنذر]]، [[person/abu-dharr-al-ghifari|أبو ذر الغفاري]].
+**الحلقة 7.** التابع المساند ⁦(أبو سفيان بن حرب)⁩، والتابع المشير ⁦(الحباب بن المنذر)⁩، والتابع الملتزم ⁦(أبو ذر)⁩. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:07:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:33:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:42:30} المادة في: [[concept/ilm-al-atba|علم الأتباع]]، [[person/abu-sufyan-ibn-harb|أبو سفيان بن حرب]]، [[person/hubab-ibn-al-mundhir|الحباب بن المنذر]]، [[person/abu-dharr-al-ghifari|أبو ذر الغفاري]].
 
-**الحلقة 8.** التابع المعاند (الجد بن قيس)، والتابع المكابر (عبد الله بن أبي)، والتابع الهامشي. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:08:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:32:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:47:00} المادة في: [[concept/ilm-al-atba|علم الأتباع]]، [[person/al-jadd-ibn-qays|الجد بن قيس]]، [[person/abdullah-ibn-ubayy|عبد الله بن أبي]].
+**الحلقة 8.** التابع المعاند ⁦(الجد بن قيس)⁩، والتابع المكابر ⁦(عبد الله بن أبي)⁩، والتابع الهامشي. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:08:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:32:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:47:00} المادة في: [[concept/ilm-al-atba|علم الأتباع]]، [[person/al-jadd-ibn-qays|الجد بن قيس]]، [[person/abdullah-ibn-ubayy|عبد الله بن أبي]].
 
 **الحلقة 9.** نموذج استكشاف القادة: علامتا القدرة على التحليل والمبادرة. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep09 00:07:30} المادة في: [[concept/istikshaf-al-qada|استكشاف القادة]].
 
@@ -53,7 +53,7 @@ translators: []
 
 **الحلقة 14.** نموذج التربية القيادية، وعنصره الأول: القناعات. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep14 00:05:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep14 00:10:30} المادة في: [[concept/al-tarbiya-al-qiyadiyya|التربية القيادية]].
 
-**الحلقة 15.** العنصر الثاني: الاهتمامات (الروح والعقل والعاطفة والجسد والمال). {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep15 00:06:30} المادة في: [[concept/al-tarbiya-al-qiyadiyya|التربية القيادية]].
+**الحلقة 15.** العنصر الثاني: الاهتمامات ⁦(الروح والعقل والعاطفة والجسد والمال)⁩. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep15 00:06:30} المادة في: [[concept/al-tarbiya-al-qiyadiyya|التربية القيادية]].
 
 **الحلقة 16.** العنصر الثالث: المهارات بأنواعها الخمسة. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep16 00:07:30} المادة في: [[concept/al-tarbiya-al-qiyadiyya|التربية القيادية]].
 
@@ -77,7 +77,7 @@ translators: []
 
 **الحلقة 26.** تحليل الناس بنموذج أنماط الشخصية، وفن الإقناع، و«مفاتيح الناس»، وأدوات التحريك. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep26 00:04:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep26 00:08:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep26 00:41:00} المادة في: [[concept/tahlil-disc|تحليل ديسك]]، [[person/abu-bakr|أبو بكر الصديق]]، [[person/umar-ibn-al-khattab|عمر بن الخطاب]].
 
-**الحلقة 27.** إيجاد التكامل وفرق العمل، والتدخل (المتابعة والقرار وحل المشكلات والقوة والنفوذ)، والتمكين (الاستماع والتفويض). {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep27 00:03:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep27 00:13:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep27 00:33:30} المادة في: [[concept/fariq-al-amal|فريق العمل]]، [[concept/consultation-shura|الشورى]]، [[concept/adwar-al-qaid-al-thamaniya|أدوار القائد الثمانية]].
+**الحلقة 27.** إيجاد التكامل وفرق العمل، والتدخل ⁦(المتابعة والقرار وحل المشكلات والقوة والنفوذ)⁩، والتمكين ⁦(الاستماع والتفويض)⁩. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep27 00:03:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep27 00:13:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep27 00:33:30} المادة في: [[concept/fariq-al-amal|فريق العمل]]، [[concept/consultation-shura|الشورى]]، [[concept/adwar-al-qaid-al-thamaniya|أدوار القائد الثمانية]].
 
 **الحلقة 28.** التدريب على القيادة التخصصية، ومثاله «معهد مفكر». {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep28 00:02:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep28 00:29:00} المادة في: [[concept/al-qiyada-al-takhassusiyya|القيادة التخصصية]]، [[person/amr-ibn-al-as|عمرو بن العاص]].
 

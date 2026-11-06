@@ -7,7 +7,7 @@ translators: []
 
 ## ملخص
 
-محمد الثاني الفقيه (نحو 1235 – 8 أبريل 1302) هو ثاني أمراء بني نصر في غرناطة، ابن مؤسس الدولة محمد الأول وخليفته. {cite:wikipedia-muhammad-ii-of-granada-en} {cite:wikipedia-muhammad-ii-of-granada-ar} وفي عهده، من 1273 إلى 1302، ثبتت حدود الإمارة النصرية تحت ضغط قشتالة والمغرب المريني، فنازل الطرفين وعقد التحالفات معهما بالتناوب. {cite:wikipedia-muhammad-ii-of-granada-en}
+محمد الثاني الفقيه ⁦(نحو 1235 – 8 أبريل 1302)⁩ هو ثاني أمراء بني نصر في غرناطة، ابن مؤسس الدولة محمد الأول وخليفته. {cite:wikipedia-muhammad-ii-of-granada-en} {cite:wikipedia-muhammad-ii-of-granada-ar} وفي عهده، من 1273 إلى 1302، ثبتت حدود الإمارة النصرية تحت ضغط قشتالة والمغرب المريني، فنازل الطرفين وعقد التحالفات معهما بالتناوب. {cite:wikipedia-muhammad-ii-of-granada-en}
 
 ## لقب الفقيه
 

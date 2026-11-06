@@ -14,4 +14,4 @@ translators: []
 يذكر الشيخ أن المؤمنين يُلهمون في ذلك الزمان التسبيح والتحميد والتكبير والتهليل كما يُلهم الإنسان الشبع والري، فيكون ذلك لهم غذاء (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:35:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:35:30}
 
 ## فتنة واحدة ومستعينون بالله
-يقول الشيخ إن فتن الدجال ليست واحدا فقط، فالدجاجلة كثر، وإن الله يتولى المؤمنين من فتنته (رأي الشيخ). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:35:30}
+يقول الشيخ إن فتن الدجال ليست واحدا فقط، فالدجاجلة كثر، وإن الله يتولى المؤمنين من فتنته ⁦(رأي الشيخ)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:35:30}

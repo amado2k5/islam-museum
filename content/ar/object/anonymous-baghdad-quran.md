@@ -18,4 +18,4 @@ provenance:
 كاتبه [[person/ahmad-al-suhrawardi|أحمد بن السهروردي البكري]]، تلميذ [[person/yaqut-al-mustasimi|ياقوت المستعصمي]]، المعروف بنسخ مصاحف فاخرة كثيرة وتصميم نقوش لعمائر في بغداد، وهذا المصحف أشهر أعماله. ومذهّبه محمد بن أيبك بن عبد الله. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 37} وتعدّ مريم اختيار أحمد بن السهروردي أبرز من درّبهم ياقوت، وتصف الخاتمة بأنها مثال رفيع على خطه، وفيها اسمه. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 26}
 
 ## من أمر به
-لما أنجز في العهد [[polity/ilkhanate|الإيلخاني]]، ترجّح المؤلفة أن يكون أمر به حاكم الوقت أو رجل دولة، ربما السلطان (وتذكر [[person/ghazan-khan|غازان]] وأولجايتو) أو أحد وزرائه، ولعله [[person/rashid-al-din-hamadani|رشيد الدين]]؛ ولذا بقي اسمه «المجهول». {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 37}
+لما أنجز في العهد [[polity/ilkhanate|الإيلخاني]]، ترجّح المؤلفة أن يكون أمر به حاكم الوقت أو رجل دولة، ربما السلطان ⁦(وتذكر [[person/ghazan-khan|غازان]] وأولجايتو)⁩ أو أحد وزرائه، ولعله [[person/rashid-al-din-hamadani|رشيد الدين]]؛ ولذا بقي اسمه «المجهول». {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 37}

@@ -12,4 +12,4 @@ translators: []
 
 وفي عهده فُتحت قبرص سنة 978هـ، ووقعت معركة ليبانتو، وأُعيدت تونس إلى النفوذ العثماني سنة 981هـ. {cite:dawlat-uthmaniyya-salabi p. 277-285}
 
-توفي سنة 982هـ (1574م). {cite:dawlat-uthmaniyya-salabi}
+توفي سنة 982هـ ⁦(1574م)⁩. {cite:dawlat-uthmaniyya-salabi}

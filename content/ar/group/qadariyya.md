@@ -27,7 +27,7 @@ provenance: { generated_by: "Claude Haiku 5.5 (first draft); enriched by Claude 
 :::perspectives
 **أهل السنة: اللالكائي في شرح أصول الاعتقاد.** نفي القدر بدعة حادثة في آخر عصر الصحابة، والآثار في حكم أصحابها تتراوح بين التكفير والاستتابة ومنع الصلاة خلفهم. {cite:sharh-usul-itiqad-basira p. 623} {cite:sharh-usul-itiqad-basira p. 642}
 
-**أهل السنة (حنبلي): ابن بدران في المدخل.** قولهم يشبه قول المجوس والنصارى وهو أصل الزندقة. {cite:madkhal-ibn-badran-turki p.96}
+**أهل السنة ⁦(حنبلي)⁩: ابن بدران في المدخل.** قولهم يشبه قول المجوس والنصارى وهو أصل الزندقة. {cite:madkhal-ibn-badran-turki p.96}
 :::
 
 ## ما لم يُذكر هنا

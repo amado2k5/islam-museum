@@ -14,10 +14,10 @@ translators: []
 يروي الشيخ أن رجلا فقيرا سأل النبي، فسأله عما عنده، فذكر أن عنده قدحا يشرب فيه الماء وحلسا يفرش بعضه ويلبس بعضه. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:09:00} ثم باعهما النبي لمن يزيد في الثمن، فأعطى الرجل درهمين، فاشترى بأحدهما طعاما وبالآخر فأسا. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:10:00} وأمره أن يحتطب ويبيع الحطب، فعاد بعد خمسة عشر يوما ومعه مال كثير. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:10:00}
 
 ## المسألة لا تحل إلا لضرورة
-يذكر الشيخ أن المسألة لا تحل إلا لصاحب فقر شديد، أو غرم ثقيل، أو دم موجع، وأن المسألة تأتي يوم القيامة أثرا في وجه صاحبها. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:10:30} (needs_source: ألفاظ الأصناف الثلاثة غير واضحة في النسخة الآلية.)
+يذكر الشيخ أن المسألة لا تحل إلا لصاحب فقر شديد، أو غرم ثقيل، أو دم موجع، وأن المسألة تأتي يوم القيامة أثرا في وجه صاحبها. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:10:30} ⁦(needs_source: ألفاظ الأصناف الثلاثة غير واضحة في النسخة الآلية.)⁩
 
 ## الشكوى إلى الله
 يحذر الشيخ من أن يشكو الإنسان أهله وجيرانه والزمن والفقر إلى الناس، ويقول إن الشكوى تكون إلى الله. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:11:00}
 
-## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
-في شرح حكمة ابن عطاء الله أن الطلب من غير الله من البعد عنه، يروي عمر عبد الكافي أن نفرًا من الصحابة بايعوا النبي على ألا يسألوا الناس شيئًا، حتى إن أحدهم كان يسقط سوطه وهو على ناقته فينزل ليأخذه ولا يسأل أحدًا أن يناوله إياه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:30} ويروي عن رجل وقع في بئر فمرّ به ركب ظنوها بئر ماء، فلم يستغث بهم وفاءً بهذه البيعة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:33:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:34:00} (needs_source: اسم الراوي واسم صاحب البئر غير واضحين في التسجيل.)
+## من سلسلة شرح الحكم العطائية ⁦(عمر عبد الكافي)⁩
+في شرح حكمة ابن عطاء الله أن الطلب من غير الله من البعد عنه، يروي عمر عبد الكافي أن نفرًا من الصحابة بايعوا النبي على ألا يسألوا الناس شيئًا، حتى إن أحدهم كان يسقط سوطه وهو على ناقته فينزل ليأخذه ولا يسأل أحدًا أن يناوله إياه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:30} ويروي عن رجل وقع في بئر فمرّ به ركب ظنوها بئر ماء، فلم يستغث بهم وفاءً بهذه البيعة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:33:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:34:00} ⁦(needs_source: اسم الراوي واسم صاحب البئر غير واضحين في التسجيل.)⁩

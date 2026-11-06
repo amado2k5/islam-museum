@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-فيصل بن تركي بن سعيد البوسعيدي (وُلد في بومباي في 8 يونيو 1864 – توفي في مسقط في 4 أكتوبر 1913)، سلطان مسقط وعُمان من 4 يونيو 1888 إلى وفاته، والابن الثاني للسلطان تركي بن سعيد من أم إثيوبية. {cite:wikipedia-faisal-bin-turki-al-busaidi-en} {cite:wikidata-faisal-bin-turki-al-busaidi} شهد عهده اتفاق إقامة قنصلية فرنسية، وسقوط مسقط بيد الثوار مؤقتًا سنة 1895، وانتخاب إمام في الداخل سنة 1913، وخلفه ابنه تيمور. {cite:wikipedia-faisal-bin-turki-al-busaidi-en} {cite:wikipedia-faisal-bin-turki-al-busaidi-ar}
+فيصل بن تركي بن سعيد البوسعيدي ⁦(وُلد في بومباي في 8 يونيو 1864 – توفي في مسقط في 4 أكتوبر 1913)⁩، سلطان مسقط وعُمان من 4 يونيو 1888 إلى وفاته، والابن الثاني للسلطان تركي بن سعيد من أم إثيوبية. {cite:wikipedia-faisal-bin-turki-al-busaidi-en} {cite:wikidata-faisal-bin-turki-al-busaidi} شهد عهده اتفاق إقامة قنصلية فرنسية، وسقوط مسقط بيد الثوار مؤقتًا سنة 1895، وانتخاب إمام في الداخل سنة 1913، وخلفه ابنه تيمور. {cite:wikipedia-faisal-bin-turki-al-busaidi-en} {cite:wikipedia-faisal-bin-turki-al-busaidi-ar}
 
 ## النشأة
 وُلد فيصل في بومباي في 8 يونيو 1864 كما في المقالة الإنجليزية وصندوقها وتوافقها ويكيبيانات بقيمة يومية الدقة، بينما تكتفي المقالة العربية بسنة 1864. {cite:wikipedia-faisal-bin-turki-al-busaidi-en} {cite:wikidata-faisal-bin-turki-al-busaidi} عيّنه أبوه واليًا على نزوى وسمائل، وقاد في عهد أبيه حملات في وديان سمائل والمعاول وفي ظفار. {cite:wikipedia-faisal-bin-turki-al-busaidi-ar} تزوّج علياء بنت ثويني، ابنة السلطان ثويني بن سعيد، وهي أم ابنه وخليفته تيمور، واختلف المصدرون في عدد أولاده: فالمقالة الإنجليزية تقول اثنين وعشرين على الأقل، والأردية تقول أربعة وعشرين. {cite:wikipedia-faisal-bin-turki-al-busaidi-en} {cite:wikipedia-faisal-bin-turki-al-busaidi-ur}

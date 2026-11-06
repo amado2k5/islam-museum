@@ -13,4 +13,4 @@ lang: ar
 في مدينة إزنيق التركية تقف أقدم مسجد عثماني محفوظ: بناها سنة 1333م، وما زالت قبتها الطينية ومعظم جدرانها أصلية.
 
 ## ملاحظات للمحققين
-- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص71 (قسم Hacı Özbek Camii).
+- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص71 ⁦(قسم Hacı Özbek Camii)⁩.

@@ -7,7 +7,7 @@ translators: []
 
 # باسيرو ديوماي فاي
 
-باسيرو ديوماي فاي (وُلد في 25 مارس 1980) سياسي سنغالي ومفتش ضرائب سابق من ندياغانياو، وهو الرئيس الخامس للسنغال منذ 2 أبريل 2024 وأصغر رؤسائها سنا.{cite:source/wikipedia-bassirou-diomaye-faye-ar}{cite:source/wikipedia-bassirou-diomaye-faye-fr}
+باسيرو ديوماي فاي ⁦(وُلد في 25 مارس 1980)⁩ سياسي سنغالي ومفتش ضرائب سابق من ندياغانياو، وهو الرئيس الخامس للسنغال منذ 2 أبريل 2024 وأصغر رؤسائها سنا.{cite:source/wikipedia-bassirou-diomaye-faye-ar}{cite:source/wikipedia-bassirou-diomaye-faye-fr}
 
 ## التكوين والصعود
 

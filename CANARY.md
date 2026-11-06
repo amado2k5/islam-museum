@@ -95,6 +95,66 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses (scope corrected, batch 60): brackets are isolated in Arabic prose in 32 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 59): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 58): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 57): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 56): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 55): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 54): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 53): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 52): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 51): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 50): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 49): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 48): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 47): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 46): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 45): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 44): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 43): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 42): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 41): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 40): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 39): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 38): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 37): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 36): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 35): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 34): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 33): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 32): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 31): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 30): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 29): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 28): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 27): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 26): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 25): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 24): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 23): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 22): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 21): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 20): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 19): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 18): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 17): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 16): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 15): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 14): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 13): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 12): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 11): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 10): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 9): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 8): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 7): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 6): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 5): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 4): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 3): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 2): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
+- Arabic parentheses (scope corrected, batch 1): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
 - Arabic parentheses (scope corrected, batch 219): brackets are isolated only inside Arabic values in 28 data files. English and Urdu text is left exactly as it was.
 - Arabic parentheses (scope corrected, batch 218): brackets are isolated only inside Arabic values in 69 data files. English and Urdu text is left exactly as it was.
 - Arabic parentheses (scope corrected, batch 217): brackets are isolated only inside Arabic values in 57 data files. English and Urdu text is left exactly as it was.

@@ -8,7 +8,7 @@ status:
 provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "muwafaqat-draz-ilmiyya pp. 1-10, 18, 63, 219-223, 469, 774; muwafaqat-mashhur-ibn-affan-v1 pp. 1, 3-12" }
 ---
 ## موجز
-«الموافقات في أصول الشريعة» كتاب في أصول الفقه ومقاصد الشريعة لأبي إسحاق [[person/abu-ishaq-al-shatibi|إبراهيم بن موسى اللخمي الغرناطي الشاطبي]] المالكي (ت 790هـ). {cite:muwafaqat-draz-ilmiyya p. 1} {cite:muwafaqat-draz-ilmiyya p. 4} ويعدّه الزركلي، فيما ينقله ناشر طبعة دار الكتب العلمية، في أربع مجلدات. {cite:muwafaqat-draz-ilmiyya p. 4}
+«الموافقات في أصول الشريعة» كتاب في أصول الفقه ومقاصد الشريعة لأبي إسحاق [[person/abu-ishaq-al-shatibi|إبراهيم بن موسى اللخمي الغرناطي الشاطبي]] المالكي ⁦(ت 790هـ)⁩. {cite:muwafaqat-draz-ilmiyya p. 1} {cite:muwafaqat-draz-ilmiyya p. 4} ويعدّه الزركلي، فيما ينقله ناشر طبعة دار الكتب العلمية، في أربع مجلدات. {cite:muwafaqat-draz-ilmiyya p. 4}
 
 ## أقسامه الخمسة
 يقول الشاطبي في خطبته إنه ظل يقيّد أوابد هذا العلم وشوارده معتمداً على «الاستقراءات الكلية» غير مقتصر على الأفراد الجزئية، ومبيّناً أصولها النقلية بأطراف من القضايا العقلية، ثم نظمها في تراجم تردها إلى أصولها، فصار كتاباً منحصراً في خمسة أقسام: {cite:muwafaqat-mashhur-ibn-affan-v1 p. 9}
@@ -33,7 +33,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 
 ## طبعاته في المتحف
 - طبعة دار الكتب العلمية ببيروت في مجلد واحد، بشرح الشيخ عبد الله دراز وتراجم محمد عبد الله دراز وتخريج آيات عبد السلام عبد الشافي محمد. {cite:muwafaqat-draz-ilmiyya p. 1} {cite:muwafaqat-draz-ilmiyya p. 3}
-- طبعة دار ابن عفان، ضبط نصها وعلق عليها أبو عبيدة مشهور بن حسن آل سلمان، بتقديم بكر بن عبد الله أبو زيد، وتجمع حواشيها تعليقات دراز والخضر حسين وماء العينين (المجلد الأول). {cite:muwafaqat-mashhur-ibn-affan-v1 p. 1} {cite:muwafaqat-mashhur-ibn-affan-v1 p. 10}
+- طبعة دار ابن عفان، ضبط نصها وعلق عليها أبو عبيدة مشهور بن حسن آل سلمان، بتقديم بكر بن عبد الله أبو زيد، وتجمع حواشيها تعليقات دراز والخضر حسين وماء العينين ⁦(المجلد الأول)⁩. {cite:muwafaqat-mashhur-ibn-affan-v1 p. 1} {cite:muwafaqat-mashhur-ibn-affan-v1 p. 10}
 
 ## ما لم يُذكر هنا
 لم تُقرأ هنا مسائل كتاب الأحكام والأدلة والاجتهاد بالتفصيل، ولا دراسة محقق طبعة ابن عفان.

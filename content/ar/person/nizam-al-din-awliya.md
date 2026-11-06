@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-نظام الدين أولياء (1238 – 3 أبريل 1325) هو شيخ الطريقة الجشتية في دهلي {cite:wikipedia-nizam-al-din-awliya-ar}. تصفه مقالة ويكيبيديا العربية في متنها بأنه متصوف للطائفة الجشتية {cite:wikipedia-nizam-al-din-awliya-ar}. وتسميه المقالة الإنجليزية عالمًا مسلمًا سنيًا هنديًا ووليًا صوفيًا من الطريقة الجشتية {cite:wikipedia-nizam-al-din-awliya-en}. كان مريد بابا فريد وخليفته {cite:wikipedia-nizam-al-din-awliya-en}.
+نظام الدين أولياء ⁦(1238 – 3 أبريل 1325)⁩ هو شيخ الطريقة الجشتية في دهلي {cite:wikipedia-nizam-al-din-awliya-ar}. تصفه مقالة ويكيبيديا العربية في متنها بأنه متصوف للطائفة الجشتية {cite:wikipedia-nizam-al-din-awliya-ar}. وتسميه المقالة الإنجليزية عالمًا مسلمًا سنيًا هنديًا ووليًا صوفيًا من الطريقة الجشتية {cite:wikipedia-nizam-al-din-awliya-en}. كان مريد بابا فريد وخليفته {cite:wikipedia-nizam-al-din-awliya-en}.
 
 ## نشأته
 

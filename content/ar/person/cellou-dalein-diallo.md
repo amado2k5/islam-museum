@@ -7,7 +7,7 @@ translators: []
 
 # سيلو دالين ديالو
 
-سيلو دالين ديالو (وُلد في 3 فبراير 1952) اقتصادي وسياسي غيني، من شعب الفولا ومن مدينة لابي، كان رئيس وزراء غينيا بين 2004 و2006 ويرأس اتحاد القوى الديمقراطية الغيني المعارض منذ 2007. {cite:wikipedia-cellou-dalein-diallo-en} {cite:wikidata-cellou-dalein-diallo}
+سيلو دالين ديالو ⁦(وُلد في 3 فبراير 1952)⁩ اقتصادي وسياسي غيني، من شعب الفولا ومن مدينة لابي، كان رئيس وزراء غينيا بين 2004 و2006 ويرأس اتحاد القوى الديمقراطية الغيني المعارض منذ 2007. {cite:wikipedia-cellou-dalein-diallo-en} {cite:wikidata-cellou-dalein-diallo}
 
 ## المسيرة الوزارية
 
@@ -19,7 +19,7 @@ translators: []
 
 ## ملحوظة على السجل
 
-لا يذكر نصّ أي مقالة بأي لغة دينَ ديالو؛ فصندوقا المعلومات في المقالتين الإنجليزية والفرنسية يسمّيان الإسلام، ولا تحمل ويكيداتا أي قيمة للدين، والمقالة العربية بذرة صامتة عنه، لذا يقيّد المتحف دينه غير معروف ويحفظ قراءة الصندوقين في ملف البيانات. {cite:wikipedia-cellou-dalein-diallo-en} {cite:wikipedia-cellou-dalein-diallo-fr} {cite:wikidata-cellou-dalein-diallo} وتحمل المقالة العربية في مطلعها تاريخ وفاة (3 مارس 2019) وهو خطأ — فالرجل حيّ وكان نشطا حتى 2021 — فلا يحمله المتحف. {cite:wikipedia-cellou-dalein-diallo-ar} {cite:wikipedia-cellou-dalein-diallo-en}
+لا يذكر نصّ أي مقالة بأي لغة دينَ ديالو؛ فصندوقا المعلومات في المقالتين الإنجليزية والفرنسية يسمّيان الإسلام، ولا تحمل ويكيداتا أي قيمة للدين، والمقالة العربية بذرة صامتة عنه، لذا يقيّد المتحف دينه غير معروف ويحفظ قراءة الصندوقين في ملف البيانات. {cite:wikipedia-cellou-dalein-diallo-en} {cite:wikipedia-cellou-dalein-diallo-fr} {cite:wikidata-cellou-dalein-diallo} وتحمل المقالة العربية في مطلعها تاريخ وفاة ⁦(3 مارس 2019)⁩ وهو خطأ — فالرجل حيّ وكان نشطا حتى 2021 — فلا يحمله المتحف. {cite:wikipedia-cellou-dalein-diallo-ar} {cite:wikipedia-cellou-dalein-diallo-en}
 
 ## المراجع
 

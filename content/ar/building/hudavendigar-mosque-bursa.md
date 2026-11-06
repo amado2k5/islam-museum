@@ -13,4 +13,4 @@ lang: ar
 أغرب جامع في بورصة طابقان: مسجد ونزل للمسافرين في الأسفل ومدرسة في الأعلى — بناه السلطان مراد الأول بين حروب لا تنتهي.
 
 ## ملاحظات للمحققين
-- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص54-56 (قسم Hüdavendigâr Camii، بورصة).
+- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص54-56 ⁦(قسم Hüdavendigâr Camii، بورصة)⁩.

@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker F)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "tarikh-dimashq-amrawi-v5 ص 353–357 (الترجمة 144)؛ mawsuat-a3lam-ulama-adaba ص 153"
+  source: "tarikh-dimashq-amrawi-v5 ص 353–357 ⁦(الترجمة 144)⁩؛ mawsuat-a3lam-ulama-adaba ص 153"
 ---
 
 ## موجز

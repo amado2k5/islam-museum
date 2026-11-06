@@ -11,25 +11,25 @@ translators: []
 ## أشراط الساعة
 وتؤمن العقيدة بأشراط الساعة — من خروج الدجال ونزول عيسى بن مريم من السماء وطلوع الشمس من مغربها وخروج دابة الأرض {cite:aqida-tahawiyya §129}؛ ويفصّل شرح ابن أبي العز هذه البنود {cite:sharh-tahawiyya-ibn-abi-al-izz}.
 
-## القيامة في درس الشيخ عمر عبد الكافي (الحلقتان الأولى والرابعة)
+## القيامة في درس الشيخ عمر عبد الكافي ⁦(الحلقتان الأولى والرابعة)⁩
 يقول الشيخ إن النبأ العظيم الذي يختلف فيه الناس هو البعث، ويعدّد آراء الناس فيه (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:23:00} ويفرّق بين كيفية خطاب القرآن للمؤمن والكافر: للمؤمن تقرير، وللكافر توضيح. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:08:30}
 ويعرض حجة البعث بقصة رجل فتّت عظما بالياً ونفخ في الهواء، ثم يجيب بأن من أنشأ الخلق أول مرة قادر على إعادته (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:07:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:08:00}
 ويذكر أن الجبال ترى ساكنة وهي تسير، ويتكلم عن يوم تُبدَّل فيه الأرض غير الأرض، دون أن يسمي الآية (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:51:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:58:00}
 ويروي عن صحابي سأل عن الجبال المتحركة، والرواية مبتورة في التسجيل (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:51:30}
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 1)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 1)⁩
 يقول الشيخ إن العبد المؤمن الصادق في علاقته مع الله يتساءل عن الآخرة ويستعد لها، ويربط ذلك بالسؤال الذي تفتتح به السورة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:22:00}.
 
 ويروي قولا مأثورا مفاده أنه لو نادى منادٍ أن الناس كلهم في الجنة إلا واحدا لخشي كل إنسان أن يكون هو ذلك الواحد (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:24:00}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 2)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 2)⁩
 يقول الشيخ إن الآخرة ينبغي أن تحضر عند صلاة الظهر وصلاة العشاء قبل النوم، لأنها تدفع الإنسان إلى أن يتوقف ويراجع ويحاسب نفسه، ويذكّر بأن جوارح العبد تعمل بأمر قلبه، فالقلب كالعضو المنتدب أو الرئيس {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:01:30}.
 
 ويشرح أن يوم الفصل بين الناس ميقات محدد لأخذ الحقوق وإعطائها، ويقول إنه لو تعامل كل واحد مع الآخرين وهو يتصور يوم الفصل لتوقف وراجع نفسه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:11:30}.
 
 ويدعو المستمع إلى أن يرجع إلى بيته ويجلس مع نفسه ويحصي حقوق الناس عليه وحقوق الله، وأن يبدأ بحقوق الله من اليوم، ومنها الصلاة قبل النوم {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:12:00}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 3)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 3)⁩
 يتناول الشيخ مسألة عمر الإنسان قياسا بالمخلوقات التي تخدمه، ويجيب بأن جزء عمّ يبيّن أن الجبال تسير يوم القيامة، فتنتهي هذه المخلوقات، فيكون عمر الإنسان المخدوم عند الله أطول من عمر ما يراه من حوله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:03:00}. وتنتهي كذلك كل هذه الخدم يوم تُبدَّل الأرض والسماوات، ويبقى المخدوم منعما في الخلد بمشيئة الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:03:30}.
 
 ويقول إن يوم الفصل جاء بعد ذكر النعم التسعة التي وردت في سورة النبأ [[passage/quran-78-17|النبأ 17]]، ويبين أن الفصل يكون بين الحق والباطل، وبين الثواب والعقاب، وبين المحسنين والمجرمين {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:14:30}.
@@ -40,7 +40,7 @@ translators: []
 
 ويقول إن الناس يخرجون يوم يُنفخ في الصور أفواجا، وإن كل أمة تتبع إمامها، فيتبع أتباع نوح نوحا ويتبع أتباع إبراهيم إبراهيم {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:36:00}. ويضيف أن كل أمة لها إمام يسير أمامها، وأن السماء تُفتح وتُبدَّل الأرض والسماوات {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:36:30}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 4)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 4)⁩
 يطلب الشيخ من الله أن يفتح لنا بابي الهداية، هداية الدلالة وهداية المعونة، ثم يعود إلى سورة النبأ عند قوله عن انفتاح السماء [[passage/quran-78-19|النبأ 19]]، ويقول إن هذه من مشاهد يوم القيامة، وإن من درسها يكون مستعدا لها {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:10:00}.
 
 ويشبّه من لم يدرس مشاهد الآخرة بقروي يُنقل فجأة إلى عاصمة ضخمة، فلا يستطيع عبور الطريق وسط السيارات والأضواء، بخلاف من اعتاد ذلك {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:10:30}.
@@ -69,10 +69,10 @@ translators: []
 
 ويروي طرفة عن رجل خرج بعد صلاة العصر فوجد جمعا من الناس مجتمعين، فدخل بدافع الفضول الذي يراه الشيخ سمة في العرب، فإذا براقصة مشهورة أدركها الزلزال وهي في أحد الطوابق، والحكاية مبتورة في التسجيل (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:18:00}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 6)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 6)⁩
 ويروي الشيخ في وصف ذبح الموت بين الجنة والنار أن الناس كلها كانت تخاف من نهاية الحياة بالموت، ورمزه الذبح، ثم ينادي المنادي: يا أهل الجنة خلود بلا موت، ويا أهل النار خلود بلا موت، فيزداد أهل الجنة فرحا ويزداد أهل النار غما وحزنا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:23:30}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 7)⁩
 يقول الشيخ إن كتاب الحسنات والسيئات الذي يتسلمه الإنسان يوم القيامة يكون بخط يده، ويشبّهه بمن يوقّع إقرارا يذكر فيه اسمه وما أوصى به ثم يضع التوقيع والتاريخ، ويتساءل من الذي كتب هذا الكلام {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:48:00}.
 
 فيصير الإنسان شاهدا على نفسه بما قدمت يداه، وكأنه كتب بيده ما صنع في الدنيا، والكتاب لا يترك صغيرة ولا كبيرة إلا أحصاها، والله لا يظلم أحدا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:48:30}.
@@ -96,12 +96,12 @@ translators: []
 ويقول إن الله يأمر الحيوانات والطيور والحشرات والهوام بعد أن يقتص لبعضها من بعض أن تكون ترابا فتكون ترابا، فيتمنى الكافر يومئذ أن يكون ترابا، ويسأل الله النجاة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:54:00}.
 
 ::perspectives
-- **أهل السنة (لم يُسنَد بعد)**: لم يُنسب بعد موقف أهل السنة في عدد الموازين.
-- **رأي الشيخ عمر عبد الكافي (رأي شخصي)**: يذكر الشيخ أن في مسألة الميزان، أهو واحد أم موازين، آراء كثيرة، ولا يدخل في تفاصيلها {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:49:00}.
-- **رأي أكاديمي أو آراء أخرى (لم يُسنَد بعد)**: لم تُنسب بعد الآراء الأكاديمية وغيرها.
+- **أهل السنة ⁦(لم يُسنَد بعد)⁩**: لم يُنسب بعد موقف أهل السنة في عدد الموازين.
+- **رأي الشيخ عمر عبد الكافي ⁦(رأي شخصي)⁩**: يذكر الشيخ أن في مسألة الميزان، أهو واحد أم موازين، آراء كثيرة، ولا يدخل في تفاصيلها {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:49:00}.
+- **رأي أكاديمي أو آراء أخرى ⁦(لم يُسنَد بعد)⁩**: لم تُنسب بعد الآراء الأكاديمية وغيرها.
 :::
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 9)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 9)⁩
 ويذكر الشيخ النفخة الثانية، فإذا الناس قيام ينظرون، وتُعاد الأرواح إلى الأبدان {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:52:30}.
 
 ويقول إن كل ابن آدم يفنى إلا عجب الذنب، وإن الناس يُبعثون على صورة أبيهم آدم طولا ستين ذراعا، ويقدّر الشيخ ذلك بما بين عشرة وخمسة عشر مترا (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:53:00}.
@@ -112,7 +112,7 @@ translators: []
 
 ويصف الأرض الجديدة بأنها كالفضة المذابة لا حفرة فيها ولا تلّ عال، أرض لم تُرتكب عليها معصية قط ولا سُفكت عليها دماء ولا وقع عليها ظلم، ثم يتجه الناس أول ما يتجهون إلى آدم حيث تبدأ مسألة الشفاعة وبداية الحساب {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:56:00}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 10)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 10)⁩
 يذكر الشيخ أن درس اليوم في سورة الأعراف تناول النداءات المختلفة بين أصحاب الجنة وأصحاب النار وأصحاب الأعراف، ثم ينتقل بنا إلى الدار الآخرة مع سورة النازعات {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:03:00}.
 
 ويقول إن الناس ينقسمون يومئذ إلى أقسام ثلاثة، وإن قسما منهم واضح أنه سبقت له من الله الحسنى فيدخل الجنة برحمة الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:03:30}.
@@ -120,7 +120,7 @@ translators: []
 ويذكر أن النبي نفسه قال إنه لن يدخل الجنة بعمله إلا أن يتغمده الله برحمته، ويصف القسم الثاني بأنهم أصحاب النار {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:05:30}.
 
 ## في برنامج الشعراوي «في رحاب الحديث القدسي»
-**شهادة الجوارح.** في الحلقة الأولى يقول [[person/muhammad-mutawalli-al-shaarawi|الشعراوي]] إن الجوارح كلها ستشهد، وإنها في الدنيا مسخّرة لإرادة صاحبها، ثم تشهد عليه يوم القيامة. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:22:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:22:30} ويرى أن السمع والبصر لهما جلد أيضاً، فدخلت شهادتهما في شهادة الجلود، ولذلك خاطب المكذبون جلودهم. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:23:00} وعنده أن الجوارح لا تُحاسب لأنها عباد طائعون، وأن العذاب للنفس الواعية، بدليل أن المتألم إذا نام زال ألمه، وأن نائمين على فراش واحد قد يرى أحدهما أنه يُضرب والآخر أنه في وليمة. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:24:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:25:00} ويقرن مقدّم البرنامج الحديث بآيات سورة فصلت ([[passage/quran-41-20|فصلت 20]]) وسورة يس ([[passage/quran-36-65|يس 65]]). {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:12:30} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:20:00}
+**شهادة الجوارح.** في الحلقة الأولى يقول [[person/muhammad-mutawalli-al-shaarawi|الشعراوي]] إن الجوارح كلها ستشهد، وإنها في الدنيا مسخّرة لإرادة صاحبها، ثم تشهد عليه يوم القيامة. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:22:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:22:30} ويرى أن السمع والبصر لهما جلد أيضاً، فدخلت شهادتهما في شهادة الجلود، ولذلك خاطب المكذبون جلودهم. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:23:00} وعنده أن الجوارح لا تُحاسب لأنها عباد طائعون، وأن العذاب للنفس الواعية، بدليل أن المتألم إذا نام زال ألمه، وأن نائمين على فراش واحد قد يرى أحدهما أنه يُضرب والآخر أنه في وليمة. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:24:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:25:00} ويقرن مقدّم البرنامج الحديث بآيات سورة فصلت ⁦([[passage/quran-41-20|فصلت 20]])⁩ وسورة يس ⁦([[passage/quran-36-65|يس 65]])⁩. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:12:30} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:20:00}
 
 **ذبح الموت والزمن.** في الحلقة الخامسة عشرة يقول الشعراوي إن الناس جميعاً يكرهون الموت: صاحب الشهوة لأنه يريد دوام لذته، والطائع لأنه يريد زمناً أطول للعمل. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep15 00:14:30} ويرى أن ذبح الموت يطمئن كل فريق إلى خلوده، ويدل على أن المعاني قد تُعطى صوراً محسوسة، وعلى أنه لا زمن في الآخرة. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep15 00:16:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep15 00:16:30} ويقول إن الزمن مشتق من الأحداث، فلا زمن بلا حدث، ولذلك ظن أهل الكهف والذي مرّ على القرية أنهم لم يمكثوا إلا مدة يسيرة، ويستشهد بقصة المارّ على القرية في [[passage/quran-2-259|البقرة 259]]. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep15 00:17:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep15 00:17:30}
 

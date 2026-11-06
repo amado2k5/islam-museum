@@ -7,7 +7,7 @@ translators: []
 
 # عبد الله واد
 
-عبد الله واد (وُلد في 29 مايو 1926) سياسي سنغالي من كيبيمير، مؤسس الحزب الديمقراطي السنغالي وقائده التاريخي، ورئيس السنغال الثالث من 2000 إلى 2012.{cite:source/wikipedia-abdoulaye-wade-ar}{cite:source/wikipedia-abdoulaye-wade-fr}
+عبد الله واد ⁦(وُلد في 29 مايو 1926)⁩ سياسي سنغالي من كيبيمير، مؤسس الحزب الديمقراطي السنغالي وقائده التاريخي، ورئيس السنغال الثالث من 2000 إلى 2012.{cite:source/wikipedia-abdoulaye-wade-ar}{cite:source/wikipedia-abdoulaye-wade-fr}
 
 ## محامٍ ومعلّم وزعيم معارضة
 

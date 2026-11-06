@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.858–860" }
 ---
 ## موجز
-رابعة بنت إسماعيل من عابدات الشام، زوجة [[person/ahmad-ibn-abi-al-hawari|أحمد بن أبي الحواري]]، يترجم لها ابن الجوزي في [[work/sifat-al-safwa|صفة الصفوة]] (الترجمة 823)، وأكثر أخبارها عن زوجها. {cite:sifat-al-safwa-tartusi-2012 p.858} {cite:sifat-al-safwa-tartusi-2012 p.859} ويحيل المحقق في ترجمتها إلى «المنتظم» لابن الجوزي تحت سنة 229هـ. {cite:sifat-al-safwa-tartusi-2012 p.858}
+رابعة بنت إسماعيل من عابدات الشام، زوجة [[person/ahmad-ibn-abi-al-hawari|أحمد بن أبي الحواري]]، يترجم لها ابن الجوزي في [[work/sifat-al-safwa|صفة الصفوة]] ⁦(الترجمة 823)⁩، وأكثر أخبارها عن زوجها. {cite:sifat-al-safwa-tartusi-2012 p.858} {cite:sifat-al-safwa-tartusi-2012 p.859} ويحيل المحقق في ترجمتها إلى «المنتظم» لابن الجوزي تحت سنة 229هـ. {cite:sifat-al-safwa-tartusi-2012 p.858}
 
 ## بين رابعتين
 يذكر ابن الجوزي أن ابن أبي الدنيا نسبها هكذا، وأن أبا عبد الرحمن السلمي ذكر أن [[person/rabia-al-adawiyya|رابعة العدوية]] تشاركها في اسمها واسم أبيها؛ ثم ينقل أن عموم ما يأتي في الحديث عن زوجة أحمد أنها «رايعة» بالياء، وأن العدوية بصرية وهذه شامية، وعن أبي الغنائم النرسي: رابعة بالباء بصرية، ورايعة بالياء باثنتين من تحتها شامية. {cite:sifat-al-safwa-tartusi-2012 p.858} {cite:sifat-al-safwa-tartusi-2012 p.859}

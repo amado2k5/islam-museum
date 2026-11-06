@@ -11,7 +11,7 @@ translators: []
 ينقل الشعراوي أن بني إسرائيل اعترضوا على تولية طالوت لأنه لم يكن من الأشراف ولا عنده سعة من المال، فجاء الجواب بأن الله اصطفاه وأعطاه سعة في العلم والجسم. ويرى أن الاختيار على أساس الحكمة والكفاءة لا على أساس القرابة أو الجاه {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1046} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1047}. وفي تعليله، أن قوم طالوت بحثوا عن صحيفة نسبه فلم يجدوه من نسل النبوة ولا من نسل الملك {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1046}.
 
 ## الآية بالآية الدالة على الملك
-جعل الله علامة ملكه أن يأتيهم التابوت، وفيه سكينة (انظر [[concept/sacred-relics-and-sakina|التابوت والسكينة]]) {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1048}.
+جعل الله علامة ملكه أن يأتيهم التابوت، وفيه سكينة ⁦(انظر [[concept/sacred-relics-and-sakina|التابوت والسكينة]])⁩ {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1048}.
 
 ## الاختبار بالنهر
 يذكر الشعراوي أن طالوت اختبر جنوده بنهر، فمن شرب منه كثيرا خرج من الجند، ومن اغترف غرفة بيده بقي، فشرب أكثرهم ولم يبق إلا القليل {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1052} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1053} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1054}. ويرى أن الابتلاء اختبار وليس عقوبة، وأن الغرفة الواحدة تكفي لاستبقاء الحياة، فهي من ضرورات القتال {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1054}. وقد قام بالمهمة بعد ذلك داود، كما يذكر في الآيات التالية {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1057}.

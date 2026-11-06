@@ -15,4 +15,4 @@ translators: []
 - اللثغة في الطلاق، كأن يقول الزوج لزوجته "أنت تالق" بدل "طالق". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3316}
 
 ## انظر
-(إلجاء) انظر: (إكراه). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3316}
+⁦(إلجاء)⁩ انظر: ⁦(إكراه)⁩. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3316}
