@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: research method
 
+## Invention88 — Hijri-era administrative dating (6 November 2026)
+
+Actual short Britannica Umar biography and Islamic-calendar article read: individual Muslim identification, administrative attribution and639adoption; epoch16July622Julian. Actual Bukhari3934/Sahl report read: arrivalMedina rather than mission/death as reckoning basis, no decree-year/consultation detail supplied by that report. Existing source reused, no new printed-edition page invented.
+
+Actual Abdollahy lunar-Hejri subsection read independently of earlier Jalali reading: traditional16/17/18AH/637–639, earlier reported dated letters, official consultation/Ali proposal/Muharram, actual migrationRabiI versus retrospective year beginning, observational and artificial calendars, different30year leap placements and fiscal/harvest mismatch. Earlier letters, historical sources and their authenticity not independently examined. Its15July622 versus Britannica16July retained as attributed source difference, not silently repaired. Do not equate epoch with actual arrival day, standardization with creation exnihilo or later tabular rules with Umar's policy.
+
+Actual TDV takvim lunar subsection read; downloaded actual printed PDF and extracted attribution: A. Necati Akgur,2010, author at printed490; no invented lunar-subsection pagination. Provides month/year/sighting and later computational context, not proof Umar invented all astronomy. Existing two adoption event records inspected and reused without deleting, blind merging or repairing outside-scope date/location variants.
+
+Actual Commons API/file pages and both downloaded images inspected: PD ancient receipt from ONB papyrus catalogue, current recto Greek/Arabic face with damaged fibres and collection cardG39726(R/V); verso has a short line, not the dated Arabic text. Commons metadata dates25April643. Image contextual early administrative witness, not decree, authenticated full edition, first/oldest claim, proof of first diacritics or independent scribe-Companion identification. Papyri.info challenge left untouched; no access circumvention or reading claim. Madain page read as discovery only; mixed figure caption and priority claims not used. All downloaded PDFs/images/extracts stay outside git.
+
 ## Invention87 — Ibn Sina's seven drug-assessment conditions (6 November 2026)
 
 Actually read original Arabic chapter in harvested Canon vol.1 OCR and inspected both actual printed/scan318–319,1999 Dar al-Kutub al-Ilmiyya edition already defined. Source PDF remains outside git in raw/library; selected images now `inventions/b87-canon-arabic-318.jpg` and319. Second maqalah in Book2's first general division; third maqalah on qiyas follows. All seven conditions read: acquired properties, simple/composite condition, contrary conditions/direct versus incidental benefit, relative power, timing and original continuation, usual consistency, species/body differences. Humoral framework retained; not a modern protocol or an actual case-series dataset.
