@@ -28,16 +28,20 @@ inventions:
     role: improver
     place: place/amid
     sources: [source/tdv-cezeri, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump]
+  - invention: invention/jazari-peacock-washer
+    role: describer
+    place: place/amid
+    sources: [source/tdv-cezeri, source/cleveland-jazari-peacock]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 relations:
   - { type: lived_in, target: place/amid, sources: [source/tdv-cezeri] }
-sources: [source/tdv-cezeri, source/met-elephant-clock-575123, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump]
+sources: [source/tdv-cezeri, source/met-elephant-clock-575123, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump, source/cleveland-jazari-peacock]
 status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
 provenance:
   layer: own-research
   generated_by: "Copilot SDK in VS Code"
   model: "unknown"
   run: "inventions-p3-b16"
-  source: "TDV CEZERÎ pp. 505–506 and Met 57.51.23 metadata/Leoni catalogue entry, read 2026-11-06. No birth/death dates inferred from court-service dates. Extended in inventions-p3-b17 with the pump tie, actual al-Hassani survey and Science Museum model catalogue; their 1205/1206 book-date difference is preserved in prose."
+  source: "TDV CEZERÎ pp. 505–506 and Met 57.51.23 metadata/Leoni catalogue entry, read 2026-11-06. No birth/death dates inferred from court-service dates. Extended in inventions-p3-b17 with the pump tie, actual al-Hassani survey and Science Museum model catalogue; their 1205/1206 book-date difference is preserved in prose. Extended in inventions-p3-b18 with the Cleveland peacock-design tie/prose; construction is explicitly uncertain."

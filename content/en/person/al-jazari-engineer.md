@@ -23,6 +23,8 @@ TDV places him in a tradition extending from Hellenistic engineering to the Banu
 An example is the [[invention/elephant-clock|elephant clock]]. The Met describes the rider and bird moving, a ball passing to a dragon and then a vessel and gong every half hour, and counting balls to determine elapsed time {cite:met-elephant-clock-575123 Catalogue Entry}. Features TDV assigns to another clock or a pump are not transferred to this machine.
 
 ## Surviving texts and images
+Cleveland's folio preserves the [[invention/jazari-peacock-washer|peacock washer design]]: collected water raises a float, releasing a soap-bearing figure and then a towel-bearing one; used water drains through a spigot {cite:cleveland-jazari-peacock verso catalogue}. The museum attributes the book to al-Jazari but explicitly says construction of this device is uncertain. Its leaf is a Syrian copy of 1315, not a surviving machine {cite:cleveland-jazari-peacock recto catalogue}.
+
 Another example is the [[invention/jazari-double-piston-pump|double-piston pump]]: flowing water drives a wheel and gears, with a pin and slotted rod converting rotation into reciprocating piston-rod motion {cite:tdv-cezeri pp. 505–506}. Al-Hassani explains a synchronized pair; the Science Museum holds a half-size model, not an original machine from al-Jazari's lifetime {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}. Al-Hassani gives book completion as 1206, against TDV's 1205. The pump record preserves the difference as a documentary date, not a dated physical installation {cite:fstc-jazari-mechanical-genius biography} {cite:tdv-cezeri pp. 505–506}.
 
 TDV records Donald Hill's complete English translation in 1974 and Ahmad Yusuf al-Hassan's Arabic edition in 1979 using the Bodleian and Istanbul copies {cite:tdv-cezeri pp. 505–506}. These are editions reported by the reference, not primary pages this article claims to have independently read.
@@ -34,3 +36,4 @@ Met folio 57.51.23 preserves the elephant-clock image in a copy by Farrukh ibn A
 - Metropolitan Museum of Art, Elephant Clock, 57.51.23, metadata and Francesca Leoni's catalogue entry. {cite:met-elephant-clock-575123 Catalogue Entry}
 - Salim al-Hassani, “Al-Jazari: The Mechanical Genius”, pump discussion, drawing and model. {cite:fstc-jazari-mechanical-genius pump discussion}
 - Science Museum Group, double-piston pump model, 1976-482. {cite:smg-jazari-double-pump catalogue}
+- Cleveland Museum of Art, peacock washer, 1945.383, recto and verso catalogue entries. {cite:cleveland-jazari-peacock recto and verso catalogues}

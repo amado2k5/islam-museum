@@ -1892,12 +1892,17 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
   - id: al-jazari-hand-washing-automaton
     label: "Al-Jazari's hand-washing automaton"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: mechanics-automata
     era: middle-period
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    records: ["invention/jazari-peacock-washer", "person/al-jazari-engineer", "object/jahiz-tawus", "media/photo-jahiz-tawus", "media/diagram-jazari-peacock-washer", "source/cleveland-jazari-peacock", "source/tdv-cezeri"]
+    lead_sources:
+      - "founder-approved operative brief (2026-11-04) §6.4"
+      - "source/cleveland-jazari-peacock recto and verso catalogues, images and API"
+      - "source/tdv-cezeri pp. 505–506"
+    flags: [narrowed-to-peacock-design, physical-construction-explicitly-uncertain, copy-date-not-invention-date, no-first-soap-or-robot-claim, reused-legacy-folio-id-preserved]
   - id: al-jazari-programmable-musical-boat
     label: "Al-Jazari's programmable musical boat"
     state: "[~]"
@@ -2620,6 +2625,7 @@ candidates:
     era: middle-period
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    flags: [anonymous-maker-unresolved, schema-requires-person-maker]
   - id: museum-record-event-conquest-constantinople-857
     label: "Museum lead for Conquest of Constantinople in 857 AH"
     state: "[~]"

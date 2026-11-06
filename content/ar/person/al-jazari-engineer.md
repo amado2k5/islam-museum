@@ -22,6 +22,8 @@ translators: []
 من أمثلته [[invention/elephant-clock|ساعة الفيل]]: تشرح فهرسة المتروبوليتان حركة الراكب والطائر وانتقال الكرة إلى التنين ثم الإناء والناقوس كل نصف ساعة، وعد الكرات لمعرفة الزمن {cite:met-elephant-clock-575123 Catalogue Entry}. لا يلحق السجل بهذه الآلة كل ما تذكره TDV عن مضخة أو ساعة أخرى.
 
 ## النصوص والصور الباقية
+وتحفظ ورقة كليفلاند تصميم [[invention/jazari-peacock-washer|طاووس غسل اليدين]]: الماء المتجمع يرفع عوامة، فتخرج شخصية بالصابون ثم أخرى بالمنديل، ويصرف المستعمل بصنبور {cite:cleveland-jazari-peacock verso catalogue}. ينسب المتحف الكتاب إلى الجزري، لكنه لا يعرف بيقين هل بنيت هذه الآلة فعلاً؛ الورقة من نسخة سورية سنة 1315م لا من آلة باقية {cite:cleveland-jazari-peacock recto catalogue}.
+
 ومثال آخر [[invention/jazari-double-piston-pump|مضخته ذات المكبسين]]: يدير الماء دولاباً وتروساً، وينقل مسمار وقضيب مشقوق الدوران إلى ذراعي المكبسين ذهاباً وإياباً {cite:tdv-cezeri pp. 505–506}. يشرح الحساني نموذج المضختين المتزامنتين، ويحفظ متحف العلوم نموذجاً نصف الحجم، لا آلة أصلية من حياة الجزري {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}. يعطي الحساني إتمام الكتاب في 1206م، خلاف 1205م عند TDV؛ يحفظ سجل المضخة الفرق بوصفه تاريخاً للشاهد الكتابي، لا تركيب آلة مؤرخاً {cite:fstc-jazari-mechanical-genius biography} {cite:tdv-cezeri pp. 505–506}.
 
 تذكر TDV ترجمة دونالد هيل الإنجليزية الكاملة سنة 1974، والتحقيق العربي لأحمد يوسف الحسن سنة 1979، المعتمد على نسخة بودليان ونسخ إسطنبول {cite:tdv-cezeri pp. 505–506}. وهذه طبعات مذكورة في المرجع، لا صفحات أولية يزعم هذا المقال أنه قرأها مستقلاً.
@@ -33,3 +35,4 @@ translators: []
 - المتروبوليتان، ساعة الفيل، رقم 57.51.23، بيانات القطعة وفهرسة فرانشيسكا ليوني. {cite:met-elephant-clock-575123 Catalogue Entry}
 - سليم الحساني، «Al-Jazari: The Mechanical Genius»، وصف المضخة والرسم والنموذج. {cite:fstc-jazari-mechanical-genius pump discussion}
 - مجموعة متحف العلوم، نموذج المضخة ذات المكبسين، رقم 1976-482. {cite:smg-jazari-double-pump catalogue}
+- متحف كليفلاند، طاووس غسل اليدين، 1945.383، الوجه والظهر. {cite:cleveland-jazari-peacock recto and verso catalogues}
