@@ -18,7 +18,17 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+faith:
+  - value: sunni
+    basis: documented
+    note: "MacTutor explicitly identifies the individual as an Islamic astronomer. Sunni separately retains museum default frame of docs/scope.md and inherited classification,no contrary personal-tradition attestation in sources read;not inference from name,city or Buyid patron,not documented personal madhhab."
+    sources: [source/khujandi-mactutor]
+inventions:
+  - invention: invention/fakhri-sextant-rayy
+    role: inventor
+    note: "Specific monumental solar meridian instrument;quadrant/shamila/spherical sine claims not counted as separate inventions here."
+    sources: [source/van-brummelen-khujandi-bea, source/khujandi-cheikho-1908, source/khujandi-mactutor]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/van-brummelen-khujandi-bea, source/khujandi-cheikho-1908, source/khujandi-mactutor]
 status:
   review: published
   completeness: 3
@@ -28,6 +38,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch53
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b68", source: "Actual BEA/MacTutor and1908 printed Arabic text;original fields/body/attribution retained,individual Muslim identification and distinct museum Sunni default explicit." }
 occupations:
   - job: job/astronomer
     kind: secondary
