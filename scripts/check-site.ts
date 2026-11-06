@@ -1,6 +1,6 @@
 // Build-time assertions on the rendered site (dist/), run after `npm run build` (see site/package.json).
 // Fails on: a Hijri year 0 ("0 هـ"), replacement characters, garbled era marks, footnote links that resolve to nothing,
-// placeholder dates. Warns on empty meta descriptions.
+// placeholder dates, links to a Modern Islam Browser year page that was not built. Warns on empty meta descriptions.
 import { existsSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
@@ -54,10 +54,21 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   if (!existsSync(dist)) { console.error("dist/ not found: run npm run build first"); process.exit(2); }
   const paths = listFiles(dist, ".html").filter((f) => !f.includes("/pagefind/"));
   // One page in memory at a time; only the findings are kept.
+  // Every link to a Modern Islam Browser year page must have that page: the year pages run from the window start to
+  // the build year only, and a future or pre-window year is rendered as text (site/src/lib/modern.ts yearHref).
+  const yearLinks = new Map<string, string>();
   function* pages() {
-    for (const path of paths) yield { path, html: readFileSync(path, "utf8") };
+    for (const path of paths) {
+      const html = readFileSync(path, "utf8");
+      for (const m of html.matchAll(/href="\/(ar|en|ur)\/modern\/year\/(\d+)\/"/g)) {
+        const target = `${m[1]}/modern/year/${m[2]}/index.html`;
+        if (!yearLinks.has(target)) yearLinks.set(target, rel(path));
+      }
+      yield { path, html };
+    }
   }
   const { errors, warns } = scan(pages());
+  for (const [target, from] of yearLinks) if (!existsSync(p("dist", target))) errors.push(`${from}: links to /${target.replace(/index\.html$/, "")}, which has no page`);
   // the teacher pathway landing pages (E2) must be in the sitemap in the three languages: outreach links to them
   const sitemap = listFiles(dist, ".xml").filter((f) => /sitemap/.test(f)).map((f) => readFileSync(f, "utf8")).join("\n");
   for (const f of listFiles(p("data", "exhibit"), ".yaml").filter((f) => /\/pathway-/.test(f))) {

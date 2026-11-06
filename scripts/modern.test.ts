@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import { deriveHonourEdges, type Compiled, type Node } from "./build-graph.js";
 import { modernApiData } from "./export-api.js";
 import { loadEntities, loadPredicates, p, resolvePredicate } from "./lib.js";
-import { inWindow, primaryYear, sectionsOf, SECTION_IDS, yearsOf } from "./modern/sections.js";
+import { decadePageFor, inWindow, primaryYear, sectionsOf, SECTION_IDS, WINDOW_START_YEAR, yearPageFor, yearPageYears, yearsOf } from "./modern/sections.js";
 import { reachIndex, reachScore } from "./modern/reach.js";
 import { lyricProblem, validateAll } from "./validate.js";
 
@@ -210,5 +210,33 @@ describe("Modern Islam Browser: derived edges and API", () => {
     expect(Object.values(empty.sections).every((rows) => rows.length === 0)).toBe(true);
     expect(empty.years.size).toBe(0);
     expect(empty.top.songs).toEqual([]);
+  });
+});
+
+describe("Modern Islam Browser: year links point only at built year pages", () => {
+  const built = yearPageYears(2026);
+  it("builds a page for every year from the window start to the build year", () => {
+    expect(built[0]).toBe(WINDOW_START_YEAR);
+    expect(built.at(-1)).toBe(2026);
+    expect(built).toHaveLength(2026 - WINDOW_START_YEAR + 1);
+  });
+  it("links a year only when it has a page", () => {
+    for (const y of [1976, 2000, 2026]) expect(yearPageFor(y, 2026)).toBe(y);
+    for (const y of [1970, 1975, 2027, 2030, 2034, undefined]) expect(yearPageFor(y, 2026)).toBeUndefined();
+  });
+  it("links a decade chip to its first built year, or not at all", () => {
+    expect(decadePageFor(1970, 2026)).toBe(1976);
+    expect(decadePageFor(2010, 2026)).toBe(2010);
+    expect(decadePageFor(2020, 2026)).toBe(2020);
+    expect(decadePageFor(2030, 2026)).toBeUndefined();
+    expect(decadePageFor(1960, 2026)).toBeUndefined();
+  });
+  it("never yields a year outside the built pages", () => {
+    for (let y = 1900; y <= 2100; y++) {
+      const page = yearPageFor(y, 2026);
+      if (page !== undefined) expect(built).toContain(page);
+      const dec = decadePageFor(Math.floor(y / 10) * 10, 2026);
+      if (dec !== undefined) expect(built).toContain(dec);
+    }
   });
 });

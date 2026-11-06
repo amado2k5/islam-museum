@@ -7,7 +7,7 @@ import ModernList from "../../../../components/ModernList.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
 import { num } from "../../../../lib/nav";
 import {
-  SECTION_IDS, countryName, decadeOf, entriesOf, fieldLabel, fieldOf, FIELD_IDS, kindLabel, sectionLabel, yearText, type ModernEntry,
+  SECTION_IDS, countryName, decadeHref, decadeOf, entriesOf, fieldLabel, fieldOf, FIELD_IDS, kindLabel, sectionLabel, yearText, type ModernEntry,
 } from "../../../../lib/modern";
 
 export function getStaticPaths() {
@@ -53,7 +53,7 @@ const compact = entries.length > 300;
         {decades.length > 0 && (
           <section class="panel ui" aria-labelledby="decades-title">
             <h2 id="decades-title" style="font-size:1rem;margin:0 0 8px">{M.by_decade}</h2>
-            <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">{decades.map(([d, n]) => <li><a class="chip" href={`${base}/year/${d}/`}>{yearText(Number(d), lang)}s <span class="muted">{count(n)}</span></a></li>)}</ul>
+            <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">{decades.map(([d, n]) => { const to = decadeHref(lang, Number(d)); return <li>{to ? <a class="chip" href={to}>{yearText(Number(d), lang)}s <span class="muted">{count(n)}</span></a> : <span class="chip">{yearText(Number(d), lang)}s <span class="muted">{count(n)}</span></span>}</li>; })}</ul>
           </section>
         )}
         {countries.length > 0 && (
