@@ -7,7 +7,7 @@ translators: []
 ## موجز
 الكرم عند الشيخ عمر عبد الكافي أن يعطي المرء فلا يسأل لمن أعطى ولا كم أعطى {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:13:00}. ويرى أن هذا المعنى لا ينطبق على الحقيقة إلا على الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:14:00}، الذي يرزق الجميع ويُبقي لهم الشمس والمطر والهواء {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:15:00}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 08)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 08)⁩
 
 يعرّف الشيخ الكريم الحقيقي بأنه الذي إذا أعطى لم يسأل: لمن أعطى ولا كم أعطى {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:13:00}.
 

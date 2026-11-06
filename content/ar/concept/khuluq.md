@@ -20,7 +20,7 @@ translators: []
 
 ## من درس الشيخ عمر عبد الكافي: الدين القيم
 
-يقول الشيخ إن الإنسان يُعرف بخلقه، فيُنظر إلى جيرانه في الحضر، ورفقائه في السفر، ومعامليه في الأسواق {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:05:00}. ويذكر أن السفر مشتق من الإسفار، وأن الخلق يظهر في السفر (needs_source: الاشتقاق) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:06:00}.
+يقول الشيخ إن الإنسان يُعرف بخلقه، فيُنظر إلى جيرانه في الحضر، ورفقائه في السفر، ومعامليه في الأسواق {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:05:00}. ويذكر أن السفر مشتق من الإسفار، وأن الخلق يظهر في السفر ⁦(needs_source: الاشتقاق)⁩ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:06:00}.
 
 ويرى الشيخ، وهذا رأي شخصي له، أن فصل الاقتصاد والفن والشعر والأدب عن الدين أدى إلى قلة الأدب والانحراف في السلوك والغيبة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:52:00}، وأن الأمة فقدت هويتها في خلقها وسلوكها {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:11:30}.
 
