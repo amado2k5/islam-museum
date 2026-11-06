@@ -16,5 +16,18 @@ provenance:
   source: "كشف الظنون عن أسامي الكتب والفنون (ط. الفرقان 2004) ج1"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-zunun-batch-6, lib-durar-kamina-batch-3-2026-10-31
-sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993]
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b64", source: "Actual Roberts1957, King BEA and Dizer TDV. Original record/prose/attribution retained; lunar contribution appended, dates not silently adjudicated." }
+inventions:
+  - invention: invention/ibn-al-shatir-lunar-model
+    role: improver
+    note: "Bounded Earth-centred lunar configuration, not all astronomy or heliocentrism."
+    sources: [source/roberts-shatir-1957, source/king-ibn-shatir-bea]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "King explicitly identifies Ibn al-Shatir as Muslim and head muwaqqit; Sunni separately museum default, not evidence of personal madhhab. No inference from name, city or employer."
+    sources: [source/king-ibn-shatir-bea]
+sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993, source/roberts-shatir-1957, source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

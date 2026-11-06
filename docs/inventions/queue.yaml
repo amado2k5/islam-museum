@@ -1125,12 +1125,15 @@ candidates:
     note: "D-066: independent two-plate improvement after Ibn al-Samh; invention/equatorium-al-zarqali, distinct from universal astrolabe. No Kepler-law priority or exact construction city."
   - id: ibn-al-shatir-planetary-models
     label: "Ibn al-Shatir's planetary models"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: astronomy-instruments
     era: middle-period
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    invention: invention/ibn-al-shatir-lunar-model
+    records: [person/ibn-al-shatir, work/nihayat-sul-ibn-shatir, source/roberts-shatir-1957, source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer]
+    flags: [completed-D105-b64-bounded-lunar-contribution, no-extra-count-for-all-planetary-models, no-heliocentrism-claim, manuscript-not-directly-read, copy-date-not-invention-date, actual-Roberts431-432-visually-checked, TDV43-50-versus-Roberts54-50-disagreement-retained, normalized-units-not-kilometres, modern-radii-arithmetic-not-full-ephemeris, transmission-readings-attributed-no-invented-route, explicit-individual-Muslim-basis-separate-Sunni-default, original-maker-and-535-other-leads-preserved, PD-context-image-not-historical-circles]
   - id: ibn-al-shatir-tusi-couple-transmission
     label: "Ibn al-Shatir's adoption of the Tusi couple"
     state: "[~]"
