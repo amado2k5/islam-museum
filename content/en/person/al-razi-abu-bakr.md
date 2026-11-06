@@ -2,9 +2,9 @@
 id: person/al-razi-abu-bakr
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code, clinical/identity extension from Arabic", "Copilot SDK in VS Code, classification extension from Arabic"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code, clinical/identity extension from Arabic", "Copilot SDK in VS Code, classification extension from Arabic", "Copilot SDK in VS Code, patient-group comparison appendix from Arabic"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "Selected Greenhill1848, Britannica/Kaya/Adamson; original Devin record and Haiku translation attribution preserved", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "Classification extension from Arabic1–3/Ferrario selected24–30; previous prose retained" }] }
+provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "Selected Greenhill1848, Britannica/Kaya/Adamson; original Devin record and Haiku translation attribution preserved", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "Classification extension from Arabic1–3/Ferrario selected24–30; previous prose retained" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b53", source: "Patient-group comparison appendix from Arabic/Pormann2013/Tibi; all earlier prose/identity/attribution retained, no uninspected-primary or clinical-validation claim" }] }
 ---
 ## Overview
 Abu Bakr Muhammad ibn Zakariya al-Razi, philosopher and physician, author of the "al-Mansuri" on medicine. {cite:muruj-al-dhahab p. 547}
@@ -47,3 +47,11 @@ Of his works: near two hundred books; al-Hawi fi al-Tibb — the encyclopaedia t
 Of al-Jami' al-Kabir: he worked on it fifteen years night and day until his sight weakened and his hand's muscles failed — then hired a reader and a scribe {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:19:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:20:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:20:30}.
 In optics: he refuted Euclid's emission theory — light passes from the seen object to the eye — some seven centuries before Ibn al-Haytham (the speaker's claim) {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:22:00}.
 The old woman's tale: told 'this is al-Razi, who has a thousand proofs of God's existence', she said 'had he not a thousand doubts he'd not need a thousand proofs' — and he exclaimed 'O God, grant me the faith of old women' {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:23:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:23:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:24:00}.
+
+## Patient groups and uncertainty
+
+The [[invention/razi-patient-group-comparison|reported patient-group comparison]] in a translated *Hawi* excerpt describes intentional comparison of a group receiving an intervention with another not receiving it. Tibi reads this as evidence of comparison's principle, not sufficient grounds for recommending treatment. Pormann identifies a control group while noting the absence of a separate theoretical account of the group concept {cite:tibi-razi-comparison-jll comparison-and-conclusion} {cite:razi-pormann-uncertainty-2013 p.371}.
+
+The approximate300 of2000 in a *Doubts about Galen* passage concerns courses contrary to expectation, not automatically the comparison's patients or a cure rate. The15% ratio is modern arithmetic on an approximate count, not efficacy or mortality. A difficult text's three cases and another outcome do not become a verified four-person trial {cite:razi-pormann-uncertainty-2013 pp.371–372}.
+
+The read evidence is a selected translation, commentary and2013 paper, not an inspected Arabic original or the complete primary works. The Hyderabad volumeI/15, page122 discrepancy remains visible pending collation. This addition does not retrospectively certify monkey-experiment or universal-priority claims in the preceding programme account: they remain the speaker's claims, and disputed identity remains without a museum verdict. No treatment instructions or reenactment {cite:tibi-razi-comparison-jll references} {cite:razi-pormann-uncertainty-2013 introduction}.
