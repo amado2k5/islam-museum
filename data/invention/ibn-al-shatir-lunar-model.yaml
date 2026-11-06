@@ -1,0 +1,83 @@
+id: invention/ibn-al-shatir-lunar-model
+class: invention
+label: { ar: "نموذج ابن الشاطر القمري بفلكي تدوير", en: "Ibn al-Shatir's double-epicycle lunar model", ur: "ابن شاطر کا دو تدويری دائروں والا قمری نمونہ" }
+names:
+  - { kind: alternate, lang: en, value: "Earth-centred double-epicycle Moon" }
+summary:
+  ar: "نموذج أرضي المركز يقلل تضخم تغير مسافة القمر؛ التشابه مع كوبرنيكوس ليس طريق انتقال موثقاً {cite:roberts-shatir-1957 pp428,431–432}."
+  en: "Earth-centred model reducing exaggerated lunar-distance variation; Copernican similarity is not a documented transmission route {cite:roberts-shatir-1957 pp428,431–432}."
+  ur: "زمین مرکزی نمونہ جو قمری فاصلے کے مبالغہ آمیز تغیر کو گھٹاتا؛ کوپرنیکس سے مشابہت مصدقہ راستۂ انتقال نہیں {cite:roberts-shatir-1957 pp428,431–432}۔"
+domain: astronomy-instruments
+kind: method
+disciplines: [astronomy, mathematics]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "../1366"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Open latest bound from Roberts's reported Marsh139 copy768AH/1366, not exact invention/composition date, independently converted Hijri date or museum manuscript inspection."
+    sources: [source/roberts-shatir-1957]
+  status_today: transformed
+origin:
+  place: place/damascus
+  context:
+    ar: "سياق عمل ابن الشاطر الدمشقي، لا موضع مكتبي دقيق أو ليلة اكتشاف محددة {cite:king-ibn-shatir-bea biography}."
+    en: "Ibn al-Shatir's Damascene working setting, not an exact desk or discovery night {cite:king-ibn-shatir-bea biography}."
+    ur: "ابن شاطر کے دمشقی کام کا سیاق، عین میز یا راتِ دریافت نہیں {cite:king-ibn-shatir-bea biography}۔"
+makers:
+  - person: person/ibn-al-shatir
+    role: improver
+    note: "Specific lunar configuration, not invention of all circles/astronomy. King explicitly identifies Muslim individual; Sunni is separate default museum frame, not personal school testimony."
+    sources: [source/roberts-shatir-1957, source/king-ibn-shatir-bea]
+attribution:
+  status: improvement
+  claim:
+    ar: "إعادة تركيب حركة القمر بفلكي تدوير لتقليل تغير المسافة المبالغ فيه."
+    en: "Reconfigured lunar motion with two epicycles to reduce exaggerated distance variation."
+    ur: "فاصلے کا مبالغہ کم کرنے کے لیے دو تدويری دائروں سے قمری حرکت کی نئی ترکیب۔"
+  basis:
+    ar: "روبرتس يدرس الشاهد ويقارن النموذج؛ كينغ يميز فائدته القمرية عن الحالات الأخرى {cite:roberts-shatir-1957 pp428,431–432} {cite:king-ibn-shatir-bea planetary-theory}."
+    en: "Roberts analyses the witness and compares the model; King distinguishes lunar benefit from other cases {cite:roberts-shatir-1957 pp428,431–432} {cite:king-ibn-shatir-bea planetary-theory}."
+    ur: "رابرٹس نسخے اور نمونے کا تجزیہ کرتے؛ کنگ قمری فائدہ دیگر صورتوں سے الگ کرتے ہیں {cite:roberts-shatir-1957 pp428,431–432} {cite:king-ibn-shatir-bea planetary-theory}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "النظرية القمرية البطلمية ونقدها الفلكي اللاحق", en: "Ptolemaic lunar theory and later astronomical criticism", ur: "بطلمیوسی قمری نظریہ اور بعد کی فلکی تنقید" }
+    note: "Inherited problems/circular modelling and Maragha inspirations, not common sect affiliation or proof every detail was borrowed."
+    sources: [source/roberts-shatir-1957, source/king-ibn-shatir-bea]
+dependents:
+  - external: { ar: "مقارنة نموذج كوبرنيكوس القمري", en: "Comparison with Copernicus's lunar model", ur: "کوپرنیکس کے قمری نمونے سے تقابل" }
+    note: "Comparative entry, not asserted causal graph edge. Roberts1957 leaves transmission unresolved; King later argues some transmission, no route established here."
+    sources: [source/roberts-shatir-1957, source/king-ibn-shatir-bea]
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics]
+  changed:
+    ar: "إصلاح محدد لمسافة القمر، لا قياس حديث معتمد أو دليل مركزية الشمس {cite:roberts-shatir-1957 pp431–432}."
+    en: "Specific lunar-distance improvement, not certified modern measurement or evidence of heliocentrism {cite:roberts-shatir-1957 pp431–432}."
+    ur: "قمری فاصلے کی خاص بہتری، مصدقہ جدید پیمائش یا مرکزیتِ شمس کا ثبوت نہیں {cite:roberts-shatir-1957 pp431–432}۔"
+  history:
+    ar: "أعادت الدراسات الحديثة وضع النموذج في تاريخ الفلك المقارن مع بقاء سؤال طريق الانتقال {cite:roberts-shatir-1957 p432} {cite:king-ibn-shatir-bea reception}."
+    en: "Modern studies restored the model to comparative astronomy history while the transmission route remains a question {cite:roberts-shatir-1957 p432} {cite:king-ibn-shatir-bea reception}."
+    ur: "جدید مطالعے نمونے کو تقابلی فلکی تاریخ میں لائے جبکہ راستۂ انتقال سوال ہے {cite:roberts-shatir-1957 p432} {cite:king-ibn-shatir-bea reception}۔"
+  significance: 3
+  why: "Distinct lunar improvement documented by manuscript-based scholarship, with explicit numeric/source and transmission limits."
+described_in: [work/nihayat-sul-ibn-shatir]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "تاريخ النمذجة والحساب التعليمي.", en: "Modelling history and teaching calculations.", ur: "نمونہ سازی کی تاریخ اور تدریسی حساب۔" }
+  descendants: { ar: "لا نسب مثبت إلى كل حساب قمري حديث.", en: "No established genealogy to every modern lunar calculation.", ur: "ہر جدید قمری حساب تک ثابت نسب نہیں۔" }
+media: { image: media/shatir-lunar-distance-context, diagram: media/diagram-shatir-lunar-model }
+kids:
+  ar: "اجمع طولي سهمين ورقيين متعاكسين ومتوافقين؛ لا تنظر إلى الشمس."
+  en: "Compare two paper arrows opposed and aligned; never look at the Sun."
+  ur: "کاغذ کے دو تیر مخالف اور ایک رخ میں رکھ کر جمع کریں؛ سورج کو نہ دیکھیں۔"
+sources: [source/roberts-shatir-1957, source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer, source/commons-apogee-psf, source/durar-kamina-jil-1993, source/kashf-zunun-furqan]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b64", source: "Actual complete Roberts/King/Dizer, printed431–432 visually inspected and PD context image verified. No primary manuscript reading or complete ephemeris replication; modern radius arithmetic independently checked." }
