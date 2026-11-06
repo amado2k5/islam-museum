@@ -22,6 +22,6 @@ Report 10733, from Mujahid: the hypocrites. Report 10734, from Mujahid through S
 
 As for the closing words, al-Tabari says it means whoever God forsakes from the right path, which is the Islam to which He called His servants; there is for him no other way to the truth, and God has said that whoever seeks a religion other than Islam, it will not be accepted from him. {cite:tafsir-tabari-shakir-v09 p. 335}
 
-The reports on verse 143 end at p. 335; we continue with verse 144. {cite:tafsir-tabari-shakir-v09 p. 335}
+The reports on verse 143 end at p. 335; verse 144 begins on p. 336. {cite:tafsir-tabari-shakir-v09 p. 335}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
