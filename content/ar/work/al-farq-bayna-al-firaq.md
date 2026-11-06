@@ -8,7 +8,7 @@ status:
 provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "farq-bayn-al-firaq-khisht-ibn-sina pp. 1, 5, 7-10, 23-25, 28-29, 271-274" }
 ---
 ## موجز
-«الفرق بين الفرق وبيان الفرقة الناجية منهم» كتاب في الفرق والمقالات لأبي منصور [[person/al-baghdadi-abd-al-qahir-ibn-tahir|عبد القاهر بن طاهر بن محمد البغدادي]] (ت 429هـ/1037م). {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 1} ويذكر محققه محمد عثمان الخشت أن البغدادي أشعري النسب العلمي، إذ أخذ عن أبي إسحاق الإسفراييني الذي أخذ عن أبي الحسن الباهلي عن [[person/al-ashari|أبي الحسن الأشعري]]. {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 7}
+«الفرق بين الفرق وبيان الفرقة الناجية منهم» كتاب في الفرق والمقالات لأبي منصور [[person/al-baghdadi-abd-al-qahir-ibn-tahir|عبد القاهر بن طاهر بن محمد البغدادي]] ⁦(ت 429هـ/1037م)⁩. {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 1} ويذكر محققه محمد عثمان الخشت أن البغدادي أشعري النسب العلمي، إذ أخذ عن أبي إسحاق الإسفراييني الذي أخذ عن أبي الحسن الباهلي عن [[person/al-ashari|أبي الحسن الأشعري]]. {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 7}
 
 ## سبب تأليفه
 يقول المحقق إن البغدادي يصرح في مطلع الكتاب بأنه ألّفه استجابة لتلاميذه الذين طلبوا منه شرح حديث افتراق الأمة، وأن يبين لهم الفروق بين الفرق ومعالم الفرقة الناجية، وأنه رأى ذلك واجباً ليتميز الدين القويم عن «أهواء الفرق الضالة» على حد تعبيره. {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 8} وانظر: [[concept/al-iftiraq-al-ummah|افتراق الأمة]].

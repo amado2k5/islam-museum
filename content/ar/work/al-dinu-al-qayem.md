@@ -109,7 +109,7 @@ translators: []
 
 ### الحلقة 10
 - [[event/battle-of-uhud|غزوة أحد]] {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:02:00}
-- [[event/battle-of-the-trench|غزوة الأحزاب (الخندق)]] {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:14:30}
+- [[event/battle-of-the-trench|غزوة الأحزاب ⁦(الخندق)⁩]] {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:14:30}
 - [[event/death-of-umar|وفاة عمر بن الخطاب]] {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:43:00}
 
 ### الحلقة 11
