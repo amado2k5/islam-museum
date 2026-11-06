@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: ibn-baytar-comparative-materia-medica
+    label: "Ibn al-Baytar's comparative identification and source criticism in the Jami"
+    state: "[x]"
+    batch: 2
+    domain: pharmacy-chemistry
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/ibn-al-baytar", "work/al-mufradat-ibn-baytar", "source/tdv-ibn-baytar-kaya", "source/tdv-mufradat-kaya", "source/iranica-ibn-baytar"]
+    invention: invention/ibn-baytar-comparative-materia-medica
+    lead_sources:
+      - "Actual complete Mahmut Kaya TDV biography and work entries, actual biography byline checked; actual Iranica article body"
+      - "Actual Commons description/history/PD-old and inspected current later rosemary plate, contextual only"
+    flags: [completed-D100-b59, comparative-improvement-not-first-botany, simples-not-pure-chemicals, 2353-entries-not-species, 1422-materials-plus931-synonyms, animal-mineral-not-only-plants, preface-reported-not-primary-read, no-modern-trial-or-efficacy-proof, persian-errors-and-copyists-visible, no-universal-priority, uncertain-birth-and-inferred-itinerary, documented-personal-religious-education, separate-default-sunni-frame, existing-maker-work-and-attribution-preserved, no-silent-identity-merge, later-botanical-context-not-manuscript, no-recipes-doses-collecting-or-treatment]
   - id: ibn-yunus-solar-time-tables
     label: "Ibn Yunus's bounded contribution to Cairo's solar-time table corpus"
     state: "[x]"

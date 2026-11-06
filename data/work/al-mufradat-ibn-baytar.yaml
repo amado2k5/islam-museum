@@ -13,5 +13,7 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج5، سنة 646)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-48
-sources: [source/shadharat-dhahab]
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b59", source: "Sourced trilingual structure/method/reception extension preserving original summary/authorship/attribution/status and prose; authorial preface reported through Kaya, not newly read." }
+sources: [source/shadharat-dhahab, source/tdv-mufradat-kaya, source/tdv-ibn-baytar-kaya, source/iranica-ibn-baytar]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
