@@ -3,6 +3,8 @@ id: person/al-zahrawi
 lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code (model unknown), from Arabic"]
+status: { review: published }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "Batch22 biography/sources preserved; added only intestinal-filament section from actual Leclerc1861 and Majeed2005" }
 ---
 ## Summary
 
@@ -26,6 +28,10 @@ Abdel-Halim and colleagues translate surgical chapters 60–61 from a modern Ara
 
 The paper explicitly calls him a Muslim surgeon: that is the identity basis, not the Ansari ancestry reported in some biographies {cite:alzahrawi-stones-abdelhalim-2003 pp. 1283–1284}. Sunni is the museum's explicit default frame for this context, not a quotation asserting personal legal-school allegiance; the biography read names no contrary tradition {cite:tdv-zehravi pp. 189–191}.
 
+## Suture material and the experimental qualification
+
+Surgical chapter87 describes [[invention/zahrawi-intestinal-suture|animal-intestinal filaments for internal suturing]]. Leclerc's translated page211 explicitly says that this approach and the neighbouring ant-closure account remain experimental {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}. Earlier discussion draws on Galen's suturing knowledge, so the contribution does not make al-Zahrawi the inventor of suturing from nothing {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.207–208}. Majeed credits catgut among his surgical developments, but the editorial is not a worldwide-priority investigation or pedigree of every later medical thread {cite:majeed-islam-medicine-2005 pp.1486–1487}. The witness used here is an actual French translation with its page image, not independent Arabic collation or modern clinical validation.
+
 ## The book after its author
 
 TDV discusses Gerard of Cremona's Latin surgical translation, later European editions and Guy de Chauliac's use; it also records Channing's Arabic-Latin edition in 1778, Leclerc's French translation in 1861 and Spink/Lewis's Arabic-English edition in 1973 {cite:tdv-zehravi pp. 189–191} {cite:tdv-tasrif-zehravi pp. 132–133}. It separates Hebrew translations of portions and pharmaceutical transmission from this surgical route, and describes Sabuncuoglu's Turkish work presented in 1465 as an adaptation with observations and additions, not a literal copy {cite:tdv-tasrif-zehravi pp. 132–133}. Translators and revisers thus remain in the story; circulation of the book does not establish unchanged circulation of every instrument {cite:tdv-tasrif-zehravi pp. 132–133}.
@@ -35,3 +41,5 @@ TDV discusses Gerard of Cremona's Latin surgical translation, later European edi
 - [[source/tdv-zehravi|Esin Kahya, al-Zahrawi]], pp 189–191: biography, witnesses and court-service limits.
 - [[source/tdv-tasrif-zehravi|Esin Kahya, al-Tasrif]], pp 132–133: structure and translations.
 - [[source/alzahrawi-stones-abdelhalim-2003|Abdel-Halim and colleagues]], pp 1283–1291: translation and commentary, not independent manuscript examination.
+- [[source/zahrawi-leclerc-chirurgie-1861|Leclerc1861]], chapter87,207–211: inherited suturing, filaments and experimental caveat.
+- [[source/majeed-islam-medicine-2005|Majeed2005]],1486–1487: modern medical-history summary.

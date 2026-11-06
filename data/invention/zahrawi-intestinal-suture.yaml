@@ -1,0 +1,87 @@
+id: invention/zahrawi-intestinal-suture
+class: invention
+label: { ar: "خيوط أمعاء الحيوان في وصف الزهراوي", en: "Al-Zahrawi's intestinal-filament suturing account", ur: "الزہراوی کا آنتی ریشوں سے ٹانکوں کا بیان" }
+names:
+  - { value: "Catgut sutures in al-Tasrif", kind: alternate, lang: en }
+summary:
+  ar: "وصف لخيوط مستمدة من أمعاء الحيوان في خياطة الأمعاء ضمن جراحة التصريف؛ تنص ترجمة لوكلير على بقاء النهج في التجريب {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}. توثيق مساهمة في مادة الخياطة، لا اختراع كل خياطة أو إثبات نجاح سريري حديث {cite:majeed-islam-medicine-2005 pp.1486–1487}."
+  en: "Animal-intestinal filaments described for intestinal suturing in al-Tasrif; Leclerc's translation explicitly retains an experimental qualification {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}. A documented material contribution, not invention of all suturing or proof of modern clinical efficacy {cite:majeed-islam-medicine-2005 pp.1486–1487}."
+  ur: "التصریف میں آنتی سلائی کے لیے حیوانی آنت کے ریشوں کا بیان؛ لوکلیر کے ترجمے میں تجرباتی حیثیت صراحت سے باقی ہے {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}۔ مادے میں دستاویزی حصہ، تمام ٹانکوں کی ایجاد یا جدید طبی کامیابی کا ثبوت نہیں {cite:majeed-islam-medicine-2005 pp.1486–1487}۔"
+domain: medicine-surgery
+kind: technique
+disciplines: [medicine]
+wings: [ideas, objects]
+regions: [andalus-europe]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "1000~"
+    hijri: "0390"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Approximate390/1000 dates compilation of al-Tasrif according to TDV, not a verified first operation, invention year or manufactured sample. Hijri pair explicitly supplied by source, not a museum conversion."
+    sources: [source/tdv-tasrif-zehravi, source/zahrawi-leclerc-chirurgie-1861]
+  status_today: transformed
+origin:
+  place: place/cordoba
+  context:
+    ar: "كتاب جراحة طبيب أندلسي ارتبط بقرطبة؛ لا يوثق موضعاً بعينه لأول استعمال لهذا الخيط {cite:tdv-zehravi pp.189–191} {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}."
+    en: "Surgical book of an Andalusian physician associated with Cordoba; no specific site of first use established {cite:tdv-zehravi pp.189–191} {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}."
+    ur: "قرطبہ سے وابستہ اندلسی طبیب کی جراحی کتاب؛ اس دھاگے کے اولین استعمال کا خاص مقام ثابت نہیں {cite:tdv-zehravi pp.189–191} {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}۔"
+makers:
+  - person: person/al-zahrawi
+    role: describer
+    place: place/cordoba
+    note: "Describes intestinal filaments within inherited wound-suturing discussion. Experimental qualification preserved; no worldwide first or independently verified patient series."
+    sources: [source/zahrawi-leclerc-chirurgie-1861, source/majeed-islam-medicine-2005]
+attribution:
+  status: improvement
+  claim:
+    ar: "مساهمة موصوفة في اختيار مادة الخياطة ضمن تقليد أقدم؛ لا اختراع الخياطة من الصفر أو أولوية عالمية مثبتة."
+    en: "A described suture-material contribution within an older tradition, not invention of suturing from nothing or established worldwide priority."
+    ur: "پرانی روایت میں ٹانکے کے مادے کا بیان کردہ حصہ، سلائی کی عدم سے ایجاد یا ثابت عالمی اولینیت نہیں۔"
+  basis:
+    ar: "تذكر الصفحة211 الخيوط المعوية وقيد التجريب؛ ويعد مجيد خيوط catgut من تقنيات الزهراوي دون تحقيق شامل للأولوية {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211} {cite:majeed-islam-medicine-2005 pp.1486–1487}."
+    en: "Page211 names intestinal filaments and experimental status; Majeed credits catgut among al-Zahrawi's technologies without a comprehensive priority study {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211} {cite:majeed-islam-medicine-2005 pp.1486–1487}."
+    ur: "صفحہ211 آنتی ریشے اور تجرباتی حیثیت بتاتا ہے؛ مجید جامع تحقیق اولینیت کے بغیر کیٹ گٹ کو الزہراوی کی ٹیکنالوجی میں شمار کرتے ہیں {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211} {cite:majeed-islam-medicine-2005 pp.1486–1487}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "تقليد خياطة الجروح الذي ينقل الفصل عن جالينوس", en: "Wound-suturing tradition attributed in the chapter to Galen", ur: "باب میں جالینوس سے منسوب زخم سینے کی روایت" }
+    note: "Explicit inheritance of suturing; not a claim that Galen used the same animal-intestinal filament."
+    sources: [source/zahrawi-leclerc-chirurgie-1861]
+dependents: []
+spread: []
+impact:
+  fields: [medicine-surgery]
+  changed:
+    ar: "أبقى النص مادة الخيط جزءاً من نقاش إغلاق الجروح، مع تمييز تجريبها من وصف النتائج؛ لا نسبة نجاة يستنتجها المتحف {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.207–211}."
+    en: "Preserved thread material as part of wound-closure discussion, with experimentation distinguished from demonstrated outcomes; no survival rate inferred {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.207–211}."
+    ur: "زخم بند کرنے کی بحث میں دھاگے کا مادہ محفوظ کیا، تجربے اور ثابت نتیجے میں فرق کے ساتھ؛ شرح بقا اخذ نہیں کی گئی {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.207–211}۔"
+  history:
+    ar: "انتقل كتاب الجراحة عبر ترجمات وطبعات، وتظهر هذه المساهمة في تلخيص حديث لتاريخ الطب؛ لا سلسلة صناعية موثقة لكل خيط لاحق {cite:tdv-tasrif-zehravi pp.132–133} {cite:majeed-islam-medicine-2005 pp.1486–1487}."
+    en: "The surgical book travelled through translations and editions, and this contribution appears in modern medical history; no industrial pedigree of every later thread established {cite:tdv-tasrif-zehravi pp.132–133} {cite:majeed-islam-medicine-2005 pp.1486–1487}."
+    ur: "جراحی کتاب تراجم و طبعات میں منتقل ہوئی اور یہ حصہ جدید طبی تاریخ میں آتا ہے؛ ہر بعد کے دھاگے کا صنعتی نسب ثابت نہیں {cite:tdv-tasrif-zehravi pp.132–133} {cite:majeed-islam-medicine-2005 pp.1486–1487}۔"
+  significance: 3
+  why: "Specific source-verified material contribution with explicit experimental caveat, inherited methods and limits of modern priority claims; no procedural advice."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "شاهد تاريخي على التفكير في مادة الخيط، لا مواصفة لخيط طبي معاصر أو إذن باستعمال المصور {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211} {cite:commons-catgut-dogmonster description}."
+    en: "Historical evidence of thinking about thread material, not a modern medical specification or permission to use the photographed material {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211} {cite:commons-catgut-dogmonster description}."
+    ur: "دھاگے کے مادے پر فکر کی تاریخی شہادت، جدید طبی معیار یا تصویری مادے کے استعمال کی اجازت نہیں {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211} {cite:commons-catgut-dogmonster description}۔"
+  descendants:
+    ar: "يسمي مجيد هذه المساهمة في تاريخ التقنيات؛ لا يثبت المصدران هنا انحدار كل خيط حديث منها {cite:majeed-islam-medicine-2005 pp.1486–1487} {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}."
+    en: "Majeed places the contribution in technological history; the sources used here do not establish descent of every modern suture {cite:majeed-islam-medicine-2005 pp.1486–1487} {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}."
+    ur: "مجید اسے ٹیکنالوجی کی تاریخ میں رکھتے ہیں؛ یہاں کے ماخذ ہر جدید ٹانکے کا اس سے نسب ثابت نہیں کرتے {cite:majeed-islam-medicine-2005 pp.1486–1487} {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}۔"
+media: { image: media/catgut-material-context, diagram: media/diagram-zahrawi-intestinal-suture }
+kids:
+  ar: "اختيار المادة جزء من الاختراع، وليس الشكل وحده. وصف الزهراوي خيطاً من أمعاء الحيوان في كتاب للجراحة، لكنه أبقى قيد التجريب. نقرأ الفكرة وتاريخها ولا نجربها على جسم أو حيوان؛ الصورة توضح مادة حديثة وليست خيطه الأصلي."
+  en: "Choosing a material can matter as much as choosing a shape. Al-Zahrawi described animal-intestinal thread in a surgical book, with an experimental caveat. We study its history, never try it on a person or animal; the photograph is a modern material comparison, not his original thread."
+  ur: "مادے کا انتخاب بھی شکل جتنا اہم ہو سکتا ہے۔ الزہراوی نے جراحی کتاب میں حیوانی آنت کا دھاگا تجرباتی قید کے ساتھ بیان کیا۔ ہم تاریخ پڑھتے ہیں، انسان یا جانور پر نہیں آزماتے؛ تصویر جدید مادے کی مثال ہے، ان کا اصل دھاگا نہیں۔"
+sources: [source/zahrawi-leclerc-chirurgie-1861, source/majeed-islam-medicine-2005, source/tdv-zehravi, source/tdv-tasrif-zehravi, source/alzahrawi-stones-abdelhalim-2003, source/commons-catgut-dogmonster]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "Selected Leclerc1861 translated primary with title/printed211 image checks, actual Majeed2005 PMC browser text, reverified TDV/SMJ and inspected PD material image; no independent Arabic collation, operative reenactment or universal-priority proof" }
