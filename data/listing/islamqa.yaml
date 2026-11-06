@@ -2,26 +2,53 @@ id: listing/islamqa
 class: listing
 kind: platform
 label:
-  ar: "إسلام سؤال وجواب"
-  en: "IslamQA"
+  ar: "الإسلام سؤال وجواب"
+  en: "IslamQA (Islam Question & Answer)"
+  ur: "اسلام سوال و جواب (IslamQA)"
 summary:
-  ar: "موقع إسلامي للفتاوى والأسئلة تأسس 1997 على يد سلمان العودة ثم المنجد؛ من أقدم مواقع الفتوى وأكثرها زيارة."
-  en: "An Islamic Q&A fatwa website founded 1997, associated with Salman al-Ouda then al-Munajjid; among the oldest and most-visited fatwa sites."
+  ar: "موقع فتاوى وأسئلة وأجوبة على الإنترنت بدأه محمد صالح المنجد سنة 1996 ويعمل تحت إشرافه العام، ويُعدّ من أوائل خدمات الفتوى على الشبكة؛ يجيب بست عشرة لغة عن أسئلة المسلمين وغيرهم على منهج أهل السنة والجماعة كما يصف نفسه، وحُجب في السعودية سنة 2010 بعد قصر الفتوى على هيئة كبار العلماء."
+  en: "An online fatwa and question-and-answer website begun by Muhammad Salih al-Munajjid in 1996 and run under his general supervision, counted among the first online fatwa services; it answers questions from Muslims and others in sixteen languages on the method of Ahl al-Sunna wa-l-Jama'a, as it describes itself, and was blocked in Saudi Arabia in 2010 after fatwas were reserved to the Council of Senior Scholars."
+  ur: "فتووں اور سوال و جواب کی ایک آن لائن ویب سائٹ جسے محمد صالح المنجد نے 1996 میں شروع کیا اور جو انہی کی عمومی نگرانی میں چلتی ہے؛ اسے انٹرنیٹ کی اولین فتویٰ خدمات میں شمار کیا جاتا ہے۔ اپنے بیان کے مطابق اہلِ سنت والجماعت کے منہج پر سولہ زبانوں میں مسلمانوں اور غیر مسلموں کے سوالوں کا جواب دیتی ہے، اور 2010 میں سعودی عرب میں فتویٰ ہیئت کبار العلماء تک محدود کیے جانے کے بعد وہاں بلاک کی گئی۔"
 wings: [made]
 categories: [media-entertainment, education]
 regions: [global]
 founded:
-  edtf: '1997'
+  edtf: "1996"
+  hijri: "1416~"
   calendar: gregorian
   precision: year
+  status: debated
+  derived: true
+  note: "The English and Arabic Wikipedia articles give the start as 1996 (citing Kadri 2012 and the Zad group page); Wikidata and the Arabic infobox's founding line give 1997. The earliest archived capture of www.islam-qa.com is of 19 January 1998. The Hijri year (1416 to 1417) is converter-derived."
+  sources: [source/wikipedia-islamqa-en, source/wikipedia-islamqa-ar, source/wikidata-islamqa, source/wayback-islam-qa-com-1998]
+status_business: active
+location: { online_only: true, serves: [global] }
+links:
+  official: "https://islamqa.info"
+  former_domain: "http://www.islam-qa.com"
+  archive_url: "https://web.archive.org/web/19980119192551/http://www.islam-qa.com/"
+  app_store_id: "418870385"
+languages: [ar, en, fr, tr, ru, ur, fa, zh, ug, es, tg, id, hi, bn, de, pt]
 made:
   by_muslims: true
   basis: documented
-  sources: [source/wikidata]
+  sources: [source/wikipedia-islamqa-en, source/islamqa-about-us]
+reach:
+  - { platform: website, metric: monthly-visits, value: 13660000, date: "2021-04-29", note: "visits in March 2021 by Similarweb, as the English article cites it (retrieved 29 April 2021)", sources: [source/wikipedia-islamqa-en] }
+  - { platform: website, metric: monthly-visits, value: 10100000, date: "2022-03-15", note: "visits in January 2022 by Similarweb, as the English article cites it (retrieved 15 March 2022); behind islamweb.net's 17.2 million that month", sources: [source/wikipedia-islamqa-en] }
+  - { platform: website, metric: monthly-visits, value: 19000000, date: "2024-01-01", note: "visits in October 2023 by Similarweb, with a global rank of 4,302, as the Arabic article cites it (Similarweb page of 1 January 2024)", sources: [source/wikipedia-islamqa-ar] }
+footprint:
+  wikipedia: { languages: [ar, bn, en, fr, ha, hi, id, sq, tr, uk, ur], checked: "2026-11-06", sources: [source/wikidata-islamqa] }
+  wikidata: "Q17006152"
+relations:
+  - { type: owned_by, target: person/muhammad-salih-al-munajjid, note: "founder and general supervisor; every answer is prepared or revised under his supervision, as the site states", sources: [source/wikipedia-islamqa-en, source/islamqa-about-us, source/wayback-islam-qa-com-1998] }
 external_ids:
   wikidata: Q17006152
-sources: [source/wikidata]
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+sources: [source/wikipedia-islamqa-en, source/wikipedia-islamqa-ar, source/wikidata-islamqa, source/islamqa-about-us, source/wayback-islam-qa-com-1998, source/islamqa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'IslamQA.info' (revision 1376128231, 22 September 2026), Arabic Wikipedia «الإسلام سؤال وجواب» (revision 76115119, 5 August 2026), Wikidata Q17006152 (revision 2493516076), the site's About page and the Wayback Machine captures of www.islam-qa.com of January and June 1998, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-pilot-b02
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

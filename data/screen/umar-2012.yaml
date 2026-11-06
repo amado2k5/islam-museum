@@ -3,8 +3,9 @@ class: screen
 format: series
 relevance: primary
 label:
-  en: Omar
   ar: عمر
+  en: Omar
+  ur: عمر
 titles:
 - lang: ar
   value: عمر
@@ -16,19 +17,34 @@ titles:
   value: Farouk Omar
   kind: broadcast
 summary:
-  ar: مسلسل تاريخي إنتاج إم بي سي يتابع سيرة عمر بن الخطاب من الجاهلية إلى استشهاده خليفةً، ولا يظهر فيه النبي ولا يُسمع صوته.
-  en: An MBC historical series following the life of Umar ibn al-Khattab from the Jahiliya to his assassination as caliph;
-    the Prophet is neither shown nor heard.
+  ar: مسلسل تاريخي من إنتاج مجموعة إم بي سي وتلفزيون قطر، أخرجه حاتم علي وكتبه وليد سيف، يتتبع سيرة عمر بن الخطاب من شبابه
+    في مكة إلى مقتله خليفةً، في 31 حلقة عُرضت في رمضان 1433 من 20 يوليو 2012؛ لا يظهر فيه النبي، لكنه جسّد الخلفاء الراشدين،
+    فانقسم العلماء حوله بين مانعٍ ومجيز.
+  en: A historical series produced by MBC Group and Qatar TV, directed by Hatem Ali and written by Walid Saif, following Umar
+    ibn al-Khattab from his youth in Mecca to his assassination as caliph, in 31 episodes broadcast in Ramadan 1433 from 20
+    July 2012; the Prophet is not shown, but the four rightly guided caliphs are, and scholars divided between those who forbade
+    it and those who approved it.
+  ur: ایم بی سی گروپ اور قطر ٹی وی کی تاریخی سیریز، ہدایت کار حاتم علی اور مصنف ولید سیف، جو عمر بن الخطاب کی زندگی مکہ میں
+    جوانی سے خلیفہ کی حیثیت سے شہادت تک 31 اقساط میں دکھاتی ہے، رمضان 1433 میں 20 جولائی 2012 سے نشر ہوئی؛ اس میں نبی نہیں
+    دکھائے گئے لیکن خلفائے راشدین دکھائے گئے، اور علما اسے ممنوع اور جائز کہنے والوں میں بٹ گئے۔
 wings: []
 themes:
 - prophets
 - wars-and-campaigns
 first_broadcast:
-  edtf: '2012'
+  edtf: '2012-07-20'
+  hijri: '1433-09-01'
   calendar: gregorian
-  precision: year
+  precision: day
+  status: historical
+  derived: true
+  note: First episode on MBC1 and Qatar TV on 20 July 2012; the last of 31 episodes on 19 August 2012 by the episode list.
+    The Hijri date is converter-derived.
+  sources:
+  - source/wikipedia-omar-tv-series-en
 countries:
 - sa
+- qa
 languages:
   original:
   - ar
@@ -37,6 +53,7 @@ languages:
   - tr
   - ur
   - id
+  - dv
 seasons: 1
 episodes: 31
 broadcaster: group/mbc
@@ -44,70 +61,250 @@ depiction:
   prophet: not-shown
   companions: shown
   imams: shown
-  note: The Prophet is never shown; Companions including Ali are played by actors — a depiction Sunni religious authorities
-    have often objected to.
+  note: The Prophet, his children and his wives are never shown; the four rightly guided caliphs and other Companions are
+    played by actors, the reason for the scholars' division over the series.
 approach: historical-drama
 sensitivity: figurative-prophet
 relations:
 - type: about
   target: person/umar-ibn-al-khattab
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: about
   target: person/muhammad
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: set_in
   target: period/prophetic-era
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: set_in
   target: period/rashidun
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: set_in
   target: place/mecca
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: set_in
   target: place/medina
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: features
   target: person/samer-ismail
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: features
   target: person/ghassan-massoud
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: features
   target: person/ghanem-zrelli
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: features
   target: person/qasim-melho
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: features
   target: person/fethi-haddaoui
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: features
   target: person/mohammed-hassan-el-joundi
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: features
   target: person/may-skaf
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: features
   target: person/muna-wassef
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: directed_by
   target: person/hatem-ali
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: written_by
   target: person/walid-saif
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: broadcast_by
   target: group/mbc-1
+  sources:
+  - source/wikipedia-omar-tv-series-en
 - type: broadcast_by
   target: group/qatar-tv
+  sources:
+  - source/wikipedia-omar-tv-series-en
 external_ids:
   wikidata: Q3184088
   imdb: tt2063241
   elcinema: '2012535'
 sources:
+- source/wikipedia-omar-tv-series-en
 - source/wikidata
 - source/imdb
 - source/elcinema
+- source/thr-omar-fatwa-2012
+- source/national-omar-2012
+- source/egyptind-omar-2012
+- source/alarabiya-omar-2012
 status:
-  review: draft
-  completeness: 2
-  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
-    2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
 reception:
 - kind: fatwa
-  note: Al-Azhar's Islamic Research Academy and Saudi Dar al-Ifta opposed the series for depicting the Companions; other scholars
-    including Salman al-Ouda and Yusuf al-Qaradawi approved it.
+  by: Grand Mufti of Saudi Arabia Abd al-Aziz Al al-Shaykh; Salih al-Fawzan; al-Azhar
+  where:
+  - sa
+  - eg
+  date:
+    edtf: 2012-07
+    precision: month
+  note: The Grand Mufti called the production a grave mistake and a crime; al-Fawzan forbade watching it, recalling the scholars'
+    consensus and the Muslim World League's position against representing the Companions; al-Azhar's Islamic Research Academy
+    also opposed it.
   sources:
+  - source/wikipedia-omar-tv-series-en
   - source/thr-omar-fatwa-2012
   - source/national-omar-2012
+- kind: approval
+  by: Yusuf al-Qaradawi, Salman al-Awda, Yasir Qadhi, Ali al-Sallabi, Khaled al-Musleh
+  note: Approved the series; al-Qaradawi, al-Awda and al-Sallabi sat on the scholars' committee that reviewed the script for
+    historical accuracy, with Akram Diya al-Umari, Abd al-Wahhab al-Turayri and Saad al-Otaibi.
+  sources:
+  - source/wikipedia-omar-tv-series-en
+  - source/alarabiya-omar-2012
+  - source/national-omar-2012
 - kind: protest
-  note: Pre-broadcast campaign against the series ('No to showing Farouk Omar'); defenders argued dramatising the Companions
-    has precedent.
+  date:
+    edtf: 2012-07
+    precision: month
+  note: A campaign before the broadcast against showing the series; its defenders argued that dramatising the Companions has
+    precedent.
   sources:
   - source/egyptind-omar-2012
   - source/alarabiya-omar-2012
+- kind: objection
+  by: Some Shia scholars and commentators
+  note: Criticised the portrayal of Ali and what they regarded as historical distortions.
+  sources:
+  - source/wikipedia-omar-tv-series-en
+- kind: ban
+  where:
+  - ir
+  note: Banned in Iran, as Iran International reported in March 2025; the series had been carried for Persian-speaking viewers
+    by Nour TV from September 2013.
+  sources:
+  - source/wikipedia-omar-tv-series-en
+- kind: release
+  where:
+  - dz
+  - tn
+  - tr
+  - id
+  - lb
+  - ma
+  - uz
+  - xk
+  - gb
+  - mv
+  note: Shown abroad from 20 July 2012 on EPTV (Algeria), Nessma (Tunisia), atv (Turkey) and MNCTV (Indonesia), then Future
+    TV (Lebanon) and Medi1 TV (Morocco) in 2013, Milly TV (Uzbekistan) in 2018, Klan Kosova and TV Besa in 2020, Islam Channel
+    (United Kingdom) from 24 June 2020 and Raajje TV (Maldives, Dhivehi dub) from 11 March 2021.
+  sources:
+  - source/wikipedia-omar-tv-series-en
+ramadan_season: 1433
+runtime_min: 45
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - arz
+    - az
+    - bn
+    - ckb
+    - en
+    - es
+    - fa
+    - fr
+    - ha
+    - hi
+    - id
+    - kk
+    - ml
+    - ms
+    - pa
+    - pnb
+    - ru
+    - tr
+    - ur
+    - uz
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-omar-tv-series-en
+  wikidata: Q3184088
+perspectives:
+- tradition: sunni
+  standing: main
+  stance:
+    ar: 'أهل السنة (المانعون): لا يجوز تمثيل الصحابة'
+    en: 'Sunni (those who forbade it): the Companions may not be portrayed'
+    ur: 'سني (اہلِ سنت) — منع کرنے والے: صحابہ کی تمثیل جائز نہیں'
+  summary:
+    ar: مفتي السعودية عبد العزيز آل الشيخ وصالح الفوزان ومجمع البحوث الإسلامية في الأزهر وعلماء آخرون رأوا تمثيل الخلفاء والصحابة
+      غير جائز، واستند الفوزان إلى إجماع العلماء وقرار رابطة العالم الإسلامي.
+    en: The Saudi Grand Mufti Abd al-Aziz Al al-Shaykh, Salih al-Fawzan, al-Azhar's Islamic Research Academy and other scholars
+      held that portraying the caliphs and Companions is not permitted; al-Fawzan cited the scholars' consensus and the Muslim
+      World League's resolution.
+    ur: سعودی مفتی اعظم عبد العزیز آل الشیخ، صالح الفوزان، ازہر کی مجمع البحوث الاسلامیہ اور دیگر علما کے نزدیک خلفا اور صحابہ
+      کی تمثیل جائز نہیں؛ الفوزان نے علما کے اجماع اور رابطہ عالم اسلامی کی قرارداد کا حوالہ دیا۔
+  sources:
+  - source/wikipedia-omar-tv-series-en
+  - source/thr-omar-fatwa-2012
+- tradition: sunni
+  standing: main
+  stance:
+    ar: 'أهل السنة (المجيزون): يجوز بضوابط'
+    en: 'Sunni (those who approved it): permitted with safeguards'
+    ur: 'سني (اہلِ سنت) — اجازت دینے والے: شرائط کے ساتھ جائز'
+  summary:
+    ar: يوسف القرضاوي وسلمان العودة وياسر قاضي وعلي الصلابي وخالد المصلح أجازوا المسلسل، وراجع بعضهم نصه في لجنة علمية للتحقق
+      من دقته التاريخية.
+    en: Yusuf al-Qaradawi, Salman al-Awda, Yasir Qadhi, Ali al-Sallabi and Khaled al-Musleh approved the series, and some
+      of them reviewed its script on a scholars' committee for historical accuracy.
+    ur: یوسف القرضاوی، سلمان العودہ، یاسر قاضی، علی الصلابی اور خالد المصلح نے سیریز کو جائز کہا، اور ان میں سے بعض نے تاریخی
+      صحت کے لیے علمی کمیٹی میں اس کا متن دیکھا۔
+  sources:
+  - source/wikipedia-omar-tv-series-en
+  - source/alarabiya-omar-2012
+  - source/national-omar-2012
+- tradition: other
+  standing: other
+  stance:
+    ar: نقد من بعض الشيعة
+    en: Criticism from some Shia commentators
+    ur: بعض شیعہ مبصرین کی تنقید
+  summary:
+    ar: 'في الرواية الشيعية: انتقد بعض علماء الشيعة ومعلقيهم تصوير المسلسل لعلي بن أبي طالب وما عدّوه تحريفا تاريخيا، ومُنع
+      المسلسل في إيران.'
+    en: 'In Shia perspective: some Shia scholars and commentators criticised the series'' portrayal of Ali ibn Abi Talib and
+      what they regarded as historical distortions, and the series was banned in Iran.'
+    ur: 'شیعہ نقطۂ نظر میں: بعض شیعہ علما اور مبصرین نے سیریز میں علی بن ابی طالب کی تصویر کشی اور اپنے نزدیک تاریخی تحریفات
+      پر تنقید کی، اور ایران میں اس پر پابندی لگی۔'
+  sources:
+  - source/wikipedia-omar-tv-series-en
+provenance:
+  layer: own-research
+  source: English Wikipedia "Omar (TV series)" (revision 1382251537, 27 October 2026), read in Chrome on the founder's Mac
+    on 6 November 2026, with the press records already registered by the screen-index lane
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-pilot-b02
+issue:
+  ar: هل يجوز تمثيل الخلفاء الراشدين والصحابة في الدراما؟
+  en: May the rightly guided caliphs and the Companions be portrayed by actors in drama?
+  ur: کیا ڈرامے میں خلفائے راشدین اور صحابہ کی اداکاری کے ذریعے تمثیل جائز ہے؟
