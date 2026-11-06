@@ -2,24 +2,33 @@ id: media/photo-jahiz-tawus
 class: media
 kind: image
 label:
-  ar: 'صورة: طاووس الغسل (كتاب الدرياق)'
-  en: 'Photo: Peacock-shaped Hand Washing Device'
+  ar: "صورة: طاووس غسل اليدين في كتاب الجزري"
+  en: "Image: peacock hand-washing design in al-Jazari's book"
+  ur: "تصویر: جزری کی کتاب کا ہاتھ دھونے والا طاؤس"
 summary:
   ar: صورة القطعة من موقع المتحف، مضمّنة بلا نسخ.
   en: The museum's photograph of the object, embedded without copying.
-url: https://openaccess-cdn.clevelandart.org/1945.383/1945.383_web.jpg
-thumbnail: https://openaccess-cdn.clevelandart.org/1945.383/1945.383_print.jpg
+  ur: "میوزیم کی ورق کی تصویر، ربط سے شامل؛ کوئی بائنری گٹ میں نہیں۔"
+url: https://openaccess-cdn.clevelandart.org/1945.383.a/1945.383.a_web.jpg
+thumbnail: https://openaccess-cdn.clevelandart.org/1945.383.a/1945.383.a_print.jpg
 license: CC0
-attribution: Cleveland Museum of Art; Open Access (CC0)
+attribution: "Cleveland Museum of Art, Purchase from the J. H. Wade Fund, 1945.383.a; Open Access CC0. https://www.clevelandart.org/art/1945.383.a"
 depicts:
 - object/jahiz-tawus
+- invention/jazari-peacock-washer
 alt:
-  ar: صورة القطعة «طاووس الغسل (كتاب الدرياق)» من مجموعة المتحف المفتوحة
-  en: Photograph of Peacock-shaped Hand Washing Device from the museum's open collection
-  ur: میوزیم کے کھلے ذخیرے سے «Peacock-shaped Hand Washing Device» کی تصویر
+  ar: "ورقة ملونة: طاووس أزرق يصب ماء من منقاره، وشخصية صغيرة تحمل إناء أمام صندوق فوق دعامتين، وتحتهما خزان وصنبور؛ حروف عربية تشير إلى أجزاء الجهاز. نسخة 1315م، لا آلة أصلية مصورة."
+  en: "Painted folio: a blue peacock pours from its beak; a small figure holds a vessel before a box on two supports, above a reservoir and spigot. Arabic letters identify parts. A 1315 manuscript copy, not a photograph of an original machine."
+  ur: "رنگین ورق: نیلا طاؤس چونچ سے پانی ڈالتا ہے، چھوٹی شکل برتن تھامے دو سہاروں پر رکھے صندوق کے سامنے ہے؛ نیچے حوض اور ٹونٹی۔ اجزا پر عربی حروف؛ 1315ء کی نقل، اصل مشین کی فوٹو نہیں۔"
 sources:
 - source/cleveland-open-access
+- source/cleveland-jazari-peacock
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
   generated_by: Devin (SWE-2 High), scripts/harvest/objects/images.py; remote URL only, no copy
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b18"
+  source: "Media step 1: reused existing record; retained original attribution. Verified CC0 in actual museum API, inspected combined and recto images outside git, corrected book label and selected the recto hero rather than two-side composite, 2026-11-06."

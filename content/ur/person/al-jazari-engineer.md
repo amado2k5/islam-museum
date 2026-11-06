@@ -23,6 +23,8 @@ translators: ["Copilot SDK in VS Code"]
 مثال [[invention/elephant-clock|ہاتھی کی گھڑی]] ہے۔ میٹ سوار اور پرندے کی حرکت، گیند کا اژدہے سے برتن اور ناقوس تک ہر نصف گھنٹے پہنچنا اور گیندوں کی گنتی سے وقت جاننا بتاتا ہے {cite:met-elephant-clock-575123 Catalogue Entry}۔ ٹی ڈی وی کی کسی دوسری گھڑی یا پمپ کی خصوصیت اس آلے کو نہیں دی گئی۔
 
 ## باقی متن اور تصویریں
+کلیولینڈ کا ورق [[invention/jazari-peacock-washer|ہاتھ دھونے والے طاؤس کا ڈیزائن]] محفوظ کرتا ہے: جمع پانی تیراک اٹھاتا ہے، پہلے صابن پھر تولیہ والی شکل نکلتی، اور استعمال شدہ پانی ٹونٹی سے جاتا ہے {cite:cleveland-jazari-peacock verso catalogue}۔ میوزیم کتاب جزری کی بتاتا مگر مشین کی حقیقی تعمیر غیر یقینی کہتا ہے؛ ورق 1315ء کی شامی نقل ہے، باقی اصل آلہ نہیں {cite:cleveland-jazari-peacock recto catalogue}۔
+
 دوسری مثال [[invention/jazari-double-piston-pump|دو پسٹن والا پمپ]] ہے: بہتا پانی پہیہ اور گیئر چلاتا، پن اور شگاف دار ڈنڈا گردش کو پسٹن سلاخوں کی آگے پیچھے حرکت بناتے ہیں {cite:tdv-cezeri pp. 505–506}۔ الحسنی ہم آہنگ جوڑے کا بیان کرتے ہیں؛ سائنس میوزیم میں نصف حجم ماڈل ہے، جزری کی زندگی کی اصل مشین نہیں {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}۔ الحسنی کتاب کی تکمیل 1206ء، ٹی ڈی وی 1205ء بتاتا ہے۔ پمپ کا اندراج فرق محفوظ رکھتا ہے؛ یہ تحریری شہادت کی تاریخ ہے، کسی اصل تنصیب کی سند نہیں {cite:fstc-jazari-mechanical-genius biography} {cite:tdv-cezeri pp. 505–506}۔
 
 ٹی ڈی وی ڈونلڈ ہل کے 1974ء کے مکمل انگریزی ترجمے اور احمد یوسف الحسن کی 1979ء کی عربی تحقیق کا ذکر کرتا ہے، جس میں بودلیئن اور استنبول کی نقلیں استعمال ہوئیں {cite:tdv-cezeri pp. 505–506}۔ یہ مرجع میں مذکور طباعتیں ہیں، اس مضمون میں آزادانہ پڑھے گئے اصل صفحات کا دعویٰ نہیں۔
@@ -34,3 +36,4 @@ translators: ["Copilot SDK in VS Code"]
 - میٹروپولیٹن میوزیم، ہاتھی کی گھڑی، 57.51.23، معلومات اور فرانچیسکا لیونی کی فہرستی تحریر۔ {cite:met-elephant-clock-575123 Catalogue Entry}
 - سلیم الحسنی، «Al-Jazari: The Mechanical Genius»، پمپ، نقشہ اور ماڈل۔ {cite:fstc-jazari-mechanical-genius pump discussion}
 - سائنس میوزیم گروپ، دو پسٹن پمپ کا ماڈل، 1976-482۔ {cite:smg-jazari-double-pump catalogue}
+- کلیولینڈ میوزیم آف آرٹ، ہاتھ دھونے والا طاؤس، 1945.383، دونوں رخ کے اندراج۔ {cite:cleveland-jazari-peacock recto and verso catalogues}

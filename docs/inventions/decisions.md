@@ -566,3 +566,19 @@ Scope of the sign-off is limited to the exact class, enums, predicates, existing
 **Scope and risk:** `non-impacting`, approved inventions content. Five new entities, three new prose files, direct maker tie/prose extension and lane documentation/reports; no schema, UI, code, Worker, workflow or submission-document changes.
 
 **Touches:** invention, two sources, two media records, the existing al-Jazari person; ar/en/ur invention articles and person extensions; inventions documentation and generated reports; `CANARY.md`.
+
+## D-055 — Publish the peacock washer as a documented design, with construction uncertain (6 November 2026)
+
+**Question:** Can the hand-washing automaton lead be completed without turning a surviving drawing into a surviving or certainly constructed machine?
+
+**Decision:** Narrow the lead to `invention/jazari-peacock-washer`, a specific device/design, attribution `improvement`, with the existing engineer as `describer`. Cleveland's recto catalogue expressly says construction is uncertain; preserve that in the summary, date note, attribution, impact, today and kids surfaces. Its verso catalogue explains fill/pour, rising float, soap door, towel door and drain. No first-washing/soap/robot or modern-dispenser descent claim. Preserve TDV's 1205 and Cleveland's 1206 book dates, distinct from the 1315 Syrian copy.
+
+**Reuse and correction:** Reuse `object/jahiz-tawus` and `media/photo-jahiz-tawus`, not duplicate IDs. Their directly reused Arabic labels incorrectly assigned the folio to the Book of Theriac; correct labels/summaries/source against the actual catalogue, retaining the object's original status and prose. Add proper trilingual image alt/caption, source and provenance, preserving original attribution. Use the actual CC0 recto as hero rather than the two-side composite; inspect both sides outside git. Catalogue measurements describe paper, not the machine. Link the folio in `examples`.
+
+**Object metadata flag:** Attempting a standard AI provenance block exposed an inherited conflict: `object.provenance` is an array in its class schema but an object in the base schema; cite-check expects the latter. Do not change shared schema/checker in this content batch or claim a publication upgrade for the existing object. Keep its original prose/status, record the limited factual correction and attribution in the existing generated_by string, and put the full new account in the properly provenanced invention article. The object-schema repair needs a separate scoped proposal/PR; this is not a request to weaken validation.
+
+**Other screening:** Read TDV MUKARNAS in full (Selçuk Mülayim, vol. 31, 2020, pp. 126–128). Its anonymous/disputed origins cannot honestly supply the currently required named person in `makers` (`scripts/gen-schema.ts` minItems 1). Keep that lead open and flag the modelling limit. Do not invent an artisan, recast a late patron as the original inventor, or change schema outside this content batch.
+
+**Scope and risk:** `non-impacting`, approved inventions content. Three new entities and three new invention prose files; direct maker/folio/media enrichment, lane documentation/reports; no code, schema, UI, Worker, workflow or submission-document changes.
+
+**Touches:** invention, source, diagram, existing person/object/photo records; ar/en/ur invention and maker prose; inventions documentation and generated reports; `CANARY.md`.
