@@ -1,5 +1,11 @@
 # Muslim Inventions Browser: research method
 
+## Invention73 audit — Khayyam's parallel quadrilateral (D-114)
+
+Actual complete MacTutor re-read;Stanford4.2parallels and ratios read;UnatTDVgeometry/work4read. Actual Vahabzadeh Iranica commentary section and HALauthorPDF cover/authorpages1–4read,authorpage3figure/premises visually inspected. BijanVahabzadeh,2019publication498–509,2026deposit;authorpage anchors follow actual file,not invented printed-page mapping or commentary pages. Original commentary/manuscripts/Rashed-Vahabzadeh2000/other editions NOT read. Reported470/December1077retained atyearprecision,no fabricatedHijrimonth/day orcompositioncity. Threeparts;boundedinvention firstpart,eightpropositions replaceI.29,equalperpendicularlegs andsummitcases. Convergence/divergence premises/philosophicalequidistance assumptions explicit;Stanford replacement emphasis/Vahabzadeh proof-from-admitted-premises compatible,notaxiom-independent proof. Nasir reportedreuse not primarycollation;Saccheri1733comparison not demonstrated directtransmission,notcomplete modernnonEuclidean priority.
+
+Independent modern example explicitly assumesEuclideanplane:A(0,0),B(4,0),C(0,3),D(4,3),legs3,width4,diagonals5,zeroperpendiculardotproducts. General positivew/h andscaling within model,notexclusionothergeometries. Measurement notunlimitedlineproof. Actual Commonsdescription/API/history andrender inspected:Dickdock21Aug2008PD,originalSVGunmodified,stackedright/obtuse/acute cases,legsAD/BCversus articleAC/BDexplicit;curveddrawnlegsschematic,notexactmetricmodels/curvedEuclideanstraightlines. No medievalmanuscriptclaim. Existingmaker originalDevin/model/run,identity/faith/perspectives,calendar/cubicties andall3proseprefixes retained;additivesource/tie/provenance extension. Appendonelead,total538,all537oldobjectsunchanged. No code/site/schema/Worker/workflow/deployment;localtests/buildfounder-skipped.
+
 ## Invention72 audit — complete quadrant (D-113)
 
 Final scope:existing object data/prose retained byte-for-byte;its artifact-provenance array conflicts with generation-provenance checker shape. No schema/tool workaround;initial task-owned object additions withdrawn. Invention/work/additive maker carry new sourced explanation,with existing object linked through `examples`. No claim of passing object citation tooling;it is unchanged.
