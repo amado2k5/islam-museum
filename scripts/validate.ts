@@ -10,6 +10,7 @@ import addFormats from "ajv-formats";
 import edtf from "edtf";
 import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadProseFor, loadStubs, p, readYaml, rel, resolvePredicate, type Prose } from "./lib.js";
 import { hijriToCivil, toJDN } from "./hijri/convert.js";
+import { inWindow } from "./modern/sections.js";
 
 export interface Issue { level: "error" | "warn"; file: string; msg: string }
 
@@ -228,6 +229,18 @@ export function checkCurriculum(loaded: { entity: any; file: string }[], subject
 
 // Raw HTML and script-scheme URLs have no prose construct (GorillaQA #11): the renderer escapes them,
 // so an author must see the failure here, at authoring time, not silently in the output.
+/** Modern Islam Browser (docs/plan/26 section 3.6): a song's words are never reproduced as a lyric block; three or more
+ * consecutive quoted lines, or a `:::lyrics` block, is treated as one. A 40-word cited quotation in the prose is the limit. */
+export function lyricProblem(body: string): string | null {
+  if (/^:::lyrics/m.test(body)) return "lyrics are never reproduced: remove the :::lyrics block (a 40-word cited quotation at most)";
+  let run = 0;
+  for (const line of body.split("\n")) {
+    if (/^>\s*\S/.test(line)) { run++; if (run >= 3) return "lyrics are never reproduced: three or more consecutive quoted lines read as a lyric block (a 40-word cited quotation at most)"; }
+    else if (!/^>\s*$/.test(line)) run = 0;
+  }
+  return null;
+}
+
 export function proseUnsafeHtml(body: string): string | null {
   const codeFree = body.replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
   const htmlTag = codeFree.match(/<\/?[a-zA-Z][^>\n]*>/);
@@ -410,7 +423,7 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
       const where = `relations[${i}]`;
       const rp = resolvePredicate(predicates, r.type, entity.class, String(r.target ?? "").split("/")[0]);
       if (!rp) { err(file, `${where}: unknown predicate "${r.type}" (see schema/predicates.yaml)`); return; }
-      if (rp.pred.derived) { err(file, `${where}: ${r.type} is generated from invention fields and cannot be written in relations:`); return; }
+      if (rp.pred.derived) { err(file, `${where}: ${r.type} is a derived predicate (generated from invention fields or honours[]) and cannot be written in relations:`); return; }
       if (!REF.test(r.target ?? "")) { err(file, `${where}: target "${r.target}" is not a class/slug id`); return; }
       if (!resolves(r.target)) err(file, `${where}: target ${r.target} does not exist; add the entity or declare it in data/_stubs.yaml`);
       // a relation written with the inverse name has its domain and range swapped
@@ -429,7 +442,8 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
       "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related",
       "host", "occasion", "moderator", "co_speakers", "who", "by",
       "job", "under", "trained_under", "polity", "broader", "successor_jobs", "bodies", "tools", "workplaces", "outputs", "pir", "practice",
-      "person", "invention", "via", "examples", "sites", "concepts", "described_in", "image", "diagram", "map"]);
+      "person", "invention", "via", "examples", "sites", "concepts", "described_in", "image", "diagram", "map",
+      "award", "for", "outlet", "teams", "ceremony", "awarded_by", "performers"]);
     const walkRefs = (node: any, path: string) => {
       if (!node || typeof node !== "object") return;
       if (Array.isArray(node)) { node.forEach((x, i) => walkRefs(x, `${path}[${i}]`)); return; }
@@ -549,6 +563,71 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
     for (const [i, tie] of list(entity.inventions).entries()) {
       expectedRefClass(tie.invention, "invention", `inventions[${i}].invention`);
       sourceRefs(tie.sources, `inventions[${i}].sources`);
+    }
+
+    // ---- Modern Islam Browser (docs/plan/26 section 3.6, approved 6 Nov 2026): honours, footprint, reach, horizon,
+    // sports, tracks and the award class; the faith and made-basis rules scoped to the browser's window (D-000)
+    const modern = inWindow(entity);
+    for (const [i, h] of list(entity.honours).entries()) {
+      const where = `honours[${i}]`;
+      if (typeof h.award === "string") {
+        if (classOf(h.award) !== "award") err(file, `${where}.award: ${h.award} is not an award/<slug> id`);
+        else if (!resolves(h.award)) err(file, `${where}.award: ${h.award} does not exist; add the award record or a stub`);
+      }
+      if (h.year === undefined && !h.date) err(file, `${where}: year or date is required`);
+      if (h.position !== undefined && h.result !== "ranked") err(file, `${where}: position is only given with result ranked`);
+      if (h.level !== undefined && h.result !== "certified") err(file, `${where}: level is only given with result certified`);
+      if (h.result === "certified" && h.level === undefined) err(file, `${where}: a certification needs its level`);
+      sourceRefs(h.sources, `${where}.sources`);
+    }
+    for (const [i, pr] of list(entity.footprint?.press).entries()) {
+      const where = `footprint.press[${i}]`;
+      if (typeof pr.source !== "string" || classOf(pr.source) !== "source") err(file, `${where}.source: "${pr.source}" is not a source/<slug> id`);
+      else if (!known.has(pr.source)) err(file, `${where}.source: ${pr.source} does not exist`);
+      if (pr.outlet) expectedRefClass(pr.outlet, ["listing", "group"], `${where}.outlet`);
+    }
+    if (entity.footprint?.wikidata && entity.external_ids?.wikidata && entity.footprint.wikidata !== entity.external_ids.wikidata) {
+      err(file, `footprint.wikidata ${entity.footprint.wikidata} differs from external_ids.wikidata ${entity.external_ids.wikidata}`);
+    }
+    for (const [i, r] of list(entity.reach).entries()) sourceRefs(r.sources, `reach[${i}].sources`);
+    if (entity.horizon) {
+      if (!entity.horizon.expected && !entity.horizon.announced) err(file, "horizon: expected or announced date is required");
+      sourceRefs(entity.horizon.sources, "horizon.sources");
+      if (entity.horizon.by) expectedRefClass(entity.horizon.by, ["group", "person", "polity", "listing"], "horizon.by");
+      const expected = entity.horizon.expected?.edtf ? Number(String(entity.horizon.expected.edtf).slice(0, 4)) : NaN;
+      const staleBefore = new Date(Date.now() - 90 * 86_400_000).getUTCFullYear();
+      if (Number.isFinite(expected) && expected < staleBefore && !["postponed", "cancelled"].includes(entity.horizon.stage)) {
+        warn(file, `horizon: expected ${entity.horizon.expected.edtf} has passed; confirm it happened (remove horizon and record the fact) or set stage postponed or cancelled`);
+      }
+    }
+    for (const [i, sp] of list(entity.sports).entries()) {
+      for (const t of list(sp.teams)) expectedRefClass(t, "group", `sports[${i}].teams`);
+      sourceRefs(sp.sources, `sports[${i}].sources`);
+    }
+    const tracks = list(entity.tracks);
+    tracks.forEach((t: any, i: number) => {
+      if (i > 0 && !(t.n > tracks[i - 1].n)) err(file, `tracks[${i}]: track numbers must be unique and ascending`);
+      if (t.work) expectedRefClass(t.work, "work", `tracks[${i}].work`);
+      for (const pf of list(t.performers)) expectedRefClass(pf, ["person", "group"], `tracks[${i}].performers`);
+    });
+    if (entity.class === "award") {
+      if (entity.awarded_by) expectedRefClass(entity.awarded_by, ["group", "person", "polity", "listing"], "awarded_by");
+      if (entity.ceremony) expectedRefClass(entity.ceremony, "event", "ceremony");
+    }
+    if (entity.made?.by_muslims === true && entity.made?.basis === "unverified") {
+      (modern ? err : warn)(file, "made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims");
+    }
+    if (entity.class === "person" && Array.isArray(entity.faith)) {
+      const bornYear = Number(String(entity.born?.edtf ?? "").slice(0, 4));
+      const modernPerson = (entity.wings ?? []).includes("living") || (Number.isFinite(bornYear) && bornYear >= 1900);
+      const exempt = new Set(["person/bilal-philips", "person/siraj-wahhaj", "person/qazi-muhammad-isa"]);
+      const MUSLIM_VALUE = /^(sunni|shia|zahiri|alawite|ibadi|sufi|ahmadiyya|quranist)/;
+      entity.faith.forEach((f: any, i: number) => {
+        const n = new Set(f?.sources ?? []).size;
+        if (modernPerson && !exempt.has(entity.id) && f?.value && f.value !== "unknown" && MUSLIM_VALUE.test(String(f.value)) && n < 2) {
+          err(file, `faith[${i}]: a modern person's school or order needs two independent sources (docs/agents/lanes/modern-figures.md, ruling 3); with one it stays unknown with the attestation in the note`);
+        }
+      });
     }
 
     // ---- provenance layer (docs/sources-policy.md, founder's rule of 15 Oct 2026): the layer records where a thing came
@@ -708,6 +787,11 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
     if (/[﴿﴾]/.test(pr.body)) err(pr.file, "Qur'an text must never be typed into prose: link the ayah as [[passage/quran-<sura>-<aya>|label]] (docs/plan/09 rule 10)");
     const unsafe = proseUnsafeHtml(pr.body);
     if (unsafe) err(pr.file, unsafe);
+    const proseEntity = entitiesById.get(pr.id);
+    if (proseEntity?.class === "work" && ["song", "album"].includes(proseEntity.kind)) {
+      const lyric = lyricProblem(pr.body);
+      if (lyric) err(pr.file, lyric);
+    }
 
     // scope rule in prose: a perspectives block must start with a Sunni entry, and non-Sunni doctrine must be labelled before it is stated
     for (const blk of pr.body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {

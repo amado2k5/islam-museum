@@ -101,6 +101,10 @@ Total validation every run — no incremental hiding of bad data.
 - **Every page readable with JS disabled** (WCAG 2.2 AA).
 - Discovery: 8 halls, themes, exhibits, questions, screening room,
   `wander`, `today`, `llms.txt`, JSON-LD, RSS.
+- Browsers and explorers over the one graph: Time Browser, Time Machine,
+  Hijri calendar, the landing explorers, Fatwa and Khutab explorers, Job
+  Browser, Inventions Browser, Modern Islam Browser (plan 26). Each is
+  **graph, API and search** (register: `docs/site/browsers.md`).
 - Passage pages are rendered but **excluded from Pagefind** (−44% chunks).
 
 ---

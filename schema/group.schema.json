@@ -47,7 +47,11 @@
         "international-organisation",
         "community-organisation",
         "mosque-association",
-        "population"
+        "population",
+        "team",
+        "think-tank",
+        "online-community",
+        "band"
       ]
     },
     "made": {
@@ -317,6 +321,23 @@
           }
         }
       }
+    },
+    "scope": {
+      "enum": [
+        "local",
+        "national",
+        "regional",
+        "international",
+        "virtual"
+      ]
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}$"
+      },
+      "uniqueItems": true
     }
   },
   "required": [

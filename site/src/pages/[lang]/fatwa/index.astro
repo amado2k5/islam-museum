@@ -26,7 +26,7 @@ const slug = (sid: string) => `fatwa-${sid.replace(/[^a-z0-9]+/g, "-")}`;
 ---
 <BaseLayout lang={lang} title={F.title} description={F.lede} path={`/${lang}/fatwa/`}>
   <div class="wrap" style="padding-block:10px 24px">
-    <section>
+    <section data-pagefind-body>
       <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{T.explore.label}</p>
       <h1>{F.title} <span class="ui muted">{count(fatwas.length)}</span></h1>
       <p>{F.lede}</p>

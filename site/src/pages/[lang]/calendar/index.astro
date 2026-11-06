@@ -70,8 +70,10 @@ const payload = {
 ---
 <BaseLayout lang={lang} title={C.title} description={C.lede} path={`/${lang}/calendar/`}>
   <div class="wrap" style="padding-block:10px 20px">
-    <h1>{C.title}</h1>
-    <p style="font-size:1.15rem;max-width:var(--measure)">{C.lede}</p>
+    <div data-pagefind-body>
+      <h1>{C.title}</h1>
+      <p style="font-size:1.15rem;max-width:var(--measure)">{C.lede}</p>
+    </div>
 
     <section class="cal panel" data-cal aria-label={C.title} style="max-width:var(--measure)">
       <div class="cal-head no-print">

@@ -211,7 +211,7 @@ influenced:
 opposed:
   inverse: opposed_by
   domain: [person,group,polity]
-  range: [person,group,polity]
+  range: [person,group,polity,event,work]
   label: { en: "Opposed", ar: "عارض" }
   inverse_label: { en: "Opposed by", ar: "عارضه" }
   temporal: true
@@ -346,7 +346,7 @@ certified_by:
 
 about:
   inverse: subject_of
-  domain: [screen,work]
+  domain: [screen,work,event,award]
   range: ["*"]
   label: { en: "About", ar: "عن" }
   inverse_label: { en: "Subject of", ar: "موضوع" }
@@ -394,7 +394,7 @@ broadcast_by:
 
 features:
   inverse: appears_in
-  domain: [screen]
+  domain: [screen,event]
   range: [person,group]
   label: { en: "Features", ar: "بطولة" }
   inverse_label: { en: "Appears in", ar: "يظهر في" }
@@ -482,15 +482,15 @@ critic_of:
 
 responded_to:
   inverse: answered_by
-  domain: [work]
-  range: [work]
+  domain: [work,event]
+  range: [work,event]
   label: { en: "Responded to", ar: "ردّ على" }
   inverse_label: { en: "Answered by", ar: "رُدّ عليه" }
   temporal: false
 
 wrote_about:
   inverse: written_about_by
-  domain: [person]
+  domain: [person,listing]
   range: ["*"]
   label: { en: "Wrote about", ar: "كتب عن" }
   inverse_label: { en: "Written about by", ar: "كُتب عنه" }
@@ -719,4 +719,79 @@ example_of:
   label: { en: "Example of", ar: "مثال على" }
   inverse_label: { en: "Exemplified by", ar: "يتجسد في" }
   temporal: false
+  derived: true
+
+# ---- Modern Islam Browser (docs/plan/26-modern-islam-browser.md section 3.5, approved 6 Nov 2026)
+performed:
+  inverse: performed_by
+  domain: [person,group]
+  range: [work]
+  label: { en: "Performed", ar: "أدّى" }
+  inverse_label: { en: "Performed by", ar: "أداء" }
+  temporal: false
+
+composed:
+  inverse: composed_by
+  domain: [person]
+  range: [work]
+  label: { en: "Composed", ar: "لحّن" }
+  inverse_label: { en: "Composed by", ar: "ألحان" }
+  temporal: false
+
+produced_work:
+  inverse: work_produced_by
+  domain: [person,group,listing]
+  range: [work]
+  label: { en: "Produced", ar: "أنتج" }
+  inverse_label: { en: "Produced by", ar: "إنتاج" }
+  temporal: false
+
+played_for:
+  inverse: had_player
+  domain: [person]
+  range: [group]
+  label: { en: "Played for", ar: "لعب لـ" }
+  inverse_label: { en: "Had player", ar: "من لاعبيه" }
+  temporal: true
+
+represented:
+  inverse: represented_by
+  domain: [person,group]
+  range: [polity,place]
+  label: { en: "Represented", ar: "مثّل" }
+  inverse_label: { en: "Represented by", ar: "مثّله" }
+  temporal: true
+
+owns:
+  inverse: owned_by
+  domain: [person,group]
+  range: [listing,group]
+  label: { en: "Owns", ar: "يملك" }
+  inverse_label: { en: "Owned by", ar: "يملكه" }
+  temporal: true
+
+organized:
+  inverse: organized_by
+  domain: [person,group]
+  range: [event]
+  label: { en: "Organised", ar: "نظّم" }
+  inverse_label: { en: "Organised by", ar: "نظّمه" }
+  temporal: false
+
+hosted:
+  inverse: hosted_by
+  domain: [place,polity,building]
+  range: [event]
+  label: { en: "Hosted", ar: "استضاف" }
+  inverse_label: { en: "Hosted by", ar: "استضافه" }
+  temporal: false
+
+# Derived from honours[] on the honoured record (scripts/build-graph.ts); rejected in hand-written relations.
+awarded:
+  inverse: awarded_to
+  domain: [award]
+  range: [person,work,screen,group,listing,building,event]
+  label: { en: "Awarded to", ar: "مُنح لـ" }
+  inverse_label: { en: "Awarded", ar: "نال" }
+  temporal: true
   derived: true

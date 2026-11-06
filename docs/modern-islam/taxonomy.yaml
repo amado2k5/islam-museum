@@ -9,14 +9,14 @@ window:
 
 sections:
   - id: web
-    label: { ar: "المواقع والتطبيقات", en: "Websites and apps", ur: "ویب سائٹس اور ایپس" }
+    label: { ar: "المواقع والتطبيقات والألعاب والأجهزة", en: "Websites, apps, games and devices", ur: "ویب سائٹس، ایپس، گیمز اور آلات" }
     classes: [work, listing]
-    kinds: { work: [website, online-library, app], listing: [app, software, platform] }
-    facets: [content_type, languages, active, country]
+    kinds: { work: [website, online-library, app], listing: [app, software, platform, game, device] }
+    facets: [content_type, kind, languages, active, country]
   - id: music
     label: { ar: "الموسيقى والأناشيد", en: "Music and nasheed", ur: "موسیقی اور نعت و نشید" }
     classes: [work, person, group, listing, award]
-    kinds: { work: [album, song, composition], listing: [record-label, production-company] }
+    kinds: { work: [album, song, composition], group: [band], listing: [record-label, production-company] }
     facets: [genre, honours, country, language, decade]
   - id: film
     label: { ar: "الأفلام", en: "Films", ur: "فلمیں" }
@@ -26,12 +26,12 @@ sections:
   - id: tv
     label: { ar: "المسلسلات والبرامج", en: "Series and programmes", ur: "ڈرامے اور پروگرام" }
     classes: [screen, listing]
-    kinds: { screen: [series, miniseries, programme, web_series, documentary_series, children, episode], listing: [tv-channel] }
+    kinds: { screen: [series, miniseries, programme, web_series, documentary_series, children, episode] }   # channels are media outlets (section media); the tv page links to them as broadcasters
     facets: [format, ramadan_season, broadcaster, country, language]
   - id: conferences
     label: { ar: "المؤتمرات والملتقيات", en: "Conferences and conventions", ur: "کانفرنسیں اور اجتماعات" }
     classes: [event, group, work]
-    kinds: { event: [conference, congress, gathering, council, declaration] }
+    kinds: { event: [conference, congress, gathering, council, declaration], work: [declaration] }
     facets: [recurs, country, organiser, decade]
   - id: heritage
     label: { ar: "شهور التراث والمهرجانات", en: "Heritage months and festivals", ur: "ورثے کے مہینے اور میلے" }
@@ -98,9 +98,12 @@ sections:
     kinds: {}
     facets: [prize, first_of, country, year]
   - id: enterprise
-    label: { ar: "الشركات والمال", en: "Enterprise and finance", ur: "کاروبار اور مالیات" }
+    label: { ar: "الشركات والعلامات والمال", en: "Enterprise, brands and finance", ur: "کاروبار، برانڈز اور مالیات" }
     classes: [listing, group, award]
-    kinds: { listing: [company, startup, brand, fund], group: [bank, standards-body, certifier] }
+    # every kind of business Muslims have founded or own since 1976 (the Made wing's listings in the window): companies and
+    # conglomerates, industries and manufacturers, chains and groceries, restaurants and food products, travel companies,
+    # airlines and hotels, brands and fashion, shops, crafts, clinics, funds and banks; the Made wing's basis rules apply
+    kinds: { listing: [company, startup, conglomerate, manufacturer, brand, fashion, chain, grocery, shop, restaurant, food_product, travel, airline, hotel, product, craft, clinic, fund], group: [bank, standards-body, certifier] }
     facets: [kind, sector, country, founded_decade, ranking]
   - id: arts
     label: { ar: "الفنون والثقافة", en: "Arts and culture", ur: "فنون اور ثقافت" }
@@ -118,15 +121,16 @@ sections:
     kinds: { group: [university, seminary, institution], listing: [school, university], work: [book, curriculum, online-library] }
     facets: [kind, online, country, language]
 
-# The derived section of a record (scripts/modern/sections.ts) is computed from class, kind, dates and fields, in this order of precedence:
+# The derived section of a record (scripts/modern/sections.ts) is computed from class, kind, dates and fields, in this order of precedence
+# (a section that names kinds matches a class only through those kinds; a section with no kinds matches its classes outright):
 # horizon present -> upcoming (in addition to its own section); then the first section whose class/kind pair matches; a person goes to
 # sports when sports[] exists, to achievements when honours[] carries a laureate-kind award or a firsts tag, otherwise to figures.
 
 new_kinds:
   work: [album, song]
   event: [protest, attack, competition, award-ceremony, festival, heritage-month, exhibition, tournament, launch]
-  listing: [newspaper, tv-channel, radio-station, newsletter, channel, record-label, production-company]
-  group: [team, think-tank, online-community]
+  listing: [newspaper, tv-channel, radio-station, newsletter, channel, record-label, production-company, device, product, chain, grocery, airline, hotel, manufacturer, conglomerate]
+  group: [team, think-tank, online-community, band]
   building: [islamic-centre, museum, university-campus]
   roles: [singer, composer, actor, director, producer, presenter, journalist, diplomat, banker, economist, entrepreneur, comedian, influencer, coach, astronaut, judge, lawyer, nurse, professor]
 

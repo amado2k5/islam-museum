@@ -40,8 +40,10 @@ const index = JSON.stringify(all.map((s) => ({ href: subjectHref(lang, s.id), la
 ---
 <BaseLayout lang={lang} title={B.x_name} description={B.x_lede} path={`/${lang}/time-browser/`}>
   <div class="wrap tbs">
-    <h1>{B.x_name}</h1>
-    <p class="tbs-lede">{B.x_lede}</p>
+    <div data-pagefind-body>
+      <h1>{B.x_name}</h1>
+      <p class="tbs-lede">{B.x_lede}</p>
+    </div>
 
     <form role="search" class="tbs-search" onsubmit="return false">
       <label for="tbs-q">{B.x_search_label}</label>

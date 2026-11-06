@@ -34,6 +34,17 @@ The static JSON API repeats the licence of each record in a `license` field. Att
    | `https://api.islam.museum/api/v1/inventions.json` | Inventions with domain and era filters, makers, attribution, origins, chains and media |
    | `https://api.islam.museum/api/v1/inventions/chains.json` | Invention dependency graph, including internal and external precursor/dependent links |
    | `https://api.islam.museum/api/v1/invention/index.json` | Compact index of invention records (empty until invention records are added) |
+   | `https://api.islam.museum/api/v1/award/index.json` | Compact index of award records: prizes, medals, certifications, rankings, titles and competition prizes (empty until award records are added) |
+   | `https://api.islam.museum/api/v1/modern/index.json` | The Modern Islam Browser (docs/plan/26): the window (1976 to the build year), the nineteen sections with their counts, the years with counts, the reach lists |
+   | `https://api.islam.museum/api/v1/modern/<section>.json` | Every record of one derived section (`web`, `music`, `film`, `tv`, `conferences`, `heritage`, `rights`, `books`, `upcoming`, `figures`, `organizations`, `media`, `sports`, `awards`, `achievements`, `enterprise`, `arts`, `built`, `learning`) with its year, kind, countries, honours and footprint counts and horizon |
+   | `https://api.islam.museum/api/v1/modern/year/<yyyy>.json` | Every record with a dated fact in one Gregorian year from 1976 on |
+   | `https://api.islam.museum/api/v1/modern/top/<list>.json` | A reach index (`songs`, `albums`, `websites`, `channels`, `books`): scores computed from cited inputs with the printed formula and weights; not a ranking by taste |
+   | `https://api.islam.museum/api/v1/jobs.json` | Job Browser: every job with domain, kind, craft flag, era, its edges and its holders (persons whose `occupations:` name it) |
+   | `https://api.islam.museum/api/v1/fatwa.json` | Fatwa Explorer: every fatwa and fatwa collection with publisher, URL, languages, dates and its edges (mufti, basis, chain) |
+   | `https://api.islam.museum/api/v1/khutab.json` | Khutab and Durus Explorer: every sermon, lesson and lecture series with speaker, occasion, host, audience, series order and edges |
+   | `https://api.islam.museum/api/v1/poetry.json` | Poetry: every poem and diwan with its poets, language, genre, metre and edges |
+   | `https://api.islam.museum/api/v1/screens.json` | Screening Room: every film, series and programme with format, relevance, titles, release, countries, languages, approach, depiction, database ids and edges |
+   | `https://api.islam.museum/api/v1/time-browser/index.json` | Time Browser: the subject index (id, kind, titles, node count, journey flag, span) |
    | `https://islam.museum/llms.txt` | Plain-text index of every entry with its URL, for language models and crawlers |
    | `https://islam.museum/sitemap-index.xml` | Sitemap of every page in every language |
 3. **Build the API yourself** from a clone, which also gives you the derived files the site uses:
@@ -46,12 +57,12 @@ The data model, including the JSON Schemas in `schema/*.schema.json`, is itself 
 
 ## 3. The record: `data/<class>/<slug>.yaml`
 
-Twenty-three classes: `person`, `group`, `polity`, `event`, `period`, `journey`, `place`, `building`, `object`, `media`, `work`, `passage`, `concept`, `language`, `practice`, `exhibit`, `question`, `source`, `dataset`, `listing`, `screen`, `job`, `invention`. Each has a JSON Schema in `schema/<class>.schema.json`; the fields every class shares are in `schema/_base.schema.json` and are described here. Class-specific fields are documented in each schema; the invention record shape is also illustrated in `docs/inventions/schema.md`.
+Twenty-four classes: `person`, `group`, `polity`, `event`, `period`, `journey`, `place`, `building`, `object`, `media`, `work`, `passage`, `concept`, `language`, `practice`, `exhibit`, `question`, `source`, `dataset`, `listing`, `screen`, `job`, `invention`, `award`. Each has a JSON Schema in `schema/<class>.schema.json`; the fields every class shares are in `schema/_base.schema.json` and are described here. Class-specific fields are documented in each schema; the invention record shape is also illustrated in `docs/inventions/schema.md`.
 
 | Field | Type | Meaning |
 |---|---|---|
 | `id` | `class/slug` | Immutable identifier. Slugs are ASCII transliterations; the visible name is `label`. |
-| `class` | enum | One of the 23 classes above. |
+| `class` | enum | One of the 24 classes above. |
 | `aliases` | list of ids | Former ids that now redirect here (renames and merged duplicates). |
 | `label` | map lang → string | Short display name. `ar` is required; `en` and other BCP-47 codes optional. |
 | `summary` | map lang → string | One sentence. `ar` required. |

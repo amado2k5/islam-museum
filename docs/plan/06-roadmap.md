@@ -6,6 +6,18 @@ The phases below are the founding plan, kept for the record. The museum's mainta
 "what comes next" is the changelog's coming-next section (`/{lang}/changelog/`, rendered
 from `CANARY.md`); this list mirrors it so the plan docs answer the same question:
 
+- **The Modern Islam Browser** (plan 26, approved 6 Nov 2026): Phase 1 (the `award` class, the
+  honours, footprint, reach and horizon blocks, derived sections, the reach index, `/api/v1/modern/*`)
+  is in the repository; next is the pilot (one sourced record in each of the nineteen sections, the
+  browser pages, a landing card, the first deploy), then incremental waves per section toward 13,000
+  and 50,000 subjects, browser-first research on the founder's Mac.
+- **The browsers already open keep growing** (register: `docs/site/browsers.md`): the Inventions
+  Browser by waves of 100; the Job Browser from 19 to the 184-job taxonomy with `occupations:` on
+  every person; the Fatwa Explorer's collections catalogue and chain views; the Khutab and Durus
+  Explorer from the recording lanes; the Time Browser by approved subject batches; the poetry
+  anthology; the Screening Room's discovery in thirty languages. Each ships its own API export
+  (`/api/v1/jobs.json`, `fatwa.json`, `khutab.json`, `poetry.json`, `screens.json`,
+  `time-browser/index.json`) and a searchable landing page.
 - **Occupations woven into the graph.** The `job` taxonomy (19 crafts and professions)
   is served as records; people still carry occupations inside their own records. Derive
   `person → job` edges so crafts become walkable connections ("every calligrapher of the
@@ -114,6 +126,23 @@ API docs; Wikidata reconciliation and round-trip bot (propose Hijri dates as qua
 ## Phase 6 · Year 2 and beyond
 
 IIIF partnerships (Aga Khan Museum, MIA Doha, IAMM, David Collection); 3D scans and AR of buildings; audio tours; oral histories ("Living voices") as a new class; recipes and music as classes; regional rooms for 30 countries; editorial board; non-profit; alignment with the Islamic History Atlas, al-Thurayya and World Historical Gazetteer; 10 languages; 10,000+ entities.
+
+## Browsers and explorers (living — updated 2026-11-06)
+
+The front doors over the one graph, with their status, what each has and what it will have, are kept in one register, [`docs/site/browsers.md`](../site/browsers.md), updated in the same commit as any change to one of them. The standing rule (`AGENTS.md`): every browser, explorer, class or feature is **graph, API and search**: its records are classes and kinds in the graph, exported in `/api/v1/`, indexed by Pagefind, and documented in the register, this roadmap, the plan index, the lanes registry and `docs/status.md`.
+
+| Feature | Status (6 Nov 2026) | Next |
+|---|---|---|
+| Time Browser (Timeline Explorer) | live, 425 subjects | approved subject batches, backdrops, subject index API |
+| Time Machine, Hijri calendar, landing explorers (plan 21) | live | snapshot-year map, observances as events, waypointed journeys |
+| Screening Room | live, 315 titles | discovery in thirty languages, honours, `screens.json` |
+| Words readers (Qur'an, hadith, poetry) | live | the poetry anthology grows, `poetry.json` |
+| Fatwa Explorer | live, 340 fatwas | collections catalogue, chain and timeline views, `fatwa.json` |
+| Khutab and Durus Explorer | live, 25 sermons and 38 series | the recording lanes' output, `khutab.json` |
+| Job Browser | live, 19 jobs | the 184-job taxonomy, occupations on every person, `jobs.json` |
+| Inventions Browser | live, 58 inventions | waves of 100, chains and maps |
+| Modern Islam Browser | Phase 1 done | pilot and first deploy, then waves (plan 26 §6) |
+| Education | E1 live | E2 to E5 on approval |
 
 ## Risks and mitigations
 

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "award.schema.json",
+  "title": "Museum entity: award",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "award"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "_base.schema.json#/$defs/name"
+      }
+    },
+    "kind": {
+      "enum": [
+        "prize",
+        "medal",
+        "certification",
+        "ranking",
+        "title",
+        "scholarship",
+        "competition-prize",
+        "chart"
+      ]
+    },
+    "awarded_by": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "since": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "until": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]*$"
+          },
+          "label": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "since": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "until": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "country": {
+      "type": "string",
+      "pattern": "^[a-z]{2}$"
+    },
+    "recurs": {
+      "type": "string"
+    },
+    "ceremony": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "laureate": {
+      "type": "boolean",
+      "description": "Winners of a laureate award also appear in the browser's achievements section."
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}
