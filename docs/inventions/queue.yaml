@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: ibn-yunus-solar-time-tables
+    label: "Ibn Yunus's bounded contribution to Cairo's solar-time table corpus"
+    state: "[x]"
+    batch: 2
+    domain: astronomy-instruments
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/ali-ibn-yunus-al-munajjim", "work/cairo-solar-time-corpus", "source/ibn-yunus-king-bea", "source/tdv-ibn-yunus-dizer", "source/ibn-yunus-mactutor"]
+    invention: invention/ibn-yunus-solar-time-tables
+    lead_sources:
+      - "Actual complete King BEA/Dizer TDV/MacTutor biographies; actual BEA/TDV HTML bylines verified"
+      - "Unchanged inspected modern PD triangle, explicitly plane-geometric context"
+    flags: [completed-D099-b58, mixed-corpus-not-sole-authorship, later-thirteenth-fourteenth-century-additions, separate-hakimi-and-lunar-tables, no-thirtyfourthousand-solar-count, uncertain-birth-not-header950, no-invented-composition-or-hijri, named-scholarly-muslim-basis, separate-default-sunni-no-patron-sect-inference, original-maker-and-prose-preserved, no-pendulum-myth-or-equipped-observatory-certainty, king-interpolation-inference-not-read-algorithm, modern-spherical-example-not-historical-cells, solar-not-civil-clock, paper-only-no-solar-observation]
   - id: habash-shadow-tables
     label: "Habash al-Hasib's numerical shadow-table computation"
     state: "[x]"
