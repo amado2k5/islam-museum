@@ -1,22 +1,36 @@
 id: person/al-uqlidisi-ahmad-ibn-ibrahim
 class: person
-label: { ar: "الإقليدسي أحمد بن إبراهيم", en: "Al-Uqlidisi, Ahmad ibn Ibrahim" }
+label: { ar: "الإقليدسي أحمد بن إبراهيم", en: "Al-Uqlidisi, Ahmad ibn Ibrahim", ur: "الاقلیدسی، احمد بن ابراہیم" }
 names:
   - { kind: full, lang: ar, value: "أبو الحسن أحمد بن إبراهيم الملقب بالإقليدسي" }
 gender: male
 roles: [mathematician]
 traditions: [sunni]
-died: { edtf: "0980", hijri: "0370", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Explicit Muslim basis: MacTutor's actual biography quotes Saidan1966 identifying the named al-Uqlidisi as a Muslim mathematician, not simply 'Islamic mathematics.' Original1966 article not independently read. Sunni is separately the default frame of docs/scope.md for the documented Islamic Damascus milieu; no contrary personal affiliation is named in MacTutor/TDV. Not personal school testimony or an inference from name, city or copying Euclid."
+    sources: [source/uqlidisi-mactutor, source/tdv-oklidisi]
+died: { edtf: "0980~", hijri: "0370", calendar: julian, precision: year, status: tradition, note: "Traditional estimate: legacy source and TDV report370/980, while MacTutor gives approximately980 and stresses limited life evidence. Approximation made explicit, not an independently established exact death.", sources: [source/mawsuat-a3lam-ulama-adaba, source/tdv-oklidisi, source/uqlidisi-mactutor] }
 summary:
-  ar: "رياضي، يرجح أنه عاش بدمشق، ولقبه الإقليدسي يرتبط بالكتاب الذي يُنسب إلى إقليدس."
-  en: "A mathematician who probably lived in Damascus. His laqab al-Uqlidisi is linked to the Euclid text he copied and studied."
+  ar: "رياضي ألّف الفصول في الحساب الهندي بدمشق341/952–953؛ شاهد مبكر على الكسور العشرية وتكييف العمليات للورق، مع خلاف في اكتمال المفهوم {cite:tdv-oklidisi pp. 25–26} {cite:uqlidisi-mactutor Biography}."
+  en: "Mathematician whose Indian-arithmetic book was composed at Damascus in341/952–953, an early witness to decimal fractions and paper-based operations; conceptual completeness remains disputed {cite:tdv-oklidisi pp. 25–26} {cite:uqlidisi-mactutor Biography}."
+  ur: "ریاضی دان جن کی «الفصول فی الحساب الہندی»341/952–953 میں دمشق سے متعلق ہے؛ اعشاری کسور اور کاغذی عملیات کی ابتدائی شہادت، مفہوم کی تکمیل مختلف فیہ ہے {cite:tdv-oklidisi pp. 25–26} {cite:uqlidisi-mactutor Biography}۔"
 wings: [people]
 themes: [mathematics]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/uqlidisi-mactutor, source/tdv-oklidisi] }
+inventions:
+  - invention: invention/decimal-fractions-al-uqlidisi
+    role: improver
+    place: place/damascus
+    note: "Direct decimal-fraction operations and units-place sign; not invention of base-ten numerals or the modern decimal dot. Theoretical completeness disputed."
+    sources: [source/uqlidisi-mactutor, source/uqlidisi-saidan-dsb, source/tdv-oklidisi]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/uqlidisi-mactutor, source/tdv-oklidisi, source/uqlidisi-saidan-dsb]
 status:
   review: published
   completeness: 3
@@ -26,3 +40,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch55
+  extensions:
+    - generated_by: "Copilot SDK in VS Code"
+      model: "unknown"
+      run: "inventions-p3-b26"
+      source: "Actual MacTutor/TDV and Saidan DSB reproduction. Explicit Muslim classification quoted by MacTutor; separate Sunni default, not personal school testimony. Devin original and Claude translations retained. Legacy370/980 estimate remains attributed to its original source, not a newly verified exact death; the mawsuat entry was not independently read."
