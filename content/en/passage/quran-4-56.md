@@ -24,4 +24,6 @@ Its place: verse 56 of 176 verses in the surah. The text is kept in the frozen T
 
 **The purpose of the exchange (p. 487).** Al-Tabari says the sense is: We did that to them so that they feel the pain of the torment, its distress and severity, because they denied God's signs in the world and rejected them. {cite:tafsir-tabari-shakir-v08 p. 487}
 
-These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict. We stop at p. 487 in the commentary on verse 56 of sura 4, after al-Tabari's explanation of the purpose of the exchange of skins, and continue from p. 488. {cite:tafsir-tabari-shakir-v08 p. 487}
+**The close of the verse (p. 488, note 2).** Al-Tabari says God has always been mighty in taking vengeance on whom He takes it from among His creatures, none able to withstand Him if He wills harm or to gain victory over Him if He brings punishment on them, and wise in His ordering and decree. The editor refers to the language indexes for earlier explanations of the two names. {cite:tafsir-tabari-shakir-v08 p. 488}
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict. {cite:tafsir-tabari-shakir-v08 p. 488}
