@@ -60,6 +60,7 @@ open a new block on top with the new version and today's date.
 
 ### Fixed
 
+- The static-site guard no longer fails on the search page's synonym files: it read the start of the address the page builds for each synonym piece (`/search-synonyms.` + language + shard + `.json`) and mistook it for a non-static path, which stopped the build. It now judges a built address by its last piece, so the whole address must still end in a static file; calls such as `/ask/` + query are still rejected, and tests cover both.
 - The Connections Explorer loads again: the site's content security policy now allows pages to fetch from the museum's API host (api.islam.museum), where the explorer's graph-data requests are redirected — the policy previously blocked those loads, so every entry failed with a "could not load" message.
 - The museum's API catalog at /.well-known/api-catalog, the machine-readable list of its data services that every page's Link header points to, is published again. The build kept the site in an archive that silently leaves out folders whose names begin with a dot, so the catalog never reached the live site and the address answered "not found"; the archive now keeps them, and the catalog is served with the other root data files.
 - The Hijri calendar's "Today is" line, highlighted day and opening month now follow the reader's own date, worked out in the browser with the same conversion as the Time Machine. They had been fixed on the day the site was built. Without JavaScript the page still shows a complete month.
