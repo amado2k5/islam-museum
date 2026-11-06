@@ -1130,7 +1130,18 @@ candidates:
     domain: mathematics
     era: abbasid-golden
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "source/uqlidisi-mactutor Biography", "source/tdv-oklidisi pp. 25–26"]
+    flags: [uqlidisi-method-covered-by-invention26, wider-kashi-contribution-not-completed, no-double-counting, conceptual-completeness-disputed]
+  - id: decimal-fractions-al-uqlidisi
+    label: "Al-Uqlidisi's early decimal-fraction operations and units sign"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: abbasid-golden
+    from: scholarly-reference
+    record: invention/decimal-fractions-al-uqlidisi
+    lead_sources: ["source/uqlidisi-mactutor Biography", "source/tdv-oklidisi pp. 25–26", "source/uqlidisi-saidan-dsb decimal-fraction discussion"]
+    flags: [early-direct-treatment-not-all-decimal-numerals, conceptual-completeness-disputed, units-stroke-not-modern-dot, composition-not-copy-date, explicit-sunni-default-not-personal-school, omitted-source-formulae-not-invented]
   - id: frequency-analysis-al-kindi
     label: "Frequency analysis in cryptanalysis"
     state: "[x]"
