@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.3.0 — 2026-11-06
 
 ### Added
+- Inventions Browser88: Hijri-era administrative dating under Umar, full Arabic/English/Urdu account of consultation, adoption versus epoch, source-date variants and later arithmetic limits; inspected public-domain PERF558 receipt context, not a founding decree. Existing maker identity, perspectives and prose retained.
 - Ibn Sina's seven conditions for assessing drug effects now have an Arabic, English and Urdu account, with the original Arabic pages compared against a scholarly translation; humoral theory, translation limits and disputed affiliation stay visible rather than being recast as a modern clinical trial.
 - Invention86: Ibn Zuhr's reported animal-recovery investigation, fully in Arabic/English/Urdu with al-Taysir and preserved biography. It credits the older surgical tradition and distinguishes the animal report from a human trial or safety guarantee, without operative instructions. Source disagreements remain attributed; the modern CC0goat is context, not the experimental animal.
 - Invention85: al-Biruni's proposed solar-gearing simplification, fully in Arabic/English/Urdu with its astrolabe treatise and additive biography links. The older calendar's unknown maker stays credited; manual input, approximate lunar cycles, inferred assembly and the360/364day discrepancy remain explicit. Checked ratios do not turn simplification into guaranteed accuracy, and the public-domain modern tooth detail is not a historical reconstruction.

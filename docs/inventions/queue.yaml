@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: hijri-era-administrative-dating
+    label: "Formalization of Hijri-era administrative dating under Umar"
+    state: "[x]"
+    batch: 1
+    domain: institutions-systems
+    era: first-century
+    from: scholarly-reference
+    records: ["person/umar-ibn-al-khattab", "source/britannica-umar-i", "source/britannica-islamic-calendar", "source/tdv-takvim-akgur", "media/perf-558-dating-context"]
+    invention: invention/hijri-era-administrative-dating
+    lead_sources:
+      - "Actual Bukhari3934, Britannica biographies/calendar, Abdollahy lunar-Hejri and TDV lunar subsection"
+      - "Actual Commons recto/verso photographs and PD metadata; no challenged critical-edition reading"
+    flags: [completed-D130-b88, era-formalization-not-lunar-month-invention, consultation-Ali-proposal-preserved, adoption16-17-18AH-637-639CE, epoch-not-adoption, Muharram-not-RabiI-arrival, July15-16-source-variant, no-wholesale-tabular-cycle-attribution, individual-Muslim-evidence-Sunni-frame-explicit, original-maker-fields-faith-perspectives-prose-preserved, PERF558-not-decree-or-first-document-verdict, no-full-transcription-or-scribe-Companion-inference]
   - id: mahani-sphere-division-cubic
     label: "Al-Mahani's cubic reduction of sphere division"
     state: "[x]"
