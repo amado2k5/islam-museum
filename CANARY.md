@@ -75,6 +75,7 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses isolated in 100 data files (batch 7 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
 - Arabic parentheses isolated in 100 data files (batch 6 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
 - Arabic parentheses isolated in 100 data files (batch 5 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
 - Arabic parentheses isolated in 100 data files (batch 4 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
