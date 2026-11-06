@@ -1,5 +1,13 @@
 # Muslim Inventions Browser: research method
 
+## Invention84 — al-Farisi factorization/amicability (6 November 2026)
+
+Actual complete MacTutor Al-Farisi biography read, especially number-theory section: new proof/approach to inherited Thabit sufficient rule, unique-factorization/combination interpretation attributed to Rashed and disputed proof status,220/284 and17296/18416,1151prime check with sieve lemmas. Earlier-Thabit priority argument attributed through MacTutor to Hogendijk, not independently verified. Actual TDV `kemaleddin-el-farisi` full body/work list/bibliography and author metadata (Mehmet Emin Bozhuyuk) read; work5 Tadhkira and Rashed1982edition listed, not read. TDV name/life dates differ from existing MacTutor-based maker: retain explicit discrepancy in prose rather than silently overwrite. Actual MathWorld Amicable Pair definition/divisor examples/history and Thabit Rule condition/examples read; modern notation not historical page. No repository invention/work duplicate found.
+
+Hogendijk's actual author publication index labels1985article DOI10.1016/0315-0860(85)90025-4 open archive. Publisher normal browser page `34f71a9b-b848-457b-af30-5f2adead5aa2` reached CAPTCHA; left untouched, no full-paper reading claim. Modern exact independent arithmetic already checks n2,3,4,7; n3 composite287=7*41 yields one-way2024→2296→2744. Modern sigma product/listing, distinctness/zero/self and sufficient-not-necessary boundaries will be checked by the content gate.
+
+Actual Commons `File:Amicable numbers rods 220 and 284.png` description/API/393x504PNG inspected. Hyacinth,28April2016creation,29April current bold-number revision,CC BY-SA4.0; coloured284panel above220panel with labelled factor rows and proper-divisor sums. Not original manuscript or historical apparatus. External files `b84-amicable-search.json`, `b84-amicable-rods.png` retained outside git. method
+
 ## Invention83 research — Abu Kamil integer enumeration (D-125); held Quhi screen (D-124)
 
 Actual complete MacTutor biography and Aydin TDV work2 read: all-integer answers, two linear equations/3–5 unknowns, inherited Indian/Diophantine problems but unsettled dependence, verbal naming/numerals and qualified witness/translation reports. Original manuscripts/Saidan1986/full Sesiano study not read. TDV distinguishes Taraif from separately listed Kitab al-Tayr of unknown contents; do not merge on a popular/abstract title. TDV's one-manuscript versus later Leiden/Paris wording remains attributed, not independently reconciled.
