@@ -225,8 +225,10 @@ export function estimateCost(copies, archiveSize = 250) {
 /** A page share above this is "most of the site": a shell file almost certainly changed. */
 export const SHELL_WARN_SHARE = 0.2;
 
-/** The shell files that differ between two commits, or null when they cannot be compared (no history for `prev`). */
-export function shellFilesChanged(prev, cur, run = (cmd, args) => execFileSync(cmd, args, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }), paths = shellPaths()) {
+const gitRun = (cmd, args) => execFileSync(cmd, args, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
+
+/** The files under `paths` that differ between two commits, or null when they cannot be compared (no history for `prev`). */
+export function filesChanged(prev, cur, paths, run = gitRun) {
   if (!prev || !cur) return null;
   if (prev === cur) return [];
   try {
@@ -239,7 +241,13 @@ export function shellFilesChanged(prev, cur, run = (cmd, args) => execFileSync(c
   }
 }
 
-export function formatChurn(report, { copies, deletes, total, prevCommit, curCommit, shellChanged }) {
+/** The shell files (tools/deploy/shell-paths.list) that differ between two commits. */
+export const shellFilesChanged = (prev, cur, run = gitRun, paths = shellPaths()) => filesChanged(prev, cur, paths, run);
+
+/** The sources the pages are built from. A publish that sends far more than these explain points at the shell. */
+export const SOURCE_PATHS = ["data", "content"];
+
+export function formatChurn(report, { copies, deletes, total, prevCommit, curCommit, shellChanged, sourceCount = null }) {
   const cost = estimateCost(copies);
   const pct = (x) => `${(x * 100).toFixed(1)} %`;
   const lines = [];
@@ -250,6 +258,7 @@ export function formatChurn(report, { copies, deletes, total, prevCommit, curCom
   for (const r of report.rows) if (r.copies || r.deletes) lines.push(`| ${r.group} | ${r.files} | ${r.copies} | ${r.deletes} |`);
   lines.push("");
   lines.push(`HTML pages re-uploaded: ${report.pageCopies} of ${report.pageFiles} (${pct(report.pageShare)}).`);
+  if (sourceCount !== null) lines.push(`Source files (data and content) changed since the last publish: ${sourceCount}.`);
   let warning = null;
   if (report.pageShare > SHELL_WARN_SHARE && report.pageFiles > 0) {
     const named = shellChanged === null
@@ -269,7 +278,8 @@ function reportChurn(ops, desired, { copies, deletes, prevCommit }) {
   const curCommit = process.env.GITHUB_SHA ?? null;
   const report = churnReport(ops, desired);
   const shellChanged = report.pageShare > SHELL_WARN_SHARE ? shellFilesChanged(prevCommit, curCommit) : [];
-  const { text, warning } = formatChurn(report, { copies, deletes, total: desired.size, prevCommit, curCommit, shellChanged });
+  const sources = filesChanged(prevCommit, curCommit, SOURCE_PATHS);
+  const { text, warning } = formatChurn(report, { copies, deletes, total: desired.size, prevCommit, curCommit, shellChanged, sourceCount: sources ? sources.length : null });
   for (const line of text.split("\n")) log(line);
   if (warning) console.log(`::warning title=Most pages changed::${warning.replace(/\r?\n/g, " ")}`);
   const summary = process.env.GITHUB_STEP_SUMMARY;

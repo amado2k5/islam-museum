@@ -103,7 +103,7 @@ test("rootFiles lists the root data files, including the nested .well-known/api-
 });
 
 // ---- churn report -------------------------------------------------------------------------------------------------
-import { churnGroup, churnReport, estimateCost, formatChurn, shellFilesChanged, SHELL_WARN_SHARE } from "../batch/publish.mjs";
+import { churnGroup, churnReport, estimateCost, formatChurn, shellFilesChanged, filesChanged, SOURCE_PATHS, SHELL_WARN_SHARE } from "../batch/publish.mjs";
 
 test("churnGroup sorts keys into the report's groups", () => {
   assert.equal(churnGroup("ar/person/x/index.html"), "ar pages");
@@ -177,4 +177,14 @@ test("shellFilesChanged diffs the listed paths between two commits and survives 
   assert.equal(shellFilesChanged("p1", "c1", () => { throw new Error("no history"); }, ["x"]), null);
   assert.deepEqual(shellFilesChanged("same", "same", fake, ["x"]), []);
   assert.equal(shellFilesChanged(null, "c1", fake, ["x"]), null);
+});
+
+test("the report counts the source files that changed, so a large publish can be compared with them", () => {
+  const keys = ["ar/a/index.html"];
+  const report = churnReport([{ op: "COPY", dst: keys[0] }], buildOf(keys));
+  assert.match(formatChurn(report, { copies: 1, deletes: 0, total: 1, prevCommit: "p", curCommit: "c", shellChanged: [], sourceCount: 44 }).text, /Source files \(data and content\) changed since the last publish: 44\./);
+  assert.doesNotMatch(formatChurn(report, { copies: 1, deletes: 0, total: 1, prevCommit: null, curCommit: null, shellChanged: [], sourceCount: null }).text, /Source files/);
+  assert.deepEqual(SOURCE_PATHS, ["data", "content"]);
+  const run = (cmd, args) => (args[0] === "diff" ? "data/person/a.yaml\ncontent/ar/person/a.md\n" : "");
+  assert.equal(filesChanged("p", "c", SOURCE_PATHS, run).length, 2);
 });
