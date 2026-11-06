@@ -4,9 +4,9 @@ kind: primary
 type: book
 label: { ar: "جراحة الزهراوي — ترجمة لوكلير1861", en: "Al-Zahrawi's surgery — Leclerc1861 translation", ur: "الزہراوی کی جراحی — لوکلیر کا1861 ترجمہ" }
 summary:
-  ar: "ترجمة فرنسية للجراحة، قرئت منها مواضع من الفصل87 وقوبلت صورة الصفحة211 التي تصف خيوط الأمعاء وتصرح ببقاء الطريقتين في التجريب."
-  en: "French surgical translation; selected chapter87 passages read and page211 visually checked for intestinal filaments and the explicit experimental qualification."
-  ur: "جراحی کا فرانسیسی ترجمہ؛ باب87 کے منتخب حصے پڑھے اور صفحہ211 کی تصویر میں آنتی ریشوں اور تجرباتی حیثیت کی تصریح دیکھی گئی۔"
+  ar: "ترجمة فرنسية للجراحة؛ قراءة سابقة للفصل87 وخيوط الأمعاء التجريبية، وقراءة إضافية للفصل29 ومجارد الأسنان مع فحص صور97–98."
+  en: "French surgical translation: earlier chapter87 reading on experimental intestinal filaments, extended to chapter29 dental scrapers with inspected97–98 images."
+  ur: "جراحی کا فرانسیسی ترجمہ: باب87 کے تجرباتی آنتی ریشوں کی سابق قراءت، اور باب29 کے دندانی مجارد اور97–98 کی تصاویر کا اضافی معائنہ۔"
 title: "La chirurgie d'Abulcasis, precedee d'une introduction, avec planches"
 author: [{ family: "al-Zahrawi", given: "Abu al-Qasim Khalaf ibn Abbas" }]
 edition: "French translation by Dr Lucien Leclerc; Paris, June1861"
@@ -15,6 +15,12 @@ issued: { date-parts: [[1861, 6]] }
 language: fr
 URL: "https://archive.org/details/lachirurgiedabul00abua"
 open_access: true
-reliability_note: "Pre-existing local public-domain scan,382 PDF pages, not an Archive API/curl download in this batch. Title scan7 visually checked: Leclerc, Paris, J.-B. Bailliere, June1861. Selected chapter87 passages202–203,207–211 read in extracted text; printed211/scan239 visually checked. P211 describes filaments from animal intestines and explicitly calls both the ant and intestinal-filament approaches experimental; no clinical success rate or worldwide priority established. P207–208 names Galenic suturing inheritance. This is a translated primary text, not independently verified Arabic, an autograph, a manufacturing date or modern treatment instructions. Translator footnotes are not al-Zahrawi's own statements. No operative details reproduced."
+reliability_note: "Initial b32 reading: Pre-existing local public-domain scan,382 PDF pages, not an Archive API/curl download in this batch. Title scan7 visually checked: Leclerc, Paris, J.-B. Bailliere, June1861. Selected chapter87 passages202–203,207–211 read in extracted text; printed211/scan239 visually checked. P211 describes filaments from animal intestines and explicitly calls both the ant and intestinal-filament approaches experimental; no clinical success rate or worldwide priority established. P207–208 names Galenic suturing inheritance. This is a translated primary text, not independently verified Arabic, an autograph, a manufacturing date or modern treatment instructions. Translator footnotes are not al-Zahrawi's own statements. No operative details reproduced. B42 extension: selected chapter29 printed97–98 read and visually checked at PDF125–126. Inner/outer/interdental scraper specialization; page98 actually references figure54, not56 from uncertain OCR and not figure65 in Spink/Lewis1973.1861 plate itself not located/inspected; terminal PDF379–380 blank. Incidental opening of chapter30 read, not entire extraction chapter. Differing treatment wording not reproduced or harmonized into instructions."
 status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "Selected translated primary passages and inspected title/page211; source scans and extracted text outside git" }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b32"
+  source: "Selected translated primary passages and inspected title/page211; source scans and extracted text outside git"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b42", source: "Actual selected chapter29 and inspected97–98; original reading/provenance retained,1861 figure reference54 visually corrected without claiming plate inspection" }

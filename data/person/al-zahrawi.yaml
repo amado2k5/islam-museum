@@ -35,6 +35,11 @@ regions: [andalus-europe]
 relations:
   - { type: lived_in, target: place/cordoba, sources: [source/tdv-zehravi] }
 inventions:
+  - invention: invention/zahrawi-dental-scrapers
+    role: describer
+    place: place/cordoba
+    note: "Surgical Book2 chapter29 differentiates inner/outer/interdental scraper forms; selected translated primary and Arabic drawings, not worldwide first dentistry or modern clinical specifications."
+    sources: [source/zahrawi-spink-lewis-1973, source/zahrawi-leclerc-chirurgie-1861]
   - invention: invention/zahrawi-mishab
     role: describer
     place: place/cordoba
@@ -45,7 +50,7 @@ inventions:
     place: place/cordoba
     note: "Animal-intestinal filaments described in translated chapter87, explicitly still experimental; not invention of every suture or proof of a first operation."
     sources: [source/zahrawi-leclerc-chirurgie-1861, source/majeed-islam-medicine-2005]
-sources: [source/tdv-zehravi, source/tdv-tasrif-zehravi, source/alzahrawi-stones-abdelhalim-2003, source/zahrawi-leclerc-chirurgie-1861, source/majeed-islam-medicine-2005]
+sources: [source/tdv-zehravi, source/tdv-tasrif-zehravi, source/alzahrawi-stones-abdelhalim-2003, source/zahrawi-leclerc-chirurgie-1861, source/majeed-islam-medicine-2005, source/zahrawi-spink-lewis-1973]
 status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
 provenance:
   layer: own-research
@@ -54,4 +59,5 @@ provenance:
   run: "inventions-p3-b22"
   source: "Complete TDV biography and work entry and full2003 translated stone chapters/commentary; no independent primary biographical manuscript examination"
   extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b42", source: "Selected actual dental chapter29, inspected Spink272/275 and Leclerc97–98, differentiated tools; earlier biography/faith/two inventions/original provenance retained" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "Selected Leclerc1861 chapter87, title and printed211 visually inspected; actual Majeed2005 browser article; added bounded suturing contribution, preserved prior biography/drill attribution" }

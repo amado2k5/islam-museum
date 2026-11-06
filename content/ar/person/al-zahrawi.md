@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "حفظ سيرة الدفعة22 ومصادرها؛ إضافة فقرة خيوط الأمعاء من لوكلير1861 ومجيد2005 فقط" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "حفظ سيرة الدفعة22 ومصادرها؛ إضافة فقرة خيوط الأمعاء من لوكلير1861 ومجيد2005 فقط", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b42", source: "إضافة مجارد الأسنان من الباب29 المقروء وصوره؛ حفظ النص السابق والهوية والنسبة" }] }
 ---
 ## موجز
 
@@ -36,6 +36,10 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 تذكر TDV ترجمة جيرارد الكريموني اللاتينية لكتاب الجراحة، ثم طبعاته الأوروبية، وإفادة غي دو شولياك منه؛ وتذكر ترجمة تشاننغ العربية اللاتينية سنة1778، وترجمة لوكلير الفرنسية سنة1861، وطبعة سبنك ولويس العربية الإنجليزية سنة1973 {cite:tdv-zehravi pp. 189–191} {cite:tdv-tasrif-zehravi pp. 132–133}. وتفصل النقل العبري لبعض الأجزاء والترجمة الدوائية عن هذا المسار الجراحي، كما تصف عمل صابونجي أوغلي التركي المقدم سنة1465 بأنه صيغة ذات مشاهدات وإضافات، لا نسخة حرفية {cite:tdv-tasrif-zehravi pp. 132–133}. بهذا يبقى المترجمون والمراجعون وأصحاب الإضافات في القصة؛ ولا يصبح تداول الكتاب دليلاً على تداول كل أداة فيه بلا تغيير {cite:tdv-tasrif-zehravi pp. 132–133}.
 
+## تخصص مجارد الأسنان
+
+في الكتاب الثاني من الجراحة يفرق الباب29 بين [[invention/zahrawi-dental-scrapers|مجارد الأسنان]] الداخلية والخارجية وما بين الأسنان، وتعرض طبعة سبنك ولويس أشكالاً من تقليد النسخ {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. تقابل ذلك ترجمة لوكلير في97–98؛ تحيل صفحتها98 إلى الشكل54، بينما رقم المجموعة في1973 هو65، فلا تخلط أرقام الطبعتين {cite:zahrawi-leclerc-chirurgie-1861 ch.29 pp.97–98} {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. الوصف شاهد على تخصص أدوات، لا إثبات الأولية العالمية لكل تنظيف أسنان أو مواصفة علاجية؛ وتقييم الأصالة في تعليق1973 منسوب إلى المحررين {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 p.272 commentary}.
+
 ## المراجع
 
 - [[source/tdv-zehravi|أسين قايا، الزهراوي]]، ص189–191: السيرة وشواهدها وحدود أخبار البلاط.
@@ -43,3 +47,4 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 - [[source/alzahrawi-stones-abdelhalim-2003|عبد الحليم وزملاؤه]]، ص1283–1291: الترجمة والتعليق، لا قراءة مستقلة للمخطوطات.
 - [[source/zahrawi-leclerc-chirurgie-1861|لوكلير1861]]، الفصل87، ص207–211: الموروث الجراحي والخيوط وقيد التجريب.
 - [[source/majeed-islam-medicine-2005|مجيد2005]]، ص1486–1487: التلخيص الطبي الحديث.
+- [[source/zahrawi-spink-lewis-1973|سبنك ولويس1973]]، الكتاب2، الباب29، ص272–275: المجارد وتعليق المحررين؛ لوكلير97–98 للباب نفسه.

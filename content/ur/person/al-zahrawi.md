@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Copilot SDK in VS Code (model unknown), from Arabic"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "دفعت22 کی سوانح اور ماخذ محفوظ؛ لوکلیر1861 اور مجید2005 سے صرف آنتی ریشوں کا حصہ بڑھایا" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "دفعت22 کی سوانح اور ماخذ محفوظ؛ لوکلیر1861 اور مجید2005 سے صرف آنتی ریشوں کا حصہ بڑھایا", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b42", source: "پڑھے باب29 اور تصاویر سے دندانی مجارد کا اضافہ؛ سابق متن، شناخت اور نسبت محفوظ" }] }
 ---
 ## خلاصہ
 
@@ -36,6 +36,10 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 ٹی ڈی وی جیرارڈ کریمونی کا لاطینی جراحی ترجمہ، بعد کی یورپی طبعات اور گی دو شولیاک کا استفادہ بتاتی ہے؛1778 میں چاننگ کی عربی لاطینی طباعت،1861 میں لوکلیر کا فرانسیسی ترجمہ اور1973 میں سپنک و لوئیس کی عربی انگریزی طباعت بھی درج ہیں {cite:tdv-zehravi pp. 189–191} {cite:tdv-tasrif-zehravi pp. 132–133}۔ کچھ حصوں کے عبرانی تراجم اور دواسازی کی منتقلی اس جراحی راستے سے الگ ہیں، اور1465 میں پیش صابونجی اوغلو کا ترکی کام مشاہدات و اضافوں والی صورت ہے، لفظی نقل نہیں {cite:tdv-tasrif-zehravi pp. 132–133}۔ یوں مترجم اور اضافہ کرنے والے کہانی میں رہتے ہیں؛ کتاب کے پھیلاؤ سے ہر آلے کا بغیر تبدیلی پھیلنا ثابت نہیں ہوتا {cite:tdv-tasrif-zehravi pp. 132–133}۔
 
+## مخصوص دندانی مجارد
+
+جراحی کی کتاب دوم کا باب29 اندرونی، بیرونی اور درمیانی سطحوں کے [[invention/zahrawi-dental-scrapers|دندانی مجارد]] الگ کرتا ہے؛ سپنک و لوئیس نسخوں کی روایت سے شکلیں دیتے ہیں {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}۔ لوکلیر کے مقابل97–98 میں صفحہ98 شکل54 کا حوالہ دیتا ہے، جبکہ1973 کا مجموعہ شکل65 ہے؛ طبعات کے اعداد نہ ملائے جائیں {cite:zahrawi-leclerc-chirurgie-1861 ch.29 pp.97–98} {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}۔ یہ تخصیص کی شہادت ہے، ہر صفائی کی عالمی اولینیت یا طبی معیار نہیں؛1973 میں اصالت کی رائے مدیران کی تعبیر رہتی ہے {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 p.272 commentary}۔
+
 ## مراجع
 
 - [[source/tdv-zehravi|اسین کاہیا، الزہراوی]]، صفحات189–191: سوانح، شواہد اور درباری اخبار کی حدیں۔
@@ -43,3 +47,4 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 - [[source/alzahrawi-stones-abdelhalim-2003|عبد الحلیم اور دیگر]]، صفحات1283–1291: ترجمہ و تعلیق، مخطوطات کا مستقل معائنہ نہیں۔
 - [[source/zahrawi-leclerc-chirurgie-1861|لوکلیر1861]]، باب87،207–211: موروثی سلائی، ریشے اور تجرباتی قید۔
 - [[source/majeed-islam-medicine-2005|مجید2005]]،1486–1487: جدید طبی تاریخ کا خلاصہ۔
+- [[source/zahrawi-spink-lewis-1973|سپنک و لوئیس1973]]، کتاب2، باب29،272–275: مجارد اور تعلیق؛ لوکلیر97–98 اسی باب کے لیے۔
