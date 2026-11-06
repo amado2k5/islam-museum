@@ -1,0 +1,19 @@
+id: media/diagram-ibn-munim-counting
+class: media
+kind: illustration
+label: { ar: "من عد الحروف إلى قواعد التوافيق", en: "From letter counting to combination rules", ur: "حروف کی گنتی سے توافیق کے اصول تک" }
+summary:
+  ar: "سلسلة تعليمية عامة لا خريطة نسخ محققة."
+  en: "Generic teaching chain, not a verified manuscript map."
+  ur: "عمومی تدریسی سلسلہ، تصدیق شدہ مخطوطاتی نقشہ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/combinatorics-ibn-munim]
+alt:
+  ar: "عد لغوي أقدم، ثم توافيق ابن منعم وتباديله، ثم استقبال ودراسة؛ لا سهم مباشر إلى باسكال."
+  en: "Earlier linguistic counting, Ibn Munim's combinations/permutations, then reception and study; no direct arrow to Pascal."
+  ur: "سابق لسانی گنتی، ابن منعم کی توافیق و تباديل، پھر استقبال و مطالعہ؛ پاسکال تک براہ راست تیر نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/djebbar-ibn-munim-combinatoire, source/arrabita-ibn-munim-naqr]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b62", source: "General conceptual relationships, no invented exact historical transmission." }
