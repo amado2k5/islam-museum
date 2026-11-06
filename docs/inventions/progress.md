@@ -4,6 +4,8 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Log
 
+- **Invention75 freshness guard follow-up.** First push stopped when independent #4455 advanced main to `456c16e9a4`;reviewed its passage/library/canaryData additions and rebased unpublished content without restaging frozen passage data. All permittedgates repeated successfully,unchanged totals;localtests/buildnotrun,no deployment.
+
 - **Invention75 integrated gates repeated.** Rebased unpublished content onto reviewed main `f2f9c3a4ed`,preserving #4454 passage/library/canaryData. Graph/coverage/census/validation/citation/session/whitespace all passed with unchanged entity/prose/graph/word/preservation totals. Localtests/buildnotrun,no deployment.
 
 - **Invention75 permitted gates passed.** Graph51,730nodes/82,568edges;coverage regenerated;census540leads(501active/39excluded),75inventions,268personleads/464prosehits. Validation49,822entities/84,941prose,0errors/8495warnings;authenticity0errors/1warning. Targetedcitations5/5. Sessiongate17exactsections,1587/1804/1708Arabic/English/Urdu main-bodywords;all74priorinventiondata/prose,539oldleads,maker/workoriginalprefixes/status/identity/attribution/fields andthreeearliermakerties preserved. Licence/century/perspectives/work/graph/angularsize/scaling andunchangedAmmarmedia/source passed;modernmathematicalexample notphysiologyvalidation. Whitespacepassed. Reviewed independentTabari #4454 passage/library/canaryData;integrate/repeatpermittedgates beforepublication. Localtests/buildnotrun,no deployment.
