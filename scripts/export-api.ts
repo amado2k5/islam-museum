@@ -162,6 +162,8 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
     fields: ["kind", "publisher", "url", "languages", "language", "composed", "content_type", "ruler_at_time", "collection_type", "fiqh_area", "asker_role", "form"] },
   { file: "khutab.json", feature: "khutab-durus-explorer", pick: (n) => n.class === "work" && ["sermon", "lecture", "lecture-series"].includes(n.data.kind),
     fields: ["kind", "delivered", "host", "occasion", "audience", "order", "composed", "delivery_date_status", "book_studied", "sermon_type", "language", "genre", "duration"] },
+  { file: "tafsir.json", feature: "tafsir-browser", pick: (n) => n.class === "work" && (n.data.kind === "tafsir-volume" || n.id === "work/jami-al-bayan"),
+    fields: ["kind"] },
   { file: "poetry.json", feature: "poetry", pick: (n) => n.class === "work" && ["poem", "diwan"].includes(n.data.kind),
     fields: ["kind", "authors", "language", "languages", "genre", "metre", "composed"] },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
