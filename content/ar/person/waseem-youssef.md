@@ -41,9 +41,9 @@ translators: []
 في أبريل 2024 أعلن وسيم يوسف إصابته بسرطان الساركوما، ونقلت ذلك مواقع إخبارية منها موقع CNN بالعربية. {cite:wikipedia-waseem-youssef-ar}
 
 ## المؤلفات
-- «تفسير الأحلام» (بلاتينيوم بوك، 2017). {cite:wikipedia-waseem-youssef-ar}
-- «علمتني آية» (بلاتينيوم بوك، 2017). {cite:wikipedia-waseem-youssef-ar}
-- «كنت متطرفًا» (مداد للنشر والتوزيع، 2018). {cite:wikipedia-waseem-youssef-ar}
+- «تفسير الأحلام» ⁦(بلاتينيوم بوك، 2017)⁩. {cite:wikipedia-waseem-youssef-ar}
+- «علمتني آية» ⁦(بلاتينيوم بوك، 2017)⁩. {cite:wikipedia-waseem-youssef-ar}
+- «كنت متطرفًا» ⁦(مداد للنشر والتوزيع، 2018)⁩. {cite:wikipedia-waseem-youssef-ar}
 
 ## الأثر والجمهور
 قدّم وسيم يوسف برامجه عبر قنوات فضائية عربية كبرى، وانتشرت محاضراته ومقاطعه على منصات التواصل على نطاق واسع؛ وأرقام المتابعة على المنصات أرقام متغيرة لا يثبتها المتحف إلا مؤرخة. وتسجل ويكيداتا حسابه على منصة إكس باسم waseem_yousef. {cite:wikipedia-waseem-youssef-ar} {cite:wikidata-waseem-youssef}
