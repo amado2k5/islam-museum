@@ -26,6 +26,11 @@ faith:
     note: "English Wikipedia documents that he is Muslim and celebrates goals by performing the sujud, and the Arabic article's infobox gives his religion as Muslim (مسلم). Neither names a school of Islam, and public practice is not a school attestation. Not recorded until two independent sources name a school."
     sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar]
 external_ids: { wikidata: "Q1354960" }
+footprint:
+  wikipedia: { languages: [af, ar, ary, arz, ast, az, azb, ban, be, be-tarask, bg, bn, bs, btm, ca, ce, ckb, cs, cy, da, dag, de, diq, dty, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gur, ha, he, hi, hr, hu, hy, id, io, is, it, ja, jv, ka, kaa, kk, ko, ks, la, lo, lt, lv, min, mk, ml, mos, ms, mzn, nb, ne, nl, os, pl, ps, pt, qu, ro, ru, sat, sco, sg, sh, sk, sl, so, sq, sr, sv, sw, ta, tg, th, tr, tt, uk, ur, uz, vi, vo, wuu, xmf, yue, zh, zu], checked: "2026-11-06", sources: [source/wikipedia-mohamed-salah-en] }
+  wikidata: "Q1354960"
+reach:
+  - { platform: instagram, metric: followers, value: 67800000, date: "2026-11-06", note: "@mosalah, as displayed on the profile (rounded)", sources: [source/instagram-mosalah] }
 sports:
   - { sport: football, position: forward, national_team: eg, start: { edtf: "2006" }, note: "Began at Al-Mokawloon; Liverpool 2017–2026; Trabzonspor from 2026; captain of Egypt", sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar] }
 honours:
@@ -35,10 +40,10 @@ honours:
   - { award: award/african-footballer-of-the-year, result: ranked, position: 2, year: 2022, note: "runner-up to Sadio Mané", sources: [source/wikipedia-african-footballer-of-the-year-en] }
   - { award: award/african-footballer-of-the-year, result: ranked, position: 3, year: 2023, note: "third behind Victor Osimhen and Achraf Hakimi", sources: [source/wikipedia-african-footballer-of-the-year-en] }
   - { award: award/african-footballer-of-the-year, result: ranked, position: 2, year: 2025, note: "runner-up to Achraf Hakimi", sources: [source/wikipedia-african-footballer-of-the-year-en] }
-sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar, source/wikipedia-mohamed-salah-ur, source/wikidata-mohamed-salah, source/wikipedia-african-footballer-of-the-year-en]
+sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar, source/wikipedia-mohamed-salah-ur, source/wikidata-mohamed-salah, source/wikipedia-african-footballer-of-the-year-en, source/instagram-mosalah]
 provenance:
   layer: own-research
-  source: "English, Arabic and Urdu Wikipedia articles on Mohamed Salah and Wikidata Q1354960 (item ID taken from the English article's own page information; wikidata.org itself returns 403 from the build environment); checked 24 October 2026. The Urdu article is a stub that still lists Liverpool; the English and Arabic articles, both updated for his August 2026 move to Trabzonspor, govern the current-club facts."
+  source: "English, Arabic and Urdu Wikipedia articles on Mohamed Salah and Wikidata Q1354960 (item ID taken from the English article's own page information; wikidata.org itself returns 403 from the build environment); checked 24 October 2026. The Urdu article is a stub that still lists Liverpool; the English and Arabic articles, both updated for his August 2026 move to Trabzonspor, govern the current-club facts. Modern Islam pilot batch 4 (modern-sports-b04, Claude Code claude-opus-5-5, 6 November 2026): footprint from the English article's language list at revision 1383947962 (5 November 2026, 101 sitelinks); Instagram follower figure read on the profile page in Chrome."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-3
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

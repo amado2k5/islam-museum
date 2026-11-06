@@ -1,28 +1,94 @@
 id: event/dubai-quran-award
 class: event
-kind: conference
+kind: competition
 label:
   ar: جائزة دبي الدولية للقرآن الكريم
   en: Dubai International Holy Quran Award
+  ur: دبئی بین الاقوامی قرآن کریم ایوارڈ
 summary:
-  ar: الجائزة والمسابقة السنوية في حفظ القرآن وتجويده في دبي منذ 1997؛ تجمع حفاظاً من أكثر من مئة دولة.
-  en: Dubai's annual Qur'an-memorisation award and contest since 1997, drawing reciters from a hundred-plus countries.
-wings: [time]
+  ar: جائزة ومسابقة دولية سنوية لحفظ القرآن الكريم في دبي، انطلقت سنة 1418هـ (1997) بأمر محمد بن راشد آل مكتوم؛ تنظم مسابقة
+    دولية للذكور وأخرى للإناث ومسابقات محلية، وتكرم كل عام «شخصية العام الإسلامية»، وتصدر كتبا في الدراسات القرآنية.
+  en: An annual international award and competition for memorising the Qur'an in Dubai, launched in 1418 AH (1997) by order
+    of Muhammad bin Rashid Al Maktoum; it runs an international competition for men, another for women and local competitions,
+    honours an Islamic Personality of the Year, and publishes books in Qur'anic studies.
+  ur: دبئی میں حفظِ قرآن کا سالانہ بین الاقوامی انعام اور مقابلہ، جو 1418ھ (1997) میں محمد بن راشد آل مکتوم کے حکم سے شروع
+    ہوا؛ مردوں اور خواتین کے بین الاقوامی اور مقامی مقابلے کرواتا ہے، ہر سال «اسلامی شخصیتِ سال» کو اعزاز دیتا ہے اور قرآنی
+    علوم پر کتابیں شائع کرتا ہے۔
+wings:
+- time
+- today
 themes:
 - scripture-and-its-sciences
 - pilgrimages-and-mass-gatherings
 recurs: annual
 first_held:
   edtf: '1997'
+  hijri: '1418'
   calendar: gregorian
   precision: year
+  status: debated
+  derived: true
+  note: 1418 AH (1997) by the Arabic article, citing the award's own site; the first session's reception is pictured in January
+    1998; the infobox and Wikidata give 30 December 1998.
+  sources:
+  - source/wikipedia-dubai-quran-award-ar
+  - source/wikidata-dubai-quran-award
 regions:
 - arabia
 external_ids:
   wikidata: Q5310567
 sources:
+- source/wikipedia-dubai-quran-award-ar
+- source/wikidata-dubai-quran-award
 - source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+places:
+- place/dubai
+editions:
+- year: 2018
+  note: '22nd session: first Ahmad Burhan Muhammad (United States), second Hamza al-Bashir Salim Harsha (Libya), third Muhammad
+    bin Abd al-Qadir Mu''arraf (Tunisia)'
+- year: 2019
+  note: '23rd session: first Mu''adh Mahmud Amir (Libya), second Ahmad Ashiri (Morocco), third Ibrahim Mu''adh (Niger)'
+- year: 2021
+  note: '24th session: first Muhammad Abd al-Rahman Abu Qasim (Syria), second Abd al-Ghani Mustafa Yahya (United States),
+    third Muzzammil Ahmad Muhammad Ahmad (Sudan)'
+- year: 2022
+  note: '25th session: first Boubakr Abd al-Hadi Raji'' (Algeria), second al-Hajj Shaykh Jah (Senegal), third Nadi Sa''d Jabir
+    Muhammad (Egypt); Emirates Post issued a stamp for the award''s 25th anniversary'
+- year: 2023
+  note: '26th session: first Salih Ahmad Takrim (Bangladesh), second Abbas Hadi Umar (Ethiopia), third Khalid Sulayman Salih
+    al-Barakani (Saudi Arabia)'
+- year: 2024
+  note: '27th session: first Muhammad Adnan Abd Allah (Bahrain), second Naji Atiyya Naji (Libya), third Shaykh Tijan Salih
+    (Gambia)'
+relations:
+- type: organized_by
+  target: person/mohammed-bin-rashid-al-maktoum
+  note: launched by his order; the award runs under his patronage
+  sources:
+  - source/wikipedia-dubai-quran-award-ar
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - az
+    - bn
+    - en
+    - ms
+    - uz
+    checked: '2026-11-06'
+    sources:
+    - source/wikidata-dubai-quran-award
+  wikidata: Q5310567
+provenance:
+  layer: own-research
+  source: Arabic Wikipedia «جائزة دبي الدولية للقرآن الكريم» (revision 76532484, 12 September 2026) and Wikidata Q5310567
+    (revision 2554383671), read in Chrome on the founder's Mac on 6 November 2026; kind corrected from conference to competition;
+    the Islamic Personality of the Year is written as its own award record
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-pilot-b04
