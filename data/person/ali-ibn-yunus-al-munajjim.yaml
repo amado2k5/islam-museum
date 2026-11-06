@@ -1,6 +1,8 @@
 id: person/ali-ibn-yunus-al-munajjim
 class: person
-label: { ar: "علي بن يونس المنجم", en: "Ali ibn Yunus" }
+label: { ar: "علي بن يونس المنجم", en: "Ali ibn Yunus", ur: "علی ابن یونس" }
+names:
+  - { kind: alternate, lang: ur, value: "علی ابن یونس صدفی" }
 died: { edtf: "1009", hijri: "0399", calendar: julian, precision: day, status: tradition, derived: true, note: "قال المسبحي: كانت وفاته بكرة يوم الاثنين لثلاث خلون من شوال سنة تسع وتسعين وثلاثمائة فجأة، وصلى عليه في الجامع بمصر القاضي مالك بن سعيد ودُفن بداره بالفرّاحين {cite:wafayat-ayan}." }
 summary:
   ar: "أبو الحسن علي بن أبي سعيد عبد الرحمن بن أحمد بن يونس بن عبد الأعلى الصدفي المنجم المصري؛ صاحب «الزيج الحاكمي» المعروف بزيج ابن يونس وهو زيج كبير رآه ابن خلكان في أربع مجلدات أسقط القول والعمل فيه وما أقصر في تحريره ولم يرَ في الأزياج على كثرتها أطول منه، وقد أمره بعمله وابتدأه له العزيز صاحب مصر؛ وكان مختصاً بعلم النجوم متصرفاً في سائر العلوم بارعاً في الشعر؛ ويُحكى في غفلته أن الحاكم قال: دخل إليّ يوماً ومداسه بيده فقبّل الأرض وجلس وترك المداس إلى جانبه {cite:wafayat-ayan}."
@@ -8,6 +10,18 @@ summary:
 gender: male
 roles: [astronomer, poet]
 wings: [people]
+regions: [egypt-nile]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Individual Muslim basis: O'Connor/Robertson MacTutor explicitly names Ibn Yunus an Islamic mathematician. Sunni separately museum default frame, not inferred from family, Arabic name or Fatimid patrons and not a personal madhhab certificate; no contrary personal sect attestation in read biographies."
+    sources: [source/ibn-yunus-mactutor, source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer]
+inventions:
+  - invention: invention/ibn-yunus-solar-time-tables
+    role: improver
+    note: "Contributor to Cairo solar-time corpus, not sole author of later surviving tables or inventor of a pendulum clock."
+    sources: [source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer]
 periods: [period/abbasid-fragmentation]
 provenance:
   layer: own-research
@@ -15,7 +29,9 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch50
-sources: [source/wafayat-ayan]
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b58", source: "Append defined identity/default-frame basis, bounded solar-time contribution and sourced trilingual prose extensions. Preserve original date/summary/occupations/identifier/provenance/status and all existing prose/front matter; old source not newly certified." }
+sources: [source/wafayat-ayan, source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer, source/ibn-yunus-mactutor]
 status: { review: published, completeness: 3 }
 external_ids: { wikidata: Q459921 }
 occupations:
