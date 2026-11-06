@@ -7,7 +7,7 @@ translators: []
 
 # محمد عبد الله محمد
 
-محمد عبد الله محمد (ولد في 11 مارس 1962)، المعروف بفرماجو، سياسي صومالي شغل رئاسة الصومال من 2017 إلى 2022، ورئاسة وزرائه من 2010 إلى 2011 قبل ذلك.{cite:source/wikipedia-mohamed-abdullahi-mohamed-en}{cite:source/wikidata-mohamed-abdullahi-mohamed}
+محمد عبد الله محمد ⁦(ولد في 11 مارس 1962)⁩، المعروف بفرماجو، سياسي صومالي شغل رئاسة الصومال من 2017 إلى 2022، ورئاسة وزرائه من 2010 إلى 2011 قبل ذلك.{cite:source/wikipedia-mohamed-abdullahi-mohamed-en}{cite:source/wikidata-mohamed-abdullahi-mohamed}
 
 ## مقديشو وبافالو والخدمة في الخارج
 

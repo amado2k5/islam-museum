@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.716" }
 ---
 ## موجز
-مسكينة الطفاوية من عابدات [[place/basra|البصرة]] في [[work/sifat-al-safwa|صفة الصفوة]] (الترجمة 611)، وكانت من المواظبات على حلق الذكر. {cite:sifat-al-safwa-tartusi-2012 p.716}
+مسكينة الطفاوية من عابدات [[place/basra|البصرة]] في [[work/sifat-al-safwa|صفة الصفوة]] ⁦(الترجمة 611)⁩، وكانت من المواظبات على حلق الذكر. {cite:sifat-al-safwa-tartusi-2012 p.716}
 
 ## مجلس عيسى بن زاذان
 يروي عن عمار الراهب أنها كانت تحضر معهم مجلس عيسى بن زاذان بـ[[place/al-ubulla|الأبلة]]، تنحدر من البصرة حتى تأتيه قاصدة. {cite:sifat-al-safwa-tartusi-2012 p.716}

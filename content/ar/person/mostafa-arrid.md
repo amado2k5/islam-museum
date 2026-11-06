@@ -30,4 +30,4 @@ translators: []
 منهجه المعلن في قناته تقديم الإرشاد النفسي في إطار إسلامي، إذ يقرن موضوعات النفس والقلق بمادة دينية من القرآن والسنة والفقه. {cite:youtube-mostafa-arrid}
 
 ## المراجع
-- «إشراقات نفسية /D.Mostafa Arrid — YouTube channel» (قناته الرسمية؛ رُوجعت في 26 أكتوبر 2026). {cite:youtube-mostafa-arrid}
+- «إشراقات نفسية /D.Mostafa Arrid — YouTube channel» ⁦(قناته الرسمية؛ رُوجعت في 26 أكتوبر 2026)⁩. {cite:youtube-mostafa-arrid}
