@@ -2,20 +2,37 @@ id: event/bishwa-ijtema
 class: event
 kind: gathering
 label:
-  ar: الاجتماع العالمي (بشوة اجتماع)
+  ar: الاجتماع العالمي (بشوا اجتماع)
   en: Bishwa Ijtema
+  ur: بشوا اجتماع (عالمی تبلیغی اجتماع)
 summary:
-  ar: الاجتماع السنوي لجماعة التبليغ على ضفاف نهر توراغ قرب دكا — ثاني أكبر تجمع إسلامي سنوي في العالم بعد الحج بملايين المصلين.
-  en: The Tablighi Jamaat's annual gathering on the Turag riverbank near Dhaka — the world's second-largest annual Muslim
-    gathering, drawing millions.
-wings: [time]
+  ar: الاجتماع السنوي الذي ينظمه فرع جماعة التبليغ في بنغلاديش على ضفة نهر توراغ في تونغي شمال دكا منذ 1967، ثلاثة أيام من
+    الصلاة والبيان تختم بالدعاء الختامي (آخري مناجات)؛ قُدّر حضوره بمليونين في 2001 وبأربعة ملايين في 2023، ويُعقد على مرحلتين
+    منذ 2010 لكثرة الحضور.
+  en: 'The annual gathering held by the Bangladeshi branch of the Tablighi Jamaat on the bank of the Turag at Tongi, north
+    of Dhaka, since 1967: three days of prayer and talks closing with the final supplication (Akheri Munajat); attendance
+    was estimated at 2 million in 2001 and 4 million in 2023, and it has been held in two phases since 2010 because of the
+    crowds.'
+  ur: 'تبلیغی جماعت کی بنگلہ دیش شاخ کا سالانہ اجتماع جو 1967 سے ڈھاکہ کے شمال میں تونگی میں دریائے توراغ کے کنارے ہوتا ہے:
+    تین دن نماز اور بیانات، اور آخر میں «آخری مناجات»؛ حاضری کا اندازہ 2001 میں 20 لاکھ اور 2023 میں 40 لاکھ لگایا گیا، اور
+    ہجوم کی وجہ سے 2010 سے یہ دو مرحلوں میں ہوتا ہے۔'
+wings:
+- time
 themes:
 - pilgrimages-and-mass-gatherings
 recurs: annual
 first_held:
   edtf: '1954'
+  hijri: 1373~
   calendar: gregorian
   precision: year
+  status: historical
+  derived: true
+  note: The first Tablighi Jamaat ijtema in what is now Bangladesh was held at Kakrail Mosque in 1946; the movement's gatherings
+    ran from 1954 (Chittagong), and the event moved to Tongi in 1967 and took the name Bishwa Ijtema; the article's infobox
+    dates the Bishwa Ijtema from 1969. The Hijri year is converter-derived.
+  sources:
+  - source/wikipedia-bishwa-ijtema-en
 places:
 - place/dhaka
 regions:
@@ -23,8 +40,80 @@ regions:
 external_ids:
   wikidata: Q4918154
 sources:
+- source/wikipedia-bishwa-ijtema-en
 - source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+editions:
+- year: 2001
+  attendance:
+    value: 2000000
+    status: debated
+    note: estimate (Banglapedia)
+    sources:
+    - source/wikipedia-bishwa-ijtema-en
+- year: 2007
+  note: between 20,000 and 50,000 foreign participants estimated, from South Asia, Russia and Central Asia, Europe, Southeast
+    Asia, the Middle East, North Africa and the United States (Reuters)
+- year: 2008
+  note: cut short to one day by rain and cold; three participants died (The Daily Star, 26 January 2008)
+- year: 2010
+  attendance:
+    value: 5000000
+    status: debated
+    note: estimate reported by The Telegraph (2016) for the gathering at its height; the event was split into two phases a
+      week apart from 2010
+    sources:
+    - source/wikipedia-bishwa-ijtema-en
+- year: 2018
+  attendance:
+    value: 2000000
+    status: debated
+    note: estimate (Al Jazeera, 24 January 2018); the final supplication was given in Bengali, by the article the first time
+      since 1980
+    sources:
+    - source/wikipedia-bishwa-ijtema-en
+- year: 2023
+  attendance:
+    value: 4000000
+    status: debated
+    note: estimate (Prothom Alo, 15 January 2023); phases of 13 to 15 and 20 to 22 January
+    sources:
+    - source/wikipedia-bishwa-ijtema-en
+- year: 2024
+  note: two phases, 2 to 4 and 9 to 11 February; participants from about 56 countries in the second phase; fourteen elderly
+    participants died at the venue during the first phase (UNB, 4 February 2024)
+relations:
+- type: organized_by
+  target: group/tablighi-jamaat
+  note: the Bangladeshi branch, with associated organisations and madrasas, helped by the Government of Bangladesh
+  sources:
+  - source/wikipedia-bishwa-ijtema-en
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - bn
+    - cs
+    - de
+    - en
+    - fr
+    - lb
+    - ru
+    - sr
+    - uk
+    - ur
+    - zh
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-bishwa-ijtema-en
+  wikidata: Q4918154
+provenance:
+  layer: own-research
+  source: English Wikipedia "Bishwa Ijtema" (revision 1360546371, 22 June 2026), read in Chrome on the founder's Mac on 6
+    November 2026; attendance figures are recorded as the dated estimates the cited press gave, with status debated
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-pilot-b02

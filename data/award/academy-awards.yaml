@@ -1,0 +1,29 @@
+id: award/academy-awards
+class: award
+kind: prize
+label: { ar: "جوائز الأوسكار (جوائز الأكاديمية)", en: "Academy Awards (Oscars)", ur: "اکیڈمی ایوارڈز (آسکر)" }
+summary:
+  ar: "الجوائز السنوية لأكاديمية فنون وعلوم الصور المتحركة في الولايات المتحدة، تُمنح منذ 16 مايو 1929 للتميز في صناعة السينما في فئات عدة، منها أفضل موسيقى تصويرية أصلية."
+  en: "The annual awards of the Academy of Motion Picture Arts and Sciences in the United States, given since 16 May 1929 for excellence in the film industry across many categories, Best Original Score among them."
+  ur: "امریکہ کی اکیڈمی آف موشن پکچر آرٹس اینڈ سائنسز کے سالانہ ایوارڈ، جو 16 مئی 1929 سے فلمی صنعت میں عمدگی پر کئی زمروں میں دیے جاتے ہیں، جن میں بہترین اوریجنل اسکور بھی ہے۔"
+wings: [today]
+regions: [americas-oceania]
+awarded_by: group/academy-of-motion-picture-arts-and-sciences
+since: { edtf: "1929-05-16", hijri: "1347-12", calendar: gregorian, precision: day, status: historical, derived: true, note: "First award ceremony on 16 May 1929; the Hijri month is converter-derived.", sources: [source/wikipedia-academy-awards-en] }
+categories:
+  - { id: best-original-score, label: { ar: "أفضل موسيقى تصويرية أصلية", en: "Best Original Score", ur: "بہترین اوریجنل اسکور" } }
+country: us
+recurs: annual
+links: { website: "https://www.oscars.org" }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-06", sources: [source/wikipedia-academy-awards-en] }
+  wikidata: "Q19020"
+external_ids: { wikidata: "Q19020" }
+sources: [source/wikipedia-academy-awards-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Academy Awards' (revision 1383983410, 6 November 2026), infobox only, read in Chrome on the founder's Mac on 6 November 2026; written as the award record behind the 1978 nomination of The Message; the Wikipedia language count records only the article read (140 sitelinks listed)"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-pilot-b02
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
