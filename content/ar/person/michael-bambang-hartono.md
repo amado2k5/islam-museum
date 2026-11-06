@@ -7,7 +7,7 @@ translators: []
 
 ## ملخص
 
-مايكل بامبانغ هارتونو (2 تشرين الأول 1939 – 19 آذار 2026) وريث وملياردير إندونيسي شارك أخاه الأصغر روبرت بودي هارتونو ملكية شركة جاروم لصناعة الكريتك، ولاعب بريدج دولي نال البرونزية لإندونيسيا في ألعاب آسيا 2018 {cite:wikipedia-michael-bambang-hartono-en} {cite:veritas-indonesia-michael-bambang-hartono-obituary}.
+مايكل بامبانغ هارتونو ⁦(2 تشرين الأول 1939 – 19 آذار 2026)⁩ وريث وملياردير إندونيسي شارك أخاه الأصغر روبرت بودي هارتونو ملكية شركة جاروم لصناعة الكريتك، ولاعب بريدج دولي نال البرونزية لإندونيسيا في ألعاب آسيا 2018 {cite:wikipedia-michael-bambang-hartono-en} {cite:veritas-indonesia-michael-bambang-hartono-obituary}.
 
 ## حياته
 

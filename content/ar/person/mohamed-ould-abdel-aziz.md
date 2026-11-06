@@ -7,7 +7,7 @@ translators: []
 
 # محمد ولد عبد العزيز
 
-محمد ولد عبد العزيز (وُلد في 20 ديسمبر 1956) ضابط موريتاني متقاعد وسياسي شغل منصب الرئيس الثامن لموريتانيا بين 2009 و2019. {cite:wikipedia-mohamed-ould-abdel-aziz-en} {cite:wikidata-mohamed-ould-abdel-aziz}
+محمد ولد عبد العزيز ⁦(وُلد في 20 ديسمبر 1956)⁩ ضابط موريتاني متقاعد وسياسي شغل منصب الرئيس الثامن لموريتانيا بين 2009 و2019. {cite:wikipedia-mohamed-ould-abdel-aziz-en} {cite:wikidata-mohamed-ould-abdel-aziz}
 
 ## الانقلابان
 
