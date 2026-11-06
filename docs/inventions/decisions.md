@@ -510,3 +510,17 @@ Scope of the sign-off is limited to the exact class, enums, predicates, existing
 **Scope and risk:** `non-impacting`, content within the founder-approved inventions lane. No schema, code, UI, Worker, workflow or submission-document changes. Ibn Abi Usaybia and Ibn al-Nadim are references reported by TDV, not independently read primary pages.
 
 **Touches:** `data/invention/harun-bimaristan.yaml`, `data/source/tdv-{bimaristan,buhtisu}.yaml`, `data/person/{harun-al-rashid,jibril-ibn-bukhtishu}.yaml`, `data/media/diagram-harun-bimaristan.yaml`, `content/{ar,en,ur}/invention/harun-bimaristan.md`, the inventions queue/research/progress/census, `docs/coverage.md` and `CANARY.md`.
+
+## D-051 — Record Ibn Tulun's endowed patient-care institution (5 November 2026)
+
+**Question:** Does another bimaristan add a distinct documented contribution rather than inflate the count with a building? What do the conflicting foundation dates and priority claims permit?
+
+**Decision:** Publish `invention/ibn-tulun-bimaristan`, kind `institution`, attribution `improvement`, with Ahmad ibn Tulun as commissioner. Al-Maqrizi's quotation from the Tulunid biography describes endowed properties, admission exclusions, custody of clothes and money, supplied dress and bedding, medicines and food until recovery, and discharge with belongings returned. This is the specific institutional development recorded, not invention of hospitals or unprecedented priority for each procedure. Link to `invention/waqf` as the explicitly documented financial/legal basis; do not infer direct copying by a later hospital. No direct dependents or spread are established.
+
+**Limits:** Al-Maqrizi quotes 259 AH from al-Kindi and 261 AH from the biography; TDV gives 872 CE. Keep a debated, derived `0872/0875` interval, not an invented opening year or construction-start explanation. Attribute the biography's “no earlier Egyptian hospital” claim alongside TDV's Fath ibn Khaqan foundation of 861; do not adopt priority as this record's claim. Preserve soldiers/mamluks as exclusions rather than describe universal access. The sixty thousand dinars are expenditure on the hospital and its income-producing estate, not annual expenditure or patient allowances. The primary anecdote says pomegranate from Arish; TDV says apple. Retain the discrepancy, with no retrospective psychiatric diagnosis or endorsement of restraints.
+
+**Identity and image:** TDV's biography documents hadith and Hanafi study; record that evidence and the explicit Sunni default frame, not an inference from name or ancestry. The CC BY 3.0 Berthold Werner mosque photograph is contextual only: al-Maqrizi says the hospital left no trace. The diagram is a relationship chain, not a reconstruction.
+
+**Scope and risk:** `non-impacting`, content within the approved inventions lane. No schema, code, UI, Worker, workflow or submission-document changes.
+
+**Touches:** the new invention, source `tdv-ahmed-b-tolun`, two media records, the commissioner's faith/invention/source blocks, ar/en/ur articles, inventions queue/research/progress/census, generated `docs/coverage.md` and `CANARY.md`.
