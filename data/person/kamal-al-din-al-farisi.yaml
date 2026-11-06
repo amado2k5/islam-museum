@@ -1,0 +1,24 @@
+id: person/kamal-al-din-al-farisi
+class: person
+label: { ar: "كمال الدين الفارسي", en: "Kamal al-Din al-Farisi", ur: "کمال الدین فارسی" }
+names:
+  - { kind: full, lang: ar, value: "كمال الدين أبو الحسن محمد بن الحسن الفارسي" }
+gender: male
+roles: [mathematician]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "IndividualMuslimbasis:MacTutorexplicitIslamicmathematician. Sunni separately declared museum default frame,no personal sect certificate inferred fromname/nationality/teachers;readscholarlyaccountsnotexplicitpersonaldenomination."
+    sources: [source/farisi-mactutor, source/russell-faresi-iranica]
+born: { edtf: "1260~", calendar: julian, precision: year, status: tradition, note: "MacTutorabout1260,notexactbirthdate/noinventedHijri.", sources: [source/farisi-mactutor] }
+died: { edtf: "1320~", calendar: julian, precision: year, status: tradition, note: "MacTutorabout1320,Tabriz;Iranica1320reported. NoexactdayorunverifiedHijripaired.", sources: [source/farisi-mactutor, source/russell-faresi-iranica] }
+summary: { ar: "عالم بصريات وحساب،نقح أعمال ابن الهيثم ودرس القوس بقطرة نموذجية،لا نظرية لون حديثة {cite:farisi-mactutor biography} {cite:russell-faresi-iranica rainbow}.", en: "Optics/arithmetic scholar,revised Ibn al-Haytham and studied rainbow paths with a droplet model,not modern colour theory {cite:farisi-mactutor biography} {cite:russell-faresi-iranica rainbow}.", ur: "بصریات و حساب کا عالم،ابن ہیثم کی تنقیح و قطری نمونے سے قوس کے راستے،جدید رنگی نظریہ نہیں {cite:farisi-mactutor biography} {cite:russell-faresi-iranica rainbow}۔" }
+inventions:
+  - { invention: invention/farisi-water-sphere-rainbow, role: improver, note: "Water-filledsphere/primary-secondarypaths;teacherprioritydebateattributed,notglobalfirstalloptics.", sources: [source/farisi-mactutor, source/russell-faresi-iranica] }
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+sources: [source/farisi-mactutor, source/russell-faresi-iranica, source/boyle-rainbow-science-museum]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b79", source: "ActualMacTutor/Russellbrowserbody/museumblog;notoriginalArabic/manuscripts/listedstudies. Approxdates/declaredfaithframeexplicit." }

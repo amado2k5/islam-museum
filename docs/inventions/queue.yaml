@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: farisi-water-sphere-rainbow
+    label: "Al-Farisi's water-sphere rainbow model"
+    state: "[x]"
+    batch: 4
+    domain: optics-physics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/kamal-al-din-al-farisi", "work/tanqih-al-manazir-farisi", "source/farisi-mactutor", "source/russell-faresi-iranica", "source/boyle-rainbow-science-museum"]
+    invention: invention/farisi-water-sphere-rainbow
+    lead_sources:
+      - "Actual complete MacTutor body, Russell article body in browser, Science Museum article"
+      - "Actual Commons description/API rights/current double-rainbow preview, Eric Rolph, CC BY-SA2.5"
+    flags: [completed-D120-b79, water-sphere-not-first-camera-or-refraction, primary-one-secondary-two-internal-reflections, glass-boundary-approximation-explicit, correct-paths-not-correct-colour-theory, teacher-priority-Boyer-Rashed-attributed, Theodoric-parallel-not-theft, no-Latin-translation-evidence-not-impossibility-proof, disputed-completion-no-exact1309, no-original-Tanqih-edition-manuscript-full-Rashed-reading, modern-path-symbols-labelled, modern-Alaska-photo-not-apparatus-or-experiment-site, upload-not-capture-date, no-Sun-viewing-instructions]
   - id: abu-wafa-debt-multiplication
     label: "Abu al-Wafa's debt-aware complement multiplication"
     state: "[x]"
