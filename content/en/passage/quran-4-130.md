@@ -18,6 +18,6 @@ God enriches each from His bounty: God gives the husband and the divorced wife o
 
 Reports 10672 and 10673, from Mujahid through Ibn Abi Najih and Shibl, say that the parting in the verse is divorce. The editor notes that the printed text adds words absent from the manuscript, and that the Durr al-Manthur gives Mujahid's word as simply 'divorce'. {cite:tafsir-tabari-shakir-v09 p. 294}
 
-We stop here after report 10673 at p. 294, and will continue from report 10674 in the commentary on verse 130 of sura 4. {cite:tafsir-tabari-shakir-v09 p. 294}
+The reports on verse 130 end with report 10673 at p. 294; verse 131 begins on p. 295. {cite:tafsir-tabari-shakir-v09 p. 294}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
