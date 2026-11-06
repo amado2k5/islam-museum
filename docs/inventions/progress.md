@@ -4,6 +4,8 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Log
 
+- **Invention65 freshness follow-up.** Second guard stopped push when independent Tabari #4413 advanced main to `c050e1dc06`; reviewed and integrated its passage/library/canary additions without content loss. Repeating permitted gates before push; no local tests/build/deployment.
+
 - **Invention65 final freshness integration.** Guard stopped push when independent Modern Islam/browser-register #4412 advanced main to `4cd726f0ea`; reviewed incoming schema/graph/API/validator/site/docs changes and new graph/API/search rule, integrated unpublished commits without discarding changes. Repeated graph/coverage/census/citations/session assertions and validation: same entity/prose/count totals,0 errors,8495 warnings under expanded validator, authenticity0 errors/1 warning. No changes to the other lane. Local tests/build not run per founder; no deployment.
 
 - **Invention65 integrated; permitted gates repeated.** Content `4e17f51827` integrates reviewed #4409–#4411 at `56b8f61598`. Three-way canary resolution preserves every incoming entry and the invention entry. Regenerated graph/coverage/census, validation, targeted citations and session depth/preservation/math/graph assertions all pass with unchanged totals. Next templated PR/self-merge/main-count verification;35 remain after65 merges. Local tests/build founder-skipped; no deployment.
