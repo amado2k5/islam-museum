@@ -1,11 +1,42 @@
 id: person/umar-khayyam
 class: person
-label: { ar: "عمر الخيام", en: "Umar Khayyam" }
+label: { ar: "عمر الخيام", en: "Umar Khayyam", ur: "عمر خیام" }
 names:
   - { kind: full, lang: ar, value: "عمر بن إبراهيم الخيام أبو الفتح" }
 gender: male
 roles: [scientist, poet]
 traditions: [sunni]
+faith:
+  - value: sunni
+    basis: debated
+    note: "Stanford2.7 explicitly describes his philosophical writing as that of a Muslim philosopher. Sunni is the museum's declared default frame under docs/scope.md for the documented Seljuk milieu, not personal madhhab testimony. Unat reports Daya's hostile classification; Stanford distinguishes philosophical writings from the contested poetic image. See labelled perspectives; no verdict inferred from name, patron or disputed poems."
+    sources: [source/sep-umar-khayyam, source/tdv-omer-hayyam-unat, source/khayyam-mactutor]
+issue: { ar: "كيف نفصل الإطار السني والصوت الفلسفي من صور الخيام المتنازعة؟", en: "How do we distinguish the Sunni frame and philosophical voice from disputed images of Khayyam?", ur: "سنی سیاق اور فلسفیانہ آواز کو خیام کی مختلف تصویروں سے کیسے الگ کیا جائے؟" }
+perspectives:
+  - tradition: sunni
+    id: declared-sunni-frame
+    stance: { ar: "الإطار السني المعلن، لا شهادة مذهب شخصي", en: "Declared Sunni frame, not personal school testimony", ur: "اعلان کردہ سنی سیاق، ذاتی مسلک کی شہادت نہیں" }
+    summary:
+      ar: "الإطار السني قاعدة المتحف المعلنة في السياق السلجوقي الموثق، لا استنتاج من اسم أو بلاط ولا دعوى أن المصدر أثبت مذهباً فقهياً. التصنيف الفردي مسلماً يستند إلى وصف ستانفورد لكتابته الفلسفية."
+      en: "Sunni is the museum's declared frame in the documented Seljuk setting, not inference from name or court and not a claim that the source proves a personal legal school. Individual Muslim classification rests on Stanford's description of his philosophical writing."
+      ur: "مستند سلجوقی ماحول میں سنی میوزیم کا اعلان کردہ سیاق ہے، نام یا دربار سے اخذ شدہ مسلک یا ذاتی فقہی وابستگی کا ثبوت نہیں۔ انفرادی مسلم شناخت اسٹینفورڈ کے فلسفیانہ تحریر کے بیان پر ہے۔"
+    sources: [source/sep-umar-khayyam, source/khayyam-mactutor]
+  - tradition: academic
+    id: philosophical-and-poetic-voices
+    stance: { ar: "قراءة ستانفورد للصوتين الفلسفي والشعري", en: "Stanford's philosophical/poetic distinction", ur: "اسٹینفورڈ کا فلسفیانہ اور شعری آواز میں فرق" }
+    summary:
+      ar: "تصف الموسوعة الخيام في مؤلفاته الفلسفية فيلسوفاً مسلماً، وتناقش التوتر الظاهر مع الصورة الشعرية المتشككة؛ لا يتحول هذا التحليل إلى إقرار ذاتي بالمذهب أو حكم على كل رباعية."
+      en: "The entry describes him in philosophical works as a Muslim philosopher and discusses the apparent tension with a skeptical poetic image; that analysis is not a personal school declaration or authentication of every quatrain."
+      ur: "مدخل فلسفیانہ تصانیف میں انہیں مسلم فلسفی کہتا اور متشکک شعری تصویر سے ظاہری کشمکش سمجھاتا؛ یہ ذاتی مسلکی اعلان یا ہر رباعی کی تصدیق نہیں۔"
+    sources: [source/sep-umar-khayyam]
+  - tradition: other
+    id: reported-daya-criticism
+    stance: { ar: "نقد نجم الدين داية، كما ينقله أونات", en: "Najm al-Din Daya's criticism, reported by Unat", ur: "نجم الدین دایہ کا نقد، اونات کی روایت سے" }
+    summary:
+      ar: "ينقل أونات وصف داية العدائي للخيام بأنه ملحد ومادي، إلى جانب أخبار أخرى مادحة. هذا حكم ناقد منقول، لا صوت المتحف أو تحقق مستقل من نص داية."
+      en: "Unat reports Daya's hostile description as godless and materialist alongside favorable accounts. This is an attributed critic's judgment, not the museum's voice or an independent reading of Daya."
+      ur: "اونات مدح کی روایات کے ساتھ دایہ کی بے دین اور مادہ پرست والی معاندانہ نسبت نقل کرتے ہیں۔ یہ ناقد کا منسوب فیصلہ ہے، میوزیم کی آواز یا دایہ کے اصل متن کی آزاد قرأت نہیں۔"
+    sources: [source/tdv-omer-hayyam-unat]
 born: { edtf: "1048", hijri: "0439", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "1131", hijri: "0526", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
@@ -22,9 +53,11 @@ relations:
   - { type: participated_in, target: event/jalali-calendar-reform-467, role: "رئيس فريق التقويم", sources: [source/mawsuat-a3lam-ulama-adaba] }
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+inventions:
+  - { invention: invention/khayyam-geometric-cubics, role: improver, note: "Systematic conic treatment of fourteen cubic forms; earlier particular solutions and limits retained.", sources: [source/sep-umar-khayyam, source/khayyam-woepcke-1851] }
 external_ids:
   wikidata: Q35900
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/sep-umar-khayyam, source/tdv-omer-hayyam-unat, source/khayyam-mactutor, source/khayyam-woepcke-1851]
 status:
   review: published
   completeness: 3
@@ -34,7 +67,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch63
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b33", source: "Actual Stanford2.7/4.1, Unat scientific section, MacTutor and French primary32–34; maker tie, cited biography, debated-faith perspectives and corrected childhood-friend shorthand. Earlier Devin date traditions/attribution retained; Haiku translation history retained in prose." }
 kids:
-  ar: "عمر الخيام شاعر فارسي ورياضيّ وفلكيّ، أصلح التقويم مع صديقه الوزير نظام الملك."
-  en: "Umar Khayyam, Persian poet, mathematician and astronomer — with his friend the vizier Nizam al-Mulk he reformed the calendar."
-  ur: "عمر خیام فارسی شاعر، ریاضی دان اور فلکی دان تھا — دوست وزیر نظام الملک کے ساتھ کیلنڈر درست کیا۔"
+  ar: "عرف الخيام كيف تساعد المنحنيات على حل مسائل مكعبة، وشارك في مشروع تقويم برعاية ملكشاه. قصة زمالة الطفولة مع نظام الملك لا تستقيم زمنياً؛ الرعاية ليست برهان صداقة {cite:sep-umar-khayyam sec.4.1} {cite:khayyam-mactutor life}."
+  en: "Khayyam used curves to solve cubic problems and worked on a calendar project supported by Malik Shah. The childhood-schoolfriend story with Nizam al-Mulk does not fit the chronology; patronage does not prove friendship {cite:sep-umar-khayyam sec.4.1} {cite:khayyam-mactutor life}."
+  ur: "خیام نے منحنیوں سے مکعب مسائل حل کیے اور ملک شاہ کے زیر سرپرستی تقویمی منصوبے میں کام کیا۔ نظام الملک کے ساتھ بچپن کی ہم جماعتی زمانی ترتیب سے نہیں ملتی؛ سرپرستی دوستی کا ثبوت نہیں {cite:sep-umar-khayyam sec.4.1} {cite:khayyam-mactutor life}۔"
