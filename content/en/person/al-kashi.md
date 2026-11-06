@@ -28,3 +28,11 @@ MacTutor qualifies unrestricted invention claims for decimals and roots by discu
 The Khaqani Zij updates the Ilkhani tradition; other works address celestial sizes, distances and computational instruments. Okten lists the Nuzhat al-hadaiq and its versions, observation, qibla and multiplication works. Iranica considers some titles or attributions insufficiently studied; we do not claim firsthand knowledge of unread texts or silently adopt disputed authorship {cite:tdv-kashi-okten works} {cite:iranica-kashi works}.
 
 Iranica distinguishes computational and instrument skill from less-established work in cosmological planetary theory. This is a historian's assessment of available evidence, not denial of every possible activity. We read the specified articles, not original letters, manuscripts or Luckey's edition. The older person's data, including its cautions about al-A'lam and Wikidata, remain attributed to their original contributor, not newly certified {cite:iranica-kashi concluding assessment}.
+
+## Sourced extension: sine treatise and Qadi Zada
+
+This batch61 addition does not replace earlier prose or authorship. The [[invention/kashi-sine-one-degree|sine-one-degree computation]] now has a distinct record tied to the [[work/risala-watar-jayb-kashi|Chord and Sine]]. It is numerical improvement, not invention of sine or every cubic; MacTutor acknowledges al-Biruni's earlier approximation {cite:kashi-mactutor final treatise}.
+
+Descriptions differ: al-Kashi's biography discusses possible completion by Qadi Zada, TDV a commentary, Qadi Zada's biography a different method. Iranica includes the title in the1427 Key's list; that does not establish completion or settle joint authorship without reading texts. Precision summaries differ too. A modern example does not certify historical digits; original and commentary were not read here {cite:kashi-mactutor final treatise} {cite:tdv-kashi-okten work8} {cite:qadi-zada-mactutor original work} {cite:iranica-kashi work list}.
+
+Added sources and links by Copilot SDK in VS Code, model unknown, run inventions-p3-b61. All earlier paragraphs, fields and attribution retained.

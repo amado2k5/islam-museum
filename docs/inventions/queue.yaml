@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: kashi-sine-one-degree
+    label: "Al-Kashi's iterative sine-one-degree computation"
+    state: "[x]"
+    batch: 4
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-kashi", "work/risala-watar-jayb-kashi", "source/kashi-mactutor", "source/tdv-kashi-okten", "source/iranica-kashi", "source/qadi-zada-mactutor"]
+    invention: invention/kashi-sine-one-degree
+    lead_sources:
+      - "Actual complete MacTutor al-Kashi/Qadi Zada; actual TDV work8 and Iranica mathematics/work list"
+      - "Actual PD release/history re-read and original2007 triangle rendering visually reinspected"
+    flags: [completed-D102-b61, improvement-not-first-sine, separate-circumference-and-decimal-tables, al-biruni-predecessor, open-lifetime-bound-not-fixed-completion, qadi-completion-commentary-independent-methods-distinguished, precision-reports-not-harmonized, modern-triple-angle-example-not-historical-transcription, no-original-treatise-or-commentary-reading, no-straightedge-trisection-claim, small-root-and-input-accuracy-limits, original-maker-fields-front-matter-body-attribution-preserved, existing-named-muslim-basis-separate-sunni-frame, modern-PD-triangle-context-not-one-degree-scale]
   - id: ibn-baytar-comparative-materia-medica
     label: "Ibn al-Baytar's comparative identification and source criticism in the Jami"
     state: "[x]"
