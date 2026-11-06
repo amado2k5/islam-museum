@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: abd-al-malik-epigraphic-dinar
+    label: "Abd al-Malik's epigraphic gold-coin standard"
+    state: "[x]"
+    batch: 1
+    domain: institutions-systems
+    era: first-century
+    from: scholarly-reference
+    records: ["person/abd-al-malik-ibn-marwan", "source/tarikh-khulafa-minhaj-1434", "source/mwnf-coin-77ah-shovelton", "source/met-dinar-453447"]
+    invention: invention/abd-al-malik-epigraphic-dinar
+    lead_sources:
+      - "Actual Suyuti354–356/359–360, TDV biography and MWNF/Ashmolean explanations"
+      - "Actual Met API453447 and inspected public-domain DP239701 photograph"
+    flags: [completed-D132-b90, gold-standard-not-invention-of-money, older-and-transitional-coins-retained, literary75AH-description76AH-issue77AH-distinct, pictured79AH-not-first-issue, probable-mint-not-certain, actual-specimen-weight-not-inferred, no-Quran-inscription-transcription, individual-faith-basis-rechecked, existing-maker-fields-prose-preserved, Met-public-API-not-unread-HTML, PD-flag-verified, Justinian-response-interpretation-qualified]
   - id: umar-military-stipend-register
     label: "Umar's recurring military stipend register"
     state: "[x]"

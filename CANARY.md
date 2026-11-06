@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.3.0 — 2026-11-06
 
 ### Added
+- Inventions Browser90: Abd al-Malik's epigraphic gold-coin standard in Arabic, English and Urdu, with older and transitional coinages credited, source-date differences visible, and an inspected public-domain later dinar distinguished from the first issue. No invention-of-money or modern-value claim.
 - Inventions Browser89: Umar's recurring military stipend register, Arabic-first/English/Urdu account of annual grants, monthly provisions, older administrative precedents and competing transmitted allocations; inspected Abu Yusuf pages/variant note, with contextual receipt explicitly not an original stipend ledger.
 - Inventions Browser88: Hijri-era administrative dating under Umar, full Arabic/English/Urdu account of consultation, adoption versus epoch, source-date variants and later arithmetic limits; inspected public-domain PERF558 receipt context, not a founding decree. Existing maker identity, perspectives and prose retained.
 - Ibn Sina's seven conditions for assessing drug effects now have an Arabic, English and Urdu account, with the original Arabic pages compared against a scholarly translation; humoral theory, translation limits and disputed affiliation stay visible rather than being recast as a modern clinical trial.
