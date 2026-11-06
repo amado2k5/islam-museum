@@ -14,7 +14,7 @@ translators: []
 يذكر الشيخ دعاء يُنسب إلى النبي يسأل فيه الداعي ألا يُكل إلى نفسه ولو طرفة عين، ويقول إن النفس ضعيفة تميل إلى الشهوة، ولم يُنقل نص الدعاء هنا. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:31:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:32:00}
 
 ## توفيق الله لمن يحبه
-يقول الشيخ إذا أحب الله عبدا بذر في أرض قلبه بذرة التوفيق، ثم سقاها بالرجاء والرهبة (needs_source: عبارة السقي مضطربة في النسخة المفرغة). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:11:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:12:00}
+يقول الشيخ إذا أحب الله عبدا بذر في أرض قلبه بذرة التوفيق، ثم سقاها بالرجاء والرهبة ⁦(needs_source: عبارة السقي مضطربة في النسخة المفرغة)⁩. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:11:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:12:00}
 
 :::perspectives
 - **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.

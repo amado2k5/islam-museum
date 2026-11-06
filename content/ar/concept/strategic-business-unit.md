@@ -8,7 +8,7 @@ translators: []
 يفرّق طارق السويدان بين مجال العمل (line of business) ووحدة العمل الإستراتيجية (SBU): مجال العمل هو المحور الاستراتيجي أي «ماذا تبيع؟»، ووحدة العمل الإستراتيجية أي جزء من العمل قابل للاستقلال بشرط أن يكون من صلب العمل {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:49:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:01:30}.
 
 ## مجالات العمل
-يرى أن الوضع الطبيعي للشركة مجال عمل واحد، وألا تتجاوز ثلاثة مجالات إلا إذا كان بينها ترابط — فالتدريب والاستشارات والتعليم مترابطة، بينما التدريب والأخشاب والمطعم ليست كذلك؛ ويحكي أن شركته اشترت شركة أخشاب رابحة في ماليزيا فخسرتها في سنة لأنها خارج صلب عملهم، فباعوها بخسارة عشرة في المئة (رأي وتجربة المحاضر) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:50:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:52:30}.
+يرى أن الوضع الطبيعي للشركة مجال عمل واحد، وألا تتجاوز ثلاثة مجالات إلا إذا كان بينها ترابط — فالتدريب والاستشارات والتعليم مترابطة، بينما التدريب والأخشاب والمطعم ليست كذلك؛ ويحكي أن شركته اشترت شركة أخشاب رابحة في ماليزيا فخسرتها في سنة لأنها خارج صلب عملهم، فباعوها بخسارة عشرة في المئة ⁦(رأي وتجربة المحاضر)⁩ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:50:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:52:30}.
 
 ## وحدة العمل الإستراتيجية
 يعرّفها بأنها أي جزء من العمل قابل للاستقلال بشرط أن يكون من صلب العمل: فلها خطة مستقلة وإدارة مستقلة وميزانية مستقلة وقرار مستقل، دون أن تستقل استقلالاً تاماً عن التمويل والخطة العامة {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:02:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:03:30}.

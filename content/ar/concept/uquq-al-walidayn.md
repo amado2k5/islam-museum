@@ -16,8 +16,8 @@ translators: []
 
 ## عاقبته
 يقول الشيخ إن الجنة محرمة على العاق لوالديه. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:07:00}
-ويذكر حديثا في ثلاثة لا يدخلون الجنة، منهم العاق لوالديه (needs_source: تعداد الثلاثة غير واضح في التسجيل). {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:07:30}
-ويقول إن الله جعل لدخول الجنة والنار أسبابا، وإن من أسباب النار العقوق (needs_source: الجزء الثاني من الكلام غير واضح). {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:08:00}
+ويذكر حديثا في ثلاثة لا يدخلون الجنة، منهم العاق لوالديه ⁦(needs_source: تعداد الثلاثة غير واضح في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:07:30}
+ويقول إن الله جعل لدخول الجنة والنار أسبابا، وإن من أسباب النار العقوق ⁦(needs_source: الجزء الثاني من الكلام غير واضح)⁩. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:08:00}
 ويذكر أن من عقّ والديه فله بابان من النار مفتوحان. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:05:00}
 
 ## بين الوالدين والأبناء في الزواج

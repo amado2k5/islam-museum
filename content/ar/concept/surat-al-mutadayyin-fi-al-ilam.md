@@ -56,7 +56,7 @@ translators: []
 :::perspectives
 - **رأي أغلب الجمهور وبعض الضيوف: التشويه متعمد.** صوّت 76% بأنه متعمد، ورأى أستاذ الأدب أن التيار الغالب في الكتابة غير إسلامي وأن الإسلاميين أفرغوا ساحة الفن، ورأى ضيف آخر جذوراً للصورة في هوليوود {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 00:34:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 00:43:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 00:19:30}.
 - **رأي الكاتب السينمائي وإعلامي من الضيوف: انعكاس لواقع مع ضعف في الصنعة.** لا مؤامرة، والدراما تعكس واقعاً فيه متطرفون لكن بنسبة غير متناسبة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 00:39:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 00:41:00}.
-- **رأي المقدّم (رأي المتكلم): القطيعة بين الدين والفن هي الأصل، والحل تزاوجهما** {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 01:10:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 01:11:30}.
+- **رأي المقدّم ⁦(رأي المتكلم)⁩: القطيعة بين الدين والفن هي الأصل، والحل تزاوجهما** {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 01:10:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 01:11:30}.
 :::
 
 نتائج التصويت هنا آراء جمهور الاستوديو في تلك الحلقة، لا استطلاعات تمثيلية. ولم يُضف بعد رأي أكاديمي من دراسات الإعلام في هذه المسألة.
