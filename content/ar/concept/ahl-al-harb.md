@@ -30,5 +30,5 @@ translators: []
 ## التوارث والتجارة والنكاح والنفقة
 - اختلاف الدارين لا يمنع التوارث بين الكفار عند الجمهور. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3608}
 - يجوز الاتجار مع الحربيين بأمان، ولا يجوز إمدادهم بالسلاح، وفي التصدير خلاف، ويجوز تصدير الأطعمة إليهم. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3608}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3609}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3610}
-- يحل نكاح المسلم الحربية الكتابية، كالذمية، لقوله تعالى في سورة المائدة (الآية 5). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3610}
+- يحل نكاح المسلم الحربية الكتابية، كالذمية، لقوله تعالى في سورة المائدة ⁦(الآية 5)⁩. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3610}
 - تجب النفقة للزوجة الحربية الكتابية كالمسلمة. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3610}

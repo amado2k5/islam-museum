@@ -12,7 +12,7 @@ provenance:
   source: "source/yeomans-islamic-cairo-2006, pp. 230-231"
 ---
 ## موجز
-وكالة [[person/qansuh-al-ghawri|الغوري]] وربعها (1504-1505م) أحسن الوكالات والأرباع حفظاً في القاهرة، كتلة مكعبة مهيبة تطل على شارع محمد عبده الضيق بين [[building/al-azhar|الأزهر]] و[[building/madrasa-of-sultan-al-ghuri|مدرسة الغوري]] وخانقاهه. {cite:yeomans-islamic-cairo-2006 p.230} والوكالة نُزُل للتجار في المدينة، والربع بيت شقق. {cite:yeomans-islamic-cairo-2006 p.224} {cite:yeomans-islamic-cairo-2006 p.231}
+وكالة [[person/qansuh-al-ghawri|الغوري]] وربعها ⁦(1504-1505م)⁩ أحسن الوكالات والأرباع حفظاً في القاهرة، كتلة مكعبة مهيبة تطل على شارع محمد عبده الضيق بين [[building/al-azhar|الأزهر]] و[[building/madrasa-of-sultan-al-ghuri|مدرسة الغوري]] وخانقاهه. {cite:yeomans-islamic-cairo-2006 p.230} والوكالة نُزُل للتجار في المدينة، والربع بيت شقق. {cite:yeomans-islamic-cairo-2006 p.224} {cite:yeomans-islamic-cairo-2006 p.231}
 
 ## البناء
 في وسط الواجهة بوابة ثلاثية بقبو متقاطع ومقرنصات، تحفها صفوف من النوافذ ذات المصاريع والشبابيك والمشربيات للربع في الطوابق العليا. {cite:yeomans-islamic-cairo-2006 p.230} وتفضي إلى صحن تحيط به بوائك بعقود مدببة على دعائم مثمنة أبلقاء، وخلفها طابقان: مخازن في الأرضي ومساكن للتجار في الثاني، وتمتد فوق الطابق الأول شرفة مشربية متصلة. {cite:yeomans-islamic-cairo-2006 p.230} وشقق الربع ثلاثية الطوابق لا ثنائية كما في وكالات قايتباي، في أسفلها المراحيض ومواضع الأزيار وقاعة الاستقبال، وفي أعلاها النوم وسطح خاص. {cite:yeomans-islamic-cairo-2006 p.230} {cite:yeomans-islamic-cairo-2006 p.231}

@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-«آفات اللسان» عنوان السلسلة التي ألقاها عمر عبد الكافي في نفحات رمضانية، وكل حلقة منها في آفة واحدة. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:00} ويعدّد في الحلقة الأخيرة ما سبق من الآفات: الغيبة والنميمة والمراء والجدال وكفران النعم والأذى والكذب والاستهزاء وسبّ الصحابة والتوجه بالدعاء إلى غير الله. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:00:00} ويقول في ختامها إنها ثلاثون حلقة، وهي عناوين سريعة لموضوع كبير (needs_source: الأرشيف يضم ست حلقات فقط من هذه السلسلة). {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30}
+«آفات اللسان» عنوان السلسلة التي ألقاها عمر عبد الكافي في نفحات رمضانية، وكل حلقة منها في آفة واحدة. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:00} ويعدّد في الحلقة الأخيرة ما سبق من الآفات: الغيبة والنميمة والمراء والجدال وكفران النعم والأذى والكذب والاستهزاء وسبّ الصحابة والتوجه بالدعاء إلى غير الله. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:00:00} ويقول في ختامها إنها ثلاثون حلقة، وهي عناوين سريعة لموضوع كبير ⁦(needs_source: الأرشيف يضم ست حلقات فقط من هذه السلسلة)⁩. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30}
 
 ## الآفات التي تعرضها الحلقات المحفوظة
 - [[concept/mann|المنّ بالعطاء]]، ويسمّيه كبيرة من آفات اللسان. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00}
