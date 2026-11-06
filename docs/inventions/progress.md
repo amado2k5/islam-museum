@@ -4,6 +4,8 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Log
 
+- **Invention73 freshness guard follow-up.** First push stopped automatically when #4447–#4448 advanced main to `9427cfda2f`. Reviewed independent Tabari additions and separate canary Data entries,reintegrated unpublished content without restaging frozen passage data,then repeated graph/coverage/census/validation/citation/session/whitespace gates successfully. All final totals remain as above;no localtests/build/deployment.
+
 - **Invention73 integrated gates repeated.** Rebased unpublished content onto reviewed main `f5b4acbf00`,retaining #4445–#4446 passage/source/library/canary changes. Graph/coverage/validation/citation/session/whitespace gates all repeated successfully with unchanged graph/entity/prose/word totals. Census regenerated:456prosehits(455beforeintegration),538leads/73inventions. Localtests/buildnotrun,no deployment.
 
 - **Invention73 permitted gates passed.** Graph51,720nodes/82,560edges;coverage regenerated;census538leads(499active/39excluded),73inventions,268personleads/455prosehits. Validation49,812entities/84,932prose,0errors/8495warnings;authenticity0errors/1warning. Targeted citations5/5. Session gate:17exactheadings,1632/1794/1859Arabic/English/Urdu main-bodywords;all72prior inventiondata/prose,537oldleads,originalmakerprefix/identity/perspectives/attribution/calendar+cubicties preserved. Licence,yearprecision,orderedperspectives,work/graph and independent modernEuclidean length/dot/diagonal/scaling assertions pass. `git diff --check` passes. Integrate reviewed #4445–#4446 and repeat permittedgates before publication;localtests/buildnotrun,no deployment.
