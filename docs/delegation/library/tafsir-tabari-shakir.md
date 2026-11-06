@@ -210,4 +210,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 6: pp. 308-314 filed in ar, en and ur (reports 10686-10696; verse 135 closes at p. 312, verse 136 is filed in full, and verse 137 opens on p. 314).
 - Batch 7: pp. 315-321 filed in ar, en and ur (reports 10697-10710): verse 137 closes at p. 318, verses 138 and 139 are filed, and verse 140 is filed to report 10710.
 - Batch 8: pp. 322-328 filed in ar, en and ur (reports 10711-10720): verse 140 closes at p. 322; verse 141 is filed to report 10720 at p. 328.
-- Progress: current report 10720, printed p. 328. Next is report 10721, the rest of verse 141 from p. 328 on.
+- Batch 9: pp. 329-335 filed in ar, en and ur (reports 10721-10736): verses 142 and 143 are filed in full.
+- Progress: current report 10736, printed p. 335. Next is verse 144, from printed p. 335 on (the next numbered report is read there).
