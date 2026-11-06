@@ -13,5 +13,5 @@ lang: ar
 سلطان عثماني حلم ببيت للدراويش فبناه في أدرنة سنة 1435 — ثم صار مسجداً محرابه من أجمل التبليطات في العالم.
 
 ## ملاحظات للمحققين
-- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص82-83 (Muradiye Camii، أدرنة).
+- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص82-83 ⁦(Muradiye Camii، أدرنة)⁩.
 - بطاقة أُنشئت في هذه الدفعة؛ لا تُخلط مع building/muradiye-mosque-bursa ولا muradiye-mosque-baghdad.

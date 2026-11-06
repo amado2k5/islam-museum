@@ -13,4 +13,4 @@ lang: ar
 أميرة عثمانية اسمها مهرماه بنت لها أعظم معماري عثماني جامعين: الأول في أسكدار على ميناء العبّارات سنة 1548م، والثاني بعده بسنين على تل في إسطنبول.
 
 ## ملاحظات للمحققين
-- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص246-248 (قسم Iskele Camii / Mihrimah at Üsküdar).
+- المصدر المقروء: Freely, A History of Ottoman Architecture (2011)، ص246-248 ⁦(قسم Iskele Camii / Mihrimah at Üsküdar)⁩.
