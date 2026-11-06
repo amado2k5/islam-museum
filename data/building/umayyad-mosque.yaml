@@ -29,7 +29,13 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 367"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-10
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b65", source: "Actual King/Dizer/Cam sundial accounts; original building fields/prose/attribution preserved, construction dates not conflated." }
+inventions:
+  - invention: invention/shatir-polar-sundial
+    relation: site-of
+    sources: [source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer]
 external_ids:
   wikidata: Q183562
-sources: [source/tarikh-khulafa-minhaj-1434, source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020, source/umari-masalik-1924]
+sources: [source/tarikh-khulafa-minhaj-1434, source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020, source/umari-masalik-1924, source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer, source/tdv-gunes-saati-cam]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

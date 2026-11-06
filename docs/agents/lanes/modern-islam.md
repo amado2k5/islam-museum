@@ -1,6 +1,6 @@
 # Lane `modern-islam`: the Modern Islam Browser
 
-_Opened 6 November 2026 on the founder's request, **planning-only** until the founder approves plan 26 (`docs/plan/26-modern-islam-browser.md`) and Phase 1 merges. Binding with `AGENTS.md`, `docs/ai-change-gates.md`, `docs/agents/publication-standard.md`, `docs/agents/content-standards.md`, `docs/sources-policy.md`, the Wikipedia broad rule and the `modern-figures` lane's faith rulings of 1 November 2026._
+_Opened 6 November 2026 on the founder's request; plan 26 (`docs/plan/26-modern-islam-browser.md`) approved by the founder the same day (D-000) and Phase 1 implemented. Binding with `AGENTS.md`, `docs/ai-change-gates.md`, `docs/agents/publication-standard.md`, `docs/agents/content-standards.md`, `docs/sources-policy.md`, the Wikipedia broad rule and the `modern-figures` lane's faith rulings of 1 November 2026._
 
 ## Mission
 
@@ -12,7 +12,7 @@ Build and keep growing the museum's entrance to the last fifty years of Islam an
 - Sub-lanes, one per section: `modern-web`, `modern-music`, `modern-film`, `modern-tv`, `modern-conferences`, `modern-heritage`, `modern-rights`, `modern-books`, `modern-upcoming`, `modern-figures-50` (named so it never collides with the existing `modern-figures` lane), `modern-organizations`, `modern-media`, `modern-sports`, `modern-awards`, `modern-achievements`, `modern-enterprise`, `modern-arts`, `modern-built`, `modern-learning`. One agent per sub-lane at a time.
 - Branches: `modern/p1-<agent>` (schema), `modern/p2-<agent>` (pilot and browser), `modern/<section>-b<nn>-<agent>` (waves), `modern/q-<section>-<agent>` (discovery).
 - Progress: `docs/modern-islam/progress.md` (lane-wide), `docs/modern-islam/progress/<section>.md` (per section, created with the first batch). Queues: `docs/modern-islam/queue/<section>.yaml`. Stubs: `data/_stubs.d/modern-<section>.yaml` (created with the first stub).
-- Harvest storage: `~/islam-museum-harvest/modern/<section>/` or the microSD harvest drive; never in git.
+- Harvest storage: the microSD harvest drive only, `/Volumes/exmicroSD/islam-museum-harvest/modern/<section>/` (founder's rule, 6 November 2026: always the microSD, never the Mac's main drive; anything downloaded to the Mac is moved there and deleted); never in git.
 
 ## Batch order
 

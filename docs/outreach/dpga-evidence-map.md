@@ -43,6 +43,8 @@ A second edition of the dossier (21 October 2026) carries the current figures be
 
 **5 November 2026 — Inventions Browser Phase 1 (pending merge and founder deployment):** indicators 5 and 6 now have implementation evidence in `docs/data/README.md`: the schema lists 23 classes, including the empty `invention` class, and documents `/api/v1/invention/index.json`, `/api/v1/inventions.json` and `/api/v1/inventions/chains.json`. No invention records are included in current totals. These endpoints are build outputs and must not be presented as live until deployment; the submission's 17 October answers and the 21 October figures above remain dated as filed.
 
+**6 November 2026 — Modern Islam Browser Phase 1 (pending merge and founder deployment):** indicators 5 and 6 gain the `award` class (24 classes, the class empty) and the `/api/v1/award/index.json` and `/api/v1/modern/*` build outputs documented in `docs/data/README.md`; the privacy posture is unchanged (static files, no script, form, network call or analytics added; dated platform figures are facts typed into records, never fetched at runtime). Totals are unchanged; the routes are not live until the founder deploys.
+
 ## Renewal
 
 DPG status lasts one year; the DPGA emails before expiry. Each renewal: refresh this map and the dossier's claims register (`unesco-nomination-dossier.md` A.5), regenerate `docs/coverage.md`, and re-read the current Standard for changed wording.

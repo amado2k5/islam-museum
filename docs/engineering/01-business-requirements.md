@@ -43,6 +43,8 @@ repository that outlive any hosting provider.
 | FR-11 | Maps for events rendered deterministically from sourced features (Natural Earth + relief), in Arabic and English | `scripts/media/maps/`, `geo/` |
 | FR-12 | "On this day", random wander, related entities, breadcrumbs — all precomputed at build | `scripts/derive.ts` |
 | FR-13 | Community intake via GitHub (issue forms, discussions, PRs) | `.github/ISSUE_TEMPLATE/` |
+| FR-15 | Browsers and explorers over the one graph: Time Browser, Time Machine, Hijri calendar, the landing explorers, Screening Room, the Words readers (Qur'an, hadith, poetry), Fatwa Explorer, Khutab and Durus Explorer, Job Browser, Inventions Browser, Modern Islam Browser; each a static set of pages that filters, groups or walks the same records, readable without JS, trilingual | `site/src/pages/[lang]/{time-browser,time-machine,calendar,screen,words,fatwa,khutab,jobs,inventions,modern}/`, register `docs/site/browsers.md` |
+| FR-16 | Every feature is graph, API and search: records as classes and kinds in the graph with registered predicates; class exports plus a feature export under `/api/v1/` documented in `docs/data/README.md`, OpenAPI and `llms.txt`; records and landing pages indexed by Pagefind | `AGENTS.md` rule of 6 Nov 2026, `scripts/export-api.ts`, `data-pagefind-body` on landing headers |
 | FR-14 | Education programme: age-band hubs (sighar/sprouts, explorers, storytellers), learn front door, passport, study modes, share cards, printables — static, no accounts, no student data, localStorage only | `edu/`, `site/src/pages/[lang]/{learn,sighar}/`, `site/src/lib/edu.ts`, lane `education` |
 
 ## 4. Non-functional requirements

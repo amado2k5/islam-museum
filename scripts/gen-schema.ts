@@ -34,10 +34,27 @@ const inventionTaxonomy = parse(readFileSync(new URL("../docs/inventions/taxonom
 const inventionEras: string[] = inventionTaxonomy.eras;
 const inventionStatusToday: string[] = inventionTaxonomy.status_today;
 const inventionMakerRoles: string[] = inventionTaxonomy.maker_roles;
+// Modern Islam Browser (docs/plan/26-modern-islam-browser.md section 3; docs/modern-islam/taxonomy.yaml is the source of its lists).
+const modernTaxonomy = parse(readFileSync(new URL("../docs/modern-islam/taxonomy.yaml", import.meta.url), "utf8")) as {
+  award_kinds: { id: string }[]; honour_results: string[]; certification_levels: string[]; horizon_stages: string[];
+  reach_platforms: string[]; reach_metrics: string[]; press_kinds: string[]; music_genres: { id: string }[]; sports: string[];
+};
+const awardKinds = modernTaxonomy.award_kinds.map((k) => k.id);
+const honourResults = modernTaxonomy.honour_results;
+const certificationLevels = modernTaxonomy.certification_levels;
+const horizonStages = modernTaxonomy.horizon_stages;
+const reachPlatforms = modernTaxonomy.reach_platforms;
+const reachMetrics = modernTaxonomy.reach_metrics;
+const pressKinds = modernTaxonomy.press_kinds;
+const modernSports = modernTaxonomy.sports;
+
+if (JSON.stringify(kinds.award) !== JSON.stringify(awardKinds)) {
+  throw new Error("schema/enums/kinds.yaml award kinds must equal docs/modern-islam/taxonomy.yaml award_kinds");
+}
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention", "award",
 ] as const;
 
 const ref = (name: string) => ({ $ref: `_base.schema.json#/$defs/${name}` });
@@ -173,6 +190,37 @@ const base = {
       properties: { layer: enm(kinds["provenance-layer"]), source: str, harvested: { type: "string" }, submitted_via: str, generated_by: str },
     },
     kids: { "$ref": "#/$defs/localized", description: "Optional kids text for ages 6-12 (Time Browser, DESIGN decision 13): localized, ar/en/ur, each with a citation like the adult text." } as any,
+    // Modern Islam Browser (docs/plan/26 section 3.4): sourced honours, the subject's footprint elsewhere, dated platform
+    // figures and the upcoming horizon. Optional on every class; the validator checks the references and the dates.
+    honours: {
+      type: "array",
+      items: { type: "object", additionalProperties: false, required: ["award", "result", "sources"], properties: {
+        award: entityRef, category: str, year: { type: "integer", minimum: 1900, maximum: 2100 }, date: ref("date"),
+        result: enm(modernTaxonomy.honour_results), level: enm(modernTaxonomy.certification_levels), territory: str,
+        position: { type: "integer", minimum: 1 }, for: entityRef, note: str, sources: { type: "array", minItems: 1, items: str } } },
+    },
+    footprint: {
+      type: "object", additionalProperties: false, properties: {
+        wikipedia: { type: "object", additionalProperties: false, properties: {
+          languages: { type: "array", items: { type: "string", pattern: "^[a-z]{2,3}(-[a-z]{2,8})?$" }, uniqueItems: true },
+          checked: { type: "string", format: "date" }, sources: strs } },
+        wikidata: { type: "string", pattern: "^Q[1-9][0-9]*$" },
+        press: { type: "array", items: { type: "object", additionalProperties: false, required: ["source", "date"], properties: {
+          source: entityRef, date: ref("date"), outlet: entityRef, lang: str, kind: enm(modernTaxonomy.press_kinds), title: ref("localized"), note: str } } },
+        catalogues: { type: "object", additionalProperties: { anyOf: [str, strs] } },
+      },
+    },
+    reach: {
+      type: "array",
+      items: { type: "object", additionalProperties: false, required: ["platform", "metric", "date", "sources"], properties: {
+        platform: enm(modernTaxonomy.reach_platforms), metric: enm(modernTaxonomy.reach_metrics), value: { type: ["number", "null"], minimum: 0 },
+        date: { type: "string", format: "date" }, note: str, sources: { type: "array", minItems: 1, items: str } } },
+    },
+    horizon: {
+      type: "object", additionalProperties: false, required: ["stage", "sources"], properties: {
+        stage: enm(modernTaxonomy.horizon_stages), expected: ref("date"), announced: ref("date"), by: entityRef, note: ref("localized"),
+        sources: { type: "array", minItems: 1, items: str } },
+    },
   },
   required: ["id", "class", "label", "summary", "status"],
 };
@@ -530,6 +578,32 @@ classProps.building.properties.inventions = inventionTie(["site-of", "spread-to"
 classProps.place.properties.inventions = inventionTie(["site-of", "spread-to", "made-in"], { start: D });
 classProps.event.properties.inventions = inventionTie(["first-use", "demonstration", "publication", "patent-granted"]);
 classProps.concept.properties.inventions = inventionTie(["theory-of", "applied-in"]);
+
+// Modern Islam Browser (docs/plan/26 section 3): the award class, an athlete's sports, an album's tracks, a group's scope.
+classProps.award = {
+  properties: {
+    names: { type: "array", items: ref("name") },
+    ...kind("award"),
+    awarded_by: entityRef,
+    since: D, until: D,
+    fields: strs,
+    categories: { type: "array", items: { type: "object", additionalProperties: false, required: ["id", "label"], properties: {
+      id: { type: "string", pattern: "^[a-z0-9][a-z0-9-]*$" }, label: L, since: D, until: D, note: str } } },
+    country: { type: "string", pattern: "^[a-z]{2}$" },
+    recurs: str,
+    ceremony: entityRef,
+    laureate: { type: "boolean", description: "Winners of a laureate award also appear in the browser's achievements section." },
+    links: { type: "object", additionalProperties: true },
+  },
+  required: ["kind"],
+};
+classProps.person.properties.sports = { type: "array", items: { type: "object", additionalProperties: false, required: ["sport", "sources"], properties: {
+  sport: enm(modernSports), discipline: str, position: str, teams: entityRefs, national_team: { type: "string", pattern: "^[a-z]{2}$" },
+  start: D, end: D, note: str, sources: sourcesReq } } };
+classProps.work.properties.tracks = { type: "array", items: { type: "object", additionalProperties: false, required: ["n", "title"], properties: {
+  n: { type: "integer", minimum: 1 }, title: L, work: entityRef, duration_s: { type: "number", minimum: 0 }, lang: str, performers: entityRefs, note: str, sources: strs } } };
+classProps.group.properties.scope = enm(["local", "national", "regional", "international", "virtual"]);
+classProps.group.properties.countries = { type: "array", items: { type: "string", pattern: "^[a-z]{2}$" }, uniqueItems: true };
 
 writeFileSync(new URL("_base.schema.json", root), JSON.stringify(base, null, 2) + "\n");
 

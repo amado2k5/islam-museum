@@ -172,6 +172,7 @@ Class-specific panels:
 
 ## 5. Cross-cutting features
 
+- **Browsers and explorers**: beside the halls, a set of front doors over the same graph, each a different way to walk it: the Time Browser and Time Machine, the Hijri calendar, the landing explorers of plan 21, the Screening Room, the Words readers, the Fatwa and Khutab explorers, the Job Browser, the Inventions Browser and the Modern Islam Browser (plan 26). Every one is graph, API and search (`AGENTS.md`); the register with routes, status and what each has and will have is [`docs/site/browsers.md`](../site/browsers.md).
 - **Depth dial** (Brief · Standard · Deep) persisted per visitor; Brief shows the `## Brief` section and key facts; Deep adds scholarly notes and all perspectives expanded.
 - **Honorifics toggle**: show ﷺ / عليه السلام / رضي الله عنه after names (default on for Arabic UI, off for others; always a one-click choice). Rendered from data roles, never typed into prose, so the text stays neutral for everyone.
 - **Perspectives**: the Sunni entry renders as the main column under "Sunni tradition (the museum's frame)"; every other view follows under its own prominent label ("Twelver Shia view", "Academic view"), per `docs/scope.md`. A visitor may set a "preferred school first" ordering among Sunni schools without hiding anything.

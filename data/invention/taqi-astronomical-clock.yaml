@@ -1,0 +1,80 @@
+id: invention/taqi-astronomical-clock
+class: invention
+label: { ar: "ساعة تقي الدين الميكانيكية للرصد", en: "Taqi al-Din's mechanical observation clock", ur: "تقی الدین کی میکانیکی رصدی گھڑی" }
+names:
+  - { kind: alternate, lang: en, value: "Seconds-reading astronomical clock of Taqi al-Din" }
+summary:
+  ar: "توظيف الساعة الميكانيكية في الرصد مع قراءة الثواني، لا اختراع كل الساعات أو شهادة دقة ثانية {cite:tdv-takiyyuddin-er-rasid clock-paragraph} {cite:taqi-fazlioglu-bea mechanical-clocks}."
+  en: "Mechanical timekeeping applied to observation with seconds readings, not invention of all clocks or certification of one-second accuracy {cite:tdv-takiyyuddin-er-rasid clock-paragraph} {cite:taqi-fazlioglu-bea mechanical-clocks}."
+  ur: "ثانیوں کی قراءت کے ساتھ میکانیکی توقیت کا رصد میں استعمال؛ تمام گھڑیوں کی ایجاد یا ایک ثانیہ درستی کی سند نہیں {cite:tdv-takiyyuddin-er-rasid clock-paragraph} {cite:taqi-fazlioglu-bea mechanical-clocks}۔"
+domain: timekeeping
+kind: device
+disciplines: [astronomy, engineering]
+wings: [objects, ideas]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+era:
+  origins: gunpowder-empires
+  first_attested:
+    edtf: "../1580"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Open latest bound from observatory use before reported22January1580 destruction; not exact invention.1559 clock treatise separate from establishment/use accounts1575/1577/1579. No guessed Hijri."
+    sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
+  status_today: transformed
+origin:
+  place: place/istanbul
+  context:
+    ar: "سياق الرصد بإسطنبول، مع معرفة سابقة بالساعات الأوروبية وتأليف بنابلس1559 {cite:taqi-fazlioglu-bea mechanical-clocks}."
+    en: "Istanbul observational context, with earlier European-clock access and a1559 Nablus treatise {cite:taqi-fazlioglu-bea mechanical-clocks}."
+    ur: "استنبول کا رصدی ماحول، سابق یورپی گھڑیوں تک رسائی اور نابلس1559 کی تصنیف الگ {cite:taqi-fazlioglu-bea mechanical-clocks}۔"
+makers:
+  - person: person/taqi-al-din-ibn-maruf
+    role: improver
+    note: "Specific astronomical application and seconds reading; existing sourced individual religious/judicial basis and separate Sunni default retained,not first mechanical clock."
+    sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
+attribution:
+  status: improvement
+  claim:
+    ar: "تطوير استخدام الساعة للرصد مع إمكان قراءة الثواني."
+    en: "Refined astronomical use of mechanical timekeeping with seconds readings."
+    ur: "ثانیہ قراءت کے ساتھ میکانیکی توقیت کے رصدی استعمال کی بہتری۔"
+  basis:
+    ar: "توبدمير يصف قراءة الثواني، وفاضلي أوغلو يصف التطبيق والمصادر الأوروبية؛ ليست أولوية عالمية لكل ساعة {cite:tdv-takiyyuddin-er-rasid clock-paragraph} {cite:taqi-fazlioglu-bea mechanical-clocks}."
+    en: "Topdemir describes seconds reading and Fazlioglu the application/European antecedents; no global priority for every clock {cite:tdv-takiyyuddin-er-rasid clock-paragraph} {cite:taqi-fazlioglu-bea mechanical-clocks}."
+    ur: "توپ دمیر ثانیہ قراءت، فاضلی اوغلو استعمال و یورپی پیش رو بتاتے؛ ہر گھڑی کی عالمی اولیت نہیں {cite:tdv-takiyyuddin-er-rasid clock-paragraph} {cite:taqi-fazlioglu-bea mechanical-clocks}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "الساعات الميكانيكية الأوروبية التي عرفها المؤلف", en: "European mechanical clocks known to the author", ur: "مصنف کی معلوم یورپی میکانیکی گھڑیاں" }
+    note: "Access to Samiz Ali Pasha clock collection explicitly reported; not exact provenance of every gear."
+    sources: [source/taqi-fazlioglu-bea]
+dependents: []
+spread: []
+impact:
+  fields: [timekeeping, astronomy-instruments]
+  changed:
+    ar: "جعل القراءة الزمنية المفصلة جزءاً من الرصد؛ التدريج ليس ضمان انتظام المعدل {cite:tdv-takiyyuddin-er-rasid clock-paragraph}."
+    en: "Made finer time readings part of observation; display subdivision does not guarantee rate stability {cite:tdv-takiyyuddin-er-rasid clock-paragraph}."
+    ur: "باریک وقتی قراءت کو رصد میں شامل کیا؛ تقسیم خود رفتار کے استقرار کی ضمانت نہیں {cite:tdv-takiyyuddin-er-rasid clock-paragraph}۔"
+  history:
+    ar: "شاهد على لقاء صناعة الساعات والفلك قبل انقطاع عمل المرصد، لا نسب مثبت لكل كرونومتر {cite:taqi-fazlioglu-bea observatory-and-clocks}."
+    en: "Evidence of horology meeting astronomy before observatory work was interrupted, not established ancestry of every chronometer {cite:taqi-fazlioglu-bea observatory-and-clocks}."
+    ur: "مرصد بند ہونے سے پہلے ساعت سازی و فلکیات کے اتصال کا ثبوت؛ ہر کرونومیٹر کا ثابت نسب نہیں {cite:taqi-fazlioglu-bea observatory-and-clocks}۔"
+  significance: 3
+  why: "Documented seconds-reading observation application with explicit older mechanical-clock context; no unverifiable five-second gearing or measured accuracy claim."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "تاريخ آلة ومقارنة تعليمية بالقياس الزمني.", en: "Instrument history and a teaching comparison in time measurement.", ur: "آلے کی تاریخ اور زمانی پیمائش کا تدریسی تقابل۔" }
+  descendants: { ar: "لا طريق تأثير مباشر مثبت إلى ساعة بعينها.", en: "No demonstrated direct route to a particular later clock.", ur: "کسی بعد کی خاص گھڑی تک ثابت براہ راست راستہ نہیں۔" }
+media: { image: media/taqi-clock-context, diagram: media/diagram-taqi-astronomical-clock }
+kids:
+  ar: "اكتب أوقاتاً خيالية وقارن القراءة بالمرجع، دون فتح ساعة أو لمس أثر."
+  en: "Write imaginary times and compare a reading with a reference,without opening clocks or touching artifacts."
+  ur: "فرضی وقت لکھ کر مرجع سے مقابلہ کریں؛ گھڑی نہ کھولیں، نوادر نہ چھوئیں۔"
+sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid, source/nist-clock-components, source/commons-clock-simple]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b67", source: "Actual BEA/TDV and NIST context; original Kawakib/Tekeli/Sidra not read. Modern resolution/offset/drift example independently derived,not original clock performance." }

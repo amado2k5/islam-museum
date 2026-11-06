@@ -12,6 +12,7 @@ import LevelSwitcher from "../components/LevelSwitcher.astro";
 import JobSections from "../components/JobSections.astro";
 import InventionSections from "../components/InventionSections.astro";
 import CareerStrip from "../components/CareerStrip.astro";
+import ModernStrips from "../components/ModernStrips.astro";
 import { JOB_NOT_YET } from "../lib/jobs";
 import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, SITE, SEGMENT } from "../lib/graph";
 import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
@@ -210,6 +211,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         <script src="../scripts/mytour.ts"></script>
         <Extras node={n} lang={lang} />
         {n.class === "invention" && <InventionSections node={n} lang={lang} />}
+        <ModernStrips node={n} lang={lang} />
 
         {untranslated && (
           <p class="panel ui" role="note" style="font-size:.92rem">{T.entity.not_translated} <a href={wishUrl}>{T.entity.help_translate}</a></p>

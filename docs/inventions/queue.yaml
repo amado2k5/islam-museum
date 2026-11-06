@@ -2,6 +2,45 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: haytham-incoming-light-vision
+    label: "Ibn al-Haytham's integrated incoming-light theory of vision"
+    state: "[x]"
+    batch: 4
+    domain: optics-physics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/ibn-al-haytham", "work/kitab-al-manazir", "source/smith-alhacen-visual-perception-2001", "source/tdv-ibnul-heysem"]
+    invention: invention/haytham-incoming-light-vision
+    lead_sources:
+      - "Actual selected Smith2001VolIintroxviii–xix,lii–lxiv throughopeninglxiv;figure8lix visually inspected"
+      - "Actual TDVoptics/method;Commons rights rechecked/modern eye illustration visually reinspected"
+    flags: [completed-D116-b75, synthesis-not-first-intromission-idea, not-camera-or-reflection-duplicate, no-modern-retinal-physiology-claim, crystalline-spirit-hollow-nerve-errors-explicit, idealized-concentric-geometry-and-ray-selection, sensation-versus-inference, century-only-no-guessed-Hijri, no-complete-original-or-translation-reading-claim, original-maker-work-attribution-and-three-ties-preserved, modern-CCBYSA3-context-not-medieval-anatomy, no-bright-light-experiments]
+  - id: kashi-muqarnas-mensuration
+    label: "Al-Kashi's modular muqarnas surface mensuration"
+    state: "[x]"
+    batch: 4
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-kashi", "work/miftah-al-hisab-kashi", "source/dold-samplonius-muqarnas-1992", "source/kashi-mactutor", "source/tdv-kashi-okten"]
+    invention: invention/kashi-muqarnas-mensuration
+    lead_sources:
+      - "Actual selected Dold-Samplonius193–196,202–205,209–222,figure8p213visually inspected;actual MacTutor/TDV/Iranica"
+      - "Actual Commons description/APIrights and900pxAmirPashaeiQommuqarnasphoto inspected,CCBYSA4.0"
+    flags: [completed-D115-b74, not-invention-of-muqarnas, module-squared-conversion, plane-surface-versus-projection, curved-coefficient-average-not-universal-exact, historian-recomputation-differences-and-unknown-derivations-explicit, Arab-wage-application-hypothesis, no-primary-fullbook-editions-read, reported1427-0830-year-precision, original-maker-and-three-ties-preserved, later-context-photo-not-Kashi-building-or-method-use, no-structural-instructions]
+  - id: khayyam-parallel-quadrilateral
+    label: "Khayyam's quadrilateral reconstruction of parallels"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/umar-khayyam", "work/khayyam-euclid-commentary", "source/vahabzadeh-khayyam-mathematician", "source/sep-umar-khayyam", "source/tdv-omer-hayyam-unat"]
+    invention: invention/khayyam-parallel-quadrilateral
+    lead_sources:
+      - "Actual Vahabzadeh selected commentary section and author-deposited PDF cover/authorpages1–4,Stanford4.2,Unatgeometry/work4,complete MacTutor"
+      - "Actual Dickdock2008PDCommons description/API/history and rendered three-case diagram visually inspected"
+    flags: [completed-D114-b73, not-independent-fifth-postulate-proof, equivalent-premises-explicit, not-modern-non-euclidean-system-priority, separate-cubics-and-calendar, no-primary-commentary-editions-read, reported470-1077-year-precision, no-invented-composition-city, original-maker-identities-perspectives-attribution-ties-preserved, modern-Euclidean-coordinate-example-not-proof, image-AD-BC-versus-example-AC-BD-explicit, no-direct-Saccheri-transmission-claim]
   - id: kashi-sine-one-degree
     label: "Al-Kashi's iterative sine-one-degree computation"
     state: "[x]"
@@ -251,19 +290,20 @@ candidates:
     flags: [completed-D079-b39, refinement-not-first-buoyancy-or-gravity, displaced-water-not-apparent-immersed-weight, later-Khazini-trials-not-Biruni-dataset, source-generation-and-replica-limits, individual-identity-dispute-retained, printed-PD-diagram-not-autograph]
   - id: fakhri-sextant-rayy
     label: "The Fakhri sextant at Rayy"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: astronomy-instruments
     era: abbasid-golden
     from: founder-supplied-lead
     records: ["person/al-khujandi-abu-mahmud-hamid-ibn-al-khidr"]
+    invention: invention/fakhri-sextant-rayy
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - "source/mawsuat-a3lam-ulama-adaba p. 130 (local OCR; visual check pending)"
       - "Glen Van Brummelen, Biographical Encyclopedia of Astronomers, pp. 630-631: https://ismi.mpiwg-berlin.mpg.de/biography/Khujandi_BEA.htm"
       - "J. J. O'Connor and E. F. Robertson, MacTutor: https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khujandi/"
       - "Louis Cheikho, ed., Risalat al-Khujandi fi al-mayl wa-ard al-balad, al-Mashriq 11 (1908), pp. 61, 68-69: https://www.jphogendijk.nl/biruni/Fakhri.pdf"
-    flags: [verify-maker-sunni-basis, verify-instrument-claim-and-scale, compare-edition-variants]
+    flags: [completed-D109-b68, individual-Islamic-identification-MacTutor, Sunni-separate-museum-default-not-patron-inference, actual-Cheikho1908-read-not-autograph, 43m-diameter-not-radius, primary21sec-secondary19sec-retained, printed-scale-mark-not-silently-corrected, resolution-not-accuracy, nautical-figures-not-original-plans, quadrant-shamila-not-counted, modern-triangle-context-only]
   - id: mural-quadrant-al-khujandi
     label: "The mural quadrant associated with al-Khujandi"
     state: "[~]"
@@ -626,15 +666,16 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: museum-record-object-rub-al-tamm-ibn-al-shatir
     label: "Museum lead for Complete Quadrant of Ibn al-Shatir"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: astronomy-instruments
-    era: abbasid-golden
+    era: middle-period
     from: museum
     records: ["object/rub-al-tamm-ibn-al-shatir"]
+    invention: invention/shatir-complete-quadrant
     lead_sources:
       - "data/object/rub-al-tamm-ibn-al-shatir.yaml"
-    flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+    flags: [completed-D113-b72, modified-sine-quadrant-not-all-quadrants, separate-Alai-astrolabe-sundial-lunar-model, Fathi-public2015introduction-only-not-full-edition-or-manuscripts, twohundred-chapters-hundred-questions-not-independent-tested-functions, universal-accuracy-ease-attributed-aim-not-trial, Dizer-no-surviving-complete-quadrant, contextual-sine-quadrant-not-original, CC-BY-SA3-rights-photo-inspected-restored-cord-plummet, modern-paper-geometry-not-historical-grid, no-solar-viewing-or-field-survey, original-maker-and-object-attribution-and-prose-preserved]
   - id: museum-record-object-usturlab-farsi-1600
     label: "Museum lead for Persian Astrolabe, 1600–1700"
     state: "[~]"
@@ -1092,12 +1133,15 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
   - id: al-kashi-conjunction-plate
     label: "Al-Kashi's plate of conjunctions"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: astronomy-instruments
     era: middle-period
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    invention: invention/kashi-conjunction-plate
+    records: [person/al-kashi, source/schmidl-kashi-bea, source/tdv-kashi-okten]
+    flags: [completed-D107-b66-specific-linear-interpolation-device, actual-complete-Schmidl-Okten-read, two-plates-distinct, no-double-count-sine-circumference-Zarqali, version-dates-not-manufacture-date, modern-unwrapped-zero-crossing-not-original-graduations, no-global-first-interpolation-or-software-lineage, individual-Muslim-basis-separate-Sunni-default, maker-and-535-other-leads-preserved, PD-modern-triangle-context-not-artifact]
   - id: almucantar-quadrant
     label: "The almucantar quadrant"
     state: "[~]"
@@ -1125,12 +1169,15 @@ candidates:
     note: "D-066: independent two-plate improvement after Ibn al-Samh; invention/equatorium-al-zarqali, distinct from universal astrolabe. No Kepler-law priority or exact construction city."
   - id: ibn-al-shatir-planetary-models
     label: "Ibn al-Shatir's planetary models"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: astronomy-instruments
     era: middle-period
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    invention: invention/ibn-al-shatir-lunar-model
+    records: [person/ibn-al-shatir, work/nihayat-sul-ibn-shatir, source/roberts-shatir-1957, source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer]
+    flags: [completed-D105-b64-bounded-lunar-contribution, no-extra-count-for-all-planetary-models, no-heliocentrism-claim, manuscript-not-directly-read, copy-date-not-invention-date, actual-Roberts431-432-visually-checked, TDV43-50-versus-Roberts54-50-disagreement-retained, normalized-units-not-kilometres, modern-radii-arithmetic-not-full-ephemeris, transmission-readings-attributed-no-invented-route, explicit-individual-Muslim-basis-separate-Sunni-default, original-maker-and-535-other-leads-preserved, PD-context-image-not-historical-circles]
   - id: ibn-al-shatir-tusi-couple-transmission
     label: "Ibn al-Shatir's adoption of the Tusi couple"
     state: "[~]"
@@ -1142,13 +1189,15 @@ candidates:
     flags: ["trace-sunni-maker-and-name-al-tusi-as-precursor"]
   - id: linear-astrolabe-al-tusi
     label: "The linear astrolabe associated with al-Tusi"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: astronomy-instruments
     era: middle-period
     from: founder-supplied-lead
+    records: ["person/sharaf-al-din-al-tusi", "source/sharaf-tusi-mactutor", "source/tdv-sharaf-tusi-ozel", "source/carra-vaux-linear-astrolabe-1895"]
+    invention: invention/tusi-linear-astrolabe
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["maker-tradition-needs-sourced-perspectives"]
+    flags: [completed-D111-b70, sharaf-not-nasir, plane-astrolabe-adaptation, not-jacobs-staff, later-marrakushi-witness-not-autograph, selected-french-edition-not-arabic-collation, no-manuscript-figure, missing-use-ending, tables-in-translation, azimuth-meridian-and-equinox-limits, low-cost-design-aim-not-measured-superiority, twelfth-century-horizon-not-manufacture-date, tdv1209-date-caution, individual-islamic-identification-separate-sunni-default, no-personal-madhhab-inference, original-import-source-external-id-attribution-retained, unsupported-maragha-conflation-corrected, modern-PD-triangle-context-not-reconstruction, modern-chord-example-not-full-algorithm, paper-only]
   - id: mechanical-geared-astrolabe
     label: "The mechanical geared astrolabe"
     state: "[~]"
@@ -1540,12 +1589,15 @@ candidates:
     flags: [completed-D101-b60, improvement-not-discovery-of-pi, inherited-polygons-decimals-roots, 2pi-not-pi, sexagesimal-not-decimal-place-count, rounded-output-not-extra-digits, modern-finite-bounds-not-historical-transcription, no-unverified-huge-side-count, no-original-treatise-or-luckey-reading, named-islamic-mathematician-basis, separate-default-sunni-frame, original-maker-fields-attribution-occupation-retained, birth-and-observatory-chronology-uncertain, no-direct-european-transmission-certificate, separate-sine-and-key-works, modern-PD-shape-context]
   - id: combinatorics-ibn-munim
     label: "Combinatorics associated with Ibn Mun'im"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: mathematics
     era: middle-period
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "Actual Djebbar selected printed5–13,19–23 and inspected19–20", "Actual authored Arrabita biography and institutional book overview", "Inspected Rohieb2016 CC0 arithmetic triangle"]
+    invention: invention/combinatorics-ibn-munim
+    records: ["person/ibn-munim-al-abdari", "work/fiqh-hisab-ibn-munim", "source/djebbar-ibn-munim-combinatoire", "source/arrabita-ibn-munim-naqr", "source/arrabita-fiqh-hisab"]
+    flags: [completed-D103-b62, not-first-counting-or-arithmetic-triangle, al-khalil-and-karaji-predecessors, combination-permutation-repetition-distinct, no-manuscript-or-2005-edition-reading, tentative-composition-not-copy-date, no-direct-pascal-transmission, modern-CC0-context, individual-Muslim-basis-separate-default-sunni-frame, ibn-tumart-praise-attributed-not-endorsed, distinct-sicilian-namesake]
   - id: geometric-solution-of-cubics
     label: "Geometric solutions of cubic equations associated with Khayyam"
     state: "[x]"
@@ -1678,16 +1730,18 @@ candidates:
     flags: [textual-description-not-authenticated-original, urethral-drill-not-bladder-forceps, priority-and-later-lineage-attributed, historical-account-not-clinical-instructions]
   - id: cataract-hollow-needle
     label: "The hollow cataract needle attributed to Ammar al-Mawsili"
-    state: "[~]"
+    state: "[x]"
     batch: 2
     domain: medicine-surgery
     era: abbasid-golden
     from: founder-supplied-lead
+    invention: invention/ammar-hollow-cataract-needle
+    records: ["person/ammar-al-mawsili"]
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - "Max Meyerhof, ed. and trans., Las operaciones de catarata de ʻAmmār ibn ʻAlī al-Mausilī: The cataract operations of ʻAmmār ibn ʻAlī al-Mawsilī (Masnou: Laboratorios del Norte de España, 1937), pp. 19–21; Internet Archive item b31363337_0002 (primary edition; Spanish translation visually checked)"
       - "Encyclopaedia of Islam THREE, “ʿAmmār b. ʿAlī al-Mawṣilī,” reportedly 2 (2008): 92–93; accessible third-party extract used as a lead only, official access not verified"
-    flags: [verify-maker-faith-and-tradition, verify-priority-against-earlier-surgery, compare-arabic-facsimile-with-translation]
+    flags: [completed-D110-b69, author-devotional-purpose-individual-Muslim-basis, Sunni-separate-museum-default-not-patron-inference, selected-Spanish-primary-not-Arabic-collation, first-person-priority-and-success-attributed, academic-skepticism-visible-no-verdict, couching-cases-not-all-aspiration, Tiberias-Baghdad-variant-retained, text-transmission-not-modern-device-genealogy, no-clinical-instructions, modern-anatomy-context-not-original-needle]
   - id: museum-record-concept-anatomy
     label: "Museum lead for Anatomy"
     state: "[~]"
@@ -2315,13 +2369,15 @@ candidates:
     flags: [specific-pump-improvement-not-all-pumps, book-date-1205-or-1206, priority-claim-attributed-not-globally-proven, half-size-model-not-original, no-direct-steam-engine-transfer-proven]
   - id: taqi-al-din-six-cylinder-pump
     label: "Taqi al-Din's six-cylinder pump"
-    state: "[~]"
+    state: "[x]"
     batch: 5
     domain: mechanics-automata
     era: gunpowder-empires
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["verify-tradition"]
+    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "Actual al-Hasan1976 selected Arabic preface5–6/pump47–50 visually read", "Complete Cabeza et al2021 publisher PDF", "Re-read BEA religious/judicial biography and TDV work15", "Actual inspected Enl public2013 CC BY-SA3.0 original archived cam diagram"]
+    invention: invention/taqi-six-cylinder-pump
+    records: ["person/taqi-al-din-ibn-maruf", "work/turuq-saniyya-taqi", "source/taqi-turuq-hasan-1976", "source/cabeza-pump-2021"]
+    flags: [completed-D104-b63, design-not-proven-manufacture, inherited-pumps-cams, no-direct-engine-ancestry, one-two-possible-three-preferred-not-physical-minimum, original-wording-not-silently-corrected, dimensions-and-simulation-assumed, quarter-scale-not-full-wet-test, original-maker-fields-attribution-and-decimal-tie-retained, modern-licensed-context-not-historic-rocker]
   - id: taqi-al-din-steam-driven-spit
     label: "Taqi al-Din's steam-driven spit"
     state: "[~]"
@@ -3664,13 +3720,15 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: mosque-gnomons-and-sundials
     label: "Gnomons and sundials at mosques"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: timekeeping
     era: first-century
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "TDV İslâm Ansiklopedisi, GÜNEŞ SAATİ: https://islamansiklopedisi.org.tr/gunes-saati (lead/reference)"]
-    flags: [verify-specific-muslim-refinement, verify-maker-and-earlier-antecedents]
+    invention: invention/shatir-polar-sundial
+    records: [person/ibn-al-shatir, building/umayyad-mosque, source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer, source/tdv-gunes-saati-cam]
+    flags: [completed-D106-b65-bounded-fourteenth-century-refinement, original-provisional-first-century-era-not-record-date, not-invention-of-all-sundials, earlier-ancient-and-Islamic-devices-visible, actual-King-Dizer-Cam-read, original-fragments-versus-nineteenth-century-copy, portable-Aleppo-dial-and-1343-report-separate, no-global-first-or-European-transfer-verdict, modern-BSS-formula-not-original-engraving, modern-latitude30-not-Damascus-survey, photo-context-not-visible-dial-face, individual-Muslim-basis-separate-Sunni-default, maker-building-and-535-other-leads-preserved]
   - id: museum-record-event-assassination-attempt-of-amir-and-arbad
     label: "Museum lead for The plot of Amir ibn al-Tufayl and Arbad ibn Qays"
     state: "[-]"
@@ -4129,13 +4187,15 @@ candidates:
     flags: ["verify-tradition"]
   - id: taqi-al-din-mechanical-clock
     label: "Taqi al-Din's mechanical clock"
-    state: "[~]"
+    state: "[x]"
     batch: 5
     domain: timekeeping
     era: gunpowder-empires
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["verify-tradition"]
+    invention: invention/taqi-astronomical-clock
+    records: [person/taqi-al-din-ibn-maruf, source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
+    flags: [completed-D108-b67-bounded-seconds-reading-observation-application, not-first-mechanical-clock, European-clock-access-explicit, original-treatise-and-Tekeli-not-read, no-five-second-gearing-or-three-dial-claim, resolution-not-measured-accuracy, establishment-dates-not-manufacture-date, individual-Muslim-basis-separate-Sunni-default, maker-and-535-other-leads-preserved, modern-PD-icon-not-Ottoman-artifact, alarm-clock-not-counted]
   - id: museum-record-person-ibrahim-njoya
     label: "Museum lead for Ibrahim Njoya"
     state: "[~]"
@@ -5280,6 +5340,17 @@ candidates:
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
     flags: ["identify-specific-technical-novelty-and-faith-basis"]
+  - id: sharaf-tusi-positive-cubic-roots
+    label: "Sharaf al-Din al-Tusi's conditional positive-root analysis for cubics"
+    state: "[x]"
+    batch: 4
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/sharaf-al-din-al-tusi", "work/al-muadalat-sharaf-tusi", "source/sharaf-tusi-mactutor", "source/tdv-sharaf-tusi-ozel"]
+    invention: invention/sharaf-tusi-positive-cubic-roots
+    lead_sources: ["Actual complete MacTutor and Ahmet Ozel TDV mathematical analysis/work1;existing Khayyam contribution checked for distinct scope"]
+    flags: [completed-D112-b71, positive-domain-not-all-complex-roots, maximum-existence-not-all-cubics, separate-khayyam-conics-and-tusi-staff, derivative-interpretations-attributed-no-verdict, no-original-rashid-or-fares-edition-reading, abridged-missing-tables-not-reconstructed, no-exact1209-composition, twelfth-century-horizon, modern-factor-identity-and-root-counts-independently-derived, double-root-not-two-distinct-roots, no-positive-not-no-real, individual-islamic-basis-separate-sunni-frame, original-maker-and-astrolabe-tie-preserved, modern-PD-different-polynomial-not-example-or-manuscript]
   - id: museum-record-concept-wad-al-hadith
     label: "Museum lead for Fabrication of hadith (wad' al-hadith)"
     state: "[-]"

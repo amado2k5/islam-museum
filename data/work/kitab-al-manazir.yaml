@@ -13,11 +13,13 @@ language: language/arabic
 made: { by_muslims: true, basis: documented, sources: [source/manazir-sabra-1983] }
 disciplines: [concept/optics]
 editions: ["Arabic text edited by Abd al-Hamid Sabra, Kuwait 1983 (1404 AH), volume 1 covering Books 1 to 3 as printed; edition details taken from the title page and not independently verified (see source/manazir-sabra-1983)"]
-sources: [source/manazir-sabra-1983]
+sources: [source/manazir-sabra-1983, source/smith-alhacen-visual-perception-2001]
 provenance:
   layer: own-research
   source: "Kitab al-Manazir, Arabic edition by Abd al-Hamid Sabra (Kuwait 1983), editor's preface pp. 9 to 10 (scan pages)"
   generated_by: "Claude Haiku 5.5 (library-expansion)"
   model: claude-haiku-5-5
   run: lib-exp-medicine-science-manazir-maalim-zij-batch-1
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b75", source: "Append-only vision-synthesis explanation from selected Smith2001VolIintroduction xviii–xix,lii–lxiv throughopeninglxiv and visualfigure8lix. Preserves original draft status,editor attribution,edition details and fields;not a complete Arabic/Latin/translation reading." }
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion); structure from editor's preface, OCR" }

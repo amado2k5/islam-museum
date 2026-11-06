@@ -15,8 +15,10 @@ const title = T.explore.pages.timemachine.title;
 ---
 <BaseLayout lang={lang} title={title} description={L.widget_lede} path={`/${lang}/time-machine/`}>
   <div class="wrap" style="padding-block:10px 20px">
-    <h1>{title}</h1>
-    <p style="font-size:1.15rem;max-width:var(--measure)">{L.widget_lede}</p>
+    <div data-pagefind-body>
+      <h1>{title}</h1>
+      <p style="font-size:1.15rem;max-width:var(--measure)">{L.widget_lede}</p>
+    </div>
     <h2>{L.widget_title}</h2>
     <form class="row ui" id="hijri-form" data-hijri-widget data-corresponds={L.corresponds} data-none={L.widget_none} data-fail={L.widget_fail}>
       <label class="sr-only" for="bdate">{L.date_label}</label>

@@ -1,0 +1,126 @@
+---
+// The Modern Islam Browser's strips on an entity page (docs/plan/26 section 4.4): the section chips, the honours, the
+// footprint (Wikipedia languages, Wikidata, dated press), the dated platform figures, the upcoming badge, and for an
+// award record its kind, giver, categories and the records it honoured (from the derived awarded edges). A strip with
+// no content is not rendered. Plain HTML, no script.
+import { byId, edgesFrom, href, labelOf } from "../lib/graph";
+import { ui, fmt, type Lang } from "../lib/i18n";
+import { formatDate } from "../lib/dates";
+import { num } from "../lib/nav";
+import { countryName, kindLabel, modernEntries, sectionLabel, yearText } from "../lib/modern";
+import type { Node } from "../../../scripts/build-graph";
+
+interface Props { node: Node; lang: Lang }
+const { node: n, lang } = Astro.props;
+const T = ui(lang);
+const M = T.modern;
+const d = n.data;
+const entry = modernEntries.find((e) => e.node.id === n.id);
+const sections = entry?.sections ?? [];
+const link = (id: string | undefined) => { if (!id) return undefined; const x = byId.get(id); return x ? { href: x.stub ? undefined : href(lang, id), label: labelOf(x, lang) } : { label: id.split("/")[1] }; };
+const honours: any[] = d.honours ?? [];
+const press: any[] = d.footprint?.press ?? [];
+const wikiLangs: string[] = d.footprint?.wikipedia?.languages ?? [];
+const reach: any[] = d.reach ?? [];
+const horizon = d.horizon;
+const resultLabel = (r: string) => T.honourResults?.[r] ?? r;
+const stageLabel = (s: string) => T.horizonStages?.[s] ?? s;
+const awarded = n.class === "award" ? edgesFrom(n.id).filter((e) => e.type === "awarded").map((e) => ({ to: link(e.to), role: e.role, note: e.note, year: e.start?.edtf ? String(e.start.edtf).slice(0, 4) : undefined })).sort((a, b) => (b.year ?? "").localeCompare(a.year ?? "") || (a.to?.label ?? "").localeCompare(b.to?.label ?? "")) : [];
+const dl = "display:grid;grid-template-columns:minmax(120px,max-content) 1fr;gap:8px 18px;margin:0";
+const show = sections.length > 0 || honours.length > 0 || press.length > 0 || wikiLangs.length > 0 || reach.length > 0 || horizon || n.class === "award";
+---
+{show && (
+  <section class="sec ui" aria-labelledby="modern-title" data-modern-strips>
+    <h2 id="modern-title">{M.strip_title}</h2>
+    {sections.length > 0 && (
+      <p style="display:flex;flex-wrap:wrap;gap:6px 8px;margin:0 0 12px">
+        <a class="chip" style="border:1px solid var(--gold)" href={`/${lang}/modern/`}>{M.title}</a>
+        {sections.map((s) => <a class="chip" href={`/${lang}/modern/${s}/`}>{sectionLabel(s, lang)}</a>)}
+        {entry?.year !== undefined && <a class="chip" href={`/${lang}/modern/year/${entry.year}/`}>{yearText(entry.year, lang)}</a>}
+        {(entry?.countries ?? []).map((cc) => <a class="chip" href={`/${lang}/modern/country/${cc}/`}>{countryName(cc, lang)}</a>)}
+      </p>
+    )}
+    {horizon && (
+      <p class="panel" style="margin:0 0 12px;border:1px solid var(--gold)">
+        <strong>{M.horizon_title}:</strong> {stageLabel(horizon.stage)}
+        {horizon.expected && <> · {M.expected}: {formatDate(horizon.expected, lang).text}</>}
+        {horizon.announced && <> · {M.announced}: {formatDate(horizon.announced, lang).text}</>}
+        {horizon.by && link(horizon.by) && <> · {link(horizon.by)!.href ? <a href={link(horizon.by)!.href}>{link(horizon.by)!.label}</a> : link(horizon.by)!.label}</>}
+      </p>
+    )}
+    {n.class === "award" && (
+      <dl style={dl}>
+        {d.kind && <><dt class="muted">{M.award_kind}</dt><dd style="margin:0">{T.awardKinds?.[d.kind] ?? d.kind}</dd></>}
+        {d.awarded_by && link(d.awarded_by) && <><dt class="muted">{M.awarded_by}</dt><dd style="margin:0">{link(d.awarded_by)!.href ? <a href={link(d.awarded_by)!.href}>{link(d.awarded_by)!.label}</a> : link(d.awarded_by)!.label}</dd></>}
+        {d.since && <><dt class="muted">{M.since}</dt><dd style="margin:0">{formatDate(d.since, lang).text}{d.until && <> – {formatDate(d.until, lang).text}</>}</dd></>}
+        {d.country && <><dt class="muted">{M.by_country}</dt><dd style="margin:0"><a href={`/${lang}/modern/country/${d.country}/`}>{countryName(d.country, lang)}</a></dd></>}
+        {(d.categories ?? []).length > 0 && <><dt class="muted">{M.categories}</dt><dd style="margin:0">{d.categories.map((c: any) => c.label?.[lang] ?? c.label?.en ?? c.id).join(" · ")}</dd></>}
+      </dl>
+    )}
+    {n.class === "award" && (
+      <>
+        <h3 style="font-size:1rem;margin:14px 0 6px">{M.winners_title} <span class="muted">{num(awarded.length, lang)}</span></h3>
+        {awarded.length === 0 ? <p class="muted" style="margin:0">{M.no_winners}</p> : (
+          <table style="border-collapse:collapse;width:100%;font-size:.92rem">
+            <thead><tr><th style="text-align:start;padding:4px 8px">{M.col_year}</th><th style="text-align:start;padding:4px 8px">{M.col_who}</th><th style="text-align:start;padding:4px 8px">{M.col_result}</th><th style="text-align:start;padding:4px 8px">{M.col_category}</th></tr></thead>
+            <tbody>{awarded.map((a) => <tr style="border-top:1px solid var(--line)"><td style="padding:4px 8px">{a.year ? yearText(Number(a.year), lang) : M.year_unknown}</td><td style="padding:4px 8px">{a.to?.href ? <a href={a.to.href}>{a.to.label}</a> : a.to?.label}</td><td style="padding:4px 8px">{a.role ? resultLabel(a.role) : ""}</td><td style="padding:4px 8px">{a.note ?? ""}</td></tr>)}</tbody>
+          </table>
+        )}
+      </>
+    )}
+    {honours.length > 0 && (
+      <>
+        <h3 style="font-size:1rem;margin:14px 0 6px">{M.honours_title}</h3>
+        <ul style="padding:0;margin:0;list-style:none">
+          {honours.map((h) => { const a = link(h.award); return (
+            <li style="padding:4px 0;border-bottom:1px solid var(--line)">
+              {a?.href ? <a href={a.href} style="font-weight:600">{a.label}</a> : <span style="font-weight:600">{a?.label}</span>}
+              {h.category && <span> · {h.category}</span>}
+              <span> · {resultLabel(h.result)}{h.level ? ` (${h.level})` : ""}{h.position ? ` #${num(h.position, lang)}` : ""}</span>
+              {(h.year || h.date) && <span class="muted"> · {h.date ? formatDate(h.date, lang).text : yearText(h.year, lang)}</span>}
+              {h.for && link(h.for) && <span class="muted"> · {link(h.for)!.href ? <a href={link(h.for)!.href}>{link(h.for)!.label}</a> : link(h.for)!.label}</span>}
+              {h.note && <span class="muted"> · {h.note}</span>}
+            </li>
+          ); })}
+        </ul>
+      </>
+    )}
+    {(wikiLangs.length > 0 || d.footprint?.wikidata || press.length > 0) && (
+      <>
+        <h3 style="font-size:1rem;margin:14px 0 6px">{M.footprint_title}</h3>
+        {wikiLangs.length > 0 && <p style="margin:0 0 6px"><span class="muted">{M.wikipedia_in}:</span> {wikiLangs.map((l) => <span class="chip">{l}</span>)}{d.footprint?.wikipedia?.checked && <span class="muted"> ({fmt(M.read_on, { d: d.footprint.wikipedia.checked })})</span>}</p>}
+        {d.footprint?.wikidata && <p style="margin:0 0 6px"><span class="muted">{M.wikidata}:</span> <a href={`https://www.wikidata.org/wiki/${d.footprint.wikidata}`} rel="noopener">{d.footprint.wikidata}</a></p>}
+        {press.length > 0 && (
+          <>
+            <h4 style="font-size:.95rem;margin:10px 0 4px">{M.press_title} <span class="muted">{num(press.length, lang)}</span></h4>
+            <ul style="padding:0;margin:0;list-style:none">
+              {[...press].sort((a, b) => String(b.date?.edtf ?? "").localeCompare(String(a.date?.edtf ?? ""))).map((pr) => { const s = link(pr.source); const o = link(pr.outlet); return (
+                <li style="padding:4px 0;border-bottom:1px solid var(--line)">
+                  {pr.date && <span class="muted">{formatDate(pr.date, lang).text} · </span>}
+                  {o && (o.href ? <a href={o.href}>{o.label}</a> : o.label)}{o && " · "}
+                  {s?.href ? <a href={s.href}>{pr.title?.[lang] ?? pr.title?.en ?? s.label}</a> : (pr.title?.[lang] ?? pr.title?.en ?? s?.label)}
+                  {pr.kind && <span class="chip" style="margin-inline-start:6px">{T.pressKinds?.[pr.kind] ?? pr.kind}</span>}
+                  {pr.lang && <span class="muted"> · {pr.lang}</span>}
+                </li>
+              ); })}
+            </ul>
+          </>
+        )}
+      </>
+    )}
+    {reach.length > 0 && (
+      <>
+        <h3 style="font-size:1rem;margin:14px 0 6px">{M.reach_title}</h3>
+        <p class="muted" style="font-size:.85rem;margin:0 0 6px">{M.reach_note}</p>
+        <ul style="padding:0;margin:0;list-style:none">
+          {reach.map((r) => (
+            <li style="padding:4px 0;border-bottom:1px solid var(--line)">
+              <span class="chip">{r.platform}</span> {M.metrics?.[r.metric] ?? r.metric}: <strong>{r.value === null || r.value === undefined ? "—" : num(r.value, lang)}</strong>
+              <span class="muted"> · {fmt(M.read_on, { d: r.date })}</span>{r.note && <span class="muted"> · {r.note}</span>}
+            </li>
+          ))}
+        </ul>
+      </>
+    )}
+  </section>
+)}

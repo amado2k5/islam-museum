@@ -13,8 +13,10 @@ const relevances = ["primary", "substantial", "setting"].filter((r) => items.som
 ---
 <BaseLayout lang={lang} title={T.screen.title} description={T.screen.lede} path={`/${lang}/screen/`}>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
-    <h1>{T.screen.title}</h1>
-    <p style="font-size:1.2rem;max-width:var(--measure)">{T.screen.lede}</p>
+    <div data-pagefind-body>
+      <h1>{T.screen.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{T.screen.lede}</p>
+    </div>
     {items.length === 0 ? <p class="panel ui">{T.screen.empty}</p> : (
       <>
         <form class="ui no-print" id="filters" style="display:flex;flex-wrap:wrap;gap:10px;margin:1rem 0" aria-label={T.screen.filter}>

@@ -19,6 +19,7 @@
     "api": "tsx scripts/export-api.ts",
     "coverage": "tsx scripts/report/coverage.ts",
     "inventions:census": "tsx scripts/report/inventions-census.ts",
+    "modern:census": "tsx scripts/modern/census.ts",
     "daily": "tsx scripts/edu-daily.ts",
     "dashboard": "node tools/dashboard/generate.mjs && open http://localhost:8899",
     "test": "vitest run",

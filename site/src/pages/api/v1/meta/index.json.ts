@@ -3,11 +3,11 @@ import { graph, realNodes } from "../../../../lib/graph";
 
 const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention", "award",
 ] as const;
 
 export const GET: APIRoute = () => {
-  const classes = CLASSES.filter((k) => k === "invention" || realNodes.some((n) => n.class === k));
+  const classes = CLASSES.filter((k) => k === "invention" || k === "award" || realNodes.some((n) => n.class === k));
   const body = JSON.stringify({
     version: "v1",
     generated: graph.generated,

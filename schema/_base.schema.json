@@ -298,7 +298,8 @@
         "listing",
         "screen",
         "job",
-        "invention"
+        "invention",
+        "award"
       ]
     },
     "aliases": {
@@ -714,6 +715,289 @@
     "kids": {
       "$ref": "#/$defs/localized",
       "description": "Optional kids text for ages 6-12 (Time Browser, DESIGN decision 13): localized, ar/en/ur, each with a citation like the adult text."
+    },
+    "honours": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "award",
+          "result",
+          "sources"
+        ],
+        "properties": {
+          "award": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "category": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 1900,
+            "maximum": 2100
+          },
+          "date": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "result": {
+            "enum": [
+              "won",
+              "nominated",
+              "shortlisted",
+              "longlisted",
+              "certified",
+              "ranked",
+              "honoured",
+              "finalist",
+              "participant"
+            ]
+          },
+          "level": {
+            "enum": [
+              "silver",
+              "gold",
+              "platinum",
+              "multi-platinum",
+              "diamond"
+            ]
+          },
+          "territory": {
+            "type": "string"
+          },
+          "position": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "for": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "footprint": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "wikipedia": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "languages": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z]{2,3}(-[a-z]{2,8})?$"
+              },
+              "uniqueItems": true
+            },
+            "checked": {
+              "type": "string",
+              "format": "date"
+            },
+            "sources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[1-9][0-9]*$"
+        },
+        "press": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "source",
+              "date"
+            ],
+            "properties": {
+              "source": {
+                "type": "string",
+                "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+              },
+              "date": {
+                "$ref": "_base.schema.json#/$defs/date"
+              },
+              "outlet": {
+                "type": "string",
+                "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+              },
+              "lang": {
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "news",
+                  "feature",
+                  "interview",
+                  "review",
+                  "obituary",
+                  "investigation",
+                  "opinion",
+                  "profile",
+                  "listing"
+                ]
+              },
+              "title": {
+                "$ref": "_base.schema.json#/$defs/localized"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "catalogues": {
+          "type": "object",
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "reach": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "platform",
+          "metric",
+          "date",
+          "sources"
+        ],
+        "properties": {
+          "platform": {
+            "enum": [
+              "youtube",
+              "spotify",
+              "apple-music",
+              "anghami",
+              "deezer",
+              "soundcloud",
+              "tiktok",
+              "instagram",
+              "x",
+              "facebook",
+              "telegram",
+              "snapchat",
+              "website",
+              "print",
+              "broadcast",
+              "app-store",
+              "play-store",
+              "podcast-index"
+            ]
+          },
+          "metric": {
+            "enum": [
+              "subscribers",
+              "followers",
+              "views",
+              "monthly-listeners",
+              "streams",
+              "downloads",
+              "circulation",
+              "monthly-visits",
+              "installs",
+              "ratings-count"
+            ]
+          },
+          "value": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "horizon": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stage",
+        "sources"
+      ],
+      "properties": {
+        "stage": {
+          "enum": [
+            "announced",
+            "in-development",
+            "in-production",
+            "under-construction",
+            "scheduled",
+            "beta",
+            "bid",
+            "postponed",
+            "cancelled"
+          ]
+        },
+        "expected": {
+          "$ref": "_base.schema.json#/$defs/date"
+        },
+        "announced": {
+          "$ref": "_base.schema.json#/$defs/date"
+        },
+        "by": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "note": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "required": [

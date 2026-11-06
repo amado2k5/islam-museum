@@ -1,0 +1,16 @@
+id: media/diagram-khayyam-parallels
+class: media
+kind: illustration
+label: { ar: "تقليد المتوازيات وإعادة ترتيب البرهان", en: "Parallel tradition and proof reconstruction", ur: "متوازی روایت اور برہان کی نئی ترتیب" }
+summary: { ar: "سلسلة عامة لا دليل انتقال مباشر لكل هندسة لاحقة.", en: "Generic chain,not direct transmission to every later geometry.", ur: "عمومی سلسلہ،ہر بعد کی ہندسہ تک براہ راست انتقال نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/khayyam-parallel-quadrilateral]
+alt:
+  ar: "سوابق إقليدية،ثم تحليل الخيام ذي الفرضيات،ثم تلقي نصي؛لا برهان مستقل للمصادرة."
+  en: "Euclidean predecessors,then Khayyam's assumption-dependent analysis and textual reception;not an independent axiom proof."
+  ur: "اقلیدسی پیش رو،پھر مفروضوں والا خیام کا تجزیہ اور متنی قبولیت؛مسلمے کا آزاد برہان نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/vahabzadeh-khayyam-mathematician, source/sep-umar-khayyam]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b73", source: "Existing generic chain renderer,not manuscript,primary proof or direct European-transmission diagram." }

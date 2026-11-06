@@ -118,10 +118,22 @@ neighbours + tags).
 `.cache/graph.json`): one page per entity per language, hall pages, the
 education routes (`learn/`, `sighar/` band hubs, passport, study modes —
 fed by `edu/` data via `site/src/lib/edu.ts`),
-exhibits, questions, screen entries, themes, `wander`, `today`, JSON-LD,
+exhibits, questions, screen entries, themes, `wander`, `today`, the browsers
+and explorers (`time-browser/`, `time-machine/`, `calendar/`, `screen/`, `words/`,
+`fatwa/`, `khutab/`, `jobs/`, `inventions/`, `modern/`; register
+`docs/site/browsers.md`), JSON-LD,
 OG images (satori), sitemaps, RSS, `api/` passthrough, `_redirects` (API
 301s to `api.islam.museum`, slug renames). Passage (Qur'an verse) pages are
-rendered but excluded from Pagefind via `data-pagefind-body` (plan 03 §7).
+rendered but excluded from Pagefind via `data-pagefind-body` (plan 03 §7);
+every other entity page is indexed, and each browser's landing page exposes
+its header block to the index so the feature is findable by name.
+
+The API export (`scripts/export-api.ts`) writes the class files, the graph
+dumps, the neighbourhoods, the themes and meta files, and one export per
+feature: `inventions.json` and `inventions/chains.json`, `modern/*` and
+`award/index.json`, `jobs.json`, `fatwa.json`, `khutab.json`, `poetry.json`,
+`screens.json`, `time-browser/index.json` (listed in `docs/data/README.md`
+and `site/public/openapi/v1.json`).
 
 Pagefind runs once per published language; chunks are content-addressed and
 deployed to R2 (immutable), not to Pages.

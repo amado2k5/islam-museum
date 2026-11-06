@@ -41,7 +41,9 @@
         "lecture-series",
         "podcast",
         "newspaper",
-        "journal"
+        "journal",
+        "album",
+        "song"
       ]
     },
     "made": {
@@ -440,6 +442,53 @@
           "sources": {
             "type": "array",
             "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "n",
+          "title"
+        ],
+        "properties": {
+          "n": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "work": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "duration_s": {
+            "type": "number",
+            "minimum": 0
+          },
+          "lang": {
+            "type": "string"
+          },
+          "performers": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+            }
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
             "items": {
               "type": "string"
             }

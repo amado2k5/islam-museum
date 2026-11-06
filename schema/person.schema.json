@@ -424,6 +424,96 @@
           }
         }
       }
+    },
+    "sports": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sport",
+          "sources"
+        ],
+        "properties": {
+          "sport": {
+            "enum": [
+              "football",
+              "cricket",
+              "basketball",
+              "boxing",
+              "mixed-martial-arts",
+              "wrestling",
+              "judo",
+              "taekwondo",
+              "karate",
+              "athletics",
+              "swimming",
+              "fencing",
+              "weightlifting",
+              "gymnastics",
+              "tennis",
+              "squash",
+              "table-tennis",
+              "badminton",
+              "cycling",
+              "motorsport",
+              "golf",
+              "chess",
+              "rowing",
+              "sailing",
+              "equestrian",
+              "archery",
+              "shooting",
+              "volleyball",
+              "handball",
+              "rugby",
+              "american-football",
+              "baseball",
+              "ice-hockey",
+              "skiing",
+              "mountaineering",
+              "bodybuilding",
+              "kabaddi",
+              "hockey",
+              "esports",
+              "paralympic"
+            ]
+          },
+          "discipline": {
+            "type": "string"
+          },
+          "position": {
+            "type": "string"
+          },
+          "teams": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+            }
+          },
+          "national_team": {
+            "type": "string",
+            "pattern": "^[a-z]{2}$"
+          },
+          "start": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "end": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "unevaluatedProperties": false

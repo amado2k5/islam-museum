@@ -1,0 +1,98 @@
+id: invention/ammar-hollow-cataract-needle
+class: invention
+label: { ar: "إبرة عمار المجوفة الموصوفة للساد", en: "Ammar's described hollow cataract needle", ur: "عمار کی بیان کردہ کھوکھلی موتیا بند سوئی" }
+names:
+  - { kind: alternate, lang: ar, value: "المقدح المجوف" }
+summary:
+  ar: "وصف أداة مجوفة للشفط في رواية عمار؛ الأولوية والنتائج محل عرض منسوب لا حكم متحفي {cite:meyerhof-ammar-1937 pp19-21} {cite:leffler-cataract-aspiration-2017 introduction}."
+  en: "Hollow aspiration instrument described in Ammar's account;priority and outcomes presented as attributed claims,not museum verdict {cite:meyerhof-ammar-1937 pp19-21} {cite:leffler-cataract-aspiration-2017 introduction}."
+  ur: "عمار کی روایت میں انجذاب کا کھوکھلا آلہ؛اولیت و نتائج منسوب دعوے،عجائب گھر کا فیصلہ نہیں {cite:meyerhof-ammar-1937 pp19-21} {cite:leffler-cataract-aspiration-2017 introduction}۔"
+domain: medicine-surgery
+kind: instrument
+disciplines: [medicine, engineering]
+wings: [objects, ideas]
+regions: [egypt-nile, levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0996/1020"
+    calendar: julian
+    precision: year
+    status: historical
+    derived: true
+    note: "TDV assigns work to al-Hakim's996–1020 reign;textual horizon,not exact instrument manufacture or proof author lived through1020. TDV400/1010 death and Meyerhof circa1010 composition/context not silently harmonized;no guessed Hijri."
+    sources: [source/tdv-ammar-b-ali, source/meyerhof-ammar-1937]
+  status_today: replaced
+origin:
+  place: place/cairo
+  context:
+    ar: "تأليف بمصر، لا جزم بموضع صنع الأداة أو تسوية اختلاف طبرية وبغداد في الرواية {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 p19}."
+    en: "Egyptian authorship context,not certain manufacture site or resolution of Tiberias/Baghdad textual variant {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 p19}."
+    ur: "مصر میں تصنیف کا سیاق،یقینی مقام صنعت یا طبریہ/بغداد کے اختلاف کا حل نہیں {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 p19}۔"
+makers:
+  - person: person/ammar-al-mawsili
+    role: describer
+    note: "Author claims personal manufacture and success;not first all ophthalmology or independently proven universal aspiration priority."
+    sources: [source/meyerhof-ammar-1937, source/tdv-ammar-b-ali]
+attribution:
+  status: contested
+  claim:
+    ar: "عمار يصف صنع إبرته ويدعي سبق الاستعمال والنجاح."
+    en: "Ammar describes making his needle and claims priority and success."
+    ur: "عمار سوئی بنانے اور پہلے کامیاب استعمال کا دعویٰ کرتے ہیں۔"
+  basis:
+    ar: "شاهد مترجم باق، لكن حد الانتشار والفعالية والأسبقية العالمية لا يحسمه الخبر الشخصي {cite:meyerhof-ammar-1937 pp19-20} {cite:leffler-cataract-aspiration-2017 introduction}."
+    en: "Surviving translated witness,but first-person report does not settle extent of practice,efficacy or universal priority {cite:meyerhof-ammar-1937 pp19-20} {cite:leffler-cataract-aspiration-2017 introduction}."
+    ur: "مترجم شہادت باقی،مگر شخصی خبر عمل کا پھیلاؤ،افادیت یا عالمی اولیت طے نہیں کرتی {cite:meyerhof-ammar-1937 pp19-20} {cite:leffler-cataract-aspiration-2017 introduction}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-frame-attributed-author-account
+      summary:
+        ar: "الإطار السني يعرض دعوى المؤلف كما نقلها مايرهوف وتقدير بلطجي لأصالة عمله،لا حكم على نجاح كل عملية {cite:meyerhof-ammar-1937 pp19-20} {cite:tdv-ammar-b-ali pp74-75}."
+        en: "Sunni museum frame presents author's claim through Meyerhof and Baltaci's appreciation,not verdict on every operation {cite:meyerhof-ammar-1937 pp19-20} {cite:tdv-ammar-b-ali pp74-75}."
+        ur: "سنی عجائب گھری فریم میں مائرہوف کا منقول دعویٰ و بلطاجی کا اعتراف،ہر عمل کی کامیابی کا فیصلہ نہیں {cite:meyerhof-ammar-1937 pp19-20} {cite:tdv-ammar-b-ali pp74-75}۔"
+      sources: [source/meyerhof-ammar-1937, source/tdv-ammar-b-ali]
+    - tradition: academic
+      id: historical-practice-and-priority-caveats
+      summary:
+        ar: "لفلر وزملاؤه يذكرون احتمالات أقدم وشك اللاحقين،وينقلون نقد سافج سميث،ويفرقون معظم حالات القدح عن حالة الشفط {cite:leffler-cataract-aspiration-2017 introduction}."
+        en: "Leffler and colleagues discuss possible earlier attempts/later skepticism,quote Savage-Smith's caveat and distinguish most couching histories from the aspiration case {cite:leffler-cataract-aspiration-2017 introduction}."
+        ur: "لیفلر و رفقا قدیم امکانات،بعد کے شک،سیویج سمتھ کے نقد اور بیشتر قدح کی روایتوں سے انجذاب کی ایک حالت کا فرق بتاتے ہیں {cite:leffler-cataract-aspiration-2017 introduction}۔"
+      sources: [source/leffler-cataract-aspiration-2017]
+precursors:
+  - external: { ar: "القدح السابق واحتمالات الشفط الأقدم", en: "Earlier couching and possible earlier aspiration", ur: "سابق قدح اور ممکن قدیم انجذاب" }
+    note: "Specific predecessors and actual practice uncertain;not first surgery or all hollow tubes."
+    sources: [source/leffler-cataract-aspiration-2017, source/meyerhof-ammar-1937]
+dependents:
+  - external: { ar: "قراءة الكتاب وترجمته في القرون اللاحقة", en: "Later reading and translation of the book", ur: "بعد کے ادوار میں کتاب کی قراءت و ترجمہ" }
+    note: "Literary reception documented,not continuous modern-device genealogy or proof repeated successful operations."
+    sources: [source/tdv-ammar-b-ali, source/meyerhof-ammar-1937]
+spread: []
+impact:
+  fields: [medicine-surgery]
+  changed:
+    ar: "جمع وصف الأداة ورواية الخبرة في طب العين {cite:meyerhof-ammar-1937 pp19-21}."
+    en: "Combined instrument description and reported experience in eye medicine {cite:meyerhof-ammar-1937 pp19-21}."
+    ur: "چشم طب میں آلے کی تفصیل و منقول تجربہ جمع کیا {cite:meyerhof-ammar-1937 pp19-21}۔"
+  history:
+    ar: "شاهد مهم لتاريخ الأفكار والنصوص الطبية،لا إحصاء نجاح سريري {cite:leffler-cataract-aspiration-2017 introduction}."
+    en: "Important witness to medical ideas/texts,not a clinical success statistic {cite:leffler-cataract-aspiration-2017 introduction}."
+    ur: "طبی افکار و متن کا اہم شاہد،طبی کامیابی کی شماریات نہیں {cite:leffler-cataract-aspiration-2017 introduction}۔"
+  significance: 3
+  why: "Rich first-person instrument account with primary transmission issues and explicit scholarly caveats."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "تاريخ طب، لا أداة موصى باستعمالها.", en: "Medical history,not an instrument recommended for use.", ur: "طبی تاریخ،استعمال کے لیے تجویز کردہ آلہ نہیں۔" }
+  descendants: { ar: "لا نسب مثبت مباشر لكل جهاز حديث.", en: "No demonstrated direct ancestry of every modern device.", ur: "ہر جدید آلے کا ثابت براہ راست نسب نہیں۔" }
+media: { image: media/ammar-eye-context, diagram: media/diagram-ammar-hollow-needle }
+kids:
+  ar: "تعرف العدسة في الرسم فقط،بلا لمس العين أو استعمال إبرة أو شفط."
+  en: "Identify the lens in a diagram only;no touching eyes,needles or suction."
+  ur: "صرف خاکے میں عدسہ پہچانیں؛آنکھ چھونا،سوئی یا انجذاب نہیں۔"
+sources: [source/tdv-ammar-b-ali, source/meyerhof-ammar-1937, source/leffler-cataract-aspiration-2017, source/nei-cataracts, source/commons-eye-schematic]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b69", source: "Actual TDV/selected translated primary/modern scholarly criticism/NEI/inspected modern anatomy diagram;no clinical instruction or original-manuscript claim." }

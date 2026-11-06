@@ -8,6 +8,7 @@ Read this before you change anything under `site/`, `i18n/`, `scripts/validate.t
 | [`design-and-accessibility.md`](design-and-accessibility.md) | You touch colour, type, headings, cards, the header or the menu, or anything at phone width. |
 | [`dates-timeline-maps.md`](dates-timeline-maps.md) | You touch a date, a Hijri value, the time wing, the timeline strip, or a map. |
 | [`checks.md`](checks.md) | A build or validate step fails, or you want to add a rule. |
+| [`browsers.md`](browsers.md) | You add or change a browser or explorer (Time Browser, Job Browser, Inventions, Fatwa, Khutab, Poetry, Screening Room, Modern Islam, …): the register of what each has and will have, and the graph, API and search rule with its checklist. |
 
 ## Checklist for any site or data change
 
@@ -39,6 +40,10 @@ A push to `main` does not deploy. Since 21 October 2026 the work is split in two
 - `.github/workflows/deploy-uat.yml` ("Deploy islam.museum to UAT", since 1 November 2026) deploys the same artifact with the same steps to the UAT copy of the hosting (`https://uat.islam.museum`, bucket `islam-museum-uat`, Workers `islam-museum-site-uat` and `islam-museum-r2-sync-uat[-N]`, Pages project `islam-museum-uat`, API at `uat-api.islam.museum`), so the founder can review a build before publishing it to production with the same `build_run_id`. The steps of both workflows live once in `deploy-env.yml`; a GitHub Environment (`production` or `uat`) supplies the bucket, the wrangler environment (`[env.uat]` in the two `wrangler.production.toml`), the Pages project and the keys. UAT is never indexed (its Worker answers `/robots.txt` with `Disallow: /` and marks every response noindex) and touches no production resource. Details: `docs/engineering/06-deployment.md` section 8.
 
 Agents never start the deploy; when a site change needs to be live, ask the founder in chat and name the commits (`docs/agents/workflow.md` section 9). This is why two builds of the same commit must be byte-identical and why no site-wide number may sit in a shared layout: every changed page costs an upload on the next deploy.
+
+## Browsers and explorers: the rule
+
+Every browser or explorer is a front door over the one graph, never a dataset of its own (`AGENTS.md`, founder rule of 6 November 2026). Its records are entity pages (searchable, exported in the API); its landing page carries `data-pagefind-body` on the header block (title, lede, status line) so the feature is findable by name, and `data-pagefind-ignore` on its long lists; it writes its own export in `scripts/export-api.ts` with a row in `docs/data/README.md`, a path in `site/public/openapi/v1.json` and a line in `llms.txt`; it joins the Explore menu (`site/src/lib/nav.ts`) and the landing page when its home is ready. The register of every browser, its routes, status, what it has and what it will have is [`browsers.md`](browsers.md); the add-a-browser checklist is `docs/engineering/10-extensibility.md` §2.7.
 
 ## Job Browser routes (Phase 1)
 
