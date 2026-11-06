@@ -7,7 +7,7 @@ translators: []
 
 ## ملخص
 
-جودت يلماز (وُلد سنة 1967) سياسي تركي يشغل منصب نائب رئيس الجمهورية منذ حزيران 2023 {cite:wikipedia-cevdet-yilmaz-en} {cite:wikipedia-cevdet-yilmaz-tr}.
+جودت يلماز ⁦(وُلد سنة 1967)⁩ سياسي تركي يشغل منصب نائب رئيس الجمهورية منذ حزيران 2023 {cite:wikipedia-cevdet-yilmaz-en} {cite:wikipedia-cevdet-yilmaz-tr}.
 
 ## حياته
 

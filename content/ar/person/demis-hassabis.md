@@ -6,7 +6,7 @@ translators: []
 ---
 # ديمس هاسابيس
 
-ديمس هاسابيس (وُلد 27 يوليو 1976) باحث بريطاني في الذكاء الاصطناعي ورائد أعمال، شريك مؤسس ديب مايند، وشريك في جائزة نوبل في الكيمياء لسنة 2024. تعطي المقالات الإنجليزية والعربية والفارسية والأردية وويكي بيانات ولادته في 27 يوليو 1976 في لندن. {cite:wikipedia-hassabis-en} {cite:wikipedia-hassabis-ar} {cite:wikipedia-hassabis-fa} {cite:wikipedia-hassabis-ur} {cite:wikidata-hassabis}
+ديمس هاسابيس ⁦(وُلد 27 يوليو 1976)⁩ باحث بريطاني في الذكاء الاصطناعي ورائد أعمال، شريك مؤسس ديب مايند، وشريك في جائزة نوبل في الكيمياء لسنة 2024. تعطي المقالات الإنجليزية والعربية والفارسية والأردية وويكي بيانات ولادته في 27 يوليو 1976 في لندن. {cite:wikipedia-hassabis-en} {cite:wikipedia-hassabis-ar} {cite:wikipedia-hassabis-fa} {cite:wikipedia-hassabis-ur} {cite:wikidata-hassabis}
 
 ## نشأته وتعليمه
 

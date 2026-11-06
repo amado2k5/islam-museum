@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.712–713" }
 ---
 ## موجز
-بردة الصريمية عابدة من أهل [[place/basra|البصرة]]، يترجم لها ابن الجوزي في [[work/sifat-al-safwa|صفة الصفوة]] (الترجمة 596)، ويصفها ثابت البناني بأنها امرأة من الصدر الأول أكثرت البكاء حتى فسد بصرها. {cite:sifat-al-safwa-tartusi-2012 p.712}
+بردة الصريمية عابدة من أهل [[place/basra|البصرة]]، يترجم لها ابن الجوزي في [[work/sifat-al-safwa|صفة الصفوة]] ⁦(الترجمة 596)⁩، ويصفها ثابت البناني بأنها امرأة من الصدر الأول أكثرت البكاء حتى فسد بصرها. {cite:sifat-al-safwa-tartusi-2012 p.712}
 
 ## أضياف في أرض غربة
 كانت إذا قيل لها: كيف أصبحت؟ قالت: أصبحنا أضيافاً منتجعين بأرض غربة، ننتظر إجابة الداعي. {cite:sifat-al-safwa-tartusi-2012 p.712}
