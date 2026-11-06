@@ -27,3 +27,9 @@ Criticism remains visible:a projection/surface inconsistency,different recompute
 Unat reports Ottoman madrasa teaching,Ibrahim Kami's translation of BookIV,and editions including Cairo1967and Damascus1977. These are bibliographical notices,not copies claimed examined. Selected pages of the1992study and statements embedded in its analysis were read here,and figure8,p213,visually inspected;not the complete Arabic book or the whole text/translation printed later in that study {cite:tdv-kashi-okten work7} {cite:dold-samplonius-muqarnas-1992 pp193-and213}.
 
 The module and elements show the book connecting arithmetic with craft. Area-based artisan payment in the Arab world remains the historian's possible application,not a verified payment ledger. The modern photograph on the invention record likewise illustrates a subject without proving that this book was used for that building {cite:dold-samplonius-muqarnas-1992 pp193-194-and209} {cite:commons-qom-muqarnas description}.
+
+## General root extraction
+
+The [[invention/kashi-general-root-extraction|general-root entry]] adds a subject distinct from muqarnas and the sine-one-degree problem. MacTutor reports Luckey's later Ruffini/Horner comparison while retaining Rashed's al-Karaji/al-Samawal school precedents. Iranica describes general extraction with square roots as a special case and an attributed possible Chinese connection,not a demonstrated transfer route. This is improvement/integration,not first roots or all algebraic algorithms {cite:kashi-mactutor root-extraction} {cite:iranica-kashi calculation}.
+
+Those secondary accounts were read,not the original Arabic chapter or Luckey/Rashed independently;the security-blocked summary and unwatched animation are not reading. Integer cube bounds on the invention page are independent modern teaching,not a recovered manuscript table. The book's completion date does not date discovery of every procedure {cite:kashi-mactutor Key-and-roots}.

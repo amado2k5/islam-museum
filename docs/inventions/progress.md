@@ -4,6 +4,12 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Log
 
+- **Invention77 permitted gates passed.** Graph51,765nodes/82,608edges;coverage regenerated;census542leads(503active/39excluded),77inventions,268personleads/470prosehits. Validation49,854entities/84,980prose,0errors/8496warnings;authenticity0errors/1warning. Citations5/5,whitespacepassed. Sessiongate17exactsections,1567/1838/1957ar/en/urwords;76priorinventions/allprose,541oldleads,maker/workoriginalfields/status/attribution/proseprefixes andfourprior ties retained. Initialmathgatecaughttwo handwrittencube-resulttypos;correctedall3languagesandrequiredexactprintedvalues9993948264/10007873875,notweakenedassertions. Exactintegerrootbounds and1440binomial/monotonicity/scaling checks passed. Freshfetch shows no new main commits at thispoint. Localtests/buildnotrun,no deployment.
+
+- **Invention77 written (D-118).** General numerical root extraction in the existing Key,not firstroots/allHornermethod/sinecubicduplicate. Fournewentities,fulltrilingualinvention,additivemaker/workprose/data/extensions preservingfourprior ties/originalfields. Lead542/all541oldunchanged;secondaryaccountsactuallyread,earlierKarajischool/Samawalpreserved,Chineseconnectionpossibleonly;moderncube10bracketsindependentnotoldgrid. ActualCCBYSA2.5moderncubeimage/rightsinspected,unmodifiedSVG. Gatesnext;no localtests/build/deployment.
+
+- **Invention76 merged;77 started.** #4459 merged6November17:12:04Z at `1234389410160f11a916ff238831b6f9da6bc37a`;mainancestry/exact76inventions/all228translations verified.24remain including77. Dedicatedbranch `inventions/p3-b77-copilot` fromthatbaseline;no deployment,localtests/buildfounder-skipped.
+
 - **Invention76 integrated gates passed.** Rebased unpublished content onto reviewed main `a9793fbb33`,preserving #4458source/library/canaryData. Regenerated graph/coverage/census and repeated validation/citation/session/whitespace:51,761nodes/82,604edges;49,850entities/84,977prose,0errors/8496warnings;authenticity0errors/1warning.76inventions/541leads/468prosehits;17section/depth/preservation/10000identity checks unchanged. Localtests/buildnotrun,no deployment.
 
 - **Invention76 corrected validation passed.**49,849entities/84,977prose,0errors/8496warnings;authenticity0errors/1warning. Reviewed independent #4458source/library/canaryData;integrate then regenerate/repeatgates. Localtests/buildnotrun,no deployment.

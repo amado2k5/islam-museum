@@ -48,3 +48,9 @@ The Nuzha's first Kashan1416 text and Samarkand1426 revision date descriptions, 
 The [[work/miftah-al-hisab-kashi|Key to Arithmetic]] presents [[invention/kashi-muqarnas-mensuration|modular muqarnas mensuration]]:counting elements/tiers,squared unit conversion and an average curved-cell coefficient. Dold-Samplonius explains the system,projection inconsistency and differing recomputations. These limits remain explicit;the architectural form itself is not assigned to its author {cite:dold-samplonius-muqarnas-1992 pp209-221}.
 
 Selected1992study sections were read,not the complete Arabic book/editions;1427/830dates completion,not the first measured ceiling. Area-based Arab-world artisan pay is the historian's suggestion,not a verified contract. The modern photograph retains its context and does not become evidence that al-Kashi designed the Qom building {cite:dold-samplonius-muqarnas-1992 pp193-196} {cite:commons-qom-muqarnas description}.
+
+## General roots in the Key
+
+[[invention/kashi-general-root-extraction|General numerical root extraction]] belongs to the Key,not a recounting of the sine cubic or muqarnas. MacTutor reports Luckey's Ruffini/Horner comparison and Rashed's al-Karaji/al-Samawal precedents;Iranica retains a possible Chinese connection as attributed possibility,not a demonstrated route. The role is development of inherited computation,not the world's first root {cite:kashi-mactutor root-extraction} {cite:iranica-kashi calculation}.
+
+The individual Muslim basis and separate Sunni frame remain unchanged. The cited secondary accounts were read,not the original chapter,independent studies or inaccessible animation. Modern bounds for the root of ten are declared teaching,not a table the museum claims to have discovered in a manuscript {cite:kashi-mactutor biography-and-roots}.
