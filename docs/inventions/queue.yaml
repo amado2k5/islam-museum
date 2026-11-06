@@ -1342,6 +1342,18 @@ candidates:
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.3", "founder-approved operative brief (2026-11-04) §6.4"]
     flags: [identify-specific-instrument, verify-primary-tasrif-passage, verify-maker-faith-and-tradition]
+    note: "D-060 completes the separate zahrawi-mishab record; this broad lead remains open for other individually verified tools, not an omnibus invention."
+  - id: zahrawi-mishab
+    label: "Al-Zahrawi's described urethral-stone drill"
+    state: "[x]"
+    batch: 2
+    domain: medicine-surgery
+    era: abbasid-golden
+    from: scholarly-reference
+    lead_sources: ["source/alzahrawi-stones-abdelhalim-2003 pp. 1288–1289", "source/tdv-tasrif-zehravi pp. 132–133"]
+    museum_records: [invention/zahrawi-mishab, person/al-zahrawi]
+    sources: [source/alzahrawi-stones-abdelhalim-2003, source/tdv-zehravi, source/tdv-tasrif-zehravi]
+    flags: [textual-description-not-authenticated-original, urethral-drill-not-bladder-forceps, priority-and-later-lineage-attributed, historical-account-not-clinical-instructions]
   - id: cataract-hollow-needle
     label: "The hollow cataract needle attributed to Ammar al-Mawsili"
     state: "[~]"
