@@ -7,7 +7,7 @@ status: { review: published }
 provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "سنن أبي داود ومعه معالم السنن، ط. دار ابن حزم 1997 ج1 ص 1، 8، 13–14، 17–21، 34، 43–47، 82–85، 95–97، 137، 197–198، 428، 437–438" }
 ---
 ## موجز
-«معالم السنن» شرح [[person/abu-sulayman-al-khattabi|أبي سليمان الخطابي]] البستي (319–388هـ) على [[work/sunan-abi-dawud|سنن أبي داود]]. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} وقد طبعته دار ابن حزم سنة 1997 في حواشي السنن، فوزّع المعدّ عزت عبيد الدعاس كلماته على الأحاديث التي تشرحها، وختم كل نقل منه بكلمة «(خطابي)». {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 7-8} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 17}
+«معالم السنن» شرح [[person/abu-sulayman-al-khattabi|أبي سليمان الخطابي]] البستي ⁦(319–388هـ)⁩ على [[work/sunan-abi-dawud|سنن أبي داود]]. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} وقد طبعته دار ابن حزم سنة 1997 في حواشي السنن، فوزّع المعدّ عزت عبيد الدعاس كلماته على الأحاديث التي تشرحها، وختم كل نقل منه بكلمة «⁦(خطابي)⁩». {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 7-8} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 17}
 
 ## ما يصنعه الشرح
 يظهر من الجزء الأول أن الخطابي يجمع في شرحه أربعة أعمال:
