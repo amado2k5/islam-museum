@@ -9,11 +9,11 @@ translators: []
 
 ## موجز
 
-محمد إلياس الكاندهلوي (1885 – 13 تموز 1944) عالم دين إسلامي هندي من علماء الحركة الديوبندية، أسس جماعة التبليغ سنة 1925 في منطقة موات.{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}{cite:wikipedia-muhammad-ilyas-kandhlawi-en} وصارت الجماعة التي أطلقها — وكان سيسميها تحريك إيمان، أي حركة الإيمان — من أوسع حركات الدعوة الشعبية في العالم.{cite:wikipedia-muhammad-ilyas-kandhlawi-en}
+محمد إلياس الكاندهلوي ⁦(1885 – 13 تموز 1944)⁩ عالم دين إسلامي هندي من علماء الحركة الديوبندية، أسس جماعة التبليغ سنة 1925 في منطقة موات.{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}{cite:wikipedia-muhammad-ilyas-kandhlawi-en} وصارت الجماعة التي أطلقها — وكان سيسميها تحريك إيمان، أي حركة الإيمان — من أوسع حركات الدعوة الشعبية في العالم.{cite:wikipedia-muhammad-ilyas-kandhlawi-en}
 
 ## نشأته وتعليمه
 
-وُلد سنة 1303هـ (1885/1886م) في قرية كاندهلة من أعمال مظفر نكر، ويُحسب عام مولده من التاريخ الشعري لاسمه عند الولادة «أختر إلياس»، بينما يعطي صندوق المقالة الإنجليزية 1302هـ.{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}{cite:wikipedia-muhammad-ilyas-kandhlawi-en} حفظ القرآن على يد أبيه في منطقة نظام الدين بدلهي ودرس عليه كتب العربية والفارسية الأولى، ثم تتلمذ على رشيد أحمد الكنكوهي ولازمه حتى وفاة الكنكوهي سنة 1905.{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}{cite:wikipedia-muhammad-ilyas-kandhlawi-en} ثم التحق سنة 1908 بدار العلوم ديوبند ودرس على محمود حسن الديوبندي.{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}{cite:wikipedia-muhammad-ilyas-kandhlawi-ur}
+وُلد سنة 1303هـ ⁦(1885/1886م)⁩ في قرية كاندهلة من أعمال مظفر نكر، ويُحسب عام مولده من التاريخ الشعري لاسمه عند الولادة «أختر إلياس»، بينما يعطي صندوق المقالة الإنجليزية 1302هـ.{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}{cite:wikipedia-muhammad-ilyas-kandhlawi-en} حفظ القرآن على يد أبيه في منطقة نظام الدين بدلهي ودرس عليه كتب العربية والفارسية الأولى، ثم تتلمذ على رشيد أحمد الكنكوهي ولازمه حتى وفاة الكنكوهي سنة 1905.{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}{cite:wikipedia-muhammad-ilyas-kandhlawi-en} ثم التحق سنة 1908 بدار العلوم ديوبند ودرس على محمود حسن الديوبندي.{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}{cite:wikipedia-muhammad-ilyas-kandhlawi-ur}
 
 ## تأسيس جماعة التبليغ
 
@@ -21,7 +21,7 @@ translators: []
 
 ## وفاته
 
-توفي في دلهي في 13 تموز 1944 (1363هـ).{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}{cite:wikipedia-muhammad-ilyas-kandhlawi-en}{cite:wikidata-muhammad-ilyas-kandhlawi}
+توفي في دلهي في 13 تموز 1944 ⁦(1363هـ)⁩.{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}{cite:wikipedia-muhammad-ilyas-kandhlawi-en}{cite:wikidata-muhammad-ilyas-kandhlawi}
 
 ## المراجع
 

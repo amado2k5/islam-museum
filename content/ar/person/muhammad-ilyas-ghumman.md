@@ -7,7 +7,7 @@ translators: []
 
 # محمد إلياس غمن
 
-محمد إلياس غمن (وُلد في 12 أبريل 1969 في سرغودها بإقليم البنجاب) عالم دين باكستاني ومناظر وخطيب.{cite:wikipedia-muhammad-ilyas-ghuman-en} تصفه ويكيبيديا الإنجليزية في متن مقالتها بأنه «عالم لاهوت حنفي ماتريدي بارز».{cite:wikipedia-muhammad-ilyas-ghuman-en} وتصفه ويكيبيديا الأردية بأنه عالم ديوبندي حنفي ومناظر وخطيب وشيخ حديث.{cite:wikipedia-muhammad-ilyas-ghuman-ur}
+محمد إلياس غمن ⁦(وُلد في 12 أبريل 1969 في سرغودها بإقليم البنجاب)⁩ عالم دين باكستاني ومناظر وخطيب.{cite:wikipedia-muhammad-ilyas-ghuman-en} تصفه ويكيبيديا الإنجليزية في متن مقالتها بأنه «عالم لاهوت حنفي ماتريدي بارز».{cite:wikipedia-muhammad-ilyas-ghuman-en} وتصفه ويكيبيديا الأردية بأنه عالم ديوبندي حنفي ومناظر وخطيب وشيخ حديث.{cite:wikipedia-muhammad-ilyas-ghuman-ur}
 
 ## حياته وأعماله
 

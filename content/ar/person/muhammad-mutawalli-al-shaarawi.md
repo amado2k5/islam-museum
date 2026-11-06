@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-محمد متولي الشعراوي، مفسّر وعالم دين مصري ووزير أوقاف سابق، وُلد في 15 أبريل 1911م (17 ربيع الأول 1329هـ) بقرية دقادوس التابعة لمركز ميت غمر بمحافظة الدقهلية، وتوفي في 17 يونيو 1998م (22 صفر 1419هـ). {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikidata-muhammad-mutawalli-al-shaarawi}
+محمد متولي الشعراوي، مفسّر وعالم دين مصري ووزير أوقاف سابق، وُلد في 15 أبريل 1911م ⁦(17 ربيع الأول 1329هـ)⁩ بقرية دقادوس التابعة لمركز ميت غمر بمحافظة الدقهلية، وتوفي في 17 يونيو 1998م ⁦(22 صفر 1419هـ)⁩. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikidata-muhammad-mutawalli-al-shaarawi}
 
 اشتهر الشعراوي بخواطره التي فسّر فيها القرآن الكريم بطرق مبسطة، فوصل بها إلى شريحة كبيرة من المسلمين في العالم العربي والإسلامي، ولقّبه بعضهم بـ«إمام الدعاة». {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} وتصفه المقالة الإنجليزية بأنه من أشهر الدعاة في مصر وأنجحهم، وبأنه «أحد أبرز رموز الثقافة الشعبية المصرية» في السبعينيات والثمانينيات والتسعينيات، وأنه لُقّب بـ«داعية القرن». {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
 
@@ -18,7 +18,7 @@ translators: []
 
 كانت نقطة التحول في حياته حين أراد والده إلحاقه بالأزهر الشريف بالقاهرة، وكان هو يود البقاء مع إخوته لزراعة الأرض، فاشترط على والده أن يشتري له كميات من أمهات كتب التراث واللغة وعلوم القرآن والتفاسير وكتب الحديث، كنوع من التعجيز، ففطن والده لحيلته واشترى له كل ما طلب قائلًا: «أنا أعلم يا بني أن جميع هذه الكتب ليست مقررة عليك، ولكني آثرت شراءها لتزويدك بها كي تنهل من العلم»، وقد روى الشعراوي هذه القصة في لقاء له مع الصحفي طارق حبيب. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
 
-التحق الشعراوي بكلية اللغة العربية سنة 1937م، وانشغل بالحركة الوطنية والحركة الأزهرية، وكان يتوجه مع زملائه إلى ساحات الأزهر وأروقته ويلقي الخطب، مما عرضه للاعتقال أكثر من مرة. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} تخرج في الكلية سنة 1940م (تذكر المقالة الإنجليزية سنة 1941م)، وحصل على العالمية مع إجازة التدريس سنة 1943م. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
+التحق الشعراوي بكلية اللغة العربية سنة 1937م، وانشغل بالحركة الوطنية والحركة الأزهرية، وكان يتوجه مع زملائه إلى ساحات الأزهر وأروقته ويلقي الخطب، مما عرضه للاعتقال أكثر من مرة. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} تخرج في الكلية سنة 1940م ⁦(تذكر المقالة الإنجليزية سنة 1941م)⁩، وحصل على العالمية مع إجازة التدريس سنة 1943م. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
 
 ## المسيرة
 عُيّن الشعراوي بعد تخرجه في المعهد الديني بطنطا، ثم انتقل إلى المعهد الديني بالزقازيق ثم المعهد الديني بالإسكندرية. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
@@ -27,7 +27,7 @@ translators: []
 
 تدرج بعد عودته في المناصب الأزهرية والدعوية: عُيّن وكيلًا لمعهد طنطا الأزهري سنة 1960م، ومديرًا للدعوة الإسلامية بوزارة الأوقاف سنة 1961م، ومفتشًا للعلوم العربية بالأزهر الشريف سنة 1962م. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
 
-في عام 1963م حدث الخلاف بين الرئيس جمال عبد الناصر والملك سعود، فمنع عبد الناصر الشعراوي من العودة إلى السعودية، وعُيّن في القاهرة مديرًا لمكتب الإمام الأكبر شيخ الأزهر حسن مأمون (تُدرج قائمة المناصب في المقالة العربية هذا التعيين في سنة 1964م). {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
+في عام 1963م حدث الخلاف بين الرئيس جمال عبد الناصر والملك سعود، فمنع عبد الناصر الشعراوي من العودة إلى السعودية، وعُيّن في القاهرة مديرًا لمكتب الإمام الأكبر شيخ الأزهر حسن مأمون ⁦(تُدرج قائمة المناصب في المقالة العربية هذا التعيين في سنة 1964م)⁩. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
 
 سافر الشعراوي إلى الجزائر سنة 1966م رئيسًا لبعثة الأزهر هناك، ومكث نحو سبع سنوات قضاها في التدريس. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
 
@@ -37,7 +37,7 @@ translators: []
 
 عُيّن الشعراوي عضوًا بمجمع البحوث الإسلامية سنة 1980م، واختير عضوًا بمجلس الشورى في السنة نفسها، وعُرضت عليه مشيخة الأزهر ومناصب في عدد من الدول الإسلامية فرفضها وقرر التفرغ للدعوة الإسلامية. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
 
-وفي سنة 1987م اختير الشعراوي عضوًا بمجمع اللغة العربية (مجمع الخالدين). {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
+وفي سنة 1987م اختير الشعراوي عضوًا بمجمع اللغة العربية ⁦(مجمع الخالدين)⁩. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
 
 وعاد الشعراوي إلى التدريس بجامعة الملك عبد العزيز سنة واحدة في 1981م. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
 
@@ -46,7 +46,7 @@ translators: []
 
 اعتمد الشعراوي في خواطره على عناصر من أهمها: اللغة منطلقًا لفهم النص القرآني، ومحاولة الكشف عن فصاحة القرآن وسرّ نظمه، والإصلاح الاجتماعي، وردّ شبهات المستشرقين، وذكر تجاربه الشخصية من واقع الحياة أحيانًا، والمزاوجة بين العمق والبساطة من خلال اللهجة المصرية الدارجة، وضرب المثل وحسن تصويره، والاستطراد الموضوعي، والنفس الصوفي، والأسلوب المنطقي الجدلي. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
 
-في الأجزاء الأخيرة من تفسيره آثر الشعراوي الاختصار بسبب مرضه حتى يتمكن من إكمال خواطره، ثم اعتذر على شاشات التلفاز عن اختصاره واستغفر الله عن إيجازه في هذه المعاني. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} وله أيضًا تسجيل صوتي يحتوي على تفسير جزء عمّ (الجزء الثلاثين). {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
+في الأجزاء الأخيرة من تفسيره آثر الشعراوي الاختصار بسبب مرضه حتى يتمكن من إكمال خواطره، ثم اعتذر على شاشات التلفاز عن اختصاره واستغفر الله عن إيجازه في هذه المعاني. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} وله أيضًا تسجيل صوتي يحتوي على تفسير جزء عمّ ⁦(الجزء الثلاثين)⁩. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
 
 تصف المقالة الإنجليزية الشعراوي بأنه كان موهوبًا على نحو استثنائي في شرح معاني القرآن، وأن موهبته الحقيقية ظهرت حين شرح بكلمات بسيطة المعاني الكامنة وراء أصعب الآيات، وأنه كان الوحيد من غير السعوديين الذي ألقى خطبة عرفة، وهي الخطبة ذات الأهمية المركزية في الحج. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
 
@@ -55,7 +55,7 @@ translators: []
 ## المواقف والنقد
 ينبغي أن يُقرأ هذا القسم بوصفه عرضًا لمواقف منقولة عن المصادر، وليس حكمًا من المتحف عليها. وقد نقلت المقالات هذه المواقف، ولم تُراجع بعد أقوال أصحابها الأصلية كلها.
 
-**نقل مقام إبراهيم (1954م):** طُرحت سنة 1954م فكرة نقل مقام إبراهيم من مكانه إلى الخلف توسيعًا للمطاف، وحُدّد يوم ليقوم الملك سعود بنقله، وكان الشعراوي وقتها أستاذًا بكلية الشريعة في مكة المكرمة، فاعتبر الأمر مخالفًا للشريعة، واتصل ببعض العلماء فأبلغوه أن الأمر قد قُضي وأن المبنى الجديد قد أُقيم، فقام بإرسال برقية من خمس صفحات إلى الملك سعود عرض فيها المسألة من الناحية الفقهية والتاريخية. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} وبعد وصول البرقية جمع الملك العلماء وطلب منهم دراستها، فوافقوا على كل ما جاء فيها، فأصدر الملك قرارًا بعدم نقل المقام، وأمر بدراسة مقترحات الشعراوي لتوسعة المطاف، ومنها أن يوضع الحجر في قبة صغيرة من الزجاج غير القابل للكسر. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
+**نقل مقام إبراهيم ⁦(1954م)⁩:** طُرحت سنة 1954م فكرة نقل مقام إبراهيم من مكانه إلى الخلف توسيعًا للمطاف، وحُدّد يوم ليقوم الملك سعود بنقله، وكان الشعراوي وقتها أستاذًا بكلية الشريعة في مكة المكرمة، فاعتبر الأمر مخالفًا للشريعة، واتصل ببعض العلماء فأبلغوه أن الأمر قد قُضي وأن المبنى الجديد قد أُقيم، فقام بإرسال برقية من خمس صفحات إلى الملك سعود عرض فيها المسألة من الناحية الفقهية والتاريخية. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} وبعد وصول البرقية جمع الملك العلماء وطلب منهم دراستها، فوافقوا على كل ما جاء فيها، فأصدر الملك قرارًا بعدم نقل المقام، وأمر بدراسة مقترحات الشعراوي لتوسعة المطاف، ومنها أن يوضع الحجر في قبة صغيرة من الزجاج غير القابل للكسر. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
 
 **نكسة يونيو 1967م:** أثناء وجود الشعراوي في الجزائر حدثت نكسة يونيو 1967م، وقد سجد شكرًا لأقسى الهزائم العسكرية التي مُنيت بها مصر، وبرّر ذلك بقوله: «بأن مصر لم تنتصر وهي في أحضان الشيوعية فلم يُفتن المصريون في دينهم». {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
 
@@ -82,7 +82,7 @@ translators: []
 
 كُتبت عن الشعراوي دراسات وكتب، منها كتب محمود فوزي «الشيخ الشعراوي وفتاوى العصر» و«الشيخ الشعراوي وقضايا إسلامية حائرة تبحث عن حلول». {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
 
-أُنتج عن حياته مسلسل تلفزيوني بعنوان «إمام الدعاة» (تذكر المقالة الإنجليزية سنة 2002م والمقالة العربية 2003م)، بطولة حسن يوسف وعفاف شعيب، ويستعرض سيرته منذ ولادته في دقادوس وحفظه القرآن في كُتّاب القرية والتحاقه بالأزهر وسفره إلى السعودية وتوليه وزارة الأوقاف حتى وفاته. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
+أُنتج عن حياته مسلسل تلفزيوني بعنوان «إمام الدعاة» ⁦(تذكر المقالة الإنجليزية سنة 2002م والمقالة العربية 2003م)⁩، بطولة حسن يوسف وعفاف شعيب، ويستعرض سيرته منذ ولادته في دقادوس وحفظه القرآن في كُتّاب القرية والتحاقه بالأزهر وسفره إلى السعودية وتوليه وزارة الأوقاف حتى وفاته. {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-ar}
 
 وما تزال دروس الشعراوي وخواطره منتشرة بعد وفاته: له موقع رسمي مسجل في ويكيداتا، وتستضيف مواقع إسلامية تسجيلات صوتية لدروسه. {cite:wikidata-muhammad-mutawalli-al-shaarawi} {cite:wikipedia-muhammad-mutawalli-al-shaarawi-en}
 
@@ -99,7 +99,7 @@ translators: []
 ## في برنامج «في رحاب الحديث القدسي»
 يحفظ أرشيف أسابيل ثلاثين حلقة من برنامج تلفزيوني عنوانه [[work/fi-rihab-al-hadith-al-qudsiyyah|في رحاب الحديث القدسي]]، يقدّمه مقدّم يشرح في كل حلقة حديثاً ثم يتوجه إلى «الإمام الشيخ محمد متولي الشعراوي» ليتكلم فيه. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:02:30} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep01 00:10:00} ويتكلم الشعراوي في هذه المقاطع بالعامية المصرية مع محاوره، ويعتمد على تحليل الألفاظ والتراكيب، كتفريقه بين «القبض» و«الطي»، وبين الحب العاطفي والحب العقلي. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep24 00:27:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep28 00:25:00} ويكثر من الأمثلة اليومية: الساعة والمذياع اللذان يعملان بكتالوج صانعهما، واللبن الرائب الذي تُجمع عناصره ثم يُترك ساعات، والأستاذ الذي يعرف مسبقاً من يستحق الجائزة. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep09 00:11:30} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep30 00:12:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep30 00:21:00}
 
-ويروي من حياته أنه رأى في طريق الصحراء إلى الإسكندرية أن الرمال محت أرقام السيارات. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep18 00:11:00} ويروي أنه أقام مدة في السعودية وكان يُحمل إلى الكلية، فرأى السائق يقف عند بيت أمامه صينية خشبية مغطاة، وقيل له إن ذلك علامة على غياب الزوج. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep25 00:25:30} (needs_source: الاسم والسنة في هذه القصة غير واضحين في النسخ الآلي فلم يُكتبا.)
+ويروي من حياته أنه رأى في طريق الصحراء إلى الإسكندرية أن الرمال محت أرقام السيارات. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep18 00:11:00} ويروي أنه أقام مدة في السعودية وكان يُحمل إلى الكلية، فرأى السائق يقف عند بيت أمامه صينية خشبية مغطاة، وقيل له إن ذلك علامة على غياب الزوج. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep25 00:25:30} ⁦(needs_source: الاسم والسنة في هذه القصة غير واضحين في النسخ الآلي فلم يُكتبا.)⁩
 
 ومن آرائه في البرنامج، وهي منسوبة إليه: أنه يرفض القول بتطور الإنسان من نوع آخر {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep04 00:13:00}؛ وأن تسبيح الأشياء حقيقي لا «بلسان الحال»، مع احترامه لمن قال بغير ذلك {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:15:00}؛ وأن النبي فُوِّض في التشريع بنص القرآن، وأن هذا جواب لمن يكتفي بالقرآن {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep21 00:15:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep21 00:16:30}؛ وأن آدم لم يكن نبياً في فترة الجنة التي سكنها {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep27 00:27:30}. وينتقد السهر إلى ما بعد الواحدة في مشاهدة العروض، والبكاء عند وداع رمضان. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep21 00:20:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep22 00:22:30}
 
