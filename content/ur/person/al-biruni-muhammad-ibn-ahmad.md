@@ -11,6 +11,8 @@ provenance:
   run: ocr-harvest-2026-11-04
   source: "source/qanun-masudi-jundi-v1 editor's introduction scan pp. 12–25, 43; title page p. 2; preface p. 81; source/mawsuat-a3lam-ulama-adaba; source/kashf-zunun-furqan"
   translator_of: content/ar/person/al-biruni-muhammad-ibn-ahmad.md
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "Urdu translation of new Arabic mountain-method/identity sections from actual primary translation/Britannica/TDV; prior Claude translation/authorship retained" }
 ---
 ## خلاصہ
 ابو ریحان محمد بن احمد بیرونی اپنے دور کے بڑے فلکیات دان، ریاضی دان، جغرافیہ دان اور مورخ تھے؛ وہ خوارزم (کاث) کے نواح میں 362ھ (973ء) میں پیدا ہوئے۔ {cite:mawsuat-a3lam-ulama-adaba} {cite:kashf-zunun-furqan} القانون المسعودی کے محقق ان کی پیدائش 2 ذوالحجہ 362ھ، مطابق 4 ستمبر 973ء، خوارزم کے دار الحکومت کاث کے نواح کے ایک گاؤں میں ایک گمنام خاندان میں بتاتے ہیں۔ {cite:qanun-masudi-jundi-v1 p. 12} موسوعہ کے ریکارڈ میں ان کی وفات 442ھ ہے {cite:mawsuat-a3lam-ulama-adaba}، جبکہ القانون کے ایڈیشن کے سرورق پر 440ھ ہے۔ {cite:qanun-masudi-jundi-v1 p. 2}
@@ -35,3 +37,11 @@ provenance:
 
 ## تصانیف
 محقق حاجی خلیفہ کے حوالے سے ان کی ساٹھ تصانیف گنواتے ہیں، جن میں الآثار الباقیہ، التفہیم لاوائل صناعۃ التنجیم، تحدید نہایات الاماکن، الجماہر فی الجواہر، القانون المسعودی، [[work/jala-al-adhhan-fi-zij-al-battani|جلاء الاذہان فی زیج البتانی]]، زیجِ حبش کی تکمیل، افراد المقال فی امر الظلال، اور قبلہ و اسطرلاب پر کتابیں ہیں۔ {cite:qanun-masudi-jundi-v1 p. 15} {cite:qanun-masudi-jundi-v1 p. 16} {cite:qanun-masudi-jundi-v1 p. 17}
+
+## پہاڑ اور افق سے زمین کی پیمائش
+تحدید، مؤلفہ416ھ/1025ء، میں وہ [[invention/al-biruni-earth-radius|پہاڑ کی اونچائی اور افق کے جھکاؤ سے زمینی نصف قطر]] سمجھاتے اور نندنہ کا تجربہ بتاتے ہیں:34 قوسی منٹ اور کپڑا ناپنے کے652;3,18 مقامی ذراع اونچائی۔ تاریخ کتاب کی ہے، تجربے کے دن کی نہیں؛ ذراع بلا بنیاد میٹر نہیں بنتا۔ متن مامون کے دور میں سند بن علی کا پہلے یہی اصول بتاتا ہے، جبکہ مترجم جمیل علی کا مقدمہ اسے مصنف کی ایجاد کہتا ہے۔ یہاں کردار مستند بیان و اطلاق ہے، قطعی مطلق سبقت نہیں۔ {cite:tdv-biruni-tumer works} {cite:biruni-tahdid-ali-translation preface xi; pp. 183–189}
+
+## شناخت اور مختلف فیہ مسلکی نسبت
+بریٹانیکا صراحتاً مسلم کہتی اور گونائے تومر اسلامی وابستگی بیان کرتے ہیں؛ یہی شناخت کی بنیاد ہے، نام یا وطن نہیں۔ پہلے سنی تعبیر: تومر قابوس کی سرپرستی یا عرب تعصب کے نقد سے قطعی شیعی نسبت پر اعتراض کرتے، سنی غزنوی سیاق اور بعض شیعی و باطنی موقفوں پر ان کا نقد بتاتے ہیں۔ میوزیم کا سنی سیاق واضح ہے، عالم کی قطعی ذاتی شہادت نہیں۔ {cite:britannica-al-biruni} {cite:tdv-biruni-tumer religious-affiliation discussion}
+
+تومر کی منقول دوسری نسبتوں میں عبداللہ نعمہ بیرونی کو شیعی اور تقی دانش پژوہ کم از کم زیدی کہتے ہیں۔ اس تحقیق نے ان کے اصل دلائل نہیں پڑھے؛ اختلاف پڑھے ماخذ کے واسطے سے ہے، فیصلے یا سرپرست کے مسلک سے عالم کا عقیدہ نکالے بغیر۔ شخصی اندراج کے منظورات میں تعبیرات نام کے ساتھ ہیں۔ {cite:tdv-biruni-tumer religious-affiliation discussion}

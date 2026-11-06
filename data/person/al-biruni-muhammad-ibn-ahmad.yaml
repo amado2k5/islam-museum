@@ -1,16 +1,40 @@
 id: person/al-biruni-muhammad-ibn-ahmad
 class: person
-label: { ar: "البيروني محمد بن أحمد", en: "Al-Biruni, Muhammad ibn Ahmad" }
+label: { ar: "البيروني محمد بن أحمد", en: "Al-Biruni, Muhammad ibn Ahmad", ur: "البیرونی، محمد بن احمد" }
 names:
   - { kind: full, lang: ar, value: "أبو الريحان محمد بن أحمد البيروني" }
 gender: male
 roles: [scientist, scholar]
 traditions: [sunni]
+faith:
+  - value: sunni
+    basis: debated
+    note: "Muslim identity explicitly named by Britannica and Islamic commitment discussed by Günay Tümer. Sunni is the museum frame and Tümer's Sunni-compatible reading, not an unqualified personal self-designation. Tümer reports Abdullah Ni'me's Shia and Taqi Danishpazhuh's Zaydi claims and challenges inference from court patronage. See labelled perspectives; their original works were not independently read."
+    sources: [source/britannica-al-biruni, source/tdv-biruni-tumer]
+issue: { ar: "كيف تصف المصادر انتماء البيروني المذهبي؟", en: "How do sources describe al-Biruni's religious affiliation?", ur: "ماخذ بیرونی کی مسلکی نسبت کیسے بیان کرتے ہیں؟" }
+perspectives:
+  - tradition: sunni
+    id: sunni-frame-and-tumer
+    stance: { ar: "الإطار السني وقراءة تومر", en: "Sunni frame and Tümer's interpretation", ur: "سنی سیاق اور تومر کی تعبیر" }
+    summary:
+      ar: "يوثق تومر التزامه بالإسلام ويعارض استنتاج التشيع من رعاية قابوس أو نقد التعصب للعرب، مذكراً بالبلاط الغزنوي السني وبنقد البيروني لبعض المواقف الشيعية والباطنية. هذه قراءة منسوبة، لا شهادة شخصية فاصلة؛ إطاره السني في المتحف معلن."
+      en: "Tümer documents Islamic commitment and challenges Shia inference from Qabus's patronage or criticism of Arab chauvinism, noting the Sunni Ghaznavid court and al-Biruni's criticism of some Shia/Batini positions. This attributed reading is not decisive personal testimony; the museum's Sunni frame is explicit."
+      ur: "تومر اسلامی وابستگی بتاتے اور قابوس کی سرپرستی یا عرب تعصب کے نقد سے شیعیت نکالنے پر اعتراض کرتے ہیں؛ سنی غزنوی دربار اور بعض شیعی و باطنی موقفوں پر بیرونی کے نقد کا ذکر ہے۔ یہ منسوب تعبیر ہے، قطعی ذاتی شہادت نہیں؛ میوزیم کا سنی سیاق واضح ہے۔"
+    sources: [source/tdv-biruni-tumer, source/britannica-al-biruni]
+  - tradition: academic
+    id: reported-shia-and-zaydi-claims
+    stance: { ar: "النسبتان الشيعية والزيدية المنقولتان", en: "Reported Shia and Zaydi classifications", ur: "منقول شیعی اور زیدی نسبتیں" }
+    summary:
+      ar: "ينقل تومر تصنيف عبد الله نعمة له شيعياً، ورأي تقي دانش پژوه أنه زيدي على الأقل. تعرض النسبتان قبل الحكم عليهما، عبر المصدر المقروء؛ لم يقرأ هذا البحث أصلي كلام الباحثين ولا يحول رعاية حاكم إلى إقرار ذاتي بالعقيدة."
+      en: "Tümer reports Abdullah Ni'me classifying him as Shia and Taqi Danishpazhuh as at least Zaydi. Both are labelled through the source actually read; this research has not read their original arguments and does not turn a patron's affiliation into a subject's self-declaration."
+      ur: "تومر عبداللہ نعمہ کی شیعی اور تقی دانش پژوہ کی کم از کم زیدی نسبت نقل کرتے ہیں۔ دونوں پڑھے ماخذ کے واسطے سے واضح نام کے ساتھ ہیں؛ اس تحقیق نے ان کے اصل دلائل نہیں پڑھے اور سرپرست کا مسلک عالم کا ذاتی اعلان نہیں بنتا۔"
+    sources: [source/tdv-biruni-tumer]
 born: { edtf: "0973", hijri: "0362", calendar: julian, precision: year, status: tradition, sources: [source/kashf-zunun-furqan, source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "1051", hijri: "0442", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba, source/britannica-al-biruni] }
 summary:
   ar: "ولد بضراحي مدينة خوارزم، من كبار علماء الفلك والرياضيات والجغرافيا والتاريخ في عصره."
   en: "Born in Kath, the old city of Khwarazm. One of the leading astronomers, mathematicians, geographers and historians of his age."
+  ur: "کاث، خوارزم کے نواح کے مسلم عالمِ فلکیات، ریاضی، جغرافیہ اور تاریخ؛ نندنہ کے پہاڑ و افق سے زمینی پیمائش کی توضیح بھی ان کی ہے، ذاتی مسلکی نسبت مختلف فیہ ہے {cite:britannica-al-biruni} {cite:tdv-biruni-tumer} {cite:biruni-tahdid-ali-translation pp. 183–189}۔"
 wings: [people]
 themes: [astronomy-and-timekeeping, geography-and-cartography]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -29,7 +53,9 @@ relations:
   - { type: lived_in, target: place/jurjan, sources: [source/qanun-masudi-jundi-v1] }
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/qanun-masudi-jundi-v1, source/nallino-albatenii-opus-astronomicum]
+inventions:
+  - { invention: invention/al-biruni-earth-radius, role: describer, note: "Documented mountain/horizon derivation and Nandana experiment; earlier Sanad ibn Ali report retained, no absolute priority.", sources: [source/biruni-tahdid-ali-translation] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/qanun-masudi-jundi-v1, source/nallino-albatenii-opus-astronomicum, source/britannica-al-biruni, source/tdv-biruni-tumer, source/biruni-tahdid-ali-translation]
 status:
   review: published
   completeness: 3
@@ -40,6 +66,8 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch51
   enriched_by: "Claude Code (OCR-harvest worker I), claude-opus-5-5, run ocr-harvest-2026-11-04, from source/qanun-masudi-jundi-v1 editor's introduction scan pp. 12–25, 43"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "Actual primary translation183–191 and preface; Britannica explicit Muslim basis and TDV actual disputed-affiliation discussion; added method tie/trilingual sections without replacing Devin/Claude prose, authorship or unrelated life dates" }
 external_ids: { wikidata: Q11826 }
 kids:
   ar: "البيروني عالم الفلك والجغرافيا والآثار، سافر مع محمود الغزنوي إلى الهند وكتب عنها تاريخها وأديانها."

@@ -11,6 +11,8 @@ provenance:
   run: ocr-harvest-2026-11-04
   source: "source/qanun-masudi-jundi-v1 editor's introduction scan pp. 12–25, 43; title page p. 2; preface p. 81; source/mawsuat-a3lam-ulama-adaba; source/kashf-zunun-furqan"
   translator_of: content/ar/person/al-biruni-muhammad-ibn-ahmad.md
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "English translation of new Arabic mountain-method/identity sections from actual primary translation/Britannica/TDV; prior Claude translation/authorship retained" }
 ---
 ## Summary
 Abu al-Rayhan Muhammad ibn Ahmad al-Biruni was one of the great astronomers, mathematicians, geographers and historians of his age, born on the outskirts of Khwarazm (Kath) in 362 AH (973 CE). {cite:mawsuat-a3lam-ulama-adaba} {cite:kashf-zunun-furqan} The editor of al-Qanun al-Mas'udi gives his birth as 2 Dhu al-Hijja 362, 4 September 973, in a village outside Kath, the capital of Khwarazm, to an obscure family. {cite:qanun-masudi-jundi-v1 p. 12} The encyclopaedia record gives his death as 442 AH {cite:mawsuat-a3lam-ulama-adaba}, while the title page of the Qanun edition gives 440 AH. {cite:qanun-masudi-jundi-v1 p. 2}
@@ -35,3 +37,11 @@ Yaqut relates that Shams al-Ma'ali Qabus ibn Wushmgir wished to attach him to hi
 
 ## Writings
 The editor lists, after Hajji Khalifa, sixty of his works, among them al-Athar al-baqiya, al-Tafhim li-awa'il sina'at al-tanjim, Tahdid nihayat al-amakin, al-Jamahir fi al-jawahir, al-Qanun al-Mas'udi, [[work/jala-al-adhhan-fi-zij-al-battani|Jala' al-adhhan fi zij al-Battani]], a completion of Habash's zij, Ifrad al-maqal fi amr al-zilal, and books on the qibla and the astrolabe. {cite:qanun-masudi-jundi-v1 p. 15} {cite:qanun-masudi-jundi-v1 p. 16} {cite:qanun-masudi-jundi-v1 p. 17}
+
+## Earth measurement by mountain and horizon
+In *Tahdid*, composed416 AH/1025 CE, he explains [[invention/al-biruni-earth-radius|Earth-radius measurement from mountain height and horizon dip]], reporting a Nandana application:34 arcminutes and652;3,18 regional cloth cubits in height. The date belongs to the book, not the experiment day, and the cubit is not converted into metres without a basis. The text names Sanad ibn Ali's earlier use of the principle under al-Ma'mun, while translator Jamil Ali's preface calls it the author's invention. His role here is documented describer and practitioner, not settled absolute priority. {cite:tdv-biruni-tumer works} {cite:biruni-tahdid-ali-translation preface xi; pp. 183–189}
+
+## Identity and disputed affiliation
+Britannica explicitly calls him Muslim, and Günay Tümer discusses his Islamic commitment: that is the identity basis, not his name or birthplace. Sunni reading first: Tümer challenges a settled Shia classification based on Qabus's patronage or criticism of Arab chauvinism, noting his Sunni Ghaznavid context and criticism of some Shia/Batini positions. The museum's Sunni frame is explicit, not decisive personal self-testimony. {cite:britannica-al-biruni} {cite:tdv-biruni-tumer religious-affiliation discussion}
+
+Other classifications reported by Tümer: Abdullah Ni'me identifies al-Biruni as Shia, and Taqi Danishpazhuh as at least Zaydi. This research has not read their original arguments. It displays the disagreement through the source actually read, without a verdict or inference from a patron's affiliation; the person record's perspectives label the readings. {cite:tdv-biruni-tumer religious-affiliation discussion}
