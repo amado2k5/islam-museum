@@ -36,3 +36,9 @@ This batch61 addition does not replace earlier prose or authorship. The [[invent
 Descriptions differ: al-Kashi's biography discusses possible completion by Qadi Zada, TDV a commentary, Qadi Zada's biography a different method. Iranica includes the title in the1427 Key's list; that does not establish completion or settle joint authorship without reading texts. Precision summaries differ too. A modern example does not certify historical digits; original and commentary were not read here {cite:kashi-mactutor final treatise} {cite:tdv-kashi-okten work8} {cite:qadi-zada-mactutor original work} {cite:iranica-kashi work list}.
 
 Added sources and links by Copilot SDK in VS Code, model unknown, run inventions-p3-b61. All earlier paragraphs, fields and attribution retained.
+
+## Conjunction plate, not plate of heavens
+
+Petra Schmidl describes al-Kashi's [[invention/kashi-conjunction-plate|plate of conjunctions]] as a linear-interpolation device estimating the time of an expected conjunction, distinct from the position-computing “plate of heavens.” Okten confirms two instruments. This is a particular contribution, not another count of his circumference or sine computations, nor authorship of interpolation itself {cite:schmidl-kashi-bea Nuzha} {cite:tdv-kashi-okten instruments}.
+
+The Nuzha's first Kashan1416 text and Samarkand1426 revision date descriptions, not an instrument's certified manufacture day. Original manuscripts and Kennedy1960 were not inspected here; the invention article's interpolation example is independently derived modern teaching, not recovered graduations. This device alone establishes neither a new planetary theory nor direct ancestry of all modern software {cite:schmidl-kashi-bea Nuzha} {cite:iranica-kashi planetary-theory-limits}.
