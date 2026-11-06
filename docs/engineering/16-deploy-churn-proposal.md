@@ -97,7 +97,7 @@ Class B (reads) $0.36 per million, deletes free, 1 million Class A free per mont
 | Publish step | 53 to 66 min | ≈ 3 to 5 min | ≈ 25 to 35 min |
 | Class A cost at one deploy a day, above the free million | ≈ $20 to $25 a month | $0 | $0.75 per such deploy |
 
-The two "After Phase 1" columns are the proposal's estimates and assumed the stylesheet leaves the page. It did not ship (6a), so on a shell-change day the pages stay about 104 KB and the upload is about 17 GB, not 7 GB; the file counts are unchanged.
+The two "After Phase 1" columns are the proposal's estimates and assumed the stylesheet leaves the page. It did not ship (6a), so on a shell-change day the pages stay about 104 KB and the upload is about 18 GB, not 7 GB; the file counts are unchanged.
 
 A UAT deploy of the same build doubles every line (its own bucket, its own manifest). The Worker CPU of the seven sync
 Workers and the GitHub runner time (public repository) are not significant next to the Class A line. The second cost
