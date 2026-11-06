@@ -206,4 +206,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 2: reports 10619 to 10642 (pp. 281-287) filed in ar, en and ur. Verse 4:128 closes and the commentary on 4:129 opens (unequal love between wives; the 4:129 files carry the stop sentence and the disclaimer at their foot).
 - Batch 3: reports 10643 to 10673 (pp. 288-294) filed in ar, en and ur. Verse 4:129 closes (the forbidden inclination, the 'hanging' wife, reform and forgiveness); the 4:130 passage files are created and the commentary on verse 130 (separation and God's bounty) is filed through report 10673.
 - Batch 4: pp. 295-301 filed in ar, en and ur (reports 10674-10677; verses 131-135 begun). Verse 130 closes at p. 294 and the 4:130 stop sentence is replaced by a closing line.
-- Progress: current report 10677, printed p. 299 (the last numbered report on p. 301 is 10677); next is the commentary on 4:135 from printed p. 302.
+- Progress: current report 10677 (printed p. 299; pp. 300-301 carry the commentary on 4:134 and the start of 4:135 with no new numbered report); next is the commentary on 4:135 from printed p. 302, where the next numbered report is to be read.
