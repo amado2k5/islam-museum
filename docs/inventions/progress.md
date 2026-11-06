@@ -4,7 +4,7 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Log
 
-- **Invention63 final integration.** Reviewed and merged independent Tabari through #4401 (`4b5bcf685c`), preserving all passage/library work and both canary intents. Regenerated graph/coverage/census:51,661 nodes/82,524 edges,63 invention records,536 leads,416 prose-hit files. Validation again reports49,753 entities/84,884 prose,0 errors/8402 warnings; authenticity0 errors/1 warning; targeted citations5/5. Local tests/build remain founder-skipped; no deployment or CI-success claim.
+- **Invention63 final integration.** Reviewed independent Tabari through #4402 (`0314988285`), preserving all passage/library work and both canary intents. Regenerated graph/coverage/census:51,661 nodes/82,524 edges,63 invention records,536 leads,416 prose-hit files. Validation reports49,753 entities/84,884 prose,0 errors/8402 warnings; authenticity0 errors/1 warning; targeted citations5/5. Local tests/build remain founder-skipped; no deployment or CI-success claim.
 
 - **4 November 2026 — Phase 0 started.** Branch `inventions/p0-copilot` is based on fetched `origin/main` `b526655edb`. The operative prompt's authorization is recorded as D-000; the external harvest directory exists on `/Volumes/exmicroSD`. No source files have been downloaded, and no invention data, schema, API or site change has been made.
   - FLAG: the lane's citation and identity work must not infer Sunni affiliation from a person's name, place or period. Modern figures follow the two-independent-source faith rule.
