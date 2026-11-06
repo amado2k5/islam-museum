@@ -52,11 +52,20 @@ relations:
   - { type: died_in, target: place/cordoba }
 
 faith:
-  - value: unknown
-    basis: unknown
-    note: "The English article's infobox gives his religion as Islam; no source read names a school or rite for him, so the value stays unknown."
+  - value: sunni
+    basis: documented
+    note: "Muslim biographical basis: Bibliotheca Alexandrina's institutional history explicitly includes the named al-Zarqali in 'The Role of Muslim Astronomers in Developing the Astrolabe'. This is a cited classification, not an inference from name, ancestry or court service. Sunni is the default frame of docs/scope.md for the documented Andalusian milieu; no contrary tradition is attested in the museum account or Puig biography read, and neither supplies a personal madhhab declaration. The earlier Wikipedia Islam infobox remains a separately recorded fact, not the new prose source."
     sources:
       - source/wikipedia-al-zarqali-en
+      - source/bibalex-astrolabe-949
+      - source/zarqali-puig-bea
+
+inventions:
+  - invention: invention/universal-astrolabe-al-zarqali
+    role: improver
+    place: place/tulaytula
+    note: "Specific universal plate and treatises, not invention of the astrolabe or an exact date for every variant."
+    sources: [source/zarqali-puig-bea, source/zarqaliyya-bir-2020]
 
 external_ids: { wikidata: "Q11133" }
 
@@ -65,10 +74,13 @@ sources:
   - source/wikipedia-al-zarqali-ar
   - source/wikipedia-al-zarqali-ur
   - source/wikidata-al-zarqali
+  - source/zarqali-puig-bea
+  - source/zarqaliyya-bir-2020
+  - source/bibalex-astrolabe-949
 
 provenance:
   layer: own-research
-  source: "English, Arabic and Urdu Wikipedia articles and Wikidata Q11133, all revisions fetched live from the MediaWiki API on 31 Oct 2026; Encyclopaedia of Islam (Samsó) and the Biographical Encyclopedia of Astronomers as cited in the English article"
+  source: "English, Arabic and Urdu Wikipedia articles and Wikidata Q11133, all revisions fetched live from the MediaWiki API on 31 Oct 2026; Encyclopaedia of Islam (Samsó) and the Biographical Encyclopedia of Astronomers as cited in the English article. Copilot SDK in VS Code (model unknown), inventions-p3-b21,2026-11-06: directly read the complete Puig BEA biography, Bir et al. pp40–41,46–54 and Bibliotheca Alexandrina catalogue; added the specific plate tie and documented named Muslim classification with explicit Sunni default, not personal school attestation. Earlier Muse authorship retained; no unrelated dates changed."
   generated_by: "Muse (Muse Spark 1.3)"
   run: "wave 146 B"
 
