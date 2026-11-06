@@ -1,7 +1,36 @@
 id: person/al-fadl-ibn-yahya-al-barmaki
 class: person
-label: { ar: "الفضل بن يحيى البرمكي", en: "al-Fadl ibn Yahya al-Barmaki" }
+label: { ar: "الفضل بن يحيى البرمكي", en: "al-Fadl ibn Yahya al-Barmaki", ur: "فضل بن یحییٰ برمکی" }
 gender: male
+faith:
+  - value: sunni
+    basis: debated
+    note: "Biographical Muslim basis: Yildiz personally names al-Fadl in the802 pilgrimage party and reports his Ramadan mosque-lighting activity. Not inferred from ancestry, name or office. Sunni is the museum default, not a personal madhhab declaration. Hostile family allegations about Islam are reported, not adopted; see perspectives."
+    sources: [source/tdv-bermekiler]
+issue: { ar: "ما أساس الهوية الدينية، وكيف تعرض اتهامات خصوم البرامكة؟", en: "What supports religious identity, and how are hostile family allegations represented?", ur: "مذہبی شناخت کی بنیاد اور برامکہ کے خلاف الزامات کیسے پیش ہوں؟" }
+perspectives:
+  - tradition: sunni
+    id: museum-default-biographical-basis
+    stance: { ar: "إطار المتحف مع أساس سيري شخصي", en: "Museum default with personal biographical evidence", ur: "ذاتی سوانحی شہادت کے ساتھ میوزیم کا عمومی سیاق" }
+    summary:
+      ar: "يسمي يلدز الفضل في رحلة الحج سنة802 ويربطه بإنارة المساجد في رمضان. يسجل المتحف هذا الأساس، لا اسماً أو أصلاً عائلياً؛ والسني إطار افتراضي لا تصريح شخصي بمذهب."
+      en: "Yildiz names al-Fadl on the802 pilgrimage and associates him with Ramadan mosque lighting. The museum records this basis, not a name or ancestry; Sunni is its default frame, not a personal school declaration."
+      ur: "یلدز فضل کو802ء کے حج میں نام سے بتاتے اور رمضان میں مساجد کی روشنی سے جوڑتے ہیں۔ بنیاد یہ سوانح ہے، نام یا نسب نہیں؛ سنی میوزیم کا عمومی سیاق ہے، ذاتی مسلکی اعلان نہیں۔"
+    sources: [source/tdv-bermekiler]
+  - tradition: academic
+    id: allegations-reported-by-yildiz
+    stance: { ar: "اتهام عائلي منقول، لا حكم المتحف", en: "Reported family allegation, not the museum's verdict", ur: "خاندانی الزام کی نقل، میوزیم کا فیصلہ نہیں" }
+    summary:
+      ar: "ينقل يلدز تلميح بعض الشعر إلى أن البرامكة لم يقبلوا الإسلام، ويراه ضعيف الاحتمال في سياق التنافس السياسي. هذا عرض لتقييمه؛ ليست القصائد الأصلية مقروءة هنا ولا الاتهام حقيقة عن الفضل."
+      en: "Yildiz reports poetry implying the Barmakids had not accepted Islam, finding it improbable in the context of political rivalry. This reports his assessment; the original poems were not read here and the allegation is not a fact about al-Fadl."
+      ur: "یلدز بعض اشعار میں برامکہ کے اسلام قبول نہ کرنے کا اشارہ نقل کرتے اور سیاسی کشمکش میں اسے بعید سمجھتے ہیں۔ ان کی رائے منقول ہے؛ اصل اشعار یہاں نہیں پڑھے گئے، الزام فضل کے بارے میں ثابت حقیقت نہیں۔"
+    sources: [source/tdv-bermekiler]
+inventions:
+  - invention: invention/baghdad-papermaking
+    role: transmitter
+    place: place/baghdad
+    note: "TDV attributes the workshop proposal to him, not invention of paper or its machinery."
+    sources: [source/tdv-kagit]
 roles: [vizier, governor]
 died: { edtf: "0808~", hijri: "0193", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي في المحبس سنة ١٩٣هـ {cite:tarikh-dawla-abbasiyya-taqqush p. 100}." }
 summary:
@@ -15,13 +44,18 @@ relations:
   - { type: child_of, target: person/yahya-ibn-khalid-al-barmaki, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: participated_in, target: event/killing-of-jafar-and-the-barmakids, role: "سُجن في النكبة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 external_ids: { wikidata: "Q1965143" }
-sources: [source/tarikh-dawla-abbasiyya-taqqush]
+sources: [source/tarikh-dawla-abbasiyya-taqqush, source/tdv-kagit, source/tdv-bermekiler, source/iranica-paper-i]
 provenance:
   layer: own-research
   source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 98، 100"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-taqqush-abbasi-batch-4
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  extensions:
+    - generated_by: "Copilot SDK in VS Code"
+      model: "unknown"
+      run: "inventions-p3-b20"
+      source: "TDV BERMEKILER personal career/pilgrimage/allegations and KAGIT Baghdad proposal, 2026-11-06. Original Taqqush reading and author retained."
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Copilot SDK in VS Code (sourced extension)" }
 occupations:
   - job: job/vizier
     kind: secondary

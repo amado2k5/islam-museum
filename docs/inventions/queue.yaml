@@ -2855,6 +2855,16 @@ candidates:
       - "content/en/person/henry-ford.md"
       - "data/person/henry-ford.yaml"
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+  - id: baghdad-papermaking
+    label: "Al-Fadl's proposal to establish papermaking in Baghdad"
+    state: "[x]"
+    batch: 3
+    domain: materials-industry
+    era: abbasid-golden
+    from: scholarly-reference
+    lead_sources: ["source/tdv-kagit Baghdad paragraph", "source/iranica-paper-i early history", "source/tdv-bermekiler pilgrimage and allegations"]
+    record: invention/baghdad-papermaking
+    flags: [transmission-not-invention-of-paper, precise-date-and-proposer-from-tdv-only, workshop-equipment-unestablished, modern-contextual-photo-not-original-factory]
   - id: paper-mill-samarkand
     label: "Paper-making and the Samarkand mill"
     state: "[~]"
@@ -2863,7 +2873,7 @@ candidates:
     era: abbasid-golden
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.3a", "founder-approved operative brief (2026-11-04) §6.4", "Encyclopaedia Iranica, PAPER, i (Bloom): https://iranicaonline.org/articles/paper-iran-prior-printing (lead/reference)", "TDV İslâm Ansiklopedisi, KÂĞIT: https://islamansiklopedisi.org.tr/kagit (lead/reference)"]
-    flags: ["trace-the-documented-transmission-and-local-contribution"]
+    flags: ["trace-the-documented-transmission-and-local-contribution", "D-057-publishes-separate-Baghdad-act-not-a-named-Samarkand-maker", "Bloom-reports-Manichaean-paper-community-not-an-eligible-original-Muslim-maker"]
   - id: bookbinding-flap
     label: "The flap in Islamic bookbinding"
     state: "[~]"

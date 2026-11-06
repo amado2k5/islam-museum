@@ -1,0 +1,114 @@
+id: invention/baghdad-papermaking
+class: invention
+label: { ar: "توطين صناعة الورق في بغداد", en: "Establishing papermaking in Baghdad", ur: "بغداد میں کاغذ سازی کا قیام" }
+names:
+  - { value: "صناعة الكاغد في بغداد", kind: alternate, lang: ar }
+summary:
+  ar: "ينسب عثمان أرصوي اقتراح مصنع الورق في بغداد سنة178هـ/794–795م إلى الفضل بن يحيى البرمكي {cite:tdv-kagit Baghdad paragraph}. ويسند بلوم صنع الورق فيها بنهاية القرن الثامن دون تثبيت هذا الاسم أو العام؛ فالسجل لفعل نقل الصناعة لا لاختراع الورق الصيني الأصل {cite:iranica-paper-i early history}."
+  en: "Osman Ersoy attributes the proposal for a Baghdad paper workshop in178 AH/794–795 to al-Fadl ibn Yahya al-Barmaki {cite:tdv-kagit Baghdad paragraph}. Bloom supports manufacture there by the late eighth century without independently confirming that name or year; this is industrial transmission, not invention of Chinese-origin paper {cite:iranica-paper-i early history}."
+  ur: "عثمان ارسوئے بغداد کے178ھ/794–795ء کے کاغذ کارخانے کی تجویز فضل بن یحییٰ برمکی سے منسوب کرتے ہیں {cite:tdv-kagit Baghdad paragraph}۔ بلوم آٹھویں صدی کے آخر کی پیداوار کی تائید کرتے مگر نام و سال کی الگ تصدیق نہیں؛ یہ صنعت کا انتقال ہے، چینی الاصل کاغذ کی ایجاد نہیں {cite:iranica-paper-i early history}۔"
+domain: materials-industry
+kind: process
+disciplines: [engineering]
+wings: [ideas, objects]
+periods: [period/abbasid-early]
+regions: [levant-iraq, persia-central-asia]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0794/0795"
+    hijri: "0178"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "TDV's secondary account gives178 AH/794–795 for the workshop; no contemporary foundation document read. Bloom independently supports only late-eighth-century manufacture, not the exact year or patron."
+    sources: [source/tdv-kagit]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "نقل صناعة معروفة في الصين وآسيا الوسطى إلى مركز عباسي؛ تنسب TDV الاقتراح إلى الفضل في خلافة الرشيد، لا إلى صنّاع مسمين {cite:tdv-kagit Baghdad paragraph}."
+    en: "Transfer of a Chinese and Central Asian craft to an Abbasid center; TDV names al-Fadl's proposal under Harun, not individual craftspeople {cite:tdv-kagit Baghdad paragraph}."
+    ur: "چین اور وسطی ایشیا کے ہنر کی عباسی مرکز میں منتقلی؛ ٹی ڈی وی ہارون کے عہد میں فضل کی تجویز بتاتا ہے، انفرادی کاریگروں کے نام نہیں {cite:tdv-kagit Baghdad paragraph}۔"
+makers:
+  - person: person/al-fadl-ibn-yahya-al-barmaki
+    role: transmitter
+    place: place/baghdad
+    note: "Named proposer in TDV's account; not the inventor of paper or an identified machine, and not a substitute name for anonymous workshop craftspeople."
+    sources: [source/tdv-kagit]
+attribution:
+  status: transmission
+  claim:
+    ar: "اقتراح الفضل توطين صناعة الورق في بغداد بحسب TDV، مع سبق الأصل الصيني."
+    en: "Al-Fadl's proposal to establish Baghdad papermaking in TDV's account, with the Chinese origin explicit."
+    ur: "ٹی ڈی وی کے بیان میں بغداد کی کاغذ سازی کے لیے فضل کی تجویز؛ چینی اصل واضح ہے۔"
+  basis:
+    ar: "تسمي TDV صاحب الاقتراح، ويؤيد بلوم إطار القرن الثامن لا تفاصيل التكليف؛ لا دليل هنا على معدات المصنع أو طاقته {cite:tdv-kagit Baghdad paragraph} {cite:iranica-paper-i early history}."
+    en: "TDV supplies the proposer; Bloom supports the eighth-century setting, not those commission details. No workshop equipment or output is established here {cite:tdv-kagit Baghdad paragraph} {cite:iranica-paper-i early history}."
+    ur: "ٹی ڈی وی تجویز کنندہ بتاتا ہے؛ بلوم صدی کی تائید کرتے ہیں، اس تقرر کی تفصیل کی نہیں۔ یہاں کارخانے کی مشین یا پیداوار ثابت نہیں {cite:tdv-kagit Baghdad paragraph} {cite:iranica-paper-i early history}۔"
+  perspectives:
+    - tradition: sunni
+      id: tdv-transmission-account
+      summary:
+        ar: "ينسب أرصوي مبادرة بغداد إلى الفضل، ويعرض روايات الصين وآسيا الوسطى ومنها أسرى طلاس؛ السجل للنقل لا لاختراع الورق {cite:tdv-kagit origins and Baghdad paragraphs}."
+        en: "Ersoy attributes the Baghdad initiative to al-Fadl and presents Chinese/Central Asian accounts including Talas prisoners; the record concerns transmission, not invention of paper {cite:tdv-kagit origins and Baghdad paragraphs}."
+        ur: "ارسوئے بغداد کی تجویز فضل سے منسوب کرتے اور چین و وسطی ایشیا کی روایات میں طلاس کے قیدی بھی لاتے ہیں؛ ریکارڈ منتقلی کا ہے، کاغذ کی ایجاد کا نہیں {cite:tdv-kagit origins and Baghdad paragraphs}۔"
+      sources: [source/tdv-kagit]
+    - tradition: academic
+      id: bloom-evidence-limits
+      summary:
+        ar: "ينتقد بلوم قصة الأسرى والخبر الساساني لقلة الدليل، ويؤيد صناعة بغداد بنهاية القرن الثامن دون تثبيت مستقل لاسم الفضل أو سنة178هـ {cite:iranica-paper-i early history}."
+        en: "Bloom critiques the prisoner story and poorly evidenced Sasanian claims, supporting late-eighth-century Baghdad manufacture without independently confirming al-Fadl or178 AH {cite:iranica-paper-i early history}."
+        ur: "بلوم قیدیوں اور کم ثابت ساسانی خبروں پر تنقید کرتے؛ آٹھویں صدی کے آخر کی بغداد پیداوار کی تائید، فضل یا178ھ کی الگ تصدیق نہیں {cite:iranica-paper-i early history}۔"
+      sources: [source/iranica-paper-i]
+precursors:
+  - external: { ar: "صناعة الورق في الصين قبل الإسلام", en: "Pre-Islamic Chinese papermaking", ur: "اسلام سے پہلے چینی کاغذ سازی" }
+    note: "Earlier origin, not a Muslim invention; papermaking reconstitutes dispersed cellulose fibers."
+    sources: [source/iranica-paper-i]
+  - external: { ar: "حرف الورق في آسيا الوسطى وسمرقند", en: "Central Asian and Samarkand paper crafts", ur: "وسطی ایشیا اور سمرقند کی کاغذی صنعت" }
+    note: "Prior transmission setting; Talas-prisoner causation is disputed, not a proven named itinerary."
+    sources: [source/tdv-kagit, source/iranica-paper-i]
+dependents:
+  - external: { ar: "اتساع استعمال الورق وصناعته في العالم الإسلامي", en: "Wider paper use and manufacture in Islamic lands", ur: "اسلامی علاقوں میں کاغذ کا وسیع استعمال اور پیداوار" }
+    note: "Broad subsequent diffusion, not proof every workshop directly descended from al-Fadl's proposal."
+    sources: [source/tdv-kagit, source/iranica-paper-i]
+spread: []
+impact:
+  fields: [materials-industry, institutions-systems, everyday-life]
+  changed:
+    ar: "اتسعت مادة الكتابة للسجلات ثم الكتب؛ يميز بلوم التبني الإداري من الانتقال التدريجي إلى نسخ الكتب {cite:iranica-paper-i early manuscripts}."
+    en: "Writing material expanded for records and then books; Bloom distinguishes administrative adoption from gradual use for book copying {cite:iranica-paper-i early manuscripts}."
+    ur: "دفتری ریکارڈ اور پھر کتابوں کے لیے تحریری مواد پھیلا؛ بلوم انتظامی استعمال اور بتدریج کتاب نویسی کو الگ رکھتے ہیں {cite:iranica-paper-i early manuscripts}۔"
+  history:
+    ar: "يوضح نقلُ الحرفة أثرَ المواد في ثقافة الكتاب، دون نسبة كل مكتبة أو صناعة لاحقة إلى مصنع واحد {cite:tdv-kagit diffusion discussion} {cite:iranica-paper-i early history}."
+    en: "The craft's movement shows how materials shape book culture, without assigning every later library or industry to one workshop {cite:tdv-kagit diffusion discussion} {cite:iranica-paper-i early history}."
+    ur: "ہنر کی منتقلی کتابی ثقافت میں مواد کا کردار دکھاتی ہے، ہر بعد کے کتب خانے یا صنعت کو ایک کارخانے سے منسوب کیے بغیر {cite:tdv-kagit diffusion discussion} {cite:iranica-paper-i early history}۔"
+  significance: 4
+  why: "Major transmission account: earlier origin, a named localized proposal, material process, conflicting origin narratives and evidential limits."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "يبقى مبدأ تشكيل الألياف المبللة وتجفيفها؛ ليست الصورة الحديثة دليلاً على وصفة مصنع بغداد أو بقائه {cite:iranica-paper-i opening definition}."
+    en: "Wet-fiber sheet formation and drying remain the principle; the modern photograph proves neither the Baghdad recipe nor survival of its workshop {cite:iranica-paper-i opening definition}."
+    ur: "گیلے ریشوں سے ورق اور پھر خشک کرنا بنیادی اصول ہے؛ جدید تصویر بغداد کی ترکیب یا کارخانے کے باقی ہونے کا ثبوت نہیں {cite:iranica-paper-i opening definition}۔"
+  descendants:
+    ar: "صناعات الورق وفنون تهيئته للكتابة؛ الصلة العامة ليست نسباً تقنياً مباشراً مثبتاً {cite:tdv-kagit sizing and burnishing}."
+    en: "Papermaking and writing-surface preparation; the broad relationship is not an established direct technological genealogy {cite:tdv-kagit sizing and burnishing}."
+    ur: "کاغذ سازی اور تحریری سطح کی تیاری؛ عمومی تعلق ثابت براہ راست فنی نسب نہیں {cite:tdv-kagit sizing and burnishing}۔"
+media: { image: media/konigil-paper-bark-preparation, diagram: media/diagram-baghdad-papermaking }
+kids:
+  ar: "الورق ليس لحاءً مسطحاً فقط: تُفصل الألياف في الماء ثم تجمع ورقة وتجفف. عرفته الصين قبل الإسلام؛ وقصة بغداد عن نقل الحرفة، لا اختراع المادة من جديد."
+  en: "Paper is not simply flattened bark: fibers are separated in water, gathered into a sheet and dried. China knew it before Islam; the Baghdad story is about moving a craft, not inventing the material again."
+  ur: "کاغذ صرف چپٹی چھال نہیں؛ پانی میں الگ ریشے جمع کر کے ورق خشک کیا جاتا ہے۔ چین اسے اسلام سے پہلے جانتا تھا؛ بغداد کی کہانی ہنر کی منتقلی ہے، دوبارہ ایجاد نہیں۔"
+sources: [source/tdv-kagit, source/iranica-paper-i, source/tdv-bermekiler, source/commons-konigil-paper-enric]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b20"
+  source: "Actual selected TDV KAGIT sections, complete BERMEKILER biography and Iranica PAPER i early-history/material paragraphs, 2026-11-06. Classical references reported through these authors, not presented as independently read."

@@ -2,7 +2,7 @@
 id: person/al-fadl-ibn-yahya-al-barmaki
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code (model unknown), sourced Arabic extension"]
 ---
 ## خلاصہ
 الفضل بن یحییٰ بن خالد بن برمک [[group/barmakids|برامکہ]] میں سے تھے، اور [[person/yahya-ibn-khalid-al-barmaki|یحییٰ بن خالد]] کے بیٹے تھے۔ وہ [[person/harun-al-rashid|ہارون]] کے رضاعی بھائی تھے۔ {cite:tarikh-dawla-abbasiyya-taqqush p.98}
@@ -16,3 +16,17 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 برامکہ کی تباہی کے وقت انہیں اپنے والد اور بھائیوں کے ساتھ قید کیا گیا اور ان کی جائیدادیں ضبط ہو گئیں۔ {cite:tarikh-dawla-abbasiyya-taqqush p.100} دیکھیے [[event/killing-of-jafar-and-the-barmakids|جعفر کا قتل اور برامکہ کی تباہی]]۔
 
 وہ 193ھ میں قید خانے میں فوت ہوئے۔ {cite:tarikh-dawla-abbasiyya-taqqush p.100}
+
+## خراسان اور بغداد واپسی
+
+حقی دورسون یلدز176ھ/792–793ء میں جبال، آذربائیجان اور طبرستان، پھر اگلے سال خراسان کی ولایت اور زراعت کے لیے نہروں و تعمیری کاموں کا ذکر کرتے ہیں {cite:tdv-bermekiler al-Fadl career}۔ بغداد واپسی کے بعد ہارون اور یحییٰ کے797ء کے حج کے دوران وہ انتظام کے مرکز میں رہے، پھر امین کی تعلیم کے سوا ذمہ داریاں لے لی گئیں {cite:tdv-bermekiler al-Fadl career}۔
+
+## کاغذ سازی کی منتقلی
+
+عثمان ارسوئے بغداد کے178ھ/794–795ء کے کاغذ کارخانے کی تجویز ان سے منسوب کرتے ہیں؛ [[invention/baghdad-papermaking|کاغذ سازی کے ریکارڈ]] میں وہ ناقل اور تجویز کنندہ ہیں، کاغذ کے موجد یا نامعلوم کاریگروں کی متبادل شناخت نہیں {cite:tdv-kagit Baghdad paragraph}۔ چینی ابتدا اس عمل سے کئی صدیاں پرانی ہے؛ بلوم آٹھویں صدی کے آخر تک بغداد کی پیداوار کی تائید کرتے، فضل کے نام یا عین سال کی الگ تصدیق نہیں {cite:iranica-paper-i early history}۔
+
+## شناخت کی بنیاد اور نقل کردہ الزامات
+
+**میوزیم کا سنی سیاق:** یلدز فضل کا802ء کے حج کے قافلے میں نام دیتے اور رمضان میں مساجد کی روشنی سے جوڑتے ہیں؛ یہ مسلمان شناخت کی ذاتی سوانحی بنیاد ہے، اصل، نام یا منصب سے قیاس اور کسی خاص فقہی مسلک کا اعلان نہیں {cite:tdv-bermekiler pilgrimage and mosque lighting}۔
+
+**یلدز کا تاریخی جائزہ:** وہ بعض اشعار میں برامکہ کے اسلام قبول نہ کرنے کا اشارہ نقل کرتے اور سیاسی کشمکش میں اسے بعید سمجھتے ہیں؛ یہ ان کا بیان و جائزہ ہے، میوزیم کا فیصلہ یا فضل کے بارے میں ثابت ذاتی حقیقت نہیں، اور اصل اشعار یہاں نہیں پڑھے گئے {cite:tdv-bermekiler allegations discussion}۔ وہ فضل کے حج کو خاندان کے زوال سے پہلے آخری سفر میں رکھتے اور وفات808ء میں بتاتے ہیں؛ اوپر کی پرانی سوانح اپنے اصل ماخذ کے ساتھ محفوظ ہے {cite:tdv-bermekiler pilgrimage and fall}۔

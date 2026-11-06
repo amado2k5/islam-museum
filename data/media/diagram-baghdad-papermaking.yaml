@@ -1,0 +1,19 @@
+id: media/diagram-baghdad-papermaking
+class: media
+kind: illustration
+label: { ar: "سلسلة: الورق الصيني وآسيا الوسطى وبغداد", en: "Chain: Chinese paper, Central Asia and Baghdad", ur: "سلسلہ: چینی کاغذ، وسطی ایشیا اور بغداد" }
+summary:
+  ar: "سلسلة انتقال عامة يرسمها الموقع عند البناء؛ لا تعين طريق أسرى أو مخطط مصنع أو نسباً مباشراً لكل صناعة لاحقة."
+  en: "Generic build-time transmission chain, not a prisoner itinerary, factory plan or direct genealogy of every later industry."
+  ur: "تعمیر کے وقت بننے والا عمومی انتقالی سلسلہ؛ قیدیوں کا راستہ، کارخانے کا نقشہ یا ہر بعد کی صنعت کا براہ راست نسب نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/baghdad-papermaking]
+alt:
+  ar: "صناعة الورق الصينية الأقدم، ثم تقاليد آسيا الوسطى، ثم توطين الصناعة في بغداد وانتشارها الأوسع؛ لا ادعاء اختراع الورق في بغداد."
+  en: "Earlier Chinese papermaking, Central Asian traditions, Baghdad production and wider diffusion; no claim that paper was invented in Baghdad."
+  ur: "پہلے چینی کاغذ سازی، وسطی ایشیائی روایت، بغداد کی پیداوار اور وسیع پھیلاؤ؛ بغداد میں کاغذ کی ایجاد کا دعویٰ نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/tdv-kagit, source/iranica-paper-i]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b20", source: "The two references' broad diffusion accounts, with their origin-story disagreement retained in prose; not a machine reconstruction" }
