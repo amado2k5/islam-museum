@@ -3,13 +3,21 @@ id: person/ibn-al-haytham
 lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+status: { review: published }
+provenance: { generated_by: "Claude Haiku 5.5 (library-expansion); Copilot SDK in VS Code extension", model: "claude-haiku-5-5; unknown for extension", run: "inventions-p3-b36", source: "Original Manazir account/translation attribution retained; Arabic dates/volume-method extension from TDV and selected Katz/Bressoud" }
 ---
 
 ## خلاصہ
 الحسن بن الہیثم ایک عرب عالم تھے جو ریاضی اور طبیعیات میں مشہور ہیں۔ وہ اپنی کتاب [[work/kitab-al-manazir|المناظر]] کے سبب [[concept/optics|بصریات]] کے میدان میں جانے جاتے ہیں۔ کتاب کے محقق اسے پانچویں صدی ہجری کا عالم بتاتے ہیں، اور ان کی رائے ہے کہ یہ کتاب طبیعیات میں عرب علماء کی سب سے قیمتی تصنیف ہے۔ {cite:manazir-sabra-1983 p.9}
 
 ## زندگی کی تاریخیں
-پڑھے گئے صفحات میں ان کی پیدائش یا وفات کا سال درج نہیں، اور کسی دوسرے ماخذ سے اس کی تصدیق بھی نہیں ہوئی، اس لیے یہ تاریخیں اس وقت تک اس ریکارڈ سے باہر رہیں گی جب تک ان کا اضافہ نہ کیا جائے۔
+ٹی ڈی وی پیدائش تقریباً354ھ/965 بتاتی اور وفات کی مختلف روایات،432ھ/1040 کے خود نوشتہ شاہد سمیت، بیان کرتی ہے؛ انہیں ایک قطعی تاریخ نہیں بناتے {cite:tdv-ibnul-heysem pp.82–87}۔ تقریبی تاریخیں برقرار ہیں؛ سرگرمی کی صدی ہر رسالے کی درست تاریخ نہیں۔
+
+## چوتھی قوتیں اور حجم
+
+[[invention/ibn-al-haytham-fourth-power-volumes|چوتھی قوت کی ترکیب]] [[invention/camera-obscura|تاریک کمرے]] سے الگ حصہ ہے: عددی مجموعے و استنفاد کو ایسے جسم سے جوڑتی ہے جس کا محورِ گردش قطع مکافی کے محور پر عمودی ہے۔ حجم اسطوانے کا8/15 ہے، پرانے محوری جسم کا نصف نہیں {cite:katz-calculus-islam-india-1995 pp.165–168} {cite:bressoud-calculus-before-newton-i pp.2–4}۔ کاٹز مصنف کی n=4 مثال اور جدید عمومی استنباط الگ کرتے ہیں۔ جدید تکاملی علامتیں یا تمام حسابان ان کی ایجاد نہیں کہتے {cite:katz-calculus-islam-india-1995 pp.166–167}۔ بریسود کے مطابق چوتھی قوت سے آگے کام کا ثبوت نہیں، اگرچہ ترکیب بڑھائی جا سکتی ہے {cite:bressoud-calculus-before-newton-iii pp.2–3}۔
+
+انفرادی مسلم شناخت کی بنیاد المناظر کے ان کے نام سے آغاز اور ٹی ڈی وی میں دفاع نبوت و معتزلہ سے بحث کی تصانیف میں محفوظ ہے۔ سنی سیاق اعلان کردہ ہے، ذاتی فقہی مسلک کی سند یا فاطمی سرپرستی سے اخذ نہیں {cite:manazir-sabra-1983 scan-p.60} {cite:tdv-ibnul-heysem pp.82–87}۔ قاہرہ سوانحی سیاق ہے، رسالے کی ثابت جگہ نہیں؛ یورپی انتقال کاٹز کے ہاں تحقیق کا سوال ہے {cite:katz-calculus-islam-india-1995 pp.166,174}۔ اضافہ پڑھے گئے علمی مقامات سے ہے، اصل عربی رسالے کی آزاد قراءت سے نہیں۔
 
 ## کونپلوں کے لیے
 ایک ذہین سائنس دان جنہوں نے تجربات کے ذریعے روشنی کا مطالعہ کیا اور دریافت کیا کہ ہماری آنکھیں دنیا کو کیسے دیکھتی ہیں۔

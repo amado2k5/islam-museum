@@ -1,0 +1,71 @@
+id: invention/ibn-al-haytham-fourth-power-volumes
+class: invention
+label: { ar: "طريقة ابن الهيثم بالقوى الرابعة لقياس الحجوم", en: "Ibn al-Haytham's fourth-power volume method", ur: "ابن الہیثم کا چوتھی قوت سے حجم کا طریقہ" }
+names:
+  - { value: "Fourth-power sums and perpendicular-axis paraboloid volume", kind: alternate, lang: en }
+summary:
+  ar: "مجاميع قوى رابعة واستنفاد لحجم مجسم ذي محور دوران عمودي على محور القطع؛ نسبته8/15 لا نصف الأسطوانة المحورية الأقدم {cite:katz-calculus-islam-india-1995 pp.165–168}."
+  en: "Fourth-power sums/exhaustion for a solid rotated about an axis perpendicular to the parabola's axis:8/15, not the earlier axial half-cylinder result {cite:katz-calculus-islam-india-1995 pp.165–168}."
+  ur: "قطع کے محور پر عمودی گردش والے جسم کے لیے چوتھی قوتوں کے مجموعے اور استنفاد:8/15، پرانے محوری نصف اسطوانے کا نتیجہ نہیں {cite:katz-calculus-islam-india-1995 pp.165–168}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [egypt-nile]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad eleventh-century activity in Katz's historical framing, not exact composition, invention, surviving-copy date or fabricated Hijri."
+    sources: [source/katz-calculus-islam-india-1995]
+  status_today: living
+origin:
+  place: place/cairo
+  context: { ar: "سياق عالم عمل بمصر؛ لا إثبات لموضع تأليف الرسالة {cite:tdv-ibnul-heysem pp.82–87}.", en: "Biographical Egyptian setting, not a verified treatise-composition location {cite:tdv-ibnul-heysem pp.82–87}.", ur: "مصر میں کام کرنے والے عالم کا سیاق، رسالے کی ثابت جگہ نہیں {cite:tdv-ibnul-heysem pp.82–87}۔" }
+makers:
+  - person: person/ibn-al-haytham
+    role: improver
+    sources: [source/katz-calculus-islam-india-1995, source/bressoud-calculus-before-newton-iii]
+attribution:
+  status: improvement
+  claim: { ar: "توسيع حساب الحجوم بمجاميع القوى الرابعة؛ لا اختراع التكامل كله أو كل جسم مكافئ.", en: "Extension of volume calculation through fourth-power sums, not invention of all calculus or every paraboloid.", ur: "چوتھی قوتوں سے حجمی حساب کی توسیع، تمام حسابان یا ہر قطع مکافی جسم کی ایجاد نہیں۔" }
+  basis:
+    ar: "يوثق كاتز طريقة الجمع والحجم ويصرح بفصل إعادة البناء الحديثة عن أمثلة المؤلف {cite:katz-calculus-islam-india-1995 pp.166–168}."
+    en: "Katz documents summation/volume method and separates modern reconstruction from the author's illustrations {cite:katz-calculus-islam-india-1995 pp.166–168}."
+    ur: "کاٹز جمع و حجم کی ترکیب بیان کرتے اور جدید تشکیل کو مصنف کی مثالوں سے الگ رکھتے ہیں {cite:katz-calculus-islam-india-1995 pp.166–168}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "إطار معلن ومساهمة محددة", en: "Declared frame and bounded contribution", ur: "اعلان کردہ سیاق، متعین حصہ" }
+      summary: { ar: "هوية الفرد موثقة مستقلاً؛ الإطار السني ليس شهادة مذهبه الشخصي، ولا يمحو إسهام السابقين.", en: "Individual identity independently grounded; Sunni frame is not personal-school proof and erases no predecessors.", ur: "فرد کی شناخت کا الگ ثبوت؛ سنی سیاق ذاتی مسلک کا ثبوت نہیں اور سابقین کا حصہ نہیں مٹاتا۔" }
+      sources: [source/manazir-sabra-1983, source/tdv-ibnul-heysem]
+    - tradition: academic
+      stance: { ar: "إعادة بناء قابلة للتعميم، لا تعميم تاريخي مطلق", en: "Generalizable reconstruction, not unlimited historical assertion", ur: "قابل تعمیم تشکیل، لامحدود تاریخی دعویٰ نہیں" }
+      summary: { ar: "كاتز يميز مثالn=4 والنتيجة المعلنة العامة؛ وبريسود لا يرى دليلاً على تجاوز المؤلف القوى الرابعة.", en: "Katz distinguishes n=4 illustration/general assertion; Bressoud finds no evidence the author went beyond fourth powers.", ur: "کاٹز n=4 مثال و عمومی اعلان الگ کرتے؛ بریسود کے مطابق چوتھی قوت سے آگے مصنف کے جانے کا ثبوت نہیں۔" }
+      sources: [source/katz-calculus-islam-india-1995, source/bressoud-calculus-before-newton-iii]
+precursors:
+  - external: { ar: "قياس أرخميدس المحوري، ثم سوابق ثابت بن قرة وأبي سهل الكوهي", en: "Archimedes' axial volume and Thabit ibn Qurra/al-Kuhi precedents", ur: "ارشمیدس کا محوری حجم اور ثابت بن قرہ و کوہی کے سابق کام" }
+    note: "Earlier half-cylinder result distinguished from perpendicular-axis8:15. Named non-Muslim precursor Thabit retained; no fabricated graph dependence or direct Archimedes-text access."
+    sources: [source/bressoud-calculus-before-newton-i, source/katz-calculus-islam-india-1995]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics]
+  changed: { ar: "ربط مجموع قوى رابعة بحجم وبرهان استنفاد {cite:katz-calculus-islam-india-1995 pp.167–168}.", en: "Connected a fourth-power sum to volume and exhaustion proof {cite:katz-calculus-islam-india-1995 pp.167–168}.", ur: "چوتھی قوت کا مجموعہ حجم اور استنفاد کے ثبوت سے جوڑا {cite:katz-calculus-islam-india-1995 pp.167–168}۔" }
+  history: { ar: "شاهد على تاريخ سابق للحسابان؛ الانتقال إلى أوروبا سؤال بحث لا سلسلة محسومة {cite:katz-calculus-islam-india-1995 p.174}.", en: "Witness to calculus prehistory; European transmission is a research question, not a settled chain {cite:katz-calculus-islam-india-1995 p.174}.", ur: "حسابان کی ابتدائی تاریخ کی گواہی؛ یورپی انتقال تحقیق کا سوال، طے شدہ سلسلہ نہیں {cite:katz-calculus-islam-india-1995 p.174}۔" }
+  significance: 4
+  why: "Peer-reviewed selected mathematical history/formula images plus independent scholarly teaching exposition support bounded method; exact polynomial/finite bounds checked. Distinct from existing optical experiment, no universal first/calculus claim."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "تعليم مجاميع القوى والحدود العليا والدنيا؛ الصورة تقارن بالجسم المحوري الأقدم.", en: "Teaching power sums and lower/upper bounds; image compares the earlier axial solid.", ur: "قوتوں کے مجموعے و بالا و زیریں حدود کی تعلیم؛ تصویر پرانے محوری جسم کا تقابل۔" }
+  descendants: { ar: "لا نسب مثبت لبرنامج أو منشأة أو صيغة أوروبية بعينها.", en: "No proven lineage to a particular program, building or European formula.", ur: "کسی خاص پروگرام، عمارت یا یورپی ضابطے تک ثابت نسب نہیں۔" }
+media: { image: media/paraboloid-dh-comparison, diagram: media/diagram-ibn-haytham-fourth-powers }
+kids: { ar: "يمكن حصر حجم بين طبقات أصغر وأكبر منه. استعمل ابن الهيثم مجاميع قوى رابعة لمسألة محددة، لا لاختراع كل حساب.", en: "Trap a volume between smaller and larger layers. Ibn al-Haytham used fourth-power sums for a specific problem, not to invent all calculation.", ur: "حجم کو چھوٹی اور بڑی تہوں کے بیچ گھیر سکتے ہیں۔ ابن الہیثم نے ایک متعین مسئلے میں چوتھی قوتیں استعمال کیں، تمام حساب ایجاد نہیں کیا۔" }
+sources: [source/katz-calculus-islam-india-1995, source/bressoud-calculus-before-newton-i, source/bressoud-calculus-before-newton-iii, source/dennis-addington-alhazen-summation-2009, source/commons-paraboloid-dh, source/manazir-sabra-1983, source/tdv-ibnul-heysem]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b36", source: "Actual selected Katz scholarly text167–168 images, Bressoud I/III selected article text, Dennis/Addington notes, existing individualized identity basis and licensed comparison image. Original Arabic paraboloid treatise not independently read." }
