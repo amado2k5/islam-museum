@@ -66,6 +66,10 @@ inventions:
     place: place/tulaytula
     note: "Specific universal plate and treatises, not invention of the astrolabe or an exact date for every variant."
     sources: [source/zarqali-puig-bea, source/zarqaliyya-bir-2020]
+  - invention: invention/equatorium-al-zarqali
+    role: improver
+    note: "Independent two-plate arrangement after Ibn al-Samh; construction/use treatises circa1080–1082, not the universal astrolabe or Kepler's orbital law. Exact construction city not established."
+    sources: [source/zarqali-puig-bea, source/zarqali-mactutor]
 
 external_ids: { wikidata: "Q11133" }
 
@@ -77,12 +81,15 @@ sources:
   - source/zarqali-puig-bea
   - source/zarqaliyya-bir-2020
   - source/bibalex-astrolabe-949
+  - source/zarqali-mactutor
 
 provenance:
   layer: own-research
   source: "English, Arabic and Urdu Wikipedia articles and Wikidata Q11133, all revisions fetched live from the MediaWiki API on 31 Oct 2026; Encyclopaedia of Islam (Samsó) and the Biographical Encyclopedia of Astronomers as cited in the English article. Copilot SDK in VS Code (model unknown), inventions-p3-b21,2026-11-06: directly read the complete Puig BEA biography, Bir et al. pp40–41,46–54 and Bibliotheca Alexandrina catalogue; added the specific plate tie and documented named Muslim classification with explicit Sunni default, not personal school attestation. Earlier Muse authorship retained; no unrelated dates changed."
   generated_by: "Muse (Muse Spark 1.3)"
   run: "wave 146 B"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b27", source: "Append distinct equatorium tie and trilingual explanation from Puig/MacTutor; preserve Muse and earlier Copilot attribution, existing universal-plate tie and unrelated life-date fields" }
 
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
 occupations:

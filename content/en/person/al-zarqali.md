@@ -17,6 +17,10 @@ The [[invention/universal-astrolabe-al-zarqali|universal zarqaliyya plate]] repl
 
 Bibliotheca Alexandrina's Antiquities Museum names al-Zarqali in its Muslim-astronomers section, the documented biographical basis for the identity update here; it does not attest a personal legal school {cite:bibalex-astrolabe-949 The Role of Muslim Astronomers}. Sunni is the museum's explicit default, not a quotation from al-Zarqali; the Puig biography read names no contrary affiliation {cite:zarqali-puig-bea pp. 1258–1260}.
 
+## The independent equatorium
+
+[[invention/equatorium-al-zarqali|Al-Zarqali's equatorium]] differs from the universal plate: deferents and associated circles occupy both sides of one plate, epicycles a second {cite:zarqali-puig-bea pp. 1258–1260}. Puig names Ibn al-Samh's circa1025/1026 predecessor and dates construction/use treatises approximately1080/1081 and1081/1082, dedicated to al-Mu'tamid; these clues alone do not settle the construction city {cite:zarqali-puig-bea pp. 1258–1260}. Mercury's oval representation within this geometry is not evidence that he formulated Kepler's law of planetary orbits, an exaggeration explicitly cautioned against by MacTutor {cite:zarqali-mactutor Mercury discussion}.
+
 ## Tables and geography
 
 Al-Zarqali contributed to the Toledan Tables, and revised al-Khwarizmi's astronomical tables, recomputing many of their longitudes from the meridian of Toledo. Against Ptolemy, he measured the length of the Mediterranean as 42 degrees rather than Ptolemy's 62 - much nearer the modern value. Studying Mercury, he noted that the centre of its eccentric deferent traces an oval, rather than a circular, path {cite:wikipedia-al-zarqali-en}{cite:wikipedia-al-zarqali-ar}.
