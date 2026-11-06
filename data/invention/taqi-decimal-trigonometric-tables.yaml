@@ -1,0 +1,86 @@
+id: invention/taqi-decimal-trigonometric-tables
+class: invention
+label: { ar: "جداول تقي الدين المثلثية العشرية", en: "Taqi al-Din's decimal trigonometric tables", ur: "تقی الدین کے اعشاری مثلثی جدول" }
+names:
+  - { kind: alternate, lang: en, value: "Decimal-angle and function tabulation in Taqi al-Din's Jarida" }
+summary:
+  ar: "تطبيق الكسور العشرية في الدوال المثلثية وأجزاء الدرجة والجداول الفلكية؛ تحسين محدد لا اختراع الكسور العشرية كلها {cite:taqi-fazlioglu-bea decimal-zij discussion}."
+  en: "Decimal fractions applied to trigonometric functions, parts of degrees and astronomical tables; a specific refinement, not invention of decimals themselves {cite:taqi-fazlioglu-bea decimal-zij discussion}."
+  ur: "مثلثی دالوں، درجے کے اجزا اور فلکی جدول میں اعشاری کسر کا اطلاق؛ خاص بہتری، سارے اعشاری حساب کی ایجاد نہیں {cite:taqi-fazlioglu-bea decimal-zij discussion}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics, astronomy]
+wings: [ideas]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+era:
+  origins: gunpowder-empires
+  first_attested:
+    edtf: "../1585"
+    calendar: gregorian
+    precision: year
+    status: historical
+    note: "Open latest-lifetime bound from BEA's1585 death, not an asserted invention/composition year or an equation to a manuscript/edition date. No Hijri endpoint supplied by this read passage; no conversion guessed."
+    sources: [source/taqi-fazlioglu-bea]
+  status_today: transformed
+origin:
+  place: place/istanbul
+  context:
+    ar: "سياق عمله العثماني في إسطنبول، لا إثبات أن كل جدول كتب في غرفة معينة من المرصد {cite:taqi-fazlioglu-bea biography}."
+    en: "His Ottoman work in Istanbul, not proof every table was composed in a particular observatory room {cite:taqi-fazlioglu-bea biography}."
+    ur: "استنبول میں عثمانی علمی کام کا سیاق، ہر جدول کے کسی خاص رصدگاہی کمرے میں لکھے جانے کا ثبوت نہیں {cite:taqi-fazlioglu-bea biography}۔"
+makers:
+  - person: person/taqi-al-din-ibn-maruf
+    role: improver
+    note: "Authored decimal-table application. Individual Muslim basis: religious education and qadi service, not name; Sunni separately labelled museum default in Ottoman setting."
+    sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
+attribution:
+  status: improvement
+  claim:
+    ar: "تطوير استخدام الحساب العشري في جداول المثلثات والفلك داخل تقليد سابق."
+    en: "An extension of decimal arithmetic into trigonometric/astronomical tables within an inherited tradition."
+    ur: "سابق علمی روایت میں اعشاری حساب کو مثلثی اور فلکی جدول تک بڑھانا۔"
+  basis:
+    ar: "يصف فاضلي أوغلو جريدة الدرر وتسهيل الزيج العشري؛ وتذكر TDV الجداول العشرية والمراتب اللفظية دون فاصلة حديثة {cite:taqi-fazlioglu-bea decimal-zij discussion} {cite:tdv-takiyyuddin-er-rasid arithmetic and work3}."
+    en: "Fazlioglu describes Jarida and Tashil; TDV describes decimal tables and verbally expressed places without a modern decimal separator {cite:taqi-fazlioglu-bea decimal-zij discussion} {cite:tdv-takiyyuddin-er-rasid arithmetic and work3}."
+    ur: "فاضلی اوغلو جریدہ و تسہیل بیان کرتے ہیں؛ TDV اعشاری جدول اور جدید اعشاری نشان کے بغیر لفظی مراتب بتاتی ہے {cite:taqi-fazlioglu-bea decimal-zij discussion} {cite:tdv-takiyyuddin-er-rasid arithmetic and work3}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "حساب الكسور العشرية عند الكاشي والتقليد المثلثي السابق", en: "Al-Kashi's decimal arithmetic and earlier trigonometry", ur: "کاشی کا اعشاری حساب اور سابق مثلثیات" }
+    note: "BEA explicitly identifies continuation of al-Kashi's arithmetic; not evidence that every earlier decimal manuscript directly reached him."
+    sources: [source/taqi-fazlioglu-bea]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics, astronomy-instruments]
+  changed:
+    ar: "تنسيق الكسور الزاوية والحساب الجدولي على أساس عشري، مع استثناء جدول النجوم الثابتة في وصف الدراسة {cite:taqi-fazlioglu-bea decimal-zij discussion}."
+    en: "Coordinates fractional angles and table computation in decimal form, retaining scholarship's fixed-star-table exception {cite:taqi-fazlioglu-bea decimal-zij discussion}."
+    ur: "کسری زاویوں اور جدول کا حساب اعشاری صورت میں مربوط کرتا ہے؛ تحقیق کا ثابت ستاروں والے جدول کا استثنا برقرار {cite:taqi-fazlioglu-bea decimal-zij discussion}۔"
+  history:
+    ar: "تطبيق عثماني موثق؛ لا مسار مباشر مثبت إلى ستيفن أو كل آلة حاسبة حديثة {cite:taqi-fazlioglu-bea conclusion}."
+    en: "Documented Ottoman application, not a demonstrated direct route to Stevin/every modern calculator {cite:taqi-fazlioglu-bea conclusion}."
+    ur: "مستند عثمانی اطلاق، سٹیون یا ہر جدید کیلکولیٹر تک ثابت براہ راست راستہ نہیں {cite:taqi-fazlioglu-bea conclusion}۔"
+  significance: 3
+  why: "Specific mathematical representation/application with scholarly documentation, explicit source limits and modern teaching arithmetic, not inflated universal priority."
+described_in: [work/jaridat-al-durar]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "درس في الفرق بين الدالة وتمثيل العدد ووحدة الزاوية؛ الرسم حديث من2007 لا مخطوط {cite:taqi-fazlioglu-bea decimal-zij discussion} {cite:commons-trigonometry-triangle Description}."
+    en: "Teaches the distinction between function, numerical representation and angular unit; image is modern2007 context, not a manuscript {cite:taqi-fazlioglu-bea decimal-zij discussion} {cite:commons-trigonometry-triangle Description}."
+    ur: "دال، عدد کی صورت اور زاویے کی اکائی الگ کرنا سکھاتا ہے؛ تصویر2007 کا جدید سیاق، مخطوطہ نہیں {cite:taqi-fazlioglu-bea decimal-zij discussion} {cite:commons-trigonometry-triangle Description}۔"
+  descendants:
+    ar: "لا حواف اعتماد تقنية حديثة مخمنة {cite:taqi-fazlioglu-bea conclusion}."
+    en: "No guessed modern technical-dependency edges {cite:taqi-fazlioglu-bea conclusion}."
+    ur: "جدید تکنیکی انحصار کے قیاسی رشتے نہیں {cite:taqi-fazlioglu-bea conclusion}۔"
+media: { image: media/taqi-modern-triangle, diagram: media/diagram-taqi-decimal-tables }
+kids:
+  ar: "يمكن كتابة نصف الدرجة0.5 درجة أو30 دقيقة قوسية؛ العددان ليسا0.5 دقيقة. هذا مثالنا الحديث لفهم اختلاف الكتابة، لا سطر من جدول تقي الدين."
+  en: "Half a degree is0.5degree or30arcminutes, not0.5arcminute. This is our modern example, not a copied entry from Taqi al-Din."
+  ur: "نصف درجہ0.5درجہ یا30قوسی منٹ ہے،0.5قوسی منٹ نہیں۔ یہ ہمارا جدید نمونہ، تقی الدین کے جدول کی نقل نہیں۔"
+sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid, source/tekeli-trigonometry-1986, source/commons-trigonometry-triangle]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b55", source: "Complete actual BEA/TDV main text, selected Tekeli pages and reinspected modern PD triangle. Decimal Jarida distinguished from sexagesimal Sidra. No Jarida manuscript/edition read, invented digits/radius/grid/date, modern-dot priority or unsupported transmission." }

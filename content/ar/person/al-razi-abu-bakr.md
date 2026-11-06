@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "المقاطع الطبية في غرينهل1848 وبريتانيكا وقايا وآدمسون؛ نسبة ديفن الأصلية محفوظة في سجل الشخص", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "إضافة التصنيف من العربية1–3 وفيراريو24–30؛ النص السابق محفوظ" }] }
+provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "المقاطع الطبية في غرينهل1848 وبريتانيكا وقايا وآدمسون؛ نسبة ديفن الأصلية محفوظة في سجل الشخص", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "إضافة التصنيف من العربية1–3 وفيراريو24–30؛ النص السابق محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b53", source: "ملحق المقارنة بين جماعات المرضى من بورمان2013 وتيبي؛ كل النص والهوية والنسب السابقة محفوظة، لا قراءة مزعومة للعربية الأصلية أو تصديق علاجي" }] }
 ---
 
 ## موجز
@@ -48,3 +48,11 @@ provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension
 وقصة الجامع الكبير: عمل فيه خمس عشرة سنة ليلاً نهاراً حتى ضعف بصره وحصل فسخ في عضلات يده — ثم استعان بمن يقرأ ويكتب له {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:19:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:20:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:20:30}.
 وفي البصريات: نقض نظرية إقليدس بأن الشعاع يخرج من الجسم المرئي إلى العين — قبل ابن الهيثم بنحو سبعة قرون (قول المحاضر) {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:22:00}.
 وحكاية العجوز: لما قيل لها «هذا الرازي الذي عنده ألف دليل على وجود الله» قالت «لو لم تكن عنده ألف شك لما احتاج ألف دليل» فقال «اللهم إيماناً كإيمان العجائز» {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:23:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:23:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:24:00}.
+
+## جماعات المرضى وعدم اليقين
+
+في [[invention/razi-patient-group-comparison|خبر المقارنة بين جماعات المرضى]] ينقل مقتطف «الحاوي» المترجم قصد مقارنة جماعة تلقت تدخلاً بأخرى لم تتلقه. تقرأ تيبي الخبر شاهداً على مبدأ المقارنة، لا دليلاً كافياً لاعتماد العلاج؛ ويسمي بورمان الجماعة الضابطة مع تنبيهه إلى غياب عرض نظري مستقل لمفهوم الجماعة {cite:tibi-razi-comparison-jll comparison-and-conclusion} {cite:razi-pormann-uncertainty-2013 p.371}.
+
+العدد التقريبي ثلاثمئة من ألفين في مقطع «الشكوك على جالينوس» يصف مسارات خالفت التوقع، لا تلقائياً مرضى المقارنة السابقة أو معدل شفاء. نسبة15% حساب حديث للعدد التقريبي، وليست شهادة فعالية أو وفاة؛ وخبر ثلاث حالات وأخرى في نص صعب لا يصبح تجربة مؤكدة من أربعة أفراد {cite:razi-pormann-uncertainty-2013 pp.371–372}.
+
+الشاهد المقروء ترجمة منتقاة وتعليق ومقال2013، لا أصل عربي فحصناه أو كامل الكتابين. اختلاف حيدر آباد، المجلد الأول أو15، الصفحة122، باق ظاهر حتى مقابلة النسخ. هذه الإضافة لا تصدق بأثر رجعي دعوى تجارب القرود أو كل أولوية في البرنامج السابق؛ تظل منسوبة إلى قائله، كما يبقى خلاف الهوية دون حكم متحفي. لا تعليمات علاج أو إعادة تجربة {cite:tibi-razi-comparison-jll references} {cite:razi-pormann-uncertainty-2013 introduction}.

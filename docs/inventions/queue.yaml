@@ -2,6 +2,45 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: taqi-decimal-trigonometric-tables
+    label: "Taqi al-Din's decimal-angle, trigonometric-function and astronomical-table application"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: gunpowder-empires
+    from: scholarly-reference
+    records: ["person/taqi-al-din-ibn-maruf", "work/jaridat-al-durar", "source/taqi-fazlioglu-bea", "source/tdv-takiyyuddin-er-rasid", "source/tekeli-trigonometry-1986"]
+    invention: invention/taqi-decimal-trigonometric-tables
+    lead_sources:
+      - "Actual complete authored Fazlioglu BEA and Topdemir TDV biographies/works; selected Tekeli1986 pp247–250,257–258,269–272"
+      - "Re-read Commons original2007 PD triangle licence/history and visually reinspected saved rendering"
+    flags: [completed-D096-b55, decimal-application-not-invention-of-decimals, sidra-sexagesimal-not-jarida, fixed-star-exception-retained, no-invented-radius-digits-grid-composition-date, no-modern-decimal-point-priority, no-unproved-stevin-transmission, religious-education-and-qadi-not-name-inference, explicit-default-sunni-frame, original-devin-attribution-and-occupation-retained, actual-jarida-and-demir-edition-not-read, modern-context-image-not-manuscript, paper-only]
+  - id: ibn-bassal-soil-water-matching
+    label: "Ibn Bassal's linked practical land, water, season and crop assessment"
+    state: "[x]"
+    batch: 2
+    domain: water-agriculture
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/ibn-bassal", "work/al-qasd-wa-al-bayan", "source/ibn-bassal-qasd-filaha", "source/ibn-bassal-filaha-profile", "source/tdv-ibn-bassal"]
+    invention: invention/ibn-bassal-soil-water-matching
+    lead_sources:
+      - "Actual revised Arabic contents and complete water/land chapters1–2, selected10 opening"
+      - "Actual scholarly-project biography/synopsis and Ozel TDV biography; inspected USDA PD contextual drawing"
+    flags: [completed-D095-b54, agriculture-not-every-chapter-as-invention, ten-compound-land-types-four-water-sources, historical-qualities-not-modern-chemistry, no-absolute-soil-science-or-drip-priority, personal-pilgrimage-not-name-inference, explicit-default-sunni-frame, uncertain-life-relocation-dates, abridgement-not-complete-compendium, different-nur-al-din-ibn-bisal-unchanged, modern-horizons-not-historical-classes, no-unsafe-waste-or-water-handling, paper-only]
+  - id: razi-patient-group-comparison
+    label: "Al-Razi's reported intentional patient-group comparison and medical uncertainty"
+    state: "[x]"
+    batch: 2
+    domain: medicine-surgery
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-razi-abu-bakr", "work/al-hawi-fi-al-tibb", "source/razi-pormann-uncertainty-2013", "source/tibi-razi-comparison-jll"]
+    invention: invention/razi-patient-group-comparison
+    lead_sources:
+      - "Actual Pormann2013 complete journal paper370–372 and JLL commentary"
+      - "Actual Tibi commentary and selected translated Hawi passage; reverified inspected contextual1848 PD title image"
+    flags: [completed-D094-b53, distinct-from-disease-description-and-chemistry, reported-comparison-not-randomized-trial, no-treatment-endorsement-or-instructions, missing-cohort-data-not-invented, approximate-count-not-cure-rate, primary-arabic-image403-not-inspected, original-locator-discrepancy-retained, disputed-identity-retained, earlier-maker-ties-and-attribution-retained, different-book-context-image, paper-only]
   - id: zarqali-moving-solar-apogee
     label: "Al-Zarqali's moving solar-apogee and variable-eccentricity model"
     state: "[x]"

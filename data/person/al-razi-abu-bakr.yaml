@@ -34,6 +34,7 @@ perspectives:
 inventions:
   - { invention: invention/al-razi-smallpox-measles, role: improver, note: "Documented comparative monograph, not all differential diagnosis/vaccination; disputed religious identity displayed, Baghdad biographical context only.", sources: [source/razi-greenhill-smallpox-1848, source/britannica-al-razi] }
   - { invention: invention/razi-substance-classification, role: improver, note: "Nested earthy-material classes and organized handbook, not a periodic table or all chemistry; selected1964 Arabic opening and Ferrario edition/attribution limits.", sources: [source/razi-asrar-danishpazhuh-1964, source/ferrario-razi-pseudorazi-2024] }
+  - { invention: invention/razi-patient-group-comparison, role: describer, note: "Reported intentional treated/untreated comparison and qualified numerical reasoning, not a modern randomized trial or proof of bloodletting efficacy; previous two contributions and identity dispute retained.", sources: [source/razi-pormann-uncertainty-2013, source/tibi-razi-comparison-jll] }
 wings: [people]
 periods: [period/abbasid-fragmentation]
 provenance:
@@ -45,7 +46,8 @@ provenance:
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b37", source: "Actual primary translation34–35, individual Britannica description, TDV/Stanford conflicting religious evidence. Added bounded clinical tie and labelled perspectives; retained original Devin/Haiku attribution and earlier attributed programme account." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "Direct Arabic1–3/Ferrario selected24–30: added classification tie and trilingual extension; preserved clinical tie, disputed faith, original Devin/Haiku authorship and programme account." }
-sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/assabile-tareq-al-suwaidan, source/razi-greenhill-smallpox-1848, source/britannica-al-razi, source/tdv-razi-ebu-bekir, source/sep-abu-bakr-al-razi, source/razi-asrar-danishpazhuh-1964, source/ferrario-razi-pseudorazi-2024]
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b53", source: "Actual Pormann2013 paper and Tibi commentary/translated excerpt: third distinct patient-group comparison tie and trilingual appendix. Every earlier field/faith/perspective/tie/source/biography byte and original Devin/Haiku/Copilot attribution retained; no modern clinical validation or uninspected-primary claim." }
+sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/assabile-tareq-al-suwaidan, source/razi-greenhill-smallpox-1848, source/britannica-al-razi, source/tdv-razi-ebu-bekir, source/sep-abu-bakr-al-razi, source/razi-asrar-danishpazhuh-1964, source/ferrario-razi-pseudorazi-2024, source/razi-pormann-uncertainty-2013, source/tibi-razi-comparison-jll]
 status:
   review: published
   completeness: 3
