@@ -75,6 +75,7 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses isolated in 100 data files (batch 3 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
 - Arabic parentheses isolated in 100 data files (batch 2 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
 - Arabic parentheses isolated in 100 data files (batch 1 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
 - Arabic parentheses: every Arabic-script parenthetical must now be wrapped in Unicode isolate marks (U+2066 ... U+2069), so brackets stay in the right place in right-to-left text. The rule is in AGENTS.md and applies to every agent and session, including harvesting, ingestion and OCR.
