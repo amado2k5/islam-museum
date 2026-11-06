@@ -17,7 +17,7 @@ translators: []
 :::perspectives
 - **أهل السنة: الطبري نفسه**: ما صح ووافق الرسم لا يُخطّأ قارئه، لكن ما شذ عن القراءة المنقولة نقلًا ظاهرًا مستفيضًا رأي مخالف للحق، والمختار ما وافق الرسم وأكثر القراء والأفصح {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1364} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1376} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1377} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1382}.
 - **أهل السنة: ابن الجزري في «النشر» كما ينقله البحث**: أئمة القراء يعملون على الأثبت في الأثر لا على الأقيس في العربية، وموافقة العربية ولو بوجه أحد شروط القبول، وجعل بعضهم صحة النقل الشرط الوحيد {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.92} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1376}.
-- **أكاديمي: أحمد خالد بابكر (جامعة أم القرى)**: لم يلتزم الطبري مبدأه في كتاب القراءات، فحكّم اللغة واشتط أحيانًا في رد قراءات صحيحة نقلًا وعربية موافقة للرسم، وإن أمكن أن يُعتذر له بأنه أراد بيان موافقة الوجوه للعربية {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1365} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1376} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1377}.
+- **أكاديمي: أحمد خالد بابكر ⁦(جامعة أم القرى)⁩**: لم يلتزم الطبري مبدأه في كتاب القراءات، فحكّم اللغة واشتط أحيانًا في رد قراءات صحيحة نقلًا وعربية موافقة للرسم، وإن أمكن أن يُعتذر له بأنه أراد بيان موافقة الوجوه للعربية {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1365} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1376} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1377}.
 :::
 
 ## ملاحظات للباحثين

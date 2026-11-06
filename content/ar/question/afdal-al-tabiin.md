@@ -17,11 +17,11 @@ provenance:
 
 ## الأقوال
 :::perspectives
-- **أهل السنة: سعيد بن المسيب (أحمد، وأهل المدينة)**: عن [[person/ahmad-ibn-hanbal|أحمد بن حنبل]]: أفضل التابعين [[person/said-ibn-al-musayyab|ابن المسيب]]، فقيل له: فعلقمة والأسود؟ قال: هو وهما. وحكى [[person/ibn-khafif|ابن خفيف الشيرازي]] أن أهل المدينة يقولون: أفضلهم ابن المسيب. {cite:tadrib-rawi-awwama-v5 p. 257} {cite:tadrib-rawi-awwama-v5 p. 258}
-- **أهل السنة: أويس القرني (أهل الكوفة، والعراقي)**: حكى ابن خفيف أن أهل الكوفة يقولون: [[person/uwais-al-qarni|أويس]]. وقال [[person/abd-al-rahim-al-iraqi|العراقي]]: الصحيح بل الصواب ما ذهب إليه أهل الكوفة، لما روى [[person/muslim-ibn-al-hajjaj|مسلم]] في صحيحه عن [[person/umar-ibn-al-khattab|عمر]] أنه سمع النبي يقول: «إن خير التابعين رجل يقال له أويس»، قال: فهذا قاطع للنزاع. {cite:tadrib-rawi-awwama-v5 p. 258} {cite:tadrib-rawi-awwama-v5 p. 260}
-- **أهل السنة: الحسن البصري (أهل البصرة)**: حكى ابن خفيف أن أهل البصرة يقولون: [[person/al-hasan-al-basri|الحسن]]، واستحسن [[person/ibn-al-salah|ابن الصلاح]] هذا التقسيم. {cite:tadrib-rawi-awwama-v5 p. 258}
+- **أهل السنة: سعيد بن المسيب ⁦(أحمد، وأهل المدينة)⁩**: عن [[person/ahmad-ibn-hanbal|أحمد بن حنبل]]: أفضل التابعين [[person/said-ibn-al-musayyab|ابن المسيب]]، فقيل له: فعلقمة والأسود؟ قال: هو وهما. وحكى [[person/ibn-khafif|ابن خفيف الشيرازي]] أن أهل المدينة يقولون: أفضلهم ابن المسيب. {cite:tadrib-rawi-awwama-v5 p. 257} {cite:tadrib-rawi-awwama-v5 p. 258}
+- **أهل السنة: أويس القرني ⁦(أهل الكوفة، والعراقي)⁩**: حكى ابن خفيف أن أهل الكوفة يقولون: [[person/uwais-al-qarni|أويس]]. وقال [[person/abd-al-rahim-al-iraqi|العراقي]]: الصحيح بل الصواب ما ذهب إليه أهل الكوفة، لما روى [[person/muslim-ibn-al-hajjaj|مسلم]] في صحيحه عن [[person/umar-ibn-al-khattab|عمر]] أنه سمع النبي يقول: «إن خير التابعين رجل يقال له أويس»، قال: فهذا قاطع للنزاع. {cite:tadrib-rawi-awwama-v5 p. 258} {cite:tadrib-rawi-awwama-v5 p. 260}
+- **أهل السنة: الحسن البصري ⁦(أهل البصرة)⁩**: حكى ابن خفيف أن أهل البصرة يقولون: [[person/al-hasan-al-basri|الحسن]]، واستحسن [[person/ibn-al-salah|ابن الصلاح]] هذا التقسيم. {cite:tadrib-rawi-awwama-v5 p. 258}
 - **أهل السنة: أقوال أخرى عن أحمد**: عنه أيضاً: لا أعلم فيهم مثل [[person/abu-uthman-al-nahdi|أبي عثمان النهدي]] و[[person/qays-ibn-abi-hazim|قيس]]، وعنه: أفضلهم قيس وأبو عثمان و[[person/alqama-ibn-qays-al-nakhai|علقمة]] و[[person/masruq-ibn-al-ajda|مسروق]]، وهؤلاء كانوا فاضلين من علية التابعين. {cite:tadrib-rawi-awwama-v5 p. 257}
-- **أهل السنة: الجمع (البلقيني)**: قال [[person/siraj-al-din-al-bulqini|البلقيني]]: الأحسن أن يقال: الأفضل من حيث الزهد والورع أويس، ومن حيث حفظ الخبر والأثر سعيد. {cite:tadrib-rawi-awwama-v5 p. 260}
+- **أهل السنة: الجمع ⁦(البلقيني)⁩**: قال [[person/siraj-al-din-al-bulqini|البلقيني]]: الأحسن أن يقال: الأفضل من حيث الزهد والورع أويس، ومن حيث حفظ الخبر والأثر سعيد. {cite:tadrib-rawi-awwama-v5 p. 260}
 :::
 
 ## كيف فُهم تفضيل أحمد لابن المسيب؟
