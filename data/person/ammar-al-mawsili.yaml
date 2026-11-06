@@ -1,0 +1,33 @@
+id: person/ammar-al-mawsili
+class: person
+label: { ar: "عمار بن علي الموصلي", en: "Ammar ibn Ali al-Mawsili", ur: "عمار بن علی موصلی" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم عمار بن علي الموصلي" }
+  - { kind: alternate, lang: en, value: "Canamusalı" }
+gender: male
+roles: [physician]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Author's own devotional purpose in Meyerhof's translated introduction11 records seeking God's reward through eye-care writing;individual Muslim basis,not name/patron inference. Sunni separately museum default docs/scope.md,no contrary personal affiliation in selected primary/complete TDV;not documented personal madhhab or inference from Fatimid patron."
+    sources: [source/meyerhof-ammar-1937, source/tdv-ammar-b-ali]
+summary:
+  ar: "طبيب عين من الموصل عمل بمصر وصاحب المنتخب؛ يروي صنع إبرة مجوفة، ودعوى النجاح والأولوية تبقى منسوبة إليه {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 pp19-20}."
+  en: "Mosul-born eye physician active in Egypt,author of al-Muntakhab;reported making a hollow needle,with priority/success claims remaining attributed {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 pp19-20}."
+  ur: "موصل کے ماہر چشم،مصر میں سرگرم،المنتخب کے مصنف؛کھوکھلی سوئی بنانے،اولیت و کامیابی کے دعوے انہی سے منسوب {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 pp19-20}۔"
+wings: [people]
+regions: [egypt-nile, levant-iraq]
+themes: [medicine]
+periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: born_in, target: place/mosul, sources: [source/tdv-ammar-b-ali] }
+  - { type: lived_in, target: place/cairo, sources: [source/tdv-ammar-b-ali] }
+inventions:
+  - invention: invention/ammar-hollow-cataract-needle
+    role: describer
+    note: "First-person manufacture/priority account preserved,not independent universal priority/efficacy certificate."
+    sources: [source/meyerhof-ammar-1937, source/tdv-ammar-b-ali, source/leffler-cataract-aspiration-2017]
+sources: [source/tdv-ammar-b-ali, source/meyerhof-ammar-1937, source/leffler-cataract-aspiration-2017]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b69", source: "Actual TDV/selected translated primary and modern scholarly disagreement;no invented exact birth/death dates or personal school." }
