@@ -1,0 +1,95 @@
+id: invention/balance-of-wisdom
+class: invention
+label: { ar: "ميزان الحكمة عند الخازني", en: "Al-Khazini's balance of wisdom", ur: "الخازنی کا میزان الحکمہ" }
+names:
+  - { value: "الميزان الجامع", kind: alternate, lang: ar }
+  - { value: "Mizan al-hikma", kind: alternate, lang: en }
+summary:
+  ar: "ميزان مائي دقيق وصفه عبد الرحمن الخازني في515/1121–1122 لخزانة سنجر بمرو؛ تحسين لموازين سابقة، وخاصة معايرة العارضة لمواد وسوائل مختلفة، لا اختراع الوزن أو الطفو {cite:khazini-hall-dsb Kitab Mizan al-Hikma; Al-Khazini and the Science of Weights in Islam}."
+  en: "A refined hydrostatic balance described in515/1121–1122 for Sanjar's treasury at Merv, particularly improving beam calibration for different substances and liquids; not invention of weighing or buoyancy {cite:khazini-hall-dsb Kitab Mizan al-Hikma; Al-Khazini and the Science of Weights in Islam}."
+  ur: "مرو میں سنجر کے خزانے کے لیے515/1121–1122 میں بیان کردہ بہتر آبی میزان، خصوصاً مختلف مادوں اور مائعات کے لیے ڈنڈی کی درجہ بندی؛ وزن یا اچھال کی ایجاد نہیں {cite:khazini-hall-dsb Kitab Mizan al-Hikma; Al-Khazini and the Science of Weights in Islam}۔"
+domain: optics-physics
+kind: instrument
+disciplines: [engineering, mathematics]
+wings: [objects, ideas]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1121/1122"
+    hijri: "0515"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Hall's explicit515 AH/1121–1122 pair dates the treatise written for Sanjar's treasury. Not an exact manufacture date, an autograph date or the date of LJS386; Julian is the museum convention for this pre1582 year-level record."
+    sources: [source/khazini-hall-dsb]
+  status_today: replaced
+origin:
+  place: place/merv
+  context:
+    ar: "الرعاية السلجوقية وخزانة سنجر في مرو؛ ينفي هول وجود دليل على عمل الخازني ببغداد {cite:khazini-hall-dsb biography}."
+    en: "Seljuq patronage and Sanjar's treasury at Merv; Hall finds no evidence of work in Baghdad {cite:khazini-hall-dsb biography}."
+    ur: "مرو کی سلجوقی سرپرستی اور سنجر کا خزانہ؛ ہال کو بغداد میں کام کرنے کی شہادت نہیں ملتی {cite:khazini-hall-dsb biography}۔"
+makers:
+  - person: person/al-khazini
+    role: improver
+    place: place/merv
+    note: "Further refinement and calibration of inherited hydrostatic balances. Muslim basis is the author's own preface; Sunni is the explicitly labelled museum default, not personal school attestation."
+    sources: [source/khazini-hall-dsb, source/khazini-khanikoff-1859]
+attribution:
+  status: improvement
+  claim:
+    ar: "تحسين ميزان مائي سابق ومعايرته، لا أول ميزان ذي خمس كفف ولا أول نظرية للثقل."
+    en: "Refinement and calibration of an earlier hydrostatic balance, not the first five-pan balance or theory of weight."
+    ur: "پہلے آبی میزان کی بہتری اور درجہ بندی، پانچ پلڑوں کے پہلے میزان یا ثقل کے نظریے کی ایجاد نہیں۔"
+  basis:
+    ar: "ينسب هول اللسان إلى الرازي والكفتين المتحركتين إلى الإسفزاري، ثم يرجح أن تحسين الخازني تركز في علامات الكثافة لمواد وسوائل مرجعية متعددة {cite:khazini-hall-dsb Al-Khazini and the Science of Weights in Islam}."
+    en: "Hall credits the indicator tongue to al-Razi and movable pans to al-Asfizari, identifying al-Khazini's further work chiefly with calibration marks for substances and multiple reference liquids {cite:khazini-hall-dsb Al-Khazini and the Science of Weights in Islam}."
+    ur: "ہال اشارے کی زبان رازی اور متحرک پلڑے اسفزاری سے منسوب کرتے ہیں؛ الخازنی کا مزید کام بالخصوص مادوں اور متعدد مرجعی مائعات کے نشانات تھا {cite:khazini-hall-dsb Al-Khazini and the Science of Weights in Islam}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "الموازين المائية من أرخميدس إلى الرازي", en: "Hydrostatic balances from Archimedes to al-Razi", ur: "ارشمیدس سے رازی تک آبی میزان" }
+    note: "Historical lineage reported in the treatise and analysed by Hall; not an independently verified account of every ancient priority claim."
+    sources: [source/khazini-hall-dsb]
+  - external: { ar: "الكفتان المتحركتان عند الإسفزاري", en: "Al-Asfizari's two movable pans", ur: "اسفزاری کے دو متحرک پلڑے" }
+    note: "Immediate predecessor; five pans and calibration were not created from nothing by al-Khazini."
+    sources: [source/khazini-hall-dsb]
+dependents:
+  - external: { ar: "النسخ المخطوطة والتلقي الموسوعي", en: "Manuscript copies and encyclopedic reception", ur: "مخطوطاتی نقول اور موسوعاتی پذیرائی" }
+    note: "Textual reception, not a demonstrated operational lineage to modern analytical balances."
+    sources: [source/khazini-hall-dsb, source/penn-ljs386-balance]
+spread: []
+impact:
+  fields: [optics-physics, materials-industry]
+  changed:
+    ar: "ربط فحص المعادن والأحجار بالوزن في الهواء والسائل ومواضع كفف معايرة؛ تحليل سبيكة ثنائية يفترض معرفة المكونين وتقارب جمع الحجوم {cite:khazini-hall-dsb The Balance of Wisdom}."
+    en: "Related metal and gem testing to air/liquid weighing and calibrated pan positions; binary-alloy analysis assumes known constituents and approximately additive volumes {cite:khazini-hall-dsb The Balance of Wisdom}."
+    ur: "دھات و جواہر کی جانچ کو ہوا و مائع میں وزن اور درجہ بند پلڑوں کے مقامات سے جوڑا؛ دو جزوی آمیزے میں معلوم اجزا اور تقریباً جمع پذیر حجم فرض ہیں {cite:khazini-hall-dsb The Balance of Wisdom}۔"
+  history:
+    ar: "حفظ الكتاب أوصافاً ونصوصاً لعلم الوزن السابق، واستُخدم في موسوعات لاحقة؛ لا يثبت هول مدرسة مستمرة من صناع هذا الميزان {cite:khazini-hall-dsb Al-Khazini and the Science of Weights in Islam}."
+    en: "Preserved earlier weighing texts and designs and supplied later encyclopedias; Hall does not establish a continuing school of instrument practitioners {cite:khazini-hall-dsb Al-Khazini and the Science of Weights in Islam}."
+    ur: "پہلے علم وزن کے متون و آلات محفوظ کیے اور بعد کی موسوعات کا ماخذ بنا؛ ہال مسلسل کاریگر مکتب ثابت نہیں کرتے {cite:khazini-hall-dsb Al-Khazini and the Science of Weights in Islam}۔"
+  significance: 4
+  why: "A detailed, historically contextualized instrument treatise uniting calibration, hydrostatic testing and earlier technical literature; sensitivity claims remain attributed and direct modern transmission unproved."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "شاهد مخطوط على تقنيات الوزن: النسخة LJS386 غير مؤرخة ويقدرها فهرس بنسلفانيا بين1250؟ و1350؟ {cite:penn-ljs386-balance Origin; Summary}."
+    en: "A manuscript witness to weighing techniques: Penn estimates the undated LJS386 copy at1250?–1350? {cite:penn-ljs386-balance Origin; Summary}."
+    ur: "علم وزن کی مخطوطاتی شہادت: پین غیر مؤرخ LJS386 کو1250؟ تا1350؟ قرار دیتا ہے {cite:penn-ljs386-balance Origin; Summary}۔"
+  descendants:
+    ar: "التلقي النصي مثبت؛ لا تُرسم هنا سلسلة مباشرة إلى موازين المختبرات الحديثة {cite:khazini-hall-dsb Al-Khazini and the Science of Weights in Islam}."
+    en: "Textual reception is documented; no direct chain to modern laboratory balances is asserted {cite:khazini-hall-dsb Al-Khazini and the Science of Weights in Islam}."
+    ur: "متنی پذیرائی ثابت ہے؛ جدید تجربہ گاہی میزان تک براہ راست سلسلے کا دعویٰ نہیں {cite:khazini-hall-dsb Al-Khazini and the Science of Weights in Islam}۔"
+media: { image: media/khazini-balance-ljs386, diagram: media/diagram-balance-of-wisdom }
+kids:
+  ar: "تخيل جسمين متساويين في الوزن لكنهما مختلفان في الحجم. حين يغمران في الماء يختلف مقدار ما يسنده الماء منهما. استعمل الميزان هذه المقارنة لمعرفة المواد؛ الرسم القديم دليل على التصميم، لا صورة آلة باقية."
+  en: "Imagine two objects of equal weight but different volume. Water supports them by different amounts. The balance used that comparison to investigate materials; the old drawing records a design, not surviving hardware."
+  ur: "برابر وزن مگر الگ حجم کی دو چیزیں سوچیں۔ پانی انہیں مختلف مقدار میں سہارا دیتا ہے۔ میزان نے اسی موازنے سے مادے پرکھے؛ پرانا خاکہ ڈیزائن کی شہادت ہے، باقی اصل آلے کی تصویر نہیں۔"
+sources: [source/khazini-hall-dsb, source/khazini-khanikoff-1859, source/penn-ljs386-balance]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b24", source: "Hall biography and technical balance sections; visually read1859 pp1,3–4; actual Penn catalogue/licence and fol80v image. No complete primary treatise, original hardware, modern replication or direct modern lineage claimed" }
