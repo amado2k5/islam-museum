@@ -11,5 +11,5 @@ translators: []
 تذكر طبقات الفقهاء أنه رحل مع [[person/al-shafii|الشافعي]] إلى مصر ولزمه حتى مات، وأنه أخذ عن [[person/sufyan-ibn-uyayna|ابن عيينة]]. {cite:tabaqat-fuqaha-abbas-1981}
 
 ## وفاته
-توفي سنة 219هـ (834م) بحسب الموسوعة. {cite:mawsuat-a3lam-ulama-adaba p.284}
+توفي سنة 219هـ ⁦(834م)⁩ بحسب الموسوعة. {cite:mawsuat-a3lam-ulama-adaba p.284}
 

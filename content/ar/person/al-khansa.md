@@ -10,7 +10,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-
 
 ويذكر المسعودي أن الأصمعي تمثّل بها عند الرشيد في خبر سباق الخيل بالرقة. {cite:muruj-al-dhahab p. 350}
 
-## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+## من سلسلة شرح الحكم العطائية ⁦(عمر عبد الكافي)⁩
 يروي عمر عبد الكافي أن الخنساء حرّضت بنيها الأربعة على القتال والاستشهاد، فلما بلغها أنهم قُتلوا حمدت الله الذي شرّفها بقتلهم، ورجت أن يجمعها بهم في مستقر رحمته. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:19:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:20:00}
 
 ## في «أعلام النساء» لكحالة
