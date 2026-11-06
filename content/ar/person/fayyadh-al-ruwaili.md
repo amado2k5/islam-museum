@@ -7,7 +7,7 @@ translators: []
 
 ## ملخص
 
-فياض الرويلي (وُلد سنة 1958) ضابط عام في القوات الجوية الملكية السعودية، يرأس هيئة الأركان العامة للقوات المسلحة السعودية منذ شباط 2018 {cite:wikipedia-fayyadh-al-ruwaili-en} {cite:wikipedia-fayyadh-al-ruwaili-ar}.
+فياض الرويلي ⁦(وُلد سنة 1958)⁩ ضابط عام في القوات الجوية الملكية السعودية، يرأس هيئة الأركان العامة للقوات المسلحة السعودية منذ شباط 2018 {cite:wikipedia-fayyadh-al-ruwaili-en} {cite:wikipedia-fayyadh-al-ruwaili-ar}.
 
 ## حياته
 
