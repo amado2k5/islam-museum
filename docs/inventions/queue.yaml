@@ -1688,16 +1688,18 @@ candidates:
     flags: [textual-description-not-authenticated-original, urethral-drill-not-bladder-forceps, priority-and-later-lineage-attributed, historical-account-not-clinical-instructions]
   - id: cataract-hollow-needle
     label: "The hollow cataract needle attributed to Ammar al-Mawsili"
-    state: "[~]"
+    state: "[x]"
     batch: 2
     domain: medicine-surgery
     era: abbasid-golden
     from: founder-supplied-lead
+    invention: invention/ammar-hollow-cataract-needle
+    records: ["person/ammar-al-mawsili"]
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - "Max Meyerhof, ed. and trans., Las operaciones de catarata de ʻAmmār ibn ʻAlī al-Mausilī: The cataract operations of ʻAmmār ibn ʻAlī al-Mawsilī (Masnou: Laboratorios del Norte de España, 1937), pp. 19–21; Internet Archive item b31363337_0002 (primary edition; Spanish translation visually checked)"
       - "Encyclopaedia of Islam THREE, “ʿAmmār b. ʿAlī al-Mawṣilī,” reportedly 2 (2008): 92–93; accessible third-party extract used as a lead only, official access not verified"
-    flags: [verify-maker-faith-and-tradition, verify-priority-against-earlier-surgery, compare-arabic-facsimile-with-translation]
+    flags: [completed-D110-b69, author-devotional-purpose-individual-Muslim-basis, Sunni-separate-museum-default-not-patron-inference, selected-Spanish-primary-not-Arabic-collation, first-person-priority-and-success-attributed, academic-skepticism-visible-no-verdict, couching-cases-not-all-aspiration, Tiberias-Baghdad-variant-retained, text-transmission-not-modern-device-genealogy, no-clinical-instructions, modern-anatomy-context-not-original-needle]
   - id: museum-record-concept-anatomy
     label: "Museum lead for Anatomy"
     state: "[~]"

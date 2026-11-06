@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.3.0 — 2026-11-06
 
 ### Added
+- Invention69: Ammar al-Mawsili's described hollow cataract needle, with full Arabic/English/Urdu text and a sourced maker biography. The author's claims, manuscript variants and later historians' doubts stay distinct; a modern licensed anatomy image supplies context, not an original needle, and the historical account gives no surgical instructions.
 - Invention68: al-Khujandi's Fakhri sextant at Rayy, fully in Arabic/English/Urdu with its maker linked. The original printed account, differing numerical witnesses and Biruni's stability criticism stay visible: a finer scale is not guaranteed accuracy, and the modern geometry image is not a reconstruction or a nautical sextant plan.
 - Invention67: Taqi al-Din's seconds-reading astronomical mechanical clock, fully in Arabic/English/Urdu with preserved maker links. Earlier European clocks remain visible, seconds display is distinguished from measured accuracy, and the modern icon is not presented as a surviving Ottoman clock.
 - Invention66: al-Kashi's plate of conjunctions, with full Arabic/English/Urdu explanation and preserved maker biography. The linear-interpolation instrument is distinct from his plate of heavens, sine and circumference work; hypothetical modern numbers explain the task without claiming original graduations, global priority or software ancestry.
