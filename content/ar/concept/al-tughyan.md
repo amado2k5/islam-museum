@@ -20,6 +20,6 @@ translators: []
 يرى أن المسلمين الجائعين في المخيمات الذين لا تصلهم المساعدات قد سرق الأغنياء حقوقهم، وأن الغني الذي يلقي فائض طعامه في النفايات ولا يعطي الفقير حقه طغى بماله، وهذا رأيه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:07:30} ويختم بالدعوة ألا يكون المرء طاغية في بيته ولا مع زوجته وأولاده وجيرانه والعاملين معه، ولا مع الشعب الذي ولي أمره. {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:10:30}
 
 :::perspectives
-- **رأي المتكلم (رأيه ووعظه):** الطغيان على الضعفاء يستدعي تدخل السماء، وللطغاة طفولة بائسة، والأغنياء الذين لا يعطون الفقراء حقوقهم طغوا بأموالهم. {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:07:00}
+- **رأي المتكلم ⁦(رأيه ووعظه)⁩:** الطغيان على الضعفاء يستدعي تدخل السماء، وللطغاة طفولة بائسة، والأغنياء الذين لا يعطون الفقراء حقوقهم طغوا بأموالهم. {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:07:00}
 - **الرأي الأكاديمي:** لم يُوثَّق بعد بمصدر.
 :::

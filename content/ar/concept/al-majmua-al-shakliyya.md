@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-يعرّف طارق السويدان «المجموعة الشكلية» (nominal group technique) بأنها طريقة لإدارة الاجتماعات ابتكرتها جامعة ويسكونسن حين أخضعت أكثر من عشرة آلاف اجتماع لأبحاث دكتوراه لمعرفة ما يضيّع الوقت؛ وتنقل الدراسات عنده أنها تعطي أربعة أضعاف نتائج الطريقة العادية في ربع وقتها — أي أحسن منها بست عشرة مرة — وأن النسخة المدرَّسة الآن هي المعدَّلة (revised nominal group) (needs_source للأرقام) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:50:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:51:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:52:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:53:00}.
+يعرّف طارق السويدان «المجموعة الشكلية» (nominal group technique) بأنها طريقة لإدارة الاجتماعات ابتكرتها جامعة ويسكونسن حين أخضعت أكثر من عشرة آلاف اجتماع لأبحاث دكتوراه لمعرفة ما يضيّع الوقت؛ وتنقل الدراسات عنده أنها تعطي أربعة أضعاف نتائج الطريقة العادية في ربع وقتها — أي أحسن منها بست عشرة مرة — وأن النسخة المدرَّسة الآن هي المعدَّلة (revised nominal group) ⁦(needs_source للأرقام)⁩ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:50:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:51:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:52:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:53:00}.
 وسُمّيت شكلية لأن الناس جالسون على مقاعدهم بلا نقاش — وهو سرّ فعاليتها {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:02:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:08:30}.
 
 ## خطواتها الخمس

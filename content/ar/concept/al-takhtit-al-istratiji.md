@@ -12,7 +12,7 @@ translators: []
 ويضيف أن المسؤول عن التخطيط الاستراتيجي جهازُ التخطيط، بينما المسؤول عن التشغيلية الإدارةُ أو القسم نفسه {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:10:00}.
 
 ## طرق التخطيط الاستراتيجي
-يذكر السويدان أن للتخطيط الاستراتيجي ثلاث عشرة طريقة علمية معروفة، منها التخطيط بالسيناريو وPMSP و«منافسة للمستقبل» وسوات (SWOT) وطريقة فايفر، وأن 87% من خطط العالم تُكتب بسوات لأن الناس لا يعرفون غيرها، وأن 70% من الخطط الاستراتيجية المكتوبة بسوات فشلت (needs_source: النسبتان كما أوردهما المحاضر) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:10:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:36:30}.
+يذكر السويدان أن للتخطيط الاستراتيجي ثلاث عشرة طريقة علمية معروفة، منها التخطيط بالسيناريو وPMSP و«منافسة للمستقبل» وسوات (SWOT) وطريقة فايفر، وأن 87% من خطط العالم تُكتب بسوات لأن الناس لا يعرفون غيرها، وأن 70% من الخطط الاستراتيجية المكتوبة بسوات فشلت ⁦(needs_source: النسبتان كما أوردهما المحاضر)⁩ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:10:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:36:30}.
 ويعرض طريقة فايفر من كتاب Applied Strategic Planning معدّلةً بخبرته العملية، وأول خطواتها «التخطيط للتخطيط»: تشكيل فريق من خمسة إلى سبعة فيهم من يفهم صلب العمل والمنافسين والمالية وتقنية المعلومات والموارد البشرية والتسويق والتخطيط {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:12:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:15:30}.
 
 ## قواعد عنده
