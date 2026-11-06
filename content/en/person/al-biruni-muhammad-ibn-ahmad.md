@@ -12,6 +12,7 @@ provenance:
   source: "source/qanun-masudi-jundi-v1 editor's introduction scan pp. 12–25, 43; title page p. 2; preface p. 81; source/mawsuat-a3lam-ulama-adaba; source/kashf-zunun-furqan"
   translator_of: content/ar/person/al-biruni-muhammad-ibn-ahmad.md
   extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b48", source: "English of new Arabic difference-interpolation section; original Claude translation/front matter/body retained" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "English translation of new Arabic mountain-method/identity sections from actual primary translation/Britannica/TDV; prior Claude translation/authorship retained" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b39", source: "English translation of new Arabic displacement-vessel section from actual Khanikoff/Ansari/Yassi selected passages; prior Claude translation/authorship retained" }
 ---
@@ -50,3 +51,7 @@ The *Balance of Wisdom* describes [[invention/biruni-displacement-vessel|al-Biru
 Britannica explicitly calls him Muslim, and Günay Tümer discusses his Islamic commitment: that is the identity basis, not his name or birthplace. Sunni reading first: Tümer challenges a settled Shia classification based on Qabus's patronage or criticism of Arab chauvinism, noting his Sunni Ghaznavid context and criticism of some Shia/Batini positions. The museum's Sunni frame is explicit, not decisive personal self-testimony. {cite:britannica-al-biruni} {cite:tdv-biruni-tumer religious-affiliation discussion}
 
 Other classifications reported by Tümer: Abdullah Ni'me identifies al-Biruni as Shia, and Taqi Danishpazhuh as at least Zaydi. This research has not read their original arguments. It displays the disagreement through the source actually read, without a verdict or inference from a patron's affiliation; the person record's perspectives label the readings. {cite:tdv-biruni-tumer religious-affiliation discussion}
+
+## Differences in table use
+
+The [[invention/biruni-difference-interpolation|difference-adjusted interpolation]] entry explains his particular Qanun procedure: customary and refined direct/inverse lookup, followed by generalization to tables {cite:qanun-masudi-jundi-v1 scan pp.321–324,339–340}. This is not invention of all interpolation. Earlier Indian methods remain in the history; Rashed's abstract reports four methods available to al-Biruni and al-Samaw'al's later comparisons, without our claiming full-article reading {cite:meijering-interpolation-2002 II.B–II.C} {cite:rashed-interpolation-1991 abstract}. The modern unpacking is not necessarily the parabola through three samples or universally more accurate. The page's public-domain picture is a modern comparison, not manuscript evidence or proof of modern differential calculus {cite:qanun-masudi-jundi-v1 scan pp.322–323,339–340} {cite:commons-quadratic-interpolation code,rights}.

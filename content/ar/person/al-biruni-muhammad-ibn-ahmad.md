@@ -11,6 +11,7 @@ provenance:
   run: ocr-harvest-2026-11-04
   source: "source/qanun-masudi-jundi-v1 editor's introduction scan pp. 12–25, 43; title page p. 2; preface p. 81; source/mawsuat-a3lam-ulama-adaba; source/kashf-zunun-furqan"
   extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b48", source: "Added difference-interpolation section from actual selected Arabic Qanun/scan inspection and Meijering/Rashed abstract; all prior body/front matter and attribution retained" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "Added mountain-method/identity sections from actual Jamil Ali translation preface/183–189, Britannica and TDV; prior Claude prose/authorship retained" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b39", source: "Added displacement-vessel section from actual Khanikoff53–57 and54 image/Ansari selected198–205/Yassi selected reconstruction passages; all previous biography retained" }
 ---
@@ -49,3 +50,7 @@ provenance:
 تسميه بريتانيكا عالماً مسلماً، ويناقش غوناي تومر التزامه بالإسلام؛ هذه قاعدة الهوية، لا الاسم أو موطنه. في القراءة السنية أولاً، يعارض تومر الجزم بتشيعه من رعاية قابوس أو نقد التعصب للعرب، ويذكر محيطه الغزنوي السني ونقده بعض المواقف الشيعية والباطنية. الإطار السني في المتحف معلن، وليس شهادة ذاتية فاصلة من العالم. {cite:britannica-al-biruni} {cite:tdv-biruni-tumer religious-affiliation discussion}
 
 وفي التصنيفات الأخرى التي ينقلها تومر: ينسب عبد الله نعمة البيروني إلى التشيع، ويقول تقي دانش پژوه إنه زيدي على الأقل. لم يقرأ هذا البحث أصلي كلامهما، ويعرض الخلاف عبر المصدر المقروء دون الحكم فيه أو استنتاج عقيدة شخص من عقيدة راعيه. تظهر القراءات المسماة في كتلة المنظورات بسجله. {cite:tdv-biruni-tumer religious-affiliation discussion}
+
+## الفروق في استعمال الجداول
+
+تشرح بطاقة [[invention/biruni-difference-interpolation|تعديل الفروق في الاستيفاء]] عمله المحدد في القانون: يميز بين استخراج الجيب والتقويس المعهودين وتدقيقهما بالفروق المتغيرة، ثم يعمم الإجراء على الجداول {cite:qanun-masudi-jundi-v1 scan pp.321–324,339–340}. ليس هذا اختراع الاستيفاء كله؛ يحتفظ التاريخ بالطرق الهندية السابقة، ويذكر ملخص راشد أربع طرق عرفها البيروني ومقارنات السموأل اللاحقة، دون أن تكون قراءة الملخص قراءة لكامل المقال {cite:meijering-interpolation-2002 II.B–II.C} {cite:rashed-interpolation-1991 abstract}. الصياغة التعليمية الحديثة لا تطابق بالضرورة القطع المكافئ المار بثلاث عينات، ولا تضمن دقة أعلى في كل حالة؛ صورة الصفحة مقارنة حديثة مهداة للملك العام وليست مخطوطاً أو دليلاً على حساب تفاضلي حديث {cite:qanun-masudi-jundi-v1 scan pp.322–323,339–340} {cite:commons-quadratic-interpolation code,rights}.

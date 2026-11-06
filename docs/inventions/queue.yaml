@@ -4670,15 +4670,16 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: museum-record-concept-istikmal-interpolation
     label: "Museum lead for Al-Biruni's law of interpolation (istikmal)"
-    state: "[~]"
+    state: "[x]"
+    invention: invention/biruni-difference-interpolation
     batch: 3
-    domain: modern-science
+    domain: mathematics
     era: abbasid-golden
     from: museum
     records: ["concept/istikmal-interpolation"]
     lead_sources:
       - "data/concept/istikmal-interpolation.yaml"
-    flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+    flags: [bounded-changing-difference-method, earlier-indian-methods-retained, not-standard-modern-parabola, debated-affiliation-labelled]
   - id: museum-record-concept-muanan
     label: "Museum lead for Mu'an'an (chain linked by 'from')"
     state: "[~]"
