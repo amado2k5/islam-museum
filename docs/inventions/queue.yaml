@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: zahrawi-dental-scrapers
+    label: "Al-Zahrawi's differentiated dental scrapers"
+    state: "[x]"
+    batch: 2
+    domain: medicine-surgery
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-zahrawi", "source/zahrawi-spink-lewis-1973"]
+    invention: invention/zahrawi-dental-scrapers
+    lead_sources:
+      - "source/zahrawi-spink-lewis-1973 surgical Book2 chapter29, actual selected272–275"
+      - "source/zahrawi-leclerc-chirurgie-1861 chapter29, actual97–98 images; figure54 reference, plate not inspected"
+    flags: [completed-D082-b42, differentiated-description-not-first-dentistry, figure54-vs65-edition-specific, contextual-image-not-authenticated-scrapers, no-treatment-instructions-or-modern-instrument-genealogy, earlier-two-maker-ties-retained]
   - id: karaji-qanat-surveying
     label: "Al-Karaji's levelling and tunnel-alignment methods"
     state: "[x]"

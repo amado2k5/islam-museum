@@ -1,5 +1,13 @@
 # Muslim Inventions Browser: research method
 
+## Invention42 audit — al-Zahrawi's differentiated dental scrapers (D-082,6 November2026)
+
+Actual public865-page Spink/Lewis1973 Archive reader/full text opened sequentially through shared browser, no API/curl/borrow. Selected surgical Book2 chapter29 translated272/274, editorial272 read; printed272 and Arabic275 visually inspected. Actual chapter29, not search's28 or encyclopedia book29; surgery is encyclopedia book30. Figure65 in this edition, Marsh smooth handles versus Huntington fluted/serrated handles described by editors. Hypothetical handedness and classical-originality assessment remain attributed, not original explicit instructions or worldwide-first verdict. Title/imprint first published1973/copyright1972, Wellcome Institute, London. No whole-book/manuscript-collation claim.
+
+Existing Leclerc1861 selected chapter29 read, printed97–98 visually checked at PDF125–126. Crucial figure reference is **54**, not uncertain OCR56 or1973's65. Actual1861 plate not located; rendered379–380 blank, not inspected plates. Later-copy Commons PD contextual image reinspected: five other instruments, not authenticated scrapers. Reuse explicitly contextual, no new copyrighted1973 plate in public media. All source PDFs/OCR/images outside git.
+
+Specific linked tool family, not each blade counted separately; earlier stone drill and intestinal filament contributions retained. Existing individual Muslim basis and separate Sunni default preserved, as are original attribution/biography. Sourced near390/1000 compilation context, not exact first treatment. Form/function and textual transmission only: no patient positioning, scraping movements, treatment schedules, chemicals, construction, self-treatment or modern instrument pedigree. Paper-only comparison of imaginary silhouettes/name/function cards, no oral contact or sharp tools. Three new entities, full17-section trilingual accounts, non-impacting content only. Broad surgical-tools umbrella remains held. Tests/build skipped by founder; never deploy.
+
 ## Invention41 audit — Karaji surveying (D-081,6 November2026)
 
 Actual existing HESS2020 PDF now read761–769, all sections/figure captions/references, extending earlier identity762 only. Section3 pre-existing qanats versus4 levelling/sighting/handover/maintenance; English quoted primary through1966 Persian, not independently read translation. Modern head/permeability/first-manual/European-comparison readings remain attributed, not Darcy/germ theory or global priority. Do not copy erroneous al-Razi contemporaneity, exact unsupported lifedates, historic water-treatment advice or blanket first hydrology.

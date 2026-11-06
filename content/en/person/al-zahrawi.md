@@ -4,7 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code (model unknown), from Arabic"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "Batch22 biography/sources preserved; added only intestinal-filament section from actual Leclerc1861 and Majeed2005" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "Batch22 biography/sources preserved; added only intestinal-filament section from actual Leclerc1861 and Majeed2005", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b42", source: "Added dental-scraper section from selected actual chapter29/images; prior text, identity and attribution retained" }] }
 ---
 ## Summary
 
@@ -36,6 +36,10 @@ Surgical chapter87 describes [[invention/zahrawi-intestinal-suture|animal-intest
 
 TDV discusses Gerard of Cremona's Latin surgical translation, later European editions and Guy de Chauliac's use; it also records Channing's Arabic-Latin edition in 1778, Leclerc's French translation in 1861 and Spink/Lewis's Arabic-English edition in 1973 {cite:tdv-zehravi pp. 189–191} {cite:tdv-tasrif-zehravi pp. 132–133}. It separates Hebrew translations of portions and pharmaceutical transmission from this surgical route, and describes Sabuncuoglu's Turkish work presented in 1465 as an adaptation with observations and additions, not a literal copy {cite:tdv-tasrif-zehravi pp. 132–133}. Translators and revisers thus remain in the story; circulation of the book does not establish unchanged circulation of every instrument {cite:tdv-tasrif-zehravi pp. 132–133}.
 
+## Differentiated dental scrapers
+
+Book Two of the surgery, chapter29, distinguishes [[invention/zahrawi-dental-scrapers|dental scrapers]] for inner, outer and interdental surfaces; Spink and Lewis present forms from the manuscript tradition {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. Leclerc's corresponding97–98 visibly references figure54 on98, whereas the1973 collection is figure65: the editions' numbers must not be conflated {cite:zahrawi-leclerc-chirurgie-1861 ch.29 pp.97–98} {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. This documents specialization, not worldwide priority for all tooth cleaning or a clinical specification; the1973 originality assessment remains the editors' interpretation {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 p.272 commentary}.
+
 ## References
 
 - [[source/tdv-zehravi|Esin Kahya, al-Zahrawi]], pp 189–191: biography, witnesses and court-service limits.
@@ -43,3 +47,4 @@ TDV discusses Gerard of Cremona's Latin surgical translation, later European edi
 - [[source/alzahrawi-stones-abdelhalim-2003|Abdel-Halim and colleagues]], pp 1283–1291: translation and commentary, not independent manuscript examination.
 - [[source/zahrawi-leclerc-chirurgie-1861|Leclerc1861]], chapter87,207–211: inherited suturing, filaments and experimental caveat.
 - [[source/majeed-islam-medicine-2005|Majeed2005]],1486–1487: modern medical-history summary.
+- [[source/zahrawi-spink-lewis-1973|Spink and Lewis1973]], Book2, chapter29,272–275: scrapers and commentary; Leclerc97–98 for the corresponding chapter.
