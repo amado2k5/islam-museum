@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-عبد الله بن جاسم آل ثاني، أبو علي (وُلد في الدوحة في 11 فبراير 1880 – توفي في 25 أبريل 1957)، أمير قطر من 1913 إلى 1949 وابن جاسم بن محمد مؤسس الدولة، ويسميه صدر المقالة الإنجليزية أيضًا عبد الله بن قاسم آل ثاني. {cite:wikipedia-abdullah-bin-jassim-al-thani-en} {cite:wikipedia-abdullah-bin-jassim-al-thani-ar} شهد عهده المعاهدة مع بريطانيا سنة 1916 وأول امتياز نفطي سنة 1935 واكتشاف النفط في دخان سنة 1940، وتنازل مرتين قبل أن يعتزل نهائيًا لابنه علي. {cite:wikipedia-abdullah-bin-jassim-al-thani-en}
+عبد الله بن جاسم آل ثاني، أبو علي ⁦(وُلد في الدوحة في 11 فبراير 1880 – توفي في 25 أبريل 1957)⁩، أمير قطر من 1913 إلى 1949 وابن جاسم بن محمد مؤسس الدولة، ويسميه صدر المقالة الإنجليزية أيضًا عبد الله بن قاسم آل ثاني. {cite:wikipedia-abdullah-bin-jassim-al-thani-en} {cite:wikipedia-abdullah-bin-jassim-al-thani-ar} شهد عهده المعاهدة مع بريطانيا سنة 1916 وأول امتياز نفطي سنة 1935 واكتشاف النفط في دخان سنة 1940، وتنازل مرتين قبل أن يعتزل نهائيًا لابنه علي. {cite:wikipedia-abdullah-bin-jassim-al-thani-en}
 
 ## النشأة
 وُلد عبد الله في الدوحة في 11 فبراير 1880، خامس ثمانية عشر أخًا وأختًا، وكنيته أبو علي كما في صندوق العربية. {cite:wikipedia-abdullah-bin-jassim-al-thani-en} {cite:wikipedia-abdullah-bin-jassim-al-thani-ar} تزوّج مريم بنت عبد الله العطية ثم فاطمة بنت عيسى آل ثاني أم ابنه حسن، وأبناؤه علي وحمد وحسن. {cite:wikipedia-abdullah-bin-jassim-al-thani-en}

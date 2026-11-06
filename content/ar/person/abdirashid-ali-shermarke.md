@@ -7,7 +7,7 @@ translators: []
 
 # عبد الرشيد علي شرماركي
 
-عبد الرشيد علي شرماركي (1919 – 15 أكتوبر 1969) سياسي صومالي، أول رئيس وزراء للجمهورية الصومالية (1960–1964) ورئيسها الثاني من 6 يوليو 1967 حتى اغتياله.{cite:source/wikipedia-abdirashid-ali-shermarke-ar}{cite:source/wikipedia-abdirashid-ali-shermarke-fr}
+عبد الرشيد علي شرماركي ⁦(1919 – 15 أكتوبر 1969)⁩ سياسي صومالي، أول رئيس وزراء للجمهورية الصومالية (1960–1964) ورئيسها الثاني من 6 يوليو 1967 حتى اغتياله.{cite:source/wikipedia-abdirashid-ali-shermarke-ar}{cite:source/wikipedia-abdirashid-ali-shermarke-fr}
 
 ## التكوين
 
@@ -23,7 +23,7 @@ translators: []
 
 ## ملاحظة عن السجل
 
-تختلف المقالات في تاريخ ولادته (8 يونيو مقابل 16 أكتوبر 1919) وفي المقالة العربية في بدء رئاسته (10 يونيو مقابل 6 يوليو 1967)؛ فاتّبع السجل المقالة الإنجليزية وحفظ الصيغ الأخرى في ملاحظاته.{cite:source/wikipedia-abdirashid-ali-shermarke-en}{cite:source/wikipedia-abdirashid-ali-shermarke-ar}
+تختلف المقالات في تاريخ ولادته ⁦(8 يونيو مقابل 16 أكتوبر 1919)⁩ وفي المقالة العربية في بدء رئاسته ⁦(10 يونيو مقابل 6 يوليو 1967)⁩؛ فاتّبع السجل المقالة الإنجليزية وحفظ الصيغ الأخرى في ملاحظاته.{cite:source/wikipedia-abdirashid-ali-shermarke-en}{cite:source/wikipedia-abdirashid-ali-shermarke-ar}
 
 أما الدين، فلا يسمي أي متن مذهبا له: فالصندوق الفرنسي يذكر أن دينه الإسلام، وتحمل ويكيداتا قيمتي الإسلام والإسلام السني على العنصر الواحد.{cite:source/wikipedia-abdirashid-ali-shermarke-fr}{cite:source/wikidata-abdirashid-ali-shermarke} والتفصيلة الدينية الوحيدة في النص الإنجليزي — دراسته في المدارس القرآنية صبيا — فهي تكوين طفولة لا شهادة.{cite:source/wikipedia-abdirashid-ali-shermarke-en} أسرة بنيوية واحدة فقط، فأُدخل دينه «غير معروف»، مع حفظ القراءة السنية في السجل.
 
