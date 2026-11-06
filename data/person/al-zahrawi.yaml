@@ -40,6 +40,18 @@ inventions:
     place: place/cordoba
     note: "Named urethral-stone drill described with a claim of personal experience in the translated chapter60; not proof of invention of surgery or all lithotripsy."
     sources: [source/alzahrawi-stones-abdelhalim-2003]
-sources: [source/tdv-zehravi, source/tdv-tasrif-zehravi, source/alzahrawi-stones-abdelhalim-2003]
+  - invention: invention/zahrawi-intestinal-suture
+    role: describer
+    place: place/cordoba
+    note: "Animal-intestinal filaments described in translated chapter87, explicitly still experimental; not invention of every suture or proof of a first operation."
+    sources: [source/zahrawi-leclerc-chirurgie-1861, source/majeed-islam-medicine-2005]
+sources: [source/tdv-zehravi, source/tdv-tasrif-zehravi, source/alzahrawi-stones-abdelhalim-2003, source/zahrawi-leclerc-chirurgie-1861, source/majeed-islam-medicine-2005]
 status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
-provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b22", source: "Complete TDV biography and work entry and full2003 translated stone chapters/commentary; no independent primary biographical manuscript examination" }
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b22"
+  source: "Complete TDV biography and work entry and full2003 translated stone chapters/commentary; no independent primary biographical manuscript examination"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "Selected Leclerc1861 chapter87, title and printed211 visually inspected; actual Majeed2005 browser article; added bounded suturing contribution, preserved prior biography/drill attribution" }
