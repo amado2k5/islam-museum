@@ -1540,12 +1540,15 @@ candidates:
     flags: [completed-D101-b60, improvement-not-discovery-of-pi, inherited-polygons-decimals-roots, 2pi-not-pi, sexagesimal-not-decimal-place-count, rounded-output-not-extra-digits, modern-finite-bounds-not-historical-transcription, no-unverified-huge-side-count, no-original-treatise-or-luckey-reading, named-islamic-mathematician-basis, separate-default-sunni-frame, original-maker-fields-attribution-occupation-retained, birth-and-observatory-chronology-uncertain, no-direct-european-transmission-certificate, separate-sine-and-key-works, modern-PD-shape-context]
   - id: combinatorics-ibn-munim
     label: "Combinatorics associated with Ibn Mun'im"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: mathematics
     era: middle-period
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "Actual Djebbar selected printed5–13,19–23 and inspected19–20", "Actual authored Arrabita biography and institutional book overview", "Inspected Rohieb2016 CC0 arithmetic triangle"]
+    invention: invention/combinatorics-ibn-munim
+    records: ["person/ibn-munim-al-abdari", "work/fiqh-hisab-ibn-munim", "source/djebbar-ibn-munim-combinatoire", "source/arrabita-ibn-munim-naqr", "source/arrabita-fiqh-hisab"]
+    flags: [completed-D103-b62, not-first-counting-or-arithmetic-triangle, al-khalil-and-karaji-predecessors, combination-permutation-repetition-distinct, no-manuscript-or-2005-edition-reading, tentative-composition-not-copy-date, no-direct-pascal-transmission, modern-CC0-context, individual-Muslim-basis-separate-default-sunni-frame, ibn-tumart-praise-attributed-not-endorsed, distinct-sicilian-namesake]
   - id: geometric-solution-of-cubics
     label: "Geometric solutions of cubic equations associated with Khayyam"
     state: "[x]"
