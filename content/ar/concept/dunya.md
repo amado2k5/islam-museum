@@ -7,22 +7,22 @@ translators: []
 ## موجز
 في دروس الشيخ عمر عبد الكافي تُشبَّه الدنيا بمتجر كبير يملأ فيه المرء عربته ثم يدفع الحساب في آخر الأمر {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:44:00}. ويرى الشيخ أن المال قد يكون من ركائز السعادة لكن السعادة نفسها لا تُشترى به {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:48:30}. ويدعو إلى قبول كل مرحلة من العمر بمزاياها وقبول طباع الناس كما هي {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:52:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:53:00}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 4)
-يشبّه الشيخ الدنيا بمتجر كبير (سوبر ماركت) يضع المرء فيه في عربته ما يشاء، ثم يدفع الحساب في آخر الأمر {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:44:00}.
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 4)⁩
+يشبّه الشيخ الدنيا بمتجر كبير ⁦(سوبر ماركت)⁩ يضع المرء فيه في عربته ما يشاء، ثم يدفع الحساب في آخر الأمر {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:44:00}.
 
 ويرى الشيخ أن المال قد يكون لونا من ألوان السعادة وركيزة من ركائز الحياة، لكن السعادة نفسها لا تُشترى بالمال، ويدعو الله أن يسعدنا بطاعته ولا يشقينا بمعصيته {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:48:30}.
 
 ويقول إن لكل مرحلة من العمر احترامها عند المسلم، فيأخذ على الشاعر تمنّيه أن يعود الشباب يوما، ويدعو إلى ألا يرجو المرء أن تعود الساعة إلى الوراء، فلكل عمر مميزاته {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:52:30}.
 
-ويضيف أن على المرء ألا يطلب من الأشياء غير طباعها، كمن يبحث عن جمرة نار داخل الماء، ويطبّق ذلك على الزواج: فمن لا تحسن زوجتها إظهار العاطفة (أو العكس) فتلك طبيعتها ويُقبل بها كما هي {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:53:00}.
+ويضيف أن على المرء ألا يطلب من الأشياء غير طباعها، كمن يبحث عن جمرة نار داخل الماء، ويطبّق ذلك على الزواج: فمن لا تحسن زوجتها إظهار العاطفة ⁦(أو العكس)⁩ فتلك طبيعتها ويُقبل بها كما هي {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:53:00}.
 
 ويروي طرفة عن زوجة خرجت مع زوجها إلى برج بعد المغرب في لحظة رومانسية، فتوقعت أن يقول لها كلمة طيبة عند رؤية القمر والجو الجميل، فسألها مازحا عن رأيها لو دفنها الآن في الرمل، فتعجبت من هذه الرومانسية (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:53:30}.
 
-## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد (الحلقة 2)
-يقول الشيخ إن الدنيا ليست دار تكريم، وإنما هي دار ابتلاء، ويصفها بأنها سجن المؤمن (رأيه)، ويستشهد بحديث يصفه بأنه صحيح (needs_source: لم يُذكر سنده في هذا المقطع) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:55:00}.
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 2)⁩
+يقول الشيخ إن الدنيا ليست دار تكريم، وإنما هي دار ابتلاء، ويصفها بأنها سجن المؤمن ⁦(رأيه)⁩، ويستشهد بحديث يصفه بأنه صحيح ⁦(needs_source: لم يُذكر سنده في هذا المقطع)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:55:00}.
 
-## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد (الحلقة 5)
-يحكي الشيخ قولا يُروى عن إنسان سُئل عن الدنيا: كيف وجدتها؟ فأجاب بأنه وجدها دارا لها بابان، دخل من أحدهما وخرج من الآخر (needs_source: لم يتضح في النص من ينسب إليه هذا القول) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:29:00}.
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 5)⁩
+يحكي الشيخ قولا يُروى عن إنسان سُئل عن الدنيا: كيف وجدتها؟ فأجاب بأنه وجدها دارا لها بابان، دخل من أحدهما وخرج من الآخر ⁦(needs_source: لم يتضح في النص من ينسب إليه هذا القول)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:29:00}.
 يستشهد الشيخ بحديث عن النبي مضمونه أن المؤمن في الدنيا غريب، لا يحزن لفقد عزّها ولا يجزع من شدّتها {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:02:00}.
 
 ## من درس الشيخ عمر عبد الكافي: الدين القيم
@@ -55,10 +55,10 @@ translators: []
 ويقول إنه لا خير في الحزن على شباب مضى، ويطرح سؤالا عن سبب ثبات الأوائل وعدم ثبات من بعدهم. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:09:00}
 
 ## رأي الشيخ: المال والزكاة
-يقول الشيخ إن 24 في المئة من فقراء العالم يعيشون في بلاد المسلمين بسبب إمساك الأغنياء عن الزكاة (needs_source: الرقم لم يُسنَد في التسجيل)، ويرى أن الثروات الكبيرة تحتاج إلى تدقيق. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:27:00}
+يقول الشيخ إن 24 في المئة من فقراء العالم يعيشون في بلاد المسلمين بسبب إمساك الأغنياء عن الزكاة ⁦(needs_source: الرقم لم يُسنَد في التسجيل)⁩، ويرى أن الثروات الكبيرة تحتاج إلى تدقيق. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:27:00}
 
-## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+## من سلسلة شرح الحكم العطائية ⁦(عمر عبد الكافي)⁩
 يذكر عمر عبد الكافي قولًا في أن يعمل الإنسان للدنيا بقدر مقامه فيها وللآخرة بقدر بقائه فيها، ويشبّه الدنيا براكب استظل تحت شجرة ثم راح وتركها. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:05:00}
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
-يرى الشيخ أن الدنيا لا تبقى على حال لأنها من الدناءة ولا يُعصى الله إلا فيها، ويروي قصة عن [[person/isa-ibn-maryam|عيسى]] والتلميذ الذي أكل رغيفًا وأنكر، ثم وجدوا ثلاث سبائك ذهب فاعترف بأكل الرغيف طمعًا فيها، فأعطاه إياها كلها، فقتله ثلاثة لصوص، ثم قتل اثنان منهم الثالث بعد أن سمّ طعامهما فماتوا جميعًا، فمر عيسى على الجثث الأربع والسبائك وقال: هكذا الدنيا تصنع بأهلها (needs_source: خبر إسرائيلي كما رواه الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:06:00} ويرى أن الدنيا قنطرة ومزرعة للآخرة لا تُكره، ويروي خبر الملك الذي بنى قصرًا وتحدى المهندسين أن يجدوا فيه عيبًا، فقال له شيخ إن فيه عيبين: خراب القصر ولو بعد حين وموت صاحبه ولو بعد حين، وقول إحدى بنات الملوك: أصبحنا وما في الأرض أحد إلا يحسدنا ويخشانا، وأمسينا وما فيها أحد إلا يرحمنا. {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:08:30} انظر: [[concept/fana-al-dunya|فناء الدنيا]].
+يرى الشيخ أن الدنيا لا تبقى على حال لأنها من الدناءة ولا يُعصى الله إلا فيها، ويروي قصة عن [[person/isa-ibn-maryam|عيسى]] والتلميذ الذي أكل رغيفًا وأنكر، ثم وجدوا ثلاث سبائك ذهب فاعترف بأكل الرغيف طمعًا فيها، فأعطاه إياها كلها، فقتله ثلاثة لصوص، ثم قتل اثنان منهم الثالث بعد أن سمّ طعامهما فماتوا جميعًا، فمر عيسى على الجثث الأربع والسبائك وقال: هكذا الدنيا تصنع بأهلها ⁦(needs_source: خبر إسرائيلي كما رواه الشيخ)⁩. {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:06:00} ويرى أن الدنيا قنطرة ومزرعة للآخرة لا تُكره، ويروي خبر الملك الذي بنى قصرًا وتحدى المهندسين أن يجدوا فيه عيبًا، فقال له شيخ إن فيه عيبين: خراب القصر ولو بعد حين وموت صاحبه ولو بعد حين، وقول إحدى بنات الملوك: أصبحنا وما في الأرض أحد إلا يحسدنا ويخشانا، وأمسينا وما فيها أحد إلا يرحمنا. {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:08:30} انظر: [[concept/fana-al-dunya|فناء الدنيا]].
