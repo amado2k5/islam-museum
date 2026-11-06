@@ -21,4 +21,4 @@ Consensus cannot abrogate or be abrogated by consensus, since consensus happens 
 
 ## عند الشيخ عمر عبد الكافي
 يستدل الشيخ بإجماع الصحابة في قتال مانعي الزكاة، ويقول إن الأحكام تؤخذ من القرآن والسنة وإجماع الصحابة. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:18:30}
-ويسأل هل أخطأ أبو بكر حين قاتل الذين منعوا الزكاة، ويذكر أن عمر وعليا وغيرهما وافقوه. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:18:30} (needs_source: القائمة الكاملة للأسماء غير واضحة في النسخة الآلية.)
+ويسأل هل أخطأ أبو بكر حين قاتل الذين منعوا الزكاة، ويذكر أن عمر وعليا وغيرهما وافقوه. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:18:30} ⁦(needs_source: القائمة الكاملة للأسماء غير واضحة في النسخة الآلية.)⁩

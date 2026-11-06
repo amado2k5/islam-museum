@@ -9,11 +9,11 @@ translators: []
 
 ## المال العام أمانة
 يرى الشيخ أن الحاكم وسيط على مال الرعية، لا مالك له، وأن المال العام لا يجوز أن يُنهب. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:15:30}
-ويستشهد بقول منسوب إلى النبي في أن الغني يستعف والفقير يأخذ بالمعروف (needs_source: الحديث لم يُسنَد في التسجيل). {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:15:30}
+ويستشهد بقول منسوب إلى النبي في أن الغني يستعف والفقير يأخذ بالمعروف ⁦(needs_source: الحديث لم يُسنَد في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:15:30}
 
 ## الهدية التي تُقدَّم للموظف
 يذكر الشيخ أن الموظف العام قد يأخذ تحت عنوان الهدية ما هو في حقيقته من قصص الرشوة. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:55:30}
-وينقل الشيخ أن في إنجلترا يُسمح بالهدايا حتى حدّ معين هو 80 جنيهًا إسترلينيًا (needs_source: الرقم لم يُسنَد في التسجيل)، وأن ما زاد على ذلك يُرد إلى الحكومة ولا يأخذه الموظف لنفسه. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:55:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:56:00}
+وينقل الشيخ أن في إنجلترا يُسمح بالهدايا حتى حدّ معين هو 80 جنيهًا إسترلينيًا ⁦(needs_source: الرقم لم يُسنَد في التسجيل)⁩، وأن ما زاد على ذلك يُرد إلى الحكومة ولا يأخذه الموظف لنفسه. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:55:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:56:00}
 
 ## رأي الشيخ في الهدايا (opinion)
 رأي الشيخ: هدايا نهاية السنة التي يقدمها التلاميذ للمعلمين قد تصير رشوة إذا قُصد بها أن يحظى صاحبها بالتفضيل. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:57:30}

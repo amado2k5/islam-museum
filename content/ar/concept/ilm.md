@@ -17,16 +17,16 @@ translators: []
 يقول الشيخ إن السعادة ليست في جمع المال، وإنما أن يعطي الله العبد علما ينتفع به {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:30:30}.
 ويوصي الشيخ بتوقير أهل العلم واحترامهم، ويذكر أن من تواضع لله رفعه {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:32:00}.
 
-## العلم في درس الشيخ عمر عبد الكافي (الحلقات الأولى والثانية والثالثة والتاسعة)
-يذكر الشيخ أن طالب العلم تعترضه ثلاث عقبات: أولها الكذب، وثانيها الحسد الذي يغلق ما بين الناس والعلم، وثالثها أن تكون الدنيا طافحة في القلب (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:01:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:04:30}
-ويقول الشيخ إن القلب يحتاج إلى درس علم كل ثلاثة أيام، وإن القلب إن ترك الدرس تعصاه الجوارح وتقتحمه الدنيا (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:25:30} ويذكر أن مجالس العلم خير، وأن الطاعة فيها قد يكون فيها رضوان الله، فلا يحتقر المؤمن منها شيئا (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:03:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:03:30}
-ويقول إن من يكثر الكلام فيما لا يعلم لا يُعلم (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:25:30} ويقول إن الجالس في حلقة العلم أفضل من الملائكة لأنه يجاهد نفسه (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:42:00}
+## العلم في درس الشيخ عمر عبد الكافي ⁦(الحلقات الأولى والثانية والثالثة والتاسعة)⁩
+يذكر الشيخ أن طالب العلم تعترضه ثلاث عقبات: أولها الكذب، وثانيها الحسد الذي يغلق ما بين الناس والعلم، وثالثها أن تكون الدنيا طافحة في القلب ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:01:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:04:30}
+ويقول الشيخ إن القلب يحتاج إلى درس علم كل ثلاثة أيام، وإن القلب إن ترك الدرس تعصاه الجوارح وتقتحمه الدنيا (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:25:30} ويذكر أن مجالس العلم خير، وأن الطاعة فيها قد يكون فيها رضوان الله، فلا يحتقر المؤمن منها شيئا ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:03:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:03:30}
+ويقول إن من يكثر الكلام فيما لا يعلم لا يُعلم ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:25:30} ويقول إن الجالس في حلقة العلم أفضل من الملائكة لأنه يجاهد نفسه ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:42:00}
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 3)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 3)⁩
 
 ينتقد الشيخ الخوض في علم لا ينفع، ويمثل له بالبحث عن اسم الذئب الذي لم يأكل ابن يعقوب، ويرى أنه دخول في موضوع لا طائل تحته {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:26:00}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 7)⁩
 
 يقول الشيخ إن الإنسان في مجلس العلم كالسمك في الماء، فحياته مضمونة ما دام في بيئته الطبيعية، وإذا بعد عنه كان الهلاك أقرب {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:30}. ويتساءل كيف يتغذى القلب في مثل هذه المجالس {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:43:30}.
 
@@ -34,20 +34,20 @@ translators: []
 
 ويقول إن المؤمن يشبه الملائكة في الصلاة، ويربط بين الأجنحة ذات المثنى والثلاث والرباع وعدد ركعات الصلوات الخمس (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:47:00}. ويرى أنه خارج الصلاة يفوق الملائكة بجلوسه يستمع إلى الخير وقد نزلت الرحمات {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:47:00}.
 
-## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد (الحلقة 5)
-يذكر الشيخ عشرة أشياء ضائعة لا ينتفع بها أصحابها، أولها علم لا يُعمل به (needs_source: النص لا يسمّي صاحب هذا التعداد بوضوح)، ويذكر أن الثانية عمل لا إخلاص فيه ولا اقتداء {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:19:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:35:30}.
-يقول الشيخ إن العلم ليس بكثرة الرواية، وإنما العلم الخشية (رأيه) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:20:00}.
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 5)⁩
+يذكر الشيخ عشرة أشياء ضائعة لا ينتفع بها أصحابها، أولها علم لا يُعمل به ⁦(needs_source: النص لا يسمّي صاحب هذا التعداد بوضوح)⁩، ويذكر أن الثانية عمل لا إخلاص فيه ولا اقتداء {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:19:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:35:30}.
+يقول الشيخ إن العلم ليس بكثرة الرواية، وإنما العلم الخشية ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:20:00}.
 ويشرح الشيخ قولا لم يُسمَّ قائله في هذا المقطع (needs_source)، مفاده أن أهل المعرفة والحكمة هم الذين أحيا قلوبهم بقتل الهوى، وأن من قتل قلبه فأحيا الهوى فالمعرفة والحكمة عارية على لسانه {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:15:00}.
-ويضرب الشيخ مثالا برجل حفظ القرآن وأربعين ألف حديث، ثم لم يطبّق ما علم (مثال من الشيخ، رأيه) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:23:00}.
+ويضرب الشيخ مثالا برجل حفظ القرآن وأربعين ألف حديث، ثم لم يطبّق ما علم ⁦(مثال من الشيخ، رأيه)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:23:00}.
 
 ## النبع الصافي: الطلب والمثابرة
-يذكر الشيخ أن الكيميائي جابر بن حيان كان إذا تعسّرت عليه مسألة لجأ إلى صلاة الليل، ويقول إن صعوبة الدراسة تأتي من الذنوب لا من المنهج الدراسي (needs_source: حكاية جابر بن حيان). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:19:00}
+يذكر الشيخ أن الكيميائي جابر بن حيان كان إذا تعسّرت عليه مسألة لجأ إلى صلاة الليل، ويقول إن صعوبة الدراسة تأتي من الذنوب لا من المنهج الدراسي ⁦(needs_source: حكاية جابر بن حيان)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:19:00}
 
-ويروي الشيخ أن الإمام الشافعي فقد حفظه بعد أن نظر إلى امرأة، ثم استعاده بالتوبة، وأنه كان يغطي الصفحة اليسرى ليحفظ، ويطبّق الشيخ ذلك على طلاب العلم (needs_source: حكاية الشافعي). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:19:30}
+ويروي الشيخ أن الإمام الشافعي فقد حفظه بعد أن نظر إلى امرأة، ثم استعاده بالتوبة، وأنه كان يغطي الصفحة اليسرى ليحفظ، ويطبّق الشيخ ذلك على طلاب العلم ⁦(needs_source: حكاية الشافعي)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:19:30}
 
 ويقارن الشيخ بين طالب ينجح بصبره على المنهج وطالب يفشل لضيقه به، ويقول إن الصبر يلزم في الدراسة كما يلزم في الزواج. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:10:00}
 
-ويصف الشيخ الإمام الشافعي بأنه ملأ الأرض علما، وبأنه مؤسس أصول الفقه، وبأنه من قريش (needs_source: أوصاف الشافعي). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:02:30}
+ويصف الشيخ الإمام الشافعي بأنه ملأ الأرض علما، وبأنه مؤسس أصول الفقه، وبأنه من قريش ⁦(needs_source: أوصاف الشافعي)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:02:30}
 
 ويقول الشيخ إن على المسلم أن يتعلم قواعد الفقه، وهي الحد الأدنى الذي لا بد أن يعرفه المؤمن، وإن الزكاة تُؤدى علنا وصدقة التطوع قد تكون سرا. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:20:00}
 
@@ -56,7 +56,7 @@ translators: []
 
 ويروي أن عمر بن الخطاب وجّه سائلا عن الميراث إلى معاذ بن جبل، وسائلا عن القراءة إلى أُبيّ بن كعب، وآخرين إلى ابن مسعود وعلي، وقال إنه إنما هو موزِّع. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:23:30}
 
-ويقول إن من الصحابة والتابعين والعلماء أغنياء وفقراء، وإن الإخلاص لا يُقاس بالمال (needs_source: أمثلة الأغنياء من العلماء). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:41:00}
+ويقول إن من الصحابة والتابعين والعلماء أغنياء وفقراء، وإن الإخلاص لا يُقاس بالمال ⁦(needs_source: أمثلة الأغنياء من العلماء)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:41:00}
 
 ويقول الشيخ إن قارون نسب ماله إلى علم عنده، ويقول إن مثل هذه الأقوال تُردَّد دون وعي بمعناها. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:23:30}
 
@@ -68,7 +68,7 @@ translators: []
 
 ويعدّ الشيخ الخطوة الأولى التمسك بالكتاب والسنة، والثانية الرجوع إلى عالم تقي عند الشدائد، والثالثة تقليل الذنوب بقدر الإمكان. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:14:30}
 
-ويجيب الشيخ متصلا بأن ما يشتهيه المرء يُعطاه في الجنة، ويقول إنه قد يلقى الصحابة وعلماء مثل أبي حنيفة وموسى إن شاء (needs_source: ما يُقال عن الجنة). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:40:00}
+ويجيب الشيخ متصلا بأن ما يشتهيه المرء يُعطاه في الجنة، ويقول إنه قد يلقى الصحابة وعلماء مثل أبي حنيفة وموسى إن شاء ⁦(needs_source: ما يُقال عن الجنة)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:40:00}
 
 ## رأي الشيخ: في طلب العلم والعمل به
 يقول الشيخ إن الأمر بالمعروف والنهي عن المنكر لا يكون إلا بعلم ورفق، ويضرب مثلا بأب ينهى ابنه عن التدخين وهو يدخن، ويستشهد ببيت من الشعر. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:19:30}
