@@ -32,6 +32,8 @@ Others read the vowel as a fatha, and explain it as: except one who was wronged,
 
 Al-Tabari prefers the damma, since the scholars of recitation and interpretation agree on its soundness and the fatha is an outlier. The sense then is that God does not love anyone to speak publicly ill of another, except the one who is wronged, who has no blame in reporting what was done to him; this covers one who was not hosted, or whose hospitality was poor, or who was wronged by an injustice. {cite:tafsir-tabari-shakir-v09 p. 349}
 
-We stop here at the foot of p. 349, in the middle of the commentary on verse 148, and will continue from p. 350. {cite:tafsir-tabari-shakir-v09 p. 349}
+Al-Tabari says that one who is wronged and calls out against his wrongdoer, or tells others what was done to him, incurs no blame; and that his prayer against his wrongdoer makes known to whoever hears it what the wrongdoer deserves, and God will help him against him. He takes 'man' to be in the accusative, as a detached exception with no earlier noun to except from, like a similar case in sura al-Ghashiya. {cite:tafsir-tabari-shakir-v09 p. 350}
+
+As for 'God is hearing and knowing', it means that God hears what you call out of evil speech to those you address and your other voices and words, and knows what you conceal of evil speech to those you hide it from, counting it all against you until He repays you, the doer of evil for his evil and the doer of good for his good. The reports on verse 148 end here at p. 350. {cite:tafsir-tabari-shakir-v09 p. 350}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
