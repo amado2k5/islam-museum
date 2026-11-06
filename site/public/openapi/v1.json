@@ -390,6 +390,21 @@
           }
         }
       }
+    },
+    "/tafsir.json": {
+      "get": {
+        "operationId": "getTafsir",
+        "summary": "Tafsir Browser dataset",
+        "description": "The commentary and each of its volumes as tafsir-volume works, with part_of and about edges to the verses each volume covers",
+        "responses": {
+          "200": {
+            "description": "The commentary and each of its volumes with their verse coverage",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
     }
   },
   "components": {

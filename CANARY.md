@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.3.0 — 2026-11-06
 
 ### Added
+- Tafsir Browser (phase 3): `/api/v1/tafsir.json` exports the Jami' al-Bayan commentary and its volumes 1 to 9 with their verse coverage, documented in the data guide, the OpenAPI file and llms.txt. Submission-impacting: the data-extraction route, with the founder's sign-off in chat.
 - Inventions Browser93: al-Mahdi's central zimam oversight, in Arabic, English and Urdu, distinguishing departmental account checks from later central coordination. Earlier seal practices, individual identity evidence and political accounts remain separate; the inspected nineteenth-century ledger cover is context, not an Abbasid form or a claim of modern independent audit.
 - Inventions Browser91: Muawiya's seal-and-copy registry, Arabic/English/Urdu account of checking, sealing and reference copies, with older administrative influences and attribution limits. Modern sealed letters are explicit context, not an original artifact or proof of historic wax; all earlier maker perspectives and registry prose remain intact.
 - Inventions Browser92: Abd al-Malik's Arabic fiscal-register reform, full Arabic/English/Urdu account of phased language transfer, translators and inherited expertise; earlier bilingual papyrus is context, not a reform register. Existing political assessments and all prior invention content preserved.
