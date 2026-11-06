@@ -1,5 +1,13 @@
 # Muslim Inventions Browser: research method
 
+## Invention82 audit — factorial remainder construction (D-123)
+
+Actual MacTutor introduction and number-theory/analysis-synthesis passages read, including the Opuscula discussion of two methods. First multiplies the consecutive integers and adds1:6!+1=721, satisfying remainder1 for divisors2–6 and0 for7. Second reportedly gives all solutions but is not reproduced there. No original Opuscula/full Rashed edition/original algorithm2 read; no invented Arabic work title or new work entity. Improvement/application, not first congruences, Chinese remainder theorem, factorial notation or general original Wilson proof. Existing individually documented identity/Sunni frame and complete maker baseline retained.
+
+Actual MathWorld Wilson definition/eq1/history/composite4 exception read. Distinguish the primep from the generally composite answer:721=7*103;3!+1=7 fails target4. Independently reconstructed modern family: lcm2–6=60;N=60k+1;4k+1=0 modulo7 givesk=5+7j, henceN=301+420j, j≥0 for positive answers.301 is least positive,721 next,1141 next. Increment420 preserves all conditions; adding7 or60 alone need not. Brute-force completeness/primality/factorial content checks required, not a recovered historical proof/second method or direct software/cryptography transmission claim.
+
+Actual Commons description/API/current960preview inspected: Spindled,19October2006 original upload, current2008 text-alignment revision, migrated CC BY-SA3.0. Two grey clocks labelled0/3/6/9, +4h between, left hand9/right1; modern modulo12 context, not prime7 or historical apparatus/notation. Original currentSVG unmodified. Six new entities/full trilingual invention plus additive maker links; lead547/all546 earlier objects and81 earlier invention data/prose must remain unchanged. No code/site/schema/Worker/workflow/local tests/build/deployment.
+
 ## Invention81 audit — successive-quotient ratio theory (D-122)
 
 Retained complete Dold-Samplonius DSB biography and actual TDV work1/ratio passages read; actual complete MacTutor al-Nayrizi biography read. The formulation concerns Book V proportionality through full Euclidean quotient sequences, not invention of the old algorithm or every continued fraction. Pre-Eudoxian background, accepted correctness of Euclid's principle and the missing equivalence proof remain explicit. DSB assigns the later connection to Ibn al-Haytham, not al-Mahani/al-Nayrizi. MacTutor's adoption report is not proof of a personal teacher meeting. TDV's named ratio treatise and title variants are modeled without inventing three independent books or collapsing manuscript witnesses; DSB's “different?” remains unresolved. Original manuscripts and Plooij/Becker bibliography studies not read.
