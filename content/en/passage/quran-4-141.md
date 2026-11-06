@@ -28,6 +28,6 @@ Report 10714, from Yusay' al-Hadrami, says a man asked Ali how God could promise
 
 Report 10718, from Abu Malik, says the Day of Resurrection; report 10719, from Ibn Abbas through Ibn Jurayj and Ata al-Khurasani, says the same. Al-Tabari says 'path' here means proof, and report 10720, from al-Suddi, says the same. {cite:tafsir-tabari-shakir-v09 p. 328}
 
-We stop here after report 10720 at p. 328, and will continue from report 10721. {cite:tafsir-tabari-shakir-v09 p. 328}
+The reports on verse 141 end with report 10720 at p. 328; verse 142 begins on p. 329. {cite:tafsir-tabari-shakir-v09 p. 328}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
