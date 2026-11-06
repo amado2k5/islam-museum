@@ -187,6 +187,7 @@ open a new block on top with the new version and today's date.
 - Each exhibit now appears once on the exhibits list in every language. The two Alexandria trails were one trail recorded twice: they are now one, and the old address still leads to it. "Great Mosques of the Garrison Cities" and «دول المغرب الأدنى» (States of the Maghreb) are different trails that shared a title with another, and now have their own.
 - The Urdu embed index (/ur/embed/) now reads in Urdu; it had been added with English placeholder text.
 - On the Places wing overview map, no dot now covers a place name and no two names touch: names are drawn above the dots, and the space each name needs is measured as it actually renders, including Arabic script.
+- Every build of the site stopped on 6 November because one record (Ibn Mu'adh al-Jayyani, whose death is written "1079 or later") has a date with no end, and the timeline step could not handle it. A date with an open end is now read as the one point that is known, so the build runs again and no date is invented. A date open on both sides is still rejected.
 
 ### Tests
 
