@@ -208,4 +208,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 4: pp. 295-301 filed in ar, en and ur (reports 10674-10677; verses 131-135 begun). Verse 130 closes at p. 294 and the 4:130 stop sentence is replaced by a closing line.
 - Batch 5: pp. 301-307 filed in ar, en and ur (reports 10678-10685; verse 135 continues). Report 10678 is the first numbered report after p. 301 and begins on printed p. 304.
 - Batch 6: pp. 308-314 filed in ar, en and ur (reports 10686-10696; verse 135 closes at p. 312, verse 136 is filed in full, and verse 137 opens on p. 314).
-- Progress: current report 10696, printed p. 309. Pages 310-314 carry no numbered report; the next numbered report is 10697, the commentary on verse 137 from p. 314 on.
+- Batch 7: pp. 315-321 filed in ar, en and ur (reports 10697-10710): verse 137 closes at p. 318, verses 138 and 139 are filed, and verse 140 is filed to report 10710.
+- Progress: current report 10710, printed p. 321. Next is report 10711, the rest of verse 140 from p. 321 on.
