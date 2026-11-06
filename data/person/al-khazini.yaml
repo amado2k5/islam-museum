@@ -3,17 +3,33 @@ class: person
 label:
   ar: "عبد الرحمن الخازني"
   en: "al-Khazini"
+  ur: "عبد الرحمن الخازنی"
 names:
   - { kind: full, lang: ar, value: "أبو الفتح عبد الرحمن الخازني" }
 roles: [astronomer, scientist]
 gender: male
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Muslim basis: the author's own preface, printed in Arabic and English on p3 of Khanikoff1859, explicitly identifies Muhammad as his prophet. This is not inferred from name, Byzantine origin, enslavement or court employment. Sunni is the museum default of docs/scope.md for the documented Seljuq milieu, not an attested personal school declaration; no contrary affiliation is named in the Hall sections read."
+    sources: [source/khazini-khanikoff-1859, source/khazini-hall-dsb]
 summary:
-  ar: "بطاقة أولية لعبد الرحمن الخازني، صاحب ميزان الحكمة وزيج السنجري، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Abd al-Rahman al-Khazini, author of the Mizan al-Hikma and the Zij al-Sanjari, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+  ar: "عالم بالآلات والفلك عمل في مرو برعاية سنجر؛ وصف ميزان الحكمة في515/1121–1122 وطوّر معايرته ضمن تقليد سابق، لا مبتدع كل موازين الماء {cite:khazini-hall-dsb biography; Kitab Mizan al-Hikma}. تعرّف مقدمته إيمانه، ولا تثبت مدرسة فقهية شخصية {cite:khazini-khanikoff-1859 p. 3}."
+  en: "Instrument scholar and astronomer at Merv under Sanjar; his515/1121–1122 treatise describes a refined, calibrated hydrostatic balance within an earlier tradition {cite:khazini-hall-dsb biography; Kitab Mizan al-Hikma}. His own preface supplies the Muslim basis, not personal school testimony {cite:khazini-khanikoff-1859 p. 3}."
+  ur: "سنجر کی سرپرستی میں مرو کے عالم آلات و فلکیات؛515/1121–1122 کا رسالہ پہلے آبی میزان کی بہتر درجہ بندی بیان کرتا ہے {cite:khazini-hall-dsb biography; Kitab Mizan al-Hikma}۔ ان کا اپنا دیباچہ مسلم شناخت کا ثبوت ہے، ذاتی فقہی مکتب کی شہادت نہیں {cite:khazini-khanikoff-1859 p. 3}۔"
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/merv, sources: [source/khazini-hall-dsb] }
+inventions:
+  - invention: invention/balance-of-wisdom
+    role: improver
+    place: place/merv
+    note: "Further calibration of inherited hydrostatic balances, especially al-Asfizari's design; not invention of all five-pan balances or buoyancy."
+    sources: [source/khazini-hall-dsb]
+sources: [source/al-aalam, source/khazini-hall-dsb, source/khazini-khanikoff-1859, source/penn-ljs386-balance]
 external_ids:
   wikidata: Q2991836
 provenance:
@@ -22,12 +38,17 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0010
+  extensions:
+    - generated_by: "Copilot SDK in VS Code"
+      model: "unknown"
+      run: "inventions-p3-b24"
+      source: "Hall biography and named balance sections; visually read1859 pp1,3–4 establish personal Muslim basis. Original Devin import attribution retained; al-A'lam and the original Wikidata religion claim remain independently unread/unverified, not evidence for the new faith block."
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/astronomer
     kind: primary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+    note: "Astronomical tables and instrument work described by Hall; no exact birth or death date supplied."
+    sources: [source/khazini-hall-dsb]
