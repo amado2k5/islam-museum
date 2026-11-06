@@ -26,6 +26,6 @@ On 'God spoke to Moses with speech', al-Tabari says it means God addressed Moses
 
 Report 10844, from Muhammad ibn Ka'b al-Qurazi: Moses asked: what have you likened your Lord's speech to among what He created? He said: the pouring thunder. The editor notes that the printed and manuscript texts read 'the still thunder' and the correct word is 'the pouring', meaning the continuous and flowing sound. {cite:tafsir-tabari-shakir-v09 p. 405}
 
-We stop here after report 10844 at p. 405, in the commentary on verse 163, and will continue from report 10845. {cite:tafsir-tabari-shakir-v09 p. 405}
+Report 10845, from Juzay ibn Jabir al-Khath'ami through Ibn Shihab al-Zuhri, from Ka'b: Moses said, by God, Lord, I do not understand this, until He spoke to him in the last of the tongues with a voice like His; and the nearest of His creatures in resemblance to His speech is the most intense thunderclap people hear. Reports 10846 and 10847 give the same chain in nearly the same words. The editor notes that the printed text has 'the rabbis' instead of 'Ka'b al-Ahbar', and that reports of this kind may not be taken for God's attributes; the matter of those is God's alone, as His Messenger conveyed it. {cite:tafsir-tabari-shakir-v09 p. 406}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
