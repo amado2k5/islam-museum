@@ -60,7 +60,7 @@ When one of these fails, restore the key or the dependency (`git log -S <key> --
 - `scripts/pipeline.test.ts`: validator rules, the frozen Qur'an text, scope rules, and content guards.
 - `scripts/site-deps.test.ts`: every i18n path the site reads (through aliases, at any depth) exists in `i18n/ar.yaml`, and the site's bare imports are declared in `site/package.json` (section above).
 
-The per-test timeout is 60 seconds (`vitest.config.ts`). The pipeline tests each validate the whole repository, which is slower on the CI runner than on a laptop. A test that times out there is not a failing rule; do not lower the limit back to the default. The pipeline test file also yields to the event loop before each test (`beforeEach` in `scripts/pipeline.test.ts`). Keep that yield: without it the worker blocks long enough for vitest's RPC to time out (`Timeout calling "onTaskUpdate"`), even when every test passes.
+The per-test timeout is 60 seconds (`vitest.config.ts`). The pipeline tests each validate the whole repository, which is slower on the CI runner than on a laptop. A test that times out there is not a failing rule; do not lower the limit back to the default. Every test file also yields to the event loop before each test (`scripts/vitest-setup.ts`, loaded by `vitest.config.ts`): without it a run of long synchronous tests starves vitest's own messages and the run fails with "[vitest-worker]: Timeout calling onTaskUpdate" although every test passed. Keep that yield. The pipeline test file also yields to the event loop before each test (`beforeEach` in `scripts/pipeline.test.ts`). Keep that yield: without it the worker blocks long enough for vitest's RPC to time out (`Timeout calling "onTaskUpdate"`), even when every test passes.
 
 ## Adding a check
 
