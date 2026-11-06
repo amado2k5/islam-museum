@@ -1245,6 +1245,18 @@ candidates:
     lead_sources:
       - "data/work/kitab-al-hisab-al-khwarizmi.yaml"
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+  - id: ibn-al-haytham-fourth-power-volumes
+    label: "Ibn al-Haytham's fourth-power sums and perpendicular-axis volume method"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: abbasid-golden
+    from: scholarly-reference
+    invention: invention/ibn-al-haytham-fourth-power-volumes
+    lead_sources:
+      - "source/katz-calculus-islam-india-1995 pp.165–168,174"
+      - "source/bressoud-calculus-before-newton-i pp.2–4"
+    flags: [completed-D-076-fourth-power-method-not-all-calculus, perpendicular-axis-not-ordinary-paraboloid, modern-reconstruction-distinguished, Arabic-treatise-not-independently-read, licensed-axial-comparison-image-explicit]
   - id: abu-wafa-fixed-opening-constructions
     label: "Abu al-Wafa's organized one-opening construction repertoire"
     state: "[x]"

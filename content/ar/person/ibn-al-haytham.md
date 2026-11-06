@@ -3,12 +3,20 @@ id: person/ibn-al-haytham
 lang: ar
 source_lang: ar
 translators: []
+status: { review: published }
+provenance: { generated_by: "Claude Haiku 5.5 (library-expansion); Copilot SDK in VS Code extension", model: "claude-haiku-5-5; unknown for extension", run: "inventions-p3-b36", source: "Original Manazir account retained; dates/volume-method extension from TDV and selected Katz/Bressoud" }
 ---
 ## موجز
 الحسن بن الهيثم، عالم عربي في الرياضيات والفيزياء، اشتهر بكتابه [[work/kitab-al-manazir|المناظر]] في [[concept/optics|البصريات]]. يصفه محقق طبعة الكتاب بأنه عاش في القرن الخامس الهجري، ويرى أن كتابه أنفس ما أنتج العلماء العرب في الفيزياء. {cite:manazir-sabra-1983 p.9}
 
 ## تاريخ الحياة
-لم تُذكر في الصفحات المقروءة سنة ولادته أو وفاته، ولم تُتحقق بعد من مصدر ثانٍ، فتبقى التواريخ خارج هذه السجلات حتى تُضاف.
+تذكر TDV مولده نحو354هـ/965م، وتناقش أخبار الوفاة وشاهداً بخطه سنة432هـ/1040م؛ لا نجعل جميع الروايات تاريخاً قطعياً واحداً {cite:tdv-ibnul-heysem pp.82–87}. تبقى التواريخ التقريبية في البيانات، ولا يصبح قرن النشاط تاريخاً دقيقاً لكل رسالة.
+
+## القوى الرابعة وقياس الحجوم
+
+تختلف [[invention/ibn-al-haytham-fourth-power-volumes|طريقة القوى الرابعة]] عن مساهمته في [[invention/camera-obscura|البيت المظلم]]: إنها ربط مجموعات عددية ببرهان استنفاد لحجم جسم يدور حول محور عمودي على محور القطع المكافئ، وحجمه8/15 من أسطوانته، لا الجسم المحوري الأقدم ذي النصف {cite:katz-calculus-islam-india-1995 pp.165–168} {cite:bressoud-calculus-before-newton-i pp.2–4}. يفصل كاتز مثال المؤلف عندn=4 عن الاشتقاق الحديث للنتيجة العامة؛ لا ننسب إليه رموز التكامل الحديثة أو اختراع الحسابان كله {cite:katz-calculus-islam-india-1995 pp.166–167}. ولا يرى بريسود دليلاً على تجاوزه القوة الرابعة وإن كان النسق قابلاً للتعميم {cite:bressoud-calculus-before-newton-iii pp.2–3}.
+
+أساس هويته الفردية محفوظ في افتتاح المناظر باسمه وفي الرسائل التي تذكرها TDV في الدفاع عن النبوة ومناقشة المعتزلة؛ الإطار السني معلن لا شهادة مدرسة فقهية ولا استنتاج من الراعي الفاطمي {cite:manazir-sabra-1983 scan-p.60} {cite:tdv-ibnul-heysem pp.82–87}. القاهرة سياق للسيرة لا موضع مؤكد لتأليف هذه الرسالة، وانتقال أفكار الجمع إلى أوروبا سؤال بحث عند كاتز، لا نسب محسوم {cite:katz-calculus-islam-india-1995 pp.166,174}. الشرح هنا من المقاطع العلمية المقروءة، لا قراءة مستقلة لأصل رسالة المجسم المكافئ.
 
 ## للبراعم
 عالم ذكي درس الضوء بالتجارب، واكتشف كيف ترى أعيننا الأشياء الجميلة من حولنا.
