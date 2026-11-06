@@ -11,4 +11,4 @@ translators: []
 تذكر الموسوعة أن له مشاركة في علوم عدة، وأنه من كبار مؤلفي التصوف الفارسي {cite:mawsuat-a3lam-ulama-adaba}.
 
 ## وفاته
-سنة 606هـ (1209م) على ما في الموسوعة {cite:mawsuat-a3lam-ulama-adaba}.
+سنة 606هـ ⁦(1209م)⁩ على ما في الموسوعة {cite:mawsuat-a3lam-ulama-adaba}.

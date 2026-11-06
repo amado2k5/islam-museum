@@ -7,7 +7,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-
 ---
 ## موجز
 
-«كتاب الخراج» للقاضي [[person/abu-yusuf-al-qadi|أبي يوسف يعقوب بن إبراهيم]] (113-182هـ)، صاحب الإمام [[person/abu-hanifa|أبي حنيفة]]، كتبه لأمير المؤمنين [[person/harun-al-rashid|هارون الرشيد]] الذي اقترح عليه إنشاءه. {cite:kitab-al-kharaj-salafiyya-1392 p.1}
+«كتاب الخراج» للقاضي [[person/abu-yusuf-al-qadi|أبي يوسف يعقوب بن إبراهيم]] ⁦(113-182هـ)⁩، صاحب الإمام [[person/abu-hanifa|أبي حنيفة]]، كتبه لأمير المؤمنين [[person/harun-al-rashid|هارون الرشيد]] الذي اقترح عليه إنشاءه. {cite:kitab-al-kharaj-salafiyya-1392 p.1}
 
 ## سبب تأليفه
 

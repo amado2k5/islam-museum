@@ -9,4 +9,4 @@ translators: []
 «GeoNames geographical database»، GeoNames. بيانات مرجعية — webpage — بلغة الإنجليزية.
 
 ## الاعتماد عليه
-يُستشهد بهذا المصدر في 102 من سجلات المتحف. الرابط: https://www.geonames.org (وصول مفتوح).
+يُستشهد بهذا المصدر في 102 من سجلات المتحف. الرابط: https://www.geonames.org ⁦(وصول مفتوح)⁩.

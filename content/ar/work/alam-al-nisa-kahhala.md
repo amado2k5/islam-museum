@@ -18,10 +18,10 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-
 تتراوح التراجم بين أسطر قليلة لراويات الحديث والمحدّثات مأخوذة من «الضوء اللامع» و«التحبير» ونحوهما، وتراجم مطوّلة تجمع الأخبار والأشعار من «الأغاني» و«تاريخ الطبري» و«وفيات الأعيان» وغيرها، كترجمة [[person/al-khansa|الخنساء]] التي تمتد عشر صفحات وتُختم بنحو ثلاثين مصدراً. {cite:alam-al-nisa-kahhala-risala-1984-v1 p.6} {cite:alam-al-nisa-kahhala-risala-1984-v1 p.364} {cite:alam-al-nisa-kahhala-risala-1984-v1 p.375} ومن نسائه ملكات وحاكمات مثل [[person/arwa-al-sulayhi|أروى الصليحية]] و[[person/sitt-al-mulk|ست الملك]]، وعالمات مثل [[person/shahda-al-katiba|شهدة الكاتبة]] و[[person/zaynab-bint-al-kamal|زينب بنت الكمال]]، وزاهدات مثل [[person/rabia-al-adawiyya|رابعة العدوية]]، وشاعرات ومغنيات مثل [[person/ulayya-bint-al-mahdi|علية بنت المهدي]] و[[person/azza-al-mayla|عزة الميلاء]]. {cite:alam-al-nisa-kahhala-risala-1984-v1 p.31} {cite:alam-al-nisa-kahhala-risala-1984-v1 p.434} {cite:alam-al-nisa-kahhala-risala-1984-v2 p.170} {cite:alam-al-nisa-kahhala-risala-1984-v2 p.313} {cite:alam-al-nisa-kahhala-risala-1984-v3 p.279} {cite:alam-al-nisa-kahhala-risala-1984-v3 p.338}
 
 ## الطبعة
-طبعة مؤسسة الرسالة ببيروت، «طبعة مزيدة وفيها مستدرك» {cite:alam-al-nisa-kahhala-risala-1984-v1 p.5}، وهي الطبعة الخامسة (1984م) بحسب صفحة الحقوق في نسخة ثانية من الجزء الأول (انظر وصف المصدر)؛ ويذكر كحالة أن نشره أولاً وثانياً كان بجهود المكتبة الهاشمية. {cite:alam-al-nisa-kahhala-risala-1984-v1 p.8}
+طبعة مؤسسة الرسالة ببيروت، «طبعة مزيدة وفيها مستدرك» {cite:alam-al-nisa-kahhala-risala-1984-v1 p.5}، وهي الطبعة الخامسة ⁦(1984م)⁩ بحسب صفحة الحقوق في نسخة ثانية من الجزء الأول ⁦(انظر وصف المصدر)⁩؛ ويذكر كحالة أن نشره أولاً وثانياً كان بجهود المكتبة الهاشمية. {cite:alam-al-nisa-kahhala-risala-1984-v1 p.8}
 
 ## للزوار الصغار
 هذا كتاب كبير يجمع قصص آلاف النساء في تاريخ المسلمين والعرب: عالمات وشاعرات وملكات وعابدات، مرتبات على حروف الهجاء مثل القاموس.
 
 ## ملاحظات للباحثين
-- استُعملت الأجزاء 1–3 (أ–ع) فقط؛ الجزآن 4–5 ليسا بين النسخ المتاحة. الصفحات صفحات PDF، والمطبوع = PDF − 4.
+- استُعملت الأجزاء 1–3 ⁦(أ–ع)⁩ فقط؛ الجزآن 4–5 ليسا بين النسخ المتاحة. الصفحات صفحات PDF، والمطبوع = PDF − 4.

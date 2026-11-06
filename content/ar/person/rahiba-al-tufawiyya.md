@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.716" }
 ---
 ## موجز
-راهبة من عابدات [[place/basra|البصرة]] في [[work/sifat-al-safwa|صفة الصفوة]] (الترجمة 609)، وهي أم عثمان بن سودة الطفاوي الذي يروي خبرها. {cite:sifat-al-safwa-tartusi-2012 p.716}
+راهبة من عابدات [[place/basra|البصرة]] في [[work/sifat-al-safwa|صفة الصفوة]] ⁦(الترجمة 609)⁩، وهي أم عثمان بن سودة الطفاوي الذي يروي خبرها. {cite:sifat-al-safwa-tartusi-2012 p.716}
 
 ## دعاؤها عند الموت
 يروي عثمان أنها لما احتضرت رفعت رأسها إلى السماء فقالت: يا ذخري وذخيرتي، ويا من عليه اعتمادي في حياتي وبعد موتي، لا تخذلني عند الموت، ولا توحشني في قبري؛ ثم ماتت. {cite:sifat-al-safwa-tartusi-2012 p.716}

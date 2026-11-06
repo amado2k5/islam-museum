@@ -7,7 +7,7 @@ translators: []
 
 ## موجز
 
-يدرج أرشيف أسابيل هذه السلسلة بين الدروس الصوتية لعمر عبد الكافي باسم «نفحات رمضانية 1436هـ»، وعدد حلقاتها ست. {cite:assabile-omar-abdelkafy series-list} ويسمّيها الشيخ في الحلقات «سلسلة حلقاتنا آفات اللسان»، وكل حلقة منها في آفة واحدة، والحلقات قصيرة نحو ثلاث عشرة دقيقة. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:00} ويقول في الحلقة الأخيرة إنها كانت ثلاثين حلقة تناولت الغيبة والنميمة والمراء والجدال وكفران النعم والكذب والاستهزاء وغيرها، فالمحفوظ منها في الأرشيف جزء منها فقط (needs_source: عدد الثلاثين قاله الشيخ مرة واحدة). {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30} والموضوع الجامع في المتحف: [[concept/afat-al-lisan|آفات اللسان]].
+يدرج أرشيف أسابيل هذه السلسلة بين الدروس الصوتية لعمر عبد الكافي باسم «نفحات رمضانية 1436هـ»، وعدد حلقاتها ست. {cite:assabile-omar-abdelkafy series-list} ويسمّيها الشيخ في الحلقات «سلسلة حلقاتنا آفات اللسان»، وكل حلقة منها في آفة واحدة، والحلقات قصيرة نحو ثلاث عشرة دقيقة. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:00} ويقول في الحلقة الأخيرة إنها كانت ثلاثين حلقة تناولت الغيبة والنميمة والمراء والجدال وكفران النعم والكذب والاستهزاء وغيرها، فالمحفوظ منها في الأرشيف جزء منها فقط ⁦(needs_source: عدد الثلاثين قاله الشيخ مرة واحدة)⁩. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30} والموضوع الجامع في المتحف: [[concept/afat-al-lisan|آفات اللسان]].
 
 ## الحلقة الأولى: المنّ بالعطاء
 
@@ -39,7 +39,7 @@ translators: []
 
 ### الحلقة 1
 - [[concept/afat-al-lisan|آفات اللسان]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00}
-- [[concept/mann|المَنّ (مقدار شرعي، ومنّ المعطي على المعطى)]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00}
+- [[concept/mann|المَنّ ⁦(مقدار شرعي، ومنّ المعطي على المعطى)⁩]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00}
 
 ### الحلقة 2
 - [[concept/shirk|الشرك]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep02 00:00:00}
@@ -51,7 +51,7 @@ translators: []
 
 ### الحلقة 4
 - [[concept/sabb-al-sahaba|سبّ الصحابة]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00}
-- [[concept/hubb-al-sahaba|محبة الصحابة وحكم الكلام فيهم (في العقيدة الطحاوية)]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:03:00}
+- [[concept/hubb-al-sahaba|محبة الصحابة وحكم الكلام فيهم ⁦(في العقيدة الطحاوية)⁩]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:03:00}
 
 ### الحلقة 5
 - [[concept/satr|ستر المسلم]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:30}

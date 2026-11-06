@@ -16,7 +16,7 @@ translators: []
 ## الخلاف والآراء
 :::perspectives
 - **أهل السنة: محمد محمد تامر، مراجع طبعة مكتبة الإيمان**: في الكتاب مخالفات في آيات الصفات، والحق الإثبات بلا تشبيه ولا تأويل ولا تعطيل {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3}.
-- **أهل السنة (الأشاعرة): نص الجلالين**: تفسير الرحمة بإرادة الخير، واليد بالاطلاع والمجازاة، والاستواء «استواءً يليق به» {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.23} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.700} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.286}.
+- **أهل السنة ⁦(الأشاعرة)⁩: نص الجلالين**: تفسير الرحمة بإرادة الخير، واليد بالاطلاع والمجازاة، والاستواء «استواءً يليق به» {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.23} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.700} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.286}.
 - **ما لم يُذكر هنا**: لم تُضف بعدُ الدراسات الأكاديمية في عقيدة الجلالين، ولا كلام شُرّاح الكتاب وأصحاب حواشيه؛ وستضيفها كتب لاحقة.
 :::
 

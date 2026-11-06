@@ -31,7 +31,7 @@ translators: []
 - [[concept/kursi-allah|الكرسي]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:43:00}
 - [[concept/istiwa-ala-al-arsh|الاستواء على العرش]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:43:30}
 - [[person/yahya-ibn-main|يحيى بن معين]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:53:00}
-- [[concept/mawt|المَوْت (أحكامه في حقوق الميت والتزاماته)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:54:00}
+- [[concept/mawt|المَوْت ⁦(أحكامه في حقوق الميت والتزاماته)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:54:00}
 - [[person/khawla-bint-thalaba|خولة بنت ثعلبة]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:55:30}
 
 ### الحلقة 2
@@ -84,11 +84,11 @@ translators: []
 - [[person/abd-al-malik-ibn-marwan|عبد الملك بن مروان]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:51:30}
 - [[person/ali-zayn-al-abidin|علي بن الحسين السجاد]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:52:30}
 - [[person/abu-hanifa|أبو حنيفة النعمان بن ثابت]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:53:30}
-- [[event/battle-of-the-trench|غزوة الأحزاب (الخندق)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:55:00}
+- [[event/battle-of-the-trench|غزوة الأحزاب ⁦(الخندق)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:55:00}
 - [[concept/tawakkul|التوكل]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:59:00}
 
 ### الحلقة 4
-- [[concept/hidaya|الهداية (هداية الدلالة وهداية المعونة)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:01:00}
+- [[concept/hidaya|الهداية ⁦(هداية الدلالة وهداية المعونة)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:01:00}
 - [[concept/malaika|الملائكة في الإسلام]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:09:30}
 - [[concept/iman|الإيمان]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:14:00}
 - [[person/firawn|فرعون]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:20:30}
@@ -139,7 +139,7 @@ translators: []
 - [[concept/karam|الكرم]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:13:00}
 - [[concept/khushu-fiqh|الخشوع]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:16:00}
 - [[person/ibn-taymiyya|ابن تيمية]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:00}
-- [[concept/ruya-fiqh|الرؤيا (في الفقه)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:28:30}
+- [[concept/ruya-fiqh|الرؤيا ⁦(في الفقه)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:28:30}
 - [[concept/sakarat-al-mawt|سكرات الموت]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:36:30}
 - [[person/harun-al-rashid|هارون الرشيد]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:47:30}
 

@@ -31,5 +31,5 @@ translators: []
 
 - قناته على يوتيوب (@HalalBeatsWorld){cite:source/youtube-halal-beats}
 - موقعه الرسمي (halalbeats.com){cite:source/halal-beats-website}
-- صفحة الفنان في «شازام» (آبل)، «حلال بيتس»{cite:source/shazam-halal-beats}
-- قيود سجلّ العلامات: «حلال بيتس» (الرقم التسلسلي الأمريكي 98799566) و«حلال ساوندتراكس» (UK00004129624){cite:source/trademark-halal-beats}
+- صفحة الفنان في «شازام» ⁦(آبل)⁩، «حلال بيتس»{cite:source/shazam-halal-beats}
+- قيود سجلّ العلامات: «حلال بيتس» ⁦(الرقم التسلسلي الأمريكي 98799566)⁩ و«حلال ساوندتراكس» (UK00004129624){cite:source/trademark-halal-beats}

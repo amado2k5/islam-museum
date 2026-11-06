@@ -15,7 +15,7 @@ translators: []
 تضم مواد المتحف عن هذا المكان: الأحداث التي جرت فيه: 1، من توفوا فيه: 1.
 
 ### الأحداث التي جرت فيه
-- [[event/death-of-abu-dharr-at-al-rabadha|وفاة أبي ذر بالربذة]] (630م)
+- [[event/death-of-abu-dharr-at-al-rabadha|وفاة أبي ذر بالربذة]] ⁦(630م)⁩
 
 ### من توفوا فيه
 - [[person/abu-dharr-al-ghifari|أبو ذر الغفاري]]
