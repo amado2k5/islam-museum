@@ -9,3 +9,5 @@ Verse 125 of [[passage/quran-3|Surat Al 'Imran]], a Medinan surah. {cite:tanzil-
 
 ## Place in the museum
 Its place: verse 125 of 200 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+**Note (pp. 173-176).** Al-Tabari comments on this verse together with the preceding one in a single place; the detail of the views and reports is on the page for [[passage/quran-3-124|verse 124]]. {cite:tafsir-tabari-shakir-v07 p. 173}
