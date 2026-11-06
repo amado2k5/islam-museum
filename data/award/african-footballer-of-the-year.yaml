@@ -1,0 +1,28 @@
+id: award/african-footballer-of-the-year
+class: award
+kind: prize
+label: { ar: "جائزة أفضل لاعب أفريقي", en: "African Footballer of the Year", ur: "افریقی فٹ بالر آف دی ایئر" }
+names:
+  - { value: "CAF Player of the Year", kind: alternate, lang: en }
+summary:
+  ar: "جائزة سنوية يمنحها الاتحاد الأفريقي لكرة القدم منذ 1992 لأفضل لاعب أفريقي، وهي جزء من حفل جوائز الاتحاد منذ 2000؛ سبقتها جائزة مجلة فرانس فوتبول (1970–1994)."
+  en: "The Confederation of African Football's annual award for the best African footballer, conferred since 1992 and part of the CAF Awards ceremony since 2000; France Football magazine gave a predecessor award from 1970 to 1994."
+  ur: "افریقی فٹ بال کنفیڈریشن کا بہترین افریقی فٹ بالر کے لیے سالانہ انعام، 1992 سے، اور 2000 سے سی اے ایف ایوارڈز کا حصہ؛ اس سے پہلے فرانس فٹ بال رسالے کا انعام (1970–1994) تھا۔"
+wings: [today]
+themes: [sport]
+regions: [africa]
+awarded_by: group/confederation-of-african-football
+since: { edtf: "1992", hijri: "1412", calendar: gregorian, precision: year, status: historical, derived: true, note: "Conferred by CAF since 1992; the France Football award ran from 1970 to 1994. The Hijri year is converter-derived.", sources: [source/wikipedia-african-footballer-of-the-year-en] }
+fields: [football]
+recurs: annual
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-06", sources: [source/wikipedia-african-footballer-of-the-year-en] }
+  wikidata: "Q387787"
+external_ids: { wikidata: "Q387787" }
+sources: [source/wikipedia-african-footballer-of-the-year-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'African Footballer of the Year' (revision of 21 September 2026) and Wikidata Q387787, checked in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-fable-5-1)"
+  run: modern-pilot-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-fable-5-1)" }

@@ -31,7 +31,7 @@ sections:
   - id: conferences
     label: { ar: "المؤتمرات والملتقيات", en: "Conferences and conventions", ur: "کانفرنسیں اور اجتماعات" }
     classes: [event, group, work]
-    kinds: { event: [conference, congress, gathering, council, declaration], work: [declaration] }
+    kinds: { event: [conference, congress, gathering, council], work: [declaration] }   # a declaration event (a UN day, a law-like proclamation) files under rights
     facets: [recurs, country, organiser, decade]
   - id: heritage
     label: { ar: "شهور التراث والمهرجانات", en: "Heritage months and festivals", ur: "ورثے کے مہینے اور میلے" }
