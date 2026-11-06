@@ -3,17 +3,30 @@ class: person
 label:
   ar: "تقي الدين بن معروف"
   en: "Taqi al-Din ibn Ma'ruf"
+  ur: "تقی الدین بن معروف"
 names:
   - { kind: full, lang: ar, value: "تقي الدين محمد بن معروف الشامي" }
 roles: [astronomer, mathematician, engineer]
 gender: male
 summary:
-  ar: "بطاقة أولية لتقي الدين بن معروف الشامي، صاحب مرصد إسطنبول في عهد مراد الثالث، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Taqi al-Din ibn Ma'ruf al-Shami, the astronomer of the Istanbul observatory under Murad III, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+  ar: "عالم عثماني في الفلك والرياضيات والبصريات والآلات، مارس التدريس والقضاء وأسهم في جداول المثلثات العشرية وأنشأ مرصد إسطنبول؛ نفرق بين كتبه وتواريخ المصادر {cite:taqi-fazlioglu-bea biography} {cite:tdv-takiyyuddin-er-rasid biography and works}."
+  en: "Ottoman astronomer, mathematician, optical/mechanical writer, teacher and judge; developed decimal trigonometric tables and founded the Istanbul observatory, with works/source dates distinguished {cite:taqi-fazlioglu-bea biography} {cite:tdv-takiyyuddin-er-rasid biography and works}."
+  ur: "عثمانی ماہر فلکیات و ریاضی، بصری و میکانیکی مصنف، مدرس اور قاضی؛ اعشاری مثلثی جدول اور استنبول کی رصدگاہ سے وابستہ؛ کتابیں اور مختلف تاریخی بیان الگ رکھے گئے {cite:taqi-fazlioglu-bea biography} {cite:tdv-takiyyuddin-er-rasid biography and works}۔"
 wings: [people]
 regions: [anatolia-balkans, levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Individual Muslim basis: actual Fazlioglu biography documents education in religious sciences, madrasa teaching and service as qadi in Egypt, independently confirmed by TDV teaching/judicial biography. Not inferred from name or country, nor Hanafi heading alone. Sunni separately is the default frame of docs/scope.md for documented Ottoman milieu; no contrary attestation in read biographies, no invented personal creed."
+    sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
+inventions:
+  - invention: invention/taqi-decimal-trigonometric-tables
+    role: improver
+    note: "Decimal-angle/function/table application in Jarida/Tashil, not invention of decimals or claim that sexagesimal Sidra is decimal."
+    sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
+sources: [source/al-aalam, source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid, source/tekeli-trigonometry-1986]
 external_ids:
   wikidata: Q1379164
 provenance:
@@ -22,9 +35,11 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0009
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b55", source: "Read authored BEA/TDV and selected Tekeli. Replaced preliminary summary with sourced account, added documented religious/judicial basis and separately labelled Sunni default and one decimal-table tie; original Devin attribution, identifier and existing occupations retained. Al-A'lam entry still not read, exact life dates deliberately not added from conflicting older accounts." }
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/astronomer
     kind: primary

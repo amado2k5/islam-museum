@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: decisions
 
+## D-096 — Invention55: Taqi al-Din's decimal trigonometric tables (6 November 2026)
+
+**Approved scope:** non-impacting content under D-000, one distinct application of decimal arithmetic to trigonometric/astronomical tables, not invention of decimals, trigonometry, a decimal point, every scientific table or modern calculators. The earlier al-Uqlidisi record remains separate and unchanged. After the early-century majority, this contributes one Ottoman-period example; unresolved earlier leads stay unresolved, not padded into records.
+
+**Sources actually read:** Fazlioglu's complete BEA biography hosted by McGill; Topdemir's complete TDV biography and works1–22, selected bibliography; Tekeli1986 English article pp247–250,257–258,269–272 (selected passages, not all26 pages). Tekeli treats the sexagesimal *Sidra*, not the decimal *Jarida*: never misrepresent that paper as a transcription of the latter. BEA/TDV support the decimal-table application, but actual *Jarida* manuscripts and Demir's edition have not been read. No historical digits, grid interval, radius or exact composition year will be invented. An open lifetime endpoint1585 is not a date of invention; omit an unverified Hijri conversion. Preserve differing observatory dates and distinguish publication dates from composition.
+
+**Identity:** BEA explicitly documents religious education and service as a qadi in Egypt, independently of his name and geography; TDV names teaching/judicial posts. Its Hanafi heading is supporting legal affiliation, not the sole Muslim basis. Sunni is separately the labelled museum default in that Ottoman setting, not a newly invented personal theological declaration.
+
+**Paths:** new `data/invention/taqi-decimal-trigonometric-tables.yaml`, `data/work/jaridat-al-durar.yaml`, `data/source/{taqi-fazlioglu-bea,tekeli-trigonometry-1986}.yaml`, `data/media/{taqi-modern-triangle,diagram-taqi-decimal-tables}.yaml`; enrich existing `data/person/taqi-al-din-ibn-maruf.yaml` without losing original attribution/occupations; Arabic-first invention/maker/work prose and English/Urdu translations. Update queue/research/progress/decisions, canary and generated coverage. Reuse existing TDV source unchanged and the reverified archived TheOtherJesse PD triangle, explicitly modern context, never a manuscript. Generic build-time chain only; no site/code/schema/Worker/workflow change or deployment. Local tests/build remain founder-skipped; other publication gates run.
+
 ## D-000 — Founder's standing authorization (4 November 2026)
 
 The following ten points are transcribed verbatim from the founder's operative prompt. They govern this lane; they do not relax `AGENTS.md`, the change gates, source policy or no-go registry.
