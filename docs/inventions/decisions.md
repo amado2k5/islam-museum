@@ -582,3 +582,13 @@ Scope of the sign-off is limited to the exact class, enums, predicates, existing
 **Scope and risk:** `non-impacting`, approved inventions content. Three new entities and three new invention prose files; direct maker/folio/media enrichment, lane documentation/reports; no code, schema, UI, Worker, workflow or submission-document changes.
 
 **Touches:** invention, source, diagram, existing person/object/photo records; ar/en/ur invention and maker prose; inventions documentation and generated reports; `CANARY.md`.
+
+## D-056 — Al-Kindi's letter-frequency method (6 November 2026)
+
+**Approved scope:** D-000 content lane, non-impacting. Add `data/invention/frequency-analysis-al-kindi.yaml`, three defined sources, manuscript image and relationship-diagram records, complete ar/en/ur invention prose; extend existing `person/al-kindi` faith/perspectives/tie and matching prose, preserving prior attribution. Update queue, research, progress, generated coverage and canary. No schema, code, deployment or submission change.
+
+**Evidence/decision:** Read the actual Arabic critical text in the1987 Damascus edition: printed213–226,235–241,259, editorial94–97 and201; inspect primary213/216/236 and the title page. The core is counting a same-language sample and ciphertext, matching ranks, then checking adjacency and conventional openings; the author explicitly warns about short messages. TDV's MUAMMA first section independently supports the attribution and calls this the earliest surviving treatise, not invention of concealment itself. Major-method depth; preserve an undated ninth-century composition, not a fabricated year or commission date.
+
+**Identity:** Kaya's TDV discussion documents defence of Islam but disputes Mu'tazili classification, reporting contrary scholarly readings. Record Muslim basis and debated Sunni default, not an asserted personal self-designation; put the museum/Sunni-reference reading first and reported academic classification second on the person, naming that the originals were not read. No verdict.
+
+**Limits/media:** The primary table has corrected counts and three omitted letters: do not republish a supposedly exact permanent frequency distribution. Do not promise to break modern encryption or invent a European transfer route. Inspect the PD Commons manuscript detail as a title/opening illustration, not a portrait or proof of a shelfmark/copy date. PDF/OCR/renders remain outside git; the PDF has an actual CC BY-SA4.0 VRT permission record. A search-supplied English DOI opened a404 in the browser and is rejected, not cited.

@@ -1113,12 +1113,14 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
   - id: frequency-analysis-al-kindi
     label: "Frequency analysis in cryptanalysis"
-    state: "[~]"
+    state: "[x]"
     batch: 2
     domain: mathematics
     era: abbasid-golden
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "source/kindi-cryptanalysis-1987 pp. 213–226, 235–241", "source/tdv-muamma pp. 319–320", "source/tdv-kindi-kaya Mu'tezile section"]
+    record: invention/frequency-analysis-al-kindi
+    flags: [earliest-surviving-not-all-encryption, composition-year-unestablished, maker-affiliation-debated-perspectives-recorded]
   - id: hindu-arabic-numerals-transmission
     label: "Transmission and extension of Hindu-Arabic numerals"
     state: "[~]"

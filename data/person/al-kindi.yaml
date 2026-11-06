@@ -1,10 +1,39 @@
 id: person/al-kindi
 class: person
-label: { ar: "الكندي", en: "al-Kindi" }
+label: { ar: "الكندي", en: "al-Kindi", ur: "کندی" }
 summary:
   ar: "يعقوب بن إسحاق الكندي فيلسوف العرب، عده المسعودي فيمن طرأ بعد ظهور الإسلام ممن عُني بعلوم الهيئة مع ابن المنجم وأحمد بن الطيب وأبي معشر والخوارزمي والفرغاني وثابت بن قرة والتبريزي ومحمد بن جابر البتاني {cite:muruj-al-dhahab p. 519}. وعند المسعودي صنف رسالة في مقالتين في إبطال دعوى المدعين صنعة الذهب والفضة من غير معادنها يذكر فيها تعذر فعل الناس لما انفردت الطبيعة بفعله وخدع أهل هذه الصناعة وحيلهم {cite:muruj-al-dhahab p. 619-620}، وهو أبو يوسف يعقوب بن إسحاق بن الصباح بن عمران بن إسماعيل بن محمد بن الأشعث بن قيس الكندي بن معدي كرب، فاضل دهره وواحد عصره في معرفة العلوم القديمة بأسرها ويسمى فيلسوف العرب وكتبه في علوم مختلفة مثل المنطق والفلسفة والهندسة والحساب والأرماطيقي والموسيقى والنجوم، وكان بخيلا {cite:fihrist-ibn-al-nadim p. 357}"
   en: "Ya'qub ibn Ishaq al-Kindi — 'philosopher of the Arabs' — named by al-Mas'udi among the post-Islamic masters of astronomy alongside al-Munajjim's son, Ahmad ibn al-Tayyib, Abu Ma'shar, al-Khwarizmi, al-Farghani, Thabit, al-Tabrizi and al-Battani {cite:muruj-al-dhahab p. 519}."
 gender: male
+faith:
+  - value: sunni
+    basis: debated
+    note: "Muslim basis: Kaya describes his defence of Islam; the primary treatise's own devotional frame agrees. Sunni is the museum's default frame, not a documented personal self-designation. Kaya rejects classifying him as Mu'tazili while reporting Walzer/de Boer's contrary classifications; see the labelled perspectives. No verdict on affiliation."
+    sources: [source/tdv-kindi-kaya, source/kindi-cryptanalysis-1987]
+issue: { ar: "كيف تصف المراجع انتماء الكندي الكلامي؟", en: "How do references describe al-Kindi's theological affiliation?", ur: "ماخذ کندی کی کلامی نسبت کیسے بیان کرتے ہیں؟" }
+perspectives:
+  - tradition: sunni
+    id: museum-default-and-tdv
+    stance: { ar: "إطار المتحف مع رفض TDV الجزم بالاعتزال", en: "Museum default; TDV rejects a settled Mu'tazili classification", ur: "میوزیم کا عمومی سیاق؛ ٹی ڈی وی قطعی معتزلی نسبت رد کرتا ہے" }
+    summary:
+      ar: "يستعمل المتحف إطاره السني مع إظهار الخلاف، لا بوصفه تصريحاً شخصياً من الكندي. يرى محمود كايا أن الاشتراك في المسائل لا يثبت الانتساب للمعتزلة، ويفرق بين المنهج الفلسفي والكلامي."
+      en: "The museum uses its Sunni frame with the disagreement visible, not as al-Kindi's personal declaration. Mahmut Kaya argues that shared questions do not establish Mu'tazili membership and distinguishes philosophical and theological methods."
+      ur: "میوزیم اختلاف ظاہر رکھتے ہوئے اپنا سنی سیاق لیتا ہے، اسے کندی کا ذاتی اعلان نہیں کہتا۔ محمود کایا کے مطابق مشترک سوال معتزلی وابستگی ثابت نہیں کرتے؛ فلسفیانہ اور کلامی طریقے مختلف ہیں۔"
+    sources: [source/tdv-kindi-kaya]
+  - tradition: academic
+    id: classifications-reported-by-kaya
+    stance: { ar: "تصنيفات مخالفة يعرضها كايا", en: "Contrary classifications reported by Kaya", ur: "کایا کی نقل کردہ مختلف درجہ بندیاں" }
+    summary:
+      ar: "يعرض كايا تصنيف ريتشارد فالزر وت. ي. دي بور للكندي معتزلياً ثم يناقشه. تنقل المقالة هذا الخلاف من عرض كايا؛ لم تقرأ هنا المؤلفات الأصلية لهذين الباحثين."
+      en: "Kaya reports Richard Walzer's and T. J. de Boer's Mu'tazili classifications, then challenges them. Their positions are reported through Kaya; the original publications were not read here."
+      ur: "کایا رچرڈ والزر اور ٹی جے ڈی بور کی معتزلی نسبت نقل کر کے اس پر اعتراض کرتے ہیں۔ یہاں ان کی آرا کایا کے واسطے سے ہیں؛ اصل تصانیف نہیں پڑھی گئیں۔"
+    sources: [source/tdv-kindi-kaya]
+inventions:
+  - invention: invention/frequency-analysis-al-kindi
+    role: describer
+    place: place/baghdad
+    note: "Primary treatise counts and ranks letters and tests adjacency/openings, with an explicit short-sample warning; TDV describes the earliest surviving treatise, not invention of all encryption."
+    sources: [source/kindi-cryptanalysis-1987, source/tdv-muamma]
 wings: [people]
 periods: [period/abbasid-early]
 provenance:
@@ -13,8 +42,13 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch35
+  extensions:
+    - generated_by: "Copilot SDK in VS Code"
+      model: "unknown"
+      run: "inventions-p3-b19"
+      source: "Selected actual Arabic cryptanalysis text and editorial pages; TDV MUAMMA first section and Kaya's identity discussion, 2026-11-06. Original attribution retained."
 external_ids: { wikidata: "Q179759" }
-sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/kindi-cryptanalysis-1987, source/tdv-muamma, source/tdv-kindi-kaya]
 status:
   review: published
   completeness: 3
