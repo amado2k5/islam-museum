@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/madarij-salikin-sumayi-q1 pp. 1–14, 801–804" }
 ---
 ## موجز
-«مدارج السالكين بين منازل إياك نعبد وإياك نستعين» كتاب لابن قيم الجوزية محمد بن أبي بكر الزرعي الدمشقي (691–751هـ)، يشرح فيه «[[work/manazil-al-sairin|منازل السائرين]]» لأبي إسماعيل [[person/al-ansari-al-harawi-abd-allah|الهروي الأنصاري]]، ويجعل مدار الكلام على قوله تعالى في الفاتحة: إياك نعبد وإياك نستعين. {cite:madarij-salikin-sumayi-q1 p. 1} {cite:madarij-salikin-sumayi-q1 p. 12}
+«مدارج السالكين بين منازل إياك نعبد وإياك نستعين» كتاب لابن قيم الجوزية محمد بن أبي بكر الزرعي الدمشقي ⁦(691–751هـ)⁩، يشرح فيه «[[work/manazil-al-sairin|منازل السائرين]]» لأبي إسماعيل [[person/al-ansari-al-harawi-abd-allah|الهروي الأنصاري]]، ويجعل مدار الكلام على قوله تعالى في الفاتحة: إياك نعبد وإياك نستعين. {cite:madarij-salikin-sumayi-q1 p. 1} {cite:madarij-salikin-sumayi-q1 p. 12}
 
 ## موضوعه
 يصفه محققو طبعة دار الصميعي بأنه تعرض لعامة مسائل العقيدة: أنواع التوحيد، والأسماء والصفات وإثباتها والرد على المعطلة والمؤولة، والألوهية وتحقيق العبودية، والقدر، والإيمان، ومنهج أهل السنة في أعمال القلوب وتفاوت العاملين فيها، ومنازل العبادة ووصف السائرين إلى الله، والتلازم بين إثبات الشرع وإثبات القدر. {cite:madarij-salikin-sumayi-q1 p. 5} {cite:madarij-salikin-sumayi-q1 p. 6}
