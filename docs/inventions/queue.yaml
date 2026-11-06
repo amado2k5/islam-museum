@@ -1245,6 +1245,18 @@ candidates:
     lead_sources:
       - "data/work/kitab-al-hisab-al-khwarizmi.yaml"
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+  - id: abu-wafa-fixed-opening-constructions
+    label: "Abu al-Wafa's organized one-opening construction repertoire"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: abbasid-golden
+    from: scholarly-reference
+    invention: invention/abu-wafa-fixed-opening-constructions
+    lead_sources:
+      - "source/abu-wafa-woepcke-constructions-1855 pp.218–219,224–227,319–324"
+      - "source/raynaud-abu-wafa-latinus-2012 secs.1,2,11"
+    flags: [completed-D-075-constrained-repertoire-not-first-compass, distinct-from-spherical-calculation, Persian-pupil-redaction-layers-retained, radius-choice-and-degenerate-cases-explicit, transmission-dispute-no-verdict]
   - id: spherical-trigonometry-sine-law
     label: "Spherical trigonometry and the sine law"
     state: "[x]"

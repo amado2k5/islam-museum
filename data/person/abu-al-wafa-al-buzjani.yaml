@@ -25,7 +25,8 @@ story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 inventions:
   - { invention: invention/abu-wafa-spherical-triangle-methods, role: improver, note: "Simpler spherical-triangle solution apparatus and early general sine proof; Abu Nasr/al-Khujandi priority dispute retained, not invention of all trigonometry/tangent.", sources: [source/abu-wafa-carra-almageste-1892, source/abu-wafa-youschkevitch-dsb, source/khujandi-mactutor] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/britannica-abu-al-wafa, source/tdv-ebul-vefa-buzcani, source/abu-wafa-carra-almageste-1892, source/abu-wafa-youschkevitch-dsb, source/abu-wafa-mactutor, source/khujandi-mactutor]
+  - { invention: invention/abu-wafa-fixed-opening-constructions, role: improver, note: "Distinct plane-drafting repertoire under one-opening constraint; layered text and Renaissance-transmission dispute retained. Not compass invention or proof that all arbitrary fixed-radius problems are solved by one example.", sources: [source/abu-wafa-woepcke-constructions-1855, source/raynaud-abu-wafa-latinus-2012] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/britannica-abu-al-wafa, source/tdv-ebul-vefa-buzcani, source/abu-wafa-carra-almageste-1892, source/abu-wafa-youschkevitch-dsb, source/abu-wafa-mactutor, source/khujandi-mactutor, source/abu-wafa-woepcke-constructions-1855, source/raynaud-abu-wafa-latinus-2012]
 status:
   review: published
   completeness: 3
@@ -37,6 +38,7 @@ provenance:
   run: prose-fill-persons-batch47
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b34", source: "Actual Britannica individual Muslim basis, Aydin scientific biography, DSB/MacTutor and selected Carra translated preface/spherical proof; maker tie and trilingual extension. Original Devin provenance, prior encyclopedia account/life-date traditions, occupation and Haiku translation history retained." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b35", source: "Selected actual Woepcke French/Persian-based construction text with321 image and selected Raynaud chronology/method/conclusions; distinct fixed-opening tie/trilingual extension. Earlier authorship and invention34 retained." }
 external_ids: { wikidata: Q298439 }
 occupations:
   - job: job/astronomer
