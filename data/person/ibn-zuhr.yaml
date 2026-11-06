@@ -52,6 +52,25 @@ faith:
     sources:
       - source/wikipedia-ibn-zuhr-en
       - source/wikipedia-ibn-zuhr-ar
+  - value: sunni
+    basis: documented
+    note: "Abdel-Halim explicitly identifies this individual as Muslim (pp.1333–1334); Kaya records Maliki study and piety. Sunni is the declared default museum frame, not personal sect testimony inferred from study, family or patronage. The older unknown-school entry is retained as its cited sources' earlier evidence state. Kaya reports and rejects a conversion-to-Judaism story; see labelled perspectives."
+    sources: [source/abdel-halim-ibn-zuhr-surgery-2005, source/tdv-ibn-zuhr-kaya]
+perspectives:
+  - tradition: sunni
+    id: documented-muslim-and-default-frame
+    summary:
+      ar: "يعرّف عبد الحليم ابن زهر صراحة بأنه طبيب مسلم، ويذكر كايا دراسته للفقه المالكي وتديّنه. والإطار السني هنا إطار المتحف المعلن، لا شهادة شخصية قاطعة بالمذهب {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1333–1334} {cite:tdv-ibn-zuhr-kaya target-biography}."
+      en: "Abdel-Halim explicitly identifies Ibn Zuhr as a Muslim physician; Kaya records his Maliki legal studies and piety. Sunni is the museum's declared frame here, not a conclusive personal declaration of sect {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1333–1334} {cite:tdv-ibn-zuhr-kaya target-biography}."
+      ur: "عبد الحلیم ابن زہر کو صراحت سے مسلمان طبیب کہتے ہیں، جبکہ کایا ان کی مالکی فقہ کی تعلیم اور دینداری بیان کرتے ہیں۔ یہاں سنی نسبت عجائب گھر کا معلن سیاق ہے، ذاتی مسلک کا قطعی اعلان نہیں {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1333–1334} {cite:tdv-ibn-zuhr-kaya target-biography}۔"
+    sources: [source/abdel-halim-ibn-zuhr-surgery-2005, source/tdv-ibn-zuhr-kaya]
+  - tradition: academic
+    id: reported-conversion-story-and-evidence-state
+    summary:
+      ar: "ينقل كايا خبر التحول إلى اليهودية ويرفضه؛ وهذا حكم منسوب إليه، لا خبر يتبناه المتحف عن تحول وقع فعلاً. ويبقى التصنيف القديم غير المحدد محفوظاً بوصفه حالة المعرفة في مصادره الأقدم، لا نفياً للدليل الجديد {cite:tdv-ibn-zuhr-kaya target-biography}."
+      en: "Kaya reports and rejects a story of conversion to Judaism; that judgement is attributed to him, not adopted as evidence that a conversion occurred. The older unclassified entry remains as the evidence state of its earlier sources, not a rejection of the new evidence {cite:tdv-ibn-zuhr-kaya target-biography}."
+      ur: "کایا یہودیت اختیار کرنے کی ایک روایت نقل کرتے اور اسے رد کرتے ہیں؛ یہ ان کی منسوب رائے ہے، تبدیلی مذہب واقع ہونے کا عجائب گھر کا دعویٰ نہیں۔ سابق غیر متعین اندراج پرانے ماخذوں کی معلوماتی حالت کے طور پر محفوظ ہے، نئے ثبوت کی تردید کے طور پر نہیں {cite:tdv-ibn-zuhr-kaya target-biography}۔"
+    sources: [source/tdv-ibn-zuhr-kaya]
 inventions:
   - { invention: invention/ibn-zuhr-goat-tracheotomy-demonstration, role: describer, note: "Own reported animal-recovery investigation via translated Taysir excerpt; older operation/animal work preserved, not quantified human trial or universal safety proof.", sources: [source/abdel-halim-ibn-zuhr-surgery-2005] }
 sources:
@@ -70,6 +89,7 @@ provenance:
   run: "wave 145 B"
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b86", source: "Actual selected SMJ1333–1336/reference42and inspected1335,TDV target biography/work,Commons image/CC0. Narrow summary qualification only about unsupported subsequent-human implication; all other fields/faith/date variants/original provenance/full prose prefixes retained. New Muslim/Maliki-study evidence and composition/teacher/printing differences appended, no personal-sect verdict." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b86-faith", source: "D-128a wires the same actually read Muslim basis/default Sunni frame into faith and maker perspectives, preserving complete earlier unknown-school entry; not a new identity inference." }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
 occupations:
   - job: job/physician
