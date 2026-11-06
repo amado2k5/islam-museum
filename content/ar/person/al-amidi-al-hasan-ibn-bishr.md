@@ -11,4 +11,4 @@ translators: []
 عمل كاتباً في دواوين البصرة وبغداد. وألّف «الموازنة» بين شعري أبي تمام والبحتري. {cite:mawsuat-a3lam-ulama-adaba}
 
 ## وفاته
-توفي سنة 371هـ (981م) بحسب الموسوعة. {cite:mawsuat-a3lam-ulama-adaba}
+توفي سنة 371هـ ⁦(981م)⁩ بحسب الموسوعة. {cite:mawsuat-a3lam-ulama-adaba}
