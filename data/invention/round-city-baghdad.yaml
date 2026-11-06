@@ -1,0 +1,73 @@
+id: invention/round-city-baghdad
+class: invention
+label: { ar: "خطة نواة بغداد المدورة", en: "Baghdad's round-city nucleus plan", ur: "بغداد کے گول شہری مرکز کا منصوبہ" }
+names:
+  - { kind: alternate, lang: ar, value: "خطة مدينة المنصور" }
+  - { kind: alternate, lang: en, value: "Mansur's radial and concentric capital nucleus" }
+summary:
+  ar: "نواة حكومية عباسية بأبواب أربعة وطرق نحو القصر والمسجد وحلقات دفاع وسكن وحركة، تكييف لسوابق أقدم لا اختراع المدن {cite:tdv-bagdat-duri Foundation and plan}."
+  en: "Abbasid governmental nucleus with four gates,routes toward palace/mosque and rings of defence,housing and circulation; adaptation of older precedents,not invention of cities {cite:tdv-bagdat-duri Foundation and plan}."
+  ur: "چار دروازوں، محل و مسجد کی سمت راستوں، دفاع، رہائش اور آمدورفت کے حلقوں والا عباسی مرکز؛ قدیم مثالوں کی نئی صورت، شہروں کی ایجاد نہیں {cite:tdv-bagdat-duri Foundation and plan}۔"
+domain: architecture-building
+kind: system
+disciplines: [history]
+wings: [made, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0762"
+    hijri: "0145"
+    calendar: julian
+    precision: year
+    status: tradition
+    note: "Le Strange15pairs145AH/762for foundation;763occupation and766completion are separate phases,not a new conversion,exact day or date of all future Baghdad."
+    sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context: { ar: "شبكة أنهار وقنوات وقرى وطرق موروثة حول مقر عباسي جديد؛ موضع المدينة العام لا إحداثيات مركز دائرة محفور {cite:tdv-bagdat-duri Foundation and plan}.", en: "Inherited rivers,canals,settlements and routes around a new Abbasid seat; general city location,not coordinates of an excavated circle centre {cite:tdv-bagdat-duri Foundation and plan}.", ur: "نئے عباسی دارالحکومت کے گرد قدیم دریا، نہریں، بستیاں اور راستے؛ شہر کا عمومی مقام، کھدائی سے ثابت دائرے کے مرکز کے مختصات نہیں {cite:tdv-bagdat-duri Foundation and plan}۔" }
+makers:
+  - { person: person/al-mansur, role: commissioner, place: place/baghdad, note: "Commissioner of specific governmental nucleus,not sole architect,first urban planner or maker of every later district.", sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900] }
+attribution:
+  status: improvement
+  claim: { ar: "جمع شعاعي وحلقي لوظائف مقر عباسي، ضمن تاريخ أقدم للمدن الدائرية.", en: "Radial/concentric organization of an Abbasid seat within an older history of circular towns.", ur: "گول بستیوں کی قدیم تاریخ میں عباسی مرکز کے شعاعی و حلقہ وار انتظام کی تشکیل۔" }
+  basis: { ar: "الدوري يذكر السوابق والخطة؛ لسترنج يميز الدفاع والمنطقة المركزية والسكن والطرق مع خلاف القياس {cite:tdv-bagdat-duri Foundation and plan} {cite:lestrange-baghdad-1900 p.15–29}.", en: "Duri names precedents and plan; Le Strange separates ramparts,central area,housing and routes while recording measurement disagreements {cite:tdv-bagdat-duri Foundation and plan} {cite:lestrange-baghdad-1900 p.15–29}.", ur: "دوری قدیم مثالیں اور منصوبہ بیان کرتے ہیں؛ لی اسٹرینج پیمائش کے اختلاف سمیت فصیل، مرکز، رہائش اور راستے الگ کرتے ہیں {cite:tdv-bagdat-duri Foundation and plan} {cite:lestrange-baghdad-1900 p.15–29}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "خبر فردي وإطار معلن", en: "Individual report and explicit frame", ur: "شخصی روایت اور واضح سیاق" }
+      summary: { ar: "السيوطي ينقل حديث المنصور عن قراءته وفقهه وخبر محاورته مالكاً في تقديم أبي بكر وعمر؛ أساس إسلامي فردي ضمن الإطار السني المعلن، لا استنتاج من اللقب أو تبرئة سياسية {cite:tarikh-khulafa-minhaj-1434 p.427}.", en: "Suyuti transmits al-Mansur's self-description of reading/legal learning and Malik dialogue preferring Abu Bakr/Umar; individual Muslim basis within the explicit Sunni museum frame,not office inference or political exoneration {cite:tarikh-khulafa-minhaj-1434 p.427}.", ur: "سیوطی منصور کی اپنی قراءت و فقہی تعلیم اور مالک سے ابوبکر و عمر کی تقدیم کا مکالمہ نقل کرتے ہیں؛ واضح سنی سیاق میں شخصی اسلامی بنیاد، لقب سے قیاس یا سیاسی بریت نہیں {cite:tarikh-khulafa-minhaj-1434 p.427}۔" }
+      sources: [source/tarikh-khulafa-minhaj-1434]
+    - tradition: academic
+      stance: { ar: "إعادة تركيب وسوابق وخلاف", en: "Reconstruction,precedents and disagreement", ur: "تاریخی تشکیل، قدیم مثالیں اور اختلاف" }
+      summary: { ar: "ليست بغداد أول مدينة دائرية؛ اختلاف القطر واتجاهي بابي الكوفة والبصرة لا يحل بإظهار خريطة1900كأنها مسح762 {cite:tdv-bagdat-duri Foundation and plan} {cite:lestrange-baghdad-1900 p.17–18}.", en: "Not the first circular city; diameter and Kufa/Basra compass disagreements are not resolved by presenting a1900map as a762survey {cite:tdv-bagdat-duri Foundation and plan} {cite:lestrange-baghdad-1900 p.17–18}.", ur: "پہلا گول شہر نہیں؛ قطر اور کوفہ و بصرہ کی سمتوں کا اختلاف1900کے نقشے کو762کا سروے کہنے سے حل نہیں ہوتا {cite:tdv-bagdat-duri Foundation and plan} {cite:lestrange-baghdad-1900 p.17–18}۔" }
+      sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900]
+precursors:
+  - external: { ar: "مدن دائرية أقدم مثل دارابجرد والحضر", en: "Older circular towns including Darabjird and Hatra", ur: "دارابگرد اور حضر سمیت قدیم گول بستیاں" }
+    note: "Comparative precedents named by Duri,not a proven unchanged master drawing or all earlier cities invented by this commissioner."
+    sources: [source/tdv-bagdat-duri]
+dependents: []
+spread: []
+impact:
+  fields: [architecture-building, institutions-systems]
+  changed: { ar: "ربط طرق الدخول بحلقات دفاع وسكن ونواة حكومة، ثم تغيرت الأسواق والعمران {cite:lestrange-baghdad-1900 p.21–29}.", en: "Connected entrances with defensive/housing rings and a governmental nucleus,then markets and urban fabric changed {cite:lestrange-baghdad-1900 p.21–29}.", ur: "داخلی راستے دفاعی و رہائشی حلقوں اور حکومتی مرکز سے ملے؛ پھر بازار اور آبادی بدلتے رہے {cite:lestrange-baghdad-1900 p.21–29}۔" }
+  history: { ar: "نواة اتسعت بغداد خارجها وعلى ضفتي دجلة، لا حصر كل حياة المدينة في دائرة واحدة {cite:lestrange-baghdad-1900 p.15}.", en: "Nucleus beyond which Baghdad expanded on both banks of the Tigris,not all city life confined to one circle {cite:lestrange-baghdad-1900 p.15}.", ur: "ایسا مرکز جس سے باہر بغداد دجلہ کے دونوں کناروں تک پھیلا، شہر کی تمام زندگی ایک دائرے تک محدود نہیں {cite:lestrange-baghdad-1900 p.15}۔" }
+  significance: 3
+  why: "Defined commissioned urban system with older precedents,phased occupation and source-critical reconstruction; no world-first,ideal-equality or exact archaeological survey claim."
+described_in: []
+examples: []
+sites: [place/baghdad]
+concepts: []
+today:
+  form: { ar: "موضوع لتاريخ التخطيط وإعادة التركيب، لا حي دائري كامل قائم بهذا الرسم.", en: "Subject of planning history and reconstruction,not a complete surviving district identical to the drawing.", ur: "منصوبہ بندی اور تاریخی تشکیل کا موضوع، نقشے جیسا مکمل قائم گول محلہ نہیں۔" }
+  descendants: { ar: "مقارنة تعليمية بين المركز والطرق والحلقات، لا نسب مثبت لكل عاصمة مخططة لاحقة.", en: "Teaching comparison of centre,routes and rings,not proven descent of every later planned capital.", ur: "مرکز، راستوں اور حلقوں کا تعلیمی تقابل، ہر بعد کے منصوبہ بند دارالحکومت کا ثابت نسب نہیں۔" }
+media: { image: media/round-city-lestrange-plan, diagram: media/diagram-round-city-baghdad }
+kids:
+  ar: "ارسم دائرة ورقية وأربعة مداخل ومركزاً؛ أربعة أرباع زاوية كل منها90تجمع360. جرّب طريقاً شعاعياً وآخر حلقياً بالقلم، لا نار أو حفر، ولا تدّع أن القياسات هي بغداد."
+  en: "Draw a paper circle,four entrances and a centre; four90-degree quarters total360. Try radial and ring routes with a pencil,no flame or digging; the dimensions are not Baghdad's."
+  ur: "کاغذ پر دائرہ، چار راستے اور مرکز بنائیں؛ چار90درجے کے حصے360ہیں۔ پنسل سے شعاعی اور حلقہ وار راستہ آزمائیں، آگ یا کھدائی نہیں؛ یہ بغداد کی پیمائش نہیں۔"
+sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900, source/commons-round-city-lestrange, source/baladhuri-hitti-1916, source/tarikh-khulafa-minhaj-1434, source/ahsan-al-taqasim, source/muruj-al-dhahab]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b94", source: "D-136; actual Duri first article/printedPDF,Le Strange15–29/MapII/17–18scans,Hitti445–446scans,Suyuti427scan and CommonsPDmap. Existing93inventions,all279translations,559leads and original commissioner/city/prose preserved." }
