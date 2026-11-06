@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.3.0 — 2026-11-06
 
 ### Added
+- Inventions Browser91: Muawiya's seal-and-copy registry, Arabic/English/Urdu account of checking, sealing and reference copies, with older administrative influences and attribution limits. Modern sealed letters are explicit context, not an original artifact or proof of historic wax; all earlier maker perspectives and registry prose remain intact.
 - Tafsir Browser (phase 0): the proposal, the plan document `docs/plan/27-tafsir-browser.md`, and the register, plan-index, roadmap, lane and status entries for a separate wing of Qur'an commentaries, Tabari first. Approved in chat by the founder on 6 November 2026; nothing is live until the founder deploys.
 - Inventions Browser90: Abd al-Malik's epigraphic gold-coin standard in Arabic, English and Urdu, with older and transitional coinages credited, source-date differences visible, and an inspected public-domain later dinar distinguished from the first issue. No invention-of-money or modern-value claim.
 - Inventions Browser89: Umar's recurring military stipend register, Arabic-first/English/Urdu account of annual grants, monthly provisions, older administrative precedents and competing transmitted allocations; inspected Abu Yusuf pages/variant note, with contextual receipt explicitly not an original stipend ledger.
