@@ -230,7 +230,7 @@ The ~37k pagefind chunk files are served from **Cloudflare R2** (`islam-museum-s
 
 - Entity page HTML ≤ 120 KB, no JavaScript required to read, images lazy.
 - Each island ≤ 150 KB gzipped, loaded on visibility; map tiles and fonts cached by service worker.
-- Lighthouse ≥ 95 performance / 100 accessibility on entity pages (CI budget).
+- Lighthouse ≥ 90 performance / 100 accessibility on entity pages (CI budget; the performance minimum was 95 until 6 Nov 2026, when the founder lowered it to 90 because the check failed on unchanged code, see `docs/engineering/16-deploy-churn-proposal.md`).
 - WCAG 2.2 AA; full keyboard navigation; screen-reader tested in both LTR and RTL; `prefers-reduced-motion` respected; font-size and dyslexia-friendly toggles; high-contrast theme.
 - Fonts: subsetted WOFF2 self-hosted; Arabic (Noto Naskh Arabic for body, Amiri for Qur'anic text, Reem Kufi for display) and Latin (Source Serif 4 body, Inter UI).
 

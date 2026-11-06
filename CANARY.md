@@ -112,6 +112,7 @@ open a new block on top with the new version and today's date.
 
 - A connections diagram for every connected record: the tests and the API export now fail if any record with at least one typed connection to another record has no Connections Explorer file, if a diagram is not centred on its record or draws a link that is not a real connection, or if an entry page offers "explore connections" without a diagram behind it. Records linked only through shared themes have no diagram by design; their "see also" list is a recommendation, not a connection.
 - Tests for the deterministic e-book stamp, the pull-request deploy-impact check, and the new churn report in the R2 publisher.
+- The performance check on pull requests (Lighthouse) now asks for a score of at least 0.90 instead of 0.95; the accessibility check still requires a perfect 1.0. The old minimum failed pull requests that changed nothing visible, because the Arabic and Urdu home pages scored exactly 0.95 on a good run and 0.93 to 0.94 whenever the build servers were busy. Founder's decision, 6 November 2026.
 
 ### Performance
 

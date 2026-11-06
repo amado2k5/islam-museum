@@ -201,6 +201,8 @@ round trip (150 ms in the profile) plus the stylesheet sharing the simulated ban
 2,700 ms, scores 0.87 to 0.92) and a preload hint for the stylesheet changes nothing. Moving the scripts out of the page costs
 nothing (right-hand column). Real visitors would also see the extra round trip on a cold first view.
 
+**Update, same day.** The pull request's own Lighthouse run failed on the two home pages at 0.94 with the stylesheet still inline, and so did seven unrelated content-only pull requests that morning (0.93 to 0.94 on `/ur/index.html`; others passed): the gate had no margin and the runners were busy. The founder lowered the performance minimum in `lighthouserc.json` from 0.95 to 0.90 (accessibility stays at 1.0; the filed submissions only state the accessibility score). That would let a linked stylesheet through (0.93 to 0.95 in the table above), but it still costs 200 to 350 ms of first paint for every first-time visitor on a slow phone, so item 1.1 stays unbuilt until the founder says otherwise; Phase 2 narrowed (below) avoids the cost.
+
 **What the shipped change does, measured.** Two builds of 15,878 pages (every page except 24 of each 25 entity pages), the
 second after editing both shell scripts and bumping the version in `CANARY.md`: **5 of 87,725 files differ** (the two
 scripts and the three changelog pages, which render `CANARY.md`); the other 15,875 pages are byte-identical. Before this

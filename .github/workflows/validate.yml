@@ -50,7 +50,7 @@ jobs:
         run: |
           npx playwright install --with-deps chromium
           npm run axe
-      - name: Lighthouse budget (performance >= 95, accessibility = 100)
+      - name: Lighthouse budget (performance >= 90, accessibility = 100)
         uses: treosh/lighthouse-ci-action@v12
         with:
           configPath: ./lighthouserc.json
