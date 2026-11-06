@@ -12,6 +12,7 @@ provenance:
   source: "source/qanun-masudi-jundi-v1 editor's introduction scan pp. 12–25, 43; title page p. 2; preface p. 81; source/mawsuat-a3lam-ulama-adaba; source/kashf-zunun-furqan"
   translator_of: content/ar/person/al-biruni-muhammad-ibn-ahmad.md
   extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b49", source: "Urdu of new Arabic Ghazna architectural qibla section; original translation/front matter/body retained." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b48", source: "Urdu of new Arabic difference-interpolation section; original Claude translation/front matter/body retained" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "Urdu translation of new Arabic mountain-method/identity sections from actual primary translation/Britannica/TDV; prior Claude translation/authorship retained" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b39", source: "Urdu translation of new Arabic displacement-vessel section from actual Khanikoff/Ansari/Yassi selected passages; prior Claude translation/authorship retained" }
@@ -55,3 +56,7 @@ provenance:
 ## جدول کے استعمال میں فرق
 
 [[invention/biruni-difference-interpolation|فرقوں کی تصحیح سے استیفا]] کا اندراج القانون کی خاص ہدایت سمجھاتا ہے: معروف اور مدقق سیدھی و الٹی تلاش، پھر جدولوں تک تعمیم {cite:qanun-masudi-jundi-v1 scan pp.321–324,339–340}۔ یہ سارے استیفا کی ایجاد نہیں۔ پہلے ہندوستانی طریقے تاریخ میں محفوظ ہیں؛ راشد کا خلاصہ بیرونی کے چار طریقے اور سموأل کے بعد کے تقابل بتاتا ہے، ہمارے پورا مضمون پڑھنے کا دعویٰ نہیں {cite:meijering-interpolation-2002 II.B–II.C} {cite:rashed-interpolation-1991 abstract}۔ جدید تشریح لازماً تین نمونوں سے گزرتا قطع مکافی یا ہر حالت میں زیادہ صحیح جواب نہیں۔ عوامی ملکیت کی تصویر جدید تقابل ہے، مخطوط شہادت یا جدید تفاضلی حساب کا ثبوت نہیں {cite:qanun-masudi-jundi-v1 scan pp.322–323,339–340} {cite:commons-quadratic-interpolation code,rights}۔
+
+## قبلے کے حساب سے معمار کے نقشے تک
+
+[[invention/biruni-ghazna-qibla-setting-out|غزنہ کی دائروی قبلہ بندی]] کروی حساب سے کاریگروں کی دو تقریبات تک انتقال دکھاتی ہے: جنوبی نصف قطر کا تہائی، یا مغربی سرے سے اٹھارہواں حصہ اندر ایک نقطہ {cite:biruni-tahdid-ali-translation pp.241–256}۔ یہ سارے علم قبلہ کی ایجاد یا دنیا بھر میں غزنہ کے زاویے کا دعویٰ نہیں؛ متن پہلے فلکی ماہرین کو تسلیم کرتا اور محراب کی دیوار رخ پر عمودی رکھتا ہے {cite:biruni-tahdid-ali-translation pp.241,253,255–256}۔ تاریخی مثالوں کا فرق اور ترجمے میں تقسیم اور طول و جیب کے تضادات واضح ہیں، خاموشی سے درست نہیں کیے یا بغیر مقابلے کے عربی اصل پر نہیں ڈالے گئے۔ جدید سیاق کی تصویر مصنف کی شکل یا آثار کی عمارت نہیں {cite:biruni-tahdid-ali-translation pp.242,245–247} {cite:commons-spherical-triangle description,licence}۔

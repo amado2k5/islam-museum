@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: biruni-ghazna-qibla-setting-out
+    label: "Al-Biruni's two Ghazna circle approximations for architects"
+    state: "[x]"
+    batch: 2
+    domain: navigation-geography
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-biruni-muhammad-ibn-ahmad", "source/biruni-tahdid-ali-translation", "source/commons-spherical-triangle"]
+    invention: invention/biruni-ghazna-qibla-setting-out
+    lead_sources:
+      - "Actual Tahdid printed241–259;241–247/254–257 visually inspected, especially Fig.69/255–256"
+      - "Re-inspected licensed modern spherical context image, not historical construction"
+    flags: [completed-D089-b49, Ghazna-specific-not-worldwide-angle, earlier-astronomers-retained, printed-numerical-inconsistencies-disclosed, no-modern-survey-certification, three-earlier-maker-ties-retained, paper-only]
   - id: jazari-hidden-drive-water-lifter
     label: "Al-Jazari's V.3 hidden-drive jar-chain and wooden-cow display"
     state: "[x]"
