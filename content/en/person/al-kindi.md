@@ -18,6 +18,9 @@ In [[invention/frequency-analysis-al-kindi|his cryptanalytic method]], al-Kindi 
 
 The opening addresses Abu al-Abbas and says the work answers his request; neither that address nor the editors' identification becomes a fixed composition year here {cite:kindi-cryptanalysis-1987 pp. 213–214}. A seven-leaf count follows, but editorial notes emend numbers and identify three omitted letters: these are not presented as timeless Arabic frequencies {cite:kindi-cryptanalysis-1987 pp. 235–237}.
 
+## Calculating compound-drug degrees
+In [[invention/kindi-drug-degrees|his calculation of compound-drug degrees]], al-Kindi reinterpreted inherited Galenic qualities through numerical ratios: regular steps in degree corresponded to geometric increases in the ratio, leading to the problem of combining ingredients with different quantities and qualities {cite:kindi-drug-degrees-prioreschi-2002 p. 18}. Prioreschi distinguishes this treatise from the formulary, attributes its twelfth-century Latin translation to Gerard of Cremona and reports Bacon's assessment of its mathematical difficulty {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–20}. This is a historical medical model, not a prescription or clinical validation; the study supplies no specific composition year.
+
 ## Affiliation: labelled readings
 **Sunni frame and the TDV reference:** Mahmut Kaya discusses al-Kindi's defence of Islam and rejects shared questions as sufficient proof of Mu'tazili membership {cite:tdv-kindi-kaya Mu'tezile section}. The museum uses its Sunni frame with the disagreement marked, not as a documented personal declaration of a specific school.
 

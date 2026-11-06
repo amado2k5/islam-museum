@@ -1,0 +1,91 @@
+id: invention/kindi-drug-degrees
+class: invention
+label: { ar: "حساب درجات الدواء المركب عند الكندي", en: "Al-Kindi's calculation of compound-drug degrees", ur: "کندی کا مرکب دوا کے درجات کا حساب" }
+names:
+  - { value: "De gradibus", kind: alternate, lang: la }
+  - { value: "Quia primos", kind: alternate, lang: la }
+summary:
+  ar: "تفسير رياضي لدرجات صفات الدواء الموروثة عن جالينوس: تقابل الزيادة المنتظمة في الدرجة زيادة هندسية في نسبة الصفتين المتقابلتين، ثم يبحث الكندي حساب الدواء المركب {cite:kindi-drug-degrees-prioreschi-2002 p. 18}. نموذج تاريخي، لا وصفة علاج أو إثبات لفعالية الأدوية."
+  en: "A mathematical interpretation of inherited Galenic drug qualities: equal steps in degree correspond to a geometric increase in the ratio of opposing qualities, leading to a compound-drug calculation {cite:kindi-drug-degrees-prioreschi-2002 p. 18}. A historical model, not treatment advice or proof of efficacy."
+  ur: "جالینوسی دوائی کی صفات کی ریاضیاتی تعبیر: درجے کی یکساں بڑھوتری کے مقابل متضاد صفات کی نسبت ہندسی طور پر بڑھتی ہے، پھر مرکب دوا کا حساب آتا ہے {cite:kindi-drug-degrees-prioreschi-2002 p. 18}۔ تاریخی نمونہ، علاج یا تاثیر کا ثبوت نہیں۔"
+domain: pharmacy-chemistry
+kind: method
+disciplines: [medicine, mathematics]
+wings: [ideas]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "08XX"
+    calendar: julian
+    precision: century
+    status: historical
+    derived: true
+    note: "Century-level placement from the ninth-century author and Abbasid activity reported on p17, not an independently dated manuscript or a known composition year for De gradibus. No exact Hijri year is supplied or inferred."
+    sources: [source/kindi-drug-degrees-prioreschi-2002]
+  status_today: replaced
+origin:
+  place: place/baghdad
+  context:
+    ar: "عمل الكندي في بغداد في البيئة العباسية التي يصفها بريوريشي؛ لا يثبت المصدر سنة تأليف الرسالة أو موضع كتابتها بالتحديد {cite:kindi-drug-degrees-prioreschi-2002 p. 17}."
+    en: "Al-Kindi worked in Baghdad in the Abbasid setting described by Prioreschi; the source does not establish this treatise's exact composition year or writing location {cite:kindi-drug-degrees-prioreschi-2002 p. 17}."
+    ur: "پریوریسکی کی بیان کردہ عباسی فضا میں کندی بغداد میں کام کرتے تھے؛ ماخذ اس رسالے کا قطعی سال یا مقام تصنیف ثابت نہیں کرتا {cite:kindi-drug-degrees-prioreschi-2002 p. 17}۔"
+makers:
+  - person: person/al-kindi
+    role: improver
+    note: "Mathematical reinterpretation of inherited drug degrees; the separate formulary, clinical practice and universal medical priority are not this record's claim."
+    sources: [source/kindi-drug-degrees-prioreschi-2002]
+attribution:
+  status: improvement
+  claim:
+    ar: "إضافة أساس نسبي وحسابي إلى نموذج جالينوس للدرجات، لا اختراع الدواء أو الصيدلة."
+    en: "A proportional, numerical interpretation of Galenic degrees, not invention of drugs or pharmacy."
+    ur: "جالینوسی درجات کی نسبتی اور عددی تعبیر، دوا یا دوا سازی کی ایجاد نہیں۔"
+  basis:
+    ar: "يشرح بريوريشي الفرق بين الدرجات الأربع ونسب الأجزاء عند الكندي، ويعرض مسألة الجمع بين مواد مختلفة؛ حكمه بأنه أول تكميم جاد في الطب يبقى منسوباً إليه {cite:kindi-drug-degrees-prioreschi-2002 p. 18}."
+    en: "Prioreschi distinguishes the four degrees from al-Kindi's ratios and discusses combining different ingredients; his first-serious-quantification assessment remains attributed to him {cite:kindi-drug-degrees-prioreschi-2002 p. 18}."
+    ur: "پریوریسکی چار درجات اور کندی کی نسبتیں الگ کر کے مختلف اجزا ملانے کا سوال بیان کرتے ہیں؛ طب کی پہلی سنجیدہ عددی کوشش کا فیصلہ انہی سے منسوب ہے {cite:kindi-drug-degrees-prioreschi-2002 p. 18}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "درجات صفات الدواء عند جالينوس", en: "Galen's degrees of drug qualities", ur: "جالینوس کے درجات صفات دوا" }
+    note: "Inherited warm/cold and wet/dry framework; al-Kindi's numerical interpretation is the bounded improvement."
+    sources: [source/kindi-drug-degrees-prioreschi-2002]
+dependents:
+  - external: { ar: "الترجمة اللاتينية وتلقي روجر بيكون", en: "Latin translation and Roger Bacon's reception", ur: "لاطینی ترجمہ اور راجر بیکن کی پذیرائی" }
+    note: "Gerard's twelfth-century translation and Bacon's difficulty assessment are reported through Prioreschi, not independently read Latin texts or a direct lineage to modern dosing."
+    sources: [source/kindi-drug-degrees-prioreschi-2002]
+spread: []
+impact:
+  fields: [pharmacy-chemistry, medicine-surgery, mathematics]
+  changed:
+    ar: "تحولت مقارنة قوة المواد المفردة والمركبة إلى سؤال رياضي صريح؛ لا يقدم المصدر قياساً لانتشار الاستعمال أو تحسن نتائج المرضى {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–19}."
+    en: "Comparison of simple and compound strengths became an explicit mathematical problem; the source supplies no measured adoption or patient-outcome improvement {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–19}."
+    ur: "مفرد و مرکب کی قوت کا موازنہ ایک واضح ریاضیاتی سوال بنا؛ ماخذ استعمال کے پھیلاؤ یا مریضوں کے نتائج کی پیمائش نہیں دیتا {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–19}۔"
+  history:
+    ar: "نقلت الترجمة اللاتينية النص، وناقش بيكون صعوبة حسابه كما ينقل بريوريشي؛ ليس هذا دليلاً على استعمال عام أو سلسلة وصول إلى الطب الحديث {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–20}."
+    en: "Latin translation carried the text, and Bacon discussed its mathematical difficulty, as reported by Prioreschi; this does not establish general adoption or a chain to modern medicine {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–20}."
+    ur: "لاطینی ترجمے سے متن پہنچا اور بیکن نے حساب کی دشواری بیان کی، جیسا کہ پریوریسکی نقل کرتے ہیں؛ یہ عام استعمال یا جدید طب تک سلسلے کی دلیل نہیں {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–20}۔"
+  significance: 3
+  why: "A distinct mathematical proposal about inherited drug qualities, with documented textual reception but no established clinical efficacy or modern transmission chain."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "موضوع لتاريخ التكميم الطبي كما يعرضه مقال2002، لا معيار جرعات معاصر يقره هذا السجل {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–19}."
+    en: "A subject in the history of medical quantification in the2002 study, not a contemporary dosing standard endorsed by this record {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–19}."
+    ur: "2002 کے مطالعے میں طبی مقدار بندی کی تاریخ کا موضوع، اس ریکارڈ کا منظور کردہ جدید معیار خوراک نہیں {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–19}۔"
+  descendants:
+    ar: "المثبت هنا تلقي النص اللاتيني، لا نسب مباشر إلى كل نموذج دوائي حديث {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–20}."
+    en: "The documented continuation here is Latin textual reception, not direct ancestry of every modern drug model {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–20}."
+    ur: "یہاں ثابت تسلسل لاطینی متن کی پذیرائی ہے، ہر جدید دوائی کے نمونے کی براہ راست اصل نہیں {cite:kindi-drug-degrees-prioreschi-2002 pp. 18–20}۔"
+media: { image: media/kindi-pharmacy-jar-context, diagram: media/diagram-kindi-drug-degrees }
+kids:
+  ar: "تخيل سلماً للأرقام: رقم الدرجة يزيد خطوة واحدة، لكن عدد القطع في النموذج يتضاعف. حاول الكندي بهذا الفرق أن يجعل وصف قوة الدواء سؤالاً حسابياً. نفهم الفكرة بقطع ورقية ملونة، لا بخلط أدوية؛ النموذج القديم ليس نصيحة للعلاج."
+  en: "Imagine a number ladder: the degree rises one step while the number of pieces in the model doubles. Al-Kindi used this distinction to turn a description of drug strength into a mathematical question. Think with coloured paper counters, not mixed medicines: an old model is not treatment advice."
+  ur: "اعداد کی سیڑھی سوچیں: درجہ ایک قدم بڑھتا ہے مگر نمونے کے ٹکڑے دوگنے ہوتے ہیں۔ کندی نے اس فرق سے دوا کی قوت کو حسابی سوال بنایا۔ رنگین کاغذ کے ٹکڑوں سے خیال سمجھیں، دوائیں نہ ملائیں؛ پرانا نمونہ علاج کا مشورہ نہیں۔"
+sources: [source/kindi-drug-degrees-prioreschi-2002, source/tdv-kindi-kaya, source/commons-medicinal-jar-mnk]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b23", source: "Complete four-page Prioreschi article; existing sourced maker identity and labelled disagreement; inspected CC0 contextual jar. Not independent reading of De gradibus, Bacon or McVaugh, nor clinical validation" }
