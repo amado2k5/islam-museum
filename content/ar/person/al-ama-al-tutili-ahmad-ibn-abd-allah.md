@@ -11,4 +11,4 @@ translators: []
 يلقّب بالأعمى لأنه كان ضريراً، ويُنسب إلى تطيلة وإشبيلية. {cite:mawsuat-a3lam-ulama-adaba}
 
 ## وفاته
-توفي سنة 525هـ (1129م) بحسب الموسوعة. {cite:mawsuat-a3lam-ulama-adaba}
+توفي سنة 525هـ ⁦(1129م)⁩ بحسب الموسوعة. {cite:mawsuat-a3lam-ulama-adaba}
