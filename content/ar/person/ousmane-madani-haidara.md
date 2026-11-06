@@ -27,9 +27,9 @@ translators: []
 
 ## المراجع
 
-- ويكيبيديا (الإنجليزية)، مقالة «Chérif Ousmane Madani Haïdara»، كما قُرئت في 4 نوفمبر 2026. {cite:wikipedia-ousmane-madani-haidara-en}
-- ويكيبيديا (الفرنسية)، مقالة «Chérif Ousmane Madani Haïdara»، كما قُرئت في 4 نوفمبر 2026. {cite:wikipedia-ousmane-madani-haidara-fr}
+- ويكيبيديا ⁦(الإنجليزية)⁩، مقالة «Chérif Ousmane Madani Haïdara»، كما قُرئت في 4 نوفمبر 2026. {cite:wikipedia-ousmane-madani-haidara-en}
+- ويكيبيديا ⁦(الفرنسية)⁩، مقالة «Chérif Ousmane Madani Haïdara»، كما قُرئت في 4 نوفمبر 2026. {cite:wikipedia-ousmane-madani-haidara-fr}
 - جايلز هولدر، «الشريف عثمان مدني حيدرة وحركة أنصار الدين الإسلامية: إصلاحية مالية شعبية تبحث عن الاستقلال»، Cahiers d'études africaines، 206-207 (2012)، ص 389–425. {cite:holder-ansar-dine-2012}
 - لوكا راينيري، «الحوارات الدينية ومرونة المجتمعات وبناء السلام في الساحل»، موجز سياسات ETRA-ID، معهد سانت آنا للدراسات المتقدمة، أبريل 2024. {cite:raineri-sahel-brief-2024}
-- «صوت أمريكا»، «قادة الصوفية في مالي يدعون ضد التطرف»، 25 مايو 2016 (كما أعاد نشره موقع Tolerance.ca). {cite:voa-sufi-leaders-2016}
+- «صوت أمريكا»، «قادة الصوفية في مالي يدعون ضد التطرف»، 25 مايو 2016 ⁦(كما أعاد نشره موقع Tolerance.ca)⁩. {cite:voa-sufi-leaders-2016}
 - «فاسو أكتو»، «السيد عثمان شريف حيدرة: صوت روحي في خدمة السلام والتسامح في مالي»، 10 سبتمبر 2026. {cite:fassoactu-haidara-2026}
