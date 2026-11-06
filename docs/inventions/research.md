@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: research method
 
+## Invention91 — seal-and-copy registry (6 November 2026)
+
+Existing Urdu concept prose was discovered when an add-file operation correctly refused to overwrite it. Read it and appended the same rich sections as ar/en,retaining its complete original prefix; no replacement or duplicate file.
+
+Actually read Suyuti Dar al-Minhaj OCR printed332, al-Askari transmission: Muawiya institutes diwan al-khatim, assigns Ubayd Allah ibn Aws al-Ghassani, unnamed recipient alters100000to200000, later-continuity claim. No independently read original al-Askari edition, exact year/currency/recipient supplied; keep account as literary evidence, not preserved warrant or universal immunity to tampering. Existing concept `diwan-al-khatim` already covers story; reuse/enrich, preserve earlier prose/attribution/status.
+
+Actual Duri TDV first article early-Umayyad paragraph: resail checking, sealing and retained-copy bureau under Muawiya; separate Baladhuri-attributed Iranian-influenced control practice under Ziyad. Antecedent qualified, not invention of every seal/office. Source-supplied661–680reign used only as explicitly derived horizon; no decree-year or AH conversion invented. Seal's presence is not proof contents are true, unread by anyone, or alteration impossible. Barid is transport, not the same registry. Actual TDV Muawiya opening/middle/conclusion read; HTML verifies Irfan Aycan/current2020metadata/330–332. Explicit individual conversion, broader Sunni framing and political controversies; original maker's differing conversion accounts retained.
+
+Actual Commons generator API/file page/history read: Simon A. Eugster,ownwork,21October2016,CC BY-SA3.0. Original5464x2720focus-stacked modern photo downloaded/visually inspected: folded envelopes, red/green impressions, wax bar/stamp and candle, no people. Contextual illustration of a physical seal, not original Umayyad artifact or historical wax evidence. Explicit original licence3.0/link/unmodified credit under repository's existing family convention; no fire instructions. Met search410 and AI-suggested lead-seal page404 respected, no ancient seal/date claim adopted. All downloads/API/photo outside git.
+
 ## Invention90 — epigraphic gold-coin standard (6 November 2026)
 
 Initial validation identified unsupported top-level source volume/page fields, missing required invention concepts array and noncanonical Hijri string. Kept volume/page facts in the allowed source reliability note, supplied the truthful empty concepts array and canonical year0077; no schema/validator weakening or invented concept/date.

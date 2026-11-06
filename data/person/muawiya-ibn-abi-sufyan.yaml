@@ -49,6 +49,7 @@ faith:
   sources:
   - source/ibn-hajar-isaba
 inventions:
+- { invention: invention/muawiya-seal-copy-registry, role: commissioner, sources: [source/tarikh-khulafa-minhaj-1434, source/tdv-divan-duri] }
 - { invention: invention/barid, role: commissioner, sources: [source/subh-al-asha-cairo-v14, source/tarikh-khulafa-minhaj-1434, source/tdv-berid] }
 relations:
 - type: child_of
@@ -118,7 +119,11 @@ provenance:
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-batch-8, lib-tarikh-khalifa-batch-2-2026-10-31, inventions-p3-b04 (Copilot SDK in VS Code — faith source and barid invention tie)
+  extensions:
+  - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b91", source: "D-133; additive registry tie/prose from actual Suyuti332,Duri/Aycan; original faith,conversion perspectives,barid tie,assessments,status/provenance/prose preserved." }
 sources:
+- source/tdv-divan-duri
+- source/tdv-muaviye-aycan
 - source/subh-al-asha-cairo-v14
 - source/tarikh-khulafa-minhaj-1434
 - source/tdv-berid
