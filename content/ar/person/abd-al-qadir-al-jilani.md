@@ -9,13 +9,13 @@ translators: []
 محيي الدين أبو محمد عبد القادر بن أبي صالح الجيلاني، من كبار مشايخ التصوف السني، ونُسب إلى جيلان. {cite:mawsuat-a3lam-ulama-adaba}
 
 ## أثره
-كان له أثر كبير في الوعظ والإرشاد. {cite:mawsuat-a3lam-ulama-adaba} ولد سنة 470هـ (1078م) وتوفي سنة 561هـ (1166م). {cite:mawsuat-a3lam-ulama-adaba}
+كان له أثر كبير في الوعظ والإرشاد. {cite:mawsuat-a3lam-ulama-adaba} ولد سنة 470هـ ⁦(1078م)⁩ وتوفي سنة 561هـ ⁦(1166م)⁩. {cite:mawsuat-a3lam-ulama-adaba}
 
 ## ملاحظات للباحثين
 - لا تتجاوز البيانات هذا القدر؛ سيرته ومؤلفاته تحتاج إلى مصدر إضافي.
 
 ## في برنامج «المبدعون»
-يقدّم طارق السويدان عبد القادر الجيلاني — مؤسس الطريقة القادرية — نموذج التوازن بين العلم والإيمان: «ليست الصوفية كلها باطلاً، فمنها السنية الصحيحة ومن قادتها عبد القادر» (تصحيحه للصورة العامة) {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:01:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:12:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:12:30}.
+يقدّم طارق السويدان عبد القادر الجيلاني — مؤسس الطريقة القادرية — نموذج التوازن بين العلم والإيمان: «ليست الصوفية كلها باطلاً، فمنها السنية الصحيحة ومن قادتها عبد القادر» ⁦(تصحيحه للصورة العامة)⁩ {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:01:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:12:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:12:30}.
 ومن نسبه: حسنيّ الأب — من ذرية الحسن بن علي بأحد عشر أباً — وحسينيّ الأم، ومن جهة أمّ أبيه من ذرية أبي بكر الصديق {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:02:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:03:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:03:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:04:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:04:30}.
 ومن نشأته: ولد بجيلان قرب بحر قزوين في 9 ربيع الآخر 470هـ يتيماً زاهداً منذ صغره؛ وهاجر إلى بغداد سنة 488هـ فجهزته أمه السبعينية بأربعين ديناراً خبأتها في ثيابه موصيةً «إياك أن تكذب فإن المؤمن لا يكذب» {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:05:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:05:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:06:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:07:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:07:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:13:00}.
 وقصة القافلة: هجم لصوص على قافلتهم فلما سألوه «هل معك شيء؟» أجاب «نعم، أربعون ديناراً» وأخرجها — فتاب رئيس العصابة على يديه ببركة صدقه {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:08:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:09:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep20 00:09:30}.

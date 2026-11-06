@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-عبد الرحمن بن ربيعة أمير [[place/bab-al-abwab|الباب]] (باب الأبواب) في خلافة [[person/uthman-ibn-affan|عثمان]]. قتل سنة 32هـ في غزوه نحو [[place/balanjar|بلنجر]]. {cite:kamil-ibn-al-athir p. 503 v.2}
+عبد الرحمن بن ربيعة أمير [[place/bab-al-abwab|الباب]] ⁦(باب الأبواب)⁩ في خلافة [[person/uthman-ibn-affan|عثمان]]. قتل سنة 32هـ في غزوه نحو [[place/balanjar|بلنجر]]. {cite:kamil-ibn-al-athir p. 503 v.2}
 
 ## غزوة بلنجر
 كتب إليه عثمان ينهاه عن اقتحام الدروب بالمسلمين، خشية أن يقتلوا. ولم يرجع عن مقصده، فاجتمع عليه الترك والخزر وقاتلوه قتالاً شديداً، فقتل. وكان يقال له «ذو النور»، وهو اسم سيفه. {cite:kamil-ibn-al-athir p. 503 v.2}

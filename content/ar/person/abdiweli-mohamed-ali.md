@@ -7,7 +7,7 @@ translators: []
 
 # عبد الولي محمد علي
 
-عبد الولي محمد علي (ولد في 2 يوليو 1965)، المعروف بعبد الولي غاس، اقتصادي وسياسي صومالي شغل رئاسة وزراء الصومال من 2011 إلى 2012 ورئاسة بونتلاند من 2014 إلى 2019.{cite:source/wikipedia-abdiweli-mohamed-ali-en}{cite:source/wikidata-abdiweli-mohamed-ali}
+عبد الولي محمد علي ⁦(ولد في 2 يوليو 1965)⁩، المعروف بعبد الولي غاس، اقتصادي وسياسي صومالي شغل رئاسة وزراء الصومال من 2011 إلى 2012 ورئاسة بونتلاند من 2014 إلى 2019.{cite:source/wikipedia-abdiweli-mohamed-ali-en}{cite:source/wikidata-abdiweli-mohamed-ali}
 
 ## اقتصادي في أمريكا
 
