@@ -7,7 +7,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-
 ---
 ## موجز
 
-«بدائع الصنائع في ترتيب الشرائع» كتاب في فقه [[group/hanafi-madhhab|الحنفية]] لـ[[person/ala-al-din-al-kasani|علاء الدين أبي بكر بن مسعود الكاساني]] (ت 587هـ). {cite:badai-sanai-ilmiyya-v1 p.1} {cite:badai-sanai-ilmiyya-v1 p.76}
+«بدائع الصنائع في ترتيب الشرائع» كتاب في فقه [[group/hanafi-madhhab|الحنفية]] لـ[[person/ala-al-din-al-kasani|علاء الدين أبي بكر بن مسعود الكاساني]] ⁦(ت 587هـ)⁩. {cite:badai-sanai-ilmiyya-v1 p.1} {cite:badai-sanai-ilmiyya-v1 p.76}
 
 ## مقدمة المؤلف وسبب التسمية
 

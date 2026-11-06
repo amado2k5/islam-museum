@@ -8,7 +8,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-
 
 ## موجز
 
-«المحلى بالآثار في شرح المجلى بالاختصار» كتاب في الفقه لـ[[person/ibn-hazm|أبي محمد علي بن أحمد بن حزم]] الأندلسي، وبه يُعرف مذهبه [[group/zahiri-madhhab|الظاهري]]. {cite:muhalla-dar-ibn-hazm-2016-v1 p.136} وطبعة المتحف طبعة دار ابن حزم ببيروت (1437هـ/2016م) بإشراف خالد الرباط، عن بضعة وستين مجلداً من النسخ الخطية. {cite:muhalla-dar-ibn-hazm-2016-v1 p.1} {cite:muhalla-dar-ibn-hazm-2016-v1 p.2} {cite:muhalla-dar-ibn-hazm-2016-v1 p.9} ويقدّر محققوها ما فيه من الأقوال والآثار ببضعة وعشرين ألف قول وأثر. {cite:muhalla-dar-ibn-hazm-2016-v1 p.10}
+«المحلى بالآثار في شرح المجلى بالاختصار» كتاب في الفقه لـ[[person/ibn-hazm|أبي محمد علي بن أحمد بن حزم]] الأندلسي، وبه يُعرف مذهبه [[group/zahiri-madhhab|الظاهري]]. {cite:muhalla-dar-ibn-hazm-2016-v1 p.136} وطبعة المتحف طبعة دار ابن حزم ببيروت ⁦(1437هـ/2016م)⁩ بإشراف خالد الرباط، عن بضعة وستين مجلداً من النسخ الخطية. {cite:muhalla-dar-ibn-hazm-2016-v1 p.1} {cite:muhalla-dar-ibn-hazm-2016-v1 p.2} {cite:muhalla-dar-ibn-hazm-2016-v1 p.9} ويقدّر محققوها ما فيه من الأقوال والآثار ببضعة وعشرين ألف قول وأثر. {cite:muhalla-dar-ibn-hazm-2016-v1 p.10}
 
 ## مكانه بين كتب ابن حزم الفقهية
 
