@@ -33,3 +33,9 @@ Simplicity, low cost and fewer defects are described as design aims. We do not c
 MacTutor's individual description as an Islamic mathematician supplies the Muslim identity basis. Sunni is separately the museum's declared default frame; no personal school was established by these readings or inferred from Tus, a pupil or another Tusi. The earlier import's Sezgin reference, external identifier and author attribution remain in the data, with its source-reading limitation preserved {cite:sharaf-tusi-mactutor summary}.
 
 This enrichment corrects the initial card's unsupported Maragha teaching claim rather than republishing the conflation. The actual edition distinguishes Sharaf from Nasir. Uncertain life dates and the difference between bibliographical reference and direct inspection remain part of the biography, not hidden qualifications {cite:carra-vaux-linear-astrolabe-1895 p465} {cite:tdv-sharaf-tusi-ozel biography}.
+
+## Analyzing positive solutions
+
+The [[invention/sharaf-tusi-positive-cubic-roots|positive-root analysis for cubics]] records a contribution separate from the staff. The reference illustrates x³+a=bx with positive parameters, using the maximum of bx−x³ to determine solution possibility. The [[work/al-muadalat-sharaf-tusi|Treatise on Equations]] record explains the anonymous abridgement and omitted tables through the biographies,not an inspected Rashed edition or manuscript {cite:sharaf-tusi-mactutor equations} {cite:tdv-sharaf-tusi-ozel works1}.
+
+The invention article's numerical examples and algebraic identity are independent modern explanations,not reconstructed missing table entries. The derivative analogy remains an attributed historical debate,not a verdict that Sharaf invented complete modern calculus or that Newton and Horner directly received the procedure from him {cite:sharaf-tusi-mactutor derivative-discussion-and-numerical-approximation}.
