@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: jazari-alternating-fountain
+    label: "Al-Jazari's IV.1 two-bucket alternating fountain"
+    state: "[x]"
+    batch: 2
+    domain: water-agriculture
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-jazari-engineer", "source/jazari-hill-1974"]
+    invention: invention/jazari-alternating-fountain
+    lead_sources:
+      - "source/jazari-hill-1974 actualIV.1 primary157–158 and critical263; opening/158 visually inspected"
+      - "source/commons-jazari-water-device actual comparative manuscript image and PD-Art rights, exact chapter/shelfmark unverified"
+    flags: [completed-D084-b44, single-jet-vs-six-arcs-not-all-fountains, externally-supplied-not-perpetual, original-vs-copy-criticism-attributed, calibrated-not-certified-hour, five-earlier-maker-ties-retained]
   - id: zahrawi-dental-scrapers
     label: "Al-Zahrawi's differentiated dental scrapers"
     state: "[x]"

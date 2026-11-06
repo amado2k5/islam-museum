@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "107–109، نقد256 اور فریئر1315 سے کشتی کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }] }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "107–109، نقد256 اور فریئر1315 سے کشتی کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "157–158 اور263 سےIV.1 فوارے کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }] }
 ---
 ## خلاصہ
 بدیع الزمان ابو العز اسماعیل بن الرزاز جزری میکانکی حیلوں کے انجینئر اور مصنف تھے۔ ٹی ڈی وی انہیں اسلامی عالم کہتا اور کتاب کے مقدمے سے باہر زندگی کی معلومات کم بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ وہ 1181–1206ء میں [[place/amid|آمد]] کے ارتقی دربار سے وابستگی اور ناصر الدین محمود کی فرمائش پر کتاب لکھنے کا ذکر کرتا ہے، جس کی تکمیل 1205ء بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ خدمت کے سالوں کو پیدائش اور وفات کی تاریخ نہیں بنایا گیا۔
@@ -41,7 +41,12 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 حصہII، باب4 کی [[invention/jazari-musical-boat|موسیقی والی نمائشی کشتی]] اندر کے پانی کی دفعتی حرکت سے ہاتھ اور سیٹی چلاتی، پانی بدن میں جمع کرکے اگلے دن واپس لاتی ہے {cite:jazari-hill-1974 pp.107–109}۔ تار والے ساز کی انگلیاں تار نہیں چھوتیں، تصویری فہرست کے کھونٹوں کی گنتی سابق عبارت سے مختلف ہے؛ ہل ملاحوں کی گم قوت اور پانی گھٹنے سے بڑھتے وقفے بھی بتاتے ہیں {cite:jazari-hill-1974 pp.109,256}۔ یہ محدود نظام کا بیان ہے، پہلے پروگرام شدہ روبوٹ یا دائمی حرکت کی سند نہیں۔ فریئر F1930.73،1315 کی نقل ہے جس کے خطاط فروخ بن عبد اللطیف درج ہیں، اصل مشین یا مصنف کا چہرہ نہیں {cite:freer-jazari-musical-boat catalogue}۔
 
+## فوارے کی باری اور اس کے حالات
+
+[[invention/jazari-alternating-fountain|دو ڈول والے باری بدلتے فوارے]]، IV.1، میں چھوٹی شاخ وقت کا ڈول بھرتی ہے جو دو مخزنوں میں رسد بدلتا، یوں ایک سیدھی اور چھ خم دار دھاریں باری لیتی ہیں؛ بیرونی پانی، بلندی اور معايرہ شرط ہیں، دائمی حرکت یا ناپی دقت نہیں {cite:jazari-hill-1974 pp.157–158,263}۔ بنو موسیٰ کے بیان پر مصنف کا نقد اصل یا نقل کی الجھن کھلی رکھتا ہے؛ ہل غائب پچھلے ابھار اور سہاروں کی غلط سمت کو اپنی جدید تعبیر سے الگ بتاتے ہیں {cite:jazari-hill-1974 pp.157,263}۔ یہ پورے نظام کا الگ کردار ہے، ہر دہانہ نئی ایجاد نہیں۔
+
 ## مراجع
+- فوارہIV.1: ہل کے اصل منتخب157–158، شکل120–121 اور نقد263 {cite:jazari-hill-1974 pp.157–158,263}۔
 - کشتی: ہل107–109/نقد256؛ [[source/freer-jazari-musical-boat|فریئر F1930.73 اور حقوق کے کوائف]] {cite:jazari-hill-1974 pp.107–109,256} {cite:freer-jazari-musical-boat catalogue,rights}۔
 - ڈونلڈ ہل1974 کے ترجمے اور توضیح کے منتخب حصے {cite:jazari-hill-1974 pp.17–22,24–25,39–41,editor-notes-I.1}۔
 - بوسٹن کی باضابطہGoogle شراکتی فہرست اور1354 تصویر کی معلومات {cite:mfa-castle-clock-14533 catalogue,metadata}۔

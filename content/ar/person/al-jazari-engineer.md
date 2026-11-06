@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; appended castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue, limited-reading sentence updated, not a rewrite or full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "إضافة القارب من107–109 ونقد256 وصورة فرير1315؛ حفظ كل النص السابق ونسبته" }] }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; appended castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue, limited-reading sentence updated, not a rewrite or full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "إضافة القارب من107–109 ونقد256 وصورة فرير1315؛ حفظ كل النص السابق ونسبته" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "إضافة نافورةIV.1 من157–158 والتعليق263؛ حفظ كل النص السابق والنسبة" }] }
 ---
 ## موجز
 بديع الزمان أبو العز إسماعيل بن الرزاز الجزري مهندس ومؤلف في الحيل، تصفه موسوعة TDV عالماً إسلامياً، وتقول إن ما يعرف عن حياته خارج مقدمة كتابه قليل {cite:tdv-cezeri pp. 505–506}. تذكر خدمته للأرتقيين في [[place/amid|آمد]] بين 1181 و1206م وكتاباً كتبه بطلب الأمير ناصر الدين محمود، تؤرخ إتمامه بسنة 1205م {cite:tdv-cezeri pp. 505–506}. لا تتحول سنتا الخدمة إلى تاريخي ميلاد ووفاة.
@@ -41,7 +41,12 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 يصف القسمII، الباب4 [[invention/jazari-musical-boat|قارب عرض موسيقي]] يستهلك ماءً محمولاً داخله على دفعات لتحريك الأيدي وإصدار صفير، مع جمع الماء في البدن وإعادته في اليوم التالي {cite:jazari-hill-1974 pp.107–109}. أصابع عازفة الوتر لا تمس الأوتار، ويخالف عدد الأوتاد في قائمة الرسم الوصف السابق؛ وينبه هيل إلى غياب آلية البحارة وإطالة الفواصل مع انخفاض الماء {cite:jazari-hill-1974 pp.109,256}. هذا وصف تركيب محدود، لا إثبات أول روبوت مبرمج أو حركة دائمة. ورقة فريرF1930.73 نسخة1315 بخط فروخ بن عبد اللطيف، لا آلة أصلية أو صورة المؤلف {cite:freer-jazari-musical-boat catalogue}.
 
+## النافورة والتناوب المشروط
+
+في [[invention/jazari-alternating-fountain|نافورة الدلوين المتناوبة]]، القسمIV الباب1، يملأ فرع صغير دلو توقيت يقلب أنبوب التغذية بين خزانين، فتتناوب نفثة رأسية وست مقوسة؛ المورد الخارجي والارتفاع والمعايرة شروط الوصف، لا حركة دائمة أو شهادة دقة {cite:jazari-hill-1974 pp.157–158,263}. نقد المؤلف لأوصاف بني موسى يترك منشأ الالتباس في الأصل أو النسخة مفتوحاً، فيما يميز هيل بروزات الدلو الغائبة واتجاه المحامل الخاطئ في الرسم عن تفسيره الحديث {cite:jazari-hill-1974 pp.157,263}. هذا دور مستقل للتركيب كله، لا كل فوهة اختراعاً جديداً.
+
 ## المراجع
+- النافورةIV.1: هيل157–158 والشكلان120–121 والتعليق263، قراءة مختارات فعلية {cite:jazari-hill-1974 pp.157–158,263}.
 - القارب: هيل107–109 والتعليق256؛ [[source/freer-jazari-musical-boat|فريرF1930.73 وبيانات الحقوق]] {cite:jazari-hill-1974 pp.107–109,256} {cite:freer-jazari-musical-boat catalogue,rights}.
 - مختارات ترجمة دونالد هيل1974 وتعليقه على ساعة القلعة {cite:jazari-hill-1974 pp.17–22,24–25,39–41,editor-notes-I.1}.
 - فهرسة بوسطن عبرGoogle وبيانات صورة1354 {cite:mfa-castle-clock-14533 catalogue,metadata}.

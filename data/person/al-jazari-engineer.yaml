@@ -20,6 +20,11 @@ faith:
     note: "TDV explicitly identifies him as an Islamic scholar (İslâm bilgini), the source basis for Muslim identity. No school or contrary tradition is identified in the biography used; Sunni is the museum's explicit default frame (docs/scope.md), not a newly attested personal school or an inference from name, ethnicity or place."
     sources: [source/tdv-cezeri]
 inventions:
+  - invention: invention/jazari-alternating-fountain
+    role: describer
+    place: place/amid
+    note: "IV.1 single fountain alternates one vertical jet/six arcs using two timing buckets; external supply, calibration and source-drawing limits explicit."
+    sources: [source/jazari-hill-1974]
   - invention: invention/jazari-musical-boat
     role: describer
     place: place/amid
@@ -55,5 +60,6 @@ provenance:
   run: "inventions-p3-b16"
   source: "TDV CEZERÎ pp. 505–506 and Met 57.51.23 metadata/Leoni catalogue entry, read 2026-11-06. No birth/death dates inferred from court-service dates. Extended in inventions-p3-b17 with the pump tie, actual al-Hassani survey and Science Museum model catalogue; their 1205/1206 book-date difference is preserved in prose. Extended in inventions-p3-b18 with the Cleveland peacock-design tie/prose; construction is explicitly uncertain."
   extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "Added distinctIV.1 fountain tie/section from actual157–158/263; original fields/faith/five prior ties/biography attribution preserved" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "Added distinct musical-boat tie/section from actual selectedII.4 and criticism256 plus institutional1315 folio; original fields/faith/four prior ties/biography attribution preserved" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Castle-clock tie/biography extension from actual selected Hill1974 primary/commentary in shared Archive browser,17/24 images, official MFA-via-Google catalogue and Commons1354 image/rights; prior three ties, identity and authorship preserved" }
