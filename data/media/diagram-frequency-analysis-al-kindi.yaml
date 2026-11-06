@@ -1,0 +1,19 @@
+id: media/diagram-frequency-analysis-al-kindi
+class: media
+kind: illustration
+label: { ar: "سلسلة: التعمية وتحليل الحروف والكتابة اللاحقة", en: "Chain: concealment, letter analysis and later writing", ur: "سلسلہ: تعمیہ، حروف کا تجزیہ اور بعد کی تحریر" }
+summary:
+  ar: "سلسلة علاقات يرسمها الموقع عند البناء؛ خطوات العد والتحقق مشروحة في المقالة، ولا يدعي الرسم خوارزمية لفك كل تعمية."
+  en: "Build-time relationship chain; counting and verification are explained in prose, not a purported algorithm for breaking every cipher."
+  ur: "تعمیر کے وقت بننے والا تعلقاتی سلسلہ؛ گنتی اور جانچ متن میں ہیں، ہر رمز توڑنے کا الگورتھم نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/frequency-analysis-al-kindi]
+alt:
+  ar: "تقاليد إخفاء الرسائل، ثم تحليل الكندي للحروف، ثم مصنفات استخراج المعمى اللاحقة؛ لا انتقال مباشر مثبت إلى تشفير الحاسوب."
+  en: "Earlier message concealment, al-Kindi's letter analysis, later cryptanalytic treatises; no asserted direct route to computer encryption."
+  ur: "پہلے پوشیدہ پیغامات، پھر کندی کا حروفی تجزیہ اور بعد کے رسالے؛ کمپیوٹر رمز تک براہ راست انتقال کا دعویٰ نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/kindi-cryptanalysis-1987, source/tdv-muamma]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b19", source: "Primary method and TDV's later-writer context; relationship diagram, not a cryptographic implementation" }
