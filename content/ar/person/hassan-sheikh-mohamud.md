@@ -7,7 +7,7 @@ translators: []
 
 # حسن شيخ محمود
 
-حسن شيخ محمود (ولد في 29 نوفمبر 1955) سياسي صومالي يشغل رئاسة الصومال منذ 2022، بعد أن شغلها قبل ذلك من 2012 إلى 2017 — فهو أول رئيس صومالي يخدم فترتين غير متتاليتين.{cite:source/wikipedia-hassan-sheikh-mohamud-en}{cite:source/wikidata-hassan-sheikh-mohamud}
+حسن شيخ محمود ⁦(ولد في 29 نوفمبر 1955)⁩ سياسي صومالي يشغل رئاسة الصومال منذ 2022، بعد أن شغلها قبل ذلك من 2012 إلى 2017 — فهو أول رئيس صومالي يخدم فترتين غير متتاليتين.{cite:source/wikipedia-hassan-sheikh-mohamud-en}{cite:source/wikidata-hassan-sheikh-mohamud}
 
 ## التعليم والمسيرة المدنية
 
