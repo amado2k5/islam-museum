@@ -127,10 +127,18 @@ export function msToYear(ms: number): number {
 }
 export interface Range { earliest: number; latest: number }
 
-/** Parse an EDTF string into a numeric year range; throws on invalid input. */
+/**
+ * Parse an EDTF string into a numeric year range; throws on invalid input.
+ * An open or unknown end ("1079/..", "../1429", "1079/") has no number: the edtf library gives ±Infinity or null,
+ * which JSON writes as null and breaks every consumer of the compiled graph. Such an end collapses onto the known one,
+ * so "after 1079" is placed at 1079 (its earliest attested point), never at infinity. Both ends unknown is an error.
+ */
 export function edtfRange(s: string): Range {
   const d: any = edtf(s);
-  return { earliest: msToYear(d.min), latest: msToYear(d.max) };
+  const lo = typeof d.min === "number" && Number.isFinite(d.min) ? msToYear(d.min) : undefined;
+  const hi = typeof d.max === "number" && Number.isFinite(d.max) ? msToYear(d.max) : undefined;
+  if (lo === undefined && hi === undefined) throw new Error(`EDTF "${s}" has no known bound`);
+  return { earliest: lo ?? hi!, latest: hi ?? lo! };
 }
 
 export function dateRange(d: any): Range | undefined {

@@ -75,6 +75,7 @@ open a new block on top with the new version and today's date.
 
 ### Fixed
 - The Modern Islam Browser no longer links to year pages it never builds. Year pages exist from 1976 to the build year, but the "by decade" chips on a section page pointed at the decade's first year (1970, 2030), and the year chip on an entity page pointed at the record's own year, even a future one such as 2034 for the 2034 World Cup. The internal link check failed on all 33 of them in the three languages, so no pull request could pass. Now one helper decides: a year with a page is a link, a decade chip links to its first year that has a page (the 1970s to 1976), and any other year is shown as plain text. A unit test covers the helper, and the site check now fails the build on any link to a year page that does not exist.
+- The site builds again with open-ended dates. A date such as "after 1079" (`1079/..`, now on Ibn Mu'adh al-Jayyani's death) has no end year: the date library returns infinity, the compiled graph saved it as null, and the next build step crashed, so `npm run build` failed on main. An open or unknown end now takes the known year, so "after 1079" is placed at 1079 on the timelines. The same holds for the inventions dated "before 1429" and the like. A date with neither end known is still rejected. Tests cover all four open forms.
 
 ---
 
