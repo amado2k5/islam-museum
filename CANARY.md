@@ -98,6 +98,7 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses (Urdu, batch 26): brackets are isolated only inside Urdu values in 4 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 25): brackets are isolated only inside Urdu values in 1 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 24): brackets are isolated only inside Urdu values in 14 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 23): brackets are isolated only inside Urdu values in 14 data files. English and Arabic text is left exactly as it was.
