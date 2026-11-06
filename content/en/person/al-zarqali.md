@@ -13,7 +13,9 @@ Al-Zarqali observed the Sun for twenty-five years from 1050, and published his r
 
 ## The safiha
 
-His most famous invention was the universal astrolabe plate that carries his name, the safiha zarqaliyya (Latin: Saphaea). Unlike an ordinary astrolabe, whose plates must be swapped for each latitude, his plate worked at any latitude, which made it a practical instrument for navigators; it remained in use into the 16th century. He wrote a treatise on its construction and use, later translated into Latin by Bernard of Aragon {cite:wikipedia-al-zarqali-en}.
+The [[invention/universal-astrolabe-al-zarqali|universal zarqaliyya plate]] replaces local latitude plates with coordinate grids and a horizon ruler: an astrolabe improvement, not its invention from nothing {cite:zarqaliyya-bir-2020 pp. 47–53}. Puig distinguishes the 100-chapter zarqaliyya treatise from the 60-chapter shakkaziyya treatise, and the former's Castilian translation from the latter's Latin and Hebrew translations; these variants should not be collapsed into one translation story {cite:zarqali-puig-bea pp. 1258–1260}. Universal means applicable across latitudes, not automatic location without reading and calculation {cite:zarqaliyya-bir-2020 pp. 47–53}.
+
+Bibliotheca Alexandrina's Antiquities Museum names al-Zarqali in its Muslim-astronomers section, the documented biographical basis for the identity update here; it does not attest a personal legal school {cite:bibalex-astrolabe-949 The Role of Muslim Astronomers}. Sunni is the museum's explicit default, not a quotation from al-Zarqali; the Puig biography read names no contrary affiliation {cite:zarqali-puig-bea pp. 1258–1260}.
 
 ## Tables and geography
 

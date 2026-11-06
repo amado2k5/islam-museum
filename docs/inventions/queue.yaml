@@ -981,12 +981,15 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
   - id: universal-astrolabe-al-zarqali
     label: "The universal astrolabe (safiha)"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: astronomy-instruments
-    era: middle-period
+    era: abbasid-golden
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    museum_records: [invention/universal-astrolabe-al-zarqali]
+    sources: [source/zarqali-puig-bea, source/zarqaliyya-bir-2020, source/bibalex-astrolabe-949]
+    note: "D-059: named latitude-independent plate improvement, not invention of every astrolabe. Historical design, later objects and modern display copy distinguished."
   - id: urdi-lemma
     label: "The Urdi lemma in planetary models"
     state: "[~]"
@@ -1830,7 +1833,7 @@ candidates:
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.3"
       - "TDV İslâm Ansiklopedisi, HİYEL: https://islamansiklopedisi.org.tr/hiyel--mekanik (general source; not a device-level claim)"
-    flags: ["maker-tradition-needs-sourced-perspectives", "verify-specific-feedback-device"]
+    flags: ["awaiting-explicit-maker-identity-basis-D058", "model96-lamp-mechanism-documented-in-Smithsonian", "primary-lamp-chapter-and-copy-metadata-not-yet-verified"]
   - id: ibn-firnas-glider-account
     label: "The reported glider of Abbas ibn Firnas"
     state: "[~]"

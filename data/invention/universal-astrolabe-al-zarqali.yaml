@@ -1,0 +1,96 @@
+id: invention/universal-astrolabe-al-zarqali
+class: invention
+label: { ar: "الصفيحة الجامعة عند الزرقالي", en: "Al-Zarqali's universal astrolabe plate", ur: "الزرقالی کی جامع اسطرلابی تختی" }
+names:
+  - { value: "الصفيحة الزرقالية", kind: alternate, lang: ar }
+  - { value: "Saphaea", kind: alternate, lang: en }
+  - { value: "Azafea", kind: alternate, lang: es }
+summary:
+  ar: "صفيحة فلكية من طليطلة في القرن الحادي عشر تستبدل صفائح العرض المحلية بشبكتي إحداثيات ومسطرة أفق؛ تطوير للأسطرلاب لا اختراع لعلم الفلك كله {cite:zarqali-puig-bea pp. 1258–1260}. تسمية «جامعة» تعني صلاحية التصميم للعروض المختلفة، لا حساب المكان والوقت من دون معرفة وضبط {cite:zarqaliyya-bir-2020 pp. 47–53}."
+  en: "An 11th-century Toledan astronomical plate replaces local latitude plates with coordinate grids and a horizon ruler: an astrolabe improvement, not invention of astronomy {cite:zarqali-puig-bea pp. 1258–1260}. Universal means applicable across latitudes, not automatic position or time without knowledge and adjustment {cite:zarqaliyya-bir-2020 pp. 47–53}."
+  ur: "گیارہویں صدی کی طلیطلہ کی فلکی تختی، جو مقامی عرض بلد کی تختیوں کی جگہ جالیاں اور افقی مسطرہ رکھتی ہے؛ اسطرلاب کی بہتری، پورے فلکی علم کی ایجاد نہیں {cite:zarqali-puig-bea pp. 1258–1260}۔ جامع کا مطلب مختلف عرض بلد کے لیے موزوں ڈیزائن ہے، بغیر علم و ترتیب خودکار وقت یا مقام نہیں {cite:zarqaliyya-bir-2020 pp. 47–53}۔"
+domain: astronomy-instruments
+kind: instrument
+disciplines: [astronomy]
+wings: [objects, ideas]
+regions: [andalus-europe]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Eleventh-century design/context. Puig reports a1048/1049 instrument called al-zarqala and100-chapter treatise; this record does not equate every variant with that exact commission. The later1224 object is not the invention date. No Hijri conversion guessed."
+    sources: [source/zarqali-puig-bea, source/zarqaliyya-bir-2020]
+  status_today: transformed
+origin:
+  place: place/tulaytula
+  context:
+    ar: "صناعة آلات ورصد في طليطلة ضمن محيط صاعد الأندلسي ورعاية المأمون الطليطلي؛ لا تخلط بالمأمون العباسي {cite:zarqali-puig-bea pp. 1258–1260}."
+    en: "Instrument making and observation in Toledo around Said al-Andalusi and the Toledan al-Mamun, not the earlier Abbasid caliph {cite:zarqali-puig-bea pp. 1258–1260}."
+    ur: "صاعد الاندلسی اور طلیطلہ کے مامون کے ماحول میں آلات سازی و رصد؛ پہلے عباسی خلیفہ مامون سے الگ {cite:zarqali-puig-bea pp. 1258–1260}۔"
+makers:
+  - person: person/al-zarqali
+    role: improver
+    place: place/tulaytula
+    note: "The named universal-plate design and treatises, not every astrolabe or later universal instrument. Muslim biographical classification is documented by the Alexandrian museum; Sunni is the explicit museum default, not an attested personal school declaration."
+    sources: [source/zarqali-puig-bea, source/zarqaliyya-bir-2020, source/bibalex-astrolabe-949]
+attribution:
+  status: improvement
+  claim:
+    ar: "تطوير صفيحة جامعة ضمن تقليد الأسطرلاب، لا أولوية مطلقة لكل آلة فلكية أو جامعة."
+    en: "A universal plate within the astrolabe tradition, not absolute priority for all astronomical or universal instruments."
+    ur: "اسطرلابی روایت میں جامع تختی؛ ہر فلکی یا جامع آلے کی مطلق اولینیت نہیں۔"
+  basis:
+    ar: "تنسب بويغ الزرقالية والرسائل إلى الزرقالي وتشرح ما يختلف عن الأسطرلاب المعتاد؛ وتعرض دراسة بير وزملائه البنية والإسقاط {cite:zarqali-puig-bea pp. 1258–1260} {cite:zarqaliyya-bir-2020 pp. 47–54}."
+    en: "Puig attributes the zarqaliyya and treatises to al-Zarqali and distinguishes the ordinary astrolabe; Bir et al. explain structure and projection {cite:zarqali-puig-bea pp. 1258–1260} {cite:zarqaliyya-bir-2020 pp. 47–54}."
+    ur: "پویگ زرقالیہ و رسائل الزرقالی سے منسوب اور عام اسطرلاب سے فرق واضح کرتی ہیں؛ بیر اور دیگر ساخت و اسقاط بتاتے ہیں {cite:zarqali-puig-bea pp. 1258–1260} {cite:zarqaliyya-bir-2020 pp. 47–54}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "الأسطرلاب المسطح ذو صفائح العرض", en: "Planispheric astrolabe with latitude plates", ur: "عرض بلد کی تختیوں والا مسطح اسطرلاب" }
+    note: "The established instrument/problem, not an identified unique prototype physically copied by al-Zarqali."
+    sources: [source/zarqaliyya-bir-2020]
+dependents:
+  - external: { ar: "الرسائل وترجماتها ووصف المراكشي", en: "Treatises, translations and Marrakushi's account", ur: "رسائل، تراجم اور مراکشی کا بیان" }
+    note: "Documentary preservation; not an unsupported direct genealogy of every later universal astrolabe."
+    sources: [source/zarqali-puig-bea, source/zarqaliyya-bir-2020]
+spread: []
+impact:
+  fields: [astronomy-instruments, timekeeping]
+  changed:
+    ar: "أعاد تمثيل الإحداثيات في صفيحة تصلح لمواضع متعددة، بدلاً من تبديل صفيحة الأفق لكل عرض؛ لا تقدم المصادر المقروءة إحصاء لاستعمال البحارة لها {cite:zarqaliyya-bir-2020 pp. 47–53}."
+    en: "Recast coordinates on a plate usable across locations rather than changing the horizon plate for each latitude; sources read supply no adoption statistics for sailors {cite:zarqaliyya-bir-2020 pp. 47–53}."
+    ur: "ہر عرض بلد کے لیے افق کی تختی بدلنے کی جگہ مختلف مقامات کے لیے ایک تختی پر محددات؛ پڑھے ماخذ ملاحوں کے استعمال کے اعداد نہیں دیتے {cite:zarqaliyya-bir-2020 pp. 47–53}۔"
+  history:
+    ar: "انتقل الوصف بالقشتالية واللاتينية والعبرية، وبقي في موسوعة المراكشي؛ هذه شواهد نقل معرفة لا دعوى أن كل ملاحة لاحقة نتجت عنه {cite:zarqali-puig-bea pp. 1258–1260} {cite:zarqaliyya-bir-2020 p. 41}."
+    en: "Accounts circulated in Castilian, Latin and Hebrew and survived in Marrakushi's compendium: documented knowledge transmission, not a claim that all later navigation resulted from it {cite:zarqali-puig-bea pp. 1258–1260} {cite:zarqaliyya-bir-2020 p. 41}."
+    ur: "بیان قشتالی، لاطینی اور عبرانی میں منتقل اور مراکشی کی موسوعہ میں محفوظ ہوا؛ علم کی ترسیل کی شہادت، ہر بعد کی جہاز رانی کا سبب ہونے کا دعویٰ نہیں {cite:zarqali-puig-bea pp. 1258–1260} {cite:zarqaliyya-bir-2020 p. 41}۔"
+  significance: 4
+  why: "Major instrument improvement: latitude independence, distinct coordinate systems, technical limits and multilingual documentary survival."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "تحفظ المتاحف صفائح لاحقة؛ يسجل اللوفر أبوظبي LAD2019.001 نحو1224م، نحاساً قطره28.3سم، والأندلس مكاناً محتملاً {cite:louvre-abu-dhabi-saphea catalogue fields}."
+    en: "Later plates survive in museums; Louvre Abu Dhabi lists LAD2019.001, ca.1224, brass,28.3cm diameter, possibly Andalusian {cite:louvre-abu-dhabi-saphea catalogue fields}."
+    ur: "بعد کی تختیاں میوزیموں میں ہیں؛ لوور ابو ظبی کا LAD2019.001 تقریباً1224ء کا پیتل، قطر28.3سم، ممکنہ اندلسی شے ہے {cite:louvre-abu-dhabi-saphea catalogue fields}۔"
+  descendants:
+    ar: "تدرس الصفيحة وتعرض نسخها؛ لا يثبت السجل انتقالاً مباشراً منها إلى تحديد المواقع بالأقمار الصناعية {cite:zarqaliyya-bir-2020 pp. 47–54} {cite:commons-calahorra-azafea-codex description}."
+    en: "Studied and displayed in copies; no direct ancestry to satellite positioning is established {cite:zarqaliyya-bir-2020 pp. 47–54} {cite:commons-calahorra-azafea-codex description}."
+    ur: "تختی زیر مطالعہ ہے اور نقلیں نمائش میں؛ سیٹلائٹ مقام یابی تک براہ راست نسب ثابت نہیں {cite:zarqaliyya-bir-2020 pp. 47–54} {cite:commons-calahorra-azafea-codex description}۔"
+media: { image: media/calahorra-azafea-copy, diagram: media/diagram-universal-astrolabe-al-zarqali }
+kids:
+  ar: "تخيل رسماً للسماء يتغير أفقه حين تسافر شمالاً أو جنوباً. بدلاً من حمل صفيحة لكل مكان، رسم الزرقالي شبكة ومساطر يمكن ضبطها للعروض المختلفة. «جامعة» لا تعني أنها تعرف مكانك وحدها؛ ما زال الإنسان يقرأ ويحسب."
+  en: "Imagine a sky map whose horizon changes as you travel north or south. Instead of carrying a plate for every location, al-Zarqali used grids and rulers adjustable across latitudes. Universal does not mean it knows your location by itself: a person still reads and calculates."
+  ur: "آسمان کا ایسا نقشہ سوچیں جس کا افق شمال یا جنوب جانے سے بدلتا ہے۔ ہر مقام کی تختی اٹھانے کے بجائے الزرقالی نے مختلف عرض بلد کے لیے جالی و مسطرہ رکھا۔ جامع کا مطلب اپنا مقام خود جاننا نہیں؛ انسان اب بھی پڑھتا اور حساب کرتا ہے۔"
+sources: [source/zarqali-puig-bea, source/zarqaliyya-bir-2020, source/bibalex-astrolabe-949, source/louvre-abu-dhabi-saphea, source/commons-calahorra-azafea-codex]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b21"
+  source: "Complete Puig biography; selected actual Bir et al. pp40–41,46–54; named institutional identity classification; actual Louvre catalogue and inspected licensed display-copy photograph,2026-11-06. No independent manuscript reading or full operating-manual reconstruction claimed."
