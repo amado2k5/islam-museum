@@ -1,0 +1,49 @@
+---
+// The Tafsir Browser (docs/plan/27-tafsir-browser.md): a separate wing of Qur'an commentaries.
+// The commentary is a work; each printed volume is a work of kind tafsir-volume, part_of the commentary.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href, labelOf, summaryOf, realNodes, edgesFrom } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const X = (T as any).tafsir;
+const works = realNodes.filter((n: any) => n.class === "work");
+const commentaries = works.filter((n: any) => n.id === "work/jami-al-bayan");
+const volumes = works
+  .filter((n: any) => n.data.kind === "tafsir-volume")
+  .sort((a: any, b: any) => String(a.id).localeCompare(String(b.id), "en", { numeric: true }));
+const count = (n: number) => X.count.replace("{n}", String(n));
+---
+<BaseLayout lang={lang} title={X.title} description={X.lede} path={`/${lang}/tafsir/`}>
+  <div class="wrap" style="padding-block:10px 24px">
+    <section data-pagefind-body>
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{T.explore.label}</p>
+      <h1>{X.title}</h1>
+      <p>{X.lede}</p>
+    </section>
+
+    <section aria-labelledby="tafsir-commentaries">
+      <h2 id="tafsir-commentaries">{X.commentaries} <span class="ui muted">{count(commentaries.length)}</span></h2>
+      {commentaries.length === 0 ? <p class="muted">{X.empty}</p> : (
+        <ul role="list">
+          {commentaries.map((n: any) => (
+            <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a><p class="muted">{summaryOf(n, lang)}</p></li>
+          ))}
+        </ul>
+      )}
+    </section>
+
+    <section aria-labelledby="tafsir-volumes" data-pagefind-ignore>
+      <h2 id="tafsir-volumes">{X.volumes} <span class="ui muted">{count(volumes.length)}</span></h2>
+      {volumes.length === 0 ? <p class="muted">{X.empty}</p> : (
+        <ul role="list">
+          {volumes.map((n: any) => (
+            <li><a href={`/${lang}/tafsir/${n.id.replace("work/", "")}/`}>{labelOf(n, lang)}</a><p class="muted">{summaryOf(n, lang)}</p></li>
+          ))}
+        </ul>
+      )}
+    </section>
+  </div>
+</BaseLayout>

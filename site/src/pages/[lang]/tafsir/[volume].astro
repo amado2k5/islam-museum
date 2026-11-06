@@ -1,0 +1,47 @@
+---
+// One volume of a commentary in the Tafsir Browser (docs/plan/27-tafsir-browser.md): the volume's verses in order.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href, labelOf, summaryOf, realNodes, edgesFrom } from "../../../lib/graph";
+
+const volumes = realNodes.filter((n: any) => n.class === "work" && n.data.kind === "tafsir-volume");
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    volumes.map((n: any) => ({ params: { lang, volume: n.id.replace("work/", "") }, props: { lang, node: n } })),
+  );
+}
+const { lang, node } = Astro.props as { lang: Lang; node: any };
+const T = ui(lang);
+const X = (T as any).tafsir;
+const verses = edgesFrom(node.id)
+  .filter((e: any) => e.type === "about" && String(e.to).startsWith("passage/quran-"))
+  .map((e: any) => String(e.to))
+  .sort((a: string, b: string) => {
+    const [sa, aa] = a.replace("passage/quran-", "").split("-").map(Number);
+    const [sb, ab] = b.replace("passage/quran-", "").split("-").map(Number);
+    return sa - sb || aa - ab;
+  });
+const first = verses[0]?.replace("passage/quran-", "").replace("-", ":") ?? "";
+const last = verses[verses.length - 1]?.replace("passage/quran-", "").replace("-", ":") ?? "";
+const covers = X.covers.replace("{n}", String(verses.length)).replace("{first}", first).replace("{last}", last);
+---
+<BaseLayout lang={lang} title={labelOf(node, lang)} description={summaryOf(node, lang)} path={`/${lang}/tafsir/${node.id.replace("work/", "")}/`}>
+  <div class="wrap" style="padding-block:10px 24px">
+    <section data-pagefind-body>
+      <p class="ui"><a href={`/${lang}/tafsir/`}>{X.back}</a></p>
+      <h1>{labelOf(node, lang)}</h1>
+      <p>{summaryOf(node, lang)}</p>
+      <p class="muted">{covers}</p>
+    </section>
+
+    <section aria-labelledby="tafsir-verses">
+      <h2 id="tafsir-verses">{X.verses}</h2>
+      <ul role="list">
+        {verses.map((id: string) => (
+          <li><a href={href(lang, id)}>{id.replace("passage/quran-", "").replace("-", ":")}</a></li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
