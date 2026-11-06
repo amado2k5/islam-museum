@@ -1,0 +1,64 @@
+id: invention/abu-wafa-debt-multiplication
+class: invention
+label: { ar: "ضرب أبي الوفاء بالمتمم والدين الوسيط", en: "Abu al-Wafa's debt-aware complement multiplication", ur: "تکملے اور وسطی دَین سے ابو الوفا کی ضرب" }
+names:
+  - { kind: alternate, lang: en, value: "Same-decade multiplication with a negative intermediate" }
+summary: { ar: "قاعدة ضرب عملية في كتاب الحساب تتسع لوسيط موصوف بالدين،لا اختراع السالب كله {cite:abu-wafa-youschkevitch-dsb PDFp2}.", en: "Practical multiplication allowing a debt-described intermediate,not invention of all negative numbers {cite:abu-wafa-youschkevitch-dsb PDFp2}.", ur: "عملی ضرب میں دَین کا وسطی حاصل،تمام منفی اعداد کی ایجاد نہیں {cite:abu-wafa-youschkevitch-dsb PDFp2}۔" }
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "09XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Tenth-century horizon only. TDV dates book961,MacTutor961–976,Iranicaworks1argues979–983. No invented exact composition or Hijri."
+    sources: [source/tdv-ebul-vefa-buzcani, source/abu-wafa-mactutor, source/iranica-abu-wafa-works]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  context: { ar: "سياق المؤلف البغدادي تحت الحكم البويهي،لا تعيين متجر طبق المثال {cite:iranica-abu-wafa-works biography}.", en: "Author's Baghdad setting under Buyid rule,not an identified shop using the example {cite:iranica-abu-wafa-works biography}.", ur: "بویہی دور کا بغدادی ماحول،مثال چلانے کی ثابت دکان نہیں {cite:iranica-abu-wafa-works biography}۔" }
+makers:
+  - { person: person/abu-al-wafa-al-buzjani, role: improver, note: "Particular recorded verbal rule and debt intermediate,not first signed arithmetic or universal priority.", sources: [source/abu-wafa-youschkevitch-dsb, source/abu-wafa-mactutor] }
+attribution:
+  status: improvement
+  claim: { ar: "صياغة ضرب بالمتممات تحفظ الدين الوسيط داخل حساب موجب.", en: "Complement multiplication retaining a debt intermediate within a positive computation.", ur: "مثبت حساب میں وسطی دَین محفوظ رکھنے والی تکملاتی ضرب۔" }
+  basis: { ar: "القاعدة ومثال3×5مقروءان في عرض يوشكيفيتش وصورةصفحته2 {cite:abu-wafa-youschkevitch-dsb PDFp2}.", en: "Rule and3×5example read in Youschkevitch's account and PDFpage2image {cite:abu-wafa-youschkevitch-dsb PDFp2}.", ur: "قاعدہ و3×5کی مثال یوشکیویچ وپی ڈی ایف صفحہ2میں پڑھی {cite:abu-wafa-youschkevitch-dsb PDFp2}۔" }
+  perspectives:
+    - tradition: sunni
+      id: documented-individual-frame
+      summary: { ar: "هوية العالم المسلم موثقة،والإطار السني معلن لا يستخرج من عملية حساب {cite:britannica-abu-al-wafa biography}.", en: "Individual Muslim identity documented;Sunni museum frame is not inferred from arithmetic {cite:britannica-abu-al-wafa biography}.", ur: "فرد کی مسلم شناخت مستند؛سنی عجائب گھری فریم حساب سے اخذ نہیں {cite:britannica-abu-al-wafa biography}۔" }
+      sources: [source/britannica-abu-al-wafa, source/tdv-ebul-vefa-buzcani]
+    - tradition: academic
+      id: limited-negative-evidence
+      summary: { ar: "يوشكيفيتش يرجح أثراً هندياً،لا نثبت به سلسلة انتقال أو أول سالب عالمي {cite:abu-wafa-youschkevitch-dsb PDFp2}.", en: "Youschkevitch suggests Indian influence,not proof of a transmission chain or first negative worldwide {cite:abu-wafa-youschkevitch-dsb PDFp2}.", ur: "یوشکیویچ ممکنہ ہندی اثر کہتا،ثابت انتقال یا دنیا کا پہلا منفی نہیں {cite:abu-wafa-youschkevitch-dsb PDFp2}۔" }
+      sources: [source/abu-wafa-youschkevitch-dsb]
+precursors:
+  - external: { ar: "الحساب اللفظي وتفسير السالب بالدين", en: "Verbal arithmetic and the debt interpretation of negatives", ur: "لفظی حساب اور منفی کا دَین سے بیان" }
+    note: "Indian influence proposed by historian,not independently collated Sanskrit original."
+    sources: [source/abu-wafa-youschkevitch-dsb]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics]
+  changed: { ar: "أبقى الإجراء موحداً حين تجاوز المتمم أحد العددين،فلم يسقط الدين من الحساب {cite:abu-wafa-youschkevitch-dsb PDFp2}.", en: "Retains the procedure when a complement exceeds a factor,instead of discarding the debt {cite:abu-wafa-youschkevitch-dsb PDFp2}.", ur: "تکملہ عامل سے بڑھنے پر دَین حذف کیے بغیر طریقہ جاری {cite:abu-wafa-youschkevitch-dsb PDFp2}۔" }
+  history: { ar: "شاهد محدود على استعمال السالب في حساب عملي،لا تأسيس مكتمل لكل الأعداد الصحيحة {cite:abu-wafa-mactutor arithmetic}.", en: "Bounded evidence of negative use in practical arithmetic,not a complete foundation of integers {cite:abu-wafa-mactutor arithmetic}.", ur: "عملی حساب میں منفی کی محدود شہادت،صحیح اعداد کی مکمل بنیاد نہیں {cite:abu-wafa-mactutor arithmetic}۔" }
+  significance: 3
+  why: "Concrete recorded algorithm and negative intermediate with checkable exact identity;no global priority or unsupported universal signed-number system."
+described_in: [work/hisab-kuttab-abu-wafa]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "شرح تاريخي بجبر حديث معلن،لا نصيحة مالية.", en: "Historical explanation with explicit modern algebra,not financial advice.", ur: "واضح جدید جبر میں تاریخی بیان،مالی مشورہ نہیں۔" }
+  descendants: { ar: "لا نسب مثبت لكل دفتر حساب أو برنامج حديث.", en: "No demonstrated direct ancestry of every ledger or modern program.", ur: "ہر کھاتے یا جدید پروگرام کا ثابت براہ راست نسب نہیں۔" }
+media: { image: media/abu-wafa-number-line-context, diagram: media/diagram-abu-wafa-debt }
+kids: { ar: "قد يعطي الضرب الموجب خطوة دين،ثم تعيدها الخطوة التالية إلى الناتج الصحيح.", en: "Positive multiplication can have a debt step before reaching its correct result.", ur: "مثبت ضرب میں درست حاصل تک پہنچنے سے پہلے دَین کی منزل آ سکتی ہے۔" }
+sources: [source/abu-wafa-youschkevitch-dsb, source/abu-wafa-mactutor, source/tdv-ebul-vefa-buzcani, source/iranica-abu-wafa-works, source/britannica-abu-al-wafa, source/commons-number-line-hakunamenta]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b76", source: "Actual secondary accounts/DSBPDFp2formulaimage;no originalArabic/Saidan1971/Medovoyreading. Modernidentity and23x27independent,originalrecord3x5distinct. CurrentCommonsCC0image inspected." }

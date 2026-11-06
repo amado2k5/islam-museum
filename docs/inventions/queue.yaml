@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: abu-wafa-debt-multiplication
+    label: "Abu al-Wafa's debt-aware complement multiplication"
+    state: "[x]"
+    batch: 4
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/abu-al-wafa-al-buzjani", "work/hisab-kuttab-abu-wafa", "source/abu-wafa-youschkevitch-dsb", "source/iranica-abu-wafa-works"]
+    invention: invention/abu-wafa-debt-multiplication
+    lead_sources:
+      - "Actual DSB arithmetic and visually inspected PDFp2 formula/3x5;actual MacTutor/TDV/Iranicaworks1"
+      - "Actual Commons description/APIrights/currentpreview Number-line.svg,CC0"
+    flags: [completed-D117-b76, specific-complement-rule-not-first-negative, verbal-debt-intermediate-not-modern-symbols, same-decade-domain, modern-algebra-and23x27-example-labelled, possible-Indian-influence-not-proven-chain, chronology-disagreement-961-961to976-979to983-preserved, tenth-century-only-no-guessed-Hijri, no-originalArabic-Saidan-Medovoy-reading, maker-original-attribution-and-two-ties-preserved, modern-line-not-medieval-drawing, no-financial-advice]
   - id: haytham-incoming-light-vision
     label: "Ibn al-Haytham's integrated incoming-light theory of vision"
     state: "[x]"
