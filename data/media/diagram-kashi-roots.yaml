@@ -1,0 +1,16 @@
+id: media/diagram-kashi-roots
+class: media
+kind: illustration
+label: { ar: "من القوة إلى حصر الجذر", en: "From powers to a root bound", ur: "قوت سے جذر کی حد تک" }
+summary: { ar: "سلسلة تعليمية حديثة لا ترتيب جدول المؤلف.", en: "Modern teaching chain,not the author's table layout.", ur: "جدید تدریسی زنجیر،مصنف کے جدول کی ترتیب نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/kashi-general-root-extraction]
+alt:
+  ar: "عدد وأُس معلوم،مقارنة قوى متجاورة،ثم حصر موجب يضيق؛شرح حديث لا نسخ مخطوط."
+  en: "Given number/exponent,compare neighbouring powers,then narrow a positive bound;modern explanation,not manuscript copy."
+  ur: "معلوم عدد و قوت،پڑوسی قوتوں کا تقابل،پھر تنگ مثبت حد؛جدید شرح،مخطوطے کی نقل نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/kashi-mactutor, source/iranica-kashi]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b77", source: "Museumgenericchain andexplicitmodernbracketingexplanation,notauthor'sgrid." }

@@ -7,6 +7,12 @@ language: language/arabic
 authors: [person/al-kashi]
 made: { by_muslims: true, basis: documented, sources: [source/kashi-mactutor] }
 wings: [words, ideas]
-sources: [source/dold-samplonius-muqarnas-1992, source/kashi-mactutor, source/tdv-kashi-okten]
+sources: [source/dold-samplonius-muqarnas-1992, source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi]
 status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b74", source: "Actual selected modern treatment and embedded translated passages,not full original book/Arabic critical text/whole English translation or editions." }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b74"
+  source: "Actual selected modern treatment and embedded translated passages,not full original book/Arabic critical text/whole English translation or editions."
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b77", source: "General-root append from actual MacTutor/Iranica accounts,not originalMiftah/Luckey/Rashed/blockedsummary/unwatchedanimation. Earliermuqarnascontent/provenanceretained." }

@@ -1,0 +1,65 @@
+id: invention/kashi-general-root-extraction
+class: invention
+label: { ar: "الاستخراج العددي العام للجذور عند الكاشي", en: "Al-Kashi's general numerical root extraction", ur: "کاشی کا عمومی عددی استخراج جذر" }
+names:
+  - { kind: alternate, lang: en, value: "Nth-root calculation in Miftah al-hisab" }
+summary: { ar: "عرض عددي للجذور العامة في مفتاح الحساب،مع سوابقه،لا اختراع كل جذر أو تكرار مسألة الجيب {cite:kashi-mactutor root-extraction}.", en: "General numerical roots in the Key,with predecessors retained,not invention of every root or a repeated sine problem {cite:kashi-mactutor root-extraction}.", ur: "مفتاح میں عمومی عددی جذر،پیش رو سمیت،ہر جذر کی ایجاد یا جیب کے مسئلے کا اعادہ نہیں {cite:kashi-mactutor root-extraction}۔" }
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1427"
+    hijri: "0830"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Reported completion year ofMiftah,not first root extraction or algorithm's discovery day;paired1427/830 as existingworkcontext."
+    sources: [source/kashi-mactutor, source/tdv-kashi-okten]
+  status_today: transformed
+origin:
+  place: place/samarqand
+  context: { ar: "سياق الكتاب التعليمي بسمرقند،لا تعيين يوم ابتكار كل خطوة {cite:kashi-mactutor Key}.", en: "Samarkand teaching-book context,not a day of invention for each step {cite:kashi-mactutor Key}.", ur: "سمرقندی تدریسی کتاب کا ماحول،ہر قدم کی ایجاد کا دن نہیں {cite:kashi-mactutor Key}۔" }
+makers:
+  - { person: person/al-kashi, role: improver, note: "General numerical root treatment within earlier arithmetic tradition;not firstroots/allHornerpolynomialmethod.", sources: [source/kashi-mactutor, source/iranica-kashi] }
+attribution:
+  status: improvement
+  claim: { ar: "تحسين ودمج طريقة عددية لاستخراج جذور مراتب متعددة في كتاب تعليمي.", en: "Developed and integrated numerical extraction across root orders in a teaching text.", ur: "تدریسی کتاب میں مختلف درجوں کے عددی جذر کا مربوط طریقہ۔" }
+  basis: { ar: "ماكتوتر تنقل مقارنة لوكي وتحتفظ بتأصيل راشد في مدرسة الكرجي والسموأل {cite:kashi-mactutor root-extraction}.", en: "MacTutor reports Luckey's comparison and Rashed's earlier al-Karaji/al-Samawal school precedents {cite:kashi-mactutor root-extraction}.", ur: "میک ٹیوٹر لوکی کا تقابل و راشد کے کرجی و سموئل والے پیش رو محفوظ رکھتا ہے {cite:kashi-mactutor root-extraction}۔" }
+  perspectives:
+    - tradition: sunni
+      id: inherited-individual-frame
+      summary: { ar: "أساس الهوية الفردية محفوظ،والإطار السني مستقل من دعوى الأولوية {cite:kashi-mactutor biography}.", en: "Individual Muslim basis retained;Sunni museum frame separate from priority claims {cite:kashi-mactutor biography}.", ur: "فردی مسلم بنیاد محفوظ،سنی فریم اولینیت سے الگ {cite:kashi-mactutor biography}۔" }
+      sources: [source/kashi-mactutor, source/tdv-kashi-okten]
+    - tradition: academic
+      id: earlier-roots-and-comparison
+      summary: { ar: "مقارنة روفيني وهورنر لاحقة،لا برهان انتقال؛والسوابق العربية محفوظة والاتصال الصيني احتمال منسوب {cite:kashi-mactutor root-extraction} {cite:iranica-kashi calculation}.", en: "Later Ruffini/Horner comparison is not transmission proof;Arabic precedents retained and a Chinese connection is attributed possibility {cite:kashi-mactutor root-extraction} {cite:iranica-kashi calculation}.", ur: "بعد کا روفینی و ہارنر تقابل انتقال کا ثبوت نہیں؛عربی پیش رو اور چینی ربط کا منسوب امکان محفوظ {cite:kashi-mactutor root-extraction} {cite:iranica-kashi calculation}۔" }
+      sources: [source/kashi-mactutor, source/iranica-kashi]
+precursors:
+  - external: { ar: "طرق الجذور بمدرسة الكرجي والسموأل", en: "Root methods in the al-Karaji/al-Samawal school", ur: "کَرجی و سموئل کے مدرسے کے جذر طریقے" }
+    note: "Reported byMacTutorfromRashed,not originalschooltextsnewlyread."
+    sources: [source/kashi-mactutor]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics]
+  changed: { ar: "جعل الجذور من أدوات الحساب المتعدد التطبيقات،لا الاقتصار على جذر تربيعي منفرد {cite:iranica-kashi calculation} {cite:kashi-mactutor Key}.", en: "Integrated roots into broadly useful computation beyond one isolated square-root problem {cite:iranica-kashi calculation} {cite:kashi-mactutor Key}.", ur: "ایک مربع جذر کے بجائے وسیع حساب میں جذر کا ربط {cite:iranica-kashi calculation} {cite:kashi-mactutor Key}۔" }
+  history: { ar: "شاهد على تطوير حساب موروث،لا اختراع الآلة الحاسبة الحديثة {cite:kashi-mactutor root-extraction}.", en: "Development of inherited computation,not invention of modern calculators {cite:kashi-mactutor root-extraction}.", ur: "موروثی حساب کی ترقی،جدید کیلکولیٹر کی ایجاد نہیں {cite:kashi-mactutor root-extraction}۔" }
+  significance: 3
+  why: "General numerical extraction is distinct from sine-specific cubic iteration and four earlier contributions;precedents/method-reading limits and modern examples explicit."
+described_in: [work/miftah-al-hisab-kashi]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "شرح تعليمي بأمثلة حديثة معلنة وحصر خطأ،لا استعادة تفصيل جدول قديم.", en: "Teaching with explicit modern examples/error bounds,not a recovered historical table.", ur: "واضح جدید مثال و خطاحد کی تدریس،قدیم جدول کی بازیافت نہیں۔" }
+  descendants: { ar: "لا نسب مثبت لكل خوارزمية جذور أو نقل مباشر لهورنر.", en: "No demonstrated ancestry of every root algorithm or direct transfer to Horner.", ur: "ہر جذر طریقے کا نسب یا ہارنر کو براہ راست انتقال ثابت نہیں۔" }
+media: { image: media/kashi-root-cube-context, diagram: media/diagram-kashi-roots }
+kids: { ar: "اعرف طول حرف المكعب من حجمه،ثم اسأل هل الجذر تام أم يحتاج تقريباً.", en: "Find a cube's edge from volume,and ask whether the root is exact or approximate.", ur: "حجم سے مکعب کا ضلع نکالیں،پھر پوچھیں جذر تام ہے یا تقریبی۔" }
+sources: [source/kashi-mactutor, source/iranica-kashi, source/tdv-kashi-okten, source/commons-cube-mckenna]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b77", source: "ActualMacTutor/Iranicarootaccounts/TDV;originalMiftah/Luckey/Rashed/rootpaper/animationnotread. Modernintegerpower/digitexamplesindependent,notexacthistoricalalgorithmreconstruction. ActualCommonsrights/image inspected." }

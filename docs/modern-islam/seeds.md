@@ -10,11 +10,11 @@ Founder's instruction, 6 November 2026: one subject at least under each section,
 
 | # | Section | Pilot record | Exists today | Alternates if the pilot cannot be sourced to standard |
 |---|---|---|---|---|
-| 1 | web | `work/islamqa` (islamqa.info, launched 1997) | `data/work/islamqa.yaml` exists: enrich | IslamWeb (islamweb.net); Quran.com; Sunnah.com |
+| 1 | web | `work/islamqa` (islamqa.info, launched 1997) | **done 6 Nov 2026** as `listing/islamqa` (kind platform; the work id never existed) | IslamWeb (islamweb.net); Quran.com; Sunnah.com |
 | 2 | music | `work/thank-you-allah-maher-zain` (album, 2009) + the artist `person/maher-zain` | **done 6 Nov 2026** (album written with tracks, certifications, nomination, dated reach) | Sami Yusuf, *Al-Mu'allim* (2003); Raihan, *Puji-Pujian* (1996) |
-| 3 | film | `screen/al-risala-1976` (*The Message*, Moustapha Akkad) | exists: enrich with honours, footprint, reception | *Bilal: A New Breed of Hero* (2015); *Le Grand Voyage* (2004) |
-| 4 | tv | `screen/omar-2012` (*Omar*, MBC, Ramadan 1433) | sources for it exist (`data/source/*omar-2012*`); check `data/screen/` | *Diriliş: Ertuğrul* (2014–2019); *Para Pencari Tuhan* (2007–) |
-| 5 | conferences | `event/bishwa-ijtema` (Tongi, Bangladesh; annual) | exists: enrich with editions, attendance with status, footprint | Reviving the Islamic Spirit (Toronto, 2003–); ISNA Annual Convention |
+| 3 | film | `screen/al-risala-1976` (*The Message*, Moustapha Akkad) | **done 6 Nov 2026** (reception sourced, Oscar nomination, footprint) | *Bilal: A New Breed of Hero* (2015); *Le Grand Voyage* (2004) |
+| 4 | tv | `screen/omar-2012` (*Omar*, MBC, Ramadan 1433) | **done 6 Nov 2026** as `screen/umar-2012` (broadcast, production, perspectives, footprint) | *Diriliş: Ertuğrul* (2014–2019); *Para Pencari Tuhan* (2007–) |
+| 5 | conferences | `event/bishwa-ijtema` (Tongi, Bangladesh; annual) | **done 6 Nov 2026** (seven dated editions, attendance as debated estimates, footprint) | Reviving the Islamic Spirit (Toronto, 2003–); ISNA Annual Convention |
 | 6 | heritage | `event/canadian-islamic-history-month` (October, since 2007) | **done 6 Nov 2026** from the Government of Canada page | World Hijab Day (1 February, since 2013); Ramadan Tent Project Open Iftar (London, since 2013) |
 | 7 | rights | `event/international-day-to-combat-islamophobia` (15 March; UN General Assembly resolution, March 2022) | **done 6 Nov 2026** (kind declaration) | The 2017 airport protests against US Executive Order 13769; Islamophobia Awareness Month (UK, November, since 2012) |
 | 8 | books | `work/raheeq` (*al-Raheeq al-Makhtum*, 1979 Muslim World League prize) | `data/work/raheeq.yaml` exists: add honours, editions, translations, footprint | *The Sealed Nectar* English edition; Martin Lings, *Muhammad: His Life Based on the Earliest Sources* (1983) |

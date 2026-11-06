@@ -1,0 +1,64 @@
+id: invention/ibn-muadh-twilight-height
+class: invention
+label: { ar: "تقدير ارتفاع الجو من الشفق عند ابن معاذ", en: "Ibn Muadh's twilight-based atmospheric height", ur: "شفق سے قد فضا کا ابن معاذی تخمینہ" }
+names:
+  - { kind: alternate, lang: en, value: "Atmospheric height from dawn and twilight" }
+summary: { ar: "نموذج عكسي يصل الشفق بهندسة طبقة جوية مفترضة،لا قياساً دقيقاً لنهاية الهواء {cite:calvo-ibn-muadh-bea PDF1-2}.", en: "Inverse model linking twilight to an assumed atmospheric layer,not an accurate measurement of air's end {cite:calvo-ibn-muadh-bea PDF1-2}.", ur: "شفق سے مفروض فضائی تہہ کا الٹا نمونہ،ہوا کے اختتام کی درست پیمائش نہیں {cite:calvo-ibn-muadh-bea PDF1-2}۔" }
+domain: astronomy-instruments
+kind: method
+disciplines: [astronomy, mathematics]
+wings: [ideas]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Eleventh-centurywork;not1079eclipsedateascompositiondate,noinventedHijri."
+    sources: [source/calvo-ibn-muadh-bea, source/smith-muadh-twilight-1992]
+  status_today: transformed
+origin:
+  place: place/al-andalus
+  context: { ar: "بيئة أندلسية،بلا موقع رصد معين مستنتج من اللقب وحده {cite:calvo-ibn-muadh-bea PDF1}.", en: "Andalusian setting,without a specific observing site inferred only from the name {cite:calvo-ibn-muadh-bea PDF1}.", ur: "اندلسی سیاق،صرف نسبت سے خاص رصدگاہ اخذ نہیں {cite:calvo-ibn-muadh-bea PDF1}۔" }
+makers:
+  - { person: person/ibn-muadh-al-jayyani, role: inventor, note: "Authorofthisboundedmodel,notfirsttwilight/allatmosphericscience.", sources: [source/calvo-ibn-muadh-bea, source/tdv-ibn-muadh-dizer, source/smith-muadh-twilight-1992] }
+attribution:
+  status: contested
+  claim: { ar: "نموذج معين لارتفاع الطبقة من الشفق منسوب إلى ابن معاذ،لا كل علم الجو.", en: "This particular twilight-layer model attributed to Ibn Muadh,not all atmospheric science.", ur: "ابن معاذ سے خاص شفقی تہہ کا نمونہ منسوب،پوری فضائی سائنس نہیں۔" }
+  basis: { ar: "تصحيح النسبة القديمة إلى ابن الهيثم منقول عن صبرة،مع شواهد الترجمة {cite:tdv-ibn-muadh-dizer attribution} {cite:smith-muadh-twilight-1992 note3}.", en: "Sabra's correction of the old Ibn al-Haytham attribution is reported with translated witnesses {cite:tdv-ibn-muadh-dizer attribution} {cite:smith-muadh-twilight-1992 note3}.", ur: "ابن ہیثم کی پرانی نسبت کی صبرا تصحیح،ترجمہ شواہد سمیت منقول {cite:tdv-ibn-muadh-dizer attribution} {cite:smith-muadh-twilight-1992 note3}۔" }
+  perspectives:
+    - tradition: sunni
+      id: documented-individual-frame
+      summary: { ar: "هوية مسلم فردية موثقة،والإطار السني معلن مستقل من صحة النموذج {cite:jayyani-mactutor summary} {cite:tdv-ibn-muadh-dizer twilight}.", en: "Documented individual Muslim identity;declared Sunni frame separate from model validity {cite:jayyani-mactutor summary} {cite:tdv-ibn-muadh-dizer twilight}.", ur: "فردی مسلم شناخت موثق؛سنی فریم نمونے کی صحت سے الگ {cite:jayyani-mactutor summary} {cite:tdv-ibn-muadh-dizer twilight}۔" }
+      sources: [source/jayyani-mactutor, source/tdv-ibn-muadh-dizer]
+    - tradition: academic
+      id: attribution-and-model-limits
+      summary: { ar: "شواهد الترجمة تصحح النسبة؛52ميلاً نتيجة مفترضة لا نهاية جو حديثة،والأصل العربي غير معروف البقاء {cite:smith-muadh-twilight-1992 abstract-and-note3} {cite:calvo-ibn-muadh-bea PDF1-2}.", en: "Translated witnesses correct attribution;52miles is a model result,not modern air's top;Arabic original not known extant {cite:smith-muadh-twilight-1992 abstract-and-note3} {cite:calvo-ibn-muadh-bea PDF1-2}.", ur: "ترجمہ شواہد نسبت درست کرتے؛52میل نمونے کا نتیجہ،جدید ہوا کی آخری حد نہیں؛عربی اصل کا بقا معلوم نہیں {cite:smith-muadh-twilight-1992 abstract-and-note3} {cite:calvo-ibn-muadh-bea PDF1-2}۔" }
+      sources: [source/calvo-ibn-muadh-bea, source/smith-muadh-twilight-1992, source/nasa-atmosphere-ueyama]
+precursors:
+  - external: { ar: "معرفة الشفق واختلاف زواياه بين الفلكيين", en: "Earlier twilight knowledge and differing astronomical angles", ur: "پہلے شفقی علم و مختلف فلکی زاویے" }
+    note: "TDVreportsHabash/Nayrizi/Biruni/IbnYunus;notfirst18-degreeclaim."
+    sources: [source/tdv-ibn-muadh-dizer]
+dependents: []
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics]
+  changed: { ar: "حوّل ظاهرة ضوئية إلى استدلال هندسي كمي مشروط {cite:calvo-ibn-muadh-bea PDF1-2}.", en: "Turned a light phenomenon into conditional quantitative geometry {cite:calvo-ibn-muadh-bea PDF1-2}.", ur: "روشنی کے منظر کو مشروط مقداری ہندسہ بنایا {cite:calvo-ibn-muadh-bea PDF1-2}۔" }
+  history: { ar: "أثر ترجمي وعددي لا إثبات ارتفاع نهائي صحيح {cite:smith-muadh-twilight-1992 abstract}.", en: "Translation/numerical reception,not proof of a correct definitive height {cite:smith-muadh-twilight-1992 abstract}.", ur: "ترجماتی و عددی اثر،درست قطعی قد کا ثبوت نہیں {cite:smith-muadh-twilight-1992 abstract}۔" }
+  significance: 3
+  why: "DistincttwilightinversemodelwithdocumentedLatinreceptionandattributioncorrection;faultyassumptionsvisible,notatmosphericprioritytriumph."
+described_in: [work/ibn-muadh-twilight]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "تاريخ نموذج وحدوده،مع تعريفات حديثة منفصلة؛لا جدول صلاة.", en: "History of a model/limits,with separate modern definitions;not a prayer timetable.", ur: "نمونے و حدود کی تاریخ،جدید تعریفیں الگ؛نماز کا جدول نہیں۔" }
+  descendants: { ar: "لا نسب مثبت لكل اصطلاح18درجة أو قياس جوي حديث.", en: "No demonstrated lineage for every18degree convention or modern atmospheric measurement.", ur: "ہر18درجے رواج یا جدید فضائی پیمائش کا نسب ثابت نہیں۔" }
+media: { image: media/muadh-twilight-context, diagram: media/diagram-muadh-twilight }
+kids: { ar: "قد تظل طبقة مضاءة بعد غياب الشمس عن الراصد؛لكن الرسم ليس سقفاً حقيقياً للهواء.", en: "A layer may remain lit after the Sun leaves your horizon,but a diagram is not air's real ceiling.", ur: "سورج افق سے چھپنے پر تہہ روشن رہ سکتی ہے،مگر نقشہ ہوا کی حقیقی چھت نہیں۔" }
+sources: [source/jayyani-mactutor, source/calvo-ibn-muadh-bea, source/tdv-ibn-muadh-dizer, source/smith-muadh-twilight-1992, source/noaa-twilight-types, source/nasa-atmosphere-ueyama, source/commons-twilight-carlson]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b78", source: "ActualMacTutor/CalvoPDF1–3/TDV/Smithpublicabstract-visible notes83–86/NOAA/NASA/Commonsrights-image. NotlostArabic/manuscripts/fullSmithcriticaledition/Sabra1967. Modernparallel-raymathnotfullfiniteSunhistoricalreconstruction;TDVwebtyponotcopied." }

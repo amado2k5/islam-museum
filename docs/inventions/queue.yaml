@@ -2,6 +2,32 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: farisi-water-sphere-rainbow
+    label: "Al-Farisi's water-sphere rainbow model"
+    state: "[x]"
+    batch: 4
+    domain: optics-physics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/kamal-al-din-al-farisi", "work/tanqih-al-manazir-farisi", "source/farisi-mactutor", "source/russell-faresi-iranica", "source/boyle-rainbow-science-museum"]
+    invention: invention/farisi-water-sphere-rainbow
+    lead_sources:
+      - "Actual complete MacTutor body, Russell article body in browser, Science Museum article"
+      - "Actual Commons description/API rights/current double-rainbow preview, Eric Rolph, CC BY-SA2.5"
+    flags: [completed-D120-b79, water-sphere-not-first-camera-or-refraction, primary-one-secondary-two-internal-reflections, glass-boundary-approximation-explicit, correct-paths-not-correct-colour-theory, teacher-priority-Boyer-Rashed-attributed, Theodoric-parallel-not-theft, no-Latin-translation-evidence-not-impossibility-proof, disputed-completion-no-exact1309, no-original-Tanqih-edition-manuscript-full-Rashed-reading, modern-path-symbols-labelled, modern-Alaska-photo-not-apparatus-or-experiment-site, upload-not-capture-date, no-Sun-viewing-instructions]
+  - id: abu-wafa-debt-multiplication
+    label: "Abu al-Wafa's debt-aware complement multiplication"
+    state: "[x]"
+    batch: 4
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/abu-al-wafa-al-buzjani", "work/hisab-kuttab-abu-wafa", "source/abu-wafa-youschkevitch-dsb", "source/iranica-abu-wafa-works"]
+    invention: invention/abu-wafa-debt-multiplication
+    lead_sources:
+      - "Actual DSB arithmetic and visually inspected PDFp2 formula/3x5;actual MacTutor/TDV/Iranicaworks1"
+      - "Actual Commons description/APIrights/currentpreview Number-line.svg,CC0"
+    flags: [completed-D117-b76, specific-complement-rule-not-first-negative, verbal-debt-intermediate-not-modern-symbols, same-decade-domain, modern-algebra-and23x27-example-labelled, possible-Indian-influence-not-proven-chain, chronology-disagreement-961-961to976-979to983-preserved, tenth-century-only-no-guessed-Hijri, no-originalArabic-Saidan-Medovoy-reading, maker-original-attribution-and-two-ties-preserved, modern-line-not-medieval-drawing, no-financial-advice]
   - id: haytham-incoming-light-vision
     label: "Ibn al-Haytham's integrated incoming-light theory of vision"
     state: "[x]"
@@ -5963,3 +5989,23 @@ candidates:
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
     flags: ["identify-specific-technical-novelty-and-faith-basis"]
+  - id: kashi-general-root-extraction
+    label: "Al-Kashi's general numerical root extraction in the Key"
+    state: "[x]"
+    batch: 3
+    domain: mathematics
+    era: fifteenth-century
+    from: scoped-research
+    records: ["invention/kashi-general-root-extraction", "person/al-kashi", "work/miftah-al-hisab-kashi"]
+    lead_sources: ["source/kashi-mactutor", "source/iranica-kashi", "source/tdv-kashi-okten"]
+    flags: ["invention77", "improvement-with-earlier-school-precedents", "not-first-roots-or-entire-horner-method", "modern-examples-not-historical-grid", "original-chapter-and-blocked-paper-not-read"]
+  - id: ibn-muadh-twilight-height
+    label: "Ibn Muadh's twilight-based atmospheric-height model"
+    state: "[x]"
+    batch: 3
+    domain: astronomy-instruments
+    era: eleventh-century
+    from: scoped-research
+    records: ["invention/ibn-muadh-twilight-height", "person/ibn-muadh-al-jayyani", "work/ibn-muadh-twilight"]
+    lead_sources: ["source/calvo-ibn-muadh-bea", "source/tdv-ibn-muadh-dizer", "source/smith-muadh-twilight-1992"]
+    flags: ["invention78", "attribution-corrected-from-ibn-al-haytham", "conditional-model-not-modern-atmosphere-top", "historical-mile-not-silent-si-conversion", "parallel-ray-example-not-full-finite-sun-reconstruction", "no-prayer-prescription"]
