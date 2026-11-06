@@ -50,10 +50,14 @@ at". Deployment is manual and the founder's alone: whatever the top block of
 ## Where the version surfaces
 
 - The footer of every page: `islam.museum · v<version> · <date>`, linking to
-  the changelog.
-- The changelog page header, above the rendered notes.
-- Nowhere else needs a copy: both read `CANARY.md` at build time through
-  `site/src/lib/version.ts`. Never hard-code the version in a page.
+  the changelog. The pages carry only the link; `site/public/shell/shell.js` fills in the
+  version from `api/v1/meta/deploy.json`, which the deploy writes from the top block of
+  `CANARY.md` of the deployed commit. A version in the page would make every release rewrite
+  all 160,000 pages (`16-deploy-churn-proposal.md`). Without JavaScript, or where there is no
+  deploy stamp (a local preview, the GitHub Pages mirror), the footer shows the link alone. The stamp is cached like the rest of `api/` (an hour, then stale-while-revalidate), so the footer can show the previous release for up to an hour after a deploy.
+- The changelog page header, above the rendered notes (read at build time through
+  `site/src/lib/version.ts`; that page changes with every `CANARY.md` edit, which is expected).
+- Never hard-code the version in a page or a layout.
 
 ## Writing the entries in three languages
 

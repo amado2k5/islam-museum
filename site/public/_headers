@@ -27,6 +27,13 @@
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
 
+# The shell scripts (/shell/shell.js, /shell/entity.js): plain files under names that do NOT change when their content does
+# (that is the point: an edit is one file, not 160,000 pages that name a new hash; see
+# docs/engineering/16-deploy-churn-proposal.md). So they must not be cached as immutable. Five minutes fresh, then served
+# stale for a day while the browser revalidates in the background (a 304 when nothing changed).
+/shell/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+
 # The root page is served by the asset layer, which omits the charset.
 /
   Content-Type: text/html; charset=utf-8

@@ -101,3 +101,80 @@ test("rootFiles lists the root data files, including the nested .well-known/api-
   mkdirSync(join(root, "sitemap-dir.xml"));
   assert.deepEqual(rootFiles(root).sort(), [".well-known/api-catalog", "favicon.svg", "feed.xml", "sitemap-index.xml"]);
 });
+
+// ---- churn report -------------------------------------------------------------------------------------------------
+import { churnGroup, churnReport, estimateCost, formatChurn, shellFilesChanged, SHELL_WARN_SHARE } from "../batch/publish.mjs";
+
+test("churnGroup sorts keys into the report's groups", () => {
+  assert.equal(churnGroup("ar/person/x/index.html"), "ar pages");
+  assert.equal(churnGroup("ur/books/accessibility.epub"), "ur other");
+  assert.equal(churnGroup("en/index.html"), "en other"); // a language home page has two parts: not an entity page
+  assert.equal(churnGroup("pagefind-ar/index/ar_1.pf_index"), "pagefind-ar/index");
+  assert.equal(churnGroup("pagefind-en/pagefind-entry.json"), "pagefind-en/top");
+  assert.equal(churnGroup("api/v1/person/x.json"), "api");
+  assert.equal(churnGroup("sitemap-index.xml"), "(root)");
+  assert.equal(churnGroup(".well-known/api-catalog"), ".well-known");
+});
+
+const buildOf = (keys) => new Map(keys.map((k) => [k, { sha: k }]));
+
+test("churnReport counts copies and deletes per group and the share of pages re-uploaded", () => {
+  const keys = ["ar/a/index.html", "ar/b/index.html", "en/a/index.html", "en/b/index.html", "api/v1/a.json", "feed.xml"];
+  const ops = [
+    { op: "COPY", dst: "ar/a/index.html" }, { op: "COPY", dst: "en/a/index.html" }, { op: "COPY", dst: "feed.xml" },
+    { op: "DELETE", dst: "ar/gone/index.html" },
+  ];
+  const r = churnReport(ops, buildOf(keys));
+  assert.equal(r.pageFiles, 4);
+  assert.equal(r.pageCopies, 2);
+  assert.equal(r.pageShare, 0.5);
+  const arPages = r.rows.find((x) => x.group === "ar pages");
+  assert.deepEqual([arPages.files, arPages.copies, arPages.deletes], [2, 1, 1]);
+  assert.equal(r.rows[0].copies, 1); // sorted by copies
+});
+
+test("estimateCost prices a write at the Class A rate", () => {
+  const c = estimateCost(180000);
+  assert.ok(c.classA > 180000 && c.classA < 190000);
+  assert.ok(Math.abs(c.dollars - (c.classA / 1e6) * 4.5) < 1e-9);
+  assert.equal(estimateCost(0).classA, 1);
+});
+
+test("formatChurn warns when most pages changed and names the shell files", () => {
+  const keys = Array.from({ length: 10 }, (_, i) => `ar/p${i}/index.html`);
+  const all = keys.map((k) => ({ op: "COPY", dst: k }));
+  const report = churnReport(all, buildOf(keys));
+  const { text, warning } = formatChurn(report, { copies: 10, deletes: 0, total: 10, prevCommit: "aaaaaaaaaaaa", curCommit: "bbbbbbbbbbbb", shellChanged: ["site/src/layouts/BaseLayout.astro"] });
+  assert.match(warning, /100\.0 % of the HTML pages changed/);
+  assert.match(warning, /site\/src\/layouts\/BaseLayout\.astro/);
+  assert.match(text, /\*\*Warning:\*\*/);
+  assert.match(text, /\| ar pages \| 10 \| 10 \| 0 \|/);
+});
+
+test("formatChurn stays quiet for a content-only publish", () => {
+  const keys = Array.from({ length: 100 }, (_, i) => `ar/p${i}/index.html`);
+  const report = churnReport([{ op: "COPY", dst: keys[0] }, { op: "COPY", dst: keys[1] }], buildOf(keys));
+  assert.ok(report.pageShare < SHELL_WARN_SHARE);
+  const { warning } = formatChurn(report, { copies: 2, deletes: 0, total: 100, prevCommit: null, curCommit: null, shellChanged: [] });
+  assert.equal(warning, null);
+});
+
+test("formatChurn says so when the shell files could not be listed", () => {
+  const keys = ["ar/a/index.html"];
+  const report = churnReport([{ op: "COPY", dst: keys[0] }], buildOf(keys));
+  const { warning } = formatChurn(report, { copies: 1, deletes: 0, total: 1, prevCommit: null, curCommit: "c", shellChanged: null });
+  assert.match(warning, /could not be listed/);
+});
+
+test("shellFilesChanged diffs the listed paths between two commits and survives a failing git", () => {
+  const calls = [];
+  const fake = (cmd, args) => {
+    calls.push([cmd, ...args.slice(0, 2)].join(" "));
+    return args[0] === "diff" ? "site/src/layouts/BaseLayout.astro\n\nsite/astro.config.mjs\n" : "";
+  };
+  assert.deepEqual(shellFilesChanged("p1", "c1", fake, ["site/src/layouts"]), ["site/src/layouts/BaseLayout.astro", "site/astro.config.mjs"]);
+  assert.deepEqual(calls, ["git fetch --quiet", "git diff --name-only"]);
+  assert.equal(shellFilesChanged("p1", "c1", () => { throw new Error("no history"); }, ["x"]), null);
+  assert.deepEqual(shellFilesChanged("same", "same", fake, ["x"]), []);
+  assert.equal(shellFilesChanged(null, "c1", fake, ["x"]), null);
+});

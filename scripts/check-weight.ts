@@ -1,7 +1,8 @@
 // Page-weight budgets for the education routes (docs/delegation/education-master-plan.md §3), checked on dist/
 // after the build. Astro inlines every stylesheet into the page (site/astro.config.mjs), so the HTML figure is
-// the page as served with its CSS; the JS figure sums the inline module scripts and the hashed module files. Fonts are
-// shared and cached and are not counted. A breach fails; the fix is to remove weight, never to raise the number.
+// the page as served with its CSS, plus the /shell/*.js files it loads (inline until 6 Nov 2026, when they became plain files so
+// that editing one stopped rewriting every page); the JS figure sums the inline module scripts and the hashed module files.
+// Fonts are shared and cached and are not counted. A breach fails; the fix is to remove weight, never to raise the number.
 import { existsSync, readFileSync, statSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { p } from "./lib.js";
@@ -95,7 +96,12 @@ export function measure(dist: string, route: string): Measure | null {
     for (const m of src.matchAll(/import\(["']([^"']+\.js)["']\)/g)) add(resolve(m[1]));
   };
   for (const s of scripts) add(s);
-  return { route, html: Buffer.byteLength(html), js, scripts };
+  // The shell scripts are part of the page as served (see the header of this file).
+  let shell = 0;
+  for (const m of html.matchAll(/<script\b[^>]*\bsrc="(\/shell\/[^"?#]+\.js)"/g)) {
+    if (existsSync(`${dist}${m[1]}`)) shell += statSync(`${dist}${m[1]}`).size;
+  }
+  return { route, html: Buffer.byteLength(html) + shell, js, scripts };
 }
 
 export function check(dist: string, budgets = BUDGETS): { rows: string[]; errors: string[] } {

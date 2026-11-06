@@ -1,9 +1,10 @@
 # 16 · Deploy churn: why a deploy re-uploads ~180,000 files, and the proposal to stop it
 
-_Status: **proposal**, written 6 November 2026, awaiting the founder's decision (`docs/ai-change-gates.md` section 1).
-Risk rating: Phase 1 items 1.4 to 1.7 are `non-impacting`; items 1.1 to 1.3 touch `site/src/layouts/BaseLayout.astro`
-and are listed for the founder to rate; Phase 2 is `submission-impacting` (architecture). Nothing in this document has
-been implemented. Canonical deploy rules stay in `06-deployment.md` and `workers/r2-sync/README.md`._
+_Status: **Phase 1 implemented on 6 November 2026, with one item measured and not shipped** (1.1, the stylesheet; section 6a).
+Written as a proposal the same day, then built on request. Phase 2 and Phase 3 are not built; Phase 2 needs the founder's
+decision (`docs/ai-change-gates.md` section 1: it is `submission-impacting`, ADR 0002). Canonical deploy rules stay in
+`06-deployment.md` and `workers/r2-sync/README.md`; the rules this work added are in `AGENTS.md` ("Keep deploys small")
+and `docs/site/README.md` ("site-wide numbers")._
 
 ## 1. Summary
 
@@ -96,6 +97,8 @@ Class B (reads) $0.36 per million, deletes free, 1 million Class A free per mont
 | Publish step | 53 to 66 min | ≈ 3 to 5 min | ≈ 25 to 35 min |
 | Class A cost at one deploy a day, above the free million | ≈ $20 to $25 a month | $0 | $0.75 per such deploy |
 
+The two "After Phase 1" columns are the proposal's estimates and assumed the stylesheet leaves the page. It did not ship (6a), so on a shell-change day the pages stay about 104 KB and the upload is about 17 GB, not 7 GB; the file counts are unchanged.
+
 A UAT deploy of the same build doubles every line (its own bucket, its own manifest). The Worker CPU of the seven sync
 Workers and the GitHub runner time (public repository) are not significant next to the Class A line. The second cost
 is the hour of wall-clock each deploy takes, during which no other deploy can start (`concurrency: pages`).
@@ -150,7 +153,7 @@ What that idea buys depends on where the hash is checked:
 
 | # | Change | Files | Effect on a deploy | Risk and trade-off |
 |---|---|---|---|---|
-| 1.1 | **Stop inlining the stylesheet.** `build.inlineStylesheets: "never"` (or inline only a few KB of above-the-fold rules), emit the main stylesheet under a **stable name** (Vite `build.rollupOptions.output.assetFileNames` for CSS, e.g. `/_astro/site.css`) and serve it with `Cache-Control: public, max-age=3600, stale-while-revalidate=86400` plus the asset layer's ETag instead of the hashed-immutable rule; add `<link rel="preload" as="style">`. | `site/astro.config.mjs`, `site/public/_headers`, `BaseLayout.astro` | A CSS edit costs **1 upload instead of 163,929**. Pages drop from ≈114 KB to ≈40 KB; the artifact from 5.4 GB to ≈2 GB; every full rewrite that remains uploads 7 GB instead of 19 GB. | Inlining was chosen (comment in `astro.config.mjs`) to remove the html → css → font chain (≈2 s in Lighthouse) when the stylesheet was ≈22 KB; it is now ≈75 KB per page. External, it is cached after the first page, same origin, HTTP/2; the preload keeps it off the critical path. Re-measure with `lighthouserc.json` on UAT before production; recalibrate `scripts/check-weight.ts` budgets, which count inlined CSS as HTML. |
+| 1.1 | **NOT SHIPPED, see 6a: it failed its Lighthouse check.** Stop inlining the stylesheet. `build.inlineStylesheets: "never"` (or inline only a few KB of above-the-fold rules), emit the main stylesheet under a **stable name** (Vite `build.rollupOptions.output.assetFileNames` for CSS, e.g. `/_astro/site.css`) and serve it with `Cache-Control: public, max-age=3600, stale-while-revalidate=86400` plus the asset layer's ETag instead of the hashed-immutable rule; add `<link rel="preload" as="style">`. | `site/astro.config.mjs`, `site/public/_headers`, `BaseLayout.astro` | A CSS edit costs **1 upload instead of 163,929**. Pages drop from ≈114 KB to ≈40 KB; the artifact from 5.4 GB to ≈2 GB; every full rewrite that remains uploads 7 GB instead of 19 GB. | Inlining was chosen (comment in `astro.config.mjs`) to remove the html → css → font chain (≈2 s in Lighthouse) when the stylesheet was ≈22 KB; it is now ≈75 KB per page. External, it is cached after the first page, same origin, HTTP/2; the preload keeps it off the critical path. Re-measure with `lighthouserc.json` on UAT before production; recalibrate `scripts/check-weight.ts` budgets, which count inlined CSS as HTML. |
 | 1.2 | **Move the layout scripts out of the page.** The four inline IIFEs in `BaseLayout.astro` (menu, font, theme, a11y prefs) and the inline scripts of `EntityLayout.astro` become `site/src/scripts/shell.ts` with a stable output name (same Vite rule, `entryFileNames` for that one entry), loaded with `defer`. The Svelte island chunks (`DepthDial`, `client.svelte`) stay hashed: they change rarely. | `BaseLayout.astro`, `EntityLayout.astro`, `site/src/scripts/shell.ts`, `astro.config.mjs` | A script fix costs 1 upload. | Same-origin script, no new network call; `check:static` still passes. The theme script runs before first paint today to avoid a flash; keep that one small block inline (it changes almost never) and move the rest. |
 | 1.3 | **Take the version out of the page.** The footer keeps the changelog link; the version and date are filled from `api/v1/meta/deploy.json`, which `deploy-env.yml` already writes and which the landing page already fetches. The deploy step adds `version` and `version_date` from the built commit's `CANARY.md`. Without JavaScript the footer reads "islam.museum · changelog", the same pattern as the wing counts. | `BaseLayout.astro`, `site/src/lib/version.ts` (changelog page keeps using it), `deploy-env.yml` | A version bump costs 1 upload instead of 163,929. Three bumps in the last six days. | None for readers with JavaScript; a no-JS reader loses the number in the footer (the changelog page still shows it). |
 | 1.4 | **Deterministic EPUBs.** `dcterms:modified` = the entity's `updated` git date (already computed by `scripts/git-dates.ts`), not the build clock. | `scripts/a11y-books.ts` | 867 uploads a day → 0. | None. |
@@ -158,14 +161,73 @@ What that idea buys depends on where the hash is checked:
 | 1.6 | **A churn report in every deploy.** `publish.mjs` prints the copies per top-level prefix (`ar`, `en`, `ur`, `api`, `pagefind-*`, `media`, root) and writes them to the job summary next to the data/content diff size of the deployed commit range. A deploy that rewrites more than, say, 20 % of the pages while fewer than 1 % of the sources changed prints a warning naming the shared files that changed. Add `tools/deploy/compare-builds.py` (the script used for section 2.2) so anyone can diff two artifacts. | `workers/r2-sync/batch/publish.mjs`, `deploy-env.yml`, `tools/deploy/` | Makes a regression visible in the summary instead of the bill. | None. |
 | 1.7 | **Name the all-pages files and gate them.** Extend the "site-wide numbers" rule in `docs/site/README.md` and `AGENTS.md`: `site/src/layouts/*`, `site/src/styles/*`, `site/src/lib/markdown.ts`, `nav.ts`, the components the layouts import, and the i18n keys under `nav`, `footer`, `entity` and `a11y` are **shell files**; a pull request that touches one is labelled `rewrites-all-pages` by a path filter in `validate.yml`, with the cost line in its summary ("this change rewrites ≈164,000 pages: ≈$0.75 and ≈30 minutes on the next deploy"). The founder deploys shell changes knowingly, ideally batched into one deploy a week; content deploys stay daily. | `.github/workflows/validate.yml`, `docs/site/README.md`, `AGENTS.md` | Turns 17 full-rewrite days out of 17 into a few. | A process rule, so it depends on agents reading it; the label and the summary line are the enforcement. |
 
-Expected outcome of Phase 1: a content-only deploy copies about 4,000 to 8,000 files in 3 to 5 minutes and stays
-inside the free million Class A operations even with daily UAT and production deploys; a shell deploy still copies
-every page, but in 7 GB rather than 19 GB and a third of the time, and happens when the founder chooses.
+Expected outcome of Phase 1 as proposed: a content-only deploy copies about 4,000 to 8,000 files in 3 to 5 minutes and
+stays inside the free million Class A operations even with daily UAT and production deploys; a shell deploy still copies
+every page, but in 7 GB rather than 19 GB and a third of the time, and happens when the founder chooses. **The shipped
+Phase 1 reaches the first half of that sentence only on days with no shell change, and not the second half: see 6a.**
 
 Order of work: 1.4, 1.5, 1.6 first (no visible change, one day); then 1.3; then 1.1 and 1.2 together with a Lighthouse
 run on UAT; then 1.7. Verify each step by building twice (the same commit, and the commit plus one content batch) and
 diffing the artifacts with the script from section 2.2: the goal is "0 HTML pages changed for the same commit, only
 the touched pages for a content batch".
+
+### 6a. What was built and what was not (6 November 2026)
+
+| # | Result | What exists |
+|---|---|---|
+| 1.1 | **Built, measured, not shipped** | Linking the stylesheet as `/shell/site.css` worked (a post-build step gave the compiled file a stable name and rewrote the link in every page), but it fails the Lighthouse gate. Numbers below. |
+| 1.2 | Shipped | The four inline scripts of `BaseLayout.astro` are `site/public/shell/shell.js`, the two of `EntityLayout.astro` are `site/public/shell/entity.js`, loaded with `defer`; `_headers` caches them five minutes, then revalidates. The tiny theme-init script stays inline: it must run before first paint. Plain files rather than a Vite entry, so the name never changes and no build step is needed. |
+| 1.3 | Shipped | The footer shows the changelog link; `shell.js` fills in `v<version> · <date>` from `api/v1/meta/deploy.json` when the browser is idle. `deploy-env.yml` writes `version` and `version_date` into that file from `CANARY.md` of the built commit. Checked in a browser: filled with the stamp, link text only without the stamp or without JavaScript. |
+| 1.4 | Shipped | `dcterms:modified` is the day the entity's data or prose last changed (`scripts/epub-meta.ts`, from the graph); the 14 pathway and statement books per language take the build commit's day. Two runs 2 s apart: the old builder changed 867 of 867 EPUBs, the new one 0 of 867. |
+| 1.5 | Shipped | `pagefind` `^1.6.0` (`site/package.json`, lockfile). On 5,293 pages indexed twice: 1.5.2 changed 4 of 1,727 files between the runs (two filters, the meta file, the entry file); 1.6.0 changed 0 of 1,741, also when the files were copied in the opposite order. The site's search page returns results from the 1.6.0 index in a headless browser. |
+| 1.6 | Shipped | `publish.mjs` prints and summarises the churn table and warns above a fifth of the pages; `tools/deploy/compare-builds.py` compares two builds; unit tests added. |
+| 1.7 | Shipped | `tools/deploy/shell-paths.list`, the `shell-impact` job in `validate.yml` (label `rewrites-all-pages`, summary), the rule in `AGENTS.md` and `docs/site/README.md`. |
+
+**Why the stylesheet did not ship.** Same pages, built once, served by Lighthouse CI 0.15.1 (the tool of `validate.yml`) with its mobile profile, three runs each, median:
+
+| Route | Before: CSS and scripts inline | CSS linked | Shipped: CSS inline, scripts external |
+|---|---|---|---|
+| `/ar/index.html` | 0.95, FCP 1,617 ms | **0.94**, 1,964 ms | 0.95, 1,616 ms |
+| `/ar/person/…` (an entity) | 0.96, 1,393 ms | 0.95, 1,657 ms | 0.96, 1,363 ms |
+| `/en/index.html` | 0.96, 1,616 ms | 0.98, 1,817 ms | 0.96, 1,626 ms |
+| `/ur/index.html` | 0.95, 1,618 ms | **0.94** (one run 0.93), 1,967 ms | 0.95, 1,613 ms |
+| `/en/accessibility/` | 1.00, 1,203 ms | 1.00, 1,206 ms | not measured |
+| `/ur/accessibility/` | 0.98, 903 ms | 0.98, 1,208 ms | not measured |
+
+`lighthouserc.json` requires 0.95 (an `error`) on all six routes, and the two home pages already sit exactly on it, so
+linking the stylesheet turns the pull-request check red; AGENTS.md says a failing rule is never lowered. The cost is one
+round trip (150 ms in the profile) plus the stylesheet sharing the simulated bandwidth with the two preloaded fonts
+(162 KB on Arabic pages). Two cures were tried and are no cure: dropping the font preloads makes it much worse (FCP about
+2,700 ms, scores 0.87 to 0.92) and a preload hint for the stylesheet changes nothing. Moving the scripts out of the page costs
+nothing (right-hand column). Real visitors would also see the extra round trip on a cold first view.
+
+**What the shipped change does, measured.** Two builds of 15,878 pages (every page except 24 of each 25 entity pages), the
+second after editing both shell scripts and bumping the version in `CANARY.md`: **5 of 87,725 files differ** (the two
+scripts and the three changelog pages, which render `CANARY.md`); the other 15,875 pages are byte-identical. Before this
+change either edit rewrote every page.
+
+**What it does not do.** A line edit of the stylesheet, a change to a layout or to a shell string in `i18n/`, and a
+change to the libraries listed in `tools/deploy/shell-paths.list` still rewrite most pages. Of the 17 days from 20 October
+to 5 November, 15 had a commit that touched one of those files (an upper bound: some touch only part of the pages).
+So Phase 1 as shipped removes the triggers that were avoidable (the version, the page scripts, the e-books), shows each
+deploy's cause in its summary, and makes the rest visible in review; it does not make most days cheap. A deploy on a day
+with no listed shell change uploads about 4,000 to 8,000 files; a deploy on any other day still uploads about 164,000 (about
+17 GB). The remaining index churn is Pagefind's: editing one entity page changes 9 of 1,741 files on one machine
+(one fragment, six index chunks, the meta and entry files), but the two real builds of 6 November renamed all 2,691 index
+chunks, which matches Pagefind issue 1395 (pages are numbered in directory-walk order, and that order differs between the
+virtual machines of two builds). Indexing through Pagefind's Node API with the pages added in sorted order would remove it;
+it is worth about 2,700 uploads a day, about $0.40 a month, so it was not done.
+
+**What would make most days cheap: Phase 2, narrowed (needs the founder).** Keep `dist/` exactly as it is, so the Lighthouse
+and link checks keep measuring what visitors get. At publish time `publish.mjs` replaces the one inlined global stylesheet
+(found by a marker) with `<link rel="stylesheet" href="/shell/site.css">` before hashing and uploading, and publishes
+the stylesheet as that one file. The site Worker, which already reads every page from R2, puts the stylesheet back
+inline with `HTMLRewriter` (the file is read once per isolate and kept) before answering. Visitors then receive the same bytes
+as today, so the Lighthouse scores do not move; the stored pages no longer change when the stylesheet does. The same step can later
+carry the header, footer and navigation, which would end every remaining shell day. Cost: a Worker that rewrites HTML on
+every uncached view, an amendment to ADR 0002 ("no server code on the visitor path" is already stretched by the site Worker),
+tests for parity between `dist/` and what the Worker serves, and a `submission-impacting` rating
+(`docs/ai-change-gates.md` section 3). About a week.
 
 ### Phase 2 · Shell outside the stored page (only if shell days stay frequent)
 
@@ -194,13 +256,15 @@ Phase 1 has run for a few weeks and the churn report shows that shell days are s
 
 ## 7. Decisions needed from the founder
 
-1. Approve Phase 1, and rate items 1.1 to 1.3 (`BaseLayout.astro` is on the submission-impacting path list in
-   `docs/ai-change-gates.md` section 3 because of the privacy posture; these items add no cookie, form, analytics or
-   external call, and `check:static` keeps guarding that).
-2. Accept the performance trade-off of 1.1, or ask for the "inline a few KB of critical CSS, external for the rest"
-   variant, decided by a Lighthouse run on UAT.
-3. Choose the shell-deploy cadence for 1.7 (weekly is suggested).
-4. Decide whether Phase 2 is worth an ADR amendment, after a few weeks of churn reports.
+1. Merge Phase 1 as shipped (6a). Items 1.2 and 1.3 touch `site/src/layouts/BaseLayout.astro`, which is on the
+   submission-impacting list of `docs/ai-change-gates.md` section 3 because of the privacy posture; they add no cookie,
+   form, analytics or external call (the footer reads one same-origin static file that the landing page already reads),
+   and `npm run check:static` still guards that.
+2. Whether to build Phase 2 narrowed (6a): an ADR 0002 amendment and a Worker that inlines the stylesheet. It is the only
+   change in this document that makes most days cheap without lowering a performance gate.
+3. The cadence for shell changes (weekly is suggested): agents hold `rewrites-all-pages` pull requests, or the founder
+   deploys them together.
+4. Optional: the sorted Pagefind indexing (6a), worth about $0.40 a month.
 
 ## 8. Sources
 
