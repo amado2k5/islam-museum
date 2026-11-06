@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; appended castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue, limited-reading sentence updated, not a rewrite or full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "إضافة القارب من107–109 ونقد256 وصورة فرير1315؛ حفظ كل النص السابق ونسبته" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "إضافة نافورةIV.1 من157–158 والتعليق263؛ حفظ كل النص السابق والنسبة" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b45", source: "إضافة ساعةI.7 من83–86/252–253؛ حفظ النص السابق والنسبة" }] }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; appended castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue, limited-reading sentence updated, not a rewrite or full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "إضافة القارب من107–109 ونقد256 وصورة فرير1315؛ حفظ كل النص السابق ونسبته" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "إضافة نافورةIV.1 من157–158 والتعليق263؛ حفظ كل النص السابق والنسبة" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b45", source: "إضافة ساعةI.7 من83–86/252–253؛ حفظ النص السابق والنسبة" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b46", source: "إضافة قفلVI.3 من199–201/268–269؛ حفظ النص السابق والنسبة" }] }
 ---
 ## موجز
 بديع الزمان أبو العز إسماعيل بن الرزاز الجزري مهندس ومؤلف في الحيل، تصفه موسوعة TDV عالماً إسلامياً، وتقول إن ما يعرف عن حياته خارج مقدمة كتابه قليل {cite:tdv-cezeri pp. 505–506}. تذكر خدمته للأرتقيين في [[place/amid|آمد]] بين 1181 و1206م وكتاباً كتبه بطلب الأمير ناصر الدين محمود، تؤرخ إتمامه بسنة 1205م {cite:tdv-cezeri pp. 505–506}. لا تتحول سنتا الخدمة إلى تاريخي ميلاد ووفاة.
@@ -48,6 +48,10 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 ## ساعة الشمع والمعايرة
 
 يصف البابI.7 [[invention/jazari-swordsman-candle-clock|ساعة السياف الشمعية]]: شمعة معايرة ترتفع بثقل، فتكشف حجرات كرات متتابعة، وتشغل الكرة مجسماً لتقليم الفتيل قبل سقوطها من الصقر {cite:jazari-hill-1974 pp.83–86}. يذكر المؤلف خبر ساعة أسد أقدم لم يعرف مبدؤها وتجارب متكررة لضبط الحركة، فلا تنسب إليه أول ساعة شمعية؛ ويبين هيل مشكلات مشوار الثقل ومواضع الكرات في رسم أكسفورد وتفاصيل يستنتجها حديثاً {cite:jazari-hill-1974 pp.83,86,252–253}. ورقة فريرF1930.71 نسخة1315 بخط فروخ بن عبد اللطيف، لا آلة أصلية أو صورة الجزري {cite:freer-jazari-candle-clock catalogue}.
+
+## قفل الصندوق وشروطه
+
+يصف البابVI.3 [[invention/jazari-twelve-letter-lock|قفل الصندوق ذي الاثني عشر حرفاً]]، أربع مجموعات بثلاثة أوضاع حرفية لكل منها وإغلاق مشترك، مع إقرار صريح بأقفال أقدم بحرفين وأربعة وستة {cite:jazari-hill-1974 pp.199–201}. يميز هيل بين أجزاء الرسم الناقصة أو المخالفة وبين تفسيره الحديث، ويذكر حداً في الحماية المادية؛ عدد الأوضاع ليس شهادة أمان {cite:jazari-hill-1974 pp.268–269}. هذه نسبة تركيب محسّن، لا أول قفل بالحروف، ولا إثبات نسب كل صندوق مقارن أو قفل حديث.
 
 ## المراجع
 - ساعة الشمعI.7: هيل83–86/252–253 و[[source/freer-jazari-candle-clock|فريرF1930.71 وحقوق الصورة]] {cite:jazari-hill-1974 pp.83–86,252–253} {cite:freer-jazari-candle-clock catalogue,rights}.

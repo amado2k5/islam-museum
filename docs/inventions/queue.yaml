@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: jazari-twelve-letter-lock
+    label: "Al-Jazari's VI.3 twelve-letter chest-lock assembly"
+    state: "[x]"
+    batch: 2
+    domain: mechanics-automata
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-jazari-engineer", "source/jazari-hill-1974", "source/commons-jazari-lock-context"]
+    invention: invention/jazari-twelve-letter-lock
+    lead_sources:
+      - "source/jazari-hill-1974 actualVI.3 primary199–201 and critical268–269;199/201/268 visually inspected"
+      - "source/commons-jazari-lock-context actual photographer CC0 rights and inspected comparative exterior, historical association unverified"
+    flags: [completed-D086-b46, four-groups-three-settings-not-four-letter-code, earlier-locks-acknowledged, not-first-lock-or-security-certification, comparative-image-not-original-or-transmission-proof, seven-earlier-maker-ties-retained, paper-only-no-real-lock-or-bypass]
   - id: jazari-swordsman-candle-clock
     label: "Al-Jazari's I.7 swordsman candle-clock assembly"
     state: "[x]"

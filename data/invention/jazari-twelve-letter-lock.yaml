@@ -1,0 +1,62 @@
+id: invention/jazari-twelve-letter-lock
+class: invention
+label: { ar: "قفل صندوق الجزري ذي الاثني عشر حرفاً", en: "Al-Jazari's twelve-letter chest lock", ur: "جزری کے صندوق کا بارہ حرفی قفل" }
+names: [{ value: "Twelve-letter combination chest lock, CategoryVI chapter3", kind: alternate, lang: en }]
+summary:
+  ar: "أربع مجموعات بثلاثة أوضاع حرفية لكل منها تتحكم في إغلاق مشترك؛ وصف تحسين يقر بأقفال أقدم، لا أول قفل أو ضمان أمان {cite:jazari-hill-1974 pp.199–201,268–269}."
+  en: "Four groups of three letter settings control a shared closure; an improvement acknowledging earlier locks, not the first lock or a security guarantee {cite:jazari-hill-1974 pp.199–201,268–269}."
+  ur: "تین تین حرفی وضع والی چار اکائیاں مشترک بندش چلاتی ہیں؛ سابق قفلوں کو ماننے والی بہتری، پہلا قفل یا حفاظت کی ضمانت نہیں {cite:jazari-hill-1974 pp.199–201,268–269}۔"
+domain: mechanics-automata
+kind: device
+disciplines: [engineering]
+wings: [objects, ideas]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1204/1206"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Documentary range from Hill introduction1204/1206 versus TDV1205, not a dated first build. Photograph2026 is not invention date. No invented invention Hijri."
+    sources: [source/jazari-hill-1974, source/tdv-cezeri]
+  status_today: transformed
+origin:
+  place: place/amid
+  polity: polity/artuqid-dynasty
+  context: { ar: "سياق خدمة المؤلف الأرتقية، لا منشأ الصندوق المقارن المثبت {cite:tdv-cezeri pp.505–506}.", en: "Author's Artuqid-service context, not verified provenance of the comparative chest {cite:tdv-cezeri pp.505–506}.", ur: "مصنف کی ارتقی خدمت کا ماحول، تقابلی صندوق کی ثابت اصل نہیں {cite:tdv-cezeri pp.505–506}۔" }
+makers:
+  - { person: person/al-jazari-engineer, role: describer, place: place/amid, sources: [source/jazari-hill-1974] }
+attribution:
+  status: improvement
+  claim: { ar: "تركيب محدد يجمع اثني عشر اختياراً وإغلاقاً مشتركاً، لا اختراع الأقفال بالحروف عموماً.", en: "Specific integration of twelve settings and a shared closure, not invention of letter locks generally.", ur: "بارہ انتخاب اور مشترک بندش کا خاص نظام، تمام حرفی قفلوں کی ایجاد نہیں۔" }
+  basis: { ar: "المؤلف يذكر صناع أقفال أقدم بحرفين وأربعة وستة، ثم يصف صنعه {cite:jazari-hill-1974 p.199}.", en: "Author credits earlier makers of two-, four- and six-letter locks before describing his construction {cite:jazari-hill-1974 p.199}.", ur: "مصنف اپنی ساخت سے پہلے دو، چار اور چھ حرفی قفلوں کے سابق بنانے والوں کو مانتے ہیں {cite:jazari-hill-1974 p.199}۔" }
+  perspectives: []
+precursors:
+  - external: { ar: "أقفال الحروف السابقة في شهادة المؤلف", en: "Earlier letter locks in the author's account", ur: "مصنف کے بیان میں سابق حرفی قفل" }
+    note: "Explicit2/4/6-letter predecessors, not independently dated surviving devices or identified makers."
+    sources: [source/jazari-hill-1974]
+dependents:
+  - external: { ar: "نسخ الوصف والتفسير الحديث", en: "Copied description and modern interpretation", ur: "بیان کی نقل اور جدید تعبیر" }
+    note: "Textual transmission, not a proven lineage to every modern lock or the comparative photographed chest."
+    sources: [source/jazari-hill-1974]
+spread: []
+impact:
+  fields: [mechanics-automata]
+  changed: { ar: "ربط أوضاع حرفية متعددة بشرط ميكانيكي مشترك لفتح صندوق {cite:jazari-hill-1974 pp.199–201}.", en: "Links multiple letter settings to a shared mechanical condition for opening a chest {cite:jazari-hill-1974 pp.199–201}.", ur: "متعدد حرفی وضع کو صندوق کھولنے کی مشترک میکانکی شرط سے جوڑتا ہے {cite:jazari-hill-1974 pp.199–201}۔" }
+  history: { ar: "شاهد مفصل على المعرفة المادية والضبط، مع حدود الرسم والحماية {cite:jazari-hill-1974 pp.268–269}.", en: "Detailed witness to material knowledge and setting, with drawing and protection limits {cite:jazari-hill-1974 pp.268–269}.", ur: "مادی علم اور ترتیب کا مفصل ثبوت، نقشے اور حفاظت کی حدود سمیت {cite:jazari-hill-1974 pp.268–269}۔" }
+  significance: 3
+  why: "Distinct integrated twelve-letter closure; acknowledged predecessors, nested-setting count, editorial reconstruction and physical-security limits retained without bypass instructions."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "نص ورسوم وتعليق؛ الصورة المقارنة ليست آلة الجزري الأصلية المثبتة.", en: "Text, drawings and commentary; comparative photograph is not verified original al-Jazari hardware.", ur: "متن، نقشے اور تعلیق؛ تقابلی تصویر جزری کی ثابت اصل مشین نہیں۔" }
+  descendants: { ar: "تشابه تعليمي لا نسب مثبت إلى كل قفل حديث.", en: "Teaching comparison, not demonstrated descent of every modern lock.", ur: "تدریسی موازنہ، ہر جدید قفل کا ثابت نسب نہیں۔" }
+media: { image: media/jazari-lock-context, diagram: media/diagram-jazari-twelve-letter-lock }
+kids: { ar: "ورق فقط: أربع مجموعات وثلاث خانات تساوي12؛ رمزان لكل خانة يعطيان4096 حالة افتراضية، لا تجربة أقفال حقيقية.", en: "Paper only: four groups of three spaces make12; two symbols per space give4096 hypothetical states, not a real-lock experiment.", ur: "صرف کاغذ: تین تین خانوں کے چار گروہ یعنی12؛ ہر خانے میں دو علامتیں4096 فرضی حالتیں دیتی ہیں، حقیقی قفل کا تجربہ نہیں۔" }
+sources: [source/jazari-hill-1974, source/tdv-cezeri, source/commons-jazari-lock-context]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b46", source: "Actual selectedVI.3 primary199–201/critical268–269;199/201/268 images, Commons rights/inspected comparative photograph, own idealized paper counting; no hardware/security testing" }
