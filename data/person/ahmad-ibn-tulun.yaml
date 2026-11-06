@@ -30,6 +30,16 @@ died:
   note: "مات بمصر يوم السبت لعشر خلون من ذي القعدة سنة سبعين ومائتين وله خمس وستون سنة وكانت ولايته سبع عشرة سنة {cite:muruj-al-dhahab p. 579}؛ 10 Dhu al-Qa'da 270/10 May 884 {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 67}؛ التحويل مشتق."
   sources: [source/muruj-al-dhahab, source/encyclopaedia-of-islam-2]
 gender: male
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "The TDV biography documents his education in hadith and Hanafi fiqh in Samarra and continued religious studies at Tarsus, and his foundation of the congregational mosque and hospital at al-Qatai. This biographical religious affiliation, not his name, is the source basis. Sunni is recorded under the explicit default-frame rule of docs/scope.md; no contrary tradition appears in the passages used."
+    sources: [source/tdv-ahmed-b-tolun]
+inventions:
+  - invention: invention/ibn-tulun-bimaristan
+    role: commissioner
+    sources: [source/khitat-maqrizi-1998, source/tdv-bimaristan]
 wings: [people]
 periods: [period/abbasid-early, period/abbasid-fragmentation]
 regions: [egypt-nile]
@@ -54,5 +64,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-30
   extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 28-39"]
 external_ids: { wikidata: "Q374374" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/tarikh-yaqubi-houtsma-1883, source/yeomans-islamic-cairo-2006]
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/tarikh-yaqubi-houtsma-1883, source/yeomans-islamic-cairo-2006, source/tdv-ahmed-b-tolun, source/khitat-maqrizi-1998, source/tdv-bimaristan]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

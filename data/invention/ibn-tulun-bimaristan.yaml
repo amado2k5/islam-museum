@@ -1,0 +1,99 @@
+id: invention/ibn-tulun-bimaristan
+class: invention
+label:
+  ar: "بيمارستان ابن طولون الوقفي"
+  en: "Ibn Tulun's endowed civilian hospital"
+  ur: "ابن طولون کا وقفی شہری شفاخانہ"
+names:
+  - { value: "مارستان ابن طولون", kind: alternate, lang: ar }
+  - { value: "The Tulunid bimaristan", kind: alternate, lang: en }
+summary:
+  ar: "ينقل المقريزي عن جامع السيرة الطولونية أن أحمد بن طولون بنى مارستاناً سنة 261هـ وأوقف عليه عقارات، وشرط ألا يعالج فيه جندي ولا مملوك. تُحفظ ثياب المريض وماله عند الأمين، ويُعطى ثياباً وفراشاً ودواءً وغذاءً، وتُرد أمتعته عند الخروج بعد التعافي {cite:khitat-maqrizi-1998 scan p. 2337}. يرد في الصفحة نفسها تاريخ 259هـ منقولاً عن الكندي، بينما تعطي موسوعة TDV سنة 872م؛ فلا يثبت السجل سنة افتتاح واحدة ولا أولوية اختراع المستشفى {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}."
+  en: "Al-Maqrizi quotes the compiler of the Tulunid biography: Ahmad ibn Tulun built a hospital in 261 AH, endowed it with properties and excluded soldiers and mamluks. A patient's clothes and money were kept by the custodian; hospital clothing, bedding, medicine and food were supplied, and belongings returned after recovery {cite:khitat-maqrizi-1998 scan p. 2337}. The same page gives al-Kindi's date of 259 AH, while TDV gives 872 CE; this record does not assert one exact opening year or the invention of hospitals {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}."
+  ur: "مقریزی طولونی سیرت کے مرتب سے نقل کرتے ہیں کہ احمد بن طولون نے 261ھ میں شفاخانہ بنایا اور اس پر جائیدادیں وقف کیں، جہاں فوجی اور مملوک کا علاج نہیں ہوتا تھا۔ مریض کے کپڑے اور مال امین کے پاس محفوظ رہتے، اسے لباس، بستر، دوا اور غذا ملتی، اور صحت یابی پر سامان لوٹایا جاتا {cite:khitat-maqrizi-1998 scan p. 2337}۔ اسی صفحے پر کندی کی 259ھ کی تاریخ ہے، جبکہ ٹی ڈی وی 872ء بتاتا ہے؛ ریکارڈ کسی ایک قطعی سال یا شفاخانے کی ایجاد کی اولیت کا دعویٰ نہیں کرتا {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}۔"
+domain: medicine-surgery
+kind: institution
+disciplines: [medicine]
+wings: [ideas, living]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0872/0875"
+    calendar: julian
+    precision: year
+    status: debated
+    derived: true
+    note: "Al-Maqrizi quotes al-Kindi's 259 AH and the compiler of the Tulunid biography's 261 AH on scan p. 2337 (printed p. 546); TDV instead gives 872 CE. The interval deliberately contains these competing datings, including the CE span of the Hijri years, rather than choosing an exact foundation year."
+    sources: [source/khitat-maqrizi-1998, source/tdv-bimaristan]
+  status_today: extinct
+origin:
+  place: place/al-fustat
+  context:
+    ar: "يضع المقريزي المارستان في أرض العسكر بين معالم مصر القديمة وجامع ابن طولون، ويقول إنه دثر ولم يبق له أثر. وتضع ترجمة TDV المسجد والمستشفى ضمن عمران القطائع الذي أنشأه ابن طولون شمال شرقي الفسطاط {cite:khitat-maqrizi-1998 scan p. 2336} {cite:tdv-ahmed-b-tolun pp. 141–143}."
+    en: "Al-Maqrizi locates the hospital in the al-Askar area between landmarks of Old Cairo and Ibn Tulun's mosque, and says it had disappeared without a surviving trace. TDV's biography places the mosque and hospital in the development of al-Qatai northeast of Fustat {cite:khitat-maqrizi-1998 scan p. 2336} {cite:tdv-ahmed-b-tolun pp. 141–143}."
+    ur: "مقریزی اسے عسکر کی زمین میں پرانے مصر کے مقامات اور ابن طولون کی مسجد کے درمیان رکھتے اور بتاتے ہیں کہ وہ مٹ چکا تھا۔ ٹی ڈی وی کی سوانح مسجد اور شفاخانے کو فسطاط کے شمال مشرق میں ابن طولون کے بسائے القطائع کے عمران میں رکھتی ہے {cite:khitat-maqrizi-1998 scan p. 2336} {cite:tdv-ahmed-b-tolun pp. 141–143}۔"
+makers:
+  - person: person/ahmad-ibn-tulun
+    role: commissioner
+    place: place/al-fustat
+    note: "Patron, founder and author of the reported conditions, not the inventor of hospitals or the unnamed physicians' treatments. Al-Maqrizi records endowments, patient care and his Friday inspections."
+    sources: [source/khitat-maqrizi-1998, source/tdv-bimaristan]
+attribution:
+  status: improvement
+  claim:
+    ar: "تنظيم مستشفى وقفي مدني يصف المصدر شروط قبوله وحفظ أمتعة المرضى ورعايتهم وخروجهم؛ لا اختراع المستشفى نفسه."
+    en: "An endowed civilian hospital with documented admission rules, custody of belongings, care and discharge; not invention of the hospital itself."
+    ur: "داخلے، سامان کی حفاظت، نگہداشت اور رخصتی کے بیان کردہ اصولوں والا وقفی شہری شفاخانہ؛ خود شفاخانے کی ایجاد نہیں۔"
+  basis:
+    ar: "التنظيم مفصل في نقل المقريزي عن السيرة الطولونية. وتعد موسوعة TDV وصف الرعاية قريباً من خدمات المستشفيات الحديثة، مع استثناء الإمكانات التقنية. ويسجل المتحف تطوير المؤسسة في هذا المثال، ولا يزعم أن كل خطوة لم تُعرف قبله. ودعوى أنه لم يكن بمصر مارستان قبله منسوبة إلى السيرة، بينما تذكر TDV منشأة لفتح بن خاقان بالفسطاط سنة 861م {cite:khitat-maqrizi-1998 scan p. 2337} {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}."
+    en: "Al-Maqrizi's quotation from the Tulunid biography details the organization. TDV compares its patient services, apart from technical capabilities, to modern hospital care. The museum records institutional development in this example, not that every step was unprecedented. The biography's claim that Egypt had no earlier hospital is attributed, while TDV also names Fath ibn Khaqan's Fustat foundation of 861 {cite:khitat-maqrizi-1998 scan p. 2337} {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}."
+    ur: "طولونی سیرت سے مقریزی کی نقل میں تنظیم تفصیل سے ہے۔ ٹی ڈی وی تکنیکی سہولتوں کو الگ رکھتے ہوئے مریضوں کی دیکھ بھال کو جدید شفاخانوں سے ملاتا ہے۔ میوزیم اس مثال میں ادارے کی ترقی درج کرتا ہے، ہر مرحلے کی بے مثال اولیت نہیں۔ مصر میں اس سے پہلے شفاخانہ نہ ہونے کا دعویٰ سیرت سے منسوب ہے؛ ٹی ڈی وی 861ء میں فسطاط کے فتح بن خاقان کے ادارے کو بھی بیان کرتا ہے {cite:khitat-maqrizi-1998 scan p. 2337} {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}۔"
+  perspectives: []
+precursors:
+  - invention: invention/waqf
+    note: "Al-Maqrizi says Ibn Tulun endowed the hospital with the diwan house, houses, a qaysariyya and a market. The link concerns the legal and financial institution, not proof that Umar's specific endowment directly financed this hospital."
+    sources: [source/khitat-maqrizi-1998]
+dependents: []
+spread: []
+impact:
+  fields: [medicine-surgery, institutions-systems]
+  changed:
+    ar: "يرسم الخبر رحلة المريض من حفظ ماله وثيابه إلى إلباسه وفرش فراشه وتقديم الأدوية والأغذية إليه حتى يبرأ، ثم اختبار قدرته على الأكل ورد ماله وثيابه عند انصرافه. ويذكر حمامين للرجال والنساء، لكنه يستثني الجندي والمملوك من القبول {cite:khitat-maqrizi-1998 scan p. 2337}."
+    en: "The account follows a patient from safekeeping of money and clothes to hospital dress, bedding, medicines and meals until recovery, then a meal-based discharge criterion and return of belongings. It records men's and women's bathhouses but excludes soldiers and mamluks from admission {cite:khitat-maqrizi-1998 scan p. 2337}."
+    ur: "روایت مریض کے مال اور کپڑوں کی حفاظت، لباس و بستر، صحت یابی تک دوا اور غذا، پھر کھانا کھا سکنے کی شرط پر رخصتی اور سامان کی واپسی بیان کرتی ہے۔ مردوں اور عورتوں کے دو حمام ہیں، مگر فوجی اور مملوک داخلے سے مستثنیٰ ہیں {cite:khitat-maqrizi-1998 scan p. 2337}۔"
+  history:
+    ar: "تصف موسوعة TDV أهمية هذه المنشأة لتاريخ رعاية المرضى وعلاج الأمراض العقلية؛ وتكشف رواية المقريزي عن إدارة وأوقاف وتفقد للخزائن والأطباء، لا مجرد بناء يأوي المرضى {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri} {cite:khitat-maqrizi-1998 scan p. 2337}."
+    en: "TDV emphasizes the institution in the history of patient and mental-health care; al-Maqrizi's account shows administration, endowments and inspection of stores and physicians, not merely a building sheltering the sick {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri} {cite:khitat-maqrizi-1998 scan p. 2337}."
+    ur: "ٹی ڈی وی مریضوں اور ذہنی امراض کی دیکھ بھال کی تاریخ میں اسے اہم کہتا ہے۔ مقریزی کے بیان میں انتظام، اوقاف اور ذخائر و طبیبوں کا معائنہ ہے، محض بیماروں کو چھت دینے والی عمارت نہیں {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri} {cite:khitat-maqrizi-1998 scan p. 2337}۔"
+  significance: 4
+  why: "A concrete early account of an endowed civilian hospital's admission-to-discharge process, including property custody and food, medicines and clothing. The exclusion of soldiers and mamluks and the conflicting dates are preserved rather than replaced by a universal-first claim."
+described_in: []
+examples: []
+sites: [place/al-fustat]
+concepts: [concept/medicine, concept/medical-treatment, concept/waqf]
+today:
+  form:
+    ar: "قال المقريزي إن المستشفى دثر ولم يبق له أثر. جامع ابن طولون القائم ليس المستشفى؛ صورته شاهد على عمارة الراعي وسياق المدينة، لا صورة لأجنحة العلاج {cite:khitat-maqrizi-1998 scan p. 2336} {cite:tdv-ahmed-b-tolun pp. 141–143}."
+    en: "Al-Maqrizi says the hospital had disappeared without a trace. The surviving Mosque of Ibn Tulun is not the hospital: its photograph illustrates the patron's building programme and urban context, not treatment wards {cite:khitat-maqrizi-1998 scan p. 2336} {cite:tdv-ahmed-b-tolun pp. 141–143}."
+    ur: "مقریزی کے مطابق شفاخانہ مٹ گیا تھا اور نشان نہ رہا۔ باقی مسجد ابن طولون، شفاخانہ نہیں: اس کی تصویر بانی کے عمران اور شہر کے ماحول کو دکھاتی ہے، علاج کے وارڈ نہیں {cite:khitat-maqrizi-1998 scan p. 2336} {cite:tdv-ahmed-b-tolun pp. 141–143}۔"
+  descendants:
+    ar: "تقارن الموسوعة الرعاية بالخدمات الحديثة، لكنها لا تثبت سلسلة انتقال لكل إجراء من هذه المنشأة إلى مستشفى حديث بعينه {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}."
+    en: "The encyclopedia compares the care with modern services but does not demonstrate a chain of transmission for each procedure from this institution to a particular modern hospital {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}."
+    ur: "انسائیکلوپیڈیا اس نگہداشت کا جدید خدمات سے موازنہ کرتا ہے، مگر ہر طریقے کا اس ادارے سے کسی خاص جدید ہسپتال تک سلسلہ ثابت نہیں کرتا {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}۔"
+media:
+  image: media/ibn-tulun-mosque-courtyard-werner
+  diagram: media/diagram-ibn-tulun-bimaristan
+kids:
+  ar: "تخيل مريضاً يصل إلى مستشفى ابن طولون. يقول المؤرخ إن شخصاً يحفظ ماله وثيابه، ثم يُعطى لباساً وفراشاً ويأتيه الطعام والدواء. وعندما يتعافى ويستطيع الأكل تُرد إليه أشياؤه. كانت عقارات موقوفة تساعد على قيام المستشفى، لكنه لم يكن مفتوحاً للجميع: فقد استثنى شرطه الجندي والمملوك."
+  en: "Imagine arriving sick at Ibn Tulun's hospital. The historian says someone kept your money and clothes safe, then you received hospital clothing, bedding, food and medicine. When you recovered and could eat, your belongings were returned. Endowed properties supported the institution, but it was not open to everyone: its rules excluded soldiers and mamluks."
+  ur: "سوچیے آپ بیمار ہو کر ابن طولون کے شفاخانے پہنچتے ہیں۔ مؤرخ کے مطابق کوئی آپ کے کپڑے اور مال محفوظ رکھتا، پھر لباس، بستر، کھانا اور دوا ملتے۔ صحت یابی اور کھانا کھانے کی صلاحیت پر آپ کا سامان لوٹا دیا جاتا۔ وقف کی جائیدادیں اسے سہارا دیتی تھیں، مگر دروازہ سب کے لیے نہیں تھا: فوجی اور مملوک مستثنیٰ تھے۔"
+sources: [source/khitat-maqrizi-1998, source/tdv-bimaristan, source/tdv-ahmed-b-tolun, source/wikimedia-commons]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b14"
+  source: "Al-Maqrizi, al-Khitat (Madbuli 1998), scan pp. 2336–2337, printed pp. 545–546, both checked on local page images; TDV BÎMÂRİSTAN and AHMED b. TOLUN; Commons photograph metadata and image checked, 2026-11-05"

@@ -1,0 +1,29 @@
+id: media/diagram-ibn-tulun-bimaristan
+class: media
+kind: illustration
+label:
+  ar: "رسم: الوقف وبيمارستان ابن طولون"
+  en: "Diagram: waqf and Ibn Tulun's hospital"
+  ur: "خاکہ: وقف اور ابن طولون کا شفاخانہ"
+summary:
+  ar: "رسم علاقات يولده الموقع من السجل وقت البناء، يصل الوقف ببيمارستان ابن طولون. ليس مخطط المبنى ولا إعادة رسم لأجنحته."
+  en: "A relationship diagram generated at build time from the record, connecting waqf with Ibn Tulun's hospital. It is not a building plan or a reconstruction of its wards."
+  ur: "ریکارڈ سے سائٹ کی تعمیر کے وقت بننے والا تعلقات کا خاکہ جو وقف کو ابن طولون کے شفاخانے سے ملاتا ہے۔ یہ عمارت کا نقشہ یا وارڈوں کی تعمیر نو نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/ibn-tulun-bimaristan]
+alt:
+  ar: "علاقة بين الوقف، وهو الأساس المالي المذكور في الخبر، وبيمارستان ابن طولون وصاحب تكليفه. لا تسمي البيانات مؤسسة لاحقة ثبت أنها نسخت إجراءاته."
+  en: "A link from waqf, the financial basis named in the account, to Ibn Tulun's hospital and its patron. The data names no later institution proven to have copied its procedures."
+  ur: "وقف، جسے روایت میں مالی بنیاد کہا گیا، سے ابن طولون کے شفاخانے اور بانی تک تعلق۔ ڈیٹا کسی ایسے بعد کے ادارے کا نام نہیں دیتا جس نے ثابت طور پر اس کے طریقے نقل کیے ہوں۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time from precursors and dependents)"
+  version: "1"
+  date: "2026-11-05"
+sources: [source/khitat-maqrizi-1998]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b14"
+  source: "Al-Maqrizi, al-Khitat (Madbuli 1998), scan p. 2337, checked on the image"
