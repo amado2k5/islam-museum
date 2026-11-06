@@ -1,5 +1,13 @@
 # Muslim Inventions Browser: research method
 
+## Invention80 audit — al-Mahani's sphere-division cubic (D-121)
+
+Actual complete MacTutor, İhsan Fazlıoğlu's TDV body/eight works, and Yvonne Dold-Samplonius's complete single-page university-hosted DSB reproduction/body/bibliography read. Individual Islamic identity explicit; separately declared Sunni default frame, no contrary personal tradition in consulted accounts. Birth about820 per MacTutor; death about880 qualified by DSB/TDV question mark. Observations853–866 and Baghdad around860 are life evidence, not composition dates. First-attested08XX is ninth century, no invented Hijri.
+
+Archimedes II.4 prescribed segment-volume ratio reduced to cubes/squares/number; al-Mahani did not solve it. Al-Khazin's later conic solution and Khayyam's system remain separate. Existing maker reused; original Fihrist labels/summaries/status/external ID and all three prose prefixes retained. Biography covers eclipse-timing discrepancy, ratio/Euclid work, azimuth/parabola/stars and attributed Tusi criticism rather than suppressing it. Leiden fragment/commentary reported, not inspected; DSB's probably-al-Quhi qualification retained. No original Mahani/Khayyam text or listed Rashed studies read for this batch.
+
+Actual MathWorld equations2–6: V=pi*h²*(3R-h)/3; a²=h*(2R-h); independent normalization q=t²*(3-t)/4, t=h/R,0≤t≤2. Modern t=.5 gives q=5/32, cap:remainder5:27, not5:32. Complement t=1.5 gives27/32 and27:5. Half-volume roots1,1±sqrt3 have only1 in physical interval. Positive derivative/scale/complement checks are modern, not medieval calculus claims. Actual Commons description/API/current960preview: Pbroks13,29October2008, public-domain release; violet cap/blue sphere,h,a,r; image r is text R, a is cut-circle radius not cubic coefficient. Original SVG unmodified. Nine new entities, full trilingual invention/work plus additive maker, lead545/all544 earlier leads and79 prior inventions preserved by session gate. No local tests/build/deployment or code/site/schema/Worker/workflow.
+
 ## Invention79 audit — water-sphere rainbow model (D-120)
 
 Actually read: complete MacTutor biography; Gül A. Russell's Iranica article body in the browser (simplified fetch returned bibliography only); Alison Boyle's Science Museum article; Commons description/API rights/current960preview. The guessed TDV URL was a placeholder, not a read article. Rashed1970 Persée opening p109 was read, but PDF returned403: full paper not read or registered as a consulted full text. No original Tanqih, Hyderabad edition or manuscript was inspected.

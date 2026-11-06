@@ -1,0 +1,16 @@
+id: media/diagram-mahani-sphere-cubic
+class: media
+kind: illustration
+label: { ar: "من نسبة حجم إلى مكعب", en: "From volume ratio to cubic", ur: "حجمی نسبت سے مکعب تک" }
+summary: { ar: "سلسلة تعليمية من مسألة أرشميدس إلى صياغة الماهاني، لا حل أكمله.", en: "Teaching chain from Archimedes' problem to al-Mahani's formulation, not his completed solution.", ur: "ارشمیدس کے سوال سے ماہانی کی تشکیل تک تدریسی زنجیر، مکمل حل نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/mahani-sphere-division-cubic]
+alt:
+  ar: "كرة ونسبة حجم ثم معادلة مكعبة، يتلوها حل لاحق؛ سلسلة حديثة لا إنشاء من مخطوط."
+  en: "Sphere and volume ratio, then cubic formulation and later solution; modern chain, not a manuscript construction."
+  ur: "کرہ و حجمی نسبت، پھر مکعب تشکیل اور بعد کا حل؛ جدید زنجیر، مخطوطے کی تعمیر نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/mahani-mactutor, source/tdv-mahani-fazlioglu]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b80", source: "Museum generic chain, no copied historical diagram or new claim of a completed al-Mahani solution." }

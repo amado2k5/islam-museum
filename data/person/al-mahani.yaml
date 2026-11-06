@@ -5,6 +5,26 @@ summary:
   ar: "أبو عبد الله محمد بن عيسى الماهاني من علماء أصحاب الأعداد والمهندسين، وله شرح المقالة الخامسة من كتاب إقليدس وكتاب رسالة في عروش الكواكب وكتاب رسالته في النسبة وكتاب في ستة وعشرين شكلا من المقالة الأولى من إقليدس التي لا يحتاج في شيء منها إلى الخلف {cite:fihrist-ibn-al-nadim p. 375,371}."
   en: "Al-Mahani — geometer of the calculator school {cite:fihrist-ibn-al-nadim}"
 wings: [people]
-sources: [source/fihrist-ibn-al-nadim]
+sources: [source/fihrist-ibn-al-nadim, source/mahani-mactutor, source/tdv-mahani-fazlioglu, source/dold-samplonius-mahani-dsb]
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن عيسى الماهاني" }
+gender: male
+roles: [mathematician, astronomer]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Individual Muslim basis: MacTutor explicitly calls him an Islamic mathematician; TDV places him among early Islamic mathematician-astronomers. Sunni is separately the default frame of docs/scope.md in the Abbasid Baghdad milieu, no contrary personal tradition in these consulted accounts; not inferred from name or birthplace."
+    sources: [source/mahani-mactutor, source/tdv-mahani-fazlioglu]
+born: { edtf: "0820~", calendar: julian, precision: year, status: tradition, note: "MacTutor about820; not independently established exact birth year or Hijri conversion.", sources: [source/mahani-mactutor] }
+died: { edtf: "0880~", calendar: julian, precision: year, status: tradition, note: "DSB circa880; TDV267/880 explicitly marked uncertain. No exact day or newly certified Hijri date.", sources: [source/dold-samplonius-mahani-dsb, source/tdv-mahani-fazlioglu] }
+inventions:
+  - { invention: invention/mahani-sphere-division-cubic, role: improver, note: "Algebraic formulation, not a completed cubic solution.", sources: [source/mahani-mactutor, source/tdv-mahani-fazlioglu] }
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 external_ids: { wikidata: Q2594199 }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b80"
+  source: "Additive biography/faith/date/invention extension from actual MacTutor, TDV and DSB. Original Fihrist labels/summaries/source, Devin status and external ID retained; original three prose bodies/front matter unchanged before extension."
+  additional_sources: [source/mahani-mactutor, source/tdv-mahani-fazlioglu, source/dold-samplonius-mahani-dsb]
