@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: research method
 
+## Invention92 — Arabic fiscal-register reform (6 November 2026)
+
+Before integration, reviewed exact upstream changes to nine earlier invention YAMLs: algebra,algorism,barid,camera-obscura,hisba,minaret,tabula-rogeriana,tiraz,waqf. Only Arabic parenthesis directional isolates changed; facts/prose untouched. The integration preservation gate checks normalization against the original baseline and exact merged bytes against reviewed159ff38f4cfor these nine, retains strict original bytes everywhere else. This preserves contributor intent rather than reverting it to make a stale byte-comparison pass.
+
+Actual freely downloadable Internet Archive Hitti1916volumeI PDF/text, metadata and title page read; metadata's1916–1924/combined creators are not substituted for the volume's actual Hitti1916title. Printed301 is PDF317,465–466arePDF481–482; all three actual images inspected. Syrian chapter gives81AH, Sulaiman ibn-Sa'd as translator, annual Jordan kharaj subsidy180000dinars, Sarjun reacting, and an inkstand anecdote. These are literary reports, not a surviving administrative order, payroll or sole causal explanation. Greek/Persian accounts are separate chapters; primary301cannot be replaced by its193margin number, nor466by301margin number. AI search's supposed461passage and Sarjun-as-translator quotation contradicted the actual text and were rejected.
+
+Iraqi chapter is attributed to al-Mada'ini through his teachers: bilingual Salih, Zadan Farrukh, suggested trial translation, governor's appointment and later full commission; Zadan's death linked to Ibn al-Ash'ath.466has fractional terminology,100000dirham inducement and a separate report of assigned period; distinguish translator footnotes from narrated speech, no invented duration or exchange-value calculation. Duri actual paragraph gives78AH/697Iraq,81AH/700Syria,87AH/706Egypt,124AH/741–42Khurasan, persistent local languages and staff continuity/displacement; do not manufacture one perfectly synchronized chronology from narrative/synthesis. Yildiz actual administrative paragraph and individual Islamic learning read; maker's old faith and political/administrative history retained.
+
+Reinspected unchanged PERF558recto: Greek upper writing, Arabic lower right, brown fibres/gaps/cardG39726, no people. Actual stored Commons record selects the exact file rather than first search hit, verifiesPD/canonical URL/643metadata. Context demonstrates earlier bilingual document use, not a reform register or decree. Source files/images remain outside git. Existing kharaj concept and all old invention/maker/source/media/prose are reused and preserved; no inferred private faith for scribes or invented staff entity.
+
 ## Invention91 — seal-and-copy registry (6 November 2026)
 
 Existing Urdu concept prose was discovered when an add-file operation correctly refused to overwrite it. Read it and appended the same rich sections as ar/en,retaining its complete original prefix; no replacement or duplicate file.

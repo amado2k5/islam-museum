@@ -1,0 +1,19 @@
+id: media/diagram-arabic-fiscal-registers
+class: media
+kind: illustration
+label: { ar: "من السجل الموروث إلى السجل العربي", en: "From inherited register to Arabic register", ur: "پرانے رجسٹر سے عربی رجسٹر تک" }
+summary:
+  ar: "مخطط مفهومي حديث للمعرفة الموروثة والنقل والضبط، لا صورة لسجل أموي محفوظ."
+  en: "Modern conceptual diagram of inherited expertise,translation and checking,not a surviving Umayyad register."
+  ur: "ورثے کے ہنر، ترجمے اور جانچ کا جدید تصوری خاکہ، محفوظ اموی رجسٹر کی تصویر نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/arabic-fiscal-register-reform]
+alt:
+  ar: "سلسلة مفهومية تربط السجلات الموروثة بترجمتها واستعمالها بالعربية، بلا أشخاص أو جداول تاريخية مخترعة."
+  en: "Conceptual chain linking inherited registers,translation and Arabic use,without people or invented historical tables."
+  ur: "پرانے رجسٹروں، ترجمے اور عربی استعمال کا تصوری سلسلہ؛ اشخاص یا فرضی تاریخی جدول نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/baladhuri-hitti-1916, source/tdv-divan-duri]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b92", source: "Existing generic build-time diagram; modern explanation,not reconstructed archival layout or automatic translation algorithm." }
