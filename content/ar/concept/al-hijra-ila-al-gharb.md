@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 
-# الهجرة إلى الغرب — أمل أم ألم (هجرة العقول)
+# الهجرة إلى الغرب — أمل أم ألم ⁦(هجرة العقول)⁩
 
 ## الحلقة والتصويت
 ناقشت حلقة «الوسطية» الهجرة إلى الغرب — «يتصورونها جنة فيواجهون التمييز العنصري والذوبان الأسري وضياع الهوية» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:01:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:02:00}. وصوّت الشباب: 34% يقبلون الهجرة فوراً و26% يترددون و40% لا يقبلون؛ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} و84% يرونها كبيرة وخطيرة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}.
