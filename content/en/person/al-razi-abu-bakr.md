@@ -2,7 +2,9 @@
 id: person/al-razi-abu-bakr
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code, clinical/identity extension from Arabic"]
+status: { review: published }
+provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "Selected Greenhill1848, Britannica/Kaya/Adamson; original Devin record and Haiku translation attribution preserved" }
 ---
 ## Overview
 Abu Bakr Muhammad ibn Zakariya al-Razi, philosopher and physician, author of the "al-Mansuri" on medicine. {cite:muruj-al-dhahab p. 547}
@@ -17,7 +19,17 @@ Ibn al-Nadim relates from him that he held that a philosopher's knowledge is not
 
 Ibn al-Nadim describes him, in the art of physicians, as unique in his age, combining the knowledge of the ancients especially medicine, and he wrote "al-Mansuri", and had a friendship with Mansur ibn Isma'il. He was generous and kind to the poor, and became blind at the end of his life. He mentions from the index of his books "al-Hawi" and "The Doubts on Galen". {cite:fihrist-ibn-al-nadim p. 415-417}
 
-His birth and death years need an additional source.
+Modern sources give different dates: Britannica has birthc854 and death925 or935; Kaya gives865/251AH for birth. These reports are not collapsed into one certain year {cite:britannica-al-razi biography} {cite:tdv-razi-ebu-bekir pp.479–485}.
+
+## The medical treatise and identity limits
+
+In his [[invention/al-razi-smallpox-measles|comparison of smallpox and measles]], al-Razi arranges shared symptoms and relative differences with an exception and a humoral explanation. ChapterIII establishes comparison, not invention of all diagnosis or vaccination; the1848 translator says its composition date is unknown {cite:razi-greenhill-smallpox-1848 pp.3,34–35}. Nor is the *Hawi* simply a modern personal casebook: Adamson explains its predominantly source-excerpt character {cite:sep-abu-bakr-al-razi sec.1}.
+
+**Sunni frame:** The museum's frame is declared, not a certificate of personal school. Britannica explicitly calls al-Razi a Muslim philosopher, a named individual basis rather than inference from name or country, while disagreement remains {cite:britannica-al-razi biography}.
+
+**Academic reading:** Adamson discusses hostile testimony through Abu Hatim alongside surviving works and contrary reports, including limits on attribution of anti-prophecy positions {cite:sep-abu-bakr-al-razi sec.5}.
+
+**Kaya's reading:** Kaya defends a deist interpretation; this is his reading, not the museum's verdict {cite:tdv-razi-ebu-bekir pp.479–485}. The programme account below remains attributed to its speaker. This additional documentation does not authenticate every priority claim or anecdote in it.
 
 ## In the 'Al-Mubdi'un' programme
 Tareq al-Suwaidan presents Abu Bakr al-Razi as 'the humane physician and encyclopaedic scholar', applying to him the creativity equation: early start, passionate love of learning, extraordinary memory {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:01:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:02:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:04:00}.

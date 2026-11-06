@@ -1,0 +1,13 @@
+id: media/diagram-razi-clinical-comparison
+class: media
+kind: illustration
+label: { ar: "من الوصف الموروث إلى المقارنة السريرية", en: "Inherited description to clinical comparison", ur: "ورثے کی طبی تحریر سے کلینیکی تقابل تک" }
+summary: { ar: "سلسلة تعليمية عامة لا نسب تلقائي للقاح أو استئصال الجدري.", en: "Generic educational chain, not automatic vaccine or eradication lineage.", ur: "عمومی تعلیمی سلسلہ، ویکسین یا چیچک کے خاتمے تک خودکار نسب نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/al-razi-smallpox-measles]
+alt: { ar: "كتابة طبية سابقة ثم رسالة تقارن أعراض الجدري والحصبة؛ لا إرشاد تشخيصي أو سلسلة مخترعي اللقاحات.", en: "Earlier medical writing then a monograph comparing smallpox/measles symptoms; not diagnostic guidance or a vaccine-inventor chain.", ur: "پہلے کی طبی تحریر، پھر چیچک و خسرے کی علامات کا تقابلی رسالہ؛ تشخیصی ہدایت یا ویکسین موجدوں کا سلسلہ نہیں۔" }
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/razi-greenhill-smallpox-1848, source/britannica-al-razi]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b37", source: "Actual primary chapters/preface and biography; bounded generic chain without clinical procedure" }

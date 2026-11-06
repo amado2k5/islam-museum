@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.2.0 — 2026-11-05
 
 ### Added
+- Invention37: al-Razi's documented clinical comparison of smallpox and measles, fully told in Arabic, English and Urdu. The inspected translated primary supports relative comparison, not all diagnosis, virology or vaccination; unknown composition date and conflicting religious readings remain explicit. Seven defined sources and a credited public-domain1848 translation title page accompany the preserved, expanded maker biography. Historical description only, no clinical instructions or deployment.
 - Invention36: Ibn al-Haytham's fourth-power/exhaustion volume method, full Arabic/English/Urdu account and preserved maker biography. Perpendicular-axis8/15 distinguished from ordinary axial1/2 and modern reconstruction from historical claims; five defined sources and licensed explicitly comparative image. Content only, no deployment.
 
 - A thirty-fifth invention joins the browser: Abu al-Wafa's organized one-opening compass constructions, with complete Arabic, English and Urdu accounts. The inspected translated primary retains its Persian/pupil transmission layers and radius-choice caveat; checked modern examples distinguish a valid perpendicular from degenerate cases and universal claims. Woepcke's tentative European-transmission hypothesis and Raynaud's bounded independent-discovery analysis remain attributed, without a museum verdict. The credited CC BY-SA3.0 photograph is explicitly a modern adjustable tool, not his compass.

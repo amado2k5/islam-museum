@@ -2,7 +2,9 @@
 id: person/al-razi-abu-bakr
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code, clinical/identity extension from Arabic"]
+status: { review: published }
+provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "گرین ہل1848 کے منتخب حصے، بریٹانیکا، قایا، ایڈمسن؛ اصل دِیون ریکارڈ اور ہائیکو ترجمے کی نسبت محفوظ" }
 ---
 ## خلاصہ
 ابو بکر محمد بن زکریا الرازی، فلسفی اور طبیب، «المنصوری» کے مصنف جو طب میں ہے۔ {cite:muruj-al-dhahab p. 547}
@@ -17,7 +19,17 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 طبیبوں کے فن میں ابن الندیم ان کے بارے میں لکھتے ہیں کہ وہ اپنے زمانے کے یکتا تھے، قدیم علوم بالخصوص طب کی معرفت جمع کی، «المنصوری» تالیف کی، اور منصور بن اسماعیل کے ساتھ ان کی دوستی تھی۔ وہ سخی اور فقرا کے ساتھ نیکی کرنے والے تھے، اور آخری عمر میں نابینا ہو گئے۔ ابن الندیم ان کی کتابوں کی فہرست میں «الحاوی» اور کتاب «الشکوک علی جالینوس» کا ذکر کرتے ہیں۔ {cite:fihrist-ibn-al-nadim p. 415-417}
 
-اضافی ماخذ درکار ہے: ان کا سنہ ولادت اور سنہ وفات۔
+جدید مآخذ مختلف تاریخیں دیتے ہیں: بریٹانیکا پیدائش تقریباً854 اور وفات925 یا935، قایا پیدائش865/251 ہجری بتاتے ہیں۔ ان روایات کو ایک یقینی سال نہیں بنایا گیا {cite:britannica-al-razi biography} {cite:tdv-razi-ebu-bekir pp.479–485}۔
+
+## طبی رسالہ اور شناخت کی حدود
+
+[[invention/al-razi-smallpox-measles|چیچک اور خسرے کے تقابل]] میں رازی مشترک علامات اور نسبتی فرق ایک استثنا اور اخلاطی توضیح کے ساتھ مرتب کرتے ہیں۔ باب سوم تقابل ثابت کرتا ہے، پوری تشخیص یا ویکسین کی ایجاد نہیں؛1848 کے مترجم تاریخ تصنیف نامعلوم کہتے ہیں {cite:razi-greenhill-smallpox-1848 pp.3,34–35}۔ الحاوی بھی محض جدید ذاتی کیس بک نہیں؛ ایڈمسن اس میں مآخذ کے اقتباسات کی کثرت بتاتے ہیں {cite:sep-abu-bakr-al-razi sec.1}۔
+
+**Sunni (اہلِ سنت):** میوزیم کا سیاق معلن ہے، ذاتی مسلک کی سند نہیں۔ بریٹانیکا رازی کو صراحتاً مسلم فلسفی کہتی ہے؛ یہ فرد کی مسمیٰ بنیاد ہے، نام یا ملک سے اخذ نہیں، مگر اختلاف باقی ہے {cite:britannica-al-razi biography}۔
+
+**علمی قرأت:** ایڈمسن ابو حاتم کی مخالف روایت کے ساتھ باقی تصانیف، مختلف خبریں اور انکار نبوت کے خیالات کی نسبت کی حدود بیان کرتے ہیں {cite:sep-abu-bakr-al-razi sec.5}۔
+
+**قایا کی قرأت:** قایا ربوبیت کی تعبیر کا دفاع کرتے ہیں؛ یہ ان کی قرأت ہے، میوزیم کا فیصلہ نہیں {cite:tdv-razi-ebu-bekir pp.479–485}۔ ذیل کے پروگرام کی باتیں مقرر ہی کی طرف منسوب رہتی ہیں؛ نئی دستاویز ہر اولیت یا قصے کی تصدیق نہیں کرتی۔
 
 ## پروگرام «المبدعون» میں
 طارق السویدان ابوبکر رازی کو «انسانی معالج اور موسوعائی عالم» پیش کرتے ہوئے ان پر تخلیق کا فارمولا ڈالتے ہیں: جلد آغاز، سیکھنے کی شوقین محبت، اور نایاب یادداشت {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:01:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:02:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:04:00}۔
