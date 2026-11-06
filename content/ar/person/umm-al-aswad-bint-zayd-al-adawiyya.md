@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.705, 710" }
 ---
 ## موجز
-أم الأسود بنت زيد العدوية عابدة من بني عدي بأهل [[place/basra|البصرة]]، يترجم لها ابن الجوزي في [[work/sifat-al-safwa|صفة الصفوة]] (الترجمة 591)، وكانت [[person/muadha-al-adawiyya|معاذة العدوية]] قد أرضعتها. {cite:sifat-al-safwa-tartusi-2012 p.710}
+أم الأسود بنت زيد العدوية عابدة من بني عدي بأهل [[place/basra|البصرة]]، يترجم لها ابن الجوزي في [[work/sifat-al-safwa|صفة الصفوة]] ⁦(الترجمة 591)⁩، وكانت [[person/muadha-al-adawiyya|معاذة العدوية]] قد أرضعتها. {cite:sifat-al-safwa-tartusi-2012 p.710}
 
 ## وصية معاذة
 يروي عن أبي عبد الرحمن السلمي أن معاذة قالت لها: لا تفسدي رضاعي بأكل الحرام، فإني جهدت جهدي حين أرضعتك حتى أكلت الحلال، فاجتهدي ألا تأكلي إلا حلالاً لعلك أن توفَّقي لخدمة سيدك والرضا بقضائه. فكانت أم الأسود تقول: ما أكلت شبهة إلا فاتتني فريضة أو ورد من أورادي. {cite:sifat-al-safwa-tartusi-2012 p.710}

@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.714" }
 ---
 ## موجز
-أم إبراهيم العابدة من عابدات [[place/basra|البصرة]] في [[work/sifat-al-safwa|صفة الصفوة]] (الترجمة 600). {cite:sifat-al-safwa-tartusi-2012 p.714}
+أم إبراهيم العابدة من عابدات [[place/basra|البصرة]] في [[work/sifat-al-safwa|صفة الصفوة]] ⁦(الترجمة 600)⁩. {cite:sifat-al-safwa-tartusi-2012 p.714}
 
 ## مصائب الدنيا
 يروي عن عبد المؤمن بن عبد الله القيسي أن دابة ضربتها فكسرت رجلها، فأتاها قوم يعزونها، فقالت: لولا مصائب الدنيا وردنا الآخرة مفاليس. {cite:sifat-al-safwa-tartusi-2012 p.714}

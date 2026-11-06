@@ -17,7 +17,7 @@ translators: []
 أُنشئت قناته على يوتيوب في 12 سبتمبر 2019، وبلد القناة مضبوط على باكستان. {cite:vidiq-tuaha-ibn-jalil} {cite:speakrj-tuaha-ibn-jalil} وبلغت 1,910,000 مشترك و175,764,688 مشاهدة إجمالية و1,168 مقطعًا عند تحديث vidIQ في 5 نوفمبر 2026. {cite:vidiq-tuaha-ibn-jalil} وتعطي لقطة SPEAKRJ في 3 نوفمبر 2026 استقلالًا العدد نفسه من المشتركين، 1,910,000، مع 175,702,492 مشاهدة و1,167 مقطعًا. {cite:speakrj-tuaha-ibn-jalil} وأعلى مقاطعه مشاهدةً «Don't be Sad!» من سلسلة Wednesday Night Exclusive في أغسطس 2022 بنحو 5.11 مليون مشاهدة في قائمة vidIQ، يليه مقطع من يوليو 2022 عن إدمان الإباحية بنحو 3.16 مليون. {cite:vidiq-tuaha-ibn-jalil}
 
 ## المراجع
-- فايزة إدريس ورابعة نور، «Podcasting Faith»، مجلة Online Media & Society، المجلد 6 العدد 1 (مارس 2025)، قُرئت كاملة في 5 نوفمبر 2026. {cite:oms-tuaha-ibn-jalil}
+- فايزة إدريس ورابعة نور، «Podcasting Faith»، مجلة Online Media & Society، المجلد 6 العدد 1 ⁦(مارس 2025)⁩، قُرئت كاملة في 5 نوفمبر 2026. {cite:oms-tuaha-ibn-jalil}
 - صفحة إحصاءات vidIQ لقناته (@tuahaibnjalil)، بأرقام 5 نوفمبر 2026. {cite:vidiq-tuaha-ibn-jalil}
 - صفحة تدقيق SPEAKRJ لقناته، ببيانات 3 نوفمبر 2026. {cite:speakrj-tuaha-ibn-jalil}
-- مقالة ويكيبيديا الإنجليزية «Youth Club Pakistan»، رُوجعت في 26 أكتوبر 2026 (لسياق المنظمة فقط). {cite:wikipedia-youth-club-pakistan-en}
+- مقالة ويكيبيديا الإنجليزية «Youth Club Pakistan»، رُوجعت في 26 أكتوبر 2026 ⁦(لسياق المنظمة فقط)⁩. {cite:wikipedia-youth-club-pakistan-en}
