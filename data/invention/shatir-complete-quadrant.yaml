@@ -1,0 +1,80 @@
+id: invention/shatir-complete-quadrant
+class: invention
+label: { ar: "الربع التام لابن الشاطر", en: "Ibn al-Shatir's complete quadrant", ur: "ابن شاطر کا ربع تام" }
+names:
+  - { kind: alternate, lang: en, value: "Perfect quadrant (al-rub al-tamm)" }
+summary:
+  ar: "تعديل لربع الجيب ضمن برنامج توسيع أعمال الميقات والتعليم،لا اختراع جميع الأرباع أو بقاء آلة مؤكدة {cite:tdv-ibn-shatir-dizer instruments}."
+  en: "A sine-quadrant modification aiming at broader timekeeping and instruction,not invention of all quadrants or a confirmed surviving device {cite:tdv-ibn-shatir-dizer instruments}."
+  ur: "توقیت و تعلیم کو وسعت دینے کے لیے ربع جیب کی ترمیم،تمام ارباع کی ایجاد یا یقینی محفوظ آلہ نہیں {cite:tdv-ibn-shatir-dizer instruments}۔"
+domain: astronomy-instruments
+kind: instrument
+disciplines: [astronomy, mathematics]
+wings: [objects, ideas]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "13XX"
+    calendar: julian
+    precision: century
+    status: historical
+    derived: true
+    note: "Fourteenth-century author/design horizon,not dated manufacture or exact treatise composition;no borrowed astrolabe/sundial date."
+    sources: [source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer]
+  status_today: replaced
+origin:
+  place: place/damascus
+  context:
+    ar: "برنامج ميقاتي دمشق،لا ورشة مؤرخة أو يوم صنع موثق {cite:king-ibn-shatir-bea instruments}."
+    en: "Damascus timekeeper's programme,not a dated workshop or documented construction day {cite:king-ibn-shatir-bea instruments}."
+    ur: "دمشق کے موقت کا منصوبہ،مؤرخ کارگاہ یا ثابت یوم تیاری نہیں {cite:king-ibn-shatir-bea instruments}۔"
+makers:
+  - person: person/ibn-al-shatir
+    role: improver
+    note: "Specific complete-quadrant design,not Alai quadrant,universal astrolabe,sundial or lunar model."
+    sources: [source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer, source/fathi-perfect-quadrant-2015]
+attribution:
+  status: improvement
+  claim: { ar: "تطوير مخصوص لربع الجيب مع رسالة تعليمية.", en: "A specific sine-quadrant development with a teaching treatise.", ur: "تدریسی رسالے کے ساتھ ربع جیب کی مخصوص ترقی۔" }
+  basis:
+    ar: "تسميه ديزر صراحة وتفصله عن العلائي؛كينغ يصف الأرباع المعدلة؛مقدمة فتحي تعرض الكتاب،لا قياس دقة الآلة {cite:tdv-ibn-shatir-dizer instruments} {cite:fathi-perfect-quadrant-2015 introduction}."
+    en: "Dizer names it separately from the Alai;King describes modified quadrants;Fathi introduces the book,not an accuracy trial {cite:tdv-ibn-shatir-dizer instruments} {cite:fathi-perfect-quadrant-2015 introduction}."
+    ur: "دیزر اسے علائی سے الگ نام دیتا،کنگ ترمیم بتاتا،فتحی کتاب کا تعارف نہ کہ دقت کا تجربہ پیش کرتا ہے {cite:tdv-ibn-shatir-dizer instruments} {cite:fathi-perfect-quadrant-2015 introduction}۔"
+precursors:
+  - external: { ar: "ربع الجيب السابق", en: "Earlier sine quadrant", ur: "پہلا ربع جیب" }
+    note: "Modified inherited trigonometric instrument,not an instrument family invented from nothing."
+    sources: [source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer]
+dependents:
+  - external: { ar: "تحقيق حديث وشرح تعليمي", en: "Modern edition and educational explanation", ur: "جدید اشاعت و تدریسی وضاحت" }
+    note: "Fathi's edition reports modern-formula/reuse appendices;not proof of continuous use of original hardware."
+    sources: [source/fathi-perfect-quadrant-2015]
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics, timekeeping]
+  changed:
+    ar: "ربط آلة حسابية ببرنامج واسع للمسائل والأسئلة التعليمية {cite:fathi-perfect-quadrant-2015 introduction}."
+    en: "Linked a calculating device to an extensive programme of problems and teaching questions {cite:fathi-perfect-quadrant-2015 introduction}."
+    ur: "حسابی آلے کو مسائل و تدریسی سوالوں کے وسیع منصوبے سے جوڑا {cite:fathi-perfect-quadrant-2015 introduction}۔"
+  history:
+    ar: "جزء من صناعة آلات الميقات المملوكية،لا شهادة تفوق تجريبي مطلق {cite:king-ibn-shatir-bea instruments}."
+    en: "Part of Mamluk timekeeping instrumentation,not a certificate of absolute experimental superiority {cite:king-ibn-shatir-bea instruments}."
+    ur: "مملوک توقیتی آلات کی روایت کا حصہ،مطلق تجرباتی برتری کا سرٹیفکیٹ نہیں {cite:king-ibn-shatir-bea instruments}۔"
+  significance: 3
+  why: "Distinct modified sine-quadrant design and unusually extensive reported teaching programme,with survival/performance limits stated."
+described_in: [work/al-naf-al-amm-shatir]
+examples: [object/rub-al-tamm-ibn-al-shatir]
+sites: []
+concepts: []
+today:
+  form: { ar: "قراءة تاريخية وشرح ورقي مستقل،لا إعادة بناء معتمدة.", en: "Historical reading and independent paper explanation,not a certified reconstruction.", ur: "تاریخی مطالعہ و آزاد کاغذی وضاحت،مصدقہ بازتعمیر نہیں۔" }
+  descendants: { ar: "بقاء نص لا يثبت سلسلة صنع مستمرة.", en: "Textual survival does not prove continuous manufacture.", ur: "متن کی بقا مسلسل تیاری کا ثبوت نہیں۔" }
+media: { image: media/shatir-quadrant-context, diagram: media/diagram-shatir-complete-quadrant }
+kids:
+  ar: "اقسم ربع دائرة على الورق؛لا تنظر إلى الشمس ولا تجر مسحاً ميدانياً."
+  en: "Explore a quarter-circle on paper;never look at the Sun or conduct a field survey."
+  ur: "کاغذ پر چوتھائی دائرہ دیکھیں؛سورج کو نہ دیکھیں،میدانی سروے نہ کریں۔"
+sources: [source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer, source/fathi-perfect-quadrant-2015, source/commons-front-quadrant]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b72", source: "Actual King/TDV and public Fathi2015introduction;not full edition/manuscripts. Modern math independent;context photo not surviving original;no untested universal-accuracy claim." }
