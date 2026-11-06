@@ -1,0 +1,25 @@
+id: award/muslim-world-league-sira-competition
+class: award
+kind: competition-prize
+label: { ar: "مسابقة رابطة العالم الإسلامي في السيرة النبوية", en: "Muslim World League Sira Competition", ur: "رابطہ عالم اسلامی کا سیرت نگاری مقابلہ" }
+summary:
+  ar: "مسابقة عالمية في كتابة السيرة النبوية أعلنتها رابطة العالم الإسلامي في مؤتمر لها بباكستان سنة 1396هـ، وأُعلنت نتائجها في شعبان 1398هـ، وسُلّمت جوائزها في مؤتمر الرابطة بمكة سنة 1399هـ؛ تقدّم إليها 171 بحثا، وفاز بالمركز الأول «الرحيق المختوم»."
+  en: "A worldwide competition for writing the Prophet's biography, announced by the Muslim World League at a conference in Pakistan in 1396 AH, with results announced in Shaban 1398 AH and prizes handed over at the League's conference in Mecca in 1399 AH (1979); 171 studies were entered, and al-Raheeq al-Makhtum took first place."
+  ur: "سیرتِ نبوی پر لکھنے کا ایک عالمی مقابلہ جس کا اعلان رابطہ عالم اسلامی نے 1396ھ میں پاکستان میں اپنی ایک کانفرنس میں کیا؛ نتائج شعبان 1398ھ میں آئے اور انعامات 1399ھ (1979) میں مکہ کی کانفرنس میں دیے گئے؛ 171 مقالات آئے اور «الرحیق المختوم» اول رہی۔"
+wings: [today]
+regions: [arabia]
+awarded_by: group/muslim-world-league
+since: { edtf: "1976", hijri: "1396", calendar: gregorian, precision: year, status: historical, derived: true, note: "Announced in 1396 AH; the Gregorian year is converter-derived (1396 AH ran from January to December 1976).", sources: [source/wikipedia-raheeq-ar, source/wikipedia-raheeq-en] }
+until: { edtf: "1979", hijri: "1399", calendar: gregorian, precision: year, status: historical, derived: true, note: "Prizes handed over at the League's conference in Mecca in 1399 AH (1979).", sources: [source/wikipedia-raheeq-ar, source/wikipedia-raheeq-en] }
+country: sa
+recurs: once
+footprint:
+  wikipedia: { languages: [], checked: "2026-11-06", sources: [source/wikipedia-raheeq-en] }
+sources: [source/wikipedia-raheeq-ar, source/wikipedia-raheeq-en]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «الرحيق المختوم (كتاب)» (revision 76191490) citing the League Secretary-General's foreword, and English Wikipedia 'Ar-Raheeq Al-Makhtum' (revision 1379913395), read in Chrome on 6 November 2026; the competition has no article of its own"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-pilot-b03
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
