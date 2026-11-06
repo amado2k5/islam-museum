@@ -4142,13 +4142,15 @@ candidates:
     flags: ["verify-tradition"]
   - id: taqi-al-din-mechanical-clock
     label: "Taqi al-Din's mechanical clock"
-    state: "[~]"
+    state: "[x]"
     batch: 5
     domain: timekeeping
     era: gunpowder-empires
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["verify-tradition"]
+    invention: invention/taqi-astronomical-clock
+    records: [person/taqi-al-din-ibn-maruf, source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
+    flags: [completed-D108-b67-bounded-seconds-reading-observation-application, not-first-mechanical-clock, European-clock-access-explicit, original-treatise-and-Tekeli-not-read, no-five-second-gearing-or-three-dial-claim, resolution-not-measured-accuracy, establishment-dates-not-manufacture-date, individual-Muslim-basis-separate-Sunni-default, maker-and-535-other-leads-preserved, modern-PD-icon-not-Ottoman-artifact, alarm-clock-not-counted]
   - id: museum-record-person-ibrahim-njoya
     label: "Museum lead for Ibrahim Njoya"
     state: "[~]"
