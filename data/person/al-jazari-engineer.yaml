@@ -20,6 +20,11 @@ faith:
     note: "TDV explicitly identifies him as an Islamic scholar (İslâm bilgini), the source basis for Muslim identity. No school or contrary tradition is identified in the biography used; Sunni is the museum's explicit default frame (docs/scope.md), not a newly attested personal school or an inference from name, ethnicity or place."
     sources: [source/tdv-cezeri]
 inventions:
+  - invention: invention/jazari-hidden-drive-water-lifter
+    role: describer
+    place: place/amid
+    note: "V.3 concealed hydraulic drive turns jar chain and carried wooden cow; external supply/outflow and interpretive limits explicit, not animal power or first water wheel."
+    sources: [source/jazari-hill-1974]
   - invention: invention/jazari-twelve-letter-lock
     role: describer
     place: place/amid
@@ -70,6 +75,7 @@ provenance:
   run: "inventions-p3-b16"
   source: "TDV CEZERÎ pp. 505–506 and Met 57.51.23 metadata/Leoni catalogue entry, read 2026-11-06. No birth/death dates inferred from court-service dates. Extended in inventions-p3-b17 with the pump tie, actual al-Hassani survey and Science Museum model catalogue; their 1205/1206 book-date difference is preserved in prose. Extended in inventions-p3-b18 with the Cleveland peacock-design tie/prose; construction is explicitly uncertain."
   extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b47", source: "Added distinctV.3 water-lifter tie/section from actual182–183/265; original fields/faith/eight prior ties/biography attribution preserved" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b46", source: "Added distinctVI.3 lock tie/section from actual199–201/268–269; original fields/faith/seven prior ties/biography attribution preserved" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b45", source: "Added distinctI.7 candle-clock tie/section from actual83–86/252–253; original fields/faith/six prior ties/biography attribution preserved" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "Added distinctIV.1 fountain tie/section from actual157–158/263; original fields/faith/five prior ties/biography attribution preserved" }
