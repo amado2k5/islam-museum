@@ -51,6 +51,9 @@ open a new block on top with the new version and today's date.
 - The Modern Islam Browser now names the voices of worship and devotional song (founder's request, 6 November 2026): four person roles, `reciter`, `muezzin`, `munshid` and `sufi-singer`, join the role list, and the Figures section gains a field, "Reciters, muezzins and munshids", listed first so that a reciter who also preaches is filed with the reciters. The 48 person records that already carry one of these roles are gathered there at once (those with a dated fact from 1976 on appear in the browser). Three audio genres are added for recordings: Qur'an recitation and the call to prayer, each labelled "not music" in all three languages, and Sufi inshad and hadra. The operative prompt and plan 26 say how to write these records (riwaya, the muezzin's mosque and years, Qur'an text never typed, a Sufi repertoire never taken as a faith attestation), and the seeds list several hundred named leads with their generators.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
+### Fixed
+- The Modern Islam Browser no longer links to year pages it never builds. Year pages exist from 1976 to the build year, but the "by decade" chips on a section page pointed at the decade's first year (1970, 2030), and the year chip on an entity page pointed at the record's own year, even a future one such as 2034 for the 2034 World Cup. The internal link check failed on all 33 of them in the three languages, so no pull request could pass. Now one helper decides: a year with a page is a link, a decade chip links to its first year that has a page (the 1970s to 1976), and any other year is shown as plain text. A unit test covers the helper, and the site check now fails the build on any link to a year page that does not exist.
+
 ---
 
 ## v1.2.0 — 2026-11-05
