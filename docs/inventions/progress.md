@@ -114,6 +114,8 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Current state
 
+- **Invention46 final-fetch guard:** Main advanced through #4309 (`bcec3c49b9`), stopping the first push. Reviewed and rebased unpublished commits only; final content `75b3b3978c`. Regenerated reports and reran all permitted gates successfully with unchanged counts. Independent canary entry retained; no tests/build/deployment or CI-success claim.
+
 - **Invention46 integrated:** Own unpublished `c3d20a1c4a` rebased onto reviewed main `b4c7fa98ec` through #4308 as `456437add3`. Three-way canary conflict combined both independent Tabari entries with the lock entry. Regenerated graph/coverage/census unchanged, citations4/4 and validate/authenticity0/0 errors,8402/1 warnings; whitespace clean. Final-fetch ancestry guard then push/templatedPR/self-merge; no local tests/build/deployment or CI-success claim.
 
 - **Invention46 written/permitted gates passed.**17 exact sections,1681/1848/2174 Arabic/English/Urdu main-body words; four new entities. Graph51,559 nodes/82,454 edges and46 inventions; census524 unique leads/485 active/39 excluded,266 person leads/344 prose hits. Validate49,651 entities/84,791 prose,0 errors/8402 warnings; authenticity0 errors/1 warning; citations4/4. Prior biography bytes/front matter, maker fields/seven ties/faith/provenance/source memberships and Hill original reading retained; graph/inverse/no unsupported dependency, unique lead, dates/CC0/alts/working960px image and paper arithmetic checked. Reviewed independent #4307–#4308; integrate and rerun. No tests/build/deployment/Worker/workflow/code.
