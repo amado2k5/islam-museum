@@ -22,7 +22,7 @@ translators: []
 العضو المبان من المرأة: الجمهور يمنع نظر ما لا يحل قبل انفصاله، ويرى المالكية الجواز في المبان في الحياة، وذهب بعض الشافعية والحنابلة إلى الجواز. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15774} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15775}
 النظر في الماء والمرآة لا يحرم عند ابن عابدين والرملي، ويحرمه بعض الشافعية كابن حجر. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15775}
 المرأة الميتة: كحكمها في الحياة إلا لضرورة. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15776}
-الرجل إلى الرجل: يحرم النظر بشهوة، ولا يجوز النظر إلى عورته (ما بين السرة والركبة) بغير عذر. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15776} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15777}
+الرجل إلى الرجل: يحرم النظر بشهوة، ولا يجوز النظر إلى عورته ⁦(ما بين السرة والركبة)⁩ بغير عذر. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15776} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15777}
 الأمرد: يحرم النظر إليه بشهوة ولو كان حسن الصورة، وإثمه عند الحنفية والشافعية أشد من النظر إلى المرأة بشهوة. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15777}
 
 ## نظر المرأة إلى الرجل والمرأة والخنثى
