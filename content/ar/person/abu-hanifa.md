@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-النعمان بن ثابت الكوفي، أبو حنيفة، فقيه وعالم سنّي من العراق. تُذكر ولادته سنة 80هـ (699م) ووفاته سنة 150هـ (767م). وهو مؤسس [[group/hanafi-madhhab|المذهب الحنفي]]. {cite:mawsuat-a3lam-ulama-adaba} {cite:duha-islam}
+النعمان بن ثابت الكوفي، أبو حنيفة، فقيه وعالم سنّي من العراق. تُذكر ولادته سنة 80هـ ⁦(699م)⁩ ووفاته سنة 150هـ ⁦(767م)⁩. وهو مؤسس [[group/hanafi-madhhab|المذهب الحنفي]]. {cite:mawsuat-a3lam-ulama-adaba} {cite:duha-islam}
 
 ## نسبه ونشأته
 يذكر ابن النديم أنه النعمان بن ثابت بن زوطى، وكان خزّازاً بالكوفة. وزوطى من موالي تيم الله بن ثعلبة، وهو من أهل كابل، وقيل مولى لبني ثعلبة. ويقول إنه من التابعين، لقي عدداً من الصحابة. {cite:fihrist-ibn-al-nadim p.284-285}
@@ -19,21 +19,21 @@ translators: []
 ## ملاحظات للباحثين
 - في الصفحة مصدران للوفاة: ابن النديم والموسوعة؛ والمصادر الأخرى لم تُراجَع. السنتان الميلاديتان محولتان من الهجرية.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 3)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 3)⁩
 يقول الشيخ إن من كان رئيسا أو ملكا أو إمبراطورا يقال له «السابق» بعد زواله، أما العلماء فلا يقال ذلك عنهم، فلا يقال «أبو حنيفة السابق»، وقد توفي أبو حنيفة سنة 150 هجرية (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:53:30}.
 
 ويرى أن الحكام يموتون وأهل العلم أحياء، وأن الناس يحاولون إماتة ذكراهم لكنها تبقى في قلوب الناس، ويسوق أبا حنيفة وأبا هريرة مثالين لمن لا يزال الناس يذكرونهم ويحبونهم {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:54:00}.
 
 ## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد
 
-يروي الشيخ أن أبا حنيفة امتنع عن تولي القضاء حين طلبه المنصور، فقال للخليفة إنه إن كان كاذبا فالخليفة يولي قاضيا كاذبا، وإن كان صادقا فإنه لا يحسن القضاء ويطلب إعفاءه (needs_source: رواية يرويها الشيخ دون مصدر في الدرس). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:30}
+يروي الشيخ أن أبا حنيفة امتنع عن تولي القضاء حين طلبه المنصور، فقال للخليفة إنه إن كان كاذبا فالخليفة يولي قاضيا كاذبا، وإن كان صادقا فإنه لا يحسن القضاء ويطلب إعفاءه ⁦(needs_source: رواية يرويها الشيخ دون مصدر في الدرس)⁩. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:30}
 
 ## من درس الشيخ عمر عبد الكافي: الدين القيم
 
-يذكر الشيخ أن شباب أبي حنيفة كان قبل أن ينتشر فقهه، وأنه يؤرّخ ذلك بنحو سنة 80هـ (needs_source: التاريخ والعمر من الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:12:30}.
+يذكر الشيخ أن شباب أبي حنيفة كان قبل أن ينتشر فقهه، وأنه يؤرّخ ذلك بنحو سنة 80هـ ⁦(needs_source: التاريخ والعمر من الشيخ)⁩ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:12:30}.
 
-ويروي الشيخ قصة في القضاء: رجلان تنازعا في جرّة فيها ذهب وجدها أحدهما في بيت اشتراه، وحكم أبو حنيفة بأن يُزوَّج أبناء الطرفين وتكون الجرة مهرهم (needs_source: القصة كما يرويها الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:54:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:55:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:55:30}. ويروي أنه رفض أن يبيع ثوبًا بأربعمئة وهو لا يساوي إلا مئة، فأخذ الثوب ورجع إلى متجره، والرجل يمشي خلفه يظن أنه لص (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:40:30}.
+ويروي الشيخ قصة في القضاء: رجلان تنازعا في جرّة فيها ذهب وجدها أحدهما في بيت اشتراه، وحكم أبو حنيفة بأن يُزوَّج أبناء الطرفين وتكون الجرة مهرهم ⁦(needs_source: القصة كما يرويها الشيخ)⁩ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:54:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:55:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:55:30}. ويروي أنه رفض أن يبيع ثوبًا بأربعمئة وهو لا يساوي إلا مئة، فأخذ الثوب ورجع إلى متجره، والرجل يمشي خلفه يظن أنه لص (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:40:30}.
 
-ويروي الشيخ قصة جاره الذي كان يشرب الخمر ويغني ليلًا، فلما افتقده أبو حنيفة ذهب في الصباح إلى مخفر الشرطة يشفع فيه، فأُفرج عنه، فتاب الجار وصلى خلفه الظهر (needs_source: القصة كما يرويها الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:26:00}.
+ويروي الشيخ قصة جاره الذي كان يشرب الخمر ويغني ليلًا، فلما افتقده أبو حنيفة ذهب في الصباح إلى مخفر الشرطة يشفع فيه، فأُفرج عنه، فتاب الجار وصلى خلفه الظهر ⁦(needs_source: القصة كما يرويها الشيخ)⁩ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:26:00}.
 
 ويروي الشيخ قول أبي حنيفة في الخلاف: رأينا صواب يحتمل الخطأ، ورأي غيرنا خطأ نحتمله (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:30}.
