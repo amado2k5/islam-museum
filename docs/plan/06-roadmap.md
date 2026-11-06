@@ -6,6 +6,7 @@ The phases below are the founding plan, kept for the record. The museum's mainta
 "what comes next" is the changelog's coming-next section (`/{lang}/changelog/`, rendered
 from `CANARY.md`); this list mirrors it so the plan docs answer the same question:
 
+- **The Tafsir Browser** (plan 27, approved in chat 6 Nov 2026): a separate wing of Qur'an commentaries, the Tabari edition (vols 1 to 16) first, then the other tafsirs in the source records; next is the data model with Tabari vols 1 to 9, then the wing, the API and search.
 - **The Modern Islam Browser** (plan 26, approved 6 Nov 2026): Phase 1 (the `award` class, the
   honours, footprint, reach and horizon blocks, derived sections, the reach index, `/api/v1/modern/*`)
   is in the repository; next is the pilot (one sourced record in each of the nineteen sections, the
