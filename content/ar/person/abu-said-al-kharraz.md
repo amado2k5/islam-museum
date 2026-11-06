@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker F); al-Risala section by Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "tarikh-dimashq-amrawi-v5 ص 129–143 (الترجمة 70)؛ muntazam-ibn-al-jawzi؛ mawsuat-a3lam-ulama-adaba؛ risala-qushayriyya-minhaj-2017 pp. 90, 176"
+  source: "tarikh-dimashq-amrawi-v5 ص 129–143 ⁦(الترجمة 70)⁩؛ muntazam-ibn-al-jawzi؛ mawsuat-a3lam-ulama-adaba؛ risala-qushayriyya-minhaj-2017 pp. 90, 176"
 ---
 
 ## موجز
@@ -36,5 +36,5 @@ provenance:
 ## وفاته
 يروي ابن عساكر عن [[person/ruwaym-ibn-ahmad|رويم]] أنه حضر وفاته وهو ينشد أبياتاً في حنين قلوب العارفين. {cite:tarikh-dimashq-amrawi-v5 p. 142} {cite:tarikh-dimashq-amrawi-v5 p. 143} واختلف في سنة موته:
 
-- **سنة 277هـ (القشيري، ورجّحه السلمي، وقرّبه الخطيب)**: قال القشيري: مات سنة سبع وسبعين ومائتين {cite:risala-qushayriyya-minhaj-2017 p. 176}؛ وسئل أبو بكر بن أبي العجوز فقال: سنة 247 أو 277، فقال السلمي: أظن أن هذا (277) أصح، وقال الخطيب: لا شك أن القول الأول باطل، والثاني أقرب إلى الصواب إن كان محفوظاً. {cite:tarikh-dimashq-amrawi-v5 p. 130} {cite:tarikh-dimashq-amrawi-v5 p. 143}
-- **سنة 286هـ (أبو القاسم بن مردان)**: قال: صحبت أبا سعيد الخراز أربع عشرة سنة، ومات سنة ست وثمانين ومائتين. {cite:tarikh-dimashq-amrawi-v5 p. 143} وبها أخذت موسوعة أعلام العلماء والأدباء. {cite:mawsuat-a3lam-ulama-adaba}
+- **سنة 277هـ ⁦(القشيري، ورجّحه السلمي، وقرّبه الخطيب)⁩**: قال القشيري: مات سنة سبع وسبعين ومائتين {cite:risala-qushayriyya-minhaj-2017 p. 176}؛ وسئل أبو بكر بن أبي العجوز فقال: سنة 247 أو 277، فقال السلمي: أظن أن هذا (277) أصح، وقال الخطيب: لا شك أن القول الأول باطل، والثاني أقرب إلى الصواب إن كان محفوظاً. {cite:tarikh-dimashq-amrawi-v5 p. 130} {cite:tarikh-dimashq-amrawi-v5 p. 143}
+- **سنة 286هـ ⁦(أبو القاسم بن مردان)⁩**: قال: صحبت أبا سعيد الخراز أربع عشرة سنة، ومات سنة ست وثمانين ومائتين. {cite:tarikh-dimashq-amrawi-v5 p. 143} وبها أخذت موسوعة أعلام العلماء والأدباء. {cite:mawsuat-a3lam-ulama-adaba}
