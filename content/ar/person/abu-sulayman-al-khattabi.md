@@ -7,7 +7,7 @@ status: { review: published }
 provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "ترجمة الخطابي في سنن أبي داود، ط. دار ابن حزم 1997 ج1 ص 13–14، مع ص 1، 10، 11، 84" }
 ---
 ## موجز
-أبو سليمان حمد بن محمد بن إبراهيم بن الخطاب الخطابي البستي (319–388هـ)، محدث فقيه أديب لغوي شاعر، وصاحب [[work/maalim-al-sunan|«معالم السنن»]] أول شرح معروف على [[work/sunan-abi-dawud|سنن أبي داود]]. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13}
+أبو سليمان حمد بن محمد بن إبراهيم بن الخطاب الخطابي البستي ⁦(319–388هـ)⁩، محدث فقيه أديب لغوي شاعر، وصاحب [[work/maalim-al-sunan|«معالم السنن»]] أول شرح معروف على [[work/sunan-abi-dawud|سنن أبي داود]]. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13}
 
 ## نسبه وبلده
 اسمه حمد، وهو من ولد [[person/zayd-ibn-al-khattab|زيد بن الخطاب]]؛ و«الخطابي» بفتح الخاء وتشديد الطاء نسبة إلى جده الخطاب. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} و«البستي» نسبة إلى [[place/bust|بست]]، وهي مدينة من بلاد [[place/kabul|كابل]] كما يقول مترجمه. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} وُلد فيها في رجب سنة 319هـ، وتوفي فيها سنة 388هـ. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 14}

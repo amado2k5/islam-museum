@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker F)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "tarikh-kabir-hyderabad-3-1 ص 58–59 (الترجمة 133)؛ zuhd-ahmad-dkim-1983 ص 471–474 (PDF)؛ muqaddima-ibn-salah-itr ص 303–304؛ tadrib-rawi-awwama-v5 ص 253"
+  source: "tarikh-kabir-hyderabad-3-1 ص 58–59 ⁦(الترجمة 133)⁩؛ zuhd-ahmad-dkim-1983 ص 471–474 (PDF)؛ muqaddima-ibn-salah-itr ص 303–304؛ tadrib-rawi-awwama-v5 ص 253"
 ---
 
 ## موجز
