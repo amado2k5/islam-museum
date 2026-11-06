@@ -3,6 +3,7 @@ class: person
 label:
   en: Habash al-Hasib al-Marwazi
   ar: حبش الحاسب المروزي
+  ur: حبش الحاسب مروزی
 roles:
 - astronomer
 - mathematician
@@ -11,10 +12,32 @@ summary:
   en: Astronomer, mathematician and geographer from Marw, active in the third century AH.
   ar: عالم فلك ورياضيات وجغرافيا من أهل مرو، عمل ببغداد في القرن الثالث الهجري.
 wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Individual Muslim basis: Charette's actual authored BEA biography explicitly calls Habash a Muslim astronomer. Sunni separately museum default frame in documented Abbasid milieu, no personal school certificate and no name/place/patron inference."
+    sources: [source/habash-charette-bea, source/tdv-habash-fazlioglu]
+inventions:
+  - invention: invention/habash-shadow-tables
+    role: improver
+    note: "Numerical shadow/tangent-table contribution; first-table statement attributed to TDV's Sarton reference, not independently certified global priority."
+    sources: [source/tdv-habash-fazlioglu, source/habash-charette-bea]
 external_ids:
   wikidata: Q2475262
 sources:
 - source/sezgin-gas-v-mathematik
+- source/habash-charette-bea
+- source/tdv-habash-fazlioglu
+- source/mactutor-trigonometric-functions
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b57"
+  source: "Add sourced identity/default frame, shadow-table tie and full trilingual prose from actually read Charette/Fazlioglu/MacTutor. Preserve every pre-existing field, summary, source and original status.generated_by attribution; no original prose existed."
 status:
   review: draft
   completeness: 1

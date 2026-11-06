@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: habash-shadow-tables
+    label: "Habash al-Hasib's numerical shadow-table computation"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/habash-al-hasib-al-marwazi", "work/zij-habash-al-hasib", "source/habash-charette-bea", "source/tdv-habash-fazlioglu", "source/mactutor-trigonometric-functions"]
+    invention: invention/habash-shadow-tables
+    lead_sources:
+      - "Actual complete Charette BEA and Fazlioglu TDV biographies/bibliographies, HTML bylines checked"
+      - "Actual complete MacTutor trigonometric-functions history; unchanged inspected modern PD triangle"
+    flags: [completed-D098-b57, shadow-tables-not-all-trigonometry, sarton-priority-attributed-not-independently-read, general-circa860-not-individual-composition, charette-explicit-muslim-basis, separate-default-sunni-frame, uncertain-life-estimates-retained, formal-observatory-membership-not-proven, zij-title-and-recension-differences, no-original-mesh-base-cells-or-manuscript-inspection, modern-cotangent-elevation-convention, nonlinear-not-altitude-equals-hours, original-maker-fields-and-attribution-retained, paper-only-no-solar-observation]
   - id: abu-kamil-irrational-coefficients
     label: "Abu Kamil's extension of algebra to irrational coefficients as well as solutions"
     state: "[x]"
