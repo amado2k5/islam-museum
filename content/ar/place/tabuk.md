@@ -15,16 +15,16 @@ translators: []
 تضم مواد المتحف عن هذا المكان: الأحداث التي جرت فيه: 10.
 
 ### الأحداث التي جرت فيه
-- [[event/expedition-to-tabuk|غزوة تبوك]] (630م)
-- [[event/abu-khaythama-joins-the-army|لحاق أبي خيثمة بالنبي]] (630م)
-- [[event/hypocrites-mock-the-army-and-excuse|سخرية رهط من المنافقين واعتذارهم]] (630م)
-- [[event/treaty-of-ukaydir|صلح النبي مع أكيدر]] (630م)
-- [[event/the-prophets-she-camel-strays|ضلال ناقة النبي وقول زيد بن اللصيت]] (630م)
-- [[event/treaty-of-ayla|صلح النبي مع يحنة بن رؤبة صاحب أيلة]] (630م)
-- [[event/burial-of-dhu-al-bijadayn|دفن عبد الله ذي البجادين بتبوك]] (630م)
-- [[event/abu-dharr-lags-behind-on-the-march|تخلف أبي ذر ولحاقه ماشياً]] (630م)
-- [[event/prophets-mosques-between-medina-and-tabuk|مساجد النبي بين المدينة وتبوك]] (630م)
-- [[event/tabuk-stay-and-return|الإقامة بتبوك والرجوع إلى المدينة]] (630م)
+- [[event/expedition-to-tabuk|غزوة تبوك]] ⁦(630م)⁩
+- [[event/abu-khaythama-joins-the-army|لحاق أبي خيثمة بالنبي]] ⁦(630م)⁩
+- [[event/hypocrites-mock-the-army-and-excuse|سخرية رهط من المنافقين واعتذارهم]] ⁦(630م)⁩
+- [[event/treaty-of-ukaydir|صلح النبي مع أكيدر]] ⁦(630م)⁩
+- [[event/the-prophets-she-camel-strays|ضلال ناقة النبي وقول زيد بن اللصيت]] ⁦(630م)⁩
+- [[event/treaty-of-ayla|صلح النبي مع يحنة بن رؤبة صاحب أيلة]] ⁦(630م)⁩
+- [[event/burial-of-dhu-al-bijadayn|دفن عبد الله ذي البجادين بتبوك]] ⁦(630م)⁩
+- [[event/abu-dharr-lags-behind-on-the-march|تخلف أبي ذر ولحاقه ماشياً]] ⁦(630م)⁩
+- [[event/prophets-mosques-between-medina-and-tabuk|مساجد النبي بين المدينة وتبوك]] ⁦(630م)⁩
+- [[event/tabuk-stay-and-return|الإقامة بتبوك والرجوع إلى المدينة]] ⁦(630م)⁩
 
 ## ما تغطيه هذه الصفحة
 هذه الصفحة جامعة لما يربطه المتحف بالمكان من أحداث وأشخاص ومبانٍ، وليست وصفًا تاريخيًّا كاملًا له؛ ويُضاف وصف المكان وتاريخه من المصادر الأصلية مع الدفعات القادمة.

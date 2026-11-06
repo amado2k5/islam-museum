@@ -25,7 +25,7 @@ translators: []
 - [[person/jabir-ibn-samura|جابر بن سمرة]]
 
 ### الدول التي كان عاصمة لها
-- [[polity/rashidun-caliphate|الخلافة الراشدة]] (632م)
+- [[polity/rashidun-caliphate|الخلافة الراشدة]] ⁦(632م)⁩
 
 ### المباني فيه
 - [[building/great-mosque-of-kufa|مسجد الكوفة]]
