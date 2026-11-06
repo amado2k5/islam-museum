@@ -4,6 +4,8 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Log
 
+- **Invention74 freshness guard follow-up.** Push stopped when independent #4451–#4452 advanced main to `66a2d1aa88`;reviewed passage/library/canaryData additions,reintegrated unpublished content,and repeated all permitted gates successfully. All graph/entity/prose/census/word/preservation/math totals unchanged. No localtests/build/deployment.
+
 - **Invention74 integrated gates passed.** Rebased unpublished content onto reviewed main `70fb6cf846`,preserving #4450passage/library/canary changes. Graph/coverage/census/validation/citation/session/whitespace repeated successfully:51,726nodes/82,564edges;49,818entities/84,938prose,0errors/8495warnings;authenticity0errors/1warning;539leads/74inventions/460prosehits;citations5/5;allword/preservation/math gates unchanged. Localtests/buildnotrun,no deployment.
 
 - **Invention74 corrected validation passed.**49,818entities/84,938prose,0errors/8495warnings;authenticity0errors/1warning. Graph/coverage/census/citation/session/whitespace gates repeated successfully after workshape correction,all totals unchanged. Localtests/buildnotrun,no deployment.
