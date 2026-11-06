@@ -1,0 +1,63 @@
+---
+// A reach index of the Modern Islam Browser (docs/plan/26 section 4.6): the records of one list scored from cited inputs
+// (honours, certifications, chart positions, dated platform figures, Wikipedia languages, press items, cover versions)
+// with the formula and its version printed. It measures how widely a work is documented, never how good it is.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { byId, href, labelOf } from "../../../../lib/graph";
+import { num } from "../../../../lib/nav";
+import { formula, TOP_LISTS, topOf } from "../../../../lib/modern";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => TOP_LISTS.map((list) => ({ params: { lang, list }, props: { lang, list } })));
+}
+const { lang, list } = Astro.props as { lang: Lang; list: string };
+const T = ui(lang);
+const M = T.modern;
+const items = topOf(list);
+const base = `/${lang}/modern`;
+const listName = M.lists?.[list] ?? list;
+const INPUTS = ["honours", "certified", "chart", "reach", "wikipedia", "press", "covers"] as const;
+const weights = formula.weights as Record<string, any>;
+const notice = formula.notice?.[lang] ?? formula.notice?.en ?? "";
+---
+<BaseLayout lang={lang} title={`${listName} · ${M.top_title} · ${M.title}`} description={notice} path={`${base}/top/${list}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`${base}/`}>{M.title}</a> › {M.top_title} › {listName}</nav>
+    <div data-pagefind-body>
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{M.top_title}</p>
+      <h1>{listName} <span class="ui muted">{num(items.length, lang)}</span></h1>
+      <p style="max-width:var(--measure)">{fmt(M.top_lede, { list: listName, n: num(items.length, lang) })}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{notice}</p>
+    </div>
+
+    {items.length === 0 ? <p class="panel ui">{M.top_none}</p> : (
+      <ol class="ui" style="padding-inline-start:1.5rem;margin:1rem 0">
+        {items.map((it) => {
+          const n = byId.get(it.id);
+          return n ? (
+            <li style="padding:8px 0;border-bottom:1px solid var(--line)">
+              <a href={href(lang, it.id)} style="font-weight:600">{labelOf(n, lang)}</a>
+              <span class="muted"> · {M.score} {num(it.score, lang)}</span>
+              <span class="muted" style="font-size:.85rem"> ({INPUTS.filter((k) => it.inputs[k] > 0).map((k) => `${M.inputs?.[k] ?? k} ${num(it.inputs[k], lang)}`).join(" · ")})</span>
+            </li>
+          ) : null;
+        })}
+      </ol>
+    )}
+
+    <section class="panel ui" aria-labelledby="formula-title" style="margin-top:2rem;max-width:var(--measure)">
+      <h2 id="formula-title" style="margin-top:0">{M.formula_title}</h2>
+      <p class="muted">{fmt(M.formula_version, { v: String(formula.version) })} · {M.tie_break}</p>
+      <dl style="margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.92rem">
+        <dt class="muted">{M.inputs?.honours}</dt><dd style="margin:0">{fmt(M.formula_honours, { won: String(weights.honour_won), nominated: String(weights.honour_nominated), cap: String(weights.honours_cap) })}</dd>
+        <dt class="muted">{M.inputs?.certified}</dt><dd style="margin:0">{fmt(M.formula_certified, { gold: String(weights.certified?.gold), platinum: String(weights.certified?.platinum), multi: String(weights.certified?.["multi-platinum"]), cap: String(weights.certified?.cap) })}</dd>
+        <dt class="muted">{M.inputs?.chart}</dt><dd style="margin:0">{fmt(M.formula_chart, { top10: String(weights.chart?.top10), top40: String(weights.chart?.top40), charted: String(weights.chart?.charted), cap: String(weights.chart?.cap) })}</dd>
+        <dt class="muted">{M.inputs?.reach}</dt><dd style="margin:0">{fmt(M.formula_reach, { max: String(weights.reach_platforms_max), cap: String(weights.reach_cap) })}</dd>
+        <dt class="muted">{M.inputs?.wikipedia}</dt><dd style="margin:0">{fmt(M.formula_wikipedia, { per: String(weights.wikipedia_language), cap: String(weights.wikipedia_cap) })}</dd>
+        <dt class="muted">{M.inputs?.press}</dt><dd style="margin:0">{fmt(M.formula_press, { per: String(weights.press_item), cap: String(weights.press_cap) })}</dd>
+        <dt class="muted">{M.inputs?.covers}</dt><dd style="margin:0">{fmt(M.formula_covers, { per: String(weights.cover_version), cap: String(weights.cover_cap) })}</dd>
+      </dl>
+    </section>
+  </div>
+</BaseLayout>

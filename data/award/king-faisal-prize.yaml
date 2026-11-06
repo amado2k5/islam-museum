@@ -1,0 +1,37 @@
+id: award/king-faisal-prize
+class: award
+kind: prize
+label: { ar: "جائزة الملك فيصل", en: "King Faisal Prize", ur: "شاہ فیصل انعام" }
+names:
+  - { value: "جائزة الملك فيصل العالمية", kind: alternate, lang: ar }
+  - { value: "King Faisal International Prize", kind: alternate, lang: en }
+summary:
+  ar: "جائزة سنوية تمنحها مؤسسة الملك فيصل الخيرية في الرياض منذ 1979 في خمسة فروع: خدمة الإسلام، والدراسات الإسلامية، واللغة العربية والأدب، والطب، والعلوم؛ تتكون من شهادة وميدالية ذهبية ومبلغ 750 ألف ريال."
+  en: "An annual prize of the King Faisal Foundation in Riyadh, awarded since 1979 in five categories: Service to Islam, Islamic Studies, Arabic Language and Literature, Medicine and Science; it consists of a certificate, a gold medal and SAR 750,000."
+  ur: "ریاض میں شاہ فیصل فاؤنڈیشن کا سالانہ انعام، 1979 سے پانچ شعبوں میں: خدمتِ اسلام، اسلامی علوم، عربی زبان و ادب، طب اور سائنس؛ سند، سونے کا تمغہ اور ساڑھے سات لاکھ ریال۔"
+wings: [today]
+themes: [modern-relief-and-development]
+regions: [arabia]
+awarded_by: group/king-faisal-foundation
+since: { edtf: "1979", hijri: "1399", calendar: gregorian, precision: year, status: historical, derived: true, note: "First awarded in 1979 (to Abul A'la Maududi, Service to Islam); the Hijri year is converter-derived.", sources: [source/wikipedia-king-faisal-prize-en] }
+fields: [service-to-islam, islamic-studies, arabic-language-and-literature, medicine, science]
+categories:
+  - { id: service-to-islam, label: { ar: "خدمة الإسلام", en: "Service to Islam", ur: "خدمتِ اسلام" }, since: { edtf: "1979" } }
+  - { id: islamic-studies, label: { ar: "الدراسات الإسلامية", en: "Islamic Studies", ur: "اسلامی علوم" }, since: { edtf: "1979" } }
+  - { id: arabic-language-and-literature, label: { ar: "اللغة العربية والأدب", en: "Arabic Language and Literature", ur: "عربی زبان و ادب" }, since: { edtf: "1980" }, note: "Listed from 1979; first awarded in 1980 (not awarded in 1979)." }
+  - { id: medicine, label: { ar: "الطب", en: "Medicine", ur: "طب" }, since: { edtf: "1982" } }
+  - { id: science, label: { ar: "العلوم", en: "Science", ur: "سائنس" }, since: { edtf: "1984" } }
+country: sa
+recurs: annual
+links: { website: "https://kingfaisalprize.org" }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-06", sources: [source/wikipedia-king-faisal-prize-en] }
+  wikidata: "Q1795936"
+external_ids: { wikidata: "Q1795936" }
+sources: [source/wikipedia-king-faisal-prize-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'King Faisal Prize' (revision of 31 October 2026) and its Wikidata item Q1795936, checked in Chrome on the founder's Mac on 6 November 2026; the Arabic name is as the article gives it; the Wikipedia language count records only the article read, pending a sitelink check"
+  generated_by: "Claude Code (claude-fable-5-1)"
+  run: modern-pilot-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-fable-5-1)" }

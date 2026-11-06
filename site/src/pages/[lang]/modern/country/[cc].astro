@@ -1,0 +1,31 @@
+---
+// Everything of one country in the Modern Islam Browser (docs/plan/26 section 4.1). Countries are the ISO codes the
+// records state (countries, country, serves, national team); a record with none sits on no country page.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import ModernList from "../../../../components/ModernList.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { num } from "../../../../lib/nav";
+import { countryCounts, countryEntries, countryName } from "../../../../lib/modern";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => countryCounts.map(([cc]) => ({ params: { lang, cc }, props: { lang, cc } })));
+}
+const { lang, cc } = Astro.props as { lang: Lang; cc: string };
+const T = ui(lang);
+const M = T.modern;
+const entries = countryEntries(cc);
+const base = `/${lang}/modern`;
+const name = countryName(cc, lang);
+---
+<BaseLayout lang={lang} title={`${name} · ${M.title}`} description={fmt(M.country_lede, { c: name })} path={`${base}/country/${cc}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`${base}/`}>{M.title}</a> › {name}</nav>
+    <div data-pagefind-body>
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{M.title}</p>
+      <h1>{name} <span class="ui muted">{num(entries.length, lang)}</span></h1>
+      <p style="max-width:var(--measure)">{fmt(M.country_lede, { c: name })}</p>
+    </div>
+    <ModernList entries={entries} lang={lang} showSections id={`c-${cc}`} />
+  </div>
+  <script src="../../../../scripts/modern-filter.ts"></script>
+</BaseLayout>

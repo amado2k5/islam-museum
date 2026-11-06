@@ -105,6 +105,19 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     if (!badge || !html.includes(badge)) errors.push("ar/inventions/ does not render its in-the-making badge");
     if (!html.includes("data-invention-row")) errors.push("ar/inventions/ lists no invention record (no data-invention-row)");
   }
+  // the Modern Islam Browser home (docs/plan/26 section 4.2): its growing badge, the nineteen section tiles, and at least one row on the figures section
+  const modernHome = p("dist", "ar", "modern", "index.html");
+  if (!existsSync(modernHome)) errors.push("missing page: ar/modern/index.html");
+  else {
+    const html = readFileSync(modernHome, "utf8");
+    const badge = parse(readFileSync(p("i18n", "ar.yaml"), "utf8")).modern?.badge;
+    if (!badge || !html.includes(badge)) errors.push("ar/modern/ does not render its growing badge");
+    const tiles = (html.match(/data-modern-section=/g) ?? []).length;
+    if (tiles !== 19) errors.push(`ar/modern/ shows ${tiles} section tiles, expected 19`);
+  }
+  const modernFigures = p("dist", "ar", "modern", "figures", "index.html");
+  if (!existsSync(modernFigures)) errors.push("missing page: ar/modern/figures/index.html");
+  else if (!readFileSync(modernFigures, "utf8").includes("data-modern-row")) errors.push("ar/modern/figures/ lists no record (no data-modern-row)");
   // audit of 5 November 2026: each exhibit appears once on the exhibits index, entity pages show no review state or
   // completeness score, every language has its embed index and its own not-found page
   for (const lang of ["ar", "en", "ur"]) {

@@ -26,7 +26,16 @@ faith:
     note: "English Wikipedia documents that he is Muslim and celebrates goals by performing the sujud, and the Arabic article's infobox gives his religion as Muslim (مسلم). Neither names a school of Islam, and public practice is not a school attestation. Not recorded until two independent sources name a school."
     sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar]
 external_ids: { wikidata: "Q1354960" }
-sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar, source/wikipedia-mohamed-salah-ur, source/wikidata-mohamed-salah]
+sports:
+  - { sport: football, position: forward, national_team: eg, start: { edtf: "2006" }, note: "Began at Al-Mokawloon; Liverpool 2017–2026; Trabzonspor from 2026; captain of Egypt", sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar] }
+honours:
+  - { award: award/african-footballer-of-the-year, result: won, year: 2017, note: "with Liverpool", sources: [source/wikipedia-african-footballer-of-the-year-en] }
+  - { award: award/african-footballer-of-the-year, result: won, year: 2018, note: "with Liverpool", sources: [source/wikipedia-african-footballer-of-the-year-en] }
+  - { award: award/african-footballer-of-the-year, result: ranked, position: 2, year: 2019, note: "runner-up to Sadio Mané", sources: [source/wikipedia-african-footballer-of-the-year-en] }
+  - { award: award/african-footballer-of-the-year, result: ranked, position: 2, year: 2022, note: "runner-up to Sadio Mané", sources: [source/wikipedia-african-footballer-of-the-year-en] }
+  - { award: award/african-footballer-of-the-year, result: ranked, position: 3, year: 2023, note: "third behind Victor Osimhen and Achraf Hakimi", sources: [source/wikipedia-african-footballer-of-the-year-en] }
+  - { award: award/african-footballer-of-the-year, result: ranked, position: 2, year: 2025, note: "runner-up to Achraf Hakimi", sources: [source/wikipedia-african-footballer-of-the-year-en] }
+sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar, source/wikipedia-mohamed-salah-ur, source/wikidata-mohamed-salah, source/wikipedia-african-footballer-of-the-year-en]
 provenance:
   layer: own-research
   source: "English, Arabic and Urdu Wikipedia articles on Mohamed Salah and Wikidata Q1354960 (item ID taken from the English article's own page information; wikidata.org itself returns 403 from the build environment); checked 24 October 2026. The Urdu article is a stub that still lists Liverpool; the English and Arabic articles, both updated for his August 2026 move to Trabzonspor, govern the current-club facts."

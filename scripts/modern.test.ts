@@ -63,6 +63,8 @@ describe("Modern Islam Browser: derived sections and window", () => {
     expect(inWindow({ class: "work", kind: "book", composed: year("1950") })).toBe(false);
     expect(sectionsOf({ class: "work", kind: "book", composed: year("1950"), honours: [{ award: "award/x", result: "won", year: 1990, sources: ["source/x"] }] })).toEqual(["books"]);
     expect(sectionsOf({ class: "person", born: year("1900"), died: year("1970") })).toEqual([]);
+    expect(sectionsOf({ class: "person", died: { edtf: "870" } })).toEqual([]);
+    expect(yearsOf({ class: "building", built: { edtf: "0852" } })).toEqual([852]);
   });
   it("adds achievements for a laureate award and reports the record's years", () => {
     const awards = new Map([["award/nobel", { id: "award/nobel", class: "award", kind: "prize", laureate: true }]]);

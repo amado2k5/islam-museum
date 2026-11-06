@@ -44,7 +44,10 @@ faith:
     note: "No source consulted names a school. English Wikipedia's categories describe him only as an Egyptian Muslim and an American Muslim; the Nobel Prize facts page and the Arabic article give no school, and his Cairo funeral — a military funeral with prayers led by the former Grand Mufti — is a state and family matter, not a school attestation. Not recorded until two independent sources name a school."
     sources: [source/wikipedia-ahmed-zewail-en, source/nobelprize-zewail-facts, source/wikipedia-ahmed-zewail-ar]
 external_ids: { wikidata: "Q106624" }
-sources: [source/wikipedia-ahmed-zewail-en, source/wikipedia-ahmed-zewail-ar, source/wikidata-ahmed-zewail, source/nobelprize-zewail-facts, source/zewail-voyage-through-time-2002]
+honours:
+  - { award: award/nobel-prize, category: chemistry, result: won, year: 1999, note: "Nobel Prize in Chemistry 1999, awarded alone, for his studies of the transition states of chemical reactions using femtosecond spectroscopy", sources: [source/nobelprize-zewail-facts, source/wikipedia-ahmed-zewail-en] }
+  - { award: award/king-faisal-prize, category: science, result: won, year: 1989, note: "King Faisal Prize in Science (physics), 1989, shared with Theodor W. Hänsch", sources: [source/wikipedia-king-faisal-prize-en] }
+sources: [source/wikipedia-ahmed-zewail-en, source/wikipedia-ahmed-zewail-ar, source/wikidata-ahmed-zewail, source/nobelprize-zewail-facts, source/zewail-voyage-through-time-2002, source/wikipedia-king-faisal-prize-en]
 provenance:
   layer: own-research
   source: "English and Arabic Wikipedia, Wikidata Q106624, the Nobel Prize facts page for the 1999 Chemistry prize, and Zewail's autobiography Voyage Through Time (World Scientific, 2002) as listed by English Wikipedia, checked in Chrome on 26 Oct 2026"

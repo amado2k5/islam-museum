@@ -2,9 +2,28 @@
 // A record never types its section. It belongs to the browser when one dated fact falls in the window
 // (1 Muharram 1396 / 3 January 1976 onward) or it carries a `horizon` block; its section follows from
 // class, kind and fields in the order docs/modern-islam/taxonomy.yaml lists the sections.
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
 import { dateRange, p } from "../lib.js";
+
+/**
+ * The taxonomy file, found by walking up from this module to the repository root. The site's production bundle places
+ * this module under site/.astro/, where the scripts library's root would resolve wrongly; the dev server and the
+ * scripts run it from its own folder. Either way the first ancestor holding docs/modern-islam/taxonomy.yaml is the root.
+ */
+function taxonomyPath(): string {
+  let dir = dirname(fileURLToPath(import.meta.url));
+  for (let i = 0; i < 10; i++) {
+    const candidate = join(dir, "docs", "modern-islam", "taxonomy.yaml");
+    if (existsSync(candidate)) return candidate;
+    const parent = dirname(dir);
+    if (parent === dir) break;
+    dir = parent;
+  }
+  return p("docs", "modern-islam", "taxonomy.yaml");
+}
 
 export const WINDOW_START_YEAR = 1976;
 
@@ -38,7 +57,7 @@ export interface ModernTaxonomy {
   };
 }
 
-export const taxonomy: ModernTaxonomy = parse(readFileSync(p("docs", "modern-islam", "taxonomy.yaml"), "utf8"));
+export const taxonomy: ModernTaxonomy = parse(readFileSync(taxonomyPath(), "utf8"));
 export const SECTION_IDS: string[] = taxonomy.sections.map((s) => s.id);
 const FIRSTS = new Set(taxonomy.firsts_tags);
 const FILM_FORMATS = new Set(["film", "short", "tv_film", "documentary", "animation"]);
@@ -53,14 +72,15 @@ const DATE_FIELDS = [
 
 /**
  * The Gregorian year an EDTF date starts or ends in. The year is read from the string itself ("1976", "1976-05-12",
- * "1976/1980"), because the edtf library's numeric range is inclusive at the end and would turn 1976 into 1977.
- * Uncertain digits ("197X") fall back to the numeric range.
+ * "1976/1980", and the one-to-three-digit years of early records such as "870"), because the edtf library's numeric
+ * range is inclusive at the end and would turn 1976 into 1977 and misreads a three-digit year. Uncertain digits ("197X")
+ * fall back to the numeric range.
  */
 export function edtfYear(edtf: unknown, which: "start" | "end"): number | undefined {
   if (typeof edtf !== "string" || !edtf) return undefined;
   const parts = edtf.split("/");
   const part = which === "start" ? parts[0] : parts[parts.length - 1];
-  const m = part.match(/^(-?\d{4})/);
+  const m = part.match(/^(-?\d{1,4})(?!\d)/);
   if (m) return Number(m[1]);
   try {
     const r = dateRange({ edtf });

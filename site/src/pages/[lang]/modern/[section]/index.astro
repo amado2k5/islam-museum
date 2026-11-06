@@ -1,0 +1,84 @@
+---
+// One section of the Modern Islam Browser (docs/plan/26 section 4.3): the common frame (lede, count, facets by kind,
+// decade and country, the complete list with a name filter). The figures section groups its people by field. Every
+// count is computed here at build and appears on this page only.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import ModernList from "../../../../components/ModernList.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { num } from "../../../../lib/nav";
+import {
+  SECTION_IDS, countryName, decadeOf, entriesOf, fieldLabel, fieldOf, FIELD_IDS, kindLabel, sectionLabel, yearText, type ModernEntry,
+} from "../../../../lib/modern";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => SECTION_IDS.map((section) => ({ params: { lang, section }, props: { lang, section } })));
+}
+const { lang, section } = Astro.props as { lang: Lang; section: string };
+const T = ui(lang);
+const M = T.modern;
+const count = (n: number) => num(n, lang);
+const entries = entriesOf(section);
+const base = `/${lang}/modern`;
+const tally = (pick: (e: ModernEntry) => string | undefined): [string, number][] => {
+  const m = new Map<string, number>();
+  for (const e of entries) { const k = pick(e); if (k) m.set(k, (m.get(k) ?? 0) + 1); }
+  return [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+};
+const kinds = tally((e) => e.kind);
+const decades = tally((e) => { const d = decadeOf(e.year); return d === undefined ? undefined : String(d); }).sort((a, b) => Number(a[0]) - Number(b[0]));
+const countries = tally((e) => e.countries[0]);
+const fields = section === "figures" ? [...FIELD_IDS, "other"].map((f) => [f, entries.filter((e) => fieldOf(e) === f)] as [string, ModernEntry[]]).filter(([, xs]) => xs.length) : [];
+const lede = M.section_ledes?.[section] ?? "";
+---
+<BaseLayout lang={lang} title={`${sectionLabel(section, lang)} · ${M.title}`} description={lede || M.lede} path={`${base}/${section}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`${base}/`}>{M.title}</a> › {sectionLabel(section, lang)}</nav>
+    <div data-pagefind-body>
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{M.title}</p>
+      <h1>{sectionLabel(section, lang)} <span class="ui muted">{count(entries.length)}</span></h1>
+      {lede && <p style="font-size:1.15rem;max-width:var(--measure)">{lede}</p>}
+      <p class="ui muted" style="max-width:var(--measure)">{M.listed_note}</p>
+    </div>
+
+    {entries.length > 0 && (
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1rem 0 1.5rem">
+        {kinds.length > 1 && (
+          <section class="panel ui" aria-labelledby="kinds-title">
+            <h2 id="kinds-title" style="font-size:1rem;margin:0 0 8px">{M.by_kind}</h2>
+            <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">{kinds.map(([k, n]) => <li><span class="chip">{kindLabel(k, lang)} <span class="muted">{count(n)}</span></span></li>)}</ul>
+          </section>
+        )}
+        {decades.length > 0 && (
+          <section class="panel ui" aria-labelledby="decades-title">
+            <h2 id="decades-title" style="font-size:1rem;margin:0 0 8px">{M.by_decade}</h2>
+            <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">{decades.map(([d, n]) => <li><a class="chip" href={`${base}/year/${d}/`}>{yearText(Number(d), lang)}s <span class="muted">{count(n)}</span></a></li>)}</ul>
+          </section>
+        )}
+        {countries.length > 0 && (
+          <section class="panel ui" aria-labelledby="countries-title">
+            <h2 id="countries-title" style="font-size:1rem;margin:0 0 8px">{M.by_country}</h2>
+            <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">{countries.slice(0, 30).map(([cc, n]) => <li><a class="chip" href={`${base}/country/${cc}/`}>{countryName(cc, lang)} <span class="muted">{count(n)}</span></a></li>)}</ul>
+          </section>
+        )}
+      </div>
+    )}
+
+    {fields.length > 0 ? (
+      <>
+        <nav class="ui" aria-label={M.by_field} style="margin:0 0 1rem"><ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">{fields.map(([f, xs]) => <li><a class="chip" href={`#field-${f}`}>{fieldLabel(f, lang)} <span class="muted">{count(xs.length)}</span></a></li>)}</ul></nav>
+        {fields.map(([f, xs]) => (
+          <section aria-labelledby={`field-${f}`} style="margin-top:1.5rem">
+            <h2 id={`field-${f}`}>{fieldLabel(f, lang)} <span class="ui muted">{count(xs.length)}</span></h2>
+            <ModernList entries={xs} lang={lang} id={`f-${f}`} />
+          </section>
+        ))}
+      </>
+    ) : (
+      <section aria-labelledby="all-title" style="margin-top:1rem">
+        <h2 id="all-title">{M.all_records}</h2>
+        <ModernList entries={entries} lang={lang} id={section} />
+      </section>
+    )}
+  </div>
+  <script src="../../../../scripts/modern-filter.ts"></script>
+</BaseLayout>
