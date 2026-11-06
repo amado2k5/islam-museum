@@ -41,3 +41,9 @@ provenance: { generated_by: "Devin (SWE-2 Medium); enriched by Copilot SDK in VS
 ## التقويم: الرواية والشاهد
 
 يربط [[invention/jalali-calendar|الإصلاح الجلالي]] بداية السنة بالاعتدال، لكن صلة الخيام الشخصية بتصميمه تبقى مؤهلة: ماكتوتر يذكر المشاركة، وتومان يفصل بين جماعة الإصلاح المجهولة وأسماء الراصدين، ولا يجعله بالضرورة المصمم {cite:khayyam-mactutor calendar} {cite:thomann-jalali-calendar-2021 sec.4}. نعرض الحقبة المتأخرة1079/471 مع خلاف البداية الأسبق واليوم الهجري، لا يوماً مؤكداً لاختراع فردي {cite:thomann-jalali-calendar-2021 sec.4} {cite:iranica-calendars-abdollahy Jalali subsection}. القواعد والشهور الحديثة ليست كلها قواعد القرن الحادي عشر، وورقة برلين1804 شاهد لتجاور التقاويم لا أصل بخطه أو برهان على استعمال مالي شامل {cite:iranica-calendars-abdollahy Solar-Hijri subsection} {cite:thomann-jalali-calendar-2021 sec.5 fig.5.1} {cite:berlin-astronomical-tables-211 metadata,image,rights}.
+
+## المتوازيات وحدود البرهان
+
+يعرض [[invention/khayyam-parallel-quadrilateral|التحليل الرباعي للمتوازيات]] إسهاماً مستقلاً عن المكعبات والتقويم. يؤرخ وهاب زاده [[work/khayyam-euclid-commentary|شرح مصادرات إقليدس]]470/1077،ويشرح الساقين المتساويين العموديين والحالات الثلاث وثماني قضايا. المقدّمات عن التقارب والتباعد تبقى مفترضة،فلا نحول المشروع إلى إثبات للمصادرة الخامسة من بقية المصادرات وحدها {cite:vahabzadeh-khayyam-mathematician author-p1-p3}.
+
+يبرز ستانفورد استبدال البداية وتحسين إقليدس،لا اختراع الأنظمة اللاإقليدية الحديثة. قرئ التحليل الحديث ونسخة المؤلف لا الشرح القديم أو طبعاته؛الصورة رسم حديث تختلف حروفه من مثالنا. تبقى آراء الهوية والشعر المؤهلة أعلاه كما هي،ولا تصبح هندسة الرباعي حكماً جديداً على معتقد شخص {cite:sep-umar-khayyam sec2.7-and4.2} {cite:vahabzadeh-khayyam-mathematician author-p3}.

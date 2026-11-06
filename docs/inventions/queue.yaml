@@ -2,6 +2,32 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: kashi-muqarnas-mensuration
+    label: "Al-Kashi's modular muqarnas surface mensuration"
+    state: "[x]"
+    batch: 4
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-kashi", "work/miftah-al-hisab-kashi", "source/dold-samplonius-muqarnas-1992", "source/kashi-mactutor", "source/tdv-kashi-okten"]
+    invention: invention/kashi-muqarnas-mensuration
+    lead_sources:
+      - "Actual selected Dold-Samplonius193–196,202–205,209–222,figure8p213visually inspected;actual MacTutor/TDV/Iranica"
+      - "Actual Commons description/APIrights and900pxAmirPashaeiQommuqarnasphoto inspected,CCBYSA4.0"
+    flags: [completed-D115-b74, not-invention-of-muqarnas, module-squared-conversion, plane-surface-versus-projection, curved-coefficient-average-not-universal-exact, historian-recomputation-differences-and-unknown-derivations-explicit, Arab-wage-application-hypothesis, no-primary-fullbook-editions-read, reported1427-0830-year-precision, original-maker-and-three-ties-preserved, later-context-photo-not-Kashi-building-or-method-use, no-structural-instructions]
+  - id: khayyam-parallel-quadrilateral
+    label: "Khayyam's quadrilateral reconstruction of parallels"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/umar-khayyam", "work/khayyam-euclid-commentary", "source/vahabzadeh-khayyam-mathematician", "source/sep-umar-khayyam", "source/tdv-omer-hayyam-unat"]
+    invention: invention/khayyam-parallel-quadrilateral
+    lead_sources:
+      - "Actual Vahabzadeh selected commentary section and author-deposited PDF cover/authorpages1–4,Stanford4.2,Unatgeometry/work4,complete MacTutor"
+      - "Actual Dickdock2008PDCommons description/API/history and rendered three-case diagram visually inspected"
+    flags: [completed-D114-b73, not-independent-fifth-postulate-proof, equivalent-premises-explicit, not-modern-non-euclidean-system-priority, separate-cubics-and-calendar, no-primary-commentary-editions-read, reported470-1077-year-precision, no-invented-composition-city, original-maker-identities-perspectives-attribution-ties-preserved, modern-Euclidean-coordinate-example-not-proof, image-AD-BC-versus-example-AC-BD-explicit, no-direct-Saccheri-transmission-claim]
   - id: kashi-sine-one-degree
     label: "Al-Kashi's iterative sine-one-degree computation"
     state: "[x]"
@@ -627,15 +653,16 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: museum-record-object-rub-al-tamm-ibn-al-shatir
     label: "Museum lead for Complete Quadrant of Ibn al-Shatir"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: astronomy-instruments
-    era: abbasid-golden
+    era: middle-period
     from: museum
     records: ["object/rub-al-tamm-ibn-al-shatir"]
+    invention: invention/shatir-complete-quadrant
     lead_sources:
       - "data/object/rub-al-tamm-ibn-al-shatir.yaml"
-    flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+    flags: [completed-D113-b72, modified-sine-quadrant-not-all-quadrants, separate-Alai-astrolabe-sundial-lunar-model, Fathi-public2015introduction-only-not-full-edition-or-manuscripts, twohundred-chapters-hundred-questions-not-independent-tested-functions, universal-accuracy-ease-attributed-aim-not-trial, Dizer-no-surviving-complete-quadrant, contextual-sine-quadrant-not-original, CC-BY-SA3-rights-photo-inspected-restored-cord-plummet, modern-paper-geometry-not-historical-grid, no-solar-viewing-or-field-survey, original-maker-and-object-attribution-and-prose-preserved]
   - id: museum-record-object-usturlab-farsi-1600
     label: "Museum lead for Persian Astrolabe, 1600–1700"
     state: "[~]"
@@ -1149,13 +1176,15 @@ candidates:
     flags: ["trace-sunni-maker-and-name-al-tusi-as-precursor"]
   - id: linear-astrolabe-al-tusi
     label: "The linear astrolabe associated with al-Tusi"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: astronomy-instruments
     era: middle-period
     from: founder-supplied-lead
+    records: ["person/sharaf-al-din-al-tusi", "source/sharaf-tusi-mactutor", "source/tdv-sharaf-tusi-ozel", "source/carra-vaux-linear-astrolabe-1895"]
+    invention: invention/tusi-linear-astrolabe
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["maker-tradition-needs-sourced-perspectives"]
+    flags: [completed-D111-b70, sharaf-not-nasir, plane-astrolabe-adaptation, not-jacobs-staff, later-marrakushi-witness-not-autograph, selected-french-edition-not-arabic-collation, no-manuscript-figure, missing-use-ending, tables-in-translation, azimuth-meridian-and-equinox-limits, low-cost-design-aim-not-measured-superiority, twelfth-century-horizon-not-manufacture-date, tdv1209-date-caution, individual-islamic-identification-separate-sunni-default, no-personal-madhhab-inference, original-import-source-external-id-attribution-retained, unsupported-maragha-conflation-corrected, modern-PD-triangle-context-not-reconstruction, modern-chord-example-not-full-algorithm, paper-only]
   - id: mechanical-geared-astrolabe
     label: "The mechanical geared astrolabe"
     state: "[~]"
@@ -5298,6 +5327,17 @@ candidates:
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
     flags: ["identify-specific-technical-novelty-and-faith-basis"]
+  - id: sharaf-tusi-positive-cubic-roots
+    label: "Sharaf al-Din al-Tusi's conditional positive-root analysis for cubics"
+    state: "[x]"
+    batch: 4
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/sharaf-al-din-al-tusi", "work/al-muadalat-sharaf-tusi", "source/sharaf-tusi-mactutor", "source/tdv-sharaf-tusi-ozel"]
+    invention: invention/sharaf-tusi-positive-cubic-roots
+    lead_sources: ["Actual complete MacTutor and Ahmet Ozel TDV mathematical analysis/work1;existing Khayyam contribution checked for distinct scope"]
+    flags: [completed-D112-b71, positive-domain-not-all-complex-roots, maximum-existence-not-all-cubics, separate-khayyam-conics-and-tusi-staff, derivative-interpretations-attributed-no-verdict, no-original-rashid-or-fares-edition-reading, abridged-missing-tables-not-reconstructed, no-exact1209-composition, twelfth-century-horizon, modern-factor-identity-and-root-counts-independently-derived, double-root-not-two-distinct-roots, no-positive-not-no-real, individual-islamic-basis-separate-sunni-frame, original-maker-and-astrolabe-tie-preserved, modern-PD-different-polynomial-not-example-or-manuscript]
   - id: museum-record-concept-wad-al-hadith
     label: "Museum lead for Fabrication of hadith (wad' al-hadith)"
     state: "[-]"
