@@ -1092,12 +1092,15 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
   - id: al-kashi-conjunction-plate
     label: "Al-Kashi's plate of conjunctions"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: astronomy-instruments
     era: middle-period
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    invention: invention/kashi-conjunction-plate
+    records: [person/al-kashi, source/schmidl-kashi-bea, source/tdv-kashi-okten]
+    flags: [completed-D107-b66-specific-linear-interpolation-device, actual-complete-Schmidl-Okten-read, two-plates-distinct, no-double-count-sine-circumference-Zarqali, version-dates-not-manufacture-date, modern-unwrapped-zero-crossing-not-original-graduations, no-global-first-interpolation-or-software-lineage, individual-Muslim-basis-separate-Sunni-default, maker-and-535-other-leads-preserved, PD-modern-triangle-context-not-artifact]
   - id: almucantar-quadrant
     label: "The almucantar quadrant"
     state: "[~]"

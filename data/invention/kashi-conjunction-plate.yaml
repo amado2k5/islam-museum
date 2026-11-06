@@ -1,0 +1,80 @@
+id: invention/kashi-conjunction-plate
+class: invention
+label: { ar: "لوح الاتصالات عند الكاشي", en: "Al-Kashi's plate of conjunctions", ur: "کاشی کی لوح اتصالات" }
+names:
+  - { kind: alternate, lang: en, value: "Lawh al-ittisalat: linear-interpolation instrument" }
+summary:
+  ar: "آلة استيفاء خطي لتقدير وقت اقتران متوقع، غير طبق المناطق الذي يحسب المواضع {cite:schmidl-kashi-bea Nuzha}."
+  en: "Linear-interpolation instrument estimating the time of an expected conjunction, distinct from the position-computing plate of heavens {cite:schmidl-kashi-bea Nuzha}."
+  ur: "متوقع قران کا وقت معلوم کرنے کا خطی استیفائی آلہ؛ مقام نکالنے والے طبق مناطق سے الگ {cite:schmidl-kashi-bea Nuzha}۔"
+domain: astronomy-instruments
+kind: device
+disciplines: [astronomy, mathematics]
+wings: [objects, ideas]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "../1426"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Open latest bound from revised Nuzha; Schmidl dates first text10February1416 Kashan/revisionJune1426 Samarkand. Not exact invention/manufacture date; no guessed Hijri."
+    sources: [source/schmidl-kashi-bea, source/tdv-kashi-okten]
+  status_today: transformed
+origin:
+  place: place/samarqand
+  context:
+    ar: "موضع مراجعة النص1426، لا شهادة أن اللوح اخترع بسمرقند؛ النسخة الأولى من الرسالة بكاشان1416 {cite:schmidl-kashi-bea Nuzha}."
+    en: "Place of the1426 revision, not proof the plate originated at Samarkand; first treatise version at Kashan1416 {cite:schmidl-kashi-bea Nuzha}."
+    ur: "1426 کی نظرثانی کا مقام، سمرقند میں ایجاد کا ثبوت نہیں؛ پہلا متن کاشان1416 {cite:schmidl-kashi-bea Nuzha}۔"
+makers:
+  - person: person/al-kashi
+    role: inventor
+    note: "Specific documented conjunction instrument, not invention of interpolation; existing individual Muslim basis and separate Sunni default retained."
+    sources: [source/schmidl-kashi-bea, source/tdv-kashi-okten]
+attribution:
+  status: original
+  claim:
+    ar: "لوح للاتصالات يستعمل الاستيفاء الخطي."
+    en: "A conjunction plate applying linear interpolation."
+    ur: "خطی استیفاء استعمال کرنے کی لوح اتصالات۔"
+  basis:
+    ar: "شميدل وأوكتن يميزان آلتين؛ لوح الاتصالات ليس طبق المناطق أو كل الحاسبات الفلكية {cite:schmidl-kashi-bea Nuzha} {cite:tdv-kashi-okten instruments}."
+    en: "Schmidl and Okten distinguish two instruments; conjunction plate is neither plate of heavens nor all astronomical calculators {cite:schmidl-kashi-bea Nuzha} {cite:tdv-kashi-okten instruments}."
+    ur: "شمڈل و اوکتن دو آلات الگ کرتے؛ لوح اتصالات نہ طبق مناطق نہ تمام فلکی حاسبات {cite:schmidl-kashi-bea Nuzha} {cite:tdv-kashi-okten instruments}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "الحساب الفلكي والجداول والهندسة الأولية", en: "Astronomical computation, tables and elementary geometry", ur: "فلکی حساب، جدول اور ابتدائی ہندسہ" }
+    note: "Computational context, not a demonstrated named chain for every interpolation instrument."
+    sources: [source/schmidl-kashi-bea]
+dependents: []
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics]
+  changed:
+    ar: "نقل خطوة تقدير الزمن إلى إجراء هندسي آلي؛ لا أرقام سرعة أو دقة مخترعة {cite:schmidl-kashi-bea Nuzha}."
+    en: "Embodied a time-estimation step in geometrical operation; no invented speed or accuracy figures {cite:schmidl-kashi-bea Nuzha}."
+    ur: "وقت کی تخمین کاری کو ہندسی عمل میں ڈھالا؛ رفتار یا درستی کے گھڑے اعداد نہیں {cite:schmidl-kashi-bea Nuzha}۔"
+  history:
+    ar: "شاهد على فصل توليد موضع الكوكب من استيفاء وقت اتصال؛ لا نظرية كواكب جديدة {cite:schmidl-kashi-bea Nuzha}."
+    en: "Evidence of separating position computation from conjunction-time interpolation, not a new planetary theory {cite:schmidl-kashi-bea Nuzha}."
+    ur: "مقام کے حساب اور قران وقت کے استیفاء کو الگ کرنے کا ثبوت، نئی سیاروی نظریہ سازی نہیں {cite:schmidl-kashi-bea Nuzha}۔"
+  significance: 3
+  why: "Specifically named documented computational device with a bounded task and independently testable modern explanation; not double-counting circumference, sine or equatorium."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "تاريخ آلة ومقارنة تعليمية بالاستيفاء.", en: "Instrument history and a teaching comparison with interpolation.", ur: "آلے کی تاریخ اور استیفاء سے تدریسی تقابل۔" }
+  descendants: { ar: "لا نسب مثبت لبرنامج بعينه.", en: "No demonstrated ancestry of particular software.", ur: "کسی خاص سافٹ ویئر کا ثابت نسب نہیں۔" }
+media: { image: media/kashi-interpolation-context, diagram: media/diagram-kashi-conjunction }
+kids:
+  ar: "باستعمال أوقات وأعداد خيالية على الورق، ابحث عن الصفر بين قيمتين؛ ليست أرصاداً أو تنجيماً."
+  en: "Use imaginary times and numbers on paper to locate zero between two values; not observations or fortune-telling."
+  ur: "کاغذ پر فرضی اوقات و اعداد سے دو قدروں کے بیچ صفر تلاش کریں؛ رصد یا فال نہیں۔"
+sources: [source/schmidl-kashi-bea, source/tdv-kashi-okten, source/iranica-kashi, source/kashi-mactutor, source/commons-trigonometry-triangle]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b66", source: "Actual Schmidl/Okten/Iranica/MacTutor; original Nuzha/Kennedy not read. Modern interpolation example derived independently, not recovered plate graduations." }
