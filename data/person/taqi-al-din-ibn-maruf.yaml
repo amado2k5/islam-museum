@@ -22,6 +22,10 @@ faith:
     note: "Individual Muslim basis: actual Fazlioglu biography documents education in religious sciences, madrasa teaching and service as qadi in Egypt, independently confirmed by TDV teaching/judicial biography. Not inferred from name or country, nor Hanafi heading alone. Sunni separately is the default frame of docs/scope.md for documented Ottoman milieu; no contrary attestation in read biographies, no invented personal creed."
     sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
 inventions:
+  - invention: invention/taqi-astronomical-clock
+    role: improver
+    note: "Specific seconds-reading astronomical mechanical-clock application; not first mechanical clock or measured one-second accuracy."
+    sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
   - invention: invention/taqi-six-cylinder-pump
     role: improver
     note: "Six phased weighted pump design in al-Turuq, not all pumps/cams or proven manufacture; original decimal-table contribution retained."
@@ -40,6 +44,7 @@ provenance:
   model: "SWE-2 High"
   run: wikidata-import-0009
   extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b67", source: "Add sourced seconds-reading observation-clock tie and trilingual extension; existing pump/decimal work,original fields/prose/attribution preserved." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b63", source: "Add six-cylinder-pump tie from actual selected Arabic1976/complete2021 study; preserve original fields, identity basis, attribution, occupation and decimal-table tie." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b55", source: "Read authored BEA/TDV and selected Tekeli. Replaced preliminary summary with sourced account, added documented religious/judicial basis and separately labelled Sunni default and one decimal-table tie; original Devin attribution, identifier and existing occupations retained. Al-A'lam entry still not read, exact life dates deliberately not added from conflicting older accounts." }
 status:
