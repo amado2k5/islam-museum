@@ -24,4 +24,6 @@ Al-Tabari's own choice is that the sounder view is that God reported of a party 
 
 He then glosses their turning away as turning their backs on the Book of God to whose judgment they were called, turning away and leaving it, while knowing its truth and proof. The editor notes that the sentence 'the verse gives no evidence which of them it was' was damaged in the manuscript and print and he put the right wording, that this phrase occurs often in al-Tabari (1: 520, 2: 517, 3: 64), and that he kept the wording 'to whose judgment they were called' since the verse indicates it and what comes later shows it right; he refers to the earlier commentary on turning away and aversion. {cite:tafsir-tabari-shakir-v06 p. 291}
 
-We stop at the end of p. 291, after al-Tabari's gloss of the turning away in the twenty-third verse, before p. 292. These are reports as transmitted, al-Tabari's choices and arguments are his, and the editor's notes and references are his, with no museum verdict.
+## Continuation of verse 23 in al-Tabari's commentary (Shakir ed., volume 6, p. 292)
+
+Al-Tabari ([[passage/quran-3-23|3:23]]) gives his reason for saying that the Book here is the Torah: they denied the Qur'an while claiming to affirm the Torah, so the argument against them, for denying what by their own claim they accept, is the stronger and cuts off their excuse more completely. {cite:tafsir-tabari-shakir-v06 p. 292}
