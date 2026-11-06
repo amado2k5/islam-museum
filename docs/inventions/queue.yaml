@@ -1247,12 +1247,14 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: spherical-trigonometry-sine-law
     label: "Spherical trigonometry and the sine law"
-    state: "[~]"
+    state: "[x]"
+    invention: invention/abu-wafa-spherical-triangle-methods
     batch: 2
     domain: mathematics
     era: abbasid-golden
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    flags: ["completed-D-074-simplified-spherical-methods-not-universal-first", "maker-explicit-Muslim-basis-Sunni-frame-priority-dispute-and-angular-side-math-retained"]
   - id: al-kashi-pi-calculation
     label: "Al-Kashi's calculation of pi"
     state: "[~]"
