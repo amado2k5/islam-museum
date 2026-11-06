@@ -1,0 +1,123 @@
+id: invention/al-biruni-earth-radius
+class: invention
+label: { ar: "قياس نصف قطر الأرض بالجبل والأفق عند البيروني", en: "Al-Biruni's mountain-and-horizon Earth measurement", ur: "بیرونی کی پہاڑ اور افق سے زمین کی پیمائش" }
+names:
+  - { value: "Nandana mountain dip method", kind: alternate, lang: en }
+  - { value: "طريقة انخفاض الأفق لقياس الأرض", kind: alternate, lang: ar }
+summary:
+  ar: "شرح وتجربة لقياس الأرض بارتفاع جبل وانخفاض الأفق في تحديد الأماكن416/1025؛ يسمي النص سنَد بن علي سابقاً، وتبقى دقة التحويل الحديث محل بحث {cite:biruni-tahdid-ali-translation pp. 183–189} {cite:tdv-biruni-tumer works} {cite:maslikov-biruni-earth-2019 abstract}."
+  en: "Mountain-height/horizon-dip derivation and experiment in Tahdid416/1025; the text names Sanad ibn Ali's predecessor and modern accuracy remains debated {cite:biruni-tahdid-ali-translation pp. 183–189} {cite:tdv-biruni-tumer works} {cite:maslikov-biruni-earth-2019 abstract}."
+  ur: "تحدید416/1025 میں پہاڑ کی اونچائی اور افق کے جھکاؤ سے زمین ناپنے کی توضیح اور تجربہ؛ متن سند بن علی کو سابق کہتا ہے، جدید صحت مختلف فیہ ہے {cite:biruni-tahdid-ali-translation pp. 183–189} {cite:tdv-biruni-tumer works} {cite:maslikov-biruni-earth-2019 abstract}۔"
+domain: navigation-geography
+kind: method
+disciplines: [mathematics, geography, astronomy]
+wings: [ideas]
+regions: [south-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "1025"
+    hijri: "0416"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "TDV's explicit416/1025 pair dates composition of Tahdid, not a precisely dated Nandana field experiment, the origin of spherical-Earth theory or Sanad ibn Ali's earlier reported act. No modern cubit conversion inferred."
+    sources: [source/tdv-biruni-tumer, source/biruni-tahdid-ali-translation]
+  status_today: transformed
+origin:
+  polity: polity/ghaznavid-empire
+  context:
+    ar: "سياق البيروني الغزنوي؛ يصف جبلًا غربي حصن نندنة وسهلًا جنوبيه، ولا نختلق إحداثيات أو سنة بعينها لتلك المشاهدة {cite:tdv-biruni-tumer biography} {cite:biruni-tahdid-ali-translation pp. 188–189}."
+    en: "Al-Biruni's Ghaznavid context; he describes a mountain west of Nandana fort and a plain to its south, without our inventing coordinates or an exact observation year {cite:tdv-biruni-tumer biography} {cite:biruni-tahdid-ali-translation pp. 188–189}."
+    ur: "بیرونی کا غزنوی سیاق؛ وہ قلعۂ نندنہ کے مغرب کا پہاڑ اور اس کے جنوب کا میدان بتاتے ہیں، ہم مختصات یا مشاہدے کا قطعی سال نہیں گھڑتے {cite:tdv-biruni-tumer biography} {cite:biruni-tahdid-ali-translation pp. 188–189}۔"
+makers:
+  - person: person/al-biruni-muhammad-ibn-ahmad
+    role: describer
+    note: "Documented geometrical exposition and first-person Nandana application, not unqualified priority over the Sanad ibn Ali account preserved in the same text. Explicit Muslim biography; disputed personal affiliation is labelled on the maker, Sunni reading first."
+    sources: [source/biruni-tahdid-ali-translation, source/britannica-al-biruni, source/tdv-biruni-tumer]
+attribution:
+  status: contested
+  claim:
+    ar: "ينسب إلى البيروني ابتكار قياس الأرض من جبل؛ يوثق هذا السجل شرحه وتطبيقه لا أسبقية مطلقة."
+    en: "Often credited with inventing mountain-based Earth measurement; this record documents his exposition/application, not absolute priority."
+    ur: "پہاڑ سے زمین ناپنے کی ایجاد بیرونی سے منسوب ہے؛ یہ اندراج ان کی توضیح و اطلاق دکھاتا ہے، مطلق سبقت نہیں۔"
+  basis:
+    ar: "تقول مقدمة المترجم ابتكاره، لكن متن الكتاب يروي أن سنَد بن علي طبق المبدأ بأمر المأمون؛ وقيمته الحديثة بالكيلومتر ليست تحولاً محسوماً للذراع المحلي {cite:biruni-tahdid-ali-translation preface xi; pp. 185–189} {cite:maslikov-biruni-earth-2019 abstract}."
+    en: "Translator's preface calls it his invention, but the text reports Sanad ibn Ali applying the principle for al-Ma'mun; modern kilometre values are not settled conversions of the local cubit {cite:biruni-tahdid-ali-translation preface xi; pp. 185–189} {cite:maslikov-biruni-earth-2019 abstract}."
+    ur: "مترجم کا مقدمہ اسے ان کی ایجاد کہتا ہے، مگر متن مامون کے حکم پر سند بن علی کا یہی اصول بتاتا ہے؛ جدید کلومیٹر مقامی ذراع کی قطعی تبدیلی نہیں {cite:biruni-tahdid-ali-translation preface xi; pp. 185–189} {cite:maslikov-biruni-earth-2019 abstract}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "الإطار السني المعلن يحفظ المساهمة المسلمة وسابقها المسمى؛ خلاف الانتماء الشخصي ظاهر في سجل العالم، ولا يفصل المذهب في تاريخ الرياضيات {cite:tdv-biruni-tumer religious-affiliation discussion} {cite:biruni-tahdid-ali-translation pp. 185–189}."
+        en: "Explicit Sunni frame preserves the Muslim contribution and named predecessor; personal affiliation is disputed on the maker, not used to settle mathematical history {cite:tdv-biruni-tumer religious-affiliation discussion} {cite:biruni-tahdid-ali-translation pp. 185–189}."
+        ur: "واضح سنی سیاق مسلم حصہ اور نام زد سابق محفوظ رکھتا ہے؛ شخصی نسبت کا اختلاف عالم کے اندراج میں ہے، مسلک ریاضی کی تاریخ کا فیصلہ نہیں {cite:tdv-biruni-tumer religious-affiliation discussion} {cite:biruni-tahdid-ali-translation pp. 185–189}۔"
+      sources: [source/tdv-biruni-tumer, source/biruni-tahdid-ali-translation]
+    - tradition: academic
+      id: translator-invention-claim
+      standing: main
+      summary:
+        ar: "يصف جميل علي في مقدمته طريقة استخراج المحيط بقياس الانخفاض بأنها من ابتكارات المؤلف؛ هذا حكم المترجم، لا حذف لرواية السابق في المتن {cite:biruni-tahdid-ali-translation preface xi}."
+        en: "Jamil Ali's preface calls circumference measurement from horizon dip the author's invention; that is the translator's assessment, not erasure of the predecessor in the text {cite:biruni-tahdid-ali-translation preface xi}."
+        ur: "جمیل علی کا مقدمہ افق کے جھکاؤ سے محیط ناپنا مصنف کی ایجاد کہتا ہے؛ یہ مترجم کی رائے ہے، متن کے سابق کا حذف نہیں {cite:biruni-tahdid-ali-translation preface xi}۔"
+      sources: [source/biruni-tahdid-ali-translation]
+    - tradition: academic
+      id: primary-priority-limit
+      standing: main
+      summary:
+        ar: "ينسب المتن تطبيق المبدأ نفسه إلى سنَد بن علي زمن المأمون؛ ثم يفصل البيروني الهندسة وتجربته بنندنة، فيثبت شاهداً غنياً لا برهان الأولية المطلقة {cite:biruni-tahdid-ali-translation pp. 185–189}."
+        en: "The text reports Sanad ibn Ali using the same principle under al-Ma'mun, then gives al-Biruni's geometry and Nandana experiment: rich documentation, not proof of absolute firstness {cite:biruni-tahdid-ali-translation pp. 185–189}."
+        ur: "متن مامون کے دور میں سند بن علی کا یہی اصول بتاتا، پھر بیرونی کا ہندسہ اور نندنہ کا تجربہ دیتا ہے: بھرپور شہادت، مطلق اولیت کا ثبوت نہیں {cite:biruni-tahdid-ali-translation pp. 185–189}۔"
+      sources: [source/biruni-tahdid-ali-translation]
+    - tradition: academic
+      id: modern-accuracy-assessments
+      standing: main
+      summary:
+        ar: "تنقل ماكتوتر6339.6كم بإعجاب، فيما يحذر ملخص ماسليكوف من الدقة المضخمة ووحدة الطول غير المحسومة؛ لا نسوي بينهما بتحويل مخترع {cite:biruni-mactutor geodesy paragraph} {cite:maslikov-biruni-earth-2019 abstract}."
+        en: "MacTutor favourably reports6339.6km; Maslikov's abstract cautions against exaggerated accuracy and unresolved length units. No invented conversion reconciles them {cite:biruni-mactutor geodesy paragraph} {cite:maslikov-biruni-earth-2019 abstract}."
+        ur: "میک ٹیوٹر تعریف سے6339.6کلومیٹر بتاتا ہے؛ ماسلیکوف کا خلاصہ مبالغہ آمیز صحت اور غیر طے شدہ اکائی سے خبردار کرتا ہے؛ کوئی گھڑی تبدیلی ان کو نہیں ملاتی {cite:biruni-mactutor geodesy paragraph} {cite:maslikov-biruni-earth-2019 abstract}۔"
+      sources: [source/biruni-mactutor, source/maslikov-biruni-earth-2019]
+precursors:
+  - external: { ar: "رواية سنَد بن علي عن قياس الانخفاض زمن المأمون", en: "Sanad ibn Ali's reported dip measurement under al-Ma'mun", ur: "مامون کے دور میں سند بن علی کی مروی پیمائش" }
+    note: "Earlier same-principle account explicitly preserved by al-Biruni, not an independently inspected Sanad manuscript or newly established exact year."
+    sources: [source/biruni-tahdid-ali-translation]
+  - external: { ar: "قياس القوس الأرضي والهندسة المثلثية السابقة", en: "Earlier terrestrial-arc measurement and triangle geometry", ur: "سابق زمینی قوس کی پیمائش اور مثلثی ہندسہ" }
+    note: "Primary183 contrasts a surveyed terrestrial arc with the mountain alternative; no unsupported exclusive inventor of trigonometry."
+    sources: [source/biruni-tahdid-ali-translation]
+dependents: []
+spread: []
+impact:
+  fields: [navigation-geography, mathematics]
+  changed:
+    ar: "جعل قياساً محلياً للارتفاع وزاوية صغيرة مدخلاً إلى مقدار عالمي، ببرهان وتطبيق عددي موثقين؛ لا نثبت تداولاً شعبياً {cite:biruni-tahdid-ali-translation pp. 183–189}."
+    en: "Connected local height and a small angle to a global quantity through documented geometry/numerical application, without claiming popular adoption {cite:biruni-tahdid-ali-translation pp. 183–189}."
+    ur: "مقامی اونچائی اور چھوٹے زاویے کو مستند ہندسے و عددی اطلاق سے عالمی مقدار سے جوڑا، عام مقبول استعمال کا دعویٰ نہیں {cite:biruni-tahdid-ali-translation pp. 183–189}۔"
+  history:
+    ar: "شاهد على كتابة ممارسة القياس وربطها بالبرهان، لا أول إثبات لكروية الأرض ولا نسب مباشر إلى الجيوديسيا الفضائية {cite:biruni-tahdid-ali-translation pp. 183–189} {cite:maslikov-biruni-earth-2019 abstract}."
+    en: "A witness to recording measurement practice alongside proof, not the first demonstration of Earth's sphericity or direct satellite-geodesy lineage {cite:biruni-tahdid-ali-translation pp. 183–189} {cite:maslikov-biruni-earth-2019 abstract}."
+    ur: "پیمائش کی مشق اور برہان کو ساتھ لکھنے کا شاہد، زمین کی گولائی کا پہلا ثبوت یا خلائی ارض پیمائی کا براہ راست نسب نہیں {cite:biruni-tahdid-ali-translation pp. 183–189} {cite:maslikov-biruni-earth-2019 abstract}۔"
+  significance: 4
+  why: "Substantial documented method with explicit geometry, instrument procedure and numerical field account; importance rests on that evidence, not unverified mass adoption or spectacular accuracy."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "نموذج تعليمي وتاريخي للهندسة والقياس؛ الرسم الحديث يشرح المماس ولا يمثل قطعة أثرية {cite:commons-biruni-earth-geometry Description} {cite:maslikov-biruni-earth-2019 abstract}."
+    en: "Historical/educational geometry and measurement example; modern diagram explains a tangent, not an archaeological object {cite:commons-biruni-earth-geometry Description} {cite:maslikov-biruni-earth-2019 abstract}."
+    ur: "ہندسے اور پیمائش کی تاریخی و تدریسی مثال؛ جدید خاکہ مماس سمجھاتا ہے، آثار قدیمہ کی شے نہیں {cite:commons-biruni-earth-geometry Description} {cite:maslikov-biruni-earth-2019 abstract}۔"
+  descendants:
+    ar: "لا يثبت البحث المقروء انتقالاً مباشراً إلى أجهزة الملاحة الحديثة أو الأقمار الصناعية {cite:maslikov-biruni-earth-2019 abstract}."
+    en: "Sources read establish no direct transmission to modern navigation devices or satellites {cite:maslikov-biruni-earth-2019 abstract}."
+    ur: "پڑھے ماخذ جدید رہنمائی کے آلات یا مصنوعی سیاروں تک براہ راست منتقلی ثابت نہیں کرتے {cite:maslikov-biruni-earth-2019 abstract}۔"
+media: { image: media/biruni-earth-geometry, diagram: media/diagram-al-biruni-earth-radius }
+kids:
+  ar: "من قمة مرتفعة يبدو الأفق أخفض من الخط الأفقي. جمع البيروني ارتفاع الجبل وزاوية الانخفاض وهندسة المثلث ليسأل عن حجم الأرض؛ لم يحتج إلى السير حولها، ولم يكن أول من عرف أنها كرة."
+  en: "From a summit the horizon lies below a horizontal line. Al-Biruni combined mountain height, dip angle and triangle geometry to ask Earth's size, without walking around it or being the first to know it was spherical."
+  ur: "چوٹی سے افق افقی لکیر سے نیچے ہے۔ بیرونی نے اونچائی، جھکاؤ اور مثلث سے زمین کا حجم پوچھا؛ پوری زمین گھومنے کی ضرورت نہیں، نہ وہ اس کی گولائی جاننے والے پہلے تھے۔"
+sources: [source/biruni-tahdid-ali-translation, source/tdv-biruni-tumer, source/britannica-al-biruni, source/biruni-mactutor, source/maslikov-biruni-earth-2019, source/commons-biruni-earth-geometry]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "Actual primary English translation preface/183–191 with visually checked188–189; selected actual TDV/MacTutor/Britannica; Maslikov actual abstract only; inspected licensed2010 schematic. No Arabic manuscript, complete Russian article, fixed metre conversion, absolute priority or exact field year claimed" }

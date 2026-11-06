@@ -10,6 +10,8 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
   source: "source/qanun-masudi-jundi-v1 editor's introduction scan pp. 12–25, 43; title page p. 2; preface p. 81; source/mawsuat-a3lam-ulama-adaba; source/kashf-zunun-furqan"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "Added mountain-method/identity sections from actual Jamil Ali translation preface/183–189, Britannica and TDV; prior Claude prose/authorship retained" }
 ---
 ## موجز
 أبو الريحان محمد بن أحمد البيروني من كبار علماء الفلك والرياضيات والجغرافيا والتاريخ في عصره، ولد في ضواحي مدينة خوارزم (كاث) سنة 362هـ (973م). {cite:mawsuat-a3lam-ulama-adaba} {cite:kashf-zunun-furqan} ويذكر محقق القانون المسعودي أنه ولد في اليوم الثاني من ذي الحجة سنة 362هـ، الموافق 4 سبتمبر 973م، في قرية من ضواحي كاث عاصمة خوارزم، من أسرة مغمورة. {cite:qanun-masudi-jundi-v1 p. 12} وفي سجل الموسوعة أنه توفي سنة 442هـ {cite:mawsuat-a3lam-ulama-adaba}، وعلى صفحة عنوان طبعة القانون المسعودي أنه توفي سنة 440هـ. {cite:qanun-masudi-jundi-v1 p. 2}
@@ -34,3 +36,11 @@ provenance:
 
 ## مؤلفاته
 عدد المحقق نقلًا عن حاجي خليفة ستين مصنفًا له، منها: الآثار الباقية، والتفهيم لأوائل صناعة التنجيم، وتحديد نهايات الأماكن، والجماهر في الجواهر، والقانون المسعودي، و[[work/jala-al-adhhan-fi-zij-al-battani|جلاء الأذهان في زيج البتاني]]، وتكميل زيج حبش، وإفراد المقال في أمر الظلال، وكتب في القبلة والأسطرلاب. {cite:qanun-masudi-jundi-v1 p. 15} {cite:qanun-masudi-jundi-v1 p. 16} {cite:qanun-masudi-jundi-v1 p. 17}
+
+## قياس الأرض بالجبل والأفق
+في «تحديد نهايات الأماكن»، المؤلف416هـ/1025م، يشرح [[invention/al-biruni-earth-radius|قياس نصف قطر الأرض بارتفاع جبل وانخفاض الأفق]]، ويروي تطبيقه قرب حصن نندنة: انخفاض34 دقيقة وارتفاع652;3,18 ذراعاً محلياً لقياس القماش. التاريخ للكتاب لا ليوم التجربة، ولا نحول الذراع إلى أمتار بلا أساس. يذكر المتن سنَد بن علي سابقاً إلى المبدأ زمن المأمون، بينما تصف مقدمة جميل علي المترجم الطريقة بأنها ابتكار للمؤلف؛ دوره هنا واصف وصاحب تطبيق موثق، لا أسبقية مطلقة محسومة. {cite:tdv-biruni-tumer works} {cite:biruni-tahdid-ali-translation preface xi; pp. 183–189}
+
+## الهوية والانتماء المختلف فيه
+تسميه بريتانيكا عالماً مسلماً، ويناقش غوناي تومر التزامه بالإسلام؛ هذه قاعدة الهوية، لا الاسم أو موطنه. في القراءة السنية أولاً، يعارض تومر الجزم بتشيعه من رعاية قابوس أو نقد التعصب للعرب، ويذكر محيطه الغزنوي السني ونقده بعض المواقف الشيعية والباطنية. الإطار السني في المتحف معلن، وليس شهادة ذاتية فاصلة من العالم. {cite:britannica-al-biruni} {cite:tdv-biruni-tumer religious-affiliation discussion}
+
+وفي التصنيفات الأخرى التي ينقلها تومر: ينسب عبد الله نعمة البيروني إلى التشيع، ويقول تقي دانش پژوه إنه زيدي على الأقل. لم يقرأ هذا البحث أصلي كلامهما، ويعرض الخلاف عبر المصدر المقروء دون الحكم فيه أو استنتاج عقيدة شخص من عقيدة راعيه. تظهر القراءات المسماة في كتلة المنظورات بسجله. {cite:tdv-biruni-tumer religious-affiliation discussion}
