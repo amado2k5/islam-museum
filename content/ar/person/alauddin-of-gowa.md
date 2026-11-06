@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## ملخص
-علاء الدين الأول، المولود باسم إي مانغنغارانغي، هو رابع عشر حكام غوا في جنوب سولاوسي وأول سلاطين سلطنة غوا (حكم 1593–1639). {cite:wikipedia-alauddin-of-gowa-en} {cite:wikipedia-alauddin-of-gowa-id} وهو أول حاكم لغوا يعتنق الإسلام، وقد فعل ذلك سنة 1605، وجعل الإسلام دين الدولة. {cite:wikipedia-alauddin-of-gowa-en}
+علاء الدين الأول، المولود باسم إي مانغنغارانغي، هو رابع عشر حكام غوا في جنوب سولاوسي وأول سلاطين سلطنة غوا ⁦(حكم 1593–1639)⁩. {cite:wikipedia-alauddin-of-gowa-en} {cite:wikipedia-alauddin-of-gowa-id} وهو أول حاكم لغوا يعتنق الإسلام، وقد فعل ذلك سنة 1605، وجعل الإسلام دين الدولة. {cite:wikipedia-alauddin-of-gowa-en}
 
 ## نشأته واعتناقه الإسلام
 هو ابن توني جالوق، الملك الثاني عشر لغوا، ونُصّب ملكًا سنة 1593 وهو في السابعة بعد انتهاء حكم أخيه الأكبر توني باسولوق. {cite:wikipedia-alauddin-of-gowa-en} {cite:wikipedia-alauddin-of-gowa-id} وفي نحو التاسعة عرّفه بالإسلام الداعية المينانغكابوي داتوك ري باندانغ، وفي 22 سبتمبر 1605 اعتنق الإسلام واتخذ اسم علاء الدين، وسُمّيت مملكة غوا–تالوق من ثم سلطنة غوا. {cite:wikipedia-alauddin-of-gowa-en} {cite:wikipedia-alauddin-of-gowa-id}

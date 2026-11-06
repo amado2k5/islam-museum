@@ -7,7 +7,7 @@ translators: []
 
 # علي مهدي محمد
 
-علي مهدي محمد (1939 – 10 مارس 2021) رجل أعمال وسياسي صومالي شغل منصب رابع رؤساء الصومال من 1991 إلى 2000، في رئاسة متنازع عليها منذ أيامها الأولى.{cite:source/wikipedia-ali-mahdi-muhammad-en}{cite:source/wikidata-ali-mahdi-muhammad}
+علي مهدي محمد ⁦(1939 – 10 مارس 2021)⁩ رجل أعمال وسياسي صومالي شغل منصب رابع رؤساء الصومال من 1991 إلى 2000، في رئاسة متنازع عليها منذ أيامها الأولى.{cite:source/wikipedia-ali-mahdi-muhammad-en}{cite:source/wikidata-ali-mahdi-muhammad}
 
 ## من التجارة إلى قيادة فصيل
 
