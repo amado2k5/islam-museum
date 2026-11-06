@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/alam-al-nisa-kahhala-risala-1984-v2 p.274–276" }
 ---
 ## موجز
-سودة بنت عمارة الهمدانية، كما يترجم لها [[person/umar-rida-kahhala|كحالة]] في [[work/alam-al-nisa-kahhala|أعلام النساء]] (ويسميها «سودة بنت عمارة بن الأشتر الهمدانية»)، شاعرة من شواعر العرب ذات فصاحة وبيان، وفدت على [[person/muawiya-ibn-abi-sufyan|معاوية بن أبي سفيان]]. {cite:alam-al-nisa-kahhala-risala-1984-v2 p.274}
+سودة بنت عمارة الهمدانية، كما يترجم لها [[person/umar-rida-kahhala|كحالة]] في [[work/alam-al-nisa-kahhala|أعلام النساء]] ⁦(ويسميها «سودة بنت عمارة بن الأشتر الهمدانية»)⁩، شاعرة من شواعر العرب ذات فصاحة وبيان، وفدت على [[person/muawiya-ibn-abi-sufyan|معاوية بن أبي سفيان]]. {cite:alam-al-nisa-kahhala-risala-1984-v2 p.274}
 
 ## أبياتها يوم صفين
 لما دخلت عليه ذكّرها بأبيات قالتها في الحرب تحرّض فيها ابن عمارة على الطعان ونصرة [[person/ali-ibn-abi-talib|علي بن أبي طالب]] والحسين ورهطه، وتصف علياً بأنه أخو النبي وعلم الهدى ومنارة الإيمان؛ فأقرت بها وقالت: ما مثلي من رغب عن الحق أو اعتذر بالكذب، وقالت إن ما حملها على ذلك حب علي واتباع الحق. {cite:alam-al-nisa-kahhala-risala-1984-v2 p.274} ثم طلبت أن يدع تذكار ما مضى، وتمثلت ببيت [[person/al-khansa|الخنساء]] في أخيها صخر حين ذكر لها مقام أخيها. {cite:alam-al-nisa-kahhala-risala-1984-v2 p.274}

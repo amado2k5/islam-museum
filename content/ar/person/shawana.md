@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.722–724" }
 ---
 ## موجز
-شعوانة عابدة من أهل [[place/al-ubulla|الأبلة]]، يفتتح بها ابن الجوزي «ذكر المصطفيات من عابدات الأبلة» في [[work/sifat-al-safwa|صفة الصفوة]] (الترجمة 630). {cite:sifat-al-safwa-tartusi-2012 p.722} كان لها مجلس يشهده العباد، وأخبارها تدور على البكاء من الخوف. {cite:sifat-al-safwa-tartusi-2012 p.723}
+شعوانة عابدة من أهل [[place/al-ubulla|الأبلة]]، يفتتح بها ابن الجوزي «ذكر المصطفيات من عابدات الأبلة» في [[work/sifat-al-safwa|صفة الصفوة]] ⁦(الترجمة 630)⁩. {cite:sifat-al-safwa-tartusi-2012 p.722} كان لها مجلس يشهده العباد، وأخبارها تدور على البكاء من الخوف. {cite:sifat-al-safwa-tartusi-2012 p.723}
 
 ## بكاؤها
 يروي عن معاذ بن الفضل أنها بكت حتى خيف عليها العمى، فقالت: أعمى والله في الدنيا من البكاء أحب إلي من أن أعمى في الآخرة من النار. {cite:sifat-al-safwa-tartusi-2012 p.722} ويروي عن مالك بن ضيغم أن رجلاً من الأبلة وصف لأبيه بكاءها، فقال الأب: ما أرى الخوف إلا قد أحرق قلبها كله؛ وكان يقال إن كثرة الدموع وقلتها على قدر احتراق القلب. {cite:sifat-al-safwa-tartusi-2012 p.723}
