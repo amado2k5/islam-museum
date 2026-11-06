@@ -12,9 +12,9 @@ names:
   - { value: "ابن زهر", kind: nisba }
 gender: male
 summary:
-  ar: "أبو مروان عبد الملك بن زهر (1094–1162م)، المعروف عند اللاتين باسم أفنزور (Avenzoar)، طبيب وشاعر إشبيلي من أسرة بني زهر التي أنجبت ستة أجيال من الأطباء. تعلّم الطب على أبيه أبي العلاء، وخدم المرابطين ثم سُجن في مراكش سنة 1140م، وبعد قيام الموحدين عاد إلى إشبيلية وتفرغ للطب. كتابه «التيسير في المداواة والتدبير» من أشهر كتب الطب العملي في العصور الوسطى، واشتهر بمنهجه التجريبي وإجرائه شقّ القصبة الهوائية على ماعز قبل تجربته على البشر."
-  en: "Abu Marwan Abd al-Malik ibn Zuhr (1094–1162), known in Latin as Avenzoar, a Sevillian physician and poet of the Banu Zuhr, a family that produced six generations of physicians. He learnt medicine from his father Abu al-Ala, served the Almoravids and was jailed at Marrakesh in 1140; after the Almohad conquest he returned to Seville and devoted himself to practice. His Kitab al-Taysir ('Book of Simplification Concerning Therapeutics and Diet') became one of the most influential practical medical works of the Middle Ages; he is remembered for his rational, empirical method and for testing the tracheotomy on a goat before applying it to humans."
-  ur: "ابو مروان عبد الملک بن زہر (1094ء–1162ء)، جو لاطینی میں Avenzoar کے نام سے مشہور ہیں، سیویل کے طبیب اور شاعر تھے، بنو زہر خاندان سے جس نے اطباء کی چھ نسلیں پیدا کیں۔ انھوں نے طب اپنے والد ابو العلاء سے سیکھی، مرابطین کی خدمت کی اور 1140ء میں مراکش میں قید رہے؛ موحدین کے برسرِ اقتدار آنے کے بعد سیویل لوٹ کر طب کو وقف ہو گئے۔ ان کی «التيسير في المداواة والتدبير» قرونِ وسطیٰ کی عملی طب کی مشہور ترین کتابوں میں سے ہے، اور وہ اپنے تجرباتی طریقے اور انسانوں سے پہلے بکری پر قصبة الریہ کے شگاف کی آزمائش کے لیے یاد کیے جاتے ہیں۔"
+  ar: "أبو مروان عبد الملك بن زهر (1094–1162م)، المعروف عند اللاتين باسم أفنزور (Avenzoar)، طبيب وشاعر إشبيلي من أسرة بني زهر التي أنجبت ستة أجيال من الأطباء. تعلّم الطب على أبيه أبي العلاء، وخدم المرابطين ثم سُجن في مراكش سنة 1140م، وبعد قيام الموحدين عاد إلى إشبيلية وتفرغ للطب. كتابه «التيسير في المداواة والتدبير» من أشهر كتب الطب العملي في العصور الوسطى، واشتهر بمنهجه التجريبي وخبر اختبار على ماعز ومتابعة تعافيه؛ المقتطف المقروء هنا لا يثبت تطبيقاً بشرياً لاحقاً {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1335–1336}."
+  en: "Abu Marwan Abd al-Malik ibn Zuhr (1094–1162), known in Latin as Avenzoar, a Sevillian physician and poet of the Banu Zuhr, a family that produced six generations of physicians. He learnt medicine from his father Abu al-Ala, served the Almoravids and was jailed at Marrakesh in 1140; after the Almohad conquest he returned to Seville and devoted himself to practice. His Kitab al-Taysir ('Book of Simplification Concerning Therapeutics and Diet') became one of the most influential practical medical works of the Middle Ages; he is remembered for his rational, empirical method and reported goat experiment/follow-up recovery; the excerpt read here does not establish subsequent human application {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1335–1336}."
+  ur: "ابو مروان عبد الملک بن زہر (1094ء–1162ء)، جو لاطینی میں Avenzoar کے نام سے مشہور ہیں، سیویل کے طبیب اور شاعر تھے، بنو زہر خاندان سے جس نے اطباء کی چھ نسلیں پیدا کیں۔ انھوں نے طب اپنے والد ابو العلاء سے سیکھی، مرابطین کی خدمت کی اور 1140ء میں مراکش میں قید رہے؛ موحدین کے برسرِ اقتدار آنے کے بعد سیویل لوٹ کر طب کو وقف ہو گئے۔ ان کی «التيسير في المداواة والتدبير» قرونِ وسطیٰ کی عملی طب کی مشہور ترین کتابوں میں سے ہے، اور وہ اپنے تجرباتی طریقے اور بکری کی جانچ و صحت یابی کی خبر کے لیے یاد کیے جاتے ہیں؛ یہاں پڑھا اقتباس بعد کا انسانی استعمال ثابت نہیں کرتا {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1335–1336}۔"
 roles: [physician, poet]
 regions: [andalus-europe]
 wings: [people]
@@ -52,10 +52,15 @@ faith:
     sources:
       - source/wikipedia-ibn-zuhr-en
       - source/wikipedia-ibn-zuhr-ar
+inventions:
+  - { invention: invention/ibn-zuhr-goat-tracheotomy-demonstration, role: describer, note: "Own reported animal-recovery investigation via translated Taysir excerpt; older operation/animal work preserved, not quantified human trial or universal safety proof.", sources: [source/abdel-halim-ibn-zuhr-surgery-2005] }
 sources:
   - source/wikipedia-ibn-zuhr-en
   - source/wikipedia-ibn-zuhr-ar
   - source/wikidata-ibn-zuhr
+  - source/abdel-halim-ibn-zuhr-surgery-2005
+  - source/tdv-ibn-zuhr-kaya
+  - source/commons-brown-goat-vorel
 external_ids:
   wikidata: Q470914
 provenance:
@@ -63,6 +68,8 @@ provenance:
   source: "English Wikipedia 'Ibn Zuhr' (revision 1379594332 of 10 Oct 2026; 'Avenzoar' redirects to it), Arabic Wikipedia «ابن زهر» (revision 72211574 of 8 Oct 2025), Wikidata Q470914 (item rev. 2562784009 of 30 Oct 2026, re-asserted against a second live query in the same session). Existence checks by name fragments (zuhr, avenzoar, زهر) and by QID across data/person on origin/main found his father (person/abu-al-ala-ibn-zuhr) and his son (person/ibn-zuhr-al-hafid, Abu Bakr Muhammad, d. 1199) but no record for Avenzoar himself; the child_of edge to the father is written here, in the child's record. The son's own record carries no child_of edge to this record; adding it there is an enrichment of an existing record left to a later pass."
   generated_by: "Muse (Muse Spark 1.3)"
   run: "wave 145 B"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b86", source: "Actual selected SMJ1333–1336/reference42and inspected1335,TDV target biography/work,Commons image/CC0. Narrow summary qualification only about unsupported subsequent-human implication; all other fields/faith/date variants/original provenance/full prose prefixes retained. New Muslim/Maliki-study evidence and composition/teacher/printing differences appended, no personal-sect verdict." }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
 occupations:
   - job: job/physician
