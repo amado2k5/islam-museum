@@ -2318,13 +2318,15 @@ candidates:
     flags: [specific-pump-improvement-not-all-pumps, book-date-1205-or-1206, priority-claim-attributed-not-globally-proven, half-size-model-not-original, no-direct-steam-engine-transfer-proven]
   - id: taqi-al-din-six-cylinder-pump
     label: "Taqi al-Din's six-cylinder pump"
-    state: "[~]"
+    state: "[x]"
     batch: 5
     domain: mechanics-automata
     era: gunpowder-empires
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["verify-tradition"]
+    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "Actual al-Hasan1976 selected Arabic preface5–6/pump47–50 visually read", "Complete Cabeza et al2021 publisher PDF", "Re-read BEA religious/judicial biography and TDV work15", "Actual inspected Enl public2013 CC BY-SA3.0 original archived cam diagram"]
+    invention: invention/taqi-six-cylinder-pump
+    records: ["person/taqi-al-din-ibn-maruf", "work/turuq-saniyya-taqi", "source/taqi-turuq-hasan-1976", "source/cabeza-pump-2021"]
+    flags: [completed-D104-b63, design-not-proven-manufacture, inherited-pumps-cams, no-direct-engine-ancestry, one-two-possible-three-preferred-not-physical-minimum, original-wording-not-silently-corrected, dimensions-and-simulation-assumed, quarter-scale-not-full-wet-test, original-maker-fields-attribution-and-decimal-tie-retained, modern-licensed-context-not-historic-rocker]
   - id: taqi-al-din-steam-driven-spit
     label: "Taqi al-Din's steam-driven spit"
     state: "[~]"
