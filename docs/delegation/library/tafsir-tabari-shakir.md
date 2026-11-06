@@ -197,3 +197,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 ## Qur'an wording pass (6 November 2026)
 - 42 verbatim Qur'an runs of eight words or more in Arabic passage prose (30 files) were replaced by ayah links in the house form, `[[passage/quran-S-A|S:A]]`, keeping the surrounding commentary. Where a span crossed verses, the link goes to the verse containing the whole span. en and ur prose has no run of that length.
 - Not changed: about 15,000 four-word matches and 4 to 7 word runs, which are ordinary Arabic phrasing that also occurs in the Qur'an. Each shorter run is still a judgment call, as is any span Tabari quotes in a sentence where the link label reads awkwardly (for example "الذين [[2:111]]:" in passage/quran-2-120). Review those by hand.
+
+## Volume 9 resume: first clause of 4:128 (6 November 2026)
+- Resumed from printed p. 268 at report 10575 (the chain through Hannad, Abu al-Ahwas, Simak and Khalid ibn Arara), as the earlier stop note directed. The OCR is `books/tafsir/tafsir-tabari-shakir/waqtaftab-taftab09/pages.json` on the founder's microSD (report numbers are printed in Arabic-Indic digits on each page).
+- Filed reports 10575 to 10598 (pp. 268-274) in ar, en and ur, with `{cite:tafsir-tabari-shakir-v09 p. N}` per paragraph. Report 10595 is absent from the manuscript, as the editor notes on p. 274. The printed-edition wording on p. 271 was replaced by the manuscript reading, as the editor records.
+- Progress: next is report 10599 on printed p. 274 (the chain through Bishr ibn Mu'adh and Yazid). Keep the stop sentence at the foot of the 4:128 files until the first clause ends.
