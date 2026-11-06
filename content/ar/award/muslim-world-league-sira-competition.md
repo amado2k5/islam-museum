@@ -15,5 +15,5 @@ translators: []
 فاز بالمركز الأول [[work/ar-rahiq-al-makhtum|«الرحيق المختوم»]] لصفي الرحمن المباركفوري. {cite:wikipedia-raheeq-ar}
 
 ## المراجع
-- ويكيبيديا العربية، «الرحيق المختوم (كتاب)»، المراجعة 76191490. {cite:wikipedia-raheeq-ar}
+- ويكيبيديا العربية، «الرحيق المختوم ⁦(كتاب)⁩»، المراجعة 76191490. {cite:wikipedia-raheeq-ar}
 - ويكيبيديا الإنجليزية، «Ar-Raheeq Al-Makhtum»، المراجعة 1379913395. {cite:wikipedia-raheeq-en}
