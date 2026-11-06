@@ -17,6 +17,10 @@ faith:
     note: "The Kitab al-Manazir opens in his own name with the basmala (Kuwait 1983 ed., scan p. 60), and TDV records that he wrote treatises answering Ibn al-Rawandi's and Abu Bakr al-Razi's criticism of prophethood and against the Mu'tazila's views on the divine attributes and the threat of punishment (wa'id) (TDV, vol. 21, pp. 82–87). This shows him a Muslim in his own words; no source read names his school, so he is recorded under the museum's Sunni frame."
     sources: [source/manazir-sabra-1983, source/tdv-ibnul-heysem]
 inventions:
+  - invention: invention/haytham-incoming-light-vision
+    role: improver
+    note: "Integrated radiation,ocular sensation and perceptual interpretation;not first intromission idea or correct modern retinal physiology. Preserves crystalline/visual-spirit/hollow-nerve and idealized-geometry limits."
+    sources: [source/smith-alhacen-visual-perception-2001, source/tdv-ibnul-heysem]
   - invention: invention/ibn-al-haytham-circular-reflection
     role: improver
     note: "BookV geometric reflection-point lemmas/applications; earlier conic geometry and later al-Mu'taman improvements retained, not first reflection law or exhaustive/quartic-algebra claim."
@@ -36,7 +40,7 @@ relations:
   - { type: participated_in, target: event/ibn-al-haytham-summoned-to-cairo, role: "العالم المستدعى", sources: [source/britannica-ibn-al-haytham] }
   - { type: participated_in, target: event/kitab-al-manazir-composed, role: "المؤلف", sources: [source/britannica-ibn-al-haytham] }
   - { type: authored, target: work/kitab-al-manazir, sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham] }
-sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham, source/tdv-ibnul-heysem, source/katz-calculus-islam-india-1995, source/bressoud-calculus-before-newton-i, source/bressoud-calculus-before-newton-iii, source/hogendijk-alhazen-lemmas-1996, source/mathworld-alhazen-problem, source/commons-alhazen-problem-hb]
+sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham, source/tdv-ibnul-heysem, source/katz-calculus-islam-india-1995, source/bressoud-calculus-before-newton-i, source/bressoud-calculus-before-newton-iii, source/hogendijk-alhazen-lemmas-1996, source/mathworld-alhazen-problem, source/commons-alhazen-problem-hb, source/smith-alhacen-visual-perception-2001]
 provenance:
   layer: own-research
   source: "Kitab al-Manazir, Arabic edition by Abd al-Hamid Sabra (Kuwait 1983), editor's preface pp. 9 to 10 (scan pages)"
@@ -44,6 +48,7 @@ provenance:
   model: claude-haiku-5-5
   run: lib-exp-medicine-science-manazir-maalim-zij-batch-1
   extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b75", source: "Added bounded vision-synthesis tie from selected Smith2001VolIintroduction xviii–xix,lii–lxiv throughopeninglxiv,visualfigure8lix and actualTDVoptics. Original identity/status/attribution,three earlier ties and all other fields retained;no new full-original-reading claim." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b50", source: "Added circular-reflection tie from actual Hogendijk59–75/inspected59–65 and MathWorld; prior attribution, individual identity, camera/volume ties and unrelated fields retained." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b36", source: "Actual selected Katz165–168,174; Bressoud I/III selected text. Added bounded fourth-power contribution; retained original author, camera-obscura tie, individualized Muslim basis, dates, occupation and education attribution." }
 education:
