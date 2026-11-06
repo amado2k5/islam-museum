@@ -9,7 +9,7 @@ translators: []
 
 ## موجز
 
-محمد يوسف الكاندهلوي (20 آذار 1917 – 2 نيسان 1965) عالم هندي، ابن محمد إلياس الكاندهلوي مؤسس جماعة التبليغ وخليفته أميرًا ثانيًا للجماعة.{cite:wikipedia-muhammad-yusuf-kandhlawi-ar}{cite:wikipedia-muhammad-yusuf-kandhlawi-ur} ألّف «حياة الصحابة» في ثلاثة أجزاء و«أماني الأحبار في شرح معاني الآثار» في أربعة أجزاء.{cite:wikipedia-muhammad-yusuf-kandhlawi-ar}
+محمد يوسف الكاندهلوي ⁦(20 آذار 1917 – 2 نيسان 1965)⁩ عالم هندي، ابن محمد إلياس الكاندهلوي مؤسس جماعة التبليغ وخليفته أميرًا ثانيًا للجماعة.{cite:wikipedia-muhammad-yusuf-kandhlawi-ar}{cite:wikipedia-muhammad-yusuf-kandhlawi-ur} ألّف «حياة الصحابة» في ثلاثة أجزاء و«أماني الأحبار في شرح معاني الآثار» في أربعة أجزاء.{cite:wikipedia-muhammad-yusuf-kandhlawi-ar}
 
 ## نشأته وتعليمه
 

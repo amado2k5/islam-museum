@@ -6,7 +6,7 @@ translators: []
 ---
 
 ## موجز
-السلطان مصطفى الثالث (١١٧١–١١٨٧هـ / ١٧٥٧–١٧٧٣م) ابن [[person/ahmed-iii-uthmani|أحمد الثالث]] من سلاطين الدولة العثمانية. {cite:dawlat-uthmaniyya-salabi p.316}
+السلطان مصطفى الثالث ⁦(١١٧١–١١٨٧هـ / ١٧٥٧–١٧٧٣م)⁩ ابن [[person/ahmed-iii-uthmani|أحمد الثالث]] من سلاطين الدولة العثمانية. {cite:dawlat-uthmaniyya-salabi p.316}
 
 ## حكمه
 يصفه الصلابي بأنه من السلاطين المجاهدين، وبأنه تصدى للهجمات الروسية وأنزل بها هزائم عدة. {cite:dawlat-uthmaniyya-salabi p.316}

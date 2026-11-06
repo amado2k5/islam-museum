@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.715" }
 ---
 ## موجز
-مطيعة العابدة من عابدات [[place/basra|البصرة]] في [[work/sifat-al-safwa|صفة الصفوة]] (الترجمة 607)، يروي أخبارها عن محمد بن الحسين. {cite:sifat-al-safwa-tartusi-2012 p.715}
+مطيعة العابدة من عابدات [[place/basra|البصرة]] في [[work/sifat-al-safwa|صفة الصفوة]] ⁦(الترجمة 607)⁩، يروي أخبارها عن محمد بن الحسين. {cite:sifat-al-safwa-tartusi-2012 p.715}
 
 ## البكاء أربعين عاماً
 يروي عن صاحب لمحمد بن الحسين من أهل البصرة أنها بكت أربعين عاماً، فعوتبت على كثرة البكاء، فقالت: لا أزال أبكي حتى أعلم على أي الحالين أنا عند الله. {cite:sifat-al-safwa-tartusi-2012 p.715}
