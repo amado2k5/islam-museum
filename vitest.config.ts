@@ -10,5 +10,8 @@ export default defineConfig({
     testTimeout: 300_000,
     hookTimeout: 60_000,
     exclude: [...configDefaults.exclude, "workers/**/test/**"],
+    // Gives the event loop a turn before every test, so long synchronous tests cannot starve vitest's own messages
+    // ("Timeout calling onTaskUpdate"). See scripts/vitest-setup.ts.
+    setupFiles: ["./scripts/vitest-setup.ts"],
   },
 });
