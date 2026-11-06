@@ -11,6 +11,8 @@ provenance:
   run: ocr-harvest-2026-11-04
   source: "source/nallino-albatenii-opus-astronomicum scan pp. 16–71; source/muruj-al-dhahab pp. 519, 736"
   translator_of: content/ar/person/al-battani.md
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b29", source: "Translated new Arabic sine-table/identity section; earlier Claude/Devin authorship retained" }
 ---
 ## خلاصہ
 ابو عبد اللہ محمد بن جابر بن سنان حرانی رقی، جو البتانی کے نام سے مشہور ہیں، تیسری صدی ہجری کے بڑے راصدوں، مہندسوں اور ماہرینِ ہیئت میں سے تھے، اور اس زیج کے مصنف تھے جس میں انہوں نے سورج اور چاند کے اپنے ارصاد درج کیے اور ان کی حرکات کی تصحیح کی جیسا کہ [[person/batlamus|بطلیموس]] نے [[work/al-majisti|المجسطی]] میں انہیں مقرر کیا تھا۔ {cite:nallino-albatenii-opus-astronomicum p. 17} [[person/al-masudi|مسعودی]] نے انہیں ان لوگوں میں شمار کیا جنہوں نے ظہورِ اسلام کے بعد علمِ ہیئت پر توجہ دی {cite:muruj-al-dhahab p. 519}، اور ہجرت سے سنہ 336 تک خلفاء کی مدتوں کے حساب میں ان کی زیج پر اعتماد کیا۔ {cite:muruj-al-dhahab p. 736}
@@ -53,3 +55,9 @@ provenance:
 
 ## اثرات
 ان کی زیج مشرق و مغرب میں بعد کے فلکیات دانوں کا مرجع رہی، اور [[person/robert-of-ketton|رابرٹ]] اور [[person/plato-of-tivoli|افلاطون تیفولی]] کے لاطینی تراجم اور الفانسو دہم کے عہد کے قشتالی ترجمے کے ذریعے یورپ پہنچی۔ {cite:nallino-albatenii-opus-astronomicum p. 43} {cite:nallino-albatenii-opus-astronomicum p. 58} {cite:nallino-albatenii-opus-astronomicum p. 66} مسلمانوں، یہودیوں اور یورپیوں میں ان کے اثر کا نالینو کا جائزہ زیج کے صفحے پر خلاصۃً درج ہے۔
+
+## تیسرے باب میں جیب کا حساب
+
+[[invention/battani-sine-table-methods|زیج کے جیب کے حساب کا اندراج]] ایک محدود بہتری بیان کرتا ہے: نصف قطر60 پر دوہرے قوس کے نصف وتر، آدھے درجے کا جدول، دو سطروں کے درمیان تخمینہ اور لمبائی سے قوس کی الٹی تلاش {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–17; Latin pp. 9–11}۔ متن قطر120 میں بطلیموس کی پیروی کرتا ہے؛ صرف اس باب کی موجودگی بتانی کو جیب، تمام استیفا یا کروی قانونِ جیب کا موجد نہیں بناتی {cite:nallino-albatenii-opus-astronomicum Latin pp. 9–11}۔
+
+اس اضافے میں مسلم شناخت کی بنیاد دیکھا گیا مصنف کا عربی اقرار اور اسی مقدمے سے نالینو کا واضح استدلال ہے، محمد نام سے اخذ کردہ نتیجہ نہیں؛ آغاز سے قرآنی متن نقل نہیں کیا گیا {cite:nallino-albatenii-opus-astronomicum Arabic p. 6, scan1146; Latin preface XVI, scan25}۔ عباسی رقہ میں سنی فریم عجائب گھر کا الگ واضح کردہ فریم ہے، ذاتی مسلک کی شہادت نہیں؛ اوپر نام زد تاریخی آرا اپنی نسبت کے ساتھ برقرار ہیں {cite:tdv-battani-muftuoglu biography} {cite:nallino-albatenii-opus-astronomicum Latin preface XVI, scan25}۔

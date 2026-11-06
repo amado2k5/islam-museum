@@ -1,0 +1,87 @@
+id: invention/battani-sine-table-methods
+class: invention
+label: { ar: "حساب الجيوب في زيج البتاني", en: "Sine-table computation in al-Battani's Zij", ur: "بتانی کی زیج میں جیب کا جدولی حساب" }
+names:
+  - { value: "Al-Battani's half-chord tables and interpolation", kind: alternate, lang: en }
+summary:
+  ar: "تحسين حسابي موثق: جدول أنصاف أوتار ضعف القوس كل نصف درجة، بنصف قطر60، واستيفاء مباشر وعكسي؛ لا اختراع الجيب أو الاستيفاء كله {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–17; Latin pp. 9–11}."
+  en: "Documented computational refinement: half-chords of doubled arcs at half-degree steps, radius60 and forward/inverse interpolation; not invention of sine or interpolation itself {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–17; Latin pp. 9–11}."
+  ur: "مستند حسابی بہتری: دوہرے قوس کے نصف وتر ہر آدھے درجے پر، نصف قطر60 اور سیدھا و الٹا استیفا؛ جیب یا پورے استیفا کی ایجاد نہیں {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–17; Latin pp. 9–11}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics, astronomy]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "../0929"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Open latest-lifetime bound only, using TDV's explicit317 AH/929 death pair; not an asserted exact composition or invention year, catalogue epoch or date of a modern edition. Hijri endpoint is recorded here and in trilingual prose: the existing Hijri field accepts a single date, not an open interval, so it is omitted rather than falsely asserting317 AH as the composition year. Existing display retains literal EDTF ../0929."
+    sources: [source/tdv-battani-muftuoglu, source/nallino-albatenii-opus-astronomicum]
+  status_today: transformed
+origin:
+  place: place/raqqa
+  context:
+    ar: "سياق عمل البتاني الفلكي في الرقة العباسية؛ لا نعين ورشة أو يوماً لكتابة هذا الباب {cite:tdv-battani-muftuoglu biography} {cite:battani-mactutor biography}."
+    en: "Al-Battani's astronomical work in Abbasid Raqqa, not an invented workshop or day of writing this chapter {cite:tdv-battani-muftuoglu biography} {cite:battani-mactutor biography}."
+    ur: "عباسی رقہ میں بتانی کے فلکی کام کا سیاق، باب لکھنے کی کوئی گھڑی کارگاہ یا تاریخ نہیں {cite:tdv-battani-muftuoglu biography} {cite:battani-mactutor biography}۔"
+makers:
+  - person: person/al-battani
+    role: improver
+    place: place/raqqa
+    note: "Documented computational exposition within earlier chord/sine traditions. Muslim basis is the actual author's preface and Nallino's argument, not the name. Sunni is the separately labelled museum frame, not personal school testimony."
+    sources: [source/nallino-albatenii-opus-astronomicum, source/tdv-battani-muftuoglu, source/battani-mactutor]
+attribution:
+  status: improvement
+  claim:
+    ar: "صياغة عملية لحساب الجيوب والرجوع منها إلى الأقواس ضمن زيج، لا أسبقية لكل عناصر المثلثات."
+    en: "Practical sine computation and inverse arc lookup within a zij, not priority over all trigonometry."
+    ur: "زیج میں جیب اور اس سے قوس کا عملی حساب، ساری مثلثیات پر سبقت نہیں۔"
+  basis:
+    ar: "يحتفظ المؤلف بقطر بطليموس120، ثم يختار أنصاف أوتار ضعف القوس لتجنب مضاعفة الأقواس في العمل، ويشرح الجدول والاستيفاء {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–17; Latin pp. 9–11}."
+    en: "The author keeps Ptolemy's diameter120, selects half-chords of doubled arcs to avoid repeated arc-doubling in use, and explains tabulation/interpolation {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–17; Latin pp. 9–11}."
+    ur: "مصنف بطلیموس کا قطر120 رکھ کر دوہرے قوس کے نصف وتر لیتا ہے تاکہ کام میں بار بار قوس دوگنا نہ کرنا پڑے، اور جدول و استیفا سمجھاتا ہے {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–17; Latin pp. 9–11}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "هندسة الأوتار السابقة واتفاق قطر120", en: "Earlier chord geometry and diameter120 convention", ur: "پہلے وتر کا ہندسہ اور قطر120 کی روایت" }
+    note: "Explicit Ptolemaic convention retained in primary chapter3; no assertion that al-Battani invented sine or that Ptolemy invented every predecessor."
+    sources: [source/nallino-albatenii-opus-astronomicum]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics, astronomy-instruments]
+  changed:
+    ar: "وضع بين يدي القارئ مسلكاً للزاوية غير المدرجة وعكسه، مع وصل الحساب بالبرهان السابق {cite:nallino-albatenii-opus-astronomicum Latin pp. 10–11}."
+    en: "Gives a reader procedures for unlisted angles and inverse lookup, connecting computation with preceding geometry {cite:nallino-albatenii-opus-astronomicum Latin pp. 10–11}."
+    ur: "غیر درج زاویے اور الٹی تلاش کا طریقہ دیتا اور حساب پہلے ہندسے سے جوڑتا ہے {cite:nallino-albatenii-opus-astronomicum Latin pp. 10–11}۔"
+  history:
+    ar: "جزء من زيج مؤثر مترجم، لا إثبات انتقال كل سطر حسابي إلى كل تقنية لاحقة {cite:tdv-battani-muftuoglu Kitab al-Zij} {cite:battani-mactutor reception}."
+    en: "Part of an influential translated zij, not proof that every computational line passed to every later technology {cite:tdv-battani-muftuoglu Kitab al-Zij} {cite:battani-mactutor reception}."
+    ur: "مؤثر مترجم زیج کا حصہ، ہر حسابی سطر ہر بعد کی تکنیک تک پہنچنے کا ثبوت نہیں {cite:tdv-battani-muftuoglu Kitab al-Zij} {cite:battani-mactutor reception}۔"
+  significance: 3
+  why: "Bounded, directly inspected computational refinement with construction/use/inverse procedures; no unsupported first-function claim or universal modern genealogy."
+described_in: [work/al-zij-al-sabi]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "مثال تاريخي لتعليم الجداول والتقريب؛ الرسم مثلث حديث من2007 لا صفحة من الزيج {cite:nallino-albatenii-opus-astronomicum Latin pp. 10–11} {cite:commons-trigonometry-triangle Description}."
+    en: "Historical example for learning tables/approximation; the image is a modern2007 triangle, not a Zij page {cite:nallino-albatenii-opus-astronomicum Latin pp. 10–11} {cite:commons-trigonometry-triangle Description}."
+    ur: "جدول و تقریب سیکھنے کی تاریخی مثال؛ تصویر2007 کا جدید مثلث ہے، زیج کا صفحہ نہیں {cite:nallino-albatenii-opus-astronomicum Latin pp. 10–11} {cite:commons-trigonometry-triangle Description}۔"
+  descendants:
+    ar: "لا نسب مباشر مثبت هنا إلى الآلة الحاسبة أو البرمجيات الحديثة {cite:battani-mactutor reception}."
+    en: "No direct genealogy to calculators or modern software established here {cite:battani-mactutor reception}."
+    ur: "یہاں کیلکولیٹر یا جدید سافٹ ویئر تک براہ راست نسب ثابت نہیں {cite:battani-mactutor reception}۔"
+media: { image: media/battani-modern-triangle, diagram: media/diagram-battani-sine-table-methods }
+kids:
+  ar: "قبل الآلة الحاسبة، يساعد جدول في وصل زاوية بطول مناسب لها. يشرح البتاني كيف تقرأه وكيف تقدر قيمة تقع بين سطرين؛ هذه خطوة حسابية محددة، لا اختراع المثلث كله."
+  en: "Before calculators, a table helped connect an angle with a corresponding length. Al-Battani explains reading it and estimating between rows: a specific computational step, not invention of triangles."
+  ur: "کیلکولیٹر سے پہلے جدول زاویے اور مناسب لمبائی کو ملاتا تھا۔ بتانی اسے پڑھنا اور دو سطروں کے بیچ اندازہ سکھاتے ہیں: خاص حسابی قدم، مثلث کی ایجاد نہیں۔"
+sources: [source/nallino-albatenii-opus-astronomicum, source/tdv-battani-muftuoglu, source/battani-mactutor, source/commons-trigonometry-triangle]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b29", source: "Actual visually read Arabic chapter3 pp13–17/scans1139–1135, Latin pp9–11/scans98–100, author's opening scan1146 and Nallino faith argument scan25; selected actual TDV/MacTutor; original2007 PD triangle. No first-sine/interpolation claim, exact writing year or complete-book reading" }

@@ -15,6 +15,12 @@ summary:
   ur: "ابو عبد اللہ محمد بن جابر بن سنان حرانی رقی البتانی (244ھ سے پہلے – 317ھ)، حران کے ماہرِ فلکیات و ریاضی دان جو رقہ میں رہے، وہاں 264 سے 306ھ تک رصد کیا، اور «زیج» لکھی جس میں بطلیموس کے ارصاد و حرکات کی تصحیح کی؛ بغداد سے واپسی پر سامرا کے قریب قصر الجص میں فوت ہوئے {cite:nallino-albatenii-opus-astronomicum p. 17} {cite:nallino-albatenii-opus-astronomicum p. 27}."
 gender: male
 roles: [astronomer, mathematician, scientist, writer]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Muslim basis: actual author's Islamic declaration in Arabic opening scan1146/printed6 and Nallino's explicit evidence-based argument scan25/printedXVI, not inference from Muhammad, family or patron. Sunni is the default museum frame for documented Abbasid Raqqa, not a personal madhhab declaration; no contrary Muslim denomination in these passages. Preserve the existing labelled historical Muslim/Sabian debate without making its name-only argument this batch's basis."
+    sources: [source/nallino-albatenii-opus-astronomicum, source/tdv-battani-muftuoglu]
 floruit:
   edtf: "0877/0919"
   calendar: julian
@@ -68,7 +74,9 @@ perspectives:
       ar: "يرى نالينو أن أوثق شاهد على إسلامه مقدمة الزيج التي يستشهد فيها بآيات كثيرة، والعبارات الإسلامية المنثورة في أواخر الأبواب، وأن لقب «الصابئ» قد ينتقل من الأب إلى الابن كما سمي مسلمون بالنصراني والمجوسي والإسرائيلي، وقد يكون لصق به لأنه حراني. وينقل أن بعض المتأخرين من الأوروبيين كرايسكه ومونتوكلا ورينو جعلوه صابئيًا بلا أساس."
       en: "Nallino holds that the surest witness to his Islam is the Zij's preface, which cites many Qur'anic verses, and the Muslim formulas closing its chapters; the nisba al-Sabi could pass from father to son, as Muslims bore names like al-Nasrani, al-Majusi or al-Isra'ili, or could have stuck to him as a Harranian. He reports that some later Europeans (Reiske, Montucla, Reinaud) called him a Sabian without basis."
     sources: [source/nallino-albatenii-opus-astronomicum]
-sources: [source/nallino-albatenii-opus-astronomicum, source/muruj-al-dhahab, source/farghani-elements-astronomy]
+inventions:
+  - { invention: invention/battani-sine-table-methods, role: improver, note: "Bounded chapter3 half-chord/sine-table computation and forward/inverse interpolation; no first-sine or spherical-sine-law priority.", sources: [source/nallino-albatenii-opus-astronomicum] }
+sources: [source/nallino-albatenii-opus-astronomicum, source/muruj-al-dhahab, source/farghani-elements-astronomy, source/tdv-battani-muftuoglu, source/battani-mactutor]
 external_ids: { wikidata: Q11079 }
 provenance:
   layer: own-research
@@ -77,6 +85,8 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
   note: "Enriched from the earlier record by Devin (SWE-2 Medium), prose-fill-persons-batch27."
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b29", source: "Primary Arabic/Latin chapter3 and actual identity argument/opening; added bounded sine-table tie and trilingual sections, preserving Claude/Devin prose and labelled older views" }
 status:
   review: published
   completeness: 3

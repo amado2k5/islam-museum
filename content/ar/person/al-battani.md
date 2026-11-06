@@ -10,6 +10,8 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
   source: "source/nallino-albatenii-opus-astronomicum scan pp. 16–71; source/muruj-al-dhahab pp. 519, 736"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b29", source: "Added primary-verified sine-table method and explicit identity basis; earlier Claude/Devin authorship retained" }
 ---
 ## موجز
 أبو عبد الله محمد بن جابر بن سنان الحراني الرقي، المعروف بالبتاني، من كبار أهل الرصد والهندسة والهيئة في القرن الثالث الهجري، وصاحب الزيج الذي ضمّنه أرصاده للشمس والقمر وتصحيحه لحركاتهما كما وضعها [[person/batlamus|بطليموس]] في [[work/al-majisti|المجسطي]]. {cite:nallino-albatenii-opus-astronomicum p. 17} وعدّه [[person/al-masudi|المسعودي]] فيمن عُني بعلوم الهيئة بعد ظهور الإسلام {cite:muruj-al-dhahab p. 519}، واعتمد زيجه في تاريخ مدد الخلفاء من الهجرة إلى سنة ست وثلاثين وثلاثمائة. {cite:muruj-al-dhahab p. 736}
@@ -52,3 +54,9 @@ provenance:
 
 ## أثره
 بقي زيجه مرجعًا للفلكيين بعده في المشرق والمغرب، وانتقل إلى أوروبا في الترجمات اللاتينية لـ[[person/robert-of-ketton|روبرت]] و[[person/plato-of-tivoli|أفلاطون التيفولي]]، وفي ترجمة قشتالية في عهد ألفونسو العاشر. {cite:nallino-albatenii-opus-astronomicum p. 43} {cite:nallino-albatenii-opus-astronomicum p. 58} {cite:nallino-albatenii-opus-astronomicum p. 66} وقد تتبع نالينو أثره عند المسلمين واليهود والأوروبيين في صفحة الزيج.
+
+## حساب الجيوب في الباب الثالث
+
+يشرح سجل [[invention/battani-sine-table-methods|حساب الجيوب في زيجه]] تحسيناً محدوداً: أنصاف أوتار ضعف القوس بمقياس نصف قطره60، وجدول كل نصف درجة، وطريقة لتقدير ما بين السطور والرجوع من الطول إلى القوس {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–17; Latin pp. 9–11}. يتبع النص بطليموس في قطر120، فلا ننسب إلى البتاني اختراع الجيب أو كل الاستيفاء أو قانون الجيب الكروي بمجرد وجود هذا الباب {cite:nallino-albatenii-opus-astronomicum Latin pp. 9–11}.
+
+الإضافة الحالية تستند في الهوية المسلمة إلى تصريح المقدمة العربية المقروءة وإلى تعليل نالينو بالمقدمة نفسها، لا إلى الاستدلال من اسم محمد؛ ولا تنقل نصاً قرآنياً من المقدمة {cite:nallino-albatenii-opus-astronomicum Arabic p. 6, scan1146; Latin preface XVI, scan25}. الإطار السني في الرقة العباسية إطار المتحف المعلن، لا شهادة شخصية بمذهب؛ وتظل الآراء التاريخية المسماة أعلاه معروضة على نسبتها {cite:tdv-battani-muftuoglu biography} {cite:nallino-albatenii-opus-astronomicum Latin preface XVI, scan25}.
