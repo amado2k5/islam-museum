@@ -3980,6 +3980,20 @@ candidates:
     era: middle-period
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    flags: [nizamiyya-sublead-written-separately, ijaza-and-generic-madrasa-priority-unresolved]
+  - id: nizamiyya-endowed-madrasa-network
+    label: "Nizam al-Mulk's endowed madrasa network"
+    state: "[x]"
+    batch: 5
+    domain: institutions-systems
+    era: middle-period
+    from: scholarly-reference
+    records: ["invention/nizamiyya-madrasa", "person/nizam-al-mulk", "building/al-madrasa-al-nizamiyya-baghdad", "source/tdv-nizamiye-medresesi", "source/tdv-nizamulmulk"]
+    lead_sources:
+      - "source/tdv-nizamiye-medresesi pp. 188–191"
+      - "source/tdv-nizamulmulk pp. 194–196"
+      - "source/rihla-ibn-jubayr-1907 scan pp. 193, 202 (images checked)"
+    flags: [improvement-not-first-madrasa-or-university, nishapur-precedes-baghdad, shafii-endowment-conditions, contextual-mustansiriyya-image]
   - id: mudaraba-commenda
     label: "Mudaraba and commenda commercial partnerships"
     state: "[~]"
