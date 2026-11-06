@@ -3,23 +3,62 @@ class: person
 label:
   ar: عباس بن فرناس
   en: Abbas ibn Firnas
+  ur: عباس بن فرناس
 summary:
-  ar: "عباس بن فرناس، الفلكي المسلم بالأندلس، كشف في معمله طريقة لصنع البلور، وهو الذي قذف بنفسه في تجربة رائعة مدهشة على متن طائرة شراعية سبح بها عالياً في الفضاء ثم وقع ونهض سالماً، وكان بذلك مبشراً بفكرة الطيران منذ العصور الوسطى."
-  en: "Abbas ibn Firnas, the Andalusi astronomer who discovered in his workshop a way of making crystal — and who, in a remarkable experiment, launched himself on a glider, sailed high in the air, fell and rose unharmed, thus foreshadowing the idea of flight in the Middle Ages."
-roles: [scholar]
+  ar: "عالم وشاعر أندلسي ارتبط بقرطبة وتوفي274هـ/887؛ وصفه حسن إبراهيم حسن صراحة بالمسلم. تنسب إليه محاولة طيران تختلف روايات نتيجتها، فلا تعرض كأول طائرة مثبتة {cite:tdv-abbas-firnas-kirbiyik biography} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382} {cite:nafh-tib-maqqari v.3 p.374}."
+  en: "Andalusi scholar and poet associated with Cordoba, died274 AH/887; explicitly called Muslim by Hasan. His reported flight has conflicting outcome accounts, not proof of the first airplane {cite:tdv-abbas-firnas-kirbiyik biography} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382} {cite:nafh-tib-maqqari v.3 p.374}."
+  ur: "قرطبہ سے وابستہ اندلسی عالم و شاعر، وفات274ھ/887؛ حسن نے صراحتاً مسلم کہا۔ منسوب پرواز کے انجام کے بیانات مختلف ہیں، پہلے طیارے کا ثبوت نہیں {cite:tdv-abbas-firnas-kirbiyik biography} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382} {cite:nafh-tib-maqqari v.3 p.374}۔"
+names:
+  - { value: "أبو القاسم عباس بن فرناس بن ورداس", kind: nasab, lang: ar }
+gender: male
+roles: [scholar, astronomer, poet]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: debated
+    note: "Explicit Muslim basis is Hasan Ibrahim Hasan4:378/scan382, personally visually read, not a name, country or patron. Sunni is the separately declared default frame for Andalusi Umayyad Cordoba; no other Muslim denomination attested in these passages, not a personal madhhab declaration. TDV reports accusations of magic/heresy; Islamweb says atheism was not established. These named positions remain attributed, no museum verdict."
+    sources: [source/tarikh-islam-hasan-ibrahim, source/tdv-abbas-firnas-kirbiyik, source/islamweb-firnas-406804]
+died: { edtf: "0887", hijri: "0274", calendar: julian, precision: year, status: historical, sources: [source/tdv-abbas-firnas-kirbiyik] }
 wings: [people]
-periods: [period/umayyad]
+periods: [period/abbasid-early]
 regions: [andalus-europe]
+issue: { ar: "كيف تعرض المصادر هويته والاتهامات المنقولة؟", en: "How do sources present his identity and reported accusations?", ur: "ماخذ شناخت اور منقول الزامات کیسے پیش کرتے ہیں؟" }
+perspectives:
+  - tradition: sunni
+    id: sunni-frame-islamweb
+    stance: { ar: "قراءة إسلام ويب ضمن الإطار السني", en: "Islamweb reading within the Sunni frame", ur: "سنی سیاق میں اسلام ویب کی قرأت" }
+    summary:
+      ar: "تقول إسلام ويب إن الإلحاد لم يثبت عنه، مع نقل اتهامات طالت دينه وصنائعه؛ هذا موقف الموقع لا حكم المتحف. التصنيف الصريح مسلماً عند حسن هو أساس الهوية، لا افتراض من اسمه."
+      en: "Islamweb says atheism was not established despite reported accusations: the site's position, not a museum ruling. Hasan's explicit Muslim classification is the identity basis, not his name."
+      ur: "اسلام ویب کے مطابق منقول الزامات کے باوجود الحاد ثابت نہیں؛ یہ سائٹ کا موقف ہے، میوزیم کا حکم نہیں۔ شناخت کی بنیاد حسن کی صریح مسلم درجہ بندی ہے، نام نہیں۔"
+    sources: [source/islamweb-firnas-406804, source/tarikh-islam-hasan-ibrahim]
+  - tradition: academic
+    id: kirbiyik-reported-accusations
+    stance: { ar: "الاتهامات بوصفها خبراً منقولاً", en: "Accusations as reported biography", ur: "الزامات بطور منقول سوانح" }
+    summary:
+      ar: "ينقل قاسم قربِيِق اتهامه بالسحر والزندقة، ويعزوها إلى من لم يحتملوا نجاحه؛ تعرض العبارة منسوبة إلى الكاتب، لا تقريراً بصحة الاتهام أو حكمه على دوافع الآخرين."
+      en: "Kırbıyık reports magic/heresy accusations, attributing them to people resentful of his success. Both charge and motive remain attributed, not adopted as museum fact."
+      ur: "قربِیق جادو و زندقہ کے الزامات ان لوگوں سے منسوب کرتے ہیں جو کامیابی برداشت نہ کرتے تھے؛ الزام اور محرک دونوں منسوب ہیں، میوزیم کی حقیقت نہیں۔"
+    sources: [source/tdv-abbas-firnas-kirbiyik]
 relations:
-- { type: "related_to", target: place/cordoba, note: "فلكي الأندلس", sources: [source/tarikh-islam-hasan-ibrahim] }
+- { type: lived_in, target: place/cordoba, sources: [source/tdv-abbas-firnas-kirbiyik] }
+inventions:
+  - { invention: invention/firnas-reported-winged-flight, role: inventor, note: "Claimed maker/experimenter, contested account; no absolute first-airplane attribution.", sources: [source/nafh-tib-maqqari, source/tarikh-islam-hasan-ibrahim] }
 sources:
 - source/tarikh-islam-hasan-ibrahim
+- source/nafh-tib-maqqari
+- source/tdv-abbas-firnas-kirbiyik
+- source/lienhard-firnas-1910
+- source/islamweb-firnas-406804
+- source/commons-firnas-bridge-saez
 provenance:
   layer: own-research
   source: حسن إبراهيم حسن، تاريخ الإسلام ج4 — الصناعة، ص382
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch11
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b30", source: "Actual Maqqari3:374–375, Hasan4 printed378/scan382 visually inspected, TDV/UH/Islamweb; corrected scan-vs-print citation, labelled conflicting outcomes/identity views, added trilingual enrichment. Earlier Devin attribution retained." }
 status:
   review: published
   completeness: 3
