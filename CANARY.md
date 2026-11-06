@@ -80,6 +80,7 @@ open a new block on top with the new version and today's date.
 - The open-data guide now documents all 23 schema classes and the invention API endpoints.
 - Entry pages no longer show a "Draft" label or a "Completeness n/5" score, which are internal workflow notes; the invitation to help complete an entry stays, next to "Report an error".
 - The overview map in the Places wing is easier to read: names no longer pile on top of each other. The best-connected places are labelled first and a name that would cover another is left off; every place's dot is now a link with its name, so every place on the map can still be opened.
+- CONTRIBUTING.md rewritten for outside contributors: it now describes how the museum actually works — no human review gate, one cited source is enough, all three languages in the same commit — and documents setup, the validation gates, the 25-entity PR limit and the canary rule itself, replacing a short guide that still promised wing-editor approvals and draft-until-reviewed AI content.
 
 ### Fixed
 
