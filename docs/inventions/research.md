@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: research method
 
+## Invention47 audit — al-Jazari's hidden-drive water lifter (D-087,6 November2026)
+
+Actual existing Hill1974 shared-browser text selectedV.3 primary182–183 and critical265 fully read;182/183/265 visually inspected at199/200/281 of301. Initially opened266 (V.4/V.5), corrected before citation. Incoming water discharges onto concealed lower scoop wheel, gears/vertical shaft drive upper jar chain and carried wooden cow; hooves explicitly do not touch platform, cow is not prime mover. External supply/head/outflow, only some water lifted, no perpetual self-recirculation or measured efficiency/throughput. Another associated machine mentioned but not described, not invented or counted separately. V.3 not existingV.5 double-piston pump or every gear/jar counted as invention.
+
+Hill reconstructs height, infers partly decorative use from copper/marble/adornment, notes drawn overflow absent text and describes cantilevered central discharge. His two-jar illustration deliberately exaggerates vessel size, not scale evidence or demonstrated leakage. First-of-two water-wheel prime movers bounded to this book, not world's first turbine. Unclear extracted water fraction and unverified modern SI dimensions omitted. Geographic Sindi interpretation attributed to Hill, no independently read Baladhuri or proven migration/maker-faith chain claimed.
+
+Actual Commons `Ahmed III, MS3472 folio Water raising machine.jpg` page/API/PD-Art/history and888×1088 image inspected; working500×613 thumbnail retrieved/inspected. Visible jar loop, upper gears/cow/column, pool and lower drive/outflow. Metadata attributes AhmedIII3472/unnamed13th-century artist, no independently verified folio/exact copying date/autograph.16 January2024 is upload date, smaller related file's circa1205 not silently adopted. Faithful historical2D PD reproduction, anonymous illustrator/Commons credited, not copyrighted Hill page. Binaries outside git.
+
+Full17-section trilingual accounts, four new entities and one unique completed queue lead. Eight earlier maker ties/identity/attribution, Hill original reading and earlier biographies retained. Paper-only hypothetical four2-unit jar cards:8 total,6 if one empty; not historical vessel capacity/count, output measurement or construction. Draw incoming-power, lifted-water and drainage arrows separately, no water/electricity/weights/gears. Content-only/non-impacting; tests/build founder-skipped, never deploy.
+
 ## Invention46 audit — al-Jazari's twelve-letter chest lock (D-086,6 November2026)
 
 Actual existing Hill1974 shared-browser text VI.3 primary199–201 and critical268–269 fully read;199/201/268 visually inspected at215/217/284 of301. Initial discovery's VI.5 was wrong, corrected before writing; VI.4 door bolts and VI.5 sinking boat are different devices. Opening explicitly credits earlier2/4/6-letter locks. Four circular groups each have three16-letter settings: twelve letters, not search synthesis's four-letter/16^4 reduction. Nested surfaces connect to internal notched discs and a common plate/latch, described functionally without fabrication/reset/bypass steps.

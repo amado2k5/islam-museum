@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: jazari-hidden-drive-water-lifter
+    label: "Al-Jazari's V.3 hidden-drive jar-chain and wooden-cow display"
+    state: "[x]"
+    batch: 2
+    domain: water-agriculture
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-jazari-engineer", "source/jazari-hill-1974", "source/commons-jazari-hidden-drive"]
+    invention: invention/jazari-hidden-drive-water-lifter
+    lead_sources:
+      - "source/jazari-hill-1974 actualV.3 primary182–183 and critical265;182/183/265 visually inspected"
+      - "source/commons-jazari-hidden-drive actual PD-Art rights and inspected manuscript/working500px image"
+    flags: [completed-D087-b47, distinct-from-V5-piston-pump, hidden-water-drive-not-animal-power, external-supply-and-outflow-not-perpetual, unnamed-other-machine-not-invented, schematic-not-scale-or-efficiency-test, eight-earlier-maker-ties-retained, paper-only]
   - id: jazari-twelve-letter-lock
     label: "Al-Jazari's VI.3 twelve-letter chest-lock assembly"
     state: "[x]"
