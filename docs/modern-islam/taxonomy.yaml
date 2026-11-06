@@ -59,6 +59,9 @@ sections:
     kinds: {}
     facets: [field, country, decade, honours, faith_recorded]
     fields:
+      # listed first so that a reciter who also preaches files here (founder's request, 6 November 2026: muezzins, Qur'an reciters,
+      # Sufi singers and munshids); `qari` and `quran-reciter` are spellings already found on person records
+      - { id: reciters-muezzins-munshids, label: { ar: "القرّاء والمؤذنون والمنشدون", en: "Reciters, muezzins and munshids", ur: "قرّاء، مؤذنین اور منشدین" }, roles: [reciter, qari, quran-reciter, muezzin, munshid, sufi-singer] }
       - { id: scholars-preachers, label: { ar: "العلماء والدعاة", en: "Scholars and preachers", ur: "علما اور مبلغین" }, roles: [scholar, mufti, qadi, shaykh-al-islam, jurist, theologian, preacher, imam, khatib, mystic] }
       - { id: politics-state, label: { ar: "السياسة والدولة", en: "Politics and state", ur: "سیاست اور ریاست" }, roles: [politician, caliph, sultan, emir] }
       - { id: diplomacy, label: { ar: "الدبلوماسية", en: "Diplomacy", ur: "سفارت کاری" }, roles: [diplomat] }
@@ -132,7 +135,7 @@ new_kinds:
   listing: [newspaper, tv-channel, radio-station, newsletter, channel, record-label, production-company, device, product, chain, grocery, airline, hotel, manufacturer, conglomerate]
   group: [team, think-tank, online-community, band]
   building: [islamic-centre, museum, university-campus]
-  roles: [singer, composer, actor, director, producer, presenter, journalist, diplomat, banker, economist, entrepreneur, comedian, influencer, coach, astronaut, judge, lawyer, nurse, professor]
+  roles: [reciter, muezzin, munshid, sufi-singer, singer, composer, actor, director, producer, presenter, journalist, diplomat, banker, economist, entrepreneur, comedian, influencer, coach, astronaut, judge, lawyer, nurse, professor]
 
 award_kinds:
   - { id: prize, label: { ar: "جائزة", en: "Prize", ur: "انعام" } }
@@ -167,6 +170,11 @@ music_genres:
   - { id: folk, label: { ar: "شعبي", en: "Folk", ur: "لوک" } }
   - { id: film-song, label: { ar: "أغنية فيلم", en: "Film song", ur: "فلمی گیت" } }
   - { id: choral, label: { ar: "كورال", en: "Choral", ur: "کورل" } }
+  # recordings of Qur'an recitation and of the call to prayer are listed with the audio genres so the browser can gather them;
+  # the museum does not class either as music, and the labels say so
+  - { id: tilawa, label: { ar: "تلاوة القرآن (مرتّل ومجوّد؛ ليست موسيقى)", en: "Qur'an recitation (murattal and mujawwad; not music)", ur: "تلاوتِ قرآن (مرتل اور مجوّد؛ موسیقی نہیں)" } }
+  - { id: adhan, label: { ar: "الأذان (ليس موسيقى)", en: "Call to prayer (adhan; not music)", ur: "اذان (موسیقی نہیں)" } }
+  - { id: sufi-inshad, label: { ar: "إنشاد صوفي وحضرة", en: "Sufi inshad and hadra", ur: "صوفی انشاد اور حضرہ" } }
   - { id: recitation-based, label: { ar: "قائم على التلاوة", en: "Recitation-based", ur: "تلاوت پر مبنی" } }
 
 sports:

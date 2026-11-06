@@ -1,0 +1,71 @@
+id: invention/hijri-era-administrative-dating
+class: invention
+label: { ar: "تنظيم التأريخ الإداري بالهجرة في عهد عمر", en: "Formalization of Hijri-era administrative dating", ur: "عمر کے دور میں ہجری سن کی انتظامی ترتیب" }
+names:
+  - { kind: alternate, lang: ar, value: "اتخاذ الهجرة مبدأ للسنين" }
+  - { kind: alternate, lang: en, value: "Hijra-era standardization under Umar" }
+summary:
+  ar: "إقرار مرجع مشترك لترقيم السنين مرتبط بالهجرة، في روايات عن إدارة عمر ومشاورة الصحابة، لا اختراع الشهور القمرية {cite:iranica-calendars-abdollahy lunar-Hejri}."
+  en: "Adoption of a shared Hijra-based year era associated with Umar's administration and consultation, not invention of lunar months {cite:iranica-calendars-abdollahy lunar-Hejri}."
+  ur: "عمر کی انتظامیہ اور مشاورت سے منسوب ہجرت پر مبنی مشترک شمار سال، قمری مہینوں کی ایجاد نہیں {cite:iranica-calendars-abdollahy lunar-Hejri}۔"
+domain: institutions-systems
+kind: institution
+disciplines: [history]
+wings: [ideas, time]
+periods: [period/rashidun]
+regions: [arabia]
+era:
+  origins: first-century
+  first_attested:
+    edtf: "0637/0639"
+    calendar: julian
+    precision: year
+    status: tradition
+    note: "Abdollahy reports adoption16,17or18AH/637–639CE; Britannica gives639. Source-supplied CE range, not a new conversion or exact decree day; competing Hijri years retained here rather than fabricated single date. Retrospective622epoch is not administrative adoption."
+    sources: [source/iranica-calendars-abdollahy, source/britannica-islamic-calendar]
+  status_today: living
+origin:
+  place: place/medina
+  context: { ar: "سياق إدارة عمر والمشاورة في المدينة، لا ورشة لصنع ساعة {cite:britannica-umar-i} {cite:iranica-calendars-abdollahy lunar-Hejri}.", en: "Umar's administration and consultation in Medina, not a clockmaking workshop {cite:britannica-umar-i} {cite:iranica-calendars-abdollahy lunar-Hejri}.", ur: "مدینہ میں عمر کی انتظامیہ اور مشاورت، گھڑی سازی کی کارگاہ نہیں {cite:britannica-umar-i} {cite:iranica-calendars-abdollahy lunar-Hejri}۔" }
+makers:
+  - { person: person/umar-ibn-al-khattab, role: commissioner, note: "Administrative formalization attributed to his caliphate; consultation and Ali's reported advice retained, not sole invention of lunar time.", sources: [source/britannica-umar-i, source/iranica-calendars-abdollahy] }
+attribution:
+  status: improvement
+  claim: { ar: "توحيد مرجع السنة في نظام أقدم للشهور.", en: "Standardization of the year reference within older month reckoning.", ur: "پہلے سے موجود مہینوں کے اندر سال کے حوالے کی یکسانی۔" }
+  basis: { ar: "رواية سهل عن ابتداء الحساب من القدوم، وعرض المؤسستين لتبني الإدارة لاحقاً {cite:sahih-al-bukhari 3934} {cite:britannica-islamic-calendar} {cite:iranica-calendars-abdollahy lunar-Hejri}.", en: "Sahl's arrival-based reckoning report and reference accounts of later administrative adoption {cite:sahih-al-bukhari 3934} {cite:britannica-islamic-calendar} {cite:iranica-calendars-abdollahy lunar-Hejri}.", ur: "سہل کی آمد سے شمار کی روایت اور بعد کے انتظامی اختیار کے حوالہ جاتی بیانات {cite:sahih-al-bukhari 3934} {cite:britannica-islamic-calendar} {cite:iranica-calendars-abdollahy lunar-Hejri}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "الهجرة مرجع الجماعة", en: "Migration as the community reference", ur: "ہجرت جماعت کا حوالہ" }
+      summary: { ar: "رواية البخاري عن سهل تجعل القدوم مرجعاً لا البعثة أو الوفاة؛ لا تعطي بنفسها سنة قرار عمر أو محضر المشاورة {cite:sahih-al-bukhari 3934}.", en: "Bukhari's Sahl report distinguishes arrival from mission/death but does not itself date Umar's decision or transcribe consultation {cite:sahih-al-bukhari 3934}.", ur: "بخاری کی سہل والی روایت آمد کو بعثت و وفات سے الگ کرتی ہے، خود عمر کے فیصلے کا سال یا مشورے کی کارروائی نہیں دیتی {cite:sahih-al-bukhari 3934}۔" }
+      sources: [source/sahih-al-bukhari]
+    - tradition: academic
+      stance: { ar: "تنظيم مختلف في تاريخه", en: "Formalization with disputed chronology", ur: "متنازع تاریخ والی تنظیم" }
+      summary: { ar: "ينقل عبد اللهي16/17/18هـ وأخبار رسائل أقدم ومشورة علي؛ تعطي بريتانيكا639. لا تجعل الروايات المتأخرة محضراً معاصراً أو التأريخ القمري كله اختراع فرد {cite:iranica-calendars-abdollahy lunar-Hejri} {cite:britannica-islamic-calendar}.", en: "Abdollahy reports16/17/18AH, earlier reported letters and Ali's advice; Britannica gives639. Later accounts are not contemporary minutes or proof one person invented all lunar dating {cite:iranica-calendars-abdollahy lunar-Hejri} {cite:britannica-islamic-calendar}.", ur: "عبداللہی16/17/18ھ، پہلے کی منقولہ خطوط اور علی کے مشورے کا ذکر کرتے ہیں؛ بریٹانیکا639 دیتا ہے۔ بعد کی روایت معاصر کارروائی یا تمام قمری تاریخ ایک فرد کی ایجاد ثابت نہیں کرتی {cite:iranica-calendars-abdollahy lunar-Hejri} {cite:britannica-islamic-calendar}۔" }
+      sources: [source/iranica-calendars-abdollahy, source/britannica-islamic-calendar]
+precursors:
+  - external: { ar: "شهور قمرية وتقاويم وعصور تأريخ أقدم", en: "Older lunar months, calendars and dating eras", ur: "پہلے کے قمری مہینے، تقاویم اور سن" }
+    note: "Contribution is a common era reference, not creation of the moon/month sequence or erasure of older regional administrative calendars."
+    sources: [source/iranica-calendars-abdollahy, source/tdv-takvim-akgur]
+dependents: []
+spread: []
+impact:
+  fields: [institutions-systems, timekeeping]
+  changed: { ar: "مرجع سنوي قابل للاستعمال في الوثائق عبر تعاقب الحكام {cite:iranica-calendars-abdollahy lunar-Hejri}.", en: "A year reference usable in documents across successions of rulers {cite:iranica-calendars-abdollahy lunar-Hejri}.", ur: "حکمرانوں کی تبدیلی کے باوجود دستاویزوں میں قابل استعمال سال کا حوالہ {cite:iranica-calendars-abdollahy lunar-Hejri}۔" }
+  history: { ar: "بقي قمرياً لا تقويماً زراعياً موسمياً أو قاعدة وحيدة للرؤية {cite:tdv-takvim-akgur lunar-calendar} {cite:iranica-calendars-abdollahy lunar-Hejri}.", en: "Remained lunar, not a seasonal agricultural calendar or one universal sighting rule {cite:tdv-takvim-akgur lunar-calendar} {cite:iranica-calendars-abdollahy lunar-Hejri}.", ur: "قمری ہی رہا، موسمی زرعی تقویم یا رویت کا واحد عالمی اصول نہیں {cite:tdv-takvim-akgur lunar-calendar} {cite:iranica-calendars-abdollahy lunar-Hejri}۔" }
+  significance: 3
+  why: "Durable administrative year-era standardization, with distinct epoch/adoption/month-opening questions and explicit traditional chronology variants."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "تأريخ هجري قمري حي بأشكال رصدية وحسابية متنوعة.", en: "Living lunar Hijri dating in varied observational and computational forms.", ur: "مختلف رصدی اور حسابی شکلوں میں زندہ قمری ہجری تاریخ۔" }
+  descendants: { ar: "لا تساوٍ تلقائياً مع التقويم الهجري الشمسي.", en: "Not automatically identical to the Solar Hijri calendar.", ur: "شمسی ہجری تقویم کے خود بخود برابر نہیں۔" }
+media: { image: media/perf-558-dating-context, diagram: media/diagram-hijri-era-dating }
+kids:
+  ar: "اتفقوا على مرجع لرقم السنة؛ هذا غير اختراع القمر أو تحديد يوم الهجرة."
+  en: "A shared reference for year numbers is different from inventing the Moon or dating the migration day."
+  ur: "سال کے ہندسوں کا مشترک حوالہ، چاند کی ایجاد یا ہجرت کے دن کی تعیین سے الگ ہے۔"
+sources: [source/sahih-al-bukhari, source/britannica-umar-i, source/britannica-islamic-calendar, source/iranica-calendars-abdollahy, source/tdv-takvim-akgur, source/commons-perf-558-recto]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b88", source: "D-130; actual Britannica biographies/calendar, Bukhari3934, Abdollahy lunar-Hejri and TDV lunar subsection, inspected PD receipt recto/verso. Traditional date/epoch variants retained; no original decree, challenged edition or full papyrus transcription claimed." }

@@ -27,6 +27,20 @@ function taxonomyPath(): string {
 
 export const WINDOW_START_YEAR = 1976;
 
+/** The years that get a page under /modern/year/: the window start to the build year, both included. */
+export const yearPageYears = (buildYear: number): number[] =>
+  Array.from({ length: Math.max(0, buildYear - WINDOW_START_YEAR + 1) }, (_, i) => WINDOW_START_YEAR + i);
+
+/** The year page a year links to, or undefined when that year has none (before the window, or after the build year). */
+export const yearPageFor = (y: number | undefined, buildYear: number): number | undefined =>
+  y !== undefined && Number.isInteger(y) && y >= WINDOW_START_YEAR && y <= buildYear ? y : undefined;
+
+/** The year page a decade chip links to: the first year of the decade that has a page, or undefined when none has. */
+export const decadePageFor = (decade: number, buildYear: number): number | undefined => {
+  const first = Math.max(decade, WINDOW_START_YEAR);
+  return first <= decade + 9 ? yearPageFor(first, buildYear) : undefined;
+};
+
 export interface SectionDef {
   id: string;
   label: Record<string, string>;

@@ -111,7 +111,7 @@ The browser reuses the twenty-three classes and adds the minimum: one small clas
 | `listing` | `newspaper`, `tv-channel`, `radio-station`, `newsletter`, `channel`, `record-label`, `production-company`, `device`, `product`, `chain`, `grocery`, `airline`, `hotel`, `manufacturer`, `conglomerate` |
 | `group` | `team`, `think-tank`, `online-community` |
 | `building` | `islamic-centre`, `museum`, `university-campus` |
-| `roles` (`schema/enums/roles.yaml`) | `singer`, `composer`, `actor`, `director`, `producer`, `presenter`, `journalist`, `diplomat`, `banker`, `economist`, `entrepreneur`, `comedian`, `influencer`, `coach`, `astronaut`, `judge`, `lawyer`, `nurse`, `professor` |
+| `roles` (`schema/enums/roles.yaml`) | `singer`, `composer`, `actor`, `director`, `producer`, `presenter`, `journalist`, `diplomat`, `banker`, `economist`, `entrepreneur`, `comedian`, `influencer`, `coach`, `astronaut`, `judge`, `lawyer`, `nurse`, `professor`; added 6 November 2026 at the founder's request: `reciter`, `muezzin`, `munshid`, `sufi-singer` (figures field "Reciters, muezzins and munshids", listed first) |
 
 Where the Job Browser already models an occupation, `occupations` is used as well; `roles` stays the quick facet.
 
