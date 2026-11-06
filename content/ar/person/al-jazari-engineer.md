@@ -1,7 +1,10 @@
 ---
 id: person/al-jazari-engineer
 lang: ar
+source_lang: ar
 translators: []
+status: { review: published }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; appended castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue, limited-reading sentence updated, not a rewrite or full-book reading" }
 ---
 ## موجز
 بديع الزمان أبو العز إسماعيل بن الرزاز الجزري مهندس ومؤلف في الحيل، تصفه موسوعة TDV عالماً إسلامياً، وتقول إن ما يعرف عن حياته خارج مقدمة كتابه قليل {cite:tdv-cezeri pp. 505–506}. تذكر خدمته للأرتقيين في [[place/amid|آمد]] بين 1181 و1206م وكتاباً كتبه بطلب الأمير ناصر الدين محمود، تؤرخ إتمامه بسنة 1205م {cite:tdv-cezeri pp. 505–506}. لا تتحول سنتا الخدمة إلى تاريخي ميلاد ووفاة.
@@ -26,11 +29,17 @@ translators: []
 
 ومثال آخر [[invention/jazari-double-piston-pump|مضخته ذات المكبسين]]: يدير الماء دولاباً وتروساً، وينقل مسمار وقضيب مشقوق الدوران إلى ذراعي المكبسين ذهاباً وإياباً {cite:tdv-cezeri pp. 505–506}. يشرح الحساني نموذج المضختين المتزامنتين، ويحفظ متحف العلوم نموذجاً نصف الحجم، لا آلة أصلية من حياة الجزري {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}. يعطي الحساني إتمام الكتاب في 1206م، خلاف 1205م عند TDV؛ يحفظ سجل المضخة الفرق بوصفه تاريخاً للشاهد الكتابي، لا تركيب آلة مؤرخاً {cite:fstc-jazari-mechanical-genius biography} {cite:tdv-cezeri pp. 505–506}.
 
-تذكر TDV ترجمة دونالد هيل الإنجليزية الكاملة سنة 1974، والتحقيق العربي لأحمد يوسف الحسن سنة 1979، المعتمد على نسخة بودليان ونسخ إسطنبول {cite:tdv-cezeri pp. 505–506}. وهذه طبعات مذكورة في المرجع، لا صفحات أولية يزعم هذا المقال أنه قرأها مستقلاً.
+تذكر TDV ترجمة دونالد هيل الإنجليزية الكاملة سنة 1974، والتحقيق العربي لأحمد يوسف الحسن سنة 1979، المعتمد على نسخة بودليان ونسخ إسطنبول {cite:tdv-cezeri pp. 505–506}. كانت الإحالة السابقة عبر المرجع؛ قراءة مختارات هيل الجديدة مبينة أدناه، لا دعوى لقراءة الكتاب كله أو التحقيق العربي1979.
 
 تحفظ ورقة المتروبوليتان 57.51.23 رسم ساعة الفيل من نسخة كتبها فروخ بن عبد اللطيف سنة 715هـ/1315م، يرجح المتحف نسخها في سورية أو العراق {cite:met-elephant-clock-575123 Overview}. الكاتب الناسخ غير المؤلف المهندس؛ والورقة دليل على انتقال الكتاب وصورته، لا آلة أصلية باقية من حياته.
 
+## ساعة القلعة والمعايرة
+
+يشرح أول باب من قسم الساعات [[invention/jazari-castle-clock|ساعة القلعة]]، ويذكر محاولات تقسيم موروثة لم تعمل كما أراد، قبل معايرة مخرج الماء بالتجربة {cite:jazari-hill-1974 pp.17–18,24–25}. تخدم الساعة أقسام نهار وليل موسمية، وتحتاج مشغلاً يعيد الماء ويهيئ الإشارات؛ عرض الشمس والقمر ليس حساباً ذاتياً لمواضعهما {cite:jazari-hill-1974 pp.39–41,editor-notes-I.1}. مقدمة هيل تستخرج1204 أو1206 من اختلاف النسخ، بجانب1205 عندTDV؛ هذا اختلاف تأريخ الكتاب لا تاريخ بناء مثبت {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}. ورقة بوسطن14.533 مؤرخة1354 وفنانها غير مسمى، لا آلة أصلية أو رسم بخط المهندس {cite:mfa-castle-clock-14533 metadata}.
+
 ## المراجع
+- مختارات ترجمة دونالد هيل1974 وتعليقه على ساعة القلعة {cite:jazari-hill-1974 pp.17–22,24–25,39–41,editor-notes-I.1}.
+- فهرسة بوسطن عبرGoogle وبيانات صورة1354 {cite:mfa-castle-clock-14533 catalogue,metadata}.
 - سعد الدين أوكتن، «CEZERÎ, İsmâil b. Rezzâz»، موسوعة TDV، ج7، 1993، ص505–506. {cite:tdv-cezeri pp. 505–506}
 - المتروبوليتان، ساعة الفيل، رقم 57.51.23، بيانات القطعة وفهرسة فرانشيسكا ليوني. {cite:met-elephant-clock-575123 Catalogue Entry}
 - سليم الحساني، «Al-Jazari: The Mechanical Genius»، وصف المضخة والرسم والنموذج. {cite:fstc-jazari-mechanical-genius pump discussion}

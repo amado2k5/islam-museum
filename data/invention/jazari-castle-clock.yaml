@@ -1,0 +1,62 @@
+id: invention/jazari-castle-clock
+class: invention
+label: { ar: "ساعة القلعة المائية عند الجزري", en: "Al-Jazari's castle water clock", ur: "جزری کی قلعہ نما آبی گھڑی" }
+names: [{ value: "Castle water-clock, Category I chapter1", kind: alternate, lang: en }]
+summary:
+  ar: "ساعة تعرض الساعات الموسمية بأبواب وكرات وأضواء؛ معايرتها وعمل القائم عليها جزء من وصفها، لا حاسوب مستقل {cite:jazari-hill-1974 pp.17–22,24–25,39–41}."
+  en: "Seasonal hours displayed by doors, balls and lights; empirical calibration/operator work are part of the design, not an autonomous computer {cite:jazari-hill-1974 pp.17–22,24–25,39–41}."
+  ur: "موسمی گھنٹے دروازوں، گیندوں اور روشنی سے؛ معايرہ اور خادم کا کام ڈیزائن کا حصہ، آزاد کمپیوٹر نہیں {cite:jazari-hill-1974 pp.17–22,24–25,39–41}۔"
+domain: timekeeping
+kind: device
+disciplines: [engineering]
+wings: [objects, ideas]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1204/1206"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Documentary range, not a dated construction: Hill introduction gives1204 OR1206 from manuscript service chronologies, TDV1205. No invented exact clock-build date or Hijri. Illustrated Boston copy1354 is distinct."
+    sources: [source/jazari-hill-1974, source/tdv-cezeri]
+  status_today: replaced
+origin:
+  place: place/amid
+  polity: polity/artuqid-dynasty
+  context: { ar: "سياق خدمة المؤلف الأرتقية بآمد، لا مكان نسخ ورقة1354 {cite:tdv-cezeri pp.505–506}.", en: "Author's Artuqid service at Amid, not a verified copying site for the1354 folio {cite:tdv-cezeri pp.505–506}.", ur: "آمد میں مصنف کی ارتقی خدمت کا سیاق،1354 کے ورق کی نقل کی ثابت جگہ نہیں {cite:tdv-cezeri pp.505–506}۔" }
+makers:
+  - { person: person/al-jazari-engineer, role: improver, place: place/amid, sources: [source/jazari-hill-1974, source/tdv-cezeri] }
+attribution:
+  status: improvement
+  claim: { ar: "تركيب ومعايرة ساعة موسمية ضمن تراث أقدم، لا أول ساعة أو كل آلية تغذية راجعة.", en: "Integration and calibration of a seasonal-hour clock within an older tradition, not the first clock or all feedback mechanisms.", ur: "سابق روایت میں موسمی گھڑی کا نظام اور معايرہ، پہلی گھڑی یا تمام بازخور کا آغاز نہیں۔" }
+  basis: { ar: "يفتتح المؤلف بذكر السابقين وإخفاق التقسيمات قبل المعايرة العملية {cite:jazari-hill-1974 pp.17–18,24–25}.", en: "The author names predecessors and failed divisions before empirical calibration {cite:jazari-hill-1974 pp.17–18,24–25}.", ur: "مصنف سابقین اور ناکام تقسیموں کے بعد عملی معايرہ بتاتا ہے {cite:jazari-hill-1974 pp.17–18,24–25}۔" }
+  perspectives: []
+precursors:
+  - external: { ar: "ساعات مائية وتقسيمات منقولة عن أرشميدس المنحول ومجهول", en: "Water clocks and divisions attributed to Pseudo-Archimedes and an anonymous maker", ur: "آبی گھڑیاں اور منحول ارشمیدس و نامعلوم بنانے والے کی تقسیمیں" }
+    note: "Author's transmitted references, not independent authentication of Archimedes's authorship."
+    sources: [source/jazari-hill-1974, source/tdv-cezeri]
+dependents:
+  - external: { ar: "نسخ الكتاب وقراءة هيل الحديثة", en: "Manuscript copies and Hill's modern interpretation", ur: "کتاب کی نقلیں اور ہل کی جدید توضیح" }
+    note: "Text/image transmission and interpreted reconstruction, not proven direct industrial ancestry."
+    sources: [source/jazari-hill-1974, source/mfa-castle-clock-14533]
+spread: []
+impact:
+  fields: [timekeeping, mechanics-automata]
+  changed: { ar: "إشارات وقت مرئية ومسموعة، مع خادم يعيد الضبط {cite:mfa-castle-clock-14533 catalogue}.", en: "Visible/audible time signals with an operator resetting the apparatus {cite:mfa-castle-clock-14533 catalogue}.", ur: "وقت کی بصری و صوتی علامتیں، خادم کے دوبارہ ضبط کے ساتھ {cite:mfa-castle-clock-14533 catalogue}۔" }
+  history: { ar: "نص يتيح دراسة إخفاق المعايرة ونجاحها، لا شهادة دقة حديثة {cite:jazari-hill-1974 pp.17–18,24–25}.", en: "A record of failed and revised calibration, not a modern precision certificate {cite:jazari-hill-1974 pp.17–18,24–25}.", ur: "ناکام و اصلاح شدہ معايرے کی تحریر، جدید دقت کی سند نہیں {cite:jazari-hill-1974 pp.17–18,24–25}۔" }
+  significance: 4
+  why: "Detailed, attributed seasonal-hour clock integrating regulated flow, moving displays and operator labour; explicit empirical calibration and manuscript/reconstruction limitations."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "شاهد نصي ورسم نسخة لاحقة وتفسير حديث، لا ساعة أصلية معروضة.", en: "Text, later manuscript painting and modern interpretation, not an exhibited original clock.", ur: "متن، بعد کی نقل کا نقشہ اور جدید تعبیر؛ اصل گھڑی کی نمائش نہیں۔" }
+  descendants: { ar: "التشابه في التحكم ليس نسباً موثقاً للحاسوب أو الساعة الحديثة.", en: "Control similarities are not documented descent of computers or modern clocks.", ur: "کنٹرول کی مشابہت کمپیوٹر یا جدید گھڑی کا موثق نسب نہیں۔" }
+media: { image: media/jazari-castle-mfa-14533, diagram: media/diagram-jazari-castle-clock }
+kids: { ar: "على الورق: يوم افتراضي15 ساعة نقسمه إلى12 قسماً، فكل قسم75 دقيقة؛ لا بناء ماء أو نار أو كرات.", en: "On paper: a hypothetical15-hour day divided into12 parts gives75 minutes each; no water, flame or ball construction.", ur: "کاغذ پر: فرضی15 گھنٹے کا دن12 حصوں میں، ہر حصہ75 منٹ؛ پانی، آگ یا گیند کا آلہ نہیں۔" }
+sources: [source/jazari-hill-1974, source/mfa-castle-clock-14533, source/tdv-cezeri]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Actual selected Hill translated primary/editorial notes in shared Archive browser,17/24 images; MFA-via-Google text/Commons1354 image and rights; TDV individual identity; own modern seasonal-hour example" }

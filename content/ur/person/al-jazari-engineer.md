@@ -3,6 +3,8 @@ id: person/al-jazari-engineer
 lang: ur
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
+status: { review: published }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading" }
 ---
 ## خلاصہ
 بدیع الزمان ابو العز اسماعیل بن الرزاز جزری میکانکی حیلوں کے انجینئر اور مصنف تھے۔ ٹی ڈی وی انہیں اسلامی عالم کہتا اور کتاب کے مقدمے سے باہر زندگی کی معلومات کم بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ وہ 1181–1206ء میں [[place/amid|آمد]] کے ارتقی دربار سے وابستگی اور ناصر الدین محمود کی فرمائش پر کتاب لکھنے کا ذکر کرتا ہے، جس کی تکمیل 1205ء بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ خدمت کے سالوں کو پیدائش اور وفات کی تاریخ نہیں بنایا گیا۔
@@ -27,11 +29,17 @@ translators: ["Copilot SDK in VS Code"]
 
 دوسری مثال [[invention/jazari-double-piston-pump|دو پسٹن والا پمپ]] ہے: بہتا پانی پہیہ اور گیئر چلاتا، پن اور شگاف دار ڈنڈا گردش کو پسٹن سلاخوں کی آگے پیچھے حرکت بناتے ہیں {cite:tdv-cezeri pp. 505–506}۔ الحسنی ہم آہنگ جوڑے کا بیان کرتے ہیں؛ سائنس میوزیم میں نصف حجم ماڈل ہے، جزری کی زندگی کی اصل مشین نہیں {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}۔ الحسنی کتاب کی تکمیل 1206ء، ٹی ڈی وی 1205ء بتاتا ہے۔ پمپ کا اندراج فرق محفوظ رکھتا ہے؛ یہ تحریری شہادت کی تاریخ ہے، کسی اصل تنصیب کی سند نہیں {cite:fstc-jazari-mechanical-genius biography} {cite:tdv-cezeri pp. 505–506}۔
 
-ٹی ڈی وی ڈونلڈ ہل کے 1974ء کے مکمل انگریزی ترجمے اور احمد یوسف الحسن کی 1979ء کی عربی تحقیق کا ذکر کرتا ہے، جس میں بودلیئن اور استنبول کی نقلیں استعمال ہوئیں {cite:tdv-cezeri pp. 505–506}۔ یہ مرجع میں مذکور طباعتیں ہیں، اس مضمون میں آزادانہ پڑھے گئے اصل صفحات کا دعویٰ نہیں۔
+ٹی ڈی وی ڈونلڈ ہل کے 1974ء کے مکمل انگریزی ترجمے اور احمد یوسف الحسن کی 1979ء کی عربی تحقیق کا ذکر کرتا ہے، جس میں بودلیئن اور استنبول کی نقلیں استعمال ہوئیں {cite:tdv-cezeri pp. 505–506}۔ پہلے حوالے مرجع کے واسطے سے تھے؛ نئی منتخب ہل قرأت نیچے واضح ہے، پوری کتاب یا1979 عربی تحقیق پڑھنے کا دعویٰ نہیں۔
 
 میٹ کا ورق 57.51.23 فروخ بن عبد اللطیف کی 715ھ/1315ء کی نقل میں ہاتھی گھڑی دکھاتا ہے، غالباً شام یا عراق میں تیار ہوا {cite:met-elephant-clock-575123 Overview}۔ ناسخ اور اصل انجینئر مصنف الگ ہیں؛ ورق کتاب اور تصویر کی منتقلی کا ثبوت ہے، اصل مشین کا باقی ہونا نہیں۔
 
+## قلعہ گھڑی اور معايرہ
+
+گھڑیوں کا پہلا باب [[invention/jazari-castle-clock|قلعہ گھڑی]] میں سابقہ تقسیموں کی ناکامی، پھر پانی کے مخرج کی تجرباتی معايرہ بندی بیان کرتا ہے {cite:jazari-hill-1974 pp.17–18,24–25}۔ موسمی دن رات کی تقسیموں کے لیے خادم پانی واپس اور علامتیں مرتب کرتا ہے؛ سورج اور چاند دکھانا ان کے مقام کا آزاد حساب نہیں {cite:jazari-hill-1974 pp.39–41,editor-notes-I.1}۔ ہل نسخوں کے فرق سے1204 یا1206 نکالتے، ٹی ڈی وی1205 دیتا ہے؛ یہ کتاب کی تاریخ کا اختلاف ہے، ثابت تعمیراتی سال نہیں {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}۔ بوسٹن14.533 نامعلوم مصور کا1354 ورق ہے، اصل مشین یا مصنف کے ہاتھ کا خاکہ نہیں {cite:mfa-castle-clock-14533 metadata}۔
+
 ## مراجع
+- ڈونلڈ ہل1974 کے ترجمے اور توضیح کے منتخب حصے {cite:jazari-hill-1974 pp.17–22,24–25,39–41,editor-notes-I.1}۔
+- بوسٹن کی باضابطہGoogle شراکتی فہرست اور1354 تصویر کی معلومات {cite:mfa-castle-clock-14533 catalogue,metadata}۔
 - سعد الدین اوکتن، «CEZERÎ, İsmâil b. Rezzâz»، ٹی ڈی وی، جلد 7، 1993ء، صفحات 505–506۔ {cite:tdv-cezeri pp. 505–506}
 - میٹروپولیٹن میوزیم، ہاتھی کی گھڑی، 57.51.23، معلومات اور فرانچیسکا لیونی کی فہرستی تحریر۔ {cite:met-elephant-clock-575123 Catalogue Entry}
 - سلیم الحسنی، «Al-Jazari: The Mechanical Genius»، پمپ، نقشہ اور ماڈل۔ {cite:fstc-jazari-mechanical-genius pump discussion}
