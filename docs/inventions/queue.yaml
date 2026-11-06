@@ -2073,13 +2073,16 @@ candidates:
       - "source/tdv-cezeri pp. 505–506"
     flags: [narrowed-to-peacock-design, physical-construction-explicitly-uncertain, copy-date-not-invention-date, no-first-soap-or-robot-claim, reused-legacy-folio-id-preserved]
   - id: al-jazari-programmable-musical-boat
-    label: "Al-Jazari's programmable musical boat"
-    state: "[~]"
+    label: "Al-Jazari's musical boat automaton (programmability claim bounded)"
+    state: "[x]"
     batch: 4
     domain: mechanics-automata
     era: middle-period
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    invention: invention/jazari-musical-boat
+    records: ["person/al-jazari-engineer", "source/freer-jazari-musical-boat"]
+    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "source/jazari-hill-1974 actualII.4 pp.107–109,critical256", "source/freer-jazari-musical-boat actual catalogue and inspected1315 PD image"]
+    flags: [completed-D083-b43, existing-lead-not-duplicate, not-first-programmable-robot, finite-water-and-lengthening-intervals, missing-sailor-drive, non-touching-harp-and4-vs6-pegs, copy-not-original-hardware, four-earlier-maker-ties-retained]
   - id: al-jazari-segmental-gear
     label: "The segmental gear in al-Jazari's devices"
     state: "[~]"

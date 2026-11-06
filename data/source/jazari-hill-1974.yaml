@@ -3,7 +3,7 @@ class: source
 kind: primary
 type: book
 label: { ar: "كتاب الجزري — ترجمة دونالد هيل1974", en: "Al-Jazari — Donald Hill translation1974", ur: "جزری کی کتاب — ڈونلڈ ہل کا1974 ترجمہ" }
-summary: { ar: "نص مترجم مع تعليق حديث؛ قرئت مختارات ساعة القلعة، لا الكتاب كله أو تحقيق1979 العربي.", en: "Translated primary with modern commentary; selected castle-clock passages read, not the whole book or1979 Arabic edition.", ur: "ترجمہ شدہ اصل اور جدید توضیح؛ قلعہ گھڑی کے منتخب حصے پڑھے، پوری کتاب یا1979 عربی تحقیق نہیں۔" }
+summary: { ar: "نص مترجم وتعليق حديث؛ مختارات ساعة القلعة ثم قارب العرض107–109 ونقده256، لا الكتاب كله.", en: "Translated primary and commentary; selected castle-clock reading extended to display boat107–109 and criticism256, not the whole volume.", ur: "ترجمہ اور تعلیق؛ قلعہ گھڑی کی منتخب قراءت کے بعد نمائشی کشتی107–109 اور نقد256، پوری جلد نہیں۔" }
 title: "The Book of Knowledge of Ingenious Mechanical Devices"
 author: [{ family: "al-Jazari", given: "Ismail ibn al-Razzaz" }]
 publisher: "D. Reidel, Dordrecht/Boston"
@@ -15,4 +15,10 @@ URL: "https://archive.org/details/TheBookOfKnowledgeOfIngeniousMechaniIbnAlRazza
 open_access: true
 reliability_note: "Public Archive301-page reader/full-text opened sequentially in shared browser, not API/curl. Selected translated primary17–22,24–25,39–41 and Hill explanatory general-description/layout notesI.1 read in bounded excerpts. Printed17 at37/301 and24 at44/301 visually inspected. Actual front matter confirms1974 copyright/reprint and DOI. Introduction's al-Jazari chronology gives1204 OR1206 from differing manuscripts, not a separately dated clock build.17–18 acknowledges earlier regulator designs and failed geometric divisions;24–25 practical calibration.20–22 distinguishes main float and regulating float chamber/conical valve.39–41 operator resets/manual celestial settings.19 footnote warns opening ninth-night-hour performance differs from detailed later sections;40 ninth-figure instruction/41 sixth-hour action not silently harmonized. Hill's explanatory reconstruction includes inferred dimensions/positions and discrepancies, not a flawless surviving machine. OCR fractions/Arabic-looking strings not adopted as exact evidence; no original Arabic manuscript/full-book collation claimed. Copyrighted translation not licensed for media reuse; source text/screenshots remain outside git, museum prose is its own."
 status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Actual public Archive browser reading/17 and24 images, selected text/editorial apparatus and title/copyright metadata; not search synthesis" }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b40"
+  source: "Actual public Archive browser reading/17 and24 images, selected text/editorial apparatus and title/copyright metadata; not search synthesis"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "SelectedII.4 translated107–109,107/109 visually inspected, chapter-specific commentary256 and live browser text verified; finite supply, non-touching harp fingers,4-vs6 peg discrepancy, missing sailor drive and falling-head timing. Original castle reading note/provenance retained." }
