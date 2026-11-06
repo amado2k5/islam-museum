@@ -72,7 +72,7 @@ Candidates in queue: **476** active, **39** excluded (**515** total) · inventio
 - Scientist/person records: 266
 - Scientific work leads (linked to scientific people/concepts or tagged as a zij): 51
 - Treatise-kind works, all subjects: 31
-- English/Arabic prose-hit files: 307
+- English/Arabic prose-hit files: 310
 
 ## Existing source families
 
