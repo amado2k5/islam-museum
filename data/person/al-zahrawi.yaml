@@ -1,0 +1,45 @@
+id: person/al-zahrawi
+class: person
+label: { ar: "أبو القاسم الزهراوي", en: "Abu al-Qasim al-Zahrawi", ur: "ابو القاسم الزہراوی" }
+names:
+  - { value: "أبو القاسم خلف بن عباس الزهراوي", kind: full, lang: ar }
+  - { value: "Albucasis", kind: alternate, lang: en }
+  - { value: "Zehrâvî", kind: alternate, lang: tr }
+gender: male
+roles: [physician]
+occupations:
+  - job: job/physician
+    kind: primary
+    status: historical
+    sources: [source/tdv-zehravi]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "The2003 Saudi Medical Journal abstract explicitly identifies the named al-Zahrawi as a Muslim surgeon. Sunni is the explicit default frame of docs/scope.md for the documented Andalusian milieu; no contrary tradition is named in the complete TDV biography or medical-history paper read. Neither is treated as a personal madhhab declaration; identity is not inferred from name or ancestry."
+    sources: [source/alzahrawi-stones-abdelhalim-2003, source/tdv-zehravi]
+summary:
+  ar: "طبيب وجراح أندلسي ارتبط بقرطبة، صاحب موسوعة التصريف التي اكتملت نحو390/1000 وتضم ثلاثين مقالة، آخرها في الجراحة ورسوم أدواتها {cite:tdv-zehravi pp. 189–191} {cite:tdv-tasrif-zehravi pp. 132–133}. الأخبار المبكرة عن حياته قليلة، والصلة بالبلاط خبر لا تثبته تلك الأخبار الأولى {cite:tdv-zehravi pp. 189–191}."
+  en: "Andalusian physician and surgeon associated with Cordoba, author of the30-book al-Tasrif completed around390/1000, whose final book illustrates surgery and instruments {cite:tdv-zehravi pp. 189–191} {cite:tdv-tasrif-zehravi pp. 132–133}. Early biographical evidence is sparse; court service is not established by that early testimony {cite:tdv-zehravi pp. 189–191}."
+  ur: "قرطبہ سے وابستہ اندلسی طبیب و جراح، تیس مقالات کی التصریف کے مصنف، جو تقریباً390/1000 میں مکمل ہوئی اور آخری مقالہ جراحی و آلات کے خاکوں پر ہے {cite:tdv-zehravi pp. 189–191} {cite:tdv-tasrif-zehravi pp. 132–133}۔ ابتدائی سوانحی شہادت محدود ہے اور اس سے درباری ملازمت ثابت نہیں ہوتی {cite:tdv-zehravi pp. 189–191}۔"
+died:
+  edtf: "1013?"
+  hijri: "0404"
+  calendar: julian
+  precision: year
+  status: tradition
+  note: "Reported404/1013, not an independently established exact death date. TDV distinguishes early testimony of death after400/1010 from Leo Africanus's much later404/1013 report. No exact birth year adopted."
+  sources: [source/tdv-zehravi]
+wings: [people]
+regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/cordoba, sources: [source/tdv-zehravi] }
+inventions:
+  - invention: invention/zahrawi-mishab
+    role: describer
+    place: place/cordoba
+    note: "Named urethral-stone drill described with a claim of personal experience in the translated chapter60; not proof of invention of surgery or all lithotripsy."
+    sources: [source/alzahrawi-stones-abdelhalim-2003]
+sources: [source/tdv-zehravi, source/tdv-tasrif-zehravi, source/alzahrawi-stones-abdelhalim-2003]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b22", source: "Complete TDV biography and work entry and full2003 translated stone chapters/commentary; no independent primary biographical manuscript examination" }

@@ -1,0 +1,19 @@
+id: media/diagram-zahrawi-mishab
+class: media
+kind: illustration
+label: { ar: "من تقليد علاج الحصاة إلى وصف المثقاب", en: "From stone-treatment traditions to the drill account", ur: "پتھری کے علاج کی روایت سے مثقب کے بیان تک" }
+summary:
+  ar: "سلسلة علاقات يرسمها الموقع عند البناء؛ ليست مخططاً تشريحياً أو تعليمات لإجراء جراحة."
+  en: "Build-time relationship chain, not an anatomical reconstruction or surgical instructions."
+  ur: "تعمیر کے وقت بننے والا تعلقاتی سلسلہ؛ جسمانی تشریح کا نقشہ یا جراحی کی ہدایات نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/zahrawi-mishab]
+alt:
+  ar: "تقليد علاج حصى البول، ثم وصف مثقاب الزهراوي لحصاة الإحليل، ثم تلقي كتاب الجراحة ومقارناته اللاحقة."
+  en: "Urinary-stone treatment tradition, al-Zahrawi's urethral drill account, then reception and later comparison of the surgical book."
+  ur: "پیشابی پتھری کے علاج کی روایت، الزہراوی کا نالی کے مثقب کا بیان، پھر جراحی کتاب کی پذیرائی اور بعد کے موازنے۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/alzahrawi-stones-abdelhalim-2003, source/tdv-tasrif-zehravi]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b22", source: "Published historical distinctions; no technical or clinical reconstruction" }
