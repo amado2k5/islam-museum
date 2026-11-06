@@ -538,3 +538,17 @@ Scope of the sign-off is limited to the exact class, enums, predicates, existing
 **Scope and risk:** `non-impacting`, sourced content in the approved inventions lane. Five new entities; no schema, UI, code, Worker, workflow or submission-document changes.
 
 **Touches:** new invention, two TDV sources, two media records, patron's identity/tie, reused building summary/source/provenance, ar/en/ur articles, inventions documentation and generated reports, `CANARY.md`.
+
+## D-053 — Record the elephant clock's documented performance, not a first robot (6 November 2026)
+
+**Question:** What specific al-Jazari contribution can be attributed without converting popular robot and hidden-mechanism summaries into unsupported facts?
+
+**Decision:** Publish `invention/elephant-clock`, timekeeping, kind `device`, attribution `improvement`, with the newly resolved `person/al-jazari-engineer` as improver. No existing canonical record for the mechanical engineer was found; do not confuse him with the recitation scholar Ibn al-Jazari or Ibn al-Razzaz Said. TDV calls him an Islamic scholar, records Artuqid service and places his engineering in earlier traditions; record the explicit Sunni default frame, not an independently attested personal school. Supply complete ar/en/ur person and invention articles.
+
+**Evidence:** Read TDV CEZERÎ (1993, vol. 7, pp. 505–506) and the Met's 57.51.23 overview, metadata and Leoni Catalogue Entry in the browser after direct fetch returned 429. The catalogue gives the half-hour sequence: rider/bird motion, falcon's pellet, dragon, vessel, gong and counting accumulated balls. Its overview mentions a whistle. Treat these as attributed descriptions. The 1205 date is TDV's completion of the book, not a proven physical-machine construction date. The surviving pictured folio is Farrukh's 715/1315 copy, probably Syria or Iraq, not the original machine.
+
+**Limits and media:** Do not use the generated search summaries' hidden bowl, reset, seasonal-hour or priority claims: they were not verified in the primary text or authoritative passage read. TDV's general gravity/float discussion is not a full elephant-clock blueprint. No modern robot lineage or a single copied precursor is proven. Earlier engineering traditions and later illustrated copies form the diagram's chain. Use the actual public-domain Met folio, visually inspected outside git, not an AI reconstruction; its figures are generic manuscript figures, not prophets or Companions. This is a specific device record at the brief's minor-invention depth, not a history claiming invention of timekeeping.
+
+**Scope and risk:** `non-impacting`, approved inventions content. Six new entities, six prose files; no schema, code, UI, Worker, workflow or submission-document changes.
+
+**Touches:** invention, person, two sources and two media records; ar/en/ur invention and person articles; inventions documentation and generated reports; `CANARY.md`.

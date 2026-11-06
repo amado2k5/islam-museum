@@ -1,0 +1,39 @@
+id: person/al-jazari-engineer
+class: person
+label:
+  ar: "الجزري، إسماعيل بن الرزاز"
+  en: "Al-Jazari, Ismail ibn al-Razzaz"
+  ur: "جزری، اسماعیل بن الرزاز"
+names:
+  - { value: "بديع الزمان أبو العز إسماعيل بن الرزاز الجزري", kind: full, lang: ar }
+  - { value: "Badi al-Zaman Abu al-Izz Ismail ibn al-Razzaz al-Jazari", kind: full, lang: en }
+summary:
+  ar: "مهندس ومؤلف في الحيل، تصفه TDV عالماً إسلامياً وتذكر خدمته للأرتقيين بآمد بين 1181 و1206م وكتابه المؤلف بطلب ناصر الدين محمود، الذي تؤرخ إتمامه بسنة 1205م {cite:tdv-cezeri pp. 505–506}. ومن آلات الكتاب ساعة الفيل التي تحفظ ورقة متأخرة منها في المتروبوليتان، مؤرخة 715هـ/1315م، وليست آلة باقية من حياته {cite:met-elephant-clock-575123 Catalogue Entry}."
+  en: "An engineer and author on mechanical devices, identified by TDV as an Islamic scholar serving the Artuqids at Amid in 1181–1206. His book, commissioned by Nasir al-Din Mahmud, is dated there to completion in 1205 {cite:tdv-cezeri pp. 505–506}. Its elephant clock survives in a later manuscript folio at the Met, dated 715/1315, not an original working machine {cite:met-elephant-clock-575123 Catalogue Entry}."
+  ur: "میکانکی حیلوں کے انجینئر اور مصنف؛ ٹی ڈی وی انہیں اسلامی عالم، 1181–1206ء میں آمد کے ارتقی دربار سے وابستہ بتاتا اور ناصر الدین محمود کی فرمائش پر لکھی کتاب کی تکمیل 1205ء دیتا ہے {cite:tdv-cezeri pp. 505–506}۔ ہاتھی کی گھڑی اسی کتاب میں ہے؛ میٹ کا 715ھ/1315ء کا ورق بعد کی نقل ہے، ان کی اصل چلتی مشین نہیں {cite:met-elephant-clock-575123 Catalogue Entry}۔"
+gender: male
+roles: [scientist]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "TDV explicitly identifies him as an Islamic scholar (İslâm bilgini), the source basis for Muslim identity. No school or contrary tradition is identified in the biography used; Sunni is the museum's explicit default frame (docs/scope.md), not a newly attested personal school or an inference from name, ethnicity or place."
+    sources: [source/tdv-cezeri]
+inventions:
+  - invention: invention/elephant-clock
+    role: improver
+    place: place/amid
+    sources: [source/tdv-cezeri, source/met-elephant-clock-575123]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+relations:
+  - { type: lived_in, target: place/amid, sources: [source/tdv-cezeri] }
+sources: [source/tdv-cezeri, source/met-elephant-clock-575123]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b16"
+  source: "TDV CEZERÎ pp. 505–506 and Met 57.51.23 metadata/Leoni catalogue entry, read 2026-11-06. No birth/death dates inferred from court-service dates."

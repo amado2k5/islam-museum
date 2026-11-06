@@ -3582,12 +3582,17 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
   - id: al-jazari-elephant-clock
     label: "Al-Jazari's elephant clock"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: timekeeping
     era: middle-period
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    records: ["invention/elephant-clock", "person/al-jazari-engineer", "source/tdv-cezeri", "source/met-elephant-clock-575123", "media/elephant-clock-met-575123", "media/diagram-elephant-clock"]
+    lead_sources:
+      - "founder-approved operative brief (2026-11-04) §6.4"
+      - "source/tdv-cezeri pp. 505–506"
+      - "source/met-elephant-clock-575123 Overview and Catalogue Entry"
+    flags: [specific-clock-improvement-not-first-robot, book-date-not-machine-construction, copyist-distinct-from-engineer, no-unverified-hidden-bowl-or-seasonal-hour-detail]
   - id: astrolabic-clocks-fez
     label: "Astrolabic clocks associated with Fez"
     state: "[~]"
