@@ -10,7 +10,7 @@ translators: []
 ## مع الرشيد
 يروي المسعودي أنه دخل على [[person/harun-al-rashid|الرشيد]] مقنّعاً رأسه، فقال له إنه تقلد أمراً عظيماً، فبكى الرشيد. {cite:muruj-al-dhahab p.341-342}
 
-واستعفى من «البدرة» (كيس المال). فلما عذله سفيان بن عيينة قال: لو طابت لأولئك لطابت لي. {cite:muruj-al-dhahab p.341-342}
+واستعفى من «البدرة» ⁦(كيس المال)⁩. فلما عذله سفيان بن عيينة قال: لو طابت لأولئك لطابت لي. {cite:muruj-al-dhahab p.341-342}
 
 ## في سير الذهبي
 يسوق الذهبي في ترجمته قصة دخوله على هارون الرشيد وموعظته له، وفيها ذكره ما أشار به سالِم بن عبد الله ومحمد بن كعب ورجاء بن حيوة على عمر بن عبد العزيز لما استُخلف، وبكاء الرشيد حتى غُشي عليه، وردّ الفضيل ألف دينار عرضها عليه قائلاً: أنا أدلك على طريق النجاة وأنت تكافئني بمثل هذا. فقال الرشيد: هذا سيد المسلمين. {cite:siyar-alam-nubala-ideas-house p.3045}
@@ -28,7 +28,7 @@ translators: []
 ومن عبادته: قرأ القرآن حزيناً مترسلاً، كلما مرّ بآية فيها ذكر الجنة ردّها وسأل الله الجنة، وكانت صلاته بالليل ساعة أو أكثر، يغالب النوم فإذا نعس نام على الحصير ثم قام {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:13:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:14:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:14:30}.
 ومن حكمته: جوابه لعبد الله بن مالك عن الخلاص — «أخبرني من أطاع الله هل تضره معصية أحد؟ قال لا؛ ومن يعصه هل تنفعه طاعة أحد؟ قال لا — هذا الخلاص»؛ ووصيته للرشيد «يا حسن الوجه، كُلفت أمراً عظيماً، فإن قدرت ألا تسوّد هذا الوجه بلفحة من نار فافعل» — فقال الرشيد «عظني» فأجابه بما فعل كتاب الله بمن أطاعه ومن عصاه {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:17:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:18:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:22:00}.
 ومن ورعه: بشر الحافي يعدّه في العشرة الذين لا يدخلون بطونهم إلا حلالاً ولو أكلوا التراب؛ وكان إذا ذُكر الله عنده ظهر عليه الخوف والحزن وبكى حتى يرحمه الحاضرون؛ وكان يجلس بين القبور يبكي {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:09:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:10:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:18:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:19:30}.
-ويقول فيه المحاضر: تذكّرُه ماضيه هو الذي غذّى خشيته — فالمعاصي إن قادت للانكسار أمام الله صارت خيراً في نهايتها (تأويله)؛ ويذكر أنه كان يخطئ في بعض الفقه فيصححه له مالك وكبار العلماء، إذ كان يرى تفرغ الناس كلهم للعبادة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:20:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:20:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:24:00}.
+ويقول فيه المحاضر: تذكّرُه ماضيه هو الذي غذّى خشيته — فالمعاصي إن قادت للانكسار أمام الله صارت خيراً في نهايتها ⁦(تأويله)⁩؛ ويذكر أنه كان يخطئ في بعض الفقه فيصححه له مالك وكبار العلماء، إذ كان يرى تفرغ الناس كلهم للعبادة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:20:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:20:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:24:00}.
 وتجاوز الثمانين عابداً؛ ومن قوله «لم يتزين الناس بشيء أفضل من الصدق وطلب الحلال» فلما قال ابنه علي «إن الحلال عزيز» أجاب «يا بني إن قليله عند الله كثير» {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:23:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep16 00:23:30}.
 
 ## في «ضفاف الكوثر» لأبي إسحاق الحويني
