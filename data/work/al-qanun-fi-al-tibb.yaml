@@ -7,10 +7,11 @@ education:
     sources: [source/canon-ibn-sina-print-v1, source/encyclopaedia-of-islam-2]
 class: work
 kind: book
-label: { ar: "القانون في الطب", en: "The Canon of Medicine" }
+label: { ar: "القانون في الطب", en: "The Canon of Medicine", ur: "القانون فی الطب" }
 summary:
   ar: "موسوعة ابن سينا في الطب، وقسمها المؤلف إلى خمسة كتب: الأمور الكلية في علم الطب (وفيه أربعة فنون)، والأدوية المفردة، والأمراض الجزئية الواقعة بالأعضاء، والأمراض التي لا تختص بعضو وفي الزينة، وتركيب الأدوية {cite:canon-ibn-sina-print-v1 p.10}."
   en: "Ibn Sina's encyclopaedia of medicine, divided by the author into five books: general principles of medicine (four fanns), simple drugs, diseases of the organs one by one, diseases not confined to one organ and beauty care, and compound drugs {cite:canon-ibn-sina-print-v1 p.10}."
+  ur: "ابن سینا کی طبی موسوعہ؛ دوسرے حصے کے عمومی آغاز میں دوا کی قوت کو تجربے سے پہچاننے کی سات شرطیں ہیں، مزاجی نظریے کے سیاق میں {cite:canon-ibn-sina-print-v1 pp.318–319}۔"
 genre: [medicine]
 made: { by_muslims: true, basis: documented, sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v2, source/canon-ibn-sina-print-v3] }
 disciplines: [concept/medicine]
@@ -24,11 +25,13 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 external_ids:
   wikidata: Q466060
-sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v2, source/canon-ibn-sina-print-v3]
+sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v2, source/canon-ibn-sina-print-v3, source/nasser-tibi-savage-smith-canon-rules-2009]
 provenance:
   layer: own-research
   source: "Canon of Medicine, three Arabic printed volumes: title pages and verso (scan pp. 1 and 2 of each), author's preface and plan of the five books (vol. 1, scan pp. 9 and 10), book and fann headings (vol. 1 pp. 11, 13, 103, 200, 267, 313, 728; vol. 2 p. 3; vol. 3 pp. 3, 393, 395)"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: lib-exp-medicine-science-canon-batch-2
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b87", source: "D-129; actual Arabic318–319 OCR/scan and JRSM78–80 read; rich trilingual conditions/translation limits appended. All original metadata/structure/editions/status/provenance/prose retained." }
 status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (library-expansion); structure from OCR headings, corrected against the scan pages" }
