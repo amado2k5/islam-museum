@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.3.0 — 2026-11-06
 
 ### Added
+- Inventions Browser93: al-Mahdi's central zimam oversight, in Arabic, English and Urdu, distinguishing departmental account checks from later central coordination. Earlier seal practices, individual identity evidence and political accounts remain separate; the inspected nineteenth-century ledger cover is context, not an Abbasid form or a claim of modern independent audit.
 - Inventions Browser91: Muawiya's seal-and-copy registry, Arabic/English/Urdu account of checking, sealing and reference copies, with older administrative influences and attribution limits. Modern sealed letters are explicit context, not an original artifact or proof of historic wax; all earlier maker perspectives and registry prose remain intact.
 - Inventions Browser92: Abd al-Malik's Arabic fiscal-register reform, full Arabic/English/Urdu account of phased language transfer, translators and inherited expertise; earlier bilingual papyrus is context, not a reform register. Existing political assessments and all prior invention content preserved.
 - Tafsir Browser (phase 0): the proposal, the plan document `docs/plan/27-tafsir-browser.md`, and the register, plan-index, roadmap, lane and status entries for a separate wing of Qur'an commentaries, Tabari first. Approved in chat by the founder on 6 November 2026; nothing is live until the founder deploys.

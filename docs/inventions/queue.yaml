@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: al-mahdi-zimam-oversight
+    label: "Al-Mahdi's central zimam oversight"
+    state: "[x]"
+    batch: 1
+    domain: institutions-systems
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-mahdi", "source/tdv-divan-duri", "source/tdv-mehdi-bozkurt", "source/tarikh-khulafa-minhaj-1434"]
+    invention: invention/al-mahdi-zimam-oversight
+    lead_sources:
+      - "Actual Duri/Bozkurt162/168AHinstitutional paragraphs; Bozkurt2003volume28,377–379PDF"
+      - "Actual Suyuti447/PDF447personal-prayer image; Met20365/CommonsCC0closed-ledger photograph"
+    flags: [completed-D135-b93, central-oversight-not-invention-of-accounting, departmental162-central168-distinct, source784-785-168-not-new-conversion, CE162-renderings-qualified, no-unverified-audit-director-appointment, old-chancery-official-role-retained, Persian-Ziyad-term-not-institutional-identity, individual-prayer-basis-not-office-inference, Sunni-museum-frame-labelled, no-independent-audit-or-corruption-elimination-claim, ledger1835-1856-context-not-Abbasid-record, closed-cover-not-interior-table, original-maker-concept-source-fields-prose-preserved]
   - id: arabic-fiscal-register-reform
     label: "Abd al-Malik's Arabic fiscal-register reform"
     state: "[x]"
