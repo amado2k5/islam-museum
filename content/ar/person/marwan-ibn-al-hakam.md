@@ -21,4 +21,4 @@ translators: []
 
 - **الشرط:** يحيى بن قيس الغساني {cite:tarikh-khalifa-umari-1985 p. 263}
 - **الكاتب:** [[person/sarjun-ibn-mansur|سرجون بن منصور الرومي]] {cite:tarikh-khalifa-umari-1985 p. 263}
-- **الحاجب:** أبو سهل الأسود مولاه (في الأصل «أبو نهشل» والتصويب من الحاشية) {cite:tarikh-khalifa-umari-1985 p. 263}
+- **الحاجب:** أبو سهل الأسود مولاه ⁦(في الأصل «أبو نهشل» والتصويب من الحاشية)⁩ {cite:tarikh-khalifa-umari-1985 p. 263}

@@ -13,4 +13,4 @@ translators: []
 تلقى عن [[person/abdullah-ibn-masud|عبد الله بن مسعود]]. {cite:tabaqat-fuqaha-abbas-1981}
 
 ## الوفاة
-تذكر الموسوعة وفاته سنة 63هـ (683م)، على سبيل الرواية المتداولة. {cite:mawsuat-a3lam-ulama-adaba}
+تذكر الموسوعة وفاته سنة 63هـ ⁦(683م)⁩، على سبيل الرواية المتداولة. {cite:mawsuat-a3lam-ulama-adaba}
