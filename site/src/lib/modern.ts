@@ -6,7 +6,8 @@ import { realNodes, byId, graph } from "./graph";
 import { ui, NUM_LOCALE, type Lang } from "./i18n";
 import type { Node } from "../../../scripts/build-graph";
 import {
-  SECTION_IDS, sectionsOf, recordOfNode, yearsOf, primaryYear, taxonomy, WINDOW_START_YEAR, type RecordLike,
+  SECTION_IDS, sectionsOf, recordOfNode, yearsOf, primaryYear, taxonomy, WINDOW_START_YEAR, yearPageYears, yearPageFor, decadePageFor,
+  type RecordLike,
 } from "../../../scripts/modern/sections";
 import { reachIndex, reachFormula, REACH_LISTS, type ReachItem } from "../../../scripts/modern/reach";
 import { civilToHijri } from "../../../scripts/hijri/convert";
@@ -75,7 +76,17 @@ export const sortedByYear = (xs: ModernEntry[]) => [...xs].sort(byYearDesc);
 export const entriesOf = (section: string): ModernEntry[] => sortedByYear(modernEntries.filter((e) => e.sections.includes(section)));
 export const sectionCounts: Record<string, number> = Object.fromEntries(SECTION_IDS.map((s) => [s, modernEntries.filter((e) => e.sections.includes(s)).length]));
 
-export const years: number[] = Array.from({ length: buildYear - WINDOW_START_YEAR + 1 }, (_, i) => WINDOW_START_YEAR + i);
+export const years: number[] = yearPageYears(buildYear);
+/** The link to a year's page, or undefined when the build has no page for that year (render the year as text). */
+export const yearHref = (lang: Lang, y: number | undefined): string | undefined => {
+  const page = yearPageFor(y, buildYear);
+  return page === undefined ? undefined : `/${lang}/modern/year/${page}/`;
+};
+/** The link for a decade chip: the first year of the decade that has a page, or undefined when none has. */
+export const decadeHref = (lang: Lang, decade: number): string | undefined => {
+  const page = decadePageFor(decade, buildYear);
+  return page === undefined ? undefined : `/${lang}/modern/year/${page}/`;
+};
 export const yearEntries = (y: number): ModernEntry[] => sortedByYear(modernEntries.filter((e) => e.years.includes(y)));
 export const yearCounts: Record<number, number> = Object.fromEntries(years.map((y) => [y, modernEntries.filter((e) => e.years.includes(y)).length]));
 /** The Hijri years a Gregorian year spans, as "1396–1397" (from the Umm al-Qura conversion of 1 January and 31 December). */

@@ -7,7 +7,7 @@ import { byId, edgesFrom, href, labelOf } from "../lib/graph";
 import { ui, fmt, type Lang } from "../lib/i18n";
 import { formatDate } from "../lib/dates";
 import { num } from "../lib/nav";
-import { countryName, kindLabel, modernEntries, sectionLabel, yearText } from "../lib/modern";
+import { countryName, kindLabel, modernEntries, sectionLabel, yearHref, yearText } from "../lib/modern";
 import type { Node } from "../../../scripts/build-graph";
 
 interface Props { node: Node; lang: Lang }
@@ -36,7 +36,7 @@ const show = sections.length > 0 || honours.length > 0 || press.length > 0 || wi
       <p style="display:flex;flex-wrap:wrap;gap:6px 8px;margin:0 0 12px">
         <a class="chip" style="border:1px solid var(--gold)" href={`/${lang}/modern/`}>{M.title}</a>
         {sections.map((s) => <a class="chip" href={`/${lang}/modern/${s}/`}>{sectionLabel(s, lang)}</a>)}
-        {entry?.year !== undefined && <a class="chip" href={`/${lang}/modern/year/${entry.year}/`}>{yearText(entry.year, lang)}</a>}
+        {entry?.year !== undefined && (yearHref(lang, entry.year) ? <a class="chip" href={yearHref(lang, entry.year)}>{yearText(entry.year, lang)}</a> : <span class="chip">{yearText(entry.year, lang)}</span>)}
         {(entry?.countries ?? []).map((cc) => <a class="chip" href={`/${lang}/modern/country/${cc}/`}>{countryName(cc, lang)}</a>)}
       </p>
     )}
