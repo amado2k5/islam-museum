@@ -54,10 +54,11 @@ relations:
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 inventions:
+  - { invention: invention/jalali-calendar, role: improver, note: "Reported association per MacTutor, explicitly qualified: Thomann separates anonymous calendar reformers from named observers and questions personal design role. Not sole invention or certain authorship.", sources: [source/khayyam-mactutor, source/thomann-jalali-calendar-2021] }
   - { invention: invention/khayyam-geometric-cubics, role: improver, note: "Systematic conic treatment of fourteen cubic forms; earlier particular solutions and limits retained.", sources: [source/sep-umar-khayyam, source/khayyam-woepcke-1851] }
 external_ids:
   wikidata: Q35900
-sources: [source/mawsuat-a3lam-ulama-adaba, source/sep-umar-khayyam, source/tdv-omer-hayyam-unat, source/khayyam-mactutor, source/khayyam-woepcke-1851]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/sep-umar-khayyam, source/tdv-omer-hayyam-unat, source/khayyam-mactutor, source/khayyam-woepcke-1851, source/thomann-jalali-calendar-2021, source/iranica-calendars-abdollahy, source/berlin-astronomical-tables-211]
 status:
   review: published
   completeness: 3
@@ -68,6 +69,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch63
   extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b51", source: "Qualified reported calendar association from actual Thomann main1–6/MacTutor, Abdollahy comparison and inspected Berlin witness; all earlier fields, cubic tie, Sunni-first identity perspectives and attribution retained." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b33", source: "Actual Stanford2.7/4.1, Unat scientific section, MacTutor and French primary32–34; maker tie, cited biography, debated-faith perspectives and corrected childhood-friend shorthand. Earlier Devin date traditions/attribution retained; Haiku translation history retained in prose." }
 kids:
   ar: "عرف الخيام كيف تساعد المنحنيات على حل مسائل مكعبة، وشارك في مشروع تقويم برعاية ملكشاه. قصة زمالة الطفولة مع نظام الملك لا تستقيم زمنياً؛ الرعاية ليست برهان صداقة {cite:sep-umar-khayyam sec.4.1} {cite:khayyam-mactutor life}."

@@ -3881,13 +3881,15 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
   - id: jalali-calendar
     label: "The Jalali calendar"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: timekeeping
     era: middle-period
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["maker-tradition-needs-sourced-perspectives"]
+    invention: invention/jalali-calendar
+    records: ["person/umar-khayyam", "concept/al-taqwim-al-jalali", "source/thomann-jalali-calendar-2021", "source/iranica-calendars-abdollahy", "source/berlin-astronomical-tables-211"]
+    flags: [completed-D091-b51, original-maker-perspectives-retained, personal-design-role-contested, epochs-and-day-disagreement-explicit, later-cycle-not-original-universal-rule, documentary-cohabitation-not-universal-fiscal-replacement, inspected-PD1804-witness-not-autograph, paper-only]
   - id: museum-record-person-kamal-khujandi
     label: "Museum lead for Kamal Khujandi"
     state: "[-]"

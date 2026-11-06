@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), earlier translation", "Copilot SDK in VS Code, model unknown, expanded Arabic translation"]
 status: { review: published }
-provenance: { generated_by: "Devin (SWE-2 Medium); earlier translation Claude Haiku5.5; enriched by Copilot SDK in VS Code", model: "SWE-2 Medium; claude-haiku-5-5; enrichment unknown", run: "prose-fill-persons-batch63; inventions-p3-b33", source: "پہلا موسوعاتی بیان محفوظ؛ عربی توسیع میک ٹیوٹر، اونات، اسٹینفورڈ اور ووپکے کے منتخب ترجمے سے" }
+provenance: { generated_by: "Devin (SWE-2 Medium); earlier translation Claude Haiku5.5; enriched by Copilot SDK in VS Code", model: "SWE-2 Medium; claude-haiku-5-5; enrichment unknown", run: "prose-fill-persons-batch63; inventions-p3-b33", source: "پہلا موسوعاتی بیان محفوظ؛ عربی توسیع میک ٹیوٹر، اونات، اسٹینفورڈ اور ووپکے کے منتخب ترجمے سے", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b51", source: "Urdu of new Arabic qualified calendar section; every earlier body/front-matter value and attribution retained." }] }
 ---
 ## خلاصہ
 [[person/umar-khayyam|عمر خیام]]، یعنی عمر بن ابراہیم خیام، ابو الفتح، ریاضی دان، فلکیات دان، فلسفی اور شاعر۔ {cite:mawsuat-a3lam-ulama-adaba p.628}
@@ -37,3 +37,7 @@ provenance: { generated_by: "Devin (SWE-2 Medium); earlier translation Claude Ha
 ## شعر اور سوانح کی حدود
 
 ادبی تصویر علمی تصانیف کی فہرست سے الگ، جیسے رباعی کی صحت اور ریاضیاتی تعمیر کی پڑتال الگ ہیں؛ اسٹینفورڈ دو آوازیں سمجھاتا، کسی کو دوسری کا خودکار جواب نہیں بناتا {cite:sep-umar-khayyam sec.2.7}۔ اس تحقیق نے TDV کا الگ ادبی حصہ نہیں پڑھا، اس لیے رباعیات کی جامع تحقیق یا ترجمے کا دعویٰ نہیں {cite:tdv-omer-hayyam-unat reliability note}۔ حصہ پڑھے مقام سے ثابت کرتے، مختلف روایات محفوظ رکھتے، آسان کہانی سے خلا نہیں بھرتے۔
+
+## تقویم: روایت اور شاہد
+
+[[invention/jalali-calendar|جلالی اصلاح]] نئے سال کو اعتدال سے باندھتی، مگر خیام کا ذاتی ڈیزائن کردار مشروط ہے: میک ٹیوٹر شرکت کہتا، تھومان بے نام مصلح اور نام زد راصد الگ کرتا اور لازماً انہیں ڈیزائنر نہیں کہتا {cite:khayyam-mactutor calendar} {cite:thomann-jalali-calendar-2021 sec.4}۔ بعد کا1079/471 آغاز، پہلے آغاز اور ہجری دن کا اختلاف ساتھ پیش ہیں، فرد کی ایجاد کا ثابت دن نہیں {cite:thomann-jalali-calendar-2021 sec.4} {cite:iranica-calendars-abdollahy Jalali subsection}۔ جدید مہینے و قواعد سب گیارہویں صدی کے نہیں؛1804 کا برلن ورق متوازی تقاویم کا شاہد ہے، خود نوشت اصل یا مکمل مالی استعمال کا ثبوت نہیں {cite:iranica-calendars-abdollahy Solar-Hijri subsection} {cite:thomann-jalali-calendar-2021 sec.5 fig.5.1} {cite:berlin-astronomical-tables-211 metadata,image,rights}۔
