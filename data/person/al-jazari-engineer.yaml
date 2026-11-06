@@ -20,6 +20,11 @@ faith:
     note: "TDV explicitly identifies him as an Islamic scholar (İslâm bilgini), the source basis for Muslim identity. No school or contrary tradition is identified in the biography used; Sunni is the museum's explicit default frame (docs/scope.md), not a newly attested personal school or an inference from name, ethnicity or place."
     sources: [source/tdv-cezeri]
 inventions:
+  - invention: invention/jazari-swordsman-candle-clock
+    role: describer
+    place: place/amid
+    note: "I.7 calibrated candle/counterweight/14-ball signals and wick-trimming figure; earlier hearsay clock and drawing/inference limits retained, not first candle clock."
+    sources: [source/jazari-hill-1974]
   - invention: invention/jazari-alternating-fountain
     role: describer
     place: place/amid
@@ -51,7 +56,7 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 relations:
   - { type: lived_in, target: place/amid, sources: [source/tdv-cezeri] }
-sources: [source/tdv-cezeri, source/met-elephant-clock-575123, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump, source/cleveland-jazari-peacock, source/jazari-hill-1974, source/mfa-castle-clock-14533, source/freer-jazari-musical-boat]
+sources: [source/tdv-cezeri, source/met-elephant-clock-575123, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump, source/cleveland-jazari-peacock, source/jazari-hill-1974, source/mfa-castle-clock-14533, source/freer-jazari-musical-boat, source/freer-jazari-candle-clock]
 status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
 provenance:
   layer: own-research
@@ -60,6 +65,7 @@ provenance:
   run: "inventions-p3-b16"
   source: "TDV CEZERÎ pp. 505–506 and Met 57.51.23 metadata/Leoni catalogue entry, read 2026-11-06. No birth/death dates inferred from court-service dates. Extended in inventions-p3-b17 with the pump tie, actual al-Hassani survey and Science Museum model catalogue; their 1205/1206 book-date difference is preserved in prose. Extended in inventions-p3-b18 with the Cleveland peacock-design tie/prose; construction is explicitly uncertain."
   extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b45", source: "Added distinctI.7 candle-clock tie/section from actual83–86/252–253; original fields/faith/six prior ties/biography attribution preserved" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "Added distinctIV.1 fountain tie/section from actual157–158/263; original fields/faith/five prior ties/biography attribution preserved" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "Added distinct musical-boat tie/section from actual selectedII.4 and criticism256 plus institutional1315 folio; original fields/faith/four prior ties/biography attribution preserved" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Castle-clock tie/biography extension from actual selected Hill1974 primary/commentary in shared Archive browser,17/24 images, official MFA-via-Google catalogue and Commons1354 image/rights; prior three ties, identity and authorship preserved" }

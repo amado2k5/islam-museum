@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "107–109، نقد256 اور فریئر1315 سے کشتی کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "157–158 اور263 سےIV.1 فوارے کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }] }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "107–109، نقد256 اور فریئر1315 سے کشتی کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "157–158 اور263 سےIV.1 فوارے کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b45", source: "83–86/252–253 سےI.7 گھڑی؛ سابق متن اور نسبت محفوظ" }] }
 ---
 ## خلاصہ
 بدیع الزمان ابو العز اسماعیل بن الرزاز جزری میکانکی حیلوں کے انجینئر اور مصنف تھے۔ ٹی ڈی وی انہیں اسلامی عالم کہتا اور کتاب کے مقدمے سے باہر زندگی کی معلومات کم بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ وہ 1181–1206ء میں [[place/amid|آمد]] کے ارتقی دربار سے وابستگی اور ناصر الدین محمود کی فرمائش پر کتاب لکھنے کا ذکر کرتا ہے، جس کی تکمیل 1205ء بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ خدمت کے سالوں کو پیدائش اور وفات کی تاریخ نہیں بنایا گیا۔
@@ -45,7 +45,12 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 [[invention/jazari-alternating-fountain|دو ڈول والے باری بدلتے فوارے]]، IV.1، میں چھوٹی شاخ وقت کا ڈول بھرتی ہے جو دو مخزنوں میں رسد بدلتا، یوں ایک سیدھی اور چھ خم دار دھاریں باری لیتی ہیں؛ بیرونی پانی، بلندی اور معايرہ شرط ہیں، دائمی حرکت یا ناپی دقت نہیں {cite:jazari-hill-1974 pp.157–158,263}۔ بنو موسیٰ کے بیان پر مصنف کا نقد اصل یا نقل کی الجھن کھلی رکھتا ہے؛ ہل غائب پچھلے ابھار اور سہاروں کی غلط سمت کو اپنی جدید تعبیر سے الگ بتاتے ہیں {cite:jazari-hill-1974 pp.157,263}۔ یہ پورے نظام کا الگ کردار ہے، ہر دہانہ نئی ایجاد نہیں۔
 
+## مومی گھڑی اور معايرہ
+
+I.7 کی [[invention/jazari-swordsman-candle-clock|شمشیربردار والی مومی گھڑی]] میں معايرہ شدہ موم بوجھ سے اٹھ کر گیندوں کے خانے باری سے کھولتی ہے؛ ہر گیند بتی تراشنے کی شکل چلا کر باز سے خارج ہوتی ہے {cite:jazari-hill-1974 pp.83–86}۔ مصنف سابق شیر والی گھڑی کا نامعلوم طریقہ اور حرکت کی بار بار آزمائش بتاتے ہیں، پہلی مومی گھڑی کی ایجاد نہیں؛ ہل آکسفورڈ کے نقشے میں سفر و گیندوں کی جگہ کے مسائل اور جدید اخذ کردہ حصے واضح کرتے ہیں {cite:jazari-hill-1974 pp.83,86,252–253}۔ فریئر F1930.71،1315 کی نقل ہے جس کے خطاط فروخ بن عبد اللطیف ہیں، اصل مشین یا مصنف کا چہرہ نہیں {cite:freer-jazari-candle-clock catalogue}۔
+
 ## مراجع
+- مومی گھڑیI.7: ہل83–86/252–253 اور [[source/freer-jazari-candle-clock|فریئر F1930.71 اور تصویری حقوق]] {cite:jazari-hill-1974 pp.83–86,252–253} {cite:freer-jazari-candle-clock catalogue,rights}۔
 - فوارہIV.1: ہل کے اصل منتخب157–158، شکل120–121 اور نقد263 {cite:jazari-hill-1974 pp.157–158,263}۔
 - کشتی: ہل107–109/نقد256؛ [[source/freer-jazari-musical-boat|فریئر F1930.73 اور حقوق کے کوائف]] {cite:jazari-hill-1974 pp.107–109,256} {cite:freer-jazari-musical-boat catalogue,rights}۔
 - ڈونلڈ ہل1974 کے ترجمے اور توضیح کے منتخب حصے {cite:jazari-hill-1974 pp.17–22,24–25,39–41,editor-notes-I.1}۔
