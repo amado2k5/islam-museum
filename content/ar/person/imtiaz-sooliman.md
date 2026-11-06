@@ -44,7 +44,7 @@ translators: []
 
 ## المراجع
 
-- «غيفت أوف ذا غيفرز» — ويكيبيديا الإنجليزية (قسم المؤسس عن إمتياز سليمان){cite:wikipedia-gift-of-the-givers-en}
+- «غيفت أوف ذا غيفرز» — ويكيبيديا الإنجليزية ⁦(قسم المؤسس عن إمتياز سليمان)⁩{cite:wikipedia-gift-of-the-givers-en}
 - إمتياز سليمان 2016 — حيثيات الدكتوراه الفخرية بجامعة نيلسون مانديلا{cite:mandela-university-sooliman-2016}
 - «العطية التي لا تنقطع» — أخبار جامعة الشمال الغربي{cite:nwu-sooliman-2021}
 - إمتياز سليمان — ويكي بيانات Q135825507{cite:wikidata-imtiaz-sooliman}

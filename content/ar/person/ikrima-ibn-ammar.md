@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker F)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "mizan-itidal-bijawi-v3 ص 90–93 (الترجمة 5713)"
+  source: "mizan-itidal-bijawi-v3 ص 90–93 ⁦(الترجمة 5713)⁩"
 ---
 
 ## موجز
@@ -17,8 +17,8 @@ provenance:
 
 ## أقوال النقاد فيه
 :::perspectives
-- **سني: ثقة ثبت (ابن معين، علي بن المديني)**: روى يعقوب بن شيبة عن غير واحد سمعوا [[person/yahya-ibn-main|يحيى بن معين]] يقول: ثقة ثبت، وروى أبو حاتم عن ابن معين: كان أمّياً حافظاً؛ وقال [[person/ali-ibn-al-madini|علي بن المديني]]: كان عكرمة بن عمار عند أصحابنا ثقة ثبتاً؛ وقال [[person/al-hakim-al-nisaburi|الحاكم]]: أكثر مسلم الاستشهاد به. {cite:mizan-itidal-bijawi-v3 p. 90} {cite:mizan-itidal-bijawi-v3 p. 91}
-- **سني: صدوق يهم، وحديثه عن يحيى بن أبي كثير ضعيف (أبو حاتم، القطان، أحمد، البخاري)**: قال [[person/abu-hatim-muhammad-al-razi|أبو حاتم]]: صدوق ربما يهم؛ وقال يحيى القطان: أحاديثه عن يحيى بن أبي كثير ضعيفة؛ وقال [[person/ahmad-ibn-hanbal|أحمد]]: ضعيف الحديث، وكان حديثه عن إياس بن سلمة صالحاً، وأحاديثه عن يحيى ضعاف ليست بصحاح؛ وقال [[person/al-bukhari|البخاري]]: لم يكن له كتاب فاضطرب حديثه عن يحيى. {cite:mizan-itidal-bijawi-v3 p. 90} {cite:mizan-itidal-bijawi-v3 p. 91}
+- **سني: ثقة ثبت ⁦(ابن معين، علي بن المديني)⁩**: روى يعقوب بن شيبة عن غير واحد سمعوا [[person/yahya-ibn-main|يحيى بن معين]] يقول: ثقة ثبت، وروى أبو حاتم عن ابن معين: كان أمّياً حافظاً؛ وقال [[person/ali-ibn-al-madini|علي بن المديني]]: كان عكرمة بن عمار عند أصحابنا ثقة ثبتاً؛ وقال [[person/al-hakim-al-nisaburi|الحاكم]]: أكثر مسلم الاستشهاد به. {cite:mizan-itidal-bijawi-v3 p. 90} {cite:mizan-itidal-bijawi-v3 p. 91}
+- **سني: صدوق يهم، وحديثه عن يحيى بن أبي كثير ضعيف ⁦(أبو حاتم، القطان، أحمد، البخاري)⁩**: قال [[person/abu-hatim-muhammad-al-razi|أبو حاتم]]: صدوق ربما يهم؛ وقال يحيى القطان: أحاديثه عن يحيى بن أبي كثير ضعيفة؛ وقال [[person/ahmad-ibn-hanbal|أحمد]]: ضعيف الحديث، وكان حديثه عن إياس بن سلمة صالحاً، وأحاديثه عن يحيى ضعاف ليست بصحاح؛ وقال [[person/al-bukhari|البخاري]]: لم يكن له كتاب فاضطرب حديثه عن يحيى. {cite:mizan-itidal-bijawi-v3 p. 90} {cite:mizan-itidal-bijawi-v3 p. 91}
 :::
 
 ويروي الذهبي عن عبد الرحمن بن مهدي أنه كان مع [[person/sufyan-al-thawri|سفيان]] عند عكرمة بن عمار، فأراد ابن مهدي أن يأخذ الكتاب ليكتب، فقال سفيان: لا تعجل، وجعل يوقفه على كل حديث على السماع، قال ابن مهدي: وكان خط سفيان خط سوء. {cite:mizan-itidal-bijawi-v3 p. 91}
