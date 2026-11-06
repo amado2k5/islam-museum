@@ -1,0 +1,86 @@
+id: invention/kashi-sine-one-degree
+class: invention
+label: { ar: "حساب الكاشي التكراري لجيب درجة واحدة", en: "Al-Kashi's iterative sine-one-degree computation", ur: "ایک درجے کے جیب کا کاشی کا تکراری حساب" }
+names:
+  - { kind: alternate, lang: en, value: "Numerical cubic solution associated with the Chord and Sine" }
+summary:
+  ar: "تحسين عددي مرتبط بمعادلة تكعيبية في رسالة الوتر والجيب، لا اختراع الجيب أو تثليث بالمسطرة والفرجار {cite:kashi-mactutor final treatise}."
+  en: "Numerical improvement associated with a cubic in the Chord and Sine, not invention of sine or straightedge-and-compass trisection {cite:kashi-mactutor final treatise}."
+  ur: "وتر و جیب میں مکعبی مساوات سے متعلق عددی بہتری؛ جیب یا خط کش و پرکار سے تثلیث کی ایجاد نہیں {cite:kashi-mactutor final treatise}۔"
+domain: mathematics
+kind: algorithm
+disciplines: [mathematics, astronomy]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "../1429"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Open latest lifetime bound for al-Kashi's contribution, not fixed composition/completion date or date of later commentary. MacTutor discusses possible unfinished work; Iranica lists title in1427 Key introduction. No guessed Hijri."
+    sources: [source/kashi-mactutor, source/iranica-kashi]
+  status_today: transformed
+origin:
+  place: place/samarqand
+  context:
+    ar: "المحيط الحسابي الفلكي في سمرقند؛ المشاركة في المكان لا تثبت الاشتراك في كل طريقة {cite:qadi-zada-mactutor sine computation}."
+    en: "Samarkand's mathematical-astronomical milieu; shared setting does not establish joint authorship of each method {cite:qadi-zada-mactutor sine computation}."
+    ur: "سمرقند کا ریاضی و فلکی ماحول؛ مشترک مقام ہر طریقے کی مشترک تصنیف نہیں {cite:qadi-zada-mactutor sine computation}۔"
+makers:
+  - person: person/al-kashi
+    role: improver
+    note: "Existing sourced Muslim basis and separate default Sunni frame retained. Iterative numerical contribution; uncertain later completion/commentary not joint invention certificate."
+    sources: [source/kashi-mactutor, source/tdv-kashi-okten]
+attribution:
+  status: improvement
+  claim:
+    ar: "تحسين حساب جيب درجة واحدة بطريقة عددية تكرارية."
+    en: "Improved computation of sine one degree through numerical iteration."
+    ur: "تکراری عددی طریقے سے ایک درجے کے جیب کے حساب میں بہتری۔"
+  basis:
+    ar: "ماكتوتر يصف التكعيبية والتكرار وسلف البيروني؛ الدور اللاحق لقاضي زاده مختلف الوصف بين المراجع {cite:kashi-mactutor final treatise} {cite:qadi-zada-mactutor original work}."
+    en: "MacTutor describes cubic, iteration and al-Biruni predecessor; later Qadi Zada role described differently across references {cite:kashi-mactutor final treatise} {cite:qadi-zada-mactutor original work}."
+    ur: "میک ٹیوٹر مکعبی، تکرار اور بیرونی کا سابق کام بتاتا ہے؛ قاضی زادہ کا بعد کا کردار مختلف بیانات میں الگ {cite:kashi-mactutor final treatise} {cite:qadi-zada-mactutor original work}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "هندسة الأوتار والجيوب وتقريب تكعيبية تثليث الزاوية", en: "Earlier chord/sine geometry and approximate angle-trisection cubics", ur: "سابق وتر و جیب کا ہندسہ اور زاویے کی تثلیث کی تقریبی مکعبی" }
+    note: "Earlier al-Biruni approximation acknowledged by MacTutor, not a demonstrated direct manuscript chain."
+    sources: [source/kashi-mactutor]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics, astronomy-instruments]
+  changed:
+    ar: "دقة في ثابت مثلثي يمكن استعماله في الحساب؛ ليست قياساً رصدياً لكل منزلة {cite:iranica-kashi sine computation}."
+    en: "Precision in a trigonometric value usable in computation, not observational measurement of every digit {cite:iranica-kashi sine computation}."
+    ur: "حساب میں قابل استعمال مثلثی قدر کی دقت، ہر ہندسے کی رصدی پیمائش نہیں {cite:iranica-kashi sine computation}۔"
+  history:
+    ar: "تطور في التقاء الجبر والمثلثات، مع اختلاف أخبار الشرح والإتمام والدقة {cite:kashi-mactutor final treatise} {cite:tdv-kashi-okten work8}."
+    en: "Development at the meeting of algebra and trigonometry, with differing completion/commentary/precision reports {cite:kashi-mactutor final treatise} {cite:tdv-kashi-okten work8}."
+    ur: "جبر و مثلثیات کے اتصال میں ترقی؛ تکمیل، شرح و دقت کے مختلف بیانات محفوظ {cite:kashi-mactutor final treatise} {cite:tdv-kashi-okten work8}۔"
+  significance: 3
+  why: "Distinct documented numerical improvement, not another circumference/decimal-notation record. Historical algorithm and exact digits not claimed independently verified."
+described_in: [work/risala-watar-jayb-kashi]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "مثال حديث مشتق من علاقة الزاوية الثلاثية؛ لا نسخ لخوارزمية مخطوطة."
+    en: "Modern example derived from the triple-angle relation, not transcription of a manuscript algorithm."
+    ur: "تین گنا زاویے کے تعلق سے جدید مثال؛ مخطوطے کی نقل نہیں۔"
+  descendants:
+    ar: "تقابل تعليمي مع الطرق العددية، لا نسب مباشر لبرنامج حاسوبي."
+    en: "Teaching comparison with numerical methods, not direct ancestry of software."
+    ur: "عددی طریقوں سے تدریسی تقابل، سافٹ ویئر کا براہ راست نسب نہیں۔"
+media: { image: media/taqi-modern-triangle, diagram: media/diagram-kashi-sine }
+kids:
+  ar: "على الورق، قارن اسم زاوية بنسبة ضلعين؛ قسمة الزاوية على ثلاثة ليست قسمة جيبها على ثلاثة."
+  en: "On paper compare an angle with a side ratio. Dividing an angle by three is not dividing its sine by three."
+  ur: "کاغذ پر زاویہ و ضلعوں کی نسبت ملائیں۔ زاویہ تین سے بانٹنا اس کے جیب کو تین سے بانٹنا نہیں۔"
+sources: [source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi, source/qadi-zada-mactutor, source/commons-trigonometry-triangle]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b61", source: "Actual scholarly accounts; original treatise/commentary not read. Modern triple-angle/fixed-point example independently derived, not historical transcription; unchanged PD2007 triangle reinspected." }

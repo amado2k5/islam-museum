@@ -3,6 +3,7 @@ id: person/al-zarqali
 lang: en
 source_lang: ar
 translators: []
+provenance: { generated_by: "Earlier biography retained; solar appendix: Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b52", source: "New appendix only: actual Puig/MacTutor solar accounts and modern conversion; prior text and Muse/earlier Copilot attribution in person data retained." }
 ---
 
 Abu Ishaq Ibrahim ibn Yahya al-Zarqali was born in 1029 in a village near Toledo. He trained as a metalsmith and engraver of scientific instruments - his nickname al-Naqqash, "the engraver", is the source of his Latin name Arzachel (also written Azarquiel). From 1048 he worked in Toledo as part of the team of the astronomer Sa'id al-Andalusi, first for al-Ma'mun, the Taifa ruler of Toledo, and later for al-Mu'tamid of Seville {cite:wikipedia-al-zarqali-en}.
@@ -28,3 +29,9 @@ Al-Zarqali contributed to the Toledan Tables, and revised al-Khwarizmi's astrono
 ## Death
 
 When Alfonso VI of Castile took Toledo in 1085, al-Zarqali fled; whether he settled in Cordoba or died at Mocejón or in a refugee camp is not known. Modern references give his death as 1100 at Cordoba, while older references - and one of the two dates carried by Wikidata - give 1087; this record follows 1100 and flags the disagreement {cite:wikipedia-al-zarqali-en}{cite:wikidata-al-zarqali}.
+
+## The solar model and numerical limits
+
+The [[invention/zarqali-moving-solar-apogee|moving solar-apogee model]] is distinct from the universal plate and equatorium: Puig attributes an independently moving apogee and variable-eccentricity solar model to a lost work summarising twenty-five years of observations, probably written circa1075–1080 {cite:zarqali-puig-bea pp.1258–1260}. Its contents are indirectly known through Arabic and Latin sources, not an original manuscript inspected here; it is not the separate fixed-star-motion treatise surviving in Hebrew {cite:zarqali-puig-bea pp.1258–1260}.
+
+Puig and MacTutor give about one degree in279 years; modern conversion3600÷279 yields approximately12.9032 arcseconds annually {cite:zarqali-puig-bea solar-work paragraph} {cite:zarqali-mactutor solar-work paragraph}. This is not numerically identical to12.04 in the earlier attributed account above: the accounts are retained without merging their numbers or certifying modern accuracy. The detailed article separates reporting a lost work, checking numerical units and comparing modern explanation without attributing that explanation to its medieval author {cite:zarqali-puig-bea pp.1258–1260}.

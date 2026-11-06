@@ -2,6 +2,162 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: kashi-sine-one-degree
+    label: "Al-Kashi's iterative sine-one-degree computation"
+    state: "[x]"
+    batch: 4
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-kashi", "work/risala-watar-jayb-kashi", "source/kashi-mactutor", "source/tdv-kashi-okten", "source/iranica-kashi", "source/qadi-zada-mactutor"]
+    invention: invention/kashi-sine-one-degree
+    lead_sources:
+      - "Actual complete MacTutor al-Kashi/Qadi Zada; actual TDV work8 and Iranica mathematics/work list"
+      - "Actual PD release/history re-read and original2007 triangle rendering visually reinspected"
+    flags: [completed-D102-b61, improvement-not-first-sine, separate-circumference-and-decimal-tables, al-biruni-predecessor, open-lifetime-bound-not-fixed-completion, qadi-completion-commentary-independent-methods-distinguished, precision-reports-not-harmonized, modern-triple-angle-example-not-historical-transcription, no-original-treatise-or-commentary-reading, no-straightedge-trisection-claim, small-root-and-input-accuracy-limits, original-maker-fields-front-matter-body-attribution-preserved, existing-named-muslim-basis-separate-sunni-frame, modern-PD-triangle-context-not-one-degree-scale]
+  - id: ibn-baytar-comparative-materia-medica
+    label: "Ibn al-Baytar's comparative identification and source criticism in the Jami"
+    state: "[x]"
+    batch: 2
+    domain: pharmacy-chemistry
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/ibn-al-baytar", "work/al-mufradat-ibn-baytar", "source/tdv-ibn-baytar-kaya", "source/tdv-mufradat-kaya", "source/iranica-ibn-baytar"]
+    invention: invention/ibn-baytar-comparative-materia-medica
+    lead_sources:
+      - "Actual complete Mahmut Kaya TDV biography and work entries, actual biography byline checked; actual Iranica article body"
+      - "Actual Commons description/history/PD-old and inspected current later rosemary plate, contextual only"
+    flags: [completed-D100-b59, comparative-improvement-not-first-botany, simples-not-pure-chemicals, 2353-entries-not-species, 1422-materials-plus931-synonyms, animal-mineral-not-only-plants, preface-reported-not-primary-read, no-modern-trial-or-efficacy-proof, persian-errors-and-copyists-visible, no-universal-priority, uncertain-birth-and-inferred-itinerary, documented-personal-religious-education, separate-default-sunni-frame, existing-maker-work-and-attribution-preserved, no-silent-identity-merge, later-botanical-context-not-manuscript, no-recipes-doses-collecting-or-treatment]
+  - id: ibn-yunus-solar-time-tables
+    label: "Ibn Yunus's bounded contribution to Cairo's solar-time table corpus"
+    state: "[x]"
+    batch: 2
+    domain: astronomy-instruments
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/ali-ibn-yunus-al-munajjim", "work/cairo-solar-time-corpus", "source/ibn-yunus-king-bea", "source/tdv-ibn-yunus-dizer", "source/ibn-yunus-mactutor"]
+    invention: invention/ibn-yunus-solar-time-tables
+    lead_sources:
+      - "Actual complete King BEA/Dizer TDV/MacTutor biographies; actual BEA/TDV HTML bylines verified"
+      - "Unchanged inspected modern PD triangle, explicitly plane-geometric context"
+    flags: [completed-D099-b58, mixed-corpus-not-sole-authorship, later-thirteenth-fourteenth-century-additions, separate-hakimi-and-lunar-tables, no-thirtyfourthousand-solar-count, uncertain-birth-not-header950, no-invented-composition-or-hijri, named-scholarly-muslim-basis, separate-default-sunni-no-patron-sect-inference, original-maker-and-prose-preserved, no-pendulum-myth-or-equipped-observatory-certainty, king-interpolation-inference-not-read-algorithm, modern-spherical-example-not-historical-cells, solar-not-civil-clock, paper-only-no-solar-observation]
+  - id: habash-shadow-tables
+    label: "Habash al-Hasib's numerical shadow-table computation"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/habash-al-hasib-al-marwazi", "work/zij-habash-al-hasib", "source/habash-charette-bea", "source/tdv-habash-fazlioglu", "source/mactutor-trigonometric-functions"]
+    invention: invention/habash-shadow-tables
+    lead_sources:
+      - "Actual complete Charette BEA and Fazlioglu TDV biographies/bibliographies, HTML bylines checked"
+      - "Actual complete MacTutor trigonometric-functions history; unchanged inspected modern PD triangle"
+    flags: [completed-D098-b57, shadow-tables-not-all-trigonometry, sarton-priority-attributed-not-independently-read, general-circa860-not-individual-composition, charette-explicit-muslim-basis, separate-default-sunni-frame, uncertain-life-estimates-retained, formal-observatory-membership-not-proven, zij-title-and-recension-differences, no-original-mesh-base-cells-or-manuscript-inspection, modern-cotangent-elevation-convention, nonlinear-not-altitude-equals-hours, original-maker-fields-and-attribution-retained, paper-only-no-solar-observation]
+  - id: abu-kamil-irrational-coefficients
+    label: "Abu Kamil's extension of algebra to irrational coefficients as well as solutions"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/abu-kamil-shuja-ibn-aslam", "work/abu-kamil-al-jabr", "source/abu-kamil-mactutor", "source/tdv-abu-kamil", "source/dosay-abu-kamil-1990"]
+    invention: invention/abu-kamil-irrational-coefficients
+    lead_sources:
+      - "Actual complete O'Connor/Robertson MacTutor biography and Cengiz Aydin TDV main entry, selected bibliography"
+      - "Actual Dosay1990 selected pp57–60,66–68; p66 formula visually inspected; modern PD contextual triangle reverified"
+    flags: [completed-D097-b56, coefficients-distinct-from-solutions, inherited-algebra-and-euclidean-geometry, no-universal-priority, actual-author-cengiz-aydin, selected-secondary-not-primary-collation, exact-modern-expansion-not-manuscript-symbols, uncertain-life-composition-and-career, named-scholarly-muslim-basis, separate-default-sunni-frame, original-maker-and-prose-preserved, modern-triangle-not-isosceles-historical-diagram, samawal-post-conversion-still-held, paper-only]
+  - id: taqi-decimal-trigonometric-tables
+    label: "Taqi al-Din's decimal-angle, trigonometric-function and astronomical-table application"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: gunpowder-empires
+    from: scholarly-reference
+    records: ["person/taqi-al-din-ibn-maruf", "work/jaridat-al-durar", "source/taqi-fazlioglu-bea", "source/tdv-takiyyuddin-er-rasid", "source/tekeli-trigonometry-1986"]
+    invention: invention/taqi-decimal-trigonometric-tables
+    lead_sources:
+      - "Actual complete authored Fazlioglu BEA and Topdemir TDV biographies/works; selected Tekeli1986 pp247–250,257–258,269–272"
+      - "Re-read Commons original2007 PD triangle licence/history and visually reinspected saved rendering"
+    flags: [completed-D096-b55, decimal-application-not-invention-of-decimals, sidra-sexagesimal-not-jarida, fixed-star-exception-retained, no-invented-radius-digits-grid-composition-date, no-modern-decimal-point-priority, no-unproved-stevin-transmission, religious-education-and-qadi-not-name-inference, explicit-default-sunni-frame, original-devin-attribution-and-occupation-retained, actual-jarida-and-demir-edition-not-read, modern-context-image-not-manuscript, paper-only]
+  - id: ibn-bassal-soil-water-matching
+    label: "Ibn Bassal's linked practical land, water, season and crop assessment"
+    state: "[x]"
+    batch: 2
+    domain: water-agriculture
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/ibn-bassal", "work/al-qasd-wa-al-bayan", "source/ibn-bassal-qasd-filaha", "source/ibn-bassal-filaha-profile", "source/tdv-ibn-bassal"]
+    invention: invention/ibn-bassal-soil-water-matching
+    lead_sources:
+      - "Actual revised Arabic contents and complete water/land chapters1–2, selected10 opening"
+      - "Actual scholarly-project biography/synopsis and Ozel TDV biography; inspected USDA PD contextual drawing"
+    flags: [completed-D095-b54, agriculture-not-every-chapter-as-invention, ten-compound-land-types-four-water-sources, historical-qualities-not-modern-chemistry, no-absolute-soil-science-or-drip-priority, personal-pilgrimage-not-name-inference, explicit-default-sunni-frame, uncertain-life-relocation-dates, abridgement-not-complete-compendium, different-nur-al-din-ibn-bisal-unchanged, modern-horizons-not-historical-classes, no-unsafe-waste-or-water-handling, paper-only]
+  - id: razi-patient-group-comparison
+    label: "Al-Razi's reported intentional patient-group comparison and medical uncertainty"
+    state: "[x]"
+    batch: 2
+    domain: medicine-surgery
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-razi-abu-bakr", "work/al-hawi-fi-al-tibb", "source/razi-pormann-uncertainty-2013", "source/tibi-razi-comparison-jll"]
+    invention: invention/razi-patient-group-comparison
+    lead_sources:
+      - "Actual Pormann2013 complete journal paper370–372 and JLL commentary"
+      - "Actual Tibi commentary and selected translated Hawi passage; reverified inspected contextual1848 PD title image"
+    flags: [completed-D094-b53, distinct-from-disease-description-and-chemistry, reported-comparison-not-randomized-trial, no-treatment-endorsement-or-instructions, missing-cohort-data-not-invented, approximate-count-not-cure-rate, primary-arabic-image403-not-inspected, original-locator-discrepancy-retained, disputed-identity-retained, earlier-maker-ties-and-attribution-retained, different-book-context-image, paper-only]
+  - id: zarqali-moving-solar-apogee
+    label: "Al-Zarqali's moving solar-apogee and variable-eccentricity model"
+    state: "[x]"
+    batch: 2
+    domain: astronomy-instruments
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-zarqali", "source/zarqali-puig-bea", "source/zarqali-mactutor", "source/nasa-milankovitch-cycles", "source/commons-apogee-psf"]
+    invention: invention/zarqali-moving-solar-apogee
+    lead_sources:
+      - "Actual Puig solar paragraph, surrounding historical context and MacTutor solar-work paragraph"
+      - "Actual institutional Muslim identity, NASA modern comparison and inspected Commons public-domain apsis image"
+    flags: [completed-D093-b52, distinct-from-two-earlier-instruments, lost-primary-known-indirectly, probable-treatise-date-not-discovery-day, 279year-rate-not-12point04-equivalence, no-modern-accuracy-certificate, contextual-image-not-historical-model, two-earlier-maker-ties-retained, paper-only]
+  - id: ibn-al-haytham-circular-reflection
+    label: "Ibn al-Haytham's circular-mirror reflection-point construction"
+    state: "[x]"
+    batch: 2
+    domain: optics-physics
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/ibn-al-haytham", "work/kitab-al-manazir", "source/hogendijk-alhazen-lemmas-1996", "source/mathworld-alhazen-problem", "source/commons-alhazen-problem-hb"]
+    invention: invention/ibn-al-haytham-circular-reflection
+    lead_sources:
+      - "Actual author-hosted Hogendijk1996 printed59–75, inspected59–65"
+      - "Actual MathWorld definition/history and inspected HB2019 CC-BY-SA4.0 problem image"
+    flags: [completed-D090-b50, distinct-from-camera-and-volume, earlier-geometry-retained, later-mutaman-simplifications-not-reassigned, not-medieval-quartic-algebra, incomplete-cases-and-multiplicity-explicit, image-poses-question-not-solution, two-earlier-maker-ties-retained, paper-only]
+  - id: biruni-ghazna-qibla-setting-out
+    label: "Al-Biruni's two Ghazna circle approximations for architects"
+    state: "[x]"
+    batch: 2
+    domain: navigation-geography
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-biruni-muhammad-ibn-ahmad", "source/biruni-tahdid-ali-translation", "source/commons-spherical-triangle"]
+    invention: invention/biruni-ghazna-qibla-setting-out
+    lead_sources:
+      - "Actual Tahdid printed241–259;241–247/254–257 visually inspected, especially Fig.69/255–256"
+      - "Re-inspected licensed modern spherical context image, not historical construction"
+    flags: [completed-D089-b49, Ghazna-specific-not-worldwide-angle, earlier-astronomers-retained, printed-numerical-inconsistencies-disclosed, no-modern-survey-certification, three-earlier-maker-ties-retained, paper-only]
+  - id: jazari-hidden-drive-water-lifter
+    label: "Al-Jazari's V.3 hidden-drive jar-chain and wooden-cow display"
+    state: "[x]"
+    batch: 2
+    domain: water-agriculture
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-jazari-engineer", "source/jazari-hill-1974", "source/commons-jazari-hidden-drive"]
+    invention: invention/jazari-hidden-drive-water-lifter
+    lead_sources:
+      - "source/jazari-hill-1974 actualV.3 primary182–183 and critical265;182/183/265 visually inspected"
+      - "source/commons-jazari-hidden-drive actual PD-Art rights and inspected manuscript/working500px image"
+    flags: [completed-D087-b47, distinct-from-V5-piston-pump, hidden-water-drive-not-animal-power, external-supply-and-outflow-not-perpetual, unnamed-other-machine-not-invented, schematic-not-scale-or-efficiency-test, eight-earlier-maker-ties-retained, paper-only]
   - id: jazari-twelve-letter-lock
     label: "Al-Jazari's VI.3 twelve-letter chest-lock assembly"
     state: "[x]"
@@ -218,7 +374,8 @@ candidates:
     records: ["concept/al-kawakib-al-thabita"]
     lead_sources:
       - "data/concept/al-kawakib-al-thabita.yaml"
-    flags: [verify-specific-novelty-against-prior-astronomy, verify-maker-faith-contribution-and-source, verify-era]
+      - "https://researchonline.jcu.edu.au/28854/ — actual Hafez2010 p.6 and selected biography pp.47–51 read; Sunni suggestion on p.51 rests on a name, not a qualifying basis"
+    flags: [verify-specific-novelty-against-prior-astronomy, verify-maker-faith-contribution-and-source, verify-era, D092-al-sufi-held-awaiting-qualifying-tradition-basis, no-name-or-patronage-inference, paired-atlas-not-yet-counted]
   - id: museum-record-concept-al-sana-al-arabiyya
     label: "Museum lead for The Arabic lunar year"
     state: "[~]"
@@ -1372,12 +1529,15 @@ candidates:
     flags: ["completed-D-074-simplified-spherical-methods-not-universal-first", "maker-explicit-Muslim-basis-Sunni-frame-priority-dispute-and-angular-side-math-retained"]
   - id: al-kashi-pi-calculation
     label: "Al-Kashi's calculation of pi"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: mathematics
     era: middle-period
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "Actual complete MacTutor/Okten TDV/Iranica bodies; actual TDV HTML byline verified", "Inspected Urutseg2009 PD-shape polygon image, modern context only"]
+    records: ["person/al-kashi", "work/risala-muhitiyya-kashi", "source/kashi-mactutor", "source/tdv-kashi-okten", "source/iranica-kashi"]
+    invention: invention/al-kashi-pi-calculation
+    flags: [completed-D101-b60, improvement-not-discovery-of-pi, inherited-polygons-decimals-roots, 2pi-not-pi, sexagesimal-not-decimal-place-count, rounded-output-not-extra-digits, modern-finite-bounds-not-historical-transcription, no-unverified-huge-side-count, no-original-treatise-or-luckey-reading, named-islamic-mathematician-basis, separate-default-sunni-frame, original-maker-fields-attribution-occupation-retained, birth-and-observatory-chronology-uncertain, no-direct-european-transmission-certificate, separate-sine-and-key-works, modern-PD-shape-context]
   - id: combinatorics-ibn-munim
     label: "Combinatorics associated with Ibn Mun'im"
     state: "[~]"
@@ -3842,13 +4002,15 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
   - id: jalali-calendar
     label: "The Jalali calendar"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: timekeeping
     era: middle-period
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["maker-tradition-needs-sourced-perspectives"]
+    invention: invention/jalali-calendar
+    records: ["person/umar-khayyam", "concept/al-taqwim-al-jalali", "source/thomann-jalali-calendar-2021", "source/iranica-calendars-abdollahy", "source/berlin-astronomical-tables-211"]
+    flags: [completed-D091-b51, original-maker-perspectives-retained, personal-design-role-contested, epochs-and-day-disagreement-explicit, later-cycle-not-original-universal-rule, documentary-cohabitation-not-universal-fiscal-replacement, inspected-PD1804-witness-not-autograph, paper-only]
   - id: museum-record-person-kamal-khujandi
     label: "Museum lead for Kamal Khujandi"
     state: "[-]"
@@ -4657,15 +4819,16 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: museum-record-concept-istikmal-interpolation
     label: "Museum lead for Al-Biruni's law of interpolation (istikmal)"
-    state: "[~]"
+    state: "[x]"
+    invention: invention/biruni-difference-interpolation
     batch: 3
-    domain: modern-science
+    domain: mathematics
     era: abbasid-golden
     from: museum
     records: ["concept/istikmal-interpolation"]
     lead_sources:
       - "data/concept/istikmal-interpolation.yaml"
-    flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+    flags: [bounded-changing-difference-method, earlier-indian-methods-retained, not-standard-modern-parabola, debated-affiliation-labelled]
   - id: museum-record-concept-muanan
     label: "Museum lead for Mu'an'an (chain linked by 'from')"
     state: "[~]"

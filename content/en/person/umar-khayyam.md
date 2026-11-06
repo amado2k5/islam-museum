@@ -4,7 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), earlier translation", "Copilot SDK in VS Code, model unknown, expanded Arabic translation"]
 status: { review: published }
-provenance: { generated_by: "Devin (SWE-2 Medium); earlier translation Claude Haiku5.5; enriched by Copilot SDK in VS Code", model: "SWE-2 Medium; claude-haiku-5-5; enrichment unknown", run: "prose-fill-persons-batch63; inventions-p3-b33", source: "Earlier encyclopedia account retained; Arabic expansion from MacTutor, Unat, Stanford and selected Woepcke translation" }
+provenance: { generated_by: "Devin (SWE-2 Medium); earlier translation Claude Haiku5.5; enriched by Copilot SDK in VS Code", model: "SWE-2 Medium; claude-haiku-5-5; enrichment unknown", run: "prose-fill-persons-batch63; inventions-p3-b33", source: "Earlier encyclopedia account retained; Arabic expansion from MacTutor, Unat, Stanford and selected Woepcke translation", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b51", source: "English of new Arabic qualified calendar section; every earlier body/front-matter value and attribution retained." }] }
 ---
 ## Overview
 [[person/umar-khayyam|Umar Khayyam]], who is Umar ibn Ibrahim al-Khayyam, Abu al-Fath, a mathematician, astronomer, philosopher and poet {cite:mawsuat-a3lam-ulama-adaba p.628}.
@@ -37,3 +37,7 @@ The Jalali calendar project belongs to Malik Shah's patronage and collaborative 
 ## Poetry and biographical limits
 
 The literary image differs from a list of scientific works, just as authenticating a quatrain differs from checking a mathematical construction; Stanford discusses the two voices rather than making either automatically explain the other {cite:sep-umar-khayyam sec.2.7}. This research did not read TDV's separate literary contribution and therefore claims no comprehensive investigation or translation of the quatrains {cite:tdv-omer-hayyam-unat reliability note}. We locate contributions in passages actually read and preserve conflicting reports rather than fill gaps with an easy story.
+
+## The calendar: narrative and witness
+
+The [[invention/jalali-calendar|Jalali reform]] anchors New Year to the equinox, but his personal design role remains qualified: MacTutor reports participation, while Thomann separates anonymous reformers from named observers and does not necessarily identify him as designer {cite:khayyam-mactutor calendar} {cite:thomann-jalali-calendar-2021 sec.4}. We present the later1079/471 epoch alongside the earlier-epoch/Hijri-day disagreements, not a verified day of individual invention {cite:thomann-jalali-calendar-2021 sec.4} {cite:iranica-calendars-abdollahy Jalali subsection}. Modern month lengths/rules are not all eleventh-century rules; the1804 Berlin folio witnesses parallel calendars, not an autograph or proof of comprehensive fiscal use {cite:iranica-calendars-abdollahy Solar-Hijri subsection} {cite:thomann-jalali-calendar-2021 sec.5 fig.5.1} {cite:berlin-astronomical-tables-211 metadata,image,rights}.

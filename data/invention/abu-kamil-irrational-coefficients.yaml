@@ -1,0 +1,89 @@
+id: invention/abu-kamil-irrational-coefficients
+class: invention
+label: { ar: "جبر أبي كامل بمعاملات غير ناطقة", en: "Abu Kamil's algebra with irrational coefficients", ur: "غیر ناطق ضریب کے ساتھ ابو کامل کا الجبرا" }
+names:
+  - { kind: alternate, lang: en, value: "Radical quantities as coefficients as well as solutions" }
+summary:
+  ar: "توسيع التعامل الجبري مع غير النواطق إلى المعاملات لا الجذور وحدها؛ تحسين محدد لا اختراع الجبر أو الكميات غير الناطقة {cite:tdv-abu-kamil work1}."
+  en: "Extending algebraic work with irrationals to coefficients, not only roots; a specific refinement, not invention of algebra or irrational quantities {cite:tdv-abu-kamil work1}."
+  ur: "غیر ناطق مقدار کو صرف جذر نہیں ضریب میں بھی برتنا؛ خاص بہتری، الجبرا یا غیر ناطق مقدار کی ایجاد نہیں {cite:tdv-abu-kamil work1}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [egypt-nile]
+periods: [period/abbasid-early]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "09XX"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Broad tenth-century activity context of existing maker record and scholarly chronology, not an exact composition/invention year. MacTutor approximate850/930 and TDV broad post-Khwarizmi/pre-Imrani bounds remain uncertain. No guessed Hijri conversion."
+    sources: [source/abu-kamil-mactutor, source/tdv-abu-kamil, source/khwarizmi-jabr-cairo-1939]
+  status_today: transformed
+origin:
+  place: place/misr
+  context:
+    ar: "سياق رياضي مصري؛ لا ورشة أو موضع تأليف معين مثبت {cite:abu-kamil-mactutor biography} {cite:tdv-abu-kamil biography}."
+    en: "Egyptian mathematical setting; no particular workshop or composition site established {cite:abu-kamil-mactutor biography} {cite:tdv-abu-kamil biography}."
+    ur: "مصری ریاضی کا سیاق؛ خاص کارگاہ یا جائے تصنیف ثابت نہیں {cite:abu-kamil-mactutor biography} {cite:tdv-abu-kamil biography}۔"
+makers:
+  - person: person/abu-kamil-shuja-ibn-aslam
+    role: improver
+    note: "Individual Muslim basis: MacTutor's explicit named scholarly Islamic-mathematician classification, not name/country. Sunni separately museum default in Abbasid Egyptian milieu."
+    sources: [source/abu-kamil-mactutor, source/tdv-abu-kamil]
+attribution:
+  status: improvement
+  claim:
+    ar: "توسيع الجبر الموروث إلى معاملات غير ناطقة مع إبقاء الأساس الهندسي."
+    en: "Extension of inherited algebra to irrational coefficients while retaining geometric foundations."
+    ur: "ہندسی بنیاد برقرار رکھتے ہوئے سابق الجبرا کو غیر ناطق ضریب تک بڑھانا۔"
+  basis:
+    ar: "يميز آيدن غير النواطق في المعاملات والجذور؛ وتعرض دوساي في66 مثال حاصل جمعين يحويان جذر3 وجذر2 {cite:tdv-abu-kamil work1} {cite:dosay-abu-kamil-1990 p.66}."
+    en: "Aydin distinguishes irrationals in coefficients and roots; Dosay p66 exhibits a product containing square roots of3 and2 {cite:tdv-abu-kamil work1} {cite:dosay-abu-kamil-1990 p.66}."
+    ur: "آئدن ضریب و جذر دونوں میں غیر ناطق مقدار الگ بتاتے؛ دوسائے66 میں جذر3 اور2 والے مجموعوں کا حاصل ضرب دیتے ہیں {cite:tdv-abu-kamil work1} {cite:dosay-abu-kamil-1990 p.66}۔"
+  perspectives: []
+precursors:
+  - invention: invention/algebra
+    note: "Abu Kamil explicitly acknowledged the earlier algebraic foundation; no unsupported claim that either invented every algebraic practice."
+    sources: [source/abu-kamil-mactutor, source/tdv-abu-kamil, source/khwarizmi-jabr-cairo-1939]
+  - external: { ar: "هندسة إقليدس وميراث الكميات غير الناطقة", en: "Euclidean geometry and inherited irrational magnitudes", ur: "اقلیدسی ہندسہ اور غیر ناطق مقدار کی سابق روایت" }
+    note: "Geometric inheritance distinguished from this particular extension of coefficients."
+    sources: [source/tdv-abu-kamil]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics]
+  changed:
+    ar: "سمح بتوسيع مضمون المعادلة لا بمجرد كتابة حل جذري في نهايتها {cite:tdv-abu-kamil work1}."
+    en: "Broadens what can occur inside an equation, not merely a radical answer at its end {cite:tdv-abu-kamil work1}."
+    ur: "مساوات کے اندر آنے والی مقدار کو وسعت، صرف آخر میں جذری جواب نہیں {cite:tdv-abu-kamil work1}۔"
+  history:
+    ar: "تلقي عند الكرجي وفيبوناتشي ترويه الدراسات؛ لا نسبة كل سطر أو برنامج حديث إلى هذا التحسين {cite:abu-kamil-mactutor reception} {cite:tdv-abu-kamil conclusion}."
+    en: "Scholarship describes reception by al-Karaji and Fibonacci; not every line or modern program assigned to this refinement {cite:abu-kamil-mactutor reception} {cite:tdv-abu-kamil conclusion}."
+    ur: "تحقیق کرجی و فیبوناچی کی پذیرائی بتاتی؛ ہر سطر یا جدید پروگرام اسی بہتری سے منسوب نہیں {cite:abu-kamil-mactutor reception} {cite:tdv-abu-kamil conclusion}۔"
+  significance: 3
+  why: "Defined extension of equation coefficients, with individually documented maker classification, actual scholarly formula inspection and explicit modern verification."
+described_in: [work/abu-kamil-al-jabr]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "شرح تعليم الجذور والمعاملات؛ الرسم مثلث حديث لا برهان تاريخي ولا مخطوط {cite:dosay-abu-kamil-1990 p.66} {cite:commons-trigonometry-triangle Description}."
+    en: "Teaching roots and coefficients; image is a modern triangle, not historical proof/manuscript {cite:dosay-abu-kamil-1990 p.66} {cite:commons-trigonometry-triangle Description}."
+    ur: "جذور و ضریب کی تعلیم؛ تصویر جدید مثلث، تاریخی ثبوت یا مخطوطہ نہیں {cite:dosay-abu-kamil-1990 p.66} {cite:commons-trigonometry-triangle Description}۔"
+  descendants:
+    ar: "لا نسب حديث مباشر مخمن {cite:tdv-abu-kamil conclusion}."
+    en: "No guessed direct modern genealogy {cite:tdv-abu-kamil conclusion}."
+    ur: "جدید براہ راست نسب کا قیاس نہیں {cite:tdv-abu-kamil conclusion}۔"
+media: { image: media/taqi-modern-triangle, diagram: media/diagram-abu-kamil-radicals }
+kids:
+  ar: "جذر2 عدد مربعُه2، وليس2 ولا نصفه؛ أمثلة الورق الحديثة ليست أرقاماً نسخناها من مخطوط."
+  en: "The square root of2 squares to2; it is neither2 nor half of2. Our paper examples are modern, not copied manuscript digits."
+  ur: "جذر2 کا مربع2 ہے؛ وہ نہ2 ہے نہ اس کا نصف۔ کاغذ کی مثالیں جدید ہیں، مخطوطے کی نقل نہیں۔"
+sources: [source/abu-kamil-mactutor, source/tdv-abu-kamil, source/dosay-abu-kamil-1990, source/khwarizmi-jabr-cairo-1939, source/commons-trigonometry-triangle]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b56", source: "Actual MacTutor/Aydin TDV and selected Dosay, including visual p66 formula check. Original maker account/source retained, not newly certified. No primary edition/manuscript read, invented exact dates or universal algebra priority." }

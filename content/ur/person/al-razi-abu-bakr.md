@@ -2,9 +2,9 @@
 id: person/al-razi-abu-bakr
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code, clinical/identity extension from Arabic", "Copilot SDK in VS Code, classification extension from Arabic"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code, clinical/identity extension from Arabic", "Copilot SDK in VS Code, classification extension from Arabic", "Copilot SDK in VS Code, patient-group comparison appendix from Arabic"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "گرین ہل1848 کے منتخب حصے، بریٹانیکا، قایا، ایڈمسن؛ اصل دِیون ریکارڈ اور ہائیکو ترجمے کی نسبت محفوظ", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "عربی1–3 اور فیراریو منتخب24–30 سے درجہ بندی کا اضافہ؛ سابق متن محفوظ" }] }
+provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "گرین ہل1848 کے منتخب حصے، بریٹانیکا، قایا، ایڈمسن؛ اصل دِیون ریکارڈ اور ہائیکو ترجمے کی نسبت محفوظ", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "عربی1–3 اور فیراریو منتخب24–30 سے درجہ بندی کا اضافہ؛ سابق متن محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b53", source: "عربی سے مریض گروہوں کا ملحق، پورمان2013 اور تیبی؛ سابق متن، شناخت اور نسبت محفوظ؛ غیر معائنہ اصل یا علاجی تصدیق کا دعویٰ نہیں" }] }
 ---
 ## خلاصہ
 ابو بکر محمد بن زکریا الرازی، فلسفی اور طبیب، «المنصوری» کے مصنف جو طب میں ہے۔ {cite:muruj-al-dhahab p. 547}
@@ -47,3 +47,11 @@ provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension
 اور الجامع الکبیر کا واقعہ: اس پر پندرہ برس دن رات کام کیا یہاں تک کہ ان کی نظر کمزور اور ہاتھ کے پٹھے تھک گئے — پھر انہوں نے پڑھنے اور لکھنے والے کی مدد لی {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:19:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:20:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:20:30}۔
 اور بصریات میں: انہوں نے اقلیدس کے اخراجی نظریے کی تردید کی — شعاع نظر آنے والی چیز سے آنکھ تک آتی ہے — ابن ہیتھم سے تقریباً سات صدیاں پہلے (مقرر کا دعویٰ) {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:22:00}۔
 اور بوڑھی عورت کا واقعہ: جب اسے بتایا گیا «یہ رازی ہیں جن کے پاس اللہ کے وجود کے ہزار دلیل ہیں» تو اس نے کہا «اگر ان کے پاس ہزار شبہات نہ ہوتے تو ہزار دلیلوں کی ضرورت نہ ہوتی» — جس پر انہوں نے کہا «اے اللہ، بوڑھی عورتوں جیسا ایمان عطا فرما» {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:23:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:23:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:24:00}۔
+
+## مریض گروہ اور عدم یقین
+
+الحاوی کے منتخب ترجمے میں [[invention/razi-patient-group-comparison|مریض گروہوں کے منقول تقابل]] کا ارادہ ہے: ایک گروہ کو مداخلت ملی، دوسرے کو نہیں۔ تیبی اسے تقابل کے اصول کی شہادت پڑھتی ہیں، علاج تجویز کرنے کی کافی بنیاد نہیں۔ پورمان کنٹرول گروہ بتاتے ہوئے کہتے ہیں کہ الگ نظری بحث میں گروہ کا تصور نمایاں نہیں کیا گیا {cite:tibi-razi-comparison-jll comparison-and-conclusion} {cite:razi-pormann-uncertainty-2013 p.371}۔
+
+الشکوک علی جالینوس میں تقریباً دو ہزار میں تین سو کا عدد خلاف توقع راستوں کے متعلق ہے، لازماً سابق تقابل کے مریض یا شرح شفا نہیں۔ پندرہ فی صد تقریبی گنتی پر جدید حساب ہے، مؤثریت یا اموات کی سند نہیں۔ مشکل متن کی تین صورتیں اور ایک الگ نتیجہ چار افراد کی ثابت آزمائش نہیں بن جاتے {cite:razi-pormann-uncertainty-2013 pp.371–372}۔
+
+پڑھی شہادت منتخب ترجمہ، تبصرہ اور2013 کا مقالہ ہے، معائنہ شدہ عربی اصل یا مکمل بنیادی تصانیف نہیں۔ حیدرآباد جلد اول یا15، صفحہ122 کا اختلاف نسخے ملانے تک نمایاں ہے۔ اضافہ سابق پروگرام کے بندر تجربوں یا ہر مطلق اولیت کی ماضی تک پھیلی توثیق نہیں؛ باتیں مقرر ہی کی، شناخت کا اختلاف میوزیم کے فیصلے کے بغیر باقی ہے۔ علاج کا طریقہ یا دہرانا نہیں {cite:tibi-razi-comparison-jll references} {cite:razi-pormann-uncertainty-2013 introduction}۔

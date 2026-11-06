@@ -1,0 +1,88 @@
+id: invention/biruni-difference-interpolation
+class: invention
+label: { ar: "تعديل الفروق في استيفاء البيروني", en: "Al-Biruni's difference-adjusted interpolation", ur: "بیرونی کا فرقوں کی تصحیح سے استیفا" }
+names:
+  - { kind: alternate, lang: ar, value: "تدقيق التجييب والتقويس في القانون المسعودي" }
+  - { kind: alternate, lang: en, value: "Al-Biruni's nonlinear table interpolation" }
+summary:
+  ar: "شرح لاستعمال الفروق المتغيرة بين صفوف الجدول، مع تدقيق مباشر وعكسي وتعميم؛ لا أول استيفاء أو تطابق مع كل صيغة تربيعية حديثة {cite:qanun-masudi-jundi-v1 scan pp.321–324,339–340}."
+  en: "Exposition using changing tabular differences, direct/inverse refinements and generalization; not first interpolation or identity with every modern quadratic rule {cite:qanun-masudi-jundi-v1 scan pp.321–324,339–340}."
+  ur: "جدولی فرقوں کے بدلاؤ، سیدھی و الٹی تصحیح اور تعمیم کی تشریح؛ پہلا استیفا یا ہر جدید تربيعی قاعدے سے یکسانیت نہیں {cite:qanun-masudi-jundi-v1 scan pp.321–324,339–340}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics, astronomy]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad eleventh-century documentary context of the Qanun in MeijeringII.C, not exact invention/composition year, printed-edition date or universal priority; no fabricated Hijri equivalent."
+    sources: [source/meijering-interpolation-2002]
+  status_today: transformed
+origin:
+  place: place/ghazna
+  context:
+    ar: "سياق القانون المسعودي وعمل صاحبه بغزنة، لا ورشة مؤرخة أو أول استعمال عالمي {cite:britannica-al-biruni biography}."
+    en: "Context of the Qanun and its author's work at Ghazna, not a dated workshop or first worldwide use {cite:britannica-al-biruni biography}."
+    ur: "القانون اور غزنہ میں مصنف کے کام کا سیاق، تاریخ یافتہ کارگاہ یا پہلا عالمی استعمال نہیں {cite:britannica-al-biruni biography}۔"
+makers:
+  - person: person/al-biruni-muhammad-ibn-ahmad
+    role: improver
+    place: place/ghazna
+    note: "Specific changing-difference exposition, not first interpolation or invention of every quadratic formula. Individual Muslim basis and Sunni-first debated affiliation preserved from existing biography."
+    sources: [source/qanun-masudi-jundi-v1, source/britannica-al-biruni, source/tdv-biruni-tumer]
+attribution:
+  status: improvement
+  claim:
+    ar: "تدقيق موصوف للجداول يتجاوز النسبة الخطية الواحدة؛ تاريخ سابق هندي وغيره محفوظ."
+    en: "Documented table refinement beyond a single linear proportion; earlier Indian and other traditions retained."
+    ur: "ایک خطی تناسب سے آگے مستند جدولی تصحیح؛ پہلے ہندوستانی اور دوسرے سلسلے محفوظ۔"
+  basis:
+    ar: "فحص مباشر للنص العربي وشرح اختلاف الفروق ووحدات الحساب؛ لا استبدال صيغ نيوتن الحديثة بكلام المؤلف {cite:qanun-masudi-jundi-v1 scan pp.301–302,321–324,339–340}."
+    en: "Direct Arabic reading of unequal differences and computational units; modern Newton formulas not substituted for the author's words {cite:qanun-masudi-jundi-v1 scan pp.301–302,321–324,339–340}."
+    ur: "عربی متن میں غیر مساوی فرقوں اور حسابی اکائیوں کا براہ راست مطالعہ؛ مصنف کی جگہ جدید نیوٹنی فارمولا نہیں رکھا {cite:qanun-masudi-jundi-v1 scan pp.301–302,321–324,339–340}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "طرق الجداول الهندية السابقة والاستيفاء الخطي", en: "Earlier Indian table methods and linear interpolation", ur: "پہلے ہندوستانی جدولی طریقے اور خطی استیفا" }
+    note: "Earlier methods documented; exact identity or a named direct line of transmission into this particular Qanun rule is not asserted."
+    sources: [source/meijering-interpolation-2002, source/rashed-interpolation-1991]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics, astronomy-instruments]
+  changed:
+    ar: "جعل اختلاف الفروق جزءاً صريحاً من طريقة استعمال الجدول وتفسيرها {cite:qanun-masudi-jundi-v1 scan pp.321–324}."
+    en: "Makes changing differences explicit in table use and its explanation {cite:qanun-masudi-jundi-v1 scan pp.321–324}."
+    ur: "جدول کے استعمال اور اس کی دلیل میں بدلتے فرق نمایاں کرتا ہے {cite:qanun-masudi-jundi-v1 scan pp.321–324}۔"
+  history:
+    ar: "شاهد في تاريخ البحث العددي؛ ملخص راشد يصف نقل السموأل ومقارناته، لا نسب كل برمجية {cite:rashed-interpolation-1991 abstract}."
+    en: "Witness to numerical research; Rashed's abstract describes al-Samaw'al's quotation/comparisons, not ancestry of every program {cite:rashed-interpolation-1991 abstract}."
+    ur: "عددی تحقیق کا شاہد؛ راشد کا خلاصہ سموأل کی نقل و تقابل بتاتا ہے، ہر پروگرام کا نسب نہیں {cite:rashed-interpolation-1991 abstract}۔"
+  significance: 3
+  why: "Directly inspected, bounded nonlinear table method, including operational units, inverse lookup and explanatory geometry; earlier traditions and formula/accuracy limits explicit."
+described_in: [work/al-qanun-al-masudi]
+examples: []
+sites: []
+concepts: [concept/istikmal-interpolation]
+today:
+  form:
+    ar: "تعليم قراءة الخوارزمية وحدود التقريب؛ الصورة رسم تربيعي حديث للمقارنة، لا الصيغة نفسها {cite:commons-quadratic-interpolation description,code}."
+    en: "Learning algorithm reading and approximation limits; image is a modern quadratic comparison, not the same formula {cite:commons-quadratic-interpolation description,code}."
+    ur: "خوارزم پڑھنے اور تقریب کی حد سمجھنے کی تعلیم؛ تصویر جدید تربيعی تقابل ہے عین وہی فارمولا نہیں {cite:commons-quadratic-interpolation description,code}۔"
+  descendants:
+    ar: "لا دعوى انتقال مباشر مثبت إلى نيوتن أو الحاسوب {cite:meijering-interpolation-2002 II.C}."
+    en: "No demonstrated direct transmission to Newton or computers claimed {cite:meijering-interpolation-2002 II.C}."
+    ur: "نیوٹن یا کمپیوٹر تک ثابت براہ راست انتقال کا دعویٰ نہیں {cite:meijering-interpolation-2002 II.C}۔"
+media: { image: media/biruni-modern-quadratic-context, diagram: media/diagram-biruni-difference-interpolation }
+kids:
+  ar: "إذا لم تكن الزيادة بين صفوف الجدول ثابتة، فقد لا تكفي حصة واحدة منها لكل موضع. جرّب جدولاً ورقياً، لا رصداً للشمس."
+  en: "If neighbouring table increases change, one fixed share may not suit every position. Try paper arithmetic, not solar observations."
+  ur: "جدول کی پڑوسی بڑھوتریاں بدلیں تو ایک مقرر حصہ ہر جگہ کافی نہیں۔ کاغذ پر حساب کریں، سورج کا مشاہدہ نہیں۔"
+sources: [source/qanun-masudi-jundi-v1, source/meijering-interpolation-2002, source/rashed-interpolation-1991, source/commons-quadratic-interpolation, source/britannica-al-biruni, source/tdv-biruni-tumer, source/nallino-albatenii-opus-astronomicum]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b48", source: "Actual selected Arabic primary/OCR and scans301/322/323/340 inspected; MeijeringII.B–II.C and Rashed publisher abstract, not full article; modern PD image inspected; own normalized arithmetic not historical measured results" }

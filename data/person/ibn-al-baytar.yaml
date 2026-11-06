@@ -7,6 +7,17 @@ summary:
   ar: "ابن البيطار الطبيب البارع ضياء الدين عبد الله بن أحمد المالقي العشاب صاحب كتاب المفردات في الأدوية انتهت إليه معرفة النبات وصفاته ومنافعه وأماكنه وله اتصال بخدمة الكامل ثم ابنه الصالح وكان رئيساً في الديار المصرية توفي بدمشق في شعبان سنة ست وأربعين وست مئة {cite:shadharat-dhahab p. 234}."
   en: "Ibn al-Baytar, the peerless physician and herbalist of Malaga, author of the Mufradat of simples — knowledge of plants, their properties, virtues and habitats ended with him; he served al-Kamil then his son al-Salih and was chief physician in Egypt, dying at Damascus in Sha'ban 646 {cite:shadharat-dhahab p. 234}."
 gender: male
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Individual Muslim basis: Kaya documents his own religious/transmitted-science education before botany. Sunni separately museum default frame of docs/scope.md in documented Ayyubid milieu; no contrary personal sect attestation in read biographies, not an inference from name, patron or birthplace and not a personal madhhab certificate."
+    sources: [source/tdv-ibn-baytar-kaya]
+inventions:
+  - invention: invention/ibn-baytar-comparative-materia-medica
+    role: improver
+    note: "Comparative naming, identification and source criticism in the Jami, not invention of botany or modern drug testing."
+    sources: [source/tdv-mufradat-kaya, source/iranica-ibn-baytar]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, egypt-nile]
@@ -15,5 +26,7 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج5، سنة 646)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-48
-sources: [source/shadharat-dhahab]
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b59", source: "Add sourced identity/default-frame basis, bounded contribution and trilingual biography extension. Preserve original fields/attribution/status/body and potential-duplicate notice; no silent identity merge or old-source recertification." }
+sources: [source/shadharat-dhahab, source/tdv-ibn-baytar-kaya, source/tdv-mufradat-kaya, source/iranica-ibn-baytar]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

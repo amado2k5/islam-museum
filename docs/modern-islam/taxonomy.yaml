@@ -1,0 +1,200 @@
+# Modern Islam Browser: machine-readable taxonomy (docs/plan/26-modern-islam-browser.md section 2 and 3).
+# Phase 1 generates the enums and the three locale labels from this file; never keep a parallel list.
+# Append-only once approved. Labels: ar first, then en and ur, as everywhere in the museum.
+
+version: 1
+window:
+  start: { edtf: "1976-01-03", hijri: "1396-01-01", calendar: gregorian, precision: day, derived: true, note: "1 Muharram 1396; Gregorian conversion derived" }
+  end: build-date
+
+sections:
+  - id: web
+    label: { ar: "المواقع والتطبيقات", en: "Websites and apps", ur: "ویب سائٹس اور ایپس" }
+    classes: [work, listing]
+    kinds: { work: [website, online-library, app], listing: [app, software, platform] }
+    facets: [content_type, languages, active, country]
+  - id: music
+    label: { ar: "الموسيقى والأناشيد", en: "Music and nasheed", ur: "موسیقی اور نعت و نشید" }
+    classes: [work, person, group, listing, award]
+    kinds: { work: [album, song, composition], listing: [record-label, production-company] }
+    facets: [genre, honours, country, language, decade]
+  - id: film
+    label: { ar: "الأفلام", en: "Films", ur: "فلمیں" }
+    classes: [screen, person, event]
+    kinds: { screen: [film, short, tv_film, documentary, animation], event: [festival] }
+    facets: [format, approach, country, language, decade, by_muslims]
+  - id: tv
+    label: { ar: "المسلسلات والبرامج", en: "Series and programmes", ur: "ڈرامے اور پروگرام" }
+    classes: [screen, listing]
+    kinds: { screen: [series, miniseries, programme, web_series, documentary_series, children, episode], listing: [tv-channel] }
+    facets: [format, ramadan_season, broadcaster, country, language]
+  - id: conferences
+    label: { ar: "المؤتمرات والملتقيات", en: "Conferences and conventions", ur: "کانفرنسیں اور اجتماعات" }
+    classes: [event, group, work]
+    kinds: { event: [conference, congress, gathering, council, declaration] }
+    facets: [recurs, country, organiser, decade]
+  - id: heritage
+    label: { ar: "شهور التراث والمهرجانات", en: "Heritage months and festivals", ur: "ورثے کے مہینے اور میلے" }
+    classes: [event, practice]
+    kinds: { event: [heritage-month, festival, gathering, pilgrimage-season], practice: [festival] }
+    facets: [month, hijri_month, country, since]
+  - id: rights
+    label: { ar: "الحقوق والاحتجاج", en: "Rights and protest", ur: "حقوق اور احتجاج" }
+    classes: [event, work, group]
+    kinds: { event: [protest, attack, law-enacted, court-ruling, persecution, declaration], work: [report, law, court-judgment] }
+    facets: [kind, country, year, responded_to]
+  - id: books
+    label: { ar: "الكتب والناشرون", en: "Books and publishers", ur: "کتابیں اور ناشر" }
+    classes: [work, person, listing, event, award]
+    kinds: { work: [book], listing: [publisher, bookshop], event: [festival] }
+    facets: [genre, language, country, decade, translation_of]
+  - id: upcoming
+    label: { ar: "القادم", en: "Upcoming", ur: "آنے والا" }
+    classes: ["*"]
+    kinds: {}
+    facets: [stage, expected, section]
+  - id: figures
+    label: { ar: "أعلام الخمسين سنة", en: "Figures of the last fifty years", ur: "پچاس برسوں کی شخصیات" }
+    classes: [person]
+    kinds: {}
+    facets: [field, country, decade, honours, faith_recorded]
+    fields:
+      - { id: scholars-preachers, label: { ar: "العلماء والدعاة", en: "Scholars and preachers", ur: "علما اور مبلغین" }, roles: [scholar, mufti, qadi, shaykh-al-islam, jurist, theologian, preacher, imam, khatib, mystic] }
+      - { id: politics-state, label: { ar: "السياسة والدولة", en: "Politics and state", ur: "سیاست اور ریاست" }, roles: [politician, caliph, sultan, emir] }
+      - { id: diplomacy, label: { ar: "الدبلوماسية", en: "Diplomacy", ur: "سفارت کاری" }, roles: [diplomat] }
+      - { id: finance-economics, label: { ar: "المال والاقتصاد", en: "Finance and economics", ur: "مالیات اور معاشیات" }, roles: [banker, economist, entrepreneur, merchant] }
+      - { id: science, label: { ar: "العلوم", en: "Science", ur: "سائنس" }, roles: [scientist, mathematician, astronomer, engineer, astronaut] }
+      - { id: medicine, label: { ar: "الطب", en: "Medicine", ur: "طب" }, roles: [physician, nurse] }
+      - { id: history-academy, label: { ar: "التاريخ والجامعة", en: "History and the academy", ur: "تاریخ اور جامعہ" }, roles: [historian, professor, philosopher, geographer] }
+      - { id: teaching, label: { ar: "التعليم", en: "Teaching", ur: "تعلیم" }, roles: [teacher] }
+      - { id: writing, label: { ar: "الكتابة", en: "Writing", ur: "تحریر" }, roles: [writer, poet] }
+      - { id: arts, label: { ar: "الفنون", en: "Arts", ur: "فنون" }, roles: [artist, calligrapher, architect, musician, singer, composer, actor, director, producer, comedian] }
+      - { id: media-creators, label: { ar: "الإعلام وصنّاع المحتوى", en: "Media and creators", ur: "میڈیا اور تخلیق کار" }, roles: [journalist, presenter, influencer] }
+      - { id: activism, label: { ar: "النشاط العام", en: "Activism", ur: "سماجی سرگرمی" }, roles: [activist, lawyer, judge] }
+      - { id: sport, label: { ar: "الرياضة", en: "Sport", ur: "کھیل" }, roles: [athlete, coach] }
+  - id: organizations
+    label: { ar: "المنظمات", en: "Organisations", ur: "تنظیمیں" }
+    classes: [group, listing]
+    kinds: { group: [organization, institution, council, charity, relief-agency, foundation, student-association, "women's-organisation", professional-association, interfaith-body, international-organisation, community-organisation, mosque-association, movement, party, think-tank, online-community], listing: [platform] }
+    facets: [kind, scope, country, founded_decade]
+  - id: media
+    label: { ar: "الإعلام", en: "Media", ur: "ذرائع ابلاغ" }
+    classes: [listing, work]
+    kinds: { listing: [media, magazine, podcast, newspaper, tv-channel, radio-station, newsletter, channel], work: [newspaper, journal, podcast] }
+    facets: [kind, language, country, founded_decade, reach]
+  - id: sports
+    label: { ar: "الرياضة", en: "Sport", ur: "کھیل" }
+    classes: [person, group, event, award]
+    kinds: { group: [team], event: [tournament] }
+    facets: [sport, country, honours, decade]
+  - id: awards
+    label: { ar: "الجوائز والمسابقات", en: "Awards and competitions", ur: "ایوارڈ اور مقابلے" }
+    classes: [award, event, screen]
+    kinds: { event: [competition, award-ceremony], screen: [programme] }
+    facets: [award_kind, field, country, since]
+  - id: achievements
+    label: { ar: "الإنجازات والسوابق", en: "Achievements and firsts", ur: "کارنامے اور اولیات" }
+    classes: [person, event, building]
+    kinds: {}
+    facets: [prize, first_of, country, year]
+  - id: enterprise
+    label: { ar: "الشركات والمال", en: "Enterprise and finance", ur: "کاروبار اور مالیات" }
+    classes: [listing, group, award]
+    kinds: { listing: [company, startup, brand, fund], group: [bank, standards-body, certifier] }
+    facets: [kind, sector, country, founded_decade, ranking]
+  - id: arts
+    label: { ar: "الفنون والثقافة", en: "Arts and culture", ur: "فنون اور ثقافت" }
+    classes: [person, work, event, building, award]
+    kinds: { work: [poem, diwan, composition], event: [exhibition, festival], building: [museum] }
+    facets: [discipline, country, decade]
+  - id: built
+    label: { ar: "ما بُني منذ ١٩٧٦", en: "Built since 1976", ur: "۱۹۷۶ء سے تعمیر شدہ" }
+    classes: [building, event]
+    kinds: { building: [mosque, madrasa, library, islamic-centre, museum, university-campus, other], event: [founding] }
+    facets: [kind, country, completed_decade, architect]
+  - id: learning
+    label: { ar: "التعليم والمعرفة", en: "Learning and knowledge", ur: "تعلیم اور علم" }
+    classes: [group, listing, work]
+    kinds: { group: [university, seminary, institution], listing: [school, university], work: [book, curriculum, online-library] }
+    facets: [kind, online, country, language]
+
+# The derived section of a record (scripts/modern/sections.ts) is computed from class, kind, dates and fields, in this order of precedence:
+# horizon present -> upcoming (in addition to its own section); then the first section whose class/kind pair matches; a person goes to
+# sports when sports[] exists, to achievements when honours[] carries a laureate-kind award or a firsts tag, otherwise to figures.
+
+new_kinds:
+  work: [album, song]
+  event: [protest, attack, competition, award-ceremony, festival, heritage-month, exhibition, tournament, launch]
+  listing: [newspaper, tv-channel, radio-station, newsletter, channel, record-label, production-company]
+  group: [team, think-tank, online-community]
+  building: [islamic-centre, museum, university-campus]
+  roles: [singer, composer, actor, director, producer, presenter, journalist, diplomat, banker, economist, entrepreneur, comedian, influencer, coach, astronaut, judge, lawyer, nurse, professor]
+
+award_kinds:
+  - { id: prize, label: { ar: "جائزة", en: "Prize", ur: "انعام" } }
+  - { id: medal, label: { ar: "وسام", en: "Medal", ur: "تمغہ" } }
+  - { id: certification, label: { ar: "شهادة مبيعات", en: "Sales certification", ur: "فروخت کی سند" } }
+  - { id: ranking, label: { ar: "تصنيف", en: "Ranking", ur: "درجہ بندی" } }
+  - { id: title, label: { ar: "لقب", en: "Title", ur: "خطاب" } }
+  - { id: scholarship, label: { ar: "منحة", en: "Scholarship", ur: "وظیفہ" } }
+  - { id: competition-prize, label: { ar: "جائزة مسابقة", en: "Competition prize", ur: "مقابلے کا انعام" } }
+  - { id: chart, label: { ar: "قائمة مبيعات", en: "Chart", ur: "چارٹ" } }
+
+honour_results: [won, nominated, shortlisted, longlisted, certified, ranked, honoured, finalist, participant]
+certification_levels: [silver, gold, platinum, multi-platinum, diamond]
+
+horizon_stages: [announced, in-development, in-production, under-construction, scheduled, beta, bid, postponed, cancelled]
+
+reach_platforms: [youtube, spotify, apple-music, anghami, deezer, soundcloud, tiktok, instagram, x, facebook, telegram, snapchat, website, print, broadcast, app-store, play-store, podcast-index]
+reach_metrics: [subscribers, followers, views, monthly-listeners, streams, downloads, circulation, monthly-visits, installs, ratings-count]
+
+press_kinds: [news, feature, interview, review, obituary, investigation, opinion, profile, listing]
+
+music_genres:
+  - { id: nasheed, label: { ar: "نشيد", en: "Nasheed", ur: "نشید" } }
+  - { id: naat, label: { ar: "نعت", en: "Naat", ur: "نعت" } }
+  - { id: qawwali, label: { ar: "قوّالي", en: "Qawwali", ur: "قوالی" } }
+  - { id: ilahi, label: { ar: "إلهي", en: "Ilahi", ur: "الٰہی" } }
+  - { id: inshad, label: { ar: "إنشاد ديني", en: "Inshad (religious chant)", ur: "انشاد" } }
+  - { id: madih, label: { ar: "مديح", en: "Madih", ur: "مدح" } }
+  - { id: sufi, label: { ar: "سماع صوفي", en: "Sufi music", ur: "صوفی موسیقی" } }
+  - { id: religious-pop, label: { ar: "بوب ديني", en: "Religious pop", ur: "مذہبی پاپ" } }
+  - { id: hip-hop, label: { ar: "هيب هوب", en: "Hip-hop", ur: "ہپ ہاپ" } }
+  - { id: folk, label: { ar: "شعبي", en: "Folk", ur: "لوک" } }
+  - { id: film-song, label: { ar: "أغنية فيلم", en: "Film song", ur: "فلمی گیت" } }
+  - { id: choral, label: { ar: "كورال", en: "Choral", ur: "کورل" } }
+  - { id: recitation-based, label: { ar: "قائم على التلاوة", en: "Recitation-based", ur: "تلاوت پر مبنی" } }
+
+sports:
+  [football, cricket, basketball, boxing, mixed-martial-arts, wrestling, judo, taekwondo, karate, athletics, swimming, fencing, weightlifting, gymnastics, tennis, squash, table-tennis, badminton, cycling, motorsport, golf, chess, rowing, sailing, equestrian, archery, shooting, volleyball, handball, rugby, american-football, baseball, ice-hockey, skiing, mountaineering, bodybuilding, kabaddi, hockey, esports, paralympic]
+
+firsts_tags:
+  [first-muslim-in-space, first-muslim-woman-olympic-gold, first-muslim-nobel-laureate-in-field, first-muslim-head-of-government-in-country, first-muslim-mayor-of-city, first-muslim-legislator-in-country, first-hijab-at-olympics, first-muslim-minister-in-country, first-accredited-muslim-college-in-country, largest-mosque-in-region, largest-gathering, first-islamic-bank-in-country, first-islamic-channel, first-nasheed-award]
+
+reach_index:
+  version: 1
+  lists: [songs, albums, websites, channels, books]
+  weights:
+    honour_won: 10
+    honour_nominated: 4
+    honours_cap: 40
+    certified: { gold: 6, platinum: 10, multi-platinum: 15, cap: 30 }
+    chart: { top10: 8, top40: 4, charted: 2, cap: 16 }
+    reach_log10_per_platform: 1
+    reach_platforms_max: 3
+    reach_cap: 24
+    wikipedia_language: 1
+    wikipedia_cap: 15
+    press_item: 1
+    press_cap: 10
+    cover_version: 1
+    cover_cap: 5
+  tie_break: release-date-oldest-first
+  notice: { ar: "هذا المؤشر يقيس مدى توثيق العمل لا جودته؛ المتحف لا يصنّف الفن بالذوق.", en: "This index measures how widely a work is documented, not how good it is; the museum does not rank by taste.", ur: "یہ اشاریہ ناپتا ہے کہ کوئی کام کتنا دستاویزی ہے، اس کی خوبی نہیں؛ عجائب گھر ذوق کی بنیاد پر درجہ بندی نہیں کرتا۔" }
+
+inclusion:
+  subject: "about Islam or Muslims, or made by Muslims, with at least one dated fact in the window or a horizon block"
+  by_muslims: "made.by_muslims true only with basis self-identified (linked own statement) or documented (reliable source); unverified recorded, never shown as by Muslims"
+  faith: "modern-figures lane rulings of 1 November 2026 verbatim: two independent sources naming the school; structured data never settles; bare branch settles nothing; headship never counts; doubt stays unknown"
+  default: "Muslims included by default; an explicitly sourced non-Sunni affiliation is labelled, not excluded (docs/scope.md); Sunni positions first wherever views are stated"
+  out: [incidental-appearances, single-social-post-only, violent-extremist-media, private-individuals, personal-data-beyond-public-roles, lyrics, article-text, embeds]

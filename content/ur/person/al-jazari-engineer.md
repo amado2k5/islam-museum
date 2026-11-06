@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "107–109، نقد256 اور فریئر1315 سے کشتی کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "157–158 اور263 سےIV.1 فوارے کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b45", source: "83–86/252–253 سےI.7 گھڑی؛ سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b46", source: "199–201/268–269 سےVI.3 قفل؛ سابق متن اور نسبت محفوظ" }] }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "107–109، نقد256 اور فریئر1315 سے کشتی کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "157–158 اور263 سےIV.1 فوارے کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b45", source: "83–86/252–253 سےI.7 گھڑی؛ سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b46", source: "199–201/268–269 سےVI.3 قفل؛ سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b47", source: "182–183/265 سےV.3 آب کش؛ سابق متن اور نسبت محفوظ" }] }
 ---
 ## خلاصہ
 بدیع الزمان ابو العز اسماعیل بن الرزاز جزری میکانکی حیلوں کے انجینئر اور مصنف تھے۔ ٹی ڈی وی انہیں اسلامی عالم کہتا اور کتاب کے مقدمے سے باہر زندگی کی معلومات کم بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ وہ 1181–1206ء میں [[place/amid|آمد]] کے ارتقی دربار سے وابستگی اور ناصر الدین محمود کی فرمائش پر کتاب لکھنے کا ذکر کرتا ہے، جس کی تکمیل 1205ء بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ خدمت کے سالوں کو پیدائش اور وفات کی تاریخ نہیں بنایا گیا۔
@@ -52,6 +52,10 @@ I.7 کی [[invention/jazari-swordsman-candle-clock|شمشیربردار والی
 ## صندوق کا قفل اور اس کی شرائط
 
 بابVI.3 [[invention/jazari-twelve-letter-lock|بارہ حرفی صندوق کا قفل]] بتاتا ہے: تین تین حرفی وضع والی چار اکائیاں اور مشترک بندش، پہلے دو، چار اور چھ حرفی قفلوں کے واضح اعتراف کے ساتھ {cite:jazari-hill-1974 pp.199–201}۔ ہل نقشے کی غائب یا متضاد تفصیل کو جدید تعبیر سے الگ کرتے اور مادی حفاظت کی ایک حد بتاتے ہیں؛ وضع کی تعداد حفاظت کی سند نہیں {cite:jazari-hill-1974 pp.268–269}۔ نسبت مربوط بہتری کی ہے، پہلے حرفی قفل یا ہر تقابلی صندوق اور جدید قفل کے ثابت نسب کی نہیں۔
+
+## آب کش اور پوشیدہ محرک
+
+V.3 میں [[invention/jazari-hidden-drive-water-lifter|پوشیدہ محرک والا کوزوں کا آب کش]] ہے: نکلتا پانی نیچے پہیہ، دانت دار پہیے اور محور گھما کر کوزے اٹھاتا اور لکڑی کی گائے چلاتا ہے جس کے کھر تختے سے اوپر ہیں {cite:jazari-hill-1974 pp.182–183}۔ گائے طاقت کا ماخذ نہیں، نہ یہ دائمی حرکت یاV.5 کا دو پسٹن والا پمپ ہے۔ ہل ممکنہ آرائشی مصرف، نقشے کے بڑے کوزے اور دوسری غیر موصوف مشین الگ رکھتے ہیں؛ کتاب کے دو آبی محرکوں میں پہلا ہونا عالمی اولیت نہیں {cite:jazari-hill-1974 p.265}۔
 
 ## مراجع
 - مومی گھڑیI.7: ہل83–86/252–253 اور [[source/freer-jazari-candle-clock|فریئر F1930.71 اور تصویری حقوق]] {cite:jazari-hill-1974 pp.83–86,252–253} {cite:freer-jazari-candle-clock catalogue,rights}۔

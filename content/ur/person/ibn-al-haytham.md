@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 status: { review: published }
-provenance: { generated_by: "Claude Haiku 5.5 (library-expansion); Copilot SDK in VS Code extension", model: "claude-haiku-5-5; unknown for extension", run: "inventions-p3-b36", source: "Original Manazir account/translation attribution retained; Arabic dates/volume-method extension from TDV and selected Katz/Bressoud" }
+provenance: { generated_by: "Claude Haiku 5.5 (library-expansion); Copilot SDK in VS Code extension", model: "claude-haiku-5-5; unknown for extension", run: "inventions-p3-b36", source: "Original Manazir account/translation attribution retained; Arabic dates/volume-method extension from TDV and selected Katz/Bressoud", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b50", source: "Urdu of new Arabic circular-reflection section; all previous body/front matter and attribution retained." }] }
 ---
 
 ## خلاصہ
@@ -27,3 +27,7 @@ provenance: { generated_by: "Claude Haiku 5.5 (library-expansion); Copilot SDK i
 
 ## طالبِ علم کے لیے
 ابو علی حسن بن ہیثم (تقریباً 354–430 ہجری / 965–1040 عیسوی) بصرہ اور فاطمی قاہرہ کے نامور ماہر طبیعیات، ریاضی دان اور فلکیات دان تھے۔ بصریات پر اپنی شاہکار کتاب 'المناظر' کے ذریعے وہ جدید بصریات کے بانی کہلائے، جس میں انہوں نے قدیم نظریات کو رد کرتے ہوئے ثابت کیا کہ روشنی آنکھ میں داخل ہو کر عکس بناتی ہے۔ انہوں نے مشاہدے اور تجربے پر مبنی سائنسی طریقہ کار کو قائم کیا اور کیمرہ اوبسکورا کے اصولوں کی بنیاد رکھی۔
+
+## نقطۂ انعکاس کی تعیین
+
+[[invention/ibn-al-haytham-circular-reflection|دائروی آئینے کا طریقہ]] جسم اور آنکھ کو ملانے والا انعکاس کہاں ہے پوچھتا ہے؛ تحقیق پانچویں مقالے کی تمہیدیں و اطلاق بتا کر سابق کام اور مؤتمن کی بعد کی تسہیل الگ کرتی ہے {cite:hogendijk-alhazen-lemmas-1996 pp.59–65}۔ یہ قانون انعکاس یا ہر آئینے کی ایجاد، یا ہر حالت کا واحد مکمل حل نہیں؛ نامکمل مقعر بحث اور کئی ممکنہ نقطے واضح رہتے ہیں {cite:hogendijk-alhazen-lemmas-1996 p.70}۔ چہاردرجی مساوات کی یکسانیت جدید ہے، ان کی جبری معرفت نہیں؛ جدید تصویر سوال پیش کرتی ہے، اصل نقشہ یا حل شدہ شعاع نہیں {cite:hogendijk-alhazen-lemmas-1996 p.70 note7} {cite:commons-alhazen-problem-hb description,image,licence}۔ پہلے سے موجود عربی المناظر ماخذ1–3 کا ہے، پانچویں کا نہیں؛ یہ بیان پڑھی تحقیق سے ہے، غیر دستیاب حصہ پڑھنے کا دعویٰ نہیں۔

@@ -1,0 +1,16 @@
+id: media/diagram-razi-patient-group-comparison
+class: media
+kind: illustration
+label: { ar: "من تسجيل الحالات إلى المقارنة وحدود الاستنتاج", en: "Case recording to comparison and inferential limits", ur: "حالات کے اندراج سے تقابل اور نتیجے کی حدود تک" }
+summary: { ar: "سلسلة تعليمية، لا مخطط بروتوكول علاجي أو تجربة حديثة.", en: "Teaching chain, not a treatment protocol or modern trial diagram.", ur: "تدریسی سلسلہ، علاج کا ضابطہ یا جدید آزمائش کا نقشہ نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/razi-patient-group-comparison]
+alt:
+  ar: "تسجيل حالات سابق ثم خبر الرازي عن جماعات ومقارنة ثم قراءة تاريخية للعدد وعدم اليقين؛ لا خطوات علاج أو أعداد جماعات مخترعة."
+  en: "Earlier case recording, al-Razi's reported groups/comparison, then historical reading of numbers and uncertainty; no treatment steps or invented cohort sizes."
+  ur: "پہلے حالات کا اندراج، رازی کے منقول گروہ و تقابل، پھر عدد و عدم یقین کی تاریخی قرأت؛ علاج کے مراحل یا فرضی تعداد نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/razi-pormann-uncertainty-2013, source/tibi-razi-comparison-jll]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b53", source: "Bounded conceptual history, no copied clinical figure, intervention instructions or fabricated technical dependency" }

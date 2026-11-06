@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: published }
-provenance: { generated_by: "Devin (SWE-2 Medium); enriched by Copilot SDK in VS Code", model: "SWE-2 Medium; enrichment unknown", run: "prose-fill-persons-batch63; inventions-p3-b33", source: "المقطع الموسوعي السابق محفوظ؛ توسعة من ماكتوتر وأونات وستـانفورد ومقطع ترجمة فوبكه المقروء" }
+provenance: { generated_by: "Devin (SWE-2 Medium); enriched by Copilot SDK in VS Code", model: "SWE-2 Medium; enrichment unknown", run: "prose-fill-persons-batch63; inventions-p3-b33", source: "المقطع الموسوعي السابق محفوظ؛ توسعة من ماكتوتر وأونات وستـانفورد ومقطع ترجمة فوبكه المقروء", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b51", source: "Qualified calendar section from actual Thomann/Abdollahy and inspected Berlin witness; every earlier body/front-matter value and attribution retained." }] }
 ---
 ## موجز
 [[person/umar-khayyam|عمر الخيام]]، وهو عمر بن إبراهيم الخيام أبو الفتح، رياضي وفلكي وفيلسوف وشاعر. {cite:mawsuat-a3lam-ulama-adaba p.628}
@@ -37,3 +37,7 @@ provenance: { generated_by: "Devin (SWE-2 Medium); enriched by Copilot SDK in VS
 ## الشعر وحدود السيرة
 
 تختلف الصورة الأدبية للخيام عن قائمة مؤلفاته العلمية، كما تختلف نسبة رباعية عن صحة إنشاء رياضي؛ تناقش ستانفورد الصوتين ولا تجعل أحدهما حلاً آلياً للآخر {cite:sep-umar-khayyam sec.2.7}. لم يقرأ هذا البحث القسم الأدبي المنفصل في مدخل TDV، فلا ينسب إليه تحقيقاً شاملاً للرباعيات أو ترجمتها {cite:tdv-omer-hayyam-unat reliability note}. نثبت المساهمة من موضعها المقروء، ونحفظ الاختلاف في الأخبار بدلاً من سد الفجوات بقصة سهلة.
+
+## التقويم: الرواية والشاهد
+
+يربط [[invention/jalali-calendar|الإصلاح الجلالي]] بداية السنة بالاعتدال، لكن صلة الخيام الشخصية بتصميمه تبقى مؤهلة: ماكتوتر يذكر المشاركة، وتومان يفصل بين جماعة الإصلاح المجهولة وأسماء الراصدين، ولا يجعله بالضرورة المصمم {cite:khayyam-mactutor calendar} {cite:thomann-jalali-calendar-2021 sec.4}. نعرض الحقبة المتأخرة1079/471 مع خلاف البداية الأسبق واليوم الهجري، لا يوماً مؤكداً لاختراع فردي {cite:thomann-jalali-calendar-2021 sec.4} {cite:iranica-calendars-abdollahy Jalali subsection}. القواعد والشهور الحديثة ليست كلها قواعد القرن الحادي عشر، وورقة برلين1804 شاهد لتجاور التقاويم لا أصل بخطه أو برهان على استعمال مالي شامل {cite:iranica-calendars-abdollahy Solar-Hijri subsection} {cite:thomann-jalali-calendar-2021 sec.5 fig.5.1} {cite:berlin-astronomical-tables-211 metadata,image,rights}.
