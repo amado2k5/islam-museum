@@ -114,6 +114,8 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Current state
 
+- **Invention49 final-fetch guard:** First push stopped when main advanced through #4329 (`7b70e6187f`). Reviewed/rebased unpublished commits only; final content `ce188dd527`. All permitted gates rerun successfully with unchanged counts and all independent canary/Tabari changes retained. No tests/build/deployment or CI-success claim.
+
 - **Invention49 integrated:** Own unpublished `3bbf742f25` rebased onto reviewed main `77f5439703` through #4328 as `580840afda`. Three-way canary conflict combined all three independent entries and the invention entry. Regenerated graph/coverage/census unchanged, citations4/4, validate/authenticity0/0 errors,8402/1 warnings; preservation/depth/graph/geometry/discrepancy arithmetic and whitespace passed. Final-fetch ancestry guard then push/templatedPR/self-merge. No tests/build/deployment or CI-success claim.
 
 - **Invention49 written/permitted gates passed.**17 exact sections,1583/1926/2171 Arabic/English/Urdu main-body words; three new entities. Graph51,572 nodes/82,462 edges,49 inventions; census526 unique leads/487 active/39 excluded,266 person leads/350 prose hits. Validate49,664 entities/84,800 prose,0 errors/8402 warnings; authenticity0 errors/1 warning; citations4/4. Original maker fields/identity/three ties/sources/provenance, every prior biography byte/front-matter field and Tahdid source retained. Graph/inverse/no unsupported dependency, composition date, PD/alts/working image and independent circle/scaling/discrepancy arithmetic passed. Reviewed independent #4327/#4328; next integrate/rerun/PR/self-merge. No tests/build/deployment/Worker/workflow/code.
