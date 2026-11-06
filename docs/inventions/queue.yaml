@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: jazari-swordsman-candle-clock
+    label: "Al-Jazari's I.7 swordsman candle-clock assembly"
+    state: "[x]"
+    batch: 2
+    domain: timekeeping
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-jazari-engineer", "source/jazari-hill-1974", "source/freer-jazari-candle-clock"]
+    invention: invention/jazari-swordsman-candle-clock
+    lead_sources:
+      - "source/jazari-hill-1974 actualI.7 primary83–86 and critical252–253;83/86/253 visually inspected"
+      - "source/freer-jazari-candle-clock actual institutional catalogue/Commons PD-Art and inspected1315 image"
+    flags: [completed-D085-b45, described-improvement-not-first-candle-clock, earlier-hearsay-explicit, finite14-signals-calibrated-not-certified, not-first-bayonet-or-all-modern-clocks, six-earlier-maker-ties-retained, paper-only-no-fire-blade-or-weights]
   - id: jazari-alternating-fountain
     label: "Al-Jazari's IV.1 two-bucket alternating fountain"
     state: "[x]"
