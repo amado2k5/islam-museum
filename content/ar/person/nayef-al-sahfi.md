@@ -24,5 +24,5 @@ lang: ar
 ## المراجع
 
 - قناته على يوتيوب (ALSAHFI){cite:source/youtube-alsahfi}
-- منظمة «معًا من أجل العدالة»، صفحة قضية نايف الصحفي (11 يوليو 2026){cite:source/taj-rights-nayef-al-sahfi}
+- منظمة «معًا من أجل العدالة»، صفحة قضية نايف الصحفي ⁦(11 يوليو 2026)⁩{cite:source/taj-rights-nayef-al-sahfi}
 - موقع «سعودي ليكس»، تقرير عن اختفاء نايف الصحفي{cite:source/saudileaks-nayef-al-sahfi}
