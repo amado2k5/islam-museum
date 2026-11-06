@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: abu-kamil-irrational-coefficients
+    label: "Abu Kamil's extension of algebra to irrational coefficients as well as solutions"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/abu-kamil-shuja-ibn-aslam", "work/abu-kamil-al-jabr", "source/abu-kamil-mactutor", "source/tdv-abu-kamil", "source/dosay-abu-kamil-1990"]
+    invention: invention/abu-kamil-irrational-coefficients
+    lead_sources:
+      - "Actual complete O'Connor/Robertson MacTutor biography and Cengiz Aydin TDV main entry, selected bibliography"
+      - "Actual Dosay1990 selected pp57–60,66–68; p66 formula visually inspected; modern PD contextual triangle reverified"
+    flags: [completed-D097-b56, coefficients-distinct-from-solutions, inherited-algebra-and-euclidean-geometry, no-universal-priority, actual-author-cengiz-aydin, selected-secondary-not-primary-collation, exact-modern-expansion-not-manuscript-symbols, uncertain-life-composition-and-career, named-scholarly-muslim-basis, separate-default-sunni-frame, original-maker-and-prose-preserved, modern-triangle-not-isosceles-historical-diagram, samawal-post-conversion-still-held, paper-only]
   - id: taqi-decimal-trigonometric-tables
     label: "Taqi al-Din's decimal-angle, trigonometric-function and astronomical-table application"
     state: "[x]"
