@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "107–109، نقد256 اور فریئر1315 سے کشتی کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }] }
 ---
 ## خلاصہ
 بدیع الزمان ابو العز اسماعیل بن الرزاز جزری میکانکی حیلوں کے انجینئر اور مصنف تھے۔ ٹی ڈی وی انہیں اسلامی عالم کہتا اور کتاب کے مقدمے سے باہر زندگی کی معلومات کم بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ وہ 1181–1206ء میں [[place/amid|آمد]] کے ارتقی دربار سے وابستگی اور ناصر الدین محمود کی فرمائش پر کتاب لکھنے کا ذکر کرتا ہے، جس کی تکمیل 1205ء بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ خدمت کے سالوں کو پیدائش اور وفات کی تاریخ نہیں بنایا گیا۔
@@ -37,7 +37,12 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 گھڑیوں کا پہلا باب [[invention/jazari-castle-clock|قلعہ گھڑی]] میں سابقہ تقسیموں کی ناکامی، پھر پانی کے مخرج کی تجرباتی معايرہ بندی بیان کرتا ہے {cite:jazari-hill-1974 pp.17–18,24–25}۔ موسمی دن رات کی تقسیموں کے لیے خادم پانی واپس اور علامتیں مرتب کرتا ہے؛ سورج اور چاند دکھانا ان کے مقام کا آزاد حساب نہیں {cite:jazari-hill-1974 pp.39–41,editor-notes-I.1}۔ ہل نسخوں کے فرق سے1204 یا1206 نکالتے، ٹی ڈی وی1205 دیتا ہے؛ یہ کتاب کی تاریخ کا اختلاف ہے، ثابت تعمیراتی سال نہیں {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}۔ بوسٹن14.533 نامعلوم مصور کا1354 ورق ہے، اصل مشین یا مصنف کے ہاتھ کا خاکہ نہیں {cite:mfa-castle-clock-14533 metadata}۔
 
+## موسیقی کی کشتی اور بیان کی حد
+
+حصہII، باب4 کی [[invention/jazari-musical-boat|موسیقی والی نمائشی کشتی]] اندر کے پانی کی دفعتی حرکت سے ہاتھ اور سیٹی چلاتی، پانی بدن میں جمع کرکے اگلے دن واپس لاتی ہے {cite:jazari-hill-1974 pp.107–109}۔ تار والے ساز کی انگلیاں تار نہیں چھوتیں، تصویری فہرست کے کھونٹوں کی گنتی سابق عبارت سے مختلف ہے؛ ہل ملاحوں کی گم قوت اور پانی گھٹنے سے بڑھتے وقفے بھی بتاتے ہیں {cite:jazari-hill-1974 pp.109,256}۔ یہ محدود نظام کا بیان ہے، پہلے پروگرام شدہ روبوٹ یا دائمی حرکت کی سند نہیں۔ فریئر F1930.73،1315 کی نقل ہے جس کے خطاط فروخ بن عبد اللطیف درج ہیں، اصل مشین یا مصنف کا چہرہ نہیں {cite:freer-jazari-musical-boat catalogue}۔
+
 ## مراجع
+- کشتی: ہل107–109/نقد256؛ [[source/freer-jazari-musical-boat|فریئر F1930.73 اور حقوق کے کوائف]] {cite:jazari-hill-1974 pp.107–109,256} {cite:freer-jazari-musical-boat catalogue,rights}۔
 - ڈونلڈ ہل1974 کے ترجمے اور توضیح کے منتخب حصے {cite:jazari-hill-1974 pp.17–22,24–25,39–41,editor-notes-I.1}۔
 - بوسٹن کی باضابطہGoogle شراکتی فہرست اور1354 تصویر کی معلومات {cite:mfa-castle-clock-14533 catalogue,metadata}۔
 - سعد الدین اوکتن، «CEZERÎ, İsmâil b. Rezzâz»، ٹی ڈی وی، جلد 7، 1993ء، صفحات 505–506۔ {cite:tdv-cezeri pp. 505–506}

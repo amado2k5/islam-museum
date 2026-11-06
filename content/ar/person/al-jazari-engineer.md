@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; appended castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue, limited-reading sentence updated, not a rewrite or full-book reading" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; appended castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue, limited-reading sentence updated, not a rewrite or full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "إضافة القارب من107–109 ونقد256 وصورة فرير1315؛ حفظ كل النص السابق ونسبته" }] }
 ---
 ## موجز
 بديع الزمان أبو العز إسماعيل بن الرزاز الجزري مهندس ومؤلف في الحيل، تصفه موسوعة TDV عالماً إسلامياً، وتقول إن ما يعرف عن حياته خارج مقدمة كتابه قليل {cite:tdv-cezeri pp. 505–506}. تذكر خدمته للأرتقيين في [[place/amid|آمد]] بين 1181 و1206م وكتاباً كتبه بطلب الأمير ناصر الدين محمود، تؤرخ إتمامه بسنة 1205م {cite:tdv-cezeri pp. 505–506}. لا تتحول سنتا الخدمة إلى تاريخي ميلاد ووفاة.
@@ -37,7 +37,12 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 يشرح أول باب من قسم الساعات [[invention/jazari-castle-clock|ساعة القلعة]]، ويذكر محاولات تقسيم موروثة لم تعمل كما أراد، قبل معايرة مخرج الماء بالتجربة {cite:jazari-hill-1974 pp.17–18,24–25}. تخدم الساعة أقسام نهار وليل موسمية، وتحتاج مشغلاً يعيد الماء ويهيئ الإشارات؛ عرض الشمس والقمر ليس حساباً ذاتياً لمواضعهما {cite:jazari-hill-1974 pp.39–41,editor-notes-I.1}. مقدمة هيل تستخرج1204 أو1206 من اختلاف النسخ، بجانب1205 عندTDV؛ هذا اختلاف تأريخ الكتاب لا تاريخ بناء مثبت {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}. ورقة بوسطن14.533 مؤرخة1354 وفنانها غير مسمى، لا آلة أصلية أو رسم بخط المهندس {cite:mfa-castle-clock-14533 metadata}.
 
+## القارب الموسيقي وحدود وصفه
+
+يصف القسمII، الباب4 [[invention/jazari-musical-boat|قارب عرض موسيقي]] يستهلك ماءً محمولاً داخله على دفعات لتحريك الأيدي وإصدار صفير، مع جمع الماء في البدن وإعادته في اليوم التالي {cite:jazari-hill-1974 pp.107–109}. أصابع عازفة الوتر لا تمس الأوتار، ويخالف عدد الأوتاد في قائمة الرسم الوصف السابق؛ وينبه هيل إلى غياب آلية البحارة وإطالة الفواصل مع انخفاض الماء {cite:jazari-hill-1974 pp.109,256}. هذا وصف تركيب محدود، لا إثبات أول روبوت مبرمج أو حركة دائمة. ورقة فريرF1930.73 نسخة1315 بخط فروخ بن عبد اللطيف، لا آلة أصلية أو صورة المؤلف {cite:freer-jazari-musical-boat catalogue}.
+
 ## المراجع
+- القارب: هيل107–109 والتعليق256؛ [[source/freer-jazari-musical-boat|فريرF1930.73 وبيانات الحقوق]] {cite:jazari-hill-1974 pp.107–109,256} {cite:freer-jazari-musical-boat catalogue,rights}.
 - مختارات ترجمة دونالد هيل1974 وتعليقه على ساعة القلعة {cite:jazari-hill-1974 pp.17–22,24–25,39–41,editor-notes-I.1}.
 - فهرسة بوسطن عبرGoogle وبيانات صورة1354 {cite:mfa-castle-clock-14533 catalogue,metadata}.
 - سعد الدين أوكتن، «CEZERÎ, İsmâil b. Rezzâz»، موسوعة TDV، ج7، 1993، ص505–506. {cite:tdv-cezeri pp. 505–506}

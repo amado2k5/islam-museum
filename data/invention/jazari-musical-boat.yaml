@@ -1,0 +1,62 @@
+id: invention/jazari-musical-boat
+class: invention
+label: { ar: "قارب الجزري الموسيقي الآلي", en: "Al-Jazari's musical boat automaton", ur: "جزری کی موسیقی والی خودکار کشتی" }
+names: [{ value: "Musical boat, CategoryII chapter4", kind: alternate, lang: en }]
+summary:
+  ar: "قارب عرض ذو خزان داخلي يشغل حركات وصفيراً على فترات؛ حركة البحارة غير مشروحة والفواصل غير ثابتة، لا أول روبوت مبرمج {cite:jazari-hill-1974 pp.107–109,256}."
+  en: "Display boat whose internal reservoir intermittently drives motion and a whistle; sailor motion is unexplained and gaps not constant, not the first programmed robot {cite:jazari-hill-1974 pp.107–109,256}."
+  ur: "نمائشی کشتی کا اندرونی مخزن وقفوں سے حرکت اور سیٹی چلاتا ہے؛ ملاحوں کی حرکت غیر واضح اور وقفے غیر مستقل، پہلا پروگرام شدہ روبوٹ نہیں {cite:jazari-hill-1974 pp.107–109,256}۔"
+domain: mechanics-automata
+kind: device
+disciplines: [engineering]
+wings: [objects, ideas]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1204/1206"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Documentary range from Hill's manuscript chronology1204/1206 versus TDV1205, not a dated first launch. Freer copyDecember1315/Ramadan715 is a separate witness, no invented invention Hijri."
+    sources: [source/jazari-hill-1974, source/tdv-cezeri]
+  status_today: replaced
+origin:
+  place: place/amid
+  polity: polity/artuqid-dynasty
+  context: { ar: "سياق خدمة المؤلف الأرتقية، لا موضع نسخ ورقة1315 المثبت {cite:tdv-cezeri pp.505–506}.", en: "Author's Artuqid-service context, not a verified copying site for the1315 folio {cite:tdv-cezeri pp.505–506}.", ur: "مصنف کی ارتقی خدمت کا سیاق،1315 کے ورق کی نقل کا ثابت مقام نہیں {cite:tdv-cezeri pp.505–506}۔" }
+makers:
+  - { person: person/al-jazari-engineer, role: describer, place: place/amid, sources: [source/jazari-hill-1974] }
+attribution:
+  status: improvement
+  claim: { ar: "تركيب محدد لحركات وعرض صوتي متقطع، لا اختراع جميع الحيل أو الحواسيب.", en: "A specific integration of motion and intermittent sound, not invention of all automata or computers.", ur: "حرکت اور وقفہ وار آواز کا خاص نظام، تمام خودکار آلات یا کمپیوٹروں کی ایجاد نہیں۔" }
+  basis: { ar: "يصف المؤلف قارباً وخبرة اتزانه، ويكشف التعليق نقص بعض الآليات وتغير التوقيت {cite:jazari-hill-1974 pp.107–109,256}.", en: "Author describes a boat and its stability adjustment; commentary identifies missing mechanisms and changing timing {cite:jazari-hill-1974 pp.107–109,256}.", ur: "مصنف کشتی اور توازن کی درستی بتاتا ہے؛ تعلیق میں گم طریقے اور وقت کی تبدیلی واضح ہیں {cite:jazari-hill-1974 pp.107–109,256}۔" }
+  perspectives: []
+precursors:
+  - external: { ar: "تقليد الآلات المائية والحيل الأقدم", en: "Earlier hydraulic and mechanical traditions", ur: "سابق آبی اور میکانکی روایت" }
+    note: "Acknowledged inherited components, not a verified direct edge to one named precursor or a first use of every part."
+    sources: [source/tdv-cezeri, source/jazari-hill-1974]
+dependents:
+  - external: { ar: "نسخ الكتاب ودراسة الآلية", en: "Copies of the book and study of the mechanism", ur: "کتاب کی نقلیں اور طریقے کا مطالعہ" }
+    note: "Text/image survival, not a proven industrial route to modern programmable robots."
+    sources: [source/freer-jazari-musical-boat, source/jazari-hill-1974]
+spread: []
+impact:
+  fields: [mechanics-automata]
+  changed: { ar: "جمع تكرار العرض والحركة والصوت في قارب ذي ماء محدود {cite:jazari-hill-1974 pp.107–109}.", en: "Combined repeated display, movement and sound in a boat carrying a finite water supply {cite:jazari-hill-1974 pp.107–109}.", ur: "محدود پانی والی کشتی میں دہرائی نمائش، حرکت اور آواز جمع {cite:jazari-hill-1974 pp.107–109}۔" }
+  history: { ar: "شاهد على تركيب الحيل وعلى اختلاف النص والرسم والنقد الحديث {cite:jazari-hill-1974 pp.109,256}.", en: "Evidence of mechanical integration and differences between text, image and modern criticism {cite:jazari-hill-1974 pp.109,256}.", ur: "میکانکی ترکیب اور متن، تصویر و جدید نقد کے فرق کی شہادت {cite:jazari-hill-1974 pp.109,256}۔" }
+  significance: 3
+  why: "Distinct floating performance assembly with finite internal hydraulics, documented limitations and a surviving illustrated copy; no global priority or continuous rowing claim."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "نص وورقة مصورة، لا آلة أصلية باقية فحصناها.", en: "Text and illustrated folio, not original hardware examined here.", ur: "متن اور مصور ورق، یہاں دیکھی باقی اصل مشین نہیں۔" }
+  descendants: { ar: "لا نسب مثبت من هذه الورقة إلى كل روبوت أو آلة موسيقية لاحقة.", en: "No demonstrated descent from this folio to every later robot or musical machine.", ur: "اس ورق سے ہر بعد کے روبوٹ یا موسیقی آلے کا ثابت نسب نہیں۔" }
+media: { image: media/jazari-musical-boat-f193073, diagram: media/diagram-jazari-musical-boat }
+kids: { ar: "شريط أحداث ورقي فقط؛15 وحدة ووحدة لكل مرة تعني15 مرة مثالية كحد أقصى، لا تجربة ماء أو أوزان.", en: "Paper event strip only:15 units at1 per cycle allow at most15 ideal cycles, not a water or ballast experiment.", ur: "صرف کاغذی واقعات:15 اکائیاں، ہر بار1، زیادہ سے زیادہ15 مثالی بار؛ پانی یا وزن کی آزمائش نہیں۔" }
+sources: [source/jazari-hill-1974, source/tdv-cezeri, source/freer-jazari-musical-boat]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "Selected actualII.4 primary107–109/critical256 and inspected107/109, actual Smithsonian/Commons catalogue and PD image; own paper-only finite-cycle example" }
