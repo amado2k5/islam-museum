@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-جلال الدين فيروز الخلجي (نحو 1220 – 19 يوليو 1296) هو مؤسس الدولة الخلجية في دهلي وأول سلاطينها {cite:wikipedia-jalaluddin-khalji-ar}. تعطي المقالة الإنجليزية مولده بنحو سنة 1220 {cite:wikipedia-jalaluddin-khalji-en}. حكم سلطنة دهلي من 1290 حتى اغتياله سنة 1296 بيد ابن أخيه علاء الدين الخلجي {cite:wikipedia-jalaluddin-khalji-en}. لم يُسمِّ أي نص مقروء مذهبًا فقهيًا أو طريقة له نفسه، لذا يبقى دينه في هذا السجل غير منسوب {cite:wikipedia-jalaluddin-khalji-en}.
+جلال الدين فيروز الخلجي ⁦(نحو 1220 – 19 يوليو 1296)⁩ هو مؤسس الدولة الخلجية في دهلي وأول سلاطينها {cite:wikipedia-jalaluddin-khalji-ar}. تعطي المقالة الإنجليزية مولده بنحو سنة 1220 {cite:wikipedia-jalaluddin-khalji-en}. حكم سلطنة دهلي من 1290 حتى اغتياله سنة 1296 بيد ابن أخيه علاء الدين الخلجي {cite:wikipedia-jalaluddin-khalji-en}. لم يُسمِّ أي نص مقروء مذهبًا فقهيًا أو طريقة له نفسه، لذا يبقى دينه في هذا السجل غير منسوب {cite:wikipedia-jalaluddin-khalji-en}.
 
 ## من الوصاية إلى السلطنة
 
