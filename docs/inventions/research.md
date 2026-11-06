@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: research method
 
+## Invention46 audit — al-Jazari's twelve-letter chest lock (D-086,6 November2026)
+
+Actual existing Hill1974 shared-browser text VI.3 primary199–201 and critical268–269 fully read;199/201/268 visually inspected at215/217/284 of301. Initial discovery's VI.5 was wrong, corrected before writing; VI.4 door bolts and VI.5 sinking boat are different devices. Opening explicitly credits earlier2/4/6-letter locks. Four circular groups each have three16-letter settings: twelve letters, not search synthesis's four-letter/16^4 reduction. Nested surfaces connect to internal notched discs and a common plate/latch, described functionally without fabrication/reset/bypass steps.
+
+Hill separates missing/misdrawn components and Dublin comparisons from inferred extra plate support; his aligned-pointer drawing is a special explanatory case, not every opening setting. Physical-protection limitation retained without reproducing forcing instructions. No original machine/manuscript collation/hardware testing, first combination lock, digital computer, proven modern-lock genealogy or security guarantee. Own independent-choice paper calculation16^3=4096 per group/16^12 overall is a modern idealization, not a number attributed to al-Jazari or cracking-time measurement.
+
+Actual Commons photograph page/API/CC0 dedication/history and960×564 image inspected. Rheinpaul,3 September2026,4268×2508 original; pale ornate chest, four front controls in two rows, no visible internals. Uploader's Maastricht attribution, dating, origins and al-Jazari association not independently authenticated or promoted into invention/transmission evidence. Comparative exterior only, not original hardware or the described lid assembly; rights explicitly from photographer, not merely object's age. Modern photo date not invention date. No copyrighted Hill page reused; binary outside git.
+
+Full17-section trilingual accounts, four new entities and one unique completed queue lead. Seven earlier maker ties/identity/attribution, Hill original reading and earlier biographies retained. Paper-only toy uses four groups of three positions and two symbols per position:2^3=8,8^4=4096; clearly distinct from historical sixteen-symbol system. No real lock, tools, keys, force or other people's property. Content-only/non-impacting; tests/build founder-skipped, never deploy.
+
 ## Invention45 audit — al-Jazari's swordsman candle clock (D-085,6 November2026)
 
 Actual existing Hill1974 shared-browser text I.7 primary83–86 and critical252–253 read;83/86 visually inspected at103/106 of301,253 at269/301. Author heard of earlier lion clock but did not know mechanism: personal knowledge limit not global first. Uniform-section candle consumption empirically calibrated against independent hour reference, counterweight/cords lift candle toward fixed cap, dish uncovers14 ball chambers, ball/pouch drives wick-trimming figure then falcon release. Finite14 signals/two reserved divisions, repeated movement trials in author's account, explicit climatic limit. Not pendulum/digital computer, perpetual motion or measured precision.
