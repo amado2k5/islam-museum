@@ -1,0 +1,33 @@
+id: person/ibn-bassal
+class: person
+label: { ar: "ابن بصال", en: "Ibn Bassal", ur: "ابن بصال" }
+names:
+  - { value: "أبو عبد الله محمد بن إبراهيم بن بصال الطليطلي", kind: full, lang: ar }
+  - { value: "Abu Abd Allah Muhammad ibn Ibrahim ibn Bassal al-Tulaytuli", kind: full, lang: en }
+  - { value: "Ibn Bassal al-Andalusi", kind: alternate, lang: en }
+gender: male
+roles: [scholar]
+wings: [people]
+regions: [andalus-europe]
+periods: [period/abbasid-fragmentation]
+traditions: [sunni]
+summary:
+  ar: "فلاح ومؤلف أندلسي عمل في طليطلة وإشبيلية؛ ربط خواص الأرض والماء والموسم باختيار النبات في كتابه العملي. تواريخ حياته غير يقينية {cite:tdv-ibn-bassal biography} {cite:ibn-bassal-qasd-filaha chs.1–2}."
+  en: "Andalusi agronomist working in Toledo/Seville, linking land, water and season to crops in a practical handbook; life dates uncertain {cite:tdv-ibn-bassal biography} {cite:ibn-bassal-qasd-filaha chs.1–2}."
+  ur: "طلیطلہ اور اشبیلیہ کے اندلسی ماہر زراعت؛ عملی کتاب میں زمین، پانی اور موسم کو فصل سے جوڑا؛ سوانحی تاریخیں غیر یقینی {cite:tdv-ibn-bassal biography} {cite:ibn-bassal-qasd-filaha chs.1–2}۔"
+faith:
+  - value: sunni
+    basis: documented
+    note: "Individual Muslim basis: actual Filaha biography specifically reports his pilgrimage to Hijaz through Anonymous Botanist testimony; synopsis10 identifies pilgrimage to Mecca. Not inferred from name, country, court or TDV's Hajj-epithet argument. Sunni separately is the default frame of docs/scope.md for documented Andalusian milieu; no contrary personal tradition in read biographies, no personal madhhab certificate."
+    sources: [source/ibn-bassal-filaha-profile, source/tdv-ibn-bassal]
+relations:
+  - { type: lived_in, target: place/tulaytula, sources: [source/tdv-ibn-bassal, source/ibn-bassal-filaha-profile] }
+  - { type: lived_in, target: place/seville, sources: [source/tdv-ibn-bassal, source/ibn-bassal-filaha-profile] }
+inventions:
+  - invention: invention/ibn-bassal-soil-water-matching
+    role: describer
+    note: "Linked practical land/water/season/crop assessment, not invention of agriculture, first soil classification or modern drip irrigation."
+    sources: [source/ibn-bassal-qasd-filaha, source/ibn-bassal-filaha-profile, source/tdv-ibn-bassal]
+sources: [source/ibn-bassal-qasd-filaha, source/ibn-bassal-filaha-profile, source/tdv-ibn-bassal]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b54", source: "Actual selected Arabic/Filaha scholarly profile/Ozel TDV biography. Uncertain life dates not converted to fabricated years; reported pilgrimage/default Sunni distinction explicit. Not Nur al-Din Ibn Bisal of Alexandria; existing record untouched." }

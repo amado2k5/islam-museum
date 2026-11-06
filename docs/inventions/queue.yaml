@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: ibn-bassal-soil-water-matching
+    label: "Ibn Bassal's linked practical land, water, season and crop assessment"
+    state: "[x]"
+    batch: 2
+    domain: water-agriculture
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/ibn-bassal", "work/al-qasd-wa-al-bayan", "source/ibn-bassal-qasd-filaha", "source/ibn-bassal-filaha-profile", "source/tdv-ibn-bassal"]
+    invention: invention/ibn-bassal-soil-water-matching
+    lead_sources:
+      - "Actual revised Arabic contents and complete water/land chapters1–2, selected10 opening"
+      - "Actual scholarly-project biography/synopsis and Ozel TDV biography; inspected USDA PD contextual drawing"
+    flags: [completed-D095-b54, agriculture-not-every-chapter-as-invention, ten-compound-land-types-four-water-sources, historical-qualities-not-modern-chemistry, no-absolute-soil-science-or-drip-priority, personal-pilgrimage-not-name-inference, explicit-default-sunni-frame, uncertain-life-relocation-dates, abridgement-not-complete-compendium, different-nur-al-din-ibn-bisal-unchanged, modern-horizons-not-historical-classes, no-unsafe-waste-or-water-handling, paper-only]
   - id: razi-patient-group-comparison
     label: "Al-Razi's reported intentional patient-group comparison and medical uncertainty"
     state: "[x]"

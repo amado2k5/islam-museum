@@ -1,0 +1,81 @@
+id: invention/ibn-bassal-soil-water-matching
+class: invention
+label: { ar: "ربط الأرض والماء والنبات عند ابن بصال", en: "Ibn Bassal's linked soil, water and crop assessment", ur: "ابن بصال کی زمین، پانی اور فصل کی مربوط جانچ" }
+names:
+  - { value: "Ibn Bassal's practical land and water classification", kind: alternate, lang: en }
+summary:
+  ar: "تصنيف عملي لعشرة أنواع من الأرض وأربعة مصادر للماء، يربط الخواص والموسم بما يلائم النبات؛ لا أول زراعة أو تصنيف حديث {cite:ibn-bassal-qasd-filaha chs.1–2}."
+  en: "Practical assessment of ten land types and four water sources, linking properties and season to crops; not first farming or a modern taxonomy {cite:ibn-bassal-qasd-filaha chs.1–2}."
+  ur: "دس زمینی قسموں اور پانی کے چار ذرائع کو خواص، موسم اور فصل سے جوڑنے کی عملی جانچ؛ پہلی زراعت یا جدید درجہ بندی نہیں {cite:ibn-bassal-qasd-filaha chs.1–2}۔"
+domain: water-agriculture
+kind: method
+disciplines: [agriculture]
+wings: [ideas]
+regions: [andalus-europe]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Eleventh-century composition context; TDV dates dedication of original compendium before patron's1075 death. Not exact date of abridgement, every observation or invention; no fabricated Hijri."
+    sources: [source/tdv-ibn-bassal, source/ibn-bassal-filaha-profile]
+  status_today: transformed
+origin:
+  place: place/tulaytula
+  context:
+    ar: "التأليف في محيط طليطلة والعمل أيضاً بإشبيلية؛ لا تاريخ مؤكد لكل ملاحظة، وخلاف قبل/بعد1085 محفوظ {cite:tdv-ibn-bassal biography} {cite:ibn-bassal-filaha-profile biography}."
+    en: "Toledo composition setting and later Seville work; individual observations undated, before/after1085 relocation discrepancy retained {cite:tdv-ibn-bassal biography} {cite:ibn-bassal-filaha-profile biography}."
+    ur: "طلیطلہ کا تالیفی ماحول اور اشبیلیہ میں کام؛ ہر مشاہدے کی تاریخ نہیں،1085 سے پہلے/بعد منتقلی کا اختلاف محفوظ {cite:tdv-ibn-bassal biography} {cite:ibn-bassal-filaha-profile biography}۔"
+makers:
+  - person: person/ibn-bassal
+    role: describer
+    note: "Reported agronomic observation and systematic practical matching; sourced personal pilgrimage/default Sunni frame distinguished, no name-based identity inference or certificate of school."
+    sources: [source/ibn-bassal-qasd-filaha, source/ibn-bassal-filaha-profile, source/tdv-ibn-bassal]
+attribution:
+  status: improvement
+  claim:
+    ar: "تنظيم عملي داخل تقاليد أقدم، لا اختراع الفلاحة أو كل تصنيف للتربة."
+    en: "Practical organization within older traditions, not invention of farming or all soil classification."
+    ur: "قدیم روایتوں کے اندر عملی تنظیم، زراعت یا ہر خاکی درجہ بندی کی ایجاد نہیں۔"
+  basis:
+    ar: "النص يربط نوع الأرض بمائها وموسمها ونباتها، وينبه إلى فحص الظاهر والباطن والتجربة المتكررة {cite:ibn-bassal-qasd-filaha chs.1–2}."
+    en: "Text relates land type to water, season and crop and stresses surface/subsurface inspection and repeated experience {cite:ibn-bassal-qasd-filaha chs.1–2}."
+    ur: "متن زمین کو پانی، موسم اور فصل سے ملاتا اور اوپر/نیچے کی جانچ و مکرر تجربہ نمایاں کرتا ہے {cite:ibn-bassal-qasd-filaha chs.1–2}۔"
+precursors:
+  - external: { ar: "الممارسة الفلاحية السابقة ومحيط ابن وافد بطليطلة", en: "Earlier farming practice and Ibn Wafid's Toledo milieu", ur: "پہلے کی کھیتی اور طلیطلہ میں ابن وافد کا ماحول" }
+    note: "Association documented by TDV; no proof that absence of earlier citations means no inherited knowledge, no precise pedigree for every practice."
+    sources: [source/tdv-ibn-bassal, source/ibn-bassal-filaha-profile]
+dependents: []
+spread: []
+impact:
+  fields: [water-agriculture]
+  changed:
+    ar: "ربط ملاحظات الأرض والماء بالموسم والعمل والنبات في شرح قابل للتداول، بلا قياس إنتاج مختلق {cite:ibn-bassal-qasd-filaha chs.1–2}."
+    en: "Connected land/water observations with season, work and crops in a communicable handbook, without invented yield measurements {cite:ibn-bassal-qasd-filaha chs.1–2}."
+    ur: "زمین و پانی کے مشاہدوں کو موسم، کام اور فصل سے قابل نقل کتاب میں ملایا؛ فرضی پیداوار پیمائی نہیں {cite:ibn-bassal-qasd-filaha chs.1–2}۔"
+  history:
+    ar: "اقتباسات لاحقة وترجمة قشتالية، لا سلسلة مثبتة إلى كل علم تربة حديث {cite:tdv-ibn-bassal reception} {cite:ibn-bassal-filaha-profile biography}."
+    en: "Later quotations and Castilian translation, not a proven chain to every modern soil science {cite:tdv-ibn-bassal reception} {cite:ibn-bassal-filaha-profile biography}."
+    ur: "بعد کے اقتباسات اور قشتالی ترجمہ، ہر جدید علم مٹی تک ثابت سلسلہ نہیں {cite:tdv-ibn-bassal reception} {cite:ibn-bassal-filaha-profile biography}۔"
+  significance: 3
+  why: "Actual Arabic shows a linked, differentiated practical method; inherited agronomy and humoral/textual limits explicit, no universal priority or modern yield/chemistry claim."
+described_in: [work/al-qasd-wa-al-bayan]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "تاريخ للسؤال عن ملاءمة الأرض والماء، لا معيار كيميائي أو وصفة تسميد معاصرة {cite:ibn-bassal-qasd-filaha chs.1–2}."
+    en: "History of asking how land/water fit crops, not a chemical standard or current fertilizer prescription {cite:ibn-bassal-qasd-filaha chs.1–2}."
+    ur: "زمین و پانی کی مناسبت پوچھنے کی تاریخ، کیمیائی معیار یا موجودہ کھاد کا نسخہ نہیں {cite:ibn-bassal-qasd-filaha chs.1–2}۔"
+  descendants: { ar: "لا مساواة بين الأنواع العشرة وآفاق O/A/B/C في الصورة الحديثة.", en: "Ten historical land types do not equal the modern image's O/A/B/C horizons.", ur: "دس تاریخی زمینی قسمیں جدید تصویر کے O/A/B/C افق نہیں۔" }
+media: { image: media/ibn-bassal-soil-context, diagram: media/diagram-ibn-bassal-soil-water }
+kids:
+  ar: "قارن أسئلة البستاني على بطاقات ورقية فقط؛ لا تذق ماء مجهولاً أو تمسك مخلفات أو مواد كيميائية."
+  en: "Compare a gardener's questions on paper cards only; never taste unknown water or handle wastes or chemicals."
+  ur: "باغبان کے سوال صرف کاغذی کارڈ پر ملائیں؛ نامعلوم پانی نہ چکھیں، فضلہ یا کیمیکل نہ پکڑیں۔"
+sources: [source/ibn-bassal-qasd-filaha, source/ibn-bassal-filaha-profile, source/tdv-ibn-bassal, source/commons-usda-soil-profile]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b54", source: "Actual complete Arabic chapters1–2/contents, selected10 opening, scholarly-project synopsis and Ozel TDV. Surface/subsurface and mixed categories preserved, no all-farming priority or complete-primary claim. Contextual inspected USDA image is modern horizons, not historical classes." }
