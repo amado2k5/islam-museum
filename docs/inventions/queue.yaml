@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: arabic-fiscal-register-reform
+    label: "Abd al-Malik's Arabic fiscal-register reform"
+    state: "[x]"
+    batch: 1
+    domain: institutions-systems
+    era: first-century
+    from: scholarly-reference
+    records: ["person/abd-al-malik-ibn-marwan", "source/baladhuri-hitti-1916", "source/tdv-divan-duri"]
+    invention: invention/arabic-fiscal-register-reform
+    lead_sources:
+      - "Actual Hitti1916volumeI title and inspected printed301/465–466 scan pages"
+      - "Actual Duri phased-language/Yildiz administrative-religious paragraphs; reinspectedPD643PERF558"
+    flags: [completed-D134-b92, register-language-not-invention-of-Arabic, inherited-accounts-and-expertise-retained, Sulaiman-translator-Sarjun-response-distinct, Syrian-Iraqi-narratives-not-one-person, phases-not-simultaneous-changeover, staff-continuity-and-disruption-labelled, source81AH700-not-new-conversion, Iraqi-date-narrative-not-forced-synchronization, Hitti-pages-not-Arabic-margin-pagination, title1916not-aggregate1924, papyrus-earlier-context-not-reform-register, original-maker-source-media-prose-preserved, no-private-faith-inference-for-clerks]
   - id: muawiya-seal-copy-registry
     label: "Muawiya's seal-and-copy registry"
     state: "[x]"

@@ -17,6 +17,7 @@ open a new block on top with the new version and today's date.
 
 ### Added
 - Inventions Browser91: Muawiya's seal-and-copy registry, Arabic/English/Urdu account of checking, sealing and reference copies, with older administrative influences and attribution limits. Modern sealed letters are explicit context, not an original artifact or proof of historic wax; all earlier maker perspectives and registry prose remain intact.
+- Inventions Browser92: Abd al-Malik's Arabic fiscal-register reform, full Arabic/English/Urdu account of phased language transfer, translators and inherited expertise; earlier bilingual papyrus is context, not a reform register. Existing political assessments and all prior invention content preserved.
 - Tafsir Browser (phase 0): the proposal, the plan document `docs/plan/27-tafsir-browser.md`, and the register, plan-index, roadmap, lane and status entries for a separate wing of Qur'an commentaries, Tabari first. Approved in chat by the founder on 6 November 2026; nothing is live until the founder deploys.
 - Inventions Browser90: Abd al-Malik's epigraphic gold-coin standard in Arabic, English and Urdu, with older and transitional coinages credited, source-date differences visible, and an inspected public-domain later dinar distinguished from the first issue. No invention-of-money or modern-value claim.
 - Inventions Browser89: Umar's recurring military stipend register, Arabic-first/English/Urdu account of annual grants, monthly provisions, older administrative precedents and competing transmitted allocations; inspected Abu Yusuf pages/variant note, with contextual receipt explicitly not an original stipend ledger.
@@ -78,6 +79,8 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's commentary on verses 148 to 153 of sura 4 is filed from printed p. 350 to p. 356 (reports 10765 to 10769): the wronged person's right to speak of his wrong, the pardon of evil and the good shown, the Jews and Christians who separate God's messengers, the believers who do not separate them, and the request for a book from heaven, in Arabic, English and Urdu.
 - Al-Tabari's commentary on verses 153 to 155 of sura 4 is filed from printed p. 356 to p. 363 (reports 10770 to 10773): the request for a book from heaven and the rebuke of those who asked Moses to show them God openly, the calf and the pardon through repentance, the Mount, the gate and the Sabbath, and the breaking of the covenant with the claim that their hearts are wrapped, in Arabic, English and Urdu.
 - Al-Tabari's commentary on verses 155 to 157 of sura 4 is filed from printed p. 363 to p. 370 (reports 10774 to 10782): the sealing of hearts and the curse for the breaking of the covenant, the slander against Mary, and the reports on the likeness cast upon another in place of Jesus, in Arabic, English and Urdu.
+- Al-Tabari's commentary on verse 157 of sura 4 is filed from printed p. 371 to p. 377 (reports 10783 to 10792): the reports on the likeness cast upon a disciple in place of Jesus, the Ibn Ishaq account of the disciples and Judas, the preferred view of Wahb's first account, and the closing words on those who doubted, in Arabic, English and Urdu.
+- Al-Tabari's commentary on verse 158 of sura 4 (God raised Jesus; the Mighty and Wise) and verse 159 is filed from printed p. 378 to p. 384 (reports 10793 to 10820): the readings of the People of the Book believing in Jesus before their death, read as before Jesus' own death or at the moment of death, in Arabic, English and Urdu.
 
 ### Changed
 - The Modern Islam Browser now names the voices of worship and devotional song (founder's request, 6 November 2026): four person roles, `reciter`, `muezzin`, `munshid` and `sufi-singer`, join the role list, and the Figures section gains a field, "Reciters, muezzins and munshids", listed first so that a reciter who also preaches is filed with the reciters. The 48 person records that already carry one of these roles are gathered there at once (those with a dated fact from 1976 on appear in the browser). Three audio genres are added for recordings: Qur'an recitation and the call to prayer, each labelled "not music" in all three languages, and Sufi inshad and hadra. The operative prompt and plan 26 say how to write these records (riwaya, the muezzin's mosque and years, Qur'an text never typed, a Sufi repertoire never taken as a faith attestation), and the seeds list several hundred named leads with their generators.
@@ -85,6 +88,52 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses (scope corrected, batch 124): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 123): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 122): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 121): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 120): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 119): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 118): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 117): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 116): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 115): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 114): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 113): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 112): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 111): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 110): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 109): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 108): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 107): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 106): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 105): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 104): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 103): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 102): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 101): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 100): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 99): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 98): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 97): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 96): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 95): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 94): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 93): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 92): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 91): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 90): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 89): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 88): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 87): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 86): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 85): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 84): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 83): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 82): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 81): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 80): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 79): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
 - Arabic parentheses (scope corrected, batch 78): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
 - Arabic parentheses (scope corrected, batch 77): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
 - Arabic parentheses (scope corrected, batch 76): brackets are isolated only inside Arabic values in 100 data files. English and Urdu text is left exactly as it was.
