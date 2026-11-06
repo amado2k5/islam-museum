@@ -2,6 +2,31 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: karaji-qanat-surveying
+    label: "Al-Karaji's levelling and tunnel-alignment methods"
+    state: "[x]"
+    batch: 2
+    domain: water-agriculture
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-karaji", "source/karaji-inbat-ljs399"]
+    invention: invention/karaji-qanat-surveying
+    lead_sources:
+      - "source/karaji-ataie-simmons-2020 pp.761–769, full article actually read"
+      - "source/karaji-inbat-ljs399 actual catalogue/IIIF26r,29r,42r,45v"
+    flags: [completed-D081-b41, refinement-not-first-qanat-or-surveying, limited-selected-primary-reading, copy-date1674-vs-caption1675, no-modern-Darcy-or-water-safety-claim, original-maker-attribution-retained]
+  - id: ibn-sahl-refraction
+    label: "Ibn Sahl's geometrical refraction and lens methods"
+    state: "[~]"
+    batch: 2
+    domain: optics-physics
+    era: abbasid-golden
+    from: scholarly-reference
+    lead_sources:
+      - "Roshdi Rashed1990, actual pp.464–466, https://docs.backyardbrains.com/assets/files/Rashed_1990_Ibn_Sahl-1217e5cb58ff82aad5837f902df966c7.pdf"
+      - "Actual Iranica optics context: https://www.iranicaonline.org/articles/optics/"
+      - "FSTC biography is Wikipedia-derived discovery only: https://muslimheritage.com/people/scholars/ibn-sahl/"
+    flags: [held-D081-awaiting-individual-Muslim-identity-basis, no-affiliation-from-name-or-Buyid-court, TDV-ibn-sehl-is-different-Andalusian-poet, technical-primary-promising-not-yet-full-read]
   - id: biruni-displacement-vessel
     label: "Al-Biruni's conical displaced-water collecting vessel"
     state: "[x]"

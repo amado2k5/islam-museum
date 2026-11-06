@@ -3,6 +3,8 @@ id: person/al-karaji
 lang: ur
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
+status: { review: published }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b41", source: "Retained earlier biography and Claude-origin attribution; translated appended Arabic surveying section from actual HESS761–769/Penn selected leaves/catalogue, not whole primary book" }
 ---
 ## حساب اور انجینئرنگ کے درمیان
 ابو بکر الکرجی ریاضی دان و انجینئر تھے جن کی اہم ریاضیاتی تصانیف بغداد سے وابستہ تھیں؛ ٹی ڈی وی بویہی دور کی فخر الملک کی سرپرستی اور «الفخری» بیان کرتا ہے {cite:tdv-kereci pp. 277–278}۔ میک ٹیوٹر الجبرا کے کام کے بعد شہر چھوڑ کر بعد کی انجینئرنگ دل چسپیاں بتاتا ہے {cite:karaji-mactutor Biography}۔ قطعی پیدائش یا وفات نہیں دی جاتی: ٹی ڈی وی وفات410/1019 کے بعد رکھتا ہے، اور سوانحی ماخذ مختلف اندازے و تعبیرات پیش کرتے ہیں {cite:tdv-kereci pp. 277–278} {cite:karaji-mactutor Biography}۔
@@ -16,7 +18,12 @@ translators: ["Copilot SDK in VS Code"]
 ## تصانیف اور استفادہ
 ٹی ڈی وی «الفخری»، «البدیع»، «الکافی»، «انباط المیاہ الخفیہ» اور ان کی تحقیق گنواتا ہے؛ میک ٹیوٹر سموأل کے بعض نتائج سے استفادے کا ذکر کرتا ہے {cite:tdv-kereci pp. 277–278} {cite:karaji-mactutor Biography}۔ یہاں ووپکے1853 کے اصل مطبوعہ صفحات3–4 کا تاریخی دیباچہ ہی پڑھا گیا، مکمل جبری متن نہیں {cite:karaji-woepcke-1853 pp. 3–4}۔ سوانح سے منقول مطالعات پڑھے گئے ماخذ سے منسوب ہیں، الگ اصل مطالعات پڑھنے کا دعویٰ نہیں۔ ابتدائی اندراج کی Claude Haiku5.5 سے نسبت برقرار ہے؛ اس کا پرانا سزگین حوالہ اس اضافے میں الگ نہیں پڑھا گیا اور نئے حقائق کی بنیاد نہیں۔
 
+## تسویہ اور آبی راستے
+اس کے [[invention/karaji-qanat-surveying|تسویہ اور سرنگ کی سیدھ کے رہنما]] میں میزان اور ہندسی توضیح قدیم قنات کی روایت کا حصہ ہیں، ہر نالی یا کنویں کی ایجاد نہیں {cite:karaji-ataie-simmons-2020 pp.762–768}۔26r میزانوں کی وضع مصنف سے منسوب کرکے ڈھانچا اور شاقول دکھاتا ہے؛29r،42r اور45v بھی محدود طور پر دیکھے، مکمل کتاب کی تحقیق نہیں کی {cite:karaji-inbat-ljs399 ff.26r,29r,42r,45v}۔ پین نقل1674 دیتا،2020 کی تصویری عبارتیں1675 دیتی ہیں؛ یہ نسخے کا سال ہے، ایجاد کا سال نہیں {cite:karaji-inbat-ljs399 catalogue} {cite:karaji-ataie-simmons-2020 pp.766,769}۔ مقالہ اب پورا پڑھا گیا؛ اولیت کی تجویز اور جدید آبی تعبیر مصنفین کی رائے رہتی ہے، دارسی قانون یا حفاظتی معیار نہیں {cite:karaji-ataie-simmons-2020 pp.761–769}۔
+
 ## مراجع
+- {cite:karaji-inbat-ljs399 catalogue,ff.26r,29r,42r,45v}
+- {cite:karaji-ataie-simmons-2020 pp.761–769}
 - {cite:karaji-mactutor Biography; references}
 - {cite:tdv-kereci pp. 277–278}
 - {cite:karaji-ataie-simmons-2020 p. 762}
