@@ -1,10 +1,28 @@
 id: person/ziryab
 class: person
-label: { ar: "زرياب" }
+label: { ar: "زرياب", en: "Ziryab", ur: "زریاب" }
 summary:
-  ar: "علي بن نافع المعروف بزرياب المغني؛ مولى المهدي ومتعلم إبراهيم الموصلي، قدم على عبد الرحمن بن الحكم من العراق سنة ٢٠٦هـ فركب الأمير بنفسه لتلقيه وبالغ في إكرامه وأقام عنده بخير حال وأورث صناعة الغناء بالأندلس وخلف أولاده في صناعته وحظوته {cite:nafh-tib-maqqari p. 380}. وكان الغزال أقذع في هجائه فذكر ذلك لعبد الرحمن فأمر بنفيه فدخل العراق {cite:nafh-tib-maqqari p. 262 v.2}."
-  en: "Ali ibn Nafi, called Ziryab — al-Mahdi's freedman and Ibrahim al-Mawsili's pupil — reached Abd al-Rahman II in AH 206 and the emir rode out himself to meet him; he bequeathed al-Andalus its craft of song, and the poet al-Ghazzal's savage lampoon of him was what sent al-Ghazzal into exile {cite:nafh-tib-maqqari p. 380, v.2 p. 262}."
+  ar: "علي بن نافع، موسيقي ارتبط ببغداد والقيروان وقرطبة؛ تنسب إليه إضافة وتر خامس للعود، وتحفظ نقدية المصادر فرق الفنان التاريخي والصورة المثالية المتأخرة {cite:tdv-ziryab-arslan-erkocoglu pp.464–465} {cite:reynolds-ziryab-2008 pp.155–166}."
+  en: "Ali ibn Nafi, musician associated with Baghdad, Kairouan and Cordoba; attributed a fifth oud string, with source criticism distinguishing the historical artist from his later idealized portrait {cite:tdv-ziryab-arslan-erkocoglu pp.464–465} {cite:reynolds-ziryab-2008 pp.155–166}."
+  ur: "علی بن نافع، بغداد، قیروان اور قرطبہ سے وابستہ موسیقار؛ عود کی پانچویں تار منسوب ہے، ماخذ کی تنقید تاریخی فنکار اور بعد کی مثالی تصویر کا فرق رکھتی ہے {cite:tdv-ziryab-arslan-erkocoglu pp.464–465} {cite:reynolds-ziryab-2008 pp.155–166}۔"
+names:
+  - { value: "أبو الحسن علي بن نافع", kind: nasab, lang: ar }
 gender: male
+roles: [musician, poet]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Muslim basis: actual Al Jazeera14 June2022 biographical feature explicitly presents Ziryab in its Muslim Scholars series, a named editorial biographical classification, not self-reported belief. Sunni is separately the default frame under docs/scope.md/operative brief3 for the documented Abbasid/Umayyad milieu; no contrary denomination in the actual TDV/Reynolds portions read, not personal madhhab evidence. Never infer religion from name, patron, country or Reynolds's probable convert-parent hypothesis."
+    sources: [source/aljazeera-ziryab-2022, source/tdv-ziryab-arslan-erkocoglu]
+died:
+  edtf: "0852"
+  hijri: "0238"
+  calendar: julian
+  precision: year
+  status: tradition
+  note: "TDV chronology238/852, not an invention date; birth uncertain. Other biographical chronologies differ, as Reynolds notes. No exact birth year copied from the old unsourced child-level text."
+  sources: [source/tdv-ziryab-arslan-erkocoglu, source/reynolds-ziryab-2008]
 wings: [people]
 periods: [period/abbasid-early]
 regions: [andalus-europe]
@@ -13,14 +31,20 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ج١ ص 380 وج٢ ص 262"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-63
-sources: [source/nafh-tib-maqqari]
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b31", source: "Actual Maqqari3:122–129, TDV2013, Reynolds2008 selected passages and Al Jazeera biographical introduction. Earlier Devin authorship and al-Ghazzal2:262 account retained, that separate passage not re-read here; earlier Haiku translation attribution preserved in prose. Added identity/claim limits, sourced chronology and maker tie." }
+relations:
+  - { type: lived_in, target: place/cordoba, sources: [source/tdv-ziryab-arslan-erkocoglu] }
+inventions:
+  - { invention: invention/ziryab-fifth-string, role: improver, note: "Attributed addition to an inherited instrument, contested source history; not invention of the oud.", sources: [source/nafh-tib-maqqari, source/reynolds-ziryab-2008] }
+sources: [source/nafh-tib-maqqari, source/tdv-ziryab-arslan-erkocoglu, source/reynolds-ziryab-2008, source/aljazeera-ziryab-2022]
 education:
   did_you_know:
-    ar: "زرياب مولى المهدي ومتعلم إبراهيم الموصلي قدم الأندلس سنة ٢٠٦هـ، فركب الأمير لتلقيه وأورثها صناعة الغناء."
-    en: "Ziryab, pupil of Ibrahim al-Mawsili, reached al-Andalus in 206 AH; the amir rode out to receive him, and he bequeathed it the craft of song."
-    ur: "زریاب ابراہیم موصلی کا شاگرد 206ھ میں الاندلس پہنچا؛ امیر اس کے استقبال کو خود نکلا اور اس نے وہاں گانے کے فن کی روایت چھوڑی۔"
-    sources: [source/nafh-tib-maqqari, source/mawsuat-a3lam-ulama-adaba]
+    ar: "تنسب لزرياب إضافة وتر إلى العود، لا اختراع الآلة؛ يميز المؤرخون الخبر المتأخر من شهادة معاصرة."
+    en: "Ziryab is attributed an extra oud string, not invention of the instrument; historians distinguish the later account from contemporary testimony."
+    ur: "زریاب سے عود کی اضافی تار منسوب ہے، ساز کی ایجاد نہیں؛ مورخ بعد کی روایت اور معاصر شہادت کو الگ رکھتے ہیں۔"
+    sources: [source/nafh-tib-maqqari, source/reynolds-ziryab-2008]
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); extended by Copilot SDK in VS Code" }

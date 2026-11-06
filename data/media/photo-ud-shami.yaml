@@ -4,22 +4,30 @@ kind: image
 label:
   ar: 'صورة: عود'
   en: 'Photo: Oud'
+  ur: 'تصویر: عود'
 summary:
-  ar: صورة القطعة من موقع المتحف، مضمّنة بلا نسخ.
-  en: The museum's photograph of the object, embedded without copying.
+  ar: "صورة عود غرب آسيوي، أواخر القرن التاسع عشر إلى أوائل العشرين، من كليفلاند؛ مقارنة متأخرة لا عود زرياب {cite:cleveland-oud-1918-350 catalogue and API}."
+  en: "Cleveland photograph of a late1800s–early1900s West Asian oud; later comparison, not Ziryab's instrument {cite:cleveland-oud-1918-350 catalogue and API}."
+  ur: "کلیولینڈ کے اواخر انیسویں تا اوائل بیسویں صدی مغربی ایشیائی عود کی تصویر؛ بعد کا تقابل، زریاب کا ساز نہیں {cite:cleveland-oud-1918-350 catalogue and API}۔"
 url: https://openaccess-cdn.clevelandart.org/1918.350/1918.350_web.jpg
 thumbnail: https://openaccess-cdn.clevelandart.org/1918.350/1918.350_print.jpg
 license: CC0
-attribution: Cleveland Museum of Art; Open Access (CC0)
+attribution: "Cleveland Museum of Art,1918.350; Charles G. King Jr. collection, gift of Ralph King in his memory; Open Access CC0, unchanged."
 depicts:
 - object/ud-shami
 alt:
-  ar: صورة القطعة «عود» من مجموعة المتحف المفتوحة
-  en: Photograph of Oud from the museum's open collection
-  ur: میوزیم کے کھلے ذخیرے سے «Oud» کی تصویر
+  ar: "عود خشبي بني بقصعة كمثرية وفتحة مزخرفة وعنق طويل وأوتار ومفاتيح؛ آلة متأخرة لا نموذج موثق لعود زرياب."
+  en: "Brown wooden oud with pear-shaped body, decorated soundhole, neck, strings and pegs; much later instrument, not a documented Ziryab reconstruction."
+  ur: "ناشپاتی نما بھورے لکڑی کے عود کا جسم، سجا ہوا صوتی سوراخ، گردن، تار اور کھونٹیاں؛ بہت بعد کا ساز، زریاب کی مستند نقل نہیں۔"
 sources:
 - source/cleveland-open-access
+- source/cleveland-oud-1918-350
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
   generated_by: Devin (SWE-2 High), scripts/harvest/objects/images.py; remote URL only, no copy
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b31"
+  source: "Prior image import by Devin retained; actual catalogue/API licence and full photograph inspected; added trilingual date/context/alt without changing image"

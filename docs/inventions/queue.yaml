@@ -3259,13 +3259,14 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: ziryab-fifth-string
     label: "The tradition of Ziryab's fifth string"
-    state: "[~]"
+    state: "[x]"
     batch: 3
     domain: music-instruments
     era: abbasid-golden
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["tradition-not-established-fact"]
+    record: invention/ziryab-fifth-string
+    lead_sources: ["source/nafh-tib-maqqari v.3 p.126", "source/tdv-ziryab-arslan-erkocoglu pp.464–465", "source/reynolds-ziryab-2008 pp.155–166", "source/aljazeera-ziryab-2022 introductory identity classification"]
+    flags: [D-070, attributed-refinement-not-invention-of-oud, source-critical-perspectives-not-experimental-disproof, exact-invention-year-unestablished, named-muslim-biographical-classification, sunni-default-not-personal-school, later-cleveland-oud-not-original-or-reconstruction]
   - id: museum-record-person-amir-khusrow
     label: "Museum lead for Amir Khusrow"
     state: "[~]"

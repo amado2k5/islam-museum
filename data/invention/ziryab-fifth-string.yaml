@@ -1,0 +1,101 @@
+id: invention/ziryab-fifth-string
+class: invention
+label: { ar: "الوتر الخامس المنسوب لزرياب", en: "Ziryab's reported fifth oud string", ur: "زریاب سے منسوب عود کی پانچویں تار" }
+names:
+  - { value: "Ziryab's five-string oud tradition", kind: alternate, lang: en }
+summary:
+  ar: "إضافة وتر أحمر إلى عود موروث ذي أربعة أوتار في خبر المقري؛ نسبة تاريخية تحفظ معها نقدية المصادر، لا اختراع العود {cite:nafh-tib-maqqari v.3 p.126} {cite:reynolds-ziryab-2008 pp.155–158,166}."
+  en: "A red string added to an inherited four-string oud in Maqqari's account; attributed refinement with source-critical limits, not invention of the oud {cite:nafh-tib-maqqari v.3 p.126} {cite:reynolds-ziryab-2008 pp.155–158,166}."
+  ur: "مقری کی روایت میں موروثی چار تار کے عود میں سرخ تار کا اضافہ؛ ماخذ کی تنقیدی حدود کے ساتھ منسوب ترمیم، عود کی ایجاد نہیں {cite:nafh-tib-maqqari v.3 p.126} {cite:reynolds-ziryab-2008 pp.155–158,166}۔"
+domain: music-instruments
+kind: instrument
+disciplines: [music]
+wings: [ideas, made]
+regions: [andalus-europe]
+periods: [period/abbasid-early]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "08XX"
+    calendar: julian
+    precision: century
+    status: tradition
+    note: "Broad ninth-century event setting of the reported Andalusi refinement, not the seventeenth-century compendium's composition date or a surviving ninth-century instrument. Exact invention year and Hijri date unestablished; do not infer them from arrival822 or death238/852."
+    sources: [source/tdv-ziryab-arslan-erkocoglu, source/nafh-tib-maqqari]
+  status_today: transformed
+origin:
+  place: place/cordoba
+  context:
+    ar: "قرطبة الأموية سياق حياة زرياب وتعليمه؛ يحدد المقري الأندلس للإضافة ولا يسمي ورشة أو يوماً {cite:nafh-tib-maqqari v.3 p.126} {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}."
+    en: "Umayyad Cordoba is the biographical/teaching setting; Maqqari locates the addition in al-Andalus without a workshop or day {cite:nafh-tib-maqqari v.3 p.126} {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}."
+    ur: "اموی قرطبہ سوانح و تدریس کا سیاق ہے؛ مقری اضافہ الاندلس میں بتاتے ہیں، کارگاہ یا دن نہیں {cite:nafh-tib-maqqari v.3 p.126} {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}۔"
+makers:
+  - person: person/ziryab
+    role: improver
+    place: place/cordoba
+    note: "Attributed improver, not inventor of the oud or proven universal first fifth string. Muslim basis is named Al Jazeera biographical-series classification; Sunni frame separately declared, not a personal madhhab claim."
+    sources: [source/nafh-tib-maqqari, source/tdv-ziryab-arslan-erkocoglu, source/aljazeera-ziryab-2022]
+attribution:
+  status: contested
+  claim:
+    ar: "ترميم منسوب للعود بإضافة خامسة؛ لا أسبقية عالمية مثبتة أو نسب حتمي إلى الغيتار."
+    en: "Attributed refinement by adding a fifth string; no established universal priority or inevitable guitar descent."
+    ur: "پانچویں تار کی منسوب ترمیم؛ ثابت عالمی سبقت یا لازمی گٹار کا نسب نہیں۔"
+  basis:
+    ar: "المقري ينسب الإضافة صراحة؛ رينولدز يكشف بناء سيرته من أصوات أقدم وتهذيبها، فلا تجعل إعادة الرواية أدلة مستقلة {cite:nafh-tib-maqqari v.3 p.126} {cite:reynolds-ziryab-2008 pp.158–166}."
+    en: "Maqqari explicitly attributes the addition; Reynolds exposes his editing of older voices, so retellings are not independent confirmations {cite:nafh-tib-maqqari v.3 p.126} {cite:reynolds-ziryab-2008 pp.158–166}."
+    ur: "مقری صراحت سے اضافہ منسوب کرتے ہیں؛ رینلڈز پرانی آوازوں کی تدوین دکھاتے ہیں، اس لیے بازگفت الگ تصدیق نہیں {cite:nafh-tib-maqqari v.3 p.126} {cite:reynolds-ziryab-2008 pp.158–166}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-frame-attributed-account
+      summary:
+        ar: "ضمن الإطار السني يعرض خبر المقري منسوباً إليه: وتر أحمر بين المثلث والمثنى يمثل النفس في تشبيه الأخلاط، لا حكماً على الموسيقى {cite:nafh-tib-maqqari v.3 p.126}."
+        en: "Sunni frame presents Maqqari's attributed red string between mathlath and mathna, symbolizing soul in the humour analogy, not a ruling on music {cite:nafh-tib-maqqari v.3 p.126}."
+        ur: "سنی سیاق میں مقری کی منسوب سرخ تار مثلث و مثنیٰ کے بیچ اخلاط کی تمثیل میں روح ہے، موسیقی پر حکم نہیں {cite:nafh-tib-maqqari v.3 p.126}۔"
+      sources: [source/nafh-tib-maqqari]
+    - tradition: academic
+      id: reynolds-source-critical-reading
+      summary:
+        ar: "مقارنة رينولدز تبين سيرة مثالية مركبة من مصادر أقدم؛ تحذر من صورة العبقري المنفرد، ولا تختبر وتراً أو تثبت أن كل تفصيل كاذب {cite:reynolds-ziryab-2008 pp.158–166}."
+        en: "Reynolds shows an idealized composite from older sources; caution about solitary genius, not a string test or proof every detail is false {cite:reynolds-ziryab-2008 pp.158–166}."
+        ur: "رینلڈز قدیم ماخذ سے مرتب مثالی تصویر دکھاتے ہیں؛ تنہا نابغے سے احتیاط، تار کا تجربہ یا ہر جزو جھوٹ ہونے کا ثبوت نہیں {cite:reynolds-ziryab-2008 pp.158–166}۔"
+      sources: [source/reynolds-ziryab-2008]
+precursors:
+  - external: { ar: "العود ذو الأوتار الأربعة في الرواية", en: "Four-string oud inherited in the account", ur: "روایت کا موروثی چار تار والا عود" }
+    note: "Named inherited instrument, not invented by Ziryab; no fabricated first maker."
+    sources: [source/nafh-tib-maqqari]
+dependents: []
+spread: []
+impact:
+  fields: [music-instruments]
+  changed:
+    ar: "توسيع إمكانات العود في وصف الراوي مع تعليم الغناء؛ لا قياس حديث لمنظومة نغمية محفوظة {cite:nafh-tib-maqqari v.3 pp.126,128–129}."
+    en: "Expanded oud possibilities in the narrator's account alongside singing instruction, not a measured preserved tuning system {cite:nafh-tib-maqqari v.3 pp.126,128–129}."
+    ur: "راوی کے بیان میں عود کی وسعت اور گانے کی تعلیم، کوئی ناپا ہوا محفوظ نظامِ سر نہیں {cite:nafh-tib-maqqari v.3 pp.126,128–129}۔"
+  history:
+    ar: "محور في الذاكرة الموسيقية الأندلسية، مع نقد للصورة التي تجمع تحول الثقافة في شخص واحد {cite:reynolds-ziryab-2008 pp.155–156,166}."
+    en: "A focus of Andalusi musical memory, with criticism of making one person embody an entire cultural transformation {cite:reynolds-ziryab-2008 pp.155–156,166}."
+    ur: "اندلسی موسیقی کی یاد کا مرکز، ساتھ پوری تہذیبی تبدیلی ایک شخص میں سمیٹنے پر تنقید {cite:reynolds-ziryab-2008 pp.155–156,166}۔"
+  significance: 3
+  why: "Bounded early music-instrument attribution with actual Arabic technical account and modern source criticism, distinguished from inherited instrument and later comparison."
+described_in: []
+examples: [object/ud-shami]
+sites: []
+concepts: []
+today:
+  form:
+    ar: "العود باق آلة موسيقية؛ المثال المصور متأخر بقرون وليس عود زرياب {cite:cleveland-oud-1918-350 catalogue}."
+    en: "Oud remains a musical instrument; photographed example is centuries later, not Ziryab's oud {cite:cleveland-oud-1918-350 catalogue}."
+    ur: "عود آج بھی ساز ہے؛ دکھایا ہوا نمونہ صدیوں بعد کا ہے، زریاب کا نہیں {cite:cleveland-oud-1918-350 catalogue}۔"
+  descendants:
+    ar: "المتحف يذكر عائلة العود والعود الأوروبي، ولا يثبت ذلك وحده طريقاً من الوتر الخامس إلى غيتار معين {cite:cleveland-oud-1918-350 catalogue}."
+    en: "Catalogue discusses the lute family; this alone does not establish a fifth-string route to a particular guitar {cite:cleveland-oud-1918-350 catalogue}."
+    ur: "کتابی اندراج عود کے خاندان کو بیان کرتا ہے؛ صرف اس سے پانچویں تار سے کسی گٹار تک راستہ ثابت نہیں {cite:cleveland-oud-1918-350 catalogue}۔"
+media: { image: media/photo-ud-shami, diagram: media/diagram-ziryab-fifth-string }
+kids:
+  ar: "قارن آلة في صورة متحف وحكاية عن آلة أقدم. زيادة وتر في الحكاية فكرة موسيقية؛ الصورة المتأخرة ليست برهاناً على صاحبها الأول."
+  en: "Compare a museum instrument with an account of an older one. An extra string is a musical idea in the account; a later photograph does not prove its first maker."
+  ur: "میوزیم کے ساز کو پرانے ساز کی روایت سے ملائیں۔ روایت میں اضافی تار ایک موسیقی کا خیال ہے؛ بعد کی تصویر پہلے بنانے والے کا ثبوت نہیں۔"
+sources: [source/nafh-tib-maqqari, source/tdv-ziryab-arslan-erkocoglu, source/reynolds-ziryab-2008, source/aljazeera-ziryab-2022, source/cleveland-oud-1918-350]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b31", source: "Actual Maqqari3:122–129 online, especially126; TDV biography, selected Reynolds2008 article portions, named Muslim-series classification in Al Jazeera introduction; inspected later CC0 Cleveland oud. No original Ibn Hayyan manuscript, exact invention year, universal priority or reconstructed tuning claimed" }
