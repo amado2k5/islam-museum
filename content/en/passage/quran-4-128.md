@@ -54,6 +54,20 @@ Reports 10609 to 10614 explain the soul's being present to avarice. Through Ibn 
 
 Reports 10615 to 10617, through Sa'id ibn Jubayr, from Abu Bishr, Shu'ba and Ibn al-Mubarak, say that the wife's soul is eager for her share from her husband, of his self and his wealth. Report 10618, from Sa'id ibn Jubayr through a man and Sufyan, says it concerns maintenance. {cite:tafsir-tabari-shakir-v09 p. 280}
 
-We stop here after report 10618 at p. 280, and will continue from report 10619 in the commentary on verse 128 of sura 4. {cite:tafsir-tabari-shakir-v09 p. 280}
+Reports 10619 to 10621, through Ibn Mahdi, Sufyan, al-Shaybani and Bukayr ibn al-Akhnas from Sa'id ibn Jubayr, say the avarice concerns days and maintenance (10619 and 10620); report 10621, through Shu'ba and Abu Bishr, says the wife is greedy for her husband's wealth and person. {cite:tafsir-tabari-shakir-v09 p. 281}
+
+Report 10622, through Sa'id ibn Jubayr, Sharik and Salim, says that when the verse on a wife who fears ill-treatment was revealed, a woman said, 'I want you to share yourself with me,' though she had accepted that he leave her, neither divorcing her nor visiting her; so God sent down the verse on avarice. Report 10623, from al-Suddi, says the soul reaches out to the husband and his maintenance, and claims the verse was revealed about the Prophet and Sawda bint Zam'a: she had grown old and he wished to divorce her; they agreed that he keep her and give her day to A'isha, and she was stingy of her place with him. {cite:tafsir-tabari-shakir-v09 p. 281}
+
+Others say that the soul of each, husband and wife, is stingy with its right before the other. Report 10624, from Ibn Zayd through Ibn Wahb, says his soul is not content to give her anything and so release him, and her soul is not content to give him anything of her wealth and so win him to herself. Report 10625, from Ibn Abbas through Mu'awiya and Ali ibn Abi Talha, says that avarice is the desire for a thing one is eager for. {cite:tafsir-tabari-shakir-v09 p. 282}
+
+Al-Tabari prefers that the verse means that the souls of women are present with avarice for their shares from their husbands, in days and in maintenance. Avarice (shuh) is excess of eagerness for a thing; here it is the woman's excessive eagerness for her share of his days and her maintenance. {cite:tafsir-tabari-shakir-v09 p. 282}
+
+He rejects the view that both husband and wife are meant. A husband's settlement that buys off his wife's turn with a gift from his wealth is not lawful: a reward (ju'l) must be against something of value, a thing or a benefit, and the husband gets neither from forgoing her turn, so it falls under eating wealth falsely. He meets an objection from pre-emption, where a claimant's right can be bought off, by pointing to the agreement that a settlement for a consideration in pre-emption is invalid, which shows that the husband's settlement for a consideration to forgo her turn is invalid too. {cite:tafsir-tabari-shakir-v09 p. 282}
+
+Once that view fails, the sense of the verse is as he states: the souls of women are present with avarice for their rights from their husbands. The report of Rafi' ibn Khadij from Sa'id ibn al-Musayyab and Sulayman ibn Yasar (10600) makes this clear. {cite:tafsir-tabari-shakir-v09 p. 283}
+
+On the closing words: if you men do good to your wives, when you dislike their plainness, their character or their hurt, by bearing with them, giving them their rights, and living with them honourably; and fear God by not wronging them in what is due to a wife you dislike, in division, maintenance and honourable company. {cite:tafsir-tabari-shakir-v09 p. 283}
+
+Al-Tabari glosses the word for aware (khabir) as the knowing one, from whom nothing is hidden: God knows what you do regarding your wives, good or wrong, and will repay each of you for it, the doer of good for his good and the doer of ill for his ill. {cite:tafsir-tabari-shakir-v09 p. 284}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
