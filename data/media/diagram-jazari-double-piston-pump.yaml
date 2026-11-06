@@ -1,0 +1,29 @@
+id: media/diagram-jazari-double-piston-pump
+class: media
+kind: illustration
+label:
+  ar: "رسم: تقاليد رفع الماء ومضخة الجزري وإعادة البناء"
+  en: "Diagram: water-raising traditions, al-Jazari's pump and reconstructions"
+  ur: "خاکہ: پانی اٹھانے کی روایت، جزری کا پمپ اور تعمیر نو"
+summary:
+  ar: "سلسلة علاقات يرسمها الموقع عند البناء؛ يشرح النص الدولاب والتروس والقضيب المشقوق، ولا يدعي هذا الرسم أنه مخطط ميكانيكي بمقياس."
+  en: "A relationship chain drawn by the site at build time; the text explains wheel, gears and slotted rod. This is not a scale mechanical plan."
+  ur: "سائٹ کی تعمیر پر بننے والا تعلقاتی سلسلہ؛ متن پہیہ، گیئر اور شگاف دار ڈنڈا سمجھاتا ہے۔ یہ پیمانے والا میکانکی نقشہ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/jazari-double-piston-pump]
+alt:
+  ar: "تقاليد الهندسة ورفع الماء تسبق مضخة الجزري ذات المكبسين، وتتبعها إعادة بناء متحفية ودراسة؛ لا سهم مباشر إلى محرك بخاري بعينه."
+  en: "Earlier engineering and water-raising traditions precede al-Jazari's paired-piston pump, followed by museum reconstruction and study; no direct arrow to a particular steam engine."
+  ur: "پہلے کی انجینئرنگ اور پانی اٹھانے کی روایت سے جزری کے دو پسٹن پمپ، پھر میوزیم تعمیر نو اور مطالعے تک؛ کسی خاص بھاپ انجن تک براہ راست تیر نہیں۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)"
+  version: "1"
+  date: "2026-11-06"
+sources: [source/tdv-cezeri, source/smg-jazari-double-pump]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b17"
+  source: "TDV CEZERÎ engineering context; Science Museum Group reconstruction catalogue"

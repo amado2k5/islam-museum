@@ -552,3 +552,17 @@ Scope of the sign-off is limited to the exact class, enums, predicates, existing
 **Scope and risk:** `non-impacting`, approved inventions content. Six new entities, six prose files; no schema, code, UI, Worker, workflow or submission-document changes.
 
 **Touches:** invention, person, two sources and two media records; ar/en/ur invention and person articles; inventions documentation and generated reports; `CANARY.md`.
+
+## D-054 — Record al-Jazari's paired-piston pump without a universal pumping priority claim (6 November 2026)
+
+**Question:** Can the existing double-acting suction-pump lead be completed with an explained mechanism, a licensed actual image and a distinction between the medieval design and modern reconstruction?
+
+**Decision:** Publish `invention/jazari-double-piston-pump`, mechanics-automata, kind `device`, attribution `improvement`, with the existing engineer as improver. TDV's final paragraph describes waterwheel, vertical/horizontal gears, rim pin, slotted rod, fixed pivot and reciprocating piston rods; use that actual account. Al-Hassani's survey supports the synchronized suction-pump pair. The book date is preserved as 1205/1206: TDV and al-Hassani differ, and the museum calls the design c.1205. No invented construction day, well site, numerical output or labour saving.
+
+**Attribution and limits:** Attribute TDV's first-known-suction-pipe and early-engine/modern-engineering assessment to its author, not an independently proven worldwide priority or direct transfer to a specific steam engine. General Hellenistic/Banu Musa context is not an exact pump prototype. Keep the crank/connecting-rod queue lead separate rather than count each mechanism as newly verified. This is a minor-depth record of a particular device, not a comprehensive history of pumps.
+
+**Media and surviving witness:** Use the actual medieval pump drawing reproduced in al-Hassani's figure 6, identified as Topkapi MS Ahmet III 3472, under PD for the old two-dimensional artwork/reproduction. Do not reuse the copyrighted modern figure 7 model or infer the Science Museum photograph's licence from CC0 catalogue data/CC BY text. The Commons files tried show other water-raising devices, not this paired-piston pump, and are not used. Science Museum Group 1976-482 is explicitly a half-size model; its made field is not a reconstruction manufacture date and its dimensions are not original-machine measurements.
+
+**Scope and risk:** `non-impacting`, approved inventions content. Five new entities, three new prose files, direct maker tie/prose extension and lane documentation/reports; no schema, UI, code, Worker, workflow or submission-document changes.
+
+**Touches:** invention, two sources, two media records, the existing al-Jazari person; ar/en/ur invention articles and person extensions; inventions documentation and generated reports; `CANARY.md`.
