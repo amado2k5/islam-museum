@@ -41,3 +41,9 @@ provenance: { generated_by: "Devin (SWE-2 Medium); earlier translation Claude Ha
 ## تقویم: روایت اور شاہد
 
 [[invention/jalali-calendar|جلالی اصلاح]] نئے سال کو اعتدال سے باندھتی، مگر خیام کا ذاتی ڈیزائن کردار مشروط ہے: میک ٹیوٹر شرکت کہتا، تھومان بے نام مصلح اور نام زد راصد الگ کرتا اور لازماً انہیں ڈیزائنر نہیں کہتا {cite:khayyam-mactutor calendar} {cite:thomann-jalali-calendar-2021 sec.4}۔ بعد کا1079/471 آغاز، پہلے آغاز اور ہجری دن کا اختلاف ساتھ پیش ہیں، فرد کی ایجاد کا ثابت دن نہیں {cite:thomann-jalali-calendar-2021 sec.4} {cite:iranica-calendars-abdollahy Jalali subsection}۔ جدید مہینے و قواعد سب گیارہویں صدی کے نہیں؛1804 کا برلن ورق متوازی تقاویم کا شاہد ہے، خود نوشت اصل یا مکمل مالی استعمال کا ثبوت نہیں {cite:iranica-calendars-abdollahy Solar-Hijri subsection} {cite:thomann-jalali-calendar-2021 sec.5 fig.5.1} {cite:berlin-astronomical-tables-211 metadata,image,rights}۔
+
+## متوازی اور برہان کی حدیں
+
+[[invention/khayyam-parallel-quadrilateral|متوازی خطوط کا چہارضلعی تجزیہ]] تکعیبی مساوات اور تقویم سے الگ ہے۔ وہاب زادہ [[work/khayyam-euclid-commentary|شرح اقلیدس]]470/1077کی بتاتا،مساوی عمودی ساقیں،تین صورتیں و آٹھ قضیے سمجھاتا ہے۔ تقارب و تباعد کے مقدمے تسلیم رہتے ہیں،اس لیے منصوبہ باقی مسلموں سے تنہا پانچویں مسلمے کا اخذ نہیں کہلاتا {cite:vahabzadeh-khayyam-mathematician author-p1-p3}۔
+
+اسٹینفورڈ بنیاد بدل کر اقلیدس بہتر کرنا کہتا،مکمل جدید غیر اقلیدسی نظام بنانا نہیں۔ جدید تجزیہ و مصنف نسخہ پڑھا،اصل شرح و اشاعتیں نہیں؛جدید تصویر کے حروف مثال سے الگ ہیں۔ پہلے شناخت و شاعری کے مشروط موقف محفوظ ہیں:چہارضلعی ہندسہ کسی کے عقیدے کا نیا فیصلہ نہیں دیتا {cite:sep-umar-khayyam sec2.7-and4.2} {cite:vahabzadeh-khayyam-mathematician author-p3}۔

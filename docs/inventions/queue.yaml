@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: khayyam-parallel-quadrilateral
+    label: "Khayyam's quadrilateral reconstruction of parallels"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/umar-khayyam", "work/khayyam-euclid-commentary", "source/vahabzadeh-khayyam-mathematician", "source/sep-umar-khayyam", "source/tdv-omer-hayyam-unat"]
+    invention: invention/khayyam-parallel-quadrilateral
+    lead_sources:
+      - "Actual Vahabzadeh selected commentary section and author-deposited PDF cover/authorpages1–4,Stanford4.2,Unatgeometry/work4,complete MacTutor"
+      - "Actual Dickdock2008PDCommons description/API/history and rendered three-case diagram visually inspected"
+    flags: [completed-D114-b73, not-independent-fifth-postulate-proof, equivalent-premises-explicit, not-modern-non-euclidean-system-priority, separate-cubics-and-calendar, no-primary-commentary-editions-read, reported470-1077-year-precision, no-invented-composition-city, original-maker-identities-perspectives-attribution-ties-preserved, modern-Euclidean-coordinate-example-not-proof, image-AD-BC-versus-example-AC-BD-explicit, no-direct-Saccheri-transmission-claim]
   - id: kashi-sine-one-degree
     label: "Al-Kashi's iterative sine-one-degree computation"
     state: "[x]"
