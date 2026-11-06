@@ -4,6 +4,8 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Log
 
+- **Invention75 modern-browser integration passed.** Freshness guard also stopped on #4456. Reviewed independent Modern Islam Browser pages/pilot records/source/stub additions through `40486267dc`;preserved all upstream work and both canary entries. Regenerated the sole coverage conflict from combined data. Repeated graph/coverage/census/session/citation/validation/whitespace successfully:51,754nodes/82,600edges;49,843entities/84,971prose,0errors/8496warnings;authenticity0errors/1warning.75inventions/540leads/464prosehits;depth/preservation gates unchanged. OwnPR remains content-only;localtests/buildnotrun,no deployment.
+
 - **Invention75 freshness guard follow-up.** First push stopped when independent #4455 advanced main to `456c16e9a4`;reviewed its passage/library/canaryData additions and rebased unpublished content without restaging frozen passage data. All permittedgates repeated successfully,unchanged totals;localtests/buildnotrun,no deployment.
 
 - **Invention75 integrated gates repeated.** Rebased unpublished content onto reviewed main `f2f9c3a4ed`,preserving #4454 passage/library/canaryData. Graph/coverage/census/validation/citation/session/whitespace all passed with unchanged entity/prose/graph/word/preservation totals. Localtests/buildnotrun,no deployment.
