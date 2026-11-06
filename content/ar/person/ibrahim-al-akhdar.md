@@ -9,7 +9,7 @@ translators: []
 
 ## الملخص
 
-إبراهيم بن الأخضر القيم (وُلد 1364هـ/1944) قارئ وإمام سعودي من [[place/medina|المدينة المنورة]]، أمّ في [[building/masjid-al-haram|المسجد الحرام]] ثم في [[building/prophets-mosque|المسجد النبوي]]، ودرّس القراءات في [[listing/islamic-university-madinah|الجامعة الإسلامية بالمدينة]]، وتتلمذ عليه طلبة كثيرون داخل المملكة وخارجها. {cite:wikipedia-ibrahim-al-akhdar-ar} {cite:wikidata-ibrahim-al-akhdar}
+إبراهيم بن الأخضر القيم ⁦(وُلد 1364هـ/1944)⁩ قارئ وإمام سعودي من [[place/medina|المدينة المنورة]]، أمّ في [[building/masjid-al-haram|المسجد الحرام]] ثم في [[building/prophets-mosque|المسجد النبوي]]، ودرّس القراءات في [[listing/islamic-university-madinah|الجامعة الإسلامية بالمدينة]]، وتتلمذ عليه طلبة كثيرون داخل المملكة وخارجها. {cite:wikipedia-ibrahim-al-akhdar-ar} {cite:wikidata-ibrahim-al-akhdar}
 
 ## النشأة والطلب
 

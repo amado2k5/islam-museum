@@ -7,7 +7,7 @@ translators: []
 
 # إبراهيم أبو بكر كيتا
 
-إبراهيم أبو بكر كيتا (29 يناير 1945 – 16 يناير 2022)، المعروف غالبا باختصار اسمه (IBK)، سياسي مالي تولى رئاسة مالي من سبتمبر 2013 إلى أغسطس 2020. {cite:wikipedia-ibrahim-boubacar-keita-en} {cite:wikidata-ibrahim-boubacar-keita}
+إبراهيم أبو بكر كيتا ⁦(29 يناير 1945 – 16 يناير 2022)⁩، المعروف غالبا باختصار اسمه (IBK)، سياسي مالي تولى رئاسة مالي من سبتمبر 2013 إلى أغسطس 2020. {cite:wikipedia-ibrahim-boubacar-keita-en} {cite:wikidata-ibrahim-boubacar-keita}
 
 ## النشأة والتعليم
 

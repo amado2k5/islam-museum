@@ -7,7 +7,7 @@ translators: []
 
 ## ملخص
 
-إبراهيم قالن (وُلد سنة 1971) أكاديمي تركي متخصص في الفلسفة الإسلامية يرأس جهاز الاستخبارات الوطنية منذ حزيران 2023 {cite:wikipedia-ibrahim-kalin-en} {cite:wikipedia-ibrahim-kalin-tr}.
+إبراهيم قالن ⁦(وُلد سنة 1971)⁩ أكاديمي تركي متخصص في الفلسفة الإسلامية يرأس جهاز الاستخبارات الوطنية منذ حزيران 2023 {cite:wikipedia-ibrahim-kalin-en} {cite:wikipedia-ibrahim-kalin-tr}.
 
 ## حياته
 
