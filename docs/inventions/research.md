@@ -1,5 +1,13 @@
 # Muslim Inventions Browser: research method
 
+## Invention83 research — Abu Kamil integer enumeration (D-125); held Quhi screen (D-124)
+
+Actual complete MacTutor biography and Aydin TDV work2 read: all-integer answers, two linear equations/3–5 unknowns, inherited Indian/Diophantine problems but unsettled dependence, verbal naming/numerals and qualified witness/translation reports. Original manuscripts/Saidan1986/full Sesiano study not read. TDV distinguishes Taraif from separately listed Kitab al-Tayr of unknown contents; do not merge on a popular/abstract title. TDV's one-manuscript versus later Leiden/Paris wording remains attributed, not independently reconciled.
+
+Actual ProofWiki modern historical note prices2,1,1/2,1/3,1/4 for100 birds/100 coins read, along with variant historical counts; no critical-edition status. Independent exact-integer enumeration yields2678 all-positive solutions and3727 nonnegative ones; sample(4,90,1,3,2). Academia abstract reports2674 under Kitab al-Tayr; full157-page text not read, no adoption of its title/count or guess why two answers differ. Actual Commons description/API/current960preview: Dori,28March2008, Santa Barbara, CC BY-SA3.0US; single grey left-facing pigeon/orange-red eye/white cere/iridescent neck/blurred background. Original JPG unmodified, not historical100-bird evidence.
+
+Quhi perfect compass: actual MacTutor/TDV/DSB two-page reproduction/BEA/Cambridge abstract read. No accepted individual Muslim identity basis found in this screen; collective/court labels and lead-only Muslim Heritage/Wikipedia mirror not promoted. Gallica403/browser verification and unmatched Archive public metadata mean original Woepcke text not read; no CAPTCHA bypass/borrow access. Existing person unchanged; narrow lead held, not counted. Useful PDF/text/search files remain outside git.
+
 ## Invention82 audit — factorial remainder construction (D-123)
 
 Actual MacTutor introduction and number-theory/analysis-synthesis passages read, including the Opuscula discussion of two methods. First multiplies the consecutive integers and adds1:6!+1=721, satisfying remainder1 for divisors2–6 and0 for7. Second reportedly gives all solutions but is not reproduced there. No original Opuscula/full Rashed edition/original algorithm2 read; no invented Arabic work title or new work entity. Improvement/application, not first congruences, Chinese remainder theorem, factorial notation or general original Wilson proof. Existing individually documented identity/Sunni frame and complete maker baseline retained.
