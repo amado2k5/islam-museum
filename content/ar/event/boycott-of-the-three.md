@@ -20,5 +20,5 @@ translators: []
 [[event/kaab-and-abu-qatada-at-the-garden-wall|أبو قتادة]]، و[[event/ghassan-kings-letter-to-kaab|كتاب ملك غسان]]، و[[event/order-to-the-three-to-separate-from-their-wives|اعتزال النساء]]، وختامها [[event/repentance-of-the-three-accepted|قبول التوبة]].
 
 ## ملاحظات المصدر والتمريض
-- «خمسين ليلة» رقم الراوي، وتُحصى منه الليلة الأربعون ثم عشر ليال (ص179).
+- «خمسين ليلة» رقم الراوي، وتُحصى منه الليلة الأربعون ثم عشر ليال ⁦(ص179)⁩.
 - لا يذكر النص مدة محددة لتغير حال مرارة وهلال إلا أنهما «استكانا وقعدا في بيوتهما».

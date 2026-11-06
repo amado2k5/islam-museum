@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-يروي البلاذري أن [[person/al-mutasim-abi-ishaq|المعتصم]] ترك مدينة السلام إلى القاطول، فنزل قصر الرشيد، ثم رأى تمصير سر من رأى ([[place/samarra|سامراء]]) فمصّرها ونقل الناس إليها. {cite:futuh-buldan-maarif-1407 p.417}
+يروي البلاذري أن [[person/al-mutasim-abi-ishaq|المعتصم]] ترك مدينة السلام إلى القاطول، فنزل قصر الرشيد، ثم رأى تمصير سر من رأى ⁦([[place/samarra|سامراء]])⁩ فمصّرها ونقل الناس إليها. {cite:futuh-buldan-maarif-1407 p.417}
 
 ## القاطول
 كان [[person/harun-al-rashid|الرشيد]] قد ابتنى القصر حين حفر قاطوله الذي دعاه أبا الجند. بنى المعتصم هناك بناء، ودفع القصر إلى مولاه [[person/ashinas-al-turki|أشناس التركي]]، وبدأ مدينة تركها. {cite:futuh-buldan-maarif-1407 p.417}
