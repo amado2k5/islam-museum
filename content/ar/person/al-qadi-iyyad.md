@@ -3,7 +3,7 @@ id: person/al-qadi-iyyad
 lang: ar
 source_lang: ar
 translators: []
-provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/al-shifa-ilmiyya-shumunni pp. 3–5 (ترجمة منقولة من الديباج المذهب لابن فرحون)؛ source/shadharat-dhahab p. 619؛ source/kashf-zunun-furqan" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/al-shifa-ilmiyya-shumunni pp. 3–5 ⁦(ترجمة منقولة من الديباج المذهب لابن فرحون)⁩؛ source/shadharat-dhahab p. 619؛ source/kashf-zunun-furqan" }
 ---
 ## موجز
 أبو الفضل عياض بن موسى بن عياض بن عمرون اليحصبي، القاضي المالكي، سبتيّ الدار والمولد أندلسيّ الأصل، إمام وقته في الحديث وعلومه، وصاحب [[work/al-shifa-bi-tarif-huquq-al-mustafa|الشفا بتعريف حقوق المصطفى]] و«مشارق الأنوار». {cite:al-shifa-ilmiyya-shumunni p.3} {cite:al-shifa-ilmiyya-shumunni p.4} ولي قضاء [[place/ceuta|سبتة]] مدة طويلة ثم قضاء [[place/granada|غرناطة]]، وتوفي بـ[[place/marrakesh|مراكش]] سنة 544هـ. {cite:al-shifa-ilmiyya-shumunni p.4} {cite:al-shifa-ilmiyya-shumunni p.5} {cite:shadharat-dhahab p.619}
@@ -30,5 +30,5 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-
 كان القاضي عياض قاضياً وعالماً كبيراً من مدينة سبتة على مضيق جبل طارق. سافر إلى الأندلس ليتعلم الحديث، وعاد فصار قاضي بلده، وكتب كتباً كثيرة أشهرها «الشفا» في حب النبي ومعرفة قدره.
 
 ## ملاحظات للباحثين
-- الترجمة في طبعة دار الكتب العلمية للشفا منقولة من «الديباج المذهب» لابن فرحون (حاشية ص3)، وفيها قراءة التعرف الضوئي لسنة المولد «ست وتسعين وأربعمائة» في شعبان، بخلاف 476هـ في «شذرات الذهب»؛ أبقينا 476هـ في البيانات وننبّه على الخلاف حتى تُراجَع صورة الصفحة.
+- الترجمة في طبعة دار الكتب العلمية للشفا منقولة من «الديباج المذهب» لابن فرحون ⁦(حاشية ص3)⁩، وفيها قراءة التعرف الضوئي لسنة المولد «ست وتسعين وأربعمائة» في شعبان، بخلاف 476هـ في «شذرات الذهب»؛ أبقينا 476هـ في البيانات وننبّه على الخلاف حتى تُراجَع صورة الصفحة.
 - قول «مات مسموماً» منقول بصيغة «قيل» في الترجمة، فلا يُعتمد.
