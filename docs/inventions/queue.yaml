@@ -627,15 +627,16 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: museum-record-object-rub-al-tamm-ibn-al-shatir
     label: "Museum lead for Complete Quadrant of Ibn al-Shatir"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: astronomy-instruments
-    era: abbasid-golden
+    era: middle-period
     from: museum
     records: ["object/rub-al-tamm-ibn-al-shatir"]
+    invention: invention/shatir-complete-quadrant
     lead_sources:
       - "data/object/rub-al-tamm-ibn-al-shatir.yaml"
-    flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+    flags: [completed-D113-b72, modified-sine-quadrant-not-all-quadrants, separate-Alai-astrolabe-sundial-lunar-model, Fathi-public2015introduction-only-not-full-edition-or-manuscripts, twohundred-chapters-hundred-questions-not-independent-tested-functions, universal-accuracy-ease-attributed-aim-not-trial, Dizer-no-surviving-complete-quadrant, contextual-sine-quadrant-not-original, CC-BY-SA3-rights-photo-inspected-restored-cord-plummet, modern-paper-geometry-not-historical-grid, no-solar-viewing-or-field-survey, original-maker-and-object-attribution-and-prose-preserved]
   - id: museum-record-object-usturlab-farsi-1600
     label: "Museum lead for Persian Astrolabe, 1600–1700"
     state: "[~]"
