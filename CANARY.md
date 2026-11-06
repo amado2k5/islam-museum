@@ -91,6 +91,36 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses (scope corrected, batch 219): brackets are isolated only inside Arabic values in 28 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 218): brackets are isolated only inside Arabic values in 69 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 217): brackets are isolated only inside Arabic values in 57 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 216): brackets are isolated only inside Arabic values in 35 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 215): brackets are isolated only inside Arabic values in 61 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 214): brackets are isolated only inside Arabic values in 56 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 213): brackets are isolated only inside Arabic values in 74 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 212): brackets are isolated only inside Arabic values in 92 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 211): brackets are isolated only inside Arabic values in 89 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 210): brackets are isolated only inside Arabic values in 86 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 209): brackets are isolated only inside Arabic values in 81 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 208): brackets are isolated only inside Arabic values in 85 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 207): brackets are isolated only inside Arabic values in 90 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 206): brackets are isolated only inside Arabic values in 85 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 205): brackets are isolated only inside Arabic values in 87 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 204): brackets are isolated only inside Arabic values in 79 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 203): brackets are isolated only inside Arabic values in 91 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 202): brackets are isolated only inside Arabic values in 88 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 201): brackets are isolated only inside Arabic values in 82 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 200): brackets are isolated only inside Arabic values in 81 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 199): brackets are isolated only inside Arabic values in 85 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 198): brackets are isolated only inside Arabic values in 98 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 197): brackets are isolated only inside Arabic values in 94 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 196): brackets are isolated only inside Arabic values in 94 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 195): brackets are isolated only inside Arabic values in 98 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 194): brackets are isolated only inside Arabic values in 86 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 193): brackets are isolated only inside Arabic values in 92 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 192): brackets are isolated only inside Arabic values in 95 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 191): brackets are isolated only inside Arabic values in 92 data files. English and Urdu text is left exactly as it was.
+- Arabic parentheses (scope corrected, batch 190): brackets are isolated only inside Arabic values in 95 data files. English and Urdu text is left exactly as it was.
 - Arabic parentheses (scope corrected, batch 189): brackets are isolated only inside Arabic values in 93 data files. English and Urdu text is left exactly as it was.
 - Arabic parentheses (scope corrected, batch 188): brackets are isolated only inside Arabic values in 93 data files. English and Urdu text is left exactly as it was.
 - Arabic parentheses (scope corrected, batch 187): brackets are isolated only inside Arabic values in 68 data files. English and Urdu text is left exactly as it was.
