@@ -7,7 +7,7 @@ translators: []
 
 ## ملخص
 
-متين غوراك (وُلد سنة 1960) قائد عسكري تركي شغل رئاسة الأركان العامة الحادية والثلاثين من آب 2023 إلى آب 2025 {cite:wikipedia-metin-gurak-en} {cite:wikipedia-metin-gurak-ar}.
+متين غوراك ⁦(وُلد سنة 1960)⁩ قائد عسكري تركي شغل رئاسة الأركان العامة الحادية والثلاثين من آب 2023 إلى آب 2025 {cite:wikipedia-metin-gurak-en} {cite:wikipedia-metin-gurak-ar}.
 
 ## حياته
 

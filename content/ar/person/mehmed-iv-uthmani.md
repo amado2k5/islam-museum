@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-السلطان محمد الرابع ابن [[person/ibrahim-i-uthmani|إبراهيم الأول]]. ولد سنة 1051هـ، وحكم من 1058هـ إلى 1099هـ (1648-1687م). {cite:dawlat-uthmaniyya-salabi p.307-308}
+السلطان محمد الرابع ابن [[person/ibrahim-i-uthmani|إبراهيم الأول]]. ولد سنة 1051هـ، وحكم من 1058هـ إلى 1099هـ ⁦(1648-1687م)⁩. {cite:dawlat-uthmaniyya-salabi p.307-308}
 
 ## تولي الحكم
 تولى وهو ابن سبع سنين بعد قتل أبيه. {cite:dawlat-uthmaniyya-salabi p.307-308}

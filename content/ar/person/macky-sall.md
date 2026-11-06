@@ -7,7 +7,7 @@ translators: []
 
 # ماكي سال
 
-ماكي سال (وُلد في 11 ديسمبر 1961) سياسي سنغالي من فاتيك، رئيس السنغال الرابع من 2012 إلى 2024 — وأول رئيس سنغالي وُلد بعد الاستقلال.{cite:source/wikipedia-macky-sall-ar}{cite:source/wikipedia-macky-sall-fr}
+ماكي سال ⁦(وُلد في 11 ديسمبر 1961)⁩ سياسي سنغالي من فاتيك، رئيس السنغال الرابع من 2012 إلى 2024 — وأول رئيس سنغالي وُلد بعد الاستقلال.{cite:source/wikipedia-macky-sall-ar}{cite:source/wikipedia-macky-sall-fr}
 
 ## الصعود في عهد واد
 
