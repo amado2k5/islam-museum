@@ -21,14 +21,14 @@ provenance:
 
 ## من درس الشيخ عمر عبد الكافي: الدين القيم
 
-يروي الشيخ أن أحمد بن حنبل كان يدعو للشافعي بعد كل صلاة (needs_source: رواية يذكرها الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:00}. ويروي أن الشافعي عيب عليه كثرة زيارته لأحمد، فأجاب بأن الفضل في الزيارتين معًا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:30}.
+يروي الشيخ أن أحمد بن حنبل كان يدعو للشافعي بعد كل صلاة ⁦(needs_source: رواية يذكرها الشيخ)⁩ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:00}. ويروي أن الشافعي عيب عليه كثرة زيارته لأحمد، فأجاب بأن الفضل في الزيارتين معًا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:30}.
 
 ويروي الشيخ أن أحمد مرض، فخاف الشافعي من موت أحمد وذهاب علمه، فمرض الشافعي من خوفه، ثم تحامل أحمد على نفسه وذهب لزيارته (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:00}.
 
 ويرى الشيخ، وهذا رأيه، أن على الأمة أن تدرس تاريخها، ويذكر من ذلك محنة أحمد بن حنبل التي يتساءل عنها، وإن كانت الكلمة غير واضحة في النسخة الآلية (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 01:16:00}.
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
-يذكر الشيخ أحمد بن حنبل بين عظماء اليتامى، ويروي أن الشافعي كان يزوره ويزوره أحمد، وأن الشافعي مرض خوفًا على أحمد لما مرض، فلما بلغ أحمدَ ذلك تحامل وعاده، فأنشد الشافعي أبياتًا في أنه مرض الحبيب فعاده فمرض من خوفه عليه، ثم أتاه الحبيب فبرئ من نظره إليه (needs_source: الخبر والأبيات كما رواها الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:07:30}
+يذكر الشيخ أحمد بن حنبل بين عظماء اليتامى، ويروي أن الشافعي كان يزوره ويزوره أحمد، وأن الشافعي مرض خوفًا على أحمد لما مرض، فلما بلغ أحمدَ ذلك تحامل وعاده، فأنشد الشافعي أبياتًا في أنه مرض الحبيب فعاده فمرض من خوفه عليه، ثم أتاه الحبيب فبرئ من نظره إليه ⁦(needs_source: الخبر والأبيات كما رواها الشيخ)⁩. {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:07:30}
 
 ## ترجمته في مقدمة «فضائل الصحابة»
 يسوق وصي الله عباس، محقق [[work/fadail-al-sahaba-ahmad|فضائل الصحابة]]، نسبه: أحمد بن محمد بن حنبل بن هلال بن أسد بن إدريس بن عبد الله بن حيان بن عبد الله بن أنس بن عوف بن قاسط بن مازن بن شيبان الشيباني {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.25}. ولد في ربيع الأول سنة 164هـ كما روى عنه ابناه [[person/salih-ibn-ahmad-ibn-hanbal|صالح]] و[[person/abdullah-ibn-ahmad-ibn-hanbal|عبد الله]]، ومات أبوه وهو صغير فتولت أمه تربيته، وكانت تأخذ ثيابه إذا أراد البكور إلى الحديث وتقول: حتى يؤذن الناس أو يصبحوا {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.25}.

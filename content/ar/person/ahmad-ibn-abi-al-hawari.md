@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.824" }
 ---
 ## موجز
-أحمد بن أبي الحواري، أبو الحسن، واسم أبي الحواري ميمون، زاهد سكن [[place/damascus|دمشق]]، يترجم له ابن الجوزي في [[work/sifat-al-safwa|صفة الصفوة]] بين أهل الشام (الترجمة 764). {cite:sifat-al-safwa-tartusi-2012 p.824} وهو التلميذ الذي تُروى عنه أكثر أقوال [[person/abu-sulayman-al-darani|أبي سليمان الداراني]] في الكتاب. {cite:sifat-al-safwa-tartusi-2012 p.816} {cite:sifat-al-safwa-tartusi-2012 p.817}
+أحمد بن أبي الحواري، أبو الحسن، واسم أبي الحواري ميمون، زاهد سكن [[place/damascus|دمشق]]، يترجم له ابن الجوزي في [[work/sifat-al-safwa|صفة الصفوة]] بين أهل الشام ⁦(الترجمة 764)⁩. {cite:sifat-al-safwa-tartusi-2012 p.824} وهو التلميذ الذي تُروى عنه أكثر أقوال [[person/abu-sulayman-al-darani|أبي سليمان الداراني]] في الكتاب. {cite:sifat-al-safwa-tartusi-2012 p.816} {cite:sifat-al-safwa-tartusi-2012 p.817}
 
 ## بيت الورع
 كان له ابن يقال له عبد الله من الزهاد، وأخ يقال له محمد يشبهه في الورع والزهد، وأبوه أبو الحواري من أهل الورع أيضاً، فبيتهم بيت الورع والزهد. {cite:sifat-al-safwa-tartusi-2012 p.824} وامرأته [[person/rabia-bint-ismail|رابعة بنت إسماعيل]] من عابدات الشام. {cite:sifat-al-safwa-tartusi-2012 p.858} {cite:sifat-al-safwa-tartusi-2012 p.859}
