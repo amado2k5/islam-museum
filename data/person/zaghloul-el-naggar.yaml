@@ -42,6 +42,8 @@ relations:
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-zaghloul-el-naggar-ar] }
 external_ids: { wikidata: "Q6572895", viaf: "6324101" }
 sensitivity: contested
+honours:
+  - { award: award/dubai-islamic-personality-of-the-year, result: honoured, date: { edtf: "2006/2007", hijri: "1427", calendar: gregorian, precision: year, derived: true }, note: "Islamic Personality of the Year, Dubai International Holy Quran Award, 1427 AH (ninth session); the Gregorian range is converter-derived", sources: [source/wikipedia-dubai-quran-award-ar] }
 sources: [source/wikipedia-zaghloul-el-naggar-ar, source/wikipedia-zaghloul-el-naggar-en, source/wikidata-zaghloul-el-naggar, source/assabile-zaghloul-el-naggar]
 provenance:
   layer: own-research

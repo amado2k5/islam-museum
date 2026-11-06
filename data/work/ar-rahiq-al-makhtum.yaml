@@ -1,17 +1,39 @@
 id: work/ar-rahiq-al-makhtum
 class: work
 kind: book
-label: { ar: "الرحيق المختوم", en: "Ar-Raheeq Al-Makhtum" }
+label: { ar: "الرحيق المختوم", en: "Ar-Raheeq Al-Makhtum (The Sealed Nectar)", ur: "الرحیق المختوم" }
 summary:
-  ar: "بطاقة أولية لكتاب الرحيق المختوم لصفي الرحمن المباركفوري، كتاب السيرة الفائز بجائزة رابطة العالم الإسلامي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Safiur Rahman Mubarakpuri's Ar-Raheeq Al-Makhtum, the sira book that won the Muslim World League prize; its sources are not yet checked on the page."
-wings: []
-sources: [source/mubarakpuri-raheeq]
+  ar: "بحث في السيرة النبوية لصفي الرحمن المباركفوري، فاز بالمركز الأول من بين 171 بحثا في مسابقة رابطة العالم الإسلامي للسيرة، التي أُعلنت نتائجها في شعبان 1398هـ وسُلّمت جوائزها في مكة سنة 1399هـ (1979)؛ يبدأ بأحوال العرب قبل الإسلام ويسير مع السيرة على ترتيب الزمن حتى الوفاة، وتُرجم إلى الإنجليزية باسم The Sealed Nectar وإلى لغات أخرى."
+  en: "A study of the Prophet's biography by Safiur Rahman Mubarakpuri that took first place among 171 entries in the Muslim World League's sira competition, whose results were announced in Shaban 1398 AH and whose prizes were handed over in Mecca in 1399 AH (1979); it opens with Arabia before Islam and follows the life in chronological order to the Prophet's death, and was translated into English as The Sealed Nectar and into other languages."
+  ur: "صفی الرحمٰن مبارکپوری کی سیرتِ نبوی پر تحقیق جو رابطہ عالم اسلامی کے سیرت مقابلے میں 171 مقالات میں اول آئی؛ نتائج شعبان 1398ھ میں آئے اور انعامات 1399ھ (1979) میں مکہ میں دیے گئے۔ یہ عرب کے قبل از اسلام حالات سے شروع ہو کر وفات تک زمانی ترتیب سے سیرت بیان کرتی ہے، اور انگریزی میں The Sealed Nectar کے نام سے اور دیگر زبانوں میں ترجمہ ہوئی۔"
+wings: [words, today]
+themes: [prophets, history-writing-and-social-thought]
+regions: [south-asia, arabia]
+genre: [sira]
+authors: [person/safiur-rahman-mubarakpuri]
+language: language/arabic
+composed: { edtf: "1978", hijri: "1398-08", calendar: gregorian, precision: month, status: historical, derived: true, note: "Written for the competition announced in 1396 AH; the results naming it first were announced in Shaban 1398 AH (July 1978), and the League then undertook to print it. The English article's infobox gives 1976, uncited. The Gregorian month is converter-derived.", sources: [source/wikipedia-raheeq-ar, source/wikipedia-raheeq-en] }
+editions:
+  - "Riyadh: Darussalam, 2002 (Arabic), ISBN 978-9960-899-55-8"
+  - "Uli al-Nuha li-l-Intaj al-I'lami, 1422 AH (Arabic), 512 pages, 24 × 17 cm, ISBN 9953320993"
+  - "Mukhtasar al-Raheeq al-Makhtum, the author's own abridgement, 1424 AH"
+translations:
+  - "English: The Sealed Nectar, Riyadh: Darussalam, 2002, ISBN 978-1-59144-070-3"
+  - "Bengali: translated by Abdul Khaleq Rahmani, Tauhid Publications (530 pages)"
+honours:
+  - { award: award/muslim-world-league-sira-competition, result: won, year: 1979, note: "First place of 171 studies; results announced in Shaban 1398 AH, prizes handed over at the League's conference in Mecca in 1399 AH; first prize of 50,000 riyals by the English article's infobox", sources: [source/wikipedia-raheeq-ar, source/wikipedia-raheeq-en] }
+footprint:
+  wikipedia: { languages: [ar, bn, ckb, en, es, fa, hi, id, lez, ms, pnb, sd, sq, ur], checked: "2026-11-06", sources: [source/wikipedia-raheeq-en] }
+  wikidata: "Q3472046"
+  catalogues: { isbn: ["978-9960-899-55-8", "978-1-59144-070-3", "9953320993"] }
+relations:
+  - { type: about, target: person/muhammad, sources: [source/wikipedia-raheeq-en] }
 external_ids: { wikidata: "Q3472046" }
+sources: [source/wikipedia-raheeq-ar, source/wikipedia-raheeq-en, source/mubarakpuri-raheeq]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in sira literature — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Arabic Wikipedia «الرحيق المختوم (كتاب)» (revision 76191490, 12 August 2026) and English Wikipedia 'Ar-Raheeq Al-Makhtum' (revision 1379913395, 12 October 2026), read in Chrome on the founder's Mac on 6 November 2026, with the museum's existing record of the book as a source"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-pilot-b03
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

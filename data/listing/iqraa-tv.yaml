@@ -1,0 +1,33 @@
+id: listing/iqraa-tv
+class: listing
+kind: tv-channel
+label: { ar: "قناة اقرأ الفضائية", en: "Iqraa TV", ur: "اقرأ ٹی وی" }
+summary:
+  ar: "قناة تلفزيونية دينية إسلامية سعودية أسسها صالح عبد الله كامل وانطلقت في 1 رجب 1419هـ (21 أكتوبر 1998) ضمن شبكة راديو وتلفزيون العرب، بالعربية ثم بالإنجليزية من 2011، ببرامج للأسرة والطفل والمرأة والشباب؛ توقف بثها الفضائي في 1 يناير 2025 واستمرت على الإنترنت ومواقع التواصل."
+  en: "A Saudi Islamic religious television channel founded by Saleh Abdullah Kamel and launched on 1 Rajab 1419 (21 October 1998) within the Arab Radio and Television network, in Arabic and, from 2011, in English, with programmes for the family, children, women and young people; its satellite broadcasts ended on 1 January 2025, and it continues online and on social media."
+  ur: "سعودی اسلامی دینی ٹیلی وژن چینل جسے صالح عبداللہ کامل نے قائم کیا اور جو عرب ریڈیو اینڈ ٹیلی وژن نیٹ ورک کے تحت 1 رجب 1419ھ (21 اکتوبر 1998) کو شروع ہوا؛ عربی میں اور 2011 سے انگریزی میں بھی، خاندان، بچوں، خواتین اور نوجوانوں کے پروگراموں کے ساتھ۔ 1 جنوری 2025 کو سیٹلائٹ نشریات بند ہوئیں اور یہ انٹرنیٹ اور سوشل میڈیا پر جاری ہے۔"
+wings: [today, made]
+categories: [media-entertainment]
+themes: [religious-authorities]
+regions: [arabia, egypt-nile]
+founded: { edtf: "1998-10-21", hijri: "1419-07-01", calendar: gregorian, precision: day, status: historical, sources: [source/wikipedia-iqraa-ar, source/wikipedia-iqraa-en] }
+status_business: active
+location: { place: place/jeddah, serves: [global] }
+links: { official: "https://www.iqraa.com" }
+languages: [ar, en]
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-iqraa-en, source/wikipedia-iqraa-ar] }
+footprint:
+  wikipedia: { languages: [ar, en, nl, sh], checked: "2026-11-06", sources: [source/wikipedia-iqraa-ar] }
+  wikidata: "Q3477804"
+relations:
+  - { type: owned_by, target: group/arab-radio-and-television-network, note: "through Saleh Kamel's Arab Media Corporation, by the English article", sources: [source/wikipedia-iqraa-ar, source/wikipedia-iqraa-en] }
+  - { type: owned_by, target: person/saleh-abdullah-kamel, note: "founder and owner", sources: [source/wikipedia-iqraa-en] }
+external_ids: { wikidata: "Q3477804" }
+sources: [source/wikipedia-iqraa-ar, source/wikipedia-iqraa-en]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «قناة اقرأ الفضائية» (revision 74657203, 19 May 2026, pending changes; stable 73662327) and English Wikipedia 'Iqraa' (revision 1331315328, 5 January 2026), read in Chrome on the founder's Mac on 6 November 2026; `status_business: active` because the channel continues online after the satellite shutdown of 1 January 2025"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-pilot-b03
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

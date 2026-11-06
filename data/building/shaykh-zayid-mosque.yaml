@@ -4,17 +4,33 @@ kind: mosque
 label:
   ar: جامع الشيخ زايد الكبير
   en: Sheikh Zayed Grand Mosque
+  ur: شیخ زاید گرینڈ مسجد
 summary:
-  ar: أكبر جامع في الإمارات بأبوظبي (2007) — 82 قبة وأكبر سجادة صلاة منسوجة يدوياً في العالم؛ ذروة العمارة الإسلامية المعاصرة.
-  en: Abu Dhabi's grand mosque (2007) — 82 domes and the world's largest hand-knotted prayer carpet; contemporary Islamic
-    architecture's landmark.
-wings: [objects]
+  ar: أكبر جوامع الإمارات، في أبوظبي، بُني بين 1994 و2007 بتوجيه من الشيخ زايد بن سلطان آل نهيان الذي دُفن في صحنه سنة 2004،
+    وافتُتح في ديسمبر 2007؛ صممه المعماري السوري يوسف عبدلكي، وله 82 قبة وأربع مآذن، ويتسع لأكثر من أربعين ألف مصلٍّ، وفيه
+    سجادة يدوية مساحتها 5,627 مترا مربعا.
+  en: The largest mosque in the United Arab Emirates, in Abu Dhabi, built between 1994 and 2007 under the guidance of Sheikh
+    Zayed bin Sultan Al Nahyan, who was buried in its courtyard in 2004, and inaugurated in December 2007; designed by the
+    Syrian architect Yusef Abdelki, it has 82 domes and four minarets, holds more than 40,000 worshippers, and has a hand-knotted
+    carpet of 5,627 square metres.
+  ur: متحدہ عرب امارات کی سب سے بڑی مسجد، ابوظبی میں، جو 1994 سے 2007 تک شیخ زاید بن سلطان آل نہیان کی رہنمائی میں بنی (وہ
+    2004 میں اس کے صحن میں دفن ہوئے) اور دسمبر 2007 میں افتتاح ہوا؛ شامی معمار یوسف عبدلکی کا ڈیزائن، 82 گنبد اور چار مینار،
+    چالیس ہزار سے زیادہ نمازیوں کی گنجائش، اور 5,627 مربع میٹر کا ہاتھ سے بنا قالین۔
+wings:
+- objects
+- today
 themes:
 - architecture
+- mosques
 built:
-  edtf: '2007'
+  edtf: 1994/2007-12
   calendar: gregorian
-  precision: year
+  precision: month
+  status: historical
+  note: Built between 1994 and 2007 and inaugurated in December 2007 (Abu Dhabi Government); the article's infobox gives 1996
+    for the groundbreaking.
+  sources:
+  - source/wikipedia-sheikh-zayed-grand-mosque-en
 regions:
 - arabia
 periods:
@@ -22,8 +38,103 @@ periods:
 external_ids:
   wikidata: Q695604
 sources:
+- source/wikipedia-sheikh-zayed-grand-mosque-en
 - source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+patron: person/zayed-bin-sultan-al-nahyan
+architect: person/yusef-abdelki
+location: place/abu-dhabi
+coordinates:
+- 24.412
+- 54.474
+status_now: standing
+style: contemporary Islamic, drawing on Mamluk-revival, Mughal, Persian and Moorish models
+materials:
+- marble (Sivec, Lasa, Makrana, Acquabianca, Bianco P, East White, Ming Green)
+- gold
+- semi-precious stones
+- crystal
+- ceramics
+- mother of pearl
+dimensions: about 290 × 420 m, over 12 ha; capacity over 40,100 (main hall over 7,000; two halls of 1,500 each), the infobox
+  giving 41,000+; 82 domes, the largest about 85 m high and 32.2 m across; four minarets of about 107 m (infobox 104 m); courtyard
+  about 17,000 m2
+relations:
+- type: commissioned_by
+  target: person/zayed-bin-sultan-al-nahyan
+  note: launched the project and supervised it; buried in the courtyard in 2004
+  sources:
+  - source/wikipedia-sheikh-zayed-grand-mosque-en
+footprint:
+  wikipedia:
+    languages:
+    - ace
+    - ar
+    - arz
+    - az
+    - be
+    - bg
+    - bn
+    - ca
+    - ce
+    - ckb
+    - de
+    - en
+    - es
+    - eu
+    - fa
+    - fi
+    - fr
+    - he
+    - hi
+    - hr
+    - hu
+    - hy
+    - hyw
+    - id
+    - it
+    - ja
+    - ka
+    - kk
+    - kn
+    - ko
+    - lt
+    - mai
+    - ml
+    - mr
+    - ms
+    - ne
+    - nl
+    - pa
+    - pl
+    - pnb
+    - pt
+    - ro
+    - ru
+    - rw
+    - sh
+    - sv
+    - ta
+    - tr
+    - tt
+    - uk
+    - ur
+    - uz
+    - vi
+    - war
+    - zh
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-sheikh-zayed-grand-mosque-en
+  wikidata: Q695604
+provenance:
+  layer: own-research
+  source: 'English Wikipedia "Sheikh Zayed Grand Mosque" (revision 1383325440, 2 November 2026), read in Chrome on the founder''s
+    Mac on 6 November 2026. The pilot plan to make building/sheikh-zayed-al-nahyan-mosque an alias was not carried out: that
+    card''s Wikidata item Q136770477 is a different mosque, in North Gaza, destroyed in 2023 (read on Wikidata the same day)'
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-pilot-b04

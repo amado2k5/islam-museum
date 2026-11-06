@@ -30,6 +30,8 @@ This section sets out positions as the sources report them, attributed to their 
 ## Reach and legacy
 Salah is regarded as a symbol of national pride in Egypt, where he has been called the "Fourth Pyramid", and Time magazine named him among its 100 most influential people in 2019, with his entry written by John Oliver. {cite:wikipedia-mohamed-salah-en} In his Time 100 entry Salah, an advocate of women's equality in the Middle East, stated: "We need to change the way we treat women in our culture." {cite:wikipedia-mohamed-salah-en} During the 2018 Egyptian presidential election, a large number of spoilt ballot papers — possibly more than a million — had both candidates' names crossed out and Salah's written in instead. {cite:wikipedia-mohamed-salah-en} The press and his fans also nickname him "The Pharaoh", and he won the FIFA Puskás Award for his goal in the Merseyside derby. {cite:wikipedia-mohamed-salah-en}
 
+On Instagram his account @mosalah showed about 67.8 million followers on 6 November 2026, and he has Wikipedia articles in more than a hundred languages. {cite:instagram-mosalah} {cite:wikipedia-mohamed-salah-en}
+
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.
 - Revisions of this article must be dated, and must name the source that changed each fact.
