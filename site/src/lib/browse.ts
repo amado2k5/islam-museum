@@ -5,7 +5,7 @@ import { realNodes, SEGMENT } from "./graph";
 export const BROWSE_CLASSES = [
   "person", "place", "event", "object", "building", "passage", "concept", "work", "source",
   "group", "polity", "period", "practice", "question", "exhibit", "journey", "listing", "dataset",
-  "media", "language", "screen", "invention",
+  "media", "language", "screen", "invention", "award",
 ] as const;
 export type BrowseClass = (typeof BROWSE_CLASSES)[number];
 

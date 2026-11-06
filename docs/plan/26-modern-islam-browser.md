@@ -1,6 +1,6 @@
 # 26 · The Modern Islam Browser (متصفح الإسلام المعاصر): proposal
 
-Status: **proposal, written 6 November 2026 at the founder's request.** Nothing in schema, data, site, i18n or the canon changes until the founder approves it in writing (`docs/ai-change-gates.md` §1). This document, its companion folder [`docs/modern-islam/`](../modern-islam/README.md) (taxonomy, seed programme, the agent prompt, progress) and a planning-only lane row are the only files this proposal adds.
+Status: **approved by the founder on 6 November 2026 (D-000 in `docs/modern-islam/progress.md`); Phase 1 implemented the same day.** Written 6 November 2026 at the founder's request as a proposal under `docs/ai-change-gates.md` §1. This document, its companion folder [`docs/modern-islam/`](../modern-islam/README.md) (taxonomy, seed programme, the agent prompt, progress) and a planning-only lane row are the only files this proposal adds.
 
 Companion files:
 
@@ -458,14 +458,14 @@ Phase 2 is one agent's work, a few days, and ends with the first deploy. Phases 
 | Phase 1: `schema/award.schema.json` (new), `schema/_base.schema.json` (`footprint`, `honours`, `reach`, `horizon`), `schema/{person,work,group,listing,event,screen,building}.schema.json`, `schema/enums/{kinds,roles}.yaml`, `schema/enums/modern-*.yaml` (new, generated from the taxonomy), `schema/predicates.yaml`, `scripts/validate.ts`, `scripts/gen-schema.ts`, `scripts/modern/*.ts`, tests, `site/src/pages/api/v1/**`, `i18n/{ar,en,ur}.yaml` | The data model and API | **`submission-impacting`**: class list and `/api/v1/` routes are quoted by the submissions; claims register A.5 and evidence map updated in the same commit |
 | Phases 2–4: `data/**`, `content/{ar,en,ur}/**`, `data/_stubs.d/modern-*.yaml`, `docs/modern-islam/queue/*.yaml`, `docs/modern-islam/progress/*.md`, `scripts/harvest/sources.yaml`, `docs/attribution.md`, `docs/coverage.md` | Records and prose | `non-impacting` inside the approved lane |
 | Phase 2 (browser): `site/src/pages/[lang]/modern/**`, components, `site/src/lib/{modern,nav,browse,entity}.ts`, `Landing.astro`, `llms.txt.ts`, `i18n/*` (`modern:` block), `scripts/check-*.ts` | The browser | new routes and i18n keys: own approval; `non-impacting` to the submissions unless a script, form or network call is added (none planned) |
-| `workers/site/src/route.js`, `workers/r2-sync/batch/publish.mjs`, `workers/site/wrangler.production.toml`, `.github/workflows/deploy.yml` | Only if a new data folder must be served from R2 (`data/award/` would be a new folder) | **`submission-impacting`**: hosting architecture; founder's explicit sign-off; no agent deploys |
+| `workers/site/src/route.js`, `workers/r2-sync/batch/publish.mjs`, `workers/site/wrangler.production.toml`, `.github/workflows/deploy.yml` | **Not touched** (correction of 6 November 2026, D-000 in `docs/modern-islam/progress.md`): those lists name site output folders, not data classes; a class reaches the API through `/api/v1/<class>/` like every other, as `invention` did | — |
 | `docs/outreach/*` | Touched only inside a `submission-impacting` commit, as the gates require | — |
 
 ## 12 · Decisions for the founder
 
 1. Approve the window (1 Muharram 1396 / 3 January 1976 to today, plus the horizon) and the nineteen sections of 2.2, or strike or merge sections.
 2. Approve the `award` class (3.3) or choose the `work` kind `award` fallback.
-3. Approve the kinds and roles of 3.2, the five fields of 3.4 and the predicates of 3.5, as a `submission-impacting` Phase 1 with the outreach files updated in the same commit, and the `data/award/` R2 folder change if the class is approved.
+3. Approve the kinds and roles of 3.2, the five fields of 3.4 and the predicates of 3.5, as a `submission-impacting` Phase 1 with the outreach files updated in the same commit. (The `data/award/` R2 folder change first listed here turned out to be unnecessary: see the correction in D-000.)
 4. Approve the reach-index formula of 4.6 as the way every "top" list is built, or set different weights.
 5. Confirm the inclusion rule of 8.4 (Muslims by default, non-Sunni affiliation labelled not excluded) for this browser.
 6. Confirm the pilot list of nineteen records in `seeds.md` §0 (one per section, the first production push), the first-wave targets of 2.2 (≈ 13,300) and the order of sections for the wave agents (seeds.md §0 proposes: `figures`, `web`, `music`, `organizations`, `conferences`, `film`, `tv`, `books`, `awards`, `sports`, then the rest).

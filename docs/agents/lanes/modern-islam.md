@@ -1,6 +1,6 @@
 # Lane `modern-islam`: the Modern Islam Browser
 
-_Opened 6 November 2026 on the founder's request, **planning-only** until the founder approves plan 26 (`docs/plan/26-modern-islam-browser.md`) and Phase 1 merges. Binding with `AGENTS.md`, `docs/ai-change-gates.md`, `docs/agents/publication-standard.md`, `docs/agents/content-standards.md`, `docs/sources-policy.md`, the Wikipedia broad rule and the `modern-figures` lane's faith rulings of 1 November 2026._
+_Opened 6 November 2026 on the founder's request; plan 26 (`docs/plan/26-modern-islam-browser.md`) approved by the founder the same day (D-000) and Phase 1 implemented. Binding with `AGENTS.md`, `docs/ai-change-gates.md`, `docs/agents/publication-standard.md`, `docs/agents/content-standards.md`, `docs/sources-policy.md`, the Wikipedia broad rule and the `modern-figures` lane's faith rulings of 1 November 2026._
 
 ## Mission
 

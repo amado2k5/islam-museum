@@ -8,6 +8,8 @@ import { Compiled, Node } from "./build-graph.js";
 import { CLASSES, p } from "./lib.js";
 import { buildRelated } from "./derive.js";
 import { wingCounts } from "./wings.js";
+import { primaryYear, recordOfNode, SECTION_IDS, sectionsOf, taxonomy as modernTaxonomy, yearsOf, WINDOW_START_YEAR } from "./modern/sections.js";
+import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
 
 const OUT = p("site", "public", "api", "v1");
 const write = (rel: string, body: string) => {
@@ -101,13 +103,59 @@ export function inventionApiData(c: Compiled) {
   };
 }
 
+/**
+ * Modern Islam Browser (docs/plan/26 section 4.1): one file per derived section, one per year, the reach indices and a
+ * sections index. Built from the compiled graph; empty-capable until records exist. No runtime computation.
+ */
+export function modernApiData(c: Compiled) {
+  const real = c.nodes.filter((n) => !n.stub);
+  const records = real.map(recordOfNode);
+  const awardsById = new Map(records.filter((r) => r.class === "award").map((r) => [r.id as string, r]));
+  const byId = new Map(real.map((n) => [n.id, n]));
+  const item = (id: string, sections: string[]) => {
+    const n = byId.get(id)!;
+    const d = n.data;
+    return {
+      ...compact(n), sections, kind: n.class === "screen" ? d.format : d.kind, year: primaryYear(recordOfNode(n)),
+      countries: d.countries ?? (d.country ? [d.country] : undefined), languages: d.languages,
+      honours: (d.honours ?? []).length || undefined, press: (d.footprint?.press ?? []).length || undefined,
+      wikipedia_languages: d.footprint?.wikipedia?.languages?.length || undefined,
+      horizon: d.horizon ? { stage: d.horizon.stage, expected: d.horizon.expected } : undefined,
+      updated: n.updated,
+    };
+  };
+  const sections: Record<string, ReturnType<typeof item>[]> = Object.fromEntries(SECTION_IDS.map((s) => [s, []]));
+  const years = new Map<number, ReturnType<typeof item>[]>();
+  const current = new Date(c.generated).getUTCFullYear();
+  for (const r of records) {
+    const s = sectionsOf(r, awardsById);
+    if (!s.length) continue;
+    const row = item(r.id as string, s);
+    for (const section of s) sections[section].push(row);
+    for (const y of yearsOf(r)) if (y >= WINDOW_START_YEAR && y <= current + 20) { if (!years.has(y)) years.set(y, []); years.get(y)!.push(row); }
+  }
+  const sortRows = (rows: ReturnType<typeof item>[]) => rows.sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || a.id.localeCompare(b.id));
+  for (const rows of Object.values(sections)) sortRows(rows);
+  for (const rows of years.values()) sortRows(rows);
+  const top = Object.fromEntries(Object.keys(REACH_LISTS).map((list) => [list, reachIndex(list, records, awardsById)]));
+  return {
+    index: {
+      generated: c.generated, window: { start: WINDOW_START_YEAR, end: current },
+      sections: modernTaxonomy.sections.map((s) => ({ id: s.id, label: s.label, count: sections[s.id].length, facets: s.facets })),
+      years: [...years.keys()].sort((a, b) => a - b).map((y) => ({ year: y, count: years.get(y)!.length })),
+      lists: Object.fromEntries(Object.entries(top).map(([k, v]) => [k, v.length])),
+    },
+    sections, years, top,
+  };
+}
+
 export function exportApi(c: Compiled) {
   rmSync(OUT, { recursive: true, force: true });
   const real = c.nodes.filter((n) => !n.stub);
   const related = buildRelated(c);
   for (const cls of CLASSES) {
     const items = real.filter((n) => n.class === cls);
-    if (!items.length && cls !== "invention") continue;
+    if (!items.length && cls !== "invention" && cls !== "award") continue;
     write(`${cls}/index.json`, JSON.stringify(items.map(compact), null, 1));
     for (const n of items) {
       const connections = c.edges.filter((e) => e.from === n.id).map(({ from, ...e }) => e);
@@ -134,8 +182,18 @@ export function exportApi(c: Compiled) {
   const inventionData = inventionApiData(c);
   write("inventions.json", JSON.stringify(inventionData.inventions, null, 1));
   write("inventions/chains.json", JSON.stringify(inventionData.chains, null, 1));
+  const modern = modernApiData(c);
+  write("modern/index.json", JSON.stringify(modern.index, null, 1));
+  for (const [section, items] of Object.entries(modern.sections)) {
+    const label = modernTaxonomy.sections.find((s) => s.id === section)?.label;
+    write(`modern/${section}.json`, JSON.stringify({ generated: c.generated, section, label, items }, null, 1));
+  }
+  for (const [year, items] of modern.years) write(`modern/year/${year}.json`, JSON.stringify({ generated: c.generated, year, items }, null, 1));
+  for (const [list, items] of Object.entries(modern.top)) {
+    write(`modern/top/${list}.json`, JSON.stringify({ generated: c.generated, list, formula: reachFormula(), items }, null, 1));
+  }
   write("meta/index.json", JSON.stringify({
-    version: "v1", generated: c.generated, classes: CLASSES.filter((k) => k === "invention" || real.some((n) => n.class === k)),
+    version: "v1", generated: c.generated, classes: CLASSES.filter((k) => k === "invention" || k === "award" || real.some((n) => n.class === k)),
     docs: "https://github.com/amado2k5/islam-museum/blob/main/docs/plan/09-ai-content-pipeline.md",
     license: { prose: "CC BY-SA 4.0", data: "CC0 1.0" },
   }, null, 1));

@@ -24,6 +24,8 @@ export const GET: APIRoute = () => {
     `- [Inventions dataset](${SITE}/api/v1/inventions.json) — inventions with domain and era filters, makers, attribution, origins, chains and media`,
     `- [Invention chains](${SITE}/api/v1/inventions/chains.json) — internal and external precursor/dependent links`,
     `- [Invention class index](${SITE}/api/v1/invention/index.json)`,
+    `- [Modern Islam Browser dataset](${SITE}/api/v1/modern/index.json) — the last fifty years of Islam and Muslims in nineteen sections, one file per section under /api/v1/modern/<section>.json, by year under /api/v1/modern/year/<yyyy>.json, reach indices under /api/v1/modern/top/<list>.json`,
+    `- [Award class index](${SITE}/api/v1/award/index.json)`,
     "",
     "## Entries",
     ...realNodes.filter((n) => !["source", "media"].includes(n.class) && !(n.class === "passage" && n.data.unit === "ayah")).map((n) => `- [${labelOf(n, "en")} (${labelOf(n, "ar")})](${SITE}${href("en", n.id)}) — [ar](${SITE}${href("ar", n.id)}): ${summaryOf(n, "en") || summaryOf(n, "ar")}`),

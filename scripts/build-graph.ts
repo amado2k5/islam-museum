@@ -55,6 +55,7 @@ export function entitySpan(e: Entity): { span?: Range; display?: { start?: any; 
     case "building": return pick(e.built);
     case "object": return pick(e.made);
     case "work": return pick(e.composed);
+    case "award": return pick(e.since, e.until);
     default: return {};
   }
 }
@@ -140,6 +141,34 @@ export function deriveInventionEdges(
   return [...edges.values()];
 }
 
+/**
+ * Modern Islam Browser (docs/plan/26 section 3.3): `awarded` / `awarded_to` edges derived from `honours[]` on the honoured
+ * record, written once per award, record and year, with the result as the edge role and the honour's sources.
+ */
+export function deriveHonourEdges(
+  entities: Entity[],
+  predicates: Record<string, Predicate>,
+  nodeIds: ReadonlySet<string>,
+): Edge[] {
+  const predicate = predicates.awarded;
+  if (!predicate) return [];
+  const edges = new Map<string, Edge>();
+  for (const entity of entities) {
+    for (const h of entity.honours ?? []) {
+      if (!h?.award || !nodeIds.has(h.award) || !nodeIds.has(entity.id)) continue;
+      const start = h.date ?? (typeof h.year === "number" ? { edtf: String(h.year), calendar: "gregorian", precision: "year" } : undefined);
+      const meta: Partial<Edge> = { role: h.result, note: [h.category, h.level, h.position ? `#${h.position}` : undefined].filter(Boolean).join(" · ") || undefined, start, sources: h.sources };
+      const forward: Edge = { from: h.award, to: entity.id, type: "awarded", inverse: false, derived: true, ...meta };
+      const inverse: Edge = { from: entity.id, to: h.award, type: predicate.inverse, inverse: true, derived: true, ...meta };
+      for (const edge of [forward, inverse]) {
+        const key = `${edge.from}|${edge.to}|${edge.type}|${h.year ?? h.date?.edtf ?? ""}|${h.category ?? ""}`;
+        if (!edges.has(key)) edges.set(key, edge);
+      }
+    }
+  }
+  return [...edges.values()];
+}
+
 export function compile(): Compiled {
   const predicates = loadPredicates();
   const loaded = loadEntities();
@@ -193,6 +222,10 @@ export function compile(): Compiled {
     }
   }
   for (const edge of deriveInventionEdges(entities, predicates, new Set(nodes.keys()))) add(edge);
+  for (const edge of deriveHonourEdges(entities, predicates, new Set(nodes.keys()))) {
+    const k = `${edge.from}|${edge.to}|${edge.type}|${edge.start?.edtf ?? ""}|${edge.note ?? ""}`;
+    if (!edges.has(k)) edges.set(k, edge);
+  }
   for (const e of edges.values()) { g.addEdge(e.from, e.to, { type: e.type }); }
   for (const n of nodes.values()) n.degree = g.degree(n.id);
 
