@@ -32,8 +32,8 @@ translators: []
 ## الدروس المسجّلة
 يضم أرشيف Assabile للدروس المسجّلة للشيخ عمر عبد الكافي 25 سلسلة، منها سبع سلاسل مرئية وثماني عشرة صوتية، في 622 درسا بحسب فهرس الموقع. {cite:assabile-omar-abdelkafy series-list} في الصفحات التي قُرئت لم يرد للسلاسل عناوين عربية، فتُذكر هنا بالحروف اللاتينية كما وردت في الأرشيف:
 
-- السلاسل المرئية: Ajaeb Al Kulub (29 درسا)، وAlwaad Alhaq (44)، وModakirate Iblis (30)، وMin Kunuz Al Sunnah (30)، وMawkib Al-Nour (29)، وAhl Al Hikma (27)، وAl Naba' Al Safi (24). {cite:assabile-omar-abdelkafy series-list}
-- السلاسل الصوتية الأطول: Sharh Saheeh Al Bukhare (60 درسا)، وAlbuyout Alamena (47)، وAl Dar Al Akhera (33)، وTariq Al Noor (30)، وBustan El Amal (30). {cite:assabile-omar-abdelkafy series-list}
+- السلاسل المرئية: Ajaeb Al Kulub ⁦(29 درسا)⁩، وAlwaad Alhaq (44)، وModakirate Iblis (30)، وMin Kunuz Al Sunnah (30)، وMawkib Al-Nour (29)، وAhl Al Hikma (27)، وAl Naba' Al Safi (24). {cite:assabile-omar-abdelkafy series-list}
+- السلاسل الصوتية الأطول: Sharh Saheeh Al Bukhare ⁦(60 درسا)⁩، وAlbuyout Alamena (47)، وAl Dar Al Akhera (33)، وTariq Al Noor (30)، وBustan El Amal (30). {cite:assabile-omar-abdelkafy series-list}
 - سلاسل صوتية أخرى: Sharh Ketab Al Fawaed، وSharh Al Hekam Al Ataeya، وAl Hoquq، وAadau Al Islam، وAl Dinu Al Qayem، وTafsir Al Quran Al Qareem، وMuktatafat Mena Al Seera، وSilsilat Ebadu Al Rahman، وSilsilat Qissa Wa Ebra، وAl Fawzu Al Moubeen، وNafahat Ramadaneya 1436 h، وWa Nafsun Ma Sawaha، وAl Manjeyat. {cite:assabile-omar-abdelkafy series-list}
 
 هذه الأعداد من فهرس الموقع كما ظهر في 25 أكتوبر 2026، وقد تتغير مع إضافة الحلقات. ولم يُثبت هذا القسم مضمون أي درس بعد: كل نقطة من الدروس تحتاج إلى تحقّق قبل أن تُنقل إلى السجل. {cite:assabile-omar-abdelkafy series-list}
@@ -68,7 +68,7 @@ translators: []
 - مبلغ 60 ألف جنيه يُذكر في سياق قرض وبنك {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:43:00}.
 - عدد الأبناء ويُذكر بوصفه عشرين في سياق عائلة {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:43:00}.
 
-## سلسلة «تفسير القرآن الكريم» (أرشيف أسابيل)
+## سلسلة «تفسير القرآن الكريم» ⁦(أرشيف أسابيل)⁩
 تقع في عشر حلقات، وتتناول أول سور جزء عمّ: سورة النبأ ثم سورة النازعات. يبدأ الشيخ الحلقة الأولى بسورة النبأ وقد اختار أولها موضوعا للدرس. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01} ويعود إلى النبأ العظيم في حلقات تالية. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03} وتتصل الحلقات الأخيرة بسورة النازعات، ويبدأ الشيخ بها في الحلقة الثامنة. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08} ويعيد في التاسعة ما سبق من السلسلة. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09} وتتناول الحلقة الأخيرة النازعات أيضا. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10}
 
 ## من سلسلة الفوز المبين
@@ -93,7 +93,7 @@ translators: []
 
 في الحلقة الأولى يسأل متصل عن القنوات الموسيقية والبرامج الدينية، فيقول إنها ليست خطرا حقيقيا، ويرى أن البرامج الدينية لا ينبغي أن تتضمن الخلافات ولا أن تصير منبرا للجدل. وهذا كلام المتصل لا كلام الشيخ. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:38:00}
 
-وفي الحلقتين الحادية عشرة والثانية عشرة يروي الشيخ قصة حاتم ودروسه الثمانية. يقول إن حاتما قال إنه لم يتعلم إلا ثمانية أشياء (needs_source: قول حاتم في عدد ما تعلمه)، وأولها أن لكل إنسان شيئا يحبه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:07:00}
+وفي الحلقتين الحادية عشرة والثانية عشرة يروي الشيخ قصة حاتم ودروسه الثمانية. يقول إن حاتما قال إنه لم يتعلم إلا ثمانية أشياء ⁦(needs_source: قول حاتم في عدد ما تعلمه)⁩، وأولها أن لكل إنسان شيئا يحبه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:07:00}
 
 والدرس الثالث يتعلق بمن يجمع المال من أي وجه، حلالا كان أو حراما. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:18:00}
 
@@ -119,10 +119,10 @@ translators: []
 ويعرض الشيخ رأيا يصفه بأنه ضعيف، وهو أن من أراد تغيير المنكر فليغيّره في دائرته هو، كأن يؤسس مدرسة أو مؤسسة على نهجه، لا بالقوة ولا بالإتلاف. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:43:00}
 
 :::perspectives
-- **أهل السنة (لم يُسنَد بعد / not yet sourced)**: لم يُسنَد موقف أهل السنة في هذه المسألة بعد.
-- **رأي الشيخ عمر عبد الكافي (رأي شخصي)**: يرى الشيخ أن تغيير المنكر يكون داخل دائرة المرء، بإنشاء مدرسة أو مؤسسة على نهجه، لا بالقوة ولا بالإتلاف، ويعرض ذلك بوصفه رأيا ضعيفا. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:43:00}
-- **رأي أكاديمي أو آراء أخرى (لم يُسنَد بعد)**: لم تُسنَد الآراء الأكاديمية والآراء الأخرى بعد.
+- **أهل السنة ⁦(لم يُسنَد بعد / not yet sourced)⁩**: لم يُسنَد موقف أهل السنة في هذه المسألة بعد.
+- **رأي الشيخ عمر عبد الكافي ⁦(رأي شخصي)⁩**: يرى الشيخ أن تغيير المنكر يكون داخل دائرة المرء، بإنشاء مدرسة أو مؤسسة على نهجه، لا بالقوة ولا بالإتلاف، ويعرض ذلك بوصفه رأيا ضعيفا. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:43:00}
+- **رأي أكاديمي أو آراء أخرى ⁦(لم يُسنَد بعد)⁩**: لم تُسنَد الآراء الأكاديمية والآراء الأخرى بعد.
 :::
 
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
-يقول الشيخ في حلقة من برنامج «ونفس وما سوّاها» إنه قضى أكثر من خمس وأربعين سنة في الدعوة (هذا قوله عن نفسه). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:08:00} ويشكر في ختام البرنامج الفريق الفني الذي عمل معه في تسجيل الحلقات وإخراجها، ويَعِد بلقاء في برامج أخرى. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:09:00}
+يقول الشيخ في حلقة من برنامج «ونفس وما سوّاها» إنه قضى أكثر من خمس وأربعين سنة في الدعوة ⁦(هذا قوله عن نفسه)⁩. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:08:00} ويشكر في ختام البرنامج الفريق الفني الذي عمل معه في تسجيل الحلقات وإخراجها، ويَعِد بلقاء في برامج أخرى. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:09:00}
