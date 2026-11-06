@@ -12,6 +12,7 @@ provenance:
   source: "source/qanun-masudi-jundi-v1 editor's introduction scan pp. 12–25, 43; title page p. 2; preface p. 81; source/mawsuat-a3lam-ulama-adaba; source/kashf-zunun-furqan"
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "Added mountain-method/identity sections from actual Jamil Ali translation preface/183–189, Britannica and TDV; prior Claude prose/authorship retained" }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b39", source: "Added displacement-vessel section from actual Khanikoff53–57 and54 image/Ansari selected198–205/Yassi selected reconstruction passages; all previous biography retained" }
 ---
 ## موجز
 أبو الريحان محمد بن أحمد البيروني من كبار علماء الفلك والرياضيات والجغرافيا والتاريخ في عصره، ولد في ضواحي مدينة خوارزم (كاث) سنة 362هـ (973م). {cite:mawsuat-a3lam-ulama-adaba} {cite:kashf-zunun-furqan} ويذكر محقق القانون المسعودي أنه ولد في اليوم الثاني من ذي الحجة سنة 362هـ، الموافق 4 سبتمبر 973م، في قرية من ضواحي كاث عاصمة خوارزم، من أسرة مغمورة. {cite:qanun-masudi-jundi-v1 p. 12} وفي سجل الموسوعة أنه توفي سنة 442هـ {cite:mawsuat-a3lam-ulama-adaba}، وعلى صفحة عنوان طبعة القانون المسعودي أنه توفي سنة 440هـ. {cite:qanun-masudi-jundi-v1 p. 2}
@@ -39,6 +40,10 @@ provenance:
 
 ## قياس الأرض بالجبل والأفق
 في «تحديد نهايات الأماكن»، المؤلف416هـ/1025م، يشرح [[invention/al-biruni-earth-radius|قياس نصف قطر الأرض بارتفاع جبل وانخفاض الأفق]]، ويروي تطبيقه قرب حصن نندنة: انخفاض34 دقيقة وارتفاع652;3,18 ذراعاً محلياً لقياس القماش. التاريخ للكتاب لا ليوم التجربة، ولا نحول الذراع إلى أمتار بلا أساس. يذكر المتن سنَد بن علي سابقاً إلى المبدأ زمن المأمون، بينما تصف مقدمة جميل علي المترجم الطريقة بأنها ابتكار للمؤلف؛ دوره هنا واصف وصاحب تطبيق موثق، لا أسبقية مطلقة محسومة. {cite:tdv-biruni-tumer works} {cite:biruni-tahdid-ali-translation preface xi; pp. 183–189}
+
+## الإناء المخروطي والماء المزاح
+
+ينقل «ميزان الحكمة» وصف [[invention/biruni-displacement-vessel|إناء البيروني المخروطي]] بأنبوب جانبي يوجه الماء المزاح إلى كفة، ويذكر بقاء الماء في الأنبوب وبطء خروجه؛ الرسم المنقول ليس بخطه ولا آلة أصلية باقية، والناشر يصرح بنقص مخطوطه {cite:khazini-khanikoff-1859 pp.53–55}. ويسند النص التجارب التالية إلى الخازني باستعمال آلة أبي الريحان، فلا ننقل جدولها إلى البيروني تلقائياً {cite:khazini-khanikoff-1859 pp.55–56}. يفرق أنصاري بين أوزان الماء المزاح وتمثيلات الجداول، ويرفض تحويلاً ثابتاً للمثقال إلى الغرام؛ دراسته في هذا الجانب تعتمد على فيدمان لا فحصه المباشر لمخطوط بيروت {cite:ansari-biruni-physics-1975 pp.199–202}. وإعادة البناء الحديثة شاهد على نسخة بحثية، لا على دقة أصل مفقود أو أسبقية كل قياس كثافة {cite:yassi-hydrostatic-balances-2023 pp.140–141}.
 
 ## الهوية والانتماء المختلف فيه
 تسميه بريتانيكا عالماً مسلماً، ويناقش غوناي تومر التزامه بالإسلام؛ هذه قاعدة الهوية، لا الاسم أو موطنه. في القراءة السنية أولاً، يعارض تومر الجزم بتشيعه من رعاية قابوس أو نقد التعصب للعرب، ويذكر محيطه الغزنوي السني ونقده بعض المواقف الشيعية والباطنية. الإطار السني في المتحف معلن، وليس شهادة ذاتية فاصلة من العالم. {cite:britannica-al-biruni} {cite:tdv-biruni-tumer religious-affiliation discussion}
