@@ -2,9 +2,9 @@
 id: person/al-razi-abu-bakr
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code, clinical/identity extension from Arabic"]
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation", "Copilot SDK in VS Code, clinical/identity extension from Arabic", "Copilot SDK in VS Code, classification extension from Arabic"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "Selected Greenhill1848, Britannica/Kaya/Adamson; original Devin record and Haiku translation attribution preserved" }
+provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "Selected Greenhill1848, Britannica/Kaya/Adamson; original Devin record and Haiku translation attribution preserved", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "Classification extension from Arabic1–3/Ferrario selected24–30; previous prose retained" }] }
 ---
 ## Overview
 Abu Bakr Muhammad ibn Zakariya al-Razi, philosopher and physician, author of the "al-Mansuri" on medicine. {cite:muruj-al-dhahab p. 547}
@@ -30,6 +30,10 @@ In his [[invention/al-razi-smallpox-measles|comparison of smallpox and measles]]
 **Academic reading:** Adamson discusses hostile testimony through Abu Hatim alongside surviving works and contrary reports, including limits on attribution of anti-prophecy positions {cite:sep-abu-bakr-al-razi sec.5}.
 
 **Kaya's reading:** Kaya defends a deist interpretation; this is his reading, not the museum's verdict {cite:tdv-razi-ebu-bekir pp.479–485}. The programme account below remains attributed to its speaker. This additional documentation does not authenticate every priority claim or anecdote in it.
+
+## Classifying materials and arranging a handbook
+
+In the [[invention/razi-substance-classification|substance classification and structured Book of Secrets]], the text orders materials, instruments and operations; six earthy classes sit within a wider division, not a periodic table or invention of all chemistry {cite:razi-asrar-danishpazhuh-1964 p.2}. Ferrario explains the operation-centred organization, warns against treating the1964 edition as a definitive critical text and distinguishes *Secrets* from spurious *On Alums and Salts* {cite:ferrario-razi-pseudorazi-2024 pp.25–29}. Sal ammoniac changes class even between two genuine works, so placement alone cannot settle authorship {cite:ferrario-razi-pseudorazi-2024 p.28}. This contribution is distinct from the clinical comparison and does not retrospectively authenticate every popular account below.
 
 ## In the 'Al-Mubdi'un' programme
 Tareq al-Suwaidan presents Abu Bakr al-Razi as 'the humane physician and encyclopaedic scholar', applying to him the creativity equation: early start, passionate love of learning, extraordinary memory {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:01:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:02:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:04:00}.

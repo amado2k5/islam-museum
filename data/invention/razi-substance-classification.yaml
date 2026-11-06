@@ -1,0 +1,71 @@
+id: invention/razi-substance-classification
+class: invention
+label: { ar: "تصنيف المواد وبنية دليل الأسرار عند الرازي", en: "Al-Razi's substance classification and structured handbook", ur: "رازی کی مادوں کی درجہ بندی اور منظم رہنما کتاب" }
+names:
+  - { value: "Kitab al-Asrar: nested material classification and three-part handbook", kind: alternate, lang: en }
+summary:
+  ar: "ترتيب المواد والآلات والعمليات، وست فئات للمواد الأرضية؛ لا جدول دوري أو اختراع جميع الكيمياء {cite:razi-asrar-danishpazhuh-1964 p.2}."
+  en: "Materials/instruments/operations framework with six earthy-material classes, not a periodic table or invention of all chemistry {cite:razi-asrar-danishpazhuh-1964 p.2}."
+  ur: "مادے، آلات اور اعمال کی ترتیب، ارضی مادوں کی چھ قسمیں؛ دوری جدول یا پوری کیمیا کی ایجاد نہیں {cite:razi-asrar-danishpazhuh-1964 p.2}۔"
+domain: pharmacy-chemistry
+kind: method
+disciplines: [chemistry]
+wings: [ideas]
+regions: [persia-central-asia, levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "09XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad tenth-century historical setting in Ferrario, not a dated composition/invention, surviving-copy date or fabricated Hijri.1343[1964] on modern edition is Solar Hijri publication."
+    sources: [source/ferrario-razi-pseudorazi-2024]
+  status_today: replaced
+origin:
+  place: place/baghdad
+  context: { ar: "بغداد والري سياق حياة المؤلف، لا موضع تأليف مثبت للأسرار {cite:britannica-al-razi biography}.", en: "Baghdad/Rayy are biographical context, not a verified Secrets composition site {cite:britannica-al-razi biography}.", ur: "بغداد و رے مصنف کا سوانحی سیاق، الاسرار کی ثابت جگہ نہیں {cite:britannica-al-razi biography}۔" }
+makers:
+  - person: person/al-razi-abu-bakr
+    role: improver
+    sources: [source/razi-asrar-danishpazhuh-1964, source/ferrario-razi-pseudorazi-2024]
+attribution:
+  status: improvement
+  claim: { ar: "تصنيف متداخل ودليل عملي مرتب في تراث أقدم، لا أول تصنيف للمادة مطلقاً.", en: "Nested classification and organized practical handbook within an older tradition, not the first classification of matter anywhere.", ur: "پرانی روایت میں تہہ دار درجہ بندی اور منظم عملی رہنما کتاب، مادے کی ہر پہلی درجہ بندی نہیں۔" }
+  basis:
+    ar: "العربية2 تعرض البنية والفئات، وفيراريو27–29 يقارن مبادئ التنظيم مع التحفظ على الطبعة25 {cite:razi-asrar-danishpazhuh-1964 p.2} {cite:ferrario-razi-pseudorazi-2024 pp.25,27–29}."
+    en: "Arabic2 gives structure/classes; Ferrario27–29 compares organizational principles with an edition caveat25 {cite:razi-asrar-danishpazhuh-1964 p.2} {cite:ferrario-razi-pseudorazi-2024 pp.25,27–29}."
+    ur: "عربی2 میں ساخت و قسمیں؛ فیراریو27–29 تنظیم کا تقابل اور25 میں طبعت کی تنبیہ {cite:razi-asrar-danishpazhuh-1964 p.2} {cite:ferrario-razi-pseudorazi-2024 pp.25,27–29}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "الإطار السني لا شهادة شخصية", en: "Sunni frame, not personal-school certificate", ur: "سنی سیاق، ذاتی مسلک کی سند نہیں" }
+      summary: { ar: "وصف بريتانيكا الفرد مسلماً لا يزيل خلاف الدين المعلن؛ لا استنتاج من الاسم أو البلد.", en: "Britannica's individual Muslim description does not erase the displayed religious dispute; no inference from name/country.", ur: "بریٹانیکا کا انفرادی مسلم وصف دکھایا مذہبی اختلاف ختم نہیں کرتا؛ نام یا ملک سے اخذ نہیں۔" }
+      sources: [source/britannica-al-razi, source/sep-abu-bakr-al-razi, source/tdv-razi-ebu-bekir]
+    - tradition: academic
+      stance: { ar: "الكتاب الحقيقي والتسمية المنحولة", en: "Genuine work versus spurious attribution", ur: "اصل کتاب اور منحول نسبت" }
+      summary: { ar: "الأسرار غير كتاب الشبوب والأملاح المنحول؛ اختلاف تصنيف واحد لا يكفي وحده لنفي النسبة.", en: "Secrets differs from spurious On Alums and Salts; one classification difference alone cannot disprove authorship.", ur: "الاسرار منحول الشبوب والاملاح سے الگ؛ ایک درجہ بندی کا فرق اکیلا نسبت رد نہیں کرتا۔" }
+      sources: [source/ferrario-razi-pseudorazi-2024]
+precursors:
+  - external: { ar: "معارف خيميائية وأعمال سابقة يسميها المؤلف", en: "Inherited alchemical knowledge and earlier works named by the author", ur: "ورثے کا کیمیاوی علم اور مصنف کی مذکورہ سابق تصانیف" }
+    note: "Primary1 names earlier works/Jabir; not proof of direct personal apprenticeship or an independently authenticated entire Jabir corpus."
+    sources: [source/razi-asrar-danishpazhuh-1964, source/ferrario-razi-pseudorazi-2024]
+dependents: []
+spread: []
+impact:
+  fields: [pharmacy-chemistry]
+  changed: { ar: "تنظيم معرفة المواد والأدوات ثم البحث بالعملية وتكيفها مع المادة {cite:ferrario-razi-pseudorazi-2024 pp.27–29}.", en: "Organized materials/tools then operation-centred retrieval adapted to ingredients {cite:ferrario-razi-pseudorazi-2024 pp.27–29}.", ur: "مادوں و آلات کی تنظیم، پھر عمل کے مطابق متعلق مادے کی تلاش {cite:ferrario-razi-pseudorazi-2024 pp.27–29}۔" }
+  history: { ar: "نقل مخطوط وترجمة لاتينية جزئية؛ لا سلسلة مثبتة إلى الجدول الدوري {cite:ferrario-razi-pseudorazi-2024 p.25}.", en: "Manuscript transmission/partial Latin translation, not a proven periodic-table chain {cite:ferrario-razi-pseudorazi-2024 p.25}.", ur: "مخطوطاتی نقل اور جزوی لاطینی ترجمہ، دوری جدول تک ثابت سلسلہ نہیں {cite:ferrario-razi-pseudorazi-2024 p.25}۔" }
+  significance: 4
+  why: "Direct selected Arabic opening and modern scholarship support a bounded organizational contribution. Nested classes, ambiguous names, unreliable-critical-edition caveat and disputed personal identity retained; no transmutation success or modern-element priority."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "شاهد تاريخي على تنظيم المعرفة لا نظام تعريف أو سلامة كيميائية.", en: "Historical knowledge organization, not a present identification/safety system.", ur: "علم کی تاریخی تنظیم، موجودہ شناخت یا حفاظت کا نظام نہیں۔" }
+  descendants: { ar: "مقارنة تعليمية لا نسب مثبت لتصنيف حديث.", en: "Educational comparison, not proven modern-classification genealogy.", ur: "تعلیمی تقابل، جدید درجہ بندی کا ثابت نسب نہیں۔" }
+media: { image: media/halite-egypt-usgs, diagram: media/diagram-razi-substance-classification }
+kids: { ar: "رتب بطاقات كلمات تحت عناوين ثم اسأل لماذا؛ لا تلمس أو تخلط مواد مجهولة. قدماء المصنفين لم يستعملوا دائماً أسماء اليوم.", en: "Sort word cards under headings and ask why; never touch or mix unknown substances. Old classifications did not always use today's names.", ur: "لفظوں کے کارڈ عنوانوں کے تحت رکھ کر وجہ پوچھیں؛ نامعلوم مادہ نہ چھوئیں نہ ملائیں۔ پرانے نام ہمیشہ آج جیسے نہیں تھے۔" }
+sources: [source/razi-asrar-danishpazhuh-1964, source/ferrario-razi-pseudorazi-2024, source/britannica-al-razi, source/sep-abu-bakr-al-razi, source/tdv-razi-ebu-bekir, source/commons-halite-egypt-usgs]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "Direct Arabic printed1–3 in selected1964 edition; Ferrario actual selected24–29 and27 image; reused individual identity dispute; actual licensed halite image; not full-book reading" }

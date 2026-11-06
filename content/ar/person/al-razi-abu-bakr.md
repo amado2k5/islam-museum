@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "المقاطع الطبية في غرينهل1848 وبريتانيكا وقايا وآدمسون؛ نسبة ديفن الأصلية محفوظة في سجل الشخص" }
+provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "المقاطع الطبية في غرينهل1848 وبريتانيكا وقايا وآدمسون؛ نسبة ديفن الأصلية محفوظة في سجل الشخص", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "إضافة التصنيف من العربية1–3 وفيراريو24–30؛ النص السابق محفوظ" }] }
 ---
 
 ## موجز
@@ -31,6 +31,10 @@ provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension
 **القراءة الأكاديمية:** يعرض آدمسون النقل الخصامي عن أبي حاتم وأدلة من أعمال باقية وأخبار مخالفة، ويناقش حدود نسبة الآراء المناهضة للنبوة {cite:sep-abu-bakr-al-razi sec.5}.
 
 **قراءة قايا:** يرى قايا تفسيراً ربوبيّاً ويدافع عنه؛ هذه قراءته، لا حكم المتحف {cite:tdv-razi-ebu-bekir pp.479–485}. أخبار البرنامج التالية تبقى منسوبة إلى قائله، ولا تصير بوجود هذا التوثيق تصديقاً لكل أولوية أو حكاية فيه.
+
+## تصنيف المواد وتأليف الدليل
+
+في [[invention/razi-substance-classification|تصنيف المواد وبنية دليل الأسرار]] يرتب النص المواد والآلات والعمليات، ويقسم المواد الأرضية إلى ست فئات داخل تقسيم أوسع؛ ليس هذا جدولاً دورياً أو اختراع جميع الكيمياء {cite:razi-asrar-danishpazhuh-1964 p.2}. ويشرح فيراريو مبدأ التنظيم بالعملية، محذراً من اعتبار طبعة1964 تحقيقاً نقدياً نهائياً، ومميزاً «الأسرار» من كتاب «الشبوب والأملاح» المنحول {cite:ferrario-razi-pseudorazi-2024 pp.25–29}. النوشادر يغير فئته حتى بين عملين حقيقيين للرازي؛ لا يكفي اختلاف التصنيف وحده لحسم النسبة {cite:ferrario-razi-pseudorazi-2024 p.28}. هذه إضافة مستقلة عن المقارنة الطبية، لا توثيق بأثر رجعي لكل خبر شعبي تالٍ.
 
 ## في برنامج «المبدعون»
 يقدّم طارق السويدان أبا بكر الرازي «الطبيب الإنسان والعالم الموسوعي» ويطبّق عليه معادلة الإبداع: بداية مبكرة، عشق للتعلم، وذاكرة خارقة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:01:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:02:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:04:00}.
