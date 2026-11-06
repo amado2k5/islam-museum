@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: published }
-provenance: { generated_by: "Claude Haiku 5.5 (library-expansion); Copilot SDK in VS Code extension", model: "claude-haiku-5-5; unknown for extension", run: "inventions-p3-b36", source: "Original Manazir account retained; dates/volume-method extension from TDV and selected Katz/Bressoud" }
+provenance: { generated_by: "Claude Haiku 5.5 (library-expansion); Copilot SDK in VS Code extension", model: "claude-haiku-5-5; unknown for extension", run: "inventions-p3-b36", source: "Original Manazir account retained; dates/volume-method extension from TDV and selected Katz/Bressoud", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b50", source: "Added circular-reflection section from actual Hogendijk selected59–75/inspected59–65, MathWorld and inspected modern image; all previous body/front matter retained." }] }
 ---
 ## موجز
 الحسن بن الهيثم، عالم عربي في الرياضيات والفيزياء، اشتهر بكتابه [[work/kitab-al-manazir|المناظر]] في [[concept/optics|البصريات]]. يصفه محقق طبعة الكتاب بأنه عاش في القرن الخامس الهجري، ويرى أن كتابه أنفس ما أنتج العلماء العرب في الفيزياء. {cite:manazir-sabra-1983 p.9}
@@ -26,3 +26,7 @@ provenance: { generated_by: "Claude Haiku 5.5 (library-expansion); Copilot SDK i
 
 ## للدارسين
 أبو علي الحسن بن الهيثم (نحو 354–430هـ / 965–1040م)، فيزيائي ورياضي وفلكي بارز عاش في البصرة ومصر الفاطمية. يُعد مؤسس علم البصريات الحديث بكتابه الرائد «المناظر»، حيث نقض نظريات الانبعاث القديمة وأثبت تجريبياً ورياضياً نظرية الورود (دخول الضوء المنعكس إلى العين). وضع أسس المنهج العلمي الاستقرائي القائم على الملاحظة والتجربة المنضبطة، وبحث في ظواهر الانعكاس والانكسار وتشريح العين وتكوين الصور في الغرفة المظلمة، ممهداً لتطور البصريات الفيزيائية.
+
+## تعيين موضع الانعكاس
+
+تتناول [[invention/ibn-al-haytham-circular-reflection|طريقة المرآة الدائرية]] سؤال موضع الانعكاس بين جسم وعين؛ يشرح البحث مقدمات المقالة الخامسة وتطبيقاتها، ويميزها عن السوابق وعن تبسيطات المؤتمن اللاحقة {cite:hogendijk-alhazen-lemmas-1996 pp.59–65}. ليست اختراع قانون الانعكاس أو كل مرآة، ولا حلاً وحيداً شاملاً لكل الحالات؛ تحفظ الدراسة نقص بعض البحث المقعر وتعدد المواضع الممكنة {cite:hogendijk-alhazen-lemmas-1996 p.70}. التكافؤ مع معادلة رباعية صياغة حديثة لا معرفة جبرية ننسبها إليه، والصورة الحديثة طرح للسؤال لا رسم أصلي أو مسار محلول {cite:hogendijk-alhazen-lemmas-1996 p.70 note7} {cite:commons-alhazen-problem-hb description,image,licence}. مصدر المناظر العربي المسجل سابقاً يغطي1–3 لا المقالة الخامسة؛ هذا الشرح من الدراسة المقروءة لا ادعاء قراءة الجزء غير المتاح.

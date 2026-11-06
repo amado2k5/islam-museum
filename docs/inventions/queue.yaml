@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: ibn-al-haytham-circular-reflection
+    label: "Ibn al-Haytham's circular-mirror reflection-point construction"
+    state: "[x]"
+    batch: 2
+    domain: optics-physics
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/ibn-al-haytham", "work/kitab-al-manazir", "source/hogendijk-alhazen-lemmas-1996", "source/mathworld-alhazen-problem", "source/commons-alhazen-problem-hb"]
+    invention: invention/ibn-al-haytham-circular-reflection
+    lead_sources:
+      - "Actual author-hosted Hogendijk1996 printed59–75, inspected59–65"
+      - "Actual MathWorld definition/history and inspected HB2019 CC-BY-SA4.0 problem image"
+    flags: [completed-D090-b50, distinct-from-camera-and-volume, earlier-geometry-retained, later-mutaman-simplifications-not-reassigned, not-medieval-quartic-algebra, incomplete-cases-and-multiplicity-explicit, image-poses-question-not-solution, two-earlier-maker-ties-retained, paper-only]
   - id: biruni-ghazna-qibla-setting-out
     label: "Al-Biruni's two Ghazna circle approximations for architects"
     state: "[x]"
