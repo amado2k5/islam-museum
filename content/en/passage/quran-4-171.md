@@ -22,4 +22,14 @@ On 'His word which He cast to Mary', al-Tabari says the word is the message that
 
 On 'and a spirit from Him', the learned differ: some say it is a breath from Him, since it is related that Gabriel breathed into Mary's garment by God's command, so he is ascribed to be a spirit from God because it was by His command; and the breath is called a spirit because it is wind that comes out of the spirit; they cite a line of Dhu al-Rumma describing a fire. {cite:tafsir-tabari-shakir-v09 p. 419}
 
+Al-Tabari sets out the views on 'a spirit from Him' after the breath of Gabriel: some say it means a life from Him, God's giving him life by His word 'be'; others a mercy from Him, since God made Jesus a mercy from Him to those who followed him; others that it is a spirit God created and shaped, then sent to Mary, and it entered her mouth. Report 10855, from Abu al-Aliya through Ubayy ibn Ka'b: the spirits were taken in covenant and pledge, and Jesus' spirit was one of them, and it was sent to Mary. {cite:tafsir-tabari-shakir-v09 p. 421}
+
+Others say the spirit here is Gabriel, and the sense is: His word which He cast to Mary, and a spirit from God cast it to her too. Al-Tabari says every one of these views has a sound sense not far from the truth. {cite:tafsir-tabari-shakir-v09 p. 422}
+
+Al-Tabari then says that 'believe in God and His messengers' means affirm God's oneness and lordship, that He has no son, and affirm His messengers; and 'do not say three' means do not say the lords are three; 'three' is in the nominative with an implied 'they are', which is allowed since 'saying' introduces a quotation. Refraining from it is better for them than their saying, for what they will face from God of swift and deferred punishment. {cite:tafsir-tabari-shakir-v09 p. 423}
+
+On 'God is only one God', al-Tabari says it means: God is not, you who say God is the third of three, as you say; whoever has a son is not a god, and whoever has a consort cannot be a worshipped god; God, to whom divinity and worship belong, is one God, having no son, father, consort or partner; and He exalted Himself above what His enemies say. {cite:tafsir-tabari-shakir-v09 p. 423}
+
+Then He tells His servants that Jesus, his mother, and all in the heavens and earth are His servants, bondsmen and creatures; He is their provider and creator, and they are in need of Him. This is an argument against those who claim the Messiah is His son: had he been a son, he would have no need and would not be a servant owned. 'God is sufficient as guardian' means that for all in the heavens and earth God suffices as keeper, director and provider. {cite:tafsir-tabari-shakir-v09 p. 424}
+
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
