@@ -4,6 +4,8 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Log
 
+- **Invention76 integrated gates passed.** Rebased unpublished content onto reviewed main `a9793fbb33`,preserving #4458source/library/canaryData. Regenerated graph/coverage/census and repeated validation/citation/session/whitespace:51,761nodes/82,604edges;49,850entities/84,977prose,0errors/8496warnings;authenticity0errors/1warning.76inventions/541leads/468prosehits;17section/depth/preservation/10000identity checks unchanged. Localtests/buildnotrun,no deployment.
+
 - **Invention76 corrected validation passed.**49,849entities/84,977prose,0errors/8496warnings;authenticity0errors/1warning. Reviewed independent #4458source/library/canaryData;integrate then regenerate/repeatgates. Localtests/buildnotrun,no deployment.
 
 - **Invention76 first gates/correction.** Graph51,760nodes/82,604edges;census541leads(502active/39excluded),76inventions,268personleads/468prosehits;coverage regenerated. Session17exactsections,1604/1916/1786ar/en/urwords;75priorinventions/allprose,540oldleads,makerprefix/identity/attribution/twoearlierties preserved. Licence/century/perspectives/work/graph and10000same-decade modernidentity checks/boundaries passed;citations5/5,whitespacepassed. Initialvalidation rejected unsupported work `names`;removed onlytask-owned optionalfield,no schema/rulechange. Rerunningvalidation beforecommit. Localtests/buildnotrun,no deployment.
