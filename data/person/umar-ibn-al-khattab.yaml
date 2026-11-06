@@ -61,7 +61,8 @@ inventions:
   - { invention: invention/hisba, role: commissioner, sources: [source/tdv-hisbe] }
   - { invention: invention/waqf, role: commissioner, sources: [source/sahih-al-bukhari-bugha, source/tdv-vakif] }
   - { invention: invention/hijri-era-administrative-dating, role: commissioner, note: "Administrative formalization; shared consultation and differing adoption years preserved, not invention of lunar months.", sources: [source/britannica-umar-i, source/iranica-calendars-abdollahy] }
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/assabile-tareq-al-suwaidan, source/assabile-ahmed-abdussalam, source/hisba-ibn-taymiyya-ilmiyya, source/tdv-hisbe, source/sahih-al-bukhari-bugha, source/tdv-vakif, source/britannica-umar-i, source/britannica-islamic-calendar, source/iranica-calendars-abdollahy, source/tdv-takvim-akgur]
+  - { invention: invention/umar-military-stipend-register, role: commissioner, note: "Recurring stipend register with consultation/compilers and older fiscal precedents; no invention of all bureaucracy or universal pensions.", sources: [source/tdv-divan-duri, source/kitab-al-kharaj-salafiyya-1392] }
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/assabile-tareq-al-suwaidan, source/assabile-ahmed-abdussalam, source/hisba-ibn-taymiyya-ilmiyya, source/tdv-hisbe, source/sahih-al-bukhari-bugha, source/tdv-vakif, source/britannica-umar-i, source/britannica-islamic-calendar, source/iranica-calendars-abdollahy, source/tdv-takvim-akgur, source/tdv-divan-duri, source/britannica-divan, source/kitab-al-kharaj-salafiyya-1392]
 education:
   did_you_know:
     ar: "في عشر سنوات من خلافة عمر فتحت الجيوش الشام ومصر ومعظم دولة الفرس؛ وتذكره السنة بلقب الفاروق."
@@ -80,6 +81,7 @@ provenance:
   run: omar-abdelkafy-tafsir-1; omar-abdelkafy-al-fawzu-1, lib-tarikh-khalifa-batch-2-2026-10-31
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b88", source: "Actual individual Muslim Britannica evidence, Bukhari3934 and calendar reference accounts. Additive qualified administrative attribution, not replacement of old faith, perspectives, dates or prose." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b89", source: "Actual Abu Yusuf printed26–27/45–51, inspected46/48/49 and TDV/Britannica; additive stipend register attribution and prose, original faith/perspectives retained." }
   also:
   - layer: own-research
     source: education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources

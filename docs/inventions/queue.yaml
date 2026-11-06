@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: umar-military-stipend-register
+    label: "Umar's recurring military stipend register"
+    state: "[x]"
+    batch: 1
+    domain: institutions-systems
+    era: first-century
+    from: scholarly-reference
+    records: ["person/umar-ibn-al-khattab", "work/kitab-al-kharaj-abu-yusuf", "concept/ahl-al-diwan", "source/tdv-divan-duri", "source/britannica-divan"]
+    invention: invention/umar-military-stipend-register
+    lead_sources:
+      - "Actual Abu Yusuf printed26–27/45–51, inspected46/48/49 and editor's variant note"
+      - "Actual TDV Duri first article/Britannica; unchanged inspected PD receipt context"
+    flags: [completed-D131-b89, register-not-all-bureaucracy-or-pensions, older-Byzantine-Sasanian-offices-retained, annual-ata-monthly-provisions-distinct, families-and-some-mawali-not-erased, source15AH636-versus-preferred20AH641, differing-grant-reports-not-single-table, editor-printed48-note-read, unnamed-register-proposer-not-invented, intention-not-executed-equalization, ledger-not-payment-proof, late-legal-literature-not-original-register, printed-PDF-page-mapping-explicit, original-maker-work-source-fields-prose-preserved, reused-receipt-not-stipend-ledger]
   - id: hijri-era-administrative-dating
     label: "Formalization of Hijri-era administrative dating under Umar"
     state: "[x]"

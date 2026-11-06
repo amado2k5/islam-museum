@@ -28,3 +28,8 @@ Abu Yusuf states his view addressing the caliph, "O Commander of the Faithful", 
 ## The edition in the museum
 
 The fourth edition of al-Matba'a al-Salafiyya, Cairo, 1392 AH, based on a manuscript in the Taymuriyya library collated with the Bulaq print of 1302 AH. {cite:kitab-al-kharaj-salafiyya-1392 p.1} {cite:kitab-al-kharaj-salafiyya-1392 p.4}
+
+## Stipend reports and differing witnesses
+The distribution section contrasts Abu Bakr's equality and Umar's preference, transmitting different accounts about earlier participants, women and children; the [[invention/umar-military-stipend-register|stipend-register record]] presents this without calling it an original payroll {cite:kitab-al-kharaj-salafiyya-1392 printed45–50}. One report gives wives12000with qualifications, another10000with12000for Aisha; the printed48editorial note explicitly recognizes disagreement with the preceding report, not a figure for the museum to repair by guesswork {cite:kitab-al-kharaj-salafiyya-1392 printed46–48}. Printed49has an unnamed register proposer and Zayd's distribution to the Ansar: no missing name is supplied or complete payment inferred from allocation alone {cite:kitab-al-kharaj-salafiyya-1392 printed49}.
+
+New anchors here use printed45–51, corresponding to PDF47–53in the inspected edition, with actual46,48 and49visually checked {cite:kitab-al-kharaj-salafiyya-1392 printed45–51}. Earlier PDF-page citations remain unchanged. This is a compilation transmitting accounts, not Umar's original ledger; every chain and manuscript has not been independently evaluated. Duri distinguishes annual grants from monthly provisions, so food and money should not be combined as one unit {cite:tdv-divan-duri early-Rashidun}.
