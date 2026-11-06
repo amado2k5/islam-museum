@@ -7,13 +7,24 @@ names:
   - { kind: full, lang: ar, value: "غياث الدين جمشيد بن مسعود الكاشي" }
 roles: [astronomer, mathematician]
 gender: male
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Individual Muslim basis: O'Connor/Robertson MacTutor explicitly identifies al-Kashi as an Islamic mathematician. Sunni separately museum default frame of docs/scope.md in documented Timurid milieu, no contrary personal sect attestation in read scholarly biographies; not name, birth-city or patron inference and not a personal school certificate."
+    sources: [source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi]
+inventions:
+  - invention: invention/al-kashi-pi-calculation
+    role: improver
+    note: "High-precision polygon-based circumference calculation, not first pi or decimals."
+    sources: [source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi]
 summary:
   ar: "بطاقة أولية لغياث الدين الكاشي، المنجم الرياضي في مرصد أولوغ بك بسمرقند، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
   en: "Draft card for Ghiyath al-Din Jamshid al-Kashi, the astronomer and mathematician of Ulugh Beg's Samarkand observatory, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi]
 external_ids:
   wikidata: Q115466
 provenance:
@@ -22,6 +33,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0007
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b60", source: "Add sourced identity/default frame, circumference tie and full trilingual biography. Original fields/status/occupation/provenance retained; earlier unread A'lam/Wikidata claims not newly certified." }
 status:
   review: draft
   completeness: 1
