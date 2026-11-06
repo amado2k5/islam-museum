@@ -213,4 +213,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 9: pp. 329-335 filed in ar, en and ur (reports 10721-10736): verses 142 and 143 are filed in full.
 - Batch 10: pp. 336-342 filed in ar, en and ur (reports 10737-10747): verses 144 to 146 are filed in full, and verse 147 is begun.
 - Batch 11: pp. 343-349 filed in ar, en and ur (reports 10748-10764): verse 147 closes; verse 148 is filed to the foot of p. 349.
-- Progress: current report 10764, printed p. 349. Next is the rest of verse 148 from printed p. 350 on.
+- Batch 12: pp. 350-356 filed in ar, en and ur (reports 10765-10769): verses 148 to 152 are filed in full, and verse 153 is begun to report 10769.
+- Progress: current report 10769, printed p. 356. Next is the rest of verse 153 from printed p. 357 on.
