@@ -1124,6 +1124,19 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "source/kindi-cryptanalysis-1987 pp. 213–226, 235–241", "source/tdv-muamma pp. 319–320", "source/tdv-kindi-kaya Mu'tezile section"]
     record: invention/frequency-analysis-al-kindi
     flags: [earliest-surviving-not-all-encryption, composition-year-unestablished, maker-affiliation-debated-perspectives-recorded]
+  - id: decimal-root-method-al-samawal
+    label: "A specifically post-conversion decimal-root method of al-Samawal"
+    state: "[~]"
+    batch: 2
+    domain: mathematics
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-samawal-al-maghribi"]
+    lead_sources:
+      - "https://islamansiklopedisi.org.tr/semevel-el-magribi works item2, pp. 488–489"
+      - "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Samawal/"
+      - "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/al-samawal-ibn-yahya-al-maghribi"
+    flags: [D-061-hold-composition-date-unverified, do-not-redate-youthful-al-bahir, no-person-identity-edit]
   - id: hindu-arabic-numerals-transmission
     label: "Transmission and extension of Hindu-Arabic numerals"
     state: "[~]"
@@ -1667,6 +1680,19 @@ candidates:
       - "content/ar/person/nur-muhammad-taraki.md"
       - "data/person/nur-muhammad-taraki.yaml"
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+  - id: kindi-drug-degrees
+    label: "Al-Kindi's numerical interpretation of compound-drug degrees"
+    state: "[x]"
+    batch: 2
+    domain: pharmacy-chemistry
+    era: abbasid-golden
+    from: scholarly-reference
+    record: invention/kindi-drug-degrees
+    lead_sources:
+      - "source/kindi-drug-degrees-prioreschi-2002 pp. 17–20"
+      - "source/tdv-kindi-kaya Mu'tezile section"
+      - "source/commons-medicinal-jar-mnk metadata"
+    flags: [historical-model-not-clinical-validation, inherited-galenic-framework, exact-composition-year-unestablished, maker-affiliation-debated-perspectives-preserved, later-jar-context-only]
   - id: alembic-and-distillation
     label: "The alembic and the systematic practice of distillation"
     state: "[~]"

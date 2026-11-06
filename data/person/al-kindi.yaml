@@ -29,6 +29,10 @@ perspectives:
       ur: "کایا رچرڈ والزر اور ٹی جے ڈی بور کی معتزلی نسبت نقل کر کے اس پر اعتراض کرتے ہیں۔ یہاں ان کی آرا کایا کے واسطے سے ہیں؛ اصل تصانیف نہیں پڑھی گئیں۔"
     sources: [source/tdv-kindi-kaya]
 inventions:
+  - invention: invention/kindi-drug-degrees
+    role: improver
+    note: "Mathematical interpretation of inherited Galenic drug degrees, reported through Prioreschi; not clinical validation, invention of pharmacy or an independently read Latin manuscript."
+    sources: [source/kindi-drug-degrees-prioreschi-2002]
   - invention: invention/frequency-analysis-al-kindi
     role: describer
     place: place/baghdad
@@ -45,10 +49,14 @@ provenance:
   extensions:
     - generated_by: "Copilot SDK in VS Code"
       model: "unknown"
+      run: "inventions-p3-b23"
+      source: "Complete Prioreschi2002 pp17–20; added only the drug-degree tie and matching trilingual prose, preserving earlier attribution and theological disagreement."
+    - generated_by: "Copilot SDK in VS Code"
+      model: "unknown"
       run: "inventions-p3-b19"
       source: "Selected actual Arabic cryptanalysis text and editorial pages; TDV MUAMMA first section and Kaya's identity discussion, 2026-11-06. Original attribution retained."
 external_ids: { wikidata: "Q179759" }
-sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/kindi-cryptanalysis-1987, source/tdv-muamma, source/tdv-kindi-kaya]
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/kindi-cryptanalysis-1987, source/tdv-muamma, source/tdv-kindi-kaya, source/kindi-drug-degrees-prioreschi-2002]
 status:
   review: published
   completeness: 3
