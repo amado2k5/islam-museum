@@ -1149,13 +1149,15 @@ candidates:
     flags: ["trace-sunni-maker-and-name-al-tusi-as-precursor"]
   - id: linear-astrolabe-al-tusi
     label: "The linear astrolabe associated with al-Tusi"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: astronomy-instruments
     era: middle-period
     from: founder-supplied-lead
+    records: ["person/sharaf-al-din-al-tusi", "source/sharaf-tusi-mactutor", "source/tdv-sharaf-tusi-ozel", "source/carra-vaux-linear-astrolabe-1895"]
+    invention: invention/tusi-linear-astrolabe
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["maker-tradition-needs-sourced-perspectives"]
+    flags: [completed-D111-b70, sharaf-not-nasir, plane-astrolabe-adaptation, not-jacobs-staff, later-marrakushi-witness-not-autograph, selected-french-edition-not-arabic-collation, no-manuscript-figure, missing-use-ending, tables-in-translation, azimuth-meridian-and-equinox-limits, low-cost-design-aim-not-measured-superiority, twelfth-century-horizon-not-manufacture-date, tdv1209-date-caution, individual-islamic-identification-separate-sunni-default, no-personal-madhhab-inference, original-import-source-external-id-attribution-retained, unsupported-maragha-conflation-corrected, modern-PD-triangle-context-not-reconstruction, modern-chord-example-not-full-algorithm, paper-only]
   - id: mechanical-geared-astrolabe
     label: "The mechanical geared astrolabe"
     state: "[~]"

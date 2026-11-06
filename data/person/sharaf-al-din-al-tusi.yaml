@@ -3,24 +3,39 @@ class: person
 label:
   ar: "شرف الدين الطوسي"
   en: "Sharaf al-Din al-Tusi"
+  ur: "شرف الدین طوسی"
+names:
+  - { kind: full, lang: ar, value: "شرف الدين المظفر بن محمد الطوسي" }
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "MacTutor explicitly identifies individual as Islamic mathematician;not name/place inference. Sunni separately museum default docs/scope.md,no contrary personal affiliation in actual biographies;no documented personal madhhab. Distinct from Nasir al-Din al-Tusi."
+    sources: [source/sharaf-tusi-mactutor, source/tdv-sharaf-tusi-ozel]
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لشرف الدين المظفر الطوسي، رياضي وفلكي القرن الثاني عشر الذي علّم بمرصد مراغة وكتب في الهندسة والجبر، توفي سنة ١٢١٣م؛ تذكره مصادر تاريخ العلوم الرياضية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sharaf al-Din al-Muzaffar al-Tusi, the twelfth-century mathematician and astronomer who taught at the Maragha observatory and wrote on geometry and algebra, d. 1213; the history-of-science entry is not yet checked on the page."
+  ar: "رياضي وفلكي من القرن الثاني عشر،درّس في مدن متعددة ونسب إليه الأسطرلاب الخطي؛ليس ناصر الدين الطوسي،وتفاصيل حياته قليلة {cite:tdv-sharaf-tusi-ozel biography}."
+  en: "Twelfth-century mathematician and astronomer,teacher in several cities and credited with the linear astrolabe;not Nasir al-Din al-Tusi,and life details are sparse {cite:tdv-sharaf-tusi-ozel biography}."
+  ur: "بارھویں صدی کے ریاضی دان و ہیئت دان،کئی شہروں میں استاد،خطی اسطرلاب ان سے منسوب؛ناصر الدین طوسی نہیں،سوانحی تفصیل کم ہے {cite:tdv-sharaf-tusi-ozel biography}۔"
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [mathematics, astronomy-and-timekeeping]
-sources: [source/sezgin-gas-v-mathematik]
+sources: [source/sezgin-gas-v-mathematik, source/sharaf-tusi-mactutor, source/tdv-sharaf-tusi-ozel, source/carra-vaux-linear-astrolabe-1895]
+inventions:
+  - invention: invention/tusi-linear-astrolabe
+    role: inventor
+    note: "Specific adaptation,not all astrolabes or Jacob's staff."
+    sources: [source/tdv-sharaf-tusi-ozel, source/sharaf-tusi-mactutor]
 external_ids:
   wikidata: Q2342579
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Sezgin, GAS vol. V Mathematik — entry not yet read on the page"
+  source: "Wikidata candidate; book source: Sezgin, GAS vol. V Mathematik — entry not yet read on the page. Original import attribution retained. Copilot SDK in VS Code,model unknown,run inventions-p3-b70: actual MacTutor/TDV and selected1895 edition now read;corrected unsupported Maragha employment and did not impose uncertain1213 death. Sezgin remains uninspected."
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0014
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
