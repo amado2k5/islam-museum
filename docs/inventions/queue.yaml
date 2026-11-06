@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: taqi-decimal-trigonometric-tables
+    label: "Taqi al-Din's decimal-angle, trigonometric-function and astronomical-table application"
+    state: "[x]"
+    batch: 2
+    domain: mathematics
+    era: gunpowder-empires
+    from: scholarly-reference
+    records: ["person/taqi-al-din-ibn-maruf", "work/jaridat-al-durar", "source/taqi-fazlioglu-bea", "source/tdv-takiyyuddin-er-rasid", "source/tekeli-trigonometry-1986"]
+    invention: invention/taqi-decimal-trigonometric-tables
+    lead_sources:
+      - "Actual complete authored Fazlioglu BEA and Topdemir TDV biographies/works; selected Tekeli1986 pp247–250,257–258,269–272"
+      - "Re-read Commons original2007 PD triangle licence/history and visually reinspected saved rendering"
+    flags: [completed-D096-b55, decimal-application-not-invention-of-decimals, sidra-sexagesimal-not-jarida, fixed-star-exception-retained, no-invented-radius-digits-grid-composition-date, no-modern-decimal-point-priority, no-unproved-stevin-transmission, religious-education-and-qadi-not-name-inference, explicit-default-sunni-frame, original-devin-attribution-and-occupation-retained, actual-jarida-and-demir-edition-not-read, modern-context-image-not-manuscript, paper-only]
   - id: ibn-bassal-soil-water-matching
     label: "Ibn Bassal's linked practical land, water, season and crop assessment"
     state: "[x]"
