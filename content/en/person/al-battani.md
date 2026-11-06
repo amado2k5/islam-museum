@@ -11,6 +11,8 @@ provenance:
   run: ocr-harvest-2026-11-04
   source: "source/nallino-albatenii-opus-astronomicum scan pp. 16–71; source/muruj-al-dhahab pp. 519, 736"
   translator_of: content/ar/person/al-battani.md
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b29", source: "Translated new Arabic sine-table/identity section; earlier Claude/Devin authorship retained" }
 ---
 ## Summary
 Abu Abd Allah Muhammad ibn Jabir ibn Sinan al-Harrani al-Raqqi, known as al-Battani, was one of the leading observers, geometers and astronomers of the third Islamic century and the author of the Zij in which he set down his observations of the Sun and Moon and corrected their motions as [[person/batlamus|Ptolemy]] had fixed them in the [[work/al-majisti|Almagest]]. {cite:nallino-albatenii-opus-astronomicum p. 17} [[person/al-masudi|al-Mas'udi]] counted him among those who cultivated astronomy after the coming of Islam {cite:muruj-al-dhahab p. 519}, and relied on his Zij for the reckoning of the caliphs' reigns from the Hijra to the year 336. {cite:muruj-al-dhahab p. 736}
@@ -53,3 +55,9 @@ Al-Bayhaqi reports two maxims from him: that the misery of life lies in a disobe
 
 ## Legacy
 His Zij remained a reference for later astronomers East and West, and passed into Europe through the Latin translations of [[person/robert-of-ketton|Robert]] and [[person/plato-of-tivoli|Plato of Tivoli]] and a Castilian version made under Alfonso X. {cite:nallino-albatenii-opus-astronomicum p. 43} {cite:nallino-albatenii-opus-astronomicum p. 58} {cite:nallino-albatenii-opus-astronomicum p. 66} Nallino's survey of his influence among Muslims, Jews and Europeans is summarised on the page of the Zij.
+
+## Sine computation in chapter three
+
+The [[invention/battani-sine-table-methods|Zij's sine-computation record]] covers a bounded refinement: half-chords of doubled arcs at radius60, a half-degree table, estimation between entries and reverse lookup from length to arc {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–17; Latin pp. 9–11}. The text follows Ptolemy's diameter120 convention; this chapter alone does not make al-Battani the inventor of sine, all interpolation or the spherical sine law {cite:nallino-albatenii-opus-astronomicum Latin pp. 9–11}.
+
+This addition's Muslim-identity basis is the author's inspected Arabic declaration and Nallino's explicit argument from that preface, not inference from the name Muhammad; no Qur'anic text from the opening is transcribed {cite:nallino-albatenii-opus-astronomicum Arabic p. 6, scan1146; Latin preface XVI, scan25}. Sunni in the Abbasid Raqqa context is the separately declared museum frame, not personal school testimony; the named historical opinions above remain attributed {cite:tdv-battani-muftuoglu biography} {cite:nallino-albatenii-opus-astronomicum Latin preface XVI, scan25}.

@@ -436,17 +436,17 @@ candidates:
       - "data/passage/quran-2-108.yaml"
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: museum-record-person-al-battani
-    label: "Museum lead for al-Battani"
-    state: "[~]"
+    label: "Al-Battani's sine-table computation"
+    state: "[x]"
     batch: 1
-    domain: astronomy-instruments
+    domain: mathematics
     era: abbasid-golden
     from: museum
-    records: ["person/al-battani"]
+    records: ["person/al-battani", "invention/battani-sine-table-methods"]
     lead_sources:
       - "content/ar/person/al-battani.md"
       - "data/person/al-battani.yaml"
-    flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+    flags: [D-068, bounded-improvement-not-first-sine, primary-chapter-inspected, latest-lifetime-bound-not-composition-year, original-2007-PD-triangle]
   - id: museum-record-person-al-zarqali
     label: "Museum lead for Al-Zarqali"
     state: "[~]"

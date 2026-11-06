@@ -114,15 +114,17 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Current state
 
-- Phase: 3 —27 inventions merged, through `invention/equatorium-al-zarqali`;28th written and validated under D-067. The queue keeps515 entries (476 active,39 excluded). Next integrate and publish the Earth-radius method with its priority and precision limits.
-- Branch: `inventions/p3-b28-copilot`.
+- **6 November 2026 — Invention29 written under D-068:** al-Battani's sine-table computation, all17 sections,1013 Arabic/1156 English/1322 Urdu main-body words. Personally read Arabic chapter3 images and actual Latin translation plus explicit primary identity evidence. Three new source entities, reused/extended primary edition, PD original2007 triangle and generic chain; old maker/source attribution retained. Exact composition unknown: `../0929` is a labelled latest-lifetime bound, not an invention year. Existing Hijri schema cannot encode that open bound; sourced317 AH endpoint is in date note/prose instead of a false exact date. Initial gates validate49,551 entities/84,740 prose files,0 errors/8403 warnings, authenticity0 errors/1 warning, citation checks4/4; graph51,459 nodes/82,416 edges,29 inventions, unique maker/inverse pair and no false dependency. Census515 total/476 active/39 excluded,265 person leads,295 prose hits. Reviewed incoming #4217/#4218 Tabari content and separate canary Data additions; next integrate, regenerate, validate and publish29, then continue30 toward100. No tests/local build/deployment.
+
+- Phase: 3 —28 inventions merged, through `invention/al-biruni-earth-radius` (#4215, merge `3fc7cc44990fbd4d8d7daa27da8350dd6af1a86a`, content `a695f0b01dca1b0347a975de5f31c3579422feab`,6 November03:51:33Z). Integrated reviewed main through #4214 and reran all permitted gates unchanged; merged state/ancestry/exact28 persisted records verified. Next write al-Battani's primary-verified sine-table computation under D-068; Fakhri's identity hold remains. The queue keeps515 entries (476 active,39 excluded). No code, Worker, workflow or deployment; tests/local builds skipped by founder.
+- Branch: `inventions/p3-b29-copilot`.
 - Phase 0 and Phase 1 are merged; Phase 1 implementation commit `e2710cbb7f` and origin refresh merge `e7aceeeed4` are in main.
 - Downloads: the openly served 1001 Inventions EPUB/index, the registered CC BY 4.0 Mahgoub et al. paper/extracted text, and the visually checked 1908 Cheikho scan/OCR are stored outside Git; no source files are committed.
 - Schema/API changes: merged in Phase 1; external chain labels may now carry `ur`. Browser page, invention sections and Explore entry built.
 - Worker/workflow changes: none.
 - Deployment: none; do not deploy.
 - Resumed after reboot: inventions13–26 merged, most recently PR #4203 at `03a516507395973a4f7c2dad0f0d09312fafc90a`. Invention27 is researched under D-066; Banu Musa model96 remains held under D-058 and al-Samawal's specifically post-conversion calculation under D-061. Next: write/validate/integrate/merge27, then continue one at a time toward100. `npm test` and local builds remain skipped at the founder's request; validation, citation checks and generated reports still run. The invention-12 PR's build run was cancelled, not a completed passing build; production readiness must not be inferred from that run.
-- Latest content gates are batch27 results above and must be rerun after integration. Tests/local builds were not run for that batch. The older Phase1 build/check-weight and331-test baseline are historical evidence only, not a build of the27-record dataset. Preserve the untracked `dist` symlink and its external output. No deployment was run.
+- Latest content gates are batch29 results above and must be rerun after integration. Tests/local builds were not run for that batch. The older Phase1 build/check-weight and331-test baseline are historical evidence only, not a build of the29-record dataset. Preserve the untracked `dist` symlink and its external output. No deployment was run.
 
 ## Flags
 
