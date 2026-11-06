@@ -18,14 +18,14 @@ translators: []
 ## ما تعظم به الصغيرة
 قد تعظم الصغيرة فتصير كبيرة بالإصرار عليها والمواظبة، أو باستصغار الذنب، أو بالسرور بالصغيرة والتبجح بها، واعتداد التمكن منها نعمة، والغفلة عن كونها سبب الشقاوة. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10381}
 
-## رأي الشيخ عمر عبد الكافي في الصغائر والكبائر (شرح كتاب الفوائد، الحلقة 1)
-يقسم الشيخ المعاصي إلى قسمين: كبائر وصغائر، ويذكر كبائر العينين، وكبائر القلب، وكبائر الفرج، وكبائر البطن (رأيه) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:21:30}.
-يقول الشيخ إن الإنسان لا ينظر إلى صغر الذنب، وإنما ينظر إلى عظمة من عُصي (رأيه) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:30}.
-ويقول الشيخ إن الصغيرة لا تبقى صغيرة مع الإصرار عليها، وإن الكبيرة لا تمنع المغفرة مع الاستغفار منها (رأيه) (needs_source: الصياغة في النص مضطربة وتحتاج إلى مراجعة مع التسجيل) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:29:30}.
+## رأي الشيخ عمر عبد الكافي في الصغائر والكبائر ⁦(شرح كتاب الفوائد، الحلقة 1)⁩
+يقسم الشيخ المعاصي إلى قسمين: كبائر وصغائر، ويذكر كبائر العينين، وكبائر القلب، وكبائر الفرج، وكبائر البطن ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:21:30}.
+يقول الشيخ إن الإنسان لا ينظر إلى صغر الذنب، وإنما ينظر إلى عظمة من عُصي ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:30}.
+ويقول الشيخ إن الصغيرة لا تبقى صغيرة مع الإصرار عليها، وإن الكبيرة لا تمنع المغفرة مع الاستغفار منها ⁦(رأيه)⁩ ⁦(needs_source: الصياغة في النص مضطربة وتحتاج إلى مراجعة مع التسجيل)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:29:30}.
 
 ## من درس الشيخ عمر عبد الكافي: الدين القيم
 
 يقول الشيخ إن الذنب الصغير يصير كبيرا مع الإصرار عليه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:45:30}. ويقول إن العلماء يقسمون الذنوب إلى صغيرة وكبيرة، وإن اللمم أدنى من الكبيرة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:05:00}. وينقل قولا مفاده أنه لا صغيرة مع الإصرار {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:07:00}.
 
-## من برنامج المنجيات (عمر عبد الكافي)
+## من برنامج المنجيات ⁦(عمر عبد الكافي)⁩
 يقول عمر عبد الكافي إن الصغيرة لا تبقى صغيرة إذا أصرّ عليها العبد، {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:07:00} ويشبّه الصغائر بمثل للغزالي: قطرات الماء التي تتساقط على الحجر فلا تؤثر واحدةٌ منها، لكنها بتواليها تؤثر، وإن الذنوب إذا تجمعت حجبت القلب عن ربه. {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:05:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:06:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:07:30}
