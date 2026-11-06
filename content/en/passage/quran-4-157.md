@@ -42,7 +42,7 @@ Al-Tabari holds that those who reported that Jesus was killed do not deserve to 
 
 On the closing words, that those who differed about him were in doubt, having no knowledge, but only following conjecture, and did not kill him with certainty: he means the Jews who surrounded Jesus and his companions; they had identified the number of those in the house before they entered; when they entered they found one missing, so the matter of Jesus was confused, and they killed some in doubt. The pronoun in 'they did not kill him' refers to the conjecture they followed. Reports 10790 and 10791, from Ibn Abbas and Juwaybir, say they did not kill their conjecture with certainty; report 10792, from al-Suddi, says they did not kill his affair with certainty that the man was Jesus. {cite:tafsir-tabari-shakir-v09 p. 377}
 
-We stop here after report 10792 at p. 377, and will continue with the commentary on verse 158. {cite:tafsir-tabari-shakir-v09 p. 377}
+The reports on verse 157 end with report 10792 at p. 377; verse 158 begins on p. 378. {cite:tafsir-tabari-shakir-v09 p. 377}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
 

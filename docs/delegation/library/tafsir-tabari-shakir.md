@@ -217,4 +217,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 13: pp. 357-363 filed in ar, en and ur (reports 10770-10773): verse 153 closes at p. 361, verse 154 is filed in full, and verse 155 is begun to p. 363.
 - Batch 14: pp. 364-370 filed in ar, en and ur (reports 10774-10782): verse 155 closes at p. 366, verse 156 is filed in full, and verse 157 is filed to report 10782 at p. 370.
 - Batch 15: pp. 371-377 filed in ar, en and ur (reports 10783-10792): verse 157 is filed in full.
-- Progress: current report 10792, printed p. 377. Next is verse 158, from printed p. 377 on.
+- Batch 16: pp. 378-384 filed in ar, en and ur (reports 10793-10820): verse 158 is filed in full and verse 159 to report 10820 at p. 384.
+- Progress: current report 10820, printed p. 384. Next is report 10821, the rest of verse 159 from p. 384 on.
