@@ -44,3 +44,8 @@ TDV's list also includes projection, sundials, quadrant use, horizons, worship t
 ## What was established here?
 
 The BEA and TDV biographies, TDV works list and specified Tekeli passages were read, not the author's entire manuscript corpus. The older data card's al-A'lam entry was not read in this run; its original Devin attribution and existing occupation remain in the data. Our addition identifies its basis and limits without pretending that enriching a biography critically edits every book or resolves every priority claim {cite:taqi-fazlioglu-bea selected references} {cite:tdv-takiyyuddin-er-rasid works}.
+## Six-cylinder design: no verified workshop
+
+In [[work/turuq-saniyya-taqi|Al-Turuq al-saniyya]] he described [[invention/taqi-six-cylinder-pump|six cylinders]] with weights, valves and a common outlet. The text prefers three units for smoother delivery while allowing one or two: not constant-flow certification or a physical ban below three. Resemblance to later engines proves no direct transfer; the editor's priority formulation remains his {cite:taqi-turuq-hasan-1976 pp47–50}.
+
+Modern modeling assumes most dimensions and produces a quarter-scale mock-up without establishing historical manufacture. We do not transfer the observatory's building date or call researchers' metric choices authenticated authorial units. This addition is distinct from decimal tables, preserving both contributions, earlier biography and attribution {cite:cabeza-pump-2021 sections2–6}.

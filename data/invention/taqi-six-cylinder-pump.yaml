@@ -1,0 +1,86 @@
+id: invention/taqi-six-cylinder-pump
+class: invention
+label: { ar: "مضخة تقي الدين ذات الأسطوانات الست", en: "Taqi al-Din's six-cylinder pump", ur: "تقی الدین کا چھ سلنڈر پمپ" }
+names:
+  - { kind: alternate, lang: en, value: "Six inline phased water-pump design" }
+summary:
+  ar: "تصميم بعمود وست كامات وأثقال وصمامات لمخرج مشترك؛ ليس برهان صنع تاريخي أو أصل كل محرك {cite:taqi-turuq-hasan-1976 pp47–50} {cite:cabeza-pump-2021 sections2–6}."
+  en: "Design with six phased cams, weights and valves feeding a shared outlet; not verified historical manufacture or origin of every engine {cite:taqi-turuq-hasan-1976 pp47–50} {cite:cabeza-pump-2021 sections2–6}."
+  ur: "چھ مرحلہ وار کیم، وزن و صمام سے مشترک خروج کا ڈیزائن؛ تاریخی تعمیر یا ہر محرك کا آغاز ثابت نہیں {cite:taqi-turuq-hasan-1976 pp47–50} {cite:cabeza-pump-2021 sections2–6}۔"
+domain: mechanics-automata
+kind: device
+disciplines: [engineering]
+wings: [objects, ideas]
+regions: [anatolia-balkans, levant-iraq]
+periods: [period/gunpowder-empires]
+era:
+  origins: gunpowder-empires
+  first_attested:
+    edtf: "1551/1552"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Documentary horizon, not manufacture.1976 preface6 distinguishes959AH manuscript (paired1551) from960AH later reader;2021 p2 summarizes1551/1552. No guessed Hijri conversion or collapse of composition/copy/reading/build dates."
+    sources: [source/taqi-turuq-hasan-1976, source/cabeza-pump-2021]
+  status_today: transformed
+origin:
+  polity: polity/ottoman-empire
+  context:
+    ar: "سياق المؤلف العثماني، لا ورشة أو بئر موثقة لهذه الآلة {cite:taqi-fazlioglu-bea biography}."
+    en: "Author's Ottoman setting, not a documented workshop or well for this machine {cite:taqi-fazlioglu-bea biography}."
+    ur: "مصنف کا عثمانی سیاق، اس آلے کا مصدقہ کارخانہ یا کنواں نہیں {cite:taqi-fazlioglu-bea biography}۔"
+makers:
+  - person: person/taqi-al-din-ibn-maruf
+    role: improver
+    note: "Documented design author, no claim he originated all pumps/cams. Existing individually documented religious/judicial identity retained, separate Sunni default frame."
+    sources: [source/taqi-turuq-hasan-1976, source/taqi-fazlioglu-bea]
+attribution:
+  status: improvement
+  claim:
+    ar: "تركيب ست مضخات متعاقبة بأثقال ومخرج مشترك."
+    en: "Integration of six phased weighted pumps with a shared outlet."
+    ur: "مشترک خروج کے ساتھ چھ مرحلہ وار وزنی پمپ کی ترکیب۔"
+  basis:
+    ar: "النص يصف الآلة؛ جزم المحقق بالأولية أو نسب المحرك الحديث ليس حكماً مستقلاً للمتحف {cite:taqi-turuq-hasan-1976 pp47–50}."
+    en: "Text describes the device; editor's priority/modern-engine genealogy is not an independent museum verdict {cite:taqi-turuq-hasan-1976 pp47–50}."
+    ur: "متن آلہ بتاتا ہے؛ محقق کی اولیت یا جدید محرك کے نسب کی بات عجائب گھر کا آزاد فیصلہ نہیں {cite:taqi-turuq-hasan-1976 pp47–50}۔"
+  perspectives: []
+precursors:
+  - invention: invention/jazari-double-piston-pump
+    note: "Earlier distinct pump acknowledged by1976 editor; not identical mechanism or proof every detail was copied."
+    sources: [source/taqi-turuq-hasan-1976]
+  - external: { ar: "كامات ورفع ماء أقدم", en: "Earlier cams and water raising", ur: "سابق کیم اور آبی اٹھان" }
+    note: "Editor acknowledges Heron/Chinese mechanisms; references not independently read."
+    sources: [source/taqi-turuq-hasan-1976]
+dependents:
+  - external: { ar: "نماذج ودراسات حديثة", en: "Modern models and studies", ur: "جدید ماڈل و مطالعات" }
+    note: "2021 quarter-scale PLA mock-up, not historic pump, full-size wet test or direct steam-engine transmission."
+    sources: [source/cabeza-pump-2021]
+spread: []
+impact:
+  fields: [mechanics-automata, water-agriculture]
+  changed:
+    ar: "تعاقب الست يقصد تقليل الدفق المتقطع، لا تدفق ثابت مثبت أو أرقام ري تاريخية {cite:taqi-turuq-hasan-1976 pp48–50}."
+    en: "Phasing aims to reduce intermittent discharge, not proven constant flow or historical irrigation figures {cite:taqi-turuq-hasan-1976 pp48–50}."
+    ur: "مرحلہ بندی وقفہ دار اخراج گھٹانے کو ہے، ثابت یکساں بہاؤ یا تاریخی آب پاشی کے اعداد نہیں {cite:taqi-turuq-hasan-1976 pp48–50}۔"
+  history:
+    ar: "نص الآلة يدعم دراسة التصميم؛ غياب برهان التنفيذ يبقى واضحاً {cite:cabeza-pump-2021 sections2,4,6}."
+    en: "The machine text supports design history; absence of build evidence remains explicit {cite:cabeza-pump-2021 sections2,4,6}."
+    ur: "آلے کا متن ڈیزائن کی تاریخ دیتا، تعمیر کے ثبوت کی کمی واضح رہتی ہے {cite:cabeza-pump-2021 sections2,4,6}۔"
+  significance: 3
+  why: "Bounded inline/phased design, distinguish historical text, editor interpretation, assumed model and modern example."
+described_in: [work/turuq-saniyya-taqi]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "محاكاة ومجسمات ودراسة.", en: "Simulation, mock-ups and study.", ur: "محاکات، ماڈل اور مطالعہ۔" }
+  descendants: { ar: "مقارنة تعليمية لا نسب محركات مثبت.", en: "Teaching comparison, not established engine ancestry.", ur: "تدریسی تقابل، محركوں کا ثابت نسب نہیں۔" }
+media: { image: media/taqi-cam-context, diagram: media/diagram-taqi-six-cylinder-pump }
+kids:
+  ar: "رتب ست بطاقات زمنية على الورق؛ لا أثقال أو رصاص أو ماء نهري."
+  en: "Arrange six timing cards on paper; no weights, lead or river activity."
+  ur: "چھ وقت والے کارڈ کاغذ پر رکھیں؛ وزن، سیسہ یا دریا کی سرگرمی نہیں۔"
+sources: [source/taqi-turuq-hasan-1976, source/cabeza-pump-2021, source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid, source/commons-flat-cam]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b63", source: "Actual selected1976 Arabic scan, complete2021 study, reused documented identity, inspected licensed original2013 generic image. Modern computations not historic performance or original simulation replication." }
