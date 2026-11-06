@@ -29,7 +29,7 @@ translators: []
 
 ### الحلقة 3
 - [[concept/rahma|الرحمة]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:04:00}
-- [[concept/al-masalah|المسألة (سؤال الناس)]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:08:30}
+- [[concept/al-masalah|المسألة ⁦(سؤال الناس)⁩]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:08:30}
 - [[concept/qalb-salim|القلب السليم]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:31:00}
 
 ### الحلقة 4
