@@ -6,6 +6,16 @@ summary:
   en: "Alp Arslan's vizier; he ended his predecessor Amid al-Mulk's Ash'ari-cursing, championed the Shafi'is, honoured Imam al-Haramayn and al-Qushayri, and built the Nizamiyya — 'said to be the first school built for the jurists' {cite:tarikh-khulafa-minhaj-1434 p. 645}. In 485 a youth in sufi guise handed him a petition and knifed him on the eve of 10 Ramadan — it was said Malikshah had suborned it; for twenty years he had run the whole realm, leaving the sultan 'only the throne and the hunt', and al-Muqtadi had him sit before him saying 'God is pleased with you as the Commander of the Faithful is pleased with you' {cite:shadharat-dhahab p. 381-382}."
   ur: "سلجوقی وزیر جو الپ ارسلان اور ملک شاہ کے عہد سے وابستہ تھا؛ نظامیہ مدارس اور سلطنت کے انتظام میں اس کا اہم کردار تھا۔ {cite:shadharat-dhahab}"
 gender: male
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "TDV explicitly describes his programme to spread and strengthen Sunni teaching, support of Ash'ari and Shafi'i scholars and hadith transmission. This documents affiliation rather than inferring it from his name or Persian origin."
+    sources: [source/tdv-nizamulmulk]
+inventions:
+  - invention: invention/nizamiyya-madrasa
+    role: commissioner
+    sources: [source/tdv-nizamiye-medresesi, source/tdv-nizamulmulk]
 wings: [people]
 periods: [period/abbasid-early]
 provenance:
@@ -15,9 +25,14 @@ provenance:
   run: lib-tarikh-khulafa-batch-38
   explorer_localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fifth-40-stories-2026-11-04","source":"Missing English/Urdu labels and concise summaries restated from this existing Arabic museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
+  inventions_enrichment:
+    generated_by: "Copilot SDK in VS Code"
+    model: "unknown"
+    run: "inventions-p3-b15"
+    source: "TDV NİZÂMÜLMÜLK, pp. 194–196, and NİZÂMİYE MEDRESESİ, pp. 188–191; identity and institutional tie only, read 2026-11-06"
 relations:
   - { type: authored, target: work/amali-nizam-al-mulk, sources: [source/kashf-zunun-furqan] }
-sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/kashf-zunun-furqan, source/muntazam-ibn-al-jawzi]
+sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/kashf-zunun-furqan, source/muntazam-ibn-al-jawzi, source/tdv-nizamulmulk, source/tdv-nizamiye-medresesi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 born: { edtf: "1018-04~", hijri: "0408-11", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد يوم الجمعة حادي عشري ذي القعدة سنة 408 بنوقان إحدى مدينتي طوس {cite:shadharat-dhahab p. 382}.", sources: [source/shadharat-dhahab] }
 died: { edtf: "1092-10~", hijri: "0485-10~", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة عاشر رمضان 485هـ طعناً بسحنة قرب نهاوند على يد شاب ديلمي على هيئة الصوفية ناوله قصة ثم ضربه بسكين في صدره، وقتل القاتل بعد أن عثر بطنب خيمة؛ وقيل إن ملكشاه دسه عليه أو أنه كان بسبب تاج الملك أبي الغنايم ابن دارست {cite:shadharat-dhahab p. 381-383}", sources: [source/shadharat-dhahab] }

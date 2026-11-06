@@ -524,3 +524,17 @@ Scope of the sign-off is limited to the exact class, enums, predicates, existing
 **Scope and risk:** `non-impacting`, content within the approved inventions lane. No schema, code, UI, Worker, workflow or submission-document changes.
 
 **Touches:** the new invention, source `tdv-ahmed-b-tolun`, two media records, the commissioner's faith/invention/source blocks, ar/en/ur articles, inventions queue/research/progress/census, generated `docs/coverage.md` and `CANARY.md`.
+
+## D-052 — Record the endowed Nizamiyya network, not invention of the madrasa (6 November 2026)
+
+**Question:** Can the broad madrasa/ijaza lead become a precise institutional contribution without repeating a first-university story?
+
+**Decision:** Publish `invention/nizamiyya-madrasa`, kind `institution`, attribution `improvement`, with Nizam al-Mulk as commissioner. The contribution is the multi-city programme joining endowments, teaching and service posts, books, accommodation and student maintenance. TDV documents Baghdad's Shafi'i conditions and other foundations, and explicitly rejects first-madrasa priority. The Baghdad opening of 459/1067 is the dated exemplar, not the first network foundation: Nishapur is earlier with an unknown exact date. Earlier madrasas and waqf are separate precursors. Later institutions followed the model; no European university, degree or ijaza priority is claimed.
+
+**Evidence and limits:** Read TDV's Nizamiyya article (vol. 33, pp. 188–191), its Nizam al-Mulk biography (pp. 194–196), and Ibn Jubayr's existing local scan pp. 193 and 202, checking both images. The traveller witnesses later endowed schools and a gathering, not the opening. The patron's Sunni affiliation is explicit in the biography, not inferred. Do not copy the encyclopedia's first-primary-source references as independently read. Preserve uncertainty over damage in 1258 and closure. The later Mustansiriyya courtyard photograph, CC BY-SA 4.0, is explicitly contextual, not the Nizamiyya or a reconstruction. The broad ijaza lead remains unresolved.
+
+**Coupled correction:** The existing Baghdad building summary called it the first Nizamiyya and placed al-Juwayni there before al-Shirazi. Correct only this directly reused exemplar's summaries, add Urdu and the new defined source, and preserve its original provenance. TDV places al-Juwayni at Nishapur; Ibn al-Sabbagh gave Baghdad's first lesson and al-Shirazi followed twenty days later.
+
+**Scope and risk:** `non-impacting`, sourced content in the approved inventions lane. Five new entities; no schema, UI, code, Worker, workflow or submission-document changes.
+
+**Touches:** new invention, two TDV sources, two media records, patron's identity/tie, reused building summary/source/provenance, ar/en/ur articles, inventions documentation and generated reports, `CANARY.md`.
