@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: research method
 
+## Invention93 — central zimam oversight (6 November 2026)
+
+Actually read Bozkurt's TDV *Mehdi-Billah* article and2003volume28 printed377–379 PDF, especially the administrative paragraph: accounting/checking162AH/779 and central provincial connection168AH/784–85. Duri's first Divan article explicitly distinguishes departmental zimam162AH/778–79 from central zimam al-azimma168AH/784–85 and gives three functions: account checks, supervision and coordination with vizier/other bureaus. These summaries support a bounded institutional improvement, not an original office manual, independent audit charter, observed daily workflow or world-first accounting.
+
+Read the existing maker's complete Arabic/English/Urdu prose, including political/persecution assessments and Khalifa ibn Khayyat's officials. Its Umar ibn Bazi chancery entry remains exactly that. An actual online history paragraph mentions appointments, but its underlying edition/author provenance is not established; do not adopt it. Narrow local Tabari searches found an index occurrence, not the primary appointment passage. The older Persian/Ziyad `diwan-zamam` concept already exists with three prose files: preserve them and append an explicit distinction between seal/command checking and the later central accounting arrangement; shared vocabulary is not institutional identity.
+
+Actual Suyuti Dar al-Minhaj printed447 corresponds toPDF447: rendered and inspected the entire page, including the Abu Ubayda report that al-Mahdi personally led five prayers in Basra and waited for a worshipper. It is individual-practice evidence, not a name/office/coin inference; no claim all chains are authenticated or inner belief established. The Sunni default is named as museum framing, not late denominational membership. No Qur'an text transcribed. Empty PDF-text probes did not supply evidence; the scan did.
+
+Exact CommonsDP212609 file identified instead of choosing the first search result, then its original museum link resolved toMet20365. Actual public API verifies John Carlin,1835–56,2009.202,ink on paper/marbleized cardboard,19.1x15.9cm,isPublicDomain:true and exact image URL. Commons supplies explicit CC0. Actual image shows a closed worn marbled cover with leather spine and handwriting on a grey background, no people and no visible internal accounting table. Context only: nineteenth-century ledger, not Abbasid record or proof of historic forms. Downloads,JSON,OCR and images remain outside git.
+
 ## Invention92 — Arabic fiscal-register reform (6 November 2026)
 
 Before integration, reviewed exact upstream changes to nine earlier invention YAMLs: algebra,algorism,barid,camera-obscura,hisba,minaret,tabula-rogeriana,tiraz,waqf. Only Arabic parenthesis directional isolates changed; facts/prose untouched. The integration preservation gate checks normalization against the original baseline and exact merged bytes against reviewed159ff38f4cfor these nine, retains strict original bytes everywhere else. This preserves contributor intent rather than reverting it to make a stale byte-comparison pass.
