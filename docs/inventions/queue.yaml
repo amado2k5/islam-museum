@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: round-city-baghdad
+    label: "Baghdad's commissioned round-city nucleus plan"
+    state: "[x]"
+    batch: 1
+    domain: architecture-building
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-mansur", "place/baghdad", "source/tdv-bagdat-duri", "source/lestrange-baghdad-1900"]
+    invention: invention/round-city-baghdad
+    lead_sources:
+      - "Actual Duri foundation/plan article and Le Strange1900chapterII15–29/MapII/17–18scans"
+      - "Actual Hitti445–446and Suyuti427scans; exact Commons1900PDmap inspected"
+    flags: [completed-D136-b94, older-circular-precedents-credited, commissioner-not-sole-architect, foundation145-762-not-occupation146-763-or-completion149-766, no-new-date-conversion, source-compass-diameter-disagreements-explicit, two-ramparts-third-central-enclosure, individual-reported-learning-not-office-faith-inference, Sunni-museum-frame-labelled, Abu-Hanifa-political-accounts-preserved, map1900-reconstruction-not762-survey, suburbs-not-all-synchronous, no-modern-coordinate-reassignment, original-maker-city-prose-and-fields-preserved]
   - id: al-mahdi-zimam-oversight
     label: "Al-Mahdi's central zimam oversight"
     state: "[x]"
