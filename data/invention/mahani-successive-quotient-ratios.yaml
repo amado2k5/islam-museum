@@ -1,0 +1,58 @@
+id: invention/mahani-successive-quotient-ratios
+class: invention
+label: { ar: "نظرية الماهاني للنسب بخوارج القسمة المتتابعة", en: "Al-Mahani's successive-quotient ratio theory", ur: "ماہانی کا متتابع خارج قسمت سے نسبت کا نظریہ" }
+names:
+  - { kind: alternate, lang: en, value: "Anthyphairetic comparison of proportional magnitudes" }
+summary:
+  ar: "مقارنة نسب المقادير بتتابع خوارج القسمة، مع سوابق أقدم ورابط غير مكتمل بتعريف إقليدس {cite:dold-samplonius-mahani-dsb ratio}."
+  en: "Compared magnitude ratios through quotient sequences, with older precedents and an uncompleted link to Euclid's definition {cite:dold-samplonius-mahani-dsb ratio}."
+  ur: "مقداروں کی نسبت کا خارج قسمت کے سلسلوں سے تقابل، قدیم پیش رو اور اقلیدسی تعریف سے نامکمل ربط سمیت {cite:dold-samplonius-mahani-dsb ratio}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "08XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Ninth-century lifetime horizon, not a dated autograph, eclipse observation or exact first use; no invented Hijri."
+    sources: [source/mahani-mactutor, source/dold-samplonius-mahani-dsb]
+  status_today: living
+origin:
+  place: place/baghdad
+  context: { ar: "بيئة عمل الماهاني، لا موضع نسخ متحقق للرسالة {cite:tdv-mahani-fazlioglu biography}.", en: "Al-Mahani's working milieu, not a verified production site for this manuscript {cite:tdv-mahani-fazlioglu biography}.", ur: "ماہانی کا علمی ماحول، اس نسخے کا ثابت مقام تصنیف نہیں {cite:tdv-mahani-fazlioglu biography}۔" }
+makers:
+  - { person: person/al-mahani, role: improver, note: "Explicit ratio-theory use of inherited reciprocal subtraction/quotient ideas, not invention of Euclid's algorithm.", sources: [source/dold-samplonius-mahani-dsb, source/tdv-mahani-fazlioglu] }
+attribution:
+  status: improvement
+  claim: { ar: "صياغة صريحة في تقليد النسبة، لا أول خوارزمية إقليدية أو أول كسر مستمر.", en: "Explicit formulation in ratio theory, not the first Euclidean algorithm or continued fraction.", ur: "نظریۂ نسبت میں صریح تشکیل، پہلا اقلیدسی طریقہ یا مسلسل کسر نہیں۔" }
+  basis: { ar: "دولد-سامبلونيوس تصف تعريفاً بخوارج متطابقة، وتبقي سوابقه وعدم إثبات صلته بتعريف إقليدس عند صاحبه {cite:dold-samplonius-mahani-dsb ratio}.", en: "Dold-Samplonius describes matching quotient sequences while retaining earlier origins and the author's missing equivalence proof {cite:dold-samplonius-mahani-dsb ratio}.", ur: "ڈولڈ سامپلونیوس متطابق سلسلے، قدیم اصل اور مصنف کے ہاں گم برہان ربط کو الگ رکھتی ہیں {cite:dold-samplonius-mahani-dsb ratio}۔" }
+  perspectives: []
+precursors:
+  - external: { ar: "التصور السابق لأودوكسوس وعملية إقليدس وتعريف المضاعفات", en: "Pre-Eudoxian conception, Euclidean process and equimultiple definition", ur: "قبل از اودوکسوس تصور، اقلیدسی عمل اور مساوی مضاعفات کی تعریف" }
+    note: "Inherited ideas, not a claim that al-Mahani invented division or rejected Euclid's correctness."
+    sources: [source/dold-samplonius-mahani-dsb]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics]
+  changed: { ar: "مقارنة سلوك مقدارين في سلسلة قسمة بدلاً من الاكتفاء بعرض تركيبي للنسبة {cite:dold-samplonius-mahani-dsb ratio}.", en: "Compared the mutual behaviour of magnitudes through division sequences rather than only a synthetic ratio presentation {cite:dold-samplonius-mahani-dsb ratio}.", ur: "نسبت کے صرف ترکیبی بیان کے بجائے مقداروں کے باہمی رویے کا تقسیمی سلسلوں سے تقابل {cite:dold-samplonius-mahani-dsb ratio}۔" }
+  history: { ar: "ماكتوتر تذكر تبني النيريزي مفاهيمه؛ لا لقاء شخصياً مثبتاً أو برهان تكافؤ أكمله الماهاني {cite:nayrizi-mactutor ratio}.", en: "MacTutor reports al-Nayrizi adopting his concepts, not a documented personal meeting or equivalence proof completed by al-Mahani {cite:nayrizi-mactutor ratio}.", ur: "میک ٹیوٹر نیریزی کا مفاہیم اپنانا بتاتا ہے، ثابت ذاتی ملاقات یا ماہانی کا مکمل برہان تکافؤ نہیں {cite:nayrizi-mactutor ratio}۔" }
+  significance: 3
+  why: "Distinct Book V ratio formulation, older method acknowledged, reception and missing equivalence retained; modern rational examples separate full quotient sequences from shared prefixes."
+described_in: [work/mahani-risala-fi-nisba]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "أمثلة نسب موجبة قابلة للقياس المشترك، لا قرار مساواة لكل مقدار غير نسبي ببادئة محدودة.", en: "Positive commensurable examples, not equality decisions for all irrational magnitudes from finite prefixes.", ur: "مثبت مشترک پیمائش کی مثالیں، محدود ابتدا سے ہر غیر ناطق مقدار کی برابری کا فیصلہ نہیں۔" }
+  descendants: { ar: "لا نسب مباشر مثبت إلى كل استعمال حاسوبي حديث للقاسم المشترك.", en: "No demonstrated direct ancestry for every modern computational gcd use.", ur: "ہر جدید کمپیوٹری مشترک مقسوم کے استعمال کا ثابت براہ راست نسب نہیں۔" }
+media: { image: media/mahani-euclid-tiling-context, diagram: media/diagram-mahani-ratios }
+kids: { ar: "قد تتساوى النسب وإن اختلفت الأطوال؛ تشابه أول خطوتين لا يكفي وحده.", en: "Ratios may agree while lengths differ; sharing the first two steps is not enough.", ur: "لمبائیاں مختلف، نسبت یکساں ہو سکتی ہے؛ پہلے دو قدم ملنا کافی نہیں۔" }
+sources: [source/dold-samplonius-mahani-dsb, source/tdv-mahani-fazlioglu, source/nayrizi-mactutor, source/weisstein-euclidean-algorithm, source/weisstein-simple-continued-fraction, source/commons-euclid-tiling-proteins]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b81", source: "Actual DSB/TDV and complete MacTutor al-Nayrizi; actual MathWorld definitions/formulas and Commons rights/static image. Modern arithmetic/notation not original manuscript or proof of historical equivalence." }

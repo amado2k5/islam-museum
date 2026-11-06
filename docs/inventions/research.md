@@ -1,5 +1,13 @@
 # Muslim Inventions Browser: research method
 
+## Invention81 audit — successive-quotient ratio theory (D-122)
+
+Retained complete Dold-Samplonius DSB biography and actual TDV work1/ratio passages read; actual complete MacTutor al-Nayrizi biography read. The formulation concerns Book V proportionality through full Euclidean quotient sequences, not invention of the old algorithm or every continued fraction. Pre-Eudoxian background, accepted correctness of Euclid's principle and the missing equivalence proof remain explicit. DSB assigns the later connection to Ibn al-Haytham, not al-Mahani/al-Nayrizi. MacTutor's adoption report is not proof of a personal teacher meeting. TDV's named ratio treatise and title variants are modeled without inventing three independent books or collapsing manuscript witnesses; DSB's “different?” remains unresolved. Original manuscripts and Plooij/Becker bibliography studies not read.
+
+Actual MathWorld Euclidean Algorithm definition/equations1–3/termination/examples and Simple Continued Fraction definition/equations1–3/notation cautions read. Independently constructed modern positive-rational examples:17/7=[2;2,3],34/14 same quotients but gcd1->2;5/2 shares prefix but differs by cross multiplication. Alternative[2;2,2,1] versus canonical termination and reciprocal7/17=[0;2,2,3] distinguished. Finite prefix does not decide equality for arbitrary irrational magnitudes. No medieval modern notation, complete historical equivalence proof or direct modern cryptography lineage claimed.
+
+Actual Commons description/API/static preview and white JPEG inspection copy: Proteins,17April2009, CC BY-SA3.0, unmodified EA_1071_462_step3e.svg. Black rectangle/two orange large blocks/three violet upper blocks/small green-red regions, no visible numeric labels.1071/462 example is modern, not al-Mahani's; original static SVG published, not animation/inspection copy. Eight new entities, full trilingual invention/work plus additive maker links preserving entire80 baseline; lead546/all545 earlier lead objects and80 earlier inventions must remain unchanged. No code/site/schema/Worker/workflow/local tests/build/deployment.
+
 ## Invention80 audit — al-Mahani's sphere-division cubic (D-121)
 
 Actual complete MacTutor, İhsan Fazlıoğlu's TDV body/eight works, and Yvonne Dold-Samplonius's complete single-page university-hosted DSB reproduction/body/bibliography read. Individual Islamic identity explicit; separately declared Sunni default frame, no contrary personal tradition in consulted accounts. Birth about820 per MacTutor; death about880 qualified by DSB/TDV question mark. Observations853–866 and Baghdad around860 are life evidence, not composition dates. First-attested08XX is ninth century, no invented Hijri.
