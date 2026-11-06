@@ -220,4 +220,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 16: pp. 378-384 filed in ar, en and ur (reports 10793-10820): verse 158 is filed in full and verse 159 to report 10820 at p. 384.
 - Batch 17: pp. 385-391 filed in ar, en and ur (reports 10821-10835): verse 159 closes at p. 390 and verse 160 is filed to report 10835 at p. 391.
 - Batch 18: pp. 392-398 filed in ar, en and ur (reports 10836-10838): verse 160 closes at p. 392, verse 161 is filed in full, and verse 162 is filed to p. 398.
-- Progress: current report 10838, printed p. 395. Next is the rest of verse 162 from printed p. 398 on (the reports continue there).
+- Batch 19: pp. 399-405 filed in ar, en and ur (reports 10839-10844): verse 162 closes at p. 399 and verse 163 is filed to report 10844 at p. 405.
+- Progress: current report 10844, printed p. 405. Next is report 10845, the rest of verse 163 from p. 405 on.
