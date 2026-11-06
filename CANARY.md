@@ -80,6 +80,7 @@ open a new block on top with the new version and today's date.
 - The open-data guide now documents all 23 schema classes and the invention API endpoints.
 - Entry pages no longer show a "Draft" label or a "Completeness n/5" score, which are internal workflow notes; the invitation to help complete an entry stays, next to "Report an error".
 - The overview map in the Places wing is easier to read: names no longer pile on top of each other. The best-connected places are labelled first and a name that would cover another is left off; every place's dot is now a link with its name, so every place on the map can still be opened.
+- An engineering proposal explains why every daily deploy re-uploaded 174,000 to 206,000 files to R2 although the publisher only sends changed bytes: the stylesheet, the layout scripts and the version line sit inside every one of the 164,000 pages, so any edit to them rewrites the whole site. It measures the cost, surveys what other static hosts and build tools do, and proposes stable pages (external stylesheet and scripts, version filled from the deploy stamp, deterministic EPUBs, a churn report in the deploy summary, a label for changes that rewrite all pages) before any change to how pages are served. Nothing is implemented yet; the founder decides (`docs/engineering/16-deploy-churn-proposal.md`).
 
 ### Fixed
 
