@@ -1,23 +1,31 @@
 id: person/abu-al-wafa-al-buzjani
 class: person
-label: { ar: "أبو الوفاء البوزجاني محمد بن محمد", en: "Abu al-Wafa' al-Buzjani, Muhammad ibn Muhammad" }
+label: { ar: "أبو الوفاء البوزجاني محمد بن محمد", en: "Abu al-Wafa' al-Buzjani, Muhammad ibn Muhammad", ur: "ابو الوفا البوزجانی، محمد بن محمد" }
 names:
   - { kind: full, lang: ar, value: "أبو الوفاء محمد بن محمد بن يحيى إسماعيل البوزجاني" }
 gender: male
 roles: [mathematician, astronomer]
 traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Britannica explicitly calls the individual a Muslim astronomer and mathematician. Sunni is the museum's declared default frame under docs/scope.md, not a personal madhhab declaration or inference from name, ancestry or a Buyid patron's denomination. No contrary individual affiliation is stated in the actual Britannica, TDV, MacTutor, DSB or Iranica biographies read. Identity evidence and mathematical priority are separate."
+    sources: [source/britannica-abu-al-wafa, source/tdv-ebul-vefa-buzcani]
 born: { edtf: "0940", hijri: "0328", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "0998", hijri: "0388", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
   ar: "من طليعة علماء المسلمين في علمي الرياضيات والفلك، ولد في بوزجان بخراسان."
   en: "One of the leading Muslim scholars of mathematics and astronomy, born in Buzjan in Khurasan."
+  ur: "بوزجان، خراسان میں پیدا ہونے والے ریاضی اور فلکیات کے ممتاز مسلم عالم {cite:britannica-abu-al-wafa biography}۔"
 wings: [people]
 themes: [mathematics, astronomy-and-timekeeping]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+inventions:
+  - { invention: invention/abu-wafa-spherical-triangle-methods, role: improver, note: "Simpler spherical-triangle solution apparatus and early general sine proof; Abu Nasr/al-Khujandi priority dispute retained, not invention of all trigonometry/tangent.", sources: [source/abu-wafa-carra-almageste-1892, source/abu-wafa-youschkevitch-dsb, source/khujandi-mactutor] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/britannica-abu-al-wafa, source/tdv-ebul-vefa-buzcani, source/abu-wafa-carra-almageste-1892, source/abu-wafa-youschkevitch-dsb, source/abu-wafa-mactutor, source/khujandi-mactutor]
 status:
   review: published
   completeness: 3
@@ -27,6 +35,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch47
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b34", source: "Actual Britannica individual Muslim basis, Aydin scientific biography, DSB/MacTutor and selected Carra translated preface/spherical proof; maker tie and trilingual extension. Original Devin provenance, prior encyclopedia account/life-date traditions, occupation and Haiku translation history retained." }
 external_ids: { wikidata: Q298439 }
 occupations:
   - job: job/astronomer
