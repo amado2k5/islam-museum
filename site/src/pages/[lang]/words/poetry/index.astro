@@ -90,6 +90,7 @@ const filters = [
 ].filter((f) => f.entries.length > 0);
 ---
 <BaseLayout lang={lang} title={P.title} description={P.lede} path={`/${lang}/words/poetry/`}>
+  <div data-pagefind-body>
   <PageHeader
     title={P.title}
     lede={P.lede}
@@ -101,6 +102,7 @@ const filters = [
     crumbsLabel={T.entity.breadcrumb}
     wing="words"
   />
+  </div>
   <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
     <p class="ui muted" style="max-width:var(--measure);margin:0 0 16px">{P.index_note}</p>
     {groups.map((g) => (

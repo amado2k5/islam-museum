@@ -28,9 +28,11 @@ const count = (n: number) => num(n, lang);
   <div class="wrap" style="padding-block:10px 20px">
     <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{J.badge}</p>
     <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {J.title}</nav>
-    <h1>{J.title}</h1>
-    <p style="font-size:1.2rem;max-width:var(--measure)">{J.lede}</p>
-    <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+    <div data-pagefind-body>
+      <h1>{J.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{J.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+    </div>
 
     <section aria-labelledby="domains-title" style="margin-top:2rem">
       <h2 id="domains-title">{J.domains_title}</h2>

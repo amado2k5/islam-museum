@@ -29,6 +29,12 @@ Phase 2 (Prompt B): the pilot records, the browser and the landing card. Researc
 
 **Applied:** plan 26 section 6 orders the phases as plan → schema → pilot (nineteen records, the browser, the landing card, first deploy) → incremental waves with discovery alongside. Nothing in the browser waits for a section to be complete.
 
+### D-003 — Downloads only on the microSD (6 November 2026)
+
+**Founder's instruction (chat, 6 November 2026):** always use the microSD for any downloads; anything already downloaded to the main drive is moved to the microSD and deleted from the main drive.
+
+**Applied:** plan 26 sections 3.7 and 5.1, `prompt.md` section 4 and the lane document name `/Volumes/exmicroSD/islam-museum-harvest/modern/<section>/` as the only download location. Nothing was downloaded in Phase 1 (schema work; no harvest ran).
+
 ### D-002 — Browser-first research on the founder's Mac (6 November 2026)
 
 **Founder's instruction (chat, 6 November 2026):** use the Mac browser and put any tools on the Mac needed to go online, search, discover and gather all the needed information and details; use fewer APIs and more of the browser.

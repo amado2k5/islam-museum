@@ -62,6 +62,38 @@ requires forking architecture.
 `/api/*` 301s to `api.islam.museum` and gets `Access-Control-Allow-Origin:
 *` at the edge. `api/v1/meta/coverage.json` shows the convention.
 
+### 2.7 Add a browser or explorer
+
+A browser is a front door over the one graph, never a dataset of its own
+(`AGENTS.md`, rule of 6 Nov 2026; register `docs/site/browsers.md`). The
+Inventions Browser (`docs/inventions/`) and the Modern Islam Browser
+(`docs/modern-islam/`) are the worked examples.
+
+1. **Plan:** a numbered document in `docs/plan/` (or a companion folder with a
+   README), a row in `docs/plan/00-README.md`, a line in the roadmap's "what
+   comes next", a lane row in `docs/agents/lanes.md`, a status row in
+   `docs/status.md`. New classes, kinds, fields or predicates are
+   `submission-impacting` (`docs/ai-change-gates.md` §3) and need the
+   founder's written approval, transcribed as a decision in the plan folder.
+2. **Graph:** records as classes and kinds (`npm run schema` from
+   `schema/enums/*.yaml`), predicates in `schema/predicates.yaml` (derived
+   edges marked `derived: true` and rejected in hand-written relations),
+   validator rules with invalid fixtures that each fail, tests in
+   `scripts/*.test.ts`. The feature's numbers (counts, indices, scores) are
+   computed at build from the records, never typed.
+3. **API:** the class exports come for free; add the feature export in
+   `scripts/export-api.ts` (§2.6), a row in `docs/data/README.md`, a path in
+   `site/public/openapi/v1.json`, a line in `site/src/pages/llms.txt.ts`.
+4. **Pages:** `site/src/pages/[lang]/<feature>/` reading the compiled graph
+   through a `site/src/lib/<feature>.ts`; every list complete in HTML with
+   JavaScript off; Arabic, English and Urdu in the same commit (`i18n/*`);
+   `data-pagefind-body` on the header block and `data-pagefind-ignore` on
+   long lists; route budgets in `scripts/check-weight.ts`; assertions in
+   `scripts/check-site.ts`; the Explore menu entry (`site/src/lib/nav.ts`)
+   and the landing card when the home is ready.
+5. **Ship:** canary entry, `npm run validate && npm test && npm run build`,
+   PR, merge; the row in `docs/site/browsers.md`; the founder deploys.
+
 ## 3. Delegation model (how the project already scales authorship)
 
 ```mermaid

@@ -9,10 +9,10 @@ window:
 
 sections:
   - id: web
-    label: { ar: "المواقع والتطبيقات", en: "Websites and apps", ur: "ویب سائٹس اور ایپس" }
+    label: { ar: "المواقع والتطبيقات والألعاب والأجهزة", en: "Websites, apps, games and devices", ur: "ویب سائٹس، ایپس، گیمز اور آلات" }
     classes: [work, listing]
-    kinds: { work: [website, online-library, app], listing: [app, software, platform] }
-    facets: [content_type, languages, active, country]
+    kinds: { work: [website, online-library, app], listing: [app, software, platform, game, device] }
+    facets: [content_type, kind, languages, active, country]
   - id: music
     label: { ar: "الموسيقى والأناشيد", en: "Music and nasheed", ur: "موسیقی اور نعت و نشید" }
     classes: [work, person, group, listing, award]
@@ -98,9 +98,12 @@ sections:
     kinds: {}
     facets: [prize, first_of, country, year]
   - id: enterprise
-    label: { ar: "الشركات والمال", en: "Enterprise and finance", ur: "کاروبار اور مالیات" }
+    label: { ar: "الشركات والعلامات والمال", en: "Enterprise, brands and finance", ur: "کاروبار، برانڈز اور مالیات" }
     classes: [listing, group, award]
-    kinds: { listing: [company, startup, brand, fund], group: [bank, standards-body, certifier] }
+    # every kind of business Muslims have founded or own since 1976 (the Made wing's listings in the window): companies and
+    # conglomerates, industries and manufacturers, chains and groceries, restaurants and food products, travel companies,
+    # airlines and hotels, brands and fashion, shops, crafts, clinics, funds and banks; the Made wing's basis rules apply
+    kinds: { listing: [company, startup, conglomerate, manufacturer, brand, fashion, chain, grocery, shop, restaurant, food_product, travel, airline, hotel, product, craft, clinic, fund], group: [bank, standards-body, certifier] }
     facets: [kind, sector, country, founded_decade, ranking]
   - id: arts
     label: { ar: "الفنون والثقافة", en: "Arts and culture", ur: "فنون اور ثقافت" }
@@ -126,7 +129,7 @@ sections:
 new_kinds:
   work: [album, song]
   event: [protest, attack, competition, award-ceremony, festival, heritage-month, exhibition, tournament, launch]
-  listing: [newspaper, tv-channel, radio-station, newsletter, channel, record-label, production-company]
+  listing: [newspaper, tv-channel, radio-station, newsletter, channel, record-label, production-company, device, product, chain, grocery, airline, hotel, manufacturer, conglomerate]
   group: [team, think-tank, online-community, band]
   building: [islamic-centre, museum, university-campus]
   roles: [singer, composer, actor, director, producer, presenter, journalist, diplomat, banker, economist, entrepreneur, comedian, influencer, coach, astronaut, judge, lawyer, nurse, professor]

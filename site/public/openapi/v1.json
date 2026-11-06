@@ -10,36 +10,71 @@
     }
   },
   "servers": [
-    { "url": "https://api.islam.museum/api/v1", "description": "Production (Cloudflare R2)" }
+    {
+      "url": "https://api.islam.museum/api/v1",
+      "description": "Production (Cloudflare R2)"
+    }
   ],
   "paths": {
     "/meta/index.json": {
       "get": {
         "operationId": "getMetaIndex",
         "summary": "API version, generation date, classes and licences",
-        "responses": { "200": { "description": "Index document", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Index document",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/meta/coverage.json": {
       "get": {
         "operationId": "getCoverage",
         "summary": "Record counts by class, wing, period, region and review status",
-        "responses": { "200": { "description": "Coverage document", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Coverage document",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/themes/index.json": {
       "get": {
         "operationId": "getThemes",
         "summary": "Controlled themes with the ids of their entries",
-        "responses": { "200": { "description": "Theme index", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Theme index",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/{class}/index.json": {
       "get": {
         "operationId": "getClassIndex",
         "summary": "Compact rows for every record of a class",
-        "parameters": [{ "$ref": "#/components/parameters/class" }],
-        "responses": { "200": { "description": "Compact rows", "content": { "application/json": {} } } }
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/class"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Compact rows",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/{class}/{slug}.json": {
@@ -47,12 +82,23 @@
         "operationId": "getRecord",
         "summary": "Full record with resolved labels, connections and related records",
         "parameters": [
-          { "$ref": "#/components/parameters/class" },
-          { "$ref": "#/components/parameters/slug" }
+          {
+            "$ref": "#/components/parameters/class"
+          },
+          {
+            "$ref": "#/components/parameters/slug"
+          }
         ],
         "responses": {
-          "200": { "description": "Full record", "content": { "application/json": {} } },
-          "404": { "description": "No record with this class and slug" }
+          "200": {
+            "description": "Full record",
+            "content": {
+              "application/json": {}
+            }
+          },
+          "404": {
+            "description": "No record with this class and slug"
+          }
         }
       }
     },
@@ -60,14 +106,28 @@
       "get": {
         "operationId": "getGraphNodes",
         "summary": "Every node, one compact JSON object per line",
-        "responses": { "200": { "description": "NDJSON stream of nodes", "content": { "application/x-ndjson": {} } } }
+        "responses": {
+          "200": {
+            "description": "NDJSON stream of nodes",
+            "content": {
+              "application/x-ndjson": {}
+            }
+          }
+        }
       }
     },
     "/graph/edges.ndjson": {
       "get": {
         "operationId": "getGraphEdges",
         "summary": "Every forward edge, one JSON object per line",
-        "responses": { "200": { "description": "NDJSON stream of edges", "content": { "application/x-ndjson": {} } } }
+        "responses": {
+          "200": {
+            "description": "NDJSON stream of edges",
+            "content": {
+              "application/x-ndjson": {}
+            }
+          }
+        }
       }
     },
     "/graph/{class}/{slug}.json": {
@@ -75,10 +135,260 @@
         "operationId": "getNeighbourhood",
         "summary": "Two-hop neighbourhood of a record (at most 40 nodes)",
         "parameters": [
-          { "$ref": "#/components/parameters/class" },
-          { "$ref": "#/components/parameters/slug" }
+          {
+            "$ref": "#/components/parameters/class"
+          },
+          {
+            "$ref": "#/components/parameters/slug"
+          }
         ],
-        "responses": { "200": { "description": "Centre, nodes and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Centre, nodes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/inventions.json": {
+      "get": {
+        "operationId": "getInventions",
+        "summary": "Inventions dataset",
+        "description": "Inventions with domain and era filters, makers, attribution, origins, chains and media",
+        "responses": {
+          "200": {
+            "description": "Inventions with domain and era filters, makers, attribution, origins, chains and media",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/inventions/chains.json": {
+      "get": {
+        "operationId": "getInventionChains",
+        "summary": "Invention chains",
+        "description": "Invention dependency graph with internal and external precursor and dependent links",
+        "responses": {
+          "200": {
+            "description": "Invention dependency graph with internal and external precursor and dependent links",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/modern/index.json": {
+      "get": {
+        "operationId": "getModernIndex",
+        "summary": "Modern Islam Browser index",
+        "description": "The window (1976 to the build year), the nineteen sections with counts, the years with counts, the reach lists",
+        "responses": {
+          "200": {
+            "description": "The window (1976 to the build year), the nineteen sections with counts, the years with counts, the reach lists",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/modern/{section}.json": {
+      "get": {
+        "operationId": "getModernSection",
+        "summary": "Modern Islam Browser section",
+        "description": "Every record of one derived section with year, kind, countries, honours and footprint counts and horizon",
+        "responses": {
+          "200": {
+            "description": "Every record of one derived section with year, kind, countries, honours and footprint counts and horizon",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "section",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "web",
+              "music",
+              "film",
+              "tv",
+              "conferences",
+              "heritage",
+              "rights",
+              "books",
+              "upcoming",
+              "figures",
+              "organizations",
+              "media",
+              "sports",
+              "awards",
+              "achievements",
+              "enterprise",
+              "arts",
+              "built",
+              "learning"
+            ]
+          }
+        }
+      ]
+    },
+    "/modern/year/{year}.json": {
+      "get": {
+        "operationId": "getModernYear",
+        "summary": "Modern Islam Browser year",
+        "description": "Every record with a dated fact in one Gregorian year from 1976 on",
+        "responses": {
+          "200": {
+            "description": "Every record with a dated fact in one Gregorian year from 1976 on",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "year",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "integer",
+            "minimum": 1976
+          }
+        }
+      ]
+    },
+    "/modern/top/{list}.json": {
+      "get": {
+        "operationId": "getModernTop",
+        "summary": "Reach index",
+        "description": "A reach index computed from cited inputs with the printed formula; not a ranking by taste",
+        "responses": {
+          "200": {
+            "description": "A reach index computed from cited inputs with the printed formula; not a ranking by taste",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "list",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "songs",
+              "albums",
+              "websites",
+              "channels",
+              "books"
+            ]
+          }
+        }
+      ]
+    },
+    "/jobs.json": {
+      "get": {
+        "operationId": "getJobs",
+        "summary": "Job Browser dataset",
+        "description": "Every job with domain, kind, craft flag, era, edges and holders",
+        "responses": {
+          "200": {
+            "description": "Every job with domain, kind, craft flag, era, edges and holders",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/fatwa.json": {
+      "get": {
+        "operationId": "getFatwa",
+        "summary": "Fatwa Explorer dataset",
+        "description": "Every fatwa and fatwa collection with publisher, URL, languages, dates and edges",
+        "responses": {
+          "200": {
+            "description": "Every fatwa and fatwa collection with publisher, URL, languages, dates and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/khutab.json": {
+      "get": {
+        "operationId": "getKhutab",
+        "summary": "Khutab and Durus dataset",
+        "description": "Every sermon, lesson and lecture series with speaker, occasion, host, audience, order and edges",
+        "responses": {
+          "200": {
+            "description": "Every sermon, lesson and lecture series with speaker, occasion, host, audience, order and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/poetry.json": {
+      "get": {
+        "operationId": "getPoetry",
+        "summary": "Poetry dataset",
+        "description": "Every poem and diwan with poets, language, genre, metre and edges",
+        "responses": {
+          "200": {
+            "description": "Every poem and diwan with poets, language, genre, metre and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/screens.json": {
+      "get": {
+        "operationId": "getScreens",
+        "summary": "Screening Room dataset",
+        "description": "Every film, series and programme with format, relevance, titles, release, countries, languages, approach, depiction, ids and edges",
+        "responses": {
+          "200": {
+            "description": "Every film, series and programme with format, relevance, titles, release, countries, languages, approach, depiction, ids and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/time-browser/index.json": {
+      "get": {
+        "operationId": "getTimeBrowserIndex",
+        "summary": "Time Browser subject index",
+        "description": "The curated subjects: id, kind, titles, node count, journey flag, span",
+        "responses": {
+          "200": {
+            "description": "The curated subjects: id, kind, titles, node count, journey flag, span",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     }
   },
@@ -91,7 +401,29 @@
         "description": "One of the 21 record classes.",
         "schema": {
           "type": "string",
-          "enum": ["person", "group", "polity", "event", "period", "journey", "place", "building", "object", "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen"]
+          "enum": [
+            "person",
+            "group",
+            "polity",
+            "event",
+            "period",
+            "journey",
+            "place",
+            "building",
+            "object",
+            "media",
+            "work",
+            "passage",
+            "concept",
+            "language",
+            "practice",
+            "exhibit",
+            "question",
+            "source",
+            "dataset",
+            "listing",
+            "screen"
+          ]
         }
       },
       "slug": {
@@ -99,7 +431,10 @@
         "in": "path",
         "required": true,
         "description": "ASCII slug of the record, without the class prefix.",
-        "schema": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+        "schema": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        }
       }
     }
   }

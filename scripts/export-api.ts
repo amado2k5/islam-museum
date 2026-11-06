@@ -10,6 +10,7 @@ import { buildRelated } from "./derive.js";
 import { wingCounts } from "./wings.js";
 import { primaryYear, recordOfNode, SECTION_IDS, sectionsOf, taxonomy as modernTaxonomy, yearsOf, WINDOW_START_YEAR } from "./modern/sections.js";
 import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
+import { existsSync } from "node:fs";
 
 const OUT = p("site", "public", "api", "v1");
 const write = (rel: string, body: string) => {
@@ -149,6 +150,54 @@ export function modernApiData(c: Compiled) {
   };
 }
 
+/**
+ * One export per browser or explorer (AGENTS.md, "every feature is graph, API and search"; register docs/site/browsers.md):
+ * the records the feature's pages show, with their compact row, the listed data fields and every edge from the record.
+ * Static, built with the site; empty-capable.
+ */
+const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boolean; fields: string[] }[] = [
+  { file: "jobs.json", feature: "job-browser", pick: (n) => n.class === "job",
+    fields: ["kind", "domain", "hirfa", "era", "broader", "regions", "organization", "training"] },
+  { file: "fatwa.json", feature: "fatwa-explorer", pick: (n) => n.class === "work" && ["fatwa", "fatwa-collection"].includes(n.data.kind),
+    fields: ["kind", "publisher", "url", "languages", "language", "composed", "content_type", "ruler_at_time", "collection_type", "fiqh_area", "asker_role", "form"] },
+  { file: "khutab.json", feature: "khutab-durus-explorer", pick: (n) => n.class === "work" && ["sermon", "lecture", "lecture-series"].includes(n.data.kind),
+    fields: ["kind", "delivered", "host", "occasion", "audience", "order", "composed", "delivery_date_status", "book_studied", "sermon_type", "language", "genre", "duration"] },
+  { file: "poetry.json", feature: "poetry", pick: (n) => n.class === "work" && ["poem", "diwan"].includes(n.data.kind),
+    fields: ["kind", "authors", "language", "languages", "genre", "metre", "composed"] },
+  { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
+    fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },
+];
+
+export function featureApiData(c: Compiled): Record<string, { generated: string; feature: string; items: Record<string, unknown>[] }> {
+  const real = c.nodes.filter((n) => !n.stub);
+  const edgesFrom = new Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>();
+  for (const e of c.edges) {
+    const list = edgesFrom.get(e.from) ?? [];
+    list.push({ type: e.type, to: e.to, inverse: e.inverse, ...(e.role ? { role: e.role } : {}) });
+    edgesFrom.set(e.from, list);
+  }
+  const holders = new Map<string, string[]>();
+  for (const person of real) {
+    if (person.class !== "person") continue;
+    for (const job of new Set<string>((person.data.occupations ?? []).map((o: any) => o.job))) {
+      const list = holders.get(job) ?? [];
+      list.push(person.id);
+      holders.set(job, list);
+    }
+  }
+  const out: Record<string, { generated: string; feature: string; items: Record<string, unknown>[] }> = {};
+  for (const spec of FEATURE_EXPORTS) {
+    const items = real.filter(spec.pick).sort((a, b) => a.id.localeCompare(b.id)).map((n) => {
+      const picked = Object.fromEntries(spec.fields.filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
+      const row: Record<string, unknown> = { ...compact(n), ...picked, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) };
+      if (n.class === "job") row.holders = (holders.get(n.id) ?? []).sort();
+      return row;
+    });
+    out[spec.file] = { generated: c.generated, feature: spec.feature, items };
+  }
+  return out;
+}
+
 export function exportApi(c: Compiled) {
   rmSync(OUT, { recursive: true, force: true });
   const real = c.nodes.filter((n) => !n.stub);
@@ -191,6 +240,12 @@ export function exportApi(c: Compiled) {
   for (const [year, items] of modern.years) write(`modern/year/${year}.json`, JSON.stringify({ generated: c.generated, year, items }, null, 1));
   for (const [list, items] of Object.entries(modern.top)) {
     write(`modern/top/${list}.json`, JSON.stringify({ generated: c.generated, list, formula: reachFormula(), items }, null, 1));
+  }
+  for (const [file, body] of Object.entries(featureApiData(c))) write(file, JSON.stringify(body, null, 1));
+  // The Time Browser's subject index (scripts/time-browser-explorer.ts runs in prebuild and writes .cache/time-browser/).
+  const timeBrowserIndex = p(".cache", "time-browser", "explorer-index.json");
+  if (existsSync(timeBrowserIndex)) {
+    write("time-browser/index.json", JSON.stringify({ generated: c.generated, feature: "time-browser", subjects: JSON.parse(readFileSync(timeBrowserIndex, "utf8")) }, null, 1));
   }
   write("meta/index.json", JSON.stringify({
     version: "v1", generated: c.generated, classes: CLASSES.filter((k) => k === "invention" || k === "award" || real.some((n) => n.class === k)),
