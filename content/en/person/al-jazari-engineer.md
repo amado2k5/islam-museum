@@ -3,6 +3,8 @@ id: person/al-jazari-engineer
 lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
+status: { review: published }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; English translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading" }
 ---
 ## Overview
 Badi al-Zaman Abu al-Izz Ismail ibn al-Razzaz al-Jazari was an engineer and author on mechanical devices. TDV calls him an Islamic scholar and says little is known of his life beyond his book's introduction {cite:tdv-cezeri pp. 505–506}. It records service to the Artuqids at [[place/amid|Amid]] in 1181–1206 and a book commissioned by Nasir al-Din Mahmud, completed in 1205 according to the entry {cite:tdv-cezeri pp. 505–506}. Service dates are not converted into birth and death dates.
@@ -27,11 +29,17 @@ Cleveland's folio preserves the [[invention/jazari-peacock-washer|peacock washer
 
 Another example is the [[invention/jazari-double-piston-pump|double-piston pump]]: flowing water drives a wheel and gears, with a pin and slotted rod converting rotation into reciprocating piston-rod motion {cite:tdv-cezeri pp. 505–506}. Al-Hassani explains a synchronized pair; the Science Museum holds a half-size model, not an original machine from al-Jazari's lifetime {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}. Al-Hassani gives book completion as 1206, against TDV's 1205. The pump record preserves the difference as a documentary date, not a dated physical installation {cite:fstc-jazari-mechanical-genius biography} {cite:tdv-cezeri pp. 505–506}.
 
-TDV records Donald Hill's complete English translation in 1974 and Ahmad Yusuf al-Hassan's Arabic edition in 1979 using the Bodleian and Istanbul copies {cite:tdv-cezeri pp. 505–506}. These are editions reported by the reference, not primary pages this article claims to have independently read.
+TDV records Donald Hill's complete English translation in 1974 and Ahmad Yusuf al-Hassan's Arabic edition in 1979 using the Bodleian and Istanbul copies {cite:tdv-cezeri pp. 505–506}. Earlier references were indirect; the new selected Hill reading is specified below, not a claim to reading the entire book or1979 Arabic edition.
 
 Met folio 57.51.23 preserves the elephant-clock image in a copy by Farrukh ibn Abd al-Latif, dated 715/1315, probably produced in Syria or Iraq {cite:met-elephant-clock-575123 Overview}. Copyist and original engineer-author are distinct. The page witnesses the book's transmission and illustration, not a surviving original machine.
 
+## Castle clock and calibration
+
+The first clock chapter describes the [[invention/jazari-castle-clock|castle clock]], reporting failed inherited divisions before empirical calibration of the water outlet {cite:jazari-hill-1974 pp.17–18,24–25}. Seasonal day/night divisions require an operator to return water and set indicators; displaying sun and moon is not independently computing their positions {cite:jazari-hill-1974 pp.39–41,editor-notes-I.1}. Hill's introduction derives1204 or1206 from manuscript differences, alongside TDV's1205: a documentary-date disagreement, not a verified construction year {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}. Boston14.533 is an anonymous1354 manuscript painting, not an original machine or autograph {cite:mfa-castle-clock-14533 metadata}.
+
 ## References
+- Selected Donald Hill1974 translation and castle-clock commentary {cite:jazari-hill-1974 pp.17–22,24–25,39–41,editor-notes-I.1}.
+- Official MFA-via-Google catalogue and1354 image metadata {cite:mfa-castle-clock-14533 catalogue,metadata}.
 - Sadettin Ökten, “CEZERÎ, İsmâil b. Rezzâz”, TDV Encyclopedia of Islam, vol. 7, 1993, pp. 505–506. {cite:tdv-cezeri pp. 505–506}
 - Metropolitan Museum of Art, Elephant Clock, 57.51.23, metadata and Francesca Leoni's catalogue entry. {cite:met-elephant-clock-575123 Catalogue Entry}
 - Salim al-Hassani, “Al-Jazari: The Mechanical Genius”, pump discussion, drawing and model. {cite:fstc-jazari-mechanical-genius pump discussion}

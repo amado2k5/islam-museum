@@ -32,12 +32,16 @@ inventions:
     role: describer
     place: place/amid
     sources: [source/tdv-cezeri, source/cleveland-jazari-peacock]
+  - invention: invention/jazari-castle-clock
+    role: improver
+    place: place/amid
+    sources: [source/jazari-hill-1974, source/tdv-cezeri, source/mfa-castle-clock-14533]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 relations:
   - { type: lived_in, target: place/amid, sources: [source/tdv-cezeri] }
-sources: [source/tdv-cezeri, source/met-elephant-clock-575123, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump, source/cleveland-jazari-peacock]
+sources: [source/tdv-cezeri, source/met-elephant-clock-575123, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump, source/cleveland-jazari-peacock, source/jazari-hill-1974, source/mfa-castle-clock-14533]
 status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
 provenance:
   layer: own-research
@@ -45,3 +49,5 @@ provenance:
   model: "unknown"
   run: "inventions-p3-b16"
   source: "TDV CEZERÎ pp. 505–506 and Met 57.51.23 metadata/Leoni catalogue entry, read 2026-11-06. No birth/death dates inferred from court-service dates. Extended in inventions-p3-b17 with the pump tie, actual al-Hassani survey and Science Museum model catalogue; their 1205/1206 book-date difference is preserved in prose. Extended in inventions-p3-b18 with the Cleveland peacock-design tie/prose; construction is explicitly uncertain."
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Castle-clock tie/biography extension from actual selected Hill1974 primary/commentary in shared Archive browser,17/24 images, official MFA-via-Google catalogue and Commons1354 image/rights; prior three ties, identity and authorship preserved" }
