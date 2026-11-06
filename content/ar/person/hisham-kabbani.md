@@ -9,7 +9,7 @@ translators: []
 
 ## موجز
 
-محمد هشام قباني (28 يناير 1945 – 4 ديسمبر 2024) عالم وشيخ صوفي من لبنان، من أعلام الطريقة النقشبندية الحقانية في الولايات المتحدة.{cite:wikipedia-hisham-kabbani-ar}{cite:wikipedia-hisham-kabbani-en}
+محمد هشام قباني ⁦(28 يناير 1945 – 4 ديسمبر 2024)⁩ عالم وشيخ صوفي من لبنان، من أعلام الطريقة النقشبندية الحقانية في الولايات المتحدة.{cite:wikipedia-hisham-kabbani-ar}{cite:wikipedia-hisham-kabbani-en}
 
 ## النشأة والمسيرة
 
