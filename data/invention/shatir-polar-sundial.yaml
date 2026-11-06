@@ -1,0 +1,84 @@
+id: invention/shatir-polar-sundial
+class: invention
+label: { ar: "ساعة ابن الشاطر الشمسية ذات الشاخص القطبي", en: "Ibn al-Shatir's polar-axis sundial", ur: "ابن شاطر کی قطبی محور والی دھوپ گھڑی" }
+names:
+  - { kind: alternate, lang: en, value: "Monumental horizontal dial of the Umayyad Mosque" }
+summary:
+  ar: "مزولة رخامية أفقية مركبة بدمشق، ذات شاخص موجه للقطب؛ أجزاء الأصل والنسخة المتأخرة شواهد مختلفة {cite:king-ibn-shatir-bea sundial} {cite:tdv-ibn-shatir-dizer instruments}."
+  en: "Composite horizontal marble dial in Damascus with a pole-directed gnomon; original fragments and later copy are different witnesses {cite:king-ibn-shatir-bea sundial} {cite:tdv-ibn-shatir-dizer instruments}."
+  ur: "دمشق کی مرکب افقی سنگ مرمر کی گھڑی، قطب رخ شاخص کے ساتھ؛ اصل ٹکڑے و بعد کی نقل الگ شواہد {cite:king-ibn-shatir-bea sundial} {cite:tdv-ibn-shatir-dizer instruments}۔"
+domain: timekeeping
+kind: device
+disciplines: [astronomy, mathematics, engineering]
+wings: [objects, ideas]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1371/1372"
+    hijri: "0773"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Dizer's paired773AH/1371–72 construction account; Cam summarizes1372. Not a new calendar conversion or exact installation day; no date reassigned from portable Aleppo dial."
+    sources: [source/tdv-ibn-shatir-dizer, source/tdv-gunes-saati-cam]
+  status_today: transformed
+origin:
+  place: place/damascus
+  context:
+    ar: "المئذنة الشمالية للجامع الأموي في وصف كينغ، لا إنشاء الجامع كله في القرن الرابع عشر {cite:king-ibn-shatir-bea sundial}."
+    en: "Umayyad Mosque's northern minaret in King's account, not construction of the whole mosque in the fourteenth century {cite:king-ibn-shatir-bea sundial}."
+    ur: "کنگ کے بیان میں جامع اموی کا شمالی مینار، پوری مسجد کی چودھویں صدی کی تعمیر نہیں {cite:king-ibn-shatir-bea sundial}۔"
+makers:
+  - person: person/ibn-al-shatir
+    role: improver
+    note: "Documented design and construction of this composite instrument; not invention of sundials. Existing explicit individual Muslim basis and separate Sunni default retained."
+    sources: [source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer]
+attribution:
+  status: improvement
+  claim:
+    ar: "تركيب أفقي بشاخص قطبي وقراءات زمنية متعددة."
+    en: "Horizontal integration of polar gnomon and multiple time readings."
+    ur: "قطبی شاخص اور متعدد زمانی قراءتوں کی افقی ترکیب۔"
+  basis:
+    ar: "كينغ يصف التصميم والرخام والمنحنيات والقطب؛ الأولية العالمية وطريق التأثير ليسا مثبتين هنا {cite:king-ibn-shatir-bea sundial}."
+    en: "King describes design, marble, curves and polar alignment; global priority and a transfer route are not established here {cite:king-ibn-shatir-bea sundial}."
+    ur: "کنگ ڈیزائن، مرمر، منحنی و قطبی رخ بتاتے؛ عالمی اولیت و انتقال کا راستہ یہاں ثابت نہیں {cite:king-ibn-shatir-bea sundial}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "الساعات الشمسية القديمة والتقليد الفلكي الإسلامي", en: "Ancient sundials and Islamic astronomical tradition", ur: "قدیم دھوپ گھڑیاں اور اسلامی فلکی روایت" }
+    note: "Cam surveys earlier devices/writings; not claim every earlier dial used the same gnomon or geometry."
+    sources: [source/tdv-gunes-saati-cam]
+dependents:
+  - external: { ar: "نسخة القرن التاسع عشر", en: "Nineteenth-century copy", ur: "انیسویں صدی کی نقل" }
+    note: "King calls minaret instrument late19th-century exact copy; Dizer names Muhammad al-Tantawi. Not original medieval marble or proof of every subsequent repair."
+    sources: [source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer]
+spread: []
+impact:
+  fields: [timekeeping, astronomy-instruments]
+  changed:
+    ar: "جمع قراءات الساعات المتساوية ومراجع للشروق والغروب والظهر والعصر في آلة {cite:king-ibn-shatir-bea sundial}."
+    en: "Combined equal-hour readings with sunrise, sunset, midday and afternoon references in one instrument {cite:king-ibn-shatir-bea sundial}."
+    ur: "ایک آلے میں مساوی گھنٹوں اور طلوع، غروب، دوپہر و عصر کے حوالے جمع {cite:king-ibn-shatir-bea sundial}۔"
+  history:
+    ar: "شاهد على صناعة المواقيت المتقدمة، لا أرقام دقة أو تبني عالمي مخترعة {cite:king-ibn-shatir-bea sundial}."
+    en: "Evidence of sophisticated timekeeping manufacture, not invented precision figures or global adoption {cite:king-ibn-shatir-bea sundial}."
+    ur: "ترقی یافتہ توقیتی صنعت کا ثبوت، گھڑی گئی درستی یا عالمی قبولیت نہیں {cite:king-ibn-shatir-bea sundial}۔"
+  significance: 3
+  why: "Documented composite polar-axis instrument with construction date, later-copy distinction and independently checked modern geometry."
+described_in: []
+examples: []
+sites: [building/umayyad-mosque]
+concepts: []
+today:
+  form: { ar: "أجزاء أصلية ونسخة متأخرة كما تصف المصادر.", en: "Original fragments and a later copy as described by sources.", ur: "ماخذ کے بیان کردہ اصل ٹکڑے اور بعد کی نقل۔" }
+  descendants: { ar: "لا نسب مثبت إلى كل ساعة أوروبية.", en: "No established ancestry of every European sundial.", ur: "ہر یورپی دھوپ گھڑی کا ثابت نسب نہیں۔" }
+media: { image: media/shatir-sundial-minaret-context, diagram: media/diagram-shatir-polar-sundial }
+kids:
+  ar: "قارن خطوطاً مرسومة على الورق؛ لا شمس أو تسلق مئذنة أو لمس أثر."
+  en: "Compare paper hour lines; no solar viewing, climbing or touching artifacts."
+  ur: "کاغذی گھنٹہ خطوط مقابل کریں؛ سورج دیکھنا، چڑھنا یا نوادر چھونا نہیں۔"
+sources: [source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer, source/tdv-gunes-saati-cam, source/bss-sundial-equations, source/commons-minaret-bride-gagnon]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b65", source: "Actual King/Dizer/Cam, selected BSS equations and inspected Commons context image; no Janin/original-dial inspection or modern layout attributed as medieval engraving." }

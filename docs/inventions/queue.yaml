@@ -3672,13 +3672,15 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: mosque-gnomons-and-sundials
     label: "Gnomons and sundials at mosques"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: timekeeping
     era: first-century
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "TDV İslâm Ansiklopedisi, GÜNEŞ SAATİ: https://islamansiklopedisi.org.tr/gunes-saati (lead/reference)"]
-    flags: [verify-specific-muslim-refinement, verify-maker-and-earlier-antecedents]
+    invention: invention/shatir-polar-sundial
+    records: [person/ibn-al-shatir, building/umayyad-mosque, source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer, source/tdv-gunes-saati-cam]
+    flags: [completed-D106-b65-bounded-fourteenth-century-refinement, original-provisional-first-century-era-not-record-date, not-invention-of-all-sundials, earlier-ancient-and-Islamic-devices-visible, actual-King-Dizer-Cam-read, original-fragments-versus-nineteenth-century-copy, portable-Aleppo-dial-and-1343-report-separate, no-global-first-or-European-transfer-verdict, modern-BSS-formula-not-original-engraving, modern-latitude30-not-Damascus-survey, photo-context-not-visible-dial-face, individual-Muslim-basis-separate-Sunni-default, maker-building-and-535-other-leads-preserved]
   - id: museum-record-event-assassination-attempt-of-amir-and-arbad
     label: "Museum lead for The plot of Amir ibn al-Tufayl and Arbad ibn Qays"
     state: "[-]"
