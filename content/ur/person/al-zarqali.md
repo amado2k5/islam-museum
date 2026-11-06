@@ -3,6 +3,7 @@ id: person/al-zarqali
 lang: ur
 source_lang: ar
 translators: []
+provenance: { generated_by: "Earlier biography retained; solar appendix: Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b52", source: "New appendix only: actual Puig/MacTutor solar accounts and modern arithmetic; every earlier biography byte and recorded Muse/earlier Copilot attribution retained." }
 ---
 
 ابو اسحاق ابراہیم بن یحییٰ الزرقالی 1029ء میں طلیطلہ کے قریب ایک گاؤں میں پیدا ہوئے۔ وہ دھاتی آلات کے کندہ کار تھے — لقب «النقاش» سے ہی ان کا لاطینی نام Arzachel بنا۔ 1048ء سے انھوں نے طلیطلہ میں ماہر فلکیات صاعد الاندلسی کے گروہ میں مامونِ طلیطلہ اور پھر معتمدِ اشبیلیہ کے لیے کام کیا {cite:wikipedia-al-zarqali-en}۔
@@ -26,3 +27,9 @@ translators: []
 ## وفات
 
 1085ء میں طلیطلہ کے سقوط پر وہ شہر چھوڑنے پر مجبور ہوئے۔ جدید مراجع ان کی وفات 1100ء قرطبہ میں بتاتے ہیں، جبکہ بعض پرانے مراجع اور ویکی ڈیٹا کا ایک اندراج 1087ء بھی دیتا ہے؛ اس ریکارڈ میں اختلاف کی نشاندہی کے ساتھ 1100ء اختیار کیا گیا ہے {cite:wikipedia-al-zarqali-en}{cite:wikidata-al-zarqali}۔
+
+## شمسی نمونہ اور عددی خبر کی حدود
+
+[[invention/zarqali-moving-solar-apogee|متحرک اوجِ شمس کا نمونہ]] جامع تختی اور ایکواتوریوم سے الگ ہے: پویگ اوج کی اپنی حرکت اور بدلتے اختلافِ مرکز کا شمسی نمونہ ایسی مفقود تصنیف سے منسوب کرتی ہیں جو پچیس سال کی رصد کا خلاصہ اور غالباً تقریباً1075–1080 کی تھی {cite:zarqali-puig-bea pp.1258–1260}۔ مضمون عربی و لاطینی حوالوں سے معلوم ہے، یہاں دیکھا ہوا اصل مخطوطہ نہیں؛ یہ عبرانی ترجمے میں محفوظ ثابت ستاروں کی حرکت کا الگ رسالہ بھی نہیں {cite:zarqali-puig-bea pp.1258–1260}۔
+
+پویگ اور میک ٹیوٹر279 سال میں تقریباً ایک درجہ بتاتے ہیں؛ جدید تبدیلی3600÷279 سے تقریباً12.9032 قوسی ثانیے فی سال بنتے ہیں {cite:zarqali-puig-bea solar-work paragraph} {cite:zarqali-mactutor solar-work paragraph}۔ یہ اوپر کی پرانی منسوب خبر کے12.04 کے عددی برابر نہیں؛ ہم دونوں کے ہندسے یکجا کرکے جدید درستی کی سند نہیں بناتے۔ تفصیلی مضمون مفقود تصنیف کی نقل، اکائی کی جانچ اور جدید تشریح سے تقابل الگ رکھتا ہے، جدید تشریح قرونِ وسطیٰ کے مصنف کو منسوب نہیں کرتا {cite:zarqali-puig-bea pp.1258–1260}۔

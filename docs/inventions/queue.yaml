@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: zarqali-moving-solar-apogee
+    label: "Al-Zarqali's moving solar-apogee and variable-eccentricity model"
+    state: "[x]"
+    batch: 2
+    domain: astronomy-instruments
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-zarqali", "source/zarqali-puig-bea", "source/zarqali-mactutor", "source/nasa-milankovitch-cycles", "source/commons-apogee-psf"]
+    invention: invention/zarqali-moving-solar-apogee
+    lead_sources:
+      - "Actual Puig solar paragraph, surrounding historical context and MacTutor solar-work paragraph"
+      - "Actual institutional Muslim identity, NASA modern comparison and inspected Commons public-domain apsis image"
+    flags: [completed-D093-b52, distinct-from-two-earlier-instruments, lost-primary-known-indirectly, probable-treatise-date-not-discovery-day, 279year-rate-not-12point04-equivalence, no-modern-accuracy-certificate, contextual-image-not-historical-model, two-earlier-maker-ties-retained, paper-only]
   - id: ibn-al-haytham-circular-reflection
     label: "Ibn al-Haytham's circular-mirror reflection-point construction"
     state: "[x]"
@@ -257,7 +270,8 @@ candidates:
     records: ["concept/al-kawakib-al-thabita"]
     lead_sources:
       - "data/concept/al-kawakib-al-thabita.yaml"
-    flags: [verify-specific-novelty-against-prior-astronomy, verify-maker-faith-contribution-and-source, verify-era]
+      - "https://researchonline.jcu.edu.au/28854/ — actual Hafez2010 p.6 and selected biography pp.47–51 read; Sunni suggestion on p.51 rests on a name, not a qualifying basis"
+    flags: [verify-specific-novelty-against-prior-astronomy, verify-maker-faith-contribution-and-source, verify-era, D092-al-sufi-held-awaiting-qualifying-tradition-basis, no-name-or-patronage-inference, paired-atlas-not-yet-counted]
   - id: museum-record-concept-al-sana-al-arabiyya
     label: "Museum lead for The Arabic lunar year"
     state: "[~]"

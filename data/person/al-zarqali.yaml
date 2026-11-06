@@ -70,6 +70,11 @@ inventions:
     role: improver
     note: "Independent two-plate arrangement after Ibn al-Samh; construction/use treatises circa1080–1082, not the universal astrolabe or Kepler's orbital law. Exact construction city not established."
     sources: [source/zarqali-puig-bea, source/zarqali-mactutor]
+  - invention: invention/zarqali-moving-solar-apogee
+    role: describer
+    place: place/tulaytula
+    note: "Lost solar work probably circa1075–1080: apogee's own motion and variable-eccentricity model. Puig/MacTutor1degree per279years is not numerically identical to12.04arcseconds/year in the earlier attributed summary; no silent reconciliation or modern-accuracy certification."
+    sources: [source/zarqali-puig-bea, source/zarqali-mactutor]
 
 external_ids: { wikidata: "Q11133" }
 
@@ -82,6 +87,8 @@ sources:
   - source/zarqaliyya-bir-2020
   - source/bibalex-astrolabe-949
   - source/zarqali-mactutor
+  - source/nasa-milankovitch-cycles
+  - source/commons-apogee-psf
 
 provenance:
   layer: own-research
@@ -90,6 +97,7 @@ provenance:
   run: "wave 146 B"
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b27", source: "Append distinct equatorium tie and trilingual explanation from Puig/MacTutor; preserve Muse and earlier Copilot attribution, existing universal-plate tie and unrelated life-date fields" }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b52", source: "Append distinct solar-model tie and trilingual discussion; preserve every original field, two earlier ties, faith basis, source membership and attribution. Explicitly distinguish read1degree/279years from earlier12.04account, lost work from surviving witnesses and modern comparison from historical knowledge." }
 
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
 occupations:

@@ -3,6 +3,7 @@ id: person/al-zarqali
 lang: ar
 source_lang: ar
 translators: []
+provenance: { generated_by: "Earlier biography retained; solar appendix: Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b52", source: "New appendix only: actual Puig/MacTutor solar accounts, modern numerical conversion. Earlier text and Muse/previous Copilot attribution in person data preserved." }
 ---
 
 وُلد أبو إسحاق إبراهيم بن يحيى الزرقالي سنة 1029 في قرية قرب طليطلة، واشتُهر بلقب «النقاش» لأنه بدأ حياته صانعًا ونقّاشًا للآلات المعدنية، ومن هذا اللقب جاء اسمه اللاتيني Arzachel. ومنذ سنة 1048 عمل في طليطلة ضمن فريق الفلكي صاعد الأندلسي، أولًا في خدمة المأمون بن ذي النون أمير طليطلة ثم في خدمة المعتمد بن عباد أمير إشبيلية {cite:wikipedia-al-zarqali-en}.
@@ -28,3 +29,9 @@ translators: []
 ## آخر أيامه ووفاته
 
 حين استولى ألفونسو السادس على طليطلة سنة 1085 اضطر الزرقالي إلى الفرار، ولا يُعرف على وجه اليقين هل استقر في قرطبة أم مات في مخيم للاجئين. وتجعله المراجع الحديثة متوفى سنة 1100 في قرطبة، بينما تحمل مراجع أقدم وسجل ويكي بيانات تاريخ 1087 أيضًا، فأثبتَ هذا السجل التاريخَ الأحدث مع التنبيه إلى الخلاف {cite:wikipedia-al-zarqali-en}{cite:wikidata-al-zarqali}.
+
+## النموذج الشمسي وحدود الخبر العددي
+
+يستقل [[invention/zarqali-moving-solar-apogee|نموذج الأوج الشمسي المتحرك]] عن الصفيحة والإكواتوريوم: تنسب بويغ إلى الزرقالي حركة خاصة للأوج ونموذجاً باختلاف مركز متغير، في عمل مفقود يلخص خمساً وعشرين سنة من الرصد، مؤرخ على الأرجح بنحو1075–1080 {cite:zarqali-puig-bea pp.1258–1260}. مضمونه معروف بواسطة مصادر عربية ولاتينية، لا مخطوط أصلي قرأناه؛ وهو غير رسالة حركة النجوم الثابتة الباقية بالعبرية {cite:zarqali-puig-bea pp.1258–1260}.
+
+تورد بويغ وماكتوتر نحو درجة في279 سنة؛ والتحويل الحسابي الحديث3600÷279 يساوي تقريباً12.9032 ثانية قوسية سنوياً {cite:zarqali-puig-bea solar-work paragraph} {cite:zarqali-mactutor solar-work paragraph}. لا يساوي ذلك12.04 في الخبر الأقدم أعلاه: نبقيه خبراً منسوباً ولا ندمج الرقمين أو نعد المقارنة شهادة دقة حديثة. تعرض الصفحة المفصلة الفرق بين نقل مضمون عمل مفقود، وفحص وحدة عددية، ومقارنته بتفسير حديث لا ننسبه إلى المؤلف {cite:zarqali-puig-bea pp.1258–1260}.
