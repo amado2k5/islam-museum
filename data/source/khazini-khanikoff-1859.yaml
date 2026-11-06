@@ -14,6 +14,14 @@ issued: { date-parts: [[1859]] }
 language: en
 URL: "https://commons.wikimedia.org/wiki/File:Khazini,_Book_of_the_Balance_of_Wisdom_(Eng).pdf"
 open_access: true
-reliability_note: "Visually read actual printed pp1,3–4, not the entire128-page scan. Page1 explains the editors' English translation; p3 states the single manuscript's incompleteness and prints Arabic and English of the author's preface, explicitly identifying Muhammad as his prophet. This supplies a personal Muslim basis without inference from name, origin or patron. Do not copy scripture or typed honorifics from the scan. Hall warns of errors in this old translation, so technical attribution relies on Hall rather than unchecked translated formulae. The empty pdftotext output is not treated as a successful OCR reading."
+reliability_note: >-
+  Visually read actual printed pp1,3–4, not the entire128-page scan. Page1 explains the editors' English translation; p3 states the single manuscript's incompleteness and prints Arabic and English of the author's preface, explicitly identifying Muhammad as his prophet. This supplies a personal Muslim basis without inference from name, origin or patron. Do not copy scripture or typed honorifics from the scan. Hall warns of errors in this old translation, so technical attribution relies on Hall rather than unchecked translated formulae. The empty pdftotext output is not treated as a successful OCR reading.
+  B39 extension: selected English12–14,19–21,53–57 read using rendered pages/English OCR; actual printed54 visually inspected.54 names Abu Rayhan's conical vessel, outlet and receiving pan, acknowledges manuscript loss/errors and describes retained-water trouble.55 narrow-neck/handling trade-off and millet comparison are historical reports, not a modern calibrated error limit. Its subsequent trials are al-Khazini's with Abu Rayhan's instrument;56 table is not automatically al-Biruni's own dataset. No toxic purification procedures reproduced. Nineteenth-century capillarity remark is editorial inference, not proof of modern theory. Historical unit conversions/translated formulae not adopted unchecked; bounded vessel interpretation compared with Ansari1975 and modern reconstruction, not a claim that Hall independently validated every new detail. Commons-license anchor: actual file page explicitly PD-US expired copyright/pre1931, volume metadata1859/60; inspected page54 thumbnail is a printed reproduction, not an autograph or surviving apparatus. Full scan/OCR remain outside git.
 status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b24", source: "Public-domain Commons-hosted scan downloaded outside git; pp1,3–4 rendered and visually read" }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b24"
+  source: "Public-domain Commons-hosted scan downloaded outside git; pp1,3–4 rendered and visually read"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b39", source: "Reopened actual local scan, selected English12–14,19–21,53–57 and visually inspected54; Commons file-page rights and working page54 image checked; no full-book/original-manuscript reading claimed" }

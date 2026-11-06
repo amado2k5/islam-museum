@@ -13,6 +13,7 @@ provenance:
   translator_of: content/ar/person/al-biruni-muhammad-ibn-ahmad.md
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "English translation of new Arabic mountain-method/identity sections from actual primary translation/Britannica/TDV; prior Claude translation/authorship retained" }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b39", source: "English translation of new Arabic displacement-vessel section from actual Khanikoff/Ansari/Yassi selected passages; prior Claude translation/authorship retained" }
 ---
 ## Summary
 Abu al-Rayhan Muhammad ibn Ahmad al-Biruni was one of the great astronomers, mathematicians, geographers and historians of his age, born on the outskirts of Khwarazm (Kath) in 362 AH (973 CE). {cite:mawsuat-a3lam-ulama-adaba} {cite:kashf-zunun-furqan} The editor of al-Qanun al-Mas'udi gives his birth as 2 Dhu al-Hijja 362, 4 September 973, in a village outside Kath, the capital of Khwarazm, to an obscure family. {cite:qanun-masudi-jundi-v1 p. 12} The encyclopaedia record gives his death as 442 AH {cite:mawsuat-a3lam-ulama-adaba}, while the title page of the Qanun edition gives 440 AH. {cite:qanun-masudi-jundi-v1 p. 2}
@@ -40,6 +41,10 @@ The editor lists, after Hajji Khalifa, sixty of his works, among them al-Athar a
 
 ## Earth measurement by mountain and horizon
 In *Tahdid*, composed416 AH/1025 CE, he explains [[invention/al-biruni-earth-radius|Earth-radius measurement from mountain height and horizon dip]], reporting a Nandana application:34 arcminutes and652;3,18 regional cloth cubits in height. The date belongs to the book, not the experiment day, and the cubit is not converted into metres without a basis. The text names Sanad ibn Ali's earlier use of the principle under al-Ma'mun, while translator Jamil Ali's preface calls it the author's invention. His role here is documented describer and practitioner, not settled absolute priority. {cite:tdv-biruni-tumer works} {cite:biruni-tahdid-ali-translation preface xi; pp. 183–189}
+
+## The conical vessel and displaced water
+
+The *Balance of Wisdom* describes [[invention/biruni-displacement-vessel|al-Biruni's conical vessel]] with a side outlet directing displaced water into a balance pan, while reporting retained water and slow drainage; the copied drawing is neither an autograph nor surviving original apparatus, and the publisher acknowledges manuscript gaps {cite:khazini-khanikoff-1859 pp.53–55}. Subsequent trials belong to al-Khazini using Abu Rayhan's instrument, not automatically al-Biruni's own dataset {cite:khazini-khanikoff-1859 pp.55–56}. Ansari distinguishes displaced-water weights and table representations and declines a fixed mithqal-to-gram conversion; this part of his study depends on Wiedemann rather than direct access to the Beirut manuscript {cite:ansari-biruni-physics-1975 pp.199–202}. Modern reconstruction witnesses a research replica, not a missing original's precision or priority over all density measurement {cite:yassi-hydrostatic-balances-2023 pp.140–141}.
 
 ## Identity and disputed affiliation
 Britannica explicitly calls him Muslim, and Günay Tümer discusses his Islamic commitment: that is the identity basis, not his name or birthplace. Sunni reading first: Tümer challenges a settled Shia classification based on Qabus's patronage or criticism of Arab chauvinism, noting his Sunni Ghaznavid context and criticism of some Shia/Batini positions. The museum's Sunni frame is explicit, not decisive personal self-testimony. {cite:britannica-al-biruni} {cite:tdv-biruni-tumer religious-affiliation discussion}

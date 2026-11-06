@@ -1,0 +1,74 @@
+id: invention/biruni-displacement-vessel
+class: invention
+label: { ar: "إناء البيروني المخروطي لقياس الإزاحة والكثافة النسبية", en: "Al-Biruni's conical displacement and relative-density vessel", ur: "بیرونی کا ازاحہ اور نسبتی کثافت ناپنے والا مخروطی برتن" }
+names:
+  - { value: "Conical instrument of Abu Rayhan, transmitted in al-Khazini", kind: alternate, lang: en }
+summary:
+  ar: "إناء بأنبوب جانبي يجمع الماء المزاح في كفة للوزن؛ تحسين قياس لا اختراع الطفو أو الجاذبية {cite:khazini-khanikoff-1859 pp.54–55}."
+  en: "Side-outlet vessel collecting displaced water into a weighing pan: measurement refinement, not invention of buoyancy or gravity {cite:khazini-khanikoff-1859 pp.54–55}."
+  ur: "پہلو کی نالی والا برتن ہٹا پانی پلڑے میں جمع کرتا ہے؛ پیمائش کی بہتری، اچھال یا کشش ثقل کی ایجاد نہیں {cite:khazini-khanikoff-1859 pp.54–55}۔"
+domain: optics-physics
+kind: instrument
+disciplines: [engineering, mathematics]
+wings: [objects, ideas]
+regions: [persia-central-asia]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad eleventh-century author-activity context only. Device described through al-Khazini's later text/modern printed reproduction, not a precisely dated build, autograph or surviving artifact; no fabricated Hijri."
+    sources: [source/britannica-al-biruni, source/khazini-khanikoff-1859, source/ansari-biruni-physics-1975]
+  status_today: replaced
+origin:
+  place: place/ghazna
+  context: { ar: "غزنة سياق سيرة المؤلف، لا موقع صنع الإناء المثبت {cite:britannica-al-biruni biography}.", en: "Ghazna is biographical context, not a verified vessel-construction site {cite:britannica-al-biruni biography}.", ur: "غزنہ سوانحی سیاق، برتن بننے کی ثابت جگہ نہیں {cite:britannica-al-biruni biography}۔" }
+makers:
+  - person: person/al-biruni-muhammad-ibn-ahmad
+    role: improver
+    sources: [source/khazini-khanikoff-1859, source/ansari-biruni-physics-1975]
+attribution:
+  status: improvement
+  claim: { ar: "إناء إزاحة منسوب إلى أبي الريحان مع بيان صعوبته؛ لا أول قياس كثافة في العالم.", en: "Displacement vessel attributed to Abu Rayhan with its difficulties recorded, not the world's first density measurement.", ur: "ابو ریحان سے منسوب ازاحی برتن، مشکلات سمیت؛ دنیا کی پہلی کثافت پیمائش نہیں۔" }
+  basis:
+    ar: "النشر54 يسمي الآلة وينقل الرسم وحدود المخطوط، وأنصاري200 يعيد الرسم وينبه إلى بقاء الماء {cite:khazini-khanikoff-1859 p.54} {cite:ansari-biruni-physics-1975 p.200}."
+    en: "Printed54 names the device/reproduces drawing and manuscript limits; Ansari200 reiterates retained-water difficulty {cite:khazini-khanikoff-1859 p.54} {cite:ansari-biruni-physics-1975 p.200}."
+    ur: "مطبوعہ54 آلہ، خاکہ اور مخطوطے کی حدود؛ انصاری200 میں نالی میں باقی پانی کی مشکل {cite:khazini-khanikoff-1859 p.54} {cite:ansari-biruni-physics-1975 p.200}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "الإطار السني وقراءة تومر", en: "Sunni frame and Tümer's interpretation", ur: "سنی سیاق اور تومر کی تعبیر" }
+      summary: { ar: "إسلام الفرد موثق، ونسبته المذهبية مختلف فيها؛ لا تحويل الرعاية إلى إقرار ذاتي.", en: "Individual Muslim identity documented, personal affiliation disputed; patronage is not self-declaration.", ur: "انفرادی مسلم شناخت موثق، مسلک مختلف فیہ؛ سرپرستی ذاتی اقرار نہیں۔" }
+      sources: [source/britannica-al-biruni, source/tdv-biruni-tumer]
+    - tradition: academic
+      stance: { ar: "حدود النقل والقياس", en: "Transmission and measurement limits", ur: "نقل اور پیمائش کی حدود" }
+      summary: { ar: "النسخ الناقصة والجداول المشتقة لا تثبت تكرار التجربة أو دقة حديثة؛ المخالف المذهبي منقول ومعلن.", en: "Incomplete copies/derived tables do not prove replication or modern precision; contrary affiliation reports remain labelled.", ur: "ناقص نسخے یا اخذ شدہ جدول تجربے کے تکرار یا جدید صحت کا ثبوت نہیں؛ مختلف مسلکی نسبتیں نام سمیت ہیں۔" }
+      sources: [source/khazini-khanikoff-1859, source/ansari-biruni-physics-1975, source/tdv-biruni-tumer]
+precursors:
+  - external: { ar: "معرفة الوزن والإزاحة الأقدم", en: "Earlier weighing and displacement knowledge", ur: "سابق وزن اور ازاحے کا علم" }
+    note: "Inherited measurement context, not an independently verified ancient priority story."
+    sources: [source/khazini-khanikoff-1859, source/ansari-biruni-physics-1975]
+dependents:
+  - external: { ar: "نقل الخازني ووصف استعمال الإناء", en: "Al-Khazini's transmission and reported vessel use", ur: "خازنی کی نقل اور برتن کا منقول استعمال" }
+    note: "Later text55 discusses the author's trials with Abu Rayhan's instrument, not automatically al-Biruni's own trials or structural descent of every later balance."
+    sources: [source/khazini-khanikoff-1859]
+spread: []
+impact:
+  fields: [optics-physics, materials-industry]
+  changed: { ar: "ربط ماء مزاح موزون بحجم مادة للمقارنة، مع صعوبات التصريف والعنق {cite:khazini-khanikoff-1859 pp.54–55}.", en: "Linked weighed displaced water to sample volume, with drainage/neck limitations explicit {cite:khazini-khanikoff-1859 pp.54–55}.", ur: "ہٹے پانی کے وزن سے مادے کا حجم، نالی و گردن کی حدود سمیت {cite:khazini-khanikoff-1859 pp.54–55}۔" }
+  history: { ar: "نقل مخطوط ومقارنة جداول ثم إعادة بناء حديثة، لا نسب مثبت لكل جهاز كثافة {cite:ansari-biruni-physics-1975 pp.199–202} {cite:yassi-hydrostatic-balances-2023 pp.140–141}.", en: "Manuscript/table transmission then modern reconstruction, not proven ancestry of every density instrument {cite:ansari-biruni-physics-1975 pp.199–202} {cite:yassi-hydrostatic-balances-2023 pp.140–141}.", ur: "مخطوط و جدولوں کی نقل، پھر جدید تعمیر؛ ہر کثافت آلے کا ثابت نسب نہیں {cite:ansari-biruni-physics-1975 pp.199–202} {cite:yassi-hydrostatic-balances-2023 pp.140–141}۔" }
+  significance: 4
+  why: "An inspectable, attributed instrument description makes displaced-water measurement and practical error visible. Primary transmission/author distinction, unit and replica limitations retained; not a modern-perfect-density or gravity priority claim."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "شاهد نصي ورسم منقول وإعادة بناء حديثة، لا آلة أصلية معروضة.", en: "Textual witness, reproduced drawing and modern reconstruction, not an exhibited original instrument.", ur: "متنی شہادت، منقول خاکہ اور جدید تعمیر؛ اصل باقی آلے کی نمائش نہیں۔" }
+  descendants: { ar: "تشابه مبدأ القياس ليس دليلاً كافياً على نسب صناعي مباشر.", en: "A shared measurement principle alone does not establish direct industrial genealogy.", ur: "مشترک پیمائشی اصول اکیلا براہ راست صنعتی نسب ثابت نہیں کرتا۔" }
+media: { image: media/biruni-conical-khanikoff-1859, diagram: media/diagram-biruni-displacement-vessel }
+kids: { ar: "على الورق فقط:84 مقسومة على20 تساوي4.2؛ نقص الماء المحسوب يغير النتيجة. لا نستعمل مواد مجهولة أو معادن خطرة.", en: "On paper only:84 divided by20 is4.2; missing collected water changes the answer. No unknown substances or hazardous metals.", ur: "صرف کاغذ پر:84 کو20 سے تقسیم کریں تو4.2؛ کم جمع پانی جواب بدلتا ہے۔ نامعلوم مادہ یا خطرناک دھات نہیں۔" }
+sources: [source/khazini-khanikoff-1859, source/ansari-biruni-physics-1975, source/yassi-hydrostatic-balances-2023, source/britannica-al-biruni, source/tdv-biruni-tumer]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b39", source: "Actual selected translated primary53–57/inspected54, official Ansari selected198–205, Yassi selected reconstruction passages, rechecked individual identity and licensed diagram; not full-source/original-manuscript reading" }

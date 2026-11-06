@@ -55,7 +55,8 @@ story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 inventions:
   - { invention: invention/al-biruni-earth-radius, role: describer, note: "Documented mountain/horizon derivation and Nandana experiment; earlier Sanad ibn Ali report retained, no absolute priority.", sources: [source/biruni-tahdid-ali-translation] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/qanun-masudi-jundi-v1, source/nallino-albatenii-opus-astronomicum, source/britannica-al-biruni, source/tdv-biruni-tumer, source/biruni-tahdid-ali-translation]
+  - { invention: invention/biruni-displacement-vessel, role: improver, note: "Attributed conical collecting vessel in later al-Khazini transmission; retained-water and manuscript limits, not first buoyancy/gravity/all density measurement.", sources: [source/khazini-khanikoff-1859, source/ansari-biruni-physics-1975] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/qanun-masudi-jundi-v1, source/nallino-albatenii-opus-astronomicum, source/britannica-al-biruni, source/tdv-biruni-tumer, source/biruni-tahdid-ali-translation, source/khazini-khanikoff-1859, source/ansari-biruni-physics-1975, source/yassi-hydrostatic-balances-2023]
 status:
   review: published
   completeness: 3
@@ -68,6 +69,7 @@ provenance:
   enriched_by: "Claude Code (OCR-harvest worker I), claude-opus-5-5, run ocr-harvest-2026-11-04, from source/qanun-masudi-jundi-v1 editor's introduction scan pp. 12–25, 43"
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "Actual primary translation183–191 and preface; Britannica explicit Muslim basis and TDV actual disputed-affiliation discussion; added method tie/trilingual sections without replacing Devin/Claude prose, authorship or unrelated life dates" }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b39", source: "Added collecting-vessel tie and trilingual biography section from actual Khanikoff53–57/54 image, Ansari selected198–205 and Yassi selected modern-reconstruction passages; prior authorship, Earth tie, faith/perspectives and life dates retained" }
 external_ids: { wikidata: Q11826 }
 kids:
   ar: "البيروني عالم الفلك والجغرافيا والآثار، سافر مع محمود الغزنوي إلى الهند وكتب عنها تاريخها وأديانها."

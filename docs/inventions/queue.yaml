@@ -2,6 +2,20 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: biruni-displacement-vessel
+    label: "Al-Biruni's conical displaced-water collecting vessel"
+    state: "[x]"
+    batch: 2
+    domain: optics-physics
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-biruni-muhammad-ibn-ahmad"]
+    invention: invention/biruni-displacement-vessel
+    lead_sources:
+      - "source/khazini-khanikoff-1859 pp.53–57, inspected54"
+      - "source/ansari-biruni-physics-1975 selected198–205"
+      - "source/yassi-hydrostatic-balances-2023 selected139–141,145–148"
+    flags: [completed-D079-b39, refinement-not-first-buoyancy-or-gravity, displaced-water-not-apparent-immersed-weight, later-Khazini-trials-not-Biruni-dataset, source-generation-and-replica-limits, individual-identity-dispute-retained, printed-PD-diagram-not-autograph]
   - id: fakhri-sextant-rayy
     label: "The Fakhri sextant at Rayy"
     state: "[~]"
