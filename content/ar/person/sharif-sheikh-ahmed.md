@@ -7,7 +7,7 @@ translators: []
 
 # شريف شيخ أحمد
 
-شريف شيخ أحمد (ولد في 25 يوليو 1964) سياسي صومالي شغل منصب الرئيس السابع للصومال من 2009 إلى 2012، بعد ترؤسه اتحاد المحاكم الإسلامية ثم تحالف إعادة تحرير الصومال.{cite:source/wikipedia-sharif-sheikh-ahmed-en}{cite:source/wikidata-sharif-sheikh-ahmed}
+شريف شيخ أحمد ⁦(ولد في 25 يوليو 1964)⁩ سياسي صومالي شغل منصب الرئيس السابع للصومال من 2009 إلى 2012، بعد ترؤسه اتحاد المحاكم الإسلامية ثم تحالف إعادة تحرير الصومال.{cite:source/wikipedia-sharif-sheikh-ahmed-en}{cite:source/wikidata-sharif-sheikh-ahmed}
 
 ## التعليم والتدريس
 
