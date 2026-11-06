@@ -28,4 +28,8 @@ Its place: verse 169 of 200 verses in the surah. The text is kept in the frozen 
 
 Report 8225 opens at the top of p. 394 with its chain (Yahya ibn Abi Talib, from Yazid, from Juwaybir) and continues on p. 395. {cite:tafsir-tabari-shakir-v07 p. 394}
 
-These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict. We stop at p. 394 in the commentary on verse 169 and continue from p. 395. {cite:tafsir-tabari-shakir-v07 p. 394}
+**The close of report 8225 (p. 395).** From al-Dahhak: when those struck down on the day of Uhud among the Prophet's companions met their Lord, He honoured them, and they gained life, martyrdom and good provision. They wished there were someone to tell their brothers that they had met their Lord and He was pleased with them and had pleased them. God said, "I am your messenger to your Prophet and your brothers", and sent down the two verses to His Prophet; so this was the tidings God conveyed to His Messenger and the believers of what the martyrs had said. {cite:tafsir-tabari-shakir-v07 p. 395}
+
+**On the grammar of the word for "rejoicing" (p. 395).** Al-Tabari gives two ways of explaining its accusative: as a circumstantial state (khuruj) drawn from the phrase "with their Lord", or from the verb of being provided for; he adds that a nominative, by linking it back to "living", would also have been permissible. The editor's note explains "khuruj" as the accusative of the state, and refers to earlier passages of the work and to al-Farra's Ma'ani al-Qur'an (1: 247); the first reference numbers are garbled in the extracted text. {cite:tafsir-tabari-shakir-v07 p. 395}
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict. {cite:tafsir-tabari-shakir-v07 p. 395}
