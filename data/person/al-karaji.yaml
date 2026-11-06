@@ -26,6 +26,10 @@ faith:
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/karaji-mactutor, source/tdv-kereci] }
 inventions:
+  - invention: invention/karaji-qanat-surveying
+    role: improver
+    note: "Attributed levels/levelling and tunnel alignment in an inherited qanat tradition; no first qanat, surveying or modern hydraulic theory claim."
+    sources: [source/karaji-inbat-ljs399, source/karaji-ataie-simmons-2020]
   - invention: invention/karaji-polynomial-arithmetic
     role: improver
     place: place/baghdad
@@ -39,6 +43,7 @@ sources:
 - source/tdv-kereci
 - source/karaji-ataie-simmons-2020
 - source/karaji-woepcke-1853
+- source/karaji-inbat-ljs399
 provenance:
   layer: own-research
   generated_by: "Claude Haiku 5.5"
@@ -46,6 +51,10 @@ provenance:
   run: "Wikidata insertion, slice S9"
   source: "Original scaffold attribution retained from status.generated_by; its Sezgin entry and Wikidata facts were not independently read for this enrichment."
   extensions:
+    - generated_by: "Copilot SDK in VS Code"
+      model: "unknown"
+      run: "inventions-p3-b41"
+      source: "Actual HESS2020 full761–769 and current Penn catalogue/IIIF selected Arabic26r,29r,42r,45v; appended surveying tie/biography, preserving earlier algebraic tie, faith and original Claude authorship"
     - generated_by: "Copilot SDK in VS Code"
       model: "unknown"
       run: "inventions-p3-b25"
