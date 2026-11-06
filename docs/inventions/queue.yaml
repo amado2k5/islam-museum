@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: mahani-sphere-division-cubic
+    label: "Al-Mahani's cubic reduction of sphere division"
+    state: "[x]"
+    batch: 1
+    domain: mathematics
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-mahani", "work/mahani-sphere-cylinder-commentary", "source/mahani-mactutor", "source/tdv-mahani-fazlioglu", "source/dold-samplonius-mahani-dsb"]
+    invention: invention/mahani-sphere-division-cubic
+    lead_sources:
+      - "Actual complete MacTutor/TDV body-work list/single-page DSB body-bibliography"
+      - "Actual MathWorld equations2–6 and Commons description/API rights/current PD cap image"
+    flags: [completed-D121-b80, algebraic-formulation-not-completed-solution, inherited-Archimedes-II4, al-Khazin-later-conics-not-al-Khazini, distinct-Khayyam-system-and-Sharaf-analysis, ninth-century-not-observation-day, approximate-dates-no-guessed-Hijri, no-original-Leiden-fragment-Rashed-reading, probably-al-Quhi-qualification, modern-normalized-volume-and-root-example, cap-to-whole-versus-cap-to-remainder, physical-root-interval-explicit, original-maker-fields-attribution-status-prefixes-preserved, modern-PD-diagram-r-versus-R-and-cut-circle-a-explicit]
   - id: farisi-water-sphere-rainbow
     label: "Al-Farisi's water-sphere rainbow model"
     state: "[x]"
