@@ -1382,7 +1382,8 @@ candidates:
     flags: [institutional-improvement-not-first-hospital-claim, conflicting-foundation-dates, civilian-admission-exclusions, mosque-image-not-hospital]
   - id: al-razi-smallpox-measles
     label: "Differentiation of smallpox and measles"
-    state: "[~]"
+    state: "[x]"
+    invention: invention/al-razi-smallpox-measles
     batch: 2
     domain: medicine-surgery
     era: abbasid-golden
@@ -1392,7 +1393,7 @@ candidates:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - "data/person/al-razi-abu-bakr.yaml"
       - "source/assabile-tareq-al-suwaidan"
-    flags: [verify-primary-treatise-and-medical-history, verify-maker-faith-and-tradition]
+    flags: [completed-D:077-documented-comparison-not-universal-first, individual-Muslim-basis-and-disputed-faith-visible, Sunni-frame-not-personal-school-proof, unknown-composition-date, inspected-PD1848-title-not-medieval-manuscript, no-clinical-instructions]
   - id: al-zahrawi-catgut-sutures
     label: "Catgut sutures in al-Tasrif"
     state: "[x]"
