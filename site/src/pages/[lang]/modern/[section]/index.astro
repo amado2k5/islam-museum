@@ -29,6 +29,8 @@ const decades = tally((e) => { const d = decadeOf(e.year); return d === undefine
 const countries = tally((e) => e.countries[0]);
 const fields = section === "figures" ? [...FIELD_IDS, "other"].map((f) => [f, entries.filter((e) => fieldOf(e) === f)] as [string, ModernEntry[]]).filter(([, xs]) => xs.length) : [];
 const lede = M.section_ledes?.[section] ?? "";
+// Compact rows for the whole section once it passes 300 records, whether the list is one or split by field (the figures page).
+const compact = entries.length > 300;
 ---
 <BaseLayout lang={lang} title={`${sectionLabel(section, lang)} · ${M.title}`} description={lede || M.lede} path={`${base}/${section}/`}>
   <div class="wrap" style="padding-block:10px 20px">
@@ -69,14 +71,14 @@ const lede = M.section_ledes?.[section] ?? "";
         {fields.map(([f, xs]) => (
           <section aria-labelledby={`field-${f}`} style="margin-top:1.5rem">
             <h2 id={`field-${f}`}>{fieldLabel(f, lang)} <span class="ui muted">{count(xs.length)}</span></h2>
-            <ModernList entries={xs} lang={lang} id={`f-${f}`} />
+            <ModernList entries={xs} lang={lang} id={`f-${f}`} compact={compact} />
           </section>
         ))}
       </>
     ) : (
       <section aria-labelledby="all-title" style="margin-top:1rem">
         <h2 id="all-title">{M.all_records}</h2>
-        <ModernList entries={entries} lang={lang} id={section} />
+        <ModernList entries={entries} lang={lang} id={section} compact={compact} />
       </section>
     )}
   </div>

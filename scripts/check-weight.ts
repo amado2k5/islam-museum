@@ -51,8 +51,9 @@ export const BUDGETS: Budget[] = [
   { family: "teacher pack", route: "/ar/learn/teachers/packs/ramadan/", html: 220 * KB, js: 10 * KB },
   { family: "child hub", route: "/ar/sighar/explorers/where/", html: 220 * KB, js: 8 * KB },
   // Modern Islam Browser (docs/plan/26 section 4.7), calibrated 6 November 2026 from the first build with the pages: home 135 KB,
-  // a mid-size section 295 KB. A list of more than 300 rows renders compact rows (name, year, kind; no summary), which keeps the
-  // largest section (figures, 1,468 rows) under the 700 KB ceiling the budget table allows. JS is the shared layout plus the name filter.
+  // a mid-size section 295 KB. A section of more than 300 records renders compact rows (name, year, kind; no summary; styles as
+  // classes, not inline) in every one of its lists, which keeps the largest section (figures, 1,467 rows, 1.3 MB with summaries)
+  // under the 700 KB ceiling the budget table allows. JS is the shared layout plus the name filter.
   { family: "browser home", route: "/ar/modern/", html: 170 * KB, js: 14 * KB },
   { family: "browser listing", route: "/ar/modern/figures/", html: 700 * KB, js: 14 * KB },
   { family: "browser section", route: "/ar/modern/film/", html: 400 * KB, js: 14 * KB },
