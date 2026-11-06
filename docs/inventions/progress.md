@@ -114,6 +114,8 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Current state
 
+- **Invention52 final integration through #4345:** A second guard caught the next concurrent passage batch; reviewed and rebased the still-unpublished commits, content now `2d68e5fce7`. Preserve all independent canary entries. Final permitted gates run against this reviewed base before push; no extra unbounded race with unrelated commits, no tests/build/deployment or CI-success claim.
+
 - **Invention52 final-fetch guard:** Initial push stopped when main advanced through #4344 (`8db8ff990d`). Reviewed the independent passage batch/canary diff and rebased only the two unpublished commits, retaining every independent entry. Final permitted gates/report regeneration rerun before push/templatedPR/self-merge. Tests/build skipped; no deployment or completed-CI claim.
 
 - **Invention52 integrated:** Unpublished `0b281be7f6` rebased through reviewed #4343 as `55eff2a1c2`; independent canary entries retained. Regenerated graph/coverage/census and reran all permitted gates unchanged: validate/authenticity0/0 errors,8402/1 warnings, citations4/4, full depth/preservation/graph/rights/unit assertions and whitespace. Final-fetch ancestry guard then push/templatedPR/self-merge; no local tests/build/deployment or completed-CI claim.
