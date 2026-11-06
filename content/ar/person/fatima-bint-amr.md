@@ -9,7 +9,7 @@ translators: []
 فاطمة بنت عمرو بن عائذ بن عمران بن مخزوم بن يقظة بن مرة، زوج [[person/abd-al-muttalib|عبد المطلب]] وأم [[person/abdullah-ibn-abd-al-muttalib|عبد الله]] والد النبي، فهي جدّة النبي لأبيه، من [[group/banu-makhzum|بني مخزوم]] أحد بطون [[group/quraysh|قريش]] {cite:mubarakpuri-raheeq p.52} {cite:talqih-fuhum-ahl-al-athr p.8-9}.
 
 ## نسبها في الرحيق المختوم
-حين يصل الكتاب إلى عبد الله والد النبي يذكر أمه بنسبها الكامل: فاطمة بنت عمرو بن عائذ بن عمران بن مخزوم بن يقظة بن مرة {cite:mubarakpuri-raheeq p.52} {cite:rahma-lil-alamin 2/56-66}. ومن هنا كان أخوال عبد الله من بني مخزوم، وهم الذين منعوا عبد المطلب من ذبحه مع أخيه [[person/abu-talib|أبي طالب]] حين خرجت عليه القداح ([[event/vow-and-lot-of-abd-al-muttalib|نذر عبد المطلب والقرعة]]) {cite:mubarakpuri-raheeq p.52} {cite:ibn-hisham-sira 1/151-155}.
+حين يصل الكتاب إلى عبد الله والد النبي يذكر أمه بنسبها الكامل: فاطمة بنت عمرو بن عائذ بن عمران بن مخزوم بن يقظة بن مرة {cite:mubarakpuri-raheeq p.52} {cite:rahma-lil-alamin 2/56-66}. ومن هنا كان أخوال عبد الله من بني مخزوم، وهم الذين منعوا عبد المطلب من ذبحه مع أخيه [[person/abu-talib|أبي طالب]] حين خرجت عليه القداح ⁦([[event/vow-and-lot-of-abd-al-muttalib|نذر عبد المطلب والقرعة]])⁩ {cite:mubarakpuri-raheeq p.52} {cite:ibn-hisham-sira 1/151-155}.
 
 ## من مصدر آخر
 يذكر البلاذري أن أمها فاطمة بنت عبد الله بن رزام الهوازنية، وأن أم هذه فاطمة بنت الحارث بن بهثة بن سليم ماتت في نفاسها فسُمّيت البنت باسمها {cite:ansab-al-ashraf p.533}.
