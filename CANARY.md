@@ -16,7 +16,11 @@ open a new block on top with the new version and today's date.
 ## v1.3.0 — 2026-11-06
 
 ### Added
+<<<<<<< HEAD
 - Tafsir Browser (phase 0): the proposal, the plan document `docs/plan/27-tafsir-browser.md`, and the register, plan-index, roadmap, lane and status entries for a separate wing of Qur'an commentaries, Tabari first. Approved in chat by the founder on 6 November 2026; nothing is live until the founder deploys.
+=======
+- Inventions Browser90: Abd al-Malik's epigraphic gold-coin standard in Arabic, English and Urdu, with older and transitional coinages credited, source-date differences visible, and an inspected public-domain later dinar distinguished from the first issue. No invention-of-money or modern-value claim.
+>>>>>>> origin/main
 - Inventions Browser89: Umar's recurring military stipend register, Arabic-first/English/Urdu account of annual grants, monthly provisions, older administrative precedents and competing transmitted allocations; inspected Abu Yusuf pages/variant note, with contextual receipt explicitly not an original stipend ledger.
 - Inventions Browser88: Hijri-era administrative dating under Umar, full Arabic/English/Urdu account of consultation, adoption versus epoch, source-date variants and later arithmetic limits; inspected public-domain PERF558 receipt context, not a founding decree. Existing maker identity, perspectives and prose retained.
 - Ibn Sina's seven conditions for assessing drug effects now have an Arabic, English and Urdu account, with the original Arabic pages compared against a scholarly translation; humoral theory, translation limits and disputed affiliation stay visible rather than being recast as a modern clinical trial.
@@ -76,6 +80,17 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses isolated in 100 data files (batch 10 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
+- Arabic parentheses isolated in 100 data files (batch 9 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
+- Arabic parentheses isolated in 100 data files (batch 8 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
+- Arabic parentheses isolated in 100 data files (batch 7 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
+- Arabic parentheses isolated in 100 data files (batch 6 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
+- Arabic parentheses isolated in 100 data files (batch 5 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
+- Arabic parentheses isolated in 100 data files (batch 4 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
+- Arabic parentheses isolated in 100 data files (batch 3 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
+- Arabic parentheses isolated in 100 data files (batch 2 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
+- Arabic parentheses isolated in 100 data files (batch 1 of the staged rollout): brackets around Arabic text now stay in place in right-to-left display.
+- Arabic parentheses: every Arabic-script parenthetical must now be wrapped in Unicode isolate marks (U+2066 ... U+2069), so brackets stay in the right place in right-to-left text. The rule is in AGENTS.md and applies to every agent and session, including harvesting, ingestion and OCR.
 - The Modern Islam Browser no longer links to year pages it never builds. Year pages exist from 1976 to the build year, but the "by decade" chips on a section page pointed at the decade's first year (1970, 2030), and the year chip on an entity page pointed at the record's own year, even a future one such as 2034 for the 2034 World Cup. The internal link check failed on all 33 of them in the three languages, so no pull request could pass. Now one helper decides: a year with a page is a link, a decade chip links to its first year that has a page (the 1970s to 1976), and any other year is shown as plain text. A unit test covers the helper, and the site check now fails the build on any link to a year page that does not exist.
 
 ---
@@ -176,6 +191,7 @@ open a new block on top with the new version and today's date.
 - Each exhibit now appears once on the exhibits list in every language. The two Alexandria trails were one trail recorded twice: they are now one, and the old address still leads to it. "Great Mosques of the Garrison Cities" and «دول المغرب الأدنى» (States of the Maghreb) are different trails that shared a title with another, and now have their own.
 - The Urdu embed index (/ur/embed/) now reads in Urdu; it had been added with English placeholder text.
 - On the Places wing overview map, no dot now covers a place name and no two names touch: names are drawn above the dots, and the space each name needs is measured as it actually renders, including Arabic script.
+- Every build of the site stopped on 6 November because one record (Ibn Mu'adh al-Jayyani, whose death is written "1079 or later") has a date with no end, and the timeline step could not handle it. A date with an open end is now read as the one point that is known, so the build runs again and no date is invented. A date open on both sides is still rejected.
 
 ### Tests
 
