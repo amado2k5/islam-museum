@@ -1,0 +1,19 @@
+id: media/diagram-ammar-hollow-needle
+class: media
+kind: illustration
+label: { ar: "من تقليد طب العين إلى نقد النص", en: "From eye-care tradition to textual criticism", ur: "چشم طبی روایت سے متنی نقد تک" }
+summary:
+  ar: "سلسلة عامة لا تعليمات جراحة أو نسب تقني متصل."
+  en: "Generic chain,not surgical instructions or a continuous technical genealogy."
+  ur: "عمومی سلسلہ،جراحی ہدایات یا مسلسل فنی نسب نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/ammar-hollow-cataract-needle]
+alt:
+  ar: "تقليد طب العين، ثم وصف عمار، ثم دراسة الشواهد؛ لا تسلسل خطوات علاجية."
+  en: "Eye-care tradition,Ammar's description,then historical evaluation;not a sequence of treatment steps."
+  ur: "چشم طبی روایت،عمار کا بیان،پھر تاریخی جانچ؛علاج کے اقدامات کی ترتیب نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/meyerhof-ammar-1937, source/leffler-cataract-aspiration-2017]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b69", source: "Generic conceptual chain,not copied instrument plan or clinical instruction." }

@@ -251,19 +251,20 @@ candidates:
     flags: [completed-D079-b39, refinement-not-first-buoyancy-or-gravity, displaced-water-not-apparent-immersed-weight, later-Khazini-trials-not-Biruni-dataset, source-generation-and-replica-limits, individual-identity-dispute-retained, printed-PD-diagram-not-autograph]
   - id: fakhri-sextant-rayy
     label: "The Fakhri sextant at Rayy"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: astronomy-instruments
     era: abbasid-golden
     from: founder-supplied-lead
     records: ["person/al-khujandi-abu-mahmud-hamid-ibn-al-khidr"]
+    invention: invention/fakhri-sextant-rayy
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - "source/mawsuat-a3lam-ulama-adaba p. 130 (local OCR; visual check pending)"
       - "Glen Van Brummelen, Biographical Encyclopedia of Astronomers, pp. 630-631: https://ismi.mpiwg-berlin.mpg.de/biography/Khujandi_BEA.htm"
       - "J. J. O'Connor and E. F. Robertson, MacTutor: https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khujandi/"
       - "Louis Cheikho, ed., Risalat al-Khujandi fi al-mayl wa-ard al-balad, al-Mashriq 11 (1908), pp. 61, 68-69: https://www.jphogendijk.nl/biruni/Fakhri.pdf"
-    flags: [verify-maker-sunni-basis, verify-instrument-claim-and-scale, compare-edition-variants]
+    flags: [completed-D109-b68, individual-Islamic-identification-MacTutor, Sunni-separate-museum-default-not-patron-inference, actual-Cheikho1908-read-not-autograph, 43m-diameter-not-radius, primary21sec-secondary19sec-retained, printed-scale-mark-not-silently-corrected, resolution-not-accuracy, nautical-figures-not-original-plans, quadrant-shamila-not-counted, modern-triangle-context-only]
   - id: mural-quadrant-al-khujandi
     label: "The mural quadrant associated with al-Khujandi"
     state: "[~]"
@@ -1092,12 +1093,15 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
   - id: al-kashi-conjunction-plate
     label: "Al-Kashi's plate of conjunctions"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: astronomy-instruments
     era: middle-period
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    invention: invention/kashi-conjunction-plate
+    records: [person/al-kashi, source/schmidl-kashi-bea, source/tdv-kashi-okten]
+    flags: [completed-D107-b66-specific-linear-interpolation-device, actual-complete-Schmidl-Okten-read, two-plates-distinct, no-double-count-sine-circumference-Zarqali, version-dates-not-manufacture-date, modern-unwrapped-zero-crossing-not-original-graduations, no-global-first-interpolation-or-software-lineage, individual-Muslim-basis-separate-Sunni-default, maker-and-535-other-leads-preserved, PD-modern-triangle-context-not-artifact]
   - id: almucantar-quadrant
     label: "The almucantar quadrant"
     state: "[~]"
@@ -1684,16 +1688,18 @@ candidates:
     flags: [textual-description-not-authenticated-original, urethral-drill-not-bladder-forceps, priority-and-later-lineage-attributed, historical-account-not-clinical-instructions]
   - id: cataract-hollow-needle
     label: "The hollow cataract needle attributed to Ammar al-Mawsili"
-    state: "[~]"
+    state: "[x]"
     batch: 2
     domain: medicine-surgery
     era: abbasid-golden
     from: founder-supplied-lead
+    invention: invention/ammar-hollow-cataract-needle
+    records: ["person/ammar-al-mawsili"]
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - "Max Meyerhof, ed. and trans., Las operaciones de catarata de ʻAmmār ibn ʻAlī al-Mausilī: The cataract operations of ʻAmmār ibn ʻAlī al-Mawsilī (Masnou: Laboratorios del Norte de España, 1937), pp. 19–21; Internet Archive item b31363337_0002 (primary edition; Spanish translation visually checked)"
       - "Encyclopaedia of Islam THREE, “ʿAmmār b. ʿAlī al-Mawṣilī,” reportedly 2 (2008): 92–93; accessible third-party extract used as a lead only, official access not verified"
-    flags: [verify-maker-faith-and-tradition, verify-priority-against-earlier-surgery, compare-arabic-facsimile-with-translation]
+    flags: [completed-D110-b69, author-devotional-purpose-individual-Muslim-basis, Sunni-separate-museum-default-not-patron-inference, selected-Spanish-primary-not-Arabic-collation, first-person-priority-and-success-attributed, academic-skepticism-visible-no-verdict, couching-cases-not-all-aspiration, Tiberias-Baghdad-variant-retained, text-transmission-not-modern-device-genealogy, no-clinical-instructions, modern-anatomy-context-not-original-needle]
   - id: museum-record-concept-anatomy
     label: "Museum lead for Anatomy"
     state: "[~]"
@@ -3672,13 +3678,15 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: mosque-gnomons-and-sundials
     label: "Gnomons and sundials at mosques"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: timekeeping
     era: first-century
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4", "TDV İslâm Ansiklopedisi, GÜNEŞ SAATİ: https://islamansiklopedisi.org.tr/gunes-saati (lead/reference)"]
-    flags: [verify-specific-muslim-refinement, verify-maker-and-earlier-antecedents]
+    invention: invention/shatir-polar-sundial
+    records: [person/ibn-al-shatir, building/umayyad-mosque, source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer, source/tdv-gunes-saati-cam]
+    flags: [completed-D106-b65-bounded-fourteenth-century-refinement, original-provisional-first-century-era-not-record-date, not-invention-of-all-sundials, earlier-ancient-and-Islamic-devices-visible, actual-King-Dizer-Cam-read, original-fragments-versus-nineteenth-century-copy, portable-Aleppo-dial-and-1343-report-separate, no-global-first-or-European-transfer-verdict, modern-BSS-formula-not-original-engraving, modern-latitude30-not-Damascus-survey, photo-context-not-visible-dial-face, individual-Muslim-basis-separate-Sunni-default, maker-building-and-535-other-leads-preserved]
   - id: museum-record-event-assassination-attempt-of-amir-and-arbad
     label: "Museum lead for The plot of Amir ibn al-Tufayl and Arbad ibn Qays"
     state: "[-]"
@@ -4137,13 +4145,15 @@ candidates:
     flags: ["verify-tradition"]
   - id: taqi-al-din-mechanical-clock
     label: "Taqi al-Din's mechanical clock"
-    state: "[~]"
+    state: "[x]"
     batch: 5
     domain: timekeeping
     era: gunpowder-empires
     from: founder-supplied-lead
     lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
-    flags: ["verify-tradition"]
+    invention: invention/taqi-astronomical-clock
+    records: [person/taqi-al-din-ibn-maruf, source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
+    flags: [completed-D108-b67-bounded-seconds-reading-observation-application, not-first-mechanical-clock, European-clock-access-explicit, original-treatise-and-Tekeli-not-read, no-five-second-gearing-or-three-dial-claim, resolution-not-measured-accuracy, establishment-dates-not-manufacture-date, individual-Muslim-basis-separate-Sunni-default, maker-and-535-other-leads-preserved, modern-PD-icon-not-Ottoman-artifact, alarm-clock-not-counted]
   - id: museum-record-person-ibrahim-njoya
     label: "Museum lead for Ibrahim Njoya"
     state: "[~]"

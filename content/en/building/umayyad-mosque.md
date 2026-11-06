@@ -16,3 +16,9 @@ Al-Umari reports that the Gate of the Clocks was so named because a clock compas
 He also reports that before the mosque was burned, talismans were hung from its ceiling against insects, mice, snakes, scorpions and spiders, and nothing was found in it until it burned. {cite:umari-masalik-1924 p.197-198}
 
 The start date is derived from the Hijri date, and is approximate in the museum's calendar.
+
+## Ibn al-Shatir's dial: original and copy
+
+King describes the [[invention/shatir-polar-sundial|monumental sundial]] designed and constructed by [[person/ibn-al-shatir|Ibn al-Shatir]] on the northern minaret: horizontal marble approximately two metres by one, polar gnomon and multiple time scales. Dizer dates the instrument773AH/1371–1372. This does not redate the mosque's construction or identify it with the Gate of the Clocks device in the earlier text {cite:king-ibn-shatir-bea sundial} {cite:tdv-ibn-shatir-dizer instruments}.
+
+According to King, the minaret instrument is a late-nineteenth-century copy and original fragments are in a Damascus museum garden; Dizer names al-Tantawi in the remaking account. These are source reports, not current site inspection. Cam corroborates surviving original pieces. They must not be conflated with the small Aleppo jewel-box dial or a modern exterior view lacking a visible dial face {cite:king-ibn-shatir-bea sundial-and-compendium} {cite:tdv-ibn-shatir-dizer instruments} {cite:tdv-gunes-saati-cam surviving-dials}.
