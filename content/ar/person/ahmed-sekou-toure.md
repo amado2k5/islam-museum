@@ -7,7 +7,7 @@ translators: []
 
 # أحمد سيكو توري
 
-أحمد سيكو توري (9 يناير 1922 – 26 مارس 1984) سياسي غيني صار أول رئيس لغينيا عند استقلالها سنة 1958 وحكمها حتى وفاته سنة 1984. {cite:wikipedia-ahmed-sekou-toure-en} {cite:wikidata-ahmed-sekou-toure}
+أحمد سيكو توري ⁦(9 يناير 1922 – 26 مارس 1984)⁩ سياسي غيني صار أول رئيس لغينيا عند استقلالها سنة 1958 وحكمها حتى وفاته سنة 1984. {cite:wikipedia-ahmed-sekou-toure-en} {cite:wikidata-ahmed-sekou-toure}
 
 ## الطفولة والنقابات
 
