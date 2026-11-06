@@ -62,11 +62,11 @@ translators: []
 ينقطع التسجيل المؤرشف عند الدقيقة 54 تقريباً، والمقدّم يستعد لاستطلاع آخر قبل الفاصل؛ فلا يحفظ الأرشيف بقية الحلقة ولا خلاصة المقدّم {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:54:00}.
 
 :::perspectives
-**أهل السنة: ضغط خارجي مقصود (الأستاذ علي لبن).** لجنة دولية أفرغت المناهج من العقيدة والجهاد والأحكام، والحل رفع الضغوط وتحرير المؤلف؛ وهي روايته {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:09:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:33:00}.
+**أهل السنة: ضغط خارجي مقصود ⁦(الأستاذ علي لبن)⁩.** لجنة دولية أفرغت المناهج من العقيدة والجهاد والأحكام، والحل رفع الضغوط وتحرير المؤلف؛ وهي روايته {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:09:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:33:00}.
 
-**أهل السنة: الخلل فينا أولاً (الدكتور جميل علام).** إهمال تصوّر صحيح للدين واختيار مؤلفين لا يعرفون الإسلام، والدور الغربي مكمّل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:38:30}.
+**أهل السنة: الخلل فينا أولاً ⁦(الدكتور جميل علام)⁩.** إهمال تصوّر صحيح للدين واختيار مؤلفين لا يعرفون الإسلام، والدور الغربي مكمّل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:38:30}.
 
-**أهل السنة: مراجعة بلا حذف (الدكتور خالد القاسم).** في المناهج شحن يحتاج مراجعة، والضغط الخارجي ظالم لكنه قد ينفع في التحسين لا في حذف الجهاد والربا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:47:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:48:30}.
+**أهل السنة: مراجعة بلا حذف ⁦(الدكتور خالد القاسم)⁩.** في المناهج شحن يحتاج مراجعة، والضغط الخارجي ظالم لكنه قد ينفع في التحسين لا في حذف الجهاد والربا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:47:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:48:30}.
 
-**رأي المتحدث (رأي): طارق السويدان.** عشرة أهداف لمناهج الدين، أكثرها غائب أو ضعيف في تقييم الضيوف، والنقد لا يلغي الإيجابيات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:12:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:27:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:43:00}.
+**رأي المتحدث ⁦(رأي)⁩: طارق السويدان.** عشرة أهداف لمناهج الدين، أكثرها غائب أو ضعيف في تقييم الضيوف، والنقد لا يلغي الإيجابيات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:12:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:27:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:43:00}.
 :::

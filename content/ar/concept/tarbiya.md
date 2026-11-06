@@ -16,19 +16,19 @@ translators: []
 ## ملاحظة
 تخريج الحديث الذي يستشهد به المؤلف وحكمه لم يُراجع بعد، كما أن نسبة التعريفات إلى أصحابها كما ذكرها المؤلف تحتاج إلى مرجع ثانٍ قبل الاعتماد عليها. {cite:usul-al-tarbiya-azhar p. 18}
 
-## التربية في درس الشيخ عمر عبد الكافي (الحلقات الثانية والرابعة والخامسة)
-يقول الشيخ إن الأسر التي عملت للخير في الدنيا تحفظ أبناءها على الطريق، وإن الولد يتربى على عادات أبيه أو على الدين بحسبه (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:05:00} ويعدّ من التربية أن يُعلَّم الولد أن الكذب والغش والغيبة محرمة، وأن يحب الحلال ويكره الحرام، ويتأدب مع الناس (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:58:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:05:30}
-وينصح الشيخ الأب ألا يُقبل على ولده بالتأنيب قبل أن يسمع، وألا يعامله بالفظاظة، ويقول إن الأبناء يُربّون لزمانهم لا لزمان آبائهم، وإن الأمر يُعطى للولد على دفعات (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:45:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:47:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:47:30}
-ويدعو إلى الدعاء للأبناء بالصلاح (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:48:00} ويعدّ تمرد الأبناء أحيانا من ذنوب الآباء (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:21:00}
+## التربية في درس الشيخ عمر عبد الكافي ⁦(الحلقات الثانية والرابعة والخامسة)⁩
+يقول الشيخ إن الأسر التي عملت للخير في الدنيا تحفظ أبناءها على الطريق، وإن الولد يتربى على عادات أبيه أو على الدين بحسبه ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:05:00} ويعدّ من التربية أن يُعلَّم الولد أن الكذب والغش والغيبة محرمة، وأن يحب الحلال ويكره الحرام، ويتأدب مع الناس ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:58:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:05:30}
+وينصح الشيخ الأب ألا يُقبل على ولده بالتأنيب قبل أن يسمع، وألا يعامله بالفظاظة، ويقول إن الأبناء يُربّون لزمانهم لا لزمان آبائهم، وإن الأمر يُعطى للولد على دفعات ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:45:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:47:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:47:30}
+ويدعو إلى الدعاء للأبناء بالصلاح ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:48:00} ويعدّ تمرد الأبناء أحيانا من ذنوب الآباء ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:21:00}
 
 :::perspectives
 - **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
-- **رأي الشيخ عمر عبد الكافي (speaker's view)**: يرى أن الأدب مع الولد يكون بالحنان والعتاب الرقيق لا بالغضب والضرب، وأن الضرب في غير موضعه يؤذي الولد. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:06:30} (رأي الشيخ)
+- **رأي الشيخ عمر عبد الكافي (speaker's view)**: يرى أن الأدب مع الولد يكون بالحنان والعتاب الرقيق لا بالغضب والضرب، وأن الضرب في غير موضعه يؤذي الولد. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 01:06:30} ⁦(رأي الشيخ)⁩
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 2)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 2)⁩
 
 يقول الشيخ إن بعض الآباء ينسون أبناءهم وهم في الصف الأول الابتدائي، ثم يكتشفون في السنة الثالثة أو الرابعة من الجامعة أن الابن أو البنت غاب عنهم بحضوره {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:38:30}.
 
@@ -48,7 +48,7 @@ translators: []
 
 وينصح بأن يُترك الولد ذو الخمس أو الست سنوات يشارك في الحوار عندما يزور أبوه أعمامه أو أخواله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:46:30}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 5)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 5)⁩
 
 يقول الشيخ إن تربية الولد على ألا يغش في الامتحان سباحة ضد التيار، وقد ينال علامات أقل بسبب ذلك، لكنه عنده مثاب على ذلك {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:04:30}.
 
@@ -64,7 +64,7 @@ translators: []
 
 وينتقد الشيخ الأب الذي يستجوب ابنته وابنه في البيت كأنه مراقب في المطار، يسأل كل واحد منهما أين ذهب وماذا يفعل {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:40:00}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 6)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 6)⁩
 
 يقول الشيخ إنه كان يدخل المسجد في الخمسينات وهو طفل فلا يجد فيه إلا كبار السن المتقاعدين من أبناء السبعين والثمانين (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:10:30}.
 
@@ -72,25 +72,25 @@ translators: []
 
 ويروي أنه ينظر في قاعة جامعية فيرى أكثر البنات محجبات ولا يرى غير بنتين غير محجبتين، ويرى في ذلك دليلا على أن الحجاب اختيار وطواعية لا قهر فيه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:11:30}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 7)⁩
 
 ينصح الشيخ الأب أن يكون ذكيا في التربية، فلا يقبل ما يعلم أن أولاده أو زوجته لن يفعلوه، وأن يترك بينه وبين ابنته مساحة محترمة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:32:30}.
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 10)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 10)⁩
 
 ويتساءل الشيخ: لماذا يلاحقنا الفشل في علاقتنا بزوجاتنا؟ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:00}.
 
 ويرى أن سبب مشكلات الزواج والأقارب أن كل واحد يضع المفتاح في الباب الخطأ، ولو وضعه في مكانه لانفتح {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}. ويذكر في زيارة أم الزوجة أنه لا بد من معاملتها بالحسنى {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}.
 
-## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+## من سلسلة شرح الحكم العطائية ⁦(عمر عبد الكافي)⁩
 يروي عمر عبد الكافي أنه قال في محاضرة بإحدى الجامعات في لبنان إن على كل دولة إسلامية أن تعطي المعلم شيكًا على بياض يكتب فيه ما يريد، لكي يُنشئ أجيالًا صالحة. وهذا رأيه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:49:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:50:00}
 
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
 يقول الشيخ إنه سيأخذ في كل حلقة من البرنامج ملاحظة أو عنوانًا في تربية القرآن للنفس الإنسانية: كيف ربّى القرآن نفوس الصحابة، ولماذا أثّر فيهم كما لم يؤثر فينا والمتكلم واحد. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:30} ويجيب بأن القرآن خاطب في الصحابة فطرًا سليمة نقية فأثّر فيها، وأن الأعرابي كان يلقى النبي لحظات فيعود داعيًا إلى الله. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:07:30} وينقل عن [[person/abdullah-ibn-masud|ابن مسعود]] أن يقرأ المرء القرآن كأنه نزل عليه وحده. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:30}
 
 ## في برنامج عبد الرحمن منصور «أهالينا»
-يجعل [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] برنامجه [[work/ahaleena|«أهالينا»]] كله في التربية داخل الأسرة، ويبني على أن الآباء مسؤولون أمام الله عن تربية أبنائهم «على منهج النبوة»، مستشهدًا بآية سورة التحريم [[passage/quran-66-6|(التحريم 6)]] وبحديث «كلكم راع». {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:03:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:03:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:01:00} ويقول إن صلاح الأولاد يبدأ بصلاح الآباء مع الله، وإن آباء الماضي ربّوا بالفطرة والحنان والرحمة والرفق، فلما قلّت هذه المعاني كثر التنافر بين الآباء والأبناء. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:01:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:02:00}
+يجعل [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] برنامجه [[work/ahaleena|«أهالينا»]] كله في التربية داخل الأسرة، ويبني على أن الآباء مسؤولون أمام الله عن تربية أبنائهم «على منهج النبوة»، مستشهدًا بآية سورة التحريم [[passage/quran-66-6|⁦(التحريم 6)⁩]] وبحديث «كلكم راع». {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:03:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:03:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:01:00} ويقول إن صلاح الأولاد يبدأ بصلاح الآباء مع الله، وإن آباء الماضي ربّوا بالفطرة والحنان والرحمة والرفق، فلما قلّت هذه المعاني كثر التنافر بين الآباء والأبناء. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:01:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:02:00}
 
-ويعرض في حلقتين ما يسميه «المدمرات العشر»، وهي أخطاء يرى أنها تدمر شخصية الولد منذ الصغر: ألا يرضى الأب بالبنت، و[[concept/al-dua-ala-al-nafs-wal-awlad|الدعاء على الأولاد]]، والبخل بإظهار العاطفة، ومقارنة الولد بغيره، والرسائل السلبية («يا غبي، يا فاشل»)، والتفريق بين الولد والبنت، وضرب الولد قبل العاشرة، والتخويف الدائم، وحمل ضغوط العمل إلى البيت، والشجار بين الزوجين أمام الأولاد. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:02:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:03:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:09:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:11:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:01:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:05:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:07:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:09:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:12:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:14:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:14:30} ويقول إن التخويف بالعفريت والشرطي يزرع في الولد الخوف والجبن وقلة الثقة بالنفس. {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:10:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:12:00}
+ويعرض في حلقتين ما يسميه «المدمرات العشر»، وهي أخطاء يرى أنها تدمر شخصية الولد منذ الصغر: ألا يرضى الأب بالبنت، و[[concept/al-dua-ala-al-nafs-wal-awlad|الدعاء على الأولاد]]، والبخل بإظهار العاطفة، ومقارنة الولد بغيره، والرسائل السلبية ⁦(«يا غبي، يا فاشل»)⁩، والتفريق بين الولد والبنت، وضرب الولد قبل العاشرة، والتخويف الدائم، وحمل ضغوط العمل إلى البيت، والشجار بين الزوجين أمام الأولاد. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:02:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:03:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:09:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:11:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:01:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:05:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:07:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:09:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:12:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:14:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:14:30} ويقول إن التخويف بالعفريت والشرطي يزرع في الولد الخوف والجبن وقلة الثقة بالنفس. {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:10:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:12:00}
 
 ويرى أن الطفل في الصغر «قابل لكل نقش وصورة»، فما عُوّده من خير أو شر اعتاده، وأن على الأب أن يعرف خصائص كل مرحلة من العمر ليعامل ولده بما يناسبها. {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:02:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:06:30} ويجعل القدوة أساسًا، فالأب الذي يكذب أمام ابنه يعلّمه الكذب بطريق غير مباشر. {cite:assabile-abd-al-rahman-mansour ahaleena/ep08 00:04:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep08 00:05:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep08 00:06:00} ويختم سلسلة الصلاة بحديث أن [[concept/rifq-fiqh|الرفق]] لا يكون في شيء إلا زانه. {cite:assabile-abd-al-rahman-mansour ahaleena/ep10 00:12:30} وتفصيل العقوبة عنده في [[concept/tadib-al-awlad|تأديب الأولاد]]، ومراحل العمر في [[concept/childhood-sighar|الصغر]].

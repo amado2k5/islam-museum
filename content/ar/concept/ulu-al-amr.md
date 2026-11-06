@@ -25,4 +25,4 @@ translators: []
 - التصرف بما فيه المصلحة العامة، لقاعدة: التصرف على الرعية منوط بالمصلحة. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3330}
 
 ## مواطن البحث
-التفصيل في مصطلح (إمامة كبرى). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3332}
+التفصيل في مصطلح ⁦(إمامة كبرى)⁩. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3332}
