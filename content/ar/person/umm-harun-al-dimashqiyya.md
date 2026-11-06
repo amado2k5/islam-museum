@@ -6,7 +6,7 @@ translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.860" }
 ---
 ## موجز
-أم هارون من عابدات الشام في [[work/sifat-al-safwa|صفة الصفوة]] (الترجمة 824)، يصفها عبد العزيز بن عمير بأنها كانت من الخائفين العابدين. {cite:sifat-al-safwa-tartusi-2012 p.860} وقال [[person/abu-sulayman-al-darani|أبو سليمان الداراني]]: من أراد أن ينظر إلى صعق صحيح فلينظر إلى أم هارون، وقال: ما كنت أرى أنه يكون بالشام مثلها. {cite:sifat-al-safwa-tartusi-2012 p.860}
+أم هارون من عابدات الشام في [[work/sifat-al-safwa|صفة الصفوة]] ⁦(الترجمة 824)⁩، يصفها عبد العزيز بن عمير بأنها كانت من الخائفين العابدين. {cite:sifat-al-safwa-tartusi-2012 p.860} وقال [[person/abu-sulayman-al-darani|أبو سليمان الداراني]]: من أراد أن ينظر إلى صعق صحيح فلينظر إلى أم هارون، وقال: ما كنت أرى أنه يكون بالشام مثلها. {cite:sifat-al-safwa-tartusi-2012 p.860}
 
 ## الليل
 كانت تقول: قد أنزلت الدنيا منزلتها، وكانت تأكل الخبز وحده، وتقول إنها تغتم بالنهار حتى يجيء الليل، فإذا جاء قامت أوله، فإذا جاء السحر دخل الروح قلبها. {cite:sifat-al-safwa-tartusi-2012 p.860} وقالت [[person/rabia-bint-ismail|رابعة بنت إسماعيل]] لزوجها إن أم هارون ما دهنت رأسها منذ عشرين سنة، وإن شعرها كان مع ذلك أحسن من شعورهن. {cite:sifat-al-safwa-tartusi-2012 p.860}
