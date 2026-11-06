@@ -251,19 +251,20 @@ candidates:
     flags: [completed-D079-b39, refinement-not-first-buoyancy-or-gravity, displaced-water-not-apparent-immersed-weight, later-Khazini-trials-not-Biruni-dataset, source-generation-and-replica-limits, individual-identity-dispute-retained, printed-PD-diagram-not-autograph]
   - id: fakhri-sextant-rayy
     label: "The Fakhri sextant at Rayy"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: astronomy-instruments
     era: abbasid-golden
     from: founder-supplied-lead
     records: ["person/al-khujandi-abu-mahmud-hamid-ibn-al-khidr"]
+    invention: invention/fakhri-sextant-rayy
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - "source/mawsuat-a3lam-ulama-adaba p. 130 (local OCR; visual check pending)"
       - "Glen Van Brummelen, Biographical Encyclopedia of Astronomers, pp. 630-631: https://ismi.mpiwg-berlin.mpg.de/biography/Khujandi_BEA.htm"
       - "J. J. O'Connor and E. F. Robertson, MacTutor: https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khujandi/"
       - "Louis Cheikho, ed., Risalat al-Khujandi fi al-mayl wa-ard al-balad, al-Mashriq 11 (1908), pp. 61, 68-69: https://www.jphogendijk.nl/biruni/Fakhri.pdf"
-    flags: [verify-maker-sunni-basis, verify-instrument-claim-and-scale, compare-edition-variants]
+    flags: [completed-D109-b68, individual-Islamic-identification-MacTutor, Sunni-separate-museum-default-not-patron-inference, actual-Cheikho1908-read-not-autograph, 43m-diameter-not-radius, primary21sec-secondary19sec-retained, printed-scale-mark-not-silently-corrected, resolution-not-accuracy, nautical-figures-not-original-plans, quadrant-shamila-not-counted, modern-triangle-context-only]
   - id: mural-quadrant-al-khujandi
     label: "The mural quadrant associated with al-Khujandi"
     state: "[~]"

@@ -1,0 +1,84 @@
+id: invention/fakhri-sextant-rayy
+class: invention
+label: { ar: "سدس الخجندي الفخري في الري", en: "Al-Khujandi's Fakhri sextant at Rayy", ur: "رے میں خجندی کا سدس فخری" }
+names:
+  - { kind: alternate, lang: ar, value: "السدس الفخري" }
+  - { kind: alternate, lang: en, value: "al-suds al-Fakhri" }
+summary:
+  ar: "قوس زوالي ضخم لرصد الشمس بالإسقاط في الري؛ دقة تدريجه المقصودة لا تلغي مشكلة هبوط البناء {cite:van-brummelen-khujandi-bea sextant}."
+  en: "Giant meridian arc for projected solar observations at Rayy; intended fine readings did not remove the building-settlement problem {cite:van-brummelen-khujandi-bea sextant}."
+  ur: "رے میں شمسی عکس کے رصد کا بڑا نصف النہاری قوس؛ باریک قراءت کا ارادہ عمارت کے بیٹھنے کا مسئلہ ختم نہ کر سکا {cite:van-brummelen-khujandi-bea sextant}۔"
+domain: astronomy-instruments
+kind: instrument
+disciplines: [astronomy, mathematics, engineering]
+wings: [objects, ideas]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0994"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Secondary biographies date observations994; Arabic62 pairs384AH/994–995. Observation horizon, not exact invention/manufacture; no new Hijri conversion or forced date harmonization."
+    sources: [source/van-brummelen-khujandi-bea, source/khujandi-cheikho-1908, source/khujandi-mactutor]
+  status_today: replaced
+origin:
+  place: place/rayy
+  context:
+    ar: "الري قرب طهران، برعاية فخر الدولة؛ الرعاية ليست دليلاً على مذهب الصانع {cite:van-brummelen-khujandi-bea biography}."
+    en: "Rayy near Tehran,under Fakhr al-Dawla's patronage;patronage does not establish the maker's personal school {cite:van-brummelen-khujandi-bea biography}."
+    ur: "تہران کے نزدیک رے،فخر الدولہ کی سرپرستی؛سرپرستی صانع کے ذاتی مذہب کا ثبوت نہیں {cite:van-brummelen-khujandi-bea biography}۔"
+makers:
+  - person: person/al-khujandi-abu-mahmud-hamid-ibn-al-khidr
+    role: inventor
+    note: "Specific monumental instrument attested by author text and biographies;not first sextant,solar observation or universal sine theorem."
+    sources: [source/khujandi-cheikho-1908, source/van-brummelen-khujandi-bea, source/khujandi-mactutor]
+attribution:
+  status: improvement
+  claim:
+    ar: "توسيع آلة الزوايا إلى قوس زوالي كبير وقراءات أدق."
+    en: "Scaling angular measurement into a monumental meridian arc with finer readings."
+    ur: "زاویہ پیمائی کو بڑے نصف النہاری قوس اور باریک قراءت میں ڈھالنا۔"
+  basis:
+    ar: "نص الرصد باق في طبعة1908؛ اختلاف الأرقام ونقد الاستقرار ظاهران، فلا شهادة أولية عالمية أو دقة متحققة بلا قيد {cite:khujandi-cheikho-1908 pp62-69}."
+    en: "Observation text survives in1908 edition;numeral differences and stability criticism remain visible,no unqualified global priority or realized-accuracy certificate {cite:khujandi-cheikho-1908 pp62-69}."
+    ur: "رصد کا متن1908 ایڈیشن میں باقی؛اعداد کا اختلاف و استحکام کا نقد نمایاں،بے قید عالمی اولیت یا حاصل شدہ درستی کی سند نہیں {cite:khujandi-cheikho-1908 pp62-69}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "القياس الزاوي والأرصاد السابقة", en: "Earlier angular measurement and observations", ur: "سابق زاویہ پیمائی اور ارصاد" }
+    note: "Arabic author compares earlier determinations attributed to Indians/Ptolemy;not claim they used same monumental aperture building."
+    sources: [source/khujandi-cheikho-1908]
+dependents:
+  - external: { ar: "آلات المراصد اللاحقة في مراغة وسمرقند", en: "Later Maragha and Samarkand observatory instruments", ur: "بعد کے مراغہ و سمرقند کے رصدگاہی آلات" }
+    note: "Model relationship attributed to Van Brummelen,not all construction stages independently verified."
+    sources: [source/van-brummelen-khujandi-bea]
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics]
+  changed:
+    ar: "جمع إنشاء المبنى وإسقاط الضوء والتدريج والحساب في برنامج رصد {cite:van-brummelen-khujandi-bea sextant}."
+    en: "Joined building construction,light projection,graduation and calculation in one observing programme {cite:van-brummelen-khujandi-bea sextant}."
+    ur: "عمارت،عکس نور،درجہ بندی اور حساب کو ایک رصدی پروگرام میں جمع کیا {cite:van-brummelen-khujandi-bea sextant}۔"
+  history:
+    ar: "مثال على الفرق بين قراءة صغيرة وخطأ منهجي في الجهاز {cite:khujandi-mactutor settlement}."
+    en: "A case in the difference between fine resolution and systematic instrumental error {cite:khujandi-mactutor settlement}."
+    ur: "باریک قراءت و آلے کی منظم خطا کے فرق کی مثال {cite:khujandi-mactutor settlement}۔"
+  significance: 3
+  why: "Documented monumental solar instrument with author text,variant results and contemporary methodological criticism."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "شاهد نصي ودراسة تاريخ القياس، لا أصل متحفي فُحص هنا.", en: "Textual witness and history-of-measurement study,no original artifact inspected here.", ur: "متنی شہادت و تاریخ پیمائش کا مطالعہ،یہاں اصل نوادر کا معائنہ نہیں۔" }
+  descendants: { ar: "لا نسب مثبت إلى كل سدس ملاحي حديث.", en: "No established ancestry of every modern navigation sextant.", ur: "ہر جدید بحری سدس کا ثابت نسب نہیں۔" }
+media: { image: media/fakhri-geometry-context, diagram: media/diagram-fakhri-sextant }
+kids:
+  ar: "مثال زوايا على ورق فقط، بلا نظر إلى الشمس أو تجربة ضوئية."
+  en: "Paper angle example only,no looking at the Sun or solar experiment."
+  ur: "صرف کاغذی زاویوں کی مثال،سورج دیکھنا یا شمسی تجربہ نہیں۔"
+sources: [source/van-brummelen-khujandi-bea, source/khujandi-cheikho-1908, source/khujandi-mactutor, source/commons-trigonometry-triangle]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b68", source: "Actual BEA/MacTutor,visually read1908 pp60–69 and inspected modern PD triangle;modern idealized geometry independently derived,not historical calibration." }
