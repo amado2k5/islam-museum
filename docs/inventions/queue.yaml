@@ -6022,3 +6022,53 @@ candidates:
     records: ["invention/ibn-muadh-twilight-height", "person/ibn-muadh-al-jayyani", "work/ibn-muadh-twilight"]
     lead_sources: ["source/calvo-ibn-muadh-bea", "source/tdv-ibn-muadh-dizer", "source/smith-muadh-twilight-1992"]
     flags: ["invention78", "attribution-corrected-from-ibn-al-haytham", "conditional-model-not-modern-atmosphere-top", "historical-mile-not-silent-si-conversion", "parallel-ray-example-not-full-finite-sun-reconstruction", "no-prayer-prescription"]
+  - id: mahani-successive-quotient-ratios
+    label: "Al-Mahani's successive-quotient ratio formulation"
+    state: "[x]"
+    batch: 3
+    domain: mathematics
+    era: ninth-century
+    from: scoped-research
+    records: ["invention/mahani-successive-quotient-ratios", "person/al-mahani", "work/mahani-risala-fi-nisba"]
+    lead_sources: ["source/dold-samplonius-mahani-dsb", "source/tdv-mahani-fazlioglu", "source/nayrizi-mactutor"]
+    flags: ["invention81", "inherited-euclidean-process-not-first-algorithm", "complete-sequences-not-finite-prefixes", "missing-equivalence-proof-retained", "unresolved-witness-identities", "modern-notation-and-image-not-manuscript"]
+  - id: haytham-factorial-remainders
+    label: "Ibn al-Haytham's factorial construction for simultaneous remainders"
+    state: "[x]"
+    batch: 3
+    domain: mathematics
+    era: tenth-eleventh-century
+    from: scoped-research
+    records: ["invention/haytham-factorial-remainders", "person/ibn-al-haytham"]
+    lead_sources: ["source/haytham-mactutor", "source/weisstein-wilson-theorem"]
+    flags: ["invention82", "specific-construction-not-first-chinese-remainder-theorem", "721-not-least-positive", "modern301-plus420j-not-original-method2", "no-original-opuscula-or-full-rashed-reading", "clock-modulo12-not-prime7"]
+  - id: quhi-perfect-compass-identity-hold
+    label: "Al-Quhi's perfect compass — held for individual identity evidence"
+    state: "[ ]"
+    batch: 3
+    domain: mathematics
+    era: tenth-century
+    from: scoped-research
+    records: ["person/abu-sahl-al-quhi"]
+    lead_sources: ["https://mathshistory.st-andrews.ac.uk/Biographies/Al-Quhi/", "https://islamansiklopedisi.org.tr/kuhi", "https://mathshistory.st-andrews.ac.uk/DSB/Al-Quhi.pdf"]
+    flags: ["held-individual-muslim-basis-unverified", "D-124", "court-world-label-not-personal-proof", "lead-only-mirror-not-promoted", "gallica-security-check-not-bypassed", "no-invention-count"]
+  - id: abu-kamil-integer-enumeration
+    label: "Abu Kamil's systematic enumeration of integer solutions"
+    state: "[x]"
+    batch: 3
+    domain: mathematics
+    era: ninth-tenth-century
+    from: scoped-research
+    records: ["invention/abu-kamil-integer-enumeration", "person/abu-kamil-shuja-ibn-aslam", "work/abu-kamil-taraif"]
+    lead_sources: ["source/tdv-abu-kamil", "source/abu-kamil-mactutor", "source/proofwiki-abu-kamil-birds"]
+    flags: ["invention83", "distinct-from-irrational-coefficients", "older-greek-indian-problems-retained", "modern-positive2678-nonnegative3727-not-manuscript-adjudication", "taraif-not-automatic-book-of-birds-merge", "verbal-unknowns-not-modern-symbols", "witness-count-tension-retained"]
+  - id: farisi-amicable-factorization
+    label: "Al-Farisi's factorization-based amicability proof approach"
+    state: "[x]"
+    batch: 3
+    domain: mathematics
+    era: thirteenth-fourteenth-century
+    from: scoped-research
+    records: ["invention/farisi-amicable-factorization", "person/kamal-al-din-al-farisi", "work/farisi-tadhkirat-al-ahbab"]
+    lead_sources: ["source/farisi-mactutor", "source/tdv-farisi-bozhuyuk", "source/weisstein-amicable-pair"]
+    flags: ["invention84", "distinct-from-rainbow", "inherited-thabit-rule-not-first-amicable-numbers", "unique-factorization-proof-debate-retained", "large-pair-priority-not-awarded", "both-directions-and-prime-conditions", "modern-rods-not-medieval-apparatus", "tdv-name-date-discrepancy-attributed"]

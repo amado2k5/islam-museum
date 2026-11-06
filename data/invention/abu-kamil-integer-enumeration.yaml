@@ -1,0 +1,63 @@
+id: invention/abu-kamil-integer-enumeration
+class: invention
+label: { ar: "تعداد أبي كامل المنهجي للأجوبة الصحيحة", en: "Abu Kamil's systematic integer-solution enumeration", ur: "صحیح عددی جوابوں کی ابو کامل کی منظم گنتی" }
+names:
+  - { kind: alternate, lang: en, value: "Multiple integer solutions of underdetermined linear systems in the Taraif" }
+summary: { ar: "تقصي أجوبة صحيحة متعددة لنظام عددي غير محدد، لا أول مسألة طيور أو كل معادلة ديوفانتية {cite:tdv-abu-kamil work2}.", en: "Systematic multiple-integer solutions of underdetermined counting systems, not the first bird puzzle or every Diophantine equation {cite:tdv-abu-kamil work2}.", ur: "غیر معین گنتی کے نظام کے متعدد صحیح جوابوں کا منظم مطالعہ، پہلا پرندوں کا مسئلہ یا ہر دیوفانتی مساوات نہیں {cite:tdv-abu-kamil work2}۔" }
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [egypt-nile]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "08XX/09XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Late9th/early10th-century lifetime horizon, not exact invention/composition date, workshop or invented Hijri."
+    sources: [source/abu-kamil-mactutor, source/tdv-abu-kamil]
+  status_today: living
+origin:
+  place: place/misr
+  context: { ar: "سياق المؤلف المصري، لا سوق أو ورشة موثقة لهذه المسألة {cite:abu-kamil-mactutor biography}.", en: "Author's Egyptian setting, not a verified market/workshop for the puzzle {cite:abu-kamil-mactutor biography}.", ur: "مصنف کا مصری ماحول، مسئلے کا ثابت بازار یا کارگاہ نہیں {cite:abu-kamil-mactutor biography}۔" }
+makers:
+  - { person: person/abu-kamil-shuja-ibn-aslam, role: improver, note: "Systematic integer-solution treatment, not all algebra/first bird puzzle or a solved proof of direct Indian dependence.", sources: [source/tdv-abu-kamil, source/abu-kamil-mactutor] }
+attribution:
+  status: improvement
+  claim: { ar: "بحث عن مجموعة أجوبة صحيحة، لا الاكتفاء بمثال واحد.", en: "Sought collections of integer answers rather than stopping at one example.", ur: "ایک مثال پر رکنے کے بجائے صحیح عددی جوابوں کی جماعت کا مطالعہ۔" }
+  basis: { ar: "آيدن يصف نظام معادلتين بثلاثة إلى خمسة مجاهيل وطريقة جبرية منظمة، مع سوابق وخلاف في الاعتماد {cite:tdv-abu-kamil work2}.", en: "Aydin describes two equations in3–5 unknowns and systematic algebra, retaining precedents and disputed dependence {cite:tdv-abu-kamil work2}.", ur: "آئدن3–5 نامعلوم کے دو مساوات اور منظم الجبرا بتاتے، پیش رو و انحصار کا اختلاف رکھتے ہیں {cite:tdv-abu-kamil work2}۔" }
+  perspectives:
+    - tradition: sunni
+      id: inherited-individual-frame
+      summary: { ar: "الأساس الفردي المسلم والإطار السني المنفصل محفوظان، لا استنتاج من اسم أو بلد {cite:abu-kamil-mactutor summary}.", en: "Documented individual Muslim basis and separate Sunni frame retained, not inferred from name/country {cite:abu-kamil-mactutor summary}.", ur: "فردی مسلم بنیاد و الگ سنی فریم محفوظ، نام یا ملک سے اخذ نہیں {cite:abu-kamil-mactutor summary}۔" }
+      sources: [source/abu-kamil-mactutor, source/tdv-abu-kamil]
+    - tradition: academic
+      id: inherited-problems-method-boundaries
+      summary: { ar: "سوابق ديوفانتية وهندية، وتشابه مسائل لا يثبت وحده انتقال طريقة؛ دعوى سيسيانو منقولة عبر ماكتوتر {cite:tdv-abu-kamil work2} {cite:abu-kamil-mactutor rare-things}.", en: "Diophantine/Indian precedents; similar problems alone do not prove method transmission. Sesiano's argument is reported through MacTutor {cite:tdv-abu-kamil work2} {cite:abu-kamil-mactutor rare-things}.", ur: "دیوفانتی و ہندی پیش رو؛ مسئلے کی مشابہت اکیلے طریقے کا انتقال ثابت نہیں۔ سیسیانو کا استدلال میک ٹیوٹر سے منقول {cite:tdv-abu-kamil work2} {cite:abu-kamil-mactutor rare-things}۔" }
+      sources: [source/tdv-abu-kamil, source/abu-kamil-mactutor]
+precursors:
+  - external: { ar: "مسائل ديوفانتية وهندية وعددية شائعة", en: "Diophantine, Indian and circulating numerical problems", ur: "دیوفانتی، ہندی اور رائج عددی مسائل" }
+    note: "Problem parallels, not automatic proof of direct methodological dependence."
+    sources: [source/tdv-abu-kamil]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics]
+  changed: { ar: "تمييز وجود جواب من تقصي جميع الأجوبة الصحيحة الممكنة {cite:tdv-abu-kamil work2}.", en: "Distinguished finding an answer from investigating all admissible integer answers {cite:tdv-abu-kamil work2}.", ur: "ایک جواب ملنے اور سب قابل قبول صحیح جوابوں کی تحقیق میں فرق {cite:tdv-abu-kamil work2}۔" }
+  history: { ar: "موضوع مستقل في الحساب؛ تقارير النسخ والترجمات منسوبة لا تحقيق جديد {cite:tdv-abu-kamil work2}.", en: "Distinct arithmetic study; witness/translation reports attributed, not newly collated {cite:tdv-abu-kamil work2}.", ur: "حساب کا الگ مطالعہ؛ نسخوں و ترجموں کی خبریں منسوب، نئی تحقیق نہیں {cite:tdv-abu-kamil work2}۔" }
+  significance: 3
+  why: "Distinct all-integer enumeration contribution, older problem traditions retained. Modern positive/nonnegative counts explain constraints without adjudicating historical manuscript variants."
+described_in: [work/abu-kamil-taraif]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "عد صحيح واكتمال وقيود، لا دمج الأعداد التاريخية المختلفة في رقم متيقن.", en: "Integer counts, completeness and constraints, not collapsing historical variants into one certified number.", ur: "صحیح شمار، تکمیل و قیدیں، مختلف تاریخی گنتیاں ایک یقینی عدد میں ضم نہیں۔" }
+  descendants: { ar: "لا نسب مثبت إلى كل برمجيات التحسين الحديثة.", en: "No demonstrated direct ancestry of all modern optimization software.", ur: "ہر جدید اصلاحی پروگرام کا ثابت براہ راست نسب نہیں۔" }
+media: { image: media/abu-kamil-pigeon-context, diagram: media/diagram-abu-kamil-integers }
+kids: { ar: "جواب صحيح ليس كل الأجوبة، والسماح بصفر يغير المسألة.", en: "One valid answer is not every answer; allowing zero changes the problem.", ur: "ایک درست جواب سب جواب نہیں؛ صفر کی اجازت مسئلہ بدلتی ہے۔" }
+sources: [source/tdv-abu-kamil, source/abu-kamil-mactutor, source/proofwiki-abu-kamil-birds, source/commons-pigeon-portrait-dori]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b83", source: "Actual MacTutor/TDV and modern ProofWiki note; inspected Commons current image/rights. Independent2678positive/3727nonnegative counts for explicitly specified model, not recovered original tables or resolution of variants. No original/Saidan1986/full Sesiano reading." }

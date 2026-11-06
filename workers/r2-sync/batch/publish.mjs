@@ -7,13 +7,14 @@
 //
 // The manifest is written after every batch, so a failed run resumes from the
 // batch that failed on the next run. Applying an operation twice is harmless.
-import { readFileSync, readdirSync, statSync, writeFileSync, mkdtempSync, existsSync, rmSync } from "node:fs";
+import { readFileSync, readdirSync, statSync, writeFileSync, mkdtempSync, existsSync, rmSync, appendFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { join, relative, sep, resolve as resolvePath } from "node:path";
 import { tmpdir } from "node:os";
 import { packArchives } from "./pack.mjs";
+import { shellPaths } from "../../../tools/deploy/shell-paths.mjs";
 import { request as httpsRequest } from "node:https";
 import { request as httpRequest } from "node:http";
 
@@ -101,15 +102,15 @@ function desiredFiles() {
   return files;
 }
 
-// Previous state: key -> sha. Returns null when no manifest exists yet.
-function readPrevious() {
+// The manifest of the last publish: { files: key -> sha, commit }. Returns null when no manifest exists yet.
+function readManifest() {
   try {
     const out = execFileSync("aws", ["s3", "cp", `s3://${bucket}/${MANIFEST_KEY}`, "-", "--endpoint-url", endpoint, "--only-show-errors"], {
       encoding: "utf8",
       maxBuffer: 256 * 1024 * 1024,
       stdio: ["ignore", "pipe", "pipe"],
     });
-    return JSON.parse(out).files;
+    return JSON.parse(out);
   } catch (err) {
     if (/NoSuchKey|404|Not Found/.test(String(err.stderr))) return null;
     throw err;
@@ -175,6 +176,116 @@ export function diff(desired, previous) {
     if (!desired.has(key)) ops.push({ op: "DELETE", dst: key });
   }
   return ops;
+}
+
+// ---- Churn report -------------------------------------------------------------------------------------------------
+// A publish sends only files whose bytes changed, so its size says how much of the site changed. When it sends most of
+// the HTML pages although few sources changed, a file baked into every page changed (the stylesheet, a layout, a script,
+// the footer). The report names the groups, estimates the cost, and warns, so the cause is seen in the job summary the day
+// it happens (docs/engineering/16-deploy-churn-proposal.md).
+const LANGS = ["ar", "en", "ur"];
+
+/** The group of an R2 key in the report: "ar pages", "en other", "pagefind-ar/index", "api", "media", "(root)". */
+export function churnGroup(key) {
+  const parts = key.split("/");
+  if (parts.length === 1) return "(root)";
+  if (LANGS.includes(parts[0])) return key.endsWith("/index.html") && parts.length > 2 ? `${parts[0]} pages` : `${parts[0]} other`;
+  if (parts[0].startsWith("pagefind-")) return parts.length > 2 ? `${parts[0]}/${parts[1]}` : `${parts[0]}/top`;
+  return parts[0];
+}
+
+/** Per group: files in the build, files to copy, files to delete. Sorted by copies, then deletes. */
+export function churnReport(ops, desired) {
+  const groups = new Map();
+  const row = (name) => {
+    if (!groups.has(name)) groups.set(name, { group: name, files: 0, copies: 0, deletes: 0 });
+    return groups.get(name);
+  };
+  for (const key of desired.keys()) row(churnGroup(key)).files += 1;
+  for (const op of ops) {
+    if (op.op === "COPY") row(churnGroup(op.dst)).copies += 1;
+    else row(churnGroup(op.dst)).deletes += 1;
+  }
+  const rows = [...groups.values()].sort((a, b) => b.copies - a.copies || b.deletes - a.deletes || a.group.localeCompare(b.group));
+  const pages = rows.filter((r) => r.group.endsWith(" pages"));
+  const pageFiles = pages.reduce((n, r) => n + r.files, 0);
+  const pageCopies = pages.reduce((n, r) => n + r.copies, 0);
+  return { rows, pageFiles, pageCopies, pageShare: pageFiles ? pageCopies / pageFiles : 0 };
+}
+
+// R2 Class A price (developers.cloudflare.com/r2/pricing, checked 6 Nov 2026): $4.50 per million. One operation per file
+// written, plus a few per archive staged (the staging upload, its parts) and one for the manifest.
+export const CLASS_A_PER_MILLION = 4.5;
+export function estimateCost(copies, archiveSize = 250) {
+  const archives = Math.ceil(copies / archiveSize);
+  const classA = copies + archives * 3 + 1;
+  return { classA, dollars: (classA / 1e6) * CLASS_A_PER_MILLION };
+}
+
+/** A page share above this is "most of the site": a shell file almost certainly changed. */
+export const SHELL_WARN_SHARE = 0.2;
+
+const gitRun = (cmd, args) => execFileSync(cmd, args, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
+
+/** The files under `paths` that differ between two commits, or null when they cannot be compared (no history for `prev`). */
+export function filesChanged(prev, cur, paths, run = gitRun) {
+  if (!prev || !cur) return null;
+  if (prev === cur) return [];
+  try {
+    // The deploy checks out one commit; fetch the previously published one (a depth-1 fetch is enough to diff two trees).
+    try { run("git", ["fetch", "--quiet", "--depth=1", "origin", prev]); } catch { /* already present, or unreachable: the diff decides */ }
+    const out = run("git", ["diff", "--name-only", prev, cur, "--", ...paths]);
+    return out.split("\n").map((l) => l.trim()).filter(Boolean);
+  } catch {
+    return null;
+  }
+}
+
+/** The shell files (tools/deploy/shell-paths.list) that differ between two commits. */
+export const shellFilesChanged = (prev, cur, run = gitRun, paths = shellPaths()) => filesChanged(prev, cur, paths, run);
+
+/** The sources the pages are built from. A publish that sends far more than these explain points at the shell. */
+export const SOURCE_PATHS = ["data", "content"];
+
+export function formatChurn(report, { copies, deletes, total, prevCommit, curCommit, shellChanged, sourceCount = null }) {
+  const cost = estimateCost(copies);
+  const pct = (x) => `${(x * 100).toFixed(1)} %`;
+  const lines = [];
+  lines.push(`R2 publish: ${copies} files to copy, ${deletes} to delete, ${total} in the build (about ${cost.classA} Class A operations, about $${cost.dollars.toFixed(2)} at list price before the monthly free million).`);
+  lines.push("");
+  lines.push("| Group | Files in build | Copied | Deleted |");
+  lines.push("|---|---:|---:|---:|");
+  for (const r of report.rows) if (r.copies || r.deletes) lines.push(`| ${r.group} | ${r.files} | ${r.copies} | ${r.deletes} |`);
+  lines.push("");
+  lines.push(`HTML pages re-uploaded: ${report.pageCopies} of ${report.pageFiles} (${pct(report.pageShare)}).`);
+  if (sourceCount !== null) lines.push(`Source files (data and content) changed since the last publish: ${sourceCount}.`);
+  let warning = null;
+  if (report.pageShare > SHELL_WARN_SHARE && report.pageFiles > 0) {
+    const named = shellChanged === null
+      ? "The shell files that changed could not be listed (no history for the previously published commit)."
+      : shellChanged.length
+        ? `Shell files changed since the last publish (${prevCommit?.slice(0, 9)}..${curCommit?.slice(0, 9)}): ${shellChanged.join(", ")}.`
+        : "No listed shell file changed; look at what else is baked into every page (tools/deploy/shell-paths.list).";
+    warning = `${pct(report.pageShare)} of the HTML pages changed. That usually means a file baked into every page changed, not the content. ${named} Compare the two builds with tools/deploy/compare-builds.py.`;
+    lines.push("");
+    lines.push(`**Warning:** ${warning}`);
+  }
+  return { text: lines.join("\n"), warning };
+}
+
+// Prints the churn report and appends it to the GitHub job summary when there is one.
+function reportChurn(ops, desired, { copies, deletes, prevCommit }) {
+  const curCommit = process.env.GITHUB_SHA ?? null;
+  const report = churnReport(ops, desired);
+  const shellChanged = report.pageShare > SHELL_WARN_SHARE ? shellFilesChanged(prevCommit, curCommit) : [];
+  const sources = filesChanged(prevCommit, curCommit, SOURCE_PATHS);
+  const { text, warning } = formatChurn(report, { copies, deletes, total: desired.size, prevCommit, curCommit, shellChanged, sourceCount: sources ? sources.length : null });
+  for (const line of text.split("\n")) log(line);
+  if (warning) console.log(`::warning title=Most pages changed::${warning.replace(/\r?\n/g, " ")}`);
+  const summary = process.env.GITHUB_STEP_SUMMARY;
+  if (summary) {
+    try { appendFileSync(summary, `\n### R2 publish churn\n\n${text}\n`); } catch { /* the summary is a convenience */ }
+  }
 }
 
 // Reads the bytes of a batch's COPY operations, just before the batch is packed.
@@ -338,7 +449,8 @@ async function main() {
   const desired = desiredFiles();
   // The manifest is the record of what is published. Without one, a publish would
   // upload everything, so that case needs an explicit one-time --seed run.
-  const stored = dryRun ? {} : readPrevious();
+  const manifest = dryRun ? { files: {}, commit: null } : readManifest();
+  const stored = manifest ? manifest.files : null;
   const seeding = process.argv.includes("--seed");
   if (!dryRun && stored === null && !seeding) {
     throw new Error("no manifest in the bucket: run once with --seed to record the files already published");
@@ -355,6 +467,7 @@ async function main() {
   }
   const deletes = ops.length - copies;
   log(`${desired.size} files in dist, ${Object.keys(previous).length} in last publish: ${copies} to copy, ${deletes} to delete`);
+  reportChurn(ops, desired, { copies, deletes, prevCommit: manifest?.commit ?? null });
 
   if (dryRun) return;
   // Archives left in staging by a failed run are not touched here: nothing is deleted

@@ -51,6 +51,25 @@ Key detail: HTML is also publishable via R2 (the `r2-html-test` workflow
 exists), but the primary static host remains CF Pages; R2 carries the
 content-addressed pagefind chunks and `api/v1` JSON.
 
+### Keeping a deploy small (since 6 November 2026)
+
+A deploy uploads every file whose bytes changed. Until 6 November that was 174,000 to 206,000 files a day
+(53 to 66 minutes, about 19 GB), because things that change often sat inside every page. Now:
+
+- The header, theme, menu and accessibility script is the plain file `/shell/shell.js`, and the entity page script
+  `/shell/entity.js` (`site/public/shell/`, loaded with `defer`). Both are cached for five minutes, then revalidated in the
+  background (`site/public/_headers`), not as immutable.
+- The footer version is filled in by `shell.js` from `api/v1/meta/deploy.json`, which the deploy writes from the top block
+  of `CANARY.md`. The pages carry only the changelog link.
+- The accessibility EPUBs carry the day their source last changed, not the build clock.
+- `publish.mjs` prints an "R2 publish churn" table in the job summary and warns when more than a fifth of the HTML
+  pages are re-uploaded, naming the shell files that changed (`tools/deploy/shell-paths.list`).
+- `validate.yml` labels a pull request `rewrites-all-pages` when it touches a shell file.
+
+The compiled stylesheet is still inlined into every page, so a stylesheet edit still rewrites the whole site: linking
+it was measured to fail the Lighthouse gate. The measurements, the alternatives considered and what was left for later
+(including the fix for this) are in [`16-deploy-churn-proposal.md`](16-deploy-churn-proposal.md).
+
 ## 3. Secrets and variables (GitHub repo settings)
 
 | Name | Kind | Purpose |

@@ -33,3 +33,9 @@ MacTutor also describes connections between polygonal numbers and binomial coeff
 ## Witnesses and reading
 
 The actual readings here are MacTutor's biography and Russell's browser article body, not the Arabic originals, manuscripts or every study in their bibliographies. Russell warns of errors in the Hyderabad Tanqih edition. A copy date is not a birth or discovery date, and no surviving physical apparatus has been independently inspected {cite:russell-faresi-iranica bibliography-and-dating}.
+
+## Factorization and amicability
+
+MacTutor describes the [[work/farisi-tadhkirat-al-ahbab|Memorandum for friends]] and its [[invention/farisi-amicable-factorization|factorization/combinatorial proof approach]] to Thabit ibn Qurra's amicable-number rule, with220/284 and17296/18416. It attributes the unique-factorization interpretation to Rashed and notes disagreement about proof completeness. Neither absolute proof priority nor first discovery of the larger pair is awarded {cite:farisi-mactutor number-theory}.
+
+Bozhuyuk's TDV entry differs from the earlier name and approximate dates: Hasan ibn Ali ibn Hasan,1267 and1319, from a reported student's colophon. The alternative is visible without erasing the earlier fields' attribution to MacTutor/Russell or claiming original collation. TDV identifies the treatise and a1982edition not read here {cite:tdv-farisi-bozhuyuk opening-and-work5}.

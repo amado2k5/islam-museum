@@ -28,6 +28,10 @@ faith:
     note: "Individual Muslim basis: O'Connor/Robertson's authored University of St Andrews biography explicitly names Abu Kamil as an Islamic mathematician; not inferred from name or Egyptian setting. Sunni separately is the default frame of docs/scope.md for documented Abbasid Egyptian milieu; no contrary attestation in read MacTutor/Aydin TDV, no invented personal madhhab certificate."
     sources: [source/abu-kamil-mactutor, source/tdv-abu-kamil]
 inventions:
+  - invention: invention/abu-kamil-integer-enumeration
+    role: improver
+    note: "Systematic multiple-integer solutions in the Taraif, distinct from coefficient extension; no first-in-world bird-puzzle or resolved original-count claim."
+    sources: [source/tdv-abu-kamil, source/abu-kamil-mactutor]
   - invention: invention/abu-kamil-irrational-coefficients
     role: improver
     note: "Irrational coefficients as well as solutions, not invention of algebra or every irrational magnitude."
@@ -46,6 +50,7 @@ provenance:
   run: ocr-harvest-2026-11-04
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b56", source: "Append defined identity/default-frame basis, one coefficient-extension tie and trilingual biography extension from actual MacTutor/Aydin TDV/selected Dosay. Preserve every original maker field, date, summary, relations, source membership and attribution; all earlier prose body bytes retained." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b83", source: "Add distinct integer-enumeration tie and trilingual biography link from actual TDV/MacTutor. Entire prior data/provenance/identity/status/coefficient tie and full prose prefixes preserved; no original/Saidan1986/full Sesiano reading." }
 status:
   review: published
   completeness: 2

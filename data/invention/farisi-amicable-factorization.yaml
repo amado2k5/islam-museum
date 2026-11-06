@@ -1,0 +1,63 @@
+id: invention/farisi-amicable-factorization
+class: invention
+label: { ar: "منهج الفارسي بالعوامل لإثبات التحاب", en: "Al-Farisi's factorization-based amicability method", ur: "تحاب کے لیے فارسی کا عواملی طریقہ" }
+names:
+  - { kind: alternate, lang: en, value: "Factorization and combinatorial divisor sums in al-Farisi's proof of Thabit's rule" }
+summary: { ar: "منهج إثبات بالعوامل واختياراتها في قاعدة أقدم، لا أول أعداد متحابة أو حكم بأول برهان كامل لوحدانية التحليل {cite:farisi-mactutor number-theory}.", en: "Factorization/combinatorial proof approach to an inherited rule, not first amicable numbers or a verdict of first complete unique-factorization proof {cite:farisi-mactutor number-theory}.", ur: "پرانے قاعدے کا عواملی و ترکیبی اثبات، پہلے متحاب اعداد یا اولین مکمل منفرد تحلیل کے ثبوت کا فیصلہ نہیں {cite:farisi-mactutor number-theory}۔" }
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [persia-central-asia]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "12XX/13XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Late13th/early14th-century lifetime horizon, not exact composition/invention date or manufactured Hijri."
+    sources: [source/farisi-mactutor, source/tdv-farisi-bozhuyuk]
+  status_today: living
+origin:
+  place: place/tabriz
+  context: { ar: "سياق المؤلف، لا مكان كتابة الرسالة مثبتاً {cite:farisi-mactutor biography}.", en: "Author's setting, not a proved composition place {cite:farisi-mactutor biography}.", ur: "مصنف کا ماحول، رسالے کا ثابت مقام تحریر نہیں {cite:farisi-mactutor biography}۔" }
+makers:
+  - { person: person/kamal-al-din-al-farisi, role: improver, note: "New factorization/combinatorial proof approach to inherited Thabit sufficient rule, not first amicable pair.", sources: [source/farisi-mactutor] }
+attribution:
+  status: improvement
+  claim: { ar: "تغيير منهج البرهان باستعمال العوامل واختياراتها.", en: "Changed proof approach through factorization and combinatorial choices.", ur: "عوامل اور ترکیبی انتخاب سے طریقۂ اثبات کی تبدیلی۔" }
+  basis: { ar: "ماكتوتر تصف منهجاً جديداً وتنسب قراءة وحدانية التحليل إلى راشد وتذكر الخلاف {cite:farisi-mactutor number-theory}.", en: "MacTutor describes a new approach, attributes the uniqueness interpretation to Rashed and notes disagreement {cite:farisi-mactutor number-theory}.", ur: "میک ٹیوٹر نیا طریقہ بتاتا، وحدانیت کی تعبیر راشد کو منسوب اور اختلاف محفوظ کرتا ہے {cite:farisi-mactutor number-theory}۔" }
+  perspectives:
+    - tradition: sunni
+      id: inherited-individual-frame
+      summary: { ar: "الأساس الفردي المسلم والإطار السني المنفصل محفوظان، لا استنتاج من البلد أو المعلم {cite:farisi-mactutor summary}.", en: "Documented individual Muslim basis and separate Sunni frame retained, not inferred from country/teacher {cite:farisi-mactutor summary}.", ur: "فردی مسلم بنیاد اور الگ سنی فریم محفوظ، ملک یا استاد سے اخذ نہیں {cite:farisi-mactutor summary}۔" }
+      sources: [source/farisi-mactutor]
+    - tradition: academic
+      id: proof-and-priority-boundaries
+      summary: { ar: "القاعدة لثابت؛ تفسير برهان وحدانية التحليل مختلف فيه، وأولوية اكتشاف الزوج الكبير ليست حكماً للفارسي {cite:farisi-mactutor number-theory}.", en: "Rule belongs to Thabit; unique-factorization proof interpretation is disputed, and large-pair discovery priority is not awarded to al-Farisi {cite:farisi-mactutor number-theory}.", ur: "قاعدہ ثابت کا؛ منفرد تحلیل کے اثبات کی تعبیر مختلف فیہ، بڑے جوڑے کی دریافت کی اولیت فارسی کو نہیں دی جاتی {cite:farisi-mactutor number-theory}۔" }
+      sources: [source/farisi-mactutor]
+precursors:
+  - external: { ar: "قاعدة ثابت بن قرة للأعداد المتحابة", en: "Thabit ibn Qurra's amicable-number rule", ur: "ثابت بن قرہ کا متحاب اعداد کا قاعدہ" }
+    note: "Inherited sufficient rule, not attributed to Farisi; Thabit not counted as a Muslim maker by this record."
+    sources: [source/farisi-mactutor]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics]
+  changed: { ar: "من مثال عددي إلى تنظيم القواسم بالعوامل واختيارات الأسس {cite:farisi-mactutor factorization}.", en: "From numerical examples toward organized divisors through factors/exponent choices {cite:farisi-mactutor factorization}.", ur: "عددی مثال سے عوامل اور قوت کے انتخاب کے ذریعے منظم مقسوم علیہ تک {cite:farisi-mactutor factorization}۔" }
+  history: { ar: "برهان لقاعدة أقدم، لا نسب مثبت إلى كل استعمال حديث للتحليل {cite:farisi-mactutor number-theory}.", en: "Proof of an older rule, not demonstrated ancestry of every modern factorization use {cite:farisi-mactutor number-theory}.", ur: "قدیم قاعدے کا اثبات، تحلیل کے ہر جدید استعمال کا ثابت نسب نہیں {cite:farisi-mactutor number-theory}۔" }
+  significance: 3
+  why: "Distinct factorization/combinatorial approach; prior rule and unresolved uniqueness/large-pair priority retained. Modern proper-divisor/sigma proof illustrates without claiming original text reconstruction."
+described_in: [work/farisi-tadhkirat-al-ahbab]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "قواسم ومجاميع واتجاهان وشروط أولية صريحة.", en: "Divisors, sums, two directions and explicit prime conditions.", ur: "مقسوم علیہ، مجموعے، دونوں سمتیں اور صریح اولی شرطیں۔" }
+  descendants: { ar: "لا دعوى أن كل زوج ينتج من هذه القاعدة.", en: "No claim every pair is generated by this rule.", ur: "ہر جوڑے کے اس قاعدے سے بننے کا دعویٰ نہیں۔" }
+media: { image: media/farisi-amicable-rods-context, diagram: media/diagram-farisi-amicable }
+kids: { ar: "اجمع القواسم دون العدد نفسه ثم افحص العودة.", en: "Sum divisors excluding self, then check the return.", ur: "خود عدد کے بغیر مقسوم علیہ جمع کریں، پھر واپسی جانچیں۔" }
+sources: [source/farisi-mactutor, source/tdv-farisi-bozhuyuk, source/weisstein-amicable-pair, source/commons-amicable-rods-hyacinth]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b84", source: "Actual MacTutor/TDV/selected MathWorld and current Commons image/rights. Modern independent factor-product/divisor checks, not original Arabic proof. No Rashed1982edition/full Hogendijk article read; normal publisher browser CAPTCHA untouched." }

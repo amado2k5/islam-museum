@@ -1,0 +1,43 @@
+# Shell files: the files baked into (almost) every page of the site. Editing one rewrites most or all of the ~164,000
+# HTML pages, so the next R2 publish uploads them all (about 19 GB; docs/engineering/16-deploy-churn-proposal.md).
+#
+# One git pathspec per line; blank lines and lines starting with # are ignored. Read by tools/deploy/shell-paths.mjs, which
+# the deploy's churn report (workers/r2-sync/batch/publish.mjs) and the pull-request check (tools/deploy/shell-impact.mjs,
+# validate.yml) both use. Keep the list to files whose edit changes the HTML of all or most pages:
+#
+#   - NOT here: site/public/shell/ (the shell scripts: plain files, one upload each), and the per-page-type sheets
+#     (kids.css, edu.css: only those pages change).
+#   - Here although it looks like one file: site/src/styles, because Astro inlines the compiled stylesheet into every page
+#     (linking it was measured to cost 200 to 350 ms of first paint and to fail the Lighthouse gate; docs/engineering/16-deploy-churn-proposal.md).
+#   - The i18n files are handled by tools/deploy/shell-impact.mjs, which compares only the blocks the shell reads.
+
+# The two layouts, the stylesheet, and the components they always render
+site/src/styles
+site/src/layouts/BaseLayout.astro
+site/src/layouts/EntityLayout.astro
+site/src/components/A11yPrefs.astro
+site/src/components/Logo.astro
+site/src/components/SocialLinks.astro
+site/src/components/PageHeader.astro
+site/src/components/ExploreBar.astro
+site/src/components/LevelSwitcher.astro
+site/src/components/DepthDial.svelte
+site/src/components/TimeStrip.astro
+site/src/components/MiniMap.astro
+site/src/components/Extras.astro
+
+# The libraries they call to build the head, the menus and the entity body
+site/src/lib/i18n.ts
+site/src/lib/nav.ts
+site/src/lib/links.ts
+site/src/lib/browse.ts
+site/src/lib/meta.ts
+site/src/lib/graph.ts
+site/src/lib/entity.ts
+site/src/lib/markdown.ts
+site/src/lib/dates.ts
+
+# The build itself: a framework upgrade or a config change can change every page
+site/astro.config.mjs
+site/package.json
+scripts/build-graph.ts
