@@ -4,7 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; English translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "Added boat from107–109/critical256 and Freer1315 image; all earlier text and attribution retained" }] }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; English translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "Added boat from107–109/critical256 and Freer1315 image; all earlier text and attribution retained" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "AddedIV.1 fountain from157–158/263; all earlier body text and attribution retained" }] }
 ---
 ## Overview
 Badi al-Zaman Abu al-Izz Ismail ibn al-Razzaz al-Jazari was an engineer and author on mechanical devices. TDV calls him an Islamic scholar and says little is known of his life beyond his book's introduction {cite:tdv-cezeri pp. 505–506}. It records service to the Artuqids at [[place/amid|Amid]] in 1181–1206 and a book commissioned by Nasir al-Din Mahmud, completed in 1205 according to the entry {cite:tdv-cezeri pp. 505–506}. Service dates are not converted into birth and death dates.
@@ -41,7 +41,12 @@ The first clock chapter describes the [[invention/jazari-castle-clock|castle clo
 
 CategoryII, chapter4 describes a [[invention/jazari-musical-boat|musical display boat]] using carried water in bursts for hand movements and whistling, collecting it in the hull for return the following day {cite:jazari-hill-1974 pp.107–109}. The harpist's fingers do not touch the strings, and the drawing legend's peg count conflicts with the earlier wording; Hill also identifies the missing sailor drive and lengthening gaps as water falls {cite:jazari-hill-1974 pp.109,256}. This is a finite assembly account, not proof of the first programmed robot or perpetual motion. Freer F1930.73 is a1315 copy credited to calligrapher Farruq ibn Abd al-Latif, not original hardware or the author's portrait {cite:freer-jazari-musical-boat catalogue}.
 
+## Fountain alternation and its conditions
+
+The [[invention/jazari-alternating-fountain|two-bucket alternating fountain]], IV.1, uses a small branch to fill a timing bucket that switches supply between two tanks, alternating one vertical jet and six arcs; external water, elevation and calibration are conditions, not perpetual motion or measured precision {cite:jazari-hill-1974 pp.157–158,263}. The author's criticism of Banu Musa accounts leaves original-versus-copy confusion unresolved, while Hill distinguishes omitted bucket projections and wrongly oriented bearings from his modern interpretation {cite:jazari-hill-1974 pp.157,263}. This is a separate assembly role, not each nozzle counted as a new invention.
+
 ## References
+- FountainIV.1: actual selected Hill157–158, figures120–121 and critical263 {cite:jazari-hill-1974 pp.157–158,263}.
 - Boat: Hill107–109/critical256; [[source/freer-jazari-musical-boat|Freer F1930.73 and rights metadata]] {cite:jazari-hill-1974 pp.107–109,256} {cite:freer-jazari-musical-boat catalogue,rights}.
 - Selected Donald Hill1974 translation and castle-clock commentary {cite:jazari-hill-1974 pp.17–22,24–25,39–41,editor-notes-I.1}.
 - Official MFA-via-Google catalogue and1354 image metadata {cite:mfa-castle-clock-14533 catalogue,metadata}.

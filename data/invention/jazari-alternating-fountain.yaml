@@ -1,0 +1,62 @@
+id: invention/jazari-alternating-fountain
+class: invention
+label: { ar: "نافورة الجزري المتناوبة ذات الدلوين", en: "Al-Jazari's two-bucket alternating fountain", ur: "جزری کا دو ڈول والا باری بدلتا فوارہ" }
+names: [{ value: "Fountain of the two tipping-buckets, CategoryIV chapter1", kind: alternate, lang: en }]
+summary:
+  ar: "دلوَا توقيت يقلبان أنبوب التغذية بين خزانين، فتتناوب نفثة رأسية وست مقوسة؛ ماء خارجي وارتفاع ومعايرة لازمة، لا حركة دائمة {cite:jazari-hill-1974 pp.157–158,263}."
+  en: "Two timing buckets switch a feed pipe between tanks, alternating one vertical jet and six arcs; external water, elevation and calibration required, not perpetual motion {cite:jazari-hill-1974 pp.157–158,263}."
+  ur: "وقت ناپنے والے دو ڈول نالی کو دو مخزنوں میں باری دیتے، ایک سیدھی اور چھ خم دار دھاریں بدلتی ہیں؛ بیرونی پانی، بلندی اور معايرہ لازم، دائمی حرکت نہیں {cite:jazari-hill-1974 pp.157–158,263}۔"
+domain: water-agriculture
+kind: device
+disciplines: [engineering]
+wings: [objects, ideas]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1204/1206"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Documentary range from Hill introduction1204/1206 versus TDV1205, not a dated first installation. Commons image's1315 copy attribution is separate and not independently shelfmark-verified. No invented invention Hijri."
+    sources: [source/jazari-hill-1974, source/tdv-cezeri]
+  status_today: replaced
+origin:
+  place: place/amid
+  polity: polity/artuqid-dynasty
+  context: { ar: "خدمة المؤلف الأرتقية، لا موقع نافورة باقية عايناها {cite:tdv-cezeri pp.505–506}.", en: "Author's Artuqid service, not an examined surviving fountain installation {cite:tdv-cezeri pp.505–506}.", ur: "مصنف کی ارتقی خدمت، کسی دیکھی باقی اصل تنصیب کا مقام نہیں {cite:tdv-cezeri pp.505–506}۔" }
+makers:
+  - { person: person/al-jazari-engineer, role: describer, place: place/amid, sources: [source/jazari-hill-1974] }
+attribution:
+  status: improvement
+  claim: { ar: "تركيب محدد لإبطاء التناوب وعرض شكلين، لا أول نافورة آلية.", en: "A specific arrangement for slower alternation between two displays, not the first automatic fountain.", ur: "دو نمونوں کی نسبتاً دیر سے باری بدلنے کا خاص نظام، پہلا خودکار فوارہ نہیں۔" }
+  basis: { ar: "وصفIV.1 مع نقد المؤلف للسابقين وتصريحه باحتمال خلل النسخ، وتعليق هيل على الرسم {cite:jazari-hill-1974 pp.157–158,263}.", en: "IV.1 description, author's predecessor criticism and explicit original-versus-copy uncertainty, plus Hill's drawing commentary {cite:jazari-hill-1974 pp.157–158,263}.", ur: "IV.1 کا بیان، سابقین پر مصنف کا نقد اور اصل یا نقل کے خلل کا اقرار، نیز ہل کا تصویری تبصرہ {cite:jazari-hill-1974 pp.157–158,263}۔" }
+  perspectives: []
+precursors:
+  - external: { ar: "حيل النوافير الأقدم في رواية الجزري", en: "Earlier fountain devices as reported by al-Jazari", ur: "جزری کی روایت میں سابق فواروں کے حیلے" }
+    note: "Author names Banu Musa and criticizes the account available to him, expressly uncertain whether confusion came from original or copy; no independent verdict or unsupported graph dependency."
+    sources: [source/jazari-hill-1974]
+dependents:
+  - external: { ar: "نسخ الرسوم وقراءة هيل التفسيرية", en: "Illustrated copies and Hill's interpretive reconstruction", ur: "مصور نقلیں اور ہل کی توضیحی تشکیل" }
+    note: "Text/image transmission, not a documented industrial lineage to modern electronic fountains."
+    sources: [source/jazari-hill-1974, source/commons-jazari-water-device]
+spread: []
+impact:
+  fields: [water-agriculture, mechanics-automata]
+  changed: { ar: "تغيير منظر الماء بتبديل مسار التغذية بعد امتلاء دلو، لا بتغيير شكل الفوهة {cite:jazari-hill-1974 pp.157–158}.", en: "Changes the water display by switching feed after bucket filling, not by reshaping a nozzle {cite:jazari-hill-1974 pp.157–158}.", ur: "ڈول بھرنے پر رسد کا راستہ بدل کر منظر کی تبدیلی، دہانے کی شکل بدلنا نہیں {cite:jazari-hill-1974 pp.157–158}۔" }
+  history: { ar: "شاهد على فصل حركة العرض عن توقيت تبديلها وعلى حدود الرسم وإعادة البناء {cite:jazari-hill-1974 pp.157–158,263}.", en: "Evidence of separating display flow from switching time, and of drawing/reconstruction limits {cite:jazari-hill-1974 pp.157–158,263}.", ur: "نمائشی بہاؤ اور باری کے وقت کی تفریق، نیز نقشے اور تشکیل کی حدود کا ثبوت {cite:jazari-hill-1974 pp.157–158,263}۔" }
+  significance: 3
+  why: "Distinct single-fountain hydraulic sequencing assembly with explicit external supply, calibrated timing and manuscript/reconstruction qualifications; not every nozzle counted separately."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "نص ورسم وتفسير حديث، لا جهاز أصلي فحصناه.", en: "Text, illustration and modern interpretation, not original hardware examined here.", ur: "متن، نقشہ اور جدید تعبیر، یہاں دیکھی اصل مشین نہیں۔" }
+  descendants: { ar: "التشابه مع النوافير الحديثة ليس سلسلة انتقال مثبتة.", en: "Similarity to modern fountains is not an established transmission chain.", ur: "جدید فواروں سے مشابہت ثابت سلسلۂ انتقال نہیں۔" }
+media: { image: media/jazari-fountain-context, diagram: media/diagram-jazari-alternating-fountain }
+kids: { ar: "بطاقتان ورقيتان: سعة افتراضية6 وحدات وتدفق2 في الخطوة تعطي3 خطوات لكل حالة؛ لا ماء أو ضغط أو أثقال.", en: "Paper cards: hypothetical capacity6 units at2 per step gives3 steps per state; no water, pressure or weights.", ur: "کاغذی کارڈ: فرضی گنجائش6، ہر قدم2، ہر حالت3 قدم؛ پانی، دباؤ یا وزن نہیں۔" }
+sources: [source/jazari-hill-1974, source/tdv-cezeri, source/commons-jazari-water-device]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "Actual selectedIV.1 primary157–158/critical263, opening and158 visually inspected; actual Commons PD metadata/image; own symbolic paper timing, no physical reconstruction" }
