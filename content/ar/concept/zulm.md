@@ -23,12 +23,12 @@ translators: []
 ## عند ابن خلدون
 يجعله ابن خلدون مؤذناً بخراب العمران. انظر [[concept/zulm-mukharrib-al-umran|الظلم مؤذن بخراب العمران]]. {cite:muqaddima-ibn-khaldun p.276-278}
 
-## الظلم في درس الشيخ عمر عبد الكافي (الحلقتان الثالثة والرابعة)
+## الظلم في درس الشيخ عمر عبد الكافي ⁦(الحلقتان الثالثة والرابعة)⁩
 يقول الشيخ إن الظلم تعدٍّ على حقوق الغير، كالسيل يخرج عن ضفتيه (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:21:00} ويذكر أن الظلم وعقوق الوالدين يثمران في الدنيا قبل الآخرة، وأنه لا يبقى ظالم في التاريخ دون عقوبة، ويذكر مشركي مكة الذين عذبوا بلالا وعمارا (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:22:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:22:30}
 ويذكر أن من أخذ شبرا من أرض بغير حق يُعاقب، وأن القضاء بالحجج، وأن ما يأخذه المرء من حق أخيه بغير وجه قطعة من النار (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:44:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:45:00}
-ويقول الشيخ إن الظالم تعود عليه نار ظلمه، فقد زرع في القلوب نارا فيعود إليها (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:46:30} ويذكر أن حساب المرء كالبضاعة التي يأخذها من السوبر ماركت، وكل واحد يُحاسب عليها (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:47:00}
+ويقول الشيخ إن الظالم تعود عليه نار ظلمه، فقد زرع في القلوب نارا فيعود إليها ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:46:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:46:30} ويذكر أن حساب المرء كالبضاعة التي يأخذها من السوبر ماركت، وكل واحد يُحاسب عليها ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:47:00}
 
-## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 7)⁩
 
 يقول الشيخ إن من حمل الظلم خاب، سواء كان ظلما لبني آدم أو للمجتمع أو للأمة أو للإسلام، وإن نهايته خيبة، ويسأل الله ألا نكون من الخائبين {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:39:30}.
 
@@ -42,7 +42,7 @@ translators: []
 
 ويقول الشيخ، وهو رأي شخصي له، إن الظالم لا يرى إلا نفسه، ولا يتصور أن الطفل الذي يحميه سيكبر ويقف في وجهه، ويضرب مثلا بفرعون ومولود بني إسرائيل {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:31:30}.
 
-## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+## من سلسلة شرح الحكم العطائية ⁦(عمر عبد الكافي)⁩
 يذكر عمر عبد الكافي معنى حديث المفلس: يأتي يوم القيامة بحسنات ثم يأخذ منها من ظلمهم، فإذا فنيت حسناته أُخذ من سيئاتهم فطُرحت عليه، ويحذّر من الغيبة والأذى. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:28:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:30}
 
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي

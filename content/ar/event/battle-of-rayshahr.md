@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-يروي البلاذري أن [[person/shahrak|شهرك]] مرزبان فارس جمع جمعاً عظيماً وسار حتى أتى ريشهر ([[place/rayshahr|ريشهر]]). فخرج إليه [[person/al-hakam-ibn-abi-al-as|الحكم بن أبي العاص]] وعلى مقدمته [[person/sawwar-ibn-hammam|سوار بن همام]]. {cite:futuh-buldan-maarif-1407}
+يروي البلاذري أن [[person/shahrak|شهرك]] مرزبان فارس جمع جمعاً عظيماً وسار حتى أتى ريشهر ⁦([[place/rayshahr|ريشهر]])⁩. فخرج إليه [[person/al-hakam-ibn-abi-al-as|الحكم بن أبي العاص]] وعلى مقدمته [[person/sawwar-ibn-hammam|سوار بن همام]]. {cite:futuh-buldan-maarif-1407}
 
 ## الوقعة
 اقتتلوا قتالاً شديداً. وكان شهرك قد وكّل رجلاً بوادٍ يقتل كل هارب من أصحابه. ويروي البلاذري خبر فارس من الأساورة قال لمن أراد قتله إنهم لا يقاتلون قوماً منصورين. {cite:futuh-buldan-maarif-1407}
