@@ -7,7 +7,7 @@ translators: []
 
 ## ملخص
 
-غياث الدين بلبن (1216 – 13 يناير 1287)، الملقّب ألغ خان قبل سلطنته، تاسع سلاطين دهلي من المماليك وأقوى ملوكها. {cite:wikipedia-ghiyas-ud-din-balban-en} كان تركيًا من إلبري أسره المغول صبيًّا، فاشتراه إلتتمش سنة 1232 وضمّه إلى مجلس الأربعين من كبار أمراء المماليك. {cite:wikipedia-ghiyas-ud-din-balban-en} {cite:wikipedia-ghiyas-ud-din-balban-ur} ثم صار نائبًا ووزيرًا للسلطان ناصر الدين محمود، واعتلى العرش سنة 1266، فحكم واحدًا وعشرين عامًا أعاد فيها للسلطنة هيبتها. {cite:wikipedia-ghiyas-ud-din-balban-en} {cite:wikipedia-ghiyas-ud-din-balban-ar}
+غياث الدين بلبن ⁦(1216 – 13 يناير 1287)⁩، الملقّب ألغ خان قبل سلطنته، تاسع سلاطين دهلي من المماليك وأقوى ملوكها. {cite:wikipedia-ghiyas-ud-din-balban-en} كان تركيًا من إلبري أسره المغول صبيًّا، فاشتراه إلتتمش سنة 1232 وضمّه إلى مجلس الأربعين من كبار أمراء المماليك. {cite:wikipedia-ghiyas-ud-din-balban-en} {cite:wikipedia-ghiyas-ud-din-balban-ur} ثم صار نائبًا ووزيرًا للسلطان ناصر الدين محمود، واعتلى العرش سنة 1266، فحكم واحدًا وعشرين عامًا أعاد فيها للسلطنة هيبتها. {cite:wikipedia-ghiyas-ud-din-balban-en} {cite:wikipedia-ghiyas-ud-din-balban-ar}
 
 ## من العبودية إلى الوزارة
 
