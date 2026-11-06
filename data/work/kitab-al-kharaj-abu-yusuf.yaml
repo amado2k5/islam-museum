@@ -23,11 +23,13 @@ relations:
   - { type: rules_on, target: concept/ahl-al-dhimma, sources: [source/kitab-al-kharaj-salafiyya-1392] }
   - { type: mentions, target: person/harun-al-rashid, sources: [source/kitab-al-kharaj-salafiyya-1392] }
   - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/kitab-al-kharaj-salafiyya-1392] }
-sources: [source/kitab-al-kharaj-salafiyya-1392]
+sources: [source/kitab-al-kharaj-salafiyya-1392, source/tdv-divan-duri, source/britannica-divan]
 provenance:
   layer: own-research
   source: "kitab-al-kharaj-salafiyya-1392 PDF pp. 1-7, 27-30, 135-141, plus section heads"
   generated_by: "Claude Code (OCR-harvest worker D)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b89", source: "Additional actual reading of PDF28–29/47–53=printed26–27/45–51; printed46/48/49 visually inspected. Grant variants and editor note preserved; new anchors explicitly printed pages, old PDF-page anchors unchanged." }
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D)" }

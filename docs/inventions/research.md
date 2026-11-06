@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: research method
 
+## Invention89 — Umar's military stipend register (6 November 2026)
+
+Additional exact source check before gates: actual PDF5opening read, confirming address to Harun al-Rashid used for distinguishing compilation setting from Umar's lifetime. New printed pagination anchors explicitly differentiated from old PDF-page citations; no original prose/provenance rewritten.
+
+Actually read complete Britannica divan and Umar biography, then TDV `divan--devlet` first article attributed Abdülaziz ed-Duri,1994: definition/etymology, early Rashidun/Umayyad section and selected later bureau organization. Register-to-office semantics, army/families/some mawali, annual ata versus monthly provisions, tribal arrangement, differentiated grants/equal provisions and older Byzantine/Sasanian fiscal-office continuity. Author prefers20AH/641 while noting15AH/636reports; keep both and qualify preference. Britannica free-Arab-warrior emphasis narrower than TDV's recipients; do not silently harmonize. No claim to read all six TDV subarticles, every administrative manual or authenticate etymological stories.
+
+Actually located and read harvested existing Abu Yusuf Salafiyya1392AH fourth edition, AAlexandrina-098748, not similarly named other PDFs. OCR PDF28–29/printed26–27 consultation/land revenue, PDF47–53/printed45–51 grant/distribution section; rendered and visually inspected actual PDF48/50/51=printed46/48/49, saved outside git `inventions/b89-kharaj-print46.jpg`,48,49. Explicit editor note at48 acknowledges difference from prior report. Separate reports differ on wives/Ansar amounts; do not synthesize a universal salary schedule. Printed49 unnamed suggestion of registers, annual allocation/ordering traditions, Zayd distribution; printed50 reported equalization intention not proven execution. Original transmitted isnads not independently authenticated; no original stipend ledger claimed. Primary literary evidence rather than eyewitness administrative artifact.
+
+Reuse unchanged inspected PD PERF558 photo as early documentary setting only, explicitly not stipend ledger/payment proof. Existing `concept/ahl-al-diwan` and Abu Yusuf work/source found and read; `work/kitab-al-amwal` remains an unverified bibliography card, no content-reading claim or duplicate work created. Four new entities under D-131, additive maker/work/source prose/provenance and ties; all88inventions/554leads protected. Actual individual Muslim evidence and qualified Sunni frame already wired in88, retained without duplicating faith.
+
 ## Invention88 — Hijri-era administrative dating (6 November 2026)
 
 Actual short Britannica Umar biography and Islamic-calendar article read: individual Muslim identification, administrative attribution and639adoption; epoch16July622Julian. Actual Bukhari3934/Sahl report read: arrivalMedina rather than mission/death as reckoning basis, no decree-year/consultation detail supplied by that report. Existing source reused, no new printed-edition page invented.
