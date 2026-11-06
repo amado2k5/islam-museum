@@ -1,6 +1,6 @@
 id: person/umar-ibn-al-khattab
 class: person
-label: { en: "Umar ibn al-Khattab", ar: "عمر بن الخطاب" }
+label: { en: "Umar ibn al-Khattab", ar: "عمر بن الخطاب", ur: "عمر بن خطاب" }
 names:
   - { kind: full, lang: ar, value: "عمر بن الخطاب بن نفيل" }
 gender: male
@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   en: "Second caliph (634–644); under his rule the early community conquered Syria, Egypt and much of the Sasanian Empire. Remembered in Sunni tradition as al-Faruq, the model of just rule. ومن مناقبه في الصحيح القصر الذي رآه له النبي في الجنة فأخلى النظر إليه حياءً لغيرته {cite:sahih-al-bukhari 3680}، ولبن الرؤيا الذي أوله النبي بالعلم فناوله إياه {cite:sahih-al-bukhari 3681}. ويروي هو صعوده إلى مشربة النبي حين اعتزل أزواجه فرأى أثر الحصير في جنبه فبكى فقال له «أما ترضى أن تكون لهم الدنيا ولنا الآخرة» {cite:sahih-al-bukhari 4913}. ورأى حلة سيراء عند باب المسجد فعرضها على النبي ليلبسها يوم الجمعة وللوفد فقال «إنما يلبسها من لا خلاق له في الآخرة» ثم أهداها إليه بعد فكساها أخاً له مشركاً بمكة {cite:sahih-al-bukhari 2612}."
   ar: "ثاني الخلفاء الراشدين (634–644م)؛ في عهده فتحت الجماعة الأولى الشام ومصر وجزءًا كبيرًا من الإمبراطورية الساسانية. يذكره التراث السني بالفاروق، مثال العدل في الحكم. وأمه حنتمة بنت هشام بن المغيرة المخزومية وكانت سوداء، وأول من سماه أمير المؤمنين عدي بن حاتم على رواية وأول من سلم عليه بها المغيرة بن شعبة وأول من دعاه بها على المنبر وكتبها إليه أبو موسى الأشعري فقال عمر إني لعبد الله وإني لعمر وإني لأمير المؤمنين، وكان يلبس الجبة الصوف المرقعة بالأديم ويحمل القربة على كتفه ورحله مشدودة بالليف واتبعه عماله في شيمه {cite:muruj-al-dhahab p. 601-602}. وفي الصحيح قال ابن مسعود «ما زلنا أعزة منذ أسلم عمر» {cite:sahih-al-bukhari 3863}، ويروي ابن عمر أن قريشاً اجتمعوا على باب داره حين أسلم يدعون «صبا عمر» فجاءهم العاص بن وائل السهمي في حلة حبرة فقال «لا سبيل إليه» فكرّوا {cite:sahih-al-bukhari 3864}، ويروي عمر في صحيح مسلم حديث جبريل: طلع رجل شديد بياض الثياب فسأل النبي عن الإسلام والإيمان والإحسان والساعة ثم قال في الجواب «هذا جبريل أتاكم يعلمكم دينكم» {cite:sahih-muslim 8}، وعند مسلم قال له النبي «والذي نفسي بيده ما لقيك الشيطان قط سالكاً فجاً إلا سلك فجاً غير فجك» {cite:sahih-muslim 2396}."
+  ur: "دوسرے خلیفہ؛ بریٹانیکا انہیں صراحت سے مسلمان کہتا اور ہجری سن کے انتظامی اختیار کو ان سے منسوب کرتا ہے؛ قمری مہینوں کی ایجاد کا دعویٰ نہیں {cite:britannica-umar-i}۔"
 wings: [people]
 themes: [development-of-law-theology-institutions, wars-and-campaigns, factions-splits-schisms]
 periods: [period/prophetic-era, period/rashidun]
@@ -22,6 +23,7 @@ story_roles:
   - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0634" }, end: { edtf: "0644" }, status: historical, sources: [source/watt-1956-medina] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). He predates the Sunni-Shia division. Ibn Taymiyya, a Sunni authority, names him amir al-mu'minin and quotes his letter to his governors on prayer (al-Hisba, p. 17); TDV lists him among the caliphs who inspected the markets themselves.", sources: [source/hisba-ibn-taymiyya-ilmiyya, source/tdv-hisbe] }
+  - { value: sunni, basis: tradition, note: "Additional individual Muslim evidence: Britannica explicitly calls him the second Muslim caliph and describes his conversion. Sunni is the museum's declared early-community frame, not inferred personal membership in a later sect. Existing faith entry and Sunni/academic/Twelver perspectives retained.", sources: [source/britannica-umar-i] }
 labelled:
   - { label: { en: "al-Faruq (the one who distinguishes truth from falsehood)", ar: "الفاروق" }, by: "Islamic tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
@@ -58,7 +60,8 @@ external_ids:
 inventions:
   - { invention: invention/hisba, role: commissioner, sources: [source/tdv-hisbe] }
   - { invention: invention/waqf, role: commissioner, sources: [source/sahih-al-bukhari-bugha, source/tdv-vakif] }
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/assabile-tareq-al-suwaidan, source/assabile-ahmed-abdussalam, source/hisba-ibn-taymiyya-ilmiyya, source/tdv-hisbe, source/sahih-al-bukhari-bugha, source/tdv-vakif]
+  - { invention: invention/hijri-era-administrative-dating, role: commissioner, note: "Administrative formalization; shared consultation and differing adoption years preserved, not invention of lunar months.", sources: [source/britannica-umar-i, source/iranica-calendars-abdollahy] }
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/assabile-tareq-al-suwaidan, source/assabile-ahmed-abdussalam, source/hisba-ibn-taymiyya-ilmiyya, source/tdv-hisbe, source/sahih-al-bukhari-bugha, source/tdv-vakif, source/britannica-umar-i, source/britannica-islamic-calendar, source/iranica-calendars-abdollahy, source/tdv-takvim-akgur]
 education:
   did_you_know:
     ar: "في عشر سنوات من خلافة عمر فتحت الجيوش الشام ومصر ومعظم دولة الفرس؛ وتذكره السنة بلقب الفاروق."
@@ -75,6 +78,8 @@ provenance:
   generated_by: Claude Code (claude-haiku-5-5)
   model: claude-haiku-5-5
   run: omar-abdelkafy-tafsir-1; omar-abdelkafy-al-fawzu-1, lib-tarikh-khalifa-batch-2-2026-10-31
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b88", source: "Actual individual Muslim Britannica evidence, Bukhari3934 and calendar reference accounts. Additive qualified administrative attribution, not replacement of old faith, perspectives, dates or prose." }
   also:
   - layer: own-research
     source: education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources
