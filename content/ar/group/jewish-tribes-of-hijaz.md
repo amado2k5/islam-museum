@@ -6,7 +6,7 @@ translators: []
 ---
 
 ## موجز
-القبائل اليهودية التي استقرت في يثرب ([[place/medina|المدينة]]) و[[place/khaybar|خيبر]] و[[place/tayma|تيماء]] بعد هجرة اليهود من فلسطين، وأنشأت فيها القرى والآطام والقلاع {cite:mubarakpuri-raheeq p.40} {cite:qalb-jazirat-al-arab p.151}.
+القبائل اليهودية التي استقرت في يثرب ⁦([[place/medina|المدينة]])⁩ و[[place/khaybar|خيبر]] و[[place/tayma|تيماء]] بعد هجرة اليهود من فلسطين، وأنشأت فيها القرى والآطام والقلاع {cite:mubarakpuri-raheeq p.40} {cite:qalb-jazirat-al-arab p.151}.
 
 ## الهجرتان
 يذكر الرحيق المختوم دورين لليهود في الجزيرة: هجرة بعد تخريب [[person/bukhtanasar|بختنصر]] فلسطين سنة 587 ق.م إلى شمالي الحجاز، وهجرة بعد احتلال الرومان فلسطين سنة 70م حين رحلت قبائل عديدة إلى الحجاز {cite:mubarakpuri-raheeq p.40}. تفصيله في [[concept/judaism-in-arabia|اليهودية في جزيرة العرب]].
