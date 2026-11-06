@@ -7,7 +7,7 @@ translators: []
 
 ## ملخص
 
-قريم كراي (1717 – مارس 1769) خان القرم في حكمين: 1758–1764 و1768–1769، ومن أكثر حكام خانية القرم نفوذًا في قرنها الأخير {cite:wikipedia-qirim-giray-en}. كان ابن دولت الثاني كراي {cite:wikidata-qirim-giray}، وُلد في باغجه سراي {cite:wikipedia-qirim-giray-en} {cite:wikidata-qirim-giray}.
+قريم كراي ⁦(1717 – مارس 1769)⁩ خان القرم في حكمين: 1758–1764 و1768–1769، ومن أكثر حكام خانية القرم نفوذًا في قرنها الأخير {cite:wikipedia-qirim-giray-en}. كان ابن دولت الثاني كراي {cite:wikidata-qirim-giray}، وُلد في باغجه سراي {cite:wikipedia-qirim-giray-en} {cite:wikidata-qirim-giray}.
 
 ## الحكم الأول
 
