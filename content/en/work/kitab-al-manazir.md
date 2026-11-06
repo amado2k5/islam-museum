@@ -12,3 +12,7 @@ The editor of the edition holds that the book divides into two parts. The first 
 
 ## On the edition
 The Arabic text available to us is the first volume of the edition by ʿAbd al-Hamid Sabra, which includes the first three treatises. It was published in Kuwait in 1983 in the heritage series. The details of the edition have not yet been verified from an independent source {cite:manazir-sabra-1983 p.5}.
+
+## Vision between sensation and interpretation
+
+The [[invention/haytham-incoming-light-vision|incoming-light synthesis]] record explains the connection between the first three books: conditions, light and the eye; perception; then errors when limits are exceeded {cite:smith-alhacen-visual-perception-2001 intro-xviii}. Distinguishing light/colour sensation from inferred distance and size does not retrospectively correct crystalline sensitivity, the hollow nerve or accommodated eye geometry {cite:smith-alhacen-visual-perception-2001 intro-lviii-lxiv}. This addition uses selected passages of Smith's introduction and inspected figure 8, not the complete critical Latin text, complete translation or a manuscript. Earlier edition details and attribution are preserved.

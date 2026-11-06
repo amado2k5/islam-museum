@@ -1,0 +1,16 @@
+id: media/diagram-haytham-vision
+class: media
+kind: illustration
+label: { ar: "الضوء والحس والتفسير", en: "Light,sensation,interpretation", ur: "روشنی،حس،تعبیر" }
+summary: { ar: "سلسلة تعليمية،لا رسم تشريحي قديم.", en: "Teaching chain,not a medieval anatomical drawing.", ur: "تدریسی زنجیر،قدیم تشریحی نقشہ نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/haytham-incoming-light-vision]
+alt:
+  ar: "ضوء ولون واردان،ثم حس العين وتفسير المدركات؛لا صورة شبكية حديثة منسوبة إلى المؤلف."
+  en: "Incoming light/colour,ocular sensation,then interpretation;not a modern retinal image attributed to Alhacen."
+  ur: "وارد روشنی و رنگ،حس چشم،پھر ادراک کی تعبیر؛مصنف سے منسوب جدید شبکی تصویر نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/smith-alhacen-visual-perception-2001]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b75", source: "Museumgenericchain fromselectedactualscholarlyanalysis,not reproductionofsourcefigure." }

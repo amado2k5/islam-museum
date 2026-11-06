@@ -1,0 +1,67 @@
+id: invention/haytham-incoming-light-vision
+class: invention
+label: { ar: "تركيب ابن الهيثم لنظرية الإبصار بالضوء الوارد", en: "Ibn al-Haytham's integrated incoming-light theory of vision", ur: "وارد روشنی سے بصارت کا ابن الہیثم کا مربوط نظریہ" }
+names:
+  - { kind: alternate, lang: en, value: "Intromission,eye geometry and visual perception in the Manazir" }
+summary: { ar: "تركيب انتشار الضوء واللون وهندسة العين وتفسير المدركات،مع حدود فسيولوجية معلنة،لا أول فكرة للضوء الوارد {cite:smith-alhacen-visual-perception-2001 intro-lii-lxiv}.", en: "Integrated radiation,eye geometry and perceptual interpretation,with historical physiology explicit,not the first incoming-light idea {cite:smith-alhacen-visual-perception-2001 intro-lii-lxiv}.", ur: "اشعاع،ہندسۂ چشم و ادراک کی تعبیر کا امتزاج،قدیم فعلی حدوں سمیت،وارد روشنی کی پہلی سوچ نہیں {cite:smith-alhacen-visual-perception-2001 intro-lii-lxiv}۔" }
+domain: optics-physics
+kind: method
+disciplines: [optics, mathematics]
+wings: [ideas]
+regions: [egypt-nile, levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad eleventh-century composition horizon,not exact composition/discovery day. Smithxviii stresses uncertainty in work chronology. No guessed Hijri."
+    sources: [source/smith-alhacen-visual-perception-2001, source/tdv-ibnul-heysem]
+  status_today: replaced
+origin:
+  place: place/cairo
+  context: { ar: "السياق المصري لحياة المؤلف،لا تاريخ غرفة كتابة مثبتة {cite:tdv-ibnul-heysem biography}.", en: "Author's Egyptian biographical setting,not a documented writing room/date {cite:tdv-ibnul-heysem biography}.", ur: "مصنف کی مصری سوانح کا ماحول،ثابت کمرۂ تصنیف و دن نہیں {cite:tdv-ibnul-heysem biography}۔" }
+makers:
+  - { person: person/ibn-al-haytham, role: improver, note: "Synthesis,not first intromission idea,camera-obscura duplicate or correct modern retinal physiology.", sources: [source/smith-alhacen-visual-perception-2001, source/tdv-ibnul-heysem] }
+attribution:
+  status: improvement
+  claim: { ar: "تركيب الإشعاع وحساسية العين والتفسير الإدراكي في نظرية مفصلة.", en: "Synthesized radiation,ocular sensitivity and perceptual interpretation.", ur: "اشعاع،حسیت چشم اور ادراک کی تعبیر کا مفصل امتزاج۔" }
+  basis: { ar: "سميث يشرح الوارد وعلاقته بالتقاليد السابقة،ويكشف تكييف هندسة العين للنظرية {cite:smith-alhacen-visual-perception-2001 intro-lvi-lxiv}.", en: "Smith explains intromission and predecessors,while identifying eye geometry adapted to theory {cite:smith-alhacen-visual-perception-2001 intro-lvi-lxiv}.", ur: "سمتھ وارد روشنی و پیش رو بتاتا،نظریے کے لیے بدلے ہندسۂ چشم کی نشان دہی کرتا {cite:smith-alhacen-visual-perception-2001 intro-lvi-lxiv}۔" }
+  perspectives:
+    - tradition: sunni
+      id: inherited-maker-frame
+      summary: { ar: "تحتفظ البطاقة بأساس هوية المؤلف الفردية والإطار السني المعلن،لا عقيدة مستنبطة من صحة النموذج {cite:tdv-ibnul-heysem biography}.", en: "Retains documented individual Muslim basis and separate Sunni frame,no belief deduced from model accuracy {cite:tdv-ibnul-heysem biography}.", ur: "مستند فردی مسلم بنیاد و الگ سنی فریم محفوظ،نمونے کی صحت سے عقیدہ اخذ نہیں {cite:tdv-ibnul-heysem biography}۔" }
+      sources: [source/tdv-ibnul-heysem, source/manazir-sabra-1983]
+    - tradition: academic
+      id: synthesis-with-errors
+      summary: { ar: "سميث يميز نجاح الوارد من فسيولوجيا الجليدية والروح البصري والهندسة المتكيفة؛ليست نظرية شبكية حديثة {cite:smith-alhacen-visual-perception-2001 intro-lvii-lxii}.", en: "Smith separates incoming-light success from crystalline/visual-spirit physiology and accommodated geometry,not modern retinal theory {cite:smith-alhacen-visual-perception-2001 intro-lvii-lxii}.", ur: "سمتھ وارد روشنی کی کامیابی کو جلیّدیہ،روح بصری و بدلے ہندسے سے الگ،جدید شبکی نظریہ نہیں کہتا {cite:smith-alhacen-visual-perception-2001 intro-lvii-lxii}۔" }
+      sources: [source/smith-alhacen-visual-perception-2001]
+precursors:
+  - external: { ar: "تقاليد إقليدس وبطليموس وأرسطو وجالينوس وحنين", en: "Euclidean,Ptolemaic,Aristotelian,Galenic and Hunayn traditions", ur: "اقلیدس،بطلمیوس،ارسطو،جالینوس و حنین کی روایات" }
+    note: "Scholarly comparison in actual selected introduction,not claim to read every original."
+    sources: [source/smith-alhacen-visual-perception-2001]
+dependents:
+  - external: { ar: "شرح الفارسي والتلقي اللاتيني", en: "Al-Farisi's commentary and Latin reception", ur: "فارسی کی شرح و لاطینی قبولیت" }
+    note: "Textual reception,not every later claim endorsed or direct ancestry of neuroscience."
+    sources: [source/smith-alhacen-visual-perception-2001, source/tdv-ibnul-heysem]
+spread: []
+impact:
+  fields: [optics-physics]
+  changed: { ar: "وصل الضوء المادي بحساسية العين وتمييز المحسوس من تفسيره {cite:smith-alhacen-visual-perception-2001 intro-lvi-lxiv}.", en: "Connected physical light,ocular sensitivity and the distinction between sensation and interpretation {cite:smith-alhacen-visual-perception-2001 intro-lvi-lxiv}.", ur: "مادی روشنی،حسیت چشم اور حس و تعبیر کا فرق جوڑا {cite:smith-alhacen-visual-perception-2001 intro-lvi-lxiv}۔" }
+  history: { ar: "تركيب مؤثر لا اختراع منفرد لكل التجربة أو صحة كل تشريح {cite:smith-alhacen-visual-perception-2001 intro-xviii-xix-and-lx}.", en: "An influential synthesis,not sole invention of experiment or correctness of every anatomical claim {cite:smith-alhacen-visual-perception-2001 intro-xviii-xix-and-lx}.", ur: "اثرانداز امتزاج،ہر تجربے کی تنہا ایجاد یا تمام تشریح کی صحت نہیں {cite:smith-alhacen-visual-perception-2001 intro-xviii-xix-and-lx}۔" }
+  significance: 3
+  why: "Distinct vision synthesis beyond pinhole/reflection apparatus;historical lens/nerve errors and perception distinction explicit."
+described_in: [work/kitab-al-manazir]
+examples: []
+sites: []
+concepts: [concept/optics]
+today:
+  form: { ar: "تاريخ نموذج استُبدل في فسيولوجيته،لا نصيحة علاجية.", en: "History of a physiologically superseded model,not medical advice.", ur: "فعلی طور پر بدلے نمونے کی تاریخ،طبی مشورہ نہیں۔" }
+  descendants: { ar: "لا نسب مثبت لكل علم أعصاب أو كاميرا.", en: "No demonstrated ancestry of every neuroscience theory or camera.", ur: "ہر عصبی نظریے یا کیمرے کا ثابت نسب نہیں۔" }
+media: { image: media/haytham-modern-eye-context, diagram: media/diagram-haytham-vision }
+kids: { ar: "الرسم الحديث ليس وصف المؤلف القديم؛فرّق ما يدخل العين مما نستنتجه.", en: "A modern diagram is not the old author's anatomy;separate incoming information from interpretation.", ur: "جدید نقشہ قدیم مصنف کی تشریح نہیں؛وارد اطلاع و تعبیر الگ کریں۔" }
+sources: [source/smith-alhacen-visual-perception-2001, source/tdv-ibnul-heysem, source/commons-eye-schematic]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b75", source: "Actual selected Smithintroduction and TDVoptics;not entireArabic/Latin/translation. Existing primaryidentitybasis retained,not freshly claimed read. Independent angularsizeexample,not physiologicalvalidation." }
