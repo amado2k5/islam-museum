@@ -4,6 +4,8 @@ This file is updated with every merged phase or batch. A merged change is not li
 
 ## Log
 
+- **Invention74 integrated gates passed.** Rebased unpublished content onto reviewed main `70fb6cf846`,preserving #4450passage/library/canary changes. Graph/coverage/census/validation/citation/session/whitespace repeated successfully:51,726nodes/82,564edges;49,818entities/84,938prose,0errors/8495warnings;authenticity0errors/1warning;539leads/74inventions/460prosehits;citations5/5;allword/preservation/math gates unchanged. Localtests/buildnotrun,no deployment.
+
 - **Invention74 corrected validation passed.**49,818entities/84,938prose,0errors/8495warnings;authenticity0errors/1warning. Graph/coverage/census/citation/session/whitespace gates repeated successfully after workshape correction,all totals unchanged. Localtests/buildnotrun,no deployment.
 
 - **Invention74 content gates;work-shape correction.** Graph51,726nodes/82,564edges;coverage regenerated;census539leads(500active/39excluded),74inventions,268personleads/460prosehits. Session17exactheadings,1589/1839/1808ar/en/urwords;73priorinventiondata/prose,538oldleads andmakeroriginals/threeearlierties preserved. Licence/date/perspectives/work/graph and plane-area/scaling/unit/projection assertions pass;targetedcitations5/5,whitespacepasses. Initialvalidator rejected redundant work tie with person-style `role`;removed onlytask-owned redundanttie,keeping invention's `described_in` and maker tie as established patterns. No schema/rulechange. Reviewed #4450independentTabari/canaryData;revalidate/integrate beforepublication. Localtests/buildnotrun,no deployment.
