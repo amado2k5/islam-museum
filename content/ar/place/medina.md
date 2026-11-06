@@ -15,16 +15,16 @@ translators: []
 تضم مواد المتحف عن هذا المكان: الأحداث التي جرت فيه: 74، من وُلدوا فيه: 32، من توفوا فيه: 21، من عاشوا فيه: 16، من قصدوه: 1، الدول التي كان عاصمة لها: 1، المباني فيه: 1، الجماعات التي سكنته: 6.
 
 ### الأحداث التي جرت فيه
-- [[event/pledges-of-aqaba|بيعتا العقبة]] (621م)
-- [[event/hijra|الهجرة النبوية]] (622م)
-- [[event/battle-of-uhud|غزوة أحد]] (625م)
-- [[event/battle-of-the-trench|غزوة الأحزاب (الخندق)]] (627م)
-- [[event/the-three-left-behind|الثلاثة الذين خُلّفوا بعد تبوك]] (630م)
-- [[event/masjid-al-dirar-builders-ask-the-prophet-to-pray|أصحاب المسجد يطلبون من النبي الصلاة فيه]] (630م)
-- [[event/repentance-of-the-three-accepted|قبول توبة الثلاثة]] (630م)
-- [[event/expedition-to-tabuk|غزوة تبوك]] (630م)
-- [[event/the-weepers-al-bakkaun|البكاؤون: سبعة طلبوا الحمل]] (630م)
-- [[event/year-of-delegations|عام الوفود]] (631م)
+- [[event/pledges-of-aqaba|بيعتا العقبة]] ⁦(621م)⁩
+- [[event/hijra|الهجرة النبوية]] ⁦(622م)⁩
+- [[event/battle-of-uhud|غزوة أحد]] ⁦(625م)⁩
+- [[event/battle-of-the-trench|غزوة الأحزاب ⁦(الخندق)⁩]] ⁦(627م)⁩
+- [[event/the-three-left-behind|الثلاثة الذين خُلّفوا بعد تبوك]] ⁦(630م)⁩
+- [[event/masjid-al-dirar-builders-ask-the-prophet-to-pray|أصحاب المسجد يطلبون من النبي الصلاة فيه]] ⁦(630م)⁩
+- [[event/repentance-of-the-three-accepted|قبول توبة الثلاثة]] ⁦(630م)⁩
+- [[event/expedition-to-tabuk|غزوة تبوك]] ⁦(630م)⁩
+- [[event/the-weepers-al-bakkaun|البكاؤون: سبعة طلبوا الحمل]] ⁦(630م)⁩
+- [[event/year-of-delegations|عام الوفود]] ⁦(631م)⁩
 
 ### من وُلدوا فيه
 - [[person/abd-al-muttalib|عبد المطلب بن هاشم]]
@@ -60,10 +60,10 @@ translators: []
 - [[person/ibn-rajab|ابن رجب الحنبلي]]
 
 ### الدول التي كان عاصمة لها
-- [[polity/rashidun-caliphate|الخلافة الراشدة]] (632م)
+- [[polity/rashidun-caliphate|الخلافة الراشدة]] ⁦(632م)⁩
 
 ### المباني فيه
-- [[building/prophets-mosque|المسجد النبوي]] (622م)
+- [[building/prophets-mosque|المسجد النبوي]] ⁦(622م)⁩
 
 ### الجماعات التي سكنته
 - [[group/ansar|الأنصار]]

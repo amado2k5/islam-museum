@@ -15,10 +15,10 @@ translators: []
 تضم مواد المتحف عن هذا المكان: الأحداث التي جرت فيه: 4، من وُلدوا فيه: 5، من توفوا فيه: 1، من قصدوه: 1، الجماعات التي سكنته: 1.
 
 ### الأحداث التي جرت فيه
-- [[event/journey-to-taif|خروج النبي إلى الطائف]] (619م)
-- [[event/battle-of-hunayn|غزوة حنين]] (630م)
-- [[event/siege-of-taif|حصار الطائف]] (630م)
-- [[event/demolition-of-al-lat|هدم اللات]] (630م)
+- [[event/journey-to-taif|خروج النبي إلى الطائف]] ⁦(619م)⁩
+- [[event/battle-of-hunayn|غزوة حنين]] ⁦(630م)⁩
+- [[event/siege-of-taif|حصار الطائف]] ⁦(630م)⁩
+- [[event/demolition-of-al-lat|هدم اللات]] ⁦(630م)⁩
 
 ### من وُلدوا فيه
 - [[person/uthman-ibn-affan|عثمان بن عفان]]
