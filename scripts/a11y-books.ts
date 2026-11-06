@@ -12,6 +12,7 @@ import zlib from "node:zlib";
 import { execFileSync } from "node:child_process";
 import { createRequire } from "node:module";
 import { p } from "./lib";
+import { epubModified, nodeDays, nodeIdOfSegment } from "./epub-meta";
 
 const DIST = p("dist");
 const LANGS = ["ar", "en", "ur"] as const;
@@ -128,7 +129,7 @@ function epub(entries: ZipEnt[]): Buffer {
   return Buffer.concat([...locals, cd, eocd]);
 }
 
-function epubFor(title: string, lang: string, uid: string, bodyHtml: string): Buffer {
+function epubFor(title: string, lang: string, uid: string, bodyHtml: string, modified: string): Buffer {
   const dir = lang === "ar" || lang === "ur" ? ' dir="rtl"' : "";
   const chapter = `<?xml version="1.0" encoding="utf-8"?>\n<html xmlns="http://www.w3.org/1999/xhtml" lang="${lang}" xml:lang="${lang}"${dir}><head><meta charset="utf-8"/><title>${esc(title)}</title></head><body>${bodyHtml}</body></html>`;
   const nav = `<?xml version="1.0" encoding="utf-8"?>\n<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="${lang}" xml:lang="${lang}"${dir}><head><meta charset="utf-8"/><title>${esc(title)}</title></head><body><nav epub:type="toc"><h1>${esc(title)}</h1><ol><li><a href="chapter.xhtml">${esc(title)}</a></li></ol></nav></body></html>`;
@@ -138,7 +139,7 @@ function epubFor(title: string, lang: string, uid: string, bodyHtml: string): Bu
     <dc:identifier id="uid">islam.museum:${uid}</dc:identifier>
     <dc:title>${esc(title)}</dc:title><dc:language>${lang}</dc:language>
     <dc:creator>islam.museum</dc:creator><dc:rights>CC BY-SA 4.0</dc:rights>
-    <meta property="dcterms:modified">${new Date().toISOString().replace(/\.\d+Z$/, "Z")}</meta>
+    <meta property="dcterms:modified">${modified}</meta>
     <meta name="schema:accessMode">textual</meta>
     <meta name="schema:accessibilityFeature">tableOfContents</meta>
     <meta name="schema:accessibilityFeature">alternativeText</meta>
@@ -190,11 +191,21 @@ function* walk(dir: string): Generator<string> {
   }
 }
 
-const corpus: { dir: string; slug: (f: string) => string }[] = [];
+// dcterms:modified is the day the book's source last changed (the graph's git dates), never the build clock, so a book's
+// bytes change only when its content does (scripts/epub-meta.ts). Pathway and statement books have no single source entity and
+// take the build commit's day.
+type GraphNode = { id: string; updated?: string; prose?: Record<string, { updated?: string } | undefined> };
+let graph: { generated?: string; nodes: GraphNode[] } = { nodes: [] };
+try { graph = JSON.parse(fs.readFileSync(p(".cache", "graph.json"), "utf8")); } catch { /* the build runs graph first; without it every book takes the epoch stamp */ }
+const nodeById = new Map(graph.nodes.map((n) => [n.id, n]));
+const modifiedOf = (lang: string, nodeId?: string) => epubModified(nodeDays(nodeId ? nodeById.get(nodeId) : undefined, lang), graph.generated);
+
+const corpus: { dir: string; slug: (f: string) => string; node?: (f: string) => string }[] = [];
 for (const lang of LANGS) {
   corpus.push(
     { dir: path.join(DIST, lang, "learn/teachers/pathways"), slug: (f) => `pathway-${path.basename(path.dirname(f))}` },
-    { dir: path.join(DIST, lang, "sighar/read"), slug: (f) => `kids-${path.basename(path.dirname(path.dirname(f)))}-${path.basename(path.dirname(f))}` },
+    { dir: path.join(DIST, lang, "sighar/read"), slug: (f) => `kids-${path.basename(path.dirname(path.dirname(f)))}-${path.basename(path.dirname(f))}`,
+      node: (f) => nodeIdOfSegment(path.basename(path.dirname(path.dirname(f))), path.basename(path.dirname(f))) },
   );
 }
 
@@ -209,7 +220,7 @@ for (const lang of LANGS) {
       const slug = c.slug(f);
       const out = path.join(DIST, lang, "books");
       fs.mkdirSync(out, { recursive: true });
-      fs.writeFileSync(path.join(out, `${slug}.epub`), epubFor(parts.title, lang, `books/${lang}/${slug}`, parts.html));
+      fs.writeFileSync(path.join(out, `${slug}.epub`), epubFor(parts.title, lang, `books/${lang}/${slug}`, parts.html, modifiedOf(lang, c.node?.(f))));
       fs.writeFileSync(path.join(out, `${slug}.brf`), brailleOf(parts.text, lang), "utf8");
       indexLinks[lang].push({ slug, title: parts.title });
       made++;
@@ -224,7 +235,7 @@ for (const lang of LANGS) {
   const p = fs.existsSync(stmt) ? pageParts(stmt) : null;
   if (p) {
     const out = path.join(DIST, lang, "books");
-    fs.writeFileSync(path.join(out, "accessibility.epub"), epubFor(p.title, lang, `books/${lang}/accessibility`, p.html));
+    fs.writeFileSync(path.join(out, "accessibility.epub"), epubFor(p.title, lang, `books/${lang}/accessibility`, p.html, modifiedOf(lang)));
     fs.writeFileSync(path.join(out, "accessibility.brf"), brailleOf(p.text, lang), "utf8");
     indexLinks[lang].unshift({ slug: "accessibility", title: p.title });
   }

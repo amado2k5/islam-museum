@@ -197,8 +197,10 @@ jobs:
           path: dist
           run-id: ${{ steps.build.outputs.run_id }}
           github-token: ${{ github.token }}
-      - name: Stamp the deploy time (the landing page's "Last updated" line reads it)
+      - name: Stamp the deploy (the landing page's "Last updated" line and every page's footer version read it)
         # The only file a deploy adds to the build; it goes to R2 with the rest of api/ below.
+        # `version` and `version_date` are the top release block of CANARY.md in the built commit. They are not in the pages
+        # (a version bump would rewrite all of them on the next publish); shell.js fills the footer from this file.
         env:
           RUN_ID: ${{ steps.build.outputs.run_id }}
           SHA: ${{ steps.build.outputs.sha }}
@@ -206,8 +208,16 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p dist/api/v1/meta
+          version=""; version_date=""
+          line=$(grep -m1 -E '^## v[0-9]+\.[0-9]+\.[0-9]+ ' CANARY.md || true)
+          if [[ "$line" =~ ^##\ v([0-9]+\.[0-9]+\.[0-9]+)\ [^0-9]*([0-9]{4}-[0-9]{2}-[0-9]{2}) ]]; then
+            version="${BASH_REMATCH[1]}"; version_date="${BASH_REMATCH[2]}"
+          else
+            echo "::warning::No release block found at the top of CANARY.md; the footer will show no version."
+          fi
           jq -n --arg t "$(date -u +%Y-%m-%dT%H:%M:%SZ)" --arg sha "$SHA" --argjson run "$RUN_ID" --arg env "$ENVIRONMENT" \
-            '{deployed_at: $t, commit: $sha, build_run: $run, environment: $env}' > dist/api/v1/meta/deploy.json
+            --arg version "$version" --arg version_date "$version_date" \
+            '{deployed_at: $t, commit: $sha, build_run: $run, environment: $env, version: $version, version_date: $version_date}' > dist/api/v1/meta/deploy.json
           cat dist/api/v1/meta/deploy.json
       - name: Install R2 sync Worker dependencies
         run: npm ci --prefix workers/r2-sync
