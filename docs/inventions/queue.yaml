@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: razi-patient-group-comparison
+    label: "Al-Razi's reported intentional patient-group comparison and medical uncertainty"
+    state: "[x]"
+    batch: 2
+    domain: medicine-surgery
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-razi-abu-bakr", "work/al-hawi-fi-al-tibb", "source/razi-pormann-uncertainty-2013", "source/tibi-razi-comparison-jll"]
+    invention: invention/razi-patient-group-comparison
+    lead_sources:
+      - "Actual Pormann2013 complete journal paper370–372 and JLL commentary"
+      - "Actual Tibi commentary and selected translated Hawi passage; reverified inspected contextual1848 PD title image"
+    flags: [completed-D094-b53, distinct-from-disease-description-and-chemistry, reported-comparison-not-randomized-trial, no-treatment-endorsement-or-instructions, missing-cohort-data-not-invented, approximate-count-not-cure-rate, primary-arabic-image403-not-inspected, original-locator-discrepancy-retained, disputed-identity-retained, earlier-maker-ties-and-attribution-retained, different-book-context-image, paper-only]
   - id: zarqali-moving-solar-apogee
     label: "Al-Zarqali's moving solar-apogee and variable-eccentricity model"
     state: "[x]"
