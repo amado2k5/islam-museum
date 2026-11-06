@@ -1105,7 +1105,24 @@ candidates:
     domain: mathematics
     era: abbasid-golden
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.4"]
+    lead_sources:
+      - "founder-approved operative brief (2026-11-04) §6.4"
+      - "source/karaji-mactutor Biography (reported al-Samawal testimony; original not independently read)"
+    flags: [polynomial-arithmetic-context-covered-by-invention25, wider-triangle-priority-not-established, do-not-double-count-same-method, samawal-post-conversion-chronology-still-held]
+  - id: karaji-polynomial-arithmetic
+    label: "Al-Karaji's arithmetic on powers and composite algebraic expressions"
+    state: "[x]"
+    batch: 3
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    record: invention/karaji-polynomial-arithmetic
+    lead_sources:
+      - "source/karaji-mactutor Biography"
+      - "source/tdv-kereci pp. 277–278"
+      - "source/karaji-ataie-simmons-2020 p. 762 (named Muslim basis)"
+      - "source/karaji-woepcke-1853 printed pp. 3–4"
+    flags: [improvement-not-all-algebra, modern-notation-not-historical-transcription, no-general-polynomial-division, roots-restricted, retained-geometric-proofs, not-modern-rigorous-induction, explicit-sunni-default-not-personal-school]
   - id: decimal-fractions-al-uqlidisi-al-kashi
     label: "Decimal fractions associated with al-Uqlidisi and al-Kashi"
     state: "[~]"
