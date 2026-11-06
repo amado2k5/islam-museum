@@ -2,6 +2,19 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: kashi-muqarnas-mensuration
+    label: "Al-Kashi's modular muqarnas surface mensuration"
+    state: "[x]"
+    batch: 4
+    domain: mathematics
+    era: middle-period
+    from: scholarly-reference
+    records: ["person/al-kashi", "work/miftah-al-hisab-kashi", "source/dold-samplonius-muqarnas-1992", "source/kashi-mactutor", "source/tdv-kashi-okten"]
+    invention: invention/kashi-muqarnas-mensuration
+    lead_sources:
+      - "Actual selected Dold-Samplonius193–196,202–205,209–222,figure8p213visually inspected;actual MacTutor/TDV/Iranica"
+      - "Actual Commons description/APIrights and900pxAmirPashaeiQommuqarnasphoto inspected,CCBYSA4.0"
+    flags: [completed-D115-b74, not-invention-of-muqarnas, module-squared-conversion, plane-surface-versus-projection, curved-coefficient-average-not-universal-exact, historian-recomputation-differences-and-unknown-derivations-explicit, Arab-wage-application-hypothesis, no-primary-fullbook-editions-read, reported1427-0830-year-precision, original-maker-and-three-ties-preserved, later-context-photo-not-Kashi-building-or-method-use, no-structural-instructions]
   - id: khayyam-parallel-quadrilateral
     label: "Khayyam's quadrilateral reconstruction of parallels"
     state: "[x]"
