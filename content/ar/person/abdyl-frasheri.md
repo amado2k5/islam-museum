@@ -6,7 +6,7 @@ title: "عبدول فراشيري (1839–1892)"
 
 ## موجز
 
-عبدول فراشيري (1839 – 23 أكتوبر 1892)، واسمه الكامل عبدول دومه بك فراشيري، موظف وسياسي ألباني عثماني عاصر الحقبة الدستورية الأولى، وهو أكبر الإخوة فراشري الثلاثة وأحد أول المنظّرين الأيديولوجيين للصحوة الوطنية الألبانية.{cite:source/wikipedia-abdyl-frasheri-ar} أسس اللجنة المركزية للدفاع عن الحقوق الألبانية في إسطنبول، وكان من مؤسسي عصبة بريزرن وأبرز قادتها وناطقها في أوروبا.{cite:source/wikipedia-abdyl-frasheri-ar}{cite:source/wikipedia-abdyl-frasheri-en} ويظهر اسمه في سجلات الدولة العثمانية بصيغة عبد الله حسني.{cite:source/wikipedia-abdyl-frasheri-tr}
+عبدول فراشيري ⁦(1839 – 23 أكتوبر 1892)⁩، واسمه الكامل عبدول دومه بك فراشيري، موظف وسياسي ألباني عثماني عاصر الحقبة الدستورية الأولى، وهو أكبر الإخوة فراشري الثلاثة وأحد أول المنظّرين الأيديولوجيين للصحوة الوطنية الألبانية.{cite:source/wikipedia-abdyl-frasheri-ar} أسس اللجنة المركزية للدفاع عن الحقوق الألبانية في إسطنبول، وكان من مؤسسي عصبة بريزرن وأبرز قادتها وناطقها في أوروبا.{cite:source/wikipedia-abdyl-frasheri-ar}{cite:source/wikipedia-abdyl-frasheri-en} ويظهر اسمه في سجلات الدولة العثمانية بصيغة عبد الله حسني.{cite:source/wikipedia-abdyl-frasheri-tr}
 
 ## المسيرة
 
@@ -20,9 +20,9 @@ title: "عبدول فراشيري (1839–1892)"
 
 ## المراجع
 
-- ويكيبيديا (الإنجليزية)، "Abdyl Frashëri"، مراجعة 1376906185 (26 سبتمبر 2026) — source/wikipedia-abdyl-frasheri-en.
-- ويكيبيديا (الألبانية)، "Abdyl Frashëri"، مراجعة 3045780 (21 سبتمبر 2026) — source/wikipedia-abdyl-frasheri-sq.
-- ويكيبيديا (الألمانية)، "Abdyl Frashëri"، مراجعة 240871909 (5 يناير 2024) — source/wikipedia-abdyl-frasheri-de.
-- ويكيبيديا (التركية)، "Abdül Fraşeri"، مراجعة 37871496 (2 سبتمبر 2026) — source/wikipedia-abdyl-frasheri-tr.
-- ويكيبيديا (العربية)، «عبدول فراشيري»، مراجعة 73771020 (7 مارس 2026) — source/wikipedia-abdyl-frasheri-ar.
+- ويكيبيديا ⁦(الإنجليزية)⁩، "Abdyl Frashëri"، مراجعة 1376906185 ⁦(26 سبتمبر 2026)⁩ — source/wikipedia-abdyl-frasheri-en.
+- ويكيبيديا ⁦(الألبانية)⁩، "Abdyl Frashëri"، مراجعة 3045780 ⁦(21 سبتمبر 2026)⁩ — source/wikipedia-abdyl-frasheri-sq.
+- ويكيبيديا ⁦(الألمانية)⁩، "Abdyl Frashëri"، مراجعة 240871909 ⁦(5 يناير 2024)⁩ — source/wikipedia-abdyl-frasheri-de.
+- ويكيبيديا ⁦(التركية)⁩، "Abdül Fraşeri"، مراجعة 37871496 ⁦(2 سبتمبر 2026)⁩ — source/wikipedia-abdyl-frasheri-tr.
+- ويكيبيديا ⁦(العربية)⁩، «عبدول فراشيري»، مراجعة 73771020 ⁦(7 مارس 2026)⁩ — source/wikipedia-abdyl-frasheri-ar.
 - ويكيداتا، Q317988 — source/wikidata-abdyl-frasheri.
