@@ -1,20 +1,56 @@
 id: person/al-karaji
 class: person
 label:
+  ar: "أبو بكر الكرجي"
   en: Al-Karaji
-  ar: الكرخي أبو بكر
+  ur: "ابو بکر الکرجی"
+names:
+  - { value: "الكرخي أبو بكر", kind: alternate, lang: ar }
+  - { value: "Al-Karkhi", kind: alternate, lang: en }
 roles:
 - mathematician
 - engineer
 summary:
-  en: Persian mathematician and engineer who worked in Baghdad, a figure in early algebra.
-  ar: عالم رياضيات ومهندس فارسي عمل ببغداد، من أعلام علم الجبر في القرن الرابع الهجري.
+  ar: "رياضي ومهندس كتب أهم أعماله الرياضية ببغداد؛ وسّع العمليات على القوى والمقادير المركبة في الجبر، دون اكتمال النظرية الحديثة {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}. تصفه دراسة محكمة باسمه بأنه مسلم؛ ولا تثبت مذهبه الشخصي {cite:karaji-ataie-simmons-2020 p. 762}."
+  en: "Mathematician and engineer whose principal mathematical works were written in Baghdad; developed operations on powers and composite algebraic expressions, not the complete modern theory {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}. A peer-reviewed article explicitly identifies him as Muslim, not a personal school {cite:karaji-ataie-simmons-2020 p. 762}."
+  ur: "ریاضی دان و انجینئر جن کے اہم ریاضیاتی کام بغداد میں لکھے گئے؛ قوتوں اور مرکب جبری عبارتوں کے عملیات بڑھائے، مکمل جدید نظریہ نہیں بنایا {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}۔ محکم مقالہ انہیں نام لے کر مسلمان کہتا ہے، ذاتی مسلک نہیں بتاتا {cite:karaji-ataie-simmons-2020 p. 762}۔"
 wings: [people]
+regions: [levant-iraq, persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Muslim basis: Ataie-Ashtiani and Simmons2020 explicitly identify the named mathematician as Muslim on printed p762, section2. Not inferred from name, Persian origin, 'Islamic mathematician' or Buyid patronage. Sunni is separately the museum default of docs/scope.md for the documented Abbasid/Baghdad milieu, not an attested personal school. Sources read name no contrary personal affiliation; the Buyid context is retained, not labelled Sunni."
+    sources: [source/karaji-ataie-simmons-2020, source/tdv-kereci, source/karaji-mactutor]
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/karaji-mactutor, source/tdv-kereci] }
+inventions:
+  - invention: invention/karaji-polynomial-arithmetic
+    role: improver
+    place: place/baghdad
+    note: "Arithmetic operations on powers and composite expressions within earlier algebra; not invention of modern notation, general polynomial division or rigorous modern induction."
+    sources: [source/karaji-mactutor, source/tdv-kereci]
 external_ids:
   wikidata: Q461062
 sources:
 - source/sezgin-gas-v-mathematik
+- source/karaji-mactutor
+- source/tdv-kereci
+- source/karaji-ataie-simmons-2020
+- source/karaji-woepcke-1853
+provenance:
+  layer: own-research
+  generated_by: "Claude Haiku 5.5"
+  model: "Claude Haiku 5.5"
+  run: "Wikidata insertion, slice S9"
+  source: "Original scaffold attribution retained from status.generated_by; its Sezgin entry and Wikidata facts were not independently read for this enrichment."
+  extensions:
+    - generated_by: "Copilot SDK in VS Code"
+      model: "unknown"
+      run: "inventions-p3-b25"
+      source: "Actual MacTutor/TDV biographies; explicit named Muslim classification in HESS p762; actual Woepcke1853 printed3–4. No exact birth/death, certain birthplace or personal Sunni school testimony asserted."
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
   generated_by: Claude Haiku 5.5 (Wikidata insertion, slice S9)

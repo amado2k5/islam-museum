@@ -1,0 +1,118 @@
+id: invention/karaji-polynomial-arithmetic
+class: invention
+label: { ar: "حساب القوى والمقادير المركبة عند الكرجي", en: "Al-Karaji's polynomial arithmetic", ur: "الکرجی کا کثیر رکنی حساب" }
+names:
+  - { value: "arithmetization of algebra", kind: alternate, lang: en }
+summary:
+  ar: "تحسين في الجبر ببغداد أوائل القرن الحادي عشر: إجراء عمليات حسابية على القوى والمقادير المركبة، مع حدود في القسمة والجذور واستمرار براهين هندسية، لا اختراع الرموز الحديثة {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}."
+  en: "Early-eleventh-century Baghdad algebraic improvement: arithmetic on powers and composite expressions, with limits on division and roots and retained geometrical proofs; not invention of modern notation {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}."
+  ur: "گیارہویں صدی کے ابتدائی بغداد میں جبری بہتری: قوتوں اور مرکب عبارتوں پر حساب، تقسیم اور جذر کی حدود اور باقی ہندسی ثبوتوں کے ساتھ؛ جدید رموز کی ایجاد نہیں {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    derived: true
+    note: "Conservative century-level placement of al-Fakhri and related Baghdad work from the historical notice and TDV career/patronage account; not a precise composition, birth, death or manuscript-copy date. No Hijri year invented from this century-level placement."
+    sources: [source/karaji-woepcke-1853, source/tdv-kereci]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  context:
+    ar: "ألّف أهم أعماله الرياضية ببغداد؛ تربط TDV الفخري برعاية فخر الملك في العصر البويهي، ضمن العالم العباسي، لا بإثبات مذهب المؤلف {cite:tdv-kereci pp. 277–278} {cite:karaji-mactutor Biography}."
+    en: "Principal mathematical works written in Baghdad; TDV identifies Fakhr al-Mulk's Buyid-era patronage within the Abbasid world, not the author's personal sect {cite:tdv-kereci pp. 277–278} {cite:karaji-mactutor Biography}."
+    ur: "اہم ریاضیاتی کام بغداد میں؛ ٹی ڈی وی عباسی دنیا کے بویہی دور میں فخر الملک کی سرپرستی بتاتا ہے، مصنف کا ذاتی مسلک نہیں {cite:tdv-kereci pp. 277–278} {cite:karaji-mactutor Biography}۔"
+makers:
+  - person: person/al-karaji
+    role: improver
+    place: place/baghdad
+    note: "Arithmetic treatment of powers and composite algebraic quantities. Explicit named Muslim basis: Ataie-Ashtiani/Simmons p762; Sunni is the separately labelled museum default, not personal school attestation or an inference from Buyid patronage."
+    sources: [source/karaji-mactutor, source/tdv-kereci, source/karaji-ataie-simmons-2020]
+attribution:
+  status: improvement
+  claim:
+    ar: "توسيع أدوات الحساب للعمل على المجهولات والقوى والمقادير المركبة في تقليد سابق، لا تأسيس كل الجبر أو اكتمال نظريته الحديثة."
+    en: "Extended arithmetic tools to unknowns, powers and composite expressions within earlier algebra, not creation of all algebra or its complete modern theory."
+    ur: "پہلے الجبرا میں نامعلوم، قوتوں اور مرکب عبارتوں پر حسابی اوزار کا پھیلاؤ؛ پورے الجبرا یا مکمل جدید نظریے کی ایجاد نہیں۔"
+  basis:
+    ar: "تعرض ماكتوتر جمع المقادير المركبة وطرحها وضربها، مع قسمة أضيق واستخراج جذور مقيد؛ وتؤكد TDV بقاء البرهان الهندسي {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}."
+    en: "MacTutor describes addition, subtraction and multiplication of composite expressions, narrower division and restricted root extraction; TDV confirms retained geometrical demonstration {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}."
+    ur: "میک ٹیوٹر مرکب عبارتوں کا جمع، تفریق اور ضرب، محدود تقسیم اور مخصوص جذر بتاتا ہے؛ ٹی ڈی وی ہندسی برہان کے باقی رہنے کی تصدیق کرتا ہے {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "إطار المتحف السني المعلن: التصنيف تحسين يحفظ السابقين، وأساس الهوية المسلمة وصف صريح باسم العالم؛ لا يثبت ذلك مذهبه الشخصي ولا يجعل خلاف المؤرخين حكماً مذهبياً {cite:karaji-mactutor Biography} {cite:karaji-ataie-simmons-2020 p. 762}."
+        en: "Explicit Sunni museum frame: an improvement preserving predecessors, with a named explicit Muslim basis. This is not personal school evidence or an attributed Sunni judgement resolving historians' technical disagreement {cite:karaji-mactutor Biography} {cite:karaji-ataie-simmons-2020 p. 762}."
+        ur: "متحف کا واضح سنی فریم: سابقین کے ساتھ بہتری، اور نام زد واضح مسلم شناخت۔ یہ ذاتی مسلک کا ثبوت یا مؤرخین کے فنی اختلاف کو حل کرنے والا منسوب سنی حکم نہیں {cite:karaji-mactutor Biography} {cite:karaji-ataie-simmons-2020 p. 762}۔"
+      sources: [source/karaji-mactutor, source/karaji-ataie-simmons-2020]
+    - tradition: academic
+      id: arithmetic-autonomy
+      standing: main
+      summary:
+        ar: "تعرض ماكتوتر قراءة فوبكه ورشد راشد التي تبرز استقلال العمليات الجبرية عن التمثيل الهندسي؛ نقل عن هذه الدراسات، لا قراءة مستقلة لكاملها {cite:karaji-mactutor Biography}."
+        en: "MacTutor reports Woepcke's and Rashed's emphasis on the autonomy of algebraic operations from geometrical representation; those studies are reported, not independently read in full {cite:karaji-mactutor Biography}."
+        ur: "میک ٹیوٹر ووپکے اور رشدی راشد کی جبری عملیات کی ہندسی تمثیل سے آزادی پر زور دینے والی تعبیر نقل کرتا ہے؛ اصل مطالعات مکمل الگ نہیں پڑھے گئے {cite:karaji-mactutor Biography}۔"
+      sources: [source/karaji-mactutor]
+    - tradition: academic
+      id: retained-geometry
+      standing: main
+      summary:
+        ar: "تعرض ماكتوتر تحفظ كروسلي على محدودية المعادلات والبراهين وبقاء هندسة إقليدس؛ وتذكر TDV برهان الفخري الهندسي. لا يحسم المتحف الخلاف بعبارة «ألغى الهندسة» {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}."
+        en: "MacTutor reports Crossley's caution about limited equations/proofs and retained Euclidean geometry; TDV likewise notes geometrical proof in al-Fakhri. The museum does not resolve this by saying geometry was abolished {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}."
+        ur: "میک ٹیوٹر محدود مساوات و براهین اور باقی اقلیدسی ہندسہ پر کراسلی کا تحفظ نقل کرتا ہے؛ ٹی ڈی وی بھی الفخری میں ہندسی ثبوت بتاتا ہے۔ متحف اسے ہندسہ کے خاتمے کا فیصلہ نہیں بناتا {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}۔"
+      sources: [source/karaji-mactutor, source/tdv-kereci]
+precursors:
+  - invention: invention/algebra
+    note: "Al-Khwarizmi and subsequent Arabic algebraists supplied the algebraic setting; not a claim that al-Karaji invented algebra again."
+    sources: [source/karaji-mactutor]
+  - external: { ar: "الحساب الديوفانطي", en: "Diophantine arithmetic", ur: "دیوفنطس کا حساب" }
+    note: "A named earlier intellectual contribution, not a Muslim-maker priority claim."
+    sources: [source/karaji-mactutor]
+dependents:
+  - external: { ar: "تلقي السموأل وتطويره", en: "Al-Samawal's reception and development", ur: "سموأل کا استفادہ اور ترقی" }
+    note: "Later testimony and continuation as reported by MacTutor; no claim that every reported result survives in al-Karaji's own text, or about a particular post-conversion invention."
+    sources: [source/karaji-mactutor]
+spread: []
+impact:
+  fields: [mathematics]
+  changed:
+    ar: "جعل المقادير الجبرية مجالاً لعمليات منظمة على غرار الأعداد، دون قسمة عامة أو حل جميع الدرجات {cite:karaji-mactutor Biography}."
+    en: "Made algebraic expressions objects of organized number-like operations, without general division or solutions of every degree {cite:karaji-mactutor Biography}."
+    ur: "جبری عبارتوں کو اعداد کی طرح منظم عملیات کا موضوع بنایا، عمومی تقسیم یا ہر درجے کے حل کے بغیر {cite:karaji-mactutor Biography}۔"
+  history:
+    ar: "حلقة في انتقال مركز الثقل إلى حساب المقادير، تلقاها السموأل؛ ليست سلسلة مثبتة إلى كل جبر مدرسي أو برنامج حديث {cite:karaji-mactutor Biography}."
+    en: "A step toward arithmetic of expressions, received by al-Samawal; not a demonstrated direct chain to every school method or modern program {cite:karaji-mactutor Biography}."
+    ur: "عبارتوں کے حساب کی سمت ایک قدم جس سے سموأل نے استفادہ کیا؛ ہر درسی طریقے یا جدید پروگرام تک ثابت براہ راست سلسلہ نہیں {cite:karaji-mactutor Biography}۔"
+  significance: 4
+  why: "A substantial development of algebraic operations, distinguished from the earlier discipline, modern symbolism and stronger priority claims."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "تُشرح الفكرة اليوم بالرموز الحديثة؛ صورة2014 وسيلة تعليمية وليست شاهداً على كتابة الكرجي {cite:commons-polynomial-expansion Description; Licensing}."
+    en: "Modern symbols explain the principle today; the2014 image is a teaching aid, not evidence of al-Karaji's notation {cite:commons-polynomial-expansion Description; Licensing}."
+    ur: "آج جدید رموز سے اصول سمجھایا جاتا ہے؛2014 کی تصویر تدریسی مدد ہے، کرجی کی تحریر کی شہادت نہیں {cite:commons-polynomial-expansion Description; Licensing}۔"
+  descendants:
+    ar: "المشابهة بحساب كثيرات الحدود الحديث تعليمية؛ أصول النصوص والتلقي تحتاج أدلتها الخاصة {cite:karaji-mactutor Biography}."
+    en: "Comparison with modern polynomial arithmetic is explanatory; textual transmission requires its own evidence {cite:karaji-mactutor Biography}."
+    ur: "جدید کثیر رکنی حساب سے موازنہ توضیحی ہے؛ متنی انتقال اپنی الگ شہادت چاہتا ہے {cite:karaji-mactutor Biography}۔"
+media: { image: media/karaji-polynomial-expansion, diagram: media/diagram-karaji-polynomial-arithmetic }
+kids:
+  ar: "إذا ضربت مجموعاً في مجموع، فلكل جزء نصيبه من الضرب، ثم تجمع الأجزاء المتشابهة. الرموز هنا حديثة؛ الفكرة التاريخية هي تنظيم الحساب على مقادير لا نعرف قيمتها بعد."
+  en: "When multiplying one sum by another, every part must meet every part; then collect matching kinds. Our symbols are modern: the historical idea is organized arithmetic on quantities not yet known."
+  ur: "ایک مجموعے کو دوسرے سے ضرب دیں تو ہر حصہ ہر حصے سے ملتا ہے؛ پھر ہم جنس حصے جمع ہوتے ہیں۔ ہمارے رموز جدید ہیں، تاریخی خیال نامعلوم مقداروں پر منظم حساب ہے۔"
+sources: [source/karaji-mactutor, source/tdv-kereci, source/karaji-ataie-simmons-2020, source/karaji-woepcke-1853, source/commons-polynomial-expansion]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b25", source: "Actual MacTutor and TDV entries, HESS printed p762 identity paragraph, visually read Woepcke printed3–4 and inspected licensed modern image; no complete primary treatise, direct modern lineage or modern notation priority claimed" }
