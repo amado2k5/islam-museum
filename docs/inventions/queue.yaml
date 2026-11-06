@@ -1924,12 +1924,19 @@ candidates:
     lead_sources: ["founder-approved operative brief (2026-11-04) §4.1", "founder-approved operative brief (2026-11-04) §6.3"]
   - id: double-acting-suction-pump-al-jazari
     label: "Al-Jazari's double-acting suction pump"
-    state: "[~]"
+    state: "[x]"
     batch: 4
     domain: mechanics-automata
     era: middle-period
     from: founder-supplied-lead
-    lead_sources: ["founder-approved operative brief (2026-11-04) §6.3", "founder-approved operative brief (2026-11-04) §6.4"]
+    records: ["invention/jazari-double-piston-pump", "person/al-jazari-engineer", "source/tdv-cezeri", "source/fstc-jazari-mechanical-genius", "source/smg-jazari-double-pump", "media/jazari-double-pump-topkapi", "media/diagram-jazari-double-piston-pump"]
+    lead_sources:
+      - "founder-approved operative brief (2026-11-04) §6.3"
+      - "founder-approved operative brief (2026-11-04) §6.4"
+      - "source/tdv-cezeri pp. 505–506 final pump paragraph"
+      - "source/fstc-jazari-mechanical-genius pump discussion and figures 6–7"
+      - "source/smg-jazari-double-pump object 1976-482 catalogue"
+    flags: [specific-pump-improvement-not-all-pumps, book-date-1205-or-1206, priority-claim-attributed-not-globally-proven, half-size-model-not-original, no-direct-steam-engine-transfer-proven]
   - id: taqi-al-din-six-cylinder-pump
     label: "Taqi al-Din's six-cylinder pump"
     state: "[~]"

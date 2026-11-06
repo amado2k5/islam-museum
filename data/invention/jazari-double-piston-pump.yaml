@@ -1,0 +1,107 @@
+id: invention/jazari-double-piston-pump
+class: invention
+label:
+  ar: "مضخة الجزري المائية ذات المكبسين"
+  en: "Al-Jazari's waterwheel-driven double-piston pump"
+  ur: "جزری کا آبی پہیے سے چلنے والا دو پسٹن پمپ"
+names:
+  - { value: "Al-Jazari's double-acting suction pump", kind: alternate, lang: en }
+summary:
+  ar: "آلة لرفع الماء في كتاب الجزري: يدير التيار دولاباً وتروساً، وينقل مسمار وقضيب مشقوق الدوران إلى حركة ذراعي مكبسين ذهاباً وإياباً {cite:tdv-cezeri pp. 505–506}. الإسهام تركيب مضخة ذات فعل مزدوج وأنابيب امتصاص، لا اختراع رفع الماء كله؛ والنموذج في متحف العلوم إعادة بناء لا آلة أصلية {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}."
+  en: "A water-raising machine in al-Jazari's book: a stream drives a wheel and gears, and a pin with a slotted rod converts rotation into reciprocating piston-rod motion {cite:tdv-cezeri pp. 505–506}. The contribution is a double-acting suction-pump arrangement, not invention of all water lifting; the Science Museum's model is a reconstruction, not an original {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}."
+  ur: "جزری کی کتاب کی پانی اٹھانے والی مشین: بہاؤ پہیہ اور گیئر گھماتا، پن اور شگاف دار ڈنڈا گردش کو پسٹن سلاخوں کی آگے پیچھے حرکت میں بدلتے ہیں {cite:tdv-cezeri pp. 505–506}۔ نسبت دوہرے عمل اور چوسنے والی نالیوں کے خاص پمپ کی ہے، پانی اٹھانے کی کلی ایجاد نہیں؛ سائنس میوزیم کا ماڈل تعمیر نو ہے، اصل نہیں {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}۔"
+domain: mechanics-automata
+kind: device
+disciplines: [engineering]
+wings: [objects, ideas]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1205/1206"
+    calendar: julian
+    precision: year
+    status: debated
+    note: "Documentary horizon of the book, not a physical machine's proven construction year: TDV gives completion in 1205, al-Hassani's FSTC survey 1206. Preserve both rather than invent a day or silently harmonize. The Science Museum catalogue calls the published design c.1205; its half-size reconstruction is not medieval."
+    sources: [source/tdv-cezeri, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump]
+  status_today: transformed
+origin:
+  place: place/amid
+  polity: polity/artuqid-dynasty
+  context:
+    ar: "كتاب في سياق خدمة الجزري للبلاط الأرتقي بآمد؛ ليس لدينا في المصادر المقروءة موقع ورشة أو بئر بعينه لهذه المضخة {cite:tdv-cezeri pp. 505–506}."
+    en: "The book belongs to al-Jazari's Artuqid service at Amid; the sources read do not locate this pump at a particular workshop or well {cite:tdv-cezeri pp. 505–506}."
+    ur: "کتاب آمد میں جزری کی ارتقی خدمت کے سیاق سے ہے؛ پڑھے ماخذ اس پمپ کو کسی خاص کارخانے یا کنویں پر نہیں رکھتے {cite:tdv-cezeri pp. 505–506}۔"
+makers:
+  - person: person/al-jazari-engineer
+    role: improver
+    place: place/amid
+    note: "Author/engineer of the documented arrangement; not an attribution of every pump, gear, crank or water-lifting method."
+    sources: [source/tdv-cezeri, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump]
+attribution:
+  status: improvement
+  claim:
+    ar: "مضخة مركبة بفعل مزدوج وأنابيب امتصاص وتحويل دوران الدولاب إلى حركة المكبسين."
+    en: "An integrated double-acting suction-pump arrangement converting waterwheel rotation into piston motion."
+    ur: "آبی پہیے کی گردش کو پسٹن حرکت میں بدلنے والا دوہرے عمل اور چوسنے والی نالیوں کا مربوط پمپ۔"
+  basis:
+    ar: "تشرح TDV نقل الحركة وتعد الأنبوب أول استعمال معروف؛ هذه دعوى المرجع المسماة، لا برهان مستقل على كل مضخة سابقة في العالم. يشرح الحساني نموذج مضختين متزامنتين وتثبت مجموعة متحف العلوم نموذجاً نصف الحجم. يقتصر تصنيف المتحف على تحسين الآلة المعينة {cite:tdv-cezeri pp. 505–506} {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}."
+    en: "TDV explains the drive and calls the suction pipe the first known use: an attributed reference claim, not an independent global priority audit. Al-Hassani describes a synchronized pair and the Science Museum catalogues a half-size model. The museum classifies the particular machine as an improvement {cite:tdv-cezeri pp. 505–506} {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}."
+    ur: "ٹی ڈی وی حرکت سمجھاتا اور چوسنے کی نالی کو پہلا معلوم استعمال کہتا ہے؛ یہ مرجع کی منسوب رائے ہے، پوری دنیا کی اولینیت کی آزاد تحقیق نہیں۔ الحسنی ہم آہنگ دو پمپ اور سائنس میوزیم نصف حجم ماڈل بتاتے ہیں۔ نسبت خاص مشین کی بہتری تک محدود ہے {cite:tdv-cezeri pp. 505–506} {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}۔"
+  perspectives: []
+precursors:
+  - external:
+      ar: "تقاليد الهندسة ورفع الماء السابقة"
+      en: "Earlier engineering and water-raising traditions"
+      ur: "پہلے کی انجینئرنگ اور پانی اٹھانے کی روایت"
+    note: "TDV places the engineer in a Hellenistic-to-Banu-Musa tradition. This is context, not a demonstrated exact prototype of this pump."
+    sources: [source/tdv-cezeri]
+dependents:
+  - external:
+      ar: "إعادة بناء المضخة ودراستها"
+      en: "Pump reconstruction and study"
+      ur: "پمپ کی تعمیر نو اور مطالعہ"
+    note: "Science Museum Group catalogues half-size model 1976-482; no independently established transfer to a specific later steam engine is asserted."
+    sources: [source/smg-jazari-double-pump, source/fstc-jazari-mechanical-genius]
+spread: []
+impact:
+  fields: [mechanics-automata, water-agriculture]
+  changed:
+    ar: "تربط الآلة قوة الماء الجاري بعمل الرفع عبر تروس وذراعين، وتعد TDV آلات رفع الماء أهم اقتصادياً من آلات العرض؛ لا أرقام إنتاج أو وفورات موثقة لهذه المضخة {cite:tdv-cezeri pp. 505–506}."
+    en: "The machine connects flowing-water power to lifting through gears and rods. TDV judges water-raising machines economically more important than display devices; no measured output or savings for this pump are supplied {cite:tdv-cezeri pp. 505–506}."
+    ur: "مشین بہتے پانی کی قوت کو گیئر اور سلاخوں سے پانی اٹھانے میں لگاتی ہے۔ ٹی ڈی وی آبی اٹھان کو نمائشی آلات سے زیادہ معاشی اہمیت دیتا ہے؛ اس پمپ کی مقدار یا بچت کے اعداد نہیں دیتا {cite:tdv-cezeri pp. 505–506}۔"
+  history:
+    ar: "تستشهد TDV بالفعل المزدوج وتحويل الحركة وأنبوب الامتصاص في تقديرها لمكان المضخة في الهندسة الحديثة؛ يقدم المتحف هذا تقديراً منسوباً ولا يرسم سلسلة انتقال مثبتة إلى محرك بخاري بعينه {cite:tdv-cezeri pp. 505–506}."
+    en: "TDV emphasizes double action, motion conversion and suction in assessing the pump's place in modern engineering. This is an attributed assessment, not a documented transfer chain to a particular steam engine {cite:tdv-cezeri pp. 505–506}."
+    ur: "ٹی ڈی وی دوہرے عمل، حرکت کی تبدیلی اور چوسنے کو جدید انجینئرنگ میں اہم کہتا ہے۔ یہ منسوب جائزہ ہے، کسی خاص بھاپ انجن تک ثابت شدہ منتقلی نہیں {cite:tdv-cezeri pp. 505–506}۔"
+  significance: 3
+  why: "A specific, well-described water-raising arrangement with an inspectable historical drawing and museum reconstruction; this record is not a comprehensive history of pumps, cranks or engines."
+described_in: []
+examples: []
+sites: [place/amid]
+concepts: []
+today:
+  form:
+    ar: "نموذج نصف الحجم في مجموعة متحف العلوم، رقم 1976-482، من الخشب والنحاس والحديد والفولاذ؛ ليس مضخة من القرن الثالث عشر باقية {cite:smg-jazari-double-pump catalogue}."
+    en: "A half-size model in the Science Museum Group collection, 1976-482, made of wood, copper, iron and steel; not a surviving thirteenth-century pump {cite:smg-jazari-double-pump catalogue}."
+    ur: "سائنس میوزیم گروپ میں نصف حجم ماڈل 1976-482، لکڑی، تانبے، لوہے اور فولاد کا؛ تیرھویں صدی کا باقی اصل پمپ نہیں {cite:smg-jazari-double-pump catalogue}۔"
+  descendants:
+    ar: "دراسة وإعادة بناء مادية ورقمية، مع تمييز النموذج الحديث من رسم المخطوط {cite:smg-jazari-double-pump catalogue} {cite:fstc-jazari-mechanical-genius figures 6–7}."
+    en: "Physical and digital reconstructions and study, distinguished from the manuscript drawing {cite:smg-jazari-double-pump catalogue} {cite:fstc-jazari-mechanical-genius figures 6–7}."
+    ur: "مادی و ڈیجیٹل تعمیر نو اور مطالعہ، مخطوطے کے نقشے سے الگ {cite:smg-jazari-double-pump catalogue} {cite:fstc-jazari-mechanical-genius figures 6–7}۔"
+media:
+  image: media/jazari-double-pump-topkapi
+  diagram: media/diagram-jazari-double-piston-pump
+kids:
+  ar: "يدور دولاب مع جريان الماء، فتدير أسنانه ترساً آخر. يحول مسمار وقضيب مشقوق هذا الدوران إلى حركة ذراعين ذهاباً وإياباً لتشغيل المضخة. وصف الجزري هذه الآلة في كتابه؛ والنموذج الذي تعرضه مجموعة متحف العلوم إعادة بناء تساعد على فهم الفكرة، لا آلة أصلية من حياته."
+  en: "Flowing water turns a wheel, which turns another gear. A pin and slotted rod change the rotation into back-and-forth motion of two rods to work the pump. Al-Jazari described the machine in his book; the Science Museum's model is a reconstruction that helps explain it, not an original from his lifetime."
+  ur: "بہتا پانی پہیہ گھماتا ہے، اس کے دانت دوسرا گیئر چلاتے ہیں۔ پن اور شگاف دار ڈنڈا گردش کو دو سلاخوں کی آگے پیچھے حرکت میں بدل کر پمپ چلاتے ہیں۔ جزری نے کتاب میں مشین بیان کی؛ سائنس میوزیم کا ماڈل سمجھنے کے لیے تعمیر نو ہے، ان کی زندگی کی اصل مشین نہیں۔"
+sources: [source/tdv-cezeri, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b17"
+  source: "TDV pp. 505–506 pump paragraph, al-Hassani's actual survey/figures 6–7, and Science Museum Group 1976-482 catalogue read 2026-11-06. No numerical performance, worldwide priority or direct engine-transfer chain inferred."

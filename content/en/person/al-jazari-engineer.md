@@ -23,6 +23,8 @@ TDV places him in a tradition extending from Hellenistic engineering to the Banu
 An example is the [[invention/elephant-clock|elephant clock]]. The Met describes the rider and bird moving, a ball passing to a dragon and then a vessel and gong every half hour, and counting balls to determine elapsed time {cite:met-elephant-clock-575123 Catalogue Entry}. Features TDV assigns to another clock or a pump are not transferred to this machine.
 
 ## Surviving texts and images
+Another example is the [[invention/jazari-double-piston-pump|double-piston pump]]: flowing water drives a wheel and gears, with a pin and slotted rod converting rotation into reciprocating piston-rod motion {cite:tdv-cezeri pp. 505–506}. Al-Hassani explains a synchronized pair; the Science Museum holds a half-size model, not an original machine from al-Jazari's lifetime {cite:fstc-jazari-mechanical-genius pump discussion} {cite:smg-jazari-double-pump catalogue}. Al-Hassani gives book completion as 1206, against TDV's 1205. The pump record preserves the difference as a documentary date, not a dated physical installation {cite:fstc-jazari-mechanical-genius biography} {cite:tdv-cezeri pp. 505–506}.
+
 TDV records Donald Hill's complete English translation in 1974 and Ahmad Yusuf al-Hassan's Arabic edition in 1979 using the Bodleian and Istanbul copies {cite:tdv-cezeri pp. 505–506}. These are editions reported by the reference, not primary pages this article claims to have independently read.
 
 Met folio 57.51.23 preserves the elephant-clock image in a copy by Farrukh ibn Abd al-Latif, dated 715/1315, probably produced in Syria or Iraq {cite:met-elephant-clock-575123 Overview}. Copyist and original engineer-author are distinct. The page witnesses the book's transmission and illustration, not a surviving original machine.
@@ -30,3 +32,5 @@ Met folio 57.51.23 preserves the elephant-clock image in a copy by Farrukh ibn A
 ## References
 - Sadettin Ökten, “CEZERÎ, İsmâil b. Rezzâz”, TDV Encyclopedia of Islam, vol. 7, 1993, pp. 505–506. {cite:tdv-cezeri pp. 505–506}
 - Metropolitan Museum of Art, Elephant Clock, 57.51.23, metadata and Francesca Leoni's catalogue entry. {cite:met-elephant-clock-575123 Catalogue Entry}
+- Salim al-Hassani, “Al-Jazari: The Mechanical Genius”, pump discussion, drawing and model. {cite:fstc-jazari-mechanical-genius pump discussion}
+- Science Museum Group, double-piston pump model, 1976-482. {cite:smg-jazari-double-pump catalogue}
