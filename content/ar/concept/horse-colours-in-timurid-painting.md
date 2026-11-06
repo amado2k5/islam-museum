@@ -12,7 +12,7 @@ translators: []
 كانت الخيول الوسيلة الأولى للحركة في السلم والحرب، وكانت الفروسية من سمات الحكام والسلاطين، وتُمارَس بوصفها رياضة ومتعة وصيداً ووسيلة رزق {cite:fayed-horse-colours-timurid-painting 246}. ولأن الفنان يتأثر ببيئته، فإن خيل الصور تحمل أثر الخيل التي كان يراها {cite:fayed-horse-colours-timurid-painting 246}.
 
 ## مجموعات الألوان
-تقسم الباحثة الألوان إلى أربع مجموعات: الأشهب (الأبيض) وهو أولها {cite:fayed-horse-colours-timurid-painting 247}، ثم الأحمر (ومنه الكميت والأشقر) {cite:fayed-horse-colours-timurid-painting 248}، ثم الأصفر {cite:fayed-horse-colours-timurid-painting 249}، ثم الأسود (ومنه الأدهم) {cite:fayed-horse-colours-timurid-painting 249}. انظر [[concept/al-ashhab|الأشهب]] و[[concept/al-kumayt|الكميت]] و[[concept/al-asfar|الأصفر]] و[[concept/al-adham|الأدهم]].
+تقسم الباحثة الألوان إلى أربع مجموعات: الأشهب ⁦(الأبيض)⁩ وهو أولها {cite:fayed-horse-colours-timurid-painting 247}، ثم الأحمر ⁦(ومنه الكميت والأشقر)⁩ {cite:fayed-horse-colours-timurid-painting 248}، ثم الأصفر {cite:fayed-horse-colours-timurid-painting 249}، ثم الأسود ⁦(ومنه الأدهم)⁩ {cite:fayed-horse-colours-timurid-painting 249}. انظر [[concept/al-ashhab|الأشهب]] و[[concept/al-kumayt|الكميت]] و[[concept/al-asfar|الأصفر]] و[[concept/al-adham|الأدهم]].
 
 ## الشيات
 الشِّية كل لون يخالف اللون الغالب على الفرس، والفرس الذي لا شية فيه بهيم مصمت {cite:fayed-horse-colours-timurid-painting 250}. وتذكر الباحثة أن خيول سمرقند وهراة كانت مستوردة من ختلان، وأنها تحمل الشيات، فظهرت الغرر والتحجيل في صور المدينتين {cite:fayed-horse-colours-timurid-painting 250}. انظر [[concept/al-shiya|الشية]] و[[concept/al-ghurra|الغرة]] و[[concept/al-tahjil|التحجيل]].

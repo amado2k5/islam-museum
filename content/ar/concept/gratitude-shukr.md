@@ -31,6 +31,6 @@ translators: []
 
 ## من درس الشيخ عمر عبد الكافي: الدين القيم
 
-يقارن الشيخ بين البخيل الذي يُمسك ماله كله، والشاكر الذي يرى في ماله حق الفقراء، ويضرب مثلا بأرقام من المال (needs_source: الأرقام) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:08:30}. ويقول إن المؤمن الصادق يرى ما عنده من حقوق الآخرين، وإن مدّعي الإيمان يرى ما يؤخذ منه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:09:00}.
+يقارن الشيخ بين البخيل الذي يُمسك ماله كله، والشاكر الذي يرى في ماله حق الفقراء، ويضرب مثلا بأرقام من المال ⁦(needs_source: الأرقام)⁩ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:08:30}. ويقول إن المؤمن الصادق يرى ما عنده من حقوق الآخرين، وإن مدّعي الإيمان يرى ما يؤخذ منه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:09:00}.
 
-ويرى الشيخ، وهذا رأي شخصي له، أن الدنيا ابتلاء، وأن النجاح يُقابل بالشكر، وأن من لا يشكر يُضيّع ما عنده {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:45:00}. ويذكر مثل القرية التي كانت آمنة مطمئنة يأتيها رزقها رغدا، فكفرت بنعم الله، فأصابها الجوع والخوف (needs_source: التفسير) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:17:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:18:30}.
+ويرى الشيخ، وهذا رأي شخصي له، أن الدنيا ابتلاء، وأن النجاح يُقابل بالشكر، وأن من لا يشكر يُضيّع ما عنده {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:45:00}. ويذكر مثل القرية التي كانت آمنة مطمئنة يأتيها رزقها رغدا، فكفرت بنعم الله، فأصابها الجوع والخوف ⁦(needs_source: التفسير)⁩ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:17:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:18:30}.

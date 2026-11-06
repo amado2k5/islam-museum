@@ -12,7 +12,7 @@ provenance:
   source: "source/nuhad-es-said-collection-islamic-metalwork-1985 scan pp. 2, 3, 5, 7, 11, 13, 19, 31"
 ---
 ## موجز
-يصف كتيب مجموعة نهاد السعيد (الرياض 1985) تطعيم أواني النحاس الأصفر والبرونز بالذهب والفضة والنحاس بأنه تطور في الحضارة الإسلامية تطورًا لا نظير له، وأن ثراء أثره وتكامل الزخرفة مع السطح والشكل والقدرة على تنفيذ أعقد الأنماط بتقنية صعبة تجسد المثل العليا للتقليد الفني الإسلامي. {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 2} {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 3}
+يصف كتيب مجموعة نهاد السعيد ⁦(الرياض 1985)⁩ تطعيم أواني النحاس الأصفر والبرونز بالذهب والفضة والنحاس بأنه تطور في الحضارة الإسلامية تطورًا لا نظير له، وأن ثراء أثره وتكامل الزخرفة مع السطح والشكل والقدرة على تنفيذ أعقد الأنماط بتقنية صعبة تجسد المثل العليا للتقليد الفني الإسلامي. {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 2} {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 3}
 
 ## مراكزه بحسب الكتيب
 - **هراة**: أول مركز كبير نضج فيه في النصف الثاني من القرن الثاني عشر؛ ومن قطعها محابر وسلطانيات من سبيكة رباعية المعادن أو برونز عالي القصدير، مطعمة بالفضة والنحاس ومادة سوداء. {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 3} {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 5} {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 7}

@@ -29,13 +29,13 @@ translators: []
 
 ## رأي الشيخ: الكلام بعلم وعمل
 يقول الشيخ إن لسان الحال أبلغ من لسان المقال، ويضرب مثلاً بولد وعد أباه بالدراسة ثم خالفت أفعاله قوله. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:26:30}
-ويقول إن التواضع يجب أن يُعمَل به لا أن يُقال فقط، ويستشهد بقول منسوب للشافعي في أنه يتمنى أن يظهر الحق على لسان غيره (needs_source: القول لم يُسنَد في التسجيل). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:25:30}
+ويقول إن التواضع يجب أن يُعمَل به لا أن يُقال فقط، ويستشهد بقول منسوب للشافعي في أنه يتمنى أن يظهر الحق على لسان غيره ⁦(needs_source: القول لم يُسنَد في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:25:30}
 ويذكر آية في النهي عن الخوض فيما لا علم فيه، ولا يسمّي سورتها في التسجيل. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:29:30}
-ويذكر أن الناس يتكلمون كثيراً فيقعون فيما ينبغي تركه، ويستشهد بخبر عن عائشة في قلة كلام أبي بكر (needs_source: الخبر لم يُسنَد في التسجيل). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:42:00}
+ويذكر أن الناس يتكلمون كثيراً فيقعون فيما ينبغي تركه، ويستشهد بخبر عن عائشة في قلة كلام أبي بكر ⁦(needs_source: الخبر لم يُسنَد في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:42:00}
 
 ## تغيير المنكر باللسان
 يقول الشيخ إن تغيير المنكر باللسان نصيحة رفيقة، كأن ينصح الإنسان ولداً مدلّلاً، وإن من لم يستطع أن يعمل فكراهة المنكر بالقلب درجة من الإيمان، ويستشهد بحديث في ذلك. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:44:00}
 ويسأل الشيخ هل يسلم الناس من نميمة السامعين، ويذكر حديثاً في أن المسلم من سلم الناس من لسانه ويده. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:30:30}
 
-## من سلسلة «نفحات رمضانية» (آفات اللسان) لعمر عبد الكافي
+## من سلسلة «نفحات رمضانية» ⁦(آفات اللسان)⁩ لعمر عبد الكافي
 في ختام سلسلة «آفات اللسان» يجمع الشيخ وسائل حفظ اللسان: تعظيم حرمات الله، وتذكّر الموت، وقيام الليل، وتعويد النفس الصمت، وصحبة الصالحين، والاشتغال بعيوب النفس، وكثرة الطاعات. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:01:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:02:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:04:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:05:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:05:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:07:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:09:00} ويستشهد بأحاديث في أن من صمت نجا، وأن الإنسان سالم ما سكت، وبالأمر بإمساك اللسان. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:05:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:05:30} والتفصيل في [[concept/afat-al-lisan|آفات اللسان]].
