@@ -153,6 +153,7 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's Jami' al-Bayan (Shakir edition), volume 14, pp. 84-90 filed in Arabic, English and Urdu (reports 16343-16354): 8:73 and 8:74 in full (the unbelievers as allies, the two readings of the strife clause and al-Tabari's choice, the true believers and the provision of Paradise) and 8:75 to the foot of p. 90 (those who believed later, the kinship verse, the case of Shurayh), cited as {cite:tafsir-tabari-shakir-v14 p. 90}; the next stop is p. 91. Statements are given as transmitted with no museum verdict.
 
 ### Data
+- Tafsir Browser: al-Tabari vol. 11, batch 90 (pp. 505-511, reports 13513-13515): 6:83 end, 6:84, 6:85 and 6:86 begun Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 89 (pp. 498-504, reports 13487-13512): 6:82 end and 6:83 begun Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 88 (pp. 491-497, reports 13467-13486): 6:81 end and 6:82 (belief mixed with wrong, up to report 13486) Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 87 (pp. 484-490, reports 13465-13467): 6:76 end, 6:77, 6:78, 6:79, 6:80 and the start of 6:81 Arabic, English and Urdu.
