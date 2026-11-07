@@ -252,6 +252,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 13680-13696): verses 100 to 102 are filed in full and verse 103 is begun at p. 13 (stop sentence at the foot). Next is report 13696 (Atiyya al-Awfi) continuing on p. 14.
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 13696-13701): verse 103 (the perception of the eyes) is filed to the foot of p. 20, where al-Tabari begins his reply to the deniers of the vision. Stop sentence at the foot.
 - Batch 3: pp. 21-27 filed in ar, en and ur (reports 13702-13711): verse 103 closes at p. 23, verse 104 is filed in full, and verse 105 is begun (the readings of 'darasta') to the foot of p. 27. Stop sentence at the foot.
+- Batch 4: pp. 28-34 filed in ar, en and ur (reports 13712-13740): verse 105 closes at p. 31, verses 106 and 107 are filed in full, and verse 108 is begun (the Abu Talib report) to the foot of p. 34. Stop sentence at the foot.
 
 ## Volume 10 progress
 - Volume 10 (`waqtaftab-taftab10`, 634 markers): the title page (marker 4) names sura al-Ma'ida 5:6 to 5:94 and reports 11300 to 12543; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (5:6, rising for prayer). The marker-to-printed-page map is the identity (page numbers in the headers agree from p. 8 on). Cite `{cite:tafsir-tabari-shakir-v10 p. N}` by printed number. The source record `source/tafsir-tabari-shakir-v10` already exists.
