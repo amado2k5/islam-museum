@@ -4,24 +4,44 @@ kind: school
 label:
   ar: "معهد المغرب"
   en: "AlMaghrib Institute"
+  ur: "المغرب انسٹی ٹیوٹ"
 summary:
-  ar: "معهد أمريكي لتعليم العلوم الشرعية للناطقين بالإنجليزية أسسه محمد الشريف 2002؛ نظام دورات مطلع الأسبوع انتشر عالمياً."
-  en: "American institute teaching Islamic sciences to English speakers, founded 2002 by Muhammad Alshareef; its weekend-seminar model spread globally."
-wings: [made]
+  ar: "مؤسسة أمريكية غير ربحية لتعليم العلوم الإسلامية بالإنجليزية، أسسها محمد الشريف في هيوستن بتكساس سنة 2002، تقدّم دورات مكثفة في عطلتي نهاية أسبوع أو في عطلة واحدة، وأكثر مدرّسيها من خريجي الجامعة الإسلامية بالمدينة المنورة، ومنهم ياسر قاضي وعمر سليمان؛ واجهت تدقيقًا علنيًا بعد 2009 وردّت عليه بإدانة التطرف."
+  en: "An American non-profit teaching Islamic studies in English, founded by Muhammad AlShareef in Houston, Texas, in 2002, offering intensive two-weekend and one-weekend seminars; most of its instructors are graduates of the Islamic University of Madinah, among them Yasir Qadhi and Omar Suleiman; it faced public scrutiny after 2009 and answered it by condemning extremism."
+  ur: "انگریزی میں اسلامی علوم پڑھانے والا امریکی غیر منافع بخش ادارہ، جسے محمد الشریف نے 2002 میں ہیوسٹن، ٹیکساس میں قائم کیا؛ دو یا ایک ویک اینڈ کے گہرے سیمینار؛ اکثر اساتذہ جامعہ اسلامیہ مدینہ منورہ کے فاضل، جن میں یاسر قاضی اور عمر سلیمان ہیں؛ 2009 کے بعد عوامی جانچ کا سامنا کیا اور انتہا پسندی کی مذمت سے جواب دیا۔"
+wings: [made, today]
 categories: [education]
 regions: [americas-oceania]
 founded:
-  edtf: '2002'
+  edtf: "2002"
+  hijri: "1423~"
   calendar: gregorian
   precision: year
+  status: debated
+  derived: true
+  note: "Founded in Houston in 2002 by the article's text (IRS Form 990 and Bunt, iMuslims, as cited); its infobox gives 2001; both kept. The Hijri year (1422 to 1423) is converter-derived."
+  sources: [source/wikipedia-almaghrib-en]
 made:
   by_muslims: true
   basis: documented
-  sources: [source/wikidata]
+  sources: [source/wikipedia-almaghrib-en]
+status_business: active
+location: { serves: [us, global] }
+links:
+  official: "https://www.almaghrib.org"
+footprint:
+  wikidata: "Q4703419"
+relations:
+  - { type: related_to, target: person/yasir-qadhi, note: "instructor; answered the 2009 scrutiny", sources: [source/wikipedia-almaghrib-en] }
+  - { type: related_to, target: person/omar-suleiman, note: "instructor", sources: [source/wikipedia-almaghrib-en] }
+  - { type: related_to, target: person/waleed-basyouni, note: "vice-president; stated its condemnation of extremism", sources: [source/wikipedia-almaghrib-en] }
 external_ids:
   wikidata: Q4703419
-sources: [source/wikidata]
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+sources: [source/wikipedia-almaghrib-en, source/wikidata]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'AlMaghrib Institute' (revision 1362862392), read in Chrome on the founder's Mac on 7 November 2026; enriches the draft of the listings lane on the same id; written in the web section at the founder's approval of 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b12
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
