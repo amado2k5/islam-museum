@@ -26,6 +26,6 @@ Reports 11738 and 11739, from Ibn Mas'ud, give the Prophet's saying that no soul
 
 Al-Tabari holds that this report from the Prophet shows al-Hasan's view, that the two were not Adam's sons from his loins but men of the Children of Israel, and what was reported from him that Adam was first to die and that sacrifice was in Israel's time, to be wrong.  {cite:tafsir-tabari-shakir-v10 p. 219}
 
-We stop here at the foot of p. 219, in al-Tabari's argument that the Prophetic report shows al-Hasan's view wrong; the rest of verse 29 follows in the next batch.
+Al-Tabari completes his argument: the Prophetic report shows that al-Hasan's view, including that sacrifice belonged to the time of the Children of Israel, is mistaken, because the Prophet said of this killer that he was the first to establish killing, and killing no doubt existed before Israel, let alone his descendants; it is wrong to say the first to establish killing was a man of the Children of Israel. The sound view is that he was Adam's son from his loins, for whom God made binding the punishment we have relayed from the Prophet.  {cite:tafsir-tabari-shakir-v10 p. 220}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
