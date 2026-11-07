@@ -463,33 +463,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/salman-al-farisi
 - [x] person/sawad-ibn-ghaziyya
 
-## Draft records (68)
+## Draft batch D09 (25 entities)
 
-- [ ] person/sawda-bint-zama
-- [ ] person/shaddad-ibn-abdullah-al-qanani
-- [ ] person/shuja-ibn-wahb
-- [ ] person/silkan-ibn-salama
-- [ ] person/sinan-ibn-abi-sinan
-- [ ] person/sufyan-ibn-abdullah-al-thaqafi
-- [ ] person/sufyan-ibn-awf
-- [ ] person/suhayl-ibn-bayda
-- [ ] person/sumayya-bint-khayyat
-- [ ] person/suraqa-ibn-al-harith
-- [ ] person/suraqa-ibn-amr-mutah
-- [ ] person/suwaybit-ibn-saad
-- [ ] person/talha-ibn-ubaydullah
-- [ ] person/tamim-al-dari
-- [ ] person/thabit-ibn-al-dahhak-al-ashhali
-- [ ] person/thabit-ibn-amr
-- [ ] person/thabit-ibn-aqram
-- [ ] person/tufayl-ibn-amr-al-dawsi
-- [ ] person/tulayb-ibn-umayr
-- [ ] person/ubada-ibn-al-khashkhash
-- [ ] person/ubada-ibn-al-samit
-- [ ] person/ubayda-ibn-al-harith
-- [ ] person/ukasha-ibn-mihsan
-- [ ] person/umayr-ibn-abi-waqqas
-- [ ] person/umayr-ibn-al-humam
+- [x] person/sawda-bint-zama
+- [x] person/shaddad-ibn-abdullah-al-qanani
+- [x] person/shuja-ibn-wahb
+- [x] person/silkan-ibn-salama
+- [x] person/sinan-ibn-abi-sinan
+- [x] person/sufyan-ibn-abdullah-al-thaqafi
+- [x] person/sufyan-ibn-awf
+- [x] person/suhayl-ibn-bayda
+- [x] person/sumayya-bint-khayyat
+- [x] person/suraqa-ibn-al-harith
+- [x] person/suraqa-ibn-amr-mutah
+- [x] person/suwaybit-ibn-saad
+- [x] person/talha-ibn-ubaydullah
+- [x] person/tamim-al-dari
+- [x] person/thabit-ibn-al-dahhak-al-ashhali
+- [x] person/thabit-ibn-amr
+- [x] person/thabit-ibn-aqram
+- [x] person/tufayl-ibn-amr-al-dawsi
+- [x] person/tulayb-ibn-umayr
+- [x] person/ubada-ibn-al-khashkhash
+- [x] person/ubada-ibn-al-samit
+- [x] person/ubayda-ibn-al-harith
+- [x] person/ukasha-ibn-mihsan
+- [x] person/umayr-ibn-abi-waqqas
+- [x] person/umayr-ibn-al-humam
+
+## Draft records (43)
+
 - [ ] person/umayr-ibn-sad
 - [ ] person/umayra-ibn-malik-al-kharifi
 - [ ] person/umm-amr-bint-jundub

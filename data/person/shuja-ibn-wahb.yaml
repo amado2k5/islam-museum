@@ -22,6 +22,11 @@ faith:
 relations:
   - { type: member_of, target: group/muhajirun }
   - { type: participated_in, target: event/letters-to-rulers-and-kings, role: "سفير النبي إلى الغساسنة", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-sad-tabaqat-bewley]}
 external_ids: { wikidata: "Q12218402" }
 sources: [source/ansab-al-ashraf, source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-sad-tabaqat-bewley]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 360" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), p. 360"
+  generated_by: "Devin"
