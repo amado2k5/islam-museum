@@ -198,33 +198,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/shayba-ibn-uthman
 - [x] person/shurahbil-ibn-hasana
 
-## Remaining published records (32)
+## Batch 08 (25 entities)
 
-- [ ] person/subaya-bint-al-harith-al-aslamiyya
-- [ ] person/sudayy-ibn-ajlan-al-bahili
-- [ ] person/sufyan-ibn-mamar-jumahi
-- [ ] person/suhayb-ibn-sinan
-- [ ] person/surad-ibn-abdullah-al-azdi
-- [ ] person/suwayd-ibn-al-numan
-- [ ] person/thabit-ibn-al-jid
-- [ ] person/ulba-ibn-zayd
-- [ ] person/umar-ibn-al-khattab
-- [ ] person/umara-ibn-hazm
-- [ ] person/umayr-ibn-adi-al-khatmi
-- [ ] person/umayr-ibn-habib-ibn-humasha
-- [ ] person/umm-al-mundhir-salma-bint-qays
-- [ ] person/umm-habiba-bint-abi-sufyan
-- [ ] person/umm-harmala-bint-abd-al-aswad
-- [ ] person/umm-hisham-bint-haritha
-- [ ] person/umm-kulthum-bint-suhayl
-- [ ] person/umm-sinan-al-aslamiyya
-- [ ] person/unayf-ibn-milla
-- [ ] person/urwa-ibn-abd-al-uzza
-- [ ] person/utarid-ibn-hajib
-- [ ] person/utba-ibn-masoud
-- [ ] person/uthman-ibn-abd-ghanm
-- [ ] person/uthman-ibn-affan
-- [ ] person/uthman-ibn-rabi
+- [x] person/subaya-bint-al-harith-al-aslamiyya
+- [x] person/sudayy-ibn-ajlan-al-bahili
+- [x] person/sufyan-ibn-mamar-jumahi
+- [x] person/suhayb-ibn-sinan
+- [x] person/surad-ibn-abdullah-al-azdi
+- [x] person/suwayd-ibn-al-numan
+- [x] person/thabit-ibn-al-jid
+- [x] person/ulba-ibn-zayd
+- [x] person/umar-ibn-al-khattab
+- [x] person/umara-ibn-hazm
+- [x] person/umayr-ibn-adi-al-khatmi
+- [x] person/umayr-ibn-habib-ibn-humasha
+- [x] person/umm-al-mundhir-salma-bint-qays
+- [x] person/umm-habiba-bint-abi-sufyan
+- [x] person/umm-harmala-bint-abd-al-aswad
+- [x] person/umm-hisham-bint-haritha
+- [x] person/umm-kulthum-bint-suhayl
+- [x] person/umm-sinan-al-aslamiyya
+- [x] person/unayf-ibn-milla
+- [x] person/urwa-ibn-abd-al-uzza
+- [x] person/utarid-ibn-hajib
+- [x] person/utba-ibn-masoud
+- [x] person/uthman-ibn-abd-ghanm
+- [x] person/uthman-ibn-affan
+- [x] person/uthman-ibn-rabi
+
+## Remaining published records (7)
+
 - [ ] person/uyayna-ibn-hisn
 - [ ] person/yamin-ibn-umayr-al-nadri
 - [ ] person/yazid-ibn-abd-al-madan

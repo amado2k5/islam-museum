@@ -24,6 +24,7 @@ relations:
   - { type: participated_in, target: event/delegation-of-banu-tamim, role: "رأس الوفد وخطيبه", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/sariyya-of-uyayna-to-banu-tamim, role: orator-of-the-tamim-delegation, sources: [source/mubarakpuri-raheeq] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 206-208; al-Raheeq al-Makhtum pp. 425-426", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
 status: { review: published, completeness: 3 }
