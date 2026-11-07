@@ -30,6 +30,8 @@ On "whoever among you takes them as allies is one of them" al-Tabari says that w
 
 He gives reports 12161 to 12164 for this: Ibn 'Abbas was asked about the slaughtered meat of the Arab Christians and recited the verse (12161); it concerns slaughtered meat, whoever enters a people's religion is one of them (12162); eat the slaughter of Banu Taghlib and marry their women, since if they were of them only by alliance they would still be of them (12163); al-Hasan saw no harm in the slaughter of Arab Christians or marrying their women and recited the verse (12164). The notes identify al-Ru'asi, Humayd ibn 'Abd al-Rahman, as reliable, and correct the name Husayn ibn 'Ali al-Ju'fi.  {cite:tafsir-tabari-shakir-v10 p. 401}
 
-We stop here at the foot of p. 401, at the start of report 12165 (Ibn al-Mubarak), after al-Hasan on the slaughtered meat of the Arab Christians; the rest of verse 51 follows in the next batch, from p. 402.
+**Commentary on verse 51, continued: "God does not guide the wrongdoing people", p. 402**
+
+Report 12165, from Ibn Sirin, says he was asked about a man who sells his house to Christians who will make it a church, and he recited the verse "do not take the Jews and Christians as allies". On "God does not guide the wrongdoing people" al-Tabari says God does not grant success to one who puts alliance in the wrong place by allying with the Jews and Christians against the believers, in spite of their enmity to God, His messenger and the believers, and being their helper and supporter, for whoever allies with them is at war with God, His messenger and the believers; wrongdoing is putting a thing in the wrong place.  {cite:tafsir-tabari-shakir-v10 p. 402}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
