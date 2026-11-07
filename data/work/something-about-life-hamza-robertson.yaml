@@ -1,0 +1,40 @@
+id: work/something-about-life-hamza-robertson
+class: work
+kind: album
+label: { ar: "Something About Life ⁦(ألبوم حمزة روبرتسون، 2007)⁩", en: "Something About Life", ur: "سم تھنگ اباؤٹ لائف ⁦(حمزہ رابرٹسن کا البم، 2007)⁩" }
+summary:
+  ar: "الألبوم الأول للمغني الإنجليزي حمزة روبرتسون، صدر عن أوايكننغ في 3 يوليو 2007 بتسع أغان بالإنجليزية والعربية، يمزج أصوات الشرق والغرب، ومن أغانيه «Our Creation» و«He Is One» و«Morning Prayer» و«O Allah»."
+  en: "The English singer Hamza Robertson's debut album, released by Awakening on 3 July 2007 with nine songs in English and Arabic, blending the sounds of East and West; its songs include 'Our Creation', 'He Is One', 'Morning Prayer' and 'O Allah'."
+  ur: "انگریز گلوکار حمزہ رابرٹسن کا پہلا البم، 3 جولائی 2007 کو اویکننگ سے انگریزی اور عربی کے نو گیتوں کے ساتھ جاری ہوا، جو مشرق و مغرب کی آوازوں کو ملاتا ہے۔"
+wings: [today, words]
+themes: [music]
+regions: [andalus-europe]
+genre: [nasheed, religious-pop]
+composed: { edtf: "2007-07-03", hijri: "1428", calendar: gregorian, precision: day, derived: true, note: "Release date in the English article, citing The Nasheed Shop and Islamic Bookstore.com. The Hijri year is converter-derived.", sources: [source/wikipedia-something-about-life-en, source/wikidata-something-about-life] }
+languages: [en, ar]
+publisher: listing/awakening-records
+duration: 2036
+tracks:
+  - { n: 1, title: { en: "Our Creation" }, duration_s: 249, sources: [source/wikipedia-something-about-life-en] }
+  - { n: 2, title: { en: "Your Beauty" }, duration_s: 201, sources: [source/wikipedia-something-about-life-en] }
+  - { n: 3, title: { en: "Show Me" }, duration_s: 318, sources: [source/wikipedia-something-about-life-en] }
+  - { n: 4, title: { en: "He Is One" }, duration_s: 183, sources: [source/wikipedia-something-about-life-en] }
+  - { n: 5, title: { en: "Morning Prayer" }, duration_s: 228, sources: [source/wikipedia-something-about-life-en] }
+  - { n: 6, title: { en: "My Hero" }, duration_s: 191, sources: [source/wikipedia-something-about-life-en] }
+  - { n: 7, title: { en: "Everyday" }, duration_s: 206, sources: [source/wikipedia-something-about-life-en] }
+  - { n: 8, title: { en: "The Mountain" }, duration_s: 260, sources: [source/wikipedia-something-about-life-en] }
+  - { n: 9, title: { en: "O Allah" }, duration_s: 200, sources: [source/wikipedia-something-about-life-en] }
+footprint:
+  wikipedia: { languages: [ar, bn, en, fa, fr], checked: "2026-11-07", sources: [source/wikidata-something-about-life] }
+  wikidata: "Q15116414"
+relations:
+  - { type: published_by, target: listing/awakening-records, sources: [source/wikipedia-something-about-life-en, source/wikidata-something-about-life] }
+external_ids: { wikidata: "Q15116414" }
+sources: [source/wikipedia-something-about-life-en, source/wikidata-something-about-life, source/wikipedia-awakening-music-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Something About Life' (revision 1275374021 of 12 February 2025, a stub tagged for notability, citing retailers and the label) and Wikidata Q15116414 (revision 2227201686), read in Chrome on the founder's Mac on 7 November 2026; the infobox gives 33:56 and the track list adds to 34:56, the infobox kept"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b05
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
