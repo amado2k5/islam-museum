@@ -34,6 +34,14 @@ Qatada and al-Hasan said as follows: report 11797, from al-Hasan, says that this
 
 Report 11801, from Khalid Abu al-Fadl, says al-Hasan recited the verses from "his soul led him on" to "as if he had given life to all people" and said God made the burden great and the reward attractive as you hear, and that if you think, son of Adam, that were you to kill all people you still have deeds to save you from the Fire, your soul has lied to you by God and the devil has lied to you. Report 11802, from al-Hasan, says that "as if he killed all people" is a burden and "as if he gave life" is a reward. The editor examines the identity of the narrator and judges him to be Khalid ibn Rabah al-Hudhali.  {cite:tafsir-tabari-shakir-v10 p. 240}
 
-We stop here at the foot of p. 240, where al-Tabari's choice among the views on killing and giving life begins; the rest of verse 32 follows in the next batch.
+**Al-Tabari's choice on verse 32, pp. 240-242**
+
+Al-Tabari chooses this for "as if he had killed all people": whoever kills a believing soul without a soul that deserved retaliation, or without corruption in the land through warring on God, His messenger and the believers, is as if he had killed all people in the great punishment he earns from God, as He threatened in [[passage/quran-4-93|4:93]].  {cite:tafsir-tabari-shakir-v10 p. 241}
+
+For "whoever gave it life", the soundest view is that of those who said: whoever holds forbidden for himself the killing of one whom God forbade and does not go ahead and kill, people live from him by being safe from him, and that is his giving it life. He sets it beside God's report of the one who argued with Abraham about his Lord, where "I give life" meant, for the unbeliever, leaving alive one he could kill and "I cause death" meant killing the one he killed. He reasons that no single soul's killing stands in immediate harm for the killing of all souls, nor its saving for the saving of all in immediate benefit, so the sense of giving life is the safety of all souls from him, and that one soul's killing stands for all only in burden of sin.  {cite:tafsir-tabari-shakir-v10 p. 241}
+
+**Commentary on verse 32, continued: "Our messengers came to them with clear proofs", p. 242**
+
+Al-Tabari says this is an oath from God that His messengers had come to the Children of Israel whose stories He told in the preceding verses, with clear proofs, meaning plain signs and evident arguments for the truth of what they were sent with and the soundness of what they called to; "then many of them after that" means after the coming of the messengers with the proofs, "are excessive in the land", meaning they act in disobedience to God, oppose His command and prohibition, and defy God and His messengers by following their desires and opposing their prophets; that was their excess.  {cite:tafsir-tabari-shakir-v10 p. 242}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
