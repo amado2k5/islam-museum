@@ -30,33 +30,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/abu-juhayfa-al-suwai
 - [x] person/abu-khaythama
 
-## Remaining published records (182)
+## Batch 02 (25 entities)
 
-- [ ] person/abu-layla-abd-al-rahman-ibn-kab
-- [ ] person/abu-mulayh-ibn-urwa
-- [ ] person/abu-musa-al-ashari
-- [ ] person/abu-muwayhiba
-- [ ] person/abu-qays-ibn-al-harith
-- [ ] person/abu-quhafa
-- [ ] person/abu-ruhm-al-ghifari
-- [ ] person/abu-sufyan-ibn-al-harith
-- [ ] person/abu-umama-al-bahili
-- [ ] person/abu-zayd-ibn-amr-al-dubaybi
-- [ ] person/adi-ibn-nadla
-- [ ] person/aisha
-- [ ] person/aisha-bint-al-harith-ibn-khalid
-- [ ] person/al-ala-ibn-jariya
-- [ ] person/al-aqra-ibn-habis
-- [ ] person/al-arqam-ibn-abi-al-arqam
-- [ ] person/al-aswad-ibn-nawfal
-- [ ] person/al-harith-ibn-abd-qays
-- [ ] person/al-harith-ibn-al-harith-sahmi
-- [ ] person/al-harith-ibn-hatib-ibn-al-harith
-- [ ] person/al-harith-ibn-hisham
-- [ ] person/al-harith-ibn-khalid
-- [ ] person/al-harith-ibn-malik-ibn-al-barsa
-- [ ] person/al-hutat-ibn-yazid
-- [ ] person/al-irbad-ibn-sariya
+- [x] person/abu-layla-abd-al-rahman-ibn-kab
+- [x] person/abu-mulayh-ibn-urwa
+- [x] person/abu-musa-al-ashari
+- [x] person/abu-muwayhiba
+- [x] person/abu-qays-ibn-al-harith
+- [x] person/abu-quhafa
+- [x] person/abu-ruhm-al-ghifari
+- [x] person/abu-sufyan-ibn-al-harith
+- [x] person/abu-umama-al-bahili
+- [x] person/abu-zayd-ibn-amr-al-dubaybi
+- [x] person/adi-ibn-nadla
+- [x] person/aisha
+- [x] person/aisha-bint-al-harith-ibn-khalid
+- [x] person/al-ala-ibn-jariya
+- [x] person/al-aqra-ibn-habis
+- [x] person/al-arqam-ibn-abi-al-arqam
+- [x] person/al-aswad-ibn-nawfal
+- [x] person/al-harith-ibn-abd-qays
+- [x] person/al-harith-ibn-al-harith-sahmi
+- [x] person/al-harith-ibn-hatib-ibn-al-harith
+- [x] person/al-harith-ibn-hisham
+- [x] person/al-harith-ibn-khalid
+- [x] person/al-harith-ibn-malik-ibn-al-barsa
+- [x] person/al-hutat-ibn-yazid
+- [x] person/al-irbad-ibn-sariya
+
+## Remaining published records (157)
+
 - [ ] person/al-jarud-al-abdi
 - [ ] person/al-khansa
 - [ ] person/al-miqdad-ibn-madi-karib
