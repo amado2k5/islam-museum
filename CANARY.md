@@ -58,6 +58,8 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser: al-Tabari vol. 11, batch 6 (pp. 56-62, reports 12667-12693): 5:95 closes (the reply on 'whoever returns', and 'Lord of retribution'); 5:96 opens with the sea game and its food, filed in Arabic, English and Urdu.
+- Al-Tabari's commentary on 6:119 closes at printed p. 71, verses 6:120 to 6:124 are filed in full (pp. 72-97, the outward and inward sin, the devils' inspiration over carrion, the dead brought to life, the plotters of every town) and 6:125 to 6:127 are filed and 6:128 begun, from volume 12 pp. 70-115 (reports 13793 to 13887), in Arabic, English and Urdu.
+
 - Tafsir Browser: al-Tabari vol. 11, batches 3 to 5 (pp. 21-55, reports 12585-12666): the two just judges of 5:95, the three expiations and their valuation, the place and time of the offering, the meaning of 'its equal in fasting', 'that he may taste the evil consequence of his deed', and the reports on 'whoever returns' with al-Tabari's choice, filed in Arabic, English and Urdu.
 - Tafsir Browser (volume 13, batch 8): al-Tabari's commentary on 7:138 to 7:142 (the tree of hangings report, 'destroyed is what they are in', the appointment of thirty and ten nights, Aaron as successor) filed in Arabic, English and Urdu from printed pp. 82-88 (reports 15056-15071), each paragraph cited to the page of the Shakir edition.
 - Tafsir Browser (volume 13, batch 7): al-Tabari's commentary on 7:135 to 7:138 (the drowning in the sea, the inheritance of the blessed land, the readings of 'ya'rishun', the Israelites' request for a god after crossing the sea) filed in Arabic, English and Urdu from printed pp. 74-81 (reports 15042-15055), each paragraph cited to the page of the Shakir edition.
