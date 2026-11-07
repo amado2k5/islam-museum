@@ -1,30 +1,73 @@
 id: listing/saffron-road
 class: listing
-kind: brand
+kind: food_product
 label:
   ar: سافرون رود
   en: Saffron Road
+  ur: سیفرون روڈ
 summary:
-  ar: شركة أغذية أمريكية حلال تأسست 2010؛ من أشهر علامات الغذاء الحلال في أمريكا.
-  en: Saffron Road.
-wings: [made]
+  ar: علامة أغذية أمريكية حلال، تابعة للشركة الأمريكية للحلال التي أسسها عدنان دراني في ستامفورد سنة 2009، وأُطلقت منتجاتها
+    المعتمدة حلالا في يوليو 2010 عبر متاجر هول فودز.
+  en: An American halal food brand of American Halal Company, founded by Adnan Durrani in Stamford, Connecticut, in 2009;
+    its halal-certified products launched through Whole Foods in July 2010.
+  ur: امریکی حلال کھانوں کا برانڈ، امریکن حلال کمپنی کا ذیلی ادارہ جسے عدنان درانی نے 2009 میں اسٹیمفورڈ میں قائم کیا؛ اس
+    کی حلال سند یافتہ مصنوعات جولائی 2010 میں ہول فوڈز کے ذریعے بازار میں آئیں۔
+wings:
+- made
+- today
 categories:
 - food
 regions:
 - americas-oceania
 founded:
-  edtf: '2010'
+  edtf: '2010-07'
+  hijri: '1431-07~'
   calendar: gregorian
-  precision: year
+  precision: month
+  status: historical
+  derived: true
+  note: The brand launched through Whole Foods in July 2010; its parent was founded in 2009 (as cited by the article). The
+    Hijri month is converter-derived.
+  sources:
+  - source/wikipedia-saffron-road-en
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/wikidata
+  sources:
+  - source/wikipedia-saffron-road-en
 external_ids:
   wikidata: Q39060673
-sources: *id001
+sources:
+- source/wikipedia-saffron-road-en
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- halal-economy
+status_business: active
+location:
+  serves:
+  - us
+links:
+  official: https://saffronroad.com
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - bn
+    - en
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-saffron-road-en
+  wikidata: Q39060673
+provenance:
+  layer: own-research
+  source: 'English Wikipedia "Saffron Road" (revision 1337695038, 10 February 2026), read in Chrome on the founder''s Mac
+    on 6 November 2026; Wikidata sitelinks read the same day; made.by_muslims documented: the Stamford Advocate (2017) and
+    The New York Times (2014) call its founder a Muslim businessman and entrepreneur; the existing Wikidata-only draft (Devin,
+    listings lane, 16 October 2026) was enriched in place'
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b04
