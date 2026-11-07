@@ -58,7 +58,10 @@ flowchart LR
 
 ## 5. Funding context
 
-`docs/funding-justification.md` exists because the project's costs are
-**people and curation time**, not infrastructure — plus the paid hosting
-line above. The museum will not run ads, sell data, or paywall (the
-funding doc lists what it will not do).
+`docs/funding-justification.md` exists because the project's recurring
+costs are the build-side services it itemises — AI assistants and media
+tools above all, then Cloudflare, hosting and storage, domains and
+software subscriptions — roughly CA$1,900 in October 2026, all of it
+monthly running costs. Serving visitors costs almost nothing (above);
+building the museum is what costs. The museum will not run ads, sell
+data, or paywall (the funding doc lists what it will not do).
