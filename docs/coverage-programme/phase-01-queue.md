@@ -226,15 +226,18 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/uthman-ibn-affan
 - [x] person/uthman-ibn-rabi
 
-## Remaining published records (7)
+## Batch 09 (7 entities)
 
-- [ ] person/uyayna-ibn-hisn
-- [ ] person/yamin-ibn-umayr-al-nadri
-- [ ] person/yazid-ibn-abd-al-madan
-- [ ] person/zayd-al-khayl
-- [ ] person/zayd-ibn-sana
-- [ ] person/zaynab-bint-abi-salama
-- [ ] person/zaynab-bint-al-harith-ibn-khalid
+- [x] person/uyayna-ibn-hisn
+- [x] person/yamin-ibn-umayr-al-nadri
+- [x] person/yazid-ibn-abd-al-madan
+- [x] person/zayd-al-khayl
+- [x] person/zayd-ibn-sana
+- [x] person/zaynab-bint-abi-salama
+- [x] person/zaynab-bint-al-harith-ibn-khalid
+
+## Remaining published records (0)
+
 
 ## Draft records (268)
 

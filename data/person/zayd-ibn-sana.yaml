@@ -16,6 +16,7 @@ regions: [arabia]
 died: { edtf: "0630", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "في رواية المستدرك أنه توفي في غزوة تبوك مقبلاً غير مدبر، وأنكر الذهبي هذه اللفظة لأنه لم يكن في تبوك قتال {cite:mustadrak-ilmiyya-ata-v3 p. 700-701}؛ السنة مشتقة من تاريخ الغزوة.", sources: [source/mustadrak-ilmiyya-ata-v3] }
 relations:
   - { type: participated_in, target: event/expedition-to-tabuk, note: "توفي فيها بحسب رواية المستدرك {cite:mustadrak-ilmiyya-ata-v3 p. 701}", sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: member_of, target: group/sahaba, sources: [source/mustadrak-ilmiyya-ata-v3] }
 provenance:
   layer: own-research
   source: "al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 700-701, hadith 6547 with al-Dhahabi's note"
