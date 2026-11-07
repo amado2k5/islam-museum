@@ -142,33 +142,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/khirash-ibn-umayya
 - [x] person/khunays-ibn-khalid
 
-## Remaining published records (82)
+## Batch 06 (25 entities)
 
-- [ ] person/khuraym-ibn-fatik
-- [ ] person/khuwayla-bint-hakim
-- [ ] person/khuzayma-ibn-jahm
-- [ ] person/kurz-ibn-jabir-al-fihri
-- [ ] person/layla-bint-abi-hathma
-- [ ] person/mahmiyya-ibn-al-jaz
-- [ ] person/maiz-ibn-malik-al-aslami
-- [ ] person/malik-ibn-al-namt
-- [ ] person/malik-ibn-murra-al-rahawi
-- [ ] person/malik-ibn-rabi
-- [ ] person/mamar-ibn-abdullah
-- [ ] person/mamar-ibn-al-harith-sahmi
-- [ ] person/maytham-al-tammar
-- [ ] person/mihjan-ibn-al-adra
-- [ ] person/muhammad-ibn-abi-hudhayfa
-- [ ] person/muhammad-ibn-hatib
-- [ ] person/muhriz-ibn-nadhla
-- [ ] person/musa-ibn-al-harith-ibn-khalid
-- [ ] person/qatada-ibn-al-numan
-- [ ] person/qays-ibn-abdullah-asadi
-- [ ] person/qays-ibn-al-musakhkhar
-- [ ] person/qays-ibn-asim
-- [ ] person/qays-ibn-hudhafa
-- [ ] person/qubath-ibn-ashyam
-- [ ] person/rabia-ibn-kab-al-aslami
+- [x] person/khuraym-ibn-fatik
+- [x] person/khuwayla-bint-hakim
+- [x] person/khuzayma-ibn-jahm
+- [x] person/kurz-ibn-jabir-al-fihri
+- [x] person/layla-bint-abi-hathma
+- [x] person/mahmiyya-ibn-al-jaz
+- [x] person/maiz-ibn-malik-al-aslami
+- [x] person/malik-ibn-al-namt
+- [x] person/malik-ibn-murra-al-rahawi
+- [x] person/malik-ibn-rabi
+- [x] person/mamar-ibn-abdullah
+- [x] person/mamar-ibn-al-harith-sahmi
+- [x] person/maytham-al-tammar
+- [x] person/mihjan-ibn-al-adra
+- [x] person/muhammad-ibn-abi-hudhayfa
+- [x] person/muhammad-ibn-hatib
+- [x] person/muhriz-ibn-nadhla
+- [x] person/musa-ibn-al-harith-ibn-khalid
+- [x] person/qatada-ibn-al-numan
+- [x] person/qays-ibn-abdullah-asadi
+- [x] person/qays-ibn-al-musakhkhar
+- [x] person/qays-ibn-asim
+- [x] person/qays-ibn-hudhafa
+- [x] person/qubath-ibn-ashyam
+- [x] person/rabia-ibn-kab-al-aslami
+
+## Remaining published records (57)
+
 - [ ] person/rabia-ibn-rufy
 - [ ] person/ramla-bint-abi-awf
 - [ ] person/rayta-bint-al-harith

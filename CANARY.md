@@ -23,6 +23,7 @@ open a new block on top with the new version and today's date.
 - **Companions as one set: 25 more linked.** Batch 03 of the same move added `member_of` edges for the next 25 published companion records (al-Jarud al-Abdi through Amr ibn Umayya, including Ali ibn Abi Talib and Ammar ibn Yasir), each citing its own record's sources. 132 published companion records remain in this move.
 - **Companions as one set: 25 more linked.** Batch 04 of the same move added `member_of` edges for the next 25 published companion records (Amr ibn Uthman al-Taymi through Harami ibn Abdullah), each citing its own record's sources. 107 published companion records remain in this move.
 - **Companions as one set: 25 more linked.** Batch 05 of the same move added `member_of` edges for the next 25 published companion records (Haritha ibn al-Nu'man through Khunays ibn Khalid, including Ja'far ibn Abi Talib and Khalid ibn al-Walid), each citing its own record's sources. 82 published companion records remain in this move.
+- **Companions as one set: 25 more linked.** Batch 06 of the same move added `member_of` edges for the next 25 published companion records (Khuraym ibn Fatik through Rabi'a ibn Ka'b al-Aslami), each citing its own record's sources. 57 published companion records remain in this move.
 
 ---
 
