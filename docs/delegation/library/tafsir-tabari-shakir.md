@@ -248,6 +248,10 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 13680-13696): verses 100 to 102 are filed in full and verse 103 is begun at p. 13 (stop sentence at the foot). Next is report 13696 (Atiyya al-Awfi) continuing on p. 14.
 
+## Volume 10 progress
+- Volume 10 (`waqtaftab-taftab10`, 634 markers): the title page (marker 4) names sura al-Ma'ida 5:6 to 5:94 and reports 11300 to 12543; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (5:6, rising for prayer). The marker-to-printed-page map is the identity (page numbers in the headers agree from p. 8 on). Cite `{cite:tafsir-tabari-shakir-v10 p. N}` by printed number. The source record `source/tafsir-tabari-shakir-v10` already exists.
+- Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
+
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 12544-12565): verse 5:95 begun; stop at the foot of p. 13 at the choice of the reading of 'jaza' mithl' (next: the rest of 5:95 from p. 14).

@@ -58,6 +58,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser (volume 13, batch 1): al-Tabari's commentary on 7:101 to 7:105 (the covenant and foreknowledge, the seal on hearts, Moses sent to Pharaoh, the readings of 'haqiq') filed in Arabic, English and Urdu from printed pp. 7-13 (reports 14901-14908), each paragraph cited to the page of the Shakir edition.
+- Al-Tabari's commentary on 5:6 (volume 10) begins: printed pp. 7-13, reports 11300 to 11327 (when ablution is due: the hadath view, the 'rising from sleep' view and the 'every prayer' view), in Arabic, English and Urdu, citing volume 10 page by page.
 - Tafsir Browser: al-Tabari vol. 11, batch 1 (pp. 7-13, reports 12544-12565): the opening of the commentary on Qur'an 5:95 (what counts as deliberate killing of game in ihram, and al-Tabari's choice) filed in Arabic, English and Urdu.
 - Tafsir Browser (phase 1): the data model for Qur'an commentaries. A new work kind `tafsir-volume`; Tabari's Jami' al-Bayan (Shakir edition) volumes 1 to 9 are records that are part of the commentary and are about the verses their passage citations name (coverage 2:2 to 4:141).
 - Al-Tabari's commentary on 6:100 to 6:103 (volume 12, Shakir edition) is filed from printed p. 7 to p. 13 (reports 13680 to 13696), in Arabic, English and Urdu, cited by printed page; verse 103 is begun.
@@ -120,6 +121,10 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic and Urdu parentheses (remaining unquoted and summary values, batch 4): brackets now stay in place in right-to-left text in 68 files.
+- Arabic and Urdu parentheses (remaining unquoted and summary values, batch 3): brackets now stay in place in right-to-left text in 100 files.
+- Arabic and Urdu parentheses (remaining unquoted and summary values, batch 2): brackets now stay in place in right-to-left text in 68 files.
+- Arabic and Urdu parentheses (remaining unquoted and summary values, batch 1): brackets now stay in place in right-to-left text in 99 files.
 - Arabic parentheses (Urdu, batch 219): brackets are isolated only inside Urdu values in 20 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 218): brackets are isolated only inside Urdu values in 39 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 217): brackets are isolated only inside Urdu values in 40 data files. English and Arabic text is left exactly as it was.
