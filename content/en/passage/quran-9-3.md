@@ -10,7 +10,7 @@ Verse 3 of [[passage/quran-9|Surat at-Tawba]], a Medinan surah. {cite:tanzil-qur
 ## Place in the museum
 Its place: verse 3 of 129 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 3 (pp. 112-130)**
+**Commentary on verse 3 (pp. 112-131)**
 
 Al-Tabari says the opening words mean an announcement from God and His messenger to the people on the day of the greater pilgrimage, the sense of "announcement" having been explained earlier. Sulayman ibn Musa gave it another sense in report 16380, from Ibn Jurayj, through al-Qasim, al-Husayn and Hajjaj: the "announcement" is the narrative running from the opening of the sura until it ends at [[passage/quran-9-28|9:28]], twenty-eight verses; the editor identifies Sulayman ibn Musa al-Umawi al-Dimashqi al-Ashdaq as the jurist of Syria in his time. Report 16381, from Ibn Zayd, through Yunus and Ibn Wahb: a notification from God and His messenger. The word is in the nominative by conjunction with the opening "disavowal from God", as if to say "this is a disavowal from God and His messenger, and an announcement from God". {cite:tafsir-tabari-shakir-v14 p. 112}
 
@@ -52,6 +52,6 @@ Others said the greater pilgrimage is the combined rite and the lesser the singl
 
 Al-Tabari chooses as soundest the view that the greater pilgrimage is the pilgrimage itself, being greater than the umra by the additional rites, and the lesser is the umra, whose rites are fewer. On the words that God and His messenger are free of the polytheists, he says they mean free of the covenant with the polytheists after this pilgrimage, the sense of the sentence being an announcement from God and His messenger to the people on the day of the greater pilgrimage that God and His messenger are free of the polytheists' covenant. Report 16469, from Ibn Ishaq, through Ibn Humayd and Salama: that is, after this pilgrimage. The editor refers to Ibn Hisham's Sira. {cite:tafsir-tabari-shakir-v14 p. 130}
 
-This closes what al-Tabari treats in these pages of verse 3, up to the statement that God and His messenger are free of the polytheists; the next batch begins at p. 131 with what follows. {cite:tafsir-tabari-shakir-v14 p. 130}
+Al-Tabari then explains the last part of the verse: if you repent of your unbelief, polytheists, and return to the oneness of God and sincere worship of Him alone, that is better for you than persisting in polytheism in this world and the next; and if you turn away from belief in God and insist on staying in your polytheism, know that you cannot escape His painful punishment and severe penalty, as He dealt with the polytheists before you; and give the unbelievers who denied your prophecy and went against their Lord's command the news, Muhammad, of a painful punishment that will befall them. Report 16470, from Ibn Jurayj, through al-Qasim, al-Husayn and Hajjaj: "if you repent" means if you believe. The editor explains the reading he chose between the printed text and the manuscript in the phrase about those before them, and refers to the earlier explanations of repentance, glad tidings and painful. {cite:tafsir-tabari-shakir-v14 p. 131}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
