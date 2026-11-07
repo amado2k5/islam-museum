@@ -44,8 +44,10 @@ relations:
   - type: lived_in
     target: place/zanzibar
     sources: [source/wikipedia-ali-hassan-mwinyi-en]
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 2022, note: "shared with Hassan Al Shafei", sources: [source/wikipedia-king-faisal-prize-en] }
 external_ids: { wikidata: "Q361581" }
-sources: [source/wikipedia-ali-hassan-mwinyi-en, source/wikipedia-ali-hassan-mwinyi-ar, source/wikipedia-ali-hassan-mwinyi-ur, source/wikidata-ali-hassan-mwinyi]
+sources: [source/wikipedia-ali-hassan-mwinyi-en, source/wikipedia-ali-hassan-mwinyi-ar, source/wikipedia-ali-hassan-mwinyi-ur, source/wikidata-ali-hassan-mwinyi, source/wikipedia-king-faisal-prize-en]
 provenance:
   layer: own-research
   source: "English Wikipedia revision 1376728845 of 25 September 2026, Arabic revision 76623346 of 18 September 2026 and Urdu revision 9909633 of 17 April 2026, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q361581 revision 2557707125 of 16 October 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q361581. Relations written: he moved to Zanzibar as a boy, was educated there and worked there as a teacher and head teacher, and later served as president of Zanzibar (place record exists). No succession edge is written: he succeeded Julius Nyerere as president of Tanzania and was succeeded by Benjamin Mkapa, and neither man has a museum record. His son Hussein Mwinyi, president of Zanzibar, likewise has no record, so no family edge is written."

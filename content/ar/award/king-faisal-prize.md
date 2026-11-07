@@ -22,5 +22,12 @@ translators: []
 ## اليوم
 الجائزة مستمرة سنويا، وتنشر مؤسسة الملك فيصل فائزيها على موقعها. {cite:wikipedia-king-faisal-prize-en}
 
+## حَمَلته في المتحف
+في خدمة الإسلام: [[person/abul-ala-maududi|أبو الأعلى المودودي]] (1979)، [[person/abu-al-hasan-ali-nadwi|أبو الحسن علي الحسني الندوي]] (1980)، [[person/khalid-bin-abdulaziz|خالد بن عبد العزيز آل سعود]] (1981)، [[person/ibn-baz-abd-al-aziz|ابن باز عبد العزيز بن عبد الله]] (1982)، [[person/hassanein-makhlouf|حسنين محمد مخلوف]] (1983)، [[person/tunku-abdul-rahman|تونكو عبد الرحمن]] (1983)، [[person/fahd-bin-abdulaziz|فهد بن عبد العزيز آل سعود]] (1984)، [[person/ahmed-deedat|أحمد ديدات]] (1986)، [[person/roger-garaudy|روجيه غارودي]] (1986)، [[person/abubakar-gumi|أبو بكر محمود غومي]] (1987)، [[person/muhammad-al-ghazali-modern|محمد الغزالي]] (1989)، [[person/alija-izetbegovic|علي عزت بيغوفيتش]] (1993)، [[person/muhammad-ibn-salih-al-uthaymin|محمد بن صالح العثيمين]] (1994)، [[person/jad-al-haqq-ali-jad-al-haqq|جاد الحق بن علي جاد الحق]] (1995)، [[person/abdel-rahman-al-sumait|عبد الرحمن السميط]] (1996)، [[person/mahathir-mohamad|مهاتير محمد]] (1997)، [[person/abdou-diouf|عبدو ضيوف]] (1998)، [[person/abdullah-bin-abdulaziz|عبد الله بن عبد العزيز آل سعود]] (2008)، [[person/recep-tayyip-erdogan|رجب طيب أردوغان]] (2010)، [[person/abdullah-ahmad-badawi|عبد الله أحمد بدوي]] (2011)، [[person/ahmed-lemu|شيخ أحمد ليمو]] (2014)، [[person/zakir-naik|ذاكر نايك]] (2015)، [[person/salman-bin-abdulaziz|سلمان بن عبد العزيز آل سعود]] (2017)، [[person/ali-hassan-mwinyi|علي حسن مويني]] (2022). {cite:wikipedia-king-faisal-prize-en}
+
+وفي الدراسات الإسلامية: [[person/fuat-sezgin|فؤاد سزكين]] (1979)، [[person/mustafa-al-zarqa|مصطفى الزرقا]] (1984)، [[person/yusuf-al-qaradawi|يوسف القرضاوي]] (1994)، [[person/akram-diya-al-umari|أكرم ضياء العمري]] (1996)، [[person/al-albani-muhammad-nasir-al-din|الألباني محمد ناصر الدين]] (1999)؛ وفي اللغة العربية والأدب: [[person/yahya-haqqi|يحيى حقي]] (1990). {cite:wikipedia-king-faisal-prize-en}
+
+وفي العلوم: [[person/ahmed-zewail|أحمد زويل]] (1989). {cite:wikipedia-king-faisal-prize-en}
+
 ## المراجع
 - المقالة الإنجليزية في ويكيبيديا عن جائزة الملك فيصل، مراجعة 31 أكتوبر 2026. {cite:wikipedia-king-faisal-prize-en}

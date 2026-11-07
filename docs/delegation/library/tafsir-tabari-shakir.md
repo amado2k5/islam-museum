@@ -222,6 +222,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 18: pp. 392-398 filed in ar, en and ur (reports 10836-10838): verse 160 closes at p. 392, verse 161 is filed in full, and verse 162 is filed to p. 398.
 - Batch 19: pp. 399-405 filed in ar, en and ur (reports 10839-10844): verse 162 closes at p. 399 and verse 163 is filed to report 10844 at p. 405.
 - Batch 20: pp. 406-412 filed in ar, en and ur (reports 10845-10852): verses 163 to 170 are filed to the foot of p. 412.
+- Batch 21: pp. 146-152 filed in ar, en and ur (reports 11613-11614): verse 16 closes at p. 146, verse 17 is filed in full (pp. 146-150), verse 18 is begun at p. 150; next is the rest of 5:18 from the foot of p. 152 ('rather you are human beings among those He created').
 - Batch 21: pp. 413-419 filed in ar, en and ur (reports 10853-10854): verse 170 closes at p. 413 and verse 171 is filed to report 10854 at p. 419.
 - Batch 22: pp. 420-426 filed in ar, en and ur (reports 10855-10857): verse 171 closes at p. 424, verse 172 is filed to p. 425, and verse 173 is begun at p. 426.
 - Batch 23: pp. 427-431 filed in ar, en and ur (reports 10858-10865): verses 173 to 175 are filed in full, and verse 176 is begun at p. 430.
@@ -249,7 +250,9 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 40: pp. 542-548 filed in ar, en and ur (reports 11132-11150): verse 3 is closed at p. 542 and verse 4 is filed to the foot of p. 548 (new passage content in quran-5-4).
 - Batch 41: pp. 549-555 filed in ar, en and ur (reports 11151-11166): verse 4 is filed to the foot of p. 555.
 - Batch 42: pp. 556-562 filed in ar, en and ur (reports 11167-11201): verse 4 is filed to the foot of p. 562.
-- Progress: current report 11201, printed p. 562. Next is the rest of report 11201 and the view allowing what a dog has eaten from, from printed p. 563 on, in verse 4.
+- Batch 43: pp. 563-570 filed in ar, en and ur (reports 11201-11217): verse 4 is filed to the foot of p. 570.
+- Batch 44: pp. 570-577 filed in ar, en and ur (reports 11218-11240): verse 4 is closed at p. 572 and verse 5 is filed to the foot of p. 577 (new passage content in quran-5-5).
+- Progress: current report 11240, printed p. 577. Next is the rest of the meaning of 'food' in the food of the People of the Book, from printed p. 578 on, in verse 5.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
@@ -262,6 +265,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 7: pp. 49-55 filed in ar, en and ur (reports 13757-13774): verse 111 closes at p. 50 and verse 112 is begun (devils of humans and jinn, the Abu Dharr reports and the editor's chain notes) to the foot of p. 55. Stop sentence at the foot.
 - Batch 8: pp. 56-62 filed in ar, en and ur (reports 13775-13788): verse 112 closes at p. 57, verses 113 and 114 are filed in full and verse 115 is begun (the 'word of your Lord') to the foot of p. 62. Stop sentence at the foot.
 - Batch 9: pp. 63-69 filed in ar, en and ur (reports 13789-13792): verse 115 closes at p. 63, verses 116 to 118 are filed in full and verse 119 is begun (the meaning of 'wa ma lakum alla ta'kulu') to the foot of p. 69. Stop sentence at the foot. Next is the rest of verse 119 from p. 70.
+- Batch 10: pp. 70-76 filed in ar, en and ur (reports 16316-16330): 8:68 closes at p. 71, 8:69 and 8:70 are filed in full and 8:71 is filed to the foot of p. 76 (report 16330 begun). Next is the rest of 8:71 from p. 77.
+- Batch 11: pp. 77-83 filed in ar, en and ur (reports 16330-16342): 8:71 closes at p. 77 and 8:72 (the alliance of the Emigrants and Helpers, inheritance by emigration and its abrogation, aid to those who did not emigrate, the four ranks at the Prophet's death) is filed to the foot of p. 83. Next is the rest of 8:72 or the next verse from p. 84.
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
 - Batch 28: pp. 180-185 filed in ar, en and ur (reports 14056-14069): verse 142 closes at p. 182 and verse 143 is begun (the eight pairs, the challenge to the idolaters) to the foot of p. 185. Stop sentence at the foot. Next is the rest of 6:143 from p. 186 (printed p. 185 ends at report 14069).
@@ -283,6 +288,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batches 10-13: pp. 70-96 filed in ar, en and ur (reports 11512-11556): verse 6 closes at p. 90, verse 7 is filed in full (pp. 91-94), verse 8 is begun at p. 95; next is the rest of 5:8 from p. 96.
 - Batch 14: pp. 97-103 filed in ar, en and ur (reports 11556-11562): verse 8 closes at p. 97, verses 9 and 10 are filed in full, verse 11 is begun at p. 100; next is report 11562 (Ikrima) at the foot of p. 103.
 - Batches 15-17: pp. 104-124 filed in ar, en and ur (reports 11562-11583): verse 11 closes at p. 108, verse 12 is filed in full to p. 124; next is verse 13 from p. 125.
+- Batches 18-19: pp. 125-138 filed in ar, en and ur (reports 11584-11606): verse 13 closes at p. 135, verse 14 is begun at p. 135; verse 14 continues.
+- Batch 20: pp. 139-145 filed in ar, en and ur (reports 11607-11612): verse 14 closes at p. 140, verse 15 is filed in full, verse 16 is begun at p. 144; verse 16 continues.
 
 - Batch 2 (pp. 14-34, three sub-batches in one PR): reports 14909-14956 filed in ar, en and ur; verses 105 to 123 are filed in full and verse 124 is begun (report 14956). Next is the rest of 7:124 from the foot of p. 34 (printed p. 35).
 - Batch 3: pp. 35-42 filed in ar, en and ur (reports 14957-14972): verses 124 to 127 are filed in full and verse 128 is begun (report 14972). Next is the rest of 7:128 from the foot of p. 42 (printed p. 43).
@@ -309,7 +316,10 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 
 ## Volume 16 progress
 - Volume 16 (`waqtaftab-taftab16`, 689 markers): commentary starts on marker 9 = printed p. 1 (12:19, report 18880); printed page = marker minus 8. Indexes begin near marker 615. Cite `{cite:tafsir-tabari-shakir-v16 p. N}` by printed number.
-- Batches 1-10: pp. 1-79 filed in ar, en and ur (reports 18880-19224): 12:19 to 12:30 in full (12:26-28 filed together under 12:26), 12:31 begun to the foot of p. 79 (report 19224, Ibn Mas'ud). Stop sentence at the foot. Next is p. 80 in 12:31. Not yet run: npm run validate.
+- Batches 1-10: pp. 1-79 filed in ar, en and ur (reports 18880-19224): 12:19 to 12:30 in full (12:26-28 filed together under 12:26), 12:31 begun to the foot of p. 79 (report 19224, Ibn Mas'ud). Stop sentence at the foot. Next is p. 80 in 12:31. Validate run on 7 Nov 2026: 0 errors.
+- Batch 11: pp. 80-87 filed in ar, en and ur (reports 19225-19242 and the commentary on 12:32 in full): 12:31 closes at p. 85, 12:32 is filed in full (pp. 85-86) and 12:33 is begun to the foot of p. 87 (the nature of 'al-sijn'). Stop sentence is in quran-12-33. Next is the rest of 12:33 from p. 88 (marker 96).
+- Batch 12: pp. 88-94 filed in ar, en and ur (reports 19243-19265): 12:33 closes at p. 89, 12:34 and 12:35 are filed in full and 12:36 is begun to the foot of p. 94 (the two youths). Stop sentence is in quran-12-36. Next is the rest of 12:36 from p. 95 (marker 103).
+- Batch 13: pp. 95-101 filed in ar, en and ur (reports 19266-19285): 12:36 closes at p. 100 (the youths' dreams, grapes called khamr, Joseph's ihsan in prison) and 12:37 is begun to the foot of p. 101 (the doubled 'hum'). Stop sentence is in quran-12-37. Next is the rest of 12:37 from p. 102 (marker 110).
 ## Volume 14 progress
 - Volume 14 (`waqtaftab-taftab14`, 638 markers): the title page (marker 4) names sura al-Anfal 8:48 to 8:75 and sura al-Tawba, reports 16183 to 17518; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (8:48). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v14 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v14`.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 16183-16195): verse 8:48 is filed in full and 8:49 is begun (the doubters who said 'their religion has deluded these'). Next is report 16196 from p. 14.
@@ -365,3 +375,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
+- Batch 18: pp. 140-146 filed in ar, en and ur (reports 12852-12863): 5:105 continues with the Companions and Followers on the verse (the elders who said its interpretation belongs to the end of time, Ibn Umar to the sharp-tongued questioner, Ibn Mas'ud on interpretation fulfilled at different times, the hadith of Abu Tha'laba al-Khushani on the fifty workers) and the second view begins at the foot of p. 146 (next: p. 146 foot, "the servant who obeys is not harmed by those who go astray after him", then the reports of that view from report 12864).

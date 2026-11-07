@@ -1,0 +1,31 @@
+id: award/screen-awards
+class: award
+kind: prize
+label: { ar: "جوائز سكرين ⁦(الهند)⁩", en: "Screen Awards", ur: "اسکرین ایوارڈز" }
+summary:
+  ar: "حفل جوائز سنوي للسينما الهندية أطلقته مجلة سكرين التابعة لمجموعة إنديان إكسبرس سنة 1995، يختار فائزيه أهل الصناعة، واستمر برعاية ستار إنديا بعد استحواذها على المجلة سنة 2015 حتى دورة 8 ديسمبر 2019؛ رُشّحت فيه أغنية «خواجة مير خواجة» لأ. ر. رحمن سنة 2009."
+  en: "An annual Indian film-award ceremony launched by Screen magazine of the Indian Express Group in 1995, its winners chosen by industry insiders; it continued under Star India after Star acquired the magazine in 2015, until the ceremony of 8 December 2019. A. R. Rahman's 'Khwaja Mere Khwaja' was nominated there in 2009."
+  ur: "بھارتی فلموں کی سالانہ ایوارڈ تقریب جو انڈین ایکسپریس گروپ کے رسالے «اسکرین» نے 1995 میں شروع کی اور جس کے فاتح صنعت کے ماہرین چنتے تھے؛ 2015 میں اسٹار انڈیا کے رسالہ خریدنے کے بعد بھی 8 دسمبر 2019 تک جاری رہی۔"
+wings: [today]
+themes: [music]
+regions: [south-asia]
+fields: [film, music]
+country: in
+recurs: annual
+since: { edtf: "1995", calendar: gregorian, precision: year, sources: [source/wikipedia-screen-awards-en, source/wikidata-screen-awards] }
+until: { edtf: "2019-12-08", calendar: gregorian, precision: day, sources: [source/wikipedia-screen-awards-en] }
+categories:
+  - { id: best-male-playback, label: { ar: "أفضل مغنّ لأغاني الأفلام", en: "Best Male Playback", ur: "بہترین مرد پلے بیک" } }
+  - { id: best-lyricist, label: { ar: "أفضل كاتب كلمات", en: "Best Lyricist", ur: "بہترین نغمہ نگار" } }
+footprint:
+  wikipedia: { languages: [ar, bn, de, en, es, fr, hi, id, ja, mr, ms, pl, sh, te], checked: "2026-11-07", sources: [source/wikidata-screen-awards] }
+  wikidata: "Q1293276"
+external_ids: { wikidata: "Q1293276" }
+sources: [source/wikipedia-screen-awards-en, source/wikidata-screen-awards, source/wikipedia-jodhaa-akbar-soundtrack-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Screen Awards' (revision 1382648502 of 29 October 2026, citing India Today and The Indian Express) and Wikidata Q1293276 (revision 2560597276), read in Chrome on the founder's Mac on 7 November 2026; the 2009 nominations come from the Jodhaa Akbar soundtrack article's awards table (ceremony of 14 January 2009)"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
