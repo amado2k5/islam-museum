@@ -1,25 +1,23 @@
 id: group/sabri-brothers
 class: group
-kind: organization
-label:
-  ar: الأخوان صابري
-  en: The Sabri Brothers
+kind: band
+label: { ar: "الإخوة صابري", en: "The Sabri Brothers", ur: "صابری برادران" }
 summary:
-  ar: فرقة القوالي الباكستانية صاحبة «تاجدار حرم»؛ أعمق أثر في انتشار القوالي بعد عائلة نصرت.
-  en: The Pakistani qawwali ensemble behind 'Tajdar-e-Haram' — with NFAK, the deepest mark on the form's global spread.
+  ar: "فرقة قوالي باكستانية (1956–2021) قادها الأخوان غلام فريد صابري ومقبول أحمد صابري، وثيقة الصلة بالطريقة الچشتية، كانوا أول قوالين يغنّون في الغرب وأول فنانين آسيويين على مسرح كارنيغي هول (1975)، وصاحبة «تاجدارِ حرم» و«بھر دو جھولی میری»، ونالت وسام حسن الأداء في 1978."
+  en: "Pakistani qawwali party (1956–2021) fronted by the brothers Ghulam Farid Sabri and Maqbool Ahmed Sabri and closely connected with the Chishti order; the first qawwals to perform in the West and the first Asian artists at Carnegie Hall (1975), known for 'Tajdar-e-Haram' and 'Bhar Do Jholi Meri', and holders of the Pride of Performance (1978)."
+  ur: "پاکستانی قوال پارٹی \u2066(1956ء–2021ء)\u2069، جس کی قیادت بھائیوں غلام فرید صابری اور مقبول احمد صابری نے کی اور جو چشتی سلسلے سے قریبی تعلق رکھتی تھی؛ مغرب میں قوالی گانے والے پہلے قوال اور کارنیگی ہال میں پہلے ایشیائی فنکار \u2066(1975ء)\u2069، «تاجدارِ حرم» اور «بھر دو جھولی میری» کے لیے مشہور، اور تمغۂ حسنِ کارکردگی \u2066(1978ء)\u2069 کے حامل۔"
 wings: [today]
-themes:
-- music
-- spirituality-and-sufism
-founded:
-  edtf: '1958'
-  calendar: gregorian
-  precision: year
-external_ids:
-  wikidata: Q2210108
-sources:
-- source/wikidata
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16
+themes: [music, spirituality-and-sufism]
+regions: [south-asia]
+founded: { edtf: "1956", calendar: gregorian, precision: year, status: historical, derived: false, note: "Formed by Maqbool Ahmed Sabri at eleven as the Bacha Qawwal Party; first public performance in 1956 at an urs at Jameel Amrohi's home; their first record followed in 1958 (English article; Wikidata gives inception 1956). The earlier draft's 1958 was the first record, not the founding.", sources: [source/wikipedia-sabri-brothers-en, source/wikidata-sabri-brothers] }
+dissolved: { edtf: "2021-06-21", calendar: gregorian, precision: day, status: historical, derived: false, note: "The group ended with the death of its last leader, Mehmood Ghaznavi Sabri, in Karachi.", sources: [source/wikipedia-sabri-brothers-en] }
+countries: [pk]
+footprint:
+  wikipedia: { languages: [bn, ckb, de, en, fa, ml, or, pnb, skr, sw, ta, ur], checked: "2026-11-06", sources: [source/wikidata-sabri-brothers] }
+  wikidata: "Q2210108"
+honours:
+  - { award: award/pride-of-performance, result: won, year: 1978, note: "to the whole Sabri Brothers group, by the President of Pakistan", sources: [source/wikipedia-sabri-brothers-en] }
+external_ids: { wikidata: "Q2210108" }
+sources: [source/wikipedia-sabri-brothers-en, source/wikidata-sabri-brothers]
+provenance: { layer: own-research, source: "English Wikipedia 'Sabri Brothers' (revision 1369205358, 13 August 2026) and Wikidata Q2210108 (revision 2515865262), read in Chrome on 6 November 2026. Rebuilt on 6 November 2026 from a culture-lane draft (Devin, 16 October 2026) that cited only the generic Wikidata source; same id, facts now taken from the recorded revisions below.", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b06 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
