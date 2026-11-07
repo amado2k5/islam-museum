@@ -1,0 +1,46 @@
+id: job/potter
+class: job
+label: { ar: "الخزّاف", en: "Potter / tilemaker", ur: "کمہار ⁦(خزاف)⁩" }
+names:
+  - { value: "çinici", kind: latinized, lang: tr }
+  - { value: "صانع القاشاني", kind: alternate }
+summary:
+  ar: "الخزاف هنا صانع البلاطات المزجّجة التي تكسو جدران العمارة الإسلامية. تصف موسوعة TDV تطور ذلك من خزف سامراء ذي البريق المعدني إلى فسيفساء القاشاني المقطوعة عند السلاجقة، ثم الألوان المطلية تحت الطلاء في إزنيق، ثم انتقال المركز إلى كوتاهية. وتسمي من التوقيعات مرندلي وتوسلي ومحمد المجنون وعلي بن إلياس علي البروسوي، ولا تصف الأفران ولا الطوائف."
+  en: "The potter here is the maker of the glazed tiles that clothe the walls of Islamic architecture. The TDV encyclopaedia follows the craft from the lustre ware of Samarra to the cut tile mosaic of the Seljuks, the underglaze colours of Iznik and the move of the centre to Kutahya. It names the makers Merendli, the Tusi master, Muhammad al-Majnun and Ali ibn Ilyas Ali of Bursa, and it does not describe kilns or guilds."
+  ur: "یہاں کمہار سے مراد ان چمکدار ٹائلوں کا کاریگر ہے جو اسلامی عمارتوں کی دیواروں کو ڈھانپتی ہیں۔ ٹی ڈی وی کا مدخل اس ہنر کو سامرا کے دھاتی چمک والے برتنوں سے سلجوقیوں کی کٹی ہوئی ٹائل موزیک، ازنیق کے شیشے کے نیچے کے رنگوں اور مرکز کے کوتاہیہ منتقل ہونے تک دیکھتا ہے۔ وہ مرندلی، طوس کے استاد، محمد المجنون اور بورصہ کے علی بن الیاس علی کے نام لیتا ہے، اور بھٹیوں یا جماعتوں کا حال نہیں بتاتا۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: classical
+  status_today: transformed
+places:
+  - { place: place/samarra, note: "The entry names Samarra for Abbasid green- and yellow-glazed pieces and for lustre ware painted with metallic powders.", sources: [source/tdv-cini] }
+  - { place: place/konya, note: "Seljuk tile at the Alaeddin mosque and kiosk, the Sircali and Karatay madrasas; the mina'i technique is found, in Anatolian Seljuk art, only at the Alaeddin kiosk in the entry's account.", sources: [source/tdv-cini] }
+  - { place: place/bursa, start: { edtf: "1419/1422" }, note: "Coloured-glaze tile at the Yesil mosque, attributed to Ali ibn Ilyas Ali of Bursa.", sources: [source/tdv-cini] }
+  - { place: place/edirne, note: "Blue-and-white tile at the Muradiye of 1436 and tile at the Uc Serefeli and the Selimiye.", sources: [source/tdv-cini] }
+regions: [levant-iraq, persia-central-asia, anatolia-balkans, maghreb, egypt-nile]
+organization:
+  organized: none-known
+  bodies: []
+training:
+  mode: apprenticeship
+  certification: "The entry says nothing of guilds, apprenticeship or workshop organisation. It says the chief illuminators Shahkulu and Kara Memi designed patterns for the tile masters."
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/abbasid-early, period/buyid-seljuk-fatimid-era, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-cini]
+craft:
+  materials: [ceramic, brick, stone]
+  techniques:
+    ar: "من التقنيات التي يذكرها المدخل: البريق المعدني بأكاسيد الفضة والنحاس على طلاء أبيض أو أرجواني أو فيروزي، وفسيفساء القاشاني المقطوعة وتُثبت بالجص، والمينائي بسبعة ألوان تُرسم فوق طلاء مشوي ثم يعاد شيّها، والنقش بالحز، والطلاء الملون على جسم أحمر بحدود بارزة تمنع جريان الألوان، والأبيض والأزرق تحت طلاء شفاف، ثم الرسم تحت الطلاء مع أحمر المرجان من النصف الثاني للقرن السادس عشر."
+    en: "The entry names these techniques: lustre painted in silver and copper oxides over a white, purple or turquoise glaze; cut tile mosaic set in plaster; mina'i, with seven colours painted over a fired glaze and fired again; incised tile; coloured glaze on a red body with raised outlines to keep the colours from running; blue-and-white under a clear glaze; and painting under the glaze, with coral red added from the second half of the sixteenth century."
+    ur: "مدخل یہ تکنیکیں بیان کرتا ہے: سفید، ارغوانی یا فیروزی شیشے پر چاندی اور تانبے کے آکسائیڈ سے دھاتی چمک؛ گچ میں جمی کٹی ہوئی ٹائل موزیک؛ مینائی، جس میں پکے ہوئے شیشے پر سات رنگ بنا کر دوبارہ پکایا جاتا ہے؛ کھدی ہوئی ٹائل؛ سرخ جسم پر ابھری ہوئی حدوں کے ساتھ رنگین شیشہ تاکہ رنگ نہ بہیں؛ شفاف شیشے کے نیچے نیلا سفید؛ اور سولھویں صدی کے دوسرے نصف سے مرجانی سرخ کے ساتھ شیشے کے نیچے نقاشی۔"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'ÇİNİ' (Şerare Yetkin, vol. 8, Istanbul 1993, pp. 329–335), web edition read in full on 7 Nov 2026. The entry covers architectural tile and not vessel pottery. The linked entries on Iznik, Kutahya and Kashan were not read."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: "jobs-p2-crafts-b02"
