@@ -169,6 +169,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Modern Islam Browser, books section: the placeholder for Hamid Choi is removed now that he has a full person record, so the Korean translation links to it directly; his King Abdullah translation award stays held with both years the sources give (2008 and 2009) until the award's own list is read. Content only, no deployment.
+- al-Tabari v16 (Batch 83): Sura Ibrahim pp. 588-594 filed in ar, en and ur (reports 20754-20765): 14:26 finished, and 14:27 begun (the firm word; the questioning in the grave, hadith of al-Bara' and Abu Sa'id). Stops at the foot of p. 594; the next batch begins at p. 595.
 - Tafsir Browser: al-Tabari vol. 11, batch 99 (pp. 568-574, reports 13638-13661): 6:98 end and 6:99 begun (water, green growth, grain) Arabic, English and Urdu.
 - al-Tabari v16 (Batch 82): Sura Ibrahim pp. 581-587 filed in ar, en and ur (reports 20730-20753): the meaning of "hin" settled, and 14:26 begun (the bad word as a bad tree, the colocynth, uprooted). Stops at the foot of p. 587; the next batch begins at p. 588.
 - Tafsir Browser: al-Tabari vol. 11, batch 98 (pp. 561-567, reports 13612-13638): 6:96 end, 6:97 and 6:98 begun (resting-place and repository) Arabic, English and Urdu.
