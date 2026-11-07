@@ -295,33 +295,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/al-dahhak-ibn-sufyan
 - [x] person/al-fadl-ibn-al-abbas
 
-## Draft records (218)
+## Draft batch D03 (25 entities)
 
-- [ ] person/al-hakam-ibn-hazn-al-kulafi
-- [ ] person/al-harith-al-hamdani
-- [ ] person/al-harith-ibn-al-numan-mutah
-- [ ] person/al-harith-ibn-arfaja
-- [ ] person/al-harith-ibn-nawfal
-- [ ] person/al-harith-ibn-uqba
-- [ ] person/al-hubab-ibn-zayd
-- [ ] person/al-kharit-ibn-rashid
-- [ ] person/al-miqdad-ibn-amr
-- [ ] person/al-mughira-ibn-shuba
-- [ ] person/al-muhajir-ibn-abi-umayya
-- [ ] person/al-mundhir-ibn-amr-companion
-- [ ] person/al-mustawrad-ibn-shaddad
-- [ ] person/al-nawwas-ibn-siman
-- [ ] person/al-numan-ibn-amr-al-ansari
-- [ ] person/al-numan-ibn-bashir
-- [ ] person/al-numan-ibn-qawqal
-- [ ] person/al-sab-ibn-jathama
-- [ ] person/al-saib-ibn-yazid
-- [ ] person/alqama-ibn-mujazziz
-- [ ] person/amir-ibn-abi-waqqas
-- [ ] person/amir-ibn-fuhayra
-- [ ] person/amir-ibn-rabia
-- [ ] person/amr-ibn-abdullah-al-dibabi
-- [ ] person/amr-ibn-al-ahwas-al-bariqi
+- [x] person/al-hakam-ibn-hazn-al-kulafi
+- [x] person/al-harith-al-hamdani
+- [x] person/al-harith-ibn-al-numan-mutah
+- [x] person/al-harith-ibn-arfaja
+- [x] person/al-harith-ibn-nawfal
+- [x] person/al-harith-ibn-uqba
+- [x] person/al-hubab-ibn-zayd
+- [x] person/al-kharit-ibn-rashid
+- [x] person/al-miqdad-ibn-amr
+- [x] person/al-mughira-ibn-shuba
+- [x] person/al-muhajir-ibn-abi-umayya
+- [x] person/al-mundhir-ibn-amr-companion
+- [x] person/al-mustawrad-ibn-shaddad
+- [x] person/al-nawwas-ibn-siman
+- [x] person/al-numan-ibn-amr-al-ansari
+- [x] person/al-numan-ibn-bashir
+- [x] person/al-numan-ibn-qawqal
+- [x] person/al-sab-ibn-jathama
+- [x] person/al-saib-ibn-yazid
+- [x] person/alqama-ibn-mujazziz
+- [x] person/amir-ibn-abi-waqqas
+- [x] person/amir-ibn-fuhayra
+- [x] person/amir-ibn-rabia
+- [x] person/amr-ibn-abdullah-al-dibabi
+- [x] person/amr-ibn-al-ahwas-al-bariqi
+
+## Draft records (193)
+
 - [ ] person/amr-ibn-suraqa
 - [ ] person/amr-ibn-umayya-al-damri
 - [ ] person/anas-ibn-abi-marthad

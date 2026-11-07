@@ -24,6 +24,7 @@ provenance:
   run: lib-futuh-buldan-batch-4
 relations:
   - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: "عامل النبي على صنعاء؛ خرج عليه الأسود العنسي وهو بها", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
 sources:
 - source/ibn-hisham-saqqa
 - source/futuh-buldan-maarif-1407

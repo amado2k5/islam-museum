@@ -8,6 +8,7 @@ wings: [people]
 roles: [companion]
 relations:
   - { type: converted_under, target: person/muhammad, note: "رآه غلاماً وروى عنه الخبر", sources: [source/sahih-al-bukhari] }
+  - { type: member_of, target: group/sahaba, sources: [source/sahih-al-bukhari]}
 provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 190", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-1" }
 sources: [source/sahih-al-bukhari]
 status: { review: draft, completeness: 0, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }
