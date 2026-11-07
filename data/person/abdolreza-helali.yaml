@@ -1,0 +1,38 @@
+id: person/abdolreza-helali
+class: person
+names:
+  - { kind: full, value: "عبدالرضا هلالی" }
+  - { kind: full, value: "Abdolreza Helali" }
+  - { kind: alternate, value: "رضا هلالی" }
+  - { kind: alternate, value: "Reza Helali" }
+label: { ar: "عبد الرضا هلالي", en: "Abdolreza Helali", ur: "عبدالرضا ہلالی" }
+summary:
+  ar: "مدّاح إيراني، وُلد في خرمشهر سنة 1981 ونشأ في طهران، واشتهر بابتكاراته في المدح لا سيما أسلوب الشور وبقيادة هيئة الرضا في طهران، وأسّس سنة 2022 مجمع «تكية آغا مرتضى علي» الثقافي الاجتماعي؛ بلغ حسابه على إنستغرام 508,193 متابعًا في نوفمبر 2026 عند قراءته على المنصة."
+  en: "Iranian maddah (eulogist), born in Khorramshahr in 1981 and raised in Tehran, known for his innovations in maddahi, especially the shoor style, and for leading Tehran's Heyat al-Reza; in 2022 he founded the Takiyegah Agha Morteza Ali cultural and social complex. His Instagram account counted 508,193 followers in November 2026 when read on the platform."
+  ur: "ایرانی مداح، جو 1981ء میں خرمشہر میں پیدا ہوئے اور تہران میں پروان چڑھے؛ وہ مداحی میں اپنی اختراعات، خصوصاً «شور» اسلوب، اور تہران کی ہیئت الرضا کی قیادت کے لیے مشہور ہیں، اور ان کے انسٹاگرام اکاؤنٹ کے فالوور نومبر 2026ء میں پلیٹ فارم پر پڑھنے پر 508,193 تھے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia's Career section says Helali 'is recognized as a Shiite religious singer and a prominent figure in the art of maddahi' — one text, and its Shia wording attaches to his profession as a religious singer, which never counts under this lane's rule. Persian Wikipedia, independently authored, calls him only an 'Iranian maddah' and attests no school; the Arabic article closely mirrors the English one and adds nothing independent; his own long Fars interview speaks of him throughout as a maddah and zakir of the Ahl al-Bayt, again his profession, and his leadership of Heyat al-Reza is headship, which never counts. His faith therefore stays unknown, with the single reading preserved here."
+    sources: [source/wikipedia-abdolreza-helali-en, source/wikipedia-abdolreza-helali-fa, source/parsnews-helali-fars-interview]
+roles: [munshid]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1981-11-03"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Khorramshahr, Iran, on 3 November 1981: in his own published Fars interview Helali states he was born on 12 Aban 1360 in Khorramshahr — 12 Aban converts to 3 November — and explains that his birth certificate was backdated into the month of Shahrivar (September) for schooling, which accounts for the 3 September 1981 given in the English Wikipedia infobox against its own prose's 3 November. Persian Wikipedia's infobox likewise gives 12 Aban 1360 in Khorramshahr, though its personal-life section says Abadan, an internal slip noted here; his own statement and the English article's prose agree on Khorramshahr. There is no place record for Khorramshahr, so no born_in edge is written. Hijri year 1402 derived from the Gregorian date."
+  sources: [source/parsnews-helali-fars-interview, source/wikipedia-abdolreza-helali-en, source/wikipedia-abdolreza-helali-fa]
+relations: []
+sources: [source/wikipedia-abdolreza-helali-en, source/wikipedia-abdolreza-helali-fa, source/parsnews-helali-fars-interview, source/instagram-rezahelaliofficial]
+provenance:
+  layer: own-research
+  source: "The wave-194 harvest entry (Abdolreza Helali, Iran, Tier 2; Instagram @rezahelaliofficial, harvest reach 600K from post metadata of 4 July 2025, ranking screenshots about 538K), researched against the English and Persian Wikipedia articles, his long Fars News Agency interview republished by Pars News, and his Instagram profile, all read in full on 7 November 2026. Live count re-read at build, as Tier 2 requires: the on-platform profile read of 7 November 2026 showed 508,193 followers — lower than both harvest figures but well above the lane threshold, and the figure carried in this record, the disagreement disclosed in the Instagram source note. The harvest's birth data (b. 1981, Khorramshahr) was confirmed and refined to 3 November 1981 on his own statement. No Wikidata item was verified by opening an item in this run (searches surfaced no item), so no wikidata id is recorded. No place record for Khorramshahr or Tehran exists in the tree, so no place edges are written; his Heyat al-Reza affiliation is carried in prose only."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-194"
+status: { review: published, completeness: 2 }
