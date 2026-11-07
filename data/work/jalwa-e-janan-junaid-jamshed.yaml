@@ -1,0 +1,41 @@
+id: work/jalwa-e-janan-junaid-jamshed
+class: work
+kind: album
+label: { ar: "جلوهٔ جاناں ⁦(ألبوم جنيد جمشيد، 2005)⁩", en: "Jalwa-e-Janan", ur: "جلوۂ جاناں" }
+summary:
+  ar: "أول ألبوم ديني روحي لمغني البوب الباكستاني السابق جنيد جمشيد، سُجّل سنة 2005 في قناة كيو تي في وصدر عن هيرا ستيريو، بنعوت وأدعية بالأردية والبشتوية من شعر إقبال وعزيز الحسن الغوري وتقي العثماني؛ أشهر ما فيه نعت «محمد کا روضہ قریب آرہا ہے»."
+  en: "The first religious and spiritual album of the former Pakistani pop singer Junaid Jamshed, recorded in 2005 at QTV and released by Heera Stereo, with naats and supplications in Urdu and Pashto to poetry by Iqbal, Aziz al-Hasan Ghouri and Taqi Usmani; its best-known naat is 'Muhammad Ka Roza Qareeb Aaraha Hai'."
+  ur: "سابق پاکستانی پاپ گلوکار جنید جمشید کا پہلا دینی و روحانی البم، 2005 میں کیو ٹی وی پر ریکارڈ ہوا اور ہیرا اسٹیریو سے جاری ہوا؛ اس کی سب سے مشہور نعت «محمد کا روضہ قریب آ رہا ہے» ہے، اور اس میں اقبال، عزیز الحسن غوری اور تقی عثمانی کا کلام ہے۔"
+wings: [today, words]
+themes: [music]
+regions: [south-asia]
+genre: [naat, nasheed]
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-jalwa-e-janan-en] }
+composed: { edtf: "2005", hijri: "1426~", calendar: gregorian, precision: year, derived: true, note: "Released and recorded in 2005 by the English article; Wikidata gives 2005. The Hijri year is converter-derived and approximate.", sources: [source/wikipedia-jalwa-e-janan-en, source/wikidata-jalwa-e-janan] }
+languages: [ur, ps]
+tracks:
+  - { n: 1, title: { en: "Jalwa-e-Janaa" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-jalwa-e-janan-en] }
+  - { n: 2, title: { en: "Muhammad Ka Roza" }, performers: [person/junaid-jamshed], note: "the album's best-known naat, by The Express Tribune", sources: [source/wikipedia-jalwa-e-janan-en] }
+  - { n: 3, title: { en: "Tu Ne Poochhi Hai" }, performers: [person/junaid-jamshed], note: "poetry by Allama Iqbal", sources: [source/wikipedia-jalwa-e-janan-en] }
+  - { n: 4, title: { en: "Jagah Ji Lagane Ki" }, performers: [person/junaid-jamshed], note: "poetry by Aziz al-Hasan Ghouri", sources: [source/wikipedia-jalwa-e-janan-en] }
+  - { n: 5, title: { en: "Multazim Par Dua (Ilahi Teri Chokhat Par)" }, performers: [person/junaid-jamshed], note: "poetry by Taqi Usmani", sources: [source/wikipedia-jalwa-e-janan-en] }
+  - { n: 6, title: { en: "Surah Al Muminoon" }, performers: [person/junaid-jamshed], note: "a Qur'an recitation, referenced in the prose by passage link only", sources: [source/wikipedia-jalwa-e-janan-en] }
+  - { n: 7, title: { en: "Yeh Subhe Madina" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-jalwa-e-janan-en] }
+  - { n: 8, title: { en: "Rasha Makawa" }, performers: [person/junaid-jamshed], note: "in Pashto", sources: [source/wikipedia-jalwa-e-janan-en] }
+  - { n: 9, title: { en: "Madad ae Mere Allah" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-jalwa-e-janan-en] }
+  - { n: 10, title: { en: "Jalwa-e-Janaan (Extended)" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-jalwa-e-janan-en] }
+footprint:
+  wikipedia: { languages: [en, ur], checked: "2026-11-07", sources: [source/wikidata-jalwa-e-janan] }
+  wikidata: "Q6127011"
+relations:
+  - { type: performed_by, target: person/junaid-jamshed, sources: [source/wikipedia-jalwa-e-janan-en, source/wikidata-jalwa-e-janan] }
+  - { type: about, target: person/muhammad, note: "naats in praise of the Prophet", sources: [source/wikipedia-jalwa-e-janan-en] }
+external_ids: { wikidata: "Q6127011" }
+sources: [source/wikipedia-jalwa-e-janan-en, source/wikidata-jalwa-e-janan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Jalwa-e-Janan' (revision 1347278193 of 5 April 2026, citing BBC Music, The Express Tribune, The Friday Times, Parhlo and Images) and Wikidata Q6127011 (revision 2214148437), read in Chrome on the founder's Mac on 7 November 2026. `made` documented: the article calls it the first religious album of Junaid Jamshed, whose turn from pop to naat is the subject of its cited press"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b09
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
