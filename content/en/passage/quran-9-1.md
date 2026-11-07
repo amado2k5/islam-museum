@@ -10,7 +10,7 @@ Verse 1 of [[passage/quran-9|Surat at-Tawba]], a Medinan surah. {cite:tanzil-qur
 ## Place in the museum
 Its place: verse 1 of 129 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verses 1 and 2 (pp. 95-111)**
+**Commentary on verses 1 and 2 (pp. 95-112)**
 
 Al-Tabari says the sense of the opening phrase is "this is a disavowal from God and His messenger"; the word for disavowal is in the nominative by an omitted subject, "this", as at the start of Surat al-Nur. He allows that the word could instead be raised by the pronoun referring back to it in "those you made a covenant with", being treated as definite through its qualification "from God and His messenger", giving the sense "the disavowal from God and His messenger to those polytheists you made a covenant with"; he does not reject that course, but prefers the first, since it is the Arabs' way to supply "this" for anything seen, indefinite or definite, saying at the sight of something fine "fine, by God", meaning "this is fine". The editor notes that the printed text and manuscript have the word without the article here. {cite:tafsir-tabari-shakir-v14 p. 95}
 
@@ -64,6 +64,6 @@ If someone asks for the proof that the postponement began on the day of the grea
 
 He explains "travel in the land for four months" as go about in it coming and going, safe and not fearing the Messenger and his followers, and gives the verbal forms of "to travel". The words "know that you cannot frustrate God" he takes as addressed to the covenant people who held a covenant with the Messenger before the verse came down: know, polytheists, that if you travel and choose that, with your unbelief, over affirming God's oneness and believing His messenger, you cannot escape Him by yourselves, for wherever you go you are in His grasp and power; no minister protects you from Him and no refuge or shelter stands between you and Him when He means to punish you, except faith in Him and His messenger and repentance of disobedience, so hasten to repent and leave the travel that will not benefit you. The editor refers to the earlier explanation of "frustrate". {cite:tafsir-tabari-shakir-v14 p. 111}
 
-We stop here at the foot of p. 111, in the middle of the commentary on verses 1 and 2 (after the explanation of "cannot frustrate God", before the explanation of "God will disgrace the unbelievers"); the next batch begins at p. 112. {cite:tafsir-tabari-shakir-v14 p. 111}
+On "God will disgrace the unbelievers" al-Tabari says: know that God humbles the unbelievers and bequeaths them shame in this world and the Fire in the next. {cite:tafsir-tabari-shakir-v14 p. 112}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
