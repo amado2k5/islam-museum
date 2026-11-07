@@ -347,5 +347,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 9: pp. 62-69 filed in ar, en and ur (reports 17610-17636): 10:26 is filed to the foot of p. 69 (the 'more' as looking upon God, and the pearl-chamber report). Next is p. 70.
 - Batch 10: pp. 70-76 filed in ar, en and ur (reports 17637-17647): 10:26 closes at p. 72 (al-Tabari's choice that the 'more' is general), 10:27 is filed to the foot of p. 76 (the grammar of 'jaza'' and the readings of 'qita'an'). Next is the second reason for the masculine 'muzliman', from p. 77.
 
+- Batch 16: pp. 126-132 filed in ar, en and ur (reports 12828-12843): verse 5:103 continues; stop at the foot of p. 132 at the start of report 12843 (next: p. 133).
+
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
