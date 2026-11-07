@@ -261,6 +261,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 8: pp. 56-62 filed in ar, en and ur (reports 13775-13788): verse 112 closes at p. 57, verses 113 and 114 are filed in full and verse 115 is begun (the 'word of your Lord') to the foot of p. 62. Stop sentence at the foot.
 - Batch 9: pp. 63-69 filed in ar, en and ur (reports 13789-13792): verse 115 closes at p. 63, verses 116 to 118 are filed in full and verse 119 is begun (the meaning of 'wa ma lakum alla ta'kulu') to the foot of p. 69. Stop sentence at the foot. Next is the rest of verse 119 from p. 70.
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
+- Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
 
 ## Volume 10 progress
 - Volume 10 (`waqtaftab-taftab10`, 634 markers): the title page (marker 4) names sura al-Ma'ida 5:6 to 5:94 and reports 11300 to 12543; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (5:6, rising for prayer). The marker-to-printed-page map is the identity (page numbers in the headers agree from p. 8 on). Cite `{cite:tafsir-tabari-shakir-v10 p. N}` by printed number. The source record `source/tafsir-tabari-shakir-v10` already exists.
@@ -295,10 +296,13 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batches 3-5 (one PR): pp. 21-55 filed in ar, en and ur (reports 12585-12666): verse 5:95 continues (the two judges, the three expiations, place of the offering, 'its equal in fasting', 'taste the evil consequence', 'whoever returns'); stop at the foot of p. 55 in al-Tabari's reply on a claimed meaning of 'whoever returns' (next: p. 56).
 - Batch 6: pp. 56-62 filed in ar, en and ur (reports 12667-12693): verse 5:95 closes at p. 57; verse 5:96 is begun and filed to report 12693 at p. 62 (the meaning of 'its food').
 
-## Volume 11 progress
-- Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
 - Batch 7: pp. 63-69 filed in ar, en and ur (reports 12694-12728): verse 5:96 continues; stop at the foot of p. 69 in al-Tabari's choice for 'its food' (next: p. 70).
 - Batch 8: pp. 70-76 filed in ar, en and ur (reports 12729-12745): verse 5:96 continues; stop at the foot of p. 76 at the start of report 12745 (next: p. 77).
 - Batch 9: pp. 77-83 filed in ar, en and ur (reports 12745-12767): verse 5:96 continues; stop at the foot of p. 83 after report 12767 (next: p. 84).
 - Batch 14: pp. 124-130 filed in ar, en and ur (reports 15132-15141): verse 150 is filed to the foot of p. 130 (the discussion of the readings 'ya ibn umm'). Next is the rest of 7:150 from printed p. 131.
 - Batch 15: pp. 131-137 filed in ar, en and ur (reports 15142-15151): verses 150 to 153 are filed in full and verse 154 is begun at p. 137 ('when the anger subsided'). Next is the rest of 7:154 from printed p. 138.
+- Batch 10: pp. 84-90 filed in ar, en and ur (reports 12768-12781): verse 5:96 closes at p. 89; verse 5:97 is begun and filed to the foot of p. 90 (next: p. 91).
+
+## Volume 11 progress
+- Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
+- Batch 11: pp. 91-97 filed in ar, en and ur (reports 12782-12793): verse 5:97 closes at p. 94 and verses 5:98 to 5:100 are filed in full (next: 5:101 from p. 98).
