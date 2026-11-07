@@ -67,7 +67,7 @@ export function placesOf(id: string) {
 const SCHEMA_TYPE: Record<string, string> = {
   person: "Person", group: "Organization", polity: "Organization", event: "Event", period: "Event", journey: "Event",
   place: "Place", building: "Place", object: "VisualArtwork", media: "MediaObject", work: "CreativeWork", passage: "CreativeWork",
-  concept: "DefinedTerm", language: "Language", practice: "Event", exhibit: "CreativeWork", question: "Question", source: "CreativeWork", dataset: "Dataset", listing: "Organization", screen: "CreativeWork",
+  concept: "DefinedTerm", language: "Language", practice: "DefinedTerm", exhibit: "CreativeWork", question: "Question", source: "CreativeWork", dataset: "Dataset", listing: "Organization", screen: "CreativeWork",
 };
 
 const iso = (d: any): string | undefined => {
@@ -106,7 +106,31 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
     ld.name = labelOf(n, lang);
     ld.alternateName = (d.titles ?? []).map((t: any) => t.value);
   }
-  if (n.class === "event") { ld.startDate = iso(d.date?.start); ld.endDate = iso(d.date?.end); }
+  if ((SCHEMA_TYPE[n.class] ?? "Thing") === "Event") {
+    // Events, periods and journeys share the Event type. Emit every date the
+    // record actually carries — events keep theirs under data.date, periods
+    // use top-level start/end, journeys carry dates on their legs — and a
+    // location whenever the graph ties the item to a place (a journey falls
+    // back to its first waypoint/departure). Search engines flag a missing
+    // startDate or location as a critical structured-data error; both are
+    // often present in the data, just under class-specific shapes.
+    ld.startDate = iso(d.date?.start) ?? iso(d.start);
+    ld.endDate = iso(d.date?.end) ?? iso(d.end);
+    if (n.class === "journey") {
+      const legs = Array.isArray(d.legs) ? d.legs : [];
+      if (!ld.startDate) for (const l of legs) { const s = iso(l?.start); if (s) { ld.startDate = s; break; } }
+      if (!ld.endDate) for (let i = legs.length - 1; i >= 0; i--) { const e = iso(legs[i]?.end); if (e) { ld.endDate = e; break; } }
+    }
+    let place = placesOf(n.id)[0];
+    if (!place && n.class === "journey") {
+      const wp = (Array.isArray(d.waypoints) ? d.waypoints : []).map((w: any) => byId.get(w?.place)).find(Boolean);
+      const lg = (Array.isArray(d.legs) ? d.legs : []).map((l: any) => byId.get(l?.from)).find(Boolean);
+      place = wp ?? lg;
+    }
+    if (place) {
+      ld.location = { "@type": "Place", name: labelOf(place, lang), ...(place.coordinates ? { geo: { "@type": "GeoCoordinates", latitude: place.coordinates[0], longitude: place.coordinates[1] } } : {}) };
+    }
+  }
   if (n.class === "place" && n.coordinates) ld.geo = { "@type": "GeoCoordinates", latitude: n.coordinates[0], longitude: n.coordinates[1] };
   ld.mainEntityOfPage = `${SITE}${path}`;
   // Accessibility is a property of the page (a CreativeWork), not of the subject (Person, Place…):
