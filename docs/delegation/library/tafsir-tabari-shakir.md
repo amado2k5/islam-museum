@@ -224,4 +224,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 20: pp. 406-412 filed in ar, en and ur (reports 10845-10852): verses 163 to 170 are filed to the foot of p. 412.
 - Batch 21: pp. 413-419 filed in ar, en and ur (reports 10853-10854): verse 170 closes at p. 413 and verse 171 is filed to report 10854 at p. 419.
 - Batch 22: pp. 420-426 filed in ar, en and ur (reports 10855-10857): verse 171 closes at p. 424, verse 172 is filed to p. 425, and verse 173 is begun at p. 426.
-- Progress: current report 10857, printed p. 425. Next is verse 173 from printed p. 426 on (the reward beyond ten-fold continues there).
+- Batch 23: pp. 427-431 filed in ar, en and ur (reports 10858-10865): verses 173 to 175 are filed in full, and verse 176 is begun at p. 430.
+- Progress: current report 10865, printed p. 431. Next is the rest of verse 176 from printed p. 431 on (the Jabir reports continue).
