@@ -42,6 +42,8 @@ As for "and what you claimed has left you" he says: what you claimed of your god
 
 The editor refers for "error" to earlier passages.
 
+The editor's supplement (Ahmad Shakir, from the "completion of the tracing"; not al-Tabari's words) on report 13570: al-Suyuti gives it in brief in his commentary on Surat Abasa (vol. 6, p. 317), crediting only al-Hakim and Ibn Mardawayh; he missed crediting it to al-Tabari, who did not report it under that sura. The supplement is signed Ahmad Muhammad Shakir. {cite:tafsir-tabari-shakir-v11 p. 591}
+
 Verse 94 closes here on p. 550, and al-Tabari goes on to [[passage/quran-6-95|6:95]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

@@ -68,6 +68,8 @@ The editor keeps "who please the one who works for them, worshipping" after corr
 
 The words "that you should drive them away" answer "you are not accountable for anything of theirs and they are not accountable for anything of yours", and "and be among the wrongdoers" answers "do not drive away those who call on their Lord". {cite:tafsir-tabari-shakir-v11 p. 388}
 
+The editor's supplement (Ahmad Shakir, from the "completion of the tracing"; not al-Tabari's words) on report 13263: al-Suyuti, in al-Durr al-Manthur (vol. 3, p. 13), credits Ahmad with it as well. The editor did not find it in the Musnad under Sa'd ibn Abi Waqqas, unless Ahmad gave it within the section of some other Companion where its place escaped him. {cite:tafsir-tabari-shakir-v11 p. 590}
+
 Verse 52 closes here at p. 388, and al-Tabari goes on to [[passage/quran-6-53|6:53]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
