@@ -664,3 +664,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 62: printed pp. 393-399 (markers 397-403) filed in ar, en and ur (reports 14526-14542): 7:31 closes at p. 395 and 7:32 is begun to the foot of p. 399 before report 14543. Offset still marker - 4. Stop sentence at the foot. Next is report 14543 (marker 403, printed 399).
 - Batch 74: pp. 399-402 filed in ar, en and ur (reports 13302-13307): 6:57 end, 6:58 and the start of 6:59 (the keys of the unseen)
 - Batch 75: pp. 403-406 filed in ar, en and ur (reports 13308-13314): end of 6:59 and the start of 6:60 (sleep and waking)
+- Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
