@@ -10,7 +10,7 @@ Verse 28 of [[passage/quran-9|Surat at-Tawba]], a Medinan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 28 of 129 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 28 (pp. 190-197)**
+**Commentary on verse 28 (pp. 190-198)**
 
 Al-Tabari says God addresses the believers in Him and His messenger who acknowledged His oneness: the polytheists are only impure. The interpreters differed over the sense of "impure" and the reason He called them so. Some said He called them that because they fall into a state of major impurity and do not wash, so they are impure and must not approach the Sacred Mosque, since one in that state should not enter a mosque. {cite:tafsir-tabari-shakir-v14 p. 190}
 
@@ -30,8 +30,6 @@ Report 16608, from Mujahid, through Muhammad ibn Amr, Abu Asim, Isa and Ibn Abi 
 
 Report 16610, from Jabir ibn Abdullah, through al-Hasan ibn Yahya, Abd al-Razzaq, Ibn Jurayj and Abu al-Zubayr: except a slave or one of the protected peoples; report 16611, from Qatada: except one who pays the poll tax or a Muslim's slave; report 16612, from Jabir: except a slave or one of the poll-tax people; report 16613, from Qatada: God enriched them with the poll tax running month by month and year by year; report 16614, from Jabir, through Ahmad ibn Ishaq, Abu Ahmad, Abbad ibn al-Awwam, al-Hajjaj and Abu al-Zubayr: after this year neither a polytheist nor a protected person approaches the Sacred Mosque. Report 16615, from Ibn Ishaq, through Ibn Humayd and Salama: people said the markets would be cut off from them, trade ruined and the benefits they gained lost, and God said that if they feared poverty He would enrich them from His bounty by another route if He willed, up to "humbled", so that in this was compensation for the fear of losing those markets, God recompensing them for what He cut off of polytheism with what He gave of the necks of the People of the Book through the poll tax. The editor refers to Ibn Hisham's Sira. {cite:tafsir-tabari-shakir-v14 p. 197}
 
-As for "God is knowing, wise", the sense is that God knows what your selves told you, believers, of fear of want if the polytheists were barred from approaching; the sentence continues on the next page. {cite:tafsir-tabari-shakir-v14 p. 197}
-
-We stop here at the foot of p. 197, in the middle of the commentary on verse 28 (in the explanation of "God is knowing, wise"); the next batch begins at p. 198. {cite:tafsir-tabari-shakir-v14 p. 197}
+As for "God is knowing, wise", the sense is that God knows what your selves told you, believers, of fear of want if the polytheists were barred from approaching the Sacred Mosque, and of other benefits to His servants, and wise in His management of them and of all His creation. {cite:tafsir-tabari-shakir-v14 p. 198}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
