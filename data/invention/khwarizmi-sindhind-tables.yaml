@@ -1,0 +1,98 @@
+id: invention/khwarizmi-sindhind-tables
+class: invention
+label:
+  ar: "تكييف الخوارزمي لزيج السند هند"
+  en: "Al-Khwarizmi's Sindhind astronomical tables"
+  ur: "خوارزمی کی سندہند فلکیاتی جدولیں"
+names:
+  - { value: "Zij al-Sindhind", kind: alternate, lang: en }
+summary:
+  ar: "تكييف فلكي منسوب إلى محمد بن موسى الخوارزمي لمادة هندية في جداول فلكية، ضمن زيج ذي نسختين عربيتين مفقودتين وموضوعات حسابية متعددة؛ لا اختراع الجداول أو المثلثات أو فن الزيج {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}."
+  en: "An astronomical adaptation attributed to Muhammad ibn Musa al-Khwarizmi, drawing on Indian astronomical material in a multi-topic zij whose two Arabic versions are lost; not invention of tables, trigonometry, or the zij genre {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}."
+  ur: "محمد بن موسیٰ خوارزمی سے منسوب ہندی فلکیاتی مواد کی جدولوں میں تکییف، ایک ایسے زیج میں جس کے عربی نسخے گم ہیں اور موضوعات متعدد ہیں؛ جدول، مثلثات یا زیج کی صنف کی ایجاد نہیں {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}۔"
+domain: astronomy-instruments
+kind: method
+disciplines: [astronomy]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+themes: [astronomy-and-timekeeping]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "08XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad ninth-century attributional context, not a dated composition or a surviving Arabic witness; no Hijri conversion is supplied because the sources do not give a single year."
+    sources: [source/tdv-harizmi, source/khwarizmi-mactutor]
+  status_today: replaced
+origin:
+  place: place/baghdad
+  context:
+    ar: "تذكر السيرة وصول نص فلكي هندي إلى بلاط بغداد نحو 770م، وتربط عمل الخوارزمي الفلكي ببغداد؛ لا تحدد غرفة تأليف أو مرصدًا بعينه {cite:khwarizmi-mactutor Astronomy paragraph}."
+    en: "The biography reports an Indian astronomical text reaching the Baghdad court around 770 and places al-Khwarizmi's scholarly setting in Baghdad; it identifies no writing room or particular observatory {cite:khwarizmi-mactutor Astronomy paragraph}."
+    ur: "سوانح میں ہندی فلکیاتی متن کی تقریباً 770ء میں بغداد کے دربار آمد اور خوارزمی کے علمی ماحول کا بغداد سے تعلق مذکور ہے؛ تصنیف کا کمرہ یا کوئی خاص رصدگاہ متعین نہیں {cite:khwarizmi-mactutor Astronomy paragraph}۔"
+makers:
+  - person: person/al-khwarizmi
+    role: improver
+    place: place/baghdad
+    note: "Improvement/adaptation of Indian astronomical material, not invention of the older table tradition. The existing person record bases his Muslim identity on his own algebra preface and states no personally attested legal school."
+    sources: [source/tdv-harizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-mactutor]
+attribution:
+  status: improvement
+  claim:
+    ar: "تكييف مادة فلكية هندية في زيج منسوب إلى الخوارزمي، لا اختراع جداول الرصد أو علم الفلك."
+    en: "Adaptation of Indian astronomical material in a zij attributed to al-Khwarizmi, not invention of observational tables or astronomy."
+    ur: "خوارزمی سے منسوب زیج میں ہندی فلکیاتی مواد کی تکییف، رصدی جدول یا فلکیات کی ایجاد نہیں۔"
+  basis:
+    ar: "يصف المصدر الحديث العمل بأنه قائم على أعمال هندية، ويعرض السيرة مادته في سياق أعمال الخوارزمي؛ النسختان العربيتان مفقودتان، فلا يحسم السجل ترتيب كل جدول أو أولوية عالمية {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}."
+    en: "The modern account says the work drew on Indian astronomical material, while the biography places it among al-Khwarizmi's works; both Arabic versions are lost, so neither the exact table arrangement nor universal priority is claimed {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}."
+    ur: "جدید بیان اسے ہندی فلکیاتی مواد پر مبنی بتاتا ہے اور سوانح اسے خوارزمی کے کاموں میں رکھتی ہے؛ دونوں عربی نسخے گم ہیں، اس لیے جدولوں کی اصل ترتیب یا عالمی اولینیت کا دعویٰ نہیں {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "العلوم الفلكية الهندية التي اعتمد عليها السند هند", en: "Indian astronomical works underlying the Sindhind", ur: "سندہند کی بنیاد بننے والی ہندی فلکیاتی تصانیف" }
+    note: "The cited account does not identify a single exact Indian source text or establish a direct personal contact with its authors."
+    sources: [source/khwarizmi-mactutor, source/tdv-harizmi]
+dependents: []
+spread: []
+impact:
+  fields: [astronomy-instruments]
+  changed:
+    ar: "جمع الزيج جداول تقويم ومواضع الشمس والقمر والكواكب، وجداول جيوب وظلال، وفلك كروي وكسوف وخسوف واختلاف منظر ورؤية الهلال؛ ولا تثبت القائمة وحدها من استعمل كل جدول {cite:khwarizmi-mactutor Astronomy paragraph}."
+    en: "The zij gathered calendar and solar, lunar, and planetary position tables, sines and tangents, spherical astronomy, eclipses, parallax, and crescent visibility; this topic list alone does not identify every user {cite:khwarizmi-mactutor Astronomy paragraph}."
+    ur: "زیج میں تقویم، سورج، چاند اور سیاروں کے مقامات، جیوب و ظلال، کروی فلکیات، گرہن، اختلافِ منظر اور ہلال کی رؤیت کے جدول شامل تھے؛ موضوعات کی فہرست ہر صارف کی شناخت نہیں کرتی {cite:khwarizmi-mactutor Astronomy paragraph}۔"
+  history:
+    ar: "يذكر المصدر مراجعة أندلسية للنسخة الأقصر في القرن العاشر وترجمة لاتينية لها، كما يذكر بقاء صيغة لاتينية للنسخة الأطول؛ لا يثبت ذلك خطًا مباشرًا إلى كل علم فلك لاحق {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}."
+    en: "The account reports a tenth-century Andalusian revision and Latin translation of the shorter version, and a surviving Latin version of the longer one; this does not prove a direct line to every later astronomy {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}."
+    ur: "بیان مختصر نسخے کی دسویں صدی کی اندلسی نظرثانی اور لاطینی ترجمے، نیز طویل نسخے کی لاطینی صورت کے باقی رہنے کا ذکر کرتا ہے؛ اس سے بعد کی ہر فلکیات تک براہ راست سلسلہ ثابت نہیں ہوتا {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}۔"
+  significance: 3
+  why: "A distinct, sourced adaptation with a documented textual afterlife, while its lost originals and uncertain transmission limit priority and lineage claims {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}."
+described_in: [work/zij-al-sindhind-khwarizmi]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "موضوع تاريخي في دراسة جداول الفلك؛ لا تقدم المصادر المقروءة الجداول العربية الأصلية أداةً حسابية معاصرة {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}."
+    en: "A subject in the history of astronomical tables; the sources read do not present the original Arabic tables as a contemporary calculation tool {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}."
+    ur: "فلکیاتی جدولوں کی تاریخ کا موضوع؛ پڑھے گئے ماخذ اصل عربی جدولوں کو آج کے حسابی آلے کے طور پر پیش نہیں کرتے {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}۔"
+  descendants:
+    ar: "لا يسند هذا السجل تفرعًا مباشرًا إلى أداة أو طريقة حديثة محددة {cite:tdv-harizmi pp. 224–227}."
+    en: "This record does not establish a direct descendant in any named modern tool or method {cite:tdv-harizmi pp. 224–227}."
+    ur: "یہ ریکارڈ کسی نام زدہ جدید آلے یا طریقے تک براہ راست تسلسل ثابت نہیں کرتا {cite:tdv-harizmi pp. 224–227}۔"
+media:
+  image: media/photo-astrolabe-umar-ibn-yusuf
+  diagram: media/diagram-khwarizmi-sindhind-tables
+kids:
+  ar: "جمع الخوارزمي جداول تساعد قارئها على حساب أمور تتعلق بالشمس والقمر والنجوم؛ أما النسخة العربية التي كتبها فمفقودة."
+  en: "Al-Khwarizmi assembled tables for calculating matters about the Sun, Moon, and stars; the Arabic versions of his work are lost."
+  ur: "خوارزمی نے سورج، چاند اور ستاروں سے متعلق حساب کے لیے جدولیں جمع کیں؛ ان کے کام کے عربی نسخے گم ہیں۔"
+sources: [source/tdv-harizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-mactutor, source/met-open-access]
+provenance:
+  layer: own-research
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-p3-b100
+  source: "Directly read MacTutor astronomy passage and TDV web entry; inherited al-Khwarizmi faith basis cites the 1939 Cairo edition as already recorded; Met open-access source supports contextual image identification. Arabic originals not inspected."
+status: { review: published, completeness: 3 }

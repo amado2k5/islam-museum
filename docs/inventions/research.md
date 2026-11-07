@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: research method
 
+## Invention100 — al-Khwarizmi's Sindhind astronomical tables (7 November 2026)
+
+Read the official TDV web entry for İhsan Fazlıoğlu's “HÂRİZMÎ, Muhammed b. Mûsâ” directly (printed pp. 224–227) and read the astronomy section and author/update line of the MacTutor biography by J. J. O'Connor and E. F. Robertson. MacTutor reports Indian astronomical foundations, an Indian text presented at the Baghdad court around770, two lost Arabic versions, a tenth-century Andalusian revision and Latin translation of the shorter version, a surviving Latin version of the longer version, and the work's calendar, planetary, sine/tangent, spherical-astronomy, parallax, eclipse and crescent-visibility topics. Its cited secondary works were not independently consulted; the Arabic originals were not inspected.
+
+The bounded claim is al-Khwarizmi's adaptation/improvement of Indian astronomical material in a named zij, not invention of tables, astronomy, trigonometry or the zij genre. MacTutor treats possible Ptolemaic influence as likely, not certain. The exact original table arrangement, exact composition year, version-to-witness correspondence, copy history and route are not established here; therefore no precise spread, map, direct European lineage, reconstructed values or invented manuscript shelfmark. The work is placed in broad ninth-century context without an invented Hijri conversion.
+
+The existing person entity supplies the maker's individual Muslim basis from the algebra preface at Cairo-edition scan pp.29–30 and uses the museum's Sunni frame without claiming a personally attested legal school. Those recorded anchors were not reinspected in this run because the external harvest drive was unavailable; this is explicitly inherited evidence, not a new scan reading or a faith inference from name, period or office. The Met object record identifies the reused CC0 astrolabe as made in1291; it is clearly contextual, not a Sindhind example. The diagram is the generic relation renderer and does not reconstruct any table or instrument.
+
+Sources opened: `https://islamansiklopedisi.org.tr/harizmi-muhammed-b-musa`; `https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/`. No restricted book was accessed or downloaded.
+
 ## Invention99 — animal-powered scoop water-lifter (7 November 2026)
 
 The accepted subject is the distinct Category V, chapter 4 apparatus in al-Jazari's *Book of Knowledge of Ingenious Mechanical Devices*. Hill's 1974 English translation, pp.184–185, was read in the shared Internet Archive browser; the target text describes an animal supplying motion, toothed gearing, a pin moving through the ladle stem's slot, and a scoop that rises and falls. The text gives dimensions and capacities in its own units; none are converted here. The adjacent V.3 water-driven jar-chain (pp.182–183) and V.5 double-piston pump (pp.186–188) were read for differentiation. The new entry therefore counts one complete water-lifting design, not a second record for the crank/slot component already represented in other al-Jazari machinery.
