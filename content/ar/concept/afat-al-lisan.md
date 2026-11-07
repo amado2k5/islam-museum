@@ -22,3 +22,6 @@ translators: []
 
 ## ثمرة حفظ اللسان
 يرى أن الناس لو أمسكوا ألسنتهم لصلحت المجتمعات وصفت النفوس، وهذا رأيه في ختام السلسلة. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30}
+
+## في برنامج مصطفى حسني «أهل الجنة»
+يتكلم [[person/mustafa-hosny|مصطفى حسني]] عن الغيبة والفحش في الحلقتين الخامسة والسادسة من برنامجه [[work/ahl-al-jannah|«أهل الجنة»]]. يقول إن النبي لم يكن يغتاب أحدًا، وكان إذا ذكر معصية لم يسمِّ صاحبها، ويروي أنه لما سأل عن [[person/malik-ibn-al-dukhshum|مالك بن الدخشم]] فقال رجل إنه منافق نهاه وقال إنه يشهد أن لا إله إلا الله وأن محمدًا رسول الله. {cite:assabile-mustafa-hosny ahl-al-jannah/ep05 00:04:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep05 00:05:00} ويعرّف الغيبة بذكر الإنسان أخاه بما يكره وهو صادق، بالكلام أو بالإيحاء. {cite:assabile-mustafa-hosny ahl-al-jannah/ep05 00:07:00} ويذكر من كتاب «ذم الغيبة» لابن أبي الدنيا عن أنس بن مالك خبرًا عن ليلة الإسراء، ويروي أن [[person/muadh-ibn-jabal|معاذ بن جبل]] ردّ في تبوك على من عاب [[person/kaab-ibn-malik|كعب بن مالك]]. {cite:assabile-mustafa-hosny ahl-al-jannah/ep05 00:23:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep05 00:27:00} ويحكي في السادسة أنه في شبابه رفض أن يشتم أصحابه أمه بألفاظ جنسية حتى اعتادوا ذلك منه. {cite:assabile-mustafa-hosny ahl-al-jannah/ep06 00:16:00}
