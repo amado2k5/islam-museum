@@ -295,3 +295,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 7: pp. 63-69 filed in ar, en and ur (reports 12694-12728): verse 5:96 continues; stop at the foot of p. 69 in al-Tabari's choice for 'its food' (next: p. 70).
 - Batch 8: pp. 70-76 filed in ar, en and ur (reports 12729-12745): verse 5:96 continues; stop at the foot of p. 76 at the start of report 12745 (next: p. 77).
 - Batch 9: pp. 77-83 filed in ar, en and ur (reports 12745-12767): verse 5:96 continues; stop at the foot of p. 83 after report 12767 (next: p. 84).
+
+## Volume 16 progress
+- Volume 16 (`waqtaftab-taftab16`, 689 markers): commentary starts on marker 9 = printed p. 1 (12:19, report 18880); printed page = marker minus 8. Indexes begin near marker 615. Cite `{cite:tafsir-tabari-shakir-v16 p. N}` by printed number.
+- Batches 1-10: pp. 1-79 filed in ar, en and ur (reports 18880-19224): 12:19 to 12:30 in full (12:26-28 filed together under 12:26), 12:31 begun to the foot of p. 79 (report 19224, Ibn Mas'ud). Stop sentence at the foot. Next is p. 80 in 12:31. Not yet run: npm run validate.
