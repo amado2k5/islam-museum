@@ -160,6 +160,7 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's Jami' al-Bayan (Shakir edition), volume 14, pp. 84-90 filed in Arabic, English and Urdu (reports 16343-16354): 8:73 and 8:74 in full (the unbelievers as allies, the two readings of the strife clause and al-Tabari's choice, the true believers and the provision of Paradise) and 8:75 to the foot of p. 90 (those who believed later, the kinship verse, the case of Shurayh), cited as {cite:tafsir-tabari-shakir-v14 p. 90}; the next stop is p. 91. Statements are given as transmitted with no museum verdict.
 
 ### Data
+- Tafsir Browser: al-Tabari vol. 11, batch 94 (pp. 533-539, reports 13555-13567): 6:93 (Ibn Abi Sarh, Musaylima and al-Ansi, the agonies of death) up to its question on 'give up your souls' Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 93 (pp. 526-532, reports 13544-13554): 6:91 end, 6:92 and 6:93 begun Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 92 (pp. 519-525, reports 13531-13543): 6:90 end and 6:91 begun Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 91 (pp. 512-518, reports 13516-13530): 6:86 end, 6:87, 6:88, 6:89 and 6:90 begun Arabic, English and Urdu.
