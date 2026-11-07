@@ -1,0 +1,47 @@
+id: work/salaam-sami-yusuf
+class: work
+kind: album
+label: { ar: "سلام ⁦(ألبوم سامي يوسف، 2012)⁩", en: "Salaam (Sami Yusuf album)", ur: "سلام ⁦(سامی یوسف کا البم، 2012)⁩" }
+summary:
+  ar: "ألبوم الاستوديو الخامس لسامي يوسف، صدر عن إي تي إم إنترناشونال في 22 ديسمبر 2012 بست عشرة أغنية؛ وصفه بأنه احتفاء بـ«التعدد في الظاهر والوحدة في الباطن» وبالسلام بين الناس، ونال شهادة بلاتينية في جنوب شرق آسيا، وصدرت له طبعة تركية بخمس أغان أعاد تسجيلها بالتركية."
+  en: "Sami Yusuf's fifth studio album, released by ETM International on 22 December 2012 with sixteen tracks; he described it as celebrating 'outward multiplicity and inward unity' and peace between people, it went platinum in South-East Asia, and a Turkish edition carried five songs he re-recorded in Turkish."
+  ur: "سامی یوسف کا پانچواں اسٹوڈیو البم، 22 دسمبر 2012 کو ای ٹی ایم انٹرنیشنل سے سولہ ٹریکس کے ساتھ جاری ہوا؛ انہوں نے اسے «ظاہر میں کثرت اور باطن میں وحدت» اور لوگوں کے درمیان امن کا جشن کہا، اور جنوب مشرقی ایشیا میں اسے پلاٹینم سند ملی۔"
+wings: [today, words]
+themes: [music]
+regions: [andalus-europe, southeast-asia]
+genre: [nasheed, religious-pop]
+composed: { edtf: "2012-12-22", hijri: "1434", calendar: gregorian, precision: day, derived: true, note: "Physical release on 22 December 2012 and digital on 24 December; South-East Asia and the Middle East and North Africa received it before the worldwide release. Recorded 2009–2012. The Hijri year is converter-derived.", sources: [source/wikipedia-salaam-sami-yusuf-en, source/wikidata-salaam-sami-yusuf] }
+languages: [en, ar, tr]
+duration: 3720   # seconds; 62:00
+tracks:
+  - { n: 1, title: { en: "Happiness" }, duration_s: 200, performers: [person/sami-yusuf], sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 2, title: { en: "Salaam" }, duration_s: 282, performers: [person/sami-yusuf], sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 3, title: { en: "Smile" }, duration_s: 237, performers: [person/sami-yusuf], sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 4, title: { en: "The Source" }, duration_s: 227, performers: [person/sami-yusuf], sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 5, title: { en: "Dryer Land" }, duration_s: 269, performers: [person/sami-yusuf], sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 6, title: { en: "It's A Game" }, duration_s: 217, performers: [person/sami-yusuf], note: "a re-edited 'Sallou' from Without You", sources: [source/wikipedia-salaam-sami-yusuf-en, source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 7, title: { en: "To Guide You Home" }, duration_s: 221, performers: [person/sami-yusuf], sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 8, title: { en: "Forgotten Promises" }, duration_s: 255, performers: [person/sami-yusuf], sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 9, title: { en: "Ala Bi Dhikrika" }, duration_s: 207, lang: ar, performers: [person/sami-yusuf], sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 10, title: { en: "I'm Your Hope" }, duration_s: 165, performers: [person/sami-yusuf], sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 11, title: { en: "All I Need" }, duration_s: 218, performers: [person/sami-yusuf], note: "a re-edited 'Never Never' from Without You", sources: [source/wikipedia-salaam-sami-yusuf-en, source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 12, title: { en: "Hear Your Call" }, duration_s: 269, performers: [person/sami-yusuf], sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 13, title: { en: "Wherever You Are (Acoustic, Arabic)" }, duration_s: 234, lang: ar, performers: [person/sami-yusuf], note: "bonus", sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 14, title: { en: "Without You (Acoustic, Arabic)" }, duration_s: 291, lang: ar, performers: [person/sami-yusuf], note: "bonus", sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 15, title: { en: "To Guide You Home (Instrumental)" }, duration_s: 154, performers: [person/sami-yusuf], note: "bonus", sources: [source/wikipedia-salaam-sami-yusuf-en] }
+  - { n: 16, title: { en: "Dryer Land" }, duration_s: 269, performers: [person/sami-yusuf], note: "bonus, featuring Ustadh Babak Radmanesh", sources: [source/wikipedia-salaam-sami-yusuf-en] }
+footprint:
+  wikipedia: { languages: [ar, en, fa], checked: "2026-11-07", sources: [source/wikidata-salaam-sami-yusuf] }
+  wikidata: "Q7403343"
+relations:
+  - { type: performed_by, target: person/sami-yusuf, sources: [source/wikipedia-salaam-sami-yusuf-en, source/wikidata-salaam-sami-yusuf] }
+  - { type: work_produced_by, target: person/sami-yusuf, sources: [source/wikipedia-salaam-sami-yusuf-en] }
+external_ids: { wikidata: "Q7403343" }
+sources: [source/wikipedia-salaam-sami-yusuf-en, source/wikidata-salaam-sami-yusuf, source/wikipedia-without-you-sami-yusuf-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Salaam (album)' (revision 1381778992 of 24 October 2026, citing Tabloid!, TNT Haber, Global Post and Samanyolu Haber) and Wikidata Q7403343 (revision 2218692799), read in Chrome on the founder's Mac on 7 November 2026. The South-East Asian platinum has no year or certifying body in the source, so it is told in prose, not as a dated honour"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

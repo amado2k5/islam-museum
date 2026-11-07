@@ -222,6 +222,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 18: pp. 392-398 filed in ar, en and ur (reports 10836-10838): verse 160 closes at p. 392, verse 161 is filed in full, and verse 162 is filed to p. 398.
 - Batch 19: pp. 399-405 filed in ar, en and ur (reports 10839-10844): verse 162 closes at p. 399 and verse 163 is filed to report 10844 at p. 405.
 - Batch 20: pp. 406-412 filed in ar, en and ur (reports 10845-10852): verses 163 to 170 are filed to the foot of p. 412.
+- Batch 21: pp. 146-152 filed in ar, en and ur (reports 11613-11614): verse 16 closes at p. 146, verse 17 is filed in full (pp. 146-150), verse 18 is begun at p. 150; next is the rest of 5:18 from the foot of p. 152 ('rather you are human beings among those He created').
 - Batch 21: pp. 413-419 filed in ar, en and ur (reports 10853-10854): verse 170 closes at p. 413 and verse 171 is filed to report 10854 at p. 419.
 - Batch 22: pp. 420-426 filed in ar, en and ur (reports 10855-10857): verse 171 closes at p. 424, verse 172 is filed to p. 425, and verse 173 is begun at p. 426.
 - Batch 23: pp. 427-431 filed in ar, en and ur (reports 10858-10865): verses 173 to 175 are filed in full, and verse 176 is begun at p. 430.
@@ -250,7 +251,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 41: pp. 549-555 filed in ar, en and ur (reports 11151-11166): verse 4 is filed to the foot of p. 555.
 - Batch 42: pp. 556-562 filed in ar, en and ur (reports 11167-11201): verse 4 is filed to the foot of p. 562.
 - Batch 43: pp. 563-570 filed in ar, en and ur (reports 11201-11217): verse 4 is filed to the foot of p. 570.
-- Progress: current report 11217, printed p. 570. Next is the rest of the account of 'min' in 'of what they hold for you', from printed p. 570 on, in verse 4.
+- Batch 44: pp. 570-577 filed in ar, en and ur (reports 11218-11240): verse 4 is closed at p. 572 and verse 5 is filed to the foot of p. 577 (new passage content in quran-5-5).
+- Progress: current report 11240, printed p. 577. Next is the rest of the meaning of 'food' in the food of the People of the Book, from printed p. 578 on, in verse 5.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
@@ -284,6 +286,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batches 10-13: pp. 70-96 filed in ar, en and ur (reports 11512-11556): verse 6 closes at p. 90, verse 7 is filed in full (pp. 91-94), verse 8 is begun at p. 95; next is the rest of 5:8 from p. 96.
 - Batch 14: pp. 97-103 filed in ar, en and ur (reports 11556-11562): verse 8 closes at p. 97, verses 9 and 10 are filed in full, verse 11 is begun at p. 100; next is report 11562 (Ikrima) at the foot of p. 103.
 - Batches 15-17: pp. 104-124 filed in ar, en and ur (reports 11562-11583): verse 11 closes at p. 108, verse 12 is filed in full to p. 124; next is verse 13 from p. 125.
+- Batches 18-19: pp. 125-138 filed in ar, en and ur (reports 11584-11606): verse 13 closes at p. 135, verse 14 is begun at p. 135; verse 14 continues.
+- Batch 20: pp. 139-145 filed in ar, en and ur (reports 11607-11612): verse 14 closes at p. 140, verse 15 is filed in full, verse 16 is begun at p. 144; verse 16 continues.
 
 - Batch 2 (pp. 14-34, three sub-batches in one PR): reports 14909-14956 filed in ar, en and ur; verses 105 to 123 are filed in full and verse 124 is begun (report 14956). Next is the rest of 7:124 from the foot of p. 34 (printed p. 35).
 - Batch 3: pp. 35-42 filed in ar, en and ur (reports 14957-14972): verses 124 to 127 are filed in full and verse 128 is begun (report 14972). Next is the rest of 7:128 from the foot of p. 42 (printed p. 43).
@@ -310,7 +314,10 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 
 ## Volume 16 progress
 - Volume 16 (`waqtaftab-taftab16`, 689 markers): commentary starts on marker 9 = printed p. 1 (12:19, report 18880); printed page = marker minus 8. Indexes begin near marker 615. Cite `{cite:tafsir-tabari-shakir-v16 p. N}` by printed number.
-- Batches 1-10: pp. 1-79 filed in ar, en and ur (reports 18880-19224): 12:19 to 12:30 in full (12:26-28 filed together under 12:26), 12:31 begun to the foot of p. 79 (report 19224, Ibn Mas'ud). Stop sentence at the foot. Next is p. 80 in 12:31. Not yet run: npm run validate.
+- Batches 1-10: pp. 1-79 filed in ar, en and ur (reports 18880-19224): 12:19 to 12:30 in full (12:26-28 filed together under 12:26), 12:31 begun to the foot of p. 79 (report 19224, Ibn Mas'ud). Stop sentence at the foot. Next is p. 80 in 12:31. Validate run on 7 Nov 2026: 0 errors.
+- Batch 11: pp. 80-87 filed in ar, en and ur (reports 19225-19242 and the commentary on 12:32 in full): 12:31 closes at p. 85, 12:32 is filed in full (pp. 85-86) and 12:33 is begun to the foot of p. 87 (the nature of 'al-sijn'). Stop sentence is in quran-12-33. Next is the rest of 12:33 from p. 88 (marker 96).
+- Batch 12: pp. 88-94 filed in ar, en and ur (reports 19243-19265): 12:33 closes at p. 89, 12:34 and 12:35 are filed in full and 12:36 is begun to the foot of p. 94 (the two youths). Stop sentence is in quran-12-36. Next is the rest of 12:36 from p. 95 (marker 103).
+- Batch 13: pp. 95-101 filed in ar, en and ur (reports 19266-19285): 12:36 closes at p. 100 (the youths' dreams, grapes called khamr, Joseph's ihsan in prison) and 12:37 is begun to the foot of p. 101 (the doubled 'hum'). Stop sentence is in quran-12-37. Next is the rest of 12:37 from p. 102 (marker 110).
 ## Volume 14 progress
 - Volume 14 (`waqtaftab-taftab14`, 638 markers): the title page (marker 4) names sura al-Anfal 8:48 to 8:75 and sura al-Tawba, reports 16183 to 17518; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (8:48). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v14 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v14`.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 16183-16195): verse 8:48 is filed in full and 8:49 is begun (the doubters who said 'their religion has deluded these'). Next is report 16196 from p. 14.

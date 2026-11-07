@@ -13,6 +13,9 @@ genre: [qawwali, sufi, film-song]
 composed: { edtf: "2005", hijri: "1425/1426", calendar: gregorian, precision: year, derived: true, note: "Composed in 2005 by the composer's account in the English article; released on the Jodhaa Akbar soundtrack in 2008. The Hijri years are converter-derived.", sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
 languages: [ur, hi]
 duration: 416   # seconds; 6:56 on the soundtrack
+honours:
+  - { award: award/screen-awards, category: "Best Male Playback", result: nominated, year: 2009, date: { edtf: "2009-01-14" }, note: "A. R. Rahman for the song", sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
+  - { award: award/screen-awards, category: "Best Lyricist", result: nominated, year: 2009, date: { edtf: "2009-01-14" }, note: "Kashif for the song", sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
 relations:
   - { type: composed_by, target: person/a-r-rahman, sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
   - { type: performed_by, target: person/a-r-rahman, sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
@@ -20,7 +23,7 @@ relations:
 sources: [source/wikipedia-jodhaa-akbar-soundtrack-en, source/wikidata-jodhaa-akbar-soundtrack]
 provenance:
   layer: own-research
-  source: "English Wikipedia 'Jodhaa Akbar (soundtrack)' (revision 1378457751 of 4 October 2026; the song's story cites the composer's interviews, the reception CNN-IBN, and the awards table each ceremony) and Wikidata Q131573221 (revision 2294421500), read in Chrome on the founder's Mac on 6 November 2026. The nominations (Producers Guild, Screen and Stardust awards, 2009) stay in prose: no award records yet. No lyrics"
+  source: "English Wikipedia 'Jodhaa Akbar (soundtrack)' (revision 1378457751 of 4 October 2026; the song's story cites the composer's interviews, the reception CNN-IBN, and the awards table each ceremony) and Wikidata Q131573221 (revision 2294421500), read in Chrome on the founder's Mac on 6 November 2026. The Screen Awards nominations are recorded as honours (batch 04); the Producers Guild and Stardust nominations stay in prose. No lyrics"
   generated_by: "Claude Code (claude-opus-5-5)"
   model: claude-opus-5-5
   run: modern-music-b03
