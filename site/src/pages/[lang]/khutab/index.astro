@@ -3,16 +3,33 @@
 // Jamharat Khutab al-'Arab, and the recorded lesson series (durus), each linked to its own page and its source.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { href, labelOf, summaryOf, realNodes } from "../../../lib/graph";
+import { href, labelOf, summaryOf, realNodes, byId } from "../../../lib/graph";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const K = T.khutab;
 const works = realNodes.filter((n: any) => n.class === "work");
-const sermons = works.filter((n: any) => n.data.kind === "sermon").sort((a: any, b: any) => String(a.id).localeCompare(String(b.id)));
-const series = works.filter((n: any) => n.data.kind === "lecture-series").sort((a: any, b: any) => String(a.id).localeCompare(String(b.id)));
+const hijriYear = (n: any) => { const h = String(n.data.composed?.hijri ?? ""); return h ? parseInt(h.split("-")[0], 10) : 99999; };
+const sermons = works.filter((n: any) => n.data.kind === "sermon")
+  .sort((a: any, b: any) => hijriYear(a) - hijriYear(b) || String(a.id).localeCompare(String(b.id)));
+const series = works.filter((n: any) => n.data.kind === "lecture-series");
 const count = (n: number) => K.count.replace("{n}", String(n));
+const speakerOf = (n: any) => { const id = n.data.delivered?.by ?? n.data.authors?.[0]; return id ? byId.get(id) : undefined; };
+const typeLabel = (n: any) => (n.data.sermon_type && K.types[n.data.sermon_type]) || "";
+const dateLabel = (n: any) => {
+  const c = n.data.composed; if (!c?.hijri) return "";
+  const y = parseInt(String(c.hijri).split("-")[0], 10);
+  const g = c.edtf ? String(c.edtf).split("-")[0].replace(/^0+/, "") : "";
+  return K.date.replace("{h}", String(y)).replace("{g}", g || "?");
+};
+const status = (n: any) => (n.data.delivery_date_status === "uploaded" ? K.uploaded : "");
+// series grouped by speaker, largest group first
+const bySpeaker = new Map<string, any[]>();
+for (const n of series) { const sp = speakerOf(n); const k = sp ? sp.id : "_none"; (bySpeaker.get(k) ?? bySpeaker.set(k, []).get(k)!).push(n); }
+const groups = [...bySpeaker.entries()].map(([k, items]) => ({ id: k, speaker: k === "_none" ? undefined : byId.get(k), items: items.sort((a: any, b: any) => labelOf(a, lang).localeCompare(labelOf(b, lang), lang)) }))
+  .sort((a, b) => b.items.length - a.items.length || String(a.id).localeCompare(String(b.id)));
+const speakerCount = groups.filter((g) => g.speaker).length;
 ---
 <BaseLayout lang={lang} title={K.title} description={K.lede} path={`/${lang}/khutab/`}>
   <div class="wrap" style="padding-block:10px 24px">
@@ -20,28 +37,55 @@ const count = (n: number) => K.count.replace("{n}", String(n));
       <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{T.explore.label}</p>
       <h1>{K.title}</h1>
       <p>{K.lede}</p>
+      <h2>{K.what_title}</h2>
+      <p>{K.what}</p>
+      <p class="muted" role="note">{K.notice}</p>
+      <p class="ui">
+        <a href="#khutab-sermons">{K.sermons} ({sermons.length})</a> ·
+        <a href="#khutab-series">{K.series} ({series.length})</a> ·
+        <a href={`/${lang}/fatwa/`}>{K.fatwa_link}</a> ·
+        <a href="/api/v1/khutab.json" rel="nofollow">{K.api_link}</a>
+      </p>
     </section>
 
     <section aria-labelledby="khutab-sermons">
       <h2 id="khutab-sermons">{K.sermons} <span class="ui muted">{count(sermons.length)}</span></h2>
+      <p class="muted">{K.sermons_note}</p>
       {sermons.length === 0 ? <p class="muted">{K.empty}</p> : (
-        <ul role="list">
-          {sermons.map((n: any) => (
-            <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a><p class="muted">{summaryOf(n, lang)}</p></li>
-          ))}
-        </ul>
+        <ol role="list" style="list-style:none;padding:0">
+          {sermons.map((n: any) => {
+            const sp = speakerOf(n);
+            return (
+              <li style="margin-block:0 1rem">
+                <a href={href(lang, n.id)}>{labelOf(n, lang)}</a>
+                <p class="ui muted" style="margin:.1rem 0">
+                  {[typeLabel(n), dateLabel(n), status(n)].filter(Boolean).join(" · ")}
+                  {sp && <>{" · "}{K.speaker}: <a href={href(lang, sp.id)}>{labelOf(sp, lang)}</a></>}
+                </p>
+                <p class="muted" style="margin:0">{summaryOf(n, lang)}</p>
+              </li>
+            );
+          })}
+        </ol>
       )}
     </section>
 
     <section aria-labelledby="khutab-series">
       <h2 id="khutab-series">{K.series} <span class="ui muted">{count(series.length)}</span></h2>
-      {series.length === 0 ? <p class="muted">{K.empty}</p> : (
-        <ul role="list">
-          {series.map((n: any) => (
-            <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a><p class="muted">{summaryOf(n, lang)}</p></li>
-          ))}
-        </ul>
-      )}
+      <p class="muted">{K.series_note.replace("{n}", String(speakerCount))}</p>
+      {series.length === 0 ? <p class="muted">{K.empty}</p> : groups.map((g) => (
+        <details open={g.items.length <= 8} id={g.speaker ? `s-${g.speaker.slug}` : "s-unattributed"}>
+          <summary><strong>{g.speaker ? labelOf(g.speaker, lang) : K.unattributed}</strong> <span class="ui muted">{count(g.items.length)}</span></summary>
+          {g.speaker && <p class="ui"><a href={href(lang, g.speaker.id)}>{K.speaker_page}</a></p>}
+          <ul role="list">
+            {g.items.map((n: any) => (
+              <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a>
+                {n.data.sensitivity === "contested" && <span class="ui muted"> · {K.contested}</span>}
+                <p class="muted">{summaryOf(n, lang)}</p></li>
+            ))}
+          </ul>
+        </details>
+      ))}
     </section>
   </div>
 </BaseLayout>
