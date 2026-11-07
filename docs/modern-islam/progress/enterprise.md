@@ -12,6 +12,7 @@ Section file for the enterprise, brands and finance waves (seeds §16; section `
 
 ## Status
 
+- **7 November 2026** — Batch 05 (`modern-enterprise-b05`): `listing/gatehouse-bank`, `listing/bibd`, `listing/faysal-bank`, `listing/al-arafah-islami-bank`, `listing/social-islami-bank`, `listing/ziraat-katilim`, all new, six sources read on 7 November 2026. validate 0 errors, cite-check 6/6. Faysal Bank's lead (founded 1995, Islamic 2023) differs from its cited history (1987, December 2022); the cited dates are used.
 - **7 November 2026** — Batch 04 (`modern-enterprise-b04`): new `listing/bankislami`, `listing/dukhan-bank` (no Wikidata item), `listing/al-baraka-bank-pakistan`, `listing/kuwait-international-bank`; rebuilt `listing/wahed`, `listing/saffron-road`, `listing/islamic-development-bank`. Seven sources. validate 0 errors, cite-check 7/7.
 - **7 November 2026** — Batch 03 (`modern-enterprise-b03`): `group/jakim`, `group/bpjph`, `group/smiic`, `group/itfc`, `listing/crescentrating` (made basis left unverified), `listing/launchgood`, `listing/takaful-malaysia`, `listing/dallah-al-baraka`, `listing/albaraka-turk`, `listing/dow-jones-islamic-market-index` (made.by_muslims false: operator S&P Dow Jones Indices), `listing/kuveyt-turk` (rebuilt). Eleven sources. validate 0 errors, cite-check 11/11; full test suite skipped on the founder's instruction.
 - **6 November 2026** — Batch 02 (`modern-enterprise-b02`): new `listing/al-baraka-group`, `listing/al-rayan-bank-uk`, `listing/blme`, `listing/bahrain-islamic-bank`, `listing/bank-albilad`, `listing/bank-muamalat-indonesia`, `group/aaoifi`, `group/ifsb`; enriched `listing/alinma`, `listing/jaiz-bank`, `listing/sharjah-islamic-bank`, `listing/bank-muamalat` (corrected to the Malaysian bank, Q4855948). Twelve Wikipedia sources at their revisions. Pushed without waiting for the test suite, on the founder's instruction of 6 November 2026.
@@ -19,7 +20,7 @@ Section file for the enterprise, brands and finance waves (seeds §16; section `
 
 ## Next step
 
-After batch 04: Ziraat Katılım, Bank Asya (contested; needs both sides), Al Hilal Bank, Al Tazaj and the remaining thin drafts (al-islami-foods, arabian-oud, rasasi, herfy, bindawood, halalbooking, halal-guys) once a made basis is sourced; Tabung Haji (Malay article) and BPKH; the held airline/hotel question for the founder.
+After batch 05: Shahjalal Islami Bank, First Security Islami Bank, Bank Asya (contested; needs both sides), Al Hilal Bank, Al Tazaj and the remaining thin drafts (al-islami-foods, arabian-oud, rasasi, herfy, bindawood, halalbooking, halal-guys) once a made basis is sourced; Tabung Haji (Malay article) and BPKH; the held airline/hotel question for the founder.
 
 
 Batch 02: the rest of the existing thin bank listings (`listing/alinma`, `listing/masraf-al-rayan`, `listing/jordan-islamic-bank`, `listing/kuveyt-turk`, `listing/jaiz-bank`, `listing/amana-bank`, `listing/bank-muamalat`, `listing/sharjah-islamic-bank`, `listing/bank-aljazira`, `listing/bank-of-khartoum`), then the finance leads with no record yet (Al Baraka Banking Group, Bahrain Islamic Bank, Bank Muamalat Indonesia, Al Rayan Bank UK, AAOIFI, IFSB, IILM, CIBAFI), then the halal certifiers, airlines, hotels and Hajj operators of seeds §16.
@@ -50,3 +51,4 @@ Batch 02: the rest of the existing thin bank listings (`listing/alinma`, `listin
 | 2026-11-06 | Airlines and hotels (Emirates, Qatar Airways, Etihad, Rotana, Jumeirah) and halal brands without a sourced maker basis (Marrybrown, Ramly) | seeds §16 leads | `made.by_muslims` would rest only on country or a halal subject, which is not a basis | faith with basis; Made-wing rule | founder's reading of the basis rule for state carriers and halal brands |
 | 2026-11-06 | Ajman Bank | lead | the article does not state Sharia operation | Made basis | a source stating its Sharia charter |
 | 2026-11-06 | LaunchGood: Jerusalem Post item (October 2023) on alleged links | further-reading entry | not cited in the article body | both sides, attributed | founder may authorise reading it with the platform's response |
+| 2026-11-07 | Gatehouse Bank's, BIBD's and Faysal Bank's industry awards (IFN, MoneyComms, The Banker, The Asian Banker) as honours | enrichment | no award records yet; stated in prose | an honour needs a real award record | write the award records, then add the honours |
