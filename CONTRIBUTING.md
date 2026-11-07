@@ -160,6 +160,28 @@ working under the rules above, and it says so openly
   `status.review: published` with its provenance once it cites defined sources
   and passes every check — exactly like human work, no more and no less.
 
+## Disputes and contested claims
+
+1. **Open a PR against the single record.** Change one YAML file (and its prose
+   files) per dispute. State the claim, your proposed value, and your sources.
+2. **Evidence standard.** A value is settled by two independent sources
+   attesting it directly. One source = the value stays, flagged; zero = the
+   value is removed or set to `unknown`.
+3. **Minority views are preserved, not deleted.** If a reading has genuine
+   scholarly attestation but does not meet the settlement standard, it is kept
+   in the record's `note` field, attributed ("X holds that…"), alongside the
+   settled or `unknown` value. Deleting an attested minority reading requires
+   showing the attestation itself is fabricated or misquoted.
+4. **Structured-data sources are leads, not proof.** Wikidata/infobox values
+   must be traced to an underlying text before they count as a source.
+5. **Escalation.** Maintainers may mark a dispute `founder-ruling` when the
+   evidence standard cannot decide it (e.g. two traditions, both attested).
+   The ruling and its reasoning are recorded in the lane doc and in the
+   record's note; rulings are final for that pattern unless new primary
+   evidence appears.
+6. **No drive-by reversals.** A PR that reverts a settled value without
+   engaging the recorded evidence will be closed with a link to the ruling.
+
 ## Licences — what you contribute under
 
 By contributing you agree that your contribution is published under the
