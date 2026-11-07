@@ -23,6 +23,7 @@ relations:
   - { type: child_of, target: person/amina-bint-khalf, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/ama-bint-khalid, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: born-in-abyssinia, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 4"

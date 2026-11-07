@@ -170,33 +170,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/qubath-ibn-ashyam
 - [x] person/rabia-ibn-kab-al-aslami
 
-## Remaining published records (57)
+## Batch 07 (25 entities)
 
-- [ ] person/rabia-ibn-rufy
-- [ ] person/ramla-bint-abi-awf
-- [ ] person/rayta-bint-al-harith
-- [ ] person/rifaa-ibn-zayd-al-judhami
-- [ ] person/sad-al-qaraz
-- [ ] person/sad-ibn-malik-al-khudri
-- [ ] person/sad-ibn-muadh
-- [ ] person/safina-mawla-al-nabi
-- [ ] person/sahla-bint-suhayl
-- [ ] person/said-ibn-abd-qays
-- [ ] person/said-ibn-al-harith-sahmi
-- [ ] person/said-ibn-amr-tamimi
-- [ ] person/said-ibn-khalid
-- [ ] person/said-ibn-said-ibn-al-as
-- [ ] person/salama-ibn-aslam
-- [ ] person/salama-ibn-qays-al-ashjai
-- [ ] person/salim-ibn-umayr
-- [ ] person/salit-ibn-amr
-- [ ] person/salman-ibn-amir-al-dabbi
-- [ ] person/sasaa-ibn-muawiya
-- [ ] person/sasaa-ibn-najiya
-- [ ] person/sawad-ibn-qarib
-- [ ] person/shams-ibn-uthman
-- [ ] person/shayba-ibn-uthman
-- [ ] person/shurahbil-ibn-hasana
+- [x] person/rabia-ibn-rufy
+- [x] person/ramla-bint-abi-awf
+- [x] person/rayta-bint-al-harith
+- [x] person/rifaa-ibn-zayd-al-judhami
+- [x] person/sad-al-qaraz
+- [x] person/sad-ibn-malik-al-khudri
+- [x] person/sad-ibn-muadh
+- [x] person/safina-mawla-al-nabi
+- [x] person/sahla-bint-suhayl
+- [x] person/said-ibn-abd-qays
+- [x] person/said-ibn-al-harith-sahmi
+- [x] person/said-ibn-amr-tamimi
+- [x] person/said-ibn-khalid
+- [x] person/said-ibn-said-ibn-al-as
+- [x] person/salama-ibn-aslam
+- [x] person/salama-ibn-qays-al-ashjai
+- [x] person/salim-ibn-umayr
+- [x] person/salit-ibn-amr
+- [x] person/salman-ibn-amir-al-dabbi
+- [x] person/sasaa-ibn-muawiya
+- [x] person/sasaa-ibn-najiya
+- [x] person/sawad-ibn-qarib
+- [x] person/shams-ibn-uthman
+- [x] person/shayba-ibn-uthman
+- [x] person/shurahbil-ibn-hasana
+
+## Remaining published records (32)
+
 - [ ] person/subaya-bint-al-harith-al-aslamiyya
 - [ ] person/sudayy-ibn-ajlan-al-bahili
 - [ ] person/sufyan-ibn-mamar-jumahi
