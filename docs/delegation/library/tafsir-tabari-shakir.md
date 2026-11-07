@@ -243,12 +243,14 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 14901-14908): verses 101 to 104 are filed in full and verse 105 is begun (the readings of the word translated 'worthy'). Next is the rest of 7:105 from the foot of p. 13 (printed p. 14).
 - Batch 35: pp. 507-513 filed in ar, en and ur (reports 11047-11071): verse 3 is filed to p. 513.
 - Batch 36: pp. 514-520 filed in ar, en and ur (reports 11072-11087): verse 3 is filed to the foot of p. 520.
-- Progress: current report 11087, printed p. 520. Next is the rest of al-Tabari's weighing of the perfecting of the religion, from printed p. 520 on.
+- Batch 37: pp. 520-527 filed in ar, en and ur (reports 11088-11100, 11101 begun): verse 3 is filed to the foot of p. 527.
+- Progress: current report 11101, printed p. 527. Next is the rest of report 11101 from printed p. 528 on, in verse 3.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 13680-13696): verses 100 to 102 are filed in full and verse 103 is begun at p. 13 (stop sentence at the foot). Next is report 13696 (Atiyya al-Awfi) continuing on p. 14.
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 13696-13701): verse 103 (the perception of the eyes) is filed to the foot of p. 20, where al-Tabari begins his reply to the deniers of the vision. Stop sentence at the foot.
+- Batch 3: pp. 21-27 filed in ar, en and ur (reports 13702-13711): verse 103 closes at p. 23, verse 104 is filed in full, and verse 105 is begun (the readings of 'darasta') to the foot of p. 27. Stop sentence at the foot.
 
 ## Volume 10 progress
 - Volume 10 (`waqtaftab-taftab10`, 634 markers): the title page (marker 4) names sura al-Ma'ida 5:6 to 5:94 and reports 11300 to 12543; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (5:6, rising for prayer). The marker-to-printed-page map is the identity (page numbers in the headers agree from p. 8 on). Cite `{cite:tafsir-tabari-shakir-v10 p. N}` by printed number. The source record `source/tafsir-tabari-shakir-v10` already exists.
