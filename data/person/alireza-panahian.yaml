@@ -1,0 +1,37 @@
+id: person/alireza-panahian
+class: person
+names:
+  - { kind: full, value: "علیرضا پناهیان" }
+  - { kind: full, value: "Alireza Panahian" }
+  - { kind: alternate, value: "Ali Reza Panahian" }
+label: { ar: "علي رضا بناهيان", en: "Alireza Panahian", ur: "علی رضا پناهیان" }
+summary:
+  ar: "رجل دين ومحاضر إيراني من طهران، درس في حوزة قم حتى درس الخارج ودرس علم النفس جامعيًا، رأس «اتاق فكر» المرشد الأعلى في الجامعات وأسّس مدرسة دار الحكمة العلمية في طهران سنة 2013، وتدور محاضراته على المهدوية وآخر الزمان والأسرة ونشر التشيع؛ بلغ حسابه الرسمي على إنستغرام 1,352,604 متابعين في نوفمبر 2026 بحسب قراءة على المنصة نفسها."
+  en: "Iranian cleric and lecturer from Tehran, educated at the Qom seminary to the kharij level with university studies in psychology, head of the Supreme Leader's think tank for universities and founder of the Dar al-Hikmah seminary in Tehran in 2013; his lectures treat Mahdism and the end of time, family and the raising of children, and the publishing of Shiism. His official Instagram account counted 1,352,604 followers in November 2026 per an on-platform profile read."
+  ur: "تہران سے تعلق رکھنے والے ایرانی عالم و خطیب، جنھوں نے قم حوزے میں درس خارج تک تعلیم پائی اور جامعہ میں نفسیات پڑھی، رہبر کے جامعات کے لیے تھنک ٹینک کے سربراہ اور 2013ء میں تہران میں مدرسہ دار الحکمہ کے بانی؛ ان کے لیکچر مہدویت، آخر زمان، خاندان اور تشیع کی اشاعت پر ہوتے ہیں؛ نومبر 2026ء میں پلیٹ فارم پر پڑھے گئے اعداد کے مطابق ان کے سرکاری انسٹاگرام کے فالوور 1,352,604 تھے۔"
+gender: male
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Two independently authored texts attest Shia for the man himself in article prose. English Wikipedia's lead: 'Ali Reza Panahian … is an Iranian Twelver Shia Scholar and official. He is a Hojatoleslam (a \"middle-ranked\" Shia cleric)'. Persian Wikipedia's opening: «روحانی شیعه و سخنران مذهبی ایرانی است» ('he is an Iranian Shia cleric and religious speaker'). The English text names the Twelver branch directly; the Persian text names Shia without a branch. The person faith enum has no generic Shia value, so per the founder's mapping rule a generic Shia attestation is recorded as shia-twelver where the context supports it: he is an Iranian Shia cleric trained at the Qom seminary whose public religious life sits in Iran's Twelver tradition. The mapping is stated here plainly — one source itself names Twelver, the other names Shia, not the branch."
+    sources: [source/wikipedia-alireza-panahian-en, source/wikipedia-alireza-panahian-fa]
+roles: [preacher, scholar, writer]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1965-04-17"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Tehran on 28 Farvardin 1344 SH, i.e. 17 April 1965, as stated by Persian Wikipedia in its infobox and its Life section; English Wikipedia gives the year and place (born 1965, Tehran). There is no place record for Tehran, so no born_in edge is written. Hijri year 1384 derived from the Gregorian date."
+  sources: [source/wikipedia-alireza-panahian-fa, source/wikipedia-alireza-panahian-en]
+relations: []
+sources: [source/wikipedia-alireza-panahian-en, source/wikipedia-alireza-panahian-fa, source/instagram-alireza-panahian, source/hafi-panahian-ir]
+provenance:
+  layer: own-research
+  source: "The wave-194 harvest entry (Alireza Panahian, Iran; Instagram @panahian_ir, harvest Tier-2 reach 1.5M from January 2025 post metadata), researched against the English and Persian Wikipedia articles, his own Instagram profile and the hafi.pro tracker page, all read in full on 7 November 2026. Live count re-read at build: his Instagram profile read directly on the platform on 7 November 2026 showed 1,352,604 followers (45 following) — the figure carried in this record; hafi.pro's August 2026 total audience of 1,353,304 closely agrees and is preserved in its source note. No YouTube count is cited (his English channel was removed by YouTube in November 2025, per the harvest) and his Aparat following of about 35.1K is context only, below the bar and not carried. The harvest called him founder of the Bayan Manavi institute; neither Wikipedia article read mentions that institute, and the claim could not be verified in this run, so it is not stated as fact — the founding the Persian article does source is the Dar al-Hikmah seminary in Tehran in 1392 SH. No Wikidata item was verified by opening the item itself in this run, so no wikidata id is recorded. There is no place record for Tehran, so no place edges are written."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-194"
+status: { review: published, completeness: 2 }

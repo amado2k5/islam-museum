@@ -1,0 +1,28 @@
+id: work/kun-faya-kun-rockstar
+class: work
+kind: song
+label: { ar: "Kun Faya Kun ⁦(قوالي فيلم «روكستار»، 2011)⁩", en: "Kun Faya Kun (Rockstar, 2011)", ur: "Kun Faya Kun ⁦(فلم «راک اسٹار» کی قوالی، 2011)⁩" }
+summary:
+  ar: "قوالي لحّنه أ. ر. رحمن لفيلم «روكستار» الهندي سنة 2011 وأهداه إلى الصوفي نظام الدين أولياء، يغنيه رحمن مع جاويد علي وموهيت تشوهان والإخوة نظامي، بكلمات إرشاد كامل؛ كتبه للمشهد الذي يلجأ فيه بطل الفيلم إلى ضريح نظام الدين في دلهي ويعيش مع القوالين، ونال جائزة ميرتشي لأغنية تمثل التقليد الصوفي."
+  en: "A qawwali composed by A. R. Rahman for the 2011 Hindi film Rockstar and dedicated to the Sufi saint Nizamuddin Auliya, sung by Rahman with Javed Ali, Mohit Chauhan and the Nizami Bandhu to lyrics by Irshad Kamil; written for the scene in which the hero takes refuge at the Nizamuddin Dargah in Delhi among the qawwals, it won a Mirchi Music Award as a song representing the Sufi tradition."
+  ur: "اے آر رحمان کی قوالی جو 2011 کی ہندی فلم «راک اسٹار» کے لیے بنی اور صوفی بزرگ نظام الدین اولیا کے نام کی گئی؛ رحمان، جاوید علی، موہت چوہان اور نظامی بندھو نے ارشاد کامل کے بولوں پر گائی، اور یہ اس منظر کے لیے لکھی گئی جب ہیرو دلی کی درگاہ نظام الدین میں قوالوں کے ساتھ رہتا ہے۔"
+wings: [today, words]
+themes: [music, spirituality-and-sufism]
+regions: [south-asia]
+genre: [qawwali, film-song]
+composed: { edtf: "2011", hijri: "1432/1433", calendar: gregorian, precision: year, derived: true, note: "The soundtrack album's year on Wikidata; its full track list was published on A. R. Rahman's site on 16 September 2011. The Hijri years are converter-derived.", sources: [source/wikidata-rockstar-soundtrack, source/wikipedia-rockstar-soundtrack-en] }
+languages: [hi, ur]
+duration: 473   # seconds; 7:53, track 4 of the soundtrack, listed as 'Kun Faaya Kun (Raga Bhairavi)'
+relations:
+  - { type: composed_by, target: person/a-r-rahman, sources: [source/wikipedia-rockstar-soundtrack-en] }
+  - { type: performed_by, target: person/a-r-rahman, note: "with Javed Ali, Mohit Chauhan and the Nizami Bandhu", sources: [source/wikipedia-rockstar-soundtrack-en] }
+  - { type: about, target: person/nizam-al-din-awliya, note: "dedicated to him by the composer", sources: [source/wikipedia-rockstar-soundtrack-en] }
+  - { type: about, target: building/dargah-nizamuddin, note: "the shrine where the film's scene is set", sources: [source/wikipedia-rockstar-soundtrack-en] }
+sources: [source/wikipedia-rockstar-soundtrack-en, source/wikidata-rockstar-soundtrack]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Rockstar (soundtrack)' (revision 1381114859 of 20 October 2026; the production section cites the composer's interviews) and Wikidata Q7355590 (revision 2345144257), read in Chrome on the founder's Mac on 6 November 2026. The title is a Qur'anic phrase; it is written only in transliteration and its meaning is given as the article gives it, never in Arabic script. No lyrics. The Mirchi award stays in prose: no award record and no ceremony year in the source"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b03
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
