@@ -90,6 +90,10 @@ Al-Tabari chooses that the sounder view is that banishment from the land here me
 
 He adds that banishing in Arab usage means driving away, citing a line of Aws ibn Hajar saying they are driven from the paths of the noble as the beaters drive off the matted wool that clings; so poor coins are called refuse, and the noun is banishment, one says the bucket throws off the water and what flies from it is its spray, and he cites a rajaz poet too. The editor explains the line's words, its attribution and the vocalisation of the noun.  {cite:tafsir-tabari-shakir-v10 p. 275}
 
-We stop here at the foot of p. 275, in al-Tabari's citing of Arabic usage for the sense of banishment; the rest of verse 33 follows in the next batch.
+Al-Tabari finishes his citing of Arabic usage for banishment with a rajaz line about a horse whose back, from the flying spray, was like birds alighting on a smooth rock, and notes that one says a man's hair "was driven off" when it fell out. In a note the editor gives the report of Muhammad ibn Ka'b al-Qurazi with 'Umar ibn 'Abd al-'Aziz when he saw how his body, hair and colour had changed, from which the sense of hair falling is taken.  {cite:tafsir-tabari-shakir-v10 p. 276}
+
+**Commentary on verse 33, continued: "that is disgrace for them in this world, and in the hereafter a great punishment for them", pp. 276-277**
+
+Al-Tabari says "that" is this recompense God gave those who waged war on God and His messenger and spread corruption in this world, whether killing, crucifixion, cutting hand and foot on opposite sides, or banishment; "disgrace for them in this world" means evil, shame, humiliation, deterrent and punishment in this present world before the hereafter; "and in the hereafter a great punishment" is, for those who did not repent of what they did until they died, the punishment of Hell, in addition to the disgrace they were repaid with in this world.  {cite:tafsir-tabari-shakir-v10 p. 276}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
