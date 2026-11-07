@@ -61,12 +61,17 @@ inventions:
     role: improver
     place: place/amid
     sources: [source/jazari-hill-1974, source/tdv-cezeri, source/mfa-castle-clock-14533]
+  - invention: invention/jazari-animal-scoop-water-lifter
+    role: improver
+    place: place/amid
+    note: "Category V.4 animal-powered scoop design; attributed as a documented improvement, not proof of a first machine, component priority, or physical installation."
+    sources: [source/jazari-hill-1974, source/tdv-cezeri]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 relations:
   - { type: lived_in, target: place/amid, sources: [source/tdv-cezeri] }
-sources: [source/tdv-cezeri, source/met-elephant-clock-575123, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump, source/cleveland-jazari-peacock, source/jazari-hill-1974, source/mfa-castle-clock-14533, source/freer-jazari-musical-boat, source/freer-jazari-candle-clock]
+sources: [source/tdv-cezeri, source/met-elephant-clock-575123, source/fstc-jazari-mechanical-genius, source/smg-jazari-double-pump, source/cleveland-jazari-peacock, source/jazari-hill-1974, source/mfa-castle-clock-14533, source/freer-jazari-musical-boat, source/freer-jazari-candle-clock, source/met-jazari-scoop-451298]
 status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
 provenance:
   layer: own-research
@@ -81,3 +86,4 @@ provenance:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "Added distinctIV.1 fountain tie/section from actual157–158/263; original fields/faith/five prior ties/biography attribution preserved" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "Added distinct musical-boat tie/section from actual selectedII.4 and criticism256 plus institutional1315 folio; original fields/faith/four prior ties/biography attribution preserved" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Castle-clock tie/biography extension from actual selected Hill1974 primary/commentary in shared Archive browser,17/24 images, official MFA-via-Google catalogue and Commons1354 image/rights; prior three ties, identity and authorship preserved" }
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b99, source: "D-142; added the V.4 animal-powered scoop-lifter tie from Hill184–185 and TDV505–506; preserved the existing faith basis, earlier ties and biography." }
