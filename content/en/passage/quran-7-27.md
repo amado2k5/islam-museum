@@ -20,6 +20,6 @@ and it may be that it was a nail, or that it was a light, or something else, and
 
 Then, on "he sees you, he and his tribe, from where you do not see them; We have made the devils allies of those who do not believe", he says: God means that the devil sees you; the "hu" in "innahu" returns to the devil; and "his tribe" means his kind and the genus of which he is one, who are the jinn; he gives (14460) from Mujahid that "he sees you, he and his tribe" means the jinn and the devils. {cite:tafsir-tabari-shakir-v12 p. 376}
 
-We stop here at the foot of printed p. 376, in verse 27 of Surat al-A'raf after report 14460; the next batch continues from printed p. 377 (marker 381).
+He gives (14461) from Ibn Zayd that "his tribe" means his offspring. "From where you do not see them" means from where you, people, do not see the devil and his tribe; "We have made the devils allies of those who do not believe" means We made the devils helpers of the disbelievers who do not affirm God's oneness or believe His messengers. {cite:tafsir-tabari-shakir-v12 p. 377}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
