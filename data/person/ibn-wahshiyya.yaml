@@ -7,3 +7,15 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Nadim, al-Fihrist, already cited on this record. The TERCÜMAN entry's statement that he translated many books from Nabataean into Arabic is recorded as an occupation; the Fihrist pages it names were not re-read."
+  generated_by: "Devin (SWE-2 High)"
+  model: unknown
+  run: "jobs-p2-ca13"
+occupations:
+  - job: job/translator
+    kind: secondary
+    status: historical
+    note: "The TERCÜMAN entry says he translated many books from Nabataean into Arabic. It points to al-Fihrist, pages 304–305 and 372, which were not re-read."
+    sources: [source/tdv-tercuman]

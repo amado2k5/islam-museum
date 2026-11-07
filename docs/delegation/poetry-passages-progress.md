@@ -19,9 +19,11 @@ Plan: `docs/delegation/poetry-passages-plan.md`. Source for the Sira poems: Ibn 
 | `work/malik-ibn-awf-jirana-praise` | 4 | 879 |
 | `work/abbas-ibn-mirdas-atab` | 6 | 881-882 |
 
-## Skipped, with reason
+## Proposed skips, awaiting founder (not decided)
 
-- `work/tarjuman-al-ashwaq`, `work/hirz-al-amani-wa-wajh-al-tahani`, `work/alpamish`: text not in a reachable public-domain source in this lane.
+- `work/hirz-al-amani-wa-wajh-al-tahani`, `work/alpamish`: proposed skip, awaiting founder; reason: text not found in a reachable public-domain source in this lane. (`work/tarjuman-al-ashwaq` was later ingested, PR 10.)
+- Ka'b ibn Zuhayr (beyond the opening of Banat Su'ad): proposed skip, awaiting founder; reason: no public-domain edition found yet.
+- Unlocated Hunayn/Tabuk verse sets and single bayts not read with confidence (see the batch log): proposed skips, awaiting founder; reason: illegible on the scan or first line not located.
 
 ## Notes
 
@@ -88,3 +90,11 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 39 (Hamasa 1916): Qatari ibn al-Fuja'a (2, p. 38), Amir ibn al-Tufayl (2, p. 39).
 - PR 40 (Barquqi Hassan diwan, read from page renderings): `hassan-diwan-ya-har-qad-awwalta` (4, p. 45), `hassan-diwan-fakhartum-bil-liwa` (4, p. 62), `hassan-diwan-sail-quraysh-wa-ahlafaha` (6, pp. 62-63), `hassan-diwan-ya-har-in-kunta-imran` (5, p. 60; first bayt skipped, one word unclear), `hassan-diwan-khabat-banu-asad` (4, p. 77) (23 passages, 5 works).
   - Next (stopped on the founder's instruction 2 Nov 2026): `dhakarta-al-qurum-al-sid` (reply to Quraysh, p. 66, tawil, 4 bayts read) and `abligh-rabia-wa-nawfal` (pp. 72-73, kamil, rha' rhyme, 6 bayts read; bayt 7 unclear); then more Barquqi poems (scan pages 47, 83, 116+), more Hamasa and Mufaddaliyyat.
+- PR 41 (Barquqi Hassan diwan): `dhakarta-al-qurum-al-sid` (4, p. 66), `abligh-rabia-wa-nawfal` (6, pp. 72-73; bayt 7 unclear), `ala-man-mubligh-anni-rabia` (4, p. 107), `law-kunta-min-hashim-musafi` (5, pp. 133-134) (19 passages).
+- PR 42 (Barquqi Hassan diwan): `laqad-laan-al-rahman-jamaan` (satire of Abu Jahl, 5, p. 150), `zaama-ibn-nabigha-al-lasim` (to Amr ibn al-As, 4 of 5 bayts, p. 151; bayt 4 skipped, sense of the last hemistich unclear) (9 passages). Next Hassan candidates: scan pages 113, 116, 118, 120, 128, 159+.
+- PR 43 (Barquqi Hassan diwan): `fa-in-tuslih-fa-innaka-abidi` (9, pp. 142-143), `saaltu-quraysh-kullaha-banu-abid` (2 of 3, p. 152; bayt 3 unclear), `idha-aradta-al-sayyid-al-ashadda` (2, rajaz, p. 153), `laamruka-ma-tanfakku-adi-ibn-kaab` (bayts 1 and 3, p. 155; bayt 2 unclear), `laqad-alima-al-aqwam-abu-sufyan` (6, pp. 159-160) (21 passages). Next Hassan candidates: Qays ibn Makhrama (p. 155), Hind bint Utba (p. 157), Uthman elegy (p. 183), Awf ibn Khalid at Yarmuk (p. 185).
+- PR 44 (Barquqi Hassan diwan): `elegy-for-hamza-tusail` (7 of 8, p. 186; bayt 8 one word unclear) and `elegy-for-uthman-awfat-banu-amr` (12 bayts of the poem on pp. 183-185; bayts 7, 9, 12 skipped as not legible with confidence) (19 passages). Next: Qays ibn Makhrama and Hind bint Utba (pp. 155-157), Yarmuk (p. 185 end), and the rest of the diwan after p. 186.
+- PR 45 (Barquqi Hassan diwan): `ala-layta-shiri-hal-ata-ahl-makka` (Badr, 5 of 7, p. 187; bayts 2 and 7 unclear), `elegy-for-the-martyrs-of-bir-mauna` (4, p. 188), `amsa-al-fata-amr-ibn-wudd` (4, pp. 189-190), `lastu-ila-amr-reply-to-dirar` (7, p. 192; the commentary calls it Hassan's first poem in Islam) (20 passages).
+  - Proposed skip, awaiting founder: Hassan's verses to Hind bint Utba (printed p. 157), because they are a personal sexual satire; the founder can decide whether to include them.
+- PR 46 (Barquqi Hassan diwan): `to-banu-sulaym-zadat-humumi` (7, pp. 198-199), `excusing-one-who-stayed-from-khaybar` (3, p. 201; the heading names Iyas ibn Ubayd, the text names Ayman), `kanat-quraysh-baydatan` (4, pre-Islamic, pp. 201-202), `ini-laajabu-min-qawl-gharrat-bihi` (5, pp. 202-203), `ajmaat-amra-sarman` (2, p. 203) (21 passages). Note: Arabic summaries must wrap parentheses in U+2066..U+2069 (validator), so the generator avoids them. Next scan pages: 172-173, 180+ (printed 196+, 204+).
+- PR 47 (Barquqi Hassan diwan): `aruni-suudan-kal-suud` (3, p. 209), `ma-li-abi-bakr-illa-al-fasil` (Ridda, 3 of 4, pp. 209-210; bayt 4 unclear), `ya-har-man-yaghdir-bi-dhimmat-jarih` (3, pp. 210-211), `ma-waladakum-qurum-min-bani-asad` (2, p. 211), `har-ibn-kab-ala-al-ahlam-tazjurukum` (3, pp. 213-214) (14 passages). Proposed skip, awaiting founder: the two-bayt insult 'ya ibn allati labithat' to Banu Rahda (printed p. 213), because it is coarse abuse.
