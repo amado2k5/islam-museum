@@ -23,8 +23,9 @@ relations:
   - { type: student_of, target: person/muhammad-ilyas-kandhlawi, sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004], note: "تأسّى به في الدعوة بعد رحلة 1939م، ص 29" }
   - { type: traveled_to, target: place/damascus, sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004], note: "أستاذ زائر في كلية الشريعة بجامعة دمشق 1956م، ص 30" }
 honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1980, note: "shared with Mohammad Natsir", sources: [source/wikipedia-king-faisal-prize-en] }
   - { award: award/dubai-islamic-personality-of-the-year, result: honoured, date: { edtf: "1998/1999", hijri: "1419", calendar: gregorian, precision: year, derived: true }, note: "Islamic Personality of the Year, Dubai International Holy Quran Award, 1419 AH (second session); the Gregorian range is converter-derived", sources: [source/wikipedia-dubai-quran-award-ar] }
-sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004]
+sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004, source/wikipedia-king-faisal-prize-en]
 provenance:
   layer: own-research
   source: "Biography of the author in al-Sira al-Nabawiyya, Dar Ibn Kathir 2004, pp. 25–38; author's prefaces pp. 41–45"

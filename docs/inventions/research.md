@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: research method
 
+## Invention97 — Karkh market relocation and urban allocation (7 November 2026)
+
+Sources were recovered and read directly on 7 November; the external `/Volumes/exmicroSD` harvest drive was unavailable. The Internet Archive OCR stream for Le Strange's 1900 book was read at the printed chapter-II pages25–26: four market roads ran between the outer and inner city gates through arcades; shops were later ordered out, Karkh was built to accommodate market people and merchants, and the cleared arcades became police and horse-guard barracks. Printed pages65–66 retell a security explanation attributed by Le Strange to al-Tabari: a Greek envoy warns about foreign merchants inside the walls, after which al-Mansur orders markets moved to suburbs outside the gates; Le Strange names Karkh's market street and gives a width in ells. This is a later synthesis's retelling, not a direct reading of al-Tabari, a contemporary market register or proof that the feared threat occurred. No scan or page image was inspected this turn.
+
+The official TDV article *Bağdat — 1. Genel Bakış* was read in its HTML and its linked PDF text was extracted directly. It describes four indoor arcaded markets and four additional outdoor market places, dates al-Mansur's market move from the city to Karkh to773CE for security, and then describes trade-specific bazaars and later merchant quarters as Baghdad grew. The direct HTML/PDF wording supports 773CE; no source in this reading directly supplied AH157, so no Hijri year is assigned. Duri's compact account and Le Strange's plural outside-gate suburbs are not collapsed into a claim that every market moved to one site or that all traders moved simultaneously.
+
+The bounded claim is an attributed urban-management improvement in reallocating commercial space and changing the use of vacated arcades—not the invention of markets, trade, urban zoning or a universal security system. The sources establish the stated rationale, not the result; they do not prove reduced risk, economic growth caused by the order, equal access or social equity. Reuse the already-defined, inspected Le Strange MapII image only as broad context for Baghdad's walled nucleus; it does not mark the market locations. The invention diagram is the site's generic chain graphic, not a custom street plan.
+
+URLs opened 7 November 2026: Le Strange OCR stream `https://archive.org/stream/bub_gb_rdcoAAAAYAAJ/bub_gb_rdcoAAAAYAAJ_djvu.txt`; TDV article `https://islamansiklopedisi.org.tr/bagdat#1-genel-bakis`; linked PDF `https://cdn2.islamansiklopedisi.org.tr/dosya/4/C04015667.pdf`. These files were streamed for reading and were not saved in Git.
+
 ## Invention96 — Abu Hanifa's reported brick-stack reckoning method (7 November 2026)
 
 Primary evidence remains the already read Le Strange chapter II (pages15–29),with key focus on the page17 report that ties Abu Hanifa to supervision and quantity-reckoning of bricks via measurement logic (graduated rod reference in transmitted narrative). This is handled as historical reconstruction,not as surviving contractor documentation.

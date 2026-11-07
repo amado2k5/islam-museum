@@ -1,18 +1,38 @@
 id: work/islamway
 class: work
 kind: website
-label: { ar: "طريق الإسلام", en: "Islamway", ur: "Islamway" }
+label: { ar: "طريق الإسلام", en: "Islamway", ur: "طریق الاسلام (Islamway)" }
 summary:
-  ar: "أكبر أرشيف صوتي سني؛ تذكر الصفحة نحو ٩٦٬٦٤٨ درساً وخطبة ومحاضرة لنحو ٧٩٤ عالماً وداعية ⁦(رقم مؤرخ للمنصة)⁩."
-  en: "The largest Sunni audio archive; the site states some 96,648 lessons for about 794 scholars (dated platform figure)."
-  ur: "The largest Sunni audio archive; the site states some 96,648 lessons for about 794 scholars (dated platform figure)."
-wings: [words]
+  ar: "موقع إسلامي متعدد اللغات اشتهر بالصوتيات: الخطب والدروس والتلاوات والأناشيد، ومعها الفتاوى والمقالات والكتب؛ بدأه شخصان أواخر 1998 باسم «The Islamway Radio»، ويقول إن فريقه بلغ أكثر من 150 متطوعًا، وإن فيه 96,648 خطبة ودرسًا لـ794 عالمًا وداعية و35,917 تلاوة لـ351 قارئًا ⁦(أرقام الموقع في 2023)⁩."
+  en: "A multilingual Islamic website known for its audio: sermons, lessons, recitations and nasheeds, with fatwas, articles and books; it was begun by two people in late 1998 as 'The Islamway Radio', and says its team has grown to more than 150 volunteers and that it holds 96,648 sermons and lessons by 794 scholars and preachers and 35,917 recitations by 351 reciters (the site's figures, 2023)."
+  ur: "کثیر لسانی اسلامی ویب سائٹ جو صوتیات کے لیے مشہور ہے: خطبات، دروس، تلاوتیں اور نشیدیں، ساتھ فتاویٰ، مضامین اور کتابیں؛ 1998 کے آخر میں دو افراد نے «The Islamway Radio» کے نام سے شروع کی؛ اس کے بقول ٹیم 150 سے زیادہ رضاکاروں تک پہنچی، اور اس میں 794 علما و داعیوں کے 96,648 خطبات و دروس اور 351 قراء کی 35,917 تلاوتیں ہیں ⁦(سائٹ کے 2023 کے اعداد)⁩۔"
+wings: [words, today]
 made: { by_muslims: true, basis: self-identified, sources: [source/islamway] }
 url: "https://ar.islamway.net"
-languages: [ar, en]
+launched:
+  edtf: "1998"
+  hijri: "1419~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Begun by two people in late 1998 (the site's page archived 1 July 2017, as the Arabic article cites it); the earliest archived capture of islamway.com is of 12 December 1998. The Hijri year (1419) is converter-derived."
+  sources: [source/wikipedia-islamway-ar, source/wayback-islamway-1998]
+languages: [ar, en, fr, id, tr, fa, es, de, it, pt, zh, ur]
 publisher: group/islamway
-archive_url: "https://web.archive.org/web/2026/ar.islamway.net"
-orientation: { basis: self-described, value: "listed, not endorsed (docs/plan/14)" }
-sources: [source/islamway]
-provenance: { layer: own-research, generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: khutab-durus-websites-1 }
-status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+archive_url: "https://web.archive.org/web/19981212030038/http://www.islamway.com:80/"
+content_type: education
+orientation: { value: "states that it holds to the evidence of the Qur'an and Sunna, rejects partisanship for any party, group or sect, and is open to all Islamic currents on condition of spreading the truth", basis: self-described }
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-07", sources: [source/wikidata-islamway] }
+  wikidata: "Q12182093"
+external_ids:
+  wikidata: Q12182093
+sources: [source/islamway, source/wikipedia-islamway-ar, source/wayback-islamway-1998, source/wikidata-islamway]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «موقع طريق الإسلام» (revision 76998738, 17 October 2026), the Internet Archive capture of islamway.com of 12 December 1998 and Wikidata Q12182093, read in Chrome on the founder's Mac on 7 November 2026; enriches the record of the khutab-durus websites lane (Devin, run khutab-durus-websites-1) on the same id, keeping its made, publisher and source"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b08
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
