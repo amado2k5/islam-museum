@@ -2,7 +2,17 @@
 id: invention/jazari-double-piston-pump
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: [ "Copilot SDK in VS Code" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of the Arabic additions, preserving source qualifications.
+    Research agent read Hill V.5 pp.186–188 in detail: alternative drives,
+    linkage, valves, seal and alternating cylinders; adjacent reading already
+    existed in batch99."
 ---
 ## Summary
 Flowing water can help lift other water: that is the idea of a paired-piston pump described in [[person/al-jazari-engineer|al-Jazari's]] book, driven by a waterwheel, gears and a slotted rod {cite:tdv-cezeri pp. 505–506}. Rotation becomes back-and-forth motion in the piston rods; Salim al-Hassani describes a synchronized pair of suction pumps {cite:tdv-cezeri pp. 505–506} {cite:fstc-jazari-mechanical-genius pump discussion}. The book belongs to his Artuqid service at Amid; the references read give 1205 or 1206 for its completion {cite:tdv-cezeri pp. 505–506} {cite:fstc-jazari-mechanical-genius biography}. The contribution is a particular engineering arrangement, not invention of all water lifting; the museum model is a reconstruction {cite:smg-jazari-double-pump catalogue}.
@@ -28,6 +38,18 @@ The three references attribute the arrangement to al-Jazari as author and engine
 TDV calls him an Islamic scholar, the basis for Muslim identity here. The museum's Sunni default frame is stated explicitly, not presented as a personal school established by that phrase {cite:tdv-cezeri pp. 505–506}. Service dates are not converted into birth/death dates; unnamed assistants are not supplied.
 
 ## How it works
+Hill's Category V, Chapter5 describes two drive alternatives: a vertically mounted vaned wheel turned by flowing water like a mill, or a horizontal paddle wheel driving a gear train; both end in a disc with an eccentric dowel {cite:jazari-hill-1974 p.186}. These are neither separate invention records nor a requirement to install both together: the text offers two ways to drive the mechanism.
+
+The slotted lever is housed in a triangular mulberry-wood box, pivoting at a corner and receiving the rotating dowel in its slot {cite:jazari-hill-1974 pp.186–187}. The chapter explains successive portions of the rotation: changing dowel position produces lever oscillation and movement of its connected rods, not a piston that rotates like the wheel {cite:jazari-hill-1974 pp.186–187}. Material and placement specify the design without establishing a surviving box or workshop.
+
+Each copper cylinder has two clack valves allowing upward movement only, one at its intake and another at its delivery pipe {cite:jazari-hill-1974 p.187}. An iron piston rod ends in two discs with hemp cord packed between them, sealing the fit inside the smooth cylinder {cite:jazari-hill-1974 p.187}. The description separates cooperating functions: the linkage moves the rod, packing seals the piston, and valves govern water direction.
+
+Al-Jazari explains alternating action: movement to one side discharges one cylinder while water enters the other through its intake; return movement reverses those states {cite:jazari-hill-1974 pp.187–188}. Both delivery pipes join one vertical riser, so synchronization means coordinated filling and discharge, not both cylinders necessarily discharging at every instant {cite:jazari-hill-1974 p.188}.
+
+The text gives a design height of about twenty cubits, related to the riser's length, but no measured volume per time or documented efficiency test in this passage {cite:jazari-hill-1974 pp.187–188}. Cubits are not converted to metres without identifying the historical measure, and an invented cycle rate cannot turn a volume estimate into authenticated output. A described height differs from measured water delivery, which the image alone cannot establish.
+
+These are the author's instructions as translated by Hill, more detailed than TDV's summary or the modern model photograph {cite:jazari-hill-1974 pp.186–188}. They do not remove the distinction between the museum model and an original machine, prove survival of all historic components, or make the site's relationship diagram a drawing of the box: this is a reading of the design, not a test report on an extant pump {cite:smg-jazari-double-pump catalogue} {cite:jazari-hill-1974 pp.186–188}.
+
 TDV's drive can be followed step by step {cite:tdv-cezeri pp. 505–506}:
 
 1. Flowing water turns the wheel.
@@ -88,6 +110,8 @@ Al-Hassani presents the pump alongside clocks and banquet devices in his public 
 Imagine flowing water turning a wheel. Its teeth drive another gear, and a pin with a slotted rod converts rotation into back-and-forth movement in the pump rods, as the reference explains {cite:tdv-cezeri pp. 505–506}. Al-Jazari described the idea in his book; the Science Museum's model is a reconstruction that helps explain it, not an original from his lifetime {cite:smg-jazari-double-pump catalogue}.
 
 ## References
+- [[source/jazari-hill-1974|Al-Jazari — Donald Hill translation1974]]
+
 - Sadettin Ökten, “CEZERÎ, İsmâil b. Rezzâz”, TDV Encyclopedia of Islam, vol. 7, 1993, pp. 505–506, especially the final pump paragraph. {cite:tdv-cezeri pp. 505–506}
 - Salim al-Hassani, “Al-Jazari: The Mechanical Genius”, pump discussion and figure 6–7 captions. {cite:fstc-jazari-mechanical-genius pump discussion}
 - Science Museum Group, “Model of Double Piston Pump by al-Jazari, c. 1205”, object 1976-482. {cite:smg-jazari-double-pump catalogue}
