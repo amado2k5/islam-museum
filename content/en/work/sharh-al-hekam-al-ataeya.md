@@ -46,7 +46,6 @@ The Assabile archive lists this series among Omar Abdelkafy's audio lessons, wit
 - At the end of the lesson he answers questions from those present, among them one about giving zakat to one's brother. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:59:30}
 
 ## Episode 5: the next world as the abode of reward
-- He begins with a prayer for mercy for Sheikh [[person/ahmed-yassin|Ahmed Yassin]], and finds the day's maxim suited to the mood of those present. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:00}
 - He explains Ibn Ata Allah's maxim that this world cannot hold what God wishes to give His believing servants, so He made the next world the place of their reward. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:27:30}
 - He relates Umar weeping over the martyrs of [[event/battle-of-al-qadisiyya|al-Qadisiyya]] whom he did not know. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:01:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:02:00}
 - He relates the account of [[person/abdullah-ibn-amr-ibn-haram|Abdullah ibn Amr al-Ansari]], Jabir's father, and God speaking to him without a veil. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:08:30}
