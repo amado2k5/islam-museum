@@ -2,9 +2,22 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: karkh-market-relocation-zoning
+    label: "Baghdad Karkh market-relocation zoning sequence"
+    state: "[x]"
+    batch: 1
+    domain: institutions-systems
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/al-mansur", "place/baghdad", "source/lestrange-baghdad-1900", "source/tdv-bagdat-duri"]
+    invention: invention/karkh-market-relocation-zoning
+    lead_sources:
+      - "Actual Le Strange chapter II pages25–26 (market movement and guard-space reuse)"
+      - "Actual Duri first Baghdad article market-relocation and development context"
+    flags: [completed-D139-b97, urban-management-improvement-not-market-invention, outside-gate-sites-not-single-proven-location, no-simultaneous-move-claim, stated-security-rationale-not-proven-outcome, reconstruction-not-modern-zoning-code]
   - id: abu-hanifa-brick-stack-reckoning
     label: "Abu Hanifa's reported brick-stack reckoning in Baghdad works"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: mathematics-logic
     era: abbasid-golden
@@ -14,7 +27,7 @@ candidates:
     lead_sources:
       - "Actual Le Strange chapter II pages15–29 already read; page17 report on supervision and brick reckoning"
       - "Actual Duri first Baghdad article context and preserved Hitti foundation context"
-    flags: [in-progress-D138-b96, computation-improvement-not-invention-of-arithmetic, reported-supervision-not-modern-audit, reconstruction-not-contemporary-workbook, no-real-world-construction-instructions]
+    flags: [completed-D138-b96, computation-improvement-not-invention-of-arithmetic, reported-supervision-not-modern-audit, reconstruction-not-contemporary-workbook, no-real-world-construction-instructions]
   - id: mansur-covered-water-conduits
     label: "Mansur Baghdad's covered urban water-conduit arrangement"
     state: "[x]"
@@ -1554,7 +1567,7 @@ candidates:
       - "source/muqaddima-ibn-khaldun pp. 494–495"
   - id: binomial-theorem-triangle
     label: "The binomial theorem and triangle associated with al-Karaji and al-Samaw'al"
-    state: "[~]"
+    state: "[x]"
     batch: 2
     domain: mathematics
     era: abbasid-golden
@@ -1562,7 +1575,11 @@ candidates:
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - "source/karaji-mactutor Biography (reported al-Samawal testimony; original not independently read)"
-    flags: [polynomial-arithmetic-context-covered-by-invention25, wider-triangle-priority-not-established, do-not-double-count-same-method, samawal-post-conversion-chronology-still-held]
+      - "source/samawal-dsb algebra/bibliography (actual mirrored scholarly entry; original lost, possible revisions)"
+      - "source/jaina-mathematics-mactutor combinations (earlier Indian table; no direct borrowing claim)"
+      - "source/jia-xian-mactutor Biography (comparative Chinese witness through Yang Hui1261)"
+    invention: invention/karaji-binomial-coefficient-recurrence
+    flags: [polynomial-arithmetic-context-covered-by-invention25, wider-triangle-priority-not-established, do-not-double-count-same-method, samawal-post-conversion-chronology-still-held, completed-D140-b98, distinct-coefficient-recurrence-not-all-polynomial-arithmetic, no-world-first-triangle, lost-original-later-samawal-witness, samawal-transmitter-not-qualifying-maker]
   - id: karaji-polynomial-arithmetic
     label: "Al-Karaji's arithmetic on powers and composite algebraic expressions"
     state: "[x]"

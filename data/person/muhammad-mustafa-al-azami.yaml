@@ -1,0 +1,31 @@
+id: person/muhammad-mustafa-al-azami
+class: person
+label: { ar: "محمد مصطفى الأعظمي", en: "Muhammad Mustafa al-Azami", ur: "محمد مصطفیٰ الاعظمی" }
+names:
+  - { value: "محمد مصطفى الأعظمي", kind: full }
+  - { value: "Muhammad Mustafa Azmi", kind: alternate }
+  - { value: "M. M. al-A'zami", kind: alternate }
+gender: male
+summary:
+  ar: "محدّث هندي المولد سعودي الجنسية (1930–2017)، درس في ديوبند والأزهر ونال الدكتوراه من كامبريدج (1966)، وأستاذ متقاعد في جامعة الملك سعود، اشتهر بنقده نظريات غولدتسيهر وشاخت في الحديث، وحقّق «صحيح ابن خزيمة» و«الموطأ» و«سنن ابن ماجه»، ونال جائزة الملك فيصل للدراسات الإسلامية (1980)."
+  en: "Indian-born Saudi hadith scholar (1930–2017) who studied at Deoband and al-Azhar and took his PhD at Cambridge (1966), professor emeritus at King Saud University, known for his critique of Goldziher's and Schacht's theories of hadith, editor of 'Sahih Ibn Khuzayma', the 'Muwatta' and 'Sunan Ibn Maja', and King Faisal Prize laureate for Islamic Studies (1980)."
+  ur: "ہندوستانی نژاد سعودی محدث ⁦(1930ء–2017ء)⁩، جنھوں نے دیوبند اور ازہر میں پڑھا اور کیمبرج سے پی ایچ ڈی کی ⁦(1966ء)⁩، جامعہ ملک سعود کے پروفیسر ایمریٹس، حدیث پر گولڈزیہر اور شاخت کے نظریات پر تنقید کے لیے معروف، «صحیح ابن خزیمہ»، «الموطأ» اور «سنن ابن ماجہ» کے محقق، اور اسلامی علوم کے شاہ فیصل انعام ⁦(1980ء)⁩ یافتہ۔"
+wings: [people]
+regions: [south-asia, arabia]
+roles: [scholar, professor, writer]
+born: { edtf: "1930/1932", calendar: gregorian, precision: year, status: debated, derived: false, note: "The English article gives early 1930 at Mau (then Azamgarh district), hence his nisba; Wikidata gives 1932. Both are kept.", sources: [source/wikipedia-muhammad-mustafa-al-azami-en, source/wikidata-muhammad-mustafa-al-azami] }
+died: { edtf: "2017-12-20", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Riyadh, aged 87, and was buried at the al-Rajhi Mosque (English article, citing CNN Arabic of 20 December 2017; Wikidata gives the day and Riyadh).", sources: [source/wikipedia-muhammad-mustafa-al-azami-en, source/wikidata-muhammad-mustafa-al-azami] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's categories list him among Deobandis and its infobox gives religion Islam; no sentence of the text names his school. Not recorded from categories alone."
+    sources: [source/wikipedia-muhammad-mustafa-al-azami-en, source/wikidata-muhammad-mustafa-al-azami]
+footprint:
+  wikipedia: { languages: [ar, az, bn, de, en, fr, ha, hi, id, ms, pnb, ur, uz], checked: "2026-11-07", sources: [source/wikidata-muhammad-mustafa-al-azami] }
+  wikidata: "Q13403447"
+honours:
+  - { award: award/king-faisal-prize, category: islamic-studies, result: won, year: 1980, note: "topic: studies on the hadith", sources: [source/wikipedia-king-faisal-prize-en] }
+external_ids: { wikidata: "Q13403447" }
+sources: [source/wikipedia-muhammad-mustafa-al-azami-en, source/wikidata-muhammad-mustafa-al-azami, source/wikipedia-king-faisal-prize-en]
+provenance: { layer: own-research, source: "English Wikipedia 'Muhammad Mustafa Azmi' (revision 1359332538, 14 June 2026), Wikidata Q13403447 (revision 2557348865) and the King Faisal Prize list (revision 1382965005), read in Chrome on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

@@ -1,0 +1,114 @@
+id: invention/karaji-binomial-coefficient-recurrence
+class: invention
+label: { ar: "توليد معاملات القوى الثنائية عند الكرجي", en: "Al-Karaji's binomial-coefficient recurrence", ur: "الکرجی کا دو رکنی قوتوں کے ضریب کا تکراری قاعدہ" }
+names:
+  - { value: "Al-Karaji's coefficient triangle", kind: alternate, lang: en }
+summary:
+  ar: "تحسين جبري من أوائل القرن الحادي عشر: بناء معاملات القوى الثنائية بجمع المتجاورين، ينقله السموأل عن عمل مفقود للكرجي؛ ليس أول مثلث عالمي ولا مبرهنة للأسس الكسرية {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}."
+  en: "Early-eleventh-century algebraic improvement: generating coefficients of finite binomial powers by adjacent addition, transmitted by al-Samawal from lost work of al-Karaji; not the world's first triangle or a fractional-power theorem {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}."
+  ur: "گیارہویں صدی کے ابتدائی جبری کام میں متجاور اعداد کے جمع سے محدود دو رکنی قوتوں کے ضریب بنانا؛ سموأل کرجی کے گم شدہ کام کے ناقل ہیں، دنیا کا پہلا مثلث یا کسری قوتوں کا قضیہ نہیں {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}۔"
+domain: mathematics
+kind: algorithm
+disciplines: [mathematics]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    derived: true
+    note: "Century-level placement of Karaji's attributed work, not the date of the surviving witness. DSB reports after1007 through Anbouba1964 p12, not independently read; no exact composition year, Hijri conversion or autograph date asserted."
+    sources: [source/samawal-dsb, source/karaji-mactutor]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  context:
+    ar: "سياق أعمال الكرجي الرياضية ببغداد؛ لا يثبت مكان كتابة العمل المفقود بعينه أو تاريخ نسخه {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}."
+    en: "Context of Karaji's mathematical work in Baghdad; not a verified writing location or copy date for the particular lost work {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}."
+    ur: "کرجی کے بغداد والے ریاضیاتی کام کا سیاق؛ مخصوص گم شدہ کام کی تحریر کا مقام یا نسخے کی تاریخ ثابت نہیں {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}۔"
+makers:
+  - person: person/al-karaji
+    role: improver
+    place: place/baghdad
+    note: "Adjacent-addition coefficient generation linked to finite binomial expansion, attributed by the surviving al-Samawal witness; named Muslim evidence in HESS762, Sunni museum default separately labelled, not a personal school claim."
+    sources: [source/karaji-mactutor, source/samawal-dsb, source/karaji-ataie-simmons-2020]
+  - person: person/al-samawal-al-maghribi
+    role: transmitter
+    note: "Al-Bahir Book2 preserves and attributes the lost coefficient computation to Karaji. Youthful composition precedes his1163 conversion in the biography; later revisions possible. Not counted as an additional qualifying Sunni inventor."
+    sources: [source/samawal-mactutor, source/samawal-dsb]
+attribution:
+  status: improvement
+  claim:
+    ar: "قاعدة قابلة للاستمرار لتوليد معاملات نشر مجموع جزأين، داخل تقليد الجبر السابق، لا أولوية عالمية لكل المثلثات الحسابية."
+    en: "A repeatable coefficient-generation rule for powers of a sum of two parts within earlier algebra, not world priority for all arithmetic triangles."
+    ur: "پہلے الجبرا میں دو حصوں کے مجموعے کی قوتوں کے ضریب بنانے کا قابل تکرار قاعدہ، تمام حسابی مثلثوں کی عالمی اولیت نہیں۔"
+  basis:
+    ar: "تورد ماكتوتر ترجمة منقولة للشاهد السموألي وبناء1،2،1 ثم1،3،3،1؛ وتؤكد DSB فقدان حساب الكرجي الأصلي {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}."
+    en: "MacTutor reproduces a mediated translation of al-Samawal's witness, including1,2,1 and1,3,3,1; DSB confirms the loss of Karaji's original computation {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}."
+    ur: "میک ٹیوٹر سموأل کے شاہد کا واسطے سے ترجمہ اور1،2،1 پھر1،3،3،1 دیتا ہے؛ ڈی ایس بی کرجی کے اصل حساب کے گم ہونے کی تصدیق کرتا ہے {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "إطار المتحف السني، لا قول فقهي منسوب: مسلم بهوية صريحة، وتحسين محدد يحفظ السابقين؛ لا يثبت المصدر مذهبه الشخصي {cite:karaji-ataie-simmons-2020 p. 762}."
+        en: "Sunni museum frame, not an attributed juristic opinion: explicitly documented Muslim identity and a bounded improvement preserving predecessors; the source does not attest his personal school {cite:karaji-ataie-simmons-2020 p. 762}."
+        ur: "متحف کا سنی فریم، منسوب فقہی رائے نہیں: واضح مسلم شناخت اور سابقین کے ساتھ محدود بہتری؛ ماخذ ذاتی مسلک ثابت نہیں کرتا {cite:karaji-ataie-simmons-2020 p. 762}۔"
+      sources: [source/karaji-ataie-simmons-2020]
+    - tradition: academic
+      id: transmitted-finite-rule
+      standing: main
+      summary:
+        ar: "شاهد لاحق لعمل مفقود، مع سوابق هندية وتطور صيني مقارن؛ وصف ماكتوتر للاستدلال المبكر لا يساوي صياغة الاستقراء الحديث {cite:samawal-dsb algebra} {cite:jaina-mathematics-mactutor combinations} {cite:jia-xian-mactutor Biography} {cite:karaji-mactutor Biography}."
+        en: "Later witness to lost work, alongside earlier Indian and comparable Chinese developments; MacTutor's early recursive reasoning is not the fully formulated modern induction principle {cite:samawal-dsb algebra} {cite:jaina-mathematics-mactutor combinations} {cite:jia-xian-mactutor Biography} {cite:karaji-mactutor Biography}."
+        ur: "گم شدہ کام کا بعد کا شاہد، پہلے ہندوستانی اور تقابلی چینی کام کے ساتھ؛ میک ٹیوٹر کی ابتدائی تکراری دلیل مکمل جدید استقرا کا اصول نہیں {cite:samawal-dsb algebra} {cite:jaina-mathematics-mactutor combinations} {cite:jia-xian-mactutor Biography} {cite:karaji-mactutor Biography}۔"
+      sources: [source/samawal-dsb, source/jaina-mathematics-mactutor, source/jia-xian-mactutor, source/karaji-mactutor]
+precursors:
+  - invention: invention/karaji-polynomial-arithmetic
+    note: "Operational background: multiplying and collecting algebraic expressions. This record isolates the reusable coefficient recurrence rather than recounting all those operations."
+    sources: [source/karaji-mactutor]
+  - external: { ar: "جبر الخوارزمي وأبي كامل والحساب الديوفانطي", en: "Al-Khwarizmi/Abu Kamil algebra and Diophantine arithmetic", ur: "خوارزمی اور ابو کامل کا الجبرا اور دیوفنطسی حساب" }
+    note: "Earlier algebraic setting reported by the biographies, not a claim that these authors already supplied Karaji's complete recurrence."
+    sources: [source/karaji-mactutor, source/samawal-mactutor]
+dependents:
+  - external: { ar: "الشاهد النصي في الباهر للسموأل", en: "The textual witness in al-Samawal's al-Bahir", ur: "سموأل کے الباہر میں متنی شاہد" }
+    note: "Documented preservation and attribution, not an inferred geographical diffusion route or additional invention record."
+    sources: [source/samawal-mactutor, source/samawal-dsb]
+impact:
+  fields: [mathematics]
+  changed:
+    ar: "ربط قائمة المعاملات بتكرار ضرب مجموع جزأين، فأتاح إجراءً منظماً للقوى التالية؛ أثر موثق في العمل الجبري، لا قياس لتغير دخل التجار {cite:karaji-mactutor Biography}."
+    en: "Linked a coefficient table to repeated multiplication of a two-part sum, providing a systematic procedure for successive powers; a documented algebraic effect, not a measured change in merchants' earnings {cite:karaji-mactutor Biography}."
+    ur: "ضریب کی جدول کو دو حصوں کے مجموعے کی مسلسل ضرب سے جوڑا، اگلی قوتوں کے لیے منظم طریقہ دیا؛ جبری اثر ثابت ہے، تاجروں کی آمدنی کی تبدیلی نہیں {cite:karaji-mactutor Biography}۔"
+  history:
+    ar: "حفظ السموأل الحساب المفقود؛ ولا تثبت المصادر المقروءة سلسلة انتقال منه إلى باسكال أو نيوتن {cite:samawal-dsb algebra} {cite:pascal-mactutor Biography}."
+    en: "Al-Samawal preserved the lost computation; the sources read do not establish a transmission chain from it to Pascal or Newton {cite:samawal-dsb algebra} {cite:pascal-mactutor Biography}."
+    ur: "سموأل نے گم شدہ حساب محفوظ کیا؛ پڑھے ہوئے مصادر اس سے پاسکال یا نیوٹن تک انتقال کی زنجیر ثابت نہیں کرتے {cite:samawal-dsb algebra} {cite:pascal-mactutor Biography}۔"
+  significance: 4
+  why: "Field-level method: general coefficient construction and an important surviving recursive argument, as reported by MacTutor and DSB; no civilization-wide causal claim."
+described_in: [work/al-bahir-fi-al-jabr]
+spread: []
+examples: []
+sites: [place/baghdad]
+concepts: [concept/algebra]
+today:
+  form:
+    ar: "جدول معاملات للأسس الصحيحة غير السالبة في الترميز التعليمي الحديث؛ الصورة الحديثة ليست مخطوط الكرجي {cite:commons-pascal-triangle-five description}."
+    en: "A coefficient table for nonnegative integer powers in modern teaching notation; the modern image is not Karaji's manuscript {cite:commons-pascal-triangle-five description}."
+    ur: "جدید تدریسی رموز میں غیر منفی صحیح قوتوں کی ضریب جدول؛ جدید تصویر کرجی کا مخطوطہ نہیں {cite:commons-pascal-triangle-five description}۔"
+  descendants:
+    ar: "المثلث التعليمي الحديث والقوى الأوسع للمقارنة؛ لا سلسلة انتقال مباشرة مثبتة من الكرجي إلى باسكال وواليس ونيوتن {cite:pascal-mactutor Biography} {cite:samawal-dsb algebra}."
+    en: "Modern teaching triangle and broader powers as comparison; no established direct chain from Karaji to Pascal, Wallis and Newton {cite:pascal-mactutor Biography} {cite:samawal-dsb algebra}."
+    ur: "جدید تدریسی مثلث اور وسیع قوتیں بطور موازنہ؛ کرجی سے پاسکال، والیس اور نیوٹن تک ثابت براہ راست زنجیر نہیں {cite:pascal-mactutor Biography} {cite:samawal-dsb algebra}۔"
+media: { image: media/karaji-binomial-triangle, diagram: media/diagram-karaji-binomial-coefficient-recurrence }
+kids:
+  ar: "صف1،2،1 يعطي معاملات المربع؛ اجمع كل متجاورين لتحصل على1،3،3،1 للمكعب، مع إبقاء الواحد في الطرفين. هذا تمرين حديث لقاعدة ينقلها السموأل عن الكرجي، لا صورة لورقته الأصلية {cite:karaji-mactutor Biography}."
+  en: "The row1,2,1 supplies square coefficients; add adjacent entries to obtain1,3,3,1 for the cube, keeping a one at each end. This modern exercise illustrates the rule al-Samawal attributes to Karaji, not his original page {cite:karaji-mactutor Biography}."
+  ur: "صف1،2،1 مربع کے ضریب دیتی ہے؛ ہر متجاور جوڑی جمع کرکے1،3،3،1 مکعب کے لیے بنائیں، دونوں سروں پر ایک رکھیں۔ یہ سموأل کی کرجی سے منسوب قاعدے کی جدید مشق ہے، اصل ورق کی تصویر نہیں {cite:karaji-mactutor Biography}۔"
+sources: [source/karaji-mactutor, source/tdv-kereci, source/karaji-ataie-simmons-2020, source/samawal-mactutor, source/samawal-dsb, source/jaina-mathematics-mactutor, source/jia-xian-mactutor, source/pascal-mactutor, source/commons-pascal-triangle-five]
+provenance: { layer: own-research, generated_by: github-copilot, model: unknown, run: inventions-p3-b98, source: "Actual MacTutor biographies/Jaina combination section, DSB mirrored entry and bibliography, TDV entry, HESS printed762 and Commons file/licence/history/image read. No al-Bahir manuscript,1972 edition, Anbouba1964 or blocked2015 paper reading claimed." }
+status: { review: published, completeness: 3 }

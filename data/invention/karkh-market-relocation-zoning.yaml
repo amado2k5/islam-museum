@@ -1,0 +1,119 @@
+id: invention/karkh-market-relocation-zoning
+class: invention
+label:
+  ar: "نقل أسواق مدينة المنصور إلى الكرخ"
+  en: "Relocation of Baghdad's markets to Karkh"
+  ur: "منصور کے شہر کے بازاروں کی کرخ منتقلی"
+names:
+  - { kind: alternate, lang: ar, value: "نقل الأسواق من أروقة المدينة المدورة" }
+  - { kind: alternate, lang: en, value: "Karkh market reallocation" }
+summary:
+  ar: "نقل إداري منسوب إلى المنصور لأسواق داخل الأسوار نحو الكرخ وضواحٍ خارج الأبواب؛ تذكر المصادر سبباً أمنياً، لا نتيجة مثبتة ولا ابتكاراً للأسواق {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26,p.65–66}."
+  en: "An administrative move attributed to al-Mansur from markets within the walls toward Karkh and outside-gate suburbs; sources state a security rationale, not a proven result or invention of markets {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26,p.65–66}."
+  ur: "منصور سے منسوب انتظامی اقدام میں اندرونِ شہر کے بازار کرخ اور دروازوں سے باہر کی آبادیوں کی سمت منتقل ہوئے؛ ماخذ حفاظتی وجہ بتاتے ہیں، ثابت شدہ نتیجہ یا بازار کی ایجاد نہیں {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26,p.65–66}۔"
+domain: architecture-building
+kind: system
+disciplines: [history]
+wings: [made, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0773"
+    calendar: gregorian
+    precision: year
+    status: historical
+    note: "Duri dates the market relocation to773CE; Le Strange separately says it occurred before many years had passed. This is not Baghdad's foundation145AH/762, occupation146AH/763 or completion149AH/766. A source-supplied year only is retained; no single Hijri year or month is assigned."
+    sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "كانت أربعة أسواق داخلية تمتد على طرق بين أبواب المدينة، مع أسواق خارجية قائمة أيضاً؛ ثم ينسب الدوري إلى المنصور أمراً بنقل الأسواق الداخلية إلى الكرخ سنة773م {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}."
+    en: "Four inner markets occupied gate roads while other markets already stood outside; Duri dates al-Mansur's order moving the inner markets toward Karkh to773CE {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}."
+    ur: "دروازوں کے راستوں پر چار اندرونی بازار تھے اور باہر بھی بازار موجود تھے؛ دوری منصور کے حکم سے اندرونی بازاروں کی کرخ منتقلی773ء میں بتاتے ہیں {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}۔"
+makers:
+  - person: person/al-mansur
+    role: commissioner
+    place: place/baghdad
+    note: "The order is attributed to al-Mansur; the sources do not name a sole planner or describe every merchant's movement."
+    sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900]
+attribution:
+  status: improvement
+  claim:
+    ar: "إعادة توزيع أسواق قائمة بين أروقة داخلية ومجالات تجارية خارج الأسوار."
+    en: "Reallocation of existing markets between inner arcades and commercial areas outside the walls."
+    ur: "موجودہ بازاروں کو اندرونی راہداریوں اور فصیل سے باہر تجارتی جگہوں کے درمیان دوبارہ ترتیب دینا۔"
+  basis:
+    ar: "يذكر الدوري نقل الأسواق إلى الكرخ سنة773م، ويصف لسترنج إزالة المحال من الأروقة واستعمالها ثكنات للحرس {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}."
+    en: "Duri dates a move to Karkh to773CE; Le Strange describes shops leaving the arcades and those spaces becoming guard barracks {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}."
+    ur: "دوری کرخ منتقلی773ء میں بتاتے ہیں؛ لی اسٹرینج دکانوں کے راہداریوں سے ہٹنے اور ان جگہوں کے پہرے داروں کی چھاؤنی بننے کا ذکر کرتے ہیں {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}۔"
+  perspectives:
+    - tradition: sunni
+      stance:
+        ar: "تكليف إداري منسوب إلى خليفة"
+        en: "Administrative order attributed to a caliph"
+        ur: "خلیفہ سے منسوب انتظامی حکم"
+      summary:
+        ar: "ينسب الدوري الأمر إلى المنصور ويذكر الأمن سبباً؛ وخبر لسترنج عن تحذير المبعوث اليوناني منقول عن الطبري، لا شهادة مباشرة من تجار الأسواق {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.65–66}."
+        en: "Duri attributes the order to al-Mansur and gives security as its rationale; Le Strange's envoy warning is a report he attributes to al-Tabari, not direct testimony from market traders {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.65–66}."
+        ur: "دوری حکم منصور سے منسوب کرکے حفاظت کی وجہ بتاتے ہیں؛ لی اسٹرینج کا یونانی ایلچی والا انتباہ طبری سے منسوب روایت ہے، بازار کے تاجروں کی براہِ راست گواہی نہیں {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.65–66}۔"
+      sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900]
+    - tradition: academic
+      stance:
+        ar: "إعادة تركيب لا مخطط تنفيذي باقٍ"
+        en: "Historical reconstruction, not a surviving implementation plan"
+        ur: "تاریخی تشکیل، محفوظ عملی منصوبہ نہیں"
+      summary:
+        ar: "يتفق المصدران على خروج أسواق من داخل الأسوار، لكن صياغة لسترنج تتحدث أيضاً عن ضواحٍ عند أبواب متعددة، بينما يحدد الدوري الكرخ؛ لذلك لا يثبت هذا الملف انتقال كل سوق إلى موضع واحد أو نتيجة أمنية {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26,p.65–66}."
+        en: "Both accounts describe markets leaving the walls, but Le Strange also speaks of suburbs by several gates while Duri names Karkh; this record therefore does not claim that every market went to one site or that the security aim succeeded {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26,p.65–66}."
+        ur: "دونوں بیانات بازاروں کو فصیل سے باہر لے جانے کا ذکر کرتے ہیں؛ لی اسٹرینج کئی دروازوں کی آبادیوں کا بھی کہتے ہیں جبکہ دوری کرخ کا نام لیتے ہیں، اس لیے ہر بازار کے ایک مقام پر منتقل ہونے یا حفاظتی مقصد کے کامیاب ہونے کا دعویٰ نہیں {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26,p.65–66}۔"
+      sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900]
+precursors:
+  - invention: invention/round-city-baghdad
+    note: "The relocation used the city's existing gate roads and arcades; it changed their commercial use rather than creating the market system or the city plan {cite:lestrange-baghdad-1900 p.25–26}."
+    sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri]
+dependents: []
+spread: []
+impact:
+  fields: [architecture-building, institutions-systems]
+  changed:
+    ar: "يصف لسترنج انتقال المحال من الطرق ذات الأروقة، ثم استعمال الأروقة المفرغة ثكنات دائمة لشرطة المدينة وحرس الخيل {cite:lestrange-baghdad-1900 p.25–26}. لا تقيس الروايات انخفاض المخاطر أو سهولة التجارة بعد النقل."
+    en: "Le Strange describes shops leaving the arcaded roads and the cleared arcades becoming permanent barracks for city police and horse-guard {cite:lestrange-baghdad-1900 p.25–26}. The accounts do not measure whether risk fell or trade became easier."
+    ur: "لی اسٹرینج دکانوں کے محرابی راستوں سے ہٹنے اور خالی راہداریوں کے شہر کے سپاہیوں اور گھڑ سوار محافظوں کی مستقل چھاؤنی بننے کا ذکر کرتے ہیں {cite:lestrange-baghdad-1900 p.25–26}۔ روایات خطرہ کم ہونے یا تجارت آسان ہونے کی پیمائش نہیں کرتیں۔"
+  history:
+    ar: "يصف الدوري أسواقاً مستقلة لأهل حرف وتجارات مختلفة، ثم أحياء لتجار قدموا من مدن متعددة مع نمو بغداد؛ ويقول لسترنج إن الكرخ صار مركزاً تجارياً مهماً في غربيها. لا يثبت ذلك أن أمر773م وحده سبب كل نمو لاحق {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.65–66}."
+    en: "Duri describes separate bazaars for different crafts and trades, then merchant quarters as people came from multiple cities while Baghdad grew; Le Strange calls Karkh an important later commercial centre in western Baghdad. Neither establishes that the773CE order alone caused all later growth {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.65–66}."
+    ur: "دوری مختلف پیشوں کے الگ بازار اور بغداد کے پھیلاؤ کے ساتھ کئی شہروں سے آنے والے تاجروں کے محلے بیان کرتے ہیں؛ لی اسٹرینج کرخ کو مغربی بغداد کا اہم تجارتی مرکز کہتے ہیں۔ اس سے ثابت نہیں ہوتا کہ773ء کا حکم ہی بعد کی تمام ترقی کا سبب تھا {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.65–66}۔"
+  significance: 3
+  why: "A specific, source-supported change in urban market placement and the reuse of cleared arcades is documented, while priority, completeness and measured outcomes remain unproved."
+described_in: []
+examples: []
+sites: [place/baghdad, place/al-karkh]
+concepts: []
+today:
+  form:
+    ar: "موضوع لدراسة تاريخ توزيع الوظائف التجارية في بغداد، لا نظام أسواق عامل يمكن إعادة تشغيله اليوم {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}."
+    en: "A historical case for studying Baghdad's commercial-space allocation, not an operating market system that can be revived from these reports {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}."
+    ur: "بغداد میں تجارتی جگہوں کی تاریخی تقسیم کا مطالعہ، ان بیانات سے دوبارہ چلایا جا سکنے والا موجودہ بازار نظام نہیں {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}۔"
+  descendants:
+    ar: "لا تحدد المادتان المدروستان سلسلة انتقال مباشرة من هذا القرار إلى أنظمة تخطيط لاحقة؛ التشابه وحده لا يثبت النسب {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.65–66}."
+    en: "The two accounts consulted do not establish a direct line from this order to later planning systems; resemblance alone would not demonstrate descent {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.65–66}."
+    ur: "زیرِ مطالعہ دونوں بیانات اس حکم سے بعد کے منصوبہ بندی نظاموں تک براہِ راست سلسلہ ثابت نہیں کرتے؛ محض مشابہت نسب کی دلیل نہیں {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.65–66}۔"
+media:
+  image: media/round-city-lestrange-plan
+  diagram: media/diagram-karkh-market-relocation
+kids:
+  ar: "كانت في بغداد أسواق داخل أروقة قرب أبواب المدينة، وأمر المنصور بنقل أسواق إلى الكرخ سنة773م بحسب الدوري. يقول لسترنج إن الأروقة الخالية صارت ثكنات للحرس؛ ولا نعرف من هذه الأخبار أن كل تاجر انتقل أو أن الخطر زال {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}."
+  en: "Baghdad had markets in arcades near its gates, and Duri says al-Mansur ordered markets moved to Karkh in773CE. Le Strange says the cleared arcades became guard barracks; these reports do not show that every merchant moved or that danger disappeared {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}."
+  ur: "بغداد میں دروازوں کے قریب راہداریوں میں بازار تھے؛ دوری کے مطابق منصور نے773ء میں بازاروں کو کرخ منتقل کرنے کا حکم دیا۔ لی اسٹرینج کہتے ہیں خالی راہداریاں محافظوں کی چھاؤنی بنیں؛ ان بیانات سے ہر تاجر کی منتقلی یا خطرے کے خاتمے کا ثبوت نہیں ملتا {cite:tdv-bagdat-duri Markets} {cite:lestrange-baghdad-1900 p.25–26}۔"
+sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900, source/tarikh-khulafa-minhaj-1434, source/commons-round-city-lestrange]
+provenance:
+  layer: own-research
+  source: "Le Strange1900printed25–26and65–66 read from the Internet Archive OCR stream; TDV's official Baghdad article and linked PDF text read directly. No scan was inspected; Le Strange's al-Tabari report was not checked against the original. Duri gives773CE; no single Hijri year is asserted."
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b97"
+status: { review: published, completeness: 3 }
