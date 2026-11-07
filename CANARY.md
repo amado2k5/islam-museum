@@ -65,6 +65,7 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's commentary on 5:6 (volume 10) continues: printed pp. 28-34, reports 11355-11388, in Arabic, English and Urdu, citing volume 10 page by page.
 - Al-Tabari's commentary on 5:6 (volume 10) continues: printed pp. 21-27, reports 11337-11354, in Arabic, English and Urdu, citing volume 10 page by page.
 - Al-Tabari's commentary on 5:6 (volume 10) continues: printed pp. 14-20, reports 11327-11336, in Arabic, English and Urdu, citing volume 10 page by page.
+- Tafsir Browser (volume 13, batch 1): al-Tabari's commentary on 7:101 to 7:105 (the covenant and foreknowledge, the seal on hearts, Moses sent to Pharaoh, the readings of 'haqiq') filed in Arabic, English and Urdu from printed pp. 7-13 (reports 14901-14908), each paragraph cited to the page of the Shakir edition.
 - Al-Tabari's commentary on 5:6 (volume 10) begins: printed pp. 7-13, reports 11300 to 11327 (when ablution is due: the hadath view, the 'rising from sleep' view and the 'every prayer' view), in Arabic, English and Urdu, citing volume 10 page by page.
 - Tafsir Browser: al-Tabari vol. 11, batch 1 (pp. 7-13, reports 12544-12565): the opening of the commentary on Qur'an 5:95 (what counts as deliberate killing of game in ihram, and al-Tabari's choice) filed in Arabic, English and Urdu.
 - Tafsir Browser (phase 1): the data model for Qur'an commentaries. A new work kind `tafsir-volume`; Tabari's Jami' al-Bayan (Shakir edition) volumes 1 to 9 are records that are part of the commentary and are about the verses their passage citations name (coverage 2:2 to 4:141).
@@ -121,6 +122,7 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's commentary on verse 3 of sura al-Ma'ida is filed from printed p. 493 to p. 499 (reports 11002 to 11019): the swine, what was dedicated to other than God, the strangled, the beaten to death, the fallen, and the gored, in Arabic, English and Urdu.
 - Al-Tabari's commentary on verse 3 of sura al-Ma'ida continues from printed p. 499 to p. 506 (reports 11021 to 11046): the gored, the prey's kill, the exception of what is slaughtered while still alive, and Malik's view on animals torn by beasts, in Arabic, English and Urdu.
 - Al-Tabari's commentary on verse 3 of sura al-Ma'ida continues from printed p. 507 to p. 513 (reports 11047 to 11071): why the list of forbidden dead animals is repeated, the stone altars of the Age of Ignorance, and the divining arrows, in Arabic, English and Urdu.
+- Al-Tabari's commentary on verse 3 of sura al-Ma'ida continues from printed p. 514 to p. 520 (reports 11072 to 11087): Ibn Ishaq's account of Hubal and its arrows, the clauses on transgression, the despair of the disbelievers and 'do not fear them', and the first views on the perfecting of the religion, in Arabic, English and Urdu.
 
 ### Changed
 - The Modern Islam Browser now names the voices of worship and devotional song (founder's request, 6 November 2026): four person roles, `reciter`, `muezzin`, `munshid` and `sufi-singer`, join the role list, and the Figures section gains a field, "Reciters, muezzins and munshids", listed first so that a reciter who also preaches is filed with the reciters. The 48 person records that already carry one of these roles are gathered there at once (those with a dated fact from 1976 on appear in the browser). Three audio genres are added for recordings: Qur'an recitation and the call to prayer, each labelled "not music" in all three languages, and Sufi inshad and hadra. The operative prompt and plan 26 say how to write these records (riwaya, the muezzin's mosque and years, Qur'an text never typed, a Sufi repertoire never taken as a faith attestation), and the seeds list several hundred named leads with their generators.
@@ -128,6 +130,11 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic and Urdu parentheses (remaining unquoted and summary values, batch 6): brackets now stay in place in right-to-left text in 16 files.
+- Arabic and Urdu parentheses (remaining unquoted and summary values, batch 5): brackets now stay in place in right-to-left text in 77 files.
+- Arabic and Urdu parentheses (remaining unquoted and summary values, batch 4): brackets now stay in place in right-to-left text in 68 files.
+- Arabic and Urdu parentheses (remaining unquoted and summary values, batch 3): brackets now stay in place in right-to-left text in 100 files.
+- Arabic and Urdu parentheses (remaining unquoted and summary values, batch 2): brackets now stay in place in right-to-left text in 68 files.
 - Arabic and Urdu parentheses (remaining unquoted and summary values, batch 1): brackets now stay in place in right-to-left text in 99 files.
 - Arabic parentheses (Urdu, batch 219): brackets are isolated only inside Urdu values in 20 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 218): brackets are isolated only inside Urdu values in 39 data files. English and Arabic text is left exactly as it was.
