@@ -15,7 +15,7 @@ translators: []
 
 ## عجائب گھر میں
 
-عجائب گھر میں اس کے حاملین میں قوال [[person/munshi-raziuddin|منشی رضی الدین]] (1967ء) {cite:wikipedia-munshi-raziuddin-en}، قوال [[person/aziz-mian|عزیز میاں]] (1989ء) {cite:wikipedia-aziz-mian-en}، نعت خواں [[person/khursheed-ahmad|خورشید احمد]] (1996ء) {cite:wikipedia-khursheed-ahmad-en} اور قوال [[person/fareed-ayaz|فرید ایاز]] (2006ء) ہیں۔ {cite:wikipedia-fareed-ayaz-en}
+عجائب گھر میں اس کے حاملین میں قوال [[person/munshi-raziuddin|منشی رضی الدین]] (1967ء) {cite:wikipedia-munshi-raziuddin-en}، [[group/sabri-brothers|صابری برادران]] (1978ء) {cite:wikipedia-sabri-brothers-en}، گلوکارہ [[person/abida-parvin|عابدہ پروین]] (1984ء) {cite:wikipedia-abida-parvin-en}، قوال [[person/nusrat-fatih-ali-khan|نصرت فتح علی خان]] (1987ء) {cite:wikipedia-nusrat-fatih-ali-khan-en}، قوال [[person/aziz-mian|عزیز میاں]] (1989ء) {cite:wikipedia-aziz-mian-en}، نعت خواں [[person/khursheed-ahmad|خورشید احمد]] (1996ء) {cite:wikipedia-khursheed-ahmad-en} اور قوال [[person/fareed-ayaz|فرید ایاز]] (2006ء) ہیں۔ {cite:wikipedia-fareed-ayaz-en}
 
 ## مراجع
 
