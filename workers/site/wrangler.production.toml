@@ -11,12 +11,14 @@ enabled = true
 
 # Workers Caching: Cloudflare serves a cached response without running the Worker,
 # honouring the Cache-Control the Worker sets (an hour for HTML and redirects, none
-# for 404s). cross_version_cache keeps the warm cache across the frequent redeploys
-# (every push to main): page content comes from R2, not from the Worker version, so
-# a new version has nothing to invalidate. Needs wrangler 4.107 or later.
+# for 404s). cross_version_cache is DISABLED (2026-11-07): entries written during a
+# deploy window survived every later deploy and could not be purged — zone-level
+# purges do not touch Workers Caching — and edge PoPs served them as intermittent
+# 520s while the Worker logs stayed clean. With cross-version sharing off, each
+# deploy starts from a fresh cache partition. Needs wrangler 4.107 or later.
 [cache]
 enabled = true
-cross_version_cache = true
+cross_version_cache = false
 
 [assets]
 # CI copies dist without the R2-served directories (ar, en, ur, api, pagefind-*)
