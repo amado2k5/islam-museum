@@ -337,6 +337,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 18: pp. 152-158 filed in ar, en and ur (reports 15175-15208): verse 155 closes at p. 152 and verse 156 is filed to the foot of p. 158 (report 15208 from Ibn Abbas, mid-report). Next is the rest of 7:156 from printed p. 159.
 - Batch 19: pp. 159-165 filed in ar, en and ur (reports 15208-15228): verse 156 closes at p. 160 and verse 157 is filed to the foot of p. 165 (after 'forbids them the foul things'). Next is the reports on the foul things from printed p. 166.
 - Batch 20: pp. 166-172 filed in ar, en and ur (reports 15229-15249): verses 157 and 158 are filed in full and verse 159 is begun at p. 172. Next is the description of the community of Moses' people in 7:159 from printed p. 173.
+- Batch 21: pp. 173-179 filed in ar, en and ur (reports 15250-15251): verse 159 closes at p. 174, verses 160 to 162 are filed in full and verse 163 is begun at p. 179 (the town by the sea; stop sentence at the foot). Next is the interpreters' accounts of this town from printed p. 180.
+- Batch 22: pp. 180-186 filed in ar, en and ur (reports 15252-15266, 15267 begun): verse 163 is filed to p. 184 (the town by the sea: Ayla, Madyan or Maqna; the fish on the Sabbath; the readings of 'yasbitun') and verse 164 is begun at p. 184 (the community that preached, the readings of 'ma'dhiratun', saved or destroyed) to the foot of p. 186 (stop sentence at the foot). Next is report 15267 (Ibn Abbas) from printed p. 187.
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
