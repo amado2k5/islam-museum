@@ -1,0 +1,74 @@
+id: listing/blme
+class: listing
+kind: company
+label:
+  ar: بنك لندن والشرق الأوسط
+  en: Bank of London and The Middle East (BLME)
+  ur: بینک آف لندن اینڈ دی مڈل ایسٹ
+summary:
+  ar: بنك بريطاني متوافق مع الشريعة مقره لندن، تأسس في 7 أغسطس 2006 ورُخّص له في يوليو 2007، وكان سنة 2013 أكبر بنك إسلامي
+    في أوروبا؛ تشرف على عقوده هيئة رقابة شرعية، وبنك بوبيان الكويتي مساهمه الأكبر.
+  en: A British Sharia-compliant bank based in London, incorporated on 7 August 2006 and authorised in July 2007, which was
+    the largest Islamic bank in Europe in 2013; a Sharia Supervisory Board reviews its contracts, and Kuwait's Boubyan Bank
+    is its majority shareholder.
+  ur: لندن میں قائم شریعت کے مطابق برطانوی بینک، جو 7 اگست 2006 کو رجسٹر ہوا اور جولائی 2007 میں اسے اجازت ملی؛ 2013 میں یورپ
+    کا سب سے بڑا اسلامی بینک تھا؛ ایک شرعی نگران بورڈ اس کے معاہدوں کا جائزہ لیتا ہے، اور کویت کا بوبیان بینک اس کا اکثریتی
+    حصہ دار ہے۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- andalus-europe
+founded:
+  edtf: '2006-08-07'
+  hijri: '1427-07-13'
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: Incorporated in London on 7 August 2006 as House of London and The Middle East; renamed July 2007 (as cited by the
+    article). The Hijri date is converter-derived (Umm al-Qura).
+  sources:
+  - source/wikipedia-blme-en
+made:
+  by_muslims: true
+  basis: documented
+  sources:
+  - source/wikipedia-blme-en
+external_ids:
+  wikidata: Q16827591
+sources:
+- source/wikipedia-blme-en
+- source/wikipedia-boubyan-bank-en
+- source/wikidata
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - gb
+links:
+  official: https://www.blme.com
+footprint:
+  wikipedia:
+    languages:
+    - en
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-blme-en
+  wikidata: Q16827591
+provenance:
+  layer: own-research
+  source: English Wikipedia "BLME" (revision 1380607448, 16 October 2026), read in Chrome on the founder's Mac on 6 November
+    2026; Wikidata sitelinks read the same day; the Boubyan ownership figures are from English Wikipedia "Boubyan Bank" (revision
+    1370109418)
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b02
