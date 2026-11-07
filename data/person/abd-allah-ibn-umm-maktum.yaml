@@ -14,6 +14,8 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]
+relations:
+ - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]}
 external_ids:
   wikidata: Q1111158
 provenance:

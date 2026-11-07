@@ -239,33 +239,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 ## Remaining published records (0)
 
 
-## Draft records (268)
+## Draft batch D01 (25 entities)
 
-- [ ] person/abbad-ibn-qays-mutah
-- [ ] person/abbasa-bint-al-fadl
-- [ ] person/abd-al-rahman-ibn-awf
-- [ ] person/abd-al-rahman-ibn-zayd-ibn-al-khattab
-- [ ] person/abd-allah-ibn-al-saib
-- [ ] person/abd-allah-ibn-ali-ibn-abi-talib
-- [ ] person/abd-allah-ibn-qurt
-- [ ] person/abd-allah-ibn-rawaha
-- [ ] person/abd-allah-ibn-umm-maktum
-- [ ] person/abd-allah-ibn-yazid-ibn-hisn-al-awsi
-- [ ] person/abdallah-ibn-bahina
-- [ ] person/abdallah-ibn-makhrama
-- [ ] person/abdullah-ibn-abi-bakr
-- [ ] person/abdullah-ibn-amr-ibn-haram
-- [ ] person/abdullah-ibn-atik
-- [ ] person/abdullah-ibn-busr
-- [ ] person/abdullah-ibn-mazun
-- [ ] person/abdullah-ibn-qurad-al-ziyadi
-- [ ] person/abdullah-ibn-suhayl
-- [ ] person/abdullah-ibn-zayd-ibn-asim
-- [ ] person/abu-al-awar-al-ansari
-- [ ] person/abu-al-haytham-ibn-al-tayyihan
-- [ ] person/abu-al-yusr-kab-ibn-amr
-- [ ] person/abu-ayyub-al-ansari
-- [ ] person/abu-basir
+- [x] person/abbad-ibn-qays-mutah
+- [x] person/abbasa-bint-al-fadl
+- [x] person/abd-al-rahman-ibn-awf
+- [x] person/abd-al-rahman-ibn-zayd-ibn-al-khattab
+- [x] person/abd-allah-ibn-al-saib
+- [x] person/abd-allah-ibn-ali-ibn-abi-talib
+- [x] person/abd-allah-ibn-qurt
+- [x] person/abd-allah-ibn-rawaha
+- [x] person/abd-allah-ibn-umm-maktum
+- [x] person/abd-allah-ibn-yazid-ibn-hisn-al-awsi
+- [x] person/abdallah-ibn-bahina
+- [x] person/abdallah-ibn-makhrama
+- [x] person/abdullah-ibn-abi-bakr
+- [x] person/abdullah-ibn-amr-ibn-haram
+- [x] person/abdullah-ibn-atik
+- [x] person/abdullah-ibn-busr
+- [x] person/abdullah-ibn-mazun
+- [x] person/abdullah-ibn-qurad-al-ziyadi
+- [x] person/abdullah-ibn-suhayl
+- [x] person/abdullah-ibn-zayd-ibn-asim
+- [x] person/abu-al-awar-al-ansari
+- [x] person/abu-al-haytham-ibn-al-tayyihan
+- [x] person/abu-al-yusr-kab-ibn-amr
+- [x] person/abu-ayyub-al-ansari
+- [x] person/abu-basir
+
+## Draft records (243)
+
 - [ ] person/abu-basra-al-ghifari
 - [ ] person/abu-burayda-al-aslami
 - [ ] person/abu-burda-ibn-niyar
