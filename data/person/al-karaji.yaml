@@ -26,6 +26,11 @@ faith:
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/karaji-mactutor, source/tdv-kereci] }
 inventions:
+  - invention: invention/karaji-binomial-coefficient-recurrence
+    role: improver
+    place: place/baghdad
+    note: "Adjacent-addition coefficient rule attributed by al-Samawal's surviving al-Bahir witness; lost original, finite powers, no global triangle priority or modern induction claim."
+    sources: [source/karaji-mactutor, source/samawal-mactutor, source/samawal-dsb]
   - invention: invention/karaji-qanat-surveying
     role: improver
     note: "Attributed levels/levelling and tunnel alignment in an inherited qanat tradition; no first qanat, surveying or modern hydraulic theory claim."
@@ -44,6 +49,8 @@ sources:
 - source/karaji-ataie-simmons-2020
 - source/karaji-woepcke-1853
 - source/karaji-inbat-ljs399
+- source/samawal-mactutor
+- source/samawal-dsb
 provenance:
   layer: own-research
   generated_by: "Claude Haiku 5.5"
@@ -51,6 +58,10 @@ provenance:
   run: "Wikidata insertion, slice S9"
   source: "Original scaffold attribution retained from status.generated_by; its Sezgin entry and Wikidata facts were not independently read for this enrichment."
   extensions:
+    - generated_by: github-copilot
+      model: unknown
+      run: inventions-p3-b98
+      source: "Added narrow binomial-coefficient tie and sourced prose from actual biographies/DSB. Printed HESS762 Muslim basis rechecked; entire faith, political context, original authorship and earlier prose preserved."
     - generated_by: "Copilot SDK in VS Code"
       model: "unknown"
       run: "inventions-p3-b41"

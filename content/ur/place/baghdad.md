@@ -61,3 +61,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## اس خبر سے تنہا کیا ثابت نہیں ہوتا
 اس ایک روایت سے مکمل روزانہ پیداوار جدول، قطعی بچت فیصد یا جدید انجینئرنگ ماڈل اخذ نہیں کیا جاتا۔ جو ثابت ہوتا ہے وہ یہ کہ شہری تعمیر میں پیمائشی اندازے کی منقول منطق موجود تھی۔ یہی حد بندی مکانی اور تاریخی دقت کو محفوظ رکھتی ہے۔
+
+## بغداد اور ضریب کے قاعدے کا سیاق
+[[person/al-karaji|کرجی]] کے اہم ریاضیاتی کام بغداد سے متعلق ہیں، اور ٹی ڈی وی فخر الملک کی بویہی سرپرستی بتاتا ہے، مصنف کا ذاتی مسلک نہیں {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}۔ [[invention/karaji-binomial-coefficient-recurrence|ضریب کا تکراری قاعدہ]] اسی علمی سیاق سے متعلق ہے، گم شدہ کام کی تحریر کا ثابت شدہ کارگاہ پتہ نہیں {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}۔ سموأل نے الباہر میں اس کا بیان محفوظ کیا، مگر اس سے شہر سے یورپ یا چین تک تاریخ وار نقل کے راستے نہیں ملتے {cite:samawal-mactutor Biography} {cite:jia-xian-mactutor Biography}۔
