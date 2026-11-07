@@ -6,7 +6,7 @@ translators: []
 ---
 
 ## Summary
-Meezan Bank is a Pakistani Islamic bank headquartered in Karachi; it is the largest Islamic bank in Pakistan and the country's second-largest bank by market capitalisation. {cite:wikipedia-meezan-bank-en}
+Meezan Bank is a Pakistani Islamic bank headquartered in Karachi; it is the largest Islamic bank in Pakistan and the country's second-largest bank by market capitalisation. {cite:wikipedia-meezan-bank-en} On its own About page the bank describes itself as "Pakistan's best bank and the first and largest Islamic bank". {cite:meezan-bank-about-page}
 
 ## Founding
 It was founded in 1997 as an Islamic investment bank by Noor Financial, Pak Kuwait Investment Company and the Islamic Development Bank, and was then known as Al-Meezan Investment Bank. {cite:wikipedia-meezan-bank-en} It was listed on the Karachi Stock Exchange in 2000, and in 2002 it acquired the Pakistan operations of Société Générale. {cite:wikipedia-meezan-bank-en}
@@ -22,3 +22,4 @@ By its 2025 annual report it had 1,105 branches, about 20,391 employees and tota
 
 ## References
 - English Wikipedia, "Meezan Bank", revision 1364755474. {cite:wikipedia-meezan-bank-en}
+- Meezan Bank, About Us page. {cite:meezan-bank-about-page}
