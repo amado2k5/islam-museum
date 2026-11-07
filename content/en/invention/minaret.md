@@ -1,5 +1,11 @@
 ---
 id: invention/minaret
+status: { review: published }
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of Arabic architectural additions from directly reread TDV MİNARE; original prose preserved."
 lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
@@ -33,11 +39,21 @@ Al-Maqrizi also tells how Maslama once went into retreat in the minaret of the m
 The sources say that he ordered the minarets and made people build them; they do not name the builders. His role is therefore recorded here as the one who commissioned them, not as the builder {cite:futuh-misr-amir-1999 p. 178}.
 
 ## How it works
+TDV's architectural vocabulary helps a visitor read the tower, while describing forms developed later rather than supplying a plan of Fustat's original corner towers: an above-ground base, attached to or separate from the mosque; a transition between base and shaft; the shaft itself; and the balcony on which the caller can walk around the tower {cite:tdv-minare ¶3}. The base may be square, cylindrical or a polygonal prism, normally containing the entrance; a different shaft shape explains the transition rather than requiring the entire tower to have one cross-section {cite:tdv-minare ¶3}.
+
+The balcony is not merely a name for ornament: the account distinguishes its walking surface, the projections supporting that surface, and its edge barriers; a tower can have several balconies {cite:tdv-minare ¶3}. Above it is a section carrying the upper covering, with a door facing the qibla opening onto the balcony; Ottoman coverings were commonly wooden frames clad in lead, while stone forms appeared later {cite:tdv-minare ¶3}. These are distinct physical functions, not established dimensions or materials for Maslama's lost original towers.
+
+Exceptions broaden the architectural picture: the article lists minarets without balconies, forms projecting outside a building, ones above a fountain, and pavilion-like types reached by stairs against the building or courtyard wall around Kayseri and Nevsehir {cite:tdv-minare ¶4}. A slender shaft with a balcony is therefore not the only recognizable form, and one photograph cannot establish the function of every tower.
+
+In its regional account, TDV describes Ibn Tulun's minaret as having a square first level, a round second level and a later-added octagonal third, and records colored glazed brick and geometrical ornament in Anatolian examples before the Ottoman shift towards stone after Istanbul's conquest {cite:tdv-minare ¶5, ¶8}. Different sections and materials can thus record phases of construction and alteration rather than characteristics fixed at the minaret's first appearance {cite:tdv-minare ¶5, ¶8}. In the Ottoman convention described by the encyclopedia, multiple towers and balconies were restricted to mosques commissioned by members of the ruling dynasty; their number could express patronal rank as well as serve the call, but this later convention is not a universal rule for mosques everywhere {cite:tdv-minare ¶3}.
+
 The idea is to raise the voice. The muezzin climbs the tower by its stairs and gives the call from above the roof of the mosque, so his voice carries further than it would from the ground {cite:yeomans-islamic-cairo-2006 p. 20}.
 
 In Fustat the call took on an order: the muezzins of the congregational mosque called first, and when they had finished every muezzin in Fustat called at the same moment, with a great roar {cite:khitat-maqrizi-1998 p. 1997}. The diagram on this page shows what the minaret was built on and what was built on it, as the sources tell it, and nothing more.
 
 ## The spread
+TDV's comparison includes Mosul's Great Mosque: its round shaft on a square base was divided into seven levels by decorative bands in Zangid architecture {cite:tdv-minare ¶5}. Qayrawan's tower is described as square and three-level, reaching31.5metres, while the Giralda has relief geometrical screens and horseshoe-arched windows {cite:tdv-minare ¶5}. These are visible differences of mass and surface, not reasons to count every ornamental band as a call balcony or every level as a separate minaret {cite:tdv-minare ¶3} {cite:tdv-minare ¶5}.
+
 The spread began in Egypt itself: Maslama ordered minarets for all the mosques of Egypt except those of Tujib and Khawlan {cite:khitat-maqrizi-1998 p. 1997}. Minarets were then built of stone, brick and wood: stone in Spain and Egypt, brick in North Africa, stone and brick in Arabia, Syria and Anatolia {cite:tdv-minare ¶2}. From North Africa and al-Andalus to Syria, minarets became square towers of several storeys; in the east they were mostly round and slender {cite:tdv-minare ¶2}.
 
 ## What it was built on

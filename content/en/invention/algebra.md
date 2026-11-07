@@ -3,6 +3,12 @@ id: invention/algebra
 lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
+status: { review: published }
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "English translation of additive Arabic technical section grounded in TDV al-Khwarizmi, pp.224–227; original prose retained."
 ---
 ## Summary
 Algebra, al-jabr wal-muqabala, is the art of finding an unknown number from known ones through an equation. [[person/al-khwarizmi|Muhammad ibn Musa al-Khwarizmi]] set it out in Baghdad under the caliph [[person/abd-allah-al-mamun|al-Ma'mun]] in a concise book, [[work/al-jabr-wal-muqabala|al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala]], for people's needs in inheritance, bequests, trade and land measurement {cite:khwarizmi-jabr-cairo-1939 pp. 29–30}. He reduced every problem to three kinds of term and six types of equation, each with a rule and a geometric proof {cite:khwarizmi-jabr-cairo-1939 pp. 30–43}. [[person/ibn-khaldun|Ibn Khaldun]] names him the first to write in this art {cite:muqaddima-ibn-khaldun p. 495}, and the science still carries the name of his book in the world's languages {cite:khwarizmi-jabr-cairo-1939 p. 25}.
@@ -28,6 +34,8 @@ A copy survives in the Bodleian Library at Oxford, written in Cairo in Muharram 
 [[person/al-khwarizmi|Abu Abd Allah (or Abu Ja'far) Muhammad ibn Musa al-Khwarizmi]] was an astronomer and mathematician at al-Ma'mun's court in Baghdad. The Cairo editors describe him as learned in arithmetic, geography and astronomy, and as rightly regarded as the founder of algebra {cite:khwarizmi-jabr-cairo-1939 p. 24}. In the preface to his algebra he writes as a Muslim: he praises God, asks blessings on the Prophet and on the prophets before him, and calls al-Ma'mun the imam and commander of the faithful {cite:khwarizmi-jabr-cairo-1939 p. 29}.
 
 ## How it works
+The book's organization goes beyond announcing six equation types: TDV's biography describes sections on multiplying two-term expressions, adding and subtracting algebraic quantities, and dividing roots and transforming radical expressions before the solved problems {cite:tdv-harizmi pp. 224–227}. Its transactions section considers four proportional quantities, while practical geometry includes area calculations and two geometrical problems solved by algebra; transactions, geometry and bequests are therefore applications within the book, not merely purposes named in its introduction {cite:tdv-harizmi pp. 224–227}. The biography describes the squares and rectangles as a geometrical representation and verification of the analytical solution, distinguishing the calculation that finds a number from the drawing that makes the relation behind it visible {cite:tdv-harizmi pp. 224–227}.
+
 Al-Khwarizmi first gives three simple types, in which one kind of term equals another: squares equal roots, squares equal a number, and roots equal a number. He then gives three compound types: squares and roots equal a number, squares and a number equal roots, and roots and a number equal squares {cite:khwarizmi-jabr-cairo-1939 pp. 31–32}.
 
 His best-known example is "a square and ten roots equal thirty-nine dirhams". The rule: halve the roots, which gives five; multiply it by itself, twenty-five; add this to thirty-nine, sixty-four; take its root, eight; and subtract half the roots, five, which leaves three. That is the root, and the square is nine {cite:khwarizmi-jabr-cairo-1939 pp. 32–33}. He then proves the rule with a drawing. A square stands for the unknown square, and rectangles on its sides stand for the ten roots; the corner left to complete the large square is five by five, or twenty-five, and the whole square is sixty-four with a side of eight {cite:khwarizmi-jabr-cairo-1939 pp. 35–37}.

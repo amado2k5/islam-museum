@@ -1,5 +1,11 @@
 ---
 id: invention/walid-bimaristan
+status: { review: published }
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of Arabic additions from directly reread TDV BÎMÂRİSTAN; original prose preserved."
 lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
@@ -37,6 +43,10 @@ The sources read do not describe the inside of al-Walid's house. What they give 
 On the next page of the Khitat, al-Maqrizi describes how a maristan worked about two centuries later, that of [[person/ahmad-ibn-tulun|Ahmad ibn Tulun]] at Fustat. When a sick person was brought in, his clothes and money were taken and kept by the trustee of the maristan; he was given clothes and a bed, and medicines, food and physicians came to him morning and evening until he recovered. When he could eat a chicken and a loaf of bread, he was told to leave and given back his money and his clothes {cite:khitat-maqrizi-1998 p. 2337}. That is a description of a later maristan, not of al-Walid's house.
 
 ## The spread
+TDV gives another Umayyad-period account, attributed to Ibn Duqmaq: Abu Zubayd's house in Fustat's Qanadil street became a bimaristan, without a precise foundation year in this passage or an identification with al-Walid's institution {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. The different name, city and kind of premises distinguish a catalogue of institutions from the works of one patron; a house converted for treatment does not establish that al-Walid's building plan was copied or his doctors moved there {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. This is the encyclopedia's report of an older text, not a new independent reading of Ibn Duqmaq.
+
+The vocabulary also distinguishes later forms: the introduction names dar al-marda in the Samarqand hospital's endowment, dar al-afiya and dar al-shifa under the Seljuks, and dar al-sihha, shifakhana and bimar khana among Ottoman terms {cite:tdv-bimaristan introduction}. These name institutions of later periods, not documented alternative names for al-Walid's establishment; separating a general term from a particular account prevents the functions of every later institution from being projected onto the brief Umayyad report {cite:tdv-bimaristan introduction}.
+
 The sources read do not trace al-Walid's house into later ones. The TDV encyclopedia says that the bimaristans whose building began under the Umayyads reached their first flowering under the Abbasids, multiplied in Baghdad, Fustat, Cairo and Damascus, and were followed by the houses of healing of the Seljuks and Ottomans {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. It also quotes Ibn Duqmaq that the house of Abu Zubayd in the lane of the lamps at Fustat was turned into a bimaristan under the Umayyads {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
 
 ## What it was built on
@@ -57,6 +67,8 @@ On al-Maqrizi's account, the sick now had a known place to go and a physician wh
 Al-Maqrizi puts al-Walid at the head of a long line of maristans, which he goes on to list one after another: Ibn Tulun's, then Kafur's, then others {cite:khitat-maqrizi-1998 p. 2336} {cite:khitat-maqrizi-1998 p. 2337}. The TDV encyclopedia says that in Muslim cities the bimaristan became an institution that treated every kind of patient, even the insane, and taught medicine, as at the bimaristans of Nur al-Din and Qalawun {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
 
 ## Who invented it?
+TDV also reports Bostanzade Yahya's priority claim for al-Walid in establishing hospitals for mental and bodily illnesses, explicitly noting that he supplied no source for it {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
+
 The sources agree that hospitals were known before Islam, and differ over the first hospital in Islam:
 - **Al-Maqrizi** says the first to build a maristan in Islam was al-Walid ibn Abd al-Malik, in 88 AH {cite:khitat-maqrizi-1998 p. 2336}.
 - **Al-Mada'ini**, as quoted by Ibn Kathir, and **al-Suyuti** record al-Walid's organised provision for lepers, the disabled and the blind, but mention neither a building nor physicians {cite:bidaya-ilmiyya-v5 p. 176} {cite:tarikh-khulafa-minhaj-1434 p. 367}.
