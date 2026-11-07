@@ -1,0 +1,49 @@
+id: job/weaver
+class: job
+label: { ar: "الحائك", en: "Weaver (ha'ik / nassaj)", ur: "جولاہا ⁦(نساج)⁩" }
+names:
+  - { value: "جولاه", kind: alternate }
+  - { value: "جلّاه", kind: alternate }
+  - { value: "cullâh", kind: latinized, lang: tr }
+  - { value: "çulha", kind: latinized, lang: tr }
+summary:
+  ar: "يصف مدخل TDV الجلّاه، أي الحائك العثماني الذي نسج القطن غالباً. كان يشتري الغزل جاهزاً أو يغزل القطن الخام بنفسه، ويعمل بأمر البزازين، ولا يبيع قماشه في السوق بنفسه. وكان لحائكي المدينة طائفة يرأسها أخي بابا، ويراقب أهل الخبرة طول القماش وجودته. وتراجعت الحرفة أمام القطن الهندي ثم الأوروبي، وانهارت طوائفها في خمسينيات القرن التاسع عشر."
+  en: "The TDV entry describes the cullah, the Ottoman weaver, who mostly wove cotton. He bought yarn ready-spun or spun raw cotton himself, worked to orders from the cloth merchants, and could not sell his cloth in the market himself. The weavers of a town formed a guild led by an ahi baba, and men of experience checked the length and quality of the cloth. The craft gave way to Indian and then European cotton, and its guilds collapsed in the 1850s."
+  ur: "ٹی ڈی وی کا مدخل جلّاہ، یعنی عثمانی جولاہے، کو بیان کرتا ہے جو زیادہ تر روئی بنتا تھا۔ وہ بنا بنایا سوت خریدتا یا خام روئی خود کات لیتا، بزازوں کے آرڈر پر کام کرتا اور اپنا کپڑا خود بازار میں نہیں بیچ سکتا تھا۔ شہر کے جولاہوں کی جماعت کا سربراہ اخی بابا ہوتا، اور اہلِ خبرہ کپڑے کی لمبائی اور معیار جانچتے۔ یہ ہنر ہندوستانی اور پھر یورپی روئی کے سامنے ہار گیا اور اس کی جماعتیں 1850ء کی دہائی میں ٹوٹ گئیں۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/mardin, note: "The Mardin sancak law taxed wool and cotton weavers by the loom pit; the entry says the 24 akce per pit was later given up as unsuitable.", sources: [source/tdv-cullah] }
+  - { place: place/bursa, note: "In Bursa the entry says the makers of beledi and futa cloths were cullah; it also mentions a dispute of 1671 involving the Ahi Ali lodge.", sources: [source/tdv-cullah] }
+regions: [anatolia-balkans, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+training:
+  mode: apprenticeship
+  certification: "The entry does not describe the training of a weaver. It says the quantity and size of cloth were agreed among the weavers of a town and certified by the qadi through the ahi baba."
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-cullah]
+craft:
+  materials: [textile, cotton, wool, silk]
+  techniques:
+    ar: "يذكر المدخل أن الحائك يشتري الغزل جاهزاً أو يغزل القطن الخام بنفسه، وأن الأنوال تتفاوت أحجامها، وأن المشط يُقاس بالجلة وهي أربعون سنّاً، وأن أمشاطاً من ثمان إلى ثلاث عشرة جلة كانت تُصنع وتُباع. وتُصنع الأنوال عند الحائكين أو تُطلب أو تُشترى جاهزة، وتُسعَّر في قائمة 1640م نول أدرنة بمئة وسبعين أقجة والنول البسيط بمئة وعشرين."
+    en: "The entry says the weaver bought ready yarn or spun raw cotton himself, that looms differed in size, and that combs were counted in cile of forty teeth, with combs of eight to thirteen cile made and sold. Looms were made by the weavers, ordered or bought ready. The price list of 1640 gives an Edirne loom at 170 akce and a plain loom at 120."
+    ur: "مدخل کہتا ہے کہ جولاہا بنا بنایا سوت خریدتا یا خام روئی خود کات لیتا تھا، کھڈیوں کے سائز مختلف ہوتے، اور کنگھیاں چالیس دندانوں کی چلہ سے ناپی جاتیں، جن میں آٹھ سے تیرہ چلہ تک کی کنگھیاں بنتی اور بکتی تھیں۔ کھڈیاں جولاہے خود بناتے، آرڈر دیتے یا بنی بنائی خریدتے؛ 1640ء کی نرخ فہرست میں ادرنہ کی کھڈی 170 اقچے اور سادہ کھڈی 120 اقچے کی ہے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "أخي بابا", en: "ahi baba", ur: "اخی بابا" }
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'CULLÂH' (Feridun Emecen, vol. 8, Istanbul 1993, pp. 83–84), web edition read in full on 7 Nov 2026. The entry covers the Ottoman period only; the pre-Ottoman weavers, the tiraz workshops and the carpet are not in this record. The TİRÂZ and HALI entries were not digested."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: "jobs-p2-crafts-b02"
