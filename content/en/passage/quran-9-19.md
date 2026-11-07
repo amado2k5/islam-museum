@@ -10,7 +10,7 @@ Verse 19 of [[passage/quran-9|Surat at-Tawba]], a Medinan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 19 of 129 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 19 (pp. 168-172)**
+**Commentary on verse 19 (pp. 168-173)**
 
 Al-Tabari says this is a rebuke from God to a people who boasted of the watering and the custodianship of the House; He told them that boasting lies in belief in God and the last day and striving in His way, not in the custodianship and watering they boasted of, as the reports and the interpreters show. {cite:tafsir-tabari-shakir-v14 p. 168}
 
@@ -24,6 +24,6 @@ Report 16565, from al-Suddi, through Muhammad ibn al-Husayn, Ahmad ibn al-Mufadd
 
 Al-Tabari says the sense of the sentence is: have you, people, made the watering of the pilgrims and the tending of the Sacred Mosque like the belief of one who believed in God and the last day and strove in God's way? These are not equal, nor are their conditions and standing with God balanced, for God accepts no deed without belief in Him and the last day; "and God does not guide the wrongdoing people" means He does not grant success in righteous deeds to one who disbelieves in Him and denies His oneness. {cite:tafsir-tabari-shakir-v14 p. 172}
 
-We stop here at the foot of p. 172, in the middle of the commentary on verse 19 (after al-Tabari's paraphrase, before his note on putting the noun in place of the verbal noun); the next batch begins at p. 173. {cite:tafsir-tabari-shakir-v14 p. 172}
+Al-Tabari then explains that the noun is put in place of the verbal noun in the words "like one who believed in God" because the sense is known, citing a line by an unknown poet whose sense is that manhood is not the sprouting of down on the cheek but every generous young man, making "that" the predicate, as one says "generosity is Hatim, poetry is Zuhayr"; the editor refers to al-Farra's Ma'ani al-Qur'an. {cite:tafsir-tabari-shakir-v14 p. 173}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
