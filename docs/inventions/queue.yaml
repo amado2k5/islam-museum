@@ -1567,7 +1567,7 @@ candidates:
       - "source/muqaddima-ibn-khaldun pp. 494–495"
   - id: binomial-theorem-triangle
     label: "The binomial theorem and triangle associated with al-Karaji and al-Samaw'al"
-    state: "[~]"
+    state: "[x]"
     batch: 2
     domain: mathematics
     era: abbasid-golden
@@ -1575,7 +1575,11 @@ candidates:
     lead_sources:
       - "founder-approved operative brief (2026-11-04) §6.4"
       - "source/karaji-mactutor Biography (reported al-Samawal testimony; original not independently read)"
-    flags: [polynomial-arithmetic-context-covered-by-invention25, wider-triangle-priority-not-established, do-not-double-count-same-method, samawal-post-conversion-chronology-still-held]
+      - "source/samawal-dsb algebra/bibliography (actual mirrored scholarly entry; original lost, possible revisions)"
+      - "source/jaina-mathematics-mactutor combinations (earlier Indian table; no direct borrowing claim)"
+      - "source/jia-xian-mactutor Biography (comparative Chinese witness through Yang Hui1261)"
+    invention: invention/karaji-binomial-coefficient-recurrence
+    flags: [polynomial-arithmetic-context-covered-by-invention25, wider-triangle-priority-not-established, do-not-double-count-same-method, samawal-post-conversion-chronology-still-held, completed-D140-b98, distinct-coefficient-recurrence-not-all-polynomial-arithmetic, no-world-first-triangle, lost-original-later-samawal-witness, samawal-transmitter-not-qualifying-maker]
   - id: karaji-polynomial-arithmetic
     label: "Al-Karaji's arithmetic on powers and composite algebraic expressions"
     state: "[x]"
