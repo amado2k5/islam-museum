@@ -1,0 +1,41 @@
+id: work/askimam
+class: work
+kind: website
+label:
+  ar: "اسأل الإمام (Askimam)"
+  en: "Askimam"
+  ur: "آسک امام (Askimam)"
+summary:
+  ar: "موقع فتاوى بالإنجليزية أسسه المفتي الجنوب أفريقي إبراهيم ديسائي سنة 2000 باسم ask-imam.com ثم askimam.org سنة 2004، يجيب عن أسئلة الفقه على المذهب الحنفي بمنهج مدرسة ديوبند، ويراجع المؤسس كل فتوى؛ وصفه الباحث غاري بنت بأنه أوسع وأشمل وأكثر تأثيرًا من موارد الأزهر على الشبكة مجتمعة."
+  en: "An English-language fatwa website founded by the South African mufti Ebrahim Desai in 2000 as ask-imam.com and moved to askimam.org in 2004, answering questions of fiqh by the Hanafi school in the Deobandi tradition, each answer checked by its founder; the scholar Gary Bunt called it more comprehensive, influential and wide-ranging than al-Azhar's web resources put together."
+  ur: "انگریزی فتویٰ ویب سائٹ جسے جنوبی افریقہ کے مفتی ابراہیم ڈیسائی نے 2000 میں ask-imam.com کے نام سے شروع کیا اور 2004 میں askimam.org پر منتقل کیا؛ فقہ کے سوالوں کے جواب دیوبندی روایت میں حنفی مذہب پر دیتی ہے؛ محقق گیری بنٹ نے اسے الازہر کے آن لائن وسائل سے مجموعی طور پر زیادہ جامع اور مؤثر کہا۔"
+wings: [words, today]
+url: "https://askimam.org"
+launched:
+  edtf: "2000"
+  hijri: "1420~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "ask-imam.com started in 2000; askimam.org was launched in 2004 (Šisler 2009, as the English article cites it). The Hijri year (1420 to 1421) is converter-derived."
+  sources: [source/wikipedia-askimam-en]
+languages: [en]
+content_type: fatwa
+orientation: { value: "Hanafi fiqh in the Deobandi tradition; refers followers of other Sunni schools to their own scholars", basis: documented }
+footprint:
+  wikipedia: { languages: [bn, en, hi, ur, yo], checked: "2026-11-06", sources: [source/wikidata-askimam] }
+  wikidata: "Q107550873"
+relations:
+  - { type: founded_by, target: person/ebrahim-desai, note: "founder and final authority; each fatwa closed 'checked and approved by Mufti Ebrahim Desai'; he died on 15 July 2021 in Durban", sources: [source/wikipedia-askimam-en] }
+external_ids:
+  wikidata: Q107550873
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-askimam-en] }
+sources: [source/wikipedia-askimam-en, source/wikidata-askimam]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Askimam' (revision 1376121591, 22 September 2026) and Wikidata Q107550873, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

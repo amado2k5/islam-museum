@@ -2,29 +2,46 @@ id: listing/muzz
 class: listing
 kind: app
 label:
-  ar: مز
-  en: Muzz
+  ar: "موز ⁦(موزماتش سابقًا)⁩"
+  en: "Muzz (formerly Muzmatch)"
+  ur: "موز ⁦(سابقہ مزمیچ)⁩"
 summary:
-  ar: تطبيق زواج مسلم بريطاني ⁦(مسماتش سابقًا)⁩ أسسه شاهزاد يونس 2015؛ من أكبر تطبيقات الزواج الإسلامية.
-  en: Muzz.
-wings: [made]
-categories:
-- technology
-regions:
-- andalus-europe
+  ar: "تطبيق تعارف وزواج موجّه إلى المسلمين أسسه شهزاد يونس في لندن سنة 2015 باسم «موزماتش»، ودخل برنامج واي كومبينيتر سنة 2017، وغيّر اسمه إلى «موز» في مايو 2022 بعد أن كسبت مجموعة ماتش دعوى العلامة التجارية ضده أمام محكمة بريطانية؛ أعلن عشرة ملايين عضو سنة 2024."
+  en: "A matchmaking and marriage app for Muslims founded by Shahzad Younas in London in 2015 as Muzmatch; it joined Y Combinator in 2017 and renamed itself Muzz in May 2022 after Match Group won a trademark case against it in a British court; it announced ten million members in 2024."
+  ur: "مسلمانوں کے لیے رشتے اور شادی کی ایپ جسے شہزاد یونس نے 2015 میں لندن میں «مزمیچ» کے نام سے قائم کیا؛ 2017 میں وائی کومبی نیٹر میں شامل ہوئی، اور مئی 2022 میں برطانوی عدالت میں میچ گروپ کے ٹریڈ مارک مقدمہ جیتنے کے بعد نام «موز» رکھا؛ 2024 میں ایک کروڑ اراکین کا اعلان کیا۔"
+wings: [made, today]
+categories: [technology]
+regions: [andalus-europe]
 founded:
-  edtf: '2015'
+  edtf: "2015"
+  hijri: "1436~"
   calendar: gregorian
   precision: year
-made:
-  by_muslims: true
-  basis: documented
-  sources: &id001
-  - source/official-website
+  status: historical
+  derived: true
+  note: "Founded in 2015 by Shahzad Younas (Wamda, 30 March 2023, as the English article cites it); a Manchester Evening News item of 31 July 2011 cited by the article already speaks of a 'muzmatch matrimonial website'. The Hijri year is converter-derived."
+  sources: [source/wikipedia-muzz-en]
+made: { by_muslims: false, basis: unverified }
+status_business: active
+location: { online_only: true, serves: [global] }
+links:
+  official: "https://muzz.com"
+  play_store: "https://play.google.com/store/apps/details?id=com.muzmatch.muzmatchapp"
+reach:
+  - { platform: play-store, metric: installs, value: 10000000, date: "2026-11-06", note: "10M+ band on the Google Play page, Android only; rated 4.2 from about 356,000 reviews that day", sources: [source/google-play-muzz] }
+footprint:
+  wikipedia: { languages: [ar, en], checked: "2026-11-06", sources: [source/wikidata-muzz] }
+  wikidata: "Q106610741"
+relations:
+  - { type: owned_by, target: person/shahzad-younas, note: "founder and chief executive; he built the first version of the app himself", sources: [source/wikipedia-muzz-en] }
 external_ids:
+  wikidata: Q106610741
   official: https://muzz.com
-sources: *id001
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
+sources: [source/wikipedia-muzz-en, source/wikidata-muzz, source/google-play-muzz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Muzz (dating app)' (revision 1375667698, 19 September 2026), the Arabic article «موز ⁦(تطبيق زواج)⁩» (revision 76797026, a translation of the English), Wikidata Q106610741 and the Google Play page, read in Chrome on the founder's Mac on 6 November 2026; enriches the draft of 16 October 2026 (Devin, listings lane) on the same id"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
