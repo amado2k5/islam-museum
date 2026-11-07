@@ -30,6 +30,7 @@ open a new block on top with the new version and today's date.
 - **Companions as one set: the draft records begin to join.** Draft batch D01 added `member_of` edges for the first 25 draft companion records (Abbad ibn Qays through Abu Basir), each citing its own record's sources, so the drafts carry the same membership as the published set ahead of any future publication. 243 draft companion records remain in this move.
 - **Companions as one set: 25 more draft companions linked.** Draft batch D02 added `member_of` edges for the next 25 draft companion records (Abu Basra al-Ghifari through al-Fadl ibn al-Abbas, including Abu Hurayra and Abu Ubayda ibn al-Jarrah), each citing its own record's sources. 218 draft companion records remain in this move.
 - **Companions as one set: 25 more draft companions linked.** Draft batch D03 added `member_of` edges for the next 25 draft companion records (al-Hakam ibn Hazn al-Kulafi through Amr ibn al-Ahwas al-Bariqi, including al-Miqdad ibn Amr and al-Mughira ibn Shu'ba), each citing its own record's sources. 193 draft companion records remain in this move.
+- **Companions as one set: 25 more draft companions linked.** Draft batch D04 added `member_of` edges for the next 25 draft companion records (Amr ibn Suraqa through Fatima bint al-Khattab, including Bilal ibn Rabah, Asma bint Abi Bakr and Asad ibn Zurara), each citing its own record's sources. 168 draft companion records remain in this move.
 
 ---
 
