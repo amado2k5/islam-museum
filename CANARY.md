@@ -18,6 +18,9 @@ open a new block on top with the new version and today's date.
 ### Fixed
 - **3D tour: al-Khwarizmi's sources stay in step with his record.** The People hall stop now includes the record's MacTutor source, restoring complete source parity and allowing the tour's provenance check to pass. Tour navigation and the Arabic, English and Urdu descriptions are unchanged.
 
+### Data
+- **Companions as one set: 25 more companions linked to the Sahaba group.** The coverage-expansion programme's Phase 1 added `member_of` edges for the next 25 published companion records (Abu Layla Abd al-Rahman ibn Ka'b through al-Irbad ibn Sariya), each edge citing the source its own record rests on, so the companions can be queried as a single set. 157 published companion records remain in this move.
+
 ---
 
 ## v1.3.0 — 2026-11-06
