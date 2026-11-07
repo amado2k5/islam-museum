@@ -112,6 +112,16 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses (Urdu, batch 152): brackets are isolated only inside Urdu values in 28 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 151): brackets are isolated only inside Urdu values in 26 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 150): brackets are isolated only inside Urdu values in 49 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 149): brackets are isolated only inside Urdu values in 43 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 148): brackets are isolated only inside Urdu values in 46 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 147): brackets are isolated only inside Urdu values in 50 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 146): brackets are isolated only inside Urdu values in 23 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 145): brackets are isolated only inside Urdu values in 36 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 144): brackets are isolated only inside Urdu values in 39 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 143): brackets are isolated only inside Urdu values in 28 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 142): brackets are isolated only inside Urdu values in 9 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 141): brackets are isolated only inside Urdu values in 7 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 139): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
