@@ -1,17 +1,63 @@
 id: work/message-of-the-quran-asad
 class: work
 kind: book
-label: { ar: "رسالة القرآن", en: "The Message of the Qur'an" }
+label: { ar: "رسالة القرآن", en: "The Message of the Qur'an", ur: "دی میسج آف دی قرآن" }
 summary:
-  ar: "بطاقة أولية لرسالة القرآن، ترجمة محمد أسد الإنجليزية للقرآن وتفسيره الموجز؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for The Message of the Qur'an, Muhammad Asad's English translation with commentary; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "ترجمة محمد أسد الإنجليزية لمعاني القرآن مع شرحه في الحواشي، صدرت كاملة في جبل طارق سنة 1980 عن دار الأندلس بعد طبعة جزئية للسور التسع الأولى في جنيف سنة 1964؛ صرّح فيها بأنه مدين لمحمد عبده، واعتمد على التفاسير القديمة في حواشيه، وعدّها كثيرون ذات منحى عقلاني، وانتقدتها اللجنة الدائمة للإفتاء في السعودية، ولم تُطبع في السعودية قط، وتُرجمت إلى لغات منها الألمانية والإسبانية والبوسنية والتركية والسويدية."
+  en: "Muhammad Asad's English rendering of the meanings of the Qur'an with his commentary in the notes, published complete in Gibraltar in 1980 by Dar al-Andalus after a partial edition of the first nine suras in Geneva in 1964; he declared his debt to Muhammad Abduh and drew on classical tafsir in the notes, many read it as rationalist, the Saudi Permanent Committee for Ifta criticised it, it has never been printed in Saudi Arabia, and it has been translated into German, Spanish, Bosnian, Turkish and Swedish, among others."
+  ur: "محمد اسد کا قرآن کے معانی کا انگریزی ترجمہ مع حواشی میں تشریح، جو 1964 میں جنیوا میں پہلی نو سورتوں کی جزوی اشاعت کے بعد 1980 میں جبل الطارق سے دار الاندلس نے مکمل شائع کیا؛ اس میں انھوں نے محمد عبدہ کا اعتراف کیا اور حواشی میں قدیم تفاسیر سے کام لیا؛ بہت سوں نے اسے عقلی رجحان کا ترجمہ سمجھا، سعودی دائمی کمیٹی برائے افتا نے اس پر تنقید کی، یہ سعودی عرب میں کبھی نہیں چھپا، اور جرمن، ہسپانوی، بوسنیائی، ترکی اور سویڈش سمیت کئی زبانوں میں ترجمہ ہوا۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission, renewal-and-reform]
+regions: [andalus-europe]
+genre: [quran-translation, tafsir]
+authors: [person/muhammad-asad]
+language: language/english
+made: { by_muslims: true, basis: documented, sources: [source/gloqur-asad-message-2020] }
+composed: { edtf: "1980", hijri: "1400", calendar: gregorian, precision: year, status: historical, derived: true, note: "First complete edition, Gibraltar, 1980. The Gregorian year 1980 runs from Safar 1400 to Safar 1401 AH; the Hijri year is converter-derived. A partial first edition of the first nine suras appeared in Geneva in 1964.", sources: [source/gloqur-asad-message-2020, source/gloqur-asad-message-1964-edition, source/wikipedia-message-of-the-quran-en] }
+editions:
+  - "The Message of the Qur'an. Translated and Explained by Muhammad Asad. Vol. 1 (suras 1–9). Geneva: Islamic Center of Geneva, under the Muslim World League, printed by Mouton and Co., The Hague, 1964"
+  - "The Message of the Qur'an. Gibraltar: Dar al-Andalus Limited, 1980 (first complete edition), about 1,200 pages, ISBN 1904510000"
+translations:
+  - "Translated from Asad's English into German, Spanish, Bosnian, Turkish and Swedish, among other languages"
+relations:
+  - { type: translation_of, target: work/quran, sources: [source/gloqur-asad-message-2020] }
+issue:
+  ar: "هل في ترجمة محمد أسد وشروحه ما يخالف العقيدة، وما قيمتها لقارئ القرآن بالإنجليزية؟"
+  en: "Do Muhammad Asad's translation and notes depart from sound creed, and what is their value for the English reader of the Qur'an?"
+  ur: "کیا محمد اسد کے ترجمے اور حواشی میں عقیدے سے انحراف ہے، اور انگریزی قاری کے لیے ان کی کیا قدر ہے؟"
+perspectives:
+  - tradition: sunni
+    standing: main
+    stance:
+      ar: "أهل السنة ⁦(اللجنة الدائمة للبحوث العلمية والإفتاء في السعودية)⁩: نقد الترجمة والمنع من طبعها"
+      en: "Sunni (the Saudi Permanent Committee for Scholarly Research and Ifta): criticism and a bar on printing"
+      ur: "سني (اہلِ سنت) — سعودی دائمی کمیٹی برائے علمی تحقیق و افتا: ترجمے پر تنقید اور اشاعت کی ممانعت"
+    summary:
+      ar: "في فتاوى صدرت سنة 1979 وأُكّدت في الثمانينيات، جوابًا عن خطة لطبع الكتاب في دبلن، رأت اللجنة الدائمة في الترجمة أخطاء جسيمة في العقيدة، ومنها قوله في رفع عيسى، وذكرت أن الهيئة الاستشارية لرابطة العالم الإسلامي في مكة منعت طبعها وتوزيعها؛ ولم تُطبع الترجمة في السعودية قط."
+      en: "In fatwas issued in 1979 and confirmed in the 1980s, in answer to a plan to print the book in Dublin, the Permanent Committee found grave errors of creed in the translation, among them its reading of the raising of Jesus, and stated that the Consulting Board of the Muslim World League in Mecca had prohibited its printing and distribution; the translation has never been printed in Saudi Arabia."
+      ur: "1979 میں جاری اور 1980 کی دہائی میں مؤکد فتاویٰ میں، کتاب کو ڈبلن میں چھاپنے کے منصوبے کے جواب میں، دائمی کمیٹی نے ترجمے میں عقیدے کی سنگین غلطیاں بتائیں، جن میں رفعِ عیسیٰ کی تعبیر بھی ہے، اور کہا کہ مکہ میں رابطہ عالم اسلامی کی مجلسِ مشاورت نے اس کی طباعت و تقسیم روک دی ہے؛ یہ ترجمہ سعودی عرب میں کبھی نہیں چھپا۔"
+    sources: [source/gloqur-asad-message-1964-edition]
+  - tradition: academic
+    standing: secondary
+    stance:
+      ar: "قراءة أكاديمية: ترجمة وشرح لا غنى عنهما لدارسي القرآن"
+      en: "Academic reading: an indispensable translation and commentary for students of the Qur'an"
+      ur: "علمی مطالعہ: قرآن کے طلبہ کے لیے ناگزیر ترجمہ و شرح"
+    summary:
+      ar: "رأى صهيب سعيد أن حواشي أسد التي تشرح اختياراته نموذج في الشفافية قلّ من اتبعه، وأن فصلها عن النص في الصيغ الرقمية يُفقد العمل كثيرًا من قيمته، مع إقراره بأن كثيرًا من المسلمين يرونه ذا منحى عقلاني حداثي؛ ورأى ميخايلو ياكوبوفيتش أنه ما يزال من أكثر ترجمات القرآن تأثيرًا في العالم ويُقرأ عند كثيرين كأنه تفسير."
+      en: "Sohaib Saeed judged Asad's notes, which explain his choices, a model of transparency few have followed, and said that separating them from the text in digital formats takes much of the work's value away, while noting that many Muslims see it as rationalist and modernist; Mykhaylo Yakubovych wrote that it remains one of the most influential Qur'an translations worldwide and is viewed by many as a kind of tafsir."
+      ur: "صہیب سعید کے نزدیک اسد کے حواشی، جو ان کے انتخاب کی وضاحت کرتے ہیں، شفافیت کا ایسا نمونہ ہیں جس کی پیروی کم ہوئی، اور ڈیجیٹل صورتوں میں انھیں متن سے الگ کرنا کام کی قدر گھٹا دیتا ہے، اگرچہ بہت سے مسلمان اسے عقلی و جدید رجحان کا سمجھتے ہیں؛ میخائیلو یاکوبووچ کے مطابق یہ آج بھی دنیا کے مؤثر ترین تراجمِ قرآن میں ہے اور بہت سے لوگ اسے ایک طرح کی تفسیر سمجھتے ہیں۔"
+    sources: [source/gloqur-asad-message-2020, source/gloqur-asad-message-1964-edition]
+footprint:
+  wikipedia: { languages: [ar, en, hi, tr], checked: "2026-11-06", sources: [source/wikipedia-message-of-the-quran-en] }
+  wikidata: "Q7751139"
+  catalogues: { isbn: ["1904510000"] }
 external_ids: { wikidata: "Q7751139" }
+sources: [source/gloqur-asad-message-2020, source/gloqur-asad-message-1964-edition, source/wikipedia-message-of-the-quran-en, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "GloQur posts #06 (Sohaib Saeed, 26 June 2020) and #178 (Mykhaylo Yakubovych, 3 November 2023) of the University of Münster's Global Qur'an project for the content, editions and reception; English Wikipedia 'The Message of The Qur'an' (revision 1343155878) and Wikidata Q7751139 (revision 2529488603) for publisher, ISBN and sitelinks only; all read in Chrome on the founder's Mac on 6 November 2026. Enriches the wikidata-import-wave2 draft card in place."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
