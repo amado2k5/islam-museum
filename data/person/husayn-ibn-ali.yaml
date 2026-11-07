@@ -41,6 +41,7 @@ relations:
   - { type: member_of, target: group/ahl-al-bayt }
   - { type: member_of, target: group/banu-hashim }
   - { type: participated_in, target: event/karbala, role: killed, sources: [source/madelung-1997] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-sad-tabaqat-bewley]}
 issue: { ar: "كيف يُفهم خروج الحسين بن علي ومقتله بكربلاء؟", en: "How is Husayn ibn Ali's rising and his killing at Karbala understood?" }
 perspectives:
   - tradition: sunni
