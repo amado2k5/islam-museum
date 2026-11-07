@@ -778,6 +778,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 86: pp. 477-483 filed in ar, en and ur (reports 13461-13464): 6:75 end and 6:76 begun (Abraham and the star)
 - Batch 67: printed pp. 424-430 (markers 428-434) filed in ar, en and ur (reports 14615-14634): 7:40 filed to the foot of p. 430 after report 14634. Offset still marker - 4. Stop sentence at the foot. Next is marker 435 (printed 431), the rest of the disagreement over 'al-jummal'.
 - Batch 68: printed pp. 431-437 (markers 435-441) filed in ar, en and ur (reports 14635-14657): 7:40 completed (the reading al-jummal and al-Tabari's choice of al-jamal), 7:41 and 7:42 filed. Offset still marker - 4. Stop sentence at the foot of 7:42; 7:43 begins next.
+- Batch 69: printed pp. 437-443 (markers 441-447) filed in ar, en and ur (reports 14658-14669): 7:43 to the foot of p. 443. Scope change (coordinator): this agent files volume 12 only through the end of 7:69 (about printed p. 519/520), with no stop sentence at its end; a second agent files 7:70 to 7:100.
 - Batch 87: pp. 484-490 filed in ar, en and ur (reports 13465-13467): 6:76 end, 6:77, 6:78, 6:79, 6:80 and the start of 6:81
 - Batch 88: pp. 491-497 filed in ar, en and ur (reports 13467-13486): 6:81 end and 6:82 (belief mixed with wrong, up to report 13486)
 - Batch 89: pp. 498-504 filed in ar, en and ur (reports 13487-13512): 6:82 end and 6:83 begun
