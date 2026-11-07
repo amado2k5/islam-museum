@@ -237,3 +237,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 33: pp. 493-499 filed in ar, en and ur (reports 11002-11019): verse 3 is filed to the foot of p. 499.
 - Batch 34: pp. 500-506 filed in ar, en and ur (reports 11021-11046): verse 3 is filed to the foot of p. 506.
 - Progress: current report 11046, printed p. 505. Next is the rest of verse 3 from printed p. 506 on (the rest of the exception and the verses that follow).
+
+## Volume 13 progress
+- Volume 13 (`waqtaftab-taftab13`, 639 markers): the title page (marker 4) names 7:101 to 7:206 and 8:1 to 8:47 and reports 14901 to 16182; markers 1-3 are cover and blank, markers 5-6 are a printed invocation, and the commentary starts on marker 7 (7:101). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v13 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v13`.
+- Batch 1: pp. 7-13 filed in ar, en and ur (reports 14901-14908): verses 101 to 104 are filed in full and verse 105 is begun (the readings of the word translated 'worthy'). Next is the rest of 7:105 from the foot of p. 13 (printed p. 14).
