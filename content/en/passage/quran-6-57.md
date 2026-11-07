@@ -18,6 +18,12 @@ The editor refers for "proof" to the language indexes, says he did not know the 
 
 It has been reported to us in Abdullah's reading, "he is the swiftest of those who decide". Report 13302, from Sa'id ibn Jubayr: he said of Abdullah's reading... {cite:tafsir-tabari-shakir-v11 p. 398}
 
-We stop here at the foot of p. 398, at the start of report 13302 from Sa'id ibn Jubayr on Abdullah's reading "he is the swiftest of those who decide", which continues on p. 399.
+The rest of 13302: in Abdullah's reading, "he decrees the truth, and he is the swiftest of those who decide". The readers differed in "yaqussu al-haqq". Most readers of the Hijaz and Medina and some readers of Kufa and Basra read "inni al-hukm illa lillah yaqussu al-haqq" with sad, from "qasas", narrating, and took in that God's words, [[passage/quran-12-3|12:3]], "we narrate to you the best of narratives", and this is reported from Ibn Abbas; report 13303, from Ibn Abbas: "he narrates the truth", and he said "we narrate to you the best of narratives". A group of readers of Kufa and Basra read "yaqdi al-haqq" with dad, from "qada'", judgement and decision by decree, and took the soundness of that from "and he is the best of deciders", since deciding between those who differ is by decree and not by narrating. {cite:tafsir-tabari-shakir-v11 p. 399}
+
+The editor says the printed text and manuscript have "yaqdi al-haqq" in giving the Hijazis' reading, which is a slip, "yaqussu" being right, and refers for "qada'" to volume 2.
+
+Al-Tabari holds the dad reading the better of the two for the reason he gave for those who read it so; the sense is: judgement in what you hasten, polytheists, of God's punishment and in what is between me and you, is God's alone, who is not unjust in his judgement, in whose hand are creation and command; he decrees the truth between me and you, and is the best of those who decide between us by his decree and judgement. {cite:tafsir-tabari-shakir-v11 p. 399}
+
+Verse 57 closes here at p. 399, and al-Tabari goes on to [[passage/quran-6-58|6:58]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
