@@ -10,7 +10,7 @@ Verse 40 of [[passage/quran-11|Surat Hud]], a Meccan surah. {cite:tanzil-quran}
 ## Place in the museum
 Its place: verse 40 of 123 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 40 (pp. 317-326)**
+**Commentary on verse 40 (pp. 317-327)**
 
 On [[passage/quran-11-40|11:40]] al-Tabari says: 'until, when Our command came' means Noah makes the ark until Our command came, which We promised would come to his people, the flood that drowns them. The interpreters differed on 'and the oven boiled over'. Some said the water burst from the face of the earth, the 'oven' being the face of the earth. Reports 18143 and 18144, from Ibn Abbas and al-Dahhak, and 18145 and 18146, from Ikrima: the oven is the face of the earth; he was told, when you see the water on the face of the earth, ride, you and those with you; the Arabs call the face of the earth the oven of the earth. {cite:tafsir-tabari-shakir-v15 p. 318}
 
@@ -28,6 +28,6 @@ Others said it is his son who drowned, report 18173, from al-Dahhak. His words '
 
 Others said they were seven: report 18177, from al-A'mash: Noah, three daughters-in-law and three sons. Others said ten besides their women: report 18178, from Ibn Ishaq: when the oven boiled over Noah carried in the ark whom God ordered, few as God said, his three sons Shem, Ham and Japheth and their wives and six people who had believed, ten with Noah and his sons and their wives. Others said they were eighty souls: report 18179, from Ibn Abbas: Noah carried eighty people with him in the ship; report 18180, from Sufyan: some said they were eighty, meaning the 'few'. Report 18181, from Abu Nuhayk, begins at the foot of the page. {cite:tafsir-tabari-shakir-v15 p. 326}
 
-We stop here at the foot of p. 326, in the middle of the commentary on verse 40; the next batch begins at p. 327. {cite:tafsir-tabari-shakir-v15 p. 326}
+Report 18181, from Abu Nuhayk: I heard Ibn Abbas say there were eighty men in Noah's ship, one of them Jurhum. Al-Tabari says the right view is to say as God said, 'and none believed with him except a few', describing them as few without fixing their number by any measure, there being no sound report from the Messenger of God; so God's limit should not be exceeded, since the number has no limit in God's Book or in a report from the Messenger of God. {cite:tafsir-tabari-shakir-v15 p. 327}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
