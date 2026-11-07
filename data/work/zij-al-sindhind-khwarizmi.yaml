@@ -12,11 +12,17 @@ wings: [ideas]
 themes: [astronomy-and-timekeeping]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
-sources: [source/khwarizmi-jabr-cairo-1939]
+inventions:
+  - invention: invention/khwarizmi-sindhind-tables
+    relation: describes
+    sources: [source/tdv-harizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-mactutor]
+sources: [source/khwarizmi-jabr-cairo-1939, source/tdv-harizmi, source/khwarizmi-mactutor]
 provenance:
   layer: own-research
   source: "source/khwarizmi-jabr-cairo-1939 scan pp. 22-26"
   generated_by: "Claude Code (OCR-harvest worker J)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
+  extensions:
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b100, source: "D-143; appended the invention's describes tie and three-language evidence/limits prose. Prior work data and article bytes retained." }
 status: { review: published, completeness: 3 }
