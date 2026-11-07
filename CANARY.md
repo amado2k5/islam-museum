@@ -58,6 +58,10 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser (volume 13, batch 4): al-Tabari's commentary on 7:128 to 7:133 (the Israelites' complaint, the years of dearth, the omen, the signs of flood, locusts and lice with the interpreters' disagreement over what the flood and the lice were) filed in Arabic, English and Urdu from printed pp. 43-57 (reports 14973-15014), each paragraph cited to the page of the Shakir edition.
+- Al-Tabari's commentary on 6:108 closes at printed p. 37 and 6:109 is begun, from volume 12 pp. 35-41 (reports 13740 to 13750), in Arabic, English and Urdu.
+- Al-Tabari's commentary on 6:105 closes at printed p. 31, and 6:106 and 6:107 are filed in full with 6:108 begun, from volume 12 pp. 28-34 (reports 13712 to 13740), in Arabic, English and Urdu.
+
+
 - Tafsir Browser (volume 13, batch 3): al-Tabari's commentary on 7:124 to 7:128 (the sorcerers' answer and martyrdom, the readings of 'your gods', Pharaoh's threat against the Israelites, Moses's counsel of patience) filed in Arabic, English and Urdu from printed pp. 34-42 (reports 14957-14972), each paragraph cited to the page of the Shakir edition.
 - The features API test now expects the tafsir export (`tafsir.json`) that the tafsir browser added, so `main` passes the full suite again.
 - Tafsir Browser (volume 13, batch 2): al-Tabari's commentary on 7:105 to 7:124 (the staff and the white hand, the summoning of the sorcerers, the contest, their prostration, Pharaoh's threat) filed in Arabic, English and Urdu from printed pp. 13-34 (reports 14909-14956), each paragraph cited to the page of the Shakir edition.
@@ -139,6 +143,7 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Fixed three journey files whose Arabic flow-map values had been broken by an earlier isolation pass (YAML would not parse); their parentheses are now isolated and the files parse again.
 - Arabic and Urdu parentheses (remaining unquoted and summary values, batch 1): brackets now stay in place in right-to-left text in 38 files.
 - Arabic and Urdu parentheses (remaining unquoted and summary values, batch 2): brackets now stay in place in right-to-left text in 7 files.
 - Arabic and Urdu parentheses (remaining unquoted and summary values, batch 1): brackets now stay in place in right-to-left text in 66 files.
