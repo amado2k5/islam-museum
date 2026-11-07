@@ -1,0 +1,31 @@
+id: work/al-muallim-sami-yusuf
+class: work
+kind: album
+label: { ar: "المعلم ⁦(ألبوم سامي يوسف، 2003)⁩", en: "Al-Mu'allim", ur: "المعلم ⁦(سامی یوسف کا البم، 2003)⁩" }
+summary:
+  ar: "الألبوم الأول لسامي يوسف، صدر عن أوايكننغ سنة 2003 بعد أن وقّعت معه الشركة أول فنانيها، وعنوانه «المعلم» إشارة إلى النبي؛ تقول الغارديان سنة 2012 إنه باع ثلاثة ملايين نسخة، وإنه مع «أمتي» دفع مجلة تايم إلى وصف سامي يوسف بأنه «أكبر نجم روك في الإسلام»، ووضع معيارا لصناعة النشيد الناشئة."
+  en: "Sami Yusuf's debut album, released by Awakening in 2003 after the label signed him as its first artist; its title, 'The Teacher', refers to the Prophet. The Guardian reported in 2012 that it sold 3 million copies and that, with My Ummah, it led Time magazine to call Sami Yusuf 'Islam's biggest rock star' and set the bar for the young nasheed industry."
+  ur: "سامی یوسف کا پہلا البم، جو 2003 میں اویکننگ سے جاری ہوا جب کمپنی نے انہیں اپنے پہلے فنکار کے طور پر سائن کیا؛ عنوان «المعلم» نبی کی طرف اشارہ ہے۔ گارڈین نے 2012 میں اس کی فروخت تین ملین نسخے بتائی۔"
+wings: [today, words]
+themes: [music]
+regions: [andalus-europe]
+genre: [nasheed]
+composed: { edtf: "2003", hijri: "1424~", calendar: gregorian, precision: year, derived: true, note: "2003 on Wikidata, in the Awakening discography and in The Guardian; the Arabic article's July 2003 is uncited and is not used. The Hijri year is converter-derived and approximate.", sources: [source/wikidata-al-muallim, source/wikipedia-awakening-music-en, source/guardian-awakening-islamic-singers-2012] }
+languages: [en, ar]
+publisher: listing/awakening-records
+footprint:
+  wikipedia: { languages: [ar, az, bs, en, fa, fr, id, ko, ms, uz], checked: "2026-11-07", sources: [source/wikidata-al-muallim] }
+  wikidata: "Q2829248"
+relations:
+  - { type: performed_by, target: person/sami-yusuf, sources: [source/wikidata-al-muallim, source/guardian-awakening-islamic-singers-2012] }
+  - { type: published_by, target: listing/awakening-records, sources: [source/wikidata-al-muallim, source/wikipedia-awakening-music-en] }
+  - { type: about, target: person/muhammad, note: "the title 'The Teacher' refers to the Prophet, by The Guardian", sources: [source/guardian-awakening-islamic-singers-2012] }
+external_ids: { wikidata: "Q2829248" }
+sources: [source/wikidata-al-muallim, source/guardian-awakening-islamic-singers-2012, source/wikipedia-awakening-music-en]
+provenance:
+  layer: own-research
+  source: "Written in batch 06 from the lead held for the founder in batch 01 (all Wikipedia articles on the album are stubs without citations): Wikidata Q2829248 (revision 2275022765), Omar Shahid in The Guardian of 13 April 2012 (read in full) and the English Wikipedia article on Awakening Music (revision 1381779306), read in Chrome on the founder's Mac on 7 November 2026. No track list: none of the sources read gives one with a citation"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b06
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5)" }
