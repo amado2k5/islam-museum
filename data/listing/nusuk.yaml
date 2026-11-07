@@ -1,0 +1,51 @@
+id: listing/nusuk
+class: listing
+kind: app
+label:
+  ar: "نسك"
+  en: "Nusuk"
+  ur: "نسک"
+summary:
+  ar: "منصة رقمية وتطبيق جوال سعودي أطلقته وزارة الحج والعمرة في 26 سبتمبر 2022 خلفًا لتطبيق «اعتمرنا»، لتصاريح العمرة وحجز زيارة الروضة الشريفة وتسجيل الحج وتأشيرات العمرة والسكن والنقل، بخمس وعشرين لغة؛ أعلنت الوزارة 30 مليون تنزيل في سبتمبر 2025، وقال الوزير في مارس 2026 إن مستخدميه تجاوزوا 51 مليونًا."
+  en: "A Saudi digital platform and mobile app launched by the Ministry of Hajj and Umrah on 26 September 2022 as the successor of the Eatmarna app, for Umrah permits, bookings to visit al-Rawda al-Sharifa, Hajj registration, Umrah visas, lodging and transport, in twenty-five languages; the ministry announced 30 million downloads in September 2025, and the minister said in March 2026 that it had passed 51 million users."
+  ur: "سعودی ڈیجیٹل پلیٹ فارم اور موبائل ایپ جسے وزارتِ حج و عمرہ نے 26 ستمبر 2022 کو «اعتمرنا» ایپ کی جگہ جاری کیا؛ عمرہ پرمٹ، روضۂ شریفہ کی زیارت کی بکنگ، حج رجسٹریشن، عمرہ ویزا، رہائش اور سفر کے لیے، پچیس زبانوں میں۔ وزارت نے ستمبر 2025 میں 3 کروڑ ڈاؤن لوڈ کا اعلان کیا، اور وزیر نے مارچ 2026 میں کہا کہ صارفین 5 کروڑ 10 لاکھ سے بڑھ گئے۔"
+wings: [made, today]
+categories: [technology, travel]
+regions: [arabia]
+founded:
+  edtf: "2022-09-26"
+  hijri: "1444-02-30"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Launched by the Ministry of Hajj and Umrah on 26 September 2022 (Saudi Press Agency, as both articles cite it); the Hijri date is converter-derived (Umm al-Qura)."
+  sources: [source/wikipedia-nusuk-en, source/wikipedia-nusuk-platform-ar]
+made: { by_muslims: false, basis: unverified }
+status_business: active
+location: { online_only: true, serves: [global] }
+links:
+  official: "https://www.nusuk.sa"
+  play_store: "https://play.google.com/store/apps/details?id=com.moh.nusukapp"
+reach:
+  - { platform: play-store, metric: installs, value: 10000000, date: "2026-11-06", note: "10M+ band on the Google Play page, Android only; rated 4.1 from about 261,000 reviews that day", sources: [source/google-play-nusuk] }
+footprint:
+  wikipedia: { languages: [ar, en, ur, id], checked: "2026-11-06", sources: [source/wikidata-nusuk] }
+  wikidata: "Q139822647"
+relations:
+  - { type: owned_by, target: group/ministry-of-hajj-and-umrah, note: "developer and operator; listed as the developer on the store page", sources: [source/wikipedia-nusuk-en, source/wikipedia-nusuk-platform-ar, source/google-play-nusuk] }
+  - { type: related_to, target: practice/umrah, note: "Umrah permits and, since August 2025, Umrah visas for pilgrims abroad (Nusuk Umrah)", sources: [source/wikipedia-nusuk-en] }
+  - { type: related_to, target: practice/hajj, note: "Hajj registration and packages (Nusuk Hajj) and the Nusuk Card, launched in 2024", sources: [source/wikipedia-nusuk-en] }
+  - { type: related_to, target: building/prophets-mosque, note: "bookings to visit al-Rawda al-Sharifa", sources: [source/wikipedia-nusuk-en] }
+  - { type: related_to, target: place/mecca, sources: [source/wikipedia-nusuk-en] }
+  - { type: related_to, target: place/medina, sources: [source/wikipedia-nusuk-en] }
+external_ids:
+  wikidata: Q139822647
+sources: [source/wikipedia-nusuk-en, source/wikipedia-nusuk-platform-ar, source/wikidata-nusuk, source/google-play-nusuk]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nusuk' (revision 1379052266, 7 October 2026), Arabic Wikipedia «منصة نسك» (revision 74490193, 3 May 2026), Wikidata Q139822647 and Q114516279, and the Google Play page, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

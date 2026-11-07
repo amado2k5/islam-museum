@@ -1,0 +1,43 @@
+id: work/without-you-sami-yusuf
+class: work
+kind: album
+label: { ar: "بدونك", en: "Without You (Sami Yusuf album)", ur: "وِدآؤٹ یو ⁦(سامی یوسف)⁩" }
+summary:
+  ar: "ألبوم نسبته تسجيلات أوايكننغ إلى سامي يوسف بوصفه ألبومه الثالث وأصدرته في 17 يناير 2009 بإحدى عشرة أغنية؛ قال سامي يوسف إنه صدر دون علمه وموافقته، وإنه تجميع لتسجيلات تجريبية، ودعا إلى مقاطعته، وقالت الشركة إنه ألبوم كامل وإن عقده معها لخمسة ألبومات؛ انتهى النزاع بفسخ العقد."
+  en: "An album that Awakening Records issued as Sami Yusuf's third on 17 January 2009, with eleven songs; Sami Yusuf said it came out without his knowledge or consent, called it a compilation of demos and urged fans to boycott it, while the label said it was a complete album and that he was signed to it for five albums; the dispute ended with the contract voided."
+  ur: "وہ البم جسے اویکننگ ریکارڈز نے 17 جنوری 2009 کو گیارہ گیتوں کے ساتھ سامی یوسف کا تیسرا البم کہہ کر جاری کیا؛ سامی یوسف نے کہا کہ یہ ان کی اجازت کے بغیر آیا اور ابتدائی ریکارڈنگز کا مجموعہ ہے، اور بائیکاٹ کی اپیل کی، جبکہ کمپنی نے اسے مکمل البم کہا؛ تنازع معاہدہ ختم ہونے پر منتج ہوا۔"
+wings: [today, words]
+themes: [music]
+regions: [andalus-europe]
+genre: [nasheed, religious-pop]
+composed: { edtf: "2009-01-17", hijri: "1430", calendar: gregorian, precision: day, derived: true, note: "Release date in both articles and on Wikidata; the material was recorded 2005–2008 by the English infobox. The Hijri year is converter-derived.", sources: [source/wikipedia-without-you-sami-yusuf-en, source/wikipedia-without-you-sami-yusuf-ar, source/wikidata-without-you-sami-yusuf] }
+languages: [en, ar]
+publisher: listing/awakening-records
+duration: 2264   # seconds; 37:44 in both infoboxes (the English track list adds up to 39:30)
+tracks:
+  - { n: 1, title: { en: "Asma Allah" }, duration_s: 297, performers: [person/sami-yusuf], sources: [source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 2, title: { en: "Without You", ar: "بدونك" }, duration_s: 207, performers: [person/sami-yusuf], note: "re-edited and re-released on Wherever You Are (ETM International)", sources: [source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 3, title: { en: "My Only Wish" }, duration_s: 59, performers: [person/sami-yusuf], note: "interlude", sources: [source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 4, title: { en: "Forever Palestine" }, duration_s: 223, performers: [person/sami-yusuf], note: "an edited version was offered as a free download on his website in 2009", sources: [source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 5, title: { en: "He Is There" }, duration_s: 244, performers: [person/sami-yusuf], note: "re-released as 'In Every Tear, He Is There' on Wherever You Are", sources: [source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 6, title: { en: "Sallou" }, duration_s: 245, performers: [person/sami-yusuf], note: "re-released as 'It's a Game' on Salaam", sources: [source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 7, title: { en: "A Thousand Times" }, duration_s: 212, performers: [person/sami-yusuf], sources: [source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 8, title: { en: "Never Never" }, duration_s: 231, performers: [person/sami-yusuf], note: "re-released as 'All I Need' on Salaam", sources: [source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 9, title: { en: "Anything For You" }, duration_s: 278, performers: [person/sami-yusuf], sources: [source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 10, title: { en: "Salutation" }, duration_s: 96, performers: [person/sami-yusuf], sources: [source/wikipedia-without-you-sami-yusuf-en] }
+  - { n: 11, title: { en: "Not In My Name" }, duration_s: 274, performers: [person/sami-yusuf], sources: [source/wikipedia-without-you-sami-yusuf-en] }
+footprint:
+  wikipedia: { languages: [ar, en, fr, id, ms, uz], checked: "2026-11-06", sources: [source/wikidata-without-you-sami-yusuf] }
+  wikidata: "Q3569505"
+relations:
+  - { type: performed_by, target: person/sami-yusuf, note: "his recordings, issued against his stated wishes", sources: [source/wikipedia-without-you-sami-yusuf-en, source/wikidata-without-you-sami-yusuf] }
+  - { type: published_by, target: listing/awakening-records, sources: [source/wikipedia-without-you-sami-yusuf-en, source/wikidata-without-you-sami-yusuf] }
+external_ids: { wikidata: "Q3569505" }
+sources: [source/wikipedia-without-you-sami-yusuf-en, source/wikipedia-without-you-sami-yusuf-ar, source/wikidata-without-you-sami-yusuf, source/guardian-awakening-islamic-singers-2012]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Without You (Sami Yusuf album)' (revision 1383623240 of 3 November 2026), Arabic Wikipedia «بدونك ⁦(ألبوم)⁩» (revision 67109654 of 11 June 2024) and Wikidata Q3569505 (revision 2538528406), read in Chrome on the founder's Mac on 6 November 2026, with The Guardian of 13 April 2012 for the label's side; both positions in the dispute are attributed, with no verdict"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b02
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

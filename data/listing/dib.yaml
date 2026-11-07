@@ -2,26 +2,115 @@ id: listing/dib
 class: listing
 kind: company
 label:
-  ar: "بنك دبي الإسلامي"
-  en: "Dubai Islamic Bank"
+  ar: بنك دبي الإسلامي
+  en: Dubai Islamic Bank
+  ur: دبئی اسلامک بینک
 summary:
-  ar: "أول بنك إسلامي متكامل في العالم تأسس في دبي سنة 1975؛ معلم في تاريخ الاقتصاد الإسلامي الحديث."
-  en: "The world's first full-fledged Islamic bank, founded in Dubai in 1975; a landmark of modern Islamic finance."
-wings: [made]
-categories: [finance]
-regions: [arabia]
+  ar: بنك إماراتي مقره دبي، أسسه سعيد بن أحمد لوتاه سنة 1975، يتبع أحكام الشريعة في كل أنشطته، وهو أكبر بنك إسلامي في الإمارات
+    بالأصول ومدرج في سوق دبي المالي؛ استحوذ على نور بنك سنة 2020، وله أذرع في البوسنة وباكستان وكينيا وإندونيسيا والسودان.
+  en: An Emirati bank based in Dubai, founded by Saeed bin Ahmed Lootah in 1975, which follows Sharia principles across all
+    its activities; it is the UAE's largest Islamic bank by assets and is listed on the Dubai Financial Market, acquired Noor
+    Bank in 2020, and has operations in Bosnia, Pakistan, Kenya, Indonesia and Sudan.
+  ur: دبئی میں قائم اماراتی بینک، جسے سعید بن احمد لوتاہ نے 1975 میں قائم کیا؛ اپنی تمام سرگرمیوں میں شریعت کے اصولوں پر چلتا
+    ہے، اثاثوں کے لحاظ سے امارات کا سب سے بڑا اسلامی بینک ہے اور دبئی فنانشل مارکیٹ میں درج ہے؛ 2020 میں نور بینک حاصل کیا،
+    اور بوسنیا، پاکستان، کینیا، انڈونیشیا اور سوڈان میں کام کرتا ہے۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- arabia
 founded:
   edtf: '1975'
+  hijri: '1395~'
   calendar: gregorian
   precision: year
+  status: historical
+  derived: true
+  note: Founded 1975 (The Economist, cited by the article); the infobox day, 15 September 1975 (9 Ramadan 1395 AH), is uncited.
+    The record enters the browser through its dated facts from 1976 on.
+  sources:
+  - source/wikipedia-dubai-islamic-bank-en
 made:
   by_muslims: true
   basis: documented
-  sources: [source/wikidata]
+  sources:
+  - source/wikipedia-dubai-islamic-bank-en
 external_ids:
   wikidata: Q5310570
-sources: [source/wikidata]
+sources:
+- source/wikipedia-dubai-islamic-bank-en
+- source/forbes-middle-east-lists-2025
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - ae
+  - pk
+  - ba
+  - ke
+  - id
+  - sd
+links:
+  official: https://www.dib.ae
+honours:
+- award: award/forbes-middle-east-lists
+  category: most-valuable-banks
+  result: ranked
+  position: 13
+  year: 2025
+  note: 13th on the 30 Most Valuable Banks 2025
+  sources:
+  - source/wikipedia-dubai-islamic-bank-en
+  - source/forbes-middle-east-lists-2025
+- award: award/forbes-middle-east-lists
+  category: top-100-listed-companies
+  result: ranked
+  position: 22
+  year: 2025
+  note: 22nd on the Top 100 Listed Companies 2025
+  sources:
+  - source/wikipedia-dubai-islamic-bank-en
+  - source/forbes-middle-east-lists-2025
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - bn
+    - de
+    - en
+    - fa
+    - id
+    - it
+    - ms
+    - mzn
+    - pnb
+    - ta
+    - ur
+    - wuu
+    - zh-yue
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-dubai-islamic-bank-en
+  wikidata: Q5310570
+  catalogues:
+    isin: AED000201015
+    ticker: 'DFM: DIB'
+provenance:
+  layer: own-research
+  source: English Wikipedia "Dubai Islamic Bank" (revision 1376650328, 25 September 2026), read in Chrome on the founder's
+    Mac on 6 November 2026; Wikidata sitelinks read the same day; the Ryan Cornelius case is told with the UN, European Parliament
+    and parliamentary positions and the bank's rejection, attributed, no verdict; the existing Wikidata-only draft (Devin,
+    listings lane, 16 October 2026) was enriched in place, its unsourced superlatives dropped (see the enterprise progress
+    file)
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b01

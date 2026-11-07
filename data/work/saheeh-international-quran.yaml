@@ -1,0 +1,33 @@
+id: work/saheeh-international-quran
+class: work
+kind: book
+label: { ar: "ترجمة صحيح إنترناشونال للقرآن", en: "The Qur'an: Saheeh International Translation", ur: "صحیح انٹرنیشنل ترجمۂ قرآن" }
+summary:
+  ar: "ترجمة إنجليزية لمعاني القرآن أعدّها في جدة فريق من ثلاث أمريكيات اعتنقن الإسلام: إميلي عسّامي ⁦(أم محمد)⁩ التي تولّت الترجمة، وماري كينيدي وأمة الله بانتلي اللتان حرّرتا النص؛ صدرت أول مرة سنة 1997 بعنوان «القرآن: النص العربي مع المعاني الإنجليزية المقابلة» عن دار أبي القاسم للنشر والمنتدى الإسلامي، ثم في طبعة ثانية مصحّحة سنة 2004، بإنجليزية معاصرة وأكثر من ألفي حاشية، وأعلنت مقدمتها أنها تعرض المعاني على عقيدة أهل السنة والجماعة."
+  en: "An English rendering of the meanings of the Qur'an made in Jeddah by a team of three American converts: Emily Assami (Umm Muhammad), who led the translation, and Mary Kennedy and Amatullah Bantley, who edited it; first published in 1997 as The Qur'an: Arabic Text with Corresponding English Meanings by the Abul-Qasim Publishing House and al-Muntada al-Islami, with a corrected second edition in 2004, it is written in contemporary English with more than two thousand footnotes, and its preface states that it presents the meanings according to the creed of Ahl al-Sunna wa-l-Jama'a."
+  ur: "قرآن کے معانی کا انگریزی ترجمہ جو جدہ میں تین امریکی نومسلم خواتین کی ٹیم نے تیار کیا: ایملی عسامی، جو ام محمد کہلاتی ہیں اور جنھوں نے ترجمہ کیا، اور ماری کینیڈی و امۃ اللہ بینٹلی جنھوں نے تدوین کی؛ 1997 میں دار ابو القاسم اور المنتدی الاسلامی سے «دی قرآن: عربی متن مع متعلقہ انگریزی معانی» کے نام سے پہلی بار چھپا اور 2004 میں تصحیح شدہ دوسری اشاعت آئی؛ معاصر انگریزی، دو ہزار سے زیادہ حواشی، اور مقدمے کے مطابق معانی اہل السنہ والجماعہ کے عقیدے پر پیش کیے گئے ہیں۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission, women, converts-and-leavers]
+regions: [arabia]
+genre: [quran-translation]
+language: language/english
+made: { by_muslims: true, basis: documented, sources: [source/gloqur-saheeh-international] }
+composed: { edtf: "1997", hijri: "1417", calendar: gregorian, precision: year, status: historical, derived: true, note: "First edition, 1997 (Abul-Qasim Publishing House with al-Muntada al-Islami). The Gregorian year 1997 runs from Ramadan 1417 to Ramadan 1418 AH; the Hijri year is converter-derived.", sources: [source/gloqur-saheeh-international, source/wikipedia-sahih-international-en] }
+editions:
+  - "The Qur'an: Arabic Text with Corresponding English Meanings. Jeddah: Abul-Qasim Publishing House, with al-Muntada al-Islami, 1997 (first edition; the translators are not named in it)"
+  - "Second edition, Al-Muntada al-Islami Trust, 2004, with a few corrections, reprinted many times; a 2019 printing further simplifies the wording and rewrites some notes"
+  - "Later editions by the Saudi publishers Aljumuah and Noor International, distributed by Darussalam"
+relations:
+  - { type: translation_of, target: work/quran, sources: [source/gloqur-saheeh-international] }
+footprint:
+  wikipedia: { languages: [arz, en, hi, tr], checked: "2026-11-06", sources: [source/wikipedia-sahih-international-en] }
+  wikidata: "Q85799163"
+external_ids: { wikidata: "Q85799163" }
+sources: [source/gloqur-saheeh-international, source/wikipedia-sahih-international-en]
+provenance:
+  layer: own-research
+  source: "GloQur post #192 (Mykhaylo Yakubovych, 17 May 2024) of the University of Münster's Global Qur'an project for the team, editions, method and reception; English Wikipedia 'Sahih International' (revision 1359267064) and Wikidata Q85799163 (revision 2414286120) for names, year and sitelinks only; read in Chrome on 6 November 2026."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

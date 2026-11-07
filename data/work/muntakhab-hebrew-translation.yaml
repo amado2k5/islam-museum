@@ -1,0 +1,28 @@
+id: work/muntakhab-hebrew-translation
+class: work
+kind: book
+label: { ar: "الترجمة العبرية لـ«المنتخب في تفسير القرآن الكريم»", en: "The Hebrew translation of al-Muntakhab fi Tafsir al-Qur'an al-Karim", ur: "«المنتخب فی تفسیر القرآن الکریم» کا عبرانی ترجمہ" }
+summary:
+  ar: "ترجمة عبرية لـ«المنتخب في تفسير القرآن الكريم»، التفسير الميسّر الذي وُضع في الأزهر في الخمسينيات وصدر سنة 1961، نشرتها وزارة الأوقاف المصرية سنة 2023 بعد ستة أشهر من العمل، وترجمها سعيد مطاوع، رئيس قسم اللغة العبرية وآدابها في جامعة القاهرة، مع مساعده علي عنان؛ تضم النص العربي للقرآن وحواشي المنتخب ومقدمات السور، وتُبقي الأسماء العربية كما هي، ووصفها وزير الأوقاف بأنها أول تفسير للقرآن بالعبرية."
+  en: "A Hebrew translation of al-Muntakhab fi Tafsir al-Qur'an al-Karim, the concise commentary written at al-Azhar in the 1950s and published in 1961, issued by the Egyptian Ministry of Awqaf in 2023 after six months of work and translated by Sa'id Muttawi', chair of Hebrew language and literature at Cairo University, with his assistant Ali Annan; it carries the Arabic text of the Qur'an, al-Muntakhab's notes and sura introductions, keeps Arabic names as they are, and was described by the minister as the first tafsir of the Qur'an in Hebrew."
+  ur: "«المنتخب فی تفسیر القرآن الکریم» کا عبرانی ترجمہ، یعنی وہ مختصر تفسیر جو 1950 کی دہائی میں ازہر میں لکھی گئی اور 1961 میں شائع ہوئی؛ مصری وزارتِ اوقاف نے اسے چھ ماہ کے کام کے بعد 2023 میں شائع کیا، ترجمہ قاہرہ یونیورسٹی کے شعبۂ عبرانی کے صدر سعید مطاوع نے اپنے معاون علی عنان کے ساتھ کیا؛ اس میں قرآن کا عربی متن، المنتخب کے حواشی اور سورتوں کے تعارف ہیں، عربی نام اپنی صورت میں باقی ہیں، اور وزیرِ اوقاف نے اسے عبرانی میں قرآن کی پہلی تفسیر کہا۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission, islam-and-judaism]
+regions: [egypt-nile]
+genre: [tafsir]
+authors: [person/said-muttawi]
+language: language/hebrew
+composed: { edtf: "2023", hijri: "1444", calendar: gregorian, precision: year, status: historical, derived: true, note: "Published 'earlier this year' in a post of 15 September 2023. The Gregorian year 2023 runs from Jumada II 1444 to Jumada II 1445 AH; the Hijri year is converter-derived.", sources: [source/gloqur-muntakhab-hebrew] }
+editions:
+  - "Hebrew translation of al-Muntakhab fi Tafsir al-Qur'an al-Karim. Cairo: Ministry of Awqaf, 2023, with the Arabic text of the Qur'an (not of the tafsir), footnotes and sura introductions; introduction by the minister Muhammad Mukhtar Gomaa"
+relations:
+  - { type: translation_of, target: work/al-muntakhab-fi-tafsir-al-quran, sources: [source/gloqur-muntakhab-hebrew] }
+  - { type: about, target: work/quran, sources: [source/gloqur-muntakhab-hebrew] }
+sources: [source/gloqur-muntakhab-hebrew]
+provenance:
+  layer: own-research
+  source: "GloQur post #174 (Mykhaylo Yakubovych, 15 September 2023), read in full in Chrome on the founder's Mac on 6 November 2026, for every fact of the record and its prose; no Wikipedia article or Wikidata item for the book itself was found (searched 6 November 2026)."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b03
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
