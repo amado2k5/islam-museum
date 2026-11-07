@@ -407,33 +407,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/muadh-ibn-al-harith
 - [x] person/muadh-ibn-amr-ibn-al-jamuh
 
-## Draft records (118)
+## Draft batch D07 (25 entities)
 
-- [ ] person/muadh-ibn-anas-al-juhani
-- [ ] person/muadh-ibn-jabal
-- [ ] person/muawwaz-ibn-amr-ibn-al-jamuh
-- [ ] person/muawwidh-ibn-afra
-- [ ] person/mubashir-ibn-abd-al-mundhir
-- [ ] person/muhammad-ibn-safwan
-- [ ] person/muhayyisa-ibn-masud
-- [ ] person/mujadhdhar-ibn-ziyad
-- [ ] person/mujjaa-ibn-murara
-- [ ] person/musab-ibn-umayr
-- [ ] person/nuaym-ibn-masud
-- [ ] person/nuaym-ibn-yazid-al-tamimi
-- [ ] person/nusayba-bint-kab
-- [ ] person/qabisa-ibn-al-mukhariq
-- [ ] person/qambar
-- [ ] person/qasim-ibn-al-abbas
-- [ ] person/qays-ibn-abi-sasaa
-- [ ] person/qays-ibn-al-harith-al-tamimi
-- [ ] person/qays-ibn-al-husayn-dhu-al-ghussa
-- [ ] person/qays-ibn-hubayra
-- [ ] person/qudama-ibn-mazun
-- [ ] person/qurayba-bint-abi-umayya
-- [ ] person/qutba-ibn-amir
-- [ ] person/qutba-ibn-qatada
-- [ ] person/rabia-ibn-umayya-ibn-khalaf
+- [x] person/muadh-ibn-anas-al-juhani
+- [x] person/muadh-ibn-jabal
+- [x] person/muawwaz-ibn-amr-ibn-al-jamuh
+- [x] person/muawwidh-ibn-afra
+- [x] person/mubashir-ibn-abd-al-mundhir
+- [x] person/muhammad-ibn-safwan
+- [x] person/muhayyisa-ibn-masud
+- [x] person/mujadhdhar-ibn-ziyad
+- [x] person/mujjaa-ibn-murara
+- [x] person/musab-ibn-umayr
+- [x] person/nuaym-ibn-masud
+- [x] person/nuaym-ibn-yazid-al-tamimi
+- [x] person/nusayba-bint-kab
+- [x] person/qabisa-ibn-al-mukhariq
+- [x] person/qambar
+- [x] person/qasim-ibn-al-abbas
+- [x] person/qays-ibn-abi-sasaa
+- [x] person/qays-ibn-al-harith-al-tamimi
+- [x] person/qays-ibn-al-husayn-dhu-al-ghussa
+- [x] person/qays-ibn-hubayra
+- [x] person/qudama-ibn-mazun
+- [x] person/qurayba-bint-abi-umayya
+- [x] person/qutba-ibn-amir
+- [x] person/qutba-ibn-qatada
+- [x] person/rabia-ibn-umayya-ibn-khalaf
+
+## Draft records (93)
+
 - [ ] person/rafi-ibn-al-mala
 - [ ] person/rafi-ibn-umayra
 - [ ] person/rayta-bint-munabbih

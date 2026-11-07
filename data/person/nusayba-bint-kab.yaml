@@ -32,6 +32,7 @@ relations:
   - { type: spouse_of, target: person/zayd-ibn-asim, note: "زوجها الأول زيد بن عاصم والد حبيب وعبد الله (نساء حول الرسول ص225).", sources: [source/nisa-hawl-alrasul] }
   - { type: spouse_of, target: person/araba-ibn-amr, note: "زوجها الثاني عربة بن عمرو (نساء حول الرسول ص225 و274).", sources: [source/nisa-hawl-alrasul] }
   - { type: parent_of, target: person/habib-ibn-zayd, note: "ابنها حبيب الذي قتله مسيلمة الكذاب؛ نذرت أن تشهد قتله (نساء حول الرسول ص228-229).", sources: [source/nisa-hawl-alrasul] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-sad-tabaqat-bewley]}
 external_ids: { wikidata: "Q4115264" }
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/nisa-hawl-alrasul, source/assabile-mosaad-anwar, source/assabile-tareq-al-suwaidan]
 status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }

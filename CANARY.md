@@ -33,6 +33,7 @@ open a new block on top with the new version and today's date.
 - **Companions as one set: 25 more draft companions linked.** Draft batch D04 added `member_of` edges for the next 25 draft companion records (Amr ibn Suraqa through Fatima bint al-Khattab, including Bilal ibn Rabah, Asma bint Abi Bakr and Asad ibn Zurara), each citing its own record's sources. 168 draft companion records remain in this move.
 - **Companions as one set: 25 more draft companions linked.** Draft batch D05 added `member_of` edges for the next 25 draft companion records (Fatimah bint al-Hasan through Khalid ibn Uqba ibn Abi Mu'ayt, including Khadija, Hamza, Hafsa, Hasan and Husayn), each citing its own record's sources. 143 draft companion records remain in this move.
 - **Companions as one set: 25 more draft companions linked.** Draft batch D06 added `member_of` edges for the next 25 draft companion records (Kharash ibn al-Simma through Mu'adh ibn Amr ibn al-Jamuh, including Khubayb ibn Adi and Mistah ibn Uthatha), each citing its own record's sources. 118 draft companion records remain in this move.
+- **Companions as one set: 25 more draft companions linked.** Draft batch D07 added `member_of` edges for the next 25 draft companion records (Mu'adh ibn Anas al-Juhani through Rabi'a ibn Umayya ibn Khalaf, including Mu'adh ibn Jabal, Mus'ab ibn Umayr and Nusayba bint Ka'b), each citing its own record's sources. 93 draft companion records remain in this move.
 
 ---
 

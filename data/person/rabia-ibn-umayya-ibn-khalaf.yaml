@@ -20,5 +20,10 @@ faith:
 relations:
   - { type: member_of, target: group/banu-jumah }
   - { type: participated_in, target: event/farewell-sermon-at-arafat, role: "المبلّغ صوت النبي إلى الناس", sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa, source/ibn-hisham-sira]}
 sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), pp. 458-472 (batch 23) — as recorded in this record's status.generated_by"
+  generated_by: "Devin"
