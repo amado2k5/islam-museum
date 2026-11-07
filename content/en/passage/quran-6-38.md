@@ -38,6 +38,8 @@ If someone asks what is the point of "no bird flying with its wings", when does 
 
 The editor notes that the printed text gave the verse as in our copies, which is not where Abu Jafar's evidence lies, the manuscript being right as he gave it, which is Abdullah ibn Mas'ud's reading, and refers to what Abu Jafar said in the commentary on Surat Sad on the Arabs' emphasis of a word.
 
+The editor's supplement (Ahmad Shakir, from the "completion of the tracing"; not al-Tabari's words) on reports 13224 and 13223: the first concerns the two goats that butted each other; the second repeats that and adds Abu Dharr's saying that the Messenger left them with no bird flapping its wings in the sky of which he had not given them some knowledge. Both chains are broken, as his brother Mahmud Shakir explained, because Mundhir ibn Ya'la al-Thawri did not meet Abu Dharr and narrates only from the Followers. The sense of the first, the butting goats, is given by Ahmad in the Musnad through Abd al-Rahman ibn Tharwan, from al-Hudhayl ibn Shurahbil, from Abu Dharr, with a sound chain. The sense of the second comes by another sound route in Ibn Hibban's Sahih, through Sufyan ibn Uyayna, Fitr ibn Khalifa and Abu al-Tufayl from Abu Dharr, a sound connected chain which the editor found connected only in Ibn Hibban, where he set out its tracing in detail. {cite:tafsir-tabari-shakir-v11 p. 590}
+
 Verse 38 closes here at p. 350, and al-Tabari goes on to [[passage/quran-6-39|6:39]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
