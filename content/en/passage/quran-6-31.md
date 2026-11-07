@@ -30,8 +30,6 @@ As for "evil is what they bear", it means: evil is the burden they bear, that is
 
 On p. 328 the editor keeps "the sin they commit against their Lord" from the manuscript and drops the word "their unbelief" that the printed text added and so spoiled the sentence, and refers for "sinning against his Lord" to what he explained before.
 
-Verse 31 closes here at p. 328, and verse 32 begins on p. 329 and is not yet filed.
-
-We stop here at the foot of p. 328, with verse 31 complete, and al-Tabari begins the commentary on verse 32 on p. 329.
+Verse 31 closes here at p. 328, and al-Tabari begins the commentary on [[passage/quran-6-32|6:32]] at p. 329.
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
