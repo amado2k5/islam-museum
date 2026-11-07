@@ -33,8 +33,15 @@ regions:
 - arabia
 sources:
 - source/wikidata
+- source/assabile-tareq-al-suwaidan
 external_ids:
   wikidata: Q43303
+provenance:
+  layer: own-research
+  source: "Original record by Devin (questions lane, via Wikidata, 2026-10-16); the section on Tareq al-Suwaidan's A Story and an Idea (kissa-wa-fikra ep02) added from the Assabile recording, transcript pass5-qwen (Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)"
+  generated_by: "Devin (SWE-2 High); Claude Code (claude-opus-5-5) for the kissa-wa-fikra section"
+  model: claude-opus-5-5
+  run: suwaidan-kissa-wa-fikra-2
 status:
   review: draft
   completeness: 1
