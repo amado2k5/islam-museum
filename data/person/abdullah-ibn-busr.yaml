@@ -17,6 +17,8 @@ provenance:
   source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 50 p. 927"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-jami-ulum-hikam-batch-18
+relations:
+ - { type: member_of, target: group/sahaba, sources: [source/ibn-rajab-jami-ulum-hikam]}
 sources:
 - source/ibn-rajab-jami-ulum-hikam
 status:
