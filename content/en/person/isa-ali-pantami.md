@@ -15,7 +15,7 @@ He was appointed director general of the National Information Technology Develop
 
 ## Preaching and the 2021 controversy
 
-Before government office Pantami was known as a preacher and as chief imam of the Abubakar Tafawa Balewa University mosque {cite:wikipedia-isa-ali-pantami-en}. In April 2021 recordings of sermons from the mid-2000s resurfaced in which he had expressed sympathy for the Taliban and al-Qaeda; amid national controversy and resignation calls he publicly recanted those views on 17 April 2021, saying his understanding had changed with new evidence and maturity {cite:wikipedia-isa-ali-pantami-en}. The Hausa article describes him as a leading scholar of the Sunnah {cite:wikipedia-isa-ali-pantami-ha}, a description of his preaching orientation rather than the naming of a school.
+Before government office Pantami was known as a preacher and as chief imam of the Abubakar Tafawa Balewa University mosque {cite:wikipedia-isa-ali-pantami-en}. In April 2021 recordings of sermons from the mid-2000s resurfaced that provoked national controversy and resignation calls; he publicly recanted the views expressed in them on 17 April 2021, saying his understanding had changed with new evidence and maturity {cite:wikipedia-isa-ali-pantami-en}. The Hausa article describes him as a leading scholar of the Sunnah {cite:wikipedia-isa-ali-pantami-ha}, a description of his preaching orientation rather than the naming of a school.
 
 ## Affiliation, as the sources attest it
 

@@ -73,12 +73,12 @@ Candidates in queue: **524** active, **40** excluded (**564** total) · inventio
 - Scientist/person records: 272
 - Scientific work leads (linked to scientific people/concepts or tagged as a zij): 72
 - Treatise-kind works, all subjects: 31
-- English/Arabic prose-hit files: 632
+- English/Arabic prose-hit files: 633
 
 ## Existing source families
 
 - encyclopaediaOfIslam: 1
-- tdv: 113
+- tdv: 117
 - iranica: 30
-- wikipedia: 4938
-- wikidata: 1885
+- wikipedia: 4934
+- wikidata: 1883

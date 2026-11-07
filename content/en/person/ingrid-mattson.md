@@ -29,7 +29,7 @@ This section sets out positions and responses as reported in the sources. It is 
 
 Mattson advocates a greater public role for Muslim women as religious leaders: when she founded the Hartford chaplaincy programme she insisted it be open to women; she wears a hijab but argues that governments should have no authority to enforce religious dress or to ban it. {cite:wikipedia-ingrid-mattson-en}
 
-She has been a critic of Islamic extremism since she first encountered the Taliban while working to educate Afghan refugee girls in Pakistan; after the September 11 attacks she published an article on Beliefnet, "American Muslims have a Special Obligation", and has since lectured and been interviewed many times to denounce violence in the name of Islam, condemning in a 2007 essay the "exclusivist, triumphalist, communal identities" that justify violent attacks on other groups. {cite:wikipedia-ingrid-mattson-en}
+She has been a critic of Islamic extremism since she first worked to educate Afghan refugee girls in Pakistan; after the September 11 attacks she published an article on Beliefnet, "American Muslims have a Special Obligation", and has since lectured and been interviewed many times to denounce violence in the name of Islam, condemning in a 2007 essay the "exclusivist, triumphalist, communal identities" that justify violent attacks on other groups. {cite:wikipedia-ingrid-mattson-en}
 
 Her academic and leadership work has focused on fostering positive relationships between groups of differing faiths and on interfaith engagement for the public good, and her leadership in interfaith cooperation has been recognised by Burt Visotzky of the Jewish Theological Seminary of America. {cite:wikipedia-ingrid-mattson-en}
 
