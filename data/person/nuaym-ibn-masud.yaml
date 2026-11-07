@@ -23,4 +23,14 @@ relations:
   - { type: member_of, target: group/ghatafan }
   - { type: participated_in, target: event/battle-of-the-trench, role: "الذي خذل بين الأحزاب وبني قريظة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+provenance:
+  layer: own-research
+  source: "al-Mubarakpuri, al-Rahiq al-Makhtum, and Ibn Hisham, already cited on this record"
+  generated_by: "Devin"
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 312–313" }
+occupations:
+  - job: job/courtier
+    kind: episodic
+    status: historical
+    note: "The NEDİM entry says that in the pre-Islamic period he was the nadim of Banu Qurayza, and points to Ibn Hisham, parts 3-4, page 229, which was not read for this record."
+    sources: [source/tdv-nedim]
