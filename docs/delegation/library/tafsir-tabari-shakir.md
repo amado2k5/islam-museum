@@ -250,7 +250,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 41: pp. 549-555 filed in ar, en and ur (reports 11151-11166): verse 4 is filed to the foot of p. 555.
 - Batch 42: pp. 556-562 filed in ar, en and ur (reports 11167-11201): verse 4 is filed to the foot of p. 562.
 - Batch 43: pp. 563-570 filed in ar, en and ur (reports 11201-11217): verse 4 is filed to the foot of p. 570.
-- Progress: current report 11217, printed p. 570. Next is the rest of the account of 'min' in 'of what they hold for you', from printed p. 570 on, in verse 4.
+- Batch 44: pp. 570-577 filed in ar, en and ur (reports 11218-11240): verse 4 is closed at p. 572 and verse 5 is filed to the foot of p. 577 (new passage content in quran-5-5).
+- Progress: current report 11240, printed p. 577. Next is the rest of the meaning of 'food' in the food of the People of the Book, from printed p. 578 on, in verse 5.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
