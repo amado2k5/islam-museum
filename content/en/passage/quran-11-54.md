@@ -9,3 +9,9 @@ Verse 54 of [[passage/quran-11|Surat Hud]], a Meccan surah. {cite:tanzil-quran}
 
 ## Place in the museum
 Its place: verse 54 of 123 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+**Commentary on verse 54 (pp. 360-361)**
+
+On [[passage/quran-11-54|11:54]] al-Tabari says: this is God's report of what Hud's people said to him when he counselled them and called them to God's oneness and affirming him and casting off idols and renouncing them: we shall not leave the worship of our gods, and we say only that what led you to revile them and forbid their worship is that something of them has struck you, a madness. Hud said to them: I call God to witness against myself, and you too, people, bear witness, that I am free of what you associate with God in worship of your gods and idols besides Him. Reports 18267, 18268 and 18271, from Mujahid: the idols have struck you with madness; report 18269: you reviled our gods and found fault with them and they made you mad; report 18270: some of our gods struck you with harm, meaning the idols. {cite:tafsir-tabari-shakir-v15 p. 361}
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
