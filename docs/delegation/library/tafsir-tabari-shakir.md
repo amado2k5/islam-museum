@@ -725,3 +725,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 67: printed pp. 424-430 (markers 428-434) filed in ar, en and ur (reports 14615-14634): 7:40 filed to the foot of p. 430 after report 14634. Offset still marker - 4. Stop sentence at the foot. Next is marker 435 (printed 431), the rest of the disagreement over 'al-jummal'.
 - Batch 87: pp. 484-490 filed in ar, en and ur (reports 13465-13467): 6:76 end, 6:77, 6:78, 6:79, 6:80 and the start of 6:81
 - Batch 88: pp. 491-497 filed in ar, en and ur (reports 13467-13486): 6:81 end and 6:82 (belief mixed with wrong, up to report 13486)
+- Batch 89: pp. 498-504 filed in ar, en and ur (reports 13487-13512): 6:82 end and 6:83 begun
