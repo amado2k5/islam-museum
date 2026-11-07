@@ -159,6 +159,7 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Main was failing its own checks after two parenthesis-isolation batches and new records from other lanes: two Ibn Jubayr journey records had their Arabic label and summary keys mangled (the Arabic text was unreadable to the site and crashed the search-synonym step), ten records carried Arabic or Urdu parentheses without direction isolates, and the 3D tour still cited the Sabri Brothers' old source after their record was rebuilt. All three are repaired mechanically, with no change to any wording; found and fixed by the web section of the Modern Islam Browser before merging its own batch.
 - Repaired 26 journey and related files whose inline Arabic and Urdu keys had lost their quotes in an earlier isolation pass; the waypoint titles and narratives are readable by the validator again.
 - Fixed three journey files whose Arabic flow-map values had been broken by an earlier isolation pass (YAML would not parse); their parentheses are now isolated and the files parse again.
 - Arabic and Urdu parentheses (remaining unquoted and summary values, batch 1): brackets now stay in place in right-to-left text in 38 files.
