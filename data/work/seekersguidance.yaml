@@ -1,0 +1,34 @@
+id: work/seekersguidance
+class: work
+kind: website
+label:
+  ar: "سيكرز غايدنس (SeekersGuidance)"
+  en: "SeekersGuidance (seekersguidance.org)"
+  ur: "سیکرز گائیڈنس (SeekersGuidance)"
+summary:
+  ar: "معهد تعليمي إسلامي على الإنترنت أسسه العالم الباكستاني الكندي فراز رباني، يقدّم دورات وخدمة أسئلة وأجوبة وخلوات علمية، وعُرف مدةً باسم «سيكرز هب غلوبال» ثم عاد إلى اسمه سنة 2019؛ أقدم لقطة لموقعه في أرشيف الإنترنت في مايو 2010."
+  en: "An online Islamic educational institute founded by the Pakistani-Canadian scholar Faraz Rabbani, offering courses, a question-and-answer service and occasional retreats; known for a time as SeekersHub Global, it returned to its name in 2019; its site's earliest archived capture is of May 2010."
+  ur: "آن لائن اسلامی تعلیمی ادارہ جسے پاکستانی نژاد کینیڈین عالم فراز ربانی نے قائم کیا؛ کورس، سوال و جواب کی خدمت اور کبھی کبھار علمی اجتماعات؛ کچھ عرصہ «سیکرز ہب گلوبل» کہلایا اور 2019 میں پرانے نام پر لوٹا؛ سب سے پرانی آرکائیو تصویر مئی 2010 کی۔"
+wings: [words, today]
+url: "https://seekersguidance.org"
+launched:
+  edtf: "2010-05-07/"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "No founding year in a source read; the earliest archived capture of seekersguidance.org, already offering courses, answers and the IslamCast podcast, is of 7 May 2010. The open interval records that the site existed by then."
+  sources: [source/wayback-seekersguidance-2010]
+languages: [en, ar]
+archive_url: "https://web.archive.org/web/20100507050859/http://seekersguidance.org/"
+content_type: education
+relations:
+  - { type: founded_by, target: person/faraz-rabbani, note: "founder, education director and instructor", sources: [source/wikipedia-faraz-rabbani-en] }
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-faraz-rabbani-en] }
+sources: [source/wikipedia-faraz-rabbani-en, source/wayback-seekersguidance-2010]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Faraz Rabbani' (revision 1371201326) and the Internet Archive capture of seekersguidance.org of 7 May 2010, read in Chrome on the founder's Mac on 7 November 2026; written at the founder's approval of 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b11
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
