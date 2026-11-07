@@ -384,6 +384,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 35: pp. 249-255 filed in ar, en and ur (reports 19801-19847): 12:94 continues to the foot of p. 255 (report 19847 begun, within the views on 'tufannidun'). Stop sentence is in quran-12-94. Next is the rest of 12:94 from p. 256 (marker 264).
 - Batch 36: pp. 256-262 filed in ar, en and ur (reports 19847-19875): 12:94 closes at p. 256, 12:95 and 12:96 are in full and 12:97-98 (explained together, filed under quran-12-97) are begun to the foot of p. 262. Stop sentence is in quran-12-97. Next is the rest of 12:97-98 from p. 263 (marker 271).
 - Batch 37: pp. 263-269 filed in ar, en and ur (reports 19876-19902): 12:97-98 close at p. 263, 12:99 is in full and 12:100 is begun to the foot of p. 269 (after report 19902 on the prostration). Stop sentence is in quran-12-100. Next is the rest of 12:100 from p. 270 (marker 278).
+- Batch 38: pp. 270-276 filed in ar, en and ur (reports 19903-19938): 12:100 continues to the foot of p. 276 (after report 19938 on the number who entered Egypt). Stop sentence is in quran-12-100. Next is the rest of 12:100 from p. 277 (marker 285).
 ## Volume 14 progress
 - Volume 14 (`waqtaftab-taftab14`, 638 markers): the title page (marker 4) names sura al-Anfal 8:48 to 8:75 and sura al-Tawba, reports 16183 to 17518; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (8:48). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v14 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v14`.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 16183-16195): verse 8:48 is filed in full and 8:49 is begun (the doubters who said 'their religion has deluded these'). Next is report 16196 from p. 14.
@@ -441,6 +442,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 48: pp. 386-392 filed in ar, en and ur (reports 15684-15704): verse 8:2 closes at p. 387, 8:3 and 8:4 are filed in full and 8:5 (with 8:6 treated together) is begun at p. 391; stop sentence at the foot of p. 392 (next: p. 393).
 - Batch 49: pp. 393-399 filed in ar, en and ur (reports 15705-15720): 8:5-8:6 closes at p. 397 and 8:7 is begun at p. 398; stop sentence at the foot of p. 399 in report 15720 (next: p. 400).
 - Batch 50: pp. 399-405 filed in ar, en and ur (reports 15720-15727): verse 8:7 continues (the consultation before Badr, the two parties); stop sentence at the foot of p. 405 after report 15727 (next: p. 406).
+- Batch 51: pp. 406-411 filed in ar, en and ur (reports 15728-15741): 8:7 closes at p. 408, 8:8 is filed in full and 8:9 is begun at p. 408; stop sentence at the foot of p. 411 at the list for 'a thousand angels' (next: p. 412).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
