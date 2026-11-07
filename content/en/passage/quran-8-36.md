@@ -10,7 +10,7 @@ Verse 36 of [[passage/quran-8|Surat al-Anfal]], a Medinan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 36 of 75 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 36 (pp. 529-533)**
+**Commentary on verse 36 (pp. 529-534)**
 
 Al-Tabari says on "those who disbelieve spend their wealth to bar from God's path; they will spend it, then it will be a regret for them, then they will be overcome; and those who disbelieve will be gathered to Gehenna" [[passage/quran-8-36|8:36]]: those who disbelieved in God and His Messenger spend their wealth, giving it to others like them among the polytheists to strengthen themselves with it to fight the Messenger of God and those who believe in him, to bar the believers from belief; they will spend their wealth on that, then their spending will be a regret for them, that is a remorse, since their wealth goes and they do not gain what they hope for, putting out God's light and raising the word of unbelief over God's word, for God raises His word and makes the word of unbelief the lowest; then the believers overcome them and God gathers those who disbelieved in Him and His Messenger to Gehenna, where they are punished. He says it is a great regret and remorse for whoever lived and whoever died among them: the living man's wealth is stripped and goes in vain without any gain and he returns overcome, subdued and plundered, while the dead man is killed and stripped and hurried to God's fire. The editor refers to the earlier commentary on "spending", "barring", "regret" and "gathering". {cite:tafsir-tabari-shakir-v13 p. 529}
 
@@ -20,6 +20,6 @@ Report 16063, from Ibn Ishaq from al-Zuhri, Muhammad ibn Yahya ibn Hibban, Asim 
 
 Some said it rather means the polytheists of Badr; report 16066, from al-Dahhak: they are the people of Badr. {cite:tafsir-tabari-shakir-v13 p. 533}
 
-We stop here at the foot of p. 533, after report 16066 in the commentary on 8:36; the next batch begins at p. 534. {cite:tafsir-tabari-shakir-v13 p. 533}
+Abu Ja'far said: the right saying to my mind is what we said, that God reported of those of Quraysh's polytheists who disbelieved in Him that they spend their wealth to bar from God's path, and did not tell us which of them He meant, but made the report general for those who disbelieved. It may be He meant those who spent their wealth to fight the Messenger and his Companions at Uhud, or those who spent that at Badr, or both groups; being so, the right course is to make it general as God made general the unbelievers of Quraysh. {cite:tafsir-tabari-shakir-v13 p. 534}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
