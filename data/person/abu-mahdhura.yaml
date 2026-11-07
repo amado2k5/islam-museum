@@ -12,6 +12,8 @@ roles: [companion]
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+relations:
+  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix entry of volume 11 on scan p.5143. The source gives two names for his father and two death years; both are recorded as given." }
 provenance:

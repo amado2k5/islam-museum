@@ -23,5 +23,10 @@ relations:
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/khazraj }
   - { type: participated_in, target: event/pledges-of-aqaba, role: "الذي استوثق من خطورة البيعة وعرض ضرب قريش", sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 143, 150, 153" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), pp. 143, 150, 153 — as recorded in this record's status.generated_by"
+  generated_by: "Devin"

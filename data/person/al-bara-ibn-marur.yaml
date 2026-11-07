@@ -24,5 +24,10 @@ relations:
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/khazraj }
   - { type: participated_in, target: event/pledges-of-aqaba, role: "نقيب بني سلمة والمتكلم بالبيعة", sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/samhudi-wafa-al-wafa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 149-152" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), pp. 149-152 — as recorded in this record's status.generated_by"
+  generated_by: "Devin"
