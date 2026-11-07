@@ -18,6 +18,7 @@ relations:
   - { type: child_of, target: person/haritha-ibn-al-numan, sources: [source/great-women-of-islam-ghadanfar-darussalam] }
   - { type: participated_in, target: event/bayat-al-ridwan, sources: [source/great-women-of-islam-ghadanfar-darussalam] }
   - { type: lived_in, target: place/medina, sources: [source/great-women-of-islam-ghadanfar-darussalam] }
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/great-women-of-islam-ghadanfar-darussalam] }
 sources: [source/al-aalam, source/great-women-of-islam-ghadanfar-darussalam]
 external_ids:
   wikidata: Q125494615

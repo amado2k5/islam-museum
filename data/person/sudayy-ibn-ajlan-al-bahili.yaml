@@ -17,6 +17,8 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: companion, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: member_of, target: group/sahaba, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published
