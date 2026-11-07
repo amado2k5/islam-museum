@@ -1283,15 +1283,19 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: museum-record-work-zij-al-sindhind-khwarizmi
     label: "Museum lead for al-Khwarizmi's astronomical tables (Zij al-Sindhind)"
-    state: "[~]"
+    state: "[x]"
     batch: 2
     domain: astronomy-instruments
     era: abbasid-golden
     from: museum
-    records: ["work/zij-al-sindhind-khwarizmi"]
+    records: ["work/zij-al-sindhind-khwarizmi", "invention/khwarizmi-sindhind-tables"]
+    invention: invention/khwarizmi-sindhind-tables
     lead_sources:
       - "data/work/zij-al-sindhind-khwarizmi.yaml"
-    flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
+      - source/tdv-harizmi
+      - source/khwarizmi-jabr-cairo-1939
+      - source/khwarizmi-mactutor
+    flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era, completed-D143-b100]
   - id: zij-as-genre
     label: "The zij as an astronomical-table genre"
     state: "[~]"

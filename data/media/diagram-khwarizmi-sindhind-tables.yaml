@@ -1,0 +1,29 @@
+id: media/diagram-khwarizmi-sindhind-tables
+class: media
+kind: illustration
+label:
+  ar: "رسم: مادة هندية وزيج السند هند"
+  en: "Diagram: Indian astronomical material and the Sindhind"
+  ur: "خاکہ: ہندی فلکیاتی مواد اور سندہند"
+summary:
+  ar: "سلسلة علاقات عامة يرسمها الموقع من بيانات السابق والمركزي واللاحق؛ تعرض السابقة الهندية والعمل المنسوب إلى الخوارزمي، ولا تعيد بناء جدول أو مخطوطة."
+  en: "A generic relation chain rendered by the site from precursor, invention, and dependent data; it shows the Indian antecedent and the work attributed to al-Khwarizmi, not a reconstructed table or manuscript."
+  ur: "سابقہ، ایجاد اور بعد کے ریکارڈ سے سائٹ کا بنایا ہوا عمومی تعلقی خاکہ؛ ہندی بنیاد اور خوارزمی سے منسوب کام دکھاتا ہے، جدول یا مخطوطے کی تشکیلِ نو نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/khwarizmi-sindhind-tables]
+alt:
+  ar: "ثلاثة أعمدة مترابطة: في الأول مادة فلكية هندية سابقة، وفي الوسط زيج السند هند المنسوب إلى الخوارزمي مع اسمه، وفي الثالث لا يسمي السجل اختراعًا تابعًا بعينه. رسم تخطيطي للعلاقات فقط، لا يصور مخطوطة أو أداة أو هندسة جدولية."
+  en: "Three linked columns: the first names Indian astronomical material as an antecedent; the middle names al-Khwarizmi's Sindhind tables and maker; the last records that no specific dependent invention is asserted. This is a relationship diagram, not a manuscript, instrument, or geometric reconstruction."
+  ur: "تین مربوط کالم: پہلے میں سابق ہندی فلکیاتی مواد، درمیان میں خوارزمی سے منسوب سندہند جدولیں اور ان کا نام، اور آخری میں کوئی مخصوص بعد کی ایجاد درج نہیں۔ یہ تعلقی خاکہ ہے، مخطوطہ، آلہ یا جدول کی جیومیٹری نہیں۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time from the invention's precursors and dependents)"
+  version: "1"
+  date: "2026-11-07"
+sources: [source/tdv-harizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-mactutor]
+status: { review: published, completeness: 2 }
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-p3-b100
+  source: "Generic InventionDiagram renderer; relation-chain labels and limits are grounded in the cited source set."
