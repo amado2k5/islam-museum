@@ -1,0 +1,173 @@
+# Extremism firewall: removal manifest (dry run)
+
+Decision of 7 November 2026: **exclude all mention** of the listed organisations. This file lists every affected file, found by `rg` with word boundaries (Marj Dabiq, Tafsir al-Manar, Hudayr al-Kata'ib and `al-Shabab` the club/youth are not matches). **Nothing has been changed.** Removals are submission-impacting (`docs/ai-change-gates.md` §3); execution needs the founder's go on this list.
+
+Entities affected: 159; files: 237. Proposed: 27 remove, 132 edit.
+
+**Known conflict:** mentions in Afghan, Syrian and Iraqi politicians' pages (Karzai, Ghani, Koofi, Sarabi, Mazari, Malala Yousafzai, Benazir Bhutto, Najibullah, Abdullah II) are part of their documented lives. Stripping them leaves the biographies incomplete; the manifest marks them EDIT and the rewrite will say "an armed group" or "insurgents" only where a bare fact must stay. Say if you would rather remove those pages.
+
+## REMOVE
+
+- `screen/al-dawla-2017` — film centred on a listed group — files: `data/screen/al-dawla-2017.yaml`
+- `screen/arbaa-banat-2023` — film centred on a listed group — files: `data/screen/arbaa-banat-2023.yaml`
+- `screen/al-halibah-2020` — film centred on a listed group — files: `data/screen/al-halibah-2020.yaml`, `content/en/screen/al-halibah-2020.md`, `content/ar/screen/al-halibah-2020.md`
+- `screen/musul-2019` — film centred on a listed group — files: `data/screen/musul-2019.yaml`, `content/ur/screen/musul-2019.md`
+- `screen/waqt-dimashq-2018` — film centred on a listed group — files: `data/screen/waqt-dimashq-2018.yaml`, `content/en/screen/waqt-dimashq-2018.md`, `content/ar/screen/waqt-dimashq-2018.md`, `content/ur/screen/waqt-dimashq-2018.md`
+- `person/ahmed-al-sharaa` — founder/leader of a listed group — files: `data/person/ahmed-al-sharaa.yaml`, `content/ur/person/ahmed-al-sharaa.md`, `content/en/person/ahmed-al-sharaa.md`, `content/ar/person/ahmed-al-sharaa.md`
+- `person/ahmed-yassin` — founder/leader of a listed group — files: `data/person/ahmed-yassin.yaml`, `content/en/person/ahmed-yassin.md`
+- `event/islam-of-rifaa-ibn-zayd-al-judhami` — modern-war card naming a listed group — files: `content/ar/event/islam-of-rifaa-ibn-zayd-al-judhami.md`, `data/event/islam-of-rifaa-ibn-zayd-al-judhami.yaml`
+- `event/battle-of-al-mukalla-2016` — modern-war card naming a listed group — files: `data/event/battle-of-al-mukalla-2016.yaml`
+- `event/ansariya-ambush-1997` — modern-war card naming a listed group — files: `data/event/ansariya-ambush-1997.yaml`
+- `event/battle-of-al-qaryatayn-2015` — modern-war card naming a listed group — files: `data/event/battle-of-al-qaryatayn-2015.yaml`
+- `event/battle-of-tell-abyad-2016` — modern-war card naming a listed group — files: `data/event/battle-of-tell-abyad-2016.yaml`
+- `event/aden-unrest-2015` — modern-war card naming a listed group — files: `data/event/aden-unrest-2015.yaml`
+- `event/siege-of-musa-qala-2006` — modern-war card naming a listed group — files: `data/event/siege-of-musa-qala-2006.yaml`
+- `event/battle-of-al-qaryatayn-2016` — modern-war card naming a listed group — files: `data/event/battle-of-al-qaryatayn-2016.yaml`
+- `event/deir-ez-zor-offensive-2014` — modern-war card naming a listed group — files: `data/event/deir-ez-zor-offensive-2014.yaml`
+- `event/kirkuk-raid-2016` — modern-war card naming a listed group — files: `data/event/kirkuk-raid-2016.yaml`
+- `event/battle-of-zabadani-2015` — modern-war card naming a listed group — files: `data/event/battle-of-zabadani-2015.yaml`
+- `event/azhar-strategy-un-security-council-2016` — modern-war card naming a listed group — files: `data/event/azhar-strategy-un-security-council-2016.yaml`
+- `event/siege-of-abu-al-duhur-2015` — modern-war card naming a listed group — files: `data/event/siege-of-abu-al-duhur-2015.yaml`
+- `event/battle-of-shadadeh-2013` — modern-war card naming a listed group — files: `data/event/battle-of-shadadeh-2013.yaml`
+- `event/battle-of-kandahar-2001` — modern-war card naming a listed group — files: `data/event/battle-of-kandahar-2001.yaml`
+- `event/battle-of-baiji-2014` — modern-war card naming a listed group — files: `data/event/battle-of-baiji-2014.yaml`
+- `event/operation-density-2006` — modern-war card naming a listed group — files: `data/event/operation-density-2006.yaml`
+- `event/battle-of-al-rai-2016` — modern-war card naming a listed group — files: `data/event/battle-of-al-rai-2016.yaml`
+- `event/battle-of-mirali-2007` — modern-war card naming a listed group — files: `data/event/battle-of-mirali-2007.yaml`
+- `event/battle-of-shaer-gas-field-2014` — modern-war card naming a listed group — files: `data/event/battle-of-shaer-gas-field-2014.yaml`
+
+## EDIT
+
+- `screen/min-al-aba-ila-al-abna-2018` — strip the mention; rewrite the sentence without the group — files: `data/screen/min-al-aba-ila-al-abna-2018.yaml`, `content/ar/screen/min-al-aba-ila-al-abna-2018.md`
+- `screen/usama-2003` — strip the mention; rewrite the sentence without the group — files: `data/screen/usama-2003.yaml`, `content/en/screen/usama-2003.md`
+- `screen/kandahar-2001` — strip the mention; rewrite the sentence without the group — files: `data/screen/kandahar-2001.yaml`, `content/en/screen/kandahar-2001.md`
+- `person/sharif-sheikh-ahmed` — strip the mention; rewrite the sentence without the group — files: `data/person/sharif-sheikh-ahmed.yaml`, `content/en/person/sharif-sheikh-ahmed.md`, `content/ar/person/sharif-sheikh-ahmed.md`
+- `person/isa-ali-pantami` — strip the mention; rewrite the sentence without the group — files: `data/person/isa-ali-pantami.yaml`, `content/en/person/isa-ali-pantami.md`
+- `person/omar-suleiman` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/omar-suleiman.md`, `content/en/person/omar-suleiman.md`
+- `work/al-numaaf-kaatib` — strip the mention; rewrite the sentence without the group — files: `data/work/al-numaaf-kaatib.yaml`, `content/en/work/al-numaaf-kaatib.md`
+- `person/bechir-sfar` — strip the mention; rewrite the sentence without the group — files: `data/person/bechir-sfar.yaml`, `content/ar/person/bechir-sfar.md`
+- `person/muhammad-al-yaqoubi` — strip the mention; rewrite the sentence without the group — files: `data/person/muhammad-al-yaqoubi.yaml`, `content/ur/person/muhammad-al-yaqoubi.md`, `content/en/person/muhammad-al-yaqoubi.md`, `content/ar/person/muhammad-al-yaqoubi.md`
+- `person/ahmad-shah-massoud` — strip the mention; rewrite the sentence without the group — files: `data/person/ahmad-shah-massoud.yaml`, `content/en/person/ahmad-shah-massoud.md`
+- `person/mohammad-najibullah` — strip the mention; rewrite the sentence without the group — files: `data/person/mohammad-najibullah.yaml`, `content/en/person/mohammad-najibullah.md`
+- `person/malala-yousafzai` — strip the mention; rewrite the sentence without the group — files: `data/person/malala-yousafzai.yaml`, `content/en/person/malala-yousafzai.md`
+- `source/wikipedia-ahmed-yassin-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-ahmed-yassin-en.yaml`
+- `source/wikipedia-pir-baba-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-pir-baba-en.yaml`
+- `person/ali-bach-hamba` — strip the mention; rewrite the sentence without the group — files: `data/person/ali-bach-hamba.yaml`, `content/ar/person/ali-bach-hamba.md`
+- `person/zakir-naik` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/zakir-naik.md`, `content/en/person/zakir-naik.md`
+- `source/wikipedia-fawzia-koofi-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-fawzia-koofi-en.yaml`
+- `person/ashraf-ghani` — strip the mention; rewrite the sentence without the group — files: `data/person/ashraf-ghani.yaml`, `content/en/person/ashraf-ghani.md`
+- `person/hamid-karzai` — strip the mention; rewrite the sentence without the group — files: `data/person/hamid-karzai.yaml`, `content/en/person/hamid-karzai.md`
+- `source/wikipedia-fatih-terim-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-fatih-terim-en.yaml`
+- `place/mosul` — strip the mention; rewrite the sentence without the group — files: `content/ur/place/mosul.md`, `content/en/place/mosul.md`, `content/ar/place/mosul.md`
+- `source/wikipedia-salima-mazari-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-salima-mazari-en.yaml`
+- `person/mohamed-bin-zayed-al-nahyan` — strip the mention; rewrite the sentence without the group — files: `data/person/mohamed-bin-zayed-al-nahyan.yaml`, `content/ur/person/mohamed-bin-zayed-al-nahyan.md`, `content/en/person/mohamed-bin-zayed-al-nahyan.md`
+- `person/mustafa-busuladzic` — strip the mention; rewrite the sentence without the group — files: `data/person/mustafa-busuladzic.yaml`
+- `person/sima-samar` — strip the mention; rewrite the sentence without the group — files: `data/person/sima-samar.yaml`, `content/en/person/sima-samar.md`
+- `person/mohamed-lasram` — strip the mention; rewrite the sentence without the group — files: `data/person/mohamed-lasram.yaml`, `content/ar/person/mohamed-lasram.md`
+- `work/alf-shams-satia` — strip the mention; rewrite the sentence without the group — files: `data/work/alf-shams-satia.yaml`
+- `source/wikipedia-abderrazak-hamdallah-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-abderrazak-hamdallah-en.yaml`
+- `person/mahmud-tarzi` — strip the mention; rewrite the sentence without the group — files: `data/person/mahmud-tarzi.yaml`, `content/ar/person/mahmud-tarzi.md`
+- `source/wikipedia-hamid-karzai-ar` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-hamid-karzai-ar.yaml`
+- `person/anwar-ibrahim` — strip the mention; rewrite the sentence without the group — files: `data/person/anwar-ibrahim.yaml`, `content/ar/person/anwar-ibrahim.md`
+- `person/manizha-talash` — strip the mention; rewrite the sentence without the group — files: `data/person/manizha-talash.yaml`, `content/en/person/manizha-talash.md`
+- `person/abdelaziz-thaalbi` — strip the mention; rewrite the sentence without the group — files: `data/person/abdelaziz-thaalbi.yaml`, `content/ar/person/abdelaziz-thaalbi.md`
+- `person/haider-al-abadi` — strip the mention; rewrite the sentence without the group — files: `data/person/haider-al-abadi.yaml`, `content/ur/person/haider-al-abadi.md`
+- `person/may-ziade` — strip the mention; rewrite the sentence without the group — files: `data/person/may-ziade.yaml`, `content/en/person/may-ziade.md`
+- `person/rachid-eljay` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/rachid-eljay.md`
+- `source/wikipedia-isa-ali-pantami-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-isa-ali-pantami-en.yaml`
+- `source/wikipedia-ahmed-yassin-ur` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-ahmed-yassin-ur.yaml`
+- `source/bbc-newsnight-2010` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/bbc-newsnight-2010.yaml`
+- `person/ziauddin-yousafzai` — strip the mention; rewrite the sentence without the group — files: `data/person/ziauddin-yousafzai.yaml`, `content/en/person/ziauddin-yousafzai.md`
+- `person/fawzia-koofi` — strip the mention; rewrite the sentence without the group — files: `data/person/fawzia-koofi.yaml`, `content/en/person/fawzia-koofi.md`
+- `person/burhanuddin-rabbani` — strip the mention; rewrite the sentence without the group — files: `data/person/burhanuddin-rabbani.yaml`, `content/en/person/burhanuddin-rabbani.md`
+- `person/hasan-ibn-ali` — strip the mention; rewrite the sentence without the group — files: `data/person/hasan-ibn-ali.yaml`
+- `person/samir-mustafa` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/samir-mustafa.md`, `content/en/person/samir-mustafa.md`, `content/ar/person/samir-mustafa.md`
+- `person/salima-mazari` — strip the mention; rewrite the sentence without the group — files: `data/person/salima-mazari.yaml`, `content/en/person/salima-mazari.md`
+- `person/habiba-sarabi` — strip the mention; rewrite the sentence without the group — files: `data/person/habiba-sarabi.yaml`, `content/en/person/habiba-sarabi.md`
+- `source/jewish-journal-zahra-billoo` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/jewish-journal-zahra-billoo.yaml`
+- `source/wikipedia-ramadan-al-bouti-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-ramadan-al-bouti-en.yaml`
+- `source/wikidata-ahmed-yassin` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikidata-ahmed-yassin.yaml`
+- `source/wikipedia-ali-bach-hamba-ar` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-ali-bach-hamba-ar.yaml`
+- `source/alsiyars-samir-mustafa` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/alsiyars-samir-mustafa.yaml`
+- `source/borderless-salima-mazari-2022` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/borderless-salima-mazari-2022.yaml`
+- `source/wikipedia-ali-bach-hamba-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-ali-bach-hamba-en.yaml`
+- `source/wikipedia-benazir-bhutto-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-benazir-bhutto-en.yaml`
+- `person/abdallah-bin-bayyah` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/abdallah-bin-bayyah.md`
+- `source/wikipedia-palestine-dialogue-ar` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-palestine-dialogue-ar.yaml`
+- `source/wikipedia-may-ziade-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-may-ziade-en.yaml`
+- `source/wikipedia-bechir-sfar-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-bechir-sfar-en.yaml`
+- `source/magsaysay-habiba-sarabi` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/magsaysay-habiba-sarabi.yaml`
+- `source/wikipedia-mustafa-busuladzic-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-mustafa-busuladzic-en.yaml`
+- `source/wikipedia-manizha-talash-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-manizha-talash-en.yaml`
+- `source/wikipedia-najibullah-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-najibullah-en.yaml`
+- `source/wikipedia-muhammad-al-yaqoubi-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-muhammad-al-yaqoubi-en.yaml`
+- `source/wikipedia-mohamed-lasram-ar` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-mohamed-lasram-ar.yaml`
+- `source/wikipedia-ahmed-al-sharaa-en` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-ahmed-al-sharaa-en.yaml`
+- `person/halimah-yacob` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/halimah-yacob.md`
+- `source/wikipedia-ahmed-yassin-ar` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/wikipedia-ahmed-yassin-ar.yaml`
+- `source/damas-muhammad-al-yaqoubi` — EDIT or REMOVE with its entity (Wikipedia/news pointer) — files: `data/source/damas-muhammad-al-yaqoubi.yaml`
+- `other/data/_stubs.d/muwatta-prose.yaml` — strip the mention; rewrite the sentence without the group — files: `data/_stubs.d/muwatta-prose.yaml`
+- `person/ahmet-davutoglu` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/ahmet-davutoglu.md`, `content/en/person/ahmet-davutoglu.md`
+- `person/rehman-chishti` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/rehman-chishti.md`, `content/en/person/rehman-chishti.md`, `content/ar/person/rehman-chishti.md`
+- `work/palestine-dialogue-network` — strip the mention; rewrite the sentence without the group — files: `content/en/work/palestine-dialogue-network.md`, `content/ar/work/palestine-dialogue-network.md`
+- `concept/al-dimuqratiyya-wal-sharia` — strip the mention; rewrite the sentence without the group — files: `content/en/concept/al-dimuqratiyya-wal-sharia.md`
+- `person/eyad-qunaibi` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/eyad-qunaibi.md`, `content/en/person/eyad-qunaibi.md`, `content/ar/person/eyad-qunaibi.md`
+- `passage/muwatta-31-2597` — strip the mention; rewrite the sentence without the group — files: `content/en/passage/muwatta-31-2597.md`, `content/ar/passage/muwatta-31-2597.md`, `content/ur/passage/muwatta-31-2597.md`, `data/passage/muwatta-31-2597.yaml`
+- `screen/smaha-malala-2015` — strip the mention; rewrite the sentence without the group — files: `content/en/screen/smaha-malala-2015.md`
+- `screen/buda-2007` — strip the mention; rewrite the sentence without the group — files: `content/en/screen/buda-2007.md`
+- `screen/sawamit-kabul-2019` — strip the mention; rewrite the sentence without the group — files: `content/en/screen/sawamit-kabul-2019.md`
+- `screen/fi-al-khamsa-asr-2003` — strip the mention; rewrite the sentence without the group — files: `content/en/screen/fi-al-khamsa-asr-2003.md`
+- `concept/al-muqawama-wal-irhab` — strip the mention; rewrite the sentence without the group — files: `content/en/concept/al-muqawama-wal-irhab.md`
+- `person/hamza-yusuf` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/hamza-yusuf.md`, `content/en/person/hamza-yusuf.md`
+- `passage/quran-2-251` — strip the mention; rewrite the sentence without the group — files: `content/ar/passage/quran-2-251.md`
+- `person/mustafa-al-kadhimi` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/mustafa-al-kadhimi.md`, `content/en/person/mustafa-al-kadhimi.md`, `content/ar/person/mustafa-al-kadhimi.md`
+- `person/yasir-qadhi` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/yasir-qadhi.md`, `content/en/person/yasir-qadhi.md`
+- `person/hamza-tzortzis` — strip the mention; rewrite the sentence without the group — files: `content/ur/person/hamza-tzortzis.md`
+- `work/saheeh-international-quran` — strip the mention; rewrite the sentence without the group — files: `content/ar/work/saheeh-international-quran.md`
+- `passage/quran-5-56` — strip the mention; rewrite the sentence without the group — files: `data/passage/quran-5-56.yaml`
+- `passage/quran-58-22` — strip the mention; rewrite the sentence without the group — files: `data/passage/quran-58-22.yaml`
+- `person/abdullah-ii` — strip the mention; rewrite the sentence without the group — files: `content/en/person/abdullah-ii.md`, `content/ar/person/abdullah-ii.md`
+- `group/islamic-relief` — strip the mention; rewrite the sentence without the group — files: `content/en/group/islamic-relief.md`
+- `person/yasser-arafat` — strip the mention; rewrite the sentence without the group — files: `content/en/person/yasser-arafat.md`
+- `group/ajarida` — strip the mention; rewrite the sentence without the group — files: `content/en/group/ajarida.md`
+- `person/ali-gomaa` — strip the mention; rewrite the sentence without the group — files: `content/en/person/ali-gomaa.md`, `content/ar/person/ali-gomaa.md`
+- `person/amr-khaled` — strip the mention; rewrite the sentence without the group — files: `content/en/person/amr-khaled.md`, `content/ar/person/amr-khaled.md`
+- `person/abdiweli-mohamed-ali` — strip the mention; rewrite the sentence without the group — files: `content/en/person/abdiweli-mohamed-ali.md`, `content/ar/person/abdiweli-mohamed-ali.md`
+- `person/tariq-ramadan` — strip the mention; rewrite the sentence without the group — files: `content/en/person/tariq-ramadan.md`
+- `person/sharmeen-obaid-chinoy` — strip the mention; rewrite the sentence without the group — files: `content/en/person/sharmeen-obaid-chinoy.md`
+- `person/hassan-el-kettani` — strip the mention; rewrite the sentence without the group — files: `content/en/person/hassan-el-kettani.md`, `content/ar/person/hassan-el-kettani.md`
+- `person/abul-ala-maududi` — strip the mention; rewrite the sentence without the group — files: `content/en/person/abul-ala-maududi.md`
+- `person/mustafa-tlass` — strip the mention; rewrite the sentence without the group — files: `content/en/person/mustafa-tlass.md`
+- `person/samira-ahmed` — strip the mention; rewrite the sentence without the group — files: `content/en/person/samira-ahmed.md`
+- `person/benazir-bhutto` — strip the mention; rewrite the sentence without the group — files: `content/en/person/benazir-bhutto.md`
+- `person/rushanara-ali` — strip the mention; rewrite the sentence without the group — files: `content/en/person/rushanara-ali.md`
+- `person/sayyid-qutb` — strip the mention; rewrite the sentence without the group — files: `content/en/person/sayyid-qutb.md`, `content/ar/person/sayyid-qutb.md`
+- `person/ilwad-elman` — strip the mention; rewrite the sentence without the group — files: `content/en/person/ilwad-elman.md`, `content/ar/person/ilwad-elman.md`
+- `person/majid-majidi` — strip the mention; rewrite the sentence without the group — files: `content/en/person/majid-majidi.md`
+- `person/yusuf-al-qaradawi` — strip the mention; rewrite the sentence without the group — files: `content/en/person/yusuf-al-qaradawi.md`, `content/ar/person/yusuf-al-qaradawi.md`
+- `person/linda-sarsour` — strip the mention; rewrite the sentence without the group — files: `content/en/person/linda-sarsour.md`
+- `person/rashida-tlaib` — strip the mention; rewrite the sentence without the group — files: `content/en/person/rashida-tlaib.md`
+- `person/sibghatullah-mojaddedi` — strip the mention; rewrite the sentence without the group — files: `content/en/person/sibghatullah-mojaddedi.md`
+- `person/gilles-kepel` — strip the mention; rewrite the sentence without the group — files: `content/en/person/gilles-kepel.md`
+- `person/zahra-billoo` — strip the mention; rewrite the sentence without the group — files: `content/en/person/zahra-billoo.md`
+- `person/tawakkol-karman` — strip the mention; rewrite the sentence without the group — files: `content/en/person/tawakkol-karman.md`, `content/ar/person/tawakkol-karman.md`
+- `person/samira-asghari` — strip the mention; rewrite the sentence without the group — files: `content/en/person/samira-asghari.md`
+- `person/jaafar-mahmud-adam` — strip the mention; rewrite the sentence without the group — files: `content/en/person/jaafar-mahmud-adam.md`, `content/ar/person/jaafar-mahmud-adam.md`
+- `person/fatih-terim` — strip the mention; rewrite the sentence without the group — files: `content/en/person/fatih-terim.md`
+- `person/ingrid-mattson` — strip the mention; rewrite the sentence without the group — files: `content/en/person/ingrid-mattson.md`
+- `person/ali-mamlouk` — strip the mention; rewrite the sentence without the group — files: `content/en/person/ali-mamlouk.md`, `content/ar/person/ali-mamlouk.md`
+- `person/recep-tayyip-erdogan` — strip the mention; rewrite the sentence without the group — files: `content/en/person/recep-tayyip-erdogan.md`
+- `person/ali-daei` — strip the mention; rewrite the sentence without the group — files: `content/en/person/ali-daei.md`
+- `person/riad-al-asaad` — strip the mention; rewrite the sentence without the group — files: `content/en/person/riad-al-asaad.md`, `content/ar/person/riad-al-asaad.md`
+- `person/ramadan-al-buti-muhammad-said` — strip the mention; rewrite the sentence without the group — files: `content/en/person/ramadan-al-buti-muhammad-said.md`, `content/ar/person/ramadan-al-buti-muhammad-said.md`
+- `person/dave-chappelle` — strip the mention; rewrite the sentence without the group — files: `content/en/person/dave-chappelle.md`
+- `person/abderrazak-hamdallah` — strip the mention; rewrite the sentence without the group — files: `content/en/person/abderrazak-hamdallah.md`
+- `person/pir-baba` — strip the mention; rewrite the sentence without the group — files: `content/en/person/pir-baba.md`
+- `person/mahmoud-abbas` — strip the mention; rewrite the sentence without the group — files: `content/en/person/mahmoud-abbas.md`
+- `person/hassan-sheikh-mohamud` — strip the mention; rewrite the sentence without the group — files: `content/en/person/hassan-sheikh-mohamud.md`, `content/ar/person/hassan-sheikh-mohamud.md`
+- `person/waseem-youssef` — strip the mention; rewrite the sentence without the group — files: `content/en/person/waseem-youssef.md`, `content/ar/person/waseem-youssef.md`
+- `person/ahmed-el-tayeb` — strip the mention; rewrite the sentence without the group — files: `content/en/person/ahmed-el-tayeb.md`, `content/ar/person/ahmed-el-tayeb.md`
+- `person/nazli-fazl` — strip the mention; rewrite the sentence without the group — files: `content/ar/person/nazli-fazl.md`
+- `person/ahmed-deedat` — strip the mention; rewrite the sentence without the group — files: `content/ar/person/ahmed-deedat.md`
+- `person/sayyid-mir-muhammad-alim-khan` — strip the mention; rewrite the sentence without the group — files: `content/ar/person/sayyid-mir-muhammad-alim-khan.md`
+

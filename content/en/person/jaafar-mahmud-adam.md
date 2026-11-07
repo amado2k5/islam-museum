@@ -15,7 +15,7 @@ Based mainly in Kano, Ja'afar became one of northern Nigeria's best-known preach
 
 ## Assassination
 
-Ja'afar was shot dead during the dawn (Subh) prayer in his mosque in Kano on 13 April 2007 {cite:wikipedia-jaafar-mahmud-adam-en} {cite:wikipedia-jaafar-mahmud-adam-ar}. Responsibility was disputed at the time — some blamed Boko Haram, others political motives — a later book by Abu Musab al-Barnawi attributed the killing to the "Nigerian Taliban", and later research has pointed to factional violence within early Boko Haram-related groups as the likeliest explanation {cite:wikipedia-jaafar-mahmud-adam-en}.
+Ja'afar was shot dead during the dawn (Subh) prayer in his mosque in Kano on 13 April 2007 {cite:wikipedia-jaafar-mahmud-adam-en} {cite:wikipedia-jaafar-mahmud-adam-ar}. Responsibility was disputed at the time — some pointed to political motives — and later research has pointed to factional violence within early militant groups as the likeliest explanation {cite:wikipedia-jaafar-mahmud-adam-en}.
 
 ## Affiliation, as the sources attest it
 

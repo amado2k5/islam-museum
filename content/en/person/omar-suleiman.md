@@ -26,8 +26,6 @@ He led airport demonstrations in Dallas against the Trump administration's trave
 
 Since 2015 he has frequently visited Syrian refugee camps, delivering aid with Helping Hand for Relief and Development, including the Zaatari camp on the Jordanian-Syrian border. {cite:wikipedia-omar-suleiman-en} {cite:wikipedia-omar-suleiman-ar}
 
-In March 2017, ISIS published a propaganda film, *Kill the Apostate Imams*, calling for the assassination of Suleiman and other Western-based scholars, in response to an interfaith video he had made with an American pastor calling for unity between Christians and Muslims. He responded: "I believe that their venom needs to be condemned. They've hijacked my religion." {cite:wikipedia-omar-suleiman-en}
-
 On 9 May 2019 he served as guest chaplain of the U.S. House of Representatives and delivered the day's opening invocation, at the invitation of Representative Eddie Bernice Johnson. {cite:wikipedia-omar-suleiman-en}
 
 ## Perspectives and criticism
