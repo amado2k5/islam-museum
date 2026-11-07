@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.3.0 — 2026-11-06
 
 ### Added
+- **Inventions Browser97 — Karkh market relocation.** Adds an Arabic-first, English and Urdu account of the market move attributed to al-Mansur in773CE, distinguishing the stated security rationale from any unproved outcome; reuses the historical city map only as context and preserves the arcades' documented later guard use.
 - **Quran.com discovery plan (`docs/plan/28-quran-com-enrichment.md`).** Records the founder's choice, on 6 November 2026, to use Quran.com's public catalogs only to discover which commentary, translation and reciter editions exist, checked against books. The Developer Terms bar raw API data in `data/` and caching beyond seven days, so no API text enters the museum's data; the plan lists the phases and what stays out.
 - **Tafsir Browser search (Phase 4).** The Tafsir Browser's volume pages are now indexed the same way as the landing page: the volume header is searchable by name, and the long verse list on each volume page is kept out of the search index so it is not flooded with verse numbers. A test guards the markup.
 - Inventions Browser94: Baghdad's commissioned round-city nucleus plan in Arabic, English and Urdu, crediting older circular-city precedents and distinguishing foundation, occupation and completion. Source disagreements remain explicit; the inspected1900map is a reconstruction, not a762survey. Existing maker/city accounts and political perspectives preserved.
