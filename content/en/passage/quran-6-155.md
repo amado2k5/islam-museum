@@ -14,6 +14,6 @@ Then, on "as guidance and mercy, so that they may believe in the meeting with th
 
 Then, on "and this is a blessed Book that We have sent down, so follow it and be mindful, that you may receive mercy", he says it means this Qur'an that We sent down to our Prophet Muhammad, a blessed Book; "so follow it" means make it an imam that you follow and act on its contents, people. The editor refers to the earlier commentary on "blessed" and "following". {cite:tafsir-tabari-shakir-v12 p. 238}
 
-We stop here at the foot of p. 238, in verse 155 after "so follow it" in "and this is a blessed Book that We have sent down"; the next batch continues from p. 239.
+"Be mindful of God" means beware God regarding yourselves, lest you neglect to act on what the Book contains, transgress its limits or treat its prohibitions as lawful. He gives (14179) from Qatada that the blessed Book is the Qur'an, which God sent down to Muhammad, and "follow it" means follow its lawful and hold its forbidden as forbidden; and "that you may receive mercy" means that you be shown mercy and escape God's punishment and painful retribution. {cite:tafsir-tabari-shakir-v12 p. 239}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
