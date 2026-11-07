@@ -1,0 +1,32 @@
+id: person/mohammad-al-sammak
+class: person
+label: { ar: "محمد السماك", en: "Mohammad al-Sammak", ur: "محمد السماک" }
+names:
+  - { value: "محمد السمّاك", kind: full }
+  - { value: "Mohammad El-Sammak", kind: alternate }
+  - { value: "Mohammad Sammak", kind: alternate }
+gender: male
+summary:
+  ar: "مفكر وكاتب وصحفي لبناني المولد ⁦(1936 أو 1939)⁩، الأمين العام للجنة الوطنية الإسلامية المسيحية للحوار وللقمة الروحية الإسلامية في لبنان، ومستشار مفتي الجمهورية اللبنانية، وعضو مجلس إدارة مركز الملك عبد الله العالمي للحوار بين أتباع الأديان والثقافات، نال جائزة الملك فيصل لخدمة الإسلام (2024)."
+  en: "Lebanese-born thinker, writer and journalist (born 1936 or 1939), secretary-general of the National Islamic-Christian Committee for Dialogue and of the Islamic Spiritual Summit in Lebanon, adviser to the Mufti of Lebanon and board member of the King Abdullah International Centre for Interreligious and Intercultural Dialogue; King Faisal Prize for Service to Islam (2024)."
+  ur: "لبنان میں پیدا ہونے والے مفکر، مصنف اور صحافی ⁦(پیدائش 1936ء یا 1939ء)⁩، لبنان کی قومی اسلامی مسیحی مکالمہ کمیٹی اور اسلامی روحانی سربراہی اجلاس کے سیکرٹری جنرل، مفتیِ لبنان کے مشیر اور شاہ عبد اللہ بین الاقوامی مرکز برائے بین المذاہب و بین الثقافتی مکالمہ کے بورڈ کے رکن؛ شاہ فیصل انعام برائے خدمتِ اسلام ⁦(2024ء)⁩۔"
+wings: [people]
+regions: [levant-iraq]
+roles: [writer, journalist, activist]
+born: { edtf: "1936/1939", calendar: gregorian, precision: year, status: debated, derived: false, note: "The Arabic article and Wikidata give 1936, in Beirut; the prize's page gives 1939, in Beirut. Both readings are kept.", sources: [source/wikipedia-mohammad-al-sammak-ar, source/wikidata-mohammad-al-sammak, source/king-faisal-prize-laureates] }
+relations:
+  - { type: born_in, target: place/bayrut, sources: [source/wikipedia-mohammad-al-sammak-ar, source/wikidata-mohammad-al-sammak, source/king-faisal-prize-laureates] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No sentence in the sources read states his own religious affiliation in his words; the prize's praise is the award body's voice. Not recorded."
+    sources: [source/wikipedia-mohammad-al-sammak-ar, source/wikidata-mohammad-al-sammak, source/king-faisal-prize-laureates]
+footprint:
+  wikipedia: { languages: [ar, de], checked: "2026-11-07", sources: [source/wikidata-mohammad-al-sammak] }
+  wikidata: "Q15439752"
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 2024, sources: [source/king-faisal-prize-laureates] }
+external_ids: { wikidata: "Q15439752" }
+sources: [source/wikipedia-mohammad-al-sammak-ar, source/wikidata-mohammad-al-sammak, source/king-faisal-prize-laureates]
+provenance: { layer: own-research, source: "Arabic Wikipedia «محمد السماك» (revision 76623446), Wikidata Q15439752 (revision 2554150958) and kingfaisalprize.org/mr-mohammad-al-sammak/, read on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b10 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
