@@ -9,3 +9,11 @@ Verse 24 of [[passage/quran-7|Surat al-A'raf]], a Meccan surah. {cite:tanzil-qur
 
 ## Place in the museum
 Its place: verse 24 of 206 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+Then, on "He said: go down, some of you enemies to others; on earth you will have a dwelling place and enjoyment for a time", he says: this is a report from God of what He did with Iblis and his offspring, Adam and his children and the serpent; God says to Adam, Eve, Iblis and the serpent, go down from heaven to earth, some of you enemies of others. He gives (14413) from al-Suddi that He cursed the serpent, cut off its legs, left it to go on its belly and made its provision of dust, and Adam, Eve, Iblis and the serpent were sent down to earth; and (14414) from Abu Salih that they were Adam, Eve and the serpent. {cite:tafsir-tabari-shakir-v12 p. 358}
+
+"On earth you will have a dwelling place" means, Adam, Eve, Iblis and serpent, you have on earth a place of settled rest that you settle in and a bed you spread; he gives (14415) from Abu al-Aliya that this is His words in [[passage/quran-2-22|2:22]], "who made the earth a bed for you"; and it is reported from Ibn Abbas, (14416), that "dwelling place" means the graves. {cite:tafsir-tabari-shakir-v12 p. 358}
+
+We stop here at the foot of printed p. 358, in verse 24 of Surat al-A'raf after report 14416; the next batch continues from printed p. 359 (marker 363).
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
