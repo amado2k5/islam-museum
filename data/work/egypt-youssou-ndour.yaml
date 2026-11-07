@@ -1,0 +1,48 @@
+id: work/egypt-youssou-ndour
+class: work
+kind: album
+label: { ar: "مصر ⁦(ألبوم يوسو ندور)⁩", en: "Egypt (Youssou N'Dour album)", ur: "اِجپٹ ⁦(یوسو اندور کا البم)⁩" }
+summary:
+  ar: "ألبوم المغني السنغالي يوسو ندور مع أوركسترا فتحي سلامة المصرية، صدر عن نونساتش في 8 يونيو 2004 باسم «مصر» وفي السنغال باسم «شكرا لله»؛ أغانيه بالولوفية في مديح مشايخ الطرق الصوفية في السنغال مثل أحمدو بمبا، ونال جائزة غرامي لأفضل ألبوم موسيقى عالمية معاصرة، وأثار جدلا في السنغال ومصر."
+  en: "The Senegalese singer Youssou N'Dour's album with the Egyptian Fathy Salama Orchestra, released by Nonesuch on 8 June 2004 as Egypt and in Senegal as Sant Allah (Thanks to God); its Wolof songs praise the Sufi masters of Senegal such as Amadou Bamba, it won the Grammy for Best Contemporary World Music Album, and it was boycotted in Senegal and banned in Egypt."
+  ur: "سینیگال کے گلوکار یوسو اندور کا مصری فتحی سلامہ آرکسٹرا کے ساتھ البم، 8 جون 2004 کو نونسچ سے جاری ہوا؛ وولوف گیت سینیگال کے صوفی مشائخ جیسے احمدو بامبا کی مدح میں ہیں، اسے بہترین معاصر عالمی موسیقی البم کا گریمی ملا، اور سینیگال و مصر میں اس پر تنازع ہوا۔"
+wings: [today, words]
+themes: [music]
+regions: [west-africa-sahel, egypt-nile]
+genre: [sufi, folk]
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-egypt-youssou-ndour-en] }
+composed: { edtf: "2004-06-08", hijri: "1425", calendar: gregorian, precision: day, derived: true, note: "Released 8 June 2004; recorded largely in Dakar in 1999, with overdubs in Cairo, and held back from a planned 2001 release. The Hijri year is converter-derived.", sources: [source/wikipedia-egypt-youssou-ndour-en, source/wikidata-egypt-youssou-ndour] }
+languages: [wo]
+duration: 2470   # seconds; 41:10
+tracks:
+  - { n: 1, title: { en: "Allah" }, duration_s: 372, lang: wo, performers: [person/youssou-ndour], sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { n: 2, title: { en: "Shukran Bamba" }, duration_s: 332, lang: wo, performers: [person/youssou-ndour], sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { n: 3, title: { en: "Mahdiyu Laye" }, duration_s: 299, lang: wo, performers: [person/youssou-ndour], sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { n: 4, title: { en: "Tijaniyya" }, duration_s: 347, lang: wo, performers: [person/youssou-ndour], sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { n: 5, title: { en: "Baay Niasse" }, duration_s: 320, lang: wo, performers: [person/youssou-ndour], sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { n: 6, title: { en: "Bamba the Poet" }, duration_s: 233, lang: wo, performers: [person/youssou-ndour], sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { n: 7, title: { en: "Cheikh Ibra Fall" }, duration_s: 218, lang: wo, performers: [person/youssou-ndour], sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { n: 8, title: { en: "Touba - Daru Salaam" }, duration_s: 349, lang: wo, performers: [person/youssou-ndour], note: "the song with the most French loanwords", sources: [source/wikipedia-egypt-youssou-ndour-en] }
+honours:
+  - { award: award/grammy-awards, category: "Best Contemporary World Music Album", result: won, year: 2005, note: "the 47th ceremony (February 2005), listed under 2005 in the category's article; the album's article calls it the 2004 Grammy by release year, and it is N'Dour's only Grammy", sources: [source/wikipedia-egypt-youssou-ndour-en, source/wikipedia-grammy-best-contemporary-world-music-album-en] }
+  - { award: award/uk-albums-chart, result: ranked, position: 148, year: 2004, sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { award: award/billboard-world-albums, result: ranked, position: 6, year: 2004, sources: [source/wikipedia-egypt-youssou-ndour-en] }
+footprint:
+  wikipedia: { languages: [ar, bn, en, fr], checked: "2026-11-06", sources: [source/wikidata-egypt-youssou-ndour] }
+  wikidata: "Q5348317"
+relations:
+  - { type: performed_by, target: person/youssou-ndour, sources: [source/wikipedia-egypt-youssou-ndour-en, source/wikidata-egypt-youssou-ndour] }
+  - { type: composed_by, target: person/youssou-ndour, note: "all tracks by Youssou N'Dour; Fathy Salama arranged and conducted", sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { type: work_produced_by, target: person/youssou-ndour, note: "produced with Fathy Salama", sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { type: about, target: person/amadou-bamba, note: "'Shukran Bamba', 'Bamba the Poet' and 'Touba - Daru Salaam' are dedicated to the founder of the Mouride brotherhood", sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { type: about, target: person/ibrahim-niass, note: "'Baay Niasse' names the Tijani master Ibrahim Niass", sources: [source/wikipedia-egypt-youssou-ndour-en] }
+  - { type: about, target: person/umm-kulthum, note: "the album's title is a tribute to her, a favourite of N'Dour's father", sources: [source/wikipedia-egypt-youssou-ndour-en] }
+external_ids: { wikidata: "Q5348317" }
+sources: [source/wikipedia-egypt-youssou-ndour-en, source/wikidata-egypt-youssou-ndour, source/wikipedia-grammy-best-contemporary-world-music-album-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Egypt (album)' (revision 1373956979 of 8 September 2026, citing the Village Voice, Reuters, the BBC, The Observer, NPR, The Guardian, Popular Music and the Associated Press), Wikidata Q5348317 (revision 2296998350) and the English article on the Grammy category (revision 1336339650), read in Chrome on the founder's Mac on 6 November 2026; N'Dour's Mouride affiliation is the article's sentence about the album and is not written as a faith value on his person record"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
