@@ -16,6 +16,8 @@ open a new block on top with the new version and today's date.
 ## v1.3.0 — 2026-11-06
 
 ### Added
+- Inventions Browser94: Baghdad's commissioned round-city nucleus plan in Arabic, English and Urdu, crediting older circular-city precedents and distinguishing foundation, occupation and completion. Source disagreements remain explicit; the inspected1900map is a reconstruction, not a762survey. Existing maker/city accounts and political perspectives preserved.
+- Tafsir Browser (phase 3): `/api/v1/tafsir.json` exports the Jami' al-Bayan commentary and its volumes 1 to 9 with their verse coverage, documented in the data guide, the OpenAPI file and llms.txt. Submission-impacting: the data-extraction route, with the founder's sign-off in chat.
 - Inventions Browser93: al-Mahdi's central zimam oversight, in Arabic, English and Urdu, distinguishing departmental account checks from later central coordination. Earlier seal practices, individual identity evidence and political accounts remain separate; the inspected nineteenth-century ledger cover is context, not an Abbasid form or a claim of modern independent audit.
 - Inventions Browser91: Muawiya's seal-and-copy registry, Arabic/English/Urdu account of checking, sealing and reference copies, with older administrative influences and attribution limits. Modern sealed letters are explicit context, not an original artifact or proof of historic wax; all earlier maker perspectives and registry prose remain intact.
 - Inventions Browser92: Abd al-Malik's Arabic fiscal-register reform, full Arabic/English/Urdu account of phased language transfer, translators and inherited expertise; earlier bilingual papyrus is context, not a reform register. Existing political assessments and all prior invention content preserved.
@@ -88,6 +90,8 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's commentary on verses 160 to 162 of sura 4 is filed from printed p. 391 to p. 398 (reports 10836 to 10838): the forbidden usury, bribes and the price of books; the painful punishment for the unbelievers among them; and the firm in knowledge among the People of the Book, with the grammatical and scribal discussion of 'those who establish prayer', in Arabic, English and Urdu.
 - Al-Tabari's commentary on verse 162 of sura 4 closes at p. 399, and verse 163 is filed from p. 399 to p. 405 (reports 10839 to 10844): the revelation to Muhammad as to Noah and the prophets, the reports on the Jews' claim that God sent nothing after Moses, the readings of the Psalms, and God's speech to Moses, in Arabic, English and Urdu.
 - Al-Tabari's commentary on verses 163 to 170 of sura 4 is filed from printed p. 405 to p. 412 (reports 10845 to 10852): the reports on God's speech to Moses, the messengers as good news and warning so that no argument remains, the witness of God and the angels to Muhammad's prophethood, the barring from God's way, the eternal punishment of those who disbelieve and do wrong, and the call to believe, in Arabic, English and Urdu.
+- Al-Tabari's commentary on verse 170 of sura 4 closes at p. 413 with the grammatical views on 'better for you', and verse 171 is filed from p. 415 to p. 419 (report 10853 to 10854): exaggeration in religion, Jesus as God's messenger and word, the meaning of 'Messiah', and the spirit from God, in Arabic, English and Urdu.
+- Al-Tabari's commentary on verse 171 of sura 4 closes at p. 424 (the views on 'a spirit from Him', the Trinity, God's oneness, and Jesus as a servant), verse 172 is filed from p. 424 to p. 425 (reports 10856 to 10857), and verse 173 is begun at p. 426, in Arabic, English and Urdu.
 
 ### Changed
 - The Modern Islam Browser now names the voices of worship and devotional song (founder's request, 6 November 2026): four person roles, `reciter`, `muezzin`, `munshid` and `sufi-singer`, join the role list, and the Figures section gains a field, "Reciters, muezzins and munshids", listed first so that a reciter who also preaches is filed with the reciters. The 48 person records that already carry one of these roles are gathered there at once (those with a dated fact from 1976 on appear in the browser). Three audio genres are added for recordings: Qur'an recitation and the call to prayer, each labelled "not music" in all three languages, and Sufi inshad and hadra. The operative prompt and plan 26 say how to write these records (riwaya, the muezzin's mosque and years, Qur'an text never typed, a Sufi repertoire never taken as a faith attestation), and the seeds list several hundred named leads with their generators.
@@ -95,6 +99,27 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses (Urdu, batch 21): brackets are isolated only inside Urdu values in 37 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 20): brackets are isolated only inside Urdu values in 60 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 19): brackets are isolated only inside Urdu values in 79 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 18): brackets are isolated only inside Urdu values in 64 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 17): brackets are isolated only inside Urdu values in 49 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 16): brackets are isolated only inside Urdu values in 43 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 15): brackets are isolated only inside Urdu values in 15 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 14): brackets are isolated only inside Urdu values in 46 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 13): brackets are isolated only inside Urdu values in 51 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 12): brackets are isolated only inside Urdu values in 26 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 11): brackets are isolated only inside Urdu values in 29 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 10): brackets are isolated only inside Urdu values in 15 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 9): brackets are isolated only inside Urdu values in 9 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 8): brackets are isolated only inside Urdu values in 9 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 7): brackets are isolated only inside Urdu values in 3 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 6): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 5): brackets are isolated only inside Urdu values in 3 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 4): brackets are isolated only inside Urdu values in 4 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 3): brackets are isolated only inside Urdu values in 5 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 2): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 1): brackets are isolated only inside Urdu values in 9 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (scope corrected, batch 60): brackets are isolated in Arabic prose in 32 data files. English and Urdu are not touched.
 - Arabic parentheses (scope corrected, batch 59): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.
 - Arabic parentheses (scope corrected, batch 58): brackets are isolated in Arabic prose in 100 data files. English and Urdu are not touched.

@@ -41,6 +41,7 @@ The static JSON API repeats the licence of each record in a `license` field. Att
    | `https://api.islam.museum/api/v1/modern/top/<list>.json` | A reach index (`songs`, `albums`, `websites`, `channels`, `books`): scores computed from cited inputs with the printed formula and weights; not a ranking by taste |
    | `https://api.islam.museum/api/v1/jobs.json` | Job Browser: every job with domain, kind, craft flag, era, its edges and its holders (persons whose `occupations:` name it) |
    | `https://api.islam.museum/api/v1/fatwa.json` | Fatwa Explorer: every fatwa and fatwa collection with publisher, URL, languages, dates and its edges (mufti, basis, chain) |
+   | `https://api.islam.museum/api/v1/tafsir.json` | Tafsir Browser: the commentary (Jami' al-Bayan) and each of its volumes as `tafsir-volume` works, with `part_of` and `about` edges to the verses each volume covers |
    | `https://api.islam.museum/api/v1/khutab.json` | Khutab and Durus Explorer: every sermon, lesson and lecture series with speaker, occasion, host, audience, series order and edges |
    | `https://api.islam.museum/api/v1/poetry.json` | Poetry: every poem and diwan with its poets, language, genre, metre and edges |
    | `https://api.islam.museum/api/v1/screens.json` | Screening Room: every film, series and programme with format, relevance, titles, release, countries, languages, approach, depiction, database ids and edges |

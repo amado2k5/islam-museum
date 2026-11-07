@@ -222,4 +222,6 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 18: pp. 392-398 filed in ar, en and ur (reports 10836-10838): verse 160 closes at p. 392, verse 161 is filed in full, and verse 162 is filed to p. 398.
 - Batch 19: pp. 399-405 filed in ar, en and ur (reports 10839-10844): verse 162 closes at p. 399 and verse 163 is filed to report 10844 at p. 405.
 - Batch 20: pp. 406-412 filed in ar, en and ur (reports 10845-10852): verses 163 to 170 are filed to the foot of p. 412.
-- Progress: current report 10852, printed p. 410. Next is the rest of verse 170 from printed p. 412 on.
+- Batch 21: pp. 413-419 filed in ar, en and ur (reports 10853-10854): verse 170 closes at p. 413 and verse 171 is filed to report 10854 at p. 419.
+- Batch 22: pp. 420-426 filed in ar, en and ur (reports 10855-10857): verse 171 closes at p. 424, verse 172 is filed to p. 425, and verse 173 is begun at p. 426.
+- Progress: current report 10857, printed p. 425. Next is verse 173 from printed p. 426 on (the reward beyond ten-fold continues there).
