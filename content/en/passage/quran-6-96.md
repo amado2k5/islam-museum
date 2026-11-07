@@ -32,8 +32,10 @@ Others said the sense is he made the sun and moon light. 13611, from Qatada: tha
 
 The editor says Abu Jafar said "with kasra on the ha" while the dictionaries agree that it is with damma and do not mention a kasra here, and that the one who said what is reported of the Basran is al-Akhfash, as Lisan al-Arab shows.
 
-On "that is the ordaining of the mighty, the knowing" he says: this act that he described himself as doing, splitting the dawn, making the night for rest and the sun and moon for reckoning, is the ordaining of him whose authority is mighty, so none who wants to harm, punish or take vengeance on him can escape him, the knowing of the good of his creatures and their governance, not the ordaining of the images and idols that neither hear nor see, nor understand anything nor reason, neither harm nor benefit, and which, if harm is intended, cannot... {cite:tafsir-tabari-shakir-v11 p. 560}
+On "that is the ordaining of the mighty, the knowing" he says: this act that he described himself as doing, splitting the dawn, making the night for rest and the sun and moon for reckoning, is the ordaining of him whose authority is mighty, so none who wants to harm, punish or take vengeance on him can escape him, the knowing of the good of his creatures and their governance, not the ordaining of the images and idols that neither hear nor see, nor understand anything nor reason, neither harm nor benefit, and which, if harm is intended, cannot defend themselves from the one who intends it. He says, glorified be his praise: so make your worship pure, ignorant ones, for the doer of these things, and associate nothing else with him in his worship. {cite:tafsir-tabari-shakir-v11 p. 561}
 
-We stop here at the foot of p. 560, in the middle of al-Tabari's sentence on "that is the ordaining of the mighty, the knowing" in verse 96, and he continues on p. 561.
+The editor refers for "the mighty" and "the knowing" to earlier passages.
+
+Verse 96 closes here on p. 561, and al-Tabari goes on to [[passage/quran-6-97|6:97]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
