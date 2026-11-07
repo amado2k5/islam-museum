@@ -14,6 +14,6 @@ By "he is the all-subduing above his servants, and he is the wise, the aware" al
 
 The editor keeps "God prevails" from the manuscript and refers for "wise" and "aware" to the language indexes.
 
-We stop here at the foot of p. 288, after the commentary on verse 18, and al-Tabari begins verse 19 on p. 289.
+Verse 18 closes here at p. 288, and al-Tabari begins the commentary on [[passage/quran-6-19|6:19]] at p. 289.
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
