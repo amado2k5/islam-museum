@@ -1,5 +1,11 @@
 ---
 id: invention/barid
+status: { review: published }
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of the Arabic additions from directly reread TDV BERÎD, pp.498–501; original prose preserved."
 lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
@@ -30,6 +36,8 @@ Mu'awiya did not invent the idea of the barid, which the Persians and Byzantines
 Mu'awiya ibn Abi Sufyan was a Companion, with an entry in Ibn Hajar's al-Isaba {cite:ibn-hajar-isaba p. 1431}.
 
 ## How it works
+TDV adds an administrative layer to changing animals: station workers received allowances, and when a courier did not return, the animal was retained at the final station in the treasury's name; it was a network resource, not the courier's private property {cite:tdv-berid p.498-501}. Candidates for the postal office needed knowledge of the surroundings, roads, distances and stations, as well as trustworthiness; judges were consequently sometimes appointed {cite:tdv-berid p.498-501}. The account also describes a secret authentication sign shared by the postal official and ruler or commander: a letter without it was not trusted even when written in the official's recognizable handwriting, separating the validation of a message from the speed of its delivery {cite:tdv-berid p.498-501}.
+
 The road is divided into stages, and at each stage stands a station (sikka) with the post animals. In the Abbasid period the stations kept mules {cite:subh-al-asha-cairo-v14 p. 369}, and the Zangid state kept courier riders (najjabs) on picked camels for its news {cite:subh-al-asha-cairo-v14 p. 370}. The rider reaches the station, leaves his tired mount and takes another, or hands the letter to a new rider, so the letter hardly stops.
 
 The TDV encyclopedia says the post rider carried a silver token with the basmala and the caliph's name on one side and a verse of the Qur'an on the other, so that he would be known as the state's messenger and the stations would serve him. Besides animals, carrier pigeons ([[concept/pigeon-post|pigeon post]]) and fire signals were used in some periods {cite:tdv-berid p.498-501}.
