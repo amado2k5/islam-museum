@@ -694,6 +694,7 @@ open a new block on top with the new version and today's date.
 - al-Tabari, Jami' al-Bayan (Shakir edition), volume 12: printed pp. 431-437 filed in Arabic, English and Urdu for Surat al-A'raf 7:40-7:42 (reports 14635-14657), covering the end of the dispute over the reading al-jummal, 7:41 and 7:42.
 - Modern Islam Browser, music section batch 10 (content only, no deployment): by the founder's decision that a Muslim artist's secular albums get records when the artist is already in the browser for religious work, Junaid Jamshed's last two pop albums, *Us Rah Par* (1999), whose title song The Express Tribune read as a foreshadowing of his turn to naat, and *Dil Ki Baat* (2001 or 2002, both dates kept), now have records in Arabic, English and Urdu. Four source records.
 - al-Tabari v01 (Batch 1, Fatiha): the commentary on al-Fatiha begins in ar, en and ur under 1:1, vol. 1 pp. 107-113 (the names of the surah, the count of its verses, seeking refuge); stop sentence at the foot of p. 113.
+- al-Tabari v01 (Batch 2, Fatiha): the basmala under 1:1 in ar, en and ur, vol. 1 pp. 114-120 ("in the name": the hidden verb, name for naming, the slaughter rule, and a line of Labid); stop sentence at the foot of p. 120.
 
 ### Changed
 - Modern Islam Browser, web section (documents only, no deployment): the founder confirmed that the Palestinian discussion website's record stays as he approved it; his decision to keep out propaganda games applies to the games only.
