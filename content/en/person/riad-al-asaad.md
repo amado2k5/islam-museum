@@ -18,20 +18,20 @@ After UN observers entered Syria, al-Asaad announced a ceasefire committed to th
 On 25 March 2013 a car bomb explosion near Mayadin in eastern Syria wounded him; he was taken to Turkey for treatment, where his right leg was amputated. {cite:wikipedia-riad-al-asaad-en} {cite:wikipedia-riad-al-asaad-ar}
 
 ## The Salvation Government and after
-In late August 2017 al-Asaad attended a conference in Idlib from which the Syrian Salvation Government was established on 2 November 2017, and he was appointed its deputy prime minister for military affairs the same day, holding the post until 2024. {cite:wikipedia-riad-al-asaad-en}
+In late August 2017 al-Asaad attended a conference in Idlib held by Tahrir al-Sham from which the Syrian Salvation Government was established on 2 November 2017, and he was appointed its deputy prime minister for military affairs the same day, holding the post until 2024. {cite:wikipedia-riad-al-asaad-en} The article quotes him saying that Tahrir al-Sham had previously declared it would dissolve itself, "an external and internal demand". {cite:wikipedia-riad-al-asaad-en}
 
-In December 2024, after the fall of the Assad government, al-Asaad returned to Damascus. {cite:wikipedia-riad-al-asaad-en}
+In December 2024, after the fall of the Assad government, al-Asaad returned to Damascus and said the Free Syrian Army had been working closely with Hay'at Tahrir al-Sham, which had led the overthrow of the Assad regime. {cite:wikipedia-riad-al-asaad-en}
 
 ## Positions and criticism
 This section presents positions reported in the sources; it is not the museum's verdict on any of them.
 
 **His position within the FSA:** Colonel Kasim Saaduddin, an FSA member, stated that al-Asaad did not have control over the Free Syrian Army, which al-Asaad himself denied in interview. {cite:wikipedia-riad-al-asaad-en} On 8 December 2012, in Antalya, Turkey, he was replaced by Brigadier General Salim Idris as effective military commander of the FSA. {cite:wikipedia-riad-al-asaad-en} He also received criticism from opposition protesters in Salamiyah, whose protest of 3 August 2012 claimed that while their city protested for the first time, he was still working for Assad's regime. {cite:wikipedia-riad-al-asaad-en}
 
-**Assassination attempts:** In an August 2012 interview with the Voice of Russia, al-Asaad claimed the Syrian government had attempted to assassinate him several times and that he was guarded by Turkish intelligence. {cite:wikipedia-riad-al-asaad-en}
+**Assassination attempts:** In an August 2012 interview with the Voice of Russia, al-Asaad claimed the Syrian government had attempted to assassinate him several times and that he was guarded by Turkish intelligence. {cite:wikipedia-riad-al-asaad-en} After the March 2013 bombing that cost him his leg, the analyst Charles Lister's 2015 book "The Syrian Jihad" cites a senior Ahrar al-Sham leader as saying the group had secretly traced the attempt back to Jabhat al-Nusra, according to the article. {cite:wikipedia-riad-al-asaad-en}
 
-**The Salvation Government:** The Hawar Kilis Operations Room, part of the Turkish-backed Free Syrian Army, condemned al-Asaad over his role in the Salvation Government, according to the article. {cite:wikipedia-riad-al-asaad-en}
+**The Salvation Government:** The Hawar Kilis Operations Room, part of the Turkish-backed Free Syrian Army, condemned al-Asaad and accused him of conspiring with al-Qaeda over his role in the Salvation Government, according to the article. {cite:wikipedia-riad-al-asaad-en}
 
-**His statements:** The article describes some of his statements as controversial, including his suggestion that suicide bombing is "an integral part of revolutionary action, of Free Syrian Army action". {cite:wikipedia-riad-al-asaad-en} In a 2016 interview with the Turkish daily Yeni Şafak he asserted that the United States was "equally responsible as Assad, Russia and Iran" for the killing of hundreds of thousands of civilians in Syria. {cite:wikipedia-riad-al-asaad-en}
+**His statements:** The article describes some of his statements as controversial, including his suggestion that suicide bombing is "an integral part of revolutionary action, of Free Syrian Army action", and an undated video uploaded on 26 March 2013 in which he defended al-Nusra Front as "our brothers in Islam" and asserted that the FSA had provided direct support to al-Nusra against the Ba'ath government. {cite:wikipedia-riad-al-asaad-en} In a 2016 interview with the Turkish daily Yeni Şafak he said the Democratic Union Party (PYD) was more dangerous than ISIL, and asserted that the United States was "equally responsible as Assad, Russia and Iran" for the killing of hundreds of thousands of civilians in Syria. {cite:wikipedia-riad-al-asaad-en}
 
 ## References
 - "Riad al-Asaad", English Wikipedia, revision of 16 July 2026. {cite:wikipedia-riad-al-asaad-en}

@@ -22,7 +22,7 @@ This section sets out different positions as reported in the sources. It is not 
 
 **The Keele cancellation.** After Keele University cancelled a speech by Tzortzis, the *Stoke Sentinel* called him a "radical Islamic speaker" and a former member of Hizb ut-Tahrir. {cite:wikipedia-hamza-tzortzis-en}
 
-**His stated positions.** He has stated that he does not believe in apostasy laws, which he calls "outdated"; he criticises child marriage, and opposes extremism. He has also said that, while he still sees homosexuality as "sinful" in the eyes of God, he condemns any violence towards the homosexual community. {cite:wikipedia-hamza-tzortzis-en}
+**His stated positions.** He has stated that he does not believe in apostasy laws, which he calls "outdated"; he criticises child marriage, opposes extremism, and has described the Islamic State as "spiritually diseased, sick people." Nevertheless, India's National Investigation Agency named him in a 2016 chargesheet against Islamic State suspects as having directly or indirectly influenced them. He has also said that, while he still sees homosexuality as "sinful" in the eyes of God, he condemns any violence towards the homosexual community. {cite:wikipedia-hamza-tzortzis-en}
 
 **Academic discussion of his book.** Stefano Bigliardi examined Tzortzis's discussion of science in *The Divine Reality* in an article in the journal *Zygon* (2024). {cite:wikipedia-hamza-tzortzis-en}
 

@@ -32,6 +32,8 @@ She entered politics in 2001 as an MP for Jurong GRC, and after the 2011 electio
 
 On 14 January 2013 she was elected Speaker of Parliament, the first woman to hold the post in Singapore's history; the Arabic article gives the year as 2014, a variant recorded here against the English article's 2013. {cite:wikipedia-halimah-yacob-en} {cite:wikipedia-halimah-yacob-ar}
 
+As an MP she was an outspoken voice against the Islamic State, condemning its acts as un-Islamic and warning against self-radicalisation. {cite:wikipedia-halimah-yacob-en}
+
 In 2015 she moved to Marsiling–Yew Tee GRC, which she represented until 2017. {cite:wikipedia-halimah-yacob-en}
 
 ## Presidency, 2017–2023
