@@ -118,6 +118,14 @@ Al-Tabari thinks Ibn Abbas went the way of what is reported from Shurayh and Qat
 
 The editor notes that report 12974 came earlier as 12943 and 12909.
 
-We stop here at the foot of p. 202, after al-Tabari says the agreement of the scholars that no witness swears is proof against al-Hasan's interpretation being the better; it continues on p. 203.
+Al-Tabari explains "al-awlayan": for him it means the one nearer to the dead man among the first swearers, and so on in turn; it may also mean the one more entitled to the oath of the two, with "of the two" dropped. The Arabs do this, saying "so-and-so is better" meaning better than you; and when the article is added to such a form as a reply to what was said, they say "this is the best", meaning he is nobler than you. Report 12978, from Ibn Zayd: the meaning is the two nearer to the dead man. {cite:tafsir-tabari-shakir-v11 p. 203}
+
+The editor sets out the construction of "the nearer to the dead man ... and so on", and corrects the printed "then he dropped in them" to "of the two".
+
+He then begins on "they swear by God that our testimony is truer than theirs and we have not transgressed; then we would be among the wrongdoers": the other two, who stand in the place of the pair found to have earned sin by betraying the dead man's property, being the ones nearest in right to the oath and to the dead man of the betrayers, swear that our oaths are truer than the oaths of the two swearers who earned the sin and whose oaths were false in that they betrayed so much of our dead man's property; "we have not transgressed" means we have not gone beyond the truth in our oaths. "Transgression" is going beyond a thing's limit, as he explained before. "Then we would be among the wrongdoers" means that if we had transgressed in our oaths and sworn falsely and wrongly, we would be among those who take what it is not theirs to take and cut off other people's property with their wicked oaths. {cite:tafsir-tabari-shakir-v11 p. 204}
+
+The editor refers to the language indexes for "transgression" and "wrong", and corrects a printed phrase from the manuscript.
+
+Verse 107 closes here at p. 204, and al-Tabari goes on to [[passage/quran-5-108|5:108]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
