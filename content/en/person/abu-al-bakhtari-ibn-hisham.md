@@ -12,3 +12,6 @@ The "Sealed Nectar" does not give his full lineage or death at this point; these
 
 ## For young visitors
 Abu al-Bakhtari ibn Hisham was among the men of Quraysh who denounced the injustice done to the Banu Hashim in the ravine.
+
+## In Mustafa Hosny's programme 'Ahl al-Janna'
+In the twenty-sixth episode of his programme [[work/ahl-al-jannah|'Ahl al-Janna']], on the grateful, [[person/mustafa-hosny|Mustafa Hosny]] relates that at Badr the Prophet ordered that Abu al-Bakhtari ibn Hisham, though fighting in the polytheists' army, should not be killed, because he was among those who worked to tear up the document Quraysh had written in their boycott of the Muslims in Mecca. {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:03:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:04:00} {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:04:30}
