@@ -253,6 +253,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 6: pp. 42-48 filed in ar, en and ur (reports 11419-11435): verse 6 continues.
 - Batch 7: pp. 49-55 filed in ar, en and ur (reports 11436-11462): verse 6 continues.
 - Batch 8: pp. 56-62 filed in ar, en and ur (reports 11462-11494): verse 6 continues.
+- Batch 9: pp. 63-69 filed in ar, en and ur (reports 11495-11512): verse 6 continues.
 
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
