@@ -1,0 +1,49 @@
+id: job/tanner
+class: job
+label: { ar: "الدبّاغ", en: "Tanner / leatherworker", ur: "چرم ساز ⁦(دباغ)⁩" }
+names:
+  - { value: "debbâğ", kind: latinized, lang: tr }
+  - { value: "دباغة", kind: alternate }
+summary:
+  ar: "الدباغ هو الذي يعالج جلود الحيوان حتى تصلح للاستعمال. تذكر موسوعة TDV أن العرب الأوائل دبغوا بالقَرَظ والرمان والشب، وأن قرطبة والمغرب صارتا من مراكز الجلد ومنهما أُخذ الاسمان الغربيان للجلد المدبوغ. وللفقهاء أحكام في جلود الميتة والخنزير، وفي إسطنبول العثمانية كان للدباغين طائفة ومحلّ مخصوص لتوزيع الجلود، وتُنسب حرفتهم في الأناضول إلى أخي أوران."
+  en: "The tanner treated animal hides until they could be used. The TDV encyclopaedia says the early Arabs tanned with acacia pods, pomegranate peel and alum, and that Cordoba and Morocco became leather centres from which the two Western names for fine leather come. The jurists ruled on the hides of dead animals and of the pig, and in Ottoman Istanbul the tanners had a guild and a set place to share out the hides. Their craft is attached in Anatolia to Ahi Evran."
+  ur: "چرم ساز جانوروں کی کھالوں کو قابلِ استعمال بناتا تھا۔ ٹی ڈی وی کا مدخل کہتا ہے کہ ابتدائی عربوں نے قرظ، انار کے چھلکے اور پھٹکری سے دباغت کی، اور قرطبہ اور مراکش چمڑے کے مراکز بنے جن سے عمدہ چمڑے کے دو مغربی نام نکلے۔ فقہا نے مردار اور خنزیر کی کھالوں کے احکام بتائے، اور عثمانی استنبول میں دباغوں کی ایک جماعت تھی جس کی کھالیں بانٹنے کی مخصوص جگہ تھی۔ اناطولیہ میں ان کا ہنر اخی ایوران سے جوڑا جاتا ہے۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/taif, note: "The entry names Taif among the early Arabian places of leatherwork and says Mecca also had a tanning trade; it reports a valley near Taif where tanning waste was dumped.", sources: [source/tdv-deri] }
+  - { place: place/cordoba, note: "The entry says the techniques developed at Cordoba and in Morocco, and that the Western names cordovan and moroccan come from them.", sources: [source/tdv-deri] }
+  - { place: place/fez, note: "Named by the entry with Morocco as the second home of the Western names for fine leather.", sources: [source/tdv-deri] }
+  - { place: place/aleppo, note: "The entry says its tanneries paid more tax in the thirteenth century than all its other workshops together.", sources: [source/tdv-deri] }
+  - { place: place/istanbul, note: "About 700 workshops in the seventeenth century, at Kazlıçeşme, Kasımpaşa and Üsküdar, by Evliya Çelebi's count as the entry gives it.", sources: [source/tdv-deri] }
+regions: [arabia, maghreb, andalus-europe, levant-iraq, anatolia-balkans]
+organization:
+  organized: guild
+  bodies: [group/akhi-associations]
+training:
+  mode: apprenticeship
+  certification: "The entry describes a workshop of fifteen to twenty or more workers under one master, with apprentices and journeymen, and does not describe a certificate."
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/abbasid-early, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-deri]
+craft:
+  materials: [leather, wood, textile]
+  techniques:
+    ar: "تُغسل الجلود ثم توضع في حفر الجير، ويُزال الشعر واللحم بسكين مخصوصة، وتُطبق بالعفص أو البلوط أو الزبل ثم تُكشط من جديد، ويتكرر ذلك حتى تبلغ الجودة المطلوبة، ثم تُلين بدهن الألية أو السمك وتُصبغ. وكان القرظ والرمان والشب أدوات الدباغة عند العرب الأوائل."
+    en: "The hides were washed and laid in lime pits, and hair and flesh were scraped off with a special knife. They were layered with gall or acorn cups or with dung and scraped again, and this was repeated until the quality was right. The leather was then softened with tallow or fish oil and dyed. The early Arabs used acacia pods, pomegranate peel and alum."
+    ur: "کھالوں کو دھو کر چونے کے گڑھوں میں رکھا جاتا اور خاص چھری سے بال اور گوشت اتارا جاتا۔ انہیں مازو یا بلوط کے پیالوں یا لید کے ساتھ تہ بہ تہ رکھ کر پھر کھرچا جاتا، اور یہ عمل مطلوبہ معیار تک دہرایا جاتا؛ پھر چربی یا مچھلی کے تیل سے نرم کر کے رنگا جاتا۔ ابتدائی عرب قرظ، انار کے چھلکے اور پھٹکری استعمال کرتے تھے۔"
+  guild:
+    bodies: [group/akhi-associations]
+    shaykh_title: { ar: "رئيس طائفة الدباغين", en: "manager of the tanners' guild", ur: "دباغوں کی جماعت کا منتظم" }
+  grades: [çırak, kalfa, usta]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'DERİ' (Nebi Bozkurt, Mustafa Baktır, Zeki Tekin, vol. 9, Istanbul 1994, pp. 174–178), web edition read in full on 7 Nov 2026; 'DEBBÂĞ' only defines the word. The bibliographies were not read."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: "jobs-p2-crafts-b01"
