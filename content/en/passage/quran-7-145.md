@@ -10,7 +10,7 @@ Verse 145 of [[passage/quran-7|Surat al-A'raf]], a Meccan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 145 of 206 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 145 (pp. 106-109)**
+**Commentary on verse 145 (pp. 106-112)**
 
 Al-Tabari says: and We wrote for Moses in his tablets. The definite article was put on "the tablets" in place of the possessive, as the poet al-Nabigha al-Dhubyani did in a line describing a people with a quality time has not wasted and minds that do not stray, and as in the words of sura al-Nazi'at that the Garden is "the abode", meaning his abode. The editor notes that the line has been treated with its source and explanation earlier and that this place should be recorded there. {cite:tafsir-tabari-shakir-v13 p. 106}
 
@@ -34,6 +34,18 @@ Others said it means: take them with obedience to God. Report 15114, from al-Rab
 
 Al-Tabari says: We said to Moses, command your people, the Children of Israel, to take the best of it, that is, to act on the best of what they find in it. {cite:tafsir-tabari-shakir-v13 p. 109}
 
-We stop here at the foot of p. 109, where al-Tabari begins the reports on "take the best of it" in verse 145; the next batch begins at p. 110. {cite:tafsir-tabari-shakir-v13 p. 109}
+Report 15115, from al-Suddi, through Musa, Amr and Asbat, on "take the best of it": the best of what they find in it. Report 15116, from Ibn Abbas, through Abd al-Karim, Ibrahim, Sufyan, Abu Sa'd and Ikrima: Moses was commanded to take it more strictly than what his people were commanded. {cite:tafsir-tabari-shakir-v13 p. 110}
+
+Al-Tabari raises a question: what does "take the best of it" mean, were they in the habit of leaving some of the good in it? He answers: no, but it contained command and prohibition, and God told them to do what He commanded and leave what He forbade, and acting on what is commanded is better than acting on what is forbidden. {cite:tafsir-tabari-shakir-v13 p. 110}
+
+**On "I will show you the abode of the transgressors"**
+
+Al-Tabari says God is addressing Moses, since He wrote of everything in the tablets: take it with earnestness and effort in acting on it, command your people to take the best of it, and forbid them to neglect it, to neglect action on it, and to associate others with Me; whoever of them or others associates others with Me, I will show him in the Hereafter, when he returns to Me, the abode of the transgressors, which is God's fire, prepared for His enemies. It is like someone saying to the person he addresses, tomorrow I will show you what becomes of whoever opposes my command, as a threat and warning to whoever disobeys. The editor refers to the earlier explanation of "transgression" and notes the printed text reads "threat" in a different form from the manuscript. {cite:tafsir-tabari-shakir-v13 p. 110}
+
+The interpreters differed over its meaning. Some said as he said. Report 15117, from Mujahid, through Muhammad ibn Amr, Abu Asim, Isa and Ibn Abi Najih: their destination in the Hereafter. Report 15118, from Mujahid, the same, through al-Muthanna, Abu Hudhayfa and Shibl. Report 15119, from al-Hasan, through al-Muthanna, Muslim and Mubarak: Hell. {cite:tafsir-tabari-shakir-v13 p. 111}
+
+Others said it means: I will bring you into the land of Syria and show you the dwellings of the unbelievers who live there, the tyrants and the Amalekites. Reports 15120 and 15121, from Qatada, through Bishr ibn Mu'adh, Yazid, Sa'id, Muhammad ibn Abd al-A'la, Muhammad ibn Thawr and Ma'mar: their dwellings. Others said: I will show you the abode of Pharaoh's people, which is Egypt. The manuscript then has a blank of about five lines, with a red-ink note in its margin that the original is incomplete, and the editor records it. {cite:tafsir-tabari-shakir-v13 p. 111}
+
+Al-Tabari then says he chose the first view because what precedes the words is God's command to Moses and his people to act on what is in the Torah, so the wiser course is to close it with a warning for whoever neglects it, falls short in acting for God and strays from His path, rather than with a report about something whose report has ended or that has not been mentioned. {cite:tafsir-tabari-shakir-v13 p. 112}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
