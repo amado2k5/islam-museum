@@ -1,0 +1,43 @@
+id: listing/islamic-fun
+class: listing
+kind: game
+label:
+  ar: "إسلاميك فن ⁦(لعبة تعليمية)⁩"
+  en: "Islamic Fun (educational game)"
+  ur: "اسلامک فن ⁦(تعلیمی کھیل)⁩"
+summary:
+  ar: "لعبة حاسوب تعليمية دينية للأطفال صدرت سنة 1999 عن شركة إنوفاتيف مايندز البريطانية، تضم ست ألعاب مصغرة قائمة على أسئلة اختيار من متعدد في موضوعات إسلامية بثلاثة مستويات عمرية؛ أثارت إحداها، «المقاومة»، جدلًا واسعًا في الصحافة الغربية منذ 2002، فرأى فيها منتقدون تحريضًا، وقال صانعوها إنها ردّ على الاحتلال."
+  en: "A religious educational computer game for children released in 1999 by the UK firm Innovative Minds, made of six minigames built on multiple-choice questions on Islamic themes at three age levels; one of them, 'The Resistance', drew wide controversy in the Western press from 2002, critics seeing incitement in it and its makers calling it a response to occupation."
+  ur: "بچوں کے لیے دینی تعلیمی کمپیوٹر کھیل جو 1999 میں برطانوی کمپنی انوویٹو مائنڈز نے جاری کیا؛ چھ چھوٹے کھیل، اسلامی موضوعات پر کثیر انتخابی سوالات، تین عمری سطحیں؛ ان میں سے ایک، «مزاحمت»، پر 2002 سے مغربی صحافت میں بڑا تنازع ہوا: ناقدین نے اسے اشتعال انگیزی کہا اور بنانے والوں نے قبضے کا جواب۔"
+wings: [made]
+categories: [games, kids-family, education]
+regions: [andalus-europe]
+founded:
+  edtf: "1999"
+  hijri: "1419~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Released in 1999 by Innovative Minds, under the direction of Abbas Panjwani (the English article, citing The Independent, 2 June 2002). The Hijri year (1419 to 1420) is converter-derived."
+  sources: [source/wikipedia-islamic-fun-en]
+made: { by_muslims: false, basis: unverified }
+status_business: closed
+location: { serves: [gb] }
+links:
+  platforms: ["Windows"]
+footprint:
+  wikipedia: { languages: [en, lld, pl], checked: "2026-11-06", sources: [source/wikidata-islamic-fun] }
+  wikidata: "Q6082477"
+relations:
+  - { type: related_to, target: listing/innovative-minds, note: "developer and distributor", sources: [source/wikipedia-islamic-fun-en] }
+external_ids:
+  wikidata: Q6082477
+sources: [source/wikipedia-islamic-fun-en, source/wikidata-islamic-fun]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Islamic Fun' (revision 1372733234, 2 September 2026) and Wikidata Q6082477, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b03
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

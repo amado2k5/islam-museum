@@ -1,0 +1,44 @@
+id: work/islamonline
+class: work
+kind: website
+label:
+  ar: "إسلام أون لاين"
+  en: "IslamOnline"
+  ur: "اسلام آن لائن"
+summary:
+  ar: "موقع إسلامي على الإنترنت بالعربية والإنجليزية أُطلق في 24 يونيو 1997، كان يوسف القرضاوي من مؤسسيه، وتملكه جمعية البلاغ الثقافية في الدوحة بينما عمل فريقه التحريري في القاهرة؛ اشتهر بقسم «اسأل العالِم»، ونشر بين 2000 و2003 نحو 306 آلاف مادة، وفي مارس 2010 دخل أزمة حين قررت إدارته في قطر نقل العمل إلى الدوحة فاعتصم موظفوه في القاهرة."
+  en: "An Islamic website in Arabic and English launched on 24 June 1997, with Yusuf al-Qaradawi among its founders, owned by the Al-Balagh Cultural Society in Doha while its editorial team worked in Cairo; known for its 'Ask the Scholar' section, it published some 306,000 items from 2000 to 2003, and in March 2010 fell into crisis when its Qatari management decided to move the work to Doha and its Cairo staff staged a sit-in."
+  ur: "عربی اور انگریزی کی اسلامی ویب سائٹ جو 24 جون 1997 کو شروع ہوئی؛ یوسف القرضاوی اس کے بانیوں میں تھے، مالک دوحہ کی البلاغ ثقافتی سوسائٹی اور ادارتی ٹیم قاہرہ میں؛ «عالم سے پوچھیں» سیکشن سے مشہور، 2000 تا 2003 تقریباً 3 لاکھ 6 ہزار اشیا شائع کیں؛ مارچ 2010 میں قطری انتظامیہ نے کام دوحہ منتقل کرنے کا فیصلہ کیا تو قاہرہ کے عملے نے دھرنا دیا۔"
+wings: [words, today]
+url: "https://islamonline.net"
+launched:
+  edtf: "1997-06-24"
+  hijri: "1418-02-18"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Launched 24 June 1997 (the English article, citing an archived Alexa page); Qantara (2010) gives 1997 as the founding year with al-Qaradawi among the founders. The Hijri date is converter-derived (Umm al-Qura)."
+  sources: [source/wikipedia-islamonline-en, source/qantara-islamonline-dispute-2010]
+languages: [ar, en]
+publisher: group/al-balagh-cultural-society
+content_type: fatwa
+orientation: { value: "presented itself, by its Cairo editors' account, as a moderate, centrist voice of Islam", basis: documented }
+reception:
+  - { kind: protest, by: "the Cairo staff (about 350)", where: [eg], date: { edtf: "2010-03-15", calendar: gregorian, precision: day }, note: "sit-in at the 6 October City offices against the move of publishing to Doha and the termination of contracts; the editors spoke of editorial independence, the Qatari company's lawyer of 'suspicions of corruption'", sources: [source/qantara-islamonline-dispute-2010, source/aawsat-islamonline-2010] }
+footprint:
+  wikipedia: { languages: [ar, bn, en, eo, hi, ml, sh, zh], checked: "2026-11-06", sources: [source/wikidata-islamonline] }
+  wikidata: "Q4120450"
+relations:
+  - { type: founded_by, target: person/yusuf-al-qaradawi, note: "one of the founders in 1997; removed as chairman of the Al-Balagh society in 2010", sources: [source/wikipedia-islamonline-en, source/qantara-islamonline-dispute-2010] }
+external_ids:
+  wikidata: Q4120450
+made: { by_muslims: true, basis: documented, sources: [source/qantara-islamonline-dispute-2010] }
+sources: [source/wikipedia-islamonline-en, source/wikidata-islamonline, source/qantara-islamonline-dispute-2010, source/aawsat-islamonline-2010]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'IslamOnline' (revision 1376128227, 22 September 2026), Wikidata Q4120450, Qantara.de (23 April 2010) and Asharq Al-Awsat English (18 March 2010), read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
