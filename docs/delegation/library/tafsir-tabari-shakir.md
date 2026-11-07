@@ -339,6 +339,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 61: pp. 359-364 filed in ar, en and ur (reports 16962-16975): 9:73 is completed and 9:74 is begun to the foot of p. 364 after al-Tabari's summary on who spoke the word (next: p. 365).
 - Batch 62: pp. 365-370 filed in ar, en and ur (reports 16976-16986, 16987 begun): 9:74 is completed and 9:75-9:77, which al-Tabari treats together, are begun in the 9:75 file (the 9:76 and 9:77 files point to it) to the foot of p. 370 at report 16987 (next: p. 371).
 - Batch 63: pp. 371-376 filed in ar, en and ur (reports 16987-16996): the 9:75-9:77 commentary (in the 9:75 file) continues to the foot of p. 376 after report 16996 (next: p. 377).
+- Batch 64: pp. 377-382 filed in ar, en and ur (reports 16997-17003 begun): the 9:75-9:77 commentary is completed, 9:78 is filed in full and 9:79 is begun to the foot of p. 382 in the middle of report 17003 (next: p. 383).
 - Batch 51: pp. 293-299 filed in ar, en and ur (reports 16802-16809, 16810 begun): 9:52 is completed, 9:53 to 9:56 are filed in full and 9:57 is filed to the foot of p. 299 at report 16810 (next: p. 300).
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
@@ -693,6 +694,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 63: printed pp. 400-405 (markers 404-409) filed in ar, en and ur (reports 14543-14553): 7:32 closes at p. 402, 7:33 and 7:34 are filed and 7:35 is begun to the foot of p. 405 in the comment on 'relating My signs to you'. Offset still marker - 4. Stop sentence at the foot. Next is marker 409's last lines then marker 410 (printed 406).
 - Batch 64: Sura al-Ra'd pp. 452-458 filed (13:31 continued through report 20431). Next is the rest of 13:31 from report 20432 at the foot of p. 458 (marker 466) and p. 459.
 - Batch 65: Sura al-Ra'd pp. 459-465 filed (13:31 closed, 13:32 filed, 13:33 begun). Next is the rest of 13:33 from p. 466 (marker 474).
+- Batch 66: Sura al-Ra'd pp. 466-472 filed (13:33 closed, 13:34, 13:35 filed). Next is 13:36 from p. 473 (marker 481).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
@@ -702,3 +704,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 81: pp. 442-448 filed in ar, en and ur (reports 13403-13418): 6:70 continued (tubsal, ransom, hamim)
 - Batch 65: printed pp. 411-418 (markers 415-422) filed in ar, en and ur (reports 14578-14598): 7:37 closes at p. 415 and 7:38 is begun to the foot of p. 418 after report 14598. Offset still marker - 4. Stop sentence at the foot. Next is marker 423 (printed 419).
 - Batch 82: pp. 449-455 filed in ar, en and ur (reports 13419-13431): 6:70 end and 6:71 (the bewildered man called to guidance), up to its last clause
+- Batch 83: pp. 456-462 filed in ar, en and ur (reports ): 6:71 end, 6:72 and 6:73 begun (grammar of 'be and it is', the trumpet)
