@@ -14,6 +14,6 @@ Al-Tabari says: these who hold others equal to God have denied the truth when it
 
 The editor refers for "turning away", "the truth", "news" and "mockery" to earlier volumes 9 and 10.
 
-We stop here at the foot of p. 262, where al-Tabari ends his explanation of "there will come to them news of what they used to mock", read as their being killed at Badr, and what follows begins on p. 263.
+Verse 5 closes here at p. 262, and al-Tabari goes on to [[passage/quran-6-6|6:6]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
