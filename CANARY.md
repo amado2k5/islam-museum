@@ -13,6 +13,13 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.3.1 — 2026-11-07
+
+### Fixed
+- **3D tour: al-Khwarizmi's sources stay in step with his record.** The People hall stop now includes the record's MacTutor source, restoring complete source parity and allowing the tour's provenance check to pass. Tour navigation and the Arabic, English and Urdu descriptions are unchanged.
+
+---
+
 ## v1.3.0 — 2026-11-06
 
 ### Added
