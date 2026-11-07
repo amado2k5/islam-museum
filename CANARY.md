@@ -58,6 +58,8 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Al-Tabari's commentary on 6:111 closes at printed p. 50 and 6:112 is begun (the devils of humans and jinn), from volume 12 pp. 49-55 (reports 13757 to 13774), in Arabic, English and Urdu.
+
+- Tafsir Browser (volume 13, batch 5): al-Tabari's commentary on 7:133 continued (the plagues of flood, locusts, lice, frogs and blood in the reports of Sa'id ibn Jubayr, al-Suddi, Qatada, Ibn Abbas and Ibn Ishaq) filed in Arabic, English and Urdu from printed pp. 58-65 (reports 15015-15026), each paragraph cited to the page of the Shakir edition.
 - Al-Tabari's commentary on 6:109 closes at printed p. 43, 6:110 is filed in full and 6:111 is begun, from volume 12 pp. 42-48 (reports 13751 to 13756), in Arabic, English and Urdu.
 
 - Al-Tabari's commentary on 5:8-5:11 (volume 10) continues: printed pp. 97-103, reports 11556-11562, in Arabic, English and Urdu; verses 9 and 10 are filed in full and verse 11 (the plot against the Prophet) is begun.
