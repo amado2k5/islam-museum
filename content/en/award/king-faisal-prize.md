@@ -31,3 +31,4 @@ Science: [[person/ahmed-zewail|Ahmed Zewail]] (1989). {cite:wikipedia-king-faisa
 
 ## References
 - English Wikipedia article on the King Faisal Prize, revision of 31 October 2026. {cite:wikipedia-king-faisal-prize-en}
+- The prize's official laureate pages, one per laureate (category, year, birth, the stated reason and later updates), read on 7 November 2026. {cite:king-faisal-prize-laureates}
