@@ -2,8 +2,11 @@
 id: listing/bank-muamalat
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 
 ## خلاصہ
-ملائیشیا کا دوسرا اسلامی بینک؛ یہ سنہ 1999 میں تین اداروں کے انضمام سے قائم ہوا۔ {cite:wikidata}
+بینک معاملات ملائیشیا کوالالمپور میں قائم اسلامی بینک ہے، جس نے یکم اکتوبر 1999 کو بینک بومی پترا ملائیشیا، بینک آف کامرس اور بی بی ایم بی کیوانگن کی اسلامی بینکاری کھڑکیوں کے اثاثوں اور واجبات سے کام شروع کیا۔ {cite:wikipedia-bank-muamalat-malaysia-en}
+
+## حوالہ جات
+- انگریزی ویکیپیڈیا، «Bank Muamalat Malaysia»، نظرِ ثانی 1359340883۔ {cite:wikipedia-bank-muamalat-malaysia-en}
