@@ -1,0 +1,42 @@
+id: listing/tarteel
+class: listing
+kind: app
+label:
+  ar: "ترتيل ⁦(تطبيق)⁩"
+  en: "Tarteel (app)"
+  ur: "ترتیل ⁦(ایپ)⁩"
+summary:
+  ar: "تطبيق قرآني يستمع إلى تلاوة القارئ ويصحح أخطاءه بالذكاء الاصطناعي، بدأ مشروعًا سنة 2018 وجمع أكثر من 80 ألف تسجيل تلاوة، ودخل برنامج تسريع الشركات في معهد ماساتشوستس للتقنية في خريف 2019، وصدر تطبيقًا على iOS وأندرويد في 9 يناير 2020 بعد أن استحوذ على تطبيق «اقرأ»؛ يعرض في جوجل بلاي أكثر من 10 ملايين تنزيل."
+  en: "A Qur'an app that listens to a reader's recitation and corrects mistakes with AI; it began as a project in 2018, collected more than 80,000 recitation recordings, joined MIT's Sandbox accelerator in autumn 2019, and launched as an app on iOS and Android on 9 January 2020 after acquiring the Iqra app; it shows 10M+ downloads on Google Play."
+  ur: "قرآن کی ایپ جو پڑھنے والے کی تلاوت سن کر مصنوعی ذہانت سے غلطیاں درست کرتی ہے؛ 2018 میں منصوبہ بنا، 80 ہزار سے زیادہ تلاوتیں جمع کیں، خزاں 2019 میں ایم آئی ٹی کے سینڈ باکس ایکسلریٹر میں شامل ہوا، اور «اقرأ» ایپ کے حصول کے بعد 9 جنوری 2020 کو iOS اور اینڈرائیڈ پر ایپ جاری ہوئی؛ گوگل پلے پر 1 کروڑ سے زائد ڈاؤن لوڈ۔"
+wings: [made, today]
+categories: [technology, education]
+regions: [americas-oceania, global]
+founded:
+  edtf: "2020-01-09"
+  hijri: "1441-05-14"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The mobile app launched on 9 January 2020, the team says, a year after 'Tarteel launched' (so in 2018 or early 2019; not dated more closely in a source read). The Hijri date is converter-derived (Umm al-Qura)."
+  sources: [source/tarteel-blog-app-launch-2020]
+made: { by_muslims: true, basis: self-identified, sources: [source/tarteel-blog-app-launch-2020] }
+status_business: active
+location: { online_only: true, serves: [global] }
+links:
+  official: "https://tarteel.ai"
+  play_store: "https://play.google.com/store/apps/details?id=com.mmmoussa.iqra"
+  app_store_id: "1391009396"
+reach:
+  - { platform: play-store, metric: installs, value: 10000000, date: "2026-11-06", note: "10M+ band on the Google Play page, Android only; rated 4.8 from about 124,000 reviews that day", sources: [source/google-play-tarteel] }
+relations:
+  - { type: related_to, target: passage/quran-73-4, note: "the verse from which the team says the app takes its name", sources: [source/tarteel-blog-app-launch-2020] }
+sources: [source/tarteel-blog-app-launch-2020, source/tarteel-blog-mit-2019, source/google-play-tarteel]
+provenance:
+  layer: own-research
+  source: "Tarteel's blog posts of 11 September 2019 and 9 January 2020 and the Google Play page, read in Chrome on the founder's Mac on 6 November 2026 (a Religion News Service profile of 20 May 2020 met a bot check and was not read)"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b02
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

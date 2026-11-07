@@ -1,0 +1,41 @@
+id: listing/salamweb
+class: listing
+kind: software
+label:
+  ar: "سلام ويب ⁦(متصفح)⁩"
+  en: "SalamWeb (browser)"
+  ur: "سلام ویب ⁦(براؤزر)⁩"
+summary:
+  ar: "متصفح إنترنت مبني على كروميوم أطلقته في يناير 2019 شركة سلام ويب للتقنيات في ماليزيا، موجّه إلى المسلمين: يحجب ما يعدّه محتوى محرّمًا بثلاث طبقات تصفية، ويضم مواقيت الصلاة والقبلة والمساجد القريبة ومجلة «سلام توداي»؛ كان أول متصفح تعتمده هيئة أماني الشرعية الخاصة، وتصفه ويكيبيديا اليوم بأنه متوقف."
+  en: "A Chromium-based web browser launched in January 2019 by Salam Web Technologies in Malaysia for Muslim users: it filtered what it deemed haram content through three layers, and carried prayer times, qibla, nearby mosques and the magazine SalamToday; it was the first browser certified by the private Amanie Shariah Supervisory Board, and Wikipedia now describes it as discontinued."
+  ur: "کرومیم پر مبنی ویب براؤزر جو جنوری 2019 میں ملائیشیا میں سلام ویب ٹیکنالوجیز نے مسلمان صارفین کے لیے جاری کیا: تین تہوں کی چھلنی سے وہ مواد روکتا تھا جسے حرام سمجھتا، اور نماز کے اوقات، قبلہ، قریبی مساجد اور میگزین «سلام ٹوڈے» رکھتا تھا؛ نجی امانی شریعہ سپروائزری بورڈ سے سند پانے والا پہلا براؤزر تھا، اور ویکیپیڈیا اب اسے بند قرار دیتا ہے۔"
+wings: [made]
+categories: [technology]
+regions: [southeast-asia]
+founded:
+  edtf: "2019-01"
+  hijri: "1440~"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Launched in January 2019 (Bloomberg, 28 January 2019; Digital News Asia, 18 January 2019, as the English article cites them; the infobox gives 17 January 2019 without a citation). An earlier 'Salam' browser was reviewed in May 2016 (Tech Wire Asia; Straits Times). The Hijri year is converter-derived."
+  sources: [source/wikipedia-salamweb-en]
+made: { by_muslims: false, basis: unverified }
+status_business: closed
+location: { online_only: true, serves: [global] }
+links:
+  archive_url: "https://web.archive.org/web/2020/https://salamweb.com/"
+footprint:
+  wikipedia: { languages: [ar, bn, el, en, ha, id, ms, tr], checked: "2026-11-06", sources: [source/wikidata-salamweb] }
+  wikidata: "Q61194756"
+external_ids:
+  wikidata: Q61194756
+sources: [source/wikipedia-salamweb-en, source/wikidata-salamweb]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'SalamWeb' (revision 1356405252, 27 May 2026) and Wikidata Q61194756, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
