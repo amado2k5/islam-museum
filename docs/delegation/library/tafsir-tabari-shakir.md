@@ -457,6 +457,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 54: pp. 424-430 filed in ar, en and ur (reports 15773-15787): 8:11 closes at p. 428 and 8:12 is begun at p. 428; stop sentence at the foot of p. 430 after al-Tabari's choice on 'above the necks' (next: p. 431).
 - Batch 55: pp. 430-436 filed in ar, en and ur (reports 15788-15797): 8:12 closes at p. 432, 8:13 and 8:14 are filed in full and 8:15 (with 8:16 together) is begun at p. 435; stop sentence at the foot of p. 436 in report 15798 (next: p. 437).
 - Batch 56: pp. 436-442 filed in ar, en and ur (reports 15798-15818): 8:15-8:16 closes at p. 441 and 8:17 is begun at p. 441; stop sentence at the foot of p. 442 at report 15819 (next: p. 443).
+- Batch 57: pp. 442-448 filed in ar, en and ur (reports 15819-15830): 8:17 continues (the throw at Badr, 'a fair trial'); stop sentence at the foot of p. 448 in al-Tabari's words on 'God is Hearing, Knowing' (next: p. 449).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
