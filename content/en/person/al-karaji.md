@@ -28,3 +28,6 @@ His [[invention/karaji-qanat-surveying|levelling and tunnel-alignment manual]] j
 - {cite:tdv-kereci pp. 277–278}
 - {cite:karaji-ataie-simmons-2020 p. 762}
 - {cite:karaji-woepcke-1853 pp. 3–4}
+
+## Coefficient rule and its lost-original witness
+The [[invention/karaji-binomial-coefficient-recurrence|binomial-coefficient rule]] isolates adjacent-addition generation rather than recounting every operation on composite expressions; MacTutor attributes it to Karaji through al-Samawal {cite:karaji-mactutor Biography}. [[work/al-bahir-fi-al-jabr|Al-Bahir]] preserves the calculation while Anbouba describes the original as lost; neither original nor modern al-Bahir edition was independently read here {cite:samawal-dsb algebra}. Earlier Indian triangle traditions remain visible in comparison, without world-first claims or an unverified transmission route {cite:jaina-mathematics-mactutor combinations}. This batch98 research addition does not replace earlier identity discussions.
