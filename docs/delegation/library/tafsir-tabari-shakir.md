@@ -302,6 +302,18 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 7: pp. 63-69 filed in ar, en and ur (reports 12694-12728): verse 5:96 continues; stop at the foot of p. 69 in al-Tabari's choice for 'its food' (next: p. 70).
 - Batch 8: pp. 70-76 filed in ar, en and ur (reports 12729-12745): verse 5:96 continues; stop at the foot of p. 76 at the start of report 12745 (next: p. 77).
 - Batch 9: pp. 77-83 filed in ar, en and ur (reports 12745-12767): verse 5:96 continues; stop at the foot of p. 83 after report 12767 (next: p. 84).
+
+## Volume 14 progress
+- Volume 14 (`waqtaftab-taftab14`, 638 markers): the title page (marker 4) names sura al-Anfal 8:48 to 8:75 and sura al-Tawba, reports 16183 to 17518; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (8:48). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v14 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v14`.
+- Batch 1: pp. 7-13 filed in ar, en and ur (reports 16183-16195): verse 8:48 is filed in full and 8:49 is begun (the doubters who said 'their religion has deluded these'). Next is report 16196 from p. 14.
+- Batch 2: pp. 14-20 filed in ar, en and ur (reports 16196-16209): verses 8:49 to 8:53 are filed in full and 8:54 is begun to the foot of p. 20. Next is the rest of 8:54 from p. 21.
+- Batch 3: pp. 21-27 filed in ar, en and ur (reports 16210-16222): verses 8:54 to 8:57 are filed in full and 8:58 is filed to the foot of p. 27. Next is the rest of 8:58 from p. 28.
+- Batch 4: pp. 28-34 filed in ar, en and ur (reports 16223-16235): 8:59 is filed in full and 8:60 is begun to the foot of p. 34 (report 16235). Next is the rest of 8:60 from p. 35.
+- Batch 5: pp. 35-41 filed in ar, en and ur (reports 16235-16247): 8:60 closes at p. 40 and 8:61 is filed to the foot of p. 41. Next is the rest of 8:61 from p. 42.
+- Batch 6: pp. 42-48 filed in ar, en and ur (reports 16248-16264): 8:61 closes at p. 43, 8:62 and 8:63 are filed in full and 8:64 is begun at the foot of p. 48. Next is the rest of 8:64 from p. 49.
+- Batch 7: pp. 49-55 filed in ar, en and ur (reports 16265-16281): 8:64 closes at p. 50 and the joint commentary on 8:65-66 is filed (under 8:65) to the foot of p. 55. Next is the rest of 8:65-66 from p. 56.
+- Batch 8: pp. 56-62 filed in ar, en and ur (reports 16282-16293): 8:65-66 close at p. 58 and 8:67 is filed to the foot of p. 62 (report 16293 and the editor's notes). Next is the rest of 8:67 from p. 63.
+- Batch 9: pp. 63-69 filed in ar, en and ur (reports 16294-16316): 8:67 closes at p. 63 and 8:68 is filed to the foot of p. 69 (report 16316 begun). Next is the rest of 8:68 from p. 70.
 - Batch 14: pp. 124-130 filed in ar, en and ur (reports 15132-15141): verse 150 is filed to the foot of p. 130 (the discussion of the readings 'ya ibn umm'). Next is the rest of 7:150 from printed p. 131.
 - Batch 15: pp. 131-137 filed in ar, en and ur (reports 15142-15151): verses 150 to 153 are filed in full and verse 154 is begun at p. 137 ('when the anger subsided'). Next is the rest of 7:154 from printed p. 138.
 - Batch 10: pp. 84-90 filed in ar, en and ur (reports 12768-12781): verse 5:96 closes at p. 89; verse 5:97 is begun and filed to the foot of p. 90 (next: p. 91).
