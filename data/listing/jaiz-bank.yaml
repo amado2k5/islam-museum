@@ -2,29 +2,77 @@ id: listing/jaiz-bank
 class: listing
 kind: company
 label:
-  ar: بنك جايز
+  ar: بنك جائز
   en: Jaiz Bank
+  ur: جائز بینک
 summary:
-  ar: أول بنك غير ربوي كامل في نيجيريا؛ تأسس 2011 وبدأ العمل 2012.
-  en: Jaiz Bank.
-wings: [made]
+  ar: بنك نيجيري مقره أبوجا يعمل وفق مبادئ الصيرفة الإسلامية دون فائدة، وهو أول بنك لا ربوي في نيجيريا؛ أُسس سنة 2003 باسم
+    جائز إنترناشونال، ونال ترخيصه الإقليمي في 11 نوفمبر 2011 وبدأ العمل في 6 يناير 2012، ثم الترخيص الوطني سنة 2016.
+  en: A Nigerian bank headquartered in Abuja that operates on Islamic, non-interest banking principles, the first non-interest
+    bank in Nigeria; founded in 2003 as Jaiz International, it was licensed as a regional bank on 11 November 2011, opened
+    on 6 January 2012 and received a national licence in 2016.
+  ur: ابوجا میں قائم نائیجیریائی بینک جو اسلامی، بلا سود بینکاری کے اصولوں پر چلتا ہے اور نائیجیریا کا پہلا بلا سود بینک ہے؛
+    2003 میں جائز انٹرنیشنل کے نام سے قائم ہوا، 11 نومبر 2011 کو علاقائی لائسنس ملا، 6 جنوری 2012 کو کام شروع کیا اور 2016
+    میں قومی لائسنس ملا۔
+wings:
+- made
+- today
 categories:
 - finance
 regions:
 - west-africa-sahel
 founded:
-  edtf: '2011'
+  edtf: '2003'
+  hijri: '1423~'
   calendar: gregorian
   precision: year
+  status: historical
+  derived: true
+  note: Founded 2003 as Jaiz International Plc; licensed 11 November 2011 (15 Dhu al-Hijja 1432 AH); opened as Jaiz Bank on
+    6 January 2012 (as cited by the article). The Hijri dates are converter-derived; 2003 spans 1423–1424 AH.
+  sources:
+  - source/wikipedia-jaiz-bank-en
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/wikidata
+  sources:
+  - source/wikipedia-jaiz-bank-en
 external_ids:
   wikidata: Q6124318
-sources: *id001
+sources:
+- source/wikipedia-jaiz-bank-en
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - ng
+links:
+  official: https://jaizbankplc.com
+footprint:
+  wikipedia:
+    languages:
+    - en
+    - ha
+    - yo
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-jaiz-bank-en
+  wikidata: Q6124318
+  catalogues:
+    isin: NGJAIZBANK05
+    ticker: 'NGX: JAIZBANK'
+provenance:
+  layer: own-research
+  source: English Wikipedia "Jaiz Bank" (revision 1370550266, 21 August 2026), read in Chrome on the founder's Mac on 6 November
+    2026; Wikidata sitelinks read the same day; the existing Wikidata-only draft (Devin, listings lane, 16 October 2026) was
+    enriched in place
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b02
