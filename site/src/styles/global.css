@@ -78,6 +78,7 @@ p { margin: 0 0 1em; }
 /* sans UI text */
 .ui { font-family: var(--sans); }
 html:is([lang="ar"], [lang="ur"]) .ui { font-family: var(--ar-body); }
+html:is([lang="ar"], [lang="ur"]) .pw-btn { font-family: var(--ar-body); }
 .eyebrow { font-family: var(--sans); text-transform: uppercase; letter-spacing: 0.16em; font-size: 0.75rem; color: var(--gold-text); margin: 0 0 14px; }
 html:is([lang="ar"], [lang="ur"]) .eyebrow { letter-spacing: 0; text-transform: none; font-family: var(--ar-body); font-size: 1rem; }
 .chip { display: inline-flex; align-items: center; gap: 6px; font-family: var(--sans); font-size: 0.82rem; background: var(--panel); border-radius: 999px; padding: 2px 11px; color: var(--fg); text-decoration: none; }
