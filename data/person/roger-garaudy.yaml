@@ -34,6 +34,8 @@ story_roles:
 faith:
   - { value: christian, basis: documented, start: { edtf: "1927" }, end: { edtf: "1982" }, note: "Became a Protestant at 14 in 1927, per al-Suwaidan (ep27 00:02:00); also a member of the French Communist Party from 1933.", sources: [source/assabile-tareq-al-suwaidan] }
   - { value: unknown, basis: unknown, start: { edtf: "1982" }, note: "Declared his Islam in 1982 (al-Suwaidan, ep27 00:15:30); no source in hand names a school, so none is recorded.", sources: [source/assabile-tareq-al-suwaidan] }
-sources: [source/assabile-tareq-al-suwaidan]
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1986, note: "shared with Ahmed Deedat", sources: [source/wikipedia-king-faisal-prize-en] }
+sources: [source/assabile-tareq-al-suwaidan, source/wikipedia-king-faisal-prize-en]
 provenance: { layer: copyrighted-reference, source: "Assabile, kissa-wa-fikra ep27 (Tareq al-Suwaidan, 'the search for truth'); transcript pass5-qwen, Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, read through the loop-collapsing reader", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: suwaidan-kissa-wa-fikra-1 }
 status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5); run suwaidan-kissa-wa-fikra-1" }

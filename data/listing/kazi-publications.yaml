@@ -1,30 +1,26 @@
 id: listing/kazi-publications
 class: listing
 kind: publisher
-label:
-  ar: كازي للنشر
-  en: Kazi Publications
+label: { ar: "كازي للنشر", en: "Kazi Publications", ur: "کازی پبلیکیشنز" }
 summary:
-  ar: أقدم ناشر إسلامي في أمريكا؛ تأسس في شيكاغو وينشر التراث والكتب المدرسية.
-  en: Kazi Publications.
-wings: [made]
-categories:
-- books
-regions:
-- americas-oceania
-founded:
-  edtf: '1972'
-  calendar: gregorian
-  precision: year
-made:
-  by_muslims: true
-  basis: documented
-  sources: &id001
-  - source/official-website
-external_ids:
-  official: https://www.kazi.org
-sources: *id001
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
+  ar: "ناشر وموزع إسلامي في شيكاغو، يقدّم نفسه أقدم ناشر إسلامي في أمريكا الشمالية؛ بدأت بذوره نحو 1970 في متجر محمود كازي، وتولّاه لياقت علي منذ 1972، ونشر أول كتبه «كتاب الأسماء الإسلامية» سنة 1974، وأول طبعة لترجمة الهلالي وخان للقرآن سنة 1977، و«القرآن السامي» لليلى بختيار سنة 2007، وله سلسلة «الكتب الكبرى في العالم الإسلامي»."
+  en: "An Islamic publisher and distributor in Chicago that calls itself the oldest in North America; its seeds were planted around 1970 in Mahmoud Kazi's shop, Liaquat Ali ran it from 1972, and it published its first book, Book of Muslim Names, in 1974, the first edition of the Hilali–Khan Qur'an translation in 1977 and Laleh Bakhtiar's Sublime Quran in 2007, with a Great Books of the Islamic World series."
+  ur: "شکاگو کا اسلامی ناشر و تقسیم کار جو خود کو شمالی امریکہ کا قدیم ترین قرار دیتا ہے؛ اس کی ابتدا تقریباً 1970 میں محمود کازی کی دکان سے ہوئی، 1972 سے لیاقت علی نے اسے چلایا، 1974 میں پہلی کتاب «بک آف مسلم نیمز»، 1977 میں ہلالی و خان کے ترجمۂ قرآن کی پہلی اشاعت اور 2007 میں لیلیٰ بختیار کا «دی سبلائم قرآن» شائع کیا، اور «گریٹ بکس آف دی اسلامک ورلڈ» سلسلہ اس کا ہے۔"
+wings: [made, today]
+categories: [books]
+themes: [libraries-paper-and-the-book, muslim-minorities-under-non-muslim-rule]
+regions: [americas-oceania]
+founded: { edtf: "1972", calendar: gregorian, precision: year, status: debated, note: "The National dates the beginnings to around 1970 and Liaquat Ali's running of the shop with Mahmoud Kazi to 1972, after which 'Kazi Publications was born'; the first book appeared in 1974. 1972 is kept as the working date, with the uncertainty stated; 1972 spans 1391–1392 AH, so no Hijri year is recorded.", sources: [source/thenational-kazi-publications] }
+status_business: active
+location: { address: { ar: "شارع بلمونت، شيكاغو، الولايات المتحدة", en: "Belmont Avenue, Chicago, United States", ur: "بیلمونٹ ایونیو، شکاگو، امریکہ" }, serves: [global] }
+links: { official: "https://www.kazi.org" }
+languages: [en]
+made: { by_muslims: false, basis: unverified }
+sources: [source/thenational-kazi-publications, source/kazi-publications-about, source/gloqur-hilali-khan-part-1]
+provenance:
+  layer: own-research
+  source: "David Lepeska's report in The National (about 2011), Kazi's About page and the GloQur post #102 for the 1977 Hilali–Khan edition, read in Chrome on the founder's Mac on 6 November 2026. Enriches the listings-lane draft card (Devin, 16 October 2026) in place; made is recorded as unverified because no source reached states the founders' faith."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

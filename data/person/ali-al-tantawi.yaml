@@ -1,0 +1,35 @@
+id: person/ali-al-tantawi
+class: person
+label: { ar: "علي الطنطاوي", en: "Ali al-Tantawi", ur: "علی الطنطاوی" }
+names:
+  - { value: "محمد علي بن مصطفى الطنطاوي", kind: full }
+  - { value: "Ali al-Tantawi", kind: full }
+  - { value: "Ali Tantawi", kind: alternate }
+gender: male
+summary:
+  ar: "فقيه وأديب وقاضٍ سوري (1909–1999)، كتب في «الرسالة» عشرين سنة، وقضى خمسة وعشرين عامًا في القضاء ووضع مشروع قانون الأحوال الشخصية السوري، ثم أقام في السعودية خمسًا وثلاثين سنة، فكانت برامجه «على مائدة الإفطار» و«نور وهداية» و«مسائل ومشكلات» من أطول البرامج عمرًا في إذاعتها وتلفزيونها، ونال جائزة الملك فيصل لخدمة الإسلام في 1990."
+  en: "Syrian jurist, writer and judge (1909–1999) who wrote for al-Risala for twenty years, served twenty-five years as a judge and drafted Syria's personal-status law, then lived thirty-five years in Saudi Arabia, where his 'Ala Ma'idat al-Iftar', 'Nur wa Hidaya' and 'Masa'il wa Mushkilat' were among the longest-running programmes of its radio and television; King Faisal Prize for Service to Islam, 1990."
+  ur: "شامی فقیہ، ادیب اور قاضی ⁦(1909ء–1999ء)⁩، جنھوں نے بیس برس «الرسالہ» میں لکھا، پچیس برس قضا میں گزارے اور شام کے قانونِ احوالِ شخصیہ کا مسودہ تیار کیا، پھر پینتیس برس سعودی عرب میں رہے، جہاں ان کے پروگرام «علیٰ مائدۃ الافطار»، «نور و ہدایہ» اور «مسائل و مشکلات» وہاں کے ریڈیو اور ٹیلی وژن کے طویل ترین پروگراموں میں تھے؛ 1990ء میں شاہ فیصل انعام برائے خدمتِ اسلام۔"
+wings: [people]
+regions: [levant-iraq, arabia]
+roles: [jurist, writer, judge, presenter]
+born: { edtf: "1909-06-12", hijri: "1327-05-23", calendar: gregorian, precision: day, status: historical, derived: false, note: "The Arabic article pairs 23 Jumada I 1327 with 12 June 1909, in Damascus; Wikidata gives the same day.", sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi] }
+died: { edtf: "1999-06-18", hijri: "1420-03-04", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died after the evening prayer on Friday 4 Rabi' I 1420 / 18 June 1999 in the intensive-care unit of King Fahd Hospital, Jeddah, aged 90; prayed over at the Masjid al-Haram and buried in Mecca the next day.", sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi] }
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi] }
+  - { type: died_in, target: place/jeddah, sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi] }
+  - { type: buried_in, target: place/mecca, sources: [source/wikipedia-ali-al-tantawi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's categories file him among Sunni scholars, and its infobox gives religion Islam; no sentence of the text names his school. Under docs/scope.md the Sunni frame is the museum's default; no value is recorded from categories alone."
+    sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi]
+footprint:
+  wikipedia: { languages: [ar, bn, ckb, de, en, fr, ha, tr, ug, ur], checked: "2026-11-07", sources: [source/wikidata-ali-al-tantawi] }
+  wikidata: "Q12227911"
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1990, note: "shared with Khurshid Ahmad", sources: [source/wikipedia-king-faisal-prize-en] }
+external_ids: { wikidata: "Q12227911" }
+sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi, source/wikipedia-king-faisal-prize-en]
+provenance: { layer: own-research, source: "Arabic Wikipedia «علي الطنطاوي» (revision 77162255, 5 November 2026), Wikidata Q12227911 (revision 2554299596) and the King Faisal Prize list (revision 1382965005), read in Chrome on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b09 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

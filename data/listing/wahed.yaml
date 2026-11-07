@@ -2,26 +2,80 @@ id: listing/wahed
 class: listing
 kind: startup
 label:
-  ar: "واحد انفست"
-  en: "Wahed Invest"
+  ar: واحد
+  en: Wahed
+  ur: واحد
 summary:
-  ar: "شركة تقنية مالية إسلامية أسسها ناشئون أمريكيون مسلمون 2015؛ منصة استثمار متوافقة مع الشريعة."
-  en: "An Islamic fintech founded by American Muslim founders in 2015; a sharia-compliant investment platform."
-wings: [made]
-categories: [finance, technology]
-regions: [americas-oceania]
+  ar: شركة تقنية مالية أمريكية في نيويورك تقدم استثمارات آلية متوافقة مع المبادئ الإسلامية، أطلقت سنة 2017 منصة استثمار إسلامي
+    آلية، وفي يوليو 2019 أول صندوق مؤشرات متداول متوافق مع الشريعة في الولايات المتحدة؛ تعمل في 130 بلدا.
+  en: An American fintech company in New York offering automated investment aligned with Islamic principles; it launched an
+    automated Islamic investment platform in 2017 and, in July 2019, the first Sharia-compliant exchange-traded fund in the
+    United States; it operates in 130 countries.
+  ur: نیویارک کی امریکی مالیاتی ٹیکنالوجی کمپنی جو اسلامی اصولوں کے مطابق خودکار سرمایہ کاری پیش کرتی ہے؛ جولائی 2019 میں
+    امریکہ کا پہلا شریعت کے مطابق ایکسچینج ٹریڈڈ فنڈ شروع کیا؛ 130 ملکوں میں کام کرتی ہے۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- americas-oceania
+- global
 founded:
-  edtf: '2015'
+  edtf: '2017'
+  hijri: '1438~'
   calendar: gregorian
   precision: year
+  status: historical
+  derived: true
+  note: Founded 2017, its automated platform launched that year (cited by the article); the draft's 2015 is not supported.
+    The Hijri year is converter-derived.
+  sources:
+  - source/wikipedia-wahed-en
 made:
   by_muslims: true
   basis: documented
-  sources: [source/wikidata]
+  sources:
+  - source/wikipedia-wahed-en
 external_ids:
   wikidata: Q48989805
-sources: [source/wikidata]
+sources:
+- source/wikipedia-wahed-en
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+status_business: active
+location:
+  serves:
+  - us
+  - gb
+  - my
+  - in
+  - id
+  - kz
+  - mu
+  - za
+  - ae
+links:
+  official: https://wahed.com
+footprint:
+  wikipedia:
+    languages:
+    - en
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-wahed-en
+  wikidata: Q48989805
+provenance:
+  layer: own-research
+  source: 'English Wikipedia "Wahed (company)" (revision 1375682893, 19 September 2026), read in Chrome on the founder''s
+    Mac on 6 November 2026; Wikidata sitelinks read the same day; made.by_muslims documented: Numerama (2017), cited by the
+    article, calls its founder a Muslim entrepreneur; the existing Wikidata-only draft (Devin, listings lane, 16 October 2026)
+    was enriched in place'
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b04

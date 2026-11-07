@@ -1,0 +1,30 @@
+---
+id: person/mahmoud-karimi
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Mahmoud Karimi is an Iranian maddah from Tehran, born in 1968 in the Nezamabad area, and one of the best-known eulogists in Iran. {cite:wikipedia-mahmoud-karimi-en} He writes much of his own verse and performs at Muharram and Fatimiyya mourning ceremonies, including ceremonies attended by the country's supreme leader, Ali Khamenei. {cite:wikipedia-mahmoud-karimi-en} He is not Mahmoud Karimi Sibaki, the footballer born in 1978, nor the traditional singer Mahmoud Karimi (1927–1984). {cite:wikipedia-mahmoud-karimi-en}
+
+## Beginnings and education
+Karimi was born on 13 June 1968 in Tehran — the day and month given by Persian Wikipedia, where the English article gives only the year 1968 and the Nezamabad area. {cite:wikipedia-mahmoud-karimi-fa} {cite:wikipedia-mahmoud-karimi-en} By his own account he came from a religious family marked by the Iran–Iraq War: his father Naqi went missing in action in 1982, in Operation Fath al-Mobin, and a brother was killed in 1986, in Operation Karbala-5. {cite:wikipedia-mahmoud-karimi-en} {cite:wikipedia-mahmoud-karimi-fa} He went on to study industrial management at Allameh Tabataba'i University but did not complete the degree. {cite:wikipedia-mahmoud-karimi-en}
+
+## Career and work
+Karimi has said that he started reciting noheh (elegies) at the age of seven, performing for the first time at a mosque in Shahin Shahr, near Isfahan, where the family was then living. {cite:wikipedia-mahmoud-karimi-en} Persian Wikipedia adds that from thirteen he worked in masonry and carpentry alongside reciting, and that from about 1983 to 1993 he ran maddahi teaching classes with friends. {cite:wikipedia-mahmoud-karimi-fa} He belongs to the circle of Mansour Arzi, one of Tehran's senior and famous maddahs. {cite:wikipedia-mahmoud-karimi-fa} His fame spread in the 2000s through the noheh "Eshgh ya'ni…" broadcast on Iranian television, as Persian Wikipedia reports from Tasnim. {cite:wikipedia-mahmoud-karimi-fa}
+
+## Works and eulogy
+Karimi leads a religious gathering (hey'at) called Rayat al-Abbas, which meets at the shrine of Imamzadeh Ali Akbar in the Chizar district of northern Tehran and was previously known as Hey'at-e Razmandegan-e Eslam. {cite:wikipedia-mahmoud-karimi-en} He is placed between the traditional and modern currents of maddahi, keeping the traditional form's framework while making limited, purposeful changes to form and performance. {cite:wikipedia-mahmoud-karimi-fa} He is associated with a declamatory style that used the sanj (cymbals) and the dammam, a large double-headed drum, which he later set aside. {cite:wikipedia-mahmoud-karimi-en} {cite:wikipedia-mahmoud-karimi-fa} He performs regularly at the Imam Khomeini Hussainiya in Tehran during ceremonies attended by the supreme leader. {cite:wikipedia-mahmoud-karimi-en} In the summer of 2025, a rendition of the patriotic song "Ey Iran" that he performed at one such ceremony — reportedly at Khamenei's request — circulated on social media, and Iranian media reported that Khamenei praised the performance and asked him for another. {cite:wikipedia-mahmoud-karimi-en} Karimi has said that he does not earn his living from eulogising and that his income comes from a brick factory he co-owns near Buin Zahra in Qazvin Province. {cite:wikipedia-mahmoud-karimi-en} The Fotras site is the centre for preserving and publishing his works. {cite:wikipedia-mahmoud-karimi-fa}
+
+## Positions and criticism
+In December 2013, after a late-night collision and altercation with a young couple in a Peugeot 206 on Tehran's Babaei Highway, several shots were fired from Karimi's car at the other vehicle; the bullets struck the car but caused no injuries. {cite:wikipedia-mahmoud-karimi-en} The couple filed a complaint but later withdrew it, the case was closed without a conviction, and Karimi's licence to carry a firearm was revoked. {cite:wikipedia-mahmoud-karimi-en} Accounts of who fired the shots differ, and the question was never resolved in court. {cite:wikipedia-mahmoud-karimi-en} In 2020, during a live broadcast on the state channel IRIB TV2, Karimi recited a folk story that many viewers understood as portraying Husayn ibn Ali in a gambling scene; the broadcast was cut off, the recitation drew criticism including from a member of parliament, and Karimi later apologised, saying that he had perhaps not conveyed the story well. {cite:wikipedia-mahmoud-karimi-en} He has used his recitations and public statements to comment on Iranian politics, criticising President Hassan Rouhani and the parliamentary speaker Ali Larijani in 2015 over the government's nuclear diplomacy. {cite:wikipedia-mahmoud-karimi-ar}
+
+## Impact and audience
+Karimi's official Instagram account (@mahmuudkarimi) is, by its bio as reproduced by instastatistics, the account of the Rayat al-Abbas media set publishing his works and sessions, managed by an admin. {cite:instastatistics-mahmuudkarimi} The live-counter page for that account showed 439,090 followers and 2,115 posts when read on 7 November 2026 — a dated platform figure, not a measurement the museum makes itself. {cite:instastatistics-mahmuudkarimi} Dated maddah-ranking screenshots of 2025 read the same handle far higher, at 622K–771K followers; the discrepancy is recorded in the counter source's note and could not be resolved. {cite:instastatistics-mahmuudkarimi}
+
+## References
+- English Wikipedia article on Mahmoud Karimi (maddah), read in full on 7 November 2026. {cite:wikipedia-mahmoud-karimi-en}
+- Persian Wikipedia article on Mahmoud Karimi (maddah), read in full on 7 November 2026. {cite:wikipedia-mahmoud-karimi-fa}
+- Arabic Wikipedia article on Mahmoud Karimi, read in full on 7 November 2026. {cite:wikipedia-mahmoud-karimi-ar}
+- Swedish Wikipedia article on Mahmoud Karimi (reciter), read in full on 7 November 2026. {cite:wikipedia-mahmoud-karimi-sv}
+- instastatistics counter page for @mahmuudkarimi, read on 7 November 2026. {cite:instastatistics-mahmuudkarimi}
