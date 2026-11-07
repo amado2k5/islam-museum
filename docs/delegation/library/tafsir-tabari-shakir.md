@@ -698,6 +698,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 65: Sura al-Ra'd pp. 459-465 filed (13:31 closed, 13:32 filed, 13:33 begun). Next is the rest of 13:33 from p. 466 (marker 474).
 - Batch 66: Sura al-Ra'd pp. 466-472 filed (13:33 closed, 13:34, 13:35 filed). Next is 13:36 from p. 473 (marker 481).
 - Batch 67: Sura al-Ra'd pp. 473-479 filed (13:36, 13:37, 13:38 filed; 13:39 begun). Next is the rest of 13:39 from p. 480 (marker 488).
+- Batch 68: Sura al-Ra'd pp. 480-486 filed (13:39 continued through report 20496). Next is the rest of 13:39 from p. 487 (marker 495).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
@@ -707,3 +708,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 81: pp. 442-448 filed in ar, en and ur (reports 13403-13418): 6:70 continued (tubsal, ransom, hamim)
 - Batch 82: pp. 449-455 filed in ar, en and ur (reports 13419-13431): 6:70 end and 6:71 (the bewildered man called to guidance), up to its last clause
 - Batch 83: pp. 456-462 filed in ar, en and ur (reports ): 6:71 end, 6:72 and 6:73 begun (grammar of 'be and it is', the trumpet)
+- Batch 84: pp. 463-469 filed in ar, en and ur (reports 13432-13440): 6:73 end and 6:74 (Abraham and Azar)
