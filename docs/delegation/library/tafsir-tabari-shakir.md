@@ -408,6 +408,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Second half, batch 9: pp. 524-530 filed in ar, en and ur (reports 12357-12376): 5:89 continues; stop at the foot of p. 530 in al-Tabari's choice on the pronoun in 'its expiation' (next: the rest of 5:89 from p. 530/531).
 - Second half, batch 10: pp. 531-537 filed in ar, en and ur (reports 12377-12409): 5:89 continues; stop at the foot of p. 537 after report 12409 (al-Hasan on the measure; next: the rest of 5:89 from p. 538).
 - Second half, batch 11: pp. 538-544 filed in ar, en and ur (reports 12410-12440): 5:89 continues; stop at the foot of p. 544 in al-Tabari's choice on the amount (next: the rest of 5:89 from p. 545).
+- Second half, batch 12: pp. 545-551 filed in ar, en and ur (reports 12441-12481): 5:89 continues with the clothing; stop at the foot of p. 551 in al-Tabari's choice (next: the rest of 5:89 from p. 552).
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 11327-11336): verse 6 continues.
 - Batch 3: pp. 21-27 filed in ar, en and ur (reports 11337-11354): verse 6 continues.
