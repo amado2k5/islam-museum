@@ -697,6 +697,7 @@ open a new block on top with the new version and today's date.
 - al-Tabari v01 (Batch 2, Fatiha): the basmala under 1:1 in ar, en and ur, vol. 1 pp. 114-120 ("in the name": the hidden verb, name for naming, the slaughter rule, and a line of Labid); stop sentence at the foot of p. 120.
 - al-Tabari v01 (Batch 3, Fatiha): the basmala under 1:1 in ar, en and ur, vol. 1 pp. 121-127 (the word Allah and its derivation, the forms and first reports on al-Rahman al-Rahim); stop sentence at the foot of p. 127.
 - al-Tabari v01 (Batch 4, Fatiha): the commentary on the basmala (1:1) closes in ar, en and ur, vol. 1 pp. 128-134 (the two names Rahman and Rahim, their order, and the objection that the Arabs did not know the name).
+- Tafsir Browser: al-Tabari vol. 11 completion pass, supplementary notes: the editor Ahmad Shakir's "completion of the tracing" (printed pp. 587-591, fourteen notes) is filed in ar, en and ur as clearly labelled editor's supplements, not al-Tabari's words, on the passages they concern (5:96, 5:101, 5:103, 5:105, 6:12, 6:38, 6:52, 6:73, 6:75, 6:82, 6:94): tracing of reports to the Musnad and other collections, gradings, and corrections of earlier notes. The verse, language, narrator and other indexes (pp. 593-643) are deliberately not filed.
 
 ### Changed
 - Modern Islam Browser, web section (documents only, no deployment): the founder confirmed that the Palestinian discussion website's record stays as he approved it; his decision to keep out propaganda games applies to the games only.
