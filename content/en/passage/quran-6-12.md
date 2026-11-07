@@ -32,6 +32,20 @@ Then "he will gather you to the day of resurrection, no doubt in it": the lam in
 
 The editor refers to al-Farra's Ma'ani al-Qur'an and says manuscript and print have "reply of speech" where "reply of oaths", as in al-Farra, is better.
 
-We stop here at the foot of p. 278, within the grammarians' account of what governs the oath-lam in "he will gather you to the day of resurrection", after the Kufan grammarian's view, which continues on p. 279.
+A Basran grammarian used to say that the lam of "he will gather you" is raised because the sense of "kataba" is made obligatory and binding, with the sense of an oath, as if he said "by God, he will gather you". Al-Tabari holds the right view to be that "he has prescribed mercy for himself" is the end of a statement and "he will gather you" a fresh sentence, the sense then being: God will gather you, you who hold others equal to God, to the day of resurrection about which there is no doubt, to take vengeance on you for your unbelief in him. He says it is better than making "kataba" govern "he will gather you", since "kataba" has already governed "mercy" and cannot also govern "he will gather you", for it does not take two objects. {cite:tafsir-tabari-shakir-v11 p. 279}
+
+If someone asks what he says of the reading of [[passage/quran-6-54|6:54]], "your Lord has prescribed mercy for himself, that" with "anna", the answer is that so read, "anna" explains and expresses "mercy", since the sense is: he prescribed mercy for himself, that he be merciful to whoever of his servants repents after doing evil in ignorance, and forgive; mercy is explained by its description, and "he will gather you to the day of resurrection" is no description of mercy that could explain it. {cite:tafsir-tabari-shakir-v11 p. 279}
+
+The editor says the two bracketed additions in this passage are his inference from the commentary and the verse, since they are missing from manuscript and print, and refers to the commentary on that verse at pp. 392 and 393 further on.
+
+As for "no doubt in it", it means no uncertainty that God will gather you to the day of resurrection, raising you all to him, then give every doer the reward of what he did, good or bad. {cite:tafsir-tabari-shakir-v11 p. 280}
+
+Then "those who have lost themselves, they do not believe": by "those who have lost themselves" he means those who hold idols and images equal to him, that is, who ruined themselves and cheated themselves by claiming a rival and equal to God, bringing them to perdition by earning God's wrath and his painful punishment in the return. The root of "khasar" is being cheated; one says "the man lost in the sale" when he was cheated, as al-A'sha said in a line from his poem satirising Alqama ibn Ulatha and praising Amir ibn al-Tufayl, describing a judge who takes no bribe in his ruling. {cite:tafsir-tabari-shakir-v11 p. 280}
+
+The editor refers for "doubt" and "loss" to earlier volumes, corrects "by making obligatory God's wrath" to "by earning", and says the line is in al-A'sha's Diwan and Abu Ubayda's Majaz al-Qur'an, that the Diwan reads "ghabn al-khasir" and that Abu Jafar's "khasira al-khasir" is correct in language.
+
+The case of "those who" in "those who have lost themselves" is accusative, in apposition to the "kum" of "he will gather you", as an explanation of it, since those who lost themselves are the ones addressed by "he will gather you". And "so they do not believe" means: through their ruin and cheating of themselves of their share they do not believe, that is, they do not affirm God's oneness, do not trust his promise and threat and do not acknowledge Muhammad's prophethood. {cite:tafsir-tabari-shakir-v11 p. 281}
+
+Verse 12 closes here at p. 281, and al-Tabari goes on to [[passage/quran-6-13|6:13]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
