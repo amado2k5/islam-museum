@@ -58,6 +58,8 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser: al-Tabari vol. 11, batch 11 (pp. 91-97, reports 12782-12793): 5:97 (the Ka'ba, the sacred month, the offering and the garlands as a support for people) closes, and 5:98, 5:99 and 5:100 are filed in full, in Arabic, English and Urdu.
+- Al-Tabari's commentary on 6:128 to 6:141 (the jinn and their human allies, the deniers of the vision of messengers to the jinn, the idolaters' shares of crops and cattle, the burial of girls, the due of the harvest and the waste it forbids) and the beginning of 6:142 (load-bearers and bedding), from volume 12 pp. 116-179 (reports 13888 to 14056), in Arabic, English and Urdu.
+
 - Tafsir Browser: al-Tabari vol. 11, batch 10 (pp. 84-90, reports 12768-12781): al-Tabari's choice on eating game hunted by a non-pilgrim, what counts as land game, and the close of 5:96; the opening of 5:97 (the Ka'ba, the sacred month, the offering and the garlands as a support for people), filed in Arabic, English and Urdu.
 - al-Tabari's Tafsir (Shakir edition) vol. 13, 7:148-150 (pp. 117-123): the calf and its lowing (7:148), the regret of the Israelites and the readings of 'yarhamna' (7:149), and Moses' return, the meaning of 'asaf', the throwing of the tablets (7:150, begun) are filed in Arabic, English and Urdu, each paragraph cited to the page of the Shakir edition.
 - al-Tabari's Tafsir (Shakir edition) vol. 13, 7:145-147 (pp. 110-116): the close of 7:145 (the abode of the transgressors and the three readings of it), all of 7:146 (the turning away from the signs, the readings of 'rushd') and 7:147 (void deeds) are filed in Arabic, English and Urdu, each paragraph cited to the page of the Shakir edition.
