@@ -1,0 +1,31 @@
+id: award/mirchi-music-awards
+class: award
+kind: prize
+label: { ar: "جوائز ميرتشي الموسيقية", en: "Mirchi Music Awards", ur: "مرچی میوزک ایوارڈز" }
+summary:
+  ar: "جوائز سنوية تمنحها إذاعة ميرتشي الهندية منذ 2009 لموسيقى الأفلام الهندية، تكرّم كل دورة موسيقى السنة السابقة؛ من فئاتها «أغنية تمثل التقليد الصوفي» التي نالها قوالي «Kun Faya Kun» لأ. ر. رحمن في الدورة الرابعة في 21 مارس 2012."
+  en: "Annual awards given by India's Radio Mirchi since 2009 to Hindi film music, each ceremony honouring the previous year's music; among its categories is the song representing the Sufi tradition, won by A. R. Rahman's qawwali 'Kun Faya Kun' at the 4th ceremony on 21 March 2012."
+  ur: "بھارت کے ریڈیو مرچی کے سالانہ ایوارڈز جو 2009 سے ہندی فلمی موسیقی کو دیے جاتے ہیں، اور ہر تقریب پچھلے سال کی موسیقی کو اعزاز دیتی ہے؛ اس کے زمروں میں صوفی روایت کی نمائندگی کرنے والا گیت شامل ہے، جو 21 مارچ 2012 کی چوتھی تقریب میں اے آر رحمان کی قوالی «Kun Faya Kun» کو ملا۔"
+wings: [today]
+themes: [music]
+regions: [south-asia]
+fields: [music]
+country: in
+recurs: annual
+since: { edtf: "2009-03-28", calendar: gregorian, precision: day, note: "first ceremony, for the music of 2008; Wikidata gives the inception as 2008", sources: [source/wikipedia-mirchi-music-awards-en, source/wikidata-mirchi-music-awards] }
+categories:
+  - { id: song-representing-sufi-tradition, label: { ar: "أغنية تمثل التقليد الصوفي", en: "Song representing Sufi tradition", ur: "صوفی روایت کی نمائندگی کرنے والا گیت" } }
+  - { id: album-of-the-year, label: { ar: "ألبوم السنة", en: "Album of the Year", ur: "سال کا البم" } }
+links: { official: "https://www.radiomirchi.com/mma" }
+footprint:
+  wikipedia: { languages: [ar, bn, en, hi, id, ja, mr], checked: "2026-11-07", sources: [source/wikidata-mirchi-music-awards] }
+  wikidata: "Q6873052"
+external_ids: { wikidata: "Q6873052" }
+sources: [source/wikipedia-mirchi-music-awards-en, source/wikidata-mirchi-music-awards, source/wikipedia-rockstar-soundtrack-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mirchi Music Awards' (revision 1378829240 of 6 October 2026, citing The Times of India) and Wikidata Q6873052 (revision 2539755147), read in Chrome on the founder's Mac on 7 November 2026; the 2012 Sufi-tradition award to 'Kun Faya Kun' joins the Rockstar soundtrack article (the win) and this article (the ceremony for the music of 2011, held 21 March 2012)"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
