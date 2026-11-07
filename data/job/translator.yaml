@@ -1,0 +1,45 @@
+id: job/translator
+class: job
+label: { ar: "المترجم", en: "Translator (tercüman)", ur: "مترجم ⁦(ترجمان)⁩" }
+names:
+  - { value: "ترجمان", kind: alternate }
+  - { value: "tercüman", kind: latinized, lang: tr }
+  - { value: "mütercim", kind: latinized, lang: tr }
+  - { value: "dragoman", kind: alternate }
+  - { value: "dilmaç", kind: latinized, lang: tr }
+summary:
+  ar: "المترجم ينقل الكلام من لسان إلى لسان. والمدخل يغلب لفظ الترجمان على النقل الشفهي، ولفظ المترجم على نقل الكتب. والكلمة عربية، وتُقال في التركية ترجمان، وفي التركية الحديثة بكلمة جديدة. وقد احتاجت الدول إلى هذا العمل في السياسة والتجارة والقضاء والجباية، وفي نقل كتب اليونانية والسريانية والفارسية والسنسكريتية إلى العربية، ثم في ديوان السلاطين العثمانيين."
+  en: "The translator carries speech from one language into another. The entry uses tercüman chiefly for interpreting by speech, and mütercim for the translation of books. The word is Arabic. Turkish says tercüman, and modern Turkish has a newer word for the same work. States used it in politics, trade, law and tax collection, in the rendering of Greek, Syriac, Persian and Sanskrit books into Arabic, and later in the Ottoman imperial divan."
+  ur: "مترجم بات کو ایک زبان سے دوسری زبان میں لے جاتا ہے۔ مدخل ترجمان زیادہ تر زبانی ترجمہ کے لیے استعمال کرتا ہے اور مترجم کتابوں کے ترجمہ کے لیے۔ یہ لفظ عربی ہے۔ ترکی میں ترجمان کہا جاتا ہے، اور جدید ترکی میں اسی کام کے لیے ایک نیا لفظ ہے۔ ریاستوں نے اسے سیاست، تجارت، عدالت اور محصول میں استعمال کیا، یونانی، سریانی، فارسی اور سنسکرت کتابوں کو عربی میں لانے میں، اور بعد میں عثمانی دیوان میں۔"
+domain: court-administration
+kind: scholarly
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - place: place/medina
+    note: "The entry says it is also reported that Zayd ibn Thabit learned Persian, Greek, Coptic and Ethiopic from people who spoke them in Medina, and that he translated letters there for the Prophet."
+    sources: [source/tdv-tercuman]
+  - place: place/cordoba
+    note: "The entry says the Byzantine emperor Constantine VII sent the monk Nicholas to Cordoba so that the Greek text of Dioscorides, given to Abd al-Rahman III, could be translated into Arabic."
+    sources: [source/tdv-tercuman]
+  - place: place/istanbul
+    note: "The entry places the Ottoman interpreters in the imperial divan at Istanbul, and later in the translation office formed under Mahmud II. It also says the chief interpreters of the eighteenth century preferred to live in the Fener quarter."
+    sources: [source/tdv-tercuman]
+regions: [arabia, levant-iraq, persia-central-asia, andalus-europe, anatolia-balkans]
+organization:
+  organized: court-office
+training:
+  mode: mixed
+  certification: "The entry describes no single diploma. Zayd ibn Thabit is reported to have learned the languages from speakers around him, including the Persian envoy, the Prophet's chamberlain and the Prophet's servants. Venice founded a school for young interpreters in 1551, and France followed. The Ottoman chief interpreter had eight young language clerks. After 1821 a translation office was formed beside the divan clerks, and later the civil-service school taught languages, though the entry says it never became clear whether that office was training officials or diplomats."
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-tercuman]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'TERCÜMAN' (Nebi Bozkurt, pp. 489–490, and Mahmut H. Şakiroğlu, pp. 490–492, vol. 40, Istanbul 2011), web edition read in full on 7 Nov 2026. The entry gives no year for a first appointment. It offers two views of when an official Ottoman interpretership began, and neither is adopted as a first year. Holders are limited to people the entry names as translators who already have a matching person record. The title tercüman al-Qur'an given to Ibn Abbas is a different sense and is not this job."
+  generated_by: "Cursor"
+  model: "grok-4.7"
+  run: "jobs-p2-ca13"
+status: { review: published, completeness: 2, generated_by: "Cursor (grok-4.7)" }

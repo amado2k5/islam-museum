@@ -10,7 +10,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const X = (T as any).tafsir;
 const works = realNodes.filter((n: any) => n.class === "work");
-const commentaries = works.filter((n: any) => n.id === "work/jami-al-bayan");
+const commentaries = works.filter((n: any) => n.id === "work/jami-al-bayan" || n.data.kind === "tafsir");
 const volumes = works
   .filter((n: any) => n.data.kind === "tafsir-volume")
   .sort((a: any, b: any) => String(a.id).localeCompare(String(b.id), "en", { numeric: true }));
