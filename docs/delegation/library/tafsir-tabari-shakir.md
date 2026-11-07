@@ -235,4 +235,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 31: pp. 478-485 filed in ar, en and ur (reports 10978-10992): verse 2 is filed to the foot of p. 485.
 - Batch 32: pp. 485-492 filed in ar, en and ur (reports 10993-11001): verse 2 closes at p. 491 and verse 3 is begun at p. 492.
 - Batch 33: pp. 493-499 filed in ar, en and ur (reports 11002-11019): verse 3 is filed to the foot of p. 499.
-- Progress: current report 11019, printed p. 499. Next is the rest of verse 3 from printed p. 499 on (the gored and what was slaughtered).
+- Batch 34: pp. 500-506 filed in ar, en and ur (reports 11021-11046): verse 3 is filed to the foot of p. 506.
+- Progress: current report 11046, printed p. 505. Next is the rest of verse 3 from printed p. 506 on (the rest of the exception and the verses that follow).
