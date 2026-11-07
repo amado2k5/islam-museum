@@ -295,8 +295,10 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batches 3-5 (one PR): pp. 21-55 filed in ar, en and ur (reports 12585-12666): verse 5:95 continues (the two judges, the three expiations, place of the offering, 'its equal in fasting', 'taste the evil consequence', 'whoever returns'); stop at the foot of p. 55 in al-Tabari's reply on a claimed meaning of 'whoever returns' (next: p. 56).
 - Batch 6: pp. 56-62 filed in ar, en and ur (reports 12667-12693): verse 5:95 closes at p. 57; verse 5:96 is begun and filed to report 12693 at p. 62 (the meaning of 'its food').
 
-## Volume 11 progress
-- Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
 - Batch 7: pp. 63-69 filed in ar, en and ur (reports 12694-12728): verse 5:96 continues; stop at the foot of p. 69 in al-Tabari's choice for 'its food' (next: p. 70).
 - Batch 8: pp. 70-76 filed in ar, en and ur (reports 12729-12745): verse 5:96 continues; stop at the foot of p. 76 at the start of report 12745 (next: p. 77).
 - Batch 9: pp. 77-83 filed in ar, en and ur (reports 12745-12767): verse 5:96 continues; stop at the foot of p. 83 after report 12767 (next: p. 84).
+- Batch 10: pp. 84-90 filed in ar, en and ur (reports 12768-12781): verse 5:96 closes at p. 89; verse 5:97 is begun and filed to the foot of p. 90 (next: p. 91).
+
+## Volume 11 progress
+- Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
