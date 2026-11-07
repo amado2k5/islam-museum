@@ -16,6 +16,6 @@ Al-Tabari reports Pharaoh's words to the sorcerers when they believed in God and
 
 Report 14956, from Ibn Abbas through Ibn Waki', Abu Dawud al-Hafari, Habawayh al-Razi, Ya'qub al-Qummi, Ja'far ibn Abi al-Mughira and Sa'id ibn Jubayr: the first who crucified, and the first who cut hands and feet from opposite sides, was Pharaoh. In a footnote the editor gives the identity of Habawayh al-Razi, Ishaq ibn Isma'il Abu Yazid. {cite:tafsir-tabari-shakir-v13 p. 34}
 
-We stop here at the foot of p. 34, in the middle of the commentary on verse 124 (after report 14956); the next batch begins at p. 35.
+Commentary on verse 124 ends here at p. 34; verse 125 begins on p. 35. {cite:tafsir-tabari-shakir-v13 p. 34}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
