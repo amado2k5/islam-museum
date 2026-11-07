@@ -333,6 +333,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 57: pp. 332-338 filed in ar, en and ur (reports 16908-16928): 9:64 is completed, 9:65 and 9:66 are filed in full and 9:67 is begun to the foot of p. 338 after report 16928 (next: p. 339).
 - Batch 58: pp. 339-345 filed in ar, en and ur (reports 16929-16937): 9:67 is completed, 9:68 and 9:69 are filed in full and 9:70 is begun to the foot of p. 345 after report 16937 (next: p. 346).
 - Batch 59: pp. 346-352 filed in ar, en and ur (reports 16938-16945): 9:70 is completed, 9:71 is filed in full and 9:72 is begun to the foot of p. 352 at the view that Eden names the middle of Paradise (next: p. 353).
+- Batch 60: pp. 353-358 filed in ar, en and ur (reports 16946-16961, 16962 begun): 9:72 is completed and 9:73 is begun to the foot of p. 358 at report 16962 (next: p. 359).
 - Batch 51: pp. 293-299 filed in ar, en and ur (reports 16802-16809, 16810 begun): 9:52 is completed, 9:53 to 9:56 are filed in full and 9:57 is filed to the foot of p. 299 at report 16810 (next: p. 300).
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
@@ -506,6 +507,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 75: pp. 559-564 filed in ar, en and ur (reports 16127-16144): 8:41 closes at p. 563, 8:42 begun; stop sentence at the foot of p. 564 after report 16144 (next: p. 565).
 - Batch 76: pp. 565-570 filed in ar, en and ur (reports 16145-16153): 8:42 closes at p. 569, 8:43 begun; stop sentence at the foot of p. 570 in the middle of report 16153 (next: p. 571).
 - Batch 77: pp. 571-576 filed in ar, en and ur (reports 16153-16166): 8:43 closes, 8:44 and 8:45 filed in full, 8:46 begun; stop sentence at the foot of p. 576 in the middle of report 16166 (next: p. 577).
+- Batch 78: pp. 576-581 filed in ar, en and ur (reports 16167-16182): 8:46 closes at p. 577 and 8:47 is filed in full to p. 581. Volume 13 is complete (printed pages 7-581; the colophon page is not filed); volume 14 begins at 8:48.
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
@@ -583,6 +585,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 68: pp. 509-518 filed in ar, en and ur (reports 18644-18674): 11:114 continued (the parts of the night, the good deeds that drive away evil deeds as the five prayers, the hadiths of Uthman and Salman, the man who repented and the question whether the verse is for him alone) to the foot of p. 518. Next is p. 519.
 - Batch 69: pp. 519-527 filed in ar, en and ur (reports 18675-18691): 11:114 closes (the reports on the man who repented and whether the verse is for him alone, from Ibn Mas'ud, Mu'adh, Abu Umama, Abu al-Yusr and others), 11:115 ('be patient') filed in full and 11:116 begun ('people of remaining virtue', the exception) to the foot of p. 527. Next is p. 528.
 - Batch 70: pp. 528-537 filed in ar, en and ur (reports 18692-18738): 11:116 closes ('followed the luxury they were given', al-Tabari's choice), 11:117 ('not to destroy the towns unjustly'), 11:118 ('would have made people one community', the views on the difference, al-Tabari's choice) and 11:119 begun ('and for that He created them', the views and al-Tabari's choice) to the foot of p. 537. Next is p. 538.
+- Batch 71: pp. 538-545 filed in ar, en and ur (reports 18739-18767): 11:119 closes (al-Tabari's reply on blame, the meaning of the lam, 'jinn'), 11:120 ('all that We relate', the accusative of 'kullan', 'in this' as in this chapter), 11:121-11:123 filed in full to the end of Surat Hud at p. 545. Surat Hud is complete. Next is Surat Yusuf (title p. 547, text from p. 549).
 
 - Batch 17: pp. 133-139 filed in ar, en and ur (reports 12843-12851): verse 5:103 closes at p. 136, 5:104 is filed in full, and 5:105 is filed to the foot of p. 139 after report 12851 (next: p. 140, report 12852).
 
@@ -679,3 +682,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 75: pp. 403-406 filed in ar, en and ur (reports 13308-13314): end of 6:59 and the start of 6:60 (sleep and waking)
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
+- Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
