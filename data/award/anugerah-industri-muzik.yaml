@@ -15,12 +15,21 @@ regions: [southeast-asia]
 fields: [music]
 country: my
 recurs: annual
+since: { edtf: "1993-12-15", calendar: gregorian, precision: day, sources: [source/wikipedia-anugerah-industri-muzik-ms, source/wikidata-anugerah-industri-muzik] }
+categories:
+  - { id: best-nasyid-song, label: { ar: "أفضل أغنية نشيد", en: "Best Nasyid Song", ms: "Lagu Nasyid Terbaik", ur: "بہترین نشید گیت" } }
+  - { id: best-nasyid-album, label: { ar: "أفضل ألبوم نشيد", en: "Best Nasyid Album", ms: "Album Nasyid Terbaik", ur: "بہترین نشید البم" }, note: "discontinued with the other album categories after the 17th edition (2010)" }
+  - { id: best-malay-song-by-foreign-artist, label: { ar: "أفضل أغنية ملايوية يؤديها فنان أجنبي", en: "Best Malay Song Performed by a Foreign Artist", ms: "Lagu Bahasa Melayu Terbaik yang Dipersembahkan oleh Artis Luar Negara", ur: "غیر ملکی فنکار کا بہترین ملے گیت" }, since: { edtf: "2008", calendar: gregorian, precision: year } }
+  - { id: kembara, label: { ar: "جائزة كمبارا", en: "Kembara Award", ms: "Anugerah Kembara", ur: "کمبارا ایوارڈ" }, note: "for Malaysian artists' achievements abroad" }
 footprint:
-  wikipedia: { languages: [], checked: "2026-11-06" }
-sources: [source/wikipedia-thank-you-allah-en, source/wikipedia-thank-you-allah-ar]
+  wikipedia: { languages: [en, id, ms, pl, sv], checked: "2026-11-06", sources: [source/wikidata-anugerah-industri-muzik] }
+  wikidata: "Q4777743"
+external_ids: { wikidata: "Q4777743" }
+sources: [source/wikipedia-anugerah-industri-muzik-ms, source/wikidata-anugerah-industri-muzik, source/wikipedia-thank-you-allah-en, source/wikipedia-thank-you-allah-ar]
 provenance:
   layer: own-research
-  source: "Named in the English and Arabic Wikipedia articles on Thank You Allah (the 2011 nomination, citing the ceremony's results page), checked in Chrome on the founder's Mac on 6 November 2026; the award's own history, first edition and organiser are not yet read and are left for a later batch"
-  generated_by: "Claude Code (claude-fable-5-1)"
-  run: modern-pilot-b01
-status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-1)" }
+  source: "Named first in the English and Arabic Wikipedia articles on Thank You Allah (pilot batch); enriched in music batch 02 from Malay Wikipedia 'Anugerah Industri Muzik' (revision 6982548 of 14 October 2026) and Wikidata Q4777743 (revision 2560651572), read in Chrome on the founder's Mac on 6 November 2026: organiser, start date, auditors and categories. The editions table carries no row citations and is not used for honours"
+  generated_by: "Claude Code (claude-fable-5-1); enriched by Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b02
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-fable-5-1)" }
