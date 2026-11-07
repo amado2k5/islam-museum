@@ -402,6 +402,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Second half, batch 6: pp. 501-508 filed in ar, en and ur (reports 12320-12329): 5:82 closes, 5:83 begun; stop at the foot of p. 508 after report 12329 (al-Zuhri; next: the rest of 5:83 from p. 509). Poems in the notes are described, not quoted.
 - Second half, batch 7: pp. 509-516 filed in ar, en and ur (reports 12330-12344): 5:83 closes, 5:84 to 5:86 filed in full, 5:87 begun; stop at the foot of p. 516 after report 12344 (next: the rest of 5:87 from p. 517).
 - Second half, batch 8: pp. 517-523 filed in ar, en and ur (reports 12345-12356): 5:87 closes, 5:88 filed in full, 5:89 begun; stop at the foot of p. 523 after report 12356 (next: the rest of 5:89 from p. 524).
+- Second half, batch 9: pp. 524-530 filed in ar, en and ur (reports 12357-12376): 5:89 continues; stop at the foot of p. 530 in al-Tabari's choice on the pronoun in 'its expiation' (next: the rest of 5:89 from p. 530/531).
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 11327-11336): verse 6 continues.
 - Batch 3: pp. 21-27 filed in ar, en and ur (reports 11337-11354): verse 6 continues.
