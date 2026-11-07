@@ -287,6 +287,11 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 12544-12565): verse 5:95 begun; stop at the foot of p. 13 at the choice of the reading of 'jaza' mithl' (next: the rest of 5:95 from p. 14).
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 12566-12584): verse 5:95 continues; stop at the foot of p. 20 in al-Tabari's reply on buying a like with the value of the game (next: p. 21).
+- Batch 8: pp. 82-88 filed in ar, en and ur (reports 15056-15071): verses 138 to 141 are filed in full and verse 142 is begun (report 15071 at p. 88, at 'when they rose in the morning'). Next is the rest of 7:142 from printed p. 89.
+- Batches 9-10: pp. 89-102 filed in ar, en and ur (reports 15071-15091): verse 142 closes at p. 90 and verse 143 is filed to the foot of p. 102 (the choice of the reading 'dakka'' and the opening of 'when he recovered'). Next is report 15092 (Ibn Waki') from printed p. 103.
+- Batch 11: pp. 103-109 filed in ar, en and ur (reports 15092-15114): verse 143 closes at p. 105, verse 144 is filed in full and verse 145 is begun (the tablets, 'with strength', and the opening of 'take the best of it') to the foot of p. 109. Next is the rest of 7:145 from printed p. 110.
+- Batch 12: pp. 110-116 filed in ar, en and ur (reports 15115-15123): verse 145 closes at p. 112, verses 146 and 147 are filed in full. Next is verse 148 (the calf of the people of Moses) from printed p. 117.
+- Batch 13: pp. 117-123 filed in ar, en and ur (reports 15124-15132): verses 148 and 149 are filed in full and verse 150 is filed to the foot of p. 123 (report 15132 from Qatada on why Moses threw down the tablets). Next is the rest of report 15132 and 7:150 from printed p. 124.
 - Batches 3-5 (one PR): pp. 21-55 filed in ar, en and ur (reports 12585-12666): verse 5:95 continues (the two judges, the three expiations, place of the offering, 'its equal in fasting', 'taste the evil consequence', 'whoever returns'); stop at the foot of p. 55 in al-Tabari's reply on a claimed meaning of 'whoever returns' (next: p. 56).
 - Batch 6: pp. 56-62 filed in ar, en and ur (reports 12667-12693): verse 5:95 closes at p. 57; verse 5:96 is begun and filed to report 12693 at p. 62 (the meaning of 'its food').
 
