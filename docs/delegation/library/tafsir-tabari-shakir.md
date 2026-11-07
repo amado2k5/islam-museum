@@ -301,6 +301,21 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 7: pp. 63-69 filed in ar, en and ur (reports 12694-12728): verse 5:96 continues; stop at the foot of p. 69 in al-Tabari's choice for 'its food' (next: p. 70).
 - Batch 8: pp. 70-76 filed in ar, en and ur (reports 12729-12745): verse 5:96 continues; stop at the foot of p. 76 at the start of report 12745 (next: p. 77).
 - Batch 9: pp. 77-83 filed in ar, en and ur (reports 12745-12767): verse 5:96 continues; stop at the foot of p. 83 after report 12767 (next: p. 84).
+
+## Volume 16 progress
+- Volume 16 (`waqtaftab-taftab16`, 689 markers): commentary starts on marker 9 = printed p. 1 (12:19, report 18880); printed page = marker minus 8. Indexes begin near marker 615. Cite `{cite:tafsir-tabari-shakir-v16 p. N}` by printed number.
+- Batches 1-10: pp. 1-79 filed in ar, en and ur (reports 18880-19224): 12:19 to 12:30 in full (12:26-28 filed together under 12:26), 12:31 begun to the foot of p. 79 (report 19224, Ibn Mas'ud). Stop sentence at the foot. Next is p. 80 in 12:31. Not yet run: npm run validate.
+## Volume 14 progress
+- Volume 14 (`waqtaftab-taftab14`, 638 markers): the title page (marker 4) names sura al-Anfal 8:48 to 8:75 and sura al-Tawba, reports 16183 to 17518; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (8:48). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v14 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v14`.
+- Batch 1: pp. 7-13 filed in ar, en and ur (reports 16183-16195): verse 8:48 is filed in full and 8:49 is begun (the doubters who said 'their religion has deluded these'). Next is report 16196 from p. 14.
+- Batch 2: pp. 14-20 filed in ar, en and ur (reports 16196-16209): verses 8:49 to 8:53 are filed in full and 8:54 is begun to the foot of p. 20. Next is the rest of 8:54 from p. 21.
+- Batch 3: pp. 21-27 filed in ar, en and ur (reports 16210-16222): verses 8:54 to 8:57 are filed in full and 8:58 is filed to the foot of p. 27. Next is the rest of 8:58 from p. 28.
+- Batch 4: pp. 28-34 filed in ar, en and ur (reports 16223-16235): 8:59 is filed in full and 8:60 is begun to the foot of p. 34 (report 16235). Next is the rest of 8:60 from p. 35.
+- Batch 5: pp. 35-41 filed in ar, en and ur (reports 16235-16247): 8:60 closes at p. 40 and 8:61 is filed to the foot of p. 41. Next is the rest of 8:61 from p. 42.
+- Batch 6: pp. 42-48 filed in ar, en and ur (reports 16248-16264): 8:61 closes at p. 43, 8:62 and 8:63 are filed in full and 8:64 is begun at the foot of p. 48. Next is the rest of 8:64 from p. 49.
+- Batch 7: pp. 49-55 filed in ar, en and ur (reports 16265-16281): 8:64 closes at p. 50 and the joint commentary on 8:65-66 is filed (under 8:65) to the foot of p. 55. Next is the rest of 8:65-66 from p. 56.
+- Batch 8: pp. 56-62 filed in ar, en and ur (reports 16282-16293): 8:65-66 close at p. 58 and 8:67 is filed to the foot of p. 62 (report 16293 and the editor's notes). Next is the rest of 8:67 from p. 63.
+- Batch 9: pp. 63-69 filed in ar, en and ur (reports 16294-16316): 8:67 closes at p. 63 and 8:68 is filed to the foot of p. 69 (report 16316 begun). Next is the rest of 8:68 from p. 70.
 - Batch 14: pp. 124-130 filed in ar, en and ur (reports 15132-15141): verse 150 is filed to the foot of p. 130 (the discussion of the readings 'ya ibn umm'). Next is the rest of 7:150 from printed p. 131.
 - Batch 15: pp. 131-137 filed in ar, en and ur (reports 15142-15151): verses 150 to 153 are filed in full and verse 154 is begun at p. 137 ('when the anger subsided'). Next is the rest of 7:154 from printed p. 138.
 - Batch 10: pp. 84-90 filed in ar, en and ur (reports 12768-12781): verse 5:96 closes at p. 89; verse 5:97 is begun and filed to the foot of p. 90 (next: p. 91).
@@ -310,11 +325,27 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 
 - Batch 13: pp. 105-111 filed in ar, en and ur (reports 12804-12811): verse 5:101 continues; stop at the foot of p. 111 at report 12811 (next: p. 112).
 
-## Volume 11 progress
-- Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
+- Batch 14: pp. 112-118 filed in ar, en and ur (reports 12811-12820): verse 5:101 closes at p. 115, verse 5:102 is filed in full, and verse 5:103 is begun to the foot of p. 118 (next: p. 119).
 - Batch 11: pp. 91-97 filed in ar, en and ur (reports 12782-12793): verse 5:97 closes at p. 94 and verses 5:98 to 5:100 are filed in full (next: 5:101 from p. 98).
 - Batch 16: pp. 138-144 filed in ar, en and ur (reports 15152-15164): verse 154 closes at p. 139 and verse 155 is filed to the foot of p. 144 (the Basra grammarian on the accusative of 'qawmahu sab'ina rajulan'). Next is the rest of 7:155 from printed p. 145.
 - Batch 17: pp. 145-151 filed in ar, en and ur (reports 15165-15174): verse 155 is filed to the foot of p. 151 (the meaning of 'it is only Your trial'). Next is 'by it You lead astray whom You will' and the rest of 7:155 from printed p. 152.
 - Batch 18: pp. 152-158 filed in ar, en and ur (reports 15175-15208): verse 155 closes at p. 152 and verse 156 is filed to the foot of p. 158 (report 15208 from Ibn Abbas, mid-report). Next is the rest of 7:156 from printed p. 159.
 - Batch 19: pp. 159-165 filed in ar, en and ur (reports 15208-15228): verse 156 closes at p. 160 and verse 157 is filed to the foot of p. 165 (after 'forbids them the foul things'). Next is the reports on the foul things from printed p. 166.
 - Batch 20: pp. 166-172 filed in ar, en and ur (reports 15229-15249): verses 157 and 158 are filed in full and verse 159 is begun at p. 172. Next is the description of the community of Moses' people in 7:159 from printed p. 173.
+
+- Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
+
+## Volume 15 progress
+- Volume 15 (`waqtaftab-taftab15`, 640 markers): the title page (marker 2) names Surat Yunus 1-109, Hud 1-123 and Yusuf 1-18 and reports 17518 to 18879; markers 1-8 are cover, blank and a printed invocation, and the commentary starts on marker 9 (10:1). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v15 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v15`.
+- Batch 1: pp. 9-15 filed in ar, en and ur (reports 17518-17541): 10:1 is filed in full and 10:2 is begun (the meanings of 'a footing of truth') to the foot of p. 15. Next is report 17541 (Qatada) from p. 15.
+- Batch 2: pp. 15-21 filed in ar, en and ur (reports 17541-17552): 10:2 closes at p. 18, 10:3 is filed in full and 10:4 is begun to the foot of p. 21. Next is report 17552 (Mujahid) from p. 21.
+- Batch 3: pp. 22-28 filed in ar, en and ur (reports 17552-17562): 10:4 closes at p. 22, 10:5 to 10:8 are filed in full and 10:9 is begun (the guidance by faith) to the foot of p. 28. Next is the list of those who said 'He guides them to His religion', from p. 28.
+- Batch 4: pp. 28-34 filed in ar, en and ur (reports 17562-17573): 10:9 closes at p. 29, 10:10 is filed in full (the call of Paradise, the tasbih reports and the editor's chain notes) and 10:11 is begun to the foot of p. 34. Next is report 17573 end and the following reports from p. 34-35.
+- Batch 5: pp. 35-41 filed in ar, en and ur (reports 17574-17580): 10:11 closes at p. 36, 10:12 to 10:15 are filed in full and 10:16 is begun (the forty years among them) to the foot of p. 41. Next is the rest of the forty-years argument from p. 41-42.
+- Batch 6: pp. 42-48 filed in ar, en and ur (reports 17581-17591): 10:16 closes at p. 45 (the reading attributed to al-Hasan and the Arabic discussion), 10:17 to 10:19 are filed in full and 10:20 is filed to the foot of p. 48. Next is p. 49.
+- Batch 7: pp. 49-55 filed in ar, en and ur (reports 17592-17598): 10:21 to 10:23 are filed in full (the ship in the storm, the readings of 'yusayyirukum' and 'mata'') and 10:24 is begun (the likeness of the rain and plants) to the foot of p. 55. Next is the rest of 10:24 from p. 56.
+- Batch 8: pp. 56-62 filed in ar, en and ur (reports 17599-17609): 10:24 closes at p. 59, 10:25 is filed in full (the banquet reports with the editor's notes on chains) and 10:26 is begun (the best reward and the 'more') to the foot of p. 62. Next is the list of those who said the 'more' is looking on God, from p. 63.
+- Batch 9: pp. 62-69 filed in ar, en and ur (reports 17610-17636): 10:26 is filed to the foot of p. 69 (the 'more' as looking upon God, and the pearl-chamber report). Next is p. 70.
+
+## Volume 11 progress
+- Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
