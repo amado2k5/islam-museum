@@ -61,6 +61,7 @@ open a new block on top with the new version and today's date.
 
 ### Fixed
 - **Site build restored.** The `llms.txt` page had a stray backtick pair inside its template string (the Tafsir Browser entry), which stopped the build at the page's compile step and failed the Validate and build run. The two terms are now written as plain words, and the wording of the entry is unchanged.
+- **Tafsir volume pages build again.** The volume list was declared outside the page's `getStaticPaths` function, which Astro cannot read, so the `main` build failed with "volumes is not defined". The list is now built inside the function; the pages and their routes are unchanged.
 
 ### Data
 - Al-Tabari's commentary on 6:146 closes at p. 206 (the fats forbidden the Jews and the exceptions: what the back carries, the entrails, what is mixed with bone), 6:147 is filed in full (the vast mercy and the might that is not turned back) and 6:148 is begun (the idolaters' 'had God willed' argument), from volume 12 pp. 201-209 (reports 14103 to 14131), in Arabic, English and Urdu.

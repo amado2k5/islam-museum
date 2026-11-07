@@ -4,9 +4,8 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { href, labelOf, summaryOf, realNodes, edgesFrom } from "../../../lib/graph";
 
-const volumes = realNodes.filter((n: any) => n.class === "work" && n.data.kind === "tafsir-volume");
-
 export function getStaticPaths() {
+  const volumes = realNodes.filter((n: any) => n.class === "work" && n.data.kind === "tafsir-volume");
   return LANGS.flatMap((lang) =>
     volumes.map((n: any) => ({ params: { lang, volume: n.id.replace("work/", "") }, props: { lang, node: n } })),
   );
