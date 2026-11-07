@@ -33,6 +33,7 @@ relations:
   - { type: participated_in, target: event/delegation-of-abd-al-qays, role: "رأس الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
   - { type: opposed, target: person/al-gharur-ibn-al-mundhir, note: "دعا قومه إلى الإسلام حين ارتدوا معه (ص222)", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
 status: { review: published, completeness: 3 }
 provenance:

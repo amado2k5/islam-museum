@@ -22,6 +22,7 @@ relations:
   - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "بعثه النبي بسيفه ليردّ ما أُخذ من جذام", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: participated_in, target: event/hijra, role: stayed-behind-then-followed, sources: [source/ibn-ishaq-guillaume] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa, source/ibn-hisham-sira] }
 external_ids: { wikidata: Q39619 }
 sensitivity: contested
 sources: [source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/assabile-ahmed-abdussalam]
