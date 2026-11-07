@@ -22,6 +22,12 @@ Al-Tabari then reports from the interpreters in line with what he said. 13309, f
 
 Al-Tabari says that although these words report God's power and knowledge, they also argue against the polytheists who denied his power to revive them after their death and raise them after their perishing. He says: he who seizes your souls by night and raises you by day to reach an appointed term, while you see it and know it is true, is not to be denied the power to seize your souls and make you perish, return them to your bodies and bring you into being after death; for that is like what you witness, and one who can do what you witness is not to be denied the power to do what you have not witnessed, since what you have not seen resembles what you have. {cite:tafsir-tabari-shakir-v11 p. 406}
 
-We stop here at the foot of p. 406, in the commentary on verse 60 at al-Tabari's argument against the polytheists from sleep and waking, and he continues on p. 407.
+On "then he raises you in it, that an appointed term be fulfilled; then to him is your return; then he will tell you what you used to do" al-Tabari says: "then he raises you" means he stirs you and wakes you from your sleep, "in it" meaning in the day, the pronoun referring to the day; "that an appointed term be fulfilled" says: that God fulfil the term he set for your lives, which is death, so that it reaches its span and end; "then to him is your return" is to God your resort and destination; "then he will tell you what you used to do" means he will inform you of what you did in your worldly life and then repay you, good for good and evil for evil. {cite:tafsir-tabari-shakir-v11 p. 407}
+
+Report 13315, from Mujahid: "raises you in it", in the day; 13316 and 13317, from Qatada: in the day, and the raising is waking; 13318, from al-Suddi: by day; 13319, from Abdullah ibn Kathir: he raises you in sleep. On "that an appointed term be fulfilled", which is death: 13320, from Mujahid: it is death; 13321, from al-Suddi: it is the term of life until death; 13322, from Abdullah ibn Kathir: their span. {cite:tafsir-tabari-shakir-v11 p. 408}
+
+The editor says the printed text and manuscript omitted "then he raises you in it", the text of the recitation, so he restored it; that "in" fell out of "the pronoun in it" and he restored it; that in 13318 the printed text has a different wording and he kept the manuscript's; and refers for "the raising", "an appointed term", "the return" and "the tiding" to earlier passages.
+
+Verse 60 closes here at p. 408, and al-Tabari goes on to [[passage/quran-6-61|6:61]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
