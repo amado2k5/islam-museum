@@ -15,7 +15,7 @@ His father, Ghulam Mahyyoddin Zmaryalay, was an administrator in the land survey
 He studied medicine at Kabul University and graduated as an ophthalmologist in 1983, and worked as a medical doctor and eye surgeon in the 1980s, including a period with Afghan refugees in Pakistan. {cite:wikipedia-abdullah-abdullah-en} {cite:wikipedia-abdullah-abdullah-ar}
 
 ## Career
-He became a senior figure in the Northern Alliance and a close adviser to its commander Ahmad Shah Massoud, serving as a spokesman and in foreign-affairs roles for the resistance and then for the government of Burhanuddin Rabbani. {cite:wikipedia-abdullah-abdullah-en}
+He became a senior figure in the Northern Alliance and a close adviser to its commander Ahmad Shah Massoud, serving as a spokesman and in foreign-affairs roles for the resistance and then for the Islamic State government of Burhanuddin Rabbani. {cite:wikipedia-abdullah-abdullah-en}
 
 After 2001 he was foreign minister in the interim and transitional administrations of Hamid Karzai, from November 2001 to April 2005. {cite:wikipedia-abdullah-abdullah-en}
 

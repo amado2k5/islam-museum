@@ -10,7 +10,7 @@ Ziauddin Yousafzai (born 20 April 1969) is a Pakistani education activist, born 
 
 ## Malala's father
 
-Yousafzai became known worldwide as the father of Malala Yousafzai, the 2014 Nobel Peace Prize laureate: he encouraged his daughter from childhood to speak out for girls' right to education in the face of a ban on it, and stood beside her after the 2012 attempt on her life. He is a co-founder and board member of the Malala Fund, the author of the memoir Let Her Fly (2018), and the recipient of honorary doctorates from Canadian universities for his work for girls' education. {cite:wikipedia-ziauddin-yousafzai-en} {cite:wikipedia-ziauddin-yousafzai-ur}
+Yousafzai became known worldwide as the father of Malala Yousafzai, the 2014 Nobel Peace Prize laureate: he encouraged his daughter from childhood to speak out for girls' right to education against the Pakistani Taliban's ban, and stood beside her after the 2012 attempt on her life. He is a co-founder and board member of the Malala Fund, the author of the memoir Let Her Fly (2018), and the recipient of honorary doctorates from Canadian universities for his work for girls' education. {cite:wikipedia-ziauddin-yousafzai-en} {cite:wikipedia-ziauddin-yousafzai-ur}
 
 ## Religion
 

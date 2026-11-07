@@ -62,7 +62,7 @@ Asked by the presenter Amr Adib whether he would stand for the presidency, he sa
 - **Foreign Policy and Prospect (2008).** In an online poll of intellectuals, he placed sixth among the top 100 public intellectuals in the world. {cite:wikipedia-amr-khaled-en}
 - **Newsweek (April 2008).** He was included in Newsweek's "Superclass" list. {cite:wikipedia-amr-khaled-ar}
 - **Royal Islamic Strategic Studies Centre (2009).** He was ranked fourteenth among fifty influential Muslim personalities, from a list of more than five hundred. The centre is an official research body in Jordan. {cite:wikipedia-amr-khaled-ar}
-- **Yemen (December 2010).** President Ali Abdullah Saleh invited him to preach and broadcast from Yemen to counter the growth of extremist groups, according to BBC Newsnight. {cite:bbc-newsnight-2010} {cite:wikipedia-amr-khaled-en}
+- **Yemen (December 2010).** President Ali Abdullah Saleh invited him to preach and broadcast from Yemen to counter the growth of al-Qaeda and other extremist groups, according to BBC Newsnight. {cite:bbc-newsnight-2010} {cite:wikipedia-amr-khaled-en}
 
 ## Income and funding
 In 2008 Forbes Arabia reported that his net income in 2007 had been about two and a half million dollars. BBC Arabic reported the claim. He denied the figure, saying it was the advertising revenue inside his programmes, from which he did not profit, and called it a misrepresentation by the magazine. {cite:bbc-arabic-2008-forbes} {cite:wikipedia-amr-khaled-ar}

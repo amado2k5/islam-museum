@@ -45,6 +45,8 @@ After the 1993 elections Bhutto returned to office at the head of a coalition; t
 
 Her second government pursued economic privatisation and a set of women's measures the article lists — signing the Convention on the Elimination of All Forms of Discrimination Against Women, a women's bank, women-only police stations and the first women judges of the superior courts. {cite:wikipedia-benazir-bhutto-en}
 
+In 1996 her government became one of only three to recognise the Taliban regime in Afghanistan, a decision the article's critics count among its foreign-policy failures. {cite:wikipedia-benazir-bhutto-en}
+
 In September 1996 her brother Murtaza was killed in a police shootout in Karachi; Bhutto blamed a conspiracy reaching into President Farooq Leghari's circle, the Scotland Yard inquiry she commissioned remained unsolved, and the killing is unsolved still. {cite:wikipedia-benazir-bhutto-en}
 
 On 5 November 1996 Leghari dismissed her government amid the corruption allegations set out in the next section. {cite:wikipedia-benazir-bhutto-en}
@@ -75,11 +77,13 @@ She was clinically dead on arrival at Rawalpindi General Hospital, no autopsy wa
 
 Responsibility was attributed in several directions, and the museum records the attributions without adopting any of them. {cite:wikipedia-benazir-bhutto-en}
 
-The Pakistani authorities stated that the attack had been masterminded by the militant leader Baitullah Mehsud, and the CIA concurred that this was probable; Mehsud denied the accusation. {cite:wikipedia-benazir-bhutto-en}
+The Pakistani authorities stated that the attack had been masterminded by Baitullah Mehsud, leader of the Pakistani Taliban, and the CIA concurred that this was probable; Mehsud denied the accusation. {cite:wikipedia-benazir-bhutto-en}
+
+Al-Qaeda commander Mustafa Abu al-Yazid claimed responsibility for the assassination on al-Qaeda's behalf. {cite:wikipedia-benazir-bhutto-en}
 
 The PPP accused the government of a cover-up, with several PPP figures claiming that Bhutto had been killed by a sniper linked to the intelligence agencies. {cite:wikipedia-benazir-bhutto-en}
 
-A three-person UN commission established in 2009 by Secretary-General Ban Ki-moon — Heraldo Muñoz, Peter FitzGerald and Marzuki Darusman — was not within its remit to identify a culprit; Muñoz later expressed the view that the assassination was likely carried out by militants, perhaps with Mehsud's support and possibly assisted by rogue elements in the intelligence agencies, and that the original police investigation had been deliberately botched. {cite:wikipedia-benazir-bhutto-en}
+A three-person UN commission established in 2009 by Secretary-General Ban Ki-moon — Heraldo Muñoz, Peter FitzGerald and Marzuki Darusman — was not within its remit to identify a culprit; Muñoz later expressed the view that the assassination was likely carried out by the Pakistani Taliban, perhaps with Mehsud's support and possibly assisted by rogue elements in the intelligence agencies, and that the original police investigation had been deliberately botched. {cite:wikipedia-benazir-bhutto-en}
 
 Pakistan's official enquiry issued its final report in February 2012, placing responsibility with 27 different militant groups, and in February 2011 a Rawalpindi court had subpoenaed Musharraf on the grounds that he had not acted on known threats to Bhutto and had provided insufficient security to protect her. {cite:wikipedia-benazir-bhutto-en}
 

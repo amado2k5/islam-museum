@@ -9,7 +9,7 @@ translators: []
 
 ## Summary
 
-The Palestinian Dialogue Network is a Palestinian interactive news and discussion website, with the motto "the voice of Palestine to the world and the voice of the world to Palestine". Arabic Wikipedia describes it as Islamic in affiliation and linked to the Palestinian Information Center; the network itself says it takes no party position. {cite:wikipedia-palestine-dialogue-ar}
+The Palestinian Dialogue Network is a Palestinian interactive news and discussion website, with the motto "the voice of Palestine to the world and the voice of the world to Palestine". Arabic Wikipedia describes it as Islamic in affiliation and linked to the Palestinian Information Center, which it calls an unofficial site of Hamas; the network itself says it takes no party position. {cite:wikipedia-palestine-dialogue-ar}
 
 ## Beginnings and standing
 
@@ -21,7 +21,7 @@ The network says more than 34 of its members were killed by the Israeli army, a 
 
 ## Publications
 
-Through its members and sections it has issued online magazines and bulletins, chief among them the magazine "Huna Filastin" ("Here is Palestine"), with an annual report for 1434 AH / 2013, science and technology bulletins, religious bulletins for Ramadan and Ashura, a bulletin on prisoners, reports on Palestinian refugees for the 65th anniversary of the Nakba and collected works of Palestinian writers and poets. {cite:wikipedia-palestine-dialogue-ar}
+Through its members and sections it has issued online magazines and bulletins, chief among them the magazine "Huna Filastin" ("Here is Palestine"), with an annual report for 1434 AH / 2013, science and technology bulletins, religious bulletins for Ramadan and Ashura, a bulletin on prisoners, reports on Palestinian refugees for the 65th anniversary of the Nakba, collected works of Palestinian writers and poets, and a book on Hamas from 1987 to 2012. {cite:wikipedia-palestine-dialogue-ar}
 
 ## Today
 

@@ -87,7 +87,7 @@ He was buried in an unmarked grave at his residence in Ichhra, Lahore, after a v
 ## Legacy and reception
 His doctrines, the article records, influenced the Iranian Revolution — Khomeini is reputed to have met him in 1963 and later translated his works into Persian — and Hassan al-Banna and Sayyid Qutb read him in the Arab world, Qutb borrowing and expanding his concepts of jahiliyya and of a revolutionary vanguard. {cite:wikipedia-abul-ala-maududi-en}
 
-The historian Philip Jenkins, as quoted, counts all the major contemporary Islamist movements as deriving their programmes from the writings of Maududi and Qutb, and the article notes the influence claimed for his thought on militant movements as well as on the Muslim Brotherhood, the Bangladesh Jamaat and the Islamic Circle of North America; these are the judgements of the scholars cited, recorded here as theirs. {cite:wikipedia-abul-ala-maududi-en}
+The historian Philip Jenkins, as quoted, counts all the major contemporary Islamist movements as deriving their programmes from the writings of Maududi and Qutb, and the article notes the influence claimed for his thought on militant movements as well as on the Muslim Brotherhood, Hamas, the Bangladesh Jamaat and the Islamic Circle of North America; these are the judgements of the scholars cited, recorded here as theirs. {cite:wikipedia-abul-ala-maududi-en}
 
 In Pakistan his party is thought, in Eran Lerman's phrase as quoted, to stand behind much of the country's drift toward Maududi's version of Islam, and his ideas are thought to have influenced Zia-ul-Haq's decision to begin Islamisation. {cite:wikipedia-abul-ala-maududi-en}
 

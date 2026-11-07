@@ -1,0 +1,23 @@
+id: event/battle-of-shaer-gas-field-2014
+class: event
+kind: battle
+label: { ar: "معركة حقل الشاعر", en: "Battle of the Shaer gas field" }
+summary:
+  ar: "بطاقة أولية لمعركة حقل الشاعر سنة ٢٠١٤م، قتال داعش والجيش السوري على حقل الغاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Shaer gas field in 2014, ISIL's and the Syrian army's fight over the field; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2014-07-17", precision: year, status: tradition, derived: true }
+  end: { edtf: "2014-07-26", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q17379166
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

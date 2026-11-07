@@ -1,0 +1,23 @@
+id: event/battle-of-shadadeh-2013
+class: event
+kind: battle
+label: { ar: "معركة الشدادي", en: "Battle of Shadadeh" }
+summary:
+  ar: "بطاقة أولية لمعركة الشدادي سنة ٢٠١٣م، أخذ جبهة النصرة المدينة من الجيش السوري؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Shadadeh in 2013, Jabhat al-Nusra's capture of the town from the Syrian army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2013-02-12", precision: year, status: tradition, derived: true }
+  end: { edtf: "2013-02-14", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4872359
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

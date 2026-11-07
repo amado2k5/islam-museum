@@ -59,13 +59,13 @@ In July 2020, after the Council of State annulled the 1934 cabinet decision that
 ## Foreign policy
 Foreign policy during his premiership was associated with Ahmet Davutoğlu, his advisor and then foreign minister, and rested on the principle of "don't make enemies, make friends" and a "zero problems" policy towards neighbours. {cite:wikipedia-recep-tayyip-erdogan-en}
 
-On Syria, relations collapsed after 2011, Turkey backed the opposition, Turkish forces operated against the Syrian Democratic Forces, and Turkey became the main backer of the Syrian transitional government led by Ahmed al-Sharaa. {cite:wikipedia-recep-tayyip-erdogan-en}
+On Syria, relations collapsed after 2011, Turkey backed the opposition, Turkish forces operated against the Islamic State and the Syrian Democratic Forces, and Turkey became the main backer of the Syrian transitional government led by Ahmed al-Sharaa. {cite:wikipedia-recep-tayyip-erdogan-en}
 
 During Russia's invasion of Ukraine he acted as mediator: he closed the Bosphorus to Russian naval reinforcements, brokered with the United Nations the July 2022 grain-export deal, mediated the September 2022 prisoner exchange that freed 215 Ukrainian soldiers, and in February 2025 offered Turkey as the "ideal host" for talks between Russia, Ukraine and the United States. {cite:wikipedia-recep-tayyip-erdogan-en}
 
 In May 2022 he temporarily blocked Finland and Sweden from joining NATO, accusing both of tolerating groups Turkey classifies as terrorist organisations, before ratifying Finland's accession in April 2023 and Sweden's in January 2024. {cite:wikipedia-recep-tayyip-erdogan-en}
 
-In June 2017 he called the blockade of Qatar "inhumane and against Islamic values". {cite:wikipedia-recep-tayyip-erdogan-en} In September 2017 he condemned the persecution of Muslims in Myanmar as a "genocide" against the Muslim minority. {cite:wikipedia-recep-tayyip-erdogan-en} In October 2023 he condemned Israel as a "terrorist state" committing genocide against the Palestinians, while critics accused him of hypocrisy because Turkey itself was heavily bombing Kurdish areas at the same time. {cite:wikipedia-recep-tayyip-erdogan-en}
+In June 2017 he called the blockade of Qatar "inhumane and against Islamic values". {cite:wikipedia-recep-tayyip-erdogan-en} In September 2017 he condemned the persecution of Muslims in Myanmar as a "genocide" against the Muslim minority. {cite:wikipedia-recep-tayyip-erdogan-en} In October 2023 he said Hamas was not a terrorist organisation but a liberation group, and condemned Israel as a "terrorist state" committing genocide against the Palestinians, while critics accused him of hypocrisy because Turkey itself was heavily bombing Kurdish areas at the same time. {cite:wikipedia-recep-tayyip-erdogan-en}
 
 ## Positions and criticism
 This section should be read as a presentation of differing positions reported in the sources, not as the museum's verdict on them. The English and Arabic articles report these positions; the original statements of all parties have not yet been reviewed in full.
