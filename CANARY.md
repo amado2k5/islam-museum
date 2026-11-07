@@ -58,6 +58,11 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser: al-Tabari vol. 11, batch 13 (pp. 105-111, reports 12804-12811): more reports on the occasion of 5:101 (the 'every year?' question on the pilgrimage, the Prophet's anger, and the view that the question concerned the bahira and sa'iba), filed in Arabic, English and Urdu.
+- Al-Tabari's commentary on 6:142 closes at p. 182 (load-bearers and bedding, the call not to follow the footsteps of Satan) and 6:143 is begun (the eight pairs and the challenge over the two males, the two females and what their wombs hold), from volume 12 pp. 180-185 (reports 14056 to 14069), in Arabic, English and Urdu.
+
+
+
+
 - Tafsir Browser: al-Tabari vol. 11, batch 12 (pp. 98-104, reports 12794-12803): the occasion of 5:101 ('do not ask about things which, if made plain to you, would vex you'): the reports on the question 'who is my father?', Umar's reply and the question on the pilgrimage, filed in Arabic, English and Urdu.
 - The 3D tour's Sabri Brothers stop now lists the same sources as its record (the English Wikipedia and Wikidata records written in the figures wave), which had fallen out of step and turned `main` red on the tour test.
 - Modern Islam Browser, enterprise section, batch 01: eleven Islamic banks rewritten from thin drafts into full records with Arabic, English and Urdu prose — Alrajhi Bank, Dubai Islamic Bank, Meezan Bank, Islami Bank Bangladesh, Boubyan Bank, Faisal Islamic Bank of Egypt, Bank Islam Malaysia, Emirates Islamic, Bank Syariah Indonesia, Qatar Islamic Bank and Abu Dhabi Islamic Bank. Each now cites a Wikipedia article at its recorded revision, gives founding dates with Hijri equivalents, its Sharia basis and ownership, and Forbes Middle East 2025 rankings where the list was cited; lawsuits and disputes (the US 9/11 suits against Alrajhi, the Ryan Cornelius case, Islami Bank's 2022 loan crisis) are told with each side attributed. Unsourced superlatives from the drafts ("the world's first", "fastest-growing") were dropped and listed in the section's progress file. Content only, no deployment.
