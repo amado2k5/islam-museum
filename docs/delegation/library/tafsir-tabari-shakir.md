@@ -254,6 +254,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 3: pp. 21-27 filed in ar, en and ur (reports 13702-13711): verse 103 closes at p. 23, verse 104 is filed in full, and verse 105 is begun (the readings of 'darasta') to the foot of p. 27. Stop sentence at the foot.
 - Batch 4: pp. 28-34 filed in ar, en and ur (reports 13712-13740): verse 105 closes at p. 31, verses 106 and 107 are filed in full, and verse 108 is begun (the Abu Talib report) to the foot of p. 34. Stop sentence at the foot.
 - Batch 5: pp. 35-41 filed in ar, en and ur (reports 13741-13750): verse 108 closes at p. 37 (the readings of 'adwan) and verse 109 is begun (the oaths, the demand for a sign, the readings of 'anna') to the foot of p. 41. Stop sentence at the foot. Next is the rest of the evidence on 'anna' meaning 'perhaps' at p. 41-42.
+- Batch 6: pp. 42-48 filed in ar, en and ur (reports 13751-13756): verse 109 closes at p. 43 (his choice on 'anna' as 'perhaps'), verse 110 is filed in full and verse 111 is begun (the readings of 'qubulan') to the foot of p. 48. Stop sentence at the foot.
 
 ## Volume 10 progress
 - Volume 10 (`waqtaftab-taftab10`, 634 markers): the title page (marker 4) names sura al-Ma'ida 5:6 to 5:94 and reports 11300 to 12543; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (5:6, rising for prayer). The marker-to-printed-page map is the identity (page numbers in the headers agree from p. 8 on). Cite `{cite:tafsir-tabari-shakir-v10 p. N}` by printed number. The source record `source/tafsir-tabari-shakir-v10` already exists.
@@ -266,6 +267,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 7: pp. 49-55 filed in ar, en and ur (reports 11436-11462): verse 6 continues.
 - Batch 8: pp. 56-62 filed in ar, en and ur (reports 11462-11494): verse 6 continues.
 - Batch 9: pp. 63-69 filed in ar, en and ur (reports 11495-11512): verse 6 continues.
+- Batches 10-13: pp. 70-96 filed in ar, en and ur (reports 11512-11556): verse 6 closes at p. 90, verse 7 is filed in full (pp. 91-94), verse 8 is begun at p. 95; next is the rest of 5:8 from p. 96.
+- Batch 14: pp. 97-103 filed in ar, en and ur (reports 11556-11562): verse 8 closes at p. 97, verses 9 and 10 are filed in full, verse 11 is begun at p. 100; next is report 11562 (Ikrima) at the foot of p. 103.
 
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
