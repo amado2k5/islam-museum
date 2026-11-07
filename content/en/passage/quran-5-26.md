@@ -36,6 +36,12 @@ Al-Tabari then gives his choice: the sounder of the two views is that "forty" is
 
 His reasoning is that the scholars of early reports agree that Moses killed 'Awj ibn 'Unaq; had that happened before the wandering, the Children of Israel would not have shown such fear of the giants, so it was after the passing of the generation that despaired and disobeyed. He adds that they also agree that Bal'am ibn Ba'ur aided the giants by prayer against Moses, which is impossible while Moses' people were refusing to fight, since help is needed only by one being sought. The editor fixes the spelling of 'Awj from the manuscript.  {cite:tafsir-tabari-shakir-v10 p. 198}
 
-We stop here at the foot of p. 198, after al-Tabari's argument from Bal'am ibn Ba'ur's prayer; the rest of verse 26 follows in the next batch.
+Report 11698, from Nawf, says 'Awj's bed was eight hundred cubits, and Moses leapt ten cubits into the air, with a staff of ten and a height of ten, struck 'Awj and hit his heel, and he fell dead and became a bridge for people to cross. Report 11699, from Ibn 'Abbas, is similar and says he was a bridge for the people of the Nile for a year. The editor comments that al-Tabari's accounts of 'Awj and similar reports of the giants' huge size are exaggerations taken from the people of the earlier scripture, and are not to be relied on.  {cite:tafsir-tabari-shakir-v10 p. 199}
+
+Al-Tabari explains that "they will wander in the land" means they are bewildered and lost in it, hence the man lost from the right path is called one who wanders; their wandering was that for forty years they set out earnestly each day over about six leagues to leave it and by evening were where they began. Report 11700, from al-Rabi', says so, and report 11701, from Mujahid, says they woke where they had spent the evening and spent the evening where they had woken.  {cite:tafsir-tabari-shakir-v10 p. 199}
+
+**Commentary on verse 26, continued: "so do not grieve over the wicked people", p. 200**
+
+Al-Tabari says "do not grieve" means do not sorrow; one says that someone grieved over something, and he cites a verse of Imru' al-Qays from his famous ode meaning do not perish of grief, with the editor giving its place in his diwan. Report 11702, from Ibn 'Abbas, says the same. Report 11703, from al-Suddi, says that when the wandering was imposed on them Moses regretted it, and God revealed that he should not grieve over those He had called wicked, and he did not.  {cite:tafsir-tabari-shakir-v10 p. 200}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
