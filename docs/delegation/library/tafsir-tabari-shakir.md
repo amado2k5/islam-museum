@@ -716,3 +716,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 83: pp. 456-462 filed in ar, en and ur (reports ): 6:71 end, 6:72 and 6:73 begun (grammar of 'be and it is', the trumpet)
 - Batch 84: pp. 463-469 filed in ar, en and ur (reports 13432-13440): 6:73 end and 6:74 (Abraham and Azar)
 - Batch 85: pp. 470-476 filed in ar, en and ur (reports 13441-13461): 6:75 begun (the dominion of the heavens and the earth)
+- Batch 66: printed pp. 419-424 (markers 423-428) filed in ar, en and ur (reports 14599-14614): 7:38 closes at p. 419, 7:39 is filed and 7:40 is begun to the foot of p. 424 before report 14615. Marker 425 (printed 421) is partly illegible in the OCR; the 7:39 closing paragraph there follows the evident sense. Offset still marker - 4. Stop sentence at the foot. Next is report 14615 (marker 428, printed 424).
+- Batch 86: pp. 477-483 filed in ar, en and ur (reports 13461-13464): 6:75 end and 6:76 begun (Abraham and the star)
