@@ -18,6 +18,8 @@ Then, on [[passage/quran-7-91|7:91]], al-Tabari says: the "rajfa" seized the unb
 
 Then (14870) from Ibn Ishaq that it reached him, and God knows best, that God sent the heat on them until it cooked them, and then raised for them (the report is not yet finished). {cite:tafsir-tabari-shakir-v12 p. 567}
 
-We stop here at verse 91 of Surat al-A'raf on printed p. 567, within Ibn Ishaq's report 14870 at "then He raised for them"; the next batch begins on printed p. 568 (marker 572).
+The rest of report 14870: then He raised for them a shadow like a black cloud, and when they saw it they hurried to it, seeking relief in its coolness from the heat they were in, until, once under it, it closed on them and they all perished; God saved Shuayb and those who believed with him by His mercy. {cite:tafsir-tabari-shakir-v12 p. 568}
+
+(14871) from Abu Abd Allah al-Bajali: "Abu Jad", "Hawwaz", "Hutti", "Kalmun", "Saafas" and "Qarashat" were names of kings of Midian, and their king on the day of the shadow in Shuayb's time was Kalmun. His sister wept for him in verses saying that Kalmun had broken her support and that his death came in the midst of the camp, that death came to the lord of the people as fire amid a shadow, and that the fire was borne upon them and their home became like something vanished. The editor notes that Abu Abd Allah al-Bajali is unknown, that al-Tabari gives the like in his history through Yahya ibn al-Ala al-Bajali, of whom Ahmad said he was a liar who forged reports, and that al-Baghawi and al-Thalabi record the report. {cite:tafsir-tabari-shakir-v12 p. 568}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
