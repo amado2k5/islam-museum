@@ -133,6 +133,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser: al-Tabari vol. 11, batch 76 (pp. 407-413, reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62 Arabic, English and Urdu.
+- Tafsir Browser: al-Tabari vol. 13, batch 74 (pp. 553-558, reports 16106-16126): the commentary on 8:41 continues with who 'the relatives' are (Banu Hashim, all Quraysh, the ruler, Banu Hashim with Banu al-Muttalib), al-Tabari's choice, and the views on the Messenger's and the relatives' shares after his death, in Arabic, English and Urdu; weak chains are marked as the editor marks them.
 - Tafsir Browser: al-Tabari vol. 13, batch 73 (pp. 547-552, reports 16090-16105): the commentary on 8:41 (the fifth of the spoils) continues with fay' and its separation from al-Hashr, 'of anything', the views on God's share (opening of speech, the Ka'ba, the Prophet's kin) and al-Tabari's choice, in Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 75 (pp. 403-406, reports 13308-13314): end of 6:59 and the start of 6:60 (sleep and waking) Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 13, batch 72 (pp. 541-546, reports 16083-16089): 8:39 is completed (the rest of Urwa's letter on the two trials, the Abyssinia emigration and the pledge at al-Aqaba, then 'if they stop'), 8:40 is filed in full and 8:41 (spoils and fay') is begun to the foot of p. 546, in Arabic, English and Urdu.
