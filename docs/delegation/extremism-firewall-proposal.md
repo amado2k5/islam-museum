@@ -4,6 +4,8 @@ Status: **proposed, awaiting the founder's written approval** (`docs/ai-change-g
 Date: 7 November 2026. Author: Claude (claude-sonnet-5-5), Claude Code desktop.
 Risk label: **non-impacting** for this document and the audit. The enforcement steps in §4 are labelled where they could touch a filed submission.
 
+> **Founder decision, 7 November 2026 (section 3.1): exclude all mention** of the listed organisations, not only their sources and voice. The file-by-file dry run is `docs/delegation/extremism-firewall-manifest.md`. Execution waits for the founder's go on that list (removals are submission-impacting).
+
 ## 1. What was asked
 
 The founder pasted a brief asking every agent to (a) audit existing and incoming content, URLs and citations for links to modern terrorist organisations and their propaganda wings, (b) flag modern extremist vocabulary and framing applied to classical history, (c) halt and warn on a violation, and (d) rewrite tainted-source topics from an academic, art-historical or archaeological angle. It listed two blacklists: designated organisations (ISIS and affiliates, Al-Qaeda and affiliates, Levantine, South Asian and other regional groups) and their media wings (Amaq, Al-Hayat, Al-Furqan, Al-I'tisam, Naba, Dabiq, Rumiyah, As-Sahab, Al-Malahem, Al-Andalus, Al-Kataib, Az-Zallaqa, Inspire, Al-Manar, Al-Aqsa TV).
