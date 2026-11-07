@@ -1,0 +1,28 @@
+id: work/salsabil-russian-arkhestov
+class: work
+kind: book
+label: { ar: "سلسبيل: ترجمة معاني القرآن العظيم إلى الروسية ⁦(أصلان أرخيستوف وفريقه)⁩", en: "Salsabil: A Translation of the Meanings of the Great Qur'an (Aslan Arkhestov et al.)", ur: "سلسبیل: قرآنِ عظیم کے معانی کا روسی ترجمہ ⁦(اصلان ارخیستوف اور ٹیم)⁩" }
+summary:
+  ar: "ترجمة روسية لمعاني القرآن صدر جزؤها الأول سنة 2022 بوصف «طبعة تجريبية»، من الفاتحة إلى الآية 93 من سورة التوبة، ثم طبعة ثانية سنة 2023 تضم سورة التوبة كاملة؛ أعدّها فريق برئاسة الداعية أصلان أرخيستوف، المعروف بأبي إسلام الشركسي، مع خمسة محررين مساعدين أربعة منهم نساء، ونشرها «معهد ريحان» الإلكتروني، مع النص العربي ودون مقدمة ولا حواشٍ."
+  en: "A Russian rendering of the meanings of the Qur'an whose first part appeared in 2022 as an 'experimental edition', from al-Fatiha to verse 93 of al-Tawba, with a second edition in 2023 including the whole of al-Tawba; prepared by a team led by the preacher Aslan Arkhestov, known as Abu Islam al-Sharkasi, with five assistant editors, four of them women, and published by the online Rayhan Institute, with the Arabic text and without introduction or notes."
+  ur: "قرآن کے معانی کا روسی ترجمہ جس کا پہلا حصہ 2022 میں «تجرباتی اشاعت» کے طور پر فاتحہ سے سورۂ توبہ کی آیت 93 تک آیا، اور 2023 میں دوسری اشاعت پوری سورۂ توبہ کے ساتھ؛ اسے داعی اصلان ارخیستوف، المعروف ابو اسلام الشرکسی، کی سربراہی میں پانچ معاون مدیران کی ٹیم نے تیار کیا جن میں چار خواتین ہیں، اور آن لائن «ریحان انسٹی ٹیوٹ» نے عربی متن کے ساتھ، بغیر مقدمے اور حواشی کے، شائع کیا۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission, muslim-minorities-under-non-muslim-rule]
+regions: [persia-central-asia]
+genre: [quran-translation]
+authors: [person/aslan-arkhestov]
+language: language/russian
+composed: { edtf: "2022", hijri: "1443", calendar: gregorian, precision: year, status: historical, derived: true, note: "Part I, first edition 2022; second edition 2023. The Gregorian year 2022 runs from Jumada I 1443 to Jumada II 1444 AH; the Hijri year is converter-derived.", sources: [source/gloqur-salsabil-arkhestov] }
+editions:
+  - "Salsabil: Perevod smyslov Velikogo Korana. Tom I. Rayhan Institute, 2022, 'experimental edition' (al-Fatiha to 9:93), with the Arabic text in mushaf layout"
+  - "Second edition of Part I, 2023, with the whole of al-Tawba and plain Arabic text"
+relations:
+  - { type: translation_of, target: work/quran, sources: [source/gloqur-salsabil-arkhestov] }
+sources: [source/gloqur-salsabil-arkhestov]
+provenance:
+  layer: own-research
+  source: "GloQur post #161 (Elvira Kulieva, 16 June 2023), read in full in Chrome on the founder's Mac on 7 November 2026, for every fact of the record and its prose; no Wikipedia article or Wikidata item for the work itself was found."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b09
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
