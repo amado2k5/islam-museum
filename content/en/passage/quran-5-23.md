@@ -40,6 +40,8 @@ Report 11679, from Ibn Ishaq, from some who knew the earlier scripture, says tha
 
 Report 11680, from Qatada, says twelve men were sent as scouts; ten made their people timid and made entering hateful to them, while the two told their people to enter and follow God's command and that they would prevail. Report 11681, from Mujahid, says "the gate" is the giants' village.  {cite:tafsir-tabari-shakir-v10 p. 183}
 
-We stop here at the foot of p. 183, after report 11681 from Mujahid on the giants' gate; the rest of verse 23 follows in the next batch.
+**Commentary on verse 23, continued: "and in God put your trust, if you are believers", p. 184**
+
+Al-Tabari says this too is a report of what the two God-fearing men said to Moses' people, encouraging them and urging them to go ahead with God's command to enter the giants' city: put your trust in God as you enter upon them, for He is with you if you obey Him in what He commanded about fighting your enemy. "If you are believers" he explains as: if you believe your prophet in what he told you from your Lord of help and victory, and believe your Lord can fulfil what He promised, your establishment in the land of His enemy and yours. The editor refers to p. 108 for the sense of trust.  {cite:tafsir-tabari-shakir-v10 p. 184}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

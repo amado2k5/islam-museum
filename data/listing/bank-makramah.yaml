@@ -1,0 +1,77 @@
+id: listing/bank-makramah
+class: listing
+kind: company
+label:
+  ar: بنك مكرمة
+  en: Bank Makramah
+  ur: بینک مکرمہ
+summary:
+  ar: بنك إسلامي باكستاني في كراتشي، نشأ سنة 2006 من أعمال بنك روبالي في باكستان، وحمل اسمَي بنك عارف حبيب ثم بنك سميت، وتحوّل
+    إلى بنك إسلامي باسم بنك مكرمة في نوفمبر 2023.
+  en: A Pakistani Islamic bank in Karachi, which grew in 2006 out of Rupali Bank's Pakistan operations, traded as Arif Habib
+    Bank and then Summit Bank, and was converted into an Islamic bank as Bank Makramah in November 2023.
+  ur: کراچی کا پاکستانی اسلامی بینک، جو 2006 میں روپالی بینک کے پاکستانی کاروبار سے بنا، پہلے عارف حبیب بینک اور پھر سمٹ بینک
+    کہلایا، اور نومبر 2023 میں بینک مکرمہ کے نام سے اسلامی بینک بنا۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- south-asia
+founded:
+  edtf: '2006-08-05'
+  hijri: '1427-07-11'
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: Began operations as Arif Habib Rupali Bank on 5 August 2006 (Express Tribune and Business Recorder, cited by the article);
+    converted to an Islamic bank in November 2023. The Hijri date is converter-derived (Umm al-Qura).
+  sources:
+  - source/wikipedia-bank-makramah-en
+made:
+  by_muslims: true
+  basis: documented
+  sources:
+  - source/wikipedia-bank-makramah-en
+external_ids:
+  wikidata: Q7637775
+sources:
+- source/wikipedia-bank-makramah-en
+- source/wikidata
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - pk
+links:
+  official: https://www.bankmakramah.com
+footprint:
+  wikipedia:
+    languages:
+    - bn
+    - en
+    - fa
+    - pnb
+    - ur
+    checked: '2026-11-07'
+    sources:
+    - source/wikipedia-bank-makramah-en
+  wikidata: Q7637775
+  catalogues:
+    ticker: 'PSX: BML'
+provenance:
+  layer: own-research
+  source: 'English Wikipedia "Bank Makramah" (revision 1366839999, 30 July 2026), read in Chrome on the founder''s Mac on
+    7 November 2026; Wikidata sitelinks read the same day; made basis: its conversion into an Islamic bank in November 2023
+    (Business Recorder)'
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b09

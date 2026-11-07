@@ -1,0 +1,72 @@
+id: listing/lotus-bank
+class: listing
+kind: company
+label:
+  ar: بنك لوتس
+  en: Lotus Bank
+  ur: لوٹس بینک
+summary:
+  ar: بنك لا ربوي وأخلاقي في نيجيريا، ثالث بنك لا ربوي فيها وأول بنك منها يبدأ العمل من الجنوب، ومقره لاغوس؛ نال ترخيص الصيرفة
+    اللاربوية في 17 يونيو 2021 وبدأ العمل في 7 يوليو 2021.
+  en: A non-interest and ethical bank in Nigeria, the country's third non-interest bank and the first to start from the south,
+    headquartered in Lagos; it was licensed for non-interest banking on 17 June 2021 and opened on 7 July 2021.
+  ur: نائیجیریا کا بلا سود اور اخلاقی بینک، ملک کا تیسرا بلا سود بینک اور جنوب سے شروع ہونے والا پہلا، صدر دفتر لاگوس میں؛
+    17 جون 2021 کو بلا سود بینکاری کا لائسنس ملا اور 7 جولائی 2021 کو کام شروع کیا۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- west-africa-sahel
+founded:
+  edtf: '2021-07-07'
+  hijri: '1442-11-27'
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: Licensed for non-interest banking on 17 June 2021; operations from 7 July 2021 (BusinessDay and Daily Trust, cited
+    by the article). The Hijri date is converter-derived (Umm al-Qura).
+  sources:
+  - source/wikipedia-lotus-bank-en
+made:
+  by_muslims: true
+  basis: documented
+  sources:
+  - source/wikipedia-lotus-bank-en
+external_ids:
+  wikidata: Q125195721
+sources:
+- source/wikipedia-lotus-bank-en
+- source/wikidata
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - ng
+links:
+  official: https://www.lotusbank.com
+footprint:
+  wikipedia:
+    languages:
+    - en
+    - ig
+    checked: '2026-11-07'
+    sources:
+    - source/wikipedia-lotus-bank-en
+  wikidata: Q125195721
+provenance:
+  layer: own-research
+  source: 'English Wikipedia "Lotus Bank" (revision 1367902428, 5 August 2026), read in Chrome on the founder''s Mac on 7
+    November 2026; Wikidata sitelinks read the same day; made basis: its non-interest banking licence from the Central Bank
+    of Nigeria, the framework under which Nigeria licenses Islamic banks (as with Jaiz and TAJBank)'
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b08

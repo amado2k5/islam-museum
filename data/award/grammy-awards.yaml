@@ -16,13 +16,14 @@ country: us
 recurs: annual
 since: { edtf: "1958", calendar: gregorian, precision: year, sources: [source/wikipedia-grammy-best-contemporary-world-music-album-en, source/wikidata-grammy-awards] }
 categories:
+  - { id: best-world-music-album, label: { ar: "أفضل ألبوم موسيقى عالمية", en: "Best World Music Album", ur: "بہترین عالمی موسیقی البم" }, since: { edtf: "1992", calendar: gregorian, precision: year }, note: "first given at the 34th Grammy Awards in 1992; split in 2004 and merged back from 2012" }
   - { id: best-contemporary-world-music-album, label: { ar: "أفضل ألبوم موسيقى عالمية معاصرة", en: "Best Contemporary World Music Album", ur: "بہترین معاصر عالمی موسیقی البم" }, since: { edtf: "2004", calendar: gregorian, precision: year }, until: { edtf: "2011", calendar: gregorian, precision: year }, note: "split from Best World Music Album in 2004 and merged back into it from 2012" }
 links: { official: "https://www.grammy.com" }
 footprint:
   wikipedia: { languages: [af, am, ar, arz, ast, az, azb, ba, be, be-tarask, bg, bn, br, ca, ckb, crh, cs, cv, cy, da, de, diq, dty, el, eml, eo, es, et, eu, fa, fi, fo, fr, fy, ga, gl, ha, he, hi, hr, hu, hy, hyw, id, io, is, it, ja, jv, ka, kk, ko, ku, ky, la, lb, lt, lv, mai, mk, ml, mn, mr, ms, my, mzn, nl, nn, nb, pa, pap, pl, pnb, ps, pt, ro, ru, rw, sah, sc, sh, shi, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, ug, uk, ur, uz, vi, vls, wuu, xmf, yo, zh, nan, yue], checked: "2026-11-06", sources: [source/wikidata-grammy-awards] }
   wikidata: "Q41254"
 external_ids: { wikidata: "Q41254" }
-sources: [source/wikipedia-grammy-best-contemporary-world-music-album-en, source/wikidata-grammy-awards]
+sources: [source/wikipedia-grammy-best-contemporary-world-music-album-en, source/wikidata-grammy-awards, source/wikipedia-night-song-nusrat-en]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Grammy Award for Best Contemporary World Music Album' (revision 1336339650 of 3 February 2026) for the awards' founding, the presenting academy and the category's dates, and Wikidata Q41254 (revision 2563139352) for the founding year and the sitelinks, read in Chrome on the founder's Mac on 6 November 2026; Simple English and Chavacano sitelinks are left out of the footprint codes"
