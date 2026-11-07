@@ -20,6 +20,6 @@ As for 'the sun and the moon, I saw them prostrating to me', it means I saw the 
 
 It was said that the eleven stars were his brothers and the sun and moon his parents; report 18781, from Qatada: the stars are his eleven brothers and the sun and moon his parents; 18782, from al-Suddi: he saw his parents and brothers prostrating to him, and when asked on whose authority, he said, if it is true, Ibn Abbas explained it; 18783, from Qatada, 18784, from Ibn Jurayj, and 18786, from al-Dahhak: the stars are Joseph's brothers and the sun and moon his parents; 18787, from Ibn Zayd: his parents and brothers; his brothers, who were prophets, reproached him, saying, he was not content that his brothers prostrate to him until his parents did too, when it reached them. It is reported of Ibn Abbas that he said the stars were his brothers and the sun and moon his father and his aunt, by a route not praiseworthy, so al-Tabari disliked to mention it. {cite:tafsir-tabari-shakir-v15 p. 557}
 
-We stop here at the foot of p. 557, in the middle of the commentary on verse 4; the next batch begins at p. 558. {cite:tafsir-tabari-shakir-v15 p. 557}
+We stop here at the foot of p. 557, at the end of the commentary on verse 4; the next batch begins at p. 558. {cite:tafsir-tabari-shakir-v15 p. 557}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

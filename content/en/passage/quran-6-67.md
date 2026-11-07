@@ -14,6 +14,10 @@ On "for every tiding there is a settled time, and you will know" al-Tabari says:
 
 The editor says the printed text has a different word for "reality", and refers for "guardian" and "tiding" to earlier passages.
 
-We stop here at the foot of p. 434, after this passage of the commentary on verse 67, and al-Tabari continues on p. 435.
+13381, from al-Suddi: "your people denied it though it is the truth": Quraysh denied the Qur'an, which is the truth; the guardian is the keeper; "for every tiding there is a settled time": the Qur'an's tiding came to rest at Badr in the punishment it had promised them. 13382, from Mujahid: every tiding has a reality, either in this world or in the next; "you will know": what was in this world you will see, and what was in the next will appear to you. 13383, from Ibn Abbas: a reality; 13384, from him: deed and reality, whatever of it in this world and whatever in the next. Al-Hasan took it to be the trial that came among the companions of God's messenger; and 13385, from him, that he read "for every tiding there is a settled time" and said: its punishment was held back until, when the sin was done, its punishment was sent. {cite:tafsir-tabari-shakir-v11 p. 435}
+
+The editor says the bracketed words in 13385 are an addition the context requires.
+
+Verse 67 closes here on p. 435, and al-Tabari goes on to [[passage/quran-6-68|6:68]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
