@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.3.0 — 2026-11-06
 
 ### Added
+- **Tafsir Browser search (Phase 4).** The Tafsir Browser's volume pages are now indexed the same way as the landing page: the volume header is searchable by name, and the long verse list on each volume page is kept out of the search index so it is not flooded with verse numbers. A test guards the markup.
 - Inventions Browser94: Baghdad's commissioned round-city nucleus plan in Arabic, English and Urdu, crediting older circular-city precedents and distinguishing foundation, occupation and completion. Source disagreements remain explicit; the inspected1900map is a reconstruction, not a762survey. Existing maker/city accounts and political perspectives preserved.
 - Tafsir Browser (phase 3): `/api/v1/tafsir.json` exports the Jami' al-Bayan commentary and its volumes 1 to 9 with their verse coverage, documented in the data guide, the OpenAPI file and llms.txt. Submission-impacting: the data-extraction route, with the founder's sign-off in chat.
 - Inventions Browser93: al-Mahdi's central zimam oversight, in Arabic, English and Urdu, distinguishing departmental account checks from later central coordination. Earlier seal practices, individual identity evidence and political accounts remain separate; the inspected nineteenth-century ledger cover is context, not an Abbasid form or a claim of modern independent audit.
