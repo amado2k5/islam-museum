@@ -247,7 +247,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 38: pp. 527-534 filed in ar, en and ur (reports 11101-11118): verse 3 is filed to the foot of p. 534.
 - Batch 39: pp. 535-541 filed in ar, en and ur (reports 11119-11131): verse 3 is filed to the foot of p. 541.
 - Batch 40: pp. 542-548 filed in ar, en and ur (reports 11132-11150): verse 3 is closed at p. 542 and verse 4 is filed to the foot of p. 548 (new passage content in quran-5-4).
-- Progress: current report 11150, printed p. 548. Next is the rest of the views on the jawarih, from printed p. 549 on, in verse 4.
+- Batch 41: pp. 549-555 filed in ar, en and ur (reports 11151-11166): verse 4 is filed to the foot of p. 555.
+- Progress: current report 11166, printed p. 555. Next is the rest of the dog that eats from its catch and the other conditions of the hunt, from printed p. 556 on, in verse 4.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
