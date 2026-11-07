@@ -10,7 +10,7 @@ Verse 157 of [[passage/quran-7|Surat al-A'raf]], a Meccan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 157 of 206 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 157 (pp. 161-165)**
+**Commentary on verse 157 (pp. 161-169)**
 
 **On "those who follow the Messenger, the unlettered Prophet"**
 
@@ -34,6 +34,24 @@ Report 15226, from Ata, through Abu Kurayb, Musa ibn Dawud, Fulayh and Hilal: I 
 
 Al-Tabari says: this unlettered Prophet enjoins his followers the right, which is belief in God and keeping to obedience to Him in what He commanded and forbade, and forbids them the wrong, which is shirk and refraining from what God forbade them. "He makes lawful for them the good things" means what the Jahiliyya had forbidden of the bahira, sa'iba, wasila and ham animals, "and forbids them the foul things" means the flesh of swine and usury and what they treated as lawful of foods and drinks that God had forbidden. The editor refers to the earlier explanations of "right", "wrong", "good things" and "foul things". {cite:tafsir-tabari-shakir-v13 p. 165}
 
-We stop here at the foot of p. 165, after the explanation of "forbids them the foul things" in verse 157 and before the reports on it; the next batch begins at p. 166. {cite:tafsir-tabari-shakir-v13 p. 165}
+Report 15229, from Ibn Abbas, through al-Muthanna, Abd Allah ibn Salih, Mu'awiya and Ali, on "forbids them the foul things": the flesh of swine and usury and the forbidden foods which they treated as lawful, which God had forbidden. {cite:tafsir-tabari-shakir-v13 p. 166}
+
+**On "and lifts from them their burden and the fetters that were upon them"**
+
+The interpreters differed on its meaning. Some said "isr" (burden) is the covenant and pledge taken from the Children of Israel to act on the Torah. Report 15230, from Ibn Abbas, through Ibn Waki', Jabir ibn Nuh, Abu Rawq and al-Dahhak: their covenant. Reports 15231 and 15232, from al-Dahhak, through al-Muharibi and Juwaybir, and through al-Muthanna, Amr ibn Ali, Hushaym and Juwaybir: their covenant. Report 15233, from al-Hasan, through Ibn Waki', Yahya ibn Yaman and Mubarak: the covenants they gave of themselves. Report 15234, from Mujahid, through Ibn Numayr and Musa ibn Qays: their covenant. Report 15235, from al-Suddi: He lifts from them their covenants and pledges taken from them in the Torah and the Gospel. Report 15236, from Ibn Abbas: what God had taken from them by covenant in what He forbade them. {cite:tafsir-tabari-shakir-v13 p. 166}
+
+Others said it means that he lifts from whoever follows God's Prophet the strictness that was on the Children of Israel in their religion. Report 15237, from Qatada, through Bishr ibn Mu'adh, Yazid and Sa'id: Muhammad came with a release from Him and a pardon. Report 15238, from Sa'id ibn Jubayr, through al-Muthanna, al-Himmani, Sharik and Salim: urine and the like, made heavy for the Children of Israel. Report 15239, from him: the hardness of work. Report 15240, from Mujahid, through al-Qasim, al-Husayn and Hajjaj: whoever of the People of the Book follows Muhammad and his religion has lifted from him the strictness that was on them in their religion. {cite:tafsir-tabari-shakir-v13 p. 167}
+
+Report 15241, from Ibn Sirin, through Ibn Waki', Ibn Fudayl and Ash'ath: Abu Hurayra said to Ibn Abbas, is there no hardship upon us in religion if we fornicate and steal? He said, yes, there is; but the burden that was on the Children of Israel has been lifted from you. Report 15242, from Ibn Zayd, through Yunus and Ibn Wahb: their burden which He placed on them. {cite:tafsir-tabari-shakir-v13 p. 167}
+
+Al-Tabari says the better of the views is that "isr" is the covenant, which he has explained with evidence elsewhere, and that the meaning is that the unlettered Prophet lifts the covenant God took from the Children of Israel to uphold the Torah and do its hard deeds, such as cutting away skin touched by urine and the prohibition of spoils and the like of what was prescribed for them, which the ruling of the Qur'an abrogated. {cite:tafsir-tabari-shakir-v13 p. 168}
+
+As for "the fetters that were upon them", Ibn Zayd said, as in report 15243 through Yunus and Ibn Wahb, "the fetters", and recited what is in sura al-Ma'ida about the Jews and the shackling of their hands, saying those are the fetters; and the Prophet called them to believe in him so that it would be lifted from them. {cite:tafsir-tabari-shakir-v13 p. 168}
+
+**On "those who believed in him, honoured him and helped him"**
+
+Al-Tabari says: those who affirmed the unlettered Prophet and acknowledged his prophethood, "and honoured him" means revered, magnified and protected him from people. Report 15244, from Ibn Abbas, through al-Muthanna, Abd Allah ibn Salih, Mu'awiya and Ali: protected and revered him. Report 15245, from Mujahid, through al-Harith, Abd al-Aziz and Musa ibn Qays: "honoured him" means they set his affair straight and helped his messenger. The editor refers to the explanations of "belief" and "honouring". {cite:tafsir-tabari-shakir-v13 p. 168}
+
+"And helped him" means they supported him against God's enemies and his enemies by fighting them and waging war on them; "and followed the light sent down with him" means the Qur'an and Islam; "those are the successful" means those who do these things with which the followers of Muhammad are described are the prosperous, who attain what they sought and hoped for by doing so. Report 15246, from Qatada, through Bishr ibn Mu'adh, Yazid and Sa'id: they, meaning the Jews, bore a grudge only because they envied God's Prophet; God said "those who believed in him, honoured him and helped him"; as for helping and honouring him, you have already preceded in that, but the best of you are those who believe in God and follow the light sent with him. It is explained that Qatada means the Jews rejected what Muhammad brought from God, which was a mercy for them had they followed him, since he came to lift the burden and the fetters from them, but envy led them to disbelieve in him and refuse the easing, because God's abandonment had overcome them. The editor refers to the explanations of "light" and "success". {cite:tafsir-tabari-shakir-v13 p. 169}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
