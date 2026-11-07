@@ -353,6 +353,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 9: pp. 62-69 filed in ar, en and ur (reports 17610-17636): 10:26 is filed to the foot of p. 69 (the 'more' as looking upon God, and the pearl-chamber report). Next is p. 70.
 - Batch 10: pp. 70-76 filed in ar, en and ur (reports 17637-17647): 10:26 closes at p. 72 (al-Tabari's choice that the 'more' is general), 10:27 is filed to the foot of p. 76 (the grammar of 'jaza'' and the readings of 'qita'an'). Next is the second reason for the masculine 'muzliman', from p. 77.
 - Batch 11: pp. 77-83 filed in ar, en and ur (reports 17648-17658): 10:27 closes at p. 77, 10:28 to 10:30 are filed in full (the separation of the polytheists from their partners, the gods' denial, the two readings 'tabla' and 'tatlu') and 10:31 is begun (the provision, hearing and sight, the living from the dead) to the foot of p. 83. Next is p. 84.
+- Batch 12: pp. 84-90 filed in ar, en and ur (reports 17659-17661): 10:31 closes at p. 84, 10:32 to 10:36 are filed in full (the true Lord and the turning away, the beginning and repeating of creation, the editor's note on the Surat al-An'am cross-reference, the readings of 'yahiddi', conjecture against the truth) and 10:37 is begun (the Qur'an cannot be invented) to the foot of p. 90. Next is p. 91, the rest of 10:37.
 
 - Batch 16: pp. 126-132 filed in ar, en and ur (reports 12828-12843): verse 5:103 continues; stop at the foot of p. 132 at the start of report 12843 (next: p. 133).
 
