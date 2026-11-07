@@ -24,6 +24,11 @@ relations:
   - { type: member_of, target: group/khazraj }
   - { type: child_of, target: person/al-bara-ibn-marur }
   - { type: participated_in, target: event/incident-of-the-poisoned-sheep, role: "الشهيد الذي أكل من الشاة المسمومة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
 external_ids: { wikidata: "Q866227" }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 377" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), p. 377 — as recorded in this record's status.generated_by"
+  generated_by: "Devin"

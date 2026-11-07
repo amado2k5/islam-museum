@@ -323,33 +323,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/amr-ibn-abdullah-al-dibabi
 - [x] person/amr-ibn-al-ahwas-al-bariqi
 
-## Draft records (193)
+## Draft batch D04 (25 entities)
 
-- [ ] person/amr-ibn-suraqa
-- [ ] person/amr-ibn-umayya-al-damri
-- [ ] person/anas-ibn-abi-marthad
-- [ ] person/anas-ibn-muadh
-- [ ] person/arbad-ibn-humayra
-- [ ] person/asad-ibn-zurara
-- [ ] person/asma-bint-abi-bakr
-- [ ] person/asma-bint-umays
-- [ ] person/auf-ibn-al-harith
-- [ ] person/aws-ibn-hudhayfa
-- [ ] person/bilal-ibn-rabah
-- [ ] person/bishr-ibn-al-bara
-- [ ] person/bujayr-ibn-abi-bujayr
-- [ ] person/dhikwan-ibn-abd-qays
-- [ ] person/dhimad-al-azdi
-- [ ] person/dhu-al-shamalayn
-- [ ] person/dihya-al-kalbi
-- [ ] person/dimam-ibn-malik-al-salmani
-- [ ] person/dirar-ibn-al-azwar
-- [ ] person/dirar-ibn-al-khattab
-- [ ] person/dubaa-bint-amir
-- [ ] person/fakhitah-bint-abi-hashim
-- [ ] person/farwah-ibn-amr-al-ansari
-- [ ] person/fatima-bint-abd-al-malik
-- [ ] person/fatima-bint-al-khattab
+- [x] person/amr-ibn-suraqa
+- [x] person/amr-ibn-umayya-al-damri
+- [x] person/anas-ibn-abi-marthad
+- [x] person/anas-ibn-muadh
+- [x] person/arbad-ibn-humayra
+- [x] person/asad-ibn-zurara
+- [x] person/asma-bint-abi-bakr
+- [x] person/asma-bint-umays
+- [x] person/auf-ibn-al-harith
+- [x] person/aws-ibn-hudhayfa
+- [x] person/bilal-ibn-rabah
+- [x] person/bishr-ibn-al-bara
+- [x] person/bujayr-ibn-abi-bujayr
+- [x] person/dhikwan-ibn-abd-qays
+- [x] person/dhimad-al-azdi
+- [x] person/dhu-al-shamalayn
+- [x] person/dihya-al-kalbi
+- [x] person/dimam-ibn-malik-al-salmani
+- [x] person/dirar-ibn-al-azwar
+- [x] person/dirar-ibn-al-khattab
+- [x] person/dubaa-bint-amir
+- [x] person/fakhitah-bint-abi-hashim
+- [x] person/farwah-ibn-amr-al-ansari
+- [x] person/fatima-bint-abd-al-malik
+- [x] person/fatima-bint-al-khattab
+
+## Draft records (168)
+
 - [ ] person/fatimah-bint-al-hasan
 - [ ] person/fayruz-al-daylami
 - [ ] person/ghalib-ibn-abd-allah-al-laythi
