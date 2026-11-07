@@ -14,5 +14,7 @@ regions: [persia-central-asia]
 faith:
   - { value: sunni, basis: tradition, note: "صحابي؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).", sources: [source/suwar-min-hayat-al-sahaba-nafais-1992] }
 provenance: { layer: own-research, source: "source/suwar-min-hayat-al-sahaba-nafais-1992 PDF pp. 489–496", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+relations:
+  - { type: member_of, target: group/sahaba, sources: [source/suwar-min-hayat-al-sahaba-nafais-1992] }
 sources: [source/suwar-min-hayat-al-sahaba-nafais-1992]
 status: { review: published, completeness: 3 }
