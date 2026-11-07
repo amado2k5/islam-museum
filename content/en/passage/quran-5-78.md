@@ -24,6 +24,10 @@ Report 12307, from Abdullah ibn Mas'ud, says that when wrongdoing spread among t
 
 Reports 12308 to 12311, from Sufyan and others on Ali ibn Budhayma from Abu Ubayda, some through Ibn Mas'ud and some without him, carry one sense: when wrongdoing appeared among the Children of Israel a man would see his brother or neighbour at it and forbid him yet remain his eating and drinking companion, so God struck their hearts together; and the Prophet sat up angry and said no, by God, until you take the wrongdoer by the hand and bend him to the truth. The editor traces the report to al-Tirmidhi, Ibn Majah, Ahmad and Abu Dawud, notes that most chains are mursal or broken, and that al-Tirmidhi called it good but rare.  {cite:tafsir-tabari-shakir-v10 p. 494}
 
-We stop here at the foot of p. 494, after report 12311 from Ali ibn Budhayma on bending the wrongdoer to the truth; the rest of verse 78 follows in the next batch. The pages of commentary end at p. 585, before the indexes beginning at p. 587.
+**Commentary on verse 78, continued: "That was because they disobeyed and transgressed", p. 495**
+
+Report 12312, from Ibn Zayd, says they were cursed in the Gospel and in the Psalms, and he relates from the Prophet that the mill of faith has turned, so turn with the Qur'an wherever it turns; then he tells of a group of the Children of Israel who were just, enjoining right and forbidding wrong, whom their people sawed in two and crucified; the remnant did not stay away from kings but sat with them and then ate with them, so God struck those hearts together and made them one. That, he says, was their disobedience: "they did not forbid one another any wrong they did". The editor notes that the manuscript has blank spaces at two points in this report, left as dots until the report is found elsewhere, so the museum gives only what remains.  {cite:tafsir-tabari-shakir-v10 p. 495}
+
+Al-Tabari sums up the sense: God cursed those of the Jews who disbelieved through David and Jesus son of Mary, as He cursed their fathers, for disobeying God and going against His command, and "transgressing" means exceeding His limits.  {cite:tafsir-tabari-shakir-v10 p. 495}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

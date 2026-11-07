@@ -397,6 +397,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Second half, batch 2: pp. 473-480 filed in ar, en and ur (reports 12284-12293): 5:68 closes, 5:69 to 5:71 filed in full, 5:72 begun; stop at the foot of p. 480 (al-Tabari on Jesus as a human of known lineage; next: the rest of 5:72 from p. 480/481).
 - Second half, batch 3: pp. 480-487 filed in ar, en and ur (reports 12293-12295): 5:72 closes, 5:73 to 5:76 filed in full, 5:77 begun; stop at the foot of p. 487 (the Jews' slander of the Messiah's mother; next: the rest of 5:77 from p. 487/488). The last lines of p. 484 are damaged in the scan (Vision OCR aided), reading kept to what is legible.
 - Second half, batch 4: pp. 487-494 filed in ar, en and ur (reports 12296-12311): 5:77 closes and 5:78 begun; stop at the foot of p. 494 after report 12311 (next: the rest of 5:78 from p. 495).
+- Second half, batch 5: pp. 495-501 filed in ar, en and ur (reports 12312-12320): 5:78 closes, 5:79 to 5:81 filed in full, 5:82 begun; stop at the foot of p. 501 in al-Tabari's choice on the Christians nearest in affection (next: the rest of 5:82 from p. 501/502).
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 11327-11336): verse 6 continues.
 - Batch 3: pp. 21-27 filed in ar, en and ur (reports 11337-11354): verse 6 continues.
