@@ -1,0 +1,74 @@
+id: listing/noor-bank
+class: listing
+kind: company
+label:
+  ar: نور بنك
+  en: Noor Bank
+  ur: نور بینک
+summary:
+  ar: بنك متوافق مع الشريعة في دبي، افتُتح في 7 يناير 2008 باسم نور الإسلامي، وصار اسمه نور بنك سنة 2014، ثم استحوذ عليه بنك
+    دبي الإسلامي في ديسمبر 2019.
+  en: A Shari'a-compliant bank in Dubai, opened on 7 January 2008 as Noor Islamic Bank and renamed Noor Bank in 2014, which
+    Dubai Islamic Bank acquired in December 2019.
+  ur: دبئی کا شریعت کے مطابق بینک، جو 7 جنوری 2008 کو نور اسلامک بینک کے نام سے کھلا، 2014 میں نور بینک کہلایا، اور دسمبر
+    2019 میں دبئی اسلامک بینک نے اسے حاصل کیا۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- arabia
+founded:
+  edtf: '2008-01-07'
+  hijri: '1428-12-28'
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: Opened to the public on 7 January 2008 (as cited by the article); acquired by Dubai Islamic Bank in December 2019.
+    The Hijri date is converter-derived (Umm al-Qura).
+  sources:
+  - source/wikipedia-noor-bank-en
+made:
+  by_muslims: true
+  basis: documented
+  sources:
+  - source/wikipedia-noor-bank-en
+external_ids:
+  wikidata: Q12556512
+sources:
+- source/wikipedia-noor-bank-en
+- source/wikidata
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: closed
+location:
+  serves:
+  - ae
+links:
+  official: https://www.noorbank.com
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - en
+    - fa
+    - kk
+    - uz
+    checked: '2026-11-07'
+    sources:
+    - source/wikipedia-noor-bank-en
+  wikidata: Q12556512
+provenance:
+  layer: own-research
+  source: English Wikipedia "Noor Bank" (revision 1359645503, 16 June 2026), read in Chrome on the founder's Mac on 7 November
+    2026; Wikidata sitelinks read the same day
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b10
