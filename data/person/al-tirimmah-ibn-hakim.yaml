@@ -1,0 +1,22 @@
+id: person/al-tirimmah-ibn-hakim
+class: person
+label:
+  ar: "الطرماح بن حكيم"
+  en: "al-Tirimmah ibn Hakim"
+  ur: "طرماح بن حکیم"
+names:
+  - { kind: full, lang: ar, value: "الطرماح بن حكيم" }
+gender: male
+roles: [poet]
+summary:
+  ar: "شاعر إسلامي فصيح ينتهي نسبه إلى طيء ونشأ بالشام، كما في شرح الحماسة {{cite:hamasa-abu-tammam-ed-1916 p.66}}."
+  en: "A fluent Islamic-era poet whose lineage goes back to Tayyi and who grew up in Syria, according to the Hamasa commentary {{cite:hamasa-abu-tammam-ed-1916 p.66}}."
+wings: [people]
+themes: [literature]
+periods: [period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/hamasa-abu-tammam-ed-1916] }
+sources: [source/hamasa-abu-tammam-ed-1916]
+status: { review: published, completeness: 1 }
+provenance: { layer: own-research, source: "ديوان الحماسة، طبعة 1916 (أرقام الصفحات المطبوعة)", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-hamasa-4" }
