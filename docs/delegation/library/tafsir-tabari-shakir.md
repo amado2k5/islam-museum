@@ -243,7 +243,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 14901-14908): verses 101 to 104 are filed in full and verse 105 is begun (the readings of the word translated 'worthy'). Next is the rest of 7:105 from the foot of p. 13 (printed p. 14).
 - Batch 35: pp. 507-513 filed in ar, en and ur (reports 11047-11071): verse 3 is filed to p. 513.
 - Batch 36: pp. 514-520 filed in ar, en and ur (reports 11072-11087): verse 3 is filed to the foot of p. 520.
-- Progress: current report 11087, printed p. 520. Next is the rest of al-Tabari's weighing of the perfecting of the religion, from printed p. 520 on.
+- Batch 37: pp. 520-527 filed in ar, en and ur (reports 11088-11100, 11101 begun): verse 3 is filed to the foot of p. 527.
+- Progress: current report 11101, printed p. 527. Next is the rest of report 11101 from printed p. 528 on, in verse 3.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
