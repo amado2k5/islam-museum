@@ -1,0 +1,27 @@
+id: award/fimi-albums-chart
+class: award
+kind: chart
+label: { ar: "قائمة الألبومات الإيطالية ⁦(FIMI)⁩", en: "Italian Albums Chart (FIMI)", ur: "اطالوی البمز چارٹ" }
+summary:
+  ar: "قائمة الألبومات الرسمية في إيطاليا، يعدها الاتحاد الإيطالي لصناعة الموسيقى الذي تأسس سنة 1992، وصدرت أول مرة في 7 مارس 1995 لتحل محل قوائم سابقة رآها الاتحاد غير موثوقة؛ بلغ فيها ألبوم يوسف إسلام «An Other Cup» المرتبة الثانية والعشرين سنة 2006."
+  en: "Italy's official albums chart, compiled by FIMI, the music industry federation founded in 1992, and first issued on 7 March 1995 to replace earlier charts the federation considered unreliable; Yusuf Islam's An Other Cup peaked at number 22 there in 2006."
+  ur: "اٹلی کا سرکاری البمز چارٹ، جو 1992 میں قائم اطالوی موسیقی صنعت فیڈریشن مرتب کرتی ہے اور پہلی بار 7 مارچ 1995 کو شائع ہوا؛ 2006 میں «این ادر کپ» بائیسویں نمبر تک پہنچا۔"
+wings: [today]
+themes: [music]
+regions: [andalus-europe]
+fields: [music]
+country: it
+recurs: weekly
+since: { edtf: "1995-03-07", calendar: gregorian, precision: day, sources: [source/wikipedia-fimi-en] }
+footprint:
+  wikipedia: { languages: [ar, az, bg, ca, cs, da, de, en, es, fa, fi, fr, he, hy, id, it, ja, ka, kk, ko, lt, mk, nl, no, pl, pt, ru, sk, sv, tr, uk, uz, vi, zh], checked: "2026-11-07", sources: [source/wikidata-fimi] }
+  wikidata: "Q1978275"
+external_ids: { wikidata: "Q1978275" }
+sources: [source/wikipedia-fimi-en, source/wikidata-fimi, source/wikipedia-an-other-cup-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Federazione Industria Musicale Italiana' (revision 1383442744, section 'FIMI Albums Chart') and Wikidata Q1978275 (revision 2545324630; the federation's item, used for the footprint), read in Chrome on the founder's Mac on 7 November 2026; peaks from the chart tables of the album articles, each row citing the chart's archive"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b07
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5)" }
