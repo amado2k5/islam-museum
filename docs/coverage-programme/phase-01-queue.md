@@ -435,33 +435,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/qutba-ibn-qatada
 - [x] person/rabia-ibn-umayya-ibn-khalaf
 
-## Draft records (93)
+## Draft batch D08 (25 entities)
 
-- [ ] person/rafi-ibn-al-mala
-- [ ] person/rafi-ibn-umayra
-- [ ] person/rayta-bint-munabbih
-- [ ] person/ribi-ibn-amir
-- [ ] person/rifaa-ibn-amr-ibn-zayd
-- [ ] person/rifaa-ibn-malik-al-zuraqi
-- [ ] person/rufayda-al-aslamiyya
-- [ ] person/ruwayfi-ibn-thabit-al-ansari
-- [ ] person/saad-ibn-abi-waqqas
-- [ ] person/sad-ibn-khawla
-- [ ] person/sad-ibn-ubayd
-- [ ] person/sad-ibn-zayd-al-ashhali
-- [ ] person/saffanah-bint-hatim
-- [ ] person/safiyya-bint-huyayy
-- [ ] person/safwan-ibn-al-muattal
-- [ ] person/sahl-ibn-hunayf
-- [ ] person/sahl-ibn-sad-al-saidi
-- [ ] person/said-ibn-zayd
-- [ ] person/salama-ibn-al-akwa
-- [ ] person/salama-ibn-al-mayla
-- [ ] person/salama-ibn-hisham
-- [ ] person/salma-al-qabila
-- [ ] person/salma-umm-al-khayr
-- [ ] person/salman-al-farisi
-- [ ] person/sawad-ibn-ghaziyya
+- [x] person/rafi-ibn-al-mala
+- [x] person/rafi-ibn-umayra
+- [x] person/rayta-bint-munabbih
+- [x] person/ribi-ibn-amir
+- [x] person/rifaa-ibn-amr-ibn-zayd
+- [x] person/rifaa-ibn-malik-al-zuraqi
+- [x] person/rufayda-al-aslamiyya
+- [x] person/ruwayfi-ibn-thabit-al-ansari
+- [x] person/saad-ibn-abi-waqqas
+- [x] person/sad-ibn-khawla
+- [x] person/sad-ibn-ubayd
+- [x] person/sad-ibn-zayd-al-ashhali
+- [x] person/saffanah-bint-hatim
+- [x] person/safiyya-bint-huyayy
+- [x] person/safwan-ibn-al-muattal
+- [x] person/sahl-ibn-hunayf
+- [x] person/sahl-ibn-sad-al-saidi
+- [x] person/said-ibn-zayd
+- [x] person/salama-ibn-al-akwa
+- [x] person/salama-ibn-al-mayla
+- [x] person/salama-ibn-hisham
+- [x] person/salma-al-qabila
+- [x] person/salma-umm-al-khayr
+- [x] person/salman-al-farisi
+- [x] person/sawad-ibn-ghaziyya
+
+## Draft records (68)
+
 - [ ] person/sawda-bint-zama
 - [ ] person/shaddad-ibn-abdullah-al-qanani
 - [ ] person/shuja-ibn-wahb
