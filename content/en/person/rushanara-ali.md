@@ -22,7 +22,7 @@ In March 2009 The Guardian listed her as one of the most powerful Muslim women i
 ## Parliamentary career
 She was chosen in April 2007 as Labour's candidate for Bethnal Green and Bow and was elected in May 2010 with a majority of 11,574. She is the first person of Bangladeshi origin to have been elected to the House of Commons, and along with Shabana Mahmood and Yasmin Qureshi became one of the United Kingdom's first female Muslim MPs. {cite:wikipedia-rushanara-ali-en}
 
-She served as Shadow Minister for International Development (2010–2013) and then Shadow Minister for Education. In September 2014 she resigned from the shadow education team to abstain on a motion permitting military action in Iraq. In April 2016 the prime minister appointed her Trade Envoy to Bangladesh. In September 2023 she was appointed Shadow Minister for Investment and Small Business. {cite:wikipedia-rushanara-ali-en}
+She served as Shadow Minister for International Development (2010–2013) and then Shadow Minister for Education. In September 2014 she resigned from the shadow education team to abstain on the motion permitting military action against Islamic State in Iraq. In April 2016 the prime minister appointed her Trade Envoy to Bangladesh. In September 2023 she was appointed Shadow Minister for Investment and Small Business. {cite:wikipedia-rushanara-ali-en}
 
 She retained her seat at successive elections, and in 2024 won the new Bethnal Green and Stepney seat with a reduced majority of about 1,700. {cite:wikipedia-rushanara-ali-en}
 
