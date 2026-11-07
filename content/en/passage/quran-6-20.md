@@ -18,6 +18,10 @@ The interpreters said the like: report 13130, from Qatada: they know that Islam 
 
 At 13132 the editor notes that the report is cut short in both manuscript and print, that the bracketed addition comes from the Durr al-Manthur, from al-Suddi's commentary as transmitted by Abu al-Shaykh, and that the lack appears old in the copies of Abu Jafar's commentary, since al-Suyuti's copy was also cut short here.
 
-We stop here at the foot of p. 295, within report 13133 from Ibn Jurayj on "those to whom we gave the book know him as they know their sons", at "from the description and attribute we find", which continues on p. 296.
+The rest of 13133: "in the book; as for our sons, we do not know what the women brought about!". {cite:tafsir-tabari-shakir-v11 p. 296}
+
+The editor explains that they meant they do not know whether their sons are from their loins or whether illicit seed mingled with theirs from their women, and refers for the report of this in the account of Umar ibn al-Khattab's question to Abdullah ibn Salam, God knowing its soundness, to al-Farra's Ma'ani al-Qur'an.
+
+Verse 20 closes here at p. 296, and al-Tabari goes on to [[passage/quran-6-21|6:21]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
