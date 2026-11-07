@@ -1,0 +1,76 @@
+id: listing/al-arafah-islami-bank
+class: listing
+kind: company
+label:
+  ar: بنك العرفة الإسلامي
+  en: Al-Arafah Islami Bank
+  ur: العرفہ اسلامی بینک
+summary:
+  ar: بنك إسلامي بنغلاديشي في دكا قائم على الشريعة، أُسس في 27 سبتمبر 1995، وتتحقق هيئة شرعية فيه من توافق أعماله؛ حلّ البنك
+    المركزي البنغلاديشي مجلس إدارته سنة 2024.
+  en: A Shariah-based Islamic bank in Dhaka, Bangladesh, founded on 27 September 1995, whose shariah council checks its compliance;
+    Bangladesh Bank dissolved its board in 2024.
+  ur: ڈھاکہ کا شریعت پر مبنی بنگلہ دیشی اسلامی بینک، جو 27 ستمبر 1995 کو قائم ہوا؛ اس کی شرعی کونسل اس کے کاموں کی جانچ کرتی
+    ہے؛ 2024 میں بنگلہ دیش بینک نے اس کا بورڈ تحلیل کیا۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- south-asia
+founded:
+  edtf: '1995-09-27'
+  hijri: '1416-05-02'
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: Founded 27 September 1995 (Banglapedia and Dhaka Tribune, cited by the article). The Hijri date is converter-derived
+    (Umm al-Qura).
+  sources:
+  - source/wikipedia-al-arafah-islami-bank-en
+made:
+  by_muslims: true
+  basis: documented
+  sources:
+  - source/wikipedia-al-arafah-islami-bank-en
+external_ids:
+  wikidata: Q4702219
+sources:
+- source/wikipedia-al-arafah-islami-bank-en
+- source/wikidata
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  place: place/dhaka
+  serves:
+  - bd
+links:
+  official: https://www.aibl.com.bd
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - bn
+    - en
+    checked: '2026-11-07'
+    sources:
+    - source/wikipedia-al-arafah-islami-bank-en
+  wikidata: Q4702219
+  catalogues:
+    ticker: 'DSE: ALARABANK'
+provenance:
+  layer: own-research
+  source: English Wikipedia "Al-Arafah Islami Bank" (revision 1380633606, 16 October 2026), read in Chrome on the founder's
+    Mac on 7 November 2026; Wikidata sitelinks read the same day; the lawsuits and board changes are told as the cited press
+    reports them, no verdict
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b05
