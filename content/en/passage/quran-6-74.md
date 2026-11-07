@@ -32,6 +32,6 @@ On "do you take idols as gods? I see you and your people in manifest error" he s
 
 The editor says the printed text has "it is allowed to be a title, God knows best", leaving out "he is called by" which is in the manuscript, and adding what the manuscript lacks; and refers for "error" and "manifest" to earlier passages.
 
-We stop here at the foot of p. 469, after the commentary on verse 74, and al-Tabari goes on to verse 75 on p. 470.
+Verse 74 closes here on p. 469, and al-Tabari goes on to [[passage/quran-6-75|6:75]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
