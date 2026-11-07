@@ -24,6 +24,11 @@ relations:
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/aws }
   - { type: participated_in, target: event/pledges-of-aqaba, role: "نقيب بني عبد الأشهل", sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
 external_ids: { wikidata: "Q6036774" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/ibn-hajar-isaba, source/assabile-omar-abdelkafy]
 status: { review: draft, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 144-146" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), pp. 144-146 — as recorded in this record's status.generated_by"
+  generated_by: "Devin"
