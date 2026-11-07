@@ -15,7 +15,7 @@ The article recounts that Imtiaz Ali told Rahman about the film's hero, Jordan, 
 It is track four of the soundtrack album, listed as 'Kun Faaya Kun (Raga Bhairavi)', 7 minutes 53 seconds long, sung by Rahman with Javed Ali, Mohit Chauhan and the Nizami Bandhu; Irshad Kamil wrote all the album's lyrics, and the track list was published on Rahman's site on 16 September 2011. {cite:wikipedia-rockstar-soundtrack-en}
 
 ## Awards
-The article's awards table lists the song as winning a Mirchi Music Award as a song representing the Sufi tradition, and nominated elsewhere for song of the year, best composition, best lyrics and best group performance. {cite:wikipedia-rockstar-soundtrack-en}
+The article's awards table lists the song as winning the [[award/mirchi-music-awards|Mirchi Music Award]] for a song representing the Sufi tradition, at the 4th ceremony on 21 March 2012 for the music of 2011, {cite:wikipedia-mirchi-music-awards-en} and nominated elsewhere for song of the year, best composition, best lyrics and best group performance. {cite:wikipedia-rockstar-soundtrack-en}
 
 ## References
 - English Wikipedia, 'Rockstar (soundtrack)', revision 1381114859 of 20 October 2026. {cite:wikipedia-rockstar-soundtrack-en}
