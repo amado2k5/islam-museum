@@ -58,6 +58,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser (volume 13, batch 7): al-Tabari's commentary on 7:135 to 7:138 (the drowning in the sea, the inheritance of the blessed land, the readings of 'ya'rishun', the Israelites' request for a god after crossing the sea) filed in Arabic, English and Urdu from printed pp. 74-81 (reports 15042-15055), each paragraph cited to the page of the Shakir edition.
+- Tafsir Browser: al-Tabari vol. 11, batch 2 (pp. 14-20, reports 12566-12584): the reading of the compensation clause and the reports on the livestock equivalent of game killed in ihram (Umar, Ibn Abbas, al-Suddi, Ata, al-Dahhak), filed for Qur'an 5:95 in Arabic, English and Urdu; Arabic parentheses in the earlier batch isolated per the 6 November rule.
 - Tafsir Browser (volume 13, batch 6): al-Tabari's commentary on 7:133 to 7:135 (the end of the plague reports, the sense of 'distinct signs', whether the plague of verse 134 was pestilence or punishment, the broken covenant) filed in Arabic, English and Urdu from printed pp. 66-73 (reports 15026-15041), each paragraph cited to the page of the Shakir edition.
 - Al-Tabari's commentary on 6:115 closes at printed p. 63, 6:116 to 6:118 are filed in full and 6:119 is begun, from volume 12 pp. 63-69 (reports 13789 to 13792), in Arabic, English and Urdu.
 - Al-Tabari's commentary on 6:112 closes at printed p. 57, 6:113 and 6:114 are filed in full and 6:115 is begun, from volume 12 pp. 56-62 (reports 13775 to 13788), in Arabic, English and Urdu.
