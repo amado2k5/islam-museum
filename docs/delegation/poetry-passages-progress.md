@@ -19,9 +19,11 @@ Plan: `docs/delegation/poetry-passages-plan.md`. Source for the Sira poems: Ibn 
 | `work/malik-ibn-awf-jirana-praise` | 4 | 879 |
 | `work/abbas-ibn-mirdas-atab` | 6 | 881-882 |
 
-## Skipped, with reason
+## Proposed skips, awaiting founder (not decided)
 
-- `work/tarjuman-al-ashwaq`, `work/hirz-al-amani-wa-wajh-al-tahani`, `work/alpamish`: text not in a reachable public-domain source in this lane.
+- `work/hirz-al-amani-wa-wajh-al-tahani`, `work/alpamish`: proposed skip, awaiting founder; reason: text not found in a reachable public-domain source in this lane. (`work/tarjuman-al-ashwaq` was later ingested, PR 10.)
+- Ka'b ibn Zuhayr (beyond the opening of Banat Su'ad): proposed skip, awaiting founder; reason: no public-domain edition found yet.
+- Unlocated Hunayn/Tabuk verse sets and single bayts not read with confidence (see the batch log): proposed skips, awaiting founder; reason: illegible on the scan or first line not located.
 
 ## Notes
 
@@ -88,3 +90,5 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 39 (Hamasa 1916): Qatari ibn al-Fuja'a (2, p. 38), Amir ibn al-Tufayl (2, p. 39).
 - PR 40 (Barquqi Hassan diwan, read from page renderings): `hassan-diwan-ya-har-qad-awwalta` (4, p. 45), `hassan-diwan-fakhartum-bil-liwa` (4, p. 62), `hassan-diwan-sail-quraysh-wa-ahlafaha` (6, pp. 62-63), `hassan-diwan-ya-har-in-kunta-imran` (5, p. 60; first bayt skipped, one word unclear), `hassan-diwan-khabat-banu-asad` (4, p. 77) (23 passages, 5 works).
   - Next (stopped on the founder's instruction 2 Nov 2026): `dhakarta-al-qurum-al-sid` (reply to Quraysh, p. 66, tawil, 4 bayts read) and `abligh-rabia-wa-nawfal` (pp. 72-73, kamil, rha' rhyme, 6 bayts read; bayt 7 unclear); then more Barquqi poems (scan pages 47, 83, 116+), more Hamasa and Mufaddaliyyat.
+- PR 41 (Barquqi Hassan diwan): `dhakarta-al-qurum-al-sid` (4, p. 66), `abligh-rabia-wa-nawfal` (6, pp. 72-73; bayt 7 unclear), `ala-man-mubligh-anni-rabia` (4, p. 107), `law-kunta-min-hashim-musafi` (5, pp. 133-134) (19 passages).
+- PR 42 (Barquqi Hassan diwan): `laqad-laan-al-rahman-jamaan` (satire of Abu Jahl, 5, p. 150), `zaama-ibn-nabigha-al-lasim` (to Amr ibn al-As, 4 of 5 bayts, p. 151; bayt 4 skipped, sense of the last hemistich unclear) (9 passages). Next Hassan candidates: scan pages 113, 116, 118, 120, 128, 159+.
