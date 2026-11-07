@@ -674,3 +674,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 75: pp. 403-406 filed in ar, en and ur (reports 13308-13314): end of 6:59 and the start of 6:60 (sleep and waking)
 - Batch 63: printed pp. 400-405 (markers 404-409) filed in ar, en and ur (reports 14543-14553): 7:32 closes at p. 402, 7:33 and 7:34 are filed and 7:35 is begun to the foot of p. 405 in the comment on 'relating My signs to you'. Offset still marker - 4. Stop sentence at the foot. Next is marker 409's last lines then marker 410 (printed 406).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
+- Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
