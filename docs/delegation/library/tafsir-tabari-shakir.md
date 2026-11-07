@@ -242,15 +242,25 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Volume 13 (`waqtaftab-taftab13`, 639 markers): the title page (marker 4) names 7:101 to 7:206 and 8:1 to 8:47 and reports 14901 to 16182; markers 1-3 are cover and blank, markers 5-6 are a printed invocation, and the commentary starts on marker 7 (7:101). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v13 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v13`.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 14901-14908): verses 101 to 104 are filed in full and verse 105 is begun (the readings of the word translated 'worthy'). Next is the rest of 7:105 from the foot of p. 13 (printed p. 14).
 - Batch 35: pp. 507-513 filed in ar, en and ur (reports 11047-11071): verse 3 is filed to p. 513.
-- Progress: current report 11071, printed p. 513. Next is report 11072 (Ibn Ishaq on the divining arrows) on printed p. 513, in the rest of verse 3.
+- Batch 36: pp. 514-520 filed in ar, en and ur (reports 11072-11087): verse 3 is filed to the foot of p. 520.
+- Progress: current report 11087, printed p. 520. Next is the rest of al-Tabari's weighing of the perfecting of the religion, from printed p. 520 on.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 13680-13696): verses 100 to 102 are filed in full and verse 103 is begun at p. 13 (stop sentence at the foot). Next is report 13696 (Atiyya al-Awfi) continuing on p. 14.
+- Batch 2: pp. 14-20 filed in ar, en and ur (reports 13696-13701): verse 103 (the perception of the eyes) is filed to the foot of p. 20, where al-Tabari begins his reply to the deniers of the vision. Stop sentence at the foot.
 
 ## Volume 10 progress
 - Volume 10 (`waqtaftab-taftab10`, 634 markers): the title page (marker 4) names sura al-Ma'ida 5:6 to 5:94 and reports 11300 to 12543; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (5:6, rising for prayer). The marker-to-printed-page map is the identity (page numbers in the headers agree from p. 8 on). Cite `{cite:tafsir-tabari-shakir-v10 p. N}` by printed number. The source record `source/tafsir-tabari-shakir-v10` already exists.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
+- Batch 2: pp. 14-20 filed in ar, en and ur (reports 11327-11336): verse 6 continues.
+- Batch 3: pp. 21-27 filed in ar, en and ur (reports 11337-11354): verse 6 continues.
+- Batch 4: pp. 28-34 filed in ar, en and ur (reports 11355-11388): verse 6 continues.
+- Batch 5: pp. 35-41 filed in ar, en and ur (reports 11389-11418): verse 6 continues.
+- Batch 6: pp. 42-48 filed in ar, en and ur (reports 11419-11435): verse 6 continues.
+- Batch 7: pp. 49-55 filed in ar, en and ur (reports 11436-11462): verse 6 continues.
+- Batch 8: pp. 56-62 filed in ar, en and ur (reports 11462-11494): verse 6 continues.
+- Batch 9: pp. 63-69 filed in ar, en and ur (reports 11495-11512): verse 6 continues.
 
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
