@@ -231,4 +231,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 27: pp. 452-458 filed in ar, en and ur (reports 10905-10934): sura 5 verse 1 is filed to p. 458.
 - Batch 28: pp. 459-464 filed in ar, en and ur (reports 10935-10944): sura 5 verse 1 closes at p. 462 and verse 2 is filed to report 10944 at p. 464.
 - Batch 29: pp. 465-471 filed in ar, en and ur (reports 10945-10957): sura 5 verse 2 is filed to the foot of p. 471.
-- Progress: current report 10957, printed p. 469. Next is the rest of sura 5 verse 2 from printed p. 471 on (the pilgrims seeking God's bounty and the prohibition on hunting).
+- Batch 30: pp. 472-478 filed in ar, en and ur (reports 10958-10977): the al-Hutam account and the abrogation reports on verse 2 are filed to report 10977 at p. 478.
+- Progress: current report 10977, printed p. 478. Next is the rest of sura 5 verse 2 from printed p. 478 on (the abrogation views end there and verse 3 begins).
