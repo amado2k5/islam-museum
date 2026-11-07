@@ -733,6 +733,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 80: pp. 435-441 filed in ar, en and ur (reports 13381-13402): 6:67 end, 6:68, 6:69 and the start of 6:70
 - Batch 81: Sura Ibrahim pp. 574-580 filed (14:23-25 continued through report 20729). Next is the rest of the commentary on "hin" from report 20730, p. 581 (marker 589).
 - Batch 82: Sura Ibrahim pp. 581-587 filed (14:23-25 finished; 14:26 reports 20737-20753). Next is p. 588 (marker 596), the rest of the commentary on 14:26.
+- Batch 83: Sura Ibrahim pp. 588-594 filed (14:26 finished; 14:27 reports 20758-20765). Next is p. 595 (marker 603), the rest of the commentary on 14:27.
 - Batch 81: pp. 442-448 filed in ar, en and ur (reports 13403-13418): 6:70 continued (tubsal, ransom, hamim)
 - Batch 65: printed pp. 411-418 (markers 415-422) filed in ar, en and ur (reports 14578-14598): 7:37 closes at p. 415 and 7:38 is begun to the foot of p. 418 after report 14598. Offset still marker - 4. Stop sentence at the foot. Next is marker 423 (printed 419).
 - Batch 82: pp. 449-455 filed in ar, en and ur (reports 13419-13431): 6:70 end and 6:71 (the bewildered man called to guidance), up to its last clause
