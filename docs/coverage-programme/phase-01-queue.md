@@ -379,33 +379,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/khadija
 - [x] person/khalid-ibn-uqba-ibn-abi-muayt
 
-## Draft records (143)
+## Draft batch D06 (25 entities)
 
-- [ ] person/kharash-ibn-al-simma
-- [ ] person/khawat-ibn-jubayr
-- [ ] person/khawla-al-hanafiyya
-- [ ] person/khawla-bint-thalaba
-- [ ] person/khubayb-ibn-adi
-- [ ] person/khubayb-ibn-issaf
-- [ ] person/khudayj-ibn-salama
-- [ ] person/khunais-ibn-hudhaifa
-- [ ] person/khuzayma-ibn-aws
-- [ ] person/kuayba-bint-sad
-- [ ] person/kulthum-ibn-al-hidm
-- [ ] person/layla-bint-qanif-al-thaqafiyya
-- [ ] person/maan-ibn-yazid-ibn-al-akhnas
-- [ ] person/madlaj-ibn-amr-al-sulami
-- [ ] person/mahja-ibn-salih
-- [ ] person/mahmud-ibn-maslama
-- [ ] person/malik-ibn-ayfa
-- [ ] person/malik-ibn-hubayra-al-sakuni
-- [ ] person/maqil-ibn-al-mundhir
-- [ ] person/maqil-ibn-sinan-al-ashjai
-- [ ] person/masud-ibn-al-aswad-mutah
-- [ ] person/mikhnaf-ibn-sulaym
-- [ ] person/mistah-ibn-uthatha
-- [ ] person/muadh-ibn-al-harith
-- [ ] person/muadh-ibn-amr-ibn-al-jamuh
+- [x] person/kharash-ibn-al-simma
+- [x] person/khawat-ibn-jubayr
+- [x] person/khawla-al-hanafiyya
+- [x] person/khawla-bint-thalaba
+- [x] person/khubayb-ibn-adi
+- [x] person/khubayb-ibn-issaf
+- [x] person/khudayj-ibn-salama
+- [x] person/khunais-ibn-hudhaifa
+- [x] person/khuzayma-ibn-aws
+- [x] person/kuayba-bint-sad
+- [x] person/kulthum-ibn-al-hidm
+- [x] person/layla-bint-qanif-al-thaqafiyya
+- [x] person/maan-ibn-yazid-ibn-al-akhnas
+- [x] person/madlaj-ibn-amr-al-sulami
+- [x] person/mahja-ibn-salih
+- [x] person/mahmud-ibn-maslama
+- [x] person/malik-ibn-ayfa
+- [x] person/malik-ibn-hubayra-al-sakuni
+- [x] person/maqil-ibn-al-mundhir
+- [x] person/maqil-ibn-sinan-al-ashjai
+- [x] person/masud-ibn-al-aswad-mutah
+- [x] person/mikhnaf-ibn-sulaym
+- [x] person/mistah-ibn-uthatha
+- [x] person/muadh-ibn-al-harith
+- [x] person/muadh-ibn-amr-ibn-al-jamuh
+
+## Draft records (118)
+
 - [ ] person/muadh-ibn-anas-al-juhani
 - [ ] person/muadh-ibn-jabal
 - [ ] person/muawwaz-ibn-amr-ibn-al-jamuh
