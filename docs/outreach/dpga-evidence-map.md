@@ -45,6 +45,8 @@ A second edition of the dossier (21 October 2026) carries the current figures be
 
 **6 November 2026 — Tafsir Browser Phase 3 (founder sign-off as submission-impacting; pending merge and founder deployment):** indicator 6 gains `/api/v1/tafsir.json` (the commentary and its volume records, with verse coverage as `about` edges).
 
+**7 November 2026 — Extremism firewall (founder sign-off as submission-impacting; pending merge and founder deployment):** all mention of designated terrorist organisations and their propaganda wings is removed from the collection, so entity and source totals fall by about 30 and about 130 pages are edited (`docs/delegation/extremism-firewall-proposal.md`). No licence, class, privacy or architecture claim changes.
+
 **6 November 2026 — Modern Islam Browser Phase 1 (pending merge and founder deployment):** indicators 5 and 6 gain the `award` class (24 classes, the class empty) and the `/api/v1/award/index.json` and `/api/v1/modern/*` build outputs documented in `docs/data/README.md`; the privacy posture is unchanged (static files, no script, form, network call or analytics added; dated platform figures are facts typed into records, never fetched at runtime). Totals are unchanged; the routes are not live until the founder deploys.
 
 ## Renewal

@@ -71,6 +71,7 @@ The charter in `AGENTS.md` is non-negotiable and is restated here only so that n
 - Sunni Islam is the default frame and is labelled; any other view is labelled before it is stated; contested topics use the `perspectives` block, cited, with no verdict; never "enemy of Islam" or an equivalent in the museum's voice.
 - Every entity cites sources; one source is enough for any fact, dated or not; never invent a date, quote, page number, ISBN or citation.
 - Media only from the whitelist in `schema/enums/licenses.yaml`; no figurative depictions of prophets or Companions; no AI-generated portraits.
+- **Hard block on terrorist-organisation content** (founder, 7 November 2026): no mention of, source from, or page about the organisations and media wings listed in `AGENTS.md`. No agent may add such content, and no proposal may ask for it.
 
 ## 7. Attribution gate
 

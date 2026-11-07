@@ -703,6 +703,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 67: Sura al-Ra'd pp. 473-479 filed (13:36, 13:37, 13:38 filed; 13:39 begun). Next is the rest of 13:39 from p. 480 (marker 488).
 - Batch 68: Sura al-Ra'd pp. 480-486 filed (13:39 continued through report 20496). Next is the rest of 13:39 from p. 487 (marker 495).
 - Batch 69: Sura al-Ra'd pp. 487-493 filed (13:39 closed, 13:40 filed, 13:41 begun). Next is the rest of 13:41 from p. 494 (marker 502).
+- Batch 70: Sura al-Ra'd pp. 494-500 filed (13:41 closed, 13:42 filed, 13:43 begun). Next is the rest of 13:43 from p. 501 (marker 509).
+- Batch 71: Sura al-Ra'd pp. 501-507 filed; SURA AL-RA'D COMPLETE (13:43 closed). Next is Sura Ibrahim (14:1) from p. 508 (marker 516).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
@@ -715,3 +717,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 83: pp. 456-462 filed in ar, en and ur (reports ): 6:71 end, 6:72 and 6:73 begun (grammar of 'be and it is', the trumpet)
 - Batch 84: pp. 463-469 filed in ar, en and ur (reports 13432-13440): 6:73 end and 6:74 (Abraham and Azar)
 - Batch 85: pp. 470-476 filed in ar, en and ur (reports 13441-13461): 6:75 begun (the dominion of the heavens and the earth)
+- Batch 66: printed pp. 419-424 (markers 423-428) filed in ar, en and ur (reports 14599-14614): 7:38 closes at p. 419, 7:39 is filed and 7:40 is begun to the foot of p. 424 before report 14615. Marker 425 (printed 421) is partly illegible in the OCR; the 7:39 closing paragraph there follows the evident sense. Offset still marker - 4. Stop sentence at the foot. Next is report 14615 (marker 428, printed 424).
+- Batch 86: pp. 477-483 filed in ar, en and ur (reports 13461-13464): 6:75 end and 6:76 begun (Abraham and the star)
