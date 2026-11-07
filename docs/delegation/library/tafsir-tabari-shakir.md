@@ -349,6 +349,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 69: pp. 408-414 filed in ar, en and ur (reports 17054-17072): 9:84 is completed, 9:85 to 9:87 are filed in full and 9:88 is begun to the foot of p. 414 (next: p. 415).
 - Batch 70: pp. 415-421 filed in ar, en and ur (reports 17073-17082): 9:88 is completed, 9:89 to 9:91 are filed in full and 9:92 is begun to the foot of p. 421 after report 17082 (next: p. 422).
 - Batch 71: pp. 422-428 filed in ar, en and ur (reports 17083-17091): 9:92 is completed and 9:93 to 9:96 are filed in full; no stop sentence, the next batch begins at 9:97 on p. 429.
+- Batch 72: pp. 429-435 filed in ar, en and ur (reports 17092-17105, 17106 begun): 9:97 to 9:99 are filed in full and 9:100 is begun to the foot of p. 435 at report 17106 (next: p. 436).
 - Batch 51: pp. 293-299 filed in ar, en and ur (reports 16802-16809, 16810 begun): 9:52 is completed, 9:53 to 9:56 are filed in full and 9:57 is filed to the foot of p. 299 at report 16810 (next: p. 300).
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
@@ -712,6 +713,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 72: Sura Ibrahim begun, pp. 511-517 filed (14:1 to 14:4, 14:5 begun). Next is the rest of 14:5 from p. 518 (marker 526).
 - Batch 73: Sura Ibrahim pp. 518-524 filed (14:5 closed, 14:6 begun). Next is the rest of 14:6 from p. 525 (marker 533).
 - Batch 74: Sura Ibrahim pp. 525-531 filed (14:6 closed, 14:7, 14:8 filed, 14:9 begun). Next is the rest of 14:9 from p. 532 (marker 540).
+- Batch 75: Sura Ibrahim pp. 532-538 filed (14:9 closed, 14:10, 14:11 filed). Next is 14:12 from p. 539 (marker 547).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)

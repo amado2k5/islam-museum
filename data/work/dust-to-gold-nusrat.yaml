@@ -10,15 +10,15 @@ wings: [today, words]
 themes: [music, spirituality-and-sufism]
 regions: [south-asia, andalus-europe]
 genre: [qawwali, naat]
-composed: { edtf: "2000", hijri: "1421~", calendar: gregorian, precision: year, derived: true, note: "Released 2000, recorded 1997, by the English article and Wikidata. The Hijri year is converter-derived and approximate.", sources: [source/wikipedia-dust-to-gold-nusrat-en, source/wikidata-dust-to-gold-nusrat] }
+composed: { edtf: "2000-06-17", hijri: "1421", calendar: gregorian, precision: day, derived: true, note: "Released 17 June 2000 by the label's release page; recorded 1997 by the English article. The Hijri year is converter-derived.", sources: [source/realworld-dust-to-gold, source/wikipedia-dust-to-gold-nusrat-en, source/wikidata-dust-to-gold-nusrat] }
 languages: [ur, pa]
 publisher: listing/real-world-records
 duration: 3862
 tracks:
-  - { n: 1, title: { en: "Khawaja tum hi ho" }, duration_s: 944, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-dust-to-gold-nusrat-en] }
-  - { n: 2, title: { en: "Data teira durbar" }, duration_s: 981, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-dust-to-gold-nusrat-en] }
-  - { n: 3, title: { en: "Koi hai na ho ga" }, duration_s: 908, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-dust-to-gold-nusrat-en] }
-  - { n: 4, title: { en: "Noor-e-khuda hai husn-e-sarapa rasool" }, duration_s: 1029, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-dust-to-gold-nusrat-en] }
+  - { n: 1, title: { en: "Khawaja tum hi ho" }, duration_s: 944, performers: [person/nusrat-fatih-ali-khan], note: "\"Master It Is Only You\", in Rajasthani Hindi, in praise of a Sufi saint whose shrine is at Ajmer, by the label's notes", sources: [source/wikipedia-dust-to-gold-nusrat-en, source/realworld-dust-to-gold] }
+  - { n: 2, title: { en: "Data teira durbar" }, duration_s: 981, performers: [person/nusrat-fatih-ali-khan], note: "\"Master In Your Court\", in praise of a Sufi saint who lived in Lahore, by the label's notes", sources: [source/wikipedia-dust-to-gold-nusrat-en, source/realworld-dust-to-gold] }
+  - { n: 3, title: { en: "Koi hai na ho ga" }, duration_s: 908, performers: [person/nusrat-fatih-ali-khan], note: "\"There Was No One, There Will Not Be Anyone\", in praise of the Prophet, by the label's notes", sources: [source/wikipedia-dust-to-gold-nusrat-en, source/realworld-dust-to-gold] }
+  - { n: 4, title: { en: "Noor-e-khuda hai husn-e-sarapa rasool" }, duration_s: 1029, performers: [person/nusrat-fatih-ali-khan], note: "\"The Light of God Is the Embodiment of the Prophet\", in praise of the Prophet, by the label's notes", sources: [source/wikipedia-dust-to-gold-nusrat-en, source/realworld-dust-to-gold] }
 footprint:
   wikipedia: { languages: [en], checked: "2026-11-07", sources: [source/wikidata-dust-to-gold-nusrat] }
   wikidata: "Q139892507"
@@ -27,10 +27,10 @@ relations:
   - { type: published_by, target: listing/real-world-records, sources: [source/wikipedia-dust-to-gold-nusrat-en] }
   - { type: about, target: person/muhammad, note: "'Noor-e-khuda hai husn-e-sarapa rasool' is in praise of the Prophet, by its title", sources: [source/wikipedia-dust-to-gold-nusrat-en] }
 external_ids: { wikidata: "Q139892507" }
-sources: [source/wikipedia-dust-to-gold-nusrat-en, source/wikidata-dust-to-gold-nusrat]
+sources: [source/wikipedia-dust-to-gold-nusrat-en, source/wikidata-dust-to-gold-nusrat, source/realworld-dust-to-gold]
 provenance:
   layer: own-research
-  source: "English Wikipedia 'Dust to Gold (Nusrat Fateh Ali Khan album)' (revision 1369390858 of 14 August 2026, citing JazzTimes, Exclaim!, AllMusic and Dagsavisen) and Wikidata Q139892507 (revision 2499544202), read in Chrome on the founder's Mac on 7 November 2026; the article's uncited sentence on archived Lahore material is not used"
+  source: "English Wikipedia 'Dust to Gold (Nusrat Fateh Ali Khan album)' (revision 1369390858 of 14 August 2026, citing JazzTimes, Exclaim!, AllMusic and Dagsavisen) and Wikidata Q139892507 (revision 2499544202), read in Chrome on the founder's Mac on 7 November 2026; the Lahore archive origin, held in batch 08 as uncited in Wikipedia, now comes from the label's own release page (read 7 November 2026, at the founder's go-ahead)"
   generated_by: "Claude Code (claude-opus-5-5)"
   model: claude-opus-5-5
   run: modern-music-b08
