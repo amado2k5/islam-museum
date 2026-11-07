@@ -373,6 +373,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 28: pp. 236-242 filed in ar, en and ur (reports 15359-15372): verse 172 continues (Umar on the two hands, David's forty years, the white and black souls, Ubayy on the witnesses and the prophets' covenant, al-Suddi); filed to the foot of p. 242 after report 15372 (next: p. 243).
 - Batch 29: pp. 243-249 filed in ar, en and ur (reports 15373-15380): verse 172 continues (al-Suddi, al-Kalbi, Ali ibn al-Husayn on withdrawal, Muhammad ibn Ka'b, Hisham ibn Hakim and the editor's study of the disordered chains); al-Tabari opens the meaning of 'shahidna' with al-Suddi's view; filed to the foot of p. 249 (next: p. 250).
 - Batch 30: pp. 249-257 filed in ar, en and ur (reports 15380-15411): verse 172 closes at p. 250, verses 173 and 174 are filed in full and verse 175 is begun at p. 252 (Bal'am or Umayya ibn Abi al-Salt; the signs as the Greatest Name); stop sentence at the foot of p. 257 in report 15411 (next: p. 258).
+- Batch 31: pp. 258-264 filed in ar, en and ur (reports 15411-15422): verse 175 closes at p. 261, verse 176 is begun (the story of Bal'am); stop sentence at the foot of p. 264 in report 15422 (next: p. 265).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
