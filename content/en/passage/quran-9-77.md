@@ -9,3 +9,7 @@ Verse 77 of [[passage/quran-9|Surat at-Tawba]], a Medinan surah. {cite:tanzil-qu
 
 ## Place in the museum
 Its place: verse 77 of 129 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+**Commentary on verse 77**
+
+Al-Tabari explained this verse together with verses 75 and 76 in a single place, so see the commentary on verses 75-77 on the page of verse 75. {cite:tafsir-tabari-shakir-v14 p. 369}
