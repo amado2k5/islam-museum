@@ -391,6 +391,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 38: pp. 270-276 filed in ar, en and ur (reports 19903-19938): 12:100 continues to the foot of p. 276 (after report 19938 on the number who entered Egypt). Stop sentence is in quran-12-100. Next is the rest of 12:100 from p. 277 (marker 285).
 - Batch 39: pp. 277-283 filed in ar, en and ur (reports 19939-19952): 12:100 closes at p. 277, 12:101 is in full and 12:102 is begun to the foot of p. 283 (after report 19952). Stop sentence is in quran-12-102. Next is the rest of 12:102 from p. 284 (marker 292).
 - Batch 40: pp. 284-290 filed in ar, en and ur (reports 19953-19977): 12:102 is complete, 12:103 to 12:106 are in full and 12:107 is begun to the foot of p. 290 (after report 19977). Stop sentence is in quran-12-107. Next is the rest of 12:107 from p. 291 (marker 299).
+- Batch 41: pp. 291-297 filed in ar, en and ur (reports 19978-19994): 12:107 closes at p. 291, 12:108 and 12:109 are in full and 12:110 is begun to the foot of p. 297 (after report 19994). Stop sentence is in quran-12-110. Next is the rest of 12:110 from p. 298 (marker 306).
 ## Volume 14 progress
 - Volume 14 (`waqtaftab-taftab14`, 638 markers): the title page (marker 4) names sura al-Anfal 8:48 to 8:75 and sura al-Tawba, reports 16183 to 17518; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (8:48). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v14 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v14`.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 16183-16195): verse 8:48 is filed in full and 8:49 is begun (the doubters who said 'their religion has deluded these'). Next is report 16196 from p. 14.
@@ -452,6 +453,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 52: pp. 411-417 filed in ar, en and ur (reports 15742-15756): 8:9 closes at p. 417 and 8:10 is begun; stop sentence at the foot of p. 417 at 'except as good news' (next: p. 418).
 - Batch 53: pp. 417-424 filed in ar, en and ur (reports 15757-15772): 8:10 closes at p. 418 and 8:11 (with 8:12 treated together) is begun at p. 418; stop sentence at the foot of p. 424 after report 15772 (next: p. 425).
 - Batch 54: pp. 424-430 filed in ar, en and ur (reports 15773-15787): 8:11 closes at p. 428 and 8:12 is begun at p. 428; stop sentence at the foot of p. 430 after al-Tabari's choice on 'above the necks' (next: p. 431).
+- Batch 55: pp. 430-436 filed in ar, en and ur (reports 15788-15797): 8:12 closes at p. 432, 8:13 and 8:14 are filed in full and 8:15 (with 8:16 together) is begun at p. 435; stop sentence at the foot of p. 436 in report 15798 (next: p. 437).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
