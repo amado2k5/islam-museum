@@ -502,6 +502,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 73: pp. 547-552 filed in ar, en and ur (reports 16090-16105): 8:41 continues; stop sentence at the foot of p. 552 after report 16105 (next: p. 553).
 - Batch 74: pp. 553-558 filed in ar, en and ur (reports 16106-16126): 8:41 continues; stop sentence at the foot of p. 558 after report 16126 (next: p. 559).
 - Batch 75: pp. 559-564 filed in ar, en and ur (reports 16127-16144): 8:41 closes at p. 563, 8:42 begun; stop sentence at the foot of p. 564 after report 16144 (next: p. 565).
+- Batch 76: pp. 565-570 filed in ar, en and ur (reports 16145-16153): 8:42 closes at p. 569, 8:43 begun; stop sentence at the foot of p. 570 in the middle of report 16153 (next: p. 571).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
