@@ -3,28 +3,73 @@ class: listing
 kind: company
 label:
   ar: كويت ترك
-  en: Kuveyt Türk
+  en: Kuveyt Türk Participation Bank
+  ur: کویت ترک شراکتی بینک
 summary:
-  ar: أول بنك مشاركة في تركيا؛ تأسس 1989 بدعم كويتي ومن أكبر البنوك التشاركية التركية.
-  en: Kuveyt Türk.
-wings: [made]
+  ar: بنك مشاركة تركي مقره إسطنبول، أُسس سنة 1989 مؤسسةَ تمويل خاصة وفق قرار مجلس الوزراء التركي رقم 831/7506 لسنة 1983، وخضع
+    لقانون البنوك منذ 1999، وصار اسمه كويت ترك بنك المشاركة في مايو 2006؛ بيت التمويل الكويتي أكبر مساهميه.
+  en: A Turkish participation bank based in Istanbul, founded in 1989 as a special finance house under Turkish Council of
+    Ministers Decision No. 831/7506 of 1983, subject to the Banking Law from 1999 and named Kuveyt Türk Katılım Bankası in
+    May 2006; Kuwait Finance House is its largest shareholder.
+  ur: استنبول میں قائم ترک شراکتی بینک، جو 1989 میں 1983 کے ترک وزرا کونسل کے فیصلے نمبر 831/7506 کے تحت قائم ہوا، 1999 سے
+    بینکاری قانون کے تابع ہے اور مئی 2006 میں اس کا موجودہ نام ہوا؛ بیت التمویل الکویتی اس کا سب سے بڑا حصہ دار ہے۔
+wings:
+- made
+- today
 categories:
 - finance
 regions:
 - anatolia-balkans
 founded:
   edtf: '1989'
+  hijri: '1409~'
   calendar: gregorian
   precision: year
+  status: historical
+  derived: true
+  note: Founded 1989 as a Special Finance House (the bank's history page, cited by the Turkish article; the English KFH article
+    also dates it to 1989). The Hijri year is converter-derived.
+  sources:
+  - source/wikipedia-kuveyt-turk-tr
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/official-website
+  sources:
+  - source/wikipedia-kuveyt-turk-tr
 external_ids:
-  official: https://www.kuveytturk.com.tr
-sources: *id001
+  wikidata: Q6036058
+sources:
+- source/wikipedia-kuveyt-turk-tr
+- source/wikipedia-kuwait-finance-house-en
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - tr
+  - de
+links:
+  official: https://www.kuveytturk.com.tr
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - tr
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-kuveyt-turk-tr
+  wikidata: Q6036058
+provenance:
+  layer: own-research
+  source: Turkish Wikipedia "Kuveyt Türk" (revision 38061907, 25 September 2026), read in Chrome on the founder's Mac on 6
+    November 2026; Wikidata sitelinks read the same day; the existing Wikidata-only draft (Devin, listings lane, 16 October
+    2026) was enriched in place
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b03
