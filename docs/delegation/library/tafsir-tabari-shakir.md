@@ -706,3 +706,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 81: pp. 442-448 filed in ar, en and ur (reports 13403-13418): 6:70 continued (tubsal, ransom, hamim)
 - Batch 82: pp. 449-455 filed in ar, en and ur (reports 13419-13431): 6:70 end and 6:71 (the bewildered man called to guidance), up to its last clause
 - Batch 83: pp. 456-462 filed in ar, en and ur (reports ): 6:71 end, 6:72 and 6:73 begun (grammar of 'be and it is', the trumpet)
+- Batch 84: pp. 463-469 filed in ar, en and ur (reports 13432-13440): 6:73 end and 6:74 (Abraham and Azar)

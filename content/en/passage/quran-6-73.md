@@ -38,6 +38,20 @@ There was disagreement over the sense of "the trumpet" here. Some said it is a h
 
 The editor says Ahmad related it in the Musnad of Abdullah ibn Amr, Abu Dawud in his Sunan, al-Tirmidhi in the chapter on the trumpet, calling it good and sound, and al-Hakim in the Mustadrak, calling its chain sound, al-Dhahabi agreeing; and explains "qarn" as a bugle made from horns.
 
-We stop here at the foot of p. 462, at the first of the interpreters' views on the sense of "the trumpet", and al-Tabari continues on p. 463.
+Others said "the trumpet" here is the plural of "sura", form, into which its spirit is blown and it lives, as they say "sur" for the wall of a city, the plural of "sura"; al-Tabari adduces a line of Jarir for this; the Arabs say both "he blew into the trumpet" and "he blew the trumpet", and for the second he cites a line by a poet the editor did not identify, saying that but for Ibn Jam'da Quhandiz and Khurasan would not have been conquered until the trumpet is blown. {cite:tafsir-tabari-shakir-v11 p. 463}
+
+The editor says the printed text and manuscript have a particle that should be "like", that the line is in al-Farra's Ma'ani al-Qur'an, Nasab Quraysh, al-Jawaliqi's al-Mu'arrab and Lisan al-Arab, that Ibn Jam'da is Abdullah ibn Ja'da ibn Hubayra al-Makhzumi, whose father Ja'da was governor of Khurasan for Ali ibn Abi Talib, and that "quhandiz" is a word of the people of Khurasan meaning a fort or citadel.
+
+Abu Jafar said: the right view in this for us is what the reports from God's messenger agree on, that he said Israfil has put the trumpet to his mouth and bent his brow, waiting for the command to blow, and that he said the trumpet is a horn that is blown. {cite:tafsir-tabari-shakir-v11 p. 463}
+
+The editor says al-Tirmidhi related it in the chapter on the trumpet and at the opening of the commentary on Surat al-Zumar, and that Ibn Kathir mentioned it and ascribed it to Muslim, but he could not find its place in Sahih Muslim.
+
+It is reported from Ibn Abbas that he said of "the day the trumpet is blown, knower of the unseen and the witnessed" that it means the knower of the unseen and the witnessed is the one who blows the trumpet (13432). Ibn Abbas seems to have taken "knower of the unseen and the witnessed" as the unnamed agent in "is blown", the sense being the day God blows the trumpet, knower of the unseen and the witnessed, as the Arabs say "ate your food, Abdullah", naming the eater after the report has run without naming him; though this is a view not to be rejected, it is better that "knower of the unseen and the witnessed" be nominative as an attribute of "who" in "it is he who created the heavens and the earth in truth". {cite:tafsir-tabari-shakir-v11 p. 464}
+
+It is also reported from him that "the trumpet" here is the first blast (13433), and he argues from [[passage/quran-39-68|39:68]], where "then it is blown again" is the second. By "knower of the unseen and the witnessed" he means knower of what you perceive, people, and witness, and what is hidden from your senses and sight so that you neither sense nor see it; "he is the wise" in his ordering and turning his creation from being to non-being and then from non-being and perishing to being, and then in repaying them with the reward or punishment he repays them; "the aware" of all they do and earn, good and bad, keeping it against them to repay them for all of it. He says: so beware his punishment, you who hold others equal to your Lord, for he knows all you do and leave, and he stands behind the repayment for what you do. {cite:tafsir-tabari-shakir-v11 p. 465}
+
+The editor refers for "blowing", "witnessing", "the unseen", "the wise" and "the aware" to earlier passages.
+
+Verse 73 closes here on p. 465, and al-Tabari goes on to [[passage/quran-6-74|6:74]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
