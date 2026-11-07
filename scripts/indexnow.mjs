@@ -17,6 +17,10 @@
  * The key is site/public/<key>.txt, served at https://islam.museum/<key>.txt.
  * Nothing is sent unless this script is run: the deploy workflow runs it after
  * a deploy. Needs a checkout with at least fetch-depth 2 for the default mode.
+ *
+ * Production only: this script hard-fails for any host other than
+ * islam.museum, so the staging twin (uat.islam.museum) can never be
+ * announced to search engines through it. See docs/indexnow.md.
  */
 import { readFile, readdir } from 'node:fs/promises';
 import { execFile } from 'node:child_process';
@@ -26,6 +30,13 @@ const execFileAsync = promisify(execFile);
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://islam.museum').replace(/\/$/, '');
 const host = new URL(siteUrl).host;
+// Production only — hard fail. IndexNow must never announce the staging twin
+// (uat.islam.museum, uat-api.islam.museum) or any other host to search engines.
+// The deploy workflow already gates its IndexNow job to production; this guard
+// keeps that true however the script is invoked.
+if (host !== 'islam.museum') {
+  throw new Error(`IndexNow is production-only: refusing to submit for host "${host}" — only islam.museum may be announced.`);
+}
 const ENDPOINT = 'https://api.indexnow.org/indexnow';
 const BATCH_SIZE = 10000; // IndexNow accepts up to 10,000 URLs per request.
 // Right after a fresh deploy IndexNow can take a few minutes to re-fetch the key
