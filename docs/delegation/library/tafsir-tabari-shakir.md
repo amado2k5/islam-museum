@@ -353,6 +353,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 72: pp. 429-435 filed in ar, en and ur (reports 17092-17105, 17106 begun): 9:97 to 9:99 are filed in full and 9:100 is begun to the foot of p. 435 at report 17106 (next: p. 436).
 - Batch 73: pp. 436-442 filed in ar, en and ur (reports 17106-17127): 9:100 is completed and 9:101 is begun to the foot of p. 442 after report 17127 (next: p. 443).
 - Batch 74: pp. 443-449 filed in ar, en and ur (reports 17128-17139, 17140 begun): 9:101 is completed and 9:102 is begun to the foot of p. 449 at report 17140 (next: p. 450).
+- Batch 75: pp. 450-456 filed in ar, en and ur (reports 17140-17159): 9:102 is completed and 9:103 is begun to the foot of p. 456 in the discussion of the nominative of the cleansing verb (next: p. 457).
 - Batch 51: pp. 293-299 filed in ar, en and ur (reports 16802-16809, 16810 begun): 9:52 is completed, 9:53 to 9:56 are filed in full and 9:57 is filed to the foot of p. 299 at report 16810 (next: p. 300).
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
@@ -723,6 +724,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: Sura Ibrahim pp. 553-559 filed (14:18 closed, 14:19-20 filed, 14:21 begun). Next is the rest of 14:21 from p. 560 (marker 568).
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
+- Batch 79: Sura Ibrahim pp. 560-566 filed (14:21 closed, 14:22 filed, 14:23-25 begun). Next is the parable of the good word, 14:24-25, from p. 567 (marker 575).
 - Batch 79: pp. 428-434 filed in ar, en and ur (reports 13374-13380): 6:65 end, 6:66 and the start of 6:67
 - Batch 64: printed pp. 405-411 (markers 409-415) filed in ar, en and ur (reports 14554-14577): 7:35 closes at p. 407, 7:36 is filed and 7:37 is begun to the foot of p. 411 before report 14578. Offset still marker - 4. Stop sentence at the foot. Next is report 14578 (marker 415, printed 411), then the third view (what they were promised), marker 416 onwards.
 - Batch 80: pp. 435-441 filed in ar, en and ur (reports 13381-13402): 6:67 end, 6:68, 6:69 and the start of 6:70
