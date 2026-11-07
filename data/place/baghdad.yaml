@@ -10,6 +10,7 @@ wings: [place]
 inventions:
   - { invention: invention/round-city-baghdad, relation: site-of, sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900] }
   - { invention: invention/mansur-covered-water-conduits, relation: site-of, sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri] }
+  - { invention: invention/abu-hanifa-brick-stack-reckoning, relation: site-of, sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri] }
 regions: [levant-iraq]
 coordinates: [33.3406, 44.4009]
 coordinate_precision: site
@@ -39,6 +40,7 @@ provenance:
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b94", source: "D-136; actual Duri first article/Le Strange15–29/MapII/Hitti445–446. Additive Urdu metadata,site tie and three sections per language; original coordinates,founded date,accounts,status,provenance and prose preserved." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b95", source: "D-137; added site-of link to covered-conduits arrangement and additive prose sections; preserved earlier fields/status/provenance." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b96", source: "D-138; added site-of link for reported brick-stack reckoning method and additive prose sections." }
 kids:
   ar: "بغداد مدينة السلام أسسها المنصور في العهد العباسي، وصارت عاصمة العلم في العالم."
   en: "Baghdad, the City of Peace founded by al-Mansur in Abbasid times — it became the world's capital of learning."

@@ -2,9 +2,22 @@ version: 1
 states: ["[ ]", "[~]", "[x]", "[-]"]
 note: "These are leads from the operative brief, not verified claims. Do not write an invention until the maker, faith basis, attribution and sources are checked."
 candidates:
+  - id: abu-hanifa-brick-stack-reckoning
+    label: "Abu Hanifa's reported brick-stack reckoning in Baghdad works"
+    state: "[~]"
+    batch: 1
+    domain: mathematics-logic
+    era: abbasid-golden
+    from: scholarly-reference
+    records: ["person/abu-hanifa", "place/baghdad", "source/lestrange-baghdad-1900", "source/tdv-bagdat-duri"]
+    invention: invention/abu-hanifa-brick-stack-reckoning
+    lead_sources:
+      - "Actual Le Strange chapter II pages15–29 already read; page17 report on supervision and brick reckoning"
+      - "Actual Duri first Baghdad article context and preserved Hitti foundation context"
+    flags: [in-progress-D138-b96, computation-improvement-not-invention-of-arithmetic, reported-supervision-not-modern-audit, reconstruction-not-contemporary-workbook, no-real-world-construction-instructions]
   - id: mansur-covered-water-conduits
     label: "Mansur Baghdad's covered urban water-conduit arrangement"
-    state: "[~]"
+    state: "[x]"
     batch: 1
     domain: water-agriculture
     era: abbasid-golden
@@ -14,7 +27,7 @@ candidates:
     lead_sources:
       - "Actual Le Strange chapter II pages 15–29 already read, with water-conduit segment on 28–29"
       - "Actual Duri first Baghdad article context and already inspected exact PD Commons map metadata"
-    flags: [in-progress-D137-b95, water-service-arrangement-not-invention-of-water, commissioner-not-sole-hydraulic-engineer, reconstruction-not-contemporary-survey, individual-identity-basis-retained, contested-political-accounts-preserved, no-excavation-or-operational-instructions]
+    flags: [completed-D137-b95, water-service-arrangement-not-invention-of-water, commissioner-not-sole-hydraulic-engineer, reconstruction-not-contemporary-survey, individual-identity-basis-retained, contested-political-accounts-preserved, no-excavation-or-operational-instructions]
   - id: round-city-baghdad
     label: "Baghdad's commissioned round-city nucleus plan"
     state: "[x]"

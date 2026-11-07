@@ -12,6 +12,11 @@ died: { edtf: "0767", hijri: "0150", calendar: julian, precision: year, status: 
 summary:
   ar: "النعمان بن ثابت الكوفي أبو حنيفة، إمام فقه العراق في القرن الثاني؛ عند البلاذري: هو وسفيان الثوري والأوزاعي ومالك وابن أبي ذئب وأبو يوسف على أن يؤخذ من التغلبي ضعف ما يؤخذ من المسلم في أرضه وماشيته وماله، وأهل العراق — وأصحاب أبي حنيفة منهم — يرون ضعف الصدقة من أرض الصبي والمعتوه ولا يأخذون من ماشيته شيئاً. وعند ابن النديم هو النعمان بن ثابت بن زوطى وكان خزازا بالكوفة وزوطى من موالي تيم الله بن ثعلبة وهو من أهل كابل وقيل مولى لبني ثعلبة وكان من التابعين لقي عدة من الصحابة وكان من الورعين الزاهدين، وتوفي سنة خمسين ومائة وله سبعون سنة ودفن في مقابر الخيزران بعسكر المهدي من الجانب الشرقي وصلى عليه الحسن بن عمارة، وله كتاب الفقه الأكبر وكتاب رسالته إلى البستي وكتاب العالم والمتعلم رواه عنه مقاتل وكتاب الرد على القدرية {cite:fihrist-ibn-al-nadim p. 284-285}"
   en: "al-Nu'man ibn Thabit of Kufa, Abu Hanifa, the imam of Iraq's jurisprudence in the second century; in al-Baladhuri: he, with Sufyan al-Thawri, al-Awza'i, Malik, Ibn Abi Dhi'b and Abu Yusuf, holds that the Taghlibi pays double what the Muslim pays on land, livestock and wealth — the Iraqis, his companions among them, taking double sadaqa from the minor's and incompetent's land but nothing of their livestock."
+faith:
+  - value: sunni
+    basis: tradition
+    note: "Individual reported basis from existing record context and cited scholarly biographies; entered explicitly to satisfy sourced-faith requirement for invention-role links."
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981]
 wings: [people]
 themes: [development-of-law-theology-institutions]
 periods: [period/abbasid-early]
@@ -19,13 +24,17 @@ regions: [levant-iraq]
 relations:
   - { type: participated_in, target: event/treaty-with-taghlib, role: "من فقهاء ضعف الصدقة — أرض فحسب للصغير عند العراقيين", sources: [source/futuh-buldan-maarif-1407, source/fihrist-ibn-al-nadim] }
   - { type: founder_of, target: group/hanafi-madhhab, sources: [source/duha-islam, source/mawsuat-a3lam-ulama-adaba] }
+inventions:
+  - { invention: invention/abu-hanifa-brick-stack-reckoning, role: improver, note: "Reported supervisory role in measurement-based brick quantity estimation during Baghdad works; not sole architect.", sources: [source/lestrange-baghdad-1900] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 252"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-14
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b96", source: "D-138; added reported supervisory invention tie grounded in actually read Le Strange p.17 with explicit attribution limits." }
 external_ids: { wikidata: "Q190896" }
-sources: [source/futuh-buldan-maarif-1407, source/fihrist-ibn-al-nadim, source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981, source/assabile-omar-abdelkafy]
+sources: [source/futuh-buldan-maarif-1407, source/fihrist-ibn-al-nadim, source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981, source/assabile-omar-abdelkafy, source/lestrange-baghdad-1900, source/tdv-bagdat-duri]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); run omar-abdelkafy-sharh-ketab-1" }
 occupations:
   - job: job/faqih

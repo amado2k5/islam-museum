@@ -48,3 +48,12 @@ The site's historical value includes movement from a defined political nucleus t
 
 ## Limits of spatial certainty
 Even with strong textual/cartographic evidence,this page cannot by itself deliver a complete operational map of every historical water line. We preserve the distinction between interpretive witness (the1900reconstruction map) and field-execution evidence,and between historical narrative and modern engineering measurement. That keeps Baghdad's record precise: a site with documented organized water service,but not fully recoverable technical geometry from one source layer alone.
+
+## Site of reported brick reckoning
+Baghdad in this record is not only a round-plan and conduit site; it is also the setting of the reported [[invention/abu-hanifa-brick-stack-reckoning|measurement-based brick-stack reckoning]] episode in construction supervision {cite:lestrange-baghdad-1900 p.17}. This adds materials-management history to place memory.
+
+## Material estimation and city organization
+Reading brick-estimation reports together with water,market and access reports highlights Baghdad as a web of operational decisions,not architecture alone. Estimation affects scheduling,spending and pace of service completion in a growing capital {cite:tdv-bagdat-duri Development}. The place therefore carries administrative-technique history as well as political symbolism.
+
+## What this report does not prove alone
+From this report alone we do not derive daily production tables,precise efficiency percentages or a full modern engineering model. What it does establish is a transmitted estimation logic inside city-building practice. Keeping that line clear preserves spatial and historical accuracy.

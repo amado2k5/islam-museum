@@ -37,3 +37,12 @@ He recounts a judgement in which two parties disputed a jar of gold found in a h
 He recounts a neighbour who drank wine and sang at night. When Abu Hanifa noticed the man was missing, he went at dawn to a police station to intercede for him, the man was released, repented, and prayed the noon prayer behind Abu Hanifa (needs_source: the story as the sheikh tells it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:26:00}.
 
 He recounts Abu Hanifa's principle in disagreement: our view is correct but may be wrong, and the view of others, which we judge to be wrong, we bear with (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:30}.
+
+## Reported supervision in brick reckoning
+Within Baghdad-construction narratives,Le Strange transmits a report placing Abu Hanifa in supervision connected with brick-quantity reckoning through measurement-based estimation rather than one-by-one counting,as detailed in [[invention/abu-hanifa-brick-stack-reckoning|the invention record]] {cite:lestrange-baghdad-1900 p.17}. In this record it is handled as a bounded professional role report,not as a standalone mathematical treatise or a monopolized technical invention claim.
+
+## Jurist and practical administration
+This addition does not displace Abu Hanifa's primary juristic standing; it shows that scholarly figures may appear in practical organizational episodes where state and construction intersect. It also does not erase conflict narratives preserved elsewhere for the period. The balanced reading is dual: major legal authority,plus a specific transmitted operational role.
+
+## Attribution limits in this file
+The file does not claim that Abu Hanifa invented counting or invented measurement. Attribution is limited to a reported practical improvement in a Baghdad works context: estimating large quantities through measured units. The source frame remains a historical reconstruction narrative,not a complete original workshop ledger. Therefore attribution is retained at evidence scale and left open to future enrichment.
