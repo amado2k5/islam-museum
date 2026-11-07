@@ -302,6 +302,9 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 8: pp. 70-76 filed in ar, en and ur (reports 12729-12745): verse 5:96 continues; stop at the foot of p. 76 at the start of report 12745 (next: p. 77).
 - Batch 9: pp. 77-83 filed in ar, en and ur (reports 12745-12767): verse 5:96 continues; stop at the foot of p. 83 after report 12767 (next: p. 84).
 
+## Volume 16 progress
+- Volume 16 (`waqtaftab-taftab16`, 689 markers): commentary starts on marker 9 = printed p. 1 (12:19, report 18880); printed page = marker minus 8. Indexes begin near marker 615. Cite `{cite:tafsir-tabari-shakir-v16 p. N}` by printed number.
+- Batches 1-10: pp. 1-79 filed in ar, en and ur (reports 18880-19224): 12:19 to 12:30 in full (12:26-28 filed together under 12:26), 12:31 begun to the foot of p. 79 (report 19224, Ibn Mas'ud). Stop sentence at the foot. Next is p. 80 in 12:31. Not yet run: npm run validate.
 ## Volume 14 progress
 - Volume 14 (`waqtaftab-taftab14`, 638 markers): the title page (marker 4) names sura al-Anfal 8:48 to 8:75 and sura al-Tawba, reports 16183 to 17518; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (8:48). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v14 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v14`.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 16183-16195): verse 8:48 is filed in full and 8:49 is begun (the doubters who said 'their religion has deluded these'). Next is report 16196 from p. 14.
