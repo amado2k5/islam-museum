@@ -136,6 +136,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser: al-Tabari vol. 13, batch 78 (pp. 576-581, reports 16167-16182): 8:46 closes and 8:47 (do not be like those who left their homes in arrogance, the march to Badr and Abu Jahl's refusal to turn back) is filed in full, in Arabic, English and Urdu. This completes volume 13 of al-Tabari's Jami' al-Bayan (8:47); volume 14 begins at 8:48.
+- Tafsir Browser: al-Tabari vol. 11, batch 78 (pp. 421-427, reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun) Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 13, batch 77 (pp. 571-576, reports 16153-16166): 8:43 closes (what 'God saved' means), 8:44 (the two armies shown as few) and 8:45 (standing firm and remembering God) are filed in full and 8:46 (do not quarrel) is begun to the middle of report 16166, in Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 77 (pp. 414-420, reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects) Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 13, batch 76 (pp. 565-570, reports 16145-16153): 8:42 is completed (the two readings of 'side of the valley', 'had you made an appointment', 'that he who perished might perish by clear proof') and 8:43 (the dream in which the enemy was shown as few) is begun to the middle of report 16153 on p. 570, in Arabic, English and Urdu.
