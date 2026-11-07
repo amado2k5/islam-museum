@@ -237,7 +237,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 33: pp. 493-499 filed in ar, en and ur (reports 11002-11019): verse 3 is filed to the foot of p. 499.
 - Batch 34: pp. 500-506 filed in ar, en and ur (reports 11021-11046): verse 3 is filed to the foot of p. 506.
 - Batch 35: pp. 507-513 filed in ar, en and ur (reports 11047-11071): verse 3 is filed to p. 513.
-- Progress: current report 11071, printed p. 513. Next is report 11072 (Ibn Ishaq on the divining arrows) on printed p. 513, in the rest of verse 3.
+- Batch 36: pp. 514-520 filed in ar, en and ur (reports 11072-11087): verse 3 is filed to the foot of p. 520.
+- Progress: current report 11087, printed p. 520. Next is the rest of al-Tabari's weighing of the perfecting of the religion, from printed p. 520 on.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
