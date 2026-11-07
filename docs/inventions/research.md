@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: research method
 
+## Depth corrections: seven institutional articles (7 November 2026)
+
+Directly reread the public TDV entries BERÎD, BÎMÂRİSTAN, MİNARE, NİZÂMİYE MEDRESESİ and TIRÂZ. Added postal staff/treasury ownership/authentication; Harun's Indian doctor and translation context; clearly separate comparative Dayr Hizqil/Adudi institutions for Ibn Tulun; minaret parts, exceptional forms and regional examples; madrasa staff, appointments, tenure and library gifts; textile production stages and inscription attribution; and Walid's separate Fustat-house context and explicitly unsourced Bostanzade priority claim. TDV's underlying primary works were not newly inspected, and the additions make no direct-descent, surviving-original or construction-plan claim. All original prose and parsed data values remain intact.
+
+Exact main-body words after excluding frontmatter, heading lines, citations and references, Arabic/English/Urdu: barid1509/2039/2206; harun-bimaristan1508/1839/1940; ibn-tulun-bimaristan1509/1800/1873; minaret1512/2004/2166; nizamiyya-madrasa1523/1749/1908; tiraz1528/2109/2188; walid-bimaristan1517/2116/2354. These seven plus algebra and algorism correct nine of the22 identified inventions; thirteen remain.
+
+## Depth corrections: algebra and algorism (7 November 2026)
+
+Directly reread TDV's al-Khwarizmi web biography, including the algebra operations, proportional quantities, geometric verification, ordering of the algebra and Indian-arithmetic books, and separate finger-reckoning work. New paragraphs preserve the original articles and add only this sourced technical context plus explicitly modern208/280place-value and208+37=245demonstrations calculated here. The lost Indian-arithmetic manuscript was not inspected or reconstructed. No new first-priority, influence or manuscript claim. Exact citations-stripped main-body words ar/en/ur: algebra1572/1982/2376, algorism1517/1915/2260.
+
 ## Invention100 — al-Khwarizmi's Sindhind astronomical tables (7 November 2026)
 
 Read the official TDV web entry for İhsan Fazlıoğlu's “HÂRİZMÎ, Muhammed b. Mûsâ” directly (printed pp. 224–227) and read the astronomy section and author/update line of the MacTutor biography by J. J. O'Connor and E. F. Robertson. MacTutor reports Indian astronomical foundations, an Indian text presented at the Baghdad court around770, two lost Arabic versions, a tenth-century Andalusian revision and Latin translation of the shorter version, a surviving Latin version of the longer version, and the work's calendar, planetary, sine/tangent, spherical-astronomy, parallax, eclipse and crescent-visibility topics. Its cited secondary works were not independently consulted; the Arabic originals were not inspected.
