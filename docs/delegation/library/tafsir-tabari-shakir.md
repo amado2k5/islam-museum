@@ -349,6 +349,10 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 68: pp. 401-407 filed in ar, en and ur (reports 17037-17053): 9:82 and 9:83 are filed in full and 9:84 is begun to the foot of p. 407 after report 17053 (next: p. 408).
 - Batch 69: pp. 408-414 filed in ar, en and ur (reports 17054-17072): 9:84 is completed, 9:85 to 9:87 are filed in full and 9:88 is begun to the foot of p. 414 (next: p. 415).
 - Batch 70: pp. 415-421 filed in ar, en and ur (reports 17073-17082): 9:88 is completed, 9:89 to 9:91 are filed in full and 9:92 is begun to the foot of p. 421 after report 17082 (next: p. 422).
+- Batch 71: pp. 422-428 filed in ar, en and ur (reports 17083-17091): 9:92 is completed and 9:93 to 9:96 are filed in full; no stop sentence, the next batch begins at 9:97 on p. 429.
+- Batch 72: pp. 429-435 filed in ar, en and ur (reports 17092-17105, 17106 begun): 9:97 to 9:99 are filed in full and 9:100 is begun to the foot of p. 435 at report 17106 (next: p. 436).
+- Batch 73: pp. 436-442 filed in ar, en and ur (reports 17106-17127): 9:100 is completed and 9:101 is begun to the foot of p. 442 after report 17127 (next: p. 443).
+- Batch 74: pp. 443-449 filed in ar, en and ur (reports 17128-17139, 17140 begun): 9:101 is completed and 9:102 is begun to the foot of p. 449 at report 17140 (next: p. 450).
 - Batch 51: pp. 293-299 filed in ar, en and ur (reports 16802-16809, 16810 begun): 9:52 is completed, 9:53 to 9:56 are filed in full and 9:57 is filed to the foot of p. 299 at report 16810 (next: p. 300).
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
@@ -711,8 +715,13 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 71: Sura al-Ra'd pp. 501-507 filed; SURA AL-RA'D COMPLETE (13:43 closed). Next is Sura Ibrahim (14:1) from p. 508 (marker 516).
 - Batch 72: Sura Ibrahim begun, pp. 511-517 filed (14:1 to 14:4, 14:5 begun). Next is the rest of 14:5 from p. 518 (marker 526).
 - Batch 73: Sura Ibrahim pp. 518-524 filed (14:5 closed, 14:6 begun). Next is the rest of 14:6 from p. 525 (marker 533).
+- Batch 74: Sura Ibrahim pp. 525-531 filed (14:6 closed, 14:7, 14:8 filed, 14:9 begun). Next is the rest of 14:9 from p. 532 (marker 540).
+- Batch 75: Sura Ibrahim pp. 532-538 filed (14:9 closed, 14:10, 14:11 filed). Next is 14:12 from p. 539 (marker 547).
+- Batch 76: Sura Ibrahim pp. 539-545 filed (14:12, 14:13-14 filed, 14:15 begun). Next is the rest of 14:15 from p. 546 (marker 554).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
+- Batch 77: Sura Ibrahim pp. 546-552 filed (14:15 closed, 14:16-17 filed, 14:18 begun). Next is the rest of 14:18 from p. 553 (marker 561).
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
+- Batch 78: Sura Ibrahim pp. 553-559 filed (14:18 closed, 14:19-20 filed, 14:21 begun). Next is the rest of 14:21 from p. 560 (marker 568).
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
 - Batch 79: pp. 428-434 filed in ar, en and ur (reports 13374-13380): 6:65 end, 6:66 and the start of 6:67
 - Batch 64: printed pp. 405-411 (markers 409-415) filed in ar, en and ur (reports 14554-14577): 7:35 closes at p. 407, 7:36 is filed and 7:37 is begun to the foot of p. 411 before report 14578. Offset still marker - 4. Stop sentence at the foot. Next is report 14578 (marker 415, printed 411), then the third view (what they were promised), marker 416 onwards.
@@ -730,3 +739,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 87: pp. 484-490 filed in ar, en and ur (reports 13465-13467): 6:76 end, 6:77, 6:78, 6:79, 6:80 and the start of 6:81
 - Batch 88: pp. 491-497 filed in ar, en and ur (reports 13467-13486): 6:81 end and 6:82 (belief mixed with wrong, up to report 13486)
 - Batch 89: pp. 498-504 filed in ar, en and ur (reports 13487-13512): 6:82 end and 6:83 begun
+- Batch 90: pp. 505-511 filed in ar, en and ur (reports 13513-13515): 6:83 end, 6:84, 6:85 and 6:86 begun
+- Batch 91: pp. 512-518 filed in ar, en and ur (reports 13516-13530): 6:86 end, 6:87, 6:88, 6:89 and 6:90 begun
+- Batch 92: pp. 519-525 filed in ar, en and ur (reports 13531-13543): 6:90 end and 6:91 begun
+- Batch 93: pp. 526-532 filed in ar, en and ur (reports 13544-13554): 6:91 end, 6:92 and 6:93 begun
+- Batch 94: pp. 533-539 filed in ar, en and ur (reports 13555-13567): 6:93 (Ibn Abi Sarh, Musaylima and al-Ansi, the agonies of death) up to its question on 'give up your souls'

@@ -1,0 +1,30 @@
+id: person/mintimer-shaimiev
+class: person
+label: { ar: "منتيمير شايمييف", en: "Mintimer Shaimiev", ur: "منتیمیر شائمیف" }
+names:
+  - { value: "Mintimer Sharipovich Shaimiev", kind: full }
+  - { value: "Mintimer Şäymiev", kind: alternate }
+  - { value: "Mintimer Shaimev", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي روسي من تتارستان ⁦(مولود 1937)⁩، أول رئيس لجمهورية تتارستان (1991–2010)، قاد إعلان سيادتها (1990)، وأعاد بناء مساجد هُدمت في العهود السابقة وعُني بإحياء الثقافة الإسلامية فيها، ونال جائزة الملك فيصل لخدمة الإسلام (2007)، وسُمّي سفير اليونسكو للنوايا الحسنة للحوار بين الثقافات (2017)."
+  en: "Russian politician from Tatarstan (born 1937), first President of the Republic of Tatarstan (1991–2010), who led its declaration of sovereignty (1990), rebuilt mosques destroyed in earlier eras and promoted the revival of Islamic culture there; King Faisal Prize for Service to Islam (2007) and UNESCO Goodwill Ambassador for intercultural dialogue (2017)."
+  ur: "تاتارستان کے روسی سیاست دان ⁦(پیدائش 1937ء)⁩، جمہوریہ تاتارستان کے پہلے صدر ⁦(1991ء–2010ء)⁩، جنھوں نے اس کے اعلانِ خود مختاری ⁦(1990ء)⁩ کی قیادت کی، پچھلے ادوار میں منہدم مساجد دوبارہ تعمیر کرائیں اور وہاں اسلامی ثقافت کے احیا کی سرپرستی کی؛ شاہ فیصل انعام برائے خدمتِ اسلام ⁦(2007ء)⁩ اور بین الثقافتی مکالمے کے لیے یونیسکو کے خیرسگالی سفیر ⁦(2017ء)⁩۔"
+wings: [people]
+regions: [anatolia-balkans]
+roles: [politician, engineer]
+born: { edtf: "1937-01-20", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in the village of Anyakovo, Aktanyshsky District, Tatar ASSR, son of Shagisharip Shaimukhammetovich (English article; the prize's page and Wikidata give the same day and village).", sources: [source/wikipedia-mintimer-shaimiev-en, source/wikidata-mintimer-shaimiev, source/king-faisal-prize-laureates] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No sentence in the sources read states his own religious affiliation in his words; the prize's praise is the award body's voice. Not recorded."
+    sources: [source/wikipedia-mintimer-shaimiev-en, source/wikidata-mintimer-shaimiev, source/king-faisal-prize-laureates]
+footprint:
+  wikipedia: { languages: [ar, az, azb, ba, be, bg, ca, cv, de, en, es, et, fa, fi, fr, hy, ja, kk, ko, ms, nl, pl, pnb, ro, ru, sr, tg, tly, tr, tt, uk, ur, uz, zh], checked: "2026-11-07", sources: [source/wikidata-mintimer-shaimiev] }
+  wikidata: "Q368896"
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 2007, sources: [source/king-faisal-prize-laureates] }
+external_ids: { wikidata: "Q368896" }
+sources: [source/wikipedia-mintimer-shaimiev-en, source/wikidata-mintimer-shaimiev, source/king-faisal-prize-laureates]
+provenance: { layer: own-research, source: "English Wikipedia 'Mintimer Shaimiev' (revision 1370146062), Wikidata Q368896 (revision 2561291039) and kingfaisalprize.org/h-e-mintimer-sharipovich-shaimev/, read on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b10 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

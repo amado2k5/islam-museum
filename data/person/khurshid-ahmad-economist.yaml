@@ -1,0 +1,34 @@
+id: person/khurshid-ahmad-economist
+class: person
+label: { ar: "خورشيد أحمد", en: "Khurshid Ahmad", ur: "خورشید احمد" }
+names:
+  - { value: "Khurshid Ahmad", kind: full }
+  - { value: "خورشید احمد", kind: alternate }
+  - { value: "Khurshid Ahmed", kind: alternate }
+gender: male
+summary:
+  ar: "اقتصادي ومفكر وسياسي باكستاني (1932–2025)، من رواد علم الاقتصاد الإسلامي، شارك في تأسيس المؤسسة الإسلامية في ليستر، وكان من قادة الجماعة الإسلامية، ورأس لجنة التخطيط في باكستان، وعضو مجلس الشيوخ (2002–2012)، ألّف وحرّر أكثر من سبعين كتابًا، ونال جائزة الملك فيصل لخدمة الإسلام (1990) ونيشان امتياز (2011)."
+  en: "Pakistani economist, thinker and politician (1932–2025), a founder of Islamic economics as an academic field, co-founder of the Islamic Foundation in Leicester, a Jamaat-e-Islami leader, head of Pakistan's Planning Commission and senator (2002–2012); author and editor of more than seventy books, King Faisal Prize for Service to Islam (1990) and Nishan-e-Imtiaz (2011)."
+  ur: "پاکستانی ماہرِ معاشیات، مفکر اور سیاست دان ⁦(1932ء–2025ء)⁩، اسلامی معاشیات کو علمی شعبہ بنانے والوں میں سے، لیسٹر کی اسلامک فاؤنڈیشن کے شریک بانی، جماعتِ اسلامی کے رہنما، پاکستان کے پلاننگ کمیشن کے سربراہ اور سینیٹر ⁦(2002ء–2012ء)⁩؛ ستر سے زیادہ کتب کے مصنف و مرتب، شاہ فیصل انعام برائے خدمتِ اسلام ⁦(1990ء)⁩ اور نشانِ امتیاز ⁦(2011ء)⁩۔"
+wings: [people]
+regions: [south-asia, global]
+roles: [economist, scholar, politician, writer]
+born: { edtf: "1932-03-23", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in Delhi, British India, to an Urdu-speaking family (English article and the prize's page; Wikidata gives the same day and place).", sources: [source/wikipedia-khurshid-ahmad-economist-en, source/wikidata-khurshid-ahmad-economist, source/king-faisal-prize-laureates] }
+died: { edtf: "2025-04-13", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Leicester, England, aged 93; buried at Saffron Hill Cemetery on 14 April (English article; Wikidata gives the day and Leicester).", sources: [source/wikipedia-khurshid-ahmad-economist-en, source/wikidata-khurshid-ahmad-economist] }
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-khurshid-ahmad-economist-en, source/wikidata-khurshid-ahmad-economist] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No sentence in the sources read states his own religious affiliation in his words; the prize's praise is the award body's voice. Not recorded."
+    sources: [source/wikipedia-khurshid-ahmad-economist-en, source/wikidata-khurshid-ahmad-economist, source/king-faisal-prize-laureates]
+footprint:
+  wikipedia: { languages: [ar, arz, bn, de, en, fa, pnb, tr, ur], checked: "2026-11-07", sources: [source/wikidata-khurshid-ahmad-economist] }
+  wikidata: "Q6403143"
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1990, note: "shared with Ali al-Tantawi", sources: [source/king-faisal-prize-laureates] }
+  - { award: award/nishan-e-imtiaz, result: won, year: 2011, note: "conferred on 23 March 2011", sources: [source/wikipedia-khurshid-ahmad-economist-en, source/king-faisal-prize-laureates] }
+external_ids: { wikidata: "Q6403143" }
+sources: [source/wikipedia-khurshid-ahmad-economist-en, source/wikidata-khurshid-ahmad-economist, source/king-faisal-prize-laureates]
+provenance: { layer: own-research, source: "English Wikipedia 'Khurshid Ahmad (scholar)' (revision 1379800650), Wikidata Q6403143 (revision 2561084521) and kingfaisalprize.org/professor-khurshid-ahmed/, read on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b10 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
