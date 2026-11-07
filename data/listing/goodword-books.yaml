@@ -1,31 +1,26 @@
 id: listing/goodword-books
 class: listing
 kind: publisher
-label:
-  ar: جودورد للكتب
-  en: Goodword Books
+label: { ar: "غودورد للكتب", en: "Goodword Books", ur: "گڈورڈ بکس" }
 summary:
-  ar: دار نشر إسلامية هندية-بريطانية متخصصة في كتب الأطفال والمبتدئين عن الإسلام.
-  en: Goodword Books.
-wings: [made]
-categories:
-- books
-regions:
-- south-asia
-- andalus-europe
-founded:
-  edtf: '1990'
-  calendar: gregorian
-  precision: year
-made:
-  by_muslims: true
-  basis: documented
-  sources: &id001
-  - source/official-website
-external_ids:
-  official: https://www.goodwordbooks.com
-sources: *id001
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
+  ar: "دار نشر هندية في دلهي أسسها ثنية السنين خان سنة 1996، امتدادًا للمركز الإسلامي الذي أسسه أبوه العالم وحيد الدين خان في دلهي سنة 1976؛ تُعنى بكتب الأطفال المصوّرة عن القيم الإسلامية، وتنشر كذلك للكبار في التاريخ والدين والفلسفة والدعوة وتعلّم العربية، وأعادت طبع ترجمة إيرفنغ الأمريكية للقرآن."
+  en: "An Indian publisher in Delhi founded in 1996 by Saniyasnain Khan as an outgrowth of the Islamic Centre his father, the scholar Maulana Wahiduddin Khan, founded in Delhi in 1976; it concentrates on illustrated children's books on Islamic values, also publishes for adults in history, religion, philosophy, da'wa and Arabic learning, and reissued T. B. Irving's American translation of the Qur'an."
+  ur: "دہلی کا ہندوستانی اشاعتی ادارہ جو 1996 میں ثنیہ السنین خان نے اپنے والد مولانا وحید الدین خان کے 1976 میں دہلی میں قائم کردہ اسلامی مرکز کے تسلسل میں قائم کیا؛ اسلامی اقدار پر بچوں کی مصور کتابوں پر توجہ دیتا ہے، بڑوں کے لیے تاریخ، دین، فلسفہ، دعوت اور عربی سیکھنے کی کتابیں بھی شائع کرتا ہے، اور اس نے اروِنگ کا امریکی ترجمۂ قرآن دوبارہ شائع کیا۔"
+wings: [made, today]
+categories: [books]
+themes: [children-and-youth, libraries-paper-and-the-book]
+regions: [south-asia]
+founded: { edtf: "1996", hijri: "1416", calendar: gregorian, precision: year, status: historical, derived: true, note: "Founded in 1996 by the publisher's own account (the museum's draft gave 1990); its parent Islamic Centre dates from 1976. The Gregorian year 1996 runs from Sha'ban 1416 to Sha'ban 1417 AH; the Hijri year is converter-derived.", sources: [source/goodword-books-about] }
+status_business: active
+location: { place: place/delhi, serves: [global] }
+links: { official: "https://www.goodwordbooks.com" }
+languages: [en]
+made: { by_muslims: true, basis: self-identified, sources: [source/goodword-books-about] }
+sources: [source/goodword-books-about, source/gloqur-irving-first-american-version]
+provenance:
+  layer: own-research
+  source: "Goodword Books' About Us page, and the GloQur post #188 for its edition of Irving's translation, read in Chrome on the founder's Mac on 6 November 2026. Enriches the listings-lane draft card (Devin, 16 October 2026) in place; the draft's 1990 founding is corrected to 1996."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
