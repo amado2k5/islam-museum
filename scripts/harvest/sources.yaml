@@ -1006,3 +1006,14 @@ workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museu
       robots_txt: to be read before bulk access
       note: 'apex legal body: official resolutions (Qararat), journal and multi-volume proceedings'
     status: enabled
+  king-faisal-prize:
+    name: King Faisal Prize, official laureate pages
+    url: https://kingfaisalprize.org
+    licence: copyrighted (terms of service, read 7 Nov 2026); facts and own-words summaries only, no reproduction
+    layer: copyrighted-reference
+    method: browser page reading, one laureate page at a time; cite by page slug
+    limits:
+      pause_seconds: 2
+      robots_txt: read 7 Nov 2026; disallows /wp-admin/ only
+      note: 'the award body''s own record: one page per laureate (category, year, birth, citation, biography written in the award year, later updates and deaths); index pages per category'
+    status: enabled
