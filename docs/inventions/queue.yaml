@@ -2472,7 +2472,7 @@ candidates:
     flags: [screen-census-signal-for-invention-relevance, verify-maker-faith-contribution-and-source, verify-era]
   - id: al-muradi-intermittent-gearing
     label: "Intermittent gearing in Ibn Khalaf al-Muradi's water-clock automata"
-    state: "[~]"
+    state: "[-]"
     batch: 3
     domain: mechanics-automata
     era: middle-period
@@ -6240,3 +6240,14 @@ candidates:
     records: ["invention/ibn-sina-seven-drug-assessment-conditions", "person/ibn-sina", "work/al-qanun-fi-al-tibb"]
     lead_sources: ["source/canon-ibn-sina-print-v1", "source/nasser-tibi-savage-smith-canon-rules-2009", "source/tdv-ibn-sina-alper", "source/britannica-avicenna"]
     flags: ["invention87", "original-arabic318-319-inspected", "seven-conditions-not-modern-trial", "humoral-framework-and-qiyas-retained", "direct-incidental-and-species-limits", "dosage-interpolation-and-fifth-rule-continuation-labelled", "no-numeric-sample-or-statistical-threshold-invented", "individual-muslim-basis-and-debated-affiliation-cited", "earlier-maker-work-provenance-prose-preserved", "reused-later-CC0-jar-not-author-object"]
+  - id: jazari-animal-scoop-water-lifter
+    label: "Al-Jazari's animal-powered scoop water-lifter"
+    state: "[x]"
+    batch: 4
+    domain: water-agriculture
+    era: middle-period
+    from: founder-supplied-lead
+    invention: invention/jazari-animal-scoop-water-lifter
+    records: ["person/al-jazari-engineer", "place/amid", "source/jazari-hill-1974", "source/tdv-cezeri", "source/met-jazari-scoop-451298", "media/jazari-animal-scoop-water-lifter", "media/diagram-jazari-animal-scoop-water-lifter"]
+    lead_sources: ["founder-approved operative brief (2026-11-04) §4.1", "source/jazari-hill-1974 V.4 pp.184–185; V.3/V.5 read for comparison", "source/tdv-cezeri pp.505–506", "source/met-jazari-scoop-451298 Object record and public-domain image"]
+    flags: ["completed-D142-b99", "bounded-to-category-V-chapter-4", "distinct-from-V3-water-driven-jar-chain", "distinct-from-V5-double-piston-pump", "slotted-ladle-assembly-not-component-count", "no-first-world-claim", "1315-folio-not-original-machine", "no-proven-geographic-spread-or-modern-descendant"]
