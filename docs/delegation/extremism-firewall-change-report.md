@@ -1,0 +1,174 @@
+# Extremism firewall: change report (7 November 2026)
+
+Everything removed or edited under the founder's rule to exclude all mention of the listed organisations, for evaluation. Compare any entity with `git diff main -- <path>` on the pull request, or restore it from git history (nothing is permanently lost).
+
+- **Deleted:** 35 entities/sources (59 files)
+- **Edited:** 109 entities/sources (284 files)
+
+## Known judgement calls to check
+
+- `person/mahmoud-abbas`: an agent invented "handover of Gaza to the Palestinian Authority"; removed again, the sentence now says only that he demanded the release of the hostages.
+- `person/salima-mazari`: all Taliban content cut, including the 2020 surrender negotiation and the 2021 capture reports; her resistance is now unnamed "armed resistance".
+- `person/riad-al-asaad`: Salvation Government section cut to his conference attendance and appointment as deputy prime minister.
+- `person/mustafa-al-kadhimi`: fight against the Islamic State became "the fight against terrorism"; Kata'ib Hezbollah accusation and finance-chief arrest cut.
+- `person/halimah-yacob`: the paragraph on her condemnations of the Islamic State is deleted in all languages.
+- `person/ahmad-shah-massoud`, `person/benazir-bhutto`, `person/burhanuddin-rabbani`: Taliban and Al-Qaeda clauses neutralised ("his opponents took Kabul", "militants"); the 9/11 Commission and bin Laden lines were kept (not listed groups).
+- `person/yusuf-al-qaradawi`: Al-Taqwa bank sanctions sentence, Islamic State caliphate sentence and Hamas/Union of Good clause deleted (en, ar).
+- `person/sayyid-qutb`: the "influence on armed groups" passage rewritten; Zawahiri kept as "later a prominent militant leader".
+- `source/bbc-newsnight-2010`: a real BBC headline whose second half named Al-Qaeda; title shortened with a note. Amr Khaled's pages cite it. Drop the source instead if you prefer.
+- `source/borderless-salima-mazari-2022`: the web address still ends `fought-the-taliban`; kept because changing it breaks the citation.
+- `person/sharmeen-obaid-chinoy`: film titles containing "Taliban" removed; the Emmy kept as "one of her films".
+- `person/abdullah-abdullah`: "Islamic State government of Rabbani" (1992 Afghan government) changed to "the government of Burhanuddin Rabbani".
+- `building/nabi-yunus-mosque`, `mosul-grand-mosque`, `nabi-jirjis-mosque-mosul`: perpetrator no longer named, "destroyed in <year>".
+- Not changed on purpose: Marj Dabiq, Tafsir al-Manar, Hudayr al-Kata'ib, al-Shabab (youth/football), Quranic hizb Allah, Ibn Hamas, 1992 Islamic State of Afghanistan, Hitti's book title, `person/may-ziade` (pen name Isis Copia).
+- Not done: `labbaik-media-cell` (Tehreek-e-Labbaik Pakistan) is outside the lists and untouched.
+
+## Deleted (all language versions)
+
+- `person/ahmed-al-sharaa` — `content/ar/person/ahmed-al-sharaa.md`, `content/en/person/ahmed-al-sharaa.md`, `content/ur/person/ahmed-al-sharaa.md`, `data/person/ahmed-al-sharaa.yaml`
+- `person/ahmed-yassin` — `content/ar/person/ahmed-yassin.md`, `content/en/person/ahmed-yassin.md`, `content/ur/person/ahmed-yassin.md`, `data/person/ahmed-yassin.yaml`
+- `screen/al-dawla-2017` — `content/ar/screen/al-dawla-2017.md`, `content/en/screen/al-dawla-2017.md`, `content/ur/screen/al-dawla-2017.md`, `data/screen/al-dawla-2017.yaml`
+- `screen/al-halibah-2020` — `content/ar/screen/al-halibah-2020.md`, `content/en/screen/al-halibah-2020.md`, `content/ur/screen/al-halibah-2020.md`, `data/screen/al-halibah-2020.yaml`
+- `screen/arbaa-banat-2023` — `content/ar/screen/arbaa-banat-2023.md`, `content/en/screen/arbaa-banat-2023.md`, `content/ur/screen/arbaa-banat-2023.md`, `data/screen/arbaa-banat-2023.yaml`
+- `screen/madinat-al-ashbah-2017` — `content/ar/screen/madinat-al-ashbah-2017.md`, `content/en/screen/madinat-al-ashbah-2017.md`, `content/ur/screen/madinat-al-ashbah-2017.md`, `data/screen/madinat-al-ashbah-2017.yaml`
+- `screen/musul-2019` — `content/ar/screen/musul-2019.md`, `content/en/screen/musul-2019.md`, `content/ur/screen/musul-2019.md`, `data/screen/musul-2019.yaml`
+- `screen/waqt-dimashq-2018` — `content/ar/screen/waqt-dimashq-2018.md`, `content/en/screen/waqt-dimashq-2018.md`, `content/ur/screen/waqt-dimashq-2018.md`, `data/screen/waqt-dimashq-2018.yaml`
+- `event/aden-unrest-2015` — `data/event/aden-unrest-2015.yaml`
+- `event/ansariya-ambush-1997` — `data/event/ansariya-ambush-1997.yaml`
+- `event/battle-of-al-mukalla-2016` — `data/event/battle-of-al-mukalla-2016.yaml`
+- `event/battle-of-al-qaryatayn-2015` — `data/event/battle-of-al-qaryatayn-2015.yaml`
+- `event/battle-of-al-qaryatayn-2016` — `data/event/battle-of-al-qaryatayn-2016.yaml`
+- `event/battle-of-al-rai-2016` — `data/event/battle-of-al-rai-2016.yaml`
+- `event/battle-of-baghuz-2019` — `data/event/battle-of-baghuz-2019.yaml`
+- `event/battle-of-baiji-2014` — `data/event/battle-of-baiji-2014.yaml`
+- `event/battle-of-kandahar-2001` — `data/event/battle-of-kandahar-2001.yaml`
+- `event/battle-of-mirali-2007` — `data/event/battle-of-mirali-2007.yaml`
+- `event/battle-of-ramadi-2014` — `data/event/battle-of-ramadi-2014.yaml`
+- `event/battle-of-shadadeh-2013` — `data/event/battle-of-shadadeh-2013.yaml`
+- `event/battle-of-shaer-gas-field-2014` — `data/event/battle-of-shaer-gas-field-2014.yaml`
+- `event/battle-of-tell-abyad-2016` — `data/event/battle-of-tell-abyad-2016.yaml`
+- `event/battle-of-zabadani-2015` — `data/event/battle-of-zabadani-2015.yaml`
+- `event/deir-ez-zor-offensive-2014` — `data/event/deir-ez-zor-offensive-2014.yaml`
+- `event/kirkuk-raid-2016` — `data/event/kirkuk-raid-2016.yaml`
+- `event/operation-density-2006` — `data/event/operation-density-2006.yaml`
+- `event/siege-of-abu-al-duhur-2015` — `data/event/siege-of-abu-al-duhur-2015.yaml`
+- `event/siege-of-musa-qala-2006` — `data/event/siege-of-musa-qala-2006.yaml`
+- `source/wikidata-ahmed-al-sharaa` — `data/source/wikidata-ahmed-al-sharaa.yaml`
+- `source/wikidata-ahmed-yassin` — `data/source/wikidata-ahmed-yassin.yaml`
+- `source/wikipedia-ahmed-al-sharaa-ar` — `data/source/wikipedia-ahmed-al-sharaa-ar.yaml`
+- `source/wikipedia-ahmed-al-sharaa-en` — `data/source/wikipedia-ahmed-al-sharaa-en.yaml`
+- `source/wikipedia-ahmed-yassin-ar` — `data/source/wikipedia-ahmed-yassin-ar.yaml`
+- `source/wikipedia-ahmed-yassin-en` — `data/source/wikipedia-ahmed-yassin-en.yaml`
+- `source/wikipedia-ahmed-yassin-ur` — `data/source/wikipedia-ahmed-yassin-ur.yaml`
+
+## Edited (lines added/removed per file)
+
+- `concept/al-dimuqratiyya-wal-sharia` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `concept/al-muqawama-wal-irhab` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +1/-1
+- `group/islamic-relief` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/abdallah-bin-bayyah` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/abdel-fattah-el-sisi` — `ar` +1/-1, `en` +1/-1
+- `person/abdiweli-mohamed-ali` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/abdul-rahman-al-sudais` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/abdullah-ii` — `ar` +3/-3, `en` +3/-3
+- `person/abul-ala-maududi` — `ar` +1/-1, `en` +1/-1
+- `person/ahmad-shah-massoud` — `ar` +2/-2, `en` +2/-2, `ur` +2/-2, `data` +4/-4
+- `person/ahmed-el-tayeb` — `ar` +1/-1, `en` +1/-1
+- `person/ahmet-davutoglu` — `ar` +2/-2, `en` +2/-2, `ur` +1/-1
+- `person/ali-gomaa` — `ar` +2/-2, `en` +2/-2
+- `person/ali-mamlouk` — `ar` +2/-2, `en` +2/-2, `ur` +1/-1
+- `person/amr-khaled` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/ashraf-ghani` — `ar` +3/-3, `en` +3/-3, `ur` +3/-3, `data` +3/-3
+- `person/benazir-bhutto` — `ar` +2/-6, `en` +2/-6, `ur` +2/-4
+- `person/burhanuddin-rabbani` — `ar` +2/-2, `en` +2/-2, `ur` +2/-2, `data` +4/-4
+- `person/dave-chappelle` — `ar` +1/-1, `en` +1/-1
+- `person/eyad-qunaibi` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/fawzia-koofi` — `ar` +3/-3, `en` +3/-3, `ur` +3/-3, `data` +3/-3
+- `person/habiba-sarabi` — `ar` +3/-3, `en` +3/-3, `ur` +3/-3, `data` +3/-3
+- `person/haider-al-abadi` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +3/-3
+- `person/halimah-yacob` — `ar` +0/-2, `en` +0/-2, `ur` +0/-2
+- `person/hamid-karzai` — `ar` +4/-4, `en` +4/-4, `ur` +4/-4, `data` +4/-4
+- `person/hamza-tzortzis` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/hamza-yusuf` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/hassan-el-kettani` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/hassan-sheikh-mohamud` — `ar` +2/-2, `en` +2/-2, `ur` +1/-1
+- `person/ilwad-elman` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/ingrid-mattson` — `ar` +1/-1, `en` +1/-1
+- `person/isa-ali-pantami` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +1/-1
+- `person/israr-ahmed` — `ar` +1/-1, `en` +1/-1
+- `person/jaafar-mahmud-adam` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/kamila-shamsie` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/linda-sarsour` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/mahmoud-abbas` — `ar` +1/-1, `en` +1/-1
+- `person/majid-majidi` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/malala-yousafzai` — `ar` +4/-4, `en` +4/-4, `ur` +2/-2, `data` +3/-3
+- `person/manizha-talash` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +4/-4
+- `person/mohamed-bin-zayed-al-nahyan` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +3/-3
+- `person/mohammad-najibullah` — `ar` +2/-2, `en` +2/-2, `ur` +2/-2, `data` +4/-4
+- `person/muhammad-al-yaqoubi` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +3/-3
+- `person/mustafa-al-kadhimi` — `ar` +2/-2, `en` +2/-2, `ur` +2/-2
+- `person/mustafa-tlass` — `ar` +1/-1, `en` +1/-1
+- `person/omar-suleiman` — `ar` +0/-2, `en` +0/-2, `ur` +1/-1
+- `person/pir-baba` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/rachid-eljay` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/ramadan-al-buti-muhammad-said` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/rashida-tlaib` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/recep-tayyip-erdogan` — `ar` +2/-2, `en` +2/-2
+- `person/rehman-chishti` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/riad-al-asaad` — `ar` +5/-5, `en` +5/-5, `ur` +2/-2
+- `person/rushanara-ali` — `ar` +1/-1, `en` +1/-1
+- `person/salima-mazari` — `ar` +3/-3, `en` +3/-3, `ur` +3/-3, `data` +3/-3
+- `person/samir-mustafa` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/samira-asghari` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/sayyid-qutb` — `ar` +2/-2, `en` +2/-2, `ur` +1/-1
+- `person/sharif-sheikh-ahmed` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +3/-3
+- `person/sharmeen-obaid-chinoy` — `ar` +2/-2, `en` +2/-2
+- `person/sibghatullah-mojaddedi` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/sima-samar` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +3/-3
+- `person/tariq-ramadan` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/tawakkol-karman` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/waseem-youssef` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/yasir-qadhi` — `ar` +0/-2, `en` +0/-2, `ur` +1/-1
+- `person/yasser-arafat` — `ar` +1/-1, `en` +1/-1
+- `person/yusuf-al-qaradawi` — `ar` +2/-4, `en` +2/-4
+- `person/zakir-naik` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `person/ziauddin-yousafzai` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +3/-3
+- `place/mosul` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1
+- `screen/buda-2007` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +1/-1
+- `screen/fi-al-khamsa-asr-2003` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +1/-1
+- `screen/kandahar-2001` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +2/-2
+- `screen/min-al-aba-ila-al-abna-2018` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +1/-1
+- `screen/sawamit-kabul-2019` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +1/-1
+- `screen/smaha-malala-2015` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +1/-1
+- `screen/usama-2003` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +2/-4
+- `work/al-numaaf-kaatib` — `ar` +1/-1, `en` +1/-1, `ur` +1/-1, `data` +2/-2
+- `work/palestine-dialogue-network` — `ar` +2/-2, `en` +2/-2, `ur` +1/-1
+- `work/saheeh-international-quran` — `ar` +1/-1, `en` +1/-1
+- `work/sharh-al-hekam-al-ataeya` — `ar` +0/-1, `en` +0/-1, `ur` +0/-1, `data` +0/-1
+- `person/abdullah-abdullah` — `en` +1/-1
+- `person/gilles-kepel` — `en` +1/-1
+- `person/zahra-billoo` — `en` +1/-1
+- `building/mosul-grand-mosque` — `data` +2/-2
+- `building/nabi-jirjis-mosque-mosul` — `data` +2/-2
+- `building/nabi-yunus-mosque` — `data` +1/-1
+- `event/azhar-strategy-un-security-council-2016` — `data` +3/-3
+- `source/alsiyars-samir-mustafa` — `data` +1/-1
+- `source/bbc-newsnight-2010` — `data` +3/-3
+- `source/borderless-salima-mazari-2022` — `data` +1/-1
+- `source/damas-muhammad-al-yaqoubi` — `data` +1/-1
+- `source/jewish-journal-zahra-billoo` — `data` +2/-2
+- `source/magsaysay-habiba-sarabi` — `data` +1/-1
+- `source/wikipedia-benazir-bhutto-en` — `data` +1/-1
+- `source/wikipedia-fawzia-koofi-en` — `data` +1/-1
+- `source/wikipedia-halimah-yacob-ar` — `data` +1/-1
+- `source/wikipedia-halimah-yacob-en` — `data` +1/-1
+- `source/wikipedia-hamid-karzai-ar` — `data` +3/-3
+- `source/wikipedia-isa-ali-pantami-en` — `data` +1/-1
+- `source/wikipedia-manizha-talash-en` — `data` +1/-1
+- `source/wikipedia-muhammad-al-yaqoubi-en` — `data` +2/-2
+- `source/wikipedia-najibullah-en` — `data` +2/-2
+- `source/wikipedia-palestine-dialogue-ar` — `data` +1/-1
+- `source/wikipedia-pir-baba-en` — `data` +2/-2
+- `source/wikipedia-ramadan-al-bouti-en` — `data` +1/-1
+- `source/wikipedia-salima-mazari-en` — `data` +3/-3
+- `work/alf-shams-satia` — `data` +2/-2

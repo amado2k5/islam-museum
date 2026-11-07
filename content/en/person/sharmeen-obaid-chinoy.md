@@ -25,7 +25,7 @@ She returned to Pakistan in 2002 and launched her filmmaking career with her fir
 
 She then began a long association with the PBS series Frontline World, producing broadcast reports, online videos and written dispatches from Pakistan over five years. {cite:wikipedia-sharmeen-obaid-chinoy-en}
 
-Her notable films include Children of the Taliban, The Lost Generation, Afghanistan Unveiled, and Pakistan's Taliban Generation, which won the Emmy for Best Documentary for its war-on-terror subject in 2009, as the article reports it. {cite:wikipedia-sharmeen-obaid-chinoy-en}
+Her notable films include The Lost Generation and Afghanistan Unveiled; the article reports that one of her films won the Emmy for Best Documentary in 2009. {cite:wikipedia-sharmeen-obaid-chinoy-en}
 
 Her films have been aired on PBS, CNN, the Discovery Channel, Al Jazeera English and Channel 4. {cite:wikipedia-sharmeen-obaid-chinoy-en}
 
@@ -54,7 +54,7 @@ In January 2017 she became the first artist to co-chair the World Economic Forum
 She is married to Fahd Kamal Chinoy and has two children; this museum publishes no family detail beyond what understanding her work requires. {cite:wikipedia-sharmeen-obaid-chinoy-en} {cite:wikipedia-sharmeen-obaid-chinoy-ar}
 
 ## Reach
-The sources report that she has made films in more than ten countries, and that she is the first non-American to win the Livingston Award for Young Journalists, for Reinventing the Taliban in 2003. {cite:wikipedia-sharmeen-obaid-chinoy-en}
+The sources report that she has made films in more than ten countries, and that she is the first non-American to win the Livingston Award for Young Journalists, in 2003. {cite:wikipedia-sharmeen-obaid-chinoy-en}
 
 In 2017 she received the Knight International Journalism Award from the International Center for Journalists, recognising work that led to legislative change on honour killing. {cite:wikipedia-sharmeen-obaid-chinoy-en}
 

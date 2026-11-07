@@ -19,7 +19,7 @@ Ali succeeded Mohamed Abdullahi Mohamed as prime minister on 19 June 2011, under
 
 ## President of Puntland
 
-On 8 January 2014 Ali was elected president of Puntland, defeating the incumbent Abdirahman Mohamud Farole.{cite:source/wikipedia-abdiweli-mohamed-ali-en} His five-year administration launched a biometric fishery database, taxation and development programmes, road, airport and seaport projects, and the Galgala campaign against al-Shabaab; he lost the January 2019 election to Said Deni and handed over on 8 January 2019.{cite:source/wikipedia-abdiweli-mohamed-ali-en}
+On 8 January 2014 Ali was elected president of Puntland, defeating the incumbent Abdirahman Mohamud Farole.{cite:source/wikipedia-abdiweli-mohamed-ali-en} His five-year administration launched a biometric fishery database, taxation and development programmes, road, airport and seaport projects, and the Galgala campaign; he lost the January 2019 election to Said Deni and handed over on 8 January 2019.{cite:source/wikipedia-abdiweli-mohamed-ali-en}
 
 ## A note on the record
 

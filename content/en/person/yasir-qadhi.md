@@ -28,8 +28,6 @@ This section sets out different positions as reported in the sources. It is not 
 
 **The ahruf and qira'at remarks (2020).** In an 8 June 2020 interview with Mohammed Hijab, asked about the perfect preservation of the Qur'an in light of the different qira'at and ahruf, Qadhi said: "The standard narrative has holes in it... The standard narrative does not answer some very pressing questions." He later insisted he was referring to the preservation of the qira'at and ahruf themselves rather than of the Qur'an, and published his views in the eighth chapter of Redhwan Karim's *History of the Qur'an* (2024), proposing what he calls a "Divine Permission Model" in place of the "dictation model." {cite:wikipedia-yasir-qadhi-en}
 
-**Threat from the Islamic State.** In the April 2016 issue of *Dabiq*, the Islamic State declared Qadhi and several other Western Muslim speakers *murtads* (apostates), and he was threatened with death over his denunciation of ISIS. {cite:wikipedia-yasir-qadhi-en}
-
 **On hadith methodology (2025).** In a podcast interview published in July 2025, Qadhi stated that Western academia does not consider the traditional Islamic isnad methodology for verifying hadith to be credible or compatible with the historical-critical method, adding: "I'm just being factual." {cite:wikipedia-yasir-qadhi-en}
 
 ## Books
