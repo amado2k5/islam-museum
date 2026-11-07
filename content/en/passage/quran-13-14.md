@@ -10,7 +10,7 @@ Verse 14 of [[passage/quran-13|Surat ar-Ra'd]], a Medinan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 14 of 43 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 14 (pp. 397-402)**
+**Commentary on verse 14 (pp. 397-403)**
 
 On "to Him belongs the call of truth; those they call besides Him respond to them with nothing, like one stretching out his hands to water so that it may reach his mouth, and it will not reach it; and the prayer of the disbelievers is only in error", al-Tabari says, mighty be His praise: to God, from His creation, belongs the call of truth, the "call" being the "truth", as "the abode" is added to "the hereafter" in "the abode of the hereafter" [[passage/quran-12-109|12:109]], {cite:tafsir-tabari-shakir-v16 p. 397}
 
@@ -24,6 +24,6 @@ Reports 20289 to 20292, from Mujahid, through Muhammad ibn Amr, Abu Asim and Isa
 
 "like one stretching out his hands to water so that it may reach his mouth", he said, this is the parable of the polytheist who sets another beside God: he is like the thirsty man who looks at his reflection in water from afar and wants to take hold of it and cannot. Others said what Muhammad ibn Sa'd relates in report 20295, from Ibn Abbas: the parable of the idols and those who worship them besides God is like a man whom thirst has reached until death distresses him, with his palms placed in the water, not reaching his mouth; God says the gods neither answer nor benefit those who worship them until this man's palms reach his mouth, and they never will. Report 20296, from Ibn Zayd, through Yunus and Ibn Wahb: they benefit them with nothing except what this one gains with his palms, stretching them toward what is never reached. Others said what Muhammad ibn Abd al-A'la relates in report 20297, from Qatada, through Ibn Thawr and Ma'mar: the water does not reach his mouth as long as he stands with his palms outspread, not closing them, "and it will not reach it; and the prayer of the disbelievers is only in error"; he said, this is a parable God struck for whoever takes a god besides God, that it will not benefit him or repel harm from him until he dies in that state. {cite:tafsir-tabari-shakir-v16 p. 402}
 
-We stop here at the foot of p. 402, in the middle of the commentary on verse 14 (after report 20297, on the parable of the one stretching out his hands to water); the next batch begins at p. 403 (marker 411). {cite:tafsir-tabari-shakir-v16 p. 402}
+On "and the prayer of the disbelievers is only in error" he says: the calling of the one who disbelieved in God on the idols and gods is only in error, that is, without uprightness or guidance, for he associates others with God. {cite:tafsir-tabari-shakir-v16 p. 403}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
