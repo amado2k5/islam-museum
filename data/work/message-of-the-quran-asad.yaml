@@ -12,6 +12,7 @@ regions: [andalus-europe]
 genre: [quran-translation, tafsir]
 authors: [person/muhammad-asad]
 language: language/english
+publisher: listing/dar-al-andalus-gibraltar
 made: { by_muslims: true, basis: documented, sources: [source/gloqur-asad-message-2020] }
 composed: { edtf: "1980", hijri: "1400", calendar: gregorian, precision: year, status: historical, derived: true, note: "First complete edition, Gibraltar, 1980. The Gregorian year 1980 runs from Safar 1400 to Safar 1401 AH; the Hijri year is converter-derived. A partial first edition of the first nine suras appeared in Geneva in 1964.", sources: [source/gloqur-asad-message-2020, source/gloqur-asad-message-1964-edition, source/wikipedia-message-of-the-quran-en] }
 editions:
@@ -59,5 +60,5 @@ provenance:
   source: "GloQur posts #06 (Sohaib Saeed, 26 June 2020) and #178 (Mykhaylo Yakubovych, 3 November 2023) of the University of Münster's Global Qur'an project for the content, editions and reception; English Wikipedia 'The Message of The Qur'an' (revision 1343155878) and Wikidata Q7751139 (revision 2529488603) for publisher, ISBN and sitelinks only; all read in Chrome on the founder's Mac on 6 November 2026. Enriches the wikidata-import-wave2 draft card in place."
   generated_by: "Claude Code (claude-opus-5-5)"
   model: claude-opus-5-5
-  run: modern-books-b01
+  run: "modern-books-b01; publisher linked in modern-books-b10 at the founder's go-ahead of 7 November 2026 (English Wikipedia revision 1343155878: Dar al-Andalus, Gibraltar, 1980)"
 status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
