@@ -731,6 +731,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 80: Sura Ibrahim pp. 567-573 filed (14:23-25 closed). Next is 14:26 from p. 574 (marker 582).
 - Batch 64: printed pp. 405-411 (markers 409-415) filed in ar, en and ur (reports 14554-14577): 7:35 closes at p. 407, 7:36 is filed and 7:37 is begun to the foot of p. 411 before report 14578. Offset still marker - 4. Stop sentence at the foot. Next is report 14578 (marker 415, printed 411), then the third view (what they were promised), marker 416 onwards.
 - Batch 80: pp. 435-441 filed in ar, en and ur (reports 13381-13402): 6:67 end, 6:68, 6:69 and the start of 6:70
+- Batch 81: Sura Ibrahim pp. 574-580 filed (14:23-25 continued through report 20729). Next is the rest of the commentary on "hin" from report 20730, p. 581 (marker 589).
 - Batch 81: pp. 442-448 filed in ar, en and ur (reports 13403-13418): 6:70 continued (tubsal, ransom, hamim)
 - Batch 65: printed pp. 411-418 (markers 415-422) filed in ar, en and ur (reports 14578-14598): 7:37 closes at p. 415 and 7:38 is begun to the foot of p. 418 after report 14598. Offset still marker - 4. Stop sentence at the foot. Next is marker 423 (printed 419).
 - Batch 82: pp. 449-455 filed in ar, en and ur (reports 13419-13431): 6:70 end and 6:71 (the bewildered man called to guidance), up to its last clause
@@ -751,3 +752,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 94: pp. 533-539 filed in ar, en and ur (reports 13555-13567): 6:93 (Ibn Abi Sarh, Musaylima and al-Ansi, the agonies of death) up to its question on 'give up your souls'
 - Batch 95: pp. 540-546 filed in ar, en and ur (reports 13568-13571): 6:93 end (humiliation, hawn) and 6:94 begun (alone, as created)
 - Batch 96: pp. 547-553 filed in ar, en and ur (reports 13572-13594): 6:94 end and 6:95 begun (the splitter of grain and stone)
+- Batch 97: pp. 554-560 filed in ar, en and ur (reports 13595-13611): 6:95 end and 6:96 begun (dawn, night, sun and moon)
