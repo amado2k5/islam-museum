@@ -12,6 +12,7 @@ Section file for the enterprise, brands and finance waves (seeds §16; section `
 
 ## Status
 
+- **7 November 2026** — Batch 06 (`modern-enterprise-b06`): `listing/tabung-haji` (kind fund), `listing/bank-asya` (status closed), `listing/shahjalal-islami-bank`, `listing/first-security-islami-bank`, `listing/al-hilal-bank`, all new, five sources. cite-check 5/5; validate showed 0 errors in these files (2 errors elsewhere on main, in music records `work/khwaja-mere-khwaja` and `work/kun-faya-kun-rockstar`, reported to the music session).
 - **7 November 2026** — Batch 05 (`modern-enterprise-b05`): `listing/gatehouse-bank`, `listing/bibd`, `listing/faysal-bank`, `listing/al-arafah-islami-bank`, `listing/social-islami-bank`, `listing/ziraat-katilim`, all new, six sources read on 7 November 2026. validate 0 errors, cite-check 6/6. Faysal Bank's lead (founded 1995, Islamic 2023) differs from its cited history (1987, December 2022); the cited dates are used.
 - **7 November 2026** — Batch 04 (`modern-enterprise-b04`): new `listing/bankislami`, `listing/dukhan-bank` (no Wikidata item), `listing/al-baraka-bank-pakistan`, `listing/kuwait-international-bank`; rebuilt `listing/wahed`, `listing/saffron-road`, `listing/islamic-development-bank`. Seven sources. validate 0 errors, cite-check 7/7.
 - **7 November 2026** — Batch 03 (`modern-enterprise-b03`): `group/jakim`, `group/bpjph`, `group/smiic`, `group/itfc`, `listing/crescentrating` (made basis left unverified), `listing/launchgood`, `listing/takaful-malaysia`, `listing/dallah-al-baraka`, `listing/albaraka-turk`, `listing/dow-jones-islamic-market-index` (made.by_muslims false: operator S&P Dow Jones Indices), `listing/kuveyt-turk` (rebuilt). Eleven sources. validate 0 errors, cite-check 11/11; full test suite skipped on the founder's instruction.
@@ -20,7 +21,7 @@ Section file for the enterprise, brands and finance waves (seeds §16; section `
 
 ## Next step
 
-After batch 05: Shahjalal Islami Bank, First Security Islami Bank, Bank Asya (contested; needs both sides), Al Hilal Bank, Al Tazaj and the remaining thin drafts (al-islami-foods, arabian-oud, rasasi, herfy, bindawood, halalbooking, halal-guys) once a made basis is sourced; Tabung Haji (Malay article) and BPKH; the held airline/hotel question for the founder.
+After batch 06: Al Tazaj and the remaining thin drafts (al-islami-foods, arabian-oud, rasasi, herfy, bindawood, halalbooking, halal-guys) once a made basis is sourced; BPKH (Indonesia); the held airline/hotel question for the founder.
 
 
 Batch 02: the rest of the existing thin bank listings (`listing/alinma`, `listing/masraf-al-rayan`, `listing/jordan-islamic-bank`, `listing/kuveyt-turk`, `listing/jaiz-bank`, `listing/amana-bank`, `listing/bank-muamalat`, `listing/sharjah-islamic-bank`, `listing/bank-aljazira`, `listing/bank-of-khartoum`), then the finance leads with no record yet (Al Baraka Banking Group, Bahrain Islamic Bank, Bank Muamalat Indonesia, Al Rayan Bank UK, AAOIFI, IFSB, IILM, CIBAFI), then the halal certifiers, airlines, hotels and Hajj operators of seeds §16.
@@ -52,3 +53,5 @@ Batch 02: the rest of the existing thin bank listings (`listing/alinma`, `listin
 | 2026-11-06 | Ajman Bank | lead | the article does not state Sharia operation | Made basis | a source stating its Sharia charter |
 | 2026-11-06 | LaunchGood: Jerusalem Post item (October 2023) on alleged links | further-reading entry | not cited in the article body | both sides, attributed | founder may authorise reading it with the platform's response |
 | 2026-11-07 | Gatehouse Bank's, BIBD's and Faysal Bank's industry awards (IFN, MoneyComms, The Banker, The Asian Banker) as honours | enrichment | no award records yet; stated in prose | an honour needs a real award record | write the award records, then add the honours |
+| 2026-11-07 | Bank Asya: the article's phrase "the Erdoğan regime" and its own conclusion that customers' rights were violated | English article | loaded wording in the article's voice; the claim is kept, attributed to the UK Home Office note it cites | no verdict; attribute | none needed |
+| 2026-11-07 | Tabung Haji's Labbaik awards as honours | enrichment | no award record for the Saudi ministry's Labbaik awards | an honour needs an award record | write `award/labbaik-awards`, then add the honours |
