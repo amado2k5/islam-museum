@@ -421,6 +421,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 41: pp. 329-337 filed in ar, en and ur (reports 15547-15563): verse 199 closes at p. 332, verses 200 and 201 are filed in full and verse 202 is begun at p. 337; stop sentence at the foot of p. 337 in al-Tabari's sentence on 'they do not fall short' (next: p. 338).
 - Batch 42: pp. 337-345 filed in ar, en and ur (reports 15564-15582): verse 202 closes at p. 340, verse 203 is filed in full and verse 204 is begun at p. 344; stop sentence at the foot of p. 345 after report 15582 (next: p. 346).
 - Batch 43: pp. 346-352 filed in ar, en and ur (reports 15583-15618): verse 204 continues (prayer behind the imam, the Friday sermon, al-Tabari's choice); stop sentence at the foot of p. 352 in his sentence on the sound report (next: p. 353).
+- Batch 44: pp. 352-364 filed in ar, en and ur (reports 15619-15647): verse 204 closes at p. 353, 7:205 and 7:206 are filed in full (Surat al-A'raf ends at p. 357) and Surat al-Anfal is begun at p. 361 with 8:1; stop sentence at the foot of p. 364 after report 15647 (next: p. 365).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
