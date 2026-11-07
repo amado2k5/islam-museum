@@ -1,0 +1,48 @@
+id: listing/islam360
+class: listing
+kind: app
+label:
+  ar: "إسلام 360"
+  en: "Islam360"
+  ur: "اسلام 360"
+summary:
+  ar: "تطبيق من كراتشي للبحث في القرآن والحديث بالكلمة والآية والموضوع، مع التلاوات والتراجم والتفاسير ومواقيت الصلاة والقبلة، بالأردية والهندية والعربية والأردية بالحروف اللاتينية؛ بدأ برنامجًا حاسوبيًا باسم «Search Quran» سنة 2009 أعدّه زاهد حسين چھیپا، ثم صار تطبيقًا مجانيًا يموّله الإعلان والمتبرعون، وتنشره في جوجل بلاي مؤسسة Islam360 Foundation Trust."
+  en: "A Karachi app for searching the Qur'an and hadith by word, verse and subject, with recitations, translations, tafsir, prayer times and the qibla, in Urdu, Hindi, Arabic and Romanised Urdu; it began as a desktop program, 'Search Quran', made by Zahid Hussain Chhipa in 2009, then became a free app funded by advertising and donors, published on Google Play by the Islam360 Foundation Trust."
+  ur: "کراچی کی ایپ جس میں قرآن و حدیث کو لفظ، آیت اور موضوع سے تلاش کیا جا سکتا ہے، تلاوت، تراجم، تفاسیر، اوقاتِ نماز اور قبلے کے ساتھ، اردو، ہندی، عربی اور رومن اردو میں؛ 2009 میں زاہد حسین چھیپا کے ڈیسک ٹاپ پروگرام «Search Quran» سے شروع ہوئی، پھر اشتہارات اور عطیہ دہندگان کے سہارے مفت ایپ بنی؛ گوگل پلے پر ناشر Islam360 Foundation Trust۔"
+wings: [made, today]
+categories: [technology, education]
+regions: [south-asia]
+founded:
+  edtf: "2009"
+  hijri: "1430~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The desktop forerunner 'Search Quran' dates from 2009, as the founder told Dawn (24 November 2019); the year of the rebranding as the Islam360 app is not given in a source read. The Hijri year (1430) is converter-derived."
+  sources: [source/dawn-islam360-2019]
+made: { by_muslims: false, basis: unverified }
+status_business: active
+location: { online_only: true, serves: [pk, global] }
+links:
+  official: "http://theislam360.com"
+  play_store: "https://play.google.com/store/apps/details?id=com.islam360"
+reach:
+  - { platform: play-store, metric: installs, value: 10000000, date: "2026-11-07", note: "10M+ band on the Google Play page, Android only; rated 4.6 from about 290,000 reviews that day", sources: [source/google-play-islam360] }
+footprint:
+  wikipedia: { languages: [ur], checked: "2026-11-07", sources: [source/wikidata-islam360] }
+  wikidata: "Q92914468"
+  press:
+    - { source: source/dawn-islam360-2019, date: { edtf: "2019-11-24", calendar: gregorian, precision: day }, kind: feature, lang: en, title: { en: "Tech Talk: A 360-degree app puts all Islamic teachings on your fingertips" } }
+relations:
+  - { type: owned_by, target: person/zahid-hussain-chhipa, note: "founder and chief executive; the venture was internally funded, as he told Dawn in 2019", sources: [source/dawn-islam360-2019, source/wikipedia-islam360-ur] }
+external_ids:
+  wikidata: Q92914468
+sources: [source/dawn-islam360-2019, source/wikipedia-islam360-ur, source/wikidata-islam360, source/google-play-islam360]
+provenance:
+  layer: own-research
+  source: "Dawn (24 November 2019), Urdu Wikipedia «اسلام 360» (revision 6762088), Wikidata Q92914468 and the Google Play page, read in Chrome on the founder's Mac on 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b07
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
