@@ -10,7 +10,7 @@ Verse 112 of [[passage/quran-9|Surat at-Tawba]], a Medinan surah. {cite:tanzil-q
 ## Place in the museum
 Its place: verse 112 of 129 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 112 (pp. 500-505)**
+**Commentary on verse 112 (pp. 500-508)**
 
 Al-Tabari says: God bought from the believers who repent and worship their selves and wealth; the phrase is in the nominative because it opens a new clause after a complete one like it, as the Arabs do, and he points to his earlier explanation at [[passage/quran-2-18|verse 2:18]]. "The repenters" are those who return from what God disliked and was angered by to what He loves and is pleased with. {cite:tafsir-tabari-shakir-v14 p. 500}
 
@@ -28,6 +28,18 @@ Report 17296 is from Abdullah, the same; 17297 from Abu Abd al-Rahman; 17298 fro
 
 Report 17304 is from al-Hasan: the fasters of the month of Ramadan. Reports 17305 to 17308 are from al-Dahhak: the sa'ihun are the fasters, and everything in the Qur'an called sa'ihun means the fasters. Reports 17309 and 17310 are from Ata: the fasters. Report 17311 is from Wahb ibn Munabbih: siyaha existed among the Children of Israel; a man who wandered for forty years saw what earlier wanderers had seen; the son of an adulteress wandered forty years and saw nothing, and asked his Lord whether it was because his parents had done wrong while he did right, and then he saw what they had seen. Ibn Uyayna said that one who gives up food, drink and women is a wanderer. Report 17312 is from Qatada: people who took fasting from their bodies for God. Report 17313 begins here and continues on the next page. {cite:tafsir-tabari-shakir-v14 p. 505}
 
-We stop here at the foot of p. 505, in the commentary on verse 112 (as report 17313 begins); the next batch begins at p. 506. {cite:tafsir-tabari-shakir-v14 p. 505}
+The rest of report 17313 is from Ibrahim ibn Yazid, from al-Walid ibn Abdullah, from Aisha: the wandering of this community is fasting. The editor notes that Ibrahim ibn Yazid al-Khuzi is abandoned as a transmitter and that al-Walid ibn Abdullah is trustworthy but did not meet Aisha, so the report is mursal and very weak in its chain. {cite:tafsir-tabari-shakir-v14 p. 506}
+
+"The bowers and the prostraters" means those who pray, bowing and prostrating in their prayer. Report 17314 is from al-Hasan: the obligatory prayer. The editor refers to the language indexes for bowing and prostration. {cite:tafsir-tabari-shakir-v14 p. 506}
+
+"Those who enjoin the right and forbid the wrong" are those who call people to truth in their religion, to following right guidance and acting on it, and forbid every act and word God forbade His servants. Report 17315 is from al-Hasan: enjoining the right is to say there is no god but God, and forbidding the wrong is forbidding polytheism; report 17316 from him: they did not enjoin people until they were of its people, and did not forbid the wrong until they had refrained from it. Report 17317 is from Abu al-Aliya: wherever the Qur'an mentions enjoining the right, it means calling from polytheism to Islam, and forbidding the wrong means forbidding the worship of idols and devils. {cite:tafsir-tabari-shakir-v14 p. 507}
+
+Al-Tabari says he has already shown that enjoining the right is all that God or His Messenger commanded, and the wrong is all that they forbade; since neither the verse, a report from the Messenger nor reason indicates a restriction, the general sense is preferable. "Those who keep God's limits" are those who perform His obligations, stop at His command and prohibition, and neither neglect what they must do nor commit what they were forbidden. Report 17318 is from Ibn Abbas: those who stand by obedience to God, a condition set for the people of jihad, that if they keep it God keeps His promise to them. The editor records a manuscript reading in the last phrase. {cite:tafsir-tabari-shakir-v14 p. 507}
+
+Report 17319 is from Ibn Abbas: those who stand by obedience to God; 17320 from al-Hasan: those who stand by God's command; 17321 from al-Hasan: the obligations of God. {cite:tafsir-tabari-shakir-v14 p. 508}
+
+"Give glad tidings to the believers" means: to those who affirm what God promised, that if they keep His covenant He will keep His promise to admit them to Paradise. Report 17322 is from al-Hasan, who recited the verse and said these are people who kept their pledge, that this was their conduct in ease, and that they then met the enemy and were true to their covenant. Some said it means give glad tidings to whoever does these things even if he did not fight; report 17323 is from al-Hasan: those who did not fight. {cite:tafsir-tabari-shakir-v14 p. 508}
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
