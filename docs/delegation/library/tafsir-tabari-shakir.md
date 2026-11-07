@@ -344,6 +344,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 65: pp. 383-388 filed in ar, en and ur (reports 17004-17013, 17014 begun): 9:79 continues to the foot of p. 388 in the middle of report 17014 (next: p. 389); the end of report 17003 at p. 382 is also corrected, since that report ends on p. 382.
 - Batch 66: pp. 389-394 filed in ar, en and ur (reports 17014-17022): 9:79 is completed and 9:80 is begun to the foot of p. 394 (next: p. 395).
 - Batch 67: pp. 395-400 filed in ar, en and ur (reports 17023-17036): 9:80 is completed and 9:81 is filed in full; no stop sentence, the next batch begins at 9:82 on p. 401.
+- Batch 68: pp. 401-407 filed in ar, en and ur (reports 17037-17053): 9:82 and 9:83 are filed in full and 9:84 is begun to the foot of p. 407 after report 17053 (next: p. 408).
+- Batch 69: pp. 408-414 filed in ar, en and ur (reports 17054-17072): 9:84 is completed, 9:85 to 9:87 are filed in full and 9:88 is begun to the foot of p. 414 (next: p. 415).
 - Batch 51: pp. 293-299 filed in ar, en and ur (reports 16802-16809, 16810 begun): 9:52 is completed, 9:53 to 9:56 are filed in full and 9:57 is filed to the foot of p. 299 at report 16810 (next: p. 300).
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
@@ -704,6 +706,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 69: Sura al-Ra'd pp. 487-493 filed (13:39 closed, 13:40 filed, 13:41 begun). Next is the rest of 13:41 from p. 494 (marker 502).
 - Batch 70: Sura al-Ra'd pp. 494-500 filed (13:41 closed, 13:42 filed, 13:43 begun). Next is the rest of 13:43 from p. 501 (marker 509).
 - Batch 71: Sura al-Ra'd pp. 501-507 filed; SURA AL-RA'D COMPLETE (13:43 closed). Next is Sura Ibrahim (14:1) from p. 508 (marker 516).
+- Batch 72: Sura Ibrahim begun, pp. 511-517 filed (14:1 to 14:4, 14:5 begun). Next is the rest of 14:5 from p. 518 (marker 526).
+- Batch 73: Sura Ibrahim pp. 518-524 filed (14:5 closed, 14:6 begun). Next is the rest of 14:6 from p. 525 (marker 533).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
@@ -718,3 +722,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 85: pp. 470-476 filed in ar, en and ur (reports 13441-13461): 6:75 begun (the dominion of the heavens and the earth)
 - Batch 66: printed pp. 419-424 (markers 423-428) filed in ar, en and ur (reports 14599-14614): 7:38 closes at p. 419, 7:39 is filed and 7:40 is begun to the foot of p. 424 before report 14615. Marker 425 (printed 421) is partly illegible in the OCR; the 7:39 closing paragraph there follows the evident sense. Offset still marker - 4. Stop sentence at the foot. Next is report 14615 (marker 428, printed 424).
 - Batch 86: pp. 477-483 filed in ar, en and ur (reports 13461-13464): 6:75 end and 6:76 begun (Abraham and the star)
+- Batch 67: printed pp. 424-430 (markers 428-434) filed in ar, en and ur (reports 14615-14634): 7:40 filed to the foot of p. 430 after report 14634. Offset still marker - 4. Stop sentence at the foot. Next is marker 435 (printed 431), the rest of the disagreement over 'al-jummal'.
+- Batch 68: printed pp. 431-437 (markers 435-441) filed in ar, en and ur (reports 14635-14657): 7:40 completed (the reading al-jummal and al-Tabari's choice of al-jamal), 7:41 and 7:42 filed. Offset still marker - 4. Stop sentence at the foot of 7:42; 7:43 begins next.
+- Batch 87: pp. 484-490 filed in ar, en and ur (reports 13465-13467): 6:76 end, 6:77, 6:78, 6:79, 6:80 and the start of 6:81
+- Batch 88: pp. 491-497 filed in ar, en and ur (reports 13467-13486): 6:81 end and 6:82 (belief mixed with wrong, up to report 13486)
+- Batch 89: pp. 498-504 filed in ar, en and ur (reports 13487-13512): 6:82 end and 6:83 begun
