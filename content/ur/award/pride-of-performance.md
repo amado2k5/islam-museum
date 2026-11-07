@@ -15,7 +15,7 @@ translators: []
 
 ## عجائب گھر میں
 
-عجائب گھر میں اس کے حاملین میں نعت خواں [[person/khursheed-ahmad|خورشید احمد]] ہیں، جنھیں یہ 1996ء میں ملا۔ {cite:wikipedia-khursheed-ahmad-en}
+عجائب گھر میں اس کے حاملین میں قوال [[person/munshi-raziuddin|منشی رضی الدین]] (1967ء) {cite:wikipedia-munshi-raziuddin-en}، قوال [[person/aziz-mian|عزیز میاں]] (1989ء) {cite:wikipedia-aziz-mian-en}، نعت خواں [[person/khursheed-ahmad|خورشید احمد]] (1996ء) {cite:wikipedia-khursheed-ahmad-en} اور قوال [[person/fareed-ayaz|فرید ایاز]] (2006ء) ہیں۔ {cite:wikipedia-fareed-ayaz-en}
 
 ## مراجع
 

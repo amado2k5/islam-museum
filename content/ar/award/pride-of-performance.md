@@ -15,7 +15,7 @@ translators: []
 
 ## في المتحف
 
-من حَمَلته في المتحف منشد النعت [[person/khursheed-ahmad|خورشيد أحمد]]، الذي ناله في 1996. {cite:wikipedia-khursheed-ahmad-en}
+من حَمَلته في المتحف القوّال [[person/munshi-raziuddin|منشي رضي الدين]] (1967) {cite:wikipedia-munshi-raziuddin-en}، والقوّال [[person/aziz-mian|عزيز ميان]] (1989) {cite:wikipedia-aziz-mian-en}، ومنشد النعت [[person/khursheed-ahmad|خورشيد أحمد]] (1996) {cite:wikipedia-khursheed-ahmad-en}، والقوّال [[person/fareed-ayaz|فريد أياز]] (2006). {cite:wikipedia-fareed-ayaz-en}
 
 ## المراجع
 
