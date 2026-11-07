@@ -1,5 +1,11 @@
 ---
 id: invention/tiraz
+status: { review: published }
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of Arabic additions from directly reread TDV TIRÂZ, pp.112–114; original prose preserved."
 lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
@@ -28,9 +34,17 @@ The TDV encyclopedia places the same turn on cloth. It says that Abd al-Malik wr
 Abd al-Malik ibn Marwan was the Umayyad caliph who ordered the change; the record names him as the one who commissioned it, not as a weaver. Before the caliphate, according to Ibn Sa'd, he was a devout worshipper in Medina, and [[person/abu-al-zinad|Abu al-Zinad]] counted him among the jurists of Medina {cite:tarikh-khulafa-minhaj-1434 p. 356}. His advisor in the affair was Khalid ibn Yazid ibn Mu'awiya, and Egypt, where the papyrus and the cloth were made, was governed by his brother Abd al-Aziz {cite:futuh-buldan-maarif-1407 p. 336} {cite:tdv-tiraz pp. 112–114}. The weavers themselves are not named in the sources.
 
 ## How it works
+In its account of later Fatimid institutions, TDV distinguishes dar al-tiraz, where cloth was woven, from dar al-kiswa, where it was cut and sewn, and khizanat al-kiswa, where completed clothing was stored {cite:tdv-tiraz pp. 112–114}. This is not an established arrangement for Abd al-Malik's workshops: the later example separates weaving, making clothing and storage, so every establishment name need not identify the same production stage {cite:tdv-tiraz pp. 112–114}. Iranian workshop terms included tirazkhana and kargah, while cloth carrying tiraz could be called mutarraz: the vocabulary moves among inscription, supporting fabric and workplace {cite:tdv-tiraz pp. 112–114}.
+
+These distinctions help read a museum fragment: its remaining band may no longer preserve the original garment, and the official named is not necessarily its copyist or weaver; the encyclopedia says many inscriptions name the ruler and responsible official, while few name the maker {cite:tdv-tiraz pp. 112–114}. Some give only a title rather than a personal name, allowing a different degree of attribution from a band naming a person and production city {cite:tdv-tiraz pp. 112–114}. Color and calligraphic beauty alone cannot identify a date or maker without reading the text and studying the material.
+
+The article also records tiraz terminology applied to inscription bands on stone, metal, wood and mosaic {cite:tdv-tiraz pp. 112–114}. This is an affinity of terminology and written function, not a claim that every stone band came from a loom or state textile office; the present record concerns the development of writing on official cloth, while the linguistic extension explains how a decorative inscription term crossed materials {cite:tdv-tiraz pp. 112–114}.
+
 The tiraz was produced in workshops attached to the rulers' palaces, called houses of tiraz. The man in charge of them, the sahib al-tiraz, oversaw the dyers, the tools and the weavers, saw to their pay and their equipment and supervised their work, and the post was given to the leading men of the state and its trusted clients {cite:muqaddima-ibn-khaldun p. 256}. The pieces made for rulers were prepared with great care, sealed, and presented to the caliph by the head of the tiraz {cite:tdv-tiraz pp. 112–114}.
 
 ## The spread
+TDV, citing Hilal al-Sabi, identifies Ahwaz, Tustar, Jahram and Darabjird among cities with tiraz establishments {cite:tdv-tiraz pp. 112–114}. Those names specify places beyond a general reference to Persia, but the passage does not date every workshop's opening or trace movement of craftspeople; multiple sites describe a production network, not the itinerary of one fabric {cite:tdv-tiraz pp. 112–114}. This remains the encyclopedia's account of al-Sabi, whose original page was not independently checked for this addition.
+
 The houses of tiraz spread with the Abbasids: the testament of [[person/harun-al-rashid|Harun al-Rashid]] mentions a tiraz workshop, and the existence of a diwan of tiraz shows how much the state valued it from an early date {cite:tdv-tiraz pp. 112–114}. Ibn Khaldun names the Umayyads of al-Andalus, the party kings after them and the Ubaydids in Egypt as keepers of the office, and says that it lapsed in most states as they shrank {cite:muqaddima-ibn-khaldun p. 256}. In al-Andalus the first tiraz garment was worn in the time of Abd al-Rahman II, and Almeria, Murcia, Seville, Granada and Malaga became leading centres; workshops also existed in Fars, the Jazira, Iraq and Yemen {cite:tdv-tiraz pp. 112–114}.
 
 ## What it was built on
