@@ -498,6 +498,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 71: pp. 534-540 filed in ar, en and ur (reports 16067-16083): 8:36 closes, 8:37 and 8:38 filed in full, 8:39 begun; stop sentence at the foot of p. 540 in the middle of report 16083 (next: p. 541).
 - Batch 72: pp. 541-546 filed in ar, en and ur (reports 16083-16089): 8:39 closes at p. 544, 8:40 filed in full, 8:41 begun; stop sentence at the foot of p. 546 before al-Tabari's explanation of fay' (next: p. 547).
 - Batch 73: pp. 547-552 filed in ar, en and ur (reports 16090-16105): 8:41 continues; stop sentence at the foot of p. 552 after report 16105 (next: p. 553).
+- Batch 74: pp. 553-558 filed in ar, en and ur (reports 16106-16126): 8:41 continues; stop sentence at the foot of p. 558 after report 16126 (next: p. 559).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
