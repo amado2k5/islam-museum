@@ -1,0 +1,31 @@
+id: work/sublime-quran-bakhtiar
+class: work
+kind: book
+label: { ar: "القرآن السامي ⁦(ليلى بختيار)⁩", en: "The Sublime Quran (Laleh Bakhtiar)", ur: "دی سبلائم قرآن ⁦(لیلیٰ بختیار)⁩" }
+summary:
+  ar: "ترجمة إنجليزية لمعاني القرآن وضعتها الأمريكية الإيرانية ليلى بختيار ونُشرت سنة 2007، على منهج تقول إنه قائم على فهرس للجذور اللغوية العربية، دون حواشٍ ولا تفسير، وبكلمة God بدل اسم الجلالة؛ اشتهرت بطريقتها في ترجمة آية من سورة النساء في معاملة الزوجة، ولقيت ثناءً ونقدًا بقدر متقارب، ومنه نقد خالد أبو الفضل لعلمها بالعربية، وأعادت بختيار نشر نصها في صور مختلفة حتى 2016، وتوفيت سنة 2020."
+  en: "An English rendering of the meanings of the Qur'an by the Iranian-American Laleh Bakhtiar, published in 2007, on what she called a concordance-based method resting on Arabic word roots, without notes or commentary, and using 'God' for the divine name; best known for her rendering of a verse of Surat al-Nisa' on the treatment of a wife, it met acclaim and criticism in almost equal measure, including Khaled Abou El Fadl's doubts about her Arabic, and Bakhtiar republished the text in several forms up to 2016; she died in 2020."
+  ur: "قرآن کے معانی کا انگریزی ترجمہ از ایرانی امریکی لیلیٰ بختیار، جو 2007 میں شائع ہوا، اس طریقے پر جسے وہ عربی جڑوں کے اشاریے پر مبنی کہتی تھیں، بغیر حواشی اور تفسیر کے، اور اللہ کے نام کے لیے God کے لفظ کے ساتھ؛ سورۃ النساء کی ایک آیت میں بیوی سے سلوک کے ترجمے سے مشہور ہوا، تعریف اور تنقید تقریباً برابر ملی، جن میں خالد ابو الفضل کا ان کی عربی پر اعتراض بھی ہے؛ بختیار نے 2016 تک یہ متن کئی صورتوں میں دوبارہ شائع کیا، اور 2020 میں وفات پائی۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission, women]
+regions: [americas-oceania]
+genre: [quran-translation]
+authors: [person/laleh-bakhtiar]
+language: language/english
+publisher: listing/kazi-publications
+composed: { edtf: "2007", hijri: "1428", calendar: gregorian, precision: year, status: historical, derived: true, note: "First published in early 2007 by Kazi Publications, Chicago. The Gregorian year 2007 falls mostly in 1428 AH; the Hijri year is converter-derived.", sources: [source/gloqur-bakhtiar-sublime-quran, source/thenational-kazi-publications] }
+editions:
+  - "The Sublime Quran. Chicago: Kazi Publications, early 2007 (first edition); the English-only edition is the most readily available"
+  - "The Quranic Sunnah of Prophet Muhammad, 2015 (the verses addressed to the Prophet, extracted from the same translation)"
+  - "The Chronological Quran as Revealed to Prophet Muhammad, 2016 (the same text in an order of revelation)"
+  - "Critical Thinking and the Chronological Quran, 2016, a thirty-volume series"
+relations:
+  - { type: translation_of, target: work/quran, sources: [source/gloqur-bakhtiar-sublime-quran] }
+sources: [source/gloqur-bakhtiar-sublime-quran, source/thenational-kazi-publications]
+provenance:
+  layer: own-research
+  source: "GloQur post #157 (Sheam Khan, 19 May 2023) and David Lepeska's report on Kazi Publications in The National (about 2011), read in full in Chrome on the founder's Mac on 6 November 2026, for every fact of the record and its prose; no Wikipedia article or Wikidata item for the book itself was found (searched 6 November 2026)."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b02
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
