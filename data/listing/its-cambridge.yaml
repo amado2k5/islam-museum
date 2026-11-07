@@ -1,30 +1,30 @@
 id: listing/its-cambridge
 class: listing
 kind: publisher
-label:
-  ar: الجمعية الإسلامية للنصوص
-  en: Islamic Texts Society
+label: { ar: "جمعية النصوص الإسلامية", en: "Islamic Texts Society", ur: "اسلامک ٹیکسٹس سوسائٹی" }
 summary:
-  ar: دار نشر بريطانية متخصصة في التراث الصوفي والكلاسيكيات الإسلامية؛ أسسها تيم وينتر ⁦(عبد الحكيم مراد)⁩.
-  en: Islamic Texts Society.
-wings: [made]
-categories:
-- books
-regions:
-- andalus-europe
-founded:
-  edtf: '1981'
-  calendar: gregorian
-  precision: year
-made:
-  by_muslims: true
-  basis: documented
-  sources: &id001
-  - source/wikidata
-external_ids:
-  wikidata: Q15999872
-sources: *id001
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  ar: "دار نشر بريطانية في كامبريدج مسجلة جمعية خيرية تعليمية، أسستها سنة 1981 جماعة من العلماء منهم عائشة غراي هنري، تنشر كتبًا أكاديمية وعامة عن الإسلام، منها سيرة النبي لمارتن لينغز، وسلسلة الغزالي التي نال مجلدان منها جائزة التصميم والإنتاج البريطانية في 1991 و1993، وسلسلة الحقوق والحريات الأساسية في الإسلام لمحمد هاشم كمالي."
+  en: "A British publishing house in Cambridge, registered as an educational charity, founded in 1981 by a group of scholars including Aisha Gray Henry; it publishes academic and general books on Islam, among them Martin Lings's biography of the Prophet, the Ghazali Series, two volumes of which won the British Book Design and Production Award in 1991 and 1993, and Mohammad Hashim Kamali's Fundamental Rights and Liberties in Islam series."
+  ur: "کیمبرج کا برطانوی اشاعتی ادارہ، جو تعلیمی خیراتی ادارے کے طور پر رجسٹرڈ ہے، 1981 میں علما کی ایک جماعت نے قائم کیا جن میں عائشہ گرے ہنری شامل تھیں؛ اسلام پر علمی اور عمومی کتابیں شائع کرتا ہے، جن میں مارٹن لنگز کی سیرت، غزالی سلسلہ، جس کی دو جلدوں نے 1991 اور 1993 میں برطانوی کتاب ڈیزائن و پروڈکشن انعام جیتا، اور محمد ہاشم کمالی کا بنیادی حقوق و آزادیوں کا سلسلہ ہیں۔"
+wings: [made, today]
+categories: [books]
+themes: [translation-and-transmission, libraries-paper-and-the-book]
+regions: [andalus-europe]
+founded: { edtf: "1981", hijri: "1401", calendar: gregorian, precision: year, status: historical, derived: true, note: "The Gregorian year 1981 runs from Safar 1401 to Safar 1402 AH; the Hijri year is converter-derived.", sources: [source/wikipedia-islamic-texts-society-en] }
+status_business: active
+location: { address: { ar: "كامبريدج، المملكة المتحدة", en: "Cambridge, United Kingdom", ur: "کیمبرج، برطانیہ" }, serves: [global] }
+links: { official: "https://www.its.org.uk" }
+languages: [en]
+made: { by_muslims: false, basis: unverified }
+footprint:
+  wikipedia: { languages: [ar, de, en, lt, ur], checked: "2026-11-06", sources: [source/wikipedia-islamic-texts-society-en] }
+  wikidata: "Q15999872"
+external_ids: { wikidata: "Q15999872" }
+sources: [source/wikipedia-islamic-texts-society-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Islamic Texts Society' (revision 1383949552) for the facts it cites, read in Chrome on the founder's Mac on 6 November 2026. Enriches the listings-lane draft card (Devin, 16 October 2026) in place; made is recorded as unverified because no source reached states the founders' faith."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

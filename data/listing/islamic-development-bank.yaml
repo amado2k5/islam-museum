@@ -3,28 +3,113 @@ class: listing
 kind: company
 label:
   ar: البنك الإسلامي للتنمية
-  en: Islamic Development Bank
+  en: Islamic Development Bank (IsDB)
+  ur: اسلامی ترقیاتی بینک
 summary:
-  ar: بنك تنمية متعدد الأطراف تابع لمنظمة التعاون الإسلامي؛ تأسس 1975 في جدة.
-  en: Islamic Development Bank.
-wings: [made]
+  ar: مؤسسة تمويل إنمائي متعددة الأطراف مقرها جدة، تركز على التمويل الإسلامي لتنمية البنية التحتية؛ أُسست سنة 1973 وبدأت نشاطها
+    في 3 أبريل 1975، ولها 57 دولة عضوا أكبرها حصة السعودية، وضاعفت رأس مالها المرخص به ثلاث مرات إلى 150 مليار دولار سنة 2013.
+  en: A multilateral development finance institution in Jeddah focused on Islamic finance for infrastructure development;
+    founded in 1973, it began operating on 3 April 1975, has 57 member states with Saudi Arabia the largest shareholder, and
+    tripled its authorised capital to US$150 billion in 2013.
+  ur: جدہ میں قائم کثیر الفریقی ترقیاتی مالیاتی ادارہ جو بنیادی ڈھانچے کے لیے اسلامی مالیات پر مرکوز ہے؛ 1973 میں قائم ہوا
+    اور 3 اپریل 1975 سے کام کر رہا ہے؛ 57 رکن ملک ہیں، اور 2013 میں اس نے اپنا منظور شدہ سرمایہ تین گنا کر کے 150 ارب ڈالر
+    کیا۔
+wings:
+- made
+- today
 categories:
 - finance
 regions:
-- arabia
+- global
+- arab-world
 founded:
-  edtf: '1975'
+  edtf: '1975-04-03'
+  hijri: '1395-03-21'
   calendar: gregorian
-  precision: year
+  precision: day
+  status: historical
+  derived: true
+  note: Founded 1973 at the first OIC finance ministers' conference; began its activities on 3 April 1975 (as cited by the
+    article). The Hijri date is converter-derived. The record enters the browser through its dated facts from 1976 on.
+  sources:
+  - source/wikipedia-islamic-development-bank-en
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/wikidata
+  sources:
+  - source/wikipedia-islamic-development-bank-en
 external_ids:
   wikidata: Q41230
-sources: *id001
+sources:
+- source/wikipedia-islamic-development-bank-en
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - global
+links:
+  official: https://www.isdb.org
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - ast
+    - az
+    - ba
+    - bn
+    - ca
+    - de
+    - en
+    - es
+    - eu
+    - fa
+    - fi
+    - fr
+    - hi
+    - hr
+    - hy
+    - id
+    - it
+    - ja
+    - ka
+    - kk
+    - ko
+    - lt
+    - ms
+    - nl
+    - 'no'
+    - pl
+    - pt
+    - ru
+    - sr
+    - sv
+    - sw
+    - ta
+    - tg
+    - tr
+    - uk
+    - ur
+    - uz
+    - vi
+    - zh
+    - zh-yue
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-islamic-development-bank-en
+  wikidata: Q41230
+provenance:
+  layer: own-research
+  source: English Wikipedia "Islamic Development Bank" (revision 1383396265, 2 November 2026), read in Chrome on the founder's
+    Mac on 6 November 2026; Wikidata sitelinks read the same day; the Belarusian (Taraškievica) sitelink is not listed, its
+    code being outside the schema pattern; the existing Wikidata-only draft (Devin, listings lane, 16 October 2026) was enriched
+    in place
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b04

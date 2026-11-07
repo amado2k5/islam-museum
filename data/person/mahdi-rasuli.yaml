@@ -1,0 +1,38 @@
+id: person/mahdi-rasuli
+class: person
+names:
+  - { kind: full, value: "مهدی رسولی" }
+  - { kind: full, value: "Mahdi Rasouli" }
+  - { kind: alternate, value: "Mehdi Rasouli" }
+label: { ar: "مهدي رسولي", en: "Mahdi Rasouli", ur: "مہدی رسولی" }
+summary:
+  ar: "مدّاح إيراني من زنجان، وُلد فيها سنة 1988 ويرأس هيئة ثار الله فيها، ويقرأ بالفارسية والعربية والتركية الأذرية؛ وصفه موقع «ميدل إيست آي» بأنه من أبرز المنشدين الدينيين في إيران، وبلغ حسابه الموثّق على إنستغرام 1,546,790 متابعًا في نوفمبر 2026 عند قراءته على المنصة."
+  en: "Iranian maddah (eulogist) from Zanjan, born there in 1988, who leads the city's Tharallah hey'at and recites in Persian, Arabic and Azerbaijani Turkish; Middle East Eye has described him as among the most prominent religious singers in Iran, and his verified Instagram account counted 1,546,790 followers in November 2026 when read on the platform."
+  ur: "زنجان سے تعلق رکھنے والے ایرانی مداح، جو 1988ء میں وہیں پیدا ہوئے اور شہر کی ہیئت ثاراللہ کے سربراہ ہیں؛ وہ فارسی، عربی اور آذربائیجانی ترکی میں پڑھتے ہیں، اور ان کے تصدیق شدہ انسٹاگرام اکاؤنٹ کے فالوور نومبر 2026ء میں پلیٹ فارم پر پڑھنے پر 1,546,790 تھے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia's lead calls him 'an Iranian maddah (Shia religious eulogist)', and Arabic Wikipedia's lead calls him an 'Iranian Shia religious singer' (منشد ديني شيعي إيراني), with الشيعة (Shia) also in its infobox. The Arabic article closely mirrors the English article in structure, ordering and content and reads as its translation, so under this lane's rule the two are one attesting family, not two independent texts; and in both, the Shia wording attaches to his profession — a maddah is a professional eulogist, and profession never counts. Persian Wikipedia, independently authored, calls him only a 'maddah of the Ahl al-Bayt' (مداح اهل بیت) and attests no school. His faith therefore stays unknown, with the readings preserved here."
+    sources: [source/wikipedia-mahdi-rasouli-en, source/wikipedia-mahdi-rasouli-ar, source/wikipedia-mahdi-rasouli-fa]
+roles: [munshid]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1988-08-03"
+  hijri: "1408"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Zanjan, Iran, on 3 August 1988: Persian Wikipedia gives the date as 12 Mordad 1367 of the Persian calendar, which converts to 3 August 1988, and English Wikipedia gives the year 1988 and the city of Zanjan. Hijri year 1408 derived from the Gregorian date."
+  sources: [source/wikipedia-mahdi-rasouli-fa, source/wikipedia-mahdi-rasouli-en]
+relations:
+  - { type: born_in, target: place/zanjan, sources: [source/wikipedia-mahdi-rasouli-fa, source/wikipedia-mahdi-rasouli-en] }
+sources: [source/wikipedia-mahdi-rasouli-en, source/wikipedia-mahdi-rasouli-fa, source/wikipedia-mahdi-rasouli-ar, source/instagram-mahdirasuli-ir, source/instagram-mahdirasuoli-ir, source/instagram-mahdirasouli-info]
+provenance:
+  layer: own-research
+  source: "The wave-194 harvest entry (Mahdi Rasuli, Iran; Instagram, harvest reach 696,633 on the tracked page @mahdirasuoli.ir), researched against the English, Persian and Arabic Wikipedia articles and three Instagram profiles in his name, all read in full on 7 November 2026. HANDLE RESOLUTION: three accounts in his name were read on the platform on 7 November 2026 — @mahdirasuli_ir (verified, creator account, 1,546,790 followers, external link to a link page named MahdiRasouliOfficial; the handle his own official YouTube channel description names as his Instagram page), @mahdirasuoli.ir (unverified business account, 731,107 followers; the harvest's tracked page, 696,633 at the instastatistics crawl of about April 2026) and @mahdirasouli.info (unverified, 229,667 followers; a pointer page to his channels). The record is built on the verified @mahdirasuli_ir alone; the counts are never added together, and the discrepancy with the harvest's tracked page is recorded here and in the variant sources. Dated ranking screenshots in the harvest put a Rasuli page at about 994K–1M in March–May 2025 under variant spellings, consistent with the verified account's present size. No Wikidata item was verified by opening an item in this run (searches surfaced no item), so no wikidata id is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-194"
+status: { review: published, completeness: 2 }
