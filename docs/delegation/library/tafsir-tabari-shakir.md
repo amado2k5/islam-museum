@@ -389,6 +389,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 32: pp. 265-270 filed in ar, en and ur (reports 15422-15433): verse 176 continues (the end of the Bal'am story, 'We would have raised him', the root sense of 'akhlada'); stop sentence at the foot of p. 270 after the verse of Malik ibn Nuwayra (next: p. 271).
 - Batch 33: pp. 271-279 filed in ar, en and ur (reports 15434-15449): verse 176 closes at p. 275, verses 177 and 178 are filed in full and verse 179 is begun at p. 276; stop sentence at the foot of p. 279 after the poetic witnesses (next: p. 280).
 - Batch 34: pp. 280-286 filed in ar, en and ur (reports 15450-15460): verse 179 closes at p. 281, verses 180 and 181 are filed in full and verse 182 is begun at p. 286; stop sentence at the foot of p. 286 at 'until he reaches the end that was written for him of' (next: p. 287).
+- Batch 35: pp. 287-293 filed in ar, en and ur (reports 15461-15464): verse 182 closes at p. 287, verses 183 to 186 are filed in full and verse 187 is begun at p. 291; stop sentence at the foot of p. 293 at the start of report 15465 (next: p. 294).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
