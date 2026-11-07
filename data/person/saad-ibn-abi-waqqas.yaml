@@ -40,6 +40,7 @@ relations:
   - { type: participated_in, target: event/battle-of-uhud, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-qadisiyya, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: lived_in, target: place/kufa, note: "Founded and governed the garrison city of Kufa under Umar's orders.", sources: [source/tabari-donner-1993] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
 external_ids:
   wikidata: Q380184
 sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/sahih-al-bukhari, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-muslim, source/ibn-hajar-isaba, source/assabile-omar-abdelkafy, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar]

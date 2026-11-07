@@ -13,6 +13,8 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+relations:
+ - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
 external_ids:
   wikidata: Q12216184
 provenance:
