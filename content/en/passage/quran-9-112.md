@@ -41,5 +41,3 @@ Report 17319 is from Ibn Abbas: those who stand by obedience to God; 17320 from 
 "Give glad tidings to the believers" means: to those who affirm what God promised, that if they keep His covenant He will keep His promise to admit them to Paradise. Report 17322 is from al-Hasan, who recited the verse and said these are people who kept their pledge, that this was their conduct in ease, and that they then met the enemy and were true to their covenant. Some said it means give glad tidings to whoever does these things even if he did not fight; report 17323 is from al-Hasan: those who did not fight. {cite:tafsir-tabari-shakir-v14 p. 508}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
-
-These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
