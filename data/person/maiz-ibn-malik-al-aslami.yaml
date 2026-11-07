@@ -20,6 +20,7 @@ relations:
   - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
   - { type: lived_in, target: place/medina, sources: [source/istiab-alam-2002] }
   - { type: related_to, target: concept/al-rajm, note: "اعترف على نفسه بالزنى تائباً وكان محصناً فرجم {cite:istiab-alam-2002 p. 686}", sources: [source/istiab-alam-2002] }
+  - { type: member_of, target: group/sahaba, sources: [source/istiab-alam-2002] }
 provenance:
   layer: own-research
   source: "al-Isti'ab (Dar al-A'lam 2002) p. 686, entry 2407 with the editor's note"
