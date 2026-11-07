@@ -413,6 +413,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Second half, batch 12: pp. 545-551 filed in ar, en and ur (reports 12441-12481): 5:89 continues with the clothing; stop at the foot of p. 551 in al-Tabari's choice (next: the rest of 5:89 from p. 552).
 - Second half, batch 13: pp. 552-558 filed in ar, en and ur (reports 12482-12495): 5:89 continues with freeing a slave and the start of the fast; stop at the foot of p. 558 in the views on 'cannot find' (next: the rest of 5:89 from p. 559).
 - Second half, batch 14: pp. 559-565 filed in ar, en and ur (reports 12496-12511): 5:89 closes, 5:90 filed in full, 5:91 begun; stop at the foot of p. 565 (next: the rest of 5:91 from p. 566).
+- Second half, batch 15: pp. 566-572 filed in ar, en and ur (reports 12512-12523): 5:91 continues; stop at the foot of p. 572 after report 12523 (next: the rest of 5:91 from p. 573).
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 11327-11336): verse 6 continues.
 - Batch 3: pp. 21-27 filed in ar, en and ur (reports 11337-11354): verse 6 continues.
