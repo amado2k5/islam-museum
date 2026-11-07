@@ -721,6 +721,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: Sura Ibrahim pp. 553-559 filed (14:18 closed, 14:19-20 filed, 14:21 begun). Next is the rest of 14:21 from p. 560 (marker 568).
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
+- Batch 79: Sura Ibrahim pp. 560-566 filed (14:21 closed, 14:22 filed, 14:23-25 begun). Next is the parable of the good word, 14:24-25, from p. 567 (marker 575).
 - Batch 79: pp. 428-434 filed in ar, en and ur (reports 13374-13380): 6:65 end, 6:66 and the start of 6:67
 - Batch 64: printed pp. 405-411 (markers 409-415) filed in ar, en and ur (reports 14554-14577): 7:35 closes at p. 407, 7:36 is filed and 7:37 is begun to the foot of p. 411 before report 14578. Offset still marker - 4. Stop sentence at the foot. Next is report 14578 (marker 415, printed 411), then the third view (what they were promised), marker 416 onwards.
 - Batch 80: pp. 435-441 filed in ar, en and ur (reports 13381-13402): 6:67 end, 6:68, 6:69 and the start of 6:70
