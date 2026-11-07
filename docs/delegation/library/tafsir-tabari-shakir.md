@@ -226,4 +226,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 22: pp. 420-426 filed in ar, en and ur (reports 10855-10857): verse 171 closes at p. 424, verse 172 is filed to p. 425, and verse 173 is begun at p. 426.
 - Batch 23: pp. 427-431 filed in ar, en and ur (reports 10858-10865): verses 173 to 175 are filed in full, and verse 176 is begun at p. 430.
 - Batch 24: pp. 434-437 filed in ar, en and ur (reports 10871-10877): verse 176 is filed to report 10877 at p. 437.
-- Progress: current report 10877, printed p. 437 (reports 10866 to 10877 are all filed). Next is report 10878, the rest of verse 176 from printed p. 437 on.
+- Batch 25: pp. 438-444 filed in ar, en and ur (reports 10878-10890): verse 176 is filed to the foot of p. 444.
+- Progress: current report 10890, printed p. 442. Next is the rest of verse 176 from printed p. 445 on.
