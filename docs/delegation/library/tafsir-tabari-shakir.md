@@ -279,6 +279,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 9: pp. 63-69 filed in ar, en and ur (reports 11495-11512): verse 6 continues.
 - Batches 10-13: pp. 70-96 filed in ar, en and ur (reports 11512-11556): verse 6 closes at p. 90, verse 7 is filed in full (pp. 91-94), verse 8 is begun at p. 95; next is the rest of 5:8 from p. 96.
 - Batch 14: pp. 97-103 filed in ar, en and ur (reports 11556-11562): verse 8 closes at p. 97, verses 9 and 10 are filed in full, verse 11 is begun at p. 100; next is report 11562 (Ikrima) at the foot of p. 103.
+- Batches 15-17: pp. 104-124 filed in ar, en and ur (reports 11562-11583): verse 11 closes at p. 108, verse 12 is filed in full to p. 124; next is verse 13 from p. 125.
 
 - Batch 2 (pp. 14-34, three sub-batches in one PR): reports 14909-14956 filed in ar, en and ur; verses 105 to 123 are filed in full and verse 124 is begun (report 14956). Next is the rest of 7:124 from the foot of p. 34 (printed p. 35).
 - Batch 3: pp. 35-42 filed in ar, en and ur (reports 14957-14972): verses 124 to 127 are filed in full and verse 128 is begun (report 14972). Next is the rest of 7:128 from the foot of p. 42 (printed p. 43).
@@ -331,6 +332,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 16: pp. 138-144 filed in ar, en and ur (reports 15152-15164): verse 154 closes at p. 139 and verse 155 is filed to the foot of p. 144 (the Basra grammarian on the accusative of 'qawmahu sab'ina rajulan'). Next is the rest of 7:155 from printed p. 145.
 - Batch 17: pp. 145-151 filed in ar, en and ur (reports 15165-15174): verse 155 is filed to the foot of p. 151 (the meaning of 'it is only Your trial'). Next is 'by it You lead astray whom You will' and the rest of 7:155 from printed p. 152.
 - Batch 18: pp. 152-158 filed in ar, en and ur (reports 15175-15208): verse 155 closes at p. 152 and verse 156 is filed to the foot of p. 158 (report 15208 from Ibn Abbas, mid-report). Next is the rest of 7:156 from printed p. 159.
+- Batch 19: pp. 159-165 filed in ar, en and ur (reports 15208-15228): verse 156 closes at p. 160 and verse 157 is filed to the foot of p. 165 (after 'forbids them the foul things'). Next is the reports on the foul things from printed p. 166.
+- Batch 20: pp. 166-172 filed in ar, en and ur (reports 15229-15249): verses 157 and 158 are filed in full and verse 159 is begun at p. 172. Next is the description of the community of Moses' people in 7:159 from printed p. 173.
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
@@ -349,6 +352,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 
 - Batch 16: pp. 126-132 filed in ar, en and ur (reports 12828-12843): verse 5:103 continues; stop at the foot of p. 132 at the start of report 12843 (next: p. 133).
 
+- Batch 17: pp. 133-139 filed in ar, en and ur (reports 12843-12851): verse 5:103 closes at p. 136, 5:104 is filed in full, and 5:105 is filed to the foot of p. 139 after report 12851 (next: p. 140, report 12852).
+
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
-- Batch 17: pp. 133-139 filed in ar, en and ur (reports 12843-12851): verse 5:103 closes at p. 136, 5:104 is filed in full, and 5:105 is filed to the foot of p. 139 after report 12851 (next: p. 140, report 12852).
