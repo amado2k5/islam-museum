@@ -1,0 +1,39 @@
+id: work/islam-story
+class: work
+kind: website
+label:
+  ar: "قصة الإسلام ⁦(موقع)⁩"
+  en: "Islam Story (islamstory.com)"
+  ur: "قصۃ الاسلام ⁦(ویب سائٹ)⁩"
+summary:
+  ar: "موقع تاريخ إسلامي يشرف عليه الداعية والمؤرخ المصري راغب السرجاني، يعرض التاريخ والسيرة والحضارة الإسلامية من السيرة النبوية إلى العصر الحديث في مقالات ودراسات وكتب وصوتيات ومرئيات وخرائط، مع تراجم ومعلومات عن بلدان العالم الإسلامي المعاصرة، بالعربية وعدة لغات أخرى."
+  en: "An Islamic history site supervised by the Egyptian preacher and historian Ragheb el-Sergani, presenting Islamic history, the Sira and civilisation from the Prophet's life to modern times in articles, studies, books, audio, video and maps, with biographies and information on today's Muslim countries, in Arabic and several other languages."
+  ur: "اسلامی تاریخ کی سائٹ جس کی نگرانی مصری داعی اور مؤرخ راغب السرجانی کرتے ہیں؛ سیرت سے جدید دور تک اسلامی تاریخ اور تہذیب کو مضامین، دراسات، کتابوں، صوتیات، ویڈیو اور نقشوں میں، تراجم اور معاصر مسلم ممالک کی معلومات کے ساتھ، عربی اور کئی دوسری زبانوں میں پیش کرتی ہے۔"
+wings: [words, today]
+url: "https://islamstory.com"
+launched:
+  edtf: "2006-04-14/"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "No launch date in a source read; the first archived capture titled 'Islam Story' is of 14 April 2006 (the domain showed a 'coming soon' page before), and the first naming Ragheb el-Sergani as supervisor of 3 September 2006. The open interval records that the site existed by then."
+  sources: [source/wayback-islamstory-2006]
+archive_url: "https://web.archive.org/web/20060414024458/http://islamstory.com/"
+languages: [ar, en, es, pt, fr, zh, id]
+content_type: education
+relations:
+  - { type: founded_by, target: person/ragheb-al-sergani, note: "creator, owner and supervisor, as the infobox and the site's description give it", sources: [source/wikipedia-islam-story-ar] }
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-07", sources: [source/wikidata-islam-story] }
+  wikidata: "Q12246328"
+external_ids:
+  wikidata: Q12246328
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-islam-story-ar] }
+sources: [source/wikipedia-islam-story-ar, source/wayback-islamstory-2006, source/wikidata-islam-story]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «قصة الإسلام ⁦(موقع)⁩» (revision 71512363, 26 July 2025) and Wikidata Q12246328, read in Chrome on the founder's Mac on 7 November 2026; the Internet Archive captures of islamstory.com from 2002 to 2007 read the same day"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b08
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
