@@ -316,8 +316,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 17: pp. 145-151 filed in ar, en and ur (reports 15165-15174): verse 155 is filed to the foot of p. 151 (the meaning of 'it is only Your trial'). Next is 'by it You lead astray whom You will' and the rest of 7:155 from printed p. 152.
 - Batch 18: pp. 152-158 filed in ar, en and ur (reports 15175-15208): verse 155 closes at p. 152 and verse 156 is filed to the foot of p. 158 (report 15208 from Ibn Abbas, mid-report). Next is the rest of 7:156 from printed p. 159.
 
-## Volume 11 progress
-- Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
+- Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
 ## Volume 15 progress
 - Volume 15 (`waqtaftab-taftab15`, 640 markers): the title page (marker 2) names Surat Yunus 1-109, Hud 1-123 and Yusuf 1-18 and reports 17518 to 18879; markers 1-8 are cover, blank and a printed invocation, and the commentary starts on marker 9 (10:1). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v15 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v15`.
@@ -330,3 +329,6 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 7: pp. 49-55 filed in ar, en and ur (reports 17592-17598): 10:21 to 10:23 are filed in full (the ship in the storm, the readings of 'yusayyirukum' and 'mata'') and 10:24 is begun (the likeness of the rain and plants) to the foot of p. 55. Next is the rest of 10:24 from p. 56.
 - Batch 8: pp. 56-62 filed in ar, en and ur (reports 17599-17609): 10:24 closes at p. 59, 10:25 is filed in full (the banquet reports with the editor's notes on chains) and 10:26 is begun (the best reward and the 'more') to the foot of p. 62. Next is the list of those who said the 'more' is looking on God, from p. 63.
 - Batch 9: pp. 62-69 filed in ar, en and ur (reports 17610-17636): 10:26 is filed to the foot of p. 69 (the 'more' as looking upon God, and the pearl-chamber report). Next is p. 70.
+
+## Volume 11 progress
+- Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
