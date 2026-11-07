@@ -1,0 +1,95 @@
+id: invention/jazari-animal-scoop-water-lifter
+class: invention
+label:
+  ar: "رافعة الجزري ذات المغرفة العاملة بالطاقة الحيوانية"
+  en: "Al-Jazari's animal-powered scoop water-lifter"
+  ur: "جزری کا حیوانی طاقت سے چلنے والا مغرفہ آب کش"
+names:
+  - { value: "Waterwheel worked by donkey power, folio 55.121.11", kind: alternate, lang: en }
+summary:
+  ar: "وصف في الباب V.4 لرافعة ماء يديرها حيوان، يحرك فيها محور مسنن دبوساً داخل شق ساق المغرفة فيرفعها ويخفضها؛ لا ادعاء بأسبقية عالمية {cite:jazari-hill-1974 pp.184–185}."
+  en: "Chapter V.4 describes an animal-powered water lifter in which geared rotation moves a pin within the ladle stem's slot, raising and lowering the scoop; no world-priority claim {cite:jazari-hill-1974 pp.184–185}."
+  ur: "باب V.4 میں حیوانی طاقت والے آب کش کا بیان ہے؛ گیئر کی گردش مغرفے کے ڈنڈے کی درز میں پن چلا کر اسے اٹھاتی اور نیچے کرتی ہے؛ عالمی اوّلیت کا دعویٰ نہیں {cite:jazari-hill-1974 pp.184–185}۔"
+domain: water-agriculture
+kind: device
+disciplines: [engineering]
+wings: [objects, ideas]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1204/1206"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Documentary horizon for the book, not a build date: Hill's introduction gives 1204 or 1206 from manuscript differences and TDV gives 1205. The broad AH 600–603 range is a derived tabular conversion of the full Julian 1204–1206 range, not a source-attested Hijri date."
+    sources: [source/jazari-hill-1974, source/tdv-cezeri]
+  status_today: replaced
+origin:
+  place: place/amid
+  polity: polity/artuqid-dynasty
+  context:
+    ar: "سياق خدمة الجزري للأرتقيين بآمد، لا موقع ورشة أو آلة منصوبة ثبت لهذه الرافعة {cite:tdv-cezeri pp.505–506}."
+    en: "Al-Jazari's Artuqid-service context at Amid, not a documented workshop or installation site for this lifter {cite:tdv-cezeri pp.505–506}."
+    ur: "آمد میں جزری کی ارتقی خدمت کا سیاق، اس آب کش کی ثابت شدہ ورکشاپ یا تنصیب کا مقام نہیں {cite:tdv-cezeri pp.505–506}۔"
+makers:
+  - { person: person/al-jazari-engineer, role: improver, place: place/amid, sources: [source/jazari-hill-1974, source/tdv-cezeri] }
+attribution:
+  status: improvement
+  claim:
+    ar: "تركيب محدد يدمج دوراناً حيوانياً وآلية ذات شق لرفع الماء بمغرفة، كما وصفه كتاب الجزري؛ لا ننسب إليه كل عنصر أو أسبقية عالمية."
+    en: "A specific design integrating animal-powered rotation and a slotted mechanism to lift water with a scoop, as described in al-Jazari's book; no priority for every part or worldwide first is claimed."
+    ur: "جزری کی کتاب میں بیان کردہ ایک مخصوص نظام جو حیوانی گردش اور درزدار آلے سے مغرفے کے ذریعے پانی اٹھاتا ہے؛ ہر جزو یا عالمی اوّلیت اس سے منسوب نہیں۔"
+  basis:
+    ar: "النص يصف الجهاز وتفاصيل تشغيله، وتضع TDV الجزري في تقليد مهندسين طوروا أعمالاً سابقة؛ لا يسمي المصدران سلفاً مباشراً لهذه الآلة ولا يثبتان بناءها {cite:jazari-hill-1974 pp.184–185} {cite:tdv-cezeri pp.505–506}."
+    en: "The text describes the device and its operation, while TDV places al-Jazari among engineers who developed earlier work; neither source names a direct predecessor for this machine or proves it was built {cite:jazari-hill-1974 pp.184–185} {cite:tdv-cezeri pp.505–506}."
+    ur: "متن آلے اور اس کے عمل کی تفصیل دیتا ہے، جبکہ TDV جزری کو سابقہ کام آگے بڑھانے والے انجینئروں کی روایت میں رکھتا ہے؛ دونوں میں سے کوئی اس مشین کا براہ راست پیش رو نہیں بتاتا یا اس کی تعمیر ثابت کرتا ہے {cite:jazari-hill-1974 pp.184–185} {cite:tdv-cezeri pp.505–506}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "السياق الهندسي السابق الذي تذكره TDV", en: "Earlier engineering traditions noted by TDV", ur: "TDV کے بیان کردہ سابق انجینئرنگ کے سیاق" }
+    note: "General background in earlier engineering; no specific predecessor or transmission path for this device is established."
+    sources: [source/tdv-cezeri]
+dependents:
+  - external: { ar: "شاهد مخطوط متأخر مؤرخ 715هـ/1315م", en: "A later manuscript witness dated 715 AH/1315 CE", ur: "715ھ/1315ء کا بعد کا مخطوط شاہد" }
+    note: "A copy witnesses transmission of the book's text and image, not a machine built from this design or proof of its use."
+    sources: [source/met-jazari-scoop-451298]
+spread: []
+impact:
+  fields: [water-agriculture, mechanics-automata]
+  changed:
+    ar: "يوثق الجهاز تحويل دوران يقوده حيوان إلى حركة متكررة ترفع مغرفة ماء، من غير قياس معدل التدفق أو المساحة المروية {cite:jazari-hill-1974 pp.184–185}."
+    en: "The design documents animal-powered rotation converted into repeated scoop motion for raising water, without measuring flow rate or irrigated area {cite:jazari-hill-1974 pp.184–185}."
+    ur: "یہ ڈیزائن حیوانی طاقت کی گردش کو پانی اٹھانے والی مغرفے کی بار بار حرکت میں بدلتا دکھاتا ہے؛ بہاؤ کی شرح یا سیراب رقبہ نہیں ناپتا {cite:jazari-hill-1974 pp.184–185}۔"
+  history:
+    ar: "شاهد على تصميم هندسي مفصل في كتاب الجزري ونسخة مصورة لاحقة، لا سلسلة آلات عاملة مثبتة {cite:jazari-hill-1974 pp.184–185} {cite:met-jazari-scoop-451298 Object record}."
+    en: "A witness to a detailed engineering design in al-Jazari's book and a later illustrated copy, not a proven lineage of working machines {cite:jazari-hill-1974 pp.184–185} {cite:met-jazari-scoop-451298 Object record}."
+    ur: "جزری کی کتاب میں مفصل انجینئرنگ ڈیزائن اور بعد کی مصور نقل کا شاہد، چلتی مشینوں کے ثابت شدہ سلسلے کا نہیں {cite:jazari-hill-1974 pp.184–185} {cite:met-jazari-scoop-451298 Object record}۔"
+  significance: 3
+  why: "A distinct described water-lifting assembly with a clear power-and-motion sequence; significance is documentary and technical, not proof of priority, operation, geographical spread or later industrial influence."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "نص مترجم وورقة مخطوطة متأخرة؛ لم نفحص آلة عاملة {cite:jazari-hill-1974 pp.184–185} {cite:met-jazari-scoop-451298 Object record}."
+    en: "A translated text and later manuscript folio; no working machine was examined {cite:jazari-hill-1974 pp.184–185} {cite:met-jazari-scoop-451298 Object record}."
+    ur: "ترجمہ شدہ متن اور بعد کا مخطوط ورق؛ کوئی چلتی مشین ہمارے مطالعے میں نہیں آئی {cite:jazari-hill-1974 pp.184–185} {cite:met-jazari-scoop-451298 Object record}۔"
+  descendants:
+    ar: "لا نسب حديث محدد ثبت في المصادر المقروءة؛ استمرار الغرض العام لا يثبت استمرار هذا التصميم {cite:tdv-cezeri pp.505–506}."
+    en: "No specific modern descendant is established in the sources read; continuation of the general task would not prove continuation of this design {cite:tdv-cezeri pp.505–506}."
+    ur: "مطالعہ شدہ ذرائع میں کوئی مخصوص جدید جانشین ثابت نہیں؛ عمومی مقصد کا جاری رہنا اس ڈیزائن کے تسلسل کا ثبوت نہیں {cite:tdv-cezeri pp.505–506}۔"
+media: { image: media/jazari-animal-scoop-water-lifter, diagram: media/diagram-jazari-animal-scoop-water-lifter }
+kids:
+  ar: "تخيل محوراً يدور ببطء ودبوساً يتحرك داخل شق طويلة في ساق المغرفة؛ تساعد هذه الصلة على فهم رفعها وخفضها في وصف الجزري. الرسم في ورقة متأخرة، وليس تعليمات لبناء آلة {cite:jazari-hill-1974 pp.184–185} {cite:met-jazari-scoop-451298 Object record}."
+  en: "Imagine a turning wheel and a pin sliding in a long slot in the scoop's stem; that link helps explain how the ladle rises and falls in al-Jazari's description. The picture is on a later folio, not instructions to build a machine {cite:jazari-hill-1974 pp.184–185} {cite:met-jazari-scoop-451298 Object record}."
+  ur: "ایک گھومتے پہیے اور مغرفے کے ڈنڈے کی لمبی درز میں سرکتے پن کا تصور کریں؛ یہ جوڑ جزری کے بیان میں مغرفے کے اٹھنے اور نیچے آنے کو سمجھاتا ہے۔ تصویر بعد کے ورق پر ہے، مشین بنانے کی ہدایت نہیں {cite:jazari-hill-1974 pp.184–185} {cite:met-jazari-scoop-451298 Object record}۔"
+sources: [source/jazari-hill-1974, source/tdv-cezeri, source/met-jazari-scoop-451298]
+provenance:
+  layer: own-research
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-p3-b99
+  source: "D-142; Hill 1974, Category V chapter 4 pp.184–185 and adjacent chapters 3 and 5 read in the shared browser; TDV CEZERÎ pp.505–506; Met accession 55.121.11 catalogue and public-domain image visually inspected. No original Arabic manuscript, physical machine, exact workshop or transmission route claimed."
+status: { review: published, completeness: 3 }
