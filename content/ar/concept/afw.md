@@ -24,3 +24,6 @@ translators: []
 
 ## مواطن البحث
 تُنظر أحكام القصاص في «قصاص»، والحدود في «حد»، والتعزير في «تعزير»، والمهر في «مهر» {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11675}.
+
+## في برنامج مصطفى حسني «أهل الجنة»
+يخصص [[person/mustafa-hosny|مصطفى حسني]] الحلقة السابعة عشرة من برنامجه [[work/ahl-al-jannah|«أهل الجنة»]] للعفو والمنتقم: يذكر حديثًا ينسبه إلى «شعب الإيمان» للبيهقي عن أبي هريرة أن موسى سأل ربه عن أعز خلقه عليه فقال من إذا قدر غفر. {cite:assabile-mustafa-hosny ahl-al-jannah/ep17 00:03:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep17 00:04:00} ويروي أن المرأة التي سمّت للنبي الشاة أقرّت بأنها أرادت قتله فعفا عنها (needs_source: تختلف الروايات في مصيرها). {cite:assabile-mustafa-hosny ahl-al-jannah/ep17 00:04:30} وينقل عن عائشة أن أحدًا لم ينل منه فانتقم لنفسه. {cite:assabile-mustafa-hosny ahl-al-jannah/ep17 00:05:30} ويفرّق بين المتسامح الذي يأخذ حقه ثم ينزع الكراهية من قلبه، والعفوّ الذي يترك حقه، والمنتقم الذي يردّ الأذى بزيادة، ويقرأ آيات من سورة الشورى في الثلاثة. {cite:assabile-mustafa-hosny ahl-al-jannah/ep17 00:08:00} {cite:assabile-mustafa-hosny ahl-al-jannah/ep17 00:08:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep17 00:09:00} {cite:assabile-mustafa-hosny ahl-al-jannah/ep17 00:09:30}
