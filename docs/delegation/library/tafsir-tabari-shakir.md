@@ -739,6 +739,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 82: Sura Ibrahim pp. 581-587 filed (14:23-25 finished; 14:26 reports 20737-20753). Next is p. 588 (marker 596), the rest of the commentary on 14:26.
 - Batch 83: Sura Ibrahim pp. 588-594 filed (14:26 finished; 14:27 reports 20758-20765). Next is p. 595 (marker 603), the rest of the commentary on 14:27.
 - Batch 84: Sura Ibrahim pp. 595-601 filed (14:27 reports 20766-20782; 20783 begun). Next is p. 602 (marker 610), the rest of report 20783 and 14:27.
+- Volume 16 complete (Batch 85): pp. 602-604 filed (14:27 closes; reports 20783-20787). The commentary ends on printed p. 604 (marker 612), which states that part sixteen is finished and part seventeen begins with 14:28 (those who changed God's favour for disbelief); the indexes begin at marker 613 and are not filed. Passages 12:19 through 14:27 carry `{cite:tafsir-tabari-shakir-v16 p. N}` citations (reports 18880-20787).
 - Batch 81: pp. 442-448 filed in ar, en and ur (reports 13403-13418): 6:70 continued (tubsal, ransom, hamim)
 - Batch 65: printed pp. 411-418 (markers 415-422) filed in ar, en and ur (reports 14578-14598): 7:37 closes at p. 415 and 7:38 is begun to the foot of p. 418 after report 14598. Offset still marker - 4. Stop sentence at the foot. Next is marker 423 (printed 419).
 - Batch 82: pp. 449-455 filed in ar, en and ur (reports 13419-13431): 6:70 end and 6:71 (the bewildered man called to guidance), up to its last clause
