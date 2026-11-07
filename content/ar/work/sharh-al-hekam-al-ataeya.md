@@ -46,7 +46,6 @@ translators: []
 - في آخر الدرس يجيب عن أسئلة الحاضرين، ومنها سؤال عن إعطاء الزكاة للأخ. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:59:30}
 
 ## الحلقة الخامسة: الآخرة دار الجزاء
-- يبدأ بالدعاء بالرحمة للشيخ [[person/ahmed-yassin|أحمد ياسين]]، ويرى أن حكمة اليوم توافق الحال النفسية للحاضرين. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:00}
 - يشرح حكمة ابن عطاء الله أن الدنيا لا تسع ما يريد الله أن يعطي عباده المؤمنين، فجعل الآخرة محلًّا لجزائهم. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:27:30}
 - يروي بكاء عمر على من لا يعرفهم من شهداء [[event/battle-of-al-qadisiyya|القادسية]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:01:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:02:00}
 - يروي خبر [[person/abdullah-ibn-amr-ibn-haram|عبد الله بن عمرو الأنصاري]] أبي جابر، وكلام الله له بلا حجاب. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:08:30}
