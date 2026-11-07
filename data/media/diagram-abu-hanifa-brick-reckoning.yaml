@@ -1,0 +1,19 @@
+id: media/diagram-abu-hanifa-brick-reckoning
+class: media
+kind: illustration
+label: { ar: "مخطط تقدير رصّات الآجر بالقياس", en: "Brick-stack estimation by measured intervals", ur: "ناپی ہوئی وقفوں سے اینٹ کے ڈھیروں کا اندازہ" }
+summary:
+  ar: "رسم تعليمي مفهومي يوضح فكرة التقدير بالقياس، لا تعليم بناء أو فحص سلامة."
+  en: "Conceptual teaching diagram of measurement-based estimation,not build or safety instructions."
+  ur: "پیمائش پر مبنی اندازے کا تصوری تدریسی خاکہ، تعمیر یا حفاظتی ہدایت نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/abu-hanifa-brick-stack-reckoning]
+alt:
+  ar: "مربعات تمثل رصّات آجر وعلامات قياس متدرجة مع سهام مقارنة، بلا أشخاص أو تنفيذ ميداني."
+  en: "Squares as brick stacks with graduated measurement marks and comparison arrows,without people or field execution."
+  ur: "اینٹ کے ڈھیروں کی علامتی شکلیں، درجہ بند پیمائشی نشانیاں اور تقابلی تیر، اشخاص یا میدانی نفاذ کے بغیر۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-07" }
+sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b96", source: "Conceptual-only visualization of reported measurement-based brick reckoning; no executable construction procedure." }

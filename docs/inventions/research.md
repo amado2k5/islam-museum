@@ -1,5 +1,13 @@
 # Muslim Inventions Browser: research method
 
+## Invention96 — Abu Hanifa's reported brick-stack reckoning method (7 November 2026)
+
+Primary evidence remains the already read Le Strange chapter II (pages15–29),with key focus on the page17 report that ties Abu Hanifa to supervision and quantity-reckoning of bricks via measurement logic (graduated rod reference in transmitted narrative). This is handled as historical reconstruction,not as surviving contractor documentation.
+
+Duri's first Baghdad article and Hitti's foundational context remain supporting frame only: they establish the urban-setting scale and phased development context,not direct independent replication of the same counting procedure wording. No newly guessed URLs are introduced for this invention.
+
+The same PD Le Strange map may be reused as contextual media for city works setting; any generated diagram remains conceptual and non-operational.
+
 ## Invention95 — covered urban water conduits in Mansur's Baghdad (6 November 2026)
 
 Actual Le Strange chapterII15–29 already read in full for invention94; water-specific evidence comes from the pages describing conduits,including the request condition,teak conduit stage,and later channels from Dujayl/Karkhaya with cemented beds and burnt-brick covering. The text is read as attributed historical reconstruction from earlier sources,not a preserved engineering manual or measured municipal utility report.

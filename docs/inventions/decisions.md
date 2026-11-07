@@ -1,5 +1,15 @@
 # Muslim Inventions Browser: decisions
 
+## D-138 — Invention96: Abu Hanifa's reported brick-stack reckoning method in Baghdad works (7 November 2026)
+
+**Approved non-impacting D-000 content scope:** focus on the reported practical method attributed to Abu Hanifa in Le Strange's Baghdad chapter: using a graduated rod/measurement logic to estimate brick-stack quantities during major works supervision. This is treated as a **construction-computation improvement**,not invention of arithmetic,counting,volume,or brickmaking itself. New records: invention `abu-hanifa-brick-stack-reckoning`,diagram media `diagram-abu-hanifa-brick-reckoning`; reuse existing Le Strange map image as historical context. Additive updates only to `person/abu-hanifa`,`place/baghdad`,and source provenance; preserve all existing records/prose/status/provenance.
+
+**Actually read evidence constraints:** basis comes from already read Le Strange chapter II pages15–29 (especially page17 discussion of overseers and brick reckoning) with scanned pages already inspected, plus Duri/Hitti context for Baghdad's setting and development. The report is a transmitted historical reconstruction,not a surviving technical notebook or independently measured onsite audit.
+
+**Identity and controversy limits:** Abu Hanifa appears in this record in a reported supervisory/computational role; this does not erase preserved narratives of legal pressure/conflict with al-Mansur in other records. No doctrinal or legal verdict is made; Sunni frame remains explicitly labelled where needed.
+
+**Safety boundary:** no procedural instructions for real construction,count auditing,or structural certification. Educational activities remain paper-only conceptual exercises.
+
 ## D-137 — Invention95: covered urban water-conduit distribution in Mansur's Baghdad (6 November 2026)
 
 **Approved non-impacting D-000 content scope:** move from the city's radial/nucleus geometry (invention94) to the specific urban water-distribution arrangement attributed to al-Mansur's Baghdad: conduits, lining/covering choices, and relation to habitation and access. Improvement in urban provisioning,not invention of water,lined channels,or hydraulic engineering as a whole. Five new entities: invention `mansur-covered-water-conduits`,sources reused from94plus no new guessed URLs,media `round-city-water-conduits-context`,`diagram-mansur-water-conduits`. Reuse existing commissioner/city/source records and add only additive ties/prose/provenance extensions. Preserve all94records/all282translations,560lead objects and all original fields/prose/status/provenance.
