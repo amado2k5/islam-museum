@@ -2,9 +2,28 @@
 id: invention/zahrawi-intestinal-suture
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code, unknown model, inventions-p3-b32"]
+translators: [ "Copilot SDK in VS Code, unknown model, inventions-p3-b32" ]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b32", source: "Translation of Arabic with the same inspected primary passage, corroboration and limits; conceptual history, not operative instructions" }
+provenance:
+  {
+    generated_by: "Copilot SDK in VS Code",
+    model: "unknown",
+    run: "inventions-p3-b32",
+    source: "Translation of Arabic with the same inspected primary passage,
+      corroboration and limits; conceptual history, not operative instructions",
+    extensions:
+      [
+        {
+            generated_by: github-copilot,
+            model: unknown,
+            run: inventions-depth-20261107,
+            source: "Translation of the Arabic additions, preserving source qualifications.
+              Research agent read Leclerc pp.202–211: historical
+              classifications, individual case and translator commentary; no
+              procedural surgery instructions."
+          }
+      ]
+  }
 ---
 ## Summary
 
@@ -19,6 +38,16 @@ The described material consists of thin filaments from animal intestines, used i
 The same chapter presents inherited wound-suturing knowledge and explicitly draws on Galen, discussing tissues and circumstances rather than offering one thread for every injury {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.207–208}. Bringing wound edges together therefore did not begin with al-Zahrawi: he discusses an existing tradition and adds to its material account {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.207–211}. This does not establish that Galen used the identical intestinal filament. The documented precursor is suturing practice, not proof of material identity.
 
 ## The story
+The translated pages contain different voices: the author's wound classification and suture categories, an individual injury with his fears and reported outcome, and the translator's footnote invoking a later writer {cite:zahrawi-leclerc-chirurgie-1861 pp.202–211}. Classification is not a case series; a feared complication is not a confirmed diagnosis, and one patient's return to ordinary life is not a general success rate {cite:zahrawi-leclerc-chirurgie-1861 pp.202–210}. Separating expectation, outcome and later commentary preserves historical observation without extracting a clinical protocol.
+
+The whole chapter broadens the material's context: Leclerc's translation classifies abdominal wounds as large, small and medium, and reports the author's preference for medium wounds in part of his discussion of protruding intestines {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.202–204}. This is a historical judgment, not present-day triage guidance; classification precedes the thread passage, and a material name does not replace the chapter's other questions.
+
+The text distinguishes four abdominal suturing patterns, two shared with other wounds and two specific to the abdomen {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.203}. Some knowledge crosses surgical chapters while some concerns a particular location; not every internal-wound discussion proposes intestinal thread {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.203,211}. This page preserves the distinction between classifying closure methods and choosing material, without teaching their performance.
+
+Page210 distinguishes intestine from omentum, relating the latter's discussion to tissue condition and bleeding risk; it also records the author's pessimistic prognosis for jejunal wounds, explained through his description of vessels and thin walls {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.210}. These are historical anatomy and expectations, not diagnosis of a current patient: the author did not regard all abdominal tissues as repairable in the same way. A later mention of thread consequently cannot guarantee treatment results {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.210–211}.
+
+A first-person case concerns a man wounded in the abdomen whose wound discharged fecal matter and gas; the author did not expect recovery but reports healing and return to eating, drinking, bathing and normal movement {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.210–211}. It neither compares suture materials nor explicitly attributes recovery to the displayed thread: it is an individual clinical narrative about a changing expectation, not a controlled experiment or calculated success rate {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.210–211}. Personal experience and a proposed material are different kinds of evidence.
+
 
 The passage belongs to chapter87, following an extended discussion of abdominal wounds and treatment limits, not a separate inventor's card or celebratory discovery anecdote {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.202–203,207–211}. On page211 the filament description follows an account attributed to physicians of the empirical school involving ants; an experimental qualification then applies to both approaches {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}.
 
@@ -43,6 +72,10 @@ TDV records Gerard of Cremona's Latin surgical translation and later editions an
 The chapter's explicit inheritance is wound-suturing knowledge and discussion attributed to Galen, followed by an animal-derived material in a particular context {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.207–211}. The teaching diagram connects that inheritance only to this description. It does not arbitrarily link the urinary drill or another browser invention. Innovation can be read within existing knowledge without erasing predecessors.
 
 ## What was built on it
+Leclerc's footnote on page211 reports Guy de Chauliac's rejection of the ant method {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211 footnote}. This later surgeon's judgment is known here through the translator, not independent reading of his original; it concerns ants, not testing intestinal thread {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211 footnote}. Adjacent alternatives therefore cannot automatically share one endorsement or rejection.
+
+Several voices coexist: the author classifies, relates experience and cites others; the translator adds a note; modern historians summarize the thread as catgut {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.202–211} {cite:majeed-islam-medicine-2005 medicine discussion}. They are not independent examinations of every Arabic witness. Each provides a different kind of evidence without making the French edition an original Andalusian manuscript or a medical summary a material analysis {cite:zahrawi-leclerc-chirurgie-1861 title and ch.87 p.211}.
+
 
 Majeed's BMJ editorial includes catgut sutures in al-Zahrawi's surgical contributions and discusses the European educational reception of *al-Tasrif* {cite:majeed-islam-medicine-2005 pp.1486–1487}. The summary does not supply an industrial pedigree for every later thread, or make a shared material name prove a particular product's descent. No specific technical dependent is recorded without evidence. Continued historical recognition differs from an established, uninterrupted chain of practice.
 

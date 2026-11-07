@@ -2,7 +2,16 @@
 id: invention/firnas-reported-winged-flight
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: [ "Copilot SDK in VS Code" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: Translation of the Arabic additions, preserving source qualifications.
+    Research agent read TDV biography and four NASA Glenn guide pages; modern
+    force/glide comparison is explicitly separate from the historical report.
 ---
 ## Summary
 
@@ -23,10 +32,24 @@ Ibn Firnas grew up and studied in [[place/cordoba|Cordoba]], associated with its
 Lienhard supplies875 and a tower, neither specified by the inspected Arabic passage;875 is accordingly uncertain, attributed modern chronology, not a contemporary witness date {cite:lienhard-firnas-1910 narrative and postscript} {cite:nafh-tib-maqqari v.3 p.374}. TDV's death date274 AH/887 does not establish a jump date or prove that flight injuries caused death {cite:tdv-abbas-firnas-kirbiyik biography}.
 
 ## The maker(s)
+TDV places his birth in a village of Takurunna near Ronda, describes Berber origin without a precise birth year, and connects his career to al-Hakam I, Abd al-Rahman II and Muhammad I {cite:tdv-abbas-firnas-kirbiyik biography}. This service does not establish one patron commissioning the wings: the flight report names neither commissioner nor financier {cite:nafh-tib-maqqari v.3 p.374}. The biography warns against confusion with the poet Abbas ibn Nasih, so a similar name cannot transfer another person's poetry or work {cite:tdv-abbas-firnas-kirbiyik biography}.
+
 
 Ibn Firnas is the account's attributed experimenter; the “inventor” relationship identifies its claimed apparatus maker, not established global priority {cite:nafh-tib-maqqari v.3 p.374}. His Muslim basis is Hasan Ibrahim Hasan's explicit statement on the visually inspected page, not name, Berber origin or country {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}. Sunni in Umayyad Cordoba is the declared museum frame, not personal school testimony; his biography retains religious accusations and Islamweb's response as named voices without a museum verdict {cite:tdv-abbas-firnas-kirbiyik biography} {cite:islamweb-firnas-406804 Ibn Firnas discussion}.
 
 ## How it works
+NASA's steady-glide diagram balances force components while motion continues: equilibrium does not mean hovering, but unchanged speed and direction in the simplified model {cite:nasa-glenn-gliding Vector Balance of Forces for a Glider}. Weight is vertical while lift and drag are oriented relative to an inclined path, unlike a stationary bird or purely vertical fall {cite:nasa-glenn-gliding Vector Balance of Forces for a Glider}. Explaining that educational diagram adds no speed or direction record to the historical account; al-Maqqari gives no observation series testing those components or conditions {cite:nafh-tib-maqqari v.3 p.374}.
+
+A declared modern comparison clarifies vocabulary without reconstructing a lost apparatus: NASA Glenn defines a glider as an aircraft without an engine, subject to lift, drag and weight without engine thrust {cite:nasa-glenn-gliding Glider; Forces on an Airplane}. This is modern educational aeronautics, not a description of Ibn Firnas's wings or proof that his reported movement was stable gliding.
+
+NASA distinguishes weight towards Earth's centre, lift perpendicular to motion through air, drag opposing motion, and thrust from propulsion in a powered aircraft {cite:nasa-glenn-gliding Forces on an Airplane}. An upward movement or a wing's presence alone does not demonstrate thrust; the historical words “feathers” and “wings” provide no magnitude for these distinct forces {cite:nasa-glenn-gliding Forces on an Airplane} {cite:nafh-tib-maqqari v.3 p.374}. The comparison explains terminology without adding an engine or measured muscular power to the account.
+
+NASA describes gliding as trading altitude for speed: a glider descends relative to its surrounding air, although rising air can increase its height relative to the ground {cite:nasa-glenn-gliding Glider}. Air-relative and ground-relative motion therefore differ. Reported height does not establish sustained self-powered flight, and the explanation cannot invent an updraft at a launch place absent from al-Maqqari's account {cite:nasa-glenn-gliding Glider} {cite:nafh-tib-maqqari v.3 p.374}.
+
+For steady gliding, NASA relates lift-to-drag ratio to descent angle and gives the tangent of that angle as height lost divided by horizontal distance {cite:nasa-glenn-gliding Vector Balance of Forces for a Glider; Glide Angle}. An explicitly modern paper example loses one unit of height across ten horizontal units; its slope is one to ten. Losing the same height across only five units gives a steeper descent. This neither calculates Ibn Firnas's range nor establishes his angle, because the narrative provides neither measurement {cite:nasa-glenn-gliding Glide Angle} {cite:nafh-tib-maqqari v.3 p.374}.
+
+The engineering explanation assumes a defined state of motion; applying it requires measurements and conditions, not merely calling someone a flyer {cite:nasa-glenn-gliding Vector Balance of Forces for a Glider}. No historical speed, wing area or mass distribution is supplied here, so valid equations cannot estimate values missing from the witness {cite:nafh-tib-maqqari v.3 p.374}. Gliding, lift, thrust and landing remain distinct terms; this comparison provides neither construction instructions nor encouragement to attempt a jump.
+
 
 The text supplies few elements: feathers covering the body, two wings, travel in the air and an injurious landing. Wing area, inclination and control mechanism cannot be recovered from it {cite:nafh-tib-maqqari v.3 p.374}. These words alone do not establish effective flapping, stable gliding or a measured altitude; the display therefore offers neither construction plans nor a jumping experiment {cite:nafh-tib-maqqari v.3 p.374}.
 
@@ -65,6 +88,8 @@ Modern retelling shows how the name became a symbol of aspiring to fly: the univ
 The modern night photograph shows Cordoba's Abbas Ibn Firnas Bridge, taken by Edmundo Sáez on21 February2014, not historical wings or a reconstructed apparatus {cite:commons-firnas-bridge-saez Description and date}. The bridge carries the name in modern memory; proving a machine's performance requires different evidence, and its arches do not disclose the shape of Ibn Firnas's wings {cite:commons-firnas-bridge-saez Description} {cite:nafh-tib-maqqari v.3 p.374}.
 
 ## Surviving examples
+TDV reports crystal-cutting and celestial representation among his other activities, and poetic fragments transmitted by Ibn Hayyan {cite:tdv-abbas-firnas-kirbiyik biography}. Al-Maqqari also associates glass-making, prosody and music with his crafts {cite:nafh-tib-maqqari v.3 pp.374–375}. These are different textual traces of a versatile person, not authenticated wing materials; crystal-working cannot make the wings crystal, nor can every craft become a stage of one flight project {cite:tdv-abbas-firnas-kirbiyik biography} {cite:nafh-tib-maqqari v.3 pp.374–375}.
+
 
 The inspected textual witness is Maqqari, Ihsan Abbas edition3:374–375 through Shamela. The editor references al-Mughrib1:333 and al-Muqtabis fol256b; their original flight passages were not independently read as separate witnesses {cite:nafh-tib-maqqari v.3 pp.374–375 and note}. Hasan's printed378 is PDF scan382: distinguishing them corrects an older citation without changing his unharmed-survival statement {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}.
 
@@ -77,6 +102,8 @@ Maqqari combines crafts and satirical verse: the account reaches us partly in li
 Ask what each account says about the wings and the ending: one reports injury, another says he rose unharmed. Deleting one account does not make them agree {cite:nafh-tib-maqqari v.3 p.374} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}. The museum activity is comparing words and sources, not building wings or jumping: the account supplies no apparatus safe to try {cite:nafh-tib-maqqari v.3 p.374}.
 
 ## References
+- [[source/nasa-glenn-gliding|Gliding and flight forces — NASA Glenn]]
+
 
 - Maqqari, Nafh al-Tib, Ihsan Abbas edition3:374–375, entry160 in the actual digital text {cite:nafh-tib-maqqari v.3 pp.374–375}.
 - Hasan Ibrahim Hasan, volume four, printed378/PDF scan382; title and1416/1996 edition images inspected {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}.

@@ -2,7 +2,16 @@
 id: invention/equatorium-al-zarqali
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code (unknown), inventions-p3-b27"]
+translators: [ "Copilot SDK in VS Code (unknown), inventions-p3-b27" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: Translation of the Arabic additions, preserving source qualifications.
+    Research agent read BEA and MacTutor Mercury/apogee and table contexts;
+    modern geometric explanation is not a reconstructed surviving instrument.
 ---
 ## Summary
 
@@ -27,6 +36,8 @@ The two treatises distinguish construction from use: describing where circles be
 Al-Zarqali's role is improver of a particular arrangement, not inventor of all equatoria; this preserves Ibn al-Samh's earlier contribution without attributing the later two-plate arrangement to him without evidence {cite:zarqali-puig-bea pp. 1258–1260}. MacTutor explicitly identifies al-Zarqali as a Muslim instrument maker and astronomer, and Bibliotheca Alexandrina names him in its Muslim-astronomers section {cite:zarqali-mactutor Summary} {cite:bibalex-astrolabe-949 The Role of Muslim Astronomers}. Sunni is the museum's explicit default frame, not personal legal-school testimony inferred from his name or court {cite:zarqali-puig-bea pp. 1258–1260} {cite:bibalex-astrolabe-949 The Role of Muslim Astronomers}.
 
 ## How it works
+The model's center is geometric, not an independent heavenly body {cite:zarqali-mactutor Mercury model}.
+
 
 Read the arrangement in three stages: planetary deferents and associated circles, then their epicycles, then use of these relationships to represent positions; Puig specifies the first group on both sides of one plate and the second on another {cite:zarqali-puig-bea pp. 1258–1260}. Several planets do not imply seven independent plates, and the biography does not describe an engine driving the instrument or finding the date automatically {cite:zarqali-puig-bea pp. 1258–1260}. Our diagram is a teaching chain of relationships, not manufacturing instructions with historically measured diameters and graduations {cite:zarqali-puig-bea pp. 1258–1260}.
 
@@ -37,6 +48,16 @@ Imagine a small circle whose centre follows a larger path: this illustrates the 
 The sources read here do not establish a dated route carrying this exact arrangement to every workshop or user, so the record draws no confident diffusion arrows {cite:zarqali-puig-bea pp. 1258–1260}. Nor do the universal plate's translation dates automatically become the equatorium's history: the biography distinguishes these instruments and treatises {cite:zarqali-puig-bea pp. 1258–1260}. A later European equatorium witnesses the history of the instrument family, not, by itself, a documented chain of transmission from al-Zarqali {cite:commons-liverpool-equatorium Description}.
 
 ## What it was built on
+A declared modern paper analogy distinguishes the roles: choose a position on one circle as the centre of a smaller circle. Moving the first position moves that centre; moving around the smaller circle changes a point relative to it. A representation need not have a motor, nor do two drawn circles automatically become heliocentric orbits {cite:zarqali-puig-bea pp.1258–1260} {cite:zarqali-mactutor Mercury discussion}. This explains the general deferent–epicycle relationship without recovering al-Zarqali's graduations or Mercury's special motion.
+
+Puig identifies a named theoretical work on Mercury: al-Zarqali's lost treatise rejecting Ptolemy's method of determining Mercury's apogee, known through Ibn Bajja's reference {cite:zarqali-puig-bea pp.1258–1260}. This documents discussion of the planet requiring special representation, not a reading of an extant treatise or proof that its entire argument was engraved on the equatorium {cite:zarqali-puig-bea pp.1258–1260}. A title known through citation identifies a question, not a recoverable complete proof.
+
+MacTutor reports a pine-nut comparison for the oval path of Mercury's epicycle centre in a work on the seven planets {cite:zarqali-mactutor Mercury discussion}. The analogy conveys non-circular geometry but supplies neither axis lengths, foci nor a complete position equation {cite:zarqali-mactutor Mercury discussion}. MacTutor also criticizes a modern headline claiming discovery of elliptical planetary orbits before Kepler, distinguishing an epicycle centre in an older model from a planet's orbit around the Sun {cite:zarqali-mactutor Mercury discussion}. That distinction limits the object described rather than dismissing its significance.
+
+For the computational context, Puig describes the Toledan Tables as a team project led by Said al-Andalusi, with al-Zarqali a prominent member; material from al-Khwarizmi and al-Battani was adapted to Toledo, while mean-motion tables used the team's observations {cite:zarqali-puig-bea pp.1258–1260}. Completion before Said's Tabaqat in1068bounds the collective tables, not construction of the two-plate instrument {cite:zarqali-puig-bea pp.1258–1260}. An author's involvement in tables and instruments does not make the instrument a printed table or all team members makers of its parts.
+
+The biography separately describes a variable-eccentricity solar model, al-Zarqali's account of solar-apogee motion, and its later astronomical influence {cite:zarqali-puig-bea pp.1258–1260}. This theoretical work is not evidence that every improvement became a physical component of the equatorium: theory concerns the relationships represented, while the plates organize circles and their readable positions {cite:zarqali-puig-bea pp.1258–1260}. Three layers can thus be distinguished: observation and location-specific tables, discussion of geometric models, and an instrument organizing their representation. Their documented context is not a proven lineage for every unread detail.
+
 
 The named predecessor is Ibn al-Samh, and the mathematical inheritance is deferent–epicycle geometry: the universal plate is not inserted as the precursor merely because the same scholar made it {cite:zarqali-puig-bea pp. 1258–1260} {cite:zarqali-mactutor Mercury discussion}. This distinction matters in reading the diagram: a predecessor addresses the same problem, rather than listing everything a scholar made or everyone living at the time {cite:zarqali-puig-bea pp. 1258–1260}. This research did not directly inspect Ibn al-Samh's construction treatise or an original physical prototype {cite:zarqali-puig-bea Selected References}.
 

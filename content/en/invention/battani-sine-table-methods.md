@@ -2,7 +2,16 @@
 id: invention/battani-sine-table-methods
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: [ "Copilot SDK in VS Code" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: Translation of the Arabic additions, preserving source qualifications.
+    MacTutor right-triangle relation and TDV chapter topics; modern arithmetic
+    examples are explicitly constructed, not copied table entries.
 ---
 ## Summary
 
@@ -27,6 +36,22 @@ The inspected pages supply no independent composition year for this chapter; nei
 Al-Battani's recorded role is “improver”: the text documents a computational choice and working procedures on top of earlier geometry {cite:nallino-albatenii-opus-astronomicum Latin pp. 9–11}. His Muslim identity here rests on the author's religious opening, read in Arabic, and Nallino's explicit argument from it—not his name or family affiliation {cite:nallino-albatenii-opus-astronomicum Arabic p. 6, scan1146; Latin preface XVI, scan25}. The museum's Sunni frame is separately declared for the Abbasid Raqqa setting, not presented as a personal legal-school declaration; his biography retains named historical identity opinions without inferring religion from “al-Sabi” alone {cite:tdv-battani-muftuoglu biography} {cite:nallino-albatenii-opus-astronomicum Latin preface XVI, scan25}.
 
 ## How it works
+The displayed right-triangle relation is planar; spherical problems in the zij are a separate astronomical application, not the same drawn triangle {cite:battani-mactutor trigonometry} {cite:tdv-battani-muftuoglu §§el-Zîc}.
+
+The invented numerical example also shows why the table interval matters:6/30is not6/60, so using a full degree instead of half a degree changes the numerical increment. In reverse,20.4alone is insufficient without its neighboring rows and their difference2; an excess becomes minutes through the division and multiplication described by the chapter, not merely a new label {cite:nallino-albatenii-opus-astronomicum Arabic pp.16–17; Latin pp.10–11}. These are further explanations of the classroom example, not manuscript values.
+
+The endpoint illustrates the geometric scale: at90degrees, half the chord of the doubled180-degree arc is half the diameter, or60. At30degrees, half the chord of60degrees is30, because that chord equals the radius {cite:nallino-albatenii-opus-astronomicum Arabic pp.13–16; Latin pp.9–10}. Exact geometric values at these points differ from interpolation between neighboring rows; a table can combine geometric results with intermediate estimates.
+
+MacTutor gives a right-triangle relation attributed to al-Battani: `b sin(A) = a sin(90 - A)` {cite:battani-mactutor trigonometric formulae}. Its notation is the modern reference's presentation, not copied Arabic manuscript symbols. It combines a sine, the sine of a complementary angle and two side lengths, while the half-chord table supplies numbers for such computations: theoretical relation and numerical table perform different functions {cite:battani-mactutor trigonometric formulae} {cite:nallino-albatenii-opus-astronomicum Arabic pp.13–17}.
+
+A modern demonstration, not a manuscript problem, takes45degrees: its sine equals its complementary sine, so the compared sides are equal. For30degrees, the complement is60and those sines differ; being right-angled alone does not make the two sides equal. Writing both sides with sines scaled to radius60introduces the same factor on each side, which cancels, leaving the side ratio unchanged {cite:battani-mactutor trigonometric formulae} {cite:nallino-albatenii-opus-astronomicum Arabic p.16; Latin p.10}. These calculations explain the reported relation without claiming the author used these particular examples.
+
+Interpolation can likewise be shown with an explicitly invented classroom table, not Zij values: suppose neighboring rows separated by30minutes have values20and22. A position6minutes above the lower row is one fifth of the interval, so one fifth of the numerical increase2is added to20, giving20.4. In reverse, the excess0.4divided by the row difference2returns one fifth of the angular interval, or6minutes {cite:nallino-albatenii-opus-astronomicum Arabic pp.16–17; Latin pp.10–11}. Success in reversing the arithmetic does not prove the actual curve straight: it explains the proportional step between points, not exactness of the approximation {cite:nallino-albatenii-opus-astronomicum Latin pp.10–11}.
+
+TDV identifies other functions within the Zij: chapters33–48concern table use, chapter32calendar conversion, and chapter28the lengths of the four seasons based on observation {cite:tdv-battani-muftuoglu Kitab al-Zij}. Not every tabular value is therefore a sine, nor every difference between dates an angle: the function table is part of work joining timekeeping, observation and geometry {cite:tdv-battani-muftuoglu Kitab al-Zij}.
+
+The encyclopedia also attributes ideas based on orthographic projection and the spherical cosine theorem to discussions in chapters5–26 {cite:tdv-battani-muftuoglu Kitab al-Zij}. This secondary account is distinguished from the directly inspected half-chord chapter: a spherical triangle and projection are not the same object as a plane right triangle, and shared functions do not imply that every proof was read in chapter3 {cite:tdv-battani-muftuoglu Kitab al-Zij} {cite:nallino-albatenii-opus-astronomicum Arabic pp.13–17}.
+
 
 The chapter first constructs known chords, including the60-degree chord equal to the radius, using squared-side relationships in right triangles and chords whose arcs complete a semicircle {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–15; Latin pp. 9–10}. It then turns to half-chords of doubled arcs, tabulated every half-degree through90 degrees {cite:nallino-albatenii-opus-astronomicum Arabic pp. 15–16; Latin p. 10}. The construction includes an approximation for the one-degree chord, so not every stage should be described as exact without approximation {cite:nallino-albatenii-opus-astronomicum Latin pp. 9–10}.
 

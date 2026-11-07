@@ -2,7 +2,17 @@
 id: invention/rufayda-medical-tent
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: [ "Copilot SDK in VS Code" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: Translation of the Arabic additions, preserving source qualifications.
+    Ibn Hajar online entry and editorial footnote and Muslim1769a Arabic text
+    directly read; named and unnamed transmission distinguished; electronic
+    text, not inspected print images.
 ---
 ## Summary
 [[person/rufayda-al-aslamiyya|Rufayda al-Ansariyya al-Aslamiyya]] kept a tent in the [[building/prophets-mosque|Prophet's Mosque]] in [[place/medina|Medina]]. There she treated the wounded and devoted herself to caring for Muslims in need. When [[person/sad-ibn-muadh|Sa'd ibn Mu'adh]] was wounded at the [[event/battle-of-the-trench|Battle of the Trench]], [[person/muhammad|the Prophet]] had him placed in her tent so that he could visit him close by {cite:ibn-hajar-isaba p. 1871}. The TDV Encyclopedia of Islam calls it the first bimaristan (hospital) in Islam, a mobile war hospital. [[person/al-maqrizi|Al-Maqrizi]], however, gives the first hospital in Islam to [[person/al-walid-ibn-abd-al-malik|al-Walid ibn Abd al-Malik]] {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
@@ -21,6 +31,10 @@ The TDV encyclopedia explains that "bimaristan" is a Persian word: "bimar" means
 The encyclopedia dates the Jundishapur school to about 260 CE and its hospital to about 350 CE. It says the school was at its height under Khusraw Anushirvan, the years in which the Prophet was born. It was not, however, an Islamic institution {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
 
 ## The story
+Comparing accounts reveals different chains and emphases: Muslim's displayed Arabic version, from Hisham through his father from Aisha, names the archer Ibn al-Irqah and the wound in the akhal, then attributes the mosque tent to the Prophet so he could visit Sad nearby; this chain does not name Rufayda {cite:muslim-sad-tent-online 1769a Arabic text}. Absence of her name here does not negate the work named in another report, but the accounts should not be fused and every detail attributed to every narrator.
+
+Three elements remain distinct: Sad's battlefield wound, his placement near his visitor in the mosque, and the identity of the woman treating wounded people. Aisha's version establishes the first two in its passage; Mahmud ibn Labid's names Rufayda and her work {cite:muslim-sad-tent-online 1769a Arabic text} {cite:ibn-hajar-rufayda-web main text}. A narrator omitting her name is not independent evidence for every detail of her activity.
+
 In the year 5 AH the Confederates besieged Medina. Sa'd ibn Mu'adh, chief of the Aws, was struck by an arrow at the Trench {cite:ibn-hajar-isaba p. 566}. Ibn Ishaq's account, as [[person/ibn-hajar-al-asqalani|Ibn Hajar]] quotes it, says the Prophet told them: "Put him in Rufayda's tent in the mosque, so that I can visit him close by." He describes Rufayda as a woman who treated the wounded and gave herself, for the sake of God, to serving any Muslim who was in need {cite:ibn-hajar-isaba p. 1871}.
 
 [[person/al-bukhari|Al-Bukhari]] gives the same report by another chain in al-Adab al-Mufrad, from Mahmud ibn Labid. When the vein in Sa'd's arm was struck at the Trench, they moved him to a woman called Rufayda, who treated the wounded. When the Prophet passed by him in the evening he asked, "How are you this evening?", and in the morning, "How are you this morning?", and Sa'd would tell him {cite:ibn-hajar-isaba p. 1871}. Ibn Hajar adds that al-Bukhari also gives it in his Tarikh, in the account of Sa'd's death, and that its chain is sound {cite:ibn-hajar-isaba p. 1872}.
@@ -28,11 +42,17 @@ In the year 5 AH the Confederates besieged Medina. Sa'd ibn Mu'adh, chief of the
 Sa'd lived a month after he was wounded, long enough to give judgement on the Banu Qurayza. Then his wound reopened and he died, in the year 5 {cite:ibn-hajar-isaba p. 566}.
 
 ## The maker(s)
+The online Isaba display gives the Mahmud chain through Abu Nuaym, Ibn al-Ghasil and Asim ibn Umar ibn Qatada, attributing it to al-Adab al-Mufrad {cite:ibn-hajar-rufayda-web main text}. These are transmitters, not a roster of tent assistants or additional patients; a woman narrating another version is not thereby documented as a nursing trainee {cite:ibn-hajar-rufayda-web main text} {cite:muslim-sad-tent-online 1769a Arabic text}. Rufayda's treatment, Mahmud's and Aisha's transmission, and the Prophet's direction and visits are distinct roles rather than modern institutional titles.
+
 **Rufayda al-Ansariyya**, also called al-Aslamiyya, was a Companion. Ibn Hajar gives her an entry, number 11222, in the women's section of [[work/al-isaba-fi-tamyiz-al-sahaba|al-Isaba]] {cite:ibn-hajar-isaba p. 1871}. The tent was hers and she was the one who treated the wounded in it. That is why she is recorded here as the maker, in the sense of the keeper of the place and the one who ran it.
 
 The TDV encyclopedia says that the Prophet set up the first bimaristan in her tent, for Sa'd and the other wounded {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. The two sources agree on the facts: the tent was hers, and the order to move Sa'd there was the Prophet's.
 
 ## How it works
+Ibn Hajar's reported text distinguishes treating wounds and serving people in need, alongside recurring visits {cite:ibn-hajar-rufayda-web main text}. The first two belong to Rufayda and the third to the visitor; treatment, practical service and social proximity coexist without documented separate professions, shifts or wages {cite:ibn-hajar-rufayda-web main text}. Their combination does not establish a nursing administration or credential-granting institution.
+
+Aisha's version locates the tent in the city's mosque and states nearby visits as its purpose {cite:muslim-sad-tent-online 1769a Arabic text}. Location and function can be named without fabric specifications or an interior plan. The twentieth-century mosque photograph cannot supply a seventh-century tent's dimensions or exact position; it is a contextual image from another period {cite:wikimedia-commons mosque1908 image metadata}.
+
 The idea rests on nearness. A wounded man is carried from the battlefield to the mosque and laid in a tent kept by a woman who knows how to treat wounds. He stays at the centre of the town, and the Prophet visits him whenever he passes, morning and evening {cite:ibn-hajar-isaba p. 1871}.
 
 The sources read for this record do not name the tools or remedies Rufayda used, or say how many people were treated in her tent. The diagram on this page shows the path from the Trench to the tent as the report tells it, and nothing more.
@@ -52,12 +72,18 @@ After the tent, the TDV encyclopedia lists larger and more lasting institutions:
 The encyclopedia does not show that any of these was copied directly from Rufayda's tent.
 
 ## Impact on daily life
+Care in these accounts includes service to people in need and proximity for visits, not only wound treatment {cite:ibn-hajar-rufayda-web main text} {cite:muslim-sad-tent-online 1769a Arabic text}. Those relationships describe the setting's social function alongside its mosque location.
+
 The wounded now had a known place to be carried to and a woman who gave her time to their care. The place was in the mosque itself, close to people, where a patient was visited every morning and evening {cite:ibn-hajar-isaba p. 1871}.
 
 ## How it changed history
 The TDV encyclopedia opens its history of bimaristans in Islam with this tent. It then moves on to the hospitals of the Umayyads and Abbasids and to the darussifas of the Seljuks and Ottomans {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. For many writers, the tent has become the starting point from which this history is told.
 
 ## Who invented it?
+The online edition's footnote references Muslim, Tirmidhi and Nasai and names Nasai's chapter “Pitching a tent in mosques” {cite:ibn-hajar-rufayda-web footnote1}. This illustrates later classification of an episode under mosque tents, not a chapter claiming hospital invention or a legal ruling offered here {cite:ibn-hajar-rufayda-web footnote1}. The editorial footnote's wording and numbers are distinguished from Ibn Hajar's original voice.
+
+That comparison differs from TDV's priority claim: transmission chains identify accounts and names, the hadith chapter classifies an episode, and a medical encyclopedia compares it with institutions and calls it a bimaristan {cite:ibn-hajar-rufayda-web main text and footnote1} {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. These layers can coexist without making the encyclopedia's term Rufayda's own word or silence about training evidence of a school. The subject remains the reported service, not a reconstructed clinical system absent from the texts.
+
 The facts are not in dispute. The tent was Rufayda's, it stood in the mosque, she treated the wounded in it, and Sa'd ibn Mu'adh was placed there after the Trench {cite:ibn-hajar-isaba pp. 1871–1872}. The disagreement is about the name and about who came first:
 - **Ibn Hajar in al-Isaba**, a Sunni source, describes the tent and Rufayda's work. He does not call it a hospital or say it was the first {cite:ibn-hajar-isaba p. 1871}.
 - **Al-Maqrizi**, a Sunni historian, gives the first hospital in Islam to al-Walid ibn Abd al-Malik in 88 AH. For him, "first" means a permanent institution with salaried physicians {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
@@ -82,6 +108,9 @@ In Medina, about fourteen hundred years ago, a woman named Rufayda set up a tent
 When Sa'd ibn Mu'adh was wounded in battle, he was carried to her tent. The Prophet passed by every morning and every evening and asked him: how are you? {cite:ibn-hajar-isaba p. 1871}
 
 ## References
+- [[source/ibn-hajar-rufayda-web|Rufayda entry in al-Isaba — online text]]
+- [[source/muslim-sad-tent-online|Sad's tent report — Sahih Muslim1769a]]
+
 - Ibn Hajar al-Asqalani, al-Isaba fi tamyiz al-sahaba, al-Maktaba al-Asriyya, one-volume edition, p. 566 (Sa'd ibn Mu'adh) and pp. 1871–1872 (Rufayda, no. 11222). {cite:ibn-hajar-isaba pp. 1871–1872}
 - TDV Encyclopedia of Islam, "BÎMÂRİSTAN", online edition. {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}
 - Wikimedia Commons, photograph of the Prophet's Mosque in 1908 from "Mir'at al-Haramayn". {cite:wikimedia-commons File:Old_Al-Masjid_Al-Nabawi_1908.jpg}

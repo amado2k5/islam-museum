@@ -2,7 +2,16 @@
 id: invention/battani-sine-table-methods
 lang: ur
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: [ "Copilot SDK in VS Code" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: Translation of the Arabic additions, preserving source qualifications.
+    MacTutor right-triangle relation and TDV chapter topics; modern arithmetic
+    examples are explicitly constructed, not copied table entries.
 ---
 ## خلاصہ
 
@@ -27,6 +36,22 @@ translators: ["Copilot SDK in VS Code"]
 بتانی کا درج کردار «بہتر بنانے والے» کا ہے: متن پہلے ہندسے پر حسابی انتخاب اور عملی ہدایات قائم کرتا ہے {cite:nallino-albatenii-opus-astronomicum Latin pp. 9–11}۔ یہاں ان کی مسلم شناخت کی بنیاد عربی میں دیکھا گیا مصنف کا مذہبی آغاز اور اسی پر نالینو کا واضح استدلال ہے، نام یا خاندانی نسبت نہیں {cite:nallino-albatenii-opus-astronomicum Arabic p. 6, scan1146; Latin preface XVI, scan25}۔ عباسی رقہ کے سیاق میں عجائب گھر کا سنی فریم الگ واضح ہے، اسے کسی ذاتی فقہی مسلک کا اقرار نہیں کہتے؛ ان کی سوانح نام زد تاریخی آرا محفوظ رکھتی ہے، صرف «الصابی» سے مذہب اخذ نہیں کرتی {cite:tdv-battani-muftuoglu biography} {cite:nallino-albatenii-opus-astronomicum Latin preface XVI, scan25}۔
 
 ## یہ کیسے کام کرتا ہے
+پیش کردہ قائمہ مثلث کی نسبت مستوی ہے؛ زیج کے کروی مسائل فلکی اطلاق ہیں، اسی تصویر کا مثلث نہیں {cite:battani-mactutor trigonometry} {cite:tdv-battani-muftuoglu §§el-Zîc}۔
+
+فرضی عددی مثال جدول کے وقفے کی اہمیت بھی دکھاتی ہے:6/30اور6/60ایک نہیں، نصف درجے کے بجائے پورا درجہ لینے سے عددی اضافہ بدلتا ہے۔ الٹا20.4اکیلا کافی نہیں جب تک پاس کی سطریں اور ان کا فرق2معلوم نہ ہو؛ زیادتی باب کی تقسیم اور ضرب سے منٹ بنتی ہے، صرف نام بدلنے سے نہیں {cite:nallino-albatenii-opus-astronomicum Arabic pp.16–17; Latin pp.10–11}۔ یہ تعلیمی مثال کی مزید وضاحت ہے، مخطوط کے عدد نہیں۔
+
+جدول کا آخری سرا پیمانہ دکھاتا ہے:90درجے پر دوگنے180درجے کے وتر کا نصف، قطر کا نصف یعنی60ہے۔30درجے پر60درجے کے وتر کا نصف30ہے، کیونکہ وتر نصف قطر کے برابر ہے {cite:nallino-albatenii-opus-astronomicum Arabic pp.13–16; Latin pp.9–10}۔ ان نقطوں کی ہندسی مساوات پاس کی سطروں کے استیفا سے مختلف ہے؛ جدول ہندسی نتیجے اور درمیانی تخمینے ساتھ رکھ سکتا ہے۔
+
+میک ٹیوٹر قائم الزاویہ مثلث کی ایک نسبت البتانی سے منسوب کرتا ہے: `b sin(A) = a sin(90 - A)` {cite:battani-mactutor trigonometric formulae}۔ علامتیں جدید حوالے کی ہیں، عربی مخطوط کی نقل نہیں۔ زاویے کا جیب، متمم زاویے کا جیب اور دو ضلعوں کی لمبائی ملتی ہے، جبکہ نصف وتر کا جدول حساب کے عدد دیتا ہے؛ نظری نسبت اور عددی جدول الگ کام کرتے ہیں {cite:battani-mactutor trigonometric formulae} {cite:nallino-albatenii-opus-astronomicum Arabic pp.13–17}۔
+
+جدید وضاحتی مثال، مخطوط کی مسئلہ نہیں:45درجے کا جیب متمم کے جیب کے برابر ہے، تو مقابل ضلع برابر ہوتے ہیں۔30درجے کا متمم60ہے اور دونوں جیب مختلف؛ صرف قائم زاویہ ہونا دو ضلعوں کو برابر نہیں کرتا۔ نصف قطر60کے پیمانے پر لکھنے سے دونوں طرف60کا ایک ہی عامل آتا اور کٹ جاتا ہے، ضلعوں کی نسبت نہیں بدلتی {cite:battani-mactutor trigonometric formulae} {cite:nallino-albatenii-opus-astronomicum Arabic p.16; Latin p.10}۔ یہ نسبت کا موجودہ حساب ہے، مصنف کے یہی مثالیں لینے کا دعویٰ نہیں۔
+
+استیفا بھی واضح فرضی تعلیمی جدول سے سمجھ سکتے ہیں، زیج کے عدد نہیں:30منٹ کے فاصلے کی دو سطروں کی قیمتیں20اور22فرض کریں۔ زیریں سطر سے6منٹ اوپر وقفے کا پانچواں حصہ ہے، لہٰذا2کے اضافے کا پانچواں حصہ20میں ملائیں تو20.4ہوتا ہے۔ الٹا،0.4کا اضافہ سطروں کے فرق2سے تقسیم ہو کر وقفے کا پانچواں حصہ، یعنی6منٹ، دیتا ہے {cite:nallino-albatenii-opus-astronomicum Arabic pp.16–17; Latin pp.10–11}۔ حساب کا واپس چلنا اصل منحنی کے سیدھا ہونے کا ثبوت نہیں؛ یہ دو نقطوں کے درمیان متناسب قدم سمجھاتا ہے، تقریب کی کامل صحت نہیں {cite:nallino-albatenii-opus-astronomicum Latin pp.10–11}۔
+
+ٹی ڈی وی زیج کے دوسرے کام متعین کرتی ہے: ابواب33–48جدولوں کے استعمال، باب32تقاویم کی تبدیلی، اور باب28مشاہدے سے چار موسموں کی مدت کے ہیں {cite:tdv-battani-muftuoglu Kitab al-Zij}۔ ہر جدولی عدد جیب اور ہر تاریخی فرق زاویہ نہیں؛ دالہ کا جدول وقت، رصد اور ہندسہ ملانے والے کام کا حصہ ہے {cite:tdv-battani-muftuoglu Kitab al-Zij}۔
+
+انسائیکلوپیڈیا ابواب5–26میں عمودی اسقاط کے اصولوں اور کروی مثلثیات کے جیبِ تمام قضیے پر مبنی خیالات بھی منسوب کرتی ہے {cite:tdv-battani-muftuoglu Kitab al-Zij}۔ اس ثانوی بیان کو براہ راست پڑھے نصف وتر کے باب سے الگ رکھتے ہیں: کروی مثلث اور اسقاط، مستوی قائم مثلث کی عین شے نہیں؛ مشترک دوال سے ہر برہان باب3میں پڑھنا ثابت نہیں {cite:tdv-battani-muftuoglu Kitab al-Zij} {cite:nallino-albatenii-opus-astronomicum Arabic pp.13–17}۔
+
 
 باب پہلے معلوم وتر بناتا ہے، مثلاً60 درجے کا وتر جو نصف قطر کے برابر ہے؛ قائمہ مثلث کے اضلاع کے مربعوں اور نصف دائرہ پورا کرنے والے قوسوں کے اوتار کا تعلق استعمال ہوتا ہے {cite:nallino-albatenii-opus-astronomicum Arabic pp. 13–15; Latin pp. 9–10}۔ پھر دوہرے قوس کے نصف وتر آتے ہیں، جن کا جدول ہر آدھے درجے پر90 درجے تک ہے {cite:nallino-albatenii-opus-astronomicum Arabic pp. 15–16; Latin p. 10}۔ ایک درجے کے وتر کے لیے تقریب بھی تعمیر کا حصہ ہے؛ ہر مرحلے کو تقریب سے پاک مکمل درست قدر کہنا مناسب نہیں {cite:nallino-albatenii-opus-astronomicum Latin pp. 9–10}۔
 

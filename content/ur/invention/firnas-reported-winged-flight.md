@@ -2,7 +2,16 @@
 id: invention/firnas-reported-winged-flight
 lang: ur
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: [ "Copilot SDK in VS Code" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: Translation of the Arabic additions, preserving source qualifications.
+    Research agent read TDV biography and four NASA Glenn guide pages; modern
+    force/glide comparison is explicitly separate from the historical report.
 ---
 ## خلاصہ
 
@@ -23,10 +32,24 @@ translators: ["Copilot SDK in VS Code"]
 لینہارڈ875 اور ایک برج بتاتے ہیں، دیکھا ہوا عربی حصہ نہ سال دیتا ہے نہ متعین برج؛ چنانچہ875 غیر یقینی علامت اور جدید راوی کی نسبت سے دکھایا گیا ہے، ہم عصر گواہ کی تاریخ نہیں {cite:lienhard-firnas-1910 narrative and postscript} {cite:nafh-tib-maqqari v.3 p.374}۔ ٹی ڈی وی کی وفات274ھ/887 چھلانگ کا سال یا چوٹ سے وفات کا ثبوت نہیں {cite:tdv-abbas-firnas-kirbiyik biography}۔
 
 ## بنانے والے
+ٹی ڈی وی پیدائش رندہ کے قریب تاکرنا کی بستی، بربر اصل، مگر متعین سال نہیں بتاتی، اور زندگی کو حکم اول، عبدالرحمن دوم اور محمد اول سے متعلق کرتی ہے {cite:tdv-abbas-firnas-kirbiyik biography}۔ یہ خدمت پنکھوں کے ایک متعین حکم دینے والے کو ثابت نہیں کرتی: پرواز کی خبر سرپرست یا خرچ دینے والا نہیں بتاتی {cite:nafh-tib-maqqari v.3 p.374}۔ سوانح شاعر عباس بن ناصح سے خلط پر متنبہ کرتی ہے؛ ملتا نام دوسرے کا شعر یا کام منتقل نہیں کرتا {cite:tdv-abbas-firnas-kirbiyik biography}۔
+
 
 روایت میں ابن فرناس منسوب تجربہ کرنے والے ہیں؛ «موجد» کا تعلق مروی آلے کے بنانے والے کی شناخت ہے، ثابت عالمی سبقت نہیں {cite:nafh-tib-maqqari v.3 p.374}۔ مسلم شناخت کی بنیاد حسن ابراہیم حسن کا دیکھی ہوئی تصویر میں صریح بیان ہے، نام، بربری اصل یا ملک نہیں {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}۔ اموی قرطبہ کا سنی فریم واضح میوزیمی سیاق ہے، ذاتی مسلک کی شہادت نہیں؛ سوانح مذہبی الزامات اور اسلام ویب کا جواب نام زد آوازوں میں میوزیم کے فیصلے کے بغیر رکھتی ہے {cite:tdv-abbas-firnas-kirbiyik biography} {cite:islamweb-firnas-406804 Ibn Firnas discussion}۔
 
 ## یہ کیسے کام کرتا ہے
+ناسا کے مستقل انزلاق کے نقشے میں قوتوں کے اجزا متوازن مگر حرکت جاری ہے: توازن ہوا میں رکنا نہیں، سادہ نمونے میں رفتار و سمت نہ بدلنا ہے {cite:nasa-glenn-gliding Vector Balance of Forces for a Glider}۔ وزن عمودی، اٹھان و مزاحمت مائل راستے سے متعلق ہیں، ساکن پرندے یا سیدھے سقوط سے مختلف {cite:nasa-glenn-gliding Vector Balance of Forces for a Glider}۔ یہ تعلیمی نقشے کی توضیح ہے، تاریخی خبر میں رفتار و سمت کا ریکارڈ نہیں؛ مقری ایسی متواتر مشاہدات نہیں دیتا جو اجزا یا شرائط آزمائیں {cite:nafh-tib-maqqari v.3 p.374}۔
+
+واضح جدید تقابل مفقود جهاز بحال کیے بغیر الفاظ سمجھاتا ہے: ناسا گلین شراعی جہاز کو بغیر انجن کے جہاز کہتا ہے، جس پر اٹھان، مزاحمت اور وزن ہیں، انجن کا دھکا نہیں {cite:nasa-glenn-gliding Glider; Forces on an Airplane}۔ یہ جدید تعلیمی علمِ پرواز ہے، ابن فرناس کے پنکھوں کا وصف یا مستحکم انزلاق کا ثبوت نہیں۔
+
+ناسا وزن مرکزِ زمین کی طرف، اٹھان ہوا میں حرکت کے عمود پر، مزاحمت حرکت کے خلاف، اور دھکا انجن والے جهاز کی محرکہ سے بتاتا ہے {cite:nasa-glenn-gliding Forces on an Airplane}۔ اوپر حرکت یا پنکھ کا ہونا دھکا ثابت نہیں کرتا؛ تاریخی «پر» اور «پنکھ» الگ قوتوں کی مقدار نہیں دیتے {cite:nasa-glenn-gliding Forces on an Airplane} {cite:nafh-tib-maqqari v.3 p.374}۔ تقابل لفظ سمجھاتا ہے، انجن یا ناپی عضلاتی قوت خبر میں شامل نہیں کرتا۔
+
+ناسا انزلاق کو بلندی کے بدلے رفتار کہتا ہے: شراعی جہاز اپنی آس پاس ہوا کی نسبت نیچے جاتا، اگرچہ اٹھتی ہوا زمین کی نسبت بلندی بڑھا سکتی ہے {cite:nasa-glenn-gliding Glider}۔ ہوا اور زمین کی نسبت حرکت مختلف ہیں۔ بیان کردہ بلندی مستقل ذاتی دھکے کی پرواز ثابت نہیں، نہ وضاحت مقری کے نامعلوم آغاز کی جگہ میں اٹھتی ہوا فرض کرتی ہے {cite:nasa-glenn-gliding Glider} {cite:nafh-tib-maqqari v.3 p.374}۔
+
+مستقل انزلاق میں ناسا اٹھان و مزاحمت کے تناسب کو نزولی زاویے سے ملاتا، اس کے ظل کو کھوئی بلندی تقسیم افقی فاصلے کے برابر بتاتا ہے {cite:nasa-glenn-gliding Vector Balance of Forces for a Glider; Glide Angle}۔ واضح جدید کاغذی مثال ایک بلندی کی اکائی کے ساتھ دس افقی اکائیاں طے کرتی ہے؛ ڈھلان ایک بہ دس ہے۔ اسی بلندی کے ساتھ پانچ افقی اکائیاں ہوں تو زیادہ شدید نزول ہے۔ یہ ابن فرناس کا فاصلہ یا زاویہ نہیں نکالتا، روایت دونوں ناپ نہیں دیتی {cite:nasa-glenn-gliding Glide Angle} {cite:nafh-tib-maqqari v.3 p.374}۔
+
+ہندسی وضاحت متعین حالتِ حرکت فرض کرتی ہے؛ اطلاق کو ناپ اور حالات چاہییں، کسی کو اڑنے والا کہہ دینا نہیں {cite:nasa-glenn-gliding Vector Balance of Forces for a Glider}۔ تاریخی رفتار، پنکھ کا رقبہ یا وزن کی تقسیم نہیں دی گئی، تو درست مساوات شاہد سے غائب قیمت نہیں دیتی {cite:nafh-tib-maqqari v.3 p.374}۔ انزلاق، اٹھان، دھکا اور اترنا الگ الفاظ ہیں؛ تقابل تعمیر کی ہدایت یا چھلانگ کی دعوت نہیں۔
+
 
 متن چند ہی عناصر دیتا ہے: جسم پر پر، دو بازو، ہوا میں سفر اور چوٹ والا اترنا؛ پر کا رقبہ، جھکاؤ اور قابو رکھنے کا نظام معلوم نہیں ہوتے {cite:nafh-tib-maqqari v.3 p.374}۔ صرف ان لفظوں سے مؤثر پر پھڑپھڑانا، مستحکم شہپری حرکت یا ناپی اونچائی ثابت نہیں؛ اس لیے نمائش نہ تعمیر کی ترکیب دیتی ہے نہ چھلانگ کا تجربہ {cite:nafh-tib-maqqari v.3 p.374}۔
 
@@ -65,6 +88,8 @@ translators: ["Copilot SDK in VS Code"]
 جدید شبینہ تصویر قرطبہ کا عباس ابن فرناس پل دکھاتی ہے، جسے ایڈمنڈو سائز نے21فروری2014 کو لیا؛ یہ تاریخی پر یا آلے کی بازتعمیر نہیں {cite:commons-firnas-bridge-saez Description and date}۔ پل جدید یاد میں نام رکھتا ہے، مشین کی کارکردگی ثابت کرنے کے لیے دوسری قسم کی شہادت چاہیے؛ محراب سے ابن فرناس کے پر کی شکل اخذ نہیں ہوتی {cite:commons-firnas-bridge-saez Description} {cite:nafh-tib-maqqari v.3 p.374}۔
 
 ## باقی ماندہ شواہد
+ٹی ڈی وی دوسرے کاموں میں بلور کاٹنا، آسمان کی نمائندگی اور ابن حیان کے نقل کردہ شعری ٹکڑے بتاتی ہے {cite:tdv-abbas-firnas-kirbiyik biography}۔ مقری شیشہ سازی، عروض اور موسیقی بھی صنائع میں ملاتے ہیں {cite:nafh-tib-maqqari v.3 pp.374–375}۔ یہ کثیر ہنر والے شخص کے مختلف متنی آثار ہیں، پنکھوں کے ثابت مادے نہیں؛ بلور کا کام پنکھ بلوری یا ہر ہنر ایک پروازی منصوبے کا مرحلہ نہیں بناتا {cite:tdv-abbas-firnas-kirbiyik biography} {cite:nafh-tib-maqqari v.3 pp.374–375}۔
+
 
 دیکھا گیا متنی شاہد مقری کا ایڈیشن، تحقیق احسان عباس،3:374–375، شاملہ پر ہے؛ محقق المغرب1:333 اور المقتبس ورق256ب کی طرف حوالہ دیتے ہیں، ان کے اصل پروازی حصے الگ گواہوں کے طور پر نہیں پڑھے گئے {cite:nafh-tib-maqqari v.3 pp.374–375 and note}۔ حسن کا مطبوعہ378، فائل کا مسح382 ہے؛ فرق پچھلا حوالہ درست کرتا ہے، سلامت بچنے کا ان کا قول نہیں بدلتا {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}۔
 
@@ -77,6 +102,8 @@ translators: ["Copilot SDK in VS Code"]
 پوچھیے ہر روایت نے پروں اور انجام کے بارے میں کیا کہا: ایک چوٹ بتاتی ہے، دوسری سلامت اٹھنا؛ ایک کو مٹا دینا اتفاق نہیں بناتا {cite:nafh-tib-maqqari v.3 p.374} {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}۔ میوزیم کا کام لفظ اور ماخذ کا موازنہ ہے، پر بنانا یا چھلانگ لگانا نہیں؛ حکایت آزمانے کے لیے محفوظ آلہ نہیں دیتی {cite:nafh-tib-maqqari v.3 p.374}۔
 
 ## مراجع
+- [[source/nasa-glenn-gliding|انزلاق اور پروازی قوتیں — ناسا گلین]]
+
 
 - مقری، نفح الطیب، تحقیق احسان عباس،3:374–375، اصل پڑھے ڈیجیٹل متن کا اندراج160 {cite:nafh-tib-maqqari v.3 pp.374–375}۔
 - حسن ابراہیم حسن، جلد4، مطبوعہ378/مسح382؛ عنوان اور1416/1996 کی طباعت کی تصویریں دیکھی گئیں {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}۔
