@@ -2,29 +2,82 @@ id: listing/islami-bank-bangladesh
 class: listing
 kind: company
 label:
-  ar: بنك الإسلام بنغلاديش
+  ar: بنك إسلامي بنغلاديش
   en: Islami Bank Bangladesh
+  ur: اسلامی بینک بنگلہ دیش
 summary:
-  ar: أول وأكبر بنك إسلامي في بنغلاديش؛ تأسس 1983 بدعم خليجي.
-  en: Islami Bank Bangladesh.
-wings: [made]
+  ar: بنك بنغلاديشي في دكا، سُجّل في 13 مارس 1983 وبدأ العمل في 30 مارس 1983 أولَ بنك متوافق مع الشريعة في بنغلاديش، بمشاركة
+    البنك الإسلامي للتنمية ومستثمرين سعوديين وكويتيين؛ أكبر شبكة مصرفية خاصة في البلاد، وتغيّرت ملكيته سنة 2017 ثم واجه أزمة
+    قروض سنة 2022.
+  en: A Bangladeshi bank in Dhaka, incorporated on 13 March 1983 and operating from 30 March 1983 as the first shari'ah-compliant
+    bank in Bangladesh, with the Islamic Development Bank and Saudi and Kuwaiti investors among its founders; it is the country's
+    largest private banking network, changed ownership in 2017 and faced a loan crisis in 2022.
+  ur: ڈھاکہ کا بنگلہ دیشی بینک، جو 13 مارچ 1983 کو رجسٹر ہوا اور 30 مارچ 1983 سے بنگلہ دیش کے پہلے شریعت کے مطابق بینک کے
+    طور پر کام کر رہا ہے؛ اس کے بانیوں میں اسلامی ترقیاتی بینک اور سعودی و کویتی سرمایہ کار شامل تھے؛ ملک کا سب سے بڑا نجی
+    بینکاری نیٹ ورک، 2017 میں ملکیت بدلی اور 2022 میں قرضوں کے بحران کا سامنا کیا۔
+wings:
+- made
+- today
 categories:
 - finance
 regions:
 - south-asia
 founded:
-  edtf: '1983'
+  edtf: '1983-03-30'
+  hijri: '1403-06-15'
   calendar: gregorian
-  precision: year
+  precision: day
+  status: historical
+  derived: true
+  note: Began operations on 30 March 1983 after incorporation on 13 March 1983 (Banglapedia, cited by the article). The Hijri
+    date is converter-derived (Umm al-Qura).
+  sources:
+  - source/wikipedia-islami-bank-bangladesh-en
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/official-website
+  sources:
+  - source/wikipedia-islami-bank-bangladesh-en
 external_ids:
-  official: https://www.islamibankbd.com
-sources: *id001
+  wikidata: Q12486811
+sources:
+- source/wikipedia-islami-bank-bangladesh-en
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  place: place/dhaka
+  serves:
+  - bd
+links:
+  official: https://www.islamibankbd.com
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - bn
+    - en
+    - fa
+    - id
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-islami-bank-bangladesh-en
+  wikidata: Q12486811
+  catalogues:
+    ticker: 'DSE: ISLAMIBANK'
+provenance:
+  layer: own-research
+  source: English Wikipedia "Islami Bank Bangladesh" (revision 1363917014, 13 July 2026), read in Chrome on the founder's
+    Mac on 6 November 2026; Wikidata sitelinks read the same day; the 2012 Senate mention, the 2017 ownership change and the
+    2022 loan reports are told as the cited press reports them, with the bank's denial, no verdict; the existing Wikidata-only
+    draft (Devin, listings lane, 16 October 2026) was enriched in place, its unsourced superlatives dropped (see the enterprise
+    progress file)
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b01

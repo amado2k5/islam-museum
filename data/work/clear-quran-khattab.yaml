@@ -1,0 +1,30 @@
+id: work/clear-quran-khattab
+class: work
+kind: book
+label: { ar: "القرآن الواضح: ترجمة إنجليزية موضوعية", en: "The Clear Quran: A Thematic English Translation", ur: "دی کلیئر قرآن: موضوعاتی انگریزی ترجمہ" }
+summary:
+  ar: "ترجمة إنجليزية لمعاني القرآن وضعها العالم والإمام الكندي المصري مصطفى خطاب، صدرت عن مؤسسة «بوك أوف ساينز» في لومبارد بإلينوي ⁦(سنة 2016 عند مشروع «القرآن العالمي»، و2015 في قائمة ويكيبيديا)⁩، بإنجليزية كندية معاصرة، مقسّمة إلى فقرات موضوعية بعناوين، مع مقدمة لكل سورة وحواشٍ معتدلة، وأقواس نصفية للإضافات التوضيحية؛ وقد صارت الترجمة الافتراضية في موقع quran.com سنة 2020، وتوزعها دار السلام بسعر منخفض، ونشأت منها سلسلة كاملة من الإصدارات."
+  en: "An English rendering of the meanings of the Qur'an by the Canadian–Egyptian scholar and imam Mustafa Khattab, published by the Book of Signs Foundation in Lombard, Illinois (2016 according to the Global Qur'an project, 2015 in the Wikipedia list), in contemporary Canadian English, arranged in thematic paragraphs with headers, a short introduction to each sura, moderate footnotes and half brackets for explanatory insertions; it became the default translation on quran.com in 2020, is distributed at a low price by Darussalam, and has grown into a whole series of editions."
+  ur: "قرآن کے معانی کا انگریزی ترجمہ از کینیڈی مصری عالم و امام مصطفیٰ خطاب، جو لومبارڈ، الینوائے کی بک آف سائنز فاؤنڈیشن سے شائع ہوا، «گلوبل قرآن» منصوبے کے مطابق 2016 اور ویکیپیڈیا کی فہرست کے مطابق 2015 میں؛ معاصر کینیڈین انگریزی، عنوانات والے موضوعاتی پیراگراف، ہر سورت کا مختصر تعارف، معتدل حواشی اور توضیحی اضافوں کے لیے نصف قوسین؛ 2020 میں quran.com کا طے شدہ ترجمہ بنا، دار السلام اسے کم قیمت پر تقسیم کرتا ہے، اور اس سے اشاعتوں کا پورا سلسلہ وجود میں آیا۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission]
+regions: [americas-oceania]
+genre: [quran-translation]
+authors: [person/mustafa-khattab]
+language: language/english
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-khattab-en] }
+composed: { edtf: "2015/2016", calendar: gregorian, precision: year, status: debated, note: "First publication: 2016 (Book of Signs Foundation, Lombard, Illinois) in the Global Qur'an project's review; 2015 in the translator's English Wikipedia biography ('The Clear Quran Series (2015)'). Both kept; the interval spans 1436–1438 AH, so no Hijri year is recorded.", sources: [source/gloqur-clear-and-easy-translations, source/wikipedia-khattab-en] }
+editions:
+  - "The Clear Quran: A Thematic English Translation. Lombard, Illinois: Book of Signs Foundation, 2015/2016 (first edition)"
+  - "The Clear Quran Series: many formats and versions, including The Clear Quran Series for Kids (2020) and The Clear Quran Series Dictionary (2021)"
+  - "Default English translation on quran.com from 2020"
+relations:
+  - { type: translation_of, target: work/quran, sources: [source/gloqur-clear-and-easy-translations] }
+sources: [source/gloqur-clear-and-easy-translations, source/wikipedia-khattab-en]
+provenance:
+  layer: own-research
+  source: "GloQur post #204 (Johanna Pink, 1 November 2024) of the University of Münster's Global Qur'an project for the first publisher, the method and the reception; the museum's source for the translator's English Wikipedia biography for the 2015 date, the series, quran.com and Al-Azhar's approval; read in Chrome on 6 November 2026. The book has no Wikipedia article or Wikidata item of its own (searched 6 November 2026)."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

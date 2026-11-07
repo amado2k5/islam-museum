@@ -2,29 +2,46 @@ id: listing/muslim-pro
 class: listing
 kind: app
 label:
-  ar: مسلم برو
-  en: Muslim Pro
+  ar: "مسلم برو"
+  en: "Muslim Pro"
+  ur: "مسلم پرو"
 summary:
-  ar: تطبيق مواقيت الصلاة والأذان الأشهر عالميًا؛ يستخدمه ملايين المسلمين يوميًا.
-  en: Muslim Pro.
-wings: [made]
-categories:
-- technology
-regions:
-- southeast-asia
+  ar: "تطبيق لمواقيت الصلاة والأذان والقبلة والقرآن تنشره شركة بِتس ميديا في سنغافورة، صدر على iOS سنة 2010 وعلى أندرويد سنة 2011؛ استحوذت عليه سنة 2017 شركتا استثمار ماليزية وسنغافورية، وأضاف خدمة البث «قلب بوكس» سنة 2022، وتقول الشركة إن تنزيلاته تجاوزت 190 مليونًا بحلول رمضان 2026. كشف تحقيق لمجلة مذربورد في نوفمبر 2020 أنه كان يرسل بيانات الموقع إلى وسيط يبيعها لمتعاقدين مع الجيش الأمريكي، فأعلن وقف ذلك."
+  en: "A prayer-times, adhan, qibla and Qur'an app published by Bitsmedia in Singapore, released on iOS in 2010 and on Android in 2011; it was acquired in 2017 by a Malaysian and a Singaporean investment firm, added the streaming service Qalbox in 2022, and the company says its downloads passed 190 million by Ramadan 2026. A Motherboard investigation of November 2020 found it sending location data to a broker that sold data to US military contractors, after which it said it would stop."
+  ur: "نماز کے اوقات، اذان، قبلہ اور قرآن کی ایپ جسے سنگاپور میں بِٹس میڈیا شائع کرتی ہے؛ 2010 میں iOS اور 2011 میں اینڈرائیڈ پر آئی؛ 2017 میں ایک ملائیشیائی اور ایک سنگاپوری سرمایہ کار ادارے نے اسے حاصل کیا، 2022 میں اسٹریمنگ سروس «قلب باکس» شامل کی، اور کمپنی کے مطابق رمضان 2026 تک ڈاؤن لوڈ 19 کروڑ سے بڑھ گئے۔ نومبر 2020 میں مدر بورڈ کی تحقیق نے پایا کہ یہ مقام کا ڈیٹا ایک ایسے دلال کو بھیجتی تھی جو امریکی فوج کے ٹھیکیداروں کو ڈیٹا بیچتا تھا، جس کے بعد اس نے یہ بند کرنے کا اعلان کیا۔"
+wings: [made, today]
+categories: [technology]
+regions: [southeast-asia]
 founded:
-  edtf: '2010'
+  edtf: "2010"
+  hijri: "1431~"
   calendar: gregorian
   precision: year
-made:
-  by_muslims: true
-  basis: documented
-  sources: &id001
-  - source/official-website
+  status: historical
+  derived: true
+  note: "Conceived in 2009 and released on iOS in 2010, Android following in 2011, as the company states; Wikidata gives a publication date of 21 August 2010 without a reference. The Hijri year is converter-derived."
+  sources: [source/muslim-pro-about-us, source/wikidata-muslim-pro]
+made: { by_muslims: false, basis: unverified }
+status_business: active
+location: { online_only: true, serves: [global] }
+links:
+  official: "https://www.muslimpro.com"
+  play_store: "https://play.google.com/store/apps/details?id=com.bitsmedia.android.muslimpro"
+reach:
+  - { platform: play-store, metric: installs, value: 100000000, date: "2026-11-06", note: "100M+ band on the Google Play page, Android only; rated 3.6 from about 1.92 million reviews that day", sources: [source/google-play-muslim-pro] }
+  - { platform: play-store, metric: downloads, value: 50000000, date: "2020-11-16", note: "'over 50 million times on Android, according to the Google Play Store', as Motherboard reported it; the same report gives over 98 million across platforms by the company's site", sources: [source/vice-us-military-location-data-2020] }
+footprint:
+  wikidata: "Q140390847"
+  press:
+    - { source: source/vice-us-military-location-data-2020, date: { edtf: "2020-11-16", calendar: gregorian, precision: day }, kind: investigation, lang: en, title: { en: "How the U.S. Military Buys Location Data from Ordinary Apps" }, note: "Motherboard observed the app sending location data to X-Mode; Muslim Pro then said it would stop sharing data with X-Mode" }
 external_ids:
+  wikidata: Q140390847
   official: https://www.muslimpro.com
-sources: *id001
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
+sources: [source/muslim-pro-about-us, source/vice-us-military-location-data-2020, source/wikidata-muslim-pro, source/google-play-muslim-pro]
+provenance:
+  layer: own-research
+  source: "Muslim Pro's 'About Us' page, Joseph Cox in Motherboard (16 November 2020), Wikidata Q140390847 (revision 2512552361) and the Google Play page, read in Chrome on the founder's Mac on 6 November 2026; enriches the draft of 16 October 2026 (Devin, listings lane) on the same id"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

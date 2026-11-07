@@ -1,0 +1,46 @@
+id: listing/quraish-game
+class: listing
+kind: game
+label:
+  ar: "قريش ⁦(لعبة فيديو)⁩"
+  en: "Quraish (video game)"
+  ur: "قریش ⁦(ویڈیو گیم)⁩"
+summary:
+  ar: "لعبة استراتيجية في الزمن الحقيقي ثلاثية الأبعاد من إنتاج استوديو أفكار ميديا في دمشق ونشر دار الفكر، صدرت في 2 أغسطس 2005 بحسب ويكيبيديا الإنجليزية ⁦(والعربية تذكر 2007)⁩، تدور حول حروب القبائل العربية قبل الإسلام وحروب الردة وحملات الخلافة الراشدة على الروم والفرس."
+  en: "A 3D real-time strategy game by the Damascus studio Afkar Media, published by Dar al-Fikr and released on 2 August 2005 by the English Wikipedia (the Arabic gives 2007), about the pre-Islamic Arab tribal wars, the Ridda wars and the Rashidun Caliphate's campaigns against the Byzantines and the Sasanians."
+  ur: "دمشق کے اسٹوڈیو افکار میڈیا کا سہ جہتی حکمتِ عملی کا کھیل، ناشر دار الفکر؛ انگریزی ویکیپیڈیا کے مطابق 2 اگست 2005 کو جاری ہوا ⁦(عربی میں 2007)⁩؛ قبل از اسلام عرب قبائل کی جنگیں، جنگ ہائے ردہ اور خلافتِ راشدہ کی روم و فارس کے خلاف مہمات۔"
+wings: [made]
+categories: [games]
+regions: [levant-iraq]
+founded:
+  edtf: "2005-08-02"
+  hijri: "1426-06-27"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "2 August 2005 is the English article's infobox date; the Arabic article's infobox gives 2007 and its categories list both 2005 and 2007 (perhaps a later edition); both kept. The Hijri date is converter-derived (Umm al-Qura)."
+  sources: [source/wikipedia-quraish-game-en]
+made: { by_muslims: false, basis: unverified }
+status_business: unknown
+location: { serves: [global] }
+links:
+  platforms: ["Windows", "Android"]
+footprint:
+  wikipedia: { languages: [ar, bn, en, fa, ms, vi], checked: "2026-11-06", sources: [source/wikidata-quraish-game] }
+  wikidata: "Q18968223"
+relations:
+  - { type: related_to, target: listing/afkar-media, note: "developer; published by Dar al-Fikr, Damascus", sources: [source/wikipedia-quraish-game-en] }
+  - { type: related_to, target: group/quraysh, note: "the tribe that gives the game its name", sources: [source/wikipedia-quraish-game-en] }
+  - { type: related_to, target: event/ridda-wars, sources: [source/wikipedia-quraish-game-en] }
+  - { type: related_to, target: event/battle-of-al-qadisiyya, note: "among the battles in the game, as the Arabic article lists them", sources: [source/wikipedia-quraish-game-en] }
+external_ids:
+  wikidata: Q18968223
+sources: [source/wikipedia-quraish-game-en, source/wikidata-quraish-game]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Quraish (video game)' (revision 1360806946, 23 June 2026), the Arabic article «قريش ⁦(لعبة فيديو)⁩» (stable revision 75304977) and Wikidata Q18968223, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b03
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

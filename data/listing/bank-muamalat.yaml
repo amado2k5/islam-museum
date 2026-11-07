@@ -2,29 +2,76 @@ id: listing/bank-muamalat
 class: listing
 kind: company
 label:
-  ar: بنك معاملات
-  en: Bank Muamalat
+  ar: بنك معاملات ماليزيا
+  en: Bank Muamalat Malaysia
+  ur: بینک معاملات ملائیشیا
 summary:
-  ar: ثاني بنك إسلامي في ماليزيا؛ تأسس 1999 بدمج ثلاث مؤسسات.
-  en: Bank Muamalat.
-wings: [made]
+  ar: 'بنك إسلامي ماليزي في كوالالمبور، بدأ العمل في 1 أكتوبر 1999 بأصول وخصوم النوافذ الإسلامية لثلاث مؤسسات: بنك بوميبوترا
+    ماليزيا وبنك التجارة الماليزي وبي بي إم بي كيوانغان.'
+  en: 'A Malaysian Islamic bank in Kuala Lumpur, which began operating on 1 October 1999 with the assets and liabilities of
+    the Islamic banking windows of three institutions: Bank Bumiputra Malaysia, Bank of Commerce (M) and BBMB Kewangan.'
+  ur: کوالالمپور کا ملائیشیائی اسلامی بینک، جس نے 1 اکتوبر 1999 کو تین اداروں، بینک بومی پترا ملائیشیا، بینک آف کامرس اور
+    بی بی ایم بی کیوانگن، کی اسلامی بینکاری کھڑکیوں کے اثاثوں اور واجبات سے کام شروع کیا۔
+wings:
+- made
+- today
 categories:
 - finance
 regions:
 - southeast-asia
 founded:
-  edtf: '1999'
+  edtf: '1999-10-01'
+  hijri: '1420-06-21'
   calendar: gregorian
-  precision: year
+  precision: day
+  status: historical
+  derived: true
+  note: Began operations on 1 October 1999 (the bank's page, cited by the article). The Hijri date is converter-derived (Umm
+    al-Qura).
+  sources:
+  - source/wikipedia-bank-muamalat-malaysia-en
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/wikidata
+  sources:
+  - source/wikipedia-bank-muamalat-malaysia-en
 external_ids:
-  wikidata: Q4855949
-sources: *id001
+  wikidata: Q4855948
+sources:
+- source/wikipedia-bank-muamalat-malaysia-en
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - my
+links:
+  official: https://www.muamalat.com.my
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - en
+    - ms
+    - ta
+    - ur
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-bank-muamalat-malaysia-en
+  wikidata: Q4855948
+provenance:
+  layer: own-research
+  source: English Wikipedia "Bank Muamalat Malaysia" (revision 1359340883, 14 June 2026), read in Chrome on the founder's
+    Mac on 6 November 2026; Wikidata sitelinks read the same day; the draft carried the Wikidata item of Bank Muamalat Indonesia
+    (Q4855949) while describing the Malaysian bank; the item is corrected to Q4855948 and the Indonesian bank is written as
+    listing/bank-muamalat-indonesia; the existing Wikidata-only draft (Devin, listings lane, 16 October 2026) was enriched
+    in place
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b02
