@@ -14,8 +14,12 @@ On "how should I fear what you associate, when you do not fear that you associat
 
 The editor refers for "authority", "party" and "security" to earlier passages.
 
-Muhammad ibn Ishaq said the like (13467), on "how should I fear what you associate, when you do not fear that you associate with God", he says... {cite:tafsir-tabari-shakir-v11 p. 490}
+13467, from Muhammad ibn Ishaq: how should I fear an idol you worship besides God that neither harms nor benefits, while you do not fear the one who harms and benefits, though you have set up with him partners that neither harm nor benefit? "Which of the two parties has better right to security, if you know?" that is, security from God's punishment in this world and the next, the one who worships him in whose hand are harm and benefit, or the one who worships what neither harms nor benefits? He gives them parables and varies for them the lessons that they may know that God has more right to be feared and worshipped than what they worship besides him. {cite:tafsir-tabari-shakir-v11 p. 491}
 
-We stop here at the foot of p. 490, at the opening of report 13467 from Ibn Ishaq on verse 81, and al-Tabari continues on p. 491.
+13468, from al-Rabi: God gave Abraham the better of it when he argued with them, saying "how should I fear what you associate...", then said "that was our argument that we gave Abraham against his people". 13469 and 13470, from Mujahid: Abraham's saying when he asked them which party has better right to security is Abraham's argument. 13471, from Ibn Jurayj: the one who worships one lord or the one who worships many lords? His people say: those who believe in one lord. 13472, from Ibn Zayd: the one who fears other than God and does not fear him, or the one who fears God and fears no other? And God said "those who believe and do not mix their belief with wrong". {cite:tafsir-tabari-shakir-v11 p. 492}
+
+The editor explains "I gave so-and-so the better of his opponent" as overcoming him, and "God gave him the better of it" as granting him victory, success and mastery, and refers for 13471 to report 13475, saying this is a saying of Abraham's people.
+
+Verse 81 closes here on p. 492, and al-Tabari goes on to [[passage/quran-6-82|6:82]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
