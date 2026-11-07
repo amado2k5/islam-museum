@@ -38,3 +38,6 @@ Contentment means accepting what God decrees with a calm heart. Al-Ghazali says 
 ## Notes for researchers
 - Page numbers are from the Shamela file, not the printed book; the verses there have scrambled letters, so nothing is quoted from them.
 - Judgements on hadith are attributed to al-Iraqi.
+
+## In Mustafa Hosny's programme 'Ahl al-Janna'
+[[person/mustafa-hosny|Mustafa Hosny]] gives the nineteenth episode of his programme [[work/ahl-al-jannah|'Ahl al-Janna']] to the content and the resentful: the content person, he says, tells his Lord that he loves Him and asks Him to do what He loves. {cite:assabile-mustafa-hosny ahl-al-jannah/ep19 00:03:00} He makes [[person/ayyub|Job]] his neighbour in Paradise as the model of contentment and patience, noting his courtesy in prayer, since he said harm had touched him and did not ascribe it to God. {cite:assabile-mustafa-hosny ahl-al-jannah/ep19 00:05:00} {cite:assabile-mustafa-hosny ahl-al-jannah/ep19 00:05:30} He defines resentment as objecting to God's decrees from a belief that one deserves kinder treatment from one's Lord, and says Satan was resentful when he was ordered to prostrate to Adam. {cite:assabile-mustafa-hosny ahl-al-jannah/ep19 00:06:30}
