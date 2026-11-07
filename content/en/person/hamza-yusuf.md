@@ -44,7 +44,7 @@ This section reports positions as the sources attribute them; it is not a verdic
 
 He serves as vice-president of the Global Center for Guidance and Renewal and of the United Arab Emirates-based Forum for Promoting Peace in Muslim Societies, both presided over by Abdallah bin Bayyah; the Forum has attracted wide controversy, the article records, for its close ties to the UAE government, its support for authoritarian leaders since the Arab Spring and its support for the Abraham Accords, and Yusuf denied in his 2023 address at Toronto's RIS conference that the Forum's statements reflect his personal opinions and that he has "never been in favour of normalization". {cite:wikipedia-hamza-yusuf-en}
 
-He condemned the 9/11 attacks as "an act of mass murder, pure and simple", and said that "Islam was hijacked ... on that plane as an innocent victim"; he is a signatory of A Common Word Between Us and You and of the open letter to the ISIS leader Abu Bakr al-Baghdadi refuting that organisation's principles. {cite:wikipedia-hamza-yusuf-en}
+He condemned the 9/11 attacks as "an act of mass murder, pure and simple", and said that "Islam was hijacked ... on that plane as an innocent victim"; he is a signatory of A Common Word Between Us and You. {cite:wikipedia-hamza-yusuf-en}
 
 In a 2011 interview he argued that constitutional monarchy is a stronger form of governance than democracy, on the ground that a king, already satiated, is incorruptible in a way the wealthy are not. {cite:wikipedia-hamza-yusuf-en}
 

@@ -20,7 +20,7 @@ The project gave rise to the Abul-Qasim Publishing House, the first press in Jed
 The preface says the translation was made after study of the earlier English translations, and that it presents the core meanings according to the creed of Ahl al-Sunna wa-l-Jama'a, in line with [[person/ibn-kathir|Ibn Kathir]] and [[person/ibn-taymiyya|Ibn Taymiyya]], with particular care for the names and attributes of God. {cite:gloqur-saheeh-international} It is written in contemporary English, with more than two thousand footnotes, most of them brief. {cite:gloqur-saheeh-international}
 
 ## Reception
-Yakubovych writes that it is widely used for private reading and as a source of quotations; that in the UK it is one of the most popular Muslim translations, found in almost every Sunni mosque and Islamic centre, helped by free distribution, though no official body issued it; and that it has drawn much less criticism than Hilali–Khan. {cite:gloqur-saheeh-international} A 2017 press report said it had become the main version used in English-language propaganda of the Islamic State group. {cite:gloqur-saheeh-international}
+Yakubovych writes that it is widely used for private reading and as a source of quotations; that in the UK it is one of the most popular Muslim translations, found in almost every Sunni mosque and Islamic centre, helped by free distribution, though no official body issued it; and that it has drawn much less criticism than Hilali–Khan. {cite:gloqur-saheeh-international}
 
 ## References
 - Mykhaylo Yakubovych, "Qur'an translation of the week #192", The Global Qur'an, 2024. {cite:gloqur-saheeh-international}

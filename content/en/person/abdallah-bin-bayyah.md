@@ -21,7 +21,7 @@ After Mauritania's independence he served as minister of education and as minist
 
 ## International roles
 
-He is president of the Forum for Promoting Peace in Muslim Societies, based in Abu Dhabi, and was a vice-president of the International Union of Muslim Scholars; the English article dates his resignation to 2014 and the Arabic article to 2013.{cite:wikipedia-abdallah-bin-bayyah-en}{cite:wikipedia-abdallah-bin-bayyah-ar} He signed the Amman Message and the open Letter to Baghdadi, and in 2014 he issued a fatwa against the Islamic State group.{cite:wikipedia-abdallah-bin-bayyah-en}
+He is president of the Forum for Promoting Peace in Muslim Societies, based in Abu Dhabi, and was a vice-president of the International Union of Muslim Scholars; the English article dates his resignation to 2014 and the Arabic article to 2013.{cite:wikipedia-abdallah-bin-bayyah-en}{cite:wikipedia-abdallah-bin-bayyah-ar} He signed the Amman Message and the open Letter to Baghdadi.{cite:wikipedia-abdallah-bin-bayyah-en}
 
 ## School
 

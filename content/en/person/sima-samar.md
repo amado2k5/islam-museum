@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## Summary
-Sima Samar (born 3 February 1957) is an Afghan physician and human rights advocate who served as Afghanistan's first post-Taliban Minister of Women's Affairs, chaired the Afghan Independent Human Rights Commission from 2002 to 2019, and was UN Special Rapporteur on the situation of human rights in Sudan from 2005 to 2009. {cite:wikipedia-sima-samar-en} {cite:un-sima-samar-panel} She received the Right Livelihood Award in 2012 for her dedication to human rights, especially women's rights. {cite:wikipedia-sima-samar-en}
+Sima Samar (born 3 February 1957) is an Afghan physician and human rights advocate who served as Afghanistan's first Minister of Women's Affairs, chaired the Afghan Independent Human Rights Commission from 2002 to 2019, and was UN Special Rapporteur on the situation of human rights in Sudan from 2005 to 2009. {cite:wikipedia-sima-samar-en} {cite:un-sima-samar-panel} She received the Right Livelihood Award in 2012 for her dedication to human rights, especially women's rights. {cite:wikipedia-sima-samar-en}
 
 ## Early life and education
 Samar was born on 3 February 1957 in Jaghori, in Ghazni province; she belongs to the ethnic Hazara. {cite:wikipedia-sima-samar-en} {cite:un-sima-samar-panel} Encyclopedia.com gives the birth date as 4 February 1957, a variant recorded in her data record and not followed. {cite:encyclopedia-sima-samar} She obtained her degree in medicine in February 1982 at Kabul University and practised at a government hospital in Kabul before fleeing for her safety to her native Jaghori, where she treated patients across the remote areas of central Afghanistan. {cite:wikipedia-sima-samar-en}

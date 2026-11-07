@@ -46,7 +46,6 @@ translators: []
 - درس کے آخر میں وہ حاضرین کے سوالوں کے جواب دیتے ہیں، جن میں بھائی کو زکوٰۃ دینے کا سوال بھی ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:59:30}
 
 ## پانچویں قسط: آخرت جزا کا گھر
-- وہ شیخ [[person/ahmed-yassin|احمد یاسین]] کے لیے رحمت کی دعا سے آغاز کرتے ہیں، اور اس دن کی حکمت کو حاضرین کی کیفیت کے موافق پاتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:00}
 - وہ ابن عطاء اللہ کی اس حکمت کی شرح کرتے ہیں کہ یہ دنیا اس کی گنجائش نہیں رکھتی جو اللہ اپنے مومن بندوں کو دینا چاہتا ہے، اس لیے اس نے آخرت کو ان کی جزا کی جگہ بنایا۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:27:30}
 - وہ [[event/battle-of-al-qadisiyya|قادسیہ]] کے ان شہیدوں پر عمر کے رونے کا ذکر کرتے ہیں جنہیں وہ نہیں جانتے تھے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:01:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:02:00}
 - وہ جابر کے والد [[person/abdullah-ibn-amr-ibn-haram|عبد اللہ بن عمرو انصاری]] کا واقعہ اور اللہ کا ان سے بے حجاب کلام بیان کرتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:08:30}
