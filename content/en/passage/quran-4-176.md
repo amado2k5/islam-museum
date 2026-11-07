@@ -38,6 +38,10 @@ Al-Tabari then asks how to understand the ruling on the sister, given the agreem
 
 On 'and he inherits her if she has no child': it means the brother of a woman inherits her if she dies before him, when she is inherited by kalala and has no child or father. On 'if they are two, they have two-thirds of what he left', it means: if the sisters left are two, they have two-thirds of what their brother left; if there are brothers and sisters, the male has the like of the share of two females; this is when he is inherited by kalala. {cite:tafsir-tabari-shakir-v09 p. 444}
 
-We stop here at the foot of p. 444, in the commentary on verse 176, and will continue from p. 445. {cite:tafsir-tabari-shakir-v09 p. 444}
+Al-Tabari says 'God makes clear to you lest you go astray' means: God makes clear to you the division of your inheritances, the ruling on the kalala, and how their shares are, so that you do not go astray in the matter of inheritance and its division; that is, lest you swerve from the truth in it and miss the ruling and so stray from the straight road. Report 10891, from Ibn Jurayj: this concerns the inheritances. Report 10892, from Ibn Sirin: when Umar read the phrase, he said: O God, whoever the kalala was made clear to, while it was not made clear to me. {cite:tafsir-tabari-shakir-v09 p. 445}
+
+On the position of 'an' (that), al-Tabari says some grammarians take it as accusative because it joins the verb, while others take it as genitive with the sense of 'lest you go astray', the 'not' being dropped from the wording but intended in the sense, as one says: I came to you that you might blame me, meaning that you might not blame me. {cite:tafsir-tabari-shakir-v09 p. 446}
+
+As for 'God is knowing of everything', al-Tabari says it means: God knows all that concerns His servants' welfare in the division of their inheritances and other matters, and all things; He has knowledge of all this. {cite:tafsir-tabari-shakir-v09 p. 446}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
