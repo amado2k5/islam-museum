@@ -14,6 +14,8 @@ This is God's consolation to his prophet Muhammad and comfort for the distress h
 
 The editor says the manuscript has "until God's palace came to them", a slip of the copyist, the printed wording being right, and refers for "news" to p. 262.
 
-We stop here at the foot of p. 335, within the explanation of "and there has come to you some of the news of the messengers", at "the like of what I did among those", which continues on p. 336.
+The rest: among the messengers before you when their peoples denied them, and follow them in their patience with what they met from their peoples. The interpreters who interpreted this verse took it so: report 13198, from Qatada: he consoles his prophet, as you hear, and tells him that messengers were denied before him and were patient in being denied until God judged, and he is the best of judges. 13199, from al-Dahhak: he consoles his prophet; 13200, from Ibn Jurayj, the like. {cite:tafsir-tabari-shakir-v11 p. 336}
+
+Verse 34 closes here at p. 336, and al-Tabari goes on to [[passage/quran-6-35|6:35]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
