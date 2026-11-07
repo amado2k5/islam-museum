@@ -86,33 +86,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/amr-ibn-salim
 - [x] person/amr-ibn-umayya
 
-## Remaining published records (132)
+## Batch 04 (25 entities)
 
-- [ ] person/amr-ibn-uthman-taymi
-- [ ] person/amra-bint-al-saadi
-- [ ] person/asim-ibn-thabit
-- [ ] person/attab-ibn-usayd
-- [ ] person/awf-ibn-malik-al-ashjai
-- [ ] person/ayman-ibn-ubayd
-- [ ] person/baraka-bint-yasar
-- [ ] person/bishr-ibn-al-harith-sahmi
-- [ ] person/buraydah-ibn-al-husayb
-- [ ] person/dhu-al-bijadayn
-- [ ] person/fadala-ibn-umayr
-- [ ] person/farwa-ibn-musayk
-- [ ] person/fatima-bint-abi-hubaysh
-- [ ] person/fatima-bint-al-harith-ibn-khalid
-- [ ] person/fatima-bint-al-mujallal
-- [ ] person/fatima-bint-safwan
-- [ ] person/firas-ibn-al-nadr
-- [ ] person/fukayha-bint-yasar
-- [ ] person/ghalib-ibn-abdullah-al-laythi
-- [ ] person/habbar-ibn-sufyan
-- [ ] person/habib-ibn-zayd
-- [ ] person/habiba-bint-ubaydullah
-- [ ] person/hajjaj-ibn-amr-al-ansari
-- [ ] person/hamza-ibn-amr-al-aslami
-- [ ] person/harami-ibn-abdullah
+- [x] person/amr-ibn-uthman-taymi
+- [x] person/amra-bint-al-saadi
+- [x] person/asim-ibn-thabit
+- [x] person/attab-ibn-usayd
+- [x] person/awf-ibn-malik-al-ashjai
+- [x] person/ayman-ibn-ubayd
+- [x] person/baraka-bint-yasar
+- [x] person/bishr-ibn-al-harith-sahmi
+- [x] person/buraydah-ibn-al-husayb
+- [x] person/dhu-al-bijadayn
+- [x] person/fadala-ibn-umayr
+- [x] person/farwa-ibn-musayk
+- [x] person/fatima-bint-abi-hubaysh
+- [x] person/fatima-bint-al-harith-ibn-khalid
+- [x] person/fatima-bint-al-mujallal
+- [x] person/fatima-bint-safwan
+- [x] person/firas-ibn-al-nadr
+- [x] person/fukayha-bint-yasar
+- [x] person/ghalib-ibn-abdullah-al-laythi
+- [x] person/habbar-ibn-sufyan
+- [x] person/habib-ibn-zayd
+- [x] person/habiba-bint-ubaydullah
+- [x] person/hajjaj-ibn-amr-al-ansari
+- [x] person/hamza-ibn-amr-al-aslami
+- [x] person/harami-ibn-abdullah
+
+## Remaining published records (107)
+
 - [ ] person/haritha-ibn-al-numan
 - [ ] person/hasana-umm-shurahbil
 - [ ] person/hassan-ibn-milla

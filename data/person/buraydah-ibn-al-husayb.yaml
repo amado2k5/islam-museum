@@ -28,6 +28,7 @@ relations:
   - { type: lived_in, target: place/basra, sources: [source/ibn-hajar-isaba, source/istiab-alam-2002] }
   - { type: traveled_to, target: place/khurasan, note: "خرج إليها غازياً {cite:istiab-alam-2002 p. 94}", sources: [source/istiab-alam-2002] }
   - { type: died_in, target: place/merv, note: "مات بمرو وقبره بالجصين فيما رواه البخاري عن ابنه عبد الله {cite:istiab-alam-2002 p. 94}", sources: [source/istiab-alam-2002] }
+  - { type: member_of, target: group/sahaba, sources: [source/istiab-alam-2002] }
 provenance:
   layer: own-research
   source: "al-Isti'ab (Dar al-A'lam 2002) p. 94, entry 219; al-Isaba entry 660 p. 141 (earlier record); Futuh al-Buldan (merged card)"

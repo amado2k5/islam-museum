@@ -26,6 +26,7 @@ relations:
   - { type: ruler_of, target: place/mecca, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/umrah-of-jirana, role: confirmed-governor-of-mecca, sources: [source/mubarakpuri-raheeq] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: own-research
   source: "al-Raheeq al-Makhtum (Mubarakpuri); Encyclopaedia of Islam, 2nd ed., vol. 1, PDF p. 800, entry UMAWI (the continuation of the ATTAB B. ASID B. ABI'L-IS B. UMAYYA AL-UMAWI heading that ends the seq 418 row; batch ei2-b013 part 56, seq 419)"
