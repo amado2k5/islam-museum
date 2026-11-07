@@ -237,3 +237,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 33: pp. 493-499 filed in ar, en and ur (reports 11002-11019): verse 3 is filed to the foot of p. 499.
 - Batch 34: pp. 500-506 filed in ar, en and ur (reports 11021-11046): verse 3 is filed to the foot of p. 506.
 - Progress: current report 11046, printed p. 505. Next is the rest of verse 3 from printed p. 506 on (the rest of the exception and the verses that follow).
+
+## Volume 11 progress
+- Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
+- Batch 1: pp. 7-13 filed in ar, en and ur (reports 12544-12565): verse 5:95 begun; stop at the foot of p. 13 at the choice of the reading of 'jaza' mithl' (next: the rest of 5:95 from p. 14).
