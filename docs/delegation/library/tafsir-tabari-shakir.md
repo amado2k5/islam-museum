@@ -399,6 +399,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Second half, batch 4: pp. 487-494 filed in ar, en and ur (reports 12296-12311): 5:77 closes and 5:78 begun; stop at the foot of p. 494 after report 12311 (next: the rest of 5:78 from p. 495).
 - Second half, batch 5: pp. 495-501 filed in ar, en and ur (reports 12312-12320): 5:78 closes, 5:79 to 5:81 filed in full, 5:82 begun; stop at the foot of p. 501 in al-Tabari's choice on the Christians nearest in affection (next: the rest of 5:82 from p. 501/502).
 - Second half, batch 6: pp. 501-508 filed in ar, en and ur (reports 12320-12329): 5:82 closes, 5:83 begun; stop at the foot of p. 508 after report 12329 (al-Zuhri; next: the rest of 5:83 from p. 509). Poems in the notes are described, not quoted.
+- Second half, batch 7: pp. 509-516 filed in ar, en and ur (reports 12330-12344): 5:83 closes, 5:84 to 5:86 filed in full, 5:87 begun; stop at the foot of p. 516 after report 12344 (next: the rest of 5:87 from p. 517).
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 11327-11336): verse 6 continues.
 - Batch 3: pp. 21-27 filed in ar, en and ur (reports 11337-11354): verse 6 continues.
