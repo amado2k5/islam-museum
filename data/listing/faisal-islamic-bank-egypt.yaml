@@ -4,28 +4,83 @@ kind: company
 label:
   ar: بنك فيصل الإسلامي المصري
   en: Faisal Islamic Bank of Egypt
+  ur: بنک فیصل اسلامی مصری
 summary:
-  ar: أول بنك إسلامي في مصر؛ تأسس 1977 بقانون خاص وافتتح أبوابه 1979.
-  en: Faisal Islamic Bank of Egypt.
-wings: [made]
+  ar: بنك مصري مساهم مقره القاهرة، تأسس سنة 1977 وافتتح أبوابه للعملاء في 5 يوليو 1979، ويصف نفسه بأنه أول بنك تجاري إسلامي
+    مصري؛ ارتبط تأسيسه بالأمير محمد الفيصل، وبلغ 43 فرعا ونحو 2.5 مليون حساب جار سنة 2025.
+  en: An Egyptian joint-stock bank based in Cairo, incorporated in 1977 and opened to customers on 5 July 1979, which describes
+    itself as the first Egyptian Islamic commercial bank; its founding is linked with Prince Mohammed al-Faisal, and in 2025
+    it had 43 branches and about 2.5 million current accounts.
+  ur: قاہرہ میں قائم مصری مشترکہ سرمایہ بینک، جو 1977 میں رجسٹر ہوا اور 5 جولائی 1979 کو صارفین کے لیے کھلا؛ خود کو پہلا مصری
+    اسلامی تجارتی بینک کہتا ہے؛ اس کی تاسیس شہزادہ محمد الفیصل سے وابستہ ہے، اور 2025 میں اس کی 43 شاخیں اور تقریباً 25 لاکھ
+    کرنٹ اکاؤنٹ تھے۔
+wings:
+- made
+- today
 categories:
 - finance
 regions:
 - egypt-nile
-- arabia
 founded:
   edtf: '1977'
+  hijri: '1397~'
   calendar: gregorian
   precision: year
+  status: historical
+  derived: true
+  note: Incorporated 1977 (EMIS, cited by the English article); opened to customers on 5 July 1979, 10 Sha'ban 1399 AH (the
+    bank's history page, cited by the Arabic article). The Hijri dates are converter-derived.
+  sources:
+  - source/wikipedia-faisal-islamic-bank-egypt-en
+  - source/wikipedia-faisal-islamic-bank-egypt-ar
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/wikidata
+  sources:
+  - source/wikipedia-faisal-islamic-bank-egypt-ar
 external_ids:
   wikidata: Q6745525
-sources: *id001
+sources:
+- source/wikipedia-faisal-islamic-bank-egypt-ar
+- source/wikipedia-faisal-islamic-bank-egypt-en
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  place: place/cairo
+  serves:
+  - eg
+links:
+  official: https://www.faisalbank.com.eg
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - arz
+    - en
+    - es
+    - ff
+    - fr
+    - uz
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-faisal-islamic-bank-egypt-ar
+  wikidata: Q6745525
+  catalogues:
+    isin: EGS60011C012
+    ticker: 'EGX: FAIT'
+provenance:
+  layer: own-research
+  source: Arabic Wikipedia «بنك فيصل الإسلامي المصري» (revision 76398675, 31 August 2026) and English Wikipedia "Faisal Islamic
+    Bank of Egypt" (revision 1377472658, 29 September 2026), read in Chrome on the founder's Mac on 6 November 2026; Wikidata
+    sitelinks read the same day; the existing Wikidata-only draft (Devin, listings lane, 16 October 2026) was enriched in
+    place, its unsourced superlatives dropped (see the enterprise progress file)
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b01
