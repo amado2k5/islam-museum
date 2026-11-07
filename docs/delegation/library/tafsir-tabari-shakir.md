@@ -678,3 +678,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 75: pp. 403-406 filed in ar, en and ur (reports 13308-13314): end of 6:59 and the start of 6:60 (sleep and waking)
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
+- Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
