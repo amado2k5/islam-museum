@@ -1,5 +1,13 @@
 # Muslim Inventions Browser: research method
 
+## Invention95 — covered urban water conduits in Mansur's Baghdad (6 November 2026)
+
+Actual Le Strange chapterII15–29 already read in full for invention94; water-specific evidence comes from the pages describing conduits,including the request condition,teak conduit stage,and later channels from Dujayl/Karkhaya with cemented beds and burnt-brick covering. The text is read as attributed historical reconstruction from earlier sources,not a preserved engineering manual or measured municipal utility report.
+
+Duri's first Baghdad article already read provides setting and canal context and confirms Baghdad as evolving urban fabric; it is used to prevent overclaiming one fixed network for all phases. Hitti445–446 remains contextual for founding landscape only. No additional guessed TDV biography URLs or unverified web claims are adopted.
+
+Image basis for95 stays historical-context only: the selected Le Strange1900map (public domain) can illustrate network context but does not provide a synchronous762suburb inventory or excavation geometry. Any derived diagram is conceptual.
+
 ## Invention94 — Baghdad's round-city nucleus (6 November 2026)
 
 Actually read Duri's first TDV Baghdad article,1991,current2025correction,foundation/plan/markets/development paragraphs and printed PDF425onward. Specific radial/concentric government nucleus,not all later Baghdad or first circular settlement; older Near Eastern examples explicitly credited. Source's755planning report is not substituted for762construction,763governmental occupation or766completion. Main early-city section read; no claim all four separate articles or later history read.

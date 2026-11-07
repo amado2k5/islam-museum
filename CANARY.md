@@ -93,6 +93,10 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's commentary on verses 163 to 170 of sura 4 is filed from printed p. 405 to p. 412 (reports 10845 to 10852): the reports on God's speech to Moses, the messengers as good news and warning so that no argument remains, the witness of God and the angels to Muhammad's prophethood, the barring from God's way, the eternal punishment of those who disbelieve and do wrong, and the call to believe, in Arabic, English and Urdu.
 - Al-Tabari's commentary on verse 170 of sura 4 closes at p. 413 with the grammatical views on 'better for you', and verse 171 is filed from p. 415 to p. 419 (report 10853 to 10854): exaggeration in religion, Jesus as God's messenger and word, the meaning of 'Messiah', and the spirit from God, in Arabic, English and Urdu.
 - Al-Tabari's commentary on verse 171 of sura 4 closes at p. 424 (the views on 'a spirit from Him', the Trinity, God's oneness, and Jesus as a servant), verse 172 is filed from p. 424 to p. 425 (reports 10856 to 10857), and verse 173 is begun at p. 426, in Arabic, English and Urdu.
+- Al-Tabari's commentary on verses 173 to 176 of sura 4 is filed from printed p. 426 to p. 431 (reports 10858 to 10865): the punishment of those who disdain, the proof and the clear light as the Qur'an, those who hold fast to God, and the start of the kalala ruling with Abu Bakr's account of the inheritance verses, in Arabic, English and Urdu.
+- Al-Tabari's commentary on verse 176 of sura 4 continues from report 10871 to report 10877 at p. 437: the last verses revealed, the place and occasion of the kalala verse with Hudhayfa's account, and Umar's varying statements on the kalala, in Arabic, English and Urdu.
+- Al-Tabari's commentary on verse 176 of sura 4 (the kalala) is filed to the foot of p. 444 (reports 10878 to 10890): Umar's istikhara and the erased letter, his reported wish for the Prophet to have explained the kalala, the reports of the Prophet's answer, and the reasoning on a sister's share with a daughter, in Arabic, English and Urdu.
+- Al-Tabari's commentary on verse 176 of sura 4 closes at p. 446 with the end of sura 4, and the commentary on sura al-Ma'ida verse 1 opens at p. 449 and is filed to p. 451 (reports 10891 to 10904): God making things clear lest people go astray in inheritance, and the meaning of 'covenants' as pledges, in Arabic, English and Urdu.
 
 ### Changed
 - The Modern Islam Browser now names the voices of worship and devotional song (founder's request, 6 November 2026): four person roles, `reciter`, `muezzin`, `munshid` and `sufi-singer`, join the role list, and the Figures section gains a field, "Reciters, muezzins and munshids", listed first so that a reciter who also preaches is filed with the reciters. The 48 person records that already carry one of these roles are gathered there at once (those with a dated fact from 1976 on appear in the browser). Three audio genres are added for recordings: Qur'an recitation and the call to prayer, each labelled "not music" in all three languages, and Sufi inshad and hadra. The operative prompt and plan 26 say how to write these records (riwaya, the muezzin's mosque and years, Qur'an text never typed, a Sufi repertoire never taken as a faith attestation), and the seeds list several hundred named leads with their generators.
@@ -100,6 +104,49 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses (Urdu, batch 142): brackets are isolated only inside Urdu values in 9 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 141): brackets are isolated only inside Urdu values in 7 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 139): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 138): brackets are isolated only inside Urdu values in 1 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 137): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 136): brackets are isolated only inside Urdu values in 5 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 135): brackets are isolated only inside Urdu values in 4 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 134): brackets are isolated only inside Urdu values in 37 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 133): brackets are isolated only inside Urdu values in 23 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 132): brackets are isolated only inside Urdu values in 5 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 131): brackets are isolated only inside Urdu values in 5 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 130): brackets are isolated only inside Urdu values in 17 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 129): brackets are isolated only inside Urdu values in 44 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 128): brackets are isolated only inside Urdu values in 11 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 127): brackets are isolated only inside Urdu values in 14 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 56): brackets are isolated only inside Urdu values in 1 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 55): brackets are isolated only inside Urdu values in 19 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 54): brackets are isolated only inside Urdu values in 13 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 53): brackets are isolated only inside Urdu values in 15 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 52): brackets are isolated only inside Urdu values in 4 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 51): brackets are isolated only inside Urdu values in 9 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 50): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 45): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 44): brackets are isolated only inside Urdu values in 11 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 43): brackets are isolated only inside Urdu values in 9 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 42): brackets are isolated only inside Urdu values in 6 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 41): brackets are isolated only inside Urdu values in 8 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 40): brackets are isolated only inside Urdu values in 4 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 39): brackets are isolated only inside Urdu values in 30 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 38): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 37): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 36): brackets are isolated only inside Urdu values in 9 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 35): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 34): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 33): brackets are isolated only inside Urdu values in 8 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 32): brackets are isolated only inside Urdu values in 1 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 30): brackets are isolated only inside Urdu values in 1 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 27): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 26): brackets are isolated only inside Urdu values in 4 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 25): brackets are isolated only inside Urdu values in 1 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 24): brackets are isolated only inside Urdu values in 14 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 23): brackets are isolated only inside Urdu values in 14 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 22): brackets are isolated only inside Urdu values in 77 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 21): brackets are isolated only inside Urdu values in 37 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 20): brackets are isolated only inside Urdu values in 60 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 19): brackets are isolated only inside Urdu values in 79 data files. English and Arabic text is left exactly as it was.

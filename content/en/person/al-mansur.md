@@ -73,3 +73,12 @@ Suyuti transmits al-Mansur's self-description of reading/legal learning and a Ma
 
 ## Reading the drawing without excess certainty
 The1900map is reconstruction,not a762survey. Duri/Le Strange disagree on Kufa/Basra compass labels and diameter estimates {cite:tdv-bagdat-duri Measurements} {cite:lestrange-baghdad-1900 p.17–18}. The retained Masudi report of50,000workers daily is not necessarily the same quantity as Duri's report of about100,000gathered for the project; wording and unit of description differ {cite:muruj-al-dhahab p.295–296} {cite:tdv-bagdat-duri Foundation and plan}. Keep attributed accounts rather than manufacture an agreed census. Nor does the original commission encompass every later suburb or school.
+
+## Covered conduits as a commissioned service
+Within the same Baghdad project, [[invention/mansur-covered-water-conduits|covered water conduits]] present al-Mansur as commissioner of an urban service arrangement,not inventor of channels or water technology itself. Le Strange describes water brought in and then channels from Dujayl/Karkhaya lined and covered {cite:lestrange-baghdad-1900 p.28–29}. This adds a practical layer to his profile: organizing daily city function,not only symbolic capital form.
+
+## Between political centre and habitability
+Read together with market relocation and changing neighbourhood uses,this report suggests the administrative nucleus depended on working water service alongside movement and trade {cite:tdv-bagdat-duri Markets}. Al-Mansur's Baghdad role therefore includes service governance as well as state-building. That does not convert every sentence into modern technical measurement; it shows water management sat inside the capital's operating logic.
+
+## Limits of attribution
+This record does not credit al-Mansur with inventing conduits in absolute history,nor with modern guarantees of water quality. It credits a political commission inside a collective implementation context. Other contested narratives in his biography remain preserved,including coercion-related reports. The profile stays composite: urban achievement and political tension together,without polishing or erasure.
