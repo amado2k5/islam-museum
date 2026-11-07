@@ -424,6 +424,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Second half, batch 15: pp. 566-572 filed in ar, en and ur (reports 12512-12523): 5:91 continues; stop at the foot of p. 572 after report 12523 (next: the rest of 5:91 from p. 573).
 - Second half, batch 16: pp. 573-579 filed in ar, en and ur (reports 12524-12530 begun): 5:91 closes, 5:92 filed in full, 5:93 begun; stop at the foot of p. 579 at the start of report 12530 (next: the rest of 5:93 from p. 580).
 - Second half, batch 17: pp. 580-585 filed in ar, en and ur (reports 12530-12543): 5:93 closes and 5:94 filed in full. The commentary text of volume 10 is complete at p. 585 (p. 586 blank; indexes from p. 587 not filed). Volume 11 opens at 5:95 (its own progress lines above).
+- Middle range, batch 1: pp. 435-441 filed in ar, en and ur (reports 12220-12229): 5:60 begun from its heading on p. 435 (5:59 and earlier belong to the front-half agent); stop at the foot of p. 441 (next: the rest of 5:60 from p. 442).
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 11327-11336): verse 6 continues.
 - Batch 3: pp. 21-27 filed in ar, en and ur (reports 11337-11354): verse 6 continues.
