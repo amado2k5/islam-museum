@@ -2,7 +2,16 @@
 id: invention/tabula-rogeriana
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: [ "Copilot SDK in VS Code" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: Translation of the Arabic additions, preserving source qualifications.
+    Research agent read TDV magnetic analogy and attributed historical
+    southern-hemisphere conception; error reported, not endorsed.
 ---
 ## Summary
 At Palermo in the middle of the twelfth century, the geographer [[person/al-idrisi-muhammad-ibn-abd-allah|al-Sharif al-Idrisi]] made for [[person/roger-of-sicily|Roger II]], king of Sicily, a picture of the whole inhabited world. It had two parts: a great disc of pure silver engraved with the seven climes, their lands, rivers and routes, and a book to go with it, [[work/nuzhat-al-mushtaq|Nuzhat al-mushtaq fi ikhtiraq al-afaq]], in which each clime is cut into ten sections and each section has its own map followed by a description, seventy maps in all {cite:nuzhat-al-mushtaq-2002 pp. 6–7} {cite:nuzhat-al-mushtaq-2002 pp. 13–14}. The material was gathered over some fifteen years from earlier books and from travellers, keeping only what they agreed on, and the book was named in the first ten days of January, in Shawwal 548 AH {cite:nuzhat-al-mushtaq-2002 pp. 6–7}, which TDV gives as January 1154 {cite:tdv-idrisi-serif pp. 493–495}.
@@ -30,6 +39,10 @@ Then he wanted to be sure of the lengths and breadths of the distances they had 
 [[person/roger-of-sicily|Roger II]] commissioned the work. Al-Idrisi, writing at his court, gives him a long string of titles, king of Sicily, Italy, Lombardy and Calabria, and calls him the champion of the Christian religion {cite:nuzhat-al-mushtaq-2002 p. 4}. In the preface it is Roger who gathers the books and the travellers and tests the distances; al-Idrisi presents himself as the one who carried out his order {cite:nuzhat-al-mushtaq-2002 pp. 5–7}.
 
 ## How it works
+TDV records a physical explanation in the preface: al-Idrisi compares Earth's attraction of objects with a magnet attracting iron, explaining why airborne objects fall towards Earth {cite:tdv-idrisi-serif pp.493–495}. The museum attributes this analogy rather than presenting a modern gravitational law or experimental discovery; it belongs to the explanation of the world preceding the book's maps and distances {cite:tdv-idrisi-serif pp.493–495}.
+
+The encyclopedia also reports his judgment that southern-hemisphere heat makes it unsuitable for living creatures, before his account turns to the seven northern climes {cite:tdv-idrisi-serif pp.493–495}. This is a historical geographical conception, not the museum's description of southern populations today; it helps explain the northern focus of the account {cite:tdv-idrisi-serif pp.493–495}. A spherical Earth and a correct distribution of climates and habitation are separate claims: accepting the former does not make every regional description accurate {cite:tdv-idrisi-serif pp.493–495}.
+
 The book begins with the shape of the earth. The earth, al-Idrisi writes, is round like a ball, with the water clinging to it, and earth and water rest in the middle of the heavens like the yolk in an egg {cite:nuzhat-al-mushtaq-2002 p. 7}. The inhabited quarter is divided into seven climes, each running from west to east; in each are cities, forts, villages and peoples unlike one another, with mountains, rivers, lakes, mines, plants and animals {cite:nuzhat-al-mushtaq-2002 p. 9}. Seven seas cut through the climes {cite:nuzhat-al-mushtaq-2002 p. 9}.
 
 Each clime is then split along its length into ten parts. Each part is a map, and each map is followed by a written description of its cities, peoples, dress, roads with their miles and farsakhs, and the wonders travellers had seen {cite:nuzhat-al-mushtaq-2002 pp. 13–14}. Placed side by side, the seventy maps make one map of the whole known world. TDV describes the plan the same way: the northern half of the earth studied in seven climes from the equator northwards, each clime divided from west to east into regions {cite:tdv-idrisi-serif pp. 493–495}.

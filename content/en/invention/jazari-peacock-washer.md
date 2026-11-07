@@ -2,12 +2,25 @@
 id: invention/jazari-peacock-washer
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: [ "Copilot SDK in VS Code" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of the Arabic additions, preserving source qualifications.
+    Research agent read Hill III.9 pp.149–152: ishnan, two-float sequence,
+    divided tail, siphon and operator reset; no Arabic collation."
 ---
 ## Summary
 A peacock pours water, one figure offers soap and another a towel: a hand-washing design in [[person/al-jazari-engineer|al-Jazari's]] book, whose water-and-float sequence the Cleveland Museum of Art explains {cite:cleveland-jazari-peacock verso catalogue}. The book belongs to his Artuqid service at Amid; the references give 1205 or 1206 for completion {cite:tdv-cezeri pp. 505–506} {cite:cleveland-jazari-peacock recto catalogue}. [[object/jahiz-tawus|Cleveland's folio]] preserves picture and text from a Syrian copy of 1315 {cite:cleveland-jazari-peacock catalogue metadata}. The museum does not know for certain whether the machine was built: this is a documented design, not a surviving original device {cite:cleveland-jazari-peacock recto catalogue}.
 
 ## What it is
+The figures have distinct roles: one carries the small jar, the other a towel, and each connects to its own rod and float chamber {cite:jazari-hill-1974 pp.149–151}. Their objects express a sequence of service rather than one undifferentiated ornamental movement.
+
+Comparing Cleveland's two-sided folio description with the translated chapter distinguishes exterior appearance from internal arrangement: the catalogue summarizes what the user sees, while the translation describes the pedestal, tail and neck {cite:cleveland-jazari-peacock recto and verso catalogue} {cite:jazari-hill-1974 pp.149–152}. A beak image alone cannot establish the whole water path without the chambers and their textual functions.
+
 The museum describes a peacock, basin and moving service figures: the bird's mouth pours water and a figure emerges from a small door offering soap {cite:cleveland-jazari-peacock recto catalogue}. The verso entry completes the sequence with a towel-bearing figure and a spigot for used water {cite:cleveland-jazari-peacock verso catalogue}.
 
 The depicted device is distinct from the surviving object. What survives is paper with colour, gold and ink, not a metal peacock whose reservoir the museum can operate {cite:cleveland-jazari-peacock API technique}. The figures are parts of the design, not servants hiding in the box.
@@ -28,6 +41,18 @@ Cleveland attributes the design to al-Jazari's book; TDV documents the author an
 TDV calls him an Islamic scholar, the Muslim identity basis here. The museum's Sunni default is explicit, not a personal school established by the art catalogue {cite:tdv-cezeri pp. 505–506}. Cleveland's record read here does not name this leaf's copyist; a name from the Met's similarly dated manuscript is not transferred.
 
 ## How it works
+Hill's translation of Category III, Chapter9 specifies the offered substance as ishnan, a plant-based cleansing material in a small jar, whereas Cleveland summarizes the function as soap {cite:jazari-hill-1974 p.149} {cite:cleveland-jazari-peacock recto catalogue}. The new reading preserves that earlier catalogue wording while distinguishing a concise museum description from the translated instructions; it neither provides a cleansing recipe nor establishes modern medical disinfection.
+
+A real attendant also participates: when the master wants to wash, the servant brings the basin with the peacock's head facing him and stands aside as the service begins {cite:jazari-hill-1974 p.149}. The figures appearing through doors are mechanical representations, but preparation and transport are not their work; the machine is not independent of people throughout use {cite:jazari-hill-1974 p.149}.
+
+The detailed sequence uses two floats, not one float opening two doors simultaneously: collected water enters a float chamber beneath one column, raising a rod that tilts the cleansing-material figure into view {cite:jazari-hill-1974 pp.149–151}. Overflow then enters another chamber with a second float and shorter rod; that rod does not reach the towel figure's trigger until the pedestal is full and the peacock's prepared water supply is exhausted {cite:jazari-hill-1974 pp.149–151}. A later water level thus connects the end of pouring with the towel's presentation, instead of requiring the user to touch a separate door.
+
+Those chambers differ from the peacock's own divided reservoir. Its hollow body has a neck siphon connecting to a two-chamber tail, manually primed in two stages rather than continuously supplied by plumbing {cite:jazari-hill-1974 pp.151–152}. The lower chamber is filled until the water approaches the siphon bend, its valve closed, and the upper chamber filled; opening the valve brings the combined water above the bend and starts discharge through the beak {cite:jazari-hill-1974 pp.151–152}. This prepares a finite water charge as described in the text, not water generation or recycling of used water into a clean reservoir.
+
+After use the basin is carried away, the pedestal tap opened and the apparatus tilted towards it to drain the remainder; the tap is then closed {cite:jazari-hill-1974 p.149}. Water consequently has three distinct roles: stored supply from the peacock, rising water operating floats, and used water requiring drainage. The tap alone does not explain every role, and the decorative image does not eliminate manual resetting {cite:jazari-hill-1974 pp.149–152}.
+
+The peacock belongs to a collection of washing vessels in Category III, not a first invention of handwashing; the author refers to multiple basins he made in this context {cite:jazari-hill-1974 pp.148–149}. Reading the chapter explains the mechanical reason for the catalogue's sequence, but does not settle Cleveland's uncertainty about actual construction or supply measured specifications of an extant machine {cite:cleveland-jazari-peacock recto catalogue} {cite:jazari-hill-1974 pp.149–152}. Naming chambers and rods therefore does not produce a complete plan establishing flow rate, water volume or daily service capacity, none of which was measured here.
+
 The verso catalogue describes these stages {cite:cleveland-jazari-peacock verso catalogue}:
 
 1. The peacock is filled with water.
@@ -84,5 +109,7 @@ The leaf combines a coloured peacock, small figure and component letters, joinin
 Imagine water collecting in a vessel and raising a float: one figure offers soap, then another a towel, and used water drains through a spigot, as the museum explains {cite:cleveland-jazari-peacock verso catalogue}. These are machine figures, not people hiding inside. The museum preserves picture and text but does not know for certain whether the device was built {cite:cleveland-jazari-peacock recto catalogue}.
 
 ## References
+- [[source/jazari-hill-1974|Al-Jazari — Donald Hill translation1974]]
+
 - Cleveland Museum of Art, 1945.383, recto and verso catalogues, images and Open Access API. {cite:cleveland-jazari-peacock recto and verso catalogues}
 - Sadettin Ökten, “CEZERÎ, İsmâil b. Rezzâz”, TDV Encyclopedia of Islam, vol. 7, 1993, pp. 505–506. {cite:tdv-cezeri pp. 505–506}

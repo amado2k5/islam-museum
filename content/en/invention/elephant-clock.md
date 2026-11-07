@@ -2,12 +2,23 @@
 id: invention/elephant-clock
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: [ "Copilot SDK in VS Code" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of the Arabic additions, preserving source qualifications.
+    Research agent read Hill I.4 pp.59–70: float, linkage, signals, calibration
+    and reset; no new original Arabic manuscript collation."
 ---
 ## Summary
 Every half hour figures move, a ball drops and a sound is heard: this is how the Met's catalogue describes the elephant clock in [[person/al-jazari-engineer|al-Jazari's]] book {cite:met-elephant-clock-575123 Catalogue Entry}. The rider strikes the elephant with his implement, the bird moves and a ball passes from falcon to dragon to a vessel containing a gong; counting accumulated balls indicates elapsed time {cite:met-elephant-clock-575123 Catalogue Entry}. The contribution is a timed display device within an earlier clock-and-automata tradition, not invention of clocks or robots. TDV dates al-Jazari's book to 1205; the illustrated folio here is a later copy dated 715/1315 {cite:tdv-cezeri pp. 505–506} {cite:met-elephant-clock-575123 Overview}.
 
 ## What it is
+The instructions give some dimensions in historical units: the initial sheet is about three and a half spans long and one and a half wide, while ring openings are the width of a medium dirham {cite:jazari-hill-1974 pp.59–60}. No metric conversion is made without identifying the intended span and coin.
+
 The clock takes the form of an elephant carrying a decorated structure with figures, a bird and dragon-shaped mechanisms, visible in the museum's folio 57.51.23 {cite:met-elephant-clock-575123 Overview}. The elephant is the machine's form, not a living animal performing the work; the drawing belongs to an instruction book, not a photograph of an original clock.
 
 Francesca Leoni's entry places it in a book describing fifty devices, including court entertainment {cite:met-elephant-clock-575123 Catalogue Entry}. Automatic motion is not turned into a claim that the machine thinks, chooses or is equivalent to a contemporary robot.
@@ -28,6 +39,18 @@ The museum attributes the device to al-Jazari as author and engineer. Following 
 TDV calls him an Islamic scholar, the Muslim identity basis recorded here, with the museum's Sunni default frame explicitly stated because the source used gives no personal school {cite:tdv-cezeri pp. 505–506}. Farrukh copied the surviving folio later; he is not credited with the original engineering design {cite:met-elephant-clock-575123 Overview}.
 
 ## How it works
+Reading Category I, Chapter4 in Hill's translation moves beyond the catalogue summary to the author's design account: al-Jazari says he combined perforated-float devices previously made separately at different times and places into this clock {cite:jazari-hill-1974 p.59}. This is his explanation of a synthesis, not evidence identifying unnamed predecessors as surviving machines.
+
+The elephant's body is described as bent and joined copper sheets, with separate pieces for body parts and legs; internal plates partition its belly into a water container {cite:jazari-hill-1974 pp.59–60}. Appearance alone does not explain the clock: inside is a hemispherical brass float connected through hinges, two chains and a pulling ring, allowing it to be raised to discharge water and released to settle {cite:jazari-hill-1974 pp.60–61}. These are translated construction instructions, not measurements of the elephant depicted in the museum folio.
+
+The seated scribe above the platform is connected through silk string and pulleys tensioned by the float's chain, linking its movement to the timing system rather than independent ornament {cite:jazari-hill-1974 pp.61–62}. Inside the elephant's breast, a weighted spoon-like lever receives a ball; that load changes its balance, and a rod and chain transmit movement to the rider's arms {cite:jazari-hill-1974 pp.62–63}. The ball therefore operates linkages as well as providing an audible signal.
+
+Half-hour timing requires a described calibration, not an assumption that any opening will work: a fine-holed onyx piece forms the float's inlet, and the hole is progressively enlarged with copper wire and abrasive until filling and sinking take the required time {cite:jazari-hill-1974 p.69}. Manufacture and timing adjustment are distinct; the mere presence of a float establishes neither a universal rate nor identical operation across copies and water conditions.
+
+Sound has its own adjustment: Hill describes a hollow copper ball and a pipe whose position is tested by gentle blowing until the sound grows louder, then fixed; air displaced by the sinking float is driven into it {cite:jazari-hill-1974 p.69}. The catalogue's whistling bird thus receives a physical explanation in the text, not an authenticated recording or proof of an identical note in modern replicas.
+
+The instructions end with the servant's preparation: lifting the dome, filling the elephant to prescribed marks, lowering one dragon's head to empty the float, and resetting the ring, bird and balls in their channels {cite:jazari-hill-1974 p.70}. Manual preparation does not contradict automatic movement within the clock's cycle: the sequence depends on an initial state prepared by a person {cite:jazari-hill-1974 p.70}. These remain the written design's procedures, not independent testimony that each was performed on a thirteenth-century machine; reading the chapter does not resolve unclear points in Hill's commentary or substitute an imagined apparatus for the manuscript witness.
+
 Leoni describes a half-hour signalling sequence {cite:met-elephant-clock-575123 Catalogue Entry}:
 
 1. The rider moves his implement and the bird turns.
@@ -90,5 +113,7 @@ The elephant's decoration is not turned into a story of one people's or religion
 Imagine a machine telling you half an hour has passed: figures move, a ball falls and a gong sounds. In the museum's description you count balls to know the elapsed time {cite:met-elephant-clock-575123 Catalogue Entry}. The elephant is a machine's shape in al-Jazari's book, and the picture a later copy, not a living animal or a photograph of his original clock {cite:met-elephant-clock-575123 Overview}.
 
 ## References
+- [[source/jazari-hill-1974|Al-Jazari — Donald Hill translation1974]]
+
 - Sadettin Ökten, “CEZERÎ, İsmâil b. Rezzâz”, TDV Encyclopedia of Islam, vol. 7, 1993, pp. 505–506. {cite:tdv-cezeri pp. 505–506}
 - Metropolitan Museum of Art, “The Elephant Clock”, accession 57.51.23; metadata and overview, and Francesca Leoni's entry in Ekhtiar, Soucek, Canby and Haidar 2011, under Catalogue Entry. {cite:met-elephant-clock-575123 Catalogue Entry}

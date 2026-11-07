@@ -2,7 +2,16 @@
 id: invention/pulmonary-circulation
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: [ "Copilot SDK in VS Code" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of the Arabic additions, preserving source qualifications.
+    Research agent read West2008 public full text: Galenic spirits and later
+    Harvey discussion; no clinical instructions."
 ---
 ## Summary
 The pulmonary circulation is the blood's route from the right side of the heart to the lungs and from the lungs to the left side. The first known description of it was written by the physician [[person/ibn-al-nafis|Ibn al-Nafis]] in his [[work/sharh-tashrih-al-qanun|Commentary on the Anatomy of the Canon]]. He denied that blood crosses the wall between the ventricles through pores, as Galen had taught, and wrote that it enters the left ventricle from the lung. This was about three hundred years before Michael Servetus wrote of it in Europe. {cite:west-2008-ibn-al-nafis pp. 1877–1880, §Pulmonary circulation}
@@ -62,9 +71,15 @@ In Europe, a different book by Ibn al-Nafis, his Commentary on Compound Drugs, w
 The passage on the pulmonary circulation is not known to have reached the West before the twentieth century. {cite:west-2008-ibn-al-nafis pp. 1877–1880, §Pulmonary circulation}
 
 ## What it was built on
+West distinguishes three kinds of spirit in Galen's historical model, not accepted modern physiology: blood forms at the liver with natural spirit, vital spirit forms in the left heart through mixing with air, and material reaching the brain becomes animal spirit supposedly distributed through nerves {cite:west-2008-ibn-al-nafis §Pulmonary circulation}. Nerves were thought hollow, and the pulmonary vein also carried sooty waste for exhalation {cite:west-2008-ibn-al-nafis §Pulmonary circulation}. This set of assumptions extends beyond septal pores; rejecting those pores did not replace the entire framework with twenty-first-century physiology.
+
+Blood's route and explanations of its function must therefore be distinguished: a correction concerning passage can coexist with inherited spirit terminology {cite:west-2008-ibn-al-nafis §Pulmonary circulation}. Modern explanation should neither erase the writer's language to make his text contemporary nor let inherited vocabulary cancel the particular anatomical claim about lung and septum {cite:west-2008-ibn-al-nafis §Pulmonary circulation}.
+
 It was built on the anatomy of Galen and his school, as [[person/ibn-sina|Ibn Sina]] carried it into the [[work/al-qanun-fi-al-tibb|Canon]]. The book is a commentary on the Canon: Ibn al-Nafis takes Ibn Sina's framework and parts from it at the septum. {cite:west-2008-ibn-al-nafis pp. 1877–1880, §Pulmonary circulation}
 
 ## What was built on it
+West gives a further detail about Harvey: he initially doubted that lungs required such a large, pulsatorily delivered blood supply for nourishment, then described to a German correspondent, Slegel, a cadaver experiment showing water passing from the pulmonary artery through the lung to the left ventricle {cite:west-2008-ibn-al-nafis §Pulmonary circulation}. This historical account is not dissection instruction, Ibn al-Nafis's experiment, or proof that Harvey read his commentary {cite:west-2008-ibn-al-nafis §Pulmonary circulation}. Similar conclusions do not automatically establish direct transmission without evidence of reading and contact.
+
 About three hundred years later, European scholars came to the same conclusion: the blood had to pass through the lungs and could not move straight from the right ventricle to the left. The first was Michael Servetus (1511–1553), in his book *Christianismi Restitutio*, dated 1553. Catholics and Calvinists alike judged the book heretical, Servetus was burned at the stake in Geneva, and only three copies of the book survive. {cite:west-2008-ibn-al-nafis pp. 1877–1880, §Pulmonary circulation}
 
 The same ideas were then expressed by Realdo Colombo, his student Juan Valverde, Andreas Vesalius and William Harvey. Harvey was at first puzzled by the physiology of the pulmonary circulation. A few years before his death he reported experiments showing that liquid passes from the pulmonary artery to the left ventricle. {cite:west-2008-ibn-al-nafis pp. 1877–1880, §Pulmonary circulation}

@@ -2,7 +2,16 @@
 id: invention/zahrawi-mishab
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code (model unknown), from Arabic"]
+translators: [ "Copilot SDK in VS Code (model unknown), from Arabic" ]
+status:
+  review: published
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: Translation of the Arabic additions, preserving source qualifications.
+    Research agent read Abdel-Halim2003 pp.1283,1288–1289; later tools and broad
+    reception distinguished from this instrument.
 ---
 ## Summary
 
@@ -35,6 +44,8 @@ The mechanical idea is to concentrate the hard tip's action on a stone with manu
 The study glosses Foulaz with an English expression suggesting stainless steel; this record does not adopt that modern metallurgical label or infer an untested alloy composition {cite:alzahrawi-stones-abdelhalim-2003 p. 1288}. Nor does it invent anatomical sections or dimensions: the edge, handle and shape are textual information, not measurements of an authenticated surviving object {cite:alzahrawi-stones-abdelhalim-2003 p. 1288}.
 
 ## The spread
+The2003 study's dated tools organize comparison, not a complete transmission chain: a later tool's appearance or shared purpose does not identify what its maker read or which workshop was copied {cite:alzahrawi-stones-abdelhalim-2003 pp.1288–1289}. Its discussion also names kalaleeb, but that instrument's reception cannot fill gaps in the mishab's history {cite:alzahrawi-stones-abdelhalim-2003 pp.1283,1288–1289}. Broad influence and a documented use of this particular tool remain distinct.
+
 
 Documented circulation is clearer for the book than for instrument numbers: TDV identifies Gerard of Cremona's 12th-century Latin translation of the surgical book and subsequent copies and editions {cite:tdv-tasrif-zehravi pp. 132–133}. It distinguishes these from translations of pharmaceutical and theoretical sections; every translation of part of *al-Tasrif* is not proof of transmission of this drill {cite:tdv-tasrif-zehravi pp. 132–133}.
 
@@ -45,6 +56,12 @@ It also describes Sabuncuoglu's 1465 Turkish version as an adaptation with addit
 The commentary situates al-Zahrawi after earlier stone surgery and al-Razi, distinguishing extraction, removal of portions and drilling {cite:alzahrawi-stones-abdelhalim-2003 pp. 1286–1289}. These are related problems, not one technique: the browser's chain represents intellectual context, not a proven sequence of objects passed from hand to hand {cite:alzahrawi-stones-abdelhalim-2003 pp. 1286–1289}. The passage establishes neither a named smith nor a particular prototype copied for the drill {cite:alzahrawi-stones-abdelhalim-2003 p. 1288}.
 
 ## What was built on it
+The2003study names later instruments more precisely than “Civiale's instruments”: Fournier de Lempdes's litholepte in1812, Gruithuisen's instrument in1813, Civiale's trilabe in1818, Leroy d'Etiolle's lithoprione in1822, and Rigal de Galliac's brise-coque in1829 {cite:alzahrawi-stones-abdelhalim-2003 pp.1283,1289}. These are names in the study's instrument history, not claims of identical design or proof that each maker directly read the Arabic chapter.
+
+The study distinguishes a second al-Zahrawi instrument, the kalaleeb forceps: Andreas a Cruce's screw action and Amussat's1822application belong to that history {cite:alzahrawi-stones-abdelhalim-2003 pp.1283,1289}. They are not all changes to the mishab, since forceps and drill act differently despite sharing a stone-treatment context {cite:alzahrawi-stones-abdelhalim-2003 pp.1288–1289}. Gripping, perforating and rotating are different actions, not just names; one arrow cannot make later instruments unchanged copies of the described tool.
+
+The abstract names later surgeons influenced by al-Zahrawi's surgery generally, including Marianus Sanctus, Jacques de Beaulieu and Cheselden {cite:alzahrawi-stones-abdelhalim-2003 p.1283}. This is the researchers' account of broad influence, not documented use of the mishab by each person or a surviving object passed between them {cite:alzahrawi-stones-abdelhalim-2003 p.1283}. General reception is broader than the history of one device.
+
 
 The 2003 authors compare the idea with 19th-century European drills and instruments, including Civiale's, regarding them as developments of drilling and fragmentation {cite:alzahrawi-stones-abdelhalim-2003 p. 1289}. That is those historians' interpretation; this record has not independently examined every book or object in their comparison {cite:alzahrawi-stones-abdelhalim-2003 p. 1289}. Similarity of principle alone is not a transmission document, nor are later bladder instruments automatically identical to the described urethral drill {cite:alzahrawi-stones-abdelhalim-2003 pp. 1288–1289}.
 
@@ -57,6 +74,10 @@ The human problem in the passage is obstructed urine flow, and the stated aim is
 The book preserved a tool's relationship to its medical problem, with descriptions and drawings that could travel with the text; translations and editions show enduring interest in the surgical book {cite:tdv-tasrif-zehravi pp. 132–133}. The modern study reads the passage as evidence of initiative and experience, not merely a compilation of names {cite:alzahrawi-stones-abdelhalim-2003 pp. 1288–1289}. This concerns documenting and teaching knowledge, a narrower claim than saying one device alone created all modern urological surgery {cite:alzahrawi-stones-abdelhalim-2003 p. 1289}.
 
 ## Who invented it?
+Commentary29argues for originality by stating that ancient and Greco-Roman authors had not described this procedure and treating it as a foundation of lithotripsy {cite:alzahrawi-stones-abdelhalim-2003 commentary29}. The museum attributes that conclusion to the researchers and their comparative material, not its own exhaustive search or instrument testing {cite:alzahrawi-stones-abdelhalim-2003 commentary29}. A described tool, an argument about novelty and worldwide priority remain different evidential claims.
+
+Figure5in the study illustrates later European instruments, not an Andalusian artifact bearing al-Zahrawi's name {cite:alzahrawi-stones-abdelhalim-2003 figure5}. A later instrument's drawing cannot authenticate his material or manufacturing details: the caption and context identify it as comparison {cite:alzahrawi-stones-abdelhalim-2003 figure5}. The textual mishab description remains the basis here; comparative illustrations explain development without medical use or procedural instruction.
+
 
 The source supports attributing this specific description to al-Zahrawi, and the historians call the instrument an original contribution; their abstract's “founder of lithotripsy” language is broader than the question this record settles {cite:alzahrawi-stones-abdelhalim-2003 pp. 1283, 1288–1289}. The chapter distinguishes instruments and locations, and the commentary itself discusses older accounts of bladder-stone fragmentation {cite:alzahrawi-stones-abdelhalim-2003 pp. 1287–1289}. The museum therefore publishes a described improvement without adjudicating priority for every fragmentation technique across civilizations {cite:alzahrawi-stones-abdelhalim-2003 pp. 1287–1289}.
 
@@ -65,6 +86,8 @@ The source supports attributing this specific description to al-Zahrawi, and the
 We encounter this tool through surgical history and books, not a current treatment prescription; comparisons with later drills do not constitute present-day clinical approval {cite:alzahrawi-stones-abdelhalim-2003 pp. 1288–1289}. The record also distinguishes a surviving text from an original metal object: its sources identify no authenticated drill made by al-Zahrawi for this purpose {cite:alzahrawi-stones-abdelhalim-2003 pp. 1284, 1288–1289}.
 
 ## Surviving examples
+The2003 date belongs to the modern medical study's publication, not manufacture of the mishab it describes {cite:alzahrawi-stones-abdelhalim-2003 pp.1283–1289}.
+
 
 The 2003 study reproduces a manuscript page and identifies the Arabic edition translated, while TDV describes manuscripts, editions and scholarship; these are textual witnesses and transmission media, not certificates of inspecting an original drill {cite:alzahrawi-stones-abdelhalim-2003 p. 1284} {cite:tdv-tasrif-zehravi pp. 132–133}. This record read the annotated translation, not the chapter's manuscript independently {cite:alzahrawi-stones-abdelhalim-2003 pp. 1284, 1288}.
 
