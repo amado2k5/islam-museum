@@ -1,17 +1,37 @@
 id: work/noble-quran-hilali-khan
 class: work
 kind: book
-label: { ar: "ترجمة معاني القرآن الكريم", en: "The Noble Quran: Meaning With Explanatory Notes" }
+label: { ar: "ترجمة معاني القرآن الكريم إلى اللغة الإنجليزية ⁦(الهلالي وخان)⁩", en: "Interpretation of the Meanings of the Noble Qur'an in the English Language (Hilali–Khan)", ur: "ترجمہ معانی القرآن الکریم انگریزی میں ⁦(ہلالی و خان)⁩" }
 summary:
-  ar: "بطاقة أولية لترجمة هلالي وخان لمعاني القرآن الكريم إلى الإنجليزية، الشائعة بطبعة المدينة؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for the Hilali–Khan English translation of the Quran's meanings, the common Medina-print edition; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q110269259" }
+  ar: "ترجمة إنجليزية لمعاني القرآن أعدّها محمد تقي الدين الهلالي ومحمد محسن خان وأتمّاها في المدينة سنة 1972، وصدرت أول مرة في شيكاغو سنة 1977 عن دار كازي بعنوان يصفها بأنها مختصر لتفسير ابن كثير مع إضافات من الطبري والبخاري، ثم في أنقرة 1978 بخطاب من الجامعة الإسلامية بالمدينة، وراجعتها دار السلام في 1994، وطبعها مجمع الملك فهد في 1997؛ طُبعت أكثر من عشرين مرة، وتمتاز بالإنجليزية المعاصرة وبالشروح بين الأقواس، ولها أثر واسع ونقد كثير."
+  en: "An English rendering of the meanings of the Qur'an by Muhammad Taqi al-Din al-Hilali and Muhammad Muhsin Khan, completed in Medina in 1972 and first published in Chicago in 1977 by Kazi under a title presenting it as a summary of Ibn Kathir's tafsir supplemented by al-Tabari and al-Bukhari; it was reissued in Ankara in 1978 with a letter from the Islamic University of Medina, revised by Darussalam in 1994 and printed by the King Fahd Complex in 1997; published more than twenty times, it is written in contemporary English with commentary in brackets, and has been both widely used and much criticised."
+  ur: "قرآن کے معانی کا انگریزی ترجمہ از محمد تقی الدین ہلالی و محمد محسن خان، جو 1972 میں مدینہ میں مکمل ہوا اور 1977 میں شکاگو سے کازی نے پہلی بار ایسے عنوان سے شائع کیا جو اسے تفسیر ابن کثیر کا خلاصہ مع طبری و بخاری کے اضافوں کے طور پر پیش کرتا تھا؛ 1978 میں انقرہ سے جامعہ اسلامیہ مدینہ کے خط کے ساتھ، 1994 میں دار السلام کی نظرِ ثانی سے اور 1997 میں شاہ فہد کمپلیکس سے چھپا؛ بیس سے زیادہ بار شائع ہوا، معاصر انگریزی اور قوسین میں تشریحات اس کی پہچان ہیں، اور اسے وسیع قبولیت بھی ملی اور بہت تنقید بھی۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission]
+regions: [arabia]
+genre: [quran-translation, tafsir]
+authors: [person/taqi-al-din-al-hilali, person/muhammad-muhsin-khan]
+language: language/english
+publisher: listing/kazi-publications
+made: { by_muslims: true, basis: documented, sources: [source/gloqur-hilali-khan-part-1] }
+composed: { edtf: "1977", hijri: "1397", calendar: gregorian, precision: year, status: historical, derived: true, note: "First edition, Chicago (Kazi Publications), 1977; the translation was completed in Medina in 1972. The Gregorian year 1977 falls almost wholly in 1397 AH; the Hijri year is converter-derived.", sources: [source/gloqur-hilali-khan-part-1] }
+editions:
+  - "Explanatory English Translation of the Meanings of the Holy Qur'an: A Summarized Version of Ibn Kathir, Supplemented by At-Tabari with Comments from Sahih al-Bukhari. Chicago: Kazi Publications, 1977 (first edition, with the Arabic text)"
+  - "Second edition, Ankara: Hilal Yayinlari, 1978, with a letter of the Islamic University of Medina and an introduction by F. Abdur Rahim, M. Amin al-Misri and Mohieddin H. Azmi"
+  - "Third edition, 1985, almost the same content as the first two"
+  - "Interpretation of the Meanings of the Noble Qur'an in the English Language. Riyadh: Darussalam, 1994, completely revised, in a one-volume and a nine-volume edition"
+  - "The Noble Qur'an. Medina: King Fahd Complex for the Printing of the Holy Qur'an, 1997, largely based on the Darussalam edition and prepared by F. Abdul Rahim; the widely reproduced standard text"
+relations:
+  - { type: translation_of, target: work/quran, sources: [source/gloqur-hilali-khan-part-1] }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-06", sources: [source/wikipedia-noble-quran-hilali-khan-en] }
+  wikidata: "Q7045768"
+external_ids: { wikidata: "Q7045768" }
+sources: [source/gloqur-hilali-khan-part-1, source/gloqur-hilali-khan-part-2, source/wikipedia-noble-quran-hilali-khan-en, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "GloQur posts #102 and #103 (Mykhaylo Yakubovych, 29 April and 6 May 2022) of the University of Münster's Global Qur'an project for editions, content and reception; English Wikipedia 'Noble Quran (Hilali–Khan)' (revision 1375969952) for the translators, the current printer and the Wikidata item; read in Chrome on 6 November 2026. Enriches the wikidata-import-wave2 draft card in place. Correction: the draft carried Wikidata Q110269259, which is Muhammad Taqi Usmani's translation (now work/noble-quran-meanings-taqi-usmani); this record now carries Q7045768, the item of the Hilali–Khan article."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

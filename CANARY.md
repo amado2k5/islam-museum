@@ -58,6 +58,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser: al-Tabari vol. 11, batch 13 (pp. 105-111, reports 12804-12811): more reports on the occasion of 5:101 (the 'every year?' question on the pilgrimage, the Prophet's anger, and the view that the question concerned the bahira and sa'iba), filed in Arabic, English and Urdu.
+- Modern Islam Browser, books section, batch 01: seven English translations of the meanings of the Qur'an published since 1976 now have full records with Arabic, English and Urdu prose. Muhammad Asad's *The Message of the Qur'an* (1980, with the 1964 partial edition and the Saudi Permanent Committee's position and the academic reading as labelled perspectives), Hilali–Khan (1977, every edition to the 1997 King Fahd Complex text), Saheeh International (1997), Taqi Usmani's *Meanings of the Noble Qur'an* (2007), *The Clear Quran* (2015/2016), *The Study Quran* (2015) and Abdel Haleem's Oxford translation (2004). Content comes from the University of Münster's Global Qur'an reviews, CNN and the publisher, with Wikipedia and Wikidata used only for entity facts. The Hilali–Khan draft carried the Wikidata item of Usmani's translation; that is corrected. Content only, no deployment.
 - Al-Tabari's commentary on 6:142 closes at p. 182 (load-bearers and bedding, the call not to follow the footsteps of Satan) and 6:143 is begun (the eight pairs and the challenge over the two males, the two females and what their wombs hold), from volume 12 pp. 180-185 (reports 14056 to 14069), in Arabic, English and Urdu.
 
 
@@ -194,6 +195,7 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- The 3D tour's Sabri Brothers stop now lists the same two sources as its rebuilt record (English Wikipedia and Wikidata at their recorded revisions); it still named the old generic Wikidata source and turned `npm test` red on `main`.
 - The 3D tour's Sabri Brothers stop lists the same sources as its record again (the English Wikipedia and Wikidata records the figures batch 06 gave it); the mismatch had turned `main` red on the tour test.
 - Arabic and Urdu parentheses finished: the last unisolated values (award labels, journey and question summaries, and multi-line parentheticals) are wrapped, and the validator now rejects any new Arabic-script parenthesis without the isolate marks.
 - Repaired 26 journey and related files whose inline Arabic and Urdu keys had lost their quotes in an earlier isolation pass; the waypoint titles and narratives are readable by the validator again.
