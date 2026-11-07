@@ -237,3 +237,42 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 33: pp. 493-499 filed in ar, en and ur (reports 11002-11019): verse 3 is filed to the foot of p. 499.
 - Batch 34: pp. 500-506 filed in ar, en and ur (reports 11021-11046): verse 3 is filed to the foot of p. 506.
 - Progress: current report 11046, printed p. 505. Next is the rest of verse 3 from printed p. 506 on (the rest of the exception and the verses that follow).
+
+## Volume 13 progress
+- Volume 13 (`waqtaftab-taftab13`, 639 markers): the title page (marker 4) names 7:101 to 7:206 and 8:1 to 8:47 and reports 14901 to 16182; markers 1-3 are cover and blank, markers 5-6 are a printed invocation, and the commentary starts on marker 7 (7:101). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v13 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v13`.
+- Batch 1: pp. 7-13 filed in ar, en and ur (reports 14901-14908): verses 101 to 104 are filed in full and verse 105 is begun (the readings of the word translated 'worthy'). Next is the rest of 7:105 from the foot of p. 13 (printed p. 14).
+- Batch 35: pp. 507-513 filed in ar, en and ur (reports 11047-11071): verse 3 is filed to p. 513.
+- Batch 36: pp. 514-520 filed in ar, en and ur (reports 11072-11087): verse 3 is filed to the foot of p. 520.
+- Batch 37: pp. 520-527 filed in ar, en and ur (reports 11088-11100, 11101 begun): verse 3 is filed to the foot of p. 527.
+- Batch 38: pp. 527-534 filed in ar, en and ur (reports 11101-11118): verse 3 is filed to the foot of p. 534.
+- Progress: current report 11118, printed p. 534. Next is the rest of the exception for hunger, from printed p. 535 on, in verse 3.
+
+## Volume 12 progress
+- Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
+- Batch 1: pp. 7-13 filed in ar, en and ur (reports 13680-13696): verses 100 to 102 are filed in full and verse 103 is begun at p. 13 (stop sentence at the foot). Next is report 13696 (Atiyya al-Awfi) continuing on p. 14.
+- Batch 2: pp. 14-20 filed in ar, en and ur (reports 13696-13701): verse 103 (the perception of the eyes) is filed to the foot of p. 20, where al-Tabari begins his reply to the deniers of the vision. Stop sentence at the foot.
+- Batch 3: pp. 21-27 filed in ar, en and ur (reports 13702-13711): verse 103 closes at p. 23, verse 104 is filed in full, and verse 105 is begun (the readings of 'darasta') to the foot of p. 27. Stop sentence at the foot.
+- Batch 4: pp. 28-34 filed in ar, en and ur (reports 13712-13740): verse 105 closes at p. 31, verses 106 and 107 are filed in full, and verse 108 is begun (the Abu Talib report) to the foot of p. 34. Stop sentence at the foot.
+- Batch 5: pp. 35-41 filed in ar, en and ur (reports 13741-13750): verse 108 closes at p. 37 (the readings of 'adwan) and verse 109 is begun (the oaths, the demand for a sign, the readings of 'anna') to the foot of p. 41. Stop sentence at the foot. Next is the rest of the evidence on 'anna' meaning 'perhaps' at p. 41-42.
+- Batch 6: pp. 42-48 filed in ar, en and ur (reports 13751-13756): verse 109 closes at p. 43 (his choice on 'anna' as 'perhaps'), verse 110 is filed in full and verse 111 is begun (the readings of 'qubulan') to the foot of p. 48. Stop sentence at the foot.
+
+## Volume 10 progress
+- Volume 10 (`waqtaftab-taftab10`, 634 markers): the title page (marker 4) names sura al-Ma'ida 5:6 to 5:94 and reports 11300 to 12543; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (5:6, rising for prayer). The marker-to-printed-page map is the identity (page numbers in the headers agree from p. 8 on). Cite `{cite:tafsir-tabari-shakir-v10 p. N}` by printed number. The source record `source/tafsir-tabari-shakir-v10` already exists.
+- Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
+- Batch 2: pp. 14-20 filed in ar, en and ur (reports 11327-11336): verse 6 continues.
+- Batch 3: pp. 21-27 filed in ar, en and ur (reports 11337-11354): verse 6 continues.
+- Batch 4: pp. 28-34 filed in ar, en and ur (reports 11355-11388): verse 6 continues.
+- Batch 5: pp. 35-41 filed in ar, en and ur (reports 11389-11418): verse 6 continues.
+- Batch 6: pp. 42-48 filed in ar, en and ur (reports 11419-11435): verse 6 continues.
+- Batch 7: pp. 49-55 filed in ar, en and ur (reports 11436-11462): verse 6 continues.
+- Batch 8: pp. 56-62 filed in ar, en and ur (reports 11462-11494): verse 6 continues.
+- Batch 9: pp. 63-69 filed in ar, en and ur (reports 11495-11512): verse 6 continues.
+- Batches 10-13: pp. 70-96 filed in ar, en and ur (reports 11512-11556): verse 6 closes at p. 90, verse 7 is filed in full (pp. 91-94), verse 8 is begun at p. 95; next is the rest of 5:8 from p. 96.
+- Batch 14: pp. 97-103 filed in ar, en and ur (reports 11556-11562): verse 8 closes at p. 97, verses 9 and 10 are filed in full, verse 11 is begun at p. 100; next is report 11562 (Ikrima) at the foot of p. 103.
+
+## Volume 11 progress
+- Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
+- Batch 1: pp. 7-13 filed in ar, en and ur (reports 12544-12565): verse 5:95 begun; stop at the foot of p. 13 at the choice of the reading of 'jaza' mithl' (next: the rest of 5:95 from p. 14).
+- Batch 2 (pp. 14-34, three sub-batches in one PR): reports 14909-14956 filed in ar, en and ur; verses 105 to 123 are filed in full and verse 124 is begun (report 14956). Next is the rest of 7:124 from the foot of p. 34 (printed p. 35).
+- Batch 3: pp. 35-42 filed in ar, en and ur (reports 14957-14972): verses 124 to 127 are filed in full and verse 128 is begun (report 14972). Next is the rest of 7:128 from the foot of p. 42 (printed p. 43).
+- Batch 4 (pp. 43-57, two sub-batches in one PR): reports 14973-15014 filed in ar, en and ur; verses 128 to 132 are filed in full and verse 133 is begun (report 15014 at p. 57). Next is the rest of 7:133 from the foot of p. 57 (printed p. 58).
