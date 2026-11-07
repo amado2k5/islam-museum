@@ -40,10 +40,12 @@ How to honour this going forward:
 - Adding to the exceptions list is the founder's alone; an agent may propose, never decide.
 - Removing or hiding any record, for this reason or another, is still a proposal held for the founder (`docs/ai-change-gates.md`).
 
-## 5. Check before you push
+## 5. The automatic check
+
+`npm run validate` now ends with `scripts/check-extremism.ts` (patterns and non-matches in `scripts/lib/extremism.ts`, tests in `scripts/extremism.test.ts`). It **fails the build** when any `data/` or `content/` file names a blocked organisation or media wing, unless its record is listed in `docs/delegation/extremism-firewall-exceptions.md`. The non-matches of section 3 are built in. Bare Arabic or Urdu "طالبان" is not matched on its own, because it also means "students"; the Latin names and the Arabic phrases are. Fix a failure by removing the mention. Do not widen the exceptions list or weaken a pattern yourself: both are the founder's call (`docs/ai-change-gates.md`: never lower a rule). If a pattern wrongly blocks an innocent word, propose a non-match with a test.
+
+Manual check, if you want it before validate:
 
 ```bash
-rg -n -i -e '\b(ISIS|ISIL)\b' -e "(daesh|boko haram|al-qa.ida|al-shabaab|nusra|hamas|hezbollah|taliban)" data content
+npx tsx scripts/check-extremism.ts
 ```
-
-Every hit must be a section 3 non-match or a record on the exceptions list. Anything else: remove the mention or stop and ask.
