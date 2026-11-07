@@ -22,6 +22,8 @@ The biography reports a Jewish upbringing and conversion to Islam at Maragha on8
 The biography records journeys in Iraq, Syria, Kohistan and Azerbaijan and medical activity around Maragha, without linking every journey to a particular copy of the coefficient table {cite:samawal-mactutor Biography}. The dictionary entry describes princely patients and medical writings, including Nuzhat al-ashab, together with reports of medicines for which it supplies no independent surviving account {cite:samawal-dsb biography}. This is historical information about the author, not a therapeutic recipe or a recommendation to reuse a medicine.
 
 ## Survival and reading limits
+The biographies report eighty-five books or articles, most lost, and name al-Tabsira and al-Mujiz as elementary teaching works on fractions and The Exposure of the Errors of the Astrologers as a criticism of astrology's scientific value {cite:samawal-mactutor Biography} {cite:samawal-dsb bibliography}. Nuzhat al-ashab is described as a work involving medical sexual topics and stories, with attention to psychological conditions; this describes a historical book without endorsing its treatments {cite:samawal-mactutor Biography} {cite:samawal-dsb biography}.
+
 Anbouba's bibliography lists al-Bahir witnesses and a modern edition, with an internal discrepancy between1972 and1971; neither those manuscripts nor that edition was inspected here {cite:samawal-dsb bibliography}. MacTutor's described early recursive reasoning is not the modern induction principle in rigorous form {cite:samawal-mactutor Biography}. The existing Sezgin source and original Devin record attribution remain preserved; this addition does not independently validate unread pages.
 
 ## References

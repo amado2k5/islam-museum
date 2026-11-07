@@ -80,5 +80,5 @@ Candidates in queue: **524** active, **39** excluded (**563** total) · inventio
 - encyclopaediaOfIslam: 1
 - tdv: 113
 - iranica: 30
-- wikipedia: 4841
+- wikipedia: 4857
 - wikidata: 1841
