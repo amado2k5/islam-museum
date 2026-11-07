@@ -9,3 +9,23 @@ Verse 142 of [[passage/quran-7|Surat al-A'raf]], a Meccan surah. {cite:tanzil-qu
 
 ## Place in the museum
 Its place: verse 142 of 206 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+**Commentary on verse 142 (pp. 86-88)**
+
+Al-Tabari says: We appointed Moses thirty nights for communion with Us; it is said they were thirty nights of Dhu al-Qa'da; "and completed them with ten" means We completed the thirty nights with ten nights, making forty nights. It is also said that the ten with which he made it forty were the ten of Dhu al-Hijja. The editor refers to the earlier explanation of "appointing". {cite:tafsir-tabari-shakir-v13 p. 86}
+
+Report 15062, from Mujahid, through Ibn Waki', his father, Sufyan and Layth: Dhu al-Qa'da and ten of Dhu al-Hijja; report 15063, from Mujahid, the same, through Jarir from Layth; report 15064, from Mujahid, through al-Muthanna, Abu Hudhayfa, Shibl and Ibn Abi Najih: it is Dhu al-Qa'da and ten of Dhu al-Hijja, and that is His saying "so the appointed time of his Lord was complete, forty nights". The editor notes that the dots in chain 15063 are an abbreviation indicating that its beginning is the same as the one before. Report 15065, from a Hadrami, through Muhammad ibn Abd al-A'la and al-Mu'tamir ibn Sulayman from his father: a Hadrami claimed that the thirty nights by which Moses made an appointment with his Lord were Dhu al-Qa'da. {cite:tafsir-tabari-shakir-v13 p. 86}
+
+It continues: and the ten of Dhu al-Hijja with which God completed the forty. Report 15066, from Mujahid, through al-Qasim, al-Husayn, Hajjaj and Ibn Jurayj: Dhu al-Qa'da, and "completed with ten" is the ten of Dhu al-Hijja; Ibn Jurayj said Ibn Abbas said the same. Report 15067, from Mujahid, through al-Harith, Abd al-Aziz and Abu Sa'd: Dhu al-Qa'da and the first ten of Dhu al-Hijja. Report 15068, from Masruq, through Abd al-Aziz, Isra'il and Abu Ishaq: the ten of the sacrifice. {cite:tafsir-tabari-shakir-v13 p. 87}
+
+On "so the appointed time of his Lord was complete, forty nights" he says: the time God appointed for Moses was completed, forty nights, and he reached it. Report 15069, from Ibn Jurayj, through al-Qasim, al-Husayn and Hajjaj: he reached the appointed time of his Lord, forty nights. The editor refers to the explanations of "completion" and "appointed time". {cite:tafsir-tabari-shakir-v13 p. 87}
+
+On "Moses said to his brother Aaron, take my place among my people and put things right" he says: when he left for his Lord's appointment he told his brother Aaron: be my successor among them until I return (one says "he succeeded him, khilafa"); "and put things right" means put them right by leading them to obey and worship God. Report 15070, from Ibn Jurayj, through al-Qasim, al-Husayn and Hajjaj: part of his putting right was not leaving the calf to be worshipped. {cite:tafsir-tabari-shakir-v13 p. 88}
+
+On "and do not follow the way of the corrupters" he says: do not take the path of those who spread corruption in the land by disobeying their Lord and helping the people of sin in their disobedience, but take the way of those who obey their Lord. The appointment of Moses by God came, according to the people of knowledge, after He had destroyed Pharaoh and saved the Children of Israel from him. {cite:tafsir-tabari-shakir-v13 p. 88}
+
+Report 15071, from Ibn Jurayj, through al-Qasim, al-Husayn and Hajjaj: this was after he was finished with Pharaoh and before the Mount; when God saved Moses from the sea, drowned Pharaoh's people and he reached the good land, God sent down on them there manna and quail, and his Lord commanded him to meet Him; when he wished to meet his Lord he made Aaron his successor over his people and promised them that he would come to them within thirty nights, an appointment of his own, not by his Lord's command or appointment. He set out to meet his Lord, and when thirty nights were complete the Samaritan, God's enemy, said, Moses is not coming to you, and nothing will set you right but a god you worship! Aaron adjured them, saying, do not do it, wait this night and this day, and if he comes, well, and if not, do what you wish. They said, yes. And when they rose in the morning. {cite:tafsir-tabari-shakir-v13 p. 88}
+
+We stop here at the foot of p. 88, in the middle of the commentary on verse 142 (in report 15071 from Ibn Jurayj, at "and when they rose in the morning"); the next batch begins at p. 89. {cite:tafsir-tabari-shakir-v13 p. 88}
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

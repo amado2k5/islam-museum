@@ -245,7 +245,9 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 36: pp. 514-520 filed in ar, en and ur (reports 11072-11087): verse 3 is filed to the foot of p. 520.
 - Batch 37: pp. 520-527 filed in ar, en and ur (reports 11088-11100, 11101 begun): verse 3 is filed to the foot of p. 527.
 - Batch 38: pp. 527-534 filed in ar, en and ur (reports 11101-11118): verse 3 is filed to the foot of p. 534.
-- Progress: current report 11118, printed p. 534. Next is the rest of the exception for hunger, from printed p. 535 on, in verse 3.
+- Batch 39: pp. 535-541 filed in ar, en and ur (reports 11119-11131): verse 3 is filed to the foot of p. 541.
+- Batch 40: pp. 542-548 filed in ar, en and ur (reports 11132-11150): verse 3 is closed at p. 542 and verse 4 is filed to the foot of p. 548 (new passage content in quran-5-4).
+- Progress: current report 11150, printed p. 548. Next is the rest of the views on the jawarih, from printed p. 549 on, in verse 4.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
@@ -278,9 +280,12 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 4 (pp. 43-57, two sub-batches in one PR): reports 14973-15014 filed in ar, en and ur; verses 128 to 132 are filed in full and verse 133 is begun (report 15014 at p. 57). Next is the rest of 7:133 from the foot of p. 57 (printed p. 58).
 - Batch 5: pp. 58-65 filed in ar, en and ur (reports 15015-15026): verse 133 is filed to report 15026 at the foot of p. 65 (Ibn Abbas on Ibn Umar and sura al-Ankabut). Next is the rest of 7:133 from printed p. 66.
 - Batch 6: pp. 66-73 filed in ar, en and ur (reports 15026-15041): verse 133 closes at p. 70, verse 134 is filed in full and verse 135 is begun (report 15041 at p. 73). Next is the rest of 7:135 from report 15042 (al-Suddi) at the foot of p. 73 (printed p. 74).
+- Batch 7: pp. 74-81 filed in ar, en and ur (reports 15042-15055): verses 135 to 137 are filed in full and verse 138 is begun (report 15055 at p. 81). Next is the rest of 7:138 from report 15056 (Abd al-Razzaq) at the foot of p. 81 (printed p. 82).
+
+- Batches 3-5 (one PR): pp. 21-55 filed in ar, en and ur (reports 12585-12666): verse 5:95 continues (the two judges, the three expiations, place of the offering, 'its equal in fasting', 'taste the evil consequence', 'whoever returns'); stop at the foot of p. 55 in al-Tabari's reply on a claimed meaning of 'whoever returns' (next: p. 56).
+- Batch 8: pp. 82-88 filed in ar, en and ur (reports 15056-15071): verses 138 to 141 are filed in full and verse 142 is begun (report 15071 at p. 88, at 'when they rose in the morning'). Next is the rest of 7:142 from printed p. 89.
 
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 12544-12565): verse 5:95 begun; stop at the foot of p. 13 at the choice of the reading of 'jaza' mithl' (next: the rest of 5:95 from p. 14).
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 12566-12584): verse 5:95 continues; stop at the foot of p. 20 in al-Tabari's reply on buying a like with the value of the game (next: p. 21).
-- Batches 3-5 (one PR): pp. 21-55 filed in ar, en and ur (reports 12585-12666): verse 5:95 continues (the two judges, the three expiations, place of the offering, 'its equal in fasting', 'taste the evil consequence', 'whoever returns'); stop at the foot of p. 55 in al-Tabari's reply on a claimed meaning of 'whoever returns' (next: p. 56).
