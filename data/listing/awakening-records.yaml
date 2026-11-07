@@ -1,30 +1,30 @@
 id: listing/awakening-records
 class: listing
-kind: media
-label:
-  ar: أويكينغ ريكوردز
-  en: Awakening Records
+kind: record-label
+label: { ar: "أوايكننغ ميوزك ⁦(تسجيلات أوايكننغ)⁩", en: "Awakening Music (Awakening Records)", ur: "اویکننگ میوزک ⁦(اویکننگ ریکارڈز)⁩" }
 summary:
-  ar: شركة إنتاج بريطانية للأناشيد والموسيقى الإسلامية؛ أصدرت أعمال سامي يوسف وماهر زين وحمزة ناميرة.
-  en: Awakening Records.
-wings: [made]
-categories:
-- media-entertainment
-regions:
-- andalus-europe
-founded:
-  edtf: '2000'
-  calendar: gregorian
-  precision: year
-made:
-  by_muslims: true
-  basis: documented
-  sources: &id001
-  - source/official-website
-external_ids:
-  official: https://www.awakening.org
-sources: *id001
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
+  ar: "شركة تسجيلات وإنتاج موسيقي مقرها إنجلترا، أسسها سنة 2000 أربعة رواد أعمال من إنجلترا والولايات المتحدة، ولها مكاتب في لندن والقاهرة وكاليفورنيا؛ أطلقت مسيرة سامي يوسف وماهر زين ومسعود كرتس وهاريس جي، وأصدرت «المعلم» 2003 و«أمتي» 2005 و«الحمد لله» 2009 و«سامحني» 2012، واستحوذت بي فور يو على حصة الأغلبية فيها سنة 2018."
+  en: "An England-based record label and music production company founded in 2000 by four entrepreneurs from England and the United States, with offices in London, Cairo and California; it launched the careers of Sami Yusuf, Maher Zain, Mesut Kurtis and Harris J, released Al-Mu'allim (2003), My Ummah (2005), Thank You Allah (2009) and Forgive Me (2012), and passed to a majority stake held by B4U in 2018."
+  ur: "انگلینڈ میں قائم ریکارڈ لیبل اور موسیقی پروڈکشن کمپنی، جسے 2000 میں انگلینڈ اور امریکہ کے چار کاروباری افراد نے قائم کیا اور جس کے دفاتر لندن، قاہرہ اور کیلیفورنیا میں ہیں؛ اس نے سامی یوسف، ماہر زین، مسعود کرتس اور ہیرس جے کے کیریئر کا آغاز کیا اور «المعلم»، «مائی اُمّہ»، «تھینک یو اللہ» اور «فارگیو می» جاری کیے۔"
+wings: [today, made]
+categories: [media-entertainment]
+themes: [music]
+regions: [andalus-europe, egypt-nile]
+founded: { edtf: "2000", calendar: gregorian, precision: year, status: debated, note: "2000 in the text and infobox of the English and Arabic articles and on Wikidata; the articles' categories file it under 2003 establishments, the year of its first album", sources: [source/wikipedia-awakening-music-en, source/wikipedia-awakening-music-ar, source/wikidata-awakening-music] }
+status_business: active
+made: { by_muslims: true, basis: documented, sources: [source/guardian-awakening-islamic-singers-2012] }
+location: { address: { ar: "لندن، إنجلترا؛ ومكاتب في القاهرة وكاليفورنيا؛ وتذكر الغارديان سنة 2012 أن مكتبها الرئيس في المملكة المتحدة في سوانزي", en: "London, England, with offices in Cairo and California; The Guardian gave its UK head office as Swansea in 2012", ur: "لندن، انگلینڈ؛ قاہرہ اور کیلیفورنیا میں دفاتر؛ گارڈین کے مطابق 2012 میں برطانیہ کا صدر دفتر سوانزی میں تھا" }, serves: [global] }
+links: { official: "https://www.awakening.org" }
+languages: [en, ar, tr, ms]
+footprint:
+  wikipedia: { languages: [ar, bn, en, fr, id, it, ms, szl, th, tr], checked: "2026-11-06", sources: [source/wikidata-awakening-music] }
+  wikidata: "Q4120526"
+external_ids: { wikidata: "Q4120526", official: "https://www.awakening.org" }
+sources: [source/wikipedia-awakening-music-en, source/wikipedia-awakening-music-ar, source/wikidata-awakening-music, source/guardian-awakening-islamic-singers-2012, source/official-website]
+provenance:
+  layer: own-research
+  source: "Rewritten in place from the culture lane's draft of 16 October 2026 (kind media, official website only): English Wikipedia 'Awakening Music' (revision 1381779306 of 24 October 2026, citing The Guardian, HuffPost and Jonas Otterberg, The Awakening of Islamic Pop Music, 2021), Arabic Wikipedia «تسجيلات أوايكننغ» (revision 76076125 of 3 August 2026) and Wikidata Q4120526 (revision 2395121286), read in Chrome on the founder's Mac on 6 November 2026. plus Omar Shahid's Guardian report of 13 April 2012, read in full, for the label's own account of its aim (faith-inspired music for a Muslim audience, in the co-founder's words), which is the basis of `made`"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
