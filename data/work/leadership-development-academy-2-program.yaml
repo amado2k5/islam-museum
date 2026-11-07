@@ -1,0 +1,31 @@
+id: work/leadership-development-academy-2-program
+class: work
+kind: lecture-series
+label:
+  ar: "أكاديمية إعداد القادة 2 ⁦(دورة تدريبية مصوّرة)⁩"
+  en: "Akadimiyyat I'dad al-Qada 2, the second Academy for Preparing Leaders (filmed training course)"
+  ur: "أكاديمية إعداد القادة 2: دوسری قائدین اکیڈمی ⁦(فلمائی گئی تربیتی کورس)⁩"
+summary:
+  ar: "التسجيل المصوَّر لأكاديمية القادة الثانية في تركيا، يحفظ أرشيف أسابيل ست جلسات منها: محاضرة في مقاصد الشريعة للضيف عصام تليمة، ومحاضرة طارق السويدان في نماذج وخطوات التخطيط الاستراتيجي في أربعة أجزاء، والجزء الأول من «تعلّم القيادة»."
+  en: "The filmed record of the second Leaders' Academy in Turkey, of which the Assabile archive keeps six sessions: a lecture on the objectives of the Sharia by the guest Essam Telima, Tareq al-Suwaidan's four-part lecture on models and steps of strategic planning, and the first part of 'Learning Leadership'."
+  ur: "ترکی میں دوسری قائدین اکیڈمی کی فلمائی گئی ریکارڈنگ، جس کی چھ نشستیں اسابیل آرکائیو میں محفوظ ہیں: مہمان عصام تلیمہ کا مقاصدِ شریعت پر لیکچر، سٹریٹجک منصوبہ بندی کے ماڈلوں اور مراحل پر طارق السویدان کا چار حصوں کا لیکچر، اور «قیادت سیکھنا» کا پہلا حصہ۔"
+wings: [ideas]
+themes: [politics-governance-and-authority, education, ethics-and-character]
+regions: [arab-world, global]
+periods: [period/contemporary-era]
+sources: [source/assabile-tareq-al-suwaidan]
+authors: [person/tariq-al-suwaidan]
+delivered: { by: person/tariq-al-suwaidan }
+language: language/arabic
+delivery_date_status: uploaded
+relations:
+  - { type: about, target: concept/maqasid-al-shariah, note: "ep01 (guest lecturer Essam Telima)", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: concept/al-takhtit-al-istratiji, note: "ep02-ep05", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: concept/al-ruya-wa-al-risala, note: "ep04-ep05", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: concept/strategic-business-unit, note: "ep05", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: concept/kpi-muashirat, note: "ep05", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: concept/al-qiyada, note: "ep06", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/amr-ibn-al-as, note: "ep06", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/abu-dharr-al-ghifari, note: "ep06", sources: [source/assabile-tareq-al-suwaidan] }
+provenance: { layer: copyrighted-reference, source: "Assabile, leadership-development-academy-2 ep01-ep06 (speaker page https://www.assabile.com/tareq-al-suwaidan; video sessions, manifest leadership-development-academy-2.manifest.tsv; file names carry original session numbers 01-43, so the six kept sessions are a selection; ep01 is a guest lecture by Essam Telima; transcripts pass5-qwen; engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader; anchors read by reading sub-agents of the same session and key windows re-read by the writer)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: suwaidan-leadership-academy-1 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run suwaidan-leadership-academy-1" }
