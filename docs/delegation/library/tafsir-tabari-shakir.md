@@ -245,7 +245,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 36: pp. 514-520 filed in ar, en and ur (reports 11072-11087): verse 3 is filed to the foot of p. 520.
 - Batch 37: pp. 520-527 filed in ar, en and ur (reports 11088-11100, 11101 begun): verse 3 is filed to the foot of p. 527.
 - Batch 38: pp. 527-534 filed in ar, en and ur (reports 11101-11118): verse 3 is filed to the foot of p. 534.
-- Progress: current report 11118, printed p. 534. Next is the rest of the exception for hunger, from printed p. 535 on, in verse 3.
+- Batch 39: pp. 535-541 filed in ar, en and ur (reports 11119-11131): verse 3 is filed to the foot of p. 541.
+- Progress: current report 11131, printed p. 541. Next is how much the person in necessity may eat, from printed p. 542 on, in verse 3.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
