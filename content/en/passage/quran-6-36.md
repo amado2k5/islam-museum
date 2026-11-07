@@ -14,6 +14,12 @@ On "only those who hear respond; and the dead God will raise, then to him they r
 
 The editor refers for "response" to earlier volumes 7 and 3 and corrects "and they do not remember so they desist" to the form he gave.
 
-We stop here at the foot of p. 341, at al-Tabari's saying that the interpreters said the like on "only those who hear respond", before the reports, which continue on p. 342.
+Reports 13206 and 13207, from Mujahid: "only those who hear respond" are the believers, to the reminder, "and the dead" the unbelievers, when God raises them with the dead. 13208, from Qatada: this is the likeness of the believer who heard God's book and benefited from it, took it and understood it; "those who deny our signs are deaf and dumb" is the likeness of the unbeliever, deaf and dumb, who sees no guidance and gains nothing from it. 13209 and 13210, from al-Hasan: "those who hear" are the believers, "and the dead" the unbelievers. {cite:tafsir-tabari-shakir-v11 p. 342}
+
+As for "then to him they return", he says: then to God return the believers who answered God and the Messenger and the unbelievers between whom and understanding anything from you God has set a barrier; he rewards this believer for the good works he did in the world with the reward he promised the people of belief, and punishes this unbeliever with the punishment he threatened the people of unbelief, wronging none of them an atom's weight. {cite:tafsir-tabari-shakir-v11 p. 342}
+
+The editor notes that the printed text and manuscript have "then to God return the believers", which is nothing here, and gives the better form.
+
+Verse 36 closes here at p. 342, and al-Tabari goes on to [[passage/quran-6-37|6:37]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
