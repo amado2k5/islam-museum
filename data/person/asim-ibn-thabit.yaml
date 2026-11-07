@@ -23,9 +23,12 @@ relations:
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/aws }
   - { type: participated_in, target: event/incident-of-al-raji, role: "أمير السرية والشهيد المحمي بالدبر", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira] }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/suwar-min-hayat-al-sahaba-nafais-1992]
 external_ids: { wikidata: "Q6812181" }
 status: { review: published, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 291–293" }
 provenance:
   layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), pp. 291–293 — as recorded in this record's status.generated_by"
+  generated_by: "Devin"
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his portrait in al-Basha's Suwar min Hayat al-Sahaba, source/suwar-min-hayat-al-sahaba-nafais-1992 PDF pp. 377–383"
