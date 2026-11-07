@@ -28,6 +28,7 @@ relations:
   - { type: participated_in, target: event/battle-of-the-trench, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: participated_in, target: event/battle-of-hunayn, role: "ثبت مع النبي", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: lived_in, target: place/medina, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: member_of, target: group/sahaba, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
 provenance:
   layer: own-research
   source: "فضائل الصحابة لأحمد بن حنبل، تحقيق وصي الله عباس (ط2 1420هـ) ص1041–1043، الروايتان 1507–1508 وحاشية الترجمة"

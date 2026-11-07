@@ -33,6 +33,7 @@ relations:
   - { type: participated_in, target: event/first-migration-to-abyssinia, role: leader-and-spokesman, sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
   - { type: traveled_to, target: place/aksum, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-mutah, role: second-commander, sources: [source/ibn-ishaq-guillaume] }
+  - { type: member_of, target: group/sahaba, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-sad-tabaqat-bewley] }
 external_ids:
   wikidata: Q1147498
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/sahih-al-bukhari, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar, source/fadail-sahaba-ahmad-wasi-allah-1999]
