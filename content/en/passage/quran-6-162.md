@@ -9,3 +9,11 @@ Verse 162 of [[passage/quran-6|Surat al-An'am]], a Meccan surah. {cite:tanzil-qu
 
 ## Place in the museum
 Its place: verse 162 of 165 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+Then, on "say: my prayer, my sacrifice, my life and my death are for God, Lord of the worlds", God tells His Prophet to say to those who equate idols and images with their Lord, who ask you to follow their desires in falsehood, in worshipping gods and idols: my prayer, my sacrifice, that is, my slaughter, my life and my death are for God, Lord of the worlds, meaning all that is purely His and not for the idols you set up with Him, idolaters. The editor refers to the earlier commentary on "sacrifice". {cite:tafsir-tabari-shakir-v12 p. 283}
+
+As al-Tabari says, the commentators also said that "sacrifice" here is slaughter: he gives (14296) from Mujahid that "sacrifice" is the slaughtered animals in Hajj and Umra, and (14297) and (14298) from him that it is his slaughter in Hajj and Umra; (14299) and (14300) from Sa'id ibn Jubayr that it is my slaughter; and (14301) from him that it is my prayer and my slaughtered animal, with Ibn Mahdi saying he does not know who this Isma'il is. {cite:tafsir-tabari-shakir-v12 p. 284}
+
+We stop here at the foot of p. 284, in verse 162 after report 14301; report 14302 begins at the foot of p. 284 and the next batch continues from it.
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
