@@ -507,6 +507,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 75: pp. 559-564 filed in ar, en and ur (reports 16127-16144): 8:41 closes at p. 563, 8:42 begun; stop sentence at the foot of p. 564 after report 16144 (next: p. 565).
 - Batch 76: pp. 565-570 filed in ar, en and ur (reports 16145-16153): 8:42 closes at p. 569, 8:43 begun; stop sentence at the foot of p. 570 in the middle of report 16153 (next: p. 571).
 - Batch 77: pp. 571-576 filed in ar, en and ur (reports 16153-16166): 8:43 closes, 8:44 and 8:45 filed in full, 8:46 begun; stop sentence at the foot of p. 576 in the middle of report 16166 (next: p. 577).
+- Batch 78: pp. 576-581 filed in ar, en and ur (reports 16167-16182): 8:46 closes at p. 577 and 8:47 is filed in full to p. 581. Volume 13 is complete (printed pages 7-581; the colophon page is not filed); volume 14 begins at 8:48.
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
@@ -674,6 +675,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 61: Sura al-Ra'd pp. 431-437 filed (13:26 closed, 13:27 filed, 13:28-29 begun). Next is the rest of 13:28-29 from p. 438 (marker 446).
 - Batch 71: pp. 384-388 filed in ar, en and ur (reports 13278-13289): 6:52 closes at p. 388 (the further views on the 'calling morning and evening': prayer, remembrance, learning the Qur'an, worship, and al-Tabari's choice of the general sense; the editor's comments on the storytellers) and 6:53 is begun ('and so we have tried some of them by others') to the foot of p. 388. Stop sentence at the foot in quran-6-53. Next is p. 389.
 - Batch 61: printed pp. 389-393 (markers 393-397) filed in ar, en and ur (reports 14503-14525): 7:31 begun to the foot of p. 393 before report 14526. Offset still marker - 4. Stop sentence at the foot. Next is report 14526 (marker 397, printed 393).
+- Batch 62: Sura al-Ra'd pp. 438-444 filed (13:28-29 closed). Next is 13:30 from p. 445 (marker 453).
 - Batch 72: pp. 389-393 filed in ar, en and ur (reports 13290-13296): 6:53 closes at p. 390 (God's trial of some by others through wealth and poverty, 'is not God best informed of the thankful') and 6:54 is begun ('when those who believe in our signs come to you, say: peace upon you': who is meant, the readings of 'anna/inna', 'in ignorance') to the foot of p. 393, at the start of report 13296. Stop sentence at the foot in quran-6-54. Next is p. 394.
 - Batch 73: pp. 394-398 filed in ar, en and ur (reports 13296-13302): 6:54 closes at p. 394, 6:55 ('so we explain the signs'; the readings 'li-tastabina'/'li-yastabina' and 'sabila'/'sabilu') and 6:56 ('I am forbidden to worship those you call on'; the two forms of 'dalaltu', filed from the legible part of a garbled p. 397) are filed in full and 6:57 is begun ('I am on a clear proof from my Lord') to the foot of p. 398, at the start of report 13302. Stop sentence at the foot in quran-6-57. Next is p. 399.
 - Batch 62: printed pp. 393-399 (markers 397-403) filed in ar, en and ur (reports 14526-14542): 7:31 closes at p. 395 and 7:32 is begun to the foot of p. 399 before report 14543. Offset still marker - 4. Stop sentence at the foot. Next is report 14543 (marker 403, printed 399).
@@ -682,3 +684,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
+- Batch 79: pp. 428-434 filed in ar, en and ur (reports 13374-13380): 6:65 end, 6:66 and the start of 6:67
