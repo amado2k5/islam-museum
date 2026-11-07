@@ -32,6 +32,8 @@ The readers differed. The readers of Medina and some of Basra read "sihr mubin",
 
 The editor refers to the earlier explanation of "holding back", "the clear signs" and "plain", and keeps "the truth of what I sent you" from the manuscript.
 
-We stop here at the foot of p. 216, in the middle of al-Tabari's argument that the readings "sihr" and "sahir" agree in sense, at "and whoever is described as a magician", which continues on p. 217.
+The rest: the act points to its doer, the attribute to what it describes, the thing described to its attribute and the doer to his act, so whichever of the two readings the reader follows, he is right. {cite:tafsir-tabari-shakir-v11 p. 217}
+
+Verse 110 closes here at p. 217, and al-Tabari goes on to [[passage/quran-5-111|5:111]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
