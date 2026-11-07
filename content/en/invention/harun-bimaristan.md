@@ -1,5 +1,11 @@
 ---
 id: invention/harun-bimaristan
+status: { review: published }
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of Arabic additions from directly reread TDV BÎMÂRİSTAN; original prose preserved."
 lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
@@ -42,6 +48,8 @@ TDV says Harun's hospital provided an example for subsequent foundations in Bagh
 It mentions hospitals at Wasit, Raqqa and elsewhere, but does not document a route along which Harun's staff moved from one city to the next {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. The record's dated spread map therefore remains empty: the multiplication of institutions is not a documented itinerary of this particular foundation.
 
 ## What it was built on
+The article's Indian medical connection is not confined to the Barmakid hospital: TDV attributes to Harun the recruitment of the Indian physician Mankah from Jundishapur for his treatment, and a commission to translate Shanak's work and the medical work of Sushruta {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. These names remain evidence for the transfer of knowledge described by the encyclopedia, not a staff roster or reading list for Harun's hospital, which the passage does not establish {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. Commissioning an institution, recruiting doctors and translating texts therefore coexist around the same patron without becoming a single event whose separate dates can be exchanged; the article's account of Indian, Greek and Nestorian medicine extends beyond the particular hospital's foundation narrative {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
+
 The closest antecedents named are the Jundishapur hospital model and its physicians' expertise: Jirjis had entered al-Mansur's service before Jibril appeared in the account of Harun's commission {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. The introduction to “BUHTÎŞÛ‘” describes the family's contribution through translations, writings and physicians serving the Abbasid court {cite:tdv-buhtisu §introduction}.
 
 The parallel Barmakid hospital adds another dimension: interest in Indian medicine and translation, alongside Greek medicine and Nestorian expertise {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. This is Baghdad's intellectual context, not evidence that every book translated there formed part of a curriculum in Harun's hospital.

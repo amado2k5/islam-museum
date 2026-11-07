@@ -1,5 +1,11 @@
 ---
 id: invention/ibn-tulun-bimaristan
+status: { review: published }
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of Arabic comparative additions from directly reread TDV BÎMÂRİSTAN; original prose preserved."
 lang: en
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
@@ -50,11 +56,19 @@ The explicit financial basis is endowment: properties dedicated to the hospital'
 Earlier hospitals remain historical context, not a particular plan proven to have been copied. Neither al-Maqrizi's two pages nor the encyclopedia passage read names a drawing brought from Baghdad to construct this institution {cite:khitat-maqrizi-1998 scan pp. 2336–2337} {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
 
 ## What was built on it
+Psychiatric care here can be compared with other forms without making them branches of the Egyptian institution: TDV describes a place at Dayr Hizqil between Baghdad and Wasit, visited by al-Mubarrad under al-Mutawakkil, as an establishment specifically for psychiatric patients, whereas Ibn Tulun's account places them alongside other patients {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. The scope distinguishes uses of bimaristan: one account can describe a multi-service institution and another a specialized establishment, without the shared name making admission rules or treatments identical {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
+
+As a later institutional comparison, not an asserted transmission chain, the encyclopedia describes Baghdad's Adudi hospital in981: twenty-four doctors at its foundation, including specialists in internal medicine, eyes, surgery and bone-setting, and a special system taking water from the Tigris {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. These are details of the later Baghdad establishment, not missing information about Ibn Tulun's staff numbers or water supply; Ibn Abi Usaybia's original Adudi account was not independently read for this addition {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
+
+The Adudi account also illustrates a chronological attribution problem: the story of al-Razi hanging meat to choose its location cannot fit its foundation date, because he died decades earlier; the article proposes confusion between the names Adudi and Mu'tadidi {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. That comparison clarifies how to read neighboring institutional accounts: a similar name or activity cannot move a doctor's work into a hospital he never saw, just as Ibn Tulun's differing dates cannot become a construction-and-opening sequence that the source does not state {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri} {cite:khitat-maqrizi-1998 scan p. 2337}.
+
 The sources read do not name a modern hospital receiving every procedure from this maristan along a documented chain. TDV compares its patient care and services, apart from technical capabilities, to those of modern hospitals {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. This is the encyclopedia author's comparison of features, not proof of direct transmission for each procedure.
 
 The direct dependents field therefore remains empty, while the story presents what can be verified: the endowed property, the patient's journey and administration {cite:khitat-maqrizi-1998 scan p. 2337}.
 
 ## Impact on daily life
+Comparison with the specialized establishment at Dayr Hizqil does not establish worldwide priority in psychiatry: evidence of a patient category differs from evidence of diagnostic methods and outcomes, which this encyclopedic comparison does not supply for the Egyptian hospital {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}.
+
 The most immediate patient benefit in the account is safekeeping of clothes and money during a stay, with dress, bedding, food and medicine becoming part of the institution's provision until recovery {cite:khitat-maqrizi-1998 scan p. 2337}. TDV says rich and poor were accepted, except for slaves and soldiers {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}. The exception is not hidden behind “care for everyone”.
 
 Al-Maqrizi includes people with mental illness among those the ruler inspected and describes one patient as restrained in an anecdote {cite:khitat-maqrizi-1998 scan p. 2337}. This is an account of care and confinement in its period, not a claim that the institution's practices met today's medical ethics.

@@ -1,5 +1,11 @@
 ---
 id: invention/harun-bimaristan
+status: { review: published }
+provenance:
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-depth-20261107
+  source: "Translation of Arabic additions from directly reread TDV BÎMÂRİSTAN; original prose preserved."
 lang: ur
 source_lang: ar
 translators: ["Copilot SDK in VS Code"]
@@ -42,6 +48,8 @@ translators: ["Copilot SDK in VS Code"]
 واسط، رقہ اور دوسرے شہروں میں بھی شفاخانے تھے، مگر ماخذ ہارون کے عملے کی ایک شہر سے دوسرے شہر تک کوئی ثابت شدہ راہ نہیں دیتا {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}۔ اس لیے اس ریکارڈ کا تاریخ وار پھیلاؤ کا نقشہ خالی رکھا گیا ہے؛ اداروں کا بڑھنا اس مخصوص شفاخانے کا سفرنامہ نہیں۔
 
 ## اس کی بنیاد کیا تھی
+مضمون میں ہندی طب کا تعلق برمکی ہسپتال تک محدود نہیں: ٹی ڈی وی ہارون سے منسوب کرتی ہے کہ انہوں نے اپنے علاج کے لیے ہندی طبیب منکہ کو جندیسابور سے بلوایا اور شانک کی تصنیف اور سشروتا کے طبی متن کے ترجمے کا کام دیا {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}۔ یہ نام انسائیکلوپیڈیا کے بیان کردہ انتقالِ علم کا ثبوت ہیں، ہارون کے ہسپتال کے عملے یا نصابی کتابوں کی فہرست نہیں، کیونکہ متعلقہ عبارت یہ ثابت نہیں کرتی {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}۔ ایک ہی سرپرست کے گرد ادارہ بنانا، اطبا بلانا اور متون کا ترجمہ کرنا ساتھ نظر آتے ہیں، مگر ایک واقعہ نہیں بنتے کہ ان کی الگ تاریخیں بدل لی جائیں؛ ہندی، یونانی اور نسطوری طب کا بیان اس مخصوص ہسپتال کی بنیاد کی روایت سے زیادہ وسیع ہے {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}۔
+
 براہ راست پیش رو جندیشاپور کا نمونہ اور اس کے طبیبوں کی مہارت تھے۔ جرجیس منصور کی خدمت میں آئے، پھر جبرائیل ہارون کے حکم کی روایت میں نظر آتے ہیں {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}۔ «بختیشوع» کا تعارف خاندان کی ترجمانی، تصنیف اور عباسی دربار کی طبی خدمت کا حصہ بیان کرتا ہے {cite:tdv-buhtisu §introduction}۔
 
 برامکہ کا الگ شفاخانہ ہندی طب اور ترجمے کی دلچسپی دکھاتا ہے، جو یونانی طب اور نستوری مہارت کے ساتھ شہر کا علمی ماحول تھا {cite:tdv-bimaristan §İlk Bîmâristan Tesisleri}۔ یہ اس بات کا ثبوت نہیں کہ وہاں ترجمہ ہونے والی ہر کتاب ہارون کے شفاخانے میں پڑھائی جاتی تھی۔
