@@ -35,7 +35,7 @@ const covers = X.covers.replace("{n}", String(verses.length)).replace("{first}",
       <p class="muted">{covers}</p>
     </section>
 
-    <section aria-labelledby="tafsir-verses">
+    <section aria-labelledby="tafsir-verses" data-pagefind-ignore>
       <h2 id="tafsir-verses">{X.verses}</h2>
       <ul role="list">
         {verses.map((id: string) => (
