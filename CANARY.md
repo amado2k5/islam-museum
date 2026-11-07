@@ -168,6 +168,7 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's Jami' al-Bayan (Shakir edition), volume 14, pp. 84-90 filed in Arabic, English and Urdu (reports 16343-16354): 8:73 and 8:74 in full (the unbelievers as allies, the two readings of the strife clause and al-Tabari's choice, the true believers and the provision of Paradise) and 8:75 to the foot of p. 90 (those who believed later, the kinship verse, the case of Shurayh), cited as {cite:tafsir-tabari-shakir-v14 p. 90}; the next stop is p. 91. Statements are given as transmitted with no museum verdict.
 
 ### Data
+- Tafsir Browser: al-Tabari vol. 11, batch 100 (pp. 575-581, reports 13662-13673): 6:99 continued (clusters, gardens, fruit and ripening; p. 581 scan damaged, only 13673 legible) Arabic, English and Urdu.
 - al-Tabari v16 (Batch 83): Sura Ibrahim pp. 588-594 filed in ar, en and ur (reports 20754-20765): 14:26 finished, and 14:27 begun (the firm word; the questioning in the grave, hadith of al-Bara' and Abu Sa'id). Stops at the foot of p. 594; the next batch begins at p. 595.
 - Tafsir Browser: al-Tabari vol. 11, batch 99 (pp. 568-574, reports 13638-13661): 6:98 end and 6:99 begun (water, green growth, grain) Arabic, English and Urdu.
 - al-Tabari v16 (Batch 82): Sura Ibrahim pp. 581-587 filed in ar, en and ur (reports 20730-20753): the meaning of "hin" settled, and 14:26 begun (the bad word as a bad tree, the colocynth, uprooted). Stops at the foot of p. 587; the next batch begins at p. 588.

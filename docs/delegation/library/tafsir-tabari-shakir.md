@@ -759,3 +759,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 97: pp. 554-560 filed in ar, en and ur (reports 13595-13611): 6:95 end and 6:96 begun (dawn, night, sun and moon)
 - Batch 98: pp. 561-567 filed in ar, en and ur (reports 13612-13638): 6:96 end, 6:97 and 6:98 begun (resting-place and repository)
 - Batch 99: pp. 568-574 filed in ar, en and ur (reports 13638-13661): 6:98 end and 6:99 begun (water, green growth, grain)
+- Batch 100: pp. 575-581 filed in ar, en and ur (reports 13662-13673): 6:99 continued (clusters, gardens, fruit and ripening; p. 581 scan damaged, only 13673 legible)
