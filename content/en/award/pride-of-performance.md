@@ -15,7 +15,7 @@ Wikidata gives 1958 as its inception. {cite:wikidata-pride-of-performance}
 
 ## In the museum
 
-Its holders in the museum include the qawwal [[person/munshi-raziuddin|Munshi Raziuddin]] (1967) {cite:wikipedia-munshi-raziuddin-en}, the qawwal [[person/aziz-mian|Aziz Mian]] (1989) {cite:wikipedia-aziz-mian-en}, the naat reciter [[person/khursheed-ahmad|Khursheed Ahmad]] (1996) {cite:wikipedia-khursheed-ahmad-en} and the qawwal [[person/fareed-ayaz|Fareed Ayaz]] (2006). {cite:wikipedia-fareed-ayaz-en}
+Its holders in the museum include the qawwal [[person/munshi-raziuddin|Munshi Raziuddin]] (1967) {cite:wikipedia-munshi-raziuddin-en}, the [[group/sabri-brothers|Sabri Brothers]] (1978) {cite:wikipedia-sabri-brothers-en}, the singer [[person/abida-parvin|Abida Parveen]] (1984) {cite:wikipedia-abida-parvin-en}, the qawwal [[person/nusrat-fatih-ali-khan|Nusrat Fateh Ali Khan]] (1987) {cite:wikipedia-nusrat-fatih-ali-khan-en}, the qawwal [[person/aziz-mian|Aziz Mian]] (1989) {cite:wikipedia-aziz-mian-en}, the naat reciter [[person/khursheed-ahmad|Khursheed Ahmad]] (1996) {cite:wikipedia-khursheed-ahmad-en} and the qawwal [[person/fareed-ayaz|Fareed Ayaz]] (2006). {cite:wikipedia-fareed-ayaz-en}
 
 ## References
 
