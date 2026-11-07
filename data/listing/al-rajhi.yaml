@@ -2,26 +2,110 @@ id: listing/al-rajhi
 class: listing
 kind: company
 label:
-  ar: "بنك الراجحي"
-  en: "Al-Rajhi Bank"
+  ar: مصرف الراجحي
+  en: Alrajhi Bank
+  ur: مصرف الراجحی
 summary:
-  ar: "أكبر بنك إسلامي في العالم بحجم الأصول؛ تأسس كبيت صرافة سنة 1957 وصار مصرفاً إسلامياً عملاقاً."
-  en: "The world's largest Islamic bank by assets; began as a money-exchange house in 1957 and grew into a banking giant."
-wings: [made]
-categories: [finance]
-regions: [arabia]
+  ar: بنك سعودي مقره الرياض يعمل وفق أحكام الشريعة، يعود تأسيسه إلى 1957، وكان اسمه شركة الراجحي المصرفية للاستثمار حتى 2006؛
+    عدّته بيانات 2015 أكبر بنك إسلامي في العالم برأس المال، وجاء أول قائمة فوربس الشرق الأوسط لأعلى 30 بنكا قيمة لسنة 2025.
+  en: A Saudi bank based in Riyadh that operates according to Sharia, founded in 1957 and known as Al Rajhi Banking and Investment
+    Corporation until 2006; 2015 data made it the world's largest Islamic bank by capital, and it was first on Forbes Middle
+    East's 30 Most Valuable Banks 2025.
+  ur: ریاض میں قائم سعودی بینک جو شریعت کے مطابق کام کرتا ہے؛ 1957 میں قائم ہوا اور 2006 تک الراجحی بینکنگ اینڈ انویسٹمنٹ
+    کارپوریشن کہلاتا تھا؛ 2015 کے اعداد کے مطابق سرمائے کے لحاظ سے دنیا کا سب سے بڑا اسلامی بینک، اور فوربس مڈل ایسٹ کی 2025
+    کی 30 سب سے قیمتی بینکوں کی فہرست میں پہلے نمبر پر۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- arabia
 founded:
   edtf: '1957'
+  hijri: '1376~'
   calendar: gregorian
   precision: year
+  status: historical
+  derived: true
+  note: Founded 1957 (Palgrave Encyclopedia, cited by the article). The Hijri year is converter-derived; 1957 spans 1376–1377
+    AH.
+  sources:
+  - source/wikipedia-alrajhi-bank-en
 made:
   by_muslims: true
   basis: documented
-  sources: [source/wikidata]
+  sources:
+  - source/wikipedia-alrajhi-bank-en
 external_ids:
   wikidata: Q1761176
-sources: [source/wikidata]
+sources:
+- source/wikipedia-alrajhi-bank-en
+- source/forbes-middle-east-lists-2025
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - sa
+  - kw
+  - jo
+  - my
+links:
+  official: https://www.alrajhibank.com.sa
+honours:
+- award: award/forbes-middle-east-lists
+  category: most-valuable-banks
+  result: ranked
+  position: 1
+  year: 2025
+  note: first on the 30 Most Valuable Banks 2025
+  sources:
+  - source/wikipedia-alrajhi-bank-en
+  - source/forbes-middle-east-lists-2025
+- award: award/forbes-middle-east-lists
+  category: top-100-listed-companies
+  result: ranked
+  position: 5
+  year: 2025
+  note: fifth on the Top 100 Companies 2025, as the article names the list
+  sources:
+  - source/wikipedia-alrajhi-bank-en
+  - source/forbes-middle-east-lists-2025
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - bn
+    - ckb
+    - de
+    - en
+    - fa
+    - fi
+    - fr
+    - id
+    - ms
+    - ru
+    - ur
+    - zh
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-alrajhi-bank-en
+  wikidata: Q1761176
+  catalogues:
+    isin: SA0007879113
+    ticker: 'Tadawul: 1120'
+provenance:
+  layer: own-research
+  source: English Wikipedia "Alrajhi Bank" (revision 1379453022, 10 October 2026), read in Chrome on the founder's Mac on
+    6 November 2026; Wikidata sitelinks read the same day; the existing Wikidata-only draft (Devin, listings lane, 16 October
+    2026) was enriched in place, its unsourced superlatives dropped (see the enterprise progress file)
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b01

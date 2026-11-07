@@ -2,29 +2,35 @@ id: listing/sunnah-com
 class: listing
 kind: platform
 label:
-  ar: سنة.كوم
-  en: Sunnah.com
+  ar: "سنة.كوم (Sunnah.com)"
+  en: "Sunnah.com"
+  ur: "سنہ.کوم (Sunnah.com)"
 summary:
-  ar: مكتبة الحديث الإنجليزية الأوسع على الويب؛ تجمع الكتب الستة ومصادر أخرى بترجماتها.
-  en: Sunnah.com.
-wings: [made]
-categories:
-- technology
-regions:
-- americas-oceania
-founded:
-  edtf: '2011'
-  calendar: gregorian
-  precision: year
-made:
-  by_muslims: true
-  basis: documented
-  sources: &id001
-  - source/official-website
+  ar: "موقع لنشر كتب الحديث بنصوصها العربية وترجماتها، أساسه الكتب الستة ومعها موطأ مالك ومسند أحمد ورياض الصالحين وغيرها؛ يذكر أنه أخذ النص العربي من موقع الإيمان ومصادر أخرى متوقفة، وأن ترجماته الإنجليزية لمترجمين عدة، ويعرض أحكام الألباني ودار السلام على أحاديث غير الصحيحين، ويسعى إلى ترقيم موحد؛ وكان يقدّم سنة 2021 الإنجليزية والعربية والأردية."
+  en: "A website publishing the books of hadith in their Arabic texts and translations, built on the Six Books with the Muwatta of Malik, the Musnad of Ahmad, Riyad al-Salihin and others; it says its Arabic text comes from al-eman.com and other defunct sources and its English from several translators, shows al-Albani's and Darussalam's grades for hadith outside the two Sahihs, and is moving to unified numbering; in 2021 it offered English, Arabic and Urdu."
+  ur: "حدیث کی کتابیں عربی متن اور تراجم کے ساتھ شائع کرنے والی ویب سائٹ، جس کی بنیاد کتبِ ستہ ہیں، ساتھ مؤطا امام مالک، مسند احمد اور ریاض الصالحین؛ اس کے بقول عربی متن الایمان ڈاٹ کام اور دیگر بند ذرائع سے لیا گیا اور انگریزی کئی مترجمین کی ہے؛ صحیحین کے علاوہ احادیث پر البانی اور دار السلام کے احکام دکھاتی ہے؛ 2021 میں انگریزی، عربی اور اردو میں تھی۔"
+wings: [made, words, today]
+categories: [technology, education]
+regions: [global]
+made: { by_muslims: false, basis: unverified }
+status_business: active
+location: { online_only: true, serves: [global] }
+links:
+  official: "https://sunnah.com"
+languages: [en, ar, ur]
+footprint:
+  wikipedia: { languages: [fi], checked: "2026-11-06", sources: [source/wikidata-sunnah-com] }
+  wikidata: "Q137767756"
+relations:
+  - { type: related_to, target: work/sahih-al-bukhari, note: "one of the collections it publishes", sources: [source/wikipedia-sunnah-com-fi, source/sunnah-com-about] }
 external_ids:
+  wikidata: Q137767756
   official: https://sunnah.com
-sources: *id001
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
+sources: [source/sunnah-com-about, source/wikipedia-sunnah-com-fi, source/wikidata-sunnah-com]
+provenance:
+  layer: own-research
+  source: "Sunnah.com's About page and Wikidata Q137767756 with its Finnish Wikipedia article, read in Chrome on the founder's Mac on 6 November 2026; enriches the draft of 16 October 2026 (Devin, listings lane) on the same id"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b06
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

@@ -4,27 +4,76 @@ kind: company
 label:
   ar: بنك بوبيان
   en: Boubyan Bank
+  ur: بوبیان بینک
 summary:
-  ar: بنك إسلامي كويتي تأسس 2004؛ من أسرع المصارف نموًا في الخليج.
-  en: Boubyan Bank.
-wings: [made]
+  ar: بنك إسلامي كويتي مدرج، أُسس بالمرسوم الأميري رقم 88 في 21 سبتمبر 2004 بعد قانون البنوك الإسلامية لسنة 2003، فكان أول
+    بنك إسلامي يُنشأ في ظله؛ بنك الكويت الوطني أكبر مساهميه منذ 2009، واستحوذ على بنك لندن والشرق الأوسط سنة 2020.
+  en: A listed Kuwaiti Islamic bank, established by Amiri Decree No. 88 of 21 September 2004 after the Islamic Banks Law of
+    2003, the first Islamic bank created under it; the National Bank of Kuwait has been its largest shareholder since 2009,
+    and it acquired the Bank of London and the Middle East in 2020.
+  ur: کویت کا درج اسلامی بینک، جو 2003 کے اسلامی بینک قانون کے بعد 21 ستمبر 2004 کے امیری فرمان نمبر 88 سے قائم ہوا اور اس
+    قانون کے تحت بننے والا پہلا اسلامی بینک تھا؛ نیشنل بینک آف کویت 2009 سے اس کا سب سے بڑا حصہ دار ہے، اور 2020 میں اس نے
+    بینک آف لندن اینڈ دی مڈل ایسٹ حاصل کیا۔
+wings:
+- made
+- today
 categories:
 - finance
 regions:
 - arabia
 founded:
-  edtf: '2004'
+  edtf: '2004-09-21'
+  hijri: '1425-08-07'
   calendar: gregorian
-  precision: year
+  precision: day
+  status: historical
+  derived: true
+  note: Amiri Decree No. 88 of 21 September 2004; Central Bank of Kuwait licence November 2004; operations from 2005 (as cited
+    by the article). The Hijri date is converter-derived (Umm al-Qura).
+  sources:
+  - source/wikipedia-boubyan-bank-en
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/wikidata
+  sources:
+  - source/wikipedia-boubyan-bank-en
 external_ids:
   wikidata: Q4949250
-sources: *id001
+sources:
+- source/wikipedia-boubyan-bank-en
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - kw
+  - gb
+links:
+  official: https://bankboubyan.com/en
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - en
+    - fa
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-boubyan-bank-en
+  wikidata: Q4949250
+  catalogues:
+    isin: KW0EQ0102065
+    ticker: 'Boursa Kuwait: BOUBYAN'
+provenance:
+  layer: own-research
+  source: English Wikipedia "Boubyan Bank" (revision 1370109418, 19 August 2026), read in Chrome on the founder's Mac on 6
+    November 2026; Wikidata sitelinks read the same day; the existing Wikidata-only draft (Devin, listings lane, 16 October
+    2026) was enriched in place, its unsourced superlatives dropped (see the enterprise progress file)
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b01

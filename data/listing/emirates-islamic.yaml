@@ -4,27 +4,84 @@ kind: company
 label:
   ar: الإمارات الإسلامي
   en: Emirates Islamic
+  ur: امارات اسلامی
 summary:
-  ar: ذراع المصرفية الإسلامية لبنك الإمارات دبي الوطني؛ تحول بالكامل إلى بنك إسلامي.
-  en: Emirates Islamic.
-wings: [made]
+  ar: بنك إماراتي في دبي أُسس سنة 2004 لتقديم الخدمات المصرفية وفق أحكام الشريعة، وهو أحد أربعة بنوك إسلامية في الإمارة؛ شُطب
+    من سوق دبي المالي سنة 2025 بعد أن تملّك بنك الإمارات دبي الوطني بقية أسهمه، وسمّته يوروموني أفضل بنك إسلامي رقمي في العالم
+    لسنة 2025.
+  en: An Emirati bank in Dubai, established in 2004 to provide banking in line with Shari'a principles, one of the emirate's
+    four Islamic banks; it was delisted from the Dubai Financial Market in 2025 after Emirates NBD acquired its remaining
+    shares, and Euromoney named it the world's best Islamic digital bank for 2025.
+  ur: دبئی کا اماراتی بینک، جو 2004 میں شریعت کے اصولوں کے مطابق بینکاری کے لیے قائم ہوا اور امارت کے چار اسلامی بینکوں میں
+    سے ایک ہے؛ 2025 میں امارات این بی ڈی کے باقی حصص خرید لینے کے بعد دبئی فنانشل مارکیٹ سے خارج ہوا، اور یورومنی نے اسے 2025
+    کا دنیا کا بہترین اسلامی ڈیجیٹل بینک قرار دیا۔
+wings:
+- made
+- today
 categories:
 - finance
 regions:
 - arabia
 founded:
   edtf: '2004'
+  hijri: '1424~'
   calendar: gregorian
   precision: year
+  status: historical
+  derived: true
+  note: Established 2004 (as cited by the article). 2004 spans 1424–1425 AH; the Hijri year is converter-derived.
+  sources:
+  - source/wikipedia-emirates-islamic-en
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/wikidata
+  sources:
+  - source/wikipedia-emirates-islamic-en
 external_ids:
   wikidata: Q60572527
-sources: *id001
+sources:
+- source/wikipedia-emirates-islamic-en
+- source/forbes-middle-east-lists-2025
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - ae
+links:
+  official: https://www.emiratesislamic.ae
+honours:
+- award: award/forbes-middle-east-lists
+  category: top-100-listed-companies
+  result: ranked
+  position: 41
+  year: 2025
+  note: 41st on the Top 100 Listed Companies 2025
+  sources:
+  - source/wikipedia-emirates-islamic-en
+  - source/forbes-middle-east-lists-2025
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - en
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-emirates-islamic-en
+  wikidata: Q60572527
+  catalogues:
+    isin: AEE000501016
+provenance:
+  layer: own-research
+  source: English Wikipedia "Emirates Islamic" (revision 1370201023, 19 August 2026), read in Chrome on the founder's Mac
+    on 6 November 2026; Wikidata sitelinks read the same day; the existing Wikidata-only draft (Devin, listings lane, 16 October
+    2026) was enriched in place, its unsourced superlatives dropped (see the enterprise progress file)
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b01
