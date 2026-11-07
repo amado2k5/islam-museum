@@ -10,7 +10,7 @@ Verse 77 of [[passage/quran-11|Surat Hud]], a Meccan surah. {cite:tanzil-quran}
 ## Place in the museum
 Its place: verse 77 of 123 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 77 (pp. 407-410)**
+**Commentary on verse 77 (pp. 407-411)**
 
 On [[passage/quran-11-77|11:77]] al-Tabari says: when Our angels came to Lot he was distressed by their coming, the verb being from 'su'', evil, 'and felt constrained for them' by their coming, 'in his arm's reach', that is, his soul was straitened with grief at their coming, because he did not know in the state in which their coming distressed him that they were God's messengers, and knew what his people did of shameless acts and feared for them, so he was constrained by their coming, knowing he would need to defend his guests, and therefore said 'this is a hard day'. Report 18350, from Ibn Abbas: he thought ill of his people and was straitened by his guests. {cite:tafsir-tabari-shakir-v15 p. 408}
 
@@ -20,6 +20,6 @@ Report 18354, from al-Suddi: the angels left Abraham for the town of Lot and arr
 
 As for 'and he said, this is a hard day', Lot is saying that this day is a day of severe evil and great trial. One says 'our day was hard' of 'asaba, yas'ibu, 'asban', and of this is a line of Adi b. Zayd in a poem he made in the prison of al-Nu'man b. al-Mundhir about a hard day, a rajaz line of a day that binds the heroes, another line of a hard day in Iraq, and a line of Ka'b b. Ju'ayl about groups familiar with a hard day; the editor explains the lines and their rare words. Al-Tabari then says that the interpreters said as he did, and the reports follow on the next page. {cite:tafsir-tabari-shakir-v15 p. 410}
 
-We stop here at the foot of p. 410, in the middle of the commentary on verse 77; the next batch begins at p. 411. {cite:tafsir-tabari-shakir-v15 p. 410}
+Reports 18356 from Mujahid, 18357 and 18359 from Qatada, and 18360 from Ibn Abbas give 'hard' as 'severe'; report 18358, from Ibn Ishaq, a day of trial and hardship. {cite:tafsir-tabari-shakir-v15 p. 411}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
