@@ -719,3 +719,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 66: printed pp. 419-424 (markers 423-428) filed in ar, en and ur (reports 14599-14614): 7:38 closes at p. 419, 7:39 is filed and 7:40 is begun to the foot of p. 424 before report 14615. Marker 425 (printed 421) is partly illegible in the OCR; the 7:39 closing paragraph there follows the evident sense. Offset still marker - 4. Stop sentence at the foot. Next is report 14615 (marker 428, printed 424).
 - Batch 86: pp. 477-483 filed in ar, en and ur (reports 13461-13464): 6:75 end and 6:76 begun (Abraham and the star)
 - Batch 87: pp. 484-490 filed in ar, en and ur (reports 13465-13467): 6:76 end, 6:77, 6:78, 6:79, 6:80 and the start of 6:81
+- Batch 88: pp. 491-497 filed in ar, en and ur (reports 13467-13486): 6:81 end and 6:82 (belief mixed with wrong, up to report 13486)
