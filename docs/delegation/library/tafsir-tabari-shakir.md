@@ -479,6 +479,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 61: pp. 467-472 filed in ar, en and ur (reports 15875-15902): 8:24 closes at p. 472; stop sentence at the foot of p. 472 (next: p. 473, 8:25).
 - Batch 62: pp. 473-479 filed in ar, en and ur (reports 15903-15921): 8:25 and 8:26 filed in full; stop sentence at the foot of p. 479 (next: p. 480, 8:27).
 - Batch 63: pp. 480-486 filed in ar, en and ur (reports 15922-15933): 8:27 filed in full and 8:28 begun at p. 486; stop sentence at the foot of p. 486 before report 15934 (next: p. 487).
+- Batch 64: pp. 486-493 filed in ar, en and ur (reports 15934-15964): 8:28 closes, 8:29 filed in full and 8:30 begun; stop sentence at the foot of p. 493 after report 15964 (next: p. 494).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
@@ -587,6 +588,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 48: printed pp. 317-322 (markers 319-324) filed in ar, en and ur (reports 14338-14354): 7:10 closes at p. 317 and 7:11 is begun to the foot of p. 322 at 'fa-lamma sawwarna'. Stop sentence at the foot. Next is marker 325 (printed 323), the rest of 7:11.
 - Batch 49: Sura al-Ra'd pp. 348-354 filed (close of 13:5, 13:6, 13:7 begun, on the guide). Next is the rest of 13:7 from p. 355 (marker 363).
 - Batch 49: printed pp. 323-326 (markers 325-328) filed in ar, en and ur: 7:11 closes at p. 323 and 7:12 is begun to the foot of p. 326 at Iblis's answer. Stop sentence at the foot. Next is marker 329 (printed 327), the rest of 7:12.
+- Batch 50: Sura al-Ra'd pp. 355-361 filed (close of 13:7, 13:8 begun). Next is the rest of 13:8 from p. 362 (marker 370).
 - Batch 53: pp. 279-283 filed in ar, en and ur (reports 13109-13113): 6:12 closes at p. 281 (al-Tabari's choice on the oath-lam in 'he will gather you', the reading 'anna' in 6:54, 'those who have lost themselves'), 6:13 is filed in full ('what dwells in the night and the day') and 6:14 is begun ('shall I take a protector other than God', the meaning of 'fatir', 'futur') to the foot of p. 283. Stop sentence at the foot in quran-6-14. Next is p. 284.
 - Batch 50: printed pp. 327-332 (markers 329-334) filed in ar, en and ur (reports 14355-14361): 7:12 closes at p. 329, 7:13 and 7:14 are filed and 7:16 is begun to the foot of p. 332 (report 14362 begins there). NOTE: marker 335 repeats marker 333 (printed 331), so after marker 334 the next new page is marker 336 (printed 333). Next: report 14362 (Ibn Zayd) at printed p. 332-333, then the rest of 7:16 and 7:17.
 - Batch 54: pp. 284-288 filed in ar, en and ur (reports 13114-13115): 6:14 closes at p. 285 ('feeds and is not fed', 'first to submit'), 6:15, 6:16 (the readings 'yusrafu'/'yasrifu'), 6:17 and 6:18 are filed in full to the foot of p. 288. Stop sentence at the foot in quran-6-18. Next is 6:19 at p. 289.
