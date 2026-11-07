@@ -4,27 +4,99 @@ kind: company
 label:
   ar: مصرف قطر الإسلامي
   en: Qatar Islamic Bank
+  ur: قطر اسلامی بینک
 summary:
-  ar: أول بنك إسلامي في قطر؛ تأسس 1982 ومن كبار مصارف الخليج الإسلامية.
-  en: Qatar Islamic Bank.
-wings: [made]
+  ar: مصرف قطري مقره الدوحة، تأسس سنة 1982 وتشرف على أعماله هيئة شرعية؛ جهاز قطر للاستثمار أكبر مساهميه، وجاء الخامس عشر في
+    قائمة فوربس الشرق الأوسط لأعلى 30 بنكا قيمة لسنة 2025.
+  en: A Qatari bank based in Doha, founded in 1982, whose operations are supervised by a Shari'a board; the Qatar Investment
+    Authority is its largest shareholder, and it was 15th on Forbes Middle East's 30 Most Valuable Banks 2025.
+  ur: دوحہ میں قائم قطری بینک، جو 1982 میں قائم ہوا اور جس کے کاموں کی نگرانی ایک شرعی بورڈ کرتا ہے؛ قطر انویسٹمنٹ اتھارٹی
+    اس کی سب سے بڑی حصہ دار ہے، اور فوربس مڈل ایسٹ کی 2025 کی 30 سب سے قیمتی بینکوں کی فہرست میں پندرہواں رہا۔
+wings:
+- made
+- today
 categories:
 - finance
 regions:
 - arabia
 founded:
   edtf: '1982'
+  hijri: '1402~'
   calendar: gregorian
   precision: year
+  status: historical
+  derived: true
+  note: 'Founded 1982: the article''s lead and infobox (uncited) and the Wikidata item''s inception agree. 1982 spans 1402–1403
+    AH; the Hijri year is converter-derived.'
+  sources:
+  - source/wikipedia-qatar-islamic-bank-en
+  - source/wikidata
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/wikidata
+  sources:
+  - source/wikipedia-qatar-islamic-bank-en
 external_ids:
   wikidata: Q18346281
-sources: *id001
+sources:
+- source/wikipedia-qatar-islamic-bank-en
+- source/forbes-middle-east-lists-2025
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - qa
+  - gb
+links:
+  official: https://www.qib.com.qa
+honours:
+- award: award/forbes-middle-east-lists
+  category: most-valuable-banks
+  result: ranked
+  position: 15
+  year: 2025
+  note: 15th on the 30 Most Valuable Banks 2025
+  sources:
+  - source/wikipedia-qatar-islamic-bank-en
+  - source/forbes-middle-east-lists-2025
+- award: award/forbes-middle-east-lists
+  category: top-100-listed-companies
+  result: ranked
+  position: 32
+  year: 2025
+  note: 32nd on the Top 100 Listed Companies 2025
+  sources:
+  - source/wikipedia-qatar-islamic-bank-en
+  - source/forbes-middle-east-lists-2025
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - bn
+    - de
+    - en
+    - fa
+    - fr
+    - ha
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-qatar-islamic-bank-en
+  wikidata: Q18346281
+  catalogues:
+    ticker: 'QE: QIBK'
+provenance:
+  layer: own-research
+  source: English Wikipedia "Qatar Islamic Bank" (revision 1359670697, 16 June 2026), read in Chrome on the founder's Mac
+    on 6 November 2026; Wikidata sitelinks read the same day; the article is tagged for promotional content and few citations,
+    so only its cited lines are used; the existing Wikidata-only draft (Devin, listings lane, 16 October 2026) was enriched
+    in place, its unsourced superlatives dropped (see the enterprise progress file)
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b01
