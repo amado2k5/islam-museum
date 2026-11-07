@@ -64,3 +64,12 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## بغداد اور ضریب کے قاعدے کا سیاق
 [[person/al-karaji|کرجی]] کے اہم ریاضیاتی کام بغداد سے متعلق ہیں، اور ٹی ڈی وی فخر الملک کی بویہی سرپرستی بتاتا ہے، مصنف کا ذاتی مسلک نہیں {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}۔ [[invention/karaji-binomial-coefficient-recurrence|ضریب کا تکراری قاعدہ]] اسی علمی سیاق سے متعلق ہے، گم شدہ کام کی تحریر کا ثابت شدہ کارگاہ پتہ نہیں {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}۔ سموأل نے الباہر میں اس کا بیان محفوظ کیا، مگر اس سے شہر سے یورپ یا چین تک تاریخ وار نقل کے راستے نہیں ملتے {cite:samawal-mactutor Biography} {cite:jia-xian-mactutor Biography}۔
+
+## بغداد اور سندہند زیج
+خوارزمی کی سوانح کے مطابق ہندی فلکیاتی متن تقریباً 770ء میں بغداد کے دربار پہنچا اور خوارزمی کا علمی ماحول اسی شہر میں تھا {cite:khwarizmi-mactutor Astronomy paragraph}۔ [[invention/khwarizmi-sindhind-tables|سندہند جدولوں کی تکییف]] کا ریکارڈ اس سیاق کو ان سے منسوب فلکیاتی کام سے جوڑتا ہے؛ کسی خاص تحریری کمرے یا نام زدہ رصدگاہ تک رسائی کا دعویٰ نہیں کرتا {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}۔
+
+## جگہ کا تعلق کیا ثابت کرتا ہے؟
+دربار تک ہندی مواد پہنچنے کی خبر بغداد میں علمی تبادلے کا سیاق دیتی ہے، جبکہ سوانح زیج کے موضوعات بتاتی ہے مگر ہر جدول کی نقل یا مشاہدے کی جگہ نہیں بتاتی {cite:khwarizmi-mactutor Astronomy paragraph}۔ اس لیے شہر کا ریکارڈ صرف شہری سطح پر مقام کا تعلق بڑھاتا ہے؛ اسے کسی ادارے یا کارگاہ کے پتے میں تبدیل نہیں کرتا {cite:khwarizmi-mactutor Astronomy paragraph}۔
+
+## جغرافیائی حدود
+عربی کے دونوں نسخے گم ہیں، اور سوانح اندلسی نظرثانی اور لاطینی تراجم بتاتی ہے مگر ہر مرحلے کا تاریخ وار سفر نہیں دیتی {cite:khwarizmi-mactutor Astronomy paragraph}۔ ایجاد کا ریکارڈ پھیلاؤ کا نقشہ شامل نہیں کرتا، کیونکہ یہاں پڑھے گئے ماخذ ایسا تاریخ وار راستہ ثابت نہیں کرتے جسے محفوظ طور پر نقشے میں دکھایا جا سکے {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}۔
