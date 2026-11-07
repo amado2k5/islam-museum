@@ -10,7 +10,7 @@ Verse 10 of [[passage/quran-12|Surat Yusuf]], a Meccan surah. {cite:tanzil-quran
 ## Place in the museum
 Its place: verse 10 of 111 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 10 (pp. 564-567)**
+**Commentary on verse 10 (pp. 564-568)**
 
 On [[passage/quran-12-10|12:10]] al-Tabari says: one of Joseph's brothers said 'do not kill Joseph'. It was said that the speaker was Reuben, who was Joseph's mother's sister's son; report 18799, from Qatada: it was told us that he was Reuben, the eldest of them, Joseph's maternal cousin, and he forbade them to kill him. {cite:tafsir-tabari-shakir-v15 p. 564}
 
@@ -20,6 +20,6 @@ It was said that it is the name of a well of Jerusalem; reports 18803 and 18804,
 
 Report 18809, from Ibn Abbas: meaning the well; 18810, from al-Dahhak: the jubb is the well. As for 'some travellers may pick him up', it means some passers-by of those on the road take him, 'if you are going to act' meaning if you are going to do what I tell you; it is reported that some bedouin picked him up; report 18811, from Ibn Abbas: some bedouin picked him up. It is reported of al-Hasan al-Basri that he read it with a feminine ta', report 18812, al-Hasan taking the action of some of the travellers as their action, and the Arabs do this in speech about a thing annexed to a feminine, where what is said of part is said of all, and he cites a line of Jarir about the passing years. {cite:tafsir-tabari-shakir-v15 p. 567}
 
-We stop here at the foot of p. 567, in the middle of the commentary on verse 10; the next batch begins at p. 568. {cite:tafsir-tabari-shakir-v15 p. 567}
+To finish al-Tabari's remark on Jarir's line: the poet said 'they took from me' having begun by speaking of 'the passing', because speech about the passing is speech about the years; he cites another line, whose author is unknown, to show that speech about the people of the towns is like speech about the towns, so one says 'it submitted to him' meaning the people of the towns. Whoever says that would not say 'Hind's slave submitted to him', because if the slave were dropped from the speech Hind would not point to him as a report about a town points to its people. So with 'some travellers': if 'some' were dropped and one said 'the travellers pick him up', it would be known that it is a report about some or all, and the report on the travellers points to it. {cite:tafsir-tabari-shakir-v15 p. 568}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
