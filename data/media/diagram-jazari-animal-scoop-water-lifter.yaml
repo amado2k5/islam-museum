@@ -1,0 +1,30 @@
+id: media/diagram-jazari-animal-scoop-water-lifter
+class: media
+kind: illustration
+label:
+  ar: "سياق رافعة الجزري وشاهدها المخطوط المتأخر"
+  en: "Context for al-Jazari's lifter and its later manuscript witness"
+  ur: "جزری کے آب کش کا سیاق اور بعد کا مخطوط شاہد"
+summary:
+  ar: "سلسلة مفاهيمية من سياق هندسي سابق إلى التصميم ثم شاهد مخطوط؛ ليست رسماً ميكانيكياً."
+  en: "A conceptual chain from earlier engineering context to the design and a later manuscript witness; not a mechanical drawing."
+  ur: "سابق انجینئرنگ کے سیاق سے ڈیزائن اور بعد کے مخطوط شاہد تک تصوری سلسلہ؛ میکانکی نقشہ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/jazari-animal-scoop-water-lifter]
+alt:
+  ar: "سلسلة عامة تعرض تقاليد هندسية سابقة، ثم رافعة الماء الموصوفة عند الجزري، ثم نسخة 715هـ/1315م؛ الأسهم لا تثبت طريقاً مباشراً ولا ترسم حركة الآلة."
+  en: "A generic chain shows earlier engineering context, al-Jazari's described water-lifter, and a 715 AH/1315 CE copy; arrows prove no direct route and draw no machine motion."
+  ur: "عمومی سلسلے میں سابق انجینئرنگ کا سیاق، جزری کا بیان کردہ آب کش، پھر 715ھ/1315ء کی نقل ہے؛ تیر براہ راست راستہ ثابت یا مشین کی حرکت نہیں بناتے۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)"
+  version: "1"
+  date: "2026-11-07"
+sources: [source/tdv-cezeri, source/jazari-hill-1974, source/met-jazari-scoop-451298]
+status: { review: published, completeness: 2, generated_by: github-copilot }
+provenance:
+  layer: own-research
+  generated_by: github-copilot
+  model: unknown
+  run: inventions-p3-b99
+  source: "The site renders a generic relationship chain. It conveys broad context and a later textual witness, not mechanism geometry, a proven transmission route or a surviving machine."
