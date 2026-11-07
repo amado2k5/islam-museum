@@ -45,6 +45,7 @@ relations:
   - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-uhud, role: pulled-the-rings-from-the-prophets-face, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-yarmuk, role: muslim-commander, sources: [source/tabari-donner-1993] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa, source/ibn-hisham-sira]}
 external_ids:
   wikidata: Q747731
 sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/encyclopaedia-of-islam-2, source/assabile-mosaad-anwar]

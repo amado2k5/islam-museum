@@ -29,6 +29,7 @@ relations:
   - { type: member_of, target: group/early-muslims }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0629~" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-khaybar, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
 issue: { ar: "كيف يُقدَّر أبو هريرة ورواياته للحديث؟", en: "How is Abu Hurayra and his transmission of hadith assessed?" }
 perspectives:
   - tradition: sunni

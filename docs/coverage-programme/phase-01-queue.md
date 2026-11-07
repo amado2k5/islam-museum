@@ -267,33 +267,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/abu-ayyub-al-ansari
 - [x] person/abu-basir
 
-## Draft records (243)
+## Draft batch D02 (25 entities)
 
-- [ ] person/abu-basra-al-ghifari
-- [ ] person/abu-burayda-al-aslami
-- [ ] person/abu-burda-ibn-niyar
-- [ ] person/abu-dharr-al-ghifari
-- [ ] person/abu-hadrad-al-aslami
-- [ ] person/abu-humayd-al-saidi
-- [ ] person/abu-hurayra
-- [ ] person/abu-jandal-ibn-suhayl
-- [ ] person/abu-mahdhura
-- [ ] person/abu-malik-al-ashari
-- [ ] person/abu-marthad-al-ghanawi
-- [ ] person/abu-masud-al-badri
-- [ ] person/abu-qays-ibn-al-aslat
-- [ ] person/abu-rafi-al-qibti
-- [ ] person/abu-rayhana-shimun
-- [ ] person/abu-salama
-- [ ] person/abu-ubayda-ibn-al-jarrah
-- [ ] person/abu-usayd-al-saidi
-- [ ] person/abu-waqid-al-laythi
-- [ ] person/addas
-- [ ] person/al-abbas-ibn-ubada
-- [ ] person/al-bara-ibn-marur
-- [ ] person/al-dahhak-ibn-haritha
-- [ ] person/al-dahhak-ibn-sufyan
-- [ ] person/al-fadl-ibn-al-abbas
+- [x] person/abu-basra-al-ghifari
+- [x] person/abu-burayda-al-aslami
+- [x] person/abu-burda-ibn-niyar
+- [x] person/abu-dharr-al-ghifari
+- [x] person/abu-hadrad-al-aslami
+- [x] person/abu-humayd-al-saidi
+- [x] person/abu-hurayra
+- [x] person/abu-jandal-ibn-suhayl
+- [x] person/abu-mahdhura
+- [x] person/abu-malik-al-ashari
+- [x] person/abu-marthad-al-ghanawi
+- [x] person/abu-masud-al-badri
+- [x] person/abu-qays-ibn-al-aslat
+- [x] person/abu-rafi-al-qibti
+- [x] person/abu-rayhana-shimun
+- [x] person/abu-salama
+- [x] person/abu-ubayda-ibn-al-jarrah
+- [x] person/abu-usayd-al-saidi
+- [x] person/abu-waqid-al-laythi
+- [x] person/addas
+- [x] person/al-abbas-ibn-ubada
+- [x] person/al-bara-ibn-marur
+- [x] person/al-dahhak-ibn-haritha
+- [x] person/al-dahhak-ibn-sufyan
+- [x] person/al-fadl-ibn-al-abbas
+
+## Draft records (218)
+
 - [ ] person/al-hakam-ibn-hazn-al-kulafi
 - [ ] person/al-harith-al-hamdani
 - [ ] person/al-harith-ibn-al-numan-mutah

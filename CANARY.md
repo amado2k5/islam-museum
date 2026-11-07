@@ -28,6 +28,7 @@ open a new block on top with the new version and today's date.
 - **Companions as one set: 25 more linked.** Batch 08 of the same move added `member_of` edges for the next 25 published companion records (Subaya bint al-Harith through Uthman ibn Rabi'a, including Umar ibn al-Khattab and Uthman ibn Affan), each citing its own record's sources. Just 7 published companion records remain in this move.
 - **Companions as one set: the published set is complete.** Batch 09 added `member_of` edges for the last 7 published companion records ('Uyayna ibn Hisn through Zaynab bint al-Harith ibn Khalid), each citing its own record's sources. Every published Companion record in the museum is now linked into the Companions set; the draft records and the Muhajirun/Ansar groupings follow in later batches.
 - **Companions as one set: the draft records begin to join.** Draft batch D01 added `member_of` edges for the first 25 draft companion records (Abbad ibn Qays through Abu Basir), each citing its own record's sources, so the drafts carry the same membership as the published set ahead of any future publication. 243 draft companion records remain in this move.
+- **Companions as one set: 25 more draft companions linked.** Draft batch D02 added `member_of` edges for the next 25 draft companion records (Abu Basra al-Ghifari through al-Fadl ibn al-Abbas, including Abu Hurayra and Abu Ubayda ibn al-Jarrah), each citing its own record's sources. 218 draft companion records remain in this move.
 
 ---
 
