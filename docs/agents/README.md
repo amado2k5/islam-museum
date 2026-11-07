@@ -7,6 +7,7 @@ These documents apply to every agent, whichever vendor, product or model it is, 
 | [`AGENTS.md`](../../AGENTS.md) | Always, first: the rules that never bend. |
 | [`../sources-policy.md`](../sources-policy.md) | Before you use any source: what may be read (everything), how it is rewritten and cited, what stays out of git. |
 | [`workflow.md`](workflow.md) | You are about to set up, edit, commit, push, merge or hand off. |
+| [`orchestration.md`](orchestration.md) | You coordinate other agents, write a wave brief, or want to know how the fleet's work is decomposed, gated and merged. |
 | [`content-standards.md`](content-standards.md) | You write or change any entity (data or prose). |
 | [`publication-standard.md`](publication-standard.md) | Always: the publication bar — citations to defined sources plus provenance; no review; one source is enough. |
 | [`source-families.md`](source-families.md) | You enrich records and need sources beyond books: registered families, onboarding order, exploration list, evaluation criteria. |
