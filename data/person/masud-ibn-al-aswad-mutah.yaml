@@ -20,5 +20,10 @@ faith:
 relations:
   - { type: participated_in, target: event/battle-of-mutah, role: martyr, sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/mutah }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 30" }
+provenance:
+  layer: own-research
+  source: "Ibn Hisham's Sira (source/ibn-hisham-saqqa), juz' 4 p. 30 — as recorded in this record's status.generated_by"
+  generated_by: "kiro"
