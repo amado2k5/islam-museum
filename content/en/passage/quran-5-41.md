@@ -58,6 +58,6 @@ Al-Tabari says this is God's consolation to His prophet from his grief over the 
 
 Then comes the commentary on "those whose hearts God did not wish to purify: for them is disgrace in this world and a great punishment in the hereafter"; al-Tabari says God tells His prophet not to grieve over those who race to disbelief among the Jews described to him, their haste being because God willed their trial and sealed their hearts, so they will never be guided; these are the ones whose hearts God did not wish to purify from the filth of disbelief.  {cite:tafsir-tabari-shakir-v10 p. 317}
 
-We stop here at the foot of p. 317, in al-Tabari's commentary on "those whose hearts God did not wish to purify"; the rest of verse 41 follows in the next batch.
+Al-Tabari completes his commentary: these are the ones God did not wish to purify of the filth of unbelief and the dirt of polytheism through the cleanness of Islam and purity of faith so that they might repent, but He willed for them disgrace in this world, which is humiliation and abasement, and in the hereafter the punishment of Hell, to remain in it for ever. The sense of disgrace is reported from 'Ikrima, and report 11941 has him say the disgrace in this world is a city among the Byzantines that is taken and its people enslaved. The editor identifies 'Ali ibn al-Aqmar and corrects his name.  {cite:tafsir-tabari-shakir-v10 p. 318}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
