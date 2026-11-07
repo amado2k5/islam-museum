@@ -58,33 +58,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/al-hutat-ibn-yazid
 - [x] person/al-irbad-ibn-sariya
 
-## Remaining published records (157)
+## Batch 03 (25 entities)
 
-- [ ] person/al-jarud-al-abdi
-- [ ] person/al-khansa
-- [ ] person/al-miqdad-ibn-madi-karib
-- [ ] person/al-muttalib-ibn-azhar
-- [ ] person/al-nadir-ibn-al-harith-al-thaqafi
-- [ ] person/al-numan-ibn-abi-jial
-- [ ] person/al-numan-ibn-adi
-- [ ] person/al-saib-ibn-al-harith
-- [ ] person/al-usayrim
-- [ ] person/al-zibriqan-ibn-badr
-- [ ] person/ali-ibn-abi-talib
-- [ ] person/ama-bint-khalid
-- [ ] person/amer-ibn-al-waqqas
-- [ ] person/amina-bint-khalf
-- [ ] person/ammar-ibn-yasir
-- [ ] person/amr-ibn-abasa
-- [ ] person/amr-ibn-al-ahtam
-- [ ] person/amr-ibn-al-as
-- [ ] person/amr-ibn-humam-ibn-al-jamuh
-- [ ] person/amr-ibn-jahm
-- [ ] person/amr-ibn-kharija
-- [ ] person/amr-ibn-said-ibn-al-as
-- [ ] person/amr-ibn-salama-al-jarmi
-- [ ] person/amr-ibn-salim
-- [ ] person/amr-ibn-umayya
+- [x] person/al-jarud-al-abdi
+- [x] person/al-khansa
+- [x] person/al-miqdad-ibn-madi-karib
+- [x] person/al-muttalib-ibn-azhar
+- [x] person/al-nadir-ibn-al-harith-al-thaqafi
+- [x] person/al-numan-ibn-abi-jial
+- [x] person/al-numan-ibn-adi
+- [x] person/al-saib-ibn-al-harith
+- [x] person/al-usayrim
+- [x] person/al-zibriqan-ibn-badr
+- [x] person/ali-ibn-abi-talib
+- [x] person/ama-bint-khalid
+- [x] person/amer-ibn-al-waqqas
+- [x] person/amina-bint-khalf
+- [x] person/ammar-ibn-yasir
+- [x] person/amr-ibn-abasa
+- [x] person/amr-ibn-al-ahtam
+- [x] person/amr-ibn-al-as
+- [x] person/amr-ibn-humam-ibn-al-jamuh
+- [x] person/amr-ibn-jahm
+- [x] person/amr-ibn-kharija
+- [x] person/amr-ibn-said-ibn-al-as
+- [x] person/amr-ibn-salama-al-jarmi
+- [x] person/amr-ibn-salim
+- [x] person/amr-ibn-umayya
+
+## Remaining published records (132)
+
 - [ ] person/amr-ibn-uthman-taymi
 - [ ] person/amra-bint-al-saadi
 - [ ] person/asim-ibn-thabit
