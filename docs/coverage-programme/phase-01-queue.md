@@ -351,33 +351,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/fatima-bint-abd-al-malik
 - [x] person/fatima-bint-al-khattab
 
-## Draft records (168)
+## Draft batch D05 (25 entities)
 
-- [ ] person/fatimah-bint-al-hasan
-- [ ] person/fayruz-al-daylami
-- [ ] person/ghalib-ibn-abd-allah-al-laythi
-- [ ] person/habib-ibn-maslama
-- [ ] person/hafsa
-- [ ] person/hamza
-- [ ] person/haram-ibn-milhan
-- [ ] person/hasan-ibn-ali
-- [ ] person/hashim-ibn-utba
-- [ ] person/hassan-ibn-thabit
-- [ ] person/hilal-ibn-amir-al-muzani
-- [ ] person/hind-ibn-abi-hala
-- [ ] person/hisham-ibn-amir-al-ansari
-- [ ] person/hisham-ibn-hakim-ibn-hizam
-- [ ] person/hubab-ibn-al-mundhir
-- [ ] person/hudhayfa-ibn-al-yaman
-- [ ] person/husayn-ibn-ali
-- [ ] person/iyas-ibn-muadh
-- [ ] person/iyyad-ibn-ghanm
-- [ ] person/jabir-ibn-umayr-al-ansari
-- [ ] person/kab-ibn-juayl
-- [ ] person/khabbab-ibn-al-aratt
-- [ ] person/khabbab-mawla-utbah
-- [ ] person/khadija
-- [ ] person/khalid-ibn-uqba-ibn-abi-muayt
+- [x] person/fatimah-bint-al-hasan
+- [x] person/fayruz-al-daylami
+- [x] person/ghalib-ibn-abd-allah-al-laythi
+- [x] person/habib-ibn-maslama
+- [x] person/hafsa
+- [x] person/hamza
+- [x] person/haram-ibn-milhan
+- [x] person/hasan-ibn-ali
+- [x] person/hashim-ibn-utba
+- [x] person/hassan-ibn-thabit
+- [x] person/hilal-ibn-amir-al-muzani
+- [x] person/hind-ibn-abi-hala
+- [x] person/hisham-ibn-amir-al-ansari
+- [x] person/hisham-ibn-hakim-ibn-hizam
+- [x] person/hubab-ibn-al-mundhir
+- [x] person/hudhayfa-ibn-al-yaman
+- [x] person/husayn-ibn-ali
+- [x] person/iyas-ibn-muadh
+- [x] person/iyyad-ibn-ghanm
+- [x] person/jabir-ibn-umayr-al-ansari
+- [x] person/kab-ibn-juayl
+- [x] person/khabbab-ibn-al-aratt
+- [x] person/khabbab-mawla-utbah
+- [x] person/khadija
+- [x] person/khalid-ibn-uqba-ibn-abi-muayt
+
+## Draft records (143)
+
 - [ ] person/kharash-ibn-al-simma
 - [ ] person/khawat-ibn-jubayr
 - [ ] person/khawla-al-hanafiyya
