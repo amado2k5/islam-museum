@@ -10,7 +10,7 @@ Verse 143 of [[passage/quran-7|Surat al-A'raf]], a Meccan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 143 of 206 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 143 (pp. 90-102)**
+**Commentary on verse 143 (pp. 90-105)**
 
 Al-Tabari says: when Moses came at the time We had set for him to meet Us, and his Lord spoke to him and conversed with him, Moses said to his Lord, show me, that I may look at You, and God answered that he would not see Him, but should look at the mountain. The editor refers to the earlier explanation of "the appointed time". {cite:tafsir-tabari-shakir-v13 p. 90}
 
@@ -66,6 +66,16 @@ Al-Tabari then chooses the reading "dakka'" because the report from the Messenge
 
 Al-Tabari says: when Moses' mind returned to him from his swoon, which is the recovery from the stupor into which he fell, he said "glory to You", as exaltation of You, Lord, and clearing You of being seen by anyone in this world who would then live on; "I turn to You" from my asking You for the sight; "and I am the first of the believers", in You among my people, that no one sees You in this world without perishing. A number of the interpreters said the same. The editor refers to the earlier explanation of "glory". {cite:tafsir-tabari-shakir-v13 p. 102}
 
-We stop here at the foot of p. 102, before report 15092 from Ibn Waki', in the commentary on the words "when he recovered he said, glory to You" of verse 143; the next batch begins at p. 103. {cite:tafsir-tabari-shakir-v13 p. 102}
+Report 15092, from Abu al-Aliya, through Ibn Waki', Abd Allah ibn Musa, Abu Ja'far al-Razi and al-Rabi' ibn Anas, on "I am the first of the believers": there were believers before him, but he means, I am the first to believe that none of Your creatures will see You until the Day of Resurrection. Report 15093, from al-Rabi' ibn Anas, through al-Muthanna, Ishaq and Abd Allah ibn Abi Ja'far from his father: when Moses saw that and recovered, he knew he had asked for something that was not for him; Abu al-Aliya said he meant that he was the first to believe that no one will see Him before the Day of Resurrection. {cite:tafsir-tabari-shakir-v13 p. 103}
+
+Report 15094, from Ibn Abbas, through Abd al-Karim ibn al-Haytham, Ibrahim ibn Bashshar, Sufyan, Abu Sa'd and Ikrima: the angels passed by him as he lay senseless and said, son of menstruating women, you asked your Lord for something great; when he recovered he said what he said, meaning, I am the first to believe that none of Your creatures sees You in this world. Report 15095, from Ibn Abbas, through al-Muthanna, Abd Allah ibn Salih, Mu'awiya and Ali: I am the first to believe that nothing of Your creation sees You. {cite:tafsir-tabari-shakir-v13 p. 103}
+
+On "I turn to You in repentance", reports 15096, 15097, 15098 and 15099 from Mujahid, through Ibn Waki', al-Harith, Abd al-Aziz, Abu Sa'd, Abu Nu'aym, Sufyan, Isa ibn Maymun, al-Hasan ibn Yahya, Abd al-Razzaq and Ibn Uyayna: I repent of asking You for the sight. {cite:tafsir-tabari-shakir-v13 p. 103}
+
+Others said that "I am the first of the believers" means the first of the believers in You among the Children of Israel. Report 15100, from Ibn Abbas, through al-Husayn al-Anqazi, Asbat, al-Suddi and Ikrima: the first to believe in You among the Children of Israel; report 15101 gives the same from him, through Musa ibn Harun and Amr ibn Hammad. {cite:tafsir-tabari-shakir-v13 p. 104}
+
+Reports 15102, 15103, 15104 and 15105 from Mujahid, through Muhammad ibn Amr, Abu Asim, Isa, Ibn Abi Najih, Ibn Waki', al-Muthanna, Abu Nu'aym, Sufyan, Abu Hudhayfa, Shibl, al-Harith, Abd al-Aziz and Abu Sa'd: I am the first of my people in belief. {cite:tafsir-tabari-shakir-v13 p. 104}
+
+Al-Tabari says he chose the view that it means the first of the believers among the Children of Israel, because before him there were believers and prophets among them, including Israel's own sons of his loins, so he cannot have been the first believer without qualification. {cite:tafsir-tabari-shakir-v13 p. 105}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
