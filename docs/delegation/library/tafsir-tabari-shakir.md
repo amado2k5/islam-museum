@@ -248,7 +248,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 39: pp. 535-541 filed in ar, en and ur (reports 11119-11131): verse 3 is filed to the foot of p. 541.
 - Batch 40: pp. 542-548 filed in ar, en and ur (reports 11132-11150): verse 3 is closed at p. 542 and verse 4 is filed to the foot of p. 548 (new passage content in quran-5-4).
 - Batch 41: pp. 549-555 filed in ar, en and ur (reports 11151-11166): verse 4 is filed to the foot of p. 555.
-- Progress: current report 11166, printed p. 555. Next is the rest of the dog that eats from its catch and the other conditions of the hunt, from printed p. 556 on, in verse 4.
+- Batch 42: pp. 556-562 filed in ar, en and ur (reports 11167-11201): verse 4 is filed to the foot of p. 562.
+- Progress: current report 11201, printed p. 562. Next is the rest of report 11201 and the view allowing what a dog has eaten from, from printed p. 563 on, in verse 4.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
@@ -346,6 +347,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 7: pp. 49-55 filed in ar, en and ur (reports 17592-17598): 10:21 to 10:23 are filed in full (the ship in the storm, the readings of 'yusayyirukum' and 'mata'') and 10:24 is begun (the likeness of the rain and plants) to the foot of p. 55. Next is the rest of 10:24 from p. 56.
 - Batch 8: pp. 56-62 filed in ar, en and ur (reports 17599-17609): 10:24 closes at p. 59, 10:25 is filed in full (the banquet reports with the editor's notes on chains) and 10:26 is begun (the best reward and the 'more') to the foot of p. 62. Next is the list of those who said the 'more' is looking on God, from p. 63.
 - Batch 9: pp. 62-69 filed in ar, en and ur (reports 17610-17636): 10:26 is filed to the foot of p. 69 (the 'more' as looking upon God, and the pearl-chamber report). Next is p. 70.
+- Batch 10: pp. 70-76 filed in ar, en and ur (reports 17637-17647): 10:26 closes at p. 72 (al-Tabari's choice that the 'more' is general), 10:27 is filed to the foot of p. 76 (the grammar of 'jaza'' and the readings of 'qita'an'). Next is the second reason for the masculine 'muzliman', from p. 77.
 
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
