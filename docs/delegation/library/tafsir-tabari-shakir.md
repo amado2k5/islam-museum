@@ -228,4 +228,6 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 24: pp. 434-437 filed in ar, en and ur (reports 10871-10877): verse 176 is filed to report 10877 at p. 437.
 - Batch 25: pp. 438-444 filed in ar, en and ur (reports 10878-10890): verse 176 is filed to the foot of p. 444.
 - Batch 26: pp. 445-451 filed in ar, en and ur (reports 10891-10904): verse 176 and sura 4 close at p. 446; sura 5 (al-Ma'ida) verse 1 is filed to p. 451.
-- Progress: current report 10904, printed p. 451. Next is the rest of sura 5 verse 1 from printed p. 451 on (the forbidden and permitted animals).
+- Batch 27: pp. 452-458 filed in ar, en and ur (reports 10905-10934): sura 5 verse 1 is filed to p. 458.
+- Batch 28: pp. 459-464 filed in ar, en and ur (reports 10935-10944): sura 5 verse 1 closes at p. 462 and verse 2 is filed to report 10944 at p. 464.
+- Progress: current report 10944, printed p. 464. Next is the rest of sura 5 verse 2 from printed p. 464 on.
