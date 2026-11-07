@@ -1,0 +1,41 @@
+id: work/us-rah-par-junaid-jamshed
+class: work
+kind: album
+label: { ar: "اُس راہ پر ⁦(ألبوم جنيد جمشيد، 1999)⁩", en: "Us Rah Par", ur: "اُس راہ پر" }
+summary:
+  ar: "ثاني ألبومات مغني البوب الباكستاني جنيد جمشيد المنفردة، صدر سنة 1999 عن سوني بي إم جي بعد توقف فرقة فايتل ساينز، واستمر فيه تعاونه مع الكاتب شعيب منصور، ونجح نقديا وتجاريا؛ كتبت ذا إكسبرس تريبيون سنة 2017 أن أغنيته الرئيسة تنبئ بتحوله اللاحق من البوب إلى النعت."
+  en: "The Pakistani pop singer Junaid Jamshed's second solo album, released in 1999 on Sony BMG after Vital Signs paused, continuing his work with the writer Shoaib Mansoor, and a critical and commercial success; The Express Tribune wrote in 2017 that its title song foreshadowed his later turn from pop to naat."
+  ur: "پاکستانی پاپ گلوکار جنید جمشید کا دوسرا سولو البم، جو وائٹل سائنز کے وقفے کے بعد 1999 میں سونی بی ایم جی سے جاری ہوا اور جس میں شعیب منصور کے ساتھ ان کا تعاون جاری رہا؛ ایکسپریس ٹریبیون نے 2017 میں لکھا کہ اس کا عنوانی گیت ان کی بعد کی تبدیلی کا پیش خیمہ تھا۔"
+wings: [today]
+themes: [music]
+regions: [south-asia]
+composed: { edtf: "1999", hijri: "1420~", calendar: gregorian, precision: year, derived: true, note: "1999 in the English article and on Wikidata; recorded 1998–1999. The Hijri year is converter-derived and approximate.", sources: [source/wikipedia-us-rah-par-en, source/wikidata-us-rah-par] }
+languages: [ur]
+tracks:
+  - { n: 1, title: { en: "Aankhon Ko Aankhon Ne" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 2, title: { en: "Us Rah Par" }, performers: [person/junaid-jamshed], note: "music by Shoaib Mansoor and Junaid Jamshed; video directed by Bilal Maqsood of Strings", sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 3, title: { en: "Na Tu Aaegi" }, performers: [person/junaid-jamshed], note: "the song that gave the album its commercial push, by the article", sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 4, title: { en: "Jab Say Huey" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 5, title: { en: "Jaagi Re" }, performers: [person/junaid-jamshed], note: "music by Salman Ahmad, lyrics by Sabir Zafar", sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 6, title: { en: "Dil Main Jo" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 7, title: { en: "Keh Do Jo Bhi" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 8, title: { en: "O' Sanama" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 9, title: { en: "Sahib-e-Dil" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 10, title: { en: "Kabhi Na Kabhi" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 11, title: { en: "Chand Ne" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-us-rah-par-en] }
+  - { n: 12, title: { en: "Qasam Us Waqt Ki" }, performers: [person/junaid-jamshed], sources: [source/wikipedia-us-rah-par-en] }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-07", sources: [source/wikidata-us-rah-par] }
+  wikidata: "Q7901650"
+relations:
+  - { type: performed_by, target: person/junaid-jamshed, sources: [source/wikipedia-us-rah-par-en, source/wikidata-us-rah-par] }
+  - { type: work_produced_by, target: person/junaid-jamshed, sources: [source/wikipedia-us-rah-par-en] }
+external_ids: { wikidata: "Q7901650" }
+sources: [source/wikipedia-us-rah-par-en, source/wikidata-us-rah-par, source/wikipedia-jalwa-e-janan-en, source/wikipedia-dil-ki-baat-junaid-jamshed-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Us Rah Par' (revision 1348007745 of 10 April 2026, citing Dawn, The Friday Times and The Express Tribune) and Wikidata Q7901650 (revision 2219572721), read in Chrome on the founder's Mac on 7 November 2026. Founder's decision Q4 of 7 November 2026 (\"ok\", relayed by the parent session): a Muslim artist's secular work gets its own album record when the artist is already in the browser for religious work, as Junaid Jamshed is for his naats"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b10
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
