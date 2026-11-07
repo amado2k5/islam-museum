@@ -519,23 +519,26 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/yasir-ibn-amir
 - [x] person/yazid-ibn-abi-sufyan
 
-## Draft records (18)
+## Draft batch D11 (18 entities — final draft batch)
 
-- [ ] person/yazid-ibn-al-harith
-- [ ] person/yazid-ibn-al-muhajjal
-- [ ] person/yazid-ibn-al-mundhir
-- [ ] person/yazid-ibn-amir
-- [ ] person/yazid-ibn-haram
-- [ ] person/yazid-ibn-qays-ibn-al-khatim
-- [ ] person/yazid-ibn-ruqaysh
-- [ ] person/yazid-ibn-zamaa
-- [ ] person/yusayra-umm-yasir
-- [ ] person/yusuf-ibn-mirdaw
-- [ ] person/zayd-ibn-haritha
-- [ ] person/zayd-ibn-khalid-al-juhani
-- [ ] person/zayd-ibn-thabit
-- [ ] person/zaynab-bint-ali
-- [ ] person/zaynab-bint-nabit
-- [ ] person/ziyad-ibn-al-harith-al-sudai
-- [ ] person/ziyad-ibn-labid-al-bayadi
-- [ ] person/zubayr-ibn-al-awwam
+- [x] person/yazid-ibn-al-harith
+- [x] person/yazid-ibn-al-muhajjal
+- [x] person/yazid-ibn-al-mundhir
+- [x] person/yazid-ibn-amir
+- [x] person/yazid-ibn-haram
+- [x] person/yazid-ibn-qays-ibn-al-khatim
+- [x] person/yazid-ibn-ruqaysh
+- [x] person/yazid-ibn-zamaa
+- [x] person/yusayra-umm-yasir
+- [x] person/yusuf-ibn-mirdaw
+- [x] person/zayd-ibn-haritha
+- [x] person/zayd-ibn-khalid-al-juhani
+- [x] person/zayd-ibn-thabit
+- [x] person/zaynab-bint-ali
+- [x] person/zaynab-bint-nabit
+- [x] person/ziyad-ibn-al-harith-al-sudai
+- [x] person/ziyad-ibn-labid-al-bayadi
+- [x] person/zubayr-ibn-al-awwam
+
+## Draft records (0)
+
