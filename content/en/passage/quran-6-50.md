@@ -16,6 +16,12 @@ The editor refers for "the unseen", "angel" and "revelation" to pp. 238, 263 and
 
 "Say: are the blind and the seeing equal?" says: say, Muhammad... {cite:tafsir-tabari-shakir-v11 p. 371}
 
-We stop here at the foot of p. 371, at the start of the commentary on "are the blind and the seeing equal?", before it is complete, which continues on p. 372.
+Say to them, Muhammad: are the one blind to the truth and the one who sees it equal? The blind is the unbeliever who has gone blind to God's proofs and so does not discern them to follow them, and the seeing is the believer who has seen God's signs and proofs, followed them and taken light from their light; "will you not reflect?" says to those who denied God's signs: will you not reflect on the proofs I argue against you with, people, so that you know the soundness of what I say and call you to, and the falsity of the joining of idols and rivals with God your Lord and your denial of me despite the proofs of truthfulness plain to your eyes, and leave the unbelief you persist in for the faith I call you to, by which you will win? {cite:tafsir-tabari-shakir-v11 p. 372}
+
+The editor refers for "blind" and "seeing" to the language indexes, and keeps "leave" where the manuscript has "return".
+
+A group of interpreters said so: reports 13252 and 13253, from Mujahid: "are the blind and the seeing equal" means the astray and the guided. 13254, from Qatada: the blind is the unbeliever who has gone blind to God's truth, his command and his favours to him, and the seeing is the believing servant who has seen with useful sight, so affirmed God alone, acted in obedience to his Lord and benefited from what God gave him. {cite:tafsir-tabari-shakir-v11 p. 372}
+
+Verse 50 closes here at p. 372, and al-Tabari goes on to [[passage/quran-6-51|6:51]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

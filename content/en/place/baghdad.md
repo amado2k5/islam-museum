@@ -63,3 +63,12 @@ From this report alone we do not derive daily production tables,precise efficien
 
 ## Baghdad and the coefficient-rule setting
 [[person/al-karaji|Karaji]]'s principal mathematical works are associated with Baghdad, and TDV identifies Fakhr al-Mulk's Buyid patronage without establishing the author's personal religious school {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}. The [[invention/karaji-binomial-coefficient-recurrence|coefficient recurrence]] belongs to this scholarly context, not a verified workshop address for composition of the lost work {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}. Al-Samawal preserved its account in al-Bahir, but that does not supply dated routes carrying the table from the city to Europe or China {cite:samawal-mactutor Biography} {cite:jia-xian-mactutor Biography}.
+
+## Baghdad and the Sindhind zij
+The al-Khwarizmi biography reports an Indian astronomical text reaching the Baghdad court around 770 and places al-Khwarizmi in the city's scholarly setting {cite:khwarizmi-mactutor Astronomy paragraph}. The record for [[invention/khwarizmi-sindhind-tables|the Sindhind tables adaptation]] connects this setting to an astronomical work attributed to him; it does not claim arrival at a particular writing room or use of a named observatory {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}.
+
+## What the place tie establishes
+The report of Indian material reaching the court documents an intellectual context in Baghdad, while the biography lists the zij's topics without locating the copying of each table or its observations {cite:khwarizmi-mactutor Astronomy paragraph}. The city record therefore adds a site-of relation at city scale only; it does not turn that link into an institutional or workshop address {cite:khwarizmi-mactutor Astronomy paragraph}.
+
+## Geographic limits
+The two Arabic versions are lost, and the biography describes an Andalusian revision and Latin translations without giving a dated itinerary for each stage {cite:khwarizmi-mactutor Astronomy paragraph}. The invention record has no spread map because the sources read here do not establish a dated route that can safely be plotted {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}.
