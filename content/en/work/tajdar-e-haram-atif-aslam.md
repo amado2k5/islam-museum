@@ -8,6 +8,9 @@ translators: []
 ## Summary
 Tajdar-e-Haram, "King of the Holy Sanctuary", is an Urdu qawwali in praise of [[person/muhammad|the Prophet]], famous in the rendition of the Pakistani ensemble the [[group/sabri-brothers|Sabri Brothers]] from about 1970. The Pakistani singer [[person/atif-aslam|Atif Aslam]] performed it on the first episode of Coke Studio Pakistan's eighth season, released on 15 August 2015. {cite:wikipedia-tajdar-e-haram-en} This record is that 2015 rendition; the qawwali itself is older than the museum's modern window. {cite:wikipedia-tajdar-e-haram-en}
 
+## The original
+The article on the Sabri Brothers counts 'Tajdar-e-Haram' among the greatest hits they released in the 1970s, citing Dawn, and lists their performance of it in the 1982 Pakistani film Sahaaray. {cite:wikipedia-sabri-brothers-en}
+
 ## The performance
 Atif Aslam sang it as a tribute to the Sabri Brothers, in Urdu with passages in Arabic, Persian and Braj; the audio runs 10 minutes and 16 seconds. {cite:wikipedia-tajdar-e-haram-en} The text is credited to Mirza Muhammad Hakim and the Sabri Brothers, and the music of this version to Baber Ali Khanna and Arslan Rabbani. {cite:wikipedia-tajdar-e-haram-en} It was first thought to be produced by the band Strings; Atif Aslam later said Shiraz Uppal produced it, as The Express Tribune reported. {cite:wikipedia-tajdar-e-haram-en} Tanveer Tafu played the rubab and Arsalan Rabbani the harmonium, and the chorus included Jamshed Ali Sabri, Naveed Ali Sabri, Mohammad Shan and Zahid Akhtar. {cite:wikipedia-tajdar-e-haram-en}
 
@@ -20,3 +23,4 @@ Amjad Sabri, son of the Sabri Brothers' Ghulam Farid Sabri, said he liked the ar
 ## References
 - English Wikipedia, 'Tajdar-e-Haram', revision 1382085983 of 26 October 2026. {cite:wikipedia-tajdar-e-haram-en}
 - Wikidata item Q93822514 for the qawwali. {cite:wikidata-tajdar-e-haram}
+- English Wikipedia, 'Sabri Brothers', revision 1369205358. {cite:wikipedia-sabri-brothers-en}
