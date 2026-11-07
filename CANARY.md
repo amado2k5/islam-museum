@@ -715,6 +715,7 @@ open a new block on top with the new version and today's date.
 - al-Tabari v01 (Batch 9, Fatiha): 1:5 closes and 1:6 begins in ar, en and ur, vol. 1 pp. 163-169 (the reply to those who hold delegation, order of worship and help, repetition of "iyyaka", "guide us" as success in keeping to the path); stop sentence at the foot of p. 169.
 - al-Tabari v01 (Batch 10, Fatiha): the commentary on 1:6 continues in ar, en and ur, vol. 1 pp. 170-176 (the straight path as the clear road, al-Tabari's choice, and the reports of the Companions and Successors on its meaning); stop sentence at the foot of p. 176.
 - al-Tabari v01 (Batch 11, Fatiha): 1:6 closes and 1:7 begins in ar, en and ur, vol. 1 pp. 177-183 ("the path of those You have favoured", the reports on who they are, and the grammar of "ghayr al-maghdub": genitive and the disliked accusative reading); stop sentence at the foot of p. 183.
+- al-Tabari v01 (Batch 12, Fatiha): the commentary on 1:7 continues in ar, en and ur, vol. 1 pp. 184-190 (the grammar of "ghayr", the reports on those who incurred wrath filed as transmitted without a verdict, the views on the nature of God's wrath, and the start of "nor those astray"); stop sentence at the foot of p. 190.
 
 ### Changed
 - Modern Islam Browser, web section (documents only, no deployment): the founder confirmed that the Palestinian discussion website's record stays as he approved it; his decision to keep out propaganda games applies to the games only.
