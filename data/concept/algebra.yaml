@@ -17,5 +17,9 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker J); first record by Claude Haiku 5.5"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-sources: [source/khwarizmi-jabr-cairo-1939]
+  extensions:
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b98, source: "Added narrow coefficient-rule applied-in tie and sourced prose; original Claude-authored definition, sources and prior article text preserved." }
+inventions:
+  - { invention: invention/karaji-binomial-coefficient-recurrence, relation: applied-in, sources: [source/karaji-mactutor, source/samawal-mactutor] }
+sources: [source/khwarizmi-jabr-cairo-1939, source/karaji-mactutor, source/samawal-mactutor]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; rewritten by Claude Code (OCR-harvest worker J)" }

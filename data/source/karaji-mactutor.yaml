@@ -16,4 +16,10 @@ URL: "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Karaji/"
 open_access: true
 reliability_note: "Actual substantive biography, bibliography and July1999 update footer read. The precise birth header is not adopted; names, origins and life dates are uncertain. Technical claims are cited to this biography, including its reports of Crossley, Woepcke, Rashed and al-Samawal; those underlying studies and texts were not independently read. General polynomial division, x^0=1 and fully rigorous modern induction must not be retroactively credited. 'Islamic mathematician' alone is not used as personal Muslim evidence."
 status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b25", source: "Actual mathematical biography, bibliography and update footer read; not search synthesis" }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b25"
+  source: "Actual mathematical biography, bibliography and update footer read; not search synthesis"
+  extensions:
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b98, source: "Reread original biography's finite cubic/quartic examples, adjacent-addition translated testimony and limited recursive reasoning. Separate al-Samawal/DSB biographies checked; no primary1972 edition or lost original read. All earlier reliability caveats preserved." }
