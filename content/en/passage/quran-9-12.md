@@ -10,7 +10,7 @@ Verse 12 of [[passage/quran-9|Surat at-Tawba]], a Medinan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 12 of 129 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 12 (pp. 153-157)**
+**Commentary on verse 12 (pp. 153-158)**
 
 Al-Tabari says: if these polytheists you covenanted with for the safety of Quraysh break their covenants after having bound themselves not to fight you or back any of your enemies against you, and "attack your religion", that is slander Islam, reviling and finding fault with it, then fight the leaders of unbelief in God, for they have no oaths, that is no covenant, "so that they may desist", that is be made to stop attacking your religion and backing others against you. {cite:tafsir-tabari-shakir-v14 p. 153}
 
@@ -22,6 +22,6 @@ Report 16527, from Hudhayfa, through Ibn Waki, Abu Mu'awiya, al-A'mash and Zayd 
 
 Al-Tabari says "breaking" originally means undoing, as one says a man "broke the strands of his rope" when he unravelled them, and "oaths" is the plural of the oath. The reciters differed over the words "they have no oaths": the reciters of the Hijaz, Iraq and elsewhere read it with a fatha, meaning they have no covenants; it is reported that al-Hasan al-Basri read it with a kasra, meaning they have no Islam, and that his reading could carry another sense, that they are to be given no security, that is do not grant them safety but kill them wherever found, taking the noun from "I granted him security". He then says the correct reading, which he does not allow reciting otherwise, is that with the fatha, because of the consensus of the authoritative reciters. {cite:tafsir-tabari-shakir-v14 p. 157}
 
-We stop here at the foot of p. 157, in the middle of the commentary on verse 12 (at al-Tabari's choice of the reading with fatha, before the rest of his reasoning); the next batch begins at p. 158. {cite:tafsir-tabari-shakir-v14 p. 157}
+He adds that his proof also lies in the consensus of the interpreters that the sense is "no covenant", and that "oaths" in the sense of covenant can only be read with the fatha, being the plural of the oath sworn in a contract between the parties to a truce. {C(158)}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
