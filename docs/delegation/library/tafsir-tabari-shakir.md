@@ -243,6 +243,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 40: pp. 262-268 filed in ar, en and ur (reports 11844-11858): 5:33 continues (the view that the ruler is free to choose, its argument from 'or', al-Tabari's choice and rebuttal, the report through Anas, 'opposite sides', the first views on banishment). Stop sentence at the foot of p. 268. Next is p. 269.
 - Batch 41: pp. 269-275 filed in ar, en and ur (reports 11859-11871): 5:33 continues (more views on banishment: pursuit, banishment to another town, 'Umar ibn 'Abd al-'Aziz's letters to Hayyan ibn Surayj, imprisonment; al-Tabari's choice and the Arabic usage of 'banish'). Stop sentence at the foot of p. 275. Next is p. 276.
 - Batch 42: pp. 276-282 filed in ar, en and ur (reports 11872-11884): 5:33 closes (disgrace in this world and the great punishment) and 5:34 is begun (repentance before being overcome: polytheists only, or also Muslim bandits who are given safe-conduct; Haritha ibn Badr and 'Ali; al-Suddi; the man of Murad with Abu Musa). Stop sentence at the foot of p. 282. Next is p. 283.
+- Batch 43: pp. 283-289 filed in ar, en and ur (reports 11885-11898): 5:34 closes (the views on whom repentance covers: Malik, al-Awza'i, al-Layth, 'Urwa, Rabi'a, al-Shafi'i; al-Tabari's choice and proof) and 5:35 is begun (fear God). Stop sentence at the foot of p. 289. Next is p. 290.
 - Batch 21: pp. 413-419 filed in ar, en and ur (reports 10853-10854): verse 170 closes at p. 413 and verse 171 is filed to report 10854 at p. 419.
 - Batch 22: pp. 420-426 filed in ar, en and ur (reports 10855-10857): verse 171 closes at p. 424, verse 172 is filed to p. 425, and verse 173 is begun at p. 426.
 - Batch 23: pp. 427-431 filed in ar, en and ur (reports 10858-10865): verses 173 to 175 are filed in full, and verse 176 is begun at p. 430.
@@ -342,6 +343,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 64: pp. 377-382 filed in ar, en and ur (reports 16997-17003 begun): the 9:75-9:77 commentary is completed, 9:78 is filed in full and 9:79 is begun to the foot of p. 382 in the middle of report 17003 (next: p. 383).
 - Batch 65: pp. 383-388 filed in ar, en and ur (reports 17004-17013, 17014 begun): 9:79 continues to the foot of p. 388 in the middle of report 17014 (next: p. 389); the end of report 17003 at p. 382 is also corrected, since that report ends on p. 382.
 - Batch 66: pp. 389-394 filed in ar, en and ur (reports 17014-17022): 9:79 is completed and 9:80 is begun to the foot of p. 394 (next: p. 395).
+- Batch 67: pp. 395-400 filed in ar, en and ur (reports 17023-17036): 9:80 is completed and 9:81 is filed in full; no stop sentence, the next batch begins at 9:82 on p. 401.
 - Batch 51: pp. 293-299 filed in ar, en and ur (reports 16802-16809, 16810 begun): 9:52 is completed, 9:53 to 9:56 are filed in full and 9:57 is filed to the foot of p. 299 at report 16810 (next: p. 300).
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
@@ -699,6 +701,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 66: Sura al-Ra'd pp. 466-472 filed (13:33 closed, 13:34, 13:35 filed). Next is 13:36 from p. 473 (marker 481).
 - Batch 67: Sura al-Ra'd pp. 473-479 filed (13:36, 13:37, 13:38 filed; 13:39 begun). Next is the rest of 13:39 from p. 480 (marker 488).
 - Batch 68: Sura al-Ra'd pp. 480-486 filed (13:39 continued through report 20496). Next is the rest of 13:39 from p. 487 (marker 495).
+- Batch 69: Sura al-Ra'd pp. 487-493 filed (13:39 closed, 13:40 filed, 13:41 begun). Next is the rest of 13:41 from p. 494 (marker 502).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
@@ -706,6 +709,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 64: printed pp. 405-411 (markers 409-415) filed in ar, en and ur (reports 14554-14577): 7:35 closes at p. 407, 7:36 is filed and 7:37 is begun to the foot of p. 411 before report 14578. Offset still marker - 4. Stop sentence at the foot. Next is report 14578 (marker 415, printed 411), then the third view (what they were promised), marker 416 onwards.
 - Batch 80: pp. 435-441 filed in ar, en and ur (reports 13381-13402): 6:67 end, 6:68, 6:69 and the start of 6:70
 - Batch 81: pp. 442-448 filed in ar, en and ur (reports 13403-13418): 6:70 continued (tubsal, ransom, hamim)
+- Batch 65: printed pp. 411-418 (markers 415-422) filed in ar, en and ur (reports 14578-14598): 7:37 closes at p. 415 and 7:38 is begun to the foot of p. 418 after report 14598. Offset still marker - 4. Stop sentence at the foot. Next is marker 423 (printed 419).
 - Batch 82: pp. 449-455 filed in ar, en and ur (reports 13419-13431): 6:70 end and 6:71 (the bewildered man called to guidance), up to its last clause
 - Batch 83: pp. 456-462 filed in ar, en and ur (reports ): 6:71 end, 6:72 and 6:73 begun (grammar of 'be and it is', the trumpet)
 - Batch 84: pp. 463-469 filed in ar, en and ur (reports 13432-13440): 6:73 end and 6:74 (Abraham and Azar)
