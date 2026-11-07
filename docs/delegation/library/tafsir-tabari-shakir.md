@@ -708,6 +708,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 64: printed pp. 405-411 (markers 409-415) filed in ar, en and ur (reports 14554-14577): 7:35 closes at p. 407, 7:36 is filed and 7:37 is begun to the foot of p. 411 before report 14578. Offset still marker - 4. Stop sentence at the foot. Next is report 14578 (marker 415, printed 411), then the third view (what they were promised), marker 416 onwards.
 - Batch 80: pp. 435-441 filed in ar, en and ur (reports 13381-13402): 6:67 end, 6:68, 6:69 and the start of 6:70
 - Batch 81: pp. 442-448 filed in ar, en and ur (reports 13403-13418): 6:70 continued (tubsal, ransom, hamim)
+- Batch 65: printed pp. 411-418 (markers 415-422) filed in ar, en and ur (reports 14578-14598): 7:37 closes at p. 415 and 7:38 is begun to the foot of p. 418 after report 14598. Offset still marker - 4. Stop sentence at the foot. Next is marker 423 (printed 419).
 - Batch 82: pp. 449-455 filed in ar, en and ur (reports 13419-13431): 6:70 end and 6:71 (the bewildered man called to guidance), up to its last clause
 - Batch 83: pp. 456-462 filed in ar, en and ur (reports ): 6:71 end, 6:72 and 6:73 begun (grammar of 'be and it is', the trumpet)
 - Batch 84: pp. 463-469 filed in ar, en and ur (reports 13432-13440): 6:73 end and 6:74 (Abraham and Azar)
