@@ -60,7 +60,10 @@ A deploy uploads every file whose bytes changed. Until 6 November that was 174,0
   `/shell/entity.js` (`site/public/shell/`, loaded with `defer`). Both are cached for five minutes, then revalidated in the
   background (`site/public/_headers`), not as immutable.
 - The footer version is filled in by `shell.js` from `api/v1/meta/deploy.json`, which the deploy writes from the top block
-  of `CANARY.md`. The pages carry only the changelog link.
+  of `CANARY.md`. The pages carry only the changelog link. Because the site Worker redirects `/api/*` to the
+  environment's own API host, the Content Security Policy in `site/public/_headers` must allow that host in
+  `connect-src` for every environment (production `api.islam.museum`, UAT `uat-api.islam.museum`); if one is
+  missing, the browser blocks the fetch on that environment and the footer never shows the version.
 - The accessibility EPUBs carry the day their source last changed, not the build clock.
 - `publish.mjs` prints an "R2 publish churn" table in the job summary and warns when more than a fifth of the HTML
   pages are re-uploaded, naming the shell files that changed (`tools/deploy/shell-paths.list`).
