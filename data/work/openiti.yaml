@@ -1,0 +1,38 @@
+id: work/openiti
+class: work
+kind: online-library
+label:
+  ar: "مبادرة النصوص الإسلامية المفتوحة (OpenITI)"
+  en: "Open Islamicate Texts Initiative (OpenITI)"
+  ur: "اوپن اسلامیکیٹ ٹیکسٹس انیشی ایٹو (OpenITI)"
+summary:
+  ar: "مبادرة أكاديمية متعددة المؤسسات منذ 2016، يقودها باحثون في جامعة الآغا خان بلندن ومعهد روشن بجامعة ميريلاند وجامعة هامبورغ، لبناء البنية الرقمية لدراسة الثقافات الإسلامية: التعرف الآلي على الحروف العربية المطبوعة والمخطوطة بمحرك Kraken المفتوح، ومعايير لترميز النصوص، ومدونة مفتوحة للنصوص العربية والفارسية والتركية العثمانية والأردية."
+  en: "A multi-institutional academic initiative since 2016, led by researchers at the Aga Khan University in London, the Roshan Institute at the University of Maryland and Universität Hamburg, building digital infrastructure for Islamicate studies: optical and handwritten text recognition for Arabic script on the open Kraken engine, text-encoding standards, and an open corpus of Arabic, Persian, Ottoman Turkish and Urdu texts."
+  ur: "2016 سے کئی اداروں کی علمی مبادرت، جس کی قیادت لندن میں آغا خان یونیورسٹی، یونیورسٹی آف میری لینڈ کے روشن انسٹی ٹیوٹ اور ہیمبرگ یونیورسٹی کے محققین کرتے ہیں؛ اسلامی ثقافتوں کے مطالعے کا ڈیجیٹل ڈھانچہ: کھلے Kraken انجن پر عربی رسم الخط کی چھپی اور ہاتھ کی تحریر کی شناخت، ترمیزِ متن کے معیارات، اور عربی، فارسی، عثمانی ترکی اور اردو متون کا کھلا مجموعہ۔"
+wings: [words, today]
+url: "https://openiti.org"
+launched:
+  edtf: "2016"
+  hijri: "1437~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Founded in 2016, as its About page says; the earliest archived capture of openiti.org is of 19 August 2019. The Hijri year (1437 to 1438) is converter-derived."
+  sources: [source/openiti-about]
+languages: [en, ar, fa]
+content_type: academic
+relations:
+  - { type: related_to, target: listing/aga-khan-university, note: "one of the three leading institutions, through its Institute for the Study of Muslim Civilisations, London (the initiative's About page)", sources: [source/openiti-about] }
+footprint:
+  wikidata: "Q136231481"
+external_ids:
+  wikidata: Q136231481
+sources: [source/openiti-about]
+provenance:
+  layer: own-research
+  source: "OpenITI's About page, read in Chrome on the founder's Mac on 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b14
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
