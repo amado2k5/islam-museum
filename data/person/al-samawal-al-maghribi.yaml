@@ -3,16 +3,29 @@ class: person
 label:
   ar: "السموأل المغربي"
   en: "al-Samaw'al al-Maghribi"
-roles: [scholar, writer]
+  ur: "سموأل المغربی"
+roles: [scholar, writer, mathematician, physician]
 gender: male
 summary:
   ar: "بطاقة أولية للسموأل بن يحيى المغربي، الرياضي والطبيب الذي أسلم وكتب «إفحام اليهود» و«الباهر في الجبر»، توفي سنة ١١٨٠م؛ تذكره مصادر تاريخ العلوم ولم تُراجع ترجمته على الصفحة بعد."
   en: "Draft card for al-Samaw'al ibn Yahya al-Maghribi, the mathematician and physician who embraced Islam and wrote Ifham al-Yahud and al-Bahir in algebra, d. 1180; the history-of-science entry is not yet checked on the page."
+  ur: "ریاضی دان اور طبیب؛ الباہر میں کرجی کے گم شدہ ضریب حساب کے ناقل۔ نوجوانی کی تصنیف اور1163 کے قبول اسلام کو الگ رکھنا ضروری ہے {cite:samawal-mactutor Biography} {cite:samawal-dsb algebra}۔"
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [mathematics]
-sources: [source/sezgin-gas-v-mathematik]
+faith:
+  - value: jewish
+    basis: documented
+    end: { edtf: "1163", calendar: julian, precision: year, status: historical, note: "Year of conversion reported by the biographies; year-level endpoint only, not a new Hijri conversion.", sources: [source/samawal-mactutor, source/samawal-dsb] }
+    note: "Documented Jewish upbringing before the reported1163 conversion to Islam, not a claim of lifelong Jewish identity or a sourced Sunni school. Initial youthful al-Bahir predates conversion; revision chronology unresolved. Later Muslim identity is explicitly narrated in the sources and prose without inventing a personal denomination."
+    sources: [source/samawal-mactutor, source/samawal-dsb]
+inventions:
+  - invention: invention/karaji-binomial-coefficient-recurrence
+    role: transmitter
+    note: "Al-Bahir preserves Karaji's attributed coefficient rule; not an additional qualifying Sunni inventor. Youthful composition precedes reported1163 conversion, later revisions possible."
+    sources: [source/samawal-mactutor, source/samawal-dsb]
+sources: [source/sezgin-gas-v-mathematik, source/samawal-mactutor, source/samawal-dsb, source/karaji-mactutor]
 external_ids:
   wikidata: Q1821848
 provenance:
@@ -21,6 +34,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0016
+  extensions:
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b98, source: "Actual mathematical biographies and DSB text/bibliography. Added Urdu metadata, narrow transmitter tie, source-documented time-scoped Jewish upbringing before reported1163 conversion, and three published prose accounts. Original scaffold fields/status and Devin authorship retained; no personal Sunni affiliation inferred." }
 status:
   review: draft
   completeness: 1

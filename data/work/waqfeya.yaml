@@ -1,0 +1,38 @@
+id: work/waqfeya
+class: work
+kind: online-library
+label:
+  ar: "المكتبة الوقفية"
+  en: "al-Maktaba al-Waqfiya (waqfeya.com)"
+  ur: "المکتبۃ الوقفیہ"
+summary:
+  ar: "مكتبة رقمية على الإنترنت للكتب الشرعية المصورة، تعنى بتصويرها وإتاحتها للتنزيل، وتضم المخطوطات والرسائل العلمية والنصوص الإسلامية والكتب المصورة، وتذكر أنها تحوي قرابة عشرة ملايين صفحة أكثرها بصيغة PDF؛ أقدم لقطة لموقعها في أرشيف الإنترنت في ديسمبر 2005."
+  en: "An online digital library of scanned books of the Shari'a sciences, which scans them and makes them available for download, with manuscripts, theses, Islamic texts and scanned books; it says it holds nearly ten million pages, most as PDF; its site's earliest archived capture is of December 2005."
+  ur: "شرعی علوم کی اسکین شدہ کتابوں کی آن لائن ڈیجیٹل لائبریری، جو انہیں اسکین کر کے ڈاؤن لوڈ کے لیے مہیا کرتی ہے؛ مخطوطات، تحقیقی مقالات، اسلامی متون اور اسکین شدہ کتابیں؛ اپنے بقول تقریباً ایک کروڑ صفحات، زیادہ تر PDF میں؛ سب سے پرانی آرکائیو تصویر دسمبر 2005 کی۔"
+wings: [words, today]
+url: "https://waqfeya.com"
+launched:
+  edtf: "2005-12-14/"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "No launch date in a source read; the earliest archived capture, an 'under construction' page with the scanned-books store already open, is of 14 December 2005. The open interval records only that the site existed by then."
+  sources: [source/wayback-waqfeya-2005]
+languages: [ar]
+archive_url: "https://web.archive.org/web/20051214094237/http://waqfeya.com/"
+content_type: library
+relations:
+  - { type: related_to, target: work/al-maktaba-al-shamela, note: "the 2005 page announced the second release of 'al-Mawsu'a al-Shamila' among its coming offerings; the Arabic articles cross-link the two libraries", sources: [source/wayback-waqfeya-2005, source/wikipedia-waqfeya-ar] }
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-07", sources: [source/wikidata-waqfeya] }
+  wikidata: "Q64459597"
+external_ids:
+  wikidata: Q64459597
+sources: [source/wikipedia-waqfeya-ar, source/wayback-waqfeya-2005, source/wikidata-waqfeya]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «المكتبة الوقفية» (revision 76310618, 23 August 2026), the Internet Archive capture of waqfeya.com of 14 December 2005 and Wikidata Q64459597, read in Chrome on the founder's Mac on 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b10
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
