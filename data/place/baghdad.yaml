@@ -8,6 +8,7 @@ summary:
   ur: "بغداد، عباسی دارالحکومت؛ منصور کے گول حکومتی مرکز کی762میں تعمیر،763میں حکومتی منتقلی اور766میں تکمیل الگ مرحلے ہیں۔ بعد کا پورا شہر اس دائرے میں محدود نہیں تھا {cite:tdv-bagdat-duri Foundation and plan} {cite:lestrange-baghdad-1900 p.15–16}۔"
 wings: [place]
 inventions:
+  - { invention: invention/karaji-binomial-coefficient-recurrence, relation: site-of, sources: [source/karaji-mactutor, source/tdv-kereci] }
   - { invention: invention/round-city-baghdad, relation: site-of, sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900] }
   - { invention: invention/mansur-covered-water-conduits, relation: site-of, sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri] }
   - { invention: invention/abu-hanifa-brick-stack-reckoning, relation: site-of, sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri] }
@@ -16,7 +17,7 @@ regions: [levant-iraq]
 coordinates: [33.3406, 44.4009]
 coordinate_precision: site
 external_ids: { wikidata: "Q1530", geonames: "98182", pleiades: "893952" }
-sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/ahsan-al-taqasim, source/tdv-bagdat-duri, source/lestrange-baghdad-1900, source/baladhuri-hitti-1916, source/commons-round-city-lestrange]
+sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/ahsan-al-taqasim, source/tdv-bagdat-duri, source/lestrange-baghdad-1900, source/baladhuri-hitti-1916, source/commons-round-city-lestrange, source/karaji-mactutor, source/tdv-kereci]
 education:
   did_you_know:
     ar: "لُقّبت بغداد بمدينة السلام، وكانت في القرن الثالث الهجري أوسع مدن الدنيا؛ قدّر الجغرافيون أهلها بمئات الألوف."
@@ -39,6 +40,7 @@ provenance:
   source: "The sources cited in this record: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/ahsan-al-taqasim]. Provenance recorded on 28 October 2026 from git history (created in commit f5fbfe41a2)."
   generated_by: "unknown (created in commit f5fbfe41a2; no agent trailer)"
   extensions:
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b98, source: "Added mathematical-context site tie and prose; no exact workshop, route or lost-text writing location asserted. Prior city accounts/coordinates/dates/provenance preserved." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b94", source: "D-136; actual Duri first article/Le Strange15–29/MapII/Hitti445–446. Additive Urdu metadata,site tie and three sections per language; original coordinates,founded date,accounts,status,provenance and prose preserved." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b95", source: "D-137; added site-of link to covered-conduits arrangement and additive prose sections; preserved earlier fields/status/provenance." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b96", source: "D-138; added site-of link for reported brick-stack reckoning method and additive prose sections." }

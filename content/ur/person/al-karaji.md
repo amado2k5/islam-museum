@@ -28,3 +28,6 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 - {cite:tdv-kereci pp. 277–278}
 - {cite:karaji-ataie-simmons-2020 p. 762}
 - {cite:karaji-woepcke-1853 pp. 3–4}
+
+## ضریب کا قاعدہ اور گم شدہ اصل کا شاہد
+[[invention/karaji-binomial-coefficient-recurrence|دو رکنی ضریب کا قاعدہ]] تمام مرکب عملیات کو دوبارہ گننے کے بجائے متجاور اعداد سے ضریب کی تعمیر الگ کرتا ہے؛ میک ٹیوٹر اسے سموأل کے واسطے سے کرجی کی طرف منسوب کرتا ہے {cite:karaji-mactutor Biography}۔ [[work/al-bahir-fi-al-jabr|الباہر]] حساب محفوظ کرتی ہے اور انبوبا اصل کو گم کہتے ہیں؛ نہ اصل متن نہ جدید طباعت یہاں آزاد پڑھی گئی {cite:samawal-dsb algebra}۔ پہلے ہندوستانی مثلث بھی موازنے میں باقی ہیں، عالمی اولیت یا غیر مصدقہ راستہ نہیں بنایا گیا {cite:jaina-mathematics-mactutor combinations}۔ یہ بیچ98 کا اضافہ ہے، سابق شناختی مباحث کا بدل نہیں۔

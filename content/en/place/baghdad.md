@@ -60,3 +60,6 @@ In [[invention/karkh-market-relocation-zoning|the reported Karkh market relocati
 
 ## What this report does not prove alone
 From this report alone we do not derive daily production tables,precise efficiency percentages or a full modern engineering model. What it does establish is a transmitted estimation logic inside city-building practice. Keeping that line clear preserves spatial and historical accuracy.
+
+## Baghdad and the coefficient-rule setting
+[[person/al-karaji|Karaji]]'s principal mathematical works are associated with Baghdad, and TDV identifies Fakhr al-Mulk's Buyid patronage without establishing the author's personal religious school {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}. The [[invention/karaji-binomial-coefficient-recurrence|coefficient recurrence]] belongs to this scholarly context, not a verified workshop address for composition of the lost work {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}. Al-Samawal preserved its account in al-Bahir, but that does not supply dated routes carrying the table from the city to Europe or China {cite:samawal-mactutor Biography} {cite:jia-xian-mactutor Biography}.
