@@ -52,6 +52,10 @@ It is also reported from him that "the trumpet" here is the first blast (13433),
 
 The editor refers for "blowing", "witnessing", "the unseen", "the wise" and "the aware" to earlier passages.
 
+The editor's supplement (Ahmad Shakir, from the "completion of the tracing"; not al-Tabari's words). On the report of the Horn on p. 462, that it is a horn to be blown: his brother Mahmud traced it to the Musnad, Abu Dawud, al-Tirmidhi and al-Hakim, and the editor adds that Ahmad gives it once more (no. 6805) and that al-Hakim has it twice more in the Mustadrak (vol. 2, pp. 436 and 506), grading it sound with al-Dhahabi agreeing. {cite:tafsir-tabari-shakir-v11 p. 590}
+
+On the report on p. 463 that Israfil has put the Horn to his mouth and bent his brow, waiting for the command to blow: Mahmud quoted Ibn Kathir as saying Muslim transmitted it, then added that he could not find it in Sahih Muslim. The editor agrees and says Ibn Kathir erred: al-Nabulusi (Dhakha'ir al-Mawarith, no. 7960) credits Abu Dawud, al-Tirmidhi and Ibn Majah, not Muslim. Al-Suyuti, in his additions to al-Jami' al-Saghir, has it from Abu Sa'id (crediting Ahmad, al-Tirmidhi, Ibn Hibban and al-Hakim) and from Ibn Abbas (crediting Ahmad and al-Hakim); Abu Sa'id's is in the Musnad and in the Mustadrak by two chains, Ibn Abbas's in the Musnad (no. 3010) and the Mustadrak. In the versions the editor saw, Israfil is not named, only "the one of the Horn". He judges both reports weak because their chains are weak. {cite:tafsir-tabari-shakir-v11 p. 591}
+
 Verse 73 closes here on p. 465, and al-Tabari goes on to [[passage/quran-6-74|6:74]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
