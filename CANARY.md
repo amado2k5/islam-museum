@@ -104,7 +104,6 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's commentary on sura al-Ma'ida verse 2 closes with the account of al-Hutam and the abrogation reports (reports 10958 to 10977), filed from printed p. 472 to p. 478, in Arabic, English and Urdu.
 - Al-Tabari's commentary on sura al-Ma'ida verse 2 is filed from printed p. 478 to p. 485 (reports 10978 to 10992): the abrogation of the sacred-month clause, seeking bounty in pilgrimage, the permission to hunt after leaving the state of pilgrimage, and the hatred that must not move believers, in Arabic, English and Urdu.
 - Al-Tabari's commentary on sura al-Ma'ida verse 2 closes at p. 491 (the hatred that must not move believers, the reading of 'an' and 'in', the abrogation question, and helping one another in righteousness), and verse 3 is begun at p. 492 (the carrion), in Arabic, English and Urdu.
-- Al-Tabari's commentary on verse 3 of sura al-Ma'ida is filed from printed p. 493 to p. 499 (reports 11002 to 11019): the swine, what was dedicated to other than God, the strangled, the beaten to death, the fallen, and the gored, in Arabic, English and Urdu.
 
 ### Changed
 - The Modern Islam Browser now names the voices of worship and devotional song (founder's request, 6 November 2026): four person roles, `reciter`, `muezzin`, `munshid` and `sufi-singer`, join the role list, and the Figures section gains a field, "Reciters, muezzins and munshids", listed first so that a reciter who also preaches is filed with the reciters. The 48 person records that already carry one of these roles are gathered there at once (those with a dated fact from 1976 on appear in the browser). Three audio genres are added for recordings: Qur'an recitation and the call to prayer, each labelled "not music" in all three languages, and Sufi inshad and hadra. The operative prompt and plan 26 say how to write these records (riwaya, the muezzin's mosque and years, Qur'an text never typed, a Sufi repertoire never taken as a faith attestation), and the seeds list several hundred named leads with their generators.
@@ -112,6 +111,7 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses (Urdu, batch 143): brackets are isolated only inside Urdu values in 28 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 142): brackets are isolated only inside Urdu values in 9 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 141): brackets are isolated only inside Urdu values in 7 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 139): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
