@@ -391,6 +391,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 
 ## Volume 10 progress
 - Volume 10 (`waqtaftab-taftab10`, 634 markers): the title page (marker 4) names sura al-Ma'ida 5:6 to 5:94 and reports 11300 to 12543; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (5:6, rising for prayer). The marker-to-printed-page map is the identity (page numbers in the headers agree from p. 8 on). Cite `{cite:tafsir-tabari-shakir-v10 p. N}` by printed number. The source record `source/tafsir-tabari-shakir-v10` already exists.
+- Second half, batch 1: pp. 467-473 filed in ar, en and ur (reports 12270-12284 begun): 5:67 in full and 5:68 begun; stop at the foot of p. 473 at the start of report 12284 (next: the rest of 5:68 from p. 473/474). The first half (5:6 to 5:66) is filed by another agent.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
 - Batch 2: pp. 14-20 filed in ar, en and ur (reports 11327-11336): verse 6 continues.
 - Batch 3: pp. 21-27 filed in ar, en and ur (reports 11337-11354): verse 6 continues.
