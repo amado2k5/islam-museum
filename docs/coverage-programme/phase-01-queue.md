@@ -491,33 +491,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/umayr-ibn-abi-waqqas
 - [x] person/umayr-ibn-al-humam
 
-## Draft records (43)
+## Draft batch D10 (25 entities)
 
-- [ ] person/umayr-ibn-sad
-- [ ] person/umayra-ibn-malik-al-kharifi
-- [ ] person/umm-amr-bint-jundub
-- [ ] person/umm-ayman
-- [ ] person/umm-ayyub-al-ansariyya
-- [ ] person/umm-muni-asma-bint-amr
-- [ ] person/umm-musa-al-qahramana
-- [ ] person/umm-salama
-- [ ] person/umm-sharik-al-dawsiyya
-- [ ] person/unays-ibn-qatada
-- [ ] person/urwa-ibn-masud
-- [ ] person/usama-ibn-sharik
-- [ ] person/usayd-ibn-hudayr
-- [ ] person/uthman-ibn-abi-al-as
-- [ ] person/uthman-ibn-mazun
-- [ ] person/uwaym-ibn-saida
-- [ ] person/uwaymir-al-ajlani
-- [ ] person/wabisa-ibn-mabad
-- [ ] person/wadfa-ibn-iyas
-- [ ] person/wadia-ibn-amr
-- [ ] person/wahb-ibn-qabus
-- [ ] person/wahb-ibn-sad-ibn-abi-sarh
-- [ ] person/yala-ibn-umayya
-- [ ] person/yasir-ibn-amir
-- [ ] person/yazid-ibn-abi-sufyan
+- [x] person/umayr-ibn-sad
+- [x] person/umayra-ibn-malik-al-kharifi
+- [x] person/umm-amr-bint-jundub
+- [x] person/umm-ayman
+- [x] person/umm-ayyub-al-ansariyya
+- [x] person/umm-muni-asma-bint-amr
+- [x] person/umm-musa-al-qahramana
+- [x] person/umm-salama
+- [x] person/umm-sharik-al-dawsiyya
+- [x] person/unays-ibn-qatada
+- [x] person/urwa-ibn-masud
+- [x] person/usama-ibn-sharik
+- [x] person/usayd-ibn-hudayr
+- [x] person/uthman-ibn-abi-al-as
+- [x] person/uthman-ibn-mazun
+- [x] person/uwaym-ibn-saida
+- [x] person/uwaymir-al-ajlani
+- [x] person/wabisa-ibn-mabad
+- [x] person/wadfa-ibn-iyas
+- [x] person/wadia-ibn-amr
+- [x] person/wahb-ibn-qabus
+- [x] person/wahb-ibn-sad-ibn-abi-sarh
+- [x] person/yala-ibn-umayya
+- [x] person/yasir-ibn-amir
+- [x] person/yazid-ibn-abi-sufyan
+
+## Draft records (18)
+
 - [ ] person/yazid-ibn-al-harith
 - [ ] person/yazid-ibn-al-muhajjal
 - [ ] person/yazid-ibn-al-mundhir

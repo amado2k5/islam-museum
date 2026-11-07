@@ -21,6 +21,11 @@ faith:
 relations:
   - { type: spouse_of, target: person/sumayya-bint-khayyat }
   - { type: participated_in, target: event/persecution-of-mustadafin, role: "مات في العذاب", sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
 external_ids: { wikidata: "Q4116090" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 90" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), p. 90 — as recorded in this record's status.generated_by"
+  generated_by: "Devin"
