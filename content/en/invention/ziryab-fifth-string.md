@@ -2,9 +2,28 @@
 id: invention/ziryab-fifth-string
 lang: en
 source_lang: ar
-translators: ["Copilot SDK in VS Code, unknown model, inventions-p3-b31"]
+translators: [ "Copilot SDK in VS Code, unknown model, inventions-p3-b31" ]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b31", source: "Arabic canonical article translated with the same actual sources and limitations" }
+provenance:
+  {
+    generated_by: "Copilot SDK in VS Code",
+    model: "unknown",
+    run: "inventions-p3-b31",
+    source: "Arabic canonical article translated with the same actual sources and
+      limitations",
+    extensions:
+      [
+        {
+            generated_by: github-copilot,
+            model: unknown,
+            run: inventions-depth-20261107,
+            source: "Translation of the Arabic additions, preserving source qualifications.
+              Research agent read TDV, Al Jazeera and Cleveland catalogue:
+              tuning, named teaching cities, attributed plectrum account and
+              later object context; no direct Farmer reading."
+          }
+      ]
+  }
 ---
 ## Summary
 
@@ -29,12 +48,20 @@ The attractive narrative needs a distinction between storyteller and witness. Ma
 The attributed improver is Abu al-Hasan Ali ibn Nafi, Ziryab. TDV describes training under Ibrahim al-Mawsili and his son Ishaq, placing him within an educational tradition {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}. The Muslim identity basis here is Al Jazeera's explicit presentation of his biography in its Muslim Scholars series: a named biographical classification, not a personal profession of belief. Sunni is separately the museum's declared frame, not a personal school proved by his name or patron {cite:aljazeera-ziryab-2022 introductory paragraphs}. Reynolds's suggestion of a convert father is not substituted for that basis {cite:reynolds-ziryab-2008 p.166}.
 
 ## How it works
+TDV, reporting Henry George Farmer, adds a tuning account distinct from string count: Ziryab introduced the older Arabic tuning established by Ibn Misjah and revised by Ishaq al-Mawsili after an earlier single-octave system in al-Andalus {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}. This is the encyclopedia's account of the historian, not independent reading of Farmer or a modern frequency specification for Ziryab's oud.
+
+Tuning, string count and striking are three questions: count concerns the additional string and its position, tuning concerns relationships between sounds, and the plectrum changes the means of exciting vibration {cite:nafh-tib-maqqari v.3 pp.126–127} {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}. Attributing all three to one person does not make them one change. Adding a string does not automatically specify its tuning, and changing a plectrum does not add a string; symbolic color cannot supply missing acoustic values.
+
+Al Jazeera's modern account gives a plectrum detail: seven eagle-wing feathers soaked in oil for months until softened, replacing wood {cite:aljazeera-ziryab-2022 plectrum discussion}. This is a named journalistic account, not new primary text verified in al-Maqqari or a craft instruction offered to visitors; keeping it separate distinguishes modern elaboration from the earlier general claim {cite:aljazeera-ziryab-2022 plectrum discussion} {cite:nafh-tib-maqqari v.3 pp.126–127}.
+
 
 The account relates string order, colour and thickness: a yellow zir, red mathna, white mathlath and black bamm, with the additional red string between the middle ones {cite:nafh-tib-maqqari v.3 p.126}. The colours are not a modern key from which frequency can be calculated. They participate in an analogy of humours and soul, not medical evidence or an acoustic law {cite:nafh-tib-maqqari v.3 p.126}.
 
 A separate improvement replaces a wooden plectrum with an eagle quill, praised for lightness and gentleness on the strings. Changing the plucking tool is not the same act as adding a string {cite:nafh-tib-maqqari v.3 pp.126–127}. The passage does not supply a fully specified fifth-string pitch or measurements from which to reconstruct the instrument faithfully {cite:nafh-tib-maqqari v.3 p.126}.
 
 ## The spread
+TDV names Seville, Toledo, Valencia and Granada among places with schools modeled on Cordoba and reports Farmer's account of the school's continuation until the Andalusian caliphate ended {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}. These locate educational history, not dated arrival of a fifth string in each workshop. A school offers a learning context without authenticating a particular instrument or identical string counts for every pupil {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}.
+
 
 The biography attributes organized singing instruction in Cordoba and schools on its model in other Andalusi cities. It describes stages moving from rhythm and words to melody and then performance subtleties {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}. These are accounts of teaching, not an inventory of five-string ouds or a map recording each instrument's arrival {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}. The spread of a reputation and teaching model cannot automatically become a documented material route for every string.
 
@@ -47,6 +74,8 @@ The clear inheritance is the account's four-string oud and the singing craft lea
 Cleveland discusses the oud's lute-family connections and wider influence, but a family description does not establish the route from Ziryab's particular string to a particular guitar {cite:cleveland-oud-1918-350 catalogue}. Reynolds observes modern performers claiming descent from Ziryab's music; that is meaningful cultural memory, not a handover record for every melody or wooden component across the centuries {cite:reynolds-ziryab-2008 p.155}. Similar names therefore do not create a confirmed technical dependency.
 
 ## Impact on daily life
+TDV's Cordoba school history puts education alongside craft and performance, so Ziryab's contribution is not reduced to one material alteration {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}. The school concerns learning, al-Maqqari's string concerns an instrument; they connect through performance without institutional history substituting for a surviving oud {cite:tdv-ziryab-arslan-erkocoglu pp.464–465} {cite:nafh-tib-maqqari v.3 pp.126–127}.
+
 
 Maqqari locates singing and the oud in court gatherings and instruction, and names sons and daughters who practiced the craft: a social and professional setting rather than simply a slogan about solitary invention {cite:nafh-tib-maqqari v.3 pp.125,128–129}. Reynolds restores family music-making and differing children's abilities to a scene obscured by the singular-genius portrait {cite:reynolds-ziryab-2008 p.161}. These accounts cannot quantify use of the additional string beyond the circles described.
 
@@ -69,6 +98,10 @@ TDV phrases priority more categorically. Its authors' attribution remains visibl
 Cleveland describes the oud as still prominent, recognizable by its pear-shaped body, fretless fingerboard and angled pegbox {cite:cleveland-oud-1918-350 catalogue}. Continuity of the name does not make every present-day oud preserve Ziryab's reported arrangement. Nor can the visible string count in a modern photograph settle a ninth-century question {cite:cleveland-oud-1918-350 catalogue} {cite:nafh-tib-maqqari v.3 p.126}.
 
 ## Surviving examples
+Cleveland's accompanying oud illustrates a later instrument, not Ziryab's: its overall dimensions are81.3by33.7centimetres, and the catalogue describes a pegbox angled45to90degrees to the neck {cite:cleveland-oud-1918-350 dimensions and catalogue}. These belong to the catalogued object, not an assumed ninth-century instrument; a later pictured string cannot date its first addition or establish colors in the older narrative {cite:cleveland-oud-1918-350 catalogue}.
+
+The catalogue mentions al-Farabi's Great Book of Music and its explanation of the Arabic modal system {cite:cleveland-oud-1918-350 catalogue}. This connects the instrument with theoretical musical writing, not proof that al-Farabi saw Ziryab's oud or transmitted his fifth string. Instrument family, theoretical description and evidence for one improvement are distinct matters {cite:cleveland-oud-1918-350 catalogue}.
+
 
 The photographed [[object/ud-shami|Cleveland oud1918.350]] is West Asian, late1800s–early1900s, made of wood, gut and metal. Its image is CC0 {cite:cleveland-oud-1918-350 catalogue and API}. Its wooden body, decorated soundhole, strings and pegs are clearly visible: a much later comparison, not Ziryab's instrument or a documented reconstruction {cite:cleveland-oud-1918-350 inspected photograph}. The evidence for the attribution here is textual, not ownership of a surviving original.
 

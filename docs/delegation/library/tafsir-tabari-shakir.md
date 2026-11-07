@@ -715,6 +715,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 73: Sura Ibrahim pp. 518-524 filed (14:5 closed, 14:6 begun). Next is the rest of 14:6 from p. 525 (marker 533).
 - Batch 74: Sura Ibrahim pp. 525-531 filed (14:6 closed, 14:7, 14:8 filed, 14:9 begun). Next is the rest of 14:9 from p. 532 (marker 540).
 - Batch 75: Sura Ibrahim pp. 532-538 filed (14:9 closed, 14:10, 14:11 filed). Next is 14:12 from p. 539 (marker 547).
+- Batch 76: Sura Ibrahim pp. 539-545 filed (14:12, 14:13-14 filed, 14:15 begun). Next is the rest of 14:15 from p. 546 (marker 554).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
@@ -737,3 +738,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 90: pp. 505-511 filed in ar, en and ur (reports 13513-13515): 6:83 end, 6:84, 6:85 and 6:86 begun
 - Batch 91: pp. 512-518 filed in ar, en and ur (reports 13516-13530): 6:86 end, 6:87, 6:88, 6:89 and 6:90 begun
 - Batch 92: pp. 519-525 filed in ar, en and ur (reports 13531-13543): 6:90 end and 6:91 begun
+- Batch 93: pp. 526-532 filed in ar, en and ur (reports 13544-13554): 6:91 end, 6:92 and 6:93 begun
