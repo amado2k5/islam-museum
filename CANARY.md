@@ -165,6 +165,7 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's Jami' al-Bayan (Shakir edition), volume 14, pp. 84-90 filed in Arabic, English and Urdu (reports 16343-16354): 8:73 and 8:74 in full (the unbelievers as allies, the two readings of the strife clause and al-Tabari's choice, the true believers and the provision of Paradise) and 8:75 to the foot of p. 90 (those who believed later, the kinship verse, the case of Shurayh), cited as {cite:tafsir-tabari-shakir-v14 p. 90}; the next stop is p. 91. Statements are given as transmitted with no museum verdict.
 
 ### Data
+- Tafsir Browser: al-Tabari vol. 11, batch 97 (pp. 554-560, reports 13595-13611): 6:95 end and 6:96 begun (dawn, night, sun and moon) Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 96 (pp. 547-553, reports 13572-13594): 6:94 end and 6:95 begun (the splitter of grain and stone) Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 95 (pp. 540-546, reports 13568-13571): 6:93 end (humiliation, hawn) and 6:94 begun (alone, as created) Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 94 (pp. 533-539, reports 13555-13567): 6:93 (Ibn Abi Sarh, Musaylima and al-Ansi, the agonies of death) up to its question on 'give up your souls' Arabic, English and Urdu.
