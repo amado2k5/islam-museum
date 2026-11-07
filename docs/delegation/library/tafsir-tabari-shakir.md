@@ -233,4 +233,5 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 29: pp. 465-471 filed in ar, en and ur (reports 10945-10957): sura 5 verse 2 is filed to the foot of p. 471.
 - Batch 30: pp. 472-478 filed in ar, en and ur (reports 10958-10977): the al-Hutam account and the abrogation reports on verse 2 are filed to report 10977 at p. 478.
 - Batch 31: pp. 478-485 filed in ar, en and ur (reports 10978-10992): verse 2 is filed to the foot of p. 485.
-- Progress: current report 10992, printed p. 485. Next is the rest of verse 2 from printed p. 485 on, then verse 3.
+- Batch 32: pp. 485-492 filed in ar, en and ur (reports 10993-11001): verse 2 closes at p. 491 and verse 3 is begun at p. 492.
+- Progress: current report 11001, printed p. 491. Next is the rest of verse 3 from printed p. 492 on (carrion, blood, and the rest of the list).
