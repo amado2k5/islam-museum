@@ -52,3 +52,6 @@ translators: []
 
 ## من برنامج المنجيات ⁦(عمر عبد الكافي)⁩
 يحثّ عمر عبد الكافي على تجويد الطاعة وتزيينها بالإخلاص والعلم، ويقول إن المصلي ذاهب للقاء رب العباد فينبغي أن يحسن صلاته، ويسأل كيف يبارك الله في راتب من لا يعمل إلا دقائق، ويذكر أن على العبد أن يجوّد عمله كله. {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:16:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:18:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:20:00}
+
+## في برنامج مصطفى حسني «أهل الجنة»
+يخصص [[person/mustafa-hosny|مصطفى حسني]] الحلقة الثالثة عشرة من برنامجه [[work/ahl-al-jannah|«أهل الجنة»]] للمتقن و«الفهلوي»: يقول إنهم وصلوا إلى بيت من كان يحترم نظر الله فلم يكن يأخذ الأمور بسطحية وإهمال، ويعرّف الفهلوي بأنه الراغب في الإنجاز دون اهتمام ولا جهد ولا علم. {cite:assabile-mustafa-hosny ahl-al-jannah/ep13 00:04:00} {cite:assabile-mustafa-hosny ahl-al-jannah/ep13 00:09:30} ويحكي أنه ذهب في بداية زواجه ليشتري جهازًا فلم يكلّف البائع نفسه عناء أن يريه إياه، فاشتراه من محل آخر. {cite:assabile-mustafa-hosny ahl-al-jannah/ep13 00:14:30} ويقول إن الإتقان سرّ تقدم الغرب وسرّ تقدم المسلمين في عصورهم الزاهية، وإن «إن شاء الله» لا تعني ترك العمل. {cite:assabile-mustafa-hosny ahl-al-jannah/ep13 00:23:00}
