@@ -28,7 +28,7 @@ export const GET: APIRoute = () => {
     `- [Award class index](${SITE}/api/v1/award/index.json)`,
     `- [Job Browser dataset](${SITE}/api/v1/jobs.json) — every job with its domain, craft flag, edges and holders`,
     `- [Fatwa Explorer dataset](${SITE}/api/v1/fatwa.json) — every fatwa and collection with publisher, dates and chain edges`,
-    `- [Tafsir Browser dataset](${SITE}/api/v1/tafsir.json) — Qur'an commentaries: each volume with the verses it covers (`about` edges) and its commentary (`part_of`)`,
+    `- [Tafsir Browser dataset](${SITE}/api/v1/tafsir.json) — Qur'an commentaries: each volume with the verses it covers (about edges) and its commentary (part_of)`,
     `- [Khutab and Durus dataset](${SITE}/api/v1/khutab.json) — every sermon, lesson and series with speaker, occasion and order`,
     `- [Poetry dataset](${SITE}/api/v1/poetry.json) — every poem and diwan with poets, language, genre and metre`,
     `- [Screening Room dataset](${SITE}/api/v1/screens.json) — every film, series and programme with format, release, countries and ids`,
