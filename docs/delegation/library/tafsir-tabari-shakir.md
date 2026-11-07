@@ -403,6 +403,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 36: pp. 294-300 filed in ar, en and ur (reports 15465-15493): verse 187 continues ('mursaha', 'it weighs heavily', 'suddenly', 'hafi 'anha' and al-Tabari's choice); stop sentence at the foot of p. 300 at the poet's citation joining 'hafi' with 'about' (next: p. 301).
 - Batch 37: pp. 301-307 filed in ar, en and ur (reports 15494-15511): verse 187 closes at p. 301, verse 188 is filed in full and verse 189 is begun at p. 303; stop sentence at the foot of p. 307 at the start of report 15512 (next: p. 308).
 - Batch 38: pp. 307-314 filed in ar, en and ur (reports 15512-15526): verse 189 closes at p. 308 and verse 190 is begun (the Abd al-Harith reports and the editor's note on the Samura report); stop sentence at the foot of p. 314 after report 15526 (next: p. 315).
+- Batch 39: pp. 314-321 filed in ar, en and ur (reports 15527-15532): verse 190 closes at p. 317 and verses 191 to 194 are filed in full; verse 194 ends at the foot of p. 321 (next: p. 322, 7:195).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
