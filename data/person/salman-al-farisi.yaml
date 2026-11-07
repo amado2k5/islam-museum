@@ -30,5 +30,6 @@ relations:
   - { type: converted_under, target: person/muhammad, start: { edtf: "0622~" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-the-trench, role: proposed-digging-the-trench, sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
 external_ids: { wikidata: "Q557378" }
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/assabile-ahmad-farid, source/assabile-mosaad-anwar, source/tafsir-tabari-shakir-v02]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/assabile-ahmad-farid, source/assabile-mosaad-anwar, source/tafsir-tabari-shakir-v02, source/assabile-tareq-al-suwaidan]
+provenance: { layer: own-research, source: "Original record by Devin (2026-10-11) from the sources listed, with later sections from other lanes; the section on Tareq al-Suwaidan's A Story and an Idea (kissa-wa-fikra ep01) added from the Assabile recording, transcript pass5-qwen (Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Devin; Claude Code (claude-opus-5-5) for the kissa-wa-fikra section", model: claude-opus-5-5, run: suwaidan-kissa-wa-fikra-2 }
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
