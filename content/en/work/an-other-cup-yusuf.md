@@ -15,7 +15,7 @@ The album was recorded between April and August 2006, produced by Yusuf with Ric
 All the songs are Yusuf's except 'Don't Let Me Be Misunderstood' by Bennie Benjamin, Gloria Caldwell and Sol Marcus. The list includes 'Midday (Avoid City After Dark)', 'Heaven/Where True Love Goes', 'Maybe There's a World', 'One Day at a Time', 'When Butterflies Leave', 'In the End', 'I Think I See the Light', 'Whispers from a Spiritual Garden', 'The Beloved' and 'Greenfields, Golden Sands', with 'There Is Peace' added to the UK edition. {cite:wikipedia-an-other-cup-en}
 
 ## Reach
-The album reached number 2 in Austria and on the [[award/german-albums-chart|German albums chart]], 14 on the [[award/swiss-albums-chart|Swiss]], 81 on the [[award/french-albums-chart|French]], 16 in Sweden, 17 in Norway, 22 in Italy and 20 on the [[award/uk-albums-chart|UK Albums Chart]], and stayed in the German and Austrian year-end charts of 2006 and 2007. {cite:wikipedia-an-other-cup-en}
+The album reached number 2 in Austria and Germany, 14 in Switzerland, 16 in Sweden, 17 in Norway, 22 in Italy and 20 on the [[award/uk-albums-chart|UK Albums Chart]], and stayed in the German and Austrian year-end charts of 2006 and 2007. {cite:wikipedia-an-other-cup-en}
 
 ## References
 - English Wikipedia, 'An Other Cup', revision 1365631070 of 23 July 2026. {cite:wikipedia-an-other-cup-en}
