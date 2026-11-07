@@ -493,6 +493,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 68: pp. 515-520 filed in ar, en and ur (reports 16008-16021): 8:33 closes at p. 519 (joint 8:33-34 commentary), 8:34 filed with a pointer paragraph and its last clause; stop sentence at the foot of p. 520 (next: 8:35, p. 521).
 - Batch 69: pp. 521-526 filed in ar, en and ur (reports 16022-16048): 8:35 begun; stop sentence at the foot of p. 526 after report 16048 (next: p. 527).
 - Batch 70: pp. 527-533 filed in ar, en and ur (reports 16049-16066): 8:35 closes at p. 528, 8:36 begun; stop sentence at the foot of p. 533 after report 16066 (next: p. 534).
+- Batch 71: pp. 534-540 filed in ar, en and ur (reports 16067-16083): 8:36 closes, 8:37 and 8:38 filed in full, 8:39 begun; stop sentence at the foot of p. 540 in the middle of report 16083 (next: p. 541).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
