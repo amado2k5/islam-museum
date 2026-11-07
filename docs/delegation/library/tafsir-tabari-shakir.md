@@ -440,6 +440,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 47: pp. 378-385 filed in ar, en and ur (reports 15668-15683): verse 8:1 is filed in full (abrogation, the fifth, Ibn al-Musayyab, 'set right what is between you') and 8:2 is filed in full; stop sentence at the foot of p. 385 (next: p. 386, 8:3).
 - Batch 48: pp. 386-392 filed in ar, en and ur (reports 15684-15704): verse 8:2 closes at p. 387, 8:3 and 8:4 are filed in full and 8:5 (with 8:6 treated together) is begun at p. 391; stop sentence at the foot of p. 392 (next: p. 393).
 - Batch 49: pp. 393-399 filed in ar, en and ur (reports 15705-15720): 8:5-8:6 closes at p. 397 and 8:7 is begun at p. 398; stop sentence at the foot of p. 399 in report 15720 (next: p. 400).
+- Batch 50: pp. 399-405 filed in ar, en and ur (reports 15720-15727): verse 8:7 continues (the consultation before Badr, the two parties); stop sentence at the foot of p. 405 after report 15727 (next: p. 406).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
