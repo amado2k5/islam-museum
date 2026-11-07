@@ -449,6 +449,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 51: pp. 406-411 filed in ar, en and ur (reports 15728-15741): 8:7 closes at p. 408, 8:8 is filed in full and 8:9 is begun at p. 408; stop sentence at the foot of p. 411 at the list for 'a thousand angels' (next: p. 412).
 - Batch 52: pp. 411-417 filed in ar, en and ur (reports 15742-15756): 8:9 closes at p. 417 and 8:10 is begun; stop sentence at the foot of p. 417 at 'except as good news' (next: p. 418).
 - Batch 53: pp. 417-424 filed in ar, en and ur (reports 15757-15772): 8:10 closes at p. 418 and 8:11 (with 8:12 treated together) is begun at p. 418; stop sentence at the foot of p. 424 after report 15772 (next: p. 425).
+- Batch 54: pp. 424-430 filed in ar, en and ur (reports 15773-15787): 8:11 closes at p. 428 and 8:12 is begun at p. 428; stop sentence at the foot of p. 430 after al-Tabari's choice on 'above the necks' (next: p. 431).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
