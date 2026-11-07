@@ -30,6 +30,10 @@ The editor refers to al-Farra's Ma'ani al-Qur'an and to what Abu Jafar said earl
 
 A group of interpreters said as we said: report 13294, from Mujahid: "whoever of you does evil in ignorance" is one who does not know lawful from forbidden and by his ignorance commits the act. 13295, from al-Dahhak, the like. 13296, from Mujahid... {cite:tafsir-tabari-shakir-v11 p. 393}
 
-We stop here at the foot of p. 393, at the start of report 13296 from Mujahid on "whoever of you does evil in ignorance", which continues on p. 394.
+The rest of 13296: "do evil in ignorance", he said: whoever acts in disobedience to God, that is ignorance in him until he returns. 13297, from Mujahid: everyone who does a sin is ignorant in it. 13298, from Khalid ibn Dinar Abu Khalda: when we went in to Abu al-Aliya he would say "when those who believe in our signs come to you, say: peace upon you; your Lord has prescribed mercy for himself". {cite:tafsir-tabari-shakir-v11 p. 394}
+
+At 13297 the editor identifies Bakr ibn Khunays al-Kufi, the devout, who related from Layth ibn Abi Sulaym, Abd al-Rahman ibn Ziyad, Ismail ibn Abi Khalid and Ata ibn Abi Rabah, and gives Ibn Adi's remark that he is a righteous man but righteous men have hadith made to seem so to them, his hadith counting among the weak and not to be used as proof; and at 13298 Khalid ibn Dinar al-Tamimi al-Sa'di, Abu Khalda, trusted.
+
+Verse 54 closes here at p. 394, and al-Tabari goes on to [[passage/quran-6-55|6:55]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
