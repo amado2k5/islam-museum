@@ -1,0 +1,51 @@
+id: job/amil
+class: job
+label: { ar: "العامل", en: "Tax collector (amil)", ur: "عامل ⁦(محصل)⁩" }
+names:
+  - { value: "ameldar", kind: latinized, lang: tr }
+  - { value: "âmil", kind: latinized, lang: tr }
+summary:
+  ar: "العامل في تاريخ الدول الإسلامية موظف على العموم، وجابي ضريبة على الخصوص. من العهد النبوي كان يقدّر الزكاة وغيرها من موارد الدولة ويجبيها ويقسمها. ثم ضاقت الكلمة أو اتسعت بحسب العصر: والٍ، وجابي خراج، وفي القوانين العثمانية مأمور جباية أو ملتزم أو من يجبي باسم الملتزم. وكتب الفقه تفرد عامل الزكاة بشروط وأجر يُؤخذ من الزكاة."
+  en: "In the history of Muslim states the amil was an official in general and a tax collector in particular. From the prophetic period he assessed, collected and divided zakat and the state's other revenues. The word then narrowed or widened by period: a governor, a collector of the land tax, and in the Ottoman codes a collector, a tax farmer, or a man collecting in a tax farmer's name. The law books treat the zakat amil apart, with conditions and a wage taken from the zakat."
+  ur: "اسلامی ریاستوں کی تاریخ میں عامل عموماً ایک اہلکار تھا اور خصوصاً محصلِ ٹیکس۔ عہدِ نبوی سے وہ زکوٰۃ اور ریاست کی دوسری آمدنی کا تخمینہ لگاتا، وصول کرتا اور تقسیم کرتا تھا۔ پھر یہ لفظ دور کے لحاظ سے تنگ یا وسیع ہوا: والی، خراج کا محصل، اور عثمانی قوانین میں وصول کنندہ، ٹھیکیدار، یا ٹھیکیدار کے نام پر وصول کرنے والا۔ فقہ کی کتابیں عاملِ زکوٰۃ کو الگ شرائط اور زکوٰۃ سے ملنے والی اجرت کے ساتھ بیان کرتی ہیں۔"
+domain: court-administration
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  status_today: transformed
+places:
+  - place: place/medina
+    note: "The entry says amils sent outside Medina in the prophetic period generally had wider powers than those who stayed nearer the city. It also says Umar summoned his amils to Medina in the season of the pilgrimage and took reports from them."
+    sources: [source/tdv-amil]
+  - place: place/yemen
+    note: "The entry says Muadh ibn Jabal was sent to Yemen as amil and held a tax collector's powers."
+    sources: [source/tdv-amil]
+  - place: place/mosul
+    note: "The entry says Umar sent Arfaja ibn Harthama to Mosul as amil of the land tax and of zakat."
+    sources: [source/tdv-amil]
+  - place: place/basra
+    note: "The entry says Umar sent Mujashi ibn Masud to Basra as amil of the land tax and of zakat, and that Ali appointed Abd Allah ibn Abbas there as amil and governor."
+    sources: [source/tdv-amil]
+  - place: place/kufa
+    note: "The entry says Umar appointed Abd Allah ibn Masud to Kufa with both tax collection and the judgeship."
+    sources: [source/tdv-amil]
+  - place: place/istanbul
+    note: "The entry says that in the sharecropper villages around Istanbul an Ottoman amil could gather the crop on set conditions, but could not decide the village's administration alone."
+    sources: [source/tdv-amil]
+regions: [arabia, levant-iraq, egypt-nile, anatolia-balkans, persia-central-asia]
+organization:
+  organized: court-office
+training:
+  mode: state-licence
+  certification: "The entry says Umar gave each amil a diploma that set out his duties and his powers, and told him the rules he was to keep. In the law books, al-Mawardi splits the zakat amil into one with full discretion and one limited to a stated charge. The entry says the jurists require the zakat amil to be of full legal capacity, trustworthy, knowing the rules of zakat, and free. It says being Muslim is required only of the amil with full discretion."
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires]
+sources: [source/tdv-amil]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'ÂMİL' (Mehmet Erkal, vol. 3, Istanbul 1991, pp. 58–60), web edition read in full on 7 Nov 2026. The entry gives no year for a first appointment, so no first_attested date is written. Holders are limited to people the entry names as amils who already have person records. Mahmiye ibn Jaz and Jahm ibn Salt are named and have no person records."
+  generated_by: "Cursor"
+  model: "grok-4.7"
+  run: "jobs-p2-ca11"
+status: { review: published, completeness: 2, generated_by: "Cursor (grok-4.7)" }

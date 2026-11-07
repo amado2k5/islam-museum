@@ -1,0 +1,53 @@
+id: job/nazir-al-waqf
+class: job
+label: { ar: "ناظر الوقف", en: "Waqf supervisor (nazir)", ur: "ناظر وقف" }
+names:
+  - { value: "ناظر الأوقاف", kind: alternate }
+  - { value: "nâzır", kind: latinized, lang: tr }
+summary:
+  ar: "ناظر الوقف هو من يراقب إدارة الوقف، ويُسمى عمله النظارة، في مقابل المتولي الذي يدير الوقف وتُسمى إدارته التولية. وفي أوقاف السلاطين والوزراء كانت النظارة تُشترط لكبار رجال الدولة، ثم صارت دواوين، حتى أنشأ محمود الثاني سنة 1826 نظارة الأوقاف الهمايونية، وصار ناظرها وزيراً في مجلس الوكلاء. وأُلغيت وكالة الشريعة والأوقاف في 3 مارس 1924 وصارت الأوقاف مديرية عامة تابعة لرئاسة الوزراء."
+  en: "The nazir of a waqf supervised its administration. His work was called nezaret, set against the mutawalli, who managed the waqf, and whose work was called tevliyet. On the waqfs of sultans and viziers the supervision was stipulated for senior officers of state, and those charges grew into departments, until Mahmud II founded the imperial ministry of waqfs in 1826 and its nazir sat in the council of ministers. The Şer'iyye ve Evkaf ministry was abolished on 3 March 1924, and the waqfs became a directorate under the prime ministry."
+  ur: "ناظر وقف وہ شخص تھا جو وقف کے انتظام کی نگرانی کرتا تھا۔ اس کام کو نظارة کہا جاتا تھا، جبکہ متولی خود انتظام کرتا تھا اور اس کے کام کو تولیت کہا جاتا تھا۔ سلاطین اور وزراء کے اوقاف میں یہ نگرانی اعلیٰ ریاستی عہدیداروں کے لیے مشروط ہوتی تھی، پھر یہ دفاتر بنے، یہاں تک کہ محمود ثانی نے 1826 میں شاہی اوقاف کی نظارة قائم کی اور اس کا ناظر وزراء کی مجلس میں شامل ہوا۔ 3 مارچ 1924 کو شریعت و اوقاف کی وزارت ختم ہوئی اور اوقاف وزیراعظم کے ماتحت ایک جنرل ڈائریکٹوریٹ بن گئے۔"
+domain: court-administration
+kind: office
+hirfa: false
+era:
+  origins: early-modern
+  first_attested:
+    edtf: "1586"
+    hijri: "0995"
+    calendar: gregorian
+    precision: year
+    status: historical
+    note: "The entry does not date the first individual nazir. It dates the first central office for the waqfs assigned to Mecca and Medina, the Evkaf-ı Haremeyn Nezareti, to 995 AH (1586). Earlier supervision of sultan and vizier waqfs is described as a condition in the endowment deeds, without a year."
+    sources: [source/tdv-evkaf-i-humayun-nezareti]
+  status_today: transformed
+places:
+  - place: place/istanbul
+    note: "The imperial ministry sat in Istanbul. By the late sixteenth century the city already had separate waqf nezarets, and the entry says their number there reached twelve."
+    sources: [source/tdv-evkaf-i-humayun-nezareti]
+  - place: place/mecca
+    note: "The Haremeyn nezaret, founded in 995 AH (1586), gathered the waqfs assigned to the institutions of Mecca and Medina."
+    sources: [source/tdv-evkaf-i-humayun-nezareti]
+  - place: place/medina
+    note: "Named with Mecca as the pair of sanctuaries whose assigned waqfs the 1586 nezaret was set up to administer from one office."
+    sources: [source/tdv-evkaf-i-humayun-nezareti]
+  - place: place/bursa
+    note: "The entry says the waqfs of Murad Hudavendigar and Bayezid I in Bursa were taken over by the imperial ministry after Davud Pasha's fifteen waqfs."
+    sources: [source/tdv-evkaf-i-humayun-nezareti]
+regions: [anatolia-balkans, arabia]
+organization:
+  organized: court-office
+training:
+  mode: state-licence
+  certification: "The entry does not describe a school, an examination or a fixed term for the nazir. Supervision of sultan and vizier waqfs was stipulated for high officers. The first nazir of the 1826 ministry, Yusuf Efendi, came to it from the imperial mint, where he had been nazir, and from the post of deputy trustee."
+wings: [people]
+periods: [period/gunpowder-empires, period/colonial-era, period/modern-era, period/contemporary-era]
+sources: [source/tdv-evkaf-i-humayun-nezareti]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'EVKĀF-ı HÜMÂYUN NEZÂRETİ' (Nazif Öztürk, vol. 11, Istanbul 1995, pp. 521–524), web edition read in full on 7 Nov 2026. The general article 'NÂZIR' (vol. 32, pp. 449–450) was not read in full. No holder is written from this entry: Yusuf Efendi, named as the first nazir, has no person record."
+  generated_by: "Cursor"
+  model: "grok-4.7"
+  run: "jobs-p2-ca09"
+status: { review: published, completeness: 2, generated_by: "Cursor (grok-4.7)" }

@@ -6,5 +6,11 @@ summary:
 wings: [people]
 gender: male
 sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 1", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
+provenance: { layer: own-research, source: "al-Tabari, Tarikh (Abu al-Fadl edition) and al-Baladhuri, Futuh al-Buldan, already cited on this record", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 1", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
 status: { review: draft, completeness: 3, generated_by: "Claude (Haiku 5.5); cites juz'/page of the scan" }
+occupations:
+  - job: job/amil
+    kind: episodic
+    status: historical
+    note: "The ÂMİL entry says Umar sent him to Basra as amil of the land tax and of zakat."
+    sources: [source/tdv-amil]

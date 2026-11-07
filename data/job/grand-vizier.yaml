@@ -1,0 +1,43 @@
+id: job/grand-vizier
+class: job
+label: { ar: "الصدر الأعظم", en: "Grand vizier", ur: "صدر اعظم" }
+names:
+  - { value: "وزير أعظم", kind: alternate }
+  - { value: "sadrazam", kind: latinized, lang: tr }
+summary:
+  ar: "الصدر الأعظم هو نائب السلطان في الدولة العثمانية، ورأس الوزراء والأمراء. بدأ استمراراً لوزارة السلاجقة، وثبت لقبه وصلاحياته في قانون محمد الفاتح، فكان وكيلاً مطلقاً في أمور الدين والدولة. يُعيَّن بتسليم الختم الهمايوني ويُعزل باسترداده. استقال آخر صدر أعظم، أحمد توفيق باشا، في 4 نوفمبر 1922، وتولى العمل رئيس وزراء حكومة أنقرة."
+  en: "The grand vizier was the sultan's deputy in the Ottoman state, and the head of the viziers and the commanders. The office continued the Seljuk vizierate. Mehmed II's law fixed its title and powers: the holder was the absolute deputy in the affairs of religion and of the state. He was appointed when the imperial seal was given to him, and dismissed when it was taken back. The last grand vizier, Ahmed Tevfik Pasha, resigned on 4 November 1922, and the prime minister of the Ankara government took up the work."
+  ur: "صدر اعظم عثمانی ریاست میں سلطان کا نائب اور وزراء و امرا کا سربراہ تھا۔ یہ منصب سلجوقی وزارت کی جاری شکل میں شروع ہوا۔ محمد فاتح کے قانون نے اس کا لقب اور اختیار طے کیا: وہ دین و ریاست کے معاملات میں مطلق وکیل تھا۔ شاہی مہر ملنے سے تقرری ہوتی تھی اور مہر واپس لینے سے معزولی۔ آخری صدر اعظم احمد توفیق پاشا نے 4 نومبر 1922 کو استعفیٰ دیا، اور انقرہ کی حکومت کے وزیراعظم نے یہ کام سنبھالا۔"
+domain: court-administration
+kind: office
+hirfa: false
+broader: job/vizier
+era:
+  origins: medieval
+  first_attested:
+    edtf: "1387"
+    precision: year
+    status: historical
+    note: "The entry gives 1387 as the death of Çandarlı Kara Halil Hayreddin Pasha, whom it describes as having acted as a kind of chief vizier under Murad I. It does not date his appointment. The title vezir-i azam is stated as such in Mehmed II's organisation code, which the entry does not date. The word sadrazam becomes common from the second half of the sixteenth century."
+    sources: [source/tdv-sadrazam]
+  status_today: replaced
+places:
+  - place: place/istanbul
+    note: "The grand vizier first worked inside the palace, in the place called Kubbealtı. The office was later called Paşakapısı, the Sadaret Dairesi, and last the Sublime Porte."
+    sources: [source/tdv-sadrazam]
+regions: [anatolia-balkans]
+organization:
+  organized: court-office
+training:
+  mode: mixed
+  certification: "Until the conquest of Istanbul the holders usually came from the learned career, and for more than seventy years from the Çandarlı family, through the kazaskerlik. From Mehmed II until the nineteenth century they usually came from the slave household's military and administrative career, with some exceptions from the scribal service. After Karlowitz in 1699 more came from the bureaucracy. After the Tanzimat they came from the civil service, often after several ministries and foreign posts. The entry describes no single examination."
+wings: [people]
+periods: [period/gunpowder-empires, period/colonial-era, period/modern-era, period/contemporary-era]
+sources: [source/tdv-sadrazam]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'SADRAZAM' (Mehmet İpşirli, vol. 35, Istanbul 2008, pp. 414–419), web edition read in full on 7 Nov 2026. Holders are limited to people the entry names as grand viziers who already have person records."
+  generated_by: "Cursor"
+  model: "grok-4.7"
+  run: "jobs-p2-ca10"
+status: { review: published, completeness: 2, generated_by: "Cursor (grok-4.7)" }
