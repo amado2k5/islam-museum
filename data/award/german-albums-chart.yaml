@@ -1,0 +1,26 @@
+id: award/german-albums-chart
+class: award
+kind: chart
+label: { ar: "قائمة الألبومات الألمانية ⁦(جي إف كاي)⁩", en: "German Albums Chart (GfK Entertainment)", ur: "جرمن البمز چارٹ" }
+summary:
+  ar: "قائمة أفضل مئة ألبوم أسبوعيا في ألمانيا، وهي القائمة الرسمية التي تجمعها جي إف كاي إنترتينمنت لمصلحة الاتحاد الألماني لصناعة الموسيقى؛ يسجّل المتحف أعلى مرتبة بلغها ألبوم، مثل المرتبة الثانية لألبوم يوسف إسلام «An Other Cup» سنة 2006."
+  en: "Germany's official weekly Top 100 albums chart, compiled by GfK Entertainment on behalf of the Bundesverband Musikindustrie; the museum records an album's peak, such as number 2 for Yusuf's An Other Cup in 2006."
+  ur: "جرمنی کا سرکاری ہفتہ وار ٹاپ 100 البمز چارٹ، جو جی ایف کے انٹرٹینمنٹ مرتب کرتا ہے؛ جیسے 2006 میں یوسف اسلام کے «این ادر کپ» کا دوسرا نمبر۔"
+wings: [today]
+themes: [music]
+regions: [andalus-europe]
+fields: [music]
+country: de
+recurs: weekly
+footprint:
+  wikipedia: { languages: [ar, ca, da, en, es, fa, he, hy, id, it, ka, kk, ko, lt, pl, ru, uk, uz, vi, zh], checked: "2026-11-07", sources: [source/wikidata-gfk-entertainment-charts] }
+  wikidata: "Q64305519"
+external_ids: { wikidata: "Q64305519" }
+sources: [source/wikipedia-gfk-entertainment-charts-en, source/wikidata-gfk-entertainment-charts, source/wikipedia-an-other-cup-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'GfK Entertainment charts' (revision 1363504401 of 10 July 2026) and Wikidata Q64305519 (revision 2538563338), read in Chrome on the founder's Mac on 7 November 2026; peaks from the chart tables of the album articles, each row citing the chart's archive"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b06
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5)" }

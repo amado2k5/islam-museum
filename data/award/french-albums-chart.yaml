@@ -1,0 +1,26 @@
+id: award/french-albums-chart
+class: award
+kind: chart
+label: { ar: "قائمة الألبومات الفرنسية ⁦(SNEP)⁩", en: "French Albums Chart (SNEP)", ur: "فرانسیسی البمز چارٹ" }
+summary:
+  ar: "القائمة الأسبوعية الرسمية لأكثر الألبومات مبيعا في فرنسا، يعدها الاتحاد الوطني للنشر الفونوغرافي الذي تأسس سنة 1922 ويمنح أيضا شهادات المبيعات؛ يسجّل المتحف أعلى مرتبة بلغها ألبوم، مثل المرتبة الرابعة والثلاثين لألبوم «مصر» ليوسو ندور سنة 2004."
+  en: "France's official weekly chart of top-selling albums, compiled by SNEP, the record industry's organisation founded in 1922, which also issues sales certifications; the museum records an album's peak, such as number 34 for Youssou N'Dour's Egypt in 2004."
+  ur: "فرانس میں سب سے زیادہ بکنے والے البمز کا سرکاری ہفتہ وار چارٹ، جو 1922 میں قائم ادارہ ایس این ای پی مرتب کرتا ہے؛ جیسے 2004 میں یوسو اندور کے «اِجپٹ» کا چونتیسواں نمبر۔"
+wings: [today]
+themes: [music]
+regions: [andalus-europe]
+fields: [music]
+country: fr
+recurs: weekly
+footprint:
+  wikipedia: { languages: [ar, az, ca, cs, da, de, en, es, fa, fi, fr, he, hu, hy, id, it, ja, ka, kk, ko, lt, mk, ms, nl, nn, no, pl, pt, ro, ru, sk, sv, tr, uk, uz, vi, zh], checked: "2026-11-07", sources: [source/wikidata-snep] }
+  wikidata: "Q831044"
+external_ids: { wikidata: "Q831044" }
+sources: [source/wikipedia-snep-en, source/wikidata-snep, source/wikipedia-egypt-youssou-ndour-en, source/wikipedia-an-other-cup-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'SNEP' (revision 1383730198 of 4 November 2026) and Wikidata Q831044 (revision 2541728933; the organisation's item, used for the footprint), read in Chrome on the founder's Mac on 7 November 2026; peaks from the album articles' chart tables"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b06
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5)" }

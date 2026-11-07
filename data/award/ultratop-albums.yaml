@@ -1,0 +1,27 @@
+id: award/ultratop-albums
+class: award
+kind: chart
+label: { ar: "قوائم ألبومات أولتراتوب ⁦(بلجيكا)⁩", en: "Ultratop Albums (Belgium)", ur: "الٹراٹاپ البمز ⁦(بیلجیم)⁩" }
+summary:
+  ar: "القوائم الرسمية للألبومات في بلجيكا، يصدرها منذ 1995 أولتراتوب، الجهة غير الربحية التي أنشأتها رابطة الترفيه البلجيكية، في قائمتين متوازيتين لفلاندرز ووالونيا؛ يسجّل المتحف أعلى مرتبة بلغها ألبوم في كل منهما."
+  en: "Belgium's official albums charts, published since 1995 by Ultratop, a non-profit body created by the Belgian Entertainment Association, in parallel charts for Flanders and Wallonia; the museum records an album's peak in each."
+  ur: "بیلجیم کے سرکاری البمز چارٹس، جو 1995 سے الٹراٹاپ فلانڈرز اور والونیا کے لیے دو متوازی فہرستوں میں شائع کرتا ہے۔"
+wings: [today]
+themes: [music]
+regions: [andalus-europe]
+fields: [music]
+country: be
+recurs: weekly
+since: { edtf: "1995", calendar: gregorian, precision: year, sources: [source/wikipedia-ultratop-en, source/wikidata-ultratop] }
+footprint:
+  wikipedia: { languages: [ar, ca, ckb, cs, da, de, en, es, fa, fr, he, hr, hu, hy, id, is, it, ja, ka, kk, ko, lt, mk, nl, nn, no, pl, pt, ro, ru, sk, sv, tr, uk, uz, vi, zh], checked: "2026-11-07", sources: [source/wikidata-ultratop] }
+  wikidata: "Q658870"
+external_ids: { wikidata: "Q658870" }
+sources: [source/wikipedia-ultratop-en, source/wikidata-ultratop, source/wikipedia-egypt-youssou-ndour-en, source/wikipedia-an-other-cup-en, source/wikipedia-thank-you-allah-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ultratop' (revision 1383349988) and Wikidata Q658870 (revision 2555296528), read in Chrome on the founder's Mac on 7 November 2026; peaks from the chart tables of the album articles, each row citing the chart's archive"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b07
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5)" }

@@ -1,0 +1,27 @@
+id: award/official-finnish-charts
+class: award
+kind: chart
+label: { ar: "القوائم الرسمية الفنلندية", en: "Official Finnish Charts", ur: "فن لینڈ کے سرکاری چارٹس" }
+summary:
+  ar: "القوائم الوطنية الرسمية في فنلندا، يعدها وينشرها اتحاد منتجي الموسيقى الفنلندي التابع للاتحاد الدولي لصناعة التسجيلات؛ بلغ فيها ألبوم يوسو ندور «مصر» المرتبة الخامسة والثلاثين سنة 2004."
+  en: "Finland's official national record charts, compiled and published by Musiikkituottajat – IFPI Finland; Youssou N'Dour's Egypt peaked at number 35 there in 2004."
+  ur: "فن لینڈ کے سرکاری قومی چارٹس، جو آئی ایف پی آئی فن لینڈ مرتب کرتا ہے؛ 2004 میں «اِجپٹ» پینتیسویں نمبر تک پہنچا۔"
+wings: [today]
+themes: [music]
+regions: [andalus-europe]
+fields: [music]
+country: fi
+recurs: weekly
+since: { edtf: "1991", calendar: gregorian, precision: year, sources: [source/wikidata-official-finnish-charts] }
+footprint:
+  wikipedia: { languages: [ar, az, be, be-tarask, cs, da, de, en, es, fa, fi, fr, he, hy, id, is, it, ja, ka, kk, ko, lt, ms, nl, no, pt, ro, ru, sk, sv, tr, uk, vi, zh], checked: "2026-11-07", sources: [source/wikidata-official-finnish-charts] }
+  wikidata: "Q643445"
+external_ids: { wikidata: "Q643445" }
+sources: [source/wikipedia-official-finnish-charts-en, source/wikidata-official-finnish-charts, source/wikipedia-egypt-youssou-ndour-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Official Finnish Charts' (revision 1322885567) and Wikidata Q643445 (revision 2541733893; its be-x-old sitelink recorded as be-tarask), read in Chrome on the founder's Mac on 7 November 2026; peaks from the chart tables of the album articles, each row citing the chart's archive"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b07
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5)" }

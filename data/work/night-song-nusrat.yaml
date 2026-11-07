@@ -1,0 +1,45 @@
+id: work/night-song-nusrat
+class: work
+kind: album
+label: { ar: "Night Song ⁦(أغنية الليل)⁩", en: "Night Song (Nusrat Fateh Ali Khan album)", ur: "نائٹ سونگ" }
+summary:
+  ar: "ألبوم مشترك لنصرت فتح علي خان ومايكل بروك، سُجّل في استوديوهات ريل وورلد سنة 1995 وصدر في 20 فبراير 1996، وهو آخر ألبوم له عن الشركة في حياته؛ يجمع صوت القوالي بإنتاج بروك المحيطي وبموسيقيين سنغاليين، وبلغ المرتبة الرابعة في قائمة بيلبورد للموسيقى العالمية، ورُشّح لجائزة غرامي لأفضل ألبوم موسيقى عالمية سنة 1997."
+  en: "A joint album of Nusrat Fateh Ali Khan and Michael Brook, recorded at Real World Studios in 1995 and released on 20 February 1996, his last album on the label in his lifetime; it joins qawwali vocals to Brook's ambient production and Senegalese musicians, reached number 4 on Billboard's world albums chart and was nominated for the 1997 Grammy for Best World Music Album."
+  ur: "نصرت فتح علی خان اور مائیکل بروک کا مشترکہ البم، جو 1995 میں ریئل ورلڈ اسٹوڈیوز میں ریکارڈ ہوا اور 20 فروری 1996 کو جاری ہوا؛ یہ بل بورڈ کے عالمی البمز میں چوتھے نمبر تک پہنچا اور 1997 کے گریمی کے لیے نامزد ہوا۔"
+wings: [today, words]
+themes: [music, spirituality-and-sufism]
+regions: [south-asia, andalus-europe]
+genre: [qawwali, sufi]
+composed: { edtf: "1996-02-20", hijri: "1416", calendar: gregorian, precision: day, derived: true, note: "Release date in the English article; recorded 1995. The Hijri year is converter-derived.", sources: [source/wikipedia-night-song-nusrat-en, source/wikidata-night-song-nusrat] }
+languages: [ur, pa]
+publisher: listing/real-world-records
+duration: 2881
+tracks:
+  - { n: 1, title: { en: "My Heart, My Life" }, duration_s: 330, performers: [person/nusrat-fatih-ali-khan], note: "with Kauwding Cissokho on kora", sources: [source/wikipedia-night-song-nusrat-en] }
+  - { n: 2, title: { en: "Intoxicated" }, duration_s: 454, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-night-song-nusrat-en] }
+  - { n: 3, title: { en: "Lament" }, duration_s: 314, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-night-song-nusrat-en] }
+  - { n: 4, title: { en: "My Comfort Remains" }, duration_s: 399, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-night-song-nusrat-en] }
+  - { n: 5, title: { en: "Longing" }, duration_s: 335, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-night-song-nusrat-en] }
+  - { n: 6, title: { en: "Sweet Pain" }, duration_s: 388, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-night-song-nusrat-en] }
+  - { n: 7, title: { en: "Night Song" }, duration_s: 287, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-night-song-nusrat-en] }
+  - { n: 8, title: { en: "Crest" }, duration_s: 374, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-night-song-nusrat-en] }
+honours:
+  - { award: award/grammy-awards, category: "Best World Music Album", result: nominated, year: 1997, note: "39th Annual Grammy Awards; the award went to the Chieftains' Santiago", sources: [source/wikipedia-night-song-nusrat-en] }
+  - { award: award/billboard-world-albums, result: ranked, position: 4, year: 1996, sources: [source/wikipedia-night-song-nusrat-en] }
+  - { award: award/uk-albums-chart, result: ranked, position: 65, year: 1996, sources: [source/wikipedia-night-song-nusrat-en] }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-07", sources: [source/wikidata-night-song-nusrat] }
+  wikidata: "Q17012470"
+relations:
+  - { type: performed_by, target: person/nusrat-fatih-ali-khan, sources: [source/wikipedia-night-song-nusrat-en, source/wikidata-night-song-nusrat] }
+  - { type: composed_by, target: person/nusrat-fatih-ali-khan, note: "all tracks by Khan and Michael Brook", sources: [source/wikipedia-night-song-nusrat-en] }
+  - { type: published_by, target: listing/real-world-records, sources: [source/wikipedia-night-song-nusrat-en] }
+external_ids: { wikidata: "Q17012470" }
+sources: [source/wikipedia-night-song-nusrat-en, source/wikidata-night-song-nusrat]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Night Song (Nusrat Fateh Ali Khan album)' (revision 1375773464 of 20 September 2026, citing Sound on Sound, Billboard, the Los Angeles Times, Mojo, AllMusic and others) and Wikidata Q17012470 (revision 2509478732), read in Chrome on the founder's Mac on 7 November 2026. No lyric lines are quoted"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b08
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

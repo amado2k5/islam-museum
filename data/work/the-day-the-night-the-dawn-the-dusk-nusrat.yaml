@@ -1,0 +1,34 @@
+id: work/the-day-the-night-the-dawn-the-dusk-nusrat
+class: work
+kind: album
+label: { ar: "The Day, the Night, the Dawn, the Dusk ⁦(النهار والليل والفجر والغسق)⁩", en: "The Day, the Night, the Dawn, the Dusk", ur: "دی ڈے، دی نائٹ، دی ڈان، دی ڈسک" }
+summary:
+  ar: "ألبوم قوالي لنصرت فتح علي خان صدر عن شاناشي بثلاث مقطوعات طويلة من تأليفه، منها «Halka Halka Suroor» و«Mera Piya Ghar Aaya»؛ تؤرخه المقالة بسنة 1991 وويكي بيانات بسنة 1990، وكتبت عنه واشنطن بوست أن كلماته تجمع التصوف وشؤون القلب."
+  en: "A qawwali album by Nusrat Fateh Ali Khan on Shanachie, with three long pieces of his own, among them 'Halka Halka Suroor' and 'Mera Piya Ghar Aaya'; the article dates it 1991 and Wikidata 1990, and The Washington Post wrote that its lyrics embrace both Sufi mysticism and matters of the heart."
+  ur: "نصرت فتح علی خان کا قوالی البم، شاناشی سے تین طویل کلاموں کے ساتھ، جن میں «ہلکا ہلکا سرور» اور «میرا پیا گھر آیا» شامل ہیں؛ مضمون اسے 1991 اور ویکی ڈیٹا 1990 کا بتاتا ہے۔"
+wings: [today, words]
+themes: [music, spirituality-and-sufism]
+regions: [south-asia, andalus-europe]
+genre: [qawwali]
+composed: { edtf: "1991", hijri: "1411~", calendar: gregorian, precision: year, status: debated, derived: true, note: "1991 in the English article; 1990 on Wikidata. The Hijri year is converter-derived and approximate.", sources: [source/wikipedia-the-day-the-night-the-dawn-the-dusk-en, source/wikidata-the-day-the-night-the-dawn-the-dusk] }
+languages: [ur, pa]
+duration: 3254
+tracks:
+  - { n: 1, title: { en: "Halka Halka Suroor" }, duration_s: 1123, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-the-day-the-night-the-dawn-the-dusk-en] }
+  - { n: 2, title: { en: "Mera Piya Ghar Aaya" }, duration_s: 479, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-the-day-the-night-the-dawn-the-dusk-en] }
+  - { n: 3, title: { en: "Main Jana Jogi De Naal" }, duration_s: 1617, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-the-day-the-night-the-dawn-the-dusk-en] }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-07", sources: [source/wikidata-the-day-the-night-the-dawn-the-dusk] }
+  wikidata: "Q16247643"
+relations:
+  - { type: performed_by, target: person/nusrat-fatih-ali-khan, sources: [source/wikipedia-the-day-the-night-the-dawn-the-dusk-en, source/wikidata-the-day-the-night-the-dawn-the-dusk] }
+  - { type: composed_by, target: person/nusrat-fatih-ali-khan, sources: [source/wikipedia-the-day-the-night-the-dawn-the-dusk-en] }
+external_ids: { wikidata: "Q16247643" }
+sources: [source/wikipedia-the-day-the-night-the-dawn-the-dusk-en, source/wikidata-the-day-the-night-the-dawn-the-dusk]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'The Day, the Night, the Dawn, the Dusk' (revision 1369394024 of 14 August 2026, citing Billboard, the Spin Alternative Record Guide and The Washington Post) and Wikidata Q16247643 (revision 2228626148), read in Chrome on the founder's Mac on 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b08
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
