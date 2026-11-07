@@ -11,6 +11,9 @@ translators: []
 ## معاصر عالمی موسیقی کا زمرہ
 بہترین عالمی موسیقی البم کا زمرہ 1992 میں شروع ہوا، 2004 میں روایتی اور معاصر میں تقسیم ہوا اور 2012 سے پھر ایک ہو گیا۔ {cite:wikipedia-grammy-best-contemporary-world-music-album-en} معاصر زمرے میں [[person/youssou-ndour|یوسو اندور]] کے البم [[work/egypt-youssou-ndour|«اِجپٹ»]] نے 2005 میں ایوارڈ جیتا۔ {cite:wikipedia-grammy-best-contemporary-world-music-album-en} {cite:wikipedia-egypt-youssou-ndour-en}
 
+## دیگر نامزدگیاں
+1997 کی انتالیسویں تقریب میں نصرت فتح علی خان اور مائیکل بروک کا [[work/night-song-nusrat|«نائٹ سونگ»]] بہترین عالمی موسیقی البم کے لیے نامزد ہوا۔ {cite:wikipedia-night-song-nusrat-en}
+
 ## مراجع
 - انگریزی ویکیپیڈیا، گریمی زمرے کا مضمون، نظرِ ثانی 1336339650۔ {cite:wikipedia-grammy-best-contemporary-world-music-album-en}
 - ویکی ڈیٹا Q41254۔ {cite:wikidata-grammy-awards}
