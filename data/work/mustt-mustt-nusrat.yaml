@@ -1,0 +1,45 @@
+id: work/mustt-mustt-nusrat
+class: work
+kind: album
+label: { ar: "مست مست ⁦(Mustt Mustt)⁩", en: "Mustt Mustt", ur: "مست مست" }
+summary:
+  ar: "أول ألبوم يجمع القوالي بالموسيقى الغربية بين المغني الباكستاني نصرت فتح علي خان وعازف الغيتار والمنتج الكندي مايكل بروك، باقتراح من بيتر غابرييل، صدر عن ريل وورلد في 12 نوفمبر 1990؛ دخل ريمكس فرقة ماسيف أتاك لأغنيته الرئيسة القائمة البريطانية، فكانت أول أغنية بالأردية فيها، وتقول الشركة إنه باع أكثر من ستمئة ألف نسخة خارج شبه القارة."
+  en: "The first qawwali fusion album of the Pakistani singer Nusrat Fateh Ali Khan with the Canadian guitarist and producer Michael Brook, at Peter Gabriel's suggestion, released by Real World on 12 November 1990; Massive Attack's remix of the title song became the first Urdu song to reach the British charts, and the label claims sales of over 600,000 copies outside the Indian subcontinent."
+  ur: "پاکستانی گلوکار نصرت فتح علی خان اور کینیڈین گٹارسٹ مائیکل بروک کا پیٹر گیبریل کی تجویز پر پہلا قوالی فیوژن البم، 12 نومبر 1990 کو ریئل ورلڈ سے جاری ہوا؛ ماسیو اٹیک کا ریمکس برطانوی چارٹ میں پہنچنے والا پہلا اردو گیت بنا۔"
+wings: [today, words]
+themes: [music, spirituality-and-sufism]
+regions: [south-asia, andalus-europe]
+genre: [qawwali, sufi]
+composed: { edtf: "1990-11-12", hijri: "1411", calendar: gregorian, precision: day, derived: true, note: "Release date in the infobox; Wikidata gives 1990. The Hijri year is converter-derived.", sources: [source/wikipedia-mustt-mustt-en, source/wikidata-mustt-mustt] }
+languages: [ur, pa]
+publisher: listing/real-world-records
+duration: 2983
+tracks:
+  - { n: 1, title: { en: "Mustt Mustt (Lost in His Work)" }, duration_s: 315, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-mustt-mustt-en] }
+  - { n: 2, title: { en: "Nothing Without You (Tery Bina)" }, duration_s: 304, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-mustt-mustt-en] }
+  - { n: 3, title: { en: "Tracery" }, duration_s: 288, performers: [person/nusrat-fatih-ali-khan], note: "by Michael Brook", sources: [source/wikipedia-mustt-mustt-en] }
+  - { n: 4, title: { en: "The Game" }, duration_s: 299, performers: [person/nusrat-fatih-ali-khan], note: "Robert Ahwai, Brook and Khan", sources: [source/wikipedia-mustt-mustt-en] }
+  - { n: 5, title: { en: "Taa Deem" }, duration_s: 287, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-mustt-mustt-en] }
+  - { n: 6, title: { en: "Sea of Vapours" }, duration_s: 235, performers: [person/nusrat-fatih-ali-khan], note: "by Brook", sources: [source/wikipedia-mustt-mustt-en] }
+  - { n: 7, title: { en: "Fault Lines" }, duration_s: 253, performers: [person/nusrat-fatih-ali-khan], note: "by Brook", sources: [source/wikipedia-mustt-mustt-en] }
+  - { n: 8, title: { en: "Tana Dery Na" }, duration_s: 263, performers: [person/nusrat-fatih-ali-khan], note: "Brook and Khan", sources: [source/wikipedia-mustt-mustt-en] }
+  - { n: 9, title: { en: "Shadow" }, duration_s: 184, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-mustt-mustt-en] }
+  - { n: 10, title: { en: "Avenue" }, duration_s: 291, performers: [person/nusrat-fatih-ali-khan], note: "by Brook", sources: [source/wikipedia-mustt-mustt-en] }
+  - { n: 11, title: { en: "Mustt Mustt (Massive Attack remix)" }, duration_s: 264, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-mustt-mustt-en] }
+honours:
+  - { award: award/billboard-world-albums, result: ranked, position: 14, year: 1991, sources: [source/wikipedia-mustt-mustt-en] }
+footprint:
+  wikipedia: { languages: [en, nl, ur], checked: "2026-11-07", sources: [source/wikidata-mustt-mustt] }
+  wikidata: "Q6943522"
+relations:
+  - { type: performed_by, target: person/nusrat-fatih-ali-khan, sources: [source/wikipedia-mustt-mustt-en, source/wikidata-mustt-mustt] }
+  - { type: published_by, target: listing/real-world-records, sources: [source/wikipedia-mustt-mustt-en] }
+external_ids: { wikidata: "Q6943522" }
+sources: [source/wikipedia-mustt-mustt-en, source/wikidata-mustt-mustt]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mustt Mustt' (revision 1369390245 of 14 August 2026, citing Q, Michael Brook's site, NME, Billboard, The Austin Chronicle, The Observer and Entertainment Weekly) and Wikidata Q6943522 (revision 2407306067), read in Chrome on the founder's Mac on 7 November 2026; the 600,000 sales figure is the label's claim, attributed"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b08
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
