@@ -114,33 +114,36 @@ Move 1 (Companions as a queryable set): one `member_of → group/sahaba` edge pe
 - [x] person/hamza-ibn-amr-al-aslami
 - [x] person/harami-ibn-abdullah
 
-## Remaining published records (107)
+## Batch 05 (25 entities)
 
-- [ ] person/haritha-ibn-al-numan
-- [ ] person/hasana-umm-shurahbil
-- [ ] person/hassan-ibn-milla
-- [ ] person/hatib-ibn-abi-baltaa
-- [ ] person/hatib-ibn-al-harith-jumahi
-- [ ] person/hattab-ibn-al-harith
-- [ ] person/hazzal-al-aslami
-- [ ] person/hisham-ibn-abi-hudhayfa
-- [ ] person/husayl-ibn-jabir-al-yaman
-- [ ] person/huwaytib-ibn-abd-al-uzza
-- [ ] person/irbad-ibn-sariya-al-fazari
-- [ ] person/iyad-ibn-zuhayr
-- [ ] person/jabbar-ibn-sakhr
-- [ ] person/jabir-ibn-sufyan
-- [ ] person/jafar-ibn-abi-talib
-- [ ] person/jahm-ibn-qays
-- [ ] person/julaybib
-- [ ] person/junada-ibn-sufyan
-- [ ] person/jundab-ibn-makith
-- [ ] person/kaab-ibn-malik
-- [ ] person/kabsha-bint-rafi
-- [ ] person/khalid-ibn-al-walid
-- [ ] person/khalid-ibn-said-ibn-al-as
-- [ ] person/khirash-ibn-umayya
-- [ ] person/khunays-ibn-khalid
+- [x] person/haritha-ibn-al-numan
+- [x] person/hasana-umm-shurahbil
+- [x] person/hassan-ibn-milla
+- [x] person/hatib-ibn-abi-baltaa
+- [x] person/hatib-ibn-al-harith-jumahi
+- [x] person/hattab-ibn-al-harith
+- [x] person/hazzal-al-aslami
+- [x] person/hisham-ibn-abi-hudhayfa
+- [x] person/husayl-ibn-jabir-al-yaman
+- [x] person/huwaytib-ibn-abd-al-uzza
+- [x] person/irbad-ibn-sariya-al-fazari
+- [x] person/iyad-ibn-zuhayr
+- [x] person/jabbar-ibn-sakhr
+- [x] person/jabir-ibn-sufyan
+- [x] person/jafar-ibn-abi-talib
+- [x] person/jahm-ibn-qays
+- [x] person/julaybib
+- [x] person/junada-ibn-sufyan
+- [x] person/jundab-ibn-makith
+- [x] person/kaab-ibn-malik
+- [x] person/kabsha-bint-rafi
+- [x] person/khalid-ibn-al-walid
+- [x] person/khalid-ibn-said-ibn-al-as
+- [x] person/khirash-ibn-umayya
+- [x] person/khunays-ibn-khalid
+
+## Remaining published records (82)
+
 - [ ] person/khuraym-ibn-fatik
 - [ ] person/khuwayla-bint-hakim
 - [ ] person/khuzayma-ibn-jahm

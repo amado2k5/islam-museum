@@ -44,6 +44,7 @@ relations:
   - { type: participated_in, target: event/battle-of-yamama, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: participated_in, target: event/battle-of-yarmuk, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: persecuted, target: person/malik-ibn-nuwayra, note: "The affair of Malik ibn Nuwayra — killed by Khalid's troops in the Ridda wars — is contested in the sources.", sources: [source/tabari-donner-1993] }
+  - { type: member_of, target: group/sahaba, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-sad-tabaqat-bewley] }
 issue: { ar: "كيف يُقدَّر خالد بن الوليد، وكيف تُروى واقعة مالك بن نويرة؟", en: "How is Khalid ibn al-Walid assessed, and how is the Malik ibn Nuwayra episode told?" }
 perspectives:
   - tradition: sunni
