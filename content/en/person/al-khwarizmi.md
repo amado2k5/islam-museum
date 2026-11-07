@@ -24,3 +24,12 @@ Muhammad ibn Musa al-Khwarizmi was a mathematician and astronomer who lived in B
 
 ## For Scholars
 Muhammad ibn Musa al-Khwarizmi (c. 164–232 AH / 781–847 CE), an astronomer, mathematician, and geographer at the Abbasid House of Wisdom in Baghdad. Regarded as the founder of algebra through his foundational text 'The Compendious Book on Calculation by Completion and Balancing', he provided practical formulas for inheritance, commerce, and surveying. His treatise on Hindu-Arabic numerals introduced the decimal positional system and zero to the West, and his Latinized name gave rise to the term 'algorithm'.
+
+## The Sindhind tables
+Al-Khwarizmi's astronomical work known as the Sindhind includes a calendar and tables for positions of the Sun, Moon, and planets, alongside topics such as sines, tangents, spherical astronomy, and eclipses {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}. The modern biography says the work drew on Indian astronomy, so the museum record describes his contribution as an adaptation rather than the creation of the table tradition from nothing {cite:khwarizmi-mactutor Astronomy paragraph}.
+
+## Attribution and transmission
+The record [[invention/khwarizmi-sindhind-tables|Al-Khwarizmi's Sindhind tables]] credits him as an improver, not as the author of every table in the zij {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}. The biography reports two lost Arabic versions, a tenth-century Andalusian revision and Latin translation of the shorter version, and a surviving Latin version of the longer one {cite:khwarizmi-mactutor Astronomy paragraph}. These witnesses do not by themselves establish the Arabic originals' arrangement or a direct line to every later author {cite:tdv-harizmi pp. 224–227}.
+
+## Faith and frame
+The person record bases an individual Muslim identification on the algebra preface attributed to the author's own words, rather than his name or occupation {cite:khwarizmi-jabr-cairo-1939 scan pp. 29–30}. The museum presents him within its Sunni default frame without assigning a personal legal school that the cited basis does not establish {cite:khwarizmi-jabr-cairo-1939 scan pp. 29–30}.

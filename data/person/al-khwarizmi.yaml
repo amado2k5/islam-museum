@@ -22,6 +22,11 @@ inventions:
     place: place/baghdad
     note: "Wrote the book on Indian reckoning through which the Indian numerals and the decimal system entered the Islamic world; its Arabic original is lost and its twelfth-century Latin translation, opening 'Dixit Algorizmi', made his Latinized name the words algorism and algorithm."
     sources: [source/tdv-harizmi, source/khwarizmi-jabr-cairo-1939]
+  - invention: invention/khwarizmi-sindhind-tables
+    role: improver
+    place: place/baghdad
+    note: "Adapted Indian astronomical material in the Sindhind zij; both Arabic versions are lost, so the exact original table arrangement remains uncertain."
+    sources: [source/tdv-harizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-mactutor]
 born: { edtf: "0780", hijri: "0164", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "0850", hijri: "0235", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 themes: [mathematics, astronomy-and-timekeeping, geography-and-cartography]
@@ -46,7 +51,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium); section on the Cairo 1939 introduction added by Claude Code (OCR-harvest worker J)"
   model: "SWE-2 Medium; claude-opus-5-5"
   run: "prose-fill-persons-batch34; ocr-harvest-2026-11-04"
-sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-jabr-rosen-1831, source/muqaddima-ibn-khaldun, source/tdv-cebir]
+  extensions:
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b100, source: "D-143; appended the sourced Sindhind-tables improvement tie and three-language prose. Existing faith basis is retained, not newly asserted." }
+sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-jabr-rosen-1831, source/muqaddima-ibn-khaldun, source/tdv-cebir, source/khwarizmi-mactutor]
 education:
   did_you_know:
     ar: "من كتاب الخوارزمي في الجبر جاءت كلمة algebra، ومن اسمه اللاتيني Algoritmi جاءت كلمة algorithm."
