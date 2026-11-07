@@ -1,0 +1,28 @@
+---
+id: concept/tahlil-al-munazzamat
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+«طريقة 1442» نموذج يعلّمه [[person/tariq-al-suwaidan|طارق السويدان]] في الدرس السابع من [[work/leadership-development-academy-1-program|أكاديمية إعداد القادة]]، لتقويم أي منظمة أو تأسيسها. ويصفها بأنها «اختراع سويداني» استخلصه من العمل الطويل في عشرات المنظمات، ويقول إنه لا مراجع لها، وإنه لم يكتبها بعد في أي كتاب. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:13:30} وسمّاها 1442 لأنها مرسومة كتشكيلة مباراة كرة قدم: عنصر في الأعلى، ثم صفّان من أربعة، ثم اثنان في الأسفل، فهي أحد عشر عنصراً. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:14:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:15:00} ويقصد بالمنظمة كل مجموعة منظمة: شركة، أو جمعية، أو حزباً، أو وزارة، أو دولة. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:15:00} وفي الدرس نفسه يبدأ اختبار [[concept/tahlil-disc|ديسك]] الذي يحلّل الأشخاص لا المنظمات. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:03:00}
+
+## الواحد: التخطيط
+يقف التخطيط وحده في القمة «رقم واحد وبلا منافس». ويقول إنه حين يسأل المنظمات هل خطتها مكتوبة، يجيب تسعون في المئة منها بلا، و«خطة غير مكتوبة لا نعترف بها». {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:19:30} ويربط مدى الخطة الاستراتيجية بحجم المنظمة، ويطلب أهدافاً قابلة للقياس. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:20:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:21:30} انظر [[concept/al-takhtit-al-istratiji|التخطيط الاستراتيجي]].
+
+## الأربعة الأولى: أركان العمل
+يسمّي الصف الأول من الأربعة «أركان العمل»، ويشبّهها بأركان الصلاة وواجباتها وسننها: فإذا تصدّع ركن سقط البناء كله. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:23:30}
+- **القيادة**: أن تُقاد المنظمة لا أن تُدار فقط. ويقول: «القيادة تركز على العلاقات والمستقبل»، والإدارة تركز على النتائج الآن. وينصح بقيادة بلا حقائب منفصلة عن المكتب التنفيذي. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:25:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:27:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:28:30}
+- **الأفراد**: لا يُوظَّف أحد بعد مقابلة واحدة، وتُعدّ الأسئلة مسبقاً. ويُسأل المرشح دائماً لماذا ترك عمله السابق وما عيوبه. ويُوظَّف الناس للأخلاق والقدرة على التحليل وسرعة التعلم. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:31:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:33:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:34:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:36:00} ويقول إن الناس يُوظَّفون لكفاءتهم، لكن خمسة وثمانين في المئة من المفصولين يُفصلون بسبب سلوكهم. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:39:00}
+- **النظام واللوائح**: الهدف منها تقليل الأخطاء لا إلغاؤها، وإلا لما احتيج إلى القيادة. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:43:30}
+- **المنهج**: لا يقصد به الكتاب المقرر، بل الفكرة التي تقوم عليها المنظمة، ويجب أن تكون واضحة صحيحة، مع مخرجاتها ومراحلها. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:44:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:45:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:49:00}
+
+## الأربعة الثانية: أركان التنافس
+الصف الثاني من الأربعة يُبقي المنظمة متقدمة على غيرها. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:50:00}
+- **التدريب**: الحد الأدنى عنده خمس عشرة ساعة تدريب سنوياً لكل موظف صغير، وخمس وأربعون للطبقة الوسطى والعليا، وثلاثة في المئة من ميزانية المصاريف للتدريب. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:52:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:53:00}
+- **التقنية**: وهي مفتوحة لكل البشر. ويضرب لها من التاريخ مثلين: المنجنيق في حصار الطائف، والخندق، وكان نظاماً جديداً على العرب. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:54:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:55:00}
+- **الجودة والخدمة**: يذكر الآيزو والستة سيغما. ويقول إن قناة الرسالة نالت الآيزو في أول ستة أشهر من عملها، وإنها القناة العربية الوحيدة التي نالته. ويلخّص أنظمة الجودة كلها في قانون واحد: «اكتب ما تفعل، وافعل ما تكتب». {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:58:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 01:00:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 01:01:30}
+- **الإبداع**: أن يُسأل كل عام «ما الجديد عندك هذا العام؟»، وأن يُقدَّم كل سنة أمر رئيسي جديد واحد. ويقول إن أكاديمية الإبداع طبّقت ذلك في سنواتها الأولى. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 01:03:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 01:04:00}
+
+## الاثنان: البنية التحتية
+في القاعدة المبنى والمال. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 01:06:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 01:07:00} ويقول إن المنظمات تموت لسببين رئيسيين: أن ينقطع عنها المال، أو أن تُبنى كلها على فرد قائد واحد. ولذلك يُخطَّط للتمويل مع الفكرة نفسها. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 01:08:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 01:08:30} ويختم الدرس بالتوكل على الله بعد بذل أعلى الجهد. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 01:09:00}

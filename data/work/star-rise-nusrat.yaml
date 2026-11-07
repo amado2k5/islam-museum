@@ -1,0 +1,41 @@
+id: work/star-rise-nusrat
+class: work
+kind: album
+label: { ar: "Star Rise ⁦(ريمكسات، 1997)⁩", en: "Star Rise", ur: "اسٹار رائز" }
+summary:
+  ar: "ألبوم ريمكسات من ألبومي نصرت فتح علي خان ومايكل بروك «مست مست» و«Night Song»، صدر عن ريل وورلد سنة 1997 بعد وفاة نصرت في أغسطس من السنة نفسها وأُهدي إلى ذكراه؛ أعاد مزج مقطوعاته فنانون بريطانيون آسيويون منهم تالفين سينغ وأيجن داب فاونديشن ونيتين سوني."
+  en: "A remix album from Nusrat Fateh Ali Khan and Michael Brook's Mustt Mustt and Night Song, released by Real World in 1997 after Khan's death that August and dedicated to his memory; its remixers include Talvin Singh, Asian Dub Foundation and Nitin Sawhney."
+  ur: "نصرت فتح علی خان اور مائیکل بروک کے «مست مست» اور «نائٹ سونگ» کے ریمکسز کا البم، جو اگست 1997 میں نصرت کی وفات کے بعد اسی سال ریئل ورلڈ سے جاری ہوا اور ان کی یاد کے نام کیا گیا۔"
+wings: [today, words]
+themes: [music, spirituality-and-sufism]
+regions: [south-asia, andalus-europe]
+genre: [qawwali]
+composed: { edtf: "1997", hijri: "1418~", calendar: gregorian, precision: year, derived: true, note: "Released later in 1997, after Khan's death in August; Wikidata gives 1997. The Hijri year is converter-derived and approximate.", sources: [source/wikipedia-star-rise-en, source/wikidata-star-rise] }
+languages: [ur, pa]
+publisher: listing/real-world-records
+duration: 3510
+tracks:
+  - { n: 1, title: { en: "Sweet Pain (Joi Remix)" }, duration_s: 377, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-star-rise-en] }
+  - { n: 2, title: { en: "My Heart, My Life (Talvin Singh Remix)" }, duration_s: 483, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-star-rise-en] }
+  - { n: 3, title: { en: "Taa Deem (Asian Dub Foundation Remix)" }, duration_s: 291, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-star-rise-en] }
+  - { n: 4, title: { en: "Shadow (State of Bengal Remix)" }, duration_s: 447, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-star-rise-en] }
+  - { n: 5, title: { en: "Longing (Aki Nawaz Remix)" }, duration_s: 463, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-star-rise-en] }
+  - { n: 6, title: { en: "My Comfort Remains (Black Star Liner Remix)" }, duration_s: 177, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-star-rise-en] }
+  - { n: 7, title: { en: "Tracery (Nitin Sawhney Remix)" }, duration_s: 466, performers: [person/nusrat-fatih-ali-khan], note: "made after Khan's death, the only remix he did not hear", sources: [source/wikipedia-star-rise-en] }
+  - { n: 8, title: { en: "Lament (Earthtribe Remix)" }, duration_s: 435, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-star-rise-en] }
+  - { n: 9, title: { en: "Nothing Without You/Tery Bina (The Dhol Foundation and Fun-Da-Mental Remix)" }, duration_s: 363, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-star-rise-en] }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-07", sources: [source/wikidata-star-rise] }
+  wikidata: "Q17021640"
+relations:
+  - { type: performed_by, target: person/nusrat-fatih-ali-khan, sources: [source/wikipedia-star-rise-en, source/wikidata-star-rise] }
+  - { type: published_by, target: listing/real-world-records, sources: [source/wikipedia-star-rise-en] }
+external_ids: { wikidata: "Q17021640" }
+sources: [source/wikipedia-star-rise-en, source/wikidata-star-rise]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Star Rise' (revision 1369389904 of 14 August 2026, citing Uncut, December 1997, and the liner notes) and Wikidata Q17021640 (revision 2509477004), read in Chrome on the founder's Mac on 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b08
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
