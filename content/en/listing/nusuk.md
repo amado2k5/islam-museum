@@ -31,6 +31,10 @@ The ministry said in September 2025 that the app had passed 30 million downloads
 
 The ministry tied the platform to the fight against Hajj booking fraud: from June 2024 Hajj packages for pilgrims from Europe, the United States and Australia could be booked only through Nusuk, which checks documents and payments. {cite:wikipedia-nusuk-en} During the 2024 Hajj some unregistered pilgrims told Agence France-Presse that they could not reach services because they held no permit through Nusuk. In March 2026 London police warned of fake websites posing as the official booking platform and advised pilgrims to use the Nusuk site and the agents it lists, noting that the platform had reduced some risks of unregulated agents even as fraudsters adapted. {cite:wikipedia-nusuk-en} In South Africa, Nusuk Hajj moved the South African Hajj and Umrah Council from arranging travel to guidance and administrative support. {cite:wikipedia-nusuk-en}
 
+## Honours
+
+Nusuk won the [[award/world-summit-award|World Summit Award]] in 2024 in the Culture & Heritage category for Saudi Arabia, as the award's winners page shows; the page names as its producers Abdulaziz AlMathami, Ameenah Naytah, Abdulrahman Shams and Ahmed AlMaiman. {cite:wsa-winner-nusuk-2024}
+
 ## Today
 
 The platform is active at nusuk.sa and in the Apple and Google stores. It has Wikipedia articles in Arabic, English, Urdu and Indonesian, spread over two Wikidata items. {cite:wikidata-nusuk}
@@ -41,3 +45,4 @@ The platform is active at nusuk.sa and in the Apple and Google stores. It has Wi
 - Arabic Wikipedia, «منصة نسك», revision 74490193. {cite:wikipedia-nusuk-platform-ar}
 - Wikidata Q139822647 and Q114516279. {cite:wikidata-nusuk}
 - Google Play listing, read 6 November 2026. {cite:google-play-nusuk}
+- World Summit Award, winner page 'Nusuk', read on 7 November 2026. {cite:wsa-winner-nusuk-2024}

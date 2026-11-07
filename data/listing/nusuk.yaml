@@ -39,12 +39,14 @@ relations:
   - { type: related_to, target: building/prophets-mosque, note: "bookings to visit al-Rawda al-Sharifa", sources: [source/wikipedia-nusuk-en] }
   - { type: related_to, target: place/mecca, sources: [source/wikipedia-nusuk-en] }
   - { type: related_to, target: place/medina, sources: [source/wikipedia-nusuk-en] }
+honours:
+  - { award: award/world-summit-award, category: culture-and-heritage, result: won, year: 2024, note: "Culture & Heritage, Saudi Arabia; producers named on the award page: Abdulaziz AlMathami, Ameenah Naytah, Abdulrahman Shams, Ahmed AlMaiman", sources: [source/wsa-winner-nusuk-2024] }
 external_ids:
   wikidata: Q139822647
-sources: [source/wikipedia-nusuk-en, source/wikipedia-nusuk-platform-ar, source/wikidata-nusuk, source/google-play-nusuk]
+sources: [source/wikipedia-nusuk-en, source/wikipedia-nusuk-platform-ar, source/wikidata-nusuk, source/google-play-nusuk, source/wsa-winner-nusuk-2024]
 provenance:
   layer: own-research
-  source: "English Wikipedia 'Nusuk' (revision 1379052266, 7 October 2026), Arabic Wikipedia «منصة نسك» (revision 74490193, 3 May 2026), Wikidata Q139822647 and Q114516279, and the Google Play page, read in Chrome on the founder's Mac on 6 November 2026"
+  source: "English Wikipedia 'Nusuk' (revision 1379052266, 7 October 2026), Arabic Wikipedia «منصة نسك» (revision 74490193, 3 May 2026), Wikidata Q139822647 and Q114516279, and the Google Play page, read in Chrome on the founder's Mac on 6 November 2026; the 2024 World Summit Award honour added from the award's winner page on 7 November 2026 (modern-web-b15), at the founder's go-ahead"
   generated_by: "Claude Code (claude-opus-5-5)"
   model: claude-opus-5-5
   run: modern-web-b01
