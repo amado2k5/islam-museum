@@ -270,3 +270,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 12544-12565): verse 5:95 begun; stop at the foot of p. 13 at the choice of the reading of 'jaza' mithl' (next: the rest of 5:95 from p. 14).
 - Batch 2 (pp. 14-34, three sub-batches in one PR): reports 14909-14956 filed in ar, en and ur; verses 105 to 123 are filed in full and verse 124 is begun (report 14956). Next is the rest of 7:124 from the foot of p. 34 (printed p. 35).
 - Batch 3: pp. 35-42 filed in ar, en and ur (reports 14957-14972): verses 124 to 127 are filed in full and verse 128 is begun (report 14972). Next is the rest of 7:128 from the foot of p. 42 (printed p. 43).
+- Batch 4 (pp. 43-57, two sub-batches in one PR): reports 14973-15014 filed in ar, en and ur; verses 128 to 132 are filed in full and verse 133 is begun (report 15014 at p. 57). Next is the rest of 7:133 from the foot of p. 57 (printed p. 58).
