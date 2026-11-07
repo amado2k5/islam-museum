@@ -1,0 +1,49 @@
+id: job/papermaker
+class: job
+label: { ar: "الكاغدي", en: "Papermaker (kaghadi)", ur: "کاغذ ساز" }
+names:
+  - { value: "الورّاق", kind: alternate }
+  - { value: "صانع الكاغد", kind: alternate }
+  - { value: "kâğıtçı", kind: latinized, lang: tr }
+summary:
+  ar: "الكاغدي هو من يصنع الورق من الألياف المنقوعة المدقوقة، وكانت الصناعة قد انتقلت إلى العالم الإسلامي من الصين عبر آسيا الوسطى. تذكر موسوعة TDV أن أول مصنع في الشرق الأدنى فُتح في بغداد سنة 178هـ، وأن أنواعاً من الورق عُرفت بأسماء العمال والأمراء، ثم قامت مصانع في الشام ومصر والأندلس. أما العثمانيون فاستوردوا الورق زمناً طويلاً، وأول مصنع مؤكد عندهم يعود إلى القرن الثامن عشر."
+  en: "The kaghadi made paper from soaked and beaten fibres, a craft that reached the Islamic world from China by way of Central Asia. The TDV encyclopaedia says the first mill in the Near East opened in Baghdad in 178 AH, that kinds of paper were named after officials and princes, and that mills followed in Syria, Egypt and al-Andalus. The Ottomans imported paper for a long time, and their first confirmed mill dates from the eighteenth century."
+  ur: "کاغذ ساز بھیگے ہوئے اور کوٹے ہوئے ریشوں سے کاغذ بناتا تھا، اور یہ ہنر چین سے وسطی ایشیا کے راستے اسلامی دنیا میں پہنچا۔ ٹی ڈی وی کا مدخل کہتا ہے کہ مشرقِ قریب کا پہلا کارخانہ بغداد میں 178ھ میں کھلا، کاغذ کی قسمیں اہلکاروں اور شہزادوں کے نام پر معروف ہوئیں، اور شام، مصر اور اندلس میں کارخانے بنے۔ عثمانی بہت دیر تک کاغذ درآمد کرتے رہے، اور ان کا پہلا یقینی کارخانہ اٹھارھویں صدی کا ہے۔"
+domain: arts-letters
+kind: craft
+hirfa: true
+era:
+  origins: classical
+  first_attested: { edtf: "0794/0795", hijri: "0178", precision: year, status: historical, note: "The Baghdad mill of 178 AH under Harun al-Rashid, as the TDV entry gives it. It is the first mill of the Near East in the entry's account, and not the first paper the Muslims used.", sources: [source/tdv-kagit] }
+  status_today: transformed
+places:
+  - { place: place/baghdad, start: { edtf: "0794" }, note: "The first mill in the Near East, on the proposal of al-Fadl ibn Yahya, in the TDV account.", sources: [source/tdv-kagit] }
+  - { place: place/damascus, note: "The entry says most of the people of Damascus made paper before the Crusaders destroyed the city in 1109, and that Ibn Battuta saw paper shops there in 1326.", sources: [source/tdv-kagit] }
+  - { place: place/cairo, note: "Nasir-i Khusraw saw Cairo merchants wrapping goods in paper; the Egyptian Pharaonic paper is one of the six kinds of the Fihrist.", sources: [source/tdv-kagit] }
+  - { place: place/shatiba, note: "In al-Idrisi's twelfth-century account the mills of Xativa in the region of Valencia were the first of Europe; the paper was called shatibi.", sources: [source/tdv-kagit] }
+  - { place: place/istanbul, start: { edtf: "1741" }, note: "The Ottoman attempts at mills, from Yalova in 1741 to Beykoz in 1805 and the Hamidiye mill of 1893, in the entry's account.", sources: [source/tdv-kagit] }
+regions: [persia-central-asia, levant-iraq, egypt-nile, andalus-europe, anatolia-balkans]
+organization:
+  organized: mixed
+  bodies: []
+training:
+  mode: apprenticeship
+  certification: "The entry does not describe how a papermaker was trained or certified. It describes the process, the mills, and the finishing of the sheet by calligraphers and illuminators."
+workplaces: [place/baghdad]
+outputs: []
+wings: [people]
+periods: [period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-kagit]
+craft:
+  materials: [paper, textile, ink]
+  techniques:
+    ar: "تُنقع الخِرَق والحبال في ماء الجير زمناً طويلاً، ثم تُدقّ في هاون حجري بمدقات خشبية، ثم صارت تُطحن بحجر ثقيل يديره الماء كما تدور الطاحونة. وبعد ذلك يُهيأ سطح الورقة بالنشا أو بياض البيض أو الشب أو غراء السمك، ثم يُصقل بحجر الصوان أو الزجاج."
+    en: "Rags and rope were soaked for a long time in limewater and beaten in a stone mortar with wooden pestles. Later a heavy stone turned by water, like a flour mill, did the beating. The sheet was then coated with starch, egg white, alum or fish glue, and burnished with flint or glass."
+    ur: "چیتھڑے اور رسیاں دیر تک چونے کے پانی میں بھگوئی جاتیں اور پتھر کے کھرل میں لکڑی کے موسلوں سے کوٹی جاتیں۔ بعد میں پانی سے چلنے والا بھاری پتھر، آٹا پیسنے کی چکی کی طرح، یہ کام کرنے لگا۔ پھر ورق پر نشاستہ، انڈے کی سفیدی، پھٹکری یا مچھلی کا گوند لگایا جاتا اور چقماق یا شیشے سے چمکایا جاتا۔"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'KÂĞIT' (Osman Ersoy, vol. 24, Istanbul 2001, pp. 163–166), web edition read in full on 7 Nov 2026. The entry's bibliography was not read. The entry does not describe a guild, a pir or a papermaker's training, and none is written here."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: "jobs-p2-crafts-b01"
