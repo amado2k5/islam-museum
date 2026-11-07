@@ -749,6 +749,7 @@ open a new block on top with the new version and today's date.
 - al-Tabari v01 (Introduction, batch I8): the detailed account of the introduction continues on work/jami-al-bayan in ar, en and ur, printed pp. 62-68 (the end of the mushaf-collection reports, why one harf was kept, and the start of the chapter on the seven doors of Paradise); stop sentence at the foot of p. 68.
 - al-Tabari v01 (Introduction, batch I9): the detailed account of the introduction continues on work/jami-al-bayan in ar, en and ur, printed pp. 69-75 (the seven doors of Paradise, and the kinds of interpretation of the Qur'an); stop sentence at the foot of p. 75.
 - al-Tabari v01 (Introduction, batch I10): the detailed account of the introduction continues on work/jami-al-bayan in ar, en and ur, printed pp. 76-82 (interpretation by opinion forbidden, and the Companions who interpreted the Qur'an); stop sentence at the foot of p. 82.
+- al-Tabari v01 (Introduction, batch I11): the detailed account of the introduction continues on work/jami-al-bayan in ar, en and ur, printed pp. 83-89 (the reports used against interpretation of the Qur'an, and al-Tabari's replies); stop sentence at the foot of p. 89.
 
 ### Changed
 - Modern Islam Browser, web section (documents only, no deployment): the founder confirmed that the Palestinian discussion website's record stays as he approved it; his decision to keep out propaganda games applies to the games only.
