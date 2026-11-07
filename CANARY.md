@@ -696,6 +696,7 @@ open a new block on top with the new version and today's date.
 - al-Tabari v01 (Batch 1, Fatiha): the commentary on al-Fatiha begins in ar, en and ur under 1:1, vol. 1 pp. 107-113 (the names of the surah, the count of its verses, seeking refuge); stop sentence at the foot of p. 113.
 - al-Tabari v01 (Batch 2, Fatiha): the basmala under 1:1 in ar, en and ur, vol. 1 pp. 114-120 ("in the name": the hidden verb, name for naming, the slaughter rule, and a line of Labid); stop sentence at the foot of p. 120.
 - al-Tabari v01 (Batch 3, Fatiha): the basmala under 1:1 in ar, en and ur, vol. 1 pp. 121-127 (the word Allah and its derivation, the forms and first reports on al-Rahman al-Rahim); stop sentence at the foot of p. 127.
+- al-Tabari v01 (Batch 4, Fatiha): the commentary on the basmala (1:1) closes in ar, en and ur, vol. 1 pp. 128-134 (the two names Rahman and Rahim, their order, and the objection that the Arabs did not know the name).
 
 ### Changed
 - Modern Islam Browser, web section (documents only, no deployment): the founder confirmed that the Palestinian discussion website's record stays as he approved it; his decision to keep out propaganda games applies to the games only.
