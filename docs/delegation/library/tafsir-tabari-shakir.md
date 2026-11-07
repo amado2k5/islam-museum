@@ -236,7 +236,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 32: pp. 485-492 filed in ar, en and ur (reports 10993-11001): verse 2 closes at p. 491 and verse 3 is begun at p. 492.
 - Batch 33: pp. 493-499 filed in ar, en and ur (reports 11002-11019): verse 3 is filed to the foot of p. 499.
 - Batch 34: pp. 500-506 filed in ar, en and ur (reports 11021-11046): verse 3 is filed to the foot of p. 506.
-- Progress: current report 11046, printed p. 505. Next is the rest of verse 3 from printed p. 506 on (the rest of the exception and the verses that follow).
+- Batch 35: pp. 507-513 filed in ar, en and ur (reports 11047-11071): verse 3 is filed to p. 513.
+- Progress: current report 11071, printed p. 513. Next is report 11072 (Ibn Ishaq on the divining arrows) on printed p. 513, in the rest of verse 3.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
