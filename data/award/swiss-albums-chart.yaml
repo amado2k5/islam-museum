@@ -1,0 +1,27 @@
+id: award/swiss-albums-chart
+class: award
+kind: chart
+label: { ar: "قائمة الألبومات السويسرية ⁦(هيت باراد)⁩", en: "Swiss Albums Chart (Swiss Hitparade)", ur: "سوئس البمز چارٹ" }
+summary:
+  ar: "قائمة أفضل مئة ألبوم في سويسرا ضمن «هيت باراد» السويسري، تصدر منذ أواخر 1983؛ يسجّل المتحف أعلى مرتبة بلغها ألبوم، مثل المرتبة الرابعة عشرة لألبوم يوسف إسلام «An Other Cup» سنة 2006."
+  en: "Switzerland's Albums Top 100 within the Swiss Hitparade, published since late 1983; the museum records an album's peak, such as number 14 for Yusuf's An Other Cup in 2006."
+  ur: "سوئس ہٹ پریڈ کے تحت سوئٹزرلینڈ کا ٹاپ 100 البمز چارٹ، جو 1983 کے آخر سے شائع ہوتا ہے؛ جیسے 2006 میں «این ادر کپ» کا چودھواں نمبر۔"
+wings: [today]
+themes: [music]
+regions: [andalus-europe]
+fields: [music]
+country: ch
+recurs: weekly
+since: { edtf: "1983", calendar: gregorian, precision: year, note: "Albums Top 100 published since late 1983", sources: [source/wikipedia-swiss-hitparade-en] }
+footprint:
+  wikipedia: { languages: [ar, az, be, ca, cs, da, de, en, es, fa, fi, fr, he, hr, hu, hy, id, is, it, ja, ka, kk, ko, lt, ms, nl, no, pt, ru, sk, sv, tr, uk, vi, zh], checked: "2026-11-07", sources: [source/wikidata-swiss-hitparade] }
+  wikidata: "Q635959"
+external_ids: { wikidata: "Q635959" }
+sources: [source/wikipedia-swiss-hitparade-en, source/wikidata-swiss-hitparade, source/wikipedia-egypt-youssou-ndour-en, source/wikipedia-an-other-cup-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Swiss Hitparade' (revision 1357345443 of 2 June 2026) and Wikidata Q635959 (revision 2558454204), read in Chrome on the founder's Mac on 7 November 2026; peaks from the album articles' chart tables"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b06
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5)" }
