@@ -2,9 +2,9 @@
 id: person/al-jazari-engineer
 lang: ur
 source_lang: ar
-translators: ["Copilot SDK in VS Code"]
+translators: ["Copilot SDK in VS Code", "GitHub Copilot (VS Code)"]
 status: { review: published }
-provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "107–109، نقد256 اور فریئر1315 سے کشتی کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "157–158 اور263 سےIV.1 فوارے کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b45", source: "83–86/252–253 سےI.7 گھڑی؛ سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b46", source: "199–201/268–269 سےVI.3 قفل؛ سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b47", source: "182–183/265 سےV.3 آب کش؛ سابق متن اور نسبت محفوظ" }] }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b40", source: "Earlier lane biography retained; Urdu translation of new Arabic castle-clock section from actual selected Hill1974/official MFA-via-Google catalogue; limited-reading sentence updated, not full-book reading", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b43", source: "107–109، نقد256 اور فریئر1315 سے کشتی کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b44", source: "157–158 اور263 سےIV.1 فوارے کا اضافہ؛ سارا سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b45", source: "83–86/252–253 سےI.7 گھڑی؛ سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b46", source: "199–201/268–269 سےVI.3 قفل؛ سابق متن اور نسبت محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b47", source: "182–183/265 سےV.3 آب کش؛ سابق متن اور نسبت محفوظ" }, { generated_by: github-copilot, model: unknown, run: inventions-p3-b99, source: "V.4 animal-powered scoop-lifter section added from Hill184–185 and Met55.121.11; earlier prose preserved." }] }
 ---
 ## خلاصہ
 بدیع الزمان ابو العز اسماعیل بن الرزاز جزری میکانکی حیلوں کے انجینئر اور مصنف تھے۔ ٹی ڈی وی انہیں اسلامی عالم کہتا اور کتاب کے مقدمے سے باہر زندگی کی معلومات کم بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ وہ 1181–1206ء میں [[place/amid|آمد]] کے ارتقی دربار سے وابستگی اور ناصر الدین محمود کی فرمائش پر کتاب لکھنے کا ذکر کرتا ہے، جس کی تکمیل 1205ء بتاتا ہے {cite:tdv-cezeri pp. 505–506}۔ خدمت کے سالوں کو پیدائش اور وفات کی تاریخ نہیں بنایا گیا۔
@@ -57,6 +57,10 @@ I.7 کی [[invention/jazari-swordsman-candle-clock|شمشیربردار والی
 
 V.3 میں [[invention/jazari-hidden-drive-water-lifter|پوشیدہ محرک والا کوزوں کا آب کش]] ہے: نکلتا پانی نیچے پہیہ، دانت دار پہیے اور محور گھما کر کوزے اٹھاتا اور لکڑی کی گائے چلاتا ہے جس کے کھر تختے سے اوپر ہیں {cite:jazari-hill-1974 pp.182–183}۔ گائے طاقت کا ماخذ نہیں، نہ یہ دائمی حرکت یاV.5 کا دو پسٹن والا پمپ ہے۔ ہل ممکنہ آرائشی مصرف، نقشے کے بڑے کوزے اور دوسری غیر موصوف مشین الگ رکھتے ہیں؛ کتاب کے دو آبی محرکوں میں پہلا ہونا عالمی اولیت نہیں {cite:jazari-hill-1974 p.265}۔
 
+## حیوانی طاقت سے چلنے والا مغرفہ آب کش
+
+بابV.4 میں [[invention/jazari-animal-scoop-water-lifter|حیوانی طاقت سے چلنے والے مغرفہ آب کش]] کی وضاحت ہے؛ گیئر حرکت ایک پن تک پہنچاتے ہیں جو مغرفے کے ڈنڈے کی درز میں چل کر پانی اٹھاتا اور نیچے آتا ہے {cite:jazari-hill-1974 pp.184–185}۔ یہ تیسرے باب کی پانی سے چلنے والی کوزوں کی زنجیر اور پانچویں باب کے دو پسٹن پمپ سے الگ ہے {cite:jazari-hill-1974 pp.182–188}۔ میٹ کا ورق55.121.11،715ھ/1315ء کی نقل ہے جس کا ناسخ فروخ بن عبد اللطیف بتایا گیا ہے، جزری کے زمانے کی باقی مشین نہیں {cite:met-jazari-scoop-451298 Object record}۔ ذرائع متن کی نسبت اور جزری کا انجینئرنگ سیاق دکھاتے ہیں، یہ ثابت نہیں کرتے کہ انہوں نے اسے خود بنایا یا ہر جزو ایجاد کیا {cite:jazari-hill-1974 pp.184–185} {cite:tdv-cezeri pp.505–506}۔
+
 ## مراجع
 - مومی گھڑیI.7: ہل83–86/252–253 اور [[source/freer-jazari-candle-clock|فریئر F1930.71 اور تصویری حقوق]] {cite:jazari-hill-1974 pp.83–86,252–253} {cite:freer-jazari-candle-clock catalogue,rights}۔
 - فوارہIV.1: ہل کے اصل منتخب157–158، شکل120–121 اور نقد263 {cite:jazari-hill-1974 pp.157–158,263}۔
@@ -68,3 +72,4 @@ V.3 میں [[invention/jazari-hidden-drive-water-lifter|پوشیدہ محرک و
 - سلیم الحسنی، «Al-Jazari: The Mechanical Genius»، پمپ، نقشہ اور ماڈل۔ {cite:fstc-jazari-mechanical-genius pump discussion}
 - سائنس میوزیم گروپ، دو پسٹن پمپ کا ماڈل، 1976-482۔ {cite:smg-jazari-double-pump catalogue}
 - کلیولینڈ میوزیم آف آرٹ، ہاتھ دھونے والا طاؤس، 1945.383، دونوں رخ کے اندراج۔ {cite:cleveland-jazari-peacock recto and verso catalogues}
+- حیوانی مغرفہ آب کش، V.4، ہل184–185؛ میٹ کا ورق55.121.11 اور عوامی ملکیت کی تصویر {cite:jazari-hill-1974 pp.184–185} {cite:met-jazari-scoop-451298 Object record}
