@@ -16,6 +16,8 @@ A group of interpreters said the like: report 13073, from Mujahid, on "a book on
 
 The editor refers for "sheet", "touching" and "plain" to earlier volumes 8, 10 and 2.
 
-We stop here at the foot of p. 265, after report 13073 from Mujahid on "they touched it with their hands" in the commentary on verse 7, which continues on p. 266.
+Report 13074, from Qatada: "had we sent down to you a book on a sheet and they touched it with their hands" means they saw it plainly, "those who disbelieved would say: this is only plain magic". 13075, from Ibn Abbas: had we sent down from heaven pages with a book in them and they touched them with their hands, it would only have increased their denial. 13076, from al-Suddi: the "qirtas" is the pages; 13077, from Qatada: a page. {cite:tafsir-tabari-shakir-v11 p. 266}
+
+Verse 7 closes here at p. 266, and al-Tabari goes on to [[passage/quran-6-8|6:8]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
