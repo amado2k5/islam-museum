@@ -1,0 +1,33 @@
+id: person/ahmad-domocao-alonto
+class: person
+label: { ar: "أحمد دوموكاو ألونتو", en: "Ahmad Domocao Alonto", ur: "احمد دوموکاؤ الونتو" }
+names:
+  - { value: "Ahmad Domocao Alangadi Alonto Sr.", kind: full }
+  - { value: "Domocao Alonto", kind: alternate }
+  - { value: "Domie Alonto", kind: alternate }
+gender: male
+summary:
+  ar: "محامٍ ومعلم وسياسي فلبيني مسلم من لاناو (1914–2002)، نائب (1953) وعضو مجلس الشيوخ (1955–1961)، أسس جامعة مينداناو الإسلامية (1954) وصاغ قوانين جامعة ولاية مينداناو ولجنة التكامل الوطني، ودعا إلى التعايش السلمي بين المسلمين والمسيحيين وإلى حكم ذاتي لمسلمي مينداناو، ونال جائزة الملك فيصل لخدمة الإسلام (1988)."
+  en: "Filipino Muslim lawyer, educator and politician from Lanao (1914–2002), congressman (1953) and senator (1955–1961), founder of the Mindanao Islamic University (1954) and author of the laws creating Mindanao State University and the Commission on National Integration; an advocate of peaceful coexistence between Muslims and Christians and of autonomy for Muslim Mindanao; King Faisal Prize for Service to Islam (1988)."
+  ur: "لاناؤ کے فلپائنی مسلمان وکیل، معلم اور سیاست دان ⁦(1914ء–2002ء)⁩، رکنِ ایوانِ نمائندگان ⁦(1953ء)⁩ اور سینیٹر ⁦(1955ء–1961ء)⁩، مینڈاناؤ اسلامی یونیورسٹی ⁦(1954ء)⁩ کے بانی اور مینڈاناؤ اسٹیٹ یونیورسٹی و قومی انضمام کمیشن کے قوانین کے مصنف؛ مسلمانوں اور مسیحیوں کے پُرامن بقائے باہمی اور مسلم مینڈاناؤ کی خود مختاری کے داعی؛ شاہ فیصل انعام برائے خدمتِ اسلام ⁦(1988ء)⁩۔"
+wings: [people]
+regions: [southeast-asia]
+roles: [politician, lawyer, teacher, writer]
+born: { edtf: "1914-08-01", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born on 1 August 1914 at Ditsaan-Ramain, Lanao del Sur (English article and Wikidata); the prize's page gives the same day at Marawi. Both places are reported.", sources: [source/wikipedia-ahmad-domocao-alonto-en, source/wikidata-ahmad-domocao-alonto, source/king-faisal-prize-laureates] }
+died: { edtf: "2002-12-11", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died at home in Marawi after a brief illness with cancer (English article; Wikidata gives the same day and place).", sources: [source/wikipedia-ahmad-domocao-alonto-en, source/wikidata-ahmad-domocao-alonto] }
+relations:
+  - { type: lived_in, target: place/philippines, sources: [source/wikipedia-ahmad-domocao-alonto-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article calls him a 'Filipino Muslim' and says his mother taught him the fundamentals of Islam; that is the article's description and his upbringing, not a statement in his own words. Not recorded."
+    sources: [source/wikipedia-ahmad-domocao-alonto-en, source/wikidata-ahmad-domocao-alonto, source/king-faisal-prize-laureates]
+footprint:
+  wikipedia: { languages: [ar, de, en, nl], checked: "2026-11-07", sources: [source/wikidata-ahmad-domocao-alonto] }
+  wikidata: "Q12963474"
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1988, sources: [source/king-faisal-prize-laureates] }
+external_ids: { wikidata: "Q12963474" }
+sources: [source/wikipedia-ahmad-domocao-alonto-en, source/wikidata-ahmad-domocao-alonto, source/king-faisal-prize-laureates]
+provenance: { layer: own-research, source: "English Wikipedia 'Domocao Alonto' (revision 1369993276), Wikidata Q12963474 (revision 2537995604) and kingfaisalprize.org/dr-ahmad-domocao-alonto/, read on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b10 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

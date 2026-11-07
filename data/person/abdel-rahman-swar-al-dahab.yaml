@@ -1,0 +1,33 @@
+id: person/abdel-rahman-swar-al-dahab
+class: person
+label: { ar: "عبد الرحمن سوار الذهب", en: "Abd al-Rahman Siwar al-Dhahab", ur: "عبد الرحمٰن سوار الذہب" }
+names:
+  - { value: "عبد الرحمن محمد حسن سوار الذهب", kind: full }
+  - { value: "Abdel Rahman Swar al-Dahab", kind: alternate }
+  - { value: "Abd Ar-Rahman M. Siwar Adh-Dhahab", kind: alternate }
+gender: male
+summary:
+  ar: "مشير وسياسي سوداني (1934–2018)، وزير الدفاع والقائد العام للجيش، تسلّم السلطة في انتفاضة 6 أبريل 1985 ورأس المجلس العسكري الانتقالي، ثم سلّمها لحكومة مدنية منتخبة في 1986، ورأس بعدها مجلس أمناء منظمة الدعوة الإسلامية، ونال جائزة الملك فيصل لخدمة الإسلام (2004)."
+  en: "Sudanese field marshal and statesman (1934–2018), defence minister and commander-in-chief, who took power during the uprising of 6 April 1985 as head of the Transitional Military Council and handed it to an elected civilian government in 1986, then chaired the board of the Islamic Call Organization; King Faisal Prize for Service to Islam (2004)."
+  ur: "سوڈانی فیلڈ مارشل اور سیاست دان ⁦(1934ء–2018ء)⁩، وزیرِ دفاع اور فوج کے کمانڈر انچیف، جنھوں نے 6 اپریل 1985ء کی عوامی تحریک میں عبوری فوجی کونسل کے سربراہ کی حیثیت سے اقتدار سنبھالا اور 1986ء میں منتخب سول حکومت کو سونپ دیا، پھر اسلامی دعوت تنظیم کے بورڈ آف ٹرسٹیز کے سربراہ رہے؛ شاہ فیصل انعام برائے خدمتِ اسلام ⁦(2004ء)⁩۔"
+wings: [people]
+regions: [egypt-nile, africa]
+roles: [general, politician]
+born: { edtf: "1934", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born in 1934 in Omdurman (Arabic article, English article and the prize's page), raised in El-Obeid (Arabic article); Wikidata gives El-Obeid as his birthplace. Both places are reported.", sources: [source/wikipedia-abdel-rahman-swar-al-dahab-ar, source/wikidata-abdel-rahman-swar-al-dahab, source/king-faisal-prize-laureates] }
+died: { edtf: "2018-10-18", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died at the military hospital in Riyadh, aged about 84, and buried at al-Baqi' in Medina (Arabic article; the prize's page and Wikidata give the same day and Riyadh). The Arabic article gives the Hijri date as 9 Safar 1440 in its lead and 8 Safar in its body.", sources: [source/wikipedia-abdel-rahman-swar-al-dahab-ar, source/wikidata-abdel-rahman-swar-al-dahab, source/king-faisal-prize-laureates] }
+relations:
+  - { type: buried_in, target: place/baqi-al-gharqad, sources: [source/wikipedia-abdel-rahman-swar-al-dahab-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No sentence in the sources read states his own religious affiliation in his words; the prize's praise is the award body's voice. Not recorded."
+    sources: [source/wikipedia-abdel-rahman-swar-al-dahab-ar, source/wikidata-abdel-rahman-swar-al-dahab, source/king-faisal-prize-laureates]
+footprint:
+  wikipedia: { languages: [ar, arz, ca, cs, de, en, es, eu, fa, fi, fr, he, it, ka, ko, no, pl, pt, ru, sv, tg, tr, uz], checked: "2026-11-07", sources: [source/wikidata-abdel-rahman-swar-al-dahab] }
+  wikidata: "Q307451"
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 2004, sources: [source/king-faisal-prize-laureates] }
+external_ids: { wikidata: "Q307451" }
+sources: [source/wikipedia-abdel-rahman-swar-al-dahab-ar, source/wikidata-abdel-rahman-swar-al-dahab, source/king-faisal-prize-laureates]
+provenance: { layer: own-research, source: "Arabic Wikipedia «عبد الرحمن سوار الذهب» (revision 76623336), Wikidata Q307451 (revision 2563040167) and kingfaisalprize.org/field-marshal-abd-ar-rahman-m-siwar-adh-dhahab/, read on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b10 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
