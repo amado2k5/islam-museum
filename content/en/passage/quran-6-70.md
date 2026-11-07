@@ -42,6 +42,12 @@ On "those are the ones given up for what they earned; for them is a drink of boi
 
 The editor refers for "given up" and "earn" to earlier passages, and says al-Murraqqish's line is from his poem about Ibnat Ajlan, the maid of Fatima bint al-Mundhir, who had a castle at Kazima; that "miqtara" is a censer and "kiba" a kind of aloeswood; and that the poet describes her luxury and care for her body.
 
-We stop here at the foot of p. 448, where al-Tabari backs the sense of "hamim" with the verse of al-Murraqqish and before his citation of Abu Dhu'ayb al-Hudhali on a horse, and he continues on p. 449.
+Al-Tabari then cites a line of Abu Dhu'ayb al-Hudhali describing a mare, who gives her milk, when roused, only to the "hamim", by which he means the horse's sweat. God made for these a drink of hamim because hot water does not quench thirst; he reported that when they are thirsty in Hell they will not be given water to quench them but what adds to the thirst they have; "and a painful punishment" says: and for them as well as the drink of boiling water is painful punishment and lasting humiliation; "because they used to disbelieve" is because of their unbelief in God in this world, their denial of his oneness and their worshipping gods beside him. {cite:tafsir-tabari-shakir-v11 p. 449}
+
+13419, from al-Suddi: "those given up for what they earned" means handed over; 13420, from Ibn Abbas: disgraced; 13421, from Ibn Zayd: taken for what they earned. {cite:tafsir-tabari-shakir-v11 p. 449}
+
+The editor says the line is among those held against Abu Dhu'ayb for his ignorance of horses, that its transmission differs, "when she was angered" and "when she was forced", that al-Tabari's version is in Lisan al-Arab, that "yatabassa'" with sad means to flow little by little and "tabadda'a al-araq" with dad means the sweat flowed in fits, and that "istaghabat" was explained as being frightened, since the "dagib" is one who hides among wild asses to scare them with a lion's sound.
+
+Verse 70 closes here on p. 449, and al-Tabari goes on to [[passage/quran-6-71|6:71]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
