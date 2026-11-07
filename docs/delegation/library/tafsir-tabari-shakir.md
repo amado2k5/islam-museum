@@ -237,3 +237,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 33: pp. 493-499 filed in ar, en and ur (reports 11002-11019): verse 3 is filed to the foot of p. 499.
 - Batch 34: pp. 500-506 filed in ar, en and ur (reports 11021-11046): verse 3 is filed to the foot of p. 506.
 - Progress: current report 11046, printed p. 505. Next is the rest of verse 3 from printed p. 506 on (the rest of the exception and the verses that follow).
+
+## Volume 10 progress
+- Volume 10 (`waqtaftab-taftab10`, 634 markers): the title page (marker 4) names sura al-Ma'ida 5:6 to 5:94 and reports 11300 to 12543; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (5:6, rising for prayer). The marker-to-printed-page map is the identity (page numbers in the headers agree from p. 8 on). Cite `{cite:tafsir-tabari-shakir-v10 p. N}` by printed number. The source record `source/tafsir-tabari-shakir-v10` already exists.
+- Batch 1: pp. 7-13 filed in ar, en and ur (reports 11300-11326, 11327 begun): verse 6 is begun. Next is report 11327 at the foot of p. 13.
