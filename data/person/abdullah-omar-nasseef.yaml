@@ -1,0 +1,33 @@
+id: person/abdullah-omar-nasseef
+class: person
+label: { ar: "عبد الله بن عمر نصيف", en: "Abdullah Omar Nasseef", ur: "عبد اللہ بن عمر نصیف" }
+names:
+  - { value: "عبد الله بن عمر بن محمد بن نصيف", kind: full }
+  - { value: "Abd Allah Umar Nasif", kind: alternate }
+  - { value: "Abdullah Naseef", kind: alternate }
+gender: male
+summary:
+  ar: "عالم جيولوجيا ومسؤول سعودي (1939–2025) من جدة، مدير جامعة الملك عبد العزيز ⁦(1400–1403هـ)⁩، والأمين العام لرابطة العالم الإسلامي ⁦(1403–1414هـ / 1983–1993)⁩، ونائب رئيس مجلس الشورى، ورئيس مؤتمر العالم الإسلامي، ونال جائزة الملك فيصل لخدمة الإسلام (1991)."
+  en: "Saudi geologist and public figure (1939–2025) from Jeddah, president of King Abdulaziz University (1400–1403 AH), secretary-general of the Muslim World League (1403–1414 AH / 1983–1993), deputy chairman of the Shura Council and president of the World Muslim Congress; King Faisal Prize for Service to Islam (1991)."
+  ur: "جدہ کے سعودی ماہرِ ارضیات اور عوامی شخصیت ⁦(1939ء–2025ء)⁩، جامعہ ملک عبد العزیز کے سربراہ ⁦(1400–1403ھ)⁩، رابطہ عالمِ اسلامی کے سیکرٹری جنرل ⁦(1403–1414ھ / 1983ء–1993ء)⁩، مجلسِ شوریٰ کے نائب صدر اور موتمر عالمِ اسلامی کے صدر؛ شاہ فیصل انعام برائے خدمتِ اسلام ⁦(1991ء)⁩۔"
+wings: [people]
+regions: [arabia]
+roles: [scientist, professor, scholar, politician]
+born: { edtf: "1939-07-05", hijri: "1358-05-18", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in Jeddah on Wednesday 18 Jumada I 1358 / 5 July 1939 (Arabic article; the prize's page and Wikidata give the same day and city).", sources: [source/wikipedia-abdullah-omar-nasseef-ar, source/wikidata-abdullah-omar-nasseef, source/king-faisal-prize-laureates] }
+died: { edtf: "2025-10-12", hijri: "1447-04-20", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died on Sunday 20 Rabi' II 1447 / 12 October 2025 (Arabic article; the prize's page and Wikidata give the same day).", sources: [source/wikipedia-abdullah-omar-nasseef-ar, source/wikidata-abdullah-omar-nasseef, source/king-faisal-prize-laureates] }
+relations:
+  - { type: born_in, target: place/jeddah, sources: [source/wikipedia-abdullah-omar-nasseef-ar, source/wikidata-abdullah-omar-nasseef] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No sentence in the sources read states his own religious affiliation in his words; the prize's praise is the award body's voice. Not recorded."
+    sources: [source/wikipedia-abdullah-omar-nasseef-ar, source/wikidata-abdullah-omar-nasseef, source/king-faisal-prize-laureates]
+footprint:
+  wikipedia: { languages: [ar, en, ms, pnb, ur], checked: "2026-11-07", sources: [source/wikidata-abdullah-omar-nasseef] }
+  wikidata: "Q4666048"
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1991, sources: [source/king-faisal-prize-laureates] }
+external_ids: { wikidata: "Q4666048" }
+sources: [source/wikipedia-abdullah-omar-nasseef-ar, source/wikidata-abdullah-omar-nasseef, source/king-faisal-prize-laureates]
+provenance: { layer: own-research, source: "Arabic Wikipedia «عبد الله نصيف» (revision 77143443), Wikidata Q4666048 (revision 2521357270) and kingfaisalprize.org/h-e-dr-abd-allah-umar-nasif/, read on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b10 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

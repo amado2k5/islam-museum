@@ -1,0 +1,30 @@
+id: person/sultan-bin-muhammad-al-qasimi
+class: person
+label: { ar: "سلطان بن محمد القاسمي", en: "Sultan bin Muhammad Al-Qasimi", ur: "سلطان بن محمد القاسمی" }
+names:
+  - { value: "سلطان بن محمد القاسمي", kind: full }
+  - { value: "Sultan bin Mohamed Al-Qasimi", kind: alternate }
+  - { value: "Sultan Ibn Mohammad Al-Qasmi", kind: alternate }
+gender: male
+summary:
+  ar: "حاكم إمارة الشارقة وعضو المجلس الأعلى لاتحاد الإمارات منذ 25 يناير 1972 ⁦(مولود 1939)⁩، مؤرخ وكاتب ومسرحي، أول وزير للتربية في الإمارات (1971)، أسس الجامعة الأمريكية بالشارقة وجامعة الشارقة ورأسهما، وألّف أكثر من ثمانين كتابًا في التاريخ والأدب والمسرح، ونال جائزة الملك فيصل لخدمة الإسلام (2002)."
+  en: "Ruler of Sharjah and member of the UAE Federal Supreme Council since 25 January 1972 (born 1939); historian, author and playwright, the UAE's first Minister of Education (1971), founder and president of the American University of Sharjah and the University of Sharjah, author of more than eighty books of history, literature and drama; King Faisal Prize for Service to Islam (2002)."
+  ur: "امارتِ شارجہ کے حکمران اور 25 جنوری 1972ء سے متحدہ عرب امارات کی وفاقی سپریم کونسل کے رکن ⁦(پیدائش 1939ء)⁩؛ مؤرخ، مصنف اور ڈراما نگار، امارات کے پہلے وزیرِ تعلیم ⁦(1971ء)⁩، امریکن یونیورسٹی آف شارجہ اور یونیورسٹی آف شارجہ کے بانی اور سربراہ، تاریخ، ادب اور ڈرامے پر اسّی سے زیادہ کتب کے مصنف؛ شاہ فیصل انعام برائے خدمتِ اسلام ⁦(2002ء)⁩۔"
+wings: [people]
+regions: [arabia]
+roles: [emir, historian, writer, patron]
+born: { edtf: "1939-07-02/1939-07-06", calendar: gregorian, precision: day, status: debated, derived: false, note: "The English article and Wikidata give 2 July 1939, Wikidata at Sharjah; the prize's page gives 6 July 1939 at Dubai. Both readings are kept.", sources: [source/wikipedia-sultan-al-qasimi-ruler-en, source/wikidata-sultan-bin-muhammad-al-qasimi, source/king-faisal-prize-laureates] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No sentence in the sources read states his own religious affiliation in his words; the prize's praise is the award body's voice. Not recorded."
+    sources: [source/wikipedia-sultan-al-qasimi-ruler-en, source/wikidata-sultan-bin-muhammad-al-qasimi, source/king-faisal-prize-laureates]
+footprint:
+  wikipedia: { languages: [ar, arz, az, azb, da, de, en, es, fa, fi, fr, he, it, la, ml, pl, pnb, ro, ru, th, ur, xmf, zh], checked: "2026-11-07", sources: [source/wikidata-sultan-bin-muhammad-al-qasimi] }
+  wikidata: "Q754778"
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 2002, sources: [source/king-faisal-prize-laureates] }
+external_ids: { wikidata: "Q754778" }
+sources: [source/wikipedia-sultan-al-qasimi-ruler-en, source/wikidata-sultan-bin-muhammad-al-qasimi, source/king-faisal-prize-laureates]
+provenance: { layer: own-research, source: "English Wikipedia 'Sultan bin Muhammad Al-Qasimi' (revision 1383565881), Wikidata Q754778 (revision 2561545996) and kingfaisalprize.org/his-highness-shaikh-dr-sultan-ibn-mohammad-al-qasmi/, read on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b10 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
