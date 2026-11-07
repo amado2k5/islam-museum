@@ -692,6 +692,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 63: printed pp. 400-405 (markers 404-409) filed in ar, en and ur (reports 14543-14553): 7:32 closes at p. 402, 7:33 and 7:34 are filed and 7:35 is begun to the foot of p. 405 in the comment on 'relating My signs to you'. Offset still marker - 4. Stop sentence at the foot. Next is marker 409's last lines then marker 410 (printed 406).
 - Batch 64: Sura al-Ra'd pp. 452-458 filed (13:31 continued through report 20431). Next is the rest of 13:31 from report 20432 at the foot of p. 458 (marker 466) and p. 459.
 - Batch 65: Sura al-Ra'd pp. 459-465 filed (13:31 closed, 13:32 filed, 13:33 begun). Next is the rest of 13:33 from p. 466 (marker 474).
+- Batch 66: Sura al-Ra'd pp. 466-472 filed (13:33 closed, 13:34, 13:35 filed). Next is 13:36 from p. 473 (marker 481).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
