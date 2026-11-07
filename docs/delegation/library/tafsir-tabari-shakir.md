@@ -247,7 +247,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 38: pp. 527-534 filed in ar, en and ur (reports 11101-11118): verse 3 is filed to the foot of p. 534.
 - Batch 39: pp. 535-541 filed in ar, en and ur (reports 11119-11131): verse 3 is filed to the foot of p. 541.
 - Batch 40: pp. 542-548 filed in ar, en and ur (reports 11132-11150): verse 3 is closed at p. 542 and verse 4 is filed to the foot of p. 548 (new passage content in quran-5-4).
-- Progress: current report 11150, printed p. 548. Next is the rest of the views on the jawarih, from printed p. 549 on, in verse 4.
+- Batch 41: pp. 549-555 filed in ar, en and ur (reports 11151-11166): verse 4 is filed to the foot of p. 555.
+- Progress: current report 11166, printed p. 555. Next is the rest of the dog that eats from its catch and the other conditions of the hunt, from printed p. 556 on, in verse 4.
 
 ## Volume 12 progress
 - Volume 12 (`waqtaftab-taftab12`, 637 markers): the title page (marker 4) names 6:100 to 6:165 and 7:1 to 7:100 and reports 13680 to 14900; the commentary starts on marker 7 (6:100). The marker-to-printed-page map is the identity (page numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v12 p. N}` by printed number. Tooling is in the session scratchpad (page printer, batch applier).
@@ -309,6 +310,11 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 
 - Batch 13: pp. 105-111 filed in ar, en and ur (reports 12804-12811): verse 5:101 continues; stop at the foot of p. 111 at report 12811 (next: p. 112).
 
+- Batch 14: pp. 112-118 filed in ar, en and ur (reports 12811-12820): verse 5:101 closes at p. 115, verse 5:102 is filed in full, and verse 5:103 is begun to the foot of p. 118 (next: p. 119).
+- Batch 11: pp. 91-97 filed in ar, en and ur (reports 12782-12793): verse 5:97 closes at p. 94 and verses 5:98 to 5:100 are filed in full (next: 5:101 from p. 98).
+- Batch 16: pp. 138-144 filed in ar, en and ur (reports 15152-15164): verse 154 closes at p. 139 and verse 155 is filed to the foot of p. 144 (the Basra grammarian on the accusative of 'qawmahu sab'ina rajulan'). Next is the rest of 7:155 from printed p. 145.
+- Batch 17: pp. 145-151 filed in ar, en and ur (reports 15165-15174): verse 155 is filed to the foot of p. 151 (the meaning of 'it is only Your trial'). Next is 'by it You lead astray whom You will' and the rest of 7:155 from printed p. 152.
+- Batch 18: pp. 152-158 filed in ar, en and ur (reports 15175-15208): verse 155 closes at p. 152 and verse 156 is filed to the foot of p. 158 (report 15208 from Ibn Abbas, mid-report). Next is the rest of 7:156 from printed p. 159.
+
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
-- Batch 14: pp. 112-118 filed in ar, en and ur (reports 12811-12820): verse 5:101 closes at p. 115, verse 5:102 is filed in full, and verse 5:103 is begun to the foot of p. 118 (next: p. 119).
