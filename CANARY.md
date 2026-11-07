@@ -58,6 +58,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser (volume 13, batch 3): al-Tabari's commentary on 7:124 to 7:128 (the sorcerers' answer and martyrdom, the readings of 'your gods', Pharaoh's threat against the Israelites, Moses's counsel of patience) filed in Arabic, English and Urdu from printed pp. 34-42 (reports 14957-14972), each paragraph cited to the page of the Shakir edition.
+- The features API test now expects the tafsir export (`tafsir.json`) that the tafsir browser added, so `main` passes the full suite again.
 - Tafsir Browser (volume 13, batch 2): al-Tabari's commentary on 7:105 to 7:124 (the staff and the white hand, the summoning of the sorcerers, the contest, their prostration, Pharaoh's threat) filed in Arabic, English and Urdu from printed pp. 13-34 (reports 14909-14956), each paragraph cited to the page of the Shakir edition.
 - Al-Tabari's commentary on 6:103 closes at printed p. 23 and 6:104 is filed in full, with 6:105 begun, from volume 12 pp. 21-27 (reports 13702 to 13711), in Arabic, English and Urdu; Arabic and Urdu parentheses in the volume 12 files filed so far are isolated.
 - Al-Tabari's commentary on 6:103 (volume 12, Shakir edition) continues through printed pp. 14-20 (reports 13696 to 13701 and the opinions on seeing God), in Arabic, English and Urdu, cited by printed page; the verse is filed to the foot of p. 20.
@@ -129,6 +130,7 @@ open a new block on top with the new version and today's date.
 - Al-Tabari's commentary on verse 3 of sura al-Ma'ida continues from printed p. 507 to p. 513 (reports 11047 to 11071): why the list of forbidden dead animals is repeated, the stone altars of the Age of Ignorance, and the divining arrows, in Arabic, English and Urdu.
 - Al-Tabari's commentary on verse 3 of sura al-Ma'ida continues from printed p. 514 to p. 520 (reports 11072 to 11087): Ibn Ishaq's account of Hubal and its arrows, the clauses on transgression, the despair of the disbelievers and 'do not fear them', and the first views on the perfecting of the religion, in Arabic, English and Urdu.
 - Al-Tabari's commentary on verse 3 of sura al-Ma'ida continues from printed p. 520 to p. 527 (reports 11088 to 11101): his preference on the perfecting of the religion, the completion of the favour, the approval of Islam as the religion, and the reports that the verse came down at Arafa on a Friday, in Arabic, English and Urdu.
+- Al-Tabari's commentary on verse 3 of sura al-Ma'ida continues from printed p. 527 to p. 534 (reports 11101 to 11118): the remaining reports on the day the verse came down (Arafa, a Friday, against a Monday or an unknown day) and the start of the exception for a person driven by hunger, in Arabic, English and Urdu.
 
 ### Changed
 - The Modern Islam Browser now names the voices of worship and devotional song (founder's request, 6 November 2026): four person roles, `reciter`, `muezzin`, `munshid` and `sufi-singer`, join the role list, and the Figures section gains a field, "Reciters, muezzins and munshids", listed first so that a reciter who also preaches is filed with the reciters. The 48 person records that already carry one of these roles are gathered there at once (those with a dated fact from 1976 on appear in the browser). Three audio genres are added for recordings: Qur'an recitation and the call to prayer, each labelled "not music" in all three languages, and Sufi inshad and hadra. The operative prompt and plan 26 say how to write these records (riwaya, the muezzin's mosque and years, Qur'an text never typed, a Sufi repertoire never taken as a faith attestation), and the seeds list several hundred named leads with their generators.
@@ -136,6 +138,7 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic and Urdu parentheses (remaining unquoted and summary values, batch 1): brackets now stay in place in right-to-left text in 38 files.
 - Arabic and Urdu parentheses (remaining unquoted and summary values, batch 2): brackets now stay in place in right-to-left text in 7 files.
 - Arabic and Urdu parentheses (remaining unquoted and summary values, batch 1): brackets now stay in place in right-to-left text in 66 files.
 - Arabic and Urdu parentheses (remaining unquoted and summary values, batch 6): brackets now stay in place in right-to-left text in 16 files.
