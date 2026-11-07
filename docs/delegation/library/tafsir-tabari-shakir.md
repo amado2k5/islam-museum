@@ -223,7 +223,8 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 19: pp. 399-405 filed in ar, en and ur (reports 10839-10844): verse 162 closes at p. 399 and verse 163 is filed to report 10844 at p. 405.
 - Batch 20: pp. 406-412 filed in ar, en and ur (reports 10845-10852): verses 163 to 170 are filed to the foot of p. 412.
 - Batch 21: pp. 146-152 filed in ar, en and ur (reports 11613-11614): verse 16 closes at p. 146, verse 17 is filed in full (pp. 146-150), verse 18 is begun at p. 150; verse 18 continues.
-- Batch 22: pp. 153-159 filed in ar, en and ur (reports 11615-11623): verse 18 closes at p. 154, verse 19 is filed in full (pp. 155-158), verse 20 is begun at p. 159; next is the rest of 5:20 from the foot of p. 159 (after 'remember God's blessing upon you').
+- Batch 22: pp. 153-159 filed in ar, en and ur (reports 11615-11623): verse 18 closes at p. 154, verse 19 is filed in full (pp. 155-158), verse 20 is begun at p. 159; verse 20 continues.
+- Batches 23-24: pp. 160-173 filed in ar, en and ur (reports 11624-11659): verse 20 closes at p. 166, verse 21 is filed in full (pp. 167-171), verse 22 is begun at p. 171; next is the rest of 5:22 from the foot of p. 173 (report 11659, al-Rabi').
 - Batch 21: pp. 413-419 filed in ar, en and ur (reports 10853-10854): verse 170 closes at p. 413 and verse 171 is filed to report 10854 at p. 419.
 - Batch 22: pp. 420-426 filed in ar, en and ur (reports 10855-10857): verse 171 closes at p. 424, verse 172 is filed to p. 425, and verse 173 is begun at p. 426.
 - Batch 23: pp. 427-431 filed in ar, en and ur (reports 10858-10865): verses 173 to 175 are filed in full, and verse 176 is begun at p. 430.
