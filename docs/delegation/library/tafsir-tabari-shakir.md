@@ -231,6 +231,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 28: pp. 189-193 filed in ar, en and ur (reports 11686-11696): 5:25 closes (separate us, al-Suddi on Moses' haste, al-Dahhak) and 5:26 is begun (the forty years: what governs 'forty', the wandering, manna and quails, 'hitta', 'Awj, Joshua's conquest). Stop sentence at the foot of p. 193 (report 11697 begins). Next is p. 194.
 - Batch 29: pp. 194-198 filed in ar, en and ur (report 11697): 5:26 continues (Ibn Ishaq's old Torah translation: Moses' plea, the forty years, the failed ascent, Jericho; al-Tabari's choice that 'forty' is governed by the forbidding and covers all, with the arguments from 'Awj and Bal'am). Stop sentence at the foot of p. 198. Next is p. 199.
 - Batch 30: pp. 199-203 filed in ar, en and ur (reports 11698-11706 begun): 5:26 closes ('Awj as a bridge, the meaning of wandering, 'do not grieve') and 5:27 is begun (the two sons of Adam: why they offered, the herder and the farmer). Stop sentence at the foot of p. 203 in report 11706. Next is p. 204.
+- Batch 31: pp. 204-208 filed in ar, en and ur (reports 11706-11719): 5:27 continues (the accounts of Abel and Cain: sheep and crops, Mujahid, Ibn Ishaq and al-Suddi on the sisters, Qatada, the view of Children of Israel men by al-Hasan, and the start of al-Tabari's choice). Stop sentence at the foot of p. 208. Next is p. 209.
 - Batch 21: pp. 413-419 filed in ar, en and ur (reports 10853-10854): verse 170 closes at p. 413 and verse 171 is filed to report 10854 at p. 419.
 - Batch 22: pp. 420-426 filed in ar, en and ur (reports 10855-10857): verse 171 closes at p. 424, verse 172 is filed to p. 425, and verse 173 is begun at p. 426.
 - Batch 23: pp. 427-431 filed in ar, en and ur (reports 10858-10865): verses 173 to 175 are filed in full, and verse 176 is begun at p. 430.
@@ -401,6 +402,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 35: pp. 287-293 filed in ar, en and ur (reports 15461-15464): verse 182 closes at p. 287, verses 183 to 186 are filed in full and verse 187 is begun at p. 291; stop sentence at the foot of p. 293 at the start of report 15465 (next: p. 294).
 - Batch 36: pp. 294-300 filed in ar, en and ur (reports 15465-15493): verse 187 continues ('mursaha', 'it weighs heavily', 'suddenly', 'hafi 'anha' and al-Tabari's choice); stop sentence at the foot of p. 300 at the poet's citation joining 'hafi' with 'about' (next: p. 301).
 - Batch 37: pp. 301-307 filed in ar, en and ur (reports 15494-15511): verse 187 closes at p. 301, verse 188 is filed in full and verse 189 is begun at p. 303; stop sentence at the foot of p. 307 at the start of report 15512 (next: p. 308).
+- Batch 38: pp. 307-314 filed in ar, en and ur (reports 15512-15526): verse 189 closes at p. 308 and verse 190 is begun (the Abd al-Harith reports and the editor's note on the Samura report); stop sentence at the foot of p. 314 after report 15526 (next: p. 315).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
