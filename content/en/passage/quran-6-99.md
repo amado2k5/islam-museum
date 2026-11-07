@@ -52,6 +52,14 @@ The editor says the first speaker is Abu Ubayda in Majaz al-Qur'an, also ascribe
 
 13673, from Ibn Abbas: "its ripening" means when it ripens, its ripening is its maturity. Reports 13674 and 13675, from Ibn Abbas and Qatada, follow on "look at its fruit when it bears and its ripening", but page 581 in the available source is damaged in its scan, its margins running into the text, so only report 13673 can be read clearly there, and the rest will be revisited when an image of the page is available. {cite:tafsir-tabari-shakir-v11 p. 581}
 
-We stop here at the foot of p. 581, after report 13673 on "its ripening" in verse 99, and al-Tabari continues on p. 582.
+This continues report 13675 from Qatada, "look at its fruit when it bears and its ripening", that is, its ripeness; 13676, from Qatada: "its ripening" is its ripeness; 13677, from al-Suddi: and its ripeness; 13678, from al-Dahhak: meaning its ripeness; 13679, from Ibn Abbas: "its ripening" is its ripeness. {cite:tafsir-tabari-shakir-v11 p. 582}
+
+On "in that are signs for a people who believe" he says: in God's sending down from heaven the water by which he brought out the growth of everything, the green from which he brought out the piled grain, and all else he enumerated in this verse of the kinds of his creation, "are signs", says in that, people, when you look at its fruit as it sets and at its ripening and end, and see the difference of its states and its changing in increase and growth, you know it has a governor like whom there is nothing and that worship is fit for none but him, apart from gods and rivals, and in it are arguments, proof and clarity; "for a people who believe" says for a people who affirm God's oneness and his power over what he wills. He singled out the believing people because they are the ones who profit from God's arguments and take heed of them, not those on whose hearts God has set a seal, who know no truth from falsehood and distinguish no guidance from error. {cite:tafsir-tabari-shakir-v11 p. 583}
+
+The editor refers for "sign" to earlier passages.
+
+At the close of this page the copyist records that the eleventh part of al-Tabari's commentary is complete, and that the twelfth part follows it, opening with the commentary on "they made the jinn partners to God, though he created them, and falsely attributed to him sons and daughters without knowledge". {cite:tafsir-tabari-shakir-v11 p. 583}
+
+Here verse 99 ends and the text of volume 11 is complete at p. 583.
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
