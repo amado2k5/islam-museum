@@ -30,7 +30,7 @@ Report 17304 is from al-Hasan: the fasters of the month of Ramadan. Reports 1730
 
 The rest of report 17313 is from Ibrahim ibn Yazid, from al-Walid ibn Abdullah, from Aisha: the wandering of this community is fasting. The editor notes that Ibrahim ibn Yazid al-Khuzi is abandoned as a transmitter and that al-Walid ibn Abdullah is trustworthy but did not meet Aisha, so the report is mursal and very weak in its chain. {cite:tafsir-tabari-shakir-v14 p. 506}
 
-"The bowers and the prostraters" means those who pray, bowing and prostrating in their prayer. Report 17314 is from al-Hasan: the obligatory prayer. The editor refers to the language indexes for bowing and prostration. {cite:tafsir-tabari-shakir-v14 p. 506}
+"Those who bow and prostrate" means those who pray, bowing and prostrating in their prayer. Report 17314 is from al-Hasan: the obligatory prayer. The editor refers to the language indexes for bowing and prostration. {cite:tafsir-tabari-shakir-v14 p. 506}
 
 "Those who enjoin the right and forbid the wrong" are those who call people to truth in their religion, to following right guidance and acting on it, and forbid every act and word God forbade His servants. Report 17315 is from al-Hasan: enjoining the right is to say there is no god but God, and forbidding the wrong is forbidding polytheism; report 17316 from him: they did not enjoin people until they were of its people, and did not forbid the wrong until they had refrained from it. Report 17317 is from Abu al-Aliya: wherever the Qur'an mentions enjoining the right, it means calling from polytheism to Islam, and forbidding the wrong means forbidding the worship of idols and devils. {cite:tafsir-tabari-shakir-v14 p. 507}
 
