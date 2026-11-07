@@ -29,6 +29,7 @@ relations:
   - { type: member_of, target: group/muhajirun }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-badr, role: "قيادة الميمنة؛ من فريق استطلاع الغلامين", sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/sahaba, sources: [source/tabaqat-ibn-sad]}
 external_ids:
   wikidata: Q293565
 sources: [source/sallabi-ali-vol2, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad, source/muruj-al-dhahab, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar]

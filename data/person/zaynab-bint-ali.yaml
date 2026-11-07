@@ -30,7 +30,12 @@ relations:
   - { type: member_of, target: group/ahl-al-bayt }
   - { type: member_of, target: group/banu-hashim }
   - { type: participated_in, target: event/karbala, role: survivor-taken-captive, sources: [source/momen-1985] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-sad-tabaqat-bewley]}
 external_ids:
   wikidata: Q1111208
 sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985, source/nisa-hawl-alrasul]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "Generated 2026-10-11, as recorded in this record's status.generated_by (which names no source work); the record rests on Ibn Sa'd's Tabaqat in Bewley's translation (source/ibn-sad-tabaqat-bewley), Momen's Introduction to Shi'i Islam (source/momen-1985) and Nisa Hawl al-Rasul (source/nisa-hawl-alrasul)"
+  generated_by: "Devin"
