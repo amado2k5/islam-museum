@@ -39,3 +39,12 @@ Radial routes,rings and neighbourhoods coexist,and street/arcade uses changed. L
 
 ## Map,measurements and retained accounts
 Le Strange's1900map is reconstruction,not aerial photography or foundation survey; not every marginal feature necessarily belongs to762 {cite:commons-round-city-lestrange}. Duri/Le Strange differ on Kufa/Basra compass labels and diameter estimates. Existing city coordinates have not been replaced by an inferred circle centre {cite:tdv-bagdat-duri Measurements} {cite:lestrange-baghdad-1900 p.17–18}. The retained Muqaddasi-based Arabic account gives4,000,833dirhams,whereas Duri gives4,000,883. Retain each attribution rather than silently correct one tradition {cite:ahsan-al-taqasim p.107–109} {cite:tdv-bagdat-duri Costs}. Masudi's gate/prison narrative also remains an attributed account,not modern engineering measurement {cite:muruj-al-dhahab p.276–278}.
+
+## Site of covered-conduit arrangement
+Baghdad is also linked to [[invention/mansur-covered-water-conduits|the covered water-conduit arrangement]] as place of implementation,not as the first city ever to know water management. Reports connect the urban core with outside supplies such as Dujayl/Karkhaya through lined/covered channels {cite:lestrange-baghdad-1900 p.28–29}. This adds a service-history dimension to place description beyond geometric form alone.
+
+## From fixed nucleus to changing city
+The site's historical value includes movement from a defined political nucleus to a broader city with shifting functions. Water is part of that movement: sustaining habitation,enabling market relocation,and supporting reorganization of circulation/work {cite:tdv-bagdat-duri Markets,Development}. So the round nucleus should be read as a beginning of an evolving urban process,not a static final map.
+
+## Limits of spatial certainty
+Even with strong textual/cartographic evidence,this page cannot by itself deliver a complete operational map of every historical water line. We preserve the distinction between interpretive witness (the1900reconstruction map) and field-execution evidence,and between historical narrative and modern engineering measurement. That keeps Baghdad's record precise: a site with documented organized water service,but not fully recoverable technical geometry from one source layer alone.
