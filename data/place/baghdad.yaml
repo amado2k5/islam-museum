@@ -13,11 +13,12 @@ inventions:
   - { invention: invention/mansur-covered-water-conduits, relation: site-of, sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri] }
   - { invention: invention/abu-hanifa-brick-stack-reckoning, relation: site-of, sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri] }
   - { invention: invention/karkh-market-relocation-zoning, relation: site-of, sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900] }
+  - { invention: invention/khwarizmi-sindhind-tables, relation: site-of, sources: [source/khwarizmi-mactutor, source/tdv-harizmi] }
 regions: [levant-iraq]
 coordinates: [33.3406, 44.4009]
 coordinate_precision: site
 external_ids: { wikidata: "Q1530", geonames: "98182", pleiades: "893952" }
-sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/ahsan-al-taqasim, source/tdv-bagdat-duri, source/lestrange-baghdad-1900, source/baladhuri-hitti-1916, source/commons-round-city-lestrange, source/karaji-mactutor, source/tdv-kereci]
+sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/ahsan-al-taqasim, source/tdv-bagdat-duri, source/lestrange-baghdad-1900, source/baladhuri-hitti-1916, source/commons-round-city-lestrange, source/karaji-mactutor, source/tdv-kereci, source/khwarizmi-mactutor, source/tdv-harizmi]
 education:
   did_you_know:
     ar: "لُقّبت بغداد بمدينة السلام، وكانت في القرن الثالث الهجري أوسع مدن الدنيا؛ قدّر الجغرافيون أهلها بمئات الألوف."
@@ -45,6 +46,7 @@ provenance:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b95", source: "D-137; added site-of link to covered-conduits arrangement and additive prose sections; preserved earlier fields/status/provenance." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b96", source: "D-138; added site-of link for reported brick-stack reckoning method and additive prose sections." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b97", source: "D-139; added a site-of link for the reported Karkh market relocation and additive prose while preserving original coordinates, date and prior accounts." }
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b100, source: "D-143; appended the cautious site-of tie for the Sindhind tables and translated location-limit prose; no observatory or writing room is asserted." }
 kids:
   ar: "بغداد مدينة السلام أسسها المنصور في العهد العباسي، وصارت عاصمة العلم في العالم."
   en: "Baghdad, the City of Peace founded by al-Mansur in Abbasid times — it became the world's capital of learning."

@@ -23,3 +23,12 @@ The editors note that [[person/al-biruni-muhammad-ibn-ahmad|al-Biruni]] refers t
 
 ## Note
 The text of the tables was not read here; everything on this page comes from the introduction to the Cairo edition of the Algebra.
+
+## The Sindhind tables and the astronomical work
+The museum record treats the Sindhind tables as an astronomical adaptation attributed to al-Khwarizmi, based on modern accounts rather than a direct reading of a lost Arabic text {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}. The biography lists calendars, celestial positions, sines and tangents, spherical astronomy, parallax, eclipses, and crescent visibility among the work's topics {cite:khwarizmi-mactutor Astronomy paragraph}. This list reports the book's scope as summarized by that biography; it does not reconstruct chapter order or table entries.
+
+## Versions and transmission
+The account distinguishes two Arabic versions of the zij, both lost, from what can be said about surviving Latin witnesses {cite:khwarizmi-mactutor Astronomy paragraph}. It reports that al-Majriti critically revised the shorter version in the tenth century and that Adelard of Bath translated a Latin text from it; a Latin version of the longer text also survives {cite:khwarizmi-mactutor Astronomy paragraph}. That evidence alone does not identify every intermediate stage or match every Latin witness to a particular Arabic original {cite:tdv-harizmi pp. 224–227}.
+
+## Limits of place and date
+The biography places an Indian astronomical text's arrival at the Baghdad court around 770 in the background to the work and locates al-Khwarizmi's scholarly setting in Baghdad {cite:khwarizmi-mactutor Astronomy paragraph}. The place record therefore links the work to Baghdad as a documented setting, not to a particular observatory or writing room {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}. The precise composition date and arrangement of the Arabic versions remain unsettled in the sources recorded here.

@@ -67,3 +67,12 @@ translators: []
 
 ## بغداد وسياق معاملات القوى
 ترتبط أهم أعمال [[person/al-karaji|الكرجي]] الرياضية ببغداد، وتذكر TDV رعاية فخر الملك البويهية، دون إثبات مذهب المؤلف الشخصي {cite:karaji-mactutor Biography} {cite:tdv-kereci pp. 277–278}. ترتبط [[invention/karaji-binomial-coefficient-recurrence|قاعدة معاملات القوى]] بهذا السياق العلمي، لا بعنوان ورشة ثبت فيها تأليف العمل المفقود {cite:karaji-mactutor Biography} {cite:samawal-dsb algebra}. حفظ السموأل وصفها في الباهر، لكن ذلك لا يوفر خريطة طرق مؤرخة لنقل الجدول من المدينة إلى أوروبا أو الصين {cite:samawal-mactutor Biography} {cite:jia-xian-mactutor Biography}.
+
+## بغداد وزيج السند هند
+تذكر سيرة الخوارزمي وصول نص فلكي هندي إلى البلاط في بغداد نحو 770م، وتضع الخوارزمي في محيط العمل العلمي بالمدينة {cite:khwarizmi-mactutor Astronomy paragraph}. يربط سجل [[invention/khwarizmi-sindhind-tables|تكييف جداول السند هند]] هذا السياق بعمل فلكي منسوب إليه، ولا يزعم أن النص وصل إلى غرفة تأليف محددة أو أن مرصدًا بعينه استضافه {cite:khwarizmi-mactutor Astronomy paragraph} {cite:tdv-harizmi pp. 224–227}.
+
+## ما الذي يثبته ارتباط المكان؟
+يدل خبر وصول المادة الهندية إلى البلاط على سياق تداول علمي في بغداد، بينما تسرد السيرة موضوعات الزيج من دون أن تعين مكان نسخ كل جدول أو موضع رصده {cite:khwarizmi-mactutor Astronomy paragraph}. لذلك يضيف سجل المدينة علاقة «موقع العمل» على مستوى المدينة فحسب؛ ولا يحول هذا الربط إلى عنوان مؤسسة أو ورشة {cite:khwarizmi-mactutor Astronomy paragraph}.
+
+## حدود الادعاء الجغرافي
+نسختا الزيج العربيتان مفقودتان، وتصف السيرة مراجعة أندلسية وترجمات لاتينية من غير أن تقدم مسار سفر محددًا أو تاريخًا لكل محطة {cite:khwarizmi-mactutor Astronomy paragraph}. لا يرسم سجل الاختراع خريطة انتشار، لأن الشواهد المقروءة هنا لا تحدد طريقًا مؤرخًا يمكن تمثيله بأمان {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}.
