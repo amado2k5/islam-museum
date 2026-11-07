@@ -167,6 +167,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Tafsir Browser: al-Tabari vol. 11, batch 99 (pp. 568-574, reports 13638-13661): 6:98 end and 6:99 begun (water, green growth, grain) Arabic, English and Urdu.
+- al-Tabari v16 (Batch 82): Sura Ibrahim pp. 581-587 filed in ar, en and ur (reports 20730-20753): the meaning of "hin" settled, and 14:26 begun (the bad word as a bad tree, the colocynth, uprooted). Stops at the foot of p. 587; the next batch begins at p. 588.
 - Tafsir Browser: al-Tabari vol. 11, batch 98 (pp. 561-567, reports 13612-13638): 6:96 end, 6:97 and 6:98 begun (resting-place and repository) Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 97 (pp. 554-560, reports 13595-13611): 6:95 end and 6:96 begun (dawn, night, sun and moon) Arabic, English and Urdu.
 - Tafsir Browser: al-Tabari vol. 11, batch 96 (pp. 547-553, reports 13572-13594): 6:94 end and 6:95 begun (the splitter of grain and stone) Arabic, English and Urdu.
