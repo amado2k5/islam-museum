@@ -1,0 +1,74 @@
+id: listing/banque-zitouna
+class: listing
+kind: company
+label:
+  ar: مصرف الزيتونة
+  en: Banque Zitouna
+  ur: بینک زیتونہ
+summary:
+  ar: أول بنك إسلامي في تونس والمغرب العربي، برأس مال قدره 30 مليون دولار، أُسس لتطوير منتجات التمويل والادخار الإسلامية للشركات
+    والأفراد، ومقره تونس العاصمة.
+  en: The first Islamic bank in Tunisia and the Maghreb, with capital of US$30 million, set up to develop Islamic financing
+    and savings products for businesses and individuals, headquartered in Tunis.
+  ur: تیونس اور مغرب کا پہلا اسلامی بینک، 3 کروڑ ڈالر کے سرمائے سے، جو کاروباروں اور افراد کے لیے اسلامی مالیات اور بچت کی
+    مصنوعات بنانے کے لیے قائم ہوا؛ صدر دفتر تیونس شہر میں ہے۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- maghreb
+founded:
+  edtf: '2009'
+  hijri: '1430~'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: Founded 2009, as the article states without its own citation; the bank's opening is reported by Global Arab Network
+    (archived June 2010), cited by the article. The Hijri year is converter-derived.
+  sources:
+  - source/wikipedia-banque-zitouna-en
+made:
+  by_muslims: true
+  basis: documented
+  sources:
+  - source/wikipedia-banque-zitouna-en
+external_ids:
+  wikidata: Q2882969
+sources:
+- source/wikipedia-banque-zitouna-en
+- source/wikidata
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  place: place/tunis
+  serves:
+  - tn
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - en
+    - fa
+    - ff
+    - fr
+    - uz
+    checked: '2026-11-07'
+    sources:
+    - source/wikipedia-banque-zitouna-en
+  wikidata: Q2882969
+provenance:
+  layer: own-research
+  source: English Wikipedia "Banque Zitouna" (revision 1359472045, 15 June 2026), read in Chrome on the founder's Mac on 7
+    November 2026; Wikidata sitelinks read the same day
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b09

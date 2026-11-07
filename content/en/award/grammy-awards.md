@@ -11,6 +11,9 @@ The Grammy Awards are an annual ceremony established in 1958, originally called 
 ## The contemporary world music category
 A Best World Music Album award was first given at the 34th Grammy Awards in 1992; in 2004 it was split into traditional and contemporary categories, which were merged again into a single category from 2012. {cite:wikipedia-grammy-best-contemporary-world-music-album-en} In the contemporary category, the Senegalese singer [[person/youssou-ndour|Youssou N'Dour]]'s album [[work/egypt-youssou-ndour|Egypt]], with the Fathy Salama Orchestra, won in 2005; N'Dour had been nominated in the category's first year for another album and was nominated again in 2009. {cite:wikipedia-grammy-best-contemporary-world-music-album-en} {cite:wikipedia-egypt-youssou-ndour-en}
 
+## Other nominations
+At the 39th ceremony in 1997, Nusrat Fateh Ali Khan and Michael Brook's [[work/night-song-nusrat|Night Song]] was nominated for Best World Music Album, a category first given in 1992. {cite:wikipedia-night-song-nusrat-en}
+
 ## What the museum records
 The museum records the Grammys won by Muslim artists or by works about Islam, linked to the record of the work or the artist, with the ceremony year and category as the sources give them. {cite:wikipedia-grammy-best-contemporary-world-music-album-en}
 
