@@ -10,7 +10,7 @@ translators: []
 Muhammad Abul Huda al-Yaqoubi is a Syrian Islamic scholar, born in Damascus on 7 May 1963. He was trained in the Islamic sciences by his father, Ibrahim al-Yaqoubi, an imam and instructor at the Grand Umayyad Mosque, who gave him full authority to narrate hadith, to teach and to issue fatwas; he was appointed a Friday speaker at eighteen and an instructor at the Fatwa directorate at twenty-three. {cite:wikipedia-muhammad-al-yaqoubi-en} {cite:damas-muhammad-al-yaqoubi}
 
 ## Work and exile
-He served as mufti of Sweden in 1999. After criticising the Syrian government's response to the protests of 2011 he left Syria and is based in Morocco, where he leads the Sacred Knowledge initiative, founded in 2011. {cite:damas-muhammad-al-yaqoubi} He has run a YouTube channel under his own name since 2019. {cite:wikipedia-muhammad-al-yaqoubi-en}
+He served as mufti of Sweden in 1999. After criticising the Syrian government's response to the protests of 2011 he left Syria and is based in Morocco, where he leads the Sacred Knowledge initiative, founded in 2011. {cite:damas-muhammad-al-yaqoubi} His book Refuting ISIS, a rebuttal of the group's religious foundations, is published in ten languages. {cite:damas-muhammad-al-yaqoubi} He has run a YouTube channel under his own name since 2019. {cite:wikipedia-muhammad-al-yaqoubi-en}
 
 ## Positions and faith
 Read this section as the report of the sources, not as a museum ruling.

@@ -27,7 +27,7 @@ This section sets out positions as reported in the sources. It is not a verdict 
 
 Israr Ahmed opposed modern democracy and the prevalent electoral system, arguing that in a true Islamic state the ruler may overturn the majority decisions of an elected assembly; he called for the restoration of the caliphate and held, distinctively, that its foundations should be laid in Pakistan rather than in the Hijaz or Baghdad. {cite:wikipedia-israr-ahmed-en} The article also records his 1982 view that women should be barred from all professions except medicine and teaching. {cite:wikipedia-israr-ahmed-en}
 
-His organisation's website, as quoted in the article, holds that an Islamic state can be established in Pakistan by a popular non-violent movement and that a coup can never produce stable change. {cite:wikipedia-israr-ahmed-en}
+His organisation's website, as quoted in the article, holds that an Islamic state can be established in Pakistan by a popular non-violent movement and that a coup can never produce stable change; the critic Farhan Zahid, in the same article, notes that a number of Tanzeem-e-Islami members have reportedly been arrested in connection with the Islamic State group. {cite:wikipedia-israr-ahmed-en}
 
 The scholar Vali Nasr argues, as the article reports, that in the 1980s Israr Ahmed became part of a Saudi-backed anti-Shiite campaign, particularly through his popular Friday sermons in Bagh-e-Jinnah park in Lahore, and that the campaign turned doctrinal disputes into communal ones. This is Nasr's analysis as reported, not a verdict of the museum. {cite:wikipedia-israr-ahmed-en}
 

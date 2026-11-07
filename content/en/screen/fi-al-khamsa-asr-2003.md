@@ -5,4 +5,4 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-A film by Samira Makhmalbaf, shot in Kabul, about a girl who dreams of becoming president of Afghanistan. {cite:wikidata} {cite:imdb}
+A film by Samira Makhmalbaf, the first film shot in Kabul after the Taliban, about a girl who dreams of becoming president of Afghanistan. {cite:wikidata} {cite:imdb}

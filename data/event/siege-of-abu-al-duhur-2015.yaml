@@ -1,0 +1,23 @@
+id: event/siege-of-abu-al-duhur-2015
+class: event
+kind: siege
+label: { ar: "حصار مطار أبو الظهور", en: "Siege of Abu al-Duhur Airbase" }
+summary:
+  ar: "بطاقة أولية لحصار مطار أبو الظهور في ٢٠١٢–٢٠١٥م، سقوط القاعدة بيد جبهة النصرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Abu al-Duhur Airbase in 2012–15, the base's fall to Jabhat al-Nusra; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2012-09-23", precision: year, status: tradition, derived: true }
+  end: { edtf: "2015-09-09", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q20984686
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
