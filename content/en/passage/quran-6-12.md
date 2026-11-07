@@ -46,6 +46,10 @@ The editor refers for "doubt" and "loss" to earlier volumes, corrects "by making
 
 The case of "those who" in "those who have lost themselves" is accusative, in apposition to the "kum" of "he will gather you", as an explanation of it, since those who lost themselves are the ones addressed by "he will gather you". And "so they do not believe" means: through their ruin and cheating of themselves of their share they do not believe, that is, they do not affirm God's oneness, do not trust his promise and threat and do not acknowledge Muhammad's prophethood. {cite:tafsir-tabari-shakir-v11 p. 281}
 
+The editor's supplement (Ahmad Shakir, from the "completion of the tracing"; not al-Tabari's words) on report 13105: this report comes from the sahifa of Hammam ibn Munabbih and stands in the separate sahifa as no. 13 (edition of the Arab Academy in Damascus, 1372 AH). {cite:tafsir-tabari-shakir-v11 p. 589}
+
+On reports 13106 and 13107: here they are stopped at Abd Allah ibn Amr ibn al-As, but their sense is established as a raised report from Abu Hurayra in the Musnad (nos. 10683 to 10680, 10285 and 9607), in Sahih Muslim (vol. 2, p. 324, Bulaq edition) and in Ibn Majah (no. 4293), and also from Salman as a raised report in Muslim at the same place. {cite:tafsir-tabari-shakir-v11 p. 589}
+
 Verse 12 closes here at p. 281, and al-Tabari goes on to [[passage/quran-6-13|6:13]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

@@ -70,6 +70,8 @@ Al-Tabari continues: this includes the duty to command the right and forbid the 
 
 Al-Tabari completes "to God is your return, all together": I know what all of you do of good and evil, and I will inform each group there of what it did and repay it according to what it deserves; no deed of any worker, male or female, is hidden from me. If the people of deviation accept, it is for them and for you, and if they persist in their error, the return of all is to me. {cite:tafsir-tabari-shakir-v11 p. 154}
 
+The editor's supplement (Ahmad Shakir, from the "completion of the tracing"; not al-Tabari's words) on report 12851: a good report, given here only by al-Tabari and by Ibn Mardawayh (as al-Durr al-Manthur records), so far as the editor knows. Al-Tabari's chain is sound; the editor holds al-Rabi' ibn Sabih to be trustworthy, since although some scholars weakened him, others vouched for him. {cite:tafsir-tabari-shakir-v11 p. 589}
+
 Verse 105 closes here at p. 154, and al-Tabari goes on to [[passage/quran-5-106|5:106]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
