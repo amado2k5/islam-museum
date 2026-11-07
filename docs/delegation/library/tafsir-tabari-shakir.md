@@ -278,6 +278,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 4 (pp. 43-57, two sub-batches in one PR): reports 14973-15014 filed in ar, en and ur; verses 128 to 132 are filed in full and verse 133 is begun (report 15014 at p. 57). Next is the rest of 7:133 from the foot of p. 57 (printed p. 58).
 - Batch 5: pp. 58-65 filed in ar, en and ur (reports 15015-15026): verse 133 is filed to report 15026 at the foot of p. 65 (Ibn Abbas on Ibn Umar and sura al-Ankabut). Next is the rest of 7:133 from printed p. 66.
 - Batch 6: pp. 66-73 filed in ar, en and ur (reports 15026-15041): verse 133 closes at p. 70, verse 134 is filed in full and verse 135 is begun (report 15041 at p. 73). Next is the rest of 7:135 from report 15042 (al-Suddi) at the foot of p. 73 (printed p. 74).
+- Batch 7: pp. 74-81 filed in ar, en and ur (reports 15042-15055): verses 135 to 137 are filed in full and verse 138 is begun (report 15055 at p. 81). Next is the rest of 7:138 from report 15056 (Abd al-Razzaq) at the foot of p. 81 (printed p. 82).
 
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
