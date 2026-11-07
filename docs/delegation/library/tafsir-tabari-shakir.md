@@ -341,6 +341,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 63: pp. 371-376 filed in ar, en and ur (reports 16987-16996): the 9:75-9:77 commentary (in the 9:75 file) continues to the foot of p. 376 after report 16996 (next: p. 377).
 - Batch 64: pp. 377-382 filed in ar, en and ur (reports 16997-17003 begun): the 9:75-9:77 commentary is completed, 9:78 is filed in full and 9:79 is begun to the foot of p. 382 in the middle of report 17003 (next: p. 383).
 - Batch 65: pp. 383-388 filed in ar, en and ur (reports 17004-17013, 17014 begun): 9:79 continues to the foot of p. 388 in the middle of report 17014 (next: p. 389); the end of report 17003 at p. 382 is also corrected, since that report ends on p. 382.
+- Batch 66: pp. 389-394 filed in ar, en and ur (reports 17014-17022): 9:79 is completed and 9:80 is begun to the foot of p. 394 (next: p. 395).
 - Batch 51: pp. 293-299 filed in ar, en and ur (reports 16802-16809, 16810 begun): 9:52 is completed, 9:53 to 9:56 are filed in full and 9:57 is filed to the foot of p. 299 at report 16810 (next: p. 300).
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
@@ -709,3 +710,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 82: pp. 449-455 filed in ar, en and ur (reports 13419-13431): 6:70 end and 6:71 (the bewildered man called to guidance), up to its last clause
 - Batch 83: pp. 456-462 filed in ar, en and ur (reports ): 6:71 end, 6:72 and 6:73 begun (grammar of 'be and it is', the trumpet)
 - Batch 84: pp. 463-469 filed in ar, en and ur (reports 13432-13440): 6:73 end and 6:74 (Abraham and Azar)
+- Batch 85: pp. 470-476 filed in ar, en and ur (reports 13441-13461): 6:75 begun (the dominion of the heavens and the earth)
