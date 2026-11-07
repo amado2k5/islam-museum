@@ -503,6 +503,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 73: pp. 547-552 filed in ar, en and ur (reports 16090-16105): 8:41 continues; stop sentence at the foot of p. 552 after report 16105 (next: p. 553).
 - Batch 74: pp. 553-558 filed in ar, en and ur (reports 16106-16126): 8:41 continues; stop sentence at the foot of p. 558 after report 16126 (next: p. 559).
 - Batch 75: pp. 559-564 filed in ar, en and ur (reports 16127-16144): 8:41 closes at p. 563, 8:42 begun; stop sentence at the foot of p. 564 after report 16144 (next: p. 565).
+- Batch 76: pp. 565-570 filed in ar, en and ur (reports 16145-16153): 8:42 closes at p. 569, 8:43 begun; stop sentence at the foot of p. 570 in the middle of report 16153 (next: p. 571).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
@@ -578,6 +579,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 66: pp. 489-498 filed in ar, en and ur (reports 18585-18599): 11:108 closes (the last grammarians' view, al-Tabari's choice, 'a gift never cut off'), 11:109 (no doubt about their worship, 'their share undiminished'), 11:110 (the book given to Moses, the word that went forth) and 11:111 begun (the readings of 'wa inna kullan lamma' and the grammarians' views, al-Tabari's choice) to the foot of p. 498. Next is p. 499.
 - Batch 67: pp. 499-508 filed in ar, en and ur (reports 18600-18643): 11:111 closes, 11:112 ('stand firm'), 11:113 ('do not incline to the wrongdoers') filed in full and 11:114 begun (the views on 'the two ends of the day', al-Tabari's choice, the readings of 'zulafan', 'part of the night') to the foot of p. 508. Next is p. 509.
 - Batch 68: pp. 509-518 filed in ar, en and ur (reports 18644-18674): 11:114 continued (the parts of the night, the good deeds that drive away evil deeds as the five prayers, the hadiths of Uthman and Salman, the man who repented and the question whether the verse is for him alone) to the foot of p. 518. Next is p. 519.
+- Batch 69: pp. 519-527 filed in ar, en and ur (reports 18675-18691): 11:114 closes (the reports on the man who repented and whether the verse is for him alone, from Ibn Mas'ud, Mu'adh, Abu Umama, Abu al-Yusr and others), 11:115 ('be patient') filed in full and 11:116 begun ('people of remaining virtue', the exception) to the foot of p. 527. Next is p. 528.
 
 - Batch 17: pp. 133-139 filed in ar, en and ur (reports 12843-12851): verse 5:103 closes at p. 136, 5:104 is filed in full, and 5:105 is filed to the foot of p. 139 after report 12851 (next: p. 140, report 12852).
 
