@@ -10,7 +10,7 @@ Verse 156 of [[passage/quran-7|Surat al-A'raf]], a Meccan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 156 of 206 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 156 (pp. 152-158)**
+**Commentary on verse 156 (pp. 152-160)**
 
 **On "write for us ... we have turned to You"**
 
@@ -36,6 +36,14 @@ Report 15206, from Ibn Abbas, through Ya'qub, Ibn Ulayya, Khalid al-Hadhdha' and
 
 Report 15208, from Ibn Abbas, through al-Muthanna, Abd Allah ibn Salih, Mu'awiya and Ali: God had written in the tablets the mention of Muhammad and his community, and what He had stored for them with Him, what He made easy for them in their religion and what He made wide for them in what He made lawful; then He said. {cite:tafsir-tabari-shakir-v13 p. 158}
 
-We stop here at the foot of p. 158, in the middle of report 15208 from Ibn Abbas on "My punishment I inflict on whom I will" in verse 156; the next batch begins at p. 159. {cite:tafsir-tabari-shakir-v13 p. 158}
+The rest of report 15208, from Ibn Abbas: then God said "My punishment I inflict on whom I will, and My mercy encompasses everything; I shall write it for those who fear", meaning shirk. {cite:tafsir-tabari-shakir-v13 p. 159}
+
+Others said: rather it is general in this world and particular in the Hereafter. Report 15209, from al-Hasan and Qatada, through al-Hasan ibn Yahya, Abd al-Razzaq and Ma'mar: in this world it embraced the pious and the wicked, and on the Day of Resurrection it is for those who feared God alone. Others said: it is general, and it is repentance. Report 15210, from Ibn Zayd, through Yunus and Ibn Wahb: Moses asked the prayer given above, from "You are our protector" to "we have turned to You", and God said "My punishment I inflict on whom I will", which is the punishment mentioned, "and My mercy", which is repentance, "encompasses everything; I shall write it for those who fear"; so His mercy is the repentance that Moses asked for, which God wrote for us. {cite:tafsir-tabari-shakir-v13 p. 159}
+
+As for "I shall write it for those who fear", he says: I shall write My mercy that encompasses everything, "write" here meaning I shall write in the tablet in which the Torah was written, "for those who fear", that is, for the people who fear God and dread His punishment for disbelief in Him and disobedience in His command and prohibition, so they perform His obligations and avoid disobeying Him. The editor notes that the printed text and manuscript drop the lam and that it is right to keep it. {cite:tafsir-tabari-shakir-v13 p. 159}
+
+The interpreters differed on the meaning in which God described these people as fearing Him. Some said it is shirk; report 15211, from Ibn Abbas, through al-Muthanna, Abd Allah ibn Salih, Mu'awiya and Ali: meaning shirk. Others said rather it is all disobedience; report 15212, from Qatada, through Bishr, Yazid and Sa'id: disobedience to God. {cite:tafsir-tabari-shakir-v13 p. 160}
+
+As for zakat and giving it, al-Tabari has explained its character earlier, and a statement is related from Ibn Abbas here, report 15213, through al-Muthanna, Abd Allah, Mu'awiya and Ali: "and give zakat" means they obey God and His Messenger. It is as if Ibn Abbas took this to mean doing the righteous deeds that purify and cleanse the soul. As for "and who believe in Our signs", he says: and for the people who affirm and acknowledge Our marks and proofs. {cite:tafsir-tabari-shakir-v13 p. 160}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
