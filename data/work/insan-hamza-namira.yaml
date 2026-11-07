@@ -1,0 +1,48 @@
+id: work/insan-hamza-namira
+class: work
+kind: album
+label: { ar: "إنسان ⁦(ألبوم حمزة نمرة، 2011)⁩", en: "Insan (Hamza Namira album)", ur: "انسان ⁦(حمزہ نمرہ کا البم، 2011)⁩" }
+summary:
+  ar: "الألبوم الثاني للمغني والملحن المصري حمزة نمرة، صدر عن أوايكننغ سنة 2011 بست عشرة أغنية بالعربية والمصرية، منها «إنسان» و«الميدان» و«على باب الله» و«حاصر حصارك»، وأغنيتان إضافيتان منهما «اسمي مصر» مسجلة حيا؛ أنتجه حمزة نمرة مع محمد دياب وحازم وفي."
+  en: "The Egyptian singer-songwriter Hamza Namira's second album, released by Awakening in 2011 with sixteen songs in Arabic and Egyptian Arabic, among them 'Insan', 'El-Midan', 'Ala Bab Allah' and 'Hasir Hisarak', and two bonus tracks including a live 'Esmy Masr'; produced by Namira with Mohamed Diab and Hazem Wefy."
+  ur: "مصری گلوکار اور موسیقار حمزہ نمرہ کا دوسرا البم، جو 2011 میں اویکننگ سے سولہ عربی گیتوں کے ساتھ جاری ہوا، جن میں «انسان»، «المیدان» اور «علی باب اللہ» شامل ہیں۔"
+wings: [today, words]
+themes: [music]
+regions: [egypt-nile]
+genre: [religious-pop]
+composed: { edtf: "2011", hijri: "1432~", calendar: gregorian, precision: year, derived: true, note: "2011 in the Arabic article and on Wikidata. The Hijri year is converter-derived and approximate.", sources: [source/wikipedia-insan-hamza-namira-ar, source/wikidata-insan-hamza-namira] }
+languages: [ar]
+publisher: listing/awakening-records
+tracks:
+  - { n: 1, title: { ar: "إنسان", en: "Insan" }, duration_s: 213, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 2, title: { ar: "الميدان", en: "El-Midan" }, duration_s: 277, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 3, title: { ar: "هنسى", en: "Hansa" }, duration_s: 263, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 4, title: { ar: "تذكرتي ـ التغريبة 2", en: "Tazkarti (Al-Taghriba 2)" }, duration_s: 205, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 5, title: { ar: "يا مهون", en: "Ya Mehawen" }, duration_s: 266, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 6, title: { ar: "اوعدوني", en: "Oo'idouni" }, duration_s: 279, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 7, title: { ar: "ابن الوطن", en: "Ibn El-Watan" }, duration_s: 210, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 8, title: { ar: "بلدي يا بلدي", en: "Baladi Ya Baladi" }, duration_s: 247, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 9, title: { ar: "يا هناه", en: "Ya Hanah" }, duration_s: 245, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 10, title: { ar: "دوري", en: "Dawri" }, duration_s: 266, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 11, title: { ar: "حاصر حصارك", en: "Hasir Hisarak" }, duration_s: 227, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 12, title: { ar: "على باب الله", en: "Ala Bab Allah" }, duration_s: 226, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 13, title: { ar: "الوشوش", en: "El-Woshoush" }, duration_s: 205, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 14, title: { ar: "صوت", en: "Sot" }, duration_s: 447, performers: [person/hamza-namira], sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 15, title: { ar: "هيلا هيلا يا مطر", en: "Heila Heila Ya Matr" }, duration_s: 244, performers: [person/hamza-namira], note: "bonus", sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { n: 16, title: { ar: "اسمي مصر", en: "Esmy Masr" }, duration_s: 163, performers: [person/hamza-namira], note: "bonus, live", sources: [source/wikipedia-insan-hamza-namira-ar] }
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-07", sources: [source/wikidata-insan-hamza-namira] }
+  wikidata: "Q26721324"
+relations:
+  - { type: performed_by, target: person/hamza-namira, sources: [source/wikipedia-insan-hamza-namira-ar, source/wikidata-insan-hamza-namira] }
+  - { type: work_produced_by, target: person/hamza-namira, note: "with Mohamed Diab and Hazem Wefy", sources: [source/wikipedia-insan-hamza-namira-ar] }
+  - { type: published_by, target: listing/awakening-records, sources: [source/wikipedia-insan-hamza-namira-ar, source/wikipedia-awakening-music-en] }
+external_ids: { wikidata: "Q26721324" }
+sources: [source/wikipedia-insan-hamza-namira-ar, source/wikidata-insan-hamza-namira, source/wikipedia-awakening-music-en, source/guardian-awakening-islamic-singers-2012]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «إنسان ⁦(ألبوم)⁩» (revision 74948398 of 3 June 2026, citing the album's page) and Wikidata Q26721324 (revision 897997137), with the Awakening Music article and The Guardian (2012) for context, read in Chrome on the founder's Mac on 7 November 2026. The English track titles are the museum's transliterations"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b09
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
