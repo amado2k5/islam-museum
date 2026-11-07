@@ -11,5 +11,7 @@ periods: [period/contemporary-era]
 relations:
   - { type: authored, target: work/al-sira-al-nabawiyya-al-sahiha-umari, sources: [source/sahih-sira-umari-ulum-hikam-1994] }
 provenance: { layer: own-research, source: "source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 2, 5, 54", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
-sources: [source/sahih-sira-umari-ulum-hikam-1994]
+honours:
+  - { award: award/king-faisal-prize, category: islamic-studies, result: won, year: 1996, note: "topic: the life of the Prophet", sources: [source/wikipedia-king-faisal-prize-en] }
+sources: [source/sahih-sira-umari-ulum-hikam-1994, source/wikipedia-king-faisal-prize-en]
 status: { review: published, completeness: 2 }

@@ -19,7 +19,9 @@ provenance:
   run: "lib-exp-batch-1"
 relations:
   - { type: authored, target: work/khutab-muhammad-al-ghazali, sources: [source/khutab-al-ghazali-dar-al-itisam-vol1] }
-sources: [source/islam-wal-manahij-nahdat-misr-2005, source/al-aalam, source/assabile-omar-abdelkafy, source/khutab-al-ghazali-dar-al-itisam-vol1]
+sources: [source/islam-wal-manahij-nahdat-misr-2005, source/al-aalam, source/assabile-omar-abdelkafy, source/khutab-al-ghazali-dar-al-itisam-vol1, source/wikipedia-king-faisal-prize-en]
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1989, sources: [source/wikipedia-king-faisal-prize-en] }
 external_ids:
   wikidata: Q3068445
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion)" }

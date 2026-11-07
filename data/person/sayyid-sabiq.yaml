@@ -1,0 +1,31 @@
+id: person/sayyid-sabiq
+class: person
+label: { ar: "السيد سابق", en: "Sayyid Sabiq", ur: "السید سابق" }
+names:
+  - { value: "السيد سابق", kind: full }
+  - { value: "Sayyid Sabiq", kind: full }
+  - { value: "Sayed Sabeq", kind: alternate }
+gender: male
+summary:
+  ar: "فقيه مصري من علماء الأزهر (1915–2000)، صاحب «فقه السنة» الذي عرض أحكام الفقه من أدلتها دون التزام مذهب، فانتشر بين عامة المثقفين، وعمل في وزارة الأوقاف ثم في جامعة أم القرى بمكة، ونال جائزة الملك فيصل في الدراسات الإسلامية سنة 1994."
+  en: "Egyptian jurist of al-Azhar (1915–2000), author of Fiqh al-Sunna, which set out the rulings of law from their evidence without binding itself to one school and spread widely among general readers; he worked at the Ministry of Awqaf and then at Umm al-Qura University in Mecca, and received the King Faisal Prize for Islamic Studies in 1994."
+  ur: "ازہر کے مصری فقیہ ⁦(1915ء–2000ء)⁩، «فقہ السنہ» کے مصنف، جس نے کسی ایک مذہب کی پابندی کے بغیر دلائل سے فقہی احکام بیان کیے اور عام پڑھے لکھے لوگوں میں پھیل گئی؛ وہ وزارتِ اوقاف اور پھر مکہ کی جامعہ ام القریٰ میں رہے، اور 1994ء میں اسلامی علوم کا شاہ فیصل انعام پایا۔"
+wings: [people]
+regions: [egypt-nile]
+roles: [jurist, scholar, writer]
+born: { edtf: "1915-01", calendar: gregorian, precision: month, status: historical, derived: false, note: "Born at Istanha village, al-Bagur district, Monufia, in January 1915 / 1335 AH (Arabic article; Wikidata gives 1915).", sources: [source/wikipedia-sayyid-sabiq-ar, source/wikidata-sayyid-sabiq] }
+died: { edtf: "2000-02-27", hijri: "1420-11-23", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died on Sunday 23 Dhu al-Qa'da 1420 / 27 February 2000, aged about 85, and was buried in his family's tomb at Istanha (Arabic article).", sources: [source/wikipedia-sayyid-sabiq-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's categories file him among Egyptian Sunni scholars; its text names no school for him and describes his method as not binding itself to one madhhab. No value is recorded from categories alone."
+    sources: [source/wikipedia-sayyid-sabiq-ar, source/wikidata-sayyid-sabiq]
+footprint:
+  wikipedia: { languages: [ar, arz, ckb, ur], checked: "2026-11-07", sources: [source/wikidata-sayyid-sabiq] }
+  wikidata: "Q12188692"
+honours:
+  - { award: award/king-faisal-prize, category: islamic-studies, result: won, year: 1994, note: "topic: Islamic law; shared with Yusuf al-Qaradawi", sources: [source/wikipedia-king-faisal-prize-en] }
+external_ids: { wikidata: "Q12188692" }
+sources: [source/wikipedia-sayyid-sabiq-ar, source/wikidata-sayyid-sabiq, source/wikipedia-king-faisal-prize-en]
+provenance: { layer: own-research, source: "Arabic Wikipedia «السيد سابق» (revision 76918619, 7 October 2026), Wikidata Q12188692 (revision 2565193291) and the King Faisal Prize list (revision 1382965005), read in Chrome on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b09 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

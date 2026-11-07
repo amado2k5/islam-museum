@@ -22,5 +22,12 @@ The article records that the United States, Egypt, Saudi Arabia, the United King
 ## Today
 The prize continues annually, and the King Faisal Foundation publishes its laureates on its website. {cite:wikipedia-king-faisal-prize-en}
 
+## Laureates in the museum
+Service to Islam: [[person/abul-ala-maududi|Abul A'la Maududi]] (1979), [[person/abu-al-hasan-ali-nadwi|Abu al-Hasan 'Ali al-Hasani al-Nadwi]] (1980), [[person/khalid-bin-abdulaziz|Khalid bin Abdulaziz Al Saud]] (1981), [[person/ibn-baz-abd-al-aziz|Ibn Baz, Abd al-Aziz ibn Abd Allah]] (1982), [[person/hassanein-makhlouf|Hassanein Muhammad Makhlouf]] (1983), [[person/tunku-abdul-rahman|Tunku Abdul Rahman]] (1983), [[person/fahd-bin-abdulaziz|Fahd bin Abdulaziz Al Saud]] (1984), [[person/ahmed-deedat|Ahmed Deedat]] (1986), [[person/roger-garaudy|Roger Garaudy]] (1986), [[person/abubakar-gumi|Abubakar Gumi]] (1987), [[person/muhammad-al-ghazali-modern|Muhammad al-Ghazali]] (1989), [[person/alija-izetbegovic|Alija Izetbegović]] (1993), [[person/muhammad-ibn-salih-al-uthaymin|Muhammad ibn Salih al-Uthaymin]] (1994), [[person/jad-al-haqq-ali-jad-al-haqq|Jad al-Haqq ibn Ali Jad al-Haqq]] (1995), [[person/abdel-rahman-al-sumait|Abd al-Rahman al-Sumayt]] (1996), [[person/mahathir-mohamad|Mahathir Mohamad]] (1997), [[person/abdou-diouf|Abdou Diouf]] (1998), [[person/abdullah-bin-abdulaziz|Abdullah bin Abdulaziz Al Saud]] (2008), [[person/recep-tayyip-erdogan|Recep Tayyip Erdoğan]] (2010), [[person/abdullah-ahmad-badawi|Abdullah Ahmad Badawi]] (2011), [[person/ahmed-lemu|Ahmed Lemu]] (2014), [[person/zakir-naik|Zakir Naik]] (2015), [[person/salman-bin-abdulaziz|Salman bin Abdulaziz Al Saud]] (2017), [[person/ali-hassan-mwinyi|Ali Hassan Mwinyi]] (2022). {cite:wikipedia-king-faisal-prize-en}
+
+Islamic Studies: [[person/fuat-sezgin|Fuat Sezgin]] (1979), [[person/mustafa-al-zarqa|Mustafa al-Zarqa]] (1984), [[person/yusuf-al-qaradawi|Yusuf al-Qaradawi]] (1994), [[person/akram-diya-al-umari|Akram Diya' al-Umari]] (1996), [[person/al-albani-muhammad-nasir-al-din|Al-Albani, Muhammad Nasir al-Din]] (1999); Arabic Language and Literature: [[person/yahya-haqqi|Yahya Haqqi]] (1990). {cite:wikipedia-king-faisal-prize-en}
+
+Science: [[person/ahmed-zewail|Ahmed Zewail]] (1989). {cite:wikipedia-king-faisal-prize-en}
+
 ## References
 - English Wikipedia article on the King Faisal Prize, revision of 31 October 2026. {cite:wikipedia-king-faisal-prize-en}

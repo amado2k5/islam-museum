@@ -35,8 +35,10 @@ relations:
   - type: successor_of
     target: person/leopold-sedar-senghor
     sources: [source/wikipedia-abdou-diouf-en, source/wikipedia-abdou-diouf-fr]
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1998, sources: [source/wikipedia-king-faisal-prize-en] }
 external_ids: { wikidata: "Q219728" }
-sources: [source/wikipedia-abdou-diouf-en, source/wikipedia-abdou-diouf-ar, source/wikipedia-abdou-diouf-ur, source/wikipedia-abdou-diouf-fr, source/wikidata-abdou-diouf]
+sources: [source/wikipedia-abdou-diouf-en, source/wikipedia-abdou-diouf-ar, source/wikipedia-abdou-diouf-ur, source/wikipedia-abdou-diouf-fr, source/wikidata-abdou-diouf, source/wikipedia-king-faisal-prize-en]
 provenance:
   layer: own-research
   source: "English Wikipedia revision 1382122814 of 26 October 2026, Arabic revision 76623388 of 18 September 2026, Urdu revision 9256459 of 11 December 2025 and French revision 240611646 of 22 October 2026, each fetched on 26 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q219728 revision 2557344952 of 15 October 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script, and no museum record carries Q219728. His birthplace follows the article texts (Louga) against Wikidata's Nguer Malal, recorded in the born note. No place entity exists for Louga, so no born_in relation; his succession from Léopold Sédar Senghor (record exists) is written as a relation."

@@ -1,30 +1,26 @@
 id: listing/kube-publishing
 class: listing
 kind: publisher
-label:
-  ar: كيوب للنشر
-  en: Kube Publishing
+label: { ar: "كيوب للنشر", en: "Kube Publishing", ur: "کیوب پبلشنگ" }
 summary:
-  ar: دار نشر بريطانية إسلامية تابعة لمؤسسة إسلامية في ليستر؛ تنشر التراث والكتب المعاصرة.
-  en: Kube Publishing.
-wings: [made]
-categories:
-- books
-regions:
-- andalus-europe
-founded:
-  edtf: '1984'
-  calendar: gregorian
-  precision: year
-made:
-  by_muslims: true
-  basis: documented
-  sources: &id001
-  - source/official-website
-external_ids:
-  official: https://www.kubepublishing.com
-sources: *id001
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
+  ar: "دار نشر بريطانية مستقلة تأسست سنة 2007، تنشر كتبًا عامة وأكاديمية وكتب أطفال عن الإسلام وتجربة المسلمين، وتتولى علامة المؤسسة الإسلامية القائمة منذ 1973، وتوزّع كتب ناشرين مسلمين آخرين، وتبيع كتب الناشرين العامّين لباعة الكتب المسلمين."
+  en: "An independent British publishing house established in 2007 that publishes general-interest, academic and children's books on Islam and the Muslim experience, handles the imprint of the Islamic Foundation (established 1973), distributes for other Muslim publishers and wholesales mainstream publishers' titles to Muslim booksellers."
+  ur: "2007 میں قائم آزاد برطانوی اشاعتی ادارہ جو اسلام اور مسلم تجربے پر عمومی، علمی اور بچوں کی کتابیں شائع کرتا ہے، 1973 سے قائم اسلامک فاؤنڈیشن کی اشاعتی علامت سنبھالتا ہے، دوسرے مسلم ناشرین کی تقسیم کرتا ہے اور عام ناشرین کی کتابیں مسلم کتب فروشوں تک پہنچاتا ہے۔"
+wings: [made, today]
+categories: [books]
+themes: [libraries-paper-and-the-book, muslim-minorities-under-non-muslim-rule]
+regions: [andalus-europe]
+founded: { edtf: "2007", hijri: "1428", calendar: gregorian, precision: year, status: historical, derived: true, note: "Kube Publishing Ltd was established in 2007; the Islamic Foundation imprint it handles dates from 1973. The museum's draft gave 1984, which no source reached supports. The Gregorian year 2007 falls mostly in 1428 AH; the Hijri year is converter-derived.", sources: [source/kube-publishing-about] }
+status_business: active
+location: { address: { ar: "المملكة المتحدة", en: "United Kingdom", ur: "برطانیہ" }, serves: [global] }
+links: { official: "https://www.kubepublishing.com" }
+languages: [en]
+made: { by_muslims: true, basis: self-identified, sources: [source/kube-publishing-about] }
+sources: [source/kube-publishing-about]
+provenance:
+  layer: own-research
+  source: "Kube Publishing's About Us page, read in Chrome on the founder's Mac on 6 November 2026. Enriches the listings-lane draft card (Devin, 16 October 2026) in place; the draft's 1984 founding is corrected to 2007."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
