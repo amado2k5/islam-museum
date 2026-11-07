@@ -327,6 +327,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 52: pp. 300-306 filed in ar, en and ur (reports 16810-16825): 9:57 is completed, 9:58 and 9:59 are filed in full and 9:60 is filed to the foot of p. 306 after report 16825 (next: p. 307).
 - Batch 53: pp. 307-312 filed in ar, en and ur (reports 16826-16844): 9:60 continues (the poor and the needy, al-Tabari's choice, the collectors of the alms) to the foot of p. 312 at the mention of those whose hearts are reconciled (next: p. 313).
 - Batch 54: pp. 313-318 filed in ar, en and ur (reports 16845-16872): 9:60 continues (those whose hearts are reconciled, freeing necks, the debtors) to the foot of p. 318 after the debtors (next: p. 319).
+- Batch 55: pp. 319-324 filed in ar, en and ur (reports 16873-16898): 9:60 is completed and 9:61 is begun to the foot of p. 324 at the citation of Adi ibn Zayd (next: p. 325).
 - Batch 51: pp. 293-299 filed in ar, en and ur (reports 16802-16809, 16810 begun): 9:52 is completed, 9:53 to 9:56 are filed in full and 9:57 is filed to the foot of p. 299 at report 16810 (next: p. 300).
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
@@ -493,6 +494,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 68: pp. 515-520 filed in ar, en and ur (reports 16008-16021): 8:33 closes at p. 519 (joint 8:33-34 commentary), 8:34 filed with a pointer paragraph and its last clause; stop sentence at the foot of p. 520 (next: 8:35, p. 521).
 - Batch 69: pp. 521-526 filed in ar, en and ur (reports 16022-16048): 8:35 begun; stop sentence at the foot of p. 526 after report 16048 (next: p. 527).
 - Batch 70: pp. 527-533 filed in ar, en and ur (reports 16049-16066): 8:35 closes at p. 528, 8:36 begun; stop sentence at the foot of p. 533 after report 16066 (next: p. 534).
+- Batch 71: pp. 534-540 filed in ar, en and ur (reports 16067-16083): 8:36 closes, 8:37 and 8:38 filed in full, 8:39 begun; stop sentence at the foot of p. 540 in the middle of report 16083 (next: p. 541).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
