@@ -166,6 +166,7 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- The 3D tour's Sabri Brothers stop lists the same sources as its record again (the English Wikipedia and Wikidata records the figures batch 06 gave it); the mismatch had turned `main` red on the tour test.
 - Arabic and Urdu parentheses finished: the last unisolated values (award labels, journey and question summaries, and multi-line parentheticals) are wrapped, and the validator now rejects any new Arabic-script parenthesis without the isolate marks.
 - Repaired 26 journey and related files whose inline Arabic and Urdu keys had lost their quotes in an earlier isolation pass; the waypoint titles and narratives are readable by the validator again.
 - Fixed three journey files whose Arabic flow-map values had been broken by an earlier isolation pass (YAML would not parse); their parentheses are now isolated and the files parse again.
