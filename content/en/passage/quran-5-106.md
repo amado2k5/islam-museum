@@ -32,6 +32,32 @@ Al-Tabari prefers the view that "witness" is governed by "when it comes", meanin
 
 The editor says the last report's number is printed here as 12890 and the sequence shows it is 12895 (inferred), and corrects the name Bishr ibn Mu'adh in the chain.
 
-We stop here at the foot of p. 160, in the middle of the commentary on verse 106, after report 12895 from Sa'id ibn al-Musayyab on "or two others from other than you".
+Reports 12896, 12897 and 12898, from Sa'id ibn al-Musayyab: "or two others from other than you" means from the People of the Book. Report 12899, from Ibrahim and Sulayman al-Taymi, from Sa'id ibn al-Musayyab: from other than your community. Report 12900, from someone who heard Sa'id ibn Jubayr, is the same; 12901, from Abu Mijlaz: from other than your community; 12902, from Ibrahim, the same. Report 12903, from Ibrahim: if there is a Muslim nearby, call him to witness; if not, call two of the polytheists. Report 12904, from Ibrahim and Sa'id ibn Jubayr: from other than your community. {cite:tafsir-tabari-shakir-v11 p. 161}
+
+The editor notes that Abu Hafs al-Jubayri is Ubayd Allah ibn Yusuf, met in report 12882.
+
+Reports 12905 to 12907, from Sa'id ibn al-Musayyab: from the People of the Book. Report 12908, from Yahya ibn Ya'mar: "two just men from among you" means from the Muslims, and if you find none among the Muslims, then from the non-Muslims. Report 12909, from Shurayh: when a man is in a foreign land and finds no Muslim to witness his will, and he calls a Jew, a Christian or a Zoroastrian, their testimony is valid; but if two Muslims come and testify to the contrary, the Muslims' testimony is accepted and the other pair's is voided. {cite:tafsir-tabari-shakir-v11 p. 162}
+
+The editor identifies Abu Qutayba Salm ibn Qutayba al-Sha'iri and corrects his by-name from the manuscript, identifies Muhammad ibn Sawa al-Sadusi, a truthful man whose name the publisher misread, keeps the manuscript's "their testimony" and corrects the name of al-Tabari's teacher in the chain of 12909.
+
+Report 12910, from Shurayh: he did not accept the testimony of Jews and Christians against a Muslim except in a will, and not in a will except on a journey. Reports 12911 and 12912, from him, are similar. Report 12913, from Ibrahim: Hisham ibn Hubayra wrote to Maslama about the testimony of polytheists against Muslims, and he wrote back: it is not allowed except in a will, and not in a will unless the man is travelling. Reports 12914 to 12916, from Ubayda: from other than the community. {cite:tafsir-tabari-shakir-v11 p. 163}
+
+Report 12917, from Ubayda: from other than the people of the prayer; 12918 to 12920: from other than your religion or community. Report 12921, from Sa'id ibn Jubayr: from other than your community. Reports 12922 and 12923, from Mujahid, are the same. Report 12924, from Ibn Abbas: from other than the people of Islam. Report 12925, from Abu Ishaq: from the Jews and Christians; and Shurayh said: the testimony of a Jew or Christian is not allowed except in a will, and not in a will except on a journey. {cite:tafsir-tabari-shakir-v11 p. 164}
+
+The editor says that report 12921 breaks off in the manuscript at the word "from", the copyist marking doubt in the margin, and that the printed text supplied the bracketed words, which are right in sense.
+
+Report 12926, from al-Sha'bi: a Muslim man was dying at Daquqa and found no Muslim to witness his will, so he called two men of the People of the Book; they came to Kufa and told Abu Musa al-Ash'ari of his estate and his will, and he said: this is a matter that has not occurred since the time of the messenger of God! He made them swear and carried out their testimony. Report 12927, from al-Sha'bi: Abu Musa judged accordingly at Daquqa. Report 12928, from Muhammad ibn Sirin: two witnesses, of the Muslims and of the non-Muslims. Report 12929, from Ibn Zayd: from other than the people of Islam. Report 12930, from Mujahid, is the same. {cite:tafsir-tabari-shakir-v11 p. 165}
+
+The editor identifies Daquqa as a town between Irbil and Baghdad, where a battle of the Kharijites took place, keeps the manuscript's mention of it, and notes that Abu Dawud recorded the report in his Sunan.
+
+Report 12931, from Zayd ibn Aslam on the whole verse: it concerned a man who died with no Muslim present, in the early days of Islam when the land was at war and the people were unbelievers except the messenger and his companions in Medina; people then inherited by will, and the will was abrogated, the fixed shares were imposed and the Muslims acted by them. Al-Tabari then gives another view: "or two others" means from outside your tribe and clan. Report 12932, from al-Hasan: two witnesses of your people and of other than your people. Report 12933, from al-Zuhri: the sunna is that the testimony of an unbeliever is not allowed at home or on a journey; it is among Muslims only. Report 12934, from al-Hasan: "two just men from among you" means from his clan and "two others" from outside his clan. {cite:tafsir-tabari-shakir-v11 p. 166}
+
+The editor corrects the name Abd Allah ibn Ayyash al-Qitbani of Egypt, and identifies the trustworthy Uthman ibn al-Haytham al-Ashajj and Salih ibn Abi al-Akhdar al-Yamami, al-Zuhri's servant.
+
+Reports 12935 to 12937, from Ikrima: from other than your tribe, meaning from the Muslims. Report 12938, from al-Hasan: from other than your clan and your people, all of them Muslims. Report 12939, from Ubayda: Muslims from outside your tribe. Report 12940, from Aqil: I asked Ibn Shihab about the verse up to its words on the transgressors, saying: do you think the two whom God mentioned, from outside the testator's people, are Muslims or from the People of the Book? And the other two who take their place, are they from outside the testator's people or from... {cite:tafsir-tabari-shakir-v11 p. 167}
+
+The editor says the bracketed word in report 12940 is necessary and that the copyist marked doubt in the margin.
+
+We stop here at the foot of p. 167, in the middle of report 12940 from Ibn Shihab, which continues on p. 168.
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
