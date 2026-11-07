@@ -1,25 +1,26 @@
 id: group/native-deen
 class: group
-kind: organization
-label:
-  ar: الأهل الأصلي
-  en: Native Deen
+kind: band
+label: { ar: "نيتف دين", en: "Native Deen", ur: "نیٹو دین" }
 summary:
-  ar: فرقة الأنشودة الأمريكية من ثلاثة منشدين مسلمين ألبوماتها منتشرة في المدارس الإسلامية الأمريكية.
-  en: The American nasheed trio whose albums fill Islamic-school assemblies across the US.
+  ar: "فرقة أمريكية من منطقة واشنطن، تجمع الهيب هوب وآر أند بي بكلمات تقوم على الإسلام، أعضاؤها جوشوا سلام ونعيم محمد وعبد الملك أحمد، التقوا عبر منظمة شباب المسلمين في أمريكا الشمالية؛ لا تستعمل آلات النفخ والأوتار والمعدن، ولها ثلاثة ألبومات بين 2005 و2011."
+  en: "An American group from the Washington, D.C. area that joins hip-hop and R&B to lyrics grounded in Islam; its members Joshua Salaam, Naeem Muhammad and Abdul-Malik Ahmad met through Muslim Youth of North America, it uses no wind, string or metal instruments, and it released three albums between 2005 and 2011."
+  ur: "واشنگٹن ڈی سی کے علاقے کا امریکی گروپ جو ہپ ہاپ اور آر اینڈ بی کو اسلام پر مبنی بولوں سے جوڑتا ہے؛ اس کے ارکان جوشوا سلام، نعیم محمد اور عبدالملک احمد مسلم یوتھ آف نارتھ امریکہ کے ذریعے ملے، اور اس نے 2005 سے 2011 کے درمیان تین البم جاری کیے۔"
 wings: [today]
-themes:
-- music
-- muslim-minorities-under-non-muslim-rule
-founded:
-  edtf: '2000'
-  calendar: gregorian
-  precision: year
-external_ids:
-  wikidata: Q1816236
-sources:
-- source/wikidata
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16
+themes: [music, muslim-minorities-under-non-muslim-rule]
+regions: [americas-oceania]
+scope: international
+countries: [us]
+made: { by_muslims: true, basis: self-identified, sources: [source/wikipedia-native-deen-en] }
+footprint:
+  wikipedia: { languages: [ar, de, en, id, it, ja, jv, pt], checked: "2026-11-06", sources: [source/wikidata-native-deen] }
+  wikidata: "Q1816236"
+external_ids: { wikidata: "Q1816236", official: "https://www.nativedeen.com" }
+sources: [source/wikipedia-native-deen-en, source/wikidata-native-deen]
+provenance:
+  layer: own-research
+  source: "Rewritten in place from the culture lane's draft of 16 October 2026: English Wikipedia 'Native Deen' (revision 1366014144 of 25 July 2026, citing a US State Department feature by Phyllis McIntosh, The Boston Globe of 3 February 2006 and Southern California InFocus of August 2008) and Wikidata Q1816236 (revision 2563133976), read in Chrome on the founder's Mac on 6 November 2026. The draft's founding year 2000 is dropped: neither source gives one. `made` is self-identified: the article states that the members identify themselves as Muslim"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b02
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

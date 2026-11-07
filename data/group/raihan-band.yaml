@@ -1,25 +1,28 @@
 id: group/raihan-band
 class: group
-kind: organization
-label:
-  ar: ريحان
-  en: Raihan
+kind: band
+label: { ar: "ريحان ⁦(فرقة نشيد ماليزية)⁩", en: "Raihan", ur: "ریحان ⁦(ملائیشیائی نشید گروپ)⁩" }
 summary:
-  ar: الفرقة الماليزية رائدة فن «الناشيد» الجماعي؛ ألبومها «بوجري بوجري» أشهر ألبوم ناشيد في جنوب شرق آسيا.
-  en: The Malaysian group that defined the nasyid genre — their album Puji-Pujian made Islamic pop mainstream in Southeast
-    Asia.
+  ar: "فرقة نشيد ماليزية تأسست سنة 1996، اشتهرت بألبومها الأول «بوجي بوجيان» الصادر عن وارنر ميوزك ماليزيا، الذي تذكر المصادر أنه الأكثر مبيعا في تاريخ ماليزيا بشهادة البلاتين اثنتي عشرة مرة؛ غنّت مع يوسف إسلام، وأحيت حفلا في اجتماع رؤساء حكومات الكومنولث في إدنبرة سنة 1997 وفي قاعة ألبرت الملكية."
+  en: "A Malaysian nasheed group founded in 1996, known for its debut album Puji-Pujian on Warner Music Malaysia, which its sources call Malaysia's best-selling album, certified twelve times platinum; it recorded with Yusuf Islam and performed at the 1997 Commonwealth Heads of Government Meeting in Edinburgh and at the Royal Albert Hall."
+  ur: "1996 میں قائم ملائیشیائی نشید گروپ، جو وارنر میوزک ملائیشیا سے اپنے پہلے البم «پوجی پوجیان» سے مشہور ہوا، جسے ماخذ ملائیشیا کا سب سے زیادہ بکنے والا البم اور بارہ بار پلاٹینم بتاتے ہیں؛ اس نے یوسف اسلام کے ساتھ گایا اور 1997 میں ایڈنبرا میں دولتِ مشترکہ کے سربراہی اجلاس اور رائل البرٹ ہال میں پرفارم کیا۔"
 wings: [today]
-themes:
-- music
-founded:
-  edtf: '1993'
-  calendar: gregorian
-  precision: year
-external_ids:
-  wikidata: Q3269715
-sources:
-- source/wikidata
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16
+themes: [music]
+regions: [southeast-asia]
+scope: international
+countries: [my]
+founded: { edtf: "1996", calendar: gregorian, precision: year, note: "Wikidata gives 1996; the English article's years active start in 1996 and its debut album appeared in October 1996 (the Malay article dates it 2 January 1997). The culture lane's draft gave 1993, which no source read supports.", sources: [source/wikidata-raihan, source/wikipedia-raihan-en, source/wikipedia-raihan-ms] }
+footprint:
+  wikipedia: { languages: [en, es, id, ja, jv, ms, ur], checked: "2026-11-06", sources: [source/wikidata-raihan] }
+  wikidata: "Q3269715"
+relations:
+  - { type: performed, target: work/puji-pujian-raihan, sources: [source/wikipedia-raihan-en] }
+external_ids: { wikidata: "Q3269715" }
+sources: [source/wikipedia-raihan-en, source/wikipedia-raihan-ms, source/wikidata-raihan]
+provenance:
+  layer: own-research
+  source: "Rewritten in place from the culture lane's draft of 16 October 2026: English Wikipedia 'Raihan' (revision 1373807804 of 8 September 2026), Malay Wikipedia 'Raihan' (revision 6995744 of 2 November 2026) and Wikidata Q3269715 (revision 2549847028), read in Chrome on the founder's Mac on 6 November 2026. The awards lists in both articles cite no source and are not used"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b02
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
