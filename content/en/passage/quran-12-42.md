@@ -26,6 +26,6 @@ The interpreters differed over the length of the "bid'" that Joseph stayed in pr
 
 Others said "bid'" is between three and nine; reports 19327 and 19328, from Qatada and Mujahid, through Ibn Bashshar, Sulayman ibn Dawud al-Tayalisi, Abu Hilal al-Rasibi, Waki', Yahya ibn Adam, Isra'il and Mansur. Others said rather it is less than ten; report 19329, from Ibn Abbas, through al-Qasim, al-Husayn, Hajjaj and Ibn Jurayj. Al-Farra held that "bid'" is used only with ten and with the twenties up to the nineties, and is a surplus of three to nine, and said that this is what he saw the Arabs do; they do not say "a bid' and a hundred" or "a bid' and a thousand". Al-Tabari says the right account is that "bid'" runs from three to nine up to ten and is never less than three, and so too for what exceeds the decade up to a hundred, while above a hundred there is no "bid'". The editor corrects the wording "I heard Qatada" in the chain of 19327 and gives what the Lisan reports from Ibn Barri on al-Farra's saying. {cite:tafsir-tabari-shakir-v16 p. 115}
 
-We stop here at the foot of p. 115, in the middle of the commentary on verse 42 (after al-Tabari's account of the range of "bid'"); the next batch begins at p. 116. {cite:tafsir-tabari-shakir-v16 p. 115}
+This closes the commentary on verse 42 at the foot of p. 115; al-Tabari begins verse 43 on p. 116. {cite:tafsir-tabari-shakir-v16 p. 115}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
