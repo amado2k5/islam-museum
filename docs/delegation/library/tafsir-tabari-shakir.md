@@ -283,6 +283,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batches 10-13: pp. 70-96 filed in ar, en and ur (reports 11512-11556): verse 6 closes at p. 90, verse 7 is filed in full (pp. 91-94), verse 8 is begun at p. 95; next is the rest of 5:8 from p. 96.
 - Batch 14: pp. 97-103 filed in ar, en and ur (reports 11556-11562): verse 8 closes at p. 97, verses 9 and 10 are filed in full, verse 11 is begun at p. 100; next is report 11562 (Ikrima) at the foot of p. 103.
 - Batches 15-17: pp. 104-124 filed in ar, en and ur (reports 11562-11583): verse 11 closes at p. 108, verse 12 is filed in full to p. 124; next is verse 13 from p. 125.
+- Batches 18-19: pp. 125-138 filed in ar, en and ur (reports 11584-11606): verse 13 closes at p. 135, verse 14 is begun at p. 135; next is the view that 'among them' means the Christians alone, at the foot of p. 138.
 
 - Batch 2 (pp. 14-34, three sub-batches in one PR): reports 14909-14956 filed in ar, en and ur; verses 105 to 123 are filed in full and verse 124 is begun (report 14956). Next is the rest of 7:124 from the foot of p. 34 (printed p. 35).
 - Batch 3: pp. 35-42 filed in ar, en and ur (reports 14957-14972): verses 124 to 127 are filed in full and verse 128 is begun (report 14972). Next is the rest of 7:128 from the foot of p. 42 (printed p. 43).
