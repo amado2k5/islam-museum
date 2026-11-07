@@ -1,0 +1,28 @@
+id: work/koranas-lithuanian-geda
+class: work
+kind: book
+label: { ar: "القرآن بالليتوانية ⁦(سيغيتاس غيدا)⁩", en: "Koranas (literatūrinių prasmių vertimas) (Sigitas Geda)", ur: "کوراناس، لتھوانیائی ترجمہ ⁦(سیگیتاس گیدا)⁩" }
+summary:
+  ar: "أول ترجمة كاملة للقرآن إلى الليتوانية، وضعها الشاعر والمترجم الليتواني سيغيتاس غيدا ونُشرت سنة 2008 في ألف نسخة نفدت سريعًا، معتمدًا في الغالب على الترجمتين الروسيتين لسابلوكوف وكراتشكوفسكي؛ انتقدها ناشطون مسلمون وباحثون لتحويرها ألفاظًا قرآنية، فراجعها مفتي ليتوانيا روماس ياكوباوسكاس، وصدرت طبعة منقّحة سنة 2010 باسمه مترجمًا ثانيًا وبإجازة المفتية."
+  en: "The first complete translation of the Qur'an into Lithuanian, by the Lithuanian poet and translator Sigitas Geda, published in 2008 in 1,000 copies that sold quickly and based mainly on the Russian translations of Sablukov and Krachkovsky; criticised by Muslim activists and scholars for distorting Qur'anic terms, it was revised by the mufti of Lithuania, Romas Jakubauskas, and a revised edition appeared in 2010 with him named as second translator and the Muftiate's approval."
+  ur: "قرآن کا پہلا مکمل لتھوانیائی ترجمہ، از لتھوانیائی شاعر و مترجم سیگیتاس گیدا، جو 2008 میں ایک ہزار نسخوں میں شائع ہوا اور جلد ختم ہو گیا، زیادہ تر سابلوکوف اور کراچکووسکی کے روسی تراجم پر مبنی؛ مسلم کارکنوں اور محققین نے قرآنی الفاظ کی تحریف پر تنقید کی، تو مفتیِ لتھوانیا روماس یاکوباؤسکاس نے نظرِ ثانی کی، اور 2010 میں ان کے نام کے ساتھ بطور دوسرے مترجم اور دارالافتا کی منظوری سے نظرِ ثانی شدہ اشاعت آئی۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission]
+regions: [andalus-europe]
+genre: [quran-translation]
+authors: [person/sigitas-geda]
+language: language/lithuanian
+composed: { edtf: "2008", hijri: "1429", calendar: gregorian, precision: year, status: historical, derived: true, note: "First published 2008; revised edition 2010. The Gregorian year 2008 runs from Dhu al-Hijja 1428 to Dhu al-Hijja 1429 AH; the Hijri year is converter-derived.", sources: [source/gloqur-geda-lithuanian] }
+editions:
+  - "Koranas (literatūrinių prasmių vertimas). 2008, 1,000 copies"
+  - "Revised edition, 2010, with Romas Jakubauskas as second translator and the approval of the Lithuanian Muftiate; later reprints with some footnotes and bracketed insertions"
+relations:
+  - { type: translation_of, target: work/quran, sources: [source/gloqur-geda-lithuanian] }
+sources: [source/gloqur-geda-lithuanian]
+provenance:
+  layer: own-research
+  source: "GloQur post #148 (Mykhaylo Yakubovych, 17 March 2023), read in full in Chrome on the founder's Mac on 7 November 2026, for every fact of the record and its prose; no Wikipedia article or Wikidata item for the work itself was found."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b08
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
