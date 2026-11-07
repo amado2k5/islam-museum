@@ -16,6 +16,8 @@ Al-Tabari says: Moses said to his people of the Children of Israel, when Pharaoh
 
 On "the earth belongs to God; He gives it as inheritance to whom He will among His servants" he says: the earth is God's, and it may be that God will give you as inheritance, if you are patient under the hardship you meet in yourselves and your children from Pharaoh, count it with Him and keep to the right course, the land of Pharaoh and his people, by destroying them. {cite:tafsir-tabari-shakir-v13 p. 42}
 
-We stop here at the foot of p. 42, in the middle of the commentary on verse 128 (before the end of the sentence "by destroying them"); the next batch begins at p. 43.
+The sentence is completed by "and make you successors in it", since God gives His land as inheritance to whom He will of His servants; and "the final outcome belongs to the God-fearing" means the praiseworthy outcome belongs to whoever fears God and watches Him, avoiding His disobediences and performing His obligations. The editor refers to the earlier explanation of "outcome". {cite:tafsir-tabari-shakir-v13 p. 43}
+
+Commentary on verse 128 ends here at p. 43. {cite:tafsir-tabari-shakir-v13 p. 43}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

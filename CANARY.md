@@ -59,6 +59,11 @@ open a new block on top with the new version and today's date.
 ### Data
 - Al-Tabari's commentary on 6:111 closes at printed p. 50 and 6:112 is begun (the devils of humans and jinn), from volume 12 pp. 49-55 (reports 13757 to 13774), in Arabic, English and Urdu.
 - Al-Tabari's commentary on 6:109 closes at printed p. 43, 6:110 is filed in full and 6:111 is begun, from volume 12 pp. 42-48 (reports 13751 to 13756), in Arabic, English and Urdu.
+
+- Al-Tabari's commentary on 5:8-5:11 (volume 10) continues: printed pp. 97-103, reports 11556-11562, in Arabic, English and Urdu; verses 9 and 10 are filed in full and verse 11 (the plot against the Prophet) is begun.
+- Al-Tabari's commentary on 5:6-5:8 (volume 10) continues: printed pp. 70-96, reports 11512-11556, in Arabic, English and Urdu, citing volume 10 page by page; verses 7 and 8 are begun.
+- Al-Tabari's commentary on 5:6 (volume 10) continues: printed pp. 70-82, reports 11512-11539, in Arabic, English and Urdu, citing volume 10 page by page.
+- Tafsir Browser (volume 13, batch 4): al-Tabari's commentary on 7:128 to 7:133 (the Israelites' complaint, the years of dearth, the omen, the signs of flood, locusts and lice with the interpreters' disagreement over what the flood and the lice were) filed in Arabic, English and Urdu from printed pp. 43-57 (reports 14973-15014), each paragraph cited to the page of the Shakir edition.
 - Al-Tabari's commentary on 6:108 closes at printed p. 37 and 6:109 is begun, from volume 12 pp. 35-41 (reports 13740 to 13750), in Arabic, English and Urdu.
 - Al-Tabari's commentary on 6:105 closes at printed p. 31, and 6:106 and 6:107 are filed in full with 6:108 begun, from volume 12 pp. 28-34 (reports 13712 to 13740), in Arabic, English and Urdu.
 
@@ -144,6 +149,7 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Repaired 26 journey and related files whose inline Arabic and Urdu keys had lost their quotes in an earlier isolation pass; the waypoint titles and narratives are readable by the validator again.
 - Fixed three journey files whose Arabic flow-map values had been broken by an earlier isolation pass (YAML would not parse); their parentheses are now isolated and the files parse again.
 - Arabic and Urdu parentheses (remaining unquoted and summary values, batch 1): brackets now stay in place in right-to-left text in 38 files.
 - Arabic and Urdu parentheses (remaining unquoted and summary values, batch 2): brackets now stay in place in right-to-left text in 7 files.
