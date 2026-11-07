@@ -28,3 +28,6 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 - {cite:tdv-kereci pp. 277–278}
 - {cite:karaji-ataie-simmons-2020 p. 762}
 - {cite:karaji-woepcke-1853 pp. 3–4}
+
+## قاعدة المعاملات وشاهدها المفقود الأصل
+تشرح [[invention/karaji-binomial-coefficient-recurrence|قاعدة معاملات القوى الثنائية]] طريقة محددة بجمع المتجاورين، تختلف عن سرد جميع عمليات المقادير المركبة، وتنسبها ماكتوتر إلى الكرجي عبر السموأل {cite:karaji-mactutor Biography}. يحفظ [[work/al-bahir-fi-al-jabr|الباهر]] هذا الحساب، بينما تقول مقالة أنبوبا إن الأصل مفقود؛ لم نقرأ الأصل أو طبعة الباهر مستقلاً {cite:samawal-dsb algebra}. وفي المقارنة تبقى التقاليد الهندية السابقة للمثلث ظاهرة، دون ادعاء أولية عالمية أو طريق انتقال غير موثق {cite:jaina-mathematics-mactutor combinations}. هذه إضافة بحثية بب98، ولا تستبدل الهوية والمناقشات السابقة.
