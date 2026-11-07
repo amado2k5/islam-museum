@@ -20,7 +20,7 @@
   # is unaffected); removing it needs a refactor to external files — flagged for the founder.
   # 'wasm-unsafe-eval' is for Pagefind search. style-src keeps 'unsafe-inline' for Astro scoped
   # styles and style attributes. No frame-ancestors: /{lang}/embed/* is meant to be iframed elsewhere.
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://api.islam.museum; worker-src 'self' blob:; media-src 'self'; manifest-src 'self'; form-action 'self'; object-src 'none'; base-uri 'self'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://api.islam.museum https://uat-api.islam.museum; worker-src 'self' blob:; media-src 'self'; manifest-src 'self'; form-action 'self'; object-src 'none'; base-uri 'self'; upgrade-insecure-requests
 
 # Hashed build assets never change under the same name: cache them for a year.
 # (Workers static assets served them with max-age=0; Pages with four hours.)
