@@ -22,6 +22,14 @@ The translation uses contemporary English rather than the archaic King James sty
 ## Reception
 Yakubovych writes that the translation was warmly received by many readers, remains a main reference for many English-speaking Muslims, and helped bring traditional tafsir into translation; and that over recent decades many voices, Muslim scholars above all, have criticised its style, its English and the ideas in its commentary. {cite:gloqur-hilali-khan-part-1} {cite:gloqur-hilali-khan-part-2}
 
+:::perspectives
+- **Sunni (Fathul Bari Mat Jahaya)**: answering Ahmad Farouk Musa of the Islamic Renaissance Front, who argued in 2014 that the translation nurtured hostility towards other religions, the Malaysian preacher Fathul Bari Mat Jahaya said its interpretations do not sanction oppression of non-Muslims, that its references to Jews and Christians distinguish between beliefs, that they rest on al-Tabari, al-Qurtubi and Ibn Kathir, and that most scholars translate interpretively. {cite:malaysian-insider-fathul-bari-hilali-khan}
+- **Sunni (Khaled Abou El Fadl)**: the Islamic law professor Khaled Abou El Fadl argues that the bracketed additions present one narrow view, in the verses on women's dress and on husbands and wives for example, as the text's own meaning, that a hadith in the notes is mistranslated, and that the commentators named on the cover report a range of views that do not support what is attributed to them. {cite:abou-el-fadl-corrupting-gods-book}
+- **Academic reading**: Mykhaylo Yakubovych sees the translation as important to the rise of Salafi exegesis among non-Arab readers, notes the growth of bracketed explanation in later editions, and records mounting criticism from Muslim scholars. {cite:gloqur-hilali-khan-part-2}
+:::
+
 ## References
 - Mykhaylo Yakubovych, "Qur'an translation of the week #102" and "#103", The Global Qur'an, 2022. {cite:gloqur-hilali-khan-part-1} {cite:gloqur-hilali-khan-part-2}
 - English Wikipedia, "Noble Quran (Hilali–Khan)", revision 1375969952. {cite:wikipedia-noble-quran-hilali-khan-en}
+- The Malaysian Insider, 12 December 2014. {cite:malaysian-insider-fathul-bari-hilali-khan}
+- Khaled Abou El Fadl, "Corrupting God's Book". {cite:abou-el-fadl-corrupting-gods-book}
