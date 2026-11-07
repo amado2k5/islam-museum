@@ -19,7 +19,7 @@ In 2004 Ahmed became chairman of the Islamic Courts Union, and was widely seen a
 
 ## President
 
-Following Ethiopia's withdrawal, the transitional parliament, meeting in Djibouti, elected Ahmed president of the Transitional Federal Government on 31 January 2009.{cite:source/wikipedia-sharif-sheikh-ahmed-en} His government nearly fell to an insurgent offensive in early 2009, but with African Union support it drove al-Shabaab out of Mogadishu in August 2011; his term ended on 20 August 2012 as the transitional period closed.{cite:source/wikipedia-sharif-sheikh-ahmed-en} He later founded the Himilo Qaran party and remained a leading opposition figure and presidential contender.{cite:source/wikipedia-sharif-sheikh-ahmed-en}
+Following Ethiopia's withdrawal, the transitional parliament, meeting in Djibouti, elected Ahmed president of the Transitional Federal Government on 31 January 2009.{cite:source/wikipedia-sharif-sheikh-ahmed-en} His government nearly fell to an armed offensive in early 2009, but with African Union support it recovered control of Mogadishu in August 2011; his term ended on 20 August 2012 as the transitional period closed.{cite:source/wikipedia-sharif-sheikh-ahmed-en} He later founded the Himilo Qaran party and remained a leading opposition figure and presidential contender.{cite:source/wikipedia-sharif-sheikh-ahmed-en}
 
 ## A note on the record
 

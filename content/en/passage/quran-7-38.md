@@ -18,6 +18,6 @@ Then, on "the last of them will say to the first: our Lord, these led us astray,
 
 Mujahid used to say of this, and (14594) and (14595) are given from him, that "double" means doubled; (14596) from al-Suddi that for the first is a double and for the later is a double; (14597) from Abdullah ibn Mas'ud that "double of the Fire" is vipers; and (14598) from him that it is snakes and vipers. {cite:tafsir-tabari-shakir-v12 p. 418}
 
-We stop here at the foot of printed p. 418, in verse 38 of Surat al-A'raf after report 14598; the next batch continues from printed p. 419 (marker 423).
+It is said that in Arab speech "mudu'af" is what is twofold and "mudā'af" what is more than that, and the note says the printed text's wording is to be corrected by the manuscript. "But you do not know" means: but you, people of the Fire, do not know the measure of what God has prepared for you of punishment, and that is why the other disbelieving nation asks double of it for its sister, the first. {cite:tafsir-tabari-shakir-v12 p. 419}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
