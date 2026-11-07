@@ -9,3 +9,15 @@ Verse 135 of [[passage/quran-7|Surat al-A'raf]], a Meccan surah. {cite:tanzil-qu
 
 ## Place in the museum
 Its place: verse 135 of 206 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+**Commentary on verse 135 (p. 73 onward)**
+
+Al-Tabari says: Moses prayed to his Lord, who answered him; so when God lifted the punishment He had sent on them "for a term that they were to reach", so that they would complete the days of the life God had set for them as a term up to their destruction, "they broke their word", meaning they broke the covenants they made with their Lord and with Moses and persisted in their unbelief and error. The editor refers to the earlier explanations of "removal" and "term". {cite:tafsir-tabari-shakir-v13 p. 73}
+
+Report 15040, from Mujahid, through Muhammad ibn Amr, Abu Asim, Isa and Ibn Abi Najih, on "for a term they were to reach": a counted number of their days; report 15041, from Mujahid, is similar, through al-Muthanna, Abu Hudhayfa and Shibl. {cite:tafsir-tabari-shakir-v13 p. 73}
+
+Report 15042, from al-Suddi, through Musa ibn Harun, Amr ibn Hammad and Asbat, on "when We removed the plague from them for a term they were to reach, they broke it": the covenants they gave; this is when God says "We seized Pharaoh's people with years", meaning hunger, "and a shortage of fruits, that they might take heed". {cite:tafsir-tabari-shakir-v13 p. 74}
+
+Commentary on verse 135 ends here at p. 74. {cite:tafsir-tabari-shakir-v13 p. 74}
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
