@@ -684,3 +684,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
 - Batch 79: pp. 428-434 filed in ar, en and ur (reports 13374-13380): 6:65 end, 6:66 and the start of 6:67
+- Batch 80: pp. 435-441 filed in ar, en and ur (reports 13381-13402): 6:67 end, 6:68, 6:69 and the start of 6:70
