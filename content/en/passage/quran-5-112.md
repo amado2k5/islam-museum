@@ -40,6 +40,6 @@ As for "he said: fear God if you are believers", it means Jesus said to the disc
 
 The editor keeps "watch God ... and fear him" from the manuscript.
 
-We stop here at the foot of p. 223, at the end of al-Tabari's explanation of "fear God if you are believers", after which p. 224 begins on "they said: we wish to eat of it".
+Verse 112 closes here at p. 223, and al-Tabari goes on to [[passage/quran-5-113|5:113]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
