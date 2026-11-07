@@ -244,6 +244,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 41: pp. 269-275 filed in ar, en and ur (reports 11859-11871): 5:33 continues (more views on banishment: pursuit, banishment to another town, 'Umar ibn 'Abd al-'Aziz's letters to Hayyan ibn Surayj, imprisonment; al-Tabari's choice and the Arabic usage of 'banish'). Stop sentence at the foot of p. 275. Next is p. 276.
 - Batch 42: pp. 276-282 filed in ar, en and ur (reports 11872-11884): 5:33 closes (disgrace in this world and the great punishment) and 5:34 is begun (repentance before being overcome: polytheists only, or also Muslim bandits who are given safe-conduct; Haritha ibn Badr and 'Ali; al-Suddi; the man of Murad with Abu Musa). Stop sentence at the foot of p. 282. Next is p. 283.
 - Batch 43: pp. 283-289 filed in ar, en and ur (reports 11885-11898): 5:34 closes (the views on whom repentance covers: Malik, al-Awza'i, al-Layth, 'Urwa, Rabi'a, al-Shafi'i; al-Tabari's choice and proof) and 5:35 is begun (fear God). Stop sentence at the foot of p. 289. Next is p. 290.
+- Batch 44: pp. 290-296 filed in ar, en and ur (reports 11899-11914): 5:35 closes (the means, striving), 5:36 and 5:37 are filed in full (no ransom, wishing to leave the Fire) and 5:38 is begun (the thief: nominative, 'right hands', the threshold views of three dirhams, a quarter dinar, ten dirhams, any amount). Stop sentence at the foot of p. 296. Next is p. 297.
 - Batch 21: pp. 413-419 filed in ar, en and ur (reports 10853-10854): verse 170 closes at p. 413 and verse 171 is filed to report 10854 at p. 419.
 - Batch 22: pp. 420-426 filed in ar, en and ur (reports 10855-10857): verse 171 closes at p. 424, verse 172 is filed to p. 425, and verse 173 is begun at p. 426.
 - Batch 23: pp. 427-431 filed in ar, en and ur (reports 10858-10865): verses 173 to 175 are filed in full, and verse 176 is begun at p. 430.
@@ -710,6 +711,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 71: Sura al-Ra'd pp. 501-507 filed; SURA AL-RA'D COMPLETE (13:43 closed). Next is Sura Ibrahim (14:1) from p. 508 (marker 516).
 - Batch 72: Sura Ibrahim begun, pp. 511-517 filed (14:1 to 14:4, 14:5 begun). Next is the rest of 14:5 from p. 518 (marker 526).
 - Batch 73: Sura Ibrahim pp. 518-524 filed (14:5 closed, 14:6 begun). Next is the rest of 14:6 from p. 525 (marker 533).
+- Batch 74: Sura Ibrahim pp. 525-531 filed (14:6 closed, 14:7, 14:8 filed, 14:9 begun). Next is the rest of 14:9 from p. 532 (marker 540).
 - Batch 76: pp. 407-413 filed in ar, en and ur (reports 13315-13341): 6:60 end, 6:61 (the guardians, the angel of death and his helpers) and 6:62
 - Batch 77: pp. 414-420 filed in ar, en and ur (reports 13342-13356): 6:63, 6:64 and 6:65 begun (punishment from above and beneath, sects)
 - Batch 78: pp. 421-427 filed in ar, en and ur (reports 13357-13373): 6:65 (the prayer of hope and fear hadiths, 13357-13372; 13373 begun)
@@ -729,3 +731,4 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 87: pp. 484-490 filed in ar, en and ur (reports 13465-13467): 6:76 end, 6:77, 6:78, 6:79, 6:80 and the start of 6:81
 - Batch 88: pp. 491-497 filed in ar, en and ur (reports 13467-13486): 6:81 end and 6:82 (belief mixed with wrong, up to report 13486)
 - Batch 89: pp. 498-504 filed in ar, en and ur (reports 13487-13512): 6:82 end and 6:83 begun
+- Batch 90: pp. 505-511 filed in ar, en and ur (reports 13513-13515): 6:83 end, 6:84, 6:85 and 6:86 begun
