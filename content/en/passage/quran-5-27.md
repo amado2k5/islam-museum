@@ -50,6 +50,4 @@ He adds that the word for sacrifice has the pattern of nearness-making, like the
 
 It is told that 'Amir ibn 'Abdallah al-'Anbari wept when death came, and when asked why said it was because he heard God say that He accepts only from the God-fearing, as report 11725 relays. Some said the sacrifice of the God-fearing is prayer, as report 11726 gives from 'Adi ibn Thabit. The editor notes the narrators, and that 'Amir was one of the eight ascetics.  {cite:tafsir-tabari-shakir-v10 p. 212}
 
-We stop here at the foot of p. 212, after report 11726 from 'Adi ibn Thabit that the sacrifice of the God-fearing is prayer; the rest of verse 27 follows in the next batch.
-
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
