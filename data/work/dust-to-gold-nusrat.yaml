@@ -1,0 +1,37 @@
+id: work/dust-to-gold-nusrat
+class: work
+kind: album
+label: { ar: "Dust to Gold ⁦(من التراب إلى الذهب)⁩", en: "Dust to Gold (Nusrat Fateh Ali Khan album)", ur: "ڈسٹ ٹو گولڈ" }
+summary:
+  ar: "ألبوم قوالي لنصرت فتح علي خان سُجّل سنة 1997 مع فرقته على الطريقة التقليدية وصدر بعد وفاته سنة 2000 عن ريل وورلد، بأربع قصائد طويلة منها «خواجة تم ہی ہو» و«نور خدا ہے حسن سراپا رسول»؛ رأى النقاد فيه توازنا بين حرية الارتجال وضبطه، وإن بدا في صوته أثر المرض."
+  en: "A qawwali album by Nusrat Fateh Ali Khan, recorded in 1997 with his ensemble in traditional form and released posthumously by Real World in 2000, with four long pieces, among them 'Khawaja tum hi ho' and 'Noor-e-khuda hai husn-e-sarapa rasool'; critics heard a balance of improvisational freedom and control, though his voice showed strain."
+  ur: "نصرت فتح علی خان کا قوالی البم، 1997 میں روایتی انداز میں ریکارڈ ہوا اور ان کی وفات کے بعد 2000 میں ریئل ورلڈ سے جاری ہوا؛ اس میں «خواجہ تم ہی ہو» اور «نورِ خدا ہے حسنِ سراپا رسول» سمیت چار طویل کلام ہیں۔"
+wings: [today, words]
+themes: [music, spirituality-and-sufism]
+regions: [south-asia, andalus-europe]
+genre: [qawwali, naat]
+composed: { edtf: "2000", hijri: "1421~", calendar: gregorian, precision: year, derived: true, note: "Released 2000, recorded 1997, by the English article and Wikidata. The Hijri year is converter-derived and approximate.", sources: [source/wikipedia-dust-to-gold-nusrat-en, source/wikidata-dust-to-gold-nusrat] }
+languages: [ur, pa]
+publisher: listing/real-world-records
+duration: 3862
+tracks:
+  - { n: 1, title: { en: "Khawaja tum hi ho" }, duration_s: 944, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-dust-to-gold-nusrat-en] }
+  - { n: 2, title: { en: "Data teira durbar" }, duration_s: 981, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-dust-to-gold-nusrat-en] }
+  - { n: 3, title: { en: "Koi hai na ho ga" }, duration_s: 908, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-dust-to-gold-nusrat-en] }
+  - { n: 4, title: { en: "Noor-e-khuda hai husn-e-sarapa rasool" }, duration_s: 1029, performers: [person/nusrat-fatih-ali-khan], sources: [source/wikipedia-dust-to-gold-nusrat-en] }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-07", sources: [source/wikidata-dust-to-gold-nusrat] }
+  wikidata: "Q139892507"
+relations:
+  - { type: performed_by, target: person/nusrat-fatih-ali-khan, sources: [source/wikipedia-dust-to-gold-nusrat-en, source/wikidata-dust-to-gold-nusrat] }
+  - { type: published_by, target: listing/real-world-records, sources: [source/wikipedia-dust-to-gold-nusrat-en] }
+  - { type: about, target: person/muhammad, note: "'Noor-e-khuda hai husn-e-sarapa rasool' is in praise of the Prophet, by its title", sources: [source/wikipedia-dust-to-gold-nusrat-en] }
+external_ids: { wikidata: "Q139892507" }
+sources: [source/wikipedia-dust-to-gold-nusrat-en, source/wikidata-dust-to-gold-nusrat]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Dust to Gold (Nusrat Fateh Ali Khan album)' (revision 1369390858 of 14 August 2026, citing JazzTimes, Exclaim!, AllMusic and Dagsavisen) and Wikidata Q139892507 (revision 2499544202), read in Chrome on the founder's Mac on 7 November 2026; the article's uncited sentence on archived Lahore material is not used"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b08
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
