@@ -58,6 +58,8 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Al-Tabari's commentary on 6:142 closes at p. 182 (load-bearers and bedding, the call not to follow the footsteps of Satan) and 6:143 is begun (the eight pairs and the challenge over the two males, the two females and what their wombs hold), from volume 12 pp. 180-185 (reports 14056 to 14069), in Arabic, English and Urdu.
+
+- Tafsir Browser: al-Tabari vol. 11, batch 11 (pp. 91-97, reports 12782-12793): 5:97 (the Ka'ba, the sacred month, the offering and the garlands as a support for people) closes, and 5:98, 5:99 and 5:100 are filed in full, in Arabic, English and Urdu.
 - Al-Tabari's commentary on 6:128 to 6:141 (the jinn and their human allies, the deniers of the vision of messengers to the jinn, the idolaters' shares of crops and cattle, the burial of girls, the due of the harvest and the waste it forbids) and the beginning of 6:142 (load-bearers and bedding), from volume 12 pp. 116-179 (reports 13888 to 14056), in Arabic, English and Urdu.
 
 - Tafsir Browser: al-Tabari vol. 11, batch 10 (pp. 84-90, reports 12768-12781): al-Tabari's choice on eating game hunted by a non-pilgrim, what counts as land game, and the close of 5:96; the opening of 5:97 (the Ka'ba, the sacred month, the offering and the garlands as a support for people), filed in Arabic, English and Urdu.
