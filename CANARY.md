@@ -706,6 +706,7 @@ open a new block on top with the new version and today's date.
 - al-Tabari v01 (Batch 5, Fatiha): the commentary on 1:2 begins in ar, en and ur, vol. 1 pp. 135-141 (the meaning of "praise be to God", praise and thanks, the article, the omitted "say", the senses of "rabb" begun); stop sentence at the foot of p. 141.
 - al-Tabari v01 (Batch 6, Fatiha): 1:2 closes, 1:3 is filed and 1:4 is begun in ar, en and ur, vol. 1 pp. 142-148 (the senses of "rabb", "the worlds", the argument that the basmala is not a verse of the Fatiha with the editor's contrary note); stop sentence at the foot of p. 148 in 1:4.
 - al-Tabari v01 (Batch 7, Fatiha): the commentary on 1:4 continues in ar, en and ur, vol. 1 pp. 149-155 (the readings "malik / malik / malika", al-Tabari's choice of "malik", his replies to restricted readings of "Lord of the worlds", and the start of "din"); stop sentence at the foot of p. 155.
+- al-Tabari v01 (Batch 8, Fatiha): 1:4 closes and 1:5 begins in ar, en and ur, vol. 1 pp. 156-162 (reports on the Day of Judgement, the editor's note on the chain of al-Suddi, worship as lowliness, asking for help); stop sentence at the foot of p. 162.
 
 ### Changed
 - Modern Islam Browser, web section (documents only, no deployment): the founder confirmed that the Palestinian discussion website's record stays as he approved it; his decision to keep out propaganda games applies to the games only.
