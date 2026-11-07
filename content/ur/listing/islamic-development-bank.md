@@ -2,8 +2,11 @@
 id: listing/islamic-development-bank
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 
 ## خلاصہ
-او آئی سی کے زیرِ نگرانی ایک کثیر الفریقی ترقیاتی بینک؛ یہ سنہ 1975 میں جدہ میں قائم ہوا۔ {cite:wikidata}
+اسلامی ترقیاتی بینک جدہ کا کثیر الفریقی ترقیاتی مالیاتی ادارہ ہے؛ 1973 میں قائم ہوا اور 3 اپریل 1975 سے کام کر رہا ہے؛ 2013 میں اس کا منظور شدہ سرمایہ تین گنا ہو کر 150 ارب ڈالر ہوا۔ {cite:wikipedia-islamic-development-bank-en}
+
+## حوالہ جات
+- انگریزی ویکیپیڈیا، «Islamic Development Bank»، نظرِ ثانی 1383396265۔ {cite:wikipedia-islamic-development-bank-en}
