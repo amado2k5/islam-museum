@@ -2,8 +2,11 @@
 id: listing/saffron-road
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: []
 ---
 
 ## خلاصہ
-امریکا کی ایک حلال غذائی کمپنی جو سنہ 2010 میں قائم ہوئی؛ امریکا میں حلال غذا کے معروف برانڈز میں سے ایک ہے۔ {cite:wikidata}
+سیفرون روڈ امریکن حلال کمپنی کا امریکی برانڈ ہے جو حلال سند یافتہ کھانے بناتا ہے؛ عدنان درانی نے 2009 میں کمپنی قائم کی اور جولائی 2010 میں برانڈ بازار میں آیا۔ {cite:wikipedia-saffron-road-en}
+
+## حوالہ جات
+- انگریزی ویکیپیڈیا، «Saffron Road»، نظرِ ثانی 1337695038۔ {cite:wikipedia-saffron-road-en}

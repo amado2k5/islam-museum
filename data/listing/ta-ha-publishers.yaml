@@ -1,30 +1,26 @@
 id: listing/ta-ha-publishers
 class: listing
 kind: publisher
-label:
-  ar: طه للنشر
-  en: Ta-Ha Publishers
+label: { ar: "طه للنشر", en: "Ta-Ha Publishers", ur: "طٰہٰ پبلشرز" }
 summary:
-  ar: دار نشر بريطانية إسلامية تأسست 1980؛ من أقدم ناشري الكتب الإسلامية الإنجليزية.
-  en: Ta-Ha Publishers.
-wings: [made]
-categories:
-- books
-regions:
-- andalus-europe
-founded:
-  edtf: '1980'
-  calendar: gregorian
-  precision: year
-made:
-  by_muslims: true
-  basis: documented
-  sources: &id001
-  - source/official-website
-external_ids:
-  official: https://www.taha.co.uk
-sources: *id001
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
+  ar: "دار نشر إسلامية في لندن أسسها في مارس 1980 الزوجان أفسر صديقي والدكتورة جمال النساء رفاعي، من الجيل الأول من الناشرين الإسلاميين في بريطانيا؛ بدأت في غرفة خلفية في مطبعة بشمال لندن، وانتقلت إلى بريكستون سنة 1984 حيث بقيت 23 سنة، وأسس صديقي سنة 1994 رابطة الناشرين الإسلاميين، ونشرت سنة 2022 ترجمة كياني الإنجليزية الميسّرة للقرآن."
+  en: "An Islamic publisher in London founded in March 1980 by the husband-and-wife team Afsar Siddiqui and Dr Jamal-un-Nisa Rafai, among the first generation of Islamic publishers in Britain; it began in the back room of a North London print shop, moved to Brixton in 1984, where it stayed for 23 years, Siddiqui set up the Islamic Publishers Association in 1994, and in 2022 it published Tahir Mahmood Kiani's Easy Quran."
+  ur: "لندن کا اسلامی اشاعتی ادارہ جو مارچ 1980 میں میاں بیوی افسر صدیقی اور ڈاکٹر جمال النساء رفاعی نے قائم کیا، برطانیہ کے اسلامی ناشرین کی پہلی نسل میں سے؛ شمالی لندن کے ایک چھاپہ خانے کے پچھلے کمرے سے آغاز، 1984 میں بریکسٹن منتقلی جہاں 23 سال رہا، 1994 میں صدیقی نے اسلامک پبلشرز ایسوسی ایشن قائم کی، اور 2022 میں طاہر محمود کیانی کا «دی ایزی قرآن» شائع کیا۔"
+wings: [made, today]
+categories: [books]
+themes: [libraries-paper-and-the-book, muslim-minorities-under-non-muslim-rule]
+regions: [andalus-europe]
+founded: { edtf: "1980-03", hijri: "1400-04", calendar: gregorian, precision: month, status: historical, derived: true, note: "Founded in March 1980 by the publisher's own history page. The Hijri month is converter-derived.", sources: [source/ta-ha-publishers-history] }
+status_business: active
+location: { address: { ar: "لندن، المملكة المتحدة", en: "London, United Kingdom", ur: "لندن، برطانیہ" }, serves: [global] }
+links: { official: "https://tahapublishers.com" }
+languages: [en]
+made: { by_muslims: true, basis: self-identified, sources: [source/ta-ha-publishers-history] }
+sources: [source/ta-ha-publishers-history, source/gloqur-clear-and-easy-translations]
+provenance:
+  layer: own-research
+  source: "Ta-Ha Publishers' Our History page, and the GloQur post #204 for its 2022 Easy Quran, read in Chrome on the founder's Mac on 6 November 2026. Enriches the listings-lane draft card (Devin, 16 October 2026) in place; its official link is updated from taha.co.uk to tahapublishers.com."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

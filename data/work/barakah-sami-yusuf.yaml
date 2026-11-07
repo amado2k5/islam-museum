@@ -1,0 +1,45 @@
+id: work/barakah-sami-yusuf
+class: work
+kind: album
+label: { ar: "بركة ⁦(ألبوم سامي يوسف، 2016)⁩", en: "Barakah (Sami Yusuf album)", ur: "برکہ ⁦(سامی یوسف کا البم، 2016)⁩" }
+summary:
+  ar: "ألبوم استوديو لسامي يوسف صدر في 1 فبراير 2016 عن أندانتي ريكوردز بأربع عشرة أغنية، وسُوّق مجلدا أول لمجموعة «سبيريتيك»؛ فيه قصائد ومدائح مثل «الهمزية» و«يا رسول الله» و«طه»، وأغنية «Ben Yürürüm Yane Yane» التركية من التراث الصوفي، وصدرت لعدد من أغانيه مصوّرات."
+  en: "A studio album by Sami Yusuf released on 1 February 2016 by Andante Records with fourteen tracks and marketed as volume 1 of his Spiritique Collection; it includes devotional pieces such as 'Hamziyya', 'Ya Rasul Allah' and 'Taha' and the Turkish 'Ben Yürürüm Yane Yane', with videos for several of them."
+  ur: "سامی یوسف کا اسٹوڈیو البم جو یکم فروری 2016 کو اینڈانٹے ریکارڈز سے چودہ ٹریکس کے ساتھ جاری ہوا اور «اسپریٹیک کلیکشن» کی پہلی جلد کہلایا؛ اس میں «ہمزیہ»، «یا رسول اللہ» اور «طٰہٰ» جیسی مدحیں اور ترکی «بن یورورم یانے یانے» شامل ہیں۔"
+wings: [today, words]
+themes: [music, spirituality-and-sufism]
+regions: [andalus-europe]
+genre: [nasheed, madih]
+composed: { edtf: "2016-02-01", hijri: "1437", calendar: gregorian, precision: day, derived: true, note: "Release date by the English article, citing iTunes. The Hijri year is converter-derived.", sources: [source/wikipedia-barakah-sami-yusuf-en, source/wikidata-barakah-sami-yusuf] }
+languages: [ar, en, tr, fa]
+duration: 3864   # seconds; 64:24
+tracks:
+  - { n: 1, title: { en: "The Parties" }, duration_s: 179, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 2, title: { en: "Inna Fil Jannati" }, duration_s: 194, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 3, title: { en: "Hamziyya" }, duration_s: 283, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 4, title: { en: "Ya Rasul Allah, Pt. 1" }, duration_s: 366, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 5, title: { en: "Ya Rasul Allah, Pt. 2" }, duration_s: 162, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 6, title: { en: "Fiyyashiyya" }, duration_s: 299, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 7, title: { en: "Ya Nabi" }, duration_s: 274, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 8, title: { en: "Ben Yürürüm Yane Yane" }, duration_s: 412, lang: tr, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 9, title: { en: "Araftul Hawa" }, duration_s: 363, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 10, title: { en: "Ya Hayyu Ya Qayyum" }, duration_s: 235, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 11, title: { en: "Taha" }, duration_s: 266, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 12, title: { en: "Asheqan" }, duration_s: 463, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 13, title: { en: "Barakah" }, duration_s: 269, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+  - { n: 14, title: { en: "Iron" }, duration_s: 119, performers: [person/sami-yusuf], sources: [source/wikipedia-barakah-sami-yusuf-en] }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-07", sources: [source/wikidata-barakah-sami-yusuf] }
+  wikidata: "Q23013549"
+relations:
+  - { type: performed_by, target: person/sami-yusuf, sources: [source/wikipedia-barakah-sami-yusuf-en, source/wikidata-barakah-sami-yusuf] }
+  - { type: about, target: person/muhammad, note: "'Ya Rasul Allah', 'Ya Nabi' and 'Taha' are addressed to the Prophet, by their titles", sources: [source/wikipedia-barakah-sami-yusuf-en] }
+external_ids: { wikidata: "Q23013549" }
+sources: [source/wikipedia-barakah-sami-yusuf-en, source/wikidata-barakah-sami-yusuf]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Barakah (album)' (revision 1361046277 of 25 June 2026, citing iTunes and Rym Ghazal in The National, 16 August 2016) and Wikidata Q23013549 (revision 2241985429), read in Chrome on the founder's Mac on 7 November 2026; Andante Records has no record yet and is named in the prose"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
