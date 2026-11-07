@@ -1,0 +1,41 @@
+id: listing/sabily
+class: listing
+kind: software
+label:
+  ar: "سبيلي ⁦(توزيعة لينكس)⁩"
+  en: "Sabily (Linux distribution)"
+  ur: "سبیلی ⁦(لینکس ڈسٹری بیوشن)⁩"
+summary:
+  ar: "توزيعة لينكس مبنية على أوبونتو صُمّمت لمستخدميها المسلمين، صدرت أولًا باسم «أوبونتو الإصدار الإسلامي» في أكتوبر 2007 ثم باسم «سبيلي» من مايو 2009، وكان آخر إصداراتها «أحد» في ديسمبر 2011؛ جاءت بدعم العربية وبرامج إسلامية جاهزة منها برنامج «ذكر» لدراسة القرآن و«منبر» لمواقيت الصلاة وتقويم هجري وحاسبة للزكاة."
+  en: "An Ubuntu-based Linux distribution designed for Muslim users, first released as Ubuntu Muslim Edition in October 2007 and as Sabily from May 2009, its last release, 'Uhud', coming in December 2011; it shipped with Arabic support and Islamic software out of the box, among them the Qur'an study tool Zekr, the prayer-times program Minbar, a Hijri calendar and a zakat calculator."
+  ur: "اوبنٹو پر مبنی لینکس ڈسٹری بیوشن جو مسلمان صارفین کے لیے بنائی گئی؛ پہلے اکتوبر 2007 میں «اوبنٹو مسلم ایڈیشن» اور مئی 2009 سے «سبیلی» کے نام سے آئی، آخری اجرا «احد» دسمبر 2011 میں؛ عربی سہولت اور اسلامی پروگرام ساتھ تھے، جیسے قرآن کے مطالعے کا «ذکر»، اوقاتِ نماز کا «منبر»، ہجری تقویم اور زکوٰۃ کا حساب کار۔"
+wings: [made]
+categories: [technology]
+regions: [global]
+founded:
+  edtf: "2007-10-12"
+  hijri: "1428-09-30"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "UbuntuME 7.04 released 12 October 2007, by the article's release table; renamed Sabily with 9.04 'Taibah' on 12 May 2009; last release 11.10 'Uhud' on 19 December 2011. The Hijri date is converter-derived (Umm al-Qura)."
+  sources: [source/wikipedia-sabily-en]
+made: { by_muslims: false, basis: unverified }
+status_business: closed
+location: { online_only: true, serves: [global] }
+links:
+  official: "http://www.sabily.org"
+footprint:
+  wikipedia: { languages: [ar, bn, bs, en, fa, ha, id, ml, nl, "no", pt, ru, sv, ug], checked: "2026-11-06", sources: [source/wikidata-sabily] }
+  wikidata: "Q2373943"
+external_ids:
+  wikidata: Q2373943
+sources: [source/wikipedia-sabily-en, source/wikidata-sabily]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sabily' (revision 1372587649, 1 September 2026) and Wikidata Q2373943, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b02
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

@@ -1,0 +1,45 @@
+id: listing/unearthed-trail-of-ibn-battuta
+class: listing
+kind: game
+label:
+  ar: "الركاز: في أثر ابن بطوطة"
+  en: "Unearthed: Trail of Ibn Battuta"
+  ur: "الرکاز: ابن بطوطہ کے نقشِ قدم پر"
+summary:
+  ar: "لعبة مغامرات وحركة من استوديو سيمافور السعودي ونشر شركته الأم سمانور الدولية، صدرت حلقتها الأولى في 29 مايو 2013 على بلايستيشن 3 وiOS ثم على الحاسوب والأندرويد، يتتبع فيها صائد كنوز عربي وأخته عالمة الآثار أثر الرحالة ابن بطوطة؛ قُدّمت بوصفها أول لعبة سعودية متعددة المنصات، ولقيت نقدًا شديدًا ⁦(11 من 100 في ميتاكريتك)⁩، وأُعلن جزء ثانٍ باسم «الركاز» سنة 2018."
+  en: "An action-adventure game by the Saudi studio Semaphore, published by its parent Semanoor International, whose first episode came out on 29 May 2013 on PlayStation 3 and iOS and later on PC and Android, in which an Arab treasure hunter and his archaeologist sister follow the trail of the traveller Ibn Battuta; billed as Saudi Arabia's first multiplatform game, it was panned (11 out of 100 on Metacritic), and a sequel, Al Rekaz, was announced in 2018."
+  ur: "سعودی اسٹوڈیو سیمافور کا مہم جوئی کا کھیل، ناشر اس کی مادر کمپنی سمانور انٹرنیشنل؛ پہلی قسط 29 مئی 2013 کو پلے اسٹیشن 3 اور iOS پر، پھر کمپیوٹر اور اینڈرائیڈ پر آئی؛ ایک عرب خزانہ جو اور اس کی ماہرِ آثار بہن سیاح ابن بطوطہ کے نقشِ قدم ڈھونڈتے ہیں؛ اسے سعودی عرب کا پہلا کثیر پلیٹ فارم کھیل کہا گیا، ناقدین نے سخت تنقید کی ⁦(میٹا کریٹک پر 100 میں 11)⁩، اور 2018 میں دوسرے حصے «الرکاز» کا اعلان ہوا۔"
+wings: [made]
+categories: [games]
+regions: [arabia]
+founded:
+  edtf: "2013-05-29"
+  hijri: "1434-07-19"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Episode 1 released on 29 May 2013 for PlayStation 3 (PAL only) and iOS; the 'Gold Edition' for Windows and OS X on 3 January 2014 and for Android by 28 May 2014 (the English article). The Hijri date is converter-derived (Umm al-Qura)."
+  sources: [source/wikipedia-unearthed-ibn-battuta-en]
+made: { by_muslims: false, basis: unverified }
+status_business: unknown
+location: { serves: [global] }
+links:
+  platforms: ["PlayStation 3", "iOS", "Windows", "macOS", "Android", "Ouya"]
+footprint:
+  wikipedia: { languages: [ar, arz, bn, en, es, pl, pt], checked: "2026-11-06", sources: [source/wikidata-unearthed-ibn-battuta] }
+  wikidata: "Q12187853"
+relations:
+  - { type: related_to, target: listing/semaphore-games, note: "developer; publisher Semanoor International, its parent; director and writer Ahmad Jadallah", sources: [source/wikipedia-unearthed-ibn-battuta-en] }
+  - { type: related_to, target: person/ibn-battuta-muhammad, note: "the fourteenth-century traveller whose trail the story follows", sources: [source/wikipedia-unearthed-ibn-battuta-en] }
+  - { type: related_to, target: work/rihla-ibn-battuta, note: "the plot turns on a diary of Ibn Battuta and on Ibn Juzayy, who wrote down his travels", sources: [source/wikipedia-unearthed-ibn-battuta-en] }
+external_ids:
+  wikidata: Q12187853
+sources: [source/wikipedia-unearthed-ibn-battuta-en, source/wikidata-unearthed-ibn-battuta]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Unearthed: Trail of Ibn Battuta' (revision 1364834810, 18 July 2026) and Wikidata Q12187853, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b03
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

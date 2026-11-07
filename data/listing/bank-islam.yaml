@@ -2,26 +2,84 @@ id: listing/bank-islam
 class: listing
 kind: company
 label:
-  ar: "بنك إسلام"
-  en: "Bank Islam"
+  ar: بنك إسلام ماليزيا
+  en: Bank Islam Malaysia
+  ur: بینک اسلام ملائیشیا
 summary:
-  ar: "أول بنك إسلامي في ماليزيا تأسس 1983؛ أسس البنية المالية الإسلامية في جنوب شرق آسيا."
-  en: "Malaysia's first Islamic bank, founded 1983; it built Southeast Asia's Islamic-finance architecture."
-wings: [made]
-categories: [finance]
-regions: [southeast-asia]
+  ar: بنك ماليزي مقره كوالالمبور، بدأ العمل في 1 يوليو 1983 أولَ بنك إسلامي في ماليزيا، برأس مال مدفوع قدره 80 مليون رينغيت؛
+    صندوق الحج الماليزي ⁦(تابونغ حاجي)⁩ كان مساهمه الرئيس، ومرّ بخطة إنقاذ بعد خسائر 2005 و2006.
+  en: A Malaysian bank based in Kuala Lumpur that began operating on 1 July 1983 as Malaysia's first Islamic bank, with paid-up
+    capital of RM80 million; Lembaga Tabung Haji, the pilgrims' fund, was its main shareholder, and it went through a recovery
+    plan after the losses of 2005 and 2006.
+  ur: کوالالمپور میں قائم ملائیشیائی بینک، جس نے 1 جولائی 1983 کو ملائیشیا کے پہلے اسلامی بینک کے طور پر 8 کروڑ رنگٹ کے ادا
+    شدہ سرمائے سے کام شروع کیا؛ حج فنڈ لمباگا تابونگ حاجی اس کا بڑا حصہ دار تھا، اور 2005 اور 2006 کے خسارے کے بعد بحالی کے
+    منصوبے سے گزرا۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- southeast-asia
 founded:
-  edtf: '1983'
+  edtf: '1983-07-01'
+  hijri: '1403-09-20'
   calendar: gregorian
-  precision: year
+  precision: day
+  status: historical
+  derived: true
+  note: Began operating on 1 July 1983 (corporate profile, cited by the Malay article). The Hijri date is converter-derived
+    (Umm al-Qura).
+  sources:
+  - source/wikipedia-bank-islam-malaysia-ms
 made:
   by_muslims: true
   basis: documented
-  sources: [source/wikidata]
+  sources:
+  - source/wikipedia-bank-islam-malaysia-ms
 external_ids:
   wikidata: Q4115279
-sources: [source/wikidata]
+sources:
+- source/wikipedia-bank-islam-malaysia-ms
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - my
+links:
+  official: https://www.bankislam.com
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - en
+    - fa
+    - ms
+    - sv
+    - ta
+    - ur
+    - wuu
+    - zh
+    - zh-yue
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-bank-islam-malaysia-ms
+  wikidata: Q4115279
+  catalogues:
+    ticker: 'MYX: BIMB'
+provenance:
+  layer: own-research
+  source: Malay Wikipedia "Bank Islam Malaysia" (revision 6479942, 7 March 2025), read in Chrome on the founder's Mac on 6
+    November 2026; Wikidata sitelinks read the same day; the English article (revision 1359340800) is a one-line stub tagged
+    for notability and was not used for facts; the existing Wikidata-only draft (Devin, listings lane, 16 October 2026) was
+    enriched in place, its unsourced superlatives dropped (see the enterprise progress file)
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b01

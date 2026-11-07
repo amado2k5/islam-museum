@@ -299,9 +299,12 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 7: pp. 63-69 filed in ar, en and ur (reports 12694-12728): verse 5:96 continues; stop at the foot of p. 69 in al-Tabari's choice for 'its food' (next: p. 70).
 - Batch 8: pp. 70-76 filed in ar, en and ur (reports 12729-12745): verse 5:96 continues; stop at the foot of p. 76 at the start of report 12745 (next: p. 77).
 - Batch 9: pp. 77-83 filed in ar, en and ur (reports 12745-12767): verse 5:96 continues; stop at the foot of p. 83 after report 12767 (next: p. 84).
+- Batch 14: pp. 124-130 filed in ar, en and ur (reports 15132-15141): verse 150 is filed to the foot of p. 130 (the discussion of the readings 'ya ibn umm'). Next is the rest of 7:150 from printed p. 131.
+- Batch 15: pp. 131-137 filed in ar, en and ur (reports 15142-15151): verses 150 to 153 are filed in full and verse 154 is begun at p. 137 ('when the anger subsided'). Next is the rest of 7:154 from printed p. 138.
 - Batch 10: pp. 84-90 filed in ar, en and ur (reports 12768-12781): verse 5:96 closes at p. 89; verse 5:97 is begun and filed to the foot of p. 90 (next: p. 91).
+
+- Batch 11: pp. 91-97 filed in ar, en and ur (reports 12782-12793): verse 5:97 closes at p. 94 and verses 5:98 to 5:100 are filed in full (next: 5:101 from p. 98).
+- Batch 12: pp. 98-104 filed in ar, en and ur (reports 12794-12803): verse 5:101 begun; stop at the foot of p. 104 after the pilgrimage occasion (next: p. 105).
 
 ## Volume 11 progress
 - Volume 11 (`waqtaftab-taftab11`, 643 markers): the title page (marker 4) names 5:95 to 5:120 and 6:1 to 6:99, reports 12544 to 13679; the commentary starts on marker 7 (5:95). The marker-to-printed-page map is the identity (printed page = marker, checked by the page headers; a few OCR misreads of the number only). Cite `{cite:tafsir-tabari-shakir-v11 p. N}` by printed number. Report numbers are Arabic-Indic and often misread by the OCR.
-- Batch 11: pp. 91-97 filed in ar, en and ur (reports 12782-12793): verse 5:97 closes at p. 94 and verses 5:98 to 5:100 are filed in full (next: 5:101 from p. 98).
-- Batch 12: pp. 98-104 filed in ar, en and ur (reports 12794-12803): verse 5:101 begun; stop at the foot of p. 104 after the pilgrimage occasion (next: p. 105).
