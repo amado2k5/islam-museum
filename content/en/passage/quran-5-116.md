@@ -30,6 +30,10 @@ As to the sense of the words: "take me and my mother as two gods", that is, as t
 
 The editor prefers from the manuscript "and a warning to him of saying it", refers for "glory" to earlier volumes, and corrects the reading "how can a servant and handmaid" from the manuscript.
 
-We stop here at the foot of p. 237, within the explanation of "you know what is in my soul", at Jesus' words "glory to you, it is not for me to say what I have no right to; if I", which continue on p. 238.
+Then he said "you know what is in my soul", that is, Lord, nothing is hidden from you of what my soul concealed and I did not utter or show with my limbs, so how much less what I have uttered and shown? If I had said that to the people, you would have known it, for you know the hidden thoughts of souls that are not uttered, let alone what has been uttered; "and I do not know what is in yours" means I do not know what you have kept from me and not told me, for I know of things only what you have taught me; "you are the knower of the unseen" means the knower of hidden matters that none but you is told of. {cite:tafsir-tabari-shakir-v11 p. 238}
+
+The editor refers for "knower of the unseen" to p. 211 and for "the unseen" to volumes 1, 10 and 6.
+
+Verse 116 closes here at p. 238, and al-Tabari goes on to [[passage/quran-5-117|5:117]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
