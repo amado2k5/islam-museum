@@ -14,6 +14,6 @@ On "then they are returned to God, their true master; his is the judgement, and 
 
 The editor says this incorporates a verse of Surat Saba, [[passage/quran-34-3|34:3]], and refers for "master", "judgement" and "reckoning" to earlier passages.
 
-We stop here at the foot of p. 413, after the commentary on verse 62, and al-Tabari goes on to verse 63 on p. 414.
+Verse 62 closes here at p. 413, and al-Tabari goes on to [[passage/quran-6-63|6:63]].
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
