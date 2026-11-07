@@ -358,6 +358,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 76: pp. 457-463 filed in ar, en and ur (reports 17160-17173): 9:103 is completed and 9:104 and 9:105 are filed in full, closing the eleventh part of the manuscript; no stop sentence, the next batch begins at 9:106 on p. 464.
 - Batch 77: pp. 464-470 filed in ar, en and ur (reports 17174-17187, 17188 begun): 9:106 is filed in full and 9:107 is begun to the foot of p. 470 at report 17188 (next: p. 471).
 - Batch 78: pp. 471-477 filed in ar, en and ur (reports 17188-17206): 9:107 is completed and 9:108 is begun to the foot of p. 477 after report 17206 (next: p. 478).
+- Batch 79: pp. 478-484 filed in ar, en and ur (reports 17207-17229, 17230 begun): 9:108 continues to the foot of p. 484 in the middle of report 17230 (next: p. 485).
 - Batch 51: pp. 293-299 filed in ar, en and ur (reports 16802-16809, 16810 begun): 9:52 is completed, 9:53 to 9:56 are filed in full and 9:57 is filed to the foot of p. 299 at report 16810 (next: p. 300).
 - Batches 10-16: pp. 70-115 filed in ar, en and ur (reports 13793-13887): verse 119 closes at p. 71, verses 120 to 127 are filed in full (6:124 closes at p. 97, 6:125 the opening of the breast to Islam at pp. 98-112) and verse 128 is begun (report 13887, the jinn who took much from mankind) to the foot of p. 115. Stop sentence at the foot. Next is the rest of 6:128 from p. 116.
 - Batches 17-27: pp. 116-179 filed in ar, en and ur (reports 13888-14056): verse 128 closes at p. 118, verses 129 to 141 are filed in full (6:141, the harvest due and the waste it forbids, closes at p. 177 with the copyist's colophon of the ninth part of his manuscript) and verse 142 is begun (14056, the load-bearers and bedding) to the foot of p. 179. Stop sentence at the foot. Next is the rest of 6:142 from p. 180.
@@ -736,6 +737,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 81: Sura Ibrahim pp. 574-580 filed (14:23-25 continued through report 20729). Next is the rest of the commentary on "hin" from report 20730, p. 581 (marker 589).
 - Batch 82: Sura Ibrahim pp. 581-587 filed (14:23-25 finished; 14:26 reports 20737-20753). Next is p. 588 (marker 596), the rest of the commentary on 14:26.
 - Batch 83: Sura Ibrahim pp. 588-594 filed (14:26 finished; 14:27 reports 20758-20765). Next is p. 595 (marker 603), the rest of the commentary on 14:27.
+- Batch 84: Sura Ibrahim pp. 595-601 filed (14:27 reports 20766-20782; 20783 begun). Next is p. 602 (marker 610), the rest of report 20783 and 14:27.
 - Batch 81: pp. 442-448 filed in ar, en and ur (reports 13403-13418): 6:70 continued (tubsal, ransom, hamim)
 - Batch 65: printed pp. 411-418 (markers 415-422) filed in ar, en and ur (reports 14578-14598): 7:37 closes at p. 415 and 7:38 is begun to the foot of p. 418 after report 14598. Offset still marker - 4. Stop sentence at the foot. Next is marker 423 (printed 419).
 - Batch 82: pp. 449-455 filed in ar, en and ur (reports 13419-13431): 6:70 end and 6:71 (the bewildered man called to guidance), up to its last clause
