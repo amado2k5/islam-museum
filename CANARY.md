@@ -753,6 +753,7 @@ open a new block on top with the new version and today's date.
 - al-Tabari v01 (Introduction, batch I10): the detailed account of the introduction continues on work/jami-al-bayan in ar, en and ur, printed pp. 76-82 (interpretation by opinion forbidden, and the Companions who interpreted the Qur'an); stop sentence at the foot of p. 82.
 - al-Tabari v01 (Introduction, batch I11): the detailed account of the introduction continues on work/jami-al-bayan in ar, en and ur, printed pp. 83-89 (the reports used against interpretation of the Qur'an, and al-Tabari's replies); stop sentence at the foot of p. 89.
 - al-Tabari v01 (Introduction, batch I12): the detailed account of the introduction continues on work/jami-al-bayan in ar, en and ur, printed pp. 90-96 (praised and blamed early commentators, the three kinds of interpretation, and the first of the names of the Qur'an); stop sentence at the foot of p. 96.
+- al-Tabari v01 (Introduction, batch I13, volume 1 complete): the detailed account of the introduction closes on work/jami-al-bayan in ar, en and ur, printed pp. 97-106 (the names of the Qur'an, the groups of surahs, the senses of sura and aya); the whole of volume 1 is now filed.
 
 ### Changed
 - Modern Islam Browser, web section (documents only, no deployment): the founder confirmed that the Palestinian discussion website's record stays as he approved it; his decision to keep out propaganda games applies to the games only.
