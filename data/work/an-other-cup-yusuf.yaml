@@ -1,0 +1,46 @@
+id: work/an-other-cup-yusuf
+class: work
+kind: album
+label: { ar: "An Other Cup ⁦(فنجان آخر)⁩", en: "An Other Cup", ur: "این ادر کپ" }
+summary:
+  ar: "الألبوم الاستوديو الثاني عشر ليوسف إسلام، المعروف سابقا باسم كات ستيفنز، صدر في نوفمبر 2006 عن «يا» مع بوليدور وأتلانتيك؛ أول ألبوم بوب غربي له منذ 1978 وأول ألبوم باسم «يوسف»، بلغ المرتبة الثانية في النمسا وألمانيا والعشرين في المملكة المتحدة."
+  en: "The twelfth studio album by Yusuf, formerly known as Cat Stevens, released in November 2006 on Ya with Polydor and Atlantic; his first Western pop album since 1978 and his first under the name Yusuf, it reached number 2 in Austria and Germany and number 20 in the United Kingdom."
+  ur: "یوسف اسلام ⁦(پہلے کیٹ اسٹیونز)⁩ کا بارہواں اسٹوڈیو البم، نومبر 2006 میں «یا» لیبل سے پولیڈور اور اٹلانٹک کے ساتھ جاری ہوا؛ 1978 کے بعد ان کا پہلا مغربی پاپ البم اور «یوسف» نام سے پہلا البم، جو آسٹریا اور جرمنی میں دوسرے اور برطانیہ میں بیسویں نمبر تک پہنچا۔"
+wings: [today, words]
+themes: [music]
+regions: [andalus-europe]
+genre: [folk]
+composed: { edtf: "2006-11-14", hijri: "1427", calendar: gregorian, precision: day, derived: true, note: "Worldwide release on 14 November 2006, after Germany on 10 November and the UK and US on 13 November; recorded April–August 2006. The Hijri year is converter-derived.", sources: [source/wikipedia-an-other-cup-en, source/wikidata-an-other-cup] }
+languages: [en]
+duration: 2661   # seconds; 44:21
+tracks:
+  - { n: 1, title: { en: "Midday (Avoid City After Dark)" }, duration_s: 264, performers: [person/yusuf-islam], sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 2, title: { en: "Heaven/Where True Love Goes" }, duration_s: 289, performers: [person/yusuf-islam], sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 3, title: { en: "Maybe There's a World" }, duration_s: 186, performers: [person/yusuf-islam], sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 4, title: { en: "One Day at a Time" }, duration_s: 294, performers: [person/yusuf-islam], sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 5, title: { en: "When Butterflies Leave" }, duration_s: 41, performers: [person/yusuf-islam], sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 6, title: { en: "In the End" }, duration_s: 242, performers: [person/yusuf-islam], sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 7, title: { en: "Don't Let Me Be Misunderstood" }, duration_s: 202, performers: [person/yusuf-islam], note: "written by Bennie Benjamin, Gloria Caldwell and Sol Marcus", sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 8, title: { en: "I Think I See the Light" }, duration_s: 334, performers: [person/yusuf-islam], sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 9, title: { en: "Whispers from a Spiritual Garden" }, duration_s: 124, performers: [person/yusuf-islam], sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 10, title: { en: "The Beloved" }, duration_s: 291, performers: [person/yusuf-islam], sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 11, title: { en: "Greenfields, Golden Sands" }, duration_s: 205, performers: [person/yusuf-islam], sources: [source/wikipedia-an-other-cup-en] }
+  - { n: 12, title: { en: "There Is Peace" }, duration_s: 183, performers: [person/yusuf-islam], note: "bonus track on the UK edition", sources: [source/wikipedia-an-other-cup-en] }
+honours:
+  - { award: award/uk-albums-chart, result: ranked, position: 20, year: 2006, sources: [source/wikipedia-an-other-cup-en] }
+footprint:
+  wikipedia: { languages: [az, de, en, es, it, nn, sv], checked: "2026-11-06", sources: [source/wikidata-an-other-cup] }
+  wikidata: "Q482483"
+relations:
+  - { type: performed_by, target: person/yusuf-islam, sources: [source/wikipedia-an-other-cup-en, source/wikidata-an-other-cup] }
+  - { type: composed_by, target: person/yusuf-islam, note: "all songs by Yusuf except 'Don't Let Me Be Misunderstood'", sources: [source/wikipedia-an-other-cup-en] }
+  - { type: work_produced_by, target: person/yusuf-islam, note: "produced with Rick Nowels", sources: [source/wikipedia-an-other-cup-en] }
+external_ids: { wikidata: "Q482483" }
+sources: [source/wikipedia-an-other-cup-en, source/wikidata-an-other-cup]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'An Other Cup' (revision 1365631070 of 23 July 2026) and Wikidata Q482483 (revision 2517953900), read in Chrome on the founder's Mac on 6 November 2026; the weekly chart peaks are those of the article's chart table, each citing the chart's own archive"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
