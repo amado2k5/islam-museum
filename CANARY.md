@@ -57,6 +57,7 @@ open a new block on top with the new version and today's date.
 - Every browser and explorer is now documented and exposed the same way (founder rule, 6 November 2026, written into `AGENTS.md`): a register, `docs/site/browsers.md`, lists the Time Browser, Time Machine, Hijri calendar, the landing explorers, the Screening Room, the Qur'an, hadith and poetry readers, the Fatwa and Khutab explorers, the Job Browser, the Inventions Browser, the Modern Islam Browser and Education with their routes, status, what each has today and what it will have; the plan index gains the missing rows for plans 22 to 25; the roadmap, the experience plan, the engineering set (requirements FR-15 and FR-16, design, implementation, extensibility recipe 2.7, the index), the executive deck, the root README, `docs/status.md` and the lanes registry (Time Browser and Fatwa rows) now name them. The static API gains one export per feature (`/api/v1/jobs.json`, `fatwa.json`, `khutab.json`, `poetry.json`, `screens.json`, `time-browser/index.json`), documented with the OpenAPI file and `llms.txt`, and every browser landing page exposes its title and lede to search so the feature is findable by name in Arabic, English and Urdu.
 
 ### Data
+- Tafsir Browser: al-Tabari vol. 11, batch 1 (pp. 7-13, reports 12544-12565): the opening of the commentary on Qur'an 5:95 (what counts as deliberate killing of game in ihram, and al-Tabari's choice) filed in Arabic, English and Urdu.
 - Tafsir Browser (phase 1): the data model for Qur'an commentaries. A new work kind `tafsir-volume`; Tabari's Jami' al-Bayan (Shakir edition) volumes 1 to 9 are records that are part of the commentary and are about the verses their passage citations name (coverage 2:2 to 4:141).
 - The 3D tour's Ibn Sina and Qanun stops now list the same sources as their records (Ibn Sina: the ten records' sources; Qanun: the four), which had fallen out of step and turned `main` red on the tour test.
 - Al-Tabari's commentary on 4:128 continues from printed p. 268 at report 10575 and is filed through report 10598 (pp. 268-274), in Arabic, English and Urdu, citing volume 9 page by page. The next resume point is report 10599, on p. 274.
@@ -115,6 +116,18 @@ open a new block on top with the new version and today's date.
 - The claims register and the DPGA evidence map record the twenty-fourth class and the new API routes as build outputs that are not live until deployment.
 
 ### Fixed
+- Arabic parentheses (Urdu, batch 219): brackets are isolated only inside Urdu values in 20 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 218): brackets are isolated only inside Urdu values in 39 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 217): brackets are isolated only inside Urdu values in 40 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 216): brackets are isolated only inside Urdu values in 38 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 215): brackets are isolated only inside Urdu values in 40 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 214): brackets are isolated only inside Urdu values in 38 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 213): brackets are isolated only inside Urdu values in 12 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 212): brackets are isolated only inside Urdu values in 5 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 211): brackets are isolated only inside Urdu values in 2 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 210): brackets are isolated only inside Urdu values in 1 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 209): brackets are isolated only inside Urdu values in 3 data files. English and Arabic text is left exactly as it was.
+- Arabic parentheses (Urdu, batch 208): brackets are isolated only inside Urdu values in 1 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 207): brackets are isolated only inside Urdu values in 4 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 206): brackets are isolated only inside Urdu values in 1 data files. English and Arabic text is left exactly as it was.
 - Arabic parentheses (Urdu, batch 205): brackets are isolated only inside Urdu values in 11 data files. English and Arabic text is left exactly as it was.
