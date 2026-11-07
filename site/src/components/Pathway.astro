@@ -19,6 +19,8 @@ const steps = rooms.map((r: any, i: number) => ({
   i,
   title: loc(r.title),
   body: loc(r.body),
+  // an English page can show Arabic text when a step has no English body; mark it so it gets the Arabic font
+  bodyLang: lang !== "ar" && lang !== "ur" && /[؀-ۿ]/.test(loc(r.body)) ? "ar" : undefined,
   why: loc(r.why_next),
   optional: !!r.optional,
   depth: r.depth,
@@ -60,7 +62,7 @@ const N = steps.length;
         <h3 class="pw-step-h"><span class="pw-num" aria-hidden="true">{s.i + 1}</span> {s.title}</h3>
         {s.optional && <span class="pw-tag ui">{P.optional}</span>}
         {s.depth && s.depth !== "standard" && <span class="pw-tag ui">{P[`depth_${s.depth}`] ?? s.depth}</span>}
-        {s.body && <p class="pw-body">{s.body}</p>}
+        {s.body && <p class="pw-body" lang={s.bodyLang}>{s.body}</p>}
         {s.why && <p class="ui muted pw-why">{s.why}</p>}
         {s.features.length > 0 && (
           <p class="pw-features ui">{s.features.map((f: any, k: number) => <>{k > 0 && " · "}<a href={f.href}>{f.label}</a></>)}</p>
@@ -111,6 +113,7 @@ const N = steps.length;
 .pw-step-h { font-size: 1.05rem; margin: 0 0 6px; }
 .pw-num { display: inline-flex; align-items: center; justify-content: center; min-width: 1.6em; height: 1.6em; border-radius: 50%; background: var(--gold); color: #1d3a6e; font-family: var(--sans); font-size: .85em; font-weight: 700; margin-inline-end: 8px; }
 .pw-body { margin: 0 0 6px; }
+.pw-body:lang(ar) { font-family: var(--ar-body); }
 .pw-why { font-size: .88rem; margin: 0 0 6px; }
 .pw-features { margin: 0; font-size: .9rem; }
 .pw-tag { display: inline-block; font-size: .75rem; border: 1px solid var(--gold); border-radius: 999px; padding: 1px 8px; margin-inline-start: 8px; color: var(--muted); }
