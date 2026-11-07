@@ -4,27 +4,96 @@ kind: company
 label:
   ar: مصرف الإنماء
   en: Alinma Bank
+  ur: مصرف الانماء
 summary:
-  ar: مصرف سعودي حديث تأسس 2006 بمرسوم ملكي؛ من أكبر المصارف الإسلامية في المملكة.
-  en: Alinma Bank.
-wings: [made]
+  ar: بنك سعودي مساهم مقره الرياض، أُسس بالمرسوم الملكي رقم م/15 في 28 مارس 2006 برأس مال قدره 20 مليار ريال، ويقدّم خدمات
+    مصرفية واستثمارية متوافقة مع الشريعة؛ جاء العاشر في قائمة فوربس الشرق الأوسط لأعلى 30 بنكا قيمة لسنة 2025.
+  en: A Saudi joint-stock bank based in Riyadh, formed under Royal Decree No. M/15 of 28 March 2006 with share capital of
+    SAR 20 billion, offering Shariah-compliant banking and investment services; it was 10th on Forbes Middle East's 30 Most
+    Valuable Banks 2025.
+  ur: ریاض میں قائم سعودی مشترکہ سرمایہ بینک، جو 28 مارچ 2006 کے شاہی فرمان نمبر م/15 سے 20 ارب ریال کے سرمائے سے قائم ہوا
+    اور شریعت کے مطابق بینکاری و سرمایہ کاری کی خدمات دیتا ہے؛ فوربس مڈل ایسٹ کی 2025 کی 30 سب سے قیمتی بینکوں کی فہرست میں
+    دسواں رہا۔
+wings:
+- made
+- today
 categories:
 - finance
 regions:
 - arabia
 founded:
-  edtf: '2006'
+  edtf: '2006-03-28'
+  hijri: '1427-02-28'
   calendar: gregorian
-  precision: year
+  precision: day
+  status: historical
+  derived: true
+  note: Royal Decree No. M/15 of 28 March 2006 and Ministerial Resolution No. 42 of 27 March 2007 (Saudipedia, cited by the
+    article); the infobox's 23 March 2006 is uncited. The Hijri date is converter-derived (Umm al-Qura).
+  sources:
+  - source/wikipedia-alinma-bank-en
 made:
   by_muslims: true
   basis: documented
-  sources: &id001
-  - source/wikidata
+  sources:
+  - source/wikipedia-alinma-bank-en
 external_ids:
   wikidata: Q4120111
-sources: *id001
+sources:
+- source/wikipedia-alinma-bank-en
+- source/forbes-middle-east-lists-2025
+- source/wikidata
 status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - sa
+links:
+  official: https://www.alinma.com
+honours:
+- award: award/forbes-middle-east-lists
+  category: most-valuable-banks
+  result: ranked
+  position: 10
+  year: 2025
+  note: 10th on the 30 Most Valuable Banks 2025
+  sources:
+  - source/wikipedia-alinma-bank-en
+  - source/forbes-middle-east-lists-2025
+- award: award/forbes-middle-east-lists
+  category: top-100-listed-companies
+  result: ranked
+  position: 25
+  year: 2025
+  note: 25th on the Top 100 Listed Companies 2025
+  sources:
+  - source/wikipedia-alinma-bank-en
+  - source/forbes-middle-east-lists-2025
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - en
+    - fa
+    - ur
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-alinma-bank-en
+  wikidata: Q4120111
+  catalogues:
+    isin: SA122050HV19
+    ticker: 'Tadawul: 1150'
+provenance:
+  layer: own-research
+  source: English Wikipedia "Alinma Bank" (revision 1364754639, 18 July 2026), read in Chrome on the founder's Mac on 6 November
+    2026; Wikidata sitelinks read the same day; the existing Wikidata-only draft (Devin, listings lane, 16 October 2026) was
+    enriched in place
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b02
