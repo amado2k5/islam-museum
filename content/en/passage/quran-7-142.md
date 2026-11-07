@@ -10,7 +10,7 @@ Verse 142 of [[passage/quran-7|Surat al-A'raf]], a Meccan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 142 of 206 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 142 (pp. 86-88)**
+**Commentary on verse 142 (pp. 86-90)**
 
 Al-Tabari says: We appointed Moses thirty nights for communion with Us; it is said they were thirty nights of Dhu al-Qa'da; "and completed them with ten" means We completed the thirty nights with ten nights, making forty nights. It is also said that the ten with which he made it forty were the ten of Dhu al-Hijja. The editor refers to the earlier explanation of "appointing". {cite:tafsir-tabari-shakir-v13 p. 86}
 
@@ -26,6 +26,12 @@ On "and do not follow the way of the corrupters" he says: do not take the path o
 
 Report 15071, from Ibn Jurayj, through al-Qasim, al-Husayn and Hajjaj: this was after he was finished with Pharaoh and before the Mount; when God saved Moses from the sea, drowned Pharaoh's people and he reached the good land, God sent down on them there manna and quail, and his Lord commanded him to meet Him; when he wished to meet his Lord he made Aaron his successor over his people and promised them that he would come to them within thirty nights, an appointment of his own, not by his Lord's command or appointment. He set out to meet his Lord, and when thirty nights were complete the Samaritan, God's enemy, said, Moses is not coming to you, and nothing will set you right but a god you worship! Aaron adjured them, saying, do not do it, wait this night and this day, and if he comes, well, and if not, do what you wish. They said, yes. And when they rose in the morning. {cite:tafsir-tabari-shakir-v13 p. 88}
 
-We stop here at the foot of p. 88, in the middle of the commentary on verse 142 (in report 15071 from Ibn Jurayj, at "and when they rose in the morning"); the next batch begins at p. 89. {cite:tafsir-tabari-shakir-v13 p. 88}
+The rest of report 15071: when they rose the next morning and did not see Moses, the Samaritan returned to what he had said the day before. God then added ten nights to the term He had set among them, so that his Lord's appointed time became forty nights. Aaron again adjured them to wait that day also, and if Moses came, well, and if not, they could do as they wished. The Samaritan returned a third time with the same words, and Aaron again adjured them to wait. The editor notes that the printed text reads "among them ten" and that the manuscript is undotted, and that he has kept the reading that is right. {cite:tafsir-tabari-shakir-v13 p. 89}
+
+The report then breaks off at "when they did not see". The editor says he did not find it elsewhere and thinks the copyist hurried and dropped the end of the report when he turned the page, after which the next report begins. {cite:tafsir-tabari-shakir-v13 p. 89}
+
+Report 15072, from Abu Bakr ibn Abd Allah al-Hudhali, through al-Qasim, al-Husayn and Hajjaj: when Moses left, the Samaritan went to Aaron and said that on leaving Egypt they had borrowed much jewellery of the Egyptians' finery, that the troops with Aaron were rushing to sell and spend it, that it was only a loan from Pharaoh's people, who were no longer alive to be repaid, and that Moses might have a view about it when he came: he might offer it as a sacrifice for the fire to consume, or assign it to the poor and not the rich. Aaron approved, and a crier called on everyone with Pharaoh's people's jewellery to bring it. The Samaritan took it, being a goldsmith, and cast a bodily calf from it, then threw into its hollow some earth from the handful he had taken from the track of Gabriel's horse when he saw it at the sea, and the calf began to low. {cite:tafsir-tabari-shakir-v13 p. 89}
+
+The report continues: it lowed only once. The Samaritan told the Children of Israel that Moses had stayed behind after the thirty nights in order to look for this, and he said what God relates at [[passage/quran-20-88|20:88]], that Moses had forgotten his Lord. {cite:tafsir-tabari-shakir-v13 p. 90}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
