@@ -10,7 +10,7 @@ Verse 27 of [[passage/quran-10|Surat Yunus]], a Meccan surah. {cite:tanzil-quran
 ## Place in the museum
 Its place: verse 27 of 109 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 27 (pp. 73-76)**
+**Commentary on verse 27 (pp. 73-77)**
 
 Ibn Abi Layla used to say of "neither dust will cover their faces" that it is after they look upon their Lord, in reports 17643 and 17644 (through Hammad ibn Zayd and Thabit); report 17645, from Ibn Abbas: "qatar" is blackness of faces. {cite:tafsir-tabari-shakir-v15 p. 73}
 
@@ -26,6 +26,8 @@ Some later readers read it with a sukun, "qit'an", meaning blackness of the nigh
 
 He then raises an objection: if the right reading is as he says, why is "dark" in the masculine singular when it describes "pieces", the plural of a feminine? He says there are two reasons for the masculine, the first being that "pieces" is a state from "the night", and that "dark" describes "the night"; since "pieces" is indefinite and "the night" definite, it is put in the accusative as a state, so the sense is "as if their faces were covered with pieces of the dark night", and the article was then dropped. The editor notes that this grammatical term for the state is one al-Tabari has explained often. {cite:tafsir-tabari-shakir-v15 p. 76}
 
-We stop here at the foot of p. 76, in the middle of the commentary on verse 27; the next batch begins at p. 77. {cite:tafsir-tabari-shakir-v15 p. 76}
+The second reason follows a line of verse that the editor attributes to Abu Dhu'ayb, about the praise of a living man; the editor adds that the reading in the poet's collection does not contain the point of proof and that the other reading does. Al-Tabari says the first reason is the better of the two. {cite:tafsir-tabari-shakir-v15 p. 77}
+
+He then explains "those are the companions of the Fire, abiding in it": those whose description has been given are the people of the Fire, who are its own people, and "abiding" means staying in it. The editor refers to the glosses on "companions of the Fire" and "abiding" in the language indexes. {cite:tafsir-tabari-shakir-v15 p. 77}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

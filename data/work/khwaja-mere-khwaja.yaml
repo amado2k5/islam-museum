@@ -1,0 +1,30 @@
+id: work/khwaja-mere-khwaja
+class: work
+kind: song
+label: { ar: "خواجة مير خواجة ⁦(أغنية فيلم «جودا أكبر»، 2008)⁩", en: "Khwaja Mere Khwaja", ur: "خواجہ میرے خواجہ" }
+summary:
+  ar: "أغنية صوفية لحّنها أ. ر. رحمن سنة 2005 لمعين الدين الجشتي، بعد خمسة عشر عاما من زياراته لضريحه في أجمير، وغناها بنفسه بكلمات كاشف، ثم اختارها المخرج أشوتوش غواريكر لفيلم «جودا أكبر» سنة 2008 في مشهد يرى فيه أكبر نورا روحيا وهو يشاهد المنشدين والراقصين."
+  en: "A Sufi song A. R. Rahman composed in 2005 for Mu'in al-Din Chishti, after fifteen years of visits to his shrine at Ajmer, and sang himself to lyrics by Kashif; the director Ashutosh Gowariker chose it for the 2008 film Jodhaa Akbar, for a scene in which Akbar sees a spiritual light as he watches the singers and dancers."
+  ur: "صوفیانہ گیت جو اے آر رحمان نے 2005 میں معین الدین چشتی کے لیے بنایا، اجمیر میں ان کی درگاہ پر پندرہ برس کی حاضری کے بعد، اور کاشف کے بولوں پر خود گایا؛ ہدایت کار آشوتوش گواریکر نے اسے 2008 کی فلم «جودھا اکبر» کے ایک منظر کے لیے چنا۔"
+wings: [today, words]
+themes: [music, spirituality-and-sufism]
+regions: [south-asia]
+genre: [qawwali, sufi, film-song]
+composed: { edtf: "2005", hijri: "1426~", calendar: gregorian, precision: year, derived: true, note: "Composed in 2005 by the composer's account in the English article; released on the Jodhaa Akbar soundtrack in 2008. The Hijri year is converter-derived and approximate (the Gregorian year 2005 runs from late 1425 into 1426).", sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
+languages: [ur, hi]
+duration: 416   # seconds; 6:56 on the soundtrack
+honours:
+  - { award: award/screen-awards, category: "Best Male Playback", result: nominated, year: 2009, date: { edtf: "2009-01-14" }, note: "A. R. Rahman for the song", sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
+  - { award: award/screen-awards, category: "Best Lyricist", result: nominated, year: 2009, date: { edtf: "2009-01-14" }, note: "Kashif for the song", sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
+relations:
+  - { type: composed_by, target: person/a-r-rahman, sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
+  - { type: performed_by, target: person/a-r-rahman, sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
+  - { type: about, target: person/muin-al-din-al-jishti, note: "composed for him; first titled 'Kashif' after its lyricist", sources: [source/wikipedia-jodhaa-akbar-soundtrack-en] }
+sources: [source/wikipedia-jodhaa-akbar-soundtrack-en, source/wikidata-jodhaa-akbar-soundtrack]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Jodhaa Akbar (soundtrack)' (revision 1378457751 of 4 October 2026; the song's story cites the composer's interviews, the reception CNN-IBN, and the awards table each ceremony) and Wikidata Q131573221 (revision 2294421500), read in Chrome on the founder's Mac on 6 November 2026. The Screen Awards nominations are recorded as honours (batch 04); the Producers Guild and Stardust nominations stay in prose. No lyrics"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b03
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }
