@@ -396,6 +396,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 34: pp. 280-286 filed in ar, en and ur (reports 15450-15460): verse 179 closes at p. 281, verses 180 and 181 are filed in full and verse 182 is begun at p. 286; stop sentence at the foot of p. 286 at 'until he reaches the end that was written for him of' (next: p. 287).
 - Batch 35: pp. 287-293 filed in ar, en and ur (reports 15461-15464): verse 182 closes at p. 287, verses 183 to 186 are filed in full and verse 187 is begun at p. 291; stop sentence at the foot of p. 293 at the start of report 15465 (next: p. 294).
 - Batch 36: pp. 294-300 filed in ar, en and ur (reports 15465-15493): verse 187 continues ('mursaha', 'it weighs heavily', 'suddenly', 'hafi 'anha' and al-Tabari's choice); stop sentence at the foot of p. 300 at the poet's citation joining 'hafi' with 'about' (next: p. 301).
+- Batch 37: pp. 301-307 filed in ar, en and ur (reports 15494-15511): verse 187 closes at p. 301, verse 188 is filed in full and verse 189 is begun at p. 303; stop sentence at the foot of p. 307 at the start of report 15512 (next: p. 308).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
