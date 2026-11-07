@@ -237,6 +237,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 34: pp. 220-226 filed in ar, en and ur (reports 11742-11759, 11760 next): 5:29 closes (al-Hasan's view rebutted), 5:30 is filed in full (the soul's leading, how he killed him, the sisters report, losers) and 5:31 is begun (the raven; burying). Stop sentence at the foot of p. 226. Next is p. 227.
 - Batch 35: pp. 227-233 filed in ar, en and ur (reports 11760-11772, 11773 begun): 5:31 closes (the raven, Genesis translation, the parable for the believers and Banu al-Nadir) and 5:32 is begun ('because of that', the meaning of killing and giving life). Stop sentence at the foot of p. 233. Next is p. 234.
 - Batch 36: pp. 234-240 filed in ar, en and ur (reports 11773-11802): 5:32 continues (all the views on killing one soul and giving life: sin, the Fire, retaliation, pardon, rescue, al-Hasan and Qatada). Stop sentence at the foot of p. 240, where al-Tabari's choice begins. Next is p. 241.
+- Batch 37: pp. 241-247 filed in ar, en and ur (reports 11803-11811): 5:32 closes (al-Tabari's choice on killing and giving life; the messengers' clear proofs) and 5:33 is begun (the penalty for waging war and corruption; the views on whom it was revealed about: people of the covenant, polytheists, 'Ukl and 'Urayna). Stop sentence at the foot of p. 247 in report 11811. Next is p. 248.
 - Batch 21: pp. 413-419 filed in ar, en and ur (reports 10853-10854): verse 170 closes at p. 413 and verse 171 is filed to report 10854 at p. 419.
 - Batch 22: pp. 420-426 filed in ar, en and ur (reports 10855-10857): verse 171 closes at p. 424, verse 172 is filed to p. 425, and verse 173 is begun at p. 426.
 - Batch 23: pp. 427-431 filed in ar, en and ur (reports 10858-10865): verses 173 to 175 are filed in full, and verse 176 is begun at p. 430.
@@ -405,6 +406,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 45: Sura al-Ra'd begun, pp. 319-326 filed in ar, en and ur (reports 20044-20061): 13:1 is in full and 13:2 is begun to the foot of p. 326 (after 'He arranges the matter'). Stop sentence is in quran-13-2. Next is the rest of 13:2 from p. 327 (marker 335).
 - Batch 46: Sura al-Ra'd pp. 327-333 filed in ar, en and ur (reports 20062-20082): 13:2 closes at p. 327, 13:3 is in full and 13:4 is begun to the foot of p. 333 (after 'sour in taste and without scent'). Stop sentence is in quran-13-4. Next is the rest of 13:4 from p. 334 (marker 342).
 - Batch 47: Sura al-Ra'd pp. 334-340 filed in ar, en and ur (reports 20083-20113): 13:4 continues to the foot of p. 340 (in the readers' difference over 'tusqa'). Stop sentence is in quran-13-4. Next is the rest of 13:4 from p. 341 (marker 349).
+- Batch 48: Sura al-Ra'd pp. 341-347 filed in ar, en and ur (reports 20114-20129): 13:4 closes at p. 346 and 13:5 is begun to the foot of p. 347 (in the grammarians' difference over repeating the question). Stop sentence is in quran-13-5. Next is the rest of 13:5 from p. 348 (marker 356).
 ## Volume 14 progress
 - Volume 14 (`waqtaftab-taftab14`, 638 markers): the title page (marker 4) names sura al-Anfal 8:48 to 8:75 and sura al-Tawba, reports 16183 to 17518; markers 1-3 are cover and blank, markers 5-6 are the editor's preface, and the commentary starts on marker 7 (8:48). The marker-to-printed-page map is the identity (printed numbers in the headers). Cite `{cite:tafsir-tabari-shakir-v14 p. N}` by printed number. Source record: `source/tafsir-tabari-shakir-v14`.
 - Batch 1: pp. 7-13 filed in ar, en and ur (reports 16183-16195): verse 8:48 is filed in full and 8:49 is begun (the doubters who said 'their religion has deluded these'). Next is report 16196 from p. 14.
@@ -473,6 +475,7 @@ Volume 8, pp. 586-594 (4:86 and 4:87 complete, reports 10033-10048; volume 8 clo
 - Batch 59: pp. 454-460 filed in ar, en and ur (reports 15850-15861): 8:19 closes at p. 457, 8:20 and 8:21 are filed in full and 8:22 is begun at p. 459; stop sentence at the foot of p. 460 at the repeated report 15861 (next: p. 461).
 - Batch 60: pp. 460-466 filed in ar, en and ur (reports 15862-15874): 8:22 closes at p. 461, 8:23 is filed in full and 8:24 is filed to the foot of p. 466 after report 15874 (next: p. 467).
 - Batch 61: pp. 467-472 filed in ar, en and ur (reports 15875-15902): 8:24 closes at p. 472; stop sentence at the foot of p. 472 (next: p. 473, 8:25).
+- Batch 62: pp. 473-479 filed in ar, en and ur (reports 15903-15921): 8:25 and 8:26 filed in full; stop sentence at the foot of p. 479 (next: p. 480, 8:27).
 
 - Batch 15: pp. 119-125 filed in ar, en and ur (reports 12821-12827): verse 5:103 continues; stop at the foot of p. 125 after Ibn Ishaq's description of the four classes (next: p. 126).
 
