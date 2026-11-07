@@ -10,7 +10,7 @@ Verse 155 of [[passage/quran-7|Surat al-A'raf]], a Meccan surah. {cite:tanzil-qu
 ## Place in the museum
 Its place: verse 155 of 206 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
 
-**Commentary on verse 155 (pp. 140-151)**
+**Commentary on verse 155 (pp. 140-152)**
 
 Al-Tabari says: Moses chose seventy men of his people for the time and term God had set for him to meet Him with them, in repentance for what their foolish ones did with the calf. Report 15152, from al-Suddi, through Musa ibn Harun, Amr ibn Hammad and Asbat: God told Moses to come to Him with some of the Children of Israel who would apologise to Him for worshipping the calf, and set them an appointment; Moses chose seventy men under his eye and went with them to apologise; when they came to the place they asked to see God openly, as at [[passage/quran-2-55|2:55]], since he had spoken with Him, and the thunderbolt took them and they died; Moses stood weeping and called on God as related at [[passage/quran-7-155|7:155]], asking what he would say to the Children of Israel when he came to them having destroyed their best. The editor notes that this report appeared at length as no. 958. {cite:tafsir-tabari-shakir-v13 p. 140}
 
@@ -58,6 +58,6 @@ Al-Tabari says: this deed my people did, in worshipping what they worshipped bes
 
 Report 15171, from Abu al-Aliya, through Ibn Waki', his father, Abu Ja'far and al-Rabi': Your affliction. Report 15172, from Sa'id ibn Jubayr, through Habawayh al-Razi, Ya'qub and Ja'far ibn Abi al-Mughira: only Your affliction. Report 15173, from al-Rabi' ibn Anas, through al-Muthanna, Ishaq, Abd al-Rahman ibn Sa'd and Abu Ja'far: Your affliction. Report 15174, from Ibn Abbas, through Abd Allah ibn Salih, Mu'awiya ibn Salih and Ali ibn Abi Talha: it is only Your punishment, with which You strike whom You will and turn away from whom You will. The editor explains that Habawayh al-Razi is Ishaq ibn Isma'il Abu Yazid, that the man relating from him is Ibn Waki', and that he put dots in place of the abbreviated teacher's name in the chain. {cite:tafsir-tabari-shakir-v13 p. 151}
 
-We stop here at the foot of p. 151, after report 15174 on "it is only Your trial" in verse 155; the next batch begins at p. 152 with "by it You lead astray whom You will". {cite:tafsir-tabari-shakir-v13 p. 151}
+Report 15175, from Ibn Zayd, through Yunus and Ibn Wahb, on "it is only Your trial": You are their trial. "You are our protector" means You are our helper; "so forgive us" means cover our sins by not punishing us for them; "and have mercy on us" means be tender to us with Your mercy; "and You are the best of those who forgive" means the best of those who overlook a crime and cover a sin. The editor refers to the explanations of "protector", "forgiveness" and "mercy". {cite:tafsir-tabari-shakir-v13 p. 152}
 
 These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.
