@@ -16,6 +16,27 @@ around it. The graph is the work. The website, and everything in it, are applica
 ways of displaying that graph — they serve it; they are not the foundation. Everything else in
 this charter is machinery for building that graph honestly, at the scale the books demand.
 
+## Article 0 — The overall goal
+
+*(Added the same day, in the founder's second statement — preserved verbatim in
+`founders-goal-2026-11-08.md`.)*
+
+The overall goal, God willing: that we make **Islam — with all its contents, its figures,
+its events, its places, and everything about it — available to everyone**, in an easy,
+simplified form, readable by the old and the young, by Arab and non-Arab, by Muslim and
+non-Muslim. And that anyone may reshape the information — and the knowledge graph itself —
+**in any way, in any form, in any application that suits their own users, above all schools,
+universities and study circles (ḥalaqāt al-ʿilm)**.
+
+Because there is knowledge no one could reach except by reading many books and spending
+great time and great effort — and that has become nearly impossible for the new generations.
+So the knowledge graph, God willing, is **the bridge**: the one that performs a revival
+(iḥyāʾ) of the religious sciences for this age, and for the future.
+
+Everything in Articles 1–6 is in service of this Article. A use of the graph by a school, a
+university, a study circle or any builder, in any shape that suits their people, is not a
+side effect of the project — it is the goal itself.
+
 ## Article 1 — The corpus: the mother books
 
 The raw material is the content of **one to two thousand of the mother books of Islam — the
