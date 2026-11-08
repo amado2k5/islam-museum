@@ -289,6 +289,7 @@ export function loadMinedPrecedents(): Precedent[] {
 interface StoredRecord extends Question {
   id?: string; status?: string; step?: string; decision?: string; reason?: string;
   rationale?: string; needs_precedent?: boolean; confidence?: number; expires_at?: string;
+  reversible?: boolean; question_hash?: string;
   kind?: string; supersedes?: string; override_reason?: { detail?: string };
   rule_id?: string; gate?: string; precedent?: { id?: string };
   decided_by?: { agent?: string; pipeline?: string };
@@ -533,6 +534,28 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
     }
   }
   trace.push({ stage: "hard-reject", result: "pass" });
+
+  // Step 1.5: exact-question founder override. If a live kind:override record
+  // carries this question's hash, the founder already ruled on THIS question —
+  // re-docketing or re-deciding it is pure waste. Exact-hash match only: fuzzy
+  // precedent similarity must never bypass a gate. Hard rejects above still
+  // fire first — a founder override cannot authorize a hard boundary.
+  const qHash = questionHash(q);
+  const deadIds = new Set(readRecords().map((r) => r.supersedes).filter((x): x is string => !!x));
+  const override = readRecords().find((r) =>
+    r.kind === "override" && r.status === "decided" && !deadIds.has(r.id ?? "")
+    && !(r.expires_at && r.expires_at < new Date().toISOString().slice(0, 10))
+    && (r.question_hash === qHash || (r.question && questionHash(r) === qHash)));
+  if (override) {
+    trace.push({ stage: "override", result: override.id, detail: "exact-question founder override on record" });
+    return {
+      status: "decided", step: "override",
+      decision: override.decision, precedent: { id: override.id, kind: "ledger-record" },
+      domain, mode: m, trace, confidence: 1, reversible: override.reversible ?? true,
+      rationale: `Founder override ${override.id} already ruled on this exact question.`,
+    };
+  }
+  trace.push({ stage: "override", result: "pass" });
 
   // Non-delegable gates: conservative mode → founder docket. Autonomous mode →
   // the engine takes the mapped conservative decision itself (rules.yaml

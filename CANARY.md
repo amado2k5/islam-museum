@@ -70,6 +70,8 @@ open a new block on top with the new version and today's date.
 
 - **Founder verdicts enacted as override authority.** The 21 records where the founder's verdict on a held/docket question was a substantive "no" are now `kind: override` records (`dec-20261108-132`–`152`) that supersede the dead-end holds — each faithfully restates the ruling (e.g. "do not batch-mark the 400 records reviewed", "Ibn al-Haytham credits the pinhole observation only", "alpha 0.02 not 0.05", "AI prose stays draft until human read"). Re-asked questions now cite them as precedent instead of re-holding. dec-087 deliberately excluded — its verdict was ambiguous. Known boundary: policy gates still intercept before precedent, so gated questions like dec-002's still docket even with an override on record — safe but worth revisiting.
 
+- **Exact-question founder overrides bypass gates.** `decide()` now checks for a live `kind: override` record matching the question's exact hash after hard-rejects but before founder-reserved and policy gates — the founder already ruled on *this* question, so re-docketing is waste. Exact-hash only: fuzzy precedent similarity still cannot bypass a gate, and hard rejects still fire first. Verified: re-asking the "400 records reviewed" question resolves `decided/override → dec-132` instead of re-docketing; novel questions unaffected; benchmark 105/105.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests
