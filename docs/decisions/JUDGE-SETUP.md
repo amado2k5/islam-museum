@@ -1,5 +1,9 @@
 # Local judge model — setup for the decision approver's GenAI tier
 
+> **Model layer doc:** `docs/engineering/18-local-models.md` — the full
+> inventory, machine-roles split (Mac computes, Devin orchestrates), per-
+> component assignments, selection rationale and optimization notes.
+
 The judge tier (`decide.ts` `maybeJudge`) is **build-time only** — it runs on
 the machine building the repo, never on the published site, never per visitor.
 It exists so held questions (safe-default, `needs_precedent`) get an evidence-
@@ -9,15 +13,35 @@ the sole authority; the model only ever produces `status: recommended`.
 ## This Mac (M4 Max, 128 GB)
 
 Ollama is installed and serving the OpenAI-compatible API at
-`http://localhost:11434/v1`. Models already present: `llama3.1:8b`,
-`qwen2.5-coder:{1.5b,7b,14b,32b}`, `nomic-embed-text`.
+`http://localhost:11434/v1`. Models present: `qwen3:32b`, `llama3.1:8b`,
+`qwen2.5-coder:{1.5b,7b,14b,32b}`, `qwen3-embedding:0.6b`, `nomic-embed-text`.
 
-**Recommended judge: `qwen2.5:32b`** (~20 GB, pulled 8 Nov 2026) — strongest
-local reasoning for doctrine-heavy questions. `llama3.1:8b` works as a fast
-fallback. Models live in `~/.ollama` on the internal disk; the microSD
+**Recommended judge: `qwen2.5:32b`** (founder-approved 8 Nov 2026, ~20 GB —
+`ollama pull qwen2.5:32b` if absent) — strongest local reasoning for
+doctrine-heavy questions. `qwen3:32b` (already installed) and `llama3.1:8b`
+(fast fallback) also work — set `DECIDE_JUDGE_MODEL` to whichever is pulled.
+Models live in `~/.ollama` on the internal disk; the microSD
 (`/Volumes/exmicroSD`) has 151 GB free if the internal disk ever gets tight —
 set `OLLAMA_MODELS=/Volumes/exmicroSD/ollama/models` before first pull to
 redirect storage.
+
+## Machine roles (founder ruling, 8 Nov 2026)
+
+The founder's Mac is the local-compute node; Devin sessions orchestrate and do
+the repository work. Division of labour:
+
+- **On the Mac (local, free, private):** the decision-engine judge and
+  embedding models (Ollama), image generation, Apple Vision OCR, browsing and
+  the shared browser, file conversion, video/audio splitting, and large
+  downloads (harvest fetches, model pulls).
+- **On Devin (cloud agent):** translation (all `content/en|ur` prose), entity
+  and prose authoring, repository edits, validation, commits — and
+  **orchestration**: Devin keeps progress state, sequences the work, and
+  dispatches Mac-side tasks (OCR a page range, pull a model, borrow-and-read a
+  book) rather than doing them inline.
+
+Nothing in this split changes authority: the deterministic engine still decides,
+the judge still only recommends, and founder-only surfaces still dock.
 
 ## Usage
 

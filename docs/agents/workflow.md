@@ -101,6 +101,10 @@ Every ambiguity becomes a ledger record, not a blocking question. The engine (`s
 - **Never bypass the hard gates:** deploys, spend, outreach, deletions and the content-safety block always reach the founder regardless of mode. An engine `rejected` or `founder-docket` outcome is final for your session — take the safe default it names and move on.
 - **Check before re-asking:** `docs/decisions/digest.md` lists open docket items; `npx tsx scripts/decisions/audit.ts` shows which rules the founder keeps rejecting. Full docs: `docs/decisions/README.md`.
 
+## 9b. Which machine does what (founder ruling, 8 Nov 2026)
+
+Devin sessions orchestrate and keep progress; the founder's Mac supplies the local compute. **On the Mac:** the decision judge and embedding models (Ollama — see `docs/decisions/JUDGE-SETUP.md`), image generation, Apple Vision OCR, the shared browser, file conversion, video/audio splitting, and large downloads. **On Devin:** translation, entity and prose authoring, repository edits, validation, commits — and dispatching Mac-side tasks rather than doing them inline. Authority is unchanged: the deterministic engine decides, the judge only recommends, founder-only surfaces still dock.
+
 ## 10. Deploying to Cloudflare: manual, founder only
 
 **Where files go (founder rule, 28 Oct 2026).** Cloudflare Pages holds code and logic only. Data, content, maps, images, pictures and video go to Cloudflare R2, served by the site Worker. A new folder of data or media is added to `R2_DATA_DIRS` in `workers/site/src/route.js`, the publish list in `workers/r2-sync/batch/publish.mjs`, `run_worker_first` in `workers/site/wrangler.production.toml` and both `rm -rf` lines in `.github/workflows/deploy.yml`; never leave it on Pages. Details: `docs/engineering/06-deployment.md` "What goes where".

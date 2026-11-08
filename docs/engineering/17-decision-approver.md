@@ -17,13 +17,23 @@ machine-readable verdict with a full explainable trace.
 question (+ optional proposed_action)
   │
   ├─ 1. DOMAIN CLASSIFY     rules.yaml classifiers → content/dates/sources/…
+  │                        (scans question + proposed_action — the proposal is
+  │                        part of what is being gated, Muse H5 fix)
   ├─ 2. FOUNDER-RESERVED    conservative mode only: explicit "founder decides" → docket
   ├─ 3. POLICY GATES        non-delegable surfaces + hard rejects (never model-overridable)
   ├─ 4. CANONICAL RULES     priority-ordered rules.yaml — the repo already answers these
-  ├─ 5. PRECEDENT MATCH     BM25 + optional hybrid embeddings over mined rulings + ledger
+  │                        (question text ONLY — options/evidence/proposed_action
+  │                        cannot steer semantic rule selection)
+  ├─ 5. PRECEDENT MATCH     BM25 + hybrid embeddings over mined rulings + ledger
+  │                        (question text ONLY, same anti-stuffing rule)
   ├─ 6. JUDGE (optional)    local model, bidirectional BPE evaluation → "recommended" only
   └─ 7. SAFE DEFAULT        hold as draft-tier, needs_precedent, recorded for audit
 ```
+
+The split above is load-bearing: **gates see the whole proposal** (a tidy
+question proposing a delete must still hit the delete gate), while **rules and
+precedents see only the literal question** (proposed_action/options/evidence are
+untrusted proposer text and must not be able to stuff a rule or precedent match).
 
 Every outcome emits a YAML decision record (`docs/decisions/records/`) and a
 trace (`--explain`, `--json`).
@@ -31,18 +41,28 @@ trace (`--explain`, `--json`).
 ## 2. Modes
 
 `docs/decisions/rules.yaml` → `mode:` selects behaviour; `--mode` overrides per call.
+**Default is `conservative`** — an autonomous default plus lanes reading `decided`
+as permission was judged the riskiest shortcut (Fable F8) and reverted.
 
-- **autonomous** (POC default): every former approval gate gets the engine's own
-  conservative, reversible decision — deploy questions get a cost-aware cadence
-  answer (deploy only on code/schema changes, milestones, or accumulated content
-  deltas; never per-commit or docs-only), spend → budget proposal only,
-  outreach → draft-only, deletes → deny-or-merge-alias, governance → proposal.
-- **conservative**: the same gates return `founder-docket` — kept for A/B
-  comparison and for any surface the founder wants back.
+- **conservative** (default): non-delegable surfaces route to the founder docket;
+  safe defaults hold. This is also the A/B harness, the rollback target and the
+  auto-demotion state.
+- **autonomous** (opt-in per run or via `mode:` in rules.yaml): each mapped gate
+  gets the engine's own conservative, reversible decision instead of a docket —
+  licence change → labelled proposal, review-status → governed-path answer,
+  content-safety/Qur'an → refuse-with-rationale, governance → proposal,
+  conflicting authorities → newest-dated-ruling + preserved readings. Gate
+  mapping additionally requires the domain on `safe_proceed:` — currently
+  `engineering`, `process`, `governance`; `money-outreach` was removed
+  2026-11-08.
+- **Founder-only in BOTH modes**: deploy, delete, spend and outreach have no
+  `autonomous.gates` mapping, so they docket even under `--mode autonomous` —
+  the founder's standing ruling (decision record dec-186 and predecessors) is
+  that these surfaces never get engine-decided.
 
-Hard invariants refuse in **every** mode: the terrorist-organisation content
-block, Qur'an text handling, typed honorifics, prophet depictions, money
-movement, external sends, destructive deletion.
+Hard rejects (`hard_reject` in rules.yaml) refuse in **every** mode and run
+before override lookup: the terrorist-organisation content block, Qur'an text
+handling, typed honorifics, prophet depictions.
 
 ## 3. Rule engine
 
@@ -58,30 +78,39 @@ may be recorded as a biographical fact on one source but never settles `faith`).
 
 ## 4. Precedent retrieval — lexical + hybrid
 
-Corpus: `docs/decisions/precedents.yaml` (200 entries: 55 `founder-ruled`,
-81 `agent-ruled-delegated`, 64 `agent-proposed-pending` excluded from authority;
-`flag` entries are observations and never match) **plus the decision ledger
-itself** — every `decided` record becomes a `ledger-record` precedent, so the
-system cites its own rulings. Held questions (`needs_precedent`), expired
+Corpus: `docs/decisions/precedents.yaml` (~200 mined entries plus the decision
+ledger itself — every `decided` record becomes a `ledger-record` precedent, so
+the system cites its own rulings). Held questions (`needs_precedent`), expired
 records and records named in another record's `supersedes:` never become
-authority (the override stands; the original stays on disk untouched).
+authority (the override stands; the original stays on disk untouched). Mined
+precedents carry a 365-day `expires_at` and `supersedes` chains — delegated
+authority cannot silently harden into permanent doctrine (the kill-switch the
+founder required alongside full agent authority, dec-186/Q9).
 
-**Authority filter (Muse §2 — "a proposal is not a precedent"):** every mined
-entry carries `provenance_status`, assigned fail-closed by the extractor:
+**Authority filter ("a proposal is not a precedent"):** every mined entry
+carries `provenance_status`, assigned fail-closed by the extractor:
 
 | status | meaning | may decide? |
 |---|---|---|
 | `founder-ruled` | the founder's own ruling, citable to a ruling act | yes |
 | `founder-ruled-ai-assisted` | founder ruled on AI-drafted options (the 1 Nov incident class) | yes, weighted below clean rulings |
-| `agent-ruled-delegated` | agent decision under standing delegation ("Approved non-impacting" vocabulary) | yes, within delegated scope |
+| `agent-ruled-delegated` | agent decision under standing delegation (dec-186: full authority, not reduced) | yes, within delegated scope |
 | `agent-proposed-pending` | drafted, never ruled | **no — context only** |
 | `agent-proposed-rejected` / `reverted` | ruled against / undone | no (negative authority needs polarity-aware matching — roadmap) |
 
 Entries named in another precedent's `supersedes:` field are dead authority and
-excluded. The 1 Nov 2026 incident is the canonical failure this prevents: an
-agent-drafted packet that sounded like the founder reversed six of his positions
-and had to be reverted (PR #2873) — naive mining would have re-encoded the bug
-as doctrine.
+excluded. The extractor mints `founder-ruled` authority only from structured
+claims in whitelisted founder-owned paths, and only when the claim is dated —
+regex-matching "founder ruled" in agent prose is a forgery surface (H5 lesson:
+wording steers this engine).
+
+**Overrides:** a `kind: override` record bypasses gates ONLY when every check
+passes — `status: decided`, live (not superseded), unexpired, exact
+`question_hash` match, and `calibration_log.founder_resolution.verdict ===
+approved`. Overrides without founder approval can still inform precedent
+retrieval but cannot bypass a gate; hard rejects always run before override
+lookup. This is the dec-179/dec-182 pattern for correcting a record's rule
+citation without re-litigating its outcome.
 
 **Lexical path (always on):** BM25 over title+summary with IDF, plus a
 title-token-overlap floor. Gates: normalized score ≥ 0.6 **and** title overlap
@@ -177,19 +206,56 @@ governing rule/gate/precedent.
   `--write` run — items needing the founder, items held pending precedent, and
   expired decisions due for re-review.
 - **Inbox**: lanes drop `docs/decisions/inbox/*.yaml`; `--batch` processes them,
-  skips already-decided hashes and unparseable files.
+  skips already-decided hashes and unparseable files. **Harvest lanes are
+  required to route every labeling/classification/judgment call through this
+  flow** — `docs/agents/mining-sources.md` §4b (founder ruling, 8 Nov 2026).
+  Mechanical choices (which scan to read, page offsets, schema-required fields)
+  and founder-only surfaces (exclusions, safety blocks, Qur'an text, licences)
+  are carved out explicitly.
 - **Advisory contract** (`--advisory`): any model submits
   `{question, proposed_action, proposed_by}` → receives
   `allow | redirect | deny | route-to-founder` plus the engine's authoritative
   decision. The proposer/disposer pattern: untrusted proposer, trusted
   deterministic monitor — the engine never defers to the proposal.
+- **Agent self-labelling (dec-186 standing delegation, 8 Nov 2026)**: the
+  founder delegated record labeling to agents — `decided_by` carries
+  `devin-swe2 (agent, delegation)` style stamps and agents write verdicts
+  autonomously going forward. `calibration_log.founder_resolution` remains the
+  field for genuine founder verdicts (`founder-rule.ts`); agent labels are
+  recorded with their own provenance so the audit trail stays honest about who
+  decided what. Hard gates (deploy, delete, spend, outreach, safety, Qur'an,
+  governance, licences) remain founder-docketed regardless.
+- **Golden-set doctrine (dec-188)**: everything currently in the museum — data,
+  prose, events, persons, books — is the reference corpus. A rule that would
+  reject or invalidate existing content is wrong and gets amended; content is
+  never removed to satisfy a stricter rule. AGENTS.md carries this as a
+  rule-that-never-bends.
+
+## 6b. Operator tooling — the full script surface
+
+| Script | Purpose |
+|---|---|
+| `decide.ts` | The engine. Single question (`--question`, `--proposed-action`), `--batch <dir> --write` for inbox processing, `--explain` trace, `--json`, `--advisory` proposer/disposer contract, `--mode`. |
+| `benchmark.ts` | Replays `benchmark.yaml`'s 112 labelled cases; asserts exact rule/gate/precedent ids. The reconstruction-agreement gate — a rule mutation may not regress it. |
+| `check-records.ts` | Ledger contract: required fields, authority provenance, duplicate ids/hashes, supersedes-chain integrity, stale rule citations. Runs inside `npm run validate`. |
+| `sweep.ts` | Stale-authority detector: finds live records citing rules that no longer match, precedents gone dead, or doctrine drifted since the record was written. |
+| `extract-precedents.ts` | Re-mines `docs/**` into `precedents.yaml` with `provenance_status` fail-closed assignment, `expires_at` stamping and `supersedes` honouring (founder-owned whitelisted paths only for founder-minted authority, dated claims required). |
+| `seed-inbox.ts` | Converts non-authority precedent questions into inbox YAMLs for batch processing. |
+| `replay.ts` | Replays extractable lane questions through the engine; reports coverage + citation precision (`--mask-self` = generalization test). |
+| `audit.ts` | Per-surface agreement report over labelled records — the promotion-gate instrument. |
+| `founder-rule.ts` | Writes a founder verdict into `calibration_log.founder_resolution` — the label stream. |
+| `mark-applied.ts` | Records `state_chain.current_state: applied` — the decided→applied funnel. |
+| `triage.ts` | Judge-assisted digest of unlabelled safe-default holds (requires judge transport). |
+| `digest.ts` | Governance dashboard → `docs/decisions/digest.md`; runs at the end of every `--batch --write`. |
+| `decisions.test.ts` | Vitest coverage of pipeline gates and mode behaviour. Run scoped: `npx vitest run scripts/decisions/decisions.test.ts`. |
 
 ## 7. Benchmark — the reconstruction gate
 
-`docs/decisions/benchmark.yaml` holds ~71 labelled cases mined from real repo
+`docs/decisions/benchmark.yaml` holds 112 labelled cases mined from real repo
 questions across every domain (content, sources, dates, media, i18n,
 accessibility, process, engineering, safety, governance) with expected outcomes
-(`rule`, `precedent`, `default`, `docket`, `autonomous-override`, `reject`).
+asserting the exact `rule_id`/`gate`/`precedent_id` — not just the broad step —
+plus per-mode autonomous cases (`autonomous-override`, `reject`).
 
 ```
 npx tsx scripts/decisions/benchmark.ts   # → 71/71, prints reconstruction-agreement %
@@ -211,8 +277,9 @@ pass counts are the calibration dashboard.
 | `DECIDE_JUDGE_MODEL` | `local` | judge model id |
 | `DECIDE_JUDGE_SINGLE` | off | `1` = single-pass judge (no BPE) |
 
-Local setup: `brew install ollama && ollama serve && ollama pull qwen3:32b
-qwen3-embedding:0.6b` — see `docs/decisions/JUDGE-SETUP.md`.
+Local setup: `brew install ollama && ollama serve && ollama pull qwen2.5:32b
+qwen3-embedding:0.6b` — see `docs/decisions/JUDGE-SETUP.md`. (Judge model is
+founder-approved `qwen2.5:32b`, updated from the original `qwen3:32b`.)
 
 ## 9. Research basis
 
@@ -298,21 +365,24 @@ target, and the auto-demotion state at >5% override rate.
   terms; `not_matches` suppressions checked first, grow only from observed
   false positives; a pre-push `check-no-leak` greps the tree (counts only).
 
-**Still open from the advisory:** per-domain safe_proceed table (Q2 — the
-domain rows are documented in Muse's answer and ready to encode),
-`docs/decisions/envelopes.yaml` (spend envelopes — founder-set, zero until
-set), `gate-outreach-clearance` (deterministic pre-send gate before any
-send-flag can flip), `attestation_families` deterministic field (needed
-before the faith class goes live), private forbidden lists at
-`$ISLAM_MUSEUM_PRIVATE_DIR` (fail-closed loader + hash-only logging +
-check-no-leak — buildable next), shadow mode + `shadow-report.ts`,
-`induce.ts` CEGIS candidates, `jury-ab.ts` roster harness (proposer
-`gemma3:27b` Q8_0, judge `qwen3:32b` incumbent, escalation juror
-`llama3.3:70b` Q6_K — co-residency math in Muse Q5), `calibrate-retrieval.ts`
-grid search (Gemini Q3 spec: 120-query set, P@1/MRR/FMR/ZPR, guard set with
-infinite penalty), plural-jury `jury:` record blocks, the decided→verified-live
-state chain, and §11 metrics not yet instrumented (reported `partial` in the
-digest rather than faked).
+**Implemented since (8 Nov 2026):** digest.ts, check-records.ts, mark-applied.ts,
+audit.ts, replay.ts, seed-inbox.ts, founder-rule.ts, triage.ts, sweep.ts, TTL +
+`expires_at` on records and precedents, `supersedes` dead-lettering, the
+question/proposed_action split (gates see both, rules/precedents question-only),
+exact-id benchmark assertions (112 cases), founder-only deploy/delete/spend/
+outreach surfaces, agent self-labelling under dec-186, harvest §4b routing,
+golden-set doctrine dec-188.
+
+**Still open:** `docs/decisions/envelopes.yaml` (spend envelopes — founder-set,
+zero until set), `gate-outreach-clearance` (deterministic pre-send gate),
+`attestation_families` deterministic field (needed before the faith class goes
+live), private forbidden lists at `$ISLAM_MUSEUM_PRIVATE_DIR` (fail-closed
+loader + hash-only logging + check-no-leak), shadow mode + `shadow-report.ts`,
+`induce.ts` CEGIS candidates, `jury-ab.ts` roster harness, `calibrate-retrieval.ts`
+grid search, plural-jury `jury:` record blocks, the full decided→applied→merged→
+deployed→verified-live state chain (mark-applied covers the first hop), and §11
+metrics not yet instrumented (reported `partial` in the digest rather than
+faked).
 
 ## 11. Known limitations & roadmap
 

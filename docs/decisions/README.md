@@ -24,13 +24,21 @@ blocking to asynchronous sampling of a ledger.
 | `scripts/decisions/decide.ts` | Pilot pipeline: rule gate → precedent match → safe default → decision record. Dry-run unless `--write`. |
 | `docs/decisions/records/` | Decision records emitted by the pipeline (`dec-YYYYMMDD-NNN.yaml`). |
 | `scripts/decisions/decisions.test.ts` | Vitest coverage of the pipeline gates. |
-| `docs/decisions/rules.yaml` | Canonical rules, gates, domains and autonomy mapping — data, not code. |
-| `scripts/decisions/founder-rule.ts` | Writes a founder verdict (`approved`/`rejected`/`held`) into a record's `calibration_log.founder_resolution` — the label stream every agreement metric reads. |
-| `scripts/decisions/audit.ts` | Per-surface agreement report + domain rollup + decided-but-rejected worklist + demotion candidates. |
-| `scripts/decisions/replay.ts` | Replays mined precedent questions through the engine; `--mask-self` is the generalization test. |
-| `scripts/decisions/check-records.ts` | Ledger contract checker: required fields, authority provenance, duplicate ids/hashes, chain integrity. |
-| `scripts/decisions/digest.ts` | Governance dashboard: blocked items, safe-state rates, chain/duplicate-hash integrity metrics. |
-| `scripts/decisions/mark-applied.ts` | Records `state_chain.current_state: applied` when a decision is acted on. |
+| `docs/decisions/rules.yaml` | Canonical rules, gates, domains, `safe_proceed` domains and autonomy mapping — data, not code. |
+| `scripts/decisions/decide.ts` | The engine: single question, `--batch` inbox processing, `--explain`/`--json`/`--advisory`, `--mode`. |
+| `scripts/decisions/benchmark.ts` | Replays the 112 labelled benchmark cases; asserts exact rule/gate/precedent ids — the reconstruction-agreement gate. |
+| `scripts/decisions/check-records.ts` | Ledger contract checker (runs in `npm run validate`): required fields, authority provenance, duplicate ids/hashes, chain integrity. |
+| `scripts/decisions/sweep.ts` | Stale-authority detector: live records citing dead rules/precedents or drifted doctrine. |
+| `scripts/decisions/extract-precedents.ts` | Re-mines `docs/**` → `precedents.yaml` with fail-closed `provenance_status`, `expires_at` and `supersedes` handling. |
+| `scripts/decisions/seed-inbox.ts` | Converts non-authority precedent questions into inbox YAMLs. |
+| `scripts/decisions/replay.ts` | Coverage + citation-precision diagnostic over mined lane questions (`--mask-self` generalization test). |
+| `scripts/decisions/audit.ts` | Per-surface agreement report over labelled records — the promotion-gate instrument. |
+| `scripts/decisions/founder-rule.ts` | Writes a founder verdict into `calibration_log.founder_resolution`. |
+| `scripts/decisions/mark-applied.ts` | Records `state_chain.current_state: applied` — the decided→applied funnel. |
+| `scripts/decisions/triage.ts` | Judge-assisted digest of unlabelled safe-default holds. |
+| `scripts/decisions/digest.ts` | Governance dashboard → `docs/decisions/digest.md` (runs after every `--batch --write`). |
+| `docs/decisions/JUDGE-SETUP.md` | Local judge model setup — the Mac runs the judge/embeddings; Devin orchestrates (founder ruling, machine roles). |
+| `docs/engineering/17-decision-approver.md` | Full architecture document: pipeline stages, retrieval formulas, judge BPE math, record schema, config reference, roadmap. |
 
 ## The pipeline (`decide.ts` + `rules.yaml`)
 
@@ -40,16 +48,23 @@ at load. `decide()` returns a full `trace` of every stage evaluated.
 
 Two modes (`rules.yaml` `mode:` or `--mode`):
 
-- **`conservative` (default)** — non-delegable surfaces route to
-  `docs/decisions/docket.md` for the founder; safe defaults hold.
-- **`autonomous` (opt-in)** — the engine decides everything. Each gate maps
-  to a conservative reversible decision in `rules.yaml` `autonomous.gates`
-  (deploy → cost-aware cadence policy; spend → budget proposal; outreach →
-  draft-only; delete → never, merge/alias instead; governance → labelled
-  proposal). A gate with no mapping still docks — autonomy never invents
-  authority. `hard_reject` entries refuse in BOTH modes. Gate-mapping in
-  autonomous mode additionally requires the domain on `safe_proceed:` —
-  content-domain deletions still docket even when autonomous is on.
+- **`conservative` (default)** — non-delegable surfaces route to the founder
+  docket; safe defaults hold. This is also the A/B harness and rollback target.
+- **`autonomous` (opt-in)** — mapped gates get the engine's own conservative,
+  reversible decision (`rules.yaml` `autonomous.gates`: licence change →
+  proposal, review-status → governed-path answer, content-safety/Qur'an →
+  refuse-with-rationale, governance → proposal, authority-conflict → newest
+  ruling + preserved readings). Gate mapping additionally requires the domain
+  on `safe_proceed:` — currently `engineering`, `process`, `governance`.
+  **Deploy, delete, spend and outreach have no autonomous mapping and dock in
+  BOTH modes** — founder-only surfaces per the standing rulings.
+  `hard_reject` entries refuse in both modes and run before override lookup.
+
+**Text split (H5 fix):** gates, founder-reserved patterns, hard rejects and
+domain classification scan `question + proposed_action` — the proposal is part
+of what is gated. Rules and precedent matching scan the **question only** —
+options/evidence/proposed_action are untrusted proposer text and cannot steer
+semantic matching.
 
 Pipeline order:
 
@@ -60,13 +75,18 @@ Pipeline order:
    full 20k-commit history (doubt→unknown, two-source faith doctrine, homonyms,
    stub-replace, wing defaults, kids' wing, conflict preservation, fail-closed
    external IDs, no-skip lanes, inclusive harvest…).
-3. **Precedent** — BM25 over mined precedents **plus the ledger itself**: every
-   `decided` record becomes a `ledger-record` precedent, so the system learns
-   from its own rulings. Gates: score ≥ 0.6 AND title overlap ≥ 0.3; `flag`
-   entries never count.
+3. **Precedent** — BM25 + hybrid embeddings (opt-out `DECIDE_HYBRID=0`) over
+   mined precedents **plus the ledger itself**: every `decided` record becomes
+   a `ledger-record` precedent. Authority is fail-closed by
+   `provenance_status` (`founder-ruled`, `founder-ruled-ai-assisted`,
+   `agent-ruled-delegated` may decide; `agent-proposed-pending` cannot);
+   `supersedes:` kills dead authority; 365-day `expires_at` TTL applies.
+   Question text only — proposer fields cannot stuff a match.
 4. **Judge tier (optional)** — if `DECIDE_JUDGE_CMD` or `DECIDE_JUDGE_URL`
-   (OpenAI-compatible: Ollama, LM Studio) is set, held questions get a GenAI
-   recommendation recorded as `status: recommended` — advisory only.
+   (OpenAI-compatible: Ollama, LM Studio) is set, held questions get a local
+   model's bidirectional BPE recommendation recorded as `status: recommended`
+   — advisory only, never authority. Judge model: founder-approved
+   `qwen2.5:32b` on the Mac (`docs/decisions/JUDGE-SETUP.md`).
 5. **Safe default** — conservative reversible hold, `needs_precedent: true`.
 
 **Proposer/disposer contract (`--advisory`)**: any AI model submits
@@ -126,8 +146,12 @@ evidence: ["docs/...", "..."]
 `npx tsx scripts/decisions/decide.ts --batch docs/decisions/inbox --write` processes
 every inbox file, writes a record per question to `docs/decisions/records/`, and
 regenerates `docs/decisions/docket.md` — the short list of items that genuinely need
-the founder. The founder reviews the docket asynchronously instead of answering
-questions as they arrive.
+the founder. **Harvest lanes must route every labeling/classification/judgment
+call through this flow** (`docs/agents/mining-sources.md` §4b, founder ruling
+8 Nov 2026); mechanical choices and founder-only surfaces are carved out there.
+Under the dec-186 standing delegation, agents label records autonomously —
+`decided_by` stamps carry agent provenance; `founder_resolution` remains for
+genuine founder verdicts.
 
 ## Pilot experiment (8 November 2026)
 
@@ -178,12 +202,14 @@ behaviour the system must have: better a held question than a fabricated precede
 
 ## Known POC limits
 
-- Precedent matching is BM25 lexical, not semantic — strong on seen-before
-  questions, conservative on novel ones. The judge tier covers the residual.
+- Precedent matching is lexical BM25 + hybrid embeddings with a dual-path
+  gate — strong on seen-before questions, conservative on novel ones. The
+  judge tier covers the residual.
 - `rules.yaml` rules are regex-over-text; they answer HOW questions well but a
   genuinely novel judgment still lands at safe-default or `recommended`.
 - Autonomous-mode gate decisions are conservative BY CONSTRUCTION (draft-tier,
   proposals, never-delete) — they decide the safe course, not the ambitious one.
   That is the correct POC posture: autonomy expands coverage, never blast radius.
-- Benchmark: `npx tsx scripts/decisions/benchmark.ts` — 70 labelled cases,
-  per-class metrics, `--verbose` for traces.
+- Benchmark: `npx tsx scripts/decisions/benchmark.ts` — 112 labelled cases
+  asserting exact rule/gate/precedent ids, per-class metrics, `--verbose` for
+  traces. Current state: 112/112, sweep clean, records valid.
