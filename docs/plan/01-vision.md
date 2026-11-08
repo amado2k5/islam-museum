@@ -19,6 +19,16 @@ The museum metaphor is deliberate. A museum is a place where a stranger can walk
 
 ## 2. Why it matters
 
+**The overall goal (Founder's Charter, Article 0, 8 November 2026).** Islam — with all its
+contents, its figures, its events, its places, everything about it — available to everyone,
+in an easy, simplified form readable by old and young, Arab and non-Arab, Muslim and
+non-Muslim; and anyone free to reshape the knowledge graph in any form and any application
+that suits their own users, **above all schools, universities and study circles**. Some
+knowledge was reachable only by reading many books over great time and effort — nearly
+impossible for the new generations. The graph is the bridge across that gap: a revival of
+the religious sciences for this age and the future. Uses of the graph by others are not a
+by-product of the museum; they are the goal.
+
 - Islam is 1.9–2 billion people, 14 centuries, and every continent, yet online knowledge about it is **fragmented into silos**: Qur'an sites, hadith sites, museum collections, Wikipedia articles, academic databases, timelines, travel blogs, polemics. Nobody connects the astrolabe to the astronomer to the city to the caliph to the verse he was reading.
 - The curious outsider is **poorly served**: they get either apologetics, polemics, or a 40-page Wikipedia article. There is no calm front door.
 - Muslims themselves are **under-served on breadth**: most know their own tradition's story deeply and the civilization's story thinly (Timbuktu, Zheng He, the Ottoman observatory, Bosnian Ajami literature, Swahili poetry, Chinese Hui architecture).
