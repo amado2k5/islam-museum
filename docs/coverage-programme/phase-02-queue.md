@@ -4,33 +4,33 @@ Founder decides each batch. States: `[ ]` queued · `[~]` with founder · `[x]` 
 
 Undecided: 286 of 289 (`npx tsx scripts/check-authenticity.ts`).
 
-## Batch 01 (25)
+## Batch 01 (25) — `[~]` with founder — agent proposal: `docs/delegation/canon-batch-01-proposal.md` (dec-133 delegation)
 
-- [ ] `adab-katib-ibn-qutayba` — أدب الكاتب — ابن قتيبة (d. 276 AH) — adab-zuhd
-- [ ] `aghani-isfahani` — الأغاني — أبو الفرج الأصفهاني (d. 356 AH) — adab-zuhd
-- [ ] `bayan-tabyin-jahiz` — البيان والتبيين — الجاحظ (d. 255 AH) — adab-zuhd
-- [ ] `diwan-ibn-arabi` — ديوان ابن عربي — ابن عربي (d. 638 AH) — adab-zuhd
-- [ ] `diwan-mutanabbi` — ديوان المتنبي — المتنبي (d. 354 AH) — adab-zuhd
-- [ ] `hikam-ibn-ataillah` — الحكم العطائية — ابن عطاء الله السكندري (d. 709 AH) — adab-zuhd
-- [ ] `ihya-ulum-din` — إحياء علوم الدين — أبو حامد الغزالي (d. 505 AH) — adab-zuhd
-- [ ] `kashf-mahjub-hujwiri` — كشف المحجوب — الهجويري (d. 465 AH) — adab-zuhd
-- [ ] `luma-sarraj` — اللمع في التصوف — أبو نصر السراج (d. 378 AH) — adab-zuhd
-- [ ] `maqamat-hariri` — مقامات الحريري — الحريري (d. 516 AH) — adab-zuhd
-- [ ] `risalat-qushayri` — الرسالة القشيرية — القشيري (d. 465 AH) — adab-zuhd
-- [ ] `tabaqat-sufiyya-sulami` — طبقات الصوفية — السلمي (d. 412 AH) — adab-zuhd
-- [ ] `zuhd-ahmad` — الزهد — أحمد بن حنبل (d. 241 AH) — adab-zuhd
-- [ ] `zuhd-ibn-mubarak` — الزهد والرقائق — عبد الله بن المبارك (d. 181 AH) — adab-zuhd
-- [ ] `aqida-wasitiyya` — العقيدة الواسطية — ابن تيمية (d. 728 AH) — aqeedah
-- [ ] `aqidat-tahawiyya` — العقيدة الطحاوية — الطحاوي (d. 321 AH) — aqeedah
-- [ ] `daraa-taarud` — درء تعارض العقل والنقل — ابن تيمية (d. 728 AH) — aqeedah
-- [ ] `farq-bayn-firaq-baghdadi` — الفرق بين الفرق — البغدادي (d. 429 AH) — aqeedah
-- [ ] `fisal-ibn-hazm` — الفصل في الملل والأهواء والنحل — ابن حزم (d. 456 AH) — aqeedah
-- [ ] `ighathat-lahfan` — إغاثة اللهفان — ابن القيم (d. 751 AH) — aqeedah
-- [ ] `ilam-muwaqqiin` — إعلام الموقعين عن رب العالمين — ابن القيم (d. 751 AH) — aqeedah
-- [ ] `jawab-sahih-ibn-taymiyya` — الجواب الصحيح لمن بدل دين المسيح — ابن تيمية (d. 728 AH) — aqeedah
-- [ ] `kitab-iman-ibn-taymiyya` — كتاب الإيمان — ابن تيمية (d. 728 AH) — aqeedah
-- [ ] `lumat-itiqad` — لمعة الاعتقاد — ابن قدامة المقدسي (d. 620 AH) — aqeedah
-- [ ] `madarij-salikin` — مدارج السالكين — ابن القيم (d. 751 AH) — aqeedah
+- [~] `adab-katib-ibn-qutayba` — أدب الكاتب — ابن قتيبة (d. 276 AH) — adab-zuhd
+- [~] `aghani-isfahani` — الأغاني — أبو الفرج الأصفهاني (d. 356 AH) — adab-zuhd
+- [~] `bayan-tabyin-jahiz` — البيان والتبيين — الجاحظ (d. 255 AH) — adab-zuhd
+- [~] `diwan-ibn-arabi` — ديوان ابن عربي — ابن عربي (d. 638 AH) — adab-zuhd
+- [~] `diwan-mutanabbi` — ديوان المتنبي — المتنبي (d. 354 AH) — adab-zuhd
+- [~] `hikam-ibn-ataillah` — الحكم العطائية — ابن عطاء الله السكندري (d. 709 AH) — adab-zuhd
+- [~] `ihya-ulum-din` — إحياء علوم الدين — أبو حامد الغزالي (d. 505 AH) — adab-zuhd
+- [~] `kashf-mahjub-hujwiri` — كشف المحجوب — الهجويري (d. 465 AH) — adab-zuhd
+- [~] `luma-sarraj` — اللمع في التصوف — أبو نصر السراج (d. 378 AH) — adab-zuhd
+- [~] `maqamat-hariri` — مقامات الحريري — الحريري (d. 516 AH) — adab-zuhd
+- [~] `risalat-qushayri` — الرسالة القشيرية — القشيري (d. 465 AH) — adab-zuhd
+- [~] `tabaqat-sufiyya-sulami` — طبقات الصوفية — السلمي (d. 412 AH) — adab-zuhd
+- [~] `zuhd-ahmad` — الزهد — أحمد بن حنبل (d. 241 AH) — adab-zuhd
+- [~] `zuhd-ibn-mubarak` — الزهد والرقائق — عبد الله بن المبارك (d. 181 AH) — adab-zuhd
+- [~] `aqida-wasitiyya` — العقيدة الواسطية — ابن تيمية (d. 728 AH) — aqeedah
+- [~] `aqidat-tahawiyya` — العقيدة الطحاوية — الطحاوي (d. 321 AH) — aqeedah
+- [~] `daraa-taarud` — درء تعارض العقل والنقل — ابن تيمية (d. 728 AH) — aqeedah
+- [~] `farq-bayn-firaq-baghdadi` — الفرق بين الفرق — البغدادي (d. 429 AH) — aqeedah
+- [~] `fisal-ibn-hazm` — الفصل في الملل والأهواء والنحل — ابن حزم (d. 456 AH) — aqeedah
+- [~] `ighathat-lahfan` — إغاثة اللهفان — ابن القيم (d. 751 AH) — aqeedah
+- [~] `ilam-muwaqqiin` — إعلام الموقعين عن رب العالمين — ابن القيم (d. 751 AH) — aqeedah
+- [~] `jawab-sahih-ibn-taymiyya` — الجواب الصحيح لمن بدل دين المسيح — ابن تيمية (d. 728 AH) — aqeedah
+- [~] `kitab-iman-ibn-taymiyya` — كتاب الإيمان — ابن تيمية (d. 728 AH) — aqeedah
+- [~] `lumat-itiqad` — لمعة الاعتقاد — ابن قدامة المقدسي (d. 620 AH) — aqeedah
+- [~] `madarij-salikin` — مدارج السالكين — ابن القيم (d. 751 AH) — aqeedah
 
 ## Batch 02 (25)
 

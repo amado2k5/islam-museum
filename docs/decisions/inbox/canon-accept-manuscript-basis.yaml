@@ -1,0 +1,15 @@
+id: canon-accept-manuscript-basis
+lane: "coverage-programme"
+class: "process"
+modality: "repo"
+question: "The authenticity validator requires named_edition (publisher_any + editor_any) for every accept decision. For pre-print canon books whose authenticity rests on manuscript tradition or institutional scans (no print publisher exists or is relevant), should accept still require a named modern edition, or should institutional provenance / a manuscript record satisfy the basis?"
+options:
+  - "accept requires named_edition for all books (current validator)"
+  - "accept allows manuscript/institutional authenticity_basis without named_edition for pre-print works"
+  - "pre-print books get a separate decision path (e.g. accept-manuscript)"
+evidence:
+  - "scripts/check-authenticity.ts line ~52: accept requires named_edition with publisher_any and editor_any"
+  - "docs/delegation/authenticity-policy-proposal.md section 6: authenticity_basis may be a named edition, institutional provenance, or manuscript/primary record"
+  - "docs/delegation/canon-batch-01-proposal.md: 16 accept candidates are all pre-print works held as library scans"
+proposed_action: "keep current rule; name a modern tahqiq edition per book at batch approval"
+source: "docs/delegation/canon-batch-01-proposal.md"
