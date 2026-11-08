@@ -98,9 +98,10 @@ function main() {
   }
 
   // islamlab corroborating signals (labeling accelerator — proposals, never evidence)
+  const noSignals = process.argv.includes("--no-signals");
   const islamlab = new Map<string, any>();
   const ilFile = join(ROOT, "docs/decisions/islamlab-match.jsonl");
-  if (existsSync(ilFile)) {
+  if (existsSync(ilFile) && !noSignals) {
     for (const l of readFileSync(ilFile, "utf8").split("\n")) {
       if (!l.trim()) continue;
       try { const r = JSON.parse(l); if (r.person_id) islamlab.set(r.person_id, r); } catch { /* skip */ }
@@ -131,12 +132,13 @@ function main() {
       ? `external proposal (islamlab dataset, unverified): madhhab=${il.madhhab} -> ${il.want_tradition} (match: ${il.verdict})`
       : "";
 
+    // faith[]/traditions[] stay OUT of the judge prompt: recorded labels are the
+    // golden answer key and unverified defaults for candidates — either would
+    // anchor the verdict (circularity/leakage). They remain structured fields.
     const evidence = [
       `name: ${l.en ?? ""} / ${l.ar ?? ""}`,
       ilSignal,
       `dates: born ${born} died ${died}`,
-      faith.length ? `faith[]: ${faith.join("; ")}` : "",
-      traditions ? `traditions[]: ${traditions}` : "",
       teachers.length ? `teachers: ${teachers.join("; ")}` : "",
       students.length ? `students: ${students.slice(0, 10).join("; ")}` : "",
       works.length ? `works: ${works.slice(0, 15).join("; ")}` : "",
