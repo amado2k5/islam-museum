@@ -1,0 +1,15 @@
+id: web-hmml-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should HMML (Hill Museum & Manuscript Library, hmml.org — catalogue of 60,000+ manuscript records with shelfmarks, dates and provenance notes) be onboarded as a citable source family for manuscript dating and provenance, and at what tier?"
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:hmml <record-id>}"
+  - "Tier 2 citable family, facts-only"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "Assessment 2026-11-08: authority strong (Saint John's University / HMML, the standard Western manuscript cataloguing institution); citability good (stable record ids and shelfmark anchors); terms: public catalogue browsable; full content requires free registration — the lane rule bars login-gated harvest, so only public catalogue metadata is in scope; robots.txt wildcard allows our User-Agent (named AI crawlers disallowed, ours not listed; Content-Signal ai-train=no noted — we harvest facts for citation, not model training); structure: HTML catalogue, API availability unconfirmed; coverage fit high (dates, colophons, provenance for the works backlog); corroboration high; longevity strong."
+  - "docs/agents/source-families.md Tier 2 (manuscript catalogues row): 'HMML free with registration'"
+proposed_action: "register source/hmml facts-only at catalogue-metadata level only (no login-gated content); pilot on 10 work records"
+source: "Muse web-sources lane assessment 2026-11-08"
