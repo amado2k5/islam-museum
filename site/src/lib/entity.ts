@@ -75,6 +75,25 @@ const iso = (d: any): string | undefined => {
   return e && /^-?\d{4}(-\d{2}(-\d{2})?)?$/.test(e) ? e : undefined;
 };
 
+/**
+ * PostalAddress built only from what the place's own record attests: the
+ * place itself as locality and its first registered region as region.
+ * Historical places carry no street address and no modern country field,
+ * so none is emitted — an invented address would be worse than a partial
+ * one, but locality + region is real data and satisfies the Event
+ * structured-data requirement for location.address.
+ */
+export function postalAddressOf(place: Node, lang: Lang) {
+  const region = place.regions?.[0];
+  const regionEntry = region ? regions.find((r: any) => r.id === region) : undefined;
+  const regionName = regionEntry?.label?.[lang] ?? regionEntry?.label?.en ?? regionEntry?.label?.ar;
+  return {
+    "@type": "PostalAddress",
+    addressLocality: labelOf(place, lang),
+    ...(regionName ? { addressRegion: regionName } : {}),
+  };
+}
+
 export function jsonLd(n: Node, lang: Lang, path: string) {
   const d = n.data;
   const sameAs = Object.entries<string>(d.external_ids ?? {}).map(([k, v]) => externalUrl(k, v)).filter(Boolean);
@@ -128,10 +147,13 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
       place = wp ?? lg;
     }
     if (place) {
-      ld.location = { "@type": "Place", name: labelOf(place, lang), ...(place.coordinates ? { geo: { "@type": "GeoCoordinates", latitude: place.coordinates[0], longitude: place.coordinates[1] } } : {}) };
+      ld.location = { "@type": "Place", name: labelOf(place, lang), address: postalAddressOf(place, lang), ...(place.coordinates ? { geo: { "@type": "GeoCoordinates", latitude: place.coordinates[0], longitude: place.coordinates[1] } } : {}) };
     }
   }
-  if (n.class === "place" && n.coordinates) ld.geo = { "@type": "GeoCoordinates", latitude: n.coordinates[0], longitude: n.coordinates[1] };
+  if (n.class === "place") {
+    ld.address = postalAddressOf(n, lang);
+    if (n.coordinates) ld.geo = { "@type": "GeoCoordinates", latitude: n.coordinates[0], longitude: n.coordinates[1] };
+  }
   ld.mainEntityOfPage = `${SITE}${path}`;
   // Accessibility is a property of the page (a CreativeWork), not of the subject (Person, Place…):
   // a second JSON-LD node describes the article and points back at the entity node.
