@@ -144,3 +144,9 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 - fiches-4801-8800.jsonl still fetching (PID 10611); match5.py run on partial file (1374 records).
 - Enriched: qarawiyyin +fiche 5375 (minaret door, 956-957, stucco, disparu) + top-level source/tei-epigraphie added (was relations-only); castle-of-tarifa +5398 (portal marble tablet, 960-961, in situ); mosque-of-cristo-de-la-luz +5785 (Bab al-Mardum facade frieze, 999-1000, brick).
 - All three verified against full fiche records before editing. Re-run match when sweep completes.
+
+## 2026-11-08 (p3 cont.) — EAMENA pilot attempt: anonymous channel closed
+
+- Endpoints mapped from search.js + citation page: search_results=/en/search/resources, export=/en/api/search/export_results (geojson), resource-type-filter graphid 34cfe98e-c2c0-11ea-9026-02e7594ce0a0 = Heritage Place.
+- Anonymous results: every variant returns [] — search=term, resource-type-filter only, map-filter bbox (Jordan), and even the citation page's verbatim example URL. Public UI works only in an interactive session; no bulk dump on Zenodo (community = research datasets + tools only, incl. 'EAMENA Quick Pin' plugin zip).
+- reliability_note in data/source/eamena.yaml updated with the verification. Pilot deferred: needs Research Access registration OR a working anonymous query/session-harvest path.
