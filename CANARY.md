@@ -92,6 +92,10 @@ open a new block on top with the new version and today's date.
 
 - **Canon queue cleared: all 295 books decided under delegation.** First full exercise of the dec-186 autonomy delegation: the agent decided all 292 remaining canon books in one sweep — 234 accept (school sunni verified via person-graph traditions or attested-author research), 61 label (3 shia incl. contested al-Isfahani, 1 mutazili, 5 other/modern-academic, 52 unverified). Method: strict person-graph matching (last-token matching rejected after wrong-person hits), attested-author map for famous scholars, book-level overrides for anonymous works. Every entry carries `decided_by: devin-swe2 (agent, founder delegation)` — reversible, auditable, and the phase-13 second-source pass can upgrade labels later. dec-187 records the sweep methodology. Phase-02 queue fully checked.
 
+- **Golden-set doctrine enacted.** Founder rule (dec-188): everything currently in the museum — all data, prose, events, persons, books — is the golden reference. Rules and the decision engine conform to it, never the reverse; a rule that would rule out existing content is wrong and gets fixed. New rules apply forward only — existing published content is never retroactively invalidated (this also settles that the draft-tier AI rule applies to new output, not the existing corpus). Added to AGENTS.md as a rule that never bends.
+
+- **Golden-set audit of the canon sweep.** First application of dec-188: cross-checked all 292 agent canon decisions against the person graph's own tradition records — found 3 conflicts (al-Shawkani's record carries mixed sunni + shia-zaydi traditions; my attested-author map had flattened it to sunni). Corrected nayl-awtar, tafsir-shawkani and irshad-fuhul to label/other with the contest preserved. Final canon state: 231 accept, 64 label.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests
