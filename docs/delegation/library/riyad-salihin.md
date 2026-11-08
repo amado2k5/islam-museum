@@ -15,7 +15,7 @@ Copies extracted under `~/islam-museum-harvest/books/hadith/riyad-salihin/`:
 
 ## Mining state
 
-Entities citing `source/riyad-salihin` outside `data/source/`: **1** (concept/tawakkul enriched 8 Nov 2026, run lib-wave-21-riyad-1 — Bab al-yaqin wal-tawakkul, Alexandria edition printed pp.30-31: the Prophet's tawakkul du'a, «hasbunallahu wa-ni'ma al-wakil» shared with Ibrahim, and the 70,000 who rely on their Lord).
+Entities citing `source/riyad-salihin` outside `data/source/`: **1** (concept/tawakkul enriched 8 Nov 2026, run lib-wave-21-riyad-1 — Bab al-yaqin wal-tawakkul, Alexandria edition printed pp.30-31: the Prophet's tawakkul du'a, «hasbunallahu wa-ni'ma al-wakil» shared with Ibrahim, and the 70,000 who rely on their Lord). Also concept/sabr enriched same run (lib-wave-21-riyad-2): Bab al-sabr, printed pp.16-18 — the «amr al-mu'min kulluhu khayr» hadith, Abu Sa'id's «sabr is the widest gift», «laysa 'ala abika karb», Asma's «falta-sabir»). Also concept/ihsan enriched same run (lib-wave-21-riyad-3): Bab al-muraqaba hadith 60, printed p.26 — Umar's isnad of the hadith of Jibril with the ihsan definition «an ta'budallaha ka-annaka tarah».
 
 ## Next step
 
