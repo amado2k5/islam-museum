@@ -58,7 +58,12 @@ for (const [k, r] of sorted) {
   const labelled = r.approved + r.rejected + r.held;
   const verdicts = r.approved + r.rejected;
   const agree = verdicts ? `${Math.round((r.approved / verdicts) * 100)}%` : "—";
-  console.log(k.padEnd(38) + `${String(r.decided).padStart(7)}  ${String(r.approved).padStart(4)}  ${String(r.rejected).padStart(3)}  ${String(r.held).padStart(4)}  ${String(r.unlabeled).padStart(9)}  ${agree.padStart(9)}  ${labelled < 10 ? `${labelled} (insufficient)` : labelled}`);
+  // Demotion candidate: a rule/gate surface with enough verdicts to be signal
+  // (>=3 decided verdicts) and agreement below the 95% bar — a measured FP
+  // machine. step: surfaces are excluded: a rejected hold is a coverage gap,
+  // not a wrong rule, and there is nothing to demote.
+  const demote = !k.startsWith("step:") && verdicts >= 3 && r.approved / verdicts < 0.95 ? "  <-- DEMOTE CANDIDATE" : "";
+  console.log(k.padEnd(38) + `${String(r.decided).padStart(7)}  ${String(r.approved).padStart(4)}  ${String(r.rejected).padStart(3)}  ${String(r.held).padStart(4)}  ${String(r.unlabeled).padStart(9)}  ${agree.padStart(9)}  ${labelled < 10 ? `${labelled} (insufficient)` : labelled}${demote}`);
 }
 const totalLabels = [...rows.values()].reduce((a, r) => a + r.approved + r.rejected + r.held, 0);
 console.log(`\ntotal founder labels: ${totalLabels} — promotion needs ≥50/class at ≥95% agreement`);

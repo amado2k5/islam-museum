@@ -64,6 +64,8 @@ open a new block on top with the new version and today's date.
 
 - **Chain-integrity fields on every decided record.** Records decided by a rule or precedent now carry a `chain:` block — `depth` (bounded at 1 by construction: precedent-step records never become precedents, so citation chains cannot launder TTL), `root_id`, `root_kind` (rule / mined-precedent / ledger-record), `root_expires_at`, and `derived_rule_hash` — a hash of the governing rule text or cited precedent content, so a later doctrine edit makes past derivations measurably stale. `check-records.ts` enforces the depth≤1 invariant, verifies `root_id` resolves, and warns on stale rule derivations. Verified live: a Wikidata-debt question derives `depth:1, root_id:dec-20261108-017` through the override chain.
 
+- **Audit and digest integrity reporting.** `audit.ts` now flags rule/gate surfaces as `DEMOTE CANDIDATE` when they carry ≥3 founder verdicts below the 95% agreement bar (step surfaces excluded — a rejected hold is a coverage gap, not a wrong rule). `digest.ts` reports chain-depth violations and contradictory duplicate question-hashes as zero-tolerance metrics alongside the existing dashboard. First live flag: `rule:rule-duplicate-alias` at 0% — already fixed; the flag is the regression alarm.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests

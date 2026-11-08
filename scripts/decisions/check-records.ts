@@ -16,7 +16,6 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
 import { parse } from "yaml";
-import { createHash } from "node:crypto";
 import { ruleChainHash } from "./decide";
 
 const ROOT = process.cwd();
