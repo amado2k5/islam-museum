@@ -1,0 +1,42 @@
+id: dec-20261108-221
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: b50721c0a09e
+lane: "web-sources"
+class: "process"
+modality: "website"
+domain: "governance"
+mode: "conservative"
+question: "Should the EAMENA database (Endangered Archaeology in the Middle East and North Africa — University of Oxford with Leicester and Durham, Getty/WMF ARCHES platform, database.eamena.org, ~383,000 heritage-place records) be onboarded as a citable source family for the building/place backlog, and at what tier? Assessment 2026-11-08: authority excellent (three universities + Getty Conservation Institute platform); citability good (Heritage Place record ids, search URLs, Zenodo dataset community); terms: site states 'The EAMENA Database is licensed under a Creative Commons Attribution 4.0 International License' — open with attribution, BUT access is tiered: Public Access withholds coordinates, zoom and condition data; Research Access needs registration; Contributor Access for edits; structure excellent (ARCHES 7 API, GeoJSON export endpoint, citation plugin to Zenodo); coverage fit exceptional (~383k MENA archaeological site records vs 5,460 prose-missing buildings); corroboration high (site condition assessments, period data); Arabic-first moderate (bilingual EN/AR interface); longevity strong (university + Zenodo)."
+options:
+  - "Tier 1 citable family under CC BY 4.0 with attribution, facts-first: cite {cite:eamena <heritage-place-id>}; harvest via public GeoJSON/API search exports, no coordinates-dependent claims from public tier"
+  - "Tier 1 citable family, facts-only pending written confirmation of the CC BY application to record-level text"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "eamena.org/open-access-policy states the CC BY 4.0 licence and the three access tiers verbatim, checked 2026-11-08"
+  - "eamena.org/database-and-dataset-citation documents the ARCHES search and GeoJSON export endpoints (database.eamena.org/api/search/export_results)"
+  - "database.eamena.org search reports ~383,723 records; map view public with colour-coded record types"
+status: decided
+step: rule
+decision: "Arabic first (label.ar + summary.ar required); English and Urdu in the same commit"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-language-ar-first): docs/language.md + AGENTS.md."
+rule: "docs/language.md + AGENTS.md"
+rule_id: "rule-language-ar-first"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-language-ar-first
+chain:
+  depth: 0
+  root_id: "rule:rule-language-ar-first"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "82ffd8fd9776ff4c"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-language-ar-first"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
