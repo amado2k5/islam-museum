@@ -47,7 +47,11 @@ decided_by:
   pipeline: manual-override
   ruleset: docs/decisions/rules.yaml
 state_chain:
-  current_state: decided
+  current_state: applied
+  applied:
+    at: 2026-11-08
+    by: devin-swe2
+    note: override committed; dec-014 dead authority
 calibration_log:
   deterministic_gates_all_pass: true
   founder_resolution:

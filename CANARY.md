@@ -52,6 +52,8 @@ open a new block on top with the new version and today's date.
 
 - **Process/engineering pilot class seeded.** Twenty realistic agent-workflow questions (merge conflicts, CANARY/version rules, schema-first ordering, deploy cadence, lane claims, i18n same-commit rules, id collisions, validate failures) written to the inbox from actual repo rules; batch produced 20 records — 6 doctrine rules, 8 safe-default holds, 6 policy-gate dockets (deploy, authority-conflict, delete, review-status, governance ×2 — all legitimate gate surfaces). One observed gate false-positive candidate: "delete the file and regenerate" phrasing trips nd-delete though no entity is harmed — logged for the rule-precision audit. Ledger: 91 records, all valid.
 
+- **Calibration instruments: surface audit + applied-state tracking.** `scripts/decisions/audit.ts` reports founder_resolution labels per rule/gate/step — the per-surface agreement rates the autonomous-promotion gate needs (currently 1 label; everything else honestly shows "insufficient data"). `scripts/decisions/mark-applied.ts` records `state_chain.current_state: applied` when a decided record's outcome is actually acted on — the decided→applied funnel Fable flagged as unmeasured. First entries: dec-017 labelled approved and marked applied. Full `npm run validate` now passes end-to-end including the ledger checker and benchmark.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests
