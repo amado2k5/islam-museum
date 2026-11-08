@@ -62,7 +62,10 @@ async function main() {
   if (existsSync(outFile)) {
     for (const line of readFileSync(outFile, "utf8").split("\n")) {
       if (!line.trim()) continue;
-      try { done.add(JSON.parse(line).person_id); } catch { /* skip */ }
+      try {
+        const r = JSON.parse(line);
+        if (!r.error) done.add(r.person_id);   // errors are retried on resume
+      } catch { /* skip */ }
     }
   }
 
