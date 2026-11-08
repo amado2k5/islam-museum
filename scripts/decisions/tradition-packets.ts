@@ -97,6 +97,16 @@ function main() {
     return name;
   }
 
+  // islamlab corroborating signals (labeling accelerator — proposals, never evidence)
+  const islamlab = new Map<string, any>();
+  const ilFile = join(ROOT, "docs/decisions/islamlab-match.jsonl");
+  if (existsSync(ilFile)) {
+    for (const l of readFileSync(ilFile, "utf8").split("\n")) {
+      if (!l.trim()) continue;
+      try { const r = JSON.parse(l); if (r.person_id) islamlab.set(r.person_id, r); } catch { /* skip */ }
+    }
+  }
+
   let written = 0;
   const out = writeFileSync(OUT, "");
   const stream = (s: string) => writeFileSync(OUT, s, { flag: "a" });
@@ -116,8 +126,14 @@ function main() {
     const born = doc?.born?.hijri ?? doc?.born?.edtf ?? "";
     const died = doc?.died?.hijri ?? doc?.died?.edtf ?? "";
 
+    const il = islamlab.get(id);
+    const ilSignal = il?.want_tradition
+      ? `external proposal (islamlab dataset, unverified): madhhab=${il.madhhab} -> ${il.want_tradition} (match: ${il.verdict})`
+      : "";
+
     const evidence = [
       `name: ${l.en ?? ""} / ${l.ar ?? ""}`,
+      ilSignal,
       `dates: born ${born} died ${died}`,
       faith.length ? `faith[]: ${faith.join("; ")}` : "",
       traditions ? `traditions[]: ${traditions}` : "",
@@ -131,6 +147,7 @@ function main() {
     const prompt = `${RUBRIC}\n\nPERSON: ${l.en ?? id} (${l.ar ?? ""}) — ${id}\n\nEVIDENCE:\n${evidence}`;
     stream(JSON.stringify({ person_id: id, name_en: l.en ?? null, name_ar: l.ar ?? null,
       born, died, existing_faith: faith, existing_traditions: traditions ? traditions.split(", ") : [],
+      islamlab_signal: il?.want_tradition ? { madhhab: il.madhhab, tradition: il.want_tradition, verdict: il.verdict } : null,
       teachers, students: students.slice(0, 10), works, groups, summary, prompt }, null, 0) + "\n");
     written++;
   }
