@@ -1,0 +1,33 @@
+id: dec-20261108-171
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: b4588518fcc9
+lane: "modern-figures"
+class: "governance"
+modality: "repo"
+domain: "safety"
+mode: "conservative"
+question: "Shirin Ebadi's record: EN Wikipedia quotes her own 'my family and I are Shiites' and the AR infobox gives مسلمة شيعية — two sources name Shia but no branch. The person-faith enum has no generic 'shia' value (only shia-twelver/ismaili/zaydi) and a branch was not inferred from Iranian origin. Add a generic 'shia' enum value, or keep such cases 'unknown' until a branch is explicitly cited?"
+options:
+  - "add generic shia enum value"
+  - "keep unknown until branch cited"
+  - "map to shia-twelver with flag"
+evidence:
+  - "docs/delegation/modern-figures-progress.md century-additions wave 2 group Q1"
+  - "schema/enums person-faith values"
+status: founder-docket
+step: policy-gate
+decision: "governance surfaces (schema, classes, enums, predicates, routes, headers, infra, CI) are founder-only"
+confidence: n/a
+reversible: false
+rationale: ""
+gate: "nd-governance"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-governance
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["nd-governance"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

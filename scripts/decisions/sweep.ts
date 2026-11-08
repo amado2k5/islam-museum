@@ -20,18 +20,32 @@
  *
  * Usage: npx tsx scripts/decisions/sweep.ts [--verbose]
  */
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
-import { decide, loadPrecedents } from "./decide";
+import { decide, loadPrecedents, questionHash, type Question } from "./decide";
 
 const DIR = join(process.cwd(), "docs/decisions/records");
+const INBOX = join(process.cwd(), "docs/decisions/inbox");
 const verbose = process.argv.includes("--verbose");
 
 interface Rec {
   id?: string; status?: string; step?: string; rule_id?: string;
   question?: string; supersedes?: string; kind?: string;
   calibration_log?: { founder_resolution?: { verdict?: string } | null };
+}
+
+// Records store only `question`, but rules match question+options+evidence
+// (questionText). Reconstruct the full Question from the inbox file whose
+// question_hash matches, so replay sees the same text the engine decided on.
+const inboxByHash = new Map<string, Question>();
+if (existsSync(INBOX)) {
+  for (const f of readdirSync(INBOX).filter((f) => f.endsWith(".yaml"))) {
+    try {
+      const q = parse(readFileSync(join(INBOX, f), "utf8")) as Question;
+      if (q.question) inboxByHash.set(questionHash(q), q);
+    } catch { /* skip */ }
+  }
 }
 
 const recs: Rec[] = [];
@@ -51,7 +65,8 @@ const stale: { id: string; stored: string; now: string; q: string }[] = [];
 let checked = 0;
 for (const r of recs.filter(live)) {
   checked++;
-  const d = decide({ question: r.question }, corpus, "conservative");
+  const q = inboxByHash.get(questionHash({ question: r.question! })) ?? { question: r.question! };
+  const d = decide(q, corpus, "conservative");
   const now = d.step === "rule" ? `rule/${d.rule_id}` : `${d.status}/${d.step}`;
   const stored = `rule/${r.rule_id}`;
   if (now !== stored) stale.push({ id: r.id ?? "?", stored, now, q: r.question! });

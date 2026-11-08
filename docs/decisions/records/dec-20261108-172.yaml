@@ -1,0 +1,39 @@
+id: dec-20261108-172
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: 2ae79c2b9060
+lane: "hisham"
+class: "content"
+modality: "repo"
+domain: "safety"
+mode: "conservative"
+question: "Rayta bint al-Harith's death place conflicts across the sira sources: one passage places her death in Abyssinia, another on the road — the record currently carries both as a debated reading. Is a debated dual-reading sufficient, or does this need a perspectives block?"
+options:
+  - "debated dual reading suffices"
+  - "needs perspectives block"
+  - "pick better-attested version"
+evidence:
+  - "docs/delegation/hisham-progress.md line 40"
+status: decided
+step: rule
+decision: "contested topics use the perspectives block: Sunni position(s) first, then the academic view, then any other view — each cited and labelled, no verdict in the museum's voice"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-perspectives): AGENTS.md (voice and scope)."
+rule: "AGENTS.md (voice and scope)"
+rule_id: "rule-perspectives"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-perspectives
+chain:
+  depth: 0
+  root_id: "rule:rule-perspectives"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "2f90b5bd484a2e15"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-perspectives"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

@@ -136,7 +136,7 @@ function main() {
     // re-hashed: an edited rule makes past derivations stale (warn, not fail —
     // staleness is expected after doctrine changes; the count is the metric).
     const ch = r.chain;
-    if (ch) {
+    if (ch && !supersededIds.has(r.id ?? "")) {
       if ((ch.depth ?? 0) > 1) {
         fails.push(`${tag}: chain.depth ${ch.depth} > 1 — citation-chain laundering (precedent-step records must never become precedents)`);
       }

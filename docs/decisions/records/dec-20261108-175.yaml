@@ -1,0 +1,44 @@
+id: dec-20261108-175
+kind: override
+date: "2026-11-08"
+question_hash: df0bb3872f48
+lane: "modern-figures"
+class: "process"
+modality: "repo"
+domain: "governance"
+mode: "conservative"
+question: "Abdul Sancar's record has no Wikidata QID — nine indirect routes failed and the record went fail-closed per the wave-1 precedent. Should a single dedicated live-browser QID lookup pass be queued for Sancar (and Abdus Salam, Azim Premji), or is fail-closed permanent until a source surfaces one?"
+status: decided
+step: override
+decision: "External IDs fail closed: never invent or guess a QID — the record stays without one until a source surfaces it. A single dedicated lookup pass may be queued as a process choice, but absence of an ID is never filled by inference."
+correct_outcome: fail-closed-external-id
+wrong_outcome: bug-fix-workflow-doctrine
+confidence: 1
+reversible: true
+rationale: "dec-173 was generated minutes before the rule-bug-fix pattern gained word boundaries and a fail-closed guard: 'fail' inside 'fail-closed' plus 'API' inside an option matched the bug-fix workflow rule, so a broken-build doctrine answered an identifier-policy question. Pattern fixed; the engine now answers with rule-external-id-failclosed. This override restores that doctrine."
+supersedes: dec-20261108-173
+override_reason:
+  category: rule-missing
+  detail: "rule-bug-fix matched 'fail' inside 'fail-closed' + 'api' inside an option — word boundaries and a -closed guard added; record reversed here"
+  overridden_by: stale-record-sweep
+signals:
+  matched_rule_id: rule-bug-fix
+  correct_rule_id: rule-external-id-failclosed
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

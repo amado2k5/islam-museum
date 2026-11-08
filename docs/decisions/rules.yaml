@@ -278,7 +278,7 @@ rules:
   - id: rule-bug-fix
     domain: engineering
     priority: 21
-    pattern: "(bug|fix|broken|error|crash|failing|fails?).{0,35}(page|site|build|deploy|api|search|pagefind|worker|worker route)"
+    pattern: "\\b(bugs?|fix\\w*|broken|errors?|crash\\w*|failing|fails?|failed)\\b(?!-closed).{0,35}\\b(pages?|sites?|builds?|deploys?|apis?|search|pagefind|workers?|worker routes?)\\b"
     decision: "fix it in its own small commit: reproduce first, root-cause it, run validate + tests (+ build for site changes), append a CANARY entry — never hide a failure behind a guard or a widened timeout"
     cite: "docs/agents/workflow.md + docs/ai-change-gates.md §5"
     confidence: 0.85
@@ -342,7 +342,7 @@ rules:
   - id: rule-merge
     domain: process
     priority: 29
-    pattern: "(merge|conflict|rebase).{0,50}(main|branch|pr|pull request|origin)|(main|origin/main|upstream).{0,30}(conflict|merge|rebase|landed)"
+    pattern: "\\b(merge[sd]?|merging|conflicts?|rebases?|rebasing)\\b.{0,50}\\b(main|branches?|prs?|pull requests?|origin)\\b|\\b(main|origin/main|upstream)\\b.{0,30}\\b(conflicts?|merge[sd]?|merging|rebases?|rebasing|landed)\\b"
     decision: "fetch origin/main first and review what arrived; three-way merge keeping both sides' intent; never force-push, never overwrite or revert another session's work; explicit paths only, never git add -A"
     cite: "docs/agents/workflow.md §4 + docs/ai-change-gates.md §4"
     confidence: 0.9
