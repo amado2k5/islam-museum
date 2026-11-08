@@ -16,8 +16,17 @@ Copies extracted under `~/islam-museum-harvest/books/fiqh/mughni-ibn-qudama/`:
 
 ## Mining state
 
-Entities citing `source/mughni-ibn-qudama` outside `data/source/`: **0**.
+Entities citing `source/mughni-ibn-qudama` outside `data/source/`: **4**.
+
+### lib-wave-21 batch (8 Nov 2026, Devin SWE-2 Flash)
+
+Copy used: `c_20251013_202510/book.txt` — the full scan with `===== [pN] =====` markers (Dar al-Kutub al-Ulum Riyadh 3rd ed. 1417/1997 noted in the copy's own front matter; edition details still flagged for human check in the source record).
+
+Enriched (existing entities; run `lib-wave-21-mughni-ibn-qudama-1`):
+- `concept/wasiyya-fiqh`, `concept/wasi-fiqh`, `concept/al-wasiyya`, `concept/hajr-interdiction` — Kitab al-Wasaya: definition and permissibility of the bequest, debts before bequests, the one-third ceiling, bequests to heirs requiring heir approval, interdiction in illness/insolvency, and executor (wasi) authority and conditions.
+
+Page mapping: Kitab al-Wasaya begins near scan marker p1388; printed numbering runs about one page below/near the marker in that region — cites use the printed folio where legible.
 
 ## Next step
 
-Read `mining-sources.md` + `categories/` guidance for `fiqh`, pick the clearest copy, work in ≤25-entity batches from the museum's priority list. All labeling/classification/decisions route through the decision ledger (mining-sources.md §4b). AI output enters draft-tier until a human read (AGENTS.md).
+Continue with other bounded chapters of the same copy (e.g. Kitab al-Jihad, Kitab al-Siyam, Kitab al-Salat clusters) in ≤25-entity batches from the museum's priority list. Check the other copies (`15_20261015`, `almoghnismk`, `mghni1`, `mogni15_202512`) only if a better scan of a chosen chapter is needed. All labeling/classification/decisions route through the decision ledger (mining-sources.md §4b). AI output enters draft-tier until a human read (AGENTS.md).
