@@ -58,11 +58,13 @@ may be recorded as a biographical fact on one source but never settles `faith`).
 
 ## 4. Precedent retrieval — lexical + hybrid
 
-Corpus: `docs/decisions/precedents.yaml` (~275 mined entries; `flag` entries are
-observations and never match) **plus the decision ledger itself** — every
-`decided` record becomes a `ledger-record` precedent, so the system cites its
-own rulings. Held questions (`needs_precedent`) and expired records never
-become authority.
+Corpus: `docs/decisions/precedents.yaml` (200 entries: 55 `founder-ruled`,
+81 `agent-ruled-delegated`, 64 `agent-proposed-pending` excluded from authority;
+`flag` entries are observations and never match) **plus the decision ledger
+itself** — every `decided` record becomes a `ledger-record` precedent, so the
+system cites its own rulings. Held questions (`needs_precedent`), expired
+records and records named in another record's `supersedes:` never become
+authority (the override stands; the original stays on disk untouched).
 
 **Authority filter (Muse §2 — "a proposal is not a precedent"):** every mined
 entry carries `provenance_status`, assigned fail-closed by the extractor:
@@ -234,56 +236,83 @@ Patterns implemented from the literature review in
 
 ## 10. Muse operational doctrine (orchestrator rulings, 8 Nov 2026)
 
-The fleet orchestrator's advisory — the agent that prepared the founder's
-dockets and executed his rulings — adds the operational layer the research
-survey lacks. Adopted so far: **provenance_status + supersedes chains** (§4),
-**adversarial benchmark traps** (§3.2 trap list → 10 new benchmark cases, now
-81/81), **rule-ai-not-evidence**, **rule-excluded-absent**, **rule-office-vs-faith**,
-**rule-impossible-dates**, two-sided judge packets with `strongest_objection`
-and decomposed `confidence_components`, and the **nextId collision fix**
-(record ids now derive from max suffix, not file count — a count-based scheme
-silently overwrote a research record during the inbox batch).
+The fleet orchestrator's advisory — verified against the branch at `5905b8d` —
+adds the operational layer the research survey lacks. **Implemented:**
+provenance_status + supersedes chains (§4), adversarial benchmark traps (§3.2
+→ 10 cases, 81/81), rule-ai-not-evidence, rule-excluded-absent,
+rule-office-vs-faith, rule-impossible-dates, two-sided judge packets with
+`strongest_objection` + decomposed `confidence_components`, nextId max-suffix
+fix, `kind: override` records with supersedes-based dead-authority exclusion
+in `loadLedgerPrecedents`, `calibration_log` on every record (raw framing
+scores, entropy, precedent distance, `founder_resolution: null` as the future
+label stream), `scripts/decisions/digest.ts` (blocked-item headline + the full
+metric table, runs at the end of every `--batch --write`),
+`scripts/decisions/check-records.ts` (ledger schema gate, WARN-tolerant on
+legacy fields), npm `decisions:*` scripts, `rule-relation-direction` and
+`rule-ui-no-deviation` (the two domain-table gaps), and the `DECIDE_JUDGE_CMD`
+stdin contract fix (payload now goes to stdin, matching JUDGE-SETUP.md).
 
-Design requirements it sets that are NOT yet implemented:
+**Rollout sequence adopted (Muse Q1):** harness freeze → record validation →
+shadow calibration (50 real lane questions, `records/shadow/`, inert to
+precedent extraction) → per-domain `safe_proceed:` config → pilot = **source
+admission** (highest frequency, deterministic evidence, fully reversible,
+densest precedent coverage) → override machinery (`induce.ts`, not yet built)
+→ stub-enrichment + dedup classes → entity-creation classes → classification
+settlements LAST at strictest α (gated on the FDR policy record dec-016) →
+merge execution with literal gate strings. Per-class `autonomy:` flags;
+conservative mode is never deleted — it is the A/B harness, the rollback
+target, and the auto-demotion state at >5% override rate.
 
-- **Safe-proceed states per domain** (§4.1): every domain needs a defined
-  autonomous "proceed safely" output (faith→`unknown`+preserved readings,
-  identity→stop-with-reason, outreach→draft-only, judge-down→rules+precedents).
-  Today's generic safe-default covers most; per-domain config is the upgrade.
-- **Reversibility grading** (§4.2): autonomy tiers by cost of reversal
-  (free/cheap/expensive/irreversible), not by importance — the hard-reject list
-  stays tiny, explicit and founder-owned.
-- **Idempotency + verify-before-repeat** (§4.3): every external action needs an
-  idempotency key and a verify-against-system-of-record step (a restarted run
-  once emailed a dean twice). Question-level idempotency exists
-  (`question_hash`); action-level is future work.
-- **State chain** (§7.6): `decided → applied → merged → deployed →
-  verified-live`, each timestamped — "merged" has never meant "live" here.
-- **Evidence discipline** (§5): attestations need verbatim quotes + locators;
+**Doctrine details the deferred work must honour** (full text in Muse's
+8 Nov advisory; these are the load-bearing specifics):
+
+- *Safe-proceed per domain* — every domain needs a defined autonomous
+  "proceed safely" output; domains with NO autonomous state are deploys
+  (execution — recorded cadence decision only), licence changes (proposal
+  only, effectively irrevitable), outreach sends (until `gate-outreach-clearance`
+  exists — draft-only is the whole domain), and spend outside a founder-set
+  envelope (`envelopes.yaml`, zero until set).
+- *Reversibility grading* — autonomy tiers by cost of reversal, not
+  importance; the hard-reject list stays tiny, explicit, founder-owned.
+- *Idempotency* — question-level exists (`question_hash`); action-level
+  (external sends/applies) needs an idempotency key + verify-against-system-
+  of-record before any send-flag flips.
+- *State chain* — `decided → applied → merged → deployed → verified-live`,
+  each timestamped; "merged" has never meant "live" here.
+- *Evidence discipline* — attestations need verbatim quotes + locators;
   independence is source *families* not documents; briefs/queue notes are the
-  least authoritative layer; present-tense external facts must be fetched, not
-  remembered.
-- **Deterministic gates** (§6): literal `"0 errors"`/`"0 fail"` strings, never a
-  model's summary; an allowed-repairs list (shape/provenance transcribed from
-  the record's own fields — fact values never); the standalone/employer
-  forbidden-string lists must live **outside the repo** (writing them in would
-  print the URLs they forbid) and gate logs must never quote matches into
-  repo-resident files.
-- **MDL anti-memorisation** (§9): induced rules may reference only schema-level
-  signals — never entity IDs, slugs or proper nouns; a rule that fires on one
-  person is a precedent, not a rule.
-- **Plural jury families** (§7.2): proposer ≠ judge ≠ jury should be different
-  model families — same-family pairing manufactures consensus. Disagreement
-  routes to safe-state + audit flag, never to a human queue.
-- **Metrics** (§11): autonomous decision rate (target ≥95%), blocked-item count
-  (target 0 — any nonzero is an architecture bug), oldest undecided age,
-  safe-state rate by class, override/reversal rate, verification-failure rate,
-  gate integrity. The digest informs; nothing waits on it.
-- **Open policy questions for the founder (one packet, once)**: FDR target
-  α=0.02 vs 0.05, global or per-class — filed as
-  `docs/decisions/inbox/fdr-target-policy.yaml` → record dec-20261108-016.
-  Asymmetry noted: a false settlement publishes a false claim about a real
-  person; a false `unknown` publishes an honest gap.
+  least authoritative layer (the engine decides from sources, never from the
+  brief's claims); present-tense external facts must be fetched, not remembered.
+- *Deterministic gates* — literal `"0 errors"`/`"0 fail"` strings asserted in
+  code, never a model's summary; allowed-repairs transcribe shape/provenance
+  from the record's own fields — fact values are never repaired.
+- *MDL constraint on induced rules* — schema-level signals only (counts,
+  booleans, gate results); never entity ids, slugs or proper nouns; a rule
+  that fires on one person is a precedent, not a rule.
+- *Plural jury* — proposer ≠ judge ≠ jury across model families; disagreement
+  routes to the domain's safe-state + audit flag, never to a human queue.
+- *Private forbidden lists* — `$ISLAM_MUSEUM_PRIVATE_DIR/lists/*.yaml`
+  (mode 700/600, never inside a git worktree); absent → `private-gate:
+  unavailable` and dependent domains fail closed to safe states; matches log
+  as `{list_id, list_version, sha256 prefixes, disposition}` — never the
+  terms; `not_matches` suppressions checked first, grow only from observed
+  false positives; a pre-push `check-no-leak` greps the tree (counts only).
+
+**Still open from the advisory:** per-domain safe_proceed table (Q2 — the
+domain rows are documented in Muse's answer and ready to encode),
+`docs/decisions/envelopes.yaml` (spend envelopes — founder-set, zero until
+set), `gate-outreach-clearance` (deterministic pre-send gate before any
+send-flag can flip), `attestation_families` deterministic field (needed
+before the faith class goes live), private forbidden lists at
+`$ISLAM_MUSEUM_PRIVATE_DIR` (fail-closed loader + hash-only logging +
+check-no-leak — buildable next), shadow mode + `shadow-report.ts`,
+`induce.ts` CEGIS candidates, `jury-ab.ts` roster harness (proposer
+`gemma3:27b` Q8_0, judge `qwen3:32b` incumbent, escalation juror
+`llama3.3:70b` Q6_K — co-residency math in Muse Q5), `calibrate-retrieval.ts`
+grid search (Gemini Q3 spec: 120-query set, P@1/MRR/FMR/ZPR, guard set with
+infinite penalty), plural-jury `jury:` record blocks, the decided→verified-live
+state chain, and §11 metrics not yet instrumented (reported `partial` in the
+digest rather than faked).
 
 ## 11. Known limitations & roadmap
 

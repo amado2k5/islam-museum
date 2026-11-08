@@ -469,3 +469,19 @@ rules:
     cite: "AGENTS.md + Method page: 'corrections in the open'"
     confidence: 0.85
     reversible: true
+  - id: rule-relation-direction
+    domain: content
+    priority: 27
+    pattern: "relation direction|edge direction|direction of (the )?(relation|edge|predicate)|who (taught|influenced|wrote against|debated) whom|teacher.{0,20}student|student.{0,20}teacher|reverse[ds]? (the )?(edge|relation|direction)|parent.{0,10}child.{0,20}(edge|relation|direction)"
+    decision: "an edge is written only in the direction an attestation fixes — teacher→student, parent→child, author→work; if no source fixes the direction, omit the edge and record the claimed relation in prose as a claim"
+    cite: "AGENTS.md (relations use schema/predicates.yaml, write the edge once) + recurring brief direction errors"
+    confidence: 0.85
+    reversible: true
+  - id: rule-ui-no-deviation
+    domain: engineering
+    priority: 28
+    pattern: "\\bui\\b|user interface|layout|component|visual design|deviat.{0,20}(from )?(the )?(current|existing)|redesign|restyle"
+    decision: "ship the change inside the current layout/component pattern — a brief that requires deviation becomes a labelled proposal logged for review, never a silent redesign"
+    cite: "AGENTS.md UI constraint + Muse Q2 domain table (no-big-deviation rule)"
+    confidence: 0.8
+    reversible: true

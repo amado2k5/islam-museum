@@ -77,7 +77,7 @@ export function loadRuleset(): Ruleset {
 // Question / precedent / record types
 // ---------------------------------------------------------------------------
 
-interface Question {
+export interface Question {
   question: string;
   class?: string;
   lane?: string;
@@ -281,6 +281,7 @@ export function loadMinedPrecedents(): Precedent[] {
 interface StoredRecord extends Question {
   id?: string; status?: string; step?: string; decision?: string; reason?: string;
   rationale?: string; needs_precedent?: boolean; confidence?: number; expires_at?: string;
+  kind?: string; supersedes?: string; override_reason?: { detail?: string };
 }
 
 function readRecords(): StoredRecord[] {
@@ -301,14 +302,19 @@ function readRecords(): StoredRecord[] {
  */
 export function loadLedgerPrecedents(): Precedent[] {
   const today = new Date().toISOString().slice(0, 10);
-  return readRecords()
+  const records = readRecords();
+  // A record named in another record's `supersedes:` is dead authority — the
+  // override stands, the original stays on disk untouched but never decides.
+  const superseded = new Set(records.map((r) => r.supersedes).filter(Boolean) as string[]);
+  return records
     .filter((r) => r.status === "decided" && !r.needs_precedent && r.question && r.decision
+      && !(r.id && superseded.has(r.id))
       && !(r.expires_at && r.expires_at < today)) // expired rulings need re-review, not reuse
     .map((r) => ({
       id: r.id ?? "ledger",
       kind: "ledger-record",
       title: r.question.slice(0, 140),
-      summary: `${r.decision} ${r.rationale ?? ""}`.slice(0, 400),
+      summary: `${r.decision} ${r.rationale ?? r.override_reason?.detail ?? ""}`.slice(0, 400),
       source_file: `docs/decisions/records/${r.id}.yaml`,
     }));
 }
@@ -500,6 +506,9 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
       status: "decided", step: "precedent",
       decision: `apply precedent ${best.p.id} (${best.p.kind}): ${best.p.title ?? best.p.summary.slice(0, 80)}`,
       precedent: { id: best.p.id, source_file: best.p.source_file, score: Number(best.hybrid.toFixed(3)), title_score: Number(best.titleScore.toFixed(3)), cosine: Number(best.cosineSim.toFixed(3)), retrieval: passesSem && !passesLex ? "hybrid-semantic" : "lexical" },
+      precedent_distance: Number((1 - best.hybrid).toFixed(3)),
+      top_precedent_id: best.p.id,
+      top_precedent_status: best.p.provenance_status ?? (best.p.kind === "ledger-record" ? "ledger-decided" : "unlabeled"),
       alternatives, domain,
       confidence: Math.min(0.95, 0.5 + best.hybrid), reversible: true, mode: m,
       rationale: `Question overlaps precedent ${best.p.id} recorded in ${best.p.source_file}. Conservative application; founder audits the sample.`,
@@ -519,12 +528,45 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
     confidence: 0.4, reversible: true, domain, mode: m, alternatives, trace,
     rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design.",
     needs_precedent: true,
+    ...(best ? {
+      precedent_distance: Number((1 - best.hybrid).toFixed(3)),
+      top_precedent_id: best.p.id,
+      top_precedent_status: best.p.provenance_status ?? (best.p.kind === "ledger-record" ? "ledger-decided" : "unlabeled"),
+    } : {}),
   };
 }
 
 // ---------------------------------------------------------------------------
 // Records, docket, advisory verdicts
 // ---------------------------------------------------------------------------
+
+/** Emit one optional record field: scalars plain, scalar arrays as YAML lists,
+ *  flat objects as nested maps, anything deeper as JSON flow (valid YAML). */
+function emitField(lines: string[], key: string, value: unknown): void {
+  if (value === undefined || value === null) return;
+  const scalar = (v: unknown) => v === null ? "null" : typeof v === "number" || typeof v === "boolean" ? String(v) : JSON.stringify(String(v));
+  if (Array.isArray(value)) {
+    if (!value.length) return;
+    if (value.every((v) => v === null || typeof v !== "object")) {
+      lines.push(`${key}:`);
+      for (const v of value) lines.push(`  - ${scalar(v)}`);
+    } else {
+      lines.push(`${key}: ${JSON.stringify(value)}`);
+    }
+    return;
+  }
+  if (typeof value === "object") {
+    const entries = Object.entries(value as Record<string, unknown>).filter(([, v]) => v !== undefined);
+    if (entries.length && entries.every(([, v]) => v === null || typeof v !== "object")) {
+      lines.push(`${key}:`);
+      for (const [k, v] of entries) lines.push(`  ${k}: ${scalar(v)}`);
+    } else if (entries.length) {
+      lines.push(`${key}: ${JSON.stringify(Object.fromEntries(entries))}`);
+    }
+    return;
+  }
+  lines.push(`${key}: ${scalar(value)}`);
+}
 
 function toYamlRecord(id: string, q: Question, d: Record<string, unknown>): string {
   const esc = (s: unknown) => JSON.stringify(String(s ?? ""));
@@ -534,6 +576,7 @@ function toYamlRecord(id: string, q: Question, d: Record<string, unknown>): stri
   const expires = new Date(Date.now() + 365 * 24 * 3600 * 1000).toISOString().slice(0, 10);
   const lines = [
     `id: ${id}`,
+    `kind: ${esc(d.kind ?? "decision")}`,
     `date: "${date}"`,
     `expires_at: "${expires}"`,
     `question_hash: ${questionHash(q)}`,
@@ -564,7 +607,34 @@ function toYamlRecord(id: string, q: Question, d: Record<string, unknown>): stri
   lines.push(`review_sampled: false`, `decided_by:`, `  agent: poc-decide`, `  pipeline: scripts/decisions/decide.ts`, `  ruleset: docs/decisions/rules.yaml`);
   const derived = [d.rule_id && `rule:${d.rule_id}`, d.gate && `gate:${d.gate}`, d.precedent && `precedent:${(d.precedent as { id: string }).id}`].filter(Boolean);
   if (derived.length) lines.push(`derived_from:`, ...derived.map((x) => `  - ${x}`));
+  // Override-record fields (Muse Q3): present only on kind: override rulings.
+  for (const [k, v] of Object.entries({
+    supersedes: d.supersedes, correct_outcome: d.correct_outcome, wrong_outcome: d.wrong_outcome,
+    override_reason: d.override_reason, signals: d.signals, induction: d.induction,
+    jury: d.jury, state_chain: d.state_chain, calibration_log: d.calibration_log,
+  })) emitField(lines, k, v);
   return lines.join("\n") + "\n";
+}
+
+/** Attach the calibration_log block (record schema v2 / cold-start conformal
+ *  logging): raw scores preserved NOW so isotonic/conformal fitting becomes
+ *  possible once real founder_resolution labels accumulate. The deterministic
+ *  fields are always present; judge fields are merged in by maybeJudge. */
+function finalizeRecord(d: Record<string, unknown>): Record<string, unknown> {
+  const existing = (d.calibration_log ?? {}) as Record<string, unknown>;
+  d.calibration_log = {
+    deterministic_gates_all_pass: true, // reaching any verdict means gates passed
+    fired_rule_count: [d.rule_id, d.gate].filter(Boolean).length,
+    rule_ids_fired: [d.rule_id, d.gate].filter(Boolean),
+    precedent_distance: d.precedent_distance ?? null,
+    top_precedent_id: d.top_precedent_id ?? null,
+    top_precedent_status: d.top_precedent_status ?? null,
+    founder_resolution: null,   // backfilled post-hoc — this IS the label stream
+    founder_override: false,
+    calibration_weight: 1.0,
+    ...existing,
+  };
+  return d;
 }
 
 /** Regenerate the docket from ALL records on disk — the current state, not just this run. */
@@ -697,7 +767,7 @@ async function consultJudge(q: Question, d: Record<string, unknown>, framing: Ju
     if (process.env.DECIDE_JUDGE_CMD) {
       const { execFileSync } = await import("node:child_process");
       const [cmd, ...args] = process.env.DECIDE_JUDGE_CMD.split(" ");
-      const out = execFileSync(cmd, [...args, payload], { encoding: "utf8", timeout: 300_000, maxBuffer: 4 * 1024 * 1024 });
+      const out = execFileSync(cmd, args, { encoding: "utf8", timeout: 300_000, maxBuffer: 4 * 1024 * 1024, input: payload });
       return parseJudgeJson(out);
     }
     if (process.env.DECIDE_JUDGE_URL) {
@@ -723,7 +793,7 @@ async function consultJudge(q: Question, d: Record<string, unknown>, framing: Ju
   return null;
 }
 
-interface BpeResult { pick: JudgeResult; fwd: JudgeResult | null; rev: JudgeResult | null; confidence: number; dissent: boolean; uncertainty: number }
+interface BpeResult { pick: JudgeResult; fwd: JudgeResult | null; rev: JudgeResult | null; confidence: number; dissent: boolean; uncertainty: number; sameVerdict: boolean }
 
 /** Jaccard overlap over content tokens — do two recommendation strings say the
  *  same thing? Free-text verdicts can't be compared by equality. */
@@ -748,7 +818,7 @@ const clipConf = (c: number) => Math.min(0.95, Math.max(0.05, c));
 async function consultJudgeBpe(q: Question, d: Record<string, unknown>): Promise<BpeResult | null> {
   if (process.env.DECIDE_JUDGE_SINGLE === "1") {
     const single = await consultJudge(q, d, "affirmative");
-    return single ? { pick: single, fwd: single, rev: null, confidence: (single.confidence ?? 0.5) * 0.9, dissent: false, uncertainty: 1 - (single.confidence ?? 0.5) } : null;
+    return single ? { pick: single, fwd: single, rev: null, confidence: (single.confidence ?? 0.5) * 0.9, dissent: false, uncertainty: 1 - (single.confidence ?? 0.5), sameVerdict: true } : null;
   }
   const [fwd, rev] = await Promise.all([
     consultJudge(q, d, "affirmative"),
@@ -758,7 +828,7 @@ async function consultJudgeBpe(q: Question, d: Record<string, unknown>): Promise
   if (!fwd || !rev) {
     const only = (fwd ?? rev)!;
     const c = only.confidence ?? 0.5;
-    return { pick: only, fwd, rev, confidence: c * 0.85, dissent: false, uncertainty: 1 - c };
+    return { pick: only, fwd, rev, confidence: c * 0.85, dissent: false, uncertainty: 1 - c, sameVerdict: true };
   }
   const cf = fwd.confidence ?? 0.5;
   const cr = rev.confidence ?? 0.5;
@@ -775,7 +845,7 @@ async function consultJudgeBpe(q: Question, d: Record<string, unknown>): Promise
   // Dissent: high composite uncertainty, or two confident passes reaching
   // materially different verdicts (a real flip, not just low confidence).
   const dissent = uncertainty > 0.5 || (!sameVerdict && Math.max(cf, cr) > 0.6);
-  return { pick, fwd, rev, confidence, dissent, uncertainty };
+  return { pick, fwd, rev, confidence, dissent, uncertainty, sameVerdict };
 }
 
 /** If a judge is configured and the engine held the question, upgrade the hold
@@ -788,9 +858,19 @@ async function maybeJudge(q: Question, d: Record<string, unknown>): Promise<Reco
   const bpe = await consultJudgeBpe(q, d);
   if (!bpe) return d;
   const model = process.env.DECIDE_JUDGE_MODEL ?? process.env.DECIDE_JUDGE_CMD ?? "endpoint";
+  const judgeCal = {
+    model,
+    model_quant: process.env.DECIDE_JUDGE_MODEL ?? null,
+    framing_a_confidence: bpe.fwd?.confidence ?? null,
+    framing_b_confidence: bpe.rev?.confidence ?? null,
+    framing_entropy: Math.round(bpe.uncertainty * 1000) / 1000,
+    verdict_agreement: bpe.sameVerdict,
+    jury: "none",
+  };
   if (bpe.dissent) {
     return {
       ...d,
+      calibration_log: { ...((d.calibration_log as Record<string, unknown>) ?? {}), ...judgeCal },
       judge_dissent: true,
       judge_evidence: [
         `uncertainty s(x)=${Math.round(bpe.uncertainty * 100) / 100} (entropy+flip composite)`,
@@ -803,6 +883,7 @@ async function maybeJudge(q: Question, d: Record<string, unknown>): Promise<Reco
   const j = bpe.pick;
   return {
     ...d,
+    calibration_log: { ...((d.calibration_log as Record<string, unknown>) ?? {}), ...judgeCal },
     status: "recommended",
     step: "judge",
     decision: j.recommendation,
@@ -872,7 +953,7 @@ async function main() {
       }
       const sem = isAdvisory ? null : await semanticFor(q, semCorpus);
       let d = isAdvisory ? advisory(q, precedents, cliMode) : decide(q, precedents, cliMode, sem);
-      if (!isAdvisory) d = await maybeJudge(q, d);
+      if (!isAdvisory) d = finalizeRecord(await maybeJudge(q, d));
       const id = nextId();
       if (write && !isAdvisory) {
         mkdirSync(RECORDS_DIR, { recursive: true });
@@ -882,7 +963,15 @@ async function main() {
       const head = isAdvisory ? String(d.verdict) : `${d.status}/${d.step}`;
       console.log(`${id}  ${head.padEnd(24)} ${q.question.slice(0, 90)}`);
     }
-    if (write && !isAdvisory) writeDocket();
+    if (write && !isAdvisory) {
+      writeDocket();
+      // Governance digest rides the same pass (Muse Q6) — it reads the records
+      // just written, so it can never disagree with the docket.
+      try {
+        const { execFileSync } = await import("node:child_process");
+        execFileSync("npx", ["tsx", join(ROOT, "scripts/decisions/digest.ts")], { stdio: "inherit" });
+      } catch { console.error("note: digest generation failed — records and docket are still written"); }
+    }
     const counts = results.reduce<Record<string, number>>((a, r) => {
       const k = isAdvisory ? String(r.d.verdict) : `${r.d.status}/${r.d.step}`;
       a[k] = (a[k] ?? 0) + 1; return a;
@@ -905,7 +994,7 @@ async function main() {
 
   const sem = isAdvisory ? null : await semanticFor(q, semCorpus);
   let d = isAdvisory ? advisory(q, precedents, cliMode, sem) : decide(q, precedents, cliMode, sem);
-  if (!isAdvisory) d = await maybeJudge(q, d);
+  if (!isAdvisory) d = finalizeRecord(await maybeJudge(q, d));
   const id = nextId();
 
   if (write && !isAdvisory) {

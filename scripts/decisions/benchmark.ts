@@ -14,7 +14,7 @@ import { decide, loadPrecedents, type Question } from "./decide";
 const ROOT = process.cwd();
 const BENCH = join(ROOT, "docs/decisions/benchmark.yaml");
 
-interface Case extends Question { expect: string; note?: string; mode?: "autonomous" | "conservative" }
+interface Case extends Question { q: string; expect: string; note?: string; mode?: "autonomous" | "conservative" }
 
 function actualOf(d: Record<string, unknown>): string {
   const status = String(d.status);
@@ -34,7 +34,7 @@ const misses: { c: Case; got: string; detail: string }[] = [];
 const byExpect = new Map<string, { pass: number; total: number }>();
 
 for (const c of doc.cases) {
-  const { expect, note, mode, q: question, ...rest } = c as Case & { q: string };
+  const { expect, note, mode, question: _q, q: question, ...rest } = c as Case & { q: string };
   const q: Question = { question, ...rest };
   // Benchmark defaults to conservative so gate expectations stay meaningful;
   // cases may opt into autonomous mode explicitly.
