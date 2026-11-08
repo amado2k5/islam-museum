@@ -1,1 +1,443 @@
-PLACEHOLDER - too large
+dir: ltr
+name: Islam Museum
+tagline: A museum for the whole story of Islam
+lang_name: English
+switch_to: العربية
+nav:
+  wings_menu: Wings
+  explore_menu: Explore
+  more: More
+  timeline: Earliest entries
+  foundation: Foundation
+  home: Home
+  time: Time
+  place: Place
+  people: People
+  ideas: Ideas
+  objects: Objects
+  words: Words
+  living: Living
+  today: Today
+  future: Future
+  made: Made
+  questions: Questions
+  exhibits: Exhibits
+  wander: Wander
+  search: Search
+  coverage: Coverage
+  references: References
+  screen: Screening Room
+  themes: Themes
+  learn: Tour / Learn
+  donate: Donate
+  gift_shop: Gift shop
+  art: Architecture & Art
+  browse: Browse types
+a11y:
+  skip: Skip to content
+  menu_open: Menu
+  theme_light: Switch to light theme
+  theme: Toggle dark mode
+  menu: Main navigation
+  prefs: Accessibility
+  prefs_text: Text size
+  prefs_smaller: Smaller text
+  prefs_larger: Larger text
+  prefs_leading: Roomier line spacing
+  prefs_contrast: Higher contrast
+  prefs_motion: Reduce motion
+  prefs_links: Underline all links
+  prefs_note: 'Saved on this device only — nothing is sent anywhere.'
+landing:
+  eyebrow: A digital museum · open to everyone
+  title_pre: A museum for the
+  title_strong: whole story
+  title_post: of Islam.
+  lede: From the world it was born into, through fourteen centuries of faith, scholarship, art, cities, journeys and peoples, to today. Every person, place, event,
+    idea, object and practice connected to everything around it, in time and space, for the curious of every background.
+  meta_description: 'Islam Museum: an open digital museum of Islamic history — fourteen centuries, every person, place, event and idea linked in time and space.'
+  soon: The first galleries are being built. Opening soon.
+  coverage: 'What is done and what is still waiting, in numbers: the coverage page'
+  today_is: Today is
+  wings: Nine wings
+  start: Start with the Prophet's migration
+  start_hint: A first visit
+  how: How we build it
+  pillars:
+  - Free, with no ads, forever
+  - Open data and open text
+  - Every claim sourced
+  - All traditions, fairly
+  - Arabic and English first, more languages to come
+  - Written for the curious stranger
+  entrances: Five ways in
+  learn_title: Tour / Learn, in the making
+  learn_text: Guided pathways, step by step, toward a goal you choose, so the museum never feels too big or confusing. Start with one of five pathways, or see all
+    300.
+  learn_cta: Find out more
+  tour_title: Tour and learn
+  tour_lede: The museum is big. Start with one of these five pathways, or see all 300. Each has a clear goal and ordered steps.
+  plan_note: 300 pathways in total — your progress is kept in your browser alone, no account.
+  all_paths: All pathways
+  wings_title: Walk the wings
+  wings_lede: Nine wings, each a door into a world.
+  explore_title: Explore
+  explore_lede: Interactive ways through the content — beyond the ordered pathways above.
+  try: Try it
+  in_progress: In preparation
+  widget_title: Find your Hijri date
+  widget_lede: Enter a Gregorian date and we tell you its Hijri equivalent — and what happened on that day.
+  calc: Convert
+  date_label: Gregorian date
+  corresponds: corresponds to
+  widget_none: No entry in the museum is dated to this day yet.
+  widget_fail: This browser could not do the conversion.
+  widget_or: 'Or start with the most famous journey in the story:'
+  stats: '{items} entries · {pages} pages · 300 pathways'
+  honest: We show the gaps rather than hide them
+  honest_link: see the coverage
+  give_title: Donate and support us
+  shop_title: islam.museum gift shop
+  shop_cta: Browse the shop
+  shop_prev: Previous
+  shop_next: Next
+  shop_region: Gift shop categories
+  shop_cats:
+    apparel: Clothing and garments
+    art: Calligraphy and art prints
+    books: Books
+    ceramics: Pottery and ceramics
+    home: Home décor
+    jewelry: Jewellery and accessories
+    kids: For children
+    oud: Oud, miswak and Islamic heritage
+  art_title: From the art gallery
+  art_cta: See more architecture and art
+  featured: 'Featured · changes every visit'
+  last_updated: 'Last updated: {date} GMT'
+wings:
+  time:
+    title: Time
+    blurb: Eras, timelines, this day in history, any year in the Islamic world.
+  place:
+    title: Place
+    blurb: Cities, sites and routes on a map that moves through time.
+  people:
+    title: People
+    blurb: 'Prophets, companions, scholars, rulers, scientists, poets, travelers: women and men who shaped the story.'
+  ideas:
+    title: Ideas
+    blurb: Beliefs, concepts, sciences and schools, explained in plain words.
+  objects:
+    title: Objects
+    blurb: Manuscripts, art, architecture and relics from collections worldwide.
+  words:
+    title: Words
+    blurb: Qur'an, hadith, poetry, and the languages and scripts of Muslim peoples.
+  living:
+    title: Living Islam
+    blurb: Practices, the Islamic year, festivals, food, dress and music by region.
+  today:
+    title: Today
+    blurb: Nations, institutions, data and the people of the present.
+  made:
+    title: Made
+    blurb: 'What Muslims make and own today: bookshops, publishers, apps, studios, brands and charities.'
+  counts:
+    time: '{n} events'
+    place: '{n} places'
+    people: '{n} people'
+    ideas: '{n} concepts'
+    objects: '{n} objects and buildings'
+    words: '{n} passages'
+    living: Worship and practice
+    today: Where the calendars meet
+    made: Made by Muslims today
+hall:
+  coming: 'What is in this wing so far:'
+  coming_time: What is in this wing so far, in time order; the Hijri timeline above gathers it on one axis.
+  empty: Nothing here yet. This wing opens as the collection grows.
+  phase: 'Roadmap: the full {wing} hall arrives in a later phase.'
+  map_note: A schematic map of the places in this wing (an interactive map with a time slider is planned).
+  gallery: Object gallery
+  collections: Museum collections
+  index: Full object index
+entity:
+  by: By
+  shia_label: Shi'i
+  dagger: † Hijri date derived by computation from the Gregorian/Julian date; it may differ from the transmitted date by a day or two.
+  stub_desc: '{label}: an entry that is still being written.'
+  breadcrumb: Museum
+  at_a_glance: At a glance
+  roles: Roles
+  disciplines: Fields
+  tradition: Counted among
+  venerated_by: Venerated by
+  venerated_label:
+    shia-twelver: Twelver Shia
+    shia-ismaili: Ismaili Shia
+    shia-zaydi: Zaydi Shia
+  era: Era
+  region: Region
+  identifiers: Identifiers
+  review: Review
+  complete_help: Help complete it
+  map_credit: 'Map: Natural Earth, public domain · places and route from the graph'
+  completeness: Completeness
+  in_time: In time
+  life_in_time: Life in time
+  in_space: In space
+  contemporaries: Contemporaries
+  connections: Connections
+  sources: Sources
+  recording_line: "{series}, episode {ep}"
+  recording_at: "at {time}"
+  listen_at_archive: "Listen at the archive (opens the audio at this time)"
+  contested_label: "Contested"
+  contested_notice: "This record includes matters on which scholars differ. The speaker's views are labelled as his, and other views are marked where no cited source yet exists."
+  open_at_archive: "Open the lesson at the archive"
+  cite: Cite this page
+  cite_text: islam.museum contributors. “{title}”. islam.museum, {url}. CC BY-SA 4.0. Last updated {date}.
+  edit: Improve this page on GitHub
+  report: Report an error
+  perspectives: Perspectives
+  not_translated: This page is not yet available in English. Showing the available text.
+  help_translate: Help translate
+  no_prose: The long-form text for this entry has not been written yet. The facts and connections below come from the museum's data.
+  stub_title: Not yet in the museum
+  stub_body: This entry is referenced by other pages and is on our wanted list. It has not been written yet.
+  stub_help: Suggest or write this entry
+  derived: Derived by calendar conversion; sources may differ by a day or two.
+  born: Born
+  died: Died
+  date: Date
+  start: From
+  end: To
+  place: Place
+  alternate_names: Also known as
+  figurative: Figurative depictions of prophets are never shown in this museum.
+  sunni_frame: Sunni tradition (the museum's frame)
+  view: '{label} view'
+  opinions_title: Opinions on the question
+  issue: The question
+  lead_opinion: First opinion
+  more_opinions: More opinions ({n})
+  holders: Held by
+  evidence: Basis
+  opinion_sources: Sources
+  standing_main: Main reference
+  standing_secondary: Secondary opinion
+  standing_other: Other opinion
+  related: People and things also explored
+depth:
+  label: Depth
+  brief: Brief
+  standard: Standard
+  deep: Deep
+status:
+  draft: Draft
+  reviewed: Reviewed
+  verified: Verified
+claim:
+  scriptural: Scriptural
+  tradition: Tradition
+  historical: Historical
+  debated: Debated
+  legend: Legend
+class:
+  person: Person
+  group: Group
+  polity: Polity
+  event: Event
+  period: Period
+  journey: Journey
+  place: Place
+  building: Building
+  object: Object
+  media: Media
+  work: Work
+  passage: Passage
+  concept: Concept
+  language: Language
+  practice: Practice
+  exhibit: Exhibit
+  question: Question
+  source: Source
+  dataset: Dataset
+  listing: Listing
+  screen: Screening Room
+  job: "Job"
+  invention: Invention
+  award: Award
+modernSections:
+  web: 'Websites, apps, games and devices'
+  music: 'Music and nasheed'
+  film: 'Films'
+  tv: 'Series and programmes'
+  conferences: 'Conferences and conventions'
+  heritage: 'Heritage months and festivals'
+  rights: 'Rights and protest'
+  books: 'Books and publishers'
+  upcoming: 'Upcoming'
+  figures: 'Figures of the last fifty years'
+  organizations: 'Organisations'
+  media: 'Media'
+  sports: 'Sport'
+  awards: 'Awards and competitions'
+  achievements: 'Achievements and firsts'
+  enterprise: 'Enterprise, brands and finance'
+  arts: 'Arts and culture'
+  built: 'Built since 1976'
+  learning: 'Learning and knowledge'
+modernFields:
+  scholars-preachers: 'Scholars and preachers'
+  politics-state: 'Politics and state'
+  diplomacy: 'Diplomacy'
+  finance-economics: 'Finance and economics'
+  science: 'Science'
+  medicine: 'Medicine'
+  history-academy: 'History and the academy'
+  teaching: 'Teaching'
+  writing: 'Writing'
+  arts: 'Arts'
+  media-creators: 'Media and creators'
+  activism: 'Activism'
+  sport: 'Sport'
+awardKinds:
+  prize: 'Prize'
+  medal: 'Medal'
+  certification: 'Sales certification'
+  ranking: 'Ranking'
+  title: 'Title'
+  scholarship: 'Scholarship'
+  competition-prize: 'Competition prize'
+  chart: 'Chart'
+honourResults:
+  won: 'Won'
+  nominated: 'Nominated'
+  shortlisted: 'Shortlisted'
+  longlisted: 'Longlisted'
+  certified: 'Certified'
+  ranked: 'Ranked'
+  honoured: 'Honoured'
+  finalist: 'Finalist'
+  participant: 'Participant'
+horizonStages:
+  announced: 'Announced'
+  in-development: 'In development'
+  in-production: 'In production'
+  under-construction: 'Under construction'
+  scheduled: 'Scheduled'
+  beta: 'Beta'
+  bid: 'Bid'
+  postponed: 'Postponed'
+  cancelled: 'Cancelled'
+modernGenres:
+  nasheed: 'Nasheed'
+  naat: 'Naat'
+  qawwali: 'Qawwali'
+  ilahi: 'Ilahi'
+  inshad: 'Inshad (religious chant)'
+  madih: 'Madih'
+  sufi: 'Sufi music'
+  religious-pop: 'Religious pop'
+  hip-hop: 'Hip-hop'
+  folk: 'Folk'
+  film-song: 'Film song'
+  choral: 'Choral'
+  recitation-based: 'Recitation-based'
+modernSports:
+  football: 'Football'
+  cricket: 'Cricket'
+  basketball: 'Basketball'
+  boxing: 'Boxing'
+  mixed-martial-arts: 'Mixed martial arts'
+  wrestling: 'Wrestling'
+  judo: 'Judo'
+  taekwondo: 'Taekwondo'
+  karate: 'Karate'
+  athletics: 'Athletics'
+  swimming: 'Swimming'
+  fencing: 'Fencing'
+  weightlifting: 'Weightlifting'
+  gymnastics: 'Gymnastics'
+  tennis: 'Tennis'
+  squash: 'Squash'
+  table-tennis: 'Table tennis'
+  badminton: 'Badminton'
+  cycling: 'Cycling'
+  motorsport: 'Motorsport'
+  golf: 'Golf'
+  chess: 'Chess'
+  rowing: 'Rowing'
+  sailing: 'Sailing'
+  equestrian: 'Equestrian'
+  archery: 'Archery'
+  shooting: 'Shooting'
+  volleyball: 'Volleyball'
+  handball: 'Handball'
+  rugby: 'Rugby'
+  american-football: 'American football'
+  baseball: 'Baseball'
+  ice-hockey: 'Ice hockey'
+  skiing: 'Skiing'
+  mountaineering: 'Mountaineering'
+  bodybuilding: 'Bodybuilding'
+  kabaddi: 'Kabaddi'
+  hockey: 'Hockey'
+  esports: 'Esports'
+  paralympic: 'Paralympic'
+modern:
+  title: 'Modern Islam Browser'
+  lede: 'The last fifty years of Islam and Muslims, from 1 Muharram 1396 (3 January 1976) to today and into what comes next: nineteen sections over the museum''s one graph, every record sourced, every number computed at build.'
+  badge: 'Growing'
+  status: 'Records in the browser''s window in this build: {records}, across {sections} sections with at least one record. The pilot adds one sourced record to every section; waves follow. Counts are as of the last build.'
+  listed_note: 'Listed is not endorsed: the museum records what is documented and links to the source. It ranks nothing by taste.'
+  ribbon_title: 'Year by year'
+  ribbon_note: 'Every record with a dated fact in that year. Each bar opens the year; Hijri years are shown on each year page.'
+  ribbon_span: 'From {h1} AH ({y1}) to {h2} AH ({y2}).'
+  sections_title: 'The sections'
+  sections_note: 'A record''s section follows from what it is and when it is dated; a record can sit in more than one.'
+  count_records: 'Records: {n}'
+  no_records: 'No record here yet.'
+  upcoming_title: 'Upcoming'
+  upcoming_none: 'Nothing announced yet.'
+  expected: 'Expected'
+  announced: 'Announced'
+  all_records: 'All records'
+  new_title: 'New in the last 30 days'
+  new_none: 'No record was added or changed in the last 30 days.'
+  new_lede: 'Records added or changed in the 30 days before this build, newest first.'
+  top_title: 'Reach indices'
+  top_note: 'How widely a work is documented, computed from cited inputs with the formula printed on each list. Never a ranking by taste.'
+  top_lede: '{list}: {n} scored records, highest reach first.'
+  top_none: 'No scored record yet: scores need sourced honours, certifications, chart positions, dated platform figures, Wikipedia languages or press.'
+  score: 'Score'
+  inputs:
+    honours: 'Honours'
+    certified: 'Certifications'
+    chart: 'Chart positions'
+    reach: 'Platform figures'
+    wikipedia: 'Wikipedia languages'
+    press: 'Press items'
+    covers: 'Cover versions'
+  lists:
+    songs: 'Songs'
+    albums: 'Albums'
+    websites: 'Websites and apps'
+    channels: 'Channels and outlets'
+    books: 'Books'
+  formula_title: 'How the score is computed'
+  formula_version: 'Formula version {v}'
+  tie_break: 'Ties are ordered by release date, oldest first.'
+  formula_honours: '{won} points per award won, {nominated} per nomination, shortlisting or finalist place; at most {cap}.'
+  formula_certified: 'Gold {gold}, platinum {platinum}, multi-platinum {multi}; at most {cap}.'
+  formula_chart: 'Top ten {top10}, top forty {top40}, charted {charted}; at most {cap}.'
+  formula_reach: 'The base-ten logarithm of the largest dated figure per platform, summed over at most {max} platforms; at most {cap}.'
+  formula_wikipedia: '{per} per Wikipedia language; at most {cap}.'
+  formula_press: '{per} per dated press item; at most {cap}.'
+  formula_covers: '{per} per cover version or reuse; at most {cap}.'
+  countries_title: 'By country'
+  countries_note: 'Countries as the records state them. A record that names no country sits on no country page.'
+  languages_title: 'By language'
+  languages_note: 'Languages as the records state them.'
