@@ -30,9 +30,9 @@ const guests: { id: string; name: string; body?: string; sign?: string }[] = [
   { id: "cursor", name: "Cursor", body: B.cursor_body, sign: B.cursor_sign },
   { id: "copilot", name: "Copilot", body: B.copilot_body, sign: B.copilot_sign },
   { id: "codex", name: "Codex", body: B.codex_body, sign: B.codex_sign },
-  { id: "chatgpt", name: "ChatGPT", body: B.chatgpt_body, sign: B.chatgpt_sign },
+  { id: "chatgpt", name: "ChatGPT" },
   { id: "antigravity", name: "Antigravity" },
-  { id: "grok", name: "Grok" },
+  { id: "grok", name: "Grok", body: B.grok_body, sign: B.grok_sign },
 ];
 ---
 <BaseLayout lang={lang} title={B.title} description={B.lede} path={`/${lang}/backstage/`}>
