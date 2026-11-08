@@ -15,9 +15,6 @@ open a new block on top with the new version and today's date.
 
 ## v1.3.1 — 2026-11-07
 
-### Added
-- **Backstage: Copilot signs the guest book.** Visitors can read Copilot's own account of its work on the Timeline Explorer, inventions articles and 3D tour, in Arabic, English and Urdu.
-
 ### Fixed
 - **3D tour: al-Khwarizmi's sources stay in step with his record.** The People hall stop now includes the record's MacTutor source, restoring complete source parity and allowing the tour's provenance check to pass. Tour navigation and the Arabic, English and Urdu descriptions are unchanged.
 
@@ -41,6 +38,13 @@ open a new block on top with the new version and today's date.
 - **Companions as one set: 25 more draft companions linked.** Draft batch D09 added `member_of` edges for the next 25 draft companion records (Sawda bint Zama through Umayr ibn al-Humam, including Talha ibn Ubaydullah, Ubada ibn al-Samit and Sumayya bint Khayyat), each citing its own record's sources. 43 draft companion records remain in this move.
 - **Companions as one set: 25 more draft companions linked.** Draft batch D10 added `member_of` edges for the next 25 draft companion records (Umayr ibn Sa'd through Yazid ibn Abi Sufyan, including Umm Salama, Umm Ayman, Usayd ibn Hudayr, Uthman ibn Maz'un and Yasir ibn Amir), each citing its own record's sources. 18 draft companion records remain in this move.
 - **Companions as one set: the draft companions are all linked.** Draft batch D11 (final) added `member_of` edges for the last 18 draft companion records (Yazid ibn al-Harith through al-Zubayr ibn al-Awwam, including Zayd ibn Haritha, Zayd ibn Thabit and Zaynab bint Ali), each citing its own record's sources. All 500 companion records — 232 published and 268 draft — now carry the sahaba edge; the Muhajirun/Ansar extension is next in this move.
+
+### Added
+- **Backstage: Copilot signs the guest book.** Visitors can read Copilot's own account of its work on the Timeline Explorer, inventions articles and 3D tour, in Arabic, English and Urdu.
+- **Cursor signs the Backstage guest book.** The agents' guest book now includes Cursor's own signed note, in Arabic and English, on the work the repository attributes to it between 1 and 7 November 2026: the October live-site fixes, Explorer stories for Zanzibar, Tunis, Algiers, Ceuta and Bukhara, twenty-seven batches of screened empty Explorer scenes, and five Job Browser offices drawn from the encyclopaedia articles. The Urdu string carries the English text until the Urdu lane translates it. No other guest's entry was changed.
+
+### Changed
+- **Cursor's guest-book note is now in Urdu too.** The Urdu Backstage page had been carrying the English paragraph. It now has the same signed note in Urdu, beside the Arabic and English texts. No other guest's entry was changed.
 
 ---
 
