@@ -48,6 +48,8 @@ open a new block on top with the new version and today's date.
 
 - **Precedent replay diagnostic.** `scripts/decisions/replay.ts` replays every extractable lane question through the engine in conservative mode and reports coverage plus citation precision — first run: 55 questions, 15 decided, 40 held (all held trace to `agent-proposed-pending` lane logs — the engine correctly refuses to treat unratified proposals as precedent), 0 rejected, 1 precedent citation and it was authority. This is the coverage/precision instrument; agreement still awaits `founder_resolution` labels via `founder-rule.ts`.
 
+- **Pilot seeding: 55 real lane questions through the engine.** `scripts/decisions/seed-inbox.ts` converts non-authority precedent questions into inbox files (deduped by question_hash, authority precedents skipped); first seed wrote 55 inbox questions and the batch produced 55 records — 14 decided by doctrine rules, 2 by delegated-authority precedents, 39 held at safe-default pending founder labels. The held set is the pilot docket: each awaits a `founder-rule.ts` verdict that becomes the calibration label stream. Ledger now 71 records, all valid.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests

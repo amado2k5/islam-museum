@@ -1,0 +1,28 @@
+id: dec-20261108-018
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: a8cdb4157567
+lane: "seed"
+class: "uncategorised"
+modality: "repo"
+domain: "safety"
+mode: "conservative"
+question: "Can chess itself, or one of its variants reported in Muslim sources, enter the browser as a Sunni Muslim invention?"
+options:
+status: decided
+step: rule
+decision: "WCAG 2.2 AA: alt text required on every image, pages readable without JavaScript, islands lazy-load"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-accessibility): AGENTS.md (accessibility rule)."
+rule: "AGENTS.md (accessibility rule)"
+rule_id: "rule-accessibility"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-accessibility
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-accessibility"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

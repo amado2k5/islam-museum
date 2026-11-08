@@ -1,0 +1,25 @@
+id: dec-20261108-038
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: eee1c1080c6f
+lane: "seed"
+class: "uncategorised"
+modality: "repo"
+domain: "fallback"
+mode: "conservative"
+question: "Does Mu'awiya's organization of the barid qualify as an original invention or a specific Muslim improvement?"
+options:
+status: decided
+step: safe-default
+decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"
+confidence: 0.4
+reversible: true
+rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design."
+needs_precedent: true
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":0,"rule_ids_fired":[],"precedent_distance":0.739,"top_precedent_id":"D-144","top_precedent_status":"agent-ruled-delegated","founder_resolution":null,"founder_override":false,"calibration_weight":1}

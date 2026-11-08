@@ -1,0 +1,28 @@
+id: dec-20261108-019
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: 7b85a7483f0d
+lane: "seed"
+class: "uncategorised"
+modality: "repo"
+domain: "sources"
+mode: "conservative"
+question: "Can Rufayda's tent be published although the sources disagree on what the first hospital in Islam was?"
+options:
+status: decided
+step: rule
+decision: "conflicting dates, names or readings are preserved, not resolved silently: record every reading attributed to its source, mark the field debated where the sources disagree, and follow the cited authority the record names"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-conflict-preserve): commit history: Tansen, al-Yaqubi, wave-189/191 date conflicts 'recorded both ways, attributed'."
+rule: "commit history: Tansen, al-Yaqubi, wave-189/191 date conflicts 'recorded both ways, attributed'"
+rule_id: "rule-conflict-preserve"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-conflict-preserve
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-conflict-preserve"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
