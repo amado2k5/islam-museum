@@ -63,6 +63,18 @@ Praised the site as clearly very rich and made with great professionalism, and s
 
 He also called the museum sadaqah jariyah.
 
+**Wira Perdana (follow-up)** — Facebook Messenger, 2026-11-08 *(verbatim, website-related parts; the message's personal parts are removed)*
+
+> "Your explanation got me thinking about the passport. Perhaps it could become the welcome experience for the whole museum: visitors choose an interest and how much time they have, then get a suggested first journey. The guided pathways and Time Browser could become part of that experience, helping them move naturally from one discovery to the next."
+
+> "I'd keep getting started very simple. Let people begin exploring straight away and introduce the passport along the way. It could show where they've been, suggest what to visit next, and award stamps for meaningful milestones. That might give visitors a sense of adventure and direction through everything you've built."
+
+> "I also wondered about connecting the digital museum with physical museums that hold Islamic collections. I noticed the Islam Museum Network link, so perhaps you're already heading in this direction. A directory could help people find places to visit after discovering something here."
+
+> "Beyond the directory, perhaps you could try a small partnership with one museum: an authorized preview of a few objects, a short journey around their stories, and links to the original collection or exhibition. If they have an upcoming event or campaign, that could give you something timely to build together and a reason for both sides to share it with their audiences."
+
+> "And I'm happy the article audio idea is on your list! A few narrated journeys could be a lovely place to start. I can imagine listening while walking or commuting."
+
 **Abdalla Gamal** — Facebook Messenger, 2026-11-06 *(verbatim, website-related part; one phrase in the capture is garbled and is marked)*
 
 > مجهود جميل ما شاء الله، ربنا يجازيك عنه خير، كمية معلومات جميلة جدا و كلها متجمعه في مكان واحد وده شيء صعب ان حد يوصل ليه ما شاء الله. بسم الله ما شاء الله، تعب كبير... حاول تشوف موضوع [الهوم كتشن — unclear in the capture] كام حاجة كده what's App، ايميلك.. وتسهل للناس اللي تفاصيل اكتر
