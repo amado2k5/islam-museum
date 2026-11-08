@@ -18,7 +18,7 @@ import { join, relative } from "node:path";
 const ROOT = process.cwd();
 const OUT = join(ROOT, "docs/decisions/precedents.yaml");
 const SCAN_DIRS = ["docs"];
-const EXCLUDE = /node_modules|\.git/;
+const EXCLUDE = /node_modules|\.git|docs[/\\]decisions/; // never mine our own ledger — self-referential pollution
 
 interface Precedent {
   id: string;

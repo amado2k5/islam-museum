@@ -17,6 +17,7 @@
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { createHash } from "node:crypto";
 import { parse } from "yaml";
 
 const ROOT = process.cwd();
@@ -77,6 +78,25 @@ function loadPrecedents(): Precedent[] {
   return doc.precedents ?? [];
 }
 
+export function questionHash(q: Question): string {
+  const norm = q.question.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  return createHash("sha1").update(norm).digest("hex").slice(0, 12);
+}
+
+/** Hashes of every question already decided — batch mode skips these (idempotent re-runs). */
+function decidedHashes(): Set<string> {
+  const dir = existsSync(RECORDS_DIR) ? RECORDS_DIR : "";
+  const out = new Set<string>();
+  if (!dir) return out;
+  for (const f of readdirSync(dir).filter((f) => f.endsWith(".yaml"))) {
+    try {
+      const r = parse(readFileSync(join(dir, f), "utf8")) as Question;
+      if (r.question) out.add(questionHash(r));
+    } catch { /* skip unreadable record */ }
+  }
+  return out;
+}
+
 let seq = 0;
 function nextId(): string {
   const existing = existsSync(RECORDS_DIR) ? readdirSync(RECORDS_DIR).filter((f) => f.endsWith(".yaml")) : [];
@@ -85,12 +105,29 @@ function nextId(): string {
   return `dec-${d}-${String(seq + 1).padStart(3, "0")}`;
 }
 
+/** A policy match inside a negated phrase ("not a deploy", "never delete") is not a hit. */
+function isNegated(text: string, index: number): boolean {
+  const before = text.slice(Math.max(0, index - 48), index).toLowerCase();
+  return /\b(not|never|no|without|non-|cannot|can't|don't|doesn't|isn't|aren't)\b[^.;:]{0,40}$/.test(before);
+}
+
+/** True when the pattern matches at least once outside a negated context. */
+function hits(text: string, pattern: RegExp): boolean {
+  const re = new RegExp(pattern.source, pattern.flags.includes("g") ? pattern.flags : pattern.flags + "g");
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(text)) !== null) {
+    if (!isNegated(text, m.index)) return true;
+    if (m[0] === "") re.lastIndex++;
+  }
+  return false;
+}
+
 export function decide(q: Question, precedents: Precedent[]): Record<string, unknown> {
   const text = `${q.question} ${(q.options ?? []).join(" ")} ${(q.evidence ?? []).join(" ")}`;
 
   // Step 0: non-delegable and hard-reject checks — deterministic, no precedent can override.
   for (const r of NON_DELEGABLE) {
-    if (r.pattern.test(text)) {
+    if (hits(text, r.pattern)) {
       return {
         status: "founder-docket",
         reason: r.reason,
@@ -100,7 +137,7 @@ export function decide(q: Question, precedents: Precedent[]): Record<string, unk
     }
   }
   for (const r of HARD_REJECT) {
-    if (r.pattern.test(text)) {
+    if (hits(text, r.pattern)) {
       return { status: "rejected", reason: r.reason, step: "hard-reject", reversible: false };
     }
   }
@@ -113,7 +150,7 @@ export function decide(q: Question, precedents: Precedent[]): Record<string, unk
     .map((p) => ({ p, score: similarity(qTokens, tokens(`${p.title ?? ""} ${p.summary}`)) }))
     .sort((a, b) => b.score - a.score);
   const best = scored[0];
-  const PRECEDENT_THRESHOLD = 0.34;
+  const PRECEDENT_THRESHOLD = 0.4;
 
   if (best && best.score >= PRECEDENT_THRESHOLD) {
     return {
@@ -145,6 +182,7 @@ function toYamlRecord(id: string, q: Question, d: Record<string, unknown>): stri
   const lines = [
     `id: ${id}`,
     `date: "${new Date().toISOString().slice(0, 10)}"`,
+    `question_hash: ${questionHash(q)}`,
     `lane: ${esc(q.lane ?? "poc")}`,
     `class: ${esc(q.class ?? "uncategorised")}`,
     `question: ${esc(q.question)}`,
@@ -165,8 +203,17 @@ function toYamlRecord(id: string, q: Question, d: Record<string, unknown>): stri
 
 const DOCKET = join(ROOT, "docs/decisions/docket.md");
 
-function writeDocket(results: { id: string; q: Question; d: Record<string, unknown> }[]) {
-  const open = results.filter((r) => r.d.status === "founder-docket" || r.d.status === "rejected");
+interface StoredRecord extends Question { id?: string; status?: string; step?: string; decision?: string; reason?: string; needs_precedent?: boolean }
+
+/** Regenerate the docket from ALL records on disk — the current state, not just this run. */
+function writeDocket() {
+  const dir = existsSync(RECORDS_DIR) ? RECORDS_DIR : "";
+  const all: StoredRecord[] = dir
+    ? readdirSync(dir).filter((f) => f.endsWith(".yaml")).sort()
+        .map((f) => parse(readFileSync(join(dir, f), "utf8")) as StoredRecord)
+    : [];
+  const open = all.filter((r) => r.status === "founder-docket" || r.status === "rejected");
+  const held = all.filter((r) => r.status === "decided" && r.needs_precedent);
   const lines = [
     "# Founder docket — decisions awaiting the founder",
     "",
@@ -174,13 +221,21 @@ function writeDocket(results: { id: string; q: Question; d: Record<string, unkno
     "Lanes drop questions in `docs/decisions/inbox/*.yaml`; the pipeline answers what it can",
     "by rule or precedent and lists only what genuinely needs the founder here.",
     "",
-    `Last run: ${new Date().toISOString()} — ${open.length} item(s) need the founder, ${results.length - open.length} answered autonomously.`,
+    `Last run: ${new Date().toISOString()} — ${open.length} item(s) need the founder, ${held.length} held pending a precedent, ${all.length} record(s) total.`,
+    "",
+    "## Needs the founder",
     "",
   ];
   for (const r of open) {
-    lines.push(`## ${r.id} — ${r.q.question}`, "", `- status: \`${r.d.status}\``, `- reason: ${r.d.reason ?? r.d.decision}`, "");
+    lines.push(`## ${r.id} — ${r.question}`, "", `- status: \`${r.status}\``, `- reason: ${r.decision ?? r.reason ?? ""}`, "");
   }
   if (!open.length) lines.push("_Nothing awaiting the founder._", "");
+  lines.push("## Held at the safe default (a precedent would unblock these)", "");
+  for (const r of held) {
+    lines.push(`- ${r.id} — ${r.question}`);
+  }
+  if (!held.length) lines.push("_None._");
+  lines.push("");
   writeFileSync(DOCKET, lines.join("\n"));
 }
 
@@ -193,10 +248,15 @@ async function main() {
     const { readdirSync } = await import("node:fs");
     const files = readdirSync(dir).filter((f) => f.endsWith(".yaml")).sort();
     const precedents = existsSync(PRECEDENTS) ? loadPrecedents() : [];
+    const seen = decidedHashes();
     const results: { id: string; q: Question; d: Record<string, unknown> }[] = [];
     for (const f of files) {
       const q = parse(readFileSync(join(dir, f), "utf8")) as Question;
       if (!q.question) continue;
+      if (seen.has(questionHash(q))) {
+        console.log(`skip (already decided)  ${f}`);
+        continue;
+      }
       const d = decide(q, precedents);
       const id = nextId();
       if (write) {
@@ -206,7 +266,7 @@ async function main() {
       results.push({ id, q, d });
       console.log(`${id}  ${String(d.status).padEnd(15)} ${String(d.step).padEnd(12)} ${q.question.slice(0, 90)}`);
     }
-    if (write) writeDocket(results);
+    if (write) writeDocket();
     const counts = results.reduce<Record<string, number>>((a, r) => { a[String(r.d.status)] = (a[String(r.d.status)] ?? 0) + 1; return a; }, {});
     console.log(`\n${results.length} questions → ${JSON.stringify(counts)}${write ? " (records + docket.md written)" : " (dry run)"}`);
     return;

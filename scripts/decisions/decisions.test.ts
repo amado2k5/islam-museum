@@ -45,6 +45,13 @@ describe("decide pipeline (POC)", () => {
     expect((d.precedent as { id: string }).id).toBe("D-004");
   });
 
+  it("does not treat negated mentions as policy hits", () => {
+    const d = decide({ question: "Render-QA crawl: authorise a read-only crawl — building locally is a check, not a deploy" }, precedents);
+    expect(d.status).not.toBe("founder-docket");
+    const d2 = decide({ question: "Should we deploy this batch to production now?" }, precedents);
+    expect(d2.status).toBe("founder-docket");
+  });
+
   it("ignores flag-kind precedents (observations are not rulings)", () => {
     const withFlag = [
       ...precedents,

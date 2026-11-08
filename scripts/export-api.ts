@@ -210,7 +210,12 @@ export function decisionsApiData() {
   const precedents = existsSync(precFile)
     ? ((yparse(rf(precFile, "utf8")) as { precedents?: unknown[] })?.precedents?.length ?? 0)
     : 0;
-  return { generated: new Date().toISOString(), feature: "decision-ledger-poc", precedent_count: precedents, records };
+  // Deterministic stamp: the newest record's date, so the file only changes when the ledger does.
+  const newest = records.reduce<string>((a, r) => {
+    const d = String((r as { date?: string }).date ?? "");
+    return d > a ? d : a;
+  }, "");
+  return { generated: newest || null, feature: "decision-ledger-poc", precedent_count: precedents, records };
 }
 
 export function exportApi(c: Compiled) {

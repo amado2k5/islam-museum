@@ -1,12 +1,12 @@
 id: dec-20261108-013
 date: "2026-11-08"
+question_hash: 19e093229b80
 lane: "coverage-programme"
 class: "process"
-question: "Wikidata debt measurement for Phase 13: confirm which flag field marks the second-source debt so the 4,199 estimate can be checked against the 5,604 flagged files."
+question: "Render-QA crawl for Phase 15: authorise a read-only crawl of the built HTML run locally — building locally is a check, not a deploy."
 options:
-  - "confirm flag field A"
-  - "confirm flag field B"
-  - "define new flag"
+  - "authorise local read-only crawl"
+  - "do not authorise"
 status: decided
 step: safe-default
 decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"

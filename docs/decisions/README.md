@@ -86,12 +86,33 @@ The ten unanswered founder decisions of `docs/coverage-programme/README.md` §7
 
 - **5 routed to the founder docket** by the policy gate: corpus access (money),
   edge schema (governance surface), Content-Signal flip (robots.txt), Sahaba lane
-  (commission), render-QA crawl (matched "deploy" inside "not a deploy" — a known
-  false positive of the lexical gate; the conservative direction is acceptable).
-- **5 answered `safe-default` with `needs_precedent: true`**: canon process,
-  muhaddithat scope, rijal inclusion, lane registration, Wikidata flag field.
-  These are genuine governance questions with no on-record ruling, so the
-  pipeline correctly refused to invent authority.
+  (commission). Render-QA crawl initially hit the gate on the word "deploy" inside
+  "not a deploy" — a negation false positive, fixed in the self-heal pass below;
+  it now correctly holds at safe-default.
+- **6 answered `safe-default` with `needs_precedent: true`**: canon process,
+  muhaddithat scope, rijal inclusion, lane registration, Wikidata flag field,
+  render-QA crawl. These are genuine governance questions with no on-record
+  ruling, so the pipeline correctly refused to invent authority.
+
+## Self-heal pass (8 November 2026)
+
+Issues found and fixed after the first pilot:
+
+1. **False authority via `flag` precedents** — flags are observations, not rulings;
+   matching now excludes them (the pilot's wrong "decisions" all came from flags).
+2. **Negation false positives** — "not a deploy" tripped the deploy rule; policy
+   patterns now skip matches inside negated contexts ("not/never/no/without…").
+3. **No idempotency** — re-running `--batch` re-decided every inbox question;
+   records now carry `question_hash` and decided questions are skipped.
+4. **Self-referential pollution** — `extract-precedents` now excludes
+   `docs/decisions/` so the ledger cannot cite itself.
+5. **Deploy churn** — `decisions.json` used a build timestamp; it now stamps the
+   newest record's date so the file only changes when the ledger does.
+6. **Held items invisible** — `docket.md` now has a second section listing
+   safe-default holds (questions a precedent would unblock), regenerated from all
+   records on disk rather than only the latest run.
+7. **Threshold raised** 0.34 → 0.40 after observing a wrong ruling-kind match;
+   matched precedents always display score + source file for spot-checks.
 
 **Finding that changed the design:** the first run matched `flag`-kind precedents
 and produced confident-looking but wrong "decisions" (e.g. lane registration
