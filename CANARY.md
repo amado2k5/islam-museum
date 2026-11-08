@@ -72,6 +72,8 @@ open a new block on top with the new version and today's date.
 
 - **Exact-question founder overrides bypass gates.** `decide()` now checks for a live `kind: override` record matching the question's exact hash after hard-rejects but before founder-reserved and policy gates — the founder already ruled on *this* question, so re-docketing is waste. Exact-hash only: fuzzy precedent similarity still cannot bypass a gate, and hard rejects still fire first. Verified: re-asking the "400 records reviewed" question resolves `decided/override → dec-132` instead of re-docketing; novel questions unaffected; benchmark 105/105.
 
+- **Stale-record sweep killed a live wrong-authority record.** Re-running every rule-decided record's question through the current engine found 9 stale citations — 8 already dead via founder-rejected labels, but `dec-20261108-129` (a date-conflict question answered by `rule-duplicate-alias`, generated before the pattern tightening) was still live ledger precedent teaching the wrong ruling. Override `dec-20261108-153` supersedes it; re-asks now resolve to the conflict-preserve ruling. This is the second instance of the dec-014 vulnerability class — worth a periodic sweep as rules evolve.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests
