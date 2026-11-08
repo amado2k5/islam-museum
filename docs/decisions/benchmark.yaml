@@ -227,3 +227,6 @@ cases:
     mode: autonomous
     expect: default
     note: "autonomous mode: no rule/precedent → safe default hold"
+  - q: "Render-QA crawl: authorise a local read-only crawl — building locally is a check, not a deploy"
+    expect: default
+    note: "regression: negated gate match must not hang or docket"

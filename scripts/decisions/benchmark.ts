@@ -51,7 +51,7 @@ for (const c of doc.cases) {
   }
 }
 
-console.log(`\n${pass}/${doc.cases.length} cases match expectations`);
+console.log(`\n${pass}/${doc.cases.length} cases match expectations (${Math.round((pass / doc.cases.length) * 1000) / 10}% reconstruction agreement — ICAI gate: promote rule changes only if this does not regress)`);
 
 // Per-class metrics — the calibration dashboard.
 for (const [k, v] of [...byExpect.entries()].sort()) {

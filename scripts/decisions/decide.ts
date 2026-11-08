@@ -81,6 +81,7 @@ interface Question {
   question: string;
   class?: string;
   lane?: string;
+  modality?: "book" | "website" | "video" | "audio" | "repo" | "other";
   options?: string[];
   evidence?: string[];
   proposed_action?: string;
@@ -161,7 +162,13 @@ function isNegated(text: string, index: number): boolean {
 
 /** True when the pattern matches at least once outside a negated context. */
 function hits(text: string, pattern: RegExp | string, checkNegation = true): boolean {
-  const re = new RegExp(typeof pattern === "string" ? pattern : pattern.source, typeof pattern === "string" ? "i" : (pattern.flags.includes("g") ? pattern.flags : pattern.flags + "g"));
+  // String patterns (from rules.yaml) need BOTH i and g: without /g, exec()
+  // never advances lastIndex and a negated first match loops forever.
+  const src = typeof pattern === "string" ? pattern : pattern.source;
+  const flags = typeof pattern === "string"
+    ? "gi"
+    : pattern.flags.includes("g") ? pattern.flags : pattern.flags + "g";
+  const re = new RegExp(src, flags);
   let m: RegExpExecArray | null;
   while ((m = re.exec(text)) !== null) {
     if (!checkNegation || !isNegated(text, m.index)) return true;
@@ -182,7 +189,7 @@ export function loadMinedPrecedents(): Precedent[] {
 
 interface StoredRecord extends Question {
   id?: string; status?: string; step?: string; decision?: string; reason?: string;
-  rationale?: string; needs_precedent?: boolean; confidence?: number;
+  rationale?: string; needs_precedent?: boolean; confidence?: number; expires_at?: string;
 }
 
 function readRecords(): StoredRecord[] {
@@ -202,8 +209,10 @@ function readRecords(): StoredRecord[] {
  * non-decisions never become authority.
  */
 export function loadLedgerPrecedents(): Precedent[] {
+  const today = new Date().toISOString().slice(0, 10);
   return readRecords()
-    .filter((r) => r.status === "decided" && !r.needs_precedent && r.question && r.decision)
+    .filter((r) => r.status === "decided" && !r.needs_precedent && r.question && r.decision
+      && !(r.expires_at && r.expires_at < today)) // expired rulings need re-review, not reuse
     .map((r) => ({
       id: r.id ?? "ledger",
       kind: "ledger-record",
@@ -390,12 +399,18 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
 
 function toYamlRecord(id: string, q: Question, d: Record<string, unknown>): string {
   const esc = (s: unknown) => JSON.stringify(String(s ?? ""));
+  const date = new Date().toISOString().slice(0, 10);
+  // TTL: autonomous decisions are provisional — they expire for re-review so
+  // early rulings cannot harden into permanent unchecked facts.
+  const expires = new Date(Date.now() + 365 * 24 * 3600 * 1000).toISOString().slice(0, 10);
   const lines = [
     `id: ${id}`,
-    `date: "${new Date().toISOString().slice(0, 10)}"`,
+    `date: "${date}"`,
+    `expires_at: "${expires}"`,
     `question_hash: ${questionHash(q)}`,
     `lane: ${esc(q.lane ?? "poc")}`,
     `class: ${esc(q.class ?? "uncategorised")}`,
+    `modality: ${esc(q.modality ?? "repo")}`,
     `domain: ${esc(d.domain ?? "fallback")}`,
     `mode: ${esc(d.mode ?? "conservative")}`,
     `question: ${esc(q.question)}`,
@@ -414,9 +429,12 @@ function toYamlRecord(id: string, q: Question, d: Record<string, unknown>): stri
   if (d.gate) lines.push(`gate: ${esc(d.gate)}`);
   if (d.precedent) lines.push(`precedent:`, `  id: ${esc((d.precedent as { id: string }).id)}`, `  source_file: ${esc((d.precedent as { source_file: string }).source_file)}`, `  score: ${(d.precedent as { score: number }).score}`);
   if (d.judge_evidence) lines.push(`judge_evidence:`, ...(d.judge_evidence as string[]).map((e) => `  - ${esc(e)}`));
+  if (d.judge_dissent) lines.push(`judge_dissent: true`);
   if (d.engine_hold) lines.push(`engine_hold: ${esc(d.engine_hold)}`);
   if (d.needs_precedent) lines.push(`needs_precedent: true`);
   lines.push(`review_sampled: false`, `decided_by:`, `  agent: poc-decide`, `  pipeline: scripts/decisions/decide.ts`, `  ruleset: docs/decisions/rules.yaml`);
+  const derived = [d.rule_id && `rule:${d.rule_id}`, d.gate && `gate:${d.gate}`, d.precedent && `precedent:${(d.precedent as { id: string }).id}`].filter(Boolean);
+  if (derived.length) lines.push(`derived_from:`, ...derived.map((x) => `  - ${x}`));
   return lines.join("\n") + "\n";
 }
 
@@ -425,6 +443,8 @@ function writeDocket() {
   const all = readRecords();
   const open = all.filter((r) => r.status === "founder-docket" || r.status === "rejected");
   const held = all.filter((r) => r.status === "decided" && r.needs_precedent);
+  const today = new Date().toISOString().slice(0, 10);
+  const expired = all.filter((r) => r.status === "decided" && typeof r.expires_at === "string" && r.expires_at < today);
   const lines = [
     "# Founder docket — decisions awaiting the founder",
     "",
@@ -432,7 +452,7 @@ function writeDocket() {
     "Lanes drop questions in `docs/decisions/inbox/*.yaml`; the pipeline answers what it can",
     "by rule or precedent and lists only what genuinely needs the founder here.",
     "",
-    `Last run: ${new Date().toISOString()} — ${open.length} item(s) need the founder, ${held.length} held pending a precedent, ${all.length} record(s) total.`,
+    `Last run: ${new Date().toISOString()} — ${open.length} item(s) need the founder, ${held.length} held pending a precedent, ${expired.length} decided record(s) past expires_at (re-review), ${all.length} record(s) total.`,
     "",
     "## Needs the founder",
     "",
@@ -446,6 +466,11 @@ function writeDocket() {
     lines.push(`- ${r.id} — ${r.question}`);
   }
   if (!held.length) lines.push("_None._");
+  lines.push("", "## Expired decisions (past expires_at — re-review before reuse as precedent)", "");
+  for (const r of expired) {
+    lines.push(`- ${r.id} — ${r.question} (expired ${r.expires_at})`);
+  }
+  if (!expired.length) lines.push("_None._");
   lines.push("");
   writeFileSync(DOCKET, lines.join("\n"));
 }
@@ -504,13 +529,24 @@ export function advisory(q: Question, precedents: Precedent[], mode?: "autonomou
 
 interface JudgeResult { recommendation: string; confidence?: number; evidence?: string[]; rationale?: string }
 
-function judgePayload(q: Question, d: Record<string, unknown>): string {
+type JudgeFraming = "affirmative" | "adversarial";
+
+function judgePayload(q: Question, d: Record<string, unknown>, framing: JudgeFraming): string {
+  const task = framing === "affirmative"
+    ? "You are advising an autonomous decision engine for islam.museum, a trilingual museum knowledge graph. A question reached the safe-default hold. Recommend the most conservative reversible answer consistent with the repository's rules (Arabic-first, sources cited, no invented dates, Sunni-first labelled perspectives, no verdicts, CC0 data)."
+    : // Adversarial pass (SCOPE-style bidirectional evaluation): assume the obvious
+      // answer is a false conflation, single-source copy, or legend, and check
+      // whether the evidence survives falsification before recommending.
+      "You are the adversarial reviewer for islam.museum's decision engine. A question reached the safe-default hold. Assume the most obvious answer is wrong — a false conflation, a single-source copy presented as independent attestation, an invented date, or a legend stated as fact. Try to falsify it against the repository's rules (Arabic-first, every fact cited, doubt resolves to unknown, no invented dates, contested claims stay labelled). Recommend the most conservative reversible answer only if it survives this attack.";
   return JSON.stringify({
-    task: "You are advising an autonomous decision engine for islam.museum, a trilingual museum knowledge graph. A question reached the safe-default hold. Recommend the most conservative reversible answer consistent with the repository's rules (Arabic-first, sources cited, no invented dates, Sunni-first labelled perspectives, no verdicts, CC0 data). Reply with ONLY a JSON object: {\"recommendation\": string, \"confidence\": 0-1, \"evidence\": [strings], \"rationale\": string}.",
+    task,
+    framing,
     question: q.question,
     lane: q.lane,
+    modality: q.modality ?? "repo",
     domain: d.domain,
     alternatives: d.alternatives ?? [],
+    instruction: 'Reply with ONLY a JSON object: {"recommendation": string, "confidence": 0-1, "evidence": [strings], "rationale": string}.',
   });
 }
 
@@ -523,8 +559,8 @@ function parseJudgeJson(text: string): JudgeResult | null {
   } catch { return null; }
 }
 
-async function consultJudge(q: Question, d: Record<string, unknown>): Promise<JudgeResult | null> {
-  const payload = judgePayload(q, d);
+async function consultJudge(q: Question, d: Record<string, unknown>, framing: JudgeFraming): Promise<JudgeResult | null> {
+  const payload = judgePayload(q, d, framing);
   try {
     if (process.env.DECIDE_JUDGE_CMD) {
       const { execFileSync } = await import("node:child_process");
@@ -536,8 +572,10 @@ async function consultJudge(q: Question, d: Record<string, unknown>): Promise<Ju
       const res = await fetch(process.env.DECIDE_JUDGE_URL, {
         method: "POST",
         headers: { "content-type": "application/json" },
+        signal: AbortSignal.timeout(300_000), // a hung judge must never stall the pipeline
         body: JSON.stringify({
           model: process.env.DECIDE_JUDGE_MODEL ?? "local",
+          think: false, // Qwen3-class models: skip the reasoning trace, we want the JSON verdict
           messages: [
             { role: "system", content: "Reply with ONLY a JSON object, no prose." },
             { role: "user", content: payload },
@@ -551,21 +589,62 @@ async function consultJudge(q: Question, d: Record<string, unknown>): Promise<Ju
   return null;
 }
 
+interface BpeResult { pick: JudgeResult; fwd: JudgeResult | null; rev: JudgeResult | null; confidence: number; dissent: boolean }
+
+/** Bidirectional Preference Entropy pass: query the judge under affirmative and
+ *  adversarial framings, then combine. Order-averaged confidence penalised by
+ *  inter-pass disagreement; material dissent keeps the engine's safe-default
+ *  hold (the autonomous conservative fallback) instead of upgrading. */
+async function consultJudgeBpe(q: Question, d: Record<string, unknown>): Promise<BpeResult | null> {
+  if (process.env.DECIDE_JUDGE_SINGLE === "1") {
+    const single = await consultJudge(q, d, "affirmative");
+    return single ? { pick: single, fwd: single, rev: null, confidence: single.confidence ?? 0.5, dissent: false } : null;
+  }
+  const [fwd, rev] = await Promise.all([
+    consultJudge(q, d, "affirmative"),
+    consultJudge(q, d, "adversarial"),
+  ]);
+  if (!fwd && !rev) return null;
+  const cf = fwd?.confidence ?? 0;
+  const cr = rev?.confidence ?? cf;
+  const disagreement = Math.abs(cf - cr);
+  const pick = (cf >= cr ? fwd : rev) ?? fwd ?? rev!;
+  // Order-averaged p, penalised by disagreement (BPE): two passes that disagree
+  // about confidence produce low adjusted certainty even if each looks sure.
+  const confidence = ((cf + cr) / 2) * (1 - disagreement);
+  return { pick, fwd, rev, confidence, dissent: disagreement > 0.3 || confidence < 0.45 };
+}
+
 /** If a judge is configured and the engine held the question, upgrade the hold
  *  to a "recommended" record carrying the model's advice + evidence. The engine
- *  verdict stays safe-default underneath — the recommendation is advisory only. */
+ *  verdict stays safe-default underneath — the recommendation is advisory only.
+ *  When the affirmative and adversarial passes materially disagree, the hold
+ *  stands and the dissent is recorded for audit instead. */
 async function maybeJudge(q: Question, d: Record<string, unknown>): Promise<Record<string, unknown>> {
   if (d.step !== "safe-default" || (!process.env.DECIDE_JUDGE_CMD && !process.env.DECIDE_JUDGE_URL)) return d;
-  const j = await consultJudge(q, d);
-  if (!j) return d;
+  const bpe = await consultJudgeBpe(q, d);
+  if (!bpe) return d;
+  const model = process.env.DECIDE_JUDGE_MODEL ?? process.env.DECIDE_JUDGE_CMD ?? "endpoint";
+  if (bpe.dissent) {
+    return {
+      ...d,
+      judge_dissent: true,
+      judge_evidence: [
+        `affirmative(${bpe.fwd?.confidence ?? "?"}): ${bpe.fwd?.recommendation ?? "no response"}`,
+        `adversarial(${bpe.rev?.confidence ?? "?"}): ${bpe.rev?.recommendation ?? "no response"}`,
+      ],
+      rationale: `${d.rationale ?? ""} [judge BPE dissent — passes disagreed, hold stands for audit]`,
+    };
+  }
+  const j = bpe.pick;
   return {
     ...d,
     status: "recommended",
     step: "judge",
     decision: j.recommendation,
-    confidence: j.confidence ?? 0.5,
-    rationale: `GenAI advisor recommendation (${process.env.DECIDE_JUDGE_MODEL ?? process.env.DECIDE_JUDGE_CMD ?? "endpoint"}) — advisory only, awaits async audit: ${j.rationale ?? ""}`,
-    judge_evidence: j.evidence ?? [],
+    confidence: Math.round(bpe.confidence * 100) / 100,
+    rationale: `GenAI advisor recommendation, bidirectional-evaluated (${model}, BPE conf ${Math.round(bpe.confidence * 100) / 100}) — advisory only, awaits async audit: ${j.rationale ?? ""}`,
+    judge_evidence: [...(j.evidence ?? []), ...(bpe.rev && bpe.rev !== j ? [`adversarial pass concurs at conf ${bpe.rev.confidence ?? "?"}`] : [])],
     engine_hold: "safe-default preserved underneath; the recommendation does not decide",
   };
 }
