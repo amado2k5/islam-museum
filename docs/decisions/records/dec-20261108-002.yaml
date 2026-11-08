@@ -1,0 +1,16 @@
+id: dec-20261108-002
+date: "2026-11-08"
+lane: "poc"
+class: "uncategorised"
+question: "Can we mark these 400 records reviewed and published?"
+options:
+status: founder-docket
+step: policy-gate
+decision: "review-status escalation is founder/pipeline only"
+confidence: n/a
+reversible: false
+rationale: ""
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
