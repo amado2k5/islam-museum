@@ -100,6 +100,8 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Thirteen library source entities registered.** `data/source/` gains draft source records for the next harvest wave — al-Arba'un al-Nawawiyya, Riyad al-Salihin, al-Isaba, Usd al-Ghaba, Tabaqat al-Huffaz, al-Mughni, the Kuwait Fiqh Encyclopaedia, al-Muwafaqat, al-Mustasfa, the Rihla of Ibn Battuta, Fisal Ibn Hazm, Azwaj al-Nabi and the Rashidun volume of al-Sallabi — so citations from the upcoming mining batches resolve on day one.
+- **First harvest-wave enrichment: concept/ummahat-al-muminin.** The concept gains its second source — al-Badr's «Azwaj al-Nabi ummahat al-muminin» (run lib-wave-21-azwaj-nabi-1) — adding the intra-tradition dispute over whether believing women are covered by the motherhood (Aisha vs Umm Salama reports, reconciled as prohibition vs honour) and the nasab-rulings analysis showing the wives' brothers and daughters carry only the prohibition, not kinship rulings, as in suckling. Completeness 1 → 2.
+- **Harvest progress files for the 21-book wave.** `docs/delegation/library/` gains per-book progress ledgers for fifteen books of the wave (arbaun-nawawi, sahih-bukhari, jami-tirmidhi, riyad-salihin, muwatta-malik, mishkat-masabih, isaba, usd-ghaba, siyar-alam-nubala, marifat-sahaba-abu-nuaym, tabaqat-huffaz, mughni-ibn-qudama, fiqh-mawsua-noor-doc, rihla-ibn-battuta, azwaj-nabi) recording items, extracted copies, existing citations and mining state — the working state from which every subsequent batch resumes.
 
 ## v1.3.1 — 2026-11-07
 
