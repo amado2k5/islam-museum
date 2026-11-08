@@ -11,6 +11,7 @@ A free, open, all-digital museum of Islam with nine wings and five cross-cutting
 
 | # | Document | What it answers |
 |---|---|---|
+| 00 | [Founder's Charter](00-founders-charter.md) | The governing doctrine, in the founder's own framing of 8 November 2026: the mother books as corpus, the page-by-page pipeline, the knowledge graph as foundation and the site as its application, honest scale, what AI images are, the open invitation. Arabic text: [00-founders-charter-ar.md](00-founders-charter-ar.md); the message it was stated in, verbatim: [founders-message-2026-11-08.md](founders-message-2026-11-08.md) |
 | 01 | [Vision](01-vision.md) | What this is, who it is for, the charter, scope (nine wings, five entrances), what is genuinely new, success criteria |
 | 02 | [Content model](02-content-model.md) | The twenty-two entity classes, relationships, time (EDTF + Hijri), space, languages, perspectives, example files |
 | 03 | [Architecture](03-architecture.md) | Free-hosting constraints, stack (Astro, Svelte, Pagefind, MapLibre, Sigma), repo layout, build pipeline, URLs, Cloudflare, media, growth path |
