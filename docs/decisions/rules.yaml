@@ -102,7 +102,7 @@ gates:
       no_negation: true
       reason: "money is never autonomous — negation tricks must not disarm this gate"
     - id: nd-outreach
-      pattern: "outreach|send.{0,25}(e-?mail|letter|message)|submit|file application|nomination|partnership|commission|ارسل|أرسل|راسل|تواصل|قدّم|تقديم"
+      pattern: "outreach|send.{0,25}(e-?mail|letter|message)|submit|file application|nomination|partnership|commission|unesco|unicef|dpga|icde|unhcr|oic|islamic world league|apply for|application (for|to)|partner(ship)? with|membership|accredit|award|grant|funding|ارسل|أرسل|راسل|تواصل|قدّم|تقديم"
       no_negation: true
       reason: "external communications, commissions and commitments are founder-only — negation tricks must not disarm this gate"
     - id: nd-license-change
@@ -139,7 +139,7 @@ domains:
   - id: governance
     pattern: "schema|enum|predicate|endpoint|api route|url route|deploy|dns|r2|worker|wrangler|robots|header|workflow|ci\\b|class in|entity class"
   - id: money-outreach
-    pattern: "deploy|spend|purchase|buy|subscribe|payment|outreach|email|letter|nomination|partnership|contract|commission"
+    pattern: "deploy|spend|purchase|buy|subscribe|payment|outreach|email|letter|nomination|partnership|contract|commission|unesco|dpga|icde|apply for|application (for|to)|partner(ship)? with|membership|accredit|award|grant|funding"
   - id: dates
     pattern: "\\bdate\\b|\\byear\\b|hijri|edt ?f|calendar|chronolog|timeline"
   - id: sources
@@ -182,7 +182,7 @@ rules:
   - id: rule-duplicate-alias
     domain: content
     priority: 12
-    pattern: "duplicate|dedup|same (man|woman|person|entity|record|work|place|individual|thing|mosque|building)\\b(?!\\s+(file|files|branch|branches|commit|commits|worktree|worktrees|session|sessions|version|versions|tree|repo|repository|yaml|yml|pr|pull request|lane|progress|ids?)).{0,50}(merge|duplicat|dedup|alias|two records?|one record|keep both)|one record or two|(make|add|keep|use|create|turn).{0,20}alias|alias.{0,30}(of|to|for)|merg(e|ing).{0,50}(alias|duplicat|dedup|richer|canonical|one record|into (the )?(richer|canonical|existing|primary) (record|entity|entry|work)|same (record|entity|person|work|entry|thing))"
+    pattern: "duplicate|dedup|same (man|woman|person|entity|record|work|place|individual|thing|mosque|building)\\b(?!\\s+(file|files|branch|branches|commit|commits|worktree|worktrees|session|sessions|version|versions|tree|repo|repository|yaml|yml|pr|pull request|lane|progress|ids?)).{0,50}(merge|duplicat|dedup|alias|two records?|one record|keep both)|one record or two|(make|add|keep|use|create|turn).{0,20}alias|alias.{0,30}(of|to|for)\\b|merg(e|ing).{0,50}(alias|duplicat|dedup|richer|canonical|one record|into (the )?(richer|canonical|existing|primary) (record|entity|entry|work)|same (record|entity|person|work|entry|thing))"
     decision: "deduplicate: verify identity against the sources first; if it is one entity, merge into the richer record and keep the other id under aliases — never delete blindly; if they are distinct, keep both"
     cite: "AGENTS.md (reuse before create; a duplicate becomes an alias of the richer entity)"
     confidence: 0.9
@@ -238,7 +238,7 @@ rules:
   - id: rule-source-families
     domain: sources
     priority: 16
-    pattern: "source famil|same (source|family)|mirror|republish|republication|copies? of|ten (mirrors|copies)|independent (sources?|attestations?|famil).{0,50}(count|attestation|famil|enough|suffice|two|ten|mirror|second|third)|families? of sources?|one family"
+    pattern: "source famil|same (source|family)|mirror|republish|republication|copies? of|\bten (mirrors|copies)|independent (sources?|attestations?|famil).{0,50}(count|attestation|famil|enough|suffice|two|ten|mirror|second|third)|families? of sources?|one family"
     decision: "independence is counted by source FAMILIES, not documents: ten mirrors or republications of one family are ONE attestation, not ten; two attestations require two independent families; a copied single-source 'second source' never counts"
     cite: "Muse doctrine §5 (independence is source families) + faith two-family rule"
     confidence: 0.9
@@ -246,7 +246,7 @@ rules:
   - id: rule-one-source
     domain: sources
     priority: 17
-    pattern: "how many.{0,25}sources?|(one|single|two|2|three|3|minimum|min(imum)?).{0,30}sources?.{0,40}(enough|suffic|required|minimum|standard|policy|rule|needed|count as evidence)|(enough|suffic\\w+|require\\w+|minimum).{0,40}sources?|(is|are|can|may|does|do|should|must).{0,30}(one|a single|single|two).{0,15}sources?.{0,40}(enough|suffic|required|minimum|standard|count)"
+    pattern: "how many.{0,25}sources?|(one|single|two|2|three|3|minimum|min(imum)?).{0,30}sources?.{0,40}(enough|suffic|required|minimum|standard|policy|rule|needed|count as evidence)|(enough|suffic\\w+|require\\w+|minimum).{0,40}sources?|\\b(is|are|can|may|does|do|should|must)\\b.{0,30}(one|a single|single|two).{0,15}sources?.{0,40}(enough|suffic|required|minimum|standard|count)"
     decision: "one source is enough for any fact, dated or not; every entity cites its sources — but independence is counted by source FAMILIES, and contested fields (faith, dates) have their own stricter rules"
     cite: "AGENTS.md (sources rule)"
     confidence: 0.9
@@ -466,7 +466,7 @@ rules:
   - id: rule-external-id-failclosed
     domain: sources
     priority: 22
-    pattern: "external.?id|qid|wikidata (id|item|number)|identifier|orcid|isbn guess|guess.{0,20}(id|qid|identifier)"
+    pattern: "external.?id|qid|wikidata (id|item|number)\\b|identifier|orcid|isbn guess|guess.{0,20}(id|qid|identifier)"
     decision: "never guess an external id: if the QID or identifier cannot be confirmed from a live source, omit the field and state the gap in provenance — the wave-1 fail-closed precedent"
     cite: "wave-2 commit: 'the gap is stated in the provenance rather than guessed'"
     confidence: 0.9

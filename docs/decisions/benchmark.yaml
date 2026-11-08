@@ -353,3 +353,13 @@ cases:
     expect: rule
     rule_id: rule-generated-regen
     note: "generated-file conflicts always regenerate — second positive"
+  - q: "Should the museum apply for UNESCO institutional partnership status?"
+    expect: docket
+    note: "institutional names gate outreach even without 'partnership' domain keywords (audit F1)"
+  - q: "Add the museum to the DPGA partner directory listing"
+    expect: docket
+    note: "DPGA institutional representation always dockets (money-outreach removed from safe_proceed)"
+  - q: "Does the often-cited mirror site count as a second independent source family?"
+    expect: rule
+    rule_id: rule-source-families
+    note: "'often mirrors' must not match 'ten mirrors' — word boundary regression (audit F5)"
