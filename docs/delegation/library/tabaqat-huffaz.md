@@ -14,7 +14,19 @@ Copies extracted under `~/islam-museum-harvest/books/tabaqat/tabaqat-huffaz/`:
 
 ## Mining state
 
-Entities citing `source/tabaqat-huffaz` outside `data/source/`: **0**.
+Entities citing `source/tabaqat-huffaz` outside `data/source/`: **4** after wave-21 run `lib-wave-21-tabaqat-huffaz-1`.
+
+## Mining state — wave 21 (run lib-wave-21-tabaqat-huffaz-1)
+
+Copy used: `AAlexandrina-161880` = الجزء الرابع only (tabaqat 15-21, entries ~1033-1175, printed pages ~1201-1500+; the print continues page numbers across parts, footer shows ج٤-ط<part-local>). Citations use `{cite:tabaqat-huffaz 4/<printed page>}`.
+
+Gap-filled existing records (no new entities):
+- person/ibn-al-jawzi — entry 1098 · printed p.1342
+- person/al-nawawi — entry 1162 · printed p.1470
+- person/ibn-daqiq-al-id — entry 1168 · printed p.1481
+- person/ibn-taymiyya — entry 1175 · printed p.1496
+
+Other copies (AAlexandrina-224162/224163/224164) cover other juzes of the same Hyderabad 3rd-ed. printing — needed for earlier/later memorizers (al-Bukhari, al-Tirmidhi etc.).
 
 ## Next step
 
