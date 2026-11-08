@@ -1,0 +1,21 @@
+id: source/eamena
+class: source
+kind: reference_data
+type: database
+label:
+  ar: "قاعدة بيانات إلما ⁦(الآثار المهددة في الشرق الأوسط وشمال أفريقيا)⁩"
+  en: "EAMENA Database (Endangered Archaeology in the Middle East and North Africa)"
+  ur: "EAMENA Database (Endangered Archaeology in the Middle East and North Africa)"
+summary:
+  ar: "قاعدة بيانات الآثار المهددة في الشرق الأوسط وشمال أفريقيا — نحو ٣٨٣ ألف سجل موقع أثري يجمع صور الأقمار الصناعية والتقارير المنشورة، بإدارة جامعات أكسفورد وليستر ودرم وبدعم معهد جيتي ومؤسسة الآثار العالمية عبر منصة ARCHES."
+  en: "The Endangered Archaeology in the Middle East and North Africa database — about 383,000 heritage-place records combining satellite imagery and published reports, run by the Universities of Oxford, Leicester and Durham with the Getty Conservation Institute and World Monuments Fund on the ARCHES platform."
+  ur: "EAMENA Database — the Endangered Archaeology in the Middle East and North Africa database, about 383,000 heritage-place records combining satellite imagery and published reports, run by the Universities of Oxford, Leicester and Durham with the Getty Conservation Institute and World Monuments Fund on the ARCHES platform."
+title: "EAMENA Database"
+publisher: "University of Oxford / Universities of Leicester and Durham / Getty Conservation Institute (ARCHES)"
+URL: "https://database.eamena.org"
+language: en
+reliability_note: "A research-grade archaeological site register for the MENA region — site identity, period, condition and threat data — the strongest single corroboration source for building and place records after Archnet. Licence: eamena.org/open-access-policy states 'The EAMENA Database is licensed under a Creative Commons Attribution 4.0 International License' — open with attribution; the museum's {cite:eamena <heritage-place-id>} is the attribution. Access tiers recorded: Public Access withholds coordinates, map zoom and condition data; Research Access needs registration (not yet held — so no coordinate-dependent claims are sourced from the public tier); Contributor Access for edits. Harvest channel: ARCHES 7 search and GeoJSON export (database.eamena.org/api/search/export_results) plus the Zenodo EAMENA dataset community. Verified live 8 November 2026; decision dec-20261108-222 (supersedes engine false-positive dec-20261108-221)."
+sources: [source/eamena]
+open_access: true
+provenance: { layer: own-research, source: "Muse web-sources lane assessment 2026-11-08 (decision ledger dec-20261108-222)", generated_by: "Devin", model: "SWE-2 Flash High", run: web-sources-explore-registration-2026-11-08 }
+status: { review: published, generated_by: "Devin" }

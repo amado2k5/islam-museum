@@ -1102,6 +1102,17 @@ sources:
       robots_txt: names AI crawlers only, no wildcard group; harvest UA not listed
       note: 'V&A Islamic collection; cite {cite:vam-collection <systemNumber>}; developers.vam.ac.uk documents endpoints'
     status: enabled
+  eamena:
+    name: EAMENA Database (Endangered Archaeology in the Middle East and North Africa)
+    url: https://database.eamena.org
+    licence: CC BY 4.0 per eamena.org/open-access-policy; access tiered — public mode withholds coordinates/zoom/condition data, research mode needs registration
+    layer: open
+    method: ARCHES 7 platform — public map/search, GeoJSON export endpoint (api/search/export_results), citation plugin to Zenodo EAMENA community; ~383k heritage-place records
+    limits:
+      pause_seconds: 3
+      robots_txt: check before bulk access
+      note: 'Oxford/Leicester/Durham + Getty/WMF; cite {cite:eamena <heritage-place-id>}; no coordinate claims from public tier; decision dec-20261108-222'
+    status: enabled
   apd:
     name: Arabic Papyrology Database (LMU Munich / ISAP)
     url: https://www.apd.gwi.uni-muenchen.de/apd/
