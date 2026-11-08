@@ -13,6 +13,11 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.4.0 — 2026-11-08
+
+### Added
+- **The Founder's Charter now opens the museum's plan.** On 8 November 2026 the founder stated the project's doctrine in his own words — first in a message explaining the museum to a friend, then directed to stand as its vision, strategy and doctrine. The Charter (`docs/plan/00-founders-charter.md`, with its Arabic text and the message preserved verbatim) now governs the plan: the raw material is the content of one to two thousand of the mother books of Islam, read page by page by AI — mentions first, identity resolution (a known person is enriched, a new one created), then place, company, exact words, events, context and theme, and only then the classification rules, Sunni or not among them. The knowledge graph of the whole umma is the foundation; the website and everything in it are applications for displaying it. Progress is measured against the corpus (the founder estimates barely 1–1.5% of the first thousand books mined so far, yielding over 160,000 pages of persons, places, events and exact quotes), never against page counts. And AI images are stated for what they are: the model told what the graph knows and asked to draw its imagining — a reading of the graph, never a depiction of its subject. The vision document carries the Charter's banner, `AGENTS.md` points every agent to it first, and the Method page opens with a plain-language digest of it in Arabic, English and Urdu.
+
 ## v1.3.1 — 2026-11-07
 
 ### Fixed

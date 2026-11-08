@@ -2,6 +2,13 @@
 
 > *The whole story of Islam, open to everyone.*
 
+> **Governed by the [Founder's Charter](00-founders-charter.md)** (8 November 2026): the
+> knowledge graph of the whole umma is the foundation, and this museum — the site, the wings,
+> every feature — is an application and a display medium for that graph, not the reverse.
+> Where this document's phrasing differs (it calls the museum "a knowledge graph with a
+> museum's soul"), the Charter's order governs: corpus first (the mother books), the
+> page-by-page pipeline, rules last, and progress measured against the corpus.
+
 ## 1. What this is
 
 **islam.museum** is an all-digital, free, open, multilingual museum of Islam: the faith, the civilization, the cultures, the peoples, the ideas, the places, the objects and the living community, from the world Islam was born into until the day the site was last updated.
