@@ -150,3 +150,9 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 - Endpoints mapped from search.js + citation page: search_results=/en/search/resources, export=/en/api/search/export_results (geojson), resource-type-filter graphid 34cfe98e-c2c0-11ea-9026-02e7594ce0a0 = Heritage Place.
 - Anonymous results: every variant returns [] — search=term, resource-type-filter only, map-filter bbox (Jordan), and even the citation page's verbatim example URL. Public UI works only in an interactive session; no bulk dump on Zenodo (community = research datasets + tools only, incl. 'EAMENA Quick Pin' plugin zip).
 - reliability_note in data/source/eamena.yaml updated with the verification. Pilot deferred: needs Research Access registration OR a working anonymous query/session-harvest path.
+
+## 2026-11-08 (p3 cont.) — TEI batch 4 continued: +2 entities (bab-al-nasr, dar-al-arqam)
+
+- match5.py on ~2200-record partial: 9 candidates. Verified full fiche records; enriched bab-al-nasr +6674 (Cairo gate portal, marble, 1087-1088 — distinct from earlier decree fiche 1913) and dar-al-arqam +6828 (Mecca house restoration text, basalt, 1058-1059; entity had no external_ids block — added).
+- REJECTED with reasons: 6672 Aleppo Maqam Ibrahim shrine ≠ Meccan Maqam Ibrahim object; 6684 Salamiyya Jami' Isma'il ≠ southeast-asia sultan-ismail-mosque; 6688 Cairo Sayyida Nafisa mausoleum ≠ baghdad bimaristan-al-sayyida; 6381 Ghazni minaret ≠ tomb-of-mahmud.
+- fiches-4801-8800.jsonl at ~2200/4000 and fetching (PID 10611). Re-run match5 when done.
