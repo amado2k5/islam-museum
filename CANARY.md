@@ -68,6 +68,8 @@ open a new block on top with the new version and today's date.
 
 - **Audit disagreement worklist + README refresh.** `audit.ts` now ends with the actionable list: `decided-but-rejected` records (wrong rulings to fix — currently 8, all already remediated by the rule-tightening wave and re-verified live: chess→safe-default, git-merge questions→`rule-merge`, i18n→`rule-i18n-same-commit`, Wikidata→dec-017 override, sextant→D-109) vs `held/docket-but-rejected` coverage gaps (22 — these need new rules or rulings, not fixes). `docs/decisions/README.md` updated: conservative is the documented default, the full tool inventory is tabled, and the `chain:`/`calibration_log` record anatomy is described.
 
+- **Founder verdicts enacted as override authority.** The 21 records where the founder's verdict on a held/docket question was a substantive "no" are now `kind: override` records (`dec-20261108-132`–`152`) that supersede the dead-end holds — each faithfully restates the ruling (e.g. "do not batch-mark the 400 records reviewed", "Ibn al-Haytham credits the pinhole observation only", "alpha 0.02 not 0.05", "AI prose stays draft until human read"). Re-asked questions now cite them as precedent instead of re-holding. dec-087 deliberately excluded — its verdict was ambiguous. Known boundary: policy gates still intercept before precedent, so gated questions like dec-002's still docket even with an override on record — safe but worth revisiting.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests

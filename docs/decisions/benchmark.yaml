@@ -225,8 +225,8 @@ cases:
     note: "autonomous mode: founder-reserved falls through; create-entity rule answers"
   - q: "Canon decision process for the 286 undecided canon books — founder decides each or approves agent batches?"
     mode: autonomous
-    expect: default
-    note: "autonomous mode: no rule/precedent → safe default hold"
+    expect: precedent
+    note: "autonomous mode: founder verdict enacted as override dec-20261108-133 — agent-prepared batches, not individual founder decisions"
   - q: "Render-QA crawl: authorise a local read-only crawl — building locally is a check, not a deploy"
     expect: default
     note: "regression: negated gate match must not hang or docket"
