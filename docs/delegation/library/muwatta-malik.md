@@ -16,7 +16,11 @@ Copies extracted under `~/islam-museum-harvest/books/hadith/muwatta-malik/`:
 
 ## Mining state
 
-Entities citing `source/muwatta-malik` outside `data/source/`: **2**.
+Entities citing `source/muwatta-malik` outside `data/source/`: **2**. Entities citing `source/muwatta-maruf-1997`: see below.
+
+## Done
+
+- (8 Nov 2026, wave 21, run `lib-wave-21-muwatta-malik-1`) Enriched 4 existing `data/practice/` entities from the Ma'ruf edition (`noor-maruf-1997-v1`, Dar al-Gharb al-Islami 1417/1997), citations use PDF page numbers per the source record: `practice/wudu` (Ibn Zayd's demonstration of the Prophet's wudu + «فليجعل في أنفه ماء», Kitab al-Salat, PDF pp. 50–51), `practice/ghusl-al-janaza` (Umm Atiyya's report — three/five washes with water and lote, camphor, the waist-wrapper — plus Malik's tayammum fallback and «ليس لغسل الميت عندنا شيء موصوف», Kitab al-Jana'iz, PDF pp. 305–307), `practice/zakat` (Abu Sa'id's nisab hadith + Umar II's three-category letter + Malik's «لا تكون الصدقة إلا في ثلاثة أشياء», Kitab al-Zakat, PDF pp. 333–335), `practice/hajj` (Asma bint Umays's «اغتسلي ثم هللي», Ibn Umar's ghusl for ihram/Makka/Arafat, the Abbas–Miswar dispute over the muhrim's head, Kitab al-Hajj, PDF pp. 433–435). Skipped: `concept/riba-fiqh`, `concept/nikah-fiqh`, `practice/nikah` — they live in vol. 2 (kitabs 13+), not yet read line-by-line; `source/muwatta-maruf-1997` describes vol. 1 only — whether it covers the two digital volumes or a v2 source record is needed is flagged for the decision ledger.
 
 ## Next step
 
