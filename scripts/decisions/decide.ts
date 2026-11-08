@@ -95,7 +95,7 @@ export interface Precedent {
   summary: string;
   source_file: string;
   /** Muse §2: a proposal is not a precedent — only founder-ruled* entries may decide. */
-  provenance_status?: "founder-ruled" | "founder-ruled-ai-assisted" | "agent-ruled-delegated" | "agent-proposed-pending" | "agent-proposed-rejected" | "reverted";
+  provenance_status?: "founder-ruled" | "founder-ruled-ai-assisted" | "agent-ruled-delegated" | "agent-proposed-pending" | "agent-proposed-rejected" | "reverted" | "ledger-decided" | "ledger-override" | "unlabeled";
   supersedes?: string;
 }
 
@@ -157,10 +157,13 @@ function normBm25(raw: number, qTf: Map<string, number>, df: Map<string, number>
   return max > 0 ? raw / max : 0;
 }
 
-/** A policy match inside a negated phrase ("not a deploy", "never delete") is not a hit. */
+/** A policy match inside a tight negated phrase ("not a deploy", "never delete")
+ *  is not a hit. The negation cue must sit immediately before the match (allowing
+ *  only "going to"-style interveners): "do not hesitate to delete" is an
+ *  imperative, not a negation, and must still fire the gate. */
 function isNegated(text: string, index: number): boolean {
   const before = text.slice(Math.max(0, index - 48), index).toLowerCase();
-  return /(?<![=\w])(not|never|no|without|non-|cannot|can't|don't|doesn't|isn't|aren't)\b[^.;:]{0,40}$/.test(before);
+  return /\b(?:not|never|no|cannot|can't|don't|doesn't|isn't|aren't|won't|wouldn't|shouldn't)\s+(?:(?:going|about|planning)\s+to\s+)?(?:a|an|the|this|that|any)?\s*$/.test(before);
 }
 
 /** True when the pattern matches at least once outside a negated context. */
@@ -282,6 +285,7 @@ interface StoredRecord extends Question {
   id?: string; status?: string; step?: string; decision?: string; reason?: string;
   rationale?: string; needs_precedent?: boolean; confidence?: number; expires_at?: string;
   kind?: string; supersedes?: string; override_reason?: { detail?: string };
+  decided_by?: { agent?: string; pipeline?: string };
 }
 
 function readRecords(): StoredRecord[] {
@@ -307,12 +311,23 @@ export function loadLedgerPrecedents(): Precedent[] {
   // override stands, the original stays on disk untouched but never decides.
   const superseded = new Set(records.map((r) => r.supersedes).filter(Boolean) as string[]);
   return records
-    .filter((r) => r.status === "decided" && !r.needs_precedent && r.question && r.decision
+    .filter((r) =>
+      r.status === "decided" && !r.needs_precedent && r.question && r.decision
+      // Depth-0 authority only: a precedent-step record is derivative of its
+      // root — letting it become a precedent launders TTLs and compounds
+      // errors (Fable F2). Rule/gate/autonomous/safe-default/research records
+      // are roots; precedent applications are not.
+      && r.step !== "precedent"
+      // Engine-written records or explicit override rulings are authority;
+      // a hand-written `status: decided` is a proposal until ruled (Fable F2).
+      && (r.kind === "override" || r.decided_by?.pipeline === "scripts/decisions/decide.ts")
       && !(r.id && superseded.has(r.id))
       && !(r.expires_at && r.expires_at < today)) // expired rulings need re-review, not reuse
     .map((r) => ({
       id: r.id ?? "ledger",
       kind: "ledger-record",
+      provenance_status: r.kind === "override" ? "ledger-override" : "ledger-decided",
+      supersedes: r.supersedes,
       title: r.question.slice(0, 140),
       summary: `${r.decision} ${r.rationale ?? r.override_reason?.detail ?? ""}`.slice(0, 400),
       source_file: `docs/decisions/records/${r.id}.yaml`,
@@ -363,6 +378,16 @@ export function classifyDomain(text: string, rs: Ruleset = loadRuleset()): strin
 const PRECEDENT_THRESHOLD = 0.6;
 const TITLE_OVERLAP_FLOOR = 0.3;
 const PRECEDENT_TOP_N = 3;
+// Confidence is capped by the authority of the precedent cited — a ledger
+// record never outranks a founder ruling, and every precedent decision was
+// previously reporting a flat 0.95 (Fable F2).
+const AUTHORITY_CONFIDENCE: Record<string, number> = {
+  "founder-ruled": 0.9,
+  "founder-ruled-ai-assisted": 0.85,
+  "agent-ruled-delegated": 0.8,
+  "ledger-override": 0.85,
+  "ledger-decided": 0.75,
+};
 
 export function questionText(q: Question): string {
   return `${q.question} ${(q.options ?? []).join(" ")} ${(q.evidence ?? []).join(" ")} ${q.proposed_action ?? ""}`;
@@ -387,12 +412,27 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
   }
   trace.push({ stage: "founder-reserved", result: m === "autonomous" ? "auto-decide" : "pass" });
 
-  // Step 1: gates — non-delegable surfaces and hard rejects.
-  // Conservative mode → founder docket. Autonomous mode → the engine takes the
-  // mapped conservative decision itself (rules.yaml `autonomous.gates`); a gate
-  // with no mapping still docks — autonomy never invents authority.
-  for (const g of rs.gates.non_delegable) {
+  // Step 1: gates — hard rejects run BEFORE non-delegable gates in BOTH modes.
+  // A proposal that is both gated and forbidden ("deploy the page with the
+  // prophet portrait") must reject, never get an autonomous substitute.
+  for (const g of rs.gates.hard_reject) {
     if (hits(text, g.pattern)) {
+      trace.push({ stage: "hard-reject", result: g.id, detail: g.reason });
+      return {
+        status: "rejected", step: "hard-reject", reason: g.reason,
+        gate: g.id, domain, trace, mode: m, reversible: false,
+      };
+    }
+  }
+  trace.push({ stage: "hard-reject", result: "pass" });
+
+  // Non-delegable gates: conservative mode → founder docket. Autonomous mode →
+  // the engine takes the mapped conservative decision itself (rules.yaml
+  // `autonomous.gates`); a gate with no mapping still docks — autonomy never
+  // invents authority. Gates flagged no_negation in rules.yaml ignore the
+  // negation guard: "do not delete" phrasing tricks must never disarm them.
+  for (const g of rs.gates.non_delegable) {
+    if (hits(text, g.pattern, !(g as { no_negation?: boolean }).no_negation)) {
       const auto = m === "autonomous" ? rs.autonomous?.gates?.[g.id] : undefined;
       if (auto) {
         trace.push({ stage: "policy-gate", result: `${g.id}→autonomous`, detail: g.reason });
@@ -406,15 +446,6 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
       trace.push({ stage: "policy-gate", result: g.id, detail: g.reason });
       return {
         status: "founder-docket", step: "policy-gate", reason: g.reason,
-        gate: g.id, domain, trace, mode: m, reversible: false,
-      };
-    }
-  }
-  for (const g of rs.gates.hard_reject) {
-    if (hits(text, g.pattern)) {
-      trace.push({ stage: "hard-reject", result: g.id, detail: g.reason });
-      return {
-        status: "rejected", step: "hard-reject", reason: g.reason,
         gate: g.id, domain, trace, mode: m, reversible: false,
       };
     }
@@ -455,7 +486,7 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
   const df = dfOf(bodyDocs);
   const allLens = bodyDocs.map((d) => [...tokens(d).values()].reduce((a, b) => a + b, 0));
   const avgLen = allLens.reduce((a, b) => a + b, 0) / Math.max(allLens.length, 1);
-  const qTf = tokens(text);
+  const qTf = tokens(q.question); // precedent gates score the QUESTION only — stuffing evidence/options must not buy a match (Fable F3)
 
   const overlap = (a: Map<string, number>, b: Map<string, number>) => {
     let inter = 0;
@@ -510,7 +541,7 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
       top_precedent_id: best.p.id,
       top_precedent_status: best.p.provenance_status ?? (best.p.kind === "ledger-record" ? "ledger-decided" : "unlabeled"),
       alternatives, domain,
-      confidence: Math.min(0.95, 0.5 + best.hybrid), reversible: true, mode: m,
+      confidence: Math.min(AUTHORITY_CONFIDENCE[best.p.provenance_status ?? ""] ?? 0.7, 0.5 + best.hybrid), reversible: true, mode: m,
       rationale: `Question overlaps precedent ${best.p.id} recorded in ${best.p.source_file}. Conservative application; founder audits the sample.`,
       trace,
     };
@@ -651,7 +682,9 @@ function writeDocket() {
     "Lanes drop questions in `docs/decisions/inbox/*.yaml`; the pipeline answers what it can",
     "by rule or precedent and lists only what genuinely needs the founder here.",
     "",
-    `Last run: ${new Date().toISOString()} — ${open.length} item(s) need the founder, ${held.length} held pending a precedent, ${expired.length} decided record(s) past expires_at (re-review), ${all.length} record(s) total.`,
+    // No timestamp: the file must be byte-identical for identical records so
+    // concurrent worktrees merge cleanly (Fable F10).
+    `State: ${open.length} item(s) need the founder, ${held.length} held pending a precedent, ${expired.length} decided record(s) past expires_at (re-review), ${all.length} record(s) total.`,
     "",
     "## Needs the founder",
     "",
@@ -747,7 +780,10 @@ function judgePayload(q: Question, d: Record<string, unknown>, framing: JudgeFra
     lane: q.lane,
     modality: q.modality ?? "repo",
     domain: d.domain,
-    alternatives: d.alternatives ?? [],
+    // Judge sees precedent IDS + scores only — precedent titles are untrusted
+    // text that could carry injected instructions (Fable F15). The full
+    // alternatives list stays in the record for humans/audit.
+    alternatives: ((d.alternatives ?? []) as { id: string; score: number }[]).map((a) => ({ id: a.id, score: a.score })),
     instruction: 'Reply with ONLY a JSON object: {"recommendation": string, "confidence": 0-1, "confidence_components": {"evidence_strength": 0-1, "source_independence": 0-1, "model_agreement": 0-1}, "strongest_objection": string, "evidence": [strings], "rationale": string}. Decomposed confidence matters: thin evidence, conflicting evidence and model disagreement are different failure modes — report the components, not just the aggregate.',
   });
 }
@@ -830,21 +866,21 @@ async function consultJudgeBpe(q: Question, d: Record<string, unknown>): Promise
     const c = only.confidence ?? 0.5;
     return { pick: only, fwd, rev, confidence: c * 0.85, dissent: false, uncertainty: 1 - c, sameVerdict: true };
   }
-  const cf = fwd.confidence ?? 0.5;
-  const cr = rev.confidence ?? 0.5;
+  const cf = clipConf(fwd.confidence ?? 0.5);
+  const cr = clipConf(rev.confidence ?? 0.5);
   const sameVerdict = recSimilarity(fwd.recommendation, rev.recommendation) >= 0.3;
   const pick = cf >= cr ? fwd : rev;
-  // Support each pass gives the picked verdict.
-  const supFwd = fwd === pick || sameVerdict ? clipConf(cf) : 1 - clipConf(cf);
-  const supRev = rev === pick || sameVerdict ? clipConf(cr) : 1 - clipConf(cr);
-  const pBar = (supFwd + supRev) / 2;
-  const flip = Math.abs(supFwd - supRev);
-  const h = pBar > 0 && pBar < 1 ? -(pBar * Math.log(pBar) + (1 - pBar) * Math.log(1 - pBar)) / Math.LN2 : 0;
-  const uncertainty = Math.min(1, h + 0.5 * flip);
+  // Uncertainty = verdict disagreement dominates; mean clipped confidence
+  // modulates. (Replaces the earlier entropy-of-self-report formula, which
+  // flagged two AGREEING 0.8-confidence passes as ~72% uncertain — treating a
+  // self-reported scalar as a Bernoulli parameter is an artifact, not signal.
+  // Fable F12.)
+  const meanConf = (cf + cr) / 2;
+  const uncertainty = (sameVerdict ? 0 : 0.6) + (1 - meanConf) * 0.4;
   const confidence = 1 - uncertainty;
-  // Dissent: high composite uncertainty, or two confident passes reaching
-  // materially different verdicts (a real flip, not just low confidence).
-  const dissent = uncertainty > 0.5 || (!sameVerdict && Math.max(cf, cr) > 0.6);
+  // Dissent: material disagreement between passes, or very low combined
+  // confidence even when they concur.
+  const dissent = uncertainty > 0.5;
   return { pick, fwd, rev, confidence, dissent, uncertainty, sameVerdict };
 }
 
@@ -911,6 +947,10 @@ async function main() {
   const isAdvisory = args.includes("--advisory");
   const mi = args.indexOf("--mode");
   const cliMode = (mi >= 0 ? args[mi + 1] : undefined) as "autonomous" | "conservative" | undefined;
+  if (cliMode && cliMode !== "autonomous" && cliMode !== "conservative") {
+    console.error(`--mode must be autonomous|conservative, got '${cliMode}'`);
+    process.exit(2);
+  }
   const precedents = loadPrecedents();
   // Hybrid retrieval: embed the precedent corpus once per run (cached on disk),
   // then one query embedding per question. Unreachable endpoint → lexical only.
@@ -957,7 +997,15 @@ async function main() {
       const id = nextId();
       if (write && !isAdvisory) {
         mkdirSync(RECORDS_DIR, { recursive: true });
-        writeFileSync(join(RECORDS_DIR, `${id}.yaml`), toYamlRecord(id, q, d));
+        try {
+          writeFileSync(join(RECORDS_DIR, `${id}.yaml`), toYamlRecord(id, q, d), { flag: "wx" });
+        } catch (e) {
+          if ((e as NodeJS.ErrnoException).code === "EEXIST") {
+            console.log(`ID COLLISION ${id} — record exists; re-run to mint a fresh id (never overwrite)`);
+            continue;
+          }
+          throw e;
+        }
       }
       results.push({ id, q, d });
       const head = isAdvisory ? String(d.verdict) : `${d.status}/${d.step}`;
@@ -991,6 +1039,10 @@ async function main() {
     q = raw.trim().startsWith("{") ? (JSON.parse(raw) as Question) : (parse(raw) as Question);
   }
   if (!q.question) { console.error("question required"); process.exit(2); }
+  if (decidedHashes().has(questionHash(q))) {
+    console.log("skip (already decided) — question_hash matches an existing record");
+    return;
+  }
 
   const sem = isAdvisory ? null : await semanticFor(q, semCorpus);
   let d = isAdvisory ? advisory(q, precedents, cliMode, sem) : decide(q, precedents, cliMode, sem);
@@ -999,7 +1051,15 @@ async function main() {
 
   if (write && !isAdvisory) {
     mkdirSync(RECORDS_DIR, { recursive: true });
-    writeFileSync(join(RECORDS_DIR, `${id}.yaml`), toYamlRecord(id, q, d));
+    try {
+      writeFileSync(join(RECORDS_DIR, `${id}.yaml`), toYamlRecord(id, q, d), { flag: "wx" });
+    } catch (e) {
+      if ((e as NodeJS.ErrnoException).code === "EEXIST") {
+        console.error(`ID COLLISION ${id} — record exists; refusing to overwrite`);
+        process.exit(1);
+      }
+      throw e;
+    }
     console.log(`wrote docs/decisions/records/${id}.yaml — status: ${d.status}`);
   } else {
     emit(id, q, d);

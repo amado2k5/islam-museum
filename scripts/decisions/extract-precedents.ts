@@ -33,9 +33,19 @@ interface Precedent {
   supersedes?: string;
 }
 
+/** Files whose content the founder owns or rules in directly. ONLY these may
+ *  mint `founder-ruled` authority or honour `supersedes`/`reverts` links
+ *  (Fable F4: one planted line in any agent-writable doc must not create
+ *  authority or dead-letter a real ruling). Lane progress files, research
+ *  notes and everything else cap at agent-ruled-delegated / agent-proposed-pending.
+ *  docs/agents/ is allowlisted only at top level — lanes/ and categories/ are
+ *  agent-writable. */
+const FOUNDER_AUTHORITY = /^docs\/(delegation|plan)\/|^docs\/agents\/[^/]+\.md$|^docs\/(status|scope|language|collaboration|sources-policy|ai-change-gates)\.md$/;
+
 /** Classify how much authority a mined entry carries. Fail-closed: anything we
  *  cannot prove was ruled on is a proposal, never authority.
- *  - founder-ruled*: the founder's own decision, citable to a ruling act.
+ *  - founder-ruled*: the founder's own decision, citable to a ruling act —
+ *    and only when the source file is founder-owned (FOUNDER_AUTHORITY).
  *  - agent-ruled-delegated: decided by an agent under standing delegation
  *    (the repo's "Approved non-impacting" vocabulary) — authority within its
  *    delegated scope, below founder doctrine.
@@ -43,7 +53,7 @@ interface Precedent {
  *  NOTE: `reverted`/`agent-proposed-rejected` are deliberately NOT auto-detected
  *  from keywords — a ruling *about* a revert is itself authority, and keyword
  *  matching cannot tell the two apart. Supersession chains carry that signal. */
-function classifyStatus(kind: string, text: string): Precedent["provenance_status"] {
+function classifyStatus(kind: string, text: string, canMintFounder: boolean): Precedent["provenance_status"] {
   const t = text.toLowerCase();
   const aiAssisted = /ai[- ]assist|drafted by|prepared by (an? )?(ai|gemini|agent|model)|agent-drafted|ai-generated/.test(t);
   const founderRuled =
@@ -51,19 +61,26 @@ function classifyStatus(kind: string, text: string): Precedent["provenance_statu
     /\bfounder\b[^.]{0,60}\b(approved|ruled|decided|authorized|accepted|said|confirmed|ordered|instructed)\b/.test(t) ||
     /\b(approved|ruled|decided|authorized|accepted|confirmed|ordered)\b[^.]{0,40}\bfounder\b/.test(t) ||
     /\bfounder'?s (decision|ruling|instruction|standing|word|authori[sz]ation)\b/.test(t);
-  if (founderRuled) return aiAssisted ? "founder-ruled-ai-assisted" : "founder-ruled";
-  if (/\bapproved\b|\bauthori[sz]ed under\b|\bnon-impacting scope\b/.test(t)) return "agent-ruled-delegated";
+  // Founder claims outside founder-owned files are agent-transcribed quotes —
+  // real context, but not mintable authority (Fable F4).
+  if (founderRuled && canMintFounder) return aiAssisted ? "founder-ruled-ai-assisted" : "founder-ruled";
+  // Delegated scope uses the repo's actual approval vocabulary, not bare
+  // "approved" — a progress note saying "approved the photo" is not a ruling.
+  if (/\bapproved\b[^.\n]{0,50}\b(non-impacting|under|scope|delegat|proposal|plan)\b|\bnon-impacting\b[^.\n]{0,50}\bapproved\b|\bauthori[sz]ed under\b/.test(t)) {
+    return "agent-ruled-delegated";
+  }
   return "agent-proposed-pending";
 }
 
-/** "supersedes D-042" / "reverts D-042a" in the text → chain link. */
+/** "supersedes D-042" / "reverts D-042a" in the text → chain link.
+ *  Only honoured from founder-authority files (caller gates this). */
 function findSupersedes(text: string): string | undefined {
   const m = text.match(/\b(?:supersedes?|reverts?|replaces?|overrides?)\s+(?:decision\s+)?D-(\d+[a-z]?)\b/i);
   return m ? `D-${m[1]}` : undefined;
 }
 
 function* walk(dir: string): Generator<string> {
-  for (const name of readdirSync(dir)) {
+  for (const name of readdirSync(dir).sort()) { // deterministic order — collision suffixes depend on it
     const p = join(dir, name);
     if (EXCLUDE.test(p)) continue;
     const st = statSync(p);
@@ -100,6 +117,7 @@ for (const dir of SCAN_DIRS) {
   for (const file of walk(join(ROOT, dir))) {
     scanned++;
     const rel = relative(ROOT, file);
+    const canMintFounder = FOUNDER_AUTHORITY.test(rel);
     const lines = readFileSync(file, "utf8").split("\n");
     for (let i = 0; i < lines.length; i++) {
       const m = lines[i].match(D_HEADING);
@@ -107,6 +125,7 @@ for (const dir of SCAN_DIRS) {
         const dateM = m[2].match(DATE_IN_HEADING);
         const title = m[2].replace(DATE_IN_HEADING, "").trim();
         const summary = firstParagraph(lines, i + 1);
+        const body = `${title} ${summary}`;
         precedents.push({
           id: `D-${m[1]}`,
           kind: "decision-record",
@@ -114,8 +133,9 @@ for (const dir of SCAN_DIRS) {
           date: dateM?.[1],
           source_file: rel,
           summary,
-          provenance_status: classifyStatus("decision-record", `${title} ${summary}`),
-          supersedes: findSupersedes(`${title} ${summary}`),
+          provenance_status: classifyStatus("decision-record", body, canMintFounder),
+          // supersedes links are authority acts — only founder-owned files may write them
+          supersedes: canMintFounder ? findSupersedes(body) : undefined,
         });
         continue;
       }
@@ -144,12 +164,52 @@ for (const dir of SCAN_DIRS) {
           title: clause.slice(0, 140),
           source_file: rel,
           summary: t,
-          provenance_status: classifyStatus("ruling", t),
-          supersedes: findSupersedes(t),
+          provenance_status: classifyStatus("ruling", t, canMintFounder),
+          supersedes: canMintFounder ? findSupersedes(t) : undefined,
         });
       }
     }
   }
+}
+
+// Lane-local decision numbering collides across files (each lane numbers its own
+// D-000, D-001, ...). Bare ids that appear in more than one source file are
+// namespaced `D-NNN@<file-slug>` for EVERY occurrence — no arbitrary winner —
+// and supersedes links resolve within the same file's namespace (Fable F4:
+// embedding caches and supersededIds are keyed by id; silent overwrite is a bug).
+const fileSlug = (f: string) => f.replace(/^docs\//, "").replace(/\.md$/, "").replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "");
+const idFiles = new Map<string, Set<string>>();
+for (const p of precedents) {
+  if (!p.id.startsWith("D-")) continue;
+  idFiles.set(p.id, (idFiles.get(p.id) ?? new Set()).add(p.source_file));
+}
+const bareDup = new Set([...idFiles.entries()].filter(([, fs]) => fs.size > 1).map(([id]) => id));
+for (const p of precedents) {
+  if (bareDup.has(p.id)) p.id = `${p.id}@${fileSlug(p.source_file)}`;
+}
+// Supersedes links written as bare "D-NNN" resolve inside the same file: if that
+// file's D-NNN was namespaced, point at the namespaced id; unresolvable → drop.
+const idSet = new Set(precedents.map((p) => p.id));
+const fileHasBare = new Map<string, Set<string>>();
+for (const p of precedents) {
+  const bare = p.id.split("@")[0];
+  fileHasBare.set(p.source_file, (fileHasBare.get(p.source_file) ?? new Set()).add(bare));
+}
+for (const p of precedents) {
+  if (!p.supersedes) continue;
+  const target = `${p.supersedes}@${fileSlug(p.source_file)}`;
+  if (idSet.has(target)) { p.supersedes = target; continue; }
+  // Bare ids survive only when globally unique — keep the link only if THIS
+  // file actually owns that bare id, never a cross-file coincidence.
+  const ownBare = fileHasBare.get(p.source_file);
+  if (idSet.has(p.supersedes) && ownBare?.has(p.supersedes)) continue;
+  p.supersedes = undefined; // dead or cross-file link — drop rather than propagate
+}
+const finalIds = precedents.map((p) => p.id);
+const stillDup = finalIds.filter((id, i) => finalIds.indexOf(id) !== i);
+if (stillDup.length) {
+  console.error(`FAIL: duplicate precedent ids after namespacing: ${[...new Set(stillDup)].join(", ")}`);
+  process.exit(1);
 }
 
 const byKind = precedents.reduce<Record<string, number>>((a, p) => {

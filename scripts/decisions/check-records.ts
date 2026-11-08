@@ -14,18 +14,25 @@
  */
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { createHash } from "node:crypto";
 import { parse } from "yaml";
 
 const ROOT = process.cwd();
 const RECORDS_DIR = join(ROOT, "docs/decisions/records");
 const PRECEDENTS = join(ROOT, "docs/decisions/precedents.yaml");
+const RULESET = join(ROOT, "docs/decisions/rules.yaml");
 
 interface Rec {
   id?: string; kind?: string; date?: string; question?: string; question_hash?: string;
   status?: string; step?: string; decision?: string; reason?: string;
-  confidence?: unknown; reversible?: boolean; decided_by?: unknown;
+  confidence?: unknown; reversible?: boolean; decided_by?: { agent?: string; pipeline?: string };
   expires_at?: string; domain?: string; mode?: string; supersedes?: string;
-  precedent?: { id?: string };
+  rule_id?: string; precedent?: { id?: string };
+}
+
+function questionHash(question: string): string {
+  const norm = question.toLowerCase().replace(/[^a-z0-9؀-ۿ]+/g, " ").trim();
+  return createHash("sha1").update(norm).digest("hex").slice(0, 12);
 }
 
 const REQUIRED: (keyof Rec)[] = ["id", "date", "status", "step", "confidence", "reversible", "decided_by"];
@@ -57,6 +64,34 @@ function main() {
   }
   for (const id of ids) precIds.add(id);
 
+  // Rule ids that exist in the ruleset — a decided record citing a deleted or
+  // renamed rule is stale authority (Fable F2 quarantine).
+  const ruleIds = new Set<string>();
+  if (existsSync(RULESET)) {
+    const rs = parse(readFileSync(RULESET, "utf8")) as { rules?: { id?: string }[] };
+    for (const r of rs.rules ?? []) if (r.id) ruleIds.add(r.id);
+  }
+
+  // Dead authority: records named by another record's `supersedes` are
+  // superseded — their outcome no longer counts (that is what an override is).
+  const supersededIds = new Set(records.map((r) => r.supersedes).filter(Boolean));
+
+  // Duplicate question hashes with DIFFERING outcomes among LIVE decided
+  // records = contradictory authority (Fable F10).
+  const byHash = new Map<string, Rec[]>();
+  for (const r of records) {
+    if (!r.question || supersededIds.has(r.id)) continue;
+    const h = questionHash(r.question);
+    byHash.set(h, [...(byHash.get(h) ?? []), r]);
+  }
+  for (const [h, rs2] of byHash) {
+    const decidedOnes = rs2.filter((r) => r.status === "decided");
+    const distinct = new Set(decidedOnes.map((r) => `${r.step}|${r.decision ?? r.reason}`));
+    if (distinct.size > 1) {
+      fails.push(`question_hash ${h}: ${decidedOnes.length} live decided records with ${distinct.size} different outcomes (${decidedOnes.map((r) => r.id).join(", ")}) — contradictory authority`);
+    }
+  }
+
   for (const r of records) {
     const tag = r.id ?? "?";
     for (const k of REQUIRED) {
@@ -67,8 +102,17 @@ function main() {
     for (const k of WARN_ONLY) {
       if (r[k] === undefined || r[k] === null) warns.push(`${tag}: legacy-missing optional '${k}'`);
     }
-    if (r.supersedes && !ids.has(r.supersedes)) {
-      fails.push(`${tag}: supersedes '${r.supersedes}' — no such record (dead chain link)`);
+    // Authority provenance (Fable F2): a `decided` record is ledger authority
+    // only if the engine wrote it or it is an explicit override ruling.
+    if (r.status === "decided" && r.kind !== "override"
+      && r.decided_by?.pipeline !== "scripts/decisions/decide.ts") {
+      fails.push(`${tag}: status decided but decided_by.pipeline is '${r.decided_by?.pipeline ?? "absent"}' — hand-written decisions are not authority (use kind: override)`);
+    }
+    if (r.supersedes && !precIds.has(r.supersedes)) {
+      fails.push(`${tag}: supersedes '${r.supersedes}' — resolves nowhere (records + precedents)`);
+    }
+    if (r.rule_id && ruleIds.size && !ruleIds.has(r.rule_id)) {
+      fails.push(`${tag}: cites rule_id '${r.rule_id}' which no longer exists in rules.yaml — stale authority`);
     }
     if (r.precedent?.id && !precIds.has(r.precedent.id)) {
       fails.push(`${tag}: cites precedent '${r.precedent.id}' which resolves nowhere`);

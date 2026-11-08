@@ -14,7 +14,12 @@ import { decide, loadPrecedents, type Question } from "./decide";
 const ROOT = process.cwd();
 const BENCH = join(ROOT, "docs/decisions/benchmark.yaml");
 
-interface Case extends Question { q: string; expect: string; note?: string; mode?: "autonomous" | "conservative" }
+interface Case extends Question {
+  q: string; expect: string; note?: string; mode?: "autonomous" | "conservative";
+  /** Fable F5: step-only comparison lets a wrong rule pass. When present, the
+   *  fired rule_id / gate / precedent_id must match exactly. */
+  rule_id?: string; gate?: string; precedent_id?: string;
+}
 
 function actualOf(d: Record<string, unknown>): string {
   const status = String(d.status);
@@ -34,17 +39,26 @@ const misses: { c: Case; got: string; detail: string }[] = [];
 const byExpect = new Map<string, { pass: number; total: number }>();
 
 for (const c of doc.cases) {
-  const { expect, note, mode, question: _q, q: question, ...rest } = c as Case & { q: string };
+  const { expect, note, mode, question: _q, q: question, rule_id, gate, precedent_id, ...rest } = c as Case & { q: string };
   const q: Question = { question, ...rest };
   // Benchmark defaults to conservative so gate expectations stay meaningful;
   // cases may opt into autonomous mode explicitly.
   const d = decide(q, precedents, mode ?? "conservative");
   const got = actualOf(d);
-  const ok = got === expect;
+  // Step must match, AND any specified id-level expectation must match —
+  // "expect: rule" alone cannot tell rule-one-source from rule-source-families.
+  const idMiss: string[] = [];
+  if (rule_id !== undefined && d.rule_id !== rule_id) idMiss.push(`rule_id ${d.rule_id} != ${rule_id}`);
+  if (gate !== undefined && d.gate !== gate) idMiss.push(`gate ${d.gate} != ${gate}`);
+  if (precedent_id !== undefined && (d.precedent as { id?: string } | undefined)?.id !== precedent_id) {
+    idMiss.push(`precedent ${(d.precedent as { id?: string } | undefined)?.id} != ${precedent_id}`);
+  }
+  const ok = got === expect && idMiss.length === 0;
   const stat = byExpect.get(expect) ?? { pass: 0, total: 0 };
   stat.total++; if (ok) { pass++; stat.pass++; }
   byExpect.set(expect, stat);
-  if (!ok) misses.push({ c, got, detail: `${d.step} — ${String(d.decision ?? d.reason).slice(0, 110)}` });
+  const detail = `${d.step}${idMiss.length ? ` [${idMiss.join("; ")}]` : ""} — ${String(d.decision ?? d.reason).slice(0, 110)}`;
+  if (!ok) misses.push({ c, got: idMiss.length ? `${got} (${idMiss[0]})` : got, detail });
   if (verbose || !ok) {
     console.log(`${ok ? "PASS" : "MISS"} expect=${expect.padEnd(9)} got=${got.padEnd(9)} ${c.q.slice(0, 80)}`);
     if (!ok) console.log(`      ${misses[misses.length - 1]?.detail ?? ""}`);

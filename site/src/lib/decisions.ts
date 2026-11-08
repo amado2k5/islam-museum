@@ -32,7 +32,16 @@ export function decisionRecords(): DecisionRecord[] {
   return readdirSync(dir)
     .filter((f) => f.endsWith(".yaml"))
     .sort()
-    .map((f) => parse(readFileSync(join(dir, f), "utf8")) as DecisionRecord);
+    .map((f) => {
+      const abs = join(dir, f);
+      try {
+        return parse(readFileSync(abs, "utf8")) as DecisionRecord;
+      } catch (e) {
+        // Loud failure with the file named — a corrupt record (e.g. an unresolved
+        // merge) must break the build visibly, never silently drop off the ledger.
+        throw new Error(`decision record ${abs} failed to parse: ${(e as Error).message}`);
+      }
+    });
 }
 
 export function precedentCount(): number {

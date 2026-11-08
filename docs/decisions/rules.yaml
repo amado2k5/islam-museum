@@ -76,17 +76,20 @@ founder_reserved: "founder.{0,40}(decides|decide|will decide|should decide|to de
 gates:
   non_delegable:
     - id: nd-deploy
-      pattern: "deploy|publish to production|dns|r2 sync|goes? live"
+      pattern: "deploy|publish to production|dns|r2 sync|goes? live|انشر|الإنتاج|النشر"
       reason: "deploys are founder-only (cost + control)"
     - id: nd-delete
-      pattern: "delete|remove entity|drop table|purge"
-      reason: "destructive operations are never autonomous"
+      pattern: "delete|remove entity|drop table|purge|احذف|حذف|امسح|أزل|ازالة"
+      no_negation: true
+      reason: "destructive operations are never autonomous — negation tricks must not disarm this gate"
     - id: nd-spend
-      pattern: "spend|purchase|buy|subscribe|payment|contract"
-      reason: "money is never autonomous"
+      pattern: "spend|purchase|buy|subscribe|payment|contract|اشتر|شراء|ادفع|دفع|فلوس|مبلغ"
+      no_negation: true
+      reason: "money is never autonomous — negation tricks must not disarm this gate"
     - id: nd-outreach
-      pattern: "outreach|send.{0,25}(e-?mail|letter|message)|submit|file application|nomination|partnership|commission"
-      reason: "external communications, commissions and commitments are founder-only"
+      pattern: "outreach|send.{0,25}(e-?mail|letter|message)|submit|file application|nomination|partnership|commission|ارسل|أرسل|راسل|تواصل|قدّم|تقديم"
+      no_negation: true
+      reason: "external communications, commissions and commitments are founder-only — negation tricks must not disarm this gate"
     - id: nd-license-change
       pattern: "licen[cs]e.{0,20}(change|new licen[cs]e)|change.{0,15}licen[cs]e"
       reason: "licence changes are submission-impacting"
@@ -110,8 +113,8 @@ gates:
       pattern: "figurative|portrait|depiction of (the )?prophet"
       reason: "no figurative depictions of prophets (licence rule)"
     - id: hr-honorific
-      pattern: "honorific|صلى الله عليه"
-      reason: "no typed honorifics"
+      pattern: "honorific|صلى الله عليه|عليه السلام|رضي الله عنه|رضوان الله عليه|رحمه الله|رحمہ اللہ|عليه رضوان|ﷺ|صَلَّى"
+      reason: "no typed honorifics — the full set, not just one form"
 
 # Domain classifier — first match wins; recorded on every decision record for
 # metrics and for routing questions to the right rubric as the engine grows.
@@ -209,11 +212,19 @@ rules:
     cite: "AGENTS.md + docs/agents/publication-standard.md"
     confidence: 0.85
     reversible: true
+  - id: rule-source-families
+    domain: sources
+    priority: 16
+    pattern: "source famil|same (source|family)|mirror|republish|republication|copies? of|ten (mirrors|copies)|independent (source|attestation|family)|families? of sources?|one family"
+    decision: "independence is counted by source FAMILIES, not documents: ten mirrors or republications of one family are ONE attestation, not ten; two attestations require two independent families; a copied single-source 'second source' never counts"
+    cite: "Muse doctrine §5 (independence is source families) + faith two-family rule"
+    confidence: 0.9
+    reversible: true
   - id: rule-one-source
     domain: sources
     priority: 17
-    pattern: "(one|two|single|minimum|how many).{0,25}source|source.{0,25}(enough|required|minimum|suffices)"
-    decision: "one source is enough for any fact, dated or not; every entity cites its sources"
+    pattern: "how many.{0,25}sources?|(one|single|two|2|three|3|minimum|min(imum)?).{0,30}sources?.{0,40}(enough|suffic|required|minimum|standard|policy|rule|needed|count as evidence)|(enough|suffic\\w+|require\\w+|minimum).{0,40}sources?|(is|are|can|may|does|do|should|must).{0,30}(one|a single|single|two).{0,15}sources?.{0,40}(enough|suffic|required|minimum|standard|count)"
+    decision: "one source is enough for any fact, dated or not; every entity cites its sources — but independence is counted by source FAMILIES, and contested fields (faith, dates) have their own stricter rules"
     cite: "AGENTS.md (sources rule)"
     confidence: 0.9
     reversible: true
@@ -352,7 +363,7 @@ rules:
   - id: rule-office-vs-faith
     domain: safety
     priority: 15
-    pattern: "(office|mufti|qadi|sultan|imam|headship|position|role|title).{0,50}(faith|sunni|school|madhhab|religion|affiliation|settle|record|prove|establish|count)|(faith|sunni|school).{0,40}(office|mufti|qadi|sultan|headship|position|title)"
+    pattern: "(mufti|qadi|sultan|imam|headship|office|religious (position|role|office)|position as (a|an)? ?(mufti|qadi|imam|sultan)).{0,60}(faith|sunni|shia|school|madhhab|religion|affiliation).{0,50}(prove|establish|count|settle|record|determine|show|confirm|suffic)|(faith|sunni|shia|school|madhhab|religion|affiliation).{0,60}(mufti|qadi|sultan|imam|office|headship|religious position)"
     decision: "office and headship are a separate claim type from faith: 'was Mufti of Kelantan' or 'Sultan of Maguindanao' may be recorded as a biographical fact on one valid source, but it NEVER settles the faith field — faith still requires two independent personal attestations; the 1 Nov 2026 office shortcut was an unapproved agent draft, reverted under PR #2873"
     cite: "R1 handoff note (1 Nov 2026) + founder revert PR #2873 — office→faith conflation rejected"
     confidence: 0.95
@@ -360,7 +371,7 @@ rules:
   - id: rule-ai-not-evidence
     domain: safety
     priority: 15
-    pattern: "(ai|model|advisor|assistant|chatgpt|gemini|claude|gpt).{0,40}(say|says|said|answer|attest|attested|confirm|confirmed|claim|state|stated|suggest).{0,40}(faith|religion|sunni|shia|muslim|school|madhhab|attestation|source|evidence|date|fact)|(faith|religion|sunni|shia|attestation|source).{0,40}(ai|model|advisor).{0,30}(say|answer|attest|confirm|proof|evidence)"
+    pattern: "\\b(ai|a\\.i\\.|artificial intelligence|llm|model|chatgpt|gemini|claude|gpt|advisor|assistant)\\b.{0,40}(say|says|said|answer|attest|attested|confirm|confirmed|claim|state|stated|suggest).{0,40}(faith|religion|sunni|shia|muslim|school|madhhab|attestation|source|evidence|date|fact)|(faith|religion|sunni|shia|attestation|source).{0,40}\\b(ai|model|advisor|assistant|chatgpt|gemini|claude|gpt)\\b.{0,30}(say|answer|attest|confirm|proof|evidence)"
     decision: "an AI's answer is never evidence — not about a person's faith, not about dates, not about sources; AI output is at most a pointer to evidence that must then be read in the original; no settlement may rest on a model's say-so"
     cite: "Muse doctrine §3.2 (founder record): 'An AI's answer — mine, Gemini's, anyone's — is never evidence about a person'"
     confidence: 0.95
@@ -368,7 +379,7 @@ rules:
   - id: rule-homonyms
     domain: content
     priority: 16
-    pattern: "homonym|namesake|same name|same label|name collision|different people|two people called|share[sd]? a name"
+    pattern: "homonym|namesake|same name|share[sd]? (a|the) name|same label|name collision|different people|two people called"
     decision: "different people who share a name are never merged: register the pair in data/_homonyms.yaml with the disambiguating facts and keep both records"
     cite: "commit history: data/_homonyms.yaml pairs (Abdul Somad, Yusuf Mansour, ayub-khan, Bayhaqis)"
     confidence: 0.9
@@ -408,7 +419,7 @@ rules:
   - id: rule-kids-wing
     domain: content
     priority: 20
-    pattern: "\\b(kids?|child(ren)?|under.?18|minor|young reader|sprouts|explorers|scholars level)\\b"
+    pattern: "\\b(kids?|child(ren)?|under.?18|young readers?|sprouts|explorers|scholars level|for minors?|minor'?s? (readers?|version|edition|audience)|a minor\\b.{0,40}(read|content|suitable|age))\\b"
     decision: "children's content follows the children's wing rulebook: flagged_for_kids marks eligibility, sensitive topics get child_review, and leveled sections are sprouts/explorers/scholars inside the prose file"
     cite: "docs/education + E5 leveled batches (founder-approved leveled-200 list)"
     confidence: 0.85
@@ -416,7 +427,7 @@ rules:
   - id: rule-conflict-preserve
     domain: dates
     priority: 21
-    pattern: "conflict|discrepanc|disagree|variant|differ|contradict|both (dates|years|readings)|which (date|year|reading|version)"
+    pattern: "conflicting (date|year|reading|account|source|version|report|ruling|decision|authority|value)|accounts? (conflict|differ|disagree|contradict)|sources? (conflict|disagree|differ|contradict)|readings? (conflict|differ|disagree|contradict)|dates? (conflict|differ|disagree|contradict)|discrepanc|contradict|both (dates|years|readings)|which (date|year|reading|version)|which (date|year|reading|version) (is correct|to use|wins|prevails)"
     decision: "conflicting dates, names or readings are preserved, not resolved silently: record every reading attributed to its source, mark the field debated where the sources disagree, and follow the cited authority the record names"
     cite: "commit history: Tansen, al-Yaqubi, wave-189/191 date conflicts 'recorded both ways, attributed'"
     confidence: 0.9
@@ -440,7 +451,7 @@ rules:
   - id: rule-reach-threshold
     domain: content
     priority: 23
-    pattern: "reach|notability|notable|followers|subscribers|influencer|celebrit|threshold|how (big|famous)|who counts"
+    pattern: "\\breach\\b|notability|notable|followers|subscribers|influencer|celebrit|threshold|how (big|famous)|who counts"
     decision: "modern figures are admitted by the lane's reach threshold — a published present-day reach figure from a citable source; below threshold the name stays a queue lead, not a record"
     cite: "Method page: 'reach thresholds for modern figures'"
     confidence: 0.85

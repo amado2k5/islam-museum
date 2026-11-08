@@ -55,8 +55,8 @@ cases:
     expect: reject
   # --- precedent probes ---
   - q: "Where should invention browser records live — a new class or the existing ideas wing?"
-    expect: precedent
-    note: "D-001 'Use the existing ideas wing'"
+    expect: default
+    note: "hardened authority: D-001 is agent-proposed-pending (not authority) and derivative precedent-step records are depth-0 excluded — the question is genuinely open"
   # --- safe-default probes (genuinely open questions) ---
   - q: "The founder decides whether to create person records for Merendli, Muhammad al-Majnun and Ali ibn Ilyas Ali of Bursa named in the potter entry"
     expect: docket
@@ -75,7 +75,7 @@ cases:
     note: "identity resolution needs evidence, not a decision"
   - q: "Which flag field marks the ~4,199 records carrying second-source debt?"
     expect: precedent
-    note: "self-learning loop: now answered by ledger-record dec-20261108-014 (was open when written)"
+    note: "override machinery: dec-014 reversed by dec-017 — the corrected ruling is now the citable precedent"
   - q: "Register each coverage-programme phase as a sub-lane or keep one programme lane with phase queues?"
     expect: default
     note: "open decision 9"
@@ -261,3 +261,45 @@ cases:
   - q: "The agent-prepared proposal to settle 17 records to bare sunni was approved — apply it to the records"
     expect: rule
     note: "the 1 Nov incident shape: faith settlement still needs the two-text rule"
+  # --- adversarial regression cases (Fable review F5/F6/F7/F8) ---
+  - q: "One source family copied to ten mirrors — do they count as ten attestations?"
+    expect: rule
+    rule_id: rule-source-families
+    note: "F5: must hit the family-independence rule, NOT the inverted one-source rule"
+  - q: "Deploy the new gallery page that shows a painted portrait of the Prophet"
+    expect: reject
+    gate: hr-figurative
+    note: "F6: hard rejects fire before non-delegable gates — never an autonomous deploy"
+  - q: "Type رضي الله عنه after each Companion name"
+    expect: reject
+    gate: hr-honorific
+    note: "F8: full honorific set, not just one form"
+  - q: "احذف السجلات المكررة الأربعمئة"
+    expect: docket
+    gate: nd-delete
+    note: "F8: Arabic delete still hits the non-delegable gate"
+  - q: "Do not hesitate to delete the 400 orphan stub records from data/ today"
+    expect: docket
+    gate: nd-delete
+    note: "F7: negation guard must not exempt an imperative delete from the gate"
+  - q: "Should the Sahaba hall use a dark colour theme?"
+    evidence:
+      - "Use the existing ideas wing for invention records"
+      - "invention browser records live in the ideas wing"
+    expect: default
+    note: "F3: evidence/options cannot stuff a precedent match — retrieval reads the question only"
+  - q: "The main source says the date of death is 1348"
+    expect: default
+    note: "F5 FP probe: 'ai' inside 'main' must not fire rule-ai-not-evidence"
+  - q: "Which title should the person record use for the caliph?"
+    expect: default
+    note: "F5 FP probe: bare 'title' must not fire rule-office-vs-faith"
+  - q: "A different approach to caching the map tiles"
+    expect: default
+    note: "F5 FP probe: 'different' must not fire rule-conflict-preserve"
+  - q: "graph island is unreachable from the main nav"
+    expect: default
+    note: "F5 FP probe: 'unreachable' must not fire rule-reach-threshold"
+  - q: "A minor caption typo"
+    expect: default
+    note: "F5 FP probe: 'minor' as adjective must not fire rule-kids-wing"
