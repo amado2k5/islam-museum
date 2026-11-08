@@ -1,0 +1,15 @@
+id: web-zeno-coins-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should Zeno.ru (Oriental Coins Database — coin records with stable ids cross-referenced to Album/Tye/Mitchiner catalogues) be onboarded as a citable source family for polity and ruler coinage, and at what tier?"
+options:
+  - "Tier 1 citable family, facts-only"
+  - "Tier 2 citable family, facts-only"
+  - "Tier 3 pointer only — catalogue ids used to locate the published reference, never a cite target"
+  - "Do not register"
+evidence:
+  - "Assessment 2026-11-08: authority weak (private hobbyist database aggregating published catalogues — the family catalogue itself calls it 'weakest scholarly tier'); citability good (stable record ids); terms unclear → facts-only; structure: searchable HTML, no API; coverage fit moderate (coin legends, mints, dates for polities and rulers); corroboration moderate but derivative; robots.txt carries 'User-agent: * / Disallow: /' — no automated access permitted, so no machine channel exists at all; longevity moderate."
+  - "docs/agents/source-families.md Tier 2: 'cite legend/mint/date only, paired with the published catalogue reference it names'"
+proposed_action: "register at most as Tier 3 pointer in source-families.md (no data/source entity, no harvest entry — robots disallow all automated access); revisit only if an authorised channel appears"
+source: "Muse web-sources lane assessment 2026-11-08"

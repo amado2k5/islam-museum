@@ -1102,4 +1102,82 @@ sources:
       robots_txt: names AI crawlers only, no wildcard group; harvest UA not listed
       note: 'V&A Islamic collection; cite {cite:vam-collection <systemNumber>}; developers.vam.ac.uk documents endpoints'
     status: enabled
+  apd:
+    name: Arabic Papyrology Database (LMU Munich / ISAP)
+    url: https://www.apd.gwi.uni-muenchen.de/apd/
+    licence: non-commercial project, free access stated on project page; facts-only — edition text and document images never republished
+    layer: copyrighted-reference
+    method: GET-searchable JSP interface (asearch.jsp, collections.jsp, document pages); inventory numbers / moid anchors; legacy domain arabicpapyrology.org dead — LMU host canonical
+    limits:
+      pause_seconds: 3
+      robots_txt: none found (404) on the LMU host
+      note: '13,586 documents, 4,476 full texts, 7,015 typed — pre-modern Arabic documentary evidence for Fustat and early Islamic Egypt; Trismegistos partner; cite {cite:apd <document-id>}'
+    status: enabled
+  princeton-geniza:
+    name: Princeton Geniza Project
+    url: https://geniza.princeton.edu
+    licence: open access per project documentation; facts-only for edition text — document texts and images never republished
+    layer: copyrighted-reference
+    method: HTML site plus Zenodo metadata deposit (2025, v1.0.0) — machine-harvestable; stable Princeton document ids
+    limits:
+      pause_seconds: 3
+      robots_txt: allows all except /admin
+      note: '4,350+ transcribed Cairo Geniza documents — Mediterranean trade, Fustat daily life, Sicily route; cite {cite:princeton-geniza <document-id>}'
+    status: enabled
+  manar-al-athar:
+    name: Manar al-Athar photo archive (University of Oxford)
+    url: https://manar.arch.ox.ac.uk
+    licence: CC BY-NC-SA 2.0 UK per family catalogue; site states free use for research/teaching/publication with acknowledgement — facts-only permanently, images never ingested
+    layer: nc
+    method: HTML photo archive with geographic and advanced search; per-image records with bilingual ar/en labels; no API
+    limits:
+      pause_seconds: 3
+      robots_txt: none found on manar.arch.ox.ac.uk (legacy domains dead)
+      note: '~83,000 photographs of Islamic-period sites/buildings/art; captions and identifications only; cite {cite:manar-al-athar <record-id>}'
+    status: enabled
+  qdl:
+    name: Qatar Digital Library
+    url: https://www.qdl.qa
+    licence: free public access stated by project; facts-only — record text and page images never republished
+    layer: copyrighted-reference
+    method: Wayback Machine snapshots and browser reads; live site answers 403 Cloudflare to non-browser clients (8 Nov 2026, recorded, not bypassed); shelfmark-style document ids
+    limits:
+      pause_seconds: 5
+      robots_txt: challenged (403) — not retrievable
+      note: 'manuscripts, documents, oral histories with colophons and dated copies; cite {cite:qdl <document-id>}'
+    status: enabled
+  hmml:
+    name: HMML manuscript catalogue (Hill Museum & Manuscript Library)
+    url: https://hmml.org
+    licence: public catalogue; full content needs free registration — catalogue metadata only, no login-gated harvest; facts-only
+    layer: copyrighted-reference
+    method: HTML catalogue browse/search; stable record ids and shelfmark anchors; API unconfirmed
+    limits:
+      pause_seconds: 3
+      robots_txt: wildcard allows our UA; named AI crawlers disallowed; Content-Signal ai-train=no (citation use, not training)
+      note: '60,000+ manuscript records — dates, colophons, provenance; cite {cite:hmml <record-id>}'
+    status: enabled
+  mwnf-discover-islamic-art:
+    name: Discover Islamic Art (Museum With No Frontiers)
+    url: https://islamicart.museumwnf.org
+    licence: terms unconfirmed at registration (8 Nov 2026) — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: HTML object/monument database; polite page reads only, no API; no robots.txt found
+    limits:
+      pause_seconds: 3
+      robots_txt: none found (404)
+      note: 'curated Mediterranean/Islamicate object records overlapping Sicily material; cite by record id'
+    status: enabled
+  qantara-med:
+    name: Qantara — Mediterranean heritage catalogue
+    url: https://www.qantara-med.org
+    licence: legal-notice page exists; reuse terms unconfirmed — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: multilingual site (ar/en/es/fr) with catalogue section and assisted search; canonical www host (root domain times out); polite page reads only
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before bulk access
+      note: 'object/monument records + materials-techniques notes across Mediterranean; cite by catalogue record'
+    status: enabled
+
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)

@@ -1,0 +1,15 @@
+id: web-princeton-geniza-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should the Princeton Geniza Project (geniza.princeton.edu — 4,350+ transcribed Cairo Geniza documents with published metadata) be onboarded as a citable source family for Mediterranean trade, Fustat daily life and the Sicily route, and at what tier?"
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:princeton-geniza <document-id>}"
+  - "Tier 2 citable family, facts-only"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "Assessment 2026-11-08: authority strong (Princeton University, Princeton Geniza Project); citability excellent (stable document ids, shelfmark-style identifiers, per-document pages); terms: open access per project documentation; Zenodo deposit (2025, v1.0.0) publishes the metadata — machine-harvestable; structure: HTML site plus Zenodo metadata dump; coverage fit unique (Geniza documentary evidence for Fatimid/Mamluk Mediterranean trade and Egypt); corroboration high and complementary to APD (different documentary corpus, overlapping period); script coverage includes Arabic, Judaeo-Arabic and other Geniza languages; longevity strong (university host since 1989). robots.txt allows all except /admin."
+  - "docs/agents/source-families.md Tier 2: '4,350+ transcribed Cairo Geniza documents — Mediterranean trade, Fustat daily life, the Sicily route — Open access; metadata published on Zenodo (2025, v1.0.0) — machine-harvestable'"
+proposed_action: "register source/princeton-geniza facts-only; pilot on 10 records"
+source: "Muse web-sources lane assessment 2026-11-08"

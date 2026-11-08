@@ -1,0 +1,15 @@
+id: web-apd-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should the Arabic Papyrology Database (now at apd.gwi.uni-muenchen.de/apd/, LMU Munich, ISAP patronage, Trismegistos partner) be onboarded as a citable source family for documentary evidence of early Islamic Egypt, and at what tier?"
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:apd <document-id>}"
+  - "Tier 2 citable family, facts-only"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "Assessment 2026-11-08: authority strong (LMU Munich institute + ISAP + Trismegistos partnership); citability good (13,586 document records with inventory numbers and stable JSP pages, GET-searchable asearch.jsp confirmed live); terms: project page states non-commercial, access free — facts-only posture; structure: JSP search forms + document pages, no bulk API; coverage fit unique (4,476 full texts, 7,015 typed documents — letters, contracts, tax receipts from Fustat and Egypt c.7th-16th c., evidence type absent from the corpus); corroboration highest for practice/events/places in early Islamic Egypt; script coverage includes Arabic texts with transliteration and lemmatisation; longevity strong (university host, continuously enlarged). Legacy domain arabicpapyrology.org is dead (connection failure all variants, 2026-11-08) — the LMU host is canonical."
+  - "docs/agents/source-families.md Tier 2: '13,543 documents ... everyday life for Fustat, practice, events — Free; Trismegistos ids as anchors'"
+proposed_action: "register source/apd at Tier 1 facts-only: registry entry, data/source entity with reliability_note, attribution row; pilot on 10 records"
+source: "Muse web-sources lane assessment 2026-11-08"
