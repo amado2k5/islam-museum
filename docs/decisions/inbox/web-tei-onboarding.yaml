@@ -1,0 +1,15 @@
+id: web-tei-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should the Thesaurus d'Epigraphie Islamique (now at epigraphie-islamique.uliege.be/Thesaurus/, University of Liege hosting, Max van Berchem Foundation sponsorship, directed by named scholars Kalus/Bauden/Soudan, successor to the printed RCEA) be onboarded as a citable source family for dating buildings, objects and events, and at what tier? Assessment 2026-11-08: authority strong; citability excellent (stable fiche numbers, e.g. EpigraphyDisplay.aspx?id=11979, GET pages server-rendered); terms: free of charge online since Oct 2011, no licence page found — default facts-only; structure: ASP.NET postback search (scriptable) plus GET fiche pages carrying Hijri era, Christian era, place, current repository, language, nature, support type, material, last-update date; 58,289 fiches and 49,884 photos covering the Muslim world to AH 1000; coverage fit high (inscription dating is the corroboration the corpus lacks); Arabic-first strong; longevity strong (university host, live daily updates). Old domain epigraphie-islamique.org is a parked courtesy page — the uliege.be base is canonical."
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:tei-epigraphie <fiche-id>}; inscription text/images never republished"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "Live fiche 11979 fetched 2026-11-08 with the harvest User-Agent: Hijri 0132H / CE 0749-750, Tunis, Manchester-Whitworth Art Gallery — full structured record"
+  - "maxvanberchem.org project page and Digital Classicist wiki confirm free online access since 2011 and institutional sponsorship"
+  - "docs/agents/source-families.md Tier 1: 'The comprehensive corpus of Arabic/Turkish/Persian inscriptions with editions — foundation inscriptions are primary evidence and the best dating source for buildings'"
+proposed_action: "register source/tei-epigraphie at Tier 1 facts-only: registry entry, data/source entity with reliability_note, attribution row, Tier-1 table move; pilot on 10 records"
+source: "Muse web-sources lane assessment 2026-11-08"
