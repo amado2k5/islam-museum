@@ -14,10 +14,12 @@
 
 ## Done
 - (4 Nov 2026) Batch 1 (6 entities): source; new `work/suwar-min-hayat-al-sahaba`, `person/abd-al-rahman-rafat-al-basha`; new Companions `rabia-ibn-kab-al-aslami` (pp. 361–368) and `salama-ibn-qays-al-ashjai` (pp. 489–496); al-Basha section added to `asim-ibn-thabit` (pp. 377–383). Fix in passing: duplicate `periods` key in `arwa-al-sulayhi` (from the previous batch merge).
+- (9 Nov 2026) Batch 2 (5 targets, identity-resolved): `nuaym-ibn-masud` already carried the Trench stratagem — added attributed al-Basha chapter pp. 400–410 ar/en/ur; `fayruz-al-daylami` and `zayd-al-khayl` (= Zayd al-Khayr alias) already carried this book's enrichment — verified, no duplication; `majzaa-ibn-thawr` (Tustar tunnel, duel with Hormuzan, pp. 156–163) and `al-rabi-ibn-ziyad-al-harithi` (Umar's praise, Manadhir, Sijistan/Barwiz, Khurasan, pp. 419–427) enriched trilingual + relations. Rabi' kept distinct from `al-rabi-ibn-ziyad-al-bakri-al-khurasani`; Isaba lists him among tabi'in so `companion` role not asserted.
 
 ## Flags
 - `person/burayda-ibn-al-husayb` and `person/buraydah-ibn-al-husayb` look like duplicates (not merged here; for the people lane).
 - No event edge for Salama's Ahwaz campaign: `event/conquest-of-ahwaz` may be a different campaign.
+- `al-rabi-ibn-ziyad-al-harithi`: Isaba (p. 455) lists him among tabi'in and questions Companion status — kept `roles: [general]`, no `companion`.
 
 ## Next
-Thin records in the book: Nu'aym ibn Mas'ud (p. 400), Fayruz al-Daylami (448), Zayd al-Khayr (124), Majza'a ibn Thawr (156), al-Rabi' ibn Ziyad (419).
+Thin records remaining in the book: scan `book.txt` index pp. 507–508 for other thin sahaba records (e.g. `ubaydallah-ibn-abi-bakra`, `fatima-bint-al-kharshub` flagged in earlier passes).
