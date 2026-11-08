@@ -138,10 +138,12 @@ medieval figures mentioned in our books.
   8 Nov 2026** — real repo by Ali Bin Shahid; 115,735 narrator
   profiles with 217,762 name variants and jarh wa ta'dil grades parsed
   from 22 classical rijal texts (~72% graded); isnad chains, kunya
-  resolution, per-hadith grading. License reported MIT (verify the
-  LICENSE file before bulk import); some heavy chain datasets are
-  "available on request" per the project's own story page, so expect
-  the narrator JSON to be the accessible slice. Role: corroborating
+  resolution, per-hadith grading. Licence: MIT per the Zenodo deposit
+  (DOI 10.5281/zenodo.19479440, codebase v1.6.0, verified 8 Nov 2026) —
+  the GitHub repo itself ships no LICENSE file, so the Zenodo record
+  is the licence evidence; some heavy chain datasets are "available on
+  request" per the project's own story page, so expect the narrator
+  JSON to be the accessible slice. Role: corroborating
   rijal-grade signal for tradition attestation — grades ('adāla/
   dabt, defect tags) support but never replace a cited biographical
   attestation under rule-tradition-attestation.
