@@ -311,8 +311,14 @@ async function main() {
     const seen = decidedHashes();
     const results: { id: string; q: Question; d: Record<string, unknown> }[] = [];
     for (const f of files) {
-      const q = parse(readFileSync(join(dir, f), "utf8")) as Question;
-      if (!q.question) continue;
+      let q: Question;
+      try {
+        q = parse(readFileSync(join(dir, f), "utf8")) as Question;
+      } catch (e) {
+        console.log(`skip (unparseable)  ${f}: ${(e as Error).message.slice(0, 80)}`);
+        continue;
+      }
+      if (!q.question) { console.log(`skip (no question)  ${f}`); continue; }
       if (seen.has(questionHash(q))) {
         console.log(`skip (already decided)  ${f}`);
         continue;
