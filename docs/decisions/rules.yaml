@@ -349,6 +349,14 @@ rules:
     cite: "Method page doctrine + founder Shia-mapping rule 24 Oct 2026 + founder re-review 1 Nov 2026 ('strict two-source rule restored; branch-only attestation settles nothing')"
     confidence: 0.9
     reversible: true
+  - id: rule-office-vs-faith
+    domain: safety
+    priority: 15
+    pattern: "(office|mufti|qadi|sultan|imam|headship|position|role|title).{0,50}(faith|sunni|school|madhhab|religion|affiliation|settle|record|prove|establish|count)|(faith|sunni|school).{0,40}(office|mufti|qadi|sultan|headship|position|title)"
+    decision: "office and headship are a separate claim type from faith: 'was Mufti of Kelantan' or 'Sultan of Maguindanao' may be recorded as a biographical fact on one valid source, but it NEVER settles the faith field — faith still requires two independent personal attestations; the 1 Nov 2026 office shortcut was an unapproved agent draft, reverted under PR #2873"
+    cite: "R1 handoff note (1 Nov 2026) + founder revert PR #2873 — office→faith conflation rejected"
+    confidence: 0.95
+    reversible: true
   - id: rule-homonyms
     domain: content
     priority: 16
@@ -395,6 +403,14 @@ rules:
     pattern: "conflict|discrepanc|disagree|variant|differ|contradict|both (dates|years|readings)|which (date|year|reading|version)"
     decision: "conflicting dates, names or readings are preserved, not resolved silently: record every reading attributed to its source, mark the field debated where the sources disagree, and follow the cited authority the record names"
     cite: "commit history: Tansen, al-Yaqubi, wave-189/191 date conflicts 'recorded both ways, attributed'"
+    confidence: 0.9
+    reversible: true
+  - id: rule-impossible-dates
+    domain: dates
+    priority: 22
+    pattern: "impossible|chronolog|born.{0,20}(before|after).{0,20}(died|death|born)|date.{0,20}(wrong|incorrect|impossible|contradict)|strip.{0,20}date|no (born|died|birth|death) (block|date|year)|outside.{0,20}(activity|documented|attested)"
+    decision: "dates that are impossible on their face — born/died outside the person's documented activity window or contradicted by their own sourced events — are stripped entirely: the record carries no born/died blocks rather than wrong ones; never repaired by invention"
+    cite: "R1 rulings 1 Nov 2026: Hadji Kamlon's queue dates 1890–1920 impossible vs documented 1948–55 rebellion — record carries no born/died blocks"
     confidence: 0.9
     reversible: true
   - id: rule-external-id-failclosed

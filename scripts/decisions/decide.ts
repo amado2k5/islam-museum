@@ -31,7 +31,7 @@
  *   npx tsx scripts/decisions/decide.ts --batch docs/decisions/inbox --write
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync, readdirSync } from "node:fs";
-import { join } from "node:path";
+import { join, dirname } from "node:path";
 import { createHash } from "node:crypto";
 import { parse, stringify } from "yaml";
 
@@ -178,6 +178,94 @@ function hits(text: string, pattern: RegExp | string, checkNegation = true): boo
 }
 
 // ---------------------------------------------------------------------------
+// Semantic layer — optional hybrid precedent retrieval (BM25 + embeddings).
+//
+// Dense vectors rescue lexical misses (transliteration variants, paraphrased
+// questions) but are kept honest by a dual-path gate: the semantic path still
+// requires title-token overlap >= 0.25, so embeddings cannot smuggle in a
+// same-topic/different-question match (negation and count tokens survive).
+// Vectors come from a local OpenAI-compatible embeddings endpoint (Ollama
+// /api/embeddings); the corpus cache lives in docs/decisions/.embeddings-*.json
+// so only new/changed precedents are embedded. DECIDE_HYBRID=0 disables.
+// ---------------------------------------------------------------------------
+
+export interface SemanticContext {
+  model: string;
+  /** precedent id → L2-normalized embedding */
+  vecs: Map<string, number[]>;
+  queryVec: number[] | null;
+}
+
+const EMBED_URL = () => process.env.DECIDE_EMBED_URL ?? "http://localhost:11434";
+const EMBED_MODEL = () => process.env.DECIDE_EMBED_MODEL ?? "qwen3-embedding:0.6b";
+const EMB_CACHE = () => join(ROOT, `docs/decisions/.embeddings-${EMBED_MODEL().replace(/[^a-z0-9.-]+/gi, "_")}.json`);
+
+function l2norm(v: number[]): number[] {
+  const n = Math.sqrt(v.reduce((a, x) => a + x * x, 0)) || 1;
+  return v.map((x) => x / n);
+}
+
+async function embedOne(text: string): Promise<number[] | null> {
+  try {
+    const res = await fetch(`${EMBED_URL()}/api/embeddings`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      signal: AbortSignal.timeout(30_000),
+      body: JSON.stringify({ model: EMBED_MODEL(), prompt: text.slice(0, 4000) }),
+    });
+    const j = (await res.json()) as { embedding?: number[] };
+    return j.embedding?.length ? l2norm(j.embedding) : null;
+  } catch { return null; }
+}
+
+/** precedent key → {hash, vec} cache so corpus embeddings survive precedent growth. */
+async function corpusEmbeddings(precedents: Precedent[]): Promise<Map<string, number[]>> {
+  const docs = precedents.filter((p) => p.kind !== "flag");
+  const entries = docs.map((p) => ({ id: p.id, h: createHash("sha1").update(`${p.title ?? ""} ${p.summary}`).digest("hex").slice(0, 12), text: `${p.title ?? ""} ${p.summary}` }));
+  const cachePath = EMB_CACHE();
+  let cache: Record<string, { h: string; v: number[] }> = {};
+  try { cache = JSON.parse(readFileSync(cachePath, "utf8")); } catch { /* cold cache */ }
+  const missing = entries.filter((e) => cache[e.id]?.h !== e.h);
+  if (missing.length) {
+    for (let i = 0; i < missing.length; i += 8) {
+      const chunk = missing.slice(i, i + 8);
+      await Promise.all(chunk.map(async (e) => {
+        const v = await embedOne(e.text);
+        if (v) cache[e.id] = { h: e.h, v };
+      }));
+    }
+    try { mkdirSync(dirname(cachePath), { recursive: true }); writeFileSync(cachePath, JSON.stringify(cache)); } catch { /* cache is best-effort */ }
+  }
+  const vecs = new Map<string, number[]>();
+  for (const e of entries) {
+    const v = cache[e.id]?.v;
+    if (v?.length) vecs.set(e.id, l2norm(v));
+  }
+  return vecs;
+}
+
+/** Build the reusable corpus half once per run; per-question calls add the query vector. */
+export async function loadSemanticCorpus(precedents: Precedent[]): Promise<{ model: string; vecs: Map<string, number[]> } | null> {
+  if (process.env.DECIDE_HYBRID === "0") return null;
+  try {
+    const vecs = await corpusEmbeddings(precedents);
+    return vecs.size ? { model: EMBED_MODEL(), vecs } : null;
+  } catch { return null; }
+}
+
+export async function semanticFor(q: Question, corpus: { model: string; vecs: Map<string, number[]> } | null): Promise<SemanticContext | null> {
+  if (!corpus) return null;
+  const queryVec = await embedOne(questionText(q));
+  return queryVec ? { ...corpus, queryVec } : null;
+}
+
+function cosine(a: number[], b: number[]): number {
+  let s = 0;
+  for (let i = 0; i < a.length && i < b.length; i++) s += a[i] * b[i];
+  return s;
+}
+
+// ---------------------------------------------------------------------------
 // Corpus — mined precedents + the decision ledger itself
 // ---------------------------------------------------------------------------
 
@@ -259,10 +347,14 @@ const PRECEDENT_THRESHOLD = 0.6;
 const TITLE_OVERLAP_FLOOR = 0.3;
 const PRECEDENT_TOP_N = 3;
 
-export function decide(q: Question, precedents: Precedent[], mode?: "autonomous" | "conservative"): Record<string, unknown> {
+export function questionText(q: Question): string {
+  return `${q.question} ${(q.options ?? []).join(" ")} ${(q.evidence ?? []).join(" ")} ${q.proposed_action ?? ""}`;
+}
+
+export function decide(q: Question, precedents: Precedent[], mode?: "autonomous" | "conservative", semantic?: SemanticContext | null): Record<string, unknown> {
   const rs = loadRuleset();
   const m = mode ?? rs.mode ?? "conservative";
-  const text = `${q.question} ${(q.options ?? []).join(" ")} ${(q.evidence ?? []).join(" ")} ${q.proposed_action ?? ""}`;
+  const text = questionText(q);
   const domain = classifyDomain(text, rs);
   const trace: TraceStep[] = [{ stage: "domain", result: domain }, { stage: "mode", result: m }];
 
@@ -351,35 +443,51 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
     const tLen = [...tTf.values()].reduce((a, b) => a + b, 0);
     const titleScore = normBm25(bm25(qTf, tTf, avgLen, df, tLen), qTf, df);
     const bodyScore = normBm25(bm25(qTf, bTf, avgLen, df, allLens[i]), qTf, df);
+    const score = Math.max(titleScore, bodyScore * 0.9);
+    // Hybrid fusion (Q5 spec): 0.55 lexical + 0.45 cosine mapped from [0.40..1.0].
+    let cosineSim = 0, cosineNorm = 0, hybrid = score;
+    const qv = semantic?.queryVec;
+    const pv = qv ? semantic?.vecs.get(p.id) : undefined;
+    if (qv && pv) {
+      cosineSim = cosine(qv, pv);
+      cosineNorm = Math.max(0, (cosineSim - 0.4) / 0.6);
+      hybrid = 0.55 * score + 0.45 * cosineNorm;
+    }
     return {
       p, titleScore, bodyScore,
       titleOverlap: overlap(qTf, tTf),
-      score: Math.max(titleScore, bodyScore * 0.9),
+      score, cosineSim, cosineNorm, hybrid,
     };
-  }).sort((a, b) => b.score - a.score);
+  }).sort((a, b) => b.hybrid - a.hybrid);
 
   const best = scored[0];
   const alternatives = scored.slice(0, PRECEDENT_TOP_N).map((s) => ({
-    id: s.p.id, kind: s.p.kind, score: Number(s.score.toFixed(3)),
+    id: s.p.id, kind: s.p.kind, score: Number(s.hybrid.toFixed(3)),
     title_overlap: Number(s.titleOverlap.toFixed(3)),
+    cosine: Number(s.cosineSim.toFixed(3)),
     title: (s.p.title ?? s.p.summary).slice(0, 100),
   }));
 
-  if (best && best.score >= PRECEDENT_THRESHOLD && best.titleOverlap >= TITLE_OVERLAP_FLOOR) {
-    trace.push({ stage: "precedent", result: best.p.id, score: Number(best.score.toFixed(3)), detail: `overlap ${best.titleOverlap.toFixed(2)}` });
+  // Dual-path gate: the lexical path is unchanged; the semantic path rescues
+  // paraphrased/transliterated matches but still demands title-token overlap so
+  // embeddings cannot bypass the same-topic/different-question floor.
+  const passesLex = !!best && best.score >= PRECEDENT_THRESHOLD && best.titleOverlap >= TITLE_OVERLAP_FLOOR;
+  const passesSem = !!best && !!semantic?.queryVec && best.cosineSim >= 0.68 && best.titleOverlap >= 0.25 && best.hybrid >= 0.52;
+  if (best && (passesLex || passesSem)) {
+    trace.push({ stage: "precedent", result: best.p.id, score: Number(best.hybrid.toFixed(3)), detail: `overlap ${best.titleOverlap.toFixed(2)} cosine ${best.cosineSim.toFixed(2)} via ${passesSem && !passesLex ? "semantic" : "lexical"}` });
     return {
       status: "decided", step: "precedent",
       decision: `apply precedent ${best.p.id} (${best.p.kind}): ${best.p.title ?? best.p.summary.slice(0, 80)}`,
-      precedent: { id: best.p.id, source_file: best.p.source_file, score: Number(best.score.toFixed(3)), title_score: Number(best.titleScore.toFixed(3)) },
+      precedent: { id: best.p.id, source_file: best.p.source_file, score: Number(best.hybrid.toFixed(3)), title_score: Number(best.titleScore.toFixed(3)), cosine: Number(best.cosineSim.toFixed(3)), retrieval: passesSem && !passesLex ? "hybrid-semantic" : "lexical" },
       alternatives, domain,
-      confidence: Math.min(0.95, 0.5 + best.score), reversible: true, mode: m,
+      confidence: Math.min(0.95, 0.5 + best.hybrid), reversible: true, mode: m,
       rationale: `Question overlaps precedent ${best.p.id} recorded in ${best.p.source_file}. Conservative application; founder audits the sample.`,
       trace,
     };
   }
   trace.push({
     stage: "precedent", result: "no-match",
-    detail: best ? `best ${best.p.id} score ${best.score.toFixed(2)} overlap ${best.titleOverlap.toFixed(2)} below gates` : "empty corpus",
+    detail: best ? `best ${best.p.id} hybrid ${best.hybrid.toFixed(2)} overlap ${best.titleOverlap.toFixed(2)} cosine ${best.cosineSim.toFixed(2)} below gates` : "empty corpus",
   });
 
   // Step 4: no rule, no precedent → conservative reversible default.
@@ -482,8 +590,8 @@ function writeDocket() {
  * gates and hard-rejects deny outright; a decided verdict carries the engine's
  * own answer so the proposer gets a usable response either way.
  */
-export function advisory(q: Question, precedents: Precedent[], mode?: "autonomous" | "conservative"): Record<string, unknown> {
-  const d = decide(q, precedents, mode);
+export function advisory(q: Question, precedents: Precedent[], mode?: "autonomous" | "conservative", semantic?: SemanticContext | null): Record<string, unknown> {
+  const d = decide(q, precedents, mode, semantic);
   const status = String(d.status);
   const step = String(d.step);
   // autonomous-override means the engine substituted its own conservative
@@ -576,6 +684,8 @@ async function consultJudge(q: Question, d: Record<string, unknown>, framing: Ju
         body: JSON.stringify({
           model: process.env.DECIDE_JUDGE_MODEL ?? "local",
           think: false, // Qwen3-class models: skip the reasoning trace, we want the JSON verdict
+          response_format: { type: "json_object" }, // grammar-constrained JSON where supported
+          temperature: 0.3,
           messages: [
             { role: "system", content: "Reply with ONLY a JSON object, no prose." },
             { role: "user", content: payload },
@@ -589,30 +699,59 @@ async function consultJudge(q: Question, d: Record<string, unknown>, framing: Ju
   return null;
 }
 
-interface BpeResult { pick: JudgeResult; fwd: JudgeResult | null; rev: JudgeResult | null; confidence: number; dissent: boolean }
+interface BpeResult { pick: JudgeResult; fwd: JudgeResult | null; rev: JudgeResult | null; confidence: number; dissent: boolean; uncertainty: number }
 
-/** Bidirectional Preference Entropy pass: query the judge under affirmative and
- *  adversarial framings, then combine. Order-averaged confidence penalised by
- *  inter-pass disagreement; material dissent keeps the engine's safe-default
- *  hold (the autonomous conservative fallback) instead of upgrading. */
+/** Jaccard overlap over content tokens — do two recommendation strings say the
+ *  same thing? Free-text verdicts can't be compared by equality. */
+function recSimilarity(a: string, b: string): number {
+  const ta = new Set([...tokens(a).keys()]);
+  const tb = new Set([...tokens(b).keys()]);
+  if (!ta.size || !tb.size) return 0;
+  let inter = 0;
+  for (const t of ta) if (tb.has(t)) inter++;
+  return inter / (ta.size + tb.size - inter);
+}
+
+const clipConf = (c: number) => Math.min(0.95, Math.max(0.05, c));
+
+/** Bidirectional Preference Entropy (SCOPE-style): affirmative + adversarial
+ *  passes are combined into an order-invariant support estimate. Each pass
+ *  supports the picked verdict with its clipped confidence when it reached the
+ *  same conclusion, or with 1−confidence when it confidently reached a
+ *  different one. Composite uncertainty s(x) = min(1, H(p̄) + 0.5·Δflip); the
+ *  reported confidence is 1−s(x). Material dissent keeps the safe-default
+ *  hold — the model cannot argue the engine out of its hold on a coin-flip. */
 async function consultJudgeBpe(q: Question, d: Record<string, unknown>): Promise<BpeResult | null> {
   if (process.env.DECIDE_JUDGE_SINGLE === "1") {
     const single = await consultJudge(q, d, "affirmative");
-    return single ? { pick: single, fwd: single, rev: null, confidence: single.confidence ?? 0.5, dissent: false } : null;
+    return single ? { pick: single, fwd: single, rev: null, confidence: (single.confidence ?? 0.5) * 0.9, dissent: false, uncertainty: 1 - (single.confidence ?? 0.5) } : null;
   }
   const [fwd, rev] = await Promise.all([
     consultJudge(q, d, "affirmative"),
     consultJudge(q, d, "adversarial"),
   ]);
   if (!fwd && !rev) return null;
-  const cf = fwd?.confidence ?? 0;
-  const cr = rev?.confidence ?? cf;
-  const disagreement = Math.abs(cf - cr);
-  const pick = (cf >= cr ? fwd : rev) ?? fwd ?? rev!;
-  // Order-averaged p, penalised by disagreement (BPE): two passes that disagree
-  // about confidence produce low adjusted certainty even if each looks sure.
-  const confidence = ((cf + cr) / 2) * (1 - disagreement);
-  return { pick, fwd, rev, confidence, dissent: disagreement > 0.3 || confidence < 0.45 };
+  if (!fwd || !rev) {
+    const only = (fwd ?? rev)!;
+    const c = only.confidence ?? 0.5;
+    return { pick: only, fwd, rev, confidence: c * 0.85, dissent: false, uncertainty: 1 - c };
+  }
+  const cf = fwd.confidence ?? 0.5;
+  const cr = rev.confidence ?? 0.5;
+  const sameVerdict = recSimilarity(fwd.recommendation, rev.recommendation) >= 0.3;
+  const pick = cf >= cr ? fwd : rev;
+  // Support each pass gives the picked verdict.
+  const supFwd = fwd === pick || sameVerdict ? clipConf(cf) : 1 - clipConf(cf);
+  const supRev = rev === pick || sameVerdict ? clipConf(cr) : 1 - clipConf(cr);
+  const pBar = (supFwd + supRev) / 2;
+  const flip = Math.abs(supFwd - supRev);
+  const h = pBar > 0 && pBar < 1 ? -(pBar * Math.log(pBar) + (1 - pBar) * Math.log(1 - pBar)) / Math.LN2 : 0;
+  const uncertainty = Math.min(1, h + 0.5 * flip);
+  const confidence = 1 - uncertainty;
+  // Dissent: high composite uncertainty, or two confident passes reaching
+  // materially different verdicts (a real flip, not just low confidence).
+  const dissent = uncertainty > 0.5 || (!sameVerdict && Math.max(cf, cr) > 0.6);
+  return { pick, fwd, rev, confidence, dissent, uncertainty };
 }
 
 /** If a judge is configured and the engine held the question, upgrade the hold
@@ -630,6 +769,7 @@ async function maybeJudge(q: Question, d: Record<string, unknown>): Promise<Reco
       ...d,
       judge_dissent: true,
       judge_evidence: [
+        `uncertainty s(x)=${Math.round(bpe.uncertainty * 100) / 100} (entropy+flip composite)`,
         `affirmative(${bpe.fwd?.confidence ?? "?"}): ${bpe.fwd?.recommendation ?? "no response"}`,
         `adversarial(${bpe.rev?.confidence ?? "?"}): ${bpe.rev?.recommendation ?? "no response"}`,
       ],
@@ -662,6 +802,12 @@ async function main() {
   const mi = args.indexOf("--mode");
   const cliMode = (mi >= 0 ? args[mi + 1] : undefined) as "autonomous" | "conservative" | undefined;
   const precedents = loadPrecedents();
+  // Hybrid retrieval: embed the precedent corpus once per run (cached on disk),
+  // then one query embedding per question. Unreachable endpoint → lexical only.
+  const semCorpus = isAdvisory ? null : await loadSemanticCorpus(precedents);
+  if (!isAdvisory && process.env.DECIDE_HYBRID !== "0" && !semCorpus) {
+    console.error("note: embedding endpoint unreachable — precedent matching stays lexical (BM25)");
+  }
 
   const emit = (id: string, q: Question, d: Record<string, unknown>) => {
     if (json) {
@@ -695,7 +841,8 @@ async function main() {
         console.log(`skip (already decided)  ${f}`);
         continue;
       }
-      let d = isAdvisory ? advisory(q, precedents, cliMode) : decide(q, precedents, cliMode);
+      const sem = isAdvisory ? null : await semanticFor(q, semCorpus);
+      let d = isAdvisory ? advisory(q, precedents, cliMode) : decide(q, precedents, cliMode, sem);
       if (!isAdvisory) d = await maybeJudge(q, d);
       const id = nextId();
       if (write && !isAdvisory) {
@@ -727,7 +874,8 @@ async function main() {
   }
   if (!q.question) { console.error("question required"); process.exit(2); }
 
-  let d = isAdvisory ? advisory(q, precedents, cliMode) : decide(q, precedents, cliMode);
+  const sem = isAdvisory ? null : await semanticFor(q, semCorpus);
+  let d = isAdvisory ? advisory(q, precedents, cliMode, sem) : decide(q, precedents, cliMode, sem);
   if (!isAdvisory) d = await maybeJudge(q, d);
   const id = nextId();
 

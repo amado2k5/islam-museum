@@ -23,3 +23,6 @@ dist-assets/
 *.txt
 *.epub
 *.djvu
+
+# Decision-engine embedding cache — regenerable build artifact
+docs/decisions/.embeddings-*.json

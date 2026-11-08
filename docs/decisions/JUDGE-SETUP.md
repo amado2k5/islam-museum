@@ -29,6 +29,12 @@ export DECIDE_JUDGE_MODEL=qwen3:32b        # or llama3.1:8b for speed
 # Single question:
 echo '{"question":"...","lane":"..."}' | npx tsx scripts/decisions/decide.ts --json
 
+# Hybrid precedent retrieval (embeddings, on by default):
+export DECIDE_EMBED_URL=http://localhost:11434
+export DECIDE_EMBED_MODEL=qwen3-embedding:0.6b   # fallback: nomic-embed-text
+ollama pull qwen3-embedding:0.6b
+export DECIDE_HYBRID=0                            # disable → BM25 only
+
 # Whole inbox (held questions get recommendations):
 npx tsx scripts/decisions/decide.ts --batch docs/decisions/inbox --write
 
@@ -44,16 +50,23 @@ export DECIDE_JUDGE_CMD="ollama run qwen3:32b"
 
 Each held question is judged **twice**: once affirmative ("recommend the most
 conservative reversible answer") and once adversarial ("assume the obvious answer
-is a false conflation / single-source copy / legend and try to falsify it"). The
-two confidences are order-averaged and penalised by their disagreement; if they
-materially dissent (`|Δconf| > 0.3` or adjusted confidence < 0.45) the engine's
+is a false conflation / single-source copy / legend and try to falsify it").
+Because verdicts are free text, agreement is measured by token similarity; each
+pass contributes support = its clipped confidence (0.05–0.95) toward the picked
+verdict, or `1 − confidence` when it confidently reached a different one. The
+composite uncertainty is `s(x) = min(1, H(p̄) + 0.5·Δflip)` (binary Shannon
+entropy of mean support plus half the support gap — the SCOPE formulation), and
+the recorded confidence is `1 − s(x)`.
+
+If `s(x) > 0.5` or two confident passes reach different verdicts, the engine's
 safe-default hold stands and the record carries `judge_dissent: true` with both
 recommendations for audit — the model can never talk the engine out of its hold
 on a coin-flip. `DECIDE_JUDGE_SINGLE=1` reverts to one pass.
 
-Qwen3-class thinking models: the engine sends `"think": false` automatically so
-the reply is the JSON verdict, not a reasoning trace. Give a 32B model ~2–4 min
-per held question on an M4 Max; the two passes run in parallel.
+Calls send `think: false` (Qwen3-class models return the JSON verdict, not a
+reasoning trace), `response_format: json_object` and `temperature: 0.3`. Give a
+32B model ~2–4 min per held question on an M4 Max; the two passes run in
+parallel. Full math and roadmap: `docs/engineering/17-decision-approver.md` §5.
 
 ## What the judge may and may not do
 
