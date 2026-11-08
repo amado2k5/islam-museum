@@ -54,6 +54,8 @@ open a new block on top with the new version and today's date.
 
 - **Calibration instruments: surface audit + applied-state tracking.** `scripts/decisions/audit.ts` reports founder_resolution labels per rule/gate/step — the per-surface agreement rates the autonomous-promotion gate needs (currently 1 label; everything else honestly shows "insufficient data"). `scripts/decisions/mark-applied.ts` records `state_chain.current_state: applied` when a decided record's outcome is actually acted on — the decided→applied funnel Fable flagged as unmeasured. First entries: dec-017 labelled approved and marked applied. Full `npm run validate` now passes end-to-end including the ledger checker and benchmark.
 
+- **First founder verdict batch: 65 records labelled.** The founder answered every held record as yes/no/hold; all verdicts are written into `calibration_log.founder_resolution` via `founder-rule.ts` — 35 approved, 22 rejected, 8 held (66 labels total including dec-017). This is the first real calibration data: `scripts/decisions/audit.ts` now reports per-surface agreement, and the rejected content leads (dec-024, 027–029, 033, 036, 040, 044, 047–051, 062–063) are recorded as non-qualifying so they do not return as precedent authority. Process/governance approvals (robots.txt Content-Signal, corpus access, lane registrations, predicate confirmations, version bump) are the pilot's first authorised decisions.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests

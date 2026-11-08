@@ -1,27 +1,41 @@
 id: dec-20261108-016
-date: "2026-11-08"
-expires_at: "2027-11-08"
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: caff1ab7e89a
-lane: "poc"
-class: "policy"
-modality: "repo"
-domain: "safety"
-mode: "autonomous"
-question: "Policy question for the founder (one-time — sets config, not a per-item ruling): what false-discovery-rate target should the judge's conformal calibration use — alpha 0.02 (fewer autonomous settlements, more unknowns) or alpha 0.05 (more settlements, more risk of a false claim about a real person)? Global or per decision class? Note the asymmetry: a false settlement publishes a false claim; a false unknown publishes an honest gap — the classes are not symmetric."
+lane: poc
+class: policy
+modality: repo
+domain: safety
+mode: autonomous
+question: "Policy question for the founder (one-time — sets config, not a
+  per-item ruling): what false-discovery-rate target should the judge's
+  conformal calibration use — alpha 0.02 (fewer autonomous settlements, more
+  unknowns) or alpha 0.05 (more settlements, more risk of a false claim about a
+  real person)? Global or per decision class? Note the asymmetry: a false
+  settlement publishes a false claim; a false unknown publishes an honest gap —
+  the classes are not symmetric."
 options:
-  - "alpha=0.02 global"
-  - "alpha=0.05 global"
-  - "per-class alphas (e.g. stricter for faith, looser for process)"
-  - "other"
+  - alpha=0.02 global
+  - alpha=0.05 global
+  - per-class alphas (e.g. stricter for faith, looser for process)
+  - other
 status: decided
 step: safe-default
-decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"
+decision: hold as draft-tier / pointer-only; record question in lane progress
+  file for the next precedent-extraction pass
 confidence: 0.4
 reversible: true
-rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design."
+rationale: No rule or precedent matched. Defaulting to the most conservative
+  reversible action per the decision-ledger design.
 needs_precedent: true
-review_sampled: false
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
+calibration_log:
+  founder_resolution:
+    verdict: rejected
+    at: 2026-11-08
+    by: founder
+    note: batch verdict 2026-11-08

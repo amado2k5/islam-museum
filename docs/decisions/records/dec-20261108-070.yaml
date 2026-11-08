@@ -1,25 +1,41 @@
 id: dec-20261108-070
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: 397fd8d1c84d
-lane: "seed"
-class: "uncategorised"
-modality: "repo"
-domain: "process"
-mode: "conservative"
-question: "Which product release version should record the Phase 1 class and API after `origin/main` advances?"
-options:
+lane: seed
+class: uncategorised
+modality: repo
+domain: process
+mode: conservative
+question: Which product release version should record the Phase 1 class and API
+  after `origin/main` advances?
+options: null
 status: decided
 step: safe-default
-decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"
+decision: hold as draft-tier / pointer-only; record question in lane progress
+  file for the next precedent-extraction pass
 confidence: 0.4
 reversible: true
-rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design."
+rationale: No rule or precedent matched. Defaulting to the most conservative
+  reversible action per the decision-ledger design.
 needs_precedent: true
-review_sampled: false
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":0,"rule_ids_fired":[],"precedent_distance":0.761,"top_precedent_id":"ruling-docs-delegation-education-progress-md-2","top_precedent_status":"founder-ruled","founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  rule_ids_fired: []
+  precedent_distance: 0.761
+  top_precedent_id: ruling-docs-delegation-education-progress-md-2
+  top_precedent_status: founder-ruled
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: batch verdict 2026-11-08
+  founder_override: false
+  calibration_weight: 1

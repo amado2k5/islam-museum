@@ -1,18 +1,26 @@
 id: dec-20261108-010
-date: "2026-11-08"
-lane: "coverage-programme"
-class: "schema"
-question: "Edge schema for rijal Phase 4: confirm the studied_under and transmitted-to predicates, or propose new ones through schema/predicates.yaml."
+date: 2026-11-08
+lane: coverage-programme
+class: schema
+question: "Edge schema for rijal Phase 4: confirm the studied_under and
+  transmitted-to predicates, or propose new ones through
+  schema/predicates.yaml."
 options:
-  - "confirm studied_under and transmitted-to"
-  - "propose new predicates"
+  - confirm studied_under and transmitted-to
+  - propose new predicates
 status: founder-docket
 step: policy-gate
-decision: "governance surfaces (schema, headers, infra, CI) are founder-only"
+decision: governance surfaces (schema, headers, infra, CI) are founder-only
 confidence: n/a
 reversible: false
 rationale: ""
-review_sampled: false
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
+calibration_log:
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: batch verdict 2026-11-08

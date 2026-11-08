@@ -1,19 +1,29 @@
 id: dec-20261108-008
-date: "2026-11-08"
-lane: "coverage-programme"
-class: "process"
-question: "Muhaddithat scope and faith configuration for Phase 3: Nadwi's list includes women from several traditions — include the full list with labelled perspectives, or Sunni-only with the rest held back?"
+date: 2026-11-08
+lane: coverage-programme
+class: process
+question: "Muhaddithat scope and faith configuration for Phase 3: Nadwi's list
+  includes women from several traditions — include the full list with labelled
+  perspectives, or Sunni-only with the rest held back?"
 options:
-  - "include full list with labels"
-  - "Sunni-only, rest to docs/delegation/held-back-content.md"
+  - include full list with labels
+  - Sunni-only, rest to docs/delegation/held-back-content.md
 status: decided
 step: safe-default
-decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"
+decision: hold as draft-tier / pointer-only; record question in lane progress
+  file for the next precedent-extraction pass
 confidence: 0.4
 reversible: true
-rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design."
+rationale: No rule or precedent matched. Defaulting to the most conservative
+  reversible action per the decision-ledger design.
 needs_precedent: true
-review_sampled: false
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
+calibration_log:
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: batch verdict 2026-11-08
