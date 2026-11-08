@@ -11,3 +11,4 @@ imdb: { pattern: "^tt[0-9]{5,9}$", url: "https://www.imdb.com/title/{id}" }
 elcinema: { pattern: "^[0-9]{5,9}$", url: "https://elcinema.com/en/work/{id}/" }
 dhliz: { pattern: "^(film|series)/[a-z0-9][a-zA-Z0-9_-]*$", url: "https://dhliz.com/en/{id}/" }
 official: { pattern: "^https?://\\S+$", url: "{id}" }
+tei: { pattern: "^[0-9]+(,[0-9]+)*$", url: "https://www.epigraphie-islamique.uliege.be/Thesaurus/User/EpigraphyDisplay.aspx?id={id}&pan=1&st=&sc=5" }

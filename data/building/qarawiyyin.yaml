@@ -15,9 +15,10 @@ coordinates:
 relations:
   - type: located_in
     target: place/fez
-    sources: [source/wikidata]
+    sources: [source/wikidata, source/tei-epigraphie]
 sources: [source/mujam-al-buldan, source/wikidata]
 external_ids:
+  tei: "1491,1492,1493"
   wikidata: Q378014
 provenance:
   layer: own-research
