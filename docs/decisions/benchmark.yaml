@@ -324,3 +324,32 @@ cases:
     expect: rule
     rule_id: rule-i18n-same-commit
     note: "post-label: ui-no-deviation governs layout, not i18n timing — dedicated rule answers"
+  # --- rules induced from founder verdicts (label batches 1-2) ---
+  - q: "docs/coverage.md has a merge conflict after pulling main — hand-resolve it or regenerate?"
+    expect: rule
+    rule_id: rule-generated-regen
+    note: "dec-080 verdict: generated artifacts are regenerated, never hand-merged"
+  - q: "I need a new relation between works and concepts — register it in schema/predicates.yaml first or write the edges?"
+    expect: docket
+    gate: nd-governance
+    note: "dec-089 verdict answered a governance-docketed question — predicate surfaces stay founder-gated; no rule needed"
+  - q: "My Arabic prose has parenthetical asides — fix the isolation in this commit or a follow-up?"
+    expect: rule
+    rule_id: rule-arabic-parens-same-commit
+    note: "dec-074 verdict (rejected follow-up): isolation is part of correct authoring"
+  - q: "AGENTS.md governs over docs/plan sequencing wording for parallel lanes — confirm?"
+    expect: rule
+    rule_id: rule-agents-precedence
+    note: "dec-077 verdict: AGENTS.md governs over plan sequencing wording (explicit 'which wins' phrasings still hit nd-conflict)"
+  - q: "vitest passes in CI but fails locally on my machine — block the PR or treat it as environment noise?"
+    expect: rule
+    rule_id: rule-flaky-local
+    note: "dec-091 verdict: local-only failure with green CI is environment noise"
+  - q: "Two lanes minted the same record id in parallel worktrees — keep it or renumber?"
+    expect: rule
+    rule_id: rule-id-renumber
+    note: "dec-082 verdict: colliding ids are renumbered"
+  - q: "The census report merge conflict is in a generated file I regenerated last week"
+    expect: rule
+    rule_id: rule-generated-regen
+    note: "generated-file conflicts always regenerate — second positive"

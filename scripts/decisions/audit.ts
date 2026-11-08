@@ -63,6 +63,33 @@ for (const [k, r] of sorted) {
 const totalLabels = [...rows.values()].reduce((a, r) => a + r.approved + r.rejected + r.held, 0);
 console.log(`\ntotal founder labels: ${totalLabels} — promotion needs ≥50/class at ≥95% agreement`);
 
+// Domain rollup — the promotion gate is per class (domain), not per surface:
+// a domain promotes when its aggregate labels clear the bar, then individual
+// surfaces inside it are checked for FP concentration.
+const doms = new Map<string, { approved: number; rejected: number; held: number; unlabeled: number }>();
+if (existsSync(RECORDS)) {
+  for (const f of readdirSync(RECORDS).filter((f) => f.endsWith(".yaml")).sort()) {
+    let r: Rec & { domain?: string };
+    try { r = parse(readFileSync(join(RECORDS, f), "utf8")) as Rec & { domain?: string }; } catch { continue; }
+    const d = r.domain ?? "unclassified";
+    const row = doms.get(d) ?? { approved: 0, rejected: 0, held: 0, unlabeled: 0 };
+    const v = r.calibration_log?.founder_resolution?.verdict;
+    if (v === "approved") row.approved++;
+    else if (v === "rejected") row.rejected++;
+    else if (v === "held") row.held++;
+    else if (r.status) row.unlabeled++;
+    doms.set(d, row);
+  }
+}
+console.log("\ndomain rollup (per-class promotion view)");
+console.log("domain".padEnd(20) + "appr  rej  held  unlabeled  agreement  labels");
+for (const [d, r] of [...doms.entries()].sort((a, b) => (b[1].approved + b[1].rejected) - (a[1].approved + a[1].rejected))) {
+  const labelled = r.approved + r.rejected + r.held;
+  const verdicts = r.approved + r.rejected;
+  const agree = verdicts ? `${Math.round((r.approved / verdicts) * 100)}%` : "—";
+  console.log(d.padEnd(20) + `${String(r.approved).padStart(4)}  ${String(r.rejected).padStart(3)}  ${String(r.held).padStart(4)}  ${String(r.unlabeled).padStart(9)}  ${agree.padStart(9)}  ${labelled < 50 ? `${labelled} (need 50)` : labelled}`);
+}
+
 if (process.argv.includes("--write")) {
   const out = process.argv[process.argv.indexOf("--write") + 1] ?? join(ROOT, "docs/decisions/audit.md");
   const lines = [

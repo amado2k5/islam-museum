@@ -180,7 +180,7 @@ rules:
   - id: rule-duplicate-alias
     domain: content
     priority: 12
-    pattern: "duplicate|dedup|same (man|woman|person|entity|record|work|place|individual|thing|mosque|building)\\b(?!\\s+(file|files|branch|branches|commit|commits|worktree|worktrees|session|sessions|version|versions|tree|repo|repository|yaml|yml|pr|pull request|lane|progress))|one record or two|(make|add|keep|use|create|turn).{0,20}alias|alias.{0,30}(of|to|for)|merg(e|ing).{0,50}(alias|duplicat|dedup|richer|canonical|one record|into (the )?(richer|canonical|existing|primary) (record|entity|entry|work)|same (record|entity|person|work|entry|thing))"
+    pattern: "duplicate|dedup|same (man|woman|person|entity|record|work|place|individual|thing|mosque|building)\\b(?!\\s+(file|files|branch|branches|commit|commits|worktree|worktrees|session|sessions|version|versions|tree|repo|repository|yaml|yml|pr|pull request|lane|progress|ids?))|one record or two|(make|add|keep|use|create|turn).{0,20}alias|alias.{0,30}(of|to|for)|merg(e|ing).{0,50}(alias|duplicat|dedup|richer|canonical|one record|into (the )?(richer|canonical|existing|primary) (record|entity|entry|work)|same (record|entity|person|work|entry|thing))"
     decision: "deduplicate: verify identity against the sources first; if it is one entity, merge into the richer record and keep the other id under aliases — never delete blindly; if they are distinct, keep both"
     cite: "AGENTS.md (reuse before create; a duplicate becomes an alias of the richer entity)"
     confidence: 0.9
@@ -515,5 +515,50 @@ rules:
     pattern: "(\\bui\\b|user interface|layout|component(s)?|visual design|screen design|page design|design system).{0,50}(deviat\\w*|redesign|restyle|rebrand|overhaul|break\\w*.{0,15}(pattern|layout|design))|deviat\\w*.{0,30}(from )?(the )?(current|existing).{0,30}(ui|layout|design|component)|\\b(redesign|restyle|rebrand)\\b"
     decision: "ship the change inside the current layout/component pattern — a brief that requires deviation becomes a labelled proposal logged for review, never a silent redesign"
     cite: "AGENTS.md UI constraint + Muse Q2 domain table (no-big-deviation rule)"
+    confidence: 0.8
+    reversible: true
+
+  # --- Rules induced from founder verdicts (first two label batches).
+  # Each cites the record whose verdict grounded it — the CEGIS loop:
+  # label → counterexample/gap → rule → benchmark probe. ---
+
+  - id: rule-generated-regen
+    domain: process
+    priority: 28
+    pattern: "(coverage\\.md|docs/coverage|generated (file|artifact|report|census|output)|census report|digest\\.md|docket\\.md).{0,60}(merge conflict|conflict|hand.?merge|hand.?edit|hand.?resolve|resolve)|(merge conflict|conflict).{0,60}(coverage\\.md|docs/coverage|generated|census|digest|docket)"
+    decision: "generated artifacts (docs/coverage.md, census reports, digests, dockets) are regenerated from their sources, never hand-merged or hand-edited to resolve a conflict — regenerate after the merge"
+    cite: "founder verdict dec-20261108-080 (approved: regenerate rather than hand-resolve)"
+    confidence: 0.85
+    reversible: true
+  - id: rule-arabic-parens-same-commit
+    domain: i18n
+    priority: 34
+    pattern: "(arabic|parenthes|parens?|u\\+2066|ltr isolate).{0,60}(same commit|follow.?up|separate commit|next commit|later commit|defer)|(same commit|follow.?up|separate commit|next commit|later commit|defer).{0,60}(arabic|parenthes|parens?|u\\+2066|ltr isolate)"
+    decision: "Arabic parentheses isolation (U+2066…U+2069) is part of correct authoring, not a follow-up: fix it in the same commit as the prose it affects"
+    cite: "AGENTS.md (Arabic parentheses are isolated) + founder verdict dec-20261108-074 (rejected follow-up framing)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-agents-precedence
+    domain: governance
+    priority: 35
+    pattern: "agents\\.md.{0,50}(govern|precedence|over|wins|priority|conflict|sequencing)|docs/plan.{0,50}(sequencing|wording|order).{0,40}(agents\\.md|ai-change-gates|govern|over)"
+    decision: "AGENTS.md and docs/ai-change-gates.md are binding on every agent and govern over docs/plan sequencing wording — the parallel-lane rules win over plan-order phrasing"
+    cite: "AGENTS.md header (single entry point, rules that never bend) + founder verdict dec-20261108-077 (approved)"
+    confidence: 0.8
+    reversible: true
+  - id: rule-flaky-local
+    domain: engineering
+    priority: 36
+    pattern: "(flaky|flakiness|intermittent).{0,50}(test|vitest|ci|local|fail|pass)|(test|vitest|spec).{0,40}(flaky|fails? only locally|passes? (only )?in ci|environment noise|local only)"
+    decision: "a test that fails only on the local machine while CI is green is environment noise: verify it once, note it in the commit or progress file, and do not block the change on it"
+    cite: "founder verdict dec-20261108-091 (approved)"
+    confidence: 0.75
+    reversible: true
+  - id: rule-id-renumber
+    domain: process
+    priority: 37
+    pattern: "(id|record|slug|identifier).{0,35}(collision|collide|colliding|clash)|same (record |entity |lane |worktree |question )?(ids?|identifiers?|slugs?)\\b|(collision|collide|clash).{0,35}(id|record|slug|identifier)"
+    decision: "a colliding identifier is renumbered or re-keyed rather than kept — ids are immutable once published, and a collision means two records claimed one id"
+    cite: "founder verdict dec-20261108-082 (approved) + AGENTS.md (ids immutable)"
     confidence: 0.8
     reversible: true
