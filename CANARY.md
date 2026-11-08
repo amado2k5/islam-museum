@@ -122,6 +122,8 @@ open a new block on top with the new version and today's date.
 
 - **Harvest-wave enrichment: four practice records from the Muwatta of Malik.** `practice/wudu` gains Ibn Zayd's demonstration of the Prophet's ablution and «فليجعل في أنفه ماء» (Kitab al-Salat, PDF pp. 50–51); `practice/ghusl-al-janaza` gains Umm Atiyya's report of the washing instructions and Malik's own ruling that the dead has no prescribed washing formula (Kitab al-Jana'iz, PDF pp. 305–307); `practice/zakat` gains Abu Sa'id's nisab hadith and Malik's «لا تكون الصدقة إلا في ثلاثة أشياء» (Kitab al-Zakat, PDF pp. 333–335); `practice/hajj` gains the Asma bint Umays ihram report and the Abbas–Miswar dispute over the muhrim's head (Kitab al-Hajj, PDF pp. 433–435) — all from the Ma'ruf 1997 edition, PDF page numbers (run lib-wave-21-muwatta-malik-1).
 
+- **Harvest-wave enrichment: four group records from Fisal Ibn Hazm.** `group/samaritans` gains Ibn Hazm's account of the Samaritans as the first of his five Jewish sects (kotobarabia pp. 184–185); `group/murjia` and `group/mutazila` gain his five-fold division of the Muslims and his nearest–farthest ordering of each sect (pp. 595–597); `group/jahmiyya` gains his report of Jahm ibn Safwan's argument on eternal knowledge and his reply that it contradicts the Qur'an (pp. 622–624) — every sectarian claim explicitly attributed to Ibn Hazm (run lib-wave-21-fisal-ibn-hazm-1).
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests
