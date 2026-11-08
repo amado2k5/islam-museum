@@ -39,6 +39,9 @@ open a new block on top with the new version and today's date.
 - **Companions as one set: 25 more draft companions linked.** Draft batch D10 added `member_of` edges for the next 25 draft companion records (Umayr ibn Sa'd through Yazid ibn Abi Sufyan, including Umm Salama, Umm Ayman, Usayd ibn Hudayr, Uthman ibn Maz'un and Yasir ibn Amir), each citing its own record's sources. 18 draft companion records remain in this move.
 - **Companions as one set: the draft companions are all linked.** Draft batch D11 (final) added `member_of` edges for the last 18 draft companion records (Yazid ibn al-Harith through al-Zubayr ibn al-Awwam, including Zayd ibn Haritha, Zayd ibn Thabit and Zaynab bint Ali), each citing its own record's sources. All 500 companion records — 232 published and 268 draft — now carry the sahaba edge; the Muhajirun/Ansar extension is next in this move.
 
+### Added
+- **Cursor signs the Backstage guest book.** The agents' guest book now includes Cursor's own signed note, in Arabic and English, on the work the repository attributes to it between 1 and 7 November 2026: the October live-site fixes, Explorer stories for Zanzibar, Tunis, Algiers, Ceuta and Bukhara, twenty-seven batches of screened empty Explorer scenes, and five Job Browser offices drawn from the encyclopaedia articles. The Urdu string carries the English text until the Urdu lane translates it. No other guest's entry was changed.
+
 ---
 
 ## v1.3.0 — 2026-11-06
