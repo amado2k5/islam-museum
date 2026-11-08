@@ -24,6 +24,13 @@ blocking to asynchronous sampling of a ledger.
 | `scripts/decisions/decide.ts` | Pilot pipeline: rule gate → precedent match → safe default → decision record. Dry-run unless `--write`. |
 | `docs/decisions/records/` | Decision records emitted by the pipeline (`dec-YYYYMMDD-NNN.yaml`). |
 | `scripts/decisions/decisions.test.ts` | Vitest coverage of the pipeline gates. |
+| `docs/decisions/rules.yaml` | Canonical rules, gates, domains and autonomy mapping — data, not code. |
+| `scripts/decisions/founder-rule.ts` | Writes a founder verdict (`approved`/`rejected`/`held`) into a record's `calibration_log.founder_resolution` — the label stream every agreement metric reads. |
+| `scripts/decisions/audit.ts` | Per-surface agreement report + domain rollup + decided-but-rejected worklist + demotion candidates. |
+| `scripts/decisions/replay.ts` | Replays mined precedent questions through the engine; `--mask-self` is the generalization test. |
+| `scripts/decisions/check-records.ts` | Ledger contract checker: required fields, authority provenance, duplicate ids/hashes, chain integrity. |
+| `scripts/decisions/digest.ts` | Governance dashboard: blocked items, safe-state rates, chain/duplicate-hash integrity metrics. |
+| `scripts/decisions/mark-applied.ts` | Records `state_chain.current_state: applied` when a decision is acted on. |
 
 ## The pipeline (`decide.ts` + `rules.yaml`)
 
@@ -33,14 +40,16 @@ at load. `decide()` returns a full `trace` of every stage evaluated.
 
 Two modes (`rules.yaml` `mode:` or `--mode`):
 
-- **`autonomous` (POC default)** — the engine decides everything. Each gate maps
+- **`conservative` (default)** — non-delegable surfaces route to
+  `docs/decisions/docket.md` for the founder; safe defaults hold.
+- **`autonomous` (opt-in)** — the engine decides everything. Each gate maps
   to a conservative reversible decision in `rules.yaml` `autonomous.gates`
   (deploy → cost-aware cadence policy; spend → budget proposal; outreach →
   draft-only; delete → never, merge/alias instead; governance → labelled
   proposal). A gate with no mapping still docks — autonomy never invents
-  authority. `hard_reject` entries refuse in BOTH modes.
-- **`conservative`** — former behaviour: non-delegable surfaces route to
-  `docs/decisions/docket.md` for the founder.
+  authority. `hard_reject` entries refuse in BOTH modes. Gate-mapping in
+  autonomous mode additionally requires the domain on `safe_proceed:` —
+  content-domain deletions still docket even when autonomous is on.
 
 Pipeline order:
 
@@ -68,7 +77,14 @@ proposer, trusted deterministic monitor — Greenblatt et al. 2024; SafeChain's
 deterministic-policy-engine-then-LLM-judge ordering).
 
 Every outcome writes a decision record with domain, mode, rule/gate id,
-precedent scores, trace and provenance.
+precedent scores, trace and provenance. Decided records also carry a `chain:`
+block — `depth` (bounded at 1: precedent-step records never become precedents,
+so citation chains cannot launder TTL), `root_id`, `root_kind`,
+`root_expires_at` and `derived_rule_hash` (a hash of the governing rule text;
+`check-records.ts` warns when a later doctrine edit makes a past derivation
+stale). Founder verdicts land in `calibration_log.founder_resolution` via
+`founder-rule.ts`; `audit.ts` reports per-surface agreement and the
+decided-but-rejected worklist.
 
 ## Doctrine mined from commit history
 

@@ -26,7 +26,7 @@ const RECORDS = join(ROOT, "docs/decisions/records");
 
 interface Rec {
   id?: string; status?: string; step?: string; rule_id?: string; gate?: string;
-  domain?: string; mode?: string;
+  domain?: string; mode?: string; question?: string;
   calibration_log?: { founder_resolution?: { verdict?: string; at?: string; by?: string; note?: string } };
 }
 
@@ -36,10 +36,12 @@ const bump = (k: string, f: "decided" | "approved" | "rejected" | "held" | "unla
   r[f]++; rows.set(k, r);
 };
 
+const allRecs: Rec[] = [];
 if (existsSync(RECORDS)) {
   for (const f of readdirSync(RECORDS).filter((f) => f.endsWith(".yaml")).sort()) {
     let r: Rec;
     try { r = parse(readFileSync(join(RECORDS, f), "utf8")) as Rec; } catch { continue; }
+    allRecs.push(r);
     const surface = r.rule_id ? `rule:${r.rule_id}` : r.gate ? `gate:${r.gate}` : `step:${r.step ?? "?"}`;
     const decided = r.status === "decided" && !String(r.step).includes("safe-default");
     if (decided) bump(surface, "decided");
@@ -65,6 +67,19 @@ for (const [k, r] of sorted) {
   const demote = !k.startsWith("step:") && verdicts >= 3 && r.approved / verdicts < 0.95 ? "  <-- DEMOTE CANDIDATE" : "";
   console.log(k.padEnd(38) + `${String(r.decided).padStart(7)}  ${String(r.approved).padStart(4)}  ${String(r.rejected).padStart(3)}  ${String(r.held).padStart(4)}  ${String(r.unlabeled).padStart(9)}  ${agree.padStart(9)}  ${labelled < 10 ? `${labelled} (insufficient)` : labelled}${demote}`);
 }
+
+// Disagreement worklist: decided records the founder rejected — the concrete
+// false-positive list for rule tightening. Held/docket records with rejected
+// verdicts are coverage gaps, reported separately.
+const recs = allRecs;
+const isSubstantive = (r: Rec) => r.status === "decided" && r.step !== "safe-default";
+const wrongDecisions = recs.filter((r) => isSubstantive(r) && r.calibration_log?.founder_resolution?.verdict === "rejected");
+const heldRejected = recs.filter((r) => !isSubstantive(r) && r.calibration_log?.founder_resolution?.verdict === "rejected");
+console.log(`\ndecided-but-rejected (wrong rulings to fix): ${wrongDecisions.length}`);
+for (const r of wrongDecisions) {
+  console.log(`  ${r.id} [${r.step}${r.rule_id ? `:${r.rule_id}` : ""}] ${String(r.question).slice(0, 90)}`);
+}
+console.log(`held/docket-but-rejected (coverage gaps — needed a real answer): ${heldRejected.length}`);
 const totalLabels = [...rows.values()].reduce((a, r) => a + r.approved + r.rejected + r.held, 0);
 console.log(`\ntotal founder labels: ${totalLabels} — promotion needs ≥50/class at ≥95% agreement`);
 

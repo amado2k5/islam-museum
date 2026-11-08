@@ -66,6 +66,8 @@ open a new block on top with the new version and today's date.
 
 - **Audit and digest integrity reporting.** `audit.ts` now flags rule/gate surfaces as `DEMOTE CANDIDATE` when they carry ≥3 founder verdicts below the 95% agreement bar (step surfaces excluded — a rejected hold is a coverage gap, not a wrong rule). `digest.ts` reports chain-depth violations and contradictory duplicate question-hashes as zero-tolerance metrics alongside the existing dashboard. First live flag: `rule:rule-duplicate-alias` at 0% — already fixed; the flag is the regression alarm.
 
+- **Audit disagreement worklist + README refresh.** `audit.ts` now ends with the actionable list: `decided-but-rejected` records (wrong rulings to fix — currently 8, all already remediated by the rule-tightening wave and re-verified live: chess→safe-default, git-merge questions→`rule-merge`, i18n→`rule-i18n-same-commit`, Wikidata→dec-017 override, sextant→D-109) vs `held/docket-but-rejected` coverage gaps (22 — these need new rules or rulings, not fixes). `docs/decisions/README.md` updated: conservative is the documented default, the full tool inventory is tabled, and the `chain:`/`calibration_log` record anatomy is described.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests
