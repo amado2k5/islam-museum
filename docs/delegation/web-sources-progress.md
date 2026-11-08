@@ -162,3 +162,8 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 - Enriched: ala-al-din-al-basiri-mosque +7234 (Haram esplanade mastaba/oratory, 1397-1398 — entity is Jerusalem draft); al-burtasi-mosque +7237 (Tripoli, 1397-1398); taynal-mosque +7350-7354 (Tripoli, 5 fiches, 1335-1336); al-nasir-muhammad-mosque +7327 (citadel mosque inscription, 1334-1335 — madrasa-of-al-nasir-muhammad NOT given it, different building).
 - REJECTED: 7168/7192 Jabalā Ibrahim ibn Adham ≠ Jerusalem entity; 7172 Damascus Maidan mausoleum ≠ baghdad hasani-palace; 7206/7207/7244 Aleppo Bab al-Nasr-area mosques ≠ cairo gate; 7231 Mihmandariyya madrasa ≠ bab-zuwayla (proximity); 7271 Sin caravanserai iwân ≠ isfahan mosques; 7315 Krak des Chevaliers al-Zahiri mosque ≠ damascus sultan-baybars-turbesi.
 - Sweep still running (~64%). Next: re-run match5 on completion; then consider 8801+ ranges.
+
+## 2026-11-08 (p3 cont.) — TEI batch 4: +1 entity (minaret-of-masud-iii +7639)
+
+- match5 on ~2960-record partial: 33 candidates. Enriched minaret-of-masud-iii (Ghazni minaret inscription, brick, 1114-1115, sovereign testimony).
+- REJECTED: 7393 Bursa Şehadet Camii inscription (moved there 1890, origin uncertain — not attributed to tomb-of-orhan-gazi); 7431 Husayniyya shaykh-Isma'il tomb ≠ sultan-ismail-mosque; 7441 Damascus Tankiziyya madrasa ≠ jerusalem tankiziyya; 7483 Nasir Muhammad sabil fountain — monument is a fountain at madrasa corner, not the building itself (proximity-tier, skipped); 7542 enameled glass mosque lamp = movable object, no entity; 7623 Aleppo Maqam ≠ Mecca object.
