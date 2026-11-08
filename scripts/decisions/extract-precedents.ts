@@ -31,6 +31,7 @@ interface Precedent {
    *  decide; proposals/rejected/reverted are context at best. */
   provenance_status?: "founder-ruled" | "founder-ruled-ai-assisted" | "agent-ruled-delegated" | "agent-proposed-pending" | "agent-proposed-rejected" | "reverted";
   supersedes?: string;
+  expires_at?: string;
 }
 
 /** Files whose content the founder owns or rules in directly. ONLY these may
@@ -63,7 +64,11 @@ function classifyStatus(kind: string, text: string, canMintFounder: boolean): Pr
     /\bfounder'?s (decision|ruling|instruction|standing|word|authori[sz]ation)\b/.test(t);
   // Founder claims outside founder-owned files are agent-transcribed quotes —
   // real context, but not mintable authority (Fable F4).
-  if (founderRuled && canMintFounder) return aiAssisted ? "founder-ruled-ai-assisted" : "founder-ruled";
+  // Q10 (founder ruling 2026-11-08): minting also requires the claim to name a
+  // date — an undated "the founder approved X" in prose is not authority.
+  // Structured provenance markers remain the end-state; this is the interim gate.
+  const dated = /\b(19|20)\d{2}\b/.test(t);
+  if (founderRuled && dated && canMintFounder) return aiAssisted ? "founder-ruled-ai-assisted" : "founder-ruled";
   // Delegated scope uses the repo's actual approval vocabulary, not bare
   // "approved" — a progress note saying "approved the photo" is not a ruling.
   if (/\bapproved\b[^.\n]{0,50}\b(non-impacting|under|scope|delegat|proposal|plan)\b|\bnon-impacting\b[^.\n]{0,50}\bapproved\b|\bauthori[sz]ed under\b/.test(t)) {
@@ -205,6 +210,11 @@ for (const p of precedents) {
   if (idSet.has(p.supersedes) && ownBare?.has(p.supersedes)) continue;
   p.supersedes = undefined; // dead or cross-file link — drop rather than propagate
 }
+// Q9: every mined precedent carries a 1-year TTL from extraction — a dead ruling
+// must not decide forever (dec-014 class). Live rulings get re-stamped on re-run.
+const EXPIRES = new Date(Date.now() + 365 * 864e5).toISOString().slice(0, 10);
+for (const p of precedents) p.expires_at = EXPIRES;
+
 const finalIds = precedents.map((p) => p.id);
 const stillDup = finalIds.filter((id, i) => finalIds.indexOf(id) !== i);
 if (stillDup.length) {
@@ -227,6 +237,7 @@ const yaml = [
     `    kind: ${p.kind}`,
     p.provenance_status ? `    provenance_status: ${p.provenance_status}` : null,
     p.supersedes ? `    supersedes: "${p.supersedes}"` : null,
+    p.expires_at ? `    expires_at: "${p.expires_at}"` : null,
     p.title ? `    title: "${yamlEscape(p.title)}"` : null,
     p.date ? `    date: "${p.date}"` : null,
     `    source_file: "${p.source_file}"`,

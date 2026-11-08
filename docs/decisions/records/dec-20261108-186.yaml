@@ -1,0 +1,38 @@
+id: dec-20261108-186
+date: 2026-11-08
+kind: override
+status: decided
+lane: delegation
+class: governance
+modality: repo
+domain: governance
+mode: autonomous
+question: Who labels decision records going forward, and what is the authority ceiling for agent-ruled precedents?
+decision: 'The founder delegates ALL decision-record labeling to the Devin agent effective 2026-11-08: the agent applies founder-equivalent verdicts (approved/held/rejected) based on learned doctrine from prior founder rulings, without per-item founder review. Agent-ruled-delegated precedents retain FULL deciding authority (no cap reduction) — full autonomy is the explicit goal. TTL/supersession machinery is added to precedents.yaml as a kill-switch for dead rulings, not an authority reduction. Founder batch-approval for canon batches (dec-133) likewise trends toward full agent autonomy.'
+confidence: 1
+reversible: true
+rationale: 'Founder rulings Q6/Q9/dec-133-note, 2026-11-08: ''i will not be labeling from now on, you do the labeling''; ''i want to give full authority to agents and not reduced at all, this is the goal here full autonomity''; ''my goal is that i don''t even need to approve batches even.'' Hard gates (deploy/spend/outreach/delete/content-safety/Qur''an/governance surfaces) remain founder-docket regardless — autonomy does not extend to non-delegable gates.'
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+calibration_log:
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Q6+Q9+dec-133 — full labeling delegation, full precedent authority, autonomy goal
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  founder_override: true
+  precedent_distance: null
+  rule_ids_fired: []
+  top_precedent_id: null
+  top_precedent_status: null
+  calibration_weight: 1
+expires_at: '2027-11-08'
+step: override
+override_reason:
+  category: policy-ruling
+  detail: founder ruling enacted as record
+  overridden_by: founder-ruling

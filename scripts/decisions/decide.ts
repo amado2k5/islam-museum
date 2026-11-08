@@ -102,6 +102,7 @@ export interface Precedent {
   /** Muse §2: a proposal is not a precedent — only founder-ruled* entries may decide. */
   provenance_status?: "founder-ruled" | "founder-ruled-ai-assisted" | "agent-ruled-delegated" | "agent-proposed-pending" | "agent-proposed-rejected" | "reverted" | "ledger-decided" | "ledger-override" | "unlabeled";
   supersedes?: string;
+  expires_at?: string;
 }
 
 interface TraceStep { stage: string; result: string; detail?: string; score?: number }
@@ -283,7 +284,13 @@ function cosine(a: number[], b: number[]): number {
 export function loadMinedPrecedents(): Precedent[] {
   if (!existsSync(PRECEDENTS)) return [];
   const doc = parse(readFileSync(PRECEDENTS, "utf8")) as { precedents?: Precedent[] };
-  return doc.precedents ?? [];
+  const all = doc.precedents ?? [];
+  // Q9 (founder ruling 2026-11-08): mined precedents get the same kill-switch
+  // the ledger has — expires_at drops stale rulings, supersedes dead-letters
+  // them. Neither reduces live authority; both bound dead authority.
+  const today = new Date().toISOString().slice(0, 10);
+  const dead = new Set(all.map((p) => p.supersedes).filter((x): x is string => !!x));
+  return all.filter((p) => !dead.has(p.id ?? "") && !(p.expires_at && p.expires_at < today));
 }
 
 interface StoredRecord extends Question {

@@ -94,7 +94,7 @@ cases:
     note: "real FLAG from modern-figures bootstrap"
   - q: "Should a new AI-drafted entity enter as draft or published?"
     expect: rule
-    note: "publication-standard: published + provenance once cited"
+    note: "publication-standard: AI output draft + provenance; human read promotes to published"
   - q: "Is one source enough for a dated fact, or do we need two?"
     expect: rule
     note: "AGENTS.md: one source is enough for any fact"

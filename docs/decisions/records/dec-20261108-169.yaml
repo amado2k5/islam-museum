@@ -1,39 +1,53 @@
 id: dec-20261108-169
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: '2026-11-08'
+expires_at: '2027-11-08'
 question_hash: a2774a7621f8
-lane: "modern-figures"
-class: "content"
-modality: "repo"
-domain: "sources"
-mode: "conservative"
-question: "Harvest row 'Abu Bakr Al-Zabi' is an unresolved fragment: no contemporary dawah figure of this name exists in any source; the only near-match is the classical grammarian al-Zubaydi (d. 989). Should the row be logged unidentifiable, or does it resolve to the grammarian or another documented person?"
+lane: modern-figures
+class: content
+modality: repo
+domain: sources
+mode: conservative
+question: 'Harvest row ''Abu Bakr Al-Zabi'' is an unresolved fragment: no contemporary dawah figure of this name exists in any source; the only near-match is the classical grammarian al-Zubaydi (d. 989). Should the row be logged unidentifiable, or does it resolve to the grammarian or another documented person?'
 options:
-  - "log unidentifiable with searches"
-  - "resolve to al-Zubaydi grammarian"
-  - "hold for more research"
+- log unidentifiable with searches
+- resolve to al-Zubaydi grammarian
+- hold for more research
 evidence:
-  - "docs/delegation/modern-figures-progress.md batch 27 row 83"
+- docs/delegation/modern-figures-progress.md batch 27 row 83
 status: decided
 step: rule
-decision: "log the item unidentifiable with every search recorded in the progress file — never guess a name, never invent an identity; a channel publishing under a name only gets a record under that publishing name"
+decision: log the item unidentifiable with every search recorded in the progress file — never guess a name, never invent an identity; a channel publishing under a name only gets a record under that publishing name
 confidence: 0.9
 reversible: true
-rationale: "Answered by a standing repository rule (rule-unidentifiable): modern-figures lane no-skip rule + logged-unidentifiable precedent (Umat Muslim, the-muslim-mum)."
-rule: "modern-figures lane no-skip rule + logged-unidentifiable precedent (Umat Muslim, the-muslim-mum)"
-rule_id: "rule-unidentifiable"
+rationale: 'Answered by a standing repository rule (rule-unidentifiable): modern-figures lane no-skip rule + logged-unidentifiable precedent (Umat Muslim, the-muslim-mum).'
+rule: modern-figures lane no-skip rule + logged-unidentifiable precedent (Umat Muslim, the-muslim-mum)
+rule_id: rule-unidentifiable
 review_sampled: false
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
-  - rule:rule-unidentifiable
+- rule:rule-unidentifiable
 chain:
   depth: 0
-  root_id: "rule:rule-unidentifiable"
-  root_kind: "rule"
+  root_id: rule:rule-unidentifiable
+  root_kind: rule
   root_expires_at: null
-  derived_rule_hash: "f9b9b80bce275c0a"
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-unidentifiable"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
+  derived_rule_hash: f9b9b80bce275c0a
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+  - rule-unidentifiable
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: yes — unidentifiable call correct
+  founder_override: false
+  calibration_weight: 1

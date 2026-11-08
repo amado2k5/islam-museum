@@ -1,0 +1,38 @@
+id: dec-20261108-184
+date: 2026-11-08
+kind: override
+status: decided
+lane: delegation
+class: process
+modality: repo
+domain: process
+mode: conservative
+question: Does one independent T2–T4 school source suffice for an authenticity accept, or are two required (policy §8)?
+decision: 'One independent T2–T4 source suffices (preferably encyclopaedic/institutional). This records the founder ruling of 31 Oct 2026 enacted in commit 1c829f6da5 (PR #2816), confirmed by the founder on 2026-11-08 — policy §8 amended to match.'
+confidence: 1
+reversible: true
+rationale: Founder ruled 1a on 2026-11-08 after Claude located the traceable commit. §8's two-source text was stale relative to the enacted register rule.
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+calibration_log:
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: '1a — ruling is real, cite PR #2816'
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  founder_override: true
+  precedent_distance: null
+  rule_ids_fired: []
+  top_precedent_id: null
+  top_precedent_status: null
+  calibration_weight: 1
+expires_at: '2027-11-08'
+step: override
+override_reason:
+  category: policy-ruling
+  detail: founder ruling enacted as record
+  overridden_by: founder-ruling

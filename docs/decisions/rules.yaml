@@ -48,7 +48,7 @@ autonomous:
       confidence: 0.85
       reversible: true
     nd-review-status:
-      decision: "status.review is governed by publication-standard — cited content enters published with provenance; no agent escalation path exists"
+      decision: "status.review is governed by publication-standard — AI output enters draft with provenance and is promoted to published only by a human read; no agent escalation path exists"
       confidence: 0.85
       reversible: true
     nd-content-safety:
@@ -183,7 +183,7 @@ rules:
     domain: i18n
     priority: 12
     pattern: "(en|ur)\\.yaml|i18n/(en|ur)\\.yaml|translat\\w*.{0,60}(same commit|next batch|follow.?up|later)|(same commit|next batch|follow.?up|later).{0,60}translat"
-    decision: "every new prose file, UI string, menu item and component ships with its English (content/en/, i18n/en.yaml) and Urdu (content/ur/, i18n/ur.yaml) translation in the same commit, marked published with a provenance block; a change that cannot include its translations says so in the commit and progress file"
+    decision: "every new prose file, UI string, menu item and component ships with its English (content/en/, i18n/en.yaml) and Urdu (content/ur/, i18n/ur.yaml) translation in the same commit, marked draft with a provenance block (AI output is draft-tier until a human reads it); a change that cannot include its translations says so in the commit and progress file"
     cite: "AGENTS.md (Arabic first, English and Urdu always)"
     confidence: 0.9
     reversible: true
@@ -215,7 +215,7 @@ rules:
     domain: process
     priority: 16
     pattern: "(status|review).{0,15}(draft|published)|draft or published|enter.{0,20}(draft|published)"
-    decision: "AI-drafted content enters as status.review: published with a provenance block once it cites defined sources; draft is only a session work-in-progress marker"
+    decision: "AI-generated prose and machine translations enter as status.review: draft with a provenance block once they cite defined sources; a human read promotes them to published — agents never self-promote (founder ruling 2026-11-08)"
     cite: "AGENTS.md + docs/agents/publication-standard.md"
     confidence: 0.85
     reversible: true
