@@ -64,3 +64,7 @@ translators: []
 
 ## في «أكاديمية إعداد القادة» لطارق السويدان: فضل بلا ولاية
 في الأكاديميتين القياديتين المصوّرتين يجعل [[person/tariq-al-suwaidan|طارق السويدان]] أبا ذر مثالاً على صاحب فضل كبير لا يصلح للقيادة. ⁦([[work/leadership-development-academy-1-program|الأكاديمية الأولى]]، [[work/leadership-development-academy-2-program|الأكاديمية الثانية]])⁩ فيصفه بأنه من أقدم المسلمين إسلاماً وأخلصهم، ومن أهل العلم والتقوى. ويقول إنه في رواية خامس من أسلم. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep09 00:13:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep09 00:16:00} ويقول إنه لم يتولَّ منصباً في زمن أبي بكر ولا عمر، ومات في زمن عثمان ولم يتولَّ في حياته أي منصب. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep09 00:15:30} وعبرته أن القيادة لا علاقة لها بالأقدمية في الإسلام ولا بالعلم ولا بالتقوى. ويقابله بـ[[person/amr-ibn-al-as|عمرو بن العاص]] و[[person/khalid-ibn-al-walid|خالد بن الوليد]]، اللذين قادا بعد أشهر من إسلامهما. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep09 00:16:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep06 00:39:30} ويعرض ذلك تفريقاً بين القيادة والفضل، لا ترتيباً للصحابة.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 10)⁩
+
+يذكر الشيخ أن أبا ذر سأل النبي عن حديث «كل من قال لا إله إلا الله يدخل الجنة» ثلاث مرات: أفيزني وإن زنى وإن سرق، فأقره النبي. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:19:00} ⁦(needs_source: صياغة التسجيل مضطربة)⁩

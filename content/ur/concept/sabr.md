@@ -100,3 +100,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## احمد فرید کے دروس «القارب» میں
 [[work/the-boat-ahmad-farid|«القارب»]] میں [[person/ahmad-farid|احمد فرید]] اس حدیث کا ذکر کرتے ہیں کہ مومن کا ہر معاملہ اس کے لیے خیر ہے: تنگی میں صابر اور مأجور، خوشحالی میں شاکر اور مأجور؛ سختی میں وہ صبر کرتا، اجر کی امید رکھتا اور اللہ کی قضا پر راضی رہتا ہے۔ {cite:assabile-ahmad-farid the-boat/ep04 00:03:00} {cite:assabile-ahmad-farid the-boat/ep04 00:03:30} {cite:assabile-ahmad-farid the-boat/ep04 00:04:00} وہ کہتے ہیں کہ مصیبت میں سب سے بڑی تسلی ایمان ہے، اور [[person/yaqub|یعقوب]] کی مثال دیتے ہیں، جن کے یوسف کی جدائی پر طویل صبر کی وجہ وہ صرف ایمان بتاتے ہیں۔ {cite:assabile-ahmad-farid the-boat/ep04 00:04:30} {cite:assabile-ahmad-farid the-boat/ep04 00:05:00} جب آزمائش آئے تو مومن ایمان کی طرف رجوع کرتے ہیں، جس سے ان کی مراد صبر، اللہ سے اجر کی امید اور اس کی قضا و قدر پر رضا ہے۔ {cite:assabile-ahmad-farid the-boat/ep05 00:03:00}
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 7)
+
+شیخ ایک قول نقل کرتے ہیں جس کا مطلب ہے کہ خواہشات کے تقاضے پر صبر کرنا کسی کامل تر شخص کے گھٹنے پر گرنے سے بہتر ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:42:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:45:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩

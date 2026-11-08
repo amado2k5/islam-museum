@@ -36,3 +36,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## یوسف قرضاوی کے دروس «تأملات قرآنیہ» میں
 [[person/yusuf-al-qaradawi|یوسف قرضاوی]] کہتے ہیں کہ مال دار شخص «اہل دنیا» میں سے نہیں اگر دنیا اس کے ہاتھ میں ہو، دل میں نہیں، اور قرآن نتائج کو انسان کے ارادے پر مرتب کرتا ہے ([[passage/quran-17-18|الاسراء 18]])۔ {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:03:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:04:00} وہ سلف میں سے ایک کا قول نقل کرتے ہیں کہ دنیا سے بے رغبتی اس کے کم فائدے، زیادہ مشقت اور جلد فنا ہونے کی وجہ سے ہے، اور علی سے منسوب قول کہ اس کا آغاز رونا، درمیان مشقت اور انجام فنا ہے۔ {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:11:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:12:00} وہ کہتے ہیں کہ یوسف، داؤد اور سلیمان کو بادشاہت دی گئی، اور عثمان اور عبد الرحمن بن عوف جیسے مال دار صحابہ دنیا کے مالک تھے مگر دنیا ان کی مالک نہ تھی۔ {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:17:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:18:00}
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 7)
+
+شیخ کہتے ہیں کہ جو شخص دنیا کی لذتوں میں سے کوئی لذت اللہ کے لیے چھوڑ دے اسے آخرت میں بدل ملتا ہے، اور زاہدوں نے بھوک، بیماری اور موت کو پسند کیا۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:04:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:13:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩

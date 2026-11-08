@@ -33,3 +33,7 @@ The names he ties to the moments include: the Tender (al-Hannan) for hurt, the G
 ## In al-Tabari's commentary: forbidden and permitted names
 Al-Tabari explains the order of "Allah", then "al-Rahman", then "al-Rahim" in the basmala: names God forbade creatures to bear come first, because they are His alone, such as Allah, al-Rahman and al-Khaliq. Names He permitted creatures to bear among themselves follow, such as al-Rahim, al-Sami', al-Basir and al-Karim. Since no one can be a god in any sense besides Him, the name Allah is put first. {cite:tafsir-tabari-shakir-v01 p. 133} {cite:tafsir-tabari-shakir-v01 p. 134}
 He reports al-Hasan al-Basri's view that al-Rahman is among the names God forbade His servants to bear, and supports it with [[passage/quran-17-110|al-Isra' 110]], where God is called upon as Allah or as al-Rahman. The editor calls this argument one of the best that has been said. {cite:tafsir-tabari-shakir-v01 p. 133} {cite:tafsir-tabari-shakir-v01 p. 134}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
+
+The Sheikh says God has attributes of majesty and attributes of beauty. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:17:30}

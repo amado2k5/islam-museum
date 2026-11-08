@@ -131,3 +131,11 @@ The Sheikh follows Musa's hardships and their relief: in his account he grew up 
 In the next episode he pauses at the Exodus, relating that the Israelites were six hundred thousand, that Pharaoh pursued them and Musa's companions said 'we shall surely be overtaken', which he holds was true by outward means, and that Musa answered 'no, my Lord is with me, He will guide me'; he takes this as the model of turning to God in hardship (needs_source: the number as the Sheikh gives it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:00}
 
 On [[passage/quran-2-51|verse 51]], al-Tabari reports that the name Moses is in Coptic two words meaning water and tree, and gives from Ibn Ishaq the lineage Moses son of Imran son of Yashar son of Qahith son of Levi son of Jacob. {cite:tafsir-tabari-shakir-v02 p. 60} {cite:tafsir-tabari-shakir-v02 p. 61}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
+
+The Sheikh recounts the story of Musa when his Lord revealed Himself to the mountain and it crumbled like a cloud. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:10:30} ⁦(needs_source: the recording wording is partly garbled)⁩
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 10)
+
+The Sheikh cites a passage from the Qur'anic story of Musa and his brother without naming the sura, in which Musa rebukes his brother. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:39:30} ⁦(needs_source: the recording wording is partly garbled)⁩

@@ -130,3 +130,11 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 اگلی قسط میں وہ بنی اسرائیل کے ساتھ موسیٰ کے نکلنے پر رکتے ہیں، بیان کرتے ہیں کہ وہ چھ لاکھ تھے، فرعون نے ان کا پیچھا کیا تو موسیٰ کے ساتھیوں نے کہا «ہم تو پکڑے گئے»، جو ان کے نزدیک ظاہری اسباب کے لحاظ سے سچ تھا، اور موسیٰ نے جواب دیا «ہرگز نہیں، میرا رب میرے ساتھ ہے، وہ مجھے راہ دکھائے گا»؛ وہ اسے سختی میں اللہ کی طرف رجوع کا نمونہ سمجھتے ہیں (needs_source: تعداد جیسا کہ شیخ نے بتائی)۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:00}
 
 [[passage/quran-2-51|آیت 51]] میں طبری نقل کرتے ہیں کہ «موسیٰ» قبطی میں دو لفظ ہیں جن کا مطلب پانی اور درخت ہے، اور ابن اسحاق سے نسب: موسیٰ بن عمران بن یصہر بن قاہث بن لاوی بن یعقوب۔ {cite:tafsir-tabari-shakir-v02 p. 60} {cite:tafsir-tabari-shakir-v02 p. 61}
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 7)
+
+شیخ موسیٰ کی کہانی بیان کرتے ہیں جب ان کا رب پہاڑ پر ظاہر ہوا تو وہ بادل کی طرح منہدم ہو گیا۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:10:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 10)
+
+شیخ قرآن کی موسیٰ اور ان کے بھائی کی کہانی کا ایک اقتباس لیتے ہیں بغیر سورہ کا نام لیے، جس میں موسیٰ اپنے بھائی کو ملامت کرتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:39:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩

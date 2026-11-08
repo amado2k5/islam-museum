@@ -32,3 +32,7 @@ translators: []
 
 ## في برنامج مصطفى حسني «أهل الجنة»
 يخصص [[person/mustafa-hosny|مصطفى حسني]] الحلقة الثانية عشرة من برنامجه [[work/ahl-al-jannah|«أهل الجنة»]] للقنوع والطماع: يعرّف القنوع بأنه الراضي بما قُسم له بعد أن عمل ما عليه، وينقل عن [[person/abdullah-ibn-abbas|ابن عباس]] تفسير «الحياة الطيبة» بأن يُرزق العبد القناعة. {cite:assabile-mustafa-hosny ahl-al-jannah/ep12 00:02:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep12 00:03:00} ويعرّف الطماع بأنه من تضخّمت عنده غريزة الأخذ حتى فقد القيم في سبيل ما يريد، ويقول إن الطمع بدأ من الشيطان. {cite:assabile-mustafa-hosny ahl-al-jannah/ep12 00:06:00} ويذكر حديثًا في ذمّ العبد الذي يقوده الطمع، ويروي أن [[person/hakim-ibn-hizam|حكيم بن حزام]] سأل النبي المال مرة بعد مرة. {cite:assabile-mustafa-hosny ahl-al-jannah/ep12 00:16:30}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 6)⁩
+
+يذكر الشيخ قولًا مفاده أن البخيل فقير لا يُذم على فقره. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:21:30} ⁦(needs_source: صياغة التسجيل مضطربة)⁩

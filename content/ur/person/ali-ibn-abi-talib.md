@@ -169,3 +169,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## احمد عبد السلام کے پروگرام «اُصلّی علیہ» میں
 [[person/ahmed-abdussalam|احمد عبد السلام]] اپنے پروگرام [[work/ossali-alayh|«اُصلّی علیہ»]] کی دسویں قسط میں علی سے، جن کا تعارف وہ نبی کے چچا زاد اور ان کی بیٹی کے شوہر کے طور پر کرتے ہیں، نقل کرتے ہیں کہ جب ان سے صحابہ کی نبی سے محبت کے بارے میں پوچھا گیا تو انہوں نے قسم کھا کر کہا کہ نبی انہیں اپنے باپوں، ماؤں، اولاد اور مال سے، اور پیاسے کے لیے ٹھنڈے پانی سے بھی زیادہ محبوب تھے۔ {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:30} بارہویں قسط میں عروہ بن مسعود کے قصے کے بعد وہ اس قول کی طرف لوٹتے ہیں۔ {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:30}
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 10)
+
+شیخ علی بن ابی طالب سے منسوب قول «جو ہمارے لیے اللہ کو دھوکہ دے وہ ہمارے لیے اللہ کو دھوکہ دیتا ہے» نقل کرتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:41:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩

@@ -11,3 +11,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
 شیخ تزکیۂ نفس چاہنے والے کو بدعات سے بچنے کی تلقین کرتے ہیں، ان کے نزدیک کچھ بدعات اتنی پھیل گئیں کہ سنتِ مؤکدہ جیسی ہو گئیں، اور جب علماء ان کی نشاندہی کرتے ہیں تو ان پر دین بدلنے کا الزام لگتا ہے؛ وہ مثال دیتے ہیں کہ لوگ ڈاکٹر، انجینئر یا وکیل سے ان کے شعبے میں بحث نہیں کرتے، مگر عالمِ دین سے بحث کرتے ہیں۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:30}
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 7)
+
+شیخ کہتے ہیں کہ جس نے جمعہ کے دن قرآن کی تلاوت کو شعیرہ بنا دیا اس نے دین میں وہ چیز بڑھا دی جو اس کا نہیں، اور بدعت کی جڑ عبادات اور عادات میں فرق کرتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:23:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩

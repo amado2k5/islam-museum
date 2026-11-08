@@ -130,3 +130,11 @@ translators: []
 وفي الحلقة التالية يقف عند خروج موسى ببني إسرائيل، ويروي أنهم كانوا ستمئة ألف، ولحقهم فرعون فقال أصحابه «إنا لمدركون»، ويرى أن هذا كان صدقًا بحسب الأسباب الظاهرة، فأجاب موسى «كلا إن معي ربي سيهدين»، ويعدّ ذلك نموذج اللجوء إلى الله عند الشدة ⁦(needs_source: العدد كما قاله الشيخ)⁩. {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:00}
 
 في تفسير [[passage/quran-2-51|الآية 51]] ينقل الطبري أن اسم «موسى» بالقبطية كلمتان بمعنى ماء وشجر، وينقل عن ابن إسحاق نسبه: موسى بن عمران بن يصهر بن قاهث بن لاوي بن يعقوب. {cite:tafsir-tabari-shakir-v02 p. 60} {cite:tafsir-tabari-shakir-v02 p. 61}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 7)⁩
+
+يذكر الشيخ قصة موسى حين تجلى ربه للجبل فدُك كما تُدك السحاب. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:10:30} ⁦(needs_source: صياغة التسجيل مضطربة)⁩
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 10)⁩
+
+يذكر الشيخ مقطعًا من قصة موسى مع أخيه في القرآن من غير أن يسمي السورة، وفيه عتاب موسى لأخيه. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:39:30} ⁦(needs_source: صياغة التسجيل مضطربة)⁩

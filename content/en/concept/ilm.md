@@ -76,3 +76,7 @@ He holds that good must be enjoined and evil forbidden only with knowledge and g
 He criticises those who do not honour scholars or elders and those who cut ties of kinship, and calls these forms of both neglect and harshness. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:22:00}
 
 He criticises people who attend a scholar only to argue and correct him. He recounts that Hasan al-Basri listened attentively to a young speaker, and describes the manners of listening. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:01:30}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 8)
+
+The Sheikh says the heart is the instrument of knowledge and man is the knower, arguing Adam's superiority over the angels by knowledge. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep8 00:36:30} ⁦(needs_source: the recording wording is partly garbled)⁩ He gives the parable of the heart as a house into whose midst a garden of God's mercy is opened and a tree of knowledge planted. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep8 00:19:30} ⁦(needs_source: the recording wording is partly garbled)⁩

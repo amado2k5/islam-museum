@@ -17,3 +17,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 شیخ بیان کرتے ہیں کہ ہارون «امن کے سال» پیدا ہوئے جب بنی اسرائیل کے سرداروں نے فرعون سے طے کیا تھا کہ نومولود قتل نہ ہوں، اور موسیٰ قتل کے سال (needs_source: معاہدہ جیسا کہ شیخ بیان کرتے ہیں)۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:04:00}
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 10)
+
+شیخ قرآن کی موسیٰ اور ان کے بھائی کی کہانی کا ایک اقتباس لیتے ہیں بغیر سورہ کا نام لیے، جس میںہارون کا ردعمل آتا ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:39:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩

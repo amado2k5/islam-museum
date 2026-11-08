@@ -40,3 +40,7 @@ translators: []
 
 ## في برنامج عبد الرحمن منصور «أهالينا»
 يذكر [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] معاذًا مرتين في برنامجه [[work/ahaleena|«أهالينا»]] مثالًا على التصريح بالمحبة: أن النبي قال له إنه يحبه، مقسمًا على ذلك. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:11:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:10:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:11:00} ويقول إن المرء لو قال له أستاذه في الجامعة أو شيخه إنه يحبه لطار فرحًا، فكيف بهذا، ويجعل ذلك أصلًا لأن يصرّح الأب لولده بحبه. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:12:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:11:00}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 7)⁩
+
+يذكر الشيخ أن النبي قال لمعاذ والله إني لأحبك، ثم علّمه الاستغفار والذكر والشكر. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:30:30} ⁦(needs_source: صياغة التسجيل مضطربة)⁩

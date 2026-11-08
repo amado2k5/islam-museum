@@ -40,3 +40,7 @@ Mu'adh ibn Jabal ibn Amr al-Awsi al-Khazraji is among the most learned of the An
 
 ## In Abd al-Rahman Mansour's programme 'Ahalina'
 [[person/abd-al-rahman-mansour|Abd al-Rahman Mansour]] mentions Mu'adh twice in his programme [[work/ahaleena|'Ahalina']] as an example of declaring love: the Prophet told him, swearing to it, that he loved him. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:11:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:10:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:11:00} If a university professor or a teacher told a man he loved him, he says, the man would fly with joy, so how much more this; he makes it the ground for a father declaring his love to his child. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:12:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:11:00}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
+
+The Sheikh says the Prophet told Mu'adh "by God, I love you", then taught him seeking forgiveness, remembrance and gratitude. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:30:30} ⁦(needs_source: the recording wording is partly garbled)⁩

@@ -101,3 +101,7 @@ Episode 26 of [[work/fi-rihab-al-hadith-al-qudsiyyah|Fi rihab al-hadith al-qudsi
 
 ## In Ahmad Farid's lessons 'The Boat'
 In [[work/the-boat-ahmad-farid|'The Boat']] [[person/ahmad-farid|Ahmad Farid]] recalls the hadith that all of the believer's affair is good: patient and rewarded in hardship, grateful and rewarded in ease; in hardship he is patient, seeks the reward and accepts God's decree. {cite:assabile-ahmad-farid the-boat/ep04 00:03:00} {cite:assabile-ahmad-farid the-boat/ep04 00:03:30} {cite:assabile-ahmad-farid the-boat/ep04 00:04:00} Faith, he says, is the greatest consolation in calamity, and he points to [[person/yaqub|Jacob]], whose long patience over the loss of Joseph he explains by faith alone. {cite:assabile-ahmad-farid the-boat/ep04 00:04:30} {cite:assabile-ahmad-farid the-boat/ep04 00:05:00} When trial comes, believers turn to faith, which for him means to patience, seeking the reward from God and contentment with His decree. {cite:assabile-ahmad-farid the-boat/ep05 00:03:00}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
+
+The Sheikh cites a saying that patient endurance of what desire demands is better than falling upon the knee of one more perfect. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:42:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:45:30} ⁦(needs_source: the recording wording is partly garbled)⁩

@@ -99,3 +99,7 @@ Al-Tabari gives several readings of "yu'minun" (believe): Ibn Abbas takes it to 
 He holds that in Arabic usage "iman" is affirmation: one who affirms a thing in words is called a believer in it, and one who affirms another's word by his deed is also called a believer. He notes that the fear of God may enter into the sense of iman, which is affirming speech by action, and cites a verse from the story of Yusuf in which the word means accepting what someone says. {cite:tafsir-tabari-shakir-v01 p. 235}
 He describes iman as a comprehensive term: acknowledging God, His books and His messengers, and confirming that acknowledgment by deed. He judges the more apt reading to be that the people are described as affirming the unseen in word, belief and action, since God did not restrict their belief to one of its senses. {cite:tafsir-tabari-shakir-v01 p. 235}
 The verse that follows, on believing in what was sent down to you, is [[passage/quran-2-4|Qur'an 2:4]], which al-Tabari takes up in the next section.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 10)
+
+The Sheikh mentions the hadith "whoever says there is no god but God enters Paradise" and Abu Dharr's story of asking three times, and that none enters Paradise with an atom's weight of treachery in his heart. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:19:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:17:30} ⁦(needs_source: the recording wording is partly garbled)⁩

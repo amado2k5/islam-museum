@@ -26,3 +26,7 @@ Omar Abdelkafy explains Ibn Ata Allah's maxims in the series [[work/sharh-al-hek
 
 ## Miftah al-Falah
 The first printing of [[work/miftah-al-falah|Miftah al-Falah wa-Misbah al-Arwah]] (Matba'at al-Sa'ada, 1332 AH) attributes the book to "Taj al-Din ibn 'Ata' Allah al-Iskandari". It is a book on dhikr whose author says he had seen no complete and sufficient work on the subject; he arranged it in two parts, on dhikr, its rules and benefits, and then on explaining the formulas, beginning with the word of unification. {cite:miftah-al-falah-saada-1332 p. 3} {cite:miftah-al-falah-saada-1332 p. 4} {cite:miftah-al-falah-saada-1332 p. 53} It quotes al-Ghazali often. {cite:miftah-al-falah-saada-1332 p. 6} {cite:miftah-al-falah-saada-1332 p. 41} {cite:miftah-al-falah-saada-1332 p. 43}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
+
+The Sheikh cites Ibn Ata'illah al-Iskandari's saying that his soul is ignorant within his knowledge, so how should it not be ignorant within its ignorance, and poor within his wealth, so how should it not be poor within its poverty. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:17:00} ⁦(needs_source: the recording wording is partly garbled)⁩

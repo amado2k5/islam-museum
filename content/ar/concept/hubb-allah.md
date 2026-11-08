@@ -34,3 +34,7 @@ translators: []
 
 ## في دروس أحمد فريد «القارب»
 في [[work/the-boat-ahmad-farid|«القارب»]] يعدّ [[person/ahmad-farid|أحمد فريد]] محبة الله ومحبة المؤمنين من ثمرات شجرة الإيمان: فإذا أحب الله عبدًا نادى [[person/jibril|جبريل]] أن يحبه، ثم يحبه أهل السماء، ثم يوضع له القبول في الأرض، فيحبه المؤمنون ولم يروا منه شيئًا؛ وإذا أبغض عبدًا كان العكس. {cite:assabile-ahmad-farid the-boat/ep08 00:00:30} {cite:assabile-ahmad-farid the-boat/ep08 00:01:00} {cite:assabile-ahmad-farid the-boat/ep08 00:01:30} وينقل قول [[person/harim-ibn-hayyan|هرم بن حيان]]: إذا أقبل العبد بقلبه على الله أقبل الله بقلوب أوليائه إليه. {cite:assabile-ahmad-farid the-boat/ep08 00:01:30} {cite:assabile-ahmad-farid the-boat/ep08 00:02:00} وفي الدرس العاشر يعلّل كون النوافل لا الفرائض هي الموصلة إلى محبة الله: فالفريضة تُؤدّى رجاء الثواب وخوف العقاب، والنافلة بخالص نية التحبب والتقرب إلى الله. {cite:assabile-ahmad-farid the-boat/ep10 00:02:30} {cite:assabile-ahmad-farid the-boat/ep10 00:03:00}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 7)⁩
+
+يذكر الشيخ أن الله يعطي الدين لمن يحب، وأن من فرح بالدنيا فليلٍّ فرحه بالله. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:08:30} ⁦(needs_source: صياغة التسجيل مضطربة جزئيا)⁩

@@ -57,3 +57,7 @@ The Sheikh relates that al-Hasan al-Basri visited a man who had lost his son and
 
 ## In Abd al-Rahman Mansour's programme 'Ahalina'
 [[person/abd-al-rahman-mansour|Abd al-Rahman Mansour]] quotes al-Hasan al-Basri in his programme [[work/ahaleena|'Ahalina']] as saying that shaking hands increases affection, that is, love; he mentions it in the episode on "the keys to hearts", after the report of Anas that the Prophet never withdrew his hand from someone shaking it until the other man withdrew his. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:30}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
+
+The Sheikh says al-Hasan al-Basri was asked about his standing with God and answered the asker: how much do you have for God? {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:00:00} ⁦(needs_source: the recording wording is partly garbled)⁩

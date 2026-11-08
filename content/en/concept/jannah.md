@@ -88,3 +88,7 @@ Among its joys, he holds, is the company of the prophets: the believer sits with
 
 ## In al-Tabari's commentary
 On [[passage/quran-2-25|verse 25]], al-Tabari explains the gardens as orchards, meaning their trees and fruit rather than the ground, and reports from Masruq that Paradise's date palms are heaped with fruit from root to branch, the fruit like large jars, with water flowing without a channel. {cite:tafsir-tabari-shakir-v01 p. 384} {cite:tafsir-tabari-shakir-v01 p. 385}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 10)
+
+The Sheikh says the people of Paradise, seeing those left in punishment, say: they have remained there a long time. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:29:30}

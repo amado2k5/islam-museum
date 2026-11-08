@@ -11,3 +11,7 @@ What is not recorded here needs a further source.
 
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh urges one who wants to purify his soul to keep away from innovations, holding that some have spread until they became like confirmed sunnas, and that scholars who point them out are accused of changing the religion; he gives the example that people do not argue with a doctor, engineer or lawyer in his field, but they argue with the religious scholar. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:30}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
+
+The Sheikh says whoever makes Qur'an recitation a Friday ritual has added to the religion what is not of it, and distinguishes worship from custom in the origin of innovation. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:23:30} ⁦(needs_source: the recording wording is partly garbled)⁩

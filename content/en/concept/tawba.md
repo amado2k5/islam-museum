@@ -101,3 +101,11 @@ He names two whose repentance is not accepted: one who repents on seeing the ang
 On [[passage/quran-2-37|verse 37]], al-Tabari reads Adam's "receiving words" as taking up words of repentance that God conveyed to him, so that God accepted his repentance. He reports from Ibn Zayd that they were "Our Lord, we have wronged ourselves", and from Ibn Abbas that they were Adam's asking whether he would return to the Garden if he repented and made amends. {cite:tafsir-tabari-shakir-v01 p. 541} {cite:tafsir-tabari-shakir-v01 p. 543}
 
 In his commentary on [[passage/quran-2-37|verse 37]], al-Tabari defines repentance as turning to God and returning to obedience from what He dislikes of disobedience, and God's acceptance of a servant's repentance as His granting him that. {cite:tafsir-tabari-shakir-v01 p. 547}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 8)
+
+The Sheikh mentions "the decision of ascent": moving from sin to obedience, from lying to truthfulness, and from ignorance to knowledge. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep8 01:10:00}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 10)
+
+The Sheikh cites the description of those who, when they sin, seek forgiveness and remember God, so He forgives their sins. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:32:30} ⁦(needs_source: the recording wording is partly garbled)⁩
