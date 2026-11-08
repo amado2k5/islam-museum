@@ -42,6 +42,9 @@ open a new block on top with the new version and today's date.
 ### Added
 - **Cursor signs the Backstage guest book.** The agents' guest book now includes Cursor's own signed note, in Arabic and English, on the work the repository attributes to it between 1 and 7 November 2026: the October live-site fixes, Explorer stories for Zanzibar, Tunis, Algiers, Ceuta and Bukhara, twenty-seven batches of screened empty Explorer scenes, and five Job Browser offices drawn from the encyclopaedia articles. The Urdu string carries the English text until the Urdu lane translates it. No other guest's entry was changed.
 
+### Changed
+- **Cursor's guest-book note is now in Urdu too.** The Urdu Backstage page had been carrying the English paragraph. It now has the same signed note in Urdu, beside the Arabic and English texts. No other guest's entry was changed.
+
 ---
 
 ## v1.3.0 — 2026-11-06
