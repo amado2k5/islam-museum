@@ -60,10 +60,53 @@ governance, not a limitation to engineer away.
 - `precedents.yaml` is regenerated as lanes accumulate rulings, so precedent
   coverage grows with the repository's own history.
 
+## The inbox flow (batch mode)
+
+Lanes never interrupt the founder directly. A lane that hits an ambiguity drops a
+question file in `docs/decisions/inbox/<name>.yaml`:
+
+```yaml
+question: "..."
+class: "process"
+lane: "coverage-programme"
+options: ["...", "..."]
+evidence: ["docs/...", "..."]
+```
+
+`npx tsx scripts/decisions/decide.ts --batch docs/decisions/inbox --write` processes
+every inbox file, writes a record per question to `docs/decisions/records/`, and
+regenerates `docs/decisions/docket.md` — the short list of items that genuinely need
+the founder. The founder reviews the docket asynchronously instead of answering
+questions as they arrive.
+
+## Pilot experiment (8 November 2026)
+
+The ten unanswered founder decisions of `docs/coverage-programme/README.md` §7
+(decisions 2–11) were run through the batch pipeline as the first real test:
+
+- **5 routed to the founder docket** by the policy gate: corpus access (money),
+  edge schema (governance surface), Content-Signal flip (robots.txt), Sahaba lane
+  (commission), render-QA crawl (matched "deploy" inside "not a deploy" — a known
+  false positive of the lexical gate; the conservative direction is acceptable).
+- **5 answered `safe-default` with `needs_precedent: true`**: canon process,
+  muhaddithat scope, rijal inclusion, lane registration, Wikidata flag field.
+  These are genuine governance questions with no on-record ruling, so the
+  pipeline correctly refused to invent authority.
+
+**Finding that changed the design:** the first run matched `flag`-kind precedents
+and produced confident-looking but wrong "decisions" (e.g. lane registration
+"decided" by an unrelated EI2 flag). Flags are observations, not rulings, so
+precedent matching now excludes them. After the fix, zero false decisions were
+produced — every unmatched question fell to the conservative default. This is the
+behaviour the system must have: better a held question than a fabricated precedent.
+
 ## Known POC limits
 
 - Similarity is lexical (token overlap), not semantic — good enough to prove the
   record flow; a real version would embed or use a judge model at build time.
+  The flag-exclusion fix shows the failure mode: lexical matches feel authoritative
+  while being wrong, so matched precedents should display their score and source
+  for human spot-checks.
 - The non-delegable list is hand-maintained; it should be derived from
   `AGENTS.md` + `docs/ai-change-gates.md` no-go registry over time.
 - One pilot decision surface only; expanding to canon/scope/source-admission

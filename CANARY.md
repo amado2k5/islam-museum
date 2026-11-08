@@ -13,6 +13,12 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.4.0 — 2026-11-08
+
+### Added
+- **Decision ledger page and API (proof of concept).** A new `/{lang}/decisions/` page lists the auditable records emitted by the decision pipeline — each question, its status (decided, with the founder, or rejected), the precedent it rests on, its confidence and rationale — alongside the count of precedents mined from the repository's own rulings. The same records are exported at `/api/v1/decisions.json`. This is the visible surface for testing the autonomous-decision proof of concept; deploys, deletions, spending, outreach and review-status changes remain founder-only by design.
+- **Decision inbox and founder docket (proof of concept).** Lanes can now drop questions into `docs/decisions/inbox/` instead of interrupting the founder; a batch run of the decision pipeline answers what it can by rule or cited precedent and regenerates `docs/decisions/docket.md` with only the items that genuinely need the founder. First pilot: the ten open coverage-programme decisions were routed — five to the docket (money, schema, robots.txt, commission, authorisation) and five held at the conservative default pending a real precedent, after a fix that stops observational flags from masquerading as rulings.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests

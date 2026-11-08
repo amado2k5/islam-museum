@@ -45,6 +45,15 @@ describe("decide pipeline (POC)", () => {
     expect((d.precedent as { id: string }).id).toBe("D-004");
   });
 
+  it("ignores flag-kind precedents (observations are not rulings)", () => {
+    const withFlag = [
+      ...precedents,
+      { id: "flag-x", kind: "flag", title: "canon decisions process founder books ledger", summary: "canon decisions are founder-only; Phase 1 is founder-bound", source_file: "docs/x.md" },
+    ];
+    const d = decide({ question: "Canon decision process for undecided canon books ledger checks" }, withFlag);
+    expect(d.step).not.toBe("precedent");
+  });
+
   it("falls back to a conservative reversible default with no precedent", () => {
     const d = decide({ question: "Zorblax qwerty flux capacitor alignment for the nebula wing?" }, precedents);
     expect(d.status).toBe("decided");

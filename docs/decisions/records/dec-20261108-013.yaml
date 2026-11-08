@@ -1,0 +1,20 @@
+id: dec-20261108-013
+date: "2026-11-08"
+lane: "coverage-programme"
+class: "process"
+question: "Wikidata debt measurement for Phase 13: confirm which flag field marks the second-source debt so the 4,199 estimate can be checked against the 5,604 flagged files."
+options:
+  - "confirm flag field A"
+  - "confirm flag field B"
+  - "define new flag"
+status: decided
+step: safe-default
+decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"
+confidence: 0.4
+reversible: true
+rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design."
+needs_precedent: true
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
