@@ -168,3 +168,7 @@ In the programme al-Munjiyat Omar Abdelkafy relates that Ali, after applying the
 
 ## In Ahmed Abdussalam's programme 'Osalli Alayh'
 In the tenth episode of his programme [[work/ossali-alayh|'Osalli Alayh']], [[person/ahmed-abdussalam|Ahmed Abdussalam]] relates from Ali, whom he introduces as the Prophet's cousin and the husband of his daughter, that when asked about the Companions' love for the Prophet he swore that the Prophet was dearer to them than their fathers, mothers, children and wealth, and than cold water to the thirsty. {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:30} He returns to this saying in the twelfth episode, after the story of Urwa ibn Mas'ud. {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:30}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 10)
+
+The Sheikh attributes to Ali ibn Abi Talib the saying "whoever deceives us for God, deceives Him for us". {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:41:30} ⁦(needs_source: the recording wording is partly garbled)⁩

@@ -32,3 +32,7 @@ The Sheikh marvels at those who take from the world both lawful and unlawful, sa
 
 ## In Mustafa Hosny's programme 'Ahl al-Janna'
 [[person/mustafa-hosny|Mustafa Hosny]] gives the twelfth episode of his programme [[work/ahl-al-jannah|'Ahl al-Janna']] to the content and the greedy: he defines the content person as one satisfied with his share after doing his part, and quotes [[person/abdullah-ibn-abbas|Ibn Abbas]] as explaining the 'good life' as being granted contentment. {cite:assabile-mustafa-hosny ahl-al-jannah/ep12 00:02:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep12 00:03:00} He defines the greedy as one whose instinct of taking has swollen until he loses his values for what he wants, and says greed began with Satan. {cite:assabile-mustafa-hosny ahl-al-jannah/ep12 00:06:00} He cites a hadith condemning the servant led by greed, and relates that [[person/hakim-ibn-hizam|Hakim ibn Hizam]] asked the Prophet for money again and again. {cite:assabile-mustafa-hosny ahl-al-jannah/ep12 00:16:30}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 6)
+
+The Sheikh cites a saying that the miser is poor and is not blamed for his poverty. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep6 00:21:30} ⁦(needs_source: the recording wording is partly garbled)⁩

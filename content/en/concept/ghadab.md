@@ -41,3 +41,7 @@ He sets out three degrees for one who is wronged: restraining anger (kazm al-gha
 ## In al-Tabari's commentary: God's anger
 Commenting on "those who have incurred anger" in the Fatiha, al-Tabari reports three views of God's anger. Some say it is the sending down of punishment on whom He is angry with, in this world or the next, as God describes Himself; others that it is His blame and reproach of them and their acts; a third that it is a meaning understood as anger is understood, but unlike the anger of humans that unsettles and hurts them, since God's essence is not subject to afflictions, and anger is for Him an attribute as knowledge and power are. {cite:tafsir-tabari-shakir-v01 p. 188} {cite:tafsir-tabari-shakir-v01 p. 189}
 He identifies those who incurred anger in the Fatiha as the Jews, citing [[passage/quran-5-60|al-Ma'ida 60]] and a report from Adi ibn Hatim, which the editor grades as defective in its chain. {cite:tafsir-tabari-shakir-v01 p. 185} {cite:tafsir-tabari-shakir-v01 p. 186} {cite:tafsir-tabari-shakir-v01 p. 189}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 8)
+
+The Sheikh mentions the hadith describing groups of people by quick or slow anger, among them the quick of anger and slow of the sword, and the slow of anger and quick of the sword. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep8 00:54:30} ⁦(needs_source: the recording wording is partly garbled)⁩

@@ -51,3 +51,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ بیان کرتے ہیں کہ فرشتے ان مومنین کا شکریہ ادا کرتے ہیں جنہوں نے اس گھر کے لیے خالص توحید کا نذرانہ پیش کیا، اور انہوں نے اللہ کی تقدیس اور تمجید کو عام کیا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:38:30}۔ وہ اپنی ذاتی رائے کے طور پر کہتے ہیں کہ اقصیٰ صرف خالص توحید سے واپس آئے گا، یعنی ربوبیت، الوہیت، اسماء اور صفات کی توحید، شرک اور بدعات سے دور رہ کر (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:08:00}۔
 
 وہ ابن عطاء کا قول نقل کرتے ہیں کہ بندے کو اللہ سے روکنے والی چیز یہ وہم ہے کہ اس کے ساتھ کوئی اور بھی اختیار رکھتا ہے (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:03:30}۔
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 10)
+
+شیخ اپنی شرح کتاب الفوائد میں کہتے ہیں کہ ترکِ امر اللہ کے ہاں ترکِ نہی سے بڑا ہے، اور آدم جو امر کی نافرمانی کر کے توبہ کی طرف گیا اور ابلیس جو توبہ نہ کی مثال دیتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:15:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:17:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩

@@ -101,3 +101,7 @@ translators: []
 
 ## في دروس أحمد فريد «القارب»
 في [[work/the-boat-ahmad-farid|«القارب»]] يذكر [[person/ahmad-farid|أحمد فريد]] حديث أن أمر المؤمن كله له خير: فهو في الضراء صابر مأجور، وفي السراء شاكر مأجور؛ ففي الشدة يصبر ويحتسب ويرضى بقضاء الله. {cite:assabile-ahmad-farid the-boat/ep04 00:03:00} {cite:assabile-ahmad-farid the-boat/ep04 00:03:30} {cite:assabile-ahmad-farid the-boat/ep04 00:04:00} ويقول إن الإيمان أعظم ما يُتسلّى به عند المصائب، ويضرب المثل بـ[[person/yaqub|يعقوب]] الذي لا يفسّر صبره الطويل على فقد يوسف إلا بالإيمان. {cite:assabile-ahmad-farid the-boat/ep04 00:04:30} {cite:assabile-ahmad-farid the-boat/ep04 00:05:00} وإذا نزل البلاء لجأ المؤمنون إلى الإيمان، وهو عنده الصبر والاحتساب عند الله والرضا بقضائه وقدره. {cite:assabile-ahmad-farid the-boat/ep05 00:03:00}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 7)⁩
+
+يذكر الشيخ قولًا مفاده أن الصبر على ما توجب الشهوة خير من السقوط على ركبة أكمل منها. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:42:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:45:30} ⁦(needs_source: نسبة القول غير واضحة في التسجيل)⁩

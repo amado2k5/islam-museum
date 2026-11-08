@@ -52,3 +52,7 @@ The Sheikh says that the whole creation bears witness to God's oneness and to Hi
 The Sheikh says that the angels thank the believers who brought the pure fruit of monotheism (tawhid) to this House and spread the sanctification and glorification of God {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:38:30}. He holds, as his own opinion, that al-Aqsa will return only through pure monotheism in all its parts, lordship, divinity, names and attributes, free of shirk and innovation (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 01:08:00}.
 
 He relays Ibn 'Ata's saying that what veils the servant from God is his imagining that something shares in His power (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:03:30}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 10)
+
+In his commentary on the Book of Benefits the Sheikh says leaving a command undone is greater with God than committing a prohibition, giving Adam who disobeyed a command and Iblis who never repented as the example. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:15:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:17:30} ⁦(needs_source: the recording wording is partly garbled)⁩

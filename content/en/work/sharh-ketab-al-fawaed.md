@@ -65,3 +65,60 @@ These are the museum records written from the episodes of the series, ordered by
 - [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:42:00}
 - [[concept/tul-al-amal|Long hope (tul al-amal)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:20:00}
 - [[concept/istighna-billah|Self-sufficiency in God (istighna billah)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:23:00}
+
+### Episode 6
+- [[concept/hawa|Vain desire (hawa)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:16:00}
+- [[concept/al-aduww-al-dakhili|The inner enemy]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:16:00}
+- [[concept/iman|Iman (faith)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 01:11:30}
+- [[concept/qanaa|Contentment (qana'a)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:21:30}
+- [[concept/adab-hamil-al-quran|Manners of the Qur'an bearer]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 01:21:00}
+
+### Episode 7
+- [[concept/dhikr|Remembrance of God (dhikr)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:40:30}
+- [[concept/shukr|Gratitude (shukr)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:35:30}
+- [[concept/zuhd|Renunciation (zuhd)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:04:00}
+- [[concept/hubb-allah|Love for God (hubb Allah)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:08:30}
+- [[concept/sabr|Sabr (patience and steadfast endurance)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:42:30}
+- [[person/ibn-qayyim-al-jawziyya|Ibn Qayyim al-Jawziyya]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:58:00}
+- [[person/al-hasan-al-basri|Abu al-Hasan al-Basri]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:00:00}
+- [[person/abdullah-ibn-masud|Abdullah ibn Mas'ud]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:02:30}
+- [[person/ibn-ata-allah-al-iskandari|Ibn Ata Allah al-Iskandari]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:17:00}
+- [[concept/asma-allah-al-husna|The most beautiful names of God (asma' Allah al-husna)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:17:30}
+- [[person/muhammad|Muhammad]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:19:30}
+- [[concept/bida|Bid'a (religious innovation)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:23:30}
+- [[person/musa|Musa]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:10:30}
+- [[person/ibrahim|Ibrahim (Abraham)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:17:00}
+- [[person/abu-sufyan-ibn-harb|Abu Sufyan ibn Harb]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:24:30}
+- [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:24:30}
+- [[person/muadh-ibn-jabal|Mu'adh ibn Jabal]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:30:30}
+
+### Episode 8
+- [[concept/ilm|Seeking knowledge]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:36:30}
+- [[person/ibn-qayyim-al-jawziyya|Ibn Qayyim al-Jawziyya]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:40:00}
+- [[person/adam|Adam]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 01:03:30}
+- [[concept/al-nafs-wal-ruh|The soul (nafs) and the spirit (ruh)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:00:00}
+- [[concept/ghadab|Ghadab (anger)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:54:30}
+- [[concept/tawba|Tawba (repentance)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 01:10:00}
+- [[person/muhammad|Muhammad]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:48:00}
+
+### Episode 9
+- [[concept/ghadab|Ghadab (anger)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:07:30}
+- [[concept/tawfiq-wal-khidhlan|Divine success (tawfiq) and abandonment (khidhlan)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:11:30}
+- [[concept/al-sidq-truthfulness|Truthfulness (sidq)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:00:00}
+- [[concept/ihsan|Ihsan (excellence in worship)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:15:00}
+- [[concept/tariqa|Tariqa (Sufi order)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:33:00}
+
+### Episode 10
+- [[concept/tawhid|Tawhid (the oneness of God)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:15:30}
+- [[concept/yawm-al-qiyama|The Day of Resurrection (Yawm al-Qiyama)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:03:00}
+- [[person/abu-hanifa|Abu Hanifa al-Nu'man ibn Thabit]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:08:30}
+- [[concept/iman|Iman (faith)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:19:00}
+- [[person/abu-dharr-al-ghifari|Abu Dharr al-Ghifari]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:19:00}
+- [[concept/khawf|Fear of God (khawf)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:22:00}
+- [[concept/shafaa|Intercession]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:25:00}
+- [[concept/jannah|Jannah (Paradise)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:29:30}
+- [[concept/amal|Action (amal) and the five rulings that govern it]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:31:30}
+- [[person/musa|Musa]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:39:30}
+- [[person/harun|Harun (Aaron)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:39:30}
+- [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:41:30}
+- [[concept/tawba|Tawba (repentance)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:32:30}

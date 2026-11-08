@@ -107,3 +107,11 @@ He recites further verses describing the Prophet as the dawn of the world, throu
 - **The speaker's view (rant)**: The Sheikh criticises Muslims for being sentimental in their love of the Prophet, and asks whether they follow him in their homes, neighbourhoods, teaching and learning {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:49:30}.
 - **Academic and other views (not yet sourced)**: Academic and other views have not yet been sourced.
 :::
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
+
+The Sheikh mentions a hadith to the effect that the two things are guidance and speech: the best speech is the speech of God, the best guidance is the guidance of Muhammad, and the worst of matters are its novelties. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:19:30}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 8)
+
+The Sheikh says the Prophet, when he spoke with one person, gave him his whole face, and when he spoke with a group he gave each one his share of the look until each thought he alone was praised. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep8 00:48:00} ⁦(needs_source: the recording wording is partly garbled)⁩

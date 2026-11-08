@@ -38,3 +38,7 @@ The true fear, in the following episode, is to put other people's sins under the
 
 ## From Omar Abdelkafy's programme Bustan al-Amal
 Among forms of fear the Sheikh mentions imaginary, pathological fear, like someone afraid of confined spaces who climbs forty floors rather than take a lift, or afraid of heights; he holds that whoever is in God's company is safe, citing the Prophet's words to Abu Bakr in the cave 'do not grieve, God is with us', and holds that grief is the other face of fear and weakens one's 'faith immunity'. {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:02:00}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 10)
+
+The Sheikh says fear of God should equal hope with fear exerted more, and that fearing today and hoping for tomorrow is better than hoping today and fearing. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:22:00}

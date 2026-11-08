@@ -16,3 +16,7 @@ The Sheikh says that the bearer of the Qur'an should be wise and forbearing, and
 
 ## Humility raised, pride lowered
 The Sheikh quotes a saying, not named in the recording, that whoever is humble God raises and whoever is proud God lowers. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:11:00}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 6)
+
+The Sheikh says the Companions used to say that while the Qur'an was descending on the Messenger they saw Paradise and Hell. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep6 01:21:00} ⁦(needs_source: the recording wording is partly garbled)⁩

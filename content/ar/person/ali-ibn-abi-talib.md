@@ -239,3 +239,7 @@ translators: []
 
 ## في برنامج أحمد عبد السلام «أصلّي عليه»
 ينقل [[person/ahmed-abdussalam|أحمد عبد السلام]] في الحلقة العاشرة من برنامجه [[work/ossali-alayh|«أصلّي عليه»]] عن علي، ويعرّفه بأنه ابن عم النبي وزوج ابنته، أنه سئل عن حب الصحابة للنبي فأقسم أنه كان أحب إليهم من آبائهم وأمهاتهم وأبنائهم وأموالهم ومن الماء البارد على الظمأ. {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:30} ويعود إلى قوله هذا في الحلقة الثانية عشرة بعد قصة عروة بن مسعود. {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:30}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 10)⁩
+
+ينسب الشيخ إلى علي بن أبي طالب قوله من خدعنا لله من خدعنا له. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:41:30} ⁦(needs_source: صياغة التسجيل مضطربة)⁩
