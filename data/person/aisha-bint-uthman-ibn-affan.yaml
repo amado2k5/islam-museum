@@ -1,0 +1,27 @@
+id: person/aisha-bint-uthman-ibn-affan
+class: person
+label: { en: "Aisha bint Uthman ibn Affan", ar: "عائشة بنت عثمان بن عفان", ur: "عائشہ بنت عثمان بن عفان" }
+names:
+  - { kind: full, lang: ar, value: "عائشة بنت عثمان بن عفان القرشية" }
+gender: female
+roles: [scholar]
+traditions: [sunni]
+summary:
+  en: "Daughter of the caliph Uthman, remembered for eloquence and rhetoric: when her father was killed and Ali was given allegiance she delivered a long rebuke of the killers, defending Uthman's right and denouncing the turn to Ali and then to Umar's line of rule."
+  ar: "ابنة عثمان بن عفان؛ وُصفت بأنها من ربات الفصاحة والبلاغة، فلما قُتل أبوها وبويع عليّ ألقت خطبة طويلة أنكر فيها على القتلة سفك الحمى، وذكرت ما أعطى الله عثمان من حجة ومن نصرة المسلمة، ثم انتقدت التحول إلى علي ثم إلى ما جاء بعده من ولاية عمر وأبنائه."
+wings: [people]
+themes: [women, politics-governance-and-authority, factions-splits-schisms]
+periods: [period/rashidun]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: child_of, target: person/uthman-ibn-affan, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+  - { type: related_to, target: person/umar-ibn-al-khattab, note: "تصف في خطبتها استخلاف عمر بن الخطاب وما أعقبه من ترتيب الولاية {cite:alam-al-nisa-kahhala-risala-1984-v3 p. 163}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+  - { type: related_to, target: person/ali-ibn-abi-talib, note: "خطبها بعد مقتل أبيها وبايع عليّ {cite:alam-al-nisa-kahhala-risala-1984-v3 p. 162-163}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
+status: { review: draft, completeness: 1, generated_by: "Devin; A'lam al-Nisa' vol. 3 pp. 162-164+ (PDF), entry عائشة بنت عثمان بن عفان" }
+provenance:
+  layer: own-research
+  source: "source/alam-al-nisa-kahhala-risala-1984-v3"
+  generated_by: Devin
+  model: "SWE-2 Flash High"
+  run: "microsd-books-batch-1"

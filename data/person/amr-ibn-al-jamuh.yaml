@@ -51,6 +51,16 @@ relations:
   target: event/battle-of-uhud
   sources:
   - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/hind-bint-amr-ibn-haram
+  sources:
+  - source/rijal-hawl-al-rasul-muqattam-1994
+  note: زوجته هند بنت عمرو، أخت عبد الله بن عمرو بن حرام، ص 484
+- type: related_to
+  target: person/abdullah-ibn-amr-ibn-haram
+  sources:
+  - source/rijal-hawl-al-rasul-muqattam-1994
+  note: صهره — زوج أخته؛ دُفنا معاً في قبر واحد بأحد، ص 484 و489
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 6442، ص 1091
@@ -61,6 +71,7 @@ external_ids: { wikidata: "Q1148050" }
 sources:
 - source/ibn-hajar-isaba
 - source/samhudi-wafa-al-wafa
+- source/rijal-hawl-al-rasul-muqattam-1994
 status:
   review: published
   completeness: 3

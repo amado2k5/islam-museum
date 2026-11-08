@@ -1,0 +1,26 @@
+id: person/aisha-bint-ali-ibn-abd-al-ghani
+class: person
+label: { en: "Aisha bint Ali ibn Abd al-Ghani", ar: "عائشة بنت علي بن عبد الغني", ur: "عائشہ بنت علی بن عبد الغنی" }
+names:
+  - { kind: full, lang: ar, value: "عائشة بنت علي بن محمد بن عبد الغني بن منصور المكية" }
+gender: female
+died: { edtf: "1412-04~", hijri: "0815-09", calendar: gregorian, precision: month, status: tradition, derived: true, note: "توفيت في رمضان سنة 815هـ عن بضع وسبعين سنة؛ التحويل إلى الميلادي مشتق من التاريخ الهجري {cite:alam-al-nisa-kahhala-risala-1984-v3 p. 185}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+roles: [muhaddith]
+traditions: [sunni]
+summary:
+  en: "A Meccan traditionist of the late Mamluk era who heard readings from scholars of her day — among them Umar ibn Uthman ibn Salim ibn Khalaf (the Juz' al-Ghatraf) and Muhammad ibn Azbak al-Khazindari — and died in Ramadan 815 AH aged about seventy-four."
+  ar: "محدثة مكية من أواخر العصر المملوكي؛ سمعت على جماعة من شيوخ عصرها، منهم عمر بن عثمان بن سالم بن خلف صاحب جزء الغطريف ومحمد بن أزبك الخازنداري، وتوفيت في رمضان سنة 815هـ عن بضع وسبعين سنة."
+wings: [people]
+themes: [women, education]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
+status: { review: draft, completeness: 1, generated_by: "Devin; A'lam al-Nisa' vol. 3 pp. 184-186 (PDF), entry عائشة بنت علي بن محمد بن عبد الغني" }
+provenance:
+  layer: own-research
+  source: "source/alam-al-nisa-kahhala-risala-1984-v3"
+  generated_by: Devin
+  model: "SWE-2 Flash High"
+  run: "microsd-books-batch-1"

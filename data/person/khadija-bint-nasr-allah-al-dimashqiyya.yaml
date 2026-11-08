@@ -1,0 +1,28 @@
+id: person/khadija-bint-nasr-allah-al-dimashqiyya
+class: person
+label: { en: "Khadija bint Nasr Allah al-Dimashqiyya", ar: "خديجة بنت نصر الله الدمشقية", ur: "خدیجہ بنت نصر اللہ الدمشقیہ" }
+names:
+  - { kind: full, lang: ar, value: "خديجة بنت نصر الله الدمشقية" }
+gender: female
+died: { edtf: "1539-08~", hijri: "0946-01", calendar: gregorian, precision: month, status: tradition, derived: true, note: "توفيت في المحرم سنة 946هـ؛ التحويل إلى الميلادي مشتق من التاريخ الهجري {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 348-349}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+roles: [mystic]
+traditions: [sunni]
+summary:
+  en: "A pious woman of Syria who endowed a house she had inherited near the Hanbali congregational mosque in Damascus, a waqf venerated especially among the Rum until the grand vizier Iyas Pasha sent dirhams from Constantinople to restore her dwelling; she died in Muharram 946 AH."
+  ar: "عابدة من عابدات الشام ذات بر وإحسان؛ وقفت بيتاً ورثته من أبيها على جامع الحنابلة بدمشق، وكان للناس اعتقاد فيها وخصوصاً الأروام، حتى إن الوزير الأعظم إياس باشا أرسل من الروم دراهم لتعمير سكنها في الزاوية الداودية؛ وتوفيت في المحرم سنة 946هـ."
+wings: [people]
+themes: [women, spirituality-and-sufism, waqf]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "عابدة دمشقية على مذهب الحنابلة في وصفها؛ تسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: draft, completeness: 1, generated_by: "Devin; A'lam al-Nisa' vol. 1 p. 348-349 (PDF), entry خديجة بنت نصر الله الدمشقية" }
+provenance:
+  layer: own-research
+  source: "source/alam-al-nisa-kahhala-risala-1984-v1"
+  generated_by: Devin
+  model: "SWE-2 Flash High"
+  run: "microsd-books-batch-1"

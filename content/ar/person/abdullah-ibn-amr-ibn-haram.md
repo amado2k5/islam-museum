@@ -3,6 +3,7 @@ id: person/abdullah-ibn-amr-ibn-haram
 lang: ar
 source_lang: en
 translators: []
+provenance: { generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: microsd-books-batch-2, source: "source/rijal-hawl-al-rasul-muqattam-1994", note: "section added to earlier prose" }
 ---
 أبو جابر عبد الله بن عمرو بن حرام السلمي الخزرجي، سيد بني سلمة من الأنصار ووالد الصحابي الجليل جابر بن عبد الله. {cite:mubarakpuri-raheeq}
 
@@ -12,3 +13,12 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية ⁦(عمر عبد الكافي)⁩
 يروي عمر عبد الكافي أن عبد الله بن عمرو الأنصاري أبا جابر قال لابنه يوم المعركة إنه يقدّمه على نفسه، فلما استُشهد طمأن النبي جابرًا بأن الله ما كلّم أحدًا إلا من وراء حجاب إلا أباه، فقد كلّمه كفاحًا، وأنه تمنّى أن يُردّ إلى الدنيا فيُقتل مرة أخرى، فقيل له إنه سبق القول أنهم إليها لا يرجعون. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:07:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:08:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:08:30}
+
+## في رجال حول الرسول
+يعنون [[person/khalid-muhammad-khalid|خالد محمد خالد]] فصله عنه في [[work/rijal-hawl-al-rasul|رجال حول الرسول]] بـ«ظليل الملائكة»، ويذكر أنه كان أحد الأنصار السبعين الذين بايعوا رسول الله بيعة العقبة الثانية، وأن النبي جعله نقيباً على قومه من بني سكمة. {cite:rijal-hawl-al-rasul-muqattam-1994 p.479} {cite:rijal-hawl-al-rasul-muqattam-1994 p.480}
+
+ويذكر أنه تراءى له مصرعه قبل غزوة أحد، فدعا ولده [[person/jabir-ibn-abdullah|جابر بن عبد الله]] وأوصاه بقضاء دينه والاستيثاق بإخوته، وقال: إني والله لا أدع أحداً بعدي أحب إليّ منك بعد رسول الله. {cite:rijal-hawl-al-rasul-muqattam-1994 p.480} فلما دارت المعركة قاتل قتال مودّع وشهيد، ووقف جابر يبكيه فوقف عليه النبي يربئه: أبكوه أم لا تبكوه، فإن الملائكة تظله بأجنحتها. {cite:rijal-hawl-al-rasul-muqattam-1994 p.481}
+
+ويروي الكتاب أن النبي أخبر جابراً أن الله كلم عبده كفاحاً بلا حجاب، فقال: يا عبدي سلني أعطك، فقال: يا رب أسألك أن تردني إلى الدنيا لأقتل في سبيلك ثانية، فقيل له إنه قد سبق القول أنهم إليها لا يرجعون، فأنزل الله تعالى فيهم آية كرامة الشهداء التي يُختم بها الكتاب فصله، وفيها أن القتلى في سبيل الله ليسوا أمواتاً بل أحياء عند ربهم يرزقون. {cite:rijal-hawl-al-rasul-muqattam-1994 p.481} {cite:rijal-hawl-al-rasul-muqattam-1994 p.482}
+
+ويذكر أن النبي أمر أن يُدفن عبد الله بن عمرو وعمرو بن الجموح في قبر واحد، فإنهما كانا في الدنيا متحابين متصافيين، ويذكر أن جابراً وجد جسدهما بعد ستة وأربعين سنة — حين أجرى معاوية عين ماء — كأنهما نائمان لم تأكل الأرض منهما شيئاً. {cite:rijal-hawl-al-rasul-muqattam-1994 p.482} {cite:rijal-hawl-al-rasul-muqattam-1994 p.489}
