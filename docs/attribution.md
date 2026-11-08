@@ -8,6 +8,7 @@ The museum's structured data is CC0 and its prose CC BY-SA 4.0 (see `LICENSE-CON
 | [GeoNames](https://www.geonames.org) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Place identifiers (`external_ids.geonames`), coordinates and alternate names used for reconciliation |
 | [Pleiades](https://pleiades.stoa.org) gazetteer of ancient places | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Place identifiers (`external_ids.pleiades`) and ancient names used for reconciliation |
 | [Wikidata](https://www.wikidata.org) | CC0 1.0 | Identifiers, labels, dates and relations for seed entities |
+| [IDEO Diamond / AlKindi](https://opac.diamondrda.org) | No licence stated — facts-only (verified 8 Nov 2026; founder-approved `dec-20261108-191`) | Work and author authority records: authorship, work identity, edition/translation history and typed work-to-work relations for the works backlog |
 | [The Metropolitan Museum of Art Open Access](https://github.com/metmuseum/openaccess) | CC0 1.0 | Object metadata (Islamic Art department); images only where the record is marked public domain |
 | [OpenITI Makhzan](https://zenodo.org/records/19861912) 2026.1.2 | CC BY-NC-SA 4.0 | Read and rewritten in the museum's own words with citations to the underlying works; quotations at most 40 words; the corpus text itself is never republished |
 | Wikipedia (all languages) | CC BY-SA 4.0 | Discovery and context; may be read and its leads followed; not cited as a source (a reliability rule, not a licence rule) |
