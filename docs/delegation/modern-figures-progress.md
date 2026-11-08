@@ -841,3 +841,20 @@ No faith values changed; no records built or struck. The lane's two remaining op
 - Identity catch (the writer's, evidence over brief): the pre-existing source/tehreek-labbaik-islam-about is about Tehreek Labbaik ISLAM — Dr Muhammad Ashraf Asif Jalali's party, the political wing of Tehreek-e-Labbaik Ya Rasool Allah — a DIFFERENT organisation from Tehreek-e-Labbaik PAKISTAN, whose media cell this is. It was read, deliberately not cited, and left untouched; a new Wikipedia source for TLP was registered instead (TLP founded 1 August 2015 by Khadim Hussain Rizvi at Nishtar Park, Karachi; led by Saad Hussain Rizvi; banned 23 October 2025).
 - founded carries ONLY the channel's creation date (2021-04-26, per vidIQ); TLP's own 2015 founding is stated separately — no conflation. No relations (this lane's group pattern). Regions: south-asia.
 - Coordinator gates: the group files were part of the same staging snapshot and hash sweep as §A (80 new files across the wave, 0 pre-existing files changed); the schema preflight ran clean on the group record and its sources (0 issues), including the Arabic-parenthesis rule that caught Karimi's labels in §A — the group files needed no repair.
+
+## Wave 195 — Ethiopia / Amharic scene (2026-11-07)
+
+First Ethiopian pass (the lane's standing coverage gap). Harvest: `islam-museum-modern-figures-harvest-wave195-2026-11-07.md`. Built 6 (persons 2,146 → 2,150; groups 394 → 396):
+
+- **person/ahmedin-jebel** — Facebook 1,400,000 followers (harvest same-day post-metadata read 2026-11-07; FB fetch blocked at build, disclosed); TikTok 263,700 (writer's fresh read). Faith **unknown** — no sentence attests a school for the man himself; closest framings are scene-level, preserved in the note.
+- **person/abdurahman-hussen** — TikTok 819,900 (writer's direct read 2026-11-07, superseding the harvest's unverifiable 700K milestone post). Faith **unknown**.
+- **person/hayder-kedir** — Facebook 320,000 (harvest post-metadata read, disclosed). Faith **unknown**; his youth-council presidency expressly attests nothing.
+- **person/riyad-abdullah** — Facebook 280,000 (harvest read, disclosed); his lectures publish on Ifa Rahmataa TV (YouTube 80K, below bar there); channel ownership not asserted — unverifiable from the channel itself. Faith **unknown**.
+- **group/harun-media** — Facebook 570,000; YouTube 398,000 subs (fresh vidIQ read 2026-11-07). Founded date = channel creation 2017-01-02, noted as such.
+- **group/rahma-islamic-organisation** — street-dawah group; Facebook 240,000; TikTok 576,400 (build-stage corroboration, disclosed). Owner/head not identified — stated as absence.
+
+Disclosed imperfections (lane precedent): the Facebook source records for hayder-kedir and rahma-islamic-organisation carry no URL field — neither page's URL could be pinned by search, and no URL was guessed; validate passes (URL is optional in the source schema).
+
+Dedupe: **muaz-habib was already built (wave 192)** — the harvest's Tier 1A #3, not rebuilt. **AfricaTV1 resolved:** the built group/africa-tv IS YouTube @AfricaTV3 (Nigerian Hausa; fresh vidIQ 258,000) — the harvest's 357K "AfricaTV1" is the same channel under a variant name in an Ethiopia list; no distinct Ethiopian AfricaTV1 exists. Do not build.
+
+Watch (no fresh qualifying re-read obtainable 2026-11-07; Facebook is not fetchable logged-out): **raya-abba-macca** (RVI Nov 2022: 1.2M — stale), **kamil-shamsu** (RVI: 400K+; 2023 dataset read 290,541), **yasin-nuru** (RVI: ~360K), **bedru-hussein** (YouTube ~97.5K reported, unverified). All four are rescuable by an on-platform live-browser read in a later wave. No qualifying Ethiopian woman dawah figure (≥50K) was found despite an explicit harvest search — genuine gap; a TikTok-first second pass is the recommended route.
