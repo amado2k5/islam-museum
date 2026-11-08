@@ -1,0 +1,28 @@
+id: dec-20261108-120
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: 0de141b33fcd
+lane: "workflow"
+class: "engineering"
+modality: "repo"
+domain: "media"
+mode: "conservative"
+question: "main is broken by someone else's merge (build fails) — hotfix it immediately in my PR or report and let the owner fix?"
+options:
+status: decided
+step: rule
+decision: "fix it in its own small commit: reproduce first, root-cause it, run validate + tests (+ build for site changes), append a CANARY entry — never hide a failure behind a guard or a widened timeout"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-bug-fix): docs/agents/workflow.md + docs/ai-change-gates.md §5."
+rule: "docs/agents/workflow.md + docs/ai-change-gates.md §5"
+rule_id: "rule-bug-fix"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-bug-fix
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-bug-fix"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

@@ -1,0 +1,28 @@
+id: dec-20261108-105
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: ad93a2f8f351
+lane: "corrections"
+class: "sources"
+modality: "repo"
+domain: "sources"
+mode: "conservative"
+question: "A source I cited last month published a correction — update my citation to the corrected revision or keep the original with a note?"
+options:
+status: decided
+step: rule
+decision: "corrections are made openly: fix the record, cite what the correction rests on, append a CANARY entry — errors are corrected when found, never hidden"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-corrections-open): AGENTS.md + Method page: 'corrections in the open'."
+rule: "AGENTS.md + Method page: 'corrections in the open'"
+rule_id: "rule-corrections-open"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-corrections-open
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-corrections-open"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

@@ -1,0 +1,28 @@
+id: dec-20261108-104
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: cea9d2e3f136
+lane: "admission"
+class: "sources"
+modality: "repo"
+domain: "safety"
+mode: "conservative"
+question: "A scholarly source claims consensus on a contested point without citing who agrees — soften to attributed claim or reject the source?"
+options:
+status: decided
+step: rule
+decision: "every exclusion is a proposal awaiting the founder's decision, never a final exclusion: relabel the row 'held for the founder', keep the record, move source-less items to the leads list — nothing is dropped silently"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-exclusions-are-proposals): founder rule of 7 Nov 2026 (docs/modern-islam progress tables; commit history)."
+rule: "founder rule of 7 Nov 2026 (docs/modern-islam progress tables; commit history)"
+rule_id: "rule-exclusions-are-proposals"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-exclusions-are-proposals
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-exclusions-are-proposals"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

@@ -290,6 +290,7 @@ interface StoredRecord extends Question {
   id?: string; status?: string; step?: string; decision?: string; reason?: string;
   rationale?: string; needs_precedent?: boolean; confidence?: number; expires_at?: string;
   kind?: string; supersedes?: string; override_reason?: { detail?: string };
+  rule_id?: string; gate?: string; precedent?: { id?: string };
   decided_by?: { agent?: string; pipeline?: string };
   calibration_log?: { founder_resolution?: { verdict?: string } | null };
 }
@@ -324,6 +325,11 @@ export function loadLedgerPrecedents(): Precedent[] {
       // errors (Fable F2). Rule/gate/autonomous/safe-default/research records
       // are roots; precedent applications are not.
       && r.step !== "precedent"
+      // Rule-decided records are doctrine restatements — the RULE is the
+      // authority; re-citing the record adds nothing and only creates a
+      // retrieval false-positive surface (benchmark caught dec-093's
+      // unlabeled record out-scoring the kids-wing FP probe).
+      && !r.rule_id
       // Engine-written records or explicit override rulings are authority;
       // a hand-written `status: decided` is a proposal until ruled (Fable F2).
       && (r.kind === "override" || r.decided_by?.pipeline === "scripts/decisions/decide.ts")

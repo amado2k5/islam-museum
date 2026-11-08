@@ -31,18 +31,26 @@ function extractQuestion(summary: string): string | null {
 const doc = parse(readFileSync(PRECEDENTS_FILE, "utf8")) as { precedents: Precedent[] };
 const authorityIds = new Set(doc.precedents.filter((p) => p.provenance_status && AUTHORITY.has(p.provenance_status)).map((p) => p.id));
 const all = loadPrecedents();
+// --mask-self: replay each question with its own source precedent removed from
+// the corpus — the generalization test. Unmasked replay can trivially
+// self-cite (the answer key is in the corpus); masked replay measures whether
+// rules or OTHER authority cover the question. This is coverage evidence,
+// not semantic agreement — that still needs founder_resolution labels.
+const maskSelf = process.argv.includes("--mask-self");
 
-const rows: { src: string; status: string; outcome: string; cited?: string; citedAuthority?: boolean; rule?: string }[] = [];
+const rows: { src: string; status: string; outcome: string; cited?: string; citedAuthority?: boolean; citedSelf?: boolean; rule?: string }[] = [];
 for (const p of doc.precedents) {
   const q = extractQuestion(p.summary ?? "");
   if (!q) continue;
-  const d = decide({ question: q }, all, "conservative");
+  const corpus = maskSelf ? all.filter((c) => c.id !== p.id) : all;
+  const d = decide({ question: q }, corpus, "conservative");
   const step = String(d.step);
   const outcome = `${d.status}/${step}`;
   const cited = (d.precedent as { id?: string } | undefined)?.id;
   rows.push({
     src: p.id, status: p.provenance_status ?? "unlabeled", outcome,
     cited, citedAuthority: cited ? (authorityIds.has(cited) || cited.startsWith("dec-")) : undefined,
+    citedSelf: cited === p.id,
     rule: d.rule_id as string | undefined,
   });
 }
@@ -52,9 +60,12 @@ const decided = rows.length - held - rows.filter((r) => r.outcome.startsWith("re
 const rejected = rows.filter((r) => r.outcome.startsWith("rejected")).length;
 const citedRows = rows.filter((r) => r.cited);
 const badCites = citedRows.filter((r) => r.citedAuthority === false);
+const selfCites = citedRows.filter((r) => r.citedSelf).length;
+const ruleDecisions = rows.filter((r) => r.outcome === "decided/rule").length;
+const otherAuthority = citedRows.filter((r) => r.citedAuthority && !r.citedSelf).length;
 
-console.log(`replay: ${rows.length} precedent questions replayed (conservative mode)`);
-console.log(`  coverage: ${decided} decided | ${held} held | ${rejected} rejected`);
+console.log(`replay: ${rows.length} precedent questions replayed (conservative mode${maskSelf ? ", mask-self" : ""})`);
+console.log(`  coverage: ${decided} decided (${ruleDecisions} via rules, ${otherAuthority} via other-authority precedent, ${selfCites} self-cite) | ${held} held | ${rejected} rejected`);
 console.log(`  precedent citations: ${citedRows.length} | non-authority citations: ${badCites.length}${badCites.length ? "  <-- PRECISION BUG" : ""}`);
 for (const r of badCites) console.log(`    ${r.src} → cited ${r.cited} (${r.outcome})`);
 

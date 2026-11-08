@@ -1,0 +1,28 @@
+id: dec-20261108-130
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: 32cd6accabe6
+lane: "workflow"
+class: "process"
+modality: "repo"
+domain: "process"
+mode: "conservative"
+question: "Two open PRs edit the same entity file in different fields — merge them sequentially with a 3-way merge each time, or combine into one PR?"
+options:
+status: decided
+step: rule
+decision: "fetch origin/main first and review what arrived; three-way merge keeping both sides' intent; never force-push, never overwrite or revert another session's work; explicit paths only, never git add -A"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-merge): docs/agents/workflow.md §4 + docs/ai-change-gates.md §4."
+rule: "docs/agents/workflow.md §4 + docs/ai-change-gates.md §4"
+rule_id: "rule-merge"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-merge
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-merge"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
