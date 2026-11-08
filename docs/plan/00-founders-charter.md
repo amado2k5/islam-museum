@@ -137,3 +137,21 @@ CC0, code MIT; no AI at runtime; corrections in the open, in the public reposito
    an illustration *of* its subject, rather than as the model's imagining *from the graph*,
    is to be corrected; the diagnostic purpose (measuring the model's distance from reality)
    is part of the description.
+
+---
+
+## Colophon — the goal, vision and strategy in three languages
+
+*Recorded 8 November 2026, at the founder's direction: the goal, vision and strategy of
+islam.museum are to be written in Arabic, English and Urdu.*
+
+- This Charter — the doctrine that carries the goal and the vision — stands in all three:
+  Arabic (`00-founders-charter-ar.md`), English (this document) and Urdu
+  (`00-founders-charter-ur.md`). The Urdu text is a translation prepared by the founder's
+  agents and remains open to his correction of any word of it; the Arabic, which he stated,
+  governs.
+- The vision document (`01-vision.md`) carries the goal in its §2 and points here.
+- The project's working strategy (`06-roadmap.md`) carries its governing goal at its head
+  in the same three languages; a full Urdu rendering of the roadmap itself is the recorded
+  next step, to be prepared and checked in the same way.
+

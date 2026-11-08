@@ -11,7 +11,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const M = T.method;
 const sections: { id: string; title: string; body: string[] }[] = [
-  { id: "charter", title: M.charter_title, body: [M.charter_body] },
+  { id: "charter", title: M.charter_title, body: [M.charter_body, M.goal_body] },
   { id: "holds", title: M.holds_title, body: [M.holds_body] },
   { id: "standard", title: M.standard_title, body: [M.standard_body] },
   { id: "choose", title: M.choose_title, body: [M.choose_1, M.choose_2] },

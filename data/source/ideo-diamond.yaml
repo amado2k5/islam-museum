@@ -1,0 +1,21 @@
+id: source/ideo-diamond
+class: source
+kind: reference_data
+type: webpage
+label:
+  ar: "كتالوج دايموند / الكندي ⁦(معهد الدراسات الشرقية للدومنيكان، القاهرة)⁩"
+  en: "IDEO Diamond / AlKindi catalogue (Dominican Institute for Oriental Studies, Cairo)"
+  ur: "IDEO Diamond / AlKindi catalogue (Dominican Institute for Oriental Studies, Cairo)"
+summary:
+  ar: "فهرس مرجعي بمعيار IFLA-LRM/RDA يضم أكثر من ٢٣٠٬٠٠٠ عمل و١١٦٬٠٠٠ اسم، تشترك فيه إحدى عشرة مكتبة ⁦(معهد الدراسات الشرقية للدومنيكان بالقاهرة، والمكتبة الرسولية الفاتيكانية، ومعهد المخطوطات العربية التابع لجامعة الدول العربية وغيرها)⁩، ويديره منذ ٢٠٢١ مركز LRM-CS في باريس. يسجّل المصنّفات وطبعاتها وترجماتها والعلاقات المصرّح بها بين الأعمال: الشروح والردود والاختصارات والتتمات."
+  en: "An IFLA-LRM/RDA authority catalogue of more than 230,000 works and 116,000 agents, shared by eleven libraries (IDEO in Cairo, the Vatican Apostolic Library, the Arab League's Institute of Arabic Manuscripts and others) and stewarded since 2021 by LRM-CS in Paris. It records works, their editions and translations, and typed relations between works: commentaries, refutations, abridgements and sequels."
+  ur: "An IFLA-LRM/RDA authority catalogue of more than 230,000 works and 116,000 agents, shared by eleven libraries (IDEO in Cairo, the Vatican Apostolic Library, the Arab League's Institute of Arabic Manuscripts and others) and stewarded since 2021 by LRM-CS in Paris. It records works, their editions and translations, and typed relations between works: commentaries, refutations, abridgements and sequels."
+title: "IDEO Diamond / AlKindi — General Diamond Catalog"
+publisher: "Dominican Institute for Oriental Studies (IDEO), Cairo; stewarded by LRM-CS, Paris"
+URL: "https://ideo.diamondrda.org"
+language: multilingual
+reliability_note: "An institutional authority catalogue built natively on IFLA-LRM/RDA by professional cataloguers, with records designed to be precise and sourced; strong for bibliographic facts — authorship and attribution, work identity across editions and translations, edition history, and typed work-to-work relations (commentary on, refutation of, abridgement of, sequel to) — and for author dates and teacher/disciple relations as corroboration. Cite as {cite:ideo-diamond work/1781} for a work or {cite:ideo-diamond agent/<id>} for a person or organisation; the record resolves by appending the anchor to https://ideo.diamondrda.org/ (for example work 1781 is al-Jahiz's al-Bukhala'). Never a source for the contents of a work: the museum mines the book itself for that. Licensing: no licence for the catalogue data is published anywhere (verified 8 November 2026); LRM-CS states an open-data ethos, which is not a licence, so the museum's posture is facts-only with attribution until terms are confirmed in writing — record text is never republished and no bulk harvest is run (no public API or dump exists; the machine channel today is the Wikidata crosswalk, properties P8795 for agents and P11979 for works). Not any other 'Diamond' database: this is the IDEO/LRM-CS catalogue, originally named AlKindi. Assessment: ~/workspace research of 8 November 2026 (IDEO and LRM-CS documentation, Wikidata property records); the live OPAC returned 403 to the research fetcher, so record pages themselves were corroborated through Wikidata formatter URLs and AlFehrest's outbound links rather than opened directly."
+sources: [source/ideo-diamond]
+open_access: true
+provenance: { layer: own-research, source: "IDEO and LRM-CS published documentation, IDEO newsletter (May 2024), Wikidata property pages P8795 and P11979 — assessed 8 Nov 2026", generated_by: "Muse", model: "Muse Wonder", run: ideo-diamond-registration-2026-11-08 }
+status: { review: published, generated_by: "Muse" }

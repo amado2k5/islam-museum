@@ -1,5 +1,39 @@
 # 06 · Roadmap and seed content
 
+> **The governing goal — in the museum's three languages** (Founder's Charter, Article 0,
+> 8 November 2026; the founder's direction of the same day is that the goal, vision and
+> strategy be written in Arabic, English and Urdu):
+>
+> **English.** Islam — with all its contents, its figures, its events, its places, everything
+> about it — available to everyone, in an easy, simplified form readable by the old and the
+> young, by Arab and non-Arab, by Muslim and non-Muslim; and anyone free to reshape the
+> information and the knowledge graph in any way, in any form, in any application that suits
+> their own users — above all schools, universities and study circles. Knowledge that once
+> demanded many books and a lifetime is now nearly unreachable for the new generations; the
+> knowledge graph is the bridge: a revival of the religious sciences for this age and the
+> future. This roadmap is the working strategy in service of that goal.
+>
+> **العربية.** الإسلام بكل محتوياته وشخصياته وأحداثه وأماكنه وكل شيء عنه متاحًا للجميع،
+> في صورة سهلة مبسّطة يقرؤها الكبير والصغير والعربي وغير العربي والمسلم وغير المسلم؛ وأن
+> يقدر أي أحد أن يشكّل المعلومات والرسم المعرفي بأي طريقة وفي أي شكل وفي أي تطبيق يناسب
+> مستخدميه — وبالذات المدارس والجامعة وحلقات العلم. فثمة معلومات ما كانت تُنال إلا بقراءة
+> كتب كثيرة وبذل وقت ومجهود كبيرين، وقد صار ذلك شبه مستحيل على الأجيال الجديدة؛ فالرسم
+> المعرفي هو الكوبري: إحياء لعلوم الدين لهذا العصر وللمستقبل. وهذه الخطة هي استراتيجية
+> العمل في خدمة هذا الهدف.
+>
+> **اردو.** اسلام — اپنے تمام محتوا، اپنی شخصیات، اپنے واقعات، اپنے مقامات، غرض اس کے بارے
+> میں ہر چیز کے ساتھ — ہر ایک کے لیے دستیاب ہو، آسان اور سادہ صورت میں، جو بڑا اور چھوٹا،
+> عرب اور غیر عرب، مسلم اور غیر مسلم پڑھ سکے؛ اور ہر کوئی معلومات اور نالج گراف کو کسی بھی
+> صورت، کسی بھی شکل اور کسی بھی ایپلیکیشن میں ڈھال سکے جو اس کے اپنے صارفین کے لیے موزوں
+> ہو — سب سے بڑھ کر اسکول، جامعات اور حلقاتِ علم۔ وہ علم جو کبھی بہت سی کتابیں اور عمر بھر
+> کی محنت مانگتا تھا، نئی نسلوں کے لیے اب تقریباً ناقابلِ رسائی ہے؛ نالج گراف ہی وہ پل ہے:
+> اس عہد اور مستقبل کے لیے علومِ دین کا احیاء۔ یہ روڈ میپ اسی مقصد کی خدمت میں عملی
+> حکمتِ عملی ہے۔
+>
+> The full Charter stands in Arabic, English and Urdu (`00-founders-charter-ar.md`,
+> `00-founders-charter.md`, `00-founders-charter-ur.md`); a full Urdu rendering of this
+> roadmap is the recorded next step.
+
 ## What comes next (living — updated 2026-11-03)
 
 The phases below are the founding plan, kept for the record. The museum's maintained

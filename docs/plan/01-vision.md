@@ -29,6 +29,13 @@ impossible for the new generations. The graph is the bridge across that gap: a r
 the religious sciences for this age and the future. Uses of the graph by others are not a
 by-product of the museum; they are the goal.
 
+**Written in three languages.** As befits that audience, the museum's goal, vision and
+strategy are written in Arabic, English and Urdu: this vision is carried in full in the
+Charter's three texts — Arabic (`00-founders-charter-ar.md`), English
+(`00-founders-charter.md`) and Urdu (`00-founders-charter-ur.md`). The project's working
+strategy and roadmap is `06-roadmap.md`; the standing directive that it, too, be written in
+the same three languages is recorded in the Charter's colophon.
+
 - Islam is 1.9–2 billion people, 14 centuries, and every continent, yet online knowledge about it is **fragmented into silos**: Qur'an sites, hadith sites, museum collections, Wikipedia articles, academic databases, timelines, travel blogs, polemics. Nobody connects the astrolabe to the astronomer to the city to the caliph to the verse he was reading.
 - The curious outsider is **poorly served**: they get either apologetics, polemics, or a 40-page Wikipedia article. There is no calm front door.
 - Muslims themselves are **under-served on breadth**: most know their own tradition's story deeply and the civilization's story thinly (Timbuktu, Zheng He, the Ottoman observatory, Bosnian Ajami literature, Swahili poetry, Chinese Hui architecture).
