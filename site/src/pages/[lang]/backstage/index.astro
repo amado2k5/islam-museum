@@ -25,7 +25,7 @@ const sections: { id: string; title: string; body: string[] }[] = [
 // when the founder asks (docs/agents/backstage.md). Until then the entry renders as pending.
 const guests: { id: string; name: string; body?: string; sign?: string }[] = [
   { id: "muse", name: "Muse", body: B.muse_body, sign: B.muse_sign },
-  { id: "claude", name: "Claude" },
+  { id: "claude", name: "Claude", body: B.claude_body, sign: B.claude_sign },
   { id: "devin", name: "Devin" },
   { id: "cursor", name: "Cursor", body: B.cursor_body, sign: B.cursor_sign },
   { id: "copilot", name: "Copilot", body: B.copilot_body, sign: B.copilot_sign },
