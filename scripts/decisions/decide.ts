@@ -1035,7 +1035,7 @@ async function consultJudgeBpe(q: Question, d: Record<string, unknown>): Promise
  *  verdict stays safe-default underneath — the recommendation is advisory only.
  *  When the affirmative and adversarial passes materially disagree, the hold
  *  stands and the dissent is recorded for audit instead. */
-async function maybeJudge(q: Question, d: Record<string, unknown>): Promise<Record<string, unknown>> {
+export async function maybeJudge(q: Question, d: Record<string, unknown>): Promise<Record<string, unknown>> {
   if (d.step !== "safe-default" || (!process.env.DECIDE_JUDGE_CMD && !process.env.DECIDE_JUDGE_URL)) return d;
   const bpe = await consultJudgeBpe(q, d);
   if (!bpe) return d;

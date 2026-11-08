@@ -89,10 +89,19 @@ AI-Editor: <editor or host the agent ran in, e.g. Claude desktop app, VS Code, C
 
 - `docs/agents/lanes.md` says who owns what. Stay in your lane; for a change in someone else's lane make the minimal, additive change described above, or write a request file and use the closest existing option meanwhile.
 - Keep your lane's progress file (`docs/delegation/<lane>-progress.md`) current after every push: edition and item used, sections done with pages, section in progress, flagged doubts, the exact next step. Update your lane's row in `docs/status.md` when a book or a stream finishes.
-- If you cannot decide something, flag it in the progress file and continue with the next item; do not stop to ask unless the lane document says to. Never wait for the founder's sign-off on using a source, writing an entity, or committing and pushing validated work: that permission is standing (`docs/sources-policy.md` §5).
+- If you cannot decide something, do not stop to ask and do not guess: drop the question in the decision inbox (section 9) and continue with the next item; do not stop to ask unless the lane document says to. Never wait for the founder's sign-off on using a source, writing an entity, or committing and pushing validated work: that permission is standing (`docs/sources-policy.md` §5).
 - Long jobs (downloads, extraction) run in the harvest workspace outside the repository, use a separate database file per job so locks do not collide, and never block other sessions. After merging anything, record in `docs/status.md` what changed and what the next session should know.
 
-## 9. Deploying to Cloudflare: manual, founder only
+## 9. When you cannot decide something: the decision ledger
+
+Every ambiguity becomes a ledger record, not a blocking question. The engine (`scripts/decisions/decide.ts`, rules in `docs/decisions/rules.yaml`) decides by canonical rule, cited precedent or founder override — or holds conservatively and logs it. The founder samples the ledger asynchronously; his verdicts become calibration data and, where substantive, override records that answer the same question forever after.
+
+- **Ask:** write `docs/decisions/inbox/<lane>-<slug>.yaml` — `{question, lane, class?, evidence?, options?, proposed_action?}` — then run `npx tsx scripts/decisions/decide.ts --batch docs/decisions/inbox --write`. Records land in `docs/decisions/records/`; commit them with your work.
+- **Judge assist (optional):** `npm run decisions:local -- --batch docs/decisions/inbox --write` adds local-model recommendations on held questions (build-time only, advisory — the deterministic engine still decides).
+- **Never bypass the hard gates:** deploys, spend, outreach, deletions and the content-safety block always reach the founder regardless of mode. An engine `rejected` or `founder-docket` outcome is final for your session — take the safe default it names and move on.
+- **Check before re-asking:** `docs/decisions/digest.md` lists open docket items; `npx tsx scripts/decisions/audit.ts` shows which rules the founder keeps rejecting. Full docs: `docs/decisions/README.md`.
+
+## 10. Deploying to Cloudflare: manual, founder only
 
 **Where files go (founder rule, 28 Oct 2026).** Cloudflare Pages holds code and logic only. Data, content, maps, images, pictures and video go to Cloudflare R2, served by the site Worker. A new folder of data or media is added to `R2_DATA_DIRS` in `workers/site/src/route.js`, the publish list in `workers/r2-sync/batch/publish.mjs`, `run_worker_first` in `workers/site/wrangler.production.toml` and both `rm -rf` lines in `.github/workflows/deploy.yml`; never leave it on Pages. Details: `docs/engineering/06-deployment.md` "What goes where".
 
