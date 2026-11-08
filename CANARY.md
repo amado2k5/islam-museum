@@ -115,6 +115,8 @@ open a new block on top with the new version and today's date.
 - **Harvest-wave enrichment: three scholar records gap-filled from Siyar A'lam al-Nubala (al-Dhahabi).** `person/ibn-taymiyya`, `person/al-nawawi` and `person/ibn-daqiq-al-id` each gain a cited sentence from juz 17 of the Dar al-Risala edition (entries 6736, 6445, 6098; printed pages 541, 340, 125) in Arabic and English (run lib-wave-21-siyar-alam-nubala-1).
 - **Harvest-wave enrichment: four scholar records gap-filled from Tadhkirat al-Huffaz (al-Dhahabi).** `person/ibn-al-jawzi`, `person/al-nawawi`, `person/ibn-daqiq-al-id` and `person/ibn-taymiyya` each gain a cited sentence from part 4 of the Hyderabad third edition (entries 1098, 1162, 1168, 1175; printed pages 1342, 1470, 1481, 1496) in Arabic and English — the book's first citations anywhere in the graph (run lib-wave-21-tabaqat-huffaz-1).
 
+- **Harvest-wave enrichment: five place records gap-filled from the Rihla of Ibn Battuta.** `place/damascus` (his arrival on 9 Ramadan 726, the Sharbashiyya madrasa, Ibn Jubayr's «jannat al-mashriq», printed pp. 50–52), `place/mecca` (the Sacred Mosque's gates and measures, Dar al-Nadwa, printed pp. 85–88), `place/quanzhou` («madinat al-zaytun», the name's origin, its cloths and Muslim quarter, printed pp. 163–164), `place/gao` (Mansa Sulayman's seat, his months there, printed pp. 197–198) and `place/timbuktu` (the Masufa, Farba Musa, al-Sahili's tomb, printed pp. 206–207) each gain a cited account from the 1958 Maktaba Tijariyya scan — page offsets re-verified against footers (part 1 printed = PDF − 4; part 2 printed = PDF − 260), correcting the source record's note (run lib-wave-21-rihla-ibn-battuta-1).
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests

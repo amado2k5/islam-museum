@@ -3,13 +3,13 @@ class: place
 kind: city
 label: { en: Mecca, ar: مكة المكرمة }
 summary:
-  ar: مدينة في الحجاز، مسقط رأس النبي محمد وموضع الكعبة ومقصد الحج السنوي.
-  en: City in the Hejaz, birthplace of the Prophet Muhammad and site of the Kaaba and the annual Hajj.
+  ar: مدينة في الحجاز، مسقط رأس النبي محمد وموضع الكعبة ومقصد الحج السنوي. ويصف ابن بطوطة المسجد الحرام في عهده فيعد أبوابه العشرة وقبابه ومصاطبه، ويقيس المسافة بين الصفا والمروة بالخطوات، ويذكر دار الندوة التي جُعلت مسجداً جامعاً مضافاً إلى الحرم {cite:rihla-ibn-battuta-1958 p. 85-88}
+  en: City in the Hejaz, birthplace of the Prophet Muhammad and site of the Kaaba and the annual Hajj. Ibn Battuta describes the Sacred Mosque in his day, counting its ten gates, domes and porticoes, measuring the distance between al-Safa and al-Marwa in steps, and noting that Dar al-Nadwa was made a congregational mosque attached to the haram {cite:rihla-ibn-battuta-1958 p. 85-88}
 wings: [place]
 regions: [arabia]
 coordinates: [21.4225, 39.8262]
 external_ids: { wikidata: Q5806, geonames: "104515" }
-sources: [source/bakr-umayyad-state-1134715]
+sources: [source/bakr-umayyad-state-1134715, source/rihla-ibn-battuta-1958]
 education:
   did_you_know:
     ar: "مكة في الحجاز مسقط رأس النبي محمد وموضع الكعبة ومقصد الحج السنوي."
@@ -25,7 +25,7 @@ provenance:
   source: "education fact engine batch 4 — did_you_know fact drafted in three languages from the record's own cited sources"
   generated_by: Devin
   model: "unknown"
-  run: "education-E3-facts-batch4"
+  run: "education-E3-facts-batch4; lib-wave-21-rihla-ibn-battuta-1"
 kids:
   ar: "مكة أقدس مدينة في الإسلام، فيها الكعبة التي يتوجه إليها المسلمون في الصلاة ويقصدونها في الحج."
   en: "Mecca, the holiest city in Islam — it holds the Kaaba, the house Muslims face in prayer and journey to for Hajj."
