@@ -505,16 +505,19 @@ export function questionText(q: Question): string {
 export function decide(q: Question, precedents: Precedent[], mode?: "autonomous" | "conservative", semantic?: SemanticContext | null): Record<string, unknown> {
   const rs = loadRuleset();
   const m = mode ?? rs.mode ?? "conservative";
-  // Gates, rules, founder-reserved and domain matching score the QUESTION only —
-  // options/evidence/proposed_action are asker-controlled and must not steer the
-  // outcome (same anti-stuffing rule as precedent scoring, audit H5).
+  // Gates, hard-rejects, founder-reserved and domain classification scan the
+  // question PLUS proposed_action — a dangerous proposal must never slip past
+  // a gate just because the question text is innocuous (Claude audit #1).
+  // Rules and precedent scoring stay question-only: asker-written options and
+  // evidence must not steer the outcome (anti-stuffing, audit H5/F3).
+  const gateText = `${q.question ?? ""} ${q.proposed_action ?? ""}`;
   const text = q.question ?? "";
-  const domain = classifyDomain(text, rs);
+  const domain = classifyDomain(gateText, rs);
   const trace: TraceStep[] = [{ stage: "domain", result: domain }, { stage: "mode", result: m }];
 
   // In autonomous mode the engine decides founder-reserved questions like any
   // other; in conservative mode they defer to the docket.
-  if (m === "conservative" && rs.founder_reserved && hits(text, rs.founder_reserved)) {
+  if (m === "conservative" && rs.founder_reserved && hits(gateText, rs.founder_reserved)) {
     trace.push({ stage: "founder-reserved", result: "docket", detail: "question explicitly reserves the decision to the founder" });
     return {
       status: "founder-docket", step: "founder-reserved",
@@ -528,7 +531,7 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
   // A proposal that is both gated and forbidden ("deploy the page with the
   // prophet portrait") must reject, never get an autonomous substitute.
   for (const g of rs.gates.hard_reject) {
-    if (hits(text, g.pattern)) {
+    if (hits(gateText, g.pattern)) {
       trace.push({ stage: "hard-reject", result: g.id, detail: g.reason });
       return {
         status: "rejected", step: "hard-reject", reason: g.reason,
@@ -547,6 +550,7 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
   const deadIds = new Set(readRecords().map((r) => r.supersedes).filter((x): x is string => !!x));
   const override = readRecords().find((r) =>
     r.kind === "override" && r.status === "decided" && !deadIds.has(r.id ?? "")
+    && r.calibration_log?.founder_resolution?.verdict === "approved"
     && !(r.expires_at && r.expires_at < new Date().toISOString().slice(0, 10))
     && (r.question_hash === qHash || (r.question && questionHash(r) === qHash)));
   if (override) {
@@ -566,7 +570,7 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
   // invents authority. Gates flagged no_negation in rules.yaml ignore the
   // negation guard: "do not delete" phrasing tricks must never disarm them.
   for (const g of rs.gates.non_delegable) {
-    if (hits(text, g.pattern, !(g as { no_negation?: boolean }).no_negation)) {
+    if (hits(gateText, g.pattern, !(g as { no_negation?: boolean }).no_negation)) {
       // Autonomous gate-mapping requires BOTH mode: autonomous AND the question's
       // domain on the safe_proceed list — a deploy question about faith content
       // dockets even in autonomous mode (fail-closed per-domain promotion).

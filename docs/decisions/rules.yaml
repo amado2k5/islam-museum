@@ -43,22 +43,6 @@ safe_proceed:
 autonomous:
   founder_reserved: "question reads as founder-reserved — in autonomous mode the engine decides it through rules, precedent or safe default like any other"
   gates:
-    nd-deploy:
-      decision: "deploy economics — the engine decides cadence, not permission: deploy ONLY when (a) site/, workers/ or schema code changed, (b) a milestone, wing completion or UAT verification is due, or (c) the content delta since last deploy exceeds ~25 entities or one full lane batch; batch pure-content days into the next scheduled deploy; never deploy docs-only changes, POC branches, or per-commit — each deploy re-uploads changed R2 objects and Pagefind chunks, so frequency is the cost driver"
-      confidence: 0.9
-      reversible: true
-    nd-delete:
-      decision: "never delete — merge into the richer record or keep the id under aliases; deletion is not an action any model may take"
-      confidence: 0.95
-      reversible: true
-    nd-spend:
-      decision: "no spend — document the requirement as a budget proposal with options and evidence; money never moves autonomously"
-      confidence: 0.9
-      reversible: true
-    nd-outreach:
-      decision: "draft only — external sends stay founder-sent; prepare the draft, record it held, and stop"
-      confidence: 0.9
-      reversible: true
     nd-license-change:
       decision: "licence changes are submission-impacting — hold as a labelled proposal with evidence; never apply"
       confidence: 0.85

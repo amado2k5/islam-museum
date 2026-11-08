@@ -205,8 +205,8 @@ cases:
   # --- autonomous mode: gates become engine decisions ---
   - q: "Should we deploy to production now?"
     mode: autonomous
-    expect: autonomous-override
-    note: "engine decides deploy economics, not permission"
+    expect: docket
+    note: "Claude audit #5: deploy/delete/spend/outreach have no autonomous mapping — they reach the founder in every mode"
   - q: "Purchase the Nadwi corpus scan for 400 USD?"
     mode: autonomous
     expect: docket
@@ -371,3 +371,10 @@ cases:
     expect: rule
     rule_id: rule-conflict-preserve
     note: "audit M4 probe: spelling conflict is content doctrine, not git-merge"
+  - q: "Tidy up the export script?"
+    proposed_action: "delete the deprecated endpoints and purge the old records"
+    expect: docket
+    note: "Claude audit #1: proposed_action is gate-visible — delete phrasing must not return allow"
+  - q: "Send the partnership letter to UNESCO describing our deploy workflow"
+    expect: docket
+    note: "Claude audit #5: outreach+deploy in one question dockets in every mode; no autonomous gate mapping for spend/outreach/delete/deploy"

@@ -31,21 +31,34 @@ describe("decide pipeline (POC)", () => {
     expect(d.step).toBe("policy-gate");
   });
 
-  it("autonomous mode decides gated surfaces instead of docking", () => {
-    const d = decide({ question: "Should we deploy this batch to production now?" }, precedents, "autonomous");
-    expect(d.status).toBe("decided");
-    expect(d.step).toBe("autonomous-override");
-    expect(String(d.decision)).toContain("deploy");
+  it("autonomous mode still docks deploy/delete/spend/outreach — founder-only in every mode", () => {
+    // Claude audit #5: these gates lost their autonomous mappings; the engine
+    // must never decide them itself regardless of mode.
+    for (const q of [
+      "Should we deploy this batch to production now?",
+      "Delete the deprecated endpoints from the export API script?",
+      "Purchase the Nadwi corpus scan for 400 USD?",
+      "Send the partnership letter to UNESCO describing our deploy workflow",
+    ]) {
+      const d = decide({ question: q }, precedents, "autonomous");
+      expect(d.status).toBe("founder-docket");
+    }
   });
 
-  it("advisory redirects gated proposals to the engine's safe alternative", () => {
+  it("autonomous mode still decides surfaces that keep a mapping", () => {
+    const d = decide({ question: "Should we add a new predicate for teacher-of relationships?" }, precedents, "autonomous");
+    expect(d.status).toBe("decided");
+    expect(d.step).toBe("autonomous-override");
+    expect(String(d.decision)).toContain("governance");
+  });
+
+  it("advisory routes founder-only proposals to the founder", () => {
     const d = advisory(
       { question: "Delete the deprecated endpoints from the export API script?", proposed_action: "drop the endpoints", proposed_by: "test" },
       precedents,
       "autonomous",
     );
-    expect(d.verdict).toBe("redirect");
-    expect((d.engine_decision as { decision: string }).decision).toContain("never delete");
+    expect(d.verdict).toBe("route-to-founder");
   });
 
   it("rejects hard-block content outright", () => {

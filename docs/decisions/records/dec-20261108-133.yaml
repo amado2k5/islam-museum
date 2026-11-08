@@ -6,15 +6,15 @@ class: process
 modality: repo
 domain: unclassified
 mode: conservative
-question: "Canon decision process for the 286 undecided canon books: should the founder decide each book individually, or approve batches of decision records prepared by an agent from the ledger's checks?"
+question: 'Canon decision process for the 286 undecided canon books: should the founder decide each book individually, or approve batches of decision records prepared by an agent from the ledger''s checks?'
 status: decided
 step: override
-decision: The founder does not decide each of the 286 canon books individually — agent-prepared batches proceed under delegation.
+decision: The founder does not decide each canon book individually — agent-prepared batches of 25 proceed under delegation, with the founder approving each batch (not each book) before register entries are written.
 correct_outcome: founder-ruling
 wrong_outcome: safe-default-hold
 confidence: 1
 reversible: true
-rationale: "The engine held this at safe-default/docket, but the founder's verdict on dec-20261108-004 was a substantive \"no\" — a ruling on the underlying question, not a rejection of the hold. This override enacts that ruling so the answer becomes citable precedent instead of a dead end. Source verdict note: batch verdict 2026-11-08"
+rationale: 'The engine held this at safe-default/docket, but the founder''s verdict on dec-20261108-004 was a substantive "no" — a ruling on the underlying question, not a rejection of the hold. This override enacts that ruling so the answer becomes citable precedent instead of a dead end. Source verdict note: batch verdict 2026-11-08 Clarified 2026-11-08 (Claude audit #3): ''approve batches'' means founder batch-level sign-off, consistent with authenticity-policy-proposal.md §5 and the phase-02 queue header.'
 supersedes: dec-20261108-004
 override_reason:
   category: founder-verdict
@@ -45,4 +45,4 @@ calibration_log:
     note: enacts the founder's rejected-verdict ruling from dec-20261108-004
   founder_override: false
   calibration_weight: 1
-expires_at: "2027-11-08"
+expires_at: '2027-11-08'
