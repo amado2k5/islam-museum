@@ -1,0 +1,49 @@
+id: dec-20261108-160
+kind: override
+date: 2026-11-08
+question_hash: 0ca57ad83802
+lane: workflow
+class: process
+modality: repo
+domain: process
+mode: conservative
+question: My PR is green on validate and test — should I merge it myself or wait for a reviewer?
+status: decided
+step: override
+decision: Agents do not merge their own PRs — the founder merges. Green validate/test is necessary but not sufficient; merge authority stays with the founder.
+correct_outcome: founder-merges
+wrong_outcome: agent-self-merge
+confidence: 1
+reversible: true
+rationale: "The engine held/docketed this; the founder's wave-2 verdict was a substantive \"no\" — a ruling on the underlying question. This override enacts it so the answer becomes citable precedent. Source verdict note: agents do not self-merge — founder merges"
+supersedes: dec-20261108-125
+override_reason:
+  category: founder-verdict
+  detail: "founder ruled: agents do not self-merge; founder merges"
+  overridden_by: founder-rule-label
+signals:
+  source_record: dec-20261108-125
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+  note: enacts founder verdict on dec-20261108-125
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: enacts founder's rejected-verdict ruling from dec-20261108-125
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

@@ -1,0 +1,49 @@
+id: dec-20261108-157
+kind: override
+date: 2026-11-08
+question_hash: 04d854d8718f
+lane: faith
+class: content
+modality: repo
+domain: content
+mode: conservative
+question: A person's madhhab is not stated but both his teachers were Shafi'i — record shafi'i with a derived flag, or leave unknown?
+status: decided
+step: override
+decision: Madhhab is never inferred from a person's teachers — record only an explicitly cited affiliation; otherwise it stays unknown.
+correct_outcome: explicit-citation-or-unknown
+wrong_outcome: infer-from-teachers
+confidence: 1
+reversible: true
+rationale: "The engine held/docketed this; the founder's wave-2 verdict was a substantive \"no\" — a ruling on the underlying question. This override enacts it so the answer becomes citable precedent. Source verdict note: no madhhab inference from teachers — must be explicitly cited"
+supersedes: dec-20261108-101
+override_reason:
+  category: founder-verdict
+  detail: "founder ruled: no madhhab inference from teachers; must be explicitly cited"
+  overridden_by: founder-rule-label
+signals:
+  source_record: dec-20261108-101
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+  note: enacts founder verdict on dec-20261108-101
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: enacts founder's rejected-verdict ruling from dec-20261108-101
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

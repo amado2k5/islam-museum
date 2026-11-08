@@ -74,6 +74,8 @@ open a new block on top with the new version and today's date.
 
 - **Stale-record sweep killed a live wrong-authority record.** Re-running every rule-decided record's question through the current engine found 9 stale citations — 8 already dead via founder-rejected labels, but `dec-20261108-129` (a date-conflict question answered by `rule-duplicate-alias`, generated before the pattern tightening) was still live ledger precedent teaching the wrong ruling. Override `dec-20261108-153` supersedes it; re-asks now resolve to the conflict-preserve ruling. This is the second instance of the dec-014 vulnerability class — worth a periodic sweep as rules evolve.
 
+- **Wave-2 calibration: 39 founder labels + 9 enacted rulings + policy changes.** All 39 second-wave records labelled (18 approved / 8 rejected / 13 held). The 8 substantive rejections became override records `dec-154`–`162` (incl. dec-087 clarified: file separately, dedicated hotfix PR for broken main). Two rulings changed live policy: **money-outreach removed from `safe_proceed`** — spend and outreach now always docket for manual founder sign-off (benchmark expectations updated to certify); and **agents no longer self-merge** — AGENTS.md now says the founder merges every PR (dec-160). `expires_at` backfilled on all records: check-records reports **0 failures, 0 warnings**. Local judge enabled: `npm run decisions:local` wires `DECIDE_JUDGE_*`/`DECIDE_EMBED_*` to Ollama (`qwen3:32b` + `qwen3-embedding:0.6b`); verified live — a held VR-exhibit question produced affirmative+adversarial evidence with `judge_dissent: true` while the engine correctly stayed at safe-default.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests

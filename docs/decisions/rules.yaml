@@ -36,7 +36,9 @@ safe_proceed:
   engineering: true
   process: true
   governance: true      # deploy→cadence proposal, governance→proposal — advisory, reversible
-  money-outreach: true  # spend→budget proposal, outreach→draft-only — never executes
+  # money-outreach removed 2026-11-08 (founder ruling, dec-20261108-160):
+  # outreach and institutional representation (UNESCO, DPGA, ICDE,
+  # partnerships) require the founder's direct manual sign-off every time.
 
 autonomous:
   founder_reserved: "question reads as founder-reserved — in autonomous mode the engine decides it through rules, precedent or safe default like any other"

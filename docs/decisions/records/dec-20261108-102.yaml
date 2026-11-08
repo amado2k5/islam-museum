@@ -1,28 +1,45 @@
 id: dec-20261108-102
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: dacec7ae3cce
-lane: "quoting"
-class: "sources"
-modality: "repo"
-domain: "sources"
-mode: "conservative"
-question: "A quotation I need runs 60 words — cite it verbatim anyway, truncate with ellipsis, or paraphrase in our own words?"
-options:
+lane: quoting
+class: sources
+modality: repo
+domain: sources
+mode: conservative
+question: A quotation I need runs 60 words — cite it verbatim anyway, truncate
+  with ellipsis, or paraphrase in our own words?
+options: null
 status: decided
 step: rule
-decision: "no verbatim text beyond a 40-word cited quotation enters git; rewrite in the museum's own words with a citation"
+decision: no verbatim text beyond a 40-word cited quotation enters git; rewrite
+  in the museum's own words with a citation
 confidence: 0.9
 reversible: true
-rationale: "Answered by a standing repository rule (rule-40-word-quote): docs/sources-policy.md."
-rule: "docs/sources-policy.md"
-rule_id: "rule-40-word-quote"
-review_sampled: false
+rationale: "Answered by a standing repository rule (rule-40-word-quote):
+  docs/sources-policy.md."
+rule: docs/sources-policy.md
+rule_id: rule-40-word-quote
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
   - rule:rule-40-word-quote
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-40-word-quote"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - rule-40-word-quote
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: "conservative: paraphrase or strictly cite; no unformatted verbatim dumps"
+  founder_override: false
+  calibration_weight: 1

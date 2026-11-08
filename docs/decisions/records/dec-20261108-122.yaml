@@ -1,25 +1,42 @@
 id: dec-20261108-122
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: b2c6b8352cd8
-lane: "deploy"
-class: "engineering"
-modality: "repo"
-domain: "process"
-mode: "conservative"
-question: "My change edits a file under site/public/shell/ which rewrites all ~164k pages — label the PR rewrites-all-pages and batch it, or find a way to avoid the rewrite?"
-options:
+lane: deploy
+class: engineering
+modality: repo
+domain: process
+mode: conservative
+question: My change edits a file under site/public/shell/ which rewrites all
+  ~164k pages — label the PR rewrites-all-pages and batch it, or find a way to
+  avoid the rewrite?
+options: null
 status: decided
 step: safe-default
-decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"
+decision: hold as draft-tier / pointer-only; record question in lane progress
+  file for the next precedent-extraction pass
 confidence: 0.4
 reversible: true
-rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design."
+rationale: No rule or precedent matched. Defaulting to the most conservative
+  reversible action per the decision-ledger design.
 needs_precedent: true
-review_sampled: false
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":0,"rule_ids_fired":[],"precedent_distance":0.811,"top_precedent_id":"dec-20261108-073","top_precedent_status":"ledger-decided","founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  rule_ids_fired: []
+  precedent_distance: 0.811
+  top_precedent_id: dec-20261108-073
+  top_precedent_status: ledger-decided
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: label shell-paths churn on the PR
+  founder_override: false
+  calibration_weight: 1

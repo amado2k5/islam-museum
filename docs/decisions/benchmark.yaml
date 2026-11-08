@@ -209,12 +209,12 @@ cases:
     note: "engine decides deploy economics, not permission"
   - q: "Purchase the Nadwi corpus scan for 400 USD?"
     mode: autonomous
-    expect: autonomous-override
-    note: "no spend — document as budget proposal"
+    expect: docket
+    note: "money-outreach removed from safe_proceed (founder ruling dec-160) — spend always dockets"
   - q: "Email the outreach draft to the partnership contact?"
     mode: autonomous
-    expect: autonomous-override
-    note: "draft only — sends stay founder-sent"
+    expect: docket
+    note: "money-outreach removed from safe_proceed (founder ruling dec-160) — outreach always dockets"
   - q: "Delete the 35 records flagged in the extremism audit?"
     mode: autonomous
     expect: docket

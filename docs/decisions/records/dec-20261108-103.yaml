@@ -1,28 +1,46 @@
 id: dec-20261108-103
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: 8e7c269bc2b3
-lane: "workflow"
-class: "process"
-modality: "repo"
-domain: "process"
-mode: "conservative"
-question: "A revert is needed for a bad merge — does the rollback get its own CANARY entry naming what was reverted?"
-options:
+lane: workflow
+class: process
+modality: repo
+domain: process
+mode: conservative
+question: A revert is needed for a bad merge — does the rollback get its own
+  CANARY entry naming what was reverted?
+options: null
 status: decided
 step: rule
-decision: "every change appends its entry to CANARY.md in the same commit under the current version block; breaking → major, new feature/page/class/endpoint → minor, fixes → patch"
+decision: every change appends its entry to CANARY.md in the same commit under
+  the current version block; breaking → major, new feature/page/class/endpoint →
+  minor, fixes → patch
 confidence: 0.9
 reversible: true
-rationale: "Answered by a standing repository rule (rule-canary): AGENTS.md (canary release notes)."
-rule: "AGENTS.md (canary release notes)"
-rule_id: "rule-canary"
-review_sampled: false
+rationale: "Answered by a standing repository rule (rule-canary): AGENTS.md
+  (canary release notes)."
+rule: AGENTS.md (canary release notes)
+rule_id: rule-canary
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
   - rule:rule-canary
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-canary"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - rule-canary
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: rollback gets own CANARY entry; version history immutable
+  founder_override: false
+  calibration_weight: 1
