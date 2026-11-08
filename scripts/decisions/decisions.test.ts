@@ -40,7 +40,7 @@ describe("decide pipeline (POC)", () => {
 
   it("advisory redirects gated proposals to the engine's safe alternative", () => {
     const d = advisory(
-      { question: "Delete the flagged records?", proposed_action: "drop the records", proposed_by: "test" },
+      { question: "Delete the deprecated endpoints from the export API script?", proposed_action: "drop the endpoints", proposed_by: "test" },
       precedents,
       "autonomous",
     );

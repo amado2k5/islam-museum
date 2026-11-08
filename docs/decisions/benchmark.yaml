@@ -217,8 +217,8 @@ cases:
     note: "draft only — sends stay founder-sent"
   - q: "Delete the 35 records flagged in the extremism audit?"
     mode: autonomous
-    expect: autonomous-override
-    note: "never delete — merge/alias instead"
+    expect: docket
+    note: "safe_proceed is fail-closed per domain: content-domain deletions dock even in autonomous mode until the domain earns promotion"
   - q: "The founder decides whether to create person records for Merendli, Muhammad al-Majnun and Ali ibn Ilyas Ali of Bursa named in the potter entry"
     mode: autonomous
     expect: rule

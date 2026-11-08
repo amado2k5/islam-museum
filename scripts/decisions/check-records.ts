@@ -84,6 +84,14 @@ function main() {
     const h = questionHash(r.question);
     byHash.set(h, [...(byHash.get(h) ?? []), r]);
   }
+  // Duplicate record ids = two worktrees minted the same dec-id (Fable F10) —
+  // citations and supersedes chains become ambiguous; fail loudly post-merge.
+  const idCounts = new Map<string, number>();
+  for (const r of records) if (r.id) idCounts.set(r.id, (idCounts.get(r.id) ?? 0) + 1);
+  for (const [id, n] of idCounts) {
+    if (n > 1) fails.push(`record id '${id}' appears ${n} times — concurrent writers collided; renumber one`);
+  }
+
   for (const [h, rs2] of byHash) {
     const decidedOnes = rs2.filter((r) => r.status === "decided");
     const distinct = new Set(decidedOnes.map((r) => `${r.step}|${r.decision ?? r.reason}`));

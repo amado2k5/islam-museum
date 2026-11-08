@@ -20,10 +20,23 @@ version: 1
 # POC autonomy experiment: the engine rules. `autonomous` maps every gate to the
 # conservative decision the engine takes INSTEAD of docking the question — the
 # approver never asks permission, it decides the safe course and records it.
-# `--mode conservative` restores founder-docket behaviour for comparison/A-B.
+# `--mode autonomous` opts a run in; the DEFAULT is conservative (Fable F8: an
+# autonomous default plus lanes reading `decided` as permission was the riskiest
+# shortcut). Even in autonomous mode, gate-mapping only proceeds for domains on
+# the safe_proceed list — promotion is per-domain, earned by calibration
+# evidence (≥50 founder-labelled decisions, ≥95% agreement, FP <5% held-out).
 # hard_reject entries stay absolute in BOTH modes: they are content invariants,
 # not approvals.
-mode: autonomous
+mode: conservative
+
+# Domains cleared for autonomous gate-mapping. Pilot class per the rollout plan:
+# process/engineering decisions — zero content risk, every wrong answer is caught
+# by validate/test/build. Everything else dockets until it earns promotion.
+safe_proceed:
+  engineering: true
+  process: true
+  governance: true      # deploy→cadence proposal, governance→proposal — advisory, reversible
+  money-outreach: true  # spend→budget proposal, outreach→draft-only — never executes
 
 autonomous:
   founder_reserved: "question reads as founder-reserved — in autonomous mode the engine decides it through rules, precedent or safe default like any other"

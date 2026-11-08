@@ -10,7 +10,7 @@
   },
   "scripts": {
     "schema": "tsx scripts/gen-schema.ts",
-    "validate": "tsx scripts/validate.ts && tsx scripts/check-authenticity.ts && tsx scripts/check-extremism.ts",
+    "validate": "tsx scripts/validate.ts && tsx scripts/check-authenticity.ts && tsx scripts/check-extremism.ts && tsx scripts/decisions/check-records.ts && tsx scripts/decisions/benchmark.ts",
     "check:authenticity": "tsx scripts/check-authenticity.ts",
     "cite-check": "tsx scripts/cite-check.ts",
     "wordmap": "tsx scripts/wordmap.ts",

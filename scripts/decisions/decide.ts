@@ -33,6 +33,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { createHash } from "node:crypto";
+import { execFileSync } from "node:child_process";
 import { parse, stringify } from "yaml";
 
 const ROOT = process.cwd();
@@ -55,6 +56,10 @@ interface AutonomousGate { decision: string; confidence: number; reversible: boo
 interface Ruleset {
   version?: number;
   mode?: "autonomous" | "conservative";
+  /** Domains where autonomous gate-mapping is allowed even in autonomous mode.
+   *  Fail-closed: unlisted domains dock. Promotion is per-domain, earned by
+   *  calibration evidence — never a global switch (Fable Q6/F8). */
+  safe_proceed?: Record<string, boolean>;
   autonomous?: { founder_reserved?: string; gates?: Record<string, AutonomousGate> };
   founder_reserved?: string;
   gates: { non_delegable: GateDef[]; hard_reject: GateDef[] };
@@ -353,16 +358,44 @@ function decidedHashes(): Set<string> {
 }
 
 let seq = 0;
+
+/** State of docs/decisions/records/ on origin/main — the cross-worktree guard.
+ *  Two parallel sessions can mint the same dec-id or re-decide the same question
+ *  because each sees only its own checkout (Fable F10). git is the shared truth:
+ *  we refuse hashes already decided on main and never mint an id main already has.
+ *  Graceful no-op when origin/main is unavailable (shallow clone, no remote). */
+let originState: { hashes: Set<string>; maxSeq: number } | null = null;
+function originRecords(): { hashes: Set<string>; maxSeq: number } {
+  if (originState) return originState;
+  const hashes = new Set<string>();
+  let maxSeq = 0;
+  try { // grep exits 1 on zero matches — keep it separate from ls-tree
+    const gh = execFileSync("git", ["grep", "-h", "-o", "question_hash: [a-f0-9]*", "origin/main", "--", "docs/decisions/records"], { encoding: "utf8", cwd: ROOT });
+    for (const m of gh.matchAll(/question_hash: ([a-f0-9]+)/g)) hashes.add(m[1]);
+  } catch { /* no origin/main, no records there, or none decided yet */ }
+  try {
+    const ls = execFileSync("git", ["ls-tree", "-r", "--name-only", "origin/main", "--", "docs/decisions/records"], { encoding: "utf8", cwd: ROOT });
+    for (const f of ls.split("\n")) {
+      const n = Number(f.match(/-(\d+)\.yaml$/)?.[1] ?? 0);
+      if (Number.isFinite(n) && n > maxSeq) maxSeq = n;
+    }
+  } catch { /* same — local state only */ }
+  originState = { hashes, maxSeq };
+  return originState;
+}
+
 function nextId(): string {
-  // Sequence = max existing numeric suffix + 1, NOT file count — record numbers
-  // have gaps (deletions, skipped ids) so count+1 collides with live records.
+  // Sequence = max(existing numeric suffix, origin/main suffix) + 1, NOT file
+  // count — record numbers have gaps so count+1 collides with live records.
   // seq persists for the process so a batch can't hand out the same id twice.
   const d = new Date().toISOString().slice(0, 10).replace(/-/g, "");
   if (!seq && existsSync(RECORDS_DIR)) {
     seq = readdirSync(RECORDS_DIR).reduce((m, f) => {
       const n = Number(f.match(/-(\d+)\.yaml$/)?.[1] ?? 0);
       return Number.isFinite(n) && n > m ? n : m;
-    }, 0);
+    }, originRecords().maxSeq);
+  } else if (!seq) {
+    seq = originRecords().maxSeq;
   }
   return `dec-${d}-${String(++seq).padStart(3, "0")}`;
 }
@@ -433,7 +466,12 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
   // negation guard: "do not delete" phrasing tricks must never disarm them.
   for (const g of rs.gates.non_delegable) {
     if (hits(text, g.pattern, !(g as { no_negation?: boolean }).no_negation)) {
-      const auto = m === "autonomous" ? rs.autonomous?.gates?.[g.id] : undefined;
+      // Autonomous gate-mapping requires BOTH mode: autonomous AND the question's
+      // domain on the safe_proceed list — a deploy question about faith content
+      // dockets even in autonomous mode (fail-closed per-domain promotion).
+      const auto = m === "autonomous" && (rs.safe_proceed?.[domain] ?? false)
+        ? rs.autonomous?.gates?.[g.id]
+        : undefined;
       if (auto) {
         trace.push({ stage: "policy-gate", result: `${g.id}→autonomous`, detail: g.reason });
         return {
@@ -987,8 +1025,8 @@ async function main() {
         continue;
       }
       if (!q.question) { console.log(`skip (no question)  ${f}`); continue; }
-      if (seen.has(questionHash(q))) {
-        console.log(`skip (already decided)  ${f}`);
+      if (seen.has(questionHash(q)) || originRecords().hashes.has(questionHash(q))) {
+        console.log(`skip (already decided${originRecords().hashes.has(questionHash(q)) ? " on origin/main" : ""})  ${f}`);
         continue;
       }
       const sem = isAdvisory ? null : await semanticFor(q, semCorpus);
@@ -1039,8 +1077,8 @@ async function main() {
     q = raw.trim().startsWith("{") ? (JSON.parse(raw) as Question) : (parse(raw) as Question);
   }
   if (!q.question) { console.error("question required"); process.exit(2); }
-  if (decidedHashes().has(questionHash(q))) {
-    console.log("skip (already decided) — question_hash matches an existing record");
+  if (decidedHashes().has(questionHash(q)) || originRecords().hashes.has(questionHash(q))) {
+    console.log("skip (already decided) — question_hash matches an existing record (local or origin/main)");
     return;
   }
 
