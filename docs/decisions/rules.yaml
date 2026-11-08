@@ -367,6 +367,14 @@ rules:
     cite: "Method page doctrine + founder Shia-mapping rule 24 Oct 2026 + founder re-review 1 Nov 2026 ('strict two-source rule restored; branch-only attestation settles nothing')"
     confidence: 0.9
     reversible: true
+  - id: rule-tradition-attestation
+    domain: safety
+    priority: 15
+    pattern: "(tradition|madhhab|sect|school|sunni|shia|shii|hanbali|shafii|hanafi|maliki|ibadi|sufi|ashari|maturidi|athari|zaydi|ismaili|twelver).{0,60}(attest|attested|attestation|classif|identify|label|assign|determine|judge|infer|record|which|what|is .{0,20}(a )?(sunni|shia|maliki|shafii|hanafi|hanbali))|(judge|model|dataset|islamlab|wikidata|llm).{0,50}(tradition|madhhab|sect|sunni|shia|school).{0,40}(recommend|suggest|propose|predict|classif)"
+    decision: "a person's tradition/madhhab/sect is attested only by cited biographical evidence, in descending strength: explicit self-designation; an explicit rijal/tabaqat label («حنفي»/«شافعي»/«شيعي»/«معتزلي»…); inclusion in a single-school tabaqat; the person's own works; rijal-corpus membership and narrator relations; teachers/students/isnads; geography/era as context only, never proof. A judge, model or dataset recommendation (local LLM, islamlab, Wikidata, any aggregator) is a proposal, never an attestation — it may corroborate but cannot satisfy the source requirement alone, and disagreements are audited harder than agreements. Contested markers («يُرمى بالتشيع», «مائل إلى», accusation tags) stay contested/unverified — never flatten to a definitive label. Name, family, birthplace and assumed milieu never count. Doubt resolves to unknown/unverified."
+    cite: "docs/decisions/tradition-taxonomy.md (evidence hierarchy + defect-tag vocabulary, Muse+Gemini research merged 8 Nov 2026) + rule-faith-two-source + rule-faith-basis"
+    confidence: 0.85
+    reversible: true
   - id: rule-office-vs-faith
     domain: safety
     priority: 15
