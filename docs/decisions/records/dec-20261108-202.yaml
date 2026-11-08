@@ -1,0 +1,74 @@
+id: dec-20261108-202
+kind: override
+date: '2026-11-08'
+question_hash: e4a817d17d34
+lane: web-sources
+class: process
+modality: website
+domain: governance
+mode: conservative
+question: 'Should the Khalili Collections online database (khalilicollections.org — the Nasser D. Khalili family''s published Islamic-art collections:
+  metalwork, ceramics, manuscripts, arms, textiles, with per-object pages under /collections/islamic-art/<id>-<slug>/) be onboarded as a citable
+  source family for the object backlog, and at what tier? Assessment 2026-11-08: authority good (named specialist collection, published catalogues
+  exist in print); citability good (stable object page ids); terms: no licence or terms page found — default facts-only; structure: WordPress
+  HTML pages plus XML sitemap, no API; robots file allows all with sitemap; coverage fit good (major Islamic decorative-arts collection vs 542
+  object records); corroboration moderate-high; Arabic-first low-moderate; longevity moderate (private foundation site).'
+options:
+- 'Tier 1 citable family, facts-only: cite {cite:khalili-collections <object-id>}'
+- Tier 2 citable family, facts-only
+- Tier 3 pointer only
+- Do not register
+evidence:
+- khalilicollections.org/islamic-arts/ fetched 200 on 2026-11-08; object pages follow /collections/islamic-art/<id>-<slug>/ pattern; Yoast robots
+  file with sitemap
+- docs/agents/source-families.md Tier 1 lists Khalili Collections among per-collection museum candidates
+status: decided
+step: override
+decision: 'Tier 1 citable family, facts-only: cite {cite:khalili-collections <object-id>}'
+correct_outcome: khalili-tier1-facts-only
+wrong_outcome: register-tier1-facts-only
+confidence: 1
+reversible: true
+rationale: 'dec-195 answered a source-onboarding question with the Arabic-first content rule because the word ''Arabic'' appeared in the assessment
+  text (''Arabic-first value'', ''Arabic-first moderate''). The rule fired on descriptive metadata, not on a language/localisation question —
+  the same substring false-positive class as dec-189->190 (kid/wikidata and Arabic-in-evidence). The correct ruling applies the eight onboarding
+  criteria in docs/agents/source-families.md: authority, citability, terms posture, structure, coverage fit, corroboration, Arabic coverage and
+  longevity all scored; the assessment''s recommended Tier 1 facts-only posture is adopted (non-commercial or unclear terms => facts-only permanently).'
+supersedes: dec-20261108-195
+override_reason:
+  category: rule-false-positive
+  detail: 'rule-language-ar-first matched ''arabic'' inside source-assessment evidence describing the family''s language coverage, not a localisation
+    decision. Same fix needed as dec-190: question-domain gating or evidence-text exclusion.'
+  overridden_by: devin-web-sources
+signals:
+  matched_rule_id: rule-language-ar-first
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: devin-web-sources
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-08'
+    by: devin-web-sources
+    note: override committed; family registration follows in the same lane commit
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+  - rule-language-ar-first
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

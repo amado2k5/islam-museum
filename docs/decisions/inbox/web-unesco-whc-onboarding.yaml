@@ -1,0 +1,14 @@
+id: web-unesco-whc-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should the UNESCO World Heritage Centre property records and Documents pages (whc.unesco.org — per-property dossiers: nomination files, ICOMOS evaluations, criteria, inscription dates) be onboarded as a citable source family for listed Islamic-world properties, and at what tier? Assessment 2026-11-08: authority strong (UNESCO); citability excellent (property numbers /en/list/<n> and document ids /document/<n>); terms: public documents published for consultation; access: all HTML pages answer 403 Cloudflare challenge to non-browser clients on 2026-11-08 (robots file itself served 200); Wayback Machine holds snapshots; coverage fit moderate (only WHC-listed properties, a subset of the building backlog); corroboration high (expert-written dated dossiers); Arabic-first moderate; longevity strong."
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:whc-unesco <property-number>} or document id; PDFs stay out of git, facts rewritten in own words"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "whc.unesco.org/en/list/145 and /document/152171 returned 403 challenge pages to the harvest User-Agent on 2026-11-08 — recorded, not bypassed"
+  - "docs/agents/source-families.md Tier 1: 'Nomination files and ICOMOS evaluations: expert-written, dated, sourced property dossiers. Public documents. Anchor: property number'"
+proposed_action: "register source/whc-unesco at Tier 1 facts-only with Wayback/browser read channel; pilot on 10 listed-property records"
+source: "Muse web-sources lane assessment 2026-11-08"
