@@ -134,11 +134,17 @@ medieval figures mentioned in our books.
   supplement for the traditions islamlab cannot label.
 - **muslimscholars.info**: web-only, self-admitted ~5% error, no
   download — pointer source at most.
-- **R3GENESI5/Itqan** (GitHub): the largest open computational
-  Quran–Hadith concordance and narrator database — 115,735
-  machine-readable rijal profiles scraped from 22 classical rijal
-  dictionaries, carrying the historical theological tags critics
-  applied. Primary candidate for bulk tradition attestation.
+- **R3GENESI5/Itqan** (GitHub, github.com/R3GENESI5/Itqan): **VERIFIED
+  8 Nov 2026** — real repo by Ali Bin Shahid; 115,735 narrator
+  profiles with 217,762 name variants and jarh wa ta'dil grades parsed
+  from 22 classical rijal texts (~72% graded); isnad chains, kunya
+  resolution, per-hadith grading. License reported MIT (verify the
+  LICENSE file before bulk import); some heavy chain datasets are
+  "available on request" per the project's own story page, so expect
+  the narrator JSON to be the accessible slice. Role: corroborating
+  rijal-grade signal for tradition attestation — grades ('adāla/
+  dabt, defect tags) support but never replace a cited biographical
+  attestation under rule-tradition-attestation.
 - **Tarajm.com / Ketabonline**: the most structured biographical
   database found — queryable Madhhab (fiqh) AND Aqidah (theology)
   tags per scholar; verify access/licensing before use.
