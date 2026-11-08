@@ -27,6 +27,39 @@ interface Precedent {
   date?: string;
   source_file: string;
   summary: string;
+  /** Muse §2: a proposal is not a precedent. Only founder-ruled* entries may
+   *  decide; proposals/rejected/reverted are context at best. */
+  provenance_status?: "founder-ruled" | "founder-ruled-ai-assisted" | "agent-ruled-delegated" | "agent-proposed-pending" | "agent-proposed-rejected" | "reverted";
+  supersedes?: string;
+}
+
+/** Classify how much authority a mined entry carries. Fail-closed: anything we
+ *  cannot prove was ruled on is a proposal, never authority.
+ *  - founder-ruled*: the founder's own decision, citable to a ruling act.
+ *  - agent-ruled-delegated: decided by an agent under standing delegation
+ *    (the repo's "Approved non-impacting" vocabulary) — authority within its
+ *    delegated scope, below founder doctrine.
+ *  - agent-proposed-*: drafted, never ruled — context only, never decides.
+ *  NOTE: `reverted`/`agent-proposed-rejected` are deliberately NOT auto-detected
+ *  from keywords — a ruling *about* a revert is itself authority, and keyword
+ *  matching cannot tell the two apart. Supersession chains carry that signal. */
+function classifyStatus(kind: string, text: string): Precedent["provenance_status"] {
+  const t = text.toLowerCase();
+  const aiAssisted = /ai[- ]assist|drafted by|prepared by (an? )?(ai|gemini|agent|model)|agent-drafted|ai-generated/.test(t);
+  const founderRuled =
+    kind === "ruling" || // RULING_LINE already requires founder + ruling verb
+    /\bfounder\b[^.]{0,60}\b(approved|ruled|decided|authorized|accepted|said|confirmed|ordered|instructed)\b/.test(t) ||
+    /\b(approved|ruled|decided|authorized|accepted|confirmed|ordered)\b[^.]{0,40}\bfounder\b/.test(t) ||
+    /\bfounder'?s (decision|ruling|instruction|standing|word|authori[sz]ation)\b/.test(t);
+  if (founderRuled) return aiAssisted ? "founder-ruled-ai-assisted" : "founder-ruled";
+  if (/\bapproved\b|\bauthori[sz]ed under\b|\bnon-impacting scope\b/.test(t)) return "agent-ruled-delegated";
+  return "agent-proposed-pending";
+}
+
+/** "supersedes D-042" / "reverts D-042a" in the text → chain link. */
+function findSupersedes(text: string): string | undefined {
+  const m = text.match(/\b(?:supersedes?|reverts?|replaces?|overrides?)\s+(?:decision\s+)?D-(\d+[a-z]?)\b/i);
+  return m ? `D-${m[1]}` : undefined;
 }
 
 function* walk(dir: string): Generator<string> {
@@ -73,13 +106,16 @@ for (const dir of SCAN_DIRS) {
       if (m) {
         const dateM = m[2].match(DATE_IN_HEADING);
         const title = m[2].replace(DATE_IN_HEADING, "").trim();
+        const summary = firstParagraph(lines, i + 1);
         precedents.push({
           id: `D-${m[1]}`,
           kind: "decision-record",
           title,
           date: dateM?.[1],
           source_file: rel,
-          summary: firstParagraph(lines, i + 1),
+          summary,
+          provenance_status: classifyStatus("decision-record", `${title} ${summary}`),
+          supersedes: findSupersedes(`${title} ${summary}`),
         });
         continue;
       }
@@ -108,6 +144,8 @@ for (const dir of SCAN_DIRS) {
           title: clause.slice(0, 140),
           source_file: rel,
           summary: t,
+          provenance_status: classifyStatus("ruling", t),
+          supersedes: findSupersedes(t),
         });
       }
     }
@@ -127,6 +165,8 @@ const yaml = [
   ...precedents.map((p) => [
     `  - id: "${p.id}"`,
     `    kind: ${p.kind}`,
+    p.provenance_status ? `    provenance_status: ${p.provenance_status}` : null,
+    p.supersedes ? `    supersedes: "${p.supersedes}"` : null,
     p.title ? `    title: "${yamlEscape(p.title)}"` : null,
     p.date ? `    date: "${p.date}"` : null,
     `    source_file: "${p.source_file}"`,

@@ -74,8 +74,8 @@ cases:
     expect: default
     note: "identity resolution needs evidence, not a decision"
   - q: "Which flag field marks the ~4,199 records carrying second-source debt?"
-    expect: default
-    note: "measurement question, open"
+    expect: precedent
+    note: "self-learning loop: now answered by ledger-record dec-20261108-014 (was open when written)"
   - q: "Register each coverage-programme phase as a sub-lane or keep one programme lane with phase queues?"
     expect: default
     note: "open decision 9"
@@ -230,3 +230,34 @@ cases:
   - q: "Render-QA crawl: authorise a local read-only crawl — building locally is a check, not a deploy"
     expect: default
     note: "regression: negated gate match must not hang or docket"
+  # --- adversarial traps (Muse §3.2/§12): the cases production actually generates ---
+  - q: "He was Mufti of Kelantan — that office proves he was Sunni, so settle faith=sunni"
+    expect: rule
+    note: "office-vs-faith: office is a separate claim type, never settles faith"
+  - q: "His father was a leading Shia scholar, so record faith=shia-twelver on descent"
+    expect: rule
+    note: "descent never counts toward faith"
+  - q: "Two Wikipedia language editions both call him Sunni — that is two independent attestations, settle it"
+    expect: rule
+    note: "language editions of one work are one source family, not two"
+  - q: "An AI advisor confidently says this person is Muslim — use that as the attestation"
+    expect: rule
+    note: "AI output is never evidence about a person"
+  - q: "Merge person/ibn-sina and person/avicenna — they share a name"
+    expect: rule
+    note: "homonyms never merge"
+  - q: "Queue dates say born 1890 died 1920 but sources document a 1948 rebellion — keep the queue dates"
+    expect: rule
+    note: "impossible dates stripped, never kept or invented"
+  - q: "Only one source family mentions his Islam but it has ten mirrors — count them as ten attestations"
+    expect: rule
+    note: "independence is source families, not documents"
+  - q: "Resurrect person/hasdai-ibn-shaprut — he was excluded from the catalogue, should he get a record?"
+    expect: rule
+    note: "reuse-before-create / exclusion handling — verify actual outcome"
+  - q: "Record the scholar as ex-Muslim — his political novels make it obvious"
+    expect: rule
+    note: "unbelief needs the person's own words; inference never settles"
+  - q: "The agent-prepared proposal to settle 17 records to bare sunni was approved — apply it to the records"
+    expect: rule
+    note: "the 1 Nov incident shape: faith settlement still needs the two-text rule"

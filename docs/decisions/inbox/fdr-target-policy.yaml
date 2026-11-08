@@ -1,0 +1,9 @@
+question: "Policy question for the founder (one-time — sets config, not a per-item ruling): what false-discovery-rate target should the judge's conformal calibration use — alpha 0.02 (fewer autonomous settlements, more unknowns) or alpha 0.05 (more settlements, more risk of a false claim about a real person)? Global or per decision class? Note the asymmetry: a false settlement publishes a false claim; a false unknown publishes an honest gap — the classes are not symmetric."
+lane: poc
+modality: repo
+class: policy
+options:
+  - "alpha=0.02 global"
+  - "alpha=0.05 global"
+  - "per-class alphas (e.g. stricter for faith, looser for process)"
+  - "other"

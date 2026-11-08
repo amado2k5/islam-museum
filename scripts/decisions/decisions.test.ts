@@ -9,6 +9,7 @@ const precedents: Precedent[] = [
   {
     id: "D-004",
     kind: "decision-record",
+    provenance_status: "founder-ruled",
     title: "Use the existing ideas wing for invention records",
     summary: "Invention records live in the existing ideas wing as a kind, not a new class or side table.",
     source_file: "docs/inventions/phases.md",
@@ -16,6 +17,7 @@ const precedents: Precedent[] = [
   {
     id: "D-002",
     kind: "decision-record",
+    provenance_status: "founder-ruled",
     title: "Deploys stay founder-only and manual",
     summary: "Production and UAT deployments are triggered only by the founder because of R2 and Cloudflare cost.",
     source_file: "docs/agents/workflow.md",

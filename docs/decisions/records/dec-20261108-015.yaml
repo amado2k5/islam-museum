@@ -1,0 +1,22 @@
+id: dec-20261108-015
+date: "2026-11-08"
+expires_at: "2027-11-08"
+lane: coverage-programme
+class: process
+question: "Which flag field marks the ~4,199 records carrying second-source debt so the estimate can be checked against the 5,604 flagged files?"
+status: recommended
+step: research
+decision: "There is no single flag field — measure the debt across three channels: needs_source flags (281 files), provenance notes saying 'not verified against a second source', and records citing only source/wikidata."
+confidence: 0.8
+reversible: true
+rationale: "The question assumes one flag field exists; inspection shows the debt marker is distributed. A single-field count would under-report. The 4,199 vs 5,604 gap is explained by which channels are counted."
+evidence:
+  - "cmd: grep -rln 'needs_source' data/ | wc -l -> 281"
+  - "cmd: grep -rln 'not verified against a second source' data/ | wc -l -> 14"
+  - "file:docs/agents/publication-standard.md line 21 — needs_source flags and confidence: low are the honest-annotation mechanism"
+  - "file:data/person/*.yaml provenance.generated_by strings carry 'not verified against a second source' notes"
+restored_from: "dec-20261108-014 (id-collision overwrite, see commit)"
+review_sampled: false
+decided_by:
+  agent: devin-swe2
+  pipeline: research-tier

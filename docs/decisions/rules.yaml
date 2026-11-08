@@ -188,7 +188,7 @@ rules:
   - id: rule-faith-basis
     domain: safety
     priority: 30
-    pattern: "(faith|religion|religious affiliation|muslim|christian|sunni|shia|affiliation).{0,50}(record|settle|infer|attest|attested|basis|identify|claim)|(record|settle|infer).{0,30}(faith|religion|affiliation)"
+    pattern: "(faith|religion|religious affiliation|muslim|christian|sunni|shia|affiliation).{0,50}(record|settle|infer|attest|attested|basis|identify|claim)|(record|settle|infer).{0,30}(faith|religion|affiliation|muslim|sunni|shia|madhhab|school)"
     decision: "a person's faith is recorded only with its cited basis, never inferred; absent a basis, omit the field or mark it unknown — contested cases use labelled perspectives, Sunni first"
     cite: "AGENTS.md + docs/scope.md"
     confidence: 0.85
@@ -357,6 +357,14 @@ rules:
     cite: "R1 handoff note (1 Nov 2026) + founder revert PR #2873 — office→faith conflation rejected"
     confidence: 0.95
     reversible: true
+  - id: rule-ai-not-evidence
+    domain: safety
+    priority: 15
+    pattern: "(ai|model|advisor|assistant|chatgpt|gemini|claude|gpt).{0,40}(say|says|said|answer|attest|attested|confirm|confirmed|claim|state|stated|suggest).{0,40}(faith|religion|sunni|shia|muslim|school|madhhab|attestation|source|evidence|date|fact)|(faith|religion|sunni|shia|attestation|source).{0,40}(ai|model|advisor).{0,30}(say|answer|attest|confirm|proof|evidence)"
+    decision: "an AI's answer is never evidence — not about a person's faith, not about dates, not about sources; AI output is at most a pointer to evidence that must then be read in the original; no settlement may rest on a model's say-so"
+    cite: "Muse doctrine §3.2 (founder record): 'An AI's answer — mine, Gemini's, anyone's — is never evidence about a person'"
+    confidence: 0.95
+    reversible: true
   - id: rule-homonyms
     domain: content
     priority: 16
@@ -371,6 +379,14 @@ rules:
     pattern: "unidentifiable|cannot (be )?identify|no (legal )?name|anonymous|who is behind|real name|identity unknown"
     decision: "log the item unidentifiable with every search recorded in the progress file — never guess a name, never invent an identity; a channel publishing under a name only gets a record under that publishing name"
     cite: "modern-figures lane no-skip rule + logged-unidentifiable precedent (Umat Muslim, the-muslim-mum)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-excluded-absent
+    domain: content
+    priority: 18
+    pattern: "(excluded|exclusion|delisted|removed from|catalogue exclusion|banned).{0,50}(record|resurrect|re-?add|include|restore|person|entity|entry)|(resurrect|re-?add|restore|reinstate).{0,40}(excluded|exclusion|removed|delisted|catalogue)"
+    decision: "exclusion is a ruling, not an absence to fill: an item excluded from the catalogue stays excluded unless a new founder ruling reverses it — do not resurrect it; a judge that helpfully re-adds an excluded person has made a worse error than a wrong field value"
+    cite: "Muse doctrine §3.4: Hasdai ibn Shaprut, Raja Todar Mal, Birbal excluded — 'inclusion itself was the error'"
     confidence: 0.9
     reversible: true
   - id: rule-stub-replace
@@ -392,7 +408,7 @@ rules:
   - id: rule-kids-wing
     domain: content
     priority: 20
-    pattern: "kid|child|children|under.?18|minor|young reader|sprouts|explorers|scholars level"
+    pattern: "\\b(kids?|child(ren)?|under.?18|minor|young reader|sprouts|explorers|scholars level)\\b"
     decision: "children's content follows the children's wing rulebook: flagged_for_kids marks eligibility, sensitive topics get child_review, and leveled sections are sprouts/explorers/scholars inside the prose file"
     cite: "docs/education + E5 leveled batches (founder-approved leveled-200 list)"
     confidence: 0.85
@@ -408,7 +424,7 @@ rules:
   - id: rule-impossible-dates
     domain: dates
     priority: 22
-    pattern: "impossible|chronolog|born.{0,20}(before|after).{0,20}(died|death|born)|date.{0,20}(wrong|incorrect|impossible|contradict)|strip.{0,20}date|no (born|died|birth|death) (block|date|year)|outside.{0,20}(activity|documented|attested)"
+    pattern: "impossible|chronolog|born.{0,20}(before|after).{0,20}(died|death|born)|date.{0,20}(wrong|incorrect|impossible|contradict)|strip.{0,20}date|no (born|died|birth|death) (block|date|year)|outside.{0,20}(activity|documented|attested)|keep.{0,25}(queue|given|supplied|listed).{0,15}(date|year|born|died)|born.{0,12}\\d{3,4}.{0,12}(died|death|born).{0,12}\\d{3,4}"
     decision: "dates that are impossible on their face — born/died outside the person's documented activity window or contradicted by their own sourced events — are stripped entirely: the record carries no born/died blocks rather than wrong ones; never repaired by invention"
     cite: "R1 rulings 1 Nov 2026: Hadji Kamlon's queue dates 1890–1920 impossible vs documented 1948–55 rebellion — record carries no born/died blocks"
     confidence: 0.9

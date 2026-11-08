@@ -94,6 +94,9 @@ export interface Precedent {
   title?: string;
   summary: string;
   source_file: string;
+  /** Muse §2: a proposal is not a precedent — only founder-ruled* entries may decide. */
+  provenance_status?: "founder-ruled" | "founder-ruled-ai-assisted" | "agent-ruled-delegated" | "agent-proposed-pending" | "agent-proposed-rejected" | "reverted";
+  supersedes?: string;
 }
 
 interface TraceStep { stage: string; result: string; detail?: string; score?: number }
@@ -330,9 +333,17 @@ function decidedHashes(): Set<string> {
 
 let seq = 0;
 function nextId(): string {
-  seq = readRecords().length;
+  // Sequence = max existing numeric suffix + 1, NOT file count — record numbers
+  // have gaps (deletions, skipped ids) so count+1 collides with live records.
+  // seq persists for the process so a batch can't hand out the same id twice.
   const d = new Date().toISOString().slice(0, 10).replace(/-/g, "");
-  return `dec-${d}-${String(seq + 1).padStart(3, "0")}`;
+  if (!seq && existsSync(RECORDS_DIR)) {
+    seq = readdirSync(RECORDS_DIR).reduce((m, f) => {
+      const n = Number(f.match(/-(\d+)\.yaml$/)?.[1] ?? 0);
+      return Number.isFinite(n) && n > m ? n : m;
+    }, 0);
+  }
+  return `dec-${d}-${String(++seq).padStart(3, "0")}`;
 }
 
 /** First matching domain id, or "fallback". */
@@ -423,7 +434,17 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
   // Step 3: precedent match — BM25 over ruling/decision-record/ledger titles+summaries.
   // `flag` entries are observations, never authority. Gates: normalized score
   // >= 0.6 AND title token overlap >= 0.3 — stops vague same-topic matches.
-  const rulingDocs = precedents.filter((p) => p.kind !== "flag");
+  // Authority filter (Muse §2): only founder-ruled precedents may decide —
+  // proposals, rejections, reverts and unlabelled entries are context, not law.
+  // Entries named in another precedent's `supersedes:` are dead authority.
+  const supersededIds = new Set(precedents.map((p) => p.supersedes).filter(Boolean) as string[]);
+  const AUTHORITY = new Set(["founder-ruled", "founder-ruled-ai-assisted", "agent-ruled-delegated"]);
+  const rulingDocs = precedents.filter((p) =>
+    p.kind !== "flag" && !supersededIds.has(p.id)
+    && (p.kind === "ledger-record" || AUTHORITY.has(p.provenance_status ?? "")));
+  if (rulingDocs.length !== precedents.filter((p) => p.kind !== "flag").length) {
+    trace.push({ stage: "precedent-filter", result: `${rulingDocs.length}/${precedents.length}`, detail: "non-authority precedents (proposals/reverted/unlabeled) excluded from deciding" });
+  }
   const bodyDocs = rulingDocs.map((p) => `${p.title ?? ""} ${p.summary}`);
   const df = dfOf(bodyDocs);
   const allLens = bodyDocs.map((d) => [...tokens(d).values()].reduce((a, b) => a + b, 0));
@@ -635,17 +656,20 @@ export function advisory(q: Question, precedents: Precedent[], mode?: "autonomou
 //                       [system, user(payload)]} → parses the JSON reply.
 // ---------------------------------------------------------------------------
 
-interface JudgeResult { recommendation: string; confidence?: number; evidence?: string[]; rationale?: string }
+interface JudgeResult {
+  recommendation: string; confidence?: number; evidence?: string[]; rationale?: string;
+  strongest_objection?: string; confidence_components?: Record<string, number>;
+}
 
 type JudgeFraming = "affirmative" | "adversarial";
 
 function judgePayload(q: Question, d: Record<string, unknown>, framing: JudgeFraming): string {
   const task = framing === "affirmative"
-    ? "You are advising an autonomous decision engine for islam.museum, a trilingual museum knowledge graph. A question reached the safe-default hold. Recommend the most conservative reversible answer consistent with the repository's rules (Arabic-first, sources cited, no invented dates, Sunni-first labelled perspectives, no verdicts, CC0 data)."
+    ? "You are advising an autonomous decision engine for islam.museum, a trilingual museum knowledge graph. A question reached the safe-default hold. Evaluate it as a TWO-SIDED packet: first name the strongest reason the obvious answer is WRONG (false conflation, single-source copy presented as independent, invented date, legend stated as fact, office/descent counted as personal attestation), then recommend the most conservative reversible answer consistent with the repository's rules (Arabic-first, sources cited, no invented dates, two independent attestations for contested fields, Sunni-first labelled perspectives, no verdicts, CC0 data). An AI's own answer is never evidence."
     : // Adversarial pass (SCOPE-style bidirectional evaluation): assume the obvious
       // answer is a false conflation, single-source copy, or legend, and check
       // whether the evidence survives falsification before recommending.
-      "You are the adversarial reviewer for islam.museum's decision engine. A question reached the safe-default hold. Assume the most obvious answer is wrong — a false conflation, a single-source copy presented as independent attestation, an invented date, or a legend stated as fact. Try to falsify it against the repository's rules (Arabic-first, every fact cited, doubt resolves to unknown, no invented dates, contested claims stay labelled). Recommend the most conservative reversible answer only if it survives this attack.";
+      "You are the adversarial reviewer for islam.museum's decision engine. A question reached the safe-default hold. Assume the most obvious answer is wrong — a false conflation, a single-source copy presented as independent attestation, an invented date, a legend stated as fact, or a shortcut like office/descent/AI-output counted as personal attestation. Try to falsify it against the repository's rules (Arabic-first, every fact cited with a verbatim quote, doubt resolves to unknown, no invented dates, contested claims stay labelled). Recommend the most conservative reversible answer only if it survives this attack.";
   return JSON.stringify({
     task,
     framing,
@@ -654,7 +678,7 @@ function judgePayload(q: Question, d: Record<string, unknown>, framing: JudgeFra
     modality: q.modality ?? "repo",
     domain: d.domain,
     alternatives: d.alternatives ?? [],
-    instruction: 'Reply with ONLY a JSON object: {"recommendation": string, "confidence": 0-1, "evidence": [strings], "rationale": string}.',
+    instruction: 'Reply with ONLY a JSON object: {"recommendation": string, "confidence": 0-1, "confidence_components": {"evidence_strength": 0-1, "source_independence": 0-1, "model_agreement": 0-1}, "strongest_objection": string, "evidence": [strings], "rationale": string}. Decomposed confidence matters: thin evidence, conflicting evidence and model disagreement are different failure modes — report the components, not just the aggregate.',
   });
 }
 
@@ -784,7 +808,12 @@ async function maybeJudge(q: Question, d: Record<string, unknown>): Promise<Reco
     decision: j.recommendation,
     confidence: Math.round(bpe.confidence * 100) / 100,
     rationale: `GenAI advisor recommendation, bidirectional-evaluated (${model}, BPE conf ${Math.round(bpe.confidence * 100) / 100}) — advisory only, awaits async audit: ${j.rationale ?? ""}`,
-    judge_evidence: [...(j.evidence ?? []), ...(bpe.rev && bpe.rev !== j ? [`adversarial pass concurs at conf ${bpe.rev.confidence ?? "?"}`] : [])],
+    judge_evidence: [
+      ...(j.strongest_objection ? [`strongest objection: ${j.strongest_objection}`] : []),
+      ...(j.confidence_components ? [`confidence components: ${JSON.stringify(j.confidence_components)}`] : []),
+      ...(j.evidence ?? []),
+      ...(bpe.rev && bpe.rev !== j ? [`adversarial pass concurs at conf ${bpe.rev.confidence ?? "?"}`] : []),
+    ],
     engine_hold: "safe-default preserved underneath; the recommendation does not decide",
   };
 }
