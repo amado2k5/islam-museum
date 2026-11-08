@@ -9,8 +9,8 @@ died: { edtf: "0639", calendar: julian, precision: year, status: tradition, note
 roles: [companion, scholar]
 traditions: [sunni]
 summary:
-  en: "A young Ansari convert of the pledges of Aqaba, remembered as the most learned of the community in what is lawful and forbidden; the Prophet sent him to Yemen as its teacher and judge."
-  ar: "أنصاري شاب من مؤمني بيعة العقبة، يذكره التراث أعلم الأمة بالحلال والحرام؛ بعثه النبي إلى اليمن معلمًا وقاضيًا. وفي الصحيح أن النبي عدّه في الأربعة الذين يُؤخذ عنهم القرآن {cite:sahih-al-bukhari 3806}، وأنه ممن جمع القرآن على عهده {cite:sahih-al-bukhari 3810}."
+  en: "A young Ansari convert of the pledges of Aqaba, remembered as the most learned of the community in what is lawful and forbidden; the Prophet sent him to Yemen as its teacher and judge. Al-Isaba's entry (no. 8319) has him at Aqaba, Badr and all the campaigns, 'the foremost imam in the knowledge of lawful and forbidden' {cite:ibn-hajar-isaba p. 1424}."
+  ar: "أنصاري شاب من مؤمني بيعة العقبة، يذكره التراث أعلم الأمة بالحلال والحرام؛ بعثه النبي إلى اليمن معلمًا وقاضيًا. وفي الصحيح أن النبي عدّه في الأربعة الذين يُؤخذ عنهم القرآن {cite:sahih-al-bukhari 3806}، وأنه ممن جمع القرآن على عهده {cite:sahih-al-bukhari 3810}، وتذكر الإصابة في ترجمته رقم ٨٣١٩ أنه شهد العقبة وبدراً والمشاهد، وأنه الإمام المقدم في علم الحلال والحرام {cite:ibn-hajar-isaba p. 1424}."
   ur: "عقبہ کے عہد میں اسلام قبول کرنے والے انصاری صحابی؛ نبی نے انہیں یمن میں تعلیم اور قضا کی ذمہ داری دی۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [dawa-and-christian-mission, development-of-law-theology-institutions, islam-and-judaism]
@@ -35,14 +35,14 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
 external_ids:
   wikidata: Q1147464
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-abd-al-rahman-mansour]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-abd-al-rahman-mansour, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 provenance:
   layer: own-research
   source: "source/assabile-omar-abdelkafy"
   generated_by: "Claude Haiku 5.5"
   model: "claude-haiku-5-5"
-  run: "omar-abdelkafy-al-dinu-al-qayem-person-extension"
+  run: "omar-abdelkafy-al-dinu-al-qayem-person-extension; lib-wave-21-isaba-1"
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
 education:
   levels: [sprouts, explorers, scholars]

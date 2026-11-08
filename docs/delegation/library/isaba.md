@@ -15,7 +15,13 @@ Copies extracted under `~/islam-museum-harvest/books/sahaba/isaba/`:
 
 ## Mining state
 
-Entities citing `source/isaba` outside `data/source/`: **24**.
+Entities citing `source/isaba` outside `data/source/`: **24** (plus ~29 citing the sibling `source/ibn-hajar-isaba` al-Asriyya-edition record). Gap-fill wave run `lib-wave-21-isaba-1` (8 Nov 2026): enriched existing `person/` records only, no new entities. Chosen copy: `20200217_20200217_0509` (150,783 lines; printed page = PDF page for `source/ibn-hajar-isaba`, cite as `{cite:ibn-hajar-isaba p. N}`).
+
+Gap-filled entries (entry number · printed pages):
+- person/muadh-ibn-jabal — 8319 · pp.1424-1425
+- person/khalid-ibn-al-walid — 2236 · pp.379-380
+- person/abu-hurayra — 10725 (kunya entry) · pp.1785-1786
+- person/abdullah-ibn-abbas — 5278 · pp.902-904
 
 ## Next step
 
