@@ -50,6 +50,8 @@ open a new block on top with the new version and today's date.
 
 - **Pilot seeding: 55 real lane questions through the engine.** `scripts/decisions/seed-inbox.ts` converts non-authority precedent questions into inbox files (deduped by question_hash, authority precedents skipped); first seed wrote 55 inbox questions and the batch produced 55 records — 14 decided by doctrine rules, 2 by delegated-authority precedents, 39 held at safe-default pending founder labels. The held set is the pilot docket: each awaits a `founder-rule.ts` verdict that becomes the calibration label stream. Ledger now 71 records, all valid.
 
+- **Process/engineering pilot class seeded.** Twenty realistic agent-workflow questions (merge conflicts, CANARY/version rules, schema-first ordering, deploy cadence, lane claims, i18n same-commit rules, id collisions, validate failures) written to the inbox from actual repo rules; batch produced 20 records — 6 doctrine rules, 8 safe-default holds, 6 policy-gate dockets (deploy, authority-conflict, delete, review-status, governance ×2 — all legitimate gate surfaces). One observed gate false-positive candidate: "delete the file and regenerate" phrasing trips nd-delete though no entity is harmed — logged for the rule-precision audit. Ledger: 91 records, all valid.
+
 ## v1.3.1 — 2026-11-07
 
 ### Tests

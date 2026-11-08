@@ -1,0 +1,27 @@
+id: dec-20261108-076
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: 12a32ae26b5b
+lane: "process-pilot"
+class: "governance"
+modality: "repo"
+domain: "governance"
+mode: "conservative"
+question: "A schema change merged an hour ago and 40 content entities are queued — deploy now for the schema fix or batch everything into tomorrow's scheduled deploy?"
+options:
+status: founder-docket
+step: policy-gate
+decision: "deploys are founder-only (cost + control)"
+confidence: n/a
+reversible: false
+rationale: ""
+gate: "nd-deploy"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-deploy
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["nd-deploy"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

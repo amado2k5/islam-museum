@@ -1,0 +1,27 @@
+id: dec-20261108-080
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: 436cfa75dd95
+lane: "process-pilot"
+class: "engineering"
+modality: "repo"
+domain: "process"
+mode: "conservative"
+question: "docs/coverage.md has a merge conflict after merging main — hand-resolve the YAML conflict or delete the file and regenerate it with the coverage script?"
+options:
+status: founder-docket
+step: policy-gate
+decision: "destructive operations are never autonomous — negation tricks must not disarm this gate"
+confidence: n/a
+reversible: false
+rationale: ""
+gate: "nd-delete"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-delete
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["nd-delete"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

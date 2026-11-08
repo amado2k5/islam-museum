@@ -1,0 +1,27 @@
+id: dec-20261108-077
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: bad2ee956b1f
+lane: "process-pilot"
+class: "process"
+modality: "repo"
+domain: "media"
+mode: "conservative"
+question: "docs/plan/06-roadmap.md says Phase 2 starts after Phase 1 sign-off but AGENTS.md describes lanes running in parallel — which document governs my sequencing decision?"
+options:
+status: founder-docket
+step: policy-gate
+decision: "conflicting authorities require founder resolution — no rule or precedent can outrank another"
+confidence: n/a
+reversible: false
+rationale: ""
+gate: "nd-conflict"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-conflict
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["nd-conflict"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
