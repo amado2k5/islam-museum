@@ -1,7 +1,7 @@
 // Hard block on terrorist-organisation content (AGENTS.md, docs/agents/content-safety.md).
 // Fails when a data or content file names a blocked organisation or media wing, unless its record is on the
 // founder-approved exceptions list (docs/delegation/extremism-firewall-exceptions.md).
-import { readdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { entityOfPath, findBlocked, parseExceptions } from "./lib/extremism";
 
@@ -46,7 +46,8 @@ const LEDGER_FILES = [
   join(DECISIONS_DIR, "docket.md"),
   join(DECISIONS_DIR, "digest.md"),
 ];
-for (const abs of LEDGER_FILES) {
+// docket.md/digest.md are generated artifacts (gitignored) — absent on CI.
+for (const abs of LEDGER_FILES.filter((f) => existsSync(f))) {
   const rel = abs.slice(ROOT.length + 1);
   const hits = findBlocked(readFileSync(abs, "utf8"));
   for (const h of hits) {
