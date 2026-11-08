@@ -1,0 +1,49 @@
+id: dec-20261108-154
+kind: override
+date: 2026-11-08
+question_hash: 085442e81e6c
+lane: content-safety
+class: safety
+modality: repo
+domain: safety
+mode: conservative
+question: A historical topic is valid but the only detailed source carries modern extremist framing — rewrite from an academic angle per the hard-block rule, or skip the topic?
+status: decided
+step: override
+decision: Sources carrying modern extremist framing are blocked — not ingested. A valid historical topic is sourced from academic, art-historical or archaeological alternatives instead.
+correct_outcome: block-extremist-framing-sources
+wrong_outcome: ingest-and-rewrite-framing
+confidence: 1
+reversible: true
+rationale: "The engine held/docketed this; the founder's wave-2 verdict was a substantive \"no\" — a ruling on the underlying question. This override enacts it so the answer becomes citable precedent. Source verdict note: founder ruled: do not ingest extremist-framing sources — block them entirely"
+supersedes: dec-20261108-095
+override_reason:
+  category: founder-verdict
+  detail: "founder ruled: do not ingest extremist-framing sources; block them entirely"
+  overridden_by: founder-rule-label
+signals:
+  source_record: dec-20261108-095
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+  note: enacts founder verdict on dec-20261108-095
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: enacts founder's rejected-verdict ruling from dec-20261108-095
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

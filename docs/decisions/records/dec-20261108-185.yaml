@@ -1,0 +1,53 @@
+id: dec-20261108-185
+kind: override
+date: 2026-11-08
+question_hash: 0ca57ad83802
+lane: workflow
+class: process
+modality: repo
+domain: process
+mode: conservative
+question: My PR is green on validate and test — should I merge it myself or wait for a reviewer?
+status: decided
+step: override
+decision: 'Agents merge their own PRs automatically once gates pass — but only after fetching origin/main, reviewing what landed, and three-way merging so nothing is overwritten. Deployment stays founder-manual. (Narrows dec-160: the no-self-merge reading was broader than the founder''s wave-2 words, which concerned decision-ledger records.)'
+correct_outcome: founder-merges
+wrong_outcome: agent-self-merge
+confidence: 1
+reversible: true
+rationale: 'Founder ruling Q8, 2026-11-08: ''allow all agents to automatically merge but they all have to first get latest from main and understand if any changes and check where to fit and merge their changes.'' AGENTS.md canary-workflow and PR-rule text updated to match.'
+supersedes: dec-20261108-160
+override_reason:
+  category: policy-ruling
+  detail: 'founder clarified merge scope: self-merge allowed repo-wide with mandatory main-sync + 3-way merge'
+  overridden_by: founder-ruling
+signals:
+  source_record: dec-20261108-125
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: decided
+calibration_log:
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Q8 — agents auto-merge after main sync
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  founder_override: true
+  precedent_distance: null
+  rule_ids_fired: []
+  top_precedent_id: null
+  top_precedent_status: null
+  calibration_weight: 1
+expires_at: '2027-11-08'

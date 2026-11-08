@@ -1,0 +1,44 @@
+id: dec-20261108-177
+kind: override
+date: '2026-11-08'
+question_hash: 7365733ba8f6
+lane: ei2
+class: content
+modality: repo
+domain: content
+mode: conservative
+question: EI2 queue row AMIR KHAN (p. 466-467) contains a headword inside it — AMIR KHUSRAW — with no queue row of its own. Should a new record be created for Amir Khusraw from that embedded headword, or is it covered by an existing record?
+status: decided
+step: override
+decision: 'Reuse before create: check whether the embedded headword is already covered by an existing entity; a duplicate becomes an alias of the richer record, and only a genuinely new subject gets a new record.'
+correct_outcome: reuse-or-create-correctly-applied
+wrong_outcome: options-stuffed-rule-match
+confidence: 1
+reversible: true
+rationale: dec-163 cited rule-create-entity, but the match came from option text, not the question — after audit fix H5 (rules match question-only, like precedents) the engine returns safe-default. This override restores the reuse-first doctrine the record meant to apply; whether Amir Khusraw is already covered remains the lane's factual check.
+supersedes: dec-20261108-163
+override_reason:
+  category: rule-missing
+  detail: dec-163 cited rule-create-entity, but the match came from option text, not the question — after audit fix H5 (rules match question-only, like precedents) the engine returns safe-de
+  overridden_by: second-opinion-audit
+signals:
+  matched_rule_id: rule-create-entity
+  correct_rule_id: null
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

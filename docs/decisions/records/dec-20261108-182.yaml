@@ -1,0 +1,63 @@
+id: dec-20261108-182
+kind: override
+date: 2026-11-08
+question_hash: 0d675bfa3480
+lane: modern-figures
+class: content
+modality: repo
+domain: media
+mode: conservative
+question: 'Harvest row ''Karim Ismail'' cannot be resolved to a single identity: the only large figure of the name is Kareem Esmail, a mental-health/life coach with no dawah channel. Log-and-hold per the ambiguous-name rule, or keep searching?'
+status: decided
+step: override
+decision: 'An unresolved harvest/identity row is logged and held for a dedicated lookup pass — the engine does not settle identity by guessing. (Correct rule: rule-unidentifiable; rule-doubt-unknown fired in error on priority.)'
+correct_outcome: unsourced-consensus-softened
+wrong_outcome: wrong-rule-decision-labelled-approved
+confidence: 1
+reversible: true
+rationale: Founder approved the outcome (yes) but the cited rule was wrong — doubt-unknown answered an identity question. Corrected per Muse/Claude audit; pattern-priority note for the engine.
+supersedes: dec-20261108-170
+override_reason:
+  category: rule-false-positive
+  detail: rule-doubt-unknown (priority 14) beat rule-unidentifiable (17) on an identity question — outcome right, citation wrong
+  overridden_by: founder-ruling
+signals:
+  matched_rule_id: rule-corrections-open
+  correct_rule_id: null
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: decided
+calibration_log:
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: yes to outcome; rule citation corrected by this override
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  founder_override: true
+  precedent_distance: null
+  rule_ids_fired:
+  - rule-unidentifiable
+  top_precedent_id: null
+  top_precedent_status: null
+  calibration_weight: 1
+expires_at: '2027-11-08'
+rule_id: rule-unidentifiable
+rule:
+  id: rule-unidentifiable
+options:
+- log unidentifiable, stop
+- keep searching for dawah figure
+- resolve to Kareem Esmail coach
+derived_from:
+- rule:rule-doubt-unknown

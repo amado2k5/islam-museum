@@ -1,0 +1,44 @@
+id: dec-20261108-181
+kind: override
+date: '2026-11-08'
+question_hash: b2c6b8352cd8
+lane: deploy
+class: engineering
+modality: repo
+domain: process
+mode: conservative
+question: My change edits a file under site/public/shell/ which rewrites all ~164k pages — label the PR rewrites-all-pages and batch it, or find a way to avoid the rewrite?
+status: decided
+step: override
+decision: 'Shell-path churn is labelled: changes to files baked into every page carry the rewrites-all-pages label so the founder can batch deploys.'
+correct_outcome: founder-affirmative-ruling-enacted
+wrong_outcome: safe-default-hold-left-unenacted
+confidence: 1
+reversible: true
+rationale: 'The founder verdict on dec-20261108-122 was approved — an affirmative ruling on a safe-default hold. Enacted as override for symmetry with the rejected-verdict overrides (audit L4): approved rulings become citable authority too.'
+supersedes: dec-20261108-122
+override_reason:
+  category: founder-verdict
+  detail: The founder verdict on dec-20261108-122 was approved — an affirmative ruling on a safe-default hold. Enacted as override for symmetry with the rejected-verdict overrides (audit L4)
+  overridden_by: second-opinion-audit
+signals:
+  matched_rule_id: null
+  correct_rule_id: null
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

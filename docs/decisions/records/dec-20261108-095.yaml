@@ -1,0 +1,44 @@
+id: dec-20261108-095
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
+question_hash: 085442e81e6c
+lane: content-safety
+class: safety
+modality: repo
+domain: safety
+mode: conservative
+question: A historical topic is valid but the only detailed source carries
+  modern extremist framing — rewrite from an academic angle per the hard-block
+  rule, or skip the topic?
+options: null
+status: founder-docket
+step: policy-gate
+decision: content-safety hard block — always founder
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-content-safety
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-content-safety
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-content-safety
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: rejected
+    at: 2026-11-08
+    by: founder
+    note: "founder ruled: do not ingest extremist-framing sources — block them
+      entirely"
+  founder_override: false
+  calibration_weight: 1

@@ -1,0 +1,49 @@
+id: dec-20261108-156
+kind: override
+date: 2026-11-08
+question_hash: d5f3f3bae127
+lane: translation
+class: i18n
+modality: repo
+domain: i18n
+mode: conservative
+question: A new UI string has Arabic and English but Urdu translation is not ready — ship ar+en now and add ur next batch, or hold the whole change?
+status: decided
+step: override
+decision: Do not ship incomplete Urdu translation files — Arabic, English and Urdu land in the same commit or not at all.
+correct_outcome: same-commit-trilingual-or-nothing
+wrong_outcome: ship-ar-en-awaiting-ur
+confidence: 1
+reversible: true
+rationale: "The engine held/docketed this; the founder's wave-2 verdict was a substantive \"no\" — a ruling on the underlying question. This override enacts it so the answer becomes citable precedent. Source verdict note: do not ship incomplete Urdu translation files"
+supersedes: dec-20261108-099
+override_reason:
+  category: founder-verdict
+  detail: "founder ruled: do not ship incomplete Urdu translation files"
+  overridden_by: founder-rule-label
+signals:
+  source_record: dec-20261108-099
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+  note: enacts founder verdict on dec-20261108-099
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: enacts founder's rejected-verdict ruling from dec-20261108-099
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

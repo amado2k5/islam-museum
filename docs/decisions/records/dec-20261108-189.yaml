@@ -1,0 +1,41 @@
+id: dec-20261108-189
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: b01cf05ec0ed
+lane: "library"
+class: "process"
+modality: "website"
+domain: "dates"
+mode: "conservative"
+question: "Should alfehrest.org (AlFehrest — interactive timeline/map of Islamic civilisation 700-1500 CE: states, rulers, scholars, events) be onboarded as a citable source family, and if not, at what registration tier? Assessment evidence: volunteer project, no institution/editorial board, self-disclaims academic-reference status; stable numeric IDs for states/scholars; Arabic-primary; ~200 scholar bios and polity succession lists derived largely from Ibn Khaldun, al-Dhahabi Siyar, Mu'nis atlas, Ibn Kathir, plus Wikipedia/Hukam.net; GitHub JSON datasets last touched 2018 under informal CC-Share-Alike wording; coverage stops at 1500 CE. Name collision: unrelated to FIHRIST (fihrist.org.uk), the Oxford/Cambridge manuscript union catalogue."
+options:
+  - "Tier 3 pointer/orientation only — discovery and corroboration checklist; every fact re-cited to the underlying source the page names; never a {cite:} target"
+  - "Tier 1/2 citable family with facts-only posture"
+  - "Do not register at all"
+evidence:
+  - "Muse source assessment 2026-11-08: fails authority criterion (criterion 1); scores citability good, Arabic-first strong, corroboration moderate, terms unclear -> facts-only default"
+  - "docs/agents/source-families.md criteria: authority requires university/museum/national-library or named-specialist project"
+  - "Per-page reference lists name the underlying classical sources (Siyar, Ibn Khaldun, Hukam.net) — the durable value is the trail, not the text"
+status: decided
+step: rule
+decision: "Arabic first (label.ar + summary.ar required); English and Urdu in the same commit"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-language-ar-first): docs/language.md + AGENTS.md."
+rule: "docs/language.md + AGENTS.md"
+rule_id: "rule-language-ar-first"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-language-ar-first
+chain:
+  depth: 0
+  root_id: "rule:rule-language-ar-first"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "82ffd8fd9776ff4c"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-language-ar-first"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

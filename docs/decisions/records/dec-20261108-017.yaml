@@ -1,0 +1,64 @@
+id: dec-20261108-017
+kind: override
+date: 2026-11-08
+question_hash: f8918e11fe8f
+lane: poc
+class: uncategorised
+modality: repo
+domain: sources
+mode: autonomous
+question: "Wikidata debt measurement for Phase 13: confirm which flag field
+  marks the second-source debt so the 4,199 estimate can be checked against the
+  5,604 flagged files."
+status: decided
+step: override
+decision: "There is no single flag field — measure the debt across three
+  channels: needs_source flags (281 files), provenance notes saying 'not
+  verified against a second source', and records citing only source/wikidata."
+correct_outcome: measure-across-channels
+wrong_outcome: kids-wing-rulebook
+confidence: 1
+reversible: true
+rationale: dec-014 answered a Wikidata-debt question with the children's-wing
+  rulebook because the pattern 'kid' matched inside 'wikidata'. The pattern was
+  fixed (word boundaries) but the record was never overridden — it stayed live
+  precedent authority and the benchmark certified the wrong match (Fable review
+  F1). This override reverses it; the correct answer is the research-tier
+  measurement from dec-015.
+supersedes: dec-20261108-014
+override_reason:
+  category: rule-missing
+  detail: Rule pattern 'kid' matched inside 'wikidata' (substring, no word
+    boundary) — a children's-content rule answered a sources-debt question.
+    Pattern fixed; record reversed here.
+  overridden_by: audit-review
+signals:
+  matched_rule_id: rule-kids-wing
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: 2026-11-08
+    by: devin-swe2
+    note: override committed; dec-014 dead authority
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: devin-swe2
+    note: override correctly reverses the wikidata/kids bug
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

@@ -1,0 +1,53 @@
+id: dec-20261108-165
+kind: decision
+date: '2026-11-08'
+expires_at: '2027-11-08'
+question_hash: eb7d97b0de1b
+lane: dawlat-uthmaniyya
+class: content
+modality: repo
+domain: safety
+mode: conservative
+question: 'Mustafa ibn Bayezid''s record carries a contested claim about the Düzme question — how should a contested parentage/attribution claim be recorded: attributed debated reading, perspectives block, or omit pending resolution?'
+options:
+- attributed debated reading
+- perspectives block
+- omit until resolved
+evidence:
+- docs/delegation/dawlat-uthmaniyya-progress.md batch 4
+status: decided
+step: rule
+decision: 'contested topics use the perspectives block: Sunni position(s) first, then the academic view, then any other view — each cited and labelled, no verdict in the museum''s voice'
+confidence: 0.85
+reversible: true
+rationale: 'Answered by a standing repository rule (rule-perspectives): AGENTS.md (voice and scope).'
+rule: AGENTS.md (voice and scope)
+rule_id: rule-perspectives
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+- rule:rule-perspectives
+chain:
+  depth: 0
+  root_id: rule:rule-perspectives
+  root_kind: rule
+  root_expires_at: null
+  derived_rule_hash: 2f90b5bd484a2e15
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+  - rule-perspectives
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: held
+    at: 2026-11-08
+    by: founder
+    note: sent back — perspectives block self-selected on a factual parentage conflict; preserve attributed debated reading instead (rule-conflict-preserve doctrine)
+  founder_override: false
+  calibration_weight: 1

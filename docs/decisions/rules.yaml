@@ -1,0 +1,558 @@
+# Decision ruleset — the approver's rulebook, as data.
+#
+# This file IS the rule engine's knowledge. Any agent may propose a new rule by
+# adding an entry here; the engine compiles patterns at load. Rules are ordered:
+# lower `priority` runs first; ties keep file order. `domain` feeds metrics and
+# routing — it never changes the verdict.
+#
+# Invariants enforced by the ENGINE, not by these entries:
+#   - gates (non_delegable / hard_reject) always run before rules and precedents
+#   - a `founder_reserved` question can never be auto-decided
+#   - only precedents of kind ruling|decision-record|ledger-record may decide
+#   - every verdict is recorded; nothing here deletes or escalates silently
+#
+# Pattern syntax: JavaScript RegExp source. `negation_aware: true` (default for
+# gates) skips matches inside "not a deploy"-style phrases; rules set it false
+# because "no source attests X" is evidence, not a negated decision.
+
+version: 1
+
+# POC autonomy experiment: the engine rules. `autonomous` maps every gate to the
+# conservative decision the engine takes INSTEAD of docking the question — the
+# approver never asks permission, it decides the safe course and records it.
+# `--mode autonomous` opts a run in; the DEFAULT is conservative (Fable F8: an
+# autonomous default plus lanes reading `decided` as permission was the riskiest
+# shortcut). Even in autonomous mode, gate-mapping only proceeds for domains on
+# the safe_proceed list — promotion is per-domain, earned by calibration
+# evidence (≥50 founder-labelled decisions, ≥95% agreement, FP <5% held-out).
+# hard_reject entries stay absolute in BOTH modes: they are content invariants,
+# not approvals.
+mode: conservative
+
+# Domains cleared for autonomous gate-mapping. Pilot class per the rollout plan:
+# process/engineering decisions — zero content risk, every wrong answer is caught
+# by validate/test/build. Everything else dockets until it earns promotion.
+safe_proceed:
+  engineering: true
+  process: true
+  governance: true      # deploy→cadence proposal, governance→proposal — advisory, reversible
+  # money-outreach removed 2026-11-08 (founder direct answer 3 (2026-11-08): money-outreach removed from safe_proceed):
+  # outreach and institutional representation (UNESCO, DPGA, ICDE,
+  # partnerships) require the founder's direct manual sign-off every time.
+
+autonomous:
+  founder_reserved: "question reads as founder-reserved — in autonomous mode the engine decides it through rules, precedent or safe default like any other"
+  gates:
+    nd-license-change:
+      decision: "licence changes are submission-impacting — hold as a labelled proposal with evidence; never apply"
+      confidence: 0.85
+      reversible: true
+    nd-review-status:
+      decision: "status.review is governed by publication-standard — AI output enters draft with provenance and is promoted to published only by a human read; no agent escalation path exists"
+      confidence: 0.85
+      reversible: true
+    nd-content-safety:
+      decision: "content-safety hard block — refuse; the exceptions list is founder-approved and closed to agents"
+      confidence: 0.95
+      reversible: true
+    nd-quran:
+      decision: "Qur'an text is never agent-decided — reference passages by sura:ayah only; long runs become ayah links"
+      confidence: 0.95
+      reversible: true
+    nd-governance:
+      decision: "governance surface — prepare a proposal record with evidence and a recommended option; apply only what an existing rule or precedent already covers"
+      confidence: 0.8
+      reversible: true
+    nd-conflict:
+      decision: "conflicting authorities — apply the newest dated ruling, preserve both readings, and flag the conflict for the audit sample"
+      confidence: 0.8
+      reversible: true
+
+# A question that explicitly reserves the decision to the founder routes to the
+# docket before any rule can answer it — the asker deferred, so we defer.
+founder_reserved: "founder.{0,40}(decides|decide|will decide|should decide|to decide|approves?|ruling|signs? off)|reserved to the founder|founder.only decision|only the founder|pending.{0,20}founder|founder.{0,20}(decision|input|sign-?off|review)|awaiting.{0,15}founder|needs? the founder"
+
+gates:
+  non_delegable:
+    - id: nd-deploy
+      pattern: "deploy|publish to production|dns|r2 sync|goes? live|انشر|الإنتاج|النشر"
+      reason: "deploys are founder-only (cost + control)"
+    - id: nd-delete
+      pattern: "delete|remove entity|drop table|purge|احذف|حذف|امسح|أزل|ازالة"
+      no_negation: true
+      reason: "destructive operations are never autonomous — negation tricks must not disarm this gate"
+    - id: nd-spend
+      pattern: "spend|purchase|buy|subscribe|payment|contract|اشتر|شراء|ادفع|دفع|فلوس|مبلغ"
+      no_negation: true
+      reason: "money is never autonomous — negation tricks must not disarm this gate"
+    - id: nd-outreach
+      pattern: "outreach|send.{0,25}(e-?mail|letter|message)|submit|file application|nomination|partnership|commission|unesco|unicef|dpga|icde|unhcr|oic|islamic world league|apply for|application (for|to)|partner(ship)? with|membership|accredit|award|grant|funding|ارسل|أرسل|راسل|تواصل|قدّم|تقديم"
+      no_negation: true
+      reason: "external communications, commissions and commitments are founder-only — negation tricks must not disarm this gate"
+    - id: nd-license-change
+      pattern: "licen[cs]e.{0,20}(change|new licen[cs]e)|change.{0,15}licen[cs]e"
+      reason: "licence changes are submission-impacting"
+    - id: nd-review-status
+      pattern: "verified|reviewed status|review status|mark.{0,60}published|as published|escalat.{0,20}review|status\\.review"
+      reason: "review-status escalation is founder/pipeline only"
+    - id: nd-content-safety
+      pattern: "terrorist|extremist|isis|isil|daesh|al-qaeda|hamas|taliban|boko haram|hezbollah|blocked (organisation|organization|group|entity|content)|content-safety|hard block"
+      reason: "content-safety hard block — always founder"
+    - id: nd-quran
+      pattern: "quran|qur'an|tafsir text|ayah|sura:"
+      reason: "Qur'an text is never agent-decided"
+    - id: nd-governance
+      pattern: "schema/predicates|schema/enums|robots\\.txt|_headers|wrangler|workflow|deploy\\.yml|(add|new|create|propose|change|register|confirm|edge).{0,60}predicate|predicate.{0,60}(add|new|create|propose|change|register)|edge schema|enum.{0,15}(change|add|new|value)|(new|add|create|propose|change|register).{0,40}(entity class|class in schema|schema|endpoint|api route|url route|page route)"
+      reason: "governance surfaces (schema, classes, enums, predicates, routes, headers, infra, CI) are founder-only"
+    - id: nd-conflict
+      pattern: "(which|what).{0,25}(wins|prevails|takes precedence|governs|supersedes)|conflicting (ruling|decision|precedent|rule|authority)|rulings? (conflict|contradict)"
+      reason: "conflicting authorities require founder resolution — no rule or precedent can outrank another"
+  hard_reject:
+    - id: hr-figurative
+      pattern: "figurative|portrait|depiction of (the )?prophet"
+      reason: "no figurative depictions of prophets (licence rule)"
+    - id: hr-honorific
+      pattern: "honorific|صلى الله عليه|عليه السلام|رضي الله عنه|رضوان الله عليه|رحمه الله|رحمہ اللہ|عليه رضوان|ﷺ|صَلَّى"
+      reason: "no typed honorifics — the full set, not just one form"
+
+# Domain classifier — first match wins; recorded on every decision record for
+# metrics and for routing questions to the right rubric as the engine grows.
+domains:
+  - id: safety
+    pattern: "terrorist|extremist|isis|daesh|blocked|honorific|quran|perspective|contested|faith|sunni|shia|verdict"
+  - id: governance
+    pattern: "schema|enum|predicate|endpoint|api route|url route|deploy|dns|r2|worker|wrangler|robots|header|workflow|ci\\b|class in|entity class"
+  - id: money-outreach
+    pattern: "deploy|spend|purchase|buy|subscribe|payment|outreach|email|letter|nomination|partnership|contract|commission|unesco|dpga|icde|apply for|application (for|to)|partner(ship)? with|membership|accredit|award|grant|funding"
+  - id: dates
+    pattern: "\\bdate\\b|\\byear\\b|hijri|edt ?f|calendar|chronolog|timeline"
+  - id: sources
+    pattern: "source|citation|cite|wikipedia|wikidata|licen[cs]e|whitelist|verbatim|quote|isbn|provenance"
+  - id: media
+    pattern: "image|photo|media|illustration|figure|video|audio|map|thumbnail|og image"
+  - id: i18n
+    pattern: "arabic|english|urdu|language|translation|rtl|locale|i18n|label\\.ar|summary\\.ar"
+  - id: accessibility
+    pattern: "accessib|wcag|alt text|screen.?reader|keyboard|contrast|\\baria\\b|focus"
+  - id: process
+    pattern: "commit|merge|rebase|branch|pull request|\\bpr\\b|batch|canary|lane|worktree|push|trailer|changelog|version"
+  - id: engineering
+    pattern: "bug|fix|broken|error|crash|fail|build|test|performance|slow|weight|lighthouse|bundle|pagefind|search|worker route|api"
+  - id: content
+    pattern: "entity|record|person|place|event|work|object|concept|building|group|prose|content|page|stub|alias|duplicate|theme|wing|browser|explorer|feature|tension|question card"
+  - id: fallback
+    pattern: "."
+
+# Canonical rules — the repository already answers these unambiguously.
+# priority: lower runs first. confidence 0..1. reversible must be true unless
+# the action is genuinely one-way (none today — one-way actions are gates).
+rules:
+  - id: rule-immutable-id
+    domain: content
+    priority: 10
+    pattern: "rename|slug.{0,20}(change|rename)|id.{0,20}immutable"
+    decision: "ids are immutable class/slug; a rename goes through aliases, never a new id"
+    cite: "AGENTS.md (graph in git)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-exclusions-are-proposals
+    domain: content
+    priority: 11
+    pattern: "(exclude|exclusion|drop|reject|leave out).{0,30}(item|record|row|entry|candidate|proposal|work|source)|held for (the )?founder|awaiting (the )?founder'?s decision"
+    decision: "every exclusion is a proposal awaiting the founder's decision, never a final exclusion: relabel the row 'held for the founder', keep the record, move source-less items to the leads list — nothing is dropped silently"
+    cite: "founder rule of 7 Nov 2026 (docs/modern-islam progress tables; commit history)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-duplicate-alias
+    domain: content
+    priority: 12
+    pattern: "duplicate|dedup|same (man|woman|person|entity|record|work|place|individual|thing|mosque|building)\\b(?!\\s+(file|files|branch|branches|commit|commits|worktree|worktrees|session|sessions|version|versions|tree|repo|repository|yaml|yml|pr|pull request|lane|progress|ids?)).{0,50}(merge|duplicat|dedup|alias|two records?|one record|keep both)|one record or two|(make|add|keep|use|create|turn).{0,20}alias|alias.{0,30}(of|to|for)\\b|merg(e|ing).{0,50}(alias|duplicat|dedup|richer|canonical|one record|into (the )?(richer|canonical|existing|primary) (record|entity|entry|work)|same (record|entity|person|work|entry|thing))"
+    decision: "deduplicate: verify identity against the sources first; if it is one entity, merge into the richer record and keep the other id under aliases — never delete blindly; if they are distinct, keep both"
+    cite: "AGENTS.md (reuse before create; a duplicate becomes an alias of the richer entity)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-language-ar-first
+    domain: i18n
+    priority: 12
+    pattern: "(which|what) language|language.{0,25}(first|primary|start|write|draft)|arabic.{0,25}(first|primary)|prose.{0,30}(first|language)"
+    decision: "Arabic first (label.ar + summary.ar required); English and Urdu in the same commit"
+    cite: "docs/language.md + AGENTS.md"
+    confidence: 0.9
+    reversible: true
+  - id: rule-i18n-same-commit
+    domain: i18n
+    priority: 12
+    pattern: "(en|ur)\\.yaml|i18n/(en|ur)\\.yaml|translat\\w*.{0,60}(same commit|next batch|follow.?up|later)|(same commit|next batch|follow.?up|later).{0,60}translat"
+    decision: "every new prose file, UI string, menu item and component ships with its English (content/en/, i18n/en.yaml) and Urdu (content/ur/, i18n/ur.yaml) translation in the same commit, marked draft with a provenance block (AI output is draft-tier until a human reads it); a change that cannot include its translations says so in the commit and progress file"
+    cite: "AGENTS.md (Arabic first, English and Urdu always)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-batch-cap
+    domain: process
+    priority: 13
+    pattern: "(batch size|entities per (batch|commit)|how many per batch|how many.{0,40}batch|(batch|commit).{0,20}(size|limit|max))"
+    decision: "at most 25 entities per content batch"
+    cite: "AGENTS.md / docs/ai-change-gates.md §4"
+    confidence: 0.95
+    reversible: true
+  - id: rule-faith-basis
+    domain: safety
+    priority: 30
+    pattern: "(faith|religion|religious affiliation|muslim|christian|sunni|shia|affiliation).{0,50}(record|settle|infer|attest|attested|basis|identify|claim)|(record|settle|infer).{0,30}(faith|religion|affiliation|muslim|sunni|shia|madhhab|school)"
+    decision: "a person's faith is recorded only with its cited basis, never inferred; absent a basis, omit the field or mark it unknown — contested cases use labelled perspectives, Sunni first"
+    cite: "AGENTS.md + docs/scope.md"
+    confidence: 0.85
+    reversible: true
+  - id: rule-cite-check
+    domain: sources
+    priority: 15
+    pattern: "cite-?check|provenance.{0,25}(fail|missing|repair|invalid|pass)|fails? cite"
+    decision: "repair the provenance block (source + generated_by) or hold the record — nothing publishes without passing cite-check"
+    cite: "docs/agents/publication-standard.md"
+    confidence: 0.85
+    reversible: true
+  - id: rule-review-status
+    domain: process
+    priority: 16
+    pattern: "(status|review).{0,15}(draft|published)|draft or published|enter.{0,20}(draft|published)"
+    decision: "AI-generated prose and machine translations enter as status.review: draft with a provenance block once they cite defined sources; a human read promotes them to published — agents never self-promote (founder ruling 2026-11-08)"
+    cite: "AGENTS.md + docs/agents/publication-standard.md"
+    confidence: 0.85
+    reversible: true
+  - id: rule-source-families
+    domain: sources
+    priority: 16
+    pattern: "source famil|same (source|family)|mirror|republish|republication|copies? of|\bten (mirrors|copies)|independent (sources?|attestations?|famil).{0,50}(count|attestation|famil|enough|suffice|two|ten|mirror|second|third)|families? of sources?|one family"
+    decision: "independence is counted by source FAMILIES, not documents: ten mirrors or republications of one family are ONE attestation, not ten; two attestations require two independent families; a copied single-source 'second source' never counts"
+    cite: "Muse doctrine §5 (independence is source families) + faith two-family rule"
+    confidence: 0.9
+    reversible: true
+  - id: rule-one-source
+    domain: sources
+    priority: 17
+    pattern: "how many.{0,25}sources?|(one|single|two|2|three|3|minimum|min(imum)?).{0,30}sources?.{0,40}(enough|suffic|required|minimum|standard|policy|rule|needed|count as evidence)|(enough|suffic\\w+|require\\w+|minimum).{0,40}sources?|\\b(is|are|can|may|does|do|should|must)\\b.{0,30}(one|a single|single|two).{0,15}sources?.{0,40}(enough|suffic|required|minimum|standard|count)"
+    decision: "one source is enough for any fact, dated or not; every entity cites its sources — but independence is counted by source FAMILIES, and contested fields (faith, dates) have their own stricter rules"
+    cite: "AGENTS.md (sources rule)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-40-word-quote
+    domain: sources
+    priority: 18
+    pattern: "verbatim|quote.{0,25}(words|text|passage)|40[- ]word"
+    decision: "no verbatim text beyond a 40-word cited quotation enters git; rewrite in the museum's own words with a citation"
+    cite: "docs/sources-policy.md"
+    confidence: 0.9
+    reversible: true
+  - id: rule-tension-card
+    domain: content
+    priority: 19
+    pattern: "tension card|hard question"
+    decision: "a tension card carries at least two cited voices with labelled perspectives and no verdict"
+    cite: "AGENTS.md (voice and scope)"
+    confidence: 0.85
+    reversible: true
+  - id: rule-feature-graph-api-search
+    domain: engineering
+    priority: 20
+    pattern: "(new|add|create|build|ship|launch).{0,25}(page|route|url|endpoint|section|browser|explorer|feature|api)"
+    decision: "every feature is graph + API + search: records stay in the one graph, the class is exported in the static API, pages are search-indexed, and the feature is registered in docs/site/browsers.md, the plan index, the roadmap, docs/agents/lanes.md and docs/status.md — label anything submission-impacting"
+    cite: "AGENTS.md (every feature is graph, API and search) + docs/ai-change-gates.md §3"
+    confidence: 0.85
+    reversible: true
+  - id: rule-bug-fix
+    domain: engineering
+    priority: 21
+    pattern: "\\b(bugs?|fix\\w*|broken|errors?|crash\\w*|failing|fails?|failed)\\b(?!-closed).{0,35}\\b(pages?|sites?|builds?|deploys?|apis?|search|pagefind|workers?|worker routes?)\\b"
+    decision: "fix it in its own small commit: reproduce first, root-cause it, run validate + tests (+ build for site changes), append a CANARY entry — never hide a failure behind a guard or a widened timeout"
+    cite: "docs/agents/workflow.md + docs/ai-change-gates.md §5"
+    confidence: 0.85
+    reversible: true
+  - id: rule-performance
+    domain: engineering
+    priority: 22
+    pattern: "(slow|performance|page weight|lighthouse|bundle|deploy churn|baked into every page)"
+    decision: "keep deploys small: nothing that changes often goes into a layout or shared component, page scripts stay in plain files under site/public/shell/, and files on the shell-paths list batch into one deploy a week"
+    cite: "AGENTS.md (keep deploys small) + tools/deploy/shell-paths.list"
+    confidence: 0.85
+    reversible: true
+  - id: rule-create-entity
+    domain: content
+    priority: 23
+    pattern: "(create|add|make|write|draft|import|generate).{0,25}(entity|record|person|place|event|work|object|concept|building|group)"
+    decision: "reuse before create: check existing records, aliases, stubs and wanted lists first; a duplicate becomes an alias of the richer entity; at most 25 entities per batch; Arabic label+summary required with en+ur in the same commit; every entity cites sources"
+    cite: "AGENTS.md (graph in git + sources + language rules)"
+    confidence: 0.85
+    reversible: true
+  - id: rule-dates
+    domain: dates
+    priority: 24
+    pattern: "(date|year|when|invent|estimate|guess).{0,30}(date|year|edt ?f|hijri)|never invent|derived conversion"
+    decision: "never invent a date: EDTF + Hijri string + calendar + precision; conversions marked derived; one source is enough, a doubt is flagged honestly"
+    cite: "AGENTS.md (dates rule)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-source-admission
+    domain: sources
+    priority: 25
+    pattern: "(source|citation|cite).{0,30}(admit|allow|accept|use|valid|wikipedia|wikidata|pointer)"
+    decision: "any source may be read and its facts enter data/ with a citation; Wikipedia and Wikidata are pointers for entity facts taken from a recorded revision — never sources for prose or a work's content; media only from the licence whitelist"
+    cite: "docs/sources-policy.md + docs/agents/source-families.md"
+    confidence: 0.85
+    reversible: true
+  - id: rule-media-license
+    domain: media
+    priority: 26
+    pattern: "((add|use|include|embed|place|attach).{0,25}(image|photo|illustration|figure|media|video|audio|map))|((image|photo|media|illustration|map block|video|audio|figure).{0,30}(licen[cs]e|whitelist|depict|ai-generated))"
+    decision: "media only from schema/enums/licenses.yaml; third-party content keeps its own licence; no figurative depictions of prophets or Companions; no AI-generated portraits"
+    cite: "AGENTS.md (licences rule)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-accessibility
+    domain: accessibility
+    priority: 27
+    pattern: "(accessib|wcag|alt.?text|screen.?reader|keyboard|contrast|\\baria\\b)"
+    decision: "WCAG 2.2 AA: alt text required on every image, pages readable without JavaScript, islands lazy-load"
+    cite: "AGENTS.md (accessibility rule)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-perspectives
+    domain: safety
+    priority: 28
+    pattern: "(perspectives? block|contested topic|tension card|no verdict|sunni (position|first)|other view)"
+    decision: "contested topics use the perspectives block: Sunni position(s) first, then the academic view, then any other view — each cited and labelled, no verdict in the museum's voice"
+    cite: "AGENTS.md (voice and scope)"
+    confidence: 0.85
+    reversible: true
+  - id: rule-merge
+    domain: process
+    priority: 29
+    pattern: "\\b(merge[sd]?|merging|conflicts?|rebases?|rebasing)\\b.{0,50}\\b(main|branches?|prs?|pull requests?|origin)\\b|\\b(main|origin/main|upstream)\\b.{0,30}\\b(conflicts?|merge[sd]?|merging|rebases?|rebasing|landed)\\b"
+    decision: "fetch origin/main first and review what arrived; three-way merge keeping both sides' intent; never force-push, never overwrite or revert another session's work; explicit paths only, never git add -A"
+    cite: "docs/agents/workflow.md §4 + docs/ai-change-gates.md §4"
+    confidence: 0.9
+    reversible: true
+  - id: rule-canary
+    domain: process
+    priority: 30
+    pattern: "(canary|release note|version bump|changelog)"
+    decision: "every change appends its entry to CANARY.md in the same commit under the current version block; breaking → major, new feature/page/class/endpoint → minor, fixes → patch"
+    cite: "AGENTS.md (canary release notes)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-commit-convention
+    domain: process
+    priority: 31
+    pattern: "(commit|push|pull request|open a pr|branch).{0,30}(convention|trailer|message|size|batch)"
+    decision: "small commits, one logical change each, explicit paths, conventional messages, AI-Agent/AI-Model/AI-Editor trailers; a change is done only when merged to main"
+    cite: "docs/agents/workflow.md + docs/ai-change-gates.md"
+    confidence: 0.85
+    reversible: true
+
+  # --- Doctrine mined from the full commit history (founder rulings, waves,
+  # reverts and lane docs). These encode HOW the founder actually decides. ---
+
+  - id: rule-doubt-unknown
+    domain: safety
+    priority: 14
+    pattern: "doubt|uncertain|unsure|ambiguous|conflicting (accounts|reports|sources)|cannot (be )?(established|confirmed|verified)|unverifiable"
+    decision: "where there is doubt the classification is unknown/unclassified — doubt is not establishment; a name-basis or single weak attestation never settles a sensitive field; record the contested readings preserved in the note"
+    cite: "founder doubt rule, 24 Oct 2026 (docs/agents/lanes/modern-figures.md §3; revert commit 'founder re-review' 1 Nov 2026: 'the doubt rule is absolute')"
+    confidence: 0.9
+    reversible: true
+  - id: rule-faith-two-source
+    domain: safety
+    priority: 15
+    pattern: "(faith|religion|madhhab|sunni|shia|sufi|christian|muslim|affiliation|school).{0,50}(value|enum|field|record|settle|classif|assign|which|what)|(which|what).{0,25}(faith|religion)\\b|(attest|attested|attestation|counts?|count).{0,30}(faith|religion|school|madhhab|sunni|shia|sufi)"
+    decision: "a person's faith is recorded only on two independent sources attesting it for the person himself; office, headship, descent, movement membership, infobox-only values, teacher lineages and aggregator rows never count; where sources say only 'Shia' and context supports a branch, the founder's mapping gives shia-twelver documented with the mapping stated — otherwise unknown"
+    cite: "Method page doctrine + founder Shia-mapping rule 24 Oct 2026 + founder re-review 1 Nov 2026 ('strict two-source rule restored; branch-only attestation settles nothing')"
+    confidence: 0.9
+    reversible: true
+  - id: rule-tradition-attestation
+    domain: safety
+    priority: 15
+    pattern: "(tradition|madhhab|sect|school|sunni|shia|shii|hanbali|shafii|hanafi|maliki|ibadi|sufi|ashari|maturidi|athari|zaydi|ismaili|twelver).{0,60}(attest|attested|attestation|classif|identify|label|assign|determine|judge|infer|record|which|what|is .{0,20}(a )?(sunni|shia|maliki|shafii|hanafi|hanbali))|(judge|model|dataset|islamlab|wikidata|llm).{0,50}(tradition|madhhab|sect|sunni|shia|school).{0,40}(recommend|suggest|propose|predict|classif)"
+    decision: "a person's tradition/madhhab/sect is attested only by cited biographical evidence, in descending strength: explicit self-designation; an explicit rijal/tabaqat label («حنفي»/«شافعي»/«شيعي»/«معتزلي»…); inclusion in a single-school tabaqat; the person's own works; rijal-corpus membership and narrator relations; teachers/students/isnads; geography/era as context only, never proof. A judge, model or dataset recommendation (local LLM, islamlab, Wikidata, any aggregator) is a proposal, never an attestation — it may corroborate but cannot satisfy the source requirement alone, and disagreements are audited harder than agreements. Contested markers («يُرمى بالتشيع», «مائل إلى», accusation tags) stay contested/unverified — never flatten to a definitive label. Name, family, birthplace and assumed milieu never count. Doubt resolves to unknown/unverified."
+    cite: "docs/decisions/tradition-taxonomy.md (evidence hierarchy + defect-tag vocabulary, Muse+Gemini research merged 8 Nov 2026) + rule-faith-two-source + rule-faith-basis"
+    confidence: 0.85
+    reversible: true
+  - id: rule-office-vs-faith
+    domain: safety
+    priority: 15
+    pattern: "(mufti|qadi|sultan|imam|headship|office|religious (position|role|office)|position as (a|an)? ?(mufti|qadi|imam|sultan)).{0,60}(faith|sunni|shia|school|madhhab|religion|affiliation).{0,50}(prove|establish|count|settle|record|determine|show|confirm|suffic)|(faith|sunni|shia|school|madhhab|religion|affiliation).{0,60}(mufti|qadi|sultan|imam|office|headship|religious position)"
+    decision: "office and headship are a separate claim type from faith: 'was Mufti of Kelantan' or 'Sultan of Maguindanao' may be recorded as a biographical fact on one valid source, but it NEVER settles the faith field — faith still requires two independent personal attestations; the 1 Nov 2026 office shortcut was an unapproved agent draft, reverted under PR #2873"
+    cite: "R1 handoff note (1 Nov 2026) + founder revert PR #2873 — office→faith conflation rejected"
+    confidence: 0.95
+    reversible: true
+  - id: rule-ai-not-evidence
+    domain: safety
+    priority: 15
+    pattern: "\\b(ai|a\\.i\\.|artificial intelligence|llm|model|chatgpt|gemini|claude|gpt|advisor|assistant)\\b.{0,40}(say|says|said|answer|attest|attested|confirm|confirmed|claim|state|stated|suggest).{0,40}(faith|religion|sunni|shia|muslim|school|madhhab|attestation|source|evidence|date|fact)|(faith|religion|sunni|shia|attestation|source).{0,40}\\b(ai|model|advisor|assistant|chatgpt|gemini|claude|gpt)\\b.{0,30}(say|answer|attest|confirm|proof|evidence)"
+    decision: "an AI's answer is never evidence — not about a person's faith, not about dates, not about sources; AI output is at most a pointer to evidence that must then be read in the original; no settlement may rest on a model's say-so"
+    cite: "Muse doctrine §3.2 (founder record): 'An AI's answer — mine, Gemini's, anyone's — is never evidence about a person'"
+    confidence: 0.95
+    reversible: true
+  - id: rule-homonyms
+    domain: content
+    priority: 16
+    pattern: "homonym|namesake|same name|share[sd]? (a|the) name|same label|name collision|different people|two people called"
+    decision: "different people who share a name are never merged: register the pair in data/_homonyms.yaml with the disambiguating facts and keep both records"
+    cite: "commit history: data/_homonyms.yaml pairs (Abdul Somad, Yusuf Mansour, ayub-khan, Bayhaqis)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-unidentifiable
+    domain: content
+    priority: 17
+    pattern: "unidentifiable|cannot (be )?identify|no (legal )?name|anonymous|who is behind|real name|identity unknown"
+    decision: "log the item unidentifiable with every search recorded in the progress file — never guess a name, never invent an identity; a channel publishing under a name only gets a record under that publishing name"
+    cite: "modern-figures lane no-skip rule + logged-unidentifiable precedent (Umat Muslim, the-muslim-mum)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-excluded-absent
+    domain: content
+    priority: 18
+    pattern: "(excluded|exclusion|delisted|removed from|catalogue exclusion|banned).{0,50}(record|resurrect|re-?add|include|restore|person|entity|entry)|(resurrect|re-?add|restore|reinstate).{0,40}(excluded|exclusion|removed|delisted|catalogue)"
+    decision: "exclusion is a ruling, not an absence to fill: an item excluded from the catalogue stays excluded unless a new founder ruling reverses it — do not resurrect it; a judge that helpfully re-adds an excluded person has made a worse error than a wrong field value"
+    cite: "Muse doctrine §3.4: Hasdai ibn Shaprut, Raja Todar Mal, Birbal excluded — 'inclusion itself was the error'"
+    confidence: 0.9
+    reversible: true
+  - id: rule-stub-replace
+    domain: content
+    priority: 18
+    pattern: "stub|draft record|completeness.?1|wanted (stub|record)|placeholder record"
+    decision: "stubs are replaced in place with fully sourced records — rebuild at the same slug, repoint inbound edges and wikilinks, keep the richer version; a stub is never silently skipped while sources exist"
+    cite: "founder rulings review 3 Nov 2026: 'REPLACE on all stubs' (wave 185)"
+    confidence: 0.85
+    reversible: true
+  - id: rule-wing-default
+    domain: content
+    priority: 19
+    pattern: "which wing|unrecognised wing|unknown wing|multi-wing|belongs to|classif.{0,20}wing|wing assignment"
+    decision: "an unrecognised wing defaults to Ideas; an entity belonging to several wings shows every wing — never force one"
+    cite: "Method page doctrine (site commit 6 Nov 2026)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-kids-wing
+    domain: content
+    priority: 20
+    pattern: "\\b(kids?|child(ren)?|under.?18|young readers?|sprouts|explorers|scholars level|for minors?|minor'?s? (readers?|version|edition|audience)|a minor\\b.{0,40}(read|content|suitable|age))\\b"
+    decision: "children's content follows the children's wing rulebook: flagged_for_kids marks eligibility, sensitive topics get child_review, and leveled sections are sprouts/explorers/scholars inside the prose file"
+    cite: "docs/education + E5 leveled batches (founder-approved leveled-200 list)"
+    confidence: 0.85
+    reversible: true
+  - id: rule-conflict-preserve
+    domain: dates
+    priority: 21
+    pattern: "conflicting (date|year|reading|account|source|version|report|ruling|decision|authority|value)|accounts? (conflict|differ|disagree|contradict)|sources? (conflict|disagree|differ|contradict)|readings? (conflict|differ|disagree|contradict)|dates? (conflict|differ|disagree|contradict)|sources? .{0,20}(give|gives|report|reports|show|shows|have|has).{0,15}different|different (death|birth|date|year|reading|account|version|name|spelling|date of)|discrepanc|contradict|both (dates|years|readings)|which (date|year|reading|version)|which (date|year|reading|version) (is correct|to use|wins|prevails)|which.{0,25}(date|year|hijri|spelling|name|reading|version).{0,60}(carry|record|represent|keep|use|choose|pick|hold)|how should.{0,30}conflict|conflict.{0,30}(represent|carry|record|handle)|(gives|reports|records|shows|lists|says|states).{0,50}(while|whereas|but|and).{0,50}(gives|reports|records|shows|lists|says|states)"
+    decision: "conflicting dates, names or readings are preserved, not resolved silently: record every reading attributed to its source, mark the field debated where the sources disagree, and follow the cited authority the record names"
+    cite: "commit history: Tansen, al-Yaqubi, wave-189/191 date conflicts 'recorded both ways, attributed'"
+    confidence: 0.9
+    reversible: true
+  - id: rule-impossible-dates
+    domain: dates
+    priority: 22
+    pattern: "impossible|chronolog|born.{0,20}(before|after).{0,20}(died|death|born)|date.{0,20}(wrong|incorrect|impossible|contradict)|strip.{0,20}date|no (born|died|birth|death) (block|date|year)|outside.{0,20}(activity|documented|attested)|keep.{0,25}(queue|given|supplied|listed).{0,15}(date|year|born|died)|born.{0,12}\\d{3,4}.{0,12}(died|death|born).{0,12}\\d{3,4}"
+    decision: "dates that are impossible on their face — born/died outside the person's documented activity window or contradicted by their own sourced events — are stripped entirely: the record carries no born/died blocks rather than wrong ones; never repaired by invention"
+    cite: "R1 rulings 1 Nov 2026: Hadji Kamlon's queue dates 1890–1920 impossible vs documented 1948–55 rebellion — record carries no born/died blocks"
+    confidence: 0.9
+    reversible: true
+  - id: rule-external-id-failclosed
+    domain: sources
+    priority: 22
+    pattern: "external.?id|qid|wikidata (id|item|number)\\b|identifier|orcid|isbn guess|guess.{0,20}(id|qid|identifier)"
+    decision: "never guess an external id: if the QID or identifier cannot be confirmed from a live source, omit the field and state the gap in provenance — the wave-1 fail-closed precedent"
+    cite: "wave-2 commit: 'the gap is stated in the provenance rather than guessed'"
+    confidence: 0.9
+    reversible: true
+  - id: rule-reach-threshold
+    domain: content
+    priority: 23
+    pattern: "\\breach\\b|notability|notable|followers|subscribers|influencer|celebrit|threshold|how (big|famous)|who counts"
+    decision: "modern figures are admitted by the lane's reach threshold — a published present-day reach figure from a citable source; below threshold the name stays a queue lead, not a record"
+    cite: "Method page: 'reach thresholds for modern figures'"
+    confidence: 0.85
+    reversible: true
+  - id: rule-harvest-include
+    domain: process
+    priority: 24
+    pattern: "\\b(?:harvest\\w*|extraction|transcripts?|lecture audio|rants?|off-topic|garbled|contested windows?|opinions?)\\b"
+    decision: "harvest inclusively: any intelligible topic is included, contested windows are included as the speaker said them, opinions/rants are categorised by closest fit, garbled windows are discarded and reported — nothing silently dropped"
+    cite: "founder harvest rulings 25 Oct 2026 (docs(harvest) commits)"
+    confidence: 0.85
+    reversible: true
+  - id: rule-nothing-skipped
+    domain: process
+    priority: 25
+    pattern: "\\bskip(?:s|ped|ping)?\\b|no-skip|nobody skipped|\\bmiss(?:ed|ing|es)?\\b.{0,15}\\b(?:items?|rows?|entries|records?|questions?|one|them|it)\\b|\\bbypass\\w*\\b|queue order"
+    decision: "lanes process every queue item in order — nobody is skipped; what cannot be built is logged unidentifiable or held with its reason, never passed over silently"
+    cite: "Method page: 'lanes and waves with nobody skipped' + modern-figures §2 no-skip rule"
+    confidence: 0.9
+    reversible: true
+  - id: rule-corrections-open
+    domain: process
+    priority: 26
+    pattern: "correction|correct.{0,20}(error|mistake|record|fact)|erratum|fix.{0,20}(wrong|incorrect|error)"
+    decision: "corrections are made openly: fix the record, cite what the correction rests on, append a CANARY entry — errors are corrected when found, never hidden"
+    cite: "AGENTS.md + Method page: 'corrections in the open'"
+    confidence: 0.85
+    reversible: true
+  - id: rule-relation-direction
+    domain: content
+    priority: 27
+    pattern: "relation direction|edge direction|direction of (the )?(relation|edge|predicate)|who (taught|influenced|wrote against|debated) whom|teacher.{0,20}student|student.{0,20}teacher|reverse[ds]? (the )?(edge|relation|direction)|parent.{0,10}child.{0,20}(edge|relation|direction)"
+    decision: "an edge is written only in the direction an attestation fixes — teacher→student, parent→child, author→work; if no source fixes the direction, omit the edge and record the claimed relation in prose as a claim"
+    cite: "AGENTS.md (relations use schema/predicates.yaml, write the edge once) + recurring brief direction errors"
+    confidence: 0.85
+    reversible: true
+  - id: rule-ui-no-deviation
+    domain: engineering
+    priority: 28
+    pattern: "(\\bui\\b|user interface|layout|component(s)?|visual design|screen design|page design|design system).{0,50}(deviat\\w*|redesign|restyle|rebrand|overhaul|break\\w*.{0,15}(pattern|layout|design))|deviat\\w*.{0,30}(from )?(the )?(current|existing).{0,30}(ui|layout|design|component)|\\b(redesign|restyle|rebrand)\\b"
+    decision: "ship the change inside the current layout/component pattern — a brief that requires deviation becomes a labelled proposal logged for review, never a silent redesign"
+    cite: "AGENTS.md UI constraint + Muse Q2 domain table (no-big-deviation rule)"
+    confidence: 0.8
+    reversible: true
+
+  # --- Rules induced from founder verdicts (first two label batches).
+  # Each cites the record whose verdict grounded it — the CEGIS loop:
+  # label → counterexample/gap → rule → benchmark probe. ---
+
+  - id: rule-generated-regen
+    domain: process
+    priority: 28
+    pattern: "(coverage\\.md|docs/coverage|generated (file|artifact|report|census|output)|census report|digest\\.md|docket\\.md).{0,100}(merge conflict|conflict|hand.?merge|hand.?edit|hand.?resolve|resolve|regenerat)|(merge conflict|conflict).{0,60}(coverage\\.md|docs/coverage|generated|census|digest|docket)"
+    decision: "generated artifacts (docs/coverage.md, census reports, digests, dockets) are regenerated from their sources, never hand-merged or hand-edited to resolve a conflict — regenerate after the merge"
+    cite: "founder verdict dec-20261108-080 (approved: regenerate rather than hand-resolve)"
+    confidence: 0.85
+    reversible: true
+  - id: rule-arabic-parens-same-commit
+    domain: i18n
+    priority: 34
+    pattern: "(arabic|parenthes|parens?|u\\+2066|ltr isolate).{0,60}(same commit|follow.?up|separate commit|next commit|later commit|defer)|(same commit|follow.?up|separate commit|next commit|later commit|defer).{0,60}(arabic|parenthes|parens?|u\\+2066|ltr isolate)"
+    decision: "Arabic parentheses isolation (U+2066…U+2069) is part of correct authoring, not a follow-up: fix it in the same commit as the prose it affects"
+    cite: "AGENTS.md (Arabic parentheses are isolated) + founder verdict dec-20261108-074 (rejected follow-up framing)"
+    confidence: 0.9
+    reversible: true
+  - id: rule-agents-precedence
+    domain: governance
+    priority: 35
+    pattern: "agents\\.md.{0,50}(govern|precedence|over|wins|priority|conflict|sequencing)|docs/plan.{0,50}(sequencing|wording|order).{0,40}(agents\\.md|ai-change-gates|govern|over)"
+    decision: "AGENTS.md and docs/ai-change-gates.md are binding on every agent and govern over docs/plan sequencing wording — the parallel-lane rules win over plan-order phrasing"
+    cite: "AGENTS.md header (single entry point, rules that never bend) + founder verdict dec-20261108-077 (approved)"
+    confidence: 0.8
+    reversible: true
+  - id: rule-flaky-local
+    domain: engineering
+    priority: 36
+    pattern: "(flaky|flakiness|intermittent).{0,50}(test|vitest|ci|local|fail|pass)|(test|vitest|spec).{0,40}(flaky|fails? only locally|passes? (only )?in ci|environment noise|local only)"
+    decision: "a test that fails only on the local machine while CI is green is environment noise: verify it once, note it in the commit or progress file, and do not block the change on it"
+    cite: "founder verdict dec-20261108-091 (approved)"
+    confidence: 0.75
+    reversible: true
+  - id: rule-id-renumber
+    domain: process
+    priority: 37
+    pattern: "(id|record|slug|identifier).{0,35}(collision|collide|colliding|clash)|same (record |entity |lane |worktree |question )?(ids?|identifiers?|slugs?)\\b|(collision|collide|clash).{0,35}(id|record|slug|identifier)"
+    decision: "a colliding identifier is renumbered or re-keyed rather than kept — ids are immutable once published, and a collision means two records claimed one id"
+    cite: "founder verdict dec-20261108-082 (approved) + AGENTS.md (ids immutable)"
+    confidence: 0.8
+    reversible: true

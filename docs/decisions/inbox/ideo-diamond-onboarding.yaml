@@ -1,0 +1,15 @@
+id: ideo-diamond-onboarding
+lane: "library"
+class: "process"
+modality: "website"
+question: "Should IDEO Diamond / AlKindi (opac.diamondrda.org — the IFLA-LRM/RDA catalogue run by IDEO Cairo and stewarded by LRM-CS: >230,000 works, >116,000 agents, typed work-to-work relations) be onboarded as a source family for the works backlog, and at what tier? Assessment evidence: institutional scholarly authority (IDEO est. 1953, Vatican Library and Arab League manuscript institute among 11 partners); stable numeric work/agent IDs already used by Wikidata properties P8795 and P11979; no published data licence — open-data ethos only; no public API, SPARQL endpoint or bulk download found; coverage concentrated in the classical Islamicate heritage the museum mines. Proposed family id source/ideo-diamond, citation anchor work/<id> or agent/<id>."
+options:
+  - "Tier 1 citable authority file, facts-only until LRM-CS confirms terms in writing; Wikidata crosswalk as first harvest channel"
+  - "Tier 3 pointer only — never citable"
+  - "Do not register"
+evidence:
+  - "Muse assessment 2026-11-08: authority strong, citability strong, coverage fit excellent (1,153-work prose backlog + ~2,300 work records + author authority), corroboration high (edition history and commentary/refutation/abridgement graph mining cannot produce), longevity strong"
+  - "Criterion 3 default applies: terms unclear -> facts-only; no NC clause, so terms may improve after a data-sharing conversation with LRM-CS"
+  - "Registration steps specified: scripts/harvest/sources.yaml entry, data/source/ideo-diamond.yaml entity, docs/attribution.md row, Tier 1 table row"
+proposed_action: "onboard at Tier 1 as source/ideo-diamond: citable for bibliographic facts (authorship, work identity, edition/translation history, typed work relations, agent dates and teacher/disciple relations as corroboration); never a source for a work's contents or record text verbatim; facts-only until licence confirmed; no bulk harvest until LRM-CS agrees terms; pilot on 10 records before scaling; founder follow-up to LRM-CS for licence + data exchange"
+source: "Muse IDEO Diamond / AlKindi assessment (user-provided, 2026-11-08)"

@@ -22,3 +22,17 @@ Pages: v1 PDF 1–7, 53–57, 63, 71–79, 97–101; v3 pp. 2, 199–202.
 ## Next
 
 v3: dalalat al-mafhum, qiyas; v1: Pole 1 (definition of hukm, wajib, mubah); the editor's life of al-Ghazali pp. 9–56.
+
+## lib-wave-21 batch (8 Nov 2026, Devin SWE-2 Flash)
+
+Cited as `source/mustasfa` (the wave-21 book record); the same Hafiz-edition copies worker D registered as `source/mustasfa-hafiz-v1`/`v3`.
+
+Enriched (existing entities; runs `lib-wave-21-mustasfa-1..4`):
+- `concept/mafhum` — v3 dalalat al-alfaz, الضرب الخامس (printed pp. 413-415, 435-438): mafhum = dalil al-khitab definition, the denial-vs-affirmation dispute with al-Ghazali's own position, eight degrees of presumed negation, mafhum al-shart.
+- `concept/qiyas` — v3 (printed pp. 654-657, 669-672): four ranked kinds of qiyas (mu'aththir → munasib → shibh → tard) and the four pillars with eight conditions on the asl.
+- `concept/wajib-fiqh` — v1 muqaddima (printed folios 82-85 = PDF 165-168; v1 printed numbering irregular, the (NNN) folios were used): disputed definitions of wajib, the five-ahkam division, the gloss on ishar.
+- `concept/hukm-ruling` — v1 muqaddima (printed folios 21-22 = PDF 102-103): hukm = khitab al-shar', no role for reason before revealed laws, la hukm illa lillah.
+
+Skipped: `concept/iqtida-al-nahy-al-fasad` — already created/enriched by worker D; `person/al-ghazali-abu-hamid` — already enriched by worker D.
+
+Remaining next: v3 dalalat al-mafhum remainder and qiyas chapter body (ithbat al-qiyas, arkan detail); v1 editor's life of al-Ghazali pp. 9-56.

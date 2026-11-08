@@ -1,0 +1,49 @@
+id: dec-20261108-161
+kind: override
+date: 2026-11-08
+question_hash: 69fcea09dd97
+lane: translation
+class: i18n
+modality: repo
+domain: sources
+mode: conservative
+question: The Arabic label exists but English summary is machine-translated and unreviewed — publish with provenance, or hold until human-reviewed?
+status: decided
+step: override
+decision: Machine-translated summaries require human review before publishing — unreviewed MT prose stays draft.
+correct_outcome: human-review-before-publish
+wrong_outcome: publish-unreviewed-mt
+confidence: 1
+reversible: true
+rationale: "The engine held/docketed this; the founder's wave-2 verdict was a substantive \"no\" — a ruling on the underlying question. This override enacts it so the answer becomes citable precedent. Source verdict note: machine-translated summaries require human review before publishing"
+supersedes: dec-20261108-128
+override_reason:
+  category: founder-verdict
+  detail: "founder ruled: machine-translated summaries require human review"
+  overridden_by: founder-rule-label
+signals:
+  source_record: dec-20261108-128
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+  note: enacts founder verdict on dec-20261108-128
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: enacts founder's rejected-verdict ruling from dec-20261108-128
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

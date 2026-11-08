@@ -16,8 +16,8 @@ gender: male
 roles: [companion]
 traditions: [sunni]
 summary:
-  en: "Son of Yasir and Sumayya, a client of Banu Makhzum; he was tortured with his parents and heard the Prophet promise them Paradise — his inclusion among the eighty-three of the second Abyssinian migration is doubtful in the sources."
-  ar: "ابن ياسر وسمية، مولى لبني مخزوم؛ عُذّب مع أبويه والنبي يبشّرهم بالجنة، ويُشك في عدّه ضمن الثمانية والثلاثين من مهاجرة الحبشة الثانية. وعند المسعودي قتله بصفين أبو العادية العاملي وابن جون السكسكي عند المساء وله ثلاث وتسعون سنة وصلى عليه علي ولم يغسله وكان يغير شيبه، واختلف قاتلاه في سلبه إلى عبد الله بن عمرو بن العاص فأبعدهما بحديث النبي ما لهم ولعمار يدعوهم إلى الجنة ويدعونه إلى النار، وتنوزع في نسبه فألحقه بعضهم ببني مخزوم وقال آخرون كان من حلفائهم {cite:muruj-al-dhahab p. 673}"
+  en: "Son of Yasir and Sumayya, a client of Banu Makhzum; he was tortured with his parents and heard the Prophet promise them Paradise — his inclusion among the eighty-three of the second Abyssinian migration is doubtful in the sources. Usd al-Ghaba's entry on him (no. 2805) gives his father Yasir as an 'Urani Qahtani of Anas and counts him among the very first Muslims, tortured with his parents until the Prophet promised them Paradise {cite:usd-ghaba p.890}."
+  ar: "ابن ياسر وسمية، مولى لبني مخزوم؛ عُذّب مع أبويه والنبي يبشّرهم بالجنة، ويُشك في عدّه ضمن الثمانية والثلاثين من مهاجرة الحبشة الثانية. وعند المسعودي قتله بصفين أبو العادية العاملي وابن جون السكسكي عند المساء وله ثلاث وتسعون سنة وصلى عليه علي ولم يغسله وكان يغير شيبه، واختلف قاتلاه في سلبه إلى عبد الله بن عمرو بن العاص فأبعدهما بحديث النبي ما لهم ولعمار يدعوهم إلى الجنة ويدعونه إلى النار، وتنوزع في نسبه فألحقه بعضهم ببني مخزوم وقال آخرون كان من حلفائهم {cite:muruj-al-dhahab p. 673}. ويذكر أسد الغابة في ترجمته رقم ٢٨٠٥ أن أباه ياسراً عُرني قحطاني من عنس، وأنه من السابقين الأولين إلى الإسلام، وعُذّب مع أبويه حتى بشّرهما النبي بالجنة {cite:usd-ghaba p.890}."
   ur: "یاسر اور سمیہ کے بیٹے اور بنو مخزوم کے حلیف؛ ابتدائی دور میں اپنے والدین کے ساتھ اذیتیں برداشت کیں۔ دوسری ہجرت حبشہ میں ان کی شرکت کے بارے میں ماخذ میں اختلاف ہے۔ {cite:mubarakpuri-raheeq}"
 wings: [people]
 periods: [period/prophetic-era]
@@ -34,7 +34,7 @@ relations:
   - { type: participated_in, target: event/second-migration-to-abyssinia, role: "يُشك في عدّه ضمن المهاجرين", confidence: low, sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira] }
 external_ids: { wikidata: "Q1110653" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/assabile-mosaad-anwar, source/fadail-sahaba-ahmad-wasi-allah-1999]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/assabile-mosaad-anwar, source/fadail-sahaba-ahmad-wasi-allah-1999, source/usd-ghaba]
 status: { review: published, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 90, 94" }
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on this Companion's chapter in Ahmad's Fada'il al-Sahaba from source/fadail-sahaba-ahmad-wasi-allah-1999"
@@ -42,5 +42,5 @@ provenance:
   source: "source/ibn-hisham-sira"
   generated_by: Devin
   model: "unknown"
-  run: "education-E3-facts-batch14"
+  run: "education-E3-facts-batch14; lib-wave-21-usd-ghaba-1"
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}

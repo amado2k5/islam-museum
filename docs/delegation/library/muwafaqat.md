@@ -22,3 +22,16 @@ Pages: Draz 1-10, 18, 63, 219-223, 469, 774; Mashhur 1, 3-12. No record of this 
 ## Next
 
 Kitab al-Ahkam on rukhsa/azima (link to `concept/rukhsa-usul`, `concept/azima`); Kitab al-Adilla on Meccan/Medinan universals; the second kind of objectives (the Arab-ness / ummiyya of the law); a detailed life of al-Shatibi from another source.
+
+## lib-wave-21 batch (8 Nov 2026, Devin SWE-2 Flash)
+
+Copy used: `20200129_20200129_0618/book.txt` (Draz commentary ed., printed = PDF markers; verified against inline printed folios).
+
+Enriched (existing entities; runs `lib-wave-21-muwafaqat-1..3`):
+- `concept/azima` — Kitab al-Ahkam, النوع الخامس في العزائم والرخص (printed pp. 183-186): 'azima as universal rulings legislated from the outset; rukhsa as excuse-based exception; «العزائم حق الله على العباد، والرخص حظ العباد».
+- `concept/rukhsa-usul` — same section (printed pp. 183-187): rukhsa definition, exclusion of hajjiyat (qard/qirad/musaqah), the four itlaqat of the term, hukm al-rukhsa = ibaha.
+- `concept/makki-wa-madani` — Kitab al-Adilla, al-Masa'il al-thamina (printed pp. 493-495): absolute vs restricted proofs; Meccan universals vs Medinan particulars/complements; the five kulliyyat survey.
+
+Skipped: `concept/maqasid-al-shariah`, `concept/al-daruriyyat-al-khams` — already enriched/created by worker L from this work; the second-kind-of-objectives section not yet mined (still open below).
+
+Remaining next: the second kind of objectives (Arab-ness/ummiyya of the law); Kitab al-Adilla remainder; a detailed life of al-Shatibi from another source.

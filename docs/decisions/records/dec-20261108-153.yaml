@@ -1,0 +1,44 @@
+id: dec-20261108-153
+kind: override
+date: "2026-11-08"
+question_hash: 7105fc12f14f
+lane: "chronology"
+class: "dates"
+modality: "repo"
+domain: "dates"
+mode: "conservative"
+question: "Two independent sources give different death years for the same person — publish one year with a note, or record both readings as debated?"
+status: decided
+step: override
+decision: "Conflicting dates are preserved, not resolved silently: record every reading as a debated/attributed variant with its sources — never pick one year and bury the other."
+correct_outcome: conflict-preserved-as-debated
+wrong_outcome: silent-resolution-or-dedup-merge
+confidence: 1
+reversible: true
+rationale: "dec-129 was generated before the conflict-preserve/source-family pattern tightening and cites rule-duplicate-alias — an entity-dedup rule answering a date-conflict question, the same false-positive class as the git-merge misfires. The current engine answers this question with rule-conflict-preserve. This override kills the stale record so it cannot teach the wrong ruling to future similar questions."
+supersedes: dec-20261108-129
+override_reason:
+  category: rule-missing
+  detail: "rule-duplicate-alias matched 'different...same person' dedup language on a date-conflict question; pattern tightened, record reversed here"
+  overridden_by: stale-record-sweep
+signals:
+  matched_rule_id: rule-duplicate-alias
+  correct_rule_id: rule-conflict-preserve
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

@@ -1,0 +1,43 @@
+id: dec-20261108-092
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
+question_hash: 0ce3a7ae2be7
+lane: process-pilot
+class: engineering
+modality: repo
+domain: governance
+mode: conservative
+question: This batch fixes a date-parsing bug and adds one new predicate — do I
+  bump the site version as patch, minor, or leave it for the next feature batch?
+options: null
+status: founder-docket
+step: policy-gate
+decision: governance surfaces (schema, classes, enums, predicates, routes,
+  headers, infra, CI) are founder-only
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-governance
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-governance
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-governance
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: batch verdict 2026-11-08
+  founder_override: false
+  calibration_weight: 1

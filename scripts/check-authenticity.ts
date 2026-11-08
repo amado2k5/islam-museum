@@ -47,9 +47,11 @@ export function checkRegister(reg: any, canonIds: Set<string>): Issue[] {
       if (d.school !== "sunni") err(w, "accept requires school sunni");
       if (!Array.isArray(d.school_evidence) || d.school_evidence.length < 1) err(w, "accept requires at least one school_evidence entry");
       if (!d.authenticity_basis) err(w, "accept requires authenticity_basis (edition, provenance or primary record)");
-      // the harvest matches candidates against this rule; without it the harvest would download anything with a matching title
-      const ne = d.named_edition;
-      if (!ne || !Array.isArray(ne.publisher_any) || ne.publisher_any.length === 0 || !Array.isArray(ne.editor_any) || ne.editor_any.length === 0) err(w, "accept requires named_edition with publisher_any and editor_any (non-empty lists)");
+      // Founder ruling 2026-11-08 (dec-183): authenticity_basis alone satisfies
+      // accept — a manuscript/institutional basis is primary evidence. The
+      // named_edition requirement lives at the harvest gate
+      // (authenticity_gate.py refuses to fetch without it), where its
+      // title-matching function belongs.
     }
     if (d.decision === "label") {
       if (d.school === "sunni") err(w, "label is for non-Sunni or unverified schools; a Sunni verified item is accepted");

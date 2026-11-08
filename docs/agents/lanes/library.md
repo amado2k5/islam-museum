@@ -8,7 +8,7 @@
 3. `make_sources.py --write` creates draft `source` entities; check the edition details against a physical copy before the source is marked reviewed.
 4. `make_work_order.py <book-id>` prints the order for a lane: the book's facts, its extracted copies, the category guidance, and the progress state.
 
-**Rules.** [`../mining-sources.md`](../mining-sources.md), the category guidance in [`../categories/`](../categories/) (`hadith`, `tafsir`, `seerah-tareekh`, `people`, `aqeedah-fiqh`), [`../content-standards.md`](../content-standards.md), [`../workflow.md`](../workflow.md).
+**Rules.** [`../mining-sources.md`](../mining-sources.md), the category guidance in [`../categories/`](../categories/) (`hadith`, `tafsir`, `seerah-tareekh`, `people`, `aqeedah-fiqh`), [`../content-standards.md`](../content-standards.md), [`../workflow.md`](../workflow.md). All labeling, classification and judgment calls route through the decision engine — [`mining-sources.md`](../mining-sources.md) §4b.
 **Branch / stubs / progress:** `content/lib-<book-id>`; `data/_stubs.d/lib-<book-id>.yaml`; `docs/delegation/library/<book-id>.md` (edition and item used, page offset, sections done, next step). Commit prefix `content(lib-<book-id>)`.
 
 ## Priority order

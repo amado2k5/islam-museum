@@ -1,0 +1,49 @@
+id: dec-20261108-152
+kind: override
+date: 2026-11-08
+question_hash: 4f839b210bd8
+lane: process-pilot
+class: process
+modality: repo
+domain: sources
+mode: conservative
+question: "My AI-generated prose cites two defined sources and passes validation — mark it status.review: published now, or hold it as draft until a human reads it?"
+status: decided
+step: override
+decision: "AI-generated prose citing defined sources does NOT get marked status.review: published without human read — it stays draft until reviewed."
+correct_outcome: founder-ruling
+wrong_outcome: safe-default-hold
+confidence: 1
+reversible: true
+rationale: "The engine held this at safe-default/docket, but the founder's verdict on dec-20261108-088 was a substantive \"no\" — a ruling on the underlying question, not a rejection of the hold. This override enacts that ruling so the answer becomes citable precedent instead of a dead end. Source verdict note: batch verdict 2026-11-08"
+supersedes: dec-20261108-088
+override_reason:
+  category: founder-verdict
+  detail: founder_resolution.verdict=rejected on dec-20261108-088 (a held/docket record) — the "no" answers the question itself
+  overridden_by: founder-rule-label
+signals:
+  source_record: dec-20261108-088
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+  note: enacts founder verdict recorded on dec-20261108-088 via founder-rule.ts
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: enacts the founder's rejected-verdict ruling from dec-20261108-088
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

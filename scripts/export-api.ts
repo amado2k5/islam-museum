@@ -2,7 +2,7 @@
 //   /api/v1/<class>/<slug>.json   full entity     /api/v1/<class>/index.json   compact index
 //   /api/v1/graph/nodes.ndjson, edges.ndjson      /api/v1/meta/coverage.json, meta/index.json
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
-import { dirname } from "node:path";
+import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Compiled, Node } from "./build-graph.js";
 import { CLASSES, p } from "./lib.js";
@@ -10,7 +10,7 @@ import { buildRelated } from "./derive.js";
 import { wingCounts } from "./wings.js";
 import { primaryYear, recordOfNode, SECTION_IDS, sectionsOf, taxonomy as modernTaxonomy, yearsOf, WINDOW_START_YEAR } from "./modern/sections.js";
 import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
-import { existsSync } from "node:fs";
+import { existsSync, readdirSync } from "node:fs";
 
 const OUT = p("site", "public", "api", "v1");
 const write = (rel: string, body: string) => {
@@ -200,6 +200,24 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
   return out;
 }
 
+export function decisionsApiData() {
+  const dir = p("docs", "decisions", "records");
+  const records = existsSync(dir)
+    ? readdirSync(dir).filter((f) => f.endsWith(".yaml")).sort()
+        .map((f) => yparse(rf(join(dir, f), "utf8")))
+    : [];
+  const precFile = p("docs", "decisions", "precedents.yaml");
+  const precedents = existsSync(precFile)
+    ? ((yparse(rf(precFile, "utf8")) as { precedents?: unknown[] })?.precedents?.length ?? 0)
+    : 0;
+  // Deterministic stamp: the newest record's date, so the file only changes when the ledger does.
+  const newest = records.reduce<string>((a, r) => {
+    const d = String((r as { date?: string }).date ?? "");
+    return d > a ? d : a;
+  }, "");
+  return { generated: newest || null, feature: "decision-ledger-poc", precedent_count: precedents, records };
+}
+
 export function exportApi(c: Compiled) {
   rmSync(OUT, { recursive: true, force: true });
   const real = c.nodes.filter((n) => !n.stub);
@@ -233,6 +251,9 @@ export function exportApi(c: Compiled) {
   const inventionData = inventionApiData(c);
   write("inventions.json", JSON.stringify(inventionData.inventions, null, 1));
   write("inventions/chains.json", JSON.stringify(inventionData.chains, null, 1));
+  // Decision ledger (POC, docs/decisions/): the auditable records emitted by
+  // scripts/decisions/decide.ts, exported so the ledger is API-readable like every feature.
+  write("decisions.json", JSON.stringify(decisionsApiData(), null, 1));
   const modern = modernApiData(c);
   write("modern/index.json", JSON.stringify(modern.index, null, 1));
   for (const [section, items] of Object.entries(modern.sections)) {

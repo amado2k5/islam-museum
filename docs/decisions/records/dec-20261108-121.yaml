@@ -1,0 +1,43 @@
+id: dec-20261108-121
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
+question_hash: ef24261b97dd
+lane: infra
+class: engineering
+modality: repo
+domain: governance
+mode: conservative
+question: My change adds files under a new data/ folder — which lists must I
+  update for the R2 sync (R2_DATA_DIRS, publish.mjs, run_worker_first,
+  deploy.yml)?
+options: null
+status: founder-docket
+step: policy-gate
+decision: deploys are founder-only (cost + control)
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-deploy
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-deploy
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-deploy
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: new data/ folders added to R2 sync lists
+  founder_override: false
+  calibration_weight: 1

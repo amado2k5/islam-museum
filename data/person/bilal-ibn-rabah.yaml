@@ -18,8 +18,8 @@ died: { edtf: "0640~", calendar: julian, precision: decade, status: debated, not
 roles: [companion]
 traditions: [sunni]
 summary:
-  en: "An Abyssinian-born slave in Mecca, among the earliest converts; freed by Abu Bakr and remembered as the first muezzin of Islam — the voice that called the community to prayer."
-  ar: "عبد حبشي المولد في مكة، من السابقين إلى الإسلام؛ أعتقه أبو بكر، ويذكره التراث أول مؤذن في الإسلام — الصوت الذي نادى الجماعة إلى الصلاة. وعند المسعودي عدّه قوم ثاني من أسلم بعد أبي بكر الصديق في أحد أقوال أول من أسلم {cite:muruj-al-dhahab p. 575}. وفي الصحيح قال له النبي «يا بلال حدثني بأرجى عمل عملته في الإسلام فإني سمعت دف نعليك بين يدي في الجنة» فقال ما عملت عملاً أرجى عندي أني ما تطهرت طهوراً في ساعة ليل أو نهار إلا صليت بذلك الطهور ما كُتب لي أن أصلي {cite:sahih-al-bukhari 1149}، وللحديث رواية في مسلم بلفظ «خشف نعليك بين يدي في الجنة» {cite:sahih-muslim 2458}."
+  en: "An Abyssinian-born slave in Mecca, among the earliest converts; freed by Abu Bakr and remembered as the first muezzin of Islam — the voice that called the community to prayer. Usd al-Ghaba's entry on Bilal (no. 493) counts him among the seven Mujahid named as the first to declare Islam openly in Mecca, and records Muhammad ibn Sa'd's report that he died in Damascus and was buried at Bab al-Saghir in year 20 {cite:usd-ghaba p.131}."
+  ar: "عبد حبشي المولد في مكة، من السابقين إلى الإسلام؛ أعتقه أبو بكر، ويذكره التراث أول مؤذن في الإسلام — الصوت الذي نادى الجماعة إلى الصلاة. وعند المسعودي عدّه قوم ثاني من أسلم بعد أبي بكر الصديق في أحد أقوال أول من أسلم {cite:muruj-al-dhahab p. 575}. وفي الصحيح قال له النبي «يا بلال حدثني بأرجى عمل عملته في الإسلام فإني سمعت دف نعليك بين يدي في الجنة» فقال ما عملت عملاً أرجى عندي أني ما تطهرت طهوراً في ساعة ليل أو نهار إلا صليت بذلك الطهور ما كُتب لي أن أصلي {cite:sahih-al-bukhari 1149}، وللحديث رواية في مسلم بلفظ «خشف نعليك بين يدي في الجنة» {cite:sahih-muslim 2458}. ويذكر أسد الغابة في ترجمة بلال رقم ٤٩٣ أنه ممن عدّهم مجاهد في سبعة أظهروا الإسلام بمكة، وأنه توفي بدمشق ودفن بباب الصغير سنة عشرين على قول محمد بن سعد {cite:usd-ghaba p.131}."
   ur: "مکہ میں غلامی کی حالت سے اسلام قبول کرنے والے ابتدائی مسلمانوں میں سے؛ ابو بکر نے انہیں آزاد کیا اور وہ اسلام کے پہلے مؤذن کے طور پر معروف ہوئے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [slavery-and-freedom, race-colour-ethnicity, worship-and-the-pillars]
@@ -45,14 +45,14 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira, source/ibn-hisham-saqqa]}
 external_ids:
   wikidata: Q493136
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-abd-al-rahman-mansour, source/assabile-mosaad-anwar, source/assabile-mustafa-hosny]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-abd-al-rahman-mansour, source/assabile-mosaad-anwar, source/assabile-mustafa-hosny, source/usd-ghaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 provenance:
   layer: own-research
   source: "source/ibn-sad-tabaqat-bewley"
   generated_by: Devin
   model: "unknown"
-  run: "education-E3-facts-batch5"
+  run: "education-E3-facts-batch5; lib-wave-21-usd-ghaba-1"
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
 occupations:
   - job: job/treasurer

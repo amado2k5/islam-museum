@@ -3,12 +3,13 @@ class: place
 kind: city
 label: { ar: "غاو", en: "Gao" }
 summary:
-  ar: "مدينة في مالي على نهر النيجر، كانت عاصمة إمبراطورية سنغاي."
-  en: A city in Mali on the Niger River; it was the capital of the Songhai Empire.
+  ar: "مدينة في مالي على نهر النيجر، كانت عاصمة إمبراطورية سنغاي. ويذكر ابن بطوطة أنه بلغ مدينة مالي التي هي حضرة ملك السودان وأقام بها نحو أربعة أشهر، ويصف سلطانها منسى سليمان بأنه ملك بخيل لا يُرجى منه عطاء كبير، ويذكر قاضيها علي بن عبد الرحمن الجامعي وترجمانها دوغا وما وهب له من مثاقيل الذهب عند الوداع {cite:rihla-ibn-battuta-1958 p. 197-198}"
+  en: A city in Mali on the Niger River; it was the capital of the Songhai Empire. Ibn Battuta records reaching the city of Mali, seat of the king of the Sudan, and staying there about four months; he describes its sultan Mansa Sulayman as a stingy ruler not to be expected to give much, names its qadi Ali ibn Abd al-Rahman al-Jami'i and interpreter Dogha, and records the gold mithqals given him at parting {cite:rihla-ibn-battuta-1958 p. 197-198}"
 wings: [place]
 regions: [west-africa-sahel]
 coordinates: [16.2717, -0.0447]
 coordinate_precision: site
 external_ids: { geonames: "2457163" }
-sources: [source/geonames-gazetteer]
+sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-1958]
+provenance: { layer: own-research, source: "geonames-gazetteer + rihla-ibn-battuta-1958 (Maktaba Tijariyya scan read)", generated_by: "Devin (SWE-2 Flash) wave-21 gap-fill", run: "lib-wave-21-rihla-ibn-battuta-1" }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }

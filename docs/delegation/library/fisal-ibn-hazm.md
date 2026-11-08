@@ -21,3 +21,7 @@ Pages: kotobarabia 1, 5-10, 183-187, 594-597; Salam PDF 1, 5, 7-11.
 ## Next
 
 The theological chapters (attributes, vision, faith); the "scandals" chapters only with each group's own sources alongside; enrich group/samaritans with his account.
+
+## Done (wave 21)
+
+- (8 Nov 2026, wave 21, run `lib-wave-21-fisal-ibn-hazm-1`) Enriched 4 existing group records from the kotobarabia text (`source/fisal-ibn-hazm-kotobarabia`, page = PDF), all polemical material attributed to Ibn Hazm («يذكر ابن حزم...», «عند ابن حزم...»): `group/samaritans` (his five Jewish sects, Samaritans first — Nablus vs Bayt al-Maqdis, a different Torah, rejection of prophecy after Moses/Joshua and of resurrection, PDF pp. 184–185), `group/murjia` and `group/mutazila` (his five-fold division of the Muslims into Sunna/Mu'tazila/Murji'a/Shi'a/Khawarij and his nearest–farthest ordering of each sect, PDF pp. 595–597), `group/jahmiyya` (his report of Jahm ibn Safwan's argument that eternal knowledge other than God is eternal association and God-is-knowledge is ilhad, and his reply that it contradicts the Qur'an; Jahmiyya and Ash'aris share the objection, PDF pp. 622–624). Skipped: `group/khawarij`, `group/azariqa`, `group/ibadiyya`, `group/imamiyya` — the same p. 595–598 passage covers them and can feed a second batch; the theological chapters (attributes, vision, faith) remain for later.

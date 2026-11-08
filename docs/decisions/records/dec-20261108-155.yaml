@@ -1,0 +1,49 @@
+id: dec-20261108-155
+kind: override
+date: 2026-11-08
+question_hash: 823826a9d306
+lane: voice
+class: safety
+modality: repo
+domain: i18n
+mode: conservative
+question: A modern politician's museum entry would need evaluative language (hero/villain framing) — describe neutrally with story_roles or decline the entry?
+status: decided
+step: override
+decision: Modern politicians' museum entries use neutral description only — evaluative hero/villain framing is stripped, acts are described and judgements attributed.
+correct_outcome: neutral-description-only
+wrong_outcome: evaluative-hero-villain-framing
+confidence: 1
+reversible: true
+rationale: "The engine held/docketed this; the founder's wave-2 verdict was a substantive \"no\" — a ruling on the underlying question. This override enacts it so the answer becomes citable precedent. Source verdict note: neutral only — strip evaluative language for modern politicians"
+supersedes: dec-20261108-097
+override_reason:
+  category: founder-verdict
+  detail: "founder ruled: neutral only; strip evaluative language for modern politicians"
+  overridden_by: founder-rule-label
+signals:
+  source_record: dec-20261108-097
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+  note: enacts founder verdict on dec-20261108-097
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: enacts founder's rejected-verdict ruling from dec-20261108-097
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

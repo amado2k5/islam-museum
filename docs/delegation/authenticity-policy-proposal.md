@@ -63,7 +63,7 @@ The tiers from the earlier draft apply to where an item was found, and to the so
 
 ## 8. Checking the author's school
 
-An author is verified as Sunni, or as another school, from two independent T2–T4 sources, at least one of them an encyclopaedic or institutional reference, with the date checked. The rules from the earlier draft apply: Wikipedia and Wikidata are pointers, and an infobox entry is a stated claim, not proof. A school that cannot be verified is recorded as "not verified", and the item is labelled, not accepted.
+An author is verified as Sunni, or as another school, from **one** independent T2–T4 source, preferably an encyclopaedic or institutional reference, with the date checked. *(Amended 2026-11-08: founder confirmed the 31 October 2026 ruling recorded in commit `1c829f6da5` / PR #2816 relaxing the accept rule to one school source — decision record `dec-20261108-184`. The earlier two-source draft is superseded.)* The rules from the earlier draft apply: Wikipedia and Wikidata are pointers, and an infobox entry is a stated claim, not proof. A school that cannot be verified is recorded as "not verified", and the item is labelled, not accepted.
 
 ## 9. Tracing
 

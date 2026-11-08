@@ -1,0 +1,50 @@
+id: dec-20261108-183
+kind: override
+date: 2026-11-08
+expires_at: '2027-11-08'
+question_hash: 93b564f6fd77
+lane: coverage-programme
+class: process
+modality: repo
+domain: sources
+mode: conservative
+question: The authenticity validator requires named_edition (publisher_any + editor_any) for every accept decision. For pre-print canon books whose authenticity rests on manuscript tradition or institutional scans (no print publisher exists or is relevant), should accept still require a named modern edition, or should institutional provenance / a manuscript record satisfy the basis?
+options:
+- accept requires named_edition for all books (current validator)
+- accept allows manuscript/institutional authenticity_basis without named_edition for pre-print works
+- pre-print books get a separate decision path (e.g. accept-manuscript)
+evidence:
+- 'scripts/check-authenticity.ts line ~52: accept requires named_edition with publisher_any and editor_any'
+- 'docs/delegation/authenticity-policy-proposal.md section 6: authenticity_basis may be a named edition, institutional provenance, or manuscript/primary record'
+- 'docs/delegation/canon-batch-01-proposal.md: 16 accept candidates are all pre-print works held as library scans'
+status: decided
+step: override
+decision: accept requires authenticity_basis (named edition OR institutional provenance OR manuscript/primary record — policy §6's disjunctive bases). named_edition is NOT a condition of the decision; it stays mandatory at the harvest gate (authenticity_gate.py) where its title-matching function lives.
+confidence: 1
+reversible: true
+rationale: Founder ruling 2026-11-08, option (b). A manuscript basis is more primary than a print edition; forcing modern publisher metadata on pre-print works was an architectural error (validator exceeded the policy it implements). check-authenticity.ts updated accordingly.
+needs_precedent: true
+review_sampled: false
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+calibration_log:
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: option b — authenticity_basis union satisfies accept
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  founder_override: true
+  precedent_distance: null
+  rule_ids_fired: []
+  top_precedent_id: null
+  top_precedent_status: null
+  calibration_weight: 1
+supersedes: dec-20261108-176
+override_reason:
+  category: policy-ruling
+  detail: 'founder answered dec-176 docket: manuscript/institutional basis satisfies accept; named_edition required only at harvest gate'
+  overridden_by: founder-ruling

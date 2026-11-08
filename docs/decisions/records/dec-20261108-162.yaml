@@ -1,0 +1,49 @@
+id: dec-20261108-162
+kind: override
+date: 2026-11-08
+question_hash: 3101ac17a682
+lane: process-pilot
+class: process
+modality: repo
+domain: process
+mode: conservative
+question: npm run validate fails on a pre-existing error in an entity file I did not touch — do I fix it in my PR, file it separately, or proceed anyway?
+status: decided
+step: override
+decision: Do not carry a pre-existing validate failure inside a feature PR — file it separately; if main is broken, open a dedicated hotfix PR and rebase the feature branch onto it. The merge bar is 0 errors and PRs keep clean scopes.
+correct_outcome: file-separately-or-dedicated-hotfix-pr
+wrong_outcome: unrelated-fix-in-feature-pr
+confidence: 1
+reversible: true
+rationale: "The engine held/docketed this; the founder's wave-2 verdict was a substantive \"no\" — a ruling on the underlying question. This override enacts it so the answer becomes citable precedent. Source verdict note: batch verdict 2026-11-08"
+supersedes: dec-20261108-087
+override_reason:
+  category: founder-verdict
+  detail: "founder ruled: file separately; broken main gets a dedicated hotfix PR, then rebase"
+  overridden_by: founder-rule-label
+signals:
+  source_record: dec-20261108-087
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+  note: enacts founder verdict on dec-20261108-087
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: enacts founder's rejected-verdict ruling from dec-20261108-087
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

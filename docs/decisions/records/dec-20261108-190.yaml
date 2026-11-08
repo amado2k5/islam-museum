@@ -1,0 +1,57 @@
+id: dec-20261108-190
+kind: override
+date: 2026-11-08
+question_hash: b01cf05ec0ed
+lane: "library"
+class: "process"
+modality: "website"
+domain: "sources"
+mode: "conservative"
+question: "Should alfehrest.org (AlFehrest — interactive timeline/map of Islamic civilisation 700-1500 CE: states, rulers, scholars, events) be onboarded as a citable source family, and if not, at what registration tier? Assessment evidence: volunteer project, no institution/editorial board, self-disclaims academic-reference status; stable numeric IDs for states/scholars; Arabic-primary; ~200 scholar bios and polity succession lists derived largely from Ibn Khaldun, al-Dhahabi Siyar, Mu'nis atlas, Ibn Kathir, plus Wikipedia/Hukam.net; GitHub JSON datasets last touched 2018 under informal CC-Share-Alike wording; coverage stops at 1500 CE. Name collision: unrelated to FIHRIST (fihrist.org.uk), the Oxford/Cambridge manuscript union catalogue."
+options:
+  - "Tier 3 pointer/orientation only — discovery and corroboration checklist; every fact re-cited to the underlying source the page names; never a {cite:} target"
+  - "Tier 1/2 citable family with facts-only posture"
+  - "Do not register at all"
+evidence:
+  - "Muse source assessment 2026-11-08: fails authority criterion (criterion 1); scores citability good, Arabic-first strong, corroboration moderate, terms unclear -> facts-only default"
+  - "docs/agents/source-families.md criteria: authority requires university/museum/national-library or named-specialist project"
+  - "Per-page reference lists name the underlying classical sources (Siyar, Ibn Khaldun, Hukam.net) — the durable value is the trail, not the text"
+status: decided
+step: override
+decision: "Tier 3 pointer/orientation only. Register AlFehrest in docs/agents/source-families.md alongside Encyclopaedia Iranica: use it for discovery and diffing (polity successions, snapshot completeness, scholar whereabouts 700-1500 CE); every fact re-cited to the underlying source each page names. Never a {cite:} target, no data/source entity, no harvest-registry entry. GitHub state JSONs usable as facts-only comparison data — never republished into CC0. Record the FIHRIST (fihrist.org.uk) name collision in the entry. Separately assess IDEO Diamond / al-Kindi (ideo.diamondrda.org, Dominican Institute for Oriental Studies) as a works/authors authority-file candidate for the 1,153-work prose backlog."
+correct_outcome: tier3-pointer-registration
+wrong_outcome: language-ar-first-rule
+confidence: 1
+reversible: true
+rationale: "dec-189 answered a source-onboarding question with the Arabic-first content rule because the word 'Arabic' appeared in the assessment evidence ('Arabic-primary', 'Arabic is the primary'). The rule fired on descriptive metadata, not on a language/localisation question — same substring false-positive class as the kid/wikidata bug. The correct ruling applies the eight onboarding criteria: authority fails (volunteer project, self-disclaimed non-reference), so Tier 3 pointer is the ceiling; the assessment's own recommendation is adopted verbatim in scope."
+supersedes: dec-20261108-189
+override_reason:
+  category: rule-false-positive
+  detail: rule-language-ar-first matched 'arabic' inside source-assessment evidence text describing the site's language coverage, not a localisation decision. Rule needs question-domain gating (only fire on content/i18n questions) or evidence-text exclusion — same class as the kid/wikidata fix.
+  overridden_by: devin-swe2
+signals:
+  matched_rule_id: rule-language-ar-first
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: 2026-11-08
+    by: devin-swe2
+    note: override committed; source-families.md Tier 3 entry + IDEO explore entry applied in same commit
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

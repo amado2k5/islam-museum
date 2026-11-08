@@ -1,0 +1,67 @@
+id: dec-20261108-191
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
+question_hash: ba5e582749b4
+lane: library
+class: process
+modality: website
+domain: governance
+mode: conservative
+question: "Should IDEO Diamond / AlKindi (opac.diamondrda.org — the IFLA-LRM/RDA
+  catalogue run by IDEO Cairo and stewarded by LRM-CS: >230,000 works, >116,000
+  agents, typed work-to-work relations) be onboarded as a source family for the
+  works backlog, and at what tier? Assessment evidence: institutional scholarly
+  authority (IDEO est. 1953, Vatican Library and Arab League manuscript
+  institute among 11 partners); stable numeric work/agent IDs already used by
+  Wikidata properties P8795 and P11979; no published data licence — open-data
+  ethos only; no public API, SPARQL endpoint or bulk download found; coverage
+  concentrated in the classical Islamicate heritage the museum mines. Proposed
+  family id source/ideo-diamond, citation anchor work/<id> or agent/<id>."
+options:
+  - Tier 1 citable authority file, facts-only until LRM-CS confirms terms in
+    writing; Wikidata crosswalk as first harvest channel
+  - Tier 3 pointer only — never citable
+  - Do not register
+evidence:
+  - "Muse assessment 2026-11-08: authority strong, citability strong, coverage
+    fit excellent (1,153-work prose backlog + ~2,300 work records + author
+    authority), corroboration high (edition history and
+    commentary/refutation/abridgement graph mining cannot produce), longevity
+    strong"
+  - "Criterion 3 default applies: terms unclear -> facts-only; no NC clause, so
+    terms may improve after a data-sharing conversation with LRM-CS"
+  - "Registration steps specified: scripts/harvest/sources.yaml entry,
+    data/source/ideo-diamond.yaml entity, docs/attribution.md row, Tier 1 table
+    row"
+status: founder-docket
+step: policy-gate
+decision: licence changes are submission-impacting
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-license-change
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-license-change
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-license-change
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Founder approved Tier-1 onboarding, facts-only until LRM-CS confirms
+      licence; Wikidata P8795/P11979 crosswalk as first harvest channel; founder
+      follow-up to LRM-CS for licence + data exchange
+  founder_override: false
+  calibration_weight: 1

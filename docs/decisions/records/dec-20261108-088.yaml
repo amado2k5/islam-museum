@@ -1,0 +1,43 @@
+id: dec-20261108-088
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
+question_hash: 4f839b210bd8
+lane: process-pilot
+class: process
+modality: repo
+domain: sources
+mode: conservative
+question: "My AI-generated prose cites two defined sources and passes validation
+  — mark it status.review: published now, or hold it as draft until a human
+  reads it?"
+options: null
+status: founder-docket
+step: policy-gate
+decision: review-status escalation is founder/pipeline only
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-review-status
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-review-status
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-review-status
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: rejected
+    at: 2026-11-08
+    by: founder
+    note: batch verdict 2026-11-08
+  founder_override: false
+  calibration_weight: 1

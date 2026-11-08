@@ -62,6 +62,16 @@ These rules apply to every harvest, from recordings, books or any other source. 
 6. **Qur'an and hadith wording is never typed as scripture.** Refer to a passage as `[[passage/quran-<sura>-<aya>|label]]` only when the speaker clearly names it, and cite what he says about it.
 7. **Every excluded item is reported** with its reason, the gate it failed and its override, in the lane's progress file and in every progress report to the founder. Nothing is re-entered without the founder's written authorisation.
 
+## 4b. Labeling, classification and decisions go through the rule engine (founder ruling, 8 November 2026)
+
+Every judgment call a harvest makes — accept/label/reject on a source's standing, school or tradition classification, edition choice between copies, an exclusion, a contested attribution, an unknown-target classification — is decided by the decision engine, not by the harvesting agent's own discretion. The flow is [`workflow.md`](workflow.md) §9:
+
+1. Write `docs/decisions/inbox/<lane>-<slug>.yaml` with `{question, lane, class?, evidence?, options?, proposed_action?}`.
+2. Run `npx tsx scripts/decisions/decide.ts --batch docs/decisions/inbox --write` (add `npm run decisions:local` for advisory judge input on held questions).
+3. Commit the records the engine writes to `docs/decisions/records/` with the batch.
+
+The engine decides by canonical rule, cited precedent or founder override; what it cannot decide stays `held` and visible in the docket — it is never silently resolved by the agent. Two carve-outs: (a) mechanical choices that are not judgments (which extracted item to read, page-offset bookkeeping, schema-required fields) need no record; (b) founder-only surfaces stay founder-only regardless of mode — content exclusions under §4a.7, the hard safety blocks, Qur'an text and licence questions always reach the founder. Existing museum content is the golden set (`dec-188`): if a rule would reject or invalidate something already published, the rule is wrong — flag it in the ledger rather than applying it.
+
 ## 5. Quality bar for every batch
 
 Every dated fact: cited to this book's page (a second source when cheap, never required). Every claim traceable to a page a reader can open and verify in under a minute. Every doubt marker captured. Every entity: `label.ar`, `summary.ar`, at least one source, a provenance block, `status.review: published`. No sentence stating a fact without a citation; no quotation over 40 words; no honorific; no Qur'an text; no English prose. End each batch with a short report (entities created or updated, claims count, sources used, doubt markers captured, contested points flagged, passages verified on the image) in the commit body or progress file.

@@ -1,0 +1,39 @@
+id: dec-20261108-170
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: 0d675bfa3480
+lane: "modern-figures"
+class: "content"
+modality: "repo"
+domain: "media"
+mode: "conservative"
+question: "Harvest row 'Karim Ismail' cannot be resolved to a single identity: the only large figure of the name is Kareem Esmail, a mental-health/life coach with no dawah channel. Log-and-hold per the ambiguous-name rule, or keep searching?"
+options:
+  - "log unidentifiable, stop"
+  - "keep searching for dawah figure"
+  - "resolve to Kareem Esmail coach"
+evidence:
+  - "docs/delegation/modern-figures-progress.md batch 24 row 60"
+status: decided
+step: rule
+decision: "where there is doubt the classification is unknown/unclassified — doubt is not establishment; a name-basis or single weak attestation never settles a sensitive field; record the contested readings preserved in the note"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-doubt-unknown): founder doubt rule, 24 Oct 2026 (docs/agents/lanes/modern-figures.md §3; revert commit 'founder re-review' 1 Nov 2026: 'the doubt rule is absolute')."
+rule: "founder doubt rule, 24 Oct 2026 (docs/agents/lanes/modern-figures.md §3; revert commit 'founder re-review' 1 Nov 2026: 'the doubt rule is absolute')"
+rule_id: "rule-doubt-unknown"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-doubt-unknown
+chain:
+  depth: 0
+  root_id: "rule:rule-doubt-unknown"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "130a72c82f4c270d"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-doubt-unknown"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

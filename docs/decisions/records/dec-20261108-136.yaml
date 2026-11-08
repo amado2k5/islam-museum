@@ -1,0 +1,49 @@
+id: dec-20261108-136
+kind: override
+date: 2026-11-08
+question_hash: 63374359c414
+lane: seed
+class: uncategorised
+modality: repo
+domain: fallback
+mode: conservative
+question: Do Rufayda's medical tent, al-Walid's Damascus facility and Harun al-Rashid's Baghdad bimaristan establish a single early hospital invention?
+status: decided
+step: override
+decision: Rufayda's medical tent, al-Walid's Damascus facility and Harun al-Rashid's Baghdad bimaristan do NOT establish a single hospital invention.
+correct_outcome: founder-ruling
+wrong_outcome: safe-default-hold
+confidence: 1
+reversible: true
+rationale: "The engine held this at safe-default/docket, but the founder's verdict on dec-20261108-027 was a substantive \"no\" — a ruling on the underlying question, not a rejection of the hold. This override enacts that ruling so the answer becomes citable precedent instead of a dead end. Source verdict note: batch verdict 2026-11-08"
+supersedes: dec-20261108-027
+override_reason:
+  category: founder-verdict
+  detail: founder_resolution.verdict=rejected on dec-20261108-027 (a held/docket record) — the "no" answers the question itself
+  overridden_by: founder-rule-label
+signals:
+  source_record: dec-20261108-027
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+  note: enacts founder verdict recorded on dec-20261108-027 via founder-rule.ts
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: enacts the founder's rejected-verdict ruling from dec-20261108-027
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"
