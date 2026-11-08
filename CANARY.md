@@ -15,6 +15,9 @@ open a new block on top with the new version and today's date.
 
 ## v1.3.1 — 2026-11-07
 
+### Added
+- **Backstage: Copilot signs the guest book.** Visitors can read Copilot's own account of its work on the Timeline Explorer, inventions articles and 3D tour, in Arabic, English and Urdu.
+
 ### Fixed
 - **3D tour: al-Khwarizmi's sources stay in step with his record.** The People hall stop now includes the record's MacTutor source, restoring complete source parity and allowing the tour's provenance check to pass. Tour navigation and the Arabic, English and Urdu descriptions are unchanged.
 
