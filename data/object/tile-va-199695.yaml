@@ -15,6 +15,7 @@ made:
   edtf: 138X
   calendar: gregorian
   precision: decade
+made_in: place/konya
 holding_institution: Victoria and Albert Museum
 accession_number: 1109-1898
 materials:
@@ -25,6 +26,12 @@ external_ids:
   official: https://collections.vam.ac.uk/item/O199695/
 sources:
 - source/vam-collection
+provenance:
+  layer: nc
+  source: "V&A Collections API object record (source/vam-collection), fetched via the objects lane 2026-10-16"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: objects-va-import-2026-10-16
 status:
   review: draft
   completeness: 1
