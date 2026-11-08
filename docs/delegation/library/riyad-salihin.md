@@ -15,7 +15,7 @@ Copies extracted under `~/islam-museum-harvest/books/hadith/riyad-salihin/`:
 
 ## Mining state
 
-Entities citing `source/riyad-salihin` outside `data/source/`: **0**.
+Entities citing `source/riyad-salihin` outside `data/source/`: **1** (concept/tawakkul enriched 8 Nov 2026, run lib-wave-21-riyad-1 — Bab al-yaqin wal-tawakkul, Alexandria edition printed pp.30-31: the Prophet's tawakkul du'a, «hasbunallahu wa-ni'ma al-wakil» shared with Ibrahim, and the 70,000 who rely on their Lord).
 
 ## Next step
 
