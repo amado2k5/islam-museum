@@ -138,3 +138,9 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 - Khalili HTML VERIFIED, no corpus match: object pages live at khalilicollections.org/collections/islamic-art/<slug>-<inv>/ (needs full Chrome UA — bare curl gets 403). Page schema: Title/Date/Location/Materials/Dimensions/Accession No./tabs. 137-object islamic-art index parsed (/tmp/khalili-index.json). NO corpus object records Khalili provenance → enrichment deferred; leads logged for when Khalili-held objects enter the graph.
 - Qatar Museums VERIFIED, no corpus match: collections portal collections.qm.org.qa/en/objects/<slug>-<inv> (mia.org.qa 302s there; self-signed cert needs -k). Rich schema: production place, date, period, material, technique, dimensions, on-view location. Same blocker — no corpus object is a QM/MIA piece.
 - Qantara: show_document.php?do_id=N live (flaky MySQL, ~45KB records); search POST returns empty chrome → search broken; do_id space ~1000-1500 valid.
+
+## 2026-11-08 (p3 cont.) — TEI batch 4 partial: fiches 4801-~6200 scanned, 3 entities
+
+- fiches-4801-8800.jsonl still fetching (PID 10611); match5.py run on partial file (1374 records).
+- Enriched: qarawiyyin +fiche 5375 (minaret door, 956-957, stucco, disparu) + top-level source/tei-epigraphie added (was relations-only); castle-of-tarifa +5398 (portal marble tablet, 960-961, in situ); mosque-of-cristo-de-la-luz +5785 (Bab al-Mardum facade frieze, 999-1000, brick).
+- All three verified against full fiche records before editing. Re-run match when sweep completes.
