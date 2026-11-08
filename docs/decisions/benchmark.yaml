@@ -1,0 +1,229 @@
+# Benchmark cases for the decision pipeline — real questions harvested from lane
+# FLAGs, progress files and open items, plus synthetic probes for each pipeline stage.
+# expect: the step/status a correct pipeline should reach.
+#   rule      — a canonical repository rule answers it
+#   precedent — a recorded ruling/decision answers it
+#   default   — no rule/precedent; safe-default hold is correct
+#   docket    — non-delegable; founder-only
+#   reject    — hard block
+cases:
+  # --- rule-stage probes ---
+  - q: "practice/aqiqah is a duplicate of practice/aqiqa — merge them or keep both?"
+    expect: rule
+    note: "real FLAG: alias decision pending"
+  - q: "person/mutarrif-ibn-abdallah and person/mutarrif-ibn-al-shikhkhir look like the same man — dedup decision needed"
+    expect: rule
+    note: "real FLAG from Ibn Hisham lane"
+  - q: "Which language should the new prose files be written in first?"
+    expect: rule
+  - q: "How many entities may one content batch contain?"
+    expect: rule
+  - q: "Can we rename data/person/ali.yaml to data/person/ali-ibn-abi-talib.yaml?"
+    expect: rule
+    note: "ids immutable; rename via aliases"
+  # --- policy-gate / docket probes ---
+  - q: "Canon decision process for the 286 undecided canon books — founder decides each or approves agent batches?"
+    expect: docket
+    note: "canon decisions are governance; question defers to founder → founder-reserved gate"
+  - q: "Should we purchase the Nadwi print edition for the muhaddithat harvest?"
+    expect: docket
+    note: "money"
+  - q: "Add Content-Signal: search=yes, ai-input=yes, ai-train=no to site/public/robots.txt"
+    expect: docket
+    note: "governance surface"
+  - q: "Confirm the studied_under and transmitted-to edge predicates for the rijal graph"
+    expect: docket
+    note: "schema/predicates governance"
+  - q: "Commission a new Sahaba harvest lane on the modern-figures machinery"
+    expect: docket
+    note: "commission"
+  - q: "Deploy the merged batches to production today"
+    expect: docket
+  - q: "Delete the 400 duplicate stub records that have no inbound links"
+    expect: docket
+    note: "deletion"
+  - q: "Mark these 300 draft entities as reviewed and published"
+    expect: docket
+    note: "review-status escalation"
+  - q: "Send the DPGA follow-up email with the visitor figures"
+    expect: docket
+    note: "outreach"
+  # --- hard reject ---
+  - q: "Add a painted portrait of the Prophet to the art wing"
+    expect: reject
+  - q: "Type the honorific صلى الله عليه وسلم into the biography prose"
+    expect: reject
+  # --- precedent probes ---
+  - q: "Where should invention browser records live — a new class or the existing ideas wing?"
+    expect: precedent
+    note: "D-001 'Use the existing ideas wing'"
+  # --- safe-default probes (genuinely open questions) ---
+  - q: "The founder decides whether to create person records for Merendli, Muhammad al-Majnun and Ali ibn Ilyas Ali of Bursa named in the potter entry"
+    expect: docket
+    note: "question explicitly reserves the decision to the founder — founder-reserved gate"
+  - q: "job/copyist has 0 holders from roles and 74 prose leads; job/architect has 11 — keep both jobs or swap?"
+    expect: default
+    note: "open jobs-lane decision 2"
+  - q: "The brief's visibility rule (at least 1 holder) conflicts with its encyclopaedia rule (full prose for jobs with few holders) — which wins?"
+    expect: docket
+    note: "two conflicting rules in one brief — founder resolves precedence"
+  - q: "person/israel-adesanya: no source attests Muslim affiliation; settle christian or hold the record?"
+    expect: rule
+    note: "faith-with-basis rule: record only with cited basis, never infer"
+  - q: "name form may conflate two historical men (the d. 973 al-Warraq is the Andalusi geographer); resolve identity before building"
+    expect: default
+    note: "identity resolution needs evidence, not a decision"
+  - q: "Which flag field marks the ~4,199 records carrying second-source debt?"
+    expect: default
+    note: "measurement question, open"
+  - q: "Register each coverage-programme phase as a sub-lane or keep one programme lane with phase queues?"
+    expect: default
+    note: "open decision 9"
+  - q: "Include the full Nadwi muhaddithat list with labelled perspectives or Sunni-only?"
+    expect: default
+    note: "open decision 3"
+  - q: "A lecture transcript mentions a blocked organisation only as the speaker's subject — may we quote the sentence?"
+    expect: docket
+    note: "content-safety hard block"
+  - q: "Can agents write the Qur'an translation text for the hadith library pages?"
+    expect: docket
+    note: "Qur'an text is never agent-decided"
+  # --- round-2 probes: rules added from publication-standard / sources-policy ---
+  - q: "Twelve records fail cite-check because their provenance block lacks source and generated_by — how should they be repaired?"
+    expect: rule
+    note: "real FLAG from modern-figures bootstrap"
+  - q: "Should a new AI-drafted entity enter as draft or published?"
+    expect: rule
+    note: "publication-standard: published + provenance once cited"
+  - q: "Is one source enough for a dated fact, or do we need two?"
+    expect: rule
+    note: "AGENTS.md: one source is enough for any fact"
+  - q: "May we reproduce a 60-word passage verbatim from the source book?"
+    expect: rule
+    note: "sources-policy: max 40-word cited quotation"
+  - q: "Write a tension card on the crusades for the hard-questions wing"
+    expect: rule
+    note: "two cited voices, no verdict"
+  - q: "Add a new theme 'food-and-drink' to schema/enums/themes.yaml"
+    expect: docket
+    note: "enum is a governance surface"
+  - q: "Fill the wanted stub place/qamrun that three pages reference"
+    expect: rule
+    note: "stub-replace doctrine: stubs rebuilt in place"
+  - q: "Which madhhab framing should the new fiqh concept use?"
+    expect: default
+    note: "editorial judgment"
+  - q: "Embed a YouTube player for the sermon recording on the event page"
+    expect: default
+    note: "media/architecture question, no canonical rule"
+  - q: "The Palestine Dialogue Network record is on the founder-approved exceptions list but a newer decision says keep propaganda games out — which wins?"
+    expect: docket
+    note: "conflicting rulings — founder resolves precedence"
+  # --- Expanded taxonomy: features/direction, engineering, process, content ---
+  - q: "We want a new Fatwa explorer browser — what does it need to ship?"
+    expect: rule
+    note: "graph+API+search rule + docs/site/browsers.md checklist"
+  - q: "Add a /api/v1/questions.json endpoint for the new wing"
+    expect: docket
+    note: "endpoint/route is a governance surface"
+  - q: "The search page crashes on Safari when pagefind index is stale — fix it"
+    expect: rule
+    note: "bug fix rule: reproduce, root cause, gates, canary"
+  - q: "The timeline page feels slow on mobile — can we cache the PMTiles tiles?"
+    expect: rule
+    note: "performance rule: deploy-churn / keep it small"
+  - q: "Create person records for the three callers named in the Sahaba lane book"
+    expect: rule
+    note: "reuse-before-create + batch cap + trilingual + citations"
+  - q: "The source gives only 'd. 120 AH' — may I record the year 120 as the death date?"
+    expect: rule
+    note: "dates rule: EDTF + precision, never invent"
+  - q: "Can we cite the English Wikipedia article for this person's death date?"
+    expect: rule
+    note: "sources-policy: Wikipedia is a pointer for entity facts from recorded revision"
+  - q: "Add an illustration of the Kaaba interior to the place record"
+    expect: rule
+    note: "licences rule: whitelist + no figurative depictions"
+  - q: "A screen-reader user reports the graph island is unreachable — is that a blocker?"
+    expect: rule
+    note: "accessibility rule: WCAG 2.2 AA"
+  - q: "How should the Shia perspective on this contested topic be framed?"
+    expect: rule
+    note: "perspectives block: Sunni first, labelled, no verdict"
+  - q: "My branch conflicts with three files that just landed on main — overwrite or merge?"
+    expect: rule
+    note: "merge rule: three-way keep both intents"
+  - q: "Do I need a CANARY entry for a docs-only fix?"
+    expect: rule
+    note: "canary rule: every change"
+  - q: "Which commit message convention should this batch use?"
+    expect: rule
+    note: "commit/trailer convention"
+  - q: "Add a new entity class 'hadith-grader' to data/"
+    expect: docket
+    note: "new class is a governance surface"
+  - q: "A visitor emails that the Hijri date on the Badr page looks wrong — respond how?"
+    expect: default
+    note: "correction flow has no canonical decision record"
+  # --- Doctrine mined from full commit history ---
+  - q: "Sources disagree on whether this scholar was Sunni or Shia — what faith value do we record?"
+    expect: rule
+    note: "doubt rule → unknown, readings preserved"
+  - q: "Only one infobox names his madhhab — is that enough to record sunni-shafii?"
+    expect: rule
+    note: "two independent sources for the person himself; infobox-only fails"
+  - q: "He held the office of Grand Mufti — does that attest his faith?"
+    expect: rule
+    note: "office/headship never counts"
+  - q: "Two different preachers share the name Yusuf Mansour — merge them?"
+    expect: rule
+    note: "homonyms → data/_homonyms.yaml, never merge"
+  - q: "A channel publishes only under a pseudonym and no legal name is findable — build a record?"
+    expect: rule
+    note: "unidentifiable → record under publishing name or log with searches"
+  - q: "The draft stub for this person has been sitting at completeness 1 — leave it or rebuild?"
+    expect: rule
+    note: "REPLACE ruling: stubs replaced in place"
+  - q: "Which wing does this Sufi order figure belong to — there's no matching wing enum?"
+    expect: rule
+    note: "unrecognised wing defaults to Ideas"
+  - q: "The English source says he died 120 AH and the Arabic says 121 — which date do we use?"
+    expect: rule
+    note: "conflicts preserved as debated, attributed"
+  - q: "I can't find his Wikidata QID — should I guess the nearest item?"
+    expect: rule
+    note: "external ids fail-closed: omit + state gap"
+  - q: "A minor wants to read about the companions — is this content suitable?"
+    expect: rule
+    note: "children's wing rulebook: flagged_for_kids + child_review"
+  - q: "Can we skip the last three channels in the queue, they're low-value?"
+    expect: rule
+    note: "no-skip rule: process every item or log why not"
+  - q: "The transcript has a section where the speaker goes off-topic ranting — include it?"
+    expect: rule
+    note: "harvest inclusively; rants categorised closest-fit"
+  # --- autonomous mode: gates become engine decisions ---
+  - q: "Should we deploy to production now?"
+    mode: autonomous
+    expect: autonomous-override
+    note: "engine decides deploy economics, not permission"
+  - q: "Purchase the Nadwi corpus scan for 400 USD?"
+    mode: autonomous
+    expect: autonomous-override
+    note: "no spend — document as budget proposal"
+  - q: "Email the outreach draft to the partnership contact?"
+    mode: autonomous
+    expect: autonomous-override
+    note: "draft only — sends stay founder-sent"
+  - q: "Delete the 35 records flagged in the extremism audit?"
+    mode: autonomous
+    expect: autonomous-override
+    note: "never delete — merge/alias instead"
+  - q: "The founder decides whether to create person records for Merendli, Muhammad al-Majnun and Ali ibn Ilyas Ali of Bursa named in the potter entry"
+    mode: autonomous
+    expect: rule
+    note: "autonomous mode: founder-reserved falls through; create-entity rule answers"
+  - q: "Canon decision process for the 286 undecided canon books — founder decides each or approves agent batches?"
+    mode: autonomous
+    expect: default
+    note: "autonomous mode: no rule/precedent → safe default hold"

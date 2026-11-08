@@ -96,12 +96,16 @@ for (const dir of SCAN_DIRS) {
       }
       // Skip table rows: a status.md lane table is not a ruling, and its truncated
       // row becomes a garbage "title" that wins bogus precedent matches.
-      if (!lines[i].trim().startsWith("|") && RULING_LINE.test(lines[i]) && /progress|status|delegation/.test(rel)) {
+      // Rulings are mined from ALL docs — lane README/progress/plan files all carry them.
+      if (!lines[i].trim().startsWith("|") && RULING_LINE.test(lines[i])) {
         const t = lines[i].trim().slice(0, 300);
+        // Title = the founder-ruling clause itself, not the line's head — a status
+        // header or table intro makes a garbage title that wins bogus matches.
+        const clause = t.match(/founder[^.\n]{0,140}/i)?.[0]?.trim() ?? t.slice(0, 120);
         precedents.push({
           id: `ruling-${rel.replace(/[^a-z0-9]+/gi, "-").slice(0, 50)}-${i}`,
           kind: "ruling",
-          title: t.slice(0, 120),
+          title: clause.slice(0, 140),
           source_file: rel,
           summary: t,
         });

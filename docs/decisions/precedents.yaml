@@ -2,6 +2,86 @@
 # Scanned 574 markdown files under docs/ on 2026-11-08.
 # Each entry is a precedent an autonomous decision may cite: a founder or lane ruling already on record.
 precedents:
+  - id: "ruling-docs-agents-audio-video-harvest-md-51"
+    kind: ruling
+    title: "founder has decided that it may be discarded"
+    source_file: "docs/agents/audio-video-harvest.md"
+    summary: "5. **Garbled or unclear material** cannot be written as content. The founder has decided that it may be discarded. A repetition loop is not speech and is not used."
+  - id: "ruling-docs-agents-audio-video-harvest-md-178"
+    kind: ruling
+    title: "founder override `founder_override` (text, decided_by, date, reason), which `scripts/check-authentici"
+    source_file: "docs/agents/audio-video-harvest.md"
+    summary: "5. `scripts/harvest/library/authenticity.yaml` (one `sources` entry, `allowed_uses: [pointer, text]`, the same uses as a book). The archive is not tier T1 and has no sample, so text use rests on the founder override `founder_override` (text, decided_by, date, reason), which `scripts/check-authentici"
+  - id: "ruling-docs-agents-content-safety-md-32"
+    kind: ruling
+    title: "founder-approved exceptions** listed in `docs/delegation/extremism-firewall-exceptions"
+    source_file: "docs/agents/content-safety.md"
+    summary: "- **NO (restore): 135 items.** Every other deleted or edited record was restored exactly as it was. They are the **founder-approved exceptions** listed in `docs/delegation/extremism-firewall-exceptions.md`."
+  - id: "ruling-docs-agents-content-safety-md-36"
+    kind: ruling
+    title: "founder has decided those are to stay"
+    source_file: "docs/agents/content-safety.md"
+    summary: "- **Do not** delete, trim or rewrite an exception record to remove a mention, and do not re-run a clean-up over them. The founder has decided those are to stay."
+  - id: "ruling-docs-agents-lanes-illustrations-md-81"
+    kind: ruling
+    title: "founder reads `auto-approved"
+    source_file: "docs/agents/lanes/illustrations.md"
+    summary: "## Reviewer checklist (applied by `approve.py` as gates; the founder reads `auto-approved.json` at any time)"
+  - id: "ruling-docs-agents-lanes-khutab-durus-md-2"
+    kind: ruling
+    title: "founder's instruction, under the approved proposal `docs/plan/25-khutab-durus-explorer"
+    source_file: "docs/agents/lanes/khutab-durus.md"
+    summary: "_Opened 31 October 2026 on the founder's instruction, under the approved proposal `docs/plan/25-khutab-durus-explorer.md` (plan 07 section V, companion of the Fatwa Explorer). Binding with `AGENTS.md`, `docs/ai-change-gates.md`, `docs/sources-policy.md`, `docs/agents/publication-standard.md`, `docs/"
+  - id: "ruling-docs-agents-lanes-khutab-durus-md-34"
+    kind: ruling
+    title: "founder, 31 Oct 2026): all source families he listed are authorized for use; robots"
+    source_file: "docs/agents/lanes/khutab-durus.md"
+    summary: "- **Site authorization** (founder, 31 Oct 2026): all source families he listed are authorized for use; robots.txt and terms are checked where they exist — if a site publishes none, access proceeds without restriction. Where robots.txt or terms do exist, they are still respected and recorded."
+  - id: "ruling-docs-agents-lanes-khutab-durus-md-35"
+    kind: ruling
+    title: "founder** (founder's instruction, 31 Oct 2026): no book, content item or website is rejected, refused or excluded on any ground — school, li"
+    source_file: "docs/agents/lanes/khutab-durus.md"
+    summary: "- **No rejection without the founder** (founder's instruction, 31 Oct 2026): no book, content item or website is rejected, refused or excluded on any ground — school, licence, quality, scope — before the founder is asked and has decided; his decision overrides the lane's call. Flagged items are reco"
+  - id: "ruling-docs-agents-lanes-modern-figures-md-2"
+    kind: ruling
+    title: "founder's instruction"
+    source_file: "docs/agents/lanes/modern-figures.md"
+    summary: "_Opened 24 October 2026 on the founder's instruction. Binding with `AGENTS.md`, `docs/ai-change-gates.md`, `docs/agents/publication-standard.md`, the Wikipedia broad rule (founder-approved, applied to `AGENTS.md` and `docs/sources-policy.md`) and `docs/delegation/wikipedia-broad-rule-proposal.md`._"
+  - id: "ruling-docs-agents-lanes-time-browser-md-73"
+    kind: ruling
+    title: "founder authorized the next 40 subjects, implemented as 20 place and 20 person stories (40 separate claims; no duplicate subject definitions"
+    source_file: "docs/agents/lanes/time-browser.md"
+    summary: "- 2026-11-04 Copilot SDK: founder authorized the next 40 subjects, implemented as 20 place and 20 person stories (40 separate claims; no duplicate subject definitions). The batch reuses 246 events for 303 chronological stops, adds Urdu metadata on all 40 subjects, restores missing record-level prove"
+  - id: "ruling-docs-agents-lanes-time-browser-md-76"
+    kind: ruling
+    title: "founder authorized all five replacements in #3350; the fifteen screened new/replacement assets merged in image-only PR #3398 (`73282cfbd2`),"
+    source_file: "docs/agents/lanes/time-browser.md"
+    summary: "- 2026-11-04 Copilot SDK resolution: founder authorized all five replacements in #3350; the fifteen screened new/replacement assets merged in image-only PR #3398 (`73282cfbd2`), closing the image blocker. Forty-story full build at `cbaa6a7a8d` passes: 158,525 pages, 0 errors / 2 warnings; 41 weight "
+  - id: "ruling-docs-agents-lanes-time-browser-md-81"
+    kind: ruling
+    title: "founder authorized a third forty; five place and thirty-five person definitions now reuse 132 events for 185 chronological stops"
+    source_file: "docs/agents/lanes/time-browser.md"
+    summary: "- 2026-11-04 Copilot SDK: founder authorized a third forty; five place and thirty-five person definitions now reuse 132 events for 185 chronological stops. All 172 involved records pass citation checks; original fields and existing Urdu metadata are preserved, with 77 missing Urdu fields added. All "
+  - id: "ruling-docs-agents-lanes-time-browser-md-123"
+    kind: ruling
+    title: "Founder-authorized content batch: 21 people and 19 dynasties, 200 chronological stops from 141 existing events, with 120 Arabic/English/Urdu"
+    source_file: "docs/agents/lanes/time-browser.md"
+    summary: "Founder-authorized content batch: 21 people and 19 dynasties, 200 chronological stops from 141 existing events, with 120 Arabic/English/Urdu subject routes. Forty definitions and additive Urdu/provenance metadata are committed in two twenty-definition content commits; no new facts, dates, edges, med"
+  - id: "ruling-docs-agents-mining-sources-md-60"
+    kind: ruling
+    title: "founder has decided that it may be discarded"
+    source_file: "docs/agents/mining-sources.md"
+    summary: "5. **Garbled or unclear material** cannot be written as content. The founder has decided that it may be discarded. A repetition loop is not speech and is not used."
+  - id: "ruling-docs-coverage-programme-README-md-2"
+    kind: ruling
+    title: "founder approved the programme on 31 October 2026 (Phase 2, canon, opened that day) and gave the go for the whole programme on 5 November 20"
+    source_file: "docs/coverage-programme/README.md"
+    summary: "Status: **approved and running**. The founder approved the programme on 31 October 2026 (Phase 2, canon, opened that day) and gave the go for the whole programme on 5 November 2026, with the AI-resource moves as its first phase (founder amendment, 1 November 2026; section 2.11). Owner: the founder. "
+  - id: "ruling-docs-coverage-programme-phase-02-queue-md-2"
+    kind: ruling
+    title: "Founder decides each batch"
+    source_file: "docs/coverage-programme/phase-02-queue.md"
+    summary: "Founder decides each batch. States: `[ ]` queued · `[~]` with founder · `[x]` decided (record written by the founder). Order: harvest folder, then id. 25 per batch."
   - id: "flag-docs-coverage-programme-progress-md-7"
     kind: flag
     title: "Nadwi volume count is 43, not 57 (README 2.3)."
@@ -44,132 +124,132 @@ precedents:
     summary: "Content-Signal flip and the Sahaba lane stay founder-gated (README section 7, decisions 10–11); neither is executed under this go."
   - id: "ruling-docs-delegation-education-master-plan-md-2"
     kind: ruling
-    title: "_Written 23 October 2026 by Claude (Claude Fable 5.1) at the founder's request (the \"Education master plan\" brief of 23 "
+    title: "founder's request (the \"Education master plan\" brief of 23 October 2026)"
     source_file: "docs/delegation/education-master-plan.md"
     summary: "_Written 23 October 2026 by Claude (Claude Fable 5.1) at the founder's request (the \"Education master plan\" brief of 23 October 2026). Status: **proposal, awaiting the founder's approval phase by phase.** Nothing in this document has been built. Stage 2 (building) starts only for the phases the foun"
   - id: "ruling-docs-delegation-education-master-plan-md-415"
     kind: ruling
-    title: "Phase approvals, as given in chat: **E1 approved 23 October 2026** (built in the `education` lane the same day); **E2 ap"
+    title: "founder's approval (decision 5)"
     source_file: "docs/delegation/education-master-plan.md"
     summary: "Phase approvals, as given in chat: **E1 approved 23 October 2026** (built in the `education` lane the same day); **E2 approved 23 October 2026**, to start once E1 is merged, beginning with the proposed list `edu/leveled-100.yaml` for the founder's approval (decision 5). On 23 October 2026, the found"
   - id: "ruling-docs-delegation-education-master-plan-md-417"
     kind: ruling
-    title: "**E3 approved 24 October 2026.** The founder wrote in chat: \"E3 is approved: reach engines (classroom quiz, daily challe"
+    title: "founder wrote in chat: \"E3 is approved: reach engines (classroom quiz, daily challenge, fact engine, seasonal packs, offline packs, Where am"
     source_file: "docs/delegation/education-master-plan.md"
     summary: "**E3 approved 24 October 2026.** The founder wrote in chat: \"E3 is approved: reach engines (classroom quiz, daily challenge, fact engine, seasonal packs, offline packs, Where am I, homework search, Explorers map).\" Built as the steps listed in `docs/delegation/education-progress.md` (section E3), on"
   - id: "ruling-docs-delegation-education-progress-md-2"
     kind: ruling
-    title: "Lane doc: `docs/agents/lanes/education.md`. Plan: `docs/delegation/education-master-plan.md` (decisions in §9.1). Opened"
+    title: "founder approved phase E1 in chat the same day"
     source_file: "docs/delegation/education-progress.md"
     summary: "Lane doc: `docs/agents/lanes/education.md`. Plan: `docs/delegation/education-master-plan.md` (decisions in §9.1). Opened 23 October 2026 by Claude (Claude Fable 5.1) after the founder approved phase E1 in chat the same day."
   - id: "ruling-docs-delegation-education-progress-md-38"
     kind: ruling
-    title: "**Founder approval:** on 23 October 2026, the founder wrote: \"The leveled-100 list in PR #1389 is approved as proposed.\""
+    title: "Founder approval:** on 23 October 2026, the founder wrote: \"The leveled-100 list in PR #1389 is approved as proposed"
     source_file: "docs/delegation/education-progress.md"
     summary: "**Founder approval:** on 23 October 2026, the founder wrote: \"The leveled-100 list in PR #1389 is approved as proposed.\" Recorded in `edu/leveled-100.yaml` header and `docs/delegation/education-master-plan.md` §9.1."
   - id: "ruling-docs-delegation-education-progress-md-135"
     kind: ruling
-    title: "**Founder approval:** on 24 October 2026, the founder wrote: \"E3 is approved: reach engines (classroom quiz, daily chall"
+    title: "Founder approval:** on 24 October 2026, the founder wrote: \"E3 is approved: reach engines (classroom quiz, daily challenge, fact engine, sea"
     source_file: "docs/delegation/education-progress.md"
     summary: "**Founder approval:** on 24 October 2026, the founder wrote: \"E3 is approved: reach engines (classroom quiz, daily challenge, fact engine, seasonal packs, offline packs, Where am I, homework search, Explorers map).\" Recorded in `docs/delegation/education-master-plan.md` §9.1. Label `non-impacting` f"
   - id: "ruling-docs-delegation-education-progress-md-345"
     kind: ruling
-    title: "## E4 — the teen wing (founder-approved 25 Oct 2026, §9.1)"
+    title: "founder-approved 25 Oct 2026, §9"
     source_file: "docs/delegation/education-progress.md"
     summary: "## E4 — the teen wing (founder-approved 25 Oct 2026, §9.1)"
   - id: "ruling-docs-delegation-education-progress-md-352"
     kind: ruling
-    title: "- **Step 2, batches 6–12** (#1662): all remaining topics authored; the file lands at **52 taught topics** — the original"
+    title: "founder approved on 25 Oct 2026 (\"i approve the two topics bayt al hikma and damascus to be included\"; \"you can go beyond 50 no probl"
     source_file: "docs/delegation/education-progress.md"
     summary: "- **Step 2, batches 6–12** (#1662): all remaining topics authored; the file lands at **52 taught topics** — the original 50 plus bayt-al-hikma and damascus, which the founder approved on 25 Oct 2026 (\"i approve the two topics bayt al hikma and damascus to be included\"; \"you can go beyond 50 no probl"
   - id: "ruling-docs-delegation-education-progress-md-360"
     kind: ruling
-    title: "- **Step 4, count deviation (accepted)**: plan §5 E4 calls for **30 dilemma cards and 20 detective units**; main carries"
+    title: "founder accepted the overage in chat 26 Oct 2026 (\"accept for the overage 31/21\")"
     source_file: "docs/delegation/education-progress.md"
     summary: "- **Step 4, count deviation (accepted)**: plan §5 E4 calls for **30 dilemma cards and 20 detective units**; main carries **31 and 21** — the founder accepted the overage in chat 26 Oct 2026 (\"accept for the overage 31/21\"). Every dilemma position verified to carry a named holder, a stance, an eviden"
   - id: "ruling-docs-delegation-education-progress-md-366"
     kind: ruling
-    title: "## E5 — story cards, leveled 101–300, studio, librarians, video specs (founder-approved 25 Oct 2026: \"E5 approved\")"
+    title: "founder-approved 25 Oct 2026: \"E5 approved\")"
     source_file: "docs/delegation/education-progress.md"
     summary: "## E5 — story cards, leveled 101–300, studio, librarians, video specs (founder-approved 25 Oct 2026: \"E5 approved\")"
   - id: "ruling-docs-delegation-education-progress-md-368"
     kind: ruling
-    title: "The founder's approval in the master-plan log was gated (\"let me know that E4 is completed and allow me to prompt you\");"
+    title: "founder's approval in the master-plan log was gated (\"let me know that E4 is completed and allow me to prompt you\"); E4 was reported complet"
     source_file: "docs/delegation/education-progress.md"
     summary: "The founder's approval in the master-plan log was gated (\"let me know that E4 is completed and allow me to prompt you\"); E4 was reported complete and the founder prompted E5 in chat. Scope = education-e5-proposal.md sections 1, 3, 4 and 5. Section 2 (embeds) was excluded until the founder's separate"
   - id: "ruling-docs-delegation-entity-policy-decisions-proposal-m-22"
     kind: ruling
-    title: "> - (3) **Works by armed groups**, and works the founder has ruled out under the propaganda rule, are not listed, exhibi"
+    title: "founder has ruled out under the propaganda rule, are not listed, exhibited or mentioned"
     source_file: "docs/delegation/entity-policy-decisions-proposal.md"
     summary: "> - (3) **Works by armed groups**, and works the founder has ruled out under the propaganda rule, are not listed, exhibited or mentioned. Records on the founder-approved exceptions list stay as they are."
   - id: "ruling-docs-delegation-extremism-firewall-exceptions-md-0"
     kind: ruling
-    title: "# Extremism firewall: founder-approved exceptions"
+    title: "founder-approved exceptions"
     source_file: "docs/delegation/extremism-firewall-exceptions.md"
     summary: "# Extremism firewall: founder-approved exceptions"
   - id: "ruling-docs-delegation-founder-provided-books-md-2"
     kind: ruling
-    title: "Books on the harvest drive that had no source record. Each is marked provided by the founder and authorized for use, as "
+    title: "founder and authorized for use, as instructed by the founder on 31 Oct 2026"
     source_file: "docs/delegation/founder-provided-books.md"
     summary: "Books on the harvest drive that had no source record. Each is marked provided by the founder and authorized for use, as instructed by the founder on 31 Oct 2026. The founder attests to provenance; the source files stay on the drive and out of git. A source record for one of these books cites this re"
   - id: "ruling-docs-delegation-khutab-durus-progress-md-8"
     kind: ruling
-    title: "The founder approved bulk download (31 Oct 2026): Jamharat Khutab al-'Arab 3 vols (EPUB text layer, sha256 in `SHA256SUM"
+    title: "founder approved bulk download (31 Oct 2026): Jamharat Khutab al-'Arab 3 vols (EPUB text layer, sha256 in `SHA256SUMS`, `meta"
     source_file: "docs/delegation/khutab-durus-progress.md"
     summary: "The founder approved bulk download (31 Oct 2026): Jamharat Khutab al-'Arab 3 vols (EPUB text layer, sha256 in `SHA256SUMS`, `meta.json`) is in `$HARVEST/books/khutab/jamharat-khutab-al-arab/` — text layer usable (~62k Arabic words vol 1, OCR noise noted). Next: pilot batch of sermon `work` entities "
   - id: "ruling-docs-delegation-khutab-durus-progress-md-41"
     kind: ruling
-    title: "- Batch 3 (31 Oct 2026, founder-approved vol 3 candidate list, narrowed): 5 Abbasid-era sermon works from Jamharat v3 wi"
+    title: "founder-approved vol 3 candidate list, narrowed): 5 Abbasid-era sermon works from Jamharat v3 with ar/en/ur prose — Dawud ibn Ali in Kufa (E"
     source_file: "docs/delegation/khutab-durus-progress.md"
     summary: "- Batch 3 (31 Oct 2026, founder-approved vol 3 candidate list, narrowed): 5 Abbasid-era sermon works from Jamharat v3 with ar/en/ur prose — Dawud ibn Ali in Kufa (EPUB p.7), al-Saffah's second Friday in Kufa (p.11), al-Nafs al-Zakiyya in Medina (p.37), Tahir ibn al-Husayn in Baghdad (p.118), al-Ma'm"
   - id: "ruling-docs-delegation-khutab-durus-progress-md-43"
     kind: ruling
-    title: "- Silsilat Qissa Wa Ebra, episode 1 (31 Oct 2026; branch `claude/khutab-silsilat-qissa-ep01`; audio pilot on the Assabil"
+    title: "founder approved the claims table 31 Oct 2026): series record `work/silsilat-qissa-wa-ebra` (kind lecture-series) with ar/en/ur prose, cited"
     source_file: "docs/delegation/khutab-durus-progress.md"
     summary: "- Silsilat Qissa Wa Ebra, episode 1 (31 Oct 2026; branch `claude/khutab-silsilat-qissa-ep01`; audio pilot on the Assabile archive, founder approved the claims table 31 Oct 2026): series record `work/silsilat-qissa-wa-ebra` (kind lecture-series) with ar/en/ur prose, cited to `silsilat-qissa-wa-ebra/e"
   - id: "ruling-docs-delegation-library-tafsir-tabari-shakir-md-52"
     kind: ruling
-    title: "- Not yet used: `data/source/tafsir-ibn-kathir.yaml` records a different edition (Dar al-Andalus), so its page cannot be"
+    title: "founder-approved)"
     source_file: "docs/delegation/library/tafsir-tabari-shakir.md"
     summary: "- Not yet used: `data/source/tafsir-ibn-kathir.yaml` records a different edition (Dar al-Andalus), so its page cannot be cited from that record. The Alexandria edition is now registered as `source/tafsir-ibn-kathir-alexandria-024188` (6 November 2026, founder-approved). Next: add the `perspectives` "
   - id: "ruling-docs-delegation-made-context-proposal-md-2"
     kind: ruling
-    title: "Status: **proposed**, waiting for the founder's approval of this text. The founder approved the approach in chat on 7 No"
+    title: "founder's approval of this text"
     source_file: "docs/delegation/made-context-proposal.md"
     summary: "Status: **proposed**, waiting for the founder's approval of this text. The founder approved the approach in chat on 7 November 2026 (Q2, \"do that\")."
   - id: "ruling-docs-delegation-modern-figures-progress-md-7"
     kind: ruling
-    title: "- Wikipedia broad rule (founder-approved; applied to AGENTS.md and docs/sources-policy.md): Wikipedia/Wikidata are fact "
+    title: "founder-approved; applied to AGENTS"
     source_file: "docs/delegation/modern-figures-progress.md"
     summary: "- Wikipedia broad rule (founder-approved; applied to AGENTS.md and docs/sources-policy.md): Wikipedia/Wikidata are fact sources under the charter conditions — a fact is used only where the article cites a source for it; the revision is recorded in the source entity. Wikipedia validates entity facts,"
   - id: "ruling-docs-delegation-modern-figures-progress-md-87"
     kind: ruling
-    title: "- **Batch 21 follow-up — Al-Fawzan channel registration RESOLVED (25 October 2026, founder-directed check):** the ID-res"
+    title: "founder-directed check):** the ID-resolution leg withheld in Batch 21 was completed"
     source_file: "docs/delegation/modern-figures-progress.md"
     summary: "- **Batch 21 follow-up — Al-Fawzan channel registration RESOLVED (25 October 2026, founder-directed check):** the ID-resolution leg withheld in Batch 21 was completed. Wikidata Q61589's YouTube channel ID statement (P2397) records channel UCS-XgiMGKaiQsZNkgwsDbYg, named «موقع الشيخ صالح الفوزان», an"
   - id: "ruling-docs-delegation-modern-figures-progress-md-110"
     kind: ruling
-    title: "- **Wave 23 §B (century-additions-23 Z2) COMPLETE** (PR merged in this commit's cycle, by Muse under the founder's stand"
+    title: "founder's standing repo authorization of 25 October 2026): said-al-mufti, hussein-bin-ali-al-hashimi, faisal-i-of-iraq, abdullah-i-of-jordan"
     source_file: "docs/delegation/modern-figures-progress.md"
     summary: "- **Wave 23 §B (century-additions-23 Z2) COMPLETE** (PR merged in this commit's cycle, by Muse under the founder's standing repo authorization of 25 October 2026): said-al-mufti, hussein-bin-ali-al-hashimi, faisal-i-of-iraq, abdullah-i-of-jordan built — faith `unknown` for all four (Hussein's Shafi'"
   - id: "ruling-docs-delegation-modern-figures-progress-md-120"
     kind: ruling
-    title: "- **Wave 26 §B (century-additions-26 Z2) COMPLETE** (PR merged in this commit's cycle, by Muse under the founder's stand"
+    title: "founder's standing repo authorization of 25 October 2026): faisal-bin-turki-al-busaidi (the OMANI sultan — the Saudi faysal-ibn-turki untouc"
     source_file: "docs/delegation/modern-figures-progress.md"
     summary: "- **Wave 26 §B (century-additions-26 Z2) COMPLETE** (PR merged in this commit's cycle, by Muse under the founder's standing repo authorization of 25 October 2026): faisal-bin-turki-al-busaidi (the OMANI sultan — the Saudi faysal-ibn-turki untouched; child_of turki-bin-said in the son's record), taim"
   - id: "ruling-docs-delegation-poetry-passages-progress-md-21"
     kind: ruling
-    title: "## Proposed skips, awaiting founder (not decided)"
+    title: "founder (not decided)"
     source_file: "docs/delegation/poetry-passages-progress.md"
     summary: "## Proposed skips, awaiting founder (not decided)"
   - id: "ruling-docs-delegation-prose-backfill-2-progress-md-470"
     kind: ruling
-    title: "Founder-authorized record creation: 14 new `building/` stubs (minimal yaml, completeness 3 with prose) plus the existing"
+    title: "Founder-authorized record creation: 14 new `building/` stubs (minimal yaml, completeness 3 with prose) plus the existing `semsi-pasha-mosque"
     source_file: "docs/delegation/prose-backfill-2-progress.md"
     summary: "Founder-authorized record creation: 14 new `building/` stubs (minimal yaml, completeness 3 with prose) plus the existing `semsi-pasha-mosque` stub — all sourced to Freely, *A History of Ottoman Architecture* (2011). Side task: `data/source/freely-ottoman-architecture-2011.yaml` enriched (completenes"
   - id: "ruling-docs-delegation-prose-backfill-2-progress-md-533"
     kind: ruling
-    title: "Second founder-authorized record-creation batch: 12 new `building/` stubs + 3 existing wikidata-import stubs completed +"
+    title: "founder-authorized record-creation batch: 12 new `building/` stubs + 3 existing wikidata-import stubs completed + 2 records whose prior wiki"
     source_file: "docs/delegation/prose-backfill-2-progress.md"
     summary: "Second founder-authorized record-creation batch: 12 new `building/` stubs + 3 existing wikidata-import stubs completed + 2 records whose prior wikidata-only stub-prose was replaced — all sourced to Freely, *A History of Ottoman Architecture* (2011)."
   - id: "D-144"
@@ -478,6 +558,11 @@ precedents:
     date: "4 November 2026"
     source_file: "docs/inventions/decisions.md"
     summary: "The following ten points are transcribed verbatim from the founder's operative prompt. They govern this lane; they do not relax `AGENTS.md`, the change gates, source policy or no-go registry."
+  - id: "ruling-docs-inventions-decisions-md-465"
+    kind: ruling
+    title: "Founder-supplied resources are approved** (founder, 4 November 2026): the Internet Archive copies of *1001 Inventions*, the CNN, National Ge"
+    source_file: "docs/inventions/decisions.md"
+    summary: "10. **Founder-supplied resources are approved** (founder, 4 November 2026): the Internet Archive copies of *1001 Inventions*, the CNN, National Geographic and History Hit articles, and anything else listed in section 6.3a may be read and used as that section says."
   - id: "D-001"
     kind: decision-record
     title: "Use the existing `ideas` wing"
@@ -778,6 +863,11 @@ precedents:
     date: "5 November 2026"
     source_file: "docs/inventions/decisions.md"
     summary: "Question: Is the Baghdad hospital a new invention, an improvement on Jundishapur or the transfer of an earlier model? How are its Muslim patron and Christian physicians credited?"
+  - id: "ruling-docs-inventions-decisions-md-959"
+    kind: ruling
+    title: "founder-approved inventions lane"
+    source_file: "docs/inventions/decisions.md"
+    summary: "**Scope and risk:** `non-impacting`, content within the founder-approved inventions lane. No schema, code, UI, Worker, workflow or submission-document changes. Ibn Abi Usaybia and Ibn al-Nadim are references reported by TDV, not independently read primary pages."
   - id: "D-051"
     kind: decision-record
     title: "Record Ibn Tulun's endowed patient-care institution"
@@ -1361,12 +1451,12 @@ precedents:
     summary: "neither entry names a pir; the weaver record has only the ahi baba as the guild's officer, and the `akhi-associations` group is not tied to it because the entry does not say the weavers were an Akhi body."
   - id: "ruling-docs-modern-islam-progress-web-md-7"
     kind: ruling
-    title: "- **7 November 2026** — Founder's decision on the propaganda question (Q3), in his words in chat: \"Q3 keep them out\". Cl"
+    title: "Founder's decision on the propaganda question (Q3), in his words in chat: \"Q3 keep them out\""
     source_file: "docs/modern-islam/progress/web.md"
     summary: "- **7 November 2026** — Founder's decision on the propaganda question (Q3), in his words in chat: \"Q3 keep them out\". Closed as out in the held table: Under Ash and Under Siege (Afkar Media), Special Force 1 and 2, and Huroof; no listing, no exhibit, no mention in data or content. The held-table row"
   - id: "ruling-docs-modern-islam-progress-web-md-12"
     kind: ruling
-    title: "- **7 November 2026** — Founder's decisions on the held items (chat, 7 November 2026): approved IslamHouse, Yaqeen Insti"
+    title: "Founder's decisions on the held items (chat, 7 November 2026): approved IslamHouse, Yaqeen Institute and AlMaghrib Institute (to be written "
     source_file: "docs/modern-islam/progress/web.md"
     summary: "- **7 November 2026** — Founder's decisions on the held items (chat, 7 November 2026): approved IslamHouse, Yaqeen Institute and AlMaghrib Institute (to be written in the web section), the Palestinian Dialogue Network, and the self-sourced English sites (SeekersGuidance, MuslimMatters, IslamiCity, I"
   - id: "D-000"
@@ -1399,13 +1489,18 @@ precedents:
     date: "6 November 2026"
     source_file: "docs/modern-islam/progress.md"
     summary: "Founder's instruction (chat, 6 November 2026): use the Mac browser and put any tools on the Mac needed to go online, search, discover and gather all the needed information and details; use fewer APIs and more of the browser."
+  - id: "ruling-docs-plan-02-content-model-md-159"
+    kind: ruling
+    title: "founder_of`/`founded_by`, `ruler_of`/`ruled_by`, `successor_of`/`predecessor_of`, `patron_of`/`patronized_by`"
+    source_file: "docs/plan/02-content-model.md"
+    summary: "Core predicates (v0.1): `born_in`, `died_in`, `buried_in`, `lived_in`, `traveled_to`, `student_of`/`teacher_of`, `child_of`/`parent_of`, `spouse_of`, `sibling_of`, `member_of`/`has_member`, `founder_of`/`founded_by`, `ruler_of`/`ruled_by`, `successor_of`/`predecessor_of`, `patron_of`/`patronized_by`"
   - id: "ruling-docs-status-md-22"
     kind: ruling
-    title: "Time Browser update (2026-11-04): PR #3310 merged as `64ab392edc`; the founder approved a further 40 subjects (20 places"
+    title: "founder approved a further 40 subjects (20 places and 20 people)"
     source_file: "docs/status.md"
     summary: "Time Browser update (2026-11-04): PR #3310 merged as `64ab392edc`; the founder approved a further 40 subjects (20 places and 20 people). They are implemented on `explorer/40-subjects-story-batch-copilot`: 303 chronological stop occurrences across 246 existing events, with Arabic/English/Urdu subject"
   - id: "ruling-docs-status-md-140"
     kind: ruling
-    title: "- **Third-forty completion and authorized fix (4 Nov 2026):** the founder subsequently authorized #3476's narrow samplin"
+    title: "founder subsequently authorized #3476's narrow sampling fix and tests"
     source_file: "docs/status.md"
     summary: "- **Third-forty completion and authorized fix (4 Nov 2026):** the founder subsequently authorized #3476's narrow sampling fix and tests. #3452 merged concurrently as `23e76e6d1654528d775edcfe2d8f75c1c155e29d`; forty done claims now record its five place / thirty-five person stories, 185 stops and 12"

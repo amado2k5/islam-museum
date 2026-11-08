@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { decide, type Precedent } from "./decide";
+import { advisory, decide, type Precedent } from "./decide";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
@@ -23,10 +23,27 @@ const precedents: Precedent[] = [
 ];
 
 describe("decide pipeline (POC)", () => {
-  it("routes non-delegable questions to the founder docket", () => {
-    const d = decide({ question: "Should we deploy this batch to production now?" }, precedents);
+  it("routes non-delegable questions to the founder docket in conservative mode", () => {
+    const d = decide({ question: "Should we deploy this batch to production now?" }, precedents, "conservative");
     expect(d.status).toBe("founder-docket");
     expect(d.step).toBe("policy-gate");
+  });
+
+  it("autonomous mode decides gated surfaces instead of docking", () => {
+    const d = decide({ question: "Should we deploy this batch to production now?" }, precedents, "autonomous");
+    expect(d.status).toBe("decided");
+    expect(d.step).toBe("autonomous-override");
+    expect(String(d.decision)).toContain("deploy");
+  });
+
+  it("advisory redirects gated proposals to the engine's safe alternative", () => {
+    const d = advisory(
+      { question: "Delete the flagged records?", proposed_action: "drop the records", proposed_by: "test" },
+      precedents,
+      "autonomous",
+    );
+    expect(d.verdict).toBe("redirect");
+    expect((d.engine_decision as { decision: string }).decision).toContain("never delete");
   });
 
   it("rejects hard-block content outright", () => {
@@ -48,7 +65,7 @@ describe("decide pipeline (POC)", () => {
   it("does not treat negated mentions as policy hits", () => {
     const d = decide({ question: "Render-QA crawl: authorise a read-only crawl — building locally is a check, not a deploy" }, precedents);
     expect(d.status).not.toBe("founder-docket");
-    const d2 = decide({ question: "Should we deploy this batch to production now?" }, precedents);
+    const d2 = decide({ question: "Should we deploy this batch to production now?" }, precedents, "conservative");
     expect(d2.status).toBe("founder-docket");
   });
 

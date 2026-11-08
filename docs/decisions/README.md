@@ -25,37 +25,66 @@ blocking to asynchronous sampling of a ledger.
 | `docs/decisions/records/` | Decision records emitted by the pipeline (`dec-YYYYMMDD-NNN.yaml`). |
 | `scripts/decisions/decisions.test.ts` | Vitest coverage of the pipeline gates. |
 
-## The pipeline (`decide.ts`)
+## The pipeline (`decide.ts` + `rules.yaml`)
 
-1. **Policy gate (deterministic).** A non-delegable list — deploys, deletions,
-   spending, outreach, licence changes, review-status escalation, governance
-   surfaces (schema, predicates, robots.txt, headers, infra, CI), commissions,
-   content-safety hard-block topics, Qur'an text — routes straight to the founder
-   docket. Matches inside negated phrases ("not a deploy") do not count. No
-   precedent can override this list.
-2. **Hard reject.** Figurative depictions of prophets, typed honorifics — reject
-   outright.
-3. **Canonical rules.** A small table of questions the repository already answers
-   unambiguously (duplicate → alias of the richer entity, Arabic-first prose,
-   25-entity batch cap, immutable ids) — each cites its source document.
-4. **Precedent match.** Token-overlap similarity, but gated twice: score ≥ 0.6
-   AND title overlap ≥ 0.25 (a precedent's title carries its subject; summary-only
-   or table-row matches cannot decide). Only `decision-record` and `ruling` kinds
-   count — `flag` entries are observations, not rulings.
-5. **Safe default.** No rule, no precedent → `hold as draft-tier / pointer-only`
-   with `needs_precedent: true`. Never escalates review status, never deletes,
-   never asserts a contested fact.
+The engine is data-driven: `docs/decisions/rules.yaml` holds every gate, rule,
+domain pattern and autonomy mapping — versioned, editable without code, compiled
+at load. `decide()` returns a full `trace` of every stage evaluated.
 
-Every outcome writes a decision record: id, date, lane, question, options,
-status, step, decision, confidence, reversibility, rationale, precedent citation,
-`review_sampled` flag, and `decided_by` provenance.
+Two modes (`rules.yaml` `mode:` or `--mode`):
 
-## What is deliberately NOT autonomous
+- **`autonomous` (POC default)** — the engine decides everything. Each gate maps
+  to a conservative reversible decision in `rules.yaml` `autonomous.gates`
+  (deploy → cost-aware cadence policy; spend → budget proposal; outreach →
+  draft-only; delete → never, merge/alias instead; governance → labelled
+  proposal). A gate with no mapping still docks — autonomy never invents
+  authority. `hard_reject` entries refuse in BOTH modes.
+- **`conservative`** — former behaviour: non-delegable surfaces route to
+  `docs/decisions/docket.md` for the founder.
 
-Deploys (founder-only, cost), deletions, spending, external communications,
-licence changes, review-status escalation, anything under the content-safety hard
-block, and Qur'an text. These stay founder decisions permanently — that is
-governance, not a limitation to engineer away.
+Pipeline order:
+
+0. **Founder-reserved** (conservative only) — the question defers to the
+   founder → docket.
+1. **Gates** — non-delegable list + hard rejects, negation-aware.
+2. **Rules** — ~35 canonical rules mined from AGENTS.md, docs/agents/* and the
+   full 20k-commit history (doubt→unknown, two-source faith doctrine, homonyms,
+   stub-replace, wing defaults, kids' wing, conflict preservation, fail-closed
+   external IDs, no-skip lanes, inclusive harvest…).
+3. **Precedent** — BM25 over mined precedents **plus the ledger itself**: every
+   `decided` record becomes a `ledger-record` precedent, so the system learns
+   from its own rulings. Gates: score ≥ 0.6 AND title overlap ≥ 0.3; `flag`
+   entries never count.
+4. **Judge tier (optional)** — if `DECIDE_JUDGE_CMD` or `DECIDE_JUDGE_URL`
+   (OpenAI-compatible: Ollama, LM Studio) is set, held questions get a GenAI
+   recommendation recorded as `status: recommended` — advisory only.
+5. **Safe default** — conservative reversible hold, `needs_precedent: true`.
+
+**Proposer/disposer contract (`--advisory`)**: any AI model submits
+`{question, proposed_action}`; the engine returns `verdict: allow | redirect |
+deny | route-to-founder` plus its own authoritative `engine_decision`. Models
+propose; the engine disposes. This is the AI-control pattern (untrusted
+proposer, trusted deterministic monitor — Greenblatt et al. 2024; SafeChain's
+deterministic-policy-engine-then-LLM-judge ordering).
+
+Every outcome writes a decision record with domain, mode, rule/gate id,
+precedent scores, trace and provenance.
+
+## Doctrine mined from commit history
+
+The full `origin/main` history (20,332 commits) was mined for founder rulings
+and agent decision patterns. Encoded as rules: the doubt rule (absolute — doubt
+is `unknown`, never establishment), the strict two-independent-sources faith
+rule (office/descent/movement/infobox-only never count; the founder's
+Shia-mapping gives `shia-twelver` documented), homonyms never merge
+(`data/_homonyms.yaml`), unidentifiable items logged with searches, stubs
+REPLACEd in place, unrecognised wings → Ideas, children's-wing rulebook,
+conflicts preserved as attributed `debated` readings, external IDs fail-closed,
+reach thresholds, inclusive harvest (nothing intelligible dropped, garbled
+reported), the no-skip lane rule, and open corrections. The founder's
+re-review revert (1 Nov 2026) is the cautionary precedent: agent-drafted
+rulings were reverted when they drifted from doctrine — which is why gates
+beat precedents and precedents beat nothing.
 
 ## Calibration plan (not in this POC)
 
@@ -133,12 +162,12 @@ behaviour the system must have: better a held question than a fabricated precede
 
 ## Known POC limits
 
-- Similarity is lexical (token overlap), not semantic — good enough to prove the
-  record flow; a real version would embed or use a judge model at build time.
-  The flag-exclusion fix shows the failure mode: lexical matches feel authoritative
-  while being wrong, so matched precedents should display their score and source
-  for human spot-checks.
-- The non-delegable list is hand-maintained; it should be derived from
-  `AGENTS.md` + `docs/ai-change-gates.md` no-go registry over time.
-- One pilot decision surface only; expanding to canon/scope/source-admission
-  classes is the next step after founder review of this POC.
+- Precedent matching is BM25 lexical, not semantic — strong on seen-before
+  questions, conservative on novel ones. The judge tier covers the residual.
+- `rules.yaml` rules are regex-over-text; they answer HOW questions well but a
+  genuinely novel judgment still lands at safe-default or `recommended`.
+- Autonomous-mode gate decisions are conservative BY CONSTRUCTION (draft-tier,
+  proposals, never-delete) — they decide the safe course, not the ambitious one.
+  That is the correct POC posture: autonomy expands coverage, never blast radius.
+- Benchmark: `npx tsx scripts/decisions/benchmark.ts` — 70 labelled cases,
+  per-class metrics, `--verbose` for traces.
