@@ -2,6 +2,13 @@
 
 > *The whole story of Islam, open to everyone.*
 
+> **Governed by the [Founder's Charter](00-founders-charter.md)** (8 November 2026): the
+> knowledge graph of the whole umma is the foundation, and this museum — the site, the wings,
+> every feature — is an application and a display medium for that graph, not the reverse.
+> Where this document's phrasing differs (it calls the museum "a knowledge graph with a
+> museum's soul"), the Charter's order governs: corpus first (the mother books), the
+> page-by-page pipeline, rules last, and progress measured against the corpus.
+
 ## 1. What this is
 
 **islam.museum** is an all-digital, free, open, multilingual museum of Islam: the faith, the civilization, the cultures, the peoples, the ideas, the places, the objects and the living community, from the world Islam was born into until the day the site was last updated.
@@ -11,6 +18,23 @@ It is not a textbook, a fatwa site, a da'wah site, an encyclopedia clone, or a s
 The museum metaphor is deliberate. A museum is a place where a stranger can walk in, be welcomed, wander without a goal, be told a story by a curator, pick up an object and turn it over, and leave knowing something they did not know. The web version of that has never been built for Islam as a whole.
 
 ## 2. Why it matters
+
+**The overall goal (Founder's Charter, Article 0, 8 November 2026).** Islam — with all its
+contents, its figures, its events, its places, everything about it — available to everyone,
+in an easy, simplified form readable by old and young, Arab and non-Arab, Muslim and
+non-Muslim; and anyone free to reshape the knowledge graph in any form and any application
+that suits their own users, **above all schools, universities and study circles**. Some
+knowledge was reachable only by reading many books over great time and effort — nearly
+impossible for the new generations. The graph is the bridge across that gap: a revival of
+the religious sciences for this age and the future. Uses of the graph by others are not a
+by-product of the museum; they are the goal.
+
+**Written in three languages.** As befits that audience, the museum's goal, vision and
+strategy are written in Arabic, English and Urdu: this vision is carried in full in the
+Charter's three texts — Arabic (`00-founders-charter-ar.md`), English
+(`00-founders-charter.md`) and Urdu (`00-founders-charter-ur.md`). The project's working
+strategy and roadmap is `06-roadmap.md`; the standing directive that it, too, be written in
+the same three languages is recorded in the Charter's colophon.
 
 - Islam is 1.9–2 billion people, 14 centuries, and every continent, yet online knowledge about it is **fragmented into silos**: Qur'an sites, hadith sites, museum collections, Wikipedia articles, academic databases, timelines, travel blogs, polemics. Nobody connects the astrolabe to the astronomer to the city to the caliph to the verse he was reading.
 - The curious outsider is **poorly served**: they get either apologetics, polemics, or a 40-page Wikipedia article. There is no calm front door.

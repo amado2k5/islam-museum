@@ -6,7 +6,7 @@ islam.museum is an open, free, all-digital museum of Islam: the faith, civilizat
 
 ## Read, in this order
 
-1. This file (the rules that never bend).
+1. This file (the rules that never bend). Above them all stands the [Founder's Charter](docs/plan/00-founders-charter.md) (founder, 8 November 2026; Arabic: docs/plan/00-founders-charter-ar.md, Urdu: docs/plan/00-founders-charter-ur.md — the goal, vision and strategy are written in all three languages): the graph is the foundation and the site its application; the corpus is the mother books, mined page by page; classification rules apply only after identity and context are established; scale is stated against the corpus (≈1–1.5% of the first thousand books mined so far, founder's estimate); AI images are the model's imagining from the graph, never depictions of their subjects.
    Then `docs/ai-change-gates.md`, binding on every agent: no edit without an approved written proposal, stay in scope, label anything that could alter a filed submission (DPGA, UNESCO) as submission-impacting, three-way merge before every push, the quality and content gates restated, attribution trailers, and the no-go registry of reserved areas.
 2. `docs/agents/README.md` (index of the agent documents), then the one or two you need:
    - `docs/agents/content-safety.md`: the hard block on terrorist-organisation content, in full, with the founder's decisions on existing records (read before you write about any modern conflict, movement or person).

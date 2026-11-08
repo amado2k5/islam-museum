@@ -1027,3 +1027,13 @@ workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museu
       robots_txt: read 7 Nov 2026; disallows /wp-admin/ only
       note: 'the award body''s own record: one page per laureate (category, year, birth, citation, biography written in the award year, later updates and deaths); index pages per category'
     status: enabled
+  ideo-diamond:
+    name: IDEO Diamond / AlKindi, the general Diamond catalogue (IDEO, Cairo; stewarded by LRM-CS)
+    url: https://opac.diamondrda.org
+    licence: no licence published for the catalogue data (verified 8 Nov 2026); open-data ethos stated by LRM-CS; facts-only with attribution until terms are confirmed in writing; never bulk-copied, never republished
+    layer: copyrighted-reference
+    method: Wikidata crosswalk (P8795 agents, P11979 works) plus per-record OPAC citation by numeric id; no bulk harvest until LRM-CS agrees terms
+    limits:
+      pause_seconds: 5
+      note: 'IFLA-LRM/RDA authority catalogue: 230,000+ works, 116,000+ agents shared by 11 libraries; citable for authorship, work identity, edition history and typed work relations (commentary, refutation, abridgement, sequel); never for a work''s contents'
+    status: enabled
