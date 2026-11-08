@@ -16,6 +16,8 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
 import { parse } from "yaml";
+import { createHash } from "node:crypto";
+import { ruleChainHash } from "./decide";
 
 const ROOT = process.cwd();
 const RECORDS_DIR = join(ROOT, "docs/decisions/records");
@@ -28,6 +30,7 @@ interface Rec {
   confidence?: unknown; reversible?: boolean; decided_by?: { agent?: string; pipeline?: string };
   expires_at?: string; domain?: string; mode?: string; supersedes?: string;
   rule_id?: string; precedent?: { id?: string };
+  chain?: { depth?: number; root_id?: string; root_kind?: string; root_expires_at?: string | null; derived_rule_hash?: string };
 }
 
 function questionHash(question: string): string {
@@ -67,9 +70,12 @@ function main() {
   // Rule ids that exist in the ruleset — a decided record citing a deleted or
   // renamed rule is stale authority (Fable F2 quarantine).
   const ruleIds = new Set<string>();
+  const ruleById = new Map<string, { id: string; pattern: string; decision: string }>();
   if (existsSync(RULESET)) {
-    const rs = parse(readFileSync(RULESET, "utf8")) as { rules?: { id?: string }[] };
-    for (const r of rs.rules ?? []) if (r.id) ruleIds.add(r.id);
+    const rs = parse(readFileSync(RULESET, "utf8")) as { rules?: { id?: string; pattern?: string; decision?: string }[] };
+    for (const r of rs.rules ?? []) {
+      if (r.id) { ruleIds.add(r.id); if (r.pattern && r.decision) ruleById.set(r.id, { id: r.id, pattern: r.pattern, decision: r.decision }); }
+    }
   }
 
   // Dead authority: records named by another record's `supersedes` are
@@ -124,6 +130,29 @@ function main() {
     }
     if (r.precedent?.id && !precIds.has(r.precedent.id)) {
       fails.push(`${tag}: cites precedent '${r.precedent.id}' which resolves nowhere`);
+    }
+    // Chain integrity (Fable F2/F11): depth-0 authority means a citation chain
+    // can never exceed depth 1 — precedent-step records are never precedents.
+    // A deeper chain is TTL-laundering. Rule-rooted derivations are also
+    // re-hashed: an edited rule makes past derivations stale (warn, not fail —
+    // staleness is expected after doctrine changes; the count is the metric).
+    const ch = r.chain;
+    if (ch) {
+      if ((ch.depth ?? 0) > 1) {
+        fails.push(`${tag}: chain.depth ${ch.depth} > 1 — citation-chain laundering (precedent-step records must never become precedents)`);
+      }
+      if (ch.root_kind === "rule") {
+        const ruleId = ch.root_id?.replace(/^rule:/, "");
+        const rule = ruleId ? ruleById.get(ruleId) : undefined;
+        if (!rule) fails.push(`${tag}: chain.root_id '${ch.root_id}' resolves to no rule in rules.yaml`);
+        else if (ch.derived_rule_hash && ch.derived_rule_hash !== ruleChainHash(rule)) {
+          warns.push(`${tag}: stale derivation — rule '${ruleId}' changed since this record derived from it`);
+        }
+      } else if (ch.root_kind === "mined-precedent" || ch.root_kind === "ledger-record") {
+        if (ch.root_id && !precIds.has(ch.root_id)) {
+          fails.push(`${tag}: chain.root_id '${ch.root_id}' resolves nowhere`);
+        }
+      }
     }
   }
 

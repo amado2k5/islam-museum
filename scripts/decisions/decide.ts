@@ -293,6 +293,7 @@ interface StoredRecord extends Question {
   rule_id?: string; gate?: string; precedent?: { id?: string };
   decided_by?: { agent?: string; pipeline?: string };
   calibration_log?: { founder_resolution?: { verdict?: string } | null };
+  chain?: ChainInfo;
 }
 
 function readRecords(): StoredRecord[] {
@@ -350,6 +351,67 @@ export function loadLedgerPrecedents(): Precedent[] {
       summary: `${r.decision} ${r.rationale ?? r.override_reason?.detail ?? ""}`.slice(0, 400),
       source_file: `docs/decisions/records/${r.id}.yaml`,
     }));
+}
+
+// ---------------------------------------------------------------------------
+// Chain integrity — every decided record declares the authority it derives
+// from, so TTL-laundering and stale derivations are measurable. Depth is
+// bounded at 1 by construction: precedent-step records never become
+// precedents, so a citation chain cannot launder expiry (Fable F2/F11).
+// ---------------------------------------------------------------------------
+
+export interface ChainInfo {
+  depth: number;
+  root_id: string;
+  root_kind: "rule" | "mined-precedent" | "ledger-record" | "override";
+  root_expires_at: string | null;
+  derived_rule_hash: string;
+}
+
+function shortHash(s: string): string {
+  return createHash("sha256").update(s).digest("hex").slice(0, 16);
+}
+
+/** Hash of the governing rule definition — changes when the rule text does,
+ *  which is exactly what makes a past derivation stale. Exported so
+ *  check-records.ts recomputes the same value. */
+export function ruleChainHash(rule: { id: string; pattern: string; decision: string }): string {
+  return shortHash(`rule:${rule.id}:${rule.pattern}:${rule.decision}`);
+}
+
+function chainForRule(rule: { id: string; pattern: string; decision: string }): ChainInfo {
+  return { depth: 0, root_id: `rule:${rule.id}`, root_kind: "rule", root_expires_at: null, derived_rule_hash: ruleChainHash(rule) };
+}
+
+function chainForMinedPrecedent(p: Precedent): ChainInfo {
+  return { depth: 1, root_id: p.id, root_kind: "mined-precedent", root_expires_at: null, derived_rule_hash: shortHash(`precedent:${p.id}:${p.title ?? ""}:${p.summary}`) };
+}
+
+const chainRecordCache = new Map<string, StoredRecord>();
+function chainRecordsById(): Map<string, StoredRecord> {
+  if (chainRecordCache.size === 0) {
+    for (const r of readRecords()) if (r.id) chainRecordCache.set(r.id, r);
+  }
+  return chainRecordCache;
+}
+
+function chainForLedgerPrecedent(p: Precedent): ChainInfo {
+  const byId = chainRecordsById();
+  const parent = byId.get(p.id);
+  const parentChain = (parent as (StoredRecord & { chain?: ChainInfo }) | undefined)?.chain;
+  const rootId = parentChain?.root_id ?? p.id;
+  const rootRec = byId.get(rootId);
+  return {
+    depth: (parentChain?.depth ?? 0) + 1,
+    root_id: rootId,
+    root_kind: parentChain?.root_kind ?? "ledger-record",
+    root_expires_at: rootRec?.expires_at ?? parent?.expires_at ?? null,
+    derived_rule_hash: shortHash(`precedent:${p.id}:${parent?.question ?? ""}:${parent?.decision ?? p.title ?? p.summary}`),
+  };
+}
+
+function chainForPrecedent(p: Precedent): ChainInfo {
+  return p.kind === "ledger-record" ? chainForLedgerPrecedent(p) : chainForMinedPrecedent(p);
 }
 
 export function loadPrecedents(): Precedent[] {
@@ -511,7 +573,7 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
       return {
         status: "decided", step: "rule",
         decision: r.decision, rule: r.cite, rule_id: r.id, domain, mode: m,
-        confidence: r.confidence, reversible: r.reversible,
+        confidence: r.confidence, reversible: r.reversible, chain: chainForRule(r),
         rationale: `Answered by a standing repository rule (${r.id}): ${r.cite}.`,
         trace,
       };
@@ -591,6 +653,7 @@ export function decide(q: Question, precedents: Precedent[], mode?: "autonomous"
       precedent_distance: Number((1 - best.hybrid).toFixed(3)),
       top_precedent_id: best.p.id,
       top_precedent_status: best.p.provenance_status ?? (best.p.kind === "ledger-record" ? "ledger-decided" : "unlabeled"),
+      chain: chainForPrecedent(best.p),
       alternatives, domain,
       confidence: Math.min(AUTHORITY_CONFIDENCE[best.p.provenance_status ?? ""] ?? 0.7, 0.5 + best.hybrid), reversible: true, mode: m,
       rationale: `Question overlaps precedent ${best.p.id} recorded in ${best.p.source_file}. Conservative application; founder audits the sample.`,
@@ -689,6 +752,15 @@ function toYamlRecord(id: string, q: Question, d: Record<string, unknown>): stri
   lines.push(`review_sampled: false`, `decided_by:`, `  agent: poc-decide`, `  pipeline: scripts/decisions/decide.ts`, `  ruleset: docs/decisions/rules.yaml`);
   const derived = [d.rule_id && `rule:${d.rule_id}`, d.gate && `gate:${d.gate}`, d.precedent && `precedent:${(d.precedent as { id: string }).id}`].filter(Boolean);
   if (derived.length) lines.push(`derived_from:`, ...derived.map((x) => `  - ${x}`));
+  if (d.chain) {
+    const c = d.chain as ChainInfo;
+    lines.push(`chain:`,
+      `  depth: ${c.depth}`,
+      `  root_id: ${esc(c.root_id)}`,
+      `  root_kind: ${esc(c.root_kind)}`,
+      `  root_expires_at: ${c.root_expires_at ? esc(c.root_expires_at) : "null"}`,
+      `  derived_rule_hash: ${esc(c.derived_rule_hash)}`);
+  }
   // Override-record fields (Muse Q3): present only on kind: override rulings.
   for (const [k, v] of Object.entries({
     supersedes: d.supersedes, correct_outcome: d.correct_outcome, wrong_outcome: d.wrong_outcome,
