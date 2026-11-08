@@ -15,8 +15,9 @@ location: place/cairo
 status_now: standing
 relations:
   - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
-sources: [source/yeomans-islamic-cairo-2006, source/tei-epigraphie]
+sources: [source/yeomans-islamic-cairo-2006, source/tei-epigraphie, source/archnet]
 external_ids:
+  archnet: "218"
   tei: "6"
 provenance:
   layer: own-research
