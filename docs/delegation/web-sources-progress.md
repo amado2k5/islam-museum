@@ -101,3 +101,4 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 - Rejected as unconfirmed: Fes Misbahiyya (no entity), Sidi al-Halwi mosque-vs-madrasa ambiguity, Ramla mosque 'Abd al-Rahman ≠ White Mosque, Kerman Jami' (no dedicated entity; malek/pamenar are other mosques), Damascus 1560/1562 (unnamed mausoleum/dar al-Qur'an), 1600 Jabala (Jerusalem entity, different site).
 - Facts-only kept: no inscription text or catalogue prose copied; `tei` ids are pointers, `{cite:}` prose anchors only where a summary fact exists.
 - Gates: npm run validate + npm test before push; PR to main; self-merge per founder's standing CI waiver.
+- SHIPPED: commit 0e41c0cddc → PR #5658 → merged to main @ 4860a2bd12 (CI test pass; build preview pending at merge per founder's standing waiver).
