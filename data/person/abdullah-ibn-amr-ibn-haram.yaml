@@ -32,8 +32,10 @@ relations:
   - { type: member_of, target: group/khazraj }
   - { type: participated_in, target: event/pledges-of-aqaba, role: "نقيب بني سلمة", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+  - { type: sibling_of, target: person/hind-bint-amr-ibn-haram, sources: [source/rijal-hawl-al-rasul-muqattam-1994], note: "أخت عبد الله بن عمرو بن حرام، وزوجها عمرو بن الجموح صهره" }
+  - { type: related_to, target: person/amr-ibn-al-jamuh, sources: [source/rijal-hawl-al-rasul-muqattam-1994], note: "صهره: زوج أخته هند بنت عمرو؛ دُفنا معاً في قبر واحد بأحد" }
 external_ids: { wikidata: "Q12223557" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/assabile-omar-abdelkafy]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/rijal-hawl-al-rasul-muqattam-1994]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 148, 152" }
 provenance:
   layer: own-research

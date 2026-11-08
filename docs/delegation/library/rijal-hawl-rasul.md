@@ -14,10 +14,11 @@
 
 ## Done
 - (4 Nov 2026) Batch 1 (9 entities): source; new `work/rijal-hawl-al-rasul` and `person/khalid-muhammad-khalid` (works list p. 643); a "In Rijal Hawl al-Rasul" section (ar/en/ur) added to `umayr-ibn-wahb-al-jumahi` (pp. 323–331), `zayd-ibn-al-khattab` (347–353), `utba-ibn-ghazwan` (449–453), `habib-ibn-zayd` (491–496), `abd-al-rahman-ibn-abi-bakr` (529–532), `abu-sufyan-ibn-al-harith` (545–548).
+- (batch 2, agent/microsd-books) The five "Next" entries below are now enriched in ar/en/ur: `imran-ibn-husayn` (PDF pp. 549–552, section by worker E), `salama-ibn-al-akwa` (p. 555ff), `abbad-ibn-bishr` (p. 581ff), `abdullah-ibn-amr-ibn-haram` / Abu Jabir (PDF pp. 479–482), `amr-ibn-al-jamuh` (PDF pp. 483–489). For the last two: source added to `sources`, a "In Rijal Hawl al-Rasul" section (ar/en/ur) appended, `sibling_of`/`related_to` edges added between them, `spouse_of` edge to the new stub `person/hind-bint-amr-ibn-haram`, and a stub appended to `data/_stubs.d/devin-microsd-books.yaml`.
 
 ## Flags
 - `person/umayr-ibn-wahb` (the Umayr of Tabuk in Ibn Ishaq) was deliberately kept separate from `umayr-ibn-wahb-al-jumahi` by its author; not merged.
 - Literary, hortatory book without per-report sources: claims and reflections are attributed to the author (e.g. Abd al-Rahman ibn Abi Bakr's "Heraclian" protest and its reading).
 
 ## Next
-Other thin Companions in the book: Imran ibn Husayn (PDF 551), Salama ibn al-Akwa' (555), Abbad ibn Bishr (581), Abu Jabir (479), Amr ibn al-Jamuh (483).
+All five thin Companions listed here are done (see Done). The book has 60 chapters; remaining chapters are candidates for later batches (e.g. Salim 627, Ibn Rawaha 277 — check which already have Rijal sections before writing).
