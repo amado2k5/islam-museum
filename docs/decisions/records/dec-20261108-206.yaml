@@ -1,0 +1,74 @@
+id: dec-20261108-206
+kind: override
+date: '2026-11-08'
+question_hash: 06ccf89551dd
+lane: web-sources
+class: process
+modality: website
+domain: governance
+mode: conservative
+question: 'Should the Victoria and Albert Museum Collections API (api.vam.ac.uk/v2 — public JSON search returning systemNumber, accessionNumber,
+  dates, maker, place, object type and IIIF image identifiers; collections.vam.ac.uk object pages) be onboarded as a citable source family for
+  the object backlog, and at what tier? Assessment 2026-11-08: authority strong (national museum); citability excellent (systemNumber stable id,
+  IIIF manifests); terms: V&A websites terms state V&A-owned content may be used free of charge for non-commercial purposes — facts-only posture
+  for data/prose, images never ingested; structure: keyless JSON API v2 answered live (objects/search?q=minbar returned records); robots file
+  names AI crawlers only with no wildcard group, harvest UA not listed; coverage fit good (V&A Islamic collection vs 542 object records); corroboration
+  high (maker/date/material/provenance); Arabic-first moderate; longevity strong.'
+options:
+- 'Tier 1 citable family, facts-only: cite {cite:vam-collections <systemNumber>}; record text and images never republished'
+- Tier 3 pointer only
+- Do not register
+evidence:
+- api.vam.ac.uk/v2/objects/search?q=minbar&page_size=3 returned HTTP 200 JSON on 2026-11-08 with no key
+- developers.vam.ac.uk guide documents the API; vam.ac.uk info pages state non-commercial use terms
+- docs/agents/source-families.md Tier 1 lists museum collections per collection; Met already Tier R CC0
+status: decided
+step: override
+decision: 'Tier 1 citable family, facts-only: cite {cite:vam-collections <systemNumber>}; keyless JSON API is the harvest channel'
+correct_outcome: vam-tier1-facts-only
+wrong_outcome: register-tier1-facts-only
+confidence: 1
+reversible: true
+rationale: 'dec-200 answered a source-onboarding question with the Arabic-first content rule because the word ''Arabic'' appeared in the assessment
+  text (''Arabic-first value'', ''Arabic-first moderate''). The rule fired on descriptive metadata, not on a language/localisation question —
+  the same substring false-positive class as dec-189->190 (kid/wikidata and Arabic-in-evidence). The correct ruling applies the eight onboarding
+  criteria in docs/agents/source-families.md: authority, citability, terms posture, structure, coverage fit, corroboration, Arabic coverage and
+  longevity all scored; the assessment''s recommended Tier 1 facts-only posture is adopted (non-commercial or unclear terms => facts-only permanently).'
+supersedes: dec-20261108-200
+override_reason:
+  category: rule-false-positive
+  detail: 'rule-language-ar-first matched ''arabic'' inside source-assessment evidence describing the family''s language coverage, not a localisation
+    decision. Same fix needed as dec-190: question-domain gating or evidence-text exclusion.'
+  overridden_by: devin-web-sources
+signals:
+  matched_rule_id: rule-language-ar-first
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: devin-web-sources
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-08'
+    by: devin-web-sources
+    note: override committed; family registration follows in the same lane commit
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+  - rule-language-ar-first
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

@@ -1,0 +1,40 @@
+id: dec-20261108-194
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: 8e5157d791eb
+lane: "web-sources"
+class: "process"
+modality: "website"
+domain: "sources"
+mode: "conservative"
+question: "Should the British Museum collection database (britishmuseum.org/collection — object records with museum numbers, dates, materials, provenance for the Islamic collections) be onboarded as a citable source family for the object backlog, and at what tier? Assessment 2026-11-08: authority strong (national museum); citability good (museum object numbers); terms: collection data published CC BY-NC-SA 4.0 per the family catalogue's earlier check — non-commercial/share-alike clause means facts-only posture permanently; structure: collection pages answer 403 Cloudflare challenge to non-browser clients on 2026-11-08 (recorded, not bypassed); Wayback snapshots exist; an official data release/API status needs a browser check; coverage fit good (BM Islamic collection vs 542 object records); corroboration high; Arabic-first moderate; longevity strong."
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:british-museum <object-id>}"
+  - "Tier 3 pointer only"
+  - "Do not register until a machine channel is confirmed"
+evidence:
+  - "britishmuseum.org/collection returned a 403 challenge page to the harvest User-Agent on 2026-11-08"
+  - "docs/agents/source-families.md Tier 1: 'British Museum: CC BY-NC-SA 4.0 -> facts-only'"
+status: decided
+step: rule
+decision: "Arabic first (label.ar + summary.ar required); English and Urdu in the same commit"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-language-ar-first): docs/language.md + AGENTS.md."
+rule: "docs/language.md + AGENTS.md"
+rule_id: "rule-language-ar-first"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-language-ar-first
+chain:
+  depth: 0
+  root_id: "rule:rule-language-ar-first"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "82ffd8fd9776ff4c"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-language-ar-first"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

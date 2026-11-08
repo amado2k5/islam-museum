@@ -1,0 +1,80 @@
+id: dec-20261108-205
+kind: override
+date: '2026-11-08'
+question_hash: 6b00036deb53
+lane: web-sources
+class: process
+modality: website
+domain: governance
+mode: conservative
+question: 'Should Archnet (archnet.org — the Aga Khan Trust for Culture / MIT Aga Khan Documentation Center open resource on the architecture
+  and built environment of Muslim societies, ~9,000 site records, ~1,000 authority records, 120k+ media items) be onboarded as a citable source
+  family for the building records, and at what tier? Assessment 2026-11-08: authority strong (AKTC+MIT joint project since 2002, peer-reviewed
+  claims on its about page); citability good (stable numeric site/authority/media ids, e.g. /sites/1000); terms: its Terms of Use page states
+  material is ''available for instructional, nonprofit use, and personal use on the terms of a Creative Commons Attribution-NonCommercial 4.0
+  International (CC BY-NC 4.0) license'' and its help page says site descriptions and metadata may be used by nonprofit or educational organisations
+  with attribution — non-commercial clause means facts-only posture permanently; structure: live site answers 429 to non-browser clients (Vercel
+  checkpoint), archived robots file has no disallow rules, Wayback Machine holds server-rendered record pages, no public data API found; coverage
+  fit excellent (5,776 building records); corroboration high (construction dates, architects, site types); Arabic-first moderate; longevity strong.'
+options:
+- 'Tier 1 citable family, facts-only (NC): cite {cite:archnet site/<id>} or authority/<id>; text and images never republished; harvest channel
+  Wayback snapshots plus browser reads'
+- Tier 3 pointer only
+- Do not register
+evidence:
+- Terms of Use text captured from archived copy of archnet.org/pages/terms on 2026-11-08; live site 429-blocked to curl on 2026-11-08 (recorded,
+  not bypassed)
+- data/work/archnet.yaml already exists as the project entity; no data/source/archnet yet
+- 'docs/agents/source-families.md Tier 1 lists Archnet first: ''~9,078 site records ... the single biggest unlock for the 5,460 prose-missing
+  buildings'''
+status: decided
+step: override
+decision: 'Tier 1 citable family, facts-only: cite {cite:archnet <site|authority|media-id>} — Wayback/browser read channel while live site rate-limits
+  non-browser clients'
+correct_outcome: archnet-tier1-facts-only
+wrong_outcome: register-tier1-facts-only
+confidence: 1
+reversible: true
+rationale: 'dec-199 answered a source-onboarding question with the Arabic-first content rule because the word ''Arabic'' appeared in the assessment
+  text (''Arabic-first value'', ''Arabic-first moderate''). The rule fired on descriptive metadata, not on a language/localisation question —
+  the same substring false-positive class as dec-189->190 (kid/wikidata and Arabic-in-evidence). The correct ruling applies the eight onboarding
+  criteria in docs/agents/source-families.md: authority, citability, terms posture, structure, coverage fit, corroboration, Arabic coverage and
+  longevity all scored; the assessment''s recommended Tier 1 facts-only posture is adopted (non-commercial or unclear terms => facts-only permanently).'
+supersedes: dec-20261108-199
+override_reason:
+  category: rule-false-positive
+  detail: 'rule-language-ar-first matched ''arabic'' inside source-assessment evidence describing the family''s language coverage, not a localisation
+    decision. Same fix needed as dec-190: question-domain gating or evidence-text exclusion.'
+  overridden_by: devin-web-sources
+signals:
+  matched_rule_id: rule-language-ar-first
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: devin-web-sources
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-08'
+    by: devin-web-sources
+    note: override committed; family registration follows in the same lane commit
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+  - rule-language-ar-first
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

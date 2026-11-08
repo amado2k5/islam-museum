@@ -1,0 +1,76 @@
+id: dec-20261108-217
+kind: override
+date: '2026-11-08'
+question_hash: ea156a45a187
+lane: web-sources
+class: process
+modality: website
+domain: sources
+mode: conservative
+question: Should the Museum With No Frontiers 'Discover Islamic Art' database (islamicart.museumwnf.org) and the Qantara Mediterranean heritage
+  catalogue (qantara-med.org — object and monument records across the Mediterranean, overlapping the Sicily material) be onboarded as citable
+  source families, and at what tier?
+options:
+- Both Tier 2 citable families, facts-only
+- Both Tier 1 citable families, facts-only
+- Tier 3 pointers only
+- Do not register
+evidence:
+- 'Assessment 2026-11-08: MWNF — authority good (Museum With No Frontiers, established cultural institution); live ''Discover Islamic Art'' portal
+  200, no robots.txt found; terms to confirm — facts-only posture; object records across the Mediterranean. Qantara — authority good (Qantara
+  Patrimoine méditerranéen project, multilingual ar/en/es/fr site live on www.qantara-med.org; root domain times out); has a dedicated catalogue
+  section and assisted search; legal-notice page exists, reuse terms unclear → facts-only; coverage overlaps Sicily/Andalusia/Maghreb material
+  directly. Neither has a documented public API — polite page reads only.'
+- 'docs/agents/source-families.md Tier 2: ''Curated object/monument records across the Mediterranean (overlaps the Sicily material directly) —
+  Terms to confirm at onboarding'''
+status: decided
+step: override
+decision: 'Both Tier 2 citable families, facts-only: cite {cite:mwnf-discover-islamic-art <id>} and {cite:qantara-med <id>}; terms unconfirmed
+  — record text never republished'
+correct_outcome: mwnf-qantara-tier2-facts-only
+wrong_outcome: register-tier2-facts-only
+confidence: 1
+reversible: true
+rationale: dec-210 answered a source-onboarding question with rule-source-families, whose pattern 'families? of sources?'/'source famil' matched
+  the phrase 'source family' describing the candidate itself. The rule governs how attestations are COUNTED (one family = one attestation), not
+  whether a family may be registered — same substring false-positive class as dec-189->190 and dec-194..200->201..206. The correct ruling applies
+  the eight onboarding criteria in docs/agents/source-families.md; the assessment's recommended tier and posture is adopted (non-commercial or
+  unclear terms => facts-only permanently; robots or login barriers cap the channel, not necessarily the tier).
+supersedes: dec-20261108-210
+override_reason:
+  category: rule-false-positive
+  detail: rule-source-families matched 'source family/families' inside an onboarding question about registering a family, not an attestation-counting
+    question. Needs question-domain or intent gating — third instance of this false-positive class today.
+  overridden_by: devin-web-sources
+signals:
+  matched_rule_id: rule-source-families
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: devin-web-sources
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-08'
+    by: devin-web-sources
+    note: override committed; family registration follows in the same lane commit
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+  - rule-source-families
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

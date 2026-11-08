@@ -1,0 +1,41 @@
+id: dec-20261108-207
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: b69630cb5faa
+lane: "web-sources"
+class: "process"
+modality: "website"
+domain: "sources"
+mode: "conservative"
+question: "Should the Arabic Papyrology Database (now at apd.gwi.uni-muenchen.de/apd/, LMU Munich, ISAP patronage, Trismegistos partner) be onboarded as a citable source family for documentary evidence of early Islamic Egypt, and at what tier?"
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:apd <document-id>}"
+  - "Tier 2 citable family, facts-only"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "Assessment 2026-11-08: authority strong (LMU Munich institute + ISAP + Trismegistos partnership); citability good (13,586 document records with inventory numbers and stable JSP pages, GET-searchable asearch.jsp confirmed live); terms: project page states non-commercial, access free — facts-only posture; structure: JSP search forms + document pages, no bulk API; coverage fit unique (4,476 full texts, 7,015 typed documents — letters, contracts, tax receipts from Fustat and Egypt c.7th-16th c., evidence type absent from the corpus); corroboration highest for practice/events/places in early Islamic Egypt; script coverage includes Arabic texts with transliteration and lemmatisation; longevity strong (university host, continuously enlarged). Legacy domain arabicpapyrology.org is dead (connection failure all variants, 2026-11-08) — the LMU host is canonical."
+  - "docs/agents/source-families.md Tier 2: '13,543 documents ... everyday life for Fustat, practice, events — Free; Trismegistos ids as anchors'"
+status: decided
+step: rule
+decision: "independence is counted by source FAMILIES, not documents: ten mirrors or republications of one family are ONE attestation, not ten; two attestations require two independent families; a copied single-source 'second source' never counts"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-source-families): Muse doctrine §5 (independence is source families) + faith two-family rule."
+rule: "Muse doctrine §5 (independence is source families) + faith two-family rule"
+rule_id: "rule-source-families"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-source-families
+chain:
+  depth: 0
+  root_id: "rule:rule-source-families"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "e4688b5a33bf1212"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-source-families"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

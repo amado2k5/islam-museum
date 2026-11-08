@@ -1,0 +1,33 @@
+id: dec-20261108-198
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: ebd1625cffe7
+lane: "web-sources"
+class: "process"
+modality: "website"
+domain: "governance"
+mode: "conservative"
+question: "Should the UNESCO World Heritage Centre property records and Documents pages (whc.unesco.org — per-property dossiers: nomination files, ICOMOS evaluations, criteria, inscription dates) be onboarded as a citable source family for listed Islamic-world properties, and at what tier? Assessment 2026-11-08: authority strong (UNESCO); citability excellent (property numbers /en/list/<n> and document ids /document/<n>); terms: public documents published for consultation; access: all HTML pages answer 403 Cloudflare challenge to non-browser clients on 2026-11-08 (robots file itself served 200); Wayback Machine holds snapshots; coverage fit moderate (only WHC-listed properties, a subset of the building backlog); corroboration high (expert-written dated dossiers); Arabic-first moderate; longevity strong."
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:whc-unesco <property-number>} or document id; PDFs stay out of git, facts rewritten in own words"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "whc.unesco.org/en/list/145 and /document/152171 returned 403 challenge pages to the harvest User-Agent on 2026-11-08 — recorded, not bypassed"
+  - "docs/agents/source-families.md Tier 1: 'Nomination files and ICOMOS evaluations: expert-written, dated, sourced property dossiers. Public documents. Anchor: property number'"
+status: founder-docket
+step: policy-gate
+decision: "external communications, commissions and commitments are founder-only — negation tricks must not disarm this gate"
+confidence: n/a
+reversible: false
+rationale: ""
+gate: "nd-outreach"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-outreach
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["nd-outreach"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

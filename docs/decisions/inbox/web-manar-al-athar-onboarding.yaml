@@ -1,0 +1,15 @@
+id: web-manar-al-athar-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should Manar al-Athar (manar.arch.ox.ac.uk — University of Oxford digital archive of ~83,000 labelled photographs of Islamic-period archaeological sites, buildings and art, bilingual labels) be onboarded as a citable source family for building and site records, and at what tier?"
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:manar-al-athar <record-id>} — captions and identifications only, images never ingested"
+  - "Tier 2 citable family, facts-only"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "Assessment 2026-11-08: authority strong (University of Oxford, Faculty of Classics, founded by Judith McKenzie); citability good (per-image records with labels, geographic and advanced search); terms: site states images free for research/teaching/publication with source acknowledgement; family catalogue records CC BY-NC-SA 2.0 UK → NC means facts-only permanently; structure: HTML photo archive with search, no API; coverage fit high (photographic evidence of what stands where — buildings, mosaics, inscriptions across the Islamicate world c.300BC onward); corroboration high for building present-state and identification claims; bilingual Arabic/English labels — rare Arabic-first asset; longevity strong (university host, continuously developed). Live host confirmed 200 on 2026-11-08 (manar.arch.ox.ac.uk; legacy manar-al-athar.ox.ac.uk and .org domains dead); no robots.txt found."
+  - "docs/agents/source-families.md Tier 2: '83,000+ photographs of Islamic archaeology sites with identifications — CC BY-NC-SA 2.0 UK → facts-only; use as evidence for what stands where, never ingest images'"
+proposed_action: "register source/manar-al-athar facts-only; pilot on 10 building records"
+source: "Muse web-sources lane assessment 2026-11-08"
