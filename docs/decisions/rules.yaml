@@ -36,7 +36,7 @@ safe_proceed:
   engineering: true
   process: true
   governance: true      # deploy→cadence proposal, governance→proposal — advisory, reversible
-  # money-outreach removed 2026-11-08 (founder ruling, dec-20261108-160):
+  # money-outreach removed 2026-11-08 (founder direct answer 3 (2026-11-08): money-outreach removed from safe_proceed):
   # outreach and institutional representation (UNESCO, DPGA, ICDE,
   # partnerships) require the founder's direct manual sign-off every time.
 
@@ -86,7 +86,7 @@ autonomous:
 
 # A question that explicitly reserves the decision to the founder routes to the
 # docket before any rule can answer it — the asker deferred, so we defer.
-founder_reserved: "founder.{0,40}(decides|decide|will decide|should decide|to decide|approves?|ruling|signs? off)|reserved to the founder|founder.only decision|only the founder"
+founder_reserved: "founder.{0,40}(decides|decide|will decide|should decide|to decide|approves?|ruling|signs? off)|reserved to the founder|founder.only decision|only the founder|pending.{0,20}founder|founder.{0,20}(decision|input|sign-?off|review)|awaiting.{0,15}founder|needs? the founder"
 
 gates:
   non_delegable:
@@ -450,7 +450,7 @@ rules:
   - id: rule-conflict-preserve
     domain: dates
     priority: 21
-    pattern: "conflicting (date|year|reading|account|source|version|report|ruling|decision|authority|value)|accounts? (conflict|differ|disagree|contradict)|sources? (conflict|disagree|differ|contradict)|readings? (conflict|differ|disagree|contradict)|dates? (conflict|differ|disagree|contradict)|sources? .{0,20}(give|gives|report|reports|show|shows|have|has).{0,15}different|different (death|birth|date|year|reading|account|version|name|spelling|date of)|discrepanc|contradict|both (dates|years|readings)|which (date|year|reading|version)|which (date|year|reading|version) (is correct|to use|wins|prevails)"
+    pattern: "conflicting (date|year|reading|account|source|version|report|ruling|decision|authority|value)|accounts? (conflict|differ|disagree|contradict)|sources? (conflict|disagree|differ|contradict)|readings? (conflict|differ|disagree|contradict)|dates? (conflict|differ|disagree|contradict)|sources? .{0,20}(give|gives|report|reports|show|shows|have|has).{0,15}different|different (death|birth|date|year|reading|account|version|name|spelling|date of)|discrepanc|contradict|both (dates|years|readings)|which (date|year|reading|version)|which (date|year|reading|version) (is correct|to use|wins|prevails)|which.{0,25}(date|year|hijri|spelling|name|reading|version).{0,60}(carry|record|represent|keep|use|choose|pick|hold)|how should.{0,30}conflict|conflict.{0,30}(represent|carry|record|handle)|(gives|reports|records|shows|lists|says|states).{0,50}(while|whereas|but|and).{0,50}(gives|reports|records|shows|lists|says|states)"
     decision: "conflicting dates, names or readings are preserved, not resolved silently: record every reading attributed to its source, mark the field debated where the sources disagree, and follow the cited authority the record names"
     cite: "commit history: Tansen, al-Yaqubi, wave-189/191 date conflicts 'recorded both ways, attributed'"
     confidence: 0.9

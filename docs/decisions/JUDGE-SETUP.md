@@ -12,7 +12,7 @@ Ollama is installed and serving the OpenAI-compatible API at
 `http://localhost:11434/v1`. Models already present: `llama3.1:8b`,
 `qwen2.5-coder:{1.5b,7b,14b,32b}`, `nomic-embed-text`.
 
-**Recommended judge: `qwen3:32b`** (~20 GB, pulled 8 Nov 2026) — strongest
+**Recommended judge: `qwen2.5:32b`** (~20 GB, pulled 8 Nov 2026) — strongest
 local reasoning for doctrine-heavy questions. `llama3.1:8b` works as a fast
 fallback. Models live in `~/.ollama` on the internal disk; the microSD
 (`/Volumes/exmicroSD`) has 151 GB free if the internal disk ever gets tight —
@@ -24,7 +24,7 @@ redirect storage.
 ```bash
 # Point the engine at the local endpoint (Ollama OpenAI-compat):
 export DECIDE_JUDGE_URL=http://localhost:11434/v1/chat/completions
-export DECIDE_JUDGE_MODEL=qwen3:32b        # or llama3.1:8b for speed
+export DECIDE_JUDGE_MODEL=qwen2.5:32b        # or llama3.1:8b for speed
 
 # Single question:
 echo '{"question":"...","lane":"..."}' | npx tsx scripts/decisions/decide.ts --json
@@ -43,7 +43,7 @@ export DECIDE_JUDGE_URL=http://localhost:1234/v1/chat/completions
 export DECIDE_JUDGE_MODEL=<model-id>
 
 # Or any shell command that reads JSON on stdin and prints JSON on stdout:
-export DECIDE_JUDGE_CMD="ollama run qwen3:32b"
+export DECIDE_JUDGE_CMD="ollama run qwen2.5:32b"
 ```
 
 ## Bidirectional evaluation (default)
@@ -82,6 +82,6 @@ parallel. Full math and roadmap: `docs/engineering/17-decision-approver.md` §5.
 ## For other builders/agents
 
 Any machine can run the same setup: `brew install ollama && ollama serve &&
-ollama pull qwen3:32b` (or any instruct model ≥14B), then set the two env vars.
+ollama pull qwen2.5:32b` (or any instruct model ≥14B), then set the two env vars.
 No repository code changes are needed — the judge is pure configuration.
 Without the env vars the engine behaves exactly as before (deterministic only).

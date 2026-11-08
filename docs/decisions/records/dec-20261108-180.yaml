@@ -1,0 +1,44 @@
+id: dec-20261108-180
+kind: override
+date: '2026-11-08'
+question_hash: dd5377778a7c
+lane: docs
+class: process
+modality: repo
+domain: process
+mode: conservative
+question: docs/coverage.md is stale after my entity batch — regenerate it with the coverage script or hand-edit the counts?
+status: decided
+step: override
+decision: Regenerate docs/coverage.md programmatically rather than hand-editing — generated docs are rebuilt by the pipeline, never edited by hand.
+correct_outcome: founder-affirmative-ruling-enacted
+wrong_outcome: safe-default-hold-left-unenacted
+confidence: 1
+reversible: true
+rationale: 'The founder verdict on dec-20261108-114 was approved — an affirmative ruling on a safe-default hold. Enacted as override for symmetry with the rejected-verdict overrides (audit L4): approved rulings become citable authority too.'
+supersedes: dec-20261108-114
+override_reason:
+  category: founder-verdict
+  detail: The founder verdict on dec-20261108-114 was approved — an affirmative ruling on a safe-default hold. Enacted as override for symmetry with the rejected-verdict overrides (audit L4)
+  overridden_by: second-opinion-audit
+signals:
+  matched_rule_id: null
+  correct_rule_id: null
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

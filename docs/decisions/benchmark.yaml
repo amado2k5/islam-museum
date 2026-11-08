@@ -363,3 +363,11 @@ cases:
     expect: rule
     rule_id: rule-source-families
     note: "'often mirrors' must not match 'ten mirrors' — word boundary regression (audit F5)"
+  - q: "One source dates the battle to 25 Ramadan and another to 15 Ramadan — which Hijri date should the record carry and how should the conflict be represented?"
+    expect: rule
+    rule_id: rule-conflict-preserve
+    note: "dec-164/174 regression: gives-while-gives + which-Hijri-date phrasings must hit conflict-preserve, not merge/bug-fix"
+  - q: "The main text conflicts on the spelling of the name — which spelling should the record carry?"
+    expect: rule
+    rule_id: rule-conflict-preserve
+    note: "audit M4 probe: spelling conflict is content doctrine, not git-merge"

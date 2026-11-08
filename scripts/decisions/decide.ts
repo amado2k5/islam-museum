@@ -505,7 +505,10 @@ export function questionText(q: Question): string {
 export function decide(q: Question, precedents: Precedent[], mode?: "autonomous" | "conservative", semantic?: SemanticContext | null): Record<string, unknown> {
   const rs = loadRuleset();
   const m = mode ?? rs.mode ?? "conservative";
-  const text = questionText(q);
+  // Gates, rules, founder-reserved and domain matching score the QUESTION only —
+  // options/evidence/proposed_action are asker-controlled and must not steer the
+  // outcome (same anti-stuffing rule as precedent scoring, audit H5).
+  const text = q.question ?? "";
   const domain = classifyDomain(text, rs);
   const trace: TraceStep[] = [{ stage: "domain", result: domain }, { stage: "mode", result: m }];
 
@@ -899,7 +902,7 @@ export function advisory(q: Question, precedents: Precedent[], mode?: "autonomou
 //   DECIDE_JUDGE_CMD  — shell command; receives the question payload as JSON on
 //                       stdin, must print a JSON object on stdout:
 //                       {recommendation, confidence?, evidence?[], rationale?}
-//                       e.g. DECIDE_JUDGE_CMD="ollama run qwen3:32b"
+//                       e.g. DECIDE_JUDGE_CMD="ollama run qwen2.5:32b"
 //   DECIDE_JUDGE_URL  — OpenAI-compatible chat endpoint (Ollama, LM Studio):
 //                       POST {model: DECIDE_JUDGE_MODEL ?? "local", messages:
 //                       [system, user(payload)]} → parses the JSON reply.

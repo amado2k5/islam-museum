@@ -1,0 +1,44 @@
+id: dec-20261108-178
+kind: override
+date: '2026-11-08'
+question_hash: 2c8b6392f600
+lane: azhar-academy
+class: content
+modality: repo
+domain: content
+mode: conservative
+question: The Azhar academy book's chapter on Ibtida' in religion overlaps the existing concept/bida entity — should the chapter's content extend concept/bida in place, or warrant a separate entity?
+status: decided
+step: override
+decision: Extend the existing concept/bida entity rather than mint a duplicate — overlapping subjects merge into the richer record with the new material cited there.
+correct_outcome: reuse-or-create-correctly-applied
+wrong_outcome: options-stuffed-rule-match
+confidence: 1
+reversible: true
+rationale: dec-167 cited rule-create-entity via option text only; post-H5 the engine returns safe-default. Override restores the reuse/extend doctrine for the ibtida-bida overlap.
+supersedes: dec-20261108-167
+override_reason:
+  category: rule-missing
+  detail: dec-167 cited rule-create-entity via option text only; post-H5 the engine returns safe-default. Override restores the reuse/extend doctrine for the ibtida-bida overlap.
+  overridden_by: second-opinion-audit
+signals:
+  matched_rule_id: rule-create-entity
+  correct_rule_id: null
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

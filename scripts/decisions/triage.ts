@@ -12,7 +12,7 @@
  *
  * Usage:
  *   DECIDE_JUDGE_URL=http://localhost:11434/v1/chat/completions \
- *   DECIDE_JUDGE_MODEL=qwen3:32b \
+ *   DECIDE_JUDGE_MODEL=qwen2.5:32b \
  *   npx tsx scripts/decisions/triage.ts [--write docs/decisions/triage.md]
  */
 import { readFileSync, readdirSync, writeFileSync, existsSync } from "node:fs";
