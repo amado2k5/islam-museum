@@ -19,7 +19,7 @@ const ROOT = process.cwd();
 const PERSONS = join(ROOT, "data/person");
 const WORKS = join(ROOT, "data/work");
 const AUDIT = join(ROOT, "docs/decisions/tradition-attestation-audit.json");
-const OUT = join(ROOT, "docs/decisions/tradition-packets.jsonl");
+const OUT = arg("--out") ?? join(ROOT, "docs/decisions/tradition-packets.jsonl");
 const DEFAULT_TIERS = ["default-only", "unknown-only", "missing"];
 
 const ENUM = ["sunni","sunni-hanafi","sunni-maliki","sunni-shafii","sunni-hanbali",
