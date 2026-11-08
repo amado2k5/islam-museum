@@ -1,28 +1,48 @@
 id: dec-20261108-031
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: a7ad3e2d5ac5
-lane: "seed"
-class: "uncategorised"
-modality: "repo"
-domain: "content"
-mode: "conservative"
-question: "Do the *kadhib*, *luzum*, *qadar*, *ri'aya* or Yawm Arafa concepts describe inventions or transmissions for this browser?"
-options:
+lane: seed
+class: uncategorised
+modality: repo
+domain: content
+mode: conservative
+question: Do the *kadhib*, *luzum*, *qadar*, *ri'aya* or Yawm Arafa concepts
+  describe inventions or transmissions for this browser?
+options: null
 status: decided
 step: rule
-decision: "lanes process every queue item in order — nobody is skipped; what cannot be built is logged unidentifiable or held with its reason, never passed over silently"
+decision: lanes process every queue item in order — nobody is skipped; what
+  cannot be built is logged unidentifiable or held with its reason, never passed
+  over silently
 confidence: 0.9
 reversible: true
-rationale: "Answered by a standing repository rule (rule-nothing-skipped): Method page: 'lanes and waves with nobody skipped' + modern-figures §2 no-skip rule."
-rule: "Method page: 'lanes and waves with nobody skipped' + modern-figures §2 no-skip rule"
-rule_id: "rule-nothing-skipped"
-review_sampled: false
+rationale: "Answered by a standing repository rule (rule-nothing-skipped):
+  Method page: 'lanes and waves with nobody skipped' + modern-figures §2 no-skip
+  rule."
+rule: "Method page: 'lanes and waves with nobody skipped' + modern-figures §2
+  no-skip rule"
+rule_id: rule-nothing-skipped
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
   - rule:rule-nothing-skipped
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-nothing-skipped"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - rule-nothing-skipped
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: rejected
+    at: 2026-11-08
+    by: founder
+    note: Lane-process rules cannot resolve content definitions
+  founder_override: false
+  calibration_weight: 1

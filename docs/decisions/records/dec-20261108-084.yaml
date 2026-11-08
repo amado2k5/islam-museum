@@ -1,28 +1,49 @@
 id: dec-20261108-084
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: f896093549cd
-lane: "process-pilot"
-class: "process"
-modality: "repo"
-domain: "process"
-mode: "conservative"
-question: "origin/main advanced 12 commits while my branch was open, including edits to the same lane progress file — rebase onto main, merge main into my branch, or restart the branch?"
-options:
+lane: process-pilot
+class: process
+modality: repo
+domain: process
+mode: conservative
+question: origin/main advanced 12 commits while my branch was open, including
+  edits to the same lane progress file — rebase onto main, merge main into my
+  branch, or restart the branch?
+options: null
 status: decided
 step: rule
-decision: "deduplicate: verify identity against the sources first; if it is one entity, merge into the richer record and keep the other id under aliases — never delete blindly; if they are distinct, keep both"
+decision: "deduplicate: verify identity against the sources first; if it is one
+  entity, merge into the richer record and keep the other id under aliases —
+  never delete blindly; if they are distinct, keep both"
 confidence: 0.9
 reversible: true
-rationale: "Answered by a standing repository rule (rule-duplicate-alias): AGENTS.md (reuse before create; a duplicate becomes an alias of the richer entity)."
-rule: "AGENTS.md (reuse before create; a duplicate becomes an alias of the richer entity)"
-rule_id: "rule-duplicate-alias"
-review_sampled: false
+rationale: "Answered by a standing repository rule (rule-duplicate-alias):
+  AGENTS.md (reuse before create; a duplicate becomes an alias of the richer
+  entity)."
+rule: AGENTS.md (reuse before create; a duplicate becomes an alias of the richer
+  entity)
+rule_id: rule-duplicate-alias
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
   - rule:rule-duplicate-alias
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-duplicate-alias"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - rule-duplicate-alias
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: rejected
+    at: 2026-11-08
+    by: founder
+    note: Entity-dedup governs the knowledge graph, not git rebase operations
+  founder_override: false
+  calibration_weight: 1

@@ -1,30 +1,47 @@
 id: dec-20261108-053
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: c4e1ee12ba83
-lane: "seed"
-class: "uncategorised"
-modality: "repo"
-domain: "safety"
-mode: "conservative"
-question: "Does the primary text establish the hollow cataract needle as an eligible Sunni Muslim invention?"
-options:
+lane: seed
+class: uncategorised
+modality: repo
+domain: safety
+mode: conservative
+question: Does the primary text establish the hollow cataract needle as an
+  eligible Sunni Muslim invention?
+options: null
 status: decided
 step: precedent
-decision: "apply precedent D-110 (decision-record): Invention69: Ammar al-Mawsili's described hollow cataract needle"
+decision: "apply precedent D-110 (decision-record): Invention69: Ammar
+  al-Mawsili's described hollow cataract needle"
 confidence: 0.8
 reversible: true
-rationale: "Question overlaps precedent D-110 recorded in docs/inventions/decisions.md. Conservative application; founder audits the sample."
+rationale: Question overlaps precedent D-110 recorded in
+  docs/inventions/decisions.md. Conservative application; founder audits the
+  sample.
 precedent:
-  id: "D-110"
-  source_file: "docs/inventions/decisions.md"
+  id: D-110
+  source_file: docs/inventions/decisions.md
   score: 0.593
-review_sampled: false
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
   - precedent:D-110
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":0,"rule_ids_fired":[],"precedent_distance":0.407,"top_precedent_id":"D-110","top_precedent_status":"agent-ruled-delegated","founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  rule_ids_fired: []
+  precedent_distance: 0.407
+  top_precedent_id: D-110
+  top_precedent_status: agent-ruled-delegated
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Precedent correctly applied
+  founder_override: false
+  calibration_weight: 1

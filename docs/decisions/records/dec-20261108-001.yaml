@@ -1,22 +1,32 @@
 id: dec-20261108-001
-date: "2026-11-08"
-lane: "inventions"
-class: "invention"
-question: "Should invention browser records live in a new class or the existing ideas wing?"
+date: 2026-11-08
+lane: inventions
+class: invention
+question: Should invention browser records live in a new class or the existing
+  ideas wing?
 options:
-  - "new class"
-  - "existing ideas wing kind"
+  - new class
+  - existing ideas wing kind
 status: decided
 step: precedent
-decision: "apply precedent D-001@inventions-decisions (decision-record): Use the existing `ideas` wing"
+decision: "apply precedent D-001@inventions-decisions (decision-record): Use the
+  existing `ideas` wing"
 confidence: 0.95
 reversible: true
-rationale: "Question overlaps precedent D-001@inventions-decisions recorded in docs/inventions/decisions.md. Conservative application; founder audits the sample."
+rationale: Question overlaps precedent D-001@inventions-decisions recorded in
+  docs/inventions/decisions.md. Conservative application; founder audits the
+  sample.
 precedent:
-  id: "D-001@inventions-decisions"
-  source_file: "docs/inventions/decisions.md"
+  id: D-001@inventions-decisions
+  source_file: docs/inventions/decisions.md
   score: 0.625
-review_sampled: false
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
+calibration_log:
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Consistent with dec-069 ratification

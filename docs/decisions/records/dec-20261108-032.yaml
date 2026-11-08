@@ -1,28 +1,48 @@
 id: dec-20261108-032
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: c4bc32537ebd
-lane: "seed"
-class: "uncategorised"
-modality: "repo"
-domain: "dates"
-mode: "conservative"
-question: "Do the linked early-chronology museum records identify an invention lead?"
-options:
+lane: seed
+class: uncategorised
+modality: repo
+domain: dates
+mode: conservative
+question: Do the linked early-chronology museum records identify an invention lead?
+options: null
 status: decided
 step: rule
-decision: "dates that are impossible on their face — born/died outside the person's documented activity window or contradicted by their own sourced events — are stripped entirely: the record carries no born/died blocks rather than wrong ones; never repaired by invention"
+decision: "dates that are impossible on their face — born/died outside the
+  person's documented activity window or contradicted by their own sourced
+  events — are stripped entirely: the record carries no born/died blocks rather
+  than wrong ones; never repaired by invention"
 confidence: 0.9
 reversible: true
-rationale: "Answered by a standing repository rule (rule-impossible-dates): R1 rulings 1 Nov 2026: Hadji Kamlon's queue dates 1890–1920 impossible vs documented 1948–55 rebellion — record carries no born/died blocks."
-rule: "R1 rulings 1 Nov 2026: Hadji Kamlon's queue dates 1890–1920 impossible vs documented 1948–55 rebellion — record carries no born/died blocks"
-rule_id: "rule-impossible-dates"
-review_sampled: false
+rationale: "Answered by a standing repository rule (rule-impossible-dates): R1
+  rulings 1 Nov 2026: Hadji Kamlon's queue dates 1890–1920 impossible vs
+  documented 1948–55 rebellion — record carries no born/died blocks."
+rule: "R1 rulings 1 Nov 2026: Hadji Kamlon's queue dates 1890–1920 impossible vs
+  documented 1948–55 rebellion — record carries no born/died blocks"
+rule_id: rule-impossible-dates
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
   - rule:rule-impossible-dates
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-impossible-dates"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - rule-impossible-dates
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Chronology records must strip impossible dates, not invent fixes
+  founder_override: false
+  calibration_weight: 1

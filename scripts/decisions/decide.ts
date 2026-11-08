@@ -291,6 +291,7 @@ interface StoredRecord extends Question {
   rationale?: string; needs_precedent?: boolean; confidence?: number; expires_at?: string;
   kind?: string; supersedes?: string; override_reason?: { detail?: string };
   decided_by?: { agent?: string; pipeline?: string };
+  calibration_log?: { founder_resolution?: { verdict?: string } | null };
 }
 
 function readRecords(): StoredRecord[] {
@@ -328,6 +329,12 @@ export function loadLedgerPrecedents(): Precedent[] {
       && (r.kind === "override" || r.decided_by?.pipeline === "scripts/decisions/decide.ts")
       && !(r.id && superseded.has(r.id))
       && !(r.expires_at && r.expires_at < today)) // expired rulings need re-review, not reuse
+    // Founder-labelled outcomes gate authority: a rejected ruling is dead
+    // precedent (the label stream exists to kill wrong decisions — the same
+    // self-reinforcement class as dec-014), and a held ruling is unratified.
+    // Unlabeled and approved records keep depth-0 authority.
+    .filter((r) => !["rejected", "held"].includes(
+      r.calibration_log?.founder_resolution?.verdict ?? ""))
     .map((r) => ({
       id: r.id ?? "ledger",
       kind: "ledger-record",

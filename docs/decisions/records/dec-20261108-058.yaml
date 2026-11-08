@@ -1,28 +1,49 @@
 id: dec-20261108-058
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: 5948bb983792
-lane: "seed"
-class: "uncategorised"
-modality: "repo"
-domain: "sources"
-mode: "conservative"
-question: "How should al-Maqrizi's statement that al-Walid ibn Abd al-Malik was \"the first to build a maristan in Islam\" be recorded, when Rufayda's tent is already published as a candidate first and the modern sources place the house in Damascus without a primary citation?"
-options:
+lane: seed
+class: uncategorised
+modality: repo
+domain: sources
+mode: conservative
+question: How should al-Maqrizi's statement that al-Walid ibn Abd al-Malik was
+  "the first to build a maristan in Islam" be recorded, when Rufayda's tent is
+  already published as a candidate first and the modern sources place the house
+  in Damascus without a primary citation?
+options: null
 status: decided
 step: rule
-decision: "any source may be read and its facts enter data/ with a citation; Wikipedia and Wikidata are pointers for entity facts taken from a recorded revision — never sources for prose or a work's content; media only from the licence whitelist"
+decision: any source may be read and its facts enter data/ with a citation;
+  Wikipedia and Wikidata are pointers for entity facts taken from a recorded
+  revision — never sources for prose or a work's content; media only from the
+  licence whitelist
 confidence: 0.85
 reversible: true
-rationale: "Answered by a standing repository rule (rule-source-admission): docs/sources-policy.md + docs/agents/source-families.md."
-rule: "docs/sources-policy.md + docs/agents/source-families.md"
-rule_id: "rule-source-admission"
-review_sampled: false
+rationale: "Answered by a standing repository rule (rule-source-admission):
+  docs/sources-policy.md + docs/agents/source-families.md."
+rule: docs/sources-policy.md + docs/agents/source-families.md
+rule_id: rule-source-admission
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
   - rule:rule-source-admission
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-source-admission"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - rule-source-admission
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Source-admission rules dictate how to record disputed claims safely
+  founder_override: false
+  calibration_weight: 1

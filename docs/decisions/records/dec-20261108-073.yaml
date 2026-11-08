@@ -1,28 +1,49 @@
 id: dec-20261108-073
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: f6d0d2e200e2
-lane: "process-pilot"
-class: "engineering"
-modality: "repo"
-domain: "governance"
-mode: "conservative"
-question: "My feature adds /api/v1/inventions/timeline.json — update site/public/openapi/v1.json and llms.txt in the same commit, or ship the endpoint and docs in a follow-up?"
-options:
+lane: process-pilot
+class: engineering
+modality: repo
+domain: governance
+mode: conservative
+question: My feature adds /api/v1/inventions/timeline.json — update
+  site/public/openapi/v1.json and llms.txt in the same commit, or ship the
+  endpoint and docs in a follow-up?
+options: null
 status: decided
 step: rule
-decision: "every feature is graph + API + search: records stay in the one graph, the class is exported in the static API, pages are search-indexed, and the feature is registered in docs/site/browsers.md, the plan index, the roadmap, docs/agents/lanes.md and docs/status.md — label anything submission-impacting"
+decision: "every feature is graph + API + search: records stay in the one graph,
+  the class is exported in the static API, pages are search-indexed, and the
+  feature is registered in docs/site/browsers.md, the plan index, the roadmap,
+  docs/agents/lanes.md and docs/status.md — label anything submission-impacting"
 confidence: 0.85
 reversible: true
-rationale: "Answered by a standing repository rule (rule-feature-graph-api-search): AGENTS.md (every feature is graph, API and search) + docs/ai-change-gates.md §3."
-rule: "AGENTS.md (every feature is graph, API and search) + docs/ai-change-gates.md §3"
-rule_id: "rule-feature-graph-api-search"
-review_sampled: false
+rationale: "Answered by a standing repository rule
+  (rule-feature-graph-api-search): AGENTS.md (every feature is graph, API and
+  search) + docs/ai-change-gates.md §3."
+rule: AGENTS.md (every feature is graph, API and search) + docs/ai-change-gates.md §3
+rule_id: rule-feature-graph-api-search
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
   - rule:rule-feature-graph-api-search
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-feature-graph-api-search"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - rule-feature-graph-api-search
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Applies to API endpoints/specs
+  founder_override: false
+  calibration_weight: 1

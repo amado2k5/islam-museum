@@ -303,3 +303,24 @@ cases:
   - q: "A minor caption typo"
     expect: default
     note: "F5 FP probe: 'minor' as adjective must not fire rule-kids-wing"
+  # --- post-label FP probes (first founder verdict batch — 24 ruled records) ---
+  - q: "Can chess or its variants reported in Muslim sources enter the invention browser?"
+    expect: default
+    note: "post-label FP: 'variants' contains 'aria' — must not fire rule-accessibility"
+  - q: "Do the kadhib, luzum, qadar or ri'aya concepts describe inventions or transmissions?"
+    expect: default
+    note: "post-label FP: 'transmissions...browser' must not fire rule-nothing-skipped ('miss'+'row' substrings)"
+  - q: "Can the Fakhri sextant or the shamila be promoted to invention records?"
+    expect: precedent
+    note: "post-label: delegated ruling D-109 scopes exactly this — sextant in scope, shamila/mural-quadrant out"
+  - q: "origin/main moved while my branch was open — rebase onto main or merge main into my branch?"
+    expect: rule
+    rule_id: rule-merge
+    note: "post-label FP: entity-dedup must not answer git merge questions ('merge...into')"
+  - q: "Two sessions edited the same entity file in parallel worktrees — merge both versions field-by-field or keep mine?"
+    expect: default
+    note: "post-label FP: 'same entity file' must not fire rule-duplicate-alias; hold is the honest answer"
+  - q: "My UI change adds a string — ship en.yaml and ur.yaml translations in the same commit or the next batch?"
+    expect: rule
+    rule_id: rule-i18n-same-commit
+    note: "post-label: ui-no-deviation governs layout, not i18n timing — dedicated rule answers"

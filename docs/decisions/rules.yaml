@@ -147,7 +147,7 @@ domains:
   - id: i18n
     pattern: "arabic|english|urdu|language|translation|rtl|locale|i18n|label\\.ar|summary\\.ar"
   - id: accessibility
-    pattern: "accessib|wcag|alt text|screen.?reader|keyboard|contrast|aria|focus"
+    pattern: "accessib|wcag|alt text|screen.?reader|keyboard|contrast|\\baria\\b|focus"
   - id: process
     pattern: "commit|merge|rebase|branch|pull request|\\bpr\\b|batch|canary|lane|worktree|push|trailer|changelog|version"
   - id: engineering
@@ -180,7 +180,7 @@ rules:
   - id: rule-duplicate-alias
     domain: content
     priority: 12
-    pattern: "duplicate|dedup|same (man|woman|person|entity|record|work|place|individual|thing|mosque|building)|merge.{0,30}(into|alias|richer)|one record or two|(make|add|keep|use|create).{0,20}alias|alias.{0,30}(of|to|for)"
+    pattern: "duplicate|dedup|same (man|woman|person|entity|record|work|place|individual|thing|mosque|building)\\b(?!\\s+(file|files|branch|branches|commit|commits|worktree|worktrees|session|sessions|version|versions|tree|repo|repository|yaml|yml|pr|pull request|lane|progress))|one record or two|(make|add|keep|use|create|turn).{0,20}alias|alias.{0,30}(of|to|for)|merg(e|ing).{0,50}(alias|duplicat|dedup|richer|canonical|one record|into (the )?(richer|canonical|existing|primary) (record|entity|entry|work)|same (record|entity|person|work|entry|thing))"
     decision: "deduplicate: verify identity against the sources first; if it is one entity, merge into the richer record and keep the other id under aliases — never delete blindly; if they are distinct, keep both"
     cite: "AGENTS.md (reuse before create; a duplicate becomes an alias of the richer entity)"
     confidence: 0.9
@@ -191,6 +191,14 @@ rules:
     pattern: "(which|what) language|language.{0,25}(first|primary|start|write|draft)|arabic.{0,25}(first|primary)|prose.{0,30}(first|language)"
     decision: "Arabic first (label.ar + summary.ar required); English and Urdu in the same commit"
     cite: "docs/language.md + AGENTS.md"
+    confidence: 0.9
+    reversible: true
+  - id: rule-i18n-same-commit
+    domain: i18n
+    priority: 12
+    pattern: "(en|ur)\\.yaml|i18n/(en|ur)\\.yaml|translat\\w*.{0,40}(same commit|next batch|follow.?up|later)|(same commit|next batch|follow.?up|later).{0,40}translat"
+    decision: "every new prose file, UI string, menu item and component ships with its English (content/en/, i18n/en.yaml) and Urdu (content/ur/, i18n/ur.yaml) translation in the same commit, marked published with a provenance block; a change that cannot include its translations says so in the commit and progress file"
+    cite: "AGENTS.md (Arabic first, English and Urdu always)"
     confidence: 0.9
     reversible: true
   - id: rule-batch-cap
@@ -316,7 +324,7 @@ rules:
   - id: rule-accessibility
     domain: accessibility
     priority: 27
-    pattern: "(accessib|wcag|alt.?text|screen.?reader|keyboard|contrast|aria)"
+    pattern: "(accessib|wcag|alt.?text|screen.?reader|keyboard|contrast|\\baria\\b)"
     decision: "WCAG 2.2 AA: alt text required on every image, pages readable without JavaScript, islands lazy-load"
     cite: "AGENTS.md (accessibility rule)"
     confidence: 0.9
@@ -472,7 +480,7 @@ rules:
   - id: rule-harvest-include
     domain: process
     priority: 24
-    pattern: "harvest|extraction|transcript|lecture audio|rants?|off-topic|garbled|contested window|opinions"
+    pattern: "\\b(?:harvest\\w*|extraction|transcripts?|lecture audio|rants?|off-topic|garbled|contested windows?|opinions?)\\b"
     decision: "harvest inclusively: any intelligible topic is included, contested windows are included as the speaker said them, opinions/rants are categorised by closest fit, garbled windows are discarded and reported — nothing silently dropped"
     cite: "founder harvest rulings 25 Oct 2026 (docs(harvest) commits)"
     confidence: 0.85
@@ -480,7 +488,7 @@ rules:
   - id: rule-nothing-skipped
     domain: process
     priority: 25
-    pattern: "skip|no-skip|nobody skipped|miss.{0,15}(item|row|entry)|bypass|queue order"
+    pattern: "\\bskip(?:s|ped|ping)?\\b|no-skip|nobody skipped|\\bmiss(?:ed|ing|es)?\\b.{0,15}\\b(?:items?|rows?|entries|records?|questions?|one|them|it)\\b|\\bbypass\\w*\\b|queue order"
     decision: "lanes process every queue item in order — nobody is skipped; what cannot be built is logged unidentifiable or held with its reason, never passed over silently"
     cite: "Method page: 'lanes and waves with nobody skipped' + modern-figures §2 no-skip rule"
     confidence: 0.9
@@ -504,7 +512,7 @@ rules:
   - id: rule-ui-no-deviation
     domain: engineering
     priority: 28
-    pattern: "\\bui\\b|user interface|layout|component|visual design|deviat.{0,20}(from )?(the )?(current|existing)|redesign|restyle"
+    pattern: "(\\bui\\b|user interface|layout|component(s)?|visual design|screen design|page design|design system).{0,50}(deviat\\w*|redesign|restyle|rebrand|overhaul|break\\w*.{0,15}(pattern|layout|design))|deviat\\w*.{0,30}(from )?(the )?(current|existing).{0,30}(ui|layout|design|component)|\\b(redesign|restyle|rebrand)\\b"
     decision: "ship the change inside the current layout/component pattern — a brief that requires deviation becomes a labelled proposal logged for review, never a silent redesign"
     cite: "AGENTS.md UI constraint + Muse Q2 domain table (no-big-deviation rule)"
     confidence: 0.8

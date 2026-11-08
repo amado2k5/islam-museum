@@ -1,28 +1,46 @@
 id: dec-20261108-067
-kind: "decision"
-date: "2026-11-08"
-expires_at: "2027-11-08"
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
 question_hash: b98139d99304
-lane: "seed"
-class: "uncategorised"
-modality: "repo"
-domain: "dates"
-mode: "conservative"
-question: "The tiraz band on royal cloth is older than Islam, and the primary report about Abd al-Malik ibn Marwan concerns writing at the head of papyrus rolls, not cloth. How should the record frame the invention, its maker and its date?"
-options:
+lane: seed
+class: uncategorised
+modality: repo
+domain: dates
+mode: conservative
+question: The tiraz band on royal cloth is older than Islam, and the primary
+  report about Abd al-Malik ibn Marwan concerns writing at the head of papyrus
+  rolls, not cloth. How should the record frame the invention, its maker and its
+  date?
+options: null
 status: decided
 step: rule
-decision: "never invent a date: EDTF + Hijri string + calendar + precision; conversions marked derived; one source is enough, a doubt is flagged honestly"
+decision: "never invent a date: EDTF + Hijri string + calendar + precision;
+  conversions marked derived; one source is enough, a doubt is flagged honestly"
 confidence: 0.9
 reversible: true
 rationale: "Answered by a standing repository rule (rule-dates): AGENTS.md (dates rule)."
-rule: "AGENTS.md (dates rule)"
-rule_id: "rule-dates"
-review_sampled: false
+rule: AGENTS.md (dates rule)
+rule_id: rule-dates
+review_sampled: true
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
   - rule:rule-dates
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-dates"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - rule-dates
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Dates rule applies to chronological framing
+  founder_override: false
+  calibration_weight: 1
