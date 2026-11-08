@@ -1,0 +1,30 @@
+id: person/babdeo-miladu
+class: person
+names:
+  - { kind: full, value: "Babdeo Miladu" }
+  - { kind: alternate, value: "BABDEO MILADU" }
+label: { ar: "بابديو ميلادو", en: "Babdeo Miladu", ur: "بابدیو میلادو" }
+summary:
+  ar: "داعية تنزاني وصاحب وسيلة إعلامية؛ قناته على يوتيوب (@babdeomiladu)، التي تحمل اسمه وتعمل تحت علامتَي «Babdeo Online TV» و«Miladu TV»، بلغت 330,000 مشترك بحسب vidIQ كما في 6 نوفمبر 2026 ⁦(قُرئت في 8 نوفمبر 2026)⁩، وتبثّ مباشرة احتفالات المولد ومحاضرات مشايخ تنزانيا من دار السلام؛ وبلغ حسابه على إنستغرام (@miladu_tv) 110 آلاف متابع بحسب بيانات منشور الإنجاز المؤرخ في 6 نوفمبر 2025."
+  en: "Tanzanian preacher and media owner; his YouTube channel (@babdeomiladu), which carries his name and works under the Babdeo Online TV and Miladu TV brands, counted 330,000 subscribers by vidIQ as of 6 November 2026 (read on 8 November 2026), live-streaming maulid gatherings and Tanzanian sheikhs' lectures from Dar es Salaam; his Instagram account (@miladu_tv) counted 110,000 followers by the metadata of his milestone post dated 6 November 2025."
+  ur: "تنزانی مبلغ اور میڈیا مالک؛ ان کا یوٹیوب چینل (@babdeomiladu)، جو ان کے نام سے ہے اور «Babdeo Online TV» اور «Miladu TV» کے برانڈز کے تحت چلتا ہے، vidIQ کے مطابق 6 نومبر 2026ء کو 330,000 سبسکرائبر رکھتا تھا ⁦(8 نومبر 2026ء کو پڑھا گیا)⁩ اور دارالسلام سے مولد کی محفلیں اور تنزانی شیوخ کے دروس براہِ راست نشر کرتا ہے؛ ان کے انسٹاگرام اکاؤنٹ (@miladu_tv) کے فالوور 6 نومبر 2025ء کی سنگِ میل پوسٹ کے میٹا ڈیٹا کے مطابق 110,000 تھے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a specific school or order for Babdeo Miladu himself. The wave-196 harvest reports that commenters on his channel style him 'mzee wa Twariqa' — a scene nickname (Swahili: 'the elder of the Tariqa'), quoted here as scene colour only: a nickname given by commenters is not an attestation, and under this lane's rules it converts into no faith value. His channel's own output read in this run — live maulid broadcasts and lectures by other Tanzanian sheikhs hosted under his brand — is programming, not a statement of a school for the man himself, and neither vidIQ's channel page nor his videos' descriptions name a madhhab or tariqa for him. Under this lane's two-text rule his school therefore stays unknown."
+    sources: [source/vidiq-babdeo-miladu, source/youtube-babdeo-miladu, source/instagram-miladu-tv]
+roles: [preacher]
+wings: [people, living]
+regions: [east-africa]
+relations: []
+reach:
+  - { platform: youtube, metric: subscribers, value: 330000, date: "2026-11-06", note: "@babdeomiladu, per vidIQ page updated 6 November 2026 and read 8 November 2026", sources: [source/vidiq-babdeo-miladu] }
+  - { platform: instagram, metric: followers, value: 110000, date: "2025-11-06", note: "@miladu_tv, per the channel's milestone post metadata of 6 November 2025 as read by the wave harvest on 8 November 2026", sources: [source/instagram-miladu-tv] }
+sources: [source/vidiq-babdeo-miladu, source/youtube-babdeo-miladu, source/instagram-miladu-tv]
+provenance:
+  layer: own-research
+  source: "The wave-196 harvest entry 3 (Babdeo Miladu, Tanzania; Babdeo Online TV), researched on 8 November 2026 against vidIQ's channel page, his channel's own YouTube videos and the harvest's read of his Instagram milestone post metadata, all read on that date. COUNT GATE PASSED on a fresh re-read, as the brief required: the harvest's 300,000 subscribers was a stale milestone graphic dated 6 November 2025; vidIQ, page updated 6 November 2026 and read 8 November 2026, gives 330,000 subscribers, 42,019,285 views and 3,245 videos, the channel started 28 December 2015 with its country set to Tanzania — the fresh figure is carried as primary. The secondary figure, Instagram @miladu_tv at 110,000 followers, is carried only as a dated secondary from the milestone post's metadata dated 6 November 2025 (harvest read 8 November 2026); it is not this writer's direct read. His own website, babdeomiladu.co.tz, named in the harvest as the site of Babdeo Miladu Media Limited, could not be fetched in this run, so no fact is taken from it. Identity beyond the channel brand is thin and is stated as such: the channel's videos are largely live maulid coverage from Dar es Salaam (Kijitonyama; Magomeni Mapipa) and other sheikhs' lectures hosted under his brand, and the preacher role rests on the harvest's identification of him as the preacher and media owner behind the channel. Searches on 8 November 2026 found no Wikipedia article in any language and no Wikidata item for him, so no wikidata id is recorded and no born block is written — no source read gives a birth date. No relations: no place record for Dar es Salaam exists in the staging tree, so no edge is written, and no relation is written to person/anwar-yusuf (a different man; see the shared brief). De-duplicated against the snapshot: no babdeo-miladu record exists."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-196"
+status: { review: published, completeness: 2 }
