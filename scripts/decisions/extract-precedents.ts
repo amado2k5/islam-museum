@@ -94,7 +94,9 @@ for (const dir of SCAN_DIRS) {
         });
         continue;
       }
-      if (RULING_LINE.test(lines[i]) && /progress|status|delegation/.test(rel)) {
+      // Skip table rows: a status.md lane table is not a ruling, and its truncated
+      // row becomes a garbage "title" that wins bogus precedent matches.
+      if (!lines[i].trim().startsWith("|") && RULING_LINE.test(lines[i]) && /progress|status|delegation/.test(rel)) {
         const t = lines[i].trim().slice(0, 300);
         precedents.push({
           id: `ruling-${rel.replace(/[^a-z0-9]+/gi, "-").slice(0, 50)}-${i}`,

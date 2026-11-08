@@ -28,16 +28,21 @@ blocking to asynchronous sampling of a ledger.
 ## The pipeline (`decide.ts`)
 
 1. **Policy gate (deterministic).** A non-delegable list — deploys, deletions,
-   spending, outreach, licence changes, review-status escalation, content-safety
-   hard-block topics, Qur'an text — routes straight to the founder docket. No
+   spending, outreach, licence changes, review-status escalation, governance
+   surfaces (schema, predicates, robots.txt, headers, infra, CI), commissions,
+   content-safety hard-block topics, Qur'an text — routes straight to the founder
+   docket. Matches inside negated phrases ("not a deploy") do not count. No
    precedent can override this list.
 2. **Hard reject.** Figurative depictions of prophets, typed honorifics — reject
    outright.
-3. **Precedent match.** Token-overlap similarity between the question and each
-   precedent's title+summary; threshold 0.34 (tuned on fixtures; to be calibrated
-   against founder spot-checks). A match produces `status: decided` citing the
-   precedent's source file.
-4. **Safe default.** No rule, no precedent → `hold as draft-tier / pointer-only`
+3. **Canonical rules.** A small table of questions the repository already answers
+   unambiguously (duplicate → alias of the richer entity, Arabic-first prose,
+   25-entity batch cap, immutable ids) — each cites its source document.
+4. **Precedent match.** Token-overlap similarity, but gated twice: score ≥ 0.6
+   AND title overlap ≥ 0.25 (a precedent's title carries its subject; summary-only
+   or table-row matches cannot decide). Only `decision-record` and `ruling` kinds
+   count — `flag` entries are observations, not rulings.
+5. **Safe default.** No rule, no precedent → `hold as draft-tier / pointer-only`
    with `needs_precedent: true`. Never escalates review status, never deletes,
    never asserts a contested fact.
 
@@ -111,8 +116,13 @@ Issues found and fixed after the first pilot:
 6. **Held items invisible** — `docket.md` now has a second section listing
    safe-default holds (questions a precedent would unblock), regenerated from all
    records on disk rather than only the latest run.
-7. **Threshold raised** 0.34 → 0.40 after observing a wrong ruling-kind match;
-   matched precedents always display score + source file for spot-checks.
+7. **Threshold raised** 0.34 → 0.60 plus a title-overlap floor (0.25): probing
+   showed summary-only matches confuses "same topic" with "same question"; a
+   strong match must overlap the precedent's title. Verified: a full question
+   matching D-001 scores 0.75 and decides; the vague short form correctly holds.
+8. **Rule table added** — the pipeline's step 1 was only policy gates; canonical
+   AGENTS.md answers (duplicates→aliases, Arabic-first, batch cap, immutable ids)
+   now decide by `step: rule` before any precedent lookup.
 
 **Finding that changed the design:** the first run matched `flag`-kind precedents
 and produced confident-looking but wrong "decisions" (e.g. lane registration

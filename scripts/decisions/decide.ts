@@ -34,8 +34,44 @@ const NON_DELEGABLE = [
   { pattern: /verified|reviewed status|review status|mark.{0,40}published|escalat.{0,20}review/i, reason: "review-status escalation is founder/pipeline only" },
   { pattern: /terrorist|extremist|isis|al-qaeda|hamas|taliban|boko haram/i, reason: "content-safety hard block — always founder" },
   { pattern: /quran|qur'an|tafsir text|ayah/i, reason: "Qur'an text is never agent-decided" },
-  { pattern: /schema\/predicates|robots\.txt|_headers|wrangler|workflow|deploy\.yml/i, reason: "governance surfaces (schema, headers, infra, CI) are founder-only" },
+  { pattern: /schema\/predicates|robots\.txt|_headers|wrangler|workflow|deploy\.yml|(add|new|create|propose|change|register|confirm).{0,20}predicate|predicate.{0,20}(add|new|create|propose|change|register)/i, reason: "governance surfaces (schema, predicates, headers, infra, CI) are founder-only" },
   { pattern: /commission|purchase|subscribe|payment|contract|partnership|nomination/i, reason: "commissions, money and external commitments are founder-only" },
+];
+
+/**
+ * Canonical rules already written in AGENTS.md / docs/ — deterministic answers that
+ * need no precedent lookup. Each cites its source; add rules here only when the
+ * repository already answers the question unambiguously.
+ */
+const RULES: { pattern: RegExp; decision: string; cite: string; confidence: number; reversible: boolean }[] = [
+  {
+    pattern: /duplicate|same (person|entity|record|work|place)|merge.{0,30}(into|alias|richer)/i,
+    decision: "merge into the richer entity; keep the other id under aliases — never delete blindly",
+    cite: "AGENTS.md (reuse before create; a duplicate becomes an alias of the richer entity)",
+    confidence: 0.9,
+    reversible: true,
+  },
+  {
+    pattern: /(which|what) language|language.{0,25}(first|primary|start|write|draft)|arabic.{0,25}(first|primary)|prose.{0,30}(first|language)/i,
+    decision: "Arabic first (label.ar + summary.ar required); English and Urdu in the same commit",
+    cite: "docs/language.md + AGENTS.md",
+    confidence: 0.9,
+    reversible: true,
+  },
+  {
+    pattern: /(batch size|entities per (batch|commit)|how many per batch|how many.{0,40}batch|(batch|commit).{0,20}(size|limit|max))/i,
+    decision: "at most 25 entities per content batch",
+    cite: "AGENTS.md / docs/ai-change-gates.md §4",
+    confidence: 0.95,
+    reversible: true,
+  },
+  {
+    pattern: /rename|slug.{0,20}(change|rename)|id.{0,20}immutable/i,
+    decision: "ids are immutable class/slug; a rename goes through aliases, never a new id",
+    cite: "AGENTS.md (graph in git)",
+    confidence: 0.9,
+    reversible: true,
+  },
 ];
 
 /** Hard blocks that reject outright regardless of precedent. */
@@ -142,29 +178,52 @@ export function decide(q: Question, precedents: Precedent[]): Record<string, unk
     }
   }
 
-  // Step 1: precedent match. Only rulings count: `flag` entries are observations
+  // Step 1: canonical rules — the repository already answers these unambiguously.
+  for (const r of RULES) {
+    if (hits(text, r.pattern)) {
+      return {
+        status: "decided",
+        step: "rule",
+        decision: r.decision,
+        rule: r.cite,
+        confidence: r.confidence,
+        reversible: r.reversible,
+        rationale: `Answered by a standing repository rule: ${r.cite}.`,
+      };
+    }
+  }
+
+  // Step 2: precedent match. Only rulings count: `flag` entries are observations
   // ("X is unmeasured"), not decisions, and matching them produces false authority.
+  // A precedent's TITLE carries its subject; summary-only matches are weak, so the
+  // gate requires title overlap too — this is what stops long table-row "rulings"
+  // (whose titles are whole status lines) from matching unrelated questions.
   const qTokens = tokens(text);
   const scored = precedents
     .filter((p) => p.kind !== "flag")
-    .map((p) => ({ p, score: similarity(qTokens, tokens(`${p.title ?? ""} ${p.summary}`)) }))
+    .map((p) => {
+      const titleSim = similarity(qTokens, tokens(p.title ?? ""));
+      const bodySim = similarity(qTokens, tokens(p.summary));
+      return { p, titleSim, bodySim, score: Math.max(titleSim, bodySim * 0.9) };
+    })
     .sort((a, b) => b.score - a.score);
   const best = scored[0];
-  const PRECEDENT_THRESHOLD = 0.4;
+  const PRECEDENT_THRESHOLD = 0.6;
+  const TITLE_FLOOR = 0.25;
 
-  if (best && best.score >= PRECEDENT_THRESHOLD) {
+  if (best && best.score >= PRECEDENT_THRESHOLD && best.titleSim >= TITLE_FLOOR) {
     return {
       status: "decided",
       step: "precedent",
       decision: `apply precedent ${best.p.id} (${best.p.kind}): ${best.p.title ?? best.p.summary.slice(0, 80)}`,
-      precedent: { id: best.p.id, source_file: best.p.source_file, score: Number(best.score.toFixed(3)) },
+      precedent: { id: best.p.id, source_file: best.p.source_file, score: Number(best.score.toFixed(3)), title_score: Number(best.titleSim.toFixed(3)) },
       confidence: Math.min(0.95, 0.5 + best.score),
       reversible: true,
       rationale: `Question overlaps precedent ${best.p.id} recorded in ${best.p.source_file}. Conservative application; founder audits the sample.`,
     };
   }
 
-  // Step 2: no rule, no precedent → conservative reversible default.
+  // Step 3: no rule, no precedent → conservative reversible default.
   // The default NEVER escalates review status, deletes, or asserts a contested fact.
   return {
     status: "decided",
@@ -195,6 +254,7 @@ function toYamlRecord(id: string, q: Question, d: Record<string, unknown>): stri
     `reversible: ${d.reversible}`,
     `rationale: ${esc(d.rationale ?? "")}`,
   ];
+  if (d.rule) lines.push(`rule: ${esc(d.rule)}`);
   if (d.precedent) lines.push(`precedent:`, `  id: ${esc((d.precedent as { id: string }).id)}`, `  source_file: ${esc((d.precedent as { source_file: string }).source_file)}`, `  score: ${(d.precedent as { score: number }).score}`);
   if (d.needs_precedent) lines.push(`needs_precedent: true`);
   lines.push(`review_sampled: false`, `decided_by:`, `  agent: poc-decide`, `  pipeline: scripts/decisions/decide.ts`);
