@@ -15,7 +15,19 @@ Copies extracted under `~/islam-museum-harvest/books/hadith/riyad-salihin/`:
 
 ## Mining state
 
-Entities citing `source/riyad-salihin` outside `data/source/`: **1** (concept/tawakkul enriched 8 Nov 2026, run lib-wave-21-riyad-1 — Bab al-yaqin wal-tawakkul, Alexandria edition printed pp.30-31: the Prophet's tawakkul du'a, «hasbunallahu wa-ni'ma al-wakil» shared with Ibrahim, and the 70,000 who rely on their Lord). Also concept/sabr enriched same run (lib-wave-21-riyad-2): Bab al-sabr, printed pp.16-18 — the «amr al-mu'min kulluhu khayr» hadith, Abu Sa'id's «sabr is the widest gift», «laysa 'ala abika karb», Asma's «falta-sabir»). Also concept/ihsan enriched same run (lib-wave-21-riyad-3): Bab al-muraqaba hadith 60, printed p.26 — Umar's isnad of the hadith of Jibril with the ihsan definition «an ta'budallaha ka-annaka tarah».
+Entities citing `source/riyad-salihin` outside `data/source/`: **9**.
+
+- concept/tawakkul — Bab al-yaqin wal-tawakkul, Alexandria printed pp.30-31, run lib-wave-21-riyad-1 (8 Nov 2026)
+- concept/sabr — Bab al-sabr, printed pp.16-18, run lib-wave-21-riyad-2
+- concept/ihsan — Bab al-muraqaba hadith 60, printed p.26, run lib-wave-21-riyad-3
+- concept/ikhlas — Bab al-ikhlas wa-ihdar al-niyya, printed pp.5-8, run lib-wave-21-riyad-4
+- concept/tawba — Bab al-tawba, printed pp.9-16, run lib-wave-21-riyad-5
+- concept/al-sidq-truthfulness — Bab al-sidq, printed pp.24-25, run lib-wave-21-riyad-6
+- concept/taqwa — Bab fi al-taqwa, printed pp.29-31, run lib-wave-21-riyad-7
+- concept/istiqama — Bab al-istiqama, printed pp.34-35, run lib-wave-21-riyad-8
+- concept/dhikr — Bab fadl al-dhikr wal-hathth 'alayh (hadiths 1408+), printed pp.276-277, run lib-wave-21-riyad-9
+
+Page convention (verified 9 Nov 2026): printed page = `===== [pN] =====` marker minus 4 for the AAlexandrina-021516 copy; each block ends with a plain printed-page number.
 
 ## Next step
 
