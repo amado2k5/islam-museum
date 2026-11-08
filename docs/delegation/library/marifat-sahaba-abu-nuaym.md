@@ -14,7 +14,17 @@ Copies extracted under `~/islam-museum-harvest/books/sahaba/marifat-sahaba-abu-n
 
 ## Mining state
 
-Entities citing `source/marifat-sahaba-abu-nuaym` outside `data/source/`: **2**.
+Entities citing `source/marifat-sahaba-abu-nuaym` outside `data/source/`: **6** after wave-21 run `lib-wave-21-marifat-sahaba-1`.
+
+## Mining state — wave 21 (run lib-wave-21-marifat-sahaba-1)
+
+Copy used: `20191214_20191214_1554` (137,745 lines, numbered isnad entries under section headers «معرفة …»). Citations use scan page numbers `{cite:marifat-sahaba-abu-nuaym p.N}` per the source's reliability note (local scan pagination, printed pagination unconfirmed).
+
+Gap-filled existing records (no new entities):
+- person/abu-bakr — section [١] «معرفة نسبة الصديق العتيق أبي بكر ومولده ووفاته» · scan pp.22-24
+- person/umar-ibn-al-khattab — section [٢] «معرفة نسبة الفاروق» · scan pp.38, 45
+- person/uthman-ibn-affan — section [٣] «معرفة نسبة عثمان بن عفان» · scan p.58
+- person/ali-ibn-abi-talib — section [٤] «معرفة نسبة علي بن أبي طالب» · scan pp.75-76
 
 ## Next step
 
