@@ -245,3 +245,10 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 
 - Final pass enriched: muwaylih-castle +14878 (Saudi al-Muwaylih citadel gate, 1560-1561); arab-ata-mausoleum +15899 (Tim Samanid tomb portal, 977-978).
 - REJECTED: 14503 Ertokus bridge Karaözü ≠ ertokus-tomb; 15750 Uzkand Abu Bakr b. Ismail tomb ≠ sultan-ismail-mosque.
+
+## 2026-11-09 (p6 cont.) — TWO new entities created from TEI leads
+
+- building/madrasa-al-ghawri: NEW draft — al-Ghawri madrasa-mosque-mausoleum complex between al-Moski and Bab Zuwayla, Cairo. 8 fiches (12112-12118, 13542/13566/13573): construction texts + sovereign testimonies dated 909/1503-1504 and 922/1516-1517 CE — matches Sultan al-Ashraf Qansuh al-Ghawri's complex (last Circassian Mamluk sultan, d. 922/1516).
+- building/kutubiyya-mosque: NEW draft — Almohad Kutubiyya Mosque, Marrakesh. 3 mosque-structure fiches (9431 religious text, 9433 votive, 9434 restoration).
+- object/minbar-kutubiyya +7946: the minbar's fabrication inscription records it was MADE IN CORDOBA — Cordoba-origin fact added to the object entity.
+- Damascus "Mosquée Hassan" (fiche 7961) NOT created — single fiche, unidentified mosque, insufficient evidence.
