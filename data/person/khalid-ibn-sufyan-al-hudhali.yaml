@@ -13,6 +13,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: military-opponent, toward: person/muhammad, status: tradition, note: "يجمع الناس ليغزو النبي (ابن هشام ص267).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sirat Ibn Hisham" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/hudhayl, sources: [source/ibn-hisham-saqqa] }

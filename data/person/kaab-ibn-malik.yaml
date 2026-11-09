@@ -18,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "شاعر الرسول وشهد المشاهد معه (ابن هشام 4/120).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي أنصاري جليل." }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/tabuk, confidence: low, note: "Associated with Tabuk per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/khazraj }

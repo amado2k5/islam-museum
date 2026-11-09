@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/umayyad, period/abbasid-early]
 regions: [persia-central-asia]
 themes: [sects-and-schools]
+died: { edtf: "747", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa'l-Muluk" }
 relations:
   - { type: lived_in, target: place/khorasan, confidence: low, note: "Associated with خراسان per the record's own summary text; relation type pending review.", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush, source/akhbar-tiwal-amir]

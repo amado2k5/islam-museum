@@ -8,6 +8,8 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
+born: { edtf: "666", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Tarikh al-Tabari" }
+died: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Tarikh al-Tabari" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with الكوفة per the record's own summary text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
 provenance:

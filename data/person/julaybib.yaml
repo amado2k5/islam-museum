@@ -14,6 +14,7 @@ wings: [people]
 themes: [ethics-and-character]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/assabile-abu-ishaq-alheweny] }
   - { type: member_of, target: group/sahaba, sources: [source/assabile-abu-ishaq-alheweny] }

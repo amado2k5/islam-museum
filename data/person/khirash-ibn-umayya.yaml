@@ -17,6 +17,7 @@ story_roles:
   - { role: companion, status: tradition, note: "صحابي من خزاعة شهد الفتح وعاتبه النبي لقتله ابن الأنوع (ابن هشام 4/56–57).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي من خزاعة." }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/khuzaa }

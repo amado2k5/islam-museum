@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans, egypt-nile]
 periods: [period/gunpowder-empires]
+died: { edtf: "1684", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sejarah Gowa" }
 relations:
   - { type: lived_in, target: place/indonesia, confidence: low, note: "Gowa/Makassar ruler in South Sulawesi per the record's own summary.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

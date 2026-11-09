@@ -13,6 +13,8 @@ wings: [people, place]
 themes: [women, politics-governance-and-authority]
 periods: [period/mongol-post-mongol]
 regions: [south-asia]
+born: { edtf: "1347", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Battuta Rihla / Maldives chronicles" }
+died: { edtf: "1380", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Battuta Rihla / Maldives chronicles" }
 relations:
   - { type: ruler_of, target: place/maldives, sources: [source/rihla-ibn-battuta-ihya-al-ulum-1987] }
 sources: [source/rihla-ibn-battuta-ihya-al-ulum-1987]

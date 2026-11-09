@@ -10,6 +10,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1563", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/k-tahya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

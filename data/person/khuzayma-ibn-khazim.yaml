@@ -6,6 +6,7 @@ summary:
   en: "Khuzayma ibn Khazim; an Abbasid governor of Armenia after Rawh ibn Hatim al-Muhallabi and before Yazid ibn Mazyad al-Shaybani — the sternest of them in office, and the one who instituted the land-survey at Dabil and Nashwa, which had not existed before."
 wings: [people]
 periods: [period/abbasid-early]
+died: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: lived_in, target: place/armenia, confidence: low, note: "Associated with أرمينية per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/khuzayma-land-survey, role: "سّان المساحة", sources: [source/futuh-buldan-maarif-1407] }
