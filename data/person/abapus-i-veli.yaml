@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1368", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Afyonkarahisar Evliyaları; TDV İslâm Ansiklopedisi (d. 890 AH)" }
+died: { edtf: "1485", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Afyonkarahisar Evliyaları; TDV İslâm Ansiklopedisi (d. 890 AH)" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

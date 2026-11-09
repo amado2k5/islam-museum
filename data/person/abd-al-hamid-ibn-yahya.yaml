@@ -20,5 +20,6 @@ occupations:
     status: historical
     note: "The DİA entry names Abd al-Hamid al-Katib as the secretary of the Umayyad caliph Marwan II, and as the author of a treatise on the scribe's craft."
     sources: [source/tdv-katip]
+died: { edtf: "750", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist (Ibn al-Nadim: al-Katib" }
 relations:
   - { type: lived_in, target: place/al-sham, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/fihrist-ibn-al-nadim, source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434], confidence: low }

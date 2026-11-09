@@ -11,6 +11,7 @@ regions: [persia-central-asia]
 gender: male
 roles: [calligrapher]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1494~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Majalis al-Nafais (Ali Shir Nava'i: d. c. 900 AH)" }
 relations:
   - { type: patronized_by, target: person/yaqub-beg-aq-qoyunlu, sources: [source/blair-islamic-calligraphy-2006] }
   - { type: lived_in, target: place/tabriz, sources: [source/blair-islamic-calligraphy-2006] }

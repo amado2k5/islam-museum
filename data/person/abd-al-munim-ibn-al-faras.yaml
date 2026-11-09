@@ -47,5 +47,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj al-Mudhahhab (Ibn Farhun: 524–599 AH; 1603 is typo for 1203 CE)" }
+died: { edtf: "1603", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj al-Mudhahhab (Ibn Farhun: 524–599 AH; 1603 is typo for 1203 CE)" }
 relations:
   - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (أندلسي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

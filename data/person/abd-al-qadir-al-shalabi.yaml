@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "1878", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam al-Madina al-Munawwara; al-A'lam (al-Zirikli: 1295–1369 AH)" }
+died: { edtf: "1950", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam al-Madina al-Munawwara; al-A'lam (al-Zirikli: 1295–1369 AH)" }
 relations:
   - { type: lived_in, target: place/medina, note: "From text: of Medina", sources: [source/al-aalam], confidence: low }

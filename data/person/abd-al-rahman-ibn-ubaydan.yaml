@@ -29,5 +29,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1316", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila (supplement); Ulama al-Hanabila (1898–1978 CE)" }
+died: { edtf: "1398", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila (supplement); Ulama al-Hanabila (1898–1978 CE)" }
 relations:
   - { type: lived_in, target: place/damascus, note: "Hanbali jurist who studied fiqh under Taqi al-Din Ibn Taymiyya, whose teaching circle was Damascus.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: medium }

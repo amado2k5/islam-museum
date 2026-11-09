@@ -23,6 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "797", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 181–274 AH)" }
+died: { edtf: "887", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 181–274 AH)" }
 relations:
   - { type: born_in, target: place/raqqa, note: "Wikidata Q283368 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/raqqa, note: "Wikidata Q283368 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

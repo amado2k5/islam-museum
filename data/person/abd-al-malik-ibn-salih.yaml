@@ -6,6 +6,8 @@ summary:
   en: "Abd al-Malik ibn Salih ibn Ali ibn Abdullah ibn al-Abbas, the Abbasid prince who governed the frontier marches in al-Rashid's era; in al-Baladhuri: when the people of Cyprus gave fresh offence under his governorship he wished to annul their treaty, the jurists being accessible, and wrote to al-Layth ibn Sa'd, Malik ibn Anas, Sufyan ibn Uyayna, Musa ibn A'yun, Isma'il ibn Ayyash, Yahya ibn Hamza, Abu Ishaq al-Fazari and Makhlad ibn al-Husayn for their rulings — an early instance of a governor formally consulting the age's jurists on the law of treaty-peoples."
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "750", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: 133–196 AH)" }
+died: { edtf: "812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: 133–196 AH)" }
 relations:
   - { type: lived_in, target: place/qubrus, note: "From text: أهل قبرس حدثاً في ولايته فأرا", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }
   - { type: participated_in, target: event/fuqaha-consulta-on-cyprus, role: "الوالي المستشير", sources: [source/futuh-buldan-maarif-1407] }

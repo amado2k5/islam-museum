@@ -8,6 +8,8 @@ summary:
 wings: [people]
 story_roles:
   - { role: companion, status: tradition, sources: [source/sahih-al-bukhari] }
+born: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 1–43 AH)" }
+died: { edtf: "663", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 1–43 AH)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (قرشي); denotes association, not proven residence.", sources: [source/sahih-al-bukhari], confidence: low }
   - { type: participated_in, target: event/uthman-standardizes-mushaf, sources: [source/sahih-al-bukhari] }

@@ -23,6 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1927", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Directory of Iraqi Calligraphers and Scholars" }
+died: { edtf: "2014", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Directory of Iraqi Calligraphers and Scholars" }
 relations:
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/ottoman-empire, note: "Wikidata Q12560 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

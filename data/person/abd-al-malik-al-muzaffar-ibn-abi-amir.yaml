@@ -9,6 +9,7 @@ roles: [vizier, ruler]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, maghreb]
+died: { edtf: "1008", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari: d. 399 AH)" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (andalus-europe) is attested; broad-region edge flagged for review.", sources: [source/nafh-tib-maqqari], confidence: low }
   - { type: child_of, target: person/al-mansur-ibn-abi-amir, sources: [source/nafh-tib-maqqari] }

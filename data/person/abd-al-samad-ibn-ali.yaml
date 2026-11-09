@@ -21,5 +21,7 @@ status:
   review: published
   completeness: 3
 
+born: { edtf: "725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib: Abbasid prince" }
+died: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib: Abbasid prince" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/muruj-mari-2005], confidence: low }

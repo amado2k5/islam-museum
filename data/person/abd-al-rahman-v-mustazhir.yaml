@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1001", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari: Caliph of Cordoba" }
+died: { edtf: "1024", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari: Caliph of Cordoba" }
 relations:
   - { type: ruler_of, target: place/cordoba, note: "From text: caliph of Cordoba", sources: [source/nafh-tib-maqqari] }

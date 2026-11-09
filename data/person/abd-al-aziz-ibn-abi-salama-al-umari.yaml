@@ -14,6 +14,7 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [arabia, levant-iraq]
 periods: [period/abbasid-early]
+died: { edtf: "780", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: al-Majishun" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "From text: settled in Baghdad", sources: [source/tarikh-baghdad-khatib] }
   - { type: member_of, target: group/banu-hashim, sources: [source/tarikh-baghdad-khatib] }

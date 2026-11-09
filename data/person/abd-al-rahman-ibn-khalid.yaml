@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: d. 46 AH in Hims)" }
+died: { edtf: "666", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: d. 46 AH in Hims)" }
 relations:
   - { type: ruler_of, target: place/homs, note: "From text: amir of Homs", sources: [source/al-aalam] }

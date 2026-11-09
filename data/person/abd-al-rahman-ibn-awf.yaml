@@ -23,6 +23,8 @@ story_roles:
   - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+born: { edtf: "580", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: c. 43 BH–32 AH)" }
+died: { edtf: "652", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: c. 43 BH–32 AH)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-mosaad-anwar], confidence: low }
   - { type: participated_in, target: event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal, role: "أمير السرية؛ عمّمه النبي بيده ودفع إليه اللواء", sources: [source/ibn-hisham-saqqa] }

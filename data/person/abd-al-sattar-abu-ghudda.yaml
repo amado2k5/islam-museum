@@ -29,6 +29,8 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
+born: { edtf: "1940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary; Islamic Fiqh Academy (1359–1442 AH)" }
+died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary; Islamic Fiqh Academy (1359–1442 AH)" }
 relations:
   - { type: born_in, target: place/aleppo, note: "Wikidata Q41183 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/montreal, note: "Wikidata Q340 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

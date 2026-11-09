@@ -9,6 +9,7 @@ roles: [ruler]
 wings: [people]
 periods: [period/umayyad]
 regions: [andalus-europe]
+died: { edtf: "716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Iftitah al-Andalus (Ibn al-Qutiyya: d. 97 AH)" }
 relations:
   - { type: lived_in, target: place/seville, note: "From text: أهل إشبيلية ثاروا على المسلمي", sources: [source/nafh-tib-maqqari, source/salabi-umayyad-state-2020], confidence: low }
   - { type: child_of, target: person/musa-ibn-nusayr, sources: [source/nafh-tib-maqqari] }

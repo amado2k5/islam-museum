@@ -25,5 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1413", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Matla-i Sa'dayn; EI2 (816–887 AH)" }
+died: { edtf: "1482", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Matla-i Sa'dayn; EI2 (816–887 AH)" }
 relations:
   - { type: lived_in, target: place/samarqand, note: "Place association from the person's nisba/name (السمرقندي); denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }
