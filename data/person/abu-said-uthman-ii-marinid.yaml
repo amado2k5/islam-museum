@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1276", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar); EI2" }
+died: { edtf: "1331", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar); EI2" }
 relations:
   - { type: lived_in, target: place/fez, note: "From text: of Fez", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

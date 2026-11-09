@@ -8,5 +8,7 @@ wings: [people]
 external_ids: { wikidata: "Q5684148" }
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "858", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+died: { edtf: "932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "Place association from the person's nisba/name (الرومي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

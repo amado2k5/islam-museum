@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); TDV Islam Ansiklopedisi" }
+died: { edtf: "1762", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); TDV Islam Ansiklopedisi" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

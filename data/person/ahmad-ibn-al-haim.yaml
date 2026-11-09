@@ -24,5 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1352", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami'); al-Zirikli" }
+died: { edtf: "1412", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami'); al-Zirikli" }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

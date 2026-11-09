@@ -14,6 +14,8 @@ wings: [people]
 themes: [mathematics, astronomy-and-timekeeping]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+born: { edtf: "960", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor; EI2" }
+died: { edtf: "1036", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor; EI2" }
 relations:
   - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name (خوارزمي); denotes association, not proven residence.", sources: [source/qanun-masudi-jundi-v1], confidence: low }
   - { type: student_of, target: person/abu-al-wafa-al-buzjani, sources: [source/qanun-masudi-jundi-v1] }

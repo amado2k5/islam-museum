@@ -25,5 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1719", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Afsharids)" }
+died: { edtf: "1749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Afsharids)" }
 relations:
   - { type: ruler_of, target: place/iran, note: "From text: ruler of Iran", sources: [source/tarikh-islam-hasan-ibrahim] }

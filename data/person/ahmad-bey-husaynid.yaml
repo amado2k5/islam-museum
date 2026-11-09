@@ -19,5 +19,7 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 303, article 'Ahmad Bey' signed G. Yver and M. Emerit (EI2 enrichment, batch ei2-b003 part 3ch)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+born: { edtf: "1806", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Husaynids); Perkins (A History of Modern Tunisia)" }
+died: { edtf: "1855", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Husaynids); Perkins (A History of Modern Tunisia)" }
 relations:
   - { type: lived_in, target: place/tunis, note: "From text: of Tunis", sources: [source/encyclopaedia-of-islam-2], confidence: low }

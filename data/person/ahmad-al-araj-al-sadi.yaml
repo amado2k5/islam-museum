@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
+born: { edtf: "1486", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Sa'did dynasty); al-Ifrani (Nuzhat al-Hadi)" }
+died: { edtf: "1557", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Sa'did dynasty); al-Ifrani (Nuzhat al-Hadi)" }
 relations:
   - { type: lived_in, target: place/algiers, note: "Place association from the person's nisba/name (الجزائري); denotes association, not proven residence.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: ruled_over, target: polity/saadi-dynasty, sources: [source/dawlat-uthmaniyya-salabi] }

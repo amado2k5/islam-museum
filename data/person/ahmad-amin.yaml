@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [egypt-nile]
+born: { edtf: "1886", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Hourani (Arabic Thought in the Liberal Age)" }
+died: { edtf: "1954", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Hourani (Arabic Thought in the Liberal Age)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969], confidence: low }
   - { type: authored, target: work/duha-al-islam, sources: [source/duha-islam] }

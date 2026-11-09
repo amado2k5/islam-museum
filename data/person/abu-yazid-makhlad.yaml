@@ -20,5 +20,7 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch12"
+born: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar)" }
+died: { edtf: "947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar)" }
 relations:
   - { type: ruler_of, target: place/qayrawan, note: "From text: استولى على القيروان ورقادة سنة 333هـ", sources: [source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/fihrist-ibn-al-nadim], confidence: low }

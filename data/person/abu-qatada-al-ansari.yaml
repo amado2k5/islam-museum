@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 3
+born: { edtf: "604~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); al-Dhahabi (Siyar)" }
+died: { edtf: "674~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); al-Dhahabi (Siyar)" }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam, source/sallabi-ali-vol1, source/taqrib-al-tahdhib, source/assabile-ahmed-abdussalam], confidence: low }

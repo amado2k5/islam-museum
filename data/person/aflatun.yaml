@@ -23,5 +23,7 @@ sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/encyclopae
 status:
   review: published
   completeness: 3
+born: { edtf: "-427", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica; Diogenes Laertius" }
+died: { edtf: "-348", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica; Diogenes Laertius" }
 relations:
   - { type: lived_in, target: place/athens, note: "Place association from the person's nisba/name (اليوناني); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/encyclopaedia-of-islam-2], confidence: low }

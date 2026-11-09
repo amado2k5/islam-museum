@@ -21,5 +21,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1239", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina); al-Zirikli" }
+died: { edtf: "1310", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina); al-Zirikli" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Hanafi jurist bearing the Saruji nisba (Saruj, upper Mesopotamia); broad region-level association.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

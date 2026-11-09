@@ -17,5 +17,7 @@ status:
   review: published
   completeness: 3
 
+born: { edtf: "709~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Mizan al-I'tidal)" }
+died: { edtf: "774~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Mizan al-I'tidal)" }
 relations:
   - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (الكوفي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

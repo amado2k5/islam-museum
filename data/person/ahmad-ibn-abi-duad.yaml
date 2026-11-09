@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "776", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi; al-Dhahabi (Siyar)" }
+died: { edtf: "854", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi; al-Dhahabi (Siyar)" }
 relations:
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: related_to, target: person/al-mutasim-abi-ishaq, sources: [source/tarikh-khulafa-minhaj-1434] }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1805", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kattani (Fihris al-Faharis); al-Zirikli" }
+died: { edtf: "1859", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kattani (Fihris al-Faharis); al-Zirikli" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

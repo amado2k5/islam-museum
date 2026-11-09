@@ -26,6 +26,8 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1361", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami'); al-Zirikli" }
+died: { edtf: "1423", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami'); al-Zirikli" }
 relations:
   - { type: born_in, target: place/cairo, note: "From text: ولد بالقاهرة وتوفي بها", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
   - { type: died_in, target: place/cairo, note: "From text: died in Cairo.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

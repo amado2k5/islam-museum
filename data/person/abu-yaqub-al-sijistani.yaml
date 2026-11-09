@@ -16,5 +16,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch20
+born: { edtf: "910~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; Walker (Abu Ya'qub al-Sijistani)" }
+died: { edtf: "971~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; Walker (Abu Ya'qub al-Sijistani)" }
 relations:
   - { type: lived_in, target: place/sijistan, note: "Place association from the person's nisba/name (السجستاني); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

@@ -12,6 +12,8 @@ summary:
 wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [arabia]
+born: { edtf: "1409", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami'); al-Zirikli" }
+died: { edtf: "1488", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami'); al-Zirikli" }
 relations:
   - { type: lived_in, target: place/zabid, note: "Place association from the person's nisba/name (الزبيدي); denotes association, not proven residence.", sources: [source/nayl-awtar-awn-bari-hamish], confidence: low }
   - { type: authored, target: work/al-tajrid-al-sarih, sources: [source/nayl-awtar-awn-bari-hamish] }

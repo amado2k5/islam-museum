@@ -19,5 +19,7 @@ status:
   review: draft
   completeness: 1
   generated_by: Claude Haiku 5.5 (Wikidata insertion, slice S9)
+born: { edtf: "940~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor; EI2" }
+died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor; EI2" }
 relations:
   - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name (فارسي); denotes association, not proven residence.", sources: [source/sezgin-gas-v-mathematik], confidence: low }
