@@ -71,7 +71,7 @@
   );
   const selectedEntityNode = $derived(temporalActive(itemById.get(selectedEntity), year) ? itemById.get(selectedEntity) : undefined);
   const ORBIT_PAGE_SIZE = 18;
-  const orbitBase = $derived(connectedTo(selectedPlace).filter((n) => temporalActive(n, year)).sort(rank));
+  const orbitBase = $derived(connectedTo(selectedPlace).sort((a, b) => rank(a, b) || Number(temporalActive(b, year)) - Number(temporalActive(a, year))));
   const orbitPageCount = $derived(Math.max(1, Math.ceil(orbitBase.length / ORBIT_PAGE_SIZE)));
   const orbitItems = $derived(orbitBase.slice(Math.min(orbitPage, orbitPageCount - 1) * ORBIT_PAGE_SIZE, (Math.min(orbitPage, orbitPageCount - 1) + 1) * ORBIT_PAGE_SIZE));
   const FOCUS_PAGE_SIZE = 14;
