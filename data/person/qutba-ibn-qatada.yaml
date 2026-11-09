@@ -16,6 +16,8 @@ story_roles:
   - { role: commander, start: { edtf: "0629-09~" }, end: { edtf: "0629-09~" }, status: tradition, note: "قائد الميمنة في معركة مؤتة.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition }
+born: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 relations:
   - { type: participated_in, target: event/battle-of-mutah, role: right-wing-commander, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}

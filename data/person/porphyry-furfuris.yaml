@@ -18,5 +18,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "234~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Stanford Encyclopedia of Philosophy" }
+died: { edtf: "305~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Stanford Encyclopedia of Philosophy" }
 relations:
   - { type: lived_in, target: place/siqilliya, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

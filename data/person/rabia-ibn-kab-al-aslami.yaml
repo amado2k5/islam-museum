@@ -13,6 +13,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 faith:
   - { value: sunni, basis: tradition, note: "صحابي؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).", sources: [source/suwar-min-hayat-al-sahaba-nafais-1992] }
+died: { edtf: "682~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
 relations:
   - { type: member_of, target: group/aslam, sources: [source/suwar-min-hayat-al-sahaba-nafais-1992] }
   - { type: lived_in, target: place/medina, sources: [source/suwar-min-hayat-al-sahaba-nafais-1992] }

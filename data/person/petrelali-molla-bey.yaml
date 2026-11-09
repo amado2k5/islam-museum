@@ -12,6 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+died: { edtf: "1823~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: History of Tirana (Albanian Monuments)" }
 relations:
   - { type: lived_in, target: place/albania, confidence: low, note: "Of Petrela, Albania (nisba Petrelali; regions: anatolia-balkans).", sources: [source/al-aalam] }
 external_ids:

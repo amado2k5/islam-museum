@@ -10,6 +10,7 @@ traditions: [sunni-hanafi]
 periods: [period/gunpowder-empires]
 regions: [persia-central-asia]
 themes: [law-and-courts]
+died: { edtf: "1348", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/mardin, sources: [source/wikidata], confidence: low, note: "قدم القاهرة، ثم أقام بجامع ماردين يفتي ويدرس إلى أن مات سنة تسع وأربعين وسبعمائة." }
   - { type: traveled_to, target: place/cairo, sources: [source/wikidata], confidence: low, note: "قدم القاهرة، ثم أقام بجامع ماردين يفتي ويدرس إلى أن مات سنة تسع وأربعين وسبعمائة." }

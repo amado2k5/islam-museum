@@ -13,6 +13,8 @@ wings: [people]
 themes: [women, family-marriage-kinship, politics-governance-and-authority]
 periods: [period/rashidun, period/umayyad]
 regions: [arabia, levant-iraq]
+born: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: child_of, target: person/zubayr-ibn-al-awwam, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }

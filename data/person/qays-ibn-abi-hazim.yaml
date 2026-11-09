@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
+born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar)" }
+died: { edtf: "716~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/kufa, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q186234)" }
 sources: [source/al-aalam]

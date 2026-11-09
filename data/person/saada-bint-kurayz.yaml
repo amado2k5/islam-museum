@@ -15,6 +15,8 @@ wings: [people]
 themes: [women, literature, prophets]
 periods: [period/pre-islamic-arabia, period/prophetic-era]
 regions: [arabia]
+born: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: related_to, target: person/uthman-ibn-affan, note: "خالته سعدى بنت كريز؛ حدث عنها عثمان بن عفان في رؤيا إسلامه {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 197}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }

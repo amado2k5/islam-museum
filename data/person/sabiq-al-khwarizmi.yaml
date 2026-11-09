@@ -16,5 +16,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "1100~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Atibba (Ibn Abi Usaybi'a)" }
 relations:
   - { type: lived_in, target: place/khwarizm, confidence: low, note: "Association inferred from the nisba 'الخوارزمي'; specific birthplace or residence is not individually documented.", sources: [source/muruj-al-dhahab] }

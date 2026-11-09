@@ -14,6 +14,8 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: military-opponent, toward: group/early-muslims, status: tradition, note: "قاد راية الأحلاف من ثقيف يوم حنين وانحاز بهم إلى الطائف.", sources: [source/ibn-hisham-saqqa] }
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
 relations:
   - { type: participated_in, target: event/delegation-of-thaqif, role: "أسلم قبل الوفد وطلب قضاء دين الأسود", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/thaqif }

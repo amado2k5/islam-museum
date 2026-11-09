@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/colonial-era]
+born: { edtf: "1835", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Kurdish Literature" }
+died: { edtf: "1910", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Kurdish Literature" }
 relations:
   - { type: born_in, target: place/chamchamal, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q870475)" }
   - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }

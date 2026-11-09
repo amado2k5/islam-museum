@@ -11,6 +11,7 @@ roles: [poet]
 wings: [people]
 periods: [period/pre-islamic-arabia, period/prophetic-era]
 regions: [arabia]
+died: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani (Abu al-Faraj)" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "952", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Sa'd al-Dawla)" }
+died: { edtf: "991", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Sa'd al-Dawla)" }
 relations:
   - { type: lived_in, target: place/humdan, confidence: low, note: "Association inferred from the nisba 'الحمداني'; specific birthplace or residence is not individually documented.", sources: [source/bosworth-new-islamic-dynasties-1996] }

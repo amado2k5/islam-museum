@@ -13,6 +13,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1192", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kilidj Arslan II)" }
 relations:
   - { type: born_in, target: place/konya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q79857)" }
   - { type: buried_in, target: place/al-eddin-mosque, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2620007)" }

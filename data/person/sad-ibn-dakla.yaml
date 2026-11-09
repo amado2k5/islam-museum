@@ -9,6 +9,7 @@ roles: [ruler]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia]
+died: { edtf: "1226~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Salghurids)" }
 relations:
   - { type: ruled_over, target: place/shiraz, sources: [source/kamil-ibn-al-athir] }
   - { type: ruled_over, target: place/fars, sources: [source/kamil-ibn-al-athir] }

@@ -13,6 +13,8 @@ provenance:
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 303–304"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-05
+born: { edtf: "1150~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kutb al-Din Aybak)" }
+died: { edtf: "1210", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kutb al-Din Aybak)" }
 relations:
   - { type: lived_in, target: place/ghawr, sources: [source/wikidata], confidence: low, note: "Nisba الغوري attested in the record." }
 sources: [source/kamil-ibn-al-athir]

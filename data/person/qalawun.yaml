@@ -16,6 +16,8 @@ provenance:
 external_ids: { wikidata: "Q249121" }
 sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the Mansuri hospital, dome and madrasa and the works' overseer are read from al-Maqrizi's Khitat (local scan, pp. 1061, 1062, 1249); the Suyuti sentences keep their citation" }
+born: { edtf: "1222~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kalawun)" }
+died: { edtf: "1290", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kalawun)" }
 relations:
   - { type: built, target: building/qalawun-complex, sources: [source/yeomans-islamic-cairo-2006] }
 

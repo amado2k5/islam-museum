@@ -37,6 +37,7 @@ open a new block on top with the new version and today's date.
 
 ### Fixed
 - **Place map QA fixes.** The Islam Map Viewer now lives in the page flow instead of a fixed full-screen overlay, so `/ar/place/`, `/en/place/` and `/ur/place/` scroll normally by touch and mouse and the card list below is reachable; vertical swipes scroll the page while horizontal drags pan the map. Pan is clamped to the zoom so the map can no longer be dragged off-stage; the toolbar is no longer clipped under the sticky header; the year step arrows work in all three languages with direction and icons matching each page's text direction; and all map chrome (breadcrumb, controls, year label, aria-labels) is localized through `map.viewer.*` keys in Arabic, English and Urdu. Early-year region highlighting now only inherits dates through place-dating predicates (born/died/lived/ruled/occurred), so 11 AH no longer lights up the whole map. Detail pages gain Urdu region names via `schema/enums/regions.yaml` and a safe label fallback, and the "In time" strip no longer clips its edge year labels.
+- **Date enrichment (batch 08).** More undated persons gained sourced born/died years.
 - **Date enrichment (batch 07).** More undated persons gained sourced born/died years.
 - **Date enrichment (batch 06).** More undated persons gained sourced born/died years.
 - **Date enrichment (mehmed–muhammad-ibn).** Persons gained sourced born/died years — Mimar Sinan, Mihrimah Sultan, Muhammad Abduh, Mirza Rafi Sauda, the Mu'awiya records, Molla Fenari, and the large Muhammad-ibn set.

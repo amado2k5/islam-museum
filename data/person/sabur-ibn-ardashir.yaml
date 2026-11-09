@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1025", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: founder_of, target: building/dar-al-ilm-baghdad, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: ruler_of, target: place/sabur, sources: [source/fihrist-ibn-al-nadim], confidence: low, note: "552-554}، وعند المانوية أن ماني خرج يوم ملك سابور ووضع التاج على رأسه يوم الأحد أول نيسان والشمس في الحمل، وأن" }

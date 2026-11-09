@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1202", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi)" }
+died: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi)" }
 relations:
   - { type: died_in, target: place/jabala, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1010816)" }
   - { type: lived_in, target: place/old-city-of-taiz, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q139829337)" }

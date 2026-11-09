@@ -8,6 +8,8 @@ summary:
   en: "An Ansari the book lists as Ali's governor of Bahrain {cite:sallabi-ali-vol1 p. 357}. The passage gives neither the dates of his office nor any further report."
 periods: [period/rashidun]
 wings: [people]
+born: { edtf: "624~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
 relations:
   - { type: ruler_of, target: place/bahrayn, sources: [source/sallabi-ali-vol1] }
 sources: [source/sallabi-ali-vol1]

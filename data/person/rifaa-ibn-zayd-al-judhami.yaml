@@ -18,6 +18,8 @@ story_roles:
   - { role: missionary, toward: group/judham, start: { edtf: "0628~" }, status: tradition, note: "حمل كتاب النبي إلى قومه فأسلموا (ابن هشام ص243).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0628~" }, sources: [source/ibn-hisham-saqqa] }
+born: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 relations:
   - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "ركب إلى النبي بكتابه فردّ على قومه ما أُخذ", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/judham, sources: [source/ibn-hisham-saqqa] }

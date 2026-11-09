@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1732", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: History of the Nawabs of Arcot" }
 relations:
   - { type: born_in, target: place/mughal-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q33296)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]

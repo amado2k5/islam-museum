@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1889~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir (al-Hasani)" }
 relations:
   - { type: lived_in, target: place/jaunpur, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q1025475)" }
 sources: [source/al-aalam]

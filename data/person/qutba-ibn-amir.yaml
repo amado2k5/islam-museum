@@ -17,6 +17,7 @@ story_roles:
   - { role: commander, toward: event/sariyya-of-qutba-to-khatham, start: { edtf: "0631" }, status: tradition, note: "قائد سرية خثعم صفر سنة 9هـ.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
 relations:
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/sariyya-of-qutba-to-khatham, role: raid-commander, sources: [source/mubarakpuri-raheeq] }
