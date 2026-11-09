@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/contemporary-era]
+born: { edtf: "1931", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
+died: { edtf: "2007", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
 relations:
   - { type: born_in, target: place/gaya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q251329)" }
   - { type: died_in, target: place/patna, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80484)" }

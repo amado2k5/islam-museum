@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+died: { edtf: "783", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mizan al-I'tidal" }
 relations:
   - { type: participated_in, target: event/execution-of-salih-ibn-abd-al-quddus, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }
 

@@ -22,6 +22,8 @@ provenance:
 status:
   review: published
   completeness: 1
+born: { edtf: "1255", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Wafi" }
+died: { edtf: "1345", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Wafi" }
 relations:
   - { type: built, target: building/tomb-of-salar-and-sangar, sources: [source/yeomans-islamic-cairo-2006] }
 

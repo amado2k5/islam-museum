@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]
 roles: [ruler]
+died: { edtf: "1284", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj (Ibn Farhun)" }
 relations:
   - { type: ruler_of, target: place/medina, sources: [source/wikidata], confidence: low, note: "label: { ar: 'سالم بن قاسم أمير المدينة', en: 'Salim ibn Qasim, amir of Medina' }" }
   - { type: ruler_of, target: place/mecca, sources: [source/kamil-ibn-al-athir], confidence: low, note: "en: 'The Husaynid amir of Medina — defeated Qatada of Mecca at Dhu al-Hulayfa after praying at the Prophet's t" }

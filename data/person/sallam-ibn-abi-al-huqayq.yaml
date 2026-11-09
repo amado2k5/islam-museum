@@ -18,6 +18,7 @@ story_roles:
   - { role: opponent, toward: person/muhammad, start: { edtf: "0626" }, end: { edtf: "0627" }, status: historical, note: "أحد الذين حزبوا الأحزاب وألبوا القبائل على المدينة (الرحيق ص301، 319–321).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 faith:
   - { value: jewish, basis: documented, note: "سيد يهود النضير بخيبر." }
+died: { edtf: "627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Ishaq" }
 relations:
   - { type: member_of, target: group/banu-nadir }
   - { type: participated_in, target: event/battle-of-the-trench, role: "المحرض والممول للأحزاب", sources: [source/mubarakpuri-raheeq] }

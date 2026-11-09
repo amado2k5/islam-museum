@@ -8,6 +8,8 @@ summary:
 wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq]
+born: { edtf: "623", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "678", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: participated_in, target: event/salman-armenia-reinforcement, role: "عامل الكوفة المأمور بالإمداد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/banu-umayya, sources: [source/futuh-buldan-maarif-1407] }

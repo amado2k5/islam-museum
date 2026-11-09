@@ -15,5 +15,6 @@ provenance:
   run: prose-fill-persons-batch50
 sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: published, completeness: 3 }
+died: { edtf: "1333", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
 relations:
   - { type: lived_in, target: place/irbil, confidence: low, note: "Association inferred from the nisba in the name 'Salah al-Din al-Irbili'; specific residence not individually documented.", sources: [source/wafayat-ayan, source/shadharat-dhahab] }

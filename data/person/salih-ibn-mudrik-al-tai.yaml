@@ -9,6 +9,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [arabia]
+born: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
+died: { edtf: "905~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
 relations:
   - { type: traveled_to, target: place/al-ajfar, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: participated_in, target: event/yawm-al-ajfar, role: "المعتدي على الحاج", sources: [source/muntazam-ibn-al-jawzi] }

@@ -6,6 +6,8 @@ summary:
   en: "Salih ibn Ali ibn Abdullah ibn al-Abbas, prince of the Abbasid da'wa and its first governor over Syria; in al-Baladhuri: when word reached him that a company in Mount Lebanon had complained of Ba'labakk's kharaj administrator and that the Byzantines had abetted them, he sent troops who killed their fighters, kept the rest on their religion, returned them to their villages and exiled a company of Lebanon's people — whereupon al-Awza'i wrote him his famous letter decrying punishment of the many for the sins of the few; the House of the Dyers at al-Ramla passed to his heirs, seized with Umayyad wealth."
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "769", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: participated_in, target: event/al-awzai-letter-to-salih, role: "الوالي المخاطَب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: born_in, target: place/umayyad-caliphate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8575586)" }

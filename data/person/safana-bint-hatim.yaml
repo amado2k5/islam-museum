@@ -15,6 +15,8 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "كلّمته ثلاث مرات في الحظيرة حتى أطلقها (ابن هشام ص225-226).", sources: [source/ibn-hisham-saqqa] }
+born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/najd, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/tayy, sources: [source/ibn-hisham-saqqa] }

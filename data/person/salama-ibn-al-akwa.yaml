@@ -19,6 +19,8 @@ story_roles:
   - { role: commander, toward: group/early-muslims, start: { edtf: "0628" }, status: tradition, note: "فارس ورامي المسلمين في ذي قرد وخيبر (الرحيق ص362–364).", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0627~" }, note: "صحابي من أبطال الرضوان وخيبر." }
+born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "693~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "أصاب بنت أم قرفة", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/medina }

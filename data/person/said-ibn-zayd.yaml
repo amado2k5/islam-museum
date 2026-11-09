@@ -16,6 +16,8 @@ story_roles:
   - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+born: { edtf: "593~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "671~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: member_of, target: group/quraysh }
   - { type: spouse_of, target: person/fatima-bint-al-khattab }

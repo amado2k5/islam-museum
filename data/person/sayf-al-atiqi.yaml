@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1694", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd" }
+died: { edtf: "1775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd" }
 relations:
   - { type: born_in, target: place/harmah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3543429)" }
   - { type: died_in, target: place/al-ahsa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q98972377)" }

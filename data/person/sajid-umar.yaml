@@ -24,6 +24,7 @@ wings:
   - living
 regions:
   - andalus-europe
+born: { edtf: "1981", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
 relations:
   - { type: born_in, target: place/united-kingdom, sources: [source/sajidumar-official, source/listennotes-sajid-ahmed-umar] }
   - { type: lived_in, target: place/zimbabwe, sources: [source/sajidumar-official, source/listennotes-sajid-ahmed-umar] }

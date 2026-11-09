@@ -18,6 +18,7 @@ story_roles:
   - { role: official, toward: person/muhammad, status: tradition, note: "وصفه ابن إسحاق برسول رسول الله (ص9)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: member_of, target: group/banu-amir, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }

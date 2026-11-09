@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "786~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "809~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/basra, confidence: low, note: "Mawla of the Basran literary milieu (al-Fihrist).", sources: [source/fihrist-ibn-al-nadim] }

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1550~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1619~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
   - { type: buried_in, target: building/hagia-sophia, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q12506)" }

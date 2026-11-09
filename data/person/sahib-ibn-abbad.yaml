@@ -16,6 +16,8 @@ provenance:
   source: "كشف الظنون عن أسامي الكتب والفنون (ط. الفرقان 2004) ج1"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-zunun-batch-5
+born: { edtf: "938", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Udaba" }
+died: { edtf: "995", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Udaba" }
 relations:
   - { type: authored, target: work/akhbar-al-wuzara-sahib, sources: [source/kashf-zunun-furqan] }
   - { type: died_in, target: place/rayy, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q636188)" }
