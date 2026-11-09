@@ -277,3 +277,10 @@ Sweep 16801-20800 done: 4000 fiches, overwhelmingly Egyptian/Kyrgyz epitaphs; ma
 - NEW building/mausoleum-of-sultan-tekesh: Taš Kala — 2 fiches (16132,16949).
 - SKIPPED: mausoleum attributed to Fakhr al-din Razi (16950, nature ?, uncertain attribution); Shaykh Dzhunjejid mausoleum Khazry (17200, single fiche, uncertain identity); Qutluġ Tīmūr minaret (15793, nature ?).
 - Next range 20801+ to launch.
+## 2026-11-09 (p8) — TEI 20801-24800 partial matches
+
+- aslam-al-silahdar-mosque +21240: sovereign testimony 1345-46 on the Cairo mosque of Amir Aslam al-Silahdar (same amir, east of Cairo).
+- sayyida-nafisa-mosque +21401: wall-covering inscription on Sayyida Nafisa's mausoleum at Qarafa entrance — the shrine entity holds her tomb, so valid (NOT bimaristan-al-sayyida).
+- yakutiye-madrasa +22218: Yakutiye Medresesi portal construction 1310-11, Erzurum (tei now 3152,3153,22218).
+- mama-hatun-turbesi-tercan +22226: portal signature 1246-47, Tercan.
+- REJECTED: humayun-tomb (Bulandshahr idgah built "in Humayun's time" — not the Delhi tomb); tomb-of-mahmud ×2 (Shah Mahmud Qattal shrine Bari Kattri; Haji Mahmud Nuqati's Billi-Masjid Cambay — namesakes).
