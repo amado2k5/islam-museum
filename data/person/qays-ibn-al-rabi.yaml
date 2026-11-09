@@ -14,6 +14,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 themes: [scripture-and-its-sciences]
+born: { edtf: "709", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "784", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/kufa, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: student_of, target: person/abu-ishaq-al-sabii, sources: [source/mizan-itidal-bijawi-v3] }

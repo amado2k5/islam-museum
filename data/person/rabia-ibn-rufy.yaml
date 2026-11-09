@@ -18,6 +18,8 @@ story_roles:
   - { role: companion, status: tradition, note: "فارس من بني سليم شهد حنين وأوطاس وقتل دريد بن الصمة.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي من بني سليم." }
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 relations:
   - { type: traveled_to, target: place/wadi-hunayn, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/awtas, sources: [source/ibn-hisham-saqqa] }

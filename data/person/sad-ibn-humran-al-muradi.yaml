@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
+died: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
 relations:
   - { type: lived_in, target: place/balis, sources: [source/wikidata], confidence: low, note: "Nisba بالسي attested in the record." }
 sources: [source/muruj-al-dhahab]

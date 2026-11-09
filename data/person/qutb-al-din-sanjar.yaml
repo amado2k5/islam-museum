@@ -9,6 +9,7 @@ roles: [military]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq, persia-central-asia]
+died: { edtf: "1289~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidayah wa-l-Nihayah (Ibn Kathir)" }
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/kamil-ibn-al-athir], confidence: low, note: "ar: 'قطب الدين سنجر مملوك الخليفة الناصر لدين الله ولاه خوزستان بعد طشتكين أمير الحاج؛ بدا منه التغير عن الطاع" }
 sources: [source/kamil-ibn-al-athir]

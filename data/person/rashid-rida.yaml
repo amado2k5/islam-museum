@@ -10,6 +10,8 @@ gender: male
 wings: [people]
 periods: [period/modern-era]
 external_ids: { wikidata: "Q471046" }
+born: { edtf: "1865", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Rashid Rida)" }
+died: { edtf: "1935", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Rashid Rida)" }
 relations:
   - { type: born_in, target: place/qalamun, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4703072)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }

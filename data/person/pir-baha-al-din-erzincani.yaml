@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1464", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/erzincan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q136217)" }
 sources: [source/dawlat-uthmaniyya-salabi]

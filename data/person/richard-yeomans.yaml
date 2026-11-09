@@ -13,6 +13,7 @@ wings: [people, today]
 themes: [architecture, images-of-islam]
 regions: [egypt-nile]
 periods: [period/contemporary-era]
+born: { edtf: "1940~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: British Art Historians Directory" }
 relations:
   - { type: authored, target: work/art-and-architecture-of-islamic-cairo, sources: [source/yeomans-islamic-cairo-2006] }
 

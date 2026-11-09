@@ -21,6 +21,7 @@ faith:
 roles: [reciter]
 wings: [people, living]
 regions: [levant-iraq]
+born: { edtf: "1980~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kurdish Quran Reciters Directory" }
 relations:
   - { type: lived_in, target: place/sulaymaniyah, sources: [source/alquranaudio-peshawa-qadir-al-kurdi], confidence: low, note: "The Sulaymaniyah imamate rests on a single reciter-directory profile (AlQuranAudio); the wave-199 harvest settled his base as the Kurdistan Region of Iraq and left the city otherwise unresolved." }
 reach:

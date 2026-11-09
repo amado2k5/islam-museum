@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
+died: { edtf: "730", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: related_to, target: person/sulayman-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: born_in, target: place/baysan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q152368)" }

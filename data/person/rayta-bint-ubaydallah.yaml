@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch43
+born: { edtf: "730~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
+died: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
 relations:
   - { type: lived_in, target: place/humayma, sources: [source/muruj-al-dhahab] }
 sources: [source/muruj-al-dhahab]

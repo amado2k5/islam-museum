@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [east-africa]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1422", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ifat)" }
 relations:
   - { type: ruled_over, target: place/ifat, sources: [source/al-aalam] }
 sources: [source/al-aalam]

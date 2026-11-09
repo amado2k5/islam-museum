@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1356~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kara Yusuf)" }
+died: { edtf: "1420", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kara Yusuf)" }
 relations:
   - { type: born_in, target: place/erci, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q695365)" }
   - { type: died_in, target: place/ujan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q785364)" }

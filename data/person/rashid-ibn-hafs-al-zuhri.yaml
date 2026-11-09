@@ -20,5 +20,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Umayyad-era Qurashi figure (regions: arabia); no specific town attested.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

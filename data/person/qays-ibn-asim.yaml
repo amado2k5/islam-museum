@@ -19,6 +19,7 @@ story_roles:
   - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد (الرحيق ص425).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+died: { edtf: "667~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
 relations:
   - { type: traveled_to, target: place/medina, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/mustadrak-ilmiyya-ata-v3] }
   - { type: participated_in, target: event/sariyya-of-uyayna-to-banu-tamim, role: "من وفد تميم الثمانية الذين كلّموا النبي في سبي بني العنبر", sources: [source/ibn-hisham-saqqa] }

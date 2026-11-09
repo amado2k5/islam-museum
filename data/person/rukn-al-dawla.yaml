@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
+born: { edtf: "896~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Rukn al-Dawla)" }
+died: { edtf: "976", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Rukn al-Dawla)" }
 relations:
   - { type: ruler_of, target: place/jurjan, sources: [source/kamil-ibn-al-athir], confidence: low, note: "364-365}، وعند ابن الأثير سار سنة 351هـ إلى طبرستان فحصر سارية وملكها ففارق وشمكير طبرستان إلى جرجان فأقام بطب" }
   - { type: lived_in, target: place/baghdad, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "ar: 'الحسن بن بويه الديلمي، أخو علي عماد الدولة وأحمد معز الدولة، لقبه المستكفي ركن الدولة لما دخل أخوه بغداد " }

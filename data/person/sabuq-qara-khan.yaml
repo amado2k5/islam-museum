@@ -11,6 +11,7 @@ roles: [ruler]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
+died: { edtf: "955", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Satuk Boghra Khan)" }
 relations:
 - { type: "ruler_of", target: "polity/qarakhanid-dynasty", note: "أول الملوك المسلمين في تركستان", sources: [source/tarikh-ibn-khaldun-ibar] }
 - { type: ruler_of, target: place/kashgar, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'سبق قراخان ملك الترك بكاشغر؛ أول من أسلم من ملوك الترك بتركستان وتسمى عبد الملك، وكانت له تركستان وقاعدته" }

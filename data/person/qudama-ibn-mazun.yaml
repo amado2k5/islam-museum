@@ -17,6 +17,7 @@ story_roles:
   - { role: convert, status: tradition, note: "من السابقين الأولين في عدّ الرحيق المختوم ص76.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 faith:
   - { value: sunni, basis: tradition, note: "من أوائل المسلمين؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+died: { edtf: "656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: sibling_of, target: person/uthman-ibn-mazun, sources: [source/mubarakpuri-raheeq] }

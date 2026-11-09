@@ -13,6 +13,8 @@ provenance:
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 105، 117–118"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-02
+born: { edtf: "1125~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Dictionary of the Middle Ages" }
+died: { edtf: "1187", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Dictionary of the Middle Ages" }
 relations:
   - { type: ruled_over, target: place/tayma, sources: [source/kamil-ibn-al-athir], confidence: low, note: "ar: 'البرنس أرناط صاحب الكرك، يصفه ابن الأثير بأنه كان من شياطين الفرنج ومردتهم وأشدهم عداوة للمسلمين؛ عزم سنة" }
   - { type: lived_in, target: place/al-karak, sources: [source/kamil-ibn-al-athir], confidence: low, note: "105}، وسنة ثمان وسبعين عمل أسطولاً بالكرك فُرّغ قطعاً وحُمل إلى بحر أيلة فجمعها وأقلع بها فرقتين، فحصرت إحداهم" }

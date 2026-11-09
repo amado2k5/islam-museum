@@ -18,6 +18,7 @@ story_roles:
   - { role: poet, status: tradition, note: "شعره في قتل مسعدة (ص266) وفي مؤتة (ص25).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "من أصحاب النبي في سراياه (ابن هشام ص265).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (Abu al-Faraj)" }
 relations:
   - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "قتل مسعدة ثم أم قرفة بأمر زيد", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/battle-of-mutah, role: "قال شعراً في الاعتذار مما جرى", sources: [source/ibn-hisham-saqqa] }

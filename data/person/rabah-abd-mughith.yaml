@@ -13,6 +13,8 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-26
+born: { edtf: "711~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib (al-Maqqari)" }
+died: { edtf: "712~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib (al-Maqqari)" }
 relations:
   - { type: traveled_to, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
 sources: [source/nafh-tib-maqqari]

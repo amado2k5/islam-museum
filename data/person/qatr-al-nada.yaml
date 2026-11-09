@@ -17,5 +17,6 @@ status:
   review: published
   completeness: 3
 
+died: { edtf: "900", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa (al-Suyuti)" }
 relations:
   - { type: lived_in, target: place/al-rusafa, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi] }

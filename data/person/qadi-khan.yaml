@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1196", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: born_in, target: place/zg-n, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765887)" }
 sources: [source/al-aalam]

@@ -16,6 +16,8 @@ periods:
 - period/rashidun
 regions:
 - arabia
+born: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
+died: { edtf: "634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
 relations:
   - { type: participated_in, target: event/khalid-march-to-syria, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/ridda-wars, sources: [source/futuh-buldan-maarif-1407] }
