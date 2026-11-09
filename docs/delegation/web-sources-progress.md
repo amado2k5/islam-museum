@@ -304,3 +304,26 @@ Matcher candidates (38) mostly namesakes; verified accepts:
 - madrasa-al-ghawri +21253 (sovereign testimony 900/1494-95 on "mosquée al-Ġawrī" — the mosque wing of the same complex).
 - NEW building/hammam-darwaza-mosque-jaunpur (draft): Hammam Darwaza mosque Jaunpur — fiches 21030, 21031 (construction 1567-68).
 - Skipped as leads: mosque Šarġitmiš Cairo 21243, mosque Athar al-Nabbi 21258, Ribāṭ al-Athār 21246, Tatar al-Hijaziyya mosque 22883 (all single-fiche, thin identification).
+
+## 2026-11-09 (p10) — TEI 24801-28800 partial
+
+- minaret-of-masud-iii +24849 (Ghazni minaret record 1205-06; tei now 7639,24849)
+- muhafiz-khan-mosque +25407 (Ahmedabad 1485-86; tei now 11066,25407)
+- humayun-tomb +25438 (inscription on Humayun's mausoleum Delhi 1565-66 — fits post-1556 construction)
+- NEW building/mahmud-gawan-madrasa: Bidar Bahmani madrasa — fiches 24948,24949,25219 (all 1472-73)
+- REJECTED: humayun-tomb 24848 (Pilakhna well), 25413 (Humayun Darwaza = Purana Qila gate, not tomb); jalali-castle (Kashan Iran entity vs Aligarh mosque); tomb-of-mahmud 25219 (rerouted to new gawan entity); mir-ali-turbesi 25424 (mosque Machhiwara, entity is türbe elsewhere).
+
+## 2026-11-09 (p10) — TEI 24801-28800 COMPLETE + al-Andalus bonanza
+
+Range done (4000 fiches): heavy ESPAGNE/IRAK/ITALIE/INDE section.
+- alhambra +7 architectural fiches (27107 Puerta de la Justicia, 27108-9 Puerta del Vino, 27110-12 Patio Arrayanes, 27114 Puerta del Carbon); ~50 "Objet" movable-object fiches deferred (palace-associated objects, no object entities).
+- ennejma-ezzahra +41 fiches (Madīnat al-Zahrā' caliphal palace: Salon Abd al-Rahman III, baths, pavilion, etc.)
+- great-mosque-cordoba +9 (Grande Mosquée signatures 1009-10)
+- alcazar-of-the-caliphs +5 (Cordoba Alcazar palace objects 961-62/1009-10)
+- quwwat-ul-islam-mosque-delhi +24851 (Qutb al-Din Aybak mosque 1191-92)
+- tomb-of-ghiyath-al-din-tughluq +25247 (Tughluqabad mausoleum 1324-25)
+- imam-al-bahir-mosque +26502 (Bab al-Masjid mashhad Mosul 1299-1300)
+- mustansiriyya-madrasa +26575 (Baghdad 1232-33)
+- al-imam-muhsin-mosque +26575→+27024 (Mosul Jami' 1397-98)
+- REJECTED: mosque-of-mertola ×4 (Castelo objects ≠ mosque); maqam-ibrahim 28290 (Bayt Hanina Sultan Ibrahim al-Adhami ≠ Meccan maqam); jalali-castle, mir-ali-turbesi, saidabad-mosque, singar-mosque, abbas-ali-turbe (Berat), abbas-b-ali-turbesi (southern Iraq coords), humayun-tomb ×2.
+- LEADS deferred: Aljaferia palace Zaragoza (11 fiches 1081-82, no entity), Alcazaba Malaga/Almeria (no entity), Kushk-Mahal palace Fathabad ×5, Shah-i-Mardan mosque Marot, Muchchandipalli mosque Calicut, Sehwan Marwandi mausoleum, Hathazari mosque Chittagong, Chandani mosque Patan, Quwwat-adjacent Delhi mosques.
