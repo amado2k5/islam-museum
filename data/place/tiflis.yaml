@@ -11,7 +11,9 @@ periods: [period/rashidun]
 regions: [levant-iraq]
 relations:
   - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
-sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut]
+external_ids:
+  nomisma: "tiflis"
+sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut, source/nomisma]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 provenance:
   layer: own-research
