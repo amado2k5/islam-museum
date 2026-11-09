@@ -15,5 +15,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch22
+died: { edtf: "939", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sam'ani (al-Ansab)" }
 relations:
   - { type: lived_in, target: place/dabil, note: "The Dabili nisba ties him to Dabil (Dvin); rival of Ibn Nafis for the leadership.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

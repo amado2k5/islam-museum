@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "850", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Abu Zayd al-Balkhi)" }
+died: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Abu Zayd al-Balkhi)" }
 relations:
   - { type: lived_in, target: place/balkh, note: "Place association from the person's nisba/name (البلخي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1823", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ahmed Wefik Pasha)" }
+died: { edtf: "1891", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ahmed Wefik Pasha)" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

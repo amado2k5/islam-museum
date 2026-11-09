@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 gender: male
 roles: [calligrapher, artist]
 floruit: { edtf: "1682/1739", calendar: gregorian, precision: year, status: historical, note: "نشط 1682–1739م بحسب مريم اختيار {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 29}." }
+born: { edtf: "1676", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "1755", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name (القمي); denotes association, not proven residence.", sources: [source/ekhtiar-how-to-read-islamic-calligraphy-2018], confidence: low }
   - { type: exemplifies, target: concept/naskh-script, sources: [source/ekhtiar-how-to-read-islamic-calligraphy-2018] }

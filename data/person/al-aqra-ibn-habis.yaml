@@ -20,6 +20,7 @@ story_roles:
   - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "حكم في مفاخرة وفد بني تميم أن خطيب المسلمين أخطب وشاعرهم أشعر (ابن هشام 4/212).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم عام الفتح/حنين." }
+died: { edtf: "654~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "دفع عن محلّم لمكانه من خندف، ثم حمل قيساً على قبول الدية", sources: [source/ibn-hisham-saqqa] }

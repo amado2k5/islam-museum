@@ -24,5 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "835", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim / EI2" }
+died: { edtf: "912", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim / EI2" }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (misri); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -42,6 +42,8 @@ provenance:
 status:
   review: published
   completeness: 2
+born: { edtf: "787", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "813", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
 - type: born_in
   target: place/al-rusafa

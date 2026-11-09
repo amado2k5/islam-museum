@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "904~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kindi (Wulat Misr)" }
+died: { edtf: "935~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kindi (Wulat Misr)" }
 relations:
   - { type: ruler_of, target: place/al-sham, note: "From text: governor of Syria", sources: [source/kamil-ibn-al-athir] }

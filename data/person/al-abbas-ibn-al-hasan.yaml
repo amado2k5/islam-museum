@@ -15,5 +15,6 @@ provenance:
   run: prose-fill-persons-batch49
 sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi]
 status: { review: published, completeness: 3 }
+died: { edtf: "908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Al-Muqtadir's vizier; killed in the 296 deposition coup at Baghdad.", sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi, source/muruj-al-dhahab], confidence: medium }

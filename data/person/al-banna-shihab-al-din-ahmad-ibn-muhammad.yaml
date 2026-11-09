@@ -27,5 +27,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch50
+died: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat)" }
 relations:
   - { type: lived_in, target: place/dimyat, note: "From text: عالم لغوي من دمياط في مصر", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

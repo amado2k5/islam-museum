@@ -14,5 +14,7 @@ provenance:
   run: lib-futuh-buldan-batch-43
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/hamadhan, note: "From text: أهل همذان ونقضوا فقاتلهم حتى ", sources: [source/futuh-buldan-maarif-1407], confidence: low }

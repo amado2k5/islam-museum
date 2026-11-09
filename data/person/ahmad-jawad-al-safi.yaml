@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1881", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kahlah (Mu'jam al-Mu'allifin)" }
+died: { edtf: "1957", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kahlah (Mu'jam al-Mu'allifin)" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Wikidata Q796 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

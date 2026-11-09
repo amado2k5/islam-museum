@@ -15,5 +15,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch17
+born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
+died: { edtf: "641~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
 relations:
   - { type: lived_in, target: place/alexandria, note: "Ahrun the priest, the Alexandrian physician whose thirty-book Pandects Masarjis translated.", sources: [source/fihrist-ibn-al-nadim], confidence: medium }

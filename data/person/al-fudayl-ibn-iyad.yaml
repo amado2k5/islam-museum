@@ -17,5 +17,7 @@ sources: [source/muruj-al-dhahab, source/assabile-omar-abdelkafy, source/assabil
 status:
   review: published
   completeness: 3
+born: { edtf: "725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+died: { edtf: "803", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/muruj-al-dhahab, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan, source/assabile-abu-ishaq-alheweny], confidence: low }

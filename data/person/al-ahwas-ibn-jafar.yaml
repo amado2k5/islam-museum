@@ -14,5 +14,7 @@ provenance:
   run: lib-ansab-batch-7
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "540~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Asma'i (Fuhulat)" }
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Asma'i (Fuhulat)" }
 relations:
   - { type: traveled_to, target: place/najd, note: "Kilabi satirist who led Banu Amir against Banu Darim at Rahrahan (central Najd). Region-level edge.", sources: [source/ansab-al-ashraf], confidence: low }

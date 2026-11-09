@@ -16,6 +16,7 @@ story_roles:
   - { role: military-opponent, start: { edtf: "0624" }, end: { edtf: "0624" }, status: tradition, note: "خرج في جيش مكة قائداً لفصيل بني زهرة ثم ردّهم قبل اللقاء؛ لم يقاتل في بدر (الرحيق ص207-208).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: arabian-polytheism, basis: tradition, start: { edtf: "0624" }, note: "في جيش مشركي مكة وقت بدر؛ إسلامه اللاحق خارج نطاق هذا القسم.", sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "651~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: low }
   - { type: member_of, target: group/thaqif }

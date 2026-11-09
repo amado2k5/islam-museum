@@ -25,5 +25,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch49
+died: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zubaydi (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/basra, note: "From text: من أهل البصرة", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

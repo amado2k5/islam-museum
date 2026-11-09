@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "747", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+died: { edtf: "834", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
 relations:
   - { type: lived_in, target: place/kufa, note: "The Kufan Abu Nu'aym, mawla of the family of Talha ibn Ubayd Allah at Kufa, a hadith man, d. 219.", sources: [source/muruj-al-dhahab], confidence: medium }

@@ -10,6 +10,7 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [mystic, poet, writer]
+died: { edtf: "1438", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Gisu Daraz)" }
 relations:
   - { type: lived_in, target: place/iran, note: "From text: Persian (nationality adjective); broad association, flagged for review.", sources: [source/zebrowski-deccani-painting-1983], confidence: low }
   - { type: child_of, target: person/shah-raju, sources: [source/zebrowski-deccani-painting-1983] }
