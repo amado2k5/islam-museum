@@ -284,3 +284,23 @@ Sweep 16801-20800 done: 4000 fiches, overwhelmingly Egyptian/Kyrgyz epitaphs; ma
 - yakutiye-madrasa +22218: Yakutiye Medresesi portal construction 1310-11, Erzurum (tei now 3152,3153,22218).
 - mama-hatun-turbesi-tercan +22226: portal signature 1246-47, Tercan.
 - REJECTED: humayun-tomb (Bulandshahr idgah built "in Humayun's time" — not the Delhi tomb); tomb-of-mahmud ×2 (Shah Mahmud Qattal shrine Bari Kattri; Haji Mahmud Nuqati's Billi-Masjid Cambay — namesakes).
+
+## 2026-11-09 (p9) — TEI 20801-24800 India/Bangladesh-heavy tail
+
+Matcher candidates (38) mostly namesakes; verified accepts:
+- melik-mengucek-gazi-tomb +22925,22927,22929 (Mengücek Gāzi Türbesi explicitly named, Kemah/Euphrate cemetery)
+- erzen-hatun-kumbeti +22969 (Ahlat confirmed via Wikidata coords 38.76N 42.50E)
+- binat-bibi-mosque +23586 (Narinda Dhaka)
+- chaurasi-khamba-mosque +23798 (Kaman "84 columns")
+- tomb-of-sikandar-lodi +24446 (Delhi 1517-18)
+- kusumba-mosque +24635 (Manda, Naogaon district Bangladesh)
+- darasbari-mosque +23646 (Gaur madrasa Darasbari — same mosque+madrasa complex per entity summary; quarter-name caveat noted)
+- REJECTED: masjid-ibn-ladin (entity is Jeddah Q374365, fiches are Kot India); mausoleum-of-hazrat-sultan ×8 (entity in Kitob Uzbekistan vs Indian dargahs); humayun-tomb ×7 (Koppal saint's tomb, Kachhpura/Fathabad/Mandu mosque namesakes, Isa Khan proximity, 24452 predates Mughal tomb's construction); tomb-of-mahmud ×4; al-nasir-muhammad-mosque + madrasa-of-al-nasir-muhammad (Tatar al-Hijaziyya's own mosque ≠ citadel foundations); koyun-baba-tomb/−2 (mosque not tomb); bara-gumbad (proximity); darasbari-mosque Dhaka fiche 23608 (different city).
+
+## 2026-11-09 (p9 cont.) — range complete + extras
+
+- Range 20801-24800 COMPLETE (4000 fiches). India/Bangladesh Mughal-era section scanned: hundreds of dated local-mosque inscriptions — too many for entity creation; only named/identifiable monuments taken.
+- emir-qurqumas-complex +21224 (sabil frieze inscription 911/1505-06, part of his madrasa-khanqah complex).
+- madrasa-al-ghawri +21253 (sovereign testimony 900/1494-95 on "mosquée al-Ġawrī" — the mosque wing of the same complex).
+- NEW building/hammam-darwaza-mosque-jaunpur (draft): Hammam Darwaza mosque Jaunpur — fiches 21030, 21031 (construction 1567-68).
+- Skipped as leads: mosque Šarġitmiš Cairo 21243, mosque Athar al-Nabbi 21258, Ribāṭ al-Athār 21246, Tatar al-Hijaziyya mosque 22883 (all single-fiche, thin identification).
