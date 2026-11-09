@@ -14,7 +14,7 @@ periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
   - { type: child_of, target: person/ahmed-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 316"
@@ -22,4 +22,4 @@ provenance:
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch47
 status: { review: published, completeness: 3 }
-external_ids: { wikidata: Q199484 }
+external_ids: { wikidata: Q199484, nomisma: "mustafa_iii" }
