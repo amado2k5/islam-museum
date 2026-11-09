@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1211", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Daftary (Ismailis)" }
+died: { edtf: "1255", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Daftary (Ismailis)" }
 relations:
   - { type: lived_in, target: place/alamut, note: "From text: of Alamut", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

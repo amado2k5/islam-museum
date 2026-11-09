@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+died: { edtf: "1070~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
 relations:
   - { type: ruler_of, target: place/wahran, note: "From text: حاكم وهران الكونت دي الكوديت م", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: opposed, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }

@@ -6,6 +6,7 @@ summary:
   en: "Abu l-Walid al-Shaqundi, author of the famous epistle on al-Andalus's superiority over the farther shore — cited throughout Nafh al-Tib; of Granada he wrote it is 'the Damascus of al-Andalus, the theatre of eyes and ambition of souls' {cite:nafh-tib-maqqari p. 612-613}."
 gender: male
 wings: [people]
+died: { edtf: "1231", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }
   - { type: authored, target: work/risalat-al-shaqundi-fadl-al-andalus, sources: [source/nafh-tib-maqqari] }

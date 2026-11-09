@@ -11,6 +11,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 346"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-28
+born: { edtf: "730", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
+died: { edtf: "786", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Al-Mansur's chamberlain at his court.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]

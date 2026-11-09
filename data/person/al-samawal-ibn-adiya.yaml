@@ -13,6 +13,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch35
+died: { edtf: "560~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/tayma, note: "The Jewish poet of Tayma and its al-Ablaq castle.", sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq], confidence: medium }
 sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq]

@@ -17,5 +17,6 @@ status:
   review: published
   completeness: 3
 
+died: { edtf: "850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/yemen, note: "From text: of Yemen", sources: [source/muruj-al-dhahab], confidence: low }

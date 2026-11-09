@@ -11,6 +11,8 @@ roles: [caliph, ruler]
 wings: [people]
 periods: [period/umayyad]
 regions: [andalus-europe, maghreb]
+born: { edtf: "959", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
+died: { edtf: "1036", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
 relations:
 - type: ruler_of
   target: place/al-andalus

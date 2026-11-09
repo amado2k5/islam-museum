@@ -11,6 +11,7 @@ wings: [people]
 themes: [women, literature, civil-wars-and-revolts]
 periods: [period/rashidun, period/umayyad]
 regions: [levant-iraq]
+died: { edtf: "675~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Iqd al-Farid" }
 relations:
   - { type: lived_in, target: place/kufa, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
   - { type: related_to, target: person/muawiya-ibn-abi-sufyan, role: "وفدت عليه", sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }

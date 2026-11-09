@@ -20,6 +20,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: family-of-the-prophet, status: tradition, note: "أخته من الرضاعة في بني سعد بن بكر دار حليمة السعدية (الرحيق ص417).", sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/zad-al-maad], confidence: low }
   - { type: member_of, target: group/hawazin }

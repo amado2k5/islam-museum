@@ -25,5 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1266", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Barani (Tarikh-i Firuz Shahi)" }
+died: { edtf: "1316", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Barani (Tarikh-i Firuz Shahi)" }
 relations:
   - { type: ruler_of, target: place/delhi, note: "From text: سلطان دلهي الذي وسّع السلطنة إل", sources: [source/tarikh-islam-hasan-ibrahim], confidence: low }
