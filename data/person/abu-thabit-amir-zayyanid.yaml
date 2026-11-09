@@ -11,6 +11,7 @@ roles: [ruler]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
+died: { edtf: "1352", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
 relations:
 - { type: lived_in, target: place/tlemcen, note: "From text: of the Tlemcen", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
 - { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "شريك أخيه أبي سعيد في استرداد الملك", sources: [source/tarikh-ibn-khaldun-ibar] }

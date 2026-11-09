@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+died: { edtf: "1366", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
 relations:
   - { type: ruler_of, target: place/tlemcen, note: "From text: ruler of Tlemcen", sources: [source/dawlat-uthmaniyya-salabi, source/al-aalam] }
   - { type: ruler_of, target: place/tlemcen, sources: [source/dawlat-uthmaniyya-salabi] }

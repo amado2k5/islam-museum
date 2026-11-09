@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

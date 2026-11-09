@@ -12,5 +12,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
+died: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (qurashi); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }

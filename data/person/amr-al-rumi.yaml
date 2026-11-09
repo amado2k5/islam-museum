@@ -12,5 +12,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "1200~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
+died: { edtf: "1250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "Place association from the person's nisba/name (الرومي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }

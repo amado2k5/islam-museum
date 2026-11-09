@@ -19,6 +19,8 @@ story_roles:
 faith:
   - { value: christian, basis: tradition, end: { edtf: "0619~" } }
   - { value: sunni, basis: tradition, start: { edtf: "0619~" }, note: "أسلم لما عرف خبر يونس بن متى؛ مسجل في الإطار السني للمتحف." }
+born: { edtf: "619~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
 relations:
   - { type: born_in, target: place/nineveh }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0619~" }, sources: [source/mubarakpuri-raheeq] }

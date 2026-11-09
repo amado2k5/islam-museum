@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+born: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hibban (al-Thiqat)" }
+died: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hibban (al-Thiqat)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-dubayb, sources: [source/ibn-hisham-saqqa] }

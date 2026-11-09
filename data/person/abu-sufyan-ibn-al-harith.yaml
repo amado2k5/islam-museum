@@ -23,6 +23,7 @@ story_roles:
   - { role: family-of-the-prophet, status: tradition, note: "ابن عمه ورضيعه في بني سعد (الرحيق ص55).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم لاحقاً قرب فتح مكة على المشهور؛ قبل ذلك كان على دين قومه.", sources: [source/tabaqat-ibn-sad] }
+died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/tabaqat-ibn-sad, source/rijal-hawl-al-rasul-muqattam-1994], confidence: low }
   - { type: member_of, target: group/banu-hashim }

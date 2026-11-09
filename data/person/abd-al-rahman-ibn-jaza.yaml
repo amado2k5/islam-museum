@@ -12,5 +12,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba" }
 relations:
   - { type: died_in, target: place/sijistan, note: "Ali's envoy to Sijistan, killed there by Hasaka ibn Utab.", sources: [source/futuh-buldan-maarif-1407, source/sallabi-ali-vol1], confidence: medium }

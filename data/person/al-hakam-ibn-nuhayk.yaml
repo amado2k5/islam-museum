@@ -12,5 +12,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hibban (al-Thiqat)" }
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hibban (al-Thiqat)" }
 relations:
   - { type: ruler_of, target: place/kirman, note: "From text: governor of Kirman", sources: [source/futuh-buldan-maarif-1407] }

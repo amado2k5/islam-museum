@@ -11,6 +11,7 @@ roles: [ruler]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
+died: { edtf: "1352", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
 relations:
 - { type: ruler_of, target: place/tlemcen, note: "From text: ملك تلمسان في الكرة الثانية ب", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
 - { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "مسترد الملك في الكرة الثانية مع أخيه أبي ثابت", sources: [source/tarikh-ibn-khaldun-ibar] }

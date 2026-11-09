@@ -24,5 +24,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1225", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "From text: Maghrebi (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch33
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/hijaz, note: "Banu Udhra of the northern Hijaz; the Udhri love tradition places Urwa and Afra among them; flagged for review.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/muruj-al-dhahab]

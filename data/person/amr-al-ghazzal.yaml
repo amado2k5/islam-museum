@@ -17,6 +17,8 @@ wings: [people]
 themes: [literature]
 story_roles:
   - { role: artist, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
+born: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Singer in the anecdotes of Abu Sadaqa at Harun al-Rashid's court.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan], confidence: low }
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]

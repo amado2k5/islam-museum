@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "830~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: lived_in, target: place/wasit, note: "Mustamli (dictation-copyist) of Yazid ibn Harun, the traditionist of Wasit.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
   - { type: traveled_to, target: place/baghdad, note: "Brought (ushkhisa) to Baghdad among the first seven for the Mihna in 218 and returned.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }

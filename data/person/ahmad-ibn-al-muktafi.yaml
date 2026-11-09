@@ -14,5 +14,7 @@ provenance:
   run: lib-kamil-batch-9
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "920~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muruj al-Dhahab" }
+died: { edtf: "950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muruj al-Dhahab" }
 relations:
   - { type: died_in, target: place/baghdad, note: "Son of caliph al-Muktafi; hunted down under al-Qahir and walled up alive in Baghdad in 321.", sources: [source/kamil-ibn-al-athir], confidence: medium }

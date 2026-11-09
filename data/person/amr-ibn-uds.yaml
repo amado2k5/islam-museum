@@ -16,5 +16,7 @@ summary:
 wings: [people]
 themes: [literature]
 sources: [source/nihayat-al-arab-nuwayri-vol3-scan]
+born: { edtf: "560~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 3 proverbs, scan p. 13, from OCR; not image-checked)" }
 provenance: { layer: pd, source: "archive.org nefa03 (Nihayat al-Arab vol. 3), scan p. 13", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-vol3-proverbs-3" }

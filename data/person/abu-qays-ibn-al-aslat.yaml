@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/pre-islamic-arabia, period/prophetic-era]
 regions: [arabia]
+died: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/samhudi-wafa-al-wafa], confidence: low }
   - { type: member_of, target: group/al-aws, sources: [source/samhudi-wafa-al-wafa] }

@@ -10,6 +10,8 @@ roles: [vizier, patron]
 themes: [libraries-paper-and-the-book]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+born: { edtf: "1030~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
+died: { edtf: "1050~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }
   - { type: allied_with, target: person/abu-kalijar, role: "وزيره", sources: [source/muntazam-ibn-al-jawzi] }

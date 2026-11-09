@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist" }
+died: { edtf: "830~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist" }
 relations:
   - { type: ruler_of, target: place/rashid, note: "From text: أمير المؤمنين هارون الرشيد", sources: [source/fihrist-ibn-al-nadim], confidence: low }
