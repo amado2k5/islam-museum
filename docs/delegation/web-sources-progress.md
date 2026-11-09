@@ -501,3 +501,9 @@ First explore-list family scored against the eight criteria (verification date 9
 - **Rejected:** muslimscholars.info (frameset-era, all-rights-reserved, no API; Itqan narrator DB covers rijal better).
 - Registered: data/source/idai-gazetteer.yaml, scripts/harvest/sources.yaml, docs/attribution.md, source-families.md Tier-2 row + explore-list strike, external-id-patterns.yaml `idai` key, CANARY.
 - Next: continue iDAI place-id pass on the remaining major cities (bounded batches, per-record verification); explore BnF Gallica / Chester Beatty / Leiden / Princeton-Cambridge manuscript catalogues / Papyri.info; re-probe deferred hosts periodically.
+
+## 2026-11-09 (p25) — iDAI.gazetteer place-id pass batch 2: 22 more cities
+
+- Second verified batch: Antioch 2283111, Balkh 2410924, Basra 2771817, Bursa 2283204 (Prusa), Constantine 2042624, Edirne 2283001, Granada 2359867, Herat 2379586, Jerusalem 2090049, Khiva 2733465 (Chiwa), Konya 2283197, Kufa 2733318, Malaga 2359874, Murcia 2361205, Nishapur 2368554 (Neyshabur), Palermo 2359599, Samarkand 2042967, Samarra 2283182, Seville 2361218, Tlemcen 2764518, Tus 2110058, Valencia 2361215 — all doc-verified (name, coords, types; Arabic names where present).
+- **Skipped with reason:** place/wasit — iDAI entry 2769440 is typed administrative-unit at [45.82,32.52] while our record carries [46.30] flagged 'approximate until checked against a gazetteer'; ~50 km apart → not linked, flagged for coordinate reconciliation. No-match cities (gazetteer has no usable entry): Bukhara, Merv, Rayy, Qumm, Ghazna, Zaranj, Hamadhan, Istakhr, Abiward, Algiers (modern-name coverage thin).
+- halls.yaml jerusalem mirror resynced.
