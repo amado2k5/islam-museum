@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+coordinates: [35.9839, 36.9939]
+coordinate_precision: site
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
   - { type: site_of, target: event/conquest-of-qinnasrin, sources: [source/futuh-buldan-maarif-1407] }
   - { type: part_of, target: place/damascus, note: "جند من أجناد الشام", sources: [source/futuh-buldan-maarif-1407] }
