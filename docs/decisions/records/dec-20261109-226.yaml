@@ -1,0 +1,51 @@
+id: dec-20261109-226
+kind: override
+date: '2026-11-09'
+expires_at: '2027-11-09'
+question_hash: 34ac1714a802
+lane: web-sources
+class: process
+modality: website
+domain: sources
+mode: conservative
+question: 'Should the ANS MANTIS collection database (American Numismatic Society''s ~98k-object coin catalogue, ~60,672 records in the Islamic department, ODbL-licensed data with stable accession ids, NUDS/RDF/JSON-LD/Atom APIs, Nomisma-linked authorities) be onboarded as a citable source family for coin objects, and at what tier? Assessment 9 Nov 2026: authority excellent (ANS is the premier US numismatic institution; records carry agency, publication status and maintenance history); citability excellent (stable accession ids like 1917.215.2009, resolvable per-record in NUDS/XML, RDF/XML, Turtle, JSON-LD, KML); terms good — data ODbL, images Public Domain Mark / No Copyright-US; structure excellent (documented REST + Atom feeds + Solr/Lucene queries, per-record serializations); coverage fit excellent and urgent — the graph holds only 2 kind:coin objects while MANTIS carries tens of thousands of Islamic coins spanning the whole timeline, and records already link Nomisma authority/mint URIs matching the museum''s external_ids.nomisma; corroboration excellent (primary physical evidence for issuers, mints, denominations, dates, weights); language coverage moderate (legends predominantly in Arabic script, labels English); longevity excellent (institutional database since ~2007, actively maintained).'
+options:
+- 'Tier 1 citable family, facts-only'
+- 'Tier 2 citable family'
+- Tier 3 pointer only
+- Do not register
+evidence:
+- 'Live checks 2026-11-09: numismatics.org/search HTTP 200; /search/apis documents getNuds, getRDF, per-record .xml/.rdf/.ttl/.jsonld/.kml/.geojson; Atom feed /search/feed/?q=department_facet:"Islamic" returns 60,672 results; sample record 1917.215.2009 (Gold Sultani of Suleiman I, Algiers 926 H) verified in NUDS/XML with ODbL data licence, Public Domain Mark images, nomisma.org/id/ottomans authority and Wikidata-linked issuer'
+- 'docs/agents/source-families.md explore list: ''Numismatics beyond Nomisma: the ANS MANTIS database, the Tübingen Sylloge Nummorum Arabicorum, the Fitzwilliam and Ashmolean online collections'' — Nomisma.org registered Tier 2 same day (dec-20261109-224); MANTIS is its object-level counterpart'
+- 'data/object holds only two kind:coin records (duranir-andalusiyya, umm-hajara-hoard) — MANTIS is the only registered-candidate family that could supply the missing coin object class at scale'
+status: decided
+step: override
+decision: 'Tier 1 citable family, facts-only: cite {cite:ans-mantis <accession-id>} for object-level numismatic facts (denomination, mint, issuer, date, weight, fabric); catalogue prose and legend text never republished; bulk ingestion deferred pending ODbL share-alike review — pilot on a bounded set of coins of already-linked rulers first'
+correct_outcome: mantis-tier1
+wrong_outcome: register-tier1-citable
+confidence: 1
+reversible: true
+rationale: 'dec-225 answered a source-onboarding question with the no-decision outreach gate because the substring ''nomination'' appears inside ''denominations'' — the coin denomination field named in the assessment and the proposed citation form. The gate fired on a lexical accident, not on any external-communication, commission or commitment content; this is the same substring false-positive class as dec-189->190 (kid/wikidata), dec-197->204 and dec-222->224 (Arabic-in-evidence), and the fourth live specimen for the rule-precision audit. The correct ruling applies the eight onboarding criteria in docs/agents/source-families.md: the American Numismatic Society is the premier US numismatic institution with per-record maintenance history; accession ids are stable and resolvable in six serializations; the data licence is a real open licence (ODbL) with Public Domain Mark / No Copyright-US images; the API surface is documented REST plus Atom feeds; coverage is the missing coin object class itself (~60,672 Islamic-department records against 2 kind:coin objects today); records already carry Nomisma authority/mint URIs matching the museum''s external_ids.nomisma. Facts-only is chosen over bulk ingestion because ODbL share-alike attaches to derivative databases — citation of facts with attribution is clean, wholesale structured ingest needs its own licence review.'
+supersedes: dec-20261109-225
+override_reason:
+  category: rule-false-positive
+  detail: 'gate nd-outreach matched ''nomination'' as a substring of ''denominations'' (the numismatic denomination field). Same fix needed as prior specimens: word-boundary patterns or question-domain gating for substring keywords.'
+  overridden_by: devin-web-sources
+signals:
+  matched_rule_id: nd-outreach
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: devin-web-sources
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-09'
