@@ -2,19 +2,20 @@
   import { animate } from "motion";
   import { computePosition, flip, offset, shift } from "@floating-ui/dom";
   import { ChevronLeft, ChevronRight, Minus, Moon, Plus, RotateCcw, Sun } from "@lucide/svelte";
-  import { hijriToCivil } from "../../../scripts/hijri/convert";
+  import { civilToHijri, hijriToCivil } from "../../../scripts/hijri/convert";
 
   type Span = { earliest: number; latest: number };
   type Item = { id: string; cls: string; slug: string; label: string; summary?: string; href: string; span?: Span; coordinates?: [number, number]; regions?: string[]; degree?: number; mapPositions?: Record<string, [number, number]>; worldTransform?: string };
   type Link = { from: string; to: string; type: string };
   type Region = { id: string; label: string; path: string; fitPath: string; tint: number; labelX: number; labelY: number; worldTransform: string };
 
-  let { items = [], links = [], worldPaths = [], mapRegions = [], lang = "ar", t = {} }: { items: Item[]; links: Link[]; worldPaths?: string[]; mapRegions?: Region[]; lang?: string; t?: Record<string, any> } = $props();
+  let { items = [], links = [], worldPaths = [], mapRegions = [], mapPeriods = [], lang = "ar", t = {}, fullscreen = false }: { items: Item[]; links: Link[]; worldPaths?: string[]; mapRegions?: Region[]; mapPeriods?: { label: string; span: Span; regions: string[] }[]; lang?: string; t?: Record<string, any>; fullscreen?: boolean } = $props();
   const rtl = lang !== "en";
   const tt = (k: string, fb: string) => t?.[k] ?? fb;
 
-  const AH_YEAR_MIN = -74;
-  const AH_YEAR_MAX = 1448;
+  const civilExt = items.reduce((a, n) => (n.span ? { min: Math.min(a.min, n.span.earliest), max: Math.max(a.max, n.span.latest) } : a), { min: Infinity, max: -Infinity });
+  const AH_YEAR_MIN = Number.isFinite(civilExt.min) ? Math.max(-990, civilToHijri("julian", { y: civilExt.min, m: 1, d: 1 }).date.y) : -74;
+  const AH_YEAR_MAX = Number.isFinite(civilExt.max) ? Math.min(2000, civilToHijri("gregorian", { y: civilExt.max, m: 12, d: 31 }).date.y) : 1448;
   const STEP = 10;
   const W = 1000;
   const H = 560;
@@ -54,8 +55,8 @@
   let isLight = $state(false);
   let pointer = $state({ x: 0, y: 0 });
 
-  const visiblePlaces = $derived(items.filter((n) => n.cls === "place" && n.coordinates && temporalActive(n, year)));
-  const activeRegions = $derived(regions.filter((r) => items.some((n) => (n.regions ?? []).includes(r.id) && temporalActive(n, year))));
+  const visiblePlaces = $derived(items.filter((n) => n.cls === "place" && n.coordinates));
+  const activeRegions = $derived(regions.filter((r) => items.some((n) => n.cls === "place" && n.coordinates && (n.regions ?? []).includes(r.id))));
   const regionPlaces = $derived(visiblePlaces.filter((n) => (n.regions ?? []).includes(selectedRegion)).sort((a, b) => a.label.localeCompare(b.label, "ar")));
   const selectedPlaceNode = $derived(temporalActive(itemById.get(selectedPlace), year) ? itemById.get(selectedPlace) : regionPlaces[0]);
   const activeWorldTransform = $derived(
@@ -118,7 +119,7 @@
   function edgeLabel(type: string) {
     if (lang === "en") return EDGE_EN[type] ?? type.replaceAll("_", " ");
     return ({
-      born_in: "وُلد في, died_in: "توفي في", lived_in: "عاش في", occurred_at: "وقع في", located_in: "في", site_of: "موقع", built: "بنى", built_by: "بُني بأمر", teacher_of: "علّم", student_of: "تعلّم من", spouse_of: "قرين", parent_of: "والد", child_of: "ابن", sibling_of: "أخ", fought: "قاتل", allied_with: "حالف", opposed: "عارض", participated_in: "شارك في", had_participant: "شارك فيه", visited_by: "زار", traveled_to: "سافر إلى", wrote_in: "كتب في", ruled_over: "حكم", ruler_of: "حاكم", influenced: "أثّر في", influenced_by: "تأثّر بـ", patron_of: "رعى", patronized_by: "رعاه", member_of: "عضو في", has_member: "عضوه", caused: "سبّب", caused_by: "نتج عن", mentions: "يذكر", mentioned_in: "مذكور في", about: "عن", subject_of: "موضوعه"
+      born_in: "وُلد في", died_in: "توفي في", lived_in: "عاش في", occurred_at: "وقع في", located_in: "في", site_of: "موقع", built: "بنى", built_by: "بُني بأمر", teacher_of: "علّم", student_of: "تعلّم من", spouse_of: "قرين", parent_of: "والد", child_of: "ابن", sibling_of: "أخ", fought: "قاتل", allied_with: "حالف", opposed: "عارض", participated_in: "شارك في", had_participant: "شارك فيه", visited_by: "زار", traveled_to: "سافر إلى", wrote_in: "كتب في", ruled_over: "حكم", ruler_of: "حاكم", influenced: "أثّر في", influenced_by: "تأثّر بـ", patron_of: "رعى", patronized_by: "رعاه", member_of: "عضو في", has_member: "عضوه", caused: "سبّب", caused_by: "نتج عن", mentions: "يذكر", mentioned_in: "مذكور في", about: "عن", subject_of: "موضوعه"
     } as Record<string, string>)[type] ?? EDGE_EN[type] ?? type.replaceAll("_", " ");
   }
   function project(n: Item) {
@@ -207,6 +208,13 @@
     isLight = theme === "light" || (!theme && !matchMedia("(prefers-color-scheme: dark)").matches);
   });
 
+  let hdrTop = $state(64);
+  $effect(() => {
+    const measure = () => { hdrTop = Math.round(document.querySelector("header")?.getBoundingClientRect().height ?? 64); };
+    measure();
+    window.addEventListener("resize", measure);
+    return () => window.removeEventListener("resize", measure);
+  });
   let seenFirstLevel = false;
   $effect(() => {
     level;
@@ -300,6 +308,10 @@
     xian: "M-9,15 L-9,-18 L9,-18 L9,15 Z M-14,-12 L14,-12 M-14,-5 L14,-5 M-14,2 L14,2 M-14,9 L14,9 M-4,-18 L4,-24",
     kashgar: "M-18,14 L-18,-5 L18,-5 L18,14 Z M-12,-5 L-12,-12 L-6,-12 L-6,-5 M6,-5 L6,-12 L12,-12 L12,-5 M-5,14 L-5,0 L5,0 L5,14",
   };
+  function regionName(r: Region) {
+    const era = mapPeriods.filter((p) => p.regions.includes(r.id) && p.span.earliest <= year && year <= p.span.latest).sort((a, b) => (a.span.latest - a.span.earliest) - (b.span.latest - b.span.earliest))[0];
+    return era?.label ?? r.label;
+  }
   function iconPath(n: Item) {
     return ICON_PATHS[n.slug] ?? (n.cls === "building"
       ? "M-18,14 L-18,-8 L0,-18 L18,-8 L18,14 Z M-7,14 L-7,0 L7,0 L7,14"
@@ -317,8 +329,8 @@
   }
 </script>
 
-<section class="map-viewer" class:light={isLight} aria-label={tt("viewer", "عارض خريطة الإسلام")}>
-  <div class="toolbar ui">
+<div class="map-shell" class:full={fullscreen} style={`--hdr-top:${hdrTop}px`}>
+<div class="toolbar ui" style={`top:${fullscreen ? 0 : hdrTop}px`}>
     <button class="ctrl icon" onclick={back} disabled={!canBack} aria-label={tt("back", "عودة")}><RotateCcw size={16} /><span>{tt("back", "عودة")}</span></button>
     <div class="crumbs" aria-live="polite">
       <span>{tt("world", "العالم")}</span>
@@ -346,6 +358,7 @@
       </button>
     </div>
   </div>
+<section class="map-viewer" class:light={isLight} aria-label={tt("label", "عارض خريطة الإسلام")}>
 
   <div class="stage" bind:this={stageEl} class:dragging onpointerdown={dragStart} onpointermove={dragMove} onpointerup={dragEnd} onpointercancel={dragEnd} style={`--zoom:${zoom};--panx:${panX}px;--pany:${panY}px`}>
     <svg class="scene" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="xMidYMid slice" role="img" aria-label={mapAria}>
@@ -360,8 +373,8 @@
       {#if level === "world"}
         <g class="regions">
           {#each activeRegions as r}
-            <path d={r.path} class="region" style={`--tint:${r.tint}`} class:hover={hoverId === r.id} onmouseenter={() => hoverId = r.id} onmouseleave={() => hoverId = null} onclick={() => wasClick() && openRegion(r.id)} tabindex="0" role="button" aria-label={r.label} onkeydown={(e) => e.key === "Enter" && openRegion(r.id)} />
-            {#if hoverId === r.id}<text x={r.labelX} y={r.labelY} class="region-label">{r.label}</text>{/if}
+            <path d={r.path} class="region" style={`--tint:${r.tint}`} class:hover={hoverId === r.id} onmouseenter={() => hoverId = r.id} onmouseleave={() => hoverId = null} onclick={() => wasClick() && openRegion(r.id)} tabindex="0" role="button" aria-label={regionName(r)} onkeydown={(e) => e.key === "Enter" && openRegion(r.id)} />
+            <text x={r.labelX} y={r.labelY} class="region-label" class:hover-label={hoverId === r.id}>{regionName(r)}</text>
           {/each}
         </g>
       {/if}
@@ -459,11 +472,16 @@
     </div>
   {/if}
 </section>
+</div>
 
 <style>
-  .map-viewer { --gold2:#d4af37; --dark:#070707; --gold-soft:rgba(212,175,55,.16); color:var(--fg); position:relative; z-index:1; display:flex; flex-direction:column; height:min(82vh,720px); min-height:420px; margin:0 0 1.5rem; background:var(--bg); overflow:hidden; border-radius:14px; }
+  .map-viewer { --gold2:#d4af37; --dark:#070707; --gold-soft:rgba(212,175,55,.16); color:var(--fg); position:relative; z-index:1; display:flex; flex-direction:column; height:max(420px, calc(100dvh - var(--hdr-top, 64px))); background:var(--bg); overflow:hidden; border-radius:14px; }
   .map-viewer.light { background:var(--ivory); }
-  .toolbar { position:relative; z-index:5; display:flex; align-items:center; justify-content:space-between; gap:14px; padding:10px 14px 8px; }
+  .map-shell { margin:0 0 1.5rem; }
+  .map-shell.full { position:fixed; inset:0; z-index:60; margin:0; display:flex; flex-direction:column; background:var(--bg); }
+  .map-shell.full .map-viewer { flex:1; min-height:0; height:auto; border-radius:0; }
+  .map-shell.full .toolbar { margin:0; border-radius:0; }
+  .toolbar { position:sticky; top:64px; z-index:5; display:flex; align-items:center; justify-content:space-between; gap:14px; padding:10px 14px 8px; margin-bottom:8px; background:color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter:blur(6px); border-radius:10px; }
   .ctrl,.zoom button,.timebar button { background:var(--panel); border:1px solid var(--line); color:var(--fg); border-radius:999px; padding:5px 14px; cursor:pointer; font:inherit; }
   .icon { display:inline-flex; align-items:center; justify-content:center; gap:6px; min-width:34px; min-height:34px; }
   .ctrl:disabled { opacity:.4; cursor:default; }
@@ -486,7 +504,8 @@
   .world-map path { fill:rgba(212,175,55,.025); stroke:var(--gold); stroke-width:.6; vector-effect:non-scaling-stroke; opacity:.48; }
   .region { fill:rgba(212,175,55,var(--tint)); stroke:var(--gold); stroke-width:1.2; cursor:pointer; transition:filter .2s, fill .2s, stroke .2s; }
   .region:hover,.region.hover,.region.selected { fill:rgba(212,175,55,calc(var(--tint) + .20)); stroke:#f0d37a; filter:url(#glow); }
-  .region-label { fill:#d4af37; font-family:var(--ar-body); font-size:16px; text-anchor:middle; pointer-events:none; paint-order:stroke; stroke:#090909; stroke-width:4px; }
+  .region-label { fill:#d4af37; font-family:var(--ar-body); font-size:16px; text-anchor:middle; pointer-events:none; paint-order:stroke; stroke:#090909; stroke-width:4px; opacity:.78; }
+  .region-label.hover-label { opacity:1; }
   .map-viewer.light .region-label { fill:#755b10; stroke:var(--ivory); }
   .place,.orb,.center-node,.back-symbol { cursor:pointer; }
   .halo { fill:rgba(212,175,55,.08); stroke:rgba(212,175,55,.3); }
