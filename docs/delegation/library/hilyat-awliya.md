@@ -21,7 +21,10 @@
 - Identity resolution: Malik ibn Dinar the ascetic IS `person/malik-ibn-dinar-al-khattat` — the Fihrist entry (mushaf copyist for hire, d. 130 AH, kunyat Abu Yahya, mawla of a woman of Banu Sama) matches the vol. 2 notice 200 ("أبو يحي مالك بن دينار"). The slug keeps the descriptive `al-khattat`; no duplicate record needed.
 - Ahmad ibn Abi al-Hawari remains without a record — still a lead.
 
+## Batch 3 (run microsd-books-b11)
+- `concept/wali` and `concept/karamat-al-awliya`: trilingual sections appended on the introduction's "neat" (نعوت) of the friends of God and its karamat reports — the hadith qudsi on harming a wali (1/4–5), the groups listed pp. 5–17, Dhu al-Nun's description of the elite pp. 13–15 — cited `1/<page>` (vol. 1 printed = PDF page). Hilyat source added to both `sources` lists.
+- Pages read: vol. 1 pp. 4–17 in full.
+
 ## Not done / leads
-- The notices themselves (about 600) are not mined; ~595 remain after batch 2.
-- `concept/wali` and `concept/karamat-al-awliya` could take a section from the introduction (vol. 1 pp. 4–17).
-- Next high-value notices still unmined include Ahmad ibn Abi al-Hawari (vol. 10, notice 457), Sufyan al-Thawri (end of vol. 7, notice ~390s per vol. 7 index), and the vol. 9–10 Sufi shaykhs.
+- The notices themselves (about 600) are not mined; ~590 remain after batch 3.
+- Next high-value notices still unmined include Ahmad ibn Abi al-Hawari (vol. 10, notice 457 — needs a NEW record), Sufyan al-Thawri (end of vol. 7 per the vol. 7 index), and the vol. 9–10 Sufi shaykhs.
