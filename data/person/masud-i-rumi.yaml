@@ -13,6 +13,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1156", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV (I. Mesud)" }
 relations:
   - { type: buried_in, target: place/al-eddin-mosque, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim]

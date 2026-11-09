@@ -9,6 +9,8 @@ roles: [ruler, vizier]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]
+born: { edtf: "1200~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Shannbal" }
+died: { edtf: "1250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Shannbal" }
 relations:
   - { type: lived_in, target: place/mirbat, confidence: low, note: "Associated with مرباط per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]

@@ -7,6 +7,8 @@ summary:
 gender: female
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa / Aghani" }
+died: { edtf: "865~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa / Aghani" }
 relations:
   - { type: lived_in, target: place/taif, confidence: low, note: "Associated with الطائف per the record's own text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: related_to, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }

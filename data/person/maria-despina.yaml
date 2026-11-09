@@ -16,6 +16,7 @@ summary:
 wings: [people]
 themes: [literature]
 regions: [anatolia-balkans]
+died: { edtf: "1477~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Romanian principalities documents" }
 relations:
   - { type: lived_in, target: place/fars, confidence: low, note: "Associated with فارس per the record's own summary text; relation type pending review.", sources: [source/juha-nawadir-kubra-djuwaydi] }
 sources: [source/juha-nawadir-kubra-djuwaydi]

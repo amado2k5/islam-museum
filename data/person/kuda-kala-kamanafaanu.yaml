@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1613", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bell / Pyrard (Maldives)" }
 relations:
   - { type: lived_in, target: place/maldives, confidence: low, note: "Maldivian ruler per the record's own summary.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

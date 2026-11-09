@@ -16,6 +16,7 @@ story_roles:
   - { role: witness, start: { edtf: "0595~" }, status: tradition, note: "شهد خُلق النبي في التجارة ونقله إلى خديجة (الرحيق ص60-61).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 faith:
   - { value: unknown, basis: unknown }
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
 relations:
   - { type: lived_in, target: place/syria, confidence: low, note: "Associated with Syria per the record's own summary text; relation type pending review.", sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: participated_in, target: event/marriage-to-khadija, role: "نقل شهادته في التجارة إلى خديجة", sources: [source/mubarakpuri-raheeq] }

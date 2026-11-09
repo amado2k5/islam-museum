@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/contemporary-era]
+born: { edtf: "1952", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Univ. of Malaya records" }
+died: { edtf: "2023", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Univ. of Malaya records" }
 relations:
   - { type: died_in, target: place/petaling-jaya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

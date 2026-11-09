@@ -6,6 +6,7 @@ summary:
   en: "Marjana, Ubaydallah ibn Ziyad's mother, whom Shirawayh the Aswari married and for whom he built the thousand-doored Hazārdir."
 gender: female
 periods: [period/umayyad]
+died: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/qasr-hazardir, confidence: low, note: "Associated with هزاردر per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: child_of, target: person/ziyad-ibn-abi-sufyan }

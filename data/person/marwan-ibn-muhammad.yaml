@@ -13,6 +13,8 @@ summary:
   en: "Al-Tabari records Marwan ibn Muhammad's caliphate, his defeat at the Zab in 132 AH and his subsequent killing. {cite:umayyad-birth-to-fall-2006}"
 wings: [people]
 gender: male
+born: { edtf: "691", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "750", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: born_in, target: place/al-sham, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/abusir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

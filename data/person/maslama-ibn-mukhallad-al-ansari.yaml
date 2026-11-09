@@ -8,6 +8,8 @@ wings: [people]
 periods: [period/umayyad]
 faith:
   - { value: sunni, basis: tradition, note: "مترجم في الإصابة بين الصحابة (رقم 8248): ولد مقدم النبي المدينة وعدّه ابن السكن وأبو نعيم وغيرهما في الصحابة، وولي مصر والمغرب لمعاوية ومات بمصر سنة 62هـ؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md) ولا تذكر المصادر المقروءة خلافه.", sources: [source/ibn-hajar-isaba] }
+born: { edtf: "620", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "682", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/founding-of-qayrawan, role: "والي مصر والمغرب وموّلي أبي المهاجر", sources: [source/futuh-buldan-maarif-1407] }

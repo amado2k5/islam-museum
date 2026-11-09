@@ -6,6 +6,7 @@ summary:
   en: "Manuel the Roman, the eunuch; Constantine son of Heraclius sent him with three hundred ships laden with fighters — he entered Alexandria in year 25, or 23 by another report, slaying the Muslim ribat there save those who escaped; Amr ibn al-As marched on him with fifteen thousand, routed them back into the city where they set up the arrada-engines, then planted mangonels till they took the walls and entered by the sword — and Manuel was killed."
 wings: [people]
 periods: [period/rashidun]
+died: { edtf: "838~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Theophanes Continuatus" }
 relations:
   - { type: lived_in, target: place/alexandria, confidence: low, note: "Associated with الإسكندرية per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/roman-recapture-of-alexandria, role: "قائد الحملة المقتول", sources: [source/futuh-buldan-maarif-1407] }

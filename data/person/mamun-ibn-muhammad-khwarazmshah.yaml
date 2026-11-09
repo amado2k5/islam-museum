@@ -12,6 +12,7 @@ gender: male
 roles: [ruler]
 periods: [period/abbasid-fragmentation]
 floruit: { edtf: "0995/0997", calendar: julian, precision: year, status: historical, note: "Took Kath in 385/995; dirham of 387 AH {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 70}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+died: { edtf: "997", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Utbi / EI2" }
 relations:
   - { type: ruler_of, target: polity/mamunid-dynasty-khwarazm, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
   - { type: ruler_of, target: place/jurjaniyya, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }

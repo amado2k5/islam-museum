@@ -44,6 +44,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "560~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / EI2" }
+died: { edtf: "661~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / EI2" }
 relations:
 - type: lived_in
   target: place/kufa

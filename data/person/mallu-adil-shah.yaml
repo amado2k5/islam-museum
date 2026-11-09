@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1534", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Firishta / EI2" }
 relations:
   - { type: born_in, target: place/karnataka, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/bijapur-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

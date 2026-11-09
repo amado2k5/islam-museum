@@ -5,6 +5,7 @@ gender: male
 roles: [companion, general]
 traditions: [sunni]
 regions: [arabia, persia-central-asia]
+died: { edtf: "640", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/tustar, confidence: low, note: "Associated with تستر per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/banu-bakr, sources: [source/suwar-min-hayat-al-sahaba-nafais-1992], note: "سيد بني بكر وأميرهم المطاع" }

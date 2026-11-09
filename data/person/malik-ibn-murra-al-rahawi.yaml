@@ -17,6 +17,7 @@ story_roles:
   - { role: official, status: tradition, note: "رسول ملوك حمير ثم من رسل النبي إليهم (ابن هشام ص235-237).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/tabuk, confidence: low, note: "Associated with تبوك per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/letter-of-himyar-kings, role: "رسول الملوك إلى النبي", sources: [source/ibn-hisham-saqqa] }

@@ -6,6 +6,8 @@ summary:
   en: "Kumayl ibn Ziyad al-Nakha'i, one of Ali's close companions; Ali took him by the hand into the open desert and gave him counsel on knowledge and its people. This section of the book records no other episode of his life."
 wings: [people, words]
 periods: [period/rashidun]
+born: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "701~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Companion of Ali at Kufa per the record's own text.", sources: [source/sallabi-ali-vol1] }
   - { type: participated_in, target: event/ali-counsel-to-kumayl, role: "المخاطَب في الوصية", sources: [source/sallabi-ali-vol1] }

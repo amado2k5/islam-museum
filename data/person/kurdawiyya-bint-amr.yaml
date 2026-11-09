@@ -13,6 +13,8 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 faith:
   - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+born: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sifat al-Safwa" }
+died: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sifat al-Safwa" }
 relations:
   - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
   - { type: related_to, target: person/shawana, role: "خادمتها", sources: [source/sifat-al-safwa-tartusi-2012] }

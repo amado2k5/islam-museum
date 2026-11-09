@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [west-africa-sahel]
 periods: [period/gunpowder-empires]
+born: { edtf: "1463", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nayl al-Ibtihaj" }
+died: { edtf: "1548", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nayl al-Ibtihaj" }
 relations:
   - { type: born_in, target: place/timbuktu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/timbuktu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
