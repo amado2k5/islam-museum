@@ -1,0 +1,16 @@
+id: web-nomisma-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should Nomisma.org (the American Numismatic Society / Oxford-linked Linked Open Data ontology for numismatic concepts, CC-BY 3.0, with SPARQL endpoint and documented APIs) be onboarded as a citable source family for Islamic coinage, mints, issuing authorities and regnal dates, and at what tier? Assessment 9 Nov 2026: authority excellent (ANS + Oxford + INC patronage since 2010, named scientific committee); citability excellent (stable nomisma.org/id/ URIs per concept); terms CC-BY 3.0 stated on site with per-dataset licence checks needed; structure excellent (SPARQL + typed APIs + RDFa); coverage fit excellent and urgent (kind: coin objects ~2 in the graph while Islamic numismatics spans ~1,300 years of mints/reigns — coins corroborate place/person/polity across the whole timeline); corroboration excellent (coins are primary evidence for mint towns, regnal dates and titulature); Arabic-first moderate (legends Arabic, labels primarily en/de); longevity excellent (ANS institutional hosting since 2010)."
+options:
+  - "Tier 2 citable family: cite {cite:nomisma <concept-id>} for numismatic facts (mint, issuer, type, standard, date); partner-dataset records re-checked per-record for licence posture"
+  - "Tier 1 citable family, facts-only"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "Live site checked 2026-11-09: HTTP 200; site states Linked Open Data representations, SPARQL endpoint, APIs and CC-BY licensing"
+  - "docs/agents/source-families.md explore list: 'Numismatics beyond Zeno: Nomisma.org and the ANS MANTIS database, the Tübingen Sylloge Nummorum Arabicorum, the Fitzwilliam and Ashmolean online collections' — Zeno.ru already assessed to Tier 3 pointer (dec-20261108-220, robots disallow all automated access); Nomisma is the machine-readable alternative"
+  - "data/object holds only two kind:coin records (duranir-andalusiyya, umm-hajara-hoard) — numismatics is the thinnest covered class"
+proposed_action: "register source/nomisma at Tier 2 (CC-BY 3.0 permits citation with attribution; facts-only posture retained for partner datasets with unclear terms): registry entry in scripts/harvest/sources.yaml, data/source entity with reliability_note, attribution row, source-families.md Tier 2 row; pilot on 10 coin-adjacent records via SPARQL harvest"
+source: "Muse web-sources lane assessment 2026-11-09"
