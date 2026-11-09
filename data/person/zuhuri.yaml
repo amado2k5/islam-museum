@@ -10,6 +10,8 @@ themes: [arts-of-the-book]
 regions: [south-asia, persia-central-asia]
 gender: male
 roles: [poet]
+born: { edtf: "1537~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: patronized_by, target: person/ibrahim-adil-shah-ii, sources: [source/zebrowski-deccani-painting-1983] }
   - { type: lived_in, target: place/bijapur, sources: [source/zebrowski-deccani-painting-1983] }

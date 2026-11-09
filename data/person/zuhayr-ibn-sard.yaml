@@ -17,6 +17,8 @@ story_roles:
   - { role: convert, start: { edtf: "0630" }, status: tradition, note: "جاء الوفد مسلماً كما نص الرحيق.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: member_of, target: group/hawazin }
   - { type: participated_in, target: event/hawazin-delegation-and-amnesty, role: head-of-delegation, sources: [source/mubarakpuri-raheeq] }
