@@ -99,11 +99,29 @@ function wireStatic(root: HTMLElement, data: TourData): void {
   };
 
   // Wired once; each successful entry replaces the teardown below.
-  // Exit asks first; only a confirmed exit disposes the scene and returns to the
-  // museum home (two-way nav). Cancel leaves the visitor where they were.
+  // Exit asks first — with an in-page dialog, not window.confirm, which some
+  // embedded browsers suppress (a suppressed confirm() silently aborts and the
+  // button looks dead). Only a confirmed exit disposes the scene and returns to
+  // the museum home (two-way nav). Cancel leaves the visitor where they were.
+  const exitDlg = root.querySelector<HTMLElement>("#exitDlg")!;
+  const exitYes = root.querySelector<HTMLButtonElement>("#exitYes")!;
+  const exitStay = root.querySelector<HTMLButtonElement>("#exitStay")!;
   let teardown: (() => void) | null = null;
+  let exitReturn: HTMLElement | null = null;
+  const closeExit = (restore = true): void => {
+    exitDlg.classList.remove("show");
+    if (restore) (exitReturn && root.contains(exitReturn) ? exitReturn : exitBtn).focus({ preventScroll: true });
+    exitReturn = null;
+  };
   exitBtn.addEventListener("click", () => {
-    if (!window.confirm(t.exit_confirm || "Leave the 3D tour?")) return;
+    exitReturn = document.activeElement as HTMLElement | null;
+    exitDlg.classList.add("show");
+    // The safe choice takes focus, not the destructive one.
+    exitStay.focus({ preventScroll: true });
+  });
+  exitStay.addEventListener("click", () => closeExit());
+  exitYes.addEventListener("click", () => {
+    closeExit(false);
     teardown?.();
     window.location.href = `/${data.lang}/`;
   });
@@ -116,17 +134,33 @@ function wireStatic(root: HTMLElement, data: TourData): void {
     // Let the loading state paint before the heavy synchronous scene build.
     await new Promise((r) => requestAnimationFrame(r));
     // Watchdog: if three.js (or WebGL) fails to load, say so in the entry card.
-    const watchdog = window.setTimeout(
-      () => showFail(t.failed || "The 3D tour failed to load."),
-      9000
-    );
+    // First visits download the 3D engine, which can take a while on a slow
+    // connection — the limit is generous, it re-arms once the import resolves,
+    // and `done` makes it unreachable after a successful init.
+    let done = false;
+    let watchdog = window.setTimeout(() => {
+      if (!done) showFail(t.failed || "The 3D tour failed to load.");
+    }, 60000);
     try {
       const THREE = await import("three");
+      // The engine is in — what remains is the synchronous scene build, so the
+      // watchdog gets a fresh window and the spinner another chance to paint.
       window.clearTimeout(watchdog);
-      teardown = init(THREE, data, { root, enterCard, enterBtn, loading }).teardown;
-      // Land keyboard/screen-reader focus on a visible, labeled control.
-      root.querySelector<HTMLButtonElement>("#exitBtn")?.focus();
+      watchdog = window.setTimeout(() => {
+        if (!done) showFail(t.failed || "The 3D tour failed to load.");
+      }, 60000);
+      await new Promise((r) => requestAnimationFrame(r));
+      await new Promise((r) => window.setTimeout(r, 20));
+      teardown = init(THREE, data, { root, enterCard, enterBtn, loading, closeExit }).teardown;
+      done = true;
+      window.clearTimeout(watchdog);
+      // Land keyboard/screen-reader focus on the 3D view itself: the caption
+      // promises Enter crosses a doorway, which a focused button would swallow.
+      (root.querySelector<HTMLElement>("#app canvas") || root.querySelector<HTMLButtonElement>("#exitBtn"))?.focus({
+        preventScroll: true,
+      });
     } catch {
+      done = true;
       window.clearTimeout(watchdog);
       showFail(t.failed || "The 3D tour failed to load.");
     }
@@ -148,6 +182,7 @@ interface InitOpts {
   enterCard: HTMLElement;
   enterBtn: HTMLButtonElement;
   loading: HTMLElement;
+  closeExit: () => void;
 }
 
 function init(
@@ -155,7 +190,7 @@ function init(
   data: TourData,
   opts: InitOpts
 ): { teardown: () => void } {
-  const { root, enterCard, enterBtn, loading } = opts;
+  const { root, enterCard, enterBtn, loading, closeExit } = opts;
   const t = data.t;
   const lang = data.lang;
   const REDUCED = () => (matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.getAttribute("data-motion") === "reduce");
@@ -388,8 +423,13 @@ function init(
     );
     const s = 0.011;
     sp.scale.set(tex.image.width * s, tex.image.height * s, 1);
+    // Natural world size — the edge clamp shrinks labels toward it, never past it.
+    sp.userData.nw = sp.scale.x;
+    sp.userData.nh = sp.scale.y;
     return sp;
   }
+  // Floating labels get clamped to the viewport every frame (see clampLabels).
+  let labelSprites: THREE.Sprite[] = [];
 
   /* ---- Islamic ornament: pointed-arch frames, girih, dome ribs ---- */
   function pointedArchFrame(
@@ -760,6 +800,7 @@ function init(
     );
     door.position.y = 3.4;
     const label = textSprite(wingTitle(w.id), { px: 64 });
+    labelSprites.push(label);
     // Above the arch and in front of the frame so the title reads against the hall.
     label.position.set(0, 9.2, 2.4);
     g.add(frame, door, label);
@@ -941,13 +982,109 @@ function init(
     v.position.y = -0.55;
     return v;
   }
+  // A stylised Umayyad-Andalus dirham face: a rim, an inscription band and a
+  // central field with a period-plausible legend, drawn with the same canvas
+  // technique as the plaques — still a stand-in, not a scan (the viewer's note
+  // says so). Both caps get a face so turning the coin shows the reverse too.
+  function dirhamFace(reverse: boolean): THREE.CanvasTexture {
+    return canvasTex(512, 512, (g, w, h) => {
+      const cx = w / 2;
+      const cy = h / 2;
+      g.fillStyle = "#c3c6cc";
+      g.fillRect(0, 0, w, h);
+      // Brushed-silver disc.
+      const grad = g.createRadialGradient(cx - 60, cy - 60, 40, cx, cy, 260);
+      grad.addColorStop(0, "#d8dbe0");
+      grad.addColorStop(0.7, "#b9bcc3");
+      grad.addColorStop(1, "#9fa3ab");
+      g.fillStyle = grad;
+      g.beginPath();
+      g.arc(cx, cy, 250, 0, Math.PI * 2);
+      g.fill();
+      // Milled edge.
+      g.strokeStyle = "#8b8f98";
+      g.lineWidth = 5;
+      for (let a = 0; a < 90; a++) {
+        const r = (a / 90) * Math.PI * 2;
+        g.beginPath();
+        g.moveTo(cx + Math.cos(r) * 238, cy + Math.sin(r) * 238);
+        g.lineTo(cx + Math.cos(r) * 250, cy + Math.sin(r) * 250);
+        g.stroke();
+      }
+      const ink = "#5a5f68";
+      // Inscription band between two rings.
+      g.strokeStyle = ink;
+      g.lineWidth = 4;
+      g.beginPath();
+      g.arc(cx, cy, 224, 0, Math.PI * 2);
+      g.stroke();
+      g.beginPath();
+      g.arc(cx, cy, 118, 0, Math.PI * 2);
+      g.stroke();
+      g.fillStyle = ink;
+      g.font = FONT(44);
+      g.textAlign = "center";
+      g.textBaseline = "middle";
+      // The band legend — mint and place, as the real coins carry — repeated
+      // around the ring (kept in short runs so Arabic shaping still joins).
+      const band = reverse ? "ضرب في قرطبة" : "خلافة الأندلس";
+      for (let i = 0; i < 3; i++) {
+        const a = (i / 3) * Math.PI * 2 - Math.PI / 2;
+        g.save();
+        g.translate(cx + Math.cos(a) * 171, cy + Math.sin(a) * 171);
+        g.rotate(a + Math.PI / 2);
+        g.fillText(band, 0, 0);
+        g.restore();
+      }
+      // Central field.
+      g.font = FONT(64);
+      const field = reverse ? ["قرطبة", "الأندلس"] : ["درهم", "أموي"];
+      g.fillText(field[0], cx, cy - 40);
+      g.fillText(field[1], cx, cy + 40);
+      // Small rosette above and below the field text.
+      for (const oy of [-88, 88]) {
+        g.beginPath();
+        for (let k = 0; k < 12; k++) {
+          const r = k % 2 ? 6 : 14;
+          const a = (k / 12) * Math.PI * 2;
+          if (k) g.lineTo(cx + Math.cos(a) * r, cy + oy + Math.sin(a) * r);
+          else g.moveTo(cx + r, cy + oy);
+        }
+        g.closePath();
+        g.fill();
+      }
+    });
+  }
   function buildDirham(): THREE.Object3D {
-    const d = new THREE.Mesh(
-      new THREE.CylinderGeometry(0.34, 0.34, 0.06, 28),
-      new THREE.MeshStandardMaterial({ color: 0xc9ccd2, metalness: 0.85, roughness: 0.3 })
+    const g = new THREE.Group();
+    const side = new THREE.MeshStandardMaterial({
+      color: 0x9fa3ab,
+      metalness: 0.55,
+      roughness: 0.5,
+    });
+    const mkFace = (reverse: boolean) =>
+      new THREE.MeshStandardMaterial({
+        map: dirhamFace(reverse),
+        metalness: 0.55,
+        roughness: 0.45,
+      });
+    const d = new THREE.Mesh(new THREE.CylinderGeometry(0.34, 0.34, 0.06, 48), [
+      side,
+      mkFace(false),
+      mkFace(true),
+    ]);
+    // A slight raised rim, so the edge reads as struck silver.
+    const rim = new THREE.Mesh(
+      new THREE.TorusGeometry(0.335, 0.012, 8, 48),
+      side
     );
-    d.rotation.x = Math.PI / 2;
-    return d;
+    rim.rotation.x = Math.PI / 2;
+    rim.position.y = 0.028;
+    const rim2 = rim.clone();
+    rim2.position.y = -0.028;
+    g.add(d, rim, rim2);
+    g.rotation.x = Math.PI / 2;
+    return g;
   }
   function buildLamp(): THREE.Object3D {
     const pts: Array<[number, number]> = [
@@ -1003,6 +1140,7 @@ function init(
     const label = textSprite(ex.label, { px: 56 });
     label.position.set(x, 3.35, -2);
     objectsRoom.add(label);
+    labelSprites.push(label);
     const hit = new THREE.Mesh(
       new THREE.BoxGeometry(2.2, 2.6, 2.2),
       new THREE.MeshBasicMaterial({ visible: false })
@@ -1055,6 +1193,10 @@ function init(
     hallRoom = null;
     roomRepaints = [];
     gallery.remove(room);
+    labelSprites = labelSprites.filter((sp) => {
+      for (let o: THREE.Object3D | null = sp; o; o = o.parent) if (o === room) return false;
+      return true;
+    });
     for (let i = interact.length - 1; i >= 0; i--) {
       let o: THREE.Object3D | null = interact[i].obj;
       while (o && o !== room) o = o.parent;
@@ -1092,6 +1234,7 @@ function init(
         const label = textSprite(ex.label, { px: 56 });
         label.position.set(x, 5.75, z + 0.3);
         room.add(label);
+        labelSprites.push(label);
         hitY = 3.6;
         hitZ = z + 1;
       } else {
@@ -1825,6 +1968,8 @@ function init(
       player.yaw = wp.yaw;
       player.pitch = 0;
       player.target = null;
+      // Keys belong to the tour, not the strip button that launched the jump.
+      renderer.domElement.focus({ preventScroll: true });
     };
     if (REDUCED()) return go();
     fade.style.opacity = "1";
@@ -1887,7 +2032,10 @@ function init(
       if (!m.isMesh) return;
       m.geometry.dispose();
       (Array.isArray(m.material) ? m.material : [m.material]).forEach((x) => {
-        if (!keepMats.has(x)) x.dispose();
+        if (!keepMats.has(x)) {
+          (x as THREE.MeshStandardMaterial).map?.dispose();
+          x.dispose();
+        }
       });
     });
     closeCam.clear();
@@ -2268,9 +2416,24 @@ function init(
   };
   const keys: Record<string, boolean> = {};
 
+  // A panel or dialog is open — Enter/Space on its controls activate them
+  // natively; the doorway/exhibit shortcuts must not swallow them.
+  const exitDlg = $("#exitDlg");
+  const dialogOpen = (): boolean =>
+    panel.classList.contains("show") ||
+    mapPanel.classList.contains("show") ||
+    helpPanel.classList.contains("show") ||
+    journeyPanel.classList.contains("show") ||
+    journeyCard.classList.contains("show") ||
+    exitDlg.classList.contains("show");
+
   listen(window, "keydown", ((e: KeyboardEvent) => {
     if (e.key === "Escape") {
       // Escape closes open panels — focus is never trapped.
+      if (exitDlg.classList.contains("show")) {
+        closeExit();
+        return;
+      }
       if (closer.classList.contains("show")) {
         closeCloser();
         return;
@@ -2334,7 +2497,11 @@ function init(
     if (player.scene === "hall" && !e.altKey && !e.ctrlKey && !e.metaKey) {
       const digit = /^Digit([1-9])$/.exec(e.code);
       if (digit && hallWps[Number(digit[1]) - 1]) return jumpTo(hallWps[Number(digit[1]) - 1]);
-      if (e.key === "Enter" && !onControl && nearDoor) {
+      // The caption promises Enter crosses the doorway you're facing — so it
+      // works even while a top-bar or strip button holds focus (e.g. straight
+      // after entry or a strip jump). Buttons inside an open dialog keep their
+      // native activation; nothing intercepts there.
+      if (e.key === "Enter" && nearDoor && (!onControl || !dialogOpen())) {
         e.preventDefault();
         return enterPortal(nearDoor);
       }
@@ -2605,6 +2772,49 @@ function init(
     renderer.setSize(innerWidth, innerHeight);
   }) as EventListener);
 
+  // Floating exhibit/wing labels are world-scale sprites, so a long name near a
+  // screen edge can run off the viewport. Each frame the clamp caps a label's
+  // width at 60% of the screen at its depth, shrinking it further as its anchor
+  // nears an edge, and fades it out entirely before it would clip — no label is
+  // ever shown half-cut at the frame. It restores to natural size when there's
+  // room again.
+  const _lv = new THREE.Vector3();
+  function clampLabels(): void {
+    for (const sp of labelSprites) {
+      let shown = true;
+      for (let o: THREE.Object3D | null = sp; o; o = o.parent)
+        if (!o.visible) {
+          shown = false;
+          break;
+        }
+      const m = sp.material as THREE.SpriteMaterial;
+      if (!shown) {
+        if (m.opacity !== 0) m.opacity = 0;
+        continue;
+      }
+      sp.getWorldPosition(_lv);
+      const d = camera.position.distanceTo(_lv);
+      if (d < 0.2) continue;
+      _lv.project(camera);
+      if (_lv.z > 1) {
+        if (m.opacity !== 0) m.opacity = 0;
+        continue;
+      }
+      // Fade out as the anchor leaves the frame: full opacity to |x|<=0.85,
+      // gone by 1.05 — a label never renders half-clipped at the edge.
+      const fade = Math.max(0, Math.min(1, (1.05 - Math.abs(_lv.x)) / 0.2));
+      const op = fade * (sp.userData.baseOp ?? 1);
+      if (Math.abs(m.opacity - op) > 0.02) m.opacity = op;
+      if (fade <= 0) continue;
+      const fullW = 2 * d * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.aspect;
+      const room = Math.max(0.15, 1 - Math.abs(_lv.x));
+      const maxW = fullW * Math.min(0.6, room * 0.9);
+      const w = Math.min(sp.userData.nw as number, maxW);
+      if (Math.abs(w - sp.scale.x) > 0.001)
+        sp.scale.set(w, ((sp.userData.nh as number) / (sp.userData.nw as number)) * w, 1);
+    }
+  }
+
   /* ---------------- animate ---------------- */
   const clock = new THREE.Clock();
   let raf = 0;
@@ -2629,6 +2839,7 @@ function init(
       });
     }
     updatePlayer(dt);
+    if (player.scene !== "journey") clampLabels();
     if (mapPanel.classList.contains("show")) updateMapDot();
     if (closeScene) {
       // Centre the model in the space above the control bar and fit it there:
