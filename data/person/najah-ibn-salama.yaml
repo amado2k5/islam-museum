@@ -8,3 +8,6 @@ gender: male
 sources: [source/tabari-tarikh-abu-al-fadl]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 15", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); body pages read" }
+relations:
+  - { type: lived_in, target: place/samarra, note: "Placed at the Abbasid court in Samarra in al-Faraj ba'd al-Shidda." }
+  - { type: died_in, target: place/samarra, note: "Died in Samarra 245 AH per Tarajm notice." }

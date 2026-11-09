@@ -15,7 +15,11 @@ regions: [levant-iraq]
 faith:
   - value: sunni-hanbali
     basis: tradition
-relations: []
+relations:
+  - { type: born_in, target: place/harran, note: "Najib al-Din al-Harrani born in Harran per Tarikh al-Islam.", sources: [source/tarikh-islam-dhahabi] }
+  - { type: lived_in, target: place/cairo, note: "Musnid al-Diyar al-Misriyya; settled in Cairo per Tarajm notice.", sources: [source/tarikh-islam-dhahabi] }
+  - { type: died_in, target: place/cairo, note: "Died in Cairo 672 AH per Tarajm notice.", sources: [source/tarikh-islam-dhahabi] }
+  - { type: traveled_to, target: place/baghdad, note: "Traveled to Baghdad per biographical notices.", sources: [source/tarikh-islam-dhahabi] }
 sources: [source/shadharat-dhahab]
 status:
   review: published
