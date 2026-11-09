@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/prophetic-era]
 regions: [arabia]
+coordinates: [39.1525, -0.4314]
+coordinate_precision: locality
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
   - { type: located_in, target: place/yemen, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 234", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
