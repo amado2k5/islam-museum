@@ -52,3 +52,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - **بصرہ کی قضا:** [[person/kab-ibn-suwar|كعب بن سور]] («ثم أعاده ابن عامر حتى قتل يوم الجمل»)، پھر [[person/abu-musa-al-ashari|أبو موسى الأشعري]] («أمره عثمان أن يقضي») {cite:tarikh-khalifa-umari-1985 p. 179}
 - **کوفہ کی قضا:** [[person/shurayh-al-qadi|شريح]] («حتى قتل عثمان») {cite:tarikh-khalifa-umari-1985 p. 179}
 - **یمن کی قضا:** [[person/yala-ibn-umayya|يعلى بن أمية]] («على صنعاء») {cite:tarikh-khalifa-umari-1985 p. 179}
+
+## عمر عبد الکافی کی سیریز «قصہ و عبرت» سے
+بارہویں قسط میں، ساعت کی تیاری کے سلسلے میں، کہتے ہیں کہ ہم الحجاج جیسے نہیں جو روزے دار سے کہا «کل روزہ رکھو» تو اس نے جواب دیا «کیا شہزادہ مجھے ضمانت دے گا کہ میں کل تک زندہ رہوں؟»، بلکہ عثمان، عمر اور نیکوں جیسے ہیں جو موت کے فرشتے کے آنے تک حق پر قائم رہے۔ {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:08:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:09:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:09:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:10:00}
