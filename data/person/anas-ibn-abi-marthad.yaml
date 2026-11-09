@@ -16,6 +16,7 @@ story_roles:
   - { role: companion, toward: person/muhammad, status: tradition, note: "تطوّع ليلة حنين للحراسة (الرحيق ص415، عن سنن أبي داود).", sources: [source/mubarakpuri-raheeq, source/sunan-abi-dawud] }
 faith:
   - { value: sunni, basis: tradition, sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/sunan-abi-dawud], confidence: low }
   - { type: participated_in, target: event/battle-of-hunayn, role: volunteered-night-watch, sources: [source/mubarakpuri-raheeq] }

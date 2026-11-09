@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch119
+born: { edtf: "966", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "1048", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Of the Tanukhi house of qadis and adibs based in Baghdad; flagged.", sources: [source/wafayat-ayan], confidence: low }
 sources: [source/wafayat-ayan]

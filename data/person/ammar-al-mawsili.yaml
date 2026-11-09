@@ -20,6 +20,7 @@ wings: [people]
 regions: [egypt-nile, levant-iraq]
 themes: [medicine]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1010~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
 relations:
   - { type: born_in, target: place/mosul, sources: [source/tdv-ammar-b-ali] }
   - { type: lived_in, target: place/cairo, sources: [source/tdv-ammar-b-ali] }

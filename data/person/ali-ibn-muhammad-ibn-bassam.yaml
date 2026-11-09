@@ -12,6 +12,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch36
+died: { edtf: "915", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Court satirist under al-Mu'tadid.", sources: [source/muruj-al-dhahab], confidence: low }
   - { type: lived_in, target: place/qinnasrin, note: "Appointed over the post and bridge at Jund Qinnasrin.", sources: [source/muruj-al-dhahab], confidence: medium }

@@ -18,6 +18,7 @@ periods:
 regions:
 - arabia
 - levant-iraq
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba], confidence: low }
   - { type: participated_in, target: event/battle-of-fihl, sources: [source/futuh-buldan-maarif-1407] }

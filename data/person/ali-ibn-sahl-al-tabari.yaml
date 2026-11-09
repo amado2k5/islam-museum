@@ -8,6 +8,8 @@ wings: [people]
 external_ids: { wikidata: "Q1393417" }
 sources: [source/fihrist-ibn-al-nadim, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "788~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Firdaws al-Hikma / Ibn Abi Usaybi'a" }
+died: { edtf: "864~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Firdaws al-Hikma / Ibn Abi Usaybi'a" }
 relations:
   - { type: born_in, target: place/amul, note: "Wikidata Q331078 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

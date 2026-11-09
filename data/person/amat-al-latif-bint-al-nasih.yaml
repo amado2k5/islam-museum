@@ -23,6 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1202", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidaya / Tarikh al-Islam" }
+died: { edtf: "1296", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidaya / Tarikh al-Islam" }
 relations:
   - { type: buried_in, target: place/damascus, note: "Wikidata Q3766 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/damascus, note: "Wikidata Q3766 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -29,5 +29,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+died: { edtf: "1592~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib al-Sa'ira" }
 relations:
   - { type: lived_in, target: place/silves, note: "From text: تفقه على ابن النجار الحنبلي وابن الشلبي", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

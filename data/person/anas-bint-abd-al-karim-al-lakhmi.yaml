@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1350~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Record regions field is levant-iraq, flagged.", sources: [source/al-aalam], confidence: low }
 sources: [source/al-aalam]

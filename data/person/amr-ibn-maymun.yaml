@@ -13,6 +13,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "694", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: born_in, target: place/yemen, note: "Wikidata Q805 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/rashidun-caliphate, note: "Wikidata Q12490507 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

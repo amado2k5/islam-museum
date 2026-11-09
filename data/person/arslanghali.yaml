@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Russian Empire / Kazakh Khans" }
+died: { edtf: "1838~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Russian Empire / Kazakh Khans" }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

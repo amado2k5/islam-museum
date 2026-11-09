@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "791", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+died: { edtf: "863", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: related_to, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: traveled_to, target: place/khurasan, note: "Exiled to Khurasan by al-Mutawakkil.", sources: [source/muruj-al-dhahab], confidence: medium }

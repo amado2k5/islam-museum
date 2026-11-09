@@ -16,6 +16,7 @@ story_roles:
   - { role: commander, toward: event/sariyya-of-alqama-to-jeddah, start: { edtf: "0631" }, status: tradition, note: "قائد سرية سواحل جدة (الرحيق ص426).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/sariyya-of-alqama-to-jeddah, role: raid-commander, sources: [source/mubarakpuri-raheeq] }

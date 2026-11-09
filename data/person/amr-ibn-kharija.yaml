@@ -16,6 +16,7 @@ story_roles:
   - { role: witness, toward: person/muhammad, start: { edtf: "0632-03" }, status: tradition, note: "سمع النبي بعرفة في حجة الوداع (ابن هشام ص252-253).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي راوٍ عن النبي (ابن هشام ص252).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "690~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/farewell-sermon-at-arafat, role: "سمع النبي من تحت ناقته", sources: [source/ibn-hisham-saqqa] }

@@ -5,6 +5,7 @@ summary:
   ar: "عمرو بن هانئ العبسي؛ بعثه الحجاج في أهل دمشق إلى الأكراد الذين عاثوا أيام ابن الأشعث فأوقع بهم وقتل منهم خلقاً ثم أمره بغزو الديلم فغزاهم في اثني عشر ألفاً."
   en: "Amr ibn Hani' al-Absi; al-Hajjaj sent him with Damascenes against the Kurds who had ravaged in Ibn al-Ash'ath's days — he routed them and killed many — then ordered him against Daylam with twelve thousand."
 periods: [period/umayyad]
+died: { edtf: "745~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Dimashq" }
 relations:
   - { type: lived_in, target: place/damascus, note: "From text: أهل دمشق إلى الأكراد الذين عا", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/hajjaj-daylam-expedition }
