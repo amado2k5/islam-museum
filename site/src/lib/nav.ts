@@ -14,7 +14,7 @@ export const wingCountLabel = (lang: Lang, w: Wing | string) => fmt(ui(lang).win
 /** The "{n} events" template of a counted wing, or null for a wing that shows a phrase (rendered as static text). */
 export const wingCountTemplate = (lang: Lang, w: Wing | string): string | null => { const t = ui(lang).wings.counts[w]; return typeof t === "string" && t.includes("{n}") ? t : null; };
 
-export interface ExplorePage { key: "quran" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern"; href: string; ready: boolean }
+export interface ExplorePage { key: "quran" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map"; href: string; ready: boolean }
 /** The interactive explorers; `ready` flips as each phase ships, and an unfinished one links to the nearest page that exists. */
 export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "quran", href: `/${lang}/words/quran/`, ready: true },
@@ -24,6 +24,7 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "calendar", href: `/${lang}/calendar/`, ready: true },
   { key: "journeys", href: `/${lang}/journey/hijra-route/`, ready: true },
   { key: "graph", href: `/${lang}/graph/`, ready: true },
+  { key: "map", href: `/${lang}/place/`, ready: true },
   { key: "revelation", href: `/${lang}/words/revelation/`, ready: true },
   { key: "surahmaps", href: `/${lang}/surah/`, ready: true },
   { key: "cards", href: `/${lang}/cards/`, ready: true },

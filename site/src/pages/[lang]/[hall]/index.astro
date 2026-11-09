@@ -1,13 +1,18 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import MiniMap from "../../../components/MiniMap.astro";
+import MapViewer from "../../../components/MapViewer.svelte";
 import PageHeader from "../../../components/PageHeader.astro";
 import ExploreBar from "../../../components/ExploreBar.astro";
 import TodayCards from "../../../components/TodayCards.astro";
 import HijriTimeline from "../../../components/HijriTimeline.astro";
 import { ui, LANGS, WINGS, WING_PATH, fmt, type Lang, type Wing } from "../../../lib/i18n";
-import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
+import { href, labelOf, realNodes, summaryOf, graph, byId } from "../../../lib/graph";
 import { formatDate, timelineKey } from "../../../lib/dates";
+import { readFileSync } from "node:fs";
+import { feature, merge } from "topojson-client";
+import { geoContains, geoNaturalEarth1, geoPath } from "d3-geo";
+import { repoPath } from "../../../lib/paths";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => WINGS.map((w) => ({ params: { lang, hall: WING_PATH[w] }, props: { lang, wing: w } })));
@@ -34,6 +39,95 @@ const dateOf = (n: any) => {
 // land inside a link. Rendered at build time, so no-JS readers still get text.
 const short = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
 const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinates) : [];
+// The map viewer's world: country outlines projected once at build time, the
+// twelve museum regions merged from them, and every place's precomputed world
+// zoom transform and collision-free position inside each of its regions.
+const mapData = wing === "place" ? (() => {
+  const topo = JSON.parse(readFileSync(repoPath("site", "node_modules", "world-atlas", "countries-110m.json"), "utf8")) as any;
+  const world = feature(topo, topo.objects.countries) as any;
+  const projection = geoNaturalEarth1().fitSize([1000, 560], world);
+  const path = geoPath(projection as any);
+  const worldPaths = (world.features ?? [world]).map((f: any) => path(f)).filter(Boolean) as string[];
+  const placeTransforms: Record<string, string> = {};
+  for (const place of placesWithCoords) {
+    if (!place.coordinates) continue;
+    const [x, y] = projection([place.coordinates[1], place.coordinates[0]])!;
+    const zoomK = 20;
+    placeTransforms[place.id] = `translate(${(500 - x * zoomK).toFixed(2)} ${(270 - y * zoomK).toFixed(2)}) scale(${zoomK})`;
+  }
+  const regionShapes = [
+    { id: "andalus-europe", label: { ar: "الأندلس وأوروبا", en: "al-Andalus and Europe", ur: "اندلس اور یورپ" }, tint: .16, countries: ["Portugal","Spain","France","Italy","United Kingdom","Ireland","Belgium","Netherlands","Luxembourg","Germany","Switzerland","Austria","Czechia","Slovakia","Poland","Denmark","Norway","Sweden","Finland","Iceland","Estonia","Latvia","Lithuania","Belarus","Ukraine","Moldova"] },
+    { id: "maghreb", label: { ar: "المغرب العربي", en: "the Maghreb", ur: "مغرب" }, tint: .22, countries: ["Morocco","W. Sahara","Algeria","Tunisia","Libya","Mauritania"] },
+    { id: "west-africa-sahel", label: { ar: "غرب أفريقيا والساحل", en: "West Africa and the Sahel", ur: "مغربی افریقہ اور ساحل" }, tint: .30, countries: ["Senegal","Gambia","Guinea-Bissau","Guinea","Sierra Leone","Liberia","Côte d'Ivoire","Mali","Burkina Faso","Niger","Nigeria","Chad","Cameroon","Ghana","Togo","Benin"] },
+    { id: "egypt-nile", label: { ar: "مصر ووادي النيل", en: "Egypt and the Nile valley", ur: "مصر اور وادیِ نیل" }, tint: .24, countries: ["Egypt","Sudan","S. Sudan"] },
+    { id: "east-africa", label: { ar: "شرق أفريقيا والساحل السواحلي", en: "East Africa and the Swahili coast", ur: "مشرقی افریقہ اور سواحلی ساحل" }, tint: .28, countries: ["Eritrea","Djibouti","Ethiopia","Somalia","Kenya","Uganda","Rwanda","Burundi","Tanzania","Mozambique"] },
+    { id: "arabia", label: { ar: "الجزيرة العربية", en: "the Arabian peninsula", ur: "جزیرۂ عرب" }, tint: .36, countries: ["Saudi Arabia","Yemen","Oman","United Arab Emirates","Qatar","Kuwait"] },
+    { id: "levant-iraq", label: { ar: "بلاد الشام والعراق", en: "the Levant and Iraq", ur: "شام اور عراق" }, tint: .32, countries: ["Iraq","Syria","Lebanon","Jordan","Israel","Palestine","Cyprus","N. Cyprus"] },
+    { id: "anatolia-balkans", label: { ar: "الأناضول والقوقاز والبلقان", en: "Anatolia, the Caucasus and the Balkans", ur: "اناطولیہ، قفقاز اور بلقان" }, tint: .20, countries: ["Turkey","Georgia","Armenia","Azerbaijan","Greece","Albania","Macedonia","Bulgaria","Romania","Serbia","Kosovo","Montenegro","Bosnia and Herz.","Croatia","Slovenia","Hungary"] },
+    { id: "persia-central-asia", label: { ar: "بلاد فارس وآسيا الوسطى", en: "Persia and Central Asia", ur: "ایران اور وسطی ایشیا" }, tint: .40, countries: ["Iran","Afghanistan","Turkmenistan","Uzbekistan","Kazakhstan","Kyrgyzstan","Tajikistan"] },
+    { id: "south-asia", label: { ar: "جنوب آسيا", en: "South Asia", ur: "جنوبی ایشیا" }, tint: .46, countries: ["Pakistan","India","Bangladesh","Nepal","Bhutan","Sri Lanka"] },
+    { id: "southeast-asia", label: { ar: "جنوب شرق آسيا", en: "Southeast Asia", ur: "جنوب مشرقی ایشیا" }, tint: .34, countries: ["Myanmar","Thailand","Laos","Cambodia","Vietnam","Malaysia","Indonesia","Brunei","Philippines","Timor-Leste"] },
+    { id: "china-east-asia", label: { ar: "الصين وشرق آسيا", en: "China and East Asia", ur: "چین اور مشرقی ایشیا" }, tint: .26, countries: ["China","Mongolia","Taiwan","North Korea","South Korea","Japan"] },
+  ];
+  const geometries = topo.objects.countries.geometries;
+  const placePositions: Record<string, Record<string, [number, number]>> = {};
+  const mapRegions = regionShapes.map((r) => {
+    const selected = geometries.filter((g: any) => r.countries.includes(g.properties.name));
+    const geo = merge(topo, selected as any) as any;
+    const fitProjection = geoNaturalEarth1().fitExtent([[160, 70], [840, 475]], geo);
+    const fitPath = geoPath(fitProjection as any)(geo) ?? "";
+    const [[x0, y0], [x1, y1]] = path.bounds(geo);
+    const zoomK = Math.min(680 / Math.max(x1 - x0, 1), 405 / Math.max(y1 - y0, 1));
+    const worldTransform = `translate(${(500 - ((x0 + x1) / 2) * zoomK).toFixed(2)} ${(270 - ((y0 + y1) / 2) * zoomK).toFixed(2)}) scale(${zoomK.toFixed(4)})`;
+    const [labelX, labelY] = path.centroid(geo);
+    const regionalPlaces = placesWithCoords
+      .filter((place) => place.coordinates && (place.regions ?? []).includes(r.id))
+      .sort((a, b) => labelOf(a, lang).localeCompare(labelOf(b, lang), "ar"));
+    const placed: [number, number][] = [];
+    const minDistance = 44;
+    for (const place of regionalPlaces) {
+      const base = fitProjection([place.coordinates![1], place.coordinates![0]]) as [number, number];
+      const inside = (p: [number, number]) => {
+        const coordinate = fitProjection.invert?.(p);
+        return coordinate ? geoContains(geo, coordinate) : true;
+      };
+      const clear = (p: [number, number]) => placed.every((q) => Math.hypot(p[0] - q[0], p[1] - q[1]) >= minDistance);
+      let chosen = inside(base) && clear(base) ? base : null;
+      for (let radius = 8; !chosen && radius <= 220; radius += 4) {
+        const count = Math.max(12, Math.ceil(radius / 3));
+        for (let step = 0; step < count; step++) {
+          const angle = (step / count) * Math.PI * 2;
+          const candidate = [base[0] + Math.cos(angle) * radius, base[1] + Math.sin(angle) * radius] as [number, number];
+          if (inside(candidate) && clear(candidate)) { chosen = candidate; break; }
+        }
+      }
+      chosen ??= base;
+      placed.push(chosen);
+      (placePositions[place.id] ??= {})[r.id] = chosen;
+    }
+    return { id: r.id, label: (r.label as Record<string, string>)[lang] ?? r.label.ar, tint: r.tint, path: path(geo) ?? "", fitPath, labelX, labelY, worldTransform };
+  });
+  return { worldPaths, mapRegions, placePositions, placeTransforms };
+})() : { worldPaths: [] as string[], mapRegions: [] as any[], placePositions: {}, placeTransforms: {} };
+// The viewer's graph slice: every place with coordinates plus the entities one
+// edge away (people born, events that happened, works written there…), with
+// the real graph edges between them.
+const viewer = wing === "place" ? (() => {
+  const placeIds = new Set(placesWithCoords.map((n) => n.id));
+  const ids = new Set(placeIds);
+  for (const e of graph.edges) {
+    if (e.inverse) continue;
+    if (placeIds.has(e.from)) ids.add(e.to);
+    if (placeIds.has(e.to)) ids.add(e.from);
+  }
+  const useful = new Set(ids);
+  const keepClasses = new Set(["person", "event", "place", "building", "group", "work", "journey", "polity", "object"]);
+  const edges = graph.edges.filter((e) => !e.inverse && useful.has(e.from) && useful.has(e.to) && keepClasses.has(byId.get(e.from)?.class ?? "") && keepClasses.has(byId.get(e.to)?.class ?? ""));
+  const items = [...useful].map((id) => byId.get(id)).filter((n) => n && keepClasses.has(n.class)).map((n) => ({
+    id: n!.id, cls: n!.class, slug: n!.slug, label: labelOf(n!, lang), summary: summaryOf(n!, lang), href: href(lang, n!.id), span: n!.span, coordinates: n!.coordinates, regions: n!.regions, degree: n!.degree, mapPositions: (mapData.placePositions as any)[n!.id] ?? {}, worldTransform: (mapData.placeTransforms as any)[n!.id],
+  }));
+  return { items, links: edges.map((e) => ({ from: e.from, to: e.to, type: e.type })) };
+})() : { items: [], links: [] };
 // Objects hall: depict→media thumbnail index and collections grouping.
 const thumbByObject = new Map<string, { thumb: string; alt: string }>();
 if (wing === "objects") {
@@ -76,7 +170,10 @@ const collections = wing === "objects"
     )}
 
     {wing === "place" && placesWithCoords.length > 0 && (
-      <figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} declutter /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure>
+      <>
+        <MapViewer items={viewer.items} links={viewer.links} worldPaths={mapData.worldPaths} mapRegions={mapData.mapRegions} client:visible />
+        <noscript><figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} declutter /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure></noscript>
+      </>
     )}
 
     {wing === "words" && (
