@@ -15,5 +15,7 @@ provenance:
 external_ids: { wikidata: "Q293549", nomisma: "al-qa'im_bi-amr_allah" }
 sources: [source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/nomisma]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "893", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa" }
+died: { edtf: "946", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa" }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: of Upper Egypt", sources: [source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434], confidence: low }

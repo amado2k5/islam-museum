@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1073", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil" }
+died: { edtf: "1153", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil" }
 relations:
   - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (khurasani); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

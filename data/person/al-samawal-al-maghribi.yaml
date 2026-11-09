@@ -39,5 +39,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1180", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/sezgin-gas-v-mathematik, source/samawal-mactutor, source/samawal-dsb, source/karaji-mactutor], confidence: low }

@@ -12,6 +12,7 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+died: { edtf: "864", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "From text: settled at Baghdad", sources: [source/tarikh-khulafa-minhaj-1434, source/tarikh-baghdad-khatib, source/assabile-abu-ishaq-alheweny] }
   - { type: participated_in, target: event/mihna-of-the-quran, role: "الممتحَن", sources: [source/tarikh-khulafa-minhaj-1434] }

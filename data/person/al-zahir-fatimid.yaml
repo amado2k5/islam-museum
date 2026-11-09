@@ -15,5 +15,7 @@ provenance:
 external_ids: { wikidata: "Q1740272" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1005", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa" }
+died: { edtf: "1036", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa" }
 relations:
   - { type: lived_in, target: place/al-sham, note: "From text: of Syria", sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi], confidence: low }

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
+died: { edtf: "1349", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
 relations:
   - { type: ruled_over, target: polity/hafsid-dynasty, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruler_of, target: place/tunis, sources: [source/dawlat-uthmaniyya-salabi] }

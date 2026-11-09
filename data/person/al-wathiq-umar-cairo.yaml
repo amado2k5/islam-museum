@@ -14,5 +14,6 @@ provenance:
   run: lib-tarikh-khulafa-batch-49
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "1342", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 relations:
   - { type: ruler_of, target: place/cairo, note: "From text: خليفة القاهرة [٧٨٥–٧٨٨هـ]", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }

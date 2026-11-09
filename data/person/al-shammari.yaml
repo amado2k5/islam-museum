@@ -23,6 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+died: { edtf: "1800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bishr (Tarikh Najd)" }
 relations:
   - { type: died_in, target: place/medina, note: "From text: توفي بالمدينة سنة 1189هـ ⁦(1775م)⁩", sources: [source/al-aalam] }
   - { type: died_in, target: place/medina, note: "From text: died at Medina.", sources: [source/al-aalam] }

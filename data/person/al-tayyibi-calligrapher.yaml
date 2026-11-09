@@ -11,6 +11,7 @@ regions: [egypt-nile]
 gender: male
 roles: [calligrapher, writer]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1502", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kashf al-Zunun" }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/blair-islamic-calligraphy-2006], confidence: low }
   - { type: patronized_by, target: person/qansuh-al-ghawri, sources: [source/blair-islamic-calligraphy-2006] }

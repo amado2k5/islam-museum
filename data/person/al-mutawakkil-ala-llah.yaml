@@ -12,6 +12,7 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 753–763"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-49
+died: { edtf: "1406", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Inba al-Ghumr" }
 relations:
   - { type: lived_in, target: place/cairo, note: "Sixth Abbasid caliph of Cairo, 763-808.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: high }
   - { type: died_in, target: place/cairo, note: "Died in Rajab 808.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }

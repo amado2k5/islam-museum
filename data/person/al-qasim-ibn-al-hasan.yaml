@@ -12,6 +12,7 @@ wings: [people]
 themes: [sects-and-schools, civil-wars-and-revolts]
 regions: [levant-iraq]
 periods: [period/umayyad]
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidaya (Ibn Kathir)" }
 relations:
   - { type: child_of, target: person/hasan-ibn-ali }
   - { type: died_in, target: place/karbala }

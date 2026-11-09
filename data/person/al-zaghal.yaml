@@ -13,6 +13,8 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 518–519"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-55
+born: { edtf: "1444", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1494", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: ruled_over, target: place/granada, note: "Sultan of Granada after his brother's abdication.", sources: [source/nafh-tib-maqqari], confidence: high }
   - { type: lived_in, target: place/malaga, note: "Held Malaga during the Christian repulse of 888.", sources: [source/nafh-tib-maqqari], confidence: medium }

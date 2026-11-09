@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1144", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Qurra)" }
+died: { edtf: "1194", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Qurra)" }
 relations:
   - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (andalusi); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

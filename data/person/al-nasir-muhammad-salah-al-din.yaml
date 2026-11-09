@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1137", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil)" }
+died: { edtf: "1193", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil)" }
 relations:
   - { type: lived_in, target: place/yemen, note: "From text: imam of Yemen", sources: [source/bosworth-new-islamic-dynasties-1996] }

@@ -21,6 +21,8 @@ provenance:
   run: lib-tarikh-khulafa-batch-36
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
+born: { edtf: "932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
+died: { edtf: "1003", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Abbasid caliph 363-381 at Baghdad.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Died in 381; Baghdad court context, flagged.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }

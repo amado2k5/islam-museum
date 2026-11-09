@@ -22,5 +22,6 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "1500", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i" }
 relations:
   - { type: lived_in, target: place/damascus, note: "From text: from the Damascus", sources: [source/shadharat-dhahab], confidence: low }

@@ -6,6 +6,8 @@ summary:
   en: "A Medinan Companion who saw the Prophet as a boy and reported the seal of prophethood between his shoulders {cite:sahih-al-bukhari 190}; he narrated over thirty hadiths."
 wings: [people]
 roles: [companion]
+born: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "709", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (مدني); denotes association, not proven residence.", sources: [source/sahih-al-bukhari], confidence: low }
   - { type: converted_under, target: person/muhammad, note: "رآه غلاماً وروى عنه الخبر", sources: [source/sahih-al-bukhari] }

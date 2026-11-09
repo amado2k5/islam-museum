@@ -19,5 +19,7 @@ sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/m
 status:
   review: published
   completeness: 3
+born: { edtf: "908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
+died: { edtf: "968", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
 relations:
   - { type: lived_in, target: place/raqqa, note: "Place association from the person's nisba/name (الرقي); denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }
