@@ -6,6 +6,8 @@ label:
   ur: ابو بنیامین، قبطیوں کے اسقف
 gender: male
 roles: []
+born: { edtf: "590", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Atiya (Coptic Encyclopedia)" }
+died: { edtf: "662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Atiya (Coptic Encyclopedia)" }
 relations:
   - { type: lived_in, target: place/alexandria, confidence: low, note: "Associated with Alexandria per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:

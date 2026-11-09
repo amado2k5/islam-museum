@@ -18,6 +18,7 @@ story_roles:
   - { role: martyr, start: { edtf: "0628" }, status: tradition, note: "مات مسموماً من شاة خيبر (الرحيق ص377).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد خيبر." }
+died: { edtf: "628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: died_in, target: place/khaybar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/medina }

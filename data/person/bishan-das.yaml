@@ -10,6 +10,7 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [artist]
+died: { edtf: "1650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Beach (Mughal and Rajput Painting)" }
 relations:
   - { type: lived_in, target: place/india, confidence: low, note: "Mughal court painter sent on the Khan Alam embassy to Shah Abbas per the record's own summary.", sources: [source/beach-grand-mogul-1978] }
   - { type: patronized_by, target: person/jahangir-mughal, sources: [source/beach-grand-mogul-1978] }

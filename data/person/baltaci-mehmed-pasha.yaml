@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
+born: { edtf: "1662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Baltaci Mehmed Pasa)" }
+died: { edtf: "1712", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Baltaci Mehmed Pasa)" }
 relations:
   - { type: lived_in, target: place/azak, confidence: low, note: "Associated with آزاق per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/treaty-pruth-1123, role: "الصدر الأعظم", sources: [source/dawlat-uthmaniyya-salabi] }

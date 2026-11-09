@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1293", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Kathir (al-Bidaya wa'l-Nihaya)" }
 relations:
   - { type: born_in, target: place/erbil, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

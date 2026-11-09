@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1213", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Record regions field is levant-iraq, flagged.", sources: [source/al-aalam], confidence: low }
 sources: [source/al-aalam]

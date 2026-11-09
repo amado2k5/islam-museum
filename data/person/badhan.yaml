@@ -13,6 +13,7 @@ periods: [period/pre-islamic-arabia]
 regions: [arabia]
 story_roles:
   - { role: convert, status: tradition, note: "أسلم سنة 638م (17هـ تقريباً).", sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: ruler_of, target: place/yemen, end: { edtf: "0638" }, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/persian-rule-of-yemen, role: "آخر ولاة فارس الذي أنهى العهد بإسلامه", sources: [source/mubarakpuri-raheeq] }

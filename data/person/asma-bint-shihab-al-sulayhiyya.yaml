@@ -10,6 +10,7 @@ wings: [people]
 themes: [women, politics-governance-and-authority]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [arabia]
+died: { edtf: "1087", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
   - { type: ruler_of, target: place/yemen, note: "From text: king of Yemen", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: spouse_of, target: person/ali-ibn-muhammad-al-sulayhi, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }

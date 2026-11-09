@@ -7,6 +7,7 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+died: { edtf: "927", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil fi al-Tarikh)" }
 relations:
   - { type: lived_in, target: place/gorgan, confidence: low, note: "Associated with جرجان per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 provenance:
