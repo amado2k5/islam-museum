@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+born: { edtf: "1558~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Maryam / Bustan al-Azhar" }
 relations:
   - { type: lived_in, target: place/cartagena, confidence: low, note: "Associated with قرطاجنة per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/philip-ii-spain, sources: [source/dawlat-uthmaniyya-salabi] }

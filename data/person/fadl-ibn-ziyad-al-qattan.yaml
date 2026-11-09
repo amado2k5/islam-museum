@@ -9,6 +9,7 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+died: { edtf: "881", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Ya'la (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/tarikh-baghdad-khatib] }
 provenance:

@@ -24,6 +24,7 @@ story_roles:
   - { role: official, toward: person/muhammad, start: { edtf: "0628" }, status: historical, note: "سفير النبي إلى هرقل قيصر الروم (الرحيق ص356).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0625~" }, note: "صحابي جليل وسفير النبي." }
+died: { edtf: "670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: born_in, target: place/dumat-al-jandal, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/mezzeh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

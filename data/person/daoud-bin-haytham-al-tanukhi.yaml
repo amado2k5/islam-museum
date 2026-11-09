@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+died: { edtf: "1333", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 relations:
   - { type: born_in, target: place/al-anbar-governorate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/al-anbar-governorate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

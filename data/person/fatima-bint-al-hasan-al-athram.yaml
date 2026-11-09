@@ -10,6 +10,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/mongol-post-mongol]
+born: { edtf: "730~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nasab Quraysh" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

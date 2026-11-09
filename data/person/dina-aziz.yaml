@@ -12,6 +12,7 @@ summary:
 roles: [writer]
 wings: [people, living]
 regions: [global]
+born: { edtf: "1998", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary public record" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Egyptian public figure per the record's own text.", sources: [source/themuslimvibe-dina-aziz] }
 faith:

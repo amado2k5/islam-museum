@@ -11,6 +11,7 @@ regions: [south-asia]
 gender: male
 roles: [calligrapher]
 periods: [period/gunpowder-empires]
+born: { edtf: "1650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: S.H. Nasr (Islamic Art)" }
 relations:
   - { type: lived_in, target: place/india, confidence: low, note: "Mughal calligrapher, son of Kifayat Khan, per the record's own summary.", sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: child_of, target: person/kifayat-khan-calligrapher, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }

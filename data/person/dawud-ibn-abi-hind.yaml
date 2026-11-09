@@ -6,6 +6,8 @@ summary:
   en: "Dawud ibn Abi Hind of Basra; one of Sulayman ibn Ali's delegates to al-Mansur over al-Subaytiyya."
 periods: [period/abbasid-early]
 wings: [people]
+born: { edtf: "694", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "757", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/al-subaytiyya, confidence: low, note: "Associated with السبيطية per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: student_of, target: person/al-hasan-al-basri, role: "أخذ عن الحسن (PDF ص48)", sources: [source/tabaqat-fuqaha-abbas-1981] }

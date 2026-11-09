@@ -9,6 +9,7 @@ gender: male
 roles: [scholar, writer]
 wings: [people, today]
 themes: [trade-and-finance]
+died: { edtf: "1920", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kahhala (Mu'jam)" }
 relations:
   - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with القاهرة per the record's own summary text; relation type pending review.", sources: [source/yusuf-ayat-quraniyya-maskukat-2003] }
   - { type: authored, target: work/al-ayat-al-quraniyya-ala-al-maskukat, sources: [source/yusuf-ayat-quraniyya-maskukat-2003] }

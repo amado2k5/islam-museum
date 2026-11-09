@@ -27,6 +27,7 @@ wings:
   - living
 regions:
   - arabia
+born: { edtf: "1980", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary author directory" }
 relations:
   - { type: lived_in, target: place/bahrayn, confidence: low, note: "Association from the person's nisba; origin/residence pending verification.", sources: [source/wikidata] }
 faith:

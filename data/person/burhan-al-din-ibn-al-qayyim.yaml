@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1334", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Rajab (al-Dhayl)" }
+died: { edtf: "1366", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Rajab (al-Dhayl)" }
 relations:
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

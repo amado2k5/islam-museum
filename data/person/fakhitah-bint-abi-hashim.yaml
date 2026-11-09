@@ -13,6 +13,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 sources: [source/al-aalam]
+born: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
 relations:
  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
