@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/contemporary-era]
+died: { edtf: "2023", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Saudi Press Agency" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

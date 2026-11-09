@@ -11,6 +11,8 @@ roles: [philosopher, physician]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
+born: { edtf: "1250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib" }
+died: { edtf: "1295~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib" }
 relations:
   - { type: lived_in, target: place/murcia, sources: [source/nafh-tib-maqqari] }
 sources: [source/nafh-tib-maqqari]

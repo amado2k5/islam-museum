@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "990~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: UNESCO / ArchNet" }
+died: { edtf: "1020~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: UNESCO / ArchNet" }
 relations:
   - { type: died_in, target: place/karmana, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

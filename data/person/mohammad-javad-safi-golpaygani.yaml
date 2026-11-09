@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/modern-era]
+born: { edtf: "1894", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hawzah dictionary" }
+died: { edtf: "1978", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hawzah dictionary" }
 relations:
   - { type: born_in, target: place/golpayegan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/golpayegan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

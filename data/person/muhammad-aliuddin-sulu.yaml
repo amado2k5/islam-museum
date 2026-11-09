@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1763", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sulu Sultanate records" }
 relations:
   - { type: ruled_over, target: place/sulu, sources: [source/al-aalam] }
 sources: [source/al-aalam]

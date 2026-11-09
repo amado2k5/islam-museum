@@ -10,6 +10,8 @@ summary:
   en: Chief architect of the Ottoman Empire in the sixteenth century; among his works is the Selimiye Mosque in Edirne.
   ar: المعمار العثماني الأكبر في القرن العاشر الهجري، ومن أبرز أعماله مسجد السليمية في أدرنة.
 wings: [people]
+born: { edtf: "1489~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1588", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:

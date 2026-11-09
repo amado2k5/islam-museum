@@ -10,6 +10,8 @@ wings:
 - people
 periods:
 - period/abbasid-early
+born: { edtf: "789", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "847", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
 - type: related_to
   target: person/al-mutasim-abi-ishaq

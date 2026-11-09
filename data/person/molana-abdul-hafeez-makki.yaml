@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1946", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Darul Uloom Deoband" }
+died: { edtf: "2017", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Darul Uloom Deoband" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Association inferred from the nisba in the name 'Molana Abdul Hafeez Makki'; specific residence not individually documented.", sources: [source/al-aalam] }

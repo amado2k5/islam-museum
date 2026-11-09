@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1310~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
 relations:
   - { type: lived_in, target: place/baghdad, confidence: low, note: "Association inferred from the nisba 'البغدادي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

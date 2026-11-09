@@ -12,6 +12,8 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 626–636"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-37
+born: { edtf: "942", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "983", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: ruled_over, target: place/rayy, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "Given Rayy and Isfahan in the division of 365 {cite:tarikh-khulafa-minhaj-1434}" }
   - { type: ruled_over, target: place/isfahan, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "Given Rayy and Isfahan in the division of 365 {cite:tarikh-khulafa-minhaj-1434}" }

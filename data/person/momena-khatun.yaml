@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1900", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Banglapedia" }
+died: { edtf: "1974", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Banglapedia" }
 relations:
   - { type: lived_in, target: place/bengal, sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low, note: "Princess of the Bengal Sultanate per the record text." }
 sources: [source/bosworth-new-islamic-dynasties-1996]

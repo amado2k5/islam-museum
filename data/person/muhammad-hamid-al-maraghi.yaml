@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1956~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Al-Azhar registry" }
 relations:
   - { type: lived_in, target: place/maragha, confidence: low, note: "Association inferred from the nisba 'المراغي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

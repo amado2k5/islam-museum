@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+died: { edtf: "1562", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shaqaiq al-Numaniyya" }
 relations:
   - { type: born_in, target: place/antakiya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80561)" }
   - { type: died_in, target: place/south-aegean-region, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q173616)" }

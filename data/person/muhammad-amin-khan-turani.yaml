@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1721", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ma'asir al-Umara" }
 relations:
   - { type: died_in, target: place/delhi, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1353)" }
   - { type: died_in, target: place/mughal-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q33296)" }

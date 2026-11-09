@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1380", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
 relations:
   - { type: born_in, target: place/ij, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2614282)" }
 sources: [source/al-aalam]

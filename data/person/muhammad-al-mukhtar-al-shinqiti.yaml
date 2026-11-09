@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/contemporary-era]
+born: { edtf: "1942", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Council of Senior Scholars" }
 relations:
   - { type: born_in, target: place/mauritania, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1025)" }
   - { type: died_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35484)" }

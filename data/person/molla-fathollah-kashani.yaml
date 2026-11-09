@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1580", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: born_in, target: place/kashan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q240475)" }
 sources: [source/al-aalam]

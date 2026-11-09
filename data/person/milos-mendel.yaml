@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/contemporary-era]
+born: { edtf: "1952", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Czech National Authority" }
 relations:
   - { type: born_in, target: place/prague, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

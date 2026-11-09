@@ -11,6 +11,8 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
+born: { edtf: "1301", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1363", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: ruler_of, target: place/shiraz, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'مبارز الدين محمد بن المظفر اليزدي، مؤسس ملك بني المظفر الحقيقي؛ تغلب على كرمان ونواحيها ثم طمع في فارس، ف" }
   - { type: ruled_over, target: place/kirman, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'مبارز الدين محمد بن المظفر اليزدي، مؤسس ملك بني المظفر الحقيقي؛ تغلب على كرمان ونواحيها ثم طمع في فارس، ف" }
