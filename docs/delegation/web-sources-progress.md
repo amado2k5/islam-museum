@@ -197,3 +197,8 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 - Enriched: al-muayyad-mosque-cairo +9039,9343,9344,9345,9346,9347,9348 (7 Cairo inscriptions for the Mu'ayyad Shaykh complex near Bab Zuwayla — matcher hit bab-zuwayla on proximity but the mosque entity exists; corrected); qarawiyyin +9177.
 - REJECTED: 8983 Bursa Orhan Camii ≠ tomb-of-orhan-gazi; 9165 Tlemcen Mechouar mosque ≠ el-mechouar-palace; 9330 Aleppo Zakki ≠ cairo bab-al-nasr; 9410 Bursa Selcuk Hatun Mescidi ≠ istanbul selcuk-hatun-mosque nor the two tomb entities; 9433 Marrakesh Kutubiyya mosque — only object/minbar-kutubiyya exists (LEAD: no building entity for the mosque); 9450 Safad Jami' Iskandar ≠ johor sultan-iskandar-mosque; 9508 Konya Darül-huffazı in Gazi Alemşah quarter ≠ alemsah-tomb (quarter-name); 9532 Damascus citadel Bab al-Nasr ≠ cairo gate.
 - Hassan cluster CHECKED: al-hassan-mosque (Q141458797 = unfinished Rabat Hassan mosque), hassan-mosque (Q60536409 = 1196 Moroccan heritage mosque, different coords), hassan-ii-mosque (Q41346 = Casablanca 1993) — three DISTINCT mosques, no merge.
+
+## 2026-11-09 (p4 cont.) — TEI 8801-12800 partial ~1135: +4 fiches, 2 entities
+
+- Enriched: dastur-khan-mosque +9880 (Ahmedabad Dastur Khan mosque construction text, Astodia Chakla, 1462-1463 — entity IS the Ahmedabad mosque); qarawiyyin +9802,9803,9804 (Bab Sbitrin + Bab Jana'iz gates, 1136-1137).
+- REJECTED: 9616 Kastamonu Ismail Bey CAMII (mosque portal) ≠ ismail-bey-tomb; 9791 Cairo Khushqadam-Ahmadi mosque ≠ tunis mosque-of-el-ahmadi; 9856 Cairo Sayyida Ruqayya ≠ baghdad bimaristan; 9873 Aleppo Maqam ≠ Mecca; 9882 Haram well of Ibrahim al-Rumi/Sabil al-Basiri — monument is a well, not the oratory (proximity).
