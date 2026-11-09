@@ -22,5 +22,7 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 179 (EI2 enrichment, batch ei2-b003 part 3ah)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+born: { edtf: "910~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (same as Abu Ya'qub al-Sijistani)" }
+died: { edtf: "971~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (same as Abu Ya'qub al-Sijistani)" }
 relations:
   - { type: lived_in, target: place/sijistan, note: "Place association from the person's nisba/name (السجزي); denotes association, not proven residence.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

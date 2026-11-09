@@ -17,5 +17,7 @@ provenance:
   model: "SWE-2 Flash High"
 sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434]
 status: { review: published, completeness: 3 }
+born: { edtf: "906", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+died: { edtf: "944", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/kufa, note: "From text: أقام بظاهر الكوفة ستة أيام", sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434] }

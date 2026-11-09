@@ -11,6 +11,8 @@ regions: [andalus-europe]
 gender: female
 roles: [scholar]
 periods: [period/colonial-era]
+born: { edtf: "1843", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ODNB (Oxford Dictionary of National Biography)" }
+died: { edtf: "1926", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ODNB (Oxford Dictionary of National Biography)" }
 relations:
   - { type: lived_in, target: place/cambridge, note: "Scottish Orientalist of Cambridge, as the source itself states.", sources: [source/mingana-lewis-leaves-from-three-ancient-qurans-1914], confidence: high }
   - { type: authored, target: work/leaves-from-three-ancient-qurans, sources: [source/mingana-lewis-leaves-from-three-ancient-qurans-1914] }

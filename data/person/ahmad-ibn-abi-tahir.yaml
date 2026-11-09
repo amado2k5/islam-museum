@@ -11,5 +11,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "819", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist); EI2" }
+died: { edtf: "893", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist); EI2" }
 relations:
   - { type: lived_in, target: place/merv, note: "Place association from the person's nisba/name (المروزي); denotes association, not proven residence.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }

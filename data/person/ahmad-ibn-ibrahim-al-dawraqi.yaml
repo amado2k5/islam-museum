@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "784", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Tahdhib al-Kamal" }
+died: { edtf: "860", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "From text: محدث بغداد القرن التاسع", sources: [source/al-aalam], confidence: low }

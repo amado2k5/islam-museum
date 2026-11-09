@@ -19,5 +19,7 @@ provenance:
   generated_by: "Claude Code (claude-haiku-5-5)"
   run: ei2-b003-part3ab
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+born: { edtf: "1424", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; EI2" }
+died: { edtf: "1469", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; EI2" }
 relations:
   - { type: lived_in, target: place/khurasan, note: "From text: of Khurasan", sources: [source/encyclopaedia-of-islam-2], confidence: low }

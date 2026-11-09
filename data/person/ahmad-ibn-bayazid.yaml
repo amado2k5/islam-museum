@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans, egypt-nile]
 periods: [period/gunpowder-empires]
+born: { edtf: "1465", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Bayezid II); Inalcik (The Ottoman Empire)" }
+died: { edtf: "1513", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Bayezid II); Inalcik (The Ottoman Empire)" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }

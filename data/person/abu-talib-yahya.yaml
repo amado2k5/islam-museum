@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "951", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+died: { edtf: "1033", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
