@@ -46,3 +46,11 @@ translators: []
 
 ## في برنامج عبد الرحمن منصور «أهالينا»
 ينقل [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] في الحلقة الأولى من برنامجه [[work/ahaleena|«أهالينا»]] عن ابن القيم، بعد آية خلق الأزواج للسكن والمودة والرحمة، أن الله جعل المرأة سكنًا للرجل يسكن إليها قلبه، وجعل بين الزوجين المودة، وهي خالص الحب، مقترنة بالرحمة. {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:04:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:05:00} ويبني على ذلك أن العلاقة الزوجية متميزة في الإسلام ولها وسائل تحفظها. {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:05:00}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 7)⁩
+
+ينقل الشيخ عن ابن قيم الجوزية أن من أراد أن يعرف قيمته عند مولاه فلينظر فيما أقامه، أي فيما أقامه الله من نعمة عليه. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:58:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:59:30}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 8)⁩
+
+ينقل الشيخ أن الأنبياء ورثوا العلم الذي علّمهم الله، ويذكر ابن قيم الجوزية فيمن ورث نور الأنبياء. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:40:00} ⁦(needs_source: صياغة التسجيل مضطربة)⁩

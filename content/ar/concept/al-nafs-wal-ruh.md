@@ -53,3 +53,7 @@ translators: []
 
 ## في برنامج الشعراوي «لقاء الإيمان»
 في الحلقة التاسعة من [[work/likaa-al-iman|لقاء الإيمان]] يسأل المقدّم عن الروح بعد أن فسّرها العلماء تفاسير مختلفة. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep09 00:00:00} فيقول [[person/muhammad-mutawalli-al-shaarawi|الشعراوي]] بحدّة إن كل من فسّرها مخطئ، لأن الله جعلها من أمره ولم يؤت الناس من العلم إلا قليلاً. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep09 00:00:30} ويستدل بأن الروح بمجرد وجودها في المادة تنشأ الحياة وتعمل الأجهزة، فإذا خرجت صار الجسد رمّة يقرف منها أعز الناس إليه. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep09 00:00:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep09 00:01:00} ثم يسأل: هذه الروح التي تدير جسمك، هل رأيتها أو سمعتها أو شممتها أو لمستها؟ فلا وسيلة من وسائل الإدراك تدركها. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep09 00:01:30} ويقول إنه إذا كانت الروح، وهي مخلوقة لله وفي نفسك، لا تُدرَك، فالله أولى ألا يُدرك. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep09 00:02:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep09 00:02:30}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 8)⁩
+
+يذكر الشيخ أن الروح تهبط من عالمها عند النوم فينام الرجل وروحه في العوالم العليا، وأن ابن آدم خُلق من الأرض وروحه من ملكوت السماء. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:00:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 01:03:30} ⁦(needs_source: صياغة التسجيل مضطربة)⁩

@@ -16,9 +16,11 @@ coordinates:
 relations:
   - type: located_in
     target: place/isfahan
-    sources: [source/wikidata]
-sources: [source/mujam-al-buldan, source/wikidata]
+    sources: [source/wikidata, source/tei-epigraphie]
+sources: [source/mujam-al-buldan, source/wikidata, source/archnet]
 external_ids:
+  archnet: "1621"
+  tei: "905,906,907,1075,1099"
   wikidata: Q1256501
 provenance:
   layer: own-research

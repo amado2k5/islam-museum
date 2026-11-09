@@ -1,0 +1,31 @@
+id: person/amina-bint-al-sharid
+class: person
+label: { en: "Amina bint al-Sharid", ar: "آمنة بنت الشريد", ur: "امینہ بنت الشرید" }
+names:
+  - { kind: full, lang: ar, value: "آمنة بنت الشريد" }
+gender: female
+died: { edtf: "0680~", hijri: "0060", calendar: julian, precision: year, status: debated, derived: true, note: "توفيت بالطاعون في حمص في خلافة معاوية بن أبي سفيان الذي توفي سنة 60هـ؛ لا يضبط المصدر تاريخاً أدق، وهذا حد أقصى مرجّح لا تاريخ محقق {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 17}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+roles: []
+traditions: [sunni]
+summary:
+  en: "An eloquent woman of Ali's partisans whom Mu'awiya imprisoned in Damascus for two years after Ali's killing; when the head of her husband Umar b. al-Humq — the first head carried in Islam — was thrown into her cell she cursed the caliph in famous words, and she died of plague at Homs soon after her release."
+  ar: "امرأة فصيحة اللسان حاضرة الجواب من شيعة علي بن أبي طالب؛ حبسها معاوية في سجن دمشق سنتين بعد مقتل علي، فلما أُلقي في حجرها رأس زوجها عمر بن الحمق — وهو أول رأس حُمل في الإسلام — لعنته بكلام خالده، ثم خرجت من سجنهـا بعد أن بذل لها معاوية ما يسكت لسانها، فلم تطمئن فأقامت في الجزيرة حتى قضى عليها الطاعون بحمص."
+wings: [people]
+themes: [women, politics-governance-and-authority, factions-splits-schisms]
+periods: [period/rashidun, period/umayyad]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, note: "وصفها كحالة بأنها كانت فصيحة اللسان حاضرة الجواب من شيعة علي ومناصريه.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+faith:
+  - { value: sunni, basis: tradition, note: "من شيعة علي بن أبي طالب ومناصريه عند كحالة؛ تسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: spouse_of, target: person/umar-ibn-al-humq-al-khuzai, note: "زوجها عمر بن الحمق الخزاعي الذي فرّ من طلب معاوية فقتله عبد الرحمن بن الحكم، وأُرسل رأسه إلى آمنة في السجن {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 15}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: opposed, target: person/muawiya-ibn-abi-sufyan, note: "حاورت معاوية في مجلسه بعد إطلاقها من السجن فأنكرته وعرضت عليه لعنات، وأشار إليها بالبنان أن تخرج {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 16-17}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: draft, completeness: 2, generated_by: "Devin; A'lam al-Nisa' vol. 1 pp. 15-17 (PDF), entry آمنة بنت الشريد" }
+provenance:
+  layer: own-research
+  source: "source/alam-al-nisa-kahhala-risala-1984-v1"
+  generated_by: Devin
+  model: "SWE-2 Flash High"
+  run: "microsd-books-batch-1"

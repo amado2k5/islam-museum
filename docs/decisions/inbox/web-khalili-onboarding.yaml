@@ -1,0 +1,15 @@
+id: web-khalili-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should the Khalili Collections online database (khalilicollections.org — the Nasser D. Khalili family's published Islamic-art collections: metalwork, ceramics, manuscripts, arms, textiles, with per-object pages under /collections/islamic-art/<id>-<slug>/) be onboarded as a citable source family for the object backlog, and at what tier? Assessment 2026-11-08: authority good (named specialist collection, published catalogues exist in print); citability good (stable object page ids); terms: no licence or terms page found — default facts-only; structure: WordPress HTML pages plus XML sitemap, no API; robots file allows all with sitemap; coverage fit good (major Islamic decorative-arts collection vs 542 object records); corroboration moderate-high; Arabic-first low-moderate; longevity moderate (private foundation site)."
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:khalili-collections <object-id>}"
+  - "Tier 2 citable family, facts-only"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "khalilicollections.org/islamic-arts/ fetched 200 on 2026-11-08; object pages follow /collections/islamic-art/<id>-<slug>/ pattern; Yoast robots file with sitemap"
+  - "docs/agents/source-families.md Tier 1 lists Khalili Collections among per-collection museum candidates"
+proposed_action: "register source/khalili-collections facts-only; pilot on 10 object records matched to the backlog"
+source: "Muse web-sources lane assessment 2026-11-08"

@@ -99,3 +99,7 @@ translators: []
 
 ## في برنامج مصطفى حسني «أهل الجنة»
 يخصص [[person/mustafa-hosny|مصطفى حسني]] الحلقة السادسة والعشرين من برنامجه [[work/ahl-al-jannah|«أهل الجنة»]] للمعترف بالجميل والجاحد: يذكر قول النبي إنه لو كان المطعم بن عدي حيًّا وسأله أسرى بدر لأعطاه إياهم، وأنه بعد وفاة [[person/khadija|خديجة]] بأكثر من عشر سنين سمع صوت هالة فتذكّرها، وذكر أنها صدّقته وواسته بمالها حين تركه الناس. {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:04:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:05:00} ويصف الجاحد بأنه يأخذ ولا يعطي لأنه لا يشعر بفضل الناس. {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:07:30} ويذكر حديث أن من لم يشكر الناس لم يشكر الله، ويقول إن الله يعطي عن طريق الناس. {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:13:30}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 7)⁩
+
+يعرّف الشيخ الشكر بأنه القيام لله بعبادته والتقرب إليه بأنواع نعوته ظاهرا وباطنا. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:35:30} ويذكر آية تقرن الذكر بالشكر من غير أن يسمي السورة. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:30:00}

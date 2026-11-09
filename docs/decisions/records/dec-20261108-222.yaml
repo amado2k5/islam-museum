@@ -1,0 +1,51 @@
+id: dec-20261108-222
+kind: "override"
+date: 2026-11-08
+question_hash: b50721c0a09e
+lane: "web-sources"
+class: "process"
+modality: "website"
+domain: "sources"
+mode: "conservative"
+question: "Should the EAMENA database (Endangered Archaeology in the Middle East and North Africa — University of Oxford with Leicester and Durham, Getty/WMF ARCHES platform, database.eamena.org, ~383,000 heritage-place records) be onboarded as a citable source family for the building/place backlog, and at what tier? Assessment 2026-11-08: authority excellent (three universities + Getty Conservation Institute platform); citability good (Heritage Place record ids, search URLs, Zenodo dataset community); terms: site states 'The EAMENA Database is licensed under a Creative Commons Attribution 4.0 International License' — open with attribution, BUT access is tiered: Public Access withholds coordinates, zoom and condition data; Research Access needs registration; Contributor Access for edits; structure excellent (ARCHES 7 API, GeoJSON export endpoint, citation plugin to Zenodo); coverage fit exceptional (~383k MENA archaeological site records vs 5,460 prose-missing buildings); corroboration high (site condition assessments, period data); Arabic-first moderate (bilingual EN/AR interface); longevity strong (university + Zenodo)."
+options:
+  - "Tier 1 citable family under CC BY 4.0 with attribution, facts-first: cite {cite:eamena <heritage-place-id>}; harvest via public GeoJSON/API search exports, no coordinates-dependent claims from public tier"
+  - "Tier 1 citable family, facts-only pending written confirmation of the CC BY application to record-level text"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "eamena.org/open-access-policy states the CC BY 4.0 licence and the three access tiers verbatim, checked 2026-11-08"
+  - "eamena.org/database-and-dataset-citation documents the ARCHES search and GeoJSON export endpoints (database.eamena.org/api/search/export_results)"
+  - "database.eamena.org search reports ~383,723 records; map view public with colour-coded record types"
+status: decided
+step: override
+decision: "Tier 1 citable family under CC BY 4.0 with attribution. Register source/eamena: registry entry, data/source entity with reliability_note recording the licence statement, the three access tiers and the public-tier limits (no coordinates, zoom or condition data without Research registration — so no coordinate claims sourced from the public tier), attribution row in docs/attribution.md, Tier-1 table row in docs/agents/source-families.md. Harvest channel: ARCHES search + GeoJSON export (database.eamena.org/api/search/export_results) and Zenodo dataset community; cite {cite:eamena <heritage-place-id>} — the ARCHES record id, stable and reader-resolvable. Pilot on 10 building/place records. The CC BY licence permits reuse with attribution — the museum's citation is the attribution; record text still enters data/ in the museum's own words per the standing sources policy."
+correct_outcome: tier1-cc-by-registration
+wrong_outcome: language-ar-first-rule
+confidence: 1
+reversible: true
+rationale: "dec-221 answered a source-onboarding question with the Arabic-first content rule because the assessment evidence mentioned 'Arabic-first moderate' and the bilingual interface. The rule fired on descriptive metadata, not on a language/localisation question — the same substring false-positive class as dec-190 (AlFehrest) and the kid/wikidata fix. The correct ruling applies the eight onboarding criteria: authority, citability, stated terms (CC BY 4.0), structure (ARCHES API + GeoJSON export), coverage fit (~383k MENA site records against the 5,460-building prose gap), corroboration, bilingual interface and institutional longevity all pass; the access tiers are recorded as limits, not blockers."
+supersedes: dec-20261108-221
+override_reason:
+  category: rule-false-positive
+  detail: rule-language-ar-first matched 'arabic'/'Arabic-first' inside source-assessment evidence text describing the site's language coverage, not a localisation decision. Rule needs question-domain gating (only fire on content/i18n questions) or evidence-text exclusion — same class as the kid/wikidata fix and dec-190.
+  overridden_by: devin-swe2
+signals:
+  matched_rule_id: rule-language-ar-first
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: 2026-11-08
+    by: devin-swe2

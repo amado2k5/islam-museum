@@ -13,9 +13,11 @@ periods: [period/umayyad]
 themes: [architecture]
 relations:
 - { type: located_in, target: place/tunis }
-sources: [source/ahsan-al-taqasim]
+sources: [source/ahsan-al-taqasim, source/archnet, source/tei-epigraphie]
 external_ids:
+  archnet: "3765"
   wikidata: Q1291779
+  tei: "4381,8415,8527,8528,8555,8557,8761"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Muqaddasi, Ahsan al-Taqasim — entry not yet read on the page"

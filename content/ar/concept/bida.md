@@ -11,3 +11,7 @@ translators: []
 
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
 يدعو الشيخ صاحب النفس التي يريد تزكيتها إلى الابتعاد عن البدع، ويرى أن بدعًا انتشرت حتى صارت كالسنن المؤكدة، وأن العلماء إذا نبّهوا إليها اتُّهموا بتغيير الدين، ويضرب مثلًا بأن الناس لا يجادلون الطبيب والمهندس والمحامي في تخصصهم، لكنهم يجادلون عالم الدين. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:30}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 7)⁩
+
+يذكر الشيخ أن من جعل قراءة القرآن شعيرة يوم الجمعة فقد زاد في الدين ما ليس منه، ويفرّق بين العبادات والعادات في منشأ البدعة. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:23:30} ⁦(needs_source: صياغة التسجيل مضطربة)⁩

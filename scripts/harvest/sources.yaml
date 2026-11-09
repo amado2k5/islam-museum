@@ -264,9 +264,9 @@ sources:
       max_file_gib: 1.5
       note: 'facts, chronology, names and citations only; never republish text; OCR text and PDFs stay in the harvest workspace, never in git'
   encyclopaedia-of-islam-2:
-    name: Encyclopaedia of Islam, 2nd edition (Leiden: Brill, 1954-2008, 13 volumes)
+    name: "Encyclopaedia of Islam, 2nd edition (Leiden: Brill, 1954-2008, 13 volumes)"
     url: https://archive.org/details/ei2-complete
-    licence: Brill copyright; the archive.org item states no licence URL and the status is not verified as public domain. Read and rewritten in the museum's own words under docs/sources-policy.md, each fact cited by volume and PDF page
+    licence: "Brill copyright; the archive.org item states no licence URL and the status is not verified as public domain. Read and rewritten in the museum's own words under docs/sources-policy.md, each fact cited by volume and PDF page"
     layer: copyrighted-reference
     method: download of the 15 PDFs (checksums checked against archive.org); Apple Vision OCR (en-US, accurate, 200 dpi, every page); entry split with scripts/harvest/encyclopaedia/split_entries.py; English prose written from the text, then Arabic and Urdu translations
     limits:
@@ -277,7 +277,7 @@ sources:
     name: Assabile archive of Omar Abdelkafy's lectures (audio and video)
     url: https://www.assabile.com/omar-abdelkafy
     media_host: https://media.assabile.com/
-    licence: no licence statement found on the site (checked 25 Oct 2026); treated exactly like a book by the founder's decision of 25 Oct 2026: full details and full prose in the museum's own words, cited by series, episode and timestamp; audio never republished
+    licence: "no licence statement found on the site (checked 25 Oct 2026); treated exactly like a book by the founder's decision of 25 Oct 2026: full details and full prose in the museum's own words, cited by series, episode and timestamp; audio never republished"
     layer: copyrighted-reference
     method: browser discovery of series and episode pages (media links read from the page); scripts/harvest/audio/download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file); scripts/harvest/audio/transcribe.py (mlx-whisper, large-v3, local)
     limits:
@@ -289,7 +289,7 @@ sources:
     name: Assabile archive of Tareq al-Suwaidan's lectures (video)
     url: https://www.assabile.com/tareq-al-suwaidan
     media_host: https://media.assabile.com/
-    licence: no licence statement found on the site (checked 25 Oct 2026); treated exactly like a book by the founder's decision of 25 Oct 2026: full details and full prose in the museum's own words, cited by series, episode and timestamp; video and audio never republished
+    licence: "no licence statement found on the site (checked 25 Oct 2026); treated exactly like a book by the founder's decision of 25 Oct 2026: full details and full prose in the museum's own words, cited by series, episode and timestamp; video and audio never republished"
     layer: copyrighted-reference
     method: discovery of series and episode pages with scripts/harvest/audio/discover_series.py (media links read from the page); scripts/harvest/audio/download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file); audio extracted from MP4 with ffmpeg; scripts/harvest/audio/transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
     limits:
@@ -525,7 +525,6 @@ sources:
       robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
       youtube: not downloaded (YouTube terms)
     status: enabled
-workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)
 
   # ---- khutab-durus lane (plan 25): authorized site families, founder's instruction 31 Oct 2026
   manarat-al-haramain:
@@ -641,7 +640,7 @@ workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museu
   binbaz:
     name: موقع ابن باز الرسمي
     url: https://binbaz.org.sa
-    licence: official Ibn Baz archive: fatwas, duroos on classical texts
+    licence: "official Ibn Baz archive: fatwas, duroos on classical texts"
     layer: copyrighted-reference
     method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
     limits:
@@ -652,7 +651,7 @@ workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museu
   binothaimin:
     name: موقع ابن عثيمين الرسمي
     url: https://binothaimin.net
-    licence: official Ibn Uthaymin archive: duroos walking through classical textbooks
+    licence: "official Ibn Uthaymin archive: duroos walking through classical textbooks"
     layer: copyrighted-reference
     method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
     limits:
@@ -803,7 +802,7 @@ workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museu
     limits:
       pause_seconds: 2
       robots_txt: to be read before bulk access
-      note: 'journal papers and research on Qur'anic sciences'
+      note: "journal papers and research on Qur'anic sciences"
     status: enabled
   nama-center:
     name: Namaa Center
@@ -970,7 +969,7 @@ workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museu
     limits:
       pause_seconds: 2
       robots_txt: to be read before bulk access
-      note: 'mainland Europe's largest Islamic gathering, Parc du Bourget'
+      note: "mainland Europe's largest Islamic gathering, Parc du Bourget"
     status: enabled
   cambridge-muslim-college:
     name: Cambridge Muslim College
@@ -1037,3 +1036,159 @@ workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museu
       pause_seconds: 5
       note: 'IFLA-LRM/RDA authority catalogue: 230,000+ works, 116,000+ agents shared by 11 libraries; citable for authorship, work identity, edition history and typed work relations (commentary, refutation, abridgement, sequel); never for a work''s contents'
     status: enabled
+  archnet:
+    name: Archnet (Aga Khan Trust for Culture / MIT Aga Khan Documentation Center)
+    url: https://www.archnet.org
+    licence: CC BY-NC 4.0 per Terms of Use (archived copy read 8 Nov 2026); facts-only permanently — record text and images never republished
+    layer: nc
+    method: Wayback Machine snapshots and browser reads of site/authority/media records; no public data API found; live site rate-limits non-browser clients (HTTP 429, recorded 8 Nov 2026, not bypassed)
+    limits:
+      pause_seconds: 5
+      robots_txt: archived copy has no disallow rules, only a sitemap pointer
+      note: '~9,000 site records, ~6,400 authority names, 120k+ resources on Islamic architecture; cite {cite:archnet site/<id>} or authority/<id>'
+    status: enabled
+  tei-epigraphie:
+    name: Thesaurus d'Epigraphie Islamique (University of Liege / Fondation Max van Berchem)
+    url: https://www.epigraphie-islamique.uliege.be/Thesaurus/
+    licence: free of charge online since Oct 2011; no licence page published — facts-only by default, record text and images never republished
+    layer: copyrighted-reference
+    method: GET fiche pages (EpigraphyDisplay.aspx?id=<n>) and scripted ASP.NET postback search; fiche carries Hijri+CE dates, place, repository, material
+    limits:
+      pause_seconds: 3
+      robots_txt: none found (404) on the uliege.be base
+      note: '58,289 fiches, 49,884 photos of Arabic/Turkish/Persian inscriptions to AH 1000; legacy domain epigraphie-islamique.org is parked — uliege.be is canonical; cite {cite:tei-epigraphie <fiche-id>}'
+    status: enabled
+  british-museum:
+    name: British Museum collection database
+    url: https://www.britishmuseum.org/collection
+    licence: CC BY-NC-SA 4.0 for collection data; facts-only permanently — record text and images never republished
+    layer: nc
+    method: collection object pages (britishmuseum.org/collection/object/<id>); live pages answer 403 Cloudflare challenge to non-browser clients (8 Nov 2026, recorded, not bypassed) — Wayback snapshots and browser reads until a machine channel is confirmed
+    limits:
+      pause_seconds: 5
+      robots_txt: to be read before bulk access
+      note: 'Islamic collections: ceramics, metalwork, manuscripts, archaeology; cite by object page id'
+    status: enabled
+  khalili-collections:
+    name: Khalili Collections (Nasser D. Khalili Islamic arts collections)
+    url: https://www.khalilicollections.org
+    licence: no licence or terms page found (checked 8 Nov 2026) — facts-only by default, record text never republished
+    layer: copyrighted-reference
+    method: server-rendered WordPress object pages under /collections/islamic-art/<id>-<slug>/ plus XML sitemap; no API
+    limits:
+      pause_seconds: 2
+      robots_txt: allows all with sitemap pointer
+      note: 'named specialist collection with print catalogues; metalwork, ceramics, manuscripts, arms, textiles; cite by object page id'
+    status: enabled
+  qatar-museums-collections:
+    name: Qatar Museums collections platform (Museum of Islamic Art, Doha)
+    url: https://collections.qm.org.qa
+    licence: qm.org.qa terms not fully verified at registration (8 Nov 2026) — facts-only, record text and images never republished
+    layer: copyrighted-reference
+    method: faceted server-rendered search (24 records/page, museum filter) and per-object pages /objects/<slug>; no documented public API — polite page reads only
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before bulk access
+      note: 'MIA Doha objects: ceramics, metalwork, glass, manuscripts, archaeology; cite {cite:qatar-museums-collections <object-slug>}'
+    status: enabled
+  vam-collection:
+    name: Victoria and Albert Museum Collections API v2
+    url: https://api.vam.ac.uk/v2/objects/search
+    licence: V&A-owned content free for non-commercial use per site terms; facts-only permanently — record text and images never republished
+    layer: nc
+    method: keyless JSON API (objects/search, records endpoint) returning systemNumber, accessionNumber, dates, maker, place, type, IIIF image ids; CSV export also documented
+    limits:
+      pause_seconds: 2
+      robots_txt: names AI crawlers only, no wildcard group; harvest UA not listed
+      note: 'V&A Islamic collection; cite {cite:vam-collection <systemNumber>}; developers.vam.ac.uk documents endpoints'
+    status: enabled
+  eamena:
+    name: EAMENA Database (Endangered Archaeology in the Middle East and North Africa)
+    url: https://database.eamena.org
+    licence: CC BY 4.0 per eamena.org/open-access-policy; access tiered — public mode withholds coordinates/zoom/condition data, research mode needs registration
+    layer: open
+    method: ARCHES 7 platform — public map/search, GeoJSON export endpoint (api/search/export_results), citation plugin to Zenodo EAMENA community; ~383k heritage-place records
+    limits:
+      pause_seconds: 3
+      robots_txt: check before bulk access
+      note: 'Oxford/Leicester/Durham + Getty/WMF; cite {cite:eamena <heritage-place-id>}; no coordinate claims from public tier; decision dec-20261108-222'
+    status: enabled
+  apd:
+    name: Arabic Papyrology Database (LMU Munich / ISAP)
+    url: https://www.apd.gwi.uni-muenchen.de/apd/
+    licence: non-commercial project, free access stated on project page; facts-only — edition text and document images never republished
+    layer: copyrighted-reference
+    method: GET-searchable JSP interface (asearch.jsp, collections.jsp, document pages); inventory numbers / moid anchors; legacy domain arabicpapyrology.org dead — LMU host canonical
+    limits:
+      pause_seconds: 3
+      robots_txt: none found (404) on the LMU host
+      note: '13,586 documents, 4,476 full texts, 7,015 typed — pre-modern Arabic documentary evidence for Fustat and early Islamic Egypt; Trismegistos partner; cite {cite:apd <document-id>}'
+    status: enabled
+  princeton-geniza:
+    name: Princeton Geniza Project
+    url: https://geniza.princeton.edu
+    licence: open access per project documentation; facts-only for edition text — document texts and images never republished
+    layer: copyrighted-reference
+    method: HTML site plus Zenodo metadata deposit (2025, v1.0.0) — machine-harvestable; stable Princeton document ids
+    limits:
+      pause_seconds: 3
+      robots_txt: allows all except /admin
+      note: '4,350+ transcribed Cairo Geniza documents — Mediterranean trade, Fustat daily life, Sicily route; cite {cite:princeton-geniza <document-id>}'
+    status: enabled
+  manar-al-athar:
+    name: Manar al-Athar photo archive (University of Oxford)
+    url: https://manar.arch.ox.ac.uk
+    licence: CC BY-NC-SA 2.0 UK per family catalogue; site states free use for research/teaching/publication with acknowledgement — facts-only permanently, images never ingested
+    layer: nc
+    method: HTML photo archive with geographic and advanced search; per-image records with bilingual ar/en labels; no API
+    limits:
+      pause_seconds: 3
+      robots_txt: none found on manar.arch.ox.ac.uk (legacy domains dead)
+      note: '~83,000 photographs of Islamic-period sites/buildings/art; captions and identifications only; cite {cite:manar-al-athar <record-id>}'
+    status: enabled
+  qdl:
+    name: Qatar Digital Library
+    url: https://www.qdl.qa
+    licence: free public access stated by project; facts-only — record text and page images never republished
+    layer: copyrighted-reference
+    method: Wayback Machine snapshots and browser reads; live site answers 403 Cloudflare to non-browser clients (8 Nov 2026, recorded, not bypassed); shelfmark-style document ids
+    limits:
+      pause_seconds: 5
+      robots_txt: challenged (403) — not retrievable
+      note: 'manuscripts, documents, oral histories with colophons and dated copies; cite {cite:qdl <document-id>}'
+    status: enabled
+  hmml:
+    name: HMML manuscript catalogue (Hill Museum & Manuscript Library)
+    url: https://hmml.org
+    licence: public catalogue; full content needs free registration — catalogue metadata only, no login-gated harvest; facts-only
+    layer: copyrighted-reference
+    method: HTML catalogue browse/search; stable record ids and shelfmark anchors; API unconfirmed
+    limits:
+      pause_seconds: 3
+      robots_txt: wildcard allows our UA; named AI crawlers disallowed; Content-Signal ai-train=no (citation use, not training)
+      note: '60,000+ manuscript records — dates, colophons, provenance; cite {cite:hmml <record-id>}'
+    status: enabled
+  mwnf-discover-islamic-art:
+    name: Discover Islamic Art (Museum With No Frontiers)
+    url: https://islamicart.museumwnf.org
+    licence: terms unconfirmed at registration (8 Nov 2026) — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: HTML object/monument database; polite page reads only, no API; no robots.txt found
+    limits:
+      pause_seconds: 3
+      robots_txt: none found (404)
+      note: 'curated Mediterranean/Islamicate object records overlapping Sicily material; cite by record id'
+    status: enabled
+  qantara-med:
+    name: Qantara — Mediterranean heritage catalogue
+    url: https://www.qantara-med.org
+    licence: legal-notice page exists; reuse terms unconfirmed — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: multilingual site (ar/en/es/fr) with catalogue section and assisted search; canonical www host (root domain times out); polite page reads only
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before bulk access
+      note: 'object/monument records + materials-techniques notes across Mediterranean; cite by catalogue record'
+    status: enabled
+
+workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)

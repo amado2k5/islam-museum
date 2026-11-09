@@ -98,3 +98,7 @@ In [[work/the-boat-ahmad-farid|'The Boat']] [[person/ahmad-farid|Ahmad Farid]] s
 
 ## In Mustafa Hosny's programme 'Ahl al-Janna'
 [[person/mustafa-hosny|Mustafa Hosny]] gives the twenty-sixth episode of his programme [[work/ahl-al-jannah|'Ahl al-Janna']] to the grateful and the ingrate: he recalls the Prophet's words that had al-Mut'im ibn Adi been alive and asked him for the captives of Badr he would have given them to him, and that more than ten years after the death of [[person/khadija|Khadija]] he heard Hala's voice and remembered her, recalling that she believed him and consoled him with her wealth when people abandoned him. {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:04:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:05:00} He describes the ingrate as one who takes and does not give because he does not feel people's favour. {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:07:30} He cites the hadith that whoever does not thank people does not thank God, and says God gives through people. {cite:assabile-mustafa-hosny ahl-al-jannah/ep26 00:13:30}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
+
+The Sheikh defines gratitude as doing worship for God and drawing near to Him through the kinds of His bounty, outwardly and inwardly. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:35:30} He mentions a verse pairing remembrance and gratitude without naming the sura. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:30:00}

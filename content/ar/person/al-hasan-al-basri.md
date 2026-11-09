@@ -57,3 +57,7 @@ translators: []
 
 ## في برنامج عبد الرحمن منصور «أهالينا»
 ينقل [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] في برنامجه [[work/ahaleena|«أهالينا»]] عن الحسن البصري أن المصافحة تزيد في الود، أي في المحبة، ويذكر ذلك في حلقة «مفاتيح القلوب» بعد حديث أنس في أن النبي لم يكن ينزع يده من يد من يصافحه حتى يكون الرجل هو الذي ينزعها. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:30}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 7)⁩
+
+يذكر الشيخ أن الحسن البصري سُئل عن مقامه عند الله فأجاب سائلًا: كم لله عندك؟ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:00:00} ⁦(needs_source: صيغة السؤال والجواب مضطربة في التسجيل)⁩

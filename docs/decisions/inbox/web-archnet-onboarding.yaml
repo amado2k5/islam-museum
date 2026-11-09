@@ -1,0 +1,15 @@
+id: web-archnet-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should Archnet (archnet.org — the Aga Khan Trust for Culture / MIT Aga Khan Documentation Center open resource on the architecture and built environment of Muslim societies, ~9,000 site records, ~1,000 authority records, 120k+ media items) be onboarded as a citable source family for the building records, and at what tier? Assessment 2026-11-08: authority strong (AKTC+MIT joint project since 2002, peer-reviewed claims on its about page); citability good (stable numeric site/authority/media ids, e.g. /sites/1000); terms: its Terms of Use page states material is 'available for instructional, nonprofit use, and personal use on the terms of a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license' and its help page says site descriptions and metadata may be used by nonprofit or educational organisations with attribution — non-commercial clause means facts-only posture permanently; structure: live site answers 429 to non-browser clients (Vercel checkpoint), archived robots file has no disallow rules, Wayback Machine holds server-rendered record pages, no public data API found; coverage fit excellent (5,776 building records); corroboration high (construction dates, architects, site types); Arabic-first moderate; longevity strong."
+options:
+  - "Tier 1 citable family, facts-only (NC): cite {cite:archnet site/<id>} or authority/<id>; text and images never republished; harvest channel Wayback snapshots plus browser reads"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "Terms of Use text captured from archived copy of archnet.org/pages/terms on 2026-11-08; live site 429-blocked to curl on 2026-11-08 (recorded, not bypassed)"
+  - "data/work/archnet.yaml already exists as the project entity; no data/source/archnet yet"
+  - "docs/agents/source-families.md Tier 1 lists Archnet first: '~9,078 site records ... the single biggest unlock for the 5,460 prose-missing buildings'"
+proposed_action: "register source/archnet at Tier 1 facts-only: harvest registry entry (layer nc), data/source/archnet.yaml with reliability_note, attribution row, Tier-1 table move; pilot on 10 building records"
+source: "Muse web-sources lane assessment 2026-11-08"

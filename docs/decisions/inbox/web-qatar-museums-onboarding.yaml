@@ -1,0 +1,15 @@
+id: web-qatar-museums-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should the Qatar Museums unified collections platform (collections.qm.org.qa — hosts the Museum of Islamic Art Doha object database with faceted search and per-object pages at /objects/<slug>, plus other QM collections) be onboarded as a citable source family for the object backlog, and at what tier? Assessment 2026-11-08: authority strong (Qatar Museums national institution); citability good (stable object slugs, e.g. /objects/lusterware-bowl-mia201373); terms: terms page at qm.org.qa/en/terms-and-conditions — posture to record as facts-only unless it clearly permits reuse; structure: server-rendered faceted search with pagination, JSON state embedded in pages, no documented public API found yet; coverage fit good (MIA Doha is a major Islamic collection vs 542 object records); corroboration high (provenance, dated works); Arabic-first moderate; longevity strong."
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:qatar-museums <object-slug>}"
+  - "Tier 2 citable family, facts-only"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "collections.qm.org.qa object listing fetched 200 on 2026-11-08 (1.2MB page, 24 records per page, museum=museum-of-islamic-art filter)"
+  - "docs/agents/source-families.md Tier 1 lists MIA Doha among per-collection museum candidates"
+proposed_action: "register source/qatar-museums-collections facts-only; pilot on 10 MIA object records matched to the backlog"
+source: "Muse web-sources lane assessment 2026-11-08"

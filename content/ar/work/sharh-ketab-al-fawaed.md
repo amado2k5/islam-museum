@@ -65,3 +65,60 @@ translators: []
 - [[person/ali-ibn-abi-talib|علي بن أبي طالب]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:42:00}
 - [[concept/tul-al-amal|طول الأمل]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:20:00}
 - [[concept/istighna-billah|الاستغناء بالله]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:23:00}
+
+### الحلقة 6
+- [[concept/hawa|الهوى]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:16:00}
+- [[concept/al-aduww-al-dakhili|العدو الداخلي]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:16:00}
+- [[concept/iman|الإيمان]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 01:11:30}
+- [[concept/qanaa|القناعة]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:21:30}
+- [[concept/adab-hamil-al-quran|آداب حامل القرآن]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 01:21:00}
+
+### الحلقة 7
+- [[concept/dhikr|الذكر]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:40:30}
+- [[concept/shukr|الشكر]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:35:30}
+- [[concept/zuhd|الزهد]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:04:00}
+- [[concept/hubb-allah|محبة الله]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:08:30}
+- [[concept/sabr|الصبر]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:42:30}
+- [[person/ibn-qayyim-al-jawziyya|ابن قيم الجوزية]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:58:00}
+- [[person/al-hasan-al-basri|أبو الحسن البصري]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:00:00}
+- [[person/abdullah-ibn-masud|عبد الله بن مسعود]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:02:30}
+- [[person/ibn-ata-allah-al-iskandari|ابن عطاء الله الإسكنداري]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:17:00}
+- [[concept/asma-allah-al-husna|أسماء الله الحسنى]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:17:30}
+- [[person/muhammad|محمد]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:19:30}
+- [[concept/bida|البدعة والمحدثات]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:23:30}
+- [[person/musa|موسى]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:10:30}
+- [[person/ibrahim|إبراهيم]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:17:00}
+- [[person/abu-sufyan-ibn-harb|أبو سفيان بن حرب]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:24:30}
+- [[person/umar-ibn-al-khattab|عمر بن الخطاب]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:24:30}
+- [[person/muadh-ibn-jabal|معاذ بن جبل]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 00:30:30}
+
+### الحلقة 8
+- [[concept/ilm|طلب العلم]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:36:30}
+- [[person/ibn-qayyim-al-jawziyya|ابن قيم الجوزية]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:40:00}
+- [[person/adam|آدم]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 01:03:30}
+- [[concept/al-nafs-wal-ruh|النفس والروح]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:00:00}
+- [[concept/ghadab|الغضب]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:54:30}
+- [[concept/tawba|التوبة]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 01:10:00}
+- [[person/muhammad|محمد]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 00:48:00}
+
+### الحلقة 9
+- [[concept/ghadab|الغضب]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:07:30}
+- [[concept/tawfiq-wal-khidhlan|التوفيق والخذلان]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:11:30}
+- [[concept/al-sidq-truthfulness|الصدق في الحديث]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:00:00}
+- [[concept/ihsan|الإحسان]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:15:00}
+- [[concept/tariqa|الطريقة ⁦(التصوف)⁩]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:33:00}
+
+### الحلقة 10
+- [[concept/tawhid|التوحيد]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:15:30}
+- [[concept/yawm-al-qiyama|يوم القيامة]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:03:00}
+- [[person/abu-hanifa|أبو حنيفة النعمان بن ثابت]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:08:30}
+- [[concept/iman|الإيمان]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:19:00}
+- [[person/abu-dharr-al-ghifari|أبو ذر الغفاري]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:19:00}
+- [[concept/khawf|الخوف من الله]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:22:00}
+- [[concept/shafaa|الشفاعة]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:25:00}
+- [[concept/jannah|الجنة]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:29:30}
+- [[concept/amal|العَمَل]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:31:30}
+- [[person/musa|موسى]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:39:30}
+- [[person/harun|هارون]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:39:30}
+- [[person/ali-ibn-abi-talib|علي بن أبي طالب]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:41:30}
+- [[concept/tawba|التوبة]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:32:30}

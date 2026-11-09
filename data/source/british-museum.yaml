@@ -1,0 +1,21 @@
+id: source/british-museum
+class: source
+kind: reference_data
+type: webpage
+label:
+  ar: "قاعدة بيانات مجموعات المتحف البريطاني"
+  en: "British Museum collection database"
+  ur: "British Museum collection database"
+summary:
+  ar: "قاعدة بيانات المتحف البريطاني لمقتنياته؛ تشمل مجموعاته الإسلامية سجلات قطع بتواريخها وموادها وسجلات اقتنائها وممتلكاتها ونقوشها، وبيانات المجموعة منشورة برخصة CC BY-NC-SA 4.0." 
+  en: "The British Museum's collection database, whose Islamic holdings carry object records with dates, materials, provenance and inscriptions; the collection data is published under CC BY-NC-SA 4.0."
+  ur: "The British Museum's collection database, whose Islamic holdings carry object records with dates, materials, provenance and inscriptions; the collection data is published under CC BY-NC-SA 4.0."
+title: "British Museum — Collection online"
+publisher: "British Museum, London"
+URL: "https://www.britishmuseum.org/collection"
+language: en
+reliability_note: "A national museum's own collection catalogue — strong for object identity, dates, materials, provenance and inscriptions of the Islamic collections, including the ceramic, metalwork, manuscript and archaeology holdings. Cite by the museum's object page/id (stable collection URLs under britishmuseum.org/collection/object/<id>). Facts-only posture permanently: collection data is CC BY-NC-SA 4.0 (non-commercial, share-alike), so record text and images are never republished and no bulk harvest runs. Access note: collection pages answered HTTP 403 (Cloudflare challenge) to the harvest fetcher on 8 November 2026 — recorded, not bypassed; reads go through archived snapshots or a browser session until a machine channel is confirmed. Assessment: web-sources lane, 8 Nov 2026; decision dec-20261108-201 (supersedes engine false-positive dec-20261108-194)."
+sources: [source/british-museum]
+open_access: true
+provenance: { layer: own-research, source: "Muse web-sources lane assessment 2026-11-08 (decision ledger dec-20261108-201)", generated_by: "Devin", model: "SWE-2 Flash High", run: web-sources-registration-2026-11-08 }
+status: { review: published, generated_by: "Devin" }

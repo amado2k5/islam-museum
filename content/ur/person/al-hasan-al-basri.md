@@ -57,3 +57,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عبد الرحمٰن منصور کے پروگرام «اہالینا» میں
 [[person/abd-al-rahman-mansour|عبد الرحمٰن منصور]] اپنے پروگرام [[work/ahaleena|«اہالینا»]] میں حسن بصری کا یہ قول نقل کرتے ہیں کہ مصافحہ مودت، یعنی محبت، بڑھاتا ہے؛ وہ اسے «دلوں کی کنجیوں» والی قسط میں انس کی اس روایت کے بعد ذکر کرتے ہیں کہ نبی مصافحہ کرنے والے کے ہاتھ سے اپنا ہاتھ نہیں کھینچتے تھے جب تک وہ خود نہ کھینچ لے۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:30}
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 7)
+
+شیخ کہتے ہیں کہ الحسن البصری سے پوچھا گیا کہ اللہ کے ہاں تمہارا کیا مقام ہے، تو انہوں نے پوچھنے والے کو جواب دیا: تمہارے پاس اللہ کے لیے کیا ہے؟ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:00:00} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩

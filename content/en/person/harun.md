@@ -17,3 +17,7 @@ The Sheikh cites Musa's prayer that his brother Harun be made a helper from his 
 
 ## From Omar Abdelkafy's programme Bustan al-Amal
 The Sheikh relates that Harun was born in the 'year of safety', when Israelite notables had agreed with Pharaoh that newborns would not be killed, and Musa in the year of killing (needs_source: the agreement as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:04:00}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 10)
+
+The Sheikh cites a passage from the Qur'anic story of Musa and his brother without naming the sura, in which Harun's reaction appears. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:39:30} ⁦(needs_source: the recording wording is partly garbled)⁩

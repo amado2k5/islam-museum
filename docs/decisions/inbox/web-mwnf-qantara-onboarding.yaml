@@ -1,0 +1,15 @@
+id: web-mwnf-qantara-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should the Museum With No Frontiers 'Discover Islamic Art' database (islamicart.museumwnf.org) and the Qantara Mediterranean heritage catalogue (qantara-med.org — object and monument records across the Mediterranean, overlapping the Sicily material) be onboarded as citable source families, and at what tier?"
+options:
+  - "Both Tier 2 citable families, facts-only"
+  - "Both Tier 1 citable families, facts-only"
+  - "Tier 3 pointers only"
+  - "Do not register"
+evidence:
+  - "Assessment 2026-11-08: MWNF — authority good (Museum With No Frontiers, established cultural institution); live 'Discover Islamic Art' portal 200, no robots.txt found; terms to confirm — facts-only posture; object records across the Mediterranean. Qantara — authority good (Qantara Patrimoine méditerranéen project, multilingual ar/en/es/fr site live on www.qantara-med.org; root domain times out); has a dedicated catalogue section and assisted search; legal-notice page exists, reuse terms unclear → facts-only; coverage overlaps Sicily/Andalusia/Maghreb material directly. Neither has a documented public API — polite page reads only."
+  - "docs/agents/source-families.md Tier 2: 'Curated object/monument records across the Mediterranean (overlaps the Sicily material directly) — Terms to confirm at onboarding'"
+proposed_action: "register source/mwnf-discover-islamic-art and source/qantara-med facts-only at Tier 2; pilot on 10 records each"
+source: "Muse web-sources lane assessment 2026-11-08"

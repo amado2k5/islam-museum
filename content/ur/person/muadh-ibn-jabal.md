@@ -40,3 +40,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عبد الرحمٰن منصور کے پروگرام «اہالینا» میں
 [[person/abd-al-rahman-mansour|عبد الرحمٰن منصور]] اپنے پروگرام [[work/ahaleena|«اہالینا»]] میں دو بار معاذ کا ذکر اظہارِ محبت کی مثال کے طور پر کرتے ہیں: نبی نے قسم کھا کر ان سے کہا کہ وہ ان سے محبت کرتے ہیں۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:11:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:10:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:11:00} ان کے بقول اگر کسی کو یونیورسٹی کا استاد یا شیخ کہے کہ وہ اس سے محبت کرتا ہے تو وہ خوشی سے اڑنے لگے، تو اس کا کیا کہنا؛ اسے وہ باپ کے اپنے بچے سے اظہارِ محبت کی بنیاد بناتے ہیں۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:12:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:11:00}
+
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 7)
+
+شیخ کہتے ہیں کہ نبی نے معاذ سے کہا: اللہ کی قسم میں تم سے محبت کرتا ہوں، پھر انہیں استغفار، ذکر اور شکر سکھایا۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:30:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩
