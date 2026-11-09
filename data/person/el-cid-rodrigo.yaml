@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
+born: { edtf: "1043", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1099", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
   - { type: lived_in, target: place/sarqusta, confidence: low, note: "Associated with سرقسطة per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1204", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1288", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: buried_in, target: place/al-khaisaran-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

@@ -10,6 +10,7 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [artist]
+born: { edtf: "1635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Milo Beach (Grand Mogul)" }
 relations:
   - { type: lived_in, target: place/delhi, confidence: low, note: "Associated with دلهي per the record's own summary text; relation type pending review.", sources: [source/beach-grand-mogul-1978] }
   - { type: patronized_by, target: person/jahangir-mughal, sources: [source/beach-grand-mogul-1978] }

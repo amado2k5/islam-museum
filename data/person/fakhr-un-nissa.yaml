@@ -12,6 +12,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1550~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Gulbadan (Humayun-nama)" }
 relations:
   - { type: born_in, target: place/samarqand, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/samarqand, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "615~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/bastam, confidence: low, note: "Associated with بسطام per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/banu-shayban, sources: [source/kamil-ibn-al-athir] }

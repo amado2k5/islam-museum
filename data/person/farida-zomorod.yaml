@@ -26,6 +26,7 @@ wings:
   - living
 regions:
   - maghreb
+born: { edtf: "1968", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Academic faculty registry" }
 relations:
   - { type: lived_in, target: place/rabat, confidence: low, note: "Associated with Rabat per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:

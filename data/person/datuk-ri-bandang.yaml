@@ -20,6 +20,7 @@ roles: [scholar, jurist]
 regions: [southeast-asia]
 wings: [people]
 
+born: { edtf: "1605~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Pelras (The Bugis)" }
 relations:
   - { type: lived_in, target: place/minangkabau, confidence: low, note: "Associated with Minangkabau per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:

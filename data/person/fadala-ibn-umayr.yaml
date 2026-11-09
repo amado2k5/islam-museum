@@ -17,6 +17,7 @@ story_roles:
   - { role: convert, status: tradition, note: "همّ بقتل النبي في الطواف فعفا عنه ووضع يده على صدره فأسلم (ابن هشام 4/59–60).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم يوم فتح مكة." }
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/fath-mecca-cleansing-kaaba, role: convert, sources: [source/ibn-hisham-saqqa] }

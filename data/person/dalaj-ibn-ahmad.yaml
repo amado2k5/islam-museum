@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-fragmentation]
+born: { edtf: "862", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "962", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/al-abbasiyya, confidence: low, note: "Associated with العباسية per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:

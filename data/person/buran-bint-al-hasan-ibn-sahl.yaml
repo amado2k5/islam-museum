@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "807", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
+died: { edtf: "884", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
 relations:
   - { type: lived_in, target: place/baghdad, confidence: low, note: "Buran, wife of al-Ma'mun, at Baghdad per the record's own summary.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: related_to, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }

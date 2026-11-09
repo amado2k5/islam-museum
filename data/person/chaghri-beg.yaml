@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "989", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil (Ibn al-Athir)" }
+died: { edtf: "1060", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil (Ibn al-Athir)" }
 relations:
   - { type: died_in, target: place/sarakhs, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:

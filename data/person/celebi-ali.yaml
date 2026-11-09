@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+died: { edtf: "1599", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
 relations:
   - { type: born_in, target: place/plovdiv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/bursa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

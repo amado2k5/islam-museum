@@ -18,6 +18,7 @@ story_roles:
   - { role: convert, start: { edtf: "0610~" }, status: tradition, note: "أسلمت مبكراً بمكة قبل الهجرة (نساء حول الرسول ص300).", sources: [source/nisa-hawl-alrasul] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/mecca }
   - { type: member_of, target: group/banu-amir }

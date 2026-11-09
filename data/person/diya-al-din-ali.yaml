@@ -12,6 +12,7 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+died: { edtf: "1214", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil (Ibn al-Athir)" }
 relations:
   - { type: lived_in, target: place/india, confidence: low, note: "Gunpowder-empires-era South Asian figure (al-A'lam; regions: south-asia).", sources: [source/al-aalam] }
 external_ids:

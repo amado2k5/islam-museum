@@ -9,6 +9,7 @@ roles: [scholar, teacher]
 periods: [period/umayyad]
 regions: [arabia]
 themes: [scripture-and-its-sciences]
+died: { edtf: "718", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/nasa, confidence: low, note: "Associated with Nasa per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

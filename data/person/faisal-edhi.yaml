@@ -12,6 +12,7 @@ summary:
 roles: [philanthropist]
 wings: [people, living]
 regions: [south-asia]
+born: { edtf: "1952", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary public record" }
 relations:
   - { type: lived_in, target: place/pakistan, confidence: low, note: "Associated with باكستان per the record's own summary text; relation type pending review.", sources: [source/wikipedia-abdul-sattar-edhi-en] }
   - { type: child_of, target: person/abdul-sattar-edhi, sources: [source/wikipedia-abdul-sattar-edhi-en, source/wikipedia-edhi-foundation-en, source/edhi-foundation-faisal-edhi] }

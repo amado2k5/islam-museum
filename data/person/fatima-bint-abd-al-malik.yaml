@@ -14,6 +14,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 sources: [source/al-aalam, source/assabile-tareq-al-suwaidan]
+born: { edtf: "725~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

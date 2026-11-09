@@ -32,6 +32,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
 - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: sibling_of

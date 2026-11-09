@@ -16,6 +16,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص171-172)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/tabuk, confidence: low, note: "Associated with تبوك per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/burial-of-dhu-al-bijadayn, role: deceased, sources: [source/ibn-hisham-saqqa] }
