@@ -327,3 +327,27 @@ Range done (4000 fiches): heavy ESPAGNE/IRAK/ITALIE/INDE section.
 - al-imam-muhsin-mosque +26575→+27024 (Mosul Jami' 1397-98)
 - REJECTED: mosque-of-mertola ×4 (Castelo objects ≠ mosque); maqam-ibrahim 28290 (Bayt Hanina Sultan Ibrahim al-Adhami ≠ Meccan maqam); jalali-castle, mir-ali-turbesi, saidabad-mosque, singar-mosque, abbas-ali-turbe (Berat), abbas-b-ali-turbesi (southern Iraq coords), humayun-tomb ×2.
 - LEADS deferred: Aljaferia palace Zaragoza (11 fiches 1081-82, no entity), Alcazaba Malaga/Almeria (no entity), Kushk-Mahal palace Fathabad ×5, Shah-i-Mardan mosque Marot, Muchchandipalli mosque Calicut, Sehwan Marwandi mausoleum, Hathazari mosque Chittagong, Chandani mosque Patan, Quwwat-adjacent Delhi mosques.
+
+## 2026-11-09 (p11) — TEI 28801-32800 partial (Ottoman Turkey section)
+
+- alhambra +6 palace fiches (28883,28884,28887,28898,28908,28963: Mirador del Lindaraja, Sala de las Dos Hermanas etc.)
+- uc-serefeli-mosque +29368,29369 (Edirne portal inscriptions 1447-48)
+- selimiye-mosque +29394 (Edirne NW entrance 1574-75)
+- REJECTED namesakes: edirne-bedesten/edirne-palace (same fiches, wrong structures); gulbahar-hatun-tomb (mescidi not tomb); selcuk-hatun-mosque/tomb/tomb-2 (Istanbul mosque + Bursa tomb vs Edirne mescidi and Bursa Mihraplı Köprü); bayezid-ii-mosque (Edirne vs Istanbul entity); laleli-mosque-istanbul (Edirne Laleli vs Istanbul); tophane-fountain (Istanbul coords 41.03,28.98 vs Edirne); al-aqsa-mosque (Kudus Java "Masjid Menara" vs Jerusalem); osman-gazi-turbesi (neighborhood mosque); tomb-of-mehmed-v (Abdal Mehmed türbe); uftade-tomb (darül-kurra school); sehzade-mosque+tomb-of-mahmud (Şehzade Mahmud türbe in Muradiye).
+
+## 2026-11-09 (p11) — TEI 28801-32800 COMPLETE (Ottoman Balkans/Turkey + Maghreb)
+
+Range done (4000 fiches): heavy TURQUIE Edirne/Bursa/İstanbul/Konya section, plus BOSNIE, BULGARIE, SYRIE-Ḥalab/Dimašq, INDONESIE, IRAN.
+- alhambra +6, uc-serefeli-mosque +29368-9, selimiye-mosque +29394 (see partial entry)
+- kubadabad-palace +30597,30599,30607 (Seljuk palace Kubadabad records 1246-47; Objet fiche 30609 deferred)
+- hanabila-mosque +30213 (Damascus Ǧāmi' al-Ḥanābila portal 1202-03)
+- hamza-bey-turbesi +30437 (Hamza Bey türbe, Bolu — Mustafa Kemal Paşa district; fiche 31898 Hamza Bey Câmii Stara Zagora REJECTED, Bulgarian mosque)
+- cinili-kosk +30497 (Topkapı Çinili Köşk 1472-73)
+- ahi-evran-sultan-tomb +31694 (Ahi Evran Zaviye ve Türbesi Kırşehir 1481-82)
+- arap-baba-mescidi +31306 (Arap Baba Mescidi ve Türbesi Harput 1279-80)
+- tomb-of-dev-ali +32258 (Dev Ali Türbesi Develi 1203-04)
+- al-firdaws-madrasa +32783 (Madrasa al-Firdaws Aleppo 1236-37 — entity IS the Aleppo madrasa)
+- yivli-minare-mosque +32401,32402 (İmaret/Ulu Cami Medresesi Antalya 1227-28, same Seljuk külliye)
+- REJECTED namesakes/proximity: tomb-of-mehmed-v ×13 (mosques/bridges/cemeteries named Mehmed), tomb-of-mahmud ×7 (Mahmud Paşa complexes, Seyyid Mahmūd Hayrān türbe Akşehir, Zâl Mahmud Paşa külliye), aksaray-mausoleum ×5 (Agzı Kara/Zazandın hans + Sense Çayırı cemetery), selimiye-mosque ×2 more (Konya Mevlana proximity, Karapınar namesake), bab-al-nasr ×3 (Aleppo + Damascus citadel gates vs Cairo Fatimid entity), sidi-el-ansari-mosque ×4 (Aleppo-region mashhad vs Tunis entity), ahmad-al-badawi-mosque ×2 (Damascus zawiya vs Tanta entity), maqam-ibrahim ×2 (Aleppo citadel + Harawi mausoleum vs Mecca), al-sultaniyya-mausoleum ×3 (Aleppo Utrush/Zahiriyya vs Cairo), al-firdaws earlier 31688 (al-Ẓāhiriyya ≠ al-Firdaws), sofular-tomb (Amasya tomb vs Bulgarian mosque + Bursa bridge), koyun-baba/veli-baba ×4 (Koyun Baba Köprüsü bridge Osmancık), karacabey-tomb ×2 (Bursa tomb vs Ankara mosque complex + Seyran han), selcuk-hatun ×3 entities (Selçuk Saadet Hatun hamamı museum), caca-bey-tomb (Kırşehir madrasa vs tomb), tankiziyya (Damascus dar al-hadith vs Jerusalem entity), ahi-yusuf ×2 (Antalya citadel fountain inscription vs Bursa mosque/tomb), sultan-ismail-mosque ×2 (Kayseri Yenice İsmail district mescidi + Demirli village mosque), tomb-of-salih-bey ×2 (Pertek mosque + Selçuk bath), celebi-sultan-mehmed-mosque (Sarajevo Isabegović mosque vs Bursa Yeşil), osman-celebi-tomb + humayun-tomb (Topkapı Bab-ı Humayun gate), tomb-of-mimar-sinan ×4 (Ankara/Cenâbi + Büyükçekmece bridge named for district), sehzade-mosque, seyh-halil-turbesi, seyh-burhaneddin, sungur-bey, abdurrahman-sultan, danis-ali-bey, ismail-bey, tomb-of-hamza-bey ×2, tomb-of-ali-dede ×2, tomb-of-orhan-gazi (İznik imaret vs Bursa tomb), tomb-of-sultan-alaaddin ×2, melik-el-adil-i-turbesi, melikgazi-tomb, firuz-aga-mosque, abdulaziz-khan-madrasa, uftade, tezveren-sultan, umur-bey, sofular, hamza-bey mosque variants, hanabila 32628 (Aybak mausoleum proximity), al-aqsa-mosque (Kudus).
+- LEADS: Şehzade Mahmud Türbesi Muradiye Bursa (29850,30201 — new-entity candidate), Gülbahar Hatun Mescidi Edirne (29370), Selçuk Hatun Mescidi Edirne (29372), Sultan II. Bâyezid Camii Edirne külliye (29381), Lārī/Laleli Çelebi mosque Edirne (29382), Yahya Beg Tophane Çeşmesi Edirne (29397), Mašhad Sa'd al-Anṣārī Aleppo-region (30090-31684 ×4), Zāwiya Aḥmad al-Badawī Damascus (30144-5), Sofular Camii Yambol Bulgaria, Hamza Bey Câmii Stara Zagora, Büyük Cami museum Bulgaria, Mehmed Pasha Sokolović Bridge Višegrad, Dev Ali confirmed.
+- Next sweep: 32801-36800 running.
