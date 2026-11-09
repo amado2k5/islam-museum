@@ -7,6 +7,8 @@ summary:
   en: "Umayyad caliph who succeeded Yazid ibn Abd al-Malik and died at al-Rusafa; al-Tabari and al-Mas'udi record his reign and death. {cite:umayyad-birth-to-fall-2006}"
 wings: [people]
 gender: male
+born: { edtf: "691", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with دمشق per the record's own summary text; relation type pending review.", sources: [source/umayyad-birth-to-fall-2006] }
 sources: [source/umayyad-birth-to-fall-2006, source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/tabari-khayyat-part2, source/salabi-umayyad-state-2020, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/tarikh-khalifa-umari-1985]

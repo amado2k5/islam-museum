@@ -7,6 +7,7 @@ gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]
+died: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
 relations:
   - { type: lived_in, target: place/yanbu, confidence: low, note: "Associated with ينبع per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 provenance:

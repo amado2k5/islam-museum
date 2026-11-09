@@ -29,6 +29,8 @@ story_roles:
   - { role: poet, toward: person/muhammad, start: { edtf: "0622~" }, status: historical, note: "شاعر النبي الذي كان ينفح عنه بالمسجد.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي وشاعر النبي." }
+born: { edtf: "563~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "674~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/hassan-elegy-for-the-prophet, sources: [source/ibn-hisham-saqqa] }

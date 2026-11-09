@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1565", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Firishta" }
 relations:
   - { type: born_in, target: place/fatikchhari-upazila, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/chattogram-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

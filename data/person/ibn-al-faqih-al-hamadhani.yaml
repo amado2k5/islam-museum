@@ -12,6 +12,7 @@ wings: [people]
 themes: [geography-and-cartography]
 periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
+died: { edtf: "903~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/al-madain, confidence: low, note: "Associated with المدائن per the record's own summary text; relation type pending review.", sources: [source/muqaddasi-ahsan-taqasim-bga-1877] }
 sources: [source/muqaddasi-ahsan-taqasim-bga-1877]

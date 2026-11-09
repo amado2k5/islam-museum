@@ -18,6 +18,7 @@ faith:
 roles: [scholar, writer, preacher, teacher]
 wings: [people, living]
 regions: [south-asia]
+born: { edtf: "1966", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Minhaj-ul-Quran Registry" }
 relations:
   - { type: lived_in, target: place/lahore, confidence: low, note: "Associated with لاهور per the record's own summary text; relation type pending review.", sources: [source/minhaj-hassan-phd] }
   - type: child_of

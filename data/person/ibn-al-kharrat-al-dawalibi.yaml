@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1240", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Shuyukh" }
+died: { edtf: "1328", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Shuyukh" }
 relations:
   - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

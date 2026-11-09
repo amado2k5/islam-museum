@@ -17,6 +17,7 @@ wings: [people]
 themes: [literature]
 story_roles:
   - { role: poet, status: tradition, sources: [source/al-mustatraf-abshihi-scan-vol1] }
+died: { edtf: "760~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/yafa, confidence: low, note: "Associated with يافا per the record's own text; relation type pending review.", sources: [source/al-mustatraf-abshihi-scan-vol1] }
 sources: [source/al-mustatraf-abshihi-scan-vol1]

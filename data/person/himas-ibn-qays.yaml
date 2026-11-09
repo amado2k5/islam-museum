@@ -14,6 +14,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: military-opponent, status: tradition, note: "قاتل في صفوان وعكرمة بالخندمة ثم فر إلى بيته.", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/al-khandama, confidence: low, note: "Associated with al-Khandama per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-bakr }

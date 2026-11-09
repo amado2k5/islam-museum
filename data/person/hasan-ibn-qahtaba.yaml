@@ -6,6 +6,7 @@ summary:
   en: "al-Hasan ibn Qahtaba, a commander of the Khurasani armies; in al-Baladhuri: al-Mansur sent him raiding from Hadithat al-Mawsil in year 149, and he went with al-Abbas ibn Muhammad to Malatya and the siege of Kamkh; in Abd al-Wahhab ibn Ibrahim's army at Malatya's building in year 140 he would carry stone to hand the builder and fed the people from his own purse with field-kitchens — Abd al-Wahhab denounced him to Abu Ja'far, who answered 'O boy! al-Hasan feeds from his own money, and you feed from mine' and let him feed without a caller — and al-Mahdi sent him raiding in year 162, when he ranged Byzantine lands, chose the site of Madinat al-Hadath and spoke to al-Mahdi of building it and Tarsus."
 wings: [people]
 periods: [period/abbasid-early]
+died: { edtf: "797", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/khorasan, confidence: low, note: "Associated with خراسان per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-kamkh, role: "في مقدمة غزاة سنة 149", sources: [source/futuh-buldan-maarif-1407] }
