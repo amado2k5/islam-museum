@@ -171,7 +171,7 @@ const collections = wing === "objects"
 
     {wing === "place" && placesWithCoords.length > 0 && (
       <>
-        <MapViewer items={viewer.items} links={viewer.links} worldPaths={mapData.worldPaths} mapRegions={mapData.mapRegions} client:visible />
+        <MapViewer items={viewer.items} links={viewer.links} worldPaths={mapData.worldPaths} mapRegions={mapData.mapRegions} lang={lang} t={T.map.viewer} client:visible />
         <noscript><figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} declutter /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure></noscript>
       </>
     )}
