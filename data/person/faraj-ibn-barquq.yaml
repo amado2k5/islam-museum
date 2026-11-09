@@ -14,8 +14,8 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-49
   extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 202-208"]
-external_ids: { wikidata: "Q698037" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006]
+external_ids: { wikidata: "Q698037", nomisma: "faraj_b_barquq" }
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006, source/nomisma]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: built, target: building/farag-ibn-barquq-complex, sources: [source/yeomans-islamic-cairo-2006] }

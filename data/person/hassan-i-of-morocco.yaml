@@ -41,8 +41,8 @@ faith:
 relations:
   - { type: born_in, target: place/fez, sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-ar] }
   - { type: died_in, target: place/tadla, sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-ar] }
-external_ids: { wikidata: "Q496845" }
-sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-ar, source/wikipedia-hassan-i-of-morocco-fr, source/wikipedia-hassan-i-of-morocco-ur, source/wikidata-hassan-i-of-morocco]
+external_ids: { wikidata: "Q496845", nomisma: "al-hasan_i" }
+sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-ar, source/wikipedia-hassan-i-of-morocco-fr, source/wikipedia-hassan-i-of-morocco-ur, source/wikidata-hassan-i-of-morocco, source/nomisma]
 provenance:
   layer: own-research
   source: "English, Arabic, French and Urdu Wikipedia articles on Hassan I of Morocco, each fetched by its recorded revision id (EN 1375711629, AR 76964863, FR 240182676, UR 10231241) with the returned id asserted equal before use, and Wikidata item Q496845 (revision 2503113552). Existence checks by name fragments (Hassan, al-Hasan, الحسن) and by QID across data/person and data/source found no prior record for him. The lane queue gives 1836–1894; the sources contest both ends (birth 1836 or 1857; death 6, 7 or 9 June 1894) and the record follows the best-attested readings with all variants disclosed in the notes. His son Abd al-Hafid, built in this same run, carries the child_of edge to this record."

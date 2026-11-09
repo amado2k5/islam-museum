@@ -13,5 +13,7 @@ materials: [silver]
 holding_institution: "National Museum of Damascus"
 relations:
   - { type: related_to, target: concept/arab-byzantine-and-arab-sasanian-coinage, sources: [source/ush-kanz-umm-hajara-1972] }
-sources: [source/ush-kanz-umm-hajara-1972]
+external_ids:
+  nomisma: "dirham,umayyads,abbasids"
+sources: [source/ush-kanz-umm-hajara-1972, source/nomisma]
 status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker I), claude-opus-5-5, run ocr-harvest-2026-11-04, from source/ush-kanz-umm-hajara-1972 scan pp. 1, 5, 6, 22, 27–29, 48, 52, 54, 55, 108" }

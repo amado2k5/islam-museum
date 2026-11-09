@@ -19,7 +19,9 @@ relations:
   - { type: child_of, target: person/izz-al-din-aybak, sources: [source/shadharat-dhahab] }
   - { type: successor_of, target: person/izz-al-din-aybak, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/aybak-murder-655, role: "المسلطن بعد أبيه", sources: [source/shadharat-dhahab] }
-sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab]
+external_ids:
+  nomisma: "al-mansur_nur_al-din_ali"
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/nomisma]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the murder of Aybak, the accession at fifteen, the uncle al-Dud and the deposition are read from al-Maqrizi's Khitat (local scan, pp. 1530, 1916); the Ibn al-Imad line keeps its citation" }
 provenance:
   layer: own-research
