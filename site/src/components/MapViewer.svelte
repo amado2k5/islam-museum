@@ -118,7 +118,7 @@
   function edgeLabel(type: string) {
     if (lang === "en") return EDGE_EN[type] ?? type.replaceAll("_", " ");
     return ({
-      born_in: "وُلد في, died_in: "توفي في", lived_in: "عاش في", occurred_at: "وقع في", located_in: "في", site_of: "موقع", built: "بنى", built_by: "بُني بأمر", teacher_of: "علّم", student_of: "تعلّم من", spouse_of: "قرين", parent_of: "والد", child_of: "ابن", sibling_of: "أخ", fought: "قاتل", allied_with: "حالف", opposed: "عارض", participated_in: "شارك في", had_participant: "شارك فيه", visited_by: "زار", traveled_to: "سافر إلى", wrote_in: "كتب في", ruled_over: "حكم", ruler_of: "حاكم", influenced: "أثّر في", influenced_by: "تأثّر بـ", patron_of: "رعى", patronized_by: "رعاه", member_of: "عضو في", has_member: "عضوه", caused: "سبّب", caused_by: "نتج عن", mentions: "يذكر", mentioned_in: "مذكور في", about: "عن", subject_of: "موضوعه"
+      born_in: "وُلد في", died_in: "توفي في", lived_in: "عاش في", occurred_at: "وقع في", located_in: "في", site_of: "موقع", built: "بنى", built_by: "بُني بأمر", teacher_of: "علّم", student_of: "تعلّم من", spouse_of: "قرين", parent_of: "والد", child_of: "ابن", sibling_of: "أخ", fought: "قاتل", allied_with: "حالف", opposed: "عارض", participated_in: "شارك في", had_participant: "شارك فيه", visited_by: "زار", traveled_to: "سافر إلى", wrote_in: "كتب في", ruled_over: "حكم", ruler_of: "حاكم", influenced: "أثّر في", influenced_by: "تأثّر بـ", patron_of: "رعى", patronized_by: "رعاه", member_of: "عضو في", has_member: "عضوه", caused: "سبّب", caused_by: "نتج عن", mentions: "يذكر", mentioned_in: "مذكور في", about: "عن", subject_of: "موضوعه"
     } as Record<string, string>)[type] ?? EDGE_EN[type] ?? type.replaceAll("_", " ");
   }
   function project(n: Item) {

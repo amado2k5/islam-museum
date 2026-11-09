@@ -13,6 +13,14 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.5.1 — 2026-11-09
+
+### Fixed
+- **Unbreak `main`: MapViewer missing quote.** Yesterday's map-viewer merge left an unterminated string in the Arabic edge-label table (`born_in: "وُلد في` had no closing quote), so `npm run build` failed before any page compiled. Restored the quote; the site builds again.
+- **3D tour QA fixes (`/{lang}/3d/`).** (1) Enter now crosses the doorway the visitor is facing even while a top-bar or strip button holds focus — jumps also move keyboard focus onto the 3D canvas, so the "press Enter to go through the doorway" prompt finally does what it says right after entry and after strip/map jumps. (2) The Exit button opens an in-page confirm dialog instead of `window.confirm` (which embedded/webview contexts can silently suppress, leaving a dead-looking button); confirming disposes the scene and returns to the museum home, cancelling restores focus to the tour. (3) First visit now shows a real spinner plus a line explaining that the 3D engine downloads once and later visits are fast; the load watchdog was raised from 9 s to 60 s, re-arms once the three.js import resolves, and can no longer declare failure after init succeeded. (4) The Umayyad dirham close-up is no longer a blank grey disc — both faces carry a stylised inscription-band-and-field coin face with a milled rim (still a stand-in model; the honest note stays), and closer-scene texture maps are now disposed on close. (5) Floating exhibit/wing label sprites clamp to at most 60% of the viewport width and shrink as their anchor nears a screen edge, so long Arabic names can no longer run off-screen. (6) The entry-card and page ledes in Arabic and English no longer claim the wing galleries are "on the way" — all nine are open today (the Urdu copy already said so). New i18n keys `tour.loading_first`, `tour.exit_yes`, `tour.exit_stay` ship in ar/en/ur in the same commit.
+
+---
+
 ## v1.5.0 — 2026-11-09
 
 ### Fixed
