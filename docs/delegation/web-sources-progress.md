@@ -398,3 +398,31 @@ Final range done (4000 fiches, through fiche 52800 — target ~52000 exceeded).
 - REJECTED: palace-of-yashbak (Yashbak mausoleum vs palace), al-nasir-muhammad-MOSQUE on madrasa fiche, sultan-hasan Objet fiche (51596 deferred), bab-al-nasr (Zakki mosque outside Aleppo gate), sultan-ismail (Homs turba), aksaray ×2 + pervane-medrese (hans Alay/Oresin), tomb-of-mahmud (Mahmud Muharram mosque), iii-murad-turbesi (Mecca Murad III imaret), esrefoglu ×2 (Konya mosque vs Beysehir entity), qanibay (madrasa vs mosque), tomb-of-mehmed-v ×2 (Sokullu külliye).
 - SWEEP STATUS: TEI fiches 1-52800 harvested+matched. Total session: ranges 28801→52800 = 60,000 fiches this thread; cumulative coverage well past halfway of ~52k target.
 - Remaining: catalogue reportedly continues past 52800 (id space may extend further) — decide whether to continue 52801+ or pause sweep; explore-list source families still pending.
+
+## 2026-11-09 (p17) — Explore-list assessment: Nomisma.org (numismatics)
+
+First explore-list family scored against the eight criteria (verification date 9 Nov 2026, live site checked):
+
+**Nomisma.org** — collaborative Linked Open Data ontology for numismatic concepts, founded 2010 by Sebastian Heath & Andrew Meadows (American Numismatic Society, NY); INC patronage since 2014; Oxford-linked development (Ethan Gruber). Verified live: SPARQL endpoint + documented APIs + CC-BY 3.0 licence statement.
+
+1. **Authority** — EXCELLENT: ANS + Oxford + INC patronage, named scientific committee.
+2. **Citability** — EXCELLENT: stable `nomisma.org/id/…` URIs per concept, resolvable, plus SPARQL/typed APIs.
+3. **Terms** — EXCELLENT: CC-BY 3.0 stated on site; partner datasets carry their own licence statements to check per-record.
+4. **Structure** — EXCELLENT: SPARQL endpoint, REST-style APIs, RDFa — fully machine-readable.
+5. **Coverage fit** — EXCELLENT and urgent: `kind: coin` objects number ~2 in the graph while Islamic numismatics spans ~1,300 years of mints/reigns; coins also corroborate `place` (mints), `person` (issuers) and `polity` (dynasties) across the whole timeline.
+6. **Corroboration value** — EXCELLENT: coins are primary evidence for mint towns, regnal dates and titulature — exactly the corroboration class the corpus lacks.
+7. **Arabic-first** — MODERATE: coin legends are Arabic; Nomisma labels are primarily English/German with some Arabic — usable, not Arabic-first.
+8. **Longevity** — EXCELLENT: ANS institutional hosting since 2010, INC-recognised KOS.
+
+**Verdict: strong Tier-1/2 registration candidate.** Proposed harvest: mint → `place`, issuing authority → `person`/`polity`, type/standard → `object` kind coin, die/legend facts facts-only with `nomisma.org/id/…` stable citations. Next step: draft registration block (harvest-registry entry, `data/source/nomisma` entity, attribution row, decision record), register in one commit, pilot on 10 coin-adjacent records.
+
+**Other probes (light):** muslimscholars.info — web-only, self-admitted ~5% error, no visible API → link-only at best, defer. iDAI.gazetteer — site reachable but JS-heavy; needs deeper API check before scoring. Walters manuscripts — HTTP 403 on anonymous fetch; needs Wayback or API-key route like earlier museum families.
+
+## 2026-11-09 (p17) — TEI 52801-56800 COMPLETE
+
+- madrasa-al-ghawri +6 (53194-53245: Ghawriyya madrasa portal/iwans/exterior 1503-04 — matcher hit bab-zuwayla on proximity, rerouted)
+- al-muayyad-mosque-cairo +3 (53256-68: Mu'ayyad Shaykh mosque texts 1420-21, near Bab Zuwayla)
+- alhambra +53459 (Peinador palace text 1390-91); qarawiyyin +54637,54638 (Bab al-Khulafa' + Bab al-Ward gates 1136-37)
+- REJECTED: bab-zuwayla direct ×0 (all 9 were misroutes), uzun-hasan (Hasankeyf mausoleum of Zaynal b. Uzun Hasan vs Tabriz türbe), suleyman-pasha-tomb (Mardin köşk), tomb-of-mahmud (Ramla Shaykh Mahmud mosque), edirne ×2 (chandelier provenance unknown).
+- Nomisma.org scored: strong Tier-1/2 candidate (ANS+Oxford, CC-BY 3.0, SPARQL+APIs) — see assessment above.
+- Next sweep: 56801-60800 running.
