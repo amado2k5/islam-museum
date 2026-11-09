@@ -6,6 +6,8 @@ summary:
   en: "Marwan ibn al-Hakam ibn Abi al-As ibn Umayya; he rode in Abdallah ibn Sa'd ibn Abi Sarh's reinforced army to Ifriqiya in Uthman's raid with his brother al-Harith ibn al-Hakam; his rule came later, after Mu'awiya ibn Yazid's death amid Ibn al-Zubayr's fitna."
 wings: [people]
 periods: [period/rashidun, period/umayyad]
+born: { edtf: "623", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

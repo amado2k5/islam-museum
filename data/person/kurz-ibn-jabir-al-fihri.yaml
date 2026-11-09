@@ -17,6 +17,7 @@ story_roles:
   - { role: martyr, status: tradition, note: "استشهد يوم فتح مكة بالخندمة مدافعًا عن خنيس بن خالد وهو يرتجز: «لأضربن اليوم عن أبي صخر…».", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي شهيد يوم الفتح." }
+died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/sariyya-of-kurz-ibn-jabir-against-the-killers-of-yasar, role: "أمير الطلب؛ لحق القوم وأتى بهم", sources: [source/ibn-hisham-saqqa] }

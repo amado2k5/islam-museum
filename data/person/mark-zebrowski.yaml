@@ -10,6 +10,8 @@ themes: [arts-of-the-book]
 regions: [americas-oceania]
 gender: male
 roles: [scholar]
+born: { edtf: "1944", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: The Independent (obituary)" }
+died: { edtf: "1999", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: The Independent (obituary)" }
 relations:
   - { type: lived_in, target: place/hyderabad, confidence: low, note: "Associated with Hyderabad per the record's own summary text; relation type pending review.", sources: [source/zebrowski-deccani-painting-1983] }
 sources: [source/zebrowski-deccani-painting-1983]

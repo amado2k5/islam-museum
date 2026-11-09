@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "520~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil / Aghani" }
 relations:
   - { type: member_of, target: group/al-khazraj, sources: [source/kamil-ibn-al-athir] }
   - { type: lived_in, target: place/medina, sources: [source/kamil-ibn-al-athir] }

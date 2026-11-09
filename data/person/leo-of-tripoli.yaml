@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq, anatolia-balkans]
 periods: [period/abbasid-early]
+born: { edtf: "904", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Dictionary of Byzantium" }
+died: { edtf: "924", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Dictionary of Byzantium" }
 relations:
   - { type: lived_in, target: place/tripoli-greece, confidence: low, note: "Associated with Tripoli per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]

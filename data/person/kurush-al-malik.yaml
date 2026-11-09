@@ -6,6 +6,8 @@ summary:
   en: "King Cyrus who at Christ's birth dispatched the three gift-bearers — frankincense, myrrh and gold — guided by a star that moved and halted with them until they reached Mary and her son in Syria; the report is in the Gospel, fully treated in al-Mas'udi's Akhbar al-Zaman {cite:muruj-al-dhahab p. 551}."
 gender: male
 wings: [people]
+born: { edtf: "-600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica (Cyrus II)" }
+died: { edtf: "-530", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica (Cyrus II)" }
 relations:
   - { type: lived_in, target: place/syria, confidence: low, note: "Associated with Syria per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
 provenance:

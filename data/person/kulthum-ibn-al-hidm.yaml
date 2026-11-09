@@ -18,6 +18,7 @@ story_roles:
   - { role: host, start: { edtf: "0622-09" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "أنصاري؛ يسجَّل في الإطار السني للمتحف." }
+died: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/quba, confidence: low, note: "Associated with Quba per the record's own summary text; relation type pending review.", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/ansar }

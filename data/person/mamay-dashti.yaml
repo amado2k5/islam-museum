@@ -11,6 +11,7 @@ roles: [military-commander]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
+died: { edtf: "1380", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Russian chronicles / EI2" }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/wikidata] }
 sources:

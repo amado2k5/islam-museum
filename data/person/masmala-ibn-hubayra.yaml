@@ -5,6 +5,7 @@ summary:
   ar: "مصقلة بن هبيرة بن شبل أحد بني ثعلبة بن شيبان بن ثعلبة بن عكابة؛ ولاه معاوية طبرستان وضم إليه عشرة آلاف فكاده العدو حتى توغل فأخذوا عليه المضايق ودهدهوا الصخور فهلك هو وجيشه وضرب به المثل حتى يرجع مصقلة من طبرستان."
   en: "Masmala ibn Hubayra ibn Shabal of Tha'laba ibn Shayban ibn Tha'laba ibn Ukaba; Mu'awiya made him governor of Tabaristan with ten or twenty thousand, the enemy lured him deep then rolled the narrows' rocks down — his army annihilated, his name a proverb for the never-returning."
 periods: [period/umayyad]
+died: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/tabaristan, confidence: low, note: "Associated with طبرستان per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/masmala-tabaristan-disaster }

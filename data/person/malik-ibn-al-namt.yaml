@@ -21,6 +21,7 @@ story_roles:
   - { role: official, start: { edtf: "0631~" }, status: tradition, note: "أمّره النبي على من أسلم من قومه (الرحيق ص449).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/hamadan, confidence: low, note: "Associated with همدان per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-hamdan, sources: [source/ibn-hisham-saqqa] }

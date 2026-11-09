@@ -13,6 +13,8 @@ summary:
 roles: [writer, professor]
 wings: [people, living]
 regions: [arabia]
+born: { edtf: "2019~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Authors" }
+died: { edtf: "2026~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Authors" }
 relations:
   - { type: lived_in, target: place/kuwait, confidence: low, note: "Associated with الكويت per the record's own summary text; relation type pending review.", sources: [source/harperreach-pact-we-made] }
 faith:

@@ -17,6 +17,7 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+died: { edtf: "627~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/medina }
   - { type: member_of, target: group/aslam }

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ma'athir al-Umara" }
 relations:
   - { type: born_in, target: place/kabul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/qadam-sharif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

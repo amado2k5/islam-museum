@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/modern-era]
+born: { edtf: "1894", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama-i Gilan" }
+died: { edtf: "1986", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama-i Gilan" }
 relations:
   - { type: born_in, target: place/najaf, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/lahijan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

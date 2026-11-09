@@ -13,6 +13,7 @@ summary:
 roles: [artist]
 wings: [people, living]
 regions: [andalus-europe]
+born: { edtf: "1993", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary directories" }
 relations:
   - { type: lived_in, target: place/london, confidence: low, note: "Associated with London per the record's own summary text; relation type pending review.", sources: [source/youtube-chinutay] }
 faith:
