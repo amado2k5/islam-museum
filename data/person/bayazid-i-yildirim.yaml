@@ -16,9 +16,10 @@ regions: [anatolia-balkans]
 relations:
   - { type: child_of, target: person/murad-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/battle-ankara-804, role: "المهزوم الأسير", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab, source/juha-nawadir-kubra-djuwaydi]
+sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab, source/juha-nawadir-kubra-djuwaydi, source/nomisma]
 aliases: [person/bayezid-i-uthmani]
 external_ids:
+  nomisma: "bayezid_i_yildirim"
   wikidata: Q128358
 provenance:
   layer: own-research

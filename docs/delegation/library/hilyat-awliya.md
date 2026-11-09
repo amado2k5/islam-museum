@@ -25,6 +25,9 @@
 - `concept/wali` and `concept/karamat-al-awliya`: trilingual sections appended on the introduction's "neat" (نعوت) of the friends of God and its karamat reports — the hadith qudsi on harming a wali (1/4–5), the groups listed pp. 5–17, Dhu al-Nun's description of the elite pp. 13–15 — cited `1/<page>` (vol. 1 printed = PDF page). Hilyat source added to both `sources` lists.
 - Pages read: vol. 1 pp. 4–17 in full.
 
+## Batch 4 (run microsd-books-b12)
+- `person/ahmad-ibn-abi-al-hawari`: trilingual "In Hilyat al-Awliya" section appended — vol. 10, notice 457, PDF pp.5–41 read (the books-thrown-into-the-sea stories, the Jurayj exchange, the traveller's stations, marks of love and contentment). Record already existed (Sifat al-Safwa provenance, status published); hilyat source added to `sources`.
+
 ## Not done / leads
-- The notices themselves (about 600) are not mined; ~590 remain after batch 3.
-- Next high-value notices still unmined include Ahmad ibn Abi al-Hawari (vol. 10, notice 457 — needs a NEW record), Sufyan al-Thawri (end of vol. 7 per the vol. 7 index), and the vol. 9–10 Sufi shaykhs.
+- The notices themselves (about 600) are not mined; ~589 remain after batch 4.
+- Next high-value notices still unmined: Sufyan al-Thawri (end of vol. 7 per the vol. 7 index — his notice follows Ibrahim ibn Adham? check; actually vol. 7 notice 393–394 area shows Sufyan content in the index), and the vol. 9–10 Sufi shaykhs.

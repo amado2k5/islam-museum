@@ -19,7 +19,9 @@ faith:
 relations:
   - { type: child_of, target: person/baybars, sources: [source/shadharat-dhahab] }
   - { type: sibling_of, target: person/al-malik-al-said-baraka, sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+external_ids:
+  nomisma: "al-'adil_badr_al-din_salamish"
+sources: [source/shadharat-dhahab, source/nomisma]
 status:
   review: published
   completeness: 3
