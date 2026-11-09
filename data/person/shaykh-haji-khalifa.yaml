@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kashf al-Zunun" }
 relations:
   - { type: born_in, target: place/kastamonu, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q155915)" }
   - { type: died_in, target: place/bursa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q40738)" }

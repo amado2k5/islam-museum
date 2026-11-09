@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1668", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd" }
 relations:
   - { type: lived_in, target: place/najd, confidence: low, note: "Association inferred from the nisba 'النجدي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

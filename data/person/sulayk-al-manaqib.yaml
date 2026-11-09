@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muruj al-Dhahab" }
+died: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muruj al-Dhahab" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Early Arabian poet (Muruj al-dhahab); no specific town attested.", sources: [source/muruj-al-dhahab] }

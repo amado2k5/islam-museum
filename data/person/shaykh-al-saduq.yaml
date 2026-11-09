@@ -13,6 +13,8 @@ regions: [persia-central-asia, levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
 faith:
 - { value: shia-twelver, basis: tradition, note: "leading Imami (Twelver) traditionist and author per the cited biographical tradition" }
+born: { edtf: "918~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi" }
+died: { edtf: "991", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi" }
 relations:
   - { type: born_in, target: place/qumm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170573)" }
   - { type: died_in, target: place/rayy, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q636188)" }

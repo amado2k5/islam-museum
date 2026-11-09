@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyaz-us-Salatin" }
+died: { edtf: "1739", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyaz-us-Salatin" }
 relations:
   - { type: born_in, target: place/burhanpur, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q593193)" }
   - { type: died_in, target: place/murshidabad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1017175)" }

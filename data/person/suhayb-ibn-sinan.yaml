@@ -16,6 +16,8 @@ story_roles:
   - { role: companion, status: tradition, note: "شاهد على أثر إسلام عمر (الرحيق ص105؛ ابن الجوزي ص13).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+born: { edtf: "587~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "659", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: participated_in, target: event/islam-of-umar, role: "شهد أثر إسلامه", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hajar-isaba, source/fadail-sahaba-ahmad-wasi-allah-1999] }

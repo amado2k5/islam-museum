@@ -6,6 +6,8 @@ summary:
   en: "The Prophet's freedman who went down into the grave with Ali and the two sons of al-Abbas at the burial {cite:muruj-al-dhahab p. 582}."
 gender: male
 wings: [people]
+born: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "655~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: participated_in, target: event/burial-of-the-prophet, role: "من غسل النبي وصب الماء ونزل القبر ودفن القطيفة", sources: [source/ibn-hisham-saqqa] }
   - { type: buried_in, target: place/al-qatif, sources: [source/wikidata], confidence: low, note: "- { type: participated_in, target: event/burial-of-the-prophet, role: 'من غسل النبي وصب الماء ونزل القبر ودفن " }

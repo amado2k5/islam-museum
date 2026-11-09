@@ -16,5 +16,6 @@ provenance:
   run: lib-muntazam-258-349-batch35
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+died: { edtf: "898~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/kirman, confidence: low, note: "Association inferred from the nisba 'الكرماني'; specific birthplace or residence is not individually documented.", sources: [source/muntazam-ibn-al-jawzi] }

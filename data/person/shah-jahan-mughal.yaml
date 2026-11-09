@@ -10,6 +10,8 @@ gender: male
 summary:
   ar: "بطاقة أولية لشاهجهان، خامس ملوك دولة المغول في الهند وباني تاج محل، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
   en: "Draft card for Shah Jahan, fifth Mughal emperor and builder of the Taj Mahal, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+born: { edtf: "1592", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1666", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
 - { type: ruled_over, target: place/mughal-empire, sources: [source/tarikh-islam-hasan-ibrahim] }
 - type: commissioned

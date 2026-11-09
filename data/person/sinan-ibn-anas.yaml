@@ -13,6 +13,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch41
 external_ids: { wikidata: "Q12216959" }
+died: { edtf: "686~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }
 sources: [source/muruj-al-dhahab]

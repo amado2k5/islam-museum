@@ -11,6 +11,7 @@ wings: [people]
 themes: [women, literature, slavery-and-freedom]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+died: { edtf: "870~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: student_of, target: person/ibrahim-ibn-al-mahdi, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
   - { type: related_to, target: person/al-mutasim, role: "اشتراها", sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1359", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1420", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: died_in, target: place/serres, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q206957)" }
 sources: [source/dawlat-uthmaniyya-salabi, source/al-aalam]

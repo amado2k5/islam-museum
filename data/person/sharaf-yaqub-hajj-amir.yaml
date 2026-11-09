@@ -9,6 +9,7 @@ roles: [military]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
+died: { edtf: "1331", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Iqd al-Thamin" }
 relations:
   - { type: ruler_of, target: place/mosul, sources: [source/kamil-ibn-al-athir], confidence: low, note: "ar: 'الأمير شرف يعقوب بن محمد الموصلي الذي أقام بالشام وتقدم فيه؛ كان سنة عشرين وستمائة أميراً على حجاج الشام " }
 sources: [source/kamil-ibn-al-athir]

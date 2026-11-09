@@ -9,6 +9,7 @@ traditions: [sunni]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
+died: { edtf: "1077", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
 sources: [source/muntazam-ibn-al-jawzi]

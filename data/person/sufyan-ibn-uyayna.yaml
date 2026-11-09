@@ -6,6 +6,8 @@ summary:
   en: "Sufyan ibn Uyayna of Mecca, jurist and hadith-master of second-century Hijaz; in al-Baladhuri: Abd al-Malik ibn Salih wrote consulting him on the people of Cyprus, and he answered 'we know of no people God covenanted with who broke the covenant without their blood becoming lawful, save the people of Mecca whom He pardoned' — their breach having been aiding their allies against the Messenger's own allies of Khuza'a — adding the case of Tajran's people, bound not to consume usury, whom Umar ruled to exile when they did; the consensus being that whoever breaks a covenant has no dhimma."
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "814", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: participated_in, target: event/fuqaha-consulta-on-cyprus, role: "أفتى بأن الناقض لا ذمة له", sources: [source/futuh-buldan-maarif-1407] }
   - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }

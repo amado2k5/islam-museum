@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1433", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Christian rulers of the Balkans" }
+died: { edtf: "1504", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Christian rulers of the Balkans" }
 relations:
   - { type: opposed, target: person/mehmed-ii, sources: [source/dawlat-uthmaniyya-salabi] }
 

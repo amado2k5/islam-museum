@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
 sources: [source/al-aalam]
+born: { edtf: "1580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khushnavisan" }
+died: { edtf: "1610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khushnavisan" }
 relations:
   - { type: lived_in, target: place/iran, confidence: low, note: "Persian calligrapher (al-A'lam; regions: persia-central-asia).", sources: [source/al-aalam] }
 external_ids:

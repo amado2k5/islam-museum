@@ -12,6 +12,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch41
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: traveled_to, target: place/kufa, sources: [source/muruj-al-dhahab], confidence: low, note: "ar: 'بعثه عبد الملك بن مروان من الشام على عساكر كثيرة لقتال شبيب الخارجي حين تحصن الحجاج في دار الإمارة بالكوف" }
 sources: [source/muruj-al-dhahab]

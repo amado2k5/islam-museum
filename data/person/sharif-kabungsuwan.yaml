@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1515~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Saleeby (Mindanao annals)" }
+died: { edtf: "1540~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Saleeby (Mindanao annals)" }
 relations:
   - { type: born_in, target: place/johor, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q183032)" }
   - { type: died_in, target: place/maguindanao, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q13845)" }
