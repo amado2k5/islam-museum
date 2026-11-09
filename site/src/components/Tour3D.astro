@@ -15,7 +15,8 @@
 //   kind_event, kind_place, kind_time,
 //   jp_title, jp_sub, jp_close, jc_back,
 //   enter_title, enter_lede (plain text, \n for line breaks),
-//   enter_button, logo_alt, loading, failed,
+//   enter_button, logo_alt, loading, loading_first, failed,
+//   exit_confirm, exit_yes, exit_stay,
 //   stop_of ("{n} / {total}"), stop_prev, stop_next, near_prompt, near_prompt_touch,
 //   help_button, help_title, help_walk, help_look, help_go, help_stops, help_esc, help_close, canvas_label,
 //   look_day, help_light, lite_label, lite_offer, lite_offer_btn, help_closer,
@@ -179,7 +180,15 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, halls, wingTit
     </div>
   </div>
 
-  <div id="loading" aria-hidden="true"><div class="cube">🧊</div><p>{t.loading}</p></div>
+  <div id="exitDlg" role="dialog" aria-modal="true" aria-labelledby="exitDlgTitle">
+    <h2 id="exitDlgTitle">{t.exit_confirm}</h2>
+    <div class="row">
+      <button type="button" id="exitStay" class="stay">{t.exit_stay}</button>
+      <button type="button" id="exitYes" class="go">{t.exit_yes}</button>
+    </div>
+  </div>
+
+  <div id="loading" role="status"><div class="spin" aria-hidden="true"></div><p>{t.loading}</p><p class="sub">{t.loading_first}</p></div>
 
   <script type="application/json" set:html={payloadJson} />
 </div>
@@ -278,9 +287,32 @@ body:has(#tour3d-root) { overflow: hidden; }
   flex-direction: column; gap: 14px; align-items: center; justify-content: center;
   background: #0d1b2e; color: #f5d67b;
 }
-#tour3d-root #loading .cube { font-size: 3rem; animation: tour-spin 2.4s linear infinite; }
-@keyframes tour-spin { to { transform: rotateY(360deg); } }
-#tour3d-root #loading p { color: #cfe0f5; font-size: .9rem; }
+#tour3d-root #loading .spin {
+  width: 54px; height: 54px; border-radius: 50%;
+  border: 5px solid rgba(212,160,23,.25); border-top-color: #f5d67b;
+  animation: tour-spin 1s linear infinite;
+}
+@keyframes tour-spin { to { transform: rotate(360deg); } }
+#tour3d-root #loading p { color: #cfe0f5; font-size: .9rem; margin: 0; }
+#tour3d-root #loading .sub { color: #9fb0cc; font-size: .78rem; max-width: 30em; text-align: center; padding: 0 16px; }
+
+#tour3d-root #exitDlg {
+  position: absolute; z-index: 34; top: 50%; right: 50%;
+  transform: translateX(50%) translateY(-50%) scale(.96);
+  width: min(380px, calc(100vw - 32px));
+  background: rgba(13,22,40,.96); border: 2px solid #d4a017; border-radius: 18px;
+  padding: 18px 20px; color: #f2f5fc; text-align: center;
+  opacity: 0; visibility: hidden; pointer-events: none; transition: opacity .2s, transform .2s, visibility .2s;
+}
+#tour3d-root #exitDlg.show { opacity: 1; visibility: visible; pointer-events: auto; transform: translateX(50%) translateY(-50%) scale(1); transition: opacity .2s, transform .2s, visibility 0s; }
+#tour3d-root #exitDlg h2 { color: #f2f5fc; font-size: 1.02rem; font-weight: 600; line-height: 1.7; margin: 0 0 16px; }
+#tour3d-root #exitDlg .row { display: flex; gap: 10px; }
+#tour3d-root #exitDlg .row button { flex: 1; border-radius: 12px; padding: 10px 12px; cursor: pointer; font-weight: 700; font-size: .92rem; }
+#tour3d-root #exitDlg .stay { border: 2px solid #5a6b8c; background: transparent; color: #dbe4f5; }
+#tour3d-root #exitDlg .go { border: 2px solid #d4a017; background: #d4a017; color: #1a1206; }
+#tour3d-root[data-look="day"] #exitDlg { background: rgba(250,245,233,.97); color: #2a2118; }
+#tour3d-root[data-look="day"] #exitDlg h2 { color: #2a2118; }
+#tour3d-root[data-look="day"] #exitDlg .stay { border-color: #a8906a; color: #4a3d28; }
 
 #tour3d-root #panel {
   position: absolute; z-index: 30; bottom: 84px; right: 50%;

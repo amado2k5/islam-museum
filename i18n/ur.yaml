@@ -1129,6 +1129,46 @@ map:
     locality: علاقہ
     approximate: تقریبی
     schematic: مقامات خاکہ نما
+  viewer:
+    label: اسلام کا نقشہ براؤزر
+    back: واپس
+    world: دنیا
+    zoom: نقشے کا زوم
+    zoom_in: بڑا کریں
+    zoom_out: چھوٹا کریں
+    zoom_bar: زوم سلائیڈر
+    theme_dark: گہرا موڈ
+    theme_light: روشن موڈ
+    level_up: ایک درجہ اوپر
+    prev_year: پچھلا ہجری سال
+    next_year: اگلا ہجری سال
+    year: ہجری سال
+    year_ah: '{y} ہجری'
+    year_bh: '{y} قبل ہجری'
+    map_aria: اسلامی دنیا کا نقشہ، سال {y}
+    empty: اس سال اس مقام کے لیے ابھی کوئی ماخذ والا اندراج درج نہیں۔
+    prev: پچھلا
+    more: مزید
+    prev_items: پچھلے اندراجات
+    more_items: مزید اندراجات
+    prev_links: پچھلے تعلقات
+    more_links: مزید تعلقات
+    open: اندراج کا صفحہ کھولیں
+    continue: نقشہ جاری رکھیں
+    close: بند کریں
+    no_summary: اس اندراج کا خلاصہ ابھی نہیں لکھا گیا۔
+    details: تفصیل کے لیے کلک کریں
+    cls:
+      person: شخصیت
+      event: واقعہ
+      place: مقام
+      building: عمارت
+      work: تصنیف
+      group: گروہ
+      journey: سفر
+      polity: ریاست
+      object: نادرہ
+
 ids:
   wikidata: Wikidata
   viaf: VIAF
@@ -2092,46 +2132,6 @@ hadith:
   on_sunnah: یہ مجموعہ Sunnah.com پر دیکھیں
   isnad: سندِ روایت
   isnad_from: سے
-  viewer:
-    label: اسلام کا نقشہ براؤزر
-    back: واپس
-    world: دنیا
-    zoom: نقشے کا زوم
-    zoom_in: بڑا کریں
-    zoom_out: چھوٹا کریں
-    zoom_bar: زوم سلائیڈر
-    theme_dark: گہرا موڈ
-    theme_light: روشن موڈ
-    level_up: ایک درجہ اوپر
-    prev_year: پچھلا ہجری سال
-    next_year: اگلا ہجری سال
-    year: ہجری سال
-    year_ah: '{y} ہجری'
-    year_bh: '{y} قبل ہجری'
-    map_aria: اسلامی دنیا کا نقشہ، سال {y}
-    empty: اس سال اس مقام کے لیے ابھی کوئی ماخذ والا اندراج درج نہیں۔
-    prev: پچھلا
-    more: مزید
-    prev_items: پچھلے اندراجات
-    more_items: مزید اندراجات
-    prev_links: پچھلے تعلقات
-    more_links: مزید تعلقات
-    open: اندراج کا صفحہ کھولیں
-    continue: نقشہ جاری رکھیں
-    close: بند کریں
-    no_summary: اس اندراج کا خلاصہ ابھی نہیں لکھا گیا۔
-    details: تفصیل کے لیے کلک کریں
-    cls:
-      person: شخصیت
-      event: واقعہ
-      place: مقام
-      building: عمارت
-      work: تصنیف
-      group: گروہ
-      journey: سفر
-      polity: ریاست
-      object: نادرہ
-
 figure:
   title: تصاویر
   licence: لائسنس
@@ -2180,6 +2180,8 @@ tour:
   journey_button: وقت کا سفر
   exit_button: باہر نکلیں
   exit_confirm: ورچوئل ٹور سے نکل کر میوزیم کی سائٹ پر واپس جائیں؟
+  exit_yes: باہر نکلیں
+  exit_stay: ٹور میں رہیں
   hint_desktop: چلنے کے لیے WASD یا تیر · دیکھنے کے لیے گھسیٹیں · جانے کے لیے کلک کریں
   hint_touch: چلنے کے لیے جوائے اسٹک · دیکھنے کے لیے گھسیٹیں · جانے کے لیے چھوئیں
   loc_hall: بڑا ہال
@@ -2195,6 +2197,7 @@ tour:
   portal_soon: اس پہلو کا سہ جہتی ہال جلد آ رہا ہے۔
   explore_wing: ابھی پہلو دیکھیں
   loading: بڑا ہال تیار ہو رہا ہے…
+  loading_first: پہلی بار سہ جہتی انجن ڈاؤن لوڈ ہوتا ہے — سست کنکشن پر کچھ وقت لگ سکتا ہے؛ اگلی بار یہ کہیں تیز ہوتا ہے۔
   failed: آپ کے براؤزر میں سہ جہتی گرافکس نہیں چل سکے۔
   nojs_title: ورچوئل ٹور — JavaScript کے بغیر
   nojs_lede: سہ جہتی ٹور کو JavaScript چاہیے، مگر آپ یہاں سے پہلو اور سفر دیکھ سکتے ہیں۔
