@@ -207,9 +207,11 @@
     isLight = theme === "light" || (!theme && !matchMedia("(prefers-color-scheme: dark)").matches);
   });
 
+  let seenFirstLevel = false;
   $effect(() => {
     level;
-    if (stageEl && !matchMedia("(prefers-reduced-motion: reduce)").matches) animate(stageEl, { opacity: [0.48, 1], scale: [0.86, 1] }, { duration: 0.58, ease: [0.22, 1, 0.36, 1] });
+    if (!seenFirstLevel) { seenFirstLevel = true; return; }
+    if (stageEl && !matchMedia("(prefers-reduced-motion: reduce)").matches) animate(stageEl, { opacity: [0.6, 1], scale: [0.92, 1] }, { duration: 0.45, ease: [0.22, 1, 0.36, 1] });
   });
   $effect(() => {
     if (!tooltip || !tipEl || !stageEl) return;
@@ -371,8 +373,8 @@
         {/if}
         {#each regionPlaces as p, i}
           {@const pos = placePos(p)}
-          <g class="place" class:hover={hoverId === p.id} transform={`translate(${pos.x} ${pos.y}) scale(.42)`} onmouseenter={() => hoverId = p.id} onmouseleave={() => hoverId = null} onclick={() => wasClick() && openPlace(p.id)} tabindex="0" role="button" aria-label={p.label} onkeydown={(e) => e.key === "Enter" && openPlace(p.id)}>
-            <circle r="34" class="halo" />
+          <g class="place" class:hover={hoverId === p.id} transform={`translate(${pos.x} ${pos.y}) scale(.34)`} onmouseenter={() => hoverId = p.id} onmouseleave={() => hoverId = null} onclick={() => wasClick() && openPlace(p.id)} tabindex="0" role="button" aria-label={p.label} onkeydown={(e) => e.key === "Enter" && openPlace(p.id)}>
+            <circle r="26" class="halo" />
             <path d={iconPath(p)} class="wire" />
           </g>
         {/each}
@@ -459,9 +461,9 @@
 </section>
 
 <style>
-  .map-viewer { --gold2:#d4af37; --dark:#070707; --gold-soft:rgba(212,175,55,.16); color:var(--fg); position:relative; z-index:1; height:min(82vh,720px); min-height:420px; margin:0 0 1.5rem; background:var(--bg); overflow:hidden; border-radius:14px; }
+  .map-viewer { --gold2:#d4af37; --dark:#070707; --gold-soft:rgba(212,175,55,.16); color:var(--fg); position:relative; z-index:1; display:flex; flex-direction:column; height:min(82vh,720px); min-height:420px; margin:0 0 1.5rem; background:var(--bg); overflow:hidden; border-radius:14px; }
   .map-viewer.light { background:var(--ivory); }
-  .toolbar { position:absolute; z-index:5; inset-inline:16px; top:14px; display:flex; align-items:center; justify-content:space-between; gap:14px; }
+  .toolbar { position:relative; z-index:5; display:flex; align-items:center; justify-content:space-between; gap:14px; padding:10px 14px 8px; }
   .ctrl,.zoom button,.timebar button { background:var(--panel); border:1px solid var(--line); color:var(--fg); border-radius:999px; padding:5px 14px; cursor:pointer; font:inherit; }
   .icon { display:inline-flex; align-items:center; justify-content:center; gap:6px; min-width:34px; min-height:34px; }
   .ctrl:disabled { opacity:.4; cursor:default; }
@@ -475,7 +477,7 @@
   .preview-world { fill:rgba(212,175,55,.03); stroke:rgba(212,175,55,.55); stroke-width:3; }
   .preview-region { fill:rgba(212,175,55,.22); stroke:var(--gold); stroke-width:4; }
   .preview-region.selected { fill:rgba(212,175,55,.34); }
-  .stage { position:absolute; inset:0; border:0; border-radius:0; overflow:hidden; background:var(--panel); touch-action:pan-y; }
+  .stage { position:relative; flex:1; min-height:0; border:0; border-radius:0; overflow:hidden; background:var(--panel); touch-action:pan-y; }
   .map-viewer.light .stage,.map-viewer.light .preview { background:var(--ivory); }
   .scene { display:block; width:100%; height:100%; direction:ltr; transform:translate(var(--panx),var(--pany)) scale(var(--zoom)); transform-origin:center; transition:transform .12s ease-out; }
   .stage.dragging { cursor:grabbing; }
