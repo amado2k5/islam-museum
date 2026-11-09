@@ -9,6 +9,7 @@ wings: [people]
 themes: [politics-governance-and-authority]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
+died: { edtf: "950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Miskawayh, Tajarib al-Umam; Ibn al-Athir, al-Kamil" }
 relations:
   - { type: ruler_of, target: place/baghdad, note: "From text: ruled Baghdad", sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/tajarib-al-umam-surush-v6] }
   - { type: participated_in, target: event/buyid-entry-baghdad-334, sources: [source/tajarib-al-umam-surush-v6] }

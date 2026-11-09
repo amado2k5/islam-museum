@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
+died: { edtf: "856", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Mihna jurist examined under al-Ma'mun; the inquisition milieu was Baghdad. Inferred.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }
   - { type: participated_in, target: event/mihna-of-the-quran, role: "الممتحَن", sources: [source/tarikh-khulafa-minhaj-1434] }

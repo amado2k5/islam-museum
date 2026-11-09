@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "960", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shirazi, Tabaqat al-Fuqaha; al-Dhahabi, Siyar" }
+died: { edtf: "1058", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shirazi, Tabaqat al-Fuqaha; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Shafi'i qadi in al-Mas'udi's tenth-century context; residence inferred.", sources: [source/muruj-al-dhahab], confidence: low }

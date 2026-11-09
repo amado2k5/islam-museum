@@ -15,5 +15,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch22
+died: { edtf: "716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari, Tarikh; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/medina, note: "Son of Muhammad ibn al-Hanafiyya; the Alid family seat was Medina. Inferred.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

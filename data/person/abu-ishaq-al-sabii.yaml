@@ -15,6 +15,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 themes: [scripture-and-its-sciences]
+born: { edtf: "653", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
+died: { edtf: "745", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/kufa, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: related_to, target: concept/ikhtilat-al-ruwat, sources: [source/tadrib-rawi-awwama-v5] }

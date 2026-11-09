@@ -20,5 +20,6 @@ story_roles:
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 62, from helper claims file; not yet image-checked)" }
 provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 62", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }
+died: { edtf: "865~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani, Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/damascus, note: "Poet with anecdotes of the Umayyad prince Khalid ibn Yazid ibn Hubayra; court context inferred.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan], confidence: low }

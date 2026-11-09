@@ -26,5 +26,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/tabaqat-fuqaha-abbas-1981]
+died: { edtf: "754", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/al-dabba, note: "From text: of the Banu Dabba", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }

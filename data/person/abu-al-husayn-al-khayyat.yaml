@@ -15,5 +15,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch19
+born: { edtf: "835~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam 2nd Ed.; al-Zirikli, al-A'lam" }
+died: { edtf: "913~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam 2nd Ed.; al-Zirikli, al-A'lam" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Mu'tazili who refuted Ibn al-Rawandi's books; both belonged to the Baghdad kalam milieu. Association inferred, flagged for review.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
+died: { edtf: "716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari, Tarikh al-Rusul wa'l-Muluk" }
 relations:
   - { type: traveled_to, target: place/al-sham, note: "From text: journey to Syria", sources: [source/tarikh-khulafa-minhaj-1434, source/encyclopaedia-of-islam-2] }
   - { type: related_to, target: person/muhammad-ibn-ali-al-abbasi, sources: [source/tarikh-khulafa-minhaj-1434] }

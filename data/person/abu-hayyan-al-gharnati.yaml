@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
+born: { edtf: "1256", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suyuti, Bughyat al-Wu'at; al-Dhahabi, al-Mu'jam" }
+died: { edtf: "1344", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suyuti, Bughyat al-Wu'at; al-Dhahabi, al-Mu'jam" }
 relations:
   - { type: lived_in, target: place/granada, note: "Place association from the person's nisba/name (الغرناطي); denotes association, not proven residence.", sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993], confidence: low }
   - { type: authored, target: work/irtishaf-al-darab, sources: [source/kashf-zunun-furqan] }

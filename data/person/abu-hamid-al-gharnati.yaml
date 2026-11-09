@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1080", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqqari, Nafh al-Tib; al-Zirikli, al-A'lam" }
+died: { edtf: "1170", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqqari, Nafh al-Tib; al-Zirikli, al-A'lam" }
 relations:
   - { type: lived_in, target: place/granada, note: "Place association from the person's nisba/name (الغرناطي); denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }

@@ -14,5 +14,6 @@ provenance:
   run: lib-kamil-batch-5
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "933", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Abu Nu'aym, Akhbar Isbahan; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/isfahan, note: "Place association from the person's nisba/name (isfahani); denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir], confidence: low }

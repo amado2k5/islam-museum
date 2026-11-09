@@ -24,5 +24,6 @@ provenance:
 status:
   review: published
   completeness: 1
+died: { edtf: "1015", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qushayri, al-Risala; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/nishapur, note: "Place association from the person's nisba/name (النيسابوري); denotes association, not proven residence.", sources: [source/al-aalam, source/muntazam-ibn-al-jawzi, source/risala-qushayriyya-minhaj-2017], confidence: low }

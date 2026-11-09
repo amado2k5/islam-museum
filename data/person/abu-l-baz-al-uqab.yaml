@@ -16,5 +16,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "1250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir / classical biographical sources" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Baghdad's legendary master-thief whose exploits involved Baghdad's judges and al-Mutawakkil's court.", sources: [source/muruj-al-dhahab], confidence: high }

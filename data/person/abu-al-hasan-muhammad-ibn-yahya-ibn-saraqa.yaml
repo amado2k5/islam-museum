@@ -11,6 +11,7 @@ summary:
   en: "Abu al-Hasan Muhammad ibn Yahya ibn Suraqa, a jurist and expert in inheritance law, who studied the fara'id under Abu al-Husayn ibn al-Labban {cite:tabaqat-fuqaha-abbas-1981 p. 63}. Al-Shirazi does not record his death."
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1025", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/abu-al-husayn-ibn-al-labban-al-basri, role: "أخذ الفرائض عن أبي الحسين (PDF ص63)", sources: [source/tabaqat-fuqaha-abbas-1981] }

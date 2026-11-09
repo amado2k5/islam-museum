@@ -12,5 +12,6 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Waki', Akhbar al-Qudat; Ibn Hajar, Lisan al-Mizan" }
 relations:
   - { type: lived_in, target: place/basra, note: "Ibn al-Zubayr's former prison-keeper; Sallam ibn Ziyad bought him Khalid ibn Tulayq's Basra house.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }

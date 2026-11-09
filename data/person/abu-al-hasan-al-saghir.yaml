@@ -33,5 +33,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1262", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Farhun, al-Dibaj al-Mudhahhab; al-Zirikli, al-A'lam" }
+died: { edtf: "1319", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Farhun, al-Dibaj al-Mudhahhab; al-Zirikli, al-A'lam" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

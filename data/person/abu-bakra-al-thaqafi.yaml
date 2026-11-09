@@ -19,6 +19,7 @@ story_roles:
   - { role: convert, status: tradition, note: "تدلى ببكرة من حصن الطائف مستجيباً لنداء الأمان فأعتقه النبي (ابن هشام 4/128).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم في حصار الطائف." }
+died: { edtf: "671", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr, al-Isti'ab; Ibn Hajar, al-Isaba" }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407, source/sahih-al-bukhari], confidence: low }
   - { type: member_of, target: group/thaqif }

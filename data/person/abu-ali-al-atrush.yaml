@@ -14,5 +14,6 @@ provenance:
   run: lib-kamil-batch-6
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "961", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir, al-Kamil; al-Zirikli, al-A'lam" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Alid captive of Abu'l-Hasan ibn Kaki who was acclaimed amir by the troops — an Abbasid-capital episode, location inferred.", sources: [source/kamil-ibn-al-athir], confidence: low }

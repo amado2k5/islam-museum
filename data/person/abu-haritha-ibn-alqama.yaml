@@ -16,6 +16,7 @@ story_roles:
   - { role: interlocutor, start: { edtf: "0631~" }, status: tradition, note: "زعيم وفد نجران الديني مع العاقب والسيد.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: christian, basis: documented, note: "أسقف نجران كما في مصادر السيرة.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+died: { edtf: "635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham, al-Sira; Ibn Sa'd, al-Tabaqat al-Kubra" }
 relations:
   - { type: lived_in, target: place/najran }
   - { type: participated_in, target: event/delegation-of-najran, role: "الأسقف زعيم الدين", sources: [source/mubarakpuri-raheeq] }

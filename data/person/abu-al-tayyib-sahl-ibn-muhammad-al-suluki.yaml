@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "938", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki, Tabaqat al-Shafi'iyya; al-Dhahabi, Siyar" }
+died: { edtf: "1014", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki, Tabaqat al-Shafi'iyya; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/abu-sahl-al-suluki, role: "تفقه على أبيه أبي سهل (PDF ص63)", sources: [source/tabaqat-fuqaha-abbas-1981] }
