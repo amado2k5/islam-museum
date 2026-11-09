@@ -22,5 +22,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1570~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "Association inferred from the nisba in the name 'Sem'i'; specific residence not individually documented.", sources: [source/al-aalam] }

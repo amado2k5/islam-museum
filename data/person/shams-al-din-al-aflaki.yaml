@@ -13,6 +13,7 @@ regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 story_roles:
   - { role: scholar, status: historical, sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1360", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: lived_in, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]

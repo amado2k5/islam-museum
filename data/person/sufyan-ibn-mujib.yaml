@@ -17,6 +17,8 @@ periods:
 - period/umayyad
 regions:
 - levant-iraq
+born: { edtf: "644~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
+died: { edtf: "661~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
 relations:
   - { type: traveled_to, target: place/atrabulus, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-syria, sources: [source/futuh-buldan-maarif-1407] }

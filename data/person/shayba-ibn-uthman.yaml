@@ -17,6 +17,7 @@ story_roles:
   - { role: convert, status: tradition, note: "أسلم يوم حنين بعد محاولة اغتيال النبي (ابن هشام 4/88).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01~" }, note: "أسلم يوم حنين." }
+died: { edtf: "678", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/battle-of-hunayn, role: convert, sources: [source/ibn-hisham-saqqa] }

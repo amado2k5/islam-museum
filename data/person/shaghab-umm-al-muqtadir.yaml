@@ -13,6 +13,7 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch49
+died: { edtf: "933", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434] }
 sources: [source/muntazam-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434]

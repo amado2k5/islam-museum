@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans, levant-iraq]
 periods: [period/gunpowder-empires]
+born: { edtf: "1543~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sharafnama / EI2" }
+died: { edtf: "1603~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sharafnama / EI2" }
 relations:
   - { type: born_in, target: place/bitlis, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q83531)" }
 sources: [source/al-aalam]

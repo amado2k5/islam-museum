@@ -11,6 +11,7 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [anatolia-balkans]
+died: { edtf: "1111", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
 relations:
 
 - { type: lived_in, target: place/armenia, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tarikh-islam-hasan-ibrahim] }

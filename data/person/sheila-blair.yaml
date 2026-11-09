@@ -10,6 +10,7 @@ themes: [arts-of-the-book]
 regions: [americas-oceania]
 gender: female
 roles: [scholar, historian]
+born: { edtf: "1948", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary academics" }
 relations:
   - { type: lived_in, target: place/boston, sources: [source/blair-islamic-calligraphy-2006] }
   - { type: authored, target: work/islamic-calligraphy-blair, sources: [source/blair-islamic-calligraphy-2006] }

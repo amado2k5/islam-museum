@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
 relations:
   - { type: born_in, target: place/ardabil, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q180103)" }
 sources: [source/al-aalam]

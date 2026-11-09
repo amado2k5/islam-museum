@@ -24,5 +24,6 @@ provenance:
 status:
   review: published
   completeness: 3
+died: { edtf: "1554", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/mahra, confidence: low, note: "Association inferred from the nisba 'المهري'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

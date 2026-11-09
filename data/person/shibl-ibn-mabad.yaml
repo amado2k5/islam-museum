@@ -5,6 +5,8 @@ summary:
   ar: "شبل بن معبد بن عبيد البجلي؛ من الشهود الأربعة على المغيرة في قصة أم جميل فجلده عمر فقال أتجلد شهود الحق وتبطل الحد."
   en: "Shibl ibn Ma'bad ibn Ubayd al-Bajali; one of the four witnesses against al-Mughira — flogged by Umar he cried 'you flog truth's witnesses and void the hadd?'."
 periods: [period/rashidun]
+born: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: traveled_to, target: place/medina, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/mughira-adultery-affair }

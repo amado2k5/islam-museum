@@ -11,6 +11,7 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+died: { edtf: "1175", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
 - { type: "founder_of", target: "polity/ildigizid-atabegs", note: "أسس أتابكية أذربيجان 531هـ", sources: [source/tarikh-islam-hasan-ibrahim] }
 - { type: ruler_of, target: place/iraq, sources: [source/tarikh-islam-hasan-ibrahim], confidence: low, note: "ar: 'شمس الدين إلدجز؛ رجل من بلاد القفجاق كان مملوكاً للسلطان مسعود السلجوقي في العراق، أسس أتابكية أذربيجان س" }

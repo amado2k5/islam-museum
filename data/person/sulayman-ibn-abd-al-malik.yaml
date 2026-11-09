@@ -6,6 +6,8 @@ summary:
 wings: [people]
 gender: male
 external_ids: { wikidata: "Q284233" }
+born: { edtf: "674", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
+died: { edtf: "717", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
   - { type: died_in, target: place/dabiq, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q128731)" }

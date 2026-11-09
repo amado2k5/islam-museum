@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+died: { edtf: "1610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab Ansab al-Jazair" }
 relations:
   - { type: born_in, target: place/larba-nath-irathen, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q764741)" }
   - { type: died_in, target: place/sidi-daoud, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q311809)" }

@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
+born: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Sistan" }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Sistan" }
 relations:
   - { type: ruler_of, target: place/sijistan, sources: [source/wikidata], confidence: low, note: "id: person/shahriyar-sijistan" }
 sources: [source/muruj-al-dhahab]

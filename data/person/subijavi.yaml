@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1846", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bosnjacka Bibliografija" }
+died: { edtf: "1894", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bosnjacka Bibliografija" }
 relations:
   - { type: born_in, target: place/tartar-district, sources: [source/wikidata], confidence: low, note: "Wikidata Q6454056 ('Köçərli'), located in Tartar District" }
   - { type: died_in, target: place/ko-arl-district, sources: [source/wikidata], confidence: low, note: "Wikidata Q4823461 ('Dedeköy'), located in Koçarlı district" }

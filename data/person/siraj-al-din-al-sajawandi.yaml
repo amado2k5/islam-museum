@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1200~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kashf al-Zunun" }
 relations:
   - { type: born_in, target: place/sajawand, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q55641673)" }
 sources: [source/al-aalam]

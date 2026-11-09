@@ -9,6 +9,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 roles: [ruler]
+born: { edtf: "1133", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1193", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: traveled_to, target: place/al-sham, sources: [source/kamil-ibn-al-athir], confidence: low, note: "ar: 'سنان مقدم الإسماعيلية ببلاد الشام في عهد صلاح الدين؛ راسله صلاح الدين أن يرسل من يقتل ملك إنكلتار وإن قتل" }
 sources: [source/kamil-ibn-al-athir]

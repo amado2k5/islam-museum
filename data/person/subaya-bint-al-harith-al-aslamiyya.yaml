@@ -17,6 +17,8 @@ story_roles:
   - { role: companion, status: tradition, note: "الاستيعاب ترجمة 3348 ص 912-913", sources: [source/istiab-alam-2002] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+born: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "656~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: spouse_of, target: person/sad-ibn-khawla, sources: [source/istiab-alam-2002] }
   - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }

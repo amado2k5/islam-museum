@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1667", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: born_in, target: place/i-znik, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q217125)" }
   - { type: buried_in, target: place/belgrade, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q3711)" }

@@ -25,5 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1486", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Sher Shahi" }
+died: { edtf: "1545", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Sher Shahi" }
 relations:
   - { type: lived_in, target: place/sur, confidence: low, note: "Association inferred from the nisba in the name 'Sher Shah Suri'; specific residence not individually documented.", sources: [source/tarikh-islam-hasan-ibrahim] }
