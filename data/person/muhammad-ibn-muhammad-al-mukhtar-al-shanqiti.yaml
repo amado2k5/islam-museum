@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
+born: { edtf: "1970~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Dar al-Ifta Saudi Arabia / contemporary records" }
+died: { edtf: "2019~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Dar al-Ifta Saudi Arabia / contemporary records" }
 relations:
   - { type: lived_in, target: place/mauritania, sources: [source/al-aalam] }
 sources: [source/al-aalam]

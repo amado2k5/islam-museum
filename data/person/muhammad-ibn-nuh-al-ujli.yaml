@@ -7,6 +7,7 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+died: { edtf: "833", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: participated_in, target: event/mihna-of-the-quran, role: "الممتحَن", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: lived_in, target: place/iraq, confidence: low, note: "Early-Abbasid figure of the Ijl tribal milieu (regions: levant-iraq).", sources: [source/tarikh-khulafa-minhaj-1434] }

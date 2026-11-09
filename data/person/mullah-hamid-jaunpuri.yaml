@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1663", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rahman Ali (Tazkira-i Ulama-i Hind)" }
 relations:
   - { type: lived_in, target: place/jaunpur, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q1025475)" }
 sources: [source/al-aalam]

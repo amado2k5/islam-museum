@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+born: { edtf: "1832", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bitar (Hilyat al-Bashar)" }
+died: { edtf: "1894", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bitar (Hilyat al-Bashar)" }
 relations:
   - { type: born_in, target: place/hilla, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q243846)" }
 sources: [source/al-aalam]

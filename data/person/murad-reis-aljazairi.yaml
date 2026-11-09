@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+born: { edtf: "1534~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; TDV Islam Ansiklopedisi" }
+died: { edtf: "1609", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; TDV Islam Ansiklopedisi" }
 relations:
   - { type: lived_in, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: allied_with, target: person/hasan-veneziano, sources: [source/dawlat-uthmaniyya-salabi] }

@@ -12,6 +12,8 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 657–666"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-40
+born: { edtf: "1082", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn al-Athir (al-Kamil fi al-Tarikh)" }
+died: { edtf: "1118", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn al-Athir (al-Kamil fi al-Tarikh)" }
 relations:
   - { type: ruled_over, target: place/isfahan, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "He took the Batiniyya's Isfahan castle in 500, lifted Baghdad's taxes in 501, and died in 511 leaving fourteen" }
 sources: [source/tarikh-khulafa-minhaj-1434]

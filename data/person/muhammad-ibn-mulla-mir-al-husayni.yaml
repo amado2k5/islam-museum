@@ -12,6 +12,7 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+died: { edtf: "1630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Agha Buzurg al-Tihrani (al-Dhari'a)" }
 relations:
   - { type: lived_in, target: place/iran, confidence: low, note: "Safavid-era figure (al-A'lam; regions: persia-central-asia).", sources: [source/al-aalam] }
 external_ids:

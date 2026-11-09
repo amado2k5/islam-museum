@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1084", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sam'ani (al-Ansab)" }
+died: { edtf: "1164", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sam'ani (al-Ansab)" }
 relations:
   - { type: lived_in, target: place/zaghul, confidence: low, note: "Association inferred from the nisba 'الزاغولي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

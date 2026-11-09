@@ -6,6 +6,7 @@ summary:
   en: "Mujja'a ibn Si'r al-Tamimi; al-Hajjaj's frontier man after the Allafis — raided and opened parts of Qandabil, completed by Muhammad ibn al-Qasim; died in Makran within the year."
 periods: [period/umayyad]
 wings: [people]
+died: { edtf: "703~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh al-Rusul wa-l-Muluk)" }
 relations:
   - { type: died_in, target: place/makran, sources: [source/wikidata], confidence: low, note: "en: 'Mujja'a ibn Si'r al-Tamimi; al-Hajjaj's frontier man after the Allafis — raided and opened parts of Qanda" }
   - { type: ruled_over, target: place/qandabil, sources: [source/wikidata], confidence: low, note: "ar: 'مجاعة بن سعر التميمي؛ ولاه الحجاج ثغر مكران بعد العلافيين فغزا فغنم وفتح طوائف من قندابيل ثم أتم فتحها مح" }

@@ -12,6 +12,7 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 615–625"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-36
+died: { edtf: "985", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad)" }
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi] }
 sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]

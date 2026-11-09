@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+died: { edtf: "1556", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; TDV Islam Ansiklopedisi" }
 relations:
   - { type: child_of, target: person/salih-rais, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruled_over, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }

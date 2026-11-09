@@ -11,6 +11,8 @@ roles: [military-commander]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [maghreb, andalus-europe]
+born: { edtf: "1340", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-'Ibar)" }
+died: { edtf: "1344", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-'Ibar)" }
 relations:
 - { type: ruler_of, target: place/ceuta, sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: participated_in

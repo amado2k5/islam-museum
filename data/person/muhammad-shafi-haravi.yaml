@@ -11,6 +11,7 @@ regions: [persia-central-asia]
 gender: male
 roles: [calligrapher]
 periods: [period/gunpowder-empires]
+died: { edtf: "1674", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: student_of, target: person/morteza-qoli-khan-shamlu, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: lived_in, target: place/herat, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }

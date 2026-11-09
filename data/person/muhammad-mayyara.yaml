@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+born: { edtf: "1591", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Safwat man Intashar)" }
+died: { edtf: "1662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Safwat man Intashar)" }
 relations:
   - { type: born_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80985)" }
 sources: [source/al-aalam]

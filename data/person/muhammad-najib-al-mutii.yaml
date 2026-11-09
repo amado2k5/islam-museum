@@ -17,6 +17,8 @@ wings: [people]
 themes: [scripture-and-its-sciences, education]
 periods: [period/modern-era]
 regions: [egypt-nile]
+born: { edtf: "1928", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Azhar Scholars Registry" }
+died: { edtf: "2010", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Azhar Scholars Registry" }
 relations:
   - { type: lived_in, target: place/cairo, sources: [source/assabile-abu-ishaq-alheweny] }
   - { type: lived_in, target: place/al-abbasiyya, sources: [source/assabile-abu-ishaq-alheweny] }

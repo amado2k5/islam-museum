@@ -16,6 +16,7 @@ periods:
 - period/prophetic-era
 regions:
 - arabia
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: traveled_to, target: place/fadak, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/sulh-of-fadak, sources: [source/futuh-buldan-maarif-1407] }

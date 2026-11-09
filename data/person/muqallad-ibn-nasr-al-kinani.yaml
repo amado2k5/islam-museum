@@ -13,6 +13,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة مخلص الدولة الكناني)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-23
+died: { edtf: "1058", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil fi al-Tarikh)" }
 relations:
   - { type: lived_in, target: place/shaizar, sources: [source/wafayat-ayan] }
 sources: [source/wafayat-ayan]

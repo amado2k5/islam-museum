@@ -13,6 +13,7 @@ wings: [people]
 themes: [scripture-and-its-sciences, dissent-heresy-freethought]
 regions: [levant-iraq]
 periods: [period/umayyad]
+died: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Mizan al-I'tidal)" }
 relations:
   - { type: lived_in, target: place/damascus, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: student_of, target: person/makhul-al-dimashqi, sources: [source/mizan-itidal-bijawi-v3] }

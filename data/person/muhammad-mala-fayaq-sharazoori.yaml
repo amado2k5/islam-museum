@@ -20,6 +20,8 @@ faith:
 roles: [khatib, preacher]
 wings: [people, living]
 regions: [levant-iraq]
+born: { edtf: "1948", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kurdish Scholars Biographical Compendium" }
+died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kurdish Scholars Biographical Compendium" }
 relations:
   - { type: lived_in, target: place/sulaymaniyah, sources: [source/journal-education-humanities-sharazoori-2025, source/vidiq-muhammad-mala-fayaq-sharazoori], confidence: medium, note: "Sulaymaniyah is his base as the wave-199 harvest identifies him — a Sorani Friday preacher of Sulaymaniyah whose sermons the 2025 journal study took from his YouTube channel." }
 reach:
