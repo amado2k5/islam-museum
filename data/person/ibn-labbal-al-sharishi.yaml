@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1113", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sila" }
+died: { edtf: "1188", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sila" }
 relations:
   - { type: born_in, target: place/jerez, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/jerez, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

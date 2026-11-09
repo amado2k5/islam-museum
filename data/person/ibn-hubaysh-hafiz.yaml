@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
+born: { edtf: "1110", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "1188", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/almeria, confidence: low, note: "Associated with المرية per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:

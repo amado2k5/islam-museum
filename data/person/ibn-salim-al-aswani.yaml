@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/abbasid-fragmentation]
+born: { edtf: "969~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqrizi (Khitat)" }
+died: { edtf: "976~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqrizi (Khitat)" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

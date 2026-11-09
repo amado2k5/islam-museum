@@ -12,6 +12,8 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 themes: [images-and-figural-art]
+born: { edtf: "1571", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: born_in, target: place/bijapur-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/vijayapura, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

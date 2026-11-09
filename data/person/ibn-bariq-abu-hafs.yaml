@@ -16,6 +16,7 @@ periods: [period/abbasid-fragmentation]
 regions: [andalus-europe, maghreb]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1218", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Takmila (Ibn al-Abbar)" }
 relations:
   - { type: lived_in, target: place/qayrawan, confidence: low, note: "Associated with القيروان per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]

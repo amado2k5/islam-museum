@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
+born: { edtf: "1398", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nayl al-Ibtihaj" }
+died: { edtf: "1455", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nayl al-Ibtihaj" }
 relations:
   - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with الأندلس per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
   - { type: authored, target: work/jannat-al-rida, sources: [source/nafh-tib-maqqari] }

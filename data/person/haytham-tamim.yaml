@@ -12,6 +12,7 @@ summary:
 roles: [scholar, teacher, founder]
 wings: [people, living]
 regions: [andalus-europe]
+born: { edtf: "1968~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Utrujj Foundation records" }
 relations:
   - { type: lived_in, target: place/london, confidence: low, note: "Associated with لندن per the record's own summary text; relation type pending review.", sources: [source/utrujj-haytham-tamim] }
 faith:

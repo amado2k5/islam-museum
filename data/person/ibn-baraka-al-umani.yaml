@@ -12,6 +12,8 @@ gender: male
 roles: [jurist, writer, politician]
 wings: [people]
 regions: [arabia]
+born: { edtf: "950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: lived_in, target: place/oman, confidence: low, note: "Associated with عمان per the record's own summary text; relation type pending review.", sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]

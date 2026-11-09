@@ -10,6 +10,7 @@ wings: [people]
 themes: [wars-and-campaigns]
 periods: [period/umayyad]
 regions: [levant-iraq]
+died: { edtf: "691", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/dayr-al-jathaliq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
