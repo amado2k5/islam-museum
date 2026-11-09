@@ -426,10 +426,22 @@ First explore-list family scored against the eight criteria (verification date 9
 - REJECTED: bab-zuwayla direct ×0 (all 9 were misroutes), uzun-hasan (Hasankeyf mausoleum of Zaynal b. Uzun Hasan vs Tabriz türbe), suleyman-pasha-tomb (Mardin köşk), tomb-of-mahmud (Ramla Shaykh Mahmud mosque), edirne ×2 (chandelier provenance unknown).
 - Nomisma.org scored: strong Tier-1/2 candidate (ANS+Oxford, CC-BY 3.0, SPARQL+APIs) — see assessment above.
 - Next sweep: 56801-60800 running.
-
 ## 2026-11-09 (p17b) — Nomisma.org registered Tier 2
 
 - dec-20261109-224 (override of engine false-positive dec-223, same 'Arabic'-in-evidence class as dec-190/204): Nomisma.org registered as citable numismatic family — CC-BY 3.0, {cite:nomisma <concept-id>} is the attribution; partner datasets facts-only until per-record licence check.
 - Files: data/source/nomisma.yaml, scripts/harvest/sources.yaml (layer: by), docs/attribution.md, docs/agents/source-families.md Tier 2 row.
 - Pilot queued: SPARQL harvest script; ~2 kind:coin objects exist so pilot targets mint→place / issuer→person corroboration first.
 - Explore-list remainder (numismatics): ANS MANTIS, Tübingen Sylloge Nummorum Arabicorum, Fitzwilliam/Ashmolean collections. Other explore families still pending.
+
+## 2026-11-09 (p18) — TEI 56801-60800 COMPLETE (thin range)
+
+- alhambra +58709,58724,59291 (three more palace texts 1300-01/1494-95)
+- REJECTED: bab-al-nasr (Aleppo Sabīl Qastal al-Ǧawra fountain in Bab al-Nasr QUARTER, not the gate), hasan-efendi-tomb/-2 (Homs house Bayt az-Zahrawī of Ḥasan Efendi al-Naqib 1538-39 vs Anatolian tomb entities — kind+place mismatch), aksaray-mausoleum (Konya-Aksaray Münhedim madrasa vs SAMARKAND Timurid tomb — different city and kind).
+- HORIZON FOUND: catalogue real content ends at fiche 61517 (61518+ parse as empty placeholders to 100000+). Final range 60801-61517 (~717 fiches) launched — catalogue exhaustion imminent.
+
+## 2026-11-09 (p19) — TEI CATALOGUE EXHAUSTED at fiche 61517 + Nomisma pilot
+
+- Final range 60801-61517 (717 fiches): ZERO matcher candidates — tail of catalogue carries no inscription-nature records matching entities. **TEI coverage now COMPLETE: fiches 1-61517 harvested, matched and verified.**
+- Nomisma pilot (10 records, mint→place corroboration): place/damascus↔damascus, place/cairo↔cairo, place/baghdad↔baghdad, place/kufa↔al-kufa, place/samarra↔samarra, place/isfahan↔isfahan, place/nishapur↔nishapur, place/merv↔marw, place/qazvin↔qazwin, place/rayy↔rayy — each mint concept's English definition verified as the same city before citing; external_ids.nomisma + source/nomisma added.
+- Nomisma SPARQL notes: endpoint is GET https://nomisma.org/query?query=<sparql> (param `query`, NOT `q`); Orbeon engine = SPARQL 1.0 only (no property paths); ~2000 mints in default graph incl. madinat_* duplicates — plain slugs preferred; concept URIs resolve at nomisma.org/id/<slug>.
+- Next: expand Nomisma pilot to remaining verified mint↔place pairs (shiraz/tabriz/mosul/basra/homs/wasit/hilla/mardin/hama/raqqa/aden/yazd/ardabil/tiflis/delhi/aleppo + issuer→person/polity pass); explore-list families still pending.
