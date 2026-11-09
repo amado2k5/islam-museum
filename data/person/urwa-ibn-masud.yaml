@@ -19,6 +19,7 @@ story_roles:
   - { role: companion, start: { edtf: "0630" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630" }, note: "صحابي وسيد ثقيف استشهد داعياً للإسلام." }
+died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba; Usd al-Ghaba" }
 relations:
   - { type: participated_in, target: event/delegation-of-thaqif, role: "أسلم قبل وفد ثقيف ودعا قومه إلى الإسلام فقُتل", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/taif }

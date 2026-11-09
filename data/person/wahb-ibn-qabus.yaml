@@ -12,6 +12,7 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba; al-Isaba" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion of the Prophet (regions: arabia).", sources: [source/al-aalam] }
   - { type: died_in, target: place/uhud, confidence: low, note: "Companion martyred at Uhud per the sahaba accounts.", sources: [source/al-aalam] }

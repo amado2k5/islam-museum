@@ -17,6 +17,7 @@ periods:
 regions:
 - arabia
 - levant-iraq
+died: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~645, al-Isti'ab; Usd al-Ghaba" }
 relations:
   - { type: participated_in, target: event/battle-of-marj-al-suffar, sources: [source/futuh-buldan-maarif-1407] }
   - { type: spouse_of, target: person/khalid-ibn-said-ibn-al-as, sources: [source/futuh-buldan-maarif-1407] }

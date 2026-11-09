@@ -17,6 +17,8 @@ regions:
 - persia-central-asia
 periods:
 - period/buyid-seljuk-fatimid-era
+born: { edtf: "1090", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli); Siyar A'lam al-Nubala" }
+died: { edtf: "1141", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli); Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/sawl, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low, note: "Nisba صولي attested in the record." }
 sources:

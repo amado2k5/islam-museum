@@ -12,6 +12,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch42
+died: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~795, Tarikh al-Tabari" }
 relations:
   - { type: traveled_to, target: place/oman, sources: [source/muruj-al-dhahab] }
   - { type: traveled_to, target: place/bahrayn, sources: [source/muruj-al-dhahab] }

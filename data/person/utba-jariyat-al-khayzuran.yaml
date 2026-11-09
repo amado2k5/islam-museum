@@ -12,6 +12,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch43
+died: { edtf: "775~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~805, al-Aghani; al-Iqd al-Farid" }
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/muruj-al-dhahab] }
 sources: [source/muruj-al-dhahab]

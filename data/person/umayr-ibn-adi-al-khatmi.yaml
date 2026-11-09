@@ -16,6 +16,7 @@ regions: [arabia]
 story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
   - { role: convert, status: tradition, note: "أول من أسلم من بني خطمة عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "624~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~630, al-Tabaqat al-Kubra (Ibn Sa'd); al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-khatma, sources: [source/ibn-hisham-saqqa] }

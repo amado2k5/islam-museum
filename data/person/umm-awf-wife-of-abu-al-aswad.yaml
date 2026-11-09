@@ -11,6 +11,7 @@ wings: [people]
 themes: [women, literature, family-marriage-kinship, law-and-courts]
 periods: [period/umayyad]
 regions: [levant-iraq]
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~690, al-Isaba; al-Bayan wa'l-Tabyin" }
 relations:
   - { type: traveled_to, target: place/damascus, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
   - { type: spouse_of, target: person/abu-al-aswad-al-duali, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }

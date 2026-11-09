@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1453", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; Runciman (1965)" }
 relations:
   - { type: participated_in, target: event/conquest-constantinople-857, role: "مهندس المدافع", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: born_in, target: place/milwaukee, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q37836)" }

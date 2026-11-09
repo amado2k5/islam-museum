@@ -11,6 +11,8 @@ roles: [ruler]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
+born: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar (Ibn Khaldun); EI2" }
+died: { edtf: "1304", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar (Ibn Khaldun); EI2" }
 relations:
 - { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "ثاني ملوك بني عبد الواد", sources: [source/tarikh-ibn-khaldun-ibar] }
 - { type: "successor_of", target: "person/yaghmurasan-ibn-zayyan", note: "خلف أباه آخر ذي القعدة 682هـ", sources: [source/tarikh-ibn-khaldun-ibar] }

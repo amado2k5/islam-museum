@@ -17,6 +17,7 @@ story_roles:
   - { role: host, start: { edtf: "0622" }, status: tradition, note: "آوت رهط الهجرة عند خيمتها (الرحيق ص169؛ زاد المعاد 2/53-54).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "لم يذكر الكتاب إسلامها في هذا الموضع؛ كانت مع زوجها على دين قومهما.", sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~640, al-Isti'ab; Usd al-Ghaba" }
 relations:
   - { type: participated_in, target: event/hijra, role: "صاحبة مشهد الشاة في الطريق", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: spouse_of, target: person/aktham-ibn-abi-al-jawn, note: "زوجها أبو معبد واسمه أكثم بن أبي الجون الخزاعي؛ هاجرا معاً إلى المدينة وأسلما وبايعا (نساء حول الرسول ص219-222).", sources: [source/nisa-hawl-alrasul] }

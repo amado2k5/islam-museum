@@ -9,6 +9,7 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [arabia, levant-iraq]
+died: { edtf: "933", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari; Tajrib al-Umam" }
 relations:
   - { type: traveled_to, target: place/al-qadisiyya, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: traveled_to, target: place/khaffan, sources: [source/muntazam-ibn-al-jawzi] }

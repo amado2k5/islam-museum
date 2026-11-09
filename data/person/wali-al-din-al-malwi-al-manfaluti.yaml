@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1314", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar); Husn al-Muhadara" }
+died: { edtf: "1372", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar); Husn al-Muhadara" }
 relations:
   - { type: lived_in, target: place/manfalut, confidence: low, note: "Association inferred from the nisba 'المنفلوطي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

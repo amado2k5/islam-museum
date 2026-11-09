@@ -21,6 +21,8 @@ regions:
 - anatolia-balkans
 periods:
 - period/gunpowder-empires
+born: { edtf: "1604", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; EI2" }
+died: { edtf: "1622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; EI2" }
 relations:
 - type: born_in
   target: place/istanbul

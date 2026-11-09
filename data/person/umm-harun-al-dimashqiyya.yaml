@@ -13,6 +13,7 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 faith:
   - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+died: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~800, Tarikh Dimashq (Ibn Asakir)" }
 relations:
   - { type: lived_in, target: place/damascus, sources: [source/sifat-al-safwa-tartusi-2012] }
   - { type: traveled_to, target: place/jerusalem, sources: [source/sifat-al-safwa-tartusi-2012] }

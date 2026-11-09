@@ -14,6 +14,7 @@ provenance:
   source: "أنساب الأشراف للبلاذري (ط مؤسسة الأعلمي/دار المعارف)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ansab-batch-1
+died: { edtf: "540~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~580, Ansab al-Ashraf (al-Baladhuri)" }
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/ansab-al-ashraf] }
 sources: [source/ansab-al-ashraf]

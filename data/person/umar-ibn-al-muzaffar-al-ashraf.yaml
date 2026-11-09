@@ -30,6 +30,8 @@ story_roles:
 - role: ruler
   status: tradition
   sources: [source/mawsuat-a3lam-ulama-adaba]
+born: { edtf: "1242", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Suluk (al-Maqrizi)" }
+died: { edtf: "1296", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Suluk (al-Maqrizi)" }
 relations:
   - { type: ruled_over, target: place/yemen, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
