@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1712", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasir Djang); Cambridge History of India" }
+died: { edtf: "1750", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasir Djang); Cambridge History of India" }
 relations:
   - { type: born_in, target: place/mughal-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q33296)" }
   - { type: buried_in, target: place/khuldabad, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1025625)" }

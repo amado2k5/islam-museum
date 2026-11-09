@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
+born: { edtf: "1971", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Saudi royal family official records" }
 relations:
   - { type: born_in, target: place/riyadh, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3692)" }
 sources: [source/al-aalam]

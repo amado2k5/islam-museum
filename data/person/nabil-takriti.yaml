@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1968~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Ottomanist historian" }
 relations:
   - { type: lived_in, target: place/tikrit, confidence: low, note: "Association inferred from the nisba 'تكريتي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

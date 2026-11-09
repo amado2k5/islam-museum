@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/abbasid-early]
+born: { edtf: "785~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Banu Kasi)" }
+died: { edtf: "862", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Banu Kasi)" }
 relations:
   - { type: born_in, target: place/arnedo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q642083)" }
   - { type: died_in, target: place/tudela, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q244747)" }

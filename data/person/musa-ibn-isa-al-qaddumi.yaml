@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+born: { edtf: "1849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1917", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: born_in, target: place/kafr-qaddum, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2896936)" }
   - { type: died_in, target: place/nablus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q214178)" }

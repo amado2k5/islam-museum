@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1978~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Indian Islamic mufti" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Association inferred from the nisba in the name 'Omar Abedeen Qasmi Madani'; specific residence not individually documented.", sources: [source/al-aalam] }

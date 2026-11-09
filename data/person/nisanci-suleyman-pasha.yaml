@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+died: { edtf: "1687", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
 relations:
   - { type: died_in, target: place/rhodes, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q43048)" }
 sources: [source/al-aalam]

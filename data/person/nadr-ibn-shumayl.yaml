@@ -8,6 +8,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Nadr b. Shumayl); al-Dhahabi (Siyar)" }
+died: { edtf: "819", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Nadr b. Shumayl); al-Dhahabi (Siyar)" }
 relations:
   - { type: related_to, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434, source/fihrist-ibn-al-nadim] }
   - { type: born_in, target: place/merv, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q193325)" }

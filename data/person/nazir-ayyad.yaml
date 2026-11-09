@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/contemporary-era]
+born: { edtf: "1974", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Al-Azhar Grand Mufti Official Biography" }
 relations:
   - { type: born_in, target: place/biyala, sources: [source/wikidata], confidence: low, note: "Wikidata Q12177625 ('Q12177625'), located in Biyala" }
 sources: [source/al-aalam]

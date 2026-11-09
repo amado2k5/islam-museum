@@ -17,5 +17,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch27
+born: { edtf: "647", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Mus'ab b. al-Zubayr); al-Dhahabi (Siyar)" }
+died: { edtf: "691", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Mus'ab b. al-Zubayr); al-Dhahabi (Siyar)" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/khudari-umayyad-state] }

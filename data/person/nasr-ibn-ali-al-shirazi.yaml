@@ -20,5 +20,6 @@ provenance:
 status:
   review: published
   completeness: 3
+died: { edtf: "1114", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir; Tarikh al-Islam" }
 relations:
   - { type: lived_in, target: place/shiraz, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

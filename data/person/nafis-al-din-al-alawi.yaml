@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1255", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Fuwati (Talkhis Majma' al-Alqab)" }
 relations:
   - { type: born_in, target: place/zabid, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q138986)" }
   - { type: died_in, target: place/old-city-of-taiz, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q139829337)" }

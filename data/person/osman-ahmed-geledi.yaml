@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [east-africa]
 periods: [period/colonial-era]
+died: { edtf: "1911", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Cassanelli (Shaping of Somali Society)" }
 relations:
   - { type: born_in, target: place/afgooye, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q383218)" }
 sources: [source/tarikh-islam-hasan-ibrahim]

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1495", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Hattat Mustafa Dede)" }
+died: { edtf: "1538", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Hattat Mustafa Dede)" }
 relations:
   - { type: born_in, target: place/amasya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170532)" }
   - { type: died_in, target: place/sk-dar, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q326339)" }

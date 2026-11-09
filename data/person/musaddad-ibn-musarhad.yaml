@@ -34,5 +34,7 @@ status:
   review: draft
   completeness: 1
   generated_by: Claude Haiku 5.5; from pp. 52-53 of the book; no dates in the book, none given here
+born: { edtf: "767~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "843", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/busra, confidence: low, note: "Association inferred from the nisba 'البصري'; specific birthplace or residence is not individually documented.", sources: [source/madkhal-ibn-badran-turki] }

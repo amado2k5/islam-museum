@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1378~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Otman Baba)" }
+died: { edtf: "1478~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Otman Baba)" }
 relations:
   - { type: died_in, target: place/haskovo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186254)" }
 sources: [source/al-aalam]
