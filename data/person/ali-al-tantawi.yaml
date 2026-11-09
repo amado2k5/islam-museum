@@ -16,6 +16,7 @@ roles: [jurist, writer, judge, presenter]
 born: { edtf: "1909-06-12", hijri: "1327-05-23", calendar: gregorian, precision: day, status: historical, derived: false, note: "The Arabic article pairs 23 Jumada I 1327 with 12 June 1909, in Damascus; Wikidata gives the same day.", sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi] }
 died: { edtf: "1999-06-18", hijri: "1420-03-04", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died after the evening prayer on Friday 4 Rabi' I 1420 / 18 June 1999 in the intensive-care unit of King Fahd Hospital, Jeddah, aged 90; prayed over at the Masjid al-Haram and buried in Mecca the next day.", sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi] }
 relations:
+  - { type: buried_in, target: place/mecca, note: "From text: buried in Mecca", sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi, source/wikipedia-king-faisal-prize-en] }
   - { type: born_in, target: place/damascus, sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi] }
   - { type: died_in, target: place/jeddah, sources: [source/wikipedia-ali-al-tantawi-ar, source/wikidata-ali-al-tantawi] }
   - { type: buried_in, target: place/mecca, sources: [source/wikipedia-ali-al-tantawi-ar] }

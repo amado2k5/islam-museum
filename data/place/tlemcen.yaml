@@ -1,18 +1,39 @@
 id: place/tlemcen
 class: place
 kind: city
-label: { en: "Tlemcen", ar: "تلمسان" }
+label:
+  ar: تلمسان
+  en: Tlemcen
 summary:
-  en: "Algerian city, capital of the Zayyanid kingdom (1235-1554) and a centre of Maghrebi scholarship."
-  ar: "مدينة جزائرية، عاصمة مملكة بني زيان ⁦(1235-1554م)⁩ ومركز للعلم في المغرب."
-wings: [place]
-regions: [maghreb]
-coordinates: [34.8783, -1.315]
+  ar: مدينة جزائرية، عاصمة مملكة بني زيان ⁦(1235-1554م)⁩ ومركز للعلم في المغرب.
+  en: Algerian city, capital of the Zayyanid kingdom (1235-1554) and a centre of Maghrebi scholarship.
+wings:
+- place
+regions:
+- maghreb
+coordinates:
+- 34.8783
+- -1.315
 coordinate_precision: site
-external_ids: { geonames: "2475687", pleiades: "285501" }
-sources: [source/geonames-gazetteer]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+external_ids:
+  geonames: '2475687'
+  pleiades: '285501'
+  wikidata: Q185134
+sources:
+- source/geonames-gazetteer
+- source/wikidata
 kids:
-  ar: "تلمسان مدينة غرب الجزائر، عاصمة الزيانيين وموطن الصوفية."
-  en: "Tlemcen, the city of western Algeria — capital of the Zayyanids and a home of the Sufis."
-  ur: "تلمسان مغربی الجزائر کا شہر — زیانیوں کا دارالحکومت اور صوفیوں کا گھر۔"
+  ar: تلمسان مدينة غرب الجزائر، عاصمة الزيانيين وموطن الصوفية.
+  en: Tlemcen, the city of western Algeria — capital of the Zayyanids and a home of the Sufis.
+  ur: تلمسان مغربی الجزائر کا شہر — زیانیوں کا دارالحکومت اور صوفیوں کا گھر۔
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Provenance added by the geo-enrichment pass; the record predates the lane and its original extraction details are not recorded.

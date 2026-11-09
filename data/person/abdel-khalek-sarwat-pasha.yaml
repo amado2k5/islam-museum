@@ -33,6 +33,9 @@ died:
   note: "The English article contradicts itself on his death, and both of its readings are preserved. Its narrative summary says he died at Paris on 22 September 1928; its dedicated death section says he died of a heart attack, while on a personal visit to Paris, on 22 November 1928, with his wife and his son Mustapha present, and was buried at Cairo after national funerals. Wikidata carries the year 1928 and, at day precision, 22 September 1928 at Paris, stated in external authority databases; the September reading — the one two of the three statements agree on — is followed, and the date is marked debated. No museum place entity exists for Paris, so no died_in edge is written. The Hijri year 1347 is the derived conversion of September 1928."
   sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en, source/wikidata-abdel-khalek-sarwat-pasha]
 relations:
+  - { type: died_in, target: place/paris, note: "From text: died at Paris", sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en, source/wikidata-abdel-khalek-sarwat-pasha] }
+  - { type: buried_in, target: place/cairo, note: "From text: buried at Cairo.", sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en, source/wikipedia-abdel-khalek-sarwat-pasha-ar, source/wikidata-abdel-khalek-sarwat-pasha] }
+  - { type: born_in, target: place/cairo, note: "From text: born at Cairo", sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en, source/wikidata-abdel-khalek-sarwat-pasha] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en, source/wikidata-abdel-khalek-sarwat-pasha] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en] }
 faith:

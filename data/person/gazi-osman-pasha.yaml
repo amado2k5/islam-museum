@@ -34,6 +34,9 @@ died:
   note: "He died at Istanbul on the night of 4 to 5 April 1900 (the English article's wording); the Turkish article, the English infobox and Wikidata all date the death 5 April 1900. He was buried beside the Fatih Mosque in Istanbul, as he had requested. The Hijri year 1317 is the tabular conversion of 5 April 1900."
   sources: [source/wikipedia-gazi-osman-pasha-en, source/wikipedia-gazi-osman-pasha-tr, source/wikidata-gazi-osman-pasha]
 relations:
+  - { type: born_in, target: place/tokat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-gazi-osman-pasha] }
+  - { type: died_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-gazi-osman-pasha] }
+  - { type: buried_in, target: place/fatih-mosque-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-gazi-osman-pasha] }
   - { type: died_in, target: place/istanbul, note: "He died at Istanbul on the night of 4–5 April 1900.", sources: [source/wikipedia-gazi-osman-pasha-en, source/wikipedia-gazi-osman-pasha-tr] }
   - { type: buried_in, target: place/istanbul, note: "He was buried beside the Fatih Mosque in Istanbul, in a tomb commissioned by Abdul Hamid II.", sources: [source/wikipedia-gazi-osman-pasha-en, source/wikipedia-gazi-osman-pasha-tr] }
 faith:

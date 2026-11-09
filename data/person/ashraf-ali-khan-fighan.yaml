@@ -18,3 +18,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 751, entry 'ASHRAF 'ALI KHAN' (signed A. S. Bazmee Ansari) (EI2 entry, batch ei2-b013 part 35, seq 385)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - { type: born_in, target: place/delhi, note: "From text: born in Delhi", sources: [source/encyclopaedia-of-islam-2] }

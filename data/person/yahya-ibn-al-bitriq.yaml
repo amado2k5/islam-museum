@@ -10,6 +10,8 @@ roles: [scholar]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/duha-islam] }
 sources: [source/duha-islam]
 provenance:
   layer: own-research

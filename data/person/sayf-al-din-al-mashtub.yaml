@@ -13,5 +13,9 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الأول (عارضة 8 داخل ترجمة ابن المشطوب)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-17
+relations:
+  - { type: died_in, target: place/jerusalem, sources: [source/wafayat-ayan], confidence: low, note: "died: { edtf: '1192', hijri: '0588', calendar: julian, precision: day, status: tradition, derived: true, note:" }
+  - { type: died_in, target: place/nablus, sources: [source/wafayat-ayan], confidence: low, note: "588) — 'al-Amir al-Kabir', chief of Salah al-Din's Kurdish amirs; co-commander of Acre with Qaraqush until the" }
+  - { type: ruler_of, target: place/jerusalem, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'سيف الدين المشطوب؛ والد عماد الدين بن المشطوب؛ رتّبه السلطان صلاح الدين في عكا هو وبهاء الدين قراقوش لما " }
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

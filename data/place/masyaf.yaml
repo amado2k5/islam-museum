@@ -1,0 +1,16 @@
+id: place/masyaf
+class: place
+kind: city
+label: { en: "Masyaf", ar: "مصياف" }
+summary:
+  en: "Syrian city."
+  ar: "مدينة في سوريا."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [35.0653, 36.3421]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q825818", geonames: "167046" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q825818 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

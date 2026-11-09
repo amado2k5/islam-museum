@@ -32,6 +32,7 @@ died:
   note: "The English article's infobox, lead and death section give her death on 18 April 1937; Wikidata gives only the year 1937. The article names no place of death, so no died_in edge is written. The Hijri year 1356, in which the date falls, is a conversion."
   sources: [source/wikipedia-nishatunnisa-mohani-en, source/wikidata-nishatunnisa-mohani]
 relations:
+  - { type: born_in, target: place/lucknow, sources: [source/wikipedia-nishatunnisa-mohani-en, source/wikidata-nishatunnisa-mohani] }
   - { type: spouse_of, target: person/hasrat-mohani, sources: [source/wikipedia-nishatunnisa-mohani-en] }
 faith:
   - value: unknown

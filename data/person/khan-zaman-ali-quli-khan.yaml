@@ -40,7 +40,8 @@ wings:
   - people
 regions:
   - south-asia
-relations: []
+relations:
+  - { type: lived_in, target: place/india, confidence: low, note: "Uzbek noble in Mughal service holding the Jaunpur jagir under Akbar per the record's own summary.", sources: [source/wikidata] }
 sources:
   - source/wikipedia-khan-zaman-ali-quli-khan-en
   - source/wikidata-khan-zaman-ali-quli-khan

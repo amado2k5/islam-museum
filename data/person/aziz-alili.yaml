@@ -15,6 +15,7 @@ regions: [anatolia-balkans]
 roles: [reciter, muezzin, imam]
 born: { edtf: "1968-05-29", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Kumanovo, then in SR Macedonia, Yugoslavia (German article; Wikidata gives the same day and place). No place entity for Kumanovo exists, so no birthplace relation is written.", sources: [source/wikipedia-aziz-alili-de, source/wikidata-aziz-alili] }
 relations:
+  - { type: born_in, target: place/macedonia, note: "From text: born in North Macedonia", sources: [source/wikipedia-aziz-alili-de, source/wikidata-aziz-alili] }
   - { type: lived_in, target: place/sarajevo, note: "Student of the Gazi Husrev-beg Madrasa; muezzin of the Emperor's Mosque 1984–1986 and imam of the Gazi Husrev-beg Mosque 1989–1993; later lives in Zagreb (no place entity yet)", sources: [source/wikipedia-aziz-alili-de] }
 faith:
   - value: unknown

@@ -13,5 +13,9 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 475–476"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-59
+relations:
+  - { type: ruler_of, target: place/minorca, sources: [source/wikidata], confidence: low, note: "label: { ar: 'سعيد بن حكم القرشي أمير منورقة' }" }
+  - { type: ruled_over, target: place/majorca, sources: [source/nafh-tib-maqqari], confidence: low, note: "ar: 'أبو عثمان سعيد بن حكم القرشي الجواد العادل العالم؛ لما استولى النصارى على ميورقة ثار بجزيرة منورقة القريب" }
+  - { type: ruled_over, target: place/minorca, sources: [source/nafh-tib-maqqari], confidence: low, note: "ar: 'أبو عثمان سعيد بن حكم القرشي الجواد العادل العالم؛ لما استولى النصارى على ميورقة ثار بجزيرة منورقة القريب" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

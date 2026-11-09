@@ -24,6 +24,7 @@ born:
   note: "Born at Salé on 16 August 1972: the Arabic article gives the day directly as 7 Rajab 1392, and the English article's lead, body and birth category and Wikidata give 16 August 1972. The English article's infobox birth-date template carries the year 1976 against its own lead and body, and the queue line's 1964 is attested in no source read; neither discrepancy is carried. Salé has no place entity in the museum yet, so no born_in relation is written."
   sources: [source/wikipedia-hassan-el-kettani-en, source/wikipedia-hassan-el-kettani-ar, source/wikidata-hassan-el-kettani]
 relations:
+  - { type: born_in, target: place/sal, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-el-kettani] }
   - { type: student_of, target: person/muhammad-abu-khubzah, sources: [source/wikipedia-hassan-el-kettani-en] }
   - { type: student_of, target: person/abd-allah-ibn-al-siddiq-al-ghumari, sources: [source/wikipedia-hassan-el-kettani-en] }
   - { type: student_of, target: person/abd-al-aziz-al-ghumari, sources: [source/wikipedia-hassan-el-kettani-en] }

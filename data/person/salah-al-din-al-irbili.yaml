@@ -15,3 +15,5 @@ provenance:
   run: prose-fill-persons-batch50
 sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/irbil, confidence: low, note: "Association inferred from the nisba in the name 'Salah al-Din al-Irbili'; specific residence not individually documented.", sources: [source/wafayat-ayan, source/shadharat-dhahab] }

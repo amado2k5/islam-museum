@@ -28,6 +28,9 @@ faith:
     note: "The English article describes him as a former member of the Five-Percent Nation (the Nation of Gods and Earths), and reports that in January 2024 he and Cappadonna accompanied Tareef Michael to Mecca and pronounced the shahada at the Grand Mosque there, citing a video post by Michael; Wikidata's religion value remains the Five-Percent Nation. The Five-Percent Nation is a movement, not a legal school (madhhab); the 2024 report rests on a single social-media citation inside one article; and no source names a school for him. His faith is therefore recorded as unknown, with the attestations stated exactly as the sources give them and neither forced into a school value."
     sources: [source/wikipedia-rza-en, source/wikidata-rza]
 external_ids: { wikidata: "Q52447" }
+relations:
+  - { type: born_in, target: place/brooklyn, sources: [source/wikidata], confidence: low, note: "Wikidata Q991279 ('Brownsville'), located in Brooklyn" }
+  - { type: lived_in, target: place/monmouth-county, sources: [source/wikidata], confidence: low, note: "Wikidata Q1077964 ('Millstone Township'), located in Monmouth County" }
 sources: [source/wikipedia-rza-en, source/wikipedia-rza-ar, source/wikipedia-rza-ur, source/wikidata-rza]
 provenance:
   layer: own-research

@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born 15 July 1999 in Mazatlán, Sinaloa, Mexico, as given by the English Wikipedia article's infobox and lead. No place entity for Mazatlán exists in data/place/, so no born_in relation is written. The Hijri year (1420) is derived by tabular conversion."
   sources: [source/wikipedia-kenia-os-en]
+relations:
+  - { type: lived_in, target: place/kenya, confidence: low, note: "Associated with كينيا per the record's own text; relation type pending review.", sources: [source/wikipedia-kenia-os-en] }
 faith:
   - value: unknown
     basis: unknown

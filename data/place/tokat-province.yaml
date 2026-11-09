@@ -1,0 +1,21 @@
+id: place/tokat-province
+class: place
+kind: region
+label: { ar: "ولاية توقاد", en: "Tokat Province", ur: "توقاد صوبہ" }
+summary:
+  ar: "إقليم في تركيا."
+  en: "Region in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [40.352777777778, 36.564444444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q483195" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q483195 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -26,6 +26,9 @@ faith:
     note: "Wikidata records no religion for him, and neither the English, Arabic nor Turkish article names a school of Islam. His 2019 Mustafa Prize is an Iranian prize awarded to Muslim scientists — an eligibility fact about a prize, not a school attestation. Not recorded until two independent sources name a school."
     sources: [source/wikipedia-ugur-sahin-en, source/wikipedia-ugur-sahin-ar, source/wikidata-ugur-sahin]
 external_ids: { wikidata: "Q2505089" }
+relations:
+  - { type: born_in, target: place/i-skenderun, sources: [source/wikidata-ugur-sahin], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q174341)" }
+  - { type: lived_in, target: place/mainz, sources: [source/wikidata-ugur-sahin], confidence: low, note: "Wikidata P937 work location (Wikidata Q1720)" }
 sources: [source/wikipedia-ugur-sahin-en, source/wikipedia-ugur-sahin-ar, source/wikipedia-ugur-sahin-tr, source/wikidata-ugur-sahin, source/biontech-sahin-cv]
 provenance:
   layer: own-research

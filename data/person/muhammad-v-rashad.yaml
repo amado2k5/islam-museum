@@ -13,6 +13,7 @@ periods: [period/modern-era]
 regions: [anatolia-balkans]
 relations:
   - { type: successor_of, target: person/abd-al-hamid-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
 external_ids: { wikidata: "Q151494" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:

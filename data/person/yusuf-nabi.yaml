@@ -37,9 +37,10 @@ died:
   sources: [source/wikipedia-yusuf-nabi-tr, source/wikipedia-yusuf-nabi-en, source/wikipedia-yusuf-nabi-ur, source/wikidata-yusuf-nabi]
 
 relations:
+
   - { type: born_in, target: place/al-ruha, sources: [source/wikipedia-yusuf-nabi-en, source/wikipedia-yusuf-nabi-tr, source/wikipedia-yusuf-nabi-ur] }
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-yusuf-nabi-tr, source/wikipedia-yusuf-nabi-en] }
-
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-yusuf-nabi-en, source/wikipedia-yusuf-nabi-tr, source/wikipedia-yusuf-nabi-ur, source/wikidata-yusuf-nabi] }
 faith:
   - value: unknown
     basis: unknown

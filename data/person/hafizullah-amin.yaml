@@ -29,6 +29,8 @@ died:
   note: "Assassinated on 27 December 1979 at the Tajbeg Palace in Kabul during the Soviet assault that opened the intervention, as all three articles and Wikidata give; the English article gives his resting place as the Tajbeg Palace grounds. No source gives a Hijri pairing for this date, so none is recorded."
   sources: [source/wikipedia-hafizullah-amin-en, source/wikipedia-hafizullah-amin-ar, source/wikipedia-hafizullah-amin-ur, source/wikidata-hafizullah-amin]
 relations:
+  - { type: born_in, target: place/paghman, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hafizullah-amin] }
+  - { type: buried_in, target: building/tajbeg-palace, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hafizullah-amin] }
   - { type: died_in, target: place/kabul, sources: [source/wikipedia-hafizullah-amin-en, source/wikidata-hafizullah-amin] }
   - { type: buried_in, target: place/kabul, sources: [source/wikipedia-hafizullah-amin-en] }
 faith:

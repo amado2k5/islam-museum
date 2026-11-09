@@ -31,6 +31,7 @@ faith:
     note: "FLAGGED: family background only. No source names a religion or a school for Kamal Hossain personally: the English article's infobox carries no religion field, Wikidata carries no religion value, and the Arabic and Urdu articles name none. What the English article gives is background — his father Ahmed Hossain described as an early Bengali Muslim physician, and the family's claim of descent from Ali — together with the political description of him as an icon of secular democracy and his drafting of a constitution whose secularism was a state principle. Family background and a politician's secular framing never attest a school, so under the two-source rule and the doubt rule his faith stays unknown, with the family-background reading preserved here for a founder ruling."
     sources: [source/wikipedia-kamal-hossain-en, source/wikipedia-kamal-hossain-ar, source/wikipedia-kamal-hossain-ur, source/wikidata-kamal-hossain]
 relations:
+  - { type: born_in, target: place/kolkata, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamal-hossain] }
   - type: lived_in
     target: place/dhaka
     note: "The family moved to Dhaka in 1949; he has headed his Dhaka law chamber since the 1960s, as the English article records."

@@ -6,6 +6,9 @@ summary:
   en: "Rashid ibn Amr al-Judaydi of Azd; Ziyad's frontier man — victorious at Qiqan, killed raiding al-Mayd."
 periods: [period/umayyad]
 wings: [people]
+relations:
+  - { type: ruled_over, target: place/makran, sources: [source/wikidata], confidence: low, note: "ar: 'راشد بن عمرو الجديدي من الأزد؛ استعمله زياد على ثغر الهند فأتى مكران وغزا القيقان فظفر ثم غزا الميد فقتل." }
+  - { type: traveled_to, target: place/qiqan, sources: [source/wikidata], confidence: low, note: "ar: 'راشد بن عمرو الجديدي من الأزد؛ استعمله زياد على ثغر الهند فأتى مكران وغزا القيقان فظفر ثم غزا الميد فقتل." }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

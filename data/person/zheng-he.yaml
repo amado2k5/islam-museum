@@ -31,6 +31,11 @@ regions:
 - southeast-asia
 - east-africa
 - arabia
+relations:
+  - { type: born_in, target: place/kunming, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q182852)" }
+  - { type: died_in, target: place/nanjing, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q16666)" }
+  - { type: lived_in, target: place/ming-dynasty, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q9903)" }
+  - { type: lived_in, target: place/southeast-asia, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q11708)" }
 sources:
 - source/wikidata
 external_ids:

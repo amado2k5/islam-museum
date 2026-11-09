@@ -9,6 +9,9 @@ gender: male
 roles: [sultan]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: ruler_of, target: polity/samanid-dynasty, confidence: low, note: "Samanid ruler per the record's own summary; dates pending review.", sources: [source/wafayat-ayan] }
+  - { type: ruled_over, target: place/transoxiana, confidence: low, note: "Samanid amir; the Samanid realm centred on Transoxiana with its capital at Bukhara.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة منصور بن نوح)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

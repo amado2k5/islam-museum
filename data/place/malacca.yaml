@@ -9,6 +9,12 @@ wings: [place]
 regions: [southeast-asia]
 coordinates: [2.196, 102.2405]
 coordinate_precision: site
-external_ids: { geonames: "1734759" }
-sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "Recorded against source/geonames-gazetteer; provenance block added in the person-place geo-enrichment run pending re-verification of the original research note."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+external_ids: { geonames: "1734759", wikidata: "Q185221"}
+sources: [source/geonames-gazetteer, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }

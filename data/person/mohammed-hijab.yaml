@@ -26,6 +26,8 @@ faith:
     note: "Neither Wikipedia article names a school for him: the English article gives no denomination, and the Arabic article describes him only as a Muslim activist and debater. Wikidata gives only Islam. Not recorded as sunni until two sources confirm a school."
     sources: [source/wikipedia-mohammed-hijab-en, source/wikipedia-mohammed-hijab-ar, source/wikidata-mohammed-hijab]
 external_ids: { wikidata: "Q110319845" }
+relations:
+  - { type: born_in, target: place/london, sources: [source/wikidata], confidence: low, note: "Born at St Mary's Hospital, London (Wikidata P19 Q3495342)" }
 sources: [source/wikipedia-mohammed-hijab-en, source/wikipedia-mohammed-hijab-ar, source/wikidata-mohammed-hijab]
 provenance:
   layer: own-research

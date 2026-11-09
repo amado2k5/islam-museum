@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/al-andalus, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q124328540

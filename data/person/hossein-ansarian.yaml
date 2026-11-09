@@ -26,7 +26,8 @@ born:
   derived: true
   note: "Born in Khansar (Khvansar), Isfahan province, on 9 November 1944, as stated by English Wikipedia (lead, infobox and Early life) and Persian Wikipedia (18 Aban 1323 SH in Khansar, the same day). There is no place record for Khansar, so no born_in edge is written. Hijri year 1363 derived from the Gregorian date."
   sources: [source/wikipedia-hossein-ansarian-en, source/wikipedia-hossein-ansarian-fa]
-relations: []
+relations:
+  - { type: born_in, target: place/isfahan, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-hossein-ansarian-en, source/wikipedia-hossein-ansarian-fa] }
 sources: [source/wikipedia-hossein-ansarian-en, source/wikipedia-hossein-ansarian-fa, source/wikihussain-hossein-ansarian, source/instagram-ansarian-ir, source/hafi-ansarian-ir, source/instastatistics-ansarian-ir]
 provenance:
   layer: own-research

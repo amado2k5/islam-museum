@@ -15,6 +15,9 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
 external_ids: { wikidata: "Q12232298" }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/samarqand, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5753)" }
 sources: [source/muruj-al-dhahab, source/siyar-alam-nubala-ideas-house, source/futuh-buldan-maarif-1407, source/sallabi-ali-vol1]
 status:
   review: published

@@ -38,6 +38,8 @@ died:
   note: "The English and Indonesian articles and Wikidata agree on 24 March 1792, at the Kraton (palace) of Yogyakarta; he was buried at Imogiri. Yogyakarta has no museum place record, so no died_in edge is written."
   sources: [source/wikipedia-hamengkubuwono-i-en, source/wikipedia-hamengkubuwono-i-id, source/wikidata-hamengkubuwono-i]
 
+relations:
+  - { type: died_in, target: place/yogyakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamengkubuwono-i] }
 faith:
   - value: unknown
     basis: unknown

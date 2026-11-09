@@ -35,6 +35,7 @@ died:
   sources: [source/wikipedia-lotf-ali-khan-zand-en, source/wikipedia-lotf-ali-khan-zand-ar, source/wikidata-lotf-ali-khan-zand]
 
 relations:
+  - { type: buried_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lotf-ali-khan-zand] }
   - { type: child_of, target: person/jafar-khan-zand, sources: [source/wikipedia-lotf-ali-khan-zand-en] }
 
 faith:

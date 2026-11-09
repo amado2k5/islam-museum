@@ -1,0 +1,36 @@
+id: place/jalandhar
+class: place
+kind: city
+label:
+  ar: جالاندهار
+  en: Jalandhar
+  ur: جالندھر
+summary:
+  ar: مدينة في الهند.
+  en: Ancient city in the north Indian state of Punjab.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 31.3256
+- 75.5792
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q33377
+  geonames: '1268782'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q33377 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q33377 (labels, coordinates, description)

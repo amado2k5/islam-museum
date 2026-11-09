@@ -1,0 +1,21 @@
+id: place/ustyuzhna
+class: place
+kind: city
+label: { ar: "أوستيوجنا", en: "Ustyuzhna" }
+summary:
+  ar: "مدينة في روسيا."
+  en: "City in Russia."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [58.833333333333, 36.433333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q197006" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q197006 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

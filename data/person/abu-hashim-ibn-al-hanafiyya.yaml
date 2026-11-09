@@ -15,3 +15,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch22
+relations:
+  - { type: lived_in, target: place/medina, note: "Son of Muhammad ibn al-Hanafiyya; the Alid family seat was Medina. Inferred.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

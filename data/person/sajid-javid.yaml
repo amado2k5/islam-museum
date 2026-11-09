@@ -29,7 +29,9 @@ born:
   note: "Born in Rochdale, Lancashire on 5 December 1969; the English and Arabic articles and Wikidata agree. The Hijri year 1389 is the tabular conversion of the built date, marked derived. No place entity for Rochdale exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-sajid-javid-en, source/wikipedia-sajid-javid-ar, source/wikidata-sajid-javid]
 
-relations: []
+relations:
+  - { type: born_in, target: place/rochdale, sources: [source/wikidata-sajid-javid], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q474605)" }
+  - { type: lived_in, target: place/london, sources: [source/wikidata-sajid-javid], confidence: low, note: "Wikidata P937 work location (Wikidata Q84)" }
 
 faith:
   - value: unknown

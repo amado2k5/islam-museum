@@ -17,6 +17,8 @@ born:
   precision: year
 external_ids:
   wikidata: Q144371
+relations:
+  - { type: born_in, target: place/pretoria, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3926)" }
 sources:
 - source/wikidata
 status:

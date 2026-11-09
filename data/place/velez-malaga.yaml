@@ -8,6 +8,8 @@ summary:
 wings: [place]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
+coordinates: [36.781, -4.1025]
+coordinate_precision: locality
 relations:
   - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
 provenance:
@@ -15,5 +17,5 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 523–524"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-60
-sources: [source/nafh-tib-maqqari]
+sources: [source/nafh-tib-maqqari, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

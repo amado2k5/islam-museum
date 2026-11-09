@@ -32,6 +32,7 @@ died:
   note: "The English article gives 25 May 1895 at Constantinople, and one of Wikidata's two death values agrees. The Turkish article gives 26 May 1895, and Wikidata's second death value repeats it; the record follows the English article and states the split. The Arabic article's Hijri year 1312 matches the tabular conversion of 25 May 1895. The English article adds that he is buried in the graveyard of the Fatih Mosque in Istanbul (its sentence carries a citation-needed tag)."
   sources: [source/wikipedia-ahmed-cevdet-pasha-en, source/wikipedia-ahmed-cevdet-pasha-tr, source/wikipedia-ahmed-cevdet-pasha-ar, source/wikidata-ahmed-cevdet-pasha]
 relations:
+  - { type: died_in, target: place/istanbul, note: "From text: died in Istanbul", sources: [source/wikipedia-ahmed-cevdet-pasha-en, source/wikipedia-ahmed-cevdet-pasha-tr, source/wikipedia-ahmed-cevdet-pasha-ar, source/wikidata-ahmed-cevdet-pasha] }
   - { type: died_in, target: place/istanbul, note: "He died in Constantinople on 25 May 1895 by the English article (Turkish article: 26 May; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-ahmed-cevdet-pasha-en, source/wikipedia-ahmed-cevdet-pasha-tr, source/wikidata-ahmed-cevdet-pasha] }
 faith:
   - value: unknown

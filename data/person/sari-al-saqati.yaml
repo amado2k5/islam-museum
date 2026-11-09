@@ -14,5 +14,7 @@ provenance:
   run: ocr-harvest-2026-11-04
   model: claude-opus-5-5
 external_ids: { wikidata: "Q6762300" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
 sources: [source/fihrist-ibn-al-nadim, source/tarikh-khulafa-minhaj-1434, source/risala-qushayriyya-minhaj-2017]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)" }

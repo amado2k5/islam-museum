@@ -8,5 +8,8 @@ summary:
 wings: [place]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
-sources: [source/mubarakpuri-raheeq, source/tarikh-ard-al-quran]
+coordinates: [30.3285, 35.4444]
+coordinate_precision: site
+sources: [source/mubarakpuri-raheeq, source/tarikh-ard-al-quran, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
+provenance: { layer: own-research, generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c", source: "Provenance added by the geo-enrichment pass; the record predates the lane and its original extraction details are not recorded." }

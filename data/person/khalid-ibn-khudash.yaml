@@ -8,6 +8,9 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+relations:
+  - { type: born_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الثاني، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

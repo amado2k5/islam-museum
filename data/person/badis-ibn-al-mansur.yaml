@@ -9,6 +9,9 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-fragmentation]
+relations:
+  - { type: born_in, target: place/achir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/qal-at-bani-hammad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q778316" }
 provenance:
   layer: own-research

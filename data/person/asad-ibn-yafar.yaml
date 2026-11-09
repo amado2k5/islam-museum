@@ -13,6 +13,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch36
+relations:
+  - { type: ruled_over, target: place/yemen, note: "Lord of Kahlan castle and Yemen's mikhlafs in 332.", sources: [source/muruj-al-dhahab], confidence: medium }
+  - { type: lived_in, target: place/yemen, note: "The dominant power in Yemen.", sources: [source/muruj-al-dhahab], confidence: high }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

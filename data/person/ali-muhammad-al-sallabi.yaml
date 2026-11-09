@@ -13,6 +13,7 @@ wings: [people]
 periods: [period/contemporary-era]
 regions: [arab-world]
 relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/sira-nabawiyya-sallabi, source/salabi-umayyad-state-2020, source/dawlat-uthmaniyya-salabi, source/sallabi-ali-tawzi-2004, source/sallabi-abu-bakr-tawzi-2003, source/sallabi-umar-tawzi-2002, source/sallabi-uthman-tawzi-2003], confidence: low }
   - { type: authored, target: work/al-sira-al-nabawiyya-sallabi, sources: [source/sira-nabawiyya-sallabi] }
   - { type: authored, target: work/al-inshirah-sirat-abi-bakr-sallabi, sources: [source/sallabi-abu-bakr-tawzi-2003] }
   - { type: authored, target: work/fasl-al-khitab-sirat-umar-sallabi, sources: [source/sallabi-umar-tawzi-2002] }

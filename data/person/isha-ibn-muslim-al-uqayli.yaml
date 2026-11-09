@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 relations:
+  - { type: lived_in, target: place/armenia, confidence: low, note: "Associated with أرمينية per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/maslama-khazar-campaign, role: "في المقدمة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/musafir-revolt-armenia, role: "والي أرمينية المقاتل لمسافر", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

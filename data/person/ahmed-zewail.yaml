@@ -36,6 +36,7 @@ died:
   note: "Gregorian date and Pasadena, California place of death from English Wikipedia, the Nobel Prize facts page and Wikidata Q106624; the Hijri year (1437) is derived by tabular conversion."
   sources: [source/wikipedia-ahmed-zewail-en, source/nobelprize-zewail-facts, source/wikidata-ahmed-zewail]
 relations:
+  - { type: born_in, target: place/damanhur, note: "From text: born in Damanhur", sources: [source/wikipedia-ahmed-zewail-en, source/nobelprize-zewail-facts, source/wikidata-ahmed-zewail] }
   - { type: born_in, target: place/damanhur, sources: [source/wikipedia-ahmed-zewail-en, source/nobelprize-zewail-facts] }
   - { type: lived_in, target: place/alexandria, sources: [source/nobelprize-zewail-facts, source/wikipedia-ahmed-zewail-en] }
 faith:

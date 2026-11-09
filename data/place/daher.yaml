@@ -1,0 +1,21 @@
+id: place/daher
+class: place
+kind: region
+label: { ar: "الظاهر", en: "Daher", ur: "ظاہر، قاہرہ" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q4118662)."
+wings: [place]
+regions: [egypt-nile]
+coordinates: [30.064637, 31.262723]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4118662" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4118662 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

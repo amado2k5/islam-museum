@@ -10,6 +10,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 roles: [ruler]
+relations:
+  - { type: ruled_over, target: place/mardin, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

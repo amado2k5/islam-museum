@@ -1,0 +1,21 @@
+id: place/champeaux-cemetery-of-montmorency
+class: place
+kind: site
+label: { ar: "مقبرة شامبوو في مونتمورنسي", en: "Champeaux cemetery of Montmorency" }
+summary:
+  ar: "موقع في فرنسا."
+  en: "Site in France."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [48.99362, 2.323514]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q24545" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q24545 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

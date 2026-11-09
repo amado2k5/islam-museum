@@ -25,6 +25,9 @@ faith:
     basis: unknown
     note: "NOT RECORDED AS DOCUMENTED — no two independent sources name a school for her. The English article describes her 2010 election, with Rushanara Ali and Shabana Mahmood, as making them Britain's first female Muslim MPs, and records her chairing of the Human Rights and Civil Liberties Working Group of the Association of Muslim Lawyers and her British Muslim Awards Politician of the Year award (2014): a generic Muslim attestation, an institutional affiliation and an award name, none of which attests a school. Under the two-source rule and the founder's doubt rule the value stays unknown."
     sources: [source/wikipedia-yasmin-qureshi-en]
+relations:
+  - { type: born_in, target: place/gujrat, sources: [source/wikidata], confidence: low, note: "Born at Gujrat, Punjab, in 1963 per the record text." }
+  - { type: lived_in, target: place/london, sources: [source/wikidata], confidence: low, note: "Studied law in London per the record text." }
 sources: [source/wikipedia-yasmin-qureshi-en]
 provenance:
   layer: own-research

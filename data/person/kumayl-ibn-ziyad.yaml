@@ -7,6 +7,7 @@ summary:
 wings: [people, words]
 periods: [period/rashidun]
 relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Companion of Ali at Kufa per the record's own text.", sources: [source/sallabi-ali-vol1] }
   - { type: participated_in, target: event/ali-counsel-to-kumayl, role: "المخاطَب في الوصية", sources: [source/sallabi-ali-vol1] }
 sources: [source/sallabi-ali-vol1]
 provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 201-202", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp201-250" }

@@ -14,3 +14,5 @@ provenance:
   run: lib-ansab-batch-4
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: traveled_to, target: place/al-yamama, note: "Himyarite Tubba who came up from Yemen to Yamama and destroyed Tasm and Jadis at Jaww.", sources: [source/ansab-al-ashraf], confidence: medium }

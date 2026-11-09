@@ -1,0 +1,21 @@
+id: place/adal-sultanate
+class: place
+kind: region
+label: { ar: "سلطنة عدل", en: "Adal Sultanate", ur: "سلطنت عدل" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q2365048)."
+wings: [place]
+regions: [east-africa]
+coordinates: [10.45222, 41.177806]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2365048" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2365048 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

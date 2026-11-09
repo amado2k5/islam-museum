@@ -13,3 +13,5 @@ provenance:
   source: "salabi-umayyad-state-2020 p. 83"
   generated_by: "Claude (Haiku 5.5, subagent)"
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 p. 83; the book gives no end date for his rule" }
+relations:
+  - { type: lived_in, target: place/al-andalus, note: "From text: أهل الأندلس بعد مقتل عبد العز", sources: [source/salabi-umayyad-state-2020], confidence: low }

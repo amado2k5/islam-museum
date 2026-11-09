@@ -13,6 +13,8 @@ periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 died:
   { edtf: "0961-03~", hijri: "0350-02", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في صفر 350 وقيل 352؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.9}", sources: [source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 350)، قراءة آبل فيجن"

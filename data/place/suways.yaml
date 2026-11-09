@@ -1,12 +1,36 @@
 id: place/suways
 class: place
 kind: town
-label: { ar: "السويس", en: "Suways" }
+label:
+  ar: السويس
+  en: Suways
+  ur: سوئیز
 summary:
-  ar: "مدينتان كانتا على القلزم، وهما الآن أكثرهما خراب، ويذكر الإدريسي أن أهلهما كانوا يشربون من عين السويس، وهي عين زعاق لا يسيغها الشارب. {cite:nuzhat-al-mushtaq-2002 p. 348}"
-  en: "Two towns that stood at Qulzum, now mostly in ruins; al-Idrisi says their people drank from the Suways spring, a brackish spring hard to drink. {cite:nuzhat-al-mushtaq-2002 p. 348}"
-wings: [place]
-regions: [egypt-nile]
-provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 348 (scan page)", generated_by: "Claude (Haiku 5.5)" }
-sources: [source/nuzhat-al-mushtaq-2002]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
+  ar: مدينتان كانتا على القلزم، وهما الآن أكثرهما خراب، ويذكر الإدريسي أن أهلهما كانوا يشربون من عين السويس، وهي عين زعاق لا يسيغها الشارب. {cite:nuzhat-al-mushtaq-2002 p. 348}
+  en: Two towns that stood at Qulzum, now mostly in ruins; al-Idrisi says their people drank from the Suways spring, a brackish spring hard to drink. {cite:nuzhat-al-mushtaq-2002 p. 348}
+wings:
+- place
+regions:
+- egypt-nile
+coordinates:
+- 29.9668
+- 32.5498
+coordinate_precision: locality
+provenance:
+  layer: own-research
+  source: al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 348 (scan page)
+  generated_by: Claude (Haiku 5.5)
+  note: Merged duplicate record place/suez into this entity during consolidation.
+sources:
+- source/nuzhat-al-mushtaq-2002
+- source/geonames-gazetteer
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude (Haiku 5.5); page refs are scan indices
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q134514
+aliases:
+- place/suez

@@ -12,6 +12,9 @@ wings: [people]
 periods: [period/umayyad]
 born: { hijri: "0095", edtf: "0714~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: ولد ببخارى سنة خمس وتسعين (PDF ص46).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 died: { hijri: "0177", edtf: "0793~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بالكوفة سنة سبع وسبعين ومائة (PDF ص46).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: born_in, target: place/bukhara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5764)" }
+  - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 external_ids:
   wikidata: Q12218762

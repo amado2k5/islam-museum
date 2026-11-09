@@ -33,6 +33,8 @@ died:
   sources: [source/wikipedia-serigne-babacar-sy-fr, source/wikidata-serigne-babacar-sy]
 relations:
   - { type: child_of, target: person/el-hadj-malik-sy, sources: [source/wikipedia-serigne-babacar-sy-fr] }
+  - { type: born_in, target: place/saint-louis, sources: [source/wikidata-serigne-babacar-sy], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q273779)" }
+  - { type: died_in, target: place/senegal, sources: [source/wikidata-serigne-babacar-sy], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1041)" }
 faith:
   - value: unknown
     basis: unknown

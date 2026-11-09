@@ -16,6 +16,7 @@ regions: [arabia]
 relations:
   - { type: authored, target: work/umama-al-muzayriyya-verses-on-abu-afak, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/killing-of-abu-afak, role: "قالت في ذلك شعراً", sources: [source/ibn-hisham-saqqa] }
+  - { type: lived_in, target: place/medina, confidence: low, note: "Poetess named in the sira literature of the Prophet-era community (regions: arabia).", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 285", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 285" }

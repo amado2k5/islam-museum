@@ -12,6 +12,8 @@ roles: [emir, patron]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq, arabia]
+relations:
+  - { type: lived_in, target: place/rabat, confidence: low, note: "Associated with الرباط per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 faith:
   - value: sunni
     basis: tradition

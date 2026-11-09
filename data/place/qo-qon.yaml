@@ -1,0 +1,21 @@
+id: place/qo-qon
+class: place
+kind: city
+label: { ar: "قوقند", en: "Qoʻqon", ur: "خوقند" }
+summary:
+  ar: "مدينة في أوزبكستان."
+  en: "City in Uzbekistan."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [40.528611111111, 70.9425]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q489890" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q489890 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

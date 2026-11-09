@@ -35,6 +35,10 @@ faith:
     note: "Wikidata gives the religion as Sunni Islam. The English Wikipedia article describes his party as nationalist-Islamist but gives no denomination, and no Arabic Wikipedia article exists for him. Not recorded as sunni until a second source confirms it."
     sources: [source/wikidata-muhsin-yazicioglu, source/wikipedia-muhsin-yazicioglu-en]
 external_ids: { wikidata: "Q1397239" }
+relations:
+  - { type: born_in, target: place/ark-la, sources: [source/wikidata-muhsin-yazicioglu], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q388598)" }
+  - { type: died_in, target: place/g-ksun-district, sources: [source/wikidata-muhsin-yazicioglu], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q939677)" }
+  - { type: buried_in, target: place/ankara, sources: [source/wikidata-muhsin-yazicioglu], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q3640)" }
 sources: [source/wikipedia-muhsin-yazicioglu-en, source/wikidata-muhsin-yazicioglu]
 provenance:
   layer: own-research

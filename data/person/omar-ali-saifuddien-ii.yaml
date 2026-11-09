@@ -38,6 +38,8 @@ faith:
     note: "A school reading exists in exactly one infobox: the English article's infobox gives his religion as Sunni Islam. The Malay article's infobox gives Islam in general, the English article's text names no school, and Wikidata gives Islam (Q432) only. Crown headship of the Brunei sultanate and royal descent do not attest a personal school. One infobox family short of the two-source bar: unknown, flagged."
     sources: [source/wikipedia-omar-ali-saifuddien-ii-en, source/wikipedia-omar-ali-saifuddien-ii-ms, source/wikidata-omar-ali-saifuddien-ii]
 external_ids: { wikidata: "Q40107" }
+relations:
+  - { type: born_in, target: place/bandar-seri-begawan, sources: [source/wikidata-omar-ali-saifuddien-ii], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q9279)" }
 sources: [source/wikipedia-omar-ali-saifuddien-ii-en, source/wikipedia-omar-ali-saifuddien-ii-ms, source/wikidata-omar-ali-saifuddien-ii]
 status: { review: published }
 provenance:

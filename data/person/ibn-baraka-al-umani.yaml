@@ -12,6 +12,8 @@ gender: male
 roles: [jurist, writer, politician]
 wings: [people]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/oman, confidence: low, note: "Associated with عمان per the record's own summary text; relation type pending review.", sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

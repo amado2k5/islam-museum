@@ -11,6 +11,8 @@ periods: [period/umayyad]
 regions: [andalus-europe]
 relations:
   - { type: participated_in, target: event/conquest-of-cordoba-92, role: "الفاتح", sources: [source/nafh-tib-maqqari] }
+
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Association inferred from the nisba in the name ''; specific residence not individually documented.", sources: [source/nafh-tib-maqqari, source/salabi-umayyad-state-2020] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

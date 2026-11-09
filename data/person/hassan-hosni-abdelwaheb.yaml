@@ -36,6 +36,7 @@ faith:
     note: "No source read names a religious school for Abdelwaheb himself, and Wikidata carries no religion value for him. His father's Zaytuna training is family background, and his own historical works, including his 1955 book on the Maliki imam al-Mazari, are scholarship about other men; this is the absence configuration."
     sources: [source/wikipedia-hassan-hosni-abdelwaheb-fr, source/wikipedia-hassan-hosni-abdelwaheb-ar, source/wikidata-hassan-hosni-abdelwaheb]
 relations:
+  - { type: buried_in, target: place/jellaz-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-hosni-abdelwaheb] }
   - { type: born_in, target: place/tunis, sources: [source/wikipedia-hassan-hosni-abdelwaheb-fr, source/wikipedia-hassan-hosni-abdelwaheb-ar, source/wikidata-hassan-hosni-abdelwaheb] }
   - { type: died_in, target: place/tunis, sources: [source/wikipedia-hassan-hosni-abdelwaheb-ar, source/wikipedia-hassan-hosni-abdelwaheb-en, source/wikidata-hassan-hosni-abdelwaheb] }
 summary:

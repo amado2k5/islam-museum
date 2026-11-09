@@ -12,6 +12,8 @@ gender: male
 roles: [poet]
 wings: [people]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/marw, sources: [source/wikidata], confidence: low, note: "Nisba مرواني attested in the record." }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

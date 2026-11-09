@@ -8,6 +8,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/nahr-adi, note: "From text: of the Nahr Adi", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/jarrah-governorship-armenia, role: "الوالي السابق وصاحب نهر عدي", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

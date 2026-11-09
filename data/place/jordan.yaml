@@ -1,0 +1,38 @@
+id: place/jordan
+class: place
+kind: region
+label:
+  ar: الأردن
+  en: Jordan
+  ur: اردن
+summary:
+  ar: مملكة في بلاد الشام، عاصمتها عمّان.
+  en: Levantine kingdom; capital Amman.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 31.2
+- 36.5
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q810
+  geonames: '248816'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q810 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q810 (labels, coordinates, description)

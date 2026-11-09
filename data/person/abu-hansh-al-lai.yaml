@@ -14,3 +14,5 @@ provenance:
   run: lib-wafayat-batch-8
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }

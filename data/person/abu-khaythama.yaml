@@ -17,6 +17,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/fihrist-ibn-al-nadim, source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/believers-who-lagged-without-doubt, role: lagged-behind, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/abu-khaythama-joins-the-army, role: subject, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-salim-ibn-awf, sources: [source/ibn-hisham-saqqa] }

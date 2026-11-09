@@ -22,6 +22,8 @@ born:
   note: "The Arabic article gives his birth in the al-Salihiyya district of Damascus in 1970, with no month or day; Wikidata gives 1970 at year precision. The Hijri year is the tabular conversion for most of that Gregorian year and is marked derived."
   sources: [source/wikipedia-mohamed-khair-al-shaal-ar, source/wikidata-mohamed-khair-al-shaal]
 relations:
+  - { type: born_in, target: place/al-salihiyya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-khair-al-shaal] }
+  - { type: lived_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-khair-al-shaal] }
   - { type: born_in, target: place/damascus, sources: [source/wikipedia-mohamed-khair-al-shaal-ar] }
   - { type: student_of, target: person/ahmed-kuftaro, sources: [source/wikipedia-mohamed-khair-al-shaal-ar] }
   - { type: student_of, target: person/nur-al-din-itr, sources: [source/wikipedia-mohamed-khair-al-shaal-ar] }

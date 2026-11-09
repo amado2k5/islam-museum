@@ -14,7 +14,10 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch32
 external_ids: { wikidata: "Q1108719" }
-sources: [source/muruj-al-dhahab, source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994]
+sources: [source/muruj-al-dhahab, source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994, source/wikidata]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: born_in, target: place/mecca, note: "Wikidata Q5806 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/mecca, note: "Wikidata Q5806 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

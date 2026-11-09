@@ -1,0 +1,18 @@
+id: place/dar-maryam
+class: place
+kind: site
+label: { ar: "دار مريم", en: "Dar Maryam" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Site (Wikidata Q125495839)."
+wings: [place]
+regions: [global]
+external_ids: { wikidata: "Q125495839" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q125495839 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

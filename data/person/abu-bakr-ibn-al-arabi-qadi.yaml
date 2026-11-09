@@ -8,6 +8,8 @@ wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe, maghreb]
 relations:
+  - { type: died_in, target: place/mughila, note: "From text: توفي بمغيلة قرية من مدينة فاس ودفن ب", sources: [source/nafh-tib-maqqari] }
+  - { type: buried_in, target: place/fez, note: "From text: buried at Fez", sources: [source/nafh-tib-maqqari] }
   - { type: authored, target: work/ahkam-al-quran-ibn-al-arabi, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research

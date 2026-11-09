@@ -1,0 +1,35 @@
+id: place/mamilla-cemetery
+class: place
+kind: site
+label:
+  ar: مقبرة مأمن الله
+  en: Mamilla Cemetery
+  ur: مامن اللہ قبرستان
+summary:
+  ar: موقع في إسرائيل.
+  en: Abandoned Muslim cemetery outside Mamila pool Jerusalem.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 31.7781
+- 35.2206
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q1383277
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1383277 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1383277 (labels, coordinates, description)

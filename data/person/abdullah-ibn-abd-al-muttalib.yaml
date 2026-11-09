@@ -26,6 +26,8 @@ regions: [arabia]
 story_roles:
   - { role: family-of-the-prophet, status: tradition, sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: died_in, target: place/medina, note: "From text: مات بالمدينة وله خمس وعشرون سنة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/mukhtasar-sirat-al-rasul, source/fiqh-al-sira-al-ghazali, source/tabaqat-ibn-sad, source/sahih-muslim] }
+  - { type: died_in, target: place/medina, note: "From text: died at Medina", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: child_of, target: person/abd-al-muttalib, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: child_of, target: person/fatima-bint-amr, sources: [source/mubarakpuri-raheeq] }
   - { type: spouse_of, target: person/amina-bint-wahb, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }

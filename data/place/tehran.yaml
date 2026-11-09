@@ -1,0 +1,39 @@
+id: place/tehran
+class: place
+kind: city
+label:
+  ar: طهران
+  en: Tehran
+  ur: تہران، ایران
+summary:
+  ar: عاصمة إيران عند سفوح جبال البرز؛ اتخذها القاجاريون داراً للملك سنة 1788م، وهي مركز البلاد السياسي والعلمي والنشر.
+  en: Capital of Iran at the foot of the Alborz; made the Qajar seat in 1788, it is the country's political, scholarly and publishing centre.
+  ur: ایران کا دارالحکومت البرز پہاڑوں کے دامن میں؛ 1788ء سے قاجار سلطنت کا مرکز اور ملک کا سیاسی و علمی مرکز۔
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 35.6892
+- 51.389
+coordinate_precision: locality
+coordinate_note: Wikidata Q3616 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q3616
+  geonames: '112931'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q3616 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry and Wikidata Q3616; coordinates the city's gazetteer point

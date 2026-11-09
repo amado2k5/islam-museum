@@ -38,6 +38,8 @@ faith:
     note: "His community is documented; no affiliation value is recorded, exactly as the sources give it. The English article says he was born at al-Qrayya into the famous Druze family of al-Atrash, which had nominally governed the region since 1879, calls him one of the most influential figures in Syrian and Druze history, and files him under 'Syrian Druze people'. The Arabic article's lead describes him as a Syrian leader belonging to the Druze ta'ifa (the Unitarians), and its body says he was born into the famous Druze al-Atrash family. The Urdu article mirrors the English. What these sources attest is his birth into, and leadership of, the Druze community — a communal identity and role, not a personal profession recorded apart from it — and Wikidata carries no religion (P140) value for him. The museum's faith enum has no druze value, and no mapping is forced: the recorded value is unknown, with the community stated here in full."
     sources: [source/wikipedia-sultan-al-atrash-en, source/wikipedia-sultan-al-atrash-ar, source/wikipedia-sultan-al-atrash-ur, source/wikidata-sultan-al-atrash]
 external_ids: { wikidata: "Q403646" }
+relations:
+  - { type: born_in, target: place/al-qurayya, sources: [source/wikidata-sultan-al-atrash], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4703108)" }
 sources: [source/wikipedia-sultan-al-atrash-en, source/wikipedia-sultan-al-atrash-ar, source/wikipedia-sultan-al-atrash-ur, source/wikidata-sultan-al-atrash]
 provenance:
   layer: own-research

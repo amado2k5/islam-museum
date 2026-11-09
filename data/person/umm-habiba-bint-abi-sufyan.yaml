@@ -28,9 +28,11 @@ relations:
   - { type: participated_in, target: event/abu-sufyan-medina-mission, role: daughter-of-envoy, sources: [source/ibn-hisham-saqqa] }
   - { type: spouse_of, target: person/ubaydullah-ibn-jahsh, sources: [source/ibn-hisham-saqqa, source/nisa-hawl-alrasul], note: "ابن إسحاق ص6: خرجت معه إلى الحبشة، ثم تنصّر ومات هناك نصرانياً (نساء حول الرسول ص132: توفي مرتداً بأرض الحبشة)" }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
-  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/mothers-of-the-believers, sources: [source/tanzil-quran, source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: lived_in, target: place/abyssinia, sources: [source/ibn-hisham-saqqa, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/assabile-tareq-al-suwaidan] }
+  - { type: lived_in, target: place/medina, sources: [source/ibn-hisham-saqqa, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/assabile-tareq-al-suwaidan] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 38–39", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 external_ids: { wikidata: "Q2138599" }
 sources: [source/ibn-hisham-saqqa, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/assabile-tareq-al-suwaidan]

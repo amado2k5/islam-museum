@@ -22,6 +22,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 relations:
+- { type: ruler_of, target: place/tlemcen, note: "From text: sultan of Tlemcen", sources: [source/tarikh-ibn-khaldun-ibar] }
 - { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "رابع ملوك بني عبد الواد", sources: [source/tarikh-ibn-khaldun-ibar] }
 - { type: "successor_of", target: "person/abu-ziyan-muhammad-ibn-uthman", sources: [source/tarikh-ibn-khaldun-ibar] }
 sources:

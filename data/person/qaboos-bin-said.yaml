@@ -36,6 +36,7 @@ died:
 relations:
   - { type: member_of, target: group/al-bu-said, sources: [source/wikipedia-qaboos-bin-said-en, source/wikidata-qaboos-bin-said] }
   - { type: buried_in, target: place/muscat, sources: [source/wikipedia-qaboos-bin-said-en] }
+  - { type: ruler_of, target: place/oman, sources: [source/wikipedia-qaboos-bin-said-en, source/wikipedia-qaboos-bin-said-ar, source/wikipedia-qaboos-bin-said-ur, source/wikidata-qaboos-bin-said] }
 faith:
   - value: unknown
     basis: unknown

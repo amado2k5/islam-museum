@@ -18,6 +18,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة مع امرأته رملة بنت أبي ", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-zuhra, sources: [source/ibn-hisham-saqqa] }
   - { type: spouse_of, target: person/ramla-bint-abi-awf, sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }

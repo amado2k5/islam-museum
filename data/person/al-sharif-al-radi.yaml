@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }
   - { type: sibling_of, target: person/al-sharif-al-murtada }
 provenance:
   layer: own-research

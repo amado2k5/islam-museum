@@ -12,6 +12,8 @@ wings: [people]
 regions: [maghreb]
 periods: [period/umayyad]
 died: { edtf: "0750", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/ifriqiya, confidence: low, note: "Associated with إفريقية per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6084894

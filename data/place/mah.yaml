@@ -1,0 +1,36 @@
+id: place/mah
+class: place
+kind: city
+label:
+  ar: ماهي
+  en: Mahé
+  ur: ماہے
+summary:
+  ar: مدينة في الهند.
+  en: Town in Puducherry, India.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 11.7011
+- 75.5367
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q277480
+  geonames: '1264403'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q277480 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q277480 (labels, coordinates, description)

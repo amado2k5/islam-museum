@@ -22,5 +22,7 @@ provenance:
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 294)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-muntazam-258-349-batch36
+relations:
+  - { type: lived_in, target: place/sur, sources: [source/wikidata], confidence: low, note: "Nisba صوري attested in the record." }
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

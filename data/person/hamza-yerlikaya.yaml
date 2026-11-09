@@ -22,6 +22,7 @@ born:
   note: "Born 6 June 1976 in Kadıköy, Istanbul, per the English article and Wikidata. The Turkish article's lead gives 3 June 1976 (its officeholder infobox leaves the birth date blank); the record follows the two concordant sources. The Hijri year 1396 (8 Jumada al-awwal 1396) is the tabular conversion of 6 June 1976 and is marked derived."
   sources: [source/wikipedia-hamza-yerlikaya-en, source/wikidata-hamza-yerlikaya]
 relations:
+  - { type: born_in, target: place/kad-k-y, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-yerlikaya] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-hamza-yerlikaya-en, source/wikidata-hamza-yerlikaya] }
 faith:
   - value: unknown

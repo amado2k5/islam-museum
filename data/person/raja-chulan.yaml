@@ -35,6 +35,9 @@ faith:
     note: "FLAGGED — a school reading exists but rests on the infobox family alone: the English article's infobox gives his religion as Sunni Islam and the Malay article's infobox gives Islam in general. Infobox values across language editions are one source family, no article text names a school for him, and Wikidata carries no religion value at all. His royal descent and the Raja Di-Hilir office never count. The doubt rule governs: the value stays unknown, with the Sunni reading preserved here for the founder's ruling."
     sources: [source/wikipedia-raja-chulan-en, source/wikipedia-raja-chulan-ms, source/wikidata-raja-chulan]
 external_ids: { wikidata: "Q7285425" }
+relations:
+  - { type: died_in, target: place/malay, sources: [source/wikidata], confidence: low, note: "note: 'Died on 10 April 1933 at Kuala Kangsar (the Malay article: at Rumah Kelsumah) and was buried the next d" }
+  - { type: ruled_over, target: place/malay, sources: [source/wikidata], confidence: low, note: "He served in the Perak administration, took part in forming the Federated Malay States in 1896, was installed " }
 sources: [source/wikipedia-raja-chulan-en, source/wikipedia-raja-chulan-ms, source/wikidata-raja-chulan]
 provenance:
   layer: own-research

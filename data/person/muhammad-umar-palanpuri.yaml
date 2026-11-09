@@ -12,6 +12,9 @@ wings: [people]
 regions: [south-asia]
 periods: [period/modern-era]
 died: { edtf: "1997", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/palanpur, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q949907)" }
+  - { type: died_in, target: place/new-delhi, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q987)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: "Q124352789"

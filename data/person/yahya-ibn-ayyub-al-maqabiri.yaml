@@ -12,6 +12,8 @@ wings: [people]
 regions: [egypt-nile]
 periods: [period/abbasid-early]
 died: { edtf: "0848", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q106620032

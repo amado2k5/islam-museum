@@ -23,6 +23,8 @@ born:
   derived: true
   note: "Born on 21 June 1961 at Surakarta, as the English, Arabic and Urdu articles and Wikidata give; he was born under the name Mulyono. No place entity exists for Surakarta, so no born_in relation is written. The Hijri year (1381) is by tabular conversion."
   sources: [source/wikipedia-joko-widodo-en, source/wikipedia-joko-widodo-ar, source/wikipedia-joko-widodo-ur, source/wikidata-joko-widodo]
+relations:
+  - { type: born_in, target: place/surakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-joko-widodo] }
 faith:
   - value: unknown
     basis: unknown

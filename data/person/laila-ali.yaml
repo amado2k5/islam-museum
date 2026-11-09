@@ -25,6 +25,7 @@ born:
   note: "Born on 30 December 1977 in Miami Beach, Florida, the daughter of Muhammad Ali and Veronica Porché Ali. The date and place are given by the English, Arabic and Urdu articles and by Wikidata. Miami Beach has no place entity in the museum, so the birthplace is carried here only. The Hijri year 1398 is derived from the Gregorian date on the tabular calendar."
   sources: [source/wikipedia-laila-ali-en, source/wikipedia-laila-ali-ar, source/wikidata-laila-ali]
 relations:
+  - { type: born_in, target: place/miami-beach, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-laila-ali] }
   - { type: child_of, target: person/muhammad-ali, sources: [source/wikipedia-laila-ali-en, source/wikidata-laila-ali] }
 faith:
   - value: unknown

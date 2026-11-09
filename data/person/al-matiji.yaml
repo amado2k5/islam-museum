@@ -15,7 +15,8 @@ regions: [egypt-nile, maghreb]
 faith:
   - value: sunni-maliki
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/alexandria, note: "Place association from the person's nisba/name (iskandarani); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
 sources: [source/shadharat-dhahab]
 status:
   review: published

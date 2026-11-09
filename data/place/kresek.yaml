@@ -1,0 +1,21 @@
+id: place/kresek
+class: place
+kind: town
+label: { ar: "كريسيك", en: "Kresek" }
+summary:
+  ar: "بلدة كريسيك."
+  en: "Town (Kresek)."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [-6.1313888888889, 106.38]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q3174920; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3174920" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3174920 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

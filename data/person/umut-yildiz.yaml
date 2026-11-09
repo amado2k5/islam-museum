@@ -20,6 +20,8 @@ born:
   derived: false
   note: "Year only, and debated. Özyeğin University's press bulletin gives 1980 and calls him 35 years old, which together the record follows; some Turkish web biographies give 1982 instead. Wikidata (Q54303620) records no birth date. The Hijri pairing is omitted: a bare Gregorian year spans two Hijri years (1400–1401), so no single Hijri year can be stated."
   sources: [source/ozyegin-umut-yildiz]
+relations:
+  - { type: lived_in, target: place/ankara, sources: [source/wikidata-umut-yildiz, source/ozyegin-umut-yildiz, source/omu-umut-yildiz] }
 faith:
   - value: unknown
     basis: unknown

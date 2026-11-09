@@ -30,6 +30,7 @@ died:
   sources: [source/wikipedia-zehra-fyzee-en, source/wikidata-zehra-fyzee]
 relations:
   - { type: sibling_of, target: person/atiya-fyzee, sources: [source/wikipedia-zehra-fyzee-en, source/wikidata-zehra-fyzee] }
+  - { type: lived_in, target: place/mumbai, sources: [source/wikidata], confidence: low, note: "Raised at Mazagaon, Mumbai per the record text." }
 faith:
   - value: unknown
     basis: unknown

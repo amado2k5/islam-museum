@@ -20,6 +20,8 @@ born:
   derived: false
   note: "Date and place (Bondowoso, East Java) from the Indonesian Wikipedia article. No place record for Bondowoso exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-husein-jafar-al-hadar-id]
+relations:
+  - { type: born_in, target: place/java, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-husein-jafar-al-hadar-id] }
 faith:
   - value: unknown
     basis: unknown

@@ -29,3 +29,5 @@ occupations:
     status: historical
     note: "The ÂMİL entry says Umar sent Arfaja ibn Harthama to Mosul as amil of the land tax and of zakat. This record's label is Arfaja ibn Harthama al-Bariqi."
     sources: [source/tdv-amil]
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

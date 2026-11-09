@@ -11,6 +11,7 @@ periods: [period/pre-islamic-arabia]
 story_roles:
   - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
 relations:
+  - { type: lived_in, target: place/al-hijr, sources: [source/sahih-al-bukhari] }
   - { type: related_to, target: group/thamud, note: "نبيها في الرواية", sources: [source/sahih-al-bukhari] }
 provenance:
   layer: "own-research"

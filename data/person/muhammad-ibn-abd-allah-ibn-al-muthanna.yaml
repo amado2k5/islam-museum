@@ -12,6 +12,8 @@ wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Umayyad-era figure (regions: arabia); no specific town attested.", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q12240187
 provenance:

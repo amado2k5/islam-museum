@@ -1,0 +1,21 @@
+id: place/kurdistan
+class: place
+kind: region
+label: { ar: "مناطق سكن الأكراد", en: "Kurdistan", ur: "کردستان" }
+summary:
+  ar: "إقليم في العراق."
+  en: "Region in Iraq."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [37.558513, 43.54980469]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q41470" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q41470 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

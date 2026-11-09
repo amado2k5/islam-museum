@@ -33,6 +33,7 @@ died:
   note: "Died in exile in the Andaman Islands, where he had been imprisoned since October 1859. The English article gives 19 August 1861, citing Asir Adrawi's Tazkirah Mashaikh-e-Hind; the Arabic article and Wikidata give 20 August 1861. The record follows 19 August and marks the day debated. The Urdu article carries, from a single devotional website, a claim that he was hanged on 12 February 1861; no other source read supports it, and it is not followed. The Andaman Islands have no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-fazl-e-haq-khairabadi-en, source/wikipedia-fazl-e-haq-khairabadi-ar, source/wikipedia-fazl-e-haq-khairabadi-ur, source/wikidata-fazl-e-haq-khairabadi]
 relations:
+  - { type: born_in, target: place/awadh, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fazl-e-haq-khairabadi-en, source/wikipedia-fazl-e-haq-khairabadi-ar, source/wikipedia-fazl-e-haq-khairabadi-ur, source/wikidata-fazl-e-haq-khairabadi] }
   - { type: student_of, target: person/shah-abd-al-aziz-dihlawi, sources: [source/wikipedia-fazl-e-haq-khairabadi-en] }
 faith:
   - value: sunni-hanafi

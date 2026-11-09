@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: lived_in, target: place/shiraz, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q6397066)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5942093

@@ -14,3 +14,5 @@ provenance:
   run: lib-ibar-batch-4
 sources: [source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Of Hintata; with Ibn Tumart at Bougie, one of the Ten of the Almohad da'wa's first circle.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: medium }

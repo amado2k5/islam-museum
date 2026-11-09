@@ -14,3 +14,5 @@ regions: [arabia]
 provenance: { layer: own-research, source: "salabi-umayyad-state-2020 pp. 42-43", generated_by: "Claude (Haiku 5.5), extracted from salabi-umayyad-state-2020 pp. 42-43" }
 sources: [source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5), extracted from salabi-umayyad-state-2020 pp. 42-43" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Al-Ra'i al-Numayri, Umayyad-era Arabian poet (regions: arabia).", sources: [source/salabi-umayyad-state-2020] }

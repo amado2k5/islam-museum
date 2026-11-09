@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [east-africa]
 periods: [period/colonial-era]
+relations:
+  - { type: born_in, target: place/afgooye, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q383218)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7107062

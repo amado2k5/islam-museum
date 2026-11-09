@@ -14,6 +14,7 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
 relations:
+  - { type: died_in, target: place/hamadan, note: "From text: مات بنواحي همدان بين العيدين سنة ثم", sources: [source/shadharat-dhahab] }
   - { type: child_of, target: person/hulagu, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

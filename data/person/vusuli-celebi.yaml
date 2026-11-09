@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: lived_in, target: place/sawl, sources: [source/wikidata], confidence: low, note: "Nisba صولي attested in the record." }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q135518859

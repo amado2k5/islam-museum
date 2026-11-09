@@ -1,0 +1,21 @@
+id: place/bern
+class: place
+kind: city
+label: { ar: "برن", en: "Bern", ur: "برن" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q70)."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [46.94798, 7.44743]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q70" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q70 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

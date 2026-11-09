@@ -28,6 +28,8 @@ faith:
     note: "No source consulted names a religion or a school for her. The English, French and Arabic Wikipedia articles are all silent on her personal religion, and Wikidata (Q467094) carries no religion claim at all. Her Fulani descent, her Wassoulou upbringing and the traditional song repertoire she performs are background and work, not an attestation of a personal school. Under the two-source rule her faith is recorded as unknown."
     sources: [source/wikipedia-oumou-sangare-en, source/wikipedia-oumou-sangare-fr, source/wikipedia-oumou-sangare-ar, source/wikidata-oumou-sangare]
 external_ids: { wikidata: "Q467094" }
+relations:
+  - { type: born_in, target: place/bamako, sources: [source/wikidata-oumou-sangare], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3703)" }
 sources: [source/wikipedia-oumou-sangare-en, source/wikipedia-oumou-sangare-fr, source/wikipedia-oumou-sangare-ar, source/wikidata-oumou-sangare]
 provenance:
   layer: own-research

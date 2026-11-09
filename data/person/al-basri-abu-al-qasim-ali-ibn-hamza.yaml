@@ -28,3 +28,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch51
+relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: أقام ببغداد مدة", sources: [source/mawsuat-a3lam-ulama-adaba] }

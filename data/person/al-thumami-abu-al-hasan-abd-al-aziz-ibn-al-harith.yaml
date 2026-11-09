@@ -20,6 +20,8 @@ periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 story_roles:
   - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/iraq, note: "Hanbali scholar; regions field levant-iraq, flagged.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

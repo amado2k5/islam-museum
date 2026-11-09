@@ -25,3 +25,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, p. 845, entry 'SABRI PASHA' (queue seq 453, batch ei2-b019); the Ottoman writer Sabri (d. 1645) is a different person, in person/sabri"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/sabra, confidence: low, note: "Association inferred from the nisba 'صبري'; specific birthplace or residence is not individually documented.", sources: [source/encyclopaedia-of-islam-2] }

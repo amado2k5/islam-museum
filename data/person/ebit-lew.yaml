@@ -23,6 +23,8 @@ born:
   derived: true
   note: "Born Lew Yun Pau on 21 December 1984 in Muadzam Shah, Pahang, the third of eleven children: the English and Malay articles agree, the Malay infobox giving the date and place and the English article the same date with the full name Ebit Irawan bin Ibrahim Lew. The Hijri year 1405 is a tabular conversion of the recorded date, marked derived. No place record for Muadzam Shah or Pahang exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-ebit-lew-en, source/wikipedia-ebit-lew-ms]
+relations:
+  - { type: born_in, target: place/malay, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-ebit-lew-en, source/wikipedia-ebit-lew-ms] }
 faith:
   - value: unknown
     basis: unknown

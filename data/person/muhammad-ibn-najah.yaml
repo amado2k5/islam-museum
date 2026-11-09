@@ -10,6 +10,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: ruled_over, target: place/yemen, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q141260536

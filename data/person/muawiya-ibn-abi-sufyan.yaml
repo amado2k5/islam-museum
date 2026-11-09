@@ -52,6 +52,9 @@ inventions:
 - { invention: invention/muawiya-seal-copy-registry, role: commissioner, sources: [source/tarikh-khulafa-minhaj-1434, source/tdv-divan-duri] }
 - { invention: invention/barid, role: commissioner, sources: [source/subh-al-asha-cairo-v14, source/tarikh-khulafa-minhaj-1434, source/tdv-berid] }
 relations:
+- { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+- { type: died_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35484)" }
+- { type: buried_in, target: place/bab-al-saghir-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q96372940)" }
 - type: child_of
   target: person/abu-sufyan-ibn-harb
   sources:

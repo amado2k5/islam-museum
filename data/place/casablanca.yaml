@@ -1,0 +1,38 @@
+id: place/casablanca
+class: place
+kind: city
+label:
+  ar: الدار البيضاء
+  en: Casablanca
+  ur: دار البیضاء
+summary:
+  ar: أكبر مدن المغرب وميناؤها الرئيسي على الأطلسي.
+  en: Morocco's largest city and main Atlantic port.
+wings:
+- place
+regions:
+- maghreb
+coordinates:
+- 33.59917
+- -7.62
+coordinate_precision: locality
+coordinate_note: Wikidata Q7903 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q7903
+  geonames: '2553604'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q7903 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q7903 (labels, coordinates, description)

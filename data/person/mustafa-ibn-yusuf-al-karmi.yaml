@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/tulkarm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q985531)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q124963326

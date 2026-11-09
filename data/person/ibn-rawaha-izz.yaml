@@ -17,6 +17,7 @@ faith:
   - value: sunni-shafii
     basis: tradition
 relations:
+  - { type: lived_in, target: place/siqilliya, confidence: low, note: "Associated with Sicily per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
   - { type: student_of, target: person/al-silafi, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

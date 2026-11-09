@@ -30,6 +30,8 @@ born:
   derived: true
   note: "Born in Edison, New Jersey, on 18 October 1982, per the English Wikipedia article, which cites his own birthday post for the date; Wikidata Q6399529 carries no birth date. No place entity for Edison exists in data/place/, so no born_in edge is written. The Hijri year (1402) is derived by tabular conversion."
   sources: [source/wikipedia-khalid-latif-en]
+relations:
+  - { type: born_in, target: place/edison, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khalid-latif] }
 faith:
   - value: unknown
     basis: unknown

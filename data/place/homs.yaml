@@ -1,4 +1,5 @@
 id: place/homs
+aliases: [place/homs-2]
 class: place
 kind: city
 label: { ar: "حمص", en: "Hims (Emesa)" }
@@ -8,6 +9,10 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+coordinates: [34.733333333333, 36.716666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q131301; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q131301" }
 relations:
   - { type: part_of, target: place/damascus, note: "من أعمال الشام", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
@@ -15,7 +20,7 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 177–183"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-9
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 kids:
   ar: "حمص مدينة وسط الشام بين دمشق وحلب، عرفها التاريخ منذ القديم."

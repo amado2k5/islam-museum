@@ -12,6 +12,9 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1500", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/battle-of-zonchio, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/i-znik, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3555442

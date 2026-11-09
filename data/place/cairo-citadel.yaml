@@ -1,0 +1,21 @@
+id: place/cairo-citadel
+class: place
+kind: site
+label: { ar: "قلعة صلاح الدين الأيوبي", en: "Cairo Citadel", ur: "قلعہ صلاح الدین ایوبی" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Site (Wikidata Q1988240)."
+wings: [place]
+regions: [egypt-nile]
+coordinates: [30.0294, 31.2614]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1988240" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1988240 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

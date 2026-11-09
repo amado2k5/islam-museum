@@ -37,6 +37,11 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- type: lived_in
+  target: place/bukhara
+  note: "Place association from the person's nisba/name (bukhari); denotes association, not proven residence."
+  confidence: low
+  sources: [source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994]
 - type: member_of
   target: group/ansar
   sources:

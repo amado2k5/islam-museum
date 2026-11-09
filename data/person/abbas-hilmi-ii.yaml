@@ -29,3 +29,6 @@ provenance:
   generated_by: "Claude Code (claude-haiku-5-5)"
   run: ei2-b01
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+relations:
+  - { type: born_in, target: place/alexandria, note: "From text: وُلد في الإسكندرية سنة 1874م", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/istanbul, note: "From text: lived in Istanbul", sources: [source/encyclopaedia-of-islam-2] }

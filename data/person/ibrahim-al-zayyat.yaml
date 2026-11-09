@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 born: { edtf: "1378~", hijri: "0780", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد نحو 780 بالقاهرة {cite:shadharat-dhahab p. 299}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1458~", hijri: "0862", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي 862 {cite:shadharat-dhahab p. 300}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with Cairo per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 862)، قراءة آبل فيجن"

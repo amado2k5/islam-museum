@@ -13,6 +13,7 @@ roles: [reciter, teacher]
 wings: [people, living]
 regions: [south-asia]
 relations:
+  - { type: lived_in, target: place/pakistan, sources: [source/wikipedia-syed-sadaqat-ali-en, source/wikipedia-syed-sadaqat-ali-ar, source/wikipedia-syed-sadaqat-ali-ur, source/wikidata-syed-sadaqat-ali] }
   - { type: student_of, target: person/abdul-basit-abd-us-samad, note: "The English article states that one of his teachers was the renowned Abdul Basit 'Abd us-Samad (1927–1988) of Egypt, citing Arab News profiles of December 2013; the Arabic article, a translation of the English, repeats it with the teacher's dates. Sadaqat Ali is the student; Abdul Basit is the teacher.", sources: [source/wikipedia-syed-sadaqat-ali-en] }
 faith:
   - value: unknown

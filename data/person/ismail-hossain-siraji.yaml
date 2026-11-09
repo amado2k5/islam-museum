@@ -31,6 +31,8 @@ died:
   derived: true
   note: "Died on 17 July 1931 in the Bengal Presidency: the day is given by the English article; Banglapedia gives only the year 1931. He left a wife, five sons and two daughters (English article). No museum place entity exists for the place of death as the sources state it, so no died_in relation is written. The Hijri year (1350) is derived by tabular conversion (17 July 1931 falls in Rabi' al-Awwal 1350)."
   sources: [source/wikipedia-ismail-hossain-siraji-en, source/banglapedia-ismail-hossain-siraji]
+relations:
+  - { type: lived_in, target: place/india, confidence: low, note: "Associated with الهند per the record's own text; relation type pending review.", sources: [source/wikipedia-ismail-hossain-siraji-en] }
 faith:
   - value: unknown
     basis: unknown

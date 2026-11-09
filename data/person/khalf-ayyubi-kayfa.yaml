@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [anatolia-balkans]
 died: { edtf: "1462~", hijri: "0866", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي 866 {cite:shadharat-dhahab p. 307}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 866)، قراءة آبل فيجن"

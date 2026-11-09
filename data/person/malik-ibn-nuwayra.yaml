@@ -20,6 +20,7 @@ periods:
 regions:
 - arabia
 relations:
+  - { type: lived_in, target: place/yemen, confidence: low, note: "Chief of Banu Hanzala and the Prophet's zakah agent per the record's own summary; precise locality pending review.", sources: [source/wikidata] }
   - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: "على صدقات بني حنظلة؛ قال ابن هشام: اليربوعي", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/killing-of-malik-ibn-nuwayra, sources: [source/futuh-buldan-maarif-1407] }
 provenance:

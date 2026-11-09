@@ -33,6 +33,8 @@ died:
   sources: [source/wikipedia-cheikh-yacouba-sylla-fr, source/wikipedia-yacouba-sylla-de, source/wikidata-yacouba-sylla, source/wikidata-cheikh-yacouba-sylla]
 relations:
   - { type: student_of, target: person/cheikh-hamallah, sources: [source/wikipedia-yacouba-sylla-de, source/wikipedia-hamahullah-en] }
+
+  - { type: lived_in, target: place/hama, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-cheikh-yacouba-sylla-fr, source/wikipedia-yacouba-sylla-de, source/wikipedia-hamahullah-en, source/wikidata-yacouba-sylla] }
 faith:
   - value: sufi
     basis: documented

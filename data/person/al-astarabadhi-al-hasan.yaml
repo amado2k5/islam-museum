@@ -21,3 +21,5 @@ external_ids: { wikidata: "Q5727970" }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 3, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 544, lib-mawsuat-a3lam; EI2 sections added by Claude Code (claude-haiku-5-5)" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص544; Encyclopaedia of Islam, 2nd ed., vol. 1, PDF p. 770, entry AL-ASTARABADHI, RUKN AL-DIN AL-HASAN B. MUHAMMAD B. SHARAFSHAH AL-ALAWI (signed A. J. Mango) (EI2 entry, batch ei2-b013 part 42, seq 403)", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+relations:
+  - { type: lived_in, target: place/astarabadh, note: "Place association from the person's nisba/name (astarabadhi); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2], confidence: low }

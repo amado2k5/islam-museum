@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q12188059
 provenance:
@@ -23,3 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+relations:
+  - { type: died_in, target: place/ray, note: "Wikidata Q636188 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/kufa, note: "Wikidata Q186234 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/ray, note: "Wikidata Q636188 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }

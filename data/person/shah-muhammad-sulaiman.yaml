@@ -40,8 +40,9 @@ faith:
     note: "No consulted source names a school for him. The English and Urdu article texts name no religion at all; Wikidata gives his religion only as Islam generically (the item for Islam, Q432), a single structured value naming no school; and the English article's filing categories ('19th-century Indian Muslims' and the like) are categories, not attestations. His descent from a family of lawyers and scholars of Jaunpur is family background and never counts. One generic structured value plus filings is not two independent sources naming a school, so the segment stays unknown."
     sources: [source/wikipedia-shah-muhammad-sulaiman-en, source/wikipedia-shah-muhammad-sulaiman-ur, source/wikidata-shah-muhammad-sulaiman]
 relations:
-  - { type: buried_in, target: place/delhi, sources: [source/wikipedia-shah-muhammad-sulaiman-en] }
   - { type: successor_of, target: person/ziauddin-ahmad, sources: [source/wikipedia-ziauddin-ahmad-en, source/wikipedia-shah-muhammad-sulaiman-en] }
+  - { type: buried_in, target: place/delhi, sources: [source/wikipedia-shah-muhammad-sulaiman-en] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-shah-muhammad-sulaiman-en, source/wikipedia-shah-muhammad-sulaiman-ur, source/wikidata-shah-muhammad-sulaiman] }
 sources: [source/wikipedia-shah-muhammad-sulaiman-en, source/wikipedia-shah-muhammad-sulaiman-ur, source/wikidata-shah-muhammad-sulaiman]
 provenance:
   layer: own-research

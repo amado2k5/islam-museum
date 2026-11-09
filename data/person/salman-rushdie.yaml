@@ -28,6 +28,10 @@ faith:
     note: "Recorded on his own repeated first-person statements in independent places, meeting the lane's bar for documented unbelief. (1) Far Eastern Economic Review, 2 March 1989: 'My point of view is that of a secular human being. I do not believe in supernatural entities, whether Christian, Jewish, Muslim or Hindu.' (2) PBS, Bill Moyers on Faith & Reason, 23 June 2006: he called himself a 'hardline atheist'; the English article's religious-background section likewise states plainly that he is an atheist, and his 2006 Point of Inquiry interview sets out the same secular position. The counter-episode is preserved: on 15 December 1990, under the fatwa, he issued a statement reaffirming his Muslim faith — a statement he said by 1992 he regretted and had not written the language of; his later statements (2006) postdate and supersede it. He came from a liberal Muslim family, which is family background, not an attestation. Labels applied by opponents during the fatwa controversy are not attestations either way, and the Arabic article's 'atheism' portal is an editorial filing. Wikidata carries no religion claim."
     sources: [source/wikipedia-salman-rushdie-en, source/wikipedia-salman-rushdie-ar, source/wikidata-salman-rushdie]
 external_ids: { wikidata: "Q44306" }
+relations:
+  - { type: born_in, target: place/mumbai, sources: [source/wikidata-salman-rushdie], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1156)" }
+  - { type: lived_in, target: place/cambridge, sources: [source/wikidata-salman-rushdie], confidence: low, note: "Wikidata P937 work location (Wikidata Q350)" }
+  - { type: lived_in, target: place/new-york-city, sources: [source/wikidata-salman-rushdie], confidence: low, note: "Wikidata P937 work location (Wikidata Q60)" }
 sources: [source/wikipedia-salman-rushdie-en, source/wikipedia-salman-rushdie-ar, source/wikipedia-salman-rushdie-ur, source/wikidata-salman-rushdie]
 provenance:
   layer: own-research

@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
+relations:
+  - { type: born_in, target: place/jawzjan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q183036)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q16118794

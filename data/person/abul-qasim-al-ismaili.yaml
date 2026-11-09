@@ -19,3 +19,6 @@ died:
   calendar: julian
 sources: [source/tabaqat-shafiiyya-subki]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: died_in, target: place/jurjan, note: "From text: توفي بجرجان سنة 477 {cite:tabaqat-sh", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: lived_in, target: place/nishapur, note: "From text: taught at Nishapur", sources: [source/tabaqat-shafiiyya-subki] }

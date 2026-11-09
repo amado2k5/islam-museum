@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q48195)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12246247

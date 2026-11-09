@@ -14,3 +14,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-32
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (العراقي); denotes association, not proven residence.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }

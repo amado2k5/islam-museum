@@ -29,12 +29,14 @@ died:
 roles: [official, folklorist, editor]
 regions: [anatolia-balkans]
 wings: [people]
+relations:
+  - { type: born_in, target: place/vienna, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-kosta-hormann-en, source/wikipedia-kosta-hormann-hr, source/wikidata-kosta-hormann] }
+  - { type: died_in, target: place/vienna, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-kosta-hormann-en, source/wikipedia-kosta-hormann-hr, source/wikidata-kosta-hormann] }
 faith:
   - value: unknown
     basis: unknown
     note: "No source read names a religion for the man himself: the two biographies and the Wikidata item (which carries no religion value at all) are silent. The queue's '(Muslim Associates)' tag reflects his life's work of collecting and publishing Bosnian Muslim oral poetry — his scholarship, not his faith — and his Bavarian settler family background is background, which never counts; neither does his burial in Vienna's municipal Zentralfriedhof. Absence configuration."
     sources: [source/wikipedia-kosta-hormann-en, source/wikipedia-kosta-hormann-hr, source/wikidata-kosta-hormann]
-relations: []
 summary:
   ar: "موظّف في الإدارة النمساوية المجرية من أصل بافاري، وهو المؤسّس والمدير الأول للمتحف الوطني للبوسنة والهرسك في سراييفو؛ جمع ونشر مجموعة مبكرة كبرى من الشعر الشفهي لمسلمي البوسنة في جزأين (1888–1889)، وأسّس مجلة المتحف وحرّرها وأطلق مجلة «ندا» الأدبية."
   en: "Austro-Hungarian official of Bavarian descent and founding director of the National Museum of Bosnia and Herzegovina in Sarajevo. He compiled and published an early major collection of Bosnian Muslim oral poetry in two volumes (1888–89), founded and edited the museum journal Glasnik and launched the literary magazine Nada."

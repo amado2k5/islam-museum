@@ -1,0 +1,20 @@
+id: place/ukraine
+class: place
+kind: region
+label: { ar: "أوكرانيا", en: "Ukraine" }
+summary:
+  ar: "دولة في شرق أوروبا، في شبه جزيرة القرم تاريخ إسلامي."
+  en: "East European state; Crimea holds an Islamic past."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [49.0, 32.0]
+coordinate_precision: approx
+coordinate_note: "Identified location / approximate regional centre; flagged for gazetteer verification."
+external_ids: { wikidata: "Q212" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Country/region entity so persons substantiated only at country level resolve on the map."

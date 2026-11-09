@@ -14,3 +14,5 @@ provenance:
   run: lib-ansab-batch-7
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/najd, note: "Murri tribesman of the ayyam al-arab episodes in Najd (Rahrahan); region-level edge.", sources: [source/ansab-al-ashraf], confidence: low }

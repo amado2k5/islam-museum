@@ -1,0 +1,21 @@
+id: place/uch
+class: place
+kind: town
+label: { ar: "أوتش", en: "Uch", ur: "اچ" }
+summary:
+  ar: "بلدة في باكستان."
+  en: "Town in Pakistan."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [29.239444444444445, 71.06111111111112]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q532244" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q532244 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

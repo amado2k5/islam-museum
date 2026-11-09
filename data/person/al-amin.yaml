@@ -13,7 +13,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2, source/tarikh-khalifa-umari-1985]
+sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2, source/tarikh-khalifa-umari-1985, source/wikidata]
 external_ids:
   wikidata: Q293495
 provenance:
@@ -25,3 +25,7 @@ provenance:
 status:
   review: published
   completeness: 2
+relations:
+  - { type: born_in, target: place/al-rusafa, note: "Wikidata Q2271341 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/baghdad, note: "Court/dynasty seat inferred from dynastic affiliation in record; flagged for review.", sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2, source/tarikh-khalifa-umari-1985], confidence: low }

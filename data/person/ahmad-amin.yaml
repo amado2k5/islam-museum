@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/modern-era]
 regions: [egypt-nile]
 relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969], confidence: low }
   - { type: authored, target: work/duha-al-islam, sources: [source/duha-islam] }
   - { type: authored, target: work/fajr-al-islam, sources: [source/fajr-al-islam-dar-al-kitab-al-arabi-1969] }
 sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969]

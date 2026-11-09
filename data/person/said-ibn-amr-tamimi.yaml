@@ -21,9 +21,10 @@ faith:
 relations:
   - { type: sibling_of, target: person/bishr-ibn-al-harith-sahmi, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-tamim, sources: [source/ibn-hisham-saqqa] }
-  - { type: died_in, target: place/ajnadayn, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/ajnadayn, sources: [source/ibn-hisham-saqqa] }
+  - { type: lived_in, target: place/abyssinia, sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8"

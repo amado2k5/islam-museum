@@ -26,6 +26,8 @@ faith:
     note: "No source names a school for him. The English article calls him 'a practicing Muslim' who 'has spoken candidly about negative stereotyping of Muslims' — practice and advocacy, which under the counting rule are not a school attestation. Wikidata gives his religion as Islam (Q432) generically. His public statements on his faith and on Muslim representation are carried attributed in the prose as his stance, not as a segment."
     sources: [source/wikipedia-riz-ahmed-en, source/wikidata-riz-ahmed]
 external_ids: { wikidata: "Q1861917" }
+relations:
+  - { type: born_in, target: place/wembley, sources: [source/wikidata-riz-ahmed], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q146858)" }
 sources: [source/wikipedia-riz-ahmed-en, source/wikipedia-riz-ahmed-ar, source/wikipedia-riz-ahmed-ur, source/wikidata-riz-ahmed]
 provenance:
   layer: own-research

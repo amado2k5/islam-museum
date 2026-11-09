@@ -20,6 +20,8 @@ died:
   status: historical
   derived: false
   note: "EI gives 'd. after 105/724'; the year is a lower bound."
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

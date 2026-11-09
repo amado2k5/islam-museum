@@ -25,7 +25,8 @@ died:
   status: historical
   note: "His death was recorded in 1773 in the minutes of the Spalding Gentlemen's Society, of which he had been made a member in London; the English article reports it on Allan D. Austin's African Muslims in Antebellum America (1997), p. 61. He died in his homeland, having returned in 1734; no place entity exists for Bundu, so no died_in edge is written."
   sources: [source/wikipedia-ayuba-suleiman-diallo-en]
-relations: []
+relations:
+  - { type: lived_in, target: place/bilad-al-sudan, note: "Only the record-level region (west-africa-sahel) is attested; broad-region edge flagged for review.", sources: [source/wikipedia-ayuba-suleiman-diallo-en, source/bluett-memoirs-job-1734], confidence: low }
 faith:
   - value: unknown
     basis: unknown

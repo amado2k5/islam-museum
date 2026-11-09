@@ -10,6 +10,7 @@ gender: male
 roles: [ruler]
 traditions: [other]
 relations:
+- { type: lived_in, target: place/khwarizm, confidence: low, note: "Associated with خوارزم per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: fought
   target: person/genghis-khan
   sources:

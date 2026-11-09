@@ -33,6 +33,11 @@ died:
   derived: true
   note: "Died at Nicosia, Cyprus, on 14 November 1913, the reading of both articles and of Wikidata's day-precision value. Wikidata also carries two unreferenced death values — the year 1912 and 24 January 1913 — and a stray Istanbul place of death; none is followed. The Hijri year 1331 is the derived conversion of 1913."
   sources: [source/wikipedia-kamil-pasha-en, source/wikipedia-kamil-pasha-tr, source/wikidata-kamil-pasha]
+relations:
+  - { type: born_in, target: place/nicosia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamil-pasha] }
+  - { type: died_in, target: place/nicosia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamil-pasha] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamil-pasha] }
+  - { type: buried_in, target: building/arabahmet-mosque-nicosia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamil-pasha] }
 faith:
   - value: unknown
     basis: unknown

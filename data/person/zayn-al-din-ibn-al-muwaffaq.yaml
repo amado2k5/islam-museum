@@ -12,6 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Ayyubid/Mamluk-era figure of the Anatolian milieu (regions: anatolia-balkans).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q136413035
 provenance:

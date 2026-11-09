@@ -17,6 +17,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: lived_in, target: place/tabuk, note: "From text: of the Tabuk", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-ghifar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/abu-ruhm-and-the-stragglers-of-ghifar-and-aslam, role: narrator, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }

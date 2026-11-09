@@ -19,6 +19,8 @@ born:
   derived: false
   note: "Date and place (Adilihur, Jabung, East Lampung) from the English Wikipedia article. No place record for Lampung exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-miftah-maulana-habiburrahman-en]
+relations:
+  - { type: lived_in, target: place/jakarta, confidence: low, note: "Indonesian preacher based in Jakarta per the record's own text.", sources: [source/wikipedia-miftah-maulana-habiburrahman-en] }
 faith:
   - value: unknown
     basis: unknown

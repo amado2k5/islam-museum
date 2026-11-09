@@ -1,0 +1,21 @@
+id: place/essouk
+class: place
+kind: town
+label: { ar: "السوق", en: "Essouk" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q2008646)."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [18.766667, 1.183333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2008646" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2008646 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

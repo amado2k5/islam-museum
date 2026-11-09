@@ -1,0 +1,21 @@
+id: place/turangzai
+class: place
+kind: town
+label: { ar: "تورنگزي", en: "Turangzai" }
+summary:
+  ar: "بلدة تورنگزي."
+  en: "Town (Turangzai)."
+wings: [place]
+regions: [south-asia]
+coordinates: [34.216666666667, 71.75]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q7853708; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q7853708" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7853708 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -26,6 +26,7 @@ story_roles:
   - { role: jurist, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
   - { role: preacher, status: tradition, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
 relations:
+  - { type: buried_in, target: place/bab-al-saghir-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/ibn-taymiyya, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }

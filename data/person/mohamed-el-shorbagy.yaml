@@ -23,6 +23,7 @@ born:
   note: "Born 12 January 1991 in Alexandria (the English article's infobox and the Arabic and Urdu articles give Alexandria; Wikidata agrees). The Hijri year 1411 is the tabular conversion of 12 January 1991 and is marked derived."
   sources: [source/wikipedia-mohamed-el-shorbagy-en, source/wikipedia-mohamed-el-shorbagy-ar, source/wikipedia-mohamed-el-shorbagy-ur, source/wikidata-mohamed-el-shorbagy]
 relations:
+  - { type: lived_in, target: place/bristol, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-el-shorbagy] }
   - { type: born_in, target: place/alexandria, sources: [source/wikipedia-mohamed-el-shorbagy-en, source/wikipedia-mohamed-el-shorbagy-ar, source/wikidata-mohamed-el-shorbagy] }
 faith:
   - value: unknown

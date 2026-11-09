@@ -1,17 +1,26 @@
 id: person/sari-al-raffa
 class: person
-label: { ar: "السري الرفا", en: "Sari Al Raffa" }
+label:
+  ar: السري الرفا
+  en: Sari Al Raffa
 summary:
-  ar: "السري الرفا الشاعر كان جارا لأبي الحسن علي بن عيسى الرماني بسوق العطش وكان كثيرا ما يجتاز به وهو جالس على باب داره فيستجلسه ويحادثه، وكان سري يتشيع فلما طال ذلك على الرماني أنشد قصيدته في حب الوصي {cite:fihrist-ibn-al-nadim p. 530}."
-  en: "Al-Sari al-Raffa — the Shi'i poet of Suq al-Atash {cite:fihrist-ibn-al-nadim}"
-wings: [people]
-sources: [source/fihrist-ibn-al-nadim]
+  ar: السري الرفا الشاعر كان جارا لأبي الحسن علي بن عيسى الرماني بسوق العطش وكان كثيرا ما يجتاز به وهو جالس على باب داره فيستجلسه ويحادثه، وكان سري يتشيع فلما طال ذلك على الرماني أنشد قصيدته في حب الوصي {cite:fihrist-ibn-al-nadim p. 530}.
+  en: Al-Sari al-Raffa — the Shi'i poet of Suq al-Atash {cite:fihrist-ibn-al-nadim}
+wings:
+- people
+sources:
+- source/fihrist-ibn-al-nadim
 status:
   review: published
   completeness: 3
 provenance:
   layer: own-research
-  source: "ابن ندیم، الفہرست"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
+  source: ابن ندیم، الفہرست
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
   run: prose-fill-persons-batch18
+relations:
+- type: lived_in
+  target: place/baghdad
+  sources:
+  - source/fihrist-ibn-al-nadim

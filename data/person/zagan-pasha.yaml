@@ -15,6 +15,7 @@ regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 relations:
   - { type: participated_in, target: event/conquest-constantinople-857, role: "قائد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: died_in, target: place/bal-kesir, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q199723)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2353735

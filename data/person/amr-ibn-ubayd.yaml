@@ -15,7 +15,10 @@ provenance:
   run: prose-fill-persons-batch36
   mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 273–280 (entry 6404)"
 external_ids: { wikidata: "Q1048593" }
-sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/mizan-itidal-bijawi-v3]
+sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/mizan-itidal-bijawi-v3, source/wikidata]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: born_in, target: place/balkh, note: "Wikidata Q182159 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -17,6 +17,8 @@ regions:
 - arabia
 periods:
 - period/prophetic-era
+relations:
+  - { type: lived_in, target: place/medina, confidence: low, note: "Companion renamed by the Prophet per the record's own summary; residence pending review.", sources: [source/wikidata] }
 sources:
 - source/fiqh-mawsua-kuwaitiyya-noor-v3
 provenance:

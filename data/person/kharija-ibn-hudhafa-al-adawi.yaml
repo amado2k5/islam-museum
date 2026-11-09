@@ -8,6 +8,7 @@ summary:
 wings: [people]
 periods: [period/rashidun]
 relations:
+  - { type: lived_in, target: place/az-zubayr, confidence: low, note: "Associated with الزبير per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-egypt, role: "في جيش الزبير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/four-lieutenants-egypt, role: "موجّه الفيوم والصعيد", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

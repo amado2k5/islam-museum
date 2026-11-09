@@ -19,3 +19,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 315-316, article 'Ahmad Rasim' signed W. Bjorkman (EI2 enrichment, batch ei2-b003 part 3cl)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: born_in, target: place/istanbul, note: "From text: ولد في سارغوزل بالفاتح في إسطنبول سنة", sources: [source/encyclopaedia-of-islam-2] }

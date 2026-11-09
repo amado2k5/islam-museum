@@ -1,0 +1,14 @@
+id: place/ray
+class: place
+kind: town
+label: { ar: "مدينة الري", en: "Ray" }
+summary: { ar: "مدينة الري.", en: "Ray; a place linked to persons via Wikidata claims." }
+wings: [place]
+regions: [global]
+coordinates: [35.5975, 51.4344]
+coordinate_precision: locality
+coordinate_note: "Wikidata Q636188."
+external_ids: { wikidata: "Q636188" }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1 }
+provenance: { layer: own-research, generated_by: "Devin", run: "person-place-geo-a" }

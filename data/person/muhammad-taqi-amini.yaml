@@ -32,6 +32,8 @@ died:
   sources: [source/wikipedia-muhammad-taqi-amini-en, source/wikipedia-muhammad-taqi-amini-ur, source/wikidata-muhammad-taqi-amini]
 relations:
   - { type: student_of, target: person/kifayatullah-dehlvi, sources: [source/wikipedia-muhammad-taqi-amini-en, source/wikipedia-muhammad-taqi-amini-ur] }
+  - { type: born_in, target: place/barabanki, sources: [source/wikidata-muhammad-taqi-amini], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3780142)" }
+  - { type: died_in, target: place/aligarh, sources: [source/wikidata-muhammad-taqi-amini], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q201832)" }
 faith:
   - value: sunni
     basis: documented

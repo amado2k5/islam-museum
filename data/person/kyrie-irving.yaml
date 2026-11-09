@@ -20,6 +20,9 @@ born:
 roles: [basketball player]
 regions: [americas-oceania]
 wings: [people, living]
+relations:
+  - { type: born_in, target: place/melbourne, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kyrie-irving] }
+  - { type: lived_in, target: place/dallas, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kyrie-irving] }
 faith:
   - value: unknown
     basis: unknown

@@ -22,6 +22,8 @@ died:
   derived: true
   note: "Died 13 November 1896, the date given by the leads and bodies of both articles and by Wikidata: his army was destroyed by French artillery on the plain of Porédaka that day; he escaped the battle, was soon captured by soldiers of his enemy Sori Illili and decapitated, and his son died with him (Barry 1998; Roche 2011, as cited in both articles). The French article's infobox alone gives 18 November 1896 at Botôre, contradicting its own lead and body; that variant is recorded here and not followed. Porédaka has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion. No birth date is recorded: both articles leave his birth year unknown (the English article's category is 'Year of birth unknown'), the queue's 1850 is attested by no source read, and Wikidata's birth value, the year 1900, postdates his death and is an error."
   sources: [source/wikipedia-bokar-biro-en, source/wikipedia-bokar-biro-fr, source/wikidata-bokar-biro]
+relations:
+  - { type: lived_in, target: place/guinea, confidence: low, note: "Associated with غينيا per the record's own summary text; relation type pending review.", sources: [source/wikipedia-bokar-biro-en] }
 faith:
   - value: unknown
     basis: unknown

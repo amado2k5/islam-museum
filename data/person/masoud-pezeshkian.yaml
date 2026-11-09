@@ -23,6 +23,8 @@ born:
   derived: true
   note: "Born at Mahabad in West Azerbaijan province on 29 September 1954; the English and Urdu articles and Wikidata agree. The Hijri year is derived by tabular conversion from the Gregorian date."
   sources: [source/wikipedia-pezeshkian-en, source/wikipedia-pezeshkian-ur, source/wikidata-pezeshkian]
+relations:
+  - { type: born_in, target: place/mahabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

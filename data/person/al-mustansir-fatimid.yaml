@@ -13,5 +13,9 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-38
 external_ids: { wikidata: "Q284619" }
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: born_in, target: place/cairo, note: "Wikidata Q85 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/misr, note: "Wikidata Q79 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/fatimid-caliphate, note: "Wikidata Q160307 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

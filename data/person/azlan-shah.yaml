@@ -33,6 +33,10 @@ died:
   derived: true
   note: "Died on 28 May 2014 at the National Heart Institute, Kuala Lumpur, aged 86, and was buried the next day beside Sultan Idris Shah at the Al-Ghufran Royal Mausoleum, Kuala Kangsar, as the English article and Wikidata give. The Hijri year (1435) is by tabular conversion. Kuala Lumpur and Kuala Kangsar have no place entities, so no died_in or buried_in relation is written."
   sources: [source/wikipedia-azlan-shah-en, source/wikidata-azlan-shah]
+relations:
+  - { type: born_in, target: place/batu-gajah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-azlan-shah] }
+  - { type: died_in, target: place/kuala-lumpur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-azlan-shah] }
+  - { type: buried_in, target: building/al-ghufran-royal-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-azlan-shah] }
 faith:
   - value: unknown
     basis: unknown

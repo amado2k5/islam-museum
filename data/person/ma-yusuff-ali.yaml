@@ -28,6 +28,8 @@ born:
   note: "The English article's early-life text and infobox and Wikidata agree on 15 November 1955, born at Nattika in Thrissur district, Kerala. No place entity for Nattika or Thrissur exists on main, so no birthplace is recorded in this block. The date falls within the Hijri year 1375, which is given as the tabular conversion, marked derived."
   sources: [source/wikipedia-ma-yusuff-ali-en, source/wikipedia-ma-yusuff-ali-ar, source/wikidata-ma-yusuff-ali]
 
+relations:
+  - { type: born_in, target: place/thrissur, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-ma-yusuff-ali-en, source/wikipedia-ma-yusuff-ali-ar, source/wikidata-ma-yusuff-ali] }
 faith:
   - value: unknown
     basis: unknown

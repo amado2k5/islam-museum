@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [andalus-europe]
 relations:
+  - { type: lived_in, target: place/seville, note: "From text: أهل إشبيلية ثم عامل كورة رية ", sources: [source/nafh-tib-maqqari, source/tarikh-khulafa-minhaj-1434], confidence: low }
   - { type: participated_in, target: event/abd-al-rahman-enters-andalus, role: "الداخل", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

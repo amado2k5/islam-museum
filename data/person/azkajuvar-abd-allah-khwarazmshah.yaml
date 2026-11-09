@@ -13,6 +13,7 @@ roles: [ruler]
 periods: [period/abbasid-early]
 floruit: { edtf: "0762/0828", calendar: julian, precision: decade, status: debated, note: "Coins dated by Ismoilov from after 762 to the governorship of Talha ibn Tahir (205–213 AH) {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 40} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 54}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
 relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025], confidence: low }
   - { type: ruler_of, target: polity/afrighid-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
 sources: [source/ismoilov-xorazmshohlar-tangalari-2025]
 provenance:

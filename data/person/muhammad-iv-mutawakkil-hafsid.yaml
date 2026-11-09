@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+relations:
+- { type: ruled_over, target: place/ifriqiya, sources: [source/wikidata], confidence: low, note: "Wikidata P39 office held (ifriqiya)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q11903874

@@ -14,6 +14,8 @@ periods: [period/gunpowder-empires]
 regions: [maghreb, anatolia-balkans]
 relations:
   - { type: sibling_of, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: born_in, target: place/mytilene, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q189059)" }
+  - { type: died_in, target: place/tlemcen, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q185134)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 aliases: [person/oruc-reis]
 external_ids: { wikidata: "Q470634" }

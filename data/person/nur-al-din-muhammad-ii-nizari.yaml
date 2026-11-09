@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1210", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/alamut, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4706020)" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q404174

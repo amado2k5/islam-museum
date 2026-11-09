@@ -9,6 +9,8 @@ gender: male
 died: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "استشهد بعين التمر سنة 12 (البلاذري ص 347). التحويل مشتق." }
 relations:
   - { type: participated_in, target: event/siege-of-ayn-al-tamr, role: "الشهيد بالسهم", sources: [source/futuh-buldan-maarif-1407] }
+
+  - { type: lived_in, target: place/ayn-al-tamr, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 347"

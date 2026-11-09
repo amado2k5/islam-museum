@@ -13,6 +13,10 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch31
+relations:
+  - { type: ruler_of, target: place/farghana, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "610}، ومات سنة أربع وثلاثين وهو محمد بن طغج الفرغاني والإخشيد معناه ملك الملوك وهو لقب لكل من ملك فرغانة كما أ" }
+  - { type: ruler_of, target: place/jurjan, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "610}، ومات سنة أربع وثلاثين وهو محمد بن طغج الفرغاني والإخشيد معناه ملك الملوك وهو لقب لكل من ملك فرغانة كما أ" }
+  - { type: ruler_of, target: place/samarqand, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "610}، ومات سنة أربع وثلاثين وهو محمد بن طغج الفرغاني والإخشيد معناه ملك الملوك وهو لقب لكل من ملك فرغانة كما أ" }
 sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 status:
   review: published

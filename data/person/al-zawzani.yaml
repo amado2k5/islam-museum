@@ -16,6 +16,7 @@ born: { edtf: "0977~", hijri: "0366", calendar: julian, precision: year, status:
 died: { edtf: "1059-08", hijri: "0451-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان ٤٥١؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.8 p.555}." }
 roles: [scholar]
 relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: of Baghdad", sources: [source/muntazam-ibn-al-jawzi], confidence: low }
   - { type: student_of, target: person/al-sulami, role: "روى عنه", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

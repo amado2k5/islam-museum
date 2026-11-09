@@ -24,6 +24,9 @@ born:
   sources: [source/wikipedia-mahmoud-abdul-rauf-en, source/wikipedia-mahmoud-abdul-rauf-ar, source/wikidata-mahmoud-abdul-rauf]
 gender: male
 roles: [athlete]
+relations:
+  - { type: born_in, target: place/gulfport, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-abdul-rauf] }
+  - { type: lived_in, target: place/gulfport, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-abdul-rauf] }
 faith:
   - value: unknown
     basis: unknown

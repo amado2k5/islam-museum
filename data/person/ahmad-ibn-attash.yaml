@@ -16,6 +16,8 @@ died:
   derived: true
   note: "قتله السلطان محمد بن ملكشاه في قلعة الباطنية بأصبهان سنة 500 {cite:shadharat-dhahab p. 410}؛ التحويل مشتق."
 relations:
+  - { type: lived_in, target: place/isfahan, note: "Master of the Batiniyya fortress at Isfahan for twelve years until stormed and killed in 500.", sources: [source/shadharat-dhahab], confidence: medium }
+  - { type: died_in, target: place/isfahan, note: "Killed when Sultan Muhammad ibn Malikshah took the Isfahan fortress in 500.", sources: [source/shadharat-dhahab], confidence: medium }
   - { type: participated_in, target: event/muhammad-tapar-batiniyya-fort-500, role: "صاحب القلعة قُتل", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

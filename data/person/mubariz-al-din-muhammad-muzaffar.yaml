@@ -11,6 +11,10 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
+relations:
+  - { type: ruler_of, target: place/shiraz, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'مبارز الدين محمد بن المظفر اليزدي، مؤسس ملك بني المظفر الحقيقي؛ تغلب على كرمان ونواحيها ثم طمع في فارس، ف" }
+  - { type: ruled_over, target: place/kirman, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'مبارز الدين محمد بن المظفر اليزدي، مؤسس ملك بني المظفر الحقيقي؛ تغلب على كرمان ونواحيها ثم طمع في فارس، ف" }
+  - { type: ruled_over, target: place/isfahan, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "en: 'Mubariz al-Din Muhammad ibn al-Muzaffar al-Yazdi, the true founder of Muzaffarid kingship; he took Kirman" }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

@@ -1,0 +1,21 @@
+id: place/pazardzhik
+class: place
+kind: site
+label: { ar: "مقاطعة بزارجق", en: "Pazardzhik", ur: "پازارجیک صوبہ" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Site (Wikidata Q2012227)."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [42.083333333333, 24.25]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2012227" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2012227 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -15,3 +15,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch17
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Kalam theologian listed by Ibn al-Nadim among the crypto-dualists; the milieu was Baghdad. Inferred.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

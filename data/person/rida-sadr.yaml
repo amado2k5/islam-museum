@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/mashhad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q121157)" }
+  - { type: died_in, target: place/qumm, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q170573)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6408645

@@ -42,3 +42,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: wave-186-writer-a
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/timbuktu, note: "From text: from Timbuktu", sources: [source/wikipedia-abd-al-qadir-dan-tafa-en, source/wikipedia-abd-al-qadir-dan-tafa-ar, source/wikipedia-abd-al-qadir-dan-tafa-ur, source/wikidata-abd-al-qadir-dan-tafa], confidence: low }

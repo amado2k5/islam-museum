@@ -1,0 +1,21 @@
+id: place/achalpur
+class: place
+kind: town
+label: { ar: "أجلبور", en: "Achalpur", ur: "اچلپور" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q490886)."
+wings: [place]
+regions: [south-asia]
+coordinates: [21.257222222222, 77.508611111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q490886" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q490886 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

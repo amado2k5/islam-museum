@@ -20,6 +20,9 @@ born:
   derived: true
   note: "Gregorian date and Sildi birthplace from English Wikipedia and Wikidata Q3526023. Sildi has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1409) is derived by tabular conversion."
   sources: [source/wikipedia-khabib-nurmagomedov-en, source/wikidata-khabib-nurmagomedov]
+relations:
+  - { type: born_in, target: place/sildi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khabib-nurmagomedov] }
+  - { type: lived_in, target: place/makhachkala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khabib-nurmagomedov] }
 faith:
   - value: sunni
     basis: documented

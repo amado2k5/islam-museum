@@ -26,3 +26,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch63
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Of the family of Ibn al-Ash'ath, Umayyad-era Iraq (regions: levant-iraq).", sources: [source/mawsuat-a3lam-ulama-adaba] }

@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born on 31 March 1983 in Durban, Natal Province, South Africa, per the English, Arabic and Urdu Wikipedia articles and Wikidata. No place entity for Durban exists in data/place/, so no born_in relation is written. The Hijri year (1403) is derived by tabular conversion."
   sources: [source/wikipedia-hashim-amla-en, source/wikipedia-hashim-amla-ar, source/wikipedia-hashim-amla-ur, source/wikidata-hashim-amla]
+relations:
+  - { type: born_in, target: place/durban, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hashim-amla] }
 faith:
   - value: unknown
     basis: unknown

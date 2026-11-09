@@ -32,6 +32,7 @@ died:
   note: "Died at his home in Rumelihisarı, Istanbul, on 10 Jumada al-Akhira 1338; the TDV entry converts that Hijri date to 1 March 1920 while the Arabic article gives 2 March 1920 — conversion variants of the same Hijri date, both disclosed. He was buried in the cemetery beside Rumeli Hisarı fortress. The Hijri year 1338 is the sources' own."
   sources: [source/tdv-hasan-riza-efendi, source/wikipedia-hasan-riza-efendi-ar, source/wikidata-hasan-riza-efendi]
 relations:
+  - { type: born_in, target: place/sk-dar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-riza-efendi] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-hasan-riza-efendi-ar, source/tdv-hasan-riza-efendi] }
   - { type: died_in, target: place/istanbul, sources: [source/tdv-hasan-riza-efendi] }
   - { type: student_of, target: person/sami-efendi, sources: [source/tdv-hasan-riza-efendi, source/wikipedia-hasan-riza-efendi-ar] }

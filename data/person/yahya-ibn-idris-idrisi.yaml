@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/abbasid-early]
+relations:
+  - { type: died_in, target: place/asilah, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q730328)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q3141238

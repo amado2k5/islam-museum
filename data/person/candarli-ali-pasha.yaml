@@ -36,6 +36,7 @@ died:
     - source/wikidata-candarli-ali-pasha
 
 relations:
+  - { type: died_in, target: place/ankara, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
   - type: child_of
     target: person/candarli-kara-halil-pasha
     note: "His father Çandarlı Kara Halil Hayreddin Pasha, the first Ottoman grand vizier: the Turkish biography calls Ali his eldest son, the English biography 'the son of Grand Vizier Çandarlı Kara Halil Hayreddin Pasha', and Wikidata names the same father (Q1572401). His mother, per the Azerbaijani biography's tradition, was a daughter of the Iznik müderris Taceddin Kürdi; she has no museum record."

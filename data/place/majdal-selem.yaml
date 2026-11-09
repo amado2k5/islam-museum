@@ -1,0 +1,21 @@
+id: place/majdal-selem
+class: place
+kind: town
+label: { ar: "مجدل سلم", en: "Majdal Selem", ur: "مجدل سلم" }
+summary:
+  ar: "بلدة في لبنان."
+  en: "Town in Lebanon."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [33.22166667, 35.46444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q12238822" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q12238822 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

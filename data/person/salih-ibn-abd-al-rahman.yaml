@@ -12,5 +12,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 421"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-40
+relations:
+  - { type: ruled_over, target: place/iraq, sources: [source/wikidata], confidence: low, note: "عُيّن على العراق، وكان من أشد أعداء الحجاج، فعزل محمد بن القاسم عن السند وحبسه بواسط انتقاماً لأخ له قتله الحج" }
+  - { type: traveled_to, target: place/sind, sources: [source/wikidata], confidence: low, note: "عُيّن على العراق، وكان من أشد أعداء الحجاج، فعزل محمد بن القاسم عن السند وحبسه بواسط انتقاماً لأخ له قتله الحج" }
 sources: [source/futuh-buldan-maarif-1407, source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

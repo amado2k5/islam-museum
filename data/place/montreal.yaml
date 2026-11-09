@@ -1,0 +1,35 @@
+id: place/montreal
+class: place
+kind: city
+label:
+  ar: مونتريال
+  en: Montreal
+summary:
+  ar: مدينة تُعرف بالإنجليزية باسم Montreal.
+  en: Montreal; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 45.5033
+- -73.5868
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q340
+  geonames: '6077243'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q340 (labels, coordinates, description)

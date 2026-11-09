@@ -16,3 +16,5 @@ provenance:
   run: prose-fill-persons-batch51
 sources: [source/wafayat-ayan]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: ruler_of, target: place/misr, note: "From text: governor of Misr", sources: [source/wafayat-ayan] }

@@ -39,6 +39,9 @@ faith:
     note: "His school is not recorded: no consulted source names a school for him. What the sources give is practice, office and lineage: he performed the Hajj (public practice), he chaired Sarekat Islam (organisational office), and he descended from Kyai Bagus Kasan Besari of the Tegalsari pesantren (lineage) — none of these ever counts as a personal school attestation. Wikidata gives Islam in general (Q432) with no school. The value stays unknown, unflagged."
     sources: [source/wikipedia-tjokroaminoto-en, source/wikipedia-tjokroaminoto-id, source/wikidata-tjokroaminoto]
 external_ids: { wikidata: "Q2603591" }
+relations:
+  - { type: born_in, target: place/ponorogo, sources: [source/wikidata-tjokroaminoto], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q11118)" }
+  - { type: died_in, target: place/yogyakarta, sources: [source/wikidata-tjokroaminoto], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q7568)" }
 sources: [source/wikipedia-tjokroaminoto-en, source/wikipedia-tjokroaminoto-id, source/wikipedia-tjokroaminoto-ar, source/wikidata-tjokroaminoto]
 provenance:
   layer: own-research

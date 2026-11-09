@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
 died: { hijri: "0814", edtf: "1411/1412", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل بدمياط 814؛ التحويل مشتق {cite:shadharat-dhahab p. 113}." }
+relations:
+  - { type: lived_in, target: place/dimyat, confidence: low, note: "Associated with Damietta per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد ص 113-114"

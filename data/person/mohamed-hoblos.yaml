@@ -23,6 +23,8 @@ wings:
   - living
 regions:
   - americas-oceania
+relations:
+  - { type: lived_in, target: place/lebanon, confidence: low, note: "Associated with لبنان per the record's own text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

@@ -32,6 +32,9 @@ died:
   note: "Killed by the Taliban at Kabul on 27 September 1996, as the English article and Wikidata give; the Arabic article gives 28 September 1996 — the one-day conflict is preserved here and 27 September followed. He was buried at Gardez after Islamic funeral prayers; no place entity exists for Gardez, so no buried_in relation is written. The Hijri year (1417) is from the Arabic article's category pairing; tabular conversion agrees."
   sources: [source/wikipedia-najibullah-en, source/wikipedia-najibullah-ar, source/wikipedia-najibullah-ur, source/wikidata-najibullah]
 relations:
+  - { type: born_in, target: place/gardez, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/gardez, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/paktia-province, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/kabul, sources: [source/wikipedia-najibullah-en, source/wikidata-najibullah] }
 faith:
   - value: unknown

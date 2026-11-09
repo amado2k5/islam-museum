@@ -18,5 +18,7 @@ relations:
   - { type: member_of, target: group/ghassan }
   - { type: ruler_of, target: polity/ghassanid-kingdom, end: { edtf: "0636" }, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/battle-of-yarmuk, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: ruled_over, target: place/al-sham, confidence: low, note: "Last Ghassanid king in al-Sham per the record's summary (al-Mas'udi: kings of Ghassan in al-Sham).", sources: [source/muruj-al-dhahab] }
+  - { type: traveled_to, target: place/byzantine-empire, confidence: low, note: "Entered Byzantine territory (بلاد الروم) per al-Baladhuri, cited in the record's summary.", sources: [source/futuh-buldan-maarif-1407] }
 sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b) + Futuh al-Buldan batch 9" }

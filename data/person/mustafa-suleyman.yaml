@@ -27,6 +27,8 @@ faith:
     note: "Recorded unknown, with the evidence preserved, because it falls short of the two-independent-source standard for atheist-or-sceptic. One text family attests unbelief, time-scoped to his teens: the English article states that in August 2001, while still a teenager and a 'strong atheist', Suleyman helped Mohammed Mamdani establish the Muslim Youth Helpline — the sentence is cited there to a single Guardian profile (Shariatmadari, 2 September 2023), so the article and its underlying profile are one family, not two. The article's category filings ('21st-century atheists', 'British atheists', 'Cultural Muslims') are filings, not text attestations. Wikidata carries a religion value of atheism (Q7066) at DEPRECATED rank, referenced to an Economic Club of New York transcript link and a podcast page; the transcript URL now returns an HTML status page rather than the document, so the reference could not be verified as supporting the value, and a deprecated structured value is in any case not a second independent text. His Syrian father's background and his co-founding of a Muslim-named helpline are not attestations either way. With doubt, the record stays unclassified; the flagged evidence is set out here in full for the founder."
     sources: [source/wikipedia-suleyman-en, source/wikidata-suleyman]
 external_ids: { wikidata: "Q16847797" }
+relations:
+  - { type: born_in, target: place/london, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q84)" }
 sources: [source/wikipedia-suleyman-en, source/wikipedia-suleyman-ar, source/wikidata-suleyman]
 provenance:
   layer: own-research

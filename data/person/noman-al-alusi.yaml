@@ -13,6 +13,8 @@ regions: [levant-iraq]
 periods: [period/colonial-era]
 born: { edtf: "1836", precision: year, status: tradition, derived: true }
 died: { edtf: "1899", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12248689

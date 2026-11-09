@@ -13,6 +13,8 @@ regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1434", precision: year, status: tradition, derived: true }
 died: { edtf: "1501", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/al-ahsa, confidence: low, note: "Associated with al-Ahsa per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q97258678

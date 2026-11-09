@@ -25,6 +25,8 @@ born:
   note: "Born at Sulaymaniyah in the Iraqi Republic. The day is contested: the English article's lead and infobox and the Arabic article's lead give 8 September 1960 (the English lead citing a UNHCR press release of 18 December 2025), while the Arabic article's infobox and Wikidata give 12 September 1960; month and year agree in every source. The reading of the two article texts, 8 September, is followed and the status is debated. The Hijri year 1380 is derived by tabular conversion of the recorded date (the Arabic article also files his birth under 1380 AH births). Sulaymaniyah has no place entity, so no born_in edge is written."
   sources: [source/wikipedia-barham-salih-en, source/wikipedia-barham-salih-ar, source/wikidata-barham-salih]
 relations:
+  - { type: born_in, target: place/sulaymaniyah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-barham-salih] }
+  - { type: lived_in, target: place/radwaniyah-palace, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-barham-salih] }
   - { type: successor_of, target: person/fuad-masum, sources: [source/wikipedia-barham-salih-en, source/wikipedia-barham-salih-ar] }
 faith:
   - value: unknown

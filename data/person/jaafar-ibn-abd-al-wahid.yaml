@@ -9,6 +9,8 @@ gender: male
 roles: [jurist]
 wings: [people]
 periods: [period/abbasid-early]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء السادس (ترجمة جعفر بن عبد الواحد القاضي)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

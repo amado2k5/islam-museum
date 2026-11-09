@@ -19,6 +19,7 @@ died:
   sources: [source/shadharat-dhahab]
 traditions: [sunni]
 relations:
+- { type: born_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 - type: member_of
   target: group/banu-mazyad
   sources:

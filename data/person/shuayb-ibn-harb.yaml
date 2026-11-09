@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+relations:
+  - { type: born_in, target: place/khorasan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2352322)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
+  - { type: lived_in, target: place/al-madain, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q1378794)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q106245730

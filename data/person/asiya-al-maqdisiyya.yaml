@@ -13,6 +13,8 @@ regions: [levant-iraq]
 faith:
   - value: sunni
     basis: tradition
+relations:
+  - { type: lived_in, target: place/damascus, note: "Of the Maqdisi scholarly family based in Damascus; flagged.", sources: [source/shadharat-dhahab], confidence: low }
 sources: [source/shadharat-dhahab]
 status:
   review: published

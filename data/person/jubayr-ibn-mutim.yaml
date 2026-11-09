@@ -35,6 +35,7 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: lived_in, target: place/hudaybiyya, confidence: low, note: "Associated with الحديبية per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: member_of
   target: group/quraysh
   sources:

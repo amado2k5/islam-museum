@@ -32,6 +32,7 @@ faith:
     note: "No article text attests his religion personally. What exists is structure and filings, which never count: Wikidata's single religion value is Sunni Islam; the French infobox gives Islam; the English, Arabic and Urdu articles file him under Senegalese Sunni Muslims (the Arabic infobox's religion field is empty). The Arabic text praises his encouragement of Arabic and Islamic education and of Islamic conferences and records his 1998 King Faisal International Prize for Service to Islam — state acts and an honour, not personal attestation; the French text's mention of his 1960 dissertation on Islam and Wolof society is an academic subject. One structured family only, one full family short of sunni/documented (the moussa-traore configuration); the value stays unknown with the Sunni reading preserved here."
     sources: [source/wikipedia-abdou-diouf-en, source/wikipedia-abdou-diouf-ar, source/wikipedia-abdou-diouf-ur, source/wikipedia-abdou-diouf-fr, source/wikidata-abdou-diouf]
 relations:
+  - { type: lived_in, target: place/bilad-al-sudan, note: "Place association from the person's nisba/name (سنغالي); denotes association, not proven residence.", sources: [source/wikipedia-abdou-diouf-en, source/wikipedia-abdou-diouf-ar, source/wikipedia-abdou-diouf-ur, source/wikipedia-abdou-diouf-fr, source/wikidata-abdou-diouf, source/wikipedia-king-faisal-prize-en], confidence: low }
   - type: successor_of
     target: person/leopold-sedar-senghor
     sources: [source/wikipedia-abdou-diouf-en, source/wikipedia-abdou-diouf-fr]

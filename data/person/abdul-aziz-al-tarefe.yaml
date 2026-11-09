@@ -22,6 +22,8 @@ born:
   note: "Born in Kuwait on 29 November 1976, which the English article also gives as 7 Dhu al-Hijja 1396 AH — the article's own Hijri date, not a conversion. As a child he moved between Kuwait and Mosul before the family settled in Riyadh."
   sources: [source/wikipedia-abdul-aziz-al-tarefe-en, source/alsiyar-abdul-aziz-al-tarefe]
 relations:
+  - { type: born_in, target: place/rayy, note: "From text: وُلد في الكويت سنة 1976 واستقر في الري", sources: [source/wikipedia-abdul-aziz-al-tarefe-en, source/alsiyar-abdul-aziz-al-tarefe, source/taj-rights-abdul-aziz-al-tarefe] }
+  - { type: lived_in, target: place/riyadh, note: "From text: settled in Riyadh. Known", sources: [source/wikipedia-abdul-aziz-al-tarefe-en, source/alsiyar-abdul-aziz-al-tarefe, source/taj-rights-abdul-aziz-al-tarefe] }
   - { type: lived_in, target: place/mosul, sources: [source/wikipedia-abdul-aziz-al-tarefe-en] }
 faith:
   - value: unknown

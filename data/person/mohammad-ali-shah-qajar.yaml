@@ -33,6 +33,9 @@ died:
   note: "Died in exile at San Remo, Italy, after his deposition in 1909 and a failed attempt to return by way of Astarabad in 1911; buried in the Imam Husayn Shrine at Karbala. The Hijri year 1343 is the derived conversion of 1925."
   sources: [source/wikipedia-mohammad-ali-shah-qajar-en, source/wikidata-mohammad-ali-shah-qajar]
 relations:
+  - { type: born_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohammad-ali-shah-qajar] }
+  - { type: died_in, target: place/sanremo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohammad-ali-shah-qajar] }
+  - { type: buried_in, target: building/imam-husayn-shrine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohammad-ali-shah-qajar] }
   - { type: child_of, target: person/mozaffar-ad-din-shah-qajar, sources: [source/wikipedia-mohammad-ali-shah-qajar-en, source/wikidata-mohammad-ali-shah-qajar] }
   - { type: successor_of, target: person/mozaffar-ad-din-shah-qajar, sources: [source/wikipedia-mohammad-ali-shah-qajar-en] }
   - { type: born_in, target: place/tabriz, sources: [source/wikipedia-mohammad-ali-shah-qajar-en] }

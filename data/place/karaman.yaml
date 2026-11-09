@@ -1,0 +1,36 @@
+id: place/karaman
+class: place
+kind: city
+label:
+  ar: قرمان
+  en: Karaman
+  ur: کارامان
+summary:
+  ar: مدينة في تركيا.
+  en: Central district and city in Karaman Province, Turkey.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 37.1833
+- 33.2167
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q262579
+  geonames: '309527'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q262579 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q262579 (labels, coordinates, description)

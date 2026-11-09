@@ -1,0 +1,36 @@
+id: place/lahijan
+class: place
+kind: city
+label:
+  ar: لاهيجان
+  en: Lahijan
+  ur: لاہیجان
+summary:
+  ar: مدينة في إيران.
+  en: City in Gilan Province, Iran.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 37.2072
+- 50.0039
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q569040
+  geonames: '126015'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q569040 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q569040 (labels, coordinates, description)

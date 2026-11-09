@@ -27,7 +27,9 @@ born:
   note: "Born in Manchester, England. The English article gives 29 May 1977 but flags the date as needing a citation; the Arabic article's lead gives 1978 while its categories file him under both 1977 and 1978 births, and Wikidata carries three conflicting statements (the year 1977, 29 May 1977 and 1 January 1978). The year 1977 is built because the English article and two of the three Wikidata statements agree on it, at year precision only and marked debated; the day is not built. No Hijri year is recorded, because a bare Gregorian year spans two Hijri years. No place entity for Manchester exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-faisal-islam-en, source/wikipedia-faisal-islam-ar, source/wikipedia-faisal-islam-ur, source/wikidata-faisal-islam]
 
-relations: []
+relations:
+  - { type: born_in, target: place/manchester, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-faisal-islam] }
+  - { type: lived_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-faisal-islam] }
 
 faith:
   - value: unknown

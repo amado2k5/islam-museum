@@ -7,6 +7,8 @@ summary:
 gender: male
 died: { hijri: "0588", calendar: julian, precision: year, status: tradition, note: "قتل بعد الوقعة سنة ٥٨٨هـ {cite:kamil-ibn-al-athir p. 222}.", sources: [source/kamil-ibn-al-athir] }
 relations:
+
+- { type: lived_in, target: place/al-haditha, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/kamil-ibn-al-athir] }
 - type: fought
   target: person/shihab-al-din-ghuri
   sources: [source/kamil-ibn-al-athir]

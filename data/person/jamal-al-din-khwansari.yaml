@@ -28,6 +28,7 @@ died:
   sources: [source/wikipedia-jamal-al-din-khwansari-fa, source/wikifeqh-jamal-al-din-khwansari]
 
 relations:
+  - { type: died_in, target: place/isfahan, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-jamal-al-din-khwansari-fa, source/wikifeqh-jamal-al-din-khwansari] }
   - { type: child_of, target: person/aqa-husayn-al-khwansari, sources: [source/wikipedia-jamal-al-din-khwansari-fa, source/wikifeqh-jamal-al-din-khwansari] }
 
 faith:

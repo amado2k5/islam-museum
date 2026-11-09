@@ -16,6 +16,7 @@ regions: [arabia]
 story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/night-supplication-at-al-baqia, role: "رافق النبي إلى البقيع", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/death-of-the-prophet, role: "رواية خبر التخيير", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }

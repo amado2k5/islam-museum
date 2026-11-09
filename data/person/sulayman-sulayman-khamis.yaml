@@ -22,3 +22,5 @@ provenance:
   model: claude-haiku-5-5
   run: azhar-min-al-falsafa-1
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }
+relations:
+  - { type: born_in, target: place/al-buhayra, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/min-al-falsafa-al-yunaniyya-azhar] }

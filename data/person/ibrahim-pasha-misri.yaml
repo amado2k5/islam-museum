@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/modern-era]
 regions: [egypt-nile, levant-iraq, anatolia-balkans]
 relations:
+  - { type: lived_in, target: place/alexandria, confidence: low, note: "Associated with الإسكندرية per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: child_of, target: person/muhammad-ali-pasha, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:

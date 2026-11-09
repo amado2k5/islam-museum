@@ -12,6 +12,9 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1690", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/hindustan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/kabul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q59205154

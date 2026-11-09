@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: died_in, target: place/qarmuna, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q63092)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q1931590

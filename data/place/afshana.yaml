@@ -1,12 +1,33 @@
 id: place/afshana
 class: place
 kind: town
-label: { en: Afshana, ar: أفشنة }
+label:
+  en: Afshana
+  ar: أفشنة
 summary:
   ar: قرية قرب بخارى وُلد فيها ابن سينا.
   en: Village near Bukhara in which Ibn Sina was born.
-wings: [place]
-regions: [persia-central-asia]
-external_ids: {}
-sources: []
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
+wings:
+- place
+regions:
+- persia-central-asia
+external_ids:
+  wikidata: Q4072887
+coordinate_note: لم تُثبَت إحداثيات موثوقة بعد؛ تُرك الموضع بلا إحداثيات بدلاً من تخمينها. / No reliably attested coordinates yet; left blank rather than guessed.
+sources:
+- source/ibn-abi-usaybia-uyun-al-anba
+- source/wikidata
+provenance:
+  layer: own-research
+  generated_by: Claude Sonnet 5.5 (scaffold)
+  note: Merged duplicate record place/afshona into this entity during consolidation.
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5 (scaffold)
+coordinates:
+- 39.994444444444
+- 64.379166666667
+coordinate_precision: approx
+aliases:
+- place/afshona

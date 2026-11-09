@@ -29,6 +29,9 @@ died:
   derived: true
   note: "توفي يوم الثلاثاء ثالث صفر سنة خمس وأربعمائة {cite:wafayat-ayan}؛ وفي تاريخ الإسلام ثامن صفر وقيل سنة ٤٠٣هـ وهو وهم الخليلي {cite:tarikh-islam-dhahabi pp. 126-129}؛ المقابل المشتق نحو ٣ آب ١٠١٤م."
 relations:
+  - { type: born_in, target: place/nishapur, note: "From text: born at Nishapur", sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/mustadrak-haramayn-1997-v1] }
+  - { type: died_in, target: place/nishapur, note: "From text: died at Nishapur", sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/mustadrak-haramayn-1997-v1] }
+  - { type: traveled_to, target: place/iraq, note: "From text: journeyed to Iraq", sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/mustadrak-haramayn-1997-v1] }
   - { type: born_in, target: place/nishapur, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/nishapur, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
   - { type: student_of, target: person/abu-bakr-al-sibghi, sources: [source/tarikh-islam-dhahabi], note: "اختص بصحبة الإمام أبي بكر أحمد بن إسحاق الصبغي {cite:tarikh-islam-dhahabi p. 128}" }

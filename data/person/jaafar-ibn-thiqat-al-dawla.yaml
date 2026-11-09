@@ -8,6 +8,8 @@ gender: male
 roles: [poet]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/siqilliya, confidence: low, note: "Associated with صقلية per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء السادس (ذكر جعفر بن ثقة الدولة في ترجمة أبيه)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

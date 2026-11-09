@@ -1,0 +1,21 @@
+id: place/bijar
+class: place
+kind: city
+label: { ar: "بيجار", en: "Bijar", ur: "بیجار" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q720596)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [35.872777777778, 47.602777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q720596" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q720596 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

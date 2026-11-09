@@ -1,0 +1,16 @@
+id: place/vilnius
+class: place
+kind: city
+label: { en: "Vilnius", ar: "فيلنيوس" }
+summary:
+  en: "Capital and largest city of Lithuania."
+  ar: "مدينة في لتوانيا."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [54.6872, 25.28]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q216", geonames: "593116" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q216 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

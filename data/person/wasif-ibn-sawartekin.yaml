@@ -10,6 +10,8 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [arabia, levant-iraq]
 relations:
+  - { type: traveled_to, target: place/al-qadisiyya, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: traveled_to, target: place/khaffan, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: allied_with, target: person/al-muktafi-billah, role: "قائد", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

@@ -1,0 +1,36 @@
+id: place/chicago
+class: place
+kind: city
+label:
+  ar: شيكاغو
+  en: Chicago
+  ur: شکاگو
+summary:
+  ar: مدينة في الولايات المتحدة.
+  en: City and county seat of Cook County, and largest city in State of Illinois, United States of America.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 41.8819
+- -87.6278
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q1297
+  geonames: '4887398'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1297 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1297 (labels, coordinates, description)

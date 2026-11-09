@@ -17,6 +17,7 @@ story_roles:
   - { role: military-opponent, toward: person/muhammad, status: historical, note: "غدر بسرية بئر معونة وقتل الدعاة فيها.", sources: [source/mubarakpuri-raheeq] }
   - { role: opponent, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "حاول الفتك بالنبي مع أربد بن قيس ثم عرض عليه التخيير بين أهل السهل والمدر أو الخلافة أو الغزو بغطفان.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/encyclopaedia-of-islam-2], confidence: low }
   - { type: member_of, target: group/banu-amir-ibn-sasaa, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "صاحب المؤامرة", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/death-of-amir-ibn-al-tufayl, role: "المتوفى", sources: [source/ibn-hisham-saqqa] }

@@ -8,6 +8,7 @@ summary:
 wings: [people]
 gender: male
 relations:
+  - { type: lived_in, target: place/khaffan, note: "From text: نزل خفان ودعا قومه فأسلموا وك", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/muthanna-commission, role: "المعاهَد الغازي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-al-hira, role: "ملاقي جابان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/banu-shayban, sources: [source/futuh-buldan-maarif-1407] }

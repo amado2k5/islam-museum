@@ -12,6 +12,11 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
 relations:
+- type: lived_in
+  target: place/portugal
+  note: "From text: of Portugal"
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: participated_in
   target: event/battle-of-tarifa-741
   note: ملك قشتالة الظافر بواقعة طريف.

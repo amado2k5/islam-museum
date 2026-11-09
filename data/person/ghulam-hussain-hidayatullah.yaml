@@ -33,6 +33,11 @@ died:
 roles: [politician]
 wings: [people]
 regions: [south-asia]
+relations:
+  - { type: born_in, target: place/shikarpur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ghulam-hussain-hidayatullah] }
+  - { type: died_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ghulam-hussain-hidayatullah] }
+  - { type: died_in, target: place/sind, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ghulam-hussain-hidayatullah] }
+  - { type: died_in, target: place/pakistan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ghulam-hussain-hidayatullah] }
 faith:
   - value: unknown
     basis: unknown

@@ -34,6 +34,7 @@ faith:
     note: "No article text attests his religion personally and no text names a school for him. Wikidata carries Islam on the single item and the Arabic infobox's religion field is empty; nothing else exists in any source. Structured-only (generic Islam, no branch named anywhere); the value stays unknown."
     sources: [source/wikipedia-abdiweli-mohamed-ali-en, source/wikipedia-abdiweli-mohamed-ali-ar, source/wikidata-abdiweli-mohamed-ali]
 relations:
+  - { type: lived_in, target: place/somalia, note: "From text: Somali (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-abdiweli-mohamed-ali-en, source/wikipedia-abdiweli-mohamed-ali-ar, source/wikipedia-abdiweli-mohamed-ali-so, source/wikidata-abdiweli-mohamed-ali], confidence: low }
   - type: successor_of
     target: person/mohamed-abdullahi-mohamed
     sources: [source/wikipedia-abdiweli-mohamed-ali-en]

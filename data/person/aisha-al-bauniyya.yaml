@@ -12,7 +12,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
 themes: [spirituality-and-sufism, women]
-sources: [source/al-aalam, source/alam-al-nisa-kahhala-risala-1984-v3]
+sources: [source/al-aalam, source/alam-al-nisa-kahhala-risala-1984-v3, source/wikidata]
 external_ids:
   wikidata: Q12222083
 provenance:
@@ -25,3 +25,6 @@ provenance:
 status:
   review: published
   completeness: 3
+relations:
+  - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

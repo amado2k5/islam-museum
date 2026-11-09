@@ -32,6 +32,8 @@ died:
   note: "Assassinated at Aram Bagh, Karachi, on 17 October 1998, on his way to the Hamdard Laboratories; all three articles and Wikidata agree. No died_in relation is written: Karachi has no museum place entity. The Hijri year (1419) is derived by tabular conversion."
   sources: [source/wikipedia-hakim-said-en, source/wikipedia-hakim-said-ur, source/wikipedia-hakim-said-ar, source/wikidata-hakim-said]
 relations:
+  - { type: born_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hakim-said] }
+  - { type: died_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hakim-said] }
   - { type: born_in, target: place/delhi, sources: [source/wikipedia-hakim-said-en, source/wikidata-hakim-said] }
   - { type: sibling_of, target: person/hakim-abdul-hameed, sources: [source/wikipedia-hakim-said-en] }
 faith:

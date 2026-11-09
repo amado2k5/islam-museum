@@ -32,7 +32,9 @@ faith:
     basis: unknown
     note: "No consulted source names a school or an order for him, and his Wikidata item carries no religion value. The English biography reports that in later life he became a disciple of a murshid, Sheikh Ahmad Tarabali, with a second murshid at Tral — a single text's report of discipleship, which is not an attestation of affiliation and is never written as a relation; the same biography stresses that he 'delved less on Tasavvuf' and 'had turned his back on mysticism as he was not a mystic', his one religious poem being on the death of Muhammad. The discipleship reading and the counter-reading are both preserved here, unclassified."
     sources: [source/wikipedia-rasul-mir-en, source/wikidata-rasul-mir]
-relations: []
+relations:
+  - { type: lived_in, target: place/kashmir, sources: [source/wikipedia-rasul-mir-en, source/wikipedia-rasul-mir-ur, source/wikipedia-rasul-mir-ks, source/wikidata-rasul-mir, source/kashmir-times-gami-rasul-triad] }
+
 summary:
   ar: "شاعر الغزل الرومانسي الكشميري من دورو شاه آباد، الملقب بإمام العشقية و«جان كيتس كشمير»، الذي أدخل الغزل رسمياً إلى الشعر الكشميري ولم يبقَ من كلامه سوى نحو تسع وسبعين قصيدة."
   en: "Kashmiri romantic ghazal poet of Doru Shahabad, called Imam-e-Ishqiya Shairi and the John Keats of Kashmir, who formally brought the ghazal into Kashmiri poetry; some seventy-nine poems of his survive."

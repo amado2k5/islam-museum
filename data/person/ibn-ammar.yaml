@@ -11,6 +11,8 @@ died: { edtf: "1084~", hijri: "0477", calendar: julian, precision: year, status:
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/seville, confidence: low, note: "Associated with Seville per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 73، 211–212"

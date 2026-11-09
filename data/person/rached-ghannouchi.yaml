@@ -42,3 +42,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-92
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: born_in, target: place/gabes, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-rached-ghannouchi-en, source/wikipedia-rached-ghannouchi-ar, source/wikipedia-rached-ghannouchi-ur, source/wikidata-rached-ghannouchi] }

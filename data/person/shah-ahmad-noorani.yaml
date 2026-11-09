@@ -40,6 +40,8 @@ faith:
     sources: [source/wikipedia-shah-ahmad-noorani-en, source/wikipedia-shah-ahmad-noorani-ur, source/wikipedia-shah-ahmad-noorani-ar, source/wikidata-shah-ahmad-noorani]
 relations:
   - { type: child_of, target: person/abdul-aleem-siddiqui, sources: [source/wikipedia-shah-ahmad-noorani-en, source/wikipedia-shah-ahmad-noorani-ur, source/wikipedia-shah-ahmad-noorani-ar] }
+
+  - { type: lived_in, target: place/mecca, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-shah-ahmad-noorani-en, source/wikipedia-shah-ahmad-noorani-ur, source/wikipedia-shah-ahmad-noorani-ar, source/wikidata-shah-ahmad-noorani] }
 external_ids: { wikidata: "Q2275345" }
 sources: [source/wikipedia-shah-ahmad-noorani-en, source/wikipedia-shah-ahmad-noorani-ur, source/wikipedia-shah-ahmad-noorani-ar, source/wikidata-shah-ahmad-noorani]
 provenance:

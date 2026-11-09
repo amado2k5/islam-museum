@@ -27,7 +27,9 @@ born:
   derived: true
   note: "Born in Tehran in Bahman 1356 SH, as stated by Persian Wikipedia in its infobox and its Life section. Bahman 1356 runs from 21 January to 19 February 1978, so only the year is recorded, at year precision. There is no place record for Tehran, so no born_in edge is written. Hijri year 1398 derived from the Gregorian date range."
   sources: [source/wikipedia-seyed-majid-banifatemeh-fa]
-relations: []
+relations:
+  - { type: born_in, target: place/tehran, sources: [source/wikipedia-seyed-majid-banifatemeh-fa] }
+
 sources: [source/wikipedia-seyed-majid-banifatemeh-fa, source/instagram-banifatemeh, source/hafi-banifatemeh]
 provenance:
   layer: own-research

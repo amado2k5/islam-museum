@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [egypt-nile]
 died: { edtf: "0966-10~", hijri: "0355-10~", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال 355هـ بمصر {cite:shadharat-dhahab p. 15}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/al-fayyum, confidence: low, note: "Associated with الفيوم per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"

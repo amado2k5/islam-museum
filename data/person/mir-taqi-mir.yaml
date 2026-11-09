@@ -38,6 +38,11 @@ died:
   sources: [source/wikipedia-mir-taqi-mir-en, source/wikipedia-mir-taqi-mir-ur, source/wikidata-mir-taqi-mir]
 
 relations:
+  - { type: died_in, target: place/united-kingdom, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-taqi-mir] }
+  - { type: died_in, target: place/awadh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-taqi-mir] }
+  - { type: lived_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-taqi-mir] }
+  - { type: lived_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-taqi-mir] }
+  - { type: lived_in, target: place/lucknow, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-taqi-mir] }
   - { type: born_in, target: place/agra, sources: [source/wikipedia-mir-taqi-mir-en, source/wikipedia-mir-taqi-mir-ar] }
   - { type: lived_in, target: place/delhi, sources: [source/wikipedia-mir-taqi-mir-en] }
 

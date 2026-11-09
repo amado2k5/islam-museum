@@ -36,6 +36,7 @@ died:
   note: "Died at Buffalo, New York, on 22 September 1979, where he had gone for treatment of his kidney ailment and heart problems; Wikidata's death-place claim points to New York more generally and the English article's Buffalo is followed. Buffalo has no place entity in the museum yet, so no died_in relation is written; he was buried at his residence in Ichhra, Lahore. The Hijri year (1399) is derived by tabular conversion."
   sources: [source/wikipedia-abul-ala-maududi-en, source/wikidata-abul-ala-maududi]
 relations:
+  - { type: buried_in, target: place/lahore, note: "From text: buried in Lahore.", sources: [source/wikipedia-abul-ala-maududi-en, source/wikipedia-abul-ala-maududi-ar, source/wikipedia-abul-ala-maududi-ur, source/wikidata-abul-ala-maududi, source/wikipedia-king-faisal-prize-en] }
   - { type: lived_in, target: place/lahore, sources: [source/wikipedia-abul-ala-maududi-en] }
   - { type: buried_in, target: place/lahore, sources: [source/wikipedia-abul-ala-maududi-en] }
 faith:

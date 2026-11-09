@@ -31,6 +31,8 @@ regions: [levant-iraq, persia-central-asia]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
+  - { type: born_in, target: place/baghdad, note: "From text: born in Baghdad", sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki, source/farq-bayn-al-firaq-khisht-ibn-sina] }
+  - { type: lived_in, target: place/nishapur, note: "From text: settled in Nishapur", sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki, source/farq-bayn-al-firaq-khisht-ibn-sina] }
   - { type: born_in, target: place/baghdad, sources: [source/mawsuat-a3lam-ulama-adaba] }
   - { type: died_in, target: place/isfarayin, sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki] }
   - { type: child_of, target: person/tahir-ibn-muhammad-al-baghdadi, sources: [source/tabaqat-shafiiyya-subki] }

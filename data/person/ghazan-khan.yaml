@@ -13,6 +13,7 @@ faith:
   - value: sunni
     basis: documented
 relations:
+  - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: child_of, target: person/arghun-khan, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/ghazan-islam-694, sources: [source/shadharat-dhahab] }
 provenance:

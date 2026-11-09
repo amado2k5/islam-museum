@@ -13,6 +13,8 @@ themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 died: { edtf: "1484-08~", hijri: "0889-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي شعبان 889 عن 40 {cite:shadharat-dhahab p. 348}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 889)، قراءة آبل فيجن"

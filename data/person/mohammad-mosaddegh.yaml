@@ -31,6 +31,9 @@ died:
   derived: true
   note: "Died at Najmieh Hospital in Tehran on 5 March 1967 — the Persian article gives 14 Esfand 1345, the same day — after years of house arrest at Ahmadabad, where he was buried; neither Tehran nor Ahmadabad has a place entity, so no died_in or buried_in edge is written. Wikidata also carries a stray 4 March 1967 value, not followed. The Hijri year (1386) is derived by tabular conversion."
   sources: [source/wikipedia-mosaddegh-en, source/wikipedia-mosaddegh-fa, source/wikidata-mosaddegh]
+relations:
+  - { type: born_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/ahmadabad-e-mosaddeq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

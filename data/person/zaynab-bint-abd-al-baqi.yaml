@@ -13,7 +13,8 @@ wings: [people]
 themes: [women, education]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
-relations: []
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Abbasid-era poetess of the Baghdad milieu (Alam al-nisa; regions: levant-iraq).", sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
 sources: [source/alam-al-nisa-kahhala-risala-1984-v2]
 status: { review: draft, completeness: 0, generated_by: "Devin; A'lam al-Nisa' vol. 2 p. 79 (PDF), entry زينب بنت عبد الباقي" }
 provenance:

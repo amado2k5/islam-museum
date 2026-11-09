@@ -16,6 +16,7 @@ faith:
   - value: sunni
     basis: tradition
 relations:
+  - { type: ruler_of, target: place/damascus, note: "From text: ملك الملك الناصر دمشق قبض علي", sources: [source/shadharat-dhahab], confidence: low }
   - { type: child_of, target: person/al-malik-al-aziz-uthman, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/ayn-jalut-658, role: "قاتل مع التتار فأُسر وأُعدم", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]

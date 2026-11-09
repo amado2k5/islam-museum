@@ -30,3 +30,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch53
+relations:
+  - { type: born_in, target: place/baghdad, note: "From text: ولد ببغداد ونشأ بها", sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab] }

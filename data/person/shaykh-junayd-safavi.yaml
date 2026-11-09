@@ -12,6 +12,9 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1460", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/ardabil, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q180103)" }
+  - { type: buried_in, target: building/shaykh-junayd-mausoleum, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q6794055)" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q2634811

@@ -34,6 +34,9 @@ faith:
     note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder: the Sunni reading rests on one source family in three carriers — the Arabic article's infobox religion field ('Muslim Sunni'), the Urdu article's infobox religion field ('Ahl al-Sunnah', expressly tagged 'citation needed' since February 2011), and the Wikidata item's religion value (Sunni Islam, Q483654) — while the English infobox carries no religion field. Two infoboxes and their structured echo are one family and never attest a school on their own. His thirty years governing a Muslim-majority state are office, not affiliation, and are expressly not counted. The reading is preserved here for the founder's ruling."
     sources: [source/wikipedia-hosni-mubarak-en, source/wikipedia-hosni-mubarak-ar, source/wikipedia-hosni-mubarak-ur, source/wikidata-hosni-mubarak]
 relations:
+  - { type: born_in, target: place/kafr-el-mu-l-a, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hosni-mubarak] }
+  - { type: buried_in, target: place/heliopolis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hosni-mubarak] }
+  - { type: lived_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hosni-mubarak] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-hosni-mubarak-en] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-hosni-mubarak-en] }
 wings: [people]

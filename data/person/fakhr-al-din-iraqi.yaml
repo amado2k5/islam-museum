@@ -45,6 +45,8 @@ faith:
       - source/wikipedia-fakhr-al-din-iraqi-en
       - source/wikipedia-fakhr-al-din-iraqi-ar
 relations:
+  - { type: born_in, target: place/komijan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fakhr-al-din-iraqi] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fakhr-al-din-iraqi] }
   - type: student_of
     target: person/baha-al-din-zakariya
     sources:

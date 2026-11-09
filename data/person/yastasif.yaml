@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch39
+relations:
+  - { type: ruler_of, target: place/isfahan, sources: [source/muruj-al-dhahab], confidence: low, note: "en: 'King Yastasif who emptied the Isfahan hill-temple Maris of its idols on his conversion to Magianism and m" }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

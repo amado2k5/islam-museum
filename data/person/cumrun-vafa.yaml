@@ -25,6 +25,8 @@ born:
   derived: true
   note: "Born at Tehran on 1 August 1960; the English article and Wikidata's day-precision value agree, the Persian and Arabic articles give the year 1960 only. The Hijri year is derived by tabular conversion. No born_in relation is written: Tehran has no museum place entity."
   sources: [source/wikipedia-vafa-en, source/wikidata-vafa, source/wikipedia-vafa-fa, source/wikipedia-vafa-ar]
+relations:
+  - { type: born_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

@@ -16,6 +16,8 @@ summary:
 died: { edtf: "1543-08~", hijri: "0950-02", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في أواخر صفر 950؛ اليوم غير محدد {cite:shadharat-dhahab p. 697}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: child_of, target: person/abd-al-haqq-al-sunbati, sources: [source/shadharat-dhahab] }
+
+  - { type: lived_in, target: place/sanbat, confidence: low, note: "Association inferred from the nisba 'السنباطي'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 950)، قراءة آبل فيجن"

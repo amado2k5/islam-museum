@@ -15,6 +15,8 @@ wings: [people]
 regions: [china-east-asia]
 roles: [scholar, professor, writer]
 born: { edtf: "1949-04-24", calendar: gregorian, precision: day, status: historical, derived: false, note: "Wikidata gives 24 April 1949; the English article and the prize's page give the year 1949 in South Korea. Distinct from Wikidata Q62571884, a 'Choi Young-kil' born 1942.", sources: [source/wikipedia-hamid-choi-en, source/wikidata-hamid-choi, source/king-faisal-prize-laureates] }
+relations:
+  - { type: lived_in, target: place/south-korea, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamid-choi] }
 faith:
   - value: unknown
     basis: unknown

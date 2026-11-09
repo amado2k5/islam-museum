@@ -17,3 +17,5 @@ provenance:
   run: mawsua-w07-person-batch
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "From text: settled in Damascus", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

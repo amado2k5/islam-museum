@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
 relations:
+  - { type: lived_in, target: place/morocco, confidence: low, note: "Associated with المغرب per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids: { wikidata: "Q130517" }

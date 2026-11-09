@@ -14,6 +14,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 relations:
+  - { type: born_in, target: place/edirne, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/bursa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/mehmed-ii, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: sibling_of, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }

@@ -12,5 +12,8 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 569–576"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-32
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Al-Mu'tamid's son at the Baghdad court.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
+  - { type: ruled_over, target: place/misr, note: "Named heir over Egypt and the Maghreb; nominal investiture.", sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi], confidence: low }
 sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

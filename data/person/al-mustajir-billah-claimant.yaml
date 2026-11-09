@@ -16,3 +16,5 @@ provenance:
   run: lib-muntazam-258-349-batch30
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }

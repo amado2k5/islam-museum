@@ -13,6 +13,8 @@ regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
 born: { edtf: "0854", precision: year, status: tradition, derived: true }
 died: { edtf: "0941", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/kashan, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q16119434

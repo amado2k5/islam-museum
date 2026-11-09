@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: died_in, target: place/nakhchivan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q230104)" }
+  - { type: buried_in, target: place/hamadan, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q28587)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q2476128

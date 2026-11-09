@@ -16,6 +16,8 @@ faith:
   - value: sunni-shafii
     basis: tradition
 relations:
+  - { type: born_in, target: place/hama, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/hama, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/hama, sources: [source/shadharat-dhahab] }
 external_ids: { wikidata: "Q174325" }
 sources: [source/shadharat-dhahab]

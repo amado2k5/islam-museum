@@ -21,6 +21,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "أسلم يوم أحد بحسب رواية ابن إسحاق {cite:rawd-unuf-wakil-v6 p. 14}؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
 relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/rawd-unuf-wakil-v6, source/istiab-alam-2002, source/al-aalam], confidence: low }
   - { type: member_of, target: group/banu-abd-al-ashhal, sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
   - { type: participated_in, target: event/battle-of-uhud, sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
   - { type: member_of, target: group/sahaba, sources: [source/istiab-alam-2002] }

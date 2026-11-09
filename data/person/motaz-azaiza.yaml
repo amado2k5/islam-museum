@@ -41,3 +41,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-138
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: born_in, target: place/gaza, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-motaz-azaiza-en, source/wikipedia-motaz-azaiza-ar, source/wikidata-motaz-azaiza] }

@@ -10,6 +10,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
 roles: [vizier]
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Nisba مصري attested in the record." }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

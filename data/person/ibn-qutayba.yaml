@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/adab-al-katib, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research

@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq]
 relations:
+  - { type: traveled_to, target: place/siffin, note: "Killed commanding Ali's right wing at Siffin on the second day.", sources: [source/sallabi-ali-vol2], confidence: medium }
   - { type: participated_in, target: event/battle-of-siffin, role: "قائد الميمنة في اليوم الثاني، استُشهد", sources: [source/sallabi-ali-vol2] }
 sources: [source/sallabi-ali-vol2]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Claude Code); from Sallabi vol. 2 pp. 105-106" }

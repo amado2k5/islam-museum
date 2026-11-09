@@ -8,6 +8,7 @@ wings: [people]
 gender: male
 traditions: [sunni]
 relations:
+  - { type: died_in, target: place/uhud, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/battle-of-uhud, role: "استشهد في أحد" }
 external_ids: { wikidata: "Q3783239" }

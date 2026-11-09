@@ -1,0 +1,36 @@
+id: place/punjab
+class: place
+kind: province
+label:
+  ar: البنجاب
+  en: Punjab
+  ur: پنجاب
+summary:
+  ar: محافظة في باكستان.
+  en: Province of Pakistan.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 31.33
+- 74.21
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q4478
+  geonames: '1167710'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q4478 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q4478 (labels, coordinates, description)

@@ -16,6 +16,7 @@ roles: [munshid, singer, athlete]
 born: { edtf: "1944", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born in the al-Qaboun quarter of Damascus (Arabic article; Wikidata gives 1944 and al-Qaboun).", sources: [source/wikipedia-hamza-shakkur-ar, source/wikidata-hamza-shakkur] }
 died: { edtf: "2009-02-04", calendar: gregorian, precision: day, status: historical, derived: false, note: "The Arabic article and Wikidata give 4 February 2009, aged 65.", sources: [source/wikipedia-hamza-shakkur-ar, source/wikidata-hamza-shakkur] }
 relations:
+  - { type: born_in, target: place/al-qaboun, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-shakkur] }
   - { type: born_in, target: place/damascus, note: "al-Qaboun quarter", sources: [source/wikipedia-hamza-shakkur-ar, source/wikidata-hamza-shakkur] }
 faith:
   - value: unknown

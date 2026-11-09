@@ -48,7 +48,8 @@ died:
   note: "Killed in action on 6 November 1916 during the British invasion of Darfur, at the battle the Arabic article calls al-Baranjiyya; all three articles and Wikidata (day precision) agree on the date. The Arabic article dates it '11 Muharram 1335 AH / 6 November 1916' — the record's Hijri year is the article's own, and the tabular conversion of 6 November 1916 confirms it exactly, so it is not marked derived. Place of death as recorded: at the battle of al-Baranjiyya, Darfur (present-day Sudan)."
   sources: [source/wikipedia-ali-dinar-en, source/wikipedia-ali-dinar-ar, source/wikipedia-ali-dinar-fr, source/wikidata-ali-dinar]
 
-relations: []
+relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/wikipedia-ali-dinar-en, source/wikipedia-ali-dinar-ar, source/wikipedia-ali-dinar-fr, source/wikidata-ali-dinar], confidence: low }
 
 external_ids:
   wikidata: Q3818737

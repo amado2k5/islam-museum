@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born at Beijing, China, on 3 July 1976; the English article and Wikidata agree, and the Arabic article gives the year 1976 and her upbringing at Chengdu. The Hijri year (1396) is derived by tabular conversion. No born_in relation is written: Beijing has no museum place entity."
   sources: [source/wikipedia-fei-fei-li-en, source/wikipedia-fei-fei-li-ar, source/wikidata-fei-fei-li]
+relations:
+  - { type: born_in, target: place/beijing, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fei-fei-li-en, source/wikipedia-fei-fei-li-ar, source/wikidata-fei-fei-li] }
 faith:
   - value: unknown
     basis: unknown

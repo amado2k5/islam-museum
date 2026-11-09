@@ -12,6 +12,9 @@ story_roles:
   - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
 relations:
   - { type: child_of, target: person/ishaq, sources: [source/sahih-al-bukhari] }
+  - { type: born_in, target: place/syria, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q858)" }
+  - { type: died_in, target: place/misr, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q79)" }
+  - { type: buried_in, target: place/al-khalil, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q168225)" }
 provenance:
   layer: "own-research"
   source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR"

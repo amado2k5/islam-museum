@@ -31,6 +31,7 @@ died:
   note: "The Turkish article gives 20 March 1893 at Istanbul; Wikidata's day-precision value gives 19 March 1893; the English article gives only the year 1893. The record follows the Turkish article. The Hijri year 1310 is the tabular conversion of 20 March 1893."
   sources: [source/wikipedia-ibrahim-edhem-pasha-en, source/wikipedia-ibrahim-edhem-pasha-tr, source/wikidata-ibrahim-edhem-pasha]
 relations:
+  - { type: born_in, target: place/chios, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-edhem-pasha] }
   - { type: died_in, target: place/istanbul, note: "He died at Istanbul in March 1893 (Turkish article: 20 March; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-ibrahim-edhem-pasha-tr, source/wikidata-ibrahim-edhem-pasha] }
 faith:
   - value: unknown

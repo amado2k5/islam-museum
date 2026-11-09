@@ -14,6 +14,7 @@ summary:
   en: "Qaytbay's mamluk, taught by him Qur'an and reckoning; grand dawadar under al-Nasir, governor of Aleppo six years and Damascus seven months, then amir-kabir in Cairo; overcame al-Zahir Qansuh and took the sultanate on 2 Dhu'l-Qa'da 905 for half a year, built the Janbalatiyya madrasa, then was deposed and strangled at Alexandria — his body carried to Qaytbay's tomb then to his own outside Bab al-Nasr, reportedly unchanged {cite:shadharat-dhahab p. 445}."
 died: { edtf: "1501~", hijri: "0906~", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل خنقاً بالإسكندرية بعد خلعه 906 {cite:shadharat-dhahab p. 445}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with القاهرة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/ghuri-accession-906, role: "السلطان المخلوع", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

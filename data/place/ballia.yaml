@@ -1,0 +1,21 @@
+id: place/ballia
+class: place
+kind: city
+label: { ar: "بليا", en: "Ballia", ur: "بلیا" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q7180187)."
+wings: [place]
+regions: [south-asia]
+coordinates: [25.7625, 84.151944444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q7180187" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7180187 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,6 +11,8 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 relations:
   - { type: allied_with, target: person/al-mutamid, role: "وزير", sources: [source/muntazam-ibn-al-jawzi] }
+
+  - { type: lived_in, target: place/khaqan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 263)، قراءة آبل فيجن"

@@ -1,0 +1,36 @@
+id: place/gwalior
+class: place
+kind: city
+label:
+  ar: قاليور
+  en: Gwalior
+  ur: گوالیار
+summary:
+  ar: مدينة في سلطنة مغول الهند.
+  en: City in Madhya Pradesh, India.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 26.2125
+- 78.1775
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q158467
+  geonames: '1270583'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q158467 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q158467 (labels, coordinates, description)

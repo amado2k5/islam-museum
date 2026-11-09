@@ -12,6 +12,9 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1577", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/qazvin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/duha-islam]
 external_ids:
   wikidata: Q5956963

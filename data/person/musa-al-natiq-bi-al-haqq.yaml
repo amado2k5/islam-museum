@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/iran, confidence: low, note: "Early-Abbasid-era figure of the Iranian world (al-A'lam; regions: persia-central-asia).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q22690285
 provenance:

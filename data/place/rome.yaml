@@ -1,0 +1,21 @@
+id: place/rome
+class: place
+kind: city
+label: { ar: "روما", en: "Rome", ur: "روم" }
+summary:
+  ar: "مدينة في إيطاليا."
+  en: "City in Italy."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [41.893055555556, 12.482777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q220" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q220 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

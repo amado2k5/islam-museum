@@ -15,6 +15,7 @@ regions: [arabia]
 story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/saqifa, role: "أحد الرجلين اللذين لقيا المهاجرين في الطريق إلى السقيفة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 307-310", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "ibn-hisham-batch-20" }

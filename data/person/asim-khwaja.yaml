@@ -13,7 +13,8 @@ summary:
 roles: [economist]
 wings: [people, living]
 regions: [south-asia, americas-oceania]
-relations: []
+relations:
+  - { type: lived_in, target: place/kashmir, note: "Place association from the person's nisba/name (كشميري); denotes association, not proven residence.", sources: [source/wikipedia-asim-khwaja-en, source/wikipedia-asim-khwaja-ur, source/wikidata-asim-khwaja], confidence: low }
 faith:
   - value: unknown
     basis: unknown

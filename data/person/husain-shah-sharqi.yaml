@@ -30,6 +30,7 @@ died:
   sources: [source/wikipedia-husain-shah-jaunpur-en, source/wikidata-husain-shah-jaunpur]
 
 relations:
+  - { type: lived_in, target: place/delhi, confidence: low, note: "Associated with دلهي per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
   - { type: child_of, target: person/mahmud-shah-sharqi, sources: [source/wikipedia-husain-shah-jaunpur-en] }
 
 faith:

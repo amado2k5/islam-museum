@@ -16,6 +16,8 @@ born:
   edtf: '1978'
   calendar: gregorian
   precision: year
+relations:
+  - { type: born_in, target: place/ponca-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
   wikidata: Q4120398
 sources:

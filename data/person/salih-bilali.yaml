@@ -24,7 +24,11 @@ floruit:
   status: historical
   note: "Head driver of the Couper plantations from 1816, supervising more than four hundred enslaved people and managing Cannon's Point during the owners' long absences (Lowcountry Digital History Initiative; Study Al-Islam retelling)."
   sources: [source/ldhi-salih-bilali]
-relations: []
+relations:
+  - { type: born_in, target: place/mali, sources: [source/ldhi-salih-bilali, source/claiming-freedom-salih-bilali, source/message-international-first-muslims] }
+  - { type: traveled_to, target: place/bahamas, sources: [source/ldhi-salih-bilali, source/claiming-freedom-salih-bilali, source/message-international-first-muslims] }
+  - { type: lived_in, target: place/georgia-us, sources: [source/ldhi-salih-bilali, source/claiming-freedom-salih-bilali, source/message-international-first-muslims] }
+
 faith:
   - value: unknown
     basis: unknown

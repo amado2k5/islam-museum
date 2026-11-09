@@ -14,6 +14,9 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: born_in, target: place/jasim, note: "Wikidata Q4116040 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/mosul, note: "Wikidata Q83317 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: related_to, target: person/al-mutasim-abi-ishaq, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: authored, target: work/hamasa-abu-tammam, sources: [source/wafayat-ayan] }
 provenance:
@@ -22,5 +25,5 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-26
 external_ids: { wikidata: "Q1750054" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/wafayat-ayan, source/nihayat-al-arab-nuwayri-vol1-scan]
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/wafayat-ayan, source/nihayat-al-arab-nuwayri-vol1-scan, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

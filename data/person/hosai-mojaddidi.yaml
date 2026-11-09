@@ -13,6 +13,7 @@ roles: [teacher, writer]
 wings: [people, living]
 regions: [americas-oceania]
 relations:
+  - { type: lived_in, target: place/afghanistan, confidence: low, note: "Associated with أفغانستان per the record's own summary text; relation type pending review.", sources: [source/hosaimojaddidi-website] }
   - type: student_of
     target: person/hamza-yusuf
     sources: [source/mcc-east-bay-hosai-mojaddidi, source/hosaimojaddidi-website]

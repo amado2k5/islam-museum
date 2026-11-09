@@ -38,6 +38,9 @@ faith:
     note: "No consulted article names an affiliation for Asadullayev himself: the English, Azerbaijani and Russian texts are all silent on his religion. The English article's categories file him under 'Azerbaijani Shia Muslims' — a category filing, which the lane does not count as an attestation. Wikidata's only religion value is Islam (Q432) in the generic, naming no branch or school. His patronage of Muslim institutions — the Asadullayev House given to the Moscow Muslim community, scholarships for Muslim students, the Baku Real School — is philanthropy, which the lane rule excludes from attestation, and the Azerbaijani Shia milieu is context under the mapping rule, never a basis. Under the two-source rule and the doubt rule his faith is recorded unknown."
     sources: [source/wikipedia-shamsi-asadullayev-en, source/wikidata-shamsi-asadullayev, source/wikipedia-shamsi-asadullayev-az]
 external_ids: { wikidata: "Q4071118" }
+relations:
+  - { type: born_in, target: place/baku, sources: [source/wikidata-shamsi-asadullayev], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q9248)" }
+  - { type: died_in, target: place/yalta, sources: [source/wikidata-shamsi-asadullayev], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q128499)" }
 sources: [source/wikipedia-shamsi-asadullayev-en, source/wikipedia-shamsi-asadullayev-az, source/wikipedia-shamsi-asadullayev-ru, source/wikidata-shamsi-asadullayev]
 provenance:
   layer: own-research

@@ -35,7 +35,8 @@ died:
   note: "The English and Arabic articles agree on 15 June 1716, after the killing of his son Zulfiqar Khan in 1713 and his own last years in obscurity; Wikidata carries the same day. No death place is named in the texts read, so no died_in edge is written."
   sources: [source/wikipedia-asad-khan-en, source/wikipedia-asad-khan-ar, source/wikidata-asad-khan]
 
-relations: []
+relations:
+  - { type: lived_in, target: place/iran, note: "From text: Persian (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-asad-khan-en, source/wikipedia-asad-khan-ar, source/wikidata-asad-khan], confidence: low }
 
 faith:
   - value: unknown

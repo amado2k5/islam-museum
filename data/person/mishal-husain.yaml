@@ -28,7 +28,8 @@ born:
   note: "Born in Northampton, England. The English article and Wikidata give 12 March 1973; the Urdu article gives 11 February 1973, citing the same BBC profile and 2009 Times piece that the English article cites, so the day and month are split between the two readings and the block is marked debated. Both readings fall in the Hijri year 1393, the tabular conversion of the built date, marked derived. No place entity for Northampton exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-mishal-husain-en, source/wikipedia-mishal-husain-ur, source/wikidata-mishal-husain]
 
-relations: []
+relations:
+  - { type: born_in, target: place/northampton, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mishal-husain] }
 
 faith:
   - value: unknown

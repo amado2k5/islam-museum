@@ -49,3 +49,6 @@ sources:
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/al-sham, note: "From text: lived in Syria", sources: [source/ibn-hajar-isaba] }
+  - { type: lived_in, target: place/homs, note: "From text: settled at Homs", sources: [source/ibn-hajar-isaba] }

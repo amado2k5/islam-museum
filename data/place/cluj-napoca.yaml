@@ -1,0 +1,21 @@
+id: place/cluj-napoca
+class: place
+kind: city
+label: { ar: "كلوج نابوكا", en: "Cluj-Napoca", ur: "کلوژ ناپوکا" }
+summary:
+  ar: "مدينة في مملكة رومانيا."
+  en: "City in Kingdom of Romania."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [46.76891, 23.59066]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q100188" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q100188 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

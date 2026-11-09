@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "استغاثته بالنبي وقوله «أسلمنا» في قصيدته." }
 relations:
+  - { type: lived_in, target: place/mecca, note: "From text: of Mecca'", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-kab-ibn-khuzaa }
   - { type: member_of, target: group/khuzaa }
   - { type: participated_in, target: event/khuzaa-appeal-to-medina, role: reciter, sources: [source/ibn-hisham-saqqa] }

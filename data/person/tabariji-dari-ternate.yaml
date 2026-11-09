@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
+relations:
+- { type: ruled_over, target: place/ternate, sources: [source/wikidata], confidence: low, note: "Wikidata P39 office held (ternate)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12518479

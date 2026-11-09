@@ -1,4 +1,5 @@
 id: place/qazvin
+aliases: [place/qazvin-2]
 class: place
 kind: city
 label: { ar: "قزوين" }
@@ -6,7 +7,11 @@ summary:
   ar: "قزوين مدينة في جبال شمال غرب إيران، نشأت من قلعة قديمة، ونقل إليها الشاه طهماسب الصفوي مقره سنة 959هـ. {cite:farghani-elements-astronomy p. 445}"
 wings: [place]
 regions: [persia-central-asia]
-sources: [source/farghani-elements-astronomy]
+coordinates: [36.28543666666667, 50.0041]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q181578; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q181578" }
+sources: [source/farghani-elements-astronomy, source/wikidata]
 provenance:
   layer: own-research
   source: "Golius (ed.), Alfraganus, Elementa astronomica (Amsterdam 1669), Latin notes, PDF pp. 389-549"

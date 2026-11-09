@@ -20,6 +20,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
 relations:
+  - { type: traveled_to, target: place/badr, sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
   - { type: member_of, target: group/banu-zafar-al-aws, sources: [source/istiab-alam-2002] }
   - { type: sibling_of, target: person/abu-said-al-khudri, note: "أخوه لأمه {cite:istiab-alam-2002 p. 616} {cite:rawd-unuf-wakil-v6 p. 32}", sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
   - { type: participated_in, target: event/battle-of-badr, sources: [source/istiab-alam-2002] }

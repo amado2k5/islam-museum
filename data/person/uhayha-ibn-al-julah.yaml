@@ -13,6 +13,8 @@ periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
   - { type: member_of, target: group/al-aws, sources: [source/kamil-ibn-al-athir] }
+
+  - { type: lived_in, target: place/medina, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/kamil-ibn-al-athir, source/ibn-hajar-isaba] }
 sources: [source/kamil-ibn-al-athir, source/ibn-hajar-isaba]
 provenance:
   layer: own-research

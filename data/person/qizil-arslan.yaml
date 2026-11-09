@@ -27,6 +27,8 @@ provenance:
   run: prose-fill-persons-batch106
 external_ids:
   wikidata: Q3412494
+relations:
+  - { type: born_in, target: place/tabriz, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80053)" }
 sources: [source/shadharat-dhahab]
 status:
   review: published

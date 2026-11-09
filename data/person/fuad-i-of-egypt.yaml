@@ -34,6 +34,7 @@ died:
   note: "All sources agree on 28 April 1936, at Qubbah Palace in Cairo. The English article gives his burial place as the Khedival mausoleum in the al-Rifai Mosque in Cairo. The Hijri year 1355 is the derived conversion of April 1936."
   sources: [source/wikipedia-fuad-i-en, source/wikipedia-fuad-i-ar, source/wikipedia-fuad-i-fr, source/wikidata-fuad-i]
 relations:
+  - { type: buried_in, target: building/masjid-al-rifai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-fuad-i-en] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-fuad-i-en, source/wikipedia-fuad-i-ar] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-fuad-i-en] }

@@ -28,6 +28,8 @@ faith:
     note: "No school is recorded. Two article texts name her a Muslim personally: the English article, citing Sky News, calls her the only Muslim woman who is a national champion in her sport and, citing the BBC, the first female British Muslim kickboxing champion, and records her upbringing in a strict Muslim household and her 2017 pilgrimage to Mecca; the Persian article states that in 2010 she became the first Muslim woman to win a British Muay Thai championship. Wikidata (Q7380461) gives her religion as Islam (Q432) generically. Neither text names a school or madhhab for her, and upbringing and pilgrimage are family background and practice, not school attestations, so under the two-source rule no value can be recorded — the same disposition as the Fazlur Rahman Khan record, whose sources likewise named him a Muslim without naming a school."
     sources: [source/wikipedia-ruqsana-begum-en, source/wikipedia-ruqsana-begum-fa, source/wikidata-ruqsana-begum]
 external_ids: { wikidata: "Q7380461" }
+relations:
+  - { type: traveled_to, target: place/mecca, sources: [source/wikidata], confidence: low, note: "Two article texts name her a Muslim personally: the English article, citing Sky News, calls her the only Musli" }
 sources: [source/wikipedia-ruqsana-begum-en, source/wikipedia-ruqsana-begum-fa, source/wikipedia-ruqsana-begum-arz, source/wikidata-ruqsana-begum]
 provenance:
   layer: own-research

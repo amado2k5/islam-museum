@@ -34,6 +34,7 @@ died:
 relations:
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-said-halim-pasha-en, source/wikipedia-said-halim-pasha-tr, source/tdv-said-halim-pasha] }
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-said-halim-pasha-en, source/tdv-said-halim-pasha] }
+  - { type: lived_in, target: place/malta, sources: [source/wikipedia-said-halim-pasha-en, source/wikipedia-said-halim-pasha-ar, source/wikipedia-said-halim-pasha-tr, source/wikidata-said-halim-pasha, source/tdv-said-halim-pasha] }
 faith:
   - value: unknown
     basis: unknown

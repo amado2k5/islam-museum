@@ -16,6 +16,7 @@ regions: [arabia]
 story_roles:
   - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "كلّمته ثلاث مرات في الحظيرة حتى أطلقها (ابن هشام ص225-226).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/najd, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/tayy, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/adi-ibn-hatim, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/capture-and-release-of-hatims-daughter, role: "الأسيرة المُطلَقة", sources: [source/ibn-hisham-saqqa] }

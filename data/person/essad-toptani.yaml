@@ -33,7 +33,11 @@ faith:
     basis: unknown
     note: "FLAGGED for a founder ruling. Wikidata's single structured family gives his religion as Sunni Islam, but no biographical text consulted — neither the English nor the Albanian biography — names a school or any religious affiliation for the man himself, so under the two-source rule the structured reading is preserved here unclassified. His Toptani family background and his Ottoman offices never count."
     sources: [source/wikidata-essad-toptani, source/wikipedia-essad-toptani-en]
-relations: []
+relations:
+  - { type: born_in, target: place/tirana, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-essad-toptani] }
+  - { type: died_in, target: place/paris, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-essad-toptani] }
+  - { type: buried_in, target: place/cimeti-re-parisien-de-thiais, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-essad-toptani] }
+  - { type: lived_in, target: place/tirana, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-essad-toptani] }
 summary:
   ar: "سياسي وضابط عثماني ألباني من تيرانا، رئيس وزراء ألبانيا 1914–1916 ومؤسس جمهورية ألبانيا الوسطى في دوريس، واغتيل في باريس سنة 1920؛ ويذكره كثير من الألبان بوصفه خائناً لتسليمه شكودر ولتحالفه مع صربيا."
   en: "Albanian politician and Ottoman officer from Tirana, prime minister of Albania from 1914 to 1916 and founder of the Republic of Central Albania based at Durrës; assassinated in Paris in 1920 and remembered by many Albanians as a traitor for surrendering Shkodër and for his alliance with Serbia."

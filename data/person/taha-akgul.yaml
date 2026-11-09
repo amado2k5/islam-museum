@@ -27,6 +27,8 @@ faith:
     note: "None of the English, Turkish or Arabic articles names a religion for him, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
     sources: [source/wikipedia-taha-akgul-en, source/wikipedia-taha-akgul-tr, source/wikipedia-taha-akgul-ar, source/wikidata-taha-akgul]
 external_ids: { wikidata: "Q3374659" }
+relations:
+  - { type: born_in, target: place/sivas, sources: [source/wikidata-taha-akgul], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q107401)" }
 sources: [source/wikipedia-taha-akgul-en, source/wikipedia-taha-akgul-tr, source/wikipedia-taha-akgul-ar, source/wikidata-taha-akgul]
 provenance:
   layer: own-research

@@ -22,6 +22,10 @@ born:
   sources: [source/wikipedia-islam-makhachev-en, source/wikidata-islam-makhachev]
 gender: male
 roles: [mixed martial artist]
+relations:
+  - { type: born_in, target: place/makhachkala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-islam-makhachev] }
+  - { type: lived_in, target: place/novy-khushet, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-islam-makhachev] }
+  - { type: lived_in, target: place/makhachkala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-islam-makhachev] }
 faith:
   - value: unknown
     basis: unknown

@@ -32,6 +32,8 @@ faith:
     note: "A Christian reading exists but rests on one source family. Wikidata carries two religion (P140) values for him, Anglicanism and Protestantism — one structured-data family. The English article's text names no affiliation: it states only that he has no specific place of worship and attends different cathedrals for security reasons (attendance is practice, and the sentence is cited to a low-authority listings site); the Arabic article mentions reported ties to the American Christian organisation The Family, a political association, not the man's affiliation; the Urdu stub files him under Ugandan Anglicans, a category filing, which never attests. A Wikipedia text claim and its Wikidata echo are one family, so no second independent source names a Christian affiliation for him, and the value stays unknown with both readings preserved here."
     sources: [source/wikidata-yoweri-museveni, source/wikipedia-yoweri-museveni-en, source/wikipedia-yoweri-museveni-ar, source/wikipedia-yoweri-museveni-ur]
 external_ids: { wikidata: "Q57274" }
+relations:
+  - { type: born_in, target: place/ntungamo, sources: [source/wikidata-yoweri-museveni], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q938145)" }
 sources: [source/wikipedia-yoweri-museveni-en, source/wikipedia-yoweri-museveni-ar, source/wikipedia-yoweri-museveni-ur, source/wikidata-yoweri-museveni]
 provenance:
   layer: own-research

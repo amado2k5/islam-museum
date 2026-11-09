@@ -18,3 +18,7 @@ sources: [source/wafayat-ayan]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/nishapur, note: "From text: أقام بنيسابور زماناً ثم خرج إلى بخار", sources: [source/wafayat-ayan] }
+  - { type: traveled_to, target: place/fars, note: "From text: رحل إلى بلاد فارس فوُلي القضاء بها ثم ", sources: [source/wafayat-ayan] }
+  - { type: traveled_to, target: place/nishapur, note: "From text: returned to Nishapur", sources: [source/wafayat-ayan] }

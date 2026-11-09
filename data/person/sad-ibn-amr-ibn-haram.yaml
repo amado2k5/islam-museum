@@ -8,6 +8,9 @@ wings: [people]
 periods: [period/rashidun]
 relations:
   - { type: participated_in, target: event/conquest-of-hit, role: "أمير جيش الكوفة وعاقد الأمان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: ruler_of, target: place/kufa, sources: [source/wikidata], confidence: low, note: "- { type: participated_in, target: event/conquest-of-hit, role: 'أمير جيش الكوفة وعاقد الأمان', sources: [sour" }
+  - { type: ruled_over, target: place/al-haditha, sources: [source/wikidata], confidence: low, note: "ar: 'سعد بن عمرو بن حرام الأنصاري؛ عند البلاذري: بعثه عمار بن ياسر — وهو عامل عمر على الكوفة — على جيش يستغزي " }
+  - { type: ruled_over, target: place/kufa, sources: [source/wikidata], confidence: low, note: "ar: 'سعد بن عمرو بن حرام الأنصاري؛ عند البلاذري: بعثه عمار بن ياسر — وهو عامل عمر على الكوفة — على جيش يستغزي " }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 246"

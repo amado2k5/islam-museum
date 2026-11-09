@@ -13,6 +13,8 @@ periods: [period/mongol-post-mongol]
 regions: [arabia, persia-central-asia]
 born: { edtf: "1329~", hijri: "0730~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وقد جاوز الثمانين 812 {cite:shadharat-dhahab p. 113}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1409-10~", hijri: "0812-05", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بمكة في آخر جمادى الأولى 812 {cite:shadharat-dhahab p. 113}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 812)، قراءة آبل فيجن"

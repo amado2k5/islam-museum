@@ -13,10 +13,13 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-29
 relations:
+  - { type: born_in, target: place/gaza, note: "Wikidata Q47492 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/al-fustat, note: "Wikidata Q839456 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: building/mausoleum-of-imam-al-shafii, note: "Wikidata Q12242699 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: authored, target: work/ikhtilaf-al-hadith-shafii, sources: [source/kashf-zunun-furqan] }
   - { type: founder_of, target: group/shafii-madhhab, sources: [source/duha-islam] }
 external_ids: { wikidata: "Q294281" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/kashf-zunun-furqan, source/assabile-omar-abdelkafy, source/britannica-al-shafii]
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/kashf-zunun-furqan, source/assabile-omar-abdelkafy, source/britannica-al-shafii, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 education:
   levels: [sprouts, explorers, scholars]

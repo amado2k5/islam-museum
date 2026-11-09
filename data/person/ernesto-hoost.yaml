@@ -13,6 +13,8 @@ roles: [athlete]
 wings: [people, living]
 regions: [andalus-europe]
 born: { edtf: "1965-07-11", hijri: "1385", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 11 July 1965 in Heemskerk, North Holland, to Surinamese parents. The English article gives the date in its lead and the place in its biography, citing De Volkskrant; Wikidata agrees. No place entity for Heemskerk exists in the museum, so the birthplace is carried here only. The Hijri year 1385 is derived from the Gregorian date on the tabular calendar.", sources: [source/wikipedia-ernesto-hoost-en, source/wikidata-ernesto-hoost] }
+relations:
+  - { type: born_in, target: place/heemskerk, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ernesto-hoost] }
 faith:
   - value: unknown
     basis: unknown

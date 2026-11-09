@@ -14,3 +14,5 @@ provenance:
   run: lib-futuh-buldan-batch-42
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/nihawand, note: "From text: of Nihawand", sources: [source/futuh-buldan-maarif-1407], confidence: low }

@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [spirituality-and-sufism]
+relations:
+  - { type: born_in, target: place/khwarizm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q182647)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q4076179

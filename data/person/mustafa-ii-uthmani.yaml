@@ -15,6 +15,8 @@ periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
   - { type: child_of, target: person/mehmed-iv-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: born_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q43387)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
 external_ids:
   wikidata: Q199659
 sources: [source/dawlat-uthmaniyya-salabi]

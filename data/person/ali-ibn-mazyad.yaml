@@ -19,6 +19,11 @@ relations:
   target: polity/mazyadid-dynasty
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- type: lived_in
+  target: place/iraq
+  note: "Chief of Banu Mazyad; held the Dubaysi islands of the Euphrates in central Iraq."
+  sources: [source/muntazam-ibn-al-jawzi, source/tarikh-ibn-khaldun-ibar]
+  confidence: medium
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]

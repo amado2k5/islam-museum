@@ -1,0 +1,21 @@
+id: place/mit-ghamr
+class: place
+kind: city
+label: { ar: "ميت غمر", en: "Mit Ghamr", ur: "میت غمر" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q337123)."
+wings: [place]
+regions: [egypt-nile]
+coordinates: [30.719166666667, 31.262777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q337123" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q337123 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

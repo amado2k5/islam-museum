@@ -12,6 +12,8 @@ died: { edtf: "0767", hijri: "0150", calendar: julian, precision: year, status: 
 wings: [people]
 periods: [period/umayyad, period/abbasid-early]
 regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/wikidata], confidence: low, note: "Basran sira/maghazi author, d. 150 (record title) {cite:duha-islam}" }
 sources: [source/duha-islam]
 provenance:
   layer: own-research

@@ -16,6 +16,7 @@ periods: [period/modern-era]
 born: { edtf: "1871", precision: year, status: tradition, derived: true, note: "The English article gives two birth dates, 14 February 1871 and 10 April 1875; Wikidata gives 14 February 1871 and the Arabic article gives 10 April 1875. The year 1871 is recorded; the discrepancy is unresolved.", sources: [source/wikipedia-hasyim-asyari-en, source/wikidata-hasyim-asyari] }
 died: { edtf: "1947", precision: year, status: tradition, derived: true, sources: [source/wikipedia-hasyim-asyari-en, source/wikidata-hasyim-asyari] }
 relations:
+  - { type: born_in, target: place/demak, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasyim-asyari] }
   - { type: born_in, target: place/java, sources: [source/wikipedia-hasyim-asyari-en] }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikipedia-hasyim-asyari-en, source/wikipedia-hasyim-asyari-ar, source/wikidata-hasyim-asyari]
 external_ids:

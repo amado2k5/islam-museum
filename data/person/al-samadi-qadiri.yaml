@@ -31,3 +31,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
+relations:
+  - { type: traveled_to, target: place/medina, note: "From text: رحل إلى الحجاز إلى المدينة النبوية وأق", sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/medina, note: "From text: served at Medina", sources: [source/shadharat-dhahab] }

@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 born: { edtf: "1375-08~", hijri: "0777-01", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في أواسط محرم 777 بدمشق {cite:shadharat-dhahab p. 243}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1438-10-09~", hijri: "0842-04-16", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بدمشق ليلة الجمعة 16 ربيع الآخر 842 ودفن بمقبرة باب الفراديس {cite:shadharat-dhahab p. 245}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with دمشق per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 842)، قراءة آبل فيجن"

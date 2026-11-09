@@ -15,6 +15,7 @@ relations:
   target: group/khawarij
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- { type: traveled_to, target: place/mosul, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'مساور الشراري، زعيم خارجي خرج على الموصل أيام الخليفة المنصور فهزم أهلها على عهد واليها عقبة بن محمد بن ا" }
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]

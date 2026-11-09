@@ -33,6 +33,8 @@ faith:
   basis: tradition
   note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+- { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 - type: spouse_of
   target: person/musab-ibn-umayr
   note: تزوجها مصعب بن عمير حتى استشهد يوم أحد؛ حين بُلّغت قيل لها «يا حمنة احتسبي زوجك» (نساء حول الرسول ص371-375).

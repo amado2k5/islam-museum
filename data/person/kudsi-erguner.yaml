@@ -14,6 +14,8 @@ wings: [people, living]
 regions: [anatolia-balkans]
 roles: [sufi-singer, musician, composer, teacher]
 born: { edtf: "1952-02-04", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Diyarbakır (English article and Wikidata).", sources: [source/wikipedia-kudsi-erguner-en, source/wikidata-kudsi-erguner] }
+relations:
+  - { type: born_in, target: place/diyarbak-r, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kudsi-erguner] }
 faith:
   - value: unknown
     basis: unknown

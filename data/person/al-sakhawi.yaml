@@ -11,6 +11,8 @@ periods: [period/mongol-post-mongol]
 born: { hijri: "0831-03", edtf: "1427/1428", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول 831؛ التحويل مشتق {cite:shadharat-dhahab p. 431} {cite:daw-lami-jil-1992 8/2}. وفيه عند المعجم ربيع الأول 830 {cite:encyclopaedia-of-islam-2 vol. 8 p. 946}." }
 died: { hijri: "0902-08-28", edtf: "1497-05-01~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بالمدينة يوم الأحد ثامن وعشرين شعبان 902 ودفن بالبقيع بجوار مشهد مالك؛ التحويل مشتق {cite:shadharat-dhahab p. 433}." }
 relations:
+  - { type: traveled_to, target: place/aleppo, note: "From text: رحل إلى الآفاق وجاب البلاد ودخل حلب ود", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan, source/daw-lami-jil-1992, source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/medina, note: "From text: توفي بالمدينة يوم الأحد ثامن وعشرين ", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan, source/daw-lami-jil-1992, source/encyclopaedia-of-islam-2] }
   - { type: born_in, target: place/cairo, sources: [source/daw-lami-jil-1992, source/shadharat-dhahab] }
   - { type: died_in, target: place/medina, sources: [source/shadharat-dhahab] }
   - { type: student_of, target: person/ibn-hajar-al-asqalani, note: "أشد الملازمة، 'أمثل جماعتي'", sources: [source/shadharat-dhahab, source/daw-lami-jil-1992] }

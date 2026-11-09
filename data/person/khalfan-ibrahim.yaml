@@ -18,6 +18,8 @@ roles: [athlete]
 wings: [people, living]
 regions: [arabia]
 born: { edtf: "1988-02-18", hijri: "1408", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 18 February 1988 in Doha, Qatar, per Wikidata; both articles give the date. The Hijri year is a tabular conversion. The museum has no place entity for Doha, so no born_in edge is written.", sources: [source/wikipedia-khalfan-ibrahim-en, source/wikipedia-khalfan-ibrahim-ar, source/wikidata-khalfan-ibrahim] }
+relations:
+  - { type: born_in, target: place/doha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khalfan-ibrahim] }
 faith:
   - value: unknown
     basis: unknown

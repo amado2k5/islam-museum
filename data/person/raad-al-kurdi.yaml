@@ -26,6 +26,8 @@ faith:
     note: "No source used names a school: Wikidata records no religion statement for him, and neither the Urdu nor the Sorani Kurdish article gives one. Not recorded as sunni until two sources confirm it."
     sources: [source/wikidata-raad-al-kurdi, source/wikipedia-raad-al-kurdi-ur, source/wikipedia-raad-al-kurdi-ckb]
 external_ids: { wikidata: "Q56871542" }
+relations:
+  - { type: born_in, target: place/kirkuk, sources: [source/wikidata-raad-al-kurdi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q173310)" }
 sources: [source/wikipedia-raad-al-kurdi-ur, source/wikipedia-raad-al-kurdi-ckb, source/wikidata-raad-al-kurdi, source/youtube-radmohammad]
 provenance:
   layer: own-research

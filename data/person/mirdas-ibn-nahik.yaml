@@ -13,6 +13,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 died: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: debated, note: "قُتل في غزوة غالب أرض بني مرة؛ تاريخها غير مذكور عند ابن إسحاق (needs_source).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/juhayna, note: "من الحرقة من جهينة", sources: [source/ibn-hisham-saqqa] }
   - { type: allied_with, target: group/banu-murra, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-ghalib-on-banu-murra, role: "المقتول بعد نطقه بالشهادة", sources: [source/ibn-hisham-saqqa] }

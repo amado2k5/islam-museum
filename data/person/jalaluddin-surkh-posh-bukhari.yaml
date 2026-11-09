@@ -43,6 +43,7 @@ died:
     - source/wikipedia-jalaluddin-surkh-posh-bukhari-en
     - source/wikidata-jalaluddin-surkh-posh-bukhari
 relations:
+  - { type: died_in, target: place/uch, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jalaluddin-surkh-posh-bukhari] }
   - { type: born_in, target: place/bukhara, sources: [source/wikipedia-jalaluddin-surkh-posh-bukhari-en, source/khan-constructing-islam-on-the-indus-2016] }
   - type: member_of
     target: group/suhrawardiyya

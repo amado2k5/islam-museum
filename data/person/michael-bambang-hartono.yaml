@@ -32,6 +32,7 @@ died:
   note: "The English and Indonesian articles and Wikidata agree that he died in Singapore on 19 March 2026 (the Indonesian article gives 13.15 Singapore time), and he was buried on 25 March 2026 in the family cemetery at Rembang; the queue row's 'Living' is superseded. Singapore has no place entity on main, so no died_in edge is written. The date falls within the Hijri year 1447, which is given as the tabular conversion, marked derived."
   sources: [source/wikipedia-michael-bambang-hartono-en, source/wikipedia-michael-bambang-hartono-id, source/wikidata-michael-bambang-hartono, source/veritas-indonesia-michael-bambang-hartono-obituary]
 relations:
+  - { type: died_in, target: place/singapore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-michael-bambang-hartono] }
   - { type: sibling_of, target: person/robert-budi-hartono, sources: [source/wikipedia-michael-bambang-hartono-en, source/wikipedia-robert-budi-hartono-en, source/wikipedia-michael-bambang-hartono-id] }
 faith:
   - value: christian

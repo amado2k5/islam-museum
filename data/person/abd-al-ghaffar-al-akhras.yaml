@@ -20,3 +20,5 @@ story_roles:
 sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 360, lib-mawsuat-a3lam" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص360", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam; EI2 account added in ei2-b009 part 3dd" }
+relations:
+  - { type: traveled_to, target: place/baghdad, note: "From text: moved to Baghdad", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }

@@ -17,6 +17,8 @@ inventions:
     role: commissioner
     sources: [source/tdv-bimaristan]
 relations:
+  - { type: died_in, target: place/tus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/harun-al-rashid-mausoleum-tus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/al-mahdi, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/captives-of-samalu, role: "أمير الصائفة سنة 163", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/founding-of-tarsus, role: "الآمر بعمارتها سنة 171", sources: [source/futuh-buldan-maarif-1407] }

@@ -17,6 +17,8 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: died_in, target: place/bejaia, sources: [source/mawsuat-a3lam-ulama-adaba], confidence: medium, note: "He studied under Abd al-Haqq al-Ishbili at Bejaia {cite:mawsuat-a3lam-ulama-adaba}.'" }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]
 status:
   review: published

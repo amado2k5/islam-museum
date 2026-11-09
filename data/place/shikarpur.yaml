@@ -1,0 +1,21 @@
+id: place/shikarpur
+class: place
+kind: town
+label: { ar: "شيكاربور", en: "Shikarpur", ur: "شکارپور، پاکستان" }
+summary:
+  ar: "بلدة في باكستان."
+  en: "Town in Pakistan."
+wings: [place]
+regions: [south-asia]
+coordinates: [28, 68.666666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1250069" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1250069 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

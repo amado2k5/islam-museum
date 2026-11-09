@@ -30,6 +30,8 @@ died:
   note: "Died of heart failure at the Gatot Soebroto Army Hospital (RSPAD) in Jakarta, per the Indonesian article; buried the next day at Kalibata Heroes' Cemetery beside his wife. The Hijri year (1441) is derived by tabular conversion."
   sources: [source/wikipedia-bj-habibie-en, source/wikipedia-bj-habibie-id, source/wikidata-bj-habibie]
 relations:
+  - { type: born_in, target: place/parepare, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bj-habibie] }
+  - { type: died_in, target: place/gatot-soebroto-army-hospital, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bj-habibie] }
   - { type: died_in, target: place/jakarta, sources: [source/wikipedia-bj-habibie-en, source/wikipedia-bj-habibie-id] }
 faith:
   - value: unknown

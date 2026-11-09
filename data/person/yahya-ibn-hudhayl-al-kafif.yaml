@@ -16,3 +16,5 @@ provenance:
   run: lib-nafh-tib-batch-35
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/al-andalus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/nafh-tib-maqqari] }

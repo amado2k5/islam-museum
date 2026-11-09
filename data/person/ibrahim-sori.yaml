@@ -31,6 +31,7 @@ died:
   sources: [source/wikipedia-ibrahim-sori-en, source/wikipedia-ibrahim-sori-fr, source/wikidata-ibrahim-sori]
 
 relations:
+  - { type: died_in, target: place/guinea, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-ibrahim-sori-en, source/wikipedia-ibrahim-sori-fr, source/wikidata-ibrahim-sori] }
   - { type: successor_of, target: person/karamokho-alfa, sources: [source/wikipedia-ibrahim-sori-en, source/wikipedia-ibrahim-sori-fr] }
 
 faith:

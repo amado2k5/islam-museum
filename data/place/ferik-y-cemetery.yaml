@@ -1,0 +1,21 @@
+id: place/ferik-y-cemetery
+class: place
+kind: site
+label: { ar: "مقبرة فيريكوي", en: "Feriköy Cemetery" }
+summary:
+  ar: "موقع في تركيا."
+  en: "Site in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.048333333333, 28.971666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q19458352" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q19458352 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

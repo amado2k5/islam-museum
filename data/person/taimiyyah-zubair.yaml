@@ -13,6 +13,7 @@ roles: [teacher]
 wings: [people, living]
 regions: [americas-oceania]
 relations:
+  - { type: lived_in, target: place/canada, sources: [source/listennotes-taimiyyah-zubair, source/podcastapp-taimiyyah-zubair] }
   - { type: child_of, target: person/farhat-hashmi, sources: [source/listennotes-taimiyyah-zubair] }
   - { type: student_of, target: person/farhat-hashmi, sources: [source/listennotes-taimiyyah-zubair] }
 faith:

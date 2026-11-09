@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born in Logar Province, Afghanistan. The English article gives 1 January 1985 in its infobox and notes that CricketArchive and Sky Sports give 7 March 1985, and that 1 January is used by many Afghans as a de facto date of birth because birth dates were often not recorded during the wars since 1978; the date is therefore recorded as debated, following the article's own presentation. No place entity for Logar exists in data/place/, so no born_in relation is written. The Hijri year (1405) is derived by tabular conversion and is the same for both candidate dates."
   sources: [source/wikipedia-mohammad-nabi-en, source/wikipedia-mohammad-nabi-ur, source/wikidata-mohammad-nabi]
+relations:
+  - { type: born_in, target: place/afghanistan, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-mohammad-nabi-en, source/wikipedia-mohammad-nabi-ur, source/wikidata-mohammad-nabi] }
 faith:
   - value: unknown
     basis: unknown

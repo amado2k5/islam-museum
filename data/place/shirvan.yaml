@@ -1,0 +1,16 @@
+id: place/shirvan
+class: place
+kind: city
+label: { en: "Shirvan", ar: "شيروان" }
+summary:
+  en: "City in Azerbaijan."
+  ar: "مدينة في أذربيجان."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [39.9319, 48.9203]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q241116", geonames: "148565" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q241116 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -29,6 +29,8 @@ faith:
     note: "NOT RECORDED AS DOCUMENTED — no source names a school for Bey himself. The English article records that he was first exposed to Islam at thirteen and converted in his teens; conversion and practice are not a school attestation. The same article says his father was first a member of the Nation of Islam and later followed Imam Warith Deen Mohammed, whose community merged into mainstream Sunni Islam — that is his father's path, and a family member's affiliation never counts for the subject. The Arabic article names no school, and Wikidata gives his religion as Islam (Q432) generically. Under the two-source rule and the founder's doubt rule the faith is left unknown."
     sources: [source/wikipedia-yasin-bey-en, source/wikipedia-yasin-bey-ar, source/wikidata-yasin-bey]
 external_ids: { wikidata: "Q38875" }
+relations:
+  - { type: born_in, target: place/brooklyn, sources: [source/wikidata-yasin-bey], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q18419)" }
 sources: [source/wikipedia-yasin-bey-en, source/wikipedia-yasin-bey-ar, source/wikidata-yasin-bey]
 provenance:
   layer: own-research

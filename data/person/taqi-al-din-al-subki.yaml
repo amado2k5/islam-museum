@@ -18,7 +18,6 @@ periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1284-04-11~", hijri: "0683-02-01", calendar: julian, precision: day, status: tradition, derived: true, note: "أول صفر ٦٨٣هـ بسبك العبيد {cite:durar-kamina-jil-1993 3/63}؛ وقيل صفر ٦٨٣هـ/أبريل ١٢٨٤م {cite:encyclopaedia-of-islam-2 vol. 9 p. 744}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
 died: { edtf: "1355-06-16~", hijri: "0756-06-03", calendar: julian, precision: day, status: tradition, derived: true, note: "ثالث جمادى الآخرة ٧٥٦هـ بالقاهرة ودُفن بسعيد السعداء {cite:durar-kamina-jil-1993 3/70}؛ وقيل جمادى الثانية ٧٥٦هـ/يونيو ١٣٥٥م {cite:encyclopaedia-of-islam-2 vol. 9 p. 744}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
 relations:
-  - { type: died_in, target: place/cairo, sources: [source/durar-kamina-jil-1993] }
   - { type: participated_in, target: event/birth-al-subki-683, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
   - { type: participated_in, target: event/al-subki-studies-egypt-700, role: "الطالب", sources: [source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
   - { type: participated_in, target: event/al-subki-rihla-damascus-hajj-710, role: "الرحّالة الحاج", sources: [source/encyclopaedia-of-islam-2] }
@@ -32,6 +31,8 @@ relations:
   - { type: participated_in, target: event/taj-al-din-qadi-756, role: "الوالد النازل عن المنصب", sources: [source/al-bidaya-wal-nihaya] }
   - { type: participated_in, target: event/al-subki-leaves-damascus-756, role: "المسافر", sources: [source/al-bidaya-wal-nihaya] }
   - { type: participated_in, target: event/death-al-subki-756, role: "المتوفَّى", sources: [source/al-bidaya-wal-nihaya, source/durar-kamina-jil-1993] }
+  - { type: died_in, target: place/cairo, sources: [source/durar-kamina-jil-1993] }
+  - { type: lived_in, target: place/damascus, sources: [source/siyar-alam-nubala-abyari, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
 sources: [source/siyar-alam-nubala-abyari, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya, source/siyar-alam-nubala]
 external_ids:
   wikidata: Q12202948

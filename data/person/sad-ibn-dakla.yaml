@@ -9,6 +9,9 @@ roles: [ruler]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia]
+relations:
+  - { type: ruled_over, target: place/shiraz, sources: [source/kamil-ibn-al-athir] }
+  - { type: ruled_over, target: place/fars, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

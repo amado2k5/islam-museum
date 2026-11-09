@@ -1,0 +1,35 @@
+id: place/al-eddin-mosque
+class: place
+kind: site
+label:
+  ar: مسجد علاء الدين
+  en: Alâeddin Mosque
+  ur: علاء الدین مسجد
+summary:
+  ar: موقع في تركيا.
+  en: Mosque in Konya, central Turkey.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 37.8735
+- 32.4928
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q2620007
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q2620007 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q2620007 (labels, coordinates, description)

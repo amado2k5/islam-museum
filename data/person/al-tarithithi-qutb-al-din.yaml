@@ -28,3 +28,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wafayat-ayan]
+relations:
+  - { type: lived_in, target: place/nishapur, note: "From text: تفقه بنيسابور وسمع الحديث ورأى الأست", sources: [source/wafayat-ayan] }
+  - { type: lived_in, target: place/nizamiyya, note: "From text: درّس بالمدرسة النظامية بنيسابور نياب", sources: [source/wafayat-ayan] }

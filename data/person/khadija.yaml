@@ -33,6 +33,7 @@ faith:
   - { value: arabian-polytheism, basis: tradition, end: { edtf: "0610~" } }
   - { value: sunni, basis: tradition, start: { edtf: "0610~" }, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). She predates the Sunni-Shia division." }
 relations:
+  - { type: buried_in, target: place/jannat-al-mualla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/mecca }
   - { type: child_of, target: person/khuwaylid-ibn-asad }

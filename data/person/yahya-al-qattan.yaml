@@ -13,6 +13,8 @@ regions: [levant-iraq]
 periods: [period/abbasid-early]
 born: { edtf: "0738", precision: year, status: tradition, derived: true }
 died: { edtf: "0813", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q48195)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12251664

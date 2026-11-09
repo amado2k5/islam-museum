@@ -1,0 +1,21 @@
+id: place/phulwari-sharif
+class: place
+kind: town
+label: { ar: "فلواري شريف", en: "Phulwari Sharif" }
+summary:
+  ar: "بلدة فلواري شريف."
+  en: "Town (Phulwari Sharif)."
+wings: [place]
+regions: [south-asia]
+coordinates: [25.57749, 85.079361]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q2733615; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2733615" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2733615 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

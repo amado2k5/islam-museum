@@ -1,0 +1,36 @@
+id: place/tashkent
+class: place
+kind: city
+label:
+  ar: طشقند
+  en: Tashkent
+  ur: تاشقند
+summary:
+  ar: مدينة تُعرف بالإنجليزية باسم Tashkent.
+  en: City in Tashkent Khanate.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 41.3111
+- 69.2797
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q269
+  geonames: '1484839'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q269 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q269 (labels, coordinates, description)

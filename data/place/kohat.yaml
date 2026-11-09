@@ -1,0 +1,20 @@
+id: place/kohat
+class: place
+kind: city
+label: { ar: "كوهات", en: "Kohat" }
+summary:
+  ar: "مدينة في إقليم خيبر بختونخوا بباكستان."
+  en: "City in Khyber Pakhtunkhwa, Pakistan."
+wings: [place]
+regions: [south-asia]
+coordinates: [33.59, 71.43972]
+coordinate_precision: locality
+coordinate_note: "Wikidata Q1195983 coordinates; representative point for the city."
+external_ids: { wikidata: "Q1195983", geonames: "1173491" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Coordinates, labels and identifiers from Wikidata Q1195983 and GeoNames; entity created so persons' place relations resolve on the map."

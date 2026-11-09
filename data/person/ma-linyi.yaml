@@ -35,6 +35,8 @@ died:
   derived: true
   note: "The Chinese article and Wikidata give 17 September 1938; the English article gives the year only, and the Arabic article's date range misprints the death year as 1838. No source names a place of death, so no died_in relation is written. The Hijri year is derived by conversion."
   sources: [source/wikipedia-ma-linyi-zh, source/wikidata-ma-linyi]
+relations:
+  - { type: died_in, target: place/beijing, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-linyi] }
 faith:
   - value: unknown
     basis: unknown

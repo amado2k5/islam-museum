@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch45
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/muruj-al-dhahab], confidence: low, note: "ar: 'قتله عمرو بن الليث الصفار وورد الخبر بذلك سنة ثلاث وثمانين ومائتين، وأدخل رأسه إلى بغداد سنة أربع وثمانين" }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

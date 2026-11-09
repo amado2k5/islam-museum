@@ -30,6 +30,8 @@ faith:
     note: "FLAGGED: the only religion attestation anywhere is a single generic structured value. Wikidata's religion claim is Islam (Q432), generically; the English article — the only article that exists for him in any of the three languages — has no religion field and no religion text at all. On the wave-114 Chundrigar and wave-115 Zardari configuration (generic Islam only in Wikidata) the value stays unknown."
     sources: [source/wikipedia-shahid-khaqan-abbasi-en, source/wikidata-shahid-khaqan-abbasi]
 external_ids: { wikidata: "Q7461686" }
+relations:
+  - { type: born_in, target: place/karachi, sources: [source/wikidata-shahid-khaqan-abbasi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8660)" }
 sources:
   - source/wikipedia-shahid-khaqan-abbasi-en
   - source/wikidata-shahid-khaqan-abbasi

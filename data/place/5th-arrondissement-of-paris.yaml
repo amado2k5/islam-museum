@@ -1,0 +1,21 @@
+id: place/5th-arrondissement-of-paris
+class: place
+kind: region
+label: { ar: "الدائرة الخامسة في باريس", en: "5th arrondissement of Paris", ur: "پیرس کا پانچواں اراؤنڈڈسمنٹ" }
+summary:
+  ar: "إقليم في فرنسا."
+  en: "Region in France."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [48.847222222222, 2.3444444444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q238723" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q238723 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

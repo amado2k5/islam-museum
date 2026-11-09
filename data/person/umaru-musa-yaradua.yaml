@@ -37,6 +37,9 @@ faith:
     note: "Thinner than the Khan configuration, unflagged. No consulted text calls Yar'Adua personally a Muslim at all: the English article's religion material is his state government's adoption of sharia in Katsina in August 2000 (a policy decision taken under public pressure from Muslim groups, which counts as neither attestation nor practice of the man) and his Islamic burial in Katsina on 6 May 2010 (funeral practice). The Arabic article files him under 'Nigerian Muslims' (a category filing) and Wikidata gives a single structured value, Islam. No source used names a school or madhhab, so under the two-source rule the value stays unknown."
     sources: [source/wikipedia-umaru-musa-yaradua-en, source/wikipedia-umaru-musa-yaradua-ar, source/wikidata-umaru-musa-yaradua]
 external_ids: { wikidata: "Q104705" }
+relations:
+  - { type: born_in, target: place/katsina, sources: [source/wikidata-umaru-musa-yaradua], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q937487)" }
+  - { type: buried_in, target: place/katsina-state, sources: [source/wikidata-umaru-musa-yaradua], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q657821)" }
 sources: [source/wikipedia-umaru-musa-yaradua-en, source/wikipedia-umaru-musa-yaradua-ar, source/wikidata-umaru-musa-yaradua]
 provenance:
   layer: own-research

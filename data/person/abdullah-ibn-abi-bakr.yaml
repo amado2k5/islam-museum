@@ -25,6 +25,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "مسلم من أهل بيت أبي بكر؛ يسجَّل في الإطار السني للمتحف." }
 relations:
+  - { type: died_in, target: place/taif, note: "From text: قُتل بالطائف في حرب ابن الزبير والحج", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira] }
   - { type: child_of, target: person/abu-bakr }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/ghar-thawr, role: "عين الأخبار الليلية للمختبئين", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }

@@ -38,6 +38,8 @@ faith:
     note: "His school is not recorded: no text names a school for Suhrawardy himself, and the readings are preserved here. The English article's family section traces the Suhrawardy lineage to Shihab al-Din Umar al-Suhrawardi, the twelfth-century Baghdad Sufi; calls the Suhrawardiyya one of the major Sunni orders of Sufism; and describes his grandfather Ubaidullah Al Ubaidi Suhrawardy as a Dhaka-based Sufi leader — all of it family background and ancestry, which never counts as an attestation of the man's own affiliation, and no text states any discipleship, initiation or order membership of his own, so no sufi value is recorded. The Urdu and Arabic articles name no religion for him (the Arabic infobox's religion field is empty), and Wikidata's single religion value is Islam only."
     sources: [source/wikipedia-huseyn-shaheed-suhrawardy-en, source/wikipedia-huseyn-shaheed-suhrawardy-ur, source/wikipedia-huseyn-shaheed-suhrawardy-ar, source/wikidata-huseyn-shaheed-suhrawardy]
 relations:
+  - { type: born_in, target: place/medinipur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-huseyn-shaheed-suhrawardy] }
+  - { type: died_in, target: place/bayrut, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-huseyn-shaheed-suhrawardy] }
   - { type: successor_of, target: person/khawaja-nazimuddin, sources: [source/wikipedia-huseyn-shaheed-suhrawardy-en] }
   - { type: buried_in, target: place/dhaka, sources: [source/wikipedia-huseyn-shaheed-suhrawardy-en, source/wikidata-huseyn-shaheed-suhrawardy] }
 external_ids: { wikidata: "Q2046354" }

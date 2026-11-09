@@ -32,6 +32,9 @@ died:
   derived: true
   note: "Died in Kalisosok Prison, Surabaya, on 25 April 1946, and was buried at Langgar Gipo in Surabaya: the English and Indonesian articles and Wikidata agree. The Hijri year 1365 is a tabular conversion of the followed date, marked derived."
   sources: [source/wikipedia-mas-mansoer-en, source/wikipedia-mas-mansoer-id, source/wikidata-mas-mansoer]
+relations:
+  - { type: born_in, target: place/surabaya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mas-mansoer] }
+  - { type: died_in, target: place/indonesia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mas-mansoer] }
 faith:
   - value: unknown
     basis: unknown

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: died_in, target: place/harat, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q45313)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q61984578

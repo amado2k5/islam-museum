@@ -28,6 +28,8 @@ faith:
     note: "No source names a school of Islam for Yacine Brahimi. The English article's personal-life text states that he is a practising Muslim, citing reports of his 2017 Umrah journey to Mecca with Riyad Mahrez — practice reporting naming no school. The English article's categories file him under 'French Muslims' and 'Algerian Muslims' and the Arabic article's under the corresponding categories — category filings, which never count as attestation. The Arabic article has no religion field and its text makes no statement of religion. Wikidata (Q767469) gives Islam (Q432), generic — a single structured value naming no school. So the value is unknown."
     sources: [source/wikipedia-yacine-brahimi-en, source/wikipedia-yacine-brahimi-ar, source/wikidata-yacine-brahimi]
 external_ids: { wikidata: "Q767469" }
+relations:
+  - { type: born_in, target: place/paris, sources: [source/wikidata-yacine-brahimi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q90)" }
 sources: [source/wikipedia-yacine-brahimi-en, source/wikipedia-yacine-brahimi-ar, source/wikidata-yacine-brahimi]
 provenance:
   layer: own-research

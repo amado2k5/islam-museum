@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born 10 July 1998 in Karaj (English article; Wikidata). The modern city of Karaj has no place entity in the graph (place/al-karaj is the medieval Jibal city of the same name), so the birthplace is recorded in prose only. The Hijri year 1419 is the tabular conversion of 10 July 1998 and is marked derived."
   sources: [source/wikipedia-kimia-alizadeh-en, source/wikipedia-kimia-alizadeh-ar, source/wikipedia-kimia-alizadeh-fa, source/wikidata-kimia-alizadeh]
+relations:
+  - { type: lived_in, target: place/iran, confidence: low, note: "Associated with إيران per the record's own summary text; relation type pending review.", sources: [source/wikipedia-kimia-alizadeh-en] }
 faith:
   - value: unknown
     basis: unknown

@@ -12,6 +12,11 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [spirituality-and-sufism]
+relations:
+  - { type: born_in, target: place/ghazna, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q173731)" }
+  - { type: born_in, target: place/afghanistan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q889)" }
+  - { type: died_in, target: place/dushanbe, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q9365)" }
+  - { type: died_in, target: place/tajikistan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q863)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q16723182

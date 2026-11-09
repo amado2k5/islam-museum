@@ -34,6 +34,8 @@ died:
   sources: [source/wikipedia-siti-walidah-en, source/wikipedia-siti-walidah-id, source/wikidata-siti-walidah]
 relations:
   - { type: spouse_of, target: person/ahmad-dahlan, sources: [source/wikipedia-siti-walidah-en, source/wikipedia-siti-walidah-id, source/wikidata-siti-walidah] }
+
+  - { type: lived_in, target: place/al-muhammadiyya, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-siti-walidah-en, source/wikipedia-siti-walidah-id, source/wikidata-siti-walidah] }
 faith:
   - value: unknown
     basis: unknown

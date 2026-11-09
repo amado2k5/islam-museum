@@ -11,6 +11,11 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: buried_in, target: building/shah-chiragh-shiraz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/bahrayn, confidence: low, note: "From the people of Bahrain (من أهل البحرين) per al-A'lam.", sources: [source/al-aalam] }
+  - { type: lived_in, target: place/fars, confidence: low, note: "Moved to Fars and resided there (رحل إلى فارس وأقام فيها) per al-A'lam.", sources: [source/al-aalam] }
+  - { type: died_in, target: place/fars, confidence: low, note: "Resided in Fars until he died per al-A'lam.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q86067951

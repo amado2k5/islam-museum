@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: lived_in, target: place/indonesia, confidence: low, note: "Sultan of Banjar (Borneo) per the record's own summary; precise seat pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q4272717

@@ -12,6 +12,7 @@ themes: [women, battles, conquest-and-its-debates]
 periods: [period/rashidun]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with دمشق per the record's own summary text; relation type pending review.", sources: [source/futuh-al-sham-ilmiyya-1997-v1] }
   - { type: sibling_of, target: person/dirar-ibn-al-azwar, sources: [source/futuh-al-sham-ilmiyya-1997-v1] }
   - { type: participated_in, target: event/battle-of-yarmuk, sources: [source/futuh-al-sham-ilmiyya-1997-v1] }
 sources: [source/futuh-al-sham-ilmiyya-1997-v1, source/dehghani-farsani-futuh-al-sham-thesis]

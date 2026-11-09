@@ -11,6 +11,8 @@ regions: [egypt-nile]
 born: { edtf: "1344/1345", hijri: "0745", calendar: julian, precision: year, status: historical, derived: true, note: "745هـ على صفحة عنوان طبعة دار الحديث للبرهان {cite:burhan-dar-al-hadith-2006 p.2}؛ التحويل مشتق.", sources: [source/burhan-dar-al-hadith-2006] }
 died: { edtf: "1392-05-26", hijri: "0794-07-03", calendar: julian, precision: day, status: historical, derived: true, note: "توفي يوم الأحد ثالث رجب سنة 794هـ {cite:burhan-dar-al-hadith-2006 p.10}؛ وفي كشف الظنون سنة 794هـ {cite:kashf-zunun-furqan p. 518}؛ التحويل جدولي مشتق.", sources: [source/burhan-dar-al-hadith-2006, source/kashf-zunun-furqan] }
 relations:
+  - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/ilam-al-sajid, sources: [source/kashf-zunun-furqan] }
   - { type: student_of, target: person/al-isnawi-abd-al-rahim, sources: [source/burhan-dar-al-hadith-2006] }
   - { type: student_of, target: person/siraj-al-din-al-bulqini, sources: [source/burhan-dar-al-hadith-2006] }

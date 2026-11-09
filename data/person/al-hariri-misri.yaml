@@ -24,3 +24,6 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: died_in, target: place/dimyat, note: "From text: توفي بثغر دمياط ودُفن بزاوية الشيخ ش", sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/dimyat, note: "From text: buried at Damietta", sources: [source/shadharat-dhahab] }

@@ -1,0 +1,36 @@
+id: place/singapore
+class: place
+kind: city
+label:
+  ar: سنغافورة
+  en: Singapore
+  ur: سنگاپور
+summary:
+  ar: مدينة في الإمبراطورية البريطانية.
+  en: Sovereign island country and city-state in maritime Southeast Asia.
+wings:
+- place
+regions:
+- southeast-asia
+coordinates:
+- 1.3
+- 103.8
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q334
+  geonames: '1880251'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q334 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q334 (labels, coordinates, description)

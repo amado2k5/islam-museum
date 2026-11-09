@@ -65,3 +65,5 @@ occupations:
     status: historical
     note: "The TDV entry on the Samarkand observatory says he was invited to Samarkand for the observatory project and took part in building it and in making its instruments, as he relates it himself in his letters."
     sources: [source/tdv-semerkant-rasathanesi]
+relations:
+  - { type: lived_in, target: place/samarqand, note: "From text: of Ulugh Beg's Samarkand", sources: [source/al-aalam, source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi, source/qadi-zada-mactutor, source/schmidl-kashi-bea, source/dold-samplonius-muqarnas-1992], confidence: low }

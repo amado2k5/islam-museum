@@ -9,7 +9,10 @@ wings: [place]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
 relations:
-  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari, source/geonames-gazetteer] }
+coordinates: [37.49, -2.77]
+coordinate_precision: locality
+coordinate_note: "Identified modern location; flagged for gazetteer verification."
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 525–526"

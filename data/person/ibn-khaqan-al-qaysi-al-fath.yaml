@@ -17,6 +17,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/seville, confidence: low, note: "Associated with Seville per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]
 status:
   review: published

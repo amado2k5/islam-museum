@@ -1,0 +1,36 @@
+id: place/pretoria
+class: place
+kind: city
+label:
+  ar: بريتوريا
+  en: Pretoria
+  ur: پریٹوریا
+summary:
+  ar: مدينة في جنوب إفريقيا.
+  en: Administrative capital of South Africa located in the Gauteng province.
+wings:
+- place
+regions:
+- africa
+coordinates:
+- -25.7464
+- 28.1881
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q3926
+  geonames: '964137'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q3926 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q3926 (labels, coordinates, description)

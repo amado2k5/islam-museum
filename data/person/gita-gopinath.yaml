@@ -21,7 +21,8 @@ born:
   derived: true
   note: "Born on 8 December 1971 at Kolkata, India; the English article's infobox and early-life text and Wikidata agree on date and place (she was raised at Mysore). No born_in relation is written: Kolkata has no museum place entity. The Hijri year (1391) is derived by tabular conversion."
   sources: [source/wikipedia-gita-gopinath-en, source/wikidata-gita-gopinath]
-relations: []
+relations:
+  - { type: born_in, target: place/kolkata, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-gita-gopinath] }
 faith:
   - value: unknown
     basis: unknown

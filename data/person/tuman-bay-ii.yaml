@@ -14,5 +14,9 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-73
   extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 229, 232"]
+relations:
+  - { type: died_in, target: place/zuwayla, sources: [source/shadharat-dhahab], confidence: low, note: "en: 'Last Mamluk sultan, nephew of Qansuh al-Ghawri — raised in Egypt after Marj Dabiq, fought Selim a while, " }
+  - { type: ruler_of, target: place/ghawr, sources: [source/dawlat-uthmaniyya-salabi], confidence: low, note: "وعند الصلابي أن سليم أرسل إليه من الشام يطلب الطاعة فكان رد المماليك السخرية برسوله ثم قتله فقرر سليم الحرب، و" }
+  - { type: ruled_over, target: place/marj-dabiq, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'الملك الأشرف طومان باي الجركسي ابن أخي قانصوه الغوري، في شذرات الذهب أنه تولى مصر بعد وقعة مرج دابق ووقع " }
 sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi, source/yeomans-islamic-cairo-2006]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

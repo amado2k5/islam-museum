@@ -21,6 +21,8 @@ born:
 roles: [scholar, writer]
 regions: [africa, south-asia, americas-oceania]
 wings: [people, living]
+relations:
+  - { type: lived_in, target: place/lucknow, confidence: low, note: "Associated with Lucknow per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

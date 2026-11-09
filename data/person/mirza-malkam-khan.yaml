@@ -34,6 +34,9 @@ died:
   derived: false
   note: "Died in 1908 at Rome, where he was serving as Iran's ambassador to Italy (in post from 1898/99 until his death); all three sources give the year and the city, none a day. The Hijri year 1326 is the Persian article's own. There is no museum place entity for Rome, so no died_in edge is written."
   sources: [source/wikipedia-mirza-malkam-khan-en, source/wikipedia-mirza-malkam-khan-fa, source/wikidata-mirza-malkam-khan]
+relations:
+  - { type: born_in, target: place/new-julfa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-malkam-khan] }
+  - { type: died_in, target: place/rome, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-malkam-khan] }
 faith:
   - value: unknown
     basis: unknown

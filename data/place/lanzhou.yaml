@@ -1,0 +1,21 @@
+id: place/lanzhou
+class: place
+kind: city
+label: { ar: "لانتشو", en: "Lanzhou", ur: "لانژو" }
+summary:
+  ar: "مدينة في الصين."
+  en: "City in People's Republic of China."
+wings: [place]
+regions: [china-east-asia]
+coordinates: [36.06171, 103.83177]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q183584" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q183584 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

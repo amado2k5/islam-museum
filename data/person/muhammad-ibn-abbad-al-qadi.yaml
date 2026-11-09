@@ -12,6 +12,7 @@ periods: [period/abbasid-early]
 regions: [andalus-europe]
 relations:
   - { type: parent_of, target: person/al-mutadid-abbad, sources: [source/shadharat-dhahab] }
+  - { type: ruler_of, target: place/cordoba, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'أبو القاسم محمد بن إسماعيل بن عباد بن قريش اللخمي، قاضي إشبيلية ومؤسس الدولة العبادية؛ وثب أهلها على يحيى" }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia, levant-iraq]
 died: { edtf: "1436-03~", hijri: "0839-09", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في رمضان 839 {cite:shadharat-dhahab p. 229}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/shiraz, confidence: low, note: "Associated with شيراز per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 839)، قراءة آبل فيجن"

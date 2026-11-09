@@ -21,6 +21,9 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch79
 external_ids: { wikidata: "Q25451844" }
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q85)" }
+  - { type: died_in, target: place/egypt-eyalet, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q491507)" }
 sources: [source/shadharat-dhahab]
 status:
   review: published

@@ -20,6 +20,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch90
+relations:
+  - { type: ruled_over, target: place/shirwan, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'الملا محيي الدين محمد بن إبراهيم التكشاري الرومي الحنفي، عالم بالعربية والعلوم الشرعية والعقلية ماهر في ع" }
 sources: [source/shadharat-dhahab]
 status:
   review: published

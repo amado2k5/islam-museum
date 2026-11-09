@@ -11,6 +11,7 @@ regions: [levant-iraq]
 relations:
   - { type: participated_in, target: event/salman-armenia-reinforcement, role: "عامل الكوفة المأمور بالإمداد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/banu-umayya, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: ruler_of, target: place/kufa, sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/sahih-al-bukhari] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 278"

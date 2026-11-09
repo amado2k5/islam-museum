@@ -28,7 +28,8 @@ born:
   note: "Born in Bradford, West Yorkshire on 7 June 1978; the English and Arabic articles and Wikidata agree. The Hijri year 1398 is the tabular conversion of the built date, marked derived. No place entity for Bradford exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-imran-hussain-en, source/wikipedia-imran-hussain-ar, source/wikidata-imran-hussain]
 
-relations: []
+relations:
+  - { type: lived_in, target: place/gaza, confidence: low, note: "Associated with Gaza per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 
 faith:
   - value: unknown

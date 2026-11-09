@@ -1,0 +1,21 @@
+id: place/i-zmit
+class: place
+kind: city
+label: { ar: "إزميد", en: "İzmit", ur: "ازمیت" }
+summary:
+  ar: "مدينة في تركيا."
+  en: "City in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [40.7718818, 29.9497846]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q129649" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q129649 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

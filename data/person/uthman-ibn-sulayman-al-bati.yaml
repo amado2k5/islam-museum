@@ -12,6 +12,7 @@ summary:
 wings: [people]
 relations:
   - { type: student_of, target: person/al-hasan-al-basri, role: "أخذ عن الحسن (PDF ص49)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: traveled_to, target: place/basra, sources: [source/tabaqat-fuqaha-abbas-1981], confidence: medium, note: "ar: 'أبو عمرو عثمان بن سليمان البتي، من أهل الكوفة، انتقل إلى البصرة، أخذ عن الحسن البصري {cite:tabaqat-fuqaha" }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"

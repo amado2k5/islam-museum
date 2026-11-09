@@ -19,6 +19,7 @@ died:
   sources:
   - source/tarikh-ibn-khaldun-ibar
 relations:
+- { type: lived_in, target: place/mosul, confidence: low, note: "Associated with الموصل per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: fought
   target: person/sukman-ibn-artuq
   sources:

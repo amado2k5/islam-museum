@@ -34,6 +34,7 @@ died:
   sources: [source/wikipedia-yusuf-al-azma-en, source/wikipedia-yusuf-al-azma-ar, source/wikipedia-yusuf-al-azma-ur, source/wikidata-yusuf-al-azma]
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikipedia-yusuf-al-azma-en, source/wikipedia-yusuf-al-azma-ar] }
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-yusuf-al-azma-en, source/wikipedia-yusuf-al-azma-ar, source/wikipedia-yusuf-al-azma-ur, source/wikidata-yusuf-al-azma] }
 faith:
   - value: unknown
     basis: unknown

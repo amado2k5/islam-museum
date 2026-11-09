@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born 21 September 1989 in Riyadh, Saudi Arabia, as given by the English Wikipedia article's infobox. Some secondary listings give 22 September; the Wikipedia date, sourced to Gulf News and Arab News coverage, is followed here. No place entity for Riyadh exists in data/place/, so no born_in relation is written. The Hijri year (1410) is derived by tabular conversion."
   sources: [source/wikipedia-dina-shihabi-en]
+relations:
+  - { type: born_in, target: place/riyadh, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-dina-shihabi-en] }
 faith:
   - value: unknown
     basis: unknown

@@ -17,6 +17,7 @@ relations:
   - { type: student_of, target: person/abu-ishaq-al-shirazi, sources: [source/wafayat-ayan] }
   - { type: born_in, target: place/hamadan, sources: [source/wafayat-ayan] }
   - { type: died_in, target: place/merv, sources: [source/wafayat-ayan] }
+  - { type: born_in, target: place/hamadhan, sources: [source/wafayat-ayan] }
 sources: [source/wafayat-ayan]
 provenance:
   layer: own-research

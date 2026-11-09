@@ -13,6 +13,8 @@ regions: [persia-central-asia]
 periods: [period/modern-era]
 born: { edtf: "1877", precision: year, status: tradition, derived: true }
 died: { edtf: "1943", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/soviet-union, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q61889896

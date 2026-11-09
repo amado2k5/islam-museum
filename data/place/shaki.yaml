@@ -1,0 +1,21 @@
+id: place/shaki
+class: place
+kind: city
+label: { ar: "شكي", en: "Shaki", ur: "شکی" }
+summary:
+  ar: "مدينة في أذربيجان."
+  en: "City in Azerbaijan."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [41.191944444444, 47.170555555556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q234783" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q234783 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

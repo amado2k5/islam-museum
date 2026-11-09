@@ -27,6 +27,8 @@ faith:
     note: "No source read names any religious affiliation for him: the English article and the Urdu stub are silent on religion and Wikidata carries no religion value. This is an absence configuration — nothing attests an affiliation, and nothing attests a departure from one either. His Indian origin and his name are not attestations, and no segment is recorded."
     sources: [source/wikipedia-salim-ismail-en, source/wikipedia-salim-ismail-ur, source/wikidata-salim-ismail]
 external_ids: { wikidata: "Q18353687" }
+relations:
+  - { type: born_in, target: place/hyderabad, sources: [source/wikidata-salim-ismail], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1361)" }
 sources: [source/wikipedia-salim-ismail-en, source/wikipedia-salim-ismail-ur, source/wikidata-salim-ismail]
 provenance:
   layer: own-research

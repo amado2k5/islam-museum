@@ -14,6 +14,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [maghreb]
 relations:
+  - { type: ruler_of, target: place/ifriqiya, note: "From text: والي إفريقية فهزمته فلحق بقصور", sources: [source/tarikh-ibn-khaldun-ibar, source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020, source/futuh-misr-amir-1999], confidence: low }
   - { type: participated_in, target: event/hassan-vs-kahina, role: "الملكة المهزِمة ثم المقتولة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/berbers, sources: [source/futuh-buldan-maarif-1407] }
 provenance:

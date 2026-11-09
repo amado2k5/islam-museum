@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]
 relations:
+- { type: lived_in, target: place/zabid, note: "From text: من أهل العثر من سواحل زبيد", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
 - { type: "founder_of", target: "polity/dawlat-bani-mahdi-yemen", note: "دعا فقامت دولته باليمن", sources: [source/tarikh-ibn-khaldun-ibar] }
 sources:
 - source/tarikh-ibn-khaldun-ibar

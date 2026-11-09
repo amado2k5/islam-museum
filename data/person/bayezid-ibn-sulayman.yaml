@@ -14,6 +14,7 @@ summary:
   en: "Prince Bayezid b. Sulayman — Shah Tahmasp killed him at the order of his own father Sultan Sulayman in 961 {cite:shadharat-dhahab p. 329}."
 died: { edtf: "1554~", hijri: "0961", calendar: julian, precision: year, status: tradition, derived: true, note: "وفيها (961) قتله شاه طهماسب بأمر أبيه سليمان {cite:shadharat-dhahab p. 329}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
   - { type: child_of, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

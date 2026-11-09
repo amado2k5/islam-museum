@@ -1,0 +1,14 @@
+id: place/brno
+class: place
+kind: town
+label: { ar: "برنو", en: "Brno" }
+summary: { ar: "برنو.", en: "Brno; a place linked to persons via Wikidata claims." }
+wings: [place]
+regions: [global]
+coordinates: [49.1953, 16.6083]
+coordinate_precision: locality
+coordinate_note: "Wikidata Q14960."
+external_ids: { wikidata: "Q14960" }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1 }
+provenance: { layer: own-research, generated_by: "Devin", run: "person-place-geo-a" }

@@ -1,0 +1,21 @@
+id: place/solovetsky-islands
+class: place
+kind: site
+label: { ar: "جزر سولوفيتسكي", en: "Solovetsky Islands" }
+summary:
+  ar: "موقع في روسيا."
+  en: "Site in Russia."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [65.024444, 35.710556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q205711" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q205711 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -16,6 +16,8 @@ periods: [period/gunpowder-empires]
 regions: [levant-iraq]
 story_roles:
   - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: died_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
   wikidata: Q6768027
 sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]

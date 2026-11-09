@@ -10,6 +10,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 roles: [ruler, military]
+relations:
+  - { type: lived_in, target: place/sidon, confidence: low, note: "Associated with صيدا per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

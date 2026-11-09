@@ -30,7 +30,8 @@ died:
   derived: true
   note: "Gregorian date and Bhopal place of death from English Wikipedia and Wikidata Q2364774; no place entity exists for Bhopal, so no died_in relation is written. The Hijri year (1348) is derived by tabular conversion."
   sources: [source/wikipedia-sultan-jahan-en, source/wikidata-sultan-jahan]
-relations: []
+relations:
+  - { type: born_in, target: place/bhopal, sources: [source/wikidata-sultan-jahan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80989)" }
 faith:
   - value: unknown
     basis: unknown

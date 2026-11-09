@@ -38,6 +38,8 @@ faith:
     note: "Two independent article texts name his order membership personally, in the Talat Pasha pattern. The English text states that he was born into the Senussi Order and headed it from 1916; the Arabic text likewise states that he was born a member of the Senussi order and became its leader on his cousin's abdication. Both articles describe the Senusiyya as a Sufi order. His hereditary headship alone would not suffice; the membership statements carry this recording. No school is recorded alongside it: the English and French infoboxes give Sunni Islam, but no article text names a school for him personally — the texts call the Senussi themselves a revivalist Sunni movement, a description of the order as a body."
     sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar]
 relations:
+  - { type: born_in, target: place/jaghbub, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-idris-senussi] }
+  - { type: buried_in, target: place/al-baqi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-idris-senussi] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar] }
   - { type: buried_in, target: place/medina, sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar] }
   - { type: child_of, target: person/muhammad-al-mahdi-al-sanusi, sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar] }

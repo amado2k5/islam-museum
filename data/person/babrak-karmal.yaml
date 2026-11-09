@@ -31,6 +31,9 @@ died:
   derived: true
   note: "Died at Moscow of liver cancer. The English infobox, the Arabic article and Wikidata give 3 December 1996, but the English lead dates his death '1 or 3 December 1996' and its text says 'in early December 1996', and the Urdu article gives '1 or 3 December'; 3 December is carried, marked debated. He was buried at Hairatan. No place entity exists for Moscow or Hairatan, so no died_in or buried_in relation is written. The Hijri year (1417) is from the Arabic article's category pairing; tabular conversion agrees."
   sources: [source/wikipedia-karmal-en, source/wikipedia-karmal-ar, source/wikipedia-karmal-ur, source/wikidata-karmal]
+relations:
+  - { type: born_in, target: place/kabul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/hairatan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

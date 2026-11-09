@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
+coordinates: [40.5, 48.9]
+coordinate_precision: approx
+coordinate_note: "Approximate location; the exact classical/modern identification or extent is not fixed to the metre."
 relations:
   - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
@@ -15,5 +18,5 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273، 276"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-16
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

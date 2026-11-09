@@ -37,6 +37,7 @@ died:
   sources: [source/wikipedia-dey-hussein-en, source/wikipedia-dey-hussein-ar, source/wikidata-dey-hussein]
 
 relations:
+  - { type: born_in, target: place/izmir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-dey-hussein] }
   - { type: born_in, target: place/izmir, sources: [source/wikipedia-dey-hussein-ar, source/wikidata-dey-hussein] }
   - { type: died_in, target: place/alexandria, sources: [source/wikipedia-dey-hussein-en, source/wikipedia-dey-hussein-ar, source/wikidata-dey-hussein] }
 

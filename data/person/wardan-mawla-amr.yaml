@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/rashidun, period/umayyad]
 relations:
+  - { type: lived_in, target: place/misr, sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab] }
   - { type: participated_in, target: event/four-lieutenants-egypt, role: "على قول: موجّه قرى أسفل الأرض", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

@@ -8,6 +8,7 @@ wings: [people]
 periods: [period/abbasid-early]
 relations:
   - { type: participated_in, target: event/founding-of-qayrawan, role: "مرمّم المدينة ومسجدها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: ruled_over, target: place/qayrawan, sources: [source/wikidata], confidence: low, note: "ar: 'محمد بن الأشعث الخزاعي؛ ولّاه أبو العباس إفريقية فرمّ مدينة القيروان ومسجدها ثم عزله المنصور وولّى مكانه " }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 322"

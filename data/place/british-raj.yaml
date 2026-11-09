@@ -1,0 +1,21 @@
+id: place/british-raj
+class: place
+kind: region
+label: { ar: "الراج البريطاني", en: "British Raj", ur: "برطانوی ہند" }
+summary:
+  ar: "إقليم في الإمبراطورية البريطانية."
+  en: "Region in British Empire."
+wings: [place]
+regions: [south-asia]
+coordinates: [22.541111111111, 88.337777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q129286" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q129286 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

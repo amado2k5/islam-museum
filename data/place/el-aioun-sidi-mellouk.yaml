@@ -1,0 +1,21 @@
+id: place/el-aioun-sidi-mellouk
+class: place
+kind: city
+label: { ar: "العيون الشرقية", en: "El Aioun Sidi Mellouk" }
+summary:
+  ar: "مدينة في المغرب."
+  en: "City in Morocco."
+wings: [place]
+regions: [maghreb]
+coordinates: [34.5853, -2.50556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3049730" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3049730 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

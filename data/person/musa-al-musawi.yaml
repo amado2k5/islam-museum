@@ -13,6 +13,8 @@ regions: [levant-iraq]
 periods: [period/contemporary-era]
 born: { edtf: "1930", precision: year, status: tradition, derived: true }
 died: { edtf: "1997", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168193)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6939983

@@ -1,0 +1,21 @@
+id: place/koutiala
+class: place
+kind: town
+label: { ar: "كوتيالا", en: "Koutiala", ur: "کووتیالا" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q281000)."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [12.383333333333, -5.4666666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q281000" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q281000 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -34,6 +34,7 @@ died:
 relations:
   - { type: student_of, target: person/mahmud-hasan-deobandi, sources: [source/wikipedia-sanaullah-amritsari-en] }
   - { type: member_of, target: group/ahl-i-hadith-india, sources: [source/wikipedia-sanaullah-amritsari-en, source/lums-ahl-e-hadith-project] }
+  - { type: born_in, target: place/amritsar, sources: [source/wikipedia-sanaullah-amritsari-en] }
 faith:
   - value: sunni
     basis: documented

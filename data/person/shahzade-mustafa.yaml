@@ -13,6 +13,11 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/manisa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q147089)" }
+  - { type: died_in, target: place/heraclea, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q996056)" }
+  - { type: buried_in, target: place/muradiye-complex, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q12747162)" }
+  - { type: buried_in, target: building/turbe-of-sehzade-mustafa, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q20587092)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1251392

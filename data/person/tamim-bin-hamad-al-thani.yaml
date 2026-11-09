@@ -28,6 +28,8 @@ relations:
   - { type: child_of, target: person/hamad-bin-khalifa-al-thani, sources: [source/wikipedia-tamim-bin-hamad-al-thani-en, source/wikidata-tamim-bin-hamad-al-thani] }
   - { type: successor_of, target: person/hamad-bin-khalifa-al-thani, sources: [source/wikipedia-tamim-bin-hamad-al-thani-en, source/wikipedia-tamim-bin-hamad-al-thani-ar] }
   - { type: member_of, target: group/al-thani, sources: [source/wikipedia-tamim-bin-hamad-al-thani-en, source/wikidata-tamim-bin-hamad-al-thani] }
+
+  - { type: lived_in, target: place/buhran, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-tamim-bin-hamad-al-thani-en, source/wikipedia-tamim-bin-hamad-al-thani-ar, source/wikipedia-tamim-bin-hamad-al-thani-ur, source/wikidata-tamim-bin-hamad-al-thani] }
 wings: [people, living]
 regions: [arabia]
 external_ids: { wikidata: "Q1855372" }

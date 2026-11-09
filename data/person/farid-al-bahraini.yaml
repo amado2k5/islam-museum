@@ -27,6 +27,8 @@ wings:
   - living
 regions:
   - arabia
+relations:
+  - { type: lived_in, target: place/bahrayn, confidence: low, note: "Association from the person's nisba; origin/residence pending verification.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

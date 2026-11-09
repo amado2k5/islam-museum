@@ -13,6 +13,7 @@ periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 died: { edtf: "1431~", hijri: "0834", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 834 {cite:shadharat-dhahab p. 208}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
   - { type: child_of, target: person/muflih, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

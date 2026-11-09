@@ -24,6 +24,8 @@ born:
   derived: true
   note: "31 October 1963 at Boutilimit, Mauritania, given by the English, Arabic and French articles and by Wikidata. The Hijri year is a conversion of the Gregorian date. Boutilimit has no place entity in the museum yet, so no born_in relation is written."
   sources: [source/wikipedia-mohamed-el-hacen-ould-dedew-en, source/wikipedia-mohamed-el-hacen-ould-dedew-ar, source/wikipedia-mohamed-el-hacen-ould-dedew-fr, source/wikidata-mohamed-el-hacen-ould-dedew]
+relations:
+  - { type: born_in, target: place/boutilimit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-el-hacen-ould-dedew] }
 faith:
   - value: unknown
     basis: unknown

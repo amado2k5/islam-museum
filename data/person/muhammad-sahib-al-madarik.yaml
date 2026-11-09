@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
+relations:
+  - { type: born_in, target: place/jbaa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q6168626)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12240620

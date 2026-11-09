@@ -27,6 +27,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "مسلمة مبكرة؛ تسجَّل في الإطار السني للمتحف." }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/nisa-hawl-alrasul, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan], confidence: low }
   - { type: child_of, target: person/abu-bakr }
   - { type: child_of, target: person/qutayla-bint-abd-al-uzza, note: "أمها قتيلة بنت عبد العزى بن عبد أسعد بن نصر (نساء حول الرسول ص188).", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/early-muslims }

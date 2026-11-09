@@ -50,6 +50,7 @@ died:
     - source/wikidata-mir-emad-hassani
 
 relations:
+  - { type: born_in, target: place/qazvin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/qazvin, sources: [source/iranica-emad-hasani, source/wikipedia-mir-emad-hassani-en, source/wikipedia-mir-emad-hassani-fa] }
   - { type: died_in, target: place/isfahan, sources: [source/iranica-emad-hasani, source/wikipedia-mir-emad-hassani-en] }
   - { type: buried_in, target: place/isfahan, sources: [source/wikipedia-mir-emad-hassani-en, source/wikipedia-mir-emad-hassani-fa] }

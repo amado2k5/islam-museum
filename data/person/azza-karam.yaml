@@ -20,6 +20,8 @@ born:
   derived: false
   note: "Year only, as Wikidata gives it (1968, year precision); no source read gives a day or month, and no Hijri year is recorded because a bare Gregorian year spans two Hijri years (1387–1388). Wikidata places her birth in Egypt at country level only, so no born_in relation is written."
   sources: [source/wikidata-azza-karam]
+relations:
+  - { type: born_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-azza-karam] }
 faith:
   - value: unknown
     basis: unknown

@@ -26,6 +26,8 @@ faith:
     note: "No source consulted names a school of Islam for him: Wikidata records his religion as Islam in general, and neither the English nor the Arabic article names a school. The English article's account of his post-flight conversation with Abdulaziz ibn Baz — who, it says, trusted him as a Muslim witness on the Earth's rotation — is a narrative about his testimony, not a school attestation, and nothing is inferred from his family's or his state's affiliation. Not recorded until two independent sources name a school."
     sources: [source/wikipedia-sultan-bin-salman-al-saud-en, source/wikidata-sultan-bin-salman-al-saud]
 external_ids: { wikidata: "Q379946" }
+relations:
+  - { type: born_in, target: place/riyadh, sources: [source/wikidata-sultan-bin-salman-al-saud], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3692)" }
 sources: [source/wikipedia-sultan-bin-salman-al-saud-en, source/wikipedia-sultan-bin-salman-al-saud-ar, source/wikidata-sultan-bin-salman-al-saud]
 provenance:
   layer: own-research

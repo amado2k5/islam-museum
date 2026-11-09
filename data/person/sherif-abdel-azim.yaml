@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/contemporary-era]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q85)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q1110962

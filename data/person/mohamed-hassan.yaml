@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born in the village of Damouh, Dekernes district, Dakahlia Governorate, Egypt. The day-level date is given by the Arabic article's lead and by Wikidata (Q12240376, day precision); his birthplace district is Dekernes per Wikidata and the biographical sources. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-mohamed-hassan-ar, source/wikidata-mohamed-hassan]
+relations:
+  - { type: born_in, target: place/dikirnis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-hassan] }
 faith:
   - value: unknown
     basis: unknown

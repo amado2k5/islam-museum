@@ -16,6 +16,9 @@ faith: [{ value: sunni, basis: documented }]
 relations:
   - { type: child_of, target: person/al-ashraf-inal, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/khushqadam-accession-865, role: "السلطان المعزول", sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/gaza, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q47492)" }
+  - { type: died_in, target: place/alexandria, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q87)" }
+  - { type: buried_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q85)" }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 865)، قراءة آبل فيجن"

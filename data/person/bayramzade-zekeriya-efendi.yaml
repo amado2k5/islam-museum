@@ -32,6 +32,7 @@ died:
   sources: [source/dia-zekeriyya-efendi-bayramzade, source/wikipedia-bayramzade-zekeriya-efendi]
   note: "Died suddenly at the palace in Istanbul on 11 Shawwal 1001 / 11 July 1593, while waiting to be received by the sultan, shortly after recounting a dream in which he had seen the Prophet; the funeral prayer was held at Fatih Mosque and he was buried beside the medrese, dar al-hadith and dar al-qurra he had built near the Sultan Selim Mosque, completed in Muharram 1001 / October 1592; his son Yahya arranged the endowment deed in 1594 (DİA)."
 relations:
+  - { type: born_in, target: place/ankara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bayramzade-zekeriya-efendi] }
   - {type: died_in, target: place/istanbul, sources: [source/dia-zekeriyya-efendi-bayramzade, source/wikipedia-bayramzade-zekeriya-efendi]}
   - {type: buried_in, target: place/istanbul, sources: [source/dia-zekeriyya-efendi-bayramzade]}
 sources: [source/dia-zekeriyya-efendi-bayramzade, source/wikipedia-bayramzade-zekeriya-efendi, source/wikidata-bayramzade-zekeriya-efendi, source/dawlat-uthmaniyya-salabi]

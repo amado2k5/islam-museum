@@ -12,6 +12,8 @@ roles: [jurist, scholar]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
 faith:
   - value: sunni-hanbali
     basis: tradition

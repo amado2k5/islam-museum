@@ -15,6 +15,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [south-asia]
 relations:
+  - { type: lived_in, target: place/india, confidence: low, note: "Associated with الهند per the record's own text; relation type pending review.", sources: [source/wikipedia-lutfullah-muhandis-en] }
   - { type: child_of, target: person/ustad-ahmad-lahori, sources: [source/wikipedia-lutfullah-muhandis-en, source/wikipedia-lutfullah-muhandis-ar] }
 faith:
   - value: unknown

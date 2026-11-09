@@ -11,6 +11,7 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 died: { edtf: "1467-10~", hijri: "0872-04", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في ربيع سنة 872 {cite:tarikh-khulafa-minhaj-1434 p. 776}", sources: [source/tarikh-khulafa-minhaj-1434] }
 relations:
+  - { type: lived_in, target: place/daher, confidence: low, note: "Associated with الظاهر per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: participated_in, target: event/khushqadam-accession-865, role: "الأتابك المستولي", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/qaytbay-accession-872, role: "السلطان المتوفى", sources: [source/shadharat-dhahab] }
 provenance:

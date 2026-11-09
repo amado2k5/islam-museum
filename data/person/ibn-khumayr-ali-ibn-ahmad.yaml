@@ -16,6 +16,8 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/ceuta, confidence: low, note: "Associated with سبتة per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q25451577" }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:

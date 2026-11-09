@@ -7,6 +7,8 @@ summary:
 wings: [people]
 gender: male
 relations:
+  - { type: lived_in, target: place/kufa, note: "Wikidata Q186234 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: participated_in, target: event/qaratis-dinar-crisis, role: "راوي تعليل الأقباط", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
@@ -14,5 +16,5 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-26
 external_ids: { wikidata: "Q13458714" }
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

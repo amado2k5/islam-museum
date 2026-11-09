@@ -9,6 +9,7 @@ summary:
 gender: male
 roles: [military-commander]
 relations:
+- { type: lived_in, target: place/azerbaijan, confidence: low, note: "Associated with أذربيجان per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: fought
   target: person/marzuban-ibn-muhammad
   sources:

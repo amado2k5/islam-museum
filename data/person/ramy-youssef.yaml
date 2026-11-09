@@ -25,6 +25,8 @@ faith:
     note: "No source names a school for him. The English article says he was raised in a Muslim household observing Islamic holidays and 'remains a practicing Muslim' — upbringing and practice, which under the counting rule are not a school attestation. Wikidata gives his religion as Islam (Q432) generically. His public statements about his faith, including his prayers from the Saturday Night Live stage, are carried attributed in the prose as his stance, not as a segment."
     sources: [source/wikipedia-ramy-youssef-en, source/wikidata-ramy-youssef]
 external_ids: { wikidata: "Q65029416" }
+relations:
+  - { type: born_in, target: place/queens, sources: [source/wikidata-ramy-youssef], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q18424)" }
 sources: [source/wikipedia-ramy-youssef-en, source/wikipedia-ramy-youssef-ar, source/wikipedia-ramy-youssef-ur, source/wikidata-ramy-youssef]
 provenance:
   layer: own-research

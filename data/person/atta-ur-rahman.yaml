@@ -22,6 +22,7 @@ born:
   note: "Born 22 September 1942 in Old Delhi, per the English article's text and infobox and Wikidata. The Hijri year 1361 is derived by conversion from the Gregorian date; no source states a Hijri pairing."
   sources: [source/wikipedia-atta-ur-rahman-en, source/wikidata-atta-ur-rahman]
 relations:
+  - { type: born_in, target: place/delhi, note: "From text: born in Delhi", sources: [source/wikipedia-atta-ur-rahman-en, source/wikidata-atta-ur-rahman] }
   - { type: born_in, target: place/delhi, sources: [source/wikipedia-atta-ur-rahman-en] }
 faith:
   - value: unknown

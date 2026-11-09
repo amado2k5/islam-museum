@@ -10,3 +10,5 @@ sources: [source/tabari-tarikh-abu-al-fadl, source/muntazam-ibn-al-jawzi]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 7", sources: [source/tabari-tarikh-abu-al-fadl] }
 external_ids: { wikidata: "Q4702133" }
 status: { review: draft, completeness: 2, generated_by: "en label draft (Claude Haiku 5.5, batch 1); body pages read; Claude (Haiku 5.5)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "From text: أهل البصرة وهموا بالجلاء عنها", sources: [source/tabari-tarikh-abu-al-fadl, source/muntazam-ibn-al-jawzi], confidence: low }

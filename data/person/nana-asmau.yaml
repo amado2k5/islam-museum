@@ -26,6 +26,7 @@ died:
   sources: [source/wikipedia-nana-asmau-en, source/wikipedia-nana-asmau-ar, source/wikidata-nana-asmau]
 relations:
   - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-nana-asmau-en, source/nana-asmau-one-womans-jihad] }
+  - { type: born_in, target: place/sokoto, sources: [source/wikidata-nana-asmau], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q336350)" }
 faith:
   - value: sunni-maliki
     basis: documented

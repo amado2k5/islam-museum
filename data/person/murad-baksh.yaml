@@ -37,6 +37,8 @@ died:
 relations:
   - { type: child_of, target: person/shah-jahan-mughal, sources: [source/wikipedia-murad-baksh-en, source/wikipedia-murad-baksh-ar, source/wikidata-murad-baksh] }
 
+  - { type: born_in, target: place/rohtasgarh-fort, sources: [source/wikidata-murad-baksh], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q11946159)" }
+  - { type: died_in, target: place/gwalior-fort, sources: [source/wikidata-murad-baksh], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2487545)" }
 faith:
   - value: unknown
     basis: unknown

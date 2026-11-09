@@ -22,6 +22,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition }
 relations:
+  - { type: died_in, target: place/mutah, note: "From text: was killed at Mu'tah", sources: [source/ibn-hisham-saqqa-1936, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/muruj-al-dhahab, source/sallabi-ali-vol1, source/assabile-tareq-al-suwaidan] }
   - { type: member_of, target: group/khathum }
   - { type: spouse_of, target: person/jafar-ibn-abi-talib, sources: [source/ibn-hisham-saqqa-1936] }
   - { type: sibling_of, target: person/umm-al-fadl-lubaba, note: "أمها هند وهي خولة بنت عوف بن زهير بن الحارث — أم لبابة أم الفضل أيضاً (نساء حول الرسول ص203 و212).", sources: [source/nisa-hawl-alrasul] }

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/contemporary-era]
+relations:
+  - { type: born_in, target: place/biyala, sources: [source/wikidata], confidence: low, note: "Wikidata Q12177625 ('Q12177625'), located in Biyala" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q128863947

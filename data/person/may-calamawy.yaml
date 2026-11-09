@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born May El Calamawy on 28 October 1986 in Bahrain, as given by the English Wikipedia article's infobox and early-life section and by Wikidata; the article notes she holds Egyptian and Palestinian citizenship, not Bahraini citizenship. No place entity for the modern state of Bahrain exists in data/place/ (place/bahrayn is the historic Eastern Arabia region entity and is not used for a 1986 birth), so no born_in relation is written. The Hijri year (1407) is derived by tabular conversion."
   sources: [source/wikipedia-may-calamawy-en, source/wikidata-may-calamawy]
+relations:
+  - { type: born_in, target: place/bahrayn, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-may-calamawy] }
 faith:
   - value: unknown
     basis: unknown

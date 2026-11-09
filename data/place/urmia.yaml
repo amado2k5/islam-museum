@@ -1,0 +1,36 @@
+id: place/urmia
+class: place
+kind: city
+label:
+  ar: أرومية
+  en: Urmia
+  ur: ارومیہ، ایران
+summary:
+  ar: مدينة في إيران.
+  en: City in West Azerbaijan Province, Iran.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 37.5486
+- 45.0675
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q179665
+  geonames: '121801'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q179665 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q179665 (labels, coordinates, description)

@@ -37,6 +37,8 @@ relations:
   - { type: student_of, target: person/mahmud-hasan-deobandi, sources: [source/wikipedia-sindhi-en, source/wikipedia-sindhi-ar] }
   - { type: student_of, target: person/rashid-ahmad-gangohi, sources: [source/wikipedia-sindhi-ar] }
   - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-sindhi-en, source/wikipedia-sindhi-ar] }
+
+  - { type: lived_in, target: place/sind, confidence: low, note: "Association inferred from the nisba in the name 'Obaidullah Sindhi'; specific residence not individually documented.", sources: [source/wikipedia-sindhi-en, source/wikipedia-sindhi-ar, source/wikipedia-sindhi-ur, source/wikidata-sindhi] }
 faith:
   - value: unknown
     basis: unknown

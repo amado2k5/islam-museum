@@ -35,6 +35,10 @@ faith:
     note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder: the Sunni reading rests on a single structured value — the English article's infobox religion field reads 'Sunni Islam' — while the Arabic and Urdu articles make no religion statement, and this man's evidence is thinner than his half-brother Sabah's: his Wikidata item carries no religion (P140) value at all, so there is not even a generic structured echo. An infobox alone never counts, and his headship of the Al Sabah house does not attest personal affiliation. The reading is preserved here for the founder's ruling."
     sources: [source/wikipedia-jaber-al-ahmad-al-sabah-en, source/wikipedia-jaber-al-ahmad-al-sabah-ar, source/wikipedia-jaber-al-ahmad-al-sabah-ur, source/wikidata-jaber-al-ahmad-al-sabah]
 relations:
+  - { type: born_in, target: place/kuwait-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jaber-al-ahmad-al-sabah] }
+  - { type: died_in, target: place/kuwait-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jaber-al-ahmad-al-sabah] }
+  - { type: buried_in, target: place/sulaibikhat-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jaber-al-ahmad-al-sabah] }
+  - { type: lived_in, target: place/bayan-palace, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jaber-al-ahmad-al-sabah] }
   - { type: member_of, target: group/al-sabah, sources: [source/wikipedia-jaber-al-ahmad-al-sabah-en, source/wikidata-jaber-al-ahmad-al-sabah] }
 wings: [people]
 regions: [arabia]

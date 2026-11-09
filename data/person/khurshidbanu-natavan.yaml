@@ -32,6 +32,8 @@ died:
   derived: true
   note: "Died at Shusha and was buried in the Imarat cemetery at Aghdam. The English, Azerbaijani and Arabic articles and Wikidata give 2 October 1897; the Russian article gives 'September – 8 October 1897' (adding a Hijri month reading). The record follows 2 October 1897 and discloses the Russian reading. The Hijri year 1315 is the tabular conversion of the recorded date. The museum has no place entities for Shusha or Aghdam, so no died_in edge is written."
   sources: [source/wikipedia-khurshidbanu-natavan-en, source/wikipedia-khurshidbanu-natavan-az, source/wikipedia-khurshidbanu-natavan-ru, source/wikipedia-khurshidbanu-natavan-ar, source/wikidata-khurshidbanu-natavan]
+relations:
+  - { type: lived_in, target: place/azerbaijan, confidence: low, note: "Associated with أذربيجان per the record's own summary text; relation type pending review.", sources: [source/wikipedia-khurshidbanu-natavan-en] }
 faith:
   - value: unknown
     basis: unknown

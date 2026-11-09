@@ -1,0 +1,16 @@
+id: place/azaz
+class: place
+kind: city
+label: { en: "Azaz", ar: "أعزاز" }
+summary:
+  en: "Town in Aleppo, Syria."
+  ar: "مدينة في سوريا."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [36.5861, 37.0447]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q277674", geonames: "172082" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q277674 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

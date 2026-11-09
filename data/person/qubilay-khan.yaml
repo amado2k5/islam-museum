@@ -9,6 +9,8 @@ summary:
 gender: male
 roles: [ruler]
 relations:
+
+- { type: lived_in, target: place/qabala, confidence: low, note: "Association inferred from the nisba 'قبلاي'; specific birthplace or residence is not individually documented.", sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: child_of
   target: person/tolui-ibn-genghis
   sources:

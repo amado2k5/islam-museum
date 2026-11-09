@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: ruled_over, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/tabuk-departure-and-deputies, role: deputy-per-one-report, sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: "own-research"

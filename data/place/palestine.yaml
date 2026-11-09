@@ -1,0 +1,37 @@
+id: place/palestine
+class: place
+kind: region
+label:
+  ar: فلسطين
+  en: Palestine
+  ur: فلسطین
+summary:
+  ar: إقليم في بلاد الشام بين البحر المتوسط ونهر الأردن، فيه القدس.
+  en: Region of the Levant between the Mediterranean and the Jordan river, containing Jerusalem.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 31.62532
+- 35.14526
+coordinate_precision: locality
+coordinate_note: Wikidata Q23792 coordinates; representative point for the region.
+external_ids:
+  wikidata: Q23792
+  geonames: '12047392'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q23792 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

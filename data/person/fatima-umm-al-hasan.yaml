@@ -13,6 +13,8 @@ periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 born: { edtf: "1332~", hijri: "0732~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولدت سنة اثنتين أو ثلاث وثلاثين وسبعمائة {cite:shadharat-dhahab p. 112}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1409-06~", hijri: "0812-01", calendar: julian, precision: month, status: tradition, derived: true, note: "توفيت في العشر الأول من المحرم 812 وقد جاوزت الثمانين {cite:shadharat-dhahab p. 112}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/aleppo, confidence: low, note: "Associated with Aleppo per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 812)، قراءة آبل فيجن"

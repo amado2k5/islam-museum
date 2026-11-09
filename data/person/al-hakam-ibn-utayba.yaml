@@ -19,3 +19,5 @@ status:
   review: published
   completeness: 3
 
+relations:
+  - { type: lived_in, target: place/kufa, note: "From text: فقيه الكوفة الكندي", sources: [source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981], confidence: low }

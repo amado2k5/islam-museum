@@ -27,6 +27,9 @@ faith:
     note: "Recorded unknown, flagged: family background only. The English article says he was born 'into a Muslim family' — a statement about his family, not an attestation of his own affiliation, and family background never counts. The Urdu article's text names no religion for him (its 'Muslim scientists' category is a filing, which never counts); the Arabic article names none; Wikidata carries no religion value. No source names any affiliation for him personally."
     sources: [source/wikipedia-samar-mubarakmand-en, source/wikipedia-samar-mubarakmand-ur, source/wikipedia-samar-mubarakmand-ar, source/wikidata-samar-mubarakmand]
 external_ids: { wikidata: "Q7408791" }
+relations:
+  - { type: born_in, target: place/rawalpindi, sources: [source/wikidata-samar-mubarakmand], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q93230)" }
+  - { type: lived_in, target: place/islamabad, sources: [source/wikidata-samar-mubarakmand], confidence: low, note: "Wikidata P551 residence (Wikidata Q1362)" }
 sources: [source/wikipedia-samar-mubarakmand-en, source/wikipedia-samar-mubarakmand-ur, source/wikipedia-samar-mubarakmand-ar, source/wikidata-samar-mubarakmand]
 provenance:
   layer: own-research

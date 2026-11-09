@@ -14,5 +14,7 @@ regions: [arabia]
 relations:
   - { type: participated_in, target: event/qusayy-takes-mecca, role: "الحَكَم المُقضي بأولوية قصي", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: member_of, target: group/banu-bakr-ibn-abd-manaf }
+
+  - { type: lived_in, target: place/mecca, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

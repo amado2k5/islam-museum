@@ -19,3 +19,5 @@ died:
   calendar: julian
 sources: [source/tabaqat-shafiiyya-subki]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: died_in, target: place/damascus, note: "From text: مات بدمشق يوم الجمعة أول ذي القعدة ", sources: [source/tabaqat-shafiiyya-subki] }

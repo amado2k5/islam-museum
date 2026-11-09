@@ -12,6 +12,9 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
+relations:
+  - { type: born_in, target: place/khwarizm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q182647)" }
+  - { type: died_in, target: place/samarra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q170047)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q107284326

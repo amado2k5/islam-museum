@@ -8,6 +8,8 @@ gender: female
 periods: [period/umayyad]
 relations:
   - { type: child_of, target: person/ziyad-ibn-abi-sufyan }
+
+  - { type: lived_in, target: place/basra, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }

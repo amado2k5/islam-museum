@@ -18,6 +18,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 relations:
+  - { type: traveled_to, target: place/baalbek, note: "From text: journeyed to Baalbek", sources: [source/al-aalam, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/mizan-itidal-azimabadi-v1, source/mizan-itidal-azimabadi-v2, source/mizan-itidal-bijawi-v3] }
   - { type: born_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/birth-al-dhahabi-673, role: "المولود", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/al-dhahabi-begins-hadith-690, role: "الطالب", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }

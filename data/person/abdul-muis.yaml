@@ -45,3 +45,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-91
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/java, note: "From text: of West Java.", sources: [source/wikipedia-abdul-muis-en, source/wikipedia-abdul-muis-id, source/wikipedia-abdul-muis-ar, source/wikipedia-abdul-muis-ur, source/wikidata-abdul-muis], confidence: low }

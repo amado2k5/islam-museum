@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/kazakh-khanate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1433867)" }
+  - { type: died_in, target: place/kaluga, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2837)" }
+  - { type: buried_in, target: place/kasimov, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q145457)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q4476564

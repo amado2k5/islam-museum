@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch35
+relations:
+  - { type: lived_in, target: place/basra, note: "Leading Kharijite scholar whose annual debates with his Rafidi brother fit the Basran theological circle; flagged.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

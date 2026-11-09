@@ -23,3 +23,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 268, article 'Agha Muhammad Shah' signed Cl. Huart and L. Lockhart (EI2 enrichment, batch ei2-b003 part 3bx); Wikidata Q324974 for the identifier"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/iran, note: "From text: of Persia", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-hasan-ibrahim], confidence: low }

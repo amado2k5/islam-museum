@@ -55,6 +55,8 @@ died:
 roles: [politician, writer]
 regions: [south-asia]
 wings: [people]
+relations:
+  - { type: died_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-g-m-syed] }
 faith:
   - value: unknown
     basis: unknown

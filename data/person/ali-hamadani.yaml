@@ -22,3 +22,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 414, entry 'HAMADANI' (signed S. M. Stern) (EI2 entry, batch ei2-b010 part 3dq)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/hamadan, note: "From text: of Hamadan", sources: [source/encyclopaedia-of-islam-2], confidence: low }

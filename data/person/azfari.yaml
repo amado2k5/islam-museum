@@ -26,3 +26,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 862-863, entry 'AZFARI' (queue seq 464, batch ei2-b019; the entry is followed in the same row by the AL-AZHAR article); the Shah 'Alam numeral is printed I and is written as the emperor blinded, with the historical note in the prose"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: died_in, target: place/chennai, note: "From text: died at Madras", sources: [source/encyclopaedia-of-islam-2] }

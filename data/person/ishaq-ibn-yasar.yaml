@@ -11,6 +11,7 @@ wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
 relations:
+  - { type: lived_in, target: place/ayn-al-tamr, confidence: low, note: "Associated with عين التمر per the record's own summary text; relation type pending review.", sources: [source/mizan-itidal-bijawi-v3] }
   - { type: child_of, target: person/yasar-mawla-qays, sources: [source/mizan-itidal-bijawi-v3, source/futuh-buldan-maarif-1407] }
 sources: [source/mizan-itidal-bijawi-v3, source/futuh-buldan-maarif-1407]
 provenance:

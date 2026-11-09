@@ -22,6 +22,8 @@ born:
   sources: [source/wikipedia-ilkay-gundogan-en, source/wikipedia-ilkay-gundogan-ar]
 gender: male
 roles: [athlete]
+relations:
+  - { type: born_in, target: place/germany, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-ilkay-gundogan-en, source/wikipedia-ilkay-gundogan-ar] }
 faith:
   - value: unknown
     basis: unknown

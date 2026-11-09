@@ -1,0 +1,21 @@
+id: place/sheba
+class: place
+kind: region
+label: { ar: "مملكة سبأ", en: "Sheba", ur: "مملکت سبا" }
+summary:
+  ar: "إقليم في اليمن."
+  en: "Region in Yemen."
+wings: [place]
+regions: [arabia]
+coordinates: [15.45, 45.333333333333336]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q216068" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q216068 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

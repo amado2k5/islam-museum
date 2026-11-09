@@ -51,6 +51,7 @@ faith:
       - source/wikipedia-abdullah-bin-jassim-al-thani-ar
       - source/wikidata-abdullah-bin-jassim-al-thani
 relations:
+  - { type: born_in, target: place/doha, note: "From text: born at Doha", sources: [source/wikipedia-abdullah-bin-jassim-al-thani-en, source/wikidata-abdullah-bin-jassim-al-thani] }
   - type: child_of
     target: person/jassim-bin-mohammed-al-thani
     note: "Abdullah was a son of Sheikh Jassim bin Mohammed Al Thani, founder of Qatar, whom he succeeded on his death on 17 July 1913; Wikidata's father value is Jassim's own item."

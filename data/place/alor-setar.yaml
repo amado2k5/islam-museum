@@ -1,0 +1,36 @@
+id: place/alor-setar
+class: place
+kind: city
+label:
+  ar: ألور ستار
+  en: Alor Setar
+  ur: الور سیتار
+summary:
+  ar: مدينة في ماليزيا.
+  en: State capital of Kedah, Malaysia.
+wings:
+- place
+regions:
+- southeast-asia
+coordinates:
+- 6.1167
+- 100.3667
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q474868
+  geonames: '1736309'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q474868 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q474868 (labels, coordinates, description)

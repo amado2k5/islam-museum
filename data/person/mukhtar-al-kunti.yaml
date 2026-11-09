@@ -33,6 +33,8 @@ died:
   sources: [source/wikipedia-mukhtar-al-kunti-en]
 relations:
   - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-mukhtar-al-kunti-en, source/encyclopedia-kunti-mukhtar-al] }
+
+  - { type: born_in, target: place/timbuktu, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-mukhtar-al-kunti-en, source/encyclopedia-kunti-mukhtar-al] }
 faith:
   - value: sufi
     basis: documented

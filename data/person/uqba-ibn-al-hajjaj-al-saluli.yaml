@@ -14,5 +14,7 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-20
+relations:
+  - { type: died_in, target: place/cordoba, sources: [source/wikidata], confidence: low, note: "ويذكر الكتاب أن عبيد الله بن الحبحاب أرسله إلى الأندلس بعد عزل عبد الملك بن قطن، فملكها واستقر في سبتمانية، وف" }
 sources: [source/nafh-tib-maqqari, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

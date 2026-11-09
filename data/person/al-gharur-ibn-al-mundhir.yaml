@@ -16,6 +16,7 @@ regions: [arabia]
 story_roles:
   - { role: rebel, toward: polity/rashidun-caliphate, start: { edtf: "0632" }, status: tradition, note: "قاد ردة بعض عبد القيس بالبحرين (ابن هشام ص222).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: child_of, target: person/al-numan-ibn-al-mundhir, note: "الغرور بن المنذر بن النعمان بن المنذر: فهو حفيد النعمان", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/ridda-wars, role: "قائد ردة في البحرين", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 222 and n. 2", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }

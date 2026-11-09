@@ -31,6 +31,7 @@ faith:
 labelled:
   - { label: { en: "'Akilat al-akbad' (eater of the liver) — a name given her for the Uhud mutilation", ar: "آكلة الأكباد" }, by: "later Muslim tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: born_in, target: place/arabian-peninsula, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/mecca }
   - { type: child_of, target: person/utba-ibn-rabia }
   - { type: spouse_of, target: person/abu-sufyan-ibn-harb }

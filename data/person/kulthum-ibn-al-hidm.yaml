@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "أنصاري؛ يسجَّل في الإطار السني للمتحف." }
 relations:
+  - { type: lived_in, target: place/quba, confidence: low, note: "Associated with Quba per the record's own summary text; relation type pending review.", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/quba-sojourn, role: "مضيف النبي بقباء", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}

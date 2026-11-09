@@ -17,6 +17,8 @@ periods: [period/colonial-era]
 regions: [egypt-nile]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Nisba مصري attested in the record." }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

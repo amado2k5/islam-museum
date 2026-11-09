@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [egypt-nile]
 relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/kashf-zunun-furqan] }
   - { type: authored, target: work/ansab-himyar, sources: [source/kashf-zunun-furqan] }
   - { type: authored, target: work/sira-ibn-ishaq-ibn-hisham, sources: [source/kashf-zunun-furqan] }
 provenance:

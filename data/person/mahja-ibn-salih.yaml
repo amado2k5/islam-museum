@@ -12,6 +12,7 @@ summary:
 wings: [people]
 sources: [source/isaba-matba-al-saada-1328]
 relations:
+  - { type: died_in, target: place/badr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328]}
 external_ids:
   wikidata: Q12245938

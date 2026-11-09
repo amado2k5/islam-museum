@@ -22,6 +22,8 @@ born:
   sources: [source/wikipedia-kalidou-koulibaly-en, source/wikipedia-kalidou-koulibaly-ar]
 gender: male
 roles: [athlete]
+relations:
+  - { type: lived_in, target: place/france, confidence: low, note: "Associated with France per the record's own summary text; relation type pending review.", sources: [source/wikipedia-kalidou-koulibaly-en] }
 faith:
   - value: unknown
     basis: unknown

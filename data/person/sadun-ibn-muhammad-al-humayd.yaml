@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: died_in, target: place/jandal-yat-jah-m, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q32126307)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12216001

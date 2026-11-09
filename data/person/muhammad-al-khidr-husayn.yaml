@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
+relations:
+  - { type: lived_in, target: place/tunis, sources: [source/wikidata], confidence: low, note: "Nisba تونسي attested in the record." }
 sources: [source/al-hurriyya-fi-al-islam-azhar]
 provenance:
   layer: own-research

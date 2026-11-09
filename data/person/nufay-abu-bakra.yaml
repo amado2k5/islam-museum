@@ -1,14 +1,26 @@
 id: person/nufay-abu-bakra
 class: person
-label: { ar: "نفيع أبو بكرة", en: "Nufay' Abu Bakra" }
+label:
+  ar: نفيع أبو بكرة
+  en: Nufay' Abu Bakra
 summary:
-  ar: "نفيع أبو بكرة؛ أحد النافعين اللذين ذكرهما أبو المختار في قصيدته على عمال الأهواز مع نافع بن الحارث بن كلدة أخيه."
-  en: "Nufay' Abu Bakra; one of 'the two Nafi's' named in Abu al-Mukhtar's satire, with his brother Nafi' ibn al-Harith ibn Kallada."
-periods: [period/rashidun]
-wings: [people]
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1 }
+  ar: نفيع أبو بكرة؛ أحد النافعين اللذين ذكرهما أبو المختار في قصيدته على عمال الأهواز مع نافع بن الحارث بن كلدة أخيه.
+  en: Nufay' Abu Bakra; one of 'the two Nafi's' named in Abu al-Mukhtar's satire, with his brother Nafi' ibn al-Harith ibn Kallada.
+periods:
+- period/rashidun
+wings:
+- people
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+  generated_by: Devin (SWE-2 High)
+  extraction_flow: Apple Vision OCR -> manual extraction
+relations:
+- type: lived_in
+  target: place/basra
+  sources:
+  - source/futuh-buldan-maarif-1407

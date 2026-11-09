@@ -17,6 +17,7 @@ themes: [women, spirituality-and-sufism]
 faith:
   - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
 relations:
+  - { type: born_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: sibling_of, target: person/muhammad-ibn-sirin, sources: [source/sifat-al-safwa-tartusi-2012] }
   - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
 died: { edtf: "0719~", precision: decade, status: tradition, derived: true }

@@ -18,6 +18,8 @@ born:
   status: historical
   note: "Birth year only, from his entry in the Indonesian Wikipedia list of child artists (whose row cites an iTunes artist page); no source gives a day, month or birthplace, and no Hijri year is recorded because the Gregorian year 2012 spans two Hijri years."
   sources: [source/wikipedia-muhammad-hadi-assegaf-id]
+relations:
+  - { type: lived_in, target: place/indonesia, sources: [source/wikipedia-muhammad-hadi-assegaf-id, source/youtube-muhammad-hadi-assegaf] }
 faith:
   - value: unknown
     basis: unknown

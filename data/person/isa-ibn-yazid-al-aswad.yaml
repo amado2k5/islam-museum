@@ -22,6 +22,8 @@ traditions: [ibadi]
 wings: [people]
 periods: [period/umayyad, period/abbasid-early]
 regions: [maghreb]
+relations:
+  - { type: lived_in, target: place/meknes, confidence: low, note: "Associated with مكناسة per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

@@ -32,6 +32,8 @@ born:
   derived: true
   note: "Born in Detroit, Michigan, on 22 November 1971, per his own oral-history testimony recorded for Western Michigan University's Dream Storytelling Project (interviews of 5 and 25 October 2020). No place entity for Detroit exists in data/place/, so no born_in edge is written. The Hijri year (1391) is derived by tabular conversion."
   sources: [source/wmich-dawud-walid-oral-history]
+relations:
+  - { type: lived_in, target: place/united-states, confidence: low, note: "Associated with United States per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

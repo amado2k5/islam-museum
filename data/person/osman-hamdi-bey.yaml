@@ -34,6 +34,8 @@ relations:
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-osman-hamdi-bey-en, source/wikidata-osman-hamdi-bey] }
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-osman-hamdi-bey-en] }
   - { type: lived_in, target: place/baghdad, sources: [source/wikipedia-osman-hamdi-bey-en] }
+  - { type: born_in, target: place/constantinople, sources: [source/wikipedia-osman-hamdi-bey-en, source/wikidata-osman-hamdi-bey] }
+  - { type: died_in, target: place/constantinople, sources: [source/wikipedia-osman-hamdi-bey-en, source/wikidata-osman-hamdi-bey] }
 faith:
   - value: unknown
     basis: unknown

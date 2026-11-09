@@ -35,6 +35,8 @@ died:
   derived: true
   note: "The Chinese article gives 21 June 1965 and states that he died at Beijing; Wikidata agrees on the day. No museum place record exists for Beijing, so no died_in relation is written. The Hijri year is derived by conversion."
   sources: [source/wikipedia-da-pusheng-zh, source/wikidata-da-pusheng]
+relations:
+  - { type: died_in, target: place/beijing, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-da-pusheng-zh, source/wikidata-da-pusheng] }
 faith:
   - value: unknown
     basis: unknown

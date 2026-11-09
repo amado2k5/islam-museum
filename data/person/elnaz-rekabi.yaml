@@ -22,6 +22,8 @@ born:
   note: "Birth date is contested. The English infobox and the Persian article (29 Mordad 1368) both give 20 August 1989, born in Zanjan; Wikidata gives 20 July 1989. The 20 August 1989 date is followed and the variant is preserved here. The Hijri year 1410 is the tabular conversion of 20 August 1989 and is marked derived."
   sources: [source/wikipedia-elnaz-rekabi-en, source/wikipedia-elnaz-rekabi-fa, source/wikidata-elnaz-rekabi]
 relations:
+  - { type: born_in, target: place/zanjan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-elnaz-rekabi] }
+  - { type: lived_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-elnaz-rekabi] }
   - { type: born_in, target: place/zanjan, sources: [source/wikipedia-elnaz-rekabi-en, source/wikipedia-elnaz-rekabi-fa, source/wikidata-elnaz-rekabi] }
 faith:
   - value: unknown

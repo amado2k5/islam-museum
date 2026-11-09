@@ -1,0 +1,21 @@
+id: place/recoleta-cemetery
+class: place
+kind: site
+label: { ar: "مقبرة لا ريكوليتا", en: "Recoleta Cemetery" }
+summary:
+  ar: "موقع في الأرجنتين."
+  en: "Site in Argentina."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [-34.588055555556, -58.393055555556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q831322" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q831322 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

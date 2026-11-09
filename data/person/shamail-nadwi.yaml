@@ -26,6 +26,8 @@ faith:
     basis: documented
     note: "Two independent articles name the school: the English Wikipedia infobox gives his denomination as Sunni Islam and his jurisprudence as Hanafi (movement: Deobandi, Nadwi), and the Urdu Wikipedia article's lead describes him as considered affiliated with Sunni, Hanafi and Deobandi thought in the subcontinent's scholarly circles. The Deobandi/Nadwi movement affiliation is recorded in this note; the faith value carries the school."
     sources: [source/wikipedia-shamail-nadwi-en, source/wikipedia-shamail-nadwi-ur]
+relations:
+  - { type: born_in, target: place/srinagar, sources: [source/wikidata], confidence: low, note: "en: 'Indian Islamic scholar, mufti and author, born in Srinagar in 1998 and raised in Kolkata, and a graduate " }
 sources: [source/wikipedia-shamail-nadwi-en, source/wikipedia-shamail-nadwi-ar, source/wikipedia-shamail-nadwi-ur, source/muftishamail-official]
 provenance:
   layer: own-research

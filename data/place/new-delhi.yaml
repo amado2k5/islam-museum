@@ -1,0 +1,36 @@
+id: place/new-delhi
+class: place
+kind: city
+label:
+  ar: نيو دلهي
+  en: New Delhi
+  ur: نئی دہلی
+summary:
+  ar: مدينة في الهند.
+  en: Capital city of India.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 28.6139
+- 77.2089
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q987
+  geonames: '1261481'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q987 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q987 (labels, coordinates, description)

@@ -14,6 +14,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 relations:
+  - { type: traveled_to, target: place/ankara, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: child_of, target: person/bayazid-i-yildirim, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: sibling_of, target: person/sulayman-calabi-prince, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: sibling_of, target: person/isa-calabi, sources: [source/dawlat-uthmaniyya-salabi] }

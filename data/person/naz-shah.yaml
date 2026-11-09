@@ -29,7 +29,8 @@ born:
   note: "Born in Bradford on 13 November 1973; the English and Arabic articles and Wikidata agree, the articles citing Feminist Judgments (2010). The Hijri year 1393 is the tabular conversion of the built date, marked derived. No place entity for Bradford exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-naz-shah-en, source/wikipedia-naz-shah-ar, source/wikidata-naz-shah]
 
-relations: []
+relations:
+  - { type: lived_in, target: place/london, sources: [source/wikidata-naz-shah], confidence: low, note: "Wikidata P937 work location (Wikidata Q84)" }
 
 faith:
   - value: unknown

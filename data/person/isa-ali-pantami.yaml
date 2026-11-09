@@ -22,6 +22,9 @@ born:
   derived: true
   note: "The Hausa article gives his birth on 20 October 1972 in the Pantami ward of Gombe city, citing the Federal Ministry biography and BBC Hausa, and Wikidata gives the same day; the English article leaves its birth-date field empty and is filed under 'Year of birth missing (living people)'. The date falls in Ramadan 1392 AH; the Hijri year is a conversion."
   sources: [source/wikipedia-isa-ali-pantami-ha, source/wikidata-isa-ali-pantami, source/wikipedia-isa-ali-pantami-en]
+relations:
+  - { type: born_in, target: place/gombe-state, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-isa-ali-pantami] }
+  - { type: lived_in, target: place/abuja, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-isa-ali-pantami] }
 faith:
   - value: unknown
     basis: unknown

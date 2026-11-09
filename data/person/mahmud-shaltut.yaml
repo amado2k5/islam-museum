@@ -12,6 +12,8 @@ wings: [people]
 themes: [development-of-law-theology-institutions]
 regions: [egypt-nile]
 periods: [period/modern-era]
+relations:
+  - { type: lived_in, target: place/al-buhayra, confidence: low, note: "Associated with البحيرة per the record's own summary text; relation type pending review.", sources: [source/al-islam-aqida-wa-shariah-azhar] }
 sources: [source/al-islam-aqida-wa-shariah-azhar]
 provenance: { layer: own-research, source: "al-Islam Aqida wa Shari'a, Academy 2018, pp. 11-19 (PDF pagination) introduction by Muhammad Imara", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "azhar-academy-al-islam-aqida-wa-shariah" }
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); biographical dates from the book's introduction, needs_source: second source for birth and Grand Imam dates" }

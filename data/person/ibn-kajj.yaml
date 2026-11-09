@@ -13,6 +13,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 died: { edtf: "1015~", hijri: "0405~", calendar: julian, precision: year, status: tradition, derived: true, note: "ليلة 27 رمضان 405هـ قتله العيارون بالدينور {cite:wafayat-ayan p. 65}؛ الشيرازي يوافق: ليلة السابع والعشرين من رمضان سنة خمس وأربعمائة (PDF ص62)", sources: [source/wafayat-ayan, source/tabaqat-fuqaha-abbas-1981] }
 relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
   - { type: student_of, target: person/abu-al-husayn-ibn-al-qattan, role: "صاحب أبي الحسين ابن القطان (PDF ص62)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 provenance:
   layer: own-research

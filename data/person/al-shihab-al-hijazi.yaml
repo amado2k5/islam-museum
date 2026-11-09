@@ -25,3 +25,5 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name (الحجازي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

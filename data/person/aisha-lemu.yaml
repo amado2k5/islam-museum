@@ -33,6 +33,7 @@ died:
   note: "Died at Minna, Niger State, on 5 January 2019: the English article gives the day, citing the Daily Nigerian of the same day, and Wikidata gives the same date and Minna as the place of death. The Hijri year is a conversion (5 January 2019 falls in 1440 AH). Minna has no place entity in the museum yet, so no died_in relation is written."
   sources: [source/wikipedia-aisha-lemu-en, source/wikidata-aisha-lemu]
 relations:
+  - { type: lived_in, target: place/kano, note: "From text: taught at Kano", sources: [source/wikipedia-aisha-lemu-en, source/wikipedia-aisha-lemu-ar, source/wikipedia-aisha-lemu-ur, source/wikidata-aisha-lemu] }
   - { type: spouse_of, target: person/ahmed-lemu, sources: [source/wikipedia-aisha-lemu-en, source/wikipedia-ahmed-lemu-en] }
 faith:
   - value: unknown

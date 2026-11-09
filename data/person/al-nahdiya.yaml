@@ -14,6 +14,7 @@ regions: [arabia]
 story_roles:
   - { role: victim, status: tradition, note: "من المستضعفين في مكة في الدعوة جهاراً.", sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq], confidence: low }
   - { type: participated_in, target: event/persecution-of-mustadafin, sources: [source/mubarakpuri-raheeq] }
 provenance:
   layer: own-research

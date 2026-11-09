@@ -11,6 +11,7 @@ roles: [politician]
 story_roles:
   - { role: rival-claimant, status: tradition, sources: [source/muntazam-ibn-al-jawzi] }
 relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }
   - { type: related_to, target: person/al-tai-billah, role: "انتسب إليه ثم ادعى بجيلان أنه هو", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

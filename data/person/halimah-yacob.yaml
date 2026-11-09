@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born on 23 August 1954 at the family home on Queen Street, Singapore (English article; Wikidata gives Singapore). Singapore has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1373) is derived by tabular conversion."
   sources: [source/wikipedia-halimah-yacob-en, source/wikidata-halimah-yacob]
+relations:
+  - { type: born_in, target: place/singapore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-halimah-yacob] }
 faith:
   - value: unknown
     basis: unknown

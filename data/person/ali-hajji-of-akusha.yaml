@@ -35,6 +35,7 @@ wings: [people]
 regions: [anatolia-balkans]
 roles: [scholar, mystic, qadi]
 relations:
+  - { type: lived_in, target: place/turkistan, note: "From text: Dagestani (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-ali-hajji-of-akusha-en, source/wikipedia-ali-hajji-of-akusha-ru, source/wikipedia-ali-hajji-of-akusha-uk, source/wikidata-ali-hajji-of-akusha], confidence: low }
   - { type: allied_with, target: person/uzun-haji, sources: [source/wikipedia-ali-hajji-of-akusha-en, source/wikipedia-ali-hajji-of-akusha-ru] }
 faith:
   - value: sufi

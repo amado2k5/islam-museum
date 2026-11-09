@@ -1,0 +1,35 @@
+id: place/sufism-cemetery
+class: place
+kind: site
+label:
+  ar: مقبرة الصوفية
+  en: Sufism cemetery
+  ur: مقبرہ صوفیہ
+summary:
+  ar: موقع في سوريا.
+  en: Site (Wikidata Q104244392).
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 33.5109
+- 36.2897
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q104244392
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q104244392 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q104244392 (labels, coordinates, description)

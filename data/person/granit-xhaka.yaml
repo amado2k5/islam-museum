@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born 27 September 1992 in Basel, Switzerland, into an ethnic Albanian family from Besianë, Kosovo, as given by the English Wikipedia article's early-life section and by Wikidata Q514427. No place entity for Basel exists in data/place/, so no born_in relation is written. The Hijri year (1413) is derived by tabular conversion."
   sources: [source/wikipedia-granit-xhaka-en, source/wikidata-granit-xhaka]
+relations:
+  - { type: born_in, target: place/basel, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-granit-xhaka] }
 faith:
   - value: unknown
     basis: unknown

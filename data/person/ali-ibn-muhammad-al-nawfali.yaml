@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch36
+relations:
+  - { type: lived_in, target: place/iraq, note: "Author of Kitab al-Akhbar cited by al-Masudi for Alid lore; Iraqi akhbari milieu, flagged.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

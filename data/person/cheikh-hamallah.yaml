@@ -33,6 +33,10 @@ died:
   derived: true
   note: "Died at Montluçon, France, on 16 January 1943, per the French article, which says he was hospitalised there with heart disease after internment at Évaux-les-Bains and buried in the common ground reserved for the indigent, and that the colonial authorities kept his death secret until the Liberation. The English article gives only that he died in France in exile in 1943, and both Wikidata items give the year 1943 only. The Hijri year is derived by tabular conversion (16 January 1943 falls in Muharram 1362). Montluçon has no place entity in the museum yet, so no died_in relation is written."
   sources: [source/wikipedia-cheikh-hamallah-fr, source/wikipedia-hamahullah-en, source/wikidata-cheikh-hamallah, source/wikidata-hamahullah]
+relations:
+  - { type: born_in, target: place/mali, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cheikh-hamallah] }
+  - { type: died_in, target: place/montlu-on, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cheikh-hamallah] }
+  - { type: buried_in, target: place/montlu-on, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cheikh-hamallah] }
 faith:
   - value: sufi
     basis: documented

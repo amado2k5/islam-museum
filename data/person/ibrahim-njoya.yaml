@@ -40,7 +40,9 @@ faith:
     basis: unknown
     note: "No source names a school, madhhab or branch for Njoya personally. Two independent text traditions attest his religious itinerary: the English article (its Arabic version is a translation of the same text, one source family) reports that under German missionary influence he converted to Christianity, then created a new syncretic religion from Christianity and traditional Bamum belief, and in 1916 converted to Islam with much of his court, accepting the authority of the Sokoto Caliph and asking him for an emir's flag and Muslim teachers; the French article independently reports that he and his people converted to Islam after the Fulani of Banyo aided him in the 1890s, that about 1915 he created a national religion drawing on Islam, Christianity and traditional beliefs, and that from 1920 he returned to Islam. Conversion to Islam is therefore attested for him personally by two traditions, but neither names Sunni Islam or a madhhab; acceptance of the Sokoto Caliph's authority is allegiance, not a personal school attestation, and Wikidata's single religion value (Islam) echoes the same reporting. Under the doubt rule the value stays unknown."
     sources: [source/wikipedia-ibrahim-njoya-en, source/wikipedia-ibrahim-njoya-fr, source/wikipedia-ibrahim-njoya-ar, source/wikidata-ibrahim-njoya]
-relations: []
+relations:
+  - { type: born_in, target: place/foumban, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-njoya] }
+  - { type: died_in, target: place/yaound, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-njoya] }
 sources: [source/wikipedia-ibrahim-njoya-en, source/wikipedia-ibrahim-njoya-fr, source/wikipedia-ibrahim-njoya-ar, source/wikidata-ibrahim-njoya]
 external_ids:
   wikidata: "Q670091"

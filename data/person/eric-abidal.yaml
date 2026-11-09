@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born 11 September 1979 in Saint-Genis-Laval, France, as given by the English Wikipedia article's infobox and by Wikidata Q1935, which agree; the Arabic article's infobox names Lyon, the metropolis within which Saint-Genis-Laval lies. No place entity for Saint-Genis-Laval or Lyon exists in data/place/, so no born_in edge is written. The Hijri year (1399) is derived by tabular conversion."
   sources: [source/wikipedia-eric-abidal-en, source/wikipedia-eric-abidal-ar, source/wikidata-eric-abidal]
+relations:
+  - { type: lived_in, target: place/barcelona, confidence: low, note: "Associated with برشلونة per the record's own summary text; relation type pending review.", sources: [source/wikipedia-eric-abidal-en] }
 faith:
   - value: unknown
     basis: unknown

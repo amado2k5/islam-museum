@@ -1,0 +1,20 @@
+id: place/norway
+class: place
+kind: region
+label: { ar: "النرويج", en: "Norway" }
+summary:
+  ar: "دولة في شمال أوروبا."
+  en: "North European state."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [61.0, 8.5]
+coordinate_precision: approx
+coordinate_note: "Identified location / approximate regional centre; flagged for gazetteer verification."
+external_ids: { wikidata: "Q20" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Country/region entity so persons substantiated only at country level resolve on the map."

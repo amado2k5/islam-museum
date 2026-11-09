@@ -1,0 +1,16 @@
+id: place/bareq
+class: place
+kind: city
+label: { en: "Bareq", ar: "بارق" }
+summary:
+  en: "City in Saudi Arabia."
+  ar: "مدينة في السعودية."
+wings: [place]
+regions: [arabia]
+coordinates: [18.9322, 41.9439]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q2884439" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q2884439 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

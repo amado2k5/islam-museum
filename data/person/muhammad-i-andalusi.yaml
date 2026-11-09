@@ -12,6 +12,7 @@ born: { edtf: "0823~", hijri: "0207~", calendar: julian, precision: year, status
 died: { edtf: "0886~", hijri: "0273-02", calendar: julian, precision: month, status: historical, derived: true, note: "شهر صفر سنة 273هـ لخمس وثلاثين سنة من إمارته {cite:nafh-tib-maqqari p. 388}." }
 relations:
   - { type: ruled_over, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: ruler_of, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 386–388"

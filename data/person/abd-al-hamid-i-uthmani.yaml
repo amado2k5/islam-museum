@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: successor_of, target: person/mustafa-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
 external_ids: { wikidata: "Q170707" }
 sources: [source/dawlat-uthmaniyya-salabi]

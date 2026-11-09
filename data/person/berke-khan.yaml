@@ -11,6 +11,8 @@ gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/daher, confidence: low, note: "Associated with الظاهر per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج5)"

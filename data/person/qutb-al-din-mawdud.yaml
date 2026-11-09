@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: ruler_of, target: place/hamadhan, sources: [source/wikidata], confidence: low, note: "ar: 'قطب الدين مودود بن زنكي بن آقسنقر، صاحب الموصل وديار الجزيرة إحدى وعشرين سنة؛ قبض على سليمان شاه وأسنده إ" }
+  - { type: ruler_of, target: place/hamadan, sources: [source/wikidata], confidence: low, note: "Zangi, lord of Mosul and the Jazira for twenty-one years; he held Sultan Sulayman Shah then sent him to the su" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q1135925

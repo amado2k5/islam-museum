@@ -60,6 +60,8 @@ faith:
     sources: [source/wikipedia-yusuf-aziz-magsi-en, source/wikipedia-yusuf-aziz-magsi-ur, source/wikidata-yusuf-aziz-magsi, source/dawn-balochistans-undying-dream]
 external_ids:
   wikidata: Q8059019
+relations:
+  - { type: died_in, target: place/quetta, sources: [source/wikipedia-yusuf-aziz-magsi-en], confidence: low, note: "Died in the 1935 Quetta earthquake per the record text." }
 sources:
   - source/wikipedia-yusuf-aziz-magsi-en
   - source/wikipedia-yusuf-aziz-magsi-ur

@@ -33,6 +33,8 @@ story_roles:
   note: مذكور في الإصابة ترجمة رقم 12125 (ص 2008).
   sources:
   - source/ibn-hajar-isaba
+relations:
+  - { type: lived_in, target: place/hijaz, sources: [source/ibn-hajar-isaba] }
 faith:
 - value: sunni
   basis: tradition

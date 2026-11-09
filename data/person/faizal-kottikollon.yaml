@@ -28,6 +28,8 @@ born:
   note: "The English article and Wikidata agree on 6 July 1963, born at Mahé in India. No place entity for Mahé exists on main, so no birthplace is recorded in this block. The date falls within the Hijri year 1383, which is given as the tabular conversion, marked derived."
   sources: [source/wikipedia-faizal-kottikollon-en, source/wikidata-faizal-kottikollon]
 
+relations:
+  - { type: born_in, target: place/mah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-faizal-kottikollon] }
 faith:
   - value: unknown
     basis: unknown

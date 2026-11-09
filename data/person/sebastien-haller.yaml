@@ -27,6 +27,8 @@ faith:
     note: "No source read makes any statement of Haller's religion at all. The English, French and Arabic Wikipedia articles were each read in full: none mentions religion in its text or categories. Wikidata Q7665927 carries no religion (P140) value. This is complete absence, not a conflict: no source names even a generic affiliation for him personally, let alone a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
     sources: [source/wikipedia-sebastien-haller-en, source/wikipedia-sebastien-haller-fr, source/wikipedia-sebastien-haller-ar, source/wikidata-sebastien-haller]
 external_ids: { wikidata: "Q7665927" }
+relations:
+  - { type: born_in, target: place/ris-orangis, sources: [source/wikidata-sebastien-haller], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q274237)" }
 sources: [source/wikipedia-sebastien-haller-en, source/wikipedia-sebastien-haller-fr, source/wikipedia-sebastien-haller-ar, source/wikidata-sebastien-haller]
 provenance:
   layer: own-research

@@ -32,6 +32,8 @@ died:
   derived: true
   note: "The English and Urdu articles and Wikidata agree on 20 September 1927; the English article gives his death at San Francisco and his burial in the Old City Cemetery at Sacramento, California. No place entity exists for either city, so no died_in or buried_in edge is written. The Hijri year is a conversion and is marked derived."
   sources: [source/wikipedia-barkatullah-en, source/wikipedia-barkatullah-ur, source/wikidata-barkatullah]
+relations:
+  - { type: born_in, target: place/bhopal, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

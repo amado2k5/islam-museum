@@ -15,6 +15,7 @@ regions: [levant-iraq]
 died: { edtf: "1056", hijri: "0448", calendar: julian, precision: year, status: tradition, derived: true, note: "٤٤٨؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.8 p.517}." }
 roles: [royal]
 relations:
+  - { type: lived_in, target: place/al-rusafa, confidence: low, note: "Associated with الرصافة per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: child_of, target: person/al-qadir-billah, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: sibling_of, target: person/al-qaim-billah, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

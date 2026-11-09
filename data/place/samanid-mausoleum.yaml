@@ -1,0 +1,21 @@
+id: place/samanid-mausoleum
+class: place
+kind: site
+label: { ar: "الضريح الساماني", en: "Samanid Mausoleum", ur: "سامانی مقبرہ" }
+summary:
+  ar: "موقع في أوزبكستان."
+  en: "Site in Uzbekistan."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [39.77701120929684, 64.40058034929567]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1268850" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1268850 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

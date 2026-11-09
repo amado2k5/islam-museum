@@ -12,6 +12,8 @@ wings: [people]
 regions: [maghreb]
 periods: [period/abbasid-early]
 died: { edtf: "0835", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 sources: [source/siyar-alam-nubala-abyari]
 external_ids:
   wikidata: Q12232042

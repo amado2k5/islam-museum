@@ -12,6 +12,7 @@ roles: [vizier]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq, persia-central-asia]
 relations:
+  - { type: born_in, target: place/siraf, note: "From text: born at Siraf", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: allied_with, target: person/sultan-al-dawla, role: "نظّار بغداد بلقب نجاح الملوك", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: died_in, target: place/al-ahwaz, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

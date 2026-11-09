@@ -41,6 +41,7 @@ died:
   note: "Gregorian date from English and Arabic Wikipedia and Wikidata; the Hijri year is converter-derived. The earlier skeleton record carried only the year 1923 from the book source, which is kept in the sources list."
   sources: [source/wikipedia-ahmad-dahlan-en, source/wikipedia-ahmad-dahlan-ar, source/wikidata-ahmad-dahlan]
 relations:
+  - { type: lived_in, target: place/mecca, note: "From text: studied in Mecca", sources: [source/tarikh-islam-hasan-ibrahim, source/wikipedia-ahmad-dahlan-en, source/wikipedia-ahmad-dahlan-ar, source/wikidata-ahmad-dahlan] }
   - { type: lived_in, target: place/mecca, sources: [source/wikipedia-ahmad-dahlan-en, source/wikipedia-ahmad-dahlan-ar] }
 faith:
   - value: unknown

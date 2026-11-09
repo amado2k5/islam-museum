@@ -42,6 +42,7 @@ died:
     - source/wikipedia-ibn-zuhr-ar
     - source/wikidata-ibn-zuhr
 relations:
+  - { type: died_in, target: place/seville, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibn-zuhr] }
   - { type: child_of, target: person/abu-al-ala-ibn-zuhr, sources: [source/wikipedia-ibn-zuhr-en, source/wikipedia-ibn-zuhr-ar] }
   - { type: born_in, target: place/seville, sources: [source/wikipedia-ibn-zuhr-en] }
   - { type: died_in, target: place/seville, sources: [source/wikipedia-ibn-zuhr-en, source/wikipedia-ibn-zuhr-ar] }

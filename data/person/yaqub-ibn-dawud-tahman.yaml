@@ -17,6 +17,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch82
+relations:
+  - { type: traveled_to, target: place/basra, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'مولى أبي صالح عبد الله بن خازم السلمي والي خراسان؛ كان كاتب إبراهيم بن عبد الله بن الحسن الذي خرج هو وأخو" }
 sources: [source/wafayat-ayan]
 status:
   review: published

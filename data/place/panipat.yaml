@@ -9,7 +9,8 @@ wings: [place]
 regions: [south-asia]
 coordinates: [29.3909, 76.9635]
 coordinate_precision: locality
-sources: [source/geonames-gazetteer]
+external_ids: { wikidata: "Q139706" }
+sources: [source/geonames-gazetteer, source/wikidata]
 provenance:
   layer: own-research
   source: "GeoNames gazetteer coordinates for the Timeline Explorer Mughal Delhi story map"

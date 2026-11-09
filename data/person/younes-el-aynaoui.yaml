@@ -26,6 +26,8 @@ faith:
     note: "NOT RECORDED — no source read names a school for him, and none names a religion at all. The English and Arabic Wikipedia articles state no religion anywhere in their text; Wikidata carries no religion (P140) statement for him. What exists is only his Moroccan origin, a Moroccan father and a French mother (Arabic article) — origin and family background, which never count. Under the two-source rule and the founder's doubt rule the value stays unknown."
     sources: [source/wikipedia-younes-el-aynaoui-en, source/wikipedia-younes-el-aynaoui-ar, source/wikidata-younes-el-aynaoui]
 external_ids: { wikidata: "Q361676" }
+relations:
+  - { type: born_in, target: place/rabat, sources: [source/wikidata-younes-el-aynaoui], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3551)" }
 sources: [source/wikipedia-younes-el-aynaoui-en, source/wikipedia-younes-el-aynaoui-ar, source/wikidata-younes-el-aynaoui]
 provenance:
   layer: own-research

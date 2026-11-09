@@ -21,6 +21,7 @@ born:
   note: "The English and Arabic articles agree she was born on 29 September 1983. The birthplace is given differently: the English article's infobox names Geneva, Switzerland, while the Arabic article's infobox names Doha; the museum has no place entity for either city, so no born_in relation is written and the disagreement is recorded here. Wikidata gives the year 1983 only. No Hijri year is recorded, as no source attests one."
   sources: [source/wikipedia-al-mayassa-al-thani-en, source/wikipedia-al-mayassa-al-thani-ar, source/wikidata-al-mayassa-al-thani]
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/wikipedia-al-mayassa-al-thani-en, source/wikipedia-al-mayassa-al-thani-ar, source/wikidata-al-mayassa-al-thani], confidence: low }
   - { type: child_of, target: person/hamad-bin-khalifa-al-thani, sources: [source/wikipedia-al-mayassa-al-thani-en, source/wikipedia-al-mayassa-al-thani-ar, source/wikidata-al-mayassa-al-thani] }
   - { type: member_of, target: group/al-thani, sources: [source/wikipedia-al-mayassa-al-thani-en, source/wikidata-al-mayassa-al-thani] }
 faith:

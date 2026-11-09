@@ -20,6 +20,8 @@ born:
   precision: year
 external_ids:
   wikidata: Q59725820
+relations:
+  - { type: born_in, target: place/saudi-arabia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q851)" }
 sources:
 - source/wikidata
 status:

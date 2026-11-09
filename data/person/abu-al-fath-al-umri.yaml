@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q107092024
 provenance:
@@ -23,3 +23,5 @@ provenance:
 status:
   review: draft
   completeness: 1
+relations:
+  - { type: died_in, target: place/nishapur, note: "Wikidata Q131350 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

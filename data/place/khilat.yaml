@@ -8,12 +8,16 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+coordinates: [38.754156, 42.487735]
+coordinate_precision: approx
+coordinate_note: "Matched to Wikidata Q400362 by name; coordinates approximate until verified against a gazetteer."
 relations:
   - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+external_ids: { wikidata: "Q400362" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273، 280"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-16
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -14,5 +14,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء السادس (ترجمة يزيد بن مفرغ)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-29
+relations:
+  - { type: ruled_over, target: place/yemen, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'أبو عثمان يزيد بن زياد بن ربيعة بن مفرغ الحميري؛ الشاعر الجاهلي الإسلامي الهجّاء الذي اشتهر بهجائه آل الز" }
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -10,6 +10,8 @@ summary:
   en: "Pakistani scholar from Karachi (born 1950), founder of Dawat-e-Islami in 1981 and its leader since its foundation, and described by The Muslim 500 as a leader of the Qadiriyyah, Radaviyyah, Attariya branch of the Qadri Sufi order; author of some 30 books, chief among them Faizan-e-Sunnat. His YouTube channel counted 2.25 million subscribers in November 2026 per vidIQ."
   ur: "کراچی سے تعلق رکھنے والے پاکستانی عالم ⁦(پیدائش 1950ء)⁩، دعوتِ اسلامی کے بانی ⁦(1981ء)⁩ اور اس کے قیام سے امیر، «مسلم 500» انہیں قادری صوفی سلسلے کی قادریہ رضویہ عطاریہ شاخ کا قائد قرار دیتی ہے؛ تقریباً تیس کتب کے مصنف جن میں «فیضانِ سنت» سب سے مشہور ہے۔ vidIQ کے مطابق نومبر 2026ء میں ان کے یوٹیوب چینل کے سبسکرائبر 2.25 ملین تھے۔"
 gender: male
+relations:
+  - { type: born_in, target: place/karachi, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-ilyas-qadri-en, source/dawateislami-ilyas-qadri-founder] }
 faith:
   - value: unknown
     basis: unknown
@@ -27,7 +29,6 @@ born:
   derived: true
   note: "Born in Karachi, Pakistan, on 12 July 1950, corresponding to 26 Ramadan 1369 AH; the English Wikipedia article and Dawat-e-Islami's official founder biography agree on the date, and the founder biography gives the Hijri correspondence explicitly. There is no place record for Karachi, so no born_in edge is written."
   sources: [source/wikipedia-ilyas-qadri-en, source/dawateislami-ilyas-qadri-founder]
-relations: []
 sources: [source/wikipedia-ilyas-qadri-en, source/dawateislami-ilyas-qadri-founder, source/muslim500-ilyas-qadri, source/vidiq-maulana-ilyas-qadri]
 provenance:
   layer: own-research

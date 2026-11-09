@@ -21,3 +21,5 @@ provenance:
   run: "omar-tafsir-bundle-6"
 sources: [source/assabile-omar-abdelkafy]
 status: { review: published, generated_by: "Claude Sonnet (subagent)" }
+relations:
+  - { type: lived_in, target: place/palestine, confidence: low, note: "Zechariah of the Jerusalemite priestly line per the Islamic and biblical tradition (regions: levant-iraq).", sources: [source/assabile-omar-abdelkafy] }

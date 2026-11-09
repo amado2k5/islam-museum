@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hajar-isaba] }
   - { type: member_of, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/nullification-of-boycott-covenant, sources: [source/mubarakpuri-raheeq] }
 provenance:

@@ -16,6 +16,7 @@ wings: [people]
 regions: [andalus-europe]
 periods: [period/gunpowder-empires]
 relations:
+  - { type: lived_in, target: place/france, confidence: low, note: "Associated with فرنسا per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/francis-i-france, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

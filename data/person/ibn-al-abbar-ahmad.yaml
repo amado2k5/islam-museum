@@ -9,6 +9,8 @@ gender: male
 roles: [poet, faqih]
 wings: [people]
 periods: [period/abbasid-fragmentation]
+relations:
+  - { type: lived_in, target: place/seville, confidence: low, note: "Associated with إشبيلية per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الأول (ترجمة ابن الأبار الخولاني)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

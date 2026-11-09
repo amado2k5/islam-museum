@@ -1,0 +1,35 @@
+id: place/balkh-province
+class: place
+kind: province
+label:
+  ar: ولاية بلخ
+  en: Balkh Province
+summary:
+  ar: محافظة في أفغانستان.
+  en: Balkh Province; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 36.7
+- 67.1167
+coordinate_precision: locality
+coordinate_note: Wikidata Q121104 (ID held on the matching polity entity).
+external_ids:
+  wikidata: Q121104
+  geonames: '1147288'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q121104 (labels, coordinates, description)

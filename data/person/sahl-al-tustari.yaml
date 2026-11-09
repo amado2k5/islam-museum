@@ -14,3 +14,5 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: "claude-haiku-5-5"
   run: "omar-abdelkafy-al-dinu-al-qayem-person-extension"
+relations:
+  - { type: lived_in, target: place/tustar, confidence: low, note: "Association inferred from the nisba 'التستري'; specific birthplace or residence is not individually documented.", sources: [source/fihrist-ibn-al-nadim, source/assabile-omar-abdelkafy] }

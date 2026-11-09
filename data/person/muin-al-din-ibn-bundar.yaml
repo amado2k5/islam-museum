@@ -16,6 +16,7 @@ faith:
   - value: sunni-shafii
     basis: tradition
 relations:
+  - { type: lived_in, target: place/syria, sources: [source/shadharat-dhahab] }
   - { type: student_of, target: person/ibn-al-salah, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

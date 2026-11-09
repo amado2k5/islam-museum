@@ -23,8 +23,6 @@ faith:
 story_roles:
   - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
 relations:
-  - { type: born_in, target: place/tus, sources: [source/encyclopaedia-of-islam-2] }
-  - { type: died_in, target: place/najaf, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/al-shaykh-al-mufid, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
   - { type: student_of, target: person/al-sharif-al-murtada, sources: [source/encyclopaedia-of-islam-2] }
   - { type: authored, target: work/al-tibyan-fi-tafsir-al-quran, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
@@ -39,6 +37,10 @@ relations:
   - { type: participated_in, target: event/sunni-adhan-restoration-448, role: "هرب ونهبت داره وأحرقت كتبه", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: participated_in, target: event/tusi-refuge-najaf-449, role: "اللاجئ إلى النجف", sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/death-shaykh-al-tusi-460, role: "المتوفى بالمشهد", sources: [source/tarikh-islam-dhahabi] }
+  - { type: born_in, target: place/tus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/najaf, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/al-aalam, source/musawat-atabat] }
+  - { type: lived_in, target: place/najaf, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/al-aalam, source/musawat-atabat] }
 external_ids:
   wikidata: Q4116347
 sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/al-aalam, source/musawat-atabat]

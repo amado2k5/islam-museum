@@ -45,6 +45,11 @@ relations:
   - { type: student_of, target: person/ashraf-ali-thanwi, sources: [source/wikipedia-sulaiman-nadvi-en, source/wikipedia-sulaiman-nadvi-ar] }
   - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-sulaiman-nadvi-ar] }
   - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-sulaiman-nadvi-en] }
+  - { type: born_in, target: place/bihar, sources: [source/wikidata-sulaiman-nadvi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1165)" }
+  - { type: died_in, target: place/karachi, sources: [source/wikidata-sulaiman-nadvi], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8660)" }
+  - { type: died_in, target: place/federal-capital-territory, sources: [source/wikidata-sulaiman-nadvi], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5440051)" }
+  - { type: lived_in, target: place/lucknow, sources: [source/wikidata-sulaiman-nadvi], confidence: low, note: "Wikidata P551 residence (Wikidata Q47916)" }
+  - { type: lived_in, target: place/azamgarh, sources: [source/wikidata-sulaiman-nadvi], confidence: low, note: "Wikidata P551 residence (Wikidata Q526757)" }
 external_ids: { wikidata: "Q4120083" }
 sources: [source/wikipedia-sulaiman-nadvi-en, source/wikipedia-sulaiman-nadvi-ur, source/wikipedia-sulaiman-nadvi-ar, source/wikidata-sulaiman-nadvi]
 provenance:

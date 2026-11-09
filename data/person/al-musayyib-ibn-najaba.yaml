@@ -13,3 +13,5 @@ provenance:
   run: lib-futuh-buldan-batch-28
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "From text: نزل البصرة", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }

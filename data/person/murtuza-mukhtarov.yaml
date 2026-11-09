@@ -37,6 +37,9 @@ faith:
     note: "No consulted article names an affiliation for Mukhtarov himself: the English, Azerbaijani and Russian texts are all silent on his personal religion. Wikidata's only religion value is the Bahá'í Faith (Q22679), and it is referenced ONLY as imported from a Wikimedia project — no article in any consulted language attests it, for or against; an isolated structured value of that kind cannot carry a segment under the lane's two-source rule and doubt rule, and it is preserved here precisely so the anomaly is on record rather than silently dropped or silently followed. The Russian article describes the Vladikavkaz mosque he financed as a Sunni mosque and quotes a decision of that mosque's Sunni parish — the affiliation of an institution he patronised, not of the man; his mosque-building at Amirjan and Vladikavkaz and his dome over a scholar's grave are patronage, which the lane rule excludes. His faith is therefore recorded unknown."
     sources: [source/wikidata-murtuza-mukhtarov, source/wikipedia-murtuza-mukhtarov-ru, source/wikipedia-murtuza-mukhtarov-en]
 external_ids: { wikidata: "Q4309013" }
+relations:
+  - { type: born_in, target: place/baku, sources: [source/wikidata], confidence: low, note: "Born at Əmircan, a settlement of Baku (Wikidata P19 Q3131176)" }
+  - { type: died_in, target: place/baku, sources: [source/wikidata], confidence: low, note: "Died at his Baku palace (Wikidata P20 Q4155891)" }
 sources: [source/wikipedia-murtuza-mukhtarov-en, source/wikipedia-murtuza-mukhtarov-az, source/wikipedia-murtuza-mukhtarov-ru, source/wikidata-murtuza-mukhtarov]
 provenance:
   layer: own-research

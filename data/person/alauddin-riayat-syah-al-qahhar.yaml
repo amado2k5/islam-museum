@@ -35,6 +35,7 @@ died:
     - source/wikidata-alauddin-riayat-syah-al-qahhar
 
 relations:
+  - { type: lived_in, target: place/portugal, note: "From text: Portuguese (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-alauddin-riayat-syah-al-qahhar-en, source/wikipedia-alauddin-riayat-syah-al-qahhar-id, source/wikipedia-alauddin-riayat-syah-al-qahhar-ar, source/wikidata-alauddin-riayat-syah-al-qahhar], confidence: low }
   - { type: child_of, target: person/ali-mughayat-syah, sources: [source/wikipedia-alauddin-riayat-syah-al-qahhar-en, source/wikipedia-alauddin-riayat-syah-al-qahhar-ar, source/wikidata-alauddin-riayat-syah-al-qahhar] }
 
 faith:

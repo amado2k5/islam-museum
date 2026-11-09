@@ -1,0 +1,36 @@
+id: place/accra
+class: place
+kind: city
+label:
+  ar: أكرا
+  en: Accra
+  ur: اکرا
+summary:
+  ar: مدينة في غانا.
+  en: Capital city of Ghana.
+wings:
+- place
+regions:
+- west-africa-sahel
+coordinates:
+- 5.556
+- -0.1969
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q3761
+  geonames: '2306104'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q3761 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q3761 (labels, coordinates, description)

@@ -32,5 +32,8 @@ provenance:
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
 external_ids: { wikidata: "Q286460" }
-sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2]
+sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: born_in, target: place/cairo, note: "Wikidata Q85 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/cairo, note: "Wikidata Q85 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

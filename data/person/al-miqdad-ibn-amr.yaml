@@ -28,6 +28,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "من مهاجرة السابقين؛ يسجَّل في الإطار السني للمتحف." }
 relations:
+  - { type: died_in, target: place/al-jurf, note: "From text: مات بالجرف قرب المدينة سنة ثلاث وثل", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad] }
   - { type: member_of, target: group/muhajirun }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-badr, role: "قيادة الميسرة؛ أحد الفارسين", sources: [source/mubarakpuri-raheeq] }

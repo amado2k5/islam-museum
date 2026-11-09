@@ -52,3 +52,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-nazim-al-haqqani-en, source/wikipedia-nazim-al-haqqani-ar, source/wikipedia-nazim-al-haqqani-ur, source/wikidata-nazim-al-haqqani]
+relations:
+  - { type: born_in, target: place/qubrus, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-nazim-al-haqqani-en, source/wikipedia-nazim-al-haqqani-ar, source/wikipedia-nazim-al-haqqani-ur, source/wikidata-nazim-al-haqqani] }
+  - { type: died_in, target: place/qubrus, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-nazim-al-haqqani-en, source/wikidata-nazim-al-haqqani] }

@@ -14,3 +14,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-32
 sources: [source/muntazam-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/al-qatif, note: "From text: من أهل القرى ثم صار إلى القطيف و", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434], confidence: low }

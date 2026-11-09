@@ -17,6 +17,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم مع قارب قبل وفد ثقيف (ابن هشام 4/186)", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/thaqif, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/urwa-ibn-masud, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-thaqif, role: "أسلم مع قارب قبل الوفد", sources: [source/ibn-hisham-saqqa] }

@@ -8,6 +8,8 @@ summary:
 wings: [place]
 periods: [period/umayyad]
 regions: [maghreb]
+coordinates: [35.7595, -5.834]
+coordinate_precision: locality
 external_ids: { wikidata: "Q126148" }
 relations:
   - { type: site_of, target: event/conquest-of-tanja, sources: [source/futuh-buldan-maarif-1407] }
@@ -16,5 +18,5 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 318، 322"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-21
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

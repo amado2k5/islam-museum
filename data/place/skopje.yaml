@@ -1,0 +1,36 @@
+id: place/skopje
+class: place
+kind: city
+label:
+  ar: إسكوبية
+  en: Skopje
+  ur: اسکوپیہ
+summary:
+  ar: مدينة في مقدونيا الشمالية.
+  en: Capital city of North Macedonia.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 41.9961
+- 21.4317
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q384
+  geonames: '785842'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q384 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q384 (labels, coordinates, description)

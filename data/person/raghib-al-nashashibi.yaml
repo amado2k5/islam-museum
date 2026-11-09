@@ -41,6 +41,8 @@ relations:
     target: place/jerusalem
     note: "Born in Jerusalem, then in the Ottoman Empire {cite:wikipedia-raghib-al-nashashibi-en} {cite:wikipedia-raghib-al-nashashibi-ar}."
     sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi]
+  - { type: died_in, target: place/jerusalem, sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikidata-raghib-al-nashashibi] }
+  - { type: ruler_of, target: place/jerusalem, sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi] }
 external_ids: { wikidata: "Q1362338" }
 sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi]
 status: { review: published }

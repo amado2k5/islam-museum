@@ -36,6 +36,8 @@ died:
   note: "Both articles and Wikidata give 4 August 1922: leading the Basmachi against the Bolsheviks, he was killed by a Red Army cavalry brigade near his headquarters at Ab-i-Derya, by the village of Chaghan (Çeğen) in the Bukharan People's Soviet Republic, in present-day Tajikistan, and first buried there. In 1996 his remains were brought to Turkey and reburied at the Monument of Liberty (Abide-i Hürriyet) cemetery in Şişli, Istanbul, on the anniversary of his death; both articles and Wikidata's burial value (Q320876) agree on that resting place. No museum place entity exists for the place of his death, so no died_in edge is written. The Hijri year 1340 is the derived conversion of 1922."
   sources: [source/wikipedia-enver-pasha-en, source/wikipedia-enver-pasha-tr, source/wikidata-enver-pasha]
 relations:
+  - { type: died_in, target: place/bukharan-people-s-soviet-republic, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-enver-pasha] }
+  - { type: buried_in, target: place/monument-of-liberty-istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-enver-pasha] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-enver-pasha-en, source/wikipedia-enver-pasha-tr] }
   - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-enver-pasha-en, source/wikipedia-enver-pasha-tr] }
 faith:

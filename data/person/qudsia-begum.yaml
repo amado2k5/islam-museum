@@ -32,7 +32,8 @@ died:
   derived: false
   note: "The English article gives only the year 1881 and the Urdu article pairs her death with 1299 AH at about 84 years of age; the exact day, 17 December 1881, rests on Wikidata Q18530677 alone and is recorded from it under the publication standard. Bhopal has no place entity in the museum yet, so no died_in relation is written."
   sources: [source/wikipedia-qudsia-begum-en, source/wikipedia-qudsia-begum-ur, source/wikidata-qudsia-begum]
-relations: []
+relations:
+  - { type: born_in, target: place/bhopal, sources: [source/wikidata-qudsia-begum], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80989)" }
 faith:
   - value: unknown
     basis: unknown

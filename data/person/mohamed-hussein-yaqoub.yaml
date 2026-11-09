@@ -19,6 +19,8 @@ born:
   status: historical
   note: "Born at Al-Mu'tamadiya, Imbaba, Giza Governorate, in 1956; the Arabic article pairs the year with 1375 AH, and no source gives a month or day. Wikidata likewise gives only the year."
   sources: [source/wikipedia-mohamed-hussein-yaqoub-ar, source/wikipedia-mohamed-hussein-yaqoub-en, source/wikidata-mohamed-hussein-yaqoub]
+relations:
+  - { type: born_in, target: place/al-moatamadeyah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-hussein-yaqoub] }
 faith:
   - value: sunni
     basis: documented

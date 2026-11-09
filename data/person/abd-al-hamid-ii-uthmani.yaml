@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/modern-era]
 regions: [anatolia-balkans]
 relations:
+  - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/abd-al-majid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/murad-v-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

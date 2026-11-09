@@ -27,3 +27,5 @@ provenance:
   run: prose-fill-persons-batch45
 sources: [source/shadharat-dhahab]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: ruler_of, target: place/khilat, note: "From text: ملك مدينة خلاط سنة أربع وستما", sources: [source/shadharat-dhahab], confidence: low }

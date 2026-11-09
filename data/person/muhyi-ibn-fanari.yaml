@@ -20,6 +20,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch73
+relations:
+  - { type: lived_in, target: place/bukhara, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'المولى محيي الدين أحمد بن علاء الدين الفناري الحنفي؛ قرأ على علماء عصره ثم رحل إلى العجم وقرأ على علماء س" }
+  - { type: lived_in, target: place/samarqand, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'المولى محيي الدين أحمد بن علاء الدين الفناري الحنفي؛ قرأ على علماء عصره ثم رحل إلى العجم وقرأ على علماء س" }
 sources: [source/shadharat-dhahab]
 status:
   review: published

@@ -15,7 +15,8 @@ regions: [egypt-nile]
 faith:
   - value: sunni-shafii
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Association inferred from the nisba 'المصري'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:
   review: published

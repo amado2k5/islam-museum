@@ -20,6 +20,7 @@ themes: [scripture-and-its-sciences]
 regions: [egypt-nile, persia-central-asia]
 periods: [period/abbasid-fragmentation]
 relations:
+  - { type: lived_in, target: place/nishapur, note: "From text: settled in Nishapur", sources: [source/tarikh-dimashq-amrawi-v5] }
   - { type: student_of, target: person/ibn-jawsa, sources: [source/tarikh-dimashq-amrawi-v5] }
   - { type: student_of, target: person/ibn-abi-hatim-al-razi, sources: [source/tarikh-dimashq-amrawi-v5] }
   - { type: student_of, target: person/abu-arubah-al-harrani, sources: [source/tarikh-dimashq-amrawi-v5] }

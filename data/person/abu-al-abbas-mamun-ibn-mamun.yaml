@@ -13,6 +13,7 @@ roles: [ruler]
 periods: [period/abbasid-fragmentation]
 floruit: { edtf: "1008/1017", calendar: julian, precision: year, status: historical, note: "Reign 399–407 AH after Bosworth, as cited by Ismoilov {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 79}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
 relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025], confidence: low }
   - { type: ruler_of, target: polity/mamunid-dynasty-khwarazm, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
   - { type: child_of, target: person/mamun-ibn-muhammad-khwarazmshah, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
 sources: [source/ismoilov-xorazmshohlar-tangalari-2025]

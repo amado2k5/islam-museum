@@ -33,6 +33,7 @@ faith:
     note: "One text family names a school for him personally: the French article, citing La Libre of 2 August 2019 and L'Opinion of 3 October 2021, says he 'defines himself as a Muslim attached to the values of Islam and to the Maliki rite', and the Arabic article carries the same passage on the same citations — an article and its mirror text are one family, so the Maliki reading stands one attestation short of sunni-maliki/documented and is preserved here. The rest never counts: the English and French texts describe his Sufi family lineage (the son of a spiritual leader of the maraboutic Ideiboussat tribe) and note that he memorised the Quran — family background and practice; Wikidata's single religion value is Sufism, a structured value; the English and Urdu articles file him under Mauritanian Sufis; the French infobox gives Islam. Family background, a structured value and filings do not attest a personal affiliation, so the value stays unknown."
     sources: [source/wikipedia-mohamed-ould-ghazouani-fr, source/wikipedia-mohamed-ould-ghazouani-ar, source/wikipedia-mohamed-ould-ghazouani-en, source/wikidata-mohamed-ould-ghazouani]
 relations:
+  - { type: born_in, target: place/boumdeid, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-ould-ghazouani] }
   - type: successor_of
     target: person/mohamed-ould-abdel-aziz
     sources: [source/wikipedia-mohamed-ould-ghazouani-en, source/wikipedia-mohamed-ould-ghazouani-fr]

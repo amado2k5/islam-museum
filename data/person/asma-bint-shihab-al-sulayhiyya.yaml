@@ -11,6 +11,7 @@ themes: [women, politics-governance-and-authority]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [arabia]
 relations:
+  - { type: ruler_of, target: place/yemen, note: "From text: king of Yemen", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: spouse_of, target: person/ali-ibn-muhammad-al-sulayhi, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: lived_in, target: place/sanaa, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: died_in, target: place/sanaa, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }

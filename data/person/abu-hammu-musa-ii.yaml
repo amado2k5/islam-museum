@@ -12,6 +12,10 @@ traditions: [sunni]
 died: { edtf: "1389", hijri: "0791", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك سنة 791هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
 - type: ruler_of
+  target: place/tlemcen
+  note: "From text: sultan of Tlemcen"
+  sources: [source/tarikh-ibn-khaldun-ibar]
+- type: ruler_of
   target: polity/zayyanid-tlemcen
   sources:
   - source/tarikh-ibn-khaldun-ibar

@@ -9,6 +9,8 @@ roles: [ruler]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
+relations:
+  - { type: lived_in, target: place/konya, confidence: low, note: "Associated with قونية per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

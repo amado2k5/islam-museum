@@ -8,12 +8,16 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+coordinates: [36.533333333333, 37.95]
+coordinate_precision: approx
+coordinate_note: "Matched to Wikidata Q1146939 by name; coordinates approximate until verified against a gazetteer."
 relations:
   - { type: part_of, target: place/qinnasrin, note: "من كور جند قنسرين", sources: [source/futuh-buldan-maarif-1407] }
+external_ids: { wikidata: "Q1146939" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 204–205"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-10
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

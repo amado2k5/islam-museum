@@ -1,0 +1,21 @@
+id: place/chhachh
+class: place
+kind: region
+label: { ar: "چھاچھ", en: "Chhach" }
+summary:
+  ar: "إقليم چھاچھ."
+  en: "Region (Chhach)."
+wings: [place]
+regions: [south-asia]
+coordinates: [24.733, 68.5]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q761365; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q761365" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q761365 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

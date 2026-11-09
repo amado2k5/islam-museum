@@ -17,6 +17,13 @@ relations:
   target: polity/golden-horde
   sources:
   - source/tarikh-ibn-khaldun-ibar
+
+- type: ruled_over
+  target: place/khurasan
+  confidence: low
+  note: "Held Khurasan from 738 AH, per the record's summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]

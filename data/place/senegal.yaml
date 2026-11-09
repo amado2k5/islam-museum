@@ -1,0 +1,38 @@
+id: place/senegal
+class: place
+kind: region
+label:
+  ar: السنغال
+  en: Senegal
+  ur: سینیگال
+summary:
+  ar: دولة في أقصى غرب أفريقيا، غالبية أهلها مسلمون.
+  en: West Africa's westernmost state, largely Muslim.
+wings:
+- place
+regions:
+- west-africa-sahel
+coordinates:
+- 14.5
+- -14.5
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q1041
+  geonames: '2245662'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1041 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1041 (labels, coordinates, description)

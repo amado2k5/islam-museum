@@ -12,6 +12,8 @@ themes: [architecture, politics-governance-and-authority]
 regions: [south-asia]
 periods: [period/mongol-post-mongol]
 died: { edtf: "1368", hijri: "0770", calendar: julian, precision: year, status: historical, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+relations:
+  - { type: lived_in, target: place/muscat, confidence: low, note: "Associated with مسقط per the record's own summary text; relation type pending review.", sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
 sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011]
 provenance:
   layer: own-research

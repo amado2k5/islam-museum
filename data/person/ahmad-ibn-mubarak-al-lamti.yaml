@@ -37,6 +37,7 @@ died:
   sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar, source/wikipedia-ahmad-ibn-mubarak-al-lamti-en]
 
 relations:
+  - { type: died_in, target: place/fez, note: "From text: died at Fez", sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar, source/wikipedia-ahmad-ibn-mubarak-al-lamti-en] }
   - { type: born_in, target: place/sijilmasa, sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-en, source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar] }
   - { type: died_in, target: place/fez, sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-en, source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar] }
   - { type: student_of, target: person/abd-al-aziz-al-dabbagh, sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-en, source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar] }

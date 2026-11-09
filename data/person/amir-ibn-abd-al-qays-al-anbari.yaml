@@ -20,3 +20,5 @@ provenance:
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
 # "The stub person/al-anbari (Wikidata candidate, no detail) may be this man; not merged, to be checked by the coordinator"
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (بصري); denotes association, not proven residence.", sources: [source/encyclopaedia-of-islam-2, source/zuhd-ibn-mubarak-azami-scan], confidence: low }

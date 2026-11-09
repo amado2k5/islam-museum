@@ -29,6 +29,8 @@ died:
   derived: true
   note: "Died at Verson in Normandy, France (both articles and Wikidata); his funeral was held at Dakar on 29 December 2001 and Wikidata records his burial at Bel-Air Cemetery, Dakar. Neither Verson nor Dakar has a place entity in the museum yet, so no died_in or buried_in relation is written. The Hijri year (1422) is derived by tabular conversion."
   sources: [source/wikipedia-leopold-sedar-senghor-en, source/wikipedia-leopold-sedar-senghor-ar, source/wikidata-leopold-sedar-senghor]
+relations:
+  - { type: died_in, target: place/france, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-leopold-sedar-senghor] }
 faith:
   - value: christian
     basis: documented

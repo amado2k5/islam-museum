@@ -42,6 +42,8 @@ died:
   - source/wikipedia-fatima-meer-en
   - source/wikipedia-fatima-meer-ar
   - source/wikidata-fatima-meer
+relations:
+  - { type: born_in, target: place/durban, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
 faith:
 - value: unknown
   basis: unknown

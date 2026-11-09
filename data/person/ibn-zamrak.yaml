@@ -49,6 +49,9 @@ died:
     - source/wikipedia-ibn-zamrak-ar
     - source/wikidata-ibn-zamrak
 
+relations:
+  - { type: born_in, target: place/granada, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibn-zamrak] }
+  - { type: died_in, target: place/granada, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibn-zamrak] }
 faith:
   - value: unknown
     basis: unknown

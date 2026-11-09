@@ -21,6 +21,8 @@ born:
   derived: true
   note: "The English and Arabic articles and Wikidata all give 1 December 1997, born in Arles, France. There is no place entity for Arles, so no born_in edge is written. Hijri year 1418 derived from the Gregorian date."
   sources: [source/wikipedia-ismael-bennacer-en, source/wikipedia-ismael-bennacer-ar, source/wikidata-ismael-bennacer]
+relations:
+  - { type: born_in, target: place/arles, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ismael-bennacer] }
 faith:
   - value: unknown
     basis: unknown

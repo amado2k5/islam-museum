@@ -10,6 +10,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]
 roles: [military, ruler]
+relations:
+  - { type: lived_in, target: place/yemen, confidence: low, note: "Associated with اليمن per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [andalus-europe]
 relations:
+  - { type: lived_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
   - { type: spouse_of, target: person/abd-al-aziz-ibn-musa, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research

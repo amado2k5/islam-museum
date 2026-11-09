@@ -9,7 +9,10 @@ wings: [place]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
-  - { type: part_of, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: part_of, target: place/medina, sources: [source/samhudi-wafa-al-wafa, source/geonames-gazetteer] }
+coordinates: [24.467, 39.619]
+coordinate_precision: site
+coordinate_note: "Identified modern location; flagged for gazetteer verification."
 sources: [source/samhudi-wafa-al-wafa]
 provenance:
   layer: own-research

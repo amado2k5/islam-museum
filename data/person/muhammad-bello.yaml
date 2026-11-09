@@ -45,6 +45,8 @@ relations:
   - { type: sibling_of, target: person/nana-asmau, sources: [source/wikipedia-muhammad-bello-en] }
   - { type: successor_of, target: person/usman-dan-fodio, sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-usman-dan-fodio-ur] }
 
+  - { type: born_in, target: place/sokoto-state, sources: [source/wikidata], confidence: low, note: "Wikidata Q8039303 ('Wurno'), located in Sokoto State" }
+  - { type: died_in, target: place/sokoto-state, sources: [source/wikidata], confidence: low, note: "Wikidata Q8039303 ('Wurno'), located in Sokoto State" }
 faith:
   - value: unknown
     basis: unknown

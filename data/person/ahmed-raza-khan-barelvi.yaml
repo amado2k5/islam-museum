@@ -54,3 +54,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-ahmed-raza-khan-barelvi-en, source/wikipedia-ahmed-raza-khan-barelvi-ar, source/wikidata-ahmed-raza-khan-barelvi]
+relations:
+  - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (هندي); denotes association, not proven residence.", sources: [source/wikipedia-ahmed-raza-khan-barelvi-en, source/wikipedia-ahmed-raza-khan-barelvi-ar, source/wikidata-ahmed-raza-khan-barelvi], confidence: low }

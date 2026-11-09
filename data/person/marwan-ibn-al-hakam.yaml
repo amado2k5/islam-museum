@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/rashidun, period/umayyad]
 relations:
+  - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/first-raid-on-ifriqiya, role: "في الجيش الممدود", sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/banu-umayya, sources: [source/futuh-buldan-maarif-1407] }
 provenance:

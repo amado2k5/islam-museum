@@ -13,6 +13,7 @@ roles: [calligrapher]
 periods: [period/gunpowder-empires]
 died: { edtf: "1683", hijri: "1095", calendar: gregorian, precision: year, status: tradition, note: "Date as given in the book {cite:salim-tarikh-khatt-o-khattatin-2001 p. 152}; the Hijri and CE years printed there do not fully match (1095 AH = 1683–84 CE)." }
 relations:
+  - { type: lived_in, target: place/india, confidence: low, note: "Associated with الهند per the record's own text; relation type pending review.", sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: patronized_by, target: person/aurangzeb-mughal, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: exemplifies, target: concept/shikasta-script, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
 sources: [source/salim-tarikh-khatt-o-khattatin-2001]

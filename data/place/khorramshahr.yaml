@@ -1,0 +1,20 @@
+id: place/khorramshahr
+class: place
+kind: city
+label: { ar: "المحمرة", en: "Khorramshahr" }
+summary:
+  ar: "مدينة وميناء إيراني على شط العرب في خوزستان؛ عُرفت سابقاً بالمحمرة."
+  en: "Iranian port city on the Shatt al-Arab in Khuzestan; formerly Muhammara."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [30.44083, 48.18417]
+coordinate_precision: locality
+coordinate_note: "Wikidata Q458396 coordinates; representative point for the city."
+external_ids: { wikidata: "Q458396", geonames: "127319" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Coordinates, labels and identifiers from Wikidata Q458396 and GeoNames; entity created so persons' place relations resolve on the map."

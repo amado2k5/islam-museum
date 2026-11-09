@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Gregorian date and Nagrig birthplace from English and Arabic Wikipedia. Nagrig has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1412) is derived by tabular conversion. The identity is unambiguous: Mohamed Salah Hamed Mahrous Ghaly, the footballer born 1992 — not Mohamed Salah Ben Mrad (Tunisian scholar, separate record person/mohamed-salah-ben-mrad) and not the 'Dr Muhammad Salah' named in the founder's harvest queue."
   sources: [source/wikipedia-mohamed-salah-en, source/wikipedia-mohamed-salah-ar]
+relations:
+  - { type: born_in, target: place/nagrig, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-salah] }
 faith:
   - value: unknown
     basis: unknown

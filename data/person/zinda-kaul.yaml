@@ -34,7 +34,9 @@ faith:
     basis: documented
     note: "Settled on independent prose attestations of the man himself: the English biography states he was born into a Kashmiri Pandit family, Braj B. Kachru's profile styles him 'Pandit Zinda Koul' throughout, and a literary-history essay styles him 'Pandit Zinda Koul (1884-1965)' in its own voice. His Kashmiri poetry is devotional in the bhakti tradition, his verse was shaped by the Hindu mystic lore of Kashmir Shaivism, Vedanta and the Upanishads, and his first poem was recited at a Sanatan Dharm Sabha meeting. Category filings and the 'Pandit' and 'Masterji' name elements were not counted."
     sources: [source/wikipedia-zinda-kaul-en, source/koshur-zinda-koul, source/saarang-zinda-koul]
-relations: []
+relations:
+
+  - { type: born_in, target: place/srinagar, sources: [source/wikipedia-zinda-kaul-en, source/wikipedia-zinda-kaul-ur, source/wikidata-zinda-kaul] }
 summary:
   ar: "شاعر وكاتب ومعلم كشميري كتب بالفارسية والهندية والأردية والكشميرية، عُرف عند تلاميذه بلقب «ماسترجي»، وكان أول شاعر كشميري يفوز بجائزة أكاديمية ساهتيا (1956) عن ديوانه «سمران» ذي الطابع التعبدي."
   en: "Kashmiri poet, writer and teacher who composed in Persian, Hindi, Urdu and Kashmiri, was known to his students as Masterji, and in 1956 became the first Kashmiri poet to win the Sahitya Akademi Award, for his devotional collection Sumran."

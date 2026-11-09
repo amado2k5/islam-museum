@@ -34,6 +34,7 @@ faith:
     note: "No source names a school for him, and Wikidata carries no religion value for him at all. The biographies record a Bosniak Muslim family background, mekteb schooling and teaching posts at the Muslim teachers' school (Darülmuallimin) and the Sharia Judges' School in Sarajevo — family background and teaching employment, which never count. Absence configuration, so the record is unflagged."
     sources: [source/wikipedia-edhem-mulabdic-en, source/wikipedia-edhem-mulabdic-bs, source/wikipedia-edhem-mulabdic-hr, source/wikidata-edhem-mulabdic]
 relations:
+  - { type: died_in, target: place/sarajevo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-edhem-mulabdic] }
   - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-edhem-mulabdic-bs, source/wikipedia-edhem-mulabdic-hr] }
 summary:
   ar: "كاتب ومربٍّ بوسني من ماغلاي، شارك في تأسيس مجلة «بهار» (1900) وجمعية «غيرت» (1903)، ودرّس في سراييفو وعمل نائباً عن ماغلاي حتى 1929، وصاحب رواية «زيلينو بوسينيي» (1898) التي تُعد أول رواية لبوسني مسلم."

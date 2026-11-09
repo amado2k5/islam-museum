@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: born_in, target: place/ankara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3640)" }
+  - { type: died_in, target: place/gelibolu, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q216907)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q136174914

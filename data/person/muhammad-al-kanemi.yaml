@@ -42,6 +42,9 @@ relations:
   - { type: corresponded_with, target: person/usman-dan-fodio, sources: [source/wikipedia-muhammad-al-kanemi-en] }
   - { type: corresponded_with, target: person/muhammad-bello, sources: [source/wikipedia-muhammad-al-kanemi-en] }
 
+  - { type: born_in, target: place/libya, sources: [source/wikidata-muhammad-al-kanemi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1016)" }
+  - { type: died_in, target: place/bornu-empire, sources: [source/wikidata-muhammad-al-kanemi], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q894030)" }
+  - { type: buried_in, target: place/kukawa, sources: [source/wikidata-muhammad-al-kanemi], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q128665)" }
 faith:
   - value: unknown
     basis: unknown

@@ -18,6 +18,8 @@ wings: [people]
 themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq, arabia]
+relations:
+  - { type: lived_in, target: place/babil, confidence: low, note: "Associated with بابل per the record's own summary text; relation type pending review.", sources: [source/mubarakpuri-raheeq] }
 provenance:
   layer: own-research
   source: "الرحيق المختوم ص28–30 نقلاً عن ابن هشام 1/44 و114–125 وقلب جزيرة العرب ص230–231 ورحمة للعالمين 2/48 ومروج الذهب 1/205"

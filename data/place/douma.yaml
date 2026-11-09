@@ -1,0 +1,16 @@
+id: place/douma
+class: place
+kind: city
+label: { en: "Douma", ar: "دوما" }
+summary:
+  en: "City in Syria."
+  ar: "مدينة في سوريا."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [33.5722, 36.4019]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q403446", geonames: "170592" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q403446 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

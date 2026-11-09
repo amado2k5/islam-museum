@@ -15,6 +15,8 @@ roles: [athlete]
 wings: [people, living]
 regions: [arabia]
 born: { edtf: "1983-04-07", hijri: "1403", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 7 April 1983 in Abu Dhabi, United Arab Emirates; the English article's infobox cites FIFA's Arab Cup Qatar 2021 squad list for the date and place. No place entity for Abu Dhabi exists in the museum, so the birthplace is carried here only. The Arabic article's categories pair his birth year with 1403 AH.", sources: [source/wikipedia-ismail-matar-en, source/wikipedia-ismail-matar-ar, source/wikidata-ismail-matar] }
+relations:
+  - { type: born_in, target: place/abu-dhabi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ismail-matar] }
 faith:
   - value: unknown
     basis: unknown

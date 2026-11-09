@@ -12,6 +12,8 @@ died: { edtf: "1359~", hijri: "0761", calendar: julian, precision: year, status:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
+relations:
+  - { type: lived_in, target: place/fes, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance: { layer: own-research, source: "الموسوعة الفقهية الكويتية، ملحق تراجم الفقهاء، ج11 ص5161", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "mawsua-w03-41" }
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); appendix p.5161; the source's date pair is read as death then birth" }

@@ -12,6 +12,8 @@ wings: [people]
 regions: [maghreb]
 periods: [period/abbasid-early]
 died: { edtf: "0836", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80985)" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q2737233

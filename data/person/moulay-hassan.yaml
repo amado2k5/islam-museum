@@ -24,6 +24,7 @@ born:
   sources: [source/wikipedia-moulay-hassan-en, source/wikipedia-moulay-hassan-ar, source/wikidata-moulay-hassan]
 relations:
   - { type: child_of, target: person/mohammed-vi-of-morocco, sources: [source/wikipedia-moulay-hassan-en, source/wikipedia-moulay-hassan-ar, source/wikidata-moulay-hassan] }
+  - { type: born_in, target: place/rabat, sources: [source/wikidata-moulay-hassan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3551)" }
 faith:
   - value: unknown
     basis: unknown

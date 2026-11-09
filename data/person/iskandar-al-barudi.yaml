@@ -17,6 +17,8 @@ periods: [period/modern-era]
 regions: [levant-iraq]
 story_roles:
   - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/lebanon, confidence: low, note: "Associated with لبنان per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

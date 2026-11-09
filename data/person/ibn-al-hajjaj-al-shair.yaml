@@ -11,6 +11,7 @@ themes: [literature]
 died:
   { edtf: "1001-03~", hijri: "0391-06", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الآخرة 391 بالنيل؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.217}" }
 relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: related_to, target: person/al-sharif-al-radi, role: "أفرد الرضي من شعره ما خلا عن السخف ورثاه عند موته", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

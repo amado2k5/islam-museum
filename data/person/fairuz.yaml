@@ -27,6 +27,7 @@ born:
   note: "Two birth dates circulate and both are recorded. Encyclopaedia Britannica gives 'November 20, 1934?' with a researcher's note on the uncertainty, and the English article's lead gives '20 November 1934 or 21 November 1935'; the Arabic article's lead and Wikidata give 21 November 1935 (Hijri year 1354 by the same conversion). The 20 November 1934 date is followed, as Britannica and the founder's queue give it. The English article and Britannica place her birth in Beirut, where the family lived in the Zuqaq al-Blat quarter; the Arabic article says she was born in the Shouf district — a variant recorded here, not followed. The Hijri year (1353) is derived by tabular conversion."
   sources: [source/britannica-fairuz, source/wikipedia-fairuz-en, source/wikipedia-fairuz-ar, source/wikidata-fairuz]
 relations:
+  - { type: born_in, target: place/zuqaq-al-blat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fairuz] }
   - { type: born_in, target: place/bayrut, sources: [source/wikipedia-fairuz-en, source/britannica-fairuz] }
   - { type: lived_in, target: place/bayrut, sources: [source/wikipedia-fairuz-en, source/wikipedia-fairuz-ar] }
 faith:

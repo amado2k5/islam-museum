@@ -20,3 +20,5 @@ provenance:
 external_ids: { wikidata: "Q200193" }
 sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruler_of, target: place/baghdad, note: "From text: سلطان على منابر بغداد وبلغ ما لم يبلغه أ", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }

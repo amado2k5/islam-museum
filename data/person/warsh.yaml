@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/abbasid-early]
+relations:
+  - { type: born_in, target: place/qift, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q935454)" }
+  - { type: died_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q839456)" }
+  - { type: buried_in, target: place/southern-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q98740785)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12250893

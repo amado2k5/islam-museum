@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: lived_in, target: place/india, confidence: low, note: "Ruler of Ma'bar (Madurai) per the record's own summary; precise seat pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q11917506

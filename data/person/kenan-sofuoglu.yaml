@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born in Kuzuluk, Akyazı, Sakarya. The English and Arabic articles and Wikidata give 25 August 1984, and that date is followed here; the Turkish article gives 25 July 1984, so the date is recorded as debated and the conflict is preserved in this note. No place entity for Akyazı or Sakarya exists, so no born_in relation is written. The Hijri year 1404 is the tabular conversion of the followed date, 25 August 1984, and is marked derived."
   sources: [source/wikipedia-kenan-sofuoglu-en, source/wikipedia-kenan-sofuoglu-tr, source/wikipedia-kenan-sofuoglu-ar, source/wikidata-kenan-sofuoglu]
+relations:
+  - { type: born_in, target: place/akyaz-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kenan-sofuoglu] }
 faith:
   - value: unknown
     basis: unknown

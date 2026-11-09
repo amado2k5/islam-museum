@@ -31,6 +31,8 @@ died:
   derived: true
   note: "Date from English Wikipedia and Wikidata. The Hijri year (1420) is a tabular conversion. He died in Mumbai, but Mumbai has no place entity here, so no died_in relation is written."
   sources: [source/wikipedia-hasrat-jaipuri-en, source/wikidata-hasrat-jaipuri]
+relations:
+  - { type: died_in, target: place/mumbai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasrat-jaipuri] }
 faith:
   - value: unknown
     basis: unknown

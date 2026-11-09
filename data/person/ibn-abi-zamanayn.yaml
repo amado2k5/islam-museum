@@ -13,6 +13,8 @@ regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
 born: { edtf: "0936", precision: year, status: tradition, derived: true }
 died: { edtf: "1009", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/cordoba, confidence: low, note: "Andalusian Maliki scholar of Cordoba per the record's own summary.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6532896

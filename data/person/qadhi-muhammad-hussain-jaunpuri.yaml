@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: lived_in, target: place/jaunpur, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q1025475)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q31301233

@@ -10,6 +10,8 @@ roles: [scholar, judge]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/almeria, confidence: low, note: "Associated with المرية per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

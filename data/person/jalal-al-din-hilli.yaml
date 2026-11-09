@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [levant-iraq, persia-central-asia]
 born: { edtf: "1399~", hijri: "0801", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد 801 تقريباً بالحلة {cite:shadharat-dhahab p. 303}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1459-11-27~", hijri: "0864-01-01", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي اليوم الأول من سنة 864 ببغداد {cite:shadharat-dhahab p. 304}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/hilla, confidence: low, note: "Associated with الحلة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 864)، قراءة آبل فيجن"

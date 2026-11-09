@@ -1,0 +1,16 @@
+id: place/sevastopol
+class: place
+kind: city
+label: { en: "Sevastopol", ar: "سيفاستوبول" }
+summary:
+  en: "Port city in Crimea, disputed between Ukraine and Russia."
+  ar: "مدينة في الدولة العثمانية."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [44.605, 33.5225]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q7525", geonames: "694423" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q7525 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

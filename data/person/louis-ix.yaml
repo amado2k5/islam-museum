@@ -12,6 +12,8 @@ died: { edtf: "1270", hijri: "0669", calendar: julian, precision: year, status: 
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe, maghreb]
+relations:
+  - { type: lived_in, target: place/mansoura, confidence: low, note: "Associated with المنصورة per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

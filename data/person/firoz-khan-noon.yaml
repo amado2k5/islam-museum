@@ -36,6 +36,8 @@ died:
   derived: true
   note: "The followed date is 9 December 1970: the English article's lead and infobox, the Urdu article and Wikidata give it. The English article's later-life section, citing Banglapedia, instead gives 7 December 1970 and places his death and burial in his ancestral village of Nurpur Noon in Sargodha District; the variant is preserved here and the date is recorded as debated. Nurpur Noon has no place entity, so no died_in or buried_in edge is written. The Hijri year is a conversion of the followed date."
   sources: [source/wikipedia-firoz-khan-noon-en, source/wikipedia-firoz-khan-noon-ur, source/wikipedia-firoz-khan-noon-ar, source/wikidata-firoz-khan-noon]
+relations:
+  - { type: died_in, target: place/sargodha, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-firoz-khan-noon-en, source/wikipedia-firoz-khan-noon-ur, source/wikipedia-firoz-khan-noon-ar, source/wikidata-firoz-khan-noon] }
 faith:
   - value: unknown
     basis: unknown

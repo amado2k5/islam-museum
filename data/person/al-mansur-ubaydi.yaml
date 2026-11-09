@@ -13,5 +13,9 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-36
 external_ids: { wikidata: "Q982704" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir]
+sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: born_in, target: place/raqqada, note: "Wikidata Q3107354 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/al-mahdiyya, note: "Wikidata Q466054 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/fatimid-caliphate, note: "Wikidata Q160307 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

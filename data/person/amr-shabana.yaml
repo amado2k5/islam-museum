@@ -23,6 +23,7 @@ born:
   note: "Born 20 July 1979 in Cairo (the English and Arabic articles and Wikidata agree). The Hijri year 1399 is the tabular conversion of 20 July 1979 and is marked derived."
   sources: [source/wikipedia-amr-shabana-en, source/wikipedia-amr-shabana-ar, source/wikipedia-amr-shabana-ur, source/wikidata-amr-shabana]
 relations:
+  - { type: born_in, target: place/cairo, note: "From text: born in Cairo", sources: [source/wikipedia-amr-shabana-en, source/wikipedia-amr-shabana-ar, source/wikipedia-amr-shabana-ur, source/wikidata-amr-shabana] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-amr-shabana-en, source/wikipedia-amr-shabana-ar, source/wikidata-amr-shabana] }
 faith:
   - value: unknown

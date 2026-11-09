@@ -21,3 +21,5 @@ provenance:
 external_ids: { wikidata: "Q12177937" }
 sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/iraq, note: "From text: imam of Iraq", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi] }

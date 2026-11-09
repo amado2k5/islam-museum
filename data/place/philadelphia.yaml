@@ -1,0 +1,36 @@
+id: place/philadelphia
+class: place
+kind: city
+label:
+  ar: فيلادلفيا
+  en: Philadelphia
+  ur: فلاڈلفیا
+summary:
+  ar: مدينة تُعرف بالإنجليزية باسم Philadelphia.
+  en: Largest city in the U.S. state of Pennsylvania and seat of Philadelphia County.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 39.9528
+- -75.1636
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q1345
+  geonames: '4560349'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1345 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1345 (labels, coordinates, description)

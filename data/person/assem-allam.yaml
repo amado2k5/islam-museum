@@ -38,7 +38,8 @@ died:
   note: "Died in Kingston upon Hull on 2 December 2022, aged 83; the English article and Wikidata agree. The Hijri year 1444 is the tabular conversion of the built date, marked derived, and agrees with the Arabic article's Hijri category filing. No place entity for Hull exists in the museum, so no died_in edge is written."
   sources: [source/wikipedia-assem-allam-en, source/wikidata-assem-allam]
 
-relations: []
+relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/wikipedia-assem-allam-en, source/wikipedia-assem-allam-ar, source/wikidata-assem-allam], confidence: low }
 
 faith:
   - value: unknown

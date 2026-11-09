@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/baghdad, note: "Intimate (batana) of al-Ma'mun at whose court the lamp anecdote is set; the Abbasid court sat in Baghdad.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
   - { type: related_to, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

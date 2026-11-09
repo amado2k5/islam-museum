@@ -32,6 +32,7 @@ died:
   sources: [source/wikipedia-turangzai-haji-saheb-en, source/wikidata-turangzai-haji-saheb]
 relations:
   - { type: student_of, target: person/najm-al-din-akhundzada, sources: [source/edwards-heroes-of-the-age-1996, source/tribal-analysis-center-mad-mullahs] }
+  - { type: born_in, target: place/punjab, sources: [source/wikidata], confidence: low, note: "Wikidata Q2379089 ('Charsadda District'), located in Punjab" }
 roles: [activist]
 wings: [people]
 regions: [south-asia]

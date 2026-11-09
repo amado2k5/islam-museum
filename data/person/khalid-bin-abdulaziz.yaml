@@ -36,6 +36,9 @@ died:
   note: "He died of a heart attack on 13 June 1982 in his summer palace in Taif (English article text and infobox), and was buried the same day at Al Oud cemetery in Riyadh after funeral prayers at the Grand Mosque in Mecca (English article). Wikidata places his death at Riyadh instead, a conflicting value disclosed here and not followed. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikipedia-khalid-bin-abdulaziz-ar, source/wikidata-khalid-bin-abdulaziz]
 relations:
+  - { type: born_in, target: place/riyadh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khalid-bin-abdulaziz] }
+  - { type: died_in, target: place/riyadh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khalid-bin-abdulaziz] }
+  - { type: buried_in, target: place/al-oud-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khalid-bin-abdulaziz] }
   - { type: successor_of, target: person/faisal-bin-abdulaziz, sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikipedia-khalid-bin-abdulaziz-ar] }
   - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikidata-khalid-bin-abdulaziz] }
   - { type: member_of, target: group/al-saud, sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikipedia-khalid-bin-abdulaziz-ar] }

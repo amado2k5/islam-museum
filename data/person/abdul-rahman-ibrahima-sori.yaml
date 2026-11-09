@@ -40,7 +40,8 @@ faith:
     basis: unknown
     note: "Two independent article traditions attest Sori personally as a Muslim: the English text calls him a Torodbe Fulani Muslim prince educated in madrasas at Djenné and Timbuktu, and the Arabic and French texts independently describe him as a Muslim prince of the Fulani who received a traditional Islamic education; the Urdu text likewise calls him a Muslim ruler. Wikidata's single religion value (Islam) echoes the same reporting and is not counted separately. No source names a madhhab, branch or order for him personally. Christianity enters his American years only at the surface: the English article reports that he attended Baptist services with his family while objecting to the doctrine of the Trinity as contradicting the Islamic faith of his upbringing, that he raised funds through the pretense of having fully adopted Christianity, and that on reaching Africa he returned to the full practice of Islam. No genuine conversion is attested; the affiliation the sources leave him with is Islam, with no school named. Under the doubt rule the value stays unknown."
     sources: [source/wikipedia-abdul-rahman-ibrahima-sori-en, source/wikipedia-abdul-rahman-ibrahima-sori-ar, source/wikipedia-abdul-rahman-ibrahima-sori-fr, source/wikidata-abdul-rahman-ibrahima-sori]
-relations: []
+relations:
+  - { type: lived_in, target: place/morocco, note: "From text: of Morocco", sources: [source/wikipedia-abdul-rahman-ibrahima-sori-en, source/wikipedia-abdul-rahman-ibrahima-sori-ar, source/wikipedia-abdul-rahman-ibrahima-sori-ur, source/wikipedia-abdul-rahman-ibrahima-sori-fr, source/wikidata-abdul-rahman-ibrahima-sori], confidence: low }
 sources: [source/wikipedia-abdul-rahman-ibrahima-sori-en, source/wikipedia-abdul-rahman-ibrahima-sori-ar, source/wikipedia-abdul-rahman-ibrahima-sori-ur, source/wikipedia-abdul-rahman-ibrahima-sori-fr, source/wikidata-abdul-rahman-ibrahima-sori]
 external_ids:
   wikidata: "Q3825124"

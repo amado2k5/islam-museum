@@ -11,6 +11,7 @@ regions: [andalus-europe]
 born: { edtf: "0771~", hijri: "0154~", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة ١٥٤هـ {cite:nafh-tib-maqqari p. 377}." }
 died: { edtf: "0822~", hijri: "0206~", calendar: julian, precision: year, status: historical, derived: true, note: "آخر سنة 206هـ لسبع وعشرين سنة من ولايته {cite:nafh-tib-maqqari p. 377}." }
 relations:
+  - { type: ruler_of, target: place/al-andalus, note: "From text: ملك بالأندلس أبهة", sources: [source/nafh-tib-maqqari] }
   - { type: participated_in, target: event/rabbad-revolt-202, role: "قاتل أهل الربض حتى غلبهم وهدم دورهم", sources: [source/nafh-tib-maqqari] }
   - { type: ruled_over, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
 provenance:

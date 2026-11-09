@@ -27,6 +27,8 @@ faith:
     note: "No source names a school or affiliation for Hadji. None of the English, Arabic or French articles carries a religion field or any statement of his religion, and Wikidata (Q311344) has no religion value at all. With nothing attested anywhere, the value is unknown."
     sources: [source/wikipedia-mustapha-hadji-en, source/wikipedia-mustapha-hadji-ar, source/wikipedia-mustapha-hadji-fr, source/wikidata-mustapha-hadji]
 external_ids: { wikidata: "Q311344" }
+relations:
+  - { type: born_in, target: place/ifrane-atlas-saghir, sources: [source/wikidata-mustapha-hadji], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2281695)" }
 sources: [source/wikipedia-mustapha-hadji-en, source/wikipedia-mustapha-hadji-ar, source/wikipedia-mustapha-hadji-fr, source/wikidata-mustapha-hadji]
 provenance:
   layer: own-research

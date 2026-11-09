@@ -39,6 +39,9 @@ died:
     - source/wikipedia-lal-shahbaz-qalandar-ar
     - source/wikipedia-lal-shahbaz-qalandar-ur
     - source/wikidata-lal-shahbaz-qalandar
+relations:
+  - { type: born_in, target: place/marwand, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lal-shahbaz-qalandar] }
+  - { type: died_in, target: place/sehwan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lal-shahbaz-qalandar] }
 faith:
   - value: sufi
     basis: documented

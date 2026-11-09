@@ -26,3 +26,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch49
+relations:
+  - { type: lived_in, target: place/farghana, note: "From text: عالم من أخسيكث في وادي فرغانة", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

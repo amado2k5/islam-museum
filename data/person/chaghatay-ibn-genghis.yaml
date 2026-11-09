@@ -9,6 +9,7 @@ summary:
 gender: male
 roles: [ruler]
 relations:
+- { type: lived_in, target: place/samarqand, confidence: low, note: "Associated with سمرقند per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: child_of
   target: person/genghis-khan
   sources:

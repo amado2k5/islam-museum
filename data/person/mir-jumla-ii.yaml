@@ -40,6 +40,7 @@ died:
   sources: [source/wikipedia-mir-jumla-ii-en, source/wikipedia-mir-jumla-ii-ar, source/wikipedia-mir-jumla-ii-ur, source/banglapedia-mir-jumla, source/wikidata-mir-jumla-ii]
 
 relations:
+  - { type: died_in, target: place/hoshiarpur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-jumla-ii] }
   - { type: born_in, target: place/isfahan, sources: [source/wikipedia-mir-jumla-ii-en, source/wikidata-mir-jumla-ii] }
 
 faith:

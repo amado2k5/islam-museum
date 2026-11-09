@@ -18,6 +18,7 @@ regions:
 - arabia
 - levant-iraq
 relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with Kufa per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
   - { type: participated_in, target: event/killing-of-malik-ibn-nuwayra, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/sahaba, sources: [source/futuh-buldan-maarif-1407]}
 provenance:

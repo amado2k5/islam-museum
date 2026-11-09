@@ -31,6 +31,7 @@ died:
   note: "Died on 19 Ramadan 1410 AH / 15 April 1990. The Hijri date is given by the Arabic article itself; the year conversion is derived."
   sources: [source/wikipedia-hassanein-makhlouf-ar, source/wikidata-hassanein-makhlouf]
 relations:
+  - { type: born_in, target: place/bani-adi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassanein-makhlouf] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-hassanein-makhlouf-ar] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-hassanein-makhlouf-ar] }
   - { type: student_of, target: person/muhammad-bakhit-mutii, sources: [source/wikipedia-hassanein-makhlouf-ar, source/wikipedia-hassanein-makhlouf-ur] }

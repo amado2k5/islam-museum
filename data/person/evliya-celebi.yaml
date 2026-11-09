@@ -16,6 +16,8 @@ periods: [period/gunpowder-empires]
 born: { edtf: "1611", hijri: "1020", calendar: julian, precision: year, status: tradition, note: "'born in the reign of Sultan Ahmed I, on the 10th of Moharrem 1020 (A.D. 1611)' (Hammer, Narrative vol. 1, scan p.9); EDTF year as given by Hammer", sources: [source/evliya-narrative-hammer-v1] }
 themes: [travel]
 relations:
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/seyahatname, sources: [source/evliya-narrative-hammer-v1] }
   - { type: born_in, target: place/istanbul, sources: [source/evliya-narrative-hammer-v1] }
 sources: [source/al-aalam, source/evliya-narrative-hammer-v1, source/evliya-narrative-hammer-v2]

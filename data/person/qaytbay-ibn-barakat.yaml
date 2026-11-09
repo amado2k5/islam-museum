@@ -23,3 +23,5 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: died_in, target: place/damascus, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/shadharat-dhahab] }

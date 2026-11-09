@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Umayyad-era figure of the Iraqi milieu (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q54875304
 provenance:

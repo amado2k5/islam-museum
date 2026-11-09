@@ -31,6 +31,8 @@ died:
   derived: true
   note: "The English article, cited to the Daily Post of 27 November 2025, and Wikidata agree that he died at home in the early hours of 26 November 2025, aged 98. The Hijri year is derived by tabular conversion. The harvest queue's line for him said '1927-Living'; it is outdated — he died in November 2025."
   sources: [source/wikipedia-dahiru-bauchi-en, source/wikidata-dahiru-bauchi]
+relations:
+  - { type: born_in, target: place/northern-region, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-dahiru-bauchi] }
 faith:
   - value: sufi
     basis: documented

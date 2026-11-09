@@ -32,6 +32,8 @@ died:
   note: "Died at Setif while under house arrest, less than a month before the June 1965 coup."
   sources: [source/wikipedia-bachir-el-ibrahimi-en, source/wikipedia-bachir-el-ibrahimi-fr, source/wikipedia-bachir-el-ibrahimi-ar]
 relations:
+  - { type: died_in, target: place/bordj-bou-arr-ridj-province, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/algeria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/setif, sources: [source/wikipedia-bachir-el-ibrahimi-en, source/wikipedia-bachir-el-ibrahimi-fr] }
 faith:
   - value: unknown

@@ -13,6 +13,8 @@ regions: [south-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1558", precision: year, status: tradition, derived: true }
 died: { edtf: "1574", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/deccan-plateau, confidence: low, note: "Last Imad Shahi sultan of Berar (Deccan) per the record's own summary; precise seat pending review.", sources: [source/tarikh-islam-hasan-ibrahim] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q6828229

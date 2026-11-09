@@ -21,6 +21,8 @@ died:
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
+relations:
+  - { type: died_in, target: place/hisar, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

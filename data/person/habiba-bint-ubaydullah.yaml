@@ -18,6 +18,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-umayya, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/ubaydullah-ibn-jahsh, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/umm-habiba-bint-abi-sufyan, sources: [source/ibn-hisham-saqqa] }

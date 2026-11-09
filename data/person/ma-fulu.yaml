@@ -33,6 +33,8 @@ died:
   derived: false
   note: "Killed in action at the Zhengyang Gate in Peking (Beijing) during the Battle of Peking in the Boxer Rebellion: the English article and Wikidata give the year 1900 at year precision. The Chinese article's data template files the death day as 13 August 1900, but its text cites no source for the day, so year precision is recorded and the day is carried in this note only. No Hijri pairing is attested, so no hijri key is carried; no museum place record exists for Beijing, so no died_in or buried_in relation is written."
   sources: [source/wikipedia-ma-fulu-en, source/wikipedia-ma-fulu-zh, source/wikidata-ma-fulu]
+relations:
+  - { type: died_in, target: place/beijing, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-fulu] }
 faith:
   - value: unknown
     basis: unknown

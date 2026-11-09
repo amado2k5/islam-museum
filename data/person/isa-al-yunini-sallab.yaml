@@ -16,6 +16,7 @@ faith:
   - value: sunni-hanbali
     basis: tradition
 relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
   - { type: student_of, target: person/abdallah-al-yunini, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

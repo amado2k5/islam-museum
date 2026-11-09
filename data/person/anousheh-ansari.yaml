@@ -21,6 +21,7 @@ born:
   note: "Gregorian date and Mashhad birthplace from the English and Arabic Wikipedia articles and Wikidata Q17519. The Hijri year (1386) is derived by tabular conversion."
   sources: [source/wikipedia-anousheh-ansari-en, source/wikipedia-anousheh-ansari-ar, source/wikidata-anousheh-ansari]
 relations:
+  - { type: born_in, target: place/mashhad, note: "From text: born in Mashhad", sources: [source/wikipedia-anousheh-ansari-en, source/wikipedia-anousheh-ansari-ar, source/wikidata-anousheh-ansari] }
   - { type: born_in, target: place/mashhad, sources: [source/wikipedia-anousheh-ansari-en, source/wikidata-anousheh-ansari] }
 faith:
   - value: unknown

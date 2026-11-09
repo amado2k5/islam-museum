@@ -10,6 +10,9 @@ periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 died: { edtf: "0970~", hijri: "0360", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 360هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 251}." }
 relations:
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/mecca, note: "Wikidata Q5806 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: authored, target: work/akhbar-umar-ibn-abd-al-aziz, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
@@ -18,5 +21,5 @@ provenance:
   run: lib-kashf-batch-12
 external_ids:
   wikidata: Q12183231
-sources: [source/kashf-zunun-furqan]
+sources: [source/kashf-zunun-furqan, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

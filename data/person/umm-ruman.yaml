@@ -38,6 +38,8 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: born_in, target: place/sarawat-mountains, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2466169)" }
+- { type: died_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35484)" }
 - type: spouse_of
   target: person/al-harith-ibn-sakhbara
   note: زوجها الأول الحارث، مات بمكة وبقي لها ابنه الطفيل؛ تزوجها أبو بكر بعده إكراماً لصاحبه (نساء حول الرسول ص322-323).

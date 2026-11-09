@@ -30,6 +30,8 @@ born:
   sources: [source/wikipedia-mohamed-mansour-en, source/wikipedia-mohamed-mansour-ar, source/wikidata-mohamed-mansour]
 
 relations:
+  - { type: born_in, target: place/al-fayyum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-mansour] }
+  - { type: lived_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-mansour] }
   - { type: born_in, target: place/alexandria, sources: [source/wikipedia-mohamed-mansour-en, source/wikipedia-mohamed-mansour-ar] }
 
 faith:

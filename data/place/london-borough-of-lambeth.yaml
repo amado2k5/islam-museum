@@ -1,0 +1,21 @@
+id: place/london-borough-of-lambeth
+class: place
+kind: region
+label: { ar: "لامبيث", en: "London Borough of Lambeth", ur: "لیمبیتھ بورو" }
+summary:
+  ar: "إقليم في المملكة المتحدة."
+  en: "Region in United Kingdom."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [51.460833333333, -0.11638888888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q202059" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q202059 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

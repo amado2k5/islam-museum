@@ -16,6 +16,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb]
 story_roles:
   - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/tripoli-greece, confidence: low, note: "Associated with طرابلس per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

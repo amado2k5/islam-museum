@@ -39,6 +39,9 @@ faith:
     note: "No consulted article names an affiliation for Rasulzade himself: the English, Azerbaijani, Russian, Turkish, Persian and Arabic articles are all silent on his religion. Wikidata's only religion value is Shia Islam (Q9585), a single structured-data value with no article behind it, which under the two-source rule and the doubt rule cannot carry a value. His father was an akhund — a cleric — which is family background, recorded in the prose as such; the Musavat programme and his national ideology are politics, not attestation; and the Caucasus milieu is context, never a basis for mapping. His faith is therefore recorded unknown, with the single Wikidata value preserved here."
     sources: [source/wikidata-mammed-amin-rasulzade, source/wikipedia-mammed-amin-rasulzade-en, source/wikipedia-mammed-amin-rasulzade-az]
 relations:
+  - { type: born_in, target: place/novkhany, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mammed-amin-rasulzade] }
+  - { type: died_in, target: place/ankara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mammed-amin-rasulzade] }
+  - { type: buried_in, target: place/cebeci-asri-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mammed-amin-rasulzade] }
   - type: lived_in
     target: place/istanbul
     note: "Exile base in Istanbul from late 1922, per the Azerbaijani article: he began his activity in Istanbul at the end of 1922 and from 16 September 1923 edited the journal Yeni Kafkasya (New Caucasus) there, until the Turkish government banned it in 1927 at Moscow's demand. The English article confirms the Turkish exile and his editorship of Yeni Kafkasya in 1923–1927. Direction: this edge is written once, in Rasulzade's own record, pointing from him to Istanbul as a place he lived in."

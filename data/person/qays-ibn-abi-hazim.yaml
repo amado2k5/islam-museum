@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
+relations:
+  - { type: lived_in, target: place/kufa, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q186234)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12233985

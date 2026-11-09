@@ -16,3 +16,5 @@ provenance:
   run: lib-nafh-tib-batch-20
 sources: [source/nafh-tib-maqqari, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 2, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/al-andalus, note: "From text: أهل الأندلس", sources: [source/nafh-tib-maqqari, source/salabi-umayyad-state-2020], confidence: low }

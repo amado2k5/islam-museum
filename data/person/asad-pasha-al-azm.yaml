@@ -32,6 +32,7 @@ died:
   note: "The English article's lead dates his death to March 1758. The accounts differ: one has him executed in March 1758 aboard a ship ostensibly carrying him to exile in Crete; the Türkiye Diyanet Vakfı Encyclopaedia of Islam account carried by the same article has him appointed to Aleppo on 21 January 1757 and to Sivas on 25 September 1757, then executed at Ankara on the way to exile at Ruse — his tomb there (the Azimi, İsmail Paşazade Hacı Esad, Türbesi) bears the year 1171 AH on its stone and records his fourteen years as Hajj caravan commander. The Arabic lead and Wikidata close his life in 1757; 1171 AH runs from October 1757 to September 1758 and covers both readings. No place entity exists for Ankara, so no died_in edge is written."
   sources: [source/wikipedia-asad-pasha-al-azm-en, source/wikipedia-asad-pasha-al-azm-ar, source/wikidata-asad-pasha-al-azm]
 relations:
+  - { type: ruler_of, target: place/damascus, note: "From text: governor of Damascus", sources: [source/wikipedia-asad-pasha-al-azm-en, source/wikipedia-asad-pasha-al-azm-ar, source/wikidata-asad-pasha-al-azm] }
   - { type: lived_in, target: place/damascus, sources: [source/wikipedia-asad-pasha-al-azm-en, source/wikipedia-asad-pasha-al-azm-ar] }
   - { type: commissioned, target: building/qasr-al-azm-dimashq, sources: [source/wikipedia-asad-pasha-al-azm-en] }
 faith:

@@ -21,6 +21,8 @@ themes: [scripture-and-its-sciences, travel]
 periods: [period/abbasid-early]
 regions: [persia-central-asia]
 relations:
+  - { type: lived_in, target: place/samarqand, note: "From text: judge of Samarqand", sources: [source/musnad-darimi-tasil-2015, source/tarikh-khulafa-minhaj-1434] }
+  - { type: traveled_to, target: place/khurasan, note: "From text: travelled to Khurasan", sources: [source/musnad-darimi-tasil-2015, source/tarikh-khulafa-minhaj-1434] }
   - { type: lived_in, target: place/samarqand, sources: [source/musnad-darimi-tasil-2015] }
   - { type: authored, target: work/sunan-al-darimi, sources: [source/musnad-darimi-tasil-2015] }
   - { type: teacher_of, target: person/muslim-ibn-al-hajjaj, sources: [source/musnad-darimi-tasil-2015] }

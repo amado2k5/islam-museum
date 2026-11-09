@@ -11,6 +11,7 @@ roles: [vizier, general]
 died:
   { edtf: "1003~", hijri: "0394", calendar: julian, precision: year, status: tradition, derived: true, note: "394 وله تسع وأربعون سنة؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.229}" }
 relations:
+  - { type: lived_in, target: place/iran, note: "From text: of Persia", sources: [source/muntazam-ibn-al-jawzi], confidence: low }
   - { type: related_to, target: person/baha-al-dawla, role: "وزيره؛ ولاه بغداد ثم أخذ فارس، فألغ في عقوبته ثم قتله سنة 394", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

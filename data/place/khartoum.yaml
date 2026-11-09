@@ -1,0 +1,16 @@
+id: place/khartoum
+class: place
+kind: city
+label: { en: "Khartoum", ar: "الخرطوم" }
+summary:
+  en: "Capital city of Sudan."
+  ar: "مدينة في السودان."
+wings: [place]
+regions: [egypt-nile]
+coordinates: [15.6031, 32.5265]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q1963", geonames: "379252" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q1963 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

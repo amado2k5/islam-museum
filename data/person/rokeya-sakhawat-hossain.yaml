@@ -38,6 +38,9 @@ faith:
     note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for her. The English article's infobox records no religion; Banglapedia names none; no religion claim is taken from Wikidata. What the sources record is her work and her stated aims: she founded the Anjuman-e-Khawateen-e-Islam, whose events for social reform were based, in the English article's account of her view, on 'the original teachings of Islam' she held to have been lost, and she held parochialism and excessive conservatism responsible for Muslims' slow development — positions and institutional affiliation, not an attestation of a school. Under the lane's two-source rule and the founder's doubt rule the value stays unknown."
     sources: [source/wikipedia-rokeya-sakhawat-hossain-en, source/banglapedia-rokeya-sakhawat-hossain, source/wikidata-rokeya-sakhawat-hossain]
 external_ids: { wikidata: "Q467083" }
+relations:
+  - { type: born_in, target: place/rangpur-district, sources: [source/wikidata-rokeya-sakhawat-hossain], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2344570)" }
+  - { type: died_in, target: place/kolkata, sources: [source/wikidata-rokeya-sakhawat-hossain], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1348)" }
 sources: [source/wikipedia-rokeya-sakhawat-hossain-en, source/banglapedia-rokeya-sakhawat-hossain, source/wikidata-rokeya-sakhawat-hossain]
 provenance:
   layer: own-research

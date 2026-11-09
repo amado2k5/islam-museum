@@ -27,6 +27,7 @@ roles: [politician]
 relations:
   - { type: child_of, target: person/salman-bin-abdulaziz, sources: [source/wikipedia-mohammed-bin-salman-en, source/wikidata-mohammed-bin-salman] }
   - { type: member_of, target: group/al-saud, sources: [source/wikipedia-mohammed-bin-salman-en] }
+  - { type: born_in, target: place/riyadh, sources: [source/wikidata-mohammed-bin-salman], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3692)" }
 faith:
   - value: unknown
     basis: unknown

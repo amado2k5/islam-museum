@@ -10,6 +10,8 @@ gender: male
 roles: [poet, vizier]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with دمشق per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة ابن عنين)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

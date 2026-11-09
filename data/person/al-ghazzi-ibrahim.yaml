@@ -29,3 +29,7 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: died_in, target: place/balkh, note: "From text: توفي بناحية بلخ سنة أربع وعشرين وخمس", sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/nizamiyya, note: "From text: أقام بالمدرسة النظامية سنين كثيرة وم", sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/baghdad, note: "From text: رحل إلى بغداد وأقام بالمدرسة النظامية ", sources: [source/shadharat-dhahab] }

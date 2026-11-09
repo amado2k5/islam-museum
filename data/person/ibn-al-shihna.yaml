@@ -13,6 +13,8 @@ periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 born: { edtf: "1348~", hijri: "0749", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة تسع وأربعين وسبعمائة {cite:shadharat-dhahab p. 121}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1412-07-15~", hijri: "0815-04-12", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بحلب يوم الجمعة ثاني عشر ربيع الآخر 815 {cite:shadharat-dhahab p. 122}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with دمشق per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 815)، قراءة آبل فيجن"

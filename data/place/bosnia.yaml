@@ -1,0 +1,36 @@
+id: place/bosnia
+class: place
+kind: region
+label:
+  ar: البوسنة
+  en: Bosnia
+  ur: بوسنیا
+summary:
+  ar: إقليم في البلقان أسلم كثير من أهله في العهد العثماني.
+  en: Balkan land largely Islamised under Ottoman rule.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 44.0
+- 17.8
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q188736
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q188736 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

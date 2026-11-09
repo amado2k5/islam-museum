@@ -12,6 +12,9 @@ wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/umayyad]
 themes: [sects-and-schools]
+relations:
+  - { type: born_in, target: place/samarqand, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q983510

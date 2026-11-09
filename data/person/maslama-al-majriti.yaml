@@ -12,6 +12,9 @@ wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [mathematics, astronomy-and-timekeeping, chemistry-and-alchemy]
+relations:
+  - { type: born_in, target: place/majrit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cordoba, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/fihrist-ibn-al-nadim]
 external_ids:
   wikidata: Q783253

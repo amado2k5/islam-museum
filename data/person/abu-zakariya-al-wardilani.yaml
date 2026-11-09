@@ -22,3 +22,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 186 (EI2 enrichment, batch ei2-b003 part 3ai)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (maghribi); denotes association, not proven residence.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

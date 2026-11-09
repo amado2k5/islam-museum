@@ -23,6 +23,10 @@ themes: [law-and-courts, development-of-law-theology-institutions]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 relations:
+  - { type: born_in, target: place/margilan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/rishton, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/dushanbe, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/bukhara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/farghana, role: "مرغينان من بلاد فرغانة (ص16)", sources: [source/hidaya-bakdash-v1] }
   - { type: buried_in, target: place/samarqand, sources: [source/hidaya-bakdash-v1] }
   - { type: student_of, target: person/umar-ibn-abd-al-aziz-sadr-al-shahid, sources: [source/hidaya-bakdash-v1] }

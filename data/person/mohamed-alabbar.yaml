@@ -21,6 +21,8 @@ born:
   derived: true
   note: "The English article, the Arabic article and Wikidata agree on 8 November 1956, born in Dubai. No place entity for Dubai exists on main, so no birthplace is recorded in this block. The date falls within the Hijri year 1376, given as the tabular conversion, marked derived."
   sources: [source/wikipedia-mohamed-alabbar-en, source/wikipedia-mohamed-alabbar-ar, source/wikidata-mohamed-alabbar]
+relations:
+  - { type: lived_in, target: place/burj, confidence: low, note: "Associated with Burj per the record's own summary text; relation type pending review.", sources: [source/wikipedia-mohamed-alabbar-en] }
 faith:
   - value: unknown
     basis: unknown

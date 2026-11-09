@@ -14,6 +14,9 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة عميد الدولة ضمن ترجمة ابن جهير)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-24
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Deputy-vizier of the Ibn Jahir house at Baghdad.", sources: [source/wafayat-ayan], confidence: medium }
+  - { type: traveled_to, target: place/amid, note: "His camp took the city of Amid after a hard siege.", sources: [source/wafayat-ayan], confidence: medium }
 sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 occupations:

@@ -44,3 +44,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-anthony-tan-en, source/wikipedia-anthony-tan-id, source/wikipedia-anthony-tan-zh, source/wikipedia-anthony-tan-ms, source/wikidata-anthony-tan]
+relations:
+  - { type: born_in, target: place/kuala-lumpur, note: "From text: born at Kuala Lumpur", sources: [source/wikipedia-anthony-tan-en, source/wikipedia-anthony-tan-id, source/wikipedia-anthony-tan-zh, source/wikipedia-anthony-tan-ms, source/wikidata-anthony-tan] }

@@ -22,6 +22,7 @@ regions: [persia-central-asia]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
 relations:
+  - { type: died_in, target: place/nishapur, note: "From text: died at Nishapur", sources: [source/encyclopaedia-of-islam-2, source/mawsuat-a3lam-ulama-adaba] }
   - { type: born_in, target: place/bayhaq, sources: [source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/al-hakim-al-nisaburi, sources: [source/encyclopaedia-of-islam-2] }

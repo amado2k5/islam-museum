@@ -38,6 +38,7 @@ wings: [people]
 regions: [persia-central-asia]
 roles: [poet, writer, politician]
 relations:
+  - { type: died_in, target: place/solovetsky-islands, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - type: allied_with
     target: person/alikhan-bukeikhanov
     note: "Dulatuli met Bukeikhanov and Baitursynuly at Karkaraly in 1904 and developed his reformist politics under their influence; the three led the Alash movement together and co-founded the newspaper Qazaq in 1913, as the English article on Dulatuli and the articles on Baitursynuly attest."

@@ -1,0 +1,16 @@
+id: place/asilah
+class: place
+kind: city
+label: { en: "Asilah", ar: "أصيلة" }
+summary:
+  en: "City in Morocco."
+  ar: "مدينة في المغرب."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [35.4618, -6.0377]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q730328", geonames: "2557055" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q730328 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

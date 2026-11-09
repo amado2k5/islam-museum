@@ -17,6 +17,8 @@ faith:
   - value: sunni-shafii
     basis: tradition
 relations:
+  - { type: lived_in, target: place/damascus, note: "From text: درس بحلقته بجامع دمشق", sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/damascus, note: "From text: رحل إلى مصر سنة تسعين ثم قدم دمشق سنة ", sources: [source/shadharat-dhahab] }
   - { type: born_in, target: place/qus, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
   - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }

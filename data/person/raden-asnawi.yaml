@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/kudus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q10620)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q47215691

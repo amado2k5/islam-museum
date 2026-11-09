@@ -10,7 +10,11 @@ themes: [cities, architecture]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 founded: { edtf: "1571", calendar: gregorian, precision: year, status: historical, sources: [source/brookes-gardens-of-paradise-1987], note: "Brookes: craftsmen started work in 1571" }
-sources: [source/brookes-gardens-of-paradise-1987]
+coordinates: [27.091111111111, 77.661111111111]
+coordinate_precision: approx
+coordinate_note: "Matched to Wikidata Q179046 by name; coordinates approximate until verified against a gazetteer."
+external_ids: { wikidata: "Q179046" }
+sources: [source/brookes-gardens-of-paradise-1987, source/wikidata]
 provenance:
   layer: own-research
   source: "Brookes 1987, printed pp. 133-135"

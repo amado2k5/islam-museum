@@ -14,6 +14,9 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 died: { hijri: "1014-07-15", edtf: "1605-11-26", calendar: julian, precision: day, status: tradition, derived: true, note: "١٥ رجب ١٠١٤هـ/٢٦ نوفمبر ١٦٠٥م؛ دُفنت في تربة زوجها {cite:sicill-i-osmani vol. 1}", sources: [source/sicill-i-osmani] }
+relations:
+  - { type: born_in, target: place/sanjak-of-bosnia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/sicill-i-osmani]
 external_ids:
   wikidata: Q2682334

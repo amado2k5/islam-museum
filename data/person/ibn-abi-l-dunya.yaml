@@ -2,6 +2,9 @@ id: person/ibn-abi-l-dunya
 class: person
 label: { ar: "ابن أبي الدنيا", en: "Ibn Abi l-Dunya" }
 aliases: [person/ibn-abi-al-dunya]
+relations:
+  - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q6532706" }
 summary:
   ar: "أبو بكر عبد الله بن محمد بن أبي الدنيا القرشي، مؤدب المكتفي بالله وصاحب الكتب المصنفة في الزهد وغيره، توفي في المحرم سنة إحدى وثمانين ومائتين {cite:muruj-al-dhahab p. 631-632}. وعند ابن النديم توفي يوم الثلاثاء لأربع عشرة ليلة خلت من جمادى الآخرة سنة إحدى وثمانين ومائتين وله كتاب مكايد الشيطان وكتاب الحلم وكتاب فقه النبي وكتاب ذم الملاهي وكتاب ذم الفحش وكتاب العفو وكتاب ذم المسكر وكتاب التوكيد وكتاب الإخلاص والنية وكتاب الطواعين وكتاب الصبر وآداب اللسان وكتاب الرغائب وكتاب أخبار قريش وكتاب ذم الدنيا وكتاب صفة الميزان وكتاب صفة الصراط وكتاب الموقف وكتاب شجرة طوبا وكتاب سدرة المنتهى وكتاب مكارم الأخلاق وكتاب ذكر الموت والقبور وكتاب زهد مالك بن دينار وغير ذلك {cite:fihrist-ibn-al-nadim p. 262}."

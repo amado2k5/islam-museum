@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+  - { type: buried_in, target: place/the-cemetery-of-dahdah, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q16128316)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q105344034

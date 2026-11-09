@@ -14,7 +14,8 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 relations:
- - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance:
  layer: own-research

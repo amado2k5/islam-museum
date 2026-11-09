@@ -21,6 +21,8 @@ born:
 roles: [scholar, writer]
 regions: [americas-oceania]
 wings: [people, living]
+relations:
+  - { type: born_in, target: place/washington-dc, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: sunni-hanbali
     basis: self-identified

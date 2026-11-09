@@ -13,6 +13,7 @@ roles: [scholar]
 periods: [period/buyid-seljuk-fatimid-era]
 died: { edtf: "1035", hijri: "0426", calendar: julian, precision: year, status: debated, note: "426/1035 in the Arabic sources per the Azhar catalogue, which notes al-Maqqari's mention of him later {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 14}.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
 relations:
+  - { type: traveled_to, target: place/dania, note: "From text: انتقل إلى دانية", sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
   - { type: authored, target: work/tuhfat-al-tullab-fi-al-amal-bil-asturlab, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
   - { type: student_of, target: person/maslama-al-majriti, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
 sources: [source/bibalex-azhar-astronomy-manuscripts-2006]

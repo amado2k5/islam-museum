@@ -39,3 +39,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/sharjah-university-abdul-samie-al-anis, source/darulfuqaha-abdul-samie-al-anis]
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/sharjah-university-abdul-samie-al-anis, source/darulfuqaha-abdul-samie-al-anis], confidence: low }

@@ -28,6 +28,8 @@ faith:
     note: "Anelka's conversion to Islam is documented, but no source read names a school or madhhab for him personally. The English Wikipedia article, citing The Guardian of 14 February 2007, records that after discussing religion with childhood friends he converted to Islam in 2004 in the United Arab Emirates, taking the Muslim name Abdul-Salam Bilal, and quotes his own account of fasting in Ramadan and later relaxing his observance after injuries; its categories file him under “Converts to Islam” and “French Muslims”. The Arabic article likewise recounts his embrace of Islam, deepening at Fenerbahçe, the French article describes him as converted to Islam in 2004, and Wikidata Q1939 gives his religion as Islam (Q432), generically. Lane practice does not record a convert's former faith, so no christian segment is written; and a documented conversion plus generic identifications are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with the conversion itself documented here and in the prose."
     sources: [source/wikipedia-nicolas-anelka-en, source/wikipedia-nicolas-anelka-ar, source/wikipedia-nicolas-anelka-fr, source/wikidata-nicolas-anelka]
 external_ids: { wikidata: "Q1939" }
+relations:
+  - { type: born_in, target: place/le-chesnay, sources: [source/wikidata-nicolas-anelka], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q237281)" }
 sources: [source/wikipedia-nicolas-anelka-en, source/wikipedia-nicolas-anelka-ar, source/wikipedia-nicolas-anelka-fr, source/wikidata-nicolas-anelka]
 provenance:
   layer: own-research

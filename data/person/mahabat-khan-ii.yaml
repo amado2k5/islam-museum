@@ -28,6 +28,7 @@ died:
   sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii]
 
 relations:
+  - { type: died_in, target: place/punjab, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii] }
   - { type: child_of, target: person/mahabat-khan, sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii] }
 
 faith:

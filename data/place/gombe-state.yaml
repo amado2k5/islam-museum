@@ -1,0 +1,21 @@
+id: place/gombe-state
+class: place
+kind: region
+label: { ar: "ولاية غومبي", en: "Gombe State", ur: "گومبے ریاست" }
+summary:
+  ar: "إقليم في نيجيريا."
+  en: "Region in Nigeria."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [10.28138888888889, 11.163333333333334]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q376241" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q376241 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

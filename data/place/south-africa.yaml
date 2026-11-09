@@ -1,0 +1,36 @@
+id: place/south-africa
+class: place
+kind: region
+label:
+  ar: جنوب إفريقيا
+  en: South Africa
+  ur: جنوبی افریقا
+summary:
+  ar: دولة في أقصى جنوب أفريقيا.
+  en: South Africa; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- africa
+coordinates:
+- -29
+- 24
+coordinate_precision: locality
+coordinate_note: Wikidata Q258.
+external_ids:
+  wikidata: Q258
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q258 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q258 (labels, coordinates, description)

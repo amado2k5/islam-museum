@@ -9,7 +9,10 @@ wings: [place]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
 relations:
-  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer] }
+coordinates: [40.0, 47.0]
+coordinate_precision: approx
+coordinate_note: "Approximate identified/modern location; flagged for gazetteer verification."
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273، 279"

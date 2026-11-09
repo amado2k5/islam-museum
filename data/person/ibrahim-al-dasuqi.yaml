@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
 died: { edtf: "1277~", hijri: "0676~", calendar: julian, precision: year, status: tradition, derived: true, note: "676هـ {cite:shadharat-dhahab p. 359}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج5، سنين 601–700)"

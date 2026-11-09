@@ -33,6 +33,10 @@ died:
   derived: true
   note: "The English article gives 24 September [O.S. 11 September] 1914 at Bakhchysarai (Wikidata's place of death); the Arabic stub prints 11 September 1914, the Old Style date, without flagging it as such. The Hijri year 1332 is the tabular conversion. No died_in edge is written: the museum has no place entity for Bakhchysarai."
   sources: [source/wikipedia-ismail-gasprinsky-en, source/wikipedia-ismail-gasprinsky-ar, source/wikidata-ismail-gasprinsky]
+relations:
+  - { type: died_in, target: place/bakhchysarai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ismail-gasprinsky] }
+  - { type: buried_in, target: building/al-madrasa-al-zinjirliyya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ismail-gasprinsky] }
+  - { type: lived_in, target: place/bakhchysarai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ismail-gasprinsky] }
 faith:
   - value: unknown
     basis: unknown

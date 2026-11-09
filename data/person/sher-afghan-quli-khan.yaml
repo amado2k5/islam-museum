@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/safavid-iran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q18234383)" }
+  - { type: died_in, target: place/bardhaman, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q709267)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q1247204

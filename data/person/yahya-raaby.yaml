@@ -24,6 +24,9 @@ wings:
   - living
 regions:
   - andalus-europe
+relations:
+  - { type: lived_in, target: place/denmark, sources: [source/listennotes-yahya-raaby, source/podtail-yahya-raaby] }
+  - { type: lived_in, target: place/united-kingdom, sources: [source/listennotes-yahya-raaby, source/podtail-yahya-raaby] }
 faith:
   - value: unknown
     basis: unknown

@@ -39,6 +39,8 @@ relations:
     target: person/fatima-jinnah
     note: "His younger sister Fatima Jinnah (1893–1967), his closest associate and adviser throughout the Pakistan Movement: the English article names her as his younger sister in its text, the Urdu article's infobox names her as his sister, and the Arabic article names her among his siblings. The edge is written once here, in the elder sibling's record, per house convention (the Ahmed al-Hiba / Merebbi Rebbu precedent); schema/predicates.yaml declares sibling_of symmetric (its own inverse), so the one stored edge resolves in both directions. Her record was built in wave 81 §B without this edge for the sole reason that his record did not yet exist; the edge is completed now, under the founder's ruling of 5 November 2026 on the rulings packet (§1, option A)."
     sources: [source/wikipedia-muhammad-ali-jinnah-en, source/wikipedia-muhammad-ali-jinnah-ur, source/wikipedia-muhammad-ali-jinnah-ar]
+
+  - { type: lived_in, target: place/lahore, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-muhammad-ali-jinnah-en, source/wikipedia-muhammad-ali-jinnah-ar, source/wikipedia-muhammad-ali-jinnah-ur, source/wikidata-muhammad-ali-jinnah] }
 faith:
   - value: unknown
     basis: unknown

@@ -19,9 +19,11 @@ story_roles:
 faith:
   - { value: jewish, basis: documented, note: "سيد يهود النضير بخيبر." }
 relations:
-  - { type: born_in, target: place/medina }
   - { type: member_of, target: group/banu-nadir }
   - { type: participated_in, target: event/battle-of-the-trench, role: "المحرض والممول للأحزاب", sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/assassination-of-sallam-ibn-abi-al-huqayq, role: "الهدف المقتول بالحصن", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: born_in, target: place/medina }
+  - { type: lived_in, target: place/khaybar, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira] }
+  - { type: traveled_to, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira] }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 301, 319–321" }

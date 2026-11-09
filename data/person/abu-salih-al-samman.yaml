@@ -18,3 +18,5 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: "claude-haiku-5-5"
   run: "mawsua-w09-appx-1 batch 1"
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: of Medina.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/taqrib-al-tahdhib], confidence: low }

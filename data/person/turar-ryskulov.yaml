@@ -41,6 +41,8 @@ faith:
     note: "FLAGGED: the only attestation naming a religion for him is a single structured value: the Russian article's infobox gives his religion as Islam, generically, naming no school. Wikidata carries no religion value at all, and neither article's text names a religion or school for him personally. The Russian article records that in 1919 he chaired the Muslim Bureau of the Turkestan Communist Party — an organisational post, which is activity, not attestation — and his proposal of a separate Turkic Communist Party and his party membership are politics. Under the two-source rule and the doubt rule the value therefore stays unknown, with the single infobox attestation preserved here."
     sources: [source/wikipedia-turar-ryskulov-en, source/wikipedia-turar-ryskulov-ru, source/wikidata-turar-ryskulov]
 external_ids: { wikidata: "Q4402066" }
+relations:
+  - { type: died_in, target: place/moscow, sources: [source/wikidata-turar-ryskulov], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q649)" }
 sources:
   - source/wikipedia-turar-ryskulov-en
   - source/wikipedia-turar-ryskulov-ru

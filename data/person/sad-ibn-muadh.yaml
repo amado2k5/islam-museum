@@ -38,6 +38,7 @@ relations:
   - { type: participated_in, target: event/battle-of-badr, role: "حامل راية الأنصار", sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/badr-council, role: "أجاب عن الأنصار", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/tabaqat-ibn-sad] }
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 external_ids:
   wikidata: Q2002479
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hajar-isaba, source/fadail-sahaba-ahmad-wasi-allah-1999, source/great-women-of-islam-ghadanfar-darussalam]

@@ -27,6 +27,7 @@ faith:
     sources: [source/wikipedia-tariq-masood-en]
 relations:
   - { type: member_of, target: group/deobandiyya, note: "Described as a Deobandi preacher in running text (the English article's lead, and a 2023 De Gruyter chapter on Pakistani media preachers it cites): the identification is recorded as the edge and in the faith note, not converted into a faith value; the edge follows the shape used in the museum's record of Ashraf Ali Thanwi. No student_of edge: the article says he completed the Dars-i Nizami at Jamia Tur Rasheed in Karachi but names no teacher.", sources: [source/wikipedia-tariq-masood-en] }
+  - { type: born_in, target: place/sargodha, sources: [source/wikidata], confidence: low, note: "Born in Sargodha, Punjab, in 1975 per the record text." }
 sources: [source/wikipedia-tariq-masood-en]
 provenance:
   layer: own-research

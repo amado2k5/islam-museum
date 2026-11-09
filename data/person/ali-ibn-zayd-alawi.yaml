@@ -16,6 +16,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch31
+relations:
+  - { type: traveled_to, target: place/kufa, note: "Rose at Kufa in 255 with Isa ibn Jafar al-Alawi.", sources: [source/muruj-mari-2005], confidence: medium }
 sources: [source/muruj-mari-2005]
 status:
   review: published

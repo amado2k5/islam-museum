@@ -34,6 +34,8 @@ faith:
       here. Her Wikidata item carries no religion statement at all.
     sources: [source/wikipedia-nawal-el-moutawakel-en, source/wikipedia-nawal-el-moutawakel-ar, source/wikidata-nawal-el-moutawakel]
 external_ids: { wikidata: Q239993 }
+relations:
+  - { type: born_in, target: place/casablanca, sources: [source/wikidata-nawal-el-moutawakel], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7903)" }
 sources: [source/wikipedia-nawal-el-moutawakel-en, source/wikipedia-nawal-el-moutawakel-ar, source/wikipedia-nawal-el-moutawakel-ur, source/wikidata-nawal-el-moutawakel]
 provenance:
   layer: own-research

@@ -21,6 +21,7 @@ born:
   note: "The English article, the Arabic article and Wikidata agree on the year 1978 and give no day; the English article says she was born in Sharjah to Sultan bin Muhammad Al-Qasimi, Ruler of Sharjah since 1972, and Sheikha Jawaher bint Mohammed Al Qasimi. A bare year 1978 spans the two Hijri years 1398 and 1399, so no Hijri year is recorded."
   sources: [source/wikipedia-bodour-al-qasimi-en, source/wikipedia-bodour-al-qasimi-ar, source/wikidata-bodour-al-qasimi]
 relations:
+  - { type: born_in, target: place/emirate-of-sharjah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bodour-al-qasimi] }
   - { type: child_of, target: person/sultan-bin-muhammad-al-qasimi, sources: [source/wikipedia-sultan-bin-muhammad-al-qasimi-en] }
   - { type: sibling_of, target: person/hoor-al-qasimi, sources: [source/wikipedia-sultan-bin-muhammad-al-qasimi-en, source/wikipedia-hoor-al-qasimi-ar, source/wikipedia-bodour-al-qasimi-en] }
 faith:

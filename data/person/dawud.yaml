@@ -10,6 +10,8 @@ themes: [prophets]
 periods: [period/pre-islamic-arabia]
 story_roles:
   - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+relations:
+  - { type: lived_in, target: place/jerusalem, confidence: low, note: "Prophet-king Dawud; his seat was Bayt al-Maqdis (Jerusalem) per the shared biblical and Islamic narrative.", sources: [source/sahih-al-bukhari] }
 provenance:
   layer: "own-research"
   source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR"

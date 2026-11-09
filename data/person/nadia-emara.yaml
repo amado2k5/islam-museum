@@ -13,6 +13,8 @@ roles: [preacher, presenter]
 wings: [people, living]
 relations:
   - { type: student_of, target: person/muhammad-mutawalli-al-shaarawi, sources: [source/wikipedia-nadia-emara-ar, source/mawdoo3-nadia-emara] }
+
+  - { type: lived_in, target: place/alexandria, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-nadia-emara-ar, source/mawdoo3-nadia-emara, source/goodreads-nadia-emara] }
 faith:
   - value: unknown
     basis: unknown

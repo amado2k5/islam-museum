@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/abbasid-fragmentation]
+relations:
+  - { type: ruled_over, target: place/arcos, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q106193012

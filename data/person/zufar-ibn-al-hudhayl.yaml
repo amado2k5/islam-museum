@@ -13,6 +13,10 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch43
 external_ids: { wikidata: "Q228203" }
+relations:
+  - { type: born_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
+  - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }
+  - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

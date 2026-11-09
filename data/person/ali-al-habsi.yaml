@@ -35,3 +35,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-52
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/oman, note: "Place association from the person's nisba/name (omani); denotes association, not proven residence.", sources: [source/wikipedia-ali-al-habsi-en, source/wikipedia-ali-al-habsi-ar, source/wikidata-ali-al-habsi], confidence: low }

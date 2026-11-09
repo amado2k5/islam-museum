@@ -32,6 +32,7 @@ relations:
     target: person/maher-arar
     note: "Married to Maher Arar in 1994 (per his Arabic article's infobox); the English article on Mazigh states the marriage and her campaign for his release, and both Wikidata items name each other as spouse. The edge is written here only, in the wife's record."
     sources: [source/wikipedia-monia-mazigh-en, source/wikipedia-maher-arar-ar]
+  - { type: born_in, target: place/tunis, sources: [source/wikidata-monia-mazigh], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q948)" }
 wings: [people, living]
 external_ids: { wikidata: Q3320709 }
 sources: [source/wikipedia-monia-mazigh-en, source/wikipedia-monia-mazigh-ar, source/wikipedia-monia-mazigh-ur, source/wikidata-monia-mazigh]

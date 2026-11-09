@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 relations:
+- { type: ruler_of, target: place/tlemcen, note: "From text: sultan of Tlemcen", sources: [source/tarikh-ibn-khaldun-ibar, source/encyclopaedia-of-islam-2] }
 - { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "خامس ملوك بني عبد الواد", sources: [source/tarikh-ibn-khaldun-ibar] }
 - { type: "successor_of", target: "person/abu-hammu-i-musa-zayyanid", note: "قام بالأمر بعد مقتل أبيه", sources: [source/tarikh-ibn-khaldun-ibar] }
 sources:

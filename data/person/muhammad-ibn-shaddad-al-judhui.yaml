@@ -14,6 +14,8 @@ provenance:
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-muntazam-258-349-batch36
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
 occupations:

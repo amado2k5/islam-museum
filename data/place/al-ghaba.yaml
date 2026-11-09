@@ -10,6 +10,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 relations:
   - { type: located_in, target: place/medina, note: "من نواحي المدينة", sources: [source/ibn-hisham-saqqa] }
+coordinate_note: "لم تُثبَت إحداثيات موثوقة بعد؛ تُرك الموضع بلا إحداثيات بدلاً من تخمينها. / No reliably attested coordinates yet; left blank rather than guessed."
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 278", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
 sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
 status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 278; no coordinates" }

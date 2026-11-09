@@ -29,6 +29,7 @@ died:
   sources: [source/wikipedia-amangkurat-iii-en, source/wikipedia-amangkurat-iii-id, source/wikidata-amangkurat-iii]
 
 relations:
+  - { type: died_in, target: place/sila, note: "From text: مات في منفاه في سيلان الهولندية سنة 1", sources: [source/wikipedia-amangkurat-iii-en, source/wikipedia-amangkurat-iii-id, source/wikidata-amangkurat-iii] }
   - { type: child_of, target: person/amangkurat-ii, sources: [source/wikipedia-amangkurat-iii-en, source/wikipedia-amangkurat-iii-id] }
   - { type: successor_of, target: person/amangkurat-ii, sources: [source/wikipedia-amangkurat-iii-en, source/wikipedia-amangkurat-iii-id] }
 

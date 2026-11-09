@@ -30,6 +30,7 @@ died:
   note: "Died at Rabat on 30 November 2015 (all three articles and Wikidata agree). Rabat has no place entity in the museum yet, so no died_in relation is written. The Hijri year (1437) is derived by tabular conversion."
   sources: [source/wikipedia-fatema-mernissi-en, source/wikipedia-fatema-mernissi-ar, source/wikidata-fatema-mernissi]
 relations:
+  - { type: died_in, target: place/rabat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fatema-mernissi] }
   - { type: born_in, target: place/fes, sources: [source/wikipedia-fatema-mernissi-en, source/wikidata-fatema-mernissi] }
 faith:
   - value: unknown

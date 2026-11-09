@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born 4 September 1953 in Adana, Turkey, to Nuriye and Talat Terim — his father a Turkish Cypriot who had emigrated to Turkey — as given by the English Wikipedia article and Wikidata Q262203. The Hijri year (1372) is derived by tabular conversion. No place/adana entity exists, so the birthplace is carried in this note only."
   sources: [source/wikipedia-fatih-terim-en, source/wikipedia-fatih-terim-ar, source/wikidata-fatih-terim]
+relations:
+  - { type: born_in, target: place/adana, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fatih-terim] }
 faith:
   - value: unknown
     basis: unknown

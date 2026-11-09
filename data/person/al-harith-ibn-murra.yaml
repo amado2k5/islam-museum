@@ -12,3 +12,5 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+relations:
+  - { type: lived_in, target: place/india, note: "From text: Indian (nationality adjective); broad association, flagged for review.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }

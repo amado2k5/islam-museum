@@ -8,6 +8,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/hisn-mansur, confidence: low, note: "Associated with حصن منصور per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/killing-of-mansur-ibn-jamwana, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

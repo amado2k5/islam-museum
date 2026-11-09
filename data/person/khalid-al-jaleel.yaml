@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Year and city from Mawdoo3's biography: born in Riyadh in 1963. The Hijri year is an approximate conversion of the Gregorian year. Riyadh has no place entity in the museum yet (a known gap, also noted on other Riyadh records), so no born_in relation is written."
   sources: [source/mawdoo3-khalid-al-jaleel-ar]
+relations:
+  - { type: born_in, target: place/riyadh, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/mawdoo3-khalid-al-jaleel-ar] }
 faith:
   - value: unknown
     basis: unknown

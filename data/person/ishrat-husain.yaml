@@ -23,6 +23,7 @@ born:
   note: "The English article gives only the year and the place: 'born 1941 in Agra, British India'. Wikidata's day-precision value, 17 June 1941, is supported by no article text and is not carried. The Arabic article gives Allahabad as the birthplace, against the English article and Wikidata (Agra, Q162442); Agra is carried. The Hijri year (1360) is derived by tabular conversion from the year alone."
   sources: [source/wikipedia-ishrat-husain-en, source/wikipedia-ishrat-husain-ar, source/wikidata-ishrat-husain]
 relations:
+  - { type: born_in, target: place/prayagraj, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ishrat-husain] }
   - { type: born_in, target: place/agra, sources: [source/wikipedia-ishrat-husain-en, source/wikidata-ishrat-husain] }
 faith:
   - value: unknown

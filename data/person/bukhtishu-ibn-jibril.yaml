@@ -16,6 +16,8 @@ periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 story_roles:
   - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/fihrist-ibn-al-nadim] }
 sources: [source/fihrist-ibn-al-nadim, source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi]
 status:
   review: published

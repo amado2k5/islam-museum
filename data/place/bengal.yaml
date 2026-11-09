@@ -1,0 +1,37 @@
+id: place/bengal
+class: place
+kind: region
+label:
+  ar: بنغال
+  en: Bengal
+  ur: بنگال
+summary:
+  ar: إقليم تاريخي في شرق شبه القارة الهندية، مقسوم اليوم بين بنغلاديش والبنغال الغربية بالهند.
+  en: Historical region of the eastern Indian subcontinent, today split between Bangladesh and West Bengal.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 23.9888
+- 88.7311
+coordinate_precision: locality
+coordinate_note: Wikidata Q80338 coordinates; representative point for the region.
+external_ids:
+  wikidata: Q80338
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q80338 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q80338 (labels, coordinates, description)

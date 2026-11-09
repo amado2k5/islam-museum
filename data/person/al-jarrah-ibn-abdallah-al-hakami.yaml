@@ -8,6 +8,8 @@ wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/armenia, note: "From text: عمل على أرمينية وأذربيجان سنة 104هـ لص", sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020] }
+  - { type: lived_in, target: place/bardhaa, note: "From text: settled at Bardha'a", sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020] }
   - { type: participated_in, target: event/jarrah-governorship-armenia, role: "الوالي ومقيم المكيال الجرّاحي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/treaty-of-tiflis, role: "منفذ الأمان ومصادق الأرحاء والكروم", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

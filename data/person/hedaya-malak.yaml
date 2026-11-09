@@ -22,6 +22,7 @@ born:
   note: "Born 21 April 1993 in Cairo (the English article's infobox and the Arabic article give Cairo; Wikidata agrees on the date). Wikidata's place-of-birth statement gives Azusa, California, which conflicts with both articles and is not followed. The Hijri year 1413 is the tabular conversion of 21 April 1993 and is marked derived."
   sources: [source/wikipedia-hedaya-malak-en, source/wikipedia-hedaya-malak-ar, source/wikidata-hedaya-malak]
 relations:
+  - { type: born_in, target: place/azusa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hedaya-malak] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-hedaya-malak-en, source/wikipedia-hedaya-malak-ar] }
 faith:
   - value: unknown

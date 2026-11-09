@@ -19,6 +19,8 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: traveled_to, target: place/yemen, sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/jurash, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/al-azd, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-surad-ibn-abdullah, role: "الوافد والأمير", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/surad-campaign-against-jurash, role: "القائد", sources: [source/ibn-hisham-saqqa] }

@@ -6,6 +6,8 @@ names:
 gender: male
 roles: [mathematician, astronomer]
 traditions: [sunni]
+relations:
+  - { type: lived_in, target: place/jaen, confidence: low, note: "Associated with جيان per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 faith:
   - value: sunni
     basis: documented

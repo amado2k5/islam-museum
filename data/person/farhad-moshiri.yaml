@@ -29,7 +29,9 @@ born:
   note: "Born in Iran on 18 May 1955; the English and Arabic articles and Wikidata agree on the date. The articles name the country only, and no city is built. The Hijri year 1374 is the tabular conversion of the built date, marked derived. No place entity for Iran or Tehran exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-farhad-moshiri-en, source/wikipedia-farhad-moshiri-ar, source/wikidata-farhad-moshiri]
 
-relations: []
+relations:
+  - { type: born_in, target: place/iran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-farhad-moshiri] }
+  - { type: lived_in, target: place/monaco, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-farhad-moshiri] }
 
 faith:
   - value: unknown

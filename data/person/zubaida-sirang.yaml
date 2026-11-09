@@ -12,6 +12,8 @@ summary:
 roles: [physician, writer]
 wings: [people, living]
 regions: [south-asia]
+relations:
+  - { type: lived_in, target: place/karachi, sources: [source/wikidata-zubaida-sirang, source/forttuna-zubaida-sirang-2026, source/techjuice-zubaida-sirang-2021, source/cureus-sirang-hub-spoke-2026] }
 faith:
   - value: unknown
     basis: unknown

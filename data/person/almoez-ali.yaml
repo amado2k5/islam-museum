@@ -27,3 +27,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-54
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/wikipedia-almoez-ali-en, source/wikipedia-almoez-ali-ar, source/wikipedia-almoez-ali-ur, source/wikidata-almoez-ali], confidence: low }

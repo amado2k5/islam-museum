@@ -29,6 +29,9 @@ born:
   note: "The English article's infobox and Wikidata agree on 29 October 1956, born at Thrissur, Kerala. No place entity for Thrissur exists on main, so no birthplace is recorded in this block. A low-quality aggregator profile's 4 September 1956 is not followed. The date falls within the Hijri year 1376, which is given as the tabular conversion, marked derived."
   sources: [source/wikipedia-joy-alukkas-en, source/wikidata-joy-alukkas]
 
+relations:
+  - { type: born_in, target: place/thrissur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-joy-alukkas] }
+  - { type: lived_in, target: place/thrissur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-joy-alukkas] }
 faith:
   - value: unknown
     basis: unknown

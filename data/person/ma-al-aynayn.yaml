@@ -46,6 +46,7 @@ died:
   sources: [source/wikipedia-ma-al-aynayn-en, source/wikipedia-ma-al-aynayn-fr, source/wikidata-ma-al-aynayn, source/wikipedia-ma-al-aynayn-ar]
 
 relations:
+  - { type: born_in, target: place/hodh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-al-aynayn] }
   - type: member_of
     target: group/qadiriyya
     note: "Head of the Fadiliyya, the Qadiriyya branch founded by his father Muhammad Fadil, invested by his father with a turban and the title of Shaykh in 1861 and followed by more than ten thousand murids."

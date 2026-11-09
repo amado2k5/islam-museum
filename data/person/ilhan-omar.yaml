@@ -21,6 +21,7 @@ born:
   note: "Gregorian date and Mogadishu birthplace from English Wikipedia, the Arabic article's infobox and Wikidata Q26436159. The Arabic article's early-life narrative and the Urdu article give the year 1981; the day and month agree everywhere and the record follows 1982, the year given by the English article, Wikidata and the Arabic infobox. The Hijri year (1402) is derived by tabular conversion."
   sources: [source/wikipedia-ilhan-omar-en, source/wikidata-ilhan-omar, source/wikipedia-ilhan-omar-ar, source/wikipedia-ilhan-omar-ur]
 relations:
+  - { type: lived_in, target: place/minneapolis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ilhan-omar] }
   - { type: born_in, target: place/mogadishu, sources: [source/wikipedia-ilhan-omar-en, source/wikidata-ilhan-omar] }
 faith:
   - value: unknown

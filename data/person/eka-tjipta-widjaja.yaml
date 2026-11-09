@@ -34,6 +34,10 @@ died:
   note: "The English and Indonesian articles agree that he died on 26 January 2019 at his home in Menteng, Jakarta, aged 97, and was buried on 2 February 2019 in the family cemetery in Karawang. The date falls within the Hijri year 1440, which is given as the tabular conversion, marked derived."
   sources: [source/wikipedia-eka-tjipta-widjaja-en, source/wikipedia-eka-tjipta-widjaja-id]
 relations:
+  - { type: born_in, target: place/quanzhou, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-eka-tjipta-widjaja] }
+  - { type: died_in, target: place/jakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-eka-tjipta-widjaja] }
+  - { type: buried_in, target: place/karawang, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-eka-tjipta-widjaja] }
+  - { type: lived_in, target: place/indonesia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-eka-tjipta-widjaja] }
   - { type: born_in, target: place/quanzhou, sources: [source/wikipedia-eka-tjipta-widjaja-id, source/wikipedia-eka-tjipta-widjaja-zh, source/wikidata-eka-tjipta-widjaja] }
   - { type: died_in, target: place/jakarta, sources: [source/wikipedia-eka-tjipta-widjaja-en, source/wikipedia-eka-tjipta-widjaja-id, source/wikidata-eka-tjipta-widjaja] }
 faith:

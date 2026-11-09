@@ -19,3 +19,6 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 320, article 'Wafik Pasha' signed J. Deny (EI2 enrichment, batch ei2-b003 part 3cq)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: born_in, target: place/istanbul, note: "From text: born in Istanbul", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/istanbul, note: "From text: died in Istanbul", sources: [source/encyclopaedia-of-islam-2] }

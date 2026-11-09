@@ -21,6 +21,7 @@ roles: [preacher, teacher]
 wings: [people, living]
 regions: [south-asia]
 relations:
+  - { type: lived_in, target: place/pakistan, sources: [source/dawateislami-ilyas-qadri-founder, source/dawateislami-ubaid-europe, source/dawateislami-ubaid-holland, source/dawateislami-ubaid-channel-description, source/vidiq-ubaid-raza-attari] }
   - type: child_of
     target: person/ilyas-qadri
     sources: [source/dawateislami-ilyas-qadri-founder, source/dawateislami-ubaid-holland]

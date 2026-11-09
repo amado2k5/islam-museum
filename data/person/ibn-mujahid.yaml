@@ -12,6 +12,9 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 relations:
+  - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: student_of, target: person/al-tabari, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
 sources: [source/al-aalam, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
 external_ids:

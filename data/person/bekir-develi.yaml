@@ -18,6 +18,8 @@ born:
   derived: false
   note: "Date and place (Bielefeld, Germany) from the Turkish Wikipedia article. No place record for Bielefeld exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-bekir-develi-tr]
+relations:
+  - { type: born_in, target: place/germany, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-bekir-develi-tr] }
 faith:
   - value: unknown
     basis: unknown

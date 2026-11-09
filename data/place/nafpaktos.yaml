@@ -1,0 +1,21 @@
+id: place/nafpaktos
+class: place
+kind: city
+label: { ar: "نافباكتوس", en: "Nafpaktos", ur: "ناوپاکتوس" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q782278)."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [38.391666666667, 21.8275]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q782278" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q782278 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -23,3 +23,5 @@ faith:
 sources: [source/assabile-abd-al-rahman-mansour]
 provenance: { layer: own-research, source: "Assabile, ahaleena ep01-ep13 (speaker page https://www.assabile.com/abd-al-rahman-mansour read 1 Nov 2026; video episodes, transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader on 2 Nov 2026); Arabic Wikipedia and Wikidata searched 2 Nov 2026: the Arabic article «عبد الرحمن منصور» (revision 70188208, Wikidata Q16117925) is about a different person, an online activist, and was not used", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: assabile-egypt-mansour-1 }
 status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-mansour-1" }
+relations:
+  - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/assabile-abd-al-rahman-mansour], confidence: low }

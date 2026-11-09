@@ -1,0 +1,35 @@
+id: place/mazar-e-qasmi
+class: place
+kind: site
+label:
+  ar: المقبرة القاسمية
+  en: Mazar-e-Qasmi
+  ur: قاسمی قبرستان
+summary:
+  ar: موقع في الهند.
+  en: Site (Wikidata Q100715002).
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 29.7
+- 77.6766
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q100715002
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q100715002 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q100715002 (labels, coordinates, description)

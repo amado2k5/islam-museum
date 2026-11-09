@@ -11,6 +11,7 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 died: { edtf: "1461-03-16~", hijri: "0865-05-15~", calendar: julian, precision: day, status: tradition, derived: true, note: "خلع السلطنة لولده المؤيد أحمد يوم الأربعاء 14 جمادى الأولى 865 وتوفي بعده بيوم واحد {cite:shadharat-dhahab p. 305}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: ruler_of, target: place/al-jund, note: "From text: خليفة والأشرف بسبب ركوب الجند ع", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }
   - { type: participated_in, target: event/khushqadam-accession-865, role: "السلطان الخالع", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

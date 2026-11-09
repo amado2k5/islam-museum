@@ -48,6 +48,8 @@ faith:
   basis: tradition
   note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: lived_in, target: place/abyssinia, sources: [source/ibn-hajar-isaba, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/fath-al-bari] }
+- { type: lived_in, target: place/medina, sources: [source/ibn-hajar-isaba, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/fath-al-bari] }
 - type: child_of
   target: person/muhammad
   sources:

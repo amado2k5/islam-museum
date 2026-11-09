@@ -17,3 +17,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 746-747, entry 'ASHIK, MUHAMMAD B. UTHMAN B. BAYEZID' (signed F. Taeschner) (EI2 entry, batch ei2-b013 part 34, seq 382)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/encyclopaedia-of-islam-2] }

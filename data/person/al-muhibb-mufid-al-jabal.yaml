@@ -17,6 +17,7 @@ faith:
   - value: sunni-hanbali
     basis: tradition
 relations:
+  - { type: traveled_to, target: place/baghdad, note: "From text: رحل إلى بغداد فسمع من القبيطي وابن الف", sources: [source/shadharat-dhahab] }
   - { type: student_of, target: person/ibn-qudama-al-maqdisi, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]

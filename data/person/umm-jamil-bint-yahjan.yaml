@@ -9,6 +9,8 @@ periods: [period/rashidun]
 relations:
   - { type: participated_in, target: event/mughira-adultery-affair }
   - { type: spouse_of, target: person/al-hajjaj-ibn-utayk }
+
+  - { type: lived_in, target: place/basra, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }

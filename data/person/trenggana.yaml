@@ -46,6 +46,7 @@ died:
 relations:
   - { type: child_of, target: person/raden-patah, sources: [source/wikipedia-trenggana-id] }
 
+  - { type: died_in, target: place/java, sources: [source/wikipedia-trenggana-en, source/wikipedia-trenggana-id, source/wikidata-trenggana] }
 faith:
   - value: unknown
     basis: unknown

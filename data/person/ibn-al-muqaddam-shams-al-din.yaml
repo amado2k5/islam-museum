@@ -8,6 +8,7 @@ summary:
 gender: male
 died: { edtf: "1187-08-25~", hijri: "0583-12-10", calendar: julian, precision: day, status: tradition, derived: true, note: "مات بمنى غداة عرفة 583هـ ودفن بالمعلى؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 163}.", sources: [source/kamil-ibn-al-athir] }
 relations:
+- { type: lived_in, target: place/jerusalem, confidence: low, note: "Associated with القدس per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 - type: participated_in
   target: event/arafat-hajj-clash-583
   sources: [source/kamil-ibn-al-athir]

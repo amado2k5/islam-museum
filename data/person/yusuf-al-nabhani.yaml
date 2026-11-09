@@ -41,7 +41,9 @@ faith:
     basis: documented
     note: "Two independent biographical sources attest initiations into named orders for the man himself. The Arabic biography, following Zaki Mujahid's al-A'lam al-Sharqiyya, lists his taking the Idrisiyya from Ismail al-Nawwab, the Shadhiliyya from Muhammad ibn Mas'ud al-Fasi and Ali Nur al-Din al-Yashruti, the Naqshbandiyya from Imdad Allah al-Faruqi and Ghiyath al-Din al-Irbili, the Qadiriyya from Hasan ibn Abi Halawa al-Ghazzi, the Rifa'iyya from Abd al-Qadir al-Dajani and the Khalwatiyya from Hasan Ridwan al-Sa'idi; the Azhar Memory biography independently records the same six initiations in its own wording, and Mamduh's entry adds his own summary: he 'was Azharite, a Sufi, and adhered to the Shafi'i school of thought'."
     sources: [source/wikipedia-yusuf-al-nabhani-ar, source/azhar-memory-yusuf-al-nabhani, source/mamduh-tashnif-al-asma-nabhani]
-relations: []
+relations:
+
+  - { type: born_in, target: place/haifa, sources: [source/wikipedia-yusuf-al-nabhani-ar, source/azhar-memory-yusuf-al-nabhani, source/wikidata-yusuf-al-nabhani] }
 summary:
   ar: "قاضٍ وفقيه وشاعر فلسطيني من إجزم بقضاء حيفا، من أبرز المدافعين عن الخلافة العثمانية والتصوف في عصره؛ درس في الأزهر وتولّى رئاسة محكمة الحقوق في بيروت نحو عشرين عامًا، وألّف عشرات الكتب في الحديث والمدائح النبوية وكرامات الأولياء، وأخذ طرقًا صوفية عدة عن شيوخها."
   en: "Palestinian judge, jurist and poet from Ijzim in the Haifa district, a leading defender of the Ottoman Caliphate and of Sufism in his age. Trained at al-Azhar, he presided over Beirut's Court of Rights for some twenty years and wrote dozens of works on hadith, Prophetic panegyric and the miracles of the saints; he was initiated into several Sufi orders."

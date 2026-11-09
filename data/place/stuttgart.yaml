@@ -1,0 +1,16 @@
+id: place/stuttgart
+class: place
+kind: city
+label: { en: "Stuttgart", ar: "شتوتغارت" }
+summary:
+  en: "City on the Neckar river and capital of the federal state Baden-Württemberg, Germany."
+  ar: "مدينة في ألمانيا."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [48.7775, 9.18]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q1022", geonames: "6690189" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q1022 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

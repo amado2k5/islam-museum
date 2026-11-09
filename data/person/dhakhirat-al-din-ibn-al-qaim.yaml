@@ -13,6 +13,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: child_of, target: person/al-qaim-billah, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

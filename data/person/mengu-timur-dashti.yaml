@@ -23,6 +23,12 @@ relations:
   target: polity/golden-horde
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- type: traveled_to
+  target: place/constantinople
+  confidence: low
+  note: "Marched on Constantinople in 670 AH and was received in submission by its king, per the record's summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia, anatolia-balkans]

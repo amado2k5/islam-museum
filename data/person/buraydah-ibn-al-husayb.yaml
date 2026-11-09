@@ -22,6 +22,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
 relations:
+  - { type: died_in, target: place/khorasan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
   - { type: participated_in, target: event/bayat-al-ridwan, sources: [source/istiab-alam-2002] }
   - { type: lived_in, target: place/medina, sources: [source/istiab-alam-2002] }

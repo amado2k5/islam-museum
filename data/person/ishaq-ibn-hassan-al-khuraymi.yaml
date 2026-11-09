@@ -14,6 +14,8 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 story_roles:
   - { role: poet, status: historical, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

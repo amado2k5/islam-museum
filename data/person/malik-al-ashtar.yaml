@@ -7,6 +7,9 @@ summary:
 wings: [people]
 periods: [period/rashidun]
 relations:
+  - { type: born_in, target: place/yemen-region, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/alexandria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/al-fustat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/first-crossing-of-darb-baghras, role: "المدد اللاحق بميسرة", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

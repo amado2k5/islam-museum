@@ -1,0 +1,21 @@
+id: place/borovini-i
+class: place
+kind: town
+label: { ar: "بوروينيتشة", en: "Borovinići" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q2911308)."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [43.5783, 18.7408]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2911308" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2911308 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

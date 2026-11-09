@@ -16,6 +16,7 @@ faith:
   - value: sufi
     basis: tradition
 relations:
+  - { type: lived_in, target: place/mecca, note: "From text: lived in Mecca", sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/mecca, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

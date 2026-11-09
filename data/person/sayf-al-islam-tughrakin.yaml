@@ -6,6 +6,8 @@ summary:
   en: "Saladin's brother, sent in 578 to take Yemen for the Ayyubids — his patient softening of the warlord Khattan ibn Munqidh, the false safe-conduct, the arrest as Khattan's caravan left and the stripping of seventy mail-bags of solid gold before his citadel imprisonment became a byword for courtly betrayal {cite:kamil-ibn-al-athir p. 111-112}."
 gender: male
 relations:
+- { type: died_in, target: place/yemen, sources: [source/shadharat-dhahab] }
+- { type: traveled_to, target: place/zabid, sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab] }
 - type: sibling_of
   target: person/salah-al-din-yusuf-ibn-ayyub
   sources: [source/kamil-ibn-al-athir]

@@ -1,0 +1,35 @@
+id: place/niger
+class: place
+kind: region
+label:
+  ar: النيجر
+  en: Niger
+  ur: نائجر
+summary:
+  ar: دولة في غرب أفريقيا.
+  en: Country of West Africa.
+wings:
+- place
+regions:
+- west-africa-sahel
+coordinates:
+- 17.6
+- 8.08
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q1032
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1032 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1032 (labels, coordinates, description)

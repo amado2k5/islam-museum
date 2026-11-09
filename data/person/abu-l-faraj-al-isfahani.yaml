@@ -20,3 +20,5 @@ provenance:
 external_ids: { wikidata: "Q335599" }
 sources: [source/kashf-zunun-furqan, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/isfahan, note: "Place association from the person's nisba/name (isfahani); denotes association, not proven residence.", sources: [source/kashf-zunun-furqan, source/encyclopaedia-of-islam-2], confidence: low }

@@ -31,6 +31,7 @@ faith:
     note: "No source names a school for him. Wikidata gives his religion (P140) as Islam, with no branch — a single structured value. No article text states his religion: the English, Arabic and Urdu articles carry only category filings (Tanzanian Muslims), and the Urdu stub derives from the English article, so there is one family at most. The value stays unknown."
     sources: [source/wikidata-hussein-mwinyi, source/wikipedia-hussein-mwinyi-en, source/wikipedia-hussein-mwinyi-ar, source/wikipedia-hussein-mwinyi-ur]
 relations:
+  - { type: born_in, target: place/unguja, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hussein-mwinyi] }
   - type: child_of
     target: person/ali-hassan-mwinyi
     sources: [source/wikipedia-hussein-mwinyi-en, source/wikidata-hussein-mwinyi, source/wikipedia-hussein-mwinyi-ar]

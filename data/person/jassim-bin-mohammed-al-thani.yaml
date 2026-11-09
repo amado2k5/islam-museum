@@ -55,6 +55,8 @@ faith:
       - source/wikipedia-jassim-bin-mohammed-al-thani-ur
       - source/wikidata-jassim-bin-mohammed-al-thani
 relations:
+  - { type: born_in, target: place/doha, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
+  - { type: died_in, target: place/doha, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
   - type: member_of
     target: group/al-thani
     note: "Head of the House of Thani from his accession on 18 December 1878 until his death, and the house's founder-figure in Qatar."

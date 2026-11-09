@@ -29,3 +29,6 @@ external_ids: { wikidata: "Q562440" }
 sources: [source/wikipedia-aziz-mian-en, source/wikidata-aziz-mian]
 provenance: { layer: own-research, source: "English Wikipedia 'Aziz Mian' (revision 1377981519, 2 October 2026) and Wikidata Q562440 (revision 2518764760), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b05 }
 status: { review: published, completeness: 3, generated_by: "Claude Code" }
+relations:
+  - { type: died_in, target: place/iran, note: "From text: توفي في إيران في جولة غنائية", sources: [source/wikipedia-aziz-mian-en, source/wikidata-aziz-mian] }
+  - { type: buried_in, target: place/multan, note: "From text: buried in Multan", sources: [source/wikipedia-aziz-mian-en, source/wikidata-aziz-mian] }

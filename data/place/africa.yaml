@@ -1,0 +1,36 @@
+id: place/africa
+class: place
+kind: region
+label:
+  ar: أفريقيا
+  en: Africa
+summary:
+  ar: القارة الأفريقية؛ امتد فيها الإسلام من مصر والمغرب إلى الساحل وشرقها.
+  en: The African continent, to which Islam spread from Egypt and the Maghreb to the Sahel and the east.
+wings:
+- place
+regions:
+- africa
+coordinates:
+- 7.0
+- 20.0
+coordinate_precision: approx
+coordinate_note: Approximate continental centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q15
+  geonames: '6255146'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q15 (labels, coordinates, description)

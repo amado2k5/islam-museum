@@ -36,6 +36,8 @@ died:
   sources: [source/wikipedia-raana-liaquat-ali-khan-en, source/wikipedia-raana-liaquat-ali-khan-ur, source/wikipedia-raana-liaquat-ali-khan-ar, source/wikidata-raana-liaquat-ali-khan]
 relations:
   - { type: spouse_of, target: person/liaquat-ali-khan, sources: [source/wikipedia-raana-liaquat-ali-khan-en, source/wikipedia-raana-liaquat-ali-khan-ur, source/wikidata-raana-liaquat-ali-khan] }
+  - { type: died_in, target: place/karachi, sources: [source/wikidata-raana-liaquat-ali-khan], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8660)" }
+  - { type: buried_in, target: place/mazar-e-quaid, sources: [source/wikidata-raana-liaquat-ali-khan], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2571455)" }
 faith:
   - value: unknown
     basis: unknown

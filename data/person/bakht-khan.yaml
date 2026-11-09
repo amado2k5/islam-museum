@@ -30,6 +30,8 @@ died:
   derived: true
   note: "Died in 1859 in the Terai plains of Nepal, mortally wounded after the fall of Delhi and the loss of Awadh (English article, citing the Express Tribune, 2011, and Mukherjee's Awadh in Revolt). The Urdu article gives a precise day, 13 May 1859, which no other source read states, so the record carries the year, on which all sources agree. The Terai has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-bakht-khan-en, source/wikipedia-bakht-khan-ur, source/wikidata-bakht-khan]
+relations:
+  - { type: died_in, target: place/terai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bakht-khan] }
 faith:
   - value: unknown
     basis: unknown

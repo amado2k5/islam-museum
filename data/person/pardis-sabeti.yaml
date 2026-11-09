@@ -28,6 +28,8 @@ faith:
     note: "No source names an affiliation for Sabeti herself; the configuration is family background only. The English article states that her father 'came from a Baháʼí Faith family but never officially joined as a member'; the Persian and Arabic articles repeat the same statement of her father's background (an article and its translations are one family in any case). Nothing in the Urdu text, in any edition's categories, or in Wikidata — which carries no religion value at all — speaks to her own belief. A parent's family background is not an attestation of the subject's affiliation, so no value is recorded."
     sources: [source/wikipedia-sabeti-en, source/wikipedia-sabeti-fa, source/wikipedia-sabeti-ar, source/wikidata-sabeti]
 external_ids: { wikidata: "Q3063122" }
+relations:
+  - { type: born_in, target: place/tehran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3616)" }
 sources: [source/wikipedia-sabeti-en, source/wikipedia-sabeti-fa, source/wikipedia-sabeti-ar, source/wikipedia-sabeti-ur, source/wikidata-sabeti]
 provenance:
   layer: own-research

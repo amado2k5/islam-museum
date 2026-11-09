@@ -21,6 +21,7 @@ born:
   note: "Born on 23 January 1947 at Yogyakarta (English, Arabic and Urdu articles and Wikidata agree). Encyclopaedia Britannica gives Jakarta; Yogyakarta is followed and the variant recorded. Yogyakarta has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1366) is derived by tabular conversion."
   sources: [source/wikipedia-megawati-sukarnoputri-en, source/wikipedia-megawati-sukarnoputri-ar, source/wikidata-megawati-sukarnoputri, source/britannica-megawati-sukarnoputri]
 relations:
+  - { type: born_in, target: place/yogyakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-megawati-sukarnoputri] }
   - { type: lived_in, target: place/jakarta, sources: [source/wikipedia-megawati-sukarnoputri-en, source/britannica-megawati-sukarnoputri] }
 faith:
   - value: unknown

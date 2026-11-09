@@ -35,6 +35,8 @@ died:
   note: "Died at Abu Dhabi on 13 May 2022 (English article and Wikidata) and was buried at Al Bateen Cemetery in Abu Dhabi (English article's infobox). The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Abu Dhabi, so no died_in or buried_in relation is written."
   sources: [source/wikipedia-khalifa-bin-zayed-al-nahyan-en, source/wikidata-khalifa-bin-zayed-al-nahyan]
 relations:
+  - { type: born_in, target: place/al-ain, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khalifa-bin-zayed-al-nahyan] }
+  - { type: died_in, target: place/abu-dhabi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khalifa-bin-zayed-al-nahyan] }
   - { type: successor_of, target: person/zayed-bin-sultan-al-nahyan, sources: [source/wikipedia-khalifa-bin-zayed-al-nahyan-en, source/wikipedia-khalifa-bin-zayed-al-nahyan-ar] }
   - { type: child_of, target: person/zayed-bin-sultan-al-nahyan, sources: [source/wikipedia-khalifa-bin-zayed-al-nahyan-en, source/wikipedia-khalifa-bin-zayed-al-nahyan-ar, source/wikidata-khalifa-bin-zayed-al-nahyan] }
 faith:

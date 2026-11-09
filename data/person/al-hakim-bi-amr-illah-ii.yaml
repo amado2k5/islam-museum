@@ -14,3 +14,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-48
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: died_in, target: place/qus, note: "From text: مات بقوص فقدم عليه ابن عمه إبراهيم ", sources: [source/tarikh-khulafa-minhaj-1434] }

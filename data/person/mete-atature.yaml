@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Day, month and city from the English and Turkish Wikipedia articles (19 February 1975, Kayseri, where his family was stationed for his father's military service); Wikidata (Q23920801) records the year 1975 only and gives Ankara as the birthplace statement, which the record does not follow. The Hijri year 1395 is the tabular conversion of 19 February 1975 and is marked derived. No place entity for Kayseri exists, so no born_in relation is written."
   sources: [source/wikipedia-mete-atature-en, source/wikipedia-mete-atature-tr, source/wikidata-mete-atature]
+relations:
+  - { type: born_in, target: place/ankara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mete-atature] }
 faith:
   - value: unknown
     basis: unknown

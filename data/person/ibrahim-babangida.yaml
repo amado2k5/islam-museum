@@ -28,6 +28,7 @@ faith:
     note: "Thinner than the Khan configuration, unflagged. No consulted text attests Babangida personally as a Muslim: the English article records only that he 'received early Islamic education' before primary school (formation, which never counts) and his government's 1986 decision to take Nigeria into the Organisation of Islamic Cooperation (a state act, welcomed in the Muslim-majority north — politics, not affiliation). The Arabic stub's infobox religion field is blank — it carries no religion value at all — and the Arabic and Urdu articles file him under 'Nigerian Muslims' (category filings); Wikidata gives a single structured value, Islam. No source used names a school or madhhab, so under the two-source rule the value stays unknown."
     sources: [source/wikipedia-ibrahim-babangida-en, source/wikipedia-ibrahim-babangida-ar, source/wikidata-ibrahim-babangida]
 relations:
+  - { type: born_in, target: place/minna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-babangida] }
   - { type: successor_of, target: person/muhammadu-buhari, sources: [source/wikipedia-ibrahim-babangida-en] }
 external_ids: { wikidata: "Q333415" }
 sources: [source/wikipedia-ibrahim-babangida-en, source/wikipedia-ibrahim-babangida-ar, source/wikipedia-ibrahim-babangida-ur, source/wikidata-ibrahim-babangida]

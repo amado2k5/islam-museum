@@ -16,6 +16,7 @@ themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (بغدادي); denotes association, not proven residence.", sources: [source/tarikh-baghdad-khatib], confidence: low }
   - { type: member_of, target: group/banu-hashim, sources: [source/tarikh-baghdad-khatib] }
 provenance:
   layer: own-research

@@ -34,6 +34,8 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+- { type: died_in, target: place/jeddah, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q374365)" }
 - type: child_of
   target: person/zaynab-bint-muhammad
   sources:

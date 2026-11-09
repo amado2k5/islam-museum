@@ -17,6 +17,7 @@ regions: [arabia]
 story_roles:
   - { role: opponent, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-amir-ibn-sasaa, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/labid-ibn-rabia }
   - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "المكلَّف بالضرب بالسيف", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }

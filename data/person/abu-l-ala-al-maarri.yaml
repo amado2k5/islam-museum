@@ -15,3 +15,6 @@ born: { edtf: "0973-12~", hijri: "0363-03-17", calendar: julian, precision: day,
 died: { edtf: "1057~", hijri: "0449~", calendar: julian, precision: year, status: tradition, derived: true, note: "449هـ {cite:shadharat-dhahab p. 288}", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/maarrat-al-numan, note: "The poet-philosopher of Ma'arra, 'prisoner of two gaols' — his house and his sight; he entered Baghdad twice and returned to Ma'arra.", sources: [source/shadharat-dhahab], confidence: high }
+  - { type: traveled_to, target: place/baghdad, note: "Entered Baghdad twice and returned to Ma'arra.", sources: [source/shadharat-dhahab], confidence: medium }

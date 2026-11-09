@@ -36,6 +36,8 @@ roles: [historian, writer]
 regions: [anatolia-balkans]
 wings: [people]
 relations:
+  - { type: died_in, target: place/ankara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/fatih-mosque-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-inalcik-en, source/wikidata-inalcik] }
 faith:
   - value: unknown

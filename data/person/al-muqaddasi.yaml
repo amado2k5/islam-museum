@@ -17,6 +17,7 @@ regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
 relations:
+  - { type: born_in, target: place/palestine, note: "From text: ولد بالقدس (فلسطين مولده واسم نسبته", sources: [source/kashf-zunun-furqan, source/ahsan-al-taqasim, source/encyclopaedia-of-islam-2, source/muqaddasi-ahsan-taqasim-bga-1877] }
   - { type: authored, target: work/ahsan-al-taqasim, sources: [source/kashf-zunun-furqan] }
   - { type: born_in, target: place/jerusalem, sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/muqaddasi-hajj-356, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }

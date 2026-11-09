@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [egypt-nile]
 relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/kashf-zunun-furqan], confidence: low }
   - { type: authored, target: work/qudat-misr, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research

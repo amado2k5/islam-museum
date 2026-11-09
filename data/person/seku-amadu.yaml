@@ -38,6 +38,8 @@ died:
 relations:
   - { type: student_of, target: person/mukhtar-al-kunti, note: "The English article states expressly that Amadu was a pupil of the Qadiriyya Sufi teacher Sidi Mukhtar al-Kunti (citing Hunwick 2004). The French article instead names the Sufi Kabara Farma as the man who initiated him into the Qadiriyya (citing Boly's thesis on Sufism in Mali); the two teacher traditions are both stated in the prose and neither is silently dropped.", sources: [source/wikipedia-seku-amadu-en, source/wikipedia-seku-amadu-fr] }
   - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-seku-amadu-en, source/wikipedia-seku-amadu-fr, source/wikipedia-empire-du-macina-fr] }
+
+  - { type: lived_in, target: place/timbuktu, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-seku-amadu-en, source/wikipedia-seku-amadu-fr, source/wikipedia-massina-empire-en, source/wikipedia-empire-du-macina-fr] }
 faith:
   - value: sufi
     basis: documented

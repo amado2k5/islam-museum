@@ -20,3 +20,5 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch12"
+relations:
+  - { type: ruler_of, target: place/qayrawan, note: "From text: استولى على القيروان ورقادة سنة 333هـ", sources: [source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/fihrist-ibn-al-nadim], confidence: low }

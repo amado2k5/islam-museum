@@ -26,6 +26,7 @@ born:
   note: "Born on 11 March 1961 at Al Ain (Wikidata gives Al Ain as the place of birth; the English article records his education in Abu Dhabi and Al Ain), the third son of Zayed bin Sultan Al Nahyan and Fatima bint Mubarak. The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Al Ain, so no born_in relation is written."
   sources: [source/wikipedia-mohamed-bin-zayed-al-nahyan-en, source/wikidata-mohamed-bin-zayed-al-nahyan]
 relations:
+  - { type: born_in, target: place/al-ain, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-bin-zayed-al-nahyan] }
   - { type: successor_of, target: person/khalifa-bin-zayed-al-nahyan, sources: [source/wikipedia-mohamed-bin-zayed-al-nahyan-en, source/wikipedia-mohamed-bin-zayed-al-nahyan-ar] }
   - { type: child_of, target: person/zayed-bin-sultan-al-nahyan, sources: [source/wikipedia-mohamed-bin-zayed-al-nahyan-en, source/wikidata-mohamed-bin-zayed-al-nahyan] }
 faith:

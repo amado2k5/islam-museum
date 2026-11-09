@@ -14,6 +14,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 relations:
   - { type: founder_of, target: group/yunusiyya, sources: [source/wafayat-ayan] }
+  - { type: died_in, target: place/sinjar, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'يونس بن يوسف الشيباني ثم المخارقي، شيخ الفقراء اليونسية المنسوبين إليه؛ كان رجلاً صالحاً، وسأل ابن خلكان " }
 sources: [source/wafayat-ayan]
 provenance:
   layer: own-research

@@ -32,6 +32,8 @@ faith:
       - source/almaghrib-navaid-aziz
       - source/listennotes-navaid-aziz
       - source/suljic-wilner-conversion-study
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/almaghrib-navaid-aziz], confidence: low, note: "نشأ في مونتريال ودرس في الجامعة الإسلامية بالمدينة المنورة حتى بكالوريوس الشريعة، ودرّس في معهد المغرب وأصبح م" }
 sources:
   - source/almaghrib-navaid-aziz
   - source/listennotes-navaid-aziz

@@ -24,6 +24,7 @@ born:
   note: "Year and birthplace (Riyadh) from the Arabic Wikipedia lead and infobox, which pair 1973 CE with 1393 AH; Wikidata likewise gives 1973 (year precision). No day or month is published in either source."
   sources: [source/wikipedia-badr-al-mashari-ar, source/wikidata-badr-al-mashari]
 relations:
+  - { type: born_in, target: place/riyadh, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-badr-al-mashari-ar, source/wikidata-badr-al-mashari] }
   - { type: student_of, target: person/ibn-baz-abd-al-aziz, sources: [source/wikipedia-badr-al-mashari-ar] }
   - { type: student_of, target: person/saleh-al-fawzan, sources: [source/wikipedia-badr-al-mashari-ar] }
 faith:

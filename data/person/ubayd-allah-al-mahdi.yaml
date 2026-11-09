@@ -13,5 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-31
 external_ids: { wikidata: "Q307629" }
+relations:
+  - { type: born_in, target: place/askar-mukram, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5866194)" }
+  - { type: died_in, target: place/al-mahdiyya, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q466054)" }
 sources: [source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/fihrist-ibn-al-nadim, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

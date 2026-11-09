@@ -33,6 +33,10 @@ died:
   derived: true
   sources: [source/encyclopaedia-of-islam-2]
   note: "EI2: died 6 Jumada I 937/26 December 1530 at Agra; body later moved to its present grave."
+relations:
+  - { type: born_in, target: place/andijan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/gardens-of-babur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim, source/akbarnama, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q797848

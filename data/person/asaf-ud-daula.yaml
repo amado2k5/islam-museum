@@ -38,6 +38,7 @@ died:
   sources: [source/wikipedia-asaf-ud-daula-en, source/wikipedia-asaf-ud-daula-ar, source/wikidata-asaf-ud-daula]
 
 relations:
+  - { type: lived_in, target: place/anatolia, note: "Place association from the person's nisba/name (رومي); denotes association, not proven residence.", sources: [source/wikipedia-asaf-ud-daula-en, source/wikipedia-asaf-ud-daula-ar, source/wikipedia-asaf-ud-daula-ur, source/wikidata-asaf-ud-daula, source/wikipedia-oudh-state-en], confidence: low }
   - { type: child_of, target: person/shuja-ud-daula, sources: [source/wikipedia-asaf-ud-daula-en, source/wikidata-asaf-ud-daula] }
 
 faith:

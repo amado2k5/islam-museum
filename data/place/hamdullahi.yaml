@@ -1,0 +1,21 @@
+id: place/hamdullahi
+class: place
+kind: town
+label: { ar: "حمد الله", en: "Hamdullahi", ur: "حمداللہ"}
+summary:
+  ar: "بلدة حمد الله."
+  en: "Town (Hamdullahi)."
+wings: [place]
+regions: [global]
+coordinates: [14.331111111111, -4.0958333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q3126370; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3126370" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3126370 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

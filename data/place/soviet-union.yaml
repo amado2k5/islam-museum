@@ -1,0 +1,21 @@
+id: place/soviet-union
+class: place
+kind: region
+label: { ar: "الاتحاد السوفيتي", en: "Soviet Union", ur: "سوویت اتحاد" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q15180)."
+wings: [place]
+regions: [global]
+coordinates: [65, 90]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q15180" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q15180 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

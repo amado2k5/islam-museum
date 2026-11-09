@@ -13,3 +13,5 @@ provenance:
   run: lib-muruj-dhahab-batch-103
 sources: [source/muruj-al-dhahab, source/tarikh-yaqubi-houtsma-1883]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruler_of, target: place/palestine, note: "From text: governor of Palestine", sources: [source/muruj-al-dhahab, source/tarikh-yaqubi-houtsma-1883] }

@@ -40,6 +40,8 @@ roles: [scholar, jurist, politician]
 regions: [maghreb]
 wings: [people]
 relations:
+  - { type: born_in, target: place/ksar-jdid-mdaghra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-ben-larbi-al-alaoui] }
+  - { type: died_in, target: place/fes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-ben-larbi-al-alaoui] }
   - { type: died_in, target: place/fez, sources: [source/wikipedia-mohamed-ben-larbi-al-alaoui-fr, source/wikipedia-mohamed-ben-larbi-al-alaoui-es, source/wikidata-mohamed-ben-larbi-al-alaoui] }
 faith:
   - value: unknown

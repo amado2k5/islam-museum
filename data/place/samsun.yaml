@@ -1,0 +1,16 @@
+id: place/samsun
+class: place
+kind: city
+label: { en: "Samsun", ar: "سامسون", ur: "سمسون" }
+summary:
+  en: "City on the Black Sea coast of Turkey."
+  ar: "مدينة على ساحل البحر الأسود في تركيا."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.28, 36.33]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q83165" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q83165 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

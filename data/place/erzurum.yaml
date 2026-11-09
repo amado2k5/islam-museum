@@ -1,0 +1,38 @@
+id: place/erzurum
+class: place
+kind: city
+label:
+  ar: أرضروم
+  en: Erzurum
+  ur: ارض روم
+summary:
+  ar: مدينة في شرق الأناضول بتركيا، على مرتفعات أرمينية التاريخية.
+  en: City in eastern Anatolia, Turkey, on the historic Armenian highlands.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 39.90972
+- 41.27556
+coordinate_precision: locality
+coordinate_note: Wikidata Q122803 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q122803
+  geonames: '315368'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q122803 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q122803 (labels, coordinates, description)

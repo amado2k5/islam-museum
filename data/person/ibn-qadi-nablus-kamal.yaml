@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [levant-iraq, egypt-nile]
 born: { edtf: "1431~", hijri: "0835~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد نيف وثلاثين وثمانمائة {cite:shadharat-dhahab p. 348}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1484~", hijri: "0889", calendar: julian, precision: year, status: tradition, derived: true, note: "ورد خبر موته بإسكندوية سنة 889 {cite:shadharat-dhahab p. 349}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 889)، قراءة آبل فيجن"

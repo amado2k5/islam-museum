@@ -13,6 +13,8 @@ summary:
 roles: [teacher, scholar]
 wings: [people, living]
 regions: [americas-oceania]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/youtube-themaryamamir] }
 faith:
   - value: unknown
     basis: unknown

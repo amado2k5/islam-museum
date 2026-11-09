@@ -17,6 +17,7 @@ themes: [astronomy-and-timekeeping, history-writing-and-social-thought]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/nallino-albatenii-opus-astronomicum] }
   - { type: child_of, target: person/al-muktafi-billah, sources: [source/nallino-albatenii-opus-astronomicum] }
 sources: [source/nallino-albatenii-opus-astronomicum]
 provenance:

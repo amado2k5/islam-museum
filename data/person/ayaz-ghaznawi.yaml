@@ -24,3 +24,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, p. 829, entry 'AYAZ' (queue seq 437, batch ei2-b018)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/ghazna, note: "Place association from the person's nisba/name (الغزنوي); denotes association, not proven residence.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

@@ -7,6 +7,7 @@ summary:
 wings: [people]
 gender: male
 relations:
+  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name (القمي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/al-qummi-buja-war, role: "أمير مصر المعين", sources: [source/futuh-buldan-maarif-1407] }
 external_ids: { wikidata: "Q21079414" }
 provenance:

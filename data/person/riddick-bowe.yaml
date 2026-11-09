@@ -29,6 +29,8 @@ faith:
     note: "No affiliation is recorded. Neither the English nor the Arabic article makes any statement about his religion in its text or in its categories, and Wikidata (Q708185) has no religion value. There is no attestation of any kind to weigh."
     sources: [source/wikipedia-riddick-bowe-en, source/wikipedia-riddick-bowe-ar, source/wikidata-riddick-bowe]
 external_ids: { wikidata: "Q708185" }
+relations:
+  - { type: born_in, target: place/brooklyn, sources: [source/wikidata-riddick-bowe], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q18419)" }
 sources: [source/wikipedia-riddick-bowe-en, source/wikipedia-riddick-bowe-ar, source/wikidata-riddick-bowe]
 provenance:
   layer: own-research

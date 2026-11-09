@@ -39,6 +39,8 @@ faith:
     note: "The English article's infobox gives his religion as Maliki (Sunni Islam) and the French article's infobox gives Sunni Islam; no article text names a school for him personally, and Wikidata carries no religion value at all. Two structured values of differing specificity with no text attestation do not meet the two-source rule; Morocco's Maliki rite and his royal style Amir al-Mu'minin are context and office, not personal attestation. Recorded unknown under the doubt rule."
     sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-fr, source/wikidata-hassan-i-of-morocco]
 relations:
+  - { type: born_in, target: place/fes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-i-of-morocco] }
+  - { type: died_in, target: place/marrakesh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-i-of-morocco] }
   - { type: born_in, target: place/fez, sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-ar] }
   - { type: died_in, target: place/tadla, sources: [source/wikipedia-hassan-i-of-morocco-en, source/wikipedia-hassan-i-of-morocco-ar] }
 external_ids: { wikidata: "Q496845" }

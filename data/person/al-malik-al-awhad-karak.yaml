@@ -17,6 +17,7 @@ faith:
   - value: sunni
     basis: tradition
 relations:
+  - { type: died_in, target: place/jerusalem, note: "From text: died in Jerusalem", sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/jerusalem, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

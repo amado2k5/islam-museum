@@ -23,6 +23,8 @@ born:
 roles: [scholar, translator]
 regions: [egypt-nile, andalus-europe]
 wings: [people, living]
+relations:
+  - { type: lived_in, target: place/london, confidence: low, note: "Associated with London per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

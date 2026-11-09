@@ -14,6 +14,7 @@ regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 died: { edtf: "1498", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 relations:
+  - { type: lived_in, target: place/istanbul, confidence: low, note: "Associated with Istanbul per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: person/bayazid-ii, role: "الصدر الأعظم عنده خمس عشرة سنة", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:

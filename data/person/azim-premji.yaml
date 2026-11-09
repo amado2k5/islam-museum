@@ -20,7 +20,8 @@ born:
   derived: true
   note: "Gregorian date and Bombay (now Mumbai) birthplace from English Wikipedia and Encyclopaedia Britannica; the Hijri year (1364) is derived by tabular conversion."
   sources: [source/wikipedia-azim-premji-en, source/britannica-azim-premji]
-relations: []
+relations:
+  - { type: born_in, target: place/mumbai, note: "From text: born in Bombay", sources: [source/wikipedia-azim-premji-en, source/britannica-azim-premji] }
 faith:
   - value: unknown
     basis: unknown

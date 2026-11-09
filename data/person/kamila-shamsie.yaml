@@ -28,6 +28,8 @@ born:
   note: "Born in Karachi on 13 August 1973; the English, Arabic and Urdu articles and Wikidata agree. The Hijri year 1393 is the tabular conversion of the built date, marked derived. The museum has no place entity for Karachi, so no born_in edge is written. Her mother Muneeza Shamsie and her great-aunt Attia Hosain have no records in the museum, so no family edges are written."
   sources: [source/wikipedia-kamila-shamsie-en, source/wikipedia-kamila-shamsie-ar, source/wikipedia-kamila-shamsie-ur, source/wikidata-kamila-shamsie]
 
+relations:
+  - { type: born_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamila-shamsie] }
 faith:
   - value: unknown
     basis: unknown

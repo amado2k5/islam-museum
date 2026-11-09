@@ -1,0 +1,16 @@
+id: place/scottsdale
+class: place
+kind: city
+label: { en: "Scottsdale", ar: "سكوتسديل" }
+summary:
+  en: "City in Maricopa County, Arizona, United States."
+  ar: "مدينة في الولايات المتحدة."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [33.4931, -111.9261]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q49221", geonames: "5313457" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q49221 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

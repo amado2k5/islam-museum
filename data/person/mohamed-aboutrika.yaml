@@ -20,6 +20,9 @@ born:
   derived: true
   note: "Born 7 November 1978 in Nahia (Nahya), Giza, Egypt, as given by the English Wikipedia article's infobox and by Wikidata Q1799274; the Arabic article's categories likewise file him under births in Giza city. No place entity for Nahia or for the city of Giza exists in data/place/ (place/al-ahram-giza is the Pyramids site, not the city), so no born_in edge is written. The Hijri year (1398) is derived by tabular conversion and agrees with the Arabic article's birth-year category (births in 1398 AH)."
   sources: [source/wikipedia-mohamed-aboutrika-en, source/wikipedia-mohamed-aboutrika-ar, source/wikidata-mohamed-aboutrika]
+relations:
+  - { type: born_in, target: place/nahya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-aboutrika] }
+  - { type: lived_in, target: place/doha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-aboutrika] }
 faith:
   - value: unknown
     basis: unknown

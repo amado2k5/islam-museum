@@ -30,6 +30,8 @@ faith:
 honours:
   - { award: award/mobo-awards, category: "Best African Act", result: won, year: 2005, sources: [source/wikipedia-egypt-youssou-ndour-en] }
 external_ids: { wikidata: "Q210734" }
+relations:
+  - { type: born_in, target: place/dakar, sources: [source/wikidata-youssou-ndour], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3718)" }
 sources: [source/wikipedia-youssou-ndour-en, source/wikipedia-youssou-ndour-fr, source/wikipedia-youssou-ndour-ar, source/wikipedia-youssou-ndour-ur, source/wikidata-youssou-ndour, source/wikipedia-egypt-youssou-ndour-en]
 provenance:
   layer: own-research

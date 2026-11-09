@@ -22,7 +22,8 @@ born:
   derived: true
   note: "Born on 3 February 1963 at Bhopal, Madhya Pradesh; the English article's infobox and text and Wikidata agree. No born_in relation is written: Bhopal has no museum place entity. The Hijri year (1382) is derived by tabular conversion."
   sources: [source/wikipedia-raghuram-rajan-en, source/wikidata-raghuram-rajan]
-relations: []
+relations:
+  - { type: born_in, target: place/bhopal, sources: [source/wikidata-raghuram-rajan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80989)" }
 faith:
   - value: unknown
     basis: unknown

@@ -22,6 +22,8 @@ faith:
     note: "No affiliation is recorded: neither article makes any statement of his religion in its text or categories, and Wikidata has no religion value for him at all — a complete absence, not a near miss. The Hadhrami lineage the English article gives his Al-Amoudi family, including descent from a Sufi saint of the thirteenth century, is ancestry, not an attestation of his own affiliation, and never counts."
     sources: [source/wikipedia-omar-abdulrahman-en, source/wikipedia-omar-abdulrahman-ar, source/wikidata-omar-abdulrahman]
 external_ids: { wikidata: Q2652388 }
+relations:
+  - { type: born_in, target: place/al-ain, sources: [source/wikidata-omar-abdulrahman], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q234600)" }
 sources: [source/wikipedia-omar-abdulrahman-en, source/wikipedia-omar-abdulrahman-ar, source/wikidata-omar-abdulrahman]
 provenance:
   layer: own-research

@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born 29 April 1985 in Dubai (the German article; Wikidata's date and place of birth agree). No place entity for Dubai exists, so no born_in relation is written and the birthplace is recorded here and in prose only. The Hijri year 1405 is the tabular conversion of 29 April 1985 and is marked derived."
   sources: [source/wikipedia-hasher-al-maktoum-de, source/wikidata-hasher-al-maktoum]
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/wikipedia-hasher-al-maktoum-de] }
 faith:
   - value: unknown
     basis: unknown

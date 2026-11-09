@@ -14,6 +14,7 @@ regions: [arabia]
 story_roles:
   - { role: family-of-the-prophet, status: tradition, sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: member_of, target: group/banu-zuhra, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: member_of, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
 provenance:

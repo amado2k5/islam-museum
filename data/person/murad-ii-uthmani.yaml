@@ -20,6 +20,7 @@ relations:
   - { type: participated_in, target: event/battle-kosovo-ii-852, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: signed, target: event/treaty-szeged-848, role: "الطرف العثماني", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: fought, target: person/hunyadi-janos, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: died_in, target: place/edirne, sources: [source/dawlat-uthmaniyya-salabi] }
 external_ids:
   wikidata: Q131394
 sources: [source/dawlat-uthmaniyya-salabi]

@@ -1,0 +1,20 @@
+id: place/maghreb
+class: place
+kind: region
+label: { ar: "المغرب العربي", en: "Maghreb" }
+summary:
+  ar: "أقاليم شمال أفريقيا غرب مصر، من برقة إلى الأطلسي."
+  en: "The lands of North Africa west of Egypt, from Barqa to the Atlantic."
+wings: [place]
+regions: [maghreb]
+coordinates: [30.0, -4.0]
+coordinate_precision: approx
+coordinate_note: "Approximate regional centre; flagged for gazetteer verification."
+external_ids: { wikidata: "Q27349" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Region entity created so persons whose records substantiate only a broad region still resolve on the map; centre point approximate."

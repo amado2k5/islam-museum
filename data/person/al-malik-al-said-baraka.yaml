@@ -17,6 +17,7 @@ faith:
   - value: sunni
     basis: tradition
 relations:
+  - { type: lived_in, target: place/al-karak, note: "From text: أقام بالكرك أشهراً", sources: [source/shadharat-dhahab] }
   - { type: child_of, target: person/baybars, sources: [source/shadharat-dhahab] }
   - { type: successor_of, target: person/baybars, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]

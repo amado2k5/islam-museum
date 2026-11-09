@@ -13,6 +13,8 @@ themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq, egypt-nile]
 died: { edtf: "1445-02-17~", hijri: "0848-11-02", calendar: julian, precision: day, status: tradition, derived: true, note: "مات فجأة 2 ذي القعدة 848 بعد أن عمل يوم موته المواعيد في موضعين {cite:shadharat-dhahab p. 262}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with القاهرة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 848)، قراءة آبل فيجن"

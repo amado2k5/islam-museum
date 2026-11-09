@@ -15,7 +15,8 @@ faith:
 roles: [preacher]
 wings: [people, living]
 regions: [anatolia-balkans]
-relations: []
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/gazetepencere-konakci-2026] }
 sources: [source/gazetepencere-konakci-2026, source/vidiq-dini-sohbetler]
 provenance:
   layer: own-research

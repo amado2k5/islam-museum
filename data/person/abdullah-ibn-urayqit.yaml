@@ -17,6 +17,7 @@ story_roles:
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "كان على دين كفار قريش حين استُؤجر (الرحيق ص166).", sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari], confidence: low }
   - { type: participated_in, target: event/hijra, role: "الدليل صاحب الراحلتين", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 166" }

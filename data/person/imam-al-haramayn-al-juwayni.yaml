@@ -18,6 +18,9 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia, arabia]
 relations:
+  - { type: born_in, target: place/juwayn, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/nishapur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/nishapur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/nishapur, note: "ببشتنكان (بشتقان) قرية من أعمال نيسابور", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
   - { type: died_in, target: place/nishapur, note: "توفي ببشتقان ونُقل إلى نيسابور فدفن في داره ثم بمقبرة الحسين", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
   - { type: child_of, target: person/abdallah-ibn-yusuf-al-juwayni, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan, source/encyclopaedia-of-islam-2] }

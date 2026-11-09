@@ -8,6 +8,7 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/bardhaa, confidence: low, note: "Associated with برذعة per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/founding-of-mutawakkiliyya, role: "العمّار والي أرمينية وأذربيجان وشمشاط", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

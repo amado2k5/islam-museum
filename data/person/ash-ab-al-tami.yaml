@@ -13,5 +13,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الثاني، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-9
+relations:
+  - { type: lived_in, target: place/medina, note: "The Medinan figure proverbial for appetite; his anecdotes are set at Medina.", sources: [source/wafayat-ayan], confidence: medium }
 sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); EI2 section added by Claude Code" }

@@ -46,6 +46,8 @@ died:
     - source/wikidata-mohammad-khodabanda
 
 relations:
+  - { type: born_in, target: place/ardabil, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/imam-husayn-shrine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/tahmasp-i-safavi, sources: [source/wikipedia-mohammad-khodabanda-en, source/wikidata-mohammad-khodabanda] }
   - { type: sibling_of, target: person/ismail-ii-safavi, sources: [source/wikipedia-mohammad-khodabanda-en] }
   - { type: born_in, target: place/tabriz, sources: [source/wikipedia-mohammad-khodabanda-en] }
