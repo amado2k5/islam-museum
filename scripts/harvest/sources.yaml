@@ -1058,6 +1058,17 @@ sources:
       robots_txt: none found (404) on the uliege.be base
       note: '58,289 fiches, 49,884 photos of Arabic/Turkish/Persian inscriptions to AH 1000; legacy domain epigraphie-islamique.org is parked — uliege.be is canonical; cite {cite:tei-epigraphie <fiche-id>}'
     status: enabled
+  nomisma:
+    name: Nomisma.org (American Numismatic Society / Oxford-linked numismatic LOD ontology)
+    url: https://nomisma.org
+    licence: CC-BY 3.0 stated on site (verified 9 Nov 2026); {cite:nomisma <concept-id>} is the attribution — partner-dataset records ingested through Nomisma carry their own licence statements and stay facts-only until checked per-record
+    layer: by
+    method: SPARQL endpoint + documented APIs + RDFa concept pages; nomisma.org/id/ stable URIs
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'ontology of numismatic concepts — coins, mints, issuing authorities, standards; ~1,300 years of Islamic numismatics; cite mint -> place, issuer -> person/polity, type/standard -> object kind coin; legend text and images never republished'
+    status: enabled
   british-museum:
     name: British Museum collection database
     url: https://www.britishmuseum.org/collection

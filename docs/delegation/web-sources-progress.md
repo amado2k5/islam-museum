@@ -426,3 +426,10 @@ First explore-list family scored against the eight criteria (verification date 9
 - REJECTED: bab-zuwayla direct ×0 (all 9 were misroutes), uzun-hasan (Hasankeyf mausoleum of Zaynal b. Uzun Hasan vs Tabriz türbe), suleyman-pasha-tomb (Mardin köşk), tomb-of-mahmud (Ramla Shaykh Mahmud mosque), edirne ×2 (chandelier provenance unknown).
 - Nomisma.org scored: strong Tier-1/2 candidate (ANS+Oxford, CC-BY 3.0, SPARQL+APIs) — see assessment above.
 - Next sweep: 56801-60800 running.
+
+## 2026-11-09 (p17b) — Nomisma.org registered Tier 2
+
+- dec-20261109-224 (override of engine false-positive dec-223, same 'Arabic'-in-evidence class as dec-190/204): Nomisma.org registered as citable numismatic family — CC-BY 3.0, {cite:nomisma <concept-id>} is the attribution; partner datasets facts-only until per-record licence check.
+- Files: data/source/nomisma.yaml, scripts/harvest/sources.yaml (layer: by), docs/attribution.md, docs/agents/source-families.md Tier 2 row.
+- Pilot queued: SPARQL harvest script; ~2 kind:coin objects exist so pilot targets mint→place / issuer→person corroboration first.
+- Explore-list remainder (numismatics): ANS MANTIS, Tübingen Sylloge Nummorum Arabicorum, Fitzwilliam/Ashmolean collections. Other explore families still pending.
