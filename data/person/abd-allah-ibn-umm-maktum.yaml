@@ -14,6 +14,7 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]
+died: { edtf: "636", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr: martyred at Qadisiyya 15 AH)" }
 relations:
  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]}

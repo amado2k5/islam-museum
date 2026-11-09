@@ -7,6 +7,7 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+died: { edtf: "920~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ansab (al-Sam'ani: fl. early 4th c. AH)" }
 relations:
   - { type: traveled_to, target: place/samarra, note: "Hauled in irons to al-Wathiq during the Mihna; the caliphal seat of al-Wathiq's period was Samarra. Inference flagged for review.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }
   - { type: related_to, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }

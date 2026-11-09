@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
+died: { edtf: "721", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari; al-A'lam (al-Zirikli: d. 103 AH)" }
 relations:
   - { type: lived_in, target: place/dabil, note: "From text: of Dabil", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/reconquest-of-armenia, role: "عمّار دبيل والنشوى وبرذعة والبيلقان", sources: [source/futuh-buldan-maarif-1407] }

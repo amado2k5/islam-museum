@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
+born: { edtf: "1725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('I. Abdülhamid')" }
+died: { edtf: "1789", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('I. Abdülhamid')" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: successor_of, target: person/mustafa-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }

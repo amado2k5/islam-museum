@@ -19,5 +19,7 @@ provenance:
   generated_by: "Claude Code (claude-haiku-5-5)"
   run: ei2-b001-tail
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+born: { edtf: "1704", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ensiklopedi Islam (Palembang; d. c. 1203 AH)" }
+died: { edtf: "1789", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ensiklopedi Islam (Palembang; d. c. 1203 AH)" }
 relations:
   - { type: lived_in, target: place/malay, note: "Only the record-level region (southeast-asia) is attested; broad-region edge flagged for review.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1925", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Damascus Scholars Registry (1343–1433 AH)" }
+died: { edtf: "2012", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Damascus Scholars Registry (1343–1433 AH)" }
 relations:
   - { type: lived_in, target: place/aleppo, note: "Place association from the person's nisba/name (الحلبي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

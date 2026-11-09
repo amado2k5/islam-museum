@@ -9,6 +9,7 @@ wings: [people, objects]
 themes: [arts-of-the-book]
 regions: [south-asia, persia-central-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1595~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ain-i Akbari (Abu'l-Fazl: Khwaja Abd al-Samad" }
 relations:
   - { type: lived_in, target: place/india, note: "Only the record-level region (south-asia) is attested; broad-region edge flagged for review.", sources: [source/welch-india-art-and-culture-1985], confidence: low }
   - { type: made, target: object/princes-of-the-house-of-timur, sources: [source/welch-india-art-and-culture-1985] }

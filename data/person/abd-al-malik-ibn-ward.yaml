@@ -21,5 +21,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+died: { edtf: "1145", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sila (Ibn Bashkuwal: d. 540 AH)" }
 relations:
   - { type: lived_in, target: place/almeria, note: "Described in the source as from the people of Almeria (min ahl al-Mariyya).", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: medium }

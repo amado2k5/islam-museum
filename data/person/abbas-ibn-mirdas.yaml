@@ -18,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "شهد فتح مكة وحنين قائداً وشاعراً في بني سليم.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0629~" }, note: "أسلم قبيل فتح مكة." }
+died: { edtf: "639~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar: d. c. 18 AH during caliphate of Umar)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-sulaym }

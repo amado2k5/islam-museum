@@ -20,5 +20,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1052", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: 444–521 AH)" }
+died: { edtf: "1127", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: 444–521 AH)" }
 relations:
   - { type: traveled_to, target: place/valencia, note: "From text: moved to Valencia", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

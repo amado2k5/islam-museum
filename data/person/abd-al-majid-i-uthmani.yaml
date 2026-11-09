@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [anatolia-balkans]
+born: { edtf: "1823", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('Abdülmecid')" }
+died: { edtf: "1861", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('Abdülmecid')" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/mahmud-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }

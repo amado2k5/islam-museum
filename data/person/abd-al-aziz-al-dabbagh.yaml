@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ibriz (Ahmad ibn al-Mubarak: 1090–1131 AH)" }
+died: { edtf: "1719", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ibriz (Ahmad ibn al-Mubarak: 1090–1131 AH)" }
 relations:
   - { type: lived_in, target: place/fez, note: "From text: of Fez", sources: [source/al-aalam], confidence: low }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1440", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami (al-Sakhawi: 844–920 AH)" }
+died: { edtf: "1514", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami (al-Sakhawi: 844–920 AH)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab], confidence: low }

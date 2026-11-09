@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1355", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tuhfat al-Adib (Anselm Turmeda: c. 756–826 AH)" }
+died: { edtf: "1423", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tuhfat al-Adib (Anselm Turmeda: c. 756–826 AH)" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (andalus-europe) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

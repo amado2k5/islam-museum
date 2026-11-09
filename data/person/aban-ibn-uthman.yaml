@@ -14,5 +14,6 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "723", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: d. 105 AH)" }
 relations:
   - { type: lived_in, target: place/medina, note: "From text: من فقهاء المدينة وكان عليها يوماً", sources: [source/futuh-buldan-maarif-1407, source/sahih-sira-umari-ulum-hikam-1994], confidence: low }

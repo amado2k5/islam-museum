@@ -15,5 +15,7 @@ provenance:
   run: lib-wafayat-batch-17
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1374", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami (al-Sakhawi: 776–825 AH)" }
+died: { edtf: "1422", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami (al-Sakhawi: 776–825 AH)" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (العراقي); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }
