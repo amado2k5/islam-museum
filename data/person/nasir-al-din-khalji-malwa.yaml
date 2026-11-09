@@ -9,6 +9,7 @@ wings: [people]
 themes: [arts-of-the-book, politics-governance-and-authority]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1510", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Malwa); Ferishta" }
 relations:
   - { type: commissioned, target: object/mandu-bustan-national-museum-delhi, sources: [source/welch-india-art-and-culture-1985] }
   - { type: ruler_of, target: place/malwa, sources: [source/welch-india-art-and-culture-1985] }

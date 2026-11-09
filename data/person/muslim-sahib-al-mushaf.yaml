@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
+born: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Kathir (al-Bidaya wa-l-Nihaya)" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Kathir (al-Bidaya wa-l-Nihaya)" }
 relations:
   - { type: died_in, target: place/al-khurayba, sources: [source/muruj-al-dhahab] }
 sources: [source/muruj-al-dhahab]

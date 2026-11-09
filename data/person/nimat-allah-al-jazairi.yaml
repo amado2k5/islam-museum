@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1640", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Djazai'ri); Encyclopaedia Iranica" }
+died: { edtf: "1700", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Djazai'ri); Encyclopaedia Iranica" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

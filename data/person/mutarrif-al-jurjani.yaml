@@ -16,5 +16,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "870~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Jurjan" }
 relations:
   - { type: lived_in, target: place/jurjan, confidence: low, note: "Association inferred from the nisba 'الجرجاني'; specific birthplace or residence is not individually documented.", sources: [source/muruj-al-dhahab] }

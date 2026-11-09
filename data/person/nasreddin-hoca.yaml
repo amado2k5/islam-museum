@@ -22,5 +22,7 @@ story_roles:
 sources: [source/juha-nawadir-kubra-djuwaydi]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Juha book introduction, scan pp. 4-8, from OCR; not image-checked)" }
 provenance: { layer: copyrighted-reference, source: "archive.org civ-3027 (Nawadir Juha al-Kubra), scan pp. 4-8", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-juha-intro" }
+born: { edtf: "1208~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Nasreddin Hoca)" }
+died: { edtf: "1284~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Nasreddin Hoca)" }
 relations:
   - { type: lived_in, target: place/aksehir, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/juha-nawadir-kubra-djuwaydi] }

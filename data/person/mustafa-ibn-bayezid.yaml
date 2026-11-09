@@ -24,6 +24,7 @@ sensitivity: contested
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1402~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Bayazid I); TDV Islam Ansiklopedisi" }
 relations:
   - { type: traveled_to, target: place/ankara, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: child_of, target: person/bayazid-i-yildirim, sources: [source/dawlat-uthmaniyya-salabi] }

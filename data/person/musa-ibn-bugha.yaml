@@ -16,6 +16,7 @@ provenance:
   run: lib-futuh-buldan-batch-45
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
+died: { edtf: "877", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Bugha al-Kabir); al-Tabari" }
 relations:
   - { type: lived_in, target: place/samarra, sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab] }
   - { type: traveled_to, target: place/qumm, sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab] }

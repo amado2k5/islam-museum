@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+born: { edtf: "1874", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1936", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
 sources: [source/al-aalam]

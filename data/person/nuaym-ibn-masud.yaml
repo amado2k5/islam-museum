@@ -18,6 +18,7 @@ story_roles:
   - { role: companion, start: { edtf: "0627" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0627" }, note: "صحابي من سادات غطفان." }
+died: { edtf: "662~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nu'aym b. Mas'ud); al-Isaba" }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ghatafan }

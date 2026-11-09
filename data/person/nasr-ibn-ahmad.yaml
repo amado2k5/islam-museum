@@ -16,5 +16,6 @@ sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/muntazam-i
 status:
   review: published
   completeness: 3
+died: { edtf: "892", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasr I b. Ahmad); al-Dhahabi (Tarikh al-Islam)" }
 relations:
   - { type: lived_in, target: place/transoxiana, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi] }

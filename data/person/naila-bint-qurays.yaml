@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "656~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Baladhuri (Ansab al-Ashraf)" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Baladhuri (Ansab al-Ashraf)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Early Arabian woman cited in Muruj al-dhahab; no specific town attested.", sources: [source/muruj-al-dhahab] }

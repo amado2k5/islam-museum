@@ -13,6 +13,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
+died: { edtf: "723~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Tahdhib al-Tahdhib" }
 relations:
   - { type: died_in, target: place/iraq, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low, note: "وقال أبو علي المروذي إنه كان يحج مع ابن عمر ويصحبه، وقدم خراسان أيام قتيبة وكان معه في فتح سمرقند، وتوفي في ول" }
   - { type: ruler_of, target: place/basra, sources: [source/wikidata], confidence: low, note: "en: 'Muwarriq ibn Mushmarij, Abu al-Mu'tamir al-Ijli, a Follower imam said to be Basran or Kufan." }

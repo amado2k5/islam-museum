@@ -12,6 +12,8 @@ gender: female
 roles: [scholar]
 periods: [period/colonial-era]
 floruit: { edtf: "1938", calendar: gregorian, precision: year, status: historical, note: "Study published 1938 {cite:britton-early-islamic-textiles-mfa-boston-1938 p. 1}.", sources: [source/britton-early-islamic-textiles-mfa-boston-1938] }
+born: { edtf: "1910", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Library of Congress Biographical Authority" }
+died: { edtf: "1992", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Library of Congress Biographical Authority" }
 relations:
   - { type: lived_in, target: place/boston, sources: [source/britton-early-islamic-textiles-mfa-boston-1938] }
   - { type: authored, target: work/britton-early-islamic-textiles-mfa-boston, sources: [source/britton-early-islamic-textiles-mfa-boston-1938] }

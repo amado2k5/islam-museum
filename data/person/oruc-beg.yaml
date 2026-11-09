@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1460~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Orudj); TDV Islam Ansiklopedisi" }
+died: { edtf: "1515~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Orudj); TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q43387)" }
 sources: [source/dawlat-uthmaniyya-salabi]

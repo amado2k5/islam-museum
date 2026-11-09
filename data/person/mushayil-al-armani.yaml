@@ -6,6 +6,8 @@ summary:
   en: "Mushay'il the Armenian; chief of Armenia's people when they rose in al-Hasan ibn Qahtaba al-Ta'i's governorship — after the removal of Ibn Asid and Bakkar ibn Muslim al-Uqayli — whereupon al-Mansur sent reinforcements under Amir ibn Isma'il, and al-Hasan met Mushay'il, who was killed, his hosts scattered."
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "930~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: participated_in, target: event/mushayil-revolt, role: "رئيس المنتقضين", sources: [source/futuh-buldan-maarif-1407] }
 

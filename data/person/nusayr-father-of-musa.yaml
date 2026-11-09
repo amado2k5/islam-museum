@@ -6,6 +6,8 @@ summary:
   en: "In al-Baladhuri: Nusayr, father of Musa ibn Nusayr the Maghreb's conqueror, mawla of the Umayyads, of Ayn al-Tamr's captives on one account — his own freedmen's sons being clients in the Maghreb; al-Kalbi said he was an Arab of Arasha of Bali captured in Abu Bakr's days from Syria's Jabal al-Jalil, his name Nasr diminutivized, freed by an Umayyad, returned to Syria, Musa born to him at Kafr Mari village — he was lame; it is also said he and Abu Farwa were brothers of Ayn al-Tamr's captives with wala' to Banu Dubba."
 wings: [people]
 gender: male
+born: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Baladhuri (Futuh al-Buldan); Ibn Idhari" }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Baladhuri (Futuh al-Buldan); Ibn Idhari" }
 relations:
   - { type: child_of, target: person/musa-ibn-nusayr, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/siege-of-ayn-al-tamr, role: "من السبي على رواية", sources: [source/futuh-buldan-maarif-1407] }
