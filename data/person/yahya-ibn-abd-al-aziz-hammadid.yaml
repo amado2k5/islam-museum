@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1163", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam 2nd Ed. (EI2)" }
 relations:
   - { type: born_in, target: place/bejaia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q59975)" }
   - { type: died_in, target: place/al-sal, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q466046)" }

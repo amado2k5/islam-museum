@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/abbasid-early]
+died: { edtf: "866", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam 2nd Ed. (EI2)" }
 relations:
   - { type: died_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80985)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]

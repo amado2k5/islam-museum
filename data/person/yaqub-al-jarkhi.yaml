@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [spirituality-and-sufism]
+born: { edtf: "1360", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rashahat Ayn al-Hayat (al-Kashifi)" }
+died: { edtf: "1447", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rashahat Ayn al-Hayat (al-Kashifi)" }
 relations:
   - { type: born_in, target: place/ghazna, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q173731)" }
   - { type: born_in, target: place/afghanistan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q889)" }

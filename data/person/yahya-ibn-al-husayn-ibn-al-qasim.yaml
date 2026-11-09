@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+born: { edtf: "859", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "911", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: born_in, target: place/yemen-region, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2152974)" }
 sources: [source/al-aalam]

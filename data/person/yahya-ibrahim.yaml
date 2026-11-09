@@ -24,6 +24,8 @@ faith:
     basis: unknown
     note: "Recorded as unknown. The Muslim Central biography and AlMaghrib Institute's instructor biography describe his studies — tafsir, fiqh and hadith with scholars from the Hijaz and Egypt — and his specialism in spirituality and the Qur'an; his teachers and his fields of study are not a school attestation, and neither source names a legal school or theological affiliation for him personally. Under the two-source rule no faith value is recorded."
     sources: [source/listennotes-yahya-ibrahim, source/almaghrib-yahya-ibrahim]
+born: { edtf: "1873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1936", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Nisba مصري attested in the record." }
 sources: [source/listennotes-yahya-ibrahim, source/almaghrib-yahya-ibrahim]

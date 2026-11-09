@@ -11,6 +11,7 @@ wings: [people]
 themes: [women, literature, family-marriage-kinship]
 periods: [period/umayyad]
 regions: [arabia, levant-iraq]
+died: { edtf: "715~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: lived_in, target: place/taif, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
   - { type: sibling_of, target: person/al-hajjaj-ibn-yusuf, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }

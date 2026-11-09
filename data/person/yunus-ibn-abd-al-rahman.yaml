@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/abbasid-early]
+died: { edtf: "823", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist (Ibn al-Nadim)" }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
   - { type: died_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35484)" }

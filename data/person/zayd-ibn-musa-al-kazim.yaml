@@ -17,5 +17,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (Abu al-Faraj al-Isfahani)" }
 relations:
   - { type: lived_in, target: place/basra, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

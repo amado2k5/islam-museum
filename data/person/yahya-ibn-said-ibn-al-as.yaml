@@ -12,6 +12,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch31
+died: { edtf: "708~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/balis, sources: [source/wikidata], confidence: low, note: "Nisba بالسي attested in the record." }
 sources: [source/muruj-al-dhahab]

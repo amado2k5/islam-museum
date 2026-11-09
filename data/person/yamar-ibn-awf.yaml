@@ -11,6 +11,7 @@ wings: [people]
 themes: [family-marriage-kinship]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "560~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aghani (Abu al-Faraj al-Isfahani)" }
 relations:
   - { type: participated_in, target: event/qusayy-takes-mecca, role: "الحَكَم المُقضي بأولوية قصي", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: member_of, target: group/banu-bakr-ibn-abd-manaf }

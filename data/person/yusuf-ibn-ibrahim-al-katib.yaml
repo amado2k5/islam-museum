@@ -12,6 +12,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch44
+died: { edtf: "870~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist (Ibn al-Nadim)" }
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/muruj-al-dhahab] }
 sources: [source/muruj-al-dhahab]

@@ -9,6 +9,8 @@ roles: [judge, scholar]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 themes: [law-and-courts]
+born: { edtf: "1610", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani (Mehmed Sureyya)" }
+died: { edtf: "1678", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani (Mehmed Sureyya)" }
 relations:
   - { type: lived_in, target: place/anatolia, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
   - { type: lived_in, target: place/misr, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

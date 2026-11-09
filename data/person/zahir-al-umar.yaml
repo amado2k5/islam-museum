@@ -21,6 +21,8 @@ periods:
 - period/gunpowder-empires
 regions:
 - levant-iraq
+born: { edtf: "1689", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam 2nd Ed. (EI2)" }
+died: { edtf: "1775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam 2nd Ed. (EI2)" }
 relations:
 - { type: lived_in, target: place/akka, sources: [source/alam-zirikli-1927-v2] }
 - type: born_in

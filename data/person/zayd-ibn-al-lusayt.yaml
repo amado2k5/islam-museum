@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-qaynuqa, sources: [source/ibn-hisham-saqqa] }
