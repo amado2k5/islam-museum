@@ -1,0 +1,27 @@
+id: work/muktatafat-mena-al-seera
+class: work
+kind: lecture-series
+label:
+  ar: "مقتطفات من السيرة ⁦(سلسلة دروس)⁩"
+  en: "Muktatafat min al-Sira (lecture series)"
+  ur: "مختصرات از سیرت ⁦(لیکچر سلسلہ)⁩"
+summary:
+  ar: "سلسلة دروس لعمر عبد الكافي يعرض فيها مقتطفات من سيرة النبي محمد: حال العرب قبل الإسلام، وبعثته وهجرته وتأسيس الدولة، والفتوحات، ثم العبر التي تُستخلص منها للمسلمين اليوم — تربية الشباب، وصلاح الدين الأيوبي، وأخلاق الصحابة وأزواج النبي."
+  en: "A lesson series by Omar Abdelkafy presenting excerpts from the life of the Prophet Muhammad: the state of the Arabs before Islam, his mission, the hijra and the founding of the Muslim state, the conquests, and then the lessons drawn for Muslims today — raising the youth, Salah al-Din al-Ayyubi, and the character of the Companions and the Prophet's wives."
+  ur: "عمر عبد الکافی کا درسی سلسلہ جس میں وہ نبی محمد کی سیرت کے منتخب واقعات پیش کرتے ہیں: اسلام سے پہلے عربوں کی حالت، ان کی بعثت، ہجرت اور ریاستِ مسلمہ کا قیام، فتوحات، اور پھر آج کی امت کے لیے ان سے نکلنے والے سبق — نوجوانوں کی تربیت، صلاح الدین ایوبی، اور صحابہ و ازواج کے اخلاق۔"
+wings: [ideas]
+themes: [prophets]
+regions: [global]
+authors: [person/omar-abdelkafy]
+delivered: { by: person/omar-abdelkafy }
+language: language/arabic
+relations:
+  - { type: about, target: person/muhammad, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/abu-talib, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/khadija, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/sirat, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/karam, sources: [source/assabile-omar-abdelkafy] }
+sources: [source/assabile-omar-abdelkafy]
+provenance: { layer: copyrighted-reference, source: "Assabile, muktatafat-mena-al-seera (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: omar-abdelkafy-muktatafat-1 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run omar-abdelkafy-muktatafat-1" }
