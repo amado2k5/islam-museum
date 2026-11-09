@@ -388,3 +388,13 @@ Range done (4000 fiches): MAROC Fez Qarawiyyin cluster, ISTANBUL remainder, scat
 - guzelce-hasan-bey-mosque +45061 (Hayrabolu 1499-1500 — later text on the 1406 mosque)
 - REJECTED: abdurrahman-sultan-tomb (Akmescid mosque), sultan-ii-selim-tomb (Edirne Selim II mosque Objet), tomb-of-mehmed-v ×3 (Sokullu medrese/mosque + Bosnia church-conversion), tophane-fountain (Kılıç Ali mosque), of-ramazan-efendi (Bazargân mescidi), minaret-of-masud-iii (palace again).
 - Next sweep: 48801-52800 running (covers ~52000 target).
+
+## 2026-11-09 (p16) — TEI 48801-52800 COMPLETE — SWEEP MILESTONE (~52000 reached)
+
+Final range done (4000 fiches, through fiche 52800 — target ~52000 exceeded).
+- sehzade-mosque +49226 (Şehzade Sultan Mehmed mosque külliye Eminönü 1548-49)
+- madrasa-of-al-nasir-muhammad +50259 (wooden entrance-door text 1303-04)
+- madrasa-al-ghawri +50914,50915 (Ghawriyya madrasa between al-Moski and Bab Zuwayla 1511-12 — routed to Ghawri entity, NOT bab-zuwayla proximity)
+- REJECTED: palace-of-yashbak (Yashbak mausoleum vs palace), al-nasir-muhammad-MOSQUE on madrasa fiche, sultan-hasan Objet fiche (51596 deferred), bab-al-nasr (Zakki mosque outside Aleppo gate), sultan-ismail (Homs turba), aksaray ×2 + pervane-medrese (hans Alay/Oresin), tomb-of-mahmud (Mahmud Muharram mosque), iii-murad-turbesi (Mecca Murad III imaret), esrefoglu ×2 (Konya mosque vs Beysehir entity), qanibay (madrasa vs mosque), tomb-of-mehmed-v ×2 (Sokullu külliye).
+- SWEEP STATUS: TEI fiches 1-52800 harvested+matched. Total session: ranges 28801→52800 = 60,000 fiches this thread; cumulative coverage well past halfway of ~52k target.
+- Remaining: catalogue reportedly continues past 52800 (id space may extend further) — decide whether to continue 52801+ or pause sweep; explore-list source families still pending.
