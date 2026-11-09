@@ -9,7 +9,9 @@
   type Link = { from: string; to: string; type: string };
   type Region = { id: string; label: string; path: string; fitPath: string; tint: number; labelX: number; labelY: number; worldTransform: string };
 
-  let { items = [], links = [], worldPaths = [], mapRegions = [] }: { items: Item[]; links: Link[]; worldPaths?: string[]; mapRegions?: Region[] } = $props();
+  let { items = [], links = [], worldPaths = [], mapRegions = [], lang = "ar", t = {} }: { items: Item[]; links: Link[]; worldPaths?: string[]; mapRegions?: Region[]; lang?: string; t?: Record<string, any> } = $props();
+  const rtl = lang !== "en";
+  const tt = (k: string, fb: string) => t?.[k] ?? fb;
 
   const AH_YEAR_MIN = -74;
   const AH_YEAR_MAX = 1448;
@@ -74,7 +76,8 @@
   const placeConnections = $derived(selectedEntityNode ? graphLinks(selectedEntityNode.id).filter((l) => otherEnd(l, selectedEntityNode!.id) === selectedPlace).length : 0);
   const year = $derived(hijriToCivil({ y: hijriYear, m: 7, d: 1 }).date.y);
   const tooltip = $derived(hoverId ? itemById.get(hoverId) : null);
-  const yearLabel = $derived(hijriYear <= 0 ? `${-hijriYear} ق.هـ` : `${hijriYear} هـ`);
+  const yearLabel = $derived(hijriYear <= 0 ? tt("year_bh", "{y} ق.هـ").replace("{y}", String(-hijriYear)) : tt("year_ah", "{y} هـ").replace("{y}", String(hijriYear)));
+  const mapAria = $derived(tt("map_aria", "خريطة العالم الإسلامي في سنة {y}").replace("{y}", yearLabel));
   const canBack = $derived(level !== "world");
   const previewLevel = $derived(level === "focus" ? "city" : level === "city" ? "region" : "world");
   const previewTransform = $derived(previewLevel === "city" ? selectedPlaceNode?.worldTransform ?? regionById.get(selectedRegion)?.worldTransform ?? "translate(0 0) scale(1)" : previewLevel === "region" ? regionById.get(selectedRegion)?.worldTransform ?? "translate(0 0) scale(1)" : "translate(0 0) scale(1)");
@@ -84,10 +87,12 @@
     if (!n.span) return true;
     return y >= Math.floor(n.span.earliest) && y <= Math.ceil(n.span.latest);
   }
+  const PLACE_DATED = new Set(["born_in","died_in","buried_in","lived_in","traveled_to","ruler_of","ruled_over","occurred_at","site_of","located_in","wrote_in","built","founded","visited_by"]);
   function temporalActive(n: Item | undefined, y: number) {
     if (!n) return false;
     if (n.span) return activeAt(n, y);
     return linkPairs.some((l) => {
+      if (!PLACE_DATED.has(l.type)) return false;
       if (l.from !== n.id && l.to !== n.id) return false;
       const other = itemById.get(otherEnd(l, n.id));
       return other?.id !== n.id && !!other?.span && activeAt(other, y);
@@ -109,10 +114,12 @@
     return linkPairs.filter((l) => l.from === id || l.to === id);
   }
   function otherEnd(l: Link, id: string) { return l.from === id ? l.to : l.from; }
+  const EDGE_EN: Record<string, string> = { born_in: "born in", died_in: "died in", lived_in: "lived in", occurred_at: "occurred at", located_in: "in", site_of: "site of", built: "built", built_by: "built by", teacher_of: "taught", student_of: "studied under", spouse_of: "spouse", parent_of: "parent of", child_of: "child", sibling_of: "sibling", fought: "fought", allied_with: "allied with", opposed: "opposed", participated_in: "participated in", had_participant: "participant in", visited_by: "visited", traveled_to: "traveled to", wrote_in: "wrote in", ruled_over: "ruled", ruler_of: "ruler of", influenced: "influenced", influenced_by: "influenced by", patron_of: "patron of", patronized_by: "patronized by", member_of: "member of", has_member: "member", caused: "caused", caused_by: "caused by", mentions: "mentions", mentioned_in: "mentioned in", about: "about", subject_of: "subject" };
   function edgeLabel(type: string) {
+    if (lang === "en") return EDGE_EN[type] ?? type.replaceAll("_", " ");
     return ({
-      born_in: "وُلد في", died_in: "توفي في", lived_in: "عاش في", occurred_at: "وقع في", located_in: "في", site_of: "موقع", built: "بنى", built_by: "بُني بأمر", teacher_of: "علّم", student_of: "تعلّم من", spouse_of: "قرين", parent_of: "والد", child_of: "ابن", sibling_of: "أخ", fought: "قاتل", allied_with: "حالف", opposed: "عارض", participated_in: "شارك في", had_participant: "شارك فيه", visited_by: "زار", traveled_to: "سافر إلى", wrote_in: "كتب في", ruled_over: "حكم", ruler_of: "حاكم", influenced: "أثّر في", influenced_by: "تأثّر بـ", patron_of: "رعى", patronized_by: "رعاه", member_of: "عضو في", has_member: "عضوه", caused: "سبّب", caused_by: "نتج عن", mentions: "يذكر", mentioned_in: "مذكور في", about: "عن", subject_of: "موضوعه"
-    } as Record<string, string>)[type] ?? type.replaceAll("_", " ");
+      born_in: "وُلد في, died_in: "توفي في", lived_in: "عاش في", occurred_at: "وقع في", located_in: "في", site_of: "موقع", built: "بنى", built_by: "بُني بأمر", teacher_of: "علّم", student_of: "تعلّم من", spouse_of: "قرين", parent_of: "والد", child_of: "ابن", sibling_of: "أخ", fought: "قاتل", allied_with: "حالف", opposed: "عارض", participated_in: "شارك في", had_participant: "شارك فيه", visited_by: "زار", traveled_to: "سافر إلى", wrote_in: "كتب في", ruled_over: "حكم", ruler_of: "حاكم", influenced: "أثّر في", influenced_by: "تأثّر بـ", patron_of: "رعى", patronized_by: "رعاه", member_of: "عضو في", has_member: "عضوه", caused: "سبّب", caused_by: "نتج عن", mentions: "يذكر", mentioned_in: "مذكور في", about: "عن", subject_of: "موضوعه"
+    } as Record<string, string>)[type] ?? EDGE_EN[type] ?? type.replaceAll("_", " ");
   }
   function project(n: Item) {
     const exact = n.mapPositions?.[selectedRegion];
@@ -172,10 +179,20 @@
     dragDistance += Math.hypot(dx, dy);
     panX += dx;
     panY += dy;
+    clampPan();
     dragX = e.clientX;
     dragY = e.clientY;
   }
   function dragEnd() { dragging = false; }
+  function clampPan() {
+    const s = stageEl?.getBoundingClientRect();
+    if (!s) return;
+    const mx = Math.max(0, (zoom - 1) * s.width / 2);
+    const my = Math.max(0, (zoom - 1) * s.height / 2);
+    panX = Math.min(mx, Math.max(-mx, panX));
+    panY = Math.min(my, Math.max(-my, panY));
+  }
+  $effect(() => { zoom; clampPan(); });
   function wasClick() { return dragDistance < 8; }
   function toggleTheme() {
     const root = document.documentElement;
@@ -207,7 +224,7 @@
   function focusPrev() { focusPage = Math.max(0, focusPage - 1); }
   function focusNext() { focusPage = Math.min(focusPageCount - 1, focusPage + 1); }
   function adjustYear(delta: number) { hijriYear = Math.min(AH_YEAR_MAX, Math.max(AH_YEAR_MIN, Math.round(hijriYear + delta))); orbitPage = 0; focusPage = 0; hoverId = null; hoverLink = null; detail = null; }
-  function clsName(n: Item) { return ({ person: "شخصية", event: "حدث", place: "مكان", building: "مبنى", work: "مؤلَّف", group: "جماعة", journey: "رحلة" } as Record<string, string>)[n.cls] ?? n.cls; }
+  function clsName(n: Item) { return t?.cls?.[n.cls] ?? ({ person: "شخصية", event: "حدث", place: "مكان", building: "مبنى", work: "مؤلَّف", group: "جماعة", journey: "رحلة" } as Record<string, string>)[n.cls] ?? n.cls; }
   const ICON_PATHS: Record<string, string> = {
     mecca: "M-14,-7 L6,-13 L16,-6 L16,12 L-4,18 L-14,10 Z M-14,-7 L-4,-1 L16,-6 M-4,-1 L-4,18 M-8,6 L10,1",
     medina: "M-19,14 L-19,-3 Q0,-17 19,-3 L19,14 Z M-8,14 L-8,2 Q0,-7 8,2 L8,14 M-24,14 L-24,-9 L-20,-14 L-16,-9 L-16,14 M16,14 L16,-9 L20,-14 L24,-9 L24,14",
@@ -298,21 +315,21 @@
   }
 </script>
 
-<section class="map-viewer" class:light={isLight} aria-label="عارض خريطة الإسلام">
+<section class="map-viewer" class:light={isLight} aria-label={tt("viewer", "عارض خريطة الإسلام")}>
   <div class="toolbar ui">
-    <button class="ctrl icon" onclick={back} disabled={!canBack} aria-label="عودة"><RotateCcw size={16} /><span>عودة</span></button>
+    <button class="ctrl icon" onclick={back} disabled={!canBack} aria-label={tt("back", "عودة")}><RotateCcw size={16} /><span>{tt("back", "عودة")}</span></button>
     <div class="crumbs" aria-live="polite">
-      <span>العالم</span>
+      <span>{tt("world", "العالم")}</span>
       {#if level !== "world"}<span>‹ {regionById.get(selectedRegion)?.label}</span>{/if}
       {#if level === "city" || level === "focus"}<span>‹ {selectedPlaceNode?.label}</span>{/if}
       {#if level === "focus"}<span>‹ {selectedEntityNode?.label}</span>{/if}
     </div>
-    <div class="zoom" role="group" aria-label="تكبير الخريطة">
-      <button class="icon" onclick={() => zoom = Math.max(1, zoom - .5)} aria-label="تصغير"><Minus size={15} /></button>
-      <input type="range" min="1" max="4" step=".25" bind:value={zoom} aria-label="شريط التكبير" />
-      <button class="icon" onclick={() => zoom = Math.min(4, zoom + .5)} aria-label="تكبير"><Plus size={15} /></button>
-      <button class="icon" onclick={toggleTheme} aria-label={isLight ? "الوضع الداكن" : "الوضع الفاتح"}>{#if isLight}<Moon size={15} />{:else}<Sun size={15} />{/if}</button>
-      <button class="preview-button" disabled={!canBack} onclick={back} aria-label={canBack ? "المستوى الأعلى" : "العالم"}>
+    <div class="zoom" role="group" aria-label={tt("zoom", "تكبير الخريطة")}>
+      <button class="icon" onclick={() => zoom = Math.max(1, zoom - .5)} aria-label={tt("zoom_out", "تصغير")}><Minus size={15} /></button>
+      <input type="range" min="1" max="4" step=".25" bind:value={zoom} aria-label={tt("zoom_bar", "شريط التكبير")} />
+      <button class="icon" onclick={() => zoom = Math.min(4, zoom + .5)} aria-label={tt("zoom_in", "تكبير")}><Plus size={15} /></button>
+      <button class="icon" onclick={toggleTheme} aria-label={isLight ? tt("theme_dark", "الوضع الداكن") : tt("theme_light", "الوضع الفاتح")}>{#if isLight}<Moon size={15} />{:else}<Sun size={15} />{/if}</button>
+      <button class="preview-button" disabled={!canBack} onclick={back} aria-label={canBack ? tt("level_up", "المستوى الأعلى") : tt("world", "العالم")}>
         <svg class="preview" viewBox="0 0 120 72" aria-hidden="true">
           <rect width="120" height="72" rx="8" />
           <g transform={`scale(.12) ${previewTransform}`}>
@@ -329,7 +346,7 @@
   </div>
 
   <div class="stage" bind:this={stageEl} class:dragging onpointerdown={dragStart} onpointermove={dragMove} onpointerup={dragEnd} onpointercancel={dragEnd} style={`--zoom:${zoom};--panx:${panX}px;--pany:${panY}px`}>
-    <svg class="scene" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="xMidYMid slice" role="img" aria-label={`خريطة العالم الإسلامي في سنة ${yearLabel}`}>
+    <svg class="scene" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="xMidYMid slice" role="img" aria-label={mapAria}>
       <defs>
         <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
       </defs>
@@ -376,7 +393,7 @@
               <text y="45" class="node-label">{hoverId === n.id ? n.label : ""}</text>
             </g>
           {/each}
-          {#if orbitItems.length === 0}<text x={C.x} y={C.y + 170} text-anchor="middle" class="empty">لا توجد مواد موثّقة لهذا المكان في هذه السنة بعد.</text>{/if}
+          {#if orbitItems.length === 0}<text x={C.x} y={C.y + 170} text-anchor="middle" class="empty">{tt("empty", "لا توجد مواد موثّقة لهذا المكان في هذه السنة بعد.")}</text>{/if}
         {/if}
       {/if}
 
@@ -400,30 +417,30 @@
         <g class="center-node" onclick={centerClick} tabindex="0" role="button" aria-label={selectedEntityNode.label} onkeydown={(e) => e.key === "Enter" && centerClick()}>
           <circle cx={C.x} cy={C.y} r="66" class="main" />
           <text x={C.x} y={C.y + 6} text-anchor="middle" class="main-label">{selectedEntityNode.label}</text>
-          <text x={C.x} y={C.y + 34} text-anchor="middle" class="sub-label">{clsName(selectedEntityNode)} · اضغط للتفاصيل</text>
+          <text x={C.x} y={C.y + 34} text-anchor="middle" class="sub-label">{clsName(selectedEntityNode)} · {tt("details", "اضغط للتفاصيل")}</text>
         </g>
       {/if}
     </svg>
 
     {#if level === "city" && orbitPageCount > 1}
-      <button class="orbit-nav prev" disabled={orbitPage === 0} onclick={orbitPrev} onpointerdown={(e) => e.stopPropagation()} aria-label="المواد السابقة"><ChevronLeft size={20} /><span>السابق</span></button>
+      <button class="orbit-nav prev" disabled={orbitPage === 0} onclick={orbitPrev} onpointerdown={(e) => e.stopPropagation()} aria-label={tt("prev_items", "المواد السابقة")}><ChevronLeft size={20} /><span>{tt("prev", "السابق")}</span></button>
       <output class="orbit-count">{Math.min(orbitPage, orbitPageCount - 1) + 1} / {orbitPageCount}</output>
-      <button class="orbit-nav next" disabled={orbitPage >= orbitPageCount - 1} onclick={orbitNext} onpointerdown={(e) => e.stopPropagation()} aria-label="المزيد من المواد"><span>المزيد</span><ChevronRight size={20} /></button>
+      <button class="orbit-nav next" disabled={orbitPage >= orbitPageCount - 1} onclick={orbitNext} onpointerdown={(e) => e.stopPropagation()} aria-label={tt("more_items", "المزيد من المواد")}><span>{tt("more", "المزيد")}</span><ChevronRight size={20} /></button>
     {/if}
     {#if level === "focus" && focusPageCount > 1}
-      <button class="orbit-nav prev" disabled={focusPage === 0} onclick={focusPrev} onpointerdown={(e) => e.stopPropagation()} aria-label="العلاقات السابقة"><ChevronLeft size={20} /><span>السابق</span></button>
+      <button class="orbit-nav prev" disabled={focusPage === 0} onclick={focusPrev} onpointerdown={(e) => e.stopPropagation()} aria-label={tt("prev_links", "العلاقات السابقة")}><ChevronLeft size={20} /><span>{tt("prev", "السابق")}</span></button>
       <output class="orbit-count">{Math.min(focusPage, focusPageCount - 1) + 1} / {focusPageCount}</output>
-      <button class="orbit-nav next" disabled={focusPage >= focusPageCount - 1} onclick={focusNext} onpointerdown={(e) => e.stopPropagation()} aria-label="المزيد من العلاقات"><span>المزيد</span><ChevronRight size={20} /></button>
+      <button class="orbit-nav next" disabled={focusPage >= focusPageCount - 1} onclick={focusNext} onpointerdown={(e) => e.stopPropagation()} aria-label={tt("more_links", "المزيد من العلاقات")}><span>{tt("more", "المزيد")}</span><ChevronRight size={20} /></button>
     {/if}
 
     {#if tooltip}
       <div class="tip ui" bind:this={tipEl} role="status"><b>{tooltip.label}</b><span>{clsName(tooltip)}</span></div>
     {/if}
 
-    <div class="timebar ui" dir="rtl">
-      <button class="icon" onclick={() => adjustYear(-STEP)} aria-label="سنة هجرية سابقة"><ChevronRight size={18} /></button>
-      <input type="range" min={AH_YEAR_MIN} max={AH_YEAR_MAX} step="1" bind:value={hijriYear} aria-label="السنة الهجرية" />
-      <button class="icon" onclick={() => adjustYear(STEP)} aria-label="سنة هجرية تالية"><ChevronLeft size={18} /></button>
+    <div class="timebar ui" dir={rtl ? "rtl" : "ltr"}>
+      <button class="icon" onpointerdown={(e) => e.stopPropagation()} onclick={() => adjustYear(-STEP)} aria-label={tt("prev_year", "سنة هجرية سابقة")}>{#if rtl}<ChevronRight size={18} />{:else}<ChevronLeft size={18} />{/if}</button>
+      <input type="range" min={AH_YEAR_MIN} max={AH_YEAR_MAX} step="1" bind:value={hijriYear} aria-label={tt("year", "السنة الهجرية")} />
+      <button class="icon" onpointerdown={(e) => e.stopPropagation()} onclick={() => adjustYear(STEP)} aria-label={tt("next_year", "سنة هجرية تالية")}>{#if rtl}<ChevronLeft size={18} />{:else}<ChevronRight size={18} />{/if}</button>
       <output>{yearLabel}</output>
     </div>
   </div>
@@ -431,18 +448,18 @@
   {#if detail}
     <div class="overlay" role="dialog" aria-modal="true" aria-label={detail.label} onclick={(e) => e.target === e.currentTarget && (detail = null)}>
       <article class="detail panel">
-        <button class="close" onclick={() => detail = null} aria-label="إغلاق">×</button>
+        <button class="close" onclick={() => detail = null} aria-label={tt("close", "إغلاق")}>×</button>
         <p class="eyebrow">{clsName(detail)}</p>
         <h2>{detail.label}</h2>
-        <p>{detail.summary ?? "لم تُكتب لمحة عربية لهذه المادة بعد."}</p>
-        <div class="actions"><a class="chip" href={detail.href}>افتح صفحة المادة</a><button class="chip" onclick={() => detail = null}>تابع الخريطة</button></div>
+        <p>{detail.summary ?? tt("no_summary", "لم تُكتب لمحة عربية لهذه المادة بعد.")}</p>
+        <div class="actions"><a class="chip" href={detail.href}>{tt("open", "افتح صفحة المادة")}</a><button class="chip" onclick={() => detail = null}>{tt("continue", "تابع الخريطة")}</button></div>
       </article>
     </div>
   {/if}
 </section>
 
 <style>
-  .map-viewer { --gold2:#d4af37; --dark:#070707; --gold-soft:rgba(212,175,55,.16); color:var(--fg); position:fixed; inset:0; z-index:40; margin:0; background:var(--bg); overflow:hidden; }
+  .map-viewer { --gold2:#d4af37; --dark:#070707; --gold-soft:rgba(212,175,55,.16); color:var(--fg); position:relative; z-index:1; height:min(82vh,720px); min-height:420px; margin:0 0 1.5rem; background:var(--bg); overflow:hidden; border-radius:14px; }
   .map-viewer.light { background:var(--ivory); }
   .toolbar { position:absolute; z-index:5; inset-inline:16px; top:14px; display:flex; align-items:center; justify-content:space-between; gap:14px; }
   .ctrl,.zoom button,.timebar button { background:var(--panel); border:1px solid var(--line); color:var(--fg); border-radius:999px; padding:5px 14px; cursor:pointer; font:inherit; }
@@ -458,7 +475,7 @@
   .preview-world { fill:rgba(212,175,55,.03); stroke:rgba(212,175,55,.55); stroke-width:3; }
   .preview-region { fill:rgba(212,175,55,.22); stroke:var(--gold); stroke-width:4; }
   .preview-region.selected { fill:rgba(212,175,55,.34); }
-  .stage { position:absolute; inset:0; border:0; border-radius:0; overflow:hidden; background:var(--panel); touch-action:none; }
+  .stage { position:absolute; inset:0; border:0; border-radius:0; overflow:hidden; background:var(--panel); touch-action:pan-y; }
   .map-viewer.light .stage,.map-viewer.light .preview { background:var(--ivory); }
   .scene { display:block; width:100%; height:100%; direction:ltr; transform:translate(var(--panx),var(--pany)) scale(var(--zoom)); transform-origin:center; transition:transform .12s ease-out; }
   .stage.dragging { cursor:grabbing; }
