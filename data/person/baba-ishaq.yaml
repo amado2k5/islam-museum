@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Associated with الأناضول per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q1057767

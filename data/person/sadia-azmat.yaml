@@ -28,7 +28,8 @@ born:
   note: "Born in Leyton, London. The birth year is split between two uncited readings: Wikidata gives 1987 at year precision with no reference, while the English article's infobox gives 1990 and the article files her under 1990 births, also with no citation visible. The queue's year is 1987, agreeing with Wikidata, so 1987 is built at year precision as debated and the 1990 reading is preserved here. No Hijri year is recorded: a bare 1987 spans 1407-1408 AH. No place entity for Leyton or London exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-sadia-azmat-en, source/wikidata-sadia-azmat]
 
-relations: []
+relations:
+  - { type: born_in, target: place/essex, sources: [source/wikidata-sadia-azmat], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q23240)" }
 
 faith:
   - value: unknown

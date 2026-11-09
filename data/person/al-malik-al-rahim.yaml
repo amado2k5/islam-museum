@@ -11,6 +11,10 @@ died: { edtf: "1058~", hijri: "0450", calendar: julian, precision: year, status:
 roles: [ruler]
 relations:
 - type: ruler_of
+  target: place/iraq
+  note: "From text: king of Iraq"
+  sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab]
+- type: ruler_of
   target: polity/buyid-dynasty
   sources:
   - source/tarikh-ibn-khaldun-ibar

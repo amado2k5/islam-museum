@@ -1,0 +1,16 @@
+id: place/kaluga
+class: place
+kind: city
+label: { en: "Kaluga", ar: "كالوغا" }
+summary:
+  en: "Town and administrative center of Kaluga Oblast in central Russia."
+  ar: "مدينة في روسيا."
+wings: [place]
+regions: [global]
+coordinates: [54.5333, 36.2667]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q2837", geonames: "553915" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q2837 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

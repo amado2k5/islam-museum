@@ -40,6 +40,8 @@ died:
 relations:
   - { type: child_of, target: person/iltutmish, sources: [source/wikipedia-razia-sultana-en, source/wikipedia-razia-sultana-ar] }
 
+
+  - { type: lived_in, target: place/delhi, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-razia-sultana-en, source/wikipedia-razia-sultana-ar, source/wikipedia-razia-sultana-ur, source/wikidata-razia-sultana] }
 faith:
   - value: unknown
     basis: unknown

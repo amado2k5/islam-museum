@@ -40,6 +40,8 @@ faith:
     note: "FLAGGED: no source read names a school or an order for him. The English article says he was born into a well-known religious family of Topi, traces his paternal line back to the Lodi dynasty and his maternal line to Husayn ibn Ali, and records his schooling at the local madrassah and his founding of Islamia College, Peshawar, for the education of Muslims; Wikidata carries no religion value. Lineage — including the claimed descent from Husayn — a religious family, madrassah schooling and educational work for Muslims are background, descent and public role, never attestations of a school, so the value stays unknown under the two-source rule and the doubt rule, with what each source gives preserved here."
     sources: [source/wikipedia-sahibzada-abdul-qaiyum-en, source/wikidata-sahibzada-abdul-qaiyum]
 external_ids: { wikidata: "Q69575" }
+relations:
+  - { type: born_in, target: place/pakistan, sources: [source/wikipedia-sahibzada-abdul-qaiyum-en], confidence: low, note: "Born at Topi, Khyber Pakhtunkhwa per the record text." }
 sources:
   - source/wikipedia-sahibzada-abdul-qaiyum-en
   - source/wikidata-sahibzada-abdul-qaiyum

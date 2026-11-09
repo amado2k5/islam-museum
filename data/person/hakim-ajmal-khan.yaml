@@ -33,6 +33,7 @@ died:
   note: "The English lead and death section, the Arabic and Urdu articles and Wikidata all give his death from heart trouble on 29 December 1927; the English article's embedded infobox template internally prints 20 December 1927 against its own text — an internal slip, not followed. The date falls in 1346 AH; the Hijri year is a conversion. He died at Delhi and was buried near the Tibbia College at Karol Bagh in Delhi, as the Arabic article states."
   sources: [source/wikipedia-hakim-ajmal-khan-en, source/wikipedia-hakim-ajmal-khan-ar, source/wikipedia-hakim-ajmal-khan-ur, source/wikidata-hakim-ajmal-khan]
 relations:
+  - { type: born_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hakim-ajmal-khan] }
   - { type: born_in, target: place/delhi, sources: [source/wikipedia-hakim-ajmal-khan-en, source/wikipedia-hakim-ajmal-khan-ur] }
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-hakim-ajmal-khan-en, source/wikipedia-hakim-ajmal-khan-ar] }
   - { type: buried_in, target: place/delhi, sources: [source/wikipedia-hakim-ajmal-khan-ar, source/wikipedia-hakim-ajmal-khan-en] }

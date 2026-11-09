@@ -33,6 +33,7 @@ died:
   sources: [source/wikipedia-saddam-hussein-en, source/wikipedia-saddam-hussein-ar, source/wikidata-saddam-hussein]
 relations:
   - { type: died_in, target: place/baghdad, sources: [source/wikipedia-saddam-hussein-en, source/wikipedia-saddam-hussein-ar, source/wikidata-saddam-hussein] }
+  - { type: born_in, target: place/tikrit, sources: [source/wikipedia-saddam-hussein-en, source/wikipedia-saddam-hussein-ar, source/wikipedia-saddam-hussein-ur, source/wikidata-saddam-hussein] }
 faith:
   - value: unknown
     basis: unknown

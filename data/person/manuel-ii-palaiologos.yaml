@@ -12,6 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 relations:
+  - { type: lived_in, target: place/nicea, confidence: low, note: "Associated with نيقية per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/murad-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: person/mustafa-ibn-bayezid, role: "دعم تمرده في رواية الكتاب", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

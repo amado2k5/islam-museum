@@ -19,6 +19,7 @@ regions: [levant-iraq]
 born: { hijri: "0736-03", edtf: "1335~", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد ببغداد في ربيع الأول سنة ست وثلاثين وسبعمئة باتفاق المصادر التي أطلع عليها محقق الكتاب؛ وأرخه ابن حجر في الدرر الكامنة سنة ست وسبعمئة ويرى المحقق أنه سبق قلم من الناسخ (ص 7). التحويل إلى الميلادي مشتق.", sources: [source/ibn-rajab-jami-ulum-hikam] }
 died: { hijri: "0795", edtf: "1393~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بدمشق سنة 795هـ بلا خلاف في العام؛ واختلف في الشهر: رمضان عند السخاوي وابن العماد، ورجب عند ابن حجر والسيوطي، وتوقف أبو المحاسن الدمشقي بينهما (ص 9). دفن بمقبرة الباب الصغير جوار قبر أبي الفرج عبد الواحد الشيرازي المقدسي (ت 486هـ). التحويل مشتق.", sources: [source/ibn-rajab-jami-ulum-hikam] }
 relations:
+  - { type: buried_in, target: place/bab-al-saghir-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/baghdad, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: died_in, target: place/damascus, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: lived_in, target: place/damascus, note: "قدمها مع والده سنة 744هـ (ص 8)", sources: [source/ibn-rajab-jami-ulum-hikam] }

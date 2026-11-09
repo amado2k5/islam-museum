@@ -22,6 +22,8 @@ born:
   derived: true
   note: "The English article gives 20 February 1960, citing Jeune Afrique, and its infobox gives Tripoli as birthplace; the Arabic article agrees on the date and place, Wikidata agrees on the date, and the Urdu stub gives the year only. Tripoli in Libya has no place entity (place/tripoli-al-sham is Tripoli in Lebanon, a different city), so no born_in edge is written. The Hijri year (1379) is derived from the Gregorian date."
   sources: [source/wikipedia-fayez-al-sarraj-en, source/wikipedia-fayez-al-sarraj-ar, source/wikipedia-fayez-al-sarraj-ur, source/wikidata-fayez-al-sarraj]
+relations:
+  - { type: born_in, target: place/lebanon, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fayez-al-sarraj-en, source/wikipedia-fayez-al-sarraj-ar, source/wikipedia-fayez-al-sarraj-ur, source/wikidata-fayez-al-sarraj] }
 faith:
   - value: unknown
     basis: unknown

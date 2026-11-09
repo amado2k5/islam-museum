@@ -14,6 +14,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 relations:
+  - { type: lived_in, target: place/hisar, confidence: low, note: "Associated with حصار per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/conquest-constantinople-857, role: "قائد الأسطول", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:

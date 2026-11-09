@@ -16,3 +16,5 @@ provenance:
   run: prose-fill-persons-batch50
 sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: traveled_to, target: place/damascus, note: "From text: انتقل إلى دمشق {cite:wafayat-ayan}", sources: [source/wafayat-ayan, source/shadharat-dhahab] }

@@ -32,6 +32,7 @@ died:
   note: "7 September 1871 at Constantinople is given by the English, Turkish and Arabic articles and by Wikidata; the English article adds that he died of tuberculosis after three months of illness, aged 56. The Hijri year 1288 is the tabular conversion of 7 September 1871."
   sources: [source/wikipedia-mehmed-emin-ali-pasha-en, source/wikipedia-mehmed-emin-ali-pasha-tr, source/wikipedia-mehmed-emin-ali-pasha-ar, source/wikidata-mehmed-emin-ali-pasha]
 relations:
+  - { type: buried_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mehmed-emin-ali-pasha] }
   - { type: born_in, target: place/istanbul, note: "He was born in Constantinople on 5 March 1815, in the Mercanağa quarter according to the Turkish article's infobox (English and Arabic articles; Wikidata birthplace Istanbul, Q406).", sources: [source/wikipedia-mehmed-emin-ali-pasha-en, source/wikipedia-mehmed-emin-ali-pasha-tr, source/wikidata-mehmed-emin-ali-pasha] }
   - { type: died_in, target: place/istanbul, note: "He died in Constantinople on 7 September 1871 (English, Turkish and Arabic articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-mehmed-emin-ali-pasha-en, source/wikipedia-mehmed-emin-ali-pasha-tr, source/wikidata-mehmed-emin-ali-pasha] }
 faith:

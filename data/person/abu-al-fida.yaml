@@ -35,3 +35,7 @@ provenance:
   generated_by: "Claude Code (claude-haiku-5-5)"
   run: ei2-b002-part2b, lib-durar-kamina-batch-1-2-2026-10-31
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+relations:
+  - { type: born_in, target: place/damascus, note: "From text: born in Damascus", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: died_in, target: place/hama, note: "From text: died at Hama", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: ruler_of, target: place/hama, note: "From text: governor of Hama", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }

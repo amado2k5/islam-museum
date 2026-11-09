@@ -1,0 +1,21 @@
+id: place/gurdaspur
+class: place
+kind: city
+label: { ar: "كرداس بور", en: "Gurdaspur", ur: "گرداسپور" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q1707629)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [32.0333, 75.4]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1707629" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1707629 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

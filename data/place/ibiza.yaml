@@ -9,6 +9,12 @@ regions: [andalus-europe]
 wings: [place]
 coordinates: [38.90883, 1.43296]
 coordinate_precision: locality
+provenance:
+  layer: own-research
+  source: "Recorded against source/geonames-gazetteer; provenance block added in the person-place geo-enrichment run pending re-verification of the original research note."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
 external_ids: { geonames: "2516479" }
 sources: [source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames" }

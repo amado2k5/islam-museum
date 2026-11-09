@@ -1,0 +1,16 @@
+id: place/nuremberg
+class: place
+kind: city
+label: { en: "Nuremberg", ar: "نورنبرغ" }
+summary:
+  en: "City in the German state of Bavaria."
+  ar: "مدينة في ألمانيا."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [49.4539, 11.0775]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q2090", geonames: "6556832" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q2090 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

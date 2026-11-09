@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
   - { type: member_of, target: group/banu-salim-ibn-awf, sources: [source/samhudi-wafa-al-wafa] }
 external_ids: { wikidata: "Q12224318" }
 sources: [source/samhudi-wafa-al-wafa]

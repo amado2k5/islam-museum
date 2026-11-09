@@ -19,6 +19,8 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
 relations:
+  - { type: died_in, target: place/khurasan, note: "From text: died in Khurasan", sources: [source/istiab-alam-2002, source/futuh-buldan-maarif-1407, source/bakr-umayyad-state-1134715] }
+  - { type: traveled_to, target: place/basra, note: "From text: moved to Basra", sources: [source/istiab-alam-2002, source/futuh-buldan-maarif-1407, source/bakr-umayyad-state-1134715] }
   - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
   - { type: participated_in, target: event/conquest-of-mecca, sources: [source/istiab-alam-2002] }
   - { type: lived_in, target: place/basra, sources: [source/istiab-alam-2002] }

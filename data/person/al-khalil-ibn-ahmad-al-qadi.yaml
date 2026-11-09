@@ -35,3 +35,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/muntazam-ibn-al-jawzi]
+relations:
+  - { type: lived_in, target: place/iraq, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }

@@ -13,6 +13,9 @@ regions: [maghreb]
 periods: [period/modern-era]
 born: { edtf: "1873", precision: year, status: tradition, derived: true }
 died: { edtf: "1909", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80985)" }
+  - { type: died_in, target: place/al-sal, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q466046)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q3318597

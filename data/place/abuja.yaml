@@ -1,0 +1,36 @@
+id: place/abuja
+class: place
+kind: city
+label:
+  ar: أبوجا
+  en: Abuja
+  ur: ابوجا
+summary:
+  ar: مدينة في نيجيريا.
+  en: Capital city of Nigeria.
+wings:
+- place
+regions:
+- west-africa-sahel
+coordinates:
+- 9.0556
+- 7.4914
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q3787
+  geonames: '2352778'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q3787 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q3787 (labels, coordinates, description)

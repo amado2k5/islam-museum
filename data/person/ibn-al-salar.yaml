@@ -14,6 +14,8 @@ regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 story_roles:
   - { role: official, status: historical, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with القاهرة per the record's own summary text; relation type pending review.", sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

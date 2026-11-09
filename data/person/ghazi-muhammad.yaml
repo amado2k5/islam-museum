@@ -35,6 +35,8 @@ wings: [people]
 regions: [anatolia-balkans]
 roles: [scholar, mystic, emir]
 relations:
+  - { type: born_in, target: place/gimry, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ghazi-muhammad] }
+  - { type: died_in, target: place/gimry, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ghazi-muhammad] }
   - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-ghazi-muhammad-en, source/wikipedia-ghazi-muhammad-ru] }
 faith:
   - value: sufi

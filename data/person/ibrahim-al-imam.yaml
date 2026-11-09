@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/umayyad, period/abbasid-early]
+relations:
+  - { type: born_in, target: place/humayma, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/buhran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/harran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q3827910

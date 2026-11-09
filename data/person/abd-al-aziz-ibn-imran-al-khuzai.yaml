@@ -15,6 +15,7 @@ died:
   hijri: "0234"
   calendar: julian
 relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/tabaqat-shafiiyya-subki], confidence: low }
   - { type: student_of, target: person/al-shafii, sources: [source/tabaqat-shafiiyya-subki] }
 sources: [source/tabaqat-shafiiyya-subki]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

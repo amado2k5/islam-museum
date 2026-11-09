@@ -38,6 +38,8 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: lived_in, target: place/abyssinia, sources: [source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994] }
+- { type: ruler_of, target: place/basra, sources: [source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994] }
 - type: participated_in
   target: event/first-migration-to-abyssinia
   sources:

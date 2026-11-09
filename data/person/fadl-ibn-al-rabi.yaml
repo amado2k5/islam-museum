@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: related_to, target: person/muhammad-al-amin, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: related_to, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
 died: { hijri: "0208-11", status: tradition, sources: [source/tarikh-baghdad-khatib] }

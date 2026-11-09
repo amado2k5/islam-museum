@@ -17,3 +17,5 @@ provenance:
   run: prose-fill-persons-batch48
 sources: [source/nafh-tib-maqqari]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/bejaia, note: "From text: سكن ببجاية مدة ولقي من أصحابنا ناسا", sources: [source/nafh-tib-maqqari] }

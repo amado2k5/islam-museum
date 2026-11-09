@@ -14,3 +14,5 @@ provenance:
   run: lib-kamil-batch-14
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruler_of, target: place/siqilliya, note: "From text: amir of Sicily", sources: [source/kamil-ibn-al-athir] }

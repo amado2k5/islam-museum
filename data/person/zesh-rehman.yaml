@@ -28,6 +28,8 @@ faith:
     note: "No source names a school or affiliation for Rehman. The English article presents him, in its community-work passages, as a Muslim footballer: it records his taking part in the Islam Expo event in London in July 2008 and his April 2008 appearances on Noor TV and Islamic TV discussing being a Muslim footballer and pursuing a career while sticking to Islamic roots. That is one article naming Islam in general; the Arabic and Urdu articles say nothing about his religion, and Wikidata (Q196805) has no religion value. One source family naming no school does not meet the bar, so the value is unknown."
     sources: [source/wikipedia-zesh-rehman-en, source/wikipedia-zesh-rehman-ar, source/wikipedia-zesh-rehman-ur, source/wikidata-zesh-rehman]
 external_ids: { wikidata: "Q196805" }
+relations:
+  - { type: born_in, target: place/birmingham, sources: [source/wikidata-zesh-rehman], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2256)" }
 sources: [source/wikipedia-zesh-rehman-en, source/wikipedia-zesh-rehman-ar, source/wikipedia-zesh-rehman-ur, source/wikidata-zesh-rehman]
 provenance:
   layer: own-research

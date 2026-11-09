@@ -1,0 +1,21 @@
+id: place/k-z-ltepe
+class: place
+kind: town
+label: { ar: "دنيصر", en: "Kızıltepe", ur: "کزلتپے" }
+summary:
+  ar: "بلدة في تركيا."
+  en: "Town in Turkey."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [37.193888888889, 40.586111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q693929" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q693929 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -8,6 +8,7 @@ wings: [people]
 gender: male
 died: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بعين التمر من جراحته سنة 12 (البلاذري ص 342). التحويل مشتق." }
 relations:
+  - { type: died_in, target: place/ayn-al-tamr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/baniqya-sulh, role: "المبعوث الأول المقتول جراحته", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

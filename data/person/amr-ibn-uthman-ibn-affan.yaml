@@ -12,6 +12,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch36
+relations:
+  - { type: lived_in, target: place/damascus, note: "Uthman's son at the Umayyad court; flagged.", sources: [source/muruj-al-dhahab], confidence: low }
+  - { type: traveled_to, target: place/mecca, note: "Carried Abd al-Malik's aman to Ibn al-Zubayr at Mecca.", sources: [source/muruj-al-dhahab], confidence: medium }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

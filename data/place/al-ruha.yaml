@@ -11,10 +11,13 @@ regions: [levant-iraq]
 relations:
   - { type: site_of, target: event/conquest-of-ruha, sources: [source/futuh-buldan-maarif-1407] }
   - { type: part_of, target: place/jazira, sources: [source/futuh-buldan-maarif-1407] }
+coordinates: [37.16, 38.79]
+coordinate_precision: locality
+coordinate_note: "Identified modern location; flagged for gazetteer verification."
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 236–237"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-13
-sources: [source/muntazam-ibn-al-jawzi, source/futuh-buldan-maarif-1407]
+sources: [source/muntazam-ibn-al-jawzi, source/futuh-buldan-maarif-1407, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

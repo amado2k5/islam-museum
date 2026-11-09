@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia, levant-iraq]
 periods: [period/prophetic-era, period/rashidun]
+relations:
+  - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam, source/rijal-hawl-al-rasul-muqattam-1994]
 external_ids:
   wikidata: Q6008261

@@ -31,10 +31,11 @@ died:
   sources: [source/wikipedia-rustam-beg-en, source/wikipedia-rustam-beg-fa, source/wikipedia-rustam-beg-ru, source/wikidata-rustam-beg]
 
 relations:
-  - { type: born_in, target: place/tabriz, sources: [source/wikipedia-rustam-beg-ru] }
   - { type: related_to, target: person/uzun-hasan, note: "Grandfather, through his son Maqsud", sources: [source/wikipedia-rustam-beg-en, source/wikipedia-rustam-beg-ru] }
-  - { type: buried_in, target: place/tabriz, sources: [source/wikipedia-rustam-beg-fa] }
 
+  - { type: born_in, target: place/tabriz, sources: [source/wikipedia-rustam-beg-ru] }
+  - { type: buried_in, target: place/tabriz, sources: [source/wikipedia-rustam-beg-fa] }
+  - { type: died_in, target: place/tabriz, sources: [source/wikipedia-rustam-beg-en, source/wikipedia-rustam-beg-fa, source/wikipedia-rustam-beg-ru, source/wikidata-rustam-beg] }
 faith:
   - value: unknown
     basis: unknown

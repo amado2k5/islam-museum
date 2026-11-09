@@ -13,6 +13,8 @@ regions: [egypt-nile]
 periods: [period/contemporary-era]
 born: { edtf: "1905", precision: year, status: tradition, derived: true }
 died: { edtf: "1982", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/al-buhayra, sources: [source/al-islam-fitrat-allah-azhar], confidence: low, note: "ar: 'محمد البهي ⁦(1905–1982م)⁩، من علماء الأزهر ومفكريه في القرن العشرين؛ ولد بقرية أسمانية بالبحيرة في 3 أغسط" }
 sources: [source/al-islam-fitrat-allah-azhar, source/al-aalam]
 external_ids:
   wikidata: Q12239647

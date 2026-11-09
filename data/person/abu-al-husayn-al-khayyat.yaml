@@ -15,3 +15,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch19
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Mu'tazili who refuted Ibn al-Rawandi's books; both belonged to the Baghdad kalam milieu. Association inferred, flagged for review.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

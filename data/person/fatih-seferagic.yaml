@@ -22,6 +22,7 @@ born:
   note: "Date and country from the Bashkir Wikipedia article and Wikidata: born 1 March 1995 in Germany, to a Bosniak family that had left Bosnia and later moved on to the United States. The Urdu article says instead that he was born in Bosnia and Herzegovina; the record follows the Bashkir article and Wikidata. The Hijri year (1415) is a conversion of the Gregorian date. Germany has no place entity in the museum yet, so no born_in relation is written."
   sources: [source/wikipedia-fatih-seferagic-ba, source/wikidata-fatih-seferagic, source/wikipedia-fatih-seferagic-ur]
 relations:
+  - { type: born_in, target: place/germany, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fatih-seferagic] }
   - { type: student_of, target: person/nouman-ali-khan, sources: [source/wikipedia-fatih-seferagic-ba] }
 faith:
   - value: unknown

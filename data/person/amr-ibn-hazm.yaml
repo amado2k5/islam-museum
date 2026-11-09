@@ -39,6 +39,11 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- type: lived_in
+  target: place/medina
+  note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence."
+  confidence: low
+  sources: [source/ibn-hajar-isaba, source/ibn-hisham-saqqa]
 - type: participated_in
   target: event/mission-of-amr-ibn-hazm-to-najran
   role: المبعوث إلى بني الحارث بن كعب معلماً ومصدّقاً

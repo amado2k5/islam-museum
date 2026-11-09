@@ -21,6 +21,7 @@ relations:
   target: person/qubilay-khan
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- { type: ruled_over, target: place/baghdad, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'منكوفان بن طولي بن جنكزخان، الخان الأعظم؛ ولى بعد أوكداي وولى أولاد جفتاي عمهم على ما وراء النهر إمضاء لو" }
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia, china-east-asia]

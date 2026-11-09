@@ -1,0 +1,21 @@
+id: place/walla-walla
+class: place
+kind: city
+label: { ar: "والا والا", en: "Walla Walla", ur: "والا والا" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q222338)."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [46.065, -118.33027777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q222338" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q222338 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

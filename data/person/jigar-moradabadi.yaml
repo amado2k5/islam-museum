@@ -32,6 +32,9 @@ died:
   derived: true
   note: "The English and Urdu articles and Wikidata agree: died 9 September 1960 at Gonda, where he had settled late in life. The Hijri year (1380) is a conversion. No place entity exists for Gonda, so no died_in edge is written."
   sources: [source/wikipedia-jigar-moradabadi-en, source/wikipedia-jigar-moradabadi-ur, source/wikidata-jigar-moradabadi]
+relations:
+  - { type: born_in, target: place/moradabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jigar-moradabadi] }
+  - { type: died_in, target: place/gonda, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jigar-moradabadi] }
 faith:
   - value: unknown
     basis: unknown

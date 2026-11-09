@@ -11,6 +11,11 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: born_in, target: place/zeila, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/adal-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q22688707

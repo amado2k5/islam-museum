@@ -22,9 +22,10 @@ relations:
   - { type: member_of, target: group/quraysh }
   - { type: member_of, target: group/banu-asad, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
-  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/battle-of-hunayn, role: martyr, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/wadi-hunayn, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 101", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 101; restored and merged with p. 7 by Claude Sonnet 5.5" }

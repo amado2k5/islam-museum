@@ -25,6 +25,8 @@ died:
   note: "Died 14 October 1696 and was buried in the mausoleum of his grandfather Hammuda Pasha Bey. The English article dates his beylicate from 1675, the year of his father Murad II's death, while the French and Arabic articles count his tenure from 1686, when he killed his brother Ali and took sole power after the Algerian sack of Tunis; both chronologies are preserved in the prose. No born block is built: no article read gives a birth year — the Wikidata item carries only a decade-precision statement for the 1650s — so the queue row's 1655, a midpoint guess, is not followed."
   sources: [source/wikipedia-mohamed-bey-el-mouradi-en, source/wikipedia-mohamed-bey-el-mouradi-fr, source/wikipedia-mohamed-bey-el-mouradi-ar]
 
+relations:
+  - { type: died_in, target: place/tunis, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-mohamed-bey-el-mouradi-en, source/wikipedia-mohamed-bey-el-mouradi-fr, source/wikipedia-mohamed-bey-el-mouradi-ar] }
 faith:
   - value: unknown
     basis: unknown

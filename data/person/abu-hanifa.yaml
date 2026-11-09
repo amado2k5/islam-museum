@@ -22,6 +22,7 @@ themes: [development-of-law-theology-institutions]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (الكوفي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407, source/fihrist-ibn-al-nadim, source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981, source/assabile-omar-abdelkafy, source/lestrange-baghdad-1900, source/tdv-bagdat-duri, source/assabile-tareq-al-suwaidan], confidence: low }
   - { type: participated_in, target: event/treaty-with-taghlib, role: "من فقهاء ضعف الصدقة — أرض فحسب للصغير عند العراقيين", sources: [source/futuh-buldan-maarif-1407, source/fihrist-ibn-al-nadim] }
   - { type: founder_of, target: group/hanafi-madhhab, sources: [source/duha-islam, source/mawsuat-a3lam-ulama-adaba] }
 inventions:

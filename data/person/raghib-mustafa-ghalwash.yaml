@@ -15,6 +15,9 @@ regions: [egypt-nile]
 roles: [reciter, muezzin]
 born: { edtf: "1938-07-05", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Birma village, Tanta district, Gharbia (Arabic article). No place entity for Birma exists, so no birthplace relation is written.", sources: [source/wikipedia-raghib-mustafa-ghalwash-ar] }
 died: { edtf: "2016-02-04", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died after an illness that took him to hospital, aged 77; the article's infobox places the death in the Tanta district and cites Masrawy and Al-Alam.", sources: [source/wikipedia-raghib-mustafa-ghalwash-ar] }
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-raghib-mustafa-ghalwash-ar] }
+  - { type: lived_in, target: place/tanta, sources: [source/wikipedia-raghib-mustafa-ghalwash-ar] }
 faith:
   - value: unknown
     basis: unknown

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: died_in, target: place/geyve-district, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2248743)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q134625827

@@ -38,6 +38,8 @@ faith:
     sources: [source/wikipedia-altynsarin-en, source/wikipedia-altynsarin-kk, source/wikipedia-altynsarin-ru, source/wikidata-altynsarin]
 external_ids:
   wikidata: Q2628401
+relations:
+  - { type: born_in, target: place/kostanay, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q488990)" }
 sources:
   - source/wikipedia-altynsarin-en
   - source/wikipedia-altynsarin-ru

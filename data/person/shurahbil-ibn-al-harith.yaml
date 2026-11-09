@@ -14,6 +14,8 @@ relations:
   - { type: child_of, target: person/al-harith-ibn-amr-al-kindi, sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/kinda, sources: [source/kamil-ibn-al-athir] }
   - { type: sibling_of, target: person/hujr-ibn-al-harith-al-kindi, sources: [source/kamil-ibn-al-athir] }
+
+  - { type: lived_in, target: place/basra, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

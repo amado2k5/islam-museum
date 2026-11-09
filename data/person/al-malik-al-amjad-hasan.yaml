@@ -16,6 +16,7 @@ faith:
   - value: sunni
     basis: tradition
 relations:
+  - { type: died_in, target: place/damascus, note: "From text: مات بدمشق ودفن بتربة جده الملك المع", sources: [source/shadharat-dhahab] }
   - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

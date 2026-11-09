@@ -25,3 +25,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/nafh-tib-maqqari]
+relations:
+  - { type: died_in, target: place/tulaytula, note: "From text: died at Toledo", sources: [source/nafh-tib-maqqari] }

@@ -19,6 +19,8 @@ provenance:
   run: "lib-exp-batch-1"
 relations:
   - { type: authored, target: work/khutab-muhammad-al-ghazali, sources: [source/khutab-al-ghazali-dar-al-itisam-vol1] }
+  - { type: born_in, target: place/nekla-el-enab, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12248881)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
 sources: [source/islam-wal-manahij-nahdat-misr-2005, source/al-aalam, source/assabile-omar-abdelkafy, source/khutab-al-ghazali-dar-al-itisam-vol1, source/wikipedia-king-faisal-prize-en]
 honours:
   - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1989, sources: [source/wikipedia-king-faisal-prize-en] }

@@ -19,6 +19,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 story_roles:
   - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: traveled_to, target: place/maarrat-al-numan, note: "Companion and pupil of Abu al-Ala al-Ma'arri at Ma'arra.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: medium }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

@@ -13,6 +13,9 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [levant-iraq]
+relations:
+  - { type: born_in, target: place/bayrut, sources: [source/wikidata], confidence: low, note: "ولد في بيروت وتعلم بالشويفات ثم بمدرسة الحكمة ببيروت، وأولع بشعر الجاهليين والخضرميين فحفظ كثيراً منه وقال الش" }
+  - { type: lived_in, target: place/bayrut, sources: [source/wikidata], confidence: low, note: "عُيّن مديراً لناحية الشويفات فأقام نحو عشر سنين محمود السيرة، واستعفى وسكن بيروت." }
 sources: [source/al-aalam]
 provenance:
   layer: own-research

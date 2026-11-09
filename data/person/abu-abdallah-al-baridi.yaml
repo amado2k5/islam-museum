@@ -15,3 +15,5 @@ provenance:
 external_ids: { wikidata: "Q81656297" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/bilad-al-sudan, note: "Place association from the person's nisba/name (مالي); denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir], confidence: low }

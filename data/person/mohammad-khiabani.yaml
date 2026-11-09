@@ -34,6 +34,8 @@ died:
   note: "Killed at Tabriz on the morning of 14 September 1920, found in a neighbour's basement after the Cossack suppression of his Azadistan government, which had run from 7 April to 13 September 1920; the English article gives only 'the late summer of 1920' and reports Hedayat's claim that he had committed suicide. The Persian article dates the killing Monday 22 Shahrivar 1299, corresponding to 29 Dhu'l-Hijja 1338 — the same day. The Hijri year 1338 is the Persian article's own."
   sources: [source/iranica-khiabani, source/wikipedia-mohammad-khiabani-en, source/wikipedia-mohammad-khiabani-fa]
 relations:
+  - { type: born_in, target: place/najaf, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohammad-khiabani] }
+  - { type: died_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohammad-khiabani] }
   - { type: died_in, target: place/tabriz, sources: [source/iranica-khiabani, source/wikidata-mohammad-khiabani] }
 faith:
   - value: shia-twelver

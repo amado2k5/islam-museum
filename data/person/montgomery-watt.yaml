@@ -12,6 +12,8 @@ wings: [people]
 regions: [global]
 periods: [period/modern-era]
 died: { edtf: "2006", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/edinburgh, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q23436)" }
 sources: [source/watt-1956-medina]
 external_ids:
   wikidata: Q471167

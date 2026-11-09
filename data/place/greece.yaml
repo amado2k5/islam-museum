@@ -1,0 +1,21 @@
+id: place/greece
+class: place
+kind: region
+label: { ar: "اليونان", en: "Greece", ur: "یونان" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q41)."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [38.5, 23]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q41" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q41 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

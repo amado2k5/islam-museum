@@ -22,6 +22,7 @@ story_roles:
 faith:
   - { value: arabian-polytheism, basis: documented, sources: [source/watt-1953-mecca] }
 relations:
+  - { type: traveled_to, target: place/al-hira, note: "From text: سافر إلى الحيرة وعاد بأخبار الفرس في ال", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/badr }
   - { type: member_of, target: group/banu-abd-al-dar }

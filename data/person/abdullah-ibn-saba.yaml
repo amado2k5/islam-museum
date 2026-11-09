@@ -10,3 +10,5 @@ periods: [period/rashidun]
 regions: [arabia, egypt-nile]
 sources: [source/sallabi-ali-vol2, source/tabari-tarikh-abu-al-fadl]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Claude Code); from Sallabi vol. 2 pp. 7-12, 226-229; Tabari 5/347-348 as cited by the author" }
+relations:
+  - { type: lived_in, target: place/sanaa, note: "From text: of Sana'a", sources: [source/sallabi-ali-vol2, source/tabari-tarikh-abu-al-fadl], confidence: low }

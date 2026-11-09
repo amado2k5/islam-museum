@@ -19,6 +19,8 @@ faith:
 relations:
   - { type: child_of, target: person/fakhr-al-din-ibn-taymiyya, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/harran, sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/harran, sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/baghdad, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:
   review: published

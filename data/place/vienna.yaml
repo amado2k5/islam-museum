@@ -1,0 +1,35 @@
+id: place/vienna
+class: place
+kind: town
+label:
+  ar: فيينا
+  en: Vienna
+  ur: ویانا
+summary:
+  ar: مدينة في النمسا.
+  en: Vienna; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 48.2083
+- 16.3725
+coordinate_precision: locality
+coordinate_note: Wikidata Q1741.
+external_ids:
+  wikidata: Q1741
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1741 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

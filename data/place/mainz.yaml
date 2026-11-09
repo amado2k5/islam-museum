@@ -1,0 +1,16 @@
+id: place/mainz
+class: place
+kind: city
+label: { en: "Mainz", ar: "ماينتس" }
+summary:
+  en: "Capital of the federal state Rhineland-Palatinate, Germany."
+  ar: "مدينة في ألمانيا."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [49.9994, 8.2736]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q1720", geonames: "2874225" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q1720 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

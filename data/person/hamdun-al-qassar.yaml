@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "0884", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/nishapur, confidence: low, note: "Associated with Nishapur per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam, source/risala-qushayriyya-minhaj-2017]
 external_ids:
   wikidata: Q6413816

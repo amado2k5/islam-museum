@@ -34,6 +34,7 @@ died:
   note: "Died at Lahore on 21 December 1982, as all three articles and Wikidata agree. The Hijri year is from the Arabic article's lead and death category (1403 هـ) and agrees with a conversion of the followed date. He was first buried in Model Town, Lahore, and later moved to a tomb built by the Government of Pakistan beside the Minar-e-Pakistan in Lahore, as the English and Urdu articles record; the tomb has no building entity, so the burial edge is written to place/lahore."
   sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ar, source/wikipedia-hafeez-jullundhri-ur, source/wikidata-hafeez-jullundhri]
 relations:
+  - { type: born_in, target: place/jalandhar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hafeez-jullundhri] }
   - { type: lived_in, target: place/lahore, sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ur] }
   - { type: died_in, target: place/lahore, sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ar, source/wikipedia-hafeez-jullundhri-ur] }
   - { type: buried_in, target: place/lahore, sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ur] }

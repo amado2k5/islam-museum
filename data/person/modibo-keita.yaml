@@ -30,6 +30,9 @@ died:
   derived: true
   note: "The English article gives his death on 16 May 1977, still a prisoner after the 1968 coup, and its infobox gives the place as Bamako; Wikidata carries the same date and Bamako among its place-of-death values. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-modibo-keita-en, source/wikidata-modibo-keita]
+relations:
+  - { type: born_in, target: place/bamako, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-modibo-keita] }
+  - { type: died_in, target: place/bamako, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-modibo-keita] }
 faith:
   - value: unknown
     basis: unknown

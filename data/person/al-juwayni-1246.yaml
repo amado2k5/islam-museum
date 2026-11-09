@@ -23,3 +23,6 @@ provenance:
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/khurasan, note: "From text: shaykh of Khurasan", sources: [source/al-aalam] }
+  - { type: died_in, target: place/iraq, note: "From text: died in Iraq.", sources: [source/al-aalam] }

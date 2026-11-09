@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+  - { type: died_in, target: place/al-khalil, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q168225)" }
 sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
 external_ids:
   wikidata: Q15446588

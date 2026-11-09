@@ -31,6 +31,7 @@ faith:
     note: "No source names a school for him. The English article's text calls him 'a Muslim' in one clause — an attestation of Muslim identity, naming no school — and files him under Tanzanian Muslims; Wikidata gives his religion (P140) as Islam, with no branch, a single structured value in the same family. No Arabic or Urdu article exists. One text attesting identity is the Khan configuration: the value stays unknown."
     sources: [source/wikipedia-amani-abeid-karume-en, source/wikidata-amani-abeid-karume]
 relations:
+  - { type: lived_in, target: place/zanzibar, note: "From text: worked as an accountant and government officer in Zanzibar", sources: [source/wikipedia-amani-abeid-karume-en, source/wikidata-amani-abeid-karume] }
   - type: child_of
     target: person/abeid-karume
     sources: [source/wikipedia-amani-abeid-karume-en, source/wikidata-amani-abeid-karume]

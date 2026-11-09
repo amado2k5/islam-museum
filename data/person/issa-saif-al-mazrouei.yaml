@@ -12,6 +12,8 @@ summary:
 roles: [general]
 wings: [people, living]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

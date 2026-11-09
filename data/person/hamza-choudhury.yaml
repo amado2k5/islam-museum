@@ -22,6 +22,8 @@ born:
   derived: true
   note: "The English, Arabic and Urdu articles and Wikidata (Q23771218) all give 1 October 1997, born in Loughborough, England; the Arabic article's categories pair the year with 1418 AH. No museum place entity exists for Loughborough, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1418 agrees with the Arabic article's pairing."
   sources: [source/wikipedia-hamza-choudhury-en, source/wikipedia-hamza-choudhury-ar, source/wikipedia-hamza-choudhury-ur, source/wikidata-hamza-choudhury]
+relations:
+  - { type: born_in, target: place/loughborough, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-choudhury] }
 faith:
   - value: unknown
     basis: unknown

@@ -14,8 +14,12 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch119
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/wikidata]
 external_ids: { wikidata: "Q11906149" }
 status:
   review: published
   completeness: 3
+relations:
+  - { type: born_in, target: place/ray, note: "Wikidata Q636188 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/seljuk-empire, note: "Wikidata Q3708094 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

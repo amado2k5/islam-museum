@@ -13,6 +13,8 @@ wings: [people]
 sources: [source/isaba-matba-al-saada-1328]
 relations:
   - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328]}
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/badr, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q27256)" }
 external_ids:
   wikidata: Q12238553
 provenance:

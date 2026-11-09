@@ -25,6 +25,8 @@ born:
   derived: true
   note: "The English article and Wikidata give his birth on 28 November 1941 at Atar in French Mauritania; the Arabic article gives only the year 1941. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-maaouya-ould-sidahmed-taya-en, source/wikidata-maaouya-ould-sidahmed-taya]
+relations:
+  - { type: born_in, target: place/atar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-maaouya-ould-sidahmed-taya] }
 faith:
   - value: unknown
     basis: unknown

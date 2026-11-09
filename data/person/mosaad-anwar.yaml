@@ -17,6 +17,8 @@ roles: [preacher]
 wings: [people, today]
 regions: [egypt-nile]
 periods: [period/contemporary-era]
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/wikipedia-mosaad-anwar-ar, source/wikidata-mosaad-anwar, source/assabile-mosaad-anwar] }
 faith:
   - value: unknown
     basis: unknown

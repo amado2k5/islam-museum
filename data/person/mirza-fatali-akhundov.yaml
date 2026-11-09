@@ -33,6 +33,10 @@ died:
   derived: true
   note: "Died at Tiflis (Tbilisi). The Russian article and Wikidata give 10 March 1878 (26 February Old Style); the English and Persian articles give 9 March 1878. The record follows the Russian documentary tradition of the city where he died, with the split disclosed rather than resolved. The Hijri year 1295 is the tabular conversion (the Persian article pairs the death with 5 Rabi al-awwal 1295). The museum has no place entity for Tbilisi, so no died_in edge is written."
   sources: [source/wikipedia-mirza-fatali-akhundov-ru, source/wikidata-mirza-fatali-akhundov, source/wikipedia-mirza-fatali-akhundov-en, source/wikipedia-mirza-fatali-akhundov-fa]
+relations:
+  - { type: born_in, target: place/shaki, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-fatali-akhundov] }
+  - { type: died_in, target: place/tiflis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-fatali-akhundov] }
+  - { type: buried_in, target: place/pantheon-of-azeri-figures, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-fatali-akhundov] }
 faith:
   - value: atheist-or-sceptic
     basis: documented

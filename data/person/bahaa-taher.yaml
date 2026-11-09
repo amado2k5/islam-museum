@@ -32,6 +32,7 @@ died:
   note: "Both articles agree he died on 27 October 2022, aged 87. The Arabic article says he returned to Egypt and remained there until his death; Wikidata records Cairo as the place of death. The Hijri year is derived from the Gregorian date."
   sources: [source/wikipedia-bahaa-taher-en, source/wikipedia-bahaa-taher-ar, source/wikidata-bahaa-taher]
 relations:
+  - { type: born_in, target: place/al-jizah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bahaa-taher] }
   - { type: died_in, target: place/cairo, sources: [source/wikidata-bahaa-taher] }
 faith:
   - value: unknown

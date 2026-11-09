@@ -38,6 +38,7 @@ died:
   sources: [source/wikipedia-erekle-i-ru, source/wikipedia-erekle-i-en, source/wikipedia-erekle-i-ka]
 
 relations:
+  - { type: born_in, target: place/tiflis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-erekle-i] }
   - { type: died_in, target: place/isfahan, sources: [source/wikipedia-erekle-i-ru, source/wikipedia-erekle-i-en] }
 
 faith:

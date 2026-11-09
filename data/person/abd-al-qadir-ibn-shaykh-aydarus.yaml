@@ -15,6 +15,7 @@ summary:
   en: "'Abd al-Qadir b. Shaykh al-'Aydarus — author of *al-Nur al-Safir 'an Akhbar al-Qarn al-'Ashir*, Ibn al-'Imad's principal source for tenth-century notices; born Thursday eve 20 Rabi' I 978 {cite:shadharat-dhahab p. 387}."
 born: { edtf: "1570-08-22~", hijri: "0978-03-20", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد ليلة الخميس 20 ربيع الأول 978؛ التحويل مشتق {cite:shadharat-dhahab p. 387}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab], confidence: low }
   - { type: child_of, target: person/shaykh-ibn-abdallah-aydarus, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

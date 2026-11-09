@@ -1,0 +1,21 @@
+id: place/sidi-bel-abb-s
+class: place
+kind: city
+label: { ar: "سيدي بلعباس", en: "Sidi Bel Abbès", ur: "سیدھی بل ابیس" }
+summary:
+  ar: "مدينة في الجزائر."
+  en: "City in Algeria."
+wings: [place]
+regions: [maghreb]
+coordinates: [35.2, -0.63333333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q852276" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q852276 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

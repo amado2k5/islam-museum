@@ -16,6 +16,7 @@ regions: [arabia]
 roles: [muezzin, teacher]
 born: { edtf: "1945/1947", hijri: "1366", calendar: gregorian, precision: year, status: debated, derived: false, note: "The sources differ: Wikidata gives 5 July 1945; the English article 5 July 1947; the Arabic article 1366 AH, paired with 1945 in its text and 1947 in its infobox (1366 AH runs from November 1946 to November 1947). The museum records the range and does not choose.", sources: [source/wikipedia-ali-ahmad-mulla-ar, source/wikipedia-ali-ahmad-mulla-en, source/wikidata-ali-ahmad-mulla, source/wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar] }
 relations:
+  - { type: born_in, target: place/mecca, note: "From text: born in Mecca", sources: [source/wikipedia-ali-ahmad-mulla-ar, source/wikipedia-ali-ahmad-mulla-en, source/wikidata-ali-ahmad-mulla, source/wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar] }
   - { type: born_in, target: place/mecca, sources: [source/wikipedia-ali-ahmad-mulla-ar, source/wikidata-ali-ahmad-mulla] }
 faith:
   - value: unknown

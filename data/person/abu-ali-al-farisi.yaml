@@ -16,3 +16,7 @@ provenance:
 sources: [source/shadharat-dhahab]
 external_ids: { wikidata: "Q12178297" }
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/humdan, note: "From text: أقام بحلب عند سيف الدولة بن حمدان مد", sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/fars, note: "From text: انتقل إلى بلاد فارس وحظي عند عضد الدولة ", sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baghdad, note: "From text: توفي ببغداد في ربيع الأول سنة سبع وس", sources: [source/shadharat-dhahab] }

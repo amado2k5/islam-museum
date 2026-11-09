@@ -17,6 +17,8 @@ periods: [period/contemporary-era]
 regions: [maghreb]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/mauritania, sources: [source/wikidata], confidence: low, note: "Mauritanian scholar per the record text." }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

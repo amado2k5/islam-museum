@@ -33,6 +33,7 @@ died:
   note: "Died at Istanbul on 6 December 1936: the English, Turkish and Arabic articles and Wikidata agree. The Hijri year 1355 is the tabular conversion of 6 December 1936 (22 Ramadan 1355) and is marked derived."
   sources: [source/wikipedia-leyla-saz-en, source/wikipedia-leyla-saz-tr, source/wikipedia-leyla-saz-ar, source/wikidata-leyla-saz]
 relations:
+  - { type: buried_in, target: place/edirnekap-martyr-s-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-leyla-saz] }
   - { type: born_in, target: place/istanbul, note: "She was born at Istanbul in 1850 (Turkish article, infobox and text; Arabic article; Wikidata place of birth Istanbul, Q406).", sources: [source/wikipedia-leyla-saz-tr, source/wikidata-leyla-saz] }
   - { type: died_in, target: place/istanbul, note: "She died at Istanbul on 6 December 1936 (English, Turkish and Arabic articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-leyla-saz-en, source/wikidata-leyla-saz] }
 faith:

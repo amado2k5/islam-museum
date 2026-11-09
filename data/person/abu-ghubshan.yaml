@@ -12,6 +12,7 @@ themes: [family-marriage-kinship]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/mecca, note: "From text: of Mecca.", sources: [source/mubarakpuri-raheeq], confidence: low }
   - { type: member_of, target: group/khuzaa }
   - { type: participated_in, target: event/qusayy-takes-mecca, role: "بائع ولاية البيت بزق خمر في الرواية الثالثة", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq]

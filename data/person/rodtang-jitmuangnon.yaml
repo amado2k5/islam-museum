@@ -31,6 +31,8 @@ faith:
     note: "No affiliation is recorded. The English article's personal-life text, citing a single report — the South China Morning Post of 16 February 2023 — says he was briefly ordained as a Buddhist monk a month before his February 2023 wedding to the fighter Aida Looksaikongdin and shortly after the wedding announced he had converted to Islam, the same religion as his wife; later retellings of the announcement derive from that one report, so this is one source family, and the Thai article's text records the marriage only. Both editions file him in the categories Converts to Islam from Buddhism and Thai Muslims — filings, which never count — and Wikidata (Q47545251) has no religion value. No source names a school of Islam for him, so no value can be recorded under the two-source rule and the doubt rule, following the precedents applied to converts whose school no source names."
     sources: [source/wikipedia-rodtang-jitmuangnon-en, source/wikipedia-rodtang-jitmuangnon-th, source/wikidata-rodtang-jitmuangnon]
 external_ids: { wikidata: "Q47545251" }
+relations:
+  - { type: born_in, target: place/phatthalung, sources: [source/wikidata-rodtang-jitmuangnon], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q243808)" }
 sources: [source/wikipedia-rodtang-jitmuangnon-en, source/wikipedia-rodtang-jitmuangnon-th, source/wikipedia-rodtang-jitmuangnon-fr, source/wikidata-rodtang-jitmuangnon]
 provenance:
   layer: own-research

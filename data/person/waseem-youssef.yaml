@@ -26,6 +26,9 @@ faith:
     note: "Arabic Wikipedia's infobox gives his religion as Islam, and Wikidata gives only Islam. Neither names a school. Not recorded as sunni until a second source confirms a school."
     sources: [source/wikipedia-waseem-youssef-ar, source/wikidata-waseem-youssef]
 external_ids: { wikidata: "Q16127232" }
+relations:
+  - { type: born_in, target: place/irbid, sources: [source/wikidata-waseem-youssef], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q194165)" }
+  - { type: lived_in, target: place/abu-dhabi, sources: [source/wikidata-waseem-youssef], confidence: low, note: "Wikidata P551 residence (Wikidata Q1519)" }
 sources: [source/wikipedia-waseem-youssef-ar, source/wikidata-waseem-youssef, source/almrsal-waseem-youssef]
 provenance:
   layer: own-research

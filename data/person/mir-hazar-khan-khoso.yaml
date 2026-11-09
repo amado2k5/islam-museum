@@ -33,6 +33,9 @@ died:
 roles: [jurist, politician]
 wings: [people]
 regions: [south-asia]
+relations:
+  - { type: born_in, target: place/jafarabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-hazar-khan-khoso] }
+  - { type: died_in, target: place/quetta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-hazar-khan-khoso] }
 faith:
   - value: unknown
     basis: unknown

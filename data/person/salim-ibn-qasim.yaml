@@ -9,6 +9,9 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]
 roles: [ruler]
+relations:
+  - { type: ruler_of, target: place/medina, sources: [source/wikidata], confidence: low, note: "label: { ar: 'سالم بن قاسم أمير المدينة', en: 'Salim ibn Qasim, amir of Medina' }" }
+  - { type: ruler_of, target: place/mecca, sources: [source/kamil-ibn-al-athir], confidence: low, note: "en: 'The Husaynid amir of Medina — defeated Qatada of Mecca at Dhu al-Hulayfa after praying at the Prophet's t" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

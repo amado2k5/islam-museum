@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 died: { edtf: "1274~", hijri: "0672", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 672هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 268}." }
 relations:
   - { type: authored, target: work/akhlaq-i-nasiri, sources: [source/kashf-zunun-furqan] }
+
+  - { type: lived_in, target: place/tus, confidence: low, note: "Association inferred from the nisba 'الطوسي'; specific birthplace or residence is not individually documented.", sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 268 مدخل 374"

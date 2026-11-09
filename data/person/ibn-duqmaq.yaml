@@ -9,6 +9,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 born: { hijri: "0750~", edtf: "1349~", calendar: julian, precision: year, status: tradition, derived: true, note: "حدود 750؛ التحويل مشتق {cite:shadharat-dhahab p. 89}." }
 died: { hijri: "0809", edtf: "1406/1407", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي 809؛ التحويل مشتق {cite:shadharat-dhahab p. 89}." }
+relations:
+  - { type: lived_in, target: place/al-jund, confidence: low, note: "Associated with الجند per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد ص 88-89"

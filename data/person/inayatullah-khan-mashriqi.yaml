@@ -33,6 +33,8 @@ died:
   note: "The English article gives his death at the Mayo Hospital, Lahore, on 27 August 1963, and burial at Ichhra; the Arabic and Urdu articles and Wikidata agree on the date. The Hijri year is a conversion and is marked derived."
   sources: [source/wikipedia-mashriqi-en, source/wikipedia-mashriqi-ar, source/wikipedia-mashriqi-ur, source/wikidata-mashriqi]
 relations:
+  - { type: born_in, target: place/presidencies-and-provinces-in-british-india, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/punjab, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/lahore, sources: [source/wikipedia-mashriqi-en] }
 faith:
   - value: unknown

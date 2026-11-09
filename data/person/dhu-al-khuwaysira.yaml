@@ -16,6 +16,7 @@ regions: [arabia]
 story_roles:
   - { role: critic, toward: person/muhammad, status: tradition, note: "اعترض على قسمة غنائم حنين بالجعرانة (ابن هشام 4/139–140).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/al-jirana, confidence: low, note: "Associated with al-Ji'rana per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-tamim }
   - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: insolent-objector, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 139–140", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }

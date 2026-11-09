@@ -7,6 +7,9 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 relations:
+  - { type: ruled_over, target: place/ifriqiya, sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020] }
+  - { type: traveled_to, target: place/tutus, sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020] }
+  - { type: traveled_to, target: place/barqa, sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020] }
   - { type: participated_in, target: event/zuhayr-martyrdom-barqa, role: "الوالي المستشهد", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

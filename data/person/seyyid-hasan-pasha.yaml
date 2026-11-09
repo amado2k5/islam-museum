@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/tokat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q183651)" }
+  - { type: died_in, target: place/diyarbak-r, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q83387)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1584086

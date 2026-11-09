@@ -1,13 +1,35 @@
 id: place/gaza
 class: place
 kind: city
-label: { ar: "غزة", en: "Gaza" }
+label:
+  ar: غزة
+  en: Gaza
 summary:
-  ar: "مدينة على ساحل فلسطين لها مرسى، وتبعد عن عسقلان نحو عشرين ميلاً. {cite:nuzhat-al-mushtaq-2002 p. 356}"
-  en: "A city on the Palestinian coast with a harbour, about twenty miles from Ascalon. {cite:nuzhat-al-mushtaq-2002 p. 356}"
-wings: [place]
-regions: [levant-iraq]
-provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 356 (scan page)", generated_by: "Claude (Haiku 5.5)" }
-external_ids: { wikidata: "Q47492", nomisma: "gaza" }
-sources: [source/nuzhat-al-mushtaq-2002, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/nomisma]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
+  ar: مدينة على ساحل فلسطين لها مرسى، وتبعد عن عسقلان نحو عشرين ميلاً. {cite:nuzhat-al-mushtaq-2002 p. 356}
+  en: A city on the Palestinian coast with a harbour, about twenty miles from Ascalon. {cite:nuzhat-al-mushtaq-2002 p. 356}
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 31.5075
+- 34.459722222222226
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata; approximate until checked against a gazetteer.
+provenance:
+  layer: own-research
+  source: al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 356 (scan page)
+  generated_by: Claude (Haiku 5.5)
+external_ids:
+  wikidata: Q47492
+  nomisma: gaza
+sources:
+- source/nuzhat-al-mushtaq-2002
+- source/mubarakpuri-raheeq
+- source/ibn-hisham-sira
+- source/wikidata
+- source/nomisma
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude (Haiku 5.5); page refs are scan indices

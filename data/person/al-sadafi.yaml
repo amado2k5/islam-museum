@@ -25,5 +25,8 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-58
 external_ids: { wikidata: "Q28716511" }
+relations:
+  - { type: lived_in, target: place/al-andalus, note: "Among the most famous scholars of al-Andalus.", sources: [source/nafh-tib-maqqari], confidence: high }
+  - { type: died_in, target: place/al-andalus, note: "Went out as a volunteer and was lost at the battle of Cutanda in 514; exact site flagged for review.", sources: [source/nafh-tib-maqqari], confidence: low }
 sources: [source/nafh-tib-maqqari, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

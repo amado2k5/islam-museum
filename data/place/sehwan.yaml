@@ -1,0 +1,21 @@
+id: place/sehwan
+class: place
+kind: city
+label: { ar: "سيوستان", en: "Sehwan", ur: "سہون شریف" }
+summary:
+  ar: "مدينة في باكستان."
+  en: "City in Pakistan."
+wings: [place]
+regions: [south-asia]
+coordinates: [26.419313888889, 67.859372222222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3308397" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3308397 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

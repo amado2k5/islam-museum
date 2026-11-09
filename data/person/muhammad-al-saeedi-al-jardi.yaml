@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/t-touan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q185157)" }
+  - { type: died_in, target: place/tanja, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q126148)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q104522420

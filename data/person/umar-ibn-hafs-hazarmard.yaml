@@ -8,6 +8,7 @@ wings: [people]
 gender: male
 died: { edtf: "0767~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية المنصور قبل يزيد بن حاتم (البلاذري ص 326). التحويل مشتق." }
 relations:
+  - { type: ruled_over, target: place/ifriqiya, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/martyrdom-of-umar-ibn-hafs, role: "الوالي الشهيد", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

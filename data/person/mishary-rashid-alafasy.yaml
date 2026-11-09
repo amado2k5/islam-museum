@@ -21,6 +21,8 @@ born:
   note: "Gregorian date from Wikidata and both articles; the Arabic article states the birth as Sunday 11 Ramadan 1396 AH / 5 September 1976 in Kuwait."
   sources: [source/wikipedia-mishary-rashid-alafasy-ar, source/wikipedia-mishary-rashid-alafasy-en, source/wikidata-mishary-rashid-alafasy]
 relations:
+  - { type: born_in, target: place/kuwait-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mishary-rashid-alafasy] }
+  - { type: lived_in, target: place/grand-mosque, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mishary-rashid-alafasy] }
   - { type: lived_in, target: place/medina, sources: [source/wikipedia-mishary-rashid-alafasy-en, source/wikipedia-mishary-rashid-alafasy-ar] }
 faith:
   - value: unknown

@@ -10,11 +10,14 @@ periods: [period/rashidun]
 regions: [egypt-nile]
 relations:
   - { type: site_of, target: event/four-lieutenants-egypt, sources: [source/futuh-buldan-maarif-1407] }
+coordinates: [30.13, 31.28]
+coordinate_precision: locality
+coordinate_note: "Identified modern location; flagged for gazetteer verification."
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 304"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-19
   extra_runs: ["farghani-389-577 (claude-haiku-5-5, Claude Code)"]
-sources: [source/futuh-buldan-maarif-1407, source/farghani-elements-astronomy]
+sources: [source/futuh-buldan-maarif-1407, source/farghani-elements-astronomy, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

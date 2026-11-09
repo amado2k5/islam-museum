@@ -40,6 +40,8 @@ faith:
     note: "Wikidata's only religion value is Islam (Q432), generic, and no article names a school for him. He served the empire's Muslim religious administration (the Orenburg Mohammedan Spiritual Assembly, the Sobranie) as qadi from 1891 and as mufti of European Russia from the early 1920s; those are offices within an institution of the Hanafi milieu, not a personal attestation of a school, and his Jadid reformism is a movement affiliation. Under the two-source rule and the doubt rule his faith is recorded unknown, with the readings preserved here."
     sources: [source/wikidata-rizaeddin-bin-fakhraddin, source/wikipedia-rizaeddin-bin-fakhraddin-en, source/wikipedia-rizaeddin-bin-fakhraddin-ur]
 external_ids: { wikidata: "Q4481567" }
+relations:
+  - { type: died_in, target: place/ufa, sources: [source/wikidata-rizaeddin-bin-fakhraddin], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q911)" }
 sources: [source/wikipedia-rizaeddin-bin-fakhraddin-en, source/wikipedia-rizaeddin-bin-fakhraddin-ar, source/wikipedia-rizaeddin-bin-fakhraddin-ur, source/wikidata-rizaeddin-bin-fakhraddin]
 provenance:
   layer: own-research

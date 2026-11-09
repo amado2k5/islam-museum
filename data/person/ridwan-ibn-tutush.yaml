@@ -9,6 +9,7 @@ summary:
 gender: male
 roles: [ruler]
 relations:
+- { type: lived_in, target: place/aleppo, sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab] }
 - type: child_of
   target: person/tutush
   sources:

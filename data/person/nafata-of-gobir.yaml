@@ -12,6 +12,8 @@ wings: [people]
 regions: [west-africa-sahel]
 periods: [period/colonial-era]
 born: { edtf: "1800", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/gobir, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q1533541)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q6958149

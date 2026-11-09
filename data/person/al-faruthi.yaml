@@ -17,6 +17,7 @@ faith:
   - value: sunni-shafii
     basis: tradition
 relations:
+  - { type: traveled_to, target: place/wasit, note: "From text: returned to Wasit'", sources: [source/shadharat-dhahab] }
   - { type: born_in, target: place/wasit, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/wasit, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]

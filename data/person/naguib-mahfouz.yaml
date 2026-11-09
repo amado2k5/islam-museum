@@ -32,6 +32,7 @@ died:
 relations:
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-naguib-mahfouz-en, source/nobelprize-naguib-mahfouz-facts] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-naguib-mahfouz-en, source/nobelprize-naguib-mahfouz-facts] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-naguib-mahfouz-en, source/nobelprize-naguib-mahfouz-facts, source/wikidata-naguib-mahfouz] }
 faith:
   - value: unknown
     basis: unknown

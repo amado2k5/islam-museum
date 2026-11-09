@@ -1,0 +1,16 @@
+id: place/dobruja
+class: place
+kind: region
+label: { en: "Dobruja", ar: "دبروجة" }
+summary:
+  en: "Historical region shared by Romania and Bulgaria."
+  ar: "منطقة في رومانيا."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [44.45, 28.3333]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q182660" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q182660 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

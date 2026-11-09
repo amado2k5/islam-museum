@@ -15,6 +15,7 @@ wings: [people, living]
 regions: [andalus-europe]
 relations:
   - { type: influenced_by, target: person/belal-assaad }
+  - { type: traveled_to, target: place/dania, sources: [source/wikidata], confidence: low, note: "بعد فترة من الشك في أواخر مراهقته عاد إلى الممارسة الدينية — وكانت رسالة مرئية شخصية من بلال أسد نقطة تحوّل في" }
 faith:
   - value: unknown
     basis: unknown

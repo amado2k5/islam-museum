@@ -25,6 +25,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة مع امرأته فاطمة بنت صفو", sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/encyclopaedia-of-islam-2] }
   - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
   - { type: spouse_of, target: person/fatima-bint-safwan, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/khalid-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }

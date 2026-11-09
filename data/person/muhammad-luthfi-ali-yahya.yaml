@@ -12,6 +12,8 @@ wings: [people]
 regions: [southeast-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1947", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/pekalongan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q11026)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q3956536

@@ -33,6 +33,7 @@ died:
 relations:
   - { type: died_in, target: place/lahore, sources: [source/wikipedia-saadat-hasan-manto-en, source/wikidata-saadat-hasan-manto] }
   - { type: buried_in, target: place/lahore, sources: [source/wikipedia-saadat-hasan-manto-en] }
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-saadat-hasan-manto-en, source/wikipedia-saadat-hasan-manto-ur, source/wikidata-saadat-hasan-manto] }
 faith:
   - value: unknown
     basis: unknown

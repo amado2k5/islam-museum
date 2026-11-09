@@ -14,5 +14,7 @@ provenance:
   source: "أنساب الأشراف للبلاذري (ط مؤسسة الأعلمي/دار المعارف)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ansab-batch-1
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/ansab-al-ashraf] }
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

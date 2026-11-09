@@ -12,5 +12,8 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-batch-16
+relations:
+  - { type: ruled_over, target: place/tabaristan, sources: [source/kamil-ibn-al-athir] }
+  - { type: ruled_over, target: place/jurjan, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -36,6 +36,9 @@ faith:
 relations:
   - { type: member_of, target: group/al-sabah, sources: [source/wikipedia-sabah-al-ahmad-al-jaber-al-sabah-en, source/wikidata-sabah-al-ahmad-al-jaber-al-sabah] }
   - { type: sibling_of, target: person/jaber-al-ahmad-al-sabah, sources: [source/wikipedia-sabah-al-ahmad-al-jaber-al-sabah-en] }
+  - { type: born_in, target: place/kuwait-city, sources: [source/wikidata-sabah-al-ahmad-al-jaber-al-sabah], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35178)" }
+  - { type: died_in, target: place/rochester, sources: [source/wikidata-sabah-al-ahmad-al-jaber-al-sabah], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q486479)" }
+  - { type: buried_in, target: place/sulaibikhat-cemetery, sources: [source/wikidata-sabah-al-ahmad-al-jaber-al-sabah], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q12244629)" }
 wings: [people]
 regions: [arabia]
 external_ids: { wikidata: "Q57555" }

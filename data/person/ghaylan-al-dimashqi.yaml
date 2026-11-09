@@ -15,6 +15,9 @@ wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
 relations:
+  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/unknown, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: related_to, target: concept/qadar, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

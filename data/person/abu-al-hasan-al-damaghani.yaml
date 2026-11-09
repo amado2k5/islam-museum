@@ -32,3 +32,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
+relations:
+  - { type: lived_in, target: place/damaghan, note: "The Damaghani nisba ties him to Damaghan; residence not separately attested.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: died_in, target: place/mecca, note: "Died in 513 at the Haram, aged sixty-four, after twenty-two years as Hanafi chief qadi.", sources: [source/shadharat-dhahab], confidence: medium }

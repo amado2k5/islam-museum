@@ -13,6 +13,7 @@ regions: [persia-central-asia]
 themes: [sects-and-schools]
 relations:
   - { type: participated_in, target: event/sunbadh-revolt-137, role: "قائد الحركة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: lived_in, target: place/fars, sources: [source/wikidata], confidence: low, note: "Nisba فارسي attested in the record." }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:
   layer: own-research

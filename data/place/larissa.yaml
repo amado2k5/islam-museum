@@ -1,0 +1,36 @@
+id: place/larissa
+class: place
+kind: city
+label:
+  ar: لاريسا
+  en: Larissa
+  ur: لاریسا
+summary:
+  ar: موقع جغرافي.
+  en: City and capital of Thessaly region, Greece.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 39.6385
+- 22.4131
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q178405
+  geonames: '258576'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q178405 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q178405 (labels, coordinates, description)

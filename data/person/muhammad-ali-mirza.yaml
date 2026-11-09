@@ -26,6 +26,8 @@ faith:
     basis: unknown
     note: "English Wikipedia's infobox gives his denomination as 'Non-denominational', citing Dawn; the Urdu and Kashmiri articles give only Islam. His academy's website is named Ahl-e-Sunnat-Pak, but he presents his teaching as standing above the sects and criticises the scholars of every school; no source names a madhhab for him, and a self-chosen non-sectarian stance is not a school attestation. Not recorded as a school."
     sources: [source/wikipedia-muhammad-ali-mirza-en, source/wikipedia-muhammad-ali-mirza-ur]
+relations:
+  - { type: born_in, target: place/jhelum, sources: [source/wikidata], confidence: low, note: "Born in Jhelum, Punjab, in 1977 per the record text." }
 sources: [source/wikipedia-muhammad-ali-mirza-en, source/wikipedia-muhammad-ali-mirza-ur]
 provenance:
   layer: own-research

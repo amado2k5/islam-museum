@@ -33,6 +33,9 @@ tags: [crimea, crimean-tatars, tercuman]
 roles: [writer, teacher, journalist]
 wings: [people]
 regions: [anatolia-balkans]
+relations:
+  - { type: born_in, target: place/alupka, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-sabri-ayvazov] }
+  - { type: died_in, target: place/simferopol, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-sabri-ayvazov] }
 faith:
   - value: unknown
     basis: unknown

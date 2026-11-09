@@ -34,6 +34,8 @@ died:
 roles: [politician, lawyer]
 wings: [people]
 regions: [south-asia]
+relations:
+  - { type: lived_in, target: place/hyderabad, confidence: low, note: "Associated with Hyderabad per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

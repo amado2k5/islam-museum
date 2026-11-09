@@ -11,3 +11,5 @@ regions: [levant-iraq]
 sources: [source/umayyad-birth-to-fall-2006]
 provenance: { layer: own-research, source: "umayyad-birth-to-fall-2006 pp. 133-134", generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 pp. 133-134" }
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 pp. 133-134" }
+relations:
+  - { type: lived_in, target: place/basra, note: "From text: of Basra", sources: [source/umayyad-birth-to-fall-2006], confidence: low }

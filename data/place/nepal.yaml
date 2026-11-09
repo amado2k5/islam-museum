@@ -1,0 +1,20 @@
+id: place/nepal
+class: place
+kind: region
+label: { ar: "نيبال", en: "Nepal" }
+summary:
+  ar: "مملكة جبلية في جبال الهملايا."
+  en: "Himalayan mountain kingdom."
+wings: [place]
+regions: [south-asia]
+coordinates: [28.2, 84.2]
+coordinate_precision: approx
+coordinate_note: "Identified location / approximate regional centre; flagged for gazetteer verification."
+external_ids: { wikidata: "Q837" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Country/region entity so persons substantiated only at country level resolve on the map."

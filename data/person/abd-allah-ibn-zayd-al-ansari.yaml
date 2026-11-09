@@ -21,6 +21,8 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
 relations:
+  - { type: died_in, target: place/medina, note: "From text: توفي بالمدينة سنة 32هـ ابن أربع وستي", sources: [source/istiab-alam-2002, source/al-aalam] }
+  - { type: died_in, target: place/medina, note: "From text: died in Medina", sources: [source/istiab-alam-2002] }
   - { type: member_of, target: group/banu-al-harith-al-khazraj, sources: [source/istiab-alam-2002] }
   - { type: participated_in, target: event/second-pledge-of-aqaba, note: "شهد العقبة {cite:istiab-alam-2002 p. 404}", sources: [source/istiab-alam-2002] }
   - { type: participated_in, target: event/battle-of-badr, sources: [source/istiab-alam-2002] }

@@ -28,6 +28,8 @@ born:
     block. The date falls within the Hijri year 1361, given as the
     tabular conversion, marked derived.
   sources: [source/wikipedia-br-shetty-en, source/wikipedia-br-shetty-ar, source/wikidata-br-shetty]
+relations:
+  - { type: lived_in, target: place/ras-al-khaimah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-br-shetty] }
 faith:
   - value: hindu
     basis: documented

@@ -27,7 +27,8 @@ born:
   derived: true
   note: "Born in Tehran on 28 Farvardin 1344 SH, i.e. 17 April 1965, as stated by Persian Wikipedia in its infobox and its Life section; English Wikipedia gives the year and place (born 1965, Tehran). There is no place record for Tehran, so no born_in edge is written. Hijri year 1384 derived from the Gregorian date."
   sources: [source/wikipedia-alireza-panahian-fa, source/wikipedia-alireza-panahian-en]
-relations: []
+relations:
+  - { type: lived_in, target: place/tehran, note: "From text: from Tehran", sources: [source/wikipedia-alireza-panahian-en, source/wikipedia-alireza-panahian-fa, source/instagram-alireza-panahian, source/hafi-panahian-ir], confidence: low }
 sources: [source/wikipedia-alireza-panahian-en, source/wikipedia-alireza-panahian-fa, source/instagram-alireza-panahian, source/hafi-panahian-ir]
 provenance:
   layer: own-research

@@ -18,3 +18,6 @@ provenance:
   run: prose-fill-persons-batch50
 sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/abiward, note: "The Abiwardi nisba ties the poet's family to Abiward in Khurasan; residence not separately attested.", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2], confidence: low }
+  - { type: died_in, target: place/wasit, note: "Died at Wasit in 498.", sources: [source/wafayat-ayan], confidence: high }

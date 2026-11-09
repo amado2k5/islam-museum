@@ -38,6 +38,18 @@ relations:
   target: person/masud-ibn-mahmud
   sources:
   - source/muntazam-ibn-al-jawzi
+- type: ruled_over
+  target: place/ghazna
+  confidence: low
+  note: "Sultan of Ghazna; returned to Ghazna and established his rule there, per the record's summary."
+  sources:
+  - source/muntazam-ibn-al-jawzi
+- type: died_in
+  target: place/ghazna
+  confidence: low
+  note: "Died in 442 AH while holding Ghazna, per the record's summary."
+  sources:
+  - source/muntazam-ibn-al-jawzi
 provenance:
   layer: own-research
   source: المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، تراجم سنتي ٤٣٣ و٤٤٢)، قراءة

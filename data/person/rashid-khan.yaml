@@ -22,6 +22,7 @@ born:
   sources: [source/wikipedia-rashid-khan-en, source/wikipedia-rashid-khan-ar, source/wikipedia-rashid-khan-ur, source/wikidata-rashid-khan]
 relations:
   - { type: successor_of, target: person/mohammad-nabi, sources: [source/wikipedia-rashid-khan-en, source/wikipedia-mohammad-nabi-en] }
+  - { type: born_in, target: place/afghanistan, sources: [source/wikipedia-rashid-khan-en, source/wikipedia-rashid-khan-ar, source/wikipedia-rashid-khan-ur, source/wikidata-rashid-khan] }
 faith:
   - value: unknown
     basis: unknown

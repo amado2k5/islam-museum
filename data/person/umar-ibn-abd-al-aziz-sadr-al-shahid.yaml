@@ -17,6 +17,8 @@ regions:
 - persia-central-asia
 periods:
 - period/buyid-seljuk-fatimid-era
+relations:
+  - { type: lived_in, target: place/sawl, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low, note: "Nisba صولي attested in the record." }
 sources:
 - source/fiqh-mawsua-kuwaitiyya-noor-v3
 provenance:

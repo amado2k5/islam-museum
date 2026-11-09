@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: born_in, target: place/iraq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: related_to, target: person/al-mutasim-abi-ishaq, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

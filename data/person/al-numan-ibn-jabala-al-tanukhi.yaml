@@ -12,6 +12,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch35
+relations:
+  - { type: traveled_to, target: place/siffin, note: "Tanukh's bannerman in Muawiya's host at Siffin.", sources: [source/muruj-al-dhahab], confidence: medium }
+  - { type: lived_in, target: place/al-sham, note: "His own words: we fight for the Ghuta's figs and olives; Syrian milieu, flagged.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

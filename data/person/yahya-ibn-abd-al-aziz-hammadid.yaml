@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: born_in, target: place/bejaia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q59975)" }
+  - { type: died_in, target: place/al-sal, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q466046)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q563201

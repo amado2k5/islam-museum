@@ -24,6 +24,8 @@ born:
   derived: true
   note: "Born on 1 January 1944 at Kamalpur village, Mithamain Upazila, Kishoreganj District, Bengal, British India, as the English article and the Arabic article's lead give. The Arabic article's infobox and the Wikidata-derived data give Dhaka as the birthplace — a structured-data error, recorded here and not followed. No born_in relation is written: Kamalpur, Mithamain and Kishoreganj have no museum place entity. The Hijri year (1362) is derived by tabular conversion."
   sources: [source/wikipedia-mohammad-abdul-hamid-en, source/wikipedia-mohammad-abdul-hamid-ar]
+relations:
+  - { type: born_in, target: place/dhaka, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-mohammad-abdul-hamid-en, source/wikipedia-mohammad-abdul-hamid-ar] }
 faith:
   - value: unknown
     basis: unknown

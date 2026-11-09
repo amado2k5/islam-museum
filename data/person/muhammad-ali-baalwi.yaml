@@ -13,6 +13,8 @@ regions: [arabia]
 periods: [period/colonial-era]
 born: { edtf: "1764~", precision: year, status: tradition, derived: true }
 died: { edtf: "1817~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/tarim, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1014010)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q14933250

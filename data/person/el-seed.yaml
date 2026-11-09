@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born on 21 August 1981 in Le Chesnay, Ile-de-France, France, given by the English Wikipedia article's infobox; the article's text phrases it more broadly as born to a Tunisian family in Paris in 1981 (Le Chesnay is a commune on the outskirts of Paris). He was NOT born in Gabes: Gabes is the Tunisian city whose Jara Mosque minaret he painted in 2012. No place entity for Le Chesnay or Paris exists in data/place/, so no born_in relation is written. The Hijri year (1401) is derived by tabular conversion."
   sources: [source/wikipedia-el-seed-en]
+relations:
+  - { type: born_in, target: place/paris, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-el-seed-en] }
 faith:
   - value: unknown
     basis: unknown

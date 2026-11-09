@@ -33,6 +33,7 @@ died:
   sources: [source/wikipedia-al-yaqubi-en, source/wikipedia-al-yaqubi-ar, source/wikipedia-al-yaqubi-ur, source/wikidata-al-yaqubi]
 
 relations:
+  - { type: died_in, target: place/misr, note: "From text: died in Egypt", sources: [source/wikipedia-al-yaqubi-en, source/wikipedia-al-yaqubi-ar, source/wikipedia-al-yaqubi-ur, source/wikidata-al-yaqubi] }
   - { type: born_in, target: place/baghdad, sources: [source/wikipedia-al-yaqubi-en, source/wikipedia-al-yaqubi-ar] }
 
 faith:

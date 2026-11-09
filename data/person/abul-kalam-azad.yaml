@@ -33,6 +33,9 @@ died:
   note: "The Arabic article pairs the date itself — 3 Sha'ban 1377 AH with 22 February 1958 — so the Hijri year is the source's own. The English article gives his death at Delhi, of a stroke, and his resting place by the Jama Masjid."
   sources: [source/wikipedia-abul-kalam-azad-en, source/wikipedia-abul-kalam-azad-ar, source/wikidata-abul-kalam-azad]
 relations:
+  - { type: born_in, target: place/medina, note: "From text: وُلد في مكة ونشأ فيها وفي المدينة", sources: [source/wikipedia-abul-kalam-azad-en, source/wikipedia-abul-kalam-azad-ar, source/wikipedia-abul-kalam-azad-ur, source/wikidata-abul-kalam-azad] }
+  - { type: lived_in, target: place/medina, note: "From text: نشأ فيها وفي المدينة", sources: [source/wikipedia-abul-kalam-azad-en, source/wikipedia-abul-kalam-azad-ar, source/wikipedia-abul-kalam-azad-ur, source/wikidata-abul-kalam-azad] }
+  - { type: born_in, target: place/mecca, note: "From text: born in Mecca", sources: [source/wikipedia-abul-kalam-azad-en, source/wikipedia-abul-kalam-azad-ar, source/wikidata-abul-kalam-azad] }
   - { type: born_in, target: place/mecca, sources: [source/wikipedia-abul-kalam-azad-en, source/wikipedia-abul-kalam-azad-ur] }
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-abul-kalam-azad-en] }
 faith:

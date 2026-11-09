@@ -38,6 +38,9 @@ died:
     - source/wikipedia-baba-farid-ar
     - source/wikipedia-baba-farid-ur
     - source/wikidata-baba-farid
+relations:
+  - { type: born_in, target: place/multan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-baba-farid] }
+  - { type: died_in, target: place/pakpattan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-baba-farid] }
 faith:
   - value: sufi
     basis: documented

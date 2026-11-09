@@ -21,3 +21,9 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 326, article 'Ahsa'i, Shaykh Ahmad' signed A. Bausani (queue row seq 187; EI2 enrichment, batch ei2-b003 part 3cs)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: born_in, target: place/al-ahsa, note: "From text: وُلد في الأحساء سنة 1166هـ/1753م", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/medina, note: "From text: توفي في الطريق إلى الحج قرب المدينة سن", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/iraq, note: "From text: درس في العراق وفارس", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/medina, note: "From text: died near Medina", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/bahrayn, note: "From text: lived in Bahrain", sources: [source/encyclopaedia-of-islam-2] }

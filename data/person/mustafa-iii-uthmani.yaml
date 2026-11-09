@@ -1,25 +1,61 @@
 id: person/mustafa-iii-uthmani
 class: person
-label: { ar: "مصطفى الثالث" }
+label:
+  ar: مصطفى الثالث
 names:
-  - { kind: full, lang: ar, value: "مصطفى الثالث بن أحمد الثالث" }
+- kind: full
+  lang: ar
+  value: مصطفى الثالث بن أحمد الثالث
 gender: male
-roles: [ruler]
-died: { edtf: "1774~", hijri: "1187", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "مرض في حرب روسيا حزناً وتوفي وعمره يناهز ٥٧ عاماً." }
+roles:
+- ruler
+died:
+  edtf: 1774~
+  hijri: '1187'
+  calendar: julian
+  precision: year
+  status: tradition
+  sources:
+  - source/dawlat-uthmaniyya-salabi
+  note: مرض في حرب روسيا حزناً وتوفي وعمره يناهز ٥٧ عاماً.
 summary:
-  ar: "السلطان مصطفى الثالث ⁦(١١٧١–١١٨٧هـ/١٧٥٧–١٧٧٣م)⁩؛ من السلاطين المجاهدين، تصدى للهجمات الروسية وأنزل بها هزائم عدة، وكان يرى بثاقب بصره أن الدولة بدأت في عصر التراجع والسقوط وظهرت تلك الرؤية في شعره: إن الدنيا منهدمة لا تظن أنها تستقيم لنا. وكان مهتماً بالتاريخ الإسلامي عموماً وتاريخ الدولة العثمانية خصوصاً. واستمرت الحرب مع روسيا من ١٧٦٨م إلى ١٧٧٤م وفقدت الدولة فيها أراضي واسعة، ومرض مصطفى الثالث في حرب روسيا حزناً وتوفي عن ٥٧ عاماً وتولى مكانه أخوه عبد الحميد الأول {cite:dawlat-uthmaniyya-salabi p. 316}."
-  en: "Mustafa III (r. 1171–1187/1757–1773) — a mujahid sultan who beat the Russians several times yet foresaw the decline and wrote it in verse; the 1768–1774 war that ended at Küçük Kaynarca broke him — he fell ill with grief and died at 57 {cite:dawlat-uthmaniyya-salabi p. 316}."
-wings: [people]
-periods: [period/gunpowder-empires]
-regions: [anatolia-balkans]
+  ar: 'السلطان مصطفى الثالث ⁦(١١٧١–١١٨٧هـ/١٧٥٧–١٧٧٣م)⁩؛ من السلاطين المجاهدين، تصدى للهجمات الروسية وأنزل بها هزائم عدة، وكان
+    يرى بثاقب بصره أن الدولة بدأت في عصر التراجع والسقوط وظهرت تلك الرؤية في شعره: إن الدنيا منهدمة لا تظن أنها تستقيم لنا.
+    وكان مهتماً بالتاريخ الإسلامي عموماً وتاريخ الدولة العثمانية خصوصاً. واستمرت الحرب مع روسيا من ١٧٦٨م إلى ١٧٧٤م وفقدت الدولة
+    فيها أراضي واسعة، ومرض مصطفى الثالث في حرب روسيا حزناً وتوفي عن ٥٧ عاماً وتولى مكانه أخوه عبد الحميد الأول {cite:dawlat-uthmaniyya-salabi
+    p. 316}.'
+  en: Mustafa III (r. 1171–1187/1757–1773) — a mujahid sultan who beat the Russians several times yet foresaw the decline
+    and wrote it in verse; the 1768–1774 war that ended at Küçük Kaynarca broke him — he fell ill with grief and died at 57
+    {cite:dawlat-uthmaniyya-salabi p. 316}.
+wings:
+- people
+periods:
+- period/gunpowder-empires
+regions:
+- anatolia-balkans
 relations:
-  - { type: child_of, target: person/ahmed-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
+- type: child_of
+  target: person/ahmed-iii-uthmani
+  sources:
+  - source/dawlat-uthmaniyya-salabi
+- type: lived_in
+  target: place/russia
+  confidence: low
+  note: The only place named in the record; specific residence or role there is assumed from context but not separately documented.
+  sources:
+  - source/dawlat-uthmaniyya-salabi
+sources:
+- source/dawlat-uthmaniyya-salabi
+- source/nomisma
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 316"
-  generated_by: "Devin (SWE-2 Flash High)"
-  model: "SWE-2 Flash High"
+  source: الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 316
+  generated_by: Devin (SWE-2 Flash High)
+  model: SWE-2 Flash High
   run: prose-fill-persons-batch47
-status: { review: published, completeness: 3 }
-external_ids: { wikidata: Q199484, nomisma: "mustafa_iii" }
+status:
+  review: published
+  completeness: 3
+external_ids:
+  wikidata: Q199484
+  nomisma: mustafa_iii

@@ -1,0 +1,36 @@
+id: place/nigeria
+class: place
+kind: region
+label:
+  ar: نيجيريا
+  en: Nigeria
+  ur: نائجیریا
+summary:
+  ar: أكبر دولة أفريقية سكاناً؛ شمالها مركز إسلامي قديم.
+  en: Africa's most populous state; its north an old Islamic centre.
+wings:
+- place
+regions:
+- west-africa-sahel
+coordinates:
+- 9.0
+- 8.0
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q1033
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1033 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.

@@ -13,6 +13,7 @@ regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 relations:
   - { type: participated_in, target: event/conquest-constantinople-857, role: "مهندس المدافع", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: born_in, target: place/milwaukee, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q37836)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q315845

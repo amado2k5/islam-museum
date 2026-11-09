@@ -34,7 +34,13 @@ faith:
     basis: unknown
     note: "No consulted source names a school or affiliation for him; his career was organised through the Muslim Conference, a party affiliation that never counts, and his Wikidata item carries no religion value at all."
     sources: [source/wikipedia-chaudhry-ghulam-abbas-en, source/wikidata-chaudhry-ghulam-abbas]
-relations: []
+relations:
+  - { type: born_in, target: place/jammu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chaudhry-ghulam-abbas] }
+  - { type: born_in, target: place/jammu-and-kashmir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chaudhry-ghulam-abbas] }
+  - { type: born_in, target: place/british-raj, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chaudhry-ghulam-abbas] }
+  - { type: died_in, target: place/rawalpindi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chaudhry-ghulam-abbas] }
+  - { type: died_in, target: place/punjab, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chaudhry-ghulam-abbas] }
+  - { type: died_in, target: place/pakistan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chaudhry-ghulam-abbas] }
 summary:
   ar: "تشودري غلام عباس، الملقب برئيس الأحرار، سياسي كشميري من قادة المؤتمر الإسلامي وأبرز دعاة انضمام كشمير إلى باكستان، ترأّس الحزب في كشمير الحرة بعد 1947."
   en: "Chaudhry Ghulam Abbas, titled Raees-ul-Ahrar, was a Kashmiri Muslim Conference leader and the leading advocate of Kashmir's accession to Pakistan, who after 1947 headed the party in Azad Kashmir."

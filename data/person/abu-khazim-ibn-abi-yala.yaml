@@ -28,6 +28,8 @@ died:
   derived: true
   note: "توفي يوم الاثنين تاسع عشر صفر سنة سبع وعشرين وخمسمائة ودفن بداره بباب الأزج ونقل سنة 534 إلى مقبرة الإمام أحمد {cite:shadharat-dhahab p. 562}؛ التحويل مشتق."
 relations:
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: child_of, target: person/abu-yala-ibn-al-farra, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
@@ -36,7 +38,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch105
 external_ids: { wikidata: "Q6532961" }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/wikidata]
 status:
   review: published
   completeness: 3

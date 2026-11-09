@@ -7,9 +7,13 @@ summary:
 periods: [period/rashidun]
 wings: [people]
 external_ids: { wikidata: "Q2177228" }
-sources: [source/futuh-buldan-maarif-1407, source/taqrib-al-tahdhib]
+sources: [source/futuh-buldan-maarif-1407, source/taqrib-al-tahdhib, source/wikidata]
 status: { review: draft, completeness: 3 }
 provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+relations:
+  - { type: born_in, target: place/mecca, note: "Wikidata Q5806 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/medina, note: "Wikidata Q35484 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-baqi, note: "Wikidata Q154204 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }

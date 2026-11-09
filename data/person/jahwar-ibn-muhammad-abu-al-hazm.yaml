@@ -10,6 +10,8 @@ roles: [ruler, vizier]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/cordoba, confidence: low, note: "Associated with قرطبة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

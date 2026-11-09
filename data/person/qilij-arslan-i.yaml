@@ -17,6 +17,7 @@ died:
   derived: true
   note: غرق بالخابور في حربه مع جاولي؛ سنة الوفاة تحتاج توثيقاً دقيقاً من هذا المصدر.
 relations:
+- { type: died_in, target: place/khabur-river, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q685344)" }
 - type: child_of
   target: person/sulayman-ibn-qutlumush
   sources:

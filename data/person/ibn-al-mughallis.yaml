@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "0936", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5984307

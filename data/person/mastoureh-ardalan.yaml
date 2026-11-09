@@ -35,6 +35,9 @@ died:
   derived: true
   note: "Readings differ: Persian Wikipedia gives 30 Azar 1226 SH = 21 December 1847, and one of Wikidata's two death values is December 1847; Wikidata's other value and the English article give the year 1848, and the title-page tradition of her Divan gives 1263 or 1264 AH. The death place is given as Sulaymaniyah by the English and Persian articles and by Wikidata, while an Association for Iranian Studies abstract says Erbil; no place relation is written."
   sources: [source/wikipedia-mastoureh-ardalan-en, source/wikipedia-mastoureh-ardalan-fa, source/wikidata-mastoureh-ardalan]
+relations:
+  - { type: born_in, target: place/sanandaj, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mastoureh-ardalan] }
+  - { type: died_in, target: place/sulaymaniyah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mastoureh-ardalan] }
 faith:
   - value: unknown
     basis: unknown

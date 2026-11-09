@@ -25,7 +25,9 @@ born:
   derived: true
   note: "Born on 28 September 1947 at Tungipara, East Bengal, Pakistan; the English and Arabic articles agree, and the English infobox gives her birth name as Hasina Sheikh. No born_in relation is written: Tungipara has no museum place entity. The Hijri year (1366) is derived by tabular conversion."
   sources: [source/wikipedia-sheikh-hasina-en, source/wikipedia-sheikh-hasina-ar]
-relations: []
+relations:
+  - { type: born_in, target: place/bangladesh, sources: [source/wikidata], confidence: low, note: "Born at Tungipara, Gopalganj (now Bangladesh) per the record text." }
+  - { type: lived_in, target: place/india, sources: [source/wikidata], confidence: low, note: "Lived in exile in India per the record text." }
 faith:
   - value: unknown
     basis: unknown

@@ -20,6 +20,12 @@ relations:
   target: person/mansa-musa
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- type: ruled_over
+  target: place/mali
+  confidence: low
+  note: "King of Mali per the record's summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods:
 - period/mongol-post-mongol

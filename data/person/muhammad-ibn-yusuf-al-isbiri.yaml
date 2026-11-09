@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/gaziantep, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q93338)" }
+  - { type: died_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q41183)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q57924372

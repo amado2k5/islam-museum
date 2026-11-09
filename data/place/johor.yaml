@@ -1,0 +1,16 @@
+id: place/johor
+class: place
+kind: province
+label: { en: "Johor", ar: "جوهر" }
+summary:
+  en: "State of Malaysia."
+  ar: "محافظة في ماليزيا."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [1.4872, 103.7811]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q183032", geonames: "1733049" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q183032 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

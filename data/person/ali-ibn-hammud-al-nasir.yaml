@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 relations:
+  - { type: ruler_of, target: place/cordoba, note: "From text: caliph of Cordoba", sources: [source/nafh-tib-maqqari] }
   - { type: member_of, target: group/banu-hammud, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research

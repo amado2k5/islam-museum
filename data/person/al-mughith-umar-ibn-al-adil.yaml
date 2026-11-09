@@ -15,6 +15,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch122
 relations:
+  - { type: lived_in, target: place/al-karak, note: "From text: of Karak", sources: [source/shadharat-dhahab, source/wafayat-ayan], confidence: low }
   - { type: participated_in, target: event/mughith-karak-fall-661, role: "الملك المساق", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab, source/wafayat-ayan]
 status:

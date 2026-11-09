@@ -27,7 +27,8 @@ born:
   derived: true
   note: "Born in Shemiranat, Tehran, on 14 May 1984: the Photokade biography gives 24 Ordibehesht 1363 of the Persian calendar, which converts to 14 May 1984. The day and month rest on that single biography source and are flagged as such; in his own published interview Pouyanfar confirms only the year — 'I was born in 1363 and hold a bachelor's in psychology'. There is no place record for Tehran, so no born_in edge is written. Hijri year 1404 derived from the Gregorian date."
   sources: [source/photokade-mohammad-hossein-pouyanfar, source/fardanews-pouyanfar-interview]
-relations: []
+relations:
+  - { type: born_in, target: place/tehran, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/photokade-mohammad-hossein-pouyanfar, source/fardanews-pouyanfar-interview] }
 sources: [source/instagram-mhpooyanfar, source/instastatistics-mhpooyanfar, source/photokade-mohammad-hossein-pouyanfar, source/fardanews-pouyanfar-interview]
 provenance:
   layer: own-research

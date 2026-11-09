@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born in Palembang, South Sumatra, on 31 January 1984: the English article states it. The Hijri year 1404 is a tabular conversion of the followed date, marked derived. No place record for Palembang exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-felix-siauw-en]
+relations:
+  - { type: born_in, target: place/palembang, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-felix-siauw-en] }
 faith:
   - value: unknown
     basis: unknown

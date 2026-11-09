@@ -17,6 +17,8 @@ themes: [spirituality-and-sufism]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [south-asia, persia-central-asia]
 relations:
+  - { type: born_in, target: place/ghazna, note: "From text: born in Ghazna", sources: [source/kashf-al-mahjub-qandil-2007-v1] }
+  - { type: lived_in, target: place/lahore, note: "From text: settled in Lahore", sources: [source/kashf-al-mahjub-qandil-2007-v1] }
   - { type: born_in, target: place/ghazna, sources: [source/kashf-al-mahjub-qandil-2007-v1] }
   - { type: died_in, target: place/lahore, sources: [source/kashf-al-mahjub-qandil-2007-v1] }
   - { type: buried_in, target: place/lahore, sources: [source/kashf-al-mahjub-qandil-2007-v1] }

@@ -13,6 +13,7 @@ themes: [architecture, sacred-space-and-pilgrimage]
 regions: [egypt-nile, arabia]
 periods: [period/contemporary-era]
 relations:
+  - { type: lived_in, target: place/cairo, sources: [source/haddad-asbila-makka-madina-2004] }
   - { type: authored, target: work/al-asbila-bi-makka-wa-al-madina, sources: [source/haddad-asbila-makka-madina-2004] }
 sources: [source/haddad-asbila-makka-madina-2004]
 provenance:

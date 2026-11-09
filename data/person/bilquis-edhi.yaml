@@ -30,7 +30,9 @@ died:
   derived: true
   note: "Died at the Aga Khan Hospital, Karachi, on 15 April 2022, of congestive heart failure after a prolonged illness; all three articles and Wikidata agree. Her funeral prayers were offered at New Memon Masjid and she was buried at Mewa Shah Graveyard, Karachi, on 16 April 2022. No died_in or buried_in relation is written: Karachi has no museum place entity. The Hijri year (1443) is derived by tabular conversion."
   sources: [source/wikipedia-bilquis-edhi-en, source/wikipedia-bilquis-edhi-ar, source/wikidata-bilquis-edhi]
-relations: []
+relations:
+  - { type: born_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bilquis-edhi] }
+  - { type: died_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bilquis-edhi] }
 faith:
   - value: unknown
     basis: unknown

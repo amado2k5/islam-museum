@@ -28,6 +28,10 @@ relations:
   - { type: successor_of, target: person/abdullah-bin-abdulaziz, sources: [source/wikipedia-salman-bin-abdulaziz-en] }
   - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-salman-bin-abdulaziz-en, source/wikidata-salman-bin-abdulaziz] }
   - { type: member_of, target: group/al-saud, sources: [source/wikipedia-salman-bin-abdulaziz-en] }
+  - { type: born_in, target: place/riyadh, sources: [source/wikidata-salman-bin-abdulaziz], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3692)" }
+  - { type: lived_in, target: place/royal-court, sources: [source/wikidata-salman-bin-abdulaziz], confidence: low, note: "Wikidata P551 residence (Wikidata Q12187556)" }
+  - { type: lived_in, target: place/riyadh-province, sources: [source/wikidata-salman-bin-abdulaziz], confidence: low, note: "Wikidata P937 work location (Wikidata Q1249255)" }
+  - { type: lived_in, target: place/mecca-province, sources: [source/wikidata-salman-bin-abdulaziz], confidence: low, note: "Wikidata P937 work location (Wikidata Q234167)" }
 faith:
   - value: unknown
     basis: unknown

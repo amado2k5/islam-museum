@@ -8,3 +8,5 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim, source/tabaqat-fuqaha-abbas-1981, source/tabaqat-shafiiyya-subki]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); Devin (SWE-2 Medium), lib-subki-tabaqat-ts1" }
+relations:
+  - { type: lived_in, target: place/khurasan, note: "Abu Ali al-Karabisi, hadith scholar of the Karabis family of the Nishapur district; region-level edge.", sources: [source/fihrist-ibn-al-nadim, source/tabaqat-fuqaha-abbas-1981], confidence: low }

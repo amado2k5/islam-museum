@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [maghreb, egypt-nile]
 born: { edtf: "1417~", hijri: "0820", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد 820 بتونس {cite:shadharat-dhahab p. 335}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1477~", hijri: "0882", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بالقاهرة 882 ودفن بمقبرة الشاذلية {cite:shadharat-dhahab p. 336}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/tunis, confidence: low, note: "Associated with Tunis per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 882)، قراءة آبل فيجن"

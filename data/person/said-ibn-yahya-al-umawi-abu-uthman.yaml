@@ -17,6 +17,8 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/wikidata], confidence: low, note: "ar: 'المحدث والفقيه أبو عثمان سعيد بن يحيى بن سعيد بن أبان الأموي، أصله من الكوفة وسكن بغداد، وروى الحديث عن أ" }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

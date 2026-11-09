@@ -15,6 +15,7 @@ themes: [mathematics, astronomy-and-timekeeping]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 relations:
+  - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name (خوارزمي); denotes association, not proven residence.", sources: [source/qanun-masudi-jundi-v1], confidence: low }
   - { type: student_of, target: person/abu-al-wafa-al-buzjani, sources: [source/qanun-masudi-jundi-v1] }
 sources: [source/qanun-masudi-jundi-v1]
 provenance:

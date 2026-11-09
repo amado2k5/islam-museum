@@ -27,6 +27,8 @@ faith:
     note: "No consulted source states any religion for Suriya Juangroongruangkit: none of the English, Thai and Indonesian articles read carries a religion field or discusses a personal affiliation, and his Wikidata item carries no religion value (no P140) at all. The queue places him in a block of Southeast-Asian Muslim leaders, but no source read for this record attests any religion for the man himself, and a queue placement is not a source. There is no religion reading of any kind to weigh, so the value is unknown and unflagged — an absence configuration."
     sources: [source/wikipedia-suriya-juangroongruangkit-en, source/wikipedia-suriya-juangroongruangkit-th, source/wikipedia-suriya-juangroongruangkit-id, source/wikidata-suriya-juangroongruangkit]
 external_ids: { wikidata: "Q4918594" }
+relations:
+  - { type: born_in, target: place/thailand, sources: [source/wikidata], confidence: low, note: "Wikidata Q13014111 ('Phra Nakhon Province'), located in Thailand" }
 sources: [source/wikipedia-suriya-juangroongruangkit-en, source/wikipedia-suriya-juangroongruangkit-th, source/wikipedia-suriya-juangroongruangkit-id, source/wikidata-suriya-juangroongruangkit]
 provenance:
   layer: own-research

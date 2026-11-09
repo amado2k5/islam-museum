@@ -22,6 +22,8 @@ born:
   sources: [source/wikipedia-mehdi-taremi-en, source/wikipedia-mehdi-taremi-ar]
 gender: male
 roles: [athlete]
+relations:
+  - { type: lived_in, target: place/iran, confidence: low, note: "Associated with Iran per the record's own summary text; relation type pending review.", sources: [source/wikipedia-mehdi-taremi-en] }
 faith:
   - value: unknown
     basis: unknown

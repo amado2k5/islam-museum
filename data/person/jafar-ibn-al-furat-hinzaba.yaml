@@ -12,6 +12,7 @@ born:
 died:
   { edtf: "1001-01~", hijri: "0391-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول 391؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.216}" }
 relations:
+  - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: patron_of, target: person/al-daraqutni, role: "أقام عنده بمصر وصنف له المسند", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: child_of, target: person/al-fadl-ibn-jafar-ibn-al-furat, role: "أبوه كان وزير المقتدر", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

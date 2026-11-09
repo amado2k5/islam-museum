@@ -1,0 +1,21 @@
+id: place/palembang
+class: place
+kind: city
+label: { ar: "فلمبان", en: "Palembang", ur: "پالمبانگ" }
+summary:
+  ar: "مدينة في الهند الشرقية الهولندية."
+  en: "City in Dutch East Indies."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [-2.9833333333333, 104.76444444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q8131" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q8131 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

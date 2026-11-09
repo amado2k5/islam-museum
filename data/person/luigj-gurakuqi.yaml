@@ -37,6 +37,8 @@ faith:
     note: "The Albanian biography records his baptism at Shkodër on 20 February 1879, the day after his birth, and the English biography states that he was born to a Catholic family; Elsie's dictionary independently documents the Catholic formation of the man himself — educated by the Jesuits at the Saverian College, encouraged by his Jesuit teachers, and publishing his early verse in the Jesuit periodical of religious culture, The Messenger of the Sacred Heart. No source suggests any other affiliation. The settlement rests on these personal attestations, not on the family statement alone."
     sources: [source/wikipedia-luigj-gurakuqi-sq, source/wikipedia-luigj-gurakuqi-en, source/elsie-historical-dictionary-albania]
 relations:
+  - { type: born_in, target: place/shkod-r, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-luigj-gurakuqi] }
+  - { type: died_in, target: place/bari, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-luigj-gurakuqi] }
   - { type: born_in, target: place/shkodra, sources: [source/wikipedia-luigj-gurakuqi-en, source/wikipedia-luigj-gurakuqi-sq] }
 summary:
   ar: "كاتب ورجل دولة ألباني من شكودر، من موقعي إعلان الاستقلال سنة 1912 ووزير التعليم في أول حكومة ألبانية، أدار المدرسة النظامية في إلباسان، وكان وزير المالية في حكومة فان نولي سنة 1924، واغتيل في منفاه بباري سنة 1925."

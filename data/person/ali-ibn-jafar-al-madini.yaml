@@ -18,3 +18,6 @@ status:
   completeness: 3
 relations:
   - { type: student_of, target: person/al-shafii, role: "كتب عن الشافعي (الشيرازي، PDF ص54)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+
+  - { type: died_in, target: place/samarra, note: "Died at Samarra, Dhu'l-Hijja 234.", sources: [source/muruj-al-dhahab], confidence: high }
+  - { type: lived_in, target: place/baghdad, note: "Hadith master of the Baghdad circle; flagged.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

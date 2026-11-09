@@ -13,6 +13,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [maghreb]
+relations:
+  - { type: lived_in, target: place/tunis, confidence: low, note: "Associated with تونس per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 provenance:
   layer: own-research

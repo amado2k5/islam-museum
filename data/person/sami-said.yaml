@@ -24,6 +24,9 @@ faith:
     basis: unknown
     note: "No source read in this run attests Sami Said's own affiliation with a specific school or path. His semi-autobiographical debut novel's protagonist Noha is described in Granta's profile as having a 'traditional Muslim upbringing' — that is a fictional character's upbringing, and upbringing is family background, which the lane rules never count as the person's own affiliation; the same profile notes Said describes himself as an outsider within his own immigrant community. The English Wikipedia article names no religion for him. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, and this evidence is carried here attributed."
     sources: [source/wikipedia-sami-said-en]
+relations:
+  - { type: born_in, target: place/eritrea, sources: [source/wikidata], confidence: low, note: "Born in Keren, Eritrea, in 1979 per the record text." }
+  - { type: lived_in, target: place/gothenburg, sources: [source/wikidata], confidence: low, note: "Family moved to Gothenburg in his childhood per the record text." }
 sources: [source/wikipedia-sami-said-en]
 provenance:
   layer: own-research

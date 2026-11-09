@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born 15 January 1973 in Kafr El Battikh, Damietta Governorate, Egypt, as given by the English Wikipedia article's infobox and by Wikidata Q523640; the Arabic article gives the same birth date. No place entity for Kafr El Battikh or Damietta exists in data/place/, so no born_in edge is written. The Hijri year (1392) is derived by tabular conversion."
   sources: [source/wikipedia-essam-el-hadary-en, source/wikipedia-essam-el-hadary-ar, source/wikidata-essam-el-hadary]
+relations:
+  - { type: born_in, target: place/kafr-el-battikh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-essam-el-hadary] }
 faith:
   - value: unknown
     basis: unknown

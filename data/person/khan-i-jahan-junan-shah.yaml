@@ -12,6 +12,7 @@ themes: [architecture, politics-governance-and-authority]
 regions: [south-asia]
 periods: [period/mongol-post-mongol]
 relations:
+  - { type: lived_in, target: place/delhi, confidence: low, note: "Vizier of Firuz Shah Tughlaq at Delhi per the record's own summary.", sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
   - { type: child_of, target: person/khan-i-jahan-maqbul-tilangani, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
   - { type: built, target: building/kali-masjid-nizamuddin, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
   - { type: built, target: building/kalan-masjid-delhi, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }

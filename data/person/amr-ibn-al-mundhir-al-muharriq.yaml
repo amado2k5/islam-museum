@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/kamil-ibn-al-athir, source/nihayat-al-arab-nuwayri-vol3-scan], confidence: low }
   - { type: child_of, target: person/al-mundhir-ibn-imri-al-qays, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir, source/nihayat-al-arab-nuwayri-vol3-scan]
 provenance:

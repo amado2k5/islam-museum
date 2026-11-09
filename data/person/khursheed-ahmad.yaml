@@ -15,6 +15,8 @@ regions: [south-asia]
 roles: [munshid, reciter]
 born: { edtf: "1956-01-01", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Rahim Yar Khan, Punjab; his parents had come from Mandrella near Jaipur (English article, citing Dawn; Wikidata gives the same day). No place entity for Rahim Yar Khan exists.", sources: [source/wikipedia-khursheed-ahmad-en, source/wikidata-khursheed-ahmad] }
 died: { edtf: "2007-08-30", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Karachi of a brain haemorrhage after a week in hospital; buried beside the shrine of Abdullah Shah Ghazi (English article, citing Dawn of 31 August 2007; Wikidata gives the day and Karachi). No place entity for Karachi exists yet.", sources: [source/wikipedia-khursheed-ahmad-en, source/wikidata-khursheed-ahmad] }
+relations:
+  - { type: lived_in, target: place/sind, confidence: low, note: "Associated with السند per the record's own text; relation type pending review.", sources: [source/wikipedia-khursheed-ahmad-en] }
 faith:
   - value: unknown
     basis: unknown

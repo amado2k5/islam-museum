@@ -18,3 +18,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 770, entry 'AL-ASTARABADHI, RADI AL-DIN MUHAMMAD B. AL-HASAN' (unsigned in the harvest; the Rukn al-Din entry that follows in the same row is signed A. J. Mango; the bibliography cites Suyuti's Bughyat al-Wu'at) (EI2 entry, batch ei2-b013 part 42, seq 402)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/astarabadh, confidence: low, note: "Association inferred from the nisba in the name 'Radi al-Din al-Astarabadhi'; specific residence not individually documented.", sources: [source/encyclopaedia-of-islam-2] }

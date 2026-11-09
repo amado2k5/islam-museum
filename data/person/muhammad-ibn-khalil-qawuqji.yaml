@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
 died: { edtf: "1888", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/tripoli-al-sham, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168954)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q105344243

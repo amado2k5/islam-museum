@@ -11,6 +11,11 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/red-fort, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q45957)" }
+  - { type: died_in, target: place/lahore, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q11739)" }
+  - { type: buried_in, target: building/humayun-tomb, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q189648)" }
+  - { type: buried_in, target: place/delhi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1353)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q7282618

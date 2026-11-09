@@ -27,3 +27,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch48
+relations:
+  - { type: lived_in, target: place/mauritania, note: "From text: Mauritanian (nationality adjective); broad association, flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

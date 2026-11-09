@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance:
  layer: own-research

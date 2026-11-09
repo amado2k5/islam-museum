@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/bakr-ibn-wail, sources: [source/kamil-ibn-al-athir] }
   - { type: related_to, target: person/al-basus-bint-munqidh, note: "خالته", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]

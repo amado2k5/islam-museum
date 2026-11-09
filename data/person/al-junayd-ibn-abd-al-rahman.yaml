@@ -12,3 +12,6 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+relations:
+  - { type: died_in, target: place/tukharistan, note: "From text: توفي بمرو وردت نواح من طخارستان كان ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: died_in, target: place/marw, note: "From text: died at Marw.", sources: [source/futuh-buldan-maarif-1407] }

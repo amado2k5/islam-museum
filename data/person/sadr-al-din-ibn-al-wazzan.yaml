@@ -10,6 +10,8 @@ roles: [scholar]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia]
+relations:
+  - { type: traveled_to, target: place/khwarizm, sources: [source/kamil-ibn-al-athir], confidence: low, note: "ar: 'صدر الدين محمد بن الوزان، رئيس الشافعية بالري وكان قد تقدم عند خوارزم شاه علاء الدين تكش تقدماً عظيماً؛ ق" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

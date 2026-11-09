@@ -40,6 +40,7 @@ faith:
     note: "No source read names a school or an order as his. The English article records his childhood education in the Qur'an, his founding of the China Islamic Association and other Kuomintang-sponsored Islamic organisations, his patronage of imams and of Muslim schools and publishing — and, decisively, his stance against religious sectarianism and the menhuan (the Sufi order system), which he held to be a cause of violence, promoting education and unity between the sects of Islam in China instead of backing any sect or imam; it also records his enmity with the Jahriyya leader Ma Yuanzhang. The Chinese article records his childhood study at a mosque and his skill at mediating between ethnic groups and between religious sects. The Urdu article, a translation of the English, is one family with it. Wikidata carries no religion value at all. A man the texts place deliberately above the orders has no attested affiliation to record: unknown."
     sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fuxiang-zh, source/wikipedia-ma-fuxiang-ur, source/wikidata-ma-fuxiang]
 relations:
+  - { type: died_in, target: place/beijing, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-fuxiang] }
   - { type: sibling_of, target: person/ma-fulu, sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fulu-en] }
 external_ids: { wikidata: "Q715098" }
 sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fuxiang-zh, source/wikipedia-ma-fuxiang-ur, source/wikidata-ma-fuxiang]

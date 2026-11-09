@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5730388

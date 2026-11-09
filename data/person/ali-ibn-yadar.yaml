@@ -22,6 +22,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 relations:
+- { type: ruler_of, target: place/tarudant, note: "From text: ملك سوس واستولى على تارودنت و", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
 - { type: "member_of", target: "group/banu-yadar", note: "أول أمراء بني يدر بالسوس", sources: [source/tarikh-ibn-khaldun-ibar] }
 sources:
 - source/tarikh-ibn-khaldun-ibar

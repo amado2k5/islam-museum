@@ -1,0 +1,38 @@
+id: place/lebanon
+class: place
+kind: region
+label:
+  ar: لبنان
+  en: Lebanon
+  ur: لبنان
+summary:
+  ar: دولة على ساحل الشام، عاصمتها بيروت.
+  en: Levantine state on the Mediterranean; capital Beirut.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 33.85
+- 35.85
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q822
+  geonames: '272103'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q822 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q822 (labels, coordinates, description)

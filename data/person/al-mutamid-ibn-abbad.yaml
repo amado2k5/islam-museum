@@ -18,3 +18,7 @@ external_ids:
   wikidata: Q299578
 sources: [source/nafh-tib-maqqari, source/shadharat-dhahab, source/nihayat-al-arab-nuwayri-vol1-scan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: died_in, target: place/aghmat, note: "From text: مات بها وقبره بمقبرة أغمات يزار", sources: [source/nafh-tib-maqqari, source/shadharat-dhahab, source/nihayat-al-arab-nuwayri-vol1-scan] }
+  - { type: buried_in, target: place/aghmat, note: "From text: قبره بمقبرة أغمات يزار", sources: [source/nafh-tib-maqqari, source/shadharat-dhahab, source/nihayat-al-arab-nuwayri-vol1-scan] }
+  - { type: ruler_of, target: place/seville, note: "From text: king of Seville", sources: [source/nafh-tib-maqqari, source/shadharat-dhahab, source/nihayat-al-arab-nuwayri-vol1-scan] }

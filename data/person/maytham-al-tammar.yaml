@@ -13,6 +13,7 @@ regions: [levant-iraq]
 periods: [period/umayyad]
 sources: [source/al-aalam]
 relations:
+  - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam] }
 external_ids:
   wikidata: Q169533

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+relations:
+  - { type: born_in, target: place/thadig, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q97295632)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q125493827

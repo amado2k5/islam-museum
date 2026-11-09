@@ -15,6 +15,7 @@ periods: [period/abbasid-early]
 regions: [levant-iraq, persia-central-asia]
 traditions: [shia-twelver]
 relations:
+  - { type: traveled_to, target: place/baghdad, note: "From text: moved to Baghdad", sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
   - { type: born_in, target: place/kulayn, sources: [source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/duha-islam] }
   - { type: student_of, target: person/muhammad-ibn-ali-alan, sources: [source/encyclopaedia-of-islam-2] }

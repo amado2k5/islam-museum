@@ -17,3 +17,5 @@ provenance:
   model: "unknown"
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); EI2 account added in part 3cs" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy], confidence: low }

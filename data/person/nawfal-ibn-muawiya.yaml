@@ -15,6 +15,7 @@ regions: [arabia]
 story_roles:
   - { role: military-opponent, toward: group/khuzaa, status: tradition, note: "خرج في بني الديل — وليس كل بني بكر — يبيّت خزاعة على الوتير؛ ولما ناشده أصحابه بحدود الحرم أبى أن يفيء وقال «أصيبوا ثأركم».", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: traveled_to, target: place/al-watir, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-al-dil }
   - { type: member_of, target: group/banu-bakr }
   - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: commander-raiding-party, sources: [source/ibn-hisham-saqqa] }

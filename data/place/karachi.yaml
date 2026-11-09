@@ -1,0 +1,37 @@
+id: place/karachi
+class: place
+kind: city
+label:
+  ar: كراتشي
+  en: Karachi
+  ur: کراچی
+summary:
+  ar: أكبر مدن باكستان وميناؤها على بحر العرب؛ كانت أول عاصمة للدولة الفتية، ونشأت من قرية الصيادين كولاتشي حتى صارت العاصمة التجارية للبلاد وموطن المهاجرين الناطقين بالأردية.
+  en: Largest city and port of Pakistan on the Arabian Sea; first capital of the new state, it grew from the Kolachi fishing village into the country's commercial capital and home of its Urdu-speaking muhajir population.
+  ur: پاکستان کا سب سے بڑا شہر اور بندرگاہ بحیرہ عرب پر؛ نئی ریاست کا پہلا دارالحکومت، ماہی گیر بستی کولاچی سے ابھر کر ملک کا تجارتی مرکز بنا۔
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 24.8607
+- 67.0011
+coordinate_precision: locality
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q8660
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q8660 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry; coordinates the city's gazetteer point

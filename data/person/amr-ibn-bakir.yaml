@@ -15,3 +15,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-5
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }

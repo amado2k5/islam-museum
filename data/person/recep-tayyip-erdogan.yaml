@@ -23,6 +23,7 @@ born:
 relations:
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-recep-tayyip-erdogan-en] }
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-recep-tayyip-erdogan-en] }
+  - { type: ruler_of, target: place/istanbul, sources: [source/wikipedia-recep-tayyip-erdogan-en, source/wikipedia-recep-tayyip-erdogan-ar, source/wikidata-recep-tayyip-erdogan, source/wikipedia-king-faisal-prize-en] }
 faith:
   - value: unknown
     basis: unknown

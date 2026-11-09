@@ -1,0 +1,38 @@
+id: place/kuala-lumpur
+class: place
+kind: city
+label:
+  ar: كوالالمبور
+  en: Kuala Lumpur
+  ur: کوالا لمپور
+summary:
+  ar: عاصمة ماليزيا وأكبر مدنها.
+  en: Federal territory and capital city of Malaysia.
+wings:
+- place
+regions:
+- southeast-asia
+coordinates:
+- 3.14778
+- 101.69528
+coordinate_precision: locality
+coordinate_note: Wikidata Q1865 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q1865
+  geonames: '1735161'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1865 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1865 (labels, coordinates, description)

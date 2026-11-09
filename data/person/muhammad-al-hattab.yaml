@@ -12,6 +12,9 @@ summary:
 gender: male
 roles: [jurist]
 wings: [people]
+relations:
+  - { type: died_in, target: place/tarabulus-gharb, sources: [source/wikidata], confidence: low, note: "ar: 'محمد بن محمد بن عبد الرحمن الرُّعيني، المعروف بالحطاب، فقيه مالكي من علماء المتصوفة، أصله من المغرب، ولد " }
+  - { type: lived_in, target: place/mecca, sources: [source/wikidata], confidence: low, note: "Of Moroccan origin, he became known in Mecca and died in Tripoli of the West." }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status:
   review: published

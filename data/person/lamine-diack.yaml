@@ -34,6 +34,9 @@ died:
   derived: true
   note: "Died at his home in Dakar, aged 88; the French article (citing Le Monde) and the English article and Wikidata agree. No place entity for Dakar exists in the museum, so the place is carried in this note and no died_in relation is written. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-lamine-diack-en, source/wikipedia-lamine-diack-fr, source/wikidata-lamine-diack]
+relations:
+  - { type: born_in, target: place/dakar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lamine-diack] }
+  - { type: died_in, target: place/dakar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lamine-diack] }
 faith:
   - value: unknown
     basis: unknown

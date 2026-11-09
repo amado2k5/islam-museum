@@ -35,6 +35,8 @@ died:
 relations:
   - { type: child_of, target: person/hasyim-asyari, sources: [source/wikipedia-wahid-hasyim-en, source/wikipedia-wahid-hasyim-id, source/wikipedia-wahid-hasyim-ar, source/wikidata-wahid-hasyim] }
   - { type: parent_of, target: person/abdurrahman-wahid, sources: [source/wikipedia-abdurrahman-wahid-en, source/wikidata-abdurrahman-wahid] }
+  - { type: born_in, target: place/java, sources: [source/wikipedia-wahid-hasyim-en, source/wikipedia-wahid-hasyim-id, source/wikipedia-wahid-hasyim-ar, source/wikidata-wahid-hasyim] }
+  - { type: died_in, target: place/java, sources: [source/wikipedia-wahid-hasyim-en, source/wikipedia-wahid-hasyim-id, source/wikidata-wahid-hasyim] }
 faith:
   - value: unknown
     basis: unknown

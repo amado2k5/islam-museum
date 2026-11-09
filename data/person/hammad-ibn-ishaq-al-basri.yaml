@@ -11,6 +11,8 @@ periods: [period/abbasid-early]
 regions: [levant-iraq, persia-central-asia]
 born: { edtf: "0814~", hijri: "0199", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ١٩٩؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 59}." }
 died: { edtf: "0881~", hijri: "0267", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٦٧؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 59}." }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with Baghdad per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، وفيات سنة 267)، قراءة آبل فيجن"

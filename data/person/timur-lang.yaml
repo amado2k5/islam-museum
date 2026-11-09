@@ -15,6 +15,9 @@ relations:
   - { type: participated_in, target: event/timur-delhi-801, role: "القائد الغازي", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/timur-sack-damascus-803, role: "القائد", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/battle-ankara-804, role: "الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: ruler_of, target: place/jurjan, sources: [source/shadharat-dhahab], confidence: low, note: "وفي شذرات الذهب نازل خوارزم فاتفق وفاة أميرها حسن المغلي واستقر أخوه يوسف فانتزعها اللنك ولم يزل إلى أن انتظم " }
+  - { type: ruler_of, target: place/samarqand, sources: [source/shadharat-dhahab], confidence: low, note: "وفي شذرات الذهب نازل خوارزم فاتفق وفاة أميرها حسن المغلي واستقر أخوه يوسف فانتزعها اللنك ولم يزل إلى أن انتظم " }
+  - { type: ruler_of, target: place/tabaristan, sources: [source/shadharat-dhahab], confidence: low, note: "وفي شذرات الذهب نازل خوارزم فاتفق وفاة أميرها حسن المغلي واستقر أخوه يوسف فانتزعها اللنك ولم يزل إلى أن انتظم " }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 753–763"

@@ -10,6 +10,8 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 relations:
   - { type: participated_in, target: event/sallam-sadd-expedition, role: "المبعوث الوحيد الذي اختاره الواثق لمعاينة السد", sources: [source/masalik-mamalik-ibn-khurdadhbih] }
+  - { type: ruled_over, target: place/armenia, sources: [source/masalik-mamalik-ibn-khurdadhbih], confidence: low, note: "en: 'Sallam the Interpreter — fluent in thirty tongues, and the only man al-Wathiq judged fit when a dream uns" }
+  - { type: ruled_over, target: place/tiflis, sources: [source/masalik-mamalik-ibn-khurdadhbih], confidence: low, note: "en: 'Sallam the Interpreter — fluent in thirty tongues, and the only man al-Wathiq judged fit when a dream uns" }
 provenance:
   layer: own-research
   source: "ابن خرداذبه، المسالك والممالك (BGA 6، دي غويه) ص 162-168"

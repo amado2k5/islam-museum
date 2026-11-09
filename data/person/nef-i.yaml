@@ -37,8 +37,9 @@ died:
   sources: [source/wikipedia-nef-i-tr, source/wikipedia-nef-i-fa, source/dia-nefi, source/wikipedia-nef-i-en, source/wikipedia-nef-i-ar]
 
 relations:
-  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-nef-i-en, source/wikipedia-nef-i-tr, source/wikidata-nef-i] }
 
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-nef-i-en, source/wikipedia-nef-i-tr, source/wikidata-nef-i] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-nef-i-en, source/wikipedia-nef-i-tr, source/wikipedia-nef-i-ar, source/wikipedia-nef-i-fa, source/dia-nefi, source/wikidata-nef-i] }
 faith:
   - value: sunni-maliki
     basis: self-identified

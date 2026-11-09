@@ -38,6 +38,7 @@ faith:
     note: "No source consulted names a school or order for Qodiriy. The Uzbek infobox records Islam in general in its religion field; the English and Russian infoboxes carry no religion field, and Wikidata records no religion value. His schooling at a Muslim school in 1904–1906 is formation, and the Jadid influence on his early work is a movement descriptor, not a school. With no school reading in any source, the value is unknown under the two-source rule (generic-only configuration)."
     sources: [source/wikipedia-qodiriy-en, source/wikipedia-qodiriy-ru, source/wikipedia-qodiriy-uz, source/wikidata-qodiriy]
 relations:
+  - { type: lived_in, target: place/uzbekistan, note: "From text: Uzbek (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-qodiriy-en, source/wikipedia-qodiriy-ru, source/wikipedia-qodiriy-uz, source/wikidata-qodiriy], confidence: low }
   - type: allied_with
     target: person/abdurauf-fitrat
     note: "The Uzbek article states that Qodiriy was executed together with his like-minded colleagues (maslakdoshlar), among them Cho'lpon and Abdurauf Fitrat."

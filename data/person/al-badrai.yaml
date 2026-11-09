@@ -17,6 +17,7 @@ faith:
   - value: sunni-shafii
     basis: tradition
 relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: qadi of Baghdad", sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

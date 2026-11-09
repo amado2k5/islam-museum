@@ -1,0 +1,16 @@
+id: place/ottawa
+class: place
+kind: city
+label: { en: "Ottawa", ar: "أوتاوا" }
+summary:
+  en: "Capital city of Canada."
+  ar: "مدينة في كندا."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [45.4247, -75.695]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q1930", geonames: "6094817" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q1930 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

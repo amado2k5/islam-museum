@@ -18,3 +18,5 @@ provenance:
 external_ids: { wikidata: "Q12177895" }
 sources: [source/wafayat-ayan, source/taqrib-al-tahdhib]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/wafayat-ayan, source/taqrib-al-tahdhib], confidence: low }

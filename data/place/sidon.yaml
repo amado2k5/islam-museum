@@ -1,0 +1,36 @@
+id: place/sidon
+class: place
+kind: city
+label:
+  ar: صيدا
+  en: Sidon
+  ur: صیدا
+summary:
+  ar: مدينة ساحلية في لبنان جنوب بيروت.
+  en: Coastal city in Lebanon south of Beirut.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 33.56
+- 35.37
+coordinate_precision: locality
+coordinate_note: Identified location; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q163490
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q163490 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

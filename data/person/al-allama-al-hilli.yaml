@@ -20,6 +20,7 @@ regions: [levant-iraq, persia-central-asia]
 periods: [period/mongol-post-mongol]
 themes: [sects-and-schools, creed]
 relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/minhaj-sunna-shamela, source/al-aalam], confidence: low }
   - { type: authored, target: work/minhaj-al-karamah, sources: [source/minhaj-sunna-shamela] }
 sensitivity: contested
 sources: [source/minhaj-sunna-shamela, source/al-aalam]

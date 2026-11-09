@@ -7,12 +7,16 @@ summary:
   en: "A region of southern Arabia; the Prophet appointed over it Ziyad ibn Labid al-Bayadi al-Ansari — on which al-Baladhuri's transmitters agree — and it held lands the Prophet granted in iqta' to Alqama ibn Wa'il al-Hadrami."
 wings: [place]
 regions: [arabia]
+coordinates: [16.666666666667, 49.5]
+coordinate_precision: approx
+coordinate_note: "Matched to Wikidata Q241135 by name; coordinates approximate until verified against a gazetteer."
 relations:
   - { type: part_of, target: place/yemen, sources: [source/futuh-buldan-maarif-1407] }
+external_ids: { wikidata: "Q241135" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 93 و99"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-4
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

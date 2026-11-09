@@ -22,6 +22,8 @@ born:
   sources: [source/wikipedia-djamel-belmadi-en, source/wikipedia-djamel-belmadi-ar]
 gender: male
 roles: [athlete]
+relations:
+  - { type: lived_in, target: place/algeria, confidence: low, note: "Associated with الجزائر per the record's own summary text; relation type pending review.", sources: [source/wikipedia-djamel-belmadi-en] }
 faith:
   - value: unknown
     basis: unknown

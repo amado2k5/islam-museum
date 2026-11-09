@@ -16,7 +16,8 @@ regions: [andalus-europe, levant-iraq]
 faith:
   - value: sunni-maliki
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
 sources: [source/shadharat-dhahab]
 status:
   review: published

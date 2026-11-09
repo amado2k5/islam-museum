@@ -1,14 +1,38 @@
 id: place/petra
 class: place
 kind: city
-label: { en: "Petra (al-Batraʾ)", ar: "البتراء" }
+label:
+  en: Petra (al-Batraʾ)
+  ar: البتراء
 summary:
-  en: "Capital of the Nabataeans — the descendants of Nabit ibn Ismail in the traditional account — in northern Hijaz, whose strong kingdom dominated the fringes until the Romans broke it."
-  ar: "عاصمة الأنباط — أبناء نابت بن إسماعيل في العرض النسقي — بشمال الحجاز، وكانت حكومتهم القوية لا يستطيع مناوأتها أحد حتى نقضها الرومان."
-wings: [place]
-periods: [period/pre-islamic-arabia]
-regions: [arabia]
+  en: Capital of the Nabataeans — the descendants of Nabit ibn Ismail in the traditional account — in northern Hijaz, whose
+    strong kingdom dominated the fringes until the Romans broke it.
+  ar: عاصمة الأنباط — أبناء نابت بن إسماعيل في العرض النسقي — بشمال الحجاز، وكانت حكومتهم القوية لا يستطيع مناوأتها أحد حتى
+    نقضها الرومان.
+wings:
+- place
+periods:
+- period/pre-islamic-arabia
+regions:
+- arabia
+coordinates:
+- 30.3285
+- 35.4444
+coordinate_precision: site
+sources:
+- source/mubarakpuri-raheeq
+- source/tarikh-ard-al-quran
+- source/geonames-gazetteer
+- source/nomisma
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)
+provenance:
+  layer: own-research
+  generated_by: Devin (SWE-2 High)
+  run: person-place-geo-c
+  source: Provenance added by the geo-enrichment pass; the record predates the lane and its original extraction details are
+    not recorded.
 external_ids:
-  nomisma: "petra_arabia"
-sources: [source/mubarakpuri-raheeq, source/tarikh-ard-al-quran, source/nomisma]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
+  nomisma: petra_arabia

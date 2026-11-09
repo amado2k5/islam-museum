@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/abbasid-early]
 relations:
   - { type: related_to, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: lived_in, target: place/baghdad, note: "Al-Mamun's vizier administering Iraq and the western lands.", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: medium }
 provenance:
   layer: own-research
   source: "المسعودي، مروج الذهب وأهل المعاجن"

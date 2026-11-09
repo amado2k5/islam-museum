@@ -12,6 +12,9 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/colonial-era]
 died: { edtf: "1882", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/sinop, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q599416)" }
+  - { type: died_in, target: place/manisa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q147089)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3658437

@@ -27,6 +27,8 @@ faith:
     note: "No source read for this record names a school or madhhab for Al-Jaber himself, and none states his religion. The English Wikipedia article makes no statement of his religion anywhere in its text; its personal-life section speaks only of his advocacy of football reform and his criticism of the Saudi federation's protectionist policy. The Arabic article likewise makes no statement of his religion; its only Ramadan references concern the talk show That (ذات), which he presented on Saudi television during Ramadan 2022 and again in Ramadan 2023 — television programming scheduled for Ramadan, which is not a statement of his faith and names no school. Wikidata Q299555 carries no religion value at all. Saudi Arabia's Hanbali tradition is the country's milieu, which under the lane rule may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
     sources: [source/wikipedia-sami-al-jaber-en, source/wikipedia-sami-al-jaber-ar, source/wikidata-sami-al-jaber]
 external_ids: { wikidata: "Q299555" }
+relations:
+  - { type: born_in, target: place/riyadh, sources: [source/wikidata-sami-al-jaber], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3692)" }
 sources: [source/wikipedia-sami-al-jaber-en, source/wikipedia-sami-al-jaber-ar, source/wikidata-sami-al-jaber]
 provenance:
   layer: own-research

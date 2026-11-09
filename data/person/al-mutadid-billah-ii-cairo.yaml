@@ -14,3 +14,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-50
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruler_of, target: place/cairo, note: "From text: خليفة القاهرة [٨١٥–٨٤٥هـ]", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }

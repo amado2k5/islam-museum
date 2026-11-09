@@ -15,6 +15,9 @@ regions: [south-asia]
 periods: [period/gunpowder-empires]
 relations:
   - { type: child_of, target: person/mirza-ghiyas-beg }
+  - { type: born_in, target: place/kandahar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q45604)" }
+  - { type: died_in, target: place/lahore, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q11739)" }
+  - { type: buried_in, target: place/tomb-of-nur-jahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q17026183)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q541530

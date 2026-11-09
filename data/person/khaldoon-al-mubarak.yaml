@@ -19,6 +19,9 @@ born:
   status: debated
   note: "The English article's text and infobox give 27 January 1976, born in Abu Dhabi, and that reading is followed here. The Arabic article gives 1 December 1975 and Wikidata's statement gives 1 January 1976; both rival readings are preserved, and the queue row's 1975 follows the Arabic reading. Because the rival readings fall in different Hijri years, no Hijri year is recorded. No place entity for Abu Dhabi exists on main, so no birthplace is recorded in this block."
   sources: [source/wikipedia-khaldoon-al-mubarak-en, source/wikipedia-khaldoon-al-mubarak-ar, source/wikidata-khaldoon-al-mubarak]
+relations:
+  - { type: born_in, target: place/united-arab-emirates, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khaldoon-al-mubarak] }
+  - { type: born_in, target: place/abu-dhabi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khaldoon-al-mubarak] }
 faith:
   - value: unknown
     basis: unknown

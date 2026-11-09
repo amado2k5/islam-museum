@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: born_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q839456)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
+  - { type: buried_in, target: place/city-of-the-dead, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2066414)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q22928507

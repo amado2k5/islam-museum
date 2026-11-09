@@ -10,6 +10,11 @@ gender: male
 roles: [ruler]
 traditions: [sunni]
 relations:
+- type: lived_in
+  target: place/anatolia
+  note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review."
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: ruler_of
   target: polity/marwanid-dynasty
   sources:

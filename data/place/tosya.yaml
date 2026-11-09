@@ -1,0 +1,21 @@
+id: place/tosya
+class: place
+kind: town
+label: { ar: "طوسيه", en: "Tosya", ur: "توسیا" }
+summary:
+  ar: "بلدة في تركيا."
+  en: "Town in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.01694444444445, 34.038333333333334]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q255479" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q255479 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

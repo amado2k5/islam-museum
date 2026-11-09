@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born on 18 January 1960 at Temerloh, Pahang, as the English, Arabic, Urdu and Indonesian articles and Wikidata give. The Hijri year (1379) is by tabular conversion. Temerloh has no place entity, so no born_in relation is written."
   sources: [source/wikipedia-ismail-sabri-yaakob-en, source/wikipedia-ismail-sabri-yaakob-ar, source/wikipedia-ismail-sabri-yaakob-ur, source/wikipedia-ismail-sabri-yaakob-id, source/wikidata-ismail-sabri-yaakob]
+relations:
+  - { type: born_in, target: place/temerloh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ismail-sabri-yaakob] }
 faith:
   - value: unknown
     basis: unknown

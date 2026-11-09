@@ -12,6 +12,7 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [egypt-nile]
 relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: student_of, target: person/marthad-ibn-abd-allah-al-yazani, sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:

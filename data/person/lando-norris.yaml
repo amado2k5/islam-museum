@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born 13 November 1999 in Bristol. No place entity for Bristol exists, so no born_in relation is written and the birthplace is recorded here and in prose only. The Hijri year 1420 is the tabular conversion of 13 November 1999 and is marked derived."
   sources: [source/wikipedia-lando-norris-en, source/wikipedia-lando-norris-tr, source/wikipedia-lando-norris-ar, source/wikidata-lando-norris]
+relations:
+  - { type: born_in, target: place/bristol, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lando-norris] }
 faith:
   - value: unknown
     basis: unknown

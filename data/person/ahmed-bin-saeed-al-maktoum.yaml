@@ -40,3 +40,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-ahmed-bin-saeed-al-maktoum-en, source/wikipedia-ahmed-bin-saeed-al-maktoum-ar, source/wikidata-ahmed-bin-saeed-al-maktoum]
+relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (المدني); denotes association, not proven residence.", sources: [source/wikipedia-ahmed-bin-saeed-al-maktoum-en, source/wikipedia-ahmed-bin-saeed-al-maktoum-ar, source/wikidata-ahmed-bin-saeed-al-maktoum], confidence: low }

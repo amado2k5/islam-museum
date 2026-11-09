@@ -23,3 +23,5 @@ provenance:
   generated_by: "Claude Code (claude-haiku-5-5)"
 died: { edtf: "1736", hijri: "1149", calendar: julian, precision: year, status: tradition, derived: false, note: "Died in retirement 1149/1736, EI2.", sources: [source/encyclopaedia-of-islam-2] }
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

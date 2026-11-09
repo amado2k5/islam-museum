@@ -15,3 +15,5 @@ periods: [period/modern-era]
 sources: [source/nazarat-fi-al-tajdid-azhar]
 provenance: { layer: own-research, source: "Nazarat fi al-Tajdid, Academy 2018, PDF pp. 4 and 13 (title page and introduction signature)", generated_by: "Claude Code (claude-haiku-5-5)", model: "claude-haiku-5-5", run: "azhar-nazarat-fi-al-tajdid-azhar-batch1" }
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); title as printed on the book, dates of office need a second source" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/nazarat-fi-al-tajdid-azhar], confidence: low }

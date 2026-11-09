@@ -35,6 +35,7 @@ died:
     - source/wikidata-ibn-abdun
 
 relations:
+  - { type: born_in, target: place/seville, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibn-abdun] }
   - { type: born_in, target: place/seville }
 
 faith:

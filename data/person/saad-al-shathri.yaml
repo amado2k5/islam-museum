@@ -23,6 +23,8 @@ born:
   sources: [source/wikipedia-saad-al-shathri-ar, source/wikipedia-saad-al-shathri-en]
 relations:
   - { type: child_of, target: person/nasir-al-shathri, sources: [source/wikipedia-saad-al-shathri-ar, source/saudipedia-saad-al-shathri] }
+
+  - { type: lived_in, target: place/arafat, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-saad-al-shathri-ar, source/wikipedia-saad-al-shathri-en, source/saudipedia-saad-al-shathri, source/youtube-drsuadtv] }
 faith:
   - value: unknown
     basis: unknown

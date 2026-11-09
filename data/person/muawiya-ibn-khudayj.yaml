@@ -12,6 +12,8 @@ relations:
   - { type: participated_in, target: event/first-raid-on-sicily, role: "أول الغازين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/sulh-al-nuba, role: "مفقوء العين", sources: [source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba] }
   - { type: member_of, target: group/banu-kinda, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: born_in, target: place/arabian-peninsula, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q31945)" }
+  - { type: died_in, target: place/misr, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q79)" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 310"

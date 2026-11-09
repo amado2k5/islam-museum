@@ -27,3 +27,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch62
+relations:
+  - { type: lived_in, target: place/fes, confidence: low, note: "Association inferred from the nisba 'الفاسي'; specific birthplace or residence is not individually documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

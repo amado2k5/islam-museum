@@ -18,6 +18,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح." }
 relations:
+  - { type: lived_in, target: place/hudaybiyya, confidence: low, note: "Associated with Hudaybiyya per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }

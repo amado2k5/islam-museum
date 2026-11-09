@@ -12,6 +12,7 @@ themes: [creed]
 died:
   { edtf: "1020-03~", hijri: "0410-11", calendar: julian, precision: month, status: tradition, derived: true, note: "ذو القعدة 410هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.295}" }
 relations:
+  - { type: died_in, target: place/baghdad, note: "From text: died in Baghdad", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: buried_in, target: place/baghdad, role: "إلى جانب قبر الإمام أحمد بمقبرة باب حرب", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

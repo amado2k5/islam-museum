@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: died_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q25452438

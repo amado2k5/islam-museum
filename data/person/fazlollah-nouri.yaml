@@ -32,6 +32,8 @@ died:
   derived: false
   note: "Hanged at Tehran on 13 Rajab 1327, which is 31 July 1909: English Wikipedia gives 31 July 1909, and the Encyclopaedia Iranica gives the same Hijri date although it prints 'July 7, 1909' beside it — an internal inconsistency in the entry, disclosed here; the Hijri anchor and the English article agree on 31 July. He had been tried and convicted of 'sowing corruption and sedition on earth'. English Wikipedia records his resting place as the Fatima Masumeh Shrine at Qom; no place entity for Tehran or Qom exists in the museum, so the places are carried in this note only."
   sources: [source/wikipedia-fazlollah-nouri-en, source/iranica-fazlollah-nouri]
+relations:
+  - { type: died_in, target: place/tehran, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fazlollah-nouri-en, source/iranica-fazlollah-nouri] }
 faith:
   - value: shia-twelver
     basis: documented

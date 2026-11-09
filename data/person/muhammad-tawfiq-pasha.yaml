@@ -37,6 +37,7 @@ died:
 relations:
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-tewfik-pasha-en, source/wikipedia-tewfik-pasha-fr] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-tewfik-pasha-en] }
+  - { type: died_in, target: place/hulwan, sources: [source/wikipedia-tewfik-pasha-en, source/wikipedia-tewfik-pasha-ar, source/wikipedia-tewfik-pasha-fr, source/wikidata-tewfik-pasha] }
 faith:
   - value: unknown
     basis: unknown

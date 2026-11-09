@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [andalus-europe]
 relations:
+  - { type: lived_in, target: place/sarqusta, confidence: low, note: "Associated with سرقسطة per the record's own summary text; relation type pending review.", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: participated_in, target: event/paderborn-pact-160, role: "والي سرقسطة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:

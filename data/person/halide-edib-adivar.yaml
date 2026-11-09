@@ -30,6 +30,7 @@ died:
   note: "Gregorian date and Istanbul place of death from English and Arabic Wikipedia and Wikidata Q234289; she was buried in the Merkezefendi Cemetery in Istanbul. The Hijri year (1383) is derived by tabular conversion."
   sources: [source/wikipedia-halide-edib-adivar-en, source/wikipedia-halide-edib-adivar-ar, source/wikidata-halide-edib-adivar]
 relations:
+  - { type: buried_in, target: place/merkezefendi-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-halide-edib-adivar] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-halide-edib-adivar-en, source/wikidata-halide-edib-adivar] }
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-halide-edib-adivar-en, source/wikipedia-halide-edib-adivar-ar] }
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-halide-edib-adivar-en] }

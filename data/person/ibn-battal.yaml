@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
 relations:
+  - { type: lived_in, target: place/cordoba, confidence: low, note: "Maliki hadith scholar Ali ibn Khalaf ibn Battal of Cordoba per the record's own summary.", sources: [source/kashf-zunun-furqan] }
   - { type: authored, target: work/al-itisam-ibn-battal, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research

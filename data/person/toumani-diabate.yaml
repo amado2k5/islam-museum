@@ -35,6 +35,9 @@ faith:
     note: "No source consulted names a school for him. The English, French and Arabic Wikipedia articles state no religion; Wikidata (Q380711) gives only Islam (Q432) generically — one structured-data value naming no school. His griot lineage, which the French article counts at seventy-one generations, and the devotional material inside his repertoire — including the song whose Arabic lyrics used verses of the Qur'an — are lineage and work, not an attestation of a personal school. Under the two-source rule his faith is recorded as unknown."
     sources: [source/wikipedia-toumani-diabate-en, source/wikipedia-toumani-diabate-fr, source/wikipedia-toumani-diabate-ar, source/wikidata-toumani-diabate]
 external_ids: { wikidata: "Q380711" }
+relations:
+  - { type: born_in, target: place/bamako, sources: [source/wikidata-toumani-diabate], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3703)" }
+  - { type: lived_in, target: place/africa, sources: [source/wikidata-toumani-diabate], confidence: low, note: "Wikidata P937 work location (Wikidata Q15)" }
 sources: [source/wikipedia-toumani-diabate-en, source/wikipedia-toumani-diabate-fr, source/wikipedia-toumani-diabate-ar, source/wikidata-toumani-diabate]
 provenance:
   layer: own-research

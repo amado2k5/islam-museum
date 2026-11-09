@@ -40,6 +40,8 @@ died:
   sources: [source/wikipedia-bulleh-shah-en, source/wikipedia-bulleh-shah-ur, source/wikipedia-bulleh-shah-pa, source/wikidata-bulleh-shah]
 
 relations:
+  - { type: born_in, target: place/uch, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bulleh-shah] }
+  - { type: died_in, target: place/kasur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bulleh-shah] }
   - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-bulleh-shah-en, source/wikipedia-bulleh-shah-ur] }
 
 faith:

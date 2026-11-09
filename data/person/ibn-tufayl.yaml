@@ -13,6 +13,11 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 died: { edtf: "1185", hijri: "0581~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "توفي سنة 1185م {cite:al-aalam p. 937}", sources: [source/al-aalam] }
 relations:
+  - { type: born_in, target: place/guadix, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/purchena, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/t-jola, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/marrakesh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/seville, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/hayy-ibn-yaqzan, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 provenance:

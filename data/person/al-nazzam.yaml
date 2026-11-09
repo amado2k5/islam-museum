@@ -13,7 +13,12 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
 external_ids: { wikidata: "Q287501" }
-sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/nihayat-al-arab-nuwayri-vol3-scan, source/hayawan-jahiz-ilmiyya-2003-v1, source/hayawan-jahiz-ilmiyya-2003-v2, source/hayawan-jahiz-ilmiyya-2003-v3, source/farq-bayn-al-firaq-tawfiqiyya]
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/nihayat-al-arab-nuwayri-vol3-scan, source/hayawan-jahiz-ilmiyya-2003-v1, source/hayawan-jahiz-ilmiyya-2003-v2, source/hayawan-jahiz-ilmiyya-2003-v3, source/farq-bayn-al-firaq-tawfiqiyya, source/wikidata]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: born_in, target: place/basra, note: "Wikidata Q48195 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/basra, note: "Wikidata Q48195 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 regions: [maghreb]
 relations:
+  - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/kashf-zunun-furqan], confidence: low }
   - { type: authored, target: work/umm-al-barahin, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research

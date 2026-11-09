@@ -34,6 +34,7 @@ died:
   note: "Both articles give only the year 1923; the English article states that he spent his last years in Istanbul and died there in 1923, and Wikidata's death value is Istanbul, so the died_in edge is written on that agreement. No source consulted gives a day or month. The Hijri year 1341 is the derived conversion of 1923."
   sources: [source/wikipedia-hasan-rami-pasha-en, source/wikipedia-hasan-rami-pasha-tr, source/wikidata-hasan-rami-pasha]
 relations:
+  - { type: born_in, target: place/salonik, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-rami-pasha] }
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-hasan-rami-pasha-en, source/wikidata-hasan-rami-pasha] }
 faith:
   - value: unknown

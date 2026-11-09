@@ -12,6 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/colonial-era]
 died: { edtf: "1876", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q8061969

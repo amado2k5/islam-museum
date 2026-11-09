@@ -10,10 +10,13 @@ periods: [period/rashidun]
 regions: [levant-iraq]
 relations:
   - { type: part_of, target: place/jerusalem, note: "من أعمال جند فلسطين", sources: [source/futuh-buldan-maarif-1407] }
+coordinates: [31.67, 34.57]
+coordinate_precision: locality
+coordinate_note: "Identified modern location; flagged for gazetteer verification."
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 194، 196"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-10
-sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2]
+sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2, source/geonames-gazetteer]
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); EI2 sections added by Claude Code" }

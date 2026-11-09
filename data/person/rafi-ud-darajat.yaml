@@ -13,6 +13,9 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/mughal-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q33296)" }
+  - { type: died_in, target: place/agra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q42941)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3236324

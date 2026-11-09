@@ -18,3 +18,5 @@ provenance:
   model: swe-2-high
   run: lib-kamil-23
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/kamil-ibn-al-athir], confidence: low }

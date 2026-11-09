@@ -13,6 +13,8 @@ regions: [anatolia-balkans]
 periods: [period/contemporary-era]
 born: { edtf: "1898", precision: year, status: tradition, derived: true }
 died: { edtf: "1964", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q57955146

@@ -20,3 +20,5 @@ provenance:
   run: lib-muntazam-258-349-batch33
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Transmitted hadith under Abu Dawud al-Tayalisi, whose circle was Basran; residence inferred, flagged for review.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }

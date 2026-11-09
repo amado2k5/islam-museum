@@ -11,6 +11,11 @@ roles: [sultan]
 traditions: [sunni]
 died: { edtf: "1331", hijri: "0731", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك سنة 731هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
+- type: lived_in
+  target: place/maghreb
+  note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review."
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: ruler_of
   target: polity/marinid-dynasty
   sources:

@@ -25,3 +25,6 @@ provenance:
 status:
   review: published
   completeness: 2
+relations:
+  - { type: born_in, target: place/sirhind, note: "From text: born at Sirhind", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: buried_in, target: place/sirhind, note: "From text: buried at Sirhind", sources: [source/al-aalam, source/encyclopaedia-of-islam-2] }

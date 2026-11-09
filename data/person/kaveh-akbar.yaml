@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Gregorian date and Tehran birthplace from English Wikipedia, the Persian Wikipedia and Wikidata, all in agreement. The Hijri year (1409) is derived from the Gregorian date. Tehran has no place entity, so no born_in edge is written and the birthplace is carried in the summary and prose."
   sources: [source/wikipedia-kaveh-akbar-en, source/wikipedia-kaveh-akbar-fa, source/wikidata-kaveh-akbar]
+relations:
+  - { type: born_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kaveh-akbar] }
 faith:
   - value: unknown
     basis: unknown

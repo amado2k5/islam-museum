@@ -13,6 +13,9 @@ roles: [historian, scholar]
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
+relations:
+  - { type: born_in, target: place/p-cs, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q45779)" }
+  - { type: died_in, target: place/buda, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q193478)" }
 sources: [source/sicill-i-osmani]
 external_ids:
   wikidata: Q694908

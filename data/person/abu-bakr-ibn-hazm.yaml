@@ -11,3 +11,5 @@ regions: [arabia]
 sources: [source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020]
 provenance: { layer: own-research, source: "umayyad-birth-to-fall-2006 pp. 169, 172", generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 pp. 169, 172" }
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 pp. 169, 172" }
+relations:
+  - { type: ruler_of, target: place/medina, note: "From text: governor of Medina", sources: [source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020] }

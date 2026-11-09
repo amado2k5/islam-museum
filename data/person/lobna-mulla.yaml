@@ -12,6 +12,8 @@ summary:
 roles: [teacher]
 wings: [people, living]
 regions: [americas-oceania]
+relations:
+  - { type: lived_in, target: place/los-angeles, confidence: low, note: "Associated with لوس أنجلوس per the record's own text; relation type pending review.", sources: [source/listennotes-lobna-mulla] }
 faith:
   - value: unknown
     basis: unknown

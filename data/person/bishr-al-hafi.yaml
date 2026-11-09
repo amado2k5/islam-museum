@@ -7,6 +7,12 @@ summary:
   en: "The celebrated barefoot ascetic of Merv — dead at Baghdad in 227 {cite:muruj-al-dhahab p. 453}."
 gender: male
 wings: [people]
+relations:
+  - { type: born_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/tustar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/baghdad-cemeteries, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/delgosha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "المسعودي، مروج الذهب وأهل المعاجن"

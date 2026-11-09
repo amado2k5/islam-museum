@@ -8,6 +8,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [south-asia]
 relations:
+  - { type: lived_in, target: place/sind, confidence: low, note: "Associated with السند per the record's own summary text; relation type pending review.", sources: [source/umayyad-birth-to-fall-2006] }
   - { type: participated_in, target: event/conquest-of-sind-89, role: "أمير سندي أسلم في أثناء الفتح", sources: [source/umayyad-birth-to-fall-2006] }
 sources: [source/umayyad-birth-to-fall-2006]
 provenance: { layer: own-research, source: "umayyad-birth-to-fall-2006 p. 112", generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 p. 112" }

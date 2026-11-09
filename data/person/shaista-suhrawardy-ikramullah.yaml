@@ -39,6 +39,9 @@ faith:
     note: "Her school is not recorded: no text names a school for her, and the readings are preserved here. The English article calls her the first Muslim woman to earn a PhD from the University of London, an identity framing that names Islam generically and no school; the Urdu article gives her religion in its infobox as Islam, an infobox value on its own; and Wikidata's single religion value (P140) is Islam only — one structured family at most, never two independent attestations of a school. Her family background — the Suhrawardy family of Calcutta and Midnapore, descended in its own account from the Sufi Shihab al-Din Umar al-Suhrawardi — is ancestry, which never counts as an attestation of her own affiliation."
     sources: [source/wikipedia-shaista-suhrawardy-ikramullah-en, source/wikipedia-shaista-suhrawardy-ikramullah-ur, source/wikidata-shaista-suhrawardy-ikramullah]
 external_ids: { wikidata: "Q4199082" }
+relations:
+  - { type: born_in, target: place/kolkata, sources: [source/wikidata-shaista-suhrawardy-ikramullah], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1348)" }
+  - { type: died_in, target: place/karachi, sources: [source/wikidata-shaista-suhrawardy-ikramullah], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8660)" }
 sources: [source/wikipedia-shaista-suhrawardy-ikramullah-en, source/wikipedia-shaista-suhrawardy-ikramullah-ur, source/wikidata-shaista-suhrawardy-ikramullah]
 provenance:
   layer: own-research

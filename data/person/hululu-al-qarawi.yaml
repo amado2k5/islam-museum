@@ -17,6 +17,8 @@ periods: [period/gunpowder-empires]
 regions: [maghreb]
 story_roles:
   - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/qayrawan, confidence: low, note: "Associated with القيروان per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

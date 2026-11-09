@@ -40,6 +40,8 @@ faith:
     note: "No source names a school of Islam for him. The English article says he was born near Purworejo to a Muslim family and that his father was a local Islamic functionary — family background, which never counts. His Constitutional Assembly argument that the state should be founded on Islam, since most Indonesians were Muslims, is recorded as a political position; his party and organisational work (Muhammadiyah activism, the Indonesian Islamic Party, later Masyumi) is affiliation, which never counts. The Indonesian infobox carries no religion field, and Wikidata carries no religion value at all."
     sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id, source/wikidata-kasman-singodimedjo]
 relations:
+  - { type: born_in, target: place/purworejo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kasman-singodimedjo] }
+  - { type: died_in, target: place/jakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kasman-singodimedjo] }
   - { type: died_in, target: place/jakarta, sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id, source/wikidata-kasman-singodimedjo] }
   - { type: buried_in, target: place/jakarta, sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id] }
 external_ids: { wikidata: "Q16187634" }

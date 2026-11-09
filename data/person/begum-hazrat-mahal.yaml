@@ -31,6 +31,11 @@ died:
   derived: true
   note: "Died at Kathmandu, in the Kingdom of Nepal, on 7 April 1879 (English article and Wikidata; the Arabic and Urdu articles give the year 1879), and was buried in an unmarked grave in the grounds of Kathmandu's Jama Masjid, where her tomb is now looked after by the mosque's central committee. Kathmandu has no place entity in the museum yet, so no died_in or buried_in relation is written. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-begum-hazrat-mahal-en, source/wikipedia-begum-hazrat-mahal-ar, source/wikipedia-begum-hazrat-mahal-ur, source/wikidata-begum-hazrat-mahal]
+relations:
+  - { type: born_in, target: place/faizabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-begum-hazrat-mahal] }
+  - { type: died_in, target: place/kathmandu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-begum-hazrat-mahal] }
+  - { type: buried_in, target: place/kathmandu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-begum-hazrat-mahal] }
+  - { type: lived_in, target: place/lucknow, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-begum-hazrat-mahal] }
 faith:
   - value: unknown
     basis: unknown

@@ -1,0 +1,21 @@
+id: place/qal-at-bani-hammad
+class: place
+kind: town
+label: { ar: "قلعة بني حماد", en: "Qal'at Bani Hammad" }
+summary:
+  ar: "بلدة في الجزائر."
+  en: "Town in Algeria."
+wings: [place]
+regions: [maghreb]
+coordinates: [35.813888888889, 4.7933333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q500367" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q500367 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

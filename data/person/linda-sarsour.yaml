@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Only the year is given by the sources. The English Wikipedia article's infobox gives '1980, New York City' and its early-life section specifies Brooklyn; the Kennedy Center profile likewise gives 'born in 1980 in Brooklyn, New York, the eldest of seven children of Palestinian immigrants'. A specific day (19 March) circulates on low-authority celebrity and hall-of-fame sites but is given by neither source used here, so no day is recorded. No place entity for Brooklyn or New York City exists in data/place/, so no born_in relation is written. The Hijri year (1400, covering most of 1980) is derived by tabular conversion."
   sources: [source/wikipedia-linda-sarsour-en, source/kennedy-center-linda-sarsour]
+relations:
+  - { type: born_in, target: place/brooklyn, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-linda-sarsour-en, source/kennedy-center-linda-sarsour] }
 faith:
   - value: unknown
     basis: unknown

@@ -30,6 +30,8 @@ died:
   derived: true
   note: "Died on 19 July 2012 at Bellevue Hospital, New York City, United States, of colorectal cancer, per both Wikipedia articles. No place entity for New York City exists in data/place/, so no died_in relation is written. The Hijri year (1433) is derived by tabular conversion."
   sources: [source/wikipedia-humayun-ahmed-en, source/wikipedia-humayun-ahmed-ar, source/wikidata-humayun-ahmed]
+relations:
+  - { type: born_in, target: place/netrokona-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-humayun-ahmed] }
 faith:
   - value: unknown
     basis: unknown

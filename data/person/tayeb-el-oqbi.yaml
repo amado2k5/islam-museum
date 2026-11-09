@@ -37,6 +37,9 @@ faith:
     note: "The Arabic article's infobox gives his school as Maliki and his creed as Ahl al-Sunna wa-l-Jama'a. That is one infobox, which never counts on its own. The French text names no school: it describes a reformist scholar of the Association of Algerian Muslim Ulama who preached against the excesses of the maraboutic Sufi confréries — a position within the reform movement, not a madhhab attestation. Wikidata's religion value is 'Islam' only. Under the doubt rule, and the settled treatment of single-infobox cases, no school is recorded."
     sources: [source/wikipedia-tayeb-el-oqbi-ar, source/wikipedia-tayeb-el-oqbi-fr, source/wikidata-tayeb-el-oqbi]
 external_ids: { wikidata: "Q617525" }
+relations:
+  - { type: born_in, target: place/biskra, sources: [source/wikidata-tayeb-el-oqbi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q312759)" }
+  - { type: buried_in, target: place/algeria, sources: [source/wikidata-tayeb-el-oqbi], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q262)" }
 sources: [source/wikipedia-tayeb-el-oqbi-fr, source/wikipedia-tayeb-el-oqbi-ar, source/wikidata-tayeb-el-oqbi]
 provenance:
   layer: own-research

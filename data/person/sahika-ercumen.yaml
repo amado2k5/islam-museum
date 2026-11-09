@@ -27,6 +27,8 @@ faith:
     note: "None of the English or Turkish articles names a religion for her, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
     sources: [source/wikipedia-sahika-ercumen-en, source/wikipedia-sahika-ercumen-tr, source/wikidata-sahika-ercumen]
 external_ids: { wikidata: "Q388023" }
+relations:
+  - { type: born_in, target: place/anakkale, sources: [source/wikidata-sahika-ercumen], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q199712)" }
 sources: [source/wikipedia-sahika-ercumen-en, source/wikipedia-sahika-ercumen-tr, source/wikidata-sahika-ercumen]
 provenance:
   layer: own-research

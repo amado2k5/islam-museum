@@ -13,6 +13,8 @@ themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 died: { edtf: "1482-06~", hijri: "0887-05", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بزاويته بدمشق جمادى الأولى 887 عن 66 {cite:shadharat-dhahab p. 346}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with القاهرة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 887)، قراءة آبل فيجن"

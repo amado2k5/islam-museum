@@ -46,6 +46,8 @@ died:
     - source/wikidata-khalil-sultan
 
 relations:
+  - { type: born_in, target: place/harat, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
+  - { type: died_in, target: place/rayy, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
   - type: child_of
     target: person/miran-shah
     note: "His father Miran Shah, Timur's son: the English biography states the filiation throughout — born at Herat 'the son of Miran Shah by Sevin Beg, called Khanzada' — and Wikidata names the same father (Q936616). His mother Sevin Beg has no museum record, so no second edge is written. Timur (person/timur-lang) is his grandfather, but the schema has no grandparent predicate, so that descent is carried in the prose only."

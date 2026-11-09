@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
+relations:
+  - { type: born_in, target: place/riyadh, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3692)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q290198

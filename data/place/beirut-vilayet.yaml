@@ -1,0 +1,21 @@
+id: place/beirut-vilayet
+class: place
+kind: region
+label: { ar: "ولاية بيروت", en: "Beirut vilayet", ur: "ولایت بیروت" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q1162983)."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [33.8833, 35.5]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1162983" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1162983 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

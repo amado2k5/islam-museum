@@ -25,6 +25,7 @@ born:
   note: "Born at Ardakan in Yazd province on 14 October 1943; the English, Persian (21 Mehr 1322) and Arabic articles and Wikidata agree. The Urdu article gives 12 October 1931, an error of that edition recorded in its source file and not followed. The Hijri year is derived by tabular conversion from the Gregorian date."
   sources: [source/wikipedia-khatami-en, source/wikipedia-khatami-fa, source/wikidata-khatami]
 relations:
+  - { type: born_in, target: place/ardakan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - type: successor_of
     target: person/akbar-hashemi-rafsanjani
     note: "He succeeded Akbar Hashemi Rafsanjani as president of Iran in August 1997; the Arabic article infobox names Rafsanjani as his predecessor."

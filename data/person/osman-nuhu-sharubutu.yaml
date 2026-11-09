@@ -27,6 +27,8 @@ faith:
     note: "FLAGGED — two infobox families naming two different claims, no text attestation; one founder word settles him sufi/documented (on the Tijaniyyah reading) and/or sunni-maliki/documented (on the Arabic reading), or confirms unknown. What the sources give: the English article's infobox carries a denomination field naming the Tijaniyyah for him personally, referenced to a 2019 Pulse Ghana profile — a referenced infobox value, hence one attestation family (the referenced-infobox configuration of Muhammad al-Tahir ibn Ashur, wave 56 §B), and the English text never mentions the Tijaniyyah; the Arabic stub's unreferenced infobox gives creed Ahl al-Sunna wa-l-Jama'a and school Maliki — a second infobox family, but naming a different claim, and its text calls him only Grand Mufti of Ghana; the Urdu article is a translation of the English (one family) and its infobox is empty; Wikidata's religion value is Islam only. His offices — Grand Mufti and National Chief Imam — never count under the lane rules. Neither reading reaches two independent attestations, so the value stands unknown with both readings preserved."
     sources: [source/wikipedia-sharubutu-en, source/wikipedia-sharubutu-ar, source/wikipedia-sharubutu-ur, source/wikidata-sharubutu]
 external_ids: { wikidata: "Q16089789" }
+relations:
+  - { type: born_in, target: place/accra, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3761)" }
 sources: [source/wikipedia-sharubutu-en, source/wikipedia-sharubutu-ar, source/wikipedia-sharubutu-ur, source/wikidata-sharubutu]
 provenance:
   layer: own-research

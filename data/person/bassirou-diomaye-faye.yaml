@@ -34,6 +34,7 @@ faith:
     note: "No article text attests his religion personally. What exists is structure and filings, which never count: the French infobox gives his religion as Islam (Sunni); Wikidata's single religion value is Islam; the English article files him under Senegalese Sunni Muslims and the Arabic article under Senegalese Muslims and Senegalese Sunni Muslims. The French text's personal-life section gives the religions of his two wives — the first a Christian, the second a Muslim — which are their affiliations, not his attestation, and the campaign pledge quoted in the French article to harden the law on homosexuality 'par conviction religieuse' is political-religious positioning, not a school attestation. One structured family only, one full family short of sunni/documented (the moussa-traore configuration, waves 75–78 §A); the value stays unknown with the Sunni reading preserved here."
     sources: [source/wikipedia-bassirou-diomaye-faye-en, source/wikipedia-bassirou-diomaye-faye-ar, source/wikipedia-bassirou-diomaye-faye-fr, source/wikidata-bassirou-diomaye-faye]
 relations:
+  - { type: born_in, target: place/n-diaganiao, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bassirou-diomaye-faye] }
   - type: successor_of
     target: person/macky-sall
     sources: [source/wikipedia-bassirou-diomaye-faye-en, source/wikipedia-bassirou-diomaye-faye-fr]

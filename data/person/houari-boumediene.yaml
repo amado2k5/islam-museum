@@ -38,6 +38,7 @@ faith:
     note: "No text in any of the three articles names a school or madhhab for the man. FLAGGED for the founder: no school reading exists anywhere. The only religion datum is Wikidata's single religion value, Islam (Q432) in general — one structured-data family (the Erekat configuration); the Urdu article's categories file him under Algerian Muslims and Islamic socialists, which are category filings, not attestations. His studies at the Islamic Institute in Constantine and at al-Azhar are formation, his father's strict Islam is family background, and his constitutional making of Islam the state religion is state policy; none of these attests a personal school."
     sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar, source/wikipedia-houari-boumediene-ur, source/wikidata-houari-boumediene]
 relations:
+  - { type: buried_in, target: place/algiers, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-houari-boumediene] }
   - { type: successor_of, target: person/ahmed-ben-bella, sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar] }
   - { type: died_in, target: place/algiers, sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar, source/wikidata-houari-boumediene] }
 wings: [people]

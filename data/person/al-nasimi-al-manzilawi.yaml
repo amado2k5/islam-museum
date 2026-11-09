@@ -20,6 +20,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch90
+relations:
+  - { type: lived_in, target: place/al-sham, note: "Cited by al-Ghazzi in Kawakib al-Saira (Damascus-region biographies); died and was buried at his zawiya in baladat al-Nasimiyya, its location unverified.", sources: [source/shadharat-dhahab], confidence: low }
 sources: [source/shadharat-dhahab]
 status:
   review: published

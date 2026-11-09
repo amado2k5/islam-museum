@@ -26,6 +26,8 @@ faith:
     note: "Wikidata gives Sunni Islam. Neither the English nor the Arabic Wikipedia article gives a school for al-Asaad. Not recorded as sunni until a second source gives it."
     sources: [source/wikidata-riad-al-asaad, source/wikipedia-riad-al-asaad-en, source/wikipedia-riad-al-asaad-ar]
 external_ids: { wikidata: "Q714040" }
+relations:
+  - { type: born_in, target: place/idlib, sources: [source/wikidata-riad-al-asaad], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q504657)" }
 sources: [source/wikipedia-riad-al-asaad-en, source/wikipedia-riad-al-asaad-ar, source/wikidata-riad-al-asaad]
 provenance:
   layer: own-research

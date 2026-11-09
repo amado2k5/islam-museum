@@ -20,6 +20,10 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch81
+relations:
+  - { type: buried_in, target: place/al-muqattam, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'شاهين بن عبد الله الجركسي العابد الزاهد الشيخ العارف الدال المرشد؛ كان من مماليك السلطان قايتباي وكان مقر" }
+  - { type: ruled_over, target: place/tabriz, sources: [source/shadharat-dhahab], confidence: low, note: "en: 'Qaytbay's freed mamluk — he asked his master for manumission to worship, wandered to the 'Ajam lands, too" }
+  - { type: lived_in, target: place/tabriz, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'شاهين بن عبد الله الجركسي العابد الزاهد الشيخ العارف الدال المرشد؛ كان من مماليك السلطان قايتباي وكان مقر" }
 sources: [source/shadharat-dhahab]
 status:
   review: published

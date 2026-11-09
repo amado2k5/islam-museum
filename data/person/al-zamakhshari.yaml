@@ -21,6 +21,7 @@ regions: [persia-central-asia]
 born: { edtf: "1075-03~", hijri: "0467-07-17", calendar: julian, precision: day, status: tradition, derived: true, note: "الأربعاء 17 رجب 467هـ {cite:shadharat-dhahab p. 600}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1144-06-14", hijri: "0538-12-09", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة عرفة سنة ٥٣٨هـ بجرجانية خوارزم {cite:shadharat-dhahab p. 601}؛ ٩ ذي الحجة ٥٣٨هـ = ١٤ حزيران ١١٤٤م {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
 relations:
+  - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name (الخوارزمي); denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan, source/juha-nawadir-kubra-djuwaydi, source/encyclopaedia-of-islam-2, source/kashshaf-dar-al-marifa-shiha-2009], confidence: low }
   - { type: authored, target: work/asas-al-balagha, sources: [source/kashf-zunun-furqan] }
   - { type: participated_in, target: event/birth-al-zamakhshari-467, role: "المولود", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/al-zamakhshari-vow-512, role: "الناذر للزهد", sources: [source/encyclopaedia-of-islam-2] }

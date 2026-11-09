@@ -31,3 +31,5 @@ provenance:
   generated_by: "Claude Code (claude-haiku-5-5)"
   run: ei2-b001
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "Court/dynasty seat inferred from dynastic affiliation in record; flagged for review.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

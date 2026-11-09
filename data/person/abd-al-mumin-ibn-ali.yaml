@@ -15,3 +15,5 @@ provenance:
 external_ids: { wikidata: "Q307312" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 1, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name (القمي); denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }

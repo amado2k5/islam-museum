@@ -27,6 +27,9 @@ faith:
     note: "Neither the English nor the Turkish article names a religion for him, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
     sources: [source/wikipedia-riza-kayaalp-en, source/wikipedia-riza-kayaalp-tr, source/wikidata-riza-kayaalp]
 external_ids: { wikidata: "Q47699" }
+relations:
+  - { type: born_in, target: place/yozgat, sources: [source/wikidata-riza-kayaalp], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q210292)" }
+  - { type: lived_in, target: place/aksaray-q182025, sources: [source/wikidata-riza-kayaalp], confidence: low, note: "Wikidata P551 residence (Wikidata Q182025)" }
 sources: [source/wikipedia-riza-kayaalp-en, source/wikipedia-riza-kayaalp-tr, source/wikidata-riza-kayaalp]
 provenance:
   layer: own-research

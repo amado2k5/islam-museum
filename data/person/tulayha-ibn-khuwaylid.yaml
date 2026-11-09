@@ -27,6 +27,8 @@ relations:
   - { type: fought, target: person/khalid-ibn-al-walid, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
   - { type: participated_in, target: event/battle-of-buzakha, role: defeated-commander, sources: [source/tabari-donner-1993] }
   - { type: opposed, target: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
+
+  - { type: died_in, target: place/iraq, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993] }
 issue:
   ar: كيف يُقرأ طليحة بن خويلد في التراث السني وعند المؤرخين؟
   en: How is Tulayha ibn Khuwaylid read in the Sunni tradition and by historians?

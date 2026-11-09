@@ -30,6 +30,8 @@ died:
 roles: [politician, activist]
 regions: [maghreb]
 wings: [people]
+relations:
+  - { type: lived_in, target: place/qayrawan, confidence: low, note: "Associated with القيروان per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

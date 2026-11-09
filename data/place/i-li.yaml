@@ -1,0 +1,21 @@
+id: place/i-li
+class: place
+kind: town
+label: { ar: "إليج", en: "İliç", ur: "الیچ" }
+summary:
+  ar: "بلدة في تركيا."
+  en: "Town in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [39.455833333333, 38.564166666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q343776" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q343776 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

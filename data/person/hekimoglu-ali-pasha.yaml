@@ -14,6 +14,9 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 born: { hijri: "1110", edtf: "1699-02-16", calendar: julian, precision: day, status: tradition, derived: true, note: "١٥ شعبان ١١١٠هـ/١٦ فبراير ١٦٩٩م ليلة البراءة {cite:sicill-i-osmani vol. 1}", sources: [source/sicill-i-osmani] }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/k-tahya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/sicill-i-osmani]
 external_ids:
   wikidata: Q1584693

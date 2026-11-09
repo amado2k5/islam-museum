@@ -21,3 +21,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 309-310, article 'Ahmad Khan' (unsigned in the scan) (EI2 enrichment, batch ei2-b003 part 3cj); the article's bibliography is not reproduced"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/delhi, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/encyclopaedia-of-islam-2] }

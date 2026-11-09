@@ -15,6 +15,7 @@ regions: [levant-iraq, persia-central-asia]
 roles: [military]
 relations:
   - { type: child_of, target: person/nizam-al-mulk, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنوات 467–472)، قراءة آبل فيجن"

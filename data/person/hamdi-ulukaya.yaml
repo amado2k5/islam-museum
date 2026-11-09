@@ -18,6 +18,10 @@ born:
   status: historical
   note: "Only the year 1972 is safely attested. The English article says he uses 26 October as his birthday but is himself uncertain of his exact birth date, having been born during a family mountain trek, and Wikidata's statement likewise gives 26 October 1972; where the subject himself is uncertain of the exact day, the year alone is recorded. A bare year spans two hijri years, so no hijri year is recorded."
   sources: [source/wikipedia-hamdi-ulukaya-en, source/wikipedia-hamdi-ulukaya-ar, source/wikidata-hamdi-ulukaya]
+relations:
+  - { type: born_in, target: place/erzincan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamdi-ulukaya] }
+  - { type: born_in, target: place/i-li, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamdi-ulukaya] }
+  - { type: lived_in, target: place/new-berlin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamdi-ulukaya] }
 faith:
   - value: unknown
     basis: unknown

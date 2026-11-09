@@ -31,6 +31,8 @@ faith:
     note: "FLAGGED: Sunni is named only in structured data. Wikidata's religion claim is Sunni Islam (Q483654); the Arabic article's infobox gives Islam generically; the English article has no religion field, and its only religion-adjacent text is that he was born to a Punjabi Muslim family — family background, which is not an attestation. No text in any language names a school for him. On the wave-114 Ayub Khan and wave-115 Shehbaz Sharif configuration (Sunni named only in structured data) the value stays unknown."
     sources: [source/wikipedia-raja-pervaiz-ashraf-en, source/wikipedia-raja-pervaiz-ashraf-ar, source/wikidata-raja-pervaiz-ashraf]
 external_ids: { wikidata: "Q57811" }
+relations:
+  - { type: born_in, target: place/sind, sources: [source/wikidata], confidence: low, note: "Wikidata Q3472203 ('Sanghar'), located in Sindh (al-Sind)" }
 sources:
   - source/wikipedia-raja-pervaiz-ashraf-en
   - source/wikipedia-raja-pervaiz-ashraf-ar

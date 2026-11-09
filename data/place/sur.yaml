@@ -1,14 +1,33 @@
 id: place/sur
 class: place
 kind: city
-label: { ar: "صور", en: "Sur" }
+label:
+  ar: صور
+  en: Sur
 summary:
-  ar: "مدينة عامرة على ضفة البحر الفارسي في بلاد عمان، يُصاد فيها السمك، وشربها من الآبار. {cite:nuzhat-al-mushtaq-2002 p. 155}"
-  en: "A populated town on the shore of the Gulf in Oman, with fishing and drinking water from wells. {cite:nuzhat-al-mushtaq-2002 p. 155}"
-wings: [place]
-regions: [arabia]
-provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 155 (scan page)", generated_by: "Claude (Haiku 5.5)" }
+  ar: مدينة عامرة على ضفة البحر الفارسي في بلاد عمان، يُصاد فيها السمك، وشربها من الآبار. {cite:nuzhat-al-mushtaq-2002 p.
+    155}
+  en: A populated town on the shore of the Gulf in Oman, with fishing and drinking water from wells. {cite:nuzhat-al-mushtaq-2002
+    p. 155}
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 22.5667
+- 59.5289
+coordinate_precision: locality
+provenance:
+  layer: own-research
+  source: al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 155 (scan page)
+  generated_by: Claude (Haiku 5.5)
+sources:
+- source/nuzhat-al-mushtaq-2002
+- source/geonames-gazetteer
+- source/nomisma
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude (Haiku 5.5); page refs are scan indices
 external_ids:
-  nomisma: "sur"
-sources: [source/nuzhat-al-mushtaq-2002, source/nomisma]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
+  nomisma: sur

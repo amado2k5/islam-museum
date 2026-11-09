@@ -41,7 +41,8 @@ faith:
     basis: documented
     note: "Documented: two independent sources attest his personal affiliation to the Tijaniyya. The Tijaniyya's official Moroccan site, in a biography drawn from al-Mukhtar al-Susi's al-Ma'sul with a closing section by his daughter Zaynab Abu Aqil, states expressly that he was Tijani in his spiritual path, records his early authorisation (ijaza) in the Ahmadiyya-Tijaniyya from his teacher al-Hajj al-Husayn al-Ifrani, founder of the order's lodge at Tiznit, his further Sufi training under al-Hajj Abd Allah al-Ghashani and others, and his founding of about a hundred Tijani lodges across Morocco. Wikidata independently describes him as a Sufi jurist. The same biography also calls him Maliki in madhhab and Ash'ari in creed, but that school attestation rests on this one source only, so no Maliki segment is recorded; the wording is preserved here."
     sources: [source/tidjania-ahsan-al-baqili, source/wikidata-ahsan-al-baqili]
-relations: []
+relations:
+  - { type: lived_in, target: place/casablanca, note: "From text: settled in Casablanca", sources: [source/tidjania-ahsan-al-baqili, source/wikidata-ahsan-al-baqili] }
 sources: [source/tidjania-ahsan-al-baqili, source/wikidata-ahsan-al-baqili]
 external_ids:
   wikidata: "Q124745966"

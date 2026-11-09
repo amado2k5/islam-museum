@@ -1,0 +1,36 @@
+id: place/new-york-city
+class: place
+kind: city
+label:
+  ar: نيويورك
+  en: New York City
+summary:
+  ar: مدينة في الولايات المتحدة.
+  en: New York City; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 40.7128
+- -74.0061
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q60
+  geonames: '5128581'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q60 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q60 (labels, coordinates, description)

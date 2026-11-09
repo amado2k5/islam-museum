@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [arabia, levant-iraq]
 born: { edtf: "1370-10~", hijri: "0772-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بدمشق ربيع الأول 772 {cite:shadharat-dhahab p. 277}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1449~", hijri: "0853", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بمكة 853 {cite:shadharat-dhahab p. 277}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/sind, confidence: low, note: "Associated with السند per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 853)، قراءة آبل فيجن"

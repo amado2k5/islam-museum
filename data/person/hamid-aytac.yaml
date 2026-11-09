@@ -13,6 +13,10 @@ regions: [anatolia-balkans]
 periods: [period/modern-era]
 born: { edtf: "1891", precision: year, status: tradition, derived: true }
 died: { edtf: "1982", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/diyarbak-r, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/karacaahmet-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6673117

@@ -13,6 +13,7 @@ wings: [people, today]
 themes: [mathematics, education]
 regions: [egypt-nile]
 relations:
+  - { type: lived_in, target: place/murcia, note: "Place association from the person's nisba/name (مرسي); denotes association, not proven residence.", sources: [source/khwarizmi-jabr-cairo-1939], confidence: low }
   - { type: wrote_about, target: work/al-jabr-wal-muqabala, sources: [source/khwarizmi-jabr-cairo-1939] }
   - { type: wrote_about, target: person/al-khwarizmi, sources: [source/khwarizmi-jabr-cairo-1939] }
 sources: [source/khwarizmi-jabr-cairo-1939]

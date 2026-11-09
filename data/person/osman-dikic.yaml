@@ -33,7 +33,9 @@ faith:
     basis: unknown
     note: "No source names a school or order for him. The Bosnian biography records that he declared himself a Serb of the Islamic faith, and the English biography calls his family Serbian Muslim — an ethnic self-identification, not a madhhab attestation — and Wikidata gives only Islam. His Gajret secretaryship and editorships are cultural-political offices, which never count. Absence configuration, so the record is unflagged."
     sources: [source/wikipedia-osman-dikic-bs, source/wikipedia-osman-dikic-en, source/wikidata-osman-dikic]
-relations: []
+relations:
+
+  - { type: lived_in, target: place/belgrade, sources: [source/wikipedia-osman-dikic-en, source/wikipedia-osman-dikic-bs, source/wikipedia-osman-dikic-hr, source/wikidata-osman-dikic] }
 summary:
   ar: "شاعر وكاتب مسرحي ومحرر بوسني من موستار عرّف بنفسه صربياً من أهل الإسلام: تعلّم في بلغراد وإسطنبول وفيينا، وحرّر «موساوات» و«غيرت» وأسس صحيفة «ساموبرافا»، وكتب السيفدالينكا والمسرحيات الشعبية، وجمع خمسة آلاف بيت في «لؤلؤة الهرسك» للأكاديمية الصربية، ومات بالسل في الثالثة والثلاثين."
   en: "Bosnian poet, dramatist and editor from Mostar who declared himself a Serb of the Islamic faith: educated in Belgrade, Istanbul and Vienna, he edited Musavat and Gajret, founded the paper Samouprava, wrote sevdalinkas and folk dramas, collected the 5,000-verse Hercegovački biser for the Serbian Academy, and died of tuberculosis at thirty-three."

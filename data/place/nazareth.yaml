@@ -1,0 +1,21 @@
+id: place/nazareth
+class: place
+kind: city
+label: { ar: "الناصرة", en: "Nazareth", ur: "ناصرہ" }
+summary:
+  ar: "مدينة في إسرائيل."
+  en: "City in Israel."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [32.702102777778, 35.29785]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q430776" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q430776 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

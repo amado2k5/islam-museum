@@ -40,6 +40,7 @@ died:
   sources: [source/wikipedia-ahmad-shah-bahadur-en, source/wikidata-ahmad-shah-bahadur]
 
 relations:
+  - { type: born_in, target: place/delhi, note: "From text: born at Delhi.", sources: [source/wikipedia-ahmad-shah-bahadur-en, source/wikidata-ahmad-shah-bahadur] }
   - { type: born_in, target: place/delhi, sources: [source/wikidata-ahmad-shah-bahadur] }
   - { type: died_in, target: place/delhi, sources: [source/wikidata-ahmad-shah-bahadur] }
 

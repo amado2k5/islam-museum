@@ -22,6 +22,7 @@ born:
   sources: [source/wikipedia-ozlem-tureci-en, source/wikipedia-ozlem-tureci-tr, source/wikipedia-ozlem-tureci-ar, source/wikidata-ozlem-tureci]
 relations:
   - { type: spouse_of, target: person/ugur-sahin, sources: [source/wikipedia-ozlem-tureci-en, source/wikipedia-ozlem-tureci-tr] }
+  - { type: born_in, target: place/siegen, sources: [source/wikidata-ozlem-tureci], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3167)" }
 faith:
   - value: unknown
     basis: unknown

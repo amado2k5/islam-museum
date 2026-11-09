@@ -38,6 +38,8 @@ faith:
   basis: tradition
   note: أسلم واستشهد بأحد في رواية الواقدي؛ ويُسجَّل ضمن الإطار السني للمتحف (docs/scope.md) ولا يُحكم بأكثر من نقل الراوي.
 relations:
+
+- { type: lived_in, target: place/medina, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba, source/rawd-unuf-wakil-v6] }
 - type: member_of
   target: group/banu-nadir
   sources:

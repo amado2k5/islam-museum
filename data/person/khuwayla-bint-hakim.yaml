@@ -18,6 +18,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابية فاضلة." }
 relations:
+  - { type: lived_in, target: place/taif, confidence: low, note: "Associated with Ta'if per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-sulaym }
   - { type: spouse_of, target: person/uthman-ibn-mazun }
   - { type: participated_in, target: event/siege-of-taif, role: camp-companion, sources: [source/ibn-hisham-saqqa] }

@@ -14,3 +14,5 @@ provenance:
   run: lib-muruj-dhahab-batch-60
 sources: [source/muruj-al-dhahab, source/muqaddima-ibn-khaldun, source/nihayat-al-arab-nuwayri-vol3-scan, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy]
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); EI2 sections added by Claude Code (claude-haiku-5-5)" }
+relations:
+  - { type: ruler_of, target: place/rashid, note: "From text: صاحب العقد في مسامرة الرشيد له", sources: [source/muruj-al-dhahab, source/muqaddima-ibn-khaldun, source/nihayat-al-arab-nuwayri-vol3-scan, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy], confidence: low }

@@ -16,6 +16,7 @@ story_roles:
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "قرشي ما قبل الإسلام." }
 relations:
+  - { type: lived_in, target: place/zabid, note: "Place association from the person's nisba/name (الزبيدي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/hilf-al-fudul, role: "المطلوب إلى حق الزبيدي", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi]

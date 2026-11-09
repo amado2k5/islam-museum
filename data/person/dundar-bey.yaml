@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Associated with الأناضول per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q23582424

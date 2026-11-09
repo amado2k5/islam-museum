@@ -39,6 +39,8 @@ faith:
     note: "FLAGGED for the founder: a Sunni reading exists but rests on a single infobox. In full: the English article's infobox religion field reads 'Sunni Islam' — one structured value in one article, the same single-infobox configuration as Khalid of Saudi Arabia (wave 83), and under the doubt rule the single-infobox cases are settled as unknown. Nothing else in his sources speaks: the Arabic article carries no religion field and no text naming a school; the Urdu stub carries no religion value at all; and Wikidata (Q733312) has no religion (P140) value, so the structured family does not even corroborate the claim there. No article text names a school for him, and his offices — ruler of Dubai, vice president and prime minister of a federation whose constitution names Islam — are office, not attestation. The value stays unknown under the two-source rule, with the Sunni reading preserved here; a second independent source naming his school would be needed to record it."
     sources: [source/wikipedia-rashid-bin-saeed-al-maktoum-en, source/wikipedia-rashid-bin-saeed-al-maktoum-ar, source/wikipedia-rashid-bin-saeed-al-maktoum-ur, source/wikidata-rashid-bin-saeed-al-maktoum]
 external_ids: { wikidata: "Q733312" }
+relations:
+  - { type: born_in, target: place/dubai, sources: [source/wikidata-rashid-bin-saeed-al-maktoum], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q612)" }
 sources: [source/wikipedia-rashid-bin-saeed-al-maktoum-en, source/wikipedia-rashid-bin-saeed-al-maktoum-ar, source/wikipedia-rashid-bin-saeed-al-maktoum-ur, source/wikidata-rashid-bin-saeed-al-maktoum]
 provenance:
   layer: own-research

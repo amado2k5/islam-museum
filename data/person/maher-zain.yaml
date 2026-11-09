@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1401) is converter-derived."
   sources: [source/wikipedia-maher-zain-en, source/wikidata-maher-zain]
+relations:
+  - { type: born_in, target: place/tripoli-al-sham, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-maher-zain] }
 faith:
   - value: unknown
     basis: unknown

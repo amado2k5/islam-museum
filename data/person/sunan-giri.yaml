@@ -51,6 +51,7 @@ died:
 relations:
   - { type: student_of, target: person/sunan-ampel, sources: [source/wikipedia-sunan-giri-en, source/wikipedia-sunan-giri-id] }
 
+  - { type: died_in, target: place/gresik, sources: [source/wikipedia-sunan-giri-en], confidence: low, note: "Died at Giri and buried at Kebomas, Gresik per the record text." }
 faith:
   - value: unknown
     basis: unknown

@@ -5,7 +5,7 @@ summary:
   ar: "أبو عبد الله محمد بن عيسى الماهاني من علماء أصحاب الأعداد والمهندسين، وله شرح المقالة الخامسة من كتاب إقليدس وكتاب رسالة في عروش الكواكب وكتاب رسالته في النسبة وكتاب في ستة وعشرين شكلا من المقالة الأولى من إقليدس التي لا يحتاج في شيء منها إلى الخلف {cite:fihrist-ibn-al-nadim p. 375,371}."
   en: "Al-Mahani — geometer of the calculator school {cite:fihrist-ibn-al-nadim}"
 wings: [people]
-sources: [source/fihrist-ibn-al-nadim, source/mahani-mactutor, source/tdv-mahani-fazlioglu, source/dold-samplonius-mahani-dsb, source/nayrizi-mactutor]
+sources: [source/fihrist-ibn-al-nadim, source/mahani-mactutor, source/tdv-mahani-fazlioglu, source/dold-samplonius-mahani-dsb, source/nayrizi-mactutor, source/wikidata]
 names:
   - { kind: full, lang: ar, value: "أبو عبد الله محمد بن عيسى الماهاني" }
 gender: male
@@ -30,3 +30,7 @@ provenance:
   source: "Additive biography/faith/date/invention extension from actual MacTutor, TDV and DSB. Original Fihrist labels/summaries/source, Devin status and external ID retained; original three prose bodies/front matter unchanged before extension."
   additional_sources: [source/mahani-mactutor, source/tdv-mahani-fazlioglu, source/dold-samplonius-mahani-dsb]
   ratio_extension: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b81", source: "Additive ratio-work/invention link and actual MacTutor al-Nayrizi reception; all original b80 fields/provenance/status and sphere tie retained." }
+relations:
+  - { type: born_in, target: place/mahan, note: "Wikidata Q1816961 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/baghdad, note: "Wikidata Q1530 (P937); corroboration recommended.", sources: [source/wikidata], confidence: medium }

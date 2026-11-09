@@ -30,6 +30,7 @@ died:
   sources: [source/wikipedia-nur-muhammad-taraki-en, source/wikipedia-nur-muhammad-taraki-ur, source/wikidata-nur-muhammad-taraki]
 relations:
   - { type: died_in, target: place/kabul, sources: [source/wikipedia-nur-muhammad-taraki-en, source/wikidata-nur-muhammad-taraki] }
+  - { type: born_in, target: place/nawa, sources: [source/wikipedia-nur-muhammad-taraki-en, source/wikipedia-nur-muhammad-taraki-ur, source/wikidata-nur-muhammad-taraki] }
 faith:
   - value: unknown
     basis: unknown

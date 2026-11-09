@@ -10,6 +10,7 @@ periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
 died: { edtf: "0980~", hijri: "0370", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 370هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 212}." }
 relations:
+  - { type: lived_in, target: place/rayy, note: "Place association from the person's nisba/name (الرازي); denotes association, not proven residence.", sources: [source/kashf-zunun-furqan], confidence: low }
   - { type: authored, target: work/ahkam-al-quran-jassas, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research

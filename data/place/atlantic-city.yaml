@@ -1,0 +1,16 @@
+id: place/atlantic-city
+class: place
+kind: city
+label: { en: "Atlantic City", ar: "أتلانتيك سيتي" }
+summary:
+  en: "City in Atlantic County, New Jersey, United States."
+  ar: "مدينة في الولايات المتحدة."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [39.3625, -74.425]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q139564", geonames: "4500546" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q139564 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

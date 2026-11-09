@@ -36,6 +36,7 @@ faith:
 labelled:
   - { label: { en: "Master of the Martyrs", ar: "سيد الشهداء" }, by: "Islamic tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: died_in, target: place/uhud, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/uhud }
   - { type: buried_in, target: place/uhud }

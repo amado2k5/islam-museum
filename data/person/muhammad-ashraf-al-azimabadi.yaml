@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [south-asia]
+relations:
+  - { type: lived_in, target: place/patna, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance: { layer: own-research, source: "الموسوعة الفقهية الكويتية، ملحق تراجم الفقهاء، ج11 ص5155", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "mawsua-w03-41" }
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); appendix p.5155; death date not given in the source" }

@@ -24,6 +24,24 @@ relations:
   target: person/mari-jata
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- type: ruled_over
+  target: place/mali
+  confidence: low
+  note: "King of Mali per the record's summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: traveled_to
+  target: place/mecca
+  confidence: low
+  note: "Made the hajj in 724 AH per the record's summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: traveled_to
+  target: place/cairo
+  confidence: low
+  note: "Passed through Egypt on his 724 AH hajj, per the record's own text (مرّ بمصر في حجّه)."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods:
 - period/mongol-post-mongol

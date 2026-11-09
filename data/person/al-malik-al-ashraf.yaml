@@ -18,3 +18,5 @@ provenance:
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
 sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "From text: أهل دمشق الفرجة ببستانه بالني", sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab], confidence: low }

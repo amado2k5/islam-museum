@@ -21,6 +21,8 @@ born:
   note: "Date from Arabic Wikipedia and Wikidata (born in Üsküdar, Istanbul); the English Wikipedia article gives 16 February 1955, a discrepancy recorded here rather than resolved. The Hijri year (1374) is converted with the Umm al-Qura calendar and marked derived."
   sources: [source/wikipedia-emine-erdogan-ar, source/wikidata-emine-erdogan]
 relations:
+  - { type: born_in, target: place/sk-dar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-emine-erdogan] }
+  - { type: lived_in, target: place/presidential-palace-of-turkey, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-emine-erdogan] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-emine-erdogan-en, source/wikipedia-emine-erdogan-ar] }
 faith:
   - value: unknown

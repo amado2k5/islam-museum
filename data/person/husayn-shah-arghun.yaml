@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: lived_in, target: place/sind, confidence: low, note: "Arghun ruler of Sind per the record's own summary.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q11926197

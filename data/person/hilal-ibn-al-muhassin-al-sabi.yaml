@@ -16,6 +16,7 @@ born: { edtf: "0969~", hijri: "0359", calendar: julian, precision: year, status:
 died: { edtf: "1056-12", hijri: "0448-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان ٤٤٨؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.8 p.518}." }
 roles: [historian, writer]
 relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: student_of, target: person/ali-ibn-isa-al-rummani, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

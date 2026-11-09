@@ -22,6 +22,9 @@ born:
   derived: true
   note: "Born 30 October 1954 in the village of Qarqirah, El Senbellawein, Dakahlia Governorate, Egypt, as given by the English Wikipedia article; the Arabic article likewise gives 30 October 1954 and a village under El Senbellawein in Dakahlia, adding that the family moved to Cairo in his childhood; Wikidata Q981909 agrees on the date. No place entity for Qarqirah, El Senbellawein or Dakahlia exists in data/place/, so no born_in edge is written. The Hijri year (1374) is derived by tabular conversion."
   sources: [source/wikipedia-mahmoud-el-khatib-en, source/wikipedia-mahmoud-el-khatib-ar, source/wikidata-mahmoud-el-khatib]
+relations:
+  - { type: born_in, target: place/dakahlia-governorate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-el-khatib] }
+  - { type: born_in, target: place/aga, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-el-khatib] }
 faith:
   - value: unknown
     basis: unknown

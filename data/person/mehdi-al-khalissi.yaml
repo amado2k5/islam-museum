@@ -13,6 +13,8 @@ regions: [levant-iraq]
 periods: [period/modern-era]
 born: { edtf: "1888", precision: year, status: tradition, derived: true }
 died: { edtf: "1963", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/kadhimiya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12239692

@@ -13,6 +13,8 @@ summary:
 roles: [artist]
 wings: [people, living]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/birmingham, confidence: low, note: "Associated with برمنغهام per the record's own summary text; relation type pending review.", sources: [source/youtube-habibadasilva] }
 faith:
   - value: unknown
     basis: unknown

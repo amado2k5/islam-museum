@@ -47,3 +47,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/islam21c-asim-khan, source/mrdf-asim-khan, source/muslim-central-asim-khan]
+relations:
+  - { type: lived_in, target: place/britain, note: "From text: British (nationality adjective); broad association, flagged for review.", sources: [source/islam21c-asim-khan, source/mrdf-asim-khan, source/muslim-central-asim-khan], confidence: low }

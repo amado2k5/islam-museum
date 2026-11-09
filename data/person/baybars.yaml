@@ -17,6 +17,9 @@ external_ids: { wikidata: "Q192960" }
 born: { edtf: "1223~", precision: year, status: tradition, derived: true, note: "ولد نحو سنة 620هـ", sources: [source/shadharat-dhahab] }
 died: { edtf: "1277", hijri: "0676", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بدمشق سنة 676هـ {cite:shadharat-dhahab}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: born_in, target: place/unknown, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/cumania, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/baybars-sultan-accession-658, role: "السلطان", sources: [source/khitat-maqrizi-1998] }
   - { type: participated_in, target: event/siege-of-antioch-1268, role: "السلطان الفاتح", sources: [source/khitat-maqrizi-1998] }
   - { type: participated_in, target: event/fall-of-krak-des-chevaliers-1271, role: "السلطان الفاتح", sources: [source/khitat-maqrizi-1998] }

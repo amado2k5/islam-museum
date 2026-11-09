@@ -19,9 +19,10 @@ relations:
   - { type: spouse_of, target: person/umm-habiba-bint-abi-sufyan, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-asad-ibn-khuzayma, sources: [source/ibn-hisham-saqqa] }
   - { type: allied_with, target: group/banu-umayya, sources: [source/ibn-hisham-saqqa] }
-  - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/ubaydullah-ibn-jahsh-leaves-islam-in-abyssinia, role: subject, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: lived_in, target: place/abyssinia, sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 6"

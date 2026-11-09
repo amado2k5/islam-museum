@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch44
+relations:
+  - { type: lived_in, target: place/zibatra, sources: [source/muruj-al-dhahab], confidence: low, note: "ar: 'ملك الروم خرج في عساكره ومعه ملوك برجان والبرغر والصقالبة حتى نزل على زبطرة من الثغر الخزري فافتتحها بالس" }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

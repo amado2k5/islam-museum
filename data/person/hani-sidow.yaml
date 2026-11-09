@@ -13,6 +13,8 @@ summary:
 roles: [artist, writer]
 wings: [people, living]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/somalia, confidence: low, note: "Somali public figure per the record's own text.", sources: [source/stylist-hani-sidow] }
 faith:
   - value: unknown
     basis: unknown

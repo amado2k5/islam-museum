@@ -36,6 +36,9 @@ died:
   note: "He was assassinated in Riyadh on 25 March 1975, shot by his nephew Faisal bin Musaid (English article; Wikidata place Riyadh); the Arabic article pairs the date with 12 Rabi' al-Awwal 1395 AH. No place entity for Riyadh exists in the museum, so the place is carried in this note and no died_in relation is written; the Hijri year (1395) is the Arabic article's pairing, recorded as the derived year of the same date."
   sources: [source/wikipedia-faisal-bin-abdulaziz-en, source/wikipedia-faisal-bin-abdulaziz-ar, source/wikidata-faisal-bin-abdulaziz]
 relations:
+  - { type: born_in, target: place/riyadh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-faisal-bin-abdulaziz] }
+  - { type: died_in, target: place/riyadh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-faisal-bin-abdulaziz] }
+  - { type: buried_in, target: place/al-oud-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-faisal-bin-abdulaziz] }
   - { type: successor_of, target: person/saud-bin-abdulaziz, sources: [source/wikipedia-faisal-bin-abdulaziz-en, source/wikipedia-faisal-bin-abdulaziz-ar] }
   - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-faisal-bin-abdulaziz-en, source/wikidata-faisal-bin-abdulaziz] }
   - { type: member_of, target: group/al-saud, sources: [source/wikipedia-faisal-bin-abdulaziz-en, source/wikipedia-faisal-bin-abdulaziz-ar] }

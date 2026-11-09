@@ -12,6 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/contemporary-era]
 sources: [source/al-aalam]
+relations:
+  - { type: born_in, target: place/russia, confidence: low, note: "Born at Aksay, Rostov Oblast (Wikidata P19); regions: anatolia-balkans.", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q29865300
 provenance:

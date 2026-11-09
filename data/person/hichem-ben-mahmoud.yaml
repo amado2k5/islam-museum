@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/contemporary-era]
+relations:
+  - { type: born_in, target: place/sousse, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q115858722

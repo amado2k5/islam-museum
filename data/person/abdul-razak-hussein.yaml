@@ -30,6 +30,7 @@ died:
   note: "Died on 14 January 1976 at London, while seeking treatment for leukaemia, and was buried at the Heroes' Mausoleum in Kuala Lumpur, as the articles and Wikidata give. No place entity exists for London in this graph, so no died_in relation is written. The Hijri year (1396) is by tabular conversion."
   sources: [source/wikipedia-abdul-razak-hussein-en, source/wikipedia-abdul-razak-hussein-ar, source/wikipedia-abdul-razak-hussein-ur, source/wikipedia-abdul-razak-hussein-id, source/wikidata-abdul-razak-hussein]
 relations:
+  - { type: lived_in, target: place/malaysia, note: "From text: Malaysian (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-abdul-razak-hussein-en, source/wikipedia-abdul-razak-hussein-ar, source/wikipedia-abdul-razak-hussein-ur, source/wikipedia-abdul-razak-hussein-id, source/wikidata-abdul-razak-hussein], confidence: low }
   - { type: parent_of, target: person/najib-razak, sources: [source/wikipedia-najib-razak-en, source/wikidata-najib-razak] }
 faith:
   - value: unknown

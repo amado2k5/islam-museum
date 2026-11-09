@@ -1,0 +1,21 @@
+id: place/band-rma
+class: place
+kind: city
+label: { ar: "بندرمة", en: "Bandırma", ur: "باندیرما" }
+summary:
+  ar: "مدينة في تركيا."
+  en: "City in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [40.354166666667, 27.9725]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q214651" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q214651 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

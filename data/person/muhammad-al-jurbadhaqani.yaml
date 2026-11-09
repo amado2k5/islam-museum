@@ -17,6 +17,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/jurbadhaqan, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

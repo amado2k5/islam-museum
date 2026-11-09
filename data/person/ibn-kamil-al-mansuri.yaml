@@ -13,6 +13,8 @@ themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 died: { edtf: "1445-02~", hijri: "0848-11", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في ذي القعدة 848 بسقوط المأذنة على خلوته بشلمون {cite:shadharat-dhahab p. 263}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/mansoura, confidence: low, note: "Associated with المنصورة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 848)، قراءة آبل فيجن"

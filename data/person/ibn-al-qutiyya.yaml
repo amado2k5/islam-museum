@@ -8,6 +8,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: born_in, target: place/seville, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الرابع (المحمدون)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

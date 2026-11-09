@@ -27,6 +27,8 @@ faith:
     note: "No article read names a school for Murad Ebrahim. Wikidata's religion value is Islam in general (Q432), a structured value from a single structured family, which never counts on its own, and no second, independent source naming a school for the man himself was found among the articles read. His chairmanship of the Moro Islamic Liberation Front is movement leadership, which never counts, and his birth to an Islamic preacher is family background, which never counts. Under the two-source rule and the doubt rule his school stays unknown. No school reading exists anywhere, so the value is unknown and unflagged."
     sources: [source/wikipedia-murad-ebrahim-en, source/wikipedia-murad-ebrahim-ar, source/wikidata-murad-ebrahim]
 external_ids: { wikidata: "Q12241965" }
+relations:
+  - { type: born_in, target: place/maguindanao, sources: [source/wikidata-murad-ebrahim], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q13845)" }
 sources: [source/wikipedia-murad-ebrahim-en, source/wikipedia-murad-ebrahim-ar, source/wikipedia-murad-ebrahim-ur, source/wikipedia-murad-ebrahim-ms, source/wikidata-murad-ebrahim]
 provenance:
   layer: own-research

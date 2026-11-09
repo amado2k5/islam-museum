@@ -27,4 +27,5 @@ relations:
   - { type: authored, target: work/mirat-al-zaman, sources: [source/mirat-al-zaman-risala-2013-v1] }
   - { type: student_of, target: person/al-kindi-abu-al-yumn, sources: [source/mirat-al-zaman-risala-2013-v1] }
   - { type: participated_in, target: event/sibt-jihad-sermon-607, sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: died_in, target: place/al-salihiyya, sources: [source/shadharat-dhahab, source/mirat-al-zaman-risala-2013-v1, source/mirat-al-zaman-risala-2013-v22] }
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)" }

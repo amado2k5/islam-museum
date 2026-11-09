@@ -1,0 +1,21 @@
+id: place/monaco
+class: place
+kind: region
+label: { ar: "موناكو", en: "Monaco", ur: "موناکو" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q235)."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [43.73111111111111, 7.42]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q235" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q235 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

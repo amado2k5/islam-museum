@@ -15,7 +15,8 @@ regions: [arabia, levant-iraq]
 faith:
   - value: sunni-shafii
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/askalan, note: "Place association from the person's nisba/name (العسقلاني); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
 sources: [source/shadharat-dhahab]
 status:
   review: published

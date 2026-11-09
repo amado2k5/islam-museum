@@ -13,8 +13,13 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch31
 external_ids: { wikidata: "Q293538" }
-sources: [source/muruj-al-dhahab]
+sources: [source/muruj-al-dhahab, source/wikidata]
 status:
   review: published
   completeness: 3
 
+relations:
+  - { type: born_in, target: place/medina, note: "Wikidata Q35484 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/karbala, note: "Wikidata Q199909 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-abbas-mosque, note: "Wikidata Q3250647 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/medina, note: "Wikidata Q35484 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }

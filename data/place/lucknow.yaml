@@ -1,0 +1,38 @@
+id: place/lucknow
+class: place
+kind: city
+label:
+  ar: لكنؤ
+  en: Lucknow
+  ur: لکھنؤ
+summary:
+  ar: عاصمة أتر برديش وعاصمة أوده النوابية، من مراكز الثقافة الإسلامية في الهند.
+  en: Capital of Uttar Pradesh and of the Nawabi Awadh, a centre of Indian Islamic culture.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 26.85
+- 80.95
+coordinate_precision: locality
+coordinate_note: Identified location; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q47916
+  geonames: '1264733'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q47916 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q47916 (labels, coordinates, description)

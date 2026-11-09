@@ -15,6 +15,7 @@ regions: [levant-iraq, anatolia-balkans, persia-central-asia]
 born: { edtf: "1350-12-26~", hijri: "0751-09-25", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد بدمشق ليلة السبت خامس وعشرين رمضان 751 {cite:shadharat-dhahab p. 204}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1429-12~", hijri: "0833-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بشيراز في ربيع الأول 833 ودفن بمدرسته {cite:shadharat-dhahab p. 206}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/battle-ankara-804, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

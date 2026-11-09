@@ -26,6 +26,8 @@ born:
   note: "The English article's lead and infobox give 1973, born in London and brought up in Karachi, the year cited there to his University of Iowa International Writing Program biography; the Urdu article files him under 1973 births as well. Wikidata instead gives July 1974, and the Literary Encyclopedia's profile also gives 1974, adding that he was born into a diplomatic family. The record builds the articles' 1973 under the status debated and carries the conflict here in full. A bare 1973 spans the Hijri years 1392 and 1393, so no Hijri year is recorded. The museum has no place entity for London or for Karachi, so no born_in edge is written."
   sources: [source/wikipedia-hm-naqvi-en, source/wikipedia-hm-naqvi-ur, source/wikidata-hm-naqvi, source/literary-encyclopedia-hm-naqvi]
 
+relations:
+  - { type: born_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hm-naqvi] }
 faith:
   - value: unknown
     basis: unknown

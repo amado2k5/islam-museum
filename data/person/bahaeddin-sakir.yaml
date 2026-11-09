@@ -33,6 +33,8 @@ died:
   derived: true
   note: "Assassinated on Uhlandstraße in Charlottenburg, Berlin, on 17 April 1922 by Arshavir Shirakian and Aram Yerganian under Operation Nemesis, together with Cemal Azmi; buried in the cemetery of the Şehitlik Mosque, Berlin. There is no place entity for Berlin, so no died_in edge is written. The Hijri year 1340 is the derived conversion of 1922."
   sources: [source/wikipedia-bahaeddin-sakir-en, source/wikipedia-bahaeddin-sakir-tr, source/wikidata-bahaeddin-sakir]
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bahaeddin-sakir] }
 faith:
   - value: unknown
     basis: unknown

@@ -58,6 +58,7 @@ relations:
       - source/wikipedia-saad-bouh-fr
       - source/wikipedia-saad-buh-en
 
+  - { type: lived_in, target: place/ashir, sources: [source/wikipedia-saad-bouh-ar], confidence: low, note: "No source read names a school of law for him: his Nimjat centre taught the Maliki manuals (the Risala, Ibn Ash" }
 faith:
   - value: sufi
     basis: documented

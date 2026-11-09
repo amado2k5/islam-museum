@@ -13,6 +13,7 @@ roles: [scholar]
 periods: [period/colonial-era]
 floruit: { edtf: "1887", calendar: gregorian, precision: year, status: historical, note: "Catalogue published 1887 {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 663}.", sources: [source/lavoix-catalogue-monnaies-musulmanes-bn-1887] }
 relations:
+  - { type: lived_in, target: place/paris, confidence: low, note: "Associated with باريس per the record's own summary text; relation type pending review.", sources: [source/lavoix-catalogue-monnaies-musulmanes-bn-1887] }
   - { type: authored, target: work/lavoix-catalogue-khalifes-orientaux, sources: [source/lavoix-catalogue-monnaies-musulmanes-bn-1887] }
 sources: [source/lavoix-catalogue-monnaies-musulmanes-bn-1887]
 provenance:

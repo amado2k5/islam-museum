@@ -14,5 +14,7 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-21
+relations:
+  - { type: ruled_over, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

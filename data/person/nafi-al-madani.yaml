@@ -8,3 +8,5 @@ wings: [people]
 external_ids: { wikidata: "Q112465" }
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/medina, confidence: low, note: "Association inferred from the nisba in the name 'Nafi' al-Madani'; specific residence not individually documented.", sources: [source/fihrist-ibn-al-nadim] }

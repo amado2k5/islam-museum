@@ -23,5 +23,6 @@ education:
   levels: [scholars]
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
 relations:
+  - { type: ruler_of, target: place/misr, note: "Sixth Ubaydid (Fatimid) caliph ruling from Cairo.", sources: [source/tarikh-khulafa-minhaj-1434, source/khitat-maqrizi-1998, source/shadharat-dhahab], confidence: high }
   - { type: built, target: building/mosque-of-al-hakim, sources: [source/yeomans-islamic-cairo-2006] }
 sensitivity: contested

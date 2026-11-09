@@ -27,6 +27,7 @@ faith:
     note: "Neither article's text names any religion for him, and the Arabic article's infobox carries a religion field that is left empty. FLAGGED for the founder: the only attestation anywhere is the Wikidata item's religion value, Islam in general (Q432) — a single structured value naming no school. One structured value never attests. The reading is preserved here for the founder's ruling."
     sources: [source/wikipedia-amr-moussa-en, source/wikipedia-amr-moussa-ar, source/wikidata-amr-moussa]
 relations:
+  - { type: born_in, target: place/cairo, note: "From text: born in Cairo", sources: [source/wikipedia-amr-moussa-en, source/wikipedia-amr-moussa-ar, source/wikidata-amr-moussa] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-amr-moussa-en, source/wikipedia-amr-moussa-ar] }
   - { type: successor_of, target: person/ahmed-asmat-abdel-meguid, sources: [source/wikipedia-amr-moussa-en] }
 wings: [people, living]

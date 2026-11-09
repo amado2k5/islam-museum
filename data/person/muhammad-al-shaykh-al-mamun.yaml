@@ -13,6 +13,8 @@ regions: [maghreb]
 periods: [period/gunpowder-empires]
 born: { edtf: "1566", precision: year, status: tradition, derived: true }
 died: { edtf: "1613", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/marrakesh, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q101625)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3318907

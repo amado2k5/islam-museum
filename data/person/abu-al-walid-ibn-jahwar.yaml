@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 relations:
+  - { type: ruler_of, target: place/cordoba, note: "Son and successor of the Jahwarid vizier at Cordoba from 435 AH.", sources: [source/nafh-tib-maqqari], confidence: high }
   - { type: child_of, target: person/jahwar-ibn-muhammad-abu-al-hazm, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research

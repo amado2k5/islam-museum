@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 born: { edtf: "1372~", hijri: "0773", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد 773 {cite:shadharat-dhahab p. 260}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1443-09-09~", hijri: "0847-05-13", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي آخر الأربعاء 13 جمادى الأولى 847 {cite:shadharat-dhahab p. 261}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/alexandria, confidence: low, note: "Associated with Alexandria per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 847)، قراءة آبل فيجن"

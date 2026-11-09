@@ -24,6 +24,8 @@ wings:
   - living
 regions:
   - andalus-europe
+relations:
+  - { type: lived_in, target: place/london, sources: [source/hampshire-subboor-ahmad, source/listennotes-subboor-ahmad, source/youtube-subboor-ahmad, source/charity-commission-iera-annual-report-2024-25] }
 faith:
   - value: unknown
     basis: unknown

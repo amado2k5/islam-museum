@@ -37,6 +37,8 @@ faith:
     sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar, source/wikipedia-muammar-gaddafi-ur, source/wikidata-muammar-gaddafi]
 relations:
   - { type: successor_of, target: person/idris-senussi, sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar] }
+
+  - { type: born_in, target: place/misrata, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar, source/wikipedia-muammar-gaddafi-ur, source/wikidata-muammar-gaddafi] }
 external_ids: { wikidata: "Q19878" }
 sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar, source/wikipedia-muammar-gaddafi-ur, source/wikidata-muammar-gaddafi]
 provenance:

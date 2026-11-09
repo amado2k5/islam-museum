@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
+relations:
+- { type: ruled_over, target: place/banten-sultanate, sources: [source/wikidata], confidence: low, note: "Wikidata P39 office held (banten)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q57820832

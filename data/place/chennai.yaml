@@ -1,0 +1,38 @@
+id: place/chennai
+class: place
+kind: city
+label:
+  ar: تشيناي
+  en: Chennai
+  ur: چنئی
+summary:
+  ar: عاصمة ولاية تاميل نادو في جنوب الهند؛ عُرفت سابقاً باسم مدراس.
+  en: Capital of Tamil Nadu in southern India; formerly Madras.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 13.0825
+- 80.275
+coordinate_precision: locality
+coordinate_note: Wikidata Q1352 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q1352
+  geonames: '1264527'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1352 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1352 (labels, coordinates, description)

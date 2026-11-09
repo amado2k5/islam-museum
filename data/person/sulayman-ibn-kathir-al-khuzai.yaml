@@ -12,6 +12,7 @@ regions: [persia-central-asia]
 themes: [sects-and-schools]
 relations:
   - { type: member_of, target: group/abbasid-dawa, role: "نقيب النقباء", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: lived_in, target: place/khorasan, sources: [source/wikidata], confidence: low, note: "Nisba خراساني attested in the record." }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:
   layer: own-research

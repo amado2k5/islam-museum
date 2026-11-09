@@ -1,0 +1,36 @@
+id: place/ajmer
+class: place
+kind: city
+label:
+  ar: أجمير
+  en: Ajmer
+  ur: اجمیر
+summary:
+  ar: مدينة في الهند.
+  en: City in Rajasthan, India.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 26.468
+- 74.639
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q200049
+  geonames: '1279159'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q200049 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q200049 (labels, coordinates, description)

@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Date of birth from her official biography as carried by Speakers of Islam and by her Muslim Central podcast page; the Hijri year 1392 is the tabular equivalent. The biography gives no birthplace, so no born_in relation is written."
   sources: [source/speakersofislam-maryam-lemu, source/muslim-central-maryam-lemu]
+relations:
+  - { type: lived_in, target: place/minna, confidence: low, note: "Associated with Minna per the record's own summary text; relation type pending review.", sources: [source/speakersofislam-maryam-lemu] }
 faith:
   - value: unknown
     basis: unknown

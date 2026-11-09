@@ -15,6 +15,7 @@ wings: [people]
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia, levant-iraq]
 relations:
+  - { type: lived_in, target: place/al-sham, note: "From text: lived in Syria. Al-Hakim", sources: [source/mustadrak-ilmiyya-ata-v3] }
   - { type: member_of, target: group/banu-sulaym, sources: [source/mustadrak-ilmiyya-ata-v3] }
   - { type: sibling_of, target: person/abu-dharr-al-ghifari, note: "أخوه لأمه، قاله خليفة بن خياط {cite:mustadrak-ilmiyya-ata-v3 p. 714}", sources: [source/mustadrak-ilmiyya-ata-v3] }
   - { type: lived_in, target: place/al-sham, sources: [source/mustadrak-ilmiyya-ata-v3] }

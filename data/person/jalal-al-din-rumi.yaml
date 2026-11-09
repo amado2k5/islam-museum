@@ -42,6 +42,9 @@ regions:
 - persia-central-asia
 - anatolia-balkans
 relations:
+- { type: born_in, target: place/balkh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+- { type: born_in, target: place/vakhsh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+- { type: buried_in, target: building/turbat-mawlana-konya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 - { type: born_in, target: place/balkh, sources: [source/britannica-rumi] }
 - { type: died_in, target: place/konya, sources: [source/britannica-rumi] }
 - { type: participated_in, target: event/departure-from-balkh-615, role: "الصبي الراحل مع أبيه وأهله", sources: [source/britannica-rumi] }

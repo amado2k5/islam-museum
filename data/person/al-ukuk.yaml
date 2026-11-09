@@ -14,5 +14,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الثالث (ترجمة العكوك)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-20
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Poet dragged bound before al-Ma'mun at Baghdad in 213; court milieu.", sources: [source/wafayat-ayan], confidence: low }
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

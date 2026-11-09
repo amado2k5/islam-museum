@@ -1,0 +1,36 @@
+id: place/kampala
+class: place
+kind: city
+label:
+  ar: كامبالا
+  en: Kampala
+  ur: کمپالا
+summary:
+  ar: مدينة في أوغندا.
+  en: Capital and the largest city of Uganda.
+wings:
+- place
+regions:
+- east-africa
+coordinates:
+- 0.3136
+- 32.5811
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q3894
+  geonames: '232422'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q3894 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q3894 (labels, coordinates, description)

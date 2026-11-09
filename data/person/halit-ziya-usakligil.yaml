@@ -34,6 +34,7 @@ died:
   note: "Died at Istanbul on 27 March 1945: the English and Turkish articles and Wikidata agree. The Hijri year 1364 is the tabular conversion of 27 March 1945 (12 Rabi al-Thani 1364) and is marked derived."
   sources: [source/wikipedia-halit-ziya-usakligil-en, source/wikipedia-halit-ziya-usakligil-tr, source/wikidata-halit-ziya-usakligil]
 relations:
+  - { type: buried_in, target: place/bak-rk-y-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-halit-ziya-usakligil] }
   - { type: born_in, target: place/istanbul, note: "He was born at Istanbul in 1866 (English, Turkish and Arabic articles; Wikidata place of birth Istanbul, Q406).", sources: [source/wikipedia-halit-ziya-usakligil-en, source/wikidata-halit-ziya-usakligil] }
   - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 27 March 1945 (English and Turkish articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-halit-ziya-usakligil-en, source/wikidata-halit-ziya-usakligil] }
 faith:

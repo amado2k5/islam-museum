@@ -27,3 +27,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: born_in, target: place/ramla, note: "From text: born in Ramla", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: traveled_to, target: place/jerusalem, note: "From text: moved to Jerusalem", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

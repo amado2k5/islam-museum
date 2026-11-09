@@ -25,6 +25,7 @@ provenance:
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
   extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 116-120"]
 relations:
+  - { type: ruler_of, target: place/misr, note: "From text: sultan of Egypt", sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/yeomans-islamic-cairo-2006] }
   - { type: participated_in, target: event/salih-ismail-takes-damascus-637, role: "المعتقل بالكرك ثم المتملك لمصر", sources: [source/shadharat-dhahab] }
   - { type: child_of, target: person/al-malik-al-kamil, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/franks-damietta-647, role: "السلطان المريض بالمنصورة", sources: [source/shadharat-dhahab] }

@@ -13,6 +13,9 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: died_in, target: place/qazvin, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q181578)" }
+  - { type: buried_in, target: place/sivas, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q107401)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2606870

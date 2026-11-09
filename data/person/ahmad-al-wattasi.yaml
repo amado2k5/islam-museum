@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
 relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: ruled_over, target: polity/wattasid-dynasty, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids: { wikidata: "Q3188827" }

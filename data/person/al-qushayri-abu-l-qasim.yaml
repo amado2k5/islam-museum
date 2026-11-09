@@ -22,6 +22,8 @@ regions: [persia-central-asia]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
 relations:
+  - { type: lived_in, target: place/khurasan, note: "From text: shaykh of Khurasan", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/shadharat-dhahab, source/tabaqat-shafiiyya-subki, source/risala-qushayriyya-minhaj-2017] }
+  - { type: traveled_to, target: place/nishapur, note: "From text: returned to Nishapur", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/shadharat-dhahab, source/tabaqat-shafiiyya-subki, source/risala-qushayriyya-minhaj-2017] }
   - { type: born_in, target: place/ustwa, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
   - { type: died_in, target: place/nishapur, sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/abu-ali-al-daqqaq, role: "شيخ الطريقة", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }

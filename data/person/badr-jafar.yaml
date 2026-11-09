@@ -21,6 +21,8 @@ born:
   derived: true
   note: "The English article's infobox, the Arabic article and Wikidata agree on 9 August 1979; the English article says he was born and raised in Sharjah. No place entity for Sharjah exists on main, so no birthplace is recorded in this block. The date falls within the Hijri year 1399, given as the tabular conversion, marked derived."
   sources: [source/wikipedia-badr-jafar-en, source/wikipedia-badr-jafar-ar, source/wikidata-badr-jafar]
+relations:
+  - { type: born_in, target: place/emirate-of-sharjah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-badr-jafar] }
 faith:
   - value: unknown
     basis: unknown

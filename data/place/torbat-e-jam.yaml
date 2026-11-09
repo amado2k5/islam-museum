@@ -1,0 +1,21 @@
+id: place/torbat-e-jam
+class: place
+kind: city
+label: { ar: "تربت جام", en: "Torbat-e Jam", ur: "تربت جام" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q765715)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [35.24388888888889, 60.6225]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q765715" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q765715 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

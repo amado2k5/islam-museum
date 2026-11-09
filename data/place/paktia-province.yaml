@@ -1,0 +1,21 @@
+id: place/paktia-province
+class: place
+kind: region
+label: { ar: "ولاية بكتيا", en: "Paktia Province", ur: "پکتیا" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q182493)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [33.6741, 69.3745]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q182493" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q182493 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

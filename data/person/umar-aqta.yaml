@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: lived_in, target: place/samarqand, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q109119940

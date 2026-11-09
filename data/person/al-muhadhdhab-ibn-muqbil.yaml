@@ -17,6 +17,9 @@ died:
   status: tradition
   note: "في المحرم سنة 610 بالموصل {cite:kamil-ibn-al-athir p. 360-361}."
   sources: [source/kamil-ibn-al-athir]
+relations:
+  - { type: lived_in, target: place/mosul, note: "Resident at Mosul per Ibn al-Athir.", sources: [source/kamil-ibn-al-athir], confidence: high }
+  - { type: died_in, target: place/mosul, note: "Died at Mosul, Muharram 610.", sources: [source/kamil-ibn-al-athir], confidence: high }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

@@ -13,6 +13,8 @@ died: { edtf: "1279-03", hijri: "0677-11-01", calendar: julian, precision: day, 
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [maghreb, andalus-europe]
+relations:
+  - { type: lived_in, target: place/murcia, confidence: low, note: "Associated with مرسية per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

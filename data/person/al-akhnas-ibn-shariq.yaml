@@ -17,6 +17,7 @@ story_roles:
 faith:
   - { value: arabian-polytheism, basis: tradition, start: { edtf: "0624" }, note: "في جيش مشركي مكة وقت بدر؛ إسلامه اللاحق خارج نطاق هذا القسم.", sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: low }
   - { type: member_of, target: group/thaqif }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 207-208)" }

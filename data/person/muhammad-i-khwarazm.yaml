@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+- { type: ruled_over, target: place/khwarizm, sources: [source/wikidata], confidence: low, note: "Wikidata P39 office held (khwarizm)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q2620318

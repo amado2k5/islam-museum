@@ -29,6 +29,8 @@ died:
   derived: true
   note: "Died in London, on furlough, of a heart attack. The English article's lead and infobox give 19 August 1906 while its own Death section gives 26 August 1906 — an internal inconsistency; the lead/infobox date is followed and the variant recorded here. Wikidata gives only the year 1906. The Hijri year (1324) is derived by tabular conversion (19 August 1906 falls in Jumada al-Akhira 1324). London has no place entity in the museum yet, so no died_in relation is written."
   sources: [source/wikipedia-badruddin-tyabji-en, source/wikidata-badruddin-tyabji]
+relations:
+  - { type: born_in, target: place/mumbai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-badruddin-tyabji] }
 faith:
   - value: unknown
     basis: unknown

@@ -17,6 +17,10 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
   wikidata: Q12208659
 sources: [source/mawsuat-a3lam-ulama-adaba]

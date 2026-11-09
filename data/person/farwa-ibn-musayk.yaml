@@ -21,6 +21,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم على يد النبي (ابن هشام ص229).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/hamadan, confidence: low, note: "Associated with همدان per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/murad, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/battle-of-al-radm, role: "من مراد؛ شاعر اليوم", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-farwa-ibn-musayk, role: "الوافد", sources: [source/ibn-hisham-saqqa] }

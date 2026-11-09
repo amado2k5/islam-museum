@@ -17,6 +17,8 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/iraq, note: "Philologist; regions field levant-iraq, flagged.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

@@ -26,6 +26,8 @@ faith:
     note: "Neither Wikipedia article names a school for her: the English article describes her as an American educator and motivational speaker and the Arabic article as a Muslim researcher. Wikidata gives only Islam. Not recorded as sunni until two sources confirm a school."
     sources: [source/wikipedia-yasmin-mogahed-en, source/wikipedia-yasmin-mogahed-ar, source/wikidata-yasmin-mogahed]
 external_ids: { wikidata: "Q67609811" }
+relations:
+  - { type: born_in, target: place/misr, sources: [source/wikidata-yasmin-mogahed], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q79)" }
 sources: [source/wikipedia-yasmin-mogahed-en, source/wikipedia-yasmin-mogahed-ar, source/wikidata-yasmin-mogahed, source/youtube-yasminmogahedonline]
 provenance:
   layer: own-research

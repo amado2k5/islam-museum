@@ -1,0 +1,35 @@
+id: place/boston
+class: place
+kind: city
+label:
+  ar: بوسطن
+  en: Boston
+  ur: بوسٹن
+summary:
+  ar: مدينة في ماساتشوستس بالولايات المتحدة.
+  en: City in Province of Massachusetts Bay.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 42.36
+- -71.06
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q100
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q100 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q100 (labels, coordinates, description)

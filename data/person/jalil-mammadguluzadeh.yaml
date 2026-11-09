@@ -32,6 +32,10 @@ died:
   derived: true
   note: "Died at Baku on 4 January 1932; the English, Azerbaijani and Russian articles and Wikidata agree. The Hijri year 1350 is the tabular conversion. The museum has no place entity for Baku, so no died_in edge is written."
   sources: [source/wikipedia-jalil-mammadguluzadeh-en, source/wikipedia-jalil-mammadguluzadeh-az, source/wikipedia-jalil-mammadguluzadeh-ru, source/wikidata-jalil-mammadguluzadeh]
+relations:
+  - { type: died_in, target: place/baku, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jalil-mammadguluzadeh] }
+  - { type: born_in, target: place/nakhchivan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jalil-mammadguluzadeh] }
+  - { type: buried_in, target: place/alley-of-honor, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jalil-mammadguluzadeh] }
 faith:
   - value: unknown
     basis: unknown

@@ -16,5 +16,7 @@ provenance:
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-108
+relations:
+  - { type: born_in, target: place/ukbara, sources: [source/shadharat-dhahab], confidence: low, note: "en: 'Sa'd al-Malik Abu Nasr Ibn Makula, the great hafiz of the Abu Dulaf al-Ijli line — author of al-Ikmal on " }
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

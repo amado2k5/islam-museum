@@ -15,5 +15,7 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch50
+relations:
+  - { type: ruled_over, target: place/seville, note: "Abbadid ruler who built Seville into a power, r. 433-461.", sources: [source/wafayat-ayan], confidence: high }
 sources: [source/wafayat-ayan]
 status: { review: published, completeness: 3 }

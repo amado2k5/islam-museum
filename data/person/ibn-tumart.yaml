@@ -13,6 +13,9 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: born_in, target: place/igiliz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/tinmel, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q455925

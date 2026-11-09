@@ -15,6 +15,7 @@ themes: [scripture-and-its-sciences]
 regions: [egypt-nile]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/al-jizah, note: "Place association from the person's nisba/name (الجيزي); denotes association, not proven residence.", sources: [source/tabaqat-shafiiyya-subki], confidence: low }
   - { type: student_of, target: person/al-shafii, sources: [source/tabaqat-shafiiyya-subki] }
 provenance:
   layer: own-research

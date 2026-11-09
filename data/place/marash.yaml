@@ -8,13 +8,17 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+coordinates: [37.5875, 36.945277777778]
+coordinate_precision: approx
+coordinate_note: "Matched to Wikidata Q134703 by name; coordinates approximate until verified against a gazetteer."
 relations:
   - { type: site_of, target: event/conquest-of-marash, sources: [source/futuh-buldan-maarif-1407] }
   - { type: site_of, target: event/michael-incursion-161, sources: [source/futuh-buldan-maarif-1407] }
+external_ids: { wikidata: "Q134703" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 265–267"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

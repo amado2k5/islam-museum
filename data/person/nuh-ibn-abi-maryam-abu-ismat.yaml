@@ -28,3 +28,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

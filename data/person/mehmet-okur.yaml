@@ -21,6 +21,8 @@ born:
 roles: [basketball player, coach]
 regions: [anatolia-balkans, americas-oceania]
 wings: [people, living]
+relations:
+  - { type: born_in, target: place/yalova, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mehmet-okur] }
 faith:
   - value: unknown
     basis: unknown

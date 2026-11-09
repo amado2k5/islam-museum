@@ -24,6 +24,9 @@ died:
   derived: true
   note: "ليلة الثلاثاء سابع عشر رجب 616هـ ودفن بمقبرة باب حرب؛ التحويل مشتق {cite:shadharat-dhahab p. 71}."
 relations:
+  - { type: lived_in, target: place/samarra, note: "From text: qadi of Samarra", sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/samarra, note: "From text: born at Samarra", sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/baghdad, note: "From text: returned to Baghdad", sources: [source/shadharat-dhahab] }
   - { type: born_in, target: place/samarra, sources: [source/shadharat-dhahab] }
   - { type: lived_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }

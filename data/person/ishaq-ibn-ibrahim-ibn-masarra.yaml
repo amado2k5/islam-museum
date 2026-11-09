@@ -13,6 +13,8 @@ roles: [scholar]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/cordoba, confidence: low, note: "Maliki jurist of the Cordoban Ibn Masarra family per the record's own summary.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix entry of volume 11 on scan p.5141. The region is inferred from the nisba and the named teachers, not stated in the entry; to be checked against the source it cites. The book's bracketed reference is not transcribed." }
 provenance:

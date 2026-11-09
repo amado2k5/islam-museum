@@ -29,6 +29,8 @@ faith:
     sources:
       - source/huda-tv-muhammad-salah
       - source/listennotes-muhammad-salah
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/huda-tv-muhammad-salah], confidence: low, note: "Nisba مصري attested in the record." }
 sources:
   - source/huda-tv-muhammad-salah
   - source/listennotes-muhammad-salah

@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born 27 April 1958. The Arabic article and the Wikidata item place the birth in Turaif governorate, where he grew up in the Ruwaili quarter (now al-Khalidiya); the English article gives the date without the place. Turaif has no place entity in the museum, so no born_in relation is written. The hijri year 1377 is a tabular derived conversion of the Gregorian date (derived: true)."
   sources: [source/wikipedia-fayyadh-al-ruwaili-en, source/wikipedia-fayyadh-al-ruwaili-ar, source/wikidata-fayyadh-al-ruwaili]
+relations:
+  - { type: lived_in, target: place/saudi-arabia, confidence: low, note: "Associated with السعودية per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

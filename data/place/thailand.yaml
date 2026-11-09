@@ -1,0 +1,36 @@
+id: place/thailand
+class: place
+kind: region
+label:
+  ar: تايلاند
+  en: Thailand
+summary:
+  ar: مملكة في جنوب شرق آسيا، فيها أقلية مسلمة جنوباً.
+  en: Southeast Asian kingdom with a southern Muslim minority.
+wings:
+- place
+regions:
+- southeast-asia
+coordinates:
+- 15.5
+- 101.0
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q869
+  geonames: '1605651'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q869 (labels, coordinates, description)

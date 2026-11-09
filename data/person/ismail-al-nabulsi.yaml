@@ -16,6 +16,7 @@ summary:
 born: { edtf: "1530~", hijri: "0937", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 937 بدمشق {cite:shadharat-dhahab p. 433}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1585-01-13~", hijri: "0993-01-13", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي السبت 13 محرم؛ التحويل مشتق {cite:shadharat-dhahab p. 434}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: lived_in, target: place/badr, confidence: low, note: "Associated with Badr per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
   - { type: student_of, target: person/ibn-tulun-shams-al-din, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

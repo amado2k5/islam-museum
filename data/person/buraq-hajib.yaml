@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1235", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/kerman, confidence: low, note: "Associated with كرمان per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q3788435

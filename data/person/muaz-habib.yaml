@@ -15,7 +15,8 @@ faith:
 roles: [singer]
 wings: [people, living]
 regions: [east-africa]
-relations: []
+relations:
+  - { type: lived_in, target: place/malay, sources: [source/wikidata], confidence: low, note: "Nisba ملايي attested in the record." }
 sources: [source/vidiq-muaz-habib, source/youtube-muaz-habib]
 provenance:
   layer: own-research

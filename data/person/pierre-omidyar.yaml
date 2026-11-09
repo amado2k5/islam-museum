@@ -28,6 +28,9 @@ faith:
     note: "No source names an affiliation for him in the required form; the configuration is one personal attestation of a devotional framing plus a category filing. The English article's personal-life section calls him 'a follower of the Dalai Lama', and its categories file him under 'French Buddhists'; a devotional framing in a single text and a category filing are one family and do not name a school. The Persian, Arabic and Urdu texts name no religion, and Wikidata carries no religion value. His philanthropy (Omidyar Network, the Giving Pledge) is not an attestation of affiliation."
     sources: [source/wikipedia-omidyar-en, source/wikidata-omidyar]
 external_ids: { wikidata: "Q348483" }
+relations:
+  - { type: born_in, target: place/paris, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q90)" }
+  - { type: lived_in, target: place/honolulu, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q18094)" }
 sources: [source/wikipedia-omidyar-en, source/wikipedia-omidyar-fa, source/wikipedia-omidyar-ar, source/wikipedia-omidyar-ur, source/wikidata-omidyar]
 provenance:
   layer: own-research

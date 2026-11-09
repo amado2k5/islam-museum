@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/k-tahya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q188894)" }
+  - { type: died_in, target: place/ayn-shams, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2662725)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q136362813

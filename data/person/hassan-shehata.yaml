@@ -23,6 +23,8 @@ born:
   derived: true
   note: "Born 19 June 1947 in Kafr El Dawwar, Beheira, Egypt, as given by the English Wikipedia article's infobox and lead and by the Arabic article. Wikidata Q734006 gives 19 June 1949, which neither article supports; it is disclosed here and in the Wikidata source's reliability note and is not followed. No place entity for Kafr El Dawwar exists in data/place/, so no born_in edge is written. The Hijri year (1366) is derived by tabular conversion."
   sources: [source/wikipedia-hassan-shehata-en, source/wikipedia-hassan-shehata-ar, source/wikidata-hassan-shehata]
+relations:
+  - { type: born_in, target: place/kafr-el-dawwar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-shehata] }
 faith:
   - value: unknown
     basis: unknown

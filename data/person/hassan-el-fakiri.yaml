@@ -21,6 +21,8 @@ born:
   derived: true
   note: "The English, Arabic and Urdu articles and Wikidata (Q1349797) all give 18 April 1977. For the birthplace the Arabic and Urdu articles and Wikidata name the commune of Temsamane, Morocco, and the English article's text refines it to Amezzaourou, a town in the commune of Temsamane. No museum place entity exists for Temsamane, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1397 is derived from the Gregorian date."
   sources: [source/wikipedia-hassan-el-fakiri-en, source/wikipedia-hassan-el-fakiri-ar, source/wikipedia-hassan-el-fakiri-ur, source/wikidata-hassan-el-fakiri]
+relations:
+  - { type: born_in, target: place/temsamane, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-el-fakiri] }
 faith:
   - value: unknown
     basis: unknown

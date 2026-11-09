@@ -28,7 +28,8 @@ born:
   note: "Born in Nairobi, Kenya, on 29 October. The English article's lead and Wikidata give the year as 1969, while the article's infobox records that some sources give 1968, so the year is carried as debated and the variant is preserved here. No place entity for Nairobi exists in the museum, so no born_in edge is written. The Hijri year 1389 is the tabular conversion of the built date, marked derived."
   sources: [source/wikipedia-ali-velshi-en, source/wikidata-ali-velshi]
 
-relations: []
+relations:
+  - { type: born_in, target: place/nairobi, note: "From text: born in Nairobi", sources: [source/wikipedia-ali-velshi-en, source/wikidata-ali-velshi] }
 
 faith:
   - value: shia-ismaili

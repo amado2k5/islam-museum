@@ -35,6 +35,9 @@ faith:
     note: "No source fetched gives any religion for him: the English, Albanian, German and Arabic articles are all silent on it, and Wikidata carries no religion statement for him at all. His public life — KONARE's Comintern-backed anti-Zog committee, the National Liberation Movement, and a non-party headship of a communist republic — is political affiliation and activity, which never counts as a faith attestation; nothing is inferred from it in either direction."
     sources: [source/wikipedia-omer-nishani-en, source/wikipedia-omer-nishani-sq, source/wikipedia-omer-nishani-de, source/wikipedia-omer-nishani-ar, source/wikidata-omer-nishani]
 external_ids: { wikidata: "Q560630" }
+relations:
+  - { type: born_in, target: place/gjirokast-r, sources: [source/wikidata-omer-nishani], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q173690)" }
+  - { type: died_in, target: place/tirana, sources: [source/wikidata-omer-nishani], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q19689)" }
 sources: [source/wikipedia-omer-nishani-en, source/wikipedia-omer-nishani-ar, source/wikipedia-omer-nishani-de, source/wikipedia-omer-nishani-sq, source/wikidata-omer-nishani]
 provenance:
   layer: own-research

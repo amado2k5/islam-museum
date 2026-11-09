@@ -28,8 +28,11 @@ born:
   note: "Born in Okara in November 1964; the English and Arabic articles both give November 1964, while Wikidata's statement, referenced to the German National Library (GND) authority file, gives 1965 at year precision — the century queue's 1965 follows Wikidata alone. The date is built as November 1964 with status debated and the 1965 reading preserved. The Hijri year 1384 is the tabular conversion of the built date, marked derived."
   sources: [source/wikipedia-mohammed-hanif-en, source/wikipedia-mohammed-hanif-ar, source/wikidata-mohammed-hanif]
 
-relations: []
+relations:
 
+  - { type: born_in, target: place/okara, sources: [source/wikipedia-mohammed-hanif-en, source/wikipedia-mohammed-hanif-ar, source/wikidata-mohammed-hanif] }
+  - { type: lived_in, target: place/karachi, sources: [source/wikipedia-mohammed-hanif-en, source/wikipedia-mohammed-hanif-ar, source/wikidata-mohammed-hanif, source/new-york-times-hanif-intolerant-2017] }
+  - { type: lived_in, target: place/london, sources: [source/wikipedia-mohammed-hanif-en, source/wikipedia-mohammed-hanif-ar, source/wikidata-mohammed-hanif, source/new-york-times-hanif-intolerant-2017] }
 faith:
   - value: unknown
     basis: unknown

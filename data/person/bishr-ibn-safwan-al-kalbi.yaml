@@ -8,6 +8,7 @@ wings: [people]
 gender: male
 died: { hijri: "0109", precision: year, status: tradition, note: "توفي بالقيروان سنة 109 (البلاذري ص 324)" }
 relations:
+  - { type: lived_in, target: place/ifriqiya, confidence: low, note: "Associated with إفريقية per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/killing-of-yazid-ibn-abi-muslim, role: "الوالي الخلف وقاتل ابن موسى", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

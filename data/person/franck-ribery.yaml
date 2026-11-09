@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born 7 April 1983 in Boulogne-sur-Mer, France, as given by the English Wikipedia article's infobox and by Wikidata Q1918, which agree. No place entity for Boulogne-sur-Mer exists in data/place/, so no born_in edge is written. The Hijri year (1403) is derived by tabular conversion."
   sources: [source/wikipedia-franck-ribery-en, source/wikipedia-franck-ribery-ar, source/wikidata-franck-ribery]
+relations:
+  - { type: born_in, target: place/boulogne-sur-mer, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-franck-ribery] }
 faith:
   - value: unknown
     basis: unknown

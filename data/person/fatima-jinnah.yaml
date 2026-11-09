@@ -33,6 +33,8 @@ died:
   derived: true
   note: "Died at Karachi on 9 July 1967, as all three articles and Wikidata agree; rumours of unnatural causes circulated and her nephew Akbar Pirbhai called for an inquiry, but no official report was ever issued, as the English article records. She was buried beside her brother at Mazar-e-Quaid in Karachi. Karachi has no place entity and Mazar-e-Quaid has no building entity, so no died_in or buried_in edge is written. The Hijri year is from the Arabic article's death category (وفيات 1387 هـ)."
   sources: [source/wikipedia-fatima-jinnah-en, source/wikipedia-fatima-jinnah-ur, source/wikipedia-fatima-jinnah-ar, source/wikidata-fatima-jinnah]
+relations:
+  - { type: died_in, target: place/karachi, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fatima-jinnah-en, source/wikipedia-fatima-jinnah-ur, source/wikipedia-fatima-jinnah-ar, source/wikidata-fatima-jinnah] }
 faith:
   - value: shia-twelver
     basis: documented

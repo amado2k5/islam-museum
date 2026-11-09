@@ -23,6 +23,7 @@ born:
   sources: [source/wikipedia-toprak-razgatlioglu-en, source/wikipedia-toprak-razgatlioglu-tr, source/wikidata-toprak-razgatlioglu]
 relations:
   - { type: student_of, target: person/kenan-sofuoglu, sources: [source/wikipedia-toprak-razgatlioglu-en, source/wikipedia-toprak-razgatlioglu-tr] }
+  - { type: born_in, target: place/alanya, sources: [source/wikidata-toprak-razgatlioglu], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q171810)" }
 faith:
   - value: unknown
     basis: unknown

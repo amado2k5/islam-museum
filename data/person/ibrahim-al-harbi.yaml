@@ -30,6 +30,9 @@ regions:
 - levant-iraq
 themes:
 - scripture-and-its-sciences
+relations:
+  - { type: born_in, target: place/iraq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)

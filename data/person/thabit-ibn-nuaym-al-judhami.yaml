@@ -8,6 +8,8 @@ wings: [people]
 periods: [period/umayyad]
 relations:
   - { type: participated_in, target: event/musafir-revolt-armenia, role: "المخالف على مروان بن محمد", sources: [source/futuh-buldan-maarif-1407] }
+
+  - { type: lived_in, target: place/armenia, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 294"

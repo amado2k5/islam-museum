@@ -13,6 +13,12 @@ periods: [period/modern-era]
 regions: [egypt-nile]
 external_ids:
   wikidata: Q182781
+relations:
+  - { type: born_in, target: place/kavala, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q187352)" }
+  - { type: died_in, target: place/alexandria, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q87)" }
+  - { type: buried_in, target: place/muhammad-ali-mosque, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q652046)" }
+  - { type: lived_in, target: place/egypt-eyalet, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q491507)" }
+  - { type: lived_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q12560)" }
 sources: [source/al-aalam]
 provenance:
   layer: own-research

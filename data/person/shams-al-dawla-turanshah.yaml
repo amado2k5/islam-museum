@@ -20,6 +20,7 @@ relations:
 - type: participated_in
   target: event/turanshah-takes-zabid-569
   sources: [source/kamil-ibn-al-athir]
+- { type: ruler_of, target: place/zabid, sources: [source/wikidata], confidence: low, note: "target: event/turanshah-takes-zabid-569" }
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile, arabia]

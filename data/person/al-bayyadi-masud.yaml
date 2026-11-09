@@ -16,3 +16,5 @@ provenance:
   run: lib-wafayat-batch-23
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Baghdad's 'white-clad' sharif poet (d. 568), named for an ancestor at a caliph's majlis.", sources: [source/wafayat-ayan], confidence: medium }

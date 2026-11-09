@@ -36,7 +36,8 @@ faith:
     basis: unknown
     note: "The structured-only configuration, the same settlement as his father's record (person/enayet-khan). The English article's text states no religion for him — it gives his family, the Imdadkhani (Etawah) gharana and his career — and files him in its 'Indian Muslims' category; the Urdu article likewise carries no religion statement. Wikidata carries a single religion value, Islam, and a single structured value never counts as an attestation; no source read names a school for the man himself. His family's gharana lineage — Rajput in origin, and his father kept a Hindu name alongside his Muslim one — is background, never attestation. Under the two-source rule the value stays unknown, with the structured value recorded here."
     sources: [source/wikipedia-vilayat-khan-en, source/wikipedia-vilayat-khan-ur, source/wikidata-vilayat-khan]
-relations: []
+relations:
+  - { type: lived_in, target: place/agra, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-vilayat-khan-en, source/wikipedia-vilayat-khan-ur, source/wikidata-vilayat-khan] }
 summary:
   ar: "عازف سيتار هندي (1928–2004) من غرانة إمدادخاني ⁦(إيتاواه)⁩، وُلد في غوريبور بالبنغال، ابن عنايت خان وحفيد إمداد خان؛ اشتهر بأسلوب «الغاياكي» الغنائي على السيتار، ووضع موسيقى فيلم «جلساغر» (1958) لساتياجيت راي، ورفض مرارا أرفع الأوسمة المدنية الهندية."
   en: "Indian sitar maestro (1928–2004) of the Imdadkhani (Etawah) gharana, born at Gouripur in Bengal, son and heir of Enayat Khan and grandson of Imdad Khan; famed for the gayaki ang, a singing style on the sitar, he composed for Satyajit Ray's Jalsaghar (1958) and repeatedly refused India's Padma honours."

@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch29
+relations:
+  - { type: lived_in, target: place/marib, note: "Held the leadership over Qahtan's sons until he left Marib after the Arim flood.", sources: [source/muruj-al-dhahab], confidence: medium }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

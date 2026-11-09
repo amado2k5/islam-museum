@@ -35,6 +35,9 @@ died:
   note: "Both articles and Wikidata give 21 July 1922 at Tbilisi (Tiflis), where he was assassinated by Armenian Revolutionary Federation members as part of Operation Nemesis. The Turkish article adds that Kâzım Karabekir brought his body to Erzurum, where he was buried at the Karskapı Martyrs' Cemetery; the English article likewise says his remains were brought to Erzurum and buried there, and Wikidata's burial value (Q122803) agrees. No museum place entity exists for Tbilisi or Erzurum, so neither a died_in nor a buried_in edge is written; both places are carried in this note and in prose. The Hijri year 1340 is the derived conversion of 1922."
   sources: [source/wikipedia-cemal-pasha-en, source/wikipedia-cemal-pasha-tr, source/wikidata-cemal-pasha]
 relations:
+  - { type: born_in, target: place/mytilene, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cemal-pasha] }
+  - { type: died_in, target: place/tiflis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cemal-pasha] }
+  - { type: buried_in, target: place/erzurum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cemal-pasha] }
   - { type: ruler_of, target: place/baghdad, sources: [source/wikipedia-cemal-pasha-en, source/wikipedia-cemal-pasha-tr] }
 faith:
   - value: unknown

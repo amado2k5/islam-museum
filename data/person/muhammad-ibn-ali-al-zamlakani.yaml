@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
 sources: [source/shadharat-dhahab]
 external_ids:
   wikidata: Q6533639

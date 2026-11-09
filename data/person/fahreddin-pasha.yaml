@@ -39,6 +39,9 @@ died:
   note: "Both articles give 22 November 1948: he suffered a heart attack on a train near Eskişehir and died, and was buried, as he wished, at Aşiyan Cemetery, Istanbul; Wikidata agrees on the day. Wikidata's death-place value is Istanbul (Q406), which matches his burial city rather than the articles' account of the death on the train, and is not followed for the place. No museum place entity exists for Eskişehir, so no died_in edge is written; the burial edge to Istanbul is written. The Hijri year 1368 is the derived conversion of 1948."
   sources: [source/wikipedia-fahreddin-pasha-en, source/wikipedia-fahreddin-pasha-tr, source/wikidata-fahreddin-pasha]
 relations:
+  - { type: born_in, target: place/ruse, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fahreddin-pasha] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fahreddin-pasha] }
+  - { type: buried_in, target: place/a-iyan-asri-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fahreddin-pasha] }
   - { type: ruler_of, target: place/medina, sources: [source/wikipedia-fahreddin-pasha-en, source/wikipedia-fahreddin-pasha-tr] }
   - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-fahreddin-pasha-en, source/wikipedia-fahreddin-pasha-tr] }
 faith:

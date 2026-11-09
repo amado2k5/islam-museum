@@ -23,6 +23,9 @@ born:
   derived: true
   note: "The English article and Wikidata give his birth on 19 December 1962 in London; the Hijri year (1382) is a conversion."
   sources: [source/wikipedia-bukola-saraki-en, source/wikidata-bukola-saraki]
+relations:
+  - { type: born_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bukola-saraki] }
+  - { type: born_in, target: place/kwara-state, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bukola-saraki] }
 faith:
   - value: unknown
     basis: unknown

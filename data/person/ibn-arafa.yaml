@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: lived_in, target: place/tunis, confidence: low, note: "Associated with تونس per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam, source/al-mutun-al-ilmiyya-azhar]
 external_ids:
   wikidata: Q3147436

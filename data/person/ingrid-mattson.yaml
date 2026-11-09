@@ -19,6 +19,9 @@ born:
   derived: true
   note: "Born on 24 August 1963. PLACE CONFLICT: the English and Urdu articles give Kingston, Ontario, where she also spent her childhood, and the record follows them; her Wikidata item gives Kitchener, Ontario (Q200166), as does Yale University's 2026 honorary-degree citation. No place entity for either city exists in data/place/, so no born_in relation is written. The Hijri year (1383) is derived by tabular conversion."
   sources: [source/wikipedia-ingrid-mattson-en, source/wikipedia-ingrid-mattson-ur, source/wikidata-ingrid-mattson]
+relations:
+  - { type: born_in, target: place/kitchener, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ingrid-mattson] }
+  - { type: lived_in, target: place/ontario, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ingrid-mattson] }
 faith:
   - value: unknown
     basis: unknown

@@ -27,6 +27,8 @@ faith:
     note: "None of the English or Turkish articles names a religion for him, and Wikidata records no religion statement. The Azerbaijani origin given by the English article is an ethnic origin, not a religious attestation. Recorded as unknown on absence of attestation; no school is asserted."
     sources: [source/wikipedia-servet-tazegul-en, source/wikipedia-servet-tazegul-tr, source/wikidata-servet-tazegul]
 external_ids: { wikidata: "Q551641" }
+relations:
+  - { type: born_in, target: place/nuremberg, sources: [source/wikidata-servet-tazegul], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2090)" }
 sources: [source/wikipedia-servet-tazegul-en, source/wikipedia-servet-tazegul-tr, source/wikidata-servet-tazegul]
 provenance:
   layer: own-research

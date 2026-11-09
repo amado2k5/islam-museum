@@ -25,6 +25,9 @@ faith:
     basis: unknown
     note: "NOT RECORDED AS DOCUMENTED — no two independent sources name a school for her. The English article records The Guardian's March 2009 listing of her among the most powerful Muslim women in Britain, and her 2010 election, with Shabana Mahmood and Yasmin Qureshi, as one of the United Kingdom's first female Muslim MPs: generic Muslim attestations, naming no school. Under the two-source rule and the founder's doubt rule the value stays unknown."
     sources: [source/wikipedia-rushanara-ali-en, source/wikidata-rushanara-ali]
+relations:
+  - { type: born_in, target: place/sylhet, sources: [source/wikidata], confidence: low, note: "Born at Bishwanath, Sylhet, in 1975 per the record text." }
+  - { type: lived_in, target: place/london, sources: [source/wikidata], confidence: low, note: "Emigrated with her family to London per the record text." }
 sources: [source/wikipedia-rushanara-ali-en, source/wikidata-rushanara-ali]
 provenance:
   layer: own-research

@@ -7,3 +7,5 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/ukbara, note: "From text: of Ukbara", sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab], confidence: low }

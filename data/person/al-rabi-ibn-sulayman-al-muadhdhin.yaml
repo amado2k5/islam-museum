@@ -14,6 +14,7 @@ provenance:
   run: prose-fill-persons-batch35
 died: { hijri: "0270", edtf: "0884~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بمصر سنة سبعين ومائتين (PDF ص52).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
+  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (الكوفي); denotes association, not proven residence.", sources: [source/wafayat-ayan, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/al-shafii, role: "يروي كتبه، وقال الشافعي: الربيع راويتي (PDF ص52)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 external_ids: { wikidata: "Q12187688" }
 sources: [source/wafayat-ayan, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]

@@ -33,3 +33,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-19
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-anas-sarwar-en, source/wikidata-anas-sarwar], confidence: low }

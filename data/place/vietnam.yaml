@@ -1,0 +1,20 @@
+id: place/vietnam
+class: place
+kind: region
+label: { ar: "فيتنام", en: "Vietnam" }
+summary:
+  ar: "دولة في جنوب شرق آسيا."
+  en: "Southeast Asian state."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [14.0, 108.0]
+coordinate_precision: approx
+coordinate_note: "Identified location / approximate regional centre; flagged for gazetteer verification."
+external_ids: { wikidata: "Q881" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Country/region entity so persons substantiated only at country level resolve on the map."

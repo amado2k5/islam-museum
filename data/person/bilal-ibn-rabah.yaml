@@ -34,6 +34,9 @@ faith:
 labelled:
   - { label: { en: "Sayyid al-Mu'adhdhinin (master of the muezzins)", ar: "سيد المؤذنين" }, by: "Islamic tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: born_in, target: place/kingdom-of-aksum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/bab-al-saghir-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal, role: "دفع اللواء إلى ابن عوف بأمر النبي", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: member_of, target: group/early-muslims }

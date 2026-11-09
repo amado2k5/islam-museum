@@ -38,6 +38,8 @@ faith:
     sources: [source/wikipedia-moussa-traore-en, source/wikipedia-moussa-traore-ar, source/wikipedia-moussa-traore-ur, source/wikidata-moussa-traore]
 relations:
   - { type: successor_of, target: person/modibo-keita, sources: [source/wikipedia-moussa-traore-en] }
+  - { type: born_in, target: place/kayes, sources: [source/wikidata-moussa-traore], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q325164)" }
+  - { type: died_in, target: place/bamako, sources: [source/wikidata-moussa-traore], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3703)" }
 external_ids: { wikidata: "Q313242" }
 sources: [source/wikipedia-moussa-traore-en, source/wikipedia-moussa-traore-ar, source/wikipedia-moussa-traore-ur, source/wikidata-moussa-traore]
 provenance:

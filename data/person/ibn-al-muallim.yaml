@@ -6,5 +6,7 @@ summary:
   en: "Ibn al-Mu'allim — head of the Shi'i mutakallimun in Ibn al-Nadim's day {cite:fihrist-ibn-al-nadim}"
 wings: [people]
 died: { edtf: "1023~", hijri: "0413", calendar: julian, precision: year, status: tradition, derived: true, note: "في وفيات سنة ٤١٣ {cite:muntazam-ibn-al-jawzi j.8 p.353}." }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
 sources: [source/fihrist-ibn-al-nadim, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

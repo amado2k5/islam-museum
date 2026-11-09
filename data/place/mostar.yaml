@@ -1,0 +1,37 @@
+id: place/mostar
+class: place
+kind: city
+label:
+  ar: موستار
+  en: Mostar
+  ur: موستار
+summary:
+  ar: مدينة عثمانية في الهرسك على نهر نيريتفا، اشتهرت بجسرها العتيق «ستاري موست» من القرن السادس عشر ومدارسها وأحيائها المسلمة؛ دُمرت في حرب التسعينيات ثم أُعيد بناؤها.
+  en: Ottoman city of Herzegovina on the Neretva, famous for its sixteenth-century bridge Stari Most and its madrasas and Muslim quarters; devastated in the 1990s war and rebuilt.
+  ur: ہرتسگوینا کا عثمانی شہر دریائے نیریتوا پر، اپنے سولہویں صدی کے پل ستاری موست اور مدارس کے لیے مشہور؛ نوے کی دہائی کی جنگ میں تباہ ہوا اور دوبارہ تعمیر ہوا۔
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 43.3438
+- 17.8078
+coordinate_precision: locality
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q93347
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q93347 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry; coordinates the city's gazetteer point

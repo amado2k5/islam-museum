@@ -28,6 +28,8 @@ faith:
     note: "No source read names a school for him. The Arabic article leaves its infobox religion field blank and its text gives only his posts, studies and works; the Urdu article is a translation of the Arabic, the same source family; Wikidata gives religion as Islam only. His mosque imamates are offices, which never attest. Not recorded as any school until two independent sources name one."
     sources: [source/wikipedia-nasser-al-qatami-ar, source/wikipedia-nasser-al-qatami-ur, source/wikidata-nasser-al-qatami]
 external_ids: { wikidata: "Q6880178" }
+relations:
+  - { type: born_in, target: place/riyadh, sources: [source/wikidata-nasser-al-qatami], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3692)" }
 sources: [source/wikipedia-nasser-al-qatami-ar, source/wikipedia-nasser-al-qatami-ur, source/wikidata-nasser-al-qatami]
 provenance:
   layer: own-research

@@ -32,6 +32,8 @@ faith:
     sources:
       - source/newsroom-wafaa-abdel-salam
       - source/arabkhabar-wafaa-abdel-salam
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/newsroom-wafaa-abdel-salam], confidence: low, note: "Nisba مصري attested in the record." }
 sources:
   - source/newsroom-wafaa-abdel-salam
   - source/arabkhabar-wafaa-abdel-salam

@@ -1,0 +1,36 @@
+id: place/adana
+class: place
+kind: city
+label:
+  ar: أضنة
+  en: Adana
+  ur: آدانا
+summary:
+  ar: مدينة في تركيا.
+  en: Central district and city in Adana Province, Turkey.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 36.9864
+- 35.3253
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q38545
+  geonames: '325363'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q38545 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q38545 (labels, coordinates, description)

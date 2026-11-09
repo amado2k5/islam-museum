@@ -42,6 +42,7 @@ faith:
     sources: [source/wikipedia-mohammad-taqi-bahar-en, source/wikipedia-mohammad-taqi-bahar-fa, source/iranica-mohammad-taqi-bahar, source/wikidata-mohammad-taqi-bahar]
 relations:
   - { type: born_in, target: place/mashhad, sources: [source/wikipedia-mohammad-taqi-bahar-en, source/wikipedia-mohammad-taqi-bahar-fa] }
+  - { type: died_in, target: place/tehran, sources: [source/wikipedia-mohammad-taqi-bahar-en, source/wikipedia-mohammad-taqi-bahar-fa, source/wikidata-mohammad-taqi-bahar, source/iranica-mohammad-taqi-bahar] }
 external_ids: { wikidata: Q1393466 }
 sources: [source/wikipedia-mohammad-taqi-bahar-en, source/wikipedia-mohammad-taqi-bahar-fa, source/wikidata-mohammad-taqi-bahar, source/iranica-mohammad-taqi-bahar]
 provenance: { layer: own-research, source: "Lane brief century-additions-40 (group Z2); grounded from English Wikipedia revision 1381169111, Persian Wikipedia revision 44817357, the Encyclopaedia Iranica entry by Loraine and Matini, and Wikidata item Q1393466 (revision 2556751510), resolved via the Wikipedia API pageprops and Special:EntityData.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-40 }

@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
 relations:
+  - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: participated_in, target: event/algiers-expedition-1541, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:

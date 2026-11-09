@@ -27,6 +27,7 @@ story_roles:
 faith:
   - { value: christian, basis: documented, note: "A Christian ruler of the Aksumite sphere who built the great cathedral of San'a to rival Mecca's pilgrimage.", sources: [source/tabari-bosworth-1999] }
 relations:
+  - { type: ruler_of, target: place/yemen, note: "From text: ruler of Yemen", sources: [source/tabari-bosworth-1999, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/tafhim-al-quran, source/encyclopaedia-of-islam-2] }
   - { type: ruler_of, target: place/yemen, sources: [source/tabari-bosworth-1999] }
   - { type: participated_in, target: event/year-of-the-elephant-and-birth, role: invader, sources: [source/ibn-ishaq-guillaume, source/tabari-bosworth-1999] }
   - { type: built, target: building/al-qullays-sanaa, note: "Built the cathedral al-Qullays at San'a to draw the Arabs' pilgrimage away from Mecca.", sources: [source/tabari-bosworth-1999] }

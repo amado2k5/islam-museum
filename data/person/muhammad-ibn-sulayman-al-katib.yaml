@@ -10,6 +10,7 @@ gender: male
 roles: [military-commander]
 traditions: [sunni]
 relations:
+- { type: lived_in, target: place/baghdad, sources: [source/tarikh-ibn-khaldun-ibar, source/muntazam-ibn-al-jawzi] }
 - type: fought
   target: person/harun-ibn-khumarawayh
   sources:

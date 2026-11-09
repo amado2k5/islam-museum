@@ -1,0 +1,36 @@
+id: place/humayma
+class: place
+kind: site
+label:
+  ar: الحميمة
+  en: Humayma
+  ur: حمیمہ
+summary:
+  ar: موطن آل العباس في جنوب الأردن.
+  en: Abbasid family seat in southern Jordan.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 29.95
+- 35.346944444444446
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q16121226
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q16121226 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Gazetteer identification from the entities citing this place (own research)

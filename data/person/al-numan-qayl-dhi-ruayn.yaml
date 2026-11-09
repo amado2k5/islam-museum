@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أعلن إسلامه في كتاب ملوك حمير (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq], confidence: low }
   - { type: member_of, target: group/himyar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/letter-of-himyar-kings, role: "من أصحاب الكتاب", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 235-237", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch54" }

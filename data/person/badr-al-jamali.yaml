@@ -17,6 +17,7 @@ provenance:
 sources: [source/wafayat-ayan, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with القاهرة per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
   - { type: built, target: building/bab-al-nasr, sources: [source/yeomans-islamic-cairo-2006] }
   - { type: built, target: building/bab-al-futuh, sources: [source/yeomans-islamic-cairo-2006] }
   - { type: built, target: building/bab-zuwayla, sources: [source/yeomans-islamic-cairo-2006] }

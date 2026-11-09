@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/amasya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170532)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q21601985

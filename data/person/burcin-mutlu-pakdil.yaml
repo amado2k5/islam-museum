@@ -13,6 +13,8 @@ summary:
 roles: [scientist]
 wings: [people, living]
 regions: [anatolia-balkans, americas-oceania]
+relations:
+  - { type: lived_in, target: place/chicago, confidence: low, note: "Associated with Chicago per the record's own summary text; relation type pending review.", sources: [source/wikipedia-burcin-mutlu-pakdil-en] }
 faith:
   - value: unknown
     basis: unknown

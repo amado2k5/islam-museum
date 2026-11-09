@@ -15,6 +15,8 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-27
 external_ids: { wikidata: "Q7395440" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 occupations:

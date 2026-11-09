@@ -40,6 +40,7 @@ faith:
     note: "No consulted source names any religion or school for him: the English and Urdu article texts and infoboxes are silent on religion, and Wikidata carries no religion statement. His profession as a Unani physician, his founding of Hamdard and of Jamia Hamdard, and his family's Kashgari Muslim ancestry are profession, institutional work and family background, none of which attests a personal school or affiliation. Nothing here supports any segment beyond unknown."
     sources: [source/wikipedia-hakim-abdul-hameed-en, source/wikipedia-hakim-abdul-hameed-ur, source/wikidata-hakim-abdul-hameed]
 relations:
+  - { type: born_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hakim-abdul-hameed] }
   - { type: born_in, target: place/delhi, sources: [source/wikipedia-hakim-abdul-hameed-en] }
 external_ids: { wikidata: "Q19891676" }
 sources: [source/wikipedia-hakim-abdul-hameed-en, source/wikipedia-hakim-abdul-hameed-ur, source/wikidata-hakim-abdul-hameed]

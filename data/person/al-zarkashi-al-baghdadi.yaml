@@ -13,6 +13,7 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile, levant-iraq]
 died: { edtf: "1410-05~", hijri: "0812-12", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ذي الحجة 812 {cite:shadharat-dhahab p. 112}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
   - { type: teacher_of, target: person/ibn-hajar-al-asqalani, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

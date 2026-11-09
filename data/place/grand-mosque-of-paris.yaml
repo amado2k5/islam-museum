@@ -1,0 +1,21 @@
+id: place/grand-mosque-of-paris
+class: place
+kind: site
+label: { ar: "مسجد باريس الكبير", en: "Grand Mosque of Paris", ur: "مسجدِ پیرس" }
+summary:
+  ar: "موقع في فرنسا."
+  en: "Site in France."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [48.841944444444, 2.355]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q392564" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q392564 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

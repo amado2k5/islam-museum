@@ -11,6 +11,7 @@ summary:
 born: { edtf: "1146/1150", hijri: "0541", calendar: julian, precision: year, status: debated, derived: true, note: "ولد بجماعيل سنة 541 عند الضياء (ولعله في ربيع الآخر)؛ وعند المنذري وابن النجار 543 أو 544، والأظهر عنده 544؛ التحويل مشتق ويغطي الروايتين {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 5}", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
 died: { edtf: "1203-11-30~", hijri: "0600-03-23", calendar: julian, precision: day, status: debated, derived: true, note: "توفي يوم الإثنين الثالث والعشرين من ربيع الأول سنة ستمائة ودفن يوم الثلاثاء بالقرافة؛ التحويل الجدولي مشتق ويقع على الأحد 30 نوفمبر 1203 فيحتمل فرق يوم؛ ووهم ابن الحنبلي فجعل وفاته سنة 595 {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 29}", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
 relations:
+  - { type: died_in, target: place/misr, note: "From text: died in Egypt", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
   - { type: student_of, target: person/abd-al-qadir-al-jilani, role: "قرأ عليه الفقه ببغداد نحو أربعين يوماً سنة 561 (ص5–6)", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
   - { type: student_of, target: person/al-silafi, role: "أكثر عنه بالإسكندرية سنة 570 (ص6)", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
   - { type: student_of, target: person/abu-musa-al-madini, role: "سمع منه بأصبهان بعد 570 (ص6)", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }

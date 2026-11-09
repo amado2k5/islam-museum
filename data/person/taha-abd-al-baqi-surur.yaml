@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/modern-era]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q100259832

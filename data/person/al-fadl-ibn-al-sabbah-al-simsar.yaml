@@ -16,3 +16,5 @@ provenance:
   run: lib-tarikh-baghdad-tb3
 sources: [source/tarikh-baghdad-khatib]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Baghdad transmitter recorded in Tarikh Baghdad who heard Hushaym, Sufyan ibn Uyayna, Waki' and Abu Mu'awiya al-Darir.", sources: [source/tarikh-baghdad-khatib], confidence: medium }

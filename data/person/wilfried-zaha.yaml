@@ -27,6 +27,8 @@ faith:
     note: "No source read makes any statement of Zaha's religion at all. The English, French and Arabic Wikipedia articles were each read in full: none mentions religion in its text or categories (the only 'Christian' in the English article is another player's name, Christian Benteke). Wikidata Q713711 carries no religion (P140) value. His public statements about faith, where profile coverage reports them, are deliberately general and name no affiliation; none of the sources consulted here carries one, and no affiliation is inferred from coverage, background or upbringing. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
     sources: [source/wikipedia-wilfried-zaha-en, source/wikipedia-wilfried-zaha-fr, source/wikipedia-wilfried-zaha-ar, source/wikidata-wilfried-zaha]
 external_ids: { wikidata: "Q713711" }
+relations:
+  - { type: born_in, target: place/abidjan, sources: [source/wikidata-wilfried-zaha], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1515)" }
 sources: [source/wikipedia-wilfried-zaha-en, source/wikipedia-wilfried-zaha-fr, source/wikipedia-wilfried-zaha-ar, source/wikidata-wilfried-zaha]
 provenance:
   layer: own-research

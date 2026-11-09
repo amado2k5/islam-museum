@@ -12,6 +12,7 @@ gender: male
 roles: [calligrapher, artist]
 floruit: { edtf: "1682/1739", calendar: gregorian, precision: year, status: historical, note: "نشط 1682–1739م بحسب مريم اختيار {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 29}." }
 relations:
+  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name (القمي); denotes association, not proven residence.", sources: [source/ekhtiar-how-to-read-islamic-calligraphy-2018], confidence: low }
   - { type: exemplifies, target: concept/naskh-script, sources: [source/ekhtiar-how-to-read-islamic-calligraphy-2018] }
 sources: [source/ekhtiar-how-to-read-islamic-calligraphy-2018]
 provenance:

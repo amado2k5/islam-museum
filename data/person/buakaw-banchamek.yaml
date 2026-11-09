@@ -26,6 +26,8 @@ born:
   derived: true
   note: "Born on 8 May 1982 at Ban Song Nong, Samrong Thap district, Surin province, Thailand. The English article's infobox gives the date and place and its text the province; Wikidata agrees on the date and gives Surin as the birthplace. No place entity for Samrong Thap or Surin exists in the museum, so the birthplace is carried here only. The Hijri year 1402 is derived from the Gregorian date on the tabular calendar."
   sources: [source/wikipedia-buakaw-banchamek-en, source/wikidata-buakaw-banchamek]
+relations:
+  - { type: born_in, target: place/surin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-buakaw-banchamek] }
 faith:
   - value: buddhist
     basis: documented

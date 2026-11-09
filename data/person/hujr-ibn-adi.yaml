@@ -5,6 +5,9 @@ summary:
   ar: "قُتل في سنة إحدى وخمسين مع أصحابه {cite:tabari-tarikh-abu-al-fadl j.5 p.253}. وعند المسعودي سمع ابن ملجم يمر بالأشعث وهو في المسجد يقول فضحك الصبح فقال حجر قتلته يا أعور قتلك الله، فكان ما سمع {cite:muruj-al-dhahab p. 702}"
 wings: [people]
 gender: male
+relations:
+  - { type: died_in, target: place/adra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/adra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q1112943" }
 sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab]
 provenance:

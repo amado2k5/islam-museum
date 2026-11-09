@@ -11,6 +11,10 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [maghreb]
+relations:
+  - { type: ruler_of, target: place/qayrawan, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'موسى بن أبي العافية المكناسي، أكبر ملوك بطنه على الإطلاق؛ دخل أولاً في مظاهرة الأدارسة وولّاه ابن إدريس ع" }
+  - { type: ruled_over, target: place/qayrawan, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "en: 'Musa ibn Abi al-Afiya al-Miknasi, the greatest king of his branch; first an Idrisid client holding Tahert" }
+  - { type: traveled_to, target: place/nekour, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "en: 'Musa ibn Abi al-Afiya al-Miknasi, the greatest king of his branch; first an Idrisid client holding Tahert" }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

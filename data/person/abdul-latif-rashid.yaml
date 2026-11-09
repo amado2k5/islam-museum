@@ -26,6 +26,7 @@ born:
   note: "Born at Sulaymaniyah in the Kingdom of Iraq on 10 August 1944; the English article gives the date citing his official curriculum vitae, the Arabic article's infobox and the Urdu article give the same date, and Wikidata agrees. The Hijri year (1363) is derived by tabular conversion of the recorded date. Sulaymaniyah has no place entity, so no born_in edge is written."
   sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar, source/wikipedia-abdul-latif-rashid-ur, source/wikidata-abdul-latif-rashid]
 relations:
+  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar, source/wikipedia-abdul-latif-rashid-ur, source/wikidata-abdul-latif-rashid], confidence: low }
   - { type: successor_of, target: person/barham-salih, sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar] }
 faith:
   - value: unknown

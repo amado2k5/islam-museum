@@ -18,3 +18,6 @@ sources: [source/wafayat-ayan]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/bejaia, note: "From text: أقام به حتى فتح عبد المؤمن بجاية سنة", sources: [source/wafayat-ayan] }
+  - { type: ruler_of, target: place/ifriqiya, note: "From text: king of Ifriqiya", sources: [source/wafayat-ayan] }

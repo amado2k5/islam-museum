@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q5473850
 provenance:
@@ -23,3 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+relations:
+  - { type: born_in, target: place/majrit, note: "Wikidata Q2807 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/talamanca, note: "Wikidata Q16738 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/caliphate-of-c-rdoba, note: "Wikidata Q171740 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

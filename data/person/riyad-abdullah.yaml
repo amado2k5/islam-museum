@@ -18,7 +18,9 @@ faith:
 roles: [preacher]
 wings: [people, living]
 regions: [east-africa]
-relations: []
+relations:
+  - { type: lived_in, target: place/ethiopia, sources: [source/facebook-riyad-abdullah, source/youtube-ifa-rahmataa-tv] }
+
 sources: [source/facebook-riyad-abdullah, source/youtube-ifa-rahmataa-tv]
 provenance:
   layer: own-research

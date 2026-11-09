@@ -7,6 +7,8 @@ gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile, arabia]
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Associated with الحجاز per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 117–118"

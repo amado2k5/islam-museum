@@ -23,6 +23,7 @@ born:
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikipedia-mohammed-rateb-al-nabulsi-ar] }
   - { type: lived_in, target: place/amman, sources: [source/wikipedia-mohammed-rateb-al-nabulsi-en] }
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-mohammed-rateb-al-nabulsi-en, source/wikipedia-mohammed-rateb-al-nabulsi-ar, source/wikidata-mohammed-rateb-al-nabulsi, source/ipt-nabulsi-2014] }
 faith:
   - value: unknown
     basis: unknown

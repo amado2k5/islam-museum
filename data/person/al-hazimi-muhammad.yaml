@@ -24,3 +24,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wafayat-ayan]
+relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: تفقه ببغداد على واثق بن فضلان", sources: [source/wafayat-ayan] }
+  - { type: died_in, target: place/baghdad, note: "From text: توفي ببغداد في الثامن والعشرين من جم", sources: [source/wafayat-ayan] }

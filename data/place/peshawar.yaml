@@ -1,0 +1,36 @@
+id: place/peshawar
+class: place
+kind: city
+label:
+  ar: بيشاور
+  en: Peshawar
+summary:
+  ar: مدينة كبرى في إقليم خيبر بختونخوا بباكستان، قرب ممر خيبر.
+  en: Major city of Khyber Pakhtunkhwa, Pakistan, near the Khyber Pass.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 34.01
+- 71.58
+coordinate_precision: locality
+coordinate_note: Identified location; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q1113311
+  geonames: '1168197'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1113311 (labels, coordinates, description)

@@ -18,5 +18,9 @@ provenance:
   source: "تاريخ بغداد للخطيب البغدادي (ج11، ترجمة 7661، ص338)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-tarikh-baghdad-tb1
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/tarikh-baghdad-khatib], confidence: low, note: "ar: 'أبو خالد يزيد بن هارون بن زاذي السلمي مولاهم، واسطي وقيل بخاري الأصل؛ سمع يحيى بن سعيد الأنصاري وسليمان ا" }
+  - { type: lived_in, target: place/baghdad, sources: [source/tarikh-baghdad-khatib], confidence: low, note: "118, a pillar of the Wasiti hadith school; he taught at Baghdad then returned home — his students include Ahma" }
+  - { type: traveled_to, target: place/baghdad, sources: [source/tarikh-baghdad-khatib], confidence: low, note: "ar: 'أبو خالد يزيد بن هارون بن زاذي السلمي مولاهم، واسطي وقيل بخاري الأصل؛ سمع يحيى بن سعيد الأنصاري وسليمان ا" }
 sources: [source/tarikh-baghdad-khatib]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

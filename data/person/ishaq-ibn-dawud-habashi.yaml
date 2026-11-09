@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [east-africa]
 died: { edtf: "1430-07~", hijri: "0833-11", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ذي القعدة 833 وكانت ولايته إحدى وعشرين سنة {cite:shadharat-dhahab p. 201}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/abyssinia, confidence: low, note: "Associated with الحبشة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 833)، قراءة آبل فيجن"

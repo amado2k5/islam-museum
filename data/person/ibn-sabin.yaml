@@ -12,6 +12,8 @@ roles: [scholar]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, maghreb, arabia]
+relations:
+  - { type: died_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

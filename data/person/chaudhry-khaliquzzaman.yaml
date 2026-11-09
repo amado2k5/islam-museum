@@ -40,6 +40,8 @@ faith:
     note: "His school is not recorded: no article text names a school for Khaliquzzaman, and the readings are preserved here. Wikidata's structured religion value is Sunni Islam, and the categories of the English, Urdu and Arabic articles all file him among Pakistani Sunni Muslims; a structured value and the category filings that echo it are one source family, and filings are not attestations. The Urdu article is a translation of the English and the Arabic a short derivative stub, and none of the three texts discusses his religion at all. His Muslim League leadership is a political role, not a school attestation. Under the two-source rule the value stays unknown."
     sources: [source/wikipedia-chaudhry-khaliquzzaman-en, source/wikipedia-chaudhry-khaliquzzaman-ur, source/wikipedia-chaudhry-khaliquzzaman-ar, source/wikidata-chaudhry-khaliquzzaman]
 relations:
+  - { type: born_in, target: place/chunar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chaudhry-khaliquzzaman] }
+  - { type: died_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chaudhry-khaliquzzaman] }
   - { type: successor_of, target: person/firoz-khan-noon, sources: [source/wikipedia-chaudhry-khaliquzzaman-en] }
 external_ids: { wikidata: "Q5088105" }
 sources: [source/wikipedia-chaudhry-khaliquzzaman-en, source/wikipedia-chaudhry-khaliquzzaman-ur, source/wikipedia-chaudhry-khaliquzzaman-ar, source/wikidata-chaudhry-khaliquzzaman]

@@ -9,7 +9,10 @@ wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
 relations:
-  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer] }
+coordinates: [39.77, 47.62]
+coordinate_precision: locality
+coordinate_note: "Identified modern location; flagged for gazetteer verification."
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 281–287"

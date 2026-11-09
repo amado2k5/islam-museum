@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch36
+relations:
+  - { type: lived_in, target: place/mecca, note: "Among the earliest converts at Mecca.", sources: [source/muruj-al-dhahab], confidence: medium }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

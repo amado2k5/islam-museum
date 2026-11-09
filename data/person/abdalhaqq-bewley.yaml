@@ -12,6 +12,7 @@ roles: [translator, writer]
 regions: [andalus-europe]
 wings: [people, living]
 relations:
+  - { type: lived_in, target: place/britain, note: "From text: British (nationality adjective); broad association, flagged for review.", sources: [source/dar-al-taqwa-islamic-will-bios-1995, source/botswana-zakah-talks-intro-2009, source/abhath-bewley-women-translators-2021], confidence: low }
   - { type: spouse_of, target: person/aisha-bewley, sources: [source/dar-al-taqwa-islamic-will-bios-1995, source/botswana-zakah-talks-intro-2009] }
 faith:
   - value: unknown

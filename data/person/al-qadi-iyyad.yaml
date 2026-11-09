@@ -16,6 +16,7 @@ regions: [maghreb, andalus-europe]
 born: { edtf: "1083~", hijri: "0476~", calendar: julian, precision: year, status: tradition, derived: true, note: "476هـ {cite:shadharat-dhahab p. 619}؛ في الترجمة المنقولة عن الديباج في طبعة دار الكتب العلمية للشفا: بسبتة في شعبان سنة «ست وتسعين وأربعمائة» كما قرأها التعرف الضوئي، وهي مخالفة لما في الشذرات {cite:al-shifa-ilmiyya-shumunni p.5}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1149~", hijri: "0544~", calendar: julian, precision: year, status: tradition, derived: true, note: "544هـ {cite:shadharat-dhahab p. 619}؛ بمراكش في جمادى الآخرة، وقيل في رمضان، سنة 544هـ، ودفن بباب إيلان {cite:al-shifa-ilmiyya-shumunni p.5}", sources: [source/shadharat-dhahab, source/al-shifa-ilmiyya-shumunni] }
 relations:
+  - { type: lived_in, target: place/ceuta, note: "From text: judge of Ceuta", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan, source/al-shifa-ilmiyya-shumunni] }
   - { type: authored, target: work/al-ilam-fi-hudud-al-ahkam, sources: [source/kashf-zunun-furqan] }
   - { type: authored, target: work/al-shifa-bi-tarif-huquq-al-mustafa, sources: [source/al-shifa-ilmiyya-shumunni, source/shadharat-dhahab] }
   - { type: student_of, target: person/al-sadafi, sources: [source/al-shifa-ilmiyya-shumunni] }

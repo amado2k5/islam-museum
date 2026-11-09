@@ -14,6 +14,7 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-47
 relations:
+  - { type: ruler_of, target: place/cairo, note: "From text: ruled Cairo", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
   - { type: participated_in, target: event/cairo-caliphate-baya-659, role: "الخليفة بعد المستنصر — بيعته بمصر ثامن المحرم 661", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

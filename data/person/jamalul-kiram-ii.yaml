@@ -34,6 +34,8 @@ died:
   derived: true
   note: "The English article gives 7 June 1936 at Maimbung, Jolo, after kidney trouble; Wikidata gives the year 1936 only. The Hijri year 1355 is the conversion of the Gregorian date, hence derived. No place entity exists for Maimbung, so no died_in relation is written."
   sources: [source/wikipedia-jamalul-kiram-ii-en, source/wikidata-jamalul-kiram-ii]
+relations:
+  - { type: born_in, target: place/jolo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jamalul-kiram-ii] }
 faith:
   - value: unknown
     basis: unknown

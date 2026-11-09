@@ -15,6 +15,7 @@ regions: [levant-iraq]
 roles: [writer, journalist, activist]
 born: { edtf: "1936/1939", calendar: gregorian, precision: year, status: debated, derived: false, note: "The Arabic article and Wikidata give 1936, in Beirut; the prize's page gives 1939, in Beirut. Both readings are kept.", sources: [source/wikipedia-mohammad-al-sammak-ar, source/wikidata-mohammad-al-sammak, source/king-faisal-prize-laureates] }
 relations:
+  - { type: born_in, target: place/bayrut, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohammad-al-sammak] }
   - { type: born_in, target: place/bayrut, sources: [source/wikipedia-mohammad-al-sammak-ar, source/wikidata-mohammad-al-sammak, source/king-faisal-prize-laureates] }
 faith:
   - value: unknown

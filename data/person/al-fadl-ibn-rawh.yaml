@@ -7,6 +7,8 @@ summary:
 wings: [people]
 gender: male
 relations:
+  - { type: ruled_over, target: place/ifriqiya, note: "Governed Ifriqiya after his father Rawh ibn Hatim.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
+  - { type: died_in, target: place/ifriqiya, note: "The army rose on him and slaughtered him in Ifriqiya.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
   - { type: child_of, target: person/rawh-ibn-hatim, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/yazid-ibn-hatim-ifriqiya, role: "المذبوح", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

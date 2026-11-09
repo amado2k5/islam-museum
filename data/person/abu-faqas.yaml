@@ -14,3 +14,5 @@ provenance:
   run: lib-muntazam-batch-1
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: died_in, target: place/baghdad, note: "Died under fifty lashes at Baghdad in Ramadan 258 after witnesses established he cursed the early generations.", sources: [source/muntazam-ibn-al-jawzi], confidence: high }

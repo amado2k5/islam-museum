@@ -34,6 +34,8 @@ died:
   derived: true
   note: "Executed at Moscow on 28 January 1940, after the death sentence of December 1939; the English and Russian articles and Wikidata agree. The Arabic article's lead gives 28 June 1940, an error in that article, recorded as such here. The Hijri year 1358 is the tabular conversion. The museum has no place entity for Moscow, so no died_in edge is written."
   sources: [source/wikipedia-mirsaid-sultan-galiev-en, source/wikipedia-mirsaid-sultan-galiev-ru, source/wikidata-mirsaid-sultan-galiev]
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/wikipedia-mirsaid-sultan-galiev-en] }
 faith:
   - value: unknown
     basis: unknown

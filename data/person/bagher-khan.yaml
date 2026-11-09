@@ -34,6 +34,8 @@ died:
   note: "Murdered in Muharram 1335 (November 1916) while wandering in the border villages near Qasr-e Shirin: after the 1915 Mohajarat he had joined the Committee for National Defence, skirmished with Russian forces, and retreated through Kermanshah to Kirkuk and Mosul; the Kurdish bandit Mohammad-Amin Talebani offered him overnight shelter and killed him and all his party the same night. The Persian article adds that his remains were brought back to Tabriz in 1354 Solar Hijri (1975/76) and buried in the family plot beside his daughter. The Hijri date is the sources' own."
   sources: [source/iranica-bagher-khan, source/wikipedia-bagher-khan-en, source/wikipedia-bagher-khan-fa]
 relations:
+  - { type: born_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bagher-khan] }
+  - { type: died_in, target: place/kurdistan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bagher-khan] }
   - { type: born_in, target: place/tabriz, sources: [source/iranica-bagher-khan, source/wikipedia-bagher-khan-en] }
 faith:
   - value: shia-twelver

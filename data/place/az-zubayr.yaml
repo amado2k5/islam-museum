@@ -1,0 +1,21 @@
+id: place/az-zubayr
+class: place
+kind: city
+label: { ar: "الزبير", en: "Az Zubayr", ur: "زبیر" }
+summary:
+  ar: "مدينة في العراق."
+  en: "City in Iraq."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [30.389166666667, 47.708055555556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q227509" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q227509 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

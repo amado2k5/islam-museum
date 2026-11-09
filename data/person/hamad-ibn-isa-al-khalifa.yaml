@@ -34,6 +34,8 @@ died:
   note: "Died on 20 February 1942 at Al Rumaitha, Bahrain, and was buried in the Al Hunaynya Cemetery next to his ancestor Shaikh Salman bin Ahmed Al Khalifa, as the English article and Wikidata give. The Hijri year (1361) is by tabular conversion. Al Rumaitha has no place entity, so no died_in relation is written."
   sources: [source/wikipedia-hamad-ibn-isa-al-khalifa-en, source/wikidata-hamad-ibn-isa-al-khalifa]
 relations:
+  - { type: born_in, target: place/al-muharraq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamad-ibn-isa-al-khalifa] }
+  - { type: died_in, target: place/bahrayn, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamad-ibn-isa-al-khalifa] }
   - { type: sibling_of, target: person/abdullah-bin-isa-al-khalifa, sources: [source/wikipedia-hamad-ibn-isa-al-khalifa-en, source/wikipedia-abdullah-bin-isa-al-khalifa-en] }
 faith:
   - value: unknown

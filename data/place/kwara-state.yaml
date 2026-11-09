@@ -1,0 +1,21 @@
+id: place/kwara-state
+class: place
+kind: region
+label: { ar: "ولاية كوارة", en: "Kwara State", ur: "کوارا ریاست" }
+summary:
+  ar: "إقليم في نيجيريا."
+  en: "Region in Nigeria."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [9, 4.5]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q464953" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q464953 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

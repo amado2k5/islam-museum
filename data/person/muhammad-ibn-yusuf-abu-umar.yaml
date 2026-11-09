@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: allied_with, target: person/yusuf-ibn-yaqub-al-qadi, role: "ابن", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

@@ -7,6 +7,9 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 relations:
+  - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/al-hira, note: "Wikidata Q310799 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: child_of, target: person/abd-al-malik-ibn-marwan, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/banu-umayya, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/building-of-masisa, role: "الباني على الأساس القديم", sources: [source/futuh-buldan-maarif-1407] }
@@ -17,5 +20,5 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: "prose-fill-persons-batch54"
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 status: { review: published, completeness: 3 }

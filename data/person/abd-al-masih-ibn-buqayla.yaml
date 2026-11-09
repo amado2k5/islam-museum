@@ -14,3 +14,5 @@ provenance:
   run: lib-futuh-buldan-batch-34
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "From text: دليل موضع الكوفة", sources: [source/futuh-buldan-maarif-1407], confidence: low }

@@ -33,7 +33,9 @@ faith:
     basis: unknown
     note: "No source names a school for him. Wikidata's single structured family gives his religion only as Islam. His chieftaincy, his Ottoman gendarmerie service and his leadership in the Albanian national movement are office and national activity, which never count; there is no reading to preserve, so the value is unknown, unflagged."
     sources: [source/wikipedia-bajram-curri-en, source/wikidata-bajram-curri]
-relations: []
+relations:
+  - { type: born_in, target: place/gjakova, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bajram-curri] }
+  - { type: died_in, target: place/tropoj-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bajram-curri] }
 summary:
   ar: "زعيم وسياسي ألباني من مرتفعات غياكوفا، قاد النضال من أجل استقلال ألبانيا ثم من أجل ضمّ كوسوفو إليها، وكان من قادة لجنة الدفاع الوطني عن كوسوفو ووزيراً للحرب سنة 1921، ومات سنة 1925 وهو يقاوم قوات زوغو."
   en: "Albanian chieftain and politician from the Highlands of Gjakova who fought for the independence of Albania and then for Kosovo's incorporation into it; a leader of the Committee for the National Defence of Kosovo and minister of war in 1921, he died in 1925 resisting Zogu's forces."

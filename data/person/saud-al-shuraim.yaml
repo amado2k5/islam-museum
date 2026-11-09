@@ -23,6 +23,8 @@ born:
   sources: [source/wikipedia-saud-al-shuraim-en, source/wikipedia-saud-al-shuraim-ar, source/wikidata-saud-al-shuraim, source/wikipedia-saud-al-shuraim-ur]
 relations:
   - { type: student_of, target: person/saleh-al-fawzan, note: "The Arabic article's list of his teachers names Salih al-Fawzan, under whom he studied the fiqh of sales at the Higher Judicial Institute in 1410 AH. The edge is written here, in the student's record, only; his other named teachers (Ibn Baz, Ibn Jibrin, Ibn Aqeel, al-Barrak, al-Rajihi, al-Ghudayyan and others) have no records in the museum yet.", sources: [source/wikipedia-saud-al-shuraim-ar] }
+
+  - { type: lived_in, target: place/mecca, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-saud-al-shuraim-en, source/wikipedia-saud-al-shuraim-ar, source/wikipedia-saud-al-shuraim-ur, source/wikipedia-saud-al-shuraim-fr] }
 faith:
   - value: unknown
     basis: unknown

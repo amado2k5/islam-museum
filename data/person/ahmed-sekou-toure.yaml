@@ -45,3 +45,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-76
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/france, note: "From text: from France", sources: [source/wikipedia-ahmed-sekou-toure-en, source/wikipedia-ahmed-sekou-toure-ar, source/wikipedia-ahmed-sekou-toure-fr, source/wikidata-ahmed-sekou-toure], confidence: low }

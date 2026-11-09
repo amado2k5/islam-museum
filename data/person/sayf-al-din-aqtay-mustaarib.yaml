@@ -15,7 +15,10 @@ regions: [egypt-nile]
 faith:
   - value: sunni
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+
 sources: [source/shadharat-dhahab]
 status:
   review: published

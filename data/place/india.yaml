@@ -1,0 +1,38 @@
+id: place/india
+class: place
+kind: region
+label:
+  ar: الهند
+  en: India (al-Hind)
+  ur: بھارت
+summary:
+  ar: شبه القارة الهندية، بلاد الهند عند الجغرافيين المسلمين.
+  en: The Indian subcontinent, the land of al-Hind in Islamic geography.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 21.0
+- 78.0
+coordinate_precision: approx
+coordinate_note: Approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q668
+  geonames: '1269750'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q668 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q668 (labels, coordinates, description)

@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 relations:
+  - { type: lived_in, target: place/al-karak, note: "From text: أقام بالكرك وكتب بعزل نفسه عن المملك", sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/durar-kamina-jil-1993, source/yeomans-islamic-cairo-2006] }
   - { type: child_of, target: person/qalawun, sources: [source/shadharat-dhahab] }
   - { type: sibling_of, target: person/al-ashraf-khalil, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/ashraf-khalil-murder-693, sources: [source/shadharat-dhahab] }

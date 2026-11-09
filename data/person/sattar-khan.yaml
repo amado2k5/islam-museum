@@ -33,6 +33,7 @@ died:
   sources: [source/iranica-sattar-khan, source/wikipedia-sattar-khan-en, source/wikipedia-sattar-khan-ru]
 relations:
   - { type: buried_in, target: place/rayy, sources: [source/wikipedia-sattar-khan-en] }
+  - { type: born_in, target: place/azerbaijan, sources: [source/iranica-sattar-khan, source/wikipedia-sattar-khan-en] }
 faith:
   - value: shia-twelver
     basis: documented

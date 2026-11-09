@@ -33,6 +33,7 @@ died:
   note: "Died on Monday evening 16 Muharram 1401 AH, 24 November 1980 (Arabic article pairs the dates); the English infobox places his death at Cairo."
   sources: [source/wikipedia-mahmoud-khalil-al-hussary-ar, source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikidata-mahmoud-khalil-al-hussary]
 relations:
+  - { type: died_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-khalil-al-hussary] }
   - { type: died_in, target: place/cairo, note: "The English infobox gives Cairo as his place of death; the Arabic article gives Egypt.", sources: [source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikipedia-mahmoud-khalil-al-hussary-ar] }
   - { type: lived_in, target: place/cairo, note: "He moved to Cairo, joined Egypt Radio there, served as reciter of the al-Hussein Mosque from 1955 until his death, and studied and taught at al-Azhar (English article).", sources: [source/wikipedia-mahmoud-khalil-al-hussary-en] }
 faith:

@@ -37,11 +37,12 @@ died:
   sources: [source/wikipedia-qutb-al-din-shirazi-en, source/wikipedia-qutb-al-din-shirazi-ar, source/wikidata-qutb-al-din-shirazi]
 
 relations:
+  - { type: student_of, target: person/nasir-al-din-al-tusi, sources: [source/wikipedia-qutb-al-din-shirazi-en, source/wikipedia-qutb-al-din-shirazi-ar] }
+
   - { type: born_in, target: place/shiraz, sources: [source/wikipedia-qutb-al-din-shirazi-en] }
   - { type: died_in, target: place/tabriz, sources: [source/wikipedia-qutb-al-din-shirazi-en, source/wikipedia-qutb-al-din-shirazi-ar] }
   - { type: buried_in, target: place/tabriz, sources: [source/wikipedia-qutb-al-din-shirazi-en, source/wikipedia-qutb-al-din-shirazi-ar] }
-  - { type: student_of, target: person/nasir-al-din-al-tusi, sources: [source/wikipedia-qutb-al-din-shirazi-en, source/wikipedia-qutb-al-din-shirazi-ar] }
-
+  - { type: lived_in, target: place/maragha, sources: [source/wikipedia-qutb-al-din-shirazi-en, source/wikipedia-qutb-al-din-shirazi-ar, source/wikipedia-qutb-al-din-shirazi-ur, source/wikidata-qutb-al-din-shirazi] }
 faith:
   - value: sufi
     basis: documented

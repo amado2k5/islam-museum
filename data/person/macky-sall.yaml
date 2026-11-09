@@ -31,6 +31,7 @@ faith:
     note: "One text names a school for him personally: the English article's Religion section states 'Sall is a Muslim who follows the Maliki school', citing ACI Africa's report of his 24 January 2020 audience with Pope Francis, and records his support for a tolerant Islam (BBC). Everything else is structure, which never counts and which echoes rather than attests: the French infobox gives 'Islam sunnite malékite'; Wikidata's single religion value is Sunni Islam; the English, Arabic and Urdu articles file him under Senegalese Muslims. The French text quotes his own 2016 statement that homosexuality is contrary to the Muslim religion — it attests his Muslim identity, not a school. So the sunni-maliki reading stands one attestation short of documented (the wave-77 configuration) and is preserved here; with doubt, the value stays unknown."
     sources: [source/wikipedia-macky-sall-en, source/wikipedia-macky-sall-fr, source/wikidata-macky-sall]
 relations:
+  - { type: born_in, target: place/fatick, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-macky-sall] }
   - type: successor_of
     target: person/abdoulaye-wade
     sources: [source/wikipedia-macky-sall-en]

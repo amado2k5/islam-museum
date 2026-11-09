@@ -14,3 +14,5 @@ provenance:
   run: lib-ansab-batch-4
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/ifriqiya, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ansab-al-ashraf] }

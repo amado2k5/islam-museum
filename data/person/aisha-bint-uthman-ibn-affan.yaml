@@ -14,6 +14,7 @@ themes: [women, politics-governance-and-authority, factions-splits-schisms]
 periods: [period/rashidun]
 regions: [arabia, levant-iraq]
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3], confidence: low }
   - { type: child_of, target: person/uthman-ibn-affan, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
   - { type: related_to, target: person/umar-ibn-al-khattab, note: "تصف في خطبتها استخلاف عمر بن الخطاب وما أعقبه من ترتيب الولاية {cite:alam-al-nisa-kahhala-risala-1984-v3 p. 163}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
   - { type: related_to, target: person/ali-ibn-abi-talib, note: "خطبها بعد مقتل أبيها وبايع عليّ {cite:alam-al-nisa-kahhala-risala-1984-v3 p. 162-163}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }

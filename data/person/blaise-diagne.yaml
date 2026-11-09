@@ -30,6 +30,9 @@ died:
   derived: true
   note: "Died at Cambo-les-Bains, France, on 11 May 1934, per both articles and Wikidata; the French article adds that his body was repatriated to Dakar in 1935. Cambo-les-Bains has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion (11 May 1934 falls in Muharram 1353)."
   sources: [source/wikipedia-blaise-diagne-en, source/wikipedia-blaise-diagne-fr, source/wikidata-blaise-diagne]
+relations:
+  - { type: born_in, target: place/gor-e, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-blaise-diagne] }
+  - { type: died_in, target: place/cambo-les-bains, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-blaise-diagne] }
 faith:
   - value: unknown
     basis: unknown

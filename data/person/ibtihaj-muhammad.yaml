@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Gregorian date from English Wikipedia and Wikidata Q3147556. The English article says she was born in New Jersey and raised in Maplewood; Wikidata gives her birthplace as Maplewood (Q32525) and the Arabic article likewise gives Maplewood. Maplewood has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1406) is derived by tabular conversion."
   sources: [source/wikipedia-ibtihaj-muhammad-en, source/wikidata-ibtihaj-muhammad, source/wikipedia-ibtihaj-muhammad-ar]
+relations:
+  - { type: lived_in, target: place/united-states, confidence: low, note: "Associated with الولايات المتحدة per the record's own summary text; relation type pending review.", sources: [source/wikipedia-ibtihaj-muhammad-en] }
 faith:
   - value: unknown
     basis: unknown

@@ -33,6 +33,8 @@ died:
 relations:
   - { type: child_of, target: person/amadou-bamba, sources: [source/wikipedia-saliou-mbacke-en, source/wikipedia-saliou-mbacke-fr] }
   - { type: successor_of, target: person/abdou-khadre-mbacke, sources: [source/wikipedia-saliou-mbacke-en, source/wikipedia-saliou-mbacke-fr] }
+  - { type: born_in, target: place/diourbel, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q910973)" }
+  - { type: died_in, target: place/touba, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q657072)" }
 faith:
   - value: unknown
     basis: unknown

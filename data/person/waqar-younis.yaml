@@ -21,7 +21,8 @@ born:
   derived: true
   note: "Born on 16 November 1971 in Vehari district, Punjab, Pakistan (the English article's early-life section specifies Burewala, Vehari district), per the English and Arabic Wikipedia articles and Wikidata. The Hijri year (1391) is derived by tabular conversion."
   sources: [source/wikipedia-waqar-younis-en, source/wikipedia-waqar-younis-ar, source/wikidata-waqar-younis]
-relations: []
+relations:
+  - { type: born_in, target: place/vehari, sources: [source/wikidata-waqar-younis], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1251249)" }
 faith:
   - value: unknown
     basis: unknown

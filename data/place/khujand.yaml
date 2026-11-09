@@ -1,0 +1,35 @@
+id: place/khujand
+class: place
+kind: town
+label:
+  ar: خجندة
+  en: Khujand
+  ur: خجند
+summary:
+  ar: مدينة في خانية خوقند.
+  en: Khujand; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 40.2794
+- 69.6319
+coordinate_precision: locality
+coordinate_note: Wikidata Q373808.
+external_ids:
+  wikidata: Q373808
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q373808 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

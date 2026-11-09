@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q109258247

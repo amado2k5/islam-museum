@@ -12,6 +12,8 @@ wings: [people]
 regions: [andalus-europe]
 periods: [period/gunpowder-empires]
 relations:
+  - { type: ruled_over, target: place/spain, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: ruled_over, target: place/portugal, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: child_of, target: person/charles-v, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/don-antonio-portugal, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: allied_with, target: person/ahmad-al-mansur-al-sadi, sources: [source/dawlat-uthmaniyya-salabi], note: "شبه اتفاق عسكري مقابل العرائش" }

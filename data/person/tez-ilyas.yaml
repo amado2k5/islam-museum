@@ -29,7 +29,8 @@ born:
   note: "Born in Blackburn, Lancashire, England. The English article and Wikidata agree on 8 April 1983; the article takes his registered birth name from the England & Wales Civil Registration Birth Index. The Hijri year 1403 is the tabular conversion of the built date, marked derived. No place entity for Blackburn exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-tez-ilyas-en, source/wikidata-tez-ilyas]
 
-relations: []
+relations:
+  - { type: born_in, target: place/blackburn, sources: [source/wikidata-tez-ilyas], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q188313)" }
 
 faith:
   - value: unknown

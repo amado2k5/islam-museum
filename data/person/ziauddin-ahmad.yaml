@@ -42,6 +42,7 @@ faith:
     sources: [source/wikipedia-ziauddin-ahmad-en, source/wikipedia-ziauddin-ahmad-ar, source/wikipedia-ziauddin-ahmad-ur, source/wikidata-ziauddin-ahmad]
 relations:
   - { type: successor_of, target: person/nawab-mohammad-ismail-khan, sources: [source/wikipedia-ziauddin-ahmad-en, source/wikipedia-ziauddin-ahmad-ur, source/wikipedia-nawab-mohammad-ismail-khan-en, source/wikipedia-nawab-mohammad-ismail-khan-ur] }
+  - { type: buried_in, target: place/aligarh, sources: [source/wikidata], confidence: low, note: "Buried beside Sir Syed Ahmad Khan grave at Aligarh Muslim University per the record text." }
 sources: [source/wikipedia-ziauddin-ahmad-en, source/wikipedia-ziauddin-ahmad-ar, source/wikipedia-ziauddin-ahmad-ur, source/wikidata-ziauddin-ahmad]
 provenance:
   layer: own-research

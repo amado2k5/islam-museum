@@ -33,6 +33,10 @@ died:
   derived: true
   note: "Assassinated at Tiflis (present-day Tbilisi) on 19 June 1920, shot near Erivansky Square by Aram Yerganian in Operation Nemesis, per the English article; the Azerbaijani article names a second gunman, Misak Grigoryan. His funeral was arranged by the Persian consulate at Tiflis and he was buried in the city's old Muslim cemetery, beside Mirza Fatali Akhundov. The Hijri year 1338 is the tabular conversion. The museum has no place entity for Tbilisi, so no died_in edge is written."
   sources: [source/wikipedia-fatali-khan-khoyski-en, source/wikipedia-fatali-khan-khoyski-az, source/wikidata-fatali-khan-khoyski]
+relations:
+  - { type: born_in, target: place/shaki, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fatali-khan-khoyski] }
+  - { type: died_in, target: place/tiflis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fatali-khan-khoyski] }
+  - { type: buried_in, target: place/pantheon-of-azeri-figures, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fatali-khan-khoyski] }
 faith:
   - value: unknown
     basis: unknown

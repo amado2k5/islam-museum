@@ -15,6 +15,7 @@ regions: [arabia]
 story_roles:
   - { role: victim, status: tradition, note: "أهدر دمها مع ابن خطل لهجائهما النبي (ابن هشام 4/52).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/fath-mecca-proscribed-persons, role: proscribed-singer, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 52–53", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch51" }
 sources: [source/ibn-hisham-saqqa]

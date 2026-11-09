@@ -9,6 +9,8 @@ died: { edtf: "1027~", hijri: "0418", calendar: julian, precision: year, status:
 roles: [scholar, poet]
 wings: [people]
 periods: [period/abbasid-early]
+relations:
+  - { type: lived_in, target: place/mayyafariqin, confidence: low, note: "Associated with ميافارقين per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

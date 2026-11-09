@@ -1,0 +1,34 @@
+id: place/jabal-amel
+class: place
+kind: town
+label:
+  ar: جبل عامل
+  en: Jabal Amel
+summary:
+  ar: منطقة في لبنان.
+  en: Jabal Amel; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- global
+coordinates:
+- 0
+- 0
+coordinate_precision: locality
+coordinate_note: Wikidata Q1550572.
+external_ids:
+  wikidata: Q1550572
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1550572 (labels, coordinates, description)

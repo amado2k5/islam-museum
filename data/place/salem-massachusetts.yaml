@@ -1,0 +1,21 @@
+id: place/salem-massachusetts
+class: place
+kind: city
+label: { ar: "سالم", en: "Salem, Massachusetts" }
+summary:
+  ar: "مدينة سالم."
+  en: "City (Salem, Massachusetts)."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [42.52, -70.89]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q49199; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q49199" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q49199 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

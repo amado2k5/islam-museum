@@ -13,6 +13,8 @@ summary:
 roles: [writer, traveler]
 wings: [people, living]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/united-kingdom, confidence: low, note: "Associated with المملكة المتحدة per the record's own summary text; relation type pending review.", sources: [source/travelmassive-elena-nikolova] }
 faith:
   - value: unknown
     basis: unknown

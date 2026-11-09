@@ -11,6 +11,8 @@ summary:
   en: "Iranian maddah from Tehran, born in the Nezamabad area in 1968 and among Iran's best-known eulogists; he writes much of his own verse, leads the Rayat al-Abbas hey'at at Chizar in northern Tehran, and performs at Muharram and Fatimiyya ceremonies including ceremonies attended by Supreme Leader Ali Khamenei; the instastatistics counter page for his official Instagram account (@mahmuudkarimi) showed 439,090 followers when read in November 2026."
   ur: "تہران سے تعلق رکھنے والے ایرانی مداح، جو 1968ء میں نظام آباد کے علاقے میں پیدا ہوئے اور ایران کے مشہور ترین مداحوں میں سے ہیں؛ وہ اپنے بیشتر نوحے خود لکھتے ہیں، شمالی تہران کے چیذر میں «رایة العباس» ہیئت کی قیادت کرتے ہیں، اور محرم و فاطمیہ کی مجالس میں پڑھتے ہیں جن میں رہبر اعلیٰ علی خامنہ ای بھی شریک ہوتے ہیں؛ ان کے سرکاری انسٹاگرام اکاؤنٹ ⁦(@mahmuudkarimi)⁩ کی انسٹاسٹیٹسٹکس کاؤنٹر صفحہ نے نومبر 2026ء میں پڑھے جانے پر 439,090 فالوور دکھائے۔"
 gender: male
+relations:
+  - { type: born_in, target: place/tehran, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-mahmoud-karimi-fa, source/wikipedia-mahmoud-karimi-en] }
 faith:
   - value: unknown
     basis: unknown
@@ -28,7 +30,6 @@ born:
   derived: true
   note: "Born in Tehran on 23 Khordad 1347 (13 June 1968), as given by Persian Wikipedia; the English and Arabic articles corroborate the year 1968 and the Nezamabad area of Tehran but not the day, so the day rests on the Persian article alone and is flagged as such. There is no place record for Tehran, so no born_in edge is written. Hijri year 1388 derived from the Gregorian date."
   sources: [source/wikipedia-mahmoud-karimi-fa, source/wikipedia-mahmoud-karimi-en]
-relations: []
 sources: [source/wikipedia-mahmoud-karimi-en, source/wikipedia-mahmoud-karimi-fa, source/wikipedia-mahmoud-karimi-ar, source/wikipedia-mahmoud-karimi-sv, source/instastatistics-mahmuudkarimi]
 provenance:
   layer: own-research

@@ -1,0 +1,36 @@
+id: place/zurich
+class: place
+kind: city
+label:
+  ar: زيورخ
+  en: Zurich
+  ur: زیورخ
+summary:
+  ar: مدينة في الاتحاد السويسري القديم.
+  en: Most populous city in Switzerland and capital of the canton of Zurich.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 47.3744
+- 8.5411
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q72
+  geonames: '7287650'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q72 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q72 (labels, coordinates, description)

@@ -14,6 +14,7 @@ regions: [arabia]
 story_roles:
   - { role: military-opponent, toward: person/muhammad, status: tradition, note: "يجمع الناس ليغزو النبي (ابن هشام ص267).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/hudhayl, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/killing-of-khalid-ibn-sufyan-al-hudhali, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
 provenance:

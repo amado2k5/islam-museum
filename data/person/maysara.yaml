@@ -17,6 +17,7 @@ story_roles:
 faith:
   - { value: unknown, basis: unknown }
 relations:
+  - { type: lived_in, target: place/syria, confidence: low, note: "Associated with Syria per the record's own summary text; relation type pending review.", sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: participated_in, target: event/marriage-to-khadija, role: "نقل شهادته في التجارة إلى خديجة", sources: [source/mubarakpuri-raheeq] }
 sources: [source/tarikh-ibn-khaldun-ibar, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 60-61" }

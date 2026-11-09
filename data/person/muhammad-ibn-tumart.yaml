@@ -12,5 +12,9 @@ provenance:
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ibar-batch-4
+relations:
+  - { type: ruled_over, target: place/bejaia, sources: [source/shadharat-dhahab], confidence: low, note: "وفي شذرات الذهب هو المصمودي البربري المدعي أنه علوي حسني وأنه المهدي رحل إلى المشرق ولقي الغزالي وطائفة وحصل ف" }
+  - { type: lived_in, target: place/bejaia, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'إمام المصامدة وصاحب دولة الموحدين المشتهر بالمهدي، أصله من هرغة؛ نزل تلمسان وحج ودخل العراق ولقي جلة العل" }
+  - { type: lived_in, target: place/iraq, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'إمام المصامدة وصاحب دولة الموحدين المشتهر بالمهدي، أصله من هرغة؛ نزل تلمسان وحج ودخل العراق ولقي جلة العل" }
 sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

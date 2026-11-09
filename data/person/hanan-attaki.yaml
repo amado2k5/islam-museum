@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born in Banda Aceh on 31 December 1981: the date in the Indonesian article's lead text, given twice and matching the modern-figures harvest. The article's infobox gives 12 July 1981 instead; the conflict is preserved rather than resolved, the lead followed. The Hijri year 1402 is a tabular conversion of the followed date, marked derived. No place record for Banda Aceh exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-hanan-attaki-id]
+relations:
+  - { type: born_in, target: place/banda-aceh, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-hanan-attaki-id] }
 faith:
   - value: unknown
     basis: unknown

@@ -13,5 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch44
+relations:
+  - { type: lived_in, target: place/samarra, note: "Settled at Karkh Fayruz in Sur man Raa (Samarra) by al-Mu'tasim's iqta.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: high }
+  - { type: lived_in, target: place/al-qatul, note: "Given Qasr al-Rashid at al-Qatul.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
 sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 status: { review: published, completeness: 3 }

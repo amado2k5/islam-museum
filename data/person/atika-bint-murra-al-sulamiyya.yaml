@@ -14,5 +14,7 @@ provenance:
   source: "أنساب الأشراف للبلاذري (ط مؤسسة الأعلمي/دار المعارف)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ansab-batch-1
+relations:
+  - { type: lived_in, target: place/hijaz, note: "Of Banu Sulaym of the Hijaz; Hashim's mother, flagged.", sources: [source/ansab-al-ashraf], confidence: low }
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

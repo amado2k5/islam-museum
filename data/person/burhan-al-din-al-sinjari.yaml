@@ -15,7 +15,8 @@ regions: [egypt-nile]
 faith:
   - value: sunni-shafii
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:
   review: published

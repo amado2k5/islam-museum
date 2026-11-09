@@ -8,6 +8,8 @@ wings: [people]
 periods: [period/abbasid-early]
 relations:
   - { type: participated_in, target: event/killing-of-yusuf-al-marwazi, role: "الوالي المقتول", sources: [source/futuh-buldan-maarif-1407] }
+
+  - { type: lived_in, target: place/marw, confidence: low, note: "Association inferred from the nisba in the name 'Yusuf ibn Muhammad ibn Yusuf al-Marwazi'; specific residence not individually documented.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 296–297"

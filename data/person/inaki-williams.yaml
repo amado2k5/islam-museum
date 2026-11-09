@@ -21,6 +21,8 @@ born:
   derived: true
   note: "The English and Arabic articles and Wikidata all give 15 June 1994, born in Bilbao, Spain. There is no place entity for Bilbao, so no born_in edge is written. Hijri year 1415 derived from the Gregorian date."
   sources: [source/wikipedia-inaki-williams-en, source/wikipedia-inaki-williams-ar, source/wikidata-inaki-williams]
+relations:
+  - { type: born_in, target: place/bilbao, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-inaki-williams] }
 faith:
   - value: unknown
     basis: unknown

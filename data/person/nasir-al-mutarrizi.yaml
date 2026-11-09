@@ -15,6 +15,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch42
+relations:
+  - { type: born_in, target: place/khwarizm, sources: [source/wafayat-ayan], confidence: low, note: "born: { edtf: '1143~', hijri: '0538', calendar: julian, precision: month, status: tradition, derived: true, no" }
+  - { type: lived_in, target: place/baghdad, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'أبو الفتح ناصر بن عبد السيد بن علي المطرزي، الفقيه النحوي الأديب الخوارزمي؛ كان على مذهب الإمام أبي حنيفة" }
 sources: [source/wafayat-ayan]
 status:
   review: published

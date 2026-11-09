@@ -15,7 +15,8 @@ regions: [persia-central-asia]
 faith:
   - value: sunni
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (الخراساني); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
 sources: [source/shadharat-dhahab]
 status:
   review: published

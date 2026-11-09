@@ -16,6 +16,7 @@ regions: [arabia]
 story_roles:
   - { role: ruler, toward: group/kinda, status: tradition, note: "من ملوك كندة (ابن هشام ص232-233).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/kinda, sources: [source/ibn-hisham-saqqa] }
 issue: { ar: "من هو آكل المرار: الحارث بن عمرو أم حجر بن عمرو؟" }
 perspectives:

@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: low }
   - { type: member_of, target: group/banu-makhzum, sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/rebuilding-of-the-kaaba, role: "اقترح التحكيم بأول داخل", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }

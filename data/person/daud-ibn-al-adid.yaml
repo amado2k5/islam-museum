@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/bosworth-new-islamic-dynasties-1996] }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q110589306

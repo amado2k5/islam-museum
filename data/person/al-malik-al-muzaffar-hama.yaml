@@ -16,6 +16,7 @@ faith:
   - value: sunni
     basis: tradition
 relations:
+  - { type: ruler_of, target: place/hama, note: "From text: king of Hama", sources: [source/shadharat-dhahab] }
   - { type: child_of, target: person/al-malik-al-mansur-ii-hama, sources: [source/shadharat-dhahab] }
   - { type: ruler_of, target: place/hama, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]

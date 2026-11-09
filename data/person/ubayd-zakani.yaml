@@ -35,8 +35,9 @@ died:
     - source/wikipedia-ubayd-zakani-fa
 
 relations:
-  - { type: born_in, target: place/qazvin, sources: [source/wikipedia-ubayd-zakani-en, source/iranica-obayd-zakani] }
 
+  - { type: born_in, target: place/qazvin, sources: [source/wikipedia-ubayd-zakani-en, source/iranica-obayd-zakani] }
+  - { type: lived_in, target: place/shiraz, sources: [source/wikipedia-ubayd-zakani-en, source/wikipedia-ubayd-zakani-fa, source/iranica-obayd-zakani, source/wikidata-ubayd-zakani] }
 faith:
   - value: unknown
     basis: unknown

@@ -34,6 +34,10 @@ died:
   note: "He died in his sleep of a heart attack at Shubra Palace in Taif on 9 November 1953 (English article; Wikidata place Taif, Q182640), and was buried in Al Oud cemetery at Riyadh next to his sister Noura (English article). The Arabic article pairs the date with 2 Rabi' al-Awwal 1373 AH, which agrees with tabular conversion, so the Hijri year (1373) is recorded as derived from the same date."
   sources: [source/wikipedia-ibn-saud-en, source/wikipedia-ibn-saud-ar, source/wikidata-ibn-saud]
 relations:
+  - { type: born_in, target: place/riyadh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibn-saud] }
+  - { type: died_in, target: place/taif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibn-saud] }
+  - { type: buried_in, target: place/al-oud-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibn-saud] }
+  - { type: lived_in, target: place/royal-court, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibn-saud] }
   - { type: died_in, target: place/taif, sources: [source/wikipedia-ibn-saud-en, source/wikidata-ibn-saud] }
   - { type: member_of, target: group/al-saud, note: "Founder of the third Saudi state and fourteenth ruler of the House of Saud (Arabic article); the edge is written to the house group as the museum models it.", sources: [source/wikipedia-ibn-saud-ar, source/wikipedia-ibn-saud-en] }
   - { type: participated_in, target: event/unification-of-saudi-arabia, note: "He directed the three decades of conquests, from the recapture of Riyadh in 1902 to the unification decree of 23 September 1932, that the museum's event record covers.", sources: [source/wikipedia-ibn-saud-en, source/wikipedia-ibn-saud-ar] }

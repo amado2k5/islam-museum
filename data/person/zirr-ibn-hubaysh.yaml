@@ -13,6 +13,8 @@ regions: [levant-iraq]
 periods: [period/umayyad]
 born: { edtf: "0583", precision: year, status: tradition, derived: true }
 died: { edtf: "0700", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }
 sources: [source/al-aalam, source/thiqat-ibn-hibban]
 external_ids:
   wikidata: Q28715141

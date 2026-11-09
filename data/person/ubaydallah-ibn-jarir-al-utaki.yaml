@@ -18,5 +18,7 @@ provenance:
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 262)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-muntazam-258-349-batch33
+relations:
+  - { type: died_in, target: place/wasit, sources: [source/muntazam-ibn-al-jawzi], confidence: medium, note: "He died at Wasit in Rajab 262 {cite:muntazam-ibn-al-jawzi p." }
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

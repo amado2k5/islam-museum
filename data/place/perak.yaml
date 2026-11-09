@@ -1,0 +1,21 @@
+id: place/perak
+class: place
+kind: region
+label: { ar: "فيرق", en: "Perak", ur: "پیراک" }
+summary:
+  ar: "ولاية فيرق الماليزية على الساحل الغربي لشبه الجزيرة الملايوية؛ سلطنة تاريخية قائمة منذ القرن السادس عشر."
+  en: "Perak, a state and historic sultanate on the west coast of the Malay Peninsula."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [4.75, 101]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q188953" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q188953 (labels, coordinates), read via Special:EntityData in the person-place geo-enrichment run; needed by person/idris-shah-i-of-perak."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

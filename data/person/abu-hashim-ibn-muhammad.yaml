@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
 relations:
+  - { type: traveled_to, target: place/al-sham, note: "From text: journey to Syria", sources: [source/tarikh-khulafa-minhaj-1434, source/encyclopaedia-of-islam-2] }
   - { type: related_to, target: person/muhammad-ibn-ali-al-abbasi, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

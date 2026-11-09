@@ -18,6 +18,7 @@ themes: [mathematics]
 periods: [period/abbasid-early]
 regions: [egypt-nile]
 relations:
+  - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name (الخوارزمي); denotes association, not proven residence.", sources: [source/sezgin-gas-v-mathematik, source/khwarizmi-jabr-cairo-1939, source/abu-kamil-mactutor, source/tdv-abu-kamil, source/dosay-abu-kamil-1990], confidence: low }
   - { type: influenced_by, target: person/al-khwarizmi, sources: [source/khwarizmi-jabr-cairo-1939] }
 external_ids:
   wikidata: Q335103

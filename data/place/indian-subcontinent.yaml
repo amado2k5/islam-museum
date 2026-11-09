@@ -1,0 +1,35 @@
+id: place/indian-subcontinent
+class: place
+kind: region
+label:
+  ar: شبه القارة الهندية
+  en: Indian subcontinent
+summary:
+  ar: شبه القارة الهندية.
+  en: Indian subcontinent; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 22.2078
+- 76.9702
+coordinate_precision: locality
+coordinate_note: Wikidata Q60140.
+external_ids:
+  wikidata: Q60140
+  geonames: '6269134'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q60140 (labels, coordinates, description)

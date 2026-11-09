@@ -33,6 +33,10 @@ died:
   derived: true
   note: "Died at Stanford Hospital in Stanford, California, of breast cancer diagnosed in 2013. The English article gives 14 July 2017 and the Persian article gives 23 Tir 1396, the same day; the Arabic and Urdu articles give 15 July 2017 (the date as reported in Iran), and Wikidata carries both days. No died_in relation is written: Stanford has no museum place entity."
   sources: [source/wikipedia-mirzakhani-en, source/wikipedia-mirzakhani-fa, source/wikipedia-mirzakhani-ar, source/wikidata-mirzakhani]
+relations:
+  - { type: born_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/stanford, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/palo-alto, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

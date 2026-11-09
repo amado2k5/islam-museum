@@ -13,6 +13,10 @@ regions: [south-asia]
 periods: [period/mongol-post-mongol]
 born: { edtf: "1246", precision: year, status: tradition, derived: true }
 died: { edtf: "1315", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/indian-subcontinent, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q60140)" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+  - { type: buried_in, target: place/sufism-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q104244392)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q45108299

@@ -26,3 +26,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch63
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Himyarite satirist in Ziyad's Iraq (regions: arabia).", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: traveled_to, target: place/oman, confidence: low, note: "Exiled by Ziyad to Oman per the biographical tradition (regions: arabia).", sources: [source/mawsuat-a3lam-ulama-adaba] }

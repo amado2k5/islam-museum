@@ -19,6 +19,7 @@ born:
   note: "Year only in the sources; born in al-Rastan, Syria. No Hijri year is recorded: a year-only Gregorian date spans two Hijri years (compare the al-Kuftaro enrichment in batch 1, where the Hijri year was likewise omitted)."
   sources: [source/wikipedia-manaf-tlass-en, source/wikipedia-manaf-tlass-ar, source/wikidata-manaf-tlass]
 relations:
+  - { type: born_in, target: place/al-rastan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-manaf-tlass] }
   - { type: child_of, target: person/mustafa-tlass, sources: [source/wikipedia-manaf-tlass-en, source/wikipedia-manaf-tlass-ar] }
 faith:
   - value: sunni

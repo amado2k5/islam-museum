@@ -1,0 +1,36 @@
+id: place/australia
+class: place
+kind: region
+label:
+  ar: أستراليا
+  en: Australia
+  ur: آسٹریلیا
+summary:
+  ar: دولة وقارة في نصف الكرة الجنوبي.
+  en: Country and continent in the southern hemisphere.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- -25.0
+- 133.0
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q408
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q408 (labels, coordinates, description)

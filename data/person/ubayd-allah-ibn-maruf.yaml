@@ -18,6 +18,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch114
+relations:
+  - { type: ruler_of, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi], confidence: low, note: "ar: 'ابن معروف، قاضي القضاة ببغداد في أواخر أيام الطائع لله؛ تقلّد قضاء القضاة في شعبان سنة ستين وثلثمائة بعد " }
 sources: [source/muntazam-ibn-al-jawzi]
 status:
   review: published

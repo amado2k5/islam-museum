@@ -35,6 +35,8 @@ faith:
     basis: unknown
     note: "No religious affiliation is recorded for Maksum in the article: it carries no religion field and its text names no faith for him personally; it records his CPSU membership and his Soviet offices, which never attest personal faith, and Soviet-era office does not engage the atheist bar (the gabiev and buynaksky precedent). With no source naming a school or affiliation for him personally, his affiliation stands unclassified (doubt rule)."
     sources: [source/wikipedia-nusratullo-maksum-en]
+relations:
+  - { type: died_in, target: place/moscow, sources: [source/wikidata], confidence: low, note: "Died at Kommunarka near Moscow per the record text." }
 sources: [source/wikipedia-nusratullo-maksum-en]
 provenance:
   layer: own-research

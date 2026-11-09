@@ -32,6 +32,7 @@ died:
   note: "Date from English Wikipedia, the Arabic article, Wikidata and Britannica, which gives Cairo as the place of death; the Arabic article adds that she died of a heart attack while writing a statement demanding Arab unity over Palestine. The Hijri year (1367) is derived by tabular conversion."
   sources: [source/wikipedia-huda-shaarawi-en, source/wikipedia-huda-shaarawi-ar, source/wikidata-huda-shaarawi, source/britannica-huda-sharawi]
 relations:
+  - { type: born_in, target: place/minya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-huda-shaarawi] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-huda-shaarawi-ar, source/wikipedia-huda-shaarawi-en] }
   - { type: died_in, target: place/cairo, sources: [source/britannica-huda-sharawi, source/wikidata-huda-shaarawi] }
 faith:

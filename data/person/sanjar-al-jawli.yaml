@@ -24,3 +24,6 @@ status:
   completeness: 1
 relations:
   - { type: built, target: building/tomb-of-salar-and-sangar, sources: [source/yeomans-islamic-cairo-2006] }
+
+  - { type: ruler_of, target: place/gaza, sources: [source/shadharat-dhahab, source/yeomans-islamic-cairo-2006] }
+  - { type: ruler_of, target: place/hama, sources: [source/shadharat-dhahab, source/yeomans-islamic-cairo-2006] }

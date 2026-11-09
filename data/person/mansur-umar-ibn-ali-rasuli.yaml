@@ -27,6 +27,12 @@ relations:
   target: polity/rasulid-dynasty
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- type: ruled_over
+  target: place/yemen
+  confidence: low
+  note: "Rasulid king whose sultanate grew strong in Yemen (استغلظ سلطانه باليمن) per the record's summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]

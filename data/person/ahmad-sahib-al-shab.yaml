@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q104714050
 provenance:
@@ -23,3 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+relations:
+  - { type: born_in, target: place/tarim, note: "Wikidata Q1014010 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/al-husaisa, note: "Wikidata Q18207288 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/kathiri-sultanate, note: "Wikidata Q1296908 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

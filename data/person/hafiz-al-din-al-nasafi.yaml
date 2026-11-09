@@ -20,6 +20,7 @@ periods: [period/mongol-post-mongol]
 faith:
   - { value: sunni-hanafi, basis: documented, note: "فقيه حنفي ينتصر لمذهبه في التفسير {cite:tafsir-nasafi-tahqiq-2018-v1 p. 11, 15}", sources: [source/tafsir-nasafi-tahqiq-2018-v1] }
 relations:
+  - { type: died_in, target: place/izeh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/nasaf, note: "ينسب إليها {cite:tafsir-nasafi-tahqiq-2018-v1 p. 11}", sources: [source/tafsir-nasafi-tahqiq-2018-v1] }
   - { type: student_of, target: person/ali-ibn-muhammad-hamid-al-din-al-darir, sources: [source/tafsir-nasafi-tahqiq-2018-v1] }
   - { type: member_of, target: group/hanafi-madhhab, sources: [source/tafsir-nasafi-tahqiq-2018-v1] }

@@ -20,6 +20,8 @@ born:
   derived: true
   note: "The year follows the founder's century queue (1983) and is consistent with the ages reported for her in coverage read in this run — described as a 23-year-old student in February 2007 and as 34 in a January 2018 Chronicle of Philanthropy cover story on millennial leaders — but neither profile source registered here gives a birth date or birthplace directly, so the year is carried as debated and no birthplace is recorded. No born_in relation is written. The Hijri year (1403, covering most of 1983) is derived by tabular conversion."
   sources: [source/stanford-zahra-billoo, source/uclaw-sf-zahra-billoo]
+relations:
+  - { type: lived_in, target: place/san-francisco, sources: [source/stanford-zahra-billoo, source/uclaw-sf-zahra-billoo, source/jewish-journal-zahra-billoo] }
 faith:
   - value: unknown
     basis: unknown

@@ -1,0 +1,16 @@
+id: place/north-london
+class: place
+kind: region
+label: { en: "North London", ar: "لندن الشمالية" }
+summary:
+  en: "Informal division of London, England."
+  ar: "منطقة في المملكة المتحدة."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [51.5496, -0.1676]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q734547", geonames: "12042175" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q734547 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

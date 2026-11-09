@@ -19,6 +19,7 @@ story_roles:
   - { role: critic, status: tradition, note: "أنكر إحياء علوم الدين ثم رجع عن إنكاره بحسب رواية اليافعي التي ينقلها العيدروس (ص 779-780)", sources: [source/ihya-kitab-al-shab-pts13-16] }
   - { role: jurist, status: tradition, note: "يصفه المصدر بالفقيه المشهور المغربي", sources: [source/ihya-kitab-al-shab-pts13-16] }
 relations:
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (مغربي); denotes association, not proven residence.", sources: [source/ihya-kitab-al-shab-pts13-16], confidence: low }
   - { type: critic_of, target: work/ihya-ulum-al-din, sources: [source/ihya-kitab-al-shab-pts13-16] }
 provenance:
   layer: own-research

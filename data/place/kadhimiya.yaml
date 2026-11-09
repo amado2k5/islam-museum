@@ -1,0 +1,36 @@
+id: place/kadhimiya
+class: place
+kind: city
+label:
+  ar: الكاظمية
+  en: Kadhimiya
+  ur: کاظمیہ
+summary:
+  ar: مدينة في العراق.
+  en: Neighbourhood in Kādhmiyyah, Baghdad, Iraq.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 33.3831
+- 44.34
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q311315
+  geonames: '99172'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q311315 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q311315 (labels, coordinates, description)

@@ -12,6 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/albania, confidence: low, note: "Of Petrela, Albania (nisba Petrelali; regions: anatolia-balkans).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q21182811
 provenance:

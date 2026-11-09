@@ -29,6 +29,9 @@ died:
   derived: true
   note: "Died on 29 May 1990 of heart disease at the Seton Medical Center in San Mateo, California, and was buried at the Heroes' Mausoleum (Makam Pahlawan) in Kuala Lumpur, as the English article and Wikidata give. The Hijri year (1410) is by tabular conversion. San Mateo has no place entity, so no died_in relation is written."
   sources: [source/wikipedia-hussein-onn-en, source/wikipedia-hussein-onn-id, source/wikidata-hussein-onn]
+relations:
+  - { type: born_in, target: place/johor-bahru, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hussein-onn] }
+  - { type: died_in, target: place/daly-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hussein-onn] }
 faith:
   - value: unknown
     basis: unknown

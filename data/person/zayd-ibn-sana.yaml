@@ -17,6 +17,7 @@ died: { edtf: "0630", hijri: "0009", calendar: julian, precision: year, status: 
 relations:
   - { type: participated_in, target: event/expedition-to-tabuk, note: "توفي فيها بحسب رواية المستدرك {cite:mustadrak-ilmiyya-ata-v3 p. 701}", sources: [source/mustadrak-ilmiyya-ata-v3] }
   - { type: member_of, target: group/sahaba, sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: died_in, target: place/tabuk, sources: [source/mustadrak-ilmiyya-ata-v3] }
 provenance:
   layer: own-research
   source: "al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 700-701, hadith 6547 with al-Dhahabi's note"

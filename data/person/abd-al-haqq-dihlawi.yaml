@@ -27,3 +27,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/lamaat-tanqih-dar-al-nawader-vol9, source/al-hadith-journal-11-ghawri-2016]
+relations:
+  - { type: lived_in, target: place/delhi, note: "Place association from the person's nisba/name (الدهلوي); denotes association, not proven residence.", sources: [source/lamaat-tanqih-dar-al-nawader-vol9, source/al-hadith-journal-11-ghawri-2016], confidence: low }

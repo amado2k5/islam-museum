@@ -32,6 +32,8 @@ died:
   derived: true
   note: "The Arabic article states that he died on 14 March 1928 and dates the end of his presidency of the Senate to the same day; the English article and Wikidata give only the year 1928. No article states the place of his death, so no died_in edge is written. The Hijri year 1346 is the derived conversion of March 1928."
   sources: [source/wikipedia-hussein-rushdi-ar, source/wikipedia-hussein-rushdi-en, source/wikidata-hussein-rushdi]
+relations:
+  - { type: died_in, target: place/kingdom-of-egypt, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

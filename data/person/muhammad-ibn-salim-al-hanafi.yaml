@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12240136

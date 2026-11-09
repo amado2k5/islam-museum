@@ -8,6 +8,7 @@ summary:
 gender: male
 died: { edtf: "1203-01~", hijri: "0599-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى 599هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 282}.", sources: [source/kamil-ibn-al-athir] }
 relations:
+- { type: lived_in, target: place/ghazna, confidence: low, note: "Associated with غزنة per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 - type: sibling_of
   target: person/shihab-al-din-ghuri
   sources: [source/kamil-ibn-al-athir]

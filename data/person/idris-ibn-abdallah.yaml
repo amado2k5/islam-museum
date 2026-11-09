@@ -6,6 +6,9 @@ summary:
   en: "The Hasanid refugee to the Maghreb — answered by the people, poisoned by al-Mansur's agent, succeeded by his posthumous son Idris II whose dynasty named the land {cite:muruj-al-dhahab p. 285}."
 gender: male
 wings: [people]
+relations:
+  - { type: born_in, target: place/arabian-peninsula, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/meknes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 285"

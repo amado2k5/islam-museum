@@ -20,6 +20,8 @@ born:
   status: historical
   note: "Born in Ha'il. The English article gives the year 1955; the Arabic article gives the Hijri year 1374 AH, which is quoted here as the articles' own dating rather than a conversion. The Wikidata item carries two conflicting birth statements (1955 and 2 August 1954); neither is followed beyond the year both articles support. Ha'il has no place entity in the museum, so no born_in relation is written."
   sources: [source/wikipedia-khalid-bin-ali-al-humaidan-en, source/wikipedia-khalid-bin-ali-al-humaidan-ar, source/wikidata-khalid-bin-ali-al-humaidan]
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

@@ -36,6 +36,8 @@ died:
   sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar, source/wikidata-al-rashid-of-morocco]
 
 relations:
+  - { type: died_in, target: place/marrakesh, note: "From text: died at Marrakesh", sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar, source/wikidata-al-rashid-of-morocco] }
+  - { type: ruler_of, target: place/morocco, note: "From text: sultan of Morocco", sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar, source/wikidata-al-rashid-of-morocco] }
   - { type: born_in, target: place/sijilmasa, sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr] }
   - { type: sibling_of, target: person/moulay-ismail, sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar] }
   - { type: successor_of, target: person/mohammed-ibn-al-sharif, sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-ar] }

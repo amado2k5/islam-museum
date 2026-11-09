@@ -22,6 +22,8 @@ born:
   sources: [source/wikipedia-emre-can-en, source/wikipedia-emre-can-ar]
 gender: male
 roles: [athlete]
+relations:
+  - { type: born_in, target: place/germany, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-emre-can-en, source/wikipedia-emre-can-ar] }
 faith:
   - value: unknown
     basis: unknown

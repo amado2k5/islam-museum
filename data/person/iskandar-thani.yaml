@@ -39,6 +39,7 @@ died:
   sources: [source/wikipedia-iskandar-thani-en, source/wikipedia-iskandar-thani-id, source/wikipedia-iskandar-thani-ar, source/wikidata-iskandar-thani]
 
 relations:
+  - { type: died_in, target: place/banda-aceh, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-iskandar-thani-en, source/wikipedia-iskandar-thani-id, source/wikipedia-iskandar-thani-ar, source/wikidata-iskandar-thani] }
   - { type: successor_of, target: person/iskandar-muda, sources: [source/wikipedia-iskandar-thani-en, source/wikipedia-iskandar-thani-id, source/wikipedia-iskandar-thani-ar] }
   - { type: spouse_of, target: person/taj-al-alam, sources: [source/wikipedia-iskandar-thani-en, source/wikipedia-iskandar-thani-id, source/wikipedia-taj-al-alam-en] }
 

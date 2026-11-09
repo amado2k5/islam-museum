@@ -13,6 +13,9 @@ regions: [arabia]
 periods: [period/contemporary-era]
 born: { edtf: "1924", precision: year, status: tradition, derived: true }
 died: { edtf: "1998", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/essouk, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam, source/assabile-abu-ishaq-alheweny]
 external_ids:
   wikidata: Q28714755

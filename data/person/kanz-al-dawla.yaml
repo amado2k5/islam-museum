@@ -7,6 +7,7 @@ summary:
 gender: male
 died: { hijri: "0570", calendar: julian, precision: year, status: tradition, note: "قتل سنة ٥٧٠هـ {cite:kamil-ibn-al-athir p. 65}؛ ويقع خبره في شذرات الذهب ضمن سنة ٥٧٢هـ {cite:shadharat-dhahab p. 722}.", sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab] }
 relations:
+- { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/kamil-ibn-al-athir] }
 - type: fought
   target: person/abu-al-hayja-al-samin
   sources: [source/kamil-ibn-al-athir]

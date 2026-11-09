@@ -43,3 +43,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-24
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/bilad-al-sudan, note: "Place association from the person's nisba/name (مالي); denotes association, not proven residence.", sources: [source/wikipedia-ali-farka-toure-en, source/wikipedia-ali-farka-toure-fr, source/wikipedia-ali-farka-toure-ar, source/wikipedia-ali-farka-toure-ur, source/wikidata-ali-farka-toure], confidence: low }

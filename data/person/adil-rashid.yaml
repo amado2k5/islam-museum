@@ -32,3 +32,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-19
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/britain, note: "From text: English (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-adil-rashid-en, source/wikipedia-adil-rashid-ar, source/wikipedia-adil-rashid-ur, source/wikidata-adil-rashid], confidence: low }

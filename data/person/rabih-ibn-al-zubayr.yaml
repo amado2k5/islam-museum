@@ -12,6 +12,9 @@ wings: [people]
 regions: [west-africa-sahel]
 periods: [period/colonial-era]
 died: { edtf: "1900", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/khartoum, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1963)" }
+  - { type: died_in, target: place/kouss-ri, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q697662)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q932368

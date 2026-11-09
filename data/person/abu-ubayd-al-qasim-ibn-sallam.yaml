@@ -18,6 +18,9 @@ provenance:
   generated_by: "Devin (SWE-2 High, SWE-2 Medium) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-25, lib-tarikh-baghdad-tb2
 relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: أقام ببغداد مدة فكان مؤدباً لآل هرون", sources: [source/futuh-buldan-maarif-1407, source/kashf-zunun-furqan, source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib] }
+  - { type: lived_in, target: place/tarsus, note: "From text: qadi of Tarsus", sources: [source/futuh-buldan-maarif-1407, source/kashf-zunun-furqan, source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib] }
+  - { type: lived_in, target: place/mecca, note: "From text: settled in Mecca", sources: [source/futuh-buldan-maarif-1407, source/kashf-zunun-furqan, source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib] }
   - { type: authored, target: work/al-amthal-al-saira, sources: [source/kashf-zunun-furqan] }
 born: { hijri: "0157", edtf: "0774~", calendar: julian, precision: year, status: tradition, derived: true, note: "محسوب: 224 ناقص 67 عمراً (PDF ص49).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 died: { hijri: "0224", edtf: "0839~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة أربع وعشرين ومائتين بمكة وهو ابن سبع وستين سنة (PDF ص49).", sources: [source/tabaqat-fuqaha-abbas-1981] }

@@ -1,0 +1,16 @@
+id: place/abeokuta
+class: place
+kind: city
+label: { en: "Abeokuta", ar: "أبيوكوتا" }
+summary:
+  en: "City in Nigeria."
+  ar: "مدينة في نيجيريا."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [7.15, 3.35]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q206484", geonames: "2352947" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q206484 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

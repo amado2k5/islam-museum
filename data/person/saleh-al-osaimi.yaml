@@ -26,6 +26,7 @@ born:
   sources: [source/wikipedia-saleh-al-osaimi-ar, source/alsiyars-saleh-al-osaimi]
 relations:
   - { type: student_of, target: person/ibn-baz-abd-al-aziz, sources: [source/wikipedia-saleh-al-osaimi-ar, source/alsiyars-saleh-al-osaimi] }
+  - { type: born_in, target: place/riyadh, sources: [source/wikidata], confidence: low, note: "Born in Riyadh in 1391 AH per the record text." }
 faith:
   - value: sunni
     basis: documented

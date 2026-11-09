@@ -40,6 +40,9 @@ died:
   sources: [source/tdv-ahmed-pasa-bursali, source/wikipedia-ahmed-pasha-tr, source/wikipedia-ahmed-pasha-fa, source/wikidata-ahmed-pasha]
 
 relations:
+  - { type: lived_in, target: place/al-babar, note: "From text: درّس في مدرسة المرادية ببرسا", sources: [source/wikipedia-ahmed-pasha-tr, source/wikipedia-ahmed-pasha-fa, source/tdv-ahmed-pasa-bursali, source/wikidata-ahmed-pasha] }
+  - { type: lived_in, target: place/edirne, note: "From text: qadi of Edirne", sources: [source/wikipedia-ahmed-pasha-tr, source/wikipedia-ahmed-pasha-fa, source/tdv-ahmed-pasa-bursali, source/wikidata-ahmed-pasha] }
+  - { type: died_in, target: place/bursa, note: "From text: died at Bursa", sources: [source/tdv-ahmed-pasa-bursali, source/wikipedia-ahmed-pasha-tr, source/wikipedia-ahmed-pasha-fa, source/wikidata-ahmed-pasha] }
   - { type: died_in, target: place/bursa, sources: [source/tdv-ahmed-pasa-bursali, source/wikipedia-ahmed-pasha-tr, source/wikipedia-ahmed-pasha-fa] }
   - { type: buried_in, target: place/bursa, sources: [source/tdv-ahmed-pasa-bursali, source/wikipedia-ahmed-pasha-tr] }
   - { type: student_of, target: person/melihi, sources: [source/tdv-ahmed-pasa-bursali] }

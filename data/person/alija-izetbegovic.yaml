@@ -36,6 +36,7 @@ died:
   note: "Died at Sarajevo of heart disease complicated by injuries from a fall at home (English article and Wikidata); buried at the Kovači Martyrs' Memorial Cemetery in Sarajevo, which has no place entity yet. The Arabic article gives the full Hijri date (23 Sha'ban 1424); the year is recorded."
   sources: [source/wikipedia-alija-izetbegovic-en, source/wikipedia-alija-izetbegovic-ar, source/wikidata-alija-izetbegovic]
 relations:
+  - { type: died_in, target: place/sarajevo, note: "From text: died at Sarajevo", sources: [source/wikipedia-alija-izetbegovic-en, source/wikipedia-alija-izetbegovic-ar, source/wikidata-alija-izetbegovic] }
   - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-alija-izetbegovic-en, source/wikidata-alija-izetbegovic] }
   - { type: lived_in, target: place/sarajevo, sources: [source/wikipedia-alija-izetbegovic-en, source/wikipedia-alija-izetbegovic-ar] }
 faith:

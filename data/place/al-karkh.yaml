@@ -1,23 +1,55 @@
 id: place/al-karkh
 class: place
 kind: city
-label: { ar: "الكرخ", en: "al-Karkh" , ur: "کرخ"}
+label:
+  ar: الكرخ
+  en: al-Karkh
+  ur: کرخ
 summary:
-  ar: "ناحية بغداد؛ عند البلاذري جعل المنصور مجمع الأسواق بالكرخ وأمر التجار فابتنوا الحوانيت وألزمهم الغلة."
-  en: "the Baghdad quarter where al-Mansur gathered the markets, ordering merchants to build shops and obliging them rents."
-  ur: "بغداد کا علاقہ؛ بلاذری کے مطابق منصور نے یہاں بازار جمع کیے اور تاجروں کو دکانیں بنانے کا حکم دیا۔ {cite:futuh-buldan-maarif-1407}"
-wings: [place]
-periods: [period/abbasid-early]
-regions: [levant-iraq]
+  ar: ناحية بغداد؛ عند البلاذري جعل المنصور مجمع الأسواق بالكرخ وأمر التجار فابتنوا الحوانيت وألزمهم الغلة.
+  en: the Baghdad quarter where al-Mansur gathered the markets, ordering merchants to build shops and obliging them rents.
+  ur: بغداد کا علاقہ؛ بلاذری کے مطابق منصور نے یہاں بازار جمع کیے اور تاجروں کو دکانیں بنانے کا حکم دیا۔ {cite:futuh-buldan-maarif-1407}
+wings:
+- place
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
 inventions:
-  - { invention: invention/karkh-market-relocation-zoning, relation: site-of, sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900] }
+- invention: invention/karkh-market-relocation-zoning
+  relation: site-of
+  sources:
+  - source/tdv-bagdat-duri
+  - source/lestrange-baghdad-1900
+coordinate_note: لم تُثبَت إحداثيات موثوقة بعد؛ تُرك الموضع بلا إحداثيات بدلاً من تخمينها. / No reliably attested coordinates yet; left blank rather than guessed.
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 414–417"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  source: فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 414–417
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
   run: lib-futuh-buldan-batch-39
   extensions:
-    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b97", source: "D-139; added the Karkh site-of relation for the documented market relocation without changing prior place fields, status or prose." }
-  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  - generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: inventions-p3-b97
+    source: D-139; added the Karkh site-of relation for the documented market relocation without changing prior place fields, status or prose.
+  localization:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-40-subjects-2026-11-04
+    source: Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims.
+  note: Merged duplicate record place/karkh into this entity during consolidation.
+sources:
+- source/futuh-buldan-maarif-1407
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High)
+coordinates:
+- 33.31666667
+- 44.4
+coordinate_precision: approx
+external_ids:
+  wikidata: Q3777050
+aliases:
+- place/karkh

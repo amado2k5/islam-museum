@@ -8,3 +8,5 @@ wings: [people]
 external_ids: { wikidata: "Q12179848" }
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/misr, note: "From text: Egyptian (nationality adjective); broad association, flagged for review.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

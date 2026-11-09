@@ -35,6 +35,9 @@ died:
   derived: false
   note: "Tehran. English Wikipedia and Wikidata give 1921 (aged about 61 to 63); Persian Wikipedia gives 1339/1340 AH, and 1339 is recorded here with the alternative reading disclosed."
   sources: [source/wikipedia-bibi-khanoom-astarabadi-en, source/wikipedia-bibi-khanoom-astarabadi-fa, source/wikidata-bibi-khanoom-astarabadi]
+relations:
+  - { type: born_in, target: place/now-kandeh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bibi-khanoom-astarabadi] }
+  - { type: died_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bibi-khanoom-astarabadi] }
 faith:
   - value: unknown
     basis: unknown

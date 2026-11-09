@@ -21,6 +21,7 @@ born:
   note: "Date from English Wikipedia and Wikidata Q12219331 (day precision); Arabic Wikipedia gives only the year 1970."
   sources: [source/wikipedia-abu-bakr-al-shatri-en, source/wikidata-abu-bakr-al-shatri]
 relations:
+  - { type: born_in, target: place/jeddah, note: "From text: born in Jeddah", sources: [source/wikipedia-abu-bakr-al-shatri-en, source/wikidata-abu-bakr-al-shatri] }
   - { type: born_in, target: place/jeddah, sources: [source/wikipedia-abu-bakr-al-shatri-en] }
   - { type: lived_in, target: place/jeddah, sources: [source/wikipedia-abu-bakr-al-shatri-ar] }
 faith:

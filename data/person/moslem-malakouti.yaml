@@ -13,6 +13,9 @@ regions: [persia-central-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1923", precision: year, status: tradition, derived: true }
 died: { edtf: "2014", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/sarab, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q863240)" }
+  - { type: died_in, target: place/tehran, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3616)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q353139

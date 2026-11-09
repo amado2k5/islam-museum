@@ -35,6 +35,7 @@ wings: [people]
 regions: [anatolia-balkans]
 roles: [mystic, teacher]
 relations:
+  - { type: died_in, target: place/ustyuzhna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kunta-haji-kishiev] }
   - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-kunta-haji-kishiev-en, source/wikipedia-kunta-haji-kishiev-ru] }
   - { type: traveled_to, target: place/mecca, sources: [source/wikipedia-kunta-haji-kishiev-en, source/wikipedia-kunta-haji-kishiev-ru] }
   - { type: traveled_to, target: place/baghdad, sources: [source/wikipedia-kunta-haji-kishiev-en, source/wikipedia-kunta-haji-kishiev-ru] }

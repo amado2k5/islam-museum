@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-makhzum, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/habbar-ibn-sufyan, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }

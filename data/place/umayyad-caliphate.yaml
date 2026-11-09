@@ -1,0 +1,32 @@
+id: place/umayyad-caliphate
+class: place
+kind: region
+label:
+  ar: الدولة الأموية
+  en: Umayyad Caliphate
+summary:
+  ar: منطقة تُعرف بالإنجليزية باسم Umayyad Caliphate.
+  en: Umayyad Caliphate; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 33.3153
+- 44.3661
+coordinate_precision: locality
+coordinate_note: Wikidata Q8575586 (ID held on the matching polity entity).
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q8575586 (labels, coordinates, description)

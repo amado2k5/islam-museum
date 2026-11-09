@@ -28,3 +28,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch51
+relations:
+  - { type: lived_in, target: place/tunis, note: "From text: استقر في تونس ودُفن بها", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: buried_in, target: place/tunis, note: "From text: buried in Tunis", sources: [source/mawsuat-a3lam-ulama-adaba] }

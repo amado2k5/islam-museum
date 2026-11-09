@@ -1,0 +1,21 @@
+id: place/nice
+class: place
+kind: city
+label: { ar: "نيس", en: "Nice", ur: "نیس" }
+summary:
+  ar: "مدينة في فرنسا."
+  en: "City in France."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [43.701944444444, 7.2683333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q33959" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q33959 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,12 +1,38 @@
 id: place/al-jizah
 class: place
 kind: town
-label: { ar: "الجيزة", en: "al-Jiza" }
+label:
+  ar: الجيزة
+  en: al-Jiza
+  ur: جیزہ
 summary:
-  ar: "شط مقابل مصر على غربي النيل، يتصل بجسر فيه نحو ثلاثين سفينة، وفيه مساكن ومبانٍ ومزارع، وعمارة وسوق. {cite:nuzhat-al-mushtaq-2002 p. 323}"
-  en: "A bank of the Nile facing Fustat on the west, joined to it by a bridge of about thirty boats, with houses, buildings, farms and a market. {cite:nuzhat-al-mushtaq-2002 p. 323}"
-wings: [place]
-regions: [egypt-nile]
-provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 323 (scan page)", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "farghani-389-577" }
-sources: [source/nuzhat-al-mushtaq-2002, source/farghani-elements-astronomy]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
+  ar: شط مقابل مصر على غربي النيل، يتصل بجسر فيه نحو ثلاثين سفينة، وفيه مساكن ومبانٍ ومزارع، وعمارة وسوق. {cite:nuzhat-al-mushtaq-2002 p. 323}
+  en: A bank of the Nile facing Fustat on the west, joined to it by a bridge of about thirty boats, with houses, buildings, farms and a market. {cite:nuzhat-al-mushtaq-2002 p. 323}
+wings:
+- place
+regions:
+- egypt-nile
+coordinate_note: لم تُثبَت إحداثيات موثوقة بعد؛ تُرك الموضع بلا إحداثيات بدلاً من تخمينها. / No reliably attested coordinates yet; left blank rather than guessed.
+provenance:
+  layer: own-research
+  source: al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 323 (scan page)
+  generated_by: Claude (Haiku 5.5)
+  model: claude-haiku-5-5
+  run: farghani-389-577
+  note: Merged duplicate record place/giza into this entity during consolidation.
+sources:
+- source/nuzhat-al-mushtaq-2002
+- source/farghani-elements-astronomy
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude (Haiku 5.5); page refs are scan indices
+coordinates:
+- 29.987
+- 31.2118
+coordinate_precision: approx
+external_ids:
+  wikidata: Q81788
+aliases:
+- place/giza

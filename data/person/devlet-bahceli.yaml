@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Gregorian date from English Wikipedia and Wikidata (born in Bahçe, Osmaniye province); the Hijri year (1367) is converted with the Umm al-Qura calendar and marked derived."
   sources: [source/wikipedia-devlet-bahceli-en, source/wikidata-devlet-bahceli]
+relations:
+  - { type: lived_in, target: place/turkey, confidence: low, note: "Associated with تركيا per the record's own text; relation type pending review.", sources: [source/wikipedia-devlet-bahceli-en] }
 faith:
   - value: unknown
     basis: unknown

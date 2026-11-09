@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Full date from Wikidata (21 September 1980); the English Wikipedia article gives the year 1980 only. The Hijri year 1400 is converter-derived."
   sources: [source/wikidata-hamza-tzortzis]
+relations:
+  - { type: lived_in, target: place/london, confidence: low, note: "British da'wa figure based in London (iERA).", sources: [source/wikipedia-hamza-tzortzis-en] }
 faith:
   - value: unknown
     basis: unknown

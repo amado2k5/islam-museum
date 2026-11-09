@@ -13,6 +13,10 @@ roles: [ruler, military-leader]
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
+relations:
+  - { type: born_in, target: place/malatya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/sicill-i-osmani]
 external_ids:
   wikidata: Q1584105

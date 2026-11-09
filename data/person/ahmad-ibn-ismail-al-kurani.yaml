@@ -15,6 +15,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 relations:
+  - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: participated_in, target: event/conquest-constantinople-857, role: "شيخ في مجلس الشورى", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:

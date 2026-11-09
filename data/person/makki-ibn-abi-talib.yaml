@@ -10,6 +10,8 @@ gender: male
 roles: [scholar, teacher]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/qayrawan, confidence: low, note: "Associated with القيروان per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة مكي بن أبي طالب)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

@@ -16,6 +16,8 @@ periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 story_roles:
   - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/constantinople, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

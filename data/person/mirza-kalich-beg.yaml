@@ -31,6 +31,9 @@ died:
   derived: true
   note: "The Urdu article and Wikidata give his death on 3 July 1929 at Tando Thoro, Hyderabad. The Hijri year (1348) is derived by tabular conversion."
   sources: [source/wikipedia-mirza-kalich-beg-ur, source/wikidata-mirza-kalich-beg]
+relations:
+  - { type: born_in, target: place/hyderabad-sindh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-kalich-beg] }
+  - { type: died_in, target: place/hyderabad-sindh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-kalich-beg] }
 faith:
   - value: unknown
     basis: unknown

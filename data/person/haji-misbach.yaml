@@ -35,6 +35,9 @@ died:
   derived: true
   note: "Died at Manokwari, in exile, on 24 May 1926: the Indonesian article's infobox and text give the day and place and place his burial in the Fanindi cemetery there, beside his wife; the English article and Wikidata give the year 1926 only. The Hijri year 1344 is a tabular conversion of the followed date, marked derived."
   sources: [source/wikipedia-haji-misbach-id, source/wikipedia-haji-misbach-en, source/wikidata-haji-misbach]
+relations:
+  - { type: born_in, target: place/surakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-haji-misbach] }
+  - { type: died_in, target: place/manokwari, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-haji-misbach] }
 faith:
   - value: unknown
     basis: unknown

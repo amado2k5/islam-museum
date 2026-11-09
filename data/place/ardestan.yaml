@@ -1,0 +1,16 @@
+id: place/ardestan
+class: place
+kind: city
+label: { en: "Ardestan", ar: "أردستان" }
+summary:
+  en: "City in Isfahan Province, Iran."
+  ar: "مدينة في إيران."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [33.3797, 52.3725]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q639119", geonames: "143052" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q639119 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

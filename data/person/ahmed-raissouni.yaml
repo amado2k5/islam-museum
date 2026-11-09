@@ -41,3 +41,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-ahmed-raissouni-en, source/wikipedia-ahmed-raissouni-ar, source/wikipedia-ahmed-raissouni-fr, source/wikipedia-ahmed-raissouni-ur, source/wikidata-ahmed-raissouni]
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (مغربي); denotes association, not proven residence.", sources: [source/wikipedia-ahmed-raissouni-en, source/wikipedia-ahmed-raissouni-ar, source/wikipedia-ahmed-raissouni-fr, source/wikipedia-ahmed-raissouni-ur, source/wikidata-ahmed-raissouni], confidence: low }

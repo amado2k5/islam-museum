@@ -35,6 +35,7 @@ gender: male
 roles: [trainer]
 relations:
   - { type: teacher_of, target: person/bernard-hopkins, sources: [source/wikipedia-naazim-richardson-en] }
+  - { type: born_in, target: place/philadelphia, sources: [source/wikidata], confidence: low, note: "Born in Philadelphia per the record text." }
 faith:
   - value: unknown
     basis: unknown

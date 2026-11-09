@@ -17,6 +17,7 @@ faith:
   - value: sunni-hanbali
     basis: tradition
 relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: تفقه ببغداد على ابن التاريخي وأبي ال", sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
   - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]

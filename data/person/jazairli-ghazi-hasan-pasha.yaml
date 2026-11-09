@@ -12,6 +12,9 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/colonial-era]
 died: { edtf: "1790", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/darband, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/shumen, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/dawlat-uthmaniyya-salabi, source/sicill-i-osmani]
 external_ids:
   wikidata: Q1583786

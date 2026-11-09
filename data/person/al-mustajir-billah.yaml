@@ -12,5 +12,9 @@ provenance:
   source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-batch-17
+relations:
+  - { type: traveled_to, target: place/armenia, note: "Appeared in the Armenian side in 349.", sources: [source/muntazam-ibn-al-jawzi], confidence: medium }
+  - { type: lived_in, target: place/muqan, note: "Styled al-Mustajir-billah in Muqan.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }
+  - { type: traveled_to, target: place/azerbaijan, note: "Swept several towns of Adharbayjan before being taken.", sources: [source/muntazam-ibn-al-jawzi], confidence: medium }
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

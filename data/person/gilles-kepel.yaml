@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born on 30 June 1955 in Paris, France, following both the English and Arabic articles. No place entity for Paris exists in data/place/, so no born_in relation is written. The Hijri year (1374) is derived by tabular conversion."
   sources: [source/wikipedia-gilles-kepel-en, source/wikipedia-gilles-kepel-ar]
+relations:
+  - { type: born_in, target: place/paris, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-gilles-kepel-en, source/wikipedia-gilles-kepel-ar] }
 faith:
   - value: unknown
     basis: unknown

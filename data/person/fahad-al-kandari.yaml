@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born in Kuwait on 28 June 1982, as the Arabic article gives it; the tabular Hijri conversion is 6 Ramadan 1402 AH, and the conversion is marked derived. Muslim Central's biography of him likewise gives Kuwait and 1982."
   sources: [source/wikipedia-fahad-al-kandari-ar]
+relations:
+  - { type: born_in, target: place/kuwait, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fahad-al-kandari-ar] }
 faith:
   - value: unknown
     basis: unknown

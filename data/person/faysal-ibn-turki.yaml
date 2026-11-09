@@ -12,6 +12,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/riyadh, confidence: low, note: "Associated with الرياض per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 provenance:
   layer: own-research

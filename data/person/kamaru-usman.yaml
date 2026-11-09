@@ -24,6 +24,9 @@ born:
   sources: [source/wikipedia-kamaru-usman-en, source/wikipedia-kamaru-usman-ar, source/wikidata-kamaru-usman]
 gender: male
 roles: [mixed martial artist]
+relations:
+  - { type: born_in, target: place/benin-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamaru-usman] }
+  - { type: lived_in, target: place/delray-beach, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamaru-usman] }
 faith:
   - value: unknown
     basis: unknown

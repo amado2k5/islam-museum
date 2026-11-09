@@ -20,6 +20,8 @@ born:
   derived: false
   note: "Born in 1958 at Walla Walla, Washington (English article and Wikidata, the latter at year precision). The Arabic article gives 1 January 1960; the 1958 year is followed and the variant recorded. No source consulted gives a day and month the record can rely on. Walla Walla has no place entity in the museum yet, so no born_in relation is written."
   sources: [source/wikipedia-hamza-yusuf-en, source/wikidata-hamza-yusuf, source/wikipedia-hamza-yusuf-ar]
+relations:
+  - { type: born_in, target: place/walla-walla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-yusuf] }
 faith:
   - value: sunni-maliki
     basis: documented

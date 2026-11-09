@@ -36,7 +36,8 @@ faith:
     basis: unknown
     note: "Absence configuration: no source read names a school for him. Wikidata carries a single religion value, Islam, and the English and Arabic articles file him in their 'Pakistani Muslims' categories — one structured-and-filing family. The English article's remark that his daily routine included religious observance attests practice, not a school; his hereditary Kalawant family background is background; and his standing as a ghazal singer is repertoire. Under the two-source rule the value stays unknown."
     sources: [source/wikipedia-mehdi-hassan-en, source/wikipedia-mehdi-hassan-ur, source/wikidata-mehdi-hassan]
-relations: []
+relations:
+  - { type: died_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mehdi-hassan] }
 summary:
   ar: "مغنٍّ باكستاني للغزل والأغاني المصوّرة (1927–2012)، وُلد في لونا بولاية راجستان لأسرة من موسيقيي البلاط الوراثيين، ولُقّب «شاهنشاه الغزل»؛ هاجر إلى باكستان سنة 1947، وغنّى في أكثر من ثلاثمئة فيلم، ونال فخر الأداء (1985) ونيشان الامتياز (2006) وهلال الامتياز (2010)."
   en: "Pakistani ghazal and playback singer (1927–2012), born at Luna in Rajasthan into a family of hereditary Kalawant musicians and known as Shahenshah-e-Ghazal, 'Emperor of Ghazal'; he migrated to Pakistan in 1947, sang for more than 300 films and received the Pride of Performance (1985), the Nishan-e-Imtiaz (2006) and the Hilal-e-Imtiaz (2010)."

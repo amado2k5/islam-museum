@@ -13,6 +13,8 @@ themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
 died: { edtf: "1490~", hijri: "0895", calendar: julian, precision: year, status: tradition, derived: true, note: "ترجمته ضمن سنة 895 {cite:shadharat-dhahab p. 357}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/khorasan, confidence: low, note: "Associated with Khorasan per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 895)، قراءة آبل فيجن"

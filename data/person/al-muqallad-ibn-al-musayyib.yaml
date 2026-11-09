@@ -10,6 +10,11 @@ gender: male
 roles: [ruler]
 traditions: [sunni]
 relations:
+- type: ruler_of
+  target: place/daquqa
+  note: "From text: ملك دقوقا بعدما كانت لنصرانيي"
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: member_of
   target: group/banu-uqayl
   sources:

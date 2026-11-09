@@ -14,5 +14,7 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-296-batch-1
 external_ids: { wikidata: "Q919257" }
+relations:
+  - { type: born_in, target: place/cordoba, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5818)" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

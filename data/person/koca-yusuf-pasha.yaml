@@ -13,6 +13,8 @@ roles: [ruler, military-leader]
 wings: [people]
 periods: [period/colonial-era]
 regions: [anatolia-balkans]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/sicill-i-osmani] }
 sources: [source/sicill-i-osmani]
 external_ids:
   wikidata: Q6424690

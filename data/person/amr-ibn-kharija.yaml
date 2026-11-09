@@ -17,6 +17,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابي راوٍ عن النبي (ابن هشام ص252).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/farewell-sermon-at-arafat, role: "سمع النبي من تحت ناقته", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 252-253", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch54" }

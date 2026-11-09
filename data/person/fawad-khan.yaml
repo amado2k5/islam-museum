@@ -19,6 +19,8 @@ born:
 roles: [actor, producer, screenwriter, singer]
 regions: [south-asia]
 wings: [people, living]
+relations:
+  - { type: born_in, target: place/karachi, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fawad-khan-en, source/wikidata-fawad-khan] }
 faith:
   - value: unknown
     basis: unknown

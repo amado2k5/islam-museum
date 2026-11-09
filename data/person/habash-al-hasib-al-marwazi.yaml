@@ -15,6 +15,9 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 traditions: [sunni]
+relations:
+  - { type: born_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: sunni
     basis: documented

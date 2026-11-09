@@ -18,6 +18,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة وقدم في السفينتين", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-al-harith, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }

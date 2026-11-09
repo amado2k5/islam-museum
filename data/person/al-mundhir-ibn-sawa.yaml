@@ -20,6 +20,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "أسلم فحسن إسلامه على يد رسالة النبي مع العلاء بن الحضرمي (ابن هشام ص222).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: died_in, target: place/bahrayn, note: "From text: مات بعد النبي قبل ردة أهل البحرين و", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/abd-al-qays, sources: [source/ibn-hisham-saqqa] }
   - { type: ruler_of, target: place/bahrayn, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/islam-of-al-mundhir-ibn-sawa, role: "المسلم", sources: [source/ibn-hisham-saqqa] }

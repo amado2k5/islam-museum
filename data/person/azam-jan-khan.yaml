@@ -48,6 +48,7 @@ roles: [ruler]
 regions: [south-asia]
 wings: [people]
 relations:
+  - { type: lived_in, target: place/india, note: "Only the record-level region (south-asia) is attested; broad-region edge flagged for review.", sources: [source/wikipedia-azam-jan-khan-en, source/wikipedia-azam-jan-khan-ur, source/wikidata-azam-jan-khan, source/iranica-baluchistan-i], confidence: low }
   - type: parent_of
     target: person/mir-ahmad-yar-khan
     sources: [source/wikipedia-azam-jan-khan-en, source/wikipedia-mir-ahmad-yar-khan-en]

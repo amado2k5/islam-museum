@@ -14,6 +14,8 @@ periods: [period/prophetic-era]
 sources: [source/al-aalam]
 relations:
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+ - { type: died_in, target: place/badr, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q27256)" }
 external_ids:
   wikidata: Q12212990
 provenance:

@@ -32,6 +32,7 @@ died:
 relations:
   - { type: born_in, target: place/kabul, sources: [source/wikipedia-mojaddedi-en, source/wikidata-mojaddedi] }
   - { type: died_in, target: place/kabul, sources: [source/wikipedia-mojaddedi-en, source/wikidata-mojaddedi] }
+  - { type: lived_in, target: place/kabul, sources: [source/wikipedia-mojaddedi-en, source/wikipedia-mojaddedi-ar, source/wikipedia-mojaddedi-ur, source/wikidata-mojaddedi] }
 faith:
   - value: unknown
     basis: unknown

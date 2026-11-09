@@ -37,6 +37,8 @@ faith:
     note: "He held the office of Mufti of Kelantan (1916–1920), the headship of the state's Sunni religious establishment. Office and headship never count as personal faith attestation (the founder's re-review of 1 Nov 2026 restored that rule expressly), and no source read names a legal school or even the branch for him personally — Kelantan's fatwas are bound to the Shafi'i school by state enactment, but that institutional rule is not a personal attestation. The value therefore stays unknown, with the office recorded here as fact, not evidence."
     sources: [source/wikipedia-wan-muhammad-ms, source/wikidata-wan-muhammad]
 external_ids: { wikidata: "Q12712418" }
+relations:
+  - { type: born_in, target: place/kelantan, sources: [source/wikidata], confidence: low, note: "Born in Kelantan per the record text." }
 sources: [source/wikipedia-wan-muhammad-ms, source/wikidata-wan-muhammad]
 provenance:
   layer: own-research

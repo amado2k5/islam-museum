@@ -1,0 +1,21 @@
+id: place/paghman
+class: place
+kind: town
+label: { ar: "بغمان", en: "Paghman", ur: "پغمان" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q2502256)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [34.583333333333, 68.95]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2502256" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2502256 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -17,3 +17,5 @@ status:
   review: published
   completeness: 3
 
+relations:
+  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (الكوفي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

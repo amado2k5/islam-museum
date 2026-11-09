@@ -19,6 +19,8 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 story_roles:
   - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/dimyat, confidence: low, note: "Associated with Damietta per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

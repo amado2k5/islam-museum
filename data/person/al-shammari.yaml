@@ -23,3 +23,6 @@ provenance:
 status:
   review: published
   completeness: 3
+relations:
+  - { type: died_in, target: place/medina, note: "From text: توفي بالمدينة سنة 1189هـ ⁦(1775م)⁩", sources: [source/al-aalam] }
+  - { type: died_in, target: place/medina, note: "From text: died at Medina.", sources: [source/al-aalam] }

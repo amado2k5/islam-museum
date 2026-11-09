@@ -41,6 +41,7 @@ faith:
     note: "No source read names a school or an order for him. The Chinese article's lead describes a Muslim who professed Islam while holding that the Hui are part of the Chinese nation and rejecting a separate 'Hui nationality', quoting his own rebuttal recorded by Gu Jiegang; it also lists among his posts a directorship of the China Islamic Association and the chairmanship of its Ningxia branch — organisational office, not a school. The English article records that he cooperated with the Yihewani imam Hu Songshan in founding Sino-Arabic schools in Ningxia in the 1930s and 1940s, and that Hu pronounced takfir on him in 1935 after he arranged Chinese New Year celebrations late in Ramadan and had him removed and exiled — an alliance and its rupture, not a membership. Wikidata carries no religion value at all. No school or order is attested: unknown."
     sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh, source/wikidata-ma-hongkui]
 relations:
+  - { type: born_in, target: place/gansu, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh, source/wikidata-ma-hongkui] }
   - { type: child_of, target: person/ma-fuxiang, sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh] }
 external_ids: { wikidata: "Q715070" }
 sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh, source/wikidata-ma-hongkui]

@@ -1,0 +1,35 @@
+id: place/bijapur-sultanate
+class: place
+kind: region
+label:
+  ar: عادلشاهيون
+  en: Bijapur Sultanate
+  ur: بیجاپور سلطنت
+summary:
+  ar: منطقة تُعرف بالإنجليزية باسم Bijapur Sultanate.
+  en: Sultanate in southern India (1490-1686); based in the city of Bijapur.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 16.83
+- 75.71
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q83821
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q83821 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q83821 (labels, coordinates, description)

@@ -1,0 +1,16 @@
+id: place/spain
+class: place
+kind: region
+label: { en: "Spain", ar: "إسبانيا", ur: "ہسپانیہ" }
+summary:
+  en: "Country in south-western Europe."
+  ar: "دولة في جنوب غرب أوروبا."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [40.0, -4.0]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q29" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q29 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

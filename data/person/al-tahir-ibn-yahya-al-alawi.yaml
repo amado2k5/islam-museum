@@ -16,3 +16,5 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: of Medina", sources: [source/muruj-al-dhahab], confidence: low }

@@ -13,6 +13,9 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch42
 external_ids: { wikidata: "Q439374" }
+relations:
+  - { type: born_in, target: place/dhamar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q955523)" }
+  - { type: died_in, target: place/sanaa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2471)" }
 sources: [source/muruj-al-dhahab, source/muqaddima-ibn-khaldun, source/umayyad-birth-to-fall-2006, source/bakr-umayyad-state-1134715]
 status:
   review: published

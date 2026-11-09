@@ -25,6 +25,8 @@ faith:
     note: "Two sources independently give the school: the English article's infobox gives denomination Sunni and jurisprudence Hanbali (movement Salafism), and the Arabic article's infobox gives denomination Ahl al-Sunna wa'l-Jama'a, jurisprudence Hanbali and creed Athari. Wikidata gives only Islam, with the Salafi movement recorded separately. The Athari creed is recorded in this note only — the person schema has no creed compound."
     sources: [source/wikipedia-saleh-al-fawzan-en, source/wikipedia-saleh-al-fawzan-ar, source/wikidata-saleh-al-fawzan, source/youtube-aforgsa22]
 external_ids: { wikidata: "Q61589" }
+relations:
+  - { type: born_in, target: place/al-shimasiyah, sources: [source/wikidata-saleh-al-fawzan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q97300483)" }
 sources: [source/wikipedia-saleh-al-fawzan-en, source/wikipedia-saleh-al-fawzan-ar, source/wikidata-saleh-al-fawzan, source/youtube-aforgsa22]
 provenance:
   layer: own-research

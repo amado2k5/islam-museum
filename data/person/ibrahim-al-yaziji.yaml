@@ -31,6 +31,7 @@ died:
   note: "Died at Cairo in 1906, where he had lived since 1894. The articles give the year only; Wikidata carries a full date, 28 December 1906, which no article gives and which is recorded here in the note rather than the date. The Arabic article's death category pairs 1906 with 1324 AH."
   sources: [source/wikipedia-ibrahim-al-yaziji-en, source/wikipedia-ibrahim-al-yaziji-ar, source/wikidata-ibrahim-al-yaziji]
 relations:
+  - { type: born_in, target: place/bayrut, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-al-yaziji] }
   - { type: child_of, target: person/nasif-al-yaziji, sources: [source/wikipedia-ibrahim-al-yaziji-en, source/wikipedia-ibrahim-al-yaziji-ar] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-ibrahim-al-yaziji-ar] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-ibrahim-al-yaziji-en, source/wikipedia-ibrahim-al-yaziji-ar] }

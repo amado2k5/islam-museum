@@ -31,6 +31,7 @@ roles: [scholar, politician, writer]
 regions: [maghreb]
 wings: [people]
 relations:
+  - { type: born_in, target: place/fez, note: "From text: born at Fez", sources: [source/wikipedia-allal-al-fassi-fr, source/wikipedia-allal-al-fassi-en, source/wikipedia-allal-al-fassi-ar, source/wikidata-allal-al-fassi] }
   - { type: born_in, target: place/fez, sources: [source/wikipedia-allal-al-fassi-fr, source/wikipedia-allal-al-fassi-en, source/wikidata-allal-al-fassi] }
 faith:
   - value: sunni-maliki

@@ -35,6 +35,9 @@ faith:
     note: "The Indonesian article's infobox files his religion as 'Sunni Islam', and its text describes him as a Muslim of Pattani Malay descent; the Thai article's infobox and Wikidata give Islam in general (Q432). A single infobox filing is one structured attestation from a single family and never counts on its own — the configuration of person/amr-khaled, whose school likewise stays unknown on an infobox filing plus a generic structured value — and no second, independent source naming the Sunni school for the man himself in prose was found among the articles read. Under the two-source rule and the doubt rule his school stays unknown, with the Indonesian infobox's Sunni reading preserved here rather than suppressed."
     sources: [source/wikipedia-surin-pitsuwan-en, source/wikipedia-surin-pitsuwan-id, source/wikipedia-surin-pitsuwan-th, source/wikidata-surin-pitsuwan]
 external_ids: { wikidata: "Q1301964" }
+relations:
+  - { type: born_in, target: place/nakhon-si-thammarat, sources: [source/wikidata-surin-pitsuwan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1012424)" }
+  - { type: died_in, target: place/bangkok, sources: [source/wikidata-surin-pitsuwan], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1861)" }
 sources: [source/wikipedia-surin-pitsuwan-en, source/wikipedia-surin-pitsuwan-arz, source/wikipedia-surin-pitsuwan-th, source/wikipedia-surin-pitsuwan-id, source/wikidata-surin-pitsuwan]
 provenance:
   layer: own-research

@@ -31,13 +31,14 @@ died:
   note: "The English article and Wikidata give her death at Cairo on 28 December 1913, after a fall on 13 October 1913; the record follows them. The French article gives 12 December 1913 and cardiac arrest; the Arabic article gives 28 January 1914. The Hijri year is derived by tabular conversion (28 December 1913 falls in Muharram 1332)."
   sources: [source/wikipedia-nazli-fazl-en, source/wikidata-nazli-fazl, source/wikipedia-nazli-fazl-fr, source/wikipedia-nazli-fazl-ar]
 relations:
+  - { type: influenced, target: person/muhammad-abduh, sources: [source/wikipedia-nazli-fazl-en, source/wikipedia-nazli-fazl-ar] }
+  - { type: influenced, target: person/qasim-amin, sources: [source/wikipedia-nazli-fazl-ar] }
+  - { type: patron_of, target: person/qasim-amin, sources: [source/wikipedia-nazli-fazl-ar] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-nazli-fazl-fr, source/wikidata-nazli-fazl] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-nazli-fazl-en, source/wikipedia-nazli-fazl-ar] }
   - { type: lived_in, target: place/tunis, sources: [source/wikipedia-nazli-fazl-en, source/wikipedia-nazli-fazl-fr] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-nazli-fazl-en, source/wikidata-nazli-fazl] }
-  - { type: influenced, target: person/muhammad-abduh, sources: [source/wikipedia-nazli-fazl-en, source/wikipedia-nazli-fazl-ar] }
-  - { type: influenced, target: person/qasim-amin, sources: [source/wikipedia-nazli-fazl-ar] }
-  - { type: patron_of, target: person/qasim-amin, sources: [source/wikipedia-nazli-fazl-ar] }
+  - { type: born_in, target: place/constantinople, sources: [source/wikipedia-nazli-fazl-fr, source/wikidata-nazli-fazl, source/wikipedia-nazli-fazl-en] }
 faith:
   - value: unknown
     basis: unknown

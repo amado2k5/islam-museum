@@ -1,0 +1,36 @@
+id: place/erzincan
+class: place
+kind: city
+label:
+  ar: أرزنجان
+  en: Erzincan
+  ur: ارزنجان
+summary:
+  ar: مدينة في تركيا.
+  en: Central district and city in Erzincan Province, Turkey.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 39.7464
+- 39.4914
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q136217
+  geonames: '315373'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q136217 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q136217 (labels, coordinates, description)

@@ -10,6 +10,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [egypt-nile]
 died: { edtf: "1021~", hijri: "0411", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل بعد دفن الحاكم بأيام في سنة ٤١١ {cite:muntazam-ibn-al-jawzi j.7 p.304}." }
 relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: allied_with, target: person/al-hakim-bi-amr-allah, role: "قاعد في دولته", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: participated_in, target: event/hakim-disappearance-411, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

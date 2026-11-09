@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم مع وفد بني تميم (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/rayshahr, note: "From text: of the Rayshahr", sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa, source/mustadrak-ilmiyya-ata-v3], confidence: low }
   - { type: member_of, target: group/banu-tamim, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-minqar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-banu-tamim, role: "أصغر الوفد سناً؛ خُلّف في الإبل", sources: [source/ibn-hisham-saqqa] }

@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe, levant-iraq]
 born: { edtf: "1214-02~", hijri: "0610-09", calendar: julian, precision: day, status: tradition, derived: true, note: "22 رمضان 610هـ يوم الثلاثاء {cite:nafh-tib-maqqari p. 335}", sources: [source/nafh-tib-maqqari] }
+relations:
+  - { type: lived_in, target: place/morocco, confidence: low, note: "Associated with المغرب per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

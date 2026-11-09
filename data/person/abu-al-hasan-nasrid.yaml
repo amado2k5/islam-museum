@@ -15,3 +15,6 @@ provenance:
   run: lib-nafh-tib-batch-55
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: traveled_to, target: place/malaga, note: "From text: هرب إلى مالقة {cite:nafh-tib-maqqari p", sources: [source/nafh-tib-maqqari] }
+  - { type: ruler_of, target: place/granada, note: "From text: sultan of Granada", sources: [source/nafh-tib-maqqari] }

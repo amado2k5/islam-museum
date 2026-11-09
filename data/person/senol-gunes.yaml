@@ -26,6 +26,8 @@ faith:
     note: "No source read for this record states any religion for Güneş. The English Wikipedia article, read in full, makes no statement of his religion anywhere in its text; the Arabic article likewise makes none; and Wikidata Q388904 carries no religion (P140) value at all. Turkey's historic Hanafi tradition is the country's milieu, which under the lane rule may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
     sources: [source/wikipedia-senol-gunes-en, source/wikipedia-senol-gunes-ar, source/wikidata-senol-gunes]
 external_ids: { wikidata: "Q388904" }
+relations:
+  - { type: born_in, target: place/trabzon, sources: [source/wikidata-senol-gunes], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q45301)" }
 sources: [source/wikipedia-senol-gunes-en, source/wikipedia-senol-gunes-ar, source/wikidata-senol-gunes]
 provenance:
   layer: own-research

@@ -13,6 +13,8 @@ themes: [spirituality-and-sufism]
 periods: [period/mongol-post-mongol]
 regions: [anatolia-balkans]
 died: { edtf: "1489-06~", hijri: "0894-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي سلخ جمادى الآخرة 894 {cite:shadharat-dhahab p. 356}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/kastamonu, confidence: low, note: "Associated with Kastamonu per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 894)، قراءة آبل فيجن"

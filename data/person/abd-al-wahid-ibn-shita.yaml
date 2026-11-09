@@ -16,3 +16,5 @@ provenance:
   run: lib-shadharat-batch-97
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/iraq, note: "From text: of Iraq", sources: [source/shadharat-dhahab], confidence: low }

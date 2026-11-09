@@ -19,6 +19,8 @@ born:
   derived: true
   note: "Born on 24 August 1973 in Washington, D.C.; the English, Arabic and Urdu articles and Wikidata agree. No place entity for Washington, D.C. exists in data/place/, so no born_in relation is written. The Hijri year (1393) is derived by tabular conversion."
   sources: [source/wikipedia-dave-chappelle-en, source/wikidata-dave-chappelle]
+relations:
+  - { type: born_in, target: place/washington-dc, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-dave-chappelle] }
 faith:
   - value: unknown
     basis: unknown

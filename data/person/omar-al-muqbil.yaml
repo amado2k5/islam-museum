@@ -12,6 +12,8 @@ wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
 born: { edtf: "1972", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/al-mithnab, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q97291227)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q107749267

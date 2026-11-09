@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: lived_in, target: place/azak, confidence: low, note: "Associated with آزاق per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/treaty-pruth-1123, role: "الصدر الأعظم", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:

@@ -1,12 +1,36 @@
 id: place/al-shihr
 class: place
 kind: region
-label: { ar: "الشحر", en: "al-Shihr" }
+label:
+  ar: الشحر
+  en: al-Shihr
 summary:
-  ar: "أرض الشحر، تتصل بحضرموت من جهتها الشرقية. {cite:nuzhat-al-mushtaq-2002 p. 154}"
-  en: "The land of al-Shihr, which adjoins Hadramawt on its eastern side. {cite:nuzhat-al-mushtaq-2002 p. 154}"
-wings: [place]
-regions: [arabia]
-provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 154 (scan page)", generated_by: "Claude (Haiku 5.5)", run: lib-nuzhat-batch }
-sources: [source/nuzhat-al-mushtaq-2002]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
+  ar: أرض الشحر، تتصل بحضرموت من جهتها الشرقية. {cite:nuzhat-al-mushtaq-2002 p. 154}
+  en: The land of al-Shihr, which adjoins Hadramawt on its eastern side. {cite:nuzhat-al-mushtaq-2002 p. 154}
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 14.76
+- 49.6
+coordinate_precision: locality
+coordinate_note: Identified modern location; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q286843
+sources:
+- source/nuzhat-al-mushtaq-2002
+- source/geonames-gazetteer
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - lib-nuzhat-batch
+  - lib-nuzhat-batch
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 154 (scan page)

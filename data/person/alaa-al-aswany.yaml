@@ -22,6 +22,7 @@ born:
   note: "Gregorian date and Cairo birthplace from the English and Arabic Wikipedia articles and Wikidata, all in agreement; the Hijri year (1376) is derived from the Gregorian date."
   sources: [source/wikipedia-alaa-al-aswany-en, source/wikipedia-alaa-al-aswany-ar, source/wikidata-alaa-al-aswany]
 relations:
+  - { type: born_in, target: place/cairo, note: "From text: born in Cairo", sources: [source/wikipedia-alaa-al-aswany-en, source/wikipedia-alaa-al-aswany-ar, source/wikidata-alaa-al-aswany] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-alaa-al-aswany-en, source/wikidata-alaa-al-aswany] }
 faith:
   - value: unknown

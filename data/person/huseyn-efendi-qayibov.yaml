@@ -13,6 +13,9 @@ regions: [persia-central-asia]
 periods: [period/colonial-era]
 born: { edtf: "1830", precision: year, status: tradition, derived: true }
 died: { edtf: "1917", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/a-a-salahl, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/tiflis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12842053

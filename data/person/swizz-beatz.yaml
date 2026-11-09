@@ -27,6 +27,8 @@ faith:
     note: "No article states a religion for him: neither the English nor the Arabic Wikipedia article mentions Islam or any affiliation of his anywhere. Wikidata's religion (P140) value is Islam generically — one structured-data value naming no school, which under the lane rule never counts as an attestation. No source names a madhhab for him, so his faith is recorded as unknown, and the absence in the articles is stated rather than filled."
     sources: [source/wikipedia-swizz-beatz-en, source/wikipedia-swizz-beatz-ar, source/wikidata-swizz-beatz]
 external_ids: { wikidata: "Q240523" }
+relations:
+  - { type: born_in, target: place/the-bronx, sources: [source/wikidata-swizz-beatz], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q18426)" }
 sources: [source/wikipedia-swizz-beatz-en, source/wikipedia-swizz-beatz-ar, source/wikidata-swizz-beatz]
 provenance:
   layer: own-research

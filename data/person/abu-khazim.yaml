@@ -14,3 +14,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-32
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Qadi appointed by al-Mu'tadid; the caliphal judiciary sat in Baghdad.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }

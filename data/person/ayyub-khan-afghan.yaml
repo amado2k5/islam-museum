@@ -17,3 +17,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, p. 845, entry 'AYYUB KHAN' (queue seq 452, batch ei2-b019); the entry text ends in the scan before his death, so no dates are written"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: ruler_of, target: place/kabul, note: "From text: خان في كابل", sources: [source/encyclopaedia-of-islam-2] }

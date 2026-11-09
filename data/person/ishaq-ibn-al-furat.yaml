@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+relations:
+  - { type: lived_in, target: place/al-furat-city, confidence: low, note: "Associated with الفرات per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q107014908

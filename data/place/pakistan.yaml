@@ -1,0 +1,38 @@
+id: place/pakistan
+class: place
+kind: region
+label:
+  ar: باكستان
+  en: Pakistan
+  ur: پاکستان
+summary:
+  ar: جمهورية في جنوب آسيا قامت سنة 1947، قلب العالم الإسلامي الهندي.
+  en: Republic in South Asia founded 1947, a centre of the Muslim world.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 30.37
+- 69.35
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q843
+  geonames: '1168579'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q843 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q843 (labels, coordinates, description)

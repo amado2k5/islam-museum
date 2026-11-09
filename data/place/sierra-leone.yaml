@@ -1,0 +1,21 @@
+id: place/sierra-leone
+class: place
+kind: region
+label: { ar: "سيراليون", en: "Sierra Leone", ur: "سیرالیون"}
+summary:
+  ar: "إقليم سيراليون."
+  en: "Region (Sierra Leone)."
+wings: [place]
+regions: [global]
+coordinates: [8.5, -12.1]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q1044; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1044" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1044 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

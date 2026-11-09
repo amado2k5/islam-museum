@@ -24,6 +24,10 @@ faith:
     basis: unknown
     note: "The evidence read in this run attests heritage, not a personal affiliation with a specific school or path. The Kennedy Center describes her as 'influenced by the sounds of her Jewish roots'; the BroadwayWorld release text, echoed by other music coverage from the same release family, speaks of 'her own Ashkenazi (Eastern European) Jewish roots'; one biography aggregator calls her a 'Jewish American vocalist'. These are descriptions of roots and background — the same release-derived wording repeated is not two independent sources — and no source names a denomination, movement or practice of her own. Under the two-source rule and the doubt rule, in line with the Sami Frashëri near-miss (a family's affiliation does not transfer), no faith value beyond unknown is recorded, and this evidence is carried here attributed."
     sources: [source/kennedy-center-sariyah-idan, source/broadwayworld-sariyah-idan-breaking-shadows]
+relations:
+  - { type: born_in, target: place/sariya, sources: [source/wikidata], confidence: low, note: "She is identified as the New York-born singer-songwriter Sariyah Idan, a different person from Sarah Abdali Id" }
+  - { type: ruler_of, target: place/iraq, sources: [source/wikidata], confidence: low, note: "هي شخص مختلف عن سارة عيدان، ملكة جمال العراق 2017.'" }
+  - { type: lived_in, target: place/orleans, sources: [source/wikidata], confidence: low, note: "en: 'American singer-songwriter born in New York and based in New Orleans." }
 sources: [source/kennedy-center-sariyah-idan, source/broadwayworld-sariyah-idan-breaking-shadows]
 provenance:
   layer: own-research

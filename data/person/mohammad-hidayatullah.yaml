@@ -32,7 +32,9 @@ died:
   derived: true
   note: "Died on 18 September 1992 at Bombay, as the English article's infobox and Wikidata give. Bombay has no place entity in this collection, so no died_in relation is written and the place is carried here. The Hijri year (1413) is by tabular conversion."
   sources: [source/wikipedia-mohammad-hidayatullah-en, source/wikidata-mohammad-hidayatullah]
-relations: []
+relations:
+  - { type: born_in, target: place/lucknow, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohammad-hidayatullah] }
+  - { type: died_in, target: place/mumbai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohammad-hidayatullah] }
 faith:
   - value: unknown
     basis: unknown

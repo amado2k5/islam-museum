@@ -1,0 +1,16 @@
+id: place/corinth
+class: place
+kind: city
+label: { en: "Corinth", ar: "قورنثوس" }
+summary:
+  en: "Seaside city in Peloponnese, Greece."
+  ar: "مدينة في اليونان."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [37.9386, 22.9272]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q103011", geonames: "259289" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q103011 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

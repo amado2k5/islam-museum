@@ -10,3 +10,5 @@ regions: [persia-central-asia]
 sources: [source/umayyad-birth-to-fall-2006]
 provenance: { layer: own-research, source: "umayyad-birth-to-fall-2006 p. 109", generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 p. 109" }
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 p. 109" }
+relations:
+  - { type: lived_in, target: place/transoxiana, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/umayyad-birth-to-fall-2006] }

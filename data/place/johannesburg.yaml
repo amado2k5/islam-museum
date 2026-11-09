@@ -1,0 +1,35 @@
+id: place/johannesburg
+class: place
+kind: town
+label:
+  ar: جوهانسبرغ
+  en: Johannesburg
+  ur: جوہانسبرگ
+summary:
+  ar: مدينة في جنوب إفريقيا.
+  en: Johannesburg; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- global
+coordinates:
+- -26.2044
+- 28.0416
+coordinate_precision: locality
+coordinate_note: Wikidata Q34647.
+external_ids:
+  wikidata: Q34647
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q34647 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/gelibolu, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q216907)" }
+  - { type: died_in, target: place/ke-an, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q951495)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q136101775

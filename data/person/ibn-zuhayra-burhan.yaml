@@ -13,6 +13,8 @@ themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [arabia]
 died: { edtf: "1486-11-05~", hijri: "0891-11-06", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الجمعة 6 ذي القعدة 891 عن نحو 66 {cite:shadharat-dhahab p. 350}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Associated with الحجاز per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 891)، قراءة آبل فيجن"

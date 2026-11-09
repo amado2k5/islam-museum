@@ -20,3 +20,5 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-alam-batch-2
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

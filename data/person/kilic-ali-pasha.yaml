@@ -23,6 +23,7 @@ died:
   derived: true
   sources: [source/dawlat-uthmaniyya-salabi]
 relations:
+  - { type: lived_in, target: place/tunis, confidence: low, note: "Associated with تونس per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/uluj-ali-morocco-1581, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/ahmad-al-mansur-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

@@ -44,7 +44,8 @@ died:
   note: "Died at Yola in 1847; all three articles and Wikidata (year precision, place of death Yola) agree. He was buried at Yola, where his tomb survives, and was succeeded, after a brief regency, by his son Muhammadu Lawal. The Hijri year is derived by tabular conversion (most of 1847 falls in 1263 AH). Place of death as recorded: Yola (present-day Nigeria)."
   sources: [source/wikipedia-modibo-adama-en, source/wikipedia-modibo-adama-fr, source/wikidata-modibo-adama]
 
-relations: []
+relations:
+  - { type: died_in, target: place/yola, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-modibo-adama] }
 
 external_ids:
   wikidata: Q959476

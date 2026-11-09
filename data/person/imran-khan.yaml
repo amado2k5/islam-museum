@@ -21,6 +21,7 @@ born:
   note: "Born on 5 October 1952 in Lahore, West Punjab, Pakistan, per the English and Arabic Wikipedia articles, Encyclopaedia Britannica and Wikidata. Some reports give 25 November 1952; the English article records Khan's own statement that this is a mistake from his passport. The Hijri year (1372) is derived by tabular conversion."
   sources: [source/wikipedia-imran-khan-en, source/wikipedia-imran-khan-ar, source/britannica-imran-khan, source/wikidata-imran-khan]
 relations:
+  - { type: lived_in, target: place/lahore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-imran-khan] }
   - { type: born_in, target: place/lahore, sources: [source/wikipedia-imran-khan-en] }
   - { type: influenced, target: person/waqar-younis, sources: [source/wikipedia-waqar-younis-en] }
   - { type: influenced, target: person/inzamam-ul-haq, sources: [source/wikipedia-inzamam-ul-haq-en] }

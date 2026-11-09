@@ -15,10 +15,11 @@ story_roles:
   - { role: ruler, toward: group/quraysh, status: tradition, note: "صارت له ثم لقريش السيادة التامة والأمر النافذ في مكة.", sources: [source/mubarakpuri-raheeq] }
 relations:
   - { type: child_of, target: person/kilab-ibn-murrah }
-  - { type: ruler_of, target: place/mecca, start: { edtf: "0440~" }, sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
   - { type: member_of, target: group/quraysh }
   - { type: founder_of, target: building/dar-al-nadwa, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: spouse_of, target: person/hubba-bint-hulayl, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/qusayy-takes-mecca, role: "الغالب على ولاية البيت", sources: [source/mubarakpuri-raheeq] }
+  - { type: ruler_of, target: place/mecca, start: { edtf: "0440~" }, sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
+  - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ikhbar-al-kiram] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ikhbar-al-kiram]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

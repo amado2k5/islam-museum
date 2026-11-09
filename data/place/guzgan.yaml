@@ -1,0 +1,18 @@
+id: place/guzgan
+class: place
+kind: region
+label: { ar: "جوزجان", en: "Guzgan" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q5622920)."
+wings: [place]
+regions: [global]
+external_ids: { wikidata: "Q5622920" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5622920 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

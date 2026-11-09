@@ -32,6 +32,7 @@ died:
   note: "All sources agree on 9 October 1917, at Cairo. The English article gives his burial place as the Al-Rifai Mosque in Cairo. The Arabic article's categories independently give his death year as 1335 AH, matching the derived conversion."
   sources: [source/wikipedia-hussein-kamel-en, source/wikipedia-hussein-kamel-ar, source/wikipedia-hussein-kamel-fr, source/wikidata-hussein-kamel]
 relations:
+  - { type: buried_in, target: building/masjid-al-rifai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-hussein-kamel-en, source/wikipedia-hussein-kamel-ar] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-hussein-kamel-en, source/wikipedia-hussein-kamel-ar] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-hussein-kamel-en] }

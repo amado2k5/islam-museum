@@ -28,6 +28,7 @@ died:
   derived: true
   note: "توفي يوم الجمعة لثمان خلون من رجب سنة إحدى عشرة ودفن شرقي بغداد {cite:shadharat-dhahab p. 54}؛ التحويل مشتق."
 relations:
+  - { type: lived_in, target: place/gilan, note: "Place association from the person's nisba/name (الجيلاني); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
   - { type: child_of, target: person/abd-al-wahhab-ibn-abd-al-qadir, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

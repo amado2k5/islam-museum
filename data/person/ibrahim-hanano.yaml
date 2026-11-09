@@ -32,6 +32,8 @@ died:
   note: "Died at Aleppo on 21 November 1935, of tuberculosis according to the English article; the Arabic article pairs the date with 24 Sha'ban 1354 AH."
   sources: [source/wikipedia-ibrahim-hanano-en, source/wikipedia-ibrahim-hanano-ar, source/wikidata-ibrahim-hanano]
 relations:
+  - { type: born_in, target: place/kafr-takharim, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-hanano] }
+  - { type: born_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-hanano] }
   - { type: lived_in, target: place/aleppo, sources: [source/wikipedia-ibrahim-hanano-en, source/wikipedia-ibrahim-hanano-ar] }
   - { type: died_in, target: place/aleppo, sources: [source/wikipedia-ibrahim-hanano-en, source/wikidata-ibrahim-hanano] }
 faith:

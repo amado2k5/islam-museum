@@ -20,6 +20,8 @@ regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 aliases: [person/khaythama-ibn-sulayman-al-atrabulsi]
+relations:
+  - { type: lived_in, target: place/tripoli-greece, confidence: low, note: "Associated with Tripoli per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids:
   wikidata: Q63930705
 sources: [source/mawsuat-a3lam-ulama-adaba]

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/deccan-plateau, confidence: low, note: "Bahmani/Deccan ruler per the record's own summary; precise seat pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q3104909

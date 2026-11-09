@@ -21,6 +21,7 @@ born:
   note: "Born on 17 March 1980 in Lahore, Punjab, Pakistan, per the English and Arabic Wikipedia articles and Wikidata. A place entity for Lahore exists (place/lahore), so the born_in relation is written. The Hijri year (1400) is derived by tabular conversion."
   sources: [source/wikipedia-aisam-ul-haq-qureshi-en, source/wikipedia-aisam-ul-haq-qureshi-ar, source/wikidata-aisam-ul-haq-qureshi]
 relations:
+  - { type: born_in, target: place/lahore, note: "From text: born in Lahore", sources: [source/wikipedia-aisam-ul-haq-qureshi-en, source/wikipedia-aisam-ul-haq-qureshi-ar, source/wikidata-aisam-ul-haq-qureshi] }
   - { type: born_in, target: place/lahore, sources: [source/wikipedia-aisam-ul-haq-qureshi-en, source/wikipedia-aisam-ul-haq-qureshi-ar, source/wikidata-aisam-ul-haq-qureshi] }
 faith:
   - value: unknown

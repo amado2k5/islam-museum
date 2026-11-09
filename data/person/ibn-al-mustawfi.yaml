@@ -9,6 +9,9 @@ summary:
 gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: born_in, target: place/erbil, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/erbil, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الرابع، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

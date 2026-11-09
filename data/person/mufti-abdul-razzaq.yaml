@@ -13,6 +13,8 @@ regions: [south-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1925", precision: year, status: tradition, derived: true }
 died: { edtf: "2021", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/bhopal, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80989)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q106989824

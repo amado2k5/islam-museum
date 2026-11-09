@@ -8,6 +8,8 @@ wings: [people]
 periods: [period/abbasid-early]
 relations:
   - { type: participated_in, target: event/al-awzai-letter-to-salih, role: "الوالي المخاطَب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: born_in, target: place/umayyad-caliphate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8575586)" }
+  - { type: died_in, target: place/syria, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q858)" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 222، 195"

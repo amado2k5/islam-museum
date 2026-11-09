@@ -23,6 +23,7 @@ born:
 relations:
   - { type: lived_in, target: place/sanaa, sources: [source/wikipedia-tawakkol-karman-en] }
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-tawakkol-karman-en] }
+  - { type: born_in, target: place/yemen, sources: [source/wikipedia-tawakkol-karman-en, source/nobelprize-tawakkol-karman-facts, source/wikidata-tawakkol-karman] }
 faith:
   - value: unknown
     basis: unknown

@@ -21,3 +21,5 @@ external_ids:
   nomisma: "ghiyath_al-din_abu_shuja'_muhammad_ibn_malikshah"
 sources: [source/shadharat-dhahab, source/nomisma]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/isfahan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/shadharat-dhahab] }

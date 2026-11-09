@@ -13,6 +13,8 @@ regions: [south-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1914", precision: year, status: tradition, derived: true }
 died: { edtf: "2009", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/hazara-division, sources: [source/wikidata], confidence: low, note: "Wikidata Q2358309 ('Mansehra District'), located in Hazara Division" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q65278540

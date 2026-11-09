@@ -12,6 +12,9 @@ roles: [ruler, military]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia, south-asia]
+relations:
+  - { type: born_in, target: place/ghazna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/ghazna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q189271" }
 sources: [source/muntazam-ibn-al-jawzi, source/shadharat-dhahab]
 provenance:

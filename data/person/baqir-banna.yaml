@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/contemporary-era]
+relations:
+  - { type: lived_in, target: place/banna, confidence: low, note: "Associated with Banna per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q141163521

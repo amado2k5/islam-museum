@@ -12,6 +12,8 @@ traditions: [sunni-shafii]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 provenance:
   layer: own-research
   source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15820 من المسح)"

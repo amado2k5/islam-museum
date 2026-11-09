@@ -15,7 +15,8 @@ faith:
 roles: [preacher]
 wings: [people, living]
 regions: [east-africa]
-relations: []
+relations:
+  - { type: lived_in, target: place/abyssinia, note: "From text: Ethiopian (nationality adjective); broad association, flagged for review.", sources: [source/speakrj-anwar-yusuf, source/vidiq-anwar-yusuf], confidence: low }
 sources: [source/speakrj-anwar-yusuf, source/vidiq-anwar-yusuf]
 provenance:
   layer: own-research

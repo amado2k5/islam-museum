@@ -1,0 +1,36 @@
+id: place/cambridge
+class: place
+kind: city
+label:
+  ar: كامبريدج
+  en: Cambridge
+summary:
+  ar: مدينة جامعية في إنجلترا، مقر جامعة كامبريدج.
+  en: English university city, seat of the University of Cambridge.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 52.2081
+- 0.1225
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q350
+  geonames: '2653941'
+sources:
+- source/mingana-lewis-leaves-from-three-ancient-qurans-1914
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q350 (labels, coordinates, description)

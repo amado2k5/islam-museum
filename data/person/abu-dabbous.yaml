@@ -15,7 +15,8 @@ regions: [maghreb]
 faith:
   - value: sunni
     basis: tradition
-relations: []
+relations:
+  - { type: ruler_of, target: place/morocco, note: "From text: صاحب المغرب", sources: [source/shadharat-dhahab], confidence: low }
 sources: [source/shadharat-dhahab]
 status:
   review: published

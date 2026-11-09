@@ -7,6 +7,8 @@ summary:
 periods: [period/rashidun]
 relations:
   - { type: participated_in, target: event/conquest-of-qazwin }
+  - { type: traveled_to, target: place/daylam, note: "Ali sent him raiding Daylam at the head of four thousand.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
+  - { type: traveled_to, target: place/qazwin, note: "His famous mosque and blessed tree stood at Qazwin.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407, source/assabile-omar-abdelkafy]
 status: { review: draft, completeness: 1 }

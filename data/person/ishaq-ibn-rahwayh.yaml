@@ -12,6 +12,9 @@ traditions: [sunni]
 wings: [people]
 periods: [period/abbasid-early]
 regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/nishapur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 512؛ ضحى الإسلام ص 491"

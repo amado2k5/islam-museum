@@ -36,6 +36,8 @@ faith:
     note: "No source attests any religion for Alkazi himself: Wikidata carries no religion value and neither biography names one. He was born into an Arab trading family — a father from Unaizah in Saudi Arabia and a Kuwaiti mother — and the Arabic article says he grew up in an open religious environment; his wife Roshen was an Ismaili Khoja. Family background, upbringing and a spouse's faith never count, so the record is an absence: unknown, unflagged."
     sources: [source/wikidata-ebrahim-alkazi, source/wikipedia-ebrahim-alkazi-en, source/wikipedia-ebrahim-alkazi-ar]
 relations:
+  - { type: born_in, target: place/pune, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ebrahim-alkazi] }
+  - { type: died_in, target: place/new-delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ebrahim-alkazi] }
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-ebrahim-alkazi-en] }
 summary:
   ar: "مخرج مسرحي ومعلم دراما هندي (1925–2020) من أب سعودي من عنيزة وأم كويتية، درس في الأكاديمية الملكية لفنون الدراما بلندن، وأدار المدرسة الوطنية للدراما في نيودلهي (1962–1977) فأحدث ثورة في المسرح الهندي الحديث، وأخرج أكثر من خمسين مسرحية."

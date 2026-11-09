@@ -1,0 +1,21 @@
+id: place/salalah
+class: place
+kind: city
+label: { ar: "صلالة", en: "Salalah", ur: "صلالہ" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q1294439)."
+wings: [place]
+regions: [arabia]
+coordinates: [17.019722222222, 54.089722222222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1294439" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1294439 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

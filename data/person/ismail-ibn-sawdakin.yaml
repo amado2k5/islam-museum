@@ -16,6 +16,7 @@ faith:
   - value: sunni-hanafi
     basis: tradition
 relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
   - { type: student_of, target: person/ibn-arabi-muhyi-al-din, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

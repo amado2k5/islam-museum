@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile, levant-iraq]
 born: { edtf: "1394-10~", hijri: "0796-12", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بحماة ذي الحجة 796 {cite:shadharat-dhahab p. 290}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1452-02-21~", hijri: "0856-02-16", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بالقاهرة الأحد 16 صفر 856 {cite:shadharat-dhahab p. 290}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with دمشق per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 856)، قراءة آبل فيجن"

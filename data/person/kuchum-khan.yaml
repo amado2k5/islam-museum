@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/tarikh-islam-hasan-ibrahim] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q138237

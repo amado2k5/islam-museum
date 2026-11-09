@@ -35,6 +35,8 @@ faith:
     note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder: the Sunni reading rests on a single structured value — the Urdu article's infobox religion field reads 'Sunni' — while the English infobox carries no religion field at all, the Arabic article makes no religion statement, and Wikidata's religion value is Islam (Q432) only, with no Sunni value; the English categories 'Qatari Muslims' and 'Muslim monarchs' are filings, which never attest. This is the single-infobox configuration (the wave-83 Khalid configuration, here carried by the Urdu edition rather than the Arabic): an infobox alone never counts, and one structured family cannot meet the two-independent-source bar. His headship of the Al Thani house and of a state whose constitution names Islam do not attest personal affiliation. The reading is preserved here for the founder's ruling."
     sources: [source/wikipedia-hamad-bin-khalifa-al-thani-en, source/wikipedia-hamad-bin-khalifa-al-thani-ar, source/wikipedia-hamad-bin-khalifa-al-thani-ur, source/wikidata-hamad-bin-khalifa-al-thani]
 relations:
+  - { type: born_in, target: place/doha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamad-bin-khalifa-al-thani] }
+  - { type: died_in, target: place/doha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamad-bin-khalifa-al-thani] }
   - { type: member_of, target: group/al-thani, sources: [source/wikipedia-hamad-bin-khalifa-al-thani-en, source/wikidata-hamad-bin-khalifa-al-thani] }
 wings: [people]
 regions: [arabia]

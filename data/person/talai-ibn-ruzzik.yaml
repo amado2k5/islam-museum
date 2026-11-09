@@ -19,3 +19,5 @@ sources: [source/wafayat-ayan, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: built, target: building/mosque-of-al-salih-talai, sources: [source/yeomans-islamic-cairo-2006] }
+
+  - { type: lived_in, target: place/cairo, sources: [source/wafayat-ayan, source/yeomans-islamic-cairo-2006] }

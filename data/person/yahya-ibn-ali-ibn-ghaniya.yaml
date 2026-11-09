@@ -21,6 +21,9 @@ died:
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
+relations:
+  - { type: ruled_over, target: place/seville, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "en: 'Yahya ibn Ali ibn Ghaniya the Sanhaji Massufi; raised with his brother Muhammad in Yusuf ibn Tashfin's gu" }
+  - { type: lived_in, target: place/cordoba, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'يحيى بن علي بن غانية الصنهاجي المسوفي؛ نشأ هو وأخوه محمد في ظل يوسف بن تاشفين وحجر كفالته، فعقد له علي بن" }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

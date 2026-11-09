@@ -25,3 +25,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch87
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Association inferred from the nisba 'المصري'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab] }

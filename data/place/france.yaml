@@ -1,0 +1,38 @@
+id: place/france
+class: place
+kind: region
+label:
+  ar: فرنسا
+  en: France
+  ur: فرانس
+summary:
+  ar: بلد في أوروبا الغربية، عاصمته باريس.
+  en: Country in Western Europe and other continents (through its overseas territories in America, Africa and Oceania).
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 47
+- 2
+coordinate_precision: locality
+coordinate_note: Wikidata Q142 coordinates; representative point for the region.
+external_ids:
+  wikidata: Q142
+  geonames: '3017382'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q142 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q142 (labels, coordinates, description)

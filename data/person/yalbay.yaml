@@ -13,6 +13,7 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 faith: [{ value: sunni, basis: documented }]
 relations:
+  - { type: ruled_over, target: place/misr, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/qaytbay-accession-872, role: "السلطان المخلوع", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

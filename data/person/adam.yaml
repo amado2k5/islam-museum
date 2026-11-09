@@ -30,3 +30,5 @@ education:
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-yusuf-al-qaradawi, source/assabile-muhammad-metwally-al-shaarawy, source/tafsir-tabari-shakir-v01], confidence: low }

@@ -42,6 +42,7 @@ relations:
   - { type: child_of, target: person/amangkurat-i, sources: [source/wikipedia-pakubuwono-i-en, source/wikipedia-pakubuwono-i-id] }
   - { type: successor_of, target: person/amangkurat-iii, sources: [source/wikipedia-pakubuwono-i-en, source/wikipedia-pakubuwono-i-id] }
 
+  - { type: born_in, target: place/surakarta, sources: [source/wikidata-pakubuwono-i], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4803)" }
 faith:
   - value: unknown
     basis: unknown

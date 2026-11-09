@@ -75,6 +75,7 @@ status:
   review: published
   completeness: 3
 relations:
+- { type: lived_in, target: place/qumm, confidence: low, note: "Associated with قم per the record's own text; relation type pending review.", sources: [source/wikidata] }
 - type: member_of
   target: group/muzayna
 - type: authored

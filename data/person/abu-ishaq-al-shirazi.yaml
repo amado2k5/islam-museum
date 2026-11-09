@@ -28,6 +28,14 @@ regions:
 - levant-iraq
 - persia-central-asia
 relations:
+- type: born_in
+  target: place/firuzabad
+  note: "From text: born at Firuzabad"
+  sources: [source/tabaqat-fuqaha-abbas-1981]
+- type: lived_in
+  target: place/fars
+  note: "From text: studied in Fars"
+  sources: [source/tabaqat-fuqaha-abbas-1981, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/assabile-ragheb-el-sergani, source/encyclopaedia-of-islam-2, source/muntazam-ibn-al-jawzi]
 - type: authored
   target: work/tabaqat-fuqaha
   sources:

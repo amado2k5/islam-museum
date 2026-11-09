@@ -17,6 +17,10 @@ faith:
   - value: sunni-hanbali
     basis: tradition
 relations:
+  - { type: born_in, target: place/basra, note: "From text: ولد بالبصرة ورحل إلى بغداد فتفقه عل", sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/baghdad, note: "From text: رحل إلى بغداد فتفقه على كمال الدين بن ", sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/medina, note: "From text: انتقل إلى المدينة واستوطنها نحو خمسين سن", sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/medina, note: "From text: settled in Medina", sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/medina, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

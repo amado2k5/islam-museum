@@ -10,6 +10,11 @@ gender: male
 roles: [sultan]
 traditions: [sunni]
 relations:
+- type: lived_in
+  target: place/granada
+  note: "From text: of Granada"
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: ruler_of
   target: polity/marinid-dynasty
   sources:

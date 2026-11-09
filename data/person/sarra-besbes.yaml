@@ -27,6 +27,8 @@ faith:
     note: "None of the English, Arabic or Persian articles names a religion for her, and Wikidata records no religion (P140) statement. Her passive bout at the 2011 World Championships was fenced on the instructions of her federation and the sports ministry as part of a boycott campaign; a political instruction of that kind is not a statement of her own faith, and her Tunisian nationality is not used as one either. Recorded as unknown on absence of attestation; no school is asserted."
     sources: [source/wikipedia-sarra-besbes-en, source/wikipedia-sarra-besbes-ar, source/wikipedia-sarra-besbes-fa, source/wikidata-sarra-besbes]
 external_ids: { wikidata: "Q1579756" }
+relations:
+  - { type: born_in, target: place/abu-dhabi, sources: [source/wikidata-sarra-besbes], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1519)" }
 sources: [source/wikipedia-sarra-besbes-en, source/wikipedia-sarra-besbes-ar, source/wikipedia-sarra-besbes-fa, source/wikidata-sarra-besbes]
 provenance:
   layer: own-research

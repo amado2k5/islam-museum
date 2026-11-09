@@ -31,6 +31,9 @@ themes:
 regions:
 - south-asia
 relations:
+- { type: born_in, target: place/umarkot-fort, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+- { type: died_in, target: place/fatehpur-sikri, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+- { type: buried_in, target: place/akbar-s-tomb, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 - { type: child_of, target: person/humayun-mughal }
 - { type: child_of, target: person/hamida-banu-begum }
 - { type: successor_of, target: person/humayun-mughal }

@@ -21,6 +21,7 @@ relations:
   - { type: participated_in, target: event/battle-of-marj-al-suffar, sources: [source/futuh-buldan-maarif-1407] }
   - { type: spouse_of, target: person/khalid-ibn-said-ibn-al-as, sources: [source/futuh-buldan-maarif-1407] }
   - { type: spouse_of, target: person/ikrima-ibn-abi-jahl, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 162"

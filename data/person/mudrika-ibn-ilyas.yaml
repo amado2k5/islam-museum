@@ -1,19 +1,27 @@
 id: person/mudrika-ibn-ilyas
 class: person
-label: { ar: "مدركة بن إلياس", en: "Mudrika ibn Ilyas" }
+label:
+  ar: مدركة بن إلياس
+  en: Mudrika ibn Ilyas
 summary:
-  ar: "عمرو بن إلياس بن مضر وهو مدركة، أخو طابخة وقمعة لخندف، منه جاء بطن كنانة بن خزيمة بن مدركة في نسب النبي {cite:muruj-al-dhahab p. 567}."
-  en: "The 'Amr of Ilyas called Mudrika — Khindif's son and Kinana's forebear in the Prophet's line {cite:muruj-al-dhahab p. 567}."
+  ar: عمرو بن إلياس بن مضر وهو مدركة، أخو طابخة وقمعة لخندف، منه جاء بطن كنانة بن خزيمة بن مدركة في نسب النبي {cite:muruj-al-dhahab p. 567}.
+  en: The 'Amr of Ilyas called Mudrika — Khindif's son and Kinana's forebear in the Prophet's line {cite:muruj-al-dhahab p. 567}.
 gender: male
-wings: [people]
+wings:
+- people
 provenance:
   layer: own-research
-  source: "المسعودي، مروج الذهب وأهل المعاجن"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
+  source: المسعودي، مروج الذهب وأهل المعاجن
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
   run: prose-fill-persons-batch31
-sources: [source/muruj-al-dhahab]
+sources:
+- source/muruj-al-dhahab
 status:
   review: published
   completeness: 3
-
+relations:
+- type: lived_in
+  target: place/hijaz
+  sources:
+  - source/muruj-al-dhahab

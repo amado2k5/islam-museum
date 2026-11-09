@@ -31,6 +31,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). He is also the third Imam of Twelver Shia; see perspectives." }
 relations:
+  - { type: buried_in, target: building/imam-husayn-shrine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/medina }
   - { type: died_in, target: place/karbala }
   - { type: buried_in, target: place/karbala }

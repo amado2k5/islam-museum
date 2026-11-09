@@ -24,6 +24,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
 relations:
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-mosaad-anwar], confidence: low }
   - { type: participated_in, target: event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal, role: "أمير السرية؛ عمّمه النبي بيده ودفع إليه اللواء", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh }
   - { type: member_of, target: group/banu-zuhra }

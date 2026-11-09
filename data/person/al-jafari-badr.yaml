@@ -30,3 +30,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
+relations:
+  - { type: lived_in, target: place/nablus, note: "From text: qadi of Nablus", sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/nablus, note: "From text: died at Nablus Thursday", sources: [source/shadharat-dhahab] }

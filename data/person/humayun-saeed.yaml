@@ -19,6 +19,8 @@ born:
 roles: [actor, producer]
 regions: [south-asia]
 wings: [people, living]
+relations:
+  - { type: born_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-humayun-saeed] }
 faith:
   - value: unknown
     basis: unknown

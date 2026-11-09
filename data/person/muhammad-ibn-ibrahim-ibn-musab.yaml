@@ -7,6 +7,7 @@ summary:
 periods: [period/abbasid-early]
 relations:
   - { type: participated_in, target: event/mazyar-revolt }
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Early Abbasid-era figure (Futuh al-buldan); Iraqi milieu, no specific town attested.", sources: [source/futuh-buldan-maarif-1407] }
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }

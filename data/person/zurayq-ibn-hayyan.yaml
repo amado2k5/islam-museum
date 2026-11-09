@@ -10,6 +10,8 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/wikidata], confidence: low, note: "Nisba دمشقي attested in the record." }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status: { review: draft, completeness: 1 }
 provenance:

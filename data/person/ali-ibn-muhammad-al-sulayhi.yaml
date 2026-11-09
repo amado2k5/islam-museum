@@ -8,6 +8,7 @@ gender: male
 died: { edtf: "1080~", hijri: "0473", calendar: julian, precision: year, status: tradition, derived: true, note: "قتله سعيد الأحول بن نجاح قرب المهجم سنة 473 وهو في طريق الحج {cite:shadharat-dhahab p. 355-356}." }
 roles: [ruler, commander]
 relations:
+  - { type: lived_in, target: place/tihama, note: "From text: of Tihama", sources: [source/shadharat-dhahab], confidence: low }
   - { type: founder_of, target: polity/sulayhid-dynasty, sources: [source/shadharat-dhahab] }
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]

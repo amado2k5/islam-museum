@@ -9,6 +9,8 @@ periods: [period/mongol-post-mongol]
 regions: [maghreb]
 relations:
   - { type: founder_of, target: group/bani-abd-al-wad, sources: [source/tarikh-ibn-khaldun-ibar] }
+
+  - { type: lived_in, target: place/tlemcen, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tarikh-ibn-khaldun-ibar] }
 provenance:
   layer: own-research
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"

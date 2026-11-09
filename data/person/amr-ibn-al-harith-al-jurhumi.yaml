@@ -19,6 +19,7 @@ themes: [sacred-space-and-pilgrimage]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/mecca, note: "From text: from Mecca", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab], confidence: low }
   - { type: member_of, target: group/jurhum, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: participated_in, target: event/expulsion-of-jurhum, role: "دافن غزالي الكعبة والركن في زمزم", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 provenance:

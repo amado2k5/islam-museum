@@ -17,6 +17,9 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 story_roles:
   - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/basra, note: "At Basra in 332 among the Buraydiyya per al-Masudi.", sources: [source/muruj-al-dhahab], confidence: medium }
+  - { type: lived_in, target: place/antioch, note: "Al-Antaki per al-Masudi; flagged for review.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/muruj-al-dhahab]
 status:
   review: published

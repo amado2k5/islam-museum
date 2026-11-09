@@ -34,6 +34,8 @@ died:
   derived: true
   note: "The place, Hyderabad, is agreed. The day is split: the English article's text and infobox and the Urdu article's infobox give 23 April 1968, which the record follows, while the Urdu article's lead and the Punjabi article give 25 April. The Hijri year (1388) is a conversion. No place entity exists for Hyderabad, so no died_in edge is written."
   sources: [source/wikipedia-bade-ghulam-ali-khan-en, source/wikipedia-bade-ghulam-ali-khan-ur]
+relations:
+  - { type: born_in, target: place/kasur, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-bade-ghulam-ali-khan-en, source/wikipedia-bade-ghulam-ali-khan-ur] }
 faith:
   - value: unknown
     basis: unknown

@@ -13,5 +13,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة الحوفزان بن شريك)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-25
+relations:
+  - { type: lived_in, target: place/jazira, note: "Pre-Islamic knight-poet of Banu Shayban ibn Bakr, whose homeland was the Jazira (al-Alam entry on al-Hawfazan); flagged.", sources: [source/wafayat-ayan], confidence: low }
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

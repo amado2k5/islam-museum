@@ -35,6 +35,8 @@ died:
   sources: [source/wikipedia-husayn-ibn-ali-al-turki-en, source/wikipedia-husayn-ibn-ali-al-turki-fr, source/wikipedia-husayn-ibn-ali-al-turki-ar, source/wikipedia-husayn-ibn-ali-al-turki-it, source/wikipedia-husayn-ibn-ali-al-turki-es]
 
 relations:
+  - { type: born_in, target: place/el-kef, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-husayn-ibn-ali-al-turki] }
+  - { type: buried_in, target: place/tourba-of-hussein-ier-bey, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-husayn-ibn-ali-al-turki] }
   - { type: died_in, target: place/qayrawan, sources: [source/wikipedia-husayn-ibn-ali-al-turki-fr, source/wikipedia-husayn-ibn-ali-al-turki-it, source/wikipedia-husayn-ibn-ali-al-turki-es] }
 
 faith:

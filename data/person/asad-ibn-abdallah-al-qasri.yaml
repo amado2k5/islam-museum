@@ -14,3 +14,5 @@ provenance:
   run: lib-futuh-buldan-batch-36
 sources: [source/futuh-buldan-maarif-1407, source/khudari-umayyad-state, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/al-sham, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/futuh-buldan-maarif-1407, source/khudari-umayyad-state, source/salabi-umayyad-state-2020], confidence: low }

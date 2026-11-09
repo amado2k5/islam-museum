@@ -10,3 +10,6 @@ external_ids: { wikidata: "Q281989", nomisma: "al-mu'tazz_billah" }
 sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/nomisma]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 6", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
+relations:
+  - { type: died_in, target: place/bust, note: "From text: مات بعدها بستة أيام وله أربع وعشرون", sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab] }
+  - { type: buried_in, target: place/samarra, note: "From text: buried at Samarra. Al-Buhturi", sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab] }

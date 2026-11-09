@@ -28,7 +28,8 @@ born:
   note: "Born in Mumbai on 20 January 1964; the English and Arabic articles and Wikidata agree. No place entity for Mumbai exists in the museum, so no born_in edge is written. His father, the politician and scholar Rafiq Zakaria, has no museum record, so no child_of edge is written. The Hijri year 1383 is the tabular conversion of the built date, marked derived."
   sources: [source/wikipedia-fareed-zakaria-en, source/wikipedia-fareed-zakaria-ar, source/wikidata-fareed-zakaria]
 
-relations: []
+relations:
+  - { type: born_in, target: place/mumbai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fareed-zakaria] }
 
 faith:
   - value: unknown

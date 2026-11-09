@@ -38,6 +38,8 @@ faith:
     note: "His school is not recorded: the lane's bar of two independent texts naming a school personally is not met, and the readings are preserved here. The English infobox carries denomination Sunni and jurisprudence Hanafi and lists him as a disciple of Abdul Qadir Raipuri and Husain Ahmad Madani, but infobox fields never count as text attestations. The Arabic article's lead calls him a Sunni scholar, but the Arabic article is a translation of the English, rendering the same material, and is the same text family. The Urdu text, independently written, names no school and states no bay'ah. His Deoband teaching posts and council seat, his founding membership of Jamaat-e-Islami (resigned 1942) and his Tablighi Jamaat affiliation are movement and office facts, not attestations of his own madhhab or tariqa. The Sunni, Hanafi and discipleship readings each stand one independent text short."
     sources: [source/wikipedia-manzoor-nomani-en, source/wikipedia-manzoor-nomani-ar, source/wikipedia-manzoor-nomani-ur]
 relations:
+  - { type: born_in, target: place/sambhal, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-manzoor-nomani] }
+  - { type: died_in, target: place/lucknow, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-manzoor-nomani] }
   - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-manzoor-nomani-en] }
 external_ids: { wikidata: "Q6753547" }
 sources: [source/wikipedia-manzoor-nomani-en, source/wikipedia-manzoor-nomani-ur, source/wikipedia-manzoor-nomani-ar, source/wikidata-manzoor-nomani]

@@ -13,6 +13,8 @@ summary:
 roles: [teacher, writer]
 wings: [people, living]
 regions: [egypt-nile]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mental-health-hub-karim-ismail] }
 faith:
   - value: unknown
     basis: unknown

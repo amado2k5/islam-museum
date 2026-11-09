@@ -1,4 +1,5 @@
 id: place/malatya
+aliases: [place/malatya-2]
 class: place
 kind: city
 label: { ar: "ملطية", en: "Malatya (Melitene)" }
@@ -8,6 +9,10 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+coordinates: [38.35062, 38.3094]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q165995; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q165995" }
 relations:
   - { type: part_of, target: place/jazira, sources: [source/futuh-buldan-maarif-1407] }
   - { type: site_of, target: event/fall-of-malatya, sources: [source/futuh-buldan-maarif-1407] }
@@ -18,5 +23,5 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
   extra_runs: ["farghani-389-577 (claude-haiku-5-5, Claude Code)"]
-sources: [source/futuh-buldan-maarif-1407, source/farghani-elements-astronomy]
+sources: [source/futuh-buldan-maarif-1407, source/farghani-elements-astronomy, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

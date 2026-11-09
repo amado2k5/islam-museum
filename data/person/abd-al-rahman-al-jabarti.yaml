@@ -16,6 +16,7 @@ themes: [history-writing-and-social-thought]
 periods: [period/colonial-era]
 regions: [egypt-nile]
 relations:
+  - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/mawsuat-a3lam-ulama-adaba, source/ajaib-al-athar-moreh-2013-v1, source/ajaib-al-athar-moreh-2013-v4], confidence: low }
   - { type: authored, target: work/ajaib-al-athar, sources: [source/ajaib-al-athar-moreh-2013-v1] }
   - { type: child_of, target: person/hassan-al-jabarti, sources: [source/ajaib-al-athar-moreh-2013-v1] }
   - { type: student_of, target: person/murtada-al-zabidi, sources: [source/ajaib-al-athar-moreh-2013-v1] }

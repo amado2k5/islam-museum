@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born 15 October 1988 in Gelsenkirchen, West Germany, as given by the English Wikipedia article's infobox and early-life section, which records that he is the son of Turkish immigrants and that his grandfather moved as a Gastarbeiter from Zonguldak, Turkey. No place entity for Gelsenkirchen exists in data/place/, so no born_in relation is written. The Hijri year (1409) is derived by tabular conversion."
   sources: [source/wikipedia-mesut-ozil-en]
+relations:
+  - { type: born_in, target: place/germany, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-mesut-ozil-en] }
 faith:
   - value: unknown
     basis: unknown

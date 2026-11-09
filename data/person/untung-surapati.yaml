@@ -52,6 +52,9 @@ faith:
 
 external_ids: { wikidata: "Q2915833" }
 
+relations:
+  - { type: born_in, target: place/bali-island, sources: [source/wikidata-untung-surapati], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4648)" }
+  - { type: lived_in, target: place/netherlands, sources: [source/wikidata-untung-surapati], confidence: low, note: "Wikidata P937 work location (Wikidata Q55)" }
 sources:
   - source/wikipedia-untung-surapati-en
   - source/wikipedia-untung-surapati-id

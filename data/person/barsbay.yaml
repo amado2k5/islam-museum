@@ -17,4 +17,5 @@ provenance:
 sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/daw-lami-jil-1992, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
+  - { type: lived_in, target: place/malatya, confidence: low, note: "Associated with ملطية per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: built, target: building/khanqah-mausoleum-of-sultan-barsbay, sources: [source/yeomans-islamic-cairo-2006] }

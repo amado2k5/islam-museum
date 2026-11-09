@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 sources: [source/al-aalam, source/taqrib-al-tahdhib]
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Kufan qadi and traditionist (al-Taqrib; regions: levant-iraq).", sources: [source/al-aalam, source/taqrib-al-tahdhib] }
 external_ids:
   wikidata: Q31305124
 provenance:

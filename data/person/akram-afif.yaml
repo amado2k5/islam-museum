@@ -27,3 +27,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-54
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: born_in, target: place/doha, note: "From text: born in Doha", sources: [source/wikipedia-akram-afif-en, source/wikidata-akram-afif] }

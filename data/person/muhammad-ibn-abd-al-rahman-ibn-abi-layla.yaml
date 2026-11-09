@@ -15,6 +15,9 @@ died: { hijri: "0148", edtf: "0765~", calendar: julian, precision: year, status:
 relations:
   - { type: student_of, target: person/al-shaabi, role: "تفقه بالشعبي (PDF ص45)", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: student_of, target: person/al-hakam-ibn-utayba, role: "تفقه بالحكم بن عتيبة (PDF ص45)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
+  - { type: died_in, target: place/dujail, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q988430)" }
 external_ids: { wikidata: "Q28715060" }
 sensitivity: contested
 sources: [source/tabaqat-fuqaha-abbas-1981, source/kitab-al-umm-wafa-v8, source/mizan-itidal-bijawi-v3]

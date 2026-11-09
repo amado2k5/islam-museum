@@ -1,0 +1,21 @@
+id: place/assad-mausoleum
+class: place
+kind: site
+label: { ar: "ضريح حافظ الأسد", en: "Assad Mausoleum" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Site (Wikidata Q131404909)."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [35.459805555555555, 36.06752777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q131404909" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q131404909 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -33,6 +33,8 @@ died:
   note: "Died at Neuilly-sur-Seine, France — the English article says of influenza at the American Hospital of Paris — four years after his deposition, and was buried, as his will directed, in the family crypt at Karbala. The Hijri year 1348 is the derived conversion of 1930."
   sources: [source/wikipedia-ahmad-shah-qajar-en, source/wikidata-ahmad-shah-qajar]
 relations:
+  - { type: died_in, target: place/france, note: "From text: died in France", sources: [source/wikipedia-ahmad-shah-qajar-en, source/wikidata-ahmad-shah-qajar] }
+  - { type: ruler_of, target: place/iran, note: "From text: shah of Qajar Iran", sources: [source/wikipedia-ahmad-shah-qajar-en, source/wikidata-ahmad-shah-qajar, source/iranica-ahmad-shah-qajar] }
   - { type: child_of, target: person/mohammad-ali-shah-qajar, sources: [source/wikipedia-ahmad-shah-qajar-en, source/wikidata-ahmad-shah-qajar, source/iranica-ahmad-shah-qajar] }
   - { type: successor_of, target: person/mohammad-ali-shah-qajar, sources: [source/wikipedia-ahmad-shah-qajar-en, source/iranica-ahmad-shah-qajar] }
   - { type: born_in, target: place/tabriz, sources: [source/wikipedia-ahmad-shah-qajar-en] }

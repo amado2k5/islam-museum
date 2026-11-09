@@ -42,6 +42,8 @@ faith:
     sources: [source/wikipedia-uzun-haji-en, source/wikipedia-uzun-haji-ru, source/wikidata-uzun-haji]
 external_ids:
   wikidata: Q4469911
+relations:
+  - { type: died_in, target: place/vedeno, sources: [source/wikidata-uzun-haji], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2312752)" }
 sources:
   - source/wikipedia-uzun-haji-en
   - source/wikipedia-uzun-haji-ru

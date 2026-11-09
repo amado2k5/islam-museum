@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 relations:
+  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/abd-al-malik-ibn-marwan, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/banu-umayya, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/siege-of-constantinople-717, role: commander, sources: [source/salabi-umayyad-state-2020] }

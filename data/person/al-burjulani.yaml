@@ -15,3 +15,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch17
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Author of the zuhd books listed by Ibn al-Nadim; the ascetic-literature milieu inferred as Baghdad.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

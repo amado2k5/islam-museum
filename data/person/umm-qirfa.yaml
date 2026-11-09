@@ -14,6 +14,7 @@ regions: [arabia]
 relations:
   - { type: member_of, target: group/banu-fazara, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "أُسرت وقُتلت", sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/wadi-al-qura, sources: [source/wikidata], confidence: low, note: "أُسرت في غزوة زيد بن حارثة الثانية لفزارة بوادي القرى فأمر زيد قيس بن المسحّر بقتلها فقتلها قتلاً عنيفاً، وأُس" }
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 265-266"

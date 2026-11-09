@@ -23,6 +23,8 @@ born:
   derived: true
   note: "The English article, the Arabic article and Wikidata give his birth on 20 December 1956 at Akjoujt in French Mauritania; the Arabic article also gives his fuller name at birth, Mohamed Ould Abdel Aziz Ould Eleya. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-mohamed-ould-abdel-aziz-en, source/wikipedia-mohamed-ould-abdel-aziz-ar, source/wikidata-mohamed-ould-abdel-aziz]
+relations:
+  - { type: born_in, target: place/akjoujt, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-ould-abdel-aziz] }
 faith:
   - value: unknown
     basis: unknown

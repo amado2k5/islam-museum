@@ -45,3 +45,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-89
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/india, note: "Only the record-level region (south-asia) is attested; broad-region edge flagged for review.", sources: [source/wikipedia-ahmad-yar-khan-daultana-en, source/wikipedia-ahmad-yar-khan-daultana-ur, source/wikidata-ahmad-yar-khan-daultana], confidence: low }

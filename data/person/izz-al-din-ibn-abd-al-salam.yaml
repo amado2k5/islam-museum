@@ -13,6 +13,9 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-46
 relations:
+  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/city-of-the-dead, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/al-imam-fi-adilat-al-ahkam, sources: [source/kashf-zunun-furqan] }
   - { type: participated_in, target: event/shaqif-handed-to-franks-638, role: "المعترض المسجون المعزول من الخطابة", sources: [source/shadharat-dhahab] }
 external_ids: { wikidata: "Q12190169" }

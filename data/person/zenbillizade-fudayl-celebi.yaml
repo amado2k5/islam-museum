@@ -12,6 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/ottoman-empire, confidence: low, note: "Ottoman-era figure of the Anatolia-Balkans world (regions: anatolia-balkans); no specific city attested in consulted sources.", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q135518750
 provenance:

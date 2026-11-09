@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 died: { edtf: "1069", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/marw-al-rudh, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q11935738)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q107087623

@@ -29,6 +29,10 @@ themes:
 - islam-and-the-modern-state
 regions:
 - south-asia
+relations:
+  - { type: born_in, target: place/sialkot, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q643883)" }
+  - { type: died_in, target: place/lahore, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q11739)" }
+  - { type: buried_in, target: place/lahore-fort, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q613720)" }
 sources:
 - source/wikidata
 external_ids:

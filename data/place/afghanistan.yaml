@@ -1,15 +1,34 @@
 id: place/afghanistan
 class: place
 kind: region
-label: { ar: "أفغانستان", en: "Afghanistan" }
+label:
+  ar: أفغانستان
+  en: Afghanistan
 summary:
-  ar: "إقليم في آسيا الوسطى، فتحه المسلمون في القرن الأول للهجرة، ومقاومة كابل الإسلامَ زمنًا أطول من سائر المشرق، ثم حكمه الغزنويون والغوريون والكرت والتيموريون، ومن أبرز مدنه غزنة وكابل وهرات {cite:encyclopaedia-of-islam-2 vol. 1 p. 248}."
-  en: "A region of Central Asia that the Muslims conquered in the first centuries AH. Kabul resisted Islamization longer than the other eastern provinces. The Ghaznawids, Ghurids, Karts and Timurids ruled it; Ghazna, Kabul and Harat were its chief towns {cite:encyclopaedia-of-islam-2 vol. 1 p. 248}."
-wings: [place]
-regions: [persia-central-asia]
-sources: [source/encyclopaedia-of-islam-2]
+  ar: إقليم في آسيا الوسطى، فتحه المسلمون في القرن الأول للهجرة، ومقاومة كابل الإسلامَ زمنًا أطول من سائر المشرق، ثم حكمه الغزنويون والغوريون والكرت والتيموريون، ومن أبرز مدنه غزنة وكابل وهرات {cite:encyclopaedia-of-islam-2 vol. 1 p. 248}.
+  en: A region of Central Asia that the Muslims conquered in the first centuries AH. Kabul resisted Islamization longer than the other eastern provinces. The Ghaznawids, Ghurids, Karts and Timurids ruled it; Ghazna, Kabul and Harat were its chief towns {cite:encyclopaedia-of-islam-2 vol. 1 p. 248}.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 33
+- 66
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata Q889; approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q889
+sources:
+- source/encyclopaedia-of-islam-2
+- source/geonames-gazetteer
+- source/wikidata
+status:
+  review: draft
+  completeness: 2
 provenance:
   layer: own-research
-  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 248-249 (EI2 enrichment, batch ei2-b003 part 3bd: pieces 1-8 (the whole AFGHANISTAN article, pp. 227-235; the bibliography is not reproduced))"
-  generated_by: "Claude Code (claude-haiku-5-5)"
-status: { review: published, completeness: 2 }
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from: []
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: 'Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 248-249 (EI2 enrichment, batch ei2-b003 part 3bd: pieces 1-8 (the whole AFGHANISTAN article, pp. 227-235; the bibliography is not reproduced))'

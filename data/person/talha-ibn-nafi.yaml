@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
+relations:
+  - { type: lived_in, target: place/wasit, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q1462261)" }
 sources: [source/al-aalam, source/taqrib-al-tahdhib]
 external_ids:
   wikidata: Q12221841

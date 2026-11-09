@@ -7,6 +7,8 @@ summary:
 gender: male
 died: { hijri: "0103", edtf: "0721~", calendar: julian, precision: year, status: debated, derived: true, note: "الشيرازي: مات سنة ثلاث ومائة، وقيل سنة ثلاث وتسعين (PDF ص47). «وقيل» علامة شك.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 wings: [people]
+relations:
+  - { type: died_in, target: place/oman, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 191"

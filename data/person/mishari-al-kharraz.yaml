@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Year and country only, from the Arabic Wikipedia article's infobox and lead; the Hijri year is derived from the Gregorian year."
   sources: [source/wikipedia-mishari-al-kharraz-ar, source/wikidata-mishari-al-kharraz]
+relations:
+  - { type: lived_in, target: place/kuwait, confidence: low, note: "Associated with الكويت per the record's own summary text; relation type pending review.", sources: [source/wikipedia-mishari-al-kharraz-ar] }
 faith:
   - value: unknown
     basis: unknown

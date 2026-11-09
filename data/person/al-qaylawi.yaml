@@ -24,3 +24,6 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: traveled_to, target: place/cairo, note: "From text: رحل إلى القاهرة فأخذ الحديث عن الولي ا", sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/cairo, note: "From text: settled at Cairo", sources: [source/shadharat-dhahab] }

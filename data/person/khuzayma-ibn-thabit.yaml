@@ -7,6 +7,7 @@ summary:
 periods: [period/rashidun]
 wings: [people]
 relations:
+  - { type: died_in, target: place/siffin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/banu-khatma, note: "من أوائل من أسلم من بني خطمة عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
 sources: [source/tarikh-khulafa-minhaj-1434, source/ibn-hisham-saqqa, source/ibn-hajar-isaba, source/assabile-abu-ishaq-alheweny]
 status: { review: draft, completeness: 3 }

@@ -20,3 +20,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 466-467, entry 'AMIR KHAN' (unsigned; the AMIR KHUSRAW entry printed later in the same article is logged, not written) (EI2 entry, batch ei2-b010 part 3ek)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/india, note: "Only the record-level region (south-asia) is attested; broad-region edge flagged for review.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

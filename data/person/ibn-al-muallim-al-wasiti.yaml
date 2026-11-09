@@ -8,6 +8,8 @@ gender: male
 roles: [poet]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/wasit, confidence: low, note: "Associated with واسط per the record's own text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة ابن المعلم الواسطي)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

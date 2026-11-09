@@ -19,6 +19,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch120
+relations:
+  - { type: died_in, target: place/shiraz, sources: [source/wikidata], confidence: low, note: "died: { hijri: '0112', edtf: '0730~', calendar: julian, precision: year, status: tradition, derived: true, not" }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 status:
   review: published

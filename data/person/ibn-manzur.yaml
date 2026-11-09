@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb, egypt-nile]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/kashf-zunun-furqan] }
 sources: [source/kashf-zunun-furqan, source/al-aalam, source/durar-kamina-jil-1993]
 external_ids:
   wikidata: Q1397028

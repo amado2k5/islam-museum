@@ -18,6 +18,8 @@ relations:
   - { type: child_of, target: person/utba-ibn-rabia, note: "ابنة عتبة بن ربيعة بن عبد شمس؛ نُسبت في الترجمة {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 24}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: spouse_of, target: person/aban-ibn-said-ibn-al-as, note: "زوجها الأول أبان بن سعيد بن العاص بن أمية، قُتل عنها يوم أجنادين {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 24}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: related_to, target: person/muawiya-ibn-abi-sufyan, note: "على ما في ترجمتها: قدمت الشام وشهدت الفتح مع أخيها أبي سفيان {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 24}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+
+  - { type: lived_in, target: place/ajnadayn, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
 sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
 status: { review: draft, completeness: 2, generated_by: "Devin; A'lam al-Nisa' vol. 1 pp. 24-25 (PDF), entry أم أبان بنت عتبة" }
 provenance:

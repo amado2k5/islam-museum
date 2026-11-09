@@ -17,6 +17,8 @@ periods: [period/modern-era]
 regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: traveled_to, target: place/damascus, sources: [source/wikidata], confidence: low, note: "He grew up in Sidon, memorized the Qur'an and went to Damascus in 1832 to study.'" }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

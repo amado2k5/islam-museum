@@ -9,6 +9,8 @@ roles: [scholar]
 wings: [people]
 periods: [period/umayyad]
 regions: [andalus-europe, maghreb]
+relations:
+  - { type: lived_in, target: place/ifriqiya, confidence: low, note: "Associated with إفريقية per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

@@ -1,0 +1,38 @@
+id: place/kuwait-city
+class: place
+kind: city
+label:
+  ar: مدينة الكويت
+  en: Kuwait City
+  ur: کویت شہر
+summary:
+  ar: عاصمة الكويت وأكبر مدنها.
+  en: Capital and largest city of Kuwait.
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 29.375
+- 47.98
+coordinate_precision: locality
+coordinate_note: Wikidata Q35178 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q35178
+  geonames: '285787'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q35178 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q35178 (labels, coordinates, description)

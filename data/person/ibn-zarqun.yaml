@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/umayyad]
+relations:
+  - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with al-Andalus per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6535804

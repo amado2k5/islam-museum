@@ -15,6 +15,9 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الثاني (ترجمة سليمان بن حرب)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-19
+relations:
+  - { type: died_in, target: place/basra, sources: [source/wafayat-ayan], confidence: low, note: "died: { edtf: '0839', hijri: '0224', calendar: julian, precision: month, status: tradition, derived: true, not" }
+  - { type: traveled_to, target: place/baghdad, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'أبو أيوب سليمان بن حرب بن بجحيل الأزدي الواشجي البصري؛ من طبقة شعبة وجرير بن حازم والليث ومبارك بن فضالة " }
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 occupations:

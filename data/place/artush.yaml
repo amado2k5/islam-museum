@@ -1,0 +1,16 @@
+id: place/artush
+class: place
+kind: city
+label: { en: "Artush", ar: "آرتوكس" }
+summary:
+  en: "County-level city in China."
+  ar: "مدينة في الصين."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [39.7114, 76.1753]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q668353", geonames: "1281743" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q668353 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

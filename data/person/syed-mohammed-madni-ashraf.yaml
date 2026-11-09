@@ -12,6 +12,8 @@ wings: [people]
 regions: [south-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1938", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/ambedkar-nagar-district, sources: [source/wikidata], confidence: low, note: "Wikidata Q590078 ('Ashrafpur Kichhauchha'), located in Ambedkar Nagar district" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q67193358

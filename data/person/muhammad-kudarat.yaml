@@ -52,6 +52,8 @@ faith:
 
 external_ids: { wikidata: "Q1668453" }
 
+relations:
+  - { type: born_in, target: place/maguindanao, sources: [source/wikidata-muhammad-kudarat], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q13845)" }
 sources:
   - source/wikipedia-muhammad-kudarat-en
   - source/wikipedia-muhammad-kudarat-ar

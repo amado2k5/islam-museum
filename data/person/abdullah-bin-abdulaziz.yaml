@@ -36,6 +36,7 @@ died:
 gender: male
 roles: [ruler]
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "From text: of Saudi Arabia", sources: [source/wikipedia-abdullah-bin-abdulaziz-ar, source/wikipedia-abdullah-bin-abdulaziz-en, source/wikipedia-abdullah-bin-abdulaziz-ur, source/wikidata-abdullah-bin-abdulaziz, source/wikipedia-king-faisal-prize-en], confidence: low }
   - { type: successor_of, target: person/fahd-bin-abdulaziz, sources: [source/wikipedia-abdullah-bin-abdulaziz-en] }
   - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-abdullah-bin-abdulaziz-en, source/wikidata-abdullah-bin-abdulaziz] }
   - { type: member_of, target: group/al-saud, sources: [source/wikipedia-abdullah-bin-abdulaziz-en] }

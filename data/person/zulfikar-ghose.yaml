@@ -55,6 +55,10 @@ faith:
 
 external_ids: { wikidata: "Q3248430" }
 
+relations:
+  - { type: born_in, target: place/sialkot, sources: [source/wikidata-zulfikar-ghose], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q643883)" }
+  - { type: died_in, target: place/austin, sources: [source/wikidata-zulfikar-ghose], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q16559)" }
+  - { type: lived_in, target: place/texas, sources: [source/wikidata-zulfikar-ghose], confidence: low, note: "Wikidata P551 residence (Wikidata Q1439)" }
 sources:
   - source/wikipedia-zulfikar-ghose-en
   - source/wikipedia-zulfikar-ghose-ur

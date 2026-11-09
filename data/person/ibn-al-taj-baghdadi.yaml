@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 born: { edtf: "1391~", hijri: "0793", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد ببغداد 793 {cite:shadharat-dhahab p. 307}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1463~", hijri: "0867", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي 867 {cite:shadharat-dhahab p. 308}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 867)، قراءة آبل فيجن"

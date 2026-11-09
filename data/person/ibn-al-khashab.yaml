@@ -9,6 +9,7 @@ regions: [levant-iraq]
 roles: [scholar]
 themes: [scripture-and-its-sciences]
 relations:
+  - { type: lived_in, target: place/al-rusafa, confidence: low, note: "Associated with الرصافة per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: teacher_of, target: person/ibn-al-raffa-qari, role: "تلقن عنه القراءة", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

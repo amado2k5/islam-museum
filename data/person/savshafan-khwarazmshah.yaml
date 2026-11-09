@@ -14,6 +14,7 @@ periods: [period/umayyad, period/abbasid-early]
 floruit: { edtf: "0751", calendar: julian, precision: year, status: historical, note: "Embassy to China in 751 per Chinese sources, as reported by Ismoilov {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 35}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
 relations:
   - { type: ruler_of, target: polity/afrighid-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+  - { type: lived_in, target: place/khwarizm, sources: [source/wikidata], confidence: low, note: "Nisba خوارزمي attested in the record." }
 sources: [source/ismoilov-xorazmshohlar-tangalari-2025]
 provenance:
   layer: own-research

@@ -15,6 +15,7 @@ themes: [scripture-and-its-sciences]
 regions: [arabia, levant-iraq]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: settled in Baghdad", sources: [source/tarikh-baghdad-khatib] }
   - { type: member_of, target: group/banu-hashim, sources: [source/tarikh-baghdad-khatib] }
 provenance:
   layer: own-research

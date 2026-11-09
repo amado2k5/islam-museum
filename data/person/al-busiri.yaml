@@ -16,7 +16,8 @@ regions: [egypt-nile, maghreb]
 faith:
   - value: sunni
     basis: tradition
-relations: []
+relations:
+  - { type: born_in, target: place/dalas, note: "From text: ولد بناحية دلاص يوم الثلاثاء أول شو", sources: [source/shadharat-dhahab] }
 external_ids: { wikidata: "Q2922506" }
 sources: [source/shadharat-dhahab]
 status:

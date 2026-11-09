@@ -12,6 +12,9 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1508", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/tabriz, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q80053)" }
+  - { type: lived_in, target: place/harat, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q45313)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5945558

@@ -19,6 +19,7 @@ died:
   sources:
   - source/tarikh-ibn-khaldun-ibar
 relations:
+- { type: ruler_of, target: place/damascus, sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: ruler_of
   target: polity/burid-dynasty
   sources:

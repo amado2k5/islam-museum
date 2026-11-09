@@ -24,6 +24,8 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
 relations:
+  - { type: died_in, target: place/mutah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/jafar-ibn-abi-talib-mosque, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/mutah }
   - { type: child_of, target: person/abu-talib }

@@ -37,6 +37,8 @@ faith:
     note: "One text attests his Muslim identity personally: the Arabic article states of his Susu roots 'وهو مسلم الديانة' — he is of the Muslim religion — with a citation. The English article's text does not attest his religion: it records his education at a local Qur'anic school, which is formation, and his part in the ruling party's official pilgrimage to Mecca in 1980 as a member of a government delegation, which is practice in an official capacity; neither names a school. The English article files him under Guinean Muslims and Wikidata carries the single value Islam. One text attesting Muslim identity with no school named anywhere is the Khan configuration, so the value stays unknown with the attestation preserved here."
     sources: [source/wikipedia-lansana-conte-ar, source/wikipedia-lansana-conte-en, source/wikidata-lansana-conte]
 relations:
+  - { type: born_in, target: place/dubr-ka, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lansana-conte] }
+  - { type: died_in, target: place/conakry, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lansana-conte] }
   - { type: successor_of, target: person/ahmed-sekou-toure, sources: [source/wikipedia-lansana-conte-en] }
 external_ids: { wikidata: "Q202582" }
 sources: [source/wikipedia-lansana-conte-en, source/wikipedia-lansana-conte-ar, source/wikidata-lansana-conte]

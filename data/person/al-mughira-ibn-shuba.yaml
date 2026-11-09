@@ -29,6 +29,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition }
 relations:
+  - { type: ruler_of, target: place/al-sarir, note: "From text: ملك على سريره فلما لكزوه قال إنا لا نف", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/sahih-muslim] }
   - { type: member_of, target: group/thaqif }
   - { type: born_in, target: place/taif }
   - { type: participated_in, target: event/demolition-of-al-lat, role: "مهدّم الصنم بالكُرزُن", sources: [source/mubarakpuri-raheeq] }

@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/badr, confidence: low, note: "Associated with Badr per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-fazara, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "قُتل", sources: [source/ibn-hisham-saqqa] }
 provenance:

@@ -24,6 +24,7 @@ born:
   note: "Born at Koya (Koy Sanjaq) in the Kingdom of Iraq on 1 July 1938; the English article gives the full date, citing a Japanese Foreign Ministry statement of 25 July 2014, the Arabic article gives the town and the year, and Wikidata carries the year. Koya has no place entity, so no born_in edge is written. The Hijri year (1357) is derived by tabular conversion of the recorded date."
   sources: [source/wikipedia-fuad-masum-en, source/wikipedia-fuad-masum-ar, source/wikidata-fuad-masum]
 relations:
+  - { type: born_in, target: place/koy-sanjaq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fuad-masum] }
   - { type: successor_of, target: person/jalal-talabani, sources: [source/wikipedia-fuad-masum-en, source/wikipedia-jalal-talabani-en] }
 faith:
   - value: unknown

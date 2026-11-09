@@ -1,0 +1,36 @@
+id: place/birmingham
+class: place
+kind: city
+label:
+  ar: برمنغهام
+  en: Birmingham
+  ur: برمنگھم
+summary:
+  ar: مدينة في المملكة المتحدة.
+  en: Large city in the West Midlands region of England; classed as the 'second city' of the United Kingdom, behind London.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 52.48
+- -1.9025
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q2256
+  geonames: '2655603'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q2256 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q2256 (labels, coordinates, description)

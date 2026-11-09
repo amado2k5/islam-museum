@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/tartar-district, sources: [source/wikidata], confidence: low, note: "Wikidata Q6454056 ('Köçərli'), located in Tartar District" }
+  - { type: died_in, target: place/ko-arl-district, sources: [source/wikidata], confidence: low, note: "Wikidata Q4823461 ('Dedeköy'), located in Koçarlı district" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q136129608

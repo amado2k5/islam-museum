@@ -28,6 +28,7 @@ died:
   sources: [source/wikipedia-amangkurat-ii-en, source/wikipedia-amangkurat-ii-id, source/wikidata-amangkurat-ii]
 
 relations:
+  - { type: lived_in, target: place/netherlands, note: "From text: Dutch (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-amangkurat-ii-en, source/wikipedia-amangkurat-ii-id, source/wikidata-amangkurat-ii], confidence: low }
   - { type: child_of, target: person/amangkurat-i, sources: [source/wikipedia-amangkurat-ii-en, source/wikipedia-amangkurat-ii-id] }
   - { type: successor_of, target: person/amangkurat-i, sources: [source/wikipedia-amangkurat-ii-en, source/wikipedia-amangkurat-ii-id] }
   - { type: sibling_of, target: person/pakubuwono-i, sources: [source/wikipedia-amangkurat-ii-en, source/wikipedia-pakubuwono-i-en, source/wikipedia-pakubuwono-i-id] }

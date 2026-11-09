@@ -13,6 +13,9 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: born_in, target: place/shabestar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765501)" }
+  - { type: died_in, target: place/tabriz, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80053)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q2738287

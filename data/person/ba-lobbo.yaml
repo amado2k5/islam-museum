@@ -15,6 +15,7 @@ summary:
 roles: [ruler, general]
 wings: [people]
 relations:
+  - { type: lived_in, target: place/bandiagara, confidence: low, note: "Associated with باندياغارا per the record's own text; relation type pending review.", sources: [source/wikipedia-ba-lobbo-en] }
   - { type: related_to, target: person/seku-amadu, note: "Nephew of Seku Amadu: so the English biographical article expressly, citing Bâ and Daget, L'empire peul du Macina (1975), chapter 2, and so the French article on Seku Amadu ('Balobo, neveu de Sékou Amadou'). The English Massina Empire article's decline narrative loosely calls him Amadu III's brother; the biographical article's sourced nephew relationship is followed and the loose wording is stated here. He did NOT succeed Seku Amadu: he was passed over in 1845 and again in 1853, so no successor_of edge to Seku Amadu is written — that edge would be false.", sources: [source/wikipedia-ba-lobbo-en, source/wikipedia-seku-amadu-fr] }
   - { type: opposed, target: person/al-hajj-umar-tal, note: "After the fall of Hamdullahi in 1862 Ba Lobbo assembled a force of Fulas and Kountas and drove Umar Tall from Hamdullahi into the cliffs of Dogon country near Bandiagara in 1864, where Umar died; Umar's nephew Tidiani Tall then suppressed Ba Lobbo's resistance.", sources: [source/wikipedia-ba-lobbo-en] }
 faith:

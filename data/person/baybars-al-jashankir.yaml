@@ -16,4 +16,5 @@ provenance:
 sources: [source/tarikh-khulafa-minhaj-1434, source/durar-kamina-jil-1993, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
+  - { type: lived_in, target: place/al-karak, confidence: low, note: "Associated with الكرك per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: built, target: building/khanqah-of-baybars-al-gashankir, sources: [source/yeomans-islamic-cairo-2006] }

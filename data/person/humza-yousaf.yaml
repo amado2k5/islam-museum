@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born on 7 April 1985 in Glasgow, Scotland, per both Wikipedia articles and Wikidata. No place entity for Glasgow exists in data/place/, so no born_in relation is written. The Hijri year (1405) is derived by tabular conversion."
   sources: [source/wikipedia-humza-yousaf-en, source/wikipedia-humza-yousaf-ar, source/wikidata-humza-yousaf]
+relations:
+  - { type: born_in, target: place/glasgow, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-humza-yousaf] }
 faith:
   - value: unknown
     basis: unknown

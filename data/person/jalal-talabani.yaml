@@ -32,6 +32,8 @@ died:
   derived: true
   note: "Died at Berlin, Germany, on 3 October 2017, of a cerebral haemorrhage; the English and Arabic articles and Wikidata agree. Berlin has no place entity, so no died_in edge is written; he was buried at Dabashan by Sulaymaniyah, which likewise has no entity. The Hijri year (1439) is derived from the Gregorian date."
   sources: [source/wikipedia-jalal-talabani-en, source/wikipedia-jalal-talabani-ar, source/wikidata-jalal-talabani]
+relations:
+  - { type: born_in, target: place/iraq, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-jalal-talabani-en, source/wikipedia-jalal-talabani-ar, source/wikidata-jalal-talabani] }
 faith:
   - value: unknown
     basis: unknown

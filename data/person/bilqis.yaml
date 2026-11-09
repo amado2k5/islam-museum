@@ -11,6 +11,8 @@ wings: [people]
 themes: [prophets]
 regions: [arabia]
 periods: [period/pre-islamic-arabia]
+relations:
+  - { type: lived_in, target: place/sheba, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q159888" }
 sources: [source/muruj-al-dhahab, source/qisas-anbiya-thaalabi-edition, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan]
 provenance:

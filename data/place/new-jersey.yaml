@@ -1,0 +1,16 @@
+id: place/new-jersey
+class: place
+kind: province
+label: { en: "New Jersey", ar: "نيوجيرسي" }
+summary:
+  en: "State of the United States of America."
+  ar: "محافظة في الولايات المتحدة."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [40, -74.5]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q1408", geonames: "5101760" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q1408 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

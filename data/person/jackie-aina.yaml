@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Gregorian date and Los Angeles birthplace from English Wikipedia. Los Angeles has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1407) is derived by tabular conversion."
   sources: [source/wikipedia-jackie-aina-en]
+relations:
+  - { type: lived_in, target: place/united-states, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jackie-aina] }
 faith:
   - value: unknown
     basis: unknown

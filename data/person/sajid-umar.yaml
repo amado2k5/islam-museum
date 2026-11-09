@@ -24,6 +24,10 @@ wings:
   - living
 regions:
   - andalus-europe
+relations:
+  - { type: born_in, target: place/united-kingdom, sources: [source/sajidumar-official, source/listennotes-sajid-ahmed-umar] }
+  - { type: lived_in, target: place/zimbabwe, sources: [source/sajidumar-official, source/listennotes-sajid-ahmed-umar] }
+  - { type: lived_in, target: place/riyadh, sources: [source/sajidumar-official, source/listennotes-sajid-ahmed-umar] }
 faith:
   - value: unknown
     basis: unknown

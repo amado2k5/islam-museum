@@ -35,6 +35,7 @@ faith:
     note: "No source consulted names a school of Islam for him. A chief justiceship, a knighthood and Arain family background say nothing about a school and never count; nothing further is recorded, so the value is unknown, unflagged."
     sources: [source/wikipedia-mian-abdul-rashid-en, source/wikidata-mian-abdul-rashid]
 relations:
+  - { type: died_in, target: place/islamabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mian-abdul-rashid] }
   - { type: born_in, target: place/lahore, sources: [source/wikipedia-mian-abdul-rashid-en, source/wikidata-mian-abdul-rashid] }
 summary:
   ar: "أول رئيس لقضاء باكستان (1889-1981)، من أسرة ميان الآرائنية في باغبانبوره بلاهور؛ رئيس قضاة لاهور سنة 1946، وبصفته أقدم قاضٍ مسلم في الهند البريطانية أدّى محمد علي جناح أمامه يمين المنصب في 15 أغسطس 1947."

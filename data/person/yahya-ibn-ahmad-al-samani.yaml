@@ -12,5 +12,7 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-batch-5
+relations:
+  - { type: lived_in, target: place/bukhara, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -9,6 +9,12 @@ regions: [arabia]
 wings: [place]
 coordinates: [22.15553, 39.32015]
 coordinate_precision: locality
+provenance:
+  layer: own-research
+  source: "Recorded against source/geonames-gazetteer, source/rihla-ibn-battuta-1958; provenance block added in the person-place geo-enrichment run pending re-verification of the original research note."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
 external_ids: { geonames: "104923" }
 sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-1958]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames" }

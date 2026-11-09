@@ -10,6 +10,11 @@ gender: male
 roles: [caliph]
 traditions: [sunni]
 relations:
+- type: lived_in
+  target: place/al-andalus
+  note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence."
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: child_of
   target: person/al-mustansir-hafsi
   sources:

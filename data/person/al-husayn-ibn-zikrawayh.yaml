@@ -20,3 +20,5 @@ provenance:
   run: lib-muntazam-258-349-batch28
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: ruler_of, target: place/shama, note: "From text: صاحب الشامة", sources: [source/muntazam-ibn-al-jawzi], confidence: low }

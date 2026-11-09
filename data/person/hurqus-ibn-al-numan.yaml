@@ -18,6 +18,7 @@ periods:
 regions:
 - arabia
 relations:
+  - { type: lived_in, target: place/syria, confidence: low, note: "Associated with Syria per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
   - { type: participated_in, target: event/khalid-march-to-syria, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

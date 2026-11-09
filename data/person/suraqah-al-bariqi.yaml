@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
+relations:
+  - { type: born_in, target: place/bareq, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2884439)" }
+  - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q2303129
