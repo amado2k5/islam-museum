@@ -34,6 +34,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
 - type: lived_in
   target: place/medina

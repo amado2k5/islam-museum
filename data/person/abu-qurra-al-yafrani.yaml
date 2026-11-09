@@ -11,6 +11,8 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/umayyad]
 regions: [maghreb]
+born: { edtf: "768~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
+died: { edtf: "780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
 relations:
 - type: lived_in
   target: place/maghreb

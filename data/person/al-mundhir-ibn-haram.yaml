@@ -11,6 +11,8 @@ roles: [scholar]
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/kamil-ibn-al-athir], confidence: low }
   - { type: related_to, target: person/hassan-ibn-thabit, note: "جدّه", sources: [source/kamil-ibn-al-athir] }

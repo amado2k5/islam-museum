@@ -14,6 +14,8 @@ provenance:
   source: "أنساب الأشراف للبلاذري (ط مؤسسة الأعلمي/دار المعارف)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ansab-batch-1
+born: { edtf: "460~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+died: { edtf: "500~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
 relations:
   - { type: lived_in, target: place/hijaz, note: "Of Banu Sulaym of the Hijaz; Hashim's mother, flagged.", sources: [source/ansab-al-ashraf], confidence: low }
 sources: [source/ansab-al-ashraf]

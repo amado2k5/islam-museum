@@ -23,6 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1500~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shadharat al-Dhahab" }
+died: { edtf: "1550~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shadharat al-Dhahab" }
 relations:
   - { type: born_in, target: place/kherbet-rouha, note: "Wikidata Q6401334 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/bayrut, note: "Wikidata Q3820 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

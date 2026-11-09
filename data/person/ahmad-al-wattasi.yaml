@@ -11,6 +11,7 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
+died: { edtf: "1549", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Jadhwat al-Iqtibas" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: ruled_over, target: polity/wattasid-dynasty, sources: [source/dawlat-uthmaniyya-salabi] }

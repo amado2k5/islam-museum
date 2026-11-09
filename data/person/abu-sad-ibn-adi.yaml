@@ -5,6 +5,8 @@ summary: { ar: "خال عبد المطلب من بني النجار؛ قدم م�
 wings: [people]
 story_roles: [{ role: ally }]
 themes: [family-marriage-kinship]
+born: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/medina, note: "Abd al-Muttalib's maternal uncle of Banu al-Najjar, a Medinan clan; he rode to Mecca with eighty men.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: medium }
   - { type: member_of, target: group/banu-al-najjar }

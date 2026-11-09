@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+born: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
+died: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: low }
   - { type: member_of, target: group/banu-makhzum, sources: [source/mubarakpuri-raheeq] }

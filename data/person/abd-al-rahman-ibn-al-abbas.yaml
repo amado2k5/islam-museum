@@ -12,5 +12,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nasab Quraysh" }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nasab Quraysh" }
 relations:
   - { type: traveled_to, target: place/herat, note: "Out with Ibn al-Ash'ath, he fled to Herat and levied kharaj there before being defeated.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }

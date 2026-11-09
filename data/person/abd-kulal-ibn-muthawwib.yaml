@@ -14,5 +14,7 @@ provenance:
   run: lib-ansab-batch-4
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "520~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shams al-Ulum" }
+died: { edtf: "570~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shams al-Ulum" }
 relations:
   - { type: traveled_to, target: place/al-yamama, note: "Himyarite Tubba who came up from Yemen to Yamama and destroyed Tasm and Jadis at Jaww.", sources: [source/ansab-al-ashraf], confidence: medium }

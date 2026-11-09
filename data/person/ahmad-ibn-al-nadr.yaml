@@ -23,6 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mujam al-Shuara" }
+died: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mujam al-Shuara" }
 relations:
   - { type: born_in, target: place/samail, note: "Wikidata Q26200709 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/samail, note: "Wikidata Q26200709 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

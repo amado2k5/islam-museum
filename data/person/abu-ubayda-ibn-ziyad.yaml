@@ -12,5 +12,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+died: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
 relations:
   - { type: lived_in, target: place/kabul, note: "From text: أهل كابل لما نكثوا ففداه طلحة", sources: [source/futuh-buldan-maarif-1407], confidence: low }

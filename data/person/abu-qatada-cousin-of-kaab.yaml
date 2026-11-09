@@ -10,6 +10,8 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/kaab-and-abu-qatada-at-the-garden-wall, role: "صاحب الحائط", sources: [source/ibn-hisham-saqqa] }

@@ -37,6 +37,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "570~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
+died: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
 relations:
 - type: lived_in
   target: place/jazirat-al-arab

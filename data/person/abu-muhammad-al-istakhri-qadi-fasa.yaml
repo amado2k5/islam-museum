@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: lived_in, target: place/fasa, note: "From text: judge of Fasa", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: student_of, target: person/abu-hamid-al-marwarudhi, role: "تفقه على القاضي أبي حامد المروروذي (PDF ص62)", sources: [source/tabaqat-fuqaha-abbas-1981] }

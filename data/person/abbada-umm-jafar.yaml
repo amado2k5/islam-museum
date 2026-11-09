@@ -17,5 +17,7 @@ status:
   review: published
   completeness: 3
 
+born: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muruj al-Dhahab" }
+died: { edtf: "803~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muruj al-Dhahab" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Mother of Ja'far al-Barmaki; the Barmakid household and its fall were centred in Baghdad.", sources: [source/muruj-al-dhahab], confidence: medium }

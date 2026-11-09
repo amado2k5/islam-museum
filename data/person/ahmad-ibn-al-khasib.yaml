@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "880~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/jurjan, note: "Place association from the person's nisba/name (الجرجاني); denotes association, not proven residence.", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: low }
   - { type: related_to, target: person/al-mutasim-abi-ishaq, sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab] }

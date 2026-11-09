@@ -15,5 +15,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch20
+born: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Milal wa-l-Nihal" }
+died: { edtf: "780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Milal wa-l-Nihal" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Crypto-Manichee theologian in Ibn al-Nadim's list; the Baghdad kalam milieu inferred.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

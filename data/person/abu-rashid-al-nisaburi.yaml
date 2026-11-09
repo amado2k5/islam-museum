@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1010~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1068~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/nishapur, note: "Place association from the person's nisba/name (النيسابوري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

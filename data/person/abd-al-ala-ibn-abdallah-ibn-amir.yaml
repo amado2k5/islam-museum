@@ -12,5 +12,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
 relations:
   - { type: lived_in, target: place/basra, note: "Grandson of Abdallah ibn Amir, Umayyad governor of Basra; the canal suit in al-Baladhuri belongs to the Basran Sawad context.", sources: [source/futuh-buldan-maarif-1407], confidence: low }

@@ -13,6 +13,8 @@ wings: [people]
 themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia, period/rashidun]
 regions: [levant-iraq]
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: member_of, target: group/banu-lakhm, sources: [source/mubarakpuri-raheeq] }
   - { type: ruler_of, target: place/al-hira, start: { edtf: "0632", calendar: julian, precision: year, status: tradition }, note: "ثمانية أشهر فقط.", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }

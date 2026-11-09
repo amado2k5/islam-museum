@@ -23,6 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
 relations:
   - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

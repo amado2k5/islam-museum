@@ -20,5 +20,7 @@ story_roles:
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 61, from helper claims file; not yet image-checked)" }
 provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 61", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
 relations:
   - { type: born_in, target: place/kufa, note: "From text: born in Kufa", sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }

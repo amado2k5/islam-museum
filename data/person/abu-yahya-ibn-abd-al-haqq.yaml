@@ -11,6 +11,7 @@ roles: [ruler]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
+died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
 relations:
 - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
 - { type: "child_of", target: "person/abd-al-haqq-ibn-mahyu", sources: [source/tarikh-ibn-khaldun-ibar] }

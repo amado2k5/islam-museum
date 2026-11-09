@@ -11,6 +11,7 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
+died: { edtf: "1190~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
 relations:
 - type: lived_in
   target: place/alexandria
