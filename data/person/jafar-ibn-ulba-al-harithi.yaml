@@ -16,6 +16,7 @@ themes: [literature]
 regions: [arabia]
 story_roles:
   - { role: poet, status: tradition, sources: [source/hamasa-abu-tammam-ed-1916] }
+died: { edtf: "760~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hamasah / Abu Tammam" }
 relations:
   - { type: lived_in, target: place/fars, confidence: low, note: "Associated with فارس per the record's own summary text; relation type pending review.", sources: [source/hamasa-abu-tammam-ed-1916] }
 sources: [source/hamasa-abu-tammam-ed-1916]

@@ -12,6 +12,7 @@ wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/umayyad]
 themes: [sects-and-schools]
+died: { edtf: "746", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
 relations:
   - { type: born_in, target: place/samarqand, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -19,6 +19,7 @@ periods:
 regions:
 - arabia
 - levant-iraq
+died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba / Ibn Hajar" }
 relations:
   - { type: lived_in, target: place/amwas, confidence: low, note: "Associated with عمواس per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
   - { type: participated_in, target: event/plague-of-amwas, sources: [source/futuh-buldan-maarif-1407] }

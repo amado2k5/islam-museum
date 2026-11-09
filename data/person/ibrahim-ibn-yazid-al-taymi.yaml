@@ -15,6 +15,7 @@ wings:
 - people
 regions: [levant-iraq]
 periods: [period/umayyad]
+died: { edtf: "710", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with Kufa per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:

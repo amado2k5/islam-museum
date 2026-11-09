@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
+died: { edtf: "844", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Hanabila / Ibn Abi Ya'la" }
 relations:
   - { type: died_in, target: place/gorgan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

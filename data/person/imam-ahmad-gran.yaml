@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1506", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+died: { edtf: "1543", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
 relations:
   - { type: lived_in, target: place/abyssinia, confidence: low, note: "Associated with الحبشة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:

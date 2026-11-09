@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/abbasid-early]
+born: { edtf: "829", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik / Qadi Iyad" }
+died: { edtf: "908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik / Qadi Iyad" }
 relations:
   - { type: lived_in, target: place/maskin, confidence: low, note: "Associated with Maskin per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

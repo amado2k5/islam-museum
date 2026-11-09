@@ -7,6 +7,7 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+died: { edtf: "1059", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa / al-Suyuti" }
 relations:
   - { type: lived_in, target: place/cairo, confidence: low, note: "Mamluk amir (na'ib) of Cairo per the record's own summary.", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:

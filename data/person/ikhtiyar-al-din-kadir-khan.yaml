@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1340~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Firuz Shahi / Barani" }
+died: { edtf: "1345~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Firuz Shahi / Barani" }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

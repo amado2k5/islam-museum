@@ -8,6 +8,8 @@ gender: male
 roles: [physician]
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "930~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Uyun al-Anba fi Tabaqat al-Atibba / Ibn Abi Usaybi'a" }
+died: { edtf: "975~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Uyun al-Anba fi Tabaqat al-Atibba / Ibn Abi Usaybi'a" }
 relations:
   - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:

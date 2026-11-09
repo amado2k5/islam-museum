@@ -9,6 +9,7 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [persia-central-asia]
+died: { edtf: "758~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: lived_in, target: place/hamadhan, confidence: low, note: "Associated with همذان per the record's own summary text; relation type pending review.", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: participated_in, target: event/sunbadh-revolt-137, role: "قائد الجيش العباسي", sources: [source/tarikh-dawla-abbasiyya-taqqush] }

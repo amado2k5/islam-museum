@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq]
+born: { edtf: "745~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani" }
+died: { edtf: "765~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani" }
 relations:
   - { type: lived_in, target: place/al-falalij, confidence: low, note: "Associated with الفلاليج per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

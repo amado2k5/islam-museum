@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia, south-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "998", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: born_in, target: place/ghazna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/maymana, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

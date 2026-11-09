@@ -18,6 +18,7 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [arabia]
 periods: [period/umayyad, period/abbasid-early]
+died: { edtf: "776", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib / Ibn Hajar" }
 relations:
   - { type: student_of, target: person/tawus-ibn-kaysan, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: student_of, target: person/salim-ibn-abd-allah-ibn-umar, sources: [source/mizan-itidal-bijawi-v3] }

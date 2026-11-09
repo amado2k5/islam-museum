@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [china-east-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1828", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+died: { edtf: "1877", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
 relations:
   - { type: born_in, target: place/aksu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

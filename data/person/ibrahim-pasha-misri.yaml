@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [egypt-nile, levant-iraq, anatolia-balkans]
+born: { edtf: "1789", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+died: { edtf: "1848", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
 relations:
   - { type: lived_in, target: place/alexandria, confidence: low, note: "Associated with الإسكندرية per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: child_of, target: person/muhammad-ali-pasha, sources: [source/dawlat-uthmaniyya-salabi] }

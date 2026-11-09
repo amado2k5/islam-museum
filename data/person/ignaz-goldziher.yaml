@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [global]
 periods: [period/modern-era]
+born: { edtf: "1850", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1921", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Associated with الروم per the record's own text; relation type pending review.", sources: [source/al-istishraq-wal-khalfiyya-azhar] }
 sources: [source/al-istishraq-wal-khalfiyya-azhar]

@@ -6,6 +6,8 @@ summary:
   en: "In al-Baladhuri: a Persian commander who came out in a great host to Ulays — al-Muthanna ibn Haritha met him at Nahr al-Damm — then massed at Tustar where Khalid sent al-Muthanna and Hanzala the Scribe against him, and he fled at their approach."
 wings: [people]
 gender: male
+born: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab Futuh al-Buldan / al-Baladhuri" }
+died: { edtf: "637~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab Futuh al-Buldan / al-Baladhuri" }
 relations:
   - { type: lived_in, target: place/tustar, confidence: low, note: "Associated with Tustar per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/al-falalij-and-tustar-jaban, role: "الهارب", sources: [source/futuh-buldan-maarif-1407] }

@@ -12,6 +12,8 @@ traditions: [sunni-shafii]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
+born: { edtf: "1361", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami' / al-Sakhawi" }
+died: { edtf: "1421", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami' / al-Sakhawi" }
 relations:
   - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 provenance:

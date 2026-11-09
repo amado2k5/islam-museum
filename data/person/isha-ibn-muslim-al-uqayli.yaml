@@ -6,6 +6,7 @@ summary:
   en: "Ishaq ibn Muslim al-Uqayli; he and his brothers rode in Sa'id ibn Amr al-Harashi's vanguard to Armenia, and Marwan ibn Muhammad gave him Armenia, where he fought Musafir al-Qassab without cease while Musafir held Qal'at al-Kilab in Sisajan."
 wings: [people]
 periods: [period/umayyad]
+died: { edtf: "760~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: lived_in, target: place/armenia, confidence: low, note: "Associated with أرمينية per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/maslama-khazar-campaign, role: "في المقدمة", sources: [source/futuh-buldan-maarif-1407] }
