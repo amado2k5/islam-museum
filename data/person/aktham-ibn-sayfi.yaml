@@ -17,6 +17,7 @@ wings: [people]
 themes: [literature]
 story_roles:
   - { role: poet, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol3-scan] }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/najd, note: "Tamim sage of the Najd/Yamama milieu per the pre-Islamic tradition; flagged for review.", sources: [source/encyclopaedia-of-islam-2], confidence: low }
 sources: [source/nihayat-al-arab-nuwayri-vol3-scan, source/encyclopaedia-of-islam-2]

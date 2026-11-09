@@ -19,6 +19,8 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition }
+born: { edtf: "611", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/arafat, note: "From text: from Arafat", sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari], confidence: low }
   - { type: child_of, target: person/abbas-ibn-abd-al-muttalib }

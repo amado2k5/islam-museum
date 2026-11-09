@@ -16,6 +16,7 @@ story_roles:
   - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+died: { edtf: "675", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (al-Tabaqat)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/encyclopaedia-of-islam-2], confidence: low }
   - { type: member_of, target: group/quraysh }

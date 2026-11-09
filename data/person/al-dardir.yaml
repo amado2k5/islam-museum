@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1715", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib)" }
+died: { edtf: "1786", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib)" }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/al-aalam], confidence: low }

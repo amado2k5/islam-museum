@@ -15,5 +15,6 @@ provenance:
   run: lib-geo-umari-5
 sources: [source/umari-masalik-1924]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani" }
 relations:
   - { type: lived_in, target: place/najran, note: "From text: من أهل نجران", sources: [source/umari-masalik-1924], confidence: low }

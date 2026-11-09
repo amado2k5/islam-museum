@@ -7,6 +7,7 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+died: { edtf: "846", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: died_in, target: place/abbasid-samarra, note: "Wikidata Q20717633 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

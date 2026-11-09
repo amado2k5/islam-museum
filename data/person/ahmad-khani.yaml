@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1650", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "1707", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

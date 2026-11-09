@@ -19,5 +19,7 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 236-237 (EI2 enrichment, batch ei2-b003 part 3bb)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+born: { edtf: "1066", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
+died: { edtf: "1121", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
 relations:
   - { type: lived_in, target: place/palestine, note: "From text: of Palestine", sources: [source/encyclopaedia-of-islam-2], confidence: low }

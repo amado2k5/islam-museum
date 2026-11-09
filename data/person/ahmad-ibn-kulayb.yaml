@@ -19,5 +19,7 @@ provenance:
   run: prose-fill-persons-batch47
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: published, completeness: 3 }
+born: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani (Mu'jam al-Shu'ara)" }
+died: { edtf: "950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani (Mu'jam al-Shu'ara)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (بغدادي); denotes association, not proven residence.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }

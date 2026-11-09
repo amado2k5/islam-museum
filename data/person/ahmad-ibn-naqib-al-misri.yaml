@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 1
+born: { edtf: "1302", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar)" }
+died: { edtf: "1367", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (misri); denotes association, not proven residence.", sources: [source/al-aalam, source/durar-kamina-jil-1993], confidence: low }

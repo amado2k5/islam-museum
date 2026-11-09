@@ -16,6 +16,8 @@ wings: [people, today]
 themes: [trade-and-finance, education]
 regions: [egypt-nile]
 periods: [period/contemporary-era]
+born: { edtf: "1915", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Egyptian Biographies" }
+died: { edtf: "2000", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Egyptian Biographies" }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/iqtisad-fikr-islami-shalabi-1993], confidence: low }
   - { type: authored, target: work/al-iqtisad-fi-al-fikr-al-islami, sources: [source/iqtisad-fikr-islami-shalabi-1993] }

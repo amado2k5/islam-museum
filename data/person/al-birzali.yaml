@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 1
+born: { edtf: "1267", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
+died: { edtf: "1339", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
 relations:
   - { type: lived_in, target: place/damascus, note: "From text: محدث دمشق القرن الرابع عشر صاح", sources: [source/al-aalam, source/durar-kamina-jil-1993], confidence: low }

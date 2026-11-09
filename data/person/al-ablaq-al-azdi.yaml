@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch34
+born: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani" }
 relations:
   - { type: lived_in, target: place/arabian-peninsula, note: "One of the Arabs' diviners per al-Masudi; no specific locality attested.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/muruj-al-dhahab]

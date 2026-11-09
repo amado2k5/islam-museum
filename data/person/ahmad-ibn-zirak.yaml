@@ -14,5 +14,7 @@ provenance:
   run: lib-kamil-batch-9
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1120~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil)" }
+died: { edtf: "1160~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil)" }
 relations:
   - { type: ruler_of, target: place/baghdad, note: "From text: صاحب شرطة بغداد", sources: [source/kamil-ibn-al-athir], confidence: low }

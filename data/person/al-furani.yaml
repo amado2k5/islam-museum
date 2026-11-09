@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "998", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
+died: { edtf: "1069", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/merv, note: "From text: of Merv", sources: [source/al-aalam], confidence: low }

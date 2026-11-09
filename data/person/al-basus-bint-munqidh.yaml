@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "500~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd Rabbih (al-Iqd)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/kamil-ibn-al-athir], confidence: low }
   - { type: member_of, target: group/banu-tamim, sources: [source/kamil-ibn-al-athir] }

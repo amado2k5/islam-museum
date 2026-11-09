@@ -16,5 +16,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/sijistan, note: "From text: of Sijistan", sources: [source/muruj-al-dhahab], confidence: low }

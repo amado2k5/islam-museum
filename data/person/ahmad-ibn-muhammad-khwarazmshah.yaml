@@ -12,6 +12,7 @@ gender: male
 roles: [ruler]
 periods: [period/abbasid-fragmentation]
 floruit: { edtf: "0959/0977", calendar: julian, precision: year, status: historical, derived: true, note: "Dated coins from 348 to 367 AH {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 48} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 49}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+died: { edtf: "995", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bosworth (Ghaznavids / EI2)" }
 relations:
   - { type: lived_in, target: place/iraq, note: "From text: of Iraq", sources: [source/ismoilov-xorazmshohlar-tangalari-2025], confidence: low }
   - { type: ruler_of, target: polity/afrighid-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }

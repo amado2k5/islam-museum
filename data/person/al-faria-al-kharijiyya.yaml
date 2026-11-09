@@ -18,5 +18,7 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-duha-islam-batch-11
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "695~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mubarrad (al-Kamil)" }
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mubarrad (al-Kamil)" }
 relations:
   - { type: lived_in, target: place/morocco, note: "From text: كاتب الإباضية في المغرب وعُمان", sources: [source/duha-islam], confidence: low }

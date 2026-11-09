@@ -37,6 +37,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba]
+died: { edtf: "635", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (al-Tabaqat)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: settled in Mecca", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba] }
   - { type: ruler_of, target: place/bahrayn, note: "From text: governor of Bahrain", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba] }

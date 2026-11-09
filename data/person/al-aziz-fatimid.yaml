@@ -15,5 +15,7 @@ provenance:
 external_ids: { wikidata: "Q286542" }
 sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "955", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Aziz)" }
+died: { edtf: "996", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Aziz)" }
 relations:
   - { type: lived_in, target: place/mosul, note: "From text: preached at Mosul", sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434] }

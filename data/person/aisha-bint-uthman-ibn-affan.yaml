@@ -13,6 +13,8 @@ wings: [people]
 themes: [women, politics-governance-and-authority, factions-splits-schisms]
 periods: [period/rashidun]
 regions: [arabia, levant-iraq]
+born: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (al-Tabaqat)" }
+died: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (al-Tabaqat)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3], confidence: low }
   - { type: child_of, target: person/uthman-ibn-affan, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }

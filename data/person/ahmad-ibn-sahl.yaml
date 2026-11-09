@@ -14,5 +14,7 @@ provenance:
   run: lib-kamil-batch-2
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "866", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil)" }
+died: { edtf: "919", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil)" }
 relations:
   - { type: traveled_to, target: place/sijistan, note: "Among the Samanid commanders sent in the army for the conquest of Sistan in 298.", sources: [source/kamil-ibn-al-athir], confidence: medium }

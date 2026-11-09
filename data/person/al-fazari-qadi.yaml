@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "1231", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
+died: { edtf: "1329", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
 relations:
   - { type: lived_in, target: place/damascus, note: "From text: of Damascus", sources: [source/al-aalam], confidence: low }

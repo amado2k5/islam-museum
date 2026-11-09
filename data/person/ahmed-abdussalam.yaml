@@ -23,5 +23,6 @@ faith:
 sources: [source/assabile-ahmed-abdussalam]
 provenance: { layer: own-research, source: "Assabile, ossali-alayh ep01-ep22 (speaker page https://www.assabile.com/ahmed-abdussalam read 1 Nov 2026; video episodes, transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader on 2 Nov 2026); Arabic and English Wikipedia and Wikidata searched 2 Nov 2026: the Arabic article «أحمد عبد السلام» (revision 76179748, Wikidata Q12178972) is about a different person, a Tunisian historian (1922-2007), and Wikidata Q2827476 is a Moroccan poet; neither was used", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: assabile-egypt-abdussalam-1 }
 status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-abdussalam-1" }
+born: { edtf: "1950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Academic Biographies (Tunisia)" }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/assabile-ahmed-abdussalam], confidence: low }

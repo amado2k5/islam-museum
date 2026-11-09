@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist)" }
+died: { edtf: "840~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Calligraphy teacher of al-Muqtadir's sons and of Ibn Muqla; the Abbasid capital was Baghdad.", sources: [source/fihrist-ibn-al-nadim], confidence: medium }

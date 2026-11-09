@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1710", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wilkinson (Imamate of Oman)" }
+died: { edtf: "1783", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wilkinson (Imamate of Oman)" }
 relations:
   - { type: lived_in, target: place/oman, note: "From text: imam of Oman", sources: [source/bosworth-new-islamic-dynasties-1996] }

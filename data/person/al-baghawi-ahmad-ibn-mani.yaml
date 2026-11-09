@@ -28,6 +28,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch50
+born: { edtf: "775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "858", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: born_in, target: place/marw-al-rudh, note: "Wikidata Q11935738 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

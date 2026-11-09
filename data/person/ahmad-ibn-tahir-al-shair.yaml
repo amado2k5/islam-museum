@@ -16,5 +16,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani" }
 relations:
   - { type: lived_in, target: place/kufa, note: "Poet of the great elegy for Yahya ibn Umar, killed at Kufa in 250; the Tahirid-Alid episode context is Kufa. Inferred.", sources: [source/muruj-al-dhahab], confidence: low }

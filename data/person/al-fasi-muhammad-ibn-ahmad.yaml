@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "1373", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw')" }
+died: { edtf: "1429", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw')" }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: qadi of Mecca", sources: [source/shadharat-dhahab] }
