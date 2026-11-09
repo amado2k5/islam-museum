@@ -380,3 +380,11 @@ Range done (4000 fiches): heavy ISTANBUL mosque list (person-named mescidi/cami/
 - maqam-ibrahim +43022 (Mecca Harām restoration 1509-10); mosque-of-cristo-de-la-luz +42962 (Toledo Bab al-Mardum 1300-01); elvan-celebi-mosque +41085 (Çorum complex 1307-08); al-zaytuna-mosque +41806 (Tunis 1583-84); atik-valide-mosque +42197 (Üsküdar 1583-84); haseki-hurrem-mosque +42049 (Istanbul 1539-40); hamza-bey-mosque-thessaloniki +43151 (1467-68); tomb-of-mustafa-turabi +44375 (Akşehir 1542-43)
 - REJECTED ~60: Istanbul person-named mosques/fountains/hammams vs tomb entities (Mahmud/Mehmed/Yahya Efendi/Ali Efendi/Seyyid Ali Reis/Kılıç Ali/Kara Mehmed/Hurrem Çavuş/Daye Hatun/Koca Mustafa/Kurd Çelebi/Zal Mahmud/Defterdar/Cerrah Mahmud/Mehmed Ağa çesmesi ×8/Sokullu Mehmed ×2/Yahya Efendi ×2/Murad III çesmesi); Hurrem Sultan HAMAMI (bath not tomb); minaret-of-masud-iii ×3 (palace); ghurid×0; yedikule (Hacı Evhad proximity); cifte-gelinler (mosque vs tomb); of-ramazan-efendi (mescidi vs tomb); seyyid-ali/ishak/ahmed-bey/esen-bey/seyh-saban/atabey-gazi/hasan-efendi (mosque-vs-tomb namesakes); ismail-bey+sultan-ismail (Kastamonu imaret); aksaray (Agzikara han); gulbahar-hatun-tomb (Trabzon Gülbahar Hatun Camii — NEW mosque, tomb entities unaffected); karawiyyin Objet ×2 deferred; khan-mosque-isfahan (village proximity); tomb-of-mehmed-v fountains/baths ×15.
 - Next sweep: 44801-48800 running.
+
+## 2026-11-09 (p15) — TEI 44801-48800 COMPLETE (thin range)
+
+Range done (4000 fiches): MAROC Fez Qarawiyyin cluster, ISTANBUL remainder, scattered Balkans/Greece/Afghanistan.
+- qarawiyyin +7 architectural fiches (47828 west pavilion sahn 1205-06, 47829 mosque pavilion 1339-40, 47902 dome before Bab al-Ward + 47945 maṣriyyat al-Khaṭīb hall 1436-37, 47972-4 Bab al-Shammā'īn lustres 1213-14); 3 Objet fiches deferred (47968,47969,47978)
+- guzelce-hasan-bey-mosque +45061 (Hayrabolu 1499-1500 — later text on the 1406 mosque)
+- REJECTED: abdurrahman-sultan-tomb (Akmescid mosque), sultan-ii-selim-tomb (Edirne Selim II mosque Objet), tomb-of-mehmed-v ×3 (Sokullu medrese/mosque + Bosnia church-conversion), tophane-fountain (Kılıç Ali mosque), of-ramazan-efendi (Bazargân mescidi), minaret-of-masud-iii (palace again).
+- Next sweep: 48801-52800 running (covers ~52000 target).
