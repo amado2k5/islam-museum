@@ -6,6 +6,7 @@ summary:
 wings: [people]
 gender: male
 relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with مكة per the record's own text; relation type pending review.", sources: [source/tabari-tarikh-abu-al-fadl] }
   - { type: child_of, target: person/yahya-ibn-khalid-al-barmaki, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: member_of, target: group/barmakids, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/tarikh-dawla-abbasiyya-taqqush]

@@ -1,0 +1,36 @@
+id: place/the-cemetery-of-dahdah
+class: place
+kind: site
+label:
+  ar: مقبرة الدحداح
+  en: The cemetery of Dahdah
+  ur: مقبرہ دحداح
+summary:
+  ar: مقبرة الدحداح.
+  en: The cemetery of Dahdah; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 33.518
+- 36.3052
+coordinate_precision: locality
+coordinate_note: Wikidata Q16128316.
+external_ids:
+  wikidata: Q16128316
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q16128316 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q16128316 (labels, coordinates, description)

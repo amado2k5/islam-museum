@@ -15,6 +15,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia, levant-iraq]
 relations:
+  - { type: lived_in, target: place/al-ahwaz, confidence: low, note: "Associated with الأهواز per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: allied_with, target: person/abu-kalijar, role: "وزيره", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

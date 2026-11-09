@@ -13,6 +13,7 @@ regions: [arabia]
 faith:
   - { value: jewish, basis: tradition, sources: [source/ibn-hisham-saqqa], note: "وصفه ابن هشام بأنه يهودي (ص160)" }
 relations:
+  - { type: lived_in, target: place/jasum, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/burning-of-suwaylims-house, role: house-owner, sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: "own-research"

@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 died: { hijri: "0143", edtf: "0760", calendar: julian, precision: year, status: debated, derived: true, note: "الذهبي: قيل مات سنة ثلاث وأربعين ومائة {cite:mizan-itidal-bijawi-v3 p. 423}؛ المسعودي: سنة ثمان وخمسين ومائة في أيام المنصور {cite:muruj-al-dhahab p. 293}. التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3, source/muruj-al-dhahab] }
 sensitivity: contested
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 293"

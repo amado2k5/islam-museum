@@ -11,6 +11,7 @@ summary:
 born: { edtf: "0854/0855", hijri: "0240", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 240 {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 7}؛ التحويل مشتق", sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
 died: { edtf: "0938-10/0938-11", hijri: "0327-01", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في المحرم سنة 327 كما في ترجمة الناشر (ص 7 و10 من المسح، والرقم في ص 10 مقروء في التعرف الضوئي 337 وهو خطأ قراءة، والصواب 327 كما في عنوان الترجمة ومقدمة الناشر ص 6)؛ التحويل مشتق", sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
 relations:
+  - { type: died_in, target: place/tus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/abu-hatim-muhammad-al-razi, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
   - { type: student_of, target: person/abu-hatim-muhammad-al-razi, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
   - { type: student_of, target: person/abu-zura-al-razi, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }

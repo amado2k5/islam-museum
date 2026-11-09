@@ -31,7 +31,8 @@ died:
   derived: false
   note: "Died at Moti Mahal, Bhopal, on 30 October 1868, per the English article; the Urdu article pairs the date with 13 Rajab 1285. Wikidata Q2285532 also carries a stray 1868-11-30 value, which is not followed. Bhopal has no place entity in the museum yet, so no died_in relation is written."
   sources: [source/wikipedia-sikandar-begum-en, source/wikipedia-sikandar-begum-ur, source/wikidata-sikandar-begum]
-relations: []
+relations:
+  - { type: born_in, target: place/bhopal, sources: [source/wikidata-sikandar-begum], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80989)" }
 faith:
   - value: unknown
     basis: unknown

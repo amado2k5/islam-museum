@@ -23,3 +23,5 @@ provenance:
   run: prose-fill-persons-batch47
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/qazwin, note: "Place association from the person's nisba/name (القزويني); denotes association, not proven residence.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }

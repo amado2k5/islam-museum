@@ -1,17 +1,40 @@
 id: place/yarmuk
 class: place
 kind: site
-label: { ar: "اليرموك", en: "The Yarmuk" }
+label:
+  ar: اليرموك
+  en: The Yarmuk
 summary:
-  ar: "نهر بين فلسطين والأردن عليه كانت وقعة اليرموك الكبرى في رجب سنة 15هـ بين المسلمين وجموع هرقل."
-  en: "A river between Filastin and al-Urdunn on whose banks the great battle of the Yarmuk was fought in Rajab year 15 between the Muslims and Heraclius's hosts."
-wings: [place]
-periods: [period/rashidun]
-regions: [levant-iraq]
+  ar: نهر بين فلسطين والأردن عليه كانت وقعة اليرموك الكبرى في رجب سنة 15هـ بين المسلمين وجموع هرقل.
+  en: A river between Filastin and al-Urdunn on whose banks the great battle of the Yarmuk was fought in Rajab year 15 between the Muslims and Heraclius's hosts.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 32.708986
+- 35.69325
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata Q849470; approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q849470
+aliases:
+- place/yarmuk-2
+sources:
+- source/futuh-buldan-maarif-1407
+- source/wikidata
+- source/geonames-gazetteer
+periods:
+- period/rashidun
+status:
+  review: draft
+  completeness: 1
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 184"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-futuh-buldan-batch-9
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - lib-futuh-buldan-batch-9
+  - lib-futuh-buldan-batch-9
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 184

@@ -37,6 +37,9 @@ faith:
     note: "Wikidata gives Islam (Q432) generically. The articles document his Muslim life in practice — he taught evening classes at the Sekolah Rakyat religious school in Sibu, and Rukun 13's oath meeting opened with a recitation of Surah Ya Sin — but no source read names a school, order or branch for him. Documented practice without a named school stays unknown, unflagged."
     sources: [source/wikipedia-rosli-dhoby-en, source/wikipedia-rosli-dhoby-ms, source/wikidata-rosli-dhoby]
 external_ids: { wikidata: "Q7369027" }
+relations:
+  - { type: born_in, target: place/sibu, sources: [source/wikidata-rosli-dhoby], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1048700)" }
+  - { type: died_in, target: place/kuching, sources: [source/wikidata-rosli-dhoby], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q220445)" }
 sources: [source/wikipedia-rosli-dhoby-en, source/wikipedia-rosli-dhoby-ms, source/wikidata-rosli-dhoby]
 provenance:
   layer: own-research

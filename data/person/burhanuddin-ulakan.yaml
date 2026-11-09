@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/ulakan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12478008

@@ -28,6 +28,8 @@ died:
   note: "Died in 1528 at Kampar in Riau, two years after the Portuguese destroyed his capital at Bintan: so the English article's narrative and Wikidata's death value. A bare year 1528 spans 934-935 AH, so no Hijri year is recorded. Kampar has no place entity in the graph, so the death place is prose-only."
   sources: [source/wikipedia-mahmud-shah-malacca-en, source/wikidata-mahmud-shah-malacca]
 
+relations:
+  - { type: died_in, target: place/kampar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmud-shah-malacca] }
 faith:
   - value: unknown
     basis: unknown

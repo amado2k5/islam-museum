@@ -11,6 +11,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 died: { edtf: "1023-10~", hijri: "0414-08", calendar: julian, precision: month, status: tradition, derived: true, note: "قتل في شعبان ٤١٤ وله ٥٣ سنة {cite:muntazam-ibn-al-jawzi j.8 p.355}." }
 relations:
+  - { type: lived_in, target: place/baghdad, note: "Vizier of the Buyid Sultan al-Dawla, who built the wall of al-Ha'ir at Karbala in 403; the Buyid court sat in Baghdad.", sources: [source/muntazam-ibn-al-jawzi], confidence: medium }
   - { type: allied_with, target: person/sultan-al-dawla, role: "وزيره", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: participated_in, target: event/karbala-wall-construction-400, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

@@ -12,6 +12,9 @@ relations:
   - { type: member_of, target: group/quraysh, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/founding-of-qayrawan, role: "الفاتح والمختطّ", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/qalat-busr, role: "الموجّه لبسر — على رواية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+  - { type: died_in, target: place/tabuda, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q98749704)" }
+  - { type: buried_in, target: building/sidi-okba-mosque, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q48813977)" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 314–315"

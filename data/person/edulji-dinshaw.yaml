@@ -33,6 +33,9 @@ died:
   derived: true
   note: "He died at sea near Port Said, Egypt, on 8 May 1914, on his way to England, attested identically by the English article and Wikidata. The Hijri year is a tabular derived conversion: May 1914 falls inside 1332 AH."
   sources: [source/wikipedia-edulji-dinshaw-en, source/wikidata-edulji-dinshaw]
+relations:
+  - { type: born_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-edulji-dinshaw] }
+  - { type: died_in, target: place/mediterranean-sea, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-edulji-dinshaw] }
 faith:
   - value: zoroastrian
     basis: documented

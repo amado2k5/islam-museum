@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: born_in, target: place/pandua, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7130759)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q31723891

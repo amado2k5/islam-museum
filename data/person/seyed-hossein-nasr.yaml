@@ -28,6 +28,8 @@ faith:
     note: "SHIA-MAPPING APPLIED, stated here as the lane rule requires: there is no generic shia enum value, so two sources attesting 'Shia' about Nasr himself, plus supportive context, are mapped to shia-twelver. (1) The English Wikipedia article's infobox in its archived form listed his schools as 'Perennial Philosophy, Twelver Shi'ism' — an attestation of Twelver Shi'ism specifically, not merely of Islam. (2) Independently, a peer-reviewed article in the American Journal of Islamic Social Sciences states expressly: 'As for Nasr being a Shi`ah, this is clearly one dimension of his identity.' Supportive context: he is an Iranian scholar formed in Tehran's Twelver scholarly milieu, an editor of Shi'ism: Doctrines, Thought, and Spirituality (1988), and a source the encyclopaedias cite as a leading expert on Shiism; that context supports, but does not by itself create, the attestation. His perennialist and Sufi interests are NOT recorded as a separate sufi segment: the sources present them as his intellectual school and fields of writing, and no two sources attest a Sufi order affiliation for him personally, so under the doubt rule no second segment is written."
     sources: [source/wikipedia-seyed-hossein-nasr-en, source/ajis-nasr-shia]
 external_ids: { wikidata: "Q471041" }
+relations:
+  - { type: born_in, target: place/tehran, sources: [source/wikidata-seyed-hossein-nasr], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3616)" }
 sources: [source/wikipedia-seyed-hossein-nasr-en, source/wikidata-seyed-hossein-nasr, source/ajis-nasr-shia]
 provenance:
   layer: own-research

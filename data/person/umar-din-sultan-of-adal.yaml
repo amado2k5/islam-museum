@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [east-africa]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: ruled_over, target: place/adal, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q7881119

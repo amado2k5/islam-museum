@@ -11,6 +11,7 @@ periods: [period/pre-islamic-arabia]
 story_roles:
   - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
 relations:
+  - { type: lived_in, target: place/arabian-peninsula, confidence: low, note: "Prophet of the Cities of Lot per the record's cited hadith; precise locality pending review.", sources: [source/sahih-al-bukhari] }
   - { type: related_to, target: person/ibrahim, note: "ابن أخيه في الخبر المشهور", sources: [source/sahih-al-bukhari] }
 provenance:
   layer: "own-research"

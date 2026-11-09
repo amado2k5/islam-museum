@@ -31,6 +31,7 @@ died:
 relations:
   - { type: lived_in, target: place/bukhara, sources: [source/wikipedia-ubaydullah-khan-en] }
   - { type: buried_in, target: place/bukhara, sources: [source/wikipedia-ubaydullah-khan-en] }
+  - { type: ruler_of, target: place/bukhara, sources: [source/wikipedia-ubaydullah-khan-en, source/wikidata-ubaydullah-khan] }
 faith:
   - value: unknown
     basis: unknown

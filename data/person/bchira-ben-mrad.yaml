@@ -30,6 +30,8 @@ roles: [activist, writer]
 regions: [maghreb]
 wings: [people]
 relations:
+  - { type: born_in, target: place/tunisia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bchira-ben-mrad] }
+  - { type: died_in, target: place/tunisia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bchira-ben-mrad] }
   - { type: child_of, target: person/mohamed-salah-ben-mrad, sources: [source/wikipedia-bchira-ben-mrad-en, source/wikipedia-bchira-ben-mrad-fr, source/wikipedia-bchira-ben-mrad-ar] }
   - { type: born_in, target: place/tunis, sources: [source/wikipedia-bchira-ben-mrad-ar] }
 faith:

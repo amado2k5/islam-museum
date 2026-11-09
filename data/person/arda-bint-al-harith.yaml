@@ -9,6 +9,7 @@ periods: [period/rashidun]
 relations:
   - { type: spouse_of, target: person/utba-ibn-ghazwan }
   - { type: participated_in, target: event/conquest-of-ubulla }
+  - { type: lived_in, target: place/basra, note: "Wife of Utba ibn Ghazwan, present at the founding fight of the al-Furat city.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }

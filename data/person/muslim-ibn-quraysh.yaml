@@ -6,6 +6,8 @@ summary:
 gender: male
 roles: [ruler]
 relations:
+
+- { type: lived_in, target: place/humdan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muntazam-ibn-al-jawzi] }
 - type: member_of
   target: group/banu-uqayl
   sources: [source/muntazam-ibn-al-jawzi]

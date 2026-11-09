@@ -12,8 +12,9 @@ periods: [period/umayyad]
 regions: [levant-iraq]
 themes: [sects-and-schools]
 relations:
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: member_of, target: group/ibadiyya, sources: [source/duha-islam] }
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/wikidata]
 external_ids: { wikidata: "Q307643" }
 provenance:
   layer: own-research

@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/mytilene, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q189059)" }
+  - { type: died_in, target: place/aden, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q131694)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q7448746

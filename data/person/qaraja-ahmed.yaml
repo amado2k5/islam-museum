@@ -12,6 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Karaca Ahmed, dervish-saint of Anatolia, tomb at Uskudar (regions: anatolia-balkans).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q136331933
 provenance:

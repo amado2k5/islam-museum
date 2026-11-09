@@ -19,6 +19,9 @@ wings: [people]
 themes: [creed]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/uyayna, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4166503)" }
+  - { type: died_in, target: place/diriyah, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q277505)" }
 sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university, source/duha-islam, source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q69351

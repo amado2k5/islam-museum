@@ -11,6 +11,8 @@ roles: [ruler]
 traditions: [sunni]
 died: { edtf: "0996", hijri: "0386", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 386هـ عند ابن خلدون؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
+
+- { type: lived_in, target: place/mosul, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: member_of
   target: group/banu-uqayl
   sources:

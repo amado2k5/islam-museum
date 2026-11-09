@@ -13,6 +13,8 @@ regions: [south-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1958", precision: year, status: tradition, derived: true }
 died: { edtf: "2020", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/karachi, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8660)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q64397763

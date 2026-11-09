@@ -1,0 +1,19 @@
+id: place/bilad-al-sudan
+class: place
+kind: region
+label: { ar: "بلاد السودان", en: "Bilad al-Sudan (the Sudan belt)" }
+summary:
+  ar: "الإقليم الساحلي-السوداني جنوب الصحراء، من السنغال إلى حوض النيل؛ «بلاد السودان» عند الجغرافيين المسلمين."
+  en: "The Sahel-Sudan belt south of the Sahara, Senegal to the Nile basin; the geographers’ «land of the blacks»."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [13.0, -5.0]
+coordinate_precision: approx
+coordinate_note: "Approximate regional centre; flagged for gazetteer verification."
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Region entity created so persons whose records substantiate only a broad region still resolve on the map; centre point approximate."

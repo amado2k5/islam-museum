@@ -12,6 +12,11 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [spirituality-and-sufism]
+relations:
+  - { type: born_in, target: place/sinop, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q599416)" }
+  - { type: died_in, target: place/babadag, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q386945)" }
+  - { type: lived_in, target: place/anatolia, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q51614)" }
+  - { type: lived_in, target: place/dobruja, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q182660)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q4993555

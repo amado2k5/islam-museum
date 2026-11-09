@@ -14,5 +14,7 @@ provenance:
   source: "تاريخ بغداد للخطيب البغدادي (ج11، ترجمة 7566، ص274)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-tarikh-baghdad-tb1
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/tarikh-baghdad-khatib], confidence: low, note: "en: 'Abu Yusuf al-Sikut — the Khuzi grammarian of Islah al-Mantiq who tutored the sons of al-Mutawakkil; his f" }
 sources: [source/tarikh-baghdad-khatib]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -35,7 +35,8 @@ faith:
     basis: unknown
     note: "FLAGGED for a founder ruling. The Albanian biography's lead attests for the man himself that he was a member of the Naqshbandi tariqa ('anëtar i tarikatit Nakshbendi'), and the Polish biography's alias list styles him Sheh (sheikh) — but that is one encyclopedia attestation of an order membership, uncorroborated in the English biography, in Elsie as cited there, or in the structured data (Wikidata gives only Islam), so under the two-source rule the reading is preserved here unclassified. His müderris family, his own madrasa teaching and his mufti service are office, education and family background, which never count."
     sources: [source/wikipedia-ymer-prizreni-sq, source/wikipedia-ymer-prizreni-en, source/wikidata-ymer-prizreni]
-relations: []
+relations:
+  - { type: died_in, target: place/ulcinj, sources: [source/wikidata-ymer-prizreni], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q189969)" }
 summary:
   ar: "عالم ألباني عثماني من زغاتار، عمل مدرّساً وخوجة، وترأّس رابطة بريزرن منذ عام 1879 وقاد حكومتها المؤقتة المستقلة عام 1881، ومات في أولسيني عام 1887."
   en: "Ottoman-Albanian 'alim and hoxha from Zgatar who chaired the League of Prizren from 1879 and headed its Autonomous Provisional Government in 1881; he died at Ulcinj in 1887."

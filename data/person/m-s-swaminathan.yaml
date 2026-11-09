@@ -33,7 +33,9 @@ faith:
     basis: unknown
     note: "Absence configuration, stated explicitly: no source consulted names any religion for him personally — the English, Arabic and Urdu articles are all silent on religion, and no attestation of Islam of any kind exists for him. Wikidata carries a lone Hinduism value with no references and no qualifiers; as a single structured attestation it does not meet the lane's two-source bar, so it is preserved here and not recorded. Biographical side-sources give his family's caste as Tamil Brahmin, which is family background and never counts."
     sources: [source/wikipedia-m-s-swaminathan-en, source/wikipedia-m-s-swaminathan-ar, source/wikipedia-m-s-swaminathan-ur, source/wikidata-m-s-swaminathan]
-relations: []
+relations:
+  - { type: born_in, target: place/kudanthaiyan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-m-s-swaminathan] }
+  - { type: died_in, target: place/chennai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-m-s-swaminathan] }
 summary:
   ar: "عالم وراثة ونبات هندي وإداري، يُعد المهندس الرئيسي للثورة الخضراء في الهند: قاد المعهد الهندي للبحوث الزراعية والمجلس الهندي للبحوث الزراعية، وأدار المعهد الدولي لبحوث الأرز (1982–1988)، ونال أول جائزة غذاء عالمية (1987)، وعضوية مجلس الشيوخ (2007–2013)، ومُنح بهارات راتنا سنة 2024 بعد وفاته."
   en: "Indian geneticist, plant breeder and administrator, regarded as the main architect of India's Green Revolution: he led the Indian Agricultural Research Institute and the Indian Council of Agricultural Research, directed the International Rice Research Institute (1982–1988), received the first World Food Prize (1987), sat in the Rajya Sabha (2007–2013), and was awarded the Bharat Ratna in 2024, after his death."

@@ -1,0 +1,36 @@
+id: place/washington-dc
+class: place
+kind: city
+label:
+  ar: واشنطن العاصمة
+  en: Washington, D.C.
+summary:
+  ar: مدينة واشنطن العاصمة.
+  en: City (Washington, D.C.).
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 38.895
+- -77.036666666667
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata Q61; approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q61
+  geonames: '4140963'
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Wikidata item Q61 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.
+  generated_by: Devin
+  model: Devin (Cognition)
+  run: person-place-geo-b
+  note: Merged duplicate record place/washington-d-c into this entity during consolidation.
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin
+aliases:
+- place/washington-d-c

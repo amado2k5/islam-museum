@@ -7,7 +7,8 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 died: { hijri: "0117", edtf: "0735~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة سبع عشرة ومائة، وكان من سبي اصطخر (PDF ص41).", sources: [source/tabaqat-fuqaha-abbas-1981] }
-relations: []
+relations:
+  - { type: lived_in, target: place/mihran, confidence: low, note: "Associated with مهران per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 236"

@@ -12,5 +12,9 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 348"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-29
+relations:
+  - { type: ruled_over, target: place/al-tayrahan, sources: [source/wikidata], confidence: low, note: "ar: 'قائد فتوح الجزيرة؛ عند البلاذري فتح الطيرهان والموصل وأنفذ لأهل تكريت كتاب الأمان الذي كتبه لهم التسير وح" }
+  - { type: ruled_over, target: place/mosul, sources: [source/wikidata], confidence: low, note: "ar: 'قائد فتوح الجزيرة؛ عند البلاذري فتح الطيرهان والموصل وأنفذ لأهل تكريت كتاب الأمان الذي كتبه لهم التسير وح" }
+  - { type: ruled_over, target: place/tikrit, sources: [source/wikidata], confidence: low, note: "ar: 'قائد فتوح الجزيرة؛ عند البلاذري فتح الطيرهان والموصل وأنفذ لأهل تكريت كتاب الأمان الذي كتبه لهم التسير وح" }
 sources: [source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

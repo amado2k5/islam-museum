@@ -22,6 +22,8 @@ died:
 relations:
   - { type: child_of, target: person/muhammad-ibn-malikshah, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/isfahan, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/isbahan, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/isbahan, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

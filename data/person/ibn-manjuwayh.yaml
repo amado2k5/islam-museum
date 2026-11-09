@@ -9,6 +9,8 @@ died: { edtf: "1036~", hijri: "0428-01", calendar: julian, precision: month, sta
 roles: [scholar]
 wings: [people]
 periods: [period/abbasid-early]
+relations:
+  - { type: lived_in, target: place/nishapur, confidence: low, note: "Associated with نيسابور per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

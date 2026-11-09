@@ -34,6 +34,7 @@ died:
 relations:
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-serafeddin-magmumi-en, source/wikipedia-serafeddin-magmumi-tr, source/wikidata-serafeddin-magmumi] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-serafeddin-magmumi-en, source/wikidata-serafeddin-magmumi] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-serafeddin-magmumi-en, source/wikipedia-serafeddin-magmumi-tr, source/wikidata-serafeddin-magmumi] }
 faith:
   - value: unknown
     basis: unknown

@@ -38,6 +38,7 @@ died:
   sources: [source/dia-hibri, source/wikipedia-abdurrahman-hibri-de]
 
 relations:
+  - { type: lived_in, target: place/edirne, note: "From text: درس في أدرنة وإسطنبول وقضى حياته مدرّ", sources: [source/wikipedia-abdurrahman-hibri-de, source/dia-hibri, source/wikidata-abdurrahman-hibri] }
   - { type: born_in, target: place/edirne, sources: [source/dia-hibri, source/wikipedia-abdurrahman-hibri-de] }
 
 faith:

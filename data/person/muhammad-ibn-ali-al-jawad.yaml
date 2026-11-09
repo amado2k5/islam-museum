@@ -13,6 +13,10 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch28
 external_ids: { wikidata: "Q25088" }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/kadhimiya, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q311315)" }
+  - { type: buried_in, target: building/al-kadhimiya-mosque, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154116)" }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

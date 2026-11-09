@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born 20 August 1960 in Kızıltepe, Mardin (all three articles and the Wikidata item agree). Kızıltepe has no place entity in the museum, so no born_in relation is written. The hijri year 1380 is a tabular derived conversion of the Gregorian date (derived: true)."
   sources: [source/wikipedia-metin-gurak-en, source/wikipedia-metin-gurak-tr, source/wikipedia-metin-gurak-ar, source/wikidata-metin-gurak]
+relations:
+  - { type: born_in, target: place/k-z-ltepe, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-metin-gurak] }
 faith:
   - value: unknown
     basis: unknown

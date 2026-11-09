@@ -19,6 +19,8 @@ themes: [prophets]
 periods: [period/pre-islamic-arabia]
 story_roles:
 - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/tafsir-ibn-kathir] }
+relations:
+  - { type: lived_in, target: place/syria, confidence: low, note: "Associated with Syria per the record's own summary text; relation type pending review.", sources: [source/tafsir-ibn-kathir] }
 external_ids: { wikidata: "Q332574" }
 perspectives:
 - tradition: sunni

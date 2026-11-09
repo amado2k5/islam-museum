@@ -40,6 +40,7 @@ roles: [political leader, scholar, poet]
 regions: [maghreb, west-africa-sahel]
 wings: [people]
 relations:
+  - { type: lived_in, target: place/fez, note: "From text: of Fez", sources: [source/wikipedia-ahmed-al-hiba-en, source/wikipedia-ahmed-al-hiba-fr, source/wikipedia-ahmed-al-hiba-ar, source/wikidata-ahmed-al-hiba], confidence: low }
   - type: child_of
     target: person/ma-al-aynayn
     note: "His father Shaykh Ma al-'Aynayn (Q2520973), whose record is on main; the English and French biographies state the filiation in their texts, the Arabic biography carries it in his very name, and Wikidata names the same father."

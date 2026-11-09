@@ -42,7 +42,8 @@ faith:
     basis: unknown
     note: "The English, Arabic, French and Indonesian texts all attest Bilali Muhammad personally as a Muslim: born to a well-educated Muslim family in Timbo, literate in Arabic, with knowledge of the Qur'an and, in the Indonesian article's words, of hadith, shari'ah and tafsir; on Sapelo Island he and his fellow Muslims helped defend the island in the War of 1812, and after his death his Arabic manuscript proved to be a statement of Islamic belief and ritual law. That manuscript draws on the Risalah of Ibn Abi Zayd al-Qayrawani, a Maliki legal treatise that formed part of the West African Muslim curriculum — but transmitting and copying a school text is not an attestation that its copyist personally belonged to that school, and no source read names a madhhab, branch or order for Bilali himself. Wikidata carries no religion value for him at all. Under the doubt rule the value stays unknown, with the Maliki-curriculum reading preserved here."
     sources: [source/wikipedia-bilali-muhammad-en, source/wikipedia-bilali-muhammad-ar, source/wikipedia-bilali-muhammad-fr, source/wikipedia-bilali-muhammad-id, source/wikidata-bilali-muhammad]
-relations: []
+relations:
+  - { type: born_in, target: place/guinea, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-bilali-muhammad-en, source/wikipedia-bilali-muhammad-fr, source/wikipedia-bilali-muhammad-ar, source/wikipedia-bilali-muhammad-id, source/wikidata-bilali-muhammad] }
 sources: [source/wikipedia-bilali-muhammad-en, source/wikipedia-bilali-muhammad-ar, source/wikipedia-bilali-muhammad-fr, source/wikipedia-bilali-muhammad-id, source/wikidata-bilali-muhammad]
 external_ids:
   wikidata: "Q56416045"

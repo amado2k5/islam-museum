@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: born_in, target: place/abyssinia, note: "From text: ولد في أرض الحبشة", sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sallabi-ali-vol1] }
   - { type: member_of, target: group/banu-hashim, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/jafar-ibn-abi-talib, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/asma-bint-umays, sources: [source/ibn-hisham-saqqa] }

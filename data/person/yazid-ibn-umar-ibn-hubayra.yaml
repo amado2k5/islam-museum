@@ -13,5 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-36
 external_ids: { wikidata: "Q12251815" }
+relations:
+  - { type: ruled_over, target: place/balad, sources: [source/wikidata], confidence: low, note: "en: 'Yazid ibn Umar ibn Hubayra al-Fazari, the last Umayyad governor of Iraq; in al-Baladhuri he built a city " }
+  - { type: traveled_to, target: place/iraq, sources: [source/wikidata], confidence: low, note: "ar: 'يزيد بن عمر بن هبيرة الفزاري آخر عمال بني أمية على العراق؛ عند البلاذري بنى مدينة بالكوفة على الفرات ونزل" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

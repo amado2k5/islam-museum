@@ -39,8 +39,9 @@ died:
 relations:
   - { type: child_of, target: person/muhammad-i-ibn-al-ahmar, sources: [source/wikipedia-muhammad-ii-of-granada-en, source/wikipedia-muhammad-ii-of-granada-ar] }
   - { type: successor_of, target: person/muhammad-i-ibn-al-ahmar, sources: [source/wikipedia-muhammad-ii-of-granada-en, source/wikipedia-muhammad-ii-of-granada-ar] }
-  - { type: born_in, target: place/granada, sources: [source/wikipedia-muhammad-ii-of-granada-ar] }
 
+  - { type: born_in, target: place/granada, sources: [source/wikipedia-muhammad-ii-of-granada-ar] }
+  - { type: ruler_of, target: place/granada, sources: [source/wikipedia-muhammad-ii-of-granada-en, source/wikipedia-muhammad-ii-of-granada-ar, source/wikidata-muhammad-ii-of-granada] }
 faith:
   - value: unknown
     basis: unknown

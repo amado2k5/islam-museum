@@ -9,6 +9,8 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 roles: [ruler]
 died: { edtf: "1193~", hijri: "0589", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة تسع وثمانين وخمسمائة؛ قال ابن الأثير بقي عشرة أيام لا يتكلم إلا بالشهادتين وبالثلاثة، وكان كثير الخير والإحسان يزور الصالحين ويقربهم ويشفعهم، ودفن بمدرسته التي أنشأها بالموصل تجاه دار السلطنة وتمكن بعده ولده نور الدين {cite:shadharat-dhahab p. 777-778}؛ التحويل مشتق.", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: died_in, target: place/mosul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 107–108"

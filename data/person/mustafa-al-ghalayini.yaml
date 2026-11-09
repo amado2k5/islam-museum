@@ -13,6 +13,9 @@ regions: [levant-iraq]
 periods: [period/modern-era]
 born: { edtf: "1886", precision: year, status: tradition, derived: true }
 died: { edtf: "1944", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/bayrut, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3820)" }
+  - { type: buried_in, target: place/al-bachoura-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q64729641)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12243356

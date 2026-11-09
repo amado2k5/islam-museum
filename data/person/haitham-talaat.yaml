@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Both sources give the year 1981 and the 2004 medical degree, but they conflict on the birthplace: the Alsiyars biography's information table gives Minya in Upper Egypt, while the Samarra Journal study gives Asyut Governorate. The place is therefore not recorded, and no born_in relation is written. The Hijri year is derived by tabular conversion."
   sources: [source/alsiyars-haitham-talaat, source/samarra-journal-haitham-talaat]
+relations:
+  - { type: born_in, target: place/minya, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/alsiyars-haitham-talaat, source/samarra-journal-haitham-talaat] }
 faith:
   - value: unknown
     basis: unknown

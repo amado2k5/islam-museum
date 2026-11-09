@@ -13,6 +13,7 @@ roles: [scholar]
 periods: [period/colonial-era]
 floruit: { edtf: "1932", calendar: gregorian, precision: year, status: historical, note: "Preface signed February 1932 {cite:hobson-guide-islamic-pottery-near-east-1932 p. 9}.", sources: [source/hobson-guide-islamic-pottery-near-east-1932] }
 relations:
+  - { type: lived_in, target: place/london, sources: [source/hobson-guide-islamic-pottery-near-east-1932] }
   - { type: authored, target: work/hobson-guide-islamic-pottery-near-east, sources: [source/hobson-guide-islamic-pottery-near-east-1932] }
 sources: [source/hobson-guide-islamic-pottery-near-east-1932]
 provenance:

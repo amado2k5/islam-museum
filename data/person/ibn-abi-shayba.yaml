@@ -12,6 +12,9 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 themes: [scripture-and-its-sciences]
+relations:
+  - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/wafayat-ayan]
 external_ids:
   wikidata: Q6532914

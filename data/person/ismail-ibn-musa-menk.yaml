@@ -18,6 +18,7 @@ born:
   status: historical
   sources: [source/wikipedia-ismail-ibn-musa-menk-en, source/wikidata-ismail-ibn-musa-menk]
 relations:
+  - { type: born_in, target: place/harare, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ismail-ibn-musa-menk] }
   - { type: lived_in, target: place/medina, sources: [source/wikipedia-ismail-ibn-musa-menk-en] }
 faith:
   - value: unknown

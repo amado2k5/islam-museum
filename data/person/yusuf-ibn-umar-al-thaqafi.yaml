@@ -18,5 +18,9 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 395"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-35
+relations:
+  - { type: ruler_of, target: place/al-hira, sources: [source/wikidata], confidence: low, note: "ar: 'يوسف بن عمر الثقفي ابن عم الحجاج، ولّاه هشام بن عبد الملك العراق، ونسب إليه البلاذري سوق يوسف بالحيرة.'" }
+  - { type: ruler_of, target: place/iraq, sources: [source/wikidata], confidence: low, note: "ar: 'يوسف بن عمر الثقفي ابن عم الحجاج، ولّاه هشام بن عبد الملك العراق، ونسب إليه البلاذري سوق يوسف بالحيرة.'" }
+  - { type: ruler_of, target: place/suq-yusuf, sources: [source/wikidata], confidence: low, note: "ar: 'يوسف بن عمر الثقفي ابن عم الحجاج، ولّاه هشام بن عبد الملك العراق، ونسب إليه البلاذري سوق يوسف بالحيرة.'" }
 sources: [source/wafayat-ayan, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

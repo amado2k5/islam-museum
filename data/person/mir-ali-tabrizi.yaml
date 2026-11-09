@@ -11,6 +11,7 @@ wings: [people]
 themes: [arts-of-the-book]
 regions: [persia-central-asia]
 relations:
+  - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/titley-persian-miniature-painting-1983] }
   - { type: patronized_by, target: person/ahmad-jalayir, sources: [source/titley-persian-miniature-painting-1983] }
 sources: [source/titley-persian-miniature-painting-1983]
 provenance:

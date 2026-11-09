@@ -12,6 +12,8 @@ wings: [people]
 regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1290", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3695807

@@ -13,6 +13,9 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch43
 external_ids: { wikidata: "Q293612" }
+relations:
+  - { type: born_in, target: place/wasit, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1462261)" }
+  - { type: died_in, target: place/rayy, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q636188)" }
 sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
 status:
   review: published

@@ -30,6 +30,9 @@ died:
   note: "Died in Riyadh; the English article gives the Hijri date as 9 Shawwal 1417 AH. He was buried at al-Baqi cemetery in Medina."
   sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en, source/wikidata-abd-al-fattah-abu-ghudda]
 relations:
+  - { type: died_in, target: place/riyadh, note: "From text: وُلد في حلب سنة 1917 وتوفي في الرياض س", sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en, source/wikipedia-abd-al-fattah-abu-ghudda-ar, source/wikidata-abd-al-fattah-abu-ghudda] }
+  - { type: died_in, target: place/riyadh, note: "From text: died in Riyadh", sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en, source/wikidata-abd-al-fattah-abu-ghudda] }
+  - { type: lived_in, target: place/damascus, note: "From text: taught at Damascus University", sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en, source/wikipedia-abd-al-fattah-abu-ghudda-ar, source/wikidata-abd-al-fattah-abu-ghudda] }
   - { type: born_in, target: place/aleppo, sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en] }
   - { type: lived_in, target: place/damascus, sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abd-al-fattah-abu-ghudda-en] }

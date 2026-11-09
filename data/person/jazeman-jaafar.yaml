@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born 13 November 1992 in Kuala Lumpur (the Malay article and Wikidata's place of birth agree). No place entity for Kuala Lumpur exists, so no born_in relation is written and the birthplace is recorded here and in prose only. The Hijri year 1413 is the tabular conversion of 13 November 1992 and is marked derived."
   sources: [source/wikipedia-jazeman-jaafar-en, source/wikipedia-jazeman-jaafar-ms, source/wikidata-jazeman-jaafar]
+relations:
+  - { type: born_in, target: place/kuala-lumpur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jazeman-jaafar] }
 faith:
   - value: unknown
     basis: unknown

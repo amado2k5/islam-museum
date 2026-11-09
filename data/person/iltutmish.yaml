@@ -37,6 +37,7 @@ died:
   sources: [source/wikipedia-iltutmish-en, source/wikipedia-razia-sultana-ar, source/wikipedia-iltutmish-ur, source/wikidata-iltutmish]
 
 relations:
+  - { type: buried_in, target: place/qutb-complex, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-iltutmish] }
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-iltutmish-en] }
 
 faith:

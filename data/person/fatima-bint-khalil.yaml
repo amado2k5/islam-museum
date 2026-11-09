@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile, levant-iraq]
 died: { edtf: "1430-02~", hijri: "0833-05-01~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفيت في آخر يوم الجمعة الأول من جمادى الأولى 833 {cite:shadharat-dhahab p. 208}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with Cairo per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 834)، قراءة آبل فيجن"

@@ -20,6 +20,8 @@ died:
 roles: [lawyer, activist]
 regions: [levant-iraq]
 wings: [people]
+relations:
+  - { type: lived_in, target: place/jerusalem, confidence: low, note: "Associated with القدس per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: christian
     basis: documented

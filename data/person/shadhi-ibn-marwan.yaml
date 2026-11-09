@@ -14,5 +14,9 @@ provenance:
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-wafayat-batch-2
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'جد صلاح الدين؛ من دوين في آخر عمل أذربيجان، أكراد روادية من بطن الهذبانية، أخذ ولديه شيركوه وأيوب إلى بغد" }
+  - { type: died_in, target: place/tikrit, sources: [source/wafayat-ayan], confidence: low, note: "en: 'Saladin's grandfather, of the Rawadiyya Kurds at Dvin, who brought his sons Shirkuh and Ayyub to Baghdad " }
+  - { type: lived_in, target: place/baniya, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'جد صلاح الدين؛ من دوين في آخر عمل أذربيجان، أكراد روادية من بطن الهذبانية، أخذ ولديه شيركوه وأيوب إلى بغد" }
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

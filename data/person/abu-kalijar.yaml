@@ -12,6 +12,8 @@ roles: [ruler]
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: born_in, target: place/basra, note: "From text: وُلد بالبصرة في شوال ٣٩٩ وولي العراق", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi] }
+  - { type: died_in, target: place/kirman, note: "From text: مات بطريق كرمان سنة أربعين وأربعمائ", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi] }
   - { type: child_of, target: person/sultan-al-dawla, sources: [source/shadharat-dhahab] }
   - { type: parent_of, target: person/al-malik-al-rahim, sources: [source/shadharat-dhahab] }
 provenance:

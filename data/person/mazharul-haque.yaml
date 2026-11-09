@@ -34,7 +34,8 @@ faith:
     basis: unknown
     note: "No fetched text names a school for Mazharul Haque himself. Both articles quote Rajendra Prasad's description of him as 'a devout Muslim and passionate patriot', and record his Khilafat activism and his early education from a maulvi in Urdu and Persian; devotion, activism and schooling are not a school attestation, and Wikidata carries no religion statement for him. The value therefore stays unknown."
     sources: [source/wikipedia-mazharul-haque-en, source/wikipedia-mazharul-haque-ur, source/wikidata-mazharul-haque]
-relations: []
+relations:
+  - { type: born_in, target: place/patna, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-mazharul-haque-en, source/wikipedia-mazharul-haque-ur, source/wikidata-mazharul-haque] }
 external_ids: { wikidata: "Q99732617" }
 sources: [source/wikipedia-mazharul-haque-en, source/wikipedia-mazharul-haque-ur, source/wikidata-mazharul-haque]
 provenance:

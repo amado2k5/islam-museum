@@ -18,6 +18,7 @@ regions:
 - arabia
 relations:
   - { type: participated_in, target: event/ridda-wars, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: traveled_to, target: place/sanaa, sources: [source/futuh-buldan-maarif-1407], confidence: low, note: "ar: 'من ولد مالك بن حنظلة بن مالك حليف بني نوفل بن عبد مناف، وأمه من بني مازن بن منصور؛ ارتدت خولان باليمن فسا" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 139، 145"

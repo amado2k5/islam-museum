@@ -11,6 +11,12 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/kunduz, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q108155)" }
+  - { type: born_in, target: place/durrani-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q467627)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: died_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q12560)" }
+  - { type: lived_in, target: place/balkh-province, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q121104)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: "Q12191488"

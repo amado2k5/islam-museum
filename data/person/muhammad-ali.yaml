@@ -30,7 +30,10 @@ died:
   derived: true
   note: "Gregorian date and Scottsdale, Arizona place of death from English Wikipedia and Wikidata Q36107; the article records septic shock as the cause. The Hijri year (1437) is derived by tabular conversion."
   sources: [source/wikipedia-muhammad-ali-en, source/wikidata-muhammad-ali]
-relations: []
+relations:
+  - { type: born_in, target: place/louisville, sources: [source/wikidata-muhammad-ali], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q43668)" }
+  - { type: died_in, target: place/scottsdale, sources: [source/wikidata-muhammad-ali], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q49221)" }
+  - { type: lived_in, target: place/cherry-hill, sources: [source/wikidata-muhammad-ali], confidence: low, note: "Wikidata P551 residence (Wikidata Q2710598)" }
 faith:
   - value: sunni
     basis: documented

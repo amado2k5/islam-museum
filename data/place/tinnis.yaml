@@ -8,9 +8,11 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [egypt-nile]
+coordinates: [31.1944, 32.2422]
+coordinate_precision: site
 relations:
   - { type: site_of, target: event/four-lieutenants-egypt, sources: [source/futuh-buldan-maarif-1407] }
-sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut]
+sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut, source/geonames-gazetteer]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 provenance:
   layer: own-research

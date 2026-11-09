@@ -17,6 +17,8 @@ periods: [period/gunpowder-empires]
 regions: [andalus-europe]
 story_roles:
   - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/granada, confidence: low, note: "Associated with غرناطة per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

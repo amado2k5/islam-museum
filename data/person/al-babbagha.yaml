@@ -12,6 +12,7 @@ themes: [literature]
 died:
   { edtf: "1008-03~", hijri: "0398-08", calendar: julian, precision: month, status: tradition, derived: true, note: "شعبان 398؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.243}" }
 relations:
+  - { type: lived_in, target: place/baghdad, note: "Buyid-era poet al-Babbagha who corresponded with Ibrahim ibn Hilal al-Sabi from his prison; the adab milieu is Baghdad. Inferred.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }
   - { type: corresponded_with, target: person/ibrahim-ibn-hilal-al-sabi, role: "كاتبه من محبسه", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

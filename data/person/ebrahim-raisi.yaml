@@ -34,6 +34,10 @@ died:
   note: "Died in office on 19 May 2024 when his helicopter crashed in mountainous terrain near Varzaqan in East Azerbaijan province on the return from the Azerbaijan border; the English article, the other editions and Wikidata agree. The Hijri year is derived by tabular conversion from the Gregorian date."
   sources: [source/wikipedia-raisi-en, source/wikipedia-raisi-ar, source/wikidata-raisi]
 relations:
+  - { type: born_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/bakrabad-rural-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/uzi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/imam-reza-shrine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - type: born_in
     target: place/mashhad
     note: "Born in the Noghan district of Mashhad."

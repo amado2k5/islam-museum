@@ -39,6 +39,9 @@ roles: [politician, journalist, writer]
 regions: [maghreb]
 wings: [people]
 relations:
+  - { type: born_in, target: place/fes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-hassan-ouazzani] }
+  - { type: died_in, target: place/fes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-hassan-ouazzani] }
+  - { type: buried_in, target: place/fes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-hassan-ouazzani] }
   - { type: born_in, target: place/fez, sources: [source/wikipedia-mohamed-hassan-ouazzani-en, source/wikipedia-mohamed-hassan-ouazzani-fr, source/wikidata-mohamed-hassan-ouazzani] }
   - { type: died_in, target: place/fez, sources: [source/wikipedia-mohamed-hassan-ouazzani-en, source/wikipedia-mohamed-hassan-ouazzani-fr, source/wikidata-mohamed-hassan-ouazzani] }
 faith:

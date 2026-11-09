@@ -13,6 +13,10 @@ regions: [south-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1957", precision: year, status: tradition, derived: true }
 died: { edtf: "2013", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/hazro, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3695085)" }
+  - { type: died_in, target: place/rawalpindi, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q93230)" }
+  - { type: buried_in, target: place/pirdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q25104484)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q8074910

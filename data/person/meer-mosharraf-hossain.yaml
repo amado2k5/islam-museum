@@ -31,6 +31,8 @@ died:
   derived: true
   note: "Died on 19 December and was buried at Padamdi: the day, 19 December, is common to the English article and the older tradition, but the year divides the sources — the English article's text gives 19 December 1911, while Banglapedia gives 1912, Wikidata gives 1912 and the delegation queue gives 1847–1912. The year 1912 is followed here, on Banglapedia and Wikidata, with the English article's 1911 recorded as a variant. The Hijri year (1331) is derived by tabular conversion (19 December 1912 falls in Muharram 1331). Padamdi has no museum place entity yet, so no died_in or buried_in relation is written."
   sources: [source/wikipedia-meer-mosharraf-hossain-en, source/banglapedia-meer-mosharraf-hossain, source/wikidata-meer-mosharraf-hossain]
+relations:
+  - { type: lived_in, target: place/karbala, confidence: low, note: "Associated with كربلاء per the record's own summary text; relation type pending review.", sources: [source/wikipedia-meer-mosharraf-hossain-en] }
 faith:
   - value: unknown
     basis: unknown

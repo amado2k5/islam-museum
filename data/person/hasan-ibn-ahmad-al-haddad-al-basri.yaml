@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"

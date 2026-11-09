@@ -1,0 +1,21 @@
+id: place/batumi
+class: place
+kind: city
+label: { ar: "باطوم", en: "Batumi", ur: "باتومی" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q25475)."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.645833333333, 41.641666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q25475" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q25475 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

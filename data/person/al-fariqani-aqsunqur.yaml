@@ -15,7 +15,8 @@ regions: [egypt-nile]
 faith:
   - value: sunni
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab], confidence: low }
 sources: [source/shadharat-dhahab]
 status:
   review: published

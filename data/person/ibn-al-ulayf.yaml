@@ -11,6 +11,8 @@ roles: [poet]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/yemen, confidence: low, note: "Associated with اليمن per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 faith:
   - value: shia-twelver
     basis: documented

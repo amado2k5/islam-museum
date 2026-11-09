@@ -10,6 +10,7 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 died: { edtf: "1215-07-10~", hijri: "0612-03-02~", calendar: julian, precision: day, status: tradition, derived: true, note: "الخميس 2 ربيع الأول 612؛ التحويل مشتق {cite:nafh-tib-maqqari p. 338}." }
 relations:
+  - { type: lived_in, target: place/seville, confidence: low, note: "Associated with إشبيلية per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
   - { type: student_of, target: person/ibn-hubaysh-hafiz, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research

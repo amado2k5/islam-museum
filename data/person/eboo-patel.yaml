@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born in 1975 in Mumbai, India: the Carnegie Corporation profile and the Hollins University biography both give Mumbai as his birthplace, and Encyclopedia.com gives his birth year as 1975. Wikidata-derived listings give a precise date, 9 November 1975, but that exact day rests on that single derived line, so the record follows year precision and records the day here only as reported there. The English article gives no birth date or birthplace; it records that he grew up in Glen Ellyn, Illinois. No place entity for Mumbai exists in data/place/, so no born_in relation is written. The Hijri year (1395, the year covering most of 1975) is derived by tabular conversion."
   sources: [source/carnegie-eboo-patel, source/wikipedia-eboo-patel-en]
+relations:
+  - { type: born_in, target: place/mumbai, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/carnegie-eboo-patel, source/wikipedia-eboo-patel-en] }
 faith:
   - value: shia-ismaili
     basis: documented

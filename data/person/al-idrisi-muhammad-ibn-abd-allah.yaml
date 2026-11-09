@@ -27,6 +27,7 @@ themes: [geography-and-cartography, history-writing-and-social-thought]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 relations:
+  - { type: ruler_of, target: place/siqilliya, note: "From text: king of Sicily", sources: [source/nuzhat-al-mushtaq-2002, source/mawsuat-a3lam-ulama-adaba, source/tdv-idrisi-serif] }
   - { type: participated_in, target: event/al-idrisi-at-roger-ii-court, role: "الجغرافي", sources: [source/mawsuat-a3lam-ulama-adaba] }
   - { type: participated_in, target: event/nuzhat-al-mushtaq-completed-549, role: "المؤلف", sources: [source/mawsuat-a3lam-ulama-adaba] }
   - { type: born_in, target: place/ceuta, sources: [source/mawsuat-a3lam-ulama-adaba] }

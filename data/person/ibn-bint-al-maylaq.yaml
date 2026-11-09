@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: lived_in, target: place/daher, confidence: low, note: "Associated with الظاهر per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q57658587

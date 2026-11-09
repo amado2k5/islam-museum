@@ -28,7 +28,8 @@ born:
   note: "Born in Swindon, Wiltshire, on 10 July 1979; the English and Arabic articles and Wikidata agree. No place entity for Swindon exists in the museum, so no born_in edge is written. The Hijri year 1399 is the tabular conversion of the built date, marked derived."
   sources: [source/wikipedia-mehdi-hasan-en, source/wikipedia-mehdi-hasan-ar, source/wikidata-mehdi-hasan]
 
-relations: []
+relations:
+  - { type: born_in, target: place/swindon, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mehdi-hasan] }
 
 faith:
   - value: shia-twelver

@@ -32,6 +32,8 @@ died:
   sources: [source/wikipedia-riazuddin-en, source/wikidata-riazuddin]
 relations:
   - { type: student_of, target: person/abdus-salam, sources: [source/wikipedia-riazuddin-en] }
+  - { type: born_in, target: place/ludhiana, sources: [source/wikidata-riazuddin], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q200123)" }
+  - { type: died_in, target: place/islamabad, sources: [source/wikidata-riazuddin], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1362)" }
 faith:
   - value: unknown
     basis: unknown

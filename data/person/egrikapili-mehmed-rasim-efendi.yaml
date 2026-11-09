@@ -13,6 +13,8 @@ regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1687", precision: year, status: tradition, derived: true }
 died: { edtf: "1756", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q5348267

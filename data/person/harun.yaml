@@ -11,6 +11,7 @@ periods: [period/pre-islamic-arabia]
 story_roles:
   - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
 relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Harun, brother of Musa, among Bani Israel of Egypt per the shared narrative; precise locality pending review.", sources: [source/sahih-al-bukhari] }
   - { type: sibling_of, target: person/musa, sources: [source/sahih-al-bukhari] }
 provenance:
   layer: "own-research"

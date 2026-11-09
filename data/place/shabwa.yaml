@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+coordinates: [15.37, 47.03]
+coordinate_precision: approx
+coordinate_note: "Approximate location; the exact classical/modern identification or extent is not fixed to the metre."
 relations:
   - { type: related_to, target: place/shibam, note: "شبام حضرموت سميت بهم بعد أن خرجوا من شبوة {cite:sifat-jazirat-al-arab p. 70}.", sources: [source/sifat-jazirat-al-arab] }
 provenance:
@@ -15,5 +18,5 @@ provenance:
   source: "الهمداني، صفة جزيرة العرب (ط مولر) ص 70"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-geo-sifat-2
-sources: [source/sifat-jazirat-al-arab]
+sources: [source/sifat-jazirat-al-arab, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

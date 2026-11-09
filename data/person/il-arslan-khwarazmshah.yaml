@@ -15,6 +15,7 @@ floruit: { edtf: "1157/1172", calendar: julian, precision: year, status: histori
 external_ids:
   wikidata: Q2629418
 relations:
+  - { type: died_in, target: place/k-ne-rgen, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: ruler_of, target: polity/anushtegin-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
   - { type: child_of, target: person/atsiz-khwarazmshah, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
 sources: [source/ismoilov-xorazmshohlar-tangalari-2025, source/bosworth-new-islamic-dynasties-1996]

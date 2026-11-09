@@ -57,6 +57,7 @@ relations:
     target: place/delhi
     sources:
       - source/wikipedia-nizam-al-din-awliya-en
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-nizam-al-din-awliya-en, source/wikipedia-nizam-al-din-awliya-ar, source/wikipedia-nizam-al-din-awliya-ur, source/wikidata-nizam-al-din-awliya] }
 sources:
   - source/wikipedia-nizam-al-din-awliya-en
   - source/wikipedia-nizam-al-din-awliya-ar

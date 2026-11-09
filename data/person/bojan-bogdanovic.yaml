@@ -20,6 +20,8 @@ born:
 roles: [basketball player]
 regions: [anatolia-balkans, americas-oceania]
 wings: [people, living]
+relations:
+  - { type: born_in, target: place/mostar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bojan-bogdanovic] }
 faith:
   - value: unknown
     basis: unknown

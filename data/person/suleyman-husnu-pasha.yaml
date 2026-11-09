@@ -35,6 +35,7 @@ relations:
   - { type: born_in, target: place/istanbul, note: "He was born at Istanbul in 1838, in the Molla Gürani quarter (Turkish article).", sources: [source/wikipedia-suleyman-husnu-pasha-en, source/wikipedia-suleyman-husnu-pasha-tr] }
   - { type: died_in, target: place/baghdad, note: "He died in exile at Baghdad on 8 August 1892.", sources: [source/wikipedia-suleyman-husnu-pasha-en, source/wikipedia-suleyman-husnu-pasha-tr] }
   - { type: buried_in, target: place/baghdad, note: "The Turkish article says he was buried in the garden of the Imam Abu Yusuf Mosque in Baghdad.", sources: [source/wikipedia-suleyman-husnu-pasha-tr] }
+  - { type: lived_in, target: place/baghdad, sources: [source/wikipedia-suleyman-husnu-pasha-en, source/wikipedia-suleyman-husnu-pasha-tr, source/wikidata-suleyman-husnu-pasha] }
 faith:
   - value: unknown
     basis: unknown

@@ -42,6 +42,8 @@ relations:
   - { type: child_of, target: person/iskandar-muda, sources: [source/wikipedia-taj-al-alam-en, source/wikipedia-taj-al-alam-id, source/wikipedia-taj-al-alam-ar] }
   - { type: successor_of, target: person/iskandar-thani, sources: [source/wikipedia-taj-al-alam-en, source/wikipedia-taj-al-alam-id, source/wikipedia-taj-al-alam-ar] }
 
+
+  - { type: lived_in, target: place/atjeh, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-taj-al-alam-en, source/wikipedia-taj-al-alam-id, source/wikipedia-taj-al-alam-ar, source/wikidata-taj-al-alam] }
 faith:
   - value: unknown
     basis: unknown

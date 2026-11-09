@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/hilla, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12250865

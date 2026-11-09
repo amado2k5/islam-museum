@@ -19,6 +19,7 @@ themes: [history-writing-and-social-thought, philosophy-and-logic, ethics-and-ch
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 relations:
+  - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: authored, target: work/tajarib-al-umam, sources: [source/tajarib-al-umam-surush-v1] }
   - { type: participated_in, target: event/khurasani-ghazis-at-rayy-355, sources: [source/tajarib-al-umam-surush-v6] }
 sources: [source/al-aalam, source/tajarib-al-umam-surush-v1, source/tajarib-al-umam-surush-v6]

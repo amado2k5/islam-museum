@@ -24,6 +24,8 @@ relations:
   - { type: participated_in, target: event/islam-of-rifaa-ibn-zayd-al-judhami, role: "الوافد", sources: [source/ibn-hisham-saqqa] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0628~" }, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: lived_in, target: place/harrat-al-rajla, sources: [source/wikidata], confidence: low, note: "ar: 'من جذام ثم من الضبيب؛ قدم على النبي في هدنة الحديبية قبل خيبر فأهدى له غلاماً وأسلم فحسن إسلامه، وحمل كتا" }
+  - { type: traveled_to, target: place/hudaybiyya, sources: [source/wikidata], confidence: low, note: "ar: 'من جذام ثم من الضبيب؛ قدم على النبي في هدنة الحديبية قبل خيبر فأهدى له غلاماً وأسلم فحسن إسلامه، وحمل كتا" }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 243", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch54" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: published, completeness: 3 }

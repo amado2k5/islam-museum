@@ -34,7 +34,9 @@ died:
   derived: true
   note: "Died on 9 February 1981 at Bombay, of heart failure — the English article narrates his death at his club in Bombay and his cremation by his own wish — and Wikidata agrees on the date. Bombay has no place entity, so no died_in relation is written. The Hijri year (1401) is by tabular conversion."
   sources: [source/wikipedia-m-c-chagla-en, source/wikidata-m-c-chagla]
-relations: []
+relations:
+  - { type: born_in, target: place/mumbai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-m-c-chagla] }
+  - { type: died_in, target: place/mumbai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-m-c-chagla] }
 faith:
   - value: unknown
     basis: unknown

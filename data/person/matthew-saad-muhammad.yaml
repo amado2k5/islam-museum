@@ -33,6 +33,9 @@ died:
   derived: true
   note: "Died on 25 May 2014 in a hospital in Philadelphia, as the English and Arabic articles and Wikidata agree; the English article adds that he had been diagnosed with amyotrophic lateral sclerosis. Philadelphia has no place entity in the museum, so the place of death is carried here only. The Hijri year 1435 is derived from the Gregorian date on the tabular calendar, and matches the Arabic article's death-year category."
   sources: [source/wikipedia-matthew-saad-muhammad-en, source/wikipedia-matthew-saad-muhammad-ar, source/wikidata-matthew-saad-muhammad]
+relations:
+  - { type: born_in, target: place/philadelphia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-matthew-saad-muhammad] }
+  - { type: died_in, target: place/philadelphia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-matthew-saad-muhammad] }
 faith:
   - value: unknown
     basis: unknown

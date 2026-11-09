@@ -23,5 +23,6 @@ relations:
   - { type: member_of, target: group/banu-adi }
   - { type: member_of, target: group/quraysh }
   - { type: traveled_to, target: place/taif, note: "Exiled to the hills above Mecca in the al-Ta'if direction by his own people.", sources: [source/ibn-ishaq-guillaume] }
+  - { type: died_in, target: place/taif, sources: [source/ibn-ishaq-guillaume] }
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

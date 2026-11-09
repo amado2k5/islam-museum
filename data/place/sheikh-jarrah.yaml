@@ -1,0 +1,21 @@
+id: place/sheikh-jarrah
+class: place
+kind: site
+label: { ar: "الشيخ جراح", en: "Sheikh Jarrah", ur: "شیخ جراح" }
+summary:
+  ar: "موقع في دولة فلسطين."
+  en: "Site in Palestine."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [31.79458333, 35.231875]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1026801" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1026801 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

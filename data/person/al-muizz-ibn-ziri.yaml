@@ -12,6 +12,11 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb]
 relations:
+- type: lived_in
+  target: place/maghreb
+  note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review."
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: member_of
   target: group/maghrawa
   note: ابن زيري بن عطية وثاني ملوك فاس.

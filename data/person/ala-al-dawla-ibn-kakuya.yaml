@@ -10,6 +10,14 @@ gender: male
 roles: [ruler]
 relations:
 - type: ruler_of
+  target: place/isfahan
+  note: "From text: king of Isfahan"
+  sources: [source/tarikh-ibn-khaldun-ibar]
+- type: ruler_of
+  target: place/rayy
+  note: "From text: amir of Rayy"
+  sources: [source/tarikh-ibn-khaldun-ibar]
+- type: ruler_of
   target: polity/kakuyid-dynasty
   sources:
   - source/tarikh-ibn-khaldun-ibar

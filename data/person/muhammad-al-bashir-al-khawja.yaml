@@ -17,6 +17,8 @@ periods: [period/colonial-era]
 regions: [maghreb]
 story_roles:
   - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/tunis, sources: [source/wikidata], confidence: low, note: "Nisba تونسي attested in the record." }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

@@ -35,6 +35,7 @@ died:
   sources: [source/wikipedia-mubarak-al-sabah-en, source/wikipedia-mubarak-al-sabah-ar, source/wikipedia-mubarak-al-sabah-ur, source/wikidata-mubarak-al-sabah]
 relations:
   - { type: member_of, target: group/al-sabah, note: "Seventh ruler of the house and the ancestor from whom, under Kuwait's constitution, every Emir must descend (English article); the edge is written to the house group as the museum models it.", sources: [source/wikipedia-mubarak-al-sabah-en, source/wikipedia-mubarak-al-sabah-ar] }
+  - { type: born_in, target: place/kuwait-city, sources: [source/wikidata-mubarak-al-sabah], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35178)" }
 faith:
   - value: unknown
     basis: unknown

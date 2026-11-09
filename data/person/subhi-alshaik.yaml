@@ -23,6 +23,9 @@ wings:
   - living
 regions:
   - americas-oceania
+relations:
+  - { type: lived_in, target: place/sydney, sources: [source/youtube-one-islam-productions, source/edunesia-one4kids-nasyid, source/kalamcast-subhi-alshaik, source/appbrain-one-islam-tv] }
+  - { type: lived_in, target: place/australia, sources: [source/youtube-one-islam-productions, source/edunesia-one4kids-nasyid, source/kalamcast-subhi-alshaik, source/appbrain-one-islam-tv] }
 faith:
   - value: unknown
     basis: unknown

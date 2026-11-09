@@ -37,6 +37,7 @@ regions: [anatolia-balkans]
 roles: [theologian, politician, poet]
 relations:
   - { type: opposed, target: person/uzun-haji, sources: [source/wikipedia-najmuddin-hotsinsky-en, source/wikipedia-uzun-haji-en] }
+  - { type: died_in, target: place/rostov-on-don, sources: [source/wikidata-najmuddin-hotsinsky], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q908)" }
 faith:
   - value: unknown
     basis: unknown

@@ -35,6 +35,9 @@ died:
 gender: male
 roles: [ruler]
 relations:
+  - { type: born_in, target: place/riyadh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fahd-bin-abdulaziz] }
+  - { type: died_in, target: place/king-faisal-specialist-hospital-and-research-centre, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fahd-bin-abdulaziz] }
+  - { type: buried_in, target: place/al-oud-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fahd-bin-abdulaziz] }
   - { type: successor_of, target: person/khalid-bin-abdulaziz, sources: [source/wikipedia-fahd-bin-abdulaziz-en] }
   - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-fahd-bin-abdulaziz-en, source/wikidata-fahd-bin-abdulaziz] }
   - { type: member_of, target: group/al-saud, sources: [source/wikipedia-fahd-bin-abdulaziz-en] }

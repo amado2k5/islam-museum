@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 relations:
+- { type: lived_in, target: place/tlemcen, note: "From text: of Tlemcen", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
 - { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "ثالث ملوك بني عبد الواد — سلطان الحصار الثماني", sources: [source/tarikh-ibn-khaldun-ibar] }
 - { type: "successor_of", target: "person/uthman-ibn-yaghmurasan", note: "خلف أباه سنة 703هـ وسط الحصار", sources: [source/tarikh-ibn-khaldun-ibar] }
 sources:

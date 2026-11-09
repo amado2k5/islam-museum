@@ -12,6 +12,9 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/colonial-era]
 died: { edtf: "1852", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/qazvin, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q181578)" }
+  - { type: died_in, target: place/tehran, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3616)" }
 sources: [source/duha-islam]
 external_ids:
   wikidata: Q255221

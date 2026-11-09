@@ -25,6 +25,8 @@ faith:
     note: "NOT RECORDED AS DOCUMENTED — the Shia attestation traces to a single source family and is not corroborated. Attestations in full: the current English article says only that he was born in Madras into a Muslim family — family background, which does not count. An older revision of that same English article, preserved in mirrors of it (TheFreeDictionary's encyclopedia copy and low-quality biography sites copying it), worded the sentence as 'born in Madras, India as a Shia Muslim'; those copies are one Wikipedia source family, not independent sources, and the current article no longer carries the wording. No independent reputable source naming a school for him, and no supportive context for a Twelver mapping, was found. Under the two-source rule, the Shia-mapping rule and the founder's doubt rule the value stays unknown."
     sources: [source/wikipedia-nasser-hussain-en, source/wikidata-nasser-hussain]
 external_ids: { wikidata: "Q3520174" }
+relations:
+  - { type: born_in, target: place/chennai, sources: [source/wikidata-nasser-hussain], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1352)" }
 sources: [source/wikipedia-nasser-hussain-en, source/wikipedia-nasser-hussain-ar, source/wikipedia-nasser-hussain-ur, source/wikidata-nasser-hussain]
 provenance:
   layer: own-research

@@ -22,3 +22,5 @@ provenance:
 external_ids: { wikidata: "Q130169" }
 sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }

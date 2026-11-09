@@ -19,3 +19,5 @@ story_roles:
 sources: [source/hamasa-abu-tammam-ed-1916]
 status: { review: published, completeness: 1 }
 provenance: { layer: own-research, source: "ديوان الحماسة، طبعة 1916، ص 6", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-hamasa-2" }
+relations:
+  - { type: lived_in, target: place/al-anbar, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/hamasa-abu-tammam-ed-1916] }

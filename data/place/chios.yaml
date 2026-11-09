@@ -1,0 +1,36 @@
+id: place/chios
+class: place
+kind: island
+label:
+  ar: خيوس
+  en: Chios
+  ur: خیوس
+summary:
+  ar: جزيرة في اليونان.
+  en: Greek island in the Aegean Sea.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 38.4
+- 26.0167
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q160483
+  geonames: '259972'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q160483 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q160483 (labels, coordinates, description)

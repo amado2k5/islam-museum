@@ -1,0 +1,35 @@
+id: place/imam-reza-shrine
+class: place
+kind: site
+label:
+  ar: العتبة الرضوية المقدسة
+  en: Imam Reza Shrine
+  ur: مزار امام علی رضا
+summary:
+  ar: موقع في إيران.
+  en: Shrine in Mashhad, Iranian national heritage site.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 36.288
+- 59.6157
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q1791841
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1791841 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1791841 (labels, coordinates, description)

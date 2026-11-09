@@ -19,3 +19,7 @@ sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: born_in, target: place/dania, note: "From text: ولد بدانية نحو سنة ثمانين وأربعمائة", sources: [source/wafayat-ayan, source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/al-mahdiyya, note: "From text: انتقل إلى المهدية فتوفي بها يوم الاثنين ", sources: [source/wafayat-ayan, source/shadharat-dhahab] }
+  - { type: died_in, target: place/al-mahdiyya, note: "From text: توفي بالمهدية يوم الاثنين مستهل سنة ", sources: [source/wafayat-ayan, source/shadharat-dhahab] }

@@ -15,6 +15,8 @@ born:
   { edtf: "0882-07~", hijri: "0269-01", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في محرم 269؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.8}", sources: [source/muntazam-ibn-al-jawzi] }
 died:
   { edtf: "0961-08~", hijri: "0350-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الآخرة 350؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.8}", sources: [source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 350)، قراءة آبل فيجن"

@@ -13,6 +13,8 @@ regions: [south-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1938", precision: year, status: tradition, derived: true }
 died: { edtf: "2024", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/deoband, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1017658)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q115517239

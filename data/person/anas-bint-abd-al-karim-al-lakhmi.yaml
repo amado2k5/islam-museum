@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: lived_in, target: place/iraq, note: "Record regions field is levant-iraq, flagged.", sources: [source/al-aalam], confidence: low }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q13394853

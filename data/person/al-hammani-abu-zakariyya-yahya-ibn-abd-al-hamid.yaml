@@ -29,3 +29,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch52
+relations:
+  - { type: died_in, target: place/samarra, note: "From text: مات بسامراء من المحدثين المُقْدِمين", sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-baghdad-khatib] }
+  - { type: traveled_to, target: place/samarra, note: "From text: moved to Samarra", sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-baghdad-khatib] }

@@ -31,6 +31,7 @@ died:
   note: "Died at Karachi on 8 July 2016; all three articles and Wikidata agree. He received a state funeral, with the Janazah prayer at the National Stadium, Karachi, and was buried at Edhi Village, Karachi; no died_in or buried_in relation is written because Karachi has no museum place entity. The Hijri year (1437) is derived by tabular conversion."
   sources: [source/wikipedia-abdul-sattar-edhi-en, source/wikipedia-abdul-sattar-edhi-ar, source/wikidata-abdul-sattar-edhi]
 relations:
+  - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-abdul-sattar-edhi-en, source/wikipedia-abdul-sattar-edhi-ar, source/wikipedia-abdul-sattar-edhi-ur, source/wikidata-abdul-sattar-edhi], confidence: low }
   - { type: spouse_of, target: person/bilquis-edhi, sources: [source/wikipedia-abdul-sattar-edhi-en, source/wikidata-abdul-sattar-edhi, source/wikipedia-bilquis-edhi-en, source/wikidata-bilquis-edhi] }
 faith:
   - value: unknown

@@ -23,6 +23,7 @@ faith:
 story_roles:
   - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
 relations:
+  - { type: traveled_to, target: place/baghdad, note: "From text: moved to Baghdad", sources: [source/fihrist-ibn-al-nadim, source/maqalat-islamiyyin, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2, source/wafayat-ayan, source/al-ibana-ashari-dar-ibn-zaydun] }
   - { type: born_in, target: place/basra, sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
   - { type: died_in, target: place/baghdad, sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/al-jubbai, role: "أخذ عنه علم الكلام بالبصرة في مدة اعتزاله", sources: [source/wafayat-ayan, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }

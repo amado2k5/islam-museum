@@ -1,0 +1,21 @@
+id: place/tropoj-district
+class: place
+kind: site
+label: { ar: "منطقة تروبويه", en: "Tropojë District", ur: "ضلع تروپویہ" }
+summary:
+  ar: "موقع في ألبانيا."
+  en: "Site in Albania."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [42.383333333333, 20.05]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q123615" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q123615 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

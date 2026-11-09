@@ -17,7 +17,8 @@ faith:
 roles: [preacher]
 wings: [people, living]
 regions: [east-africa]
-relations: []
+relations:
+  - { type: lived_in, target: place/ethiopia, confidence: low, note: "Associated with إثيوبيا per the record's own text; relation type pending review.", sources: [source/facebook-hayder-kedir] }
 sources: [source/facebook-hayder-kedir, source/africa-press-hayder-kedir-iftar, source/tiktok-abdela-shifa-hayder-kedir, source/tiktok-dire-abuhayder-kedir]
 provenance:
   layer: own-research

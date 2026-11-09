@@ -11,6 +11,8 @@ periods: [period/pre-islamic-arabia]
 story_roles:
   - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
 relations:
+  - { type: born_in, target: place/palestine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/palestine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/ibrahim, sources: [source/sahih-al-bukhari] }
 provenance:
   layer: "own-research"

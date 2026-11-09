@@ -37,6 +37,9 @@ faith:
     note: "FLAGGED — the Sunni reading stands one attestation short, for the founder's word (the family-framing-only configuration of khan-abdul-ghaffar-khan, wave 70 §B). The word 'Sunni' occurs in the English article's text exactly once, attached to his family and not to him: he was 'born ... to a Sunni Muslim Fulani family' — family background, which never counts. The English and Arabic articles file him under 'Nigerian Sunni Muslims' categories (filings), and Wikidata carries a single structured value, Sunni Islam (Q483654), plausibly an echo of the same framing. No independent text names Shagari himself Sunni, so under the two-source rule the value stays unknown with both readings preserved here; one founder word accepts the framing family and settles the segment as sunni/documented."
     sources: [source/wikipedia-shehu-shagari-en, source/wikipedia-shehu-shagari-ar, source/wikidata-shehu-shagari]
 external_ids: { wikidata: "Q380668" }
+relations:
+  - { type: born_in, target: place/shagari, sources: [source/wikidata-shehu-shagari], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7461162)" }
+  - { type: died_in, target: place/abuja, sources: [source/wikidata-shehu-shagari], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3787)" }
 sources: [source/wikipedia-shehu-shagari-en, source/wikipedia-shehu-shagari-ar, source/wikidata-shehu-shagari]
 provenance:
   layer: own-research

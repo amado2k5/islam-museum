@@ -72,3 +72,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: "modern-figures-wave-166j"
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name (الفارسي); denotes association, not proven residence.", sources: [source/wikipedia-abol-qasem-qaem-maqam-en, source/wikipedia-abol-qasem-qaem-maqam-ar, source/wikipedia-abol-qasem-qaem-maqam-ur, source/wikidata-abol-qasem-qaem-maqam], confidence: low }

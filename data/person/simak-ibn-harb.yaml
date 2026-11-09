@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 died: { edtf: "0740", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12216765

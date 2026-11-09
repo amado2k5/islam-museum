@@ -16,6 +16,8 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 relations:
+  - { type: buried_in, target: place/badr, note: "From text: دُفن في داره بدرب الزرادين {cite:munta", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: lived_in, target: place/baghdad, note: "From text: qadi of Baghdad", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: participated_in, target: event/shahanshah-laqab-429, role: "الفقيه المجيز", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

@@ -13,6 +13,7 @@ roles: [scholar]
 periods: [period/colonial-era]
 floruit: { edtf: "1938", calendar: gregorian, precision: year, status: historical, note: "Study published 1938 {cite:britton-early-islamic-textiles-mfa-boston-1938 p. 1}.", sources: [source/britton-early-islamic-textiles-mfa-boston-1938] }
 relations:
+  - { type: lived_in, target: place/boston, sources: [source/britton-early-islamic-textiles-mfa-boston-1938] }
   - { type: authored, target: work/britton-early-islamic-textiles-mfa-boston, sources: [source/britton-early-islamic-textiles-mfa-boston-1938] }
 sources: [source/britton-early-islamic-textiles-mfa-boston-1938]
 provenance:

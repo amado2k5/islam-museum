@@ -1,0 +1,21 @@
+id: place/washington-heights
+class: place
+kind: city
+label: { ar: "واشنطن هايتس", en: "Washington Heights", ur: "واشنگٹن ہائٹس، مین ہٹن" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q1370292)."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [40.841666666667, -73.9375]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1370292" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1370292 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

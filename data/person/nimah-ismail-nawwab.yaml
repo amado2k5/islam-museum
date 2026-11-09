@@ -29,6 +29,8 @@ faith:
     note: "The English article files Nawwab in its category for Saudi Arabian Sufis, and her second book is a collection of mystic poems inspired by Sufism. A category filing and the themes of a writer's work are not attestation of personal affiliation, and no source read names an order or school for her in biographical prose. Wikidata carries no religion statement for her. Recorded as unknown."
     sources: [source/wikipedia-nimah-ismail-nawwab-en, source/wikidata-nimah-ismail-nawwab]
 external_ids: { wikidata: "Q64364380" }
+relations:
+  - { type: born_in, target: place/malaysia, sources: [source/wikidata-nimah-ismail-nawwab], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q833)" }
 sources: [source/wikipedia-nimah-ismail-nawwab-en, source/wikipedia-nimah-ismail-nawwab-ar, source/wikidata-nimah-ismail-nawwab]
 provenance:
   layer: own-research

@@ -9,6 +9,7 @@ wings: [people]
 story_roles:
   - { role: companion, status: tradition, sources: [source/sahih-al-bukhari] }
 relations:
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (قرشي); denotes association, not proven residence.", sources: [source/sahih-al-bukhari], confidence: low }
   - { type: participated_in, target: event/uthman-standardizes-mushaf, sources: [source/sahih-al-bukhari] }
 provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4987", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-1" }
 external_ids: { wikidata: "Q22688793" }

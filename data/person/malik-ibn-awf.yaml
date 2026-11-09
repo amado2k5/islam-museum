@@ -23,6 +23,7 @@ faith:
   - { value: arabian-polytheism, basis: documented, end: { edtf: "0630" }, sources: [source/watt-1956-medina] }
   - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: lived_in, target: place/al-jirana, confidence: low, note: "Associated with al-Ji'rana per the record's own summary text; relation type pending review.", sources: [source/ibn-ishaq-guillaume] }
   - { type: member_of, target: group/hawazin }
   - { type: fought, target: group/early-muslims, start: { edtf: "0630" }, end: { edtf: "0630" }, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/battle-of-hunayn, role: hawazin-commander, sources: [source/ibn-ishaq-guillaume] }

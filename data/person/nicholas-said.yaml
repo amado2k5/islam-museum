@@ -40,7 +40,9 @@ faith:
     basis: documented
     note: "Born and raised a Muslim in Bornu, Said performed the pilgrimage to Mecca while enslaved to an Ottoman master, and the English article, drawing on his autobiography, records that in his memoirs he reflected on his conversion from Islam to Christianity in Riga. The French article independently records the same turning point in its text: baptised at Riga on 31 October 1855, he took the name Nicholas and became an Orthodox Christian, a change of name and identity he kept for the rest of his life, through his Russian service, his emigration to America and his Civil War years. Two independent texts therefore attest his current affiliation as Christian, and the museum records the current affiliation, with the full itinerary — Bornu Muslim childhood, the Mecca pilgrimage, the 1855 Riga baptism — preserved here and in the prose. No source read attests a return to Islam, and no source names a Muslim school for him."
     sources: [source/wikipedia-nicholas-said-en, source/wikipedia-nicholas-said-fr]
-relations: []
+relations:
+  - { type: born_in, target: place/kukawa, sources: [source/wikidata-nicholas-said], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q128665)" }
+  - { type: died_in, target: place/brownsville, sources: [source/wikidata-nicholas-said], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q476804)" }
 sources: [source/wikipedia-nicholas-said-en, source/wikipedia-nicholas-said-fr, source/wikidata-nicholas-said]
 external_ids:
   wikidata: "Q62088432"

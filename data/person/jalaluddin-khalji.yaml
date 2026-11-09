@@ -36,6 +36,9 @@ died:
   sources:
     - source/wikipedia-jalaluddin-khalji-en
     - source/wikidata-jalaluddin-khalji
+relations:
+  - { type: born_in, target: place/afghanistan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jalaluddin-khalji] }
+  - { type: buried_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jalaluddin-khalji] }
 faith:
   - value: unknown
     basis: unknown

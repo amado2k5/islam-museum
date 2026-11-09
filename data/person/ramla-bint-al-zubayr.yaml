@@ -14,6 +14,7 @@ themes: [women, family-marriage-kinship, politics-governance-and-authority]
 periods: [period/rashidun, period/umayyad]
 regions: [arabia, levant-iraq]
 relations:
+  - { type: lived_in, target: place/mecca, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: child_of, target: person/zubayr-ibn-al-awwam, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: sibling_of, target: person/musab-ibn-al-zubayr, note: "أخت مصعب لأمه {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 467}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: related_to, target: person/abdullah-ibn-uthman-ibn-affan, note: "ابنها عبد الله بن عثمان؛ تذكر الترجمة أنه زوج سكينة بنت الحسين وأن أمه رملة بنت الزبير {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 467}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }

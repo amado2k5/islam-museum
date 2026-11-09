@@ -23,6 +23,7 @@ born:
   sources: [source/wikipedia-vieux-farka-toure-en, source/wikipedia-vieux-farka-toure-fr, source/wikidata-vieux-farka-toure]
 relations:
   - { type: child_of, target: person/ali-farka-toure, sources: [source/wikipedia-vieux-farka-toure-en, source/wikidata-vieux-farka-toure] }
+  - { type: born_in, target: place/niafunk, sources: [source/wikidata-vieux-farka-toure], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3100146)" }
 faith:
   - value: unknown
     basis: unknown

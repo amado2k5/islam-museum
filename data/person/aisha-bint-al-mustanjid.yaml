@@ -25,3 +25,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch85
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Court/dynasty seat inferred from dynastic affiliation in record; flagged for review.", sources: [source/shadharat-dhahab], confidence: low }

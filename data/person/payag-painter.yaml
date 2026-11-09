@@ -12,6 +12,8 @@ gender: male
 roles: [artist]
 relations:
   - { type: patronized_by, target: person/shah-jahan-mughal, sources: [source/beach-grand-mogul-1978] }
+
+  - { type: lived_in, target: place/mashhad, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/beach-grand-mogul-1978] }
 sources: [source/beach-grand-mogul-1978]
 provenance:
   layer: own-research

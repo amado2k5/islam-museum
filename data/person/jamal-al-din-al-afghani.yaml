@@ -13,6 +13,10 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [persia-central-asia, egypt-nile]
+relations:
+  - { type: born_in, target: place/asadabad-afghanistan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/kabul-province, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
   wikidata: Q298434
 sources: [source/al-aalam]

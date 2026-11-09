@@ -18,6 +18,7 @@ died:
   hijri: "0234"
   calendar: julian
 relations:
+  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/tabaqat-shafiiyya-subki, source/mizan-itidal-bijawi-v3], confidence: low }
   - { type: student_of, target: person/sufyan-ibn-uyayna, sources: [source/tabaqat-shafiiyya-subki] }
   - { type: student_of, target: person/hushaim-ibn-bashir, sources: [source/tabaqat-shafiiyya-subki] }
   - { type: student_of, target: person/yahya-ibn-said-al-qattan, sources: [source/tabaqat-shafiiyya-subki] }

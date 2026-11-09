@@ -18,6 +18,7 @@ regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
 relations:
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/al-muntazam-ibn-al-jawzi, sources: [source/encyclopaedia-of-islam-2] }
   - { type: born_in, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/ibn-jawzi-muktafi-career-530, role: "الواعظ الناشئ", sources: [source/encyclopaedia-of-islam-2] }

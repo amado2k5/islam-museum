@@ -12,6 +12,8 @@ wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1349", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80985)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q131692665

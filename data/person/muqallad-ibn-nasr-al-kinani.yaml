@@ -13,5 +13,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة مخلص الدولة الكناني)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-23
+relations:
+  - { type: lived_in, target: place/shaizar, sources: [source/wafayat-ayan] }
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

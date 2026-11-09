@@ -31,6 +31,9 @@ died:
   derived: true
   note: "The Arabic article, the French article's infobox and Wikidata give 17 October 1908, at El Aioun Sidi Mellouk near Oujda; the French article's text gives 7 October 1908. The 17 October date, carried by three of the four witnesses, is followed. El Aioun has no place entity, so no died_in edge is written."
   sources: [source/wikipedia-cheikh-bouamama-ar, source/wikipedia-cheikh-bouamama-fr, source/wikidata-cheikh-bouamama, source/wikipedia-cheikh-bouamama-en]
+relations:
+  - { type: born_in, target: place/figuig, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cheikh-bouamama] }
+  - { type: died_in, target: place/el-aioun-sidi-mellouk, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cheikh-bouamama] }
 faith:
   - value: unknown
     basis: unknown

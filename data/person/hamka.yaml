@@ -30,6 +30,7 @@ died:
   note: "Gregorian date from English Wikipedia and Wikidata. The Hijri year is derived by conversion (repository converter, scripts/hijri/convert.ts); no source in hand states it."
   sources: [source/wikipedia-hamka-en, source/wikidata-hamka]
 relations:
+  - { type: died_in, target: place/jakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamka] }
   - { type: lived_in, target: place/jakarta, sources: [source/wikipedia-hamka-en] }
   - { type: child_of, target: person/abdul-karim-amrullah, sources: [source/wikipedia-hamka-en, source/wikidata-hamka] }
 faith:

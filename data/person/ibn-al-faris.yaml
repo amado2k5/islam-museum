@@ -13,6 +13,8 @@ themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 died: { edtf: "1440-01~", hijri: "0843-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في شعبان 843 وقد نيف على الخمسين {cite:shadharat-dhahab p. 248}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with Cairo per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 843)، قراءة آبل فيجن"

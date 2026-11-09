@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+relations:
+  - { type: lived_in, target: place/yunin, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q20422645

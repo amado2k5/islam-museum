@@ -1,0 +1,21 @@
+id: place/umarkot-fort
+class: place
+kind: site
+label: { ar: "قلعة عمركوت", en: "Umarkot Fort", ur: "عمرکوٹ" }
+summary:
+  ar: "موقع في باكستان."
+  en: "Site in Pakistan."
+wings: [place]
+regions: [south-asia]
+coordinates: [25.36361111, 69.73388889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q7881165" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7881165 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

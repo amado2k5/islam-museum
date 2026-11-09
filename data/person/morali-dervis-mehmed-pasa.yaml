@@ -13,6 +13,9 @@ regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1729", precision: year, status: tradition, derived: true }
 died: { edtf: "1777", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/aksaray, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q123751)" }
+  - { type: died_in, target: place/chios, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q160483)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q6585067

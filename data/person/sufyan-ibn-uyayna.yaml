@@ -8,6 +8,8 @@ wings: [people]
 periods: [period/abbasid-early]
 relations:
   - { type: participated_in, target: event/fuqaha-consulta-on-cyprus, role: "أفتى بأن الناقض لا ذمة له", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 212–213"

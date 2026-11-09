@@ -14,3 +14,5 @@ provenance:
   source: "salabi-umayyad-state-2020 pp. 83-84"
   generated_by: "Claude (Haiku 5.5, subagent)"
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 pp. 83-84; the book gives no exact dates for his governorship" }
+relations:
+  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/salabi-umayyad-state-2020], confidence: low }

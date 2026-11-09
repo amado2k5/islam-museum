@@ -14,6 +14,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 relations:
   - { type: child_of, target: person/alp-arslan, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: died_in, target: place/rayy, sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab] }
 sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab]
 provenance:
   layer: own-research

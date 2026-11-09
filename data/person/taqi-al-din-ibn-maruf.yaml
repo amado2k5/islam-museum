@@ -34,6 +34,9 @@ inventions:
     role: improver
     note: "Decimal-angle/function/table application in Jarida/Tashil, not invention of decimals or claim that sexagesimal Sidra is decimal."
     sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
 sources: [source/al-aalam, source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid, source/tekeli-trigonometry-1986, source/taqi-turuq-hasan-1976, source/cabeza-pump-2021]
 external_ids:
   wikidata: Q1379164

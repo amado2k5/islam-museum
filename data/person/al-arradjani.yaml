@@ -18,3 +18,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 708, entry 'AL-ARRADJANI' (signed A. S. Tritton) (EI2 entry, batch ei2-b013 part 25, seq 352)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/tustar, note: "From text: judge of Tustar", sources: [source/encyclopaedia-of-islam-2] }

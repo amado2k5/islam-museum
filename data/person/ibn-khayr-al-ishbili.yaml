@@ -17,6 +17,8 @@ periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/seville, confidence: low, note: "Associated with إشبيلية per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

@@ -6,5 +6,7 @@ summary:
   en: "Al-Athram — Ibn Hanbal's companion whose Sunan follows his master's madhhab {cite:fihrist-ibn-al-nadim}"
 wings: [people]
 external_ids: { wikidata: "Q12177854" }
-sources: [source/fihrist-ibn-al-nadim]
+sources: [source/fihrist-ibn-al-nadim, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

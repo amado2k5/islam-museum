@@ -1,0 +1,16 @@
+id: place/marylebone
+class: place
+kind: city
+label: { en: "Marylebone", ar: "مرليبون" }
+summary:
+  en: "Inner-city area of central London."
+  ar: "مدينة في المملكة المتحدة."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [51.5177, -0.147]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q123634", geonames: "6545170" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q123634 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

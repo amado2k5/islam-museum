@@ -24,6 +24,7 @@ born:
   note: "The English, Indonesian and Chinese articles and Wikidata agree on 12 May 1929, born at Malang in East Java. The date falls within the Hijri year 1347, which is given as the tabular conversion, marked derived."
   sources: [source/wikipedia-mochtar-riady-en, source/wikipedia-mochtar-riady-id, source/wikidata-mochtar-riady]
 relations:
+  - { type: born_in, target: place/malang, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mochtar-riady] }
   - { type: born_in, target: place/malang, sources: [source/wikipedia-mochtar-riady-id, source/wikidata-mochtar-riady] }
 faith:
   - value: christian

@@ -18,6 +18,7 @@ themes: [scripture-and-its-sciences]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq, egypt-nile]
 relations:
+  - { type: buried_in, target: place/sufism-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/aleppo, sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
   - { type: student_of, target: person/al-nawawi, sources: [source/durar-kamina-jil-1993] }

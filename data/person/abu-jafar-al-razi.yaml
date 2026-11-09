@@ -15,6 +15,8 @@ regions: [persia-central-asia]
 periods: [period/abbasid-early]
 themes: [scripture-and-its-sciences]
 relations:
+  - { type: born_in, target: place/basra, note: "From text: born in Basra", sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: lived_in, target: place/rayy, note: "From text: settled in Rayy", sources: [source/mizan-itidal-bijawi-v3] }
   - { type: born_in, target: place/basra, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: lived_in, target: place/rayy, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: student_of, target: person/qatada-ibn-diama, sources: [source/mizan-itidal-bijawi-v3] }

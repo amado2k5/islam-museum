@@ -35,6 +35,8 @@ died:
   sources: [source/wikipedia-haji-shariatullah-en, source/banglapedia-shariatullah-haji, source/wikidata-haji-shariatullah]
 
 relations:
+  - { type: born_in, target: place/faridpur-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-haji-shariatullah] }
+  - { type: died_in, target: place/dhaka, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-haji-shariatullah] }
   - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-haji-shariatullah-en, source/banglapedia-shariatullah-haji] }
 
 faith:

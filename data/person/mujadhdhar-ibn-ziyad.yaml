@@ -13,7 +13,8 @@ regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
 relations:
- - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: lived_in, target: place/medina, confidence: low, note: "Companion in the Prophet-era Medinan community (regions: arabia).", sources: [source/al-aalam] }
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
 external_ids:
   wikidata: Q12192299
 provenance:

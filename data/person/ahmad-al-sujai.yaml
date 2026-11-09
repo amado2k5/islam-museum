@@ -13,6 +13,7 @@ roles: [scholar]
 periods: [period/gunpowder-empires]
 died: { edtf: "1782", hijri: "1197", calendar: gregorian, precision: year, status: historical, derived: true, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
 relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006], confidence: low }
   - { type: authored, target: work/hidayat-uli-al-basair-wal-absar, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
 sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
 provenance:

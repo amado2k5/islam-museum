@@ -1,19 +1,34 @@
 id: place/fasa
 class: place
 kind: town
-label: { ar: "فسا", en: "Fasa" }
+label:
+  ar: فسا
+  en: Fasa
 summary:
-  ar: "فسا بلد بفارس؛ صالحه عظيمها على مثل صلح دارابجرد ويقال إن الهربذ صالح عليها."
-  en: "Fasa of Fars; its great-man truced Uthman on Darabjird's terms — some say the Hirbadh himself truced it."
-regions: [persia-central-asia]
-wings: [place]
+  ar: فسا بلد بفارس؛ صالحه عظيمها على مثل صلح دارابجرد ويقال إن الهربذ صالح عليها.
+  en: Fasa of Fars; its great-man truced Uthman on Darabjird's terms — some say the Hirbadh himself truced it.
+regions:
+- persia-central-asia
+wings:
+- place
+coordinates:
+- 28.93599
+- 53.65052
+coordinate_precision: approx
+coordinate_note: Matched to Wikidata Q721034 by name; coordinates approximate until verified against a gazetteer.
 external_ids:
-  nomisma: "fasa"
-sources: [source/futuh-buldan-maarif-1407, source/nomisma]
-status: { review: draft, completeness: 1 }
+  wikidata: Q721034
+  nomisma: fasa
+sources:
+- source/futuh-buldan-maarif-1407
+- source/wikidata
+- source/nomisma
+status:
+  review: draft
+  completeness: 1
 provenance:
   layer: own-research
-  source: "فتوح البلدان، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  source: فتوح البلدان، قراءة آبل فيجن
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
   run: lib-futuh-buldan-prose-b8
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+  extraction_flow: Apple Vision OCR -> manual extraction

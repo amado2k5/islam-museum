@@ -15,6 +15,7 @@ regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 died: { edtf: "1453", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة قتله على البطاقة الأولية؛ تحتاج تحقيقاً على الصفحة", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/conquest-constantinople-857, role: "الوزير المعارض للاستمرار", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi]
 external_ids:

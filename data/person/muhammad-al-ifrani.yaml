@@ -36,9 +36,10 @@ died:
   sources: [source/wikipedia-muhammad-al-ifrani-en, source/wikipedia-muhammad-al-ifrani-fr, source/wikipedia-muhammad-al-ifrani-ar, source/wikipedia-muhammad-al-ifrani-pt, source/wikipedia-muhammad-al-ifrani-ca, source/wikipedia-muhammad-al-ifrani-nl]
 
 relations:
+
   - { type: born_in, target: place/marrakesh, sources: [source/wikipedia-muhammad-al-ifrani-en, source/wikipedia-muhammad-al-ifrani-ar] }
   - { type: died_in, target: place/marrakesh, sources: [source/wikipedia-muhammad-al-ifrani-ar, source/wikipedia-muhammad-al-ifrani-pt] }
-
+  - { type: lived_in, target: place/marrakesh, sources: [source/wikipedia-muhammad-al-ifrani-en, source/wikipedia-muhammad-al-ifrani-fr, source/wikipedia-muhammad-al-ifrani-ar, source/wikipedia-muhammad-al-ifrani-pt, source/wikipedia-muhammad-al-ifrani-ca, source/wikipedia-muhammad-al-ifrani-nl, source/wikidata-muhammad-al-ifrani] }
 faith:
   - value: unknown
     basis: unknown

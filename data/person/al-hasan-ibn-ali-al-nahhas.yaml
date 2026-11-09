@@ -16,3 +16,5 @@ provenance:
   run: lib-muntazam-258-349-batch38
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: died_in, target: place/misr, note: "From text: died in Egypt", sources: [source/muntazam-ibn-al-jawzi] }

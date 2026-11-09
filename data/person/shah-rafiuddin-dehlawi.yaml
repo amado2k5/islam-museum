@@ -44,6 +44,7 @@ died:
 relations:
   - { type: child_of, target: person/shah-waliullah-al-dahlawi, sources: [source/wikipedia-shah-rafiuddin-dehlawi-ur, source/wikipedia-rafiuddin-dehlawi-ar, source/wikidata-shah-rafiuddin-dehlawi] }
 
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-shah-rafiuddin-dehlawi-ur, source/wikipedia-rafiuddin-dehlawi-ar, source/wikidata-shah-rafiuddin-dehlawi, source/wikidata-rafiuddin-dehlawi-ar] }
 faith:
   - value: sufi
     basis: documented

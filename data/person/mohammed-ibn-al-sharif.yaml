@@ -31,6 +31,7 @@ relations:
   - { type: sibling_of, target: person/al-rashid-of-morocco, sources: [source/wikipedia-mohammed-ibn-al-sharif-en, source/wikipedia-mohammed-ibn-al-sharif-fr] }
   - { type: sibling_of, target: person/moulay-ismail, sources: [source/wikipedia-mohammed-ibn-al-sharif-fr] }
 
+  - { type: ruled_over, target: place/tafilalt, sources: [source/wikipedia-mohammed-ibn-al-sharif-en], confidence: low, note: "Ruler of Tafilalt from 1636, crowned emir 1640, extended rule over the Draa, Oujda and Tuat per the record text." }
 faith:
   - value: unknown
     basis: unknown

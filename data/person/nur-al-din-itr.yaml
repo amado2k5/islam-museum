@@ -13,6 +13,10 @@ regions: [levant-iraq]
 periods: [period/contemporary-era]
 born: { edtf: "1937", precision: year, status: tradition, derived: true }
 died: { edtf: "2020", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q41183)" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+  - { type: buried_in, target: place/shekh-rislan-cemetry, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q104706527)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q99540872

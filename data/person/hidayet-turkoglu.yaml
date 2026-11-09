@@ -19,6 +19,9 @@ born:
   note: "Born on 19 March 1979 at Istanbul, Turkey: the English, Turkish and Arabic articles and Wikidata agree on the day and the city. The district is read two ways — the English article's infobox gives Gaziosmanpaşa, while Wikidata's birthplace value is Bayrampaşa; both are Istanbul districts, the city-level fact is agreed, and the discrepancy is preserved here. The Hijri year 1399 is a tabular conversion of the followed date, marked derived."
   sources: [source/wikipedia-hidayet-turkoglu-en, source/wikipedia-hidayet-turkoglu-tr, source/wikidata-hidayet-turkoglu]
 relations:
+  - { type: born_in, target: place/bayrampa-a, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hidayet-turkoglu] }
+  - { type: lived_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hidayet-turkoglu] }
+  - { type: lived_in, target: place/gaziosmanpa-a, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hidayet-turkoglu] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-hidayet-turkoglu-en, source/wikidata-hidayet-turkoglu] }
 roles: [basketball player, basketball executive]
 regions: [anatolia-balkans, americas-oceania]

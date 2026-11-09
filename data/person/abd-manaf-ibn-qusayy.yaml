@@ -12,6 +12,7 @@ themes: [family-marriage-kinship]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: low }
   - { type: child_of, target: person/qusayy-ibn-kilab }
   - { type: member_of, target: group/quraysh }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]

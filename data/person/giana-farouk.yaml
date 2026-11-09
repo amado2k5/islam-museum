@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born 10 December 1994 (English and Arabic articles; Wikidata). No birthplace is recorded in the English or Arabic article or in Wikidata as read, so no birthplace is asserted. The Hijri year 1415 is the tabular conversion of 10 December 1994 and is marked derived."
   sources: [source/wikipedia-giana-farouk-en, source/wikipedia-giana-farouk-ar, source/wikidata-giana-farouk]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/wikipedia-giana-farouk-en] }
 faith:
   - value: unknown
     basis: unknown

@@ -32,6 +32,8 @@ died:
   note: "Died at Cairo on 27 July 1980, of lymphoma, after exile in Egypt, Morocco, the Bahamas, Mexico, the United States and Panama; he was buried in Cairo's al-Rifa'i Mosque (no building entity exists, so no buried_in edge is written). The articles and Wikidata agree on the date. The Hijri year (1400) is derived by tabular conversion."
   sources: [source/wikipedia-pahlavi-en, source/wikipedia-pahlavi-ar, source/wikidata-pahlavi]
 relations:
+  - { type: born_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/masjid-al-rifai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-pahlavi-en, source/wikipedia-pahlavi-ar] }
 faith:
   - value: unknown

@@ -18,6 +18,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "من أوائل المسلمين؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: low }
   - { type: sibling_of, target: person/uthman-ibn-mazun, sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/banu-jumah, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين مع أخيه عثمان", sources: [source/mubarakpuri-raheeq] }

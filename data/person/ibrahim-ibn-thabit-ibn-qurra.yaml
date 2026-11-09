@@ -8,6 +8,8 @@ gender: male
 roles: [physician]
 wings: [people]
 periods: [period/abbasid-early]
+relations:
+  - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الأول (عارضة 2 داخل ترجمة ثابت بن قرة)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

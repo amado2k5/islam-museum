@@ -27,6 +27,7 @@ faith:
     note: "Thinner than the Khan configuration, unflagged. No consulted text states Abdulsalami Abubakar's religion at all: the English article says nothing about it anywhere (no text, no infobox value), the Arabic stub's infobox religion field is blank, and the Arabic article files him under 'Nigerian Muslims' (a category filing); Wikidata gives a single structured value, Islam. Filings and a structured value never count, and no source used names a school or madhhab, so under the two-source rule the value stays unknown."
     sources: [source/wikipedia-abdulsalami-abubakar-en, source/wikipedia-abdulsalami-abubakar-ar, source/wikidata-abdulsalami-abubakar]
 relations:
+  - { type: lived_in, target: place/nigeria, note: "From text: Nigerian (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-abdulsalami-abubakar-en, source/wikipedia-abdulsalami-abubakar-ar, source/wikidata-abdulsalami-abubakar], confidence: low }
   - { type: successor_of, target: person/sani-abacha, sources: [source/wikipedia-abdulsalami-abubakar-en] }
 external_ids: { wikidata: "Q262346" }
 sources: [source/wikipedia-abdulsalami-abubakar-en, source/wikipedia-abdulsalami-abubakar-ar, source/wikidata-abdulsalami-abubakar]

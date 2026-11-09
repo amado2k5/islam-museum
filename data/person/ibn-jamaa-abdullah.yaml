@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 born: { edtf: "1377~", hijri: "0779", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد ببيت المقدس 779 {cite:shadharat-dhahab p. 305}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1461-06-15~", hijri: "0865-09-03", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي اليوم الثالث من رمضان 865 {cite:shadharat-dhahab p. 306}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/jerusalem, confidence: low, note: "Associated with القدس per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 865)، قراءة آبل فيجن"

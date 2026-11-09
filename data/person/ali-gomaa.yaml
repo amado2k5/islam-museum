@@ -45,3 +45,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-ali-gomaa-en, source/wikipedia-ali-gomaa-ar, source/wikidata-ali-gomaa]
+relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/wikipedia-ali-gomaa-en, source/wikipedia-ali-gomaa-ar, source/wikidata-ali-gomaa], confidence: low }

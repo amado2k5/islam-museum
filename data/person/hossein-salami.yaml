@@ -29,6 +29,10 @@ died:
   derived: true
   note: "Killed on 13 June 2025 in Tehran in an Israeli airstrike at the start of the Twelve-Day War, attested by the English and Arabic articles and by Wikidata's death statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1446 AH."
   sources: [source/wikipedia-hossein-salami-en, source/wikipedia-hossein-salami-ar, source/wikidata-hossein-salami]
+relations:
+  - { type: born_in, target: place/golpayegan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hossein-salami] }
+  - { type: died_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hossein-salami] }
+  - { type: buried_in, target: building/shah-abdol-azim-shrine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hossein-salami] }
 faith:
   - value: unknown
     basis: unknown

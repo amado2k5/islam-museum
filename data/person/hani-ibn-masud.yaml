@@ -12,6 +12,7 @@ themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/banu-shayban }
   - { type: protected, target: person/al-numan-ibn-al-mundhir, note: "أودعه أهله وماله فحماهم.", sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/battle-of-dhu-qar, role: "قائد بني شيبان المنتصرين", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }

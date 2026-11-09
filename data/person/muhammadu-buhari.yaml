@@ -37,6 +37,8 @@ faith:
     sources: [source/wikipedia-muhammadu-buhari-en, source/wikipedia-muhammadu-buhari-ar, source/wikidata-muhammadu-buhari]
 relations:
   - { type: successor_of, target: person/shehu-shagari, sources: [source/wikipedia-muhammadu-buhari-en] }
+
+  - { type: lived_in, target: place/bukhara, confidence: low, note: "Association inferred from the nisba 'بخاري'; specific birthplace or residence is not individually documented.", sources: [source/wikipedia-muhammadu-buhari-en, source/wikipedia-muhammadu-buhari-ar, source/wikipedia-muhammadu-buhari-ur, source/wikidata-muhammadu-buhari] }
 external_ids: { wikidata: "Q361567" }
 sources: [source/wikipedia-muhammadu-buhari-en, source/wikipedia-muhammadu-buhari-ar, source/wikipedia-muhammadu-buhari-ur, source/wikidata-muhammadu-buhari]
 provenance:

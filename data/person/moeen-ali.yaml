@@ -19,6 +19,8 @@ born:
   derived: true
   note: "Born on 18 June 1987 in Sparkhill, Birmingham, England, per the English and Urdu Wikipedia articles and Wikidata. No place entity for Birmingham exists in data/place/, so no born_in relation is written. The Hijri year (1407) is derived by tabular conversion."
   sources: [source/wikipedia-moeen-ali-en, source/wikipedia-moeen-ali-ur, source/wikidata-moeen-ali]
+relations:
+  - { type: born_in, target: place/birmingham, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-moeen-ali] }
 faith:
   - value: unknown
     basis: unknown

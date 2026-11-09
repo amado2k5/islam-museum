@@ -29,6 +29,9 @@ died:
   derived: true
   note: "Death date and Dakar from English Wikipedia and Wikidata. Dakar has no place entity in the museum yet, so no died_in relation is written. The Hijri year (1406) is derived by tabular conversion."
   sources: [source/wikipedia-cheikh-anta-diop-en, source/wikidata-cheikh-anta-diop]
+relations:
+  - { type: born_in, target: place/diourbel, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cheikh-anta-diop] }
+  - { type: died_in, target: place/dakar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cheikh-anta-diop] }
 faith:
   - value: unknown
     basis: unknown

@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/iran, confidence: low, note: "Persian calligrapher (al-A'lam; regions: persia-central-asia).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q111584797
 provenance:

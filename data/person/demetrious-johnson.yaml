@@ -24,6 +24,8 @@ born:
   sources: [source/wikipedia-demetrious-johnson-en, source/wikipedia-demetrious-johnson-ar, source/wikidata-demetrious-johnson]
 gender: male
 roles: [mixed martial artist]
+relations:
+  - { type: born_in, target: place/madisonville, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-demetrious-johnson] }
 faith:
   - value: unknown
     basis: unknown

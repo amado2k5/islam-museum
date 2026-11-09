@@ -1,0 +1,21 @@
+id: place/jafarabad
+class: place
+kind: town
+label: { ar: "جعفر آباد", en: "Jafarabad", ur: "جعفرآباد، پاکستان" }
+summary:
+  ar: "بلدة في باكستان."
+  en: "Town in Pakistan."
+wings: [place]
+regions: [south-asia]
+coordinates: [28.156388888889, 67.884722222222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4159970" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4159970 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

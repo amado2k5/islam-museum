@@ -17,7 +17,8 @@ roles: [businessman, journalist]
 wings: [people, living]
 regions: [south-asia]
 
-relations: []
+relations:
+  - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/muckrack-amir-jahangir-bio, source/aibs-amir-jahangir-profile, source/ppf-rinstra-amir-jahangir], confidence: low }
 
 faith:
   - value: unknown

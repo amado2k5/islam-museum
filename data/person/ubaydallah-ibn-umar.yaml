@@ -7,6 +7,7 @@ summary:
 periods: [period/rashidun]
 relations:
   - { type: child_of, target: person/umar-ibn-al-khattab }
+  - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 3 }

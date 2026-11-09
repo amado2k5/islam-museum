@@ -12,6 +12,7 @@ wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
 relations:
+  - { type: lived_in, target: place/cartagena, confidence: low, note: "Associated with قرطاجنة per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/philip-ii-spain, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:

@@ -14,6 +14,8 @@ regions: [levant-iraq]
 died: { hijri: "0072", edtf: "0691~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة اثنتين وسبعين (PDF ص43). ابن سعد يسميه عبيدة بن قيس في الحاشية.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
   - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/tabaqat-fuqaha-abbas-1981] }
+
+  - { type: lived_in, target: place/hamadan, confidence: low, note: "Association inferred from the nisba 'الهمداني'; specific birthplace or residence is not individually documented.", sources: [source/tabaqat-fuqaha-abbas-1981, source/sallabi-ali-vol1] }
 sources: [source/tabaqat-fuqaha-abbas-1981, source/sallabi-ali-vol1]
 provenance:
   layer: "own-research"

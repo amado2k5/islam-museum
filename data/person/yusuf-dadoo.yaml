@@ -53,6 +53,10 @@ wings:
 - people
 external_ids:
   wikidata: Q444072
+relations:
+  - { type: born_in, target: place/krugersdorp, sources: [source/wikidata-yusuf-dadoo], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q644506)" }
+  - { type: died_in, target: place/london, sources: [source/wikidata-yusuf-dadoo], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q84)" }
+  - { type: buried_in, target: place/highgate-cemetery, sources: [source/wikidata-yusuf-dadoo], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q533697)" }
 sources:
 - source/wikipedia-yusuf-dadoo-en
 - source/wikidata-yusuf-dadoo

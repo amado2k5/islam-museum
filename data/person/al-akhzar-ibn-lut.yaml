@@ -13,6 +13,7 @@ themes: [literature]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-al-dil }
   - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: poet-of-the-raiders, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 34", generated_by: "Devin", run: "ibn-hisham-batch-1a" }

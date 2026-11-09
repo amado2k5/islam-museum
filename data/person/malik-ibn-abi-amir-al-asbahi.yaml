@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Companion of the Asbaha tribe settled in Egypt per the record's cited biographical sources.", sources: [source/ibn-hajar-isaba] }
 sources: [source/al-aalam, source/taqrib-al-tahdhib, source/ibn-hajar-isaba]
 external_ids:
   wikidata: Q138380911

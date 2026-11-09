@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [east-africa]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: ruled_over, target: place/ifat, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q7396320

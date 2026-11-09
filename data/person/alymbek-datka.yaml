@@ -37,6 +37,7 @@ wings: [people]
 regions: [persia-central-asia]
 roles: [politician]
 relations:
+  - { type: lived_in, target: place/kyrgyzstan, note: "From text: Kyrgyz (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-alymbek-datka-ru, source/wikipedia-alymbek-datka-ky, source/wikipedia-alymbek-datka-uz, source/wikidata-alymbek-datka], confidence: low }
   - { type: spouse_of, target: person/kurmanjan-datka, sources: [source/wikipedia-alymbek-datka-ru, source/wikipedia-alymbek-datka-uz] }
 faith:
   - value: unknown

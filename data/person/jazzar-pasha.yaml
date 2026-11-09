@@ -38,6 +38,9 @@ died:
   sources: [source/wikipedia-jazzar-pasha-en, source/wikipedia-jazzar-pasha-ar, source/wikidata-jazzar-pasha]
 
 relations:
+  - { type: born_in, target: place/stolac, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jazzar-pasha] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jazzar-pasha] }
+  - { type: buried_in, target: place/akka, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jazzar-pasha] }
   - { type: died_in, target: place/akka, sources: [source/wikipedia-jazzar-pasha-en, source/wikipedia-jazzar-pasha-ur] }
 
 faith:

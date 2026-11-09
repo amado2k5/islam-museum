@@ -11,6 +11,8 @@ roles: [scholar, mystic]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, levant-iraq]
+relations:
+  - { type: lived_in, target: place/seville, confidence: low, note: "Associated with إشبيلية per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

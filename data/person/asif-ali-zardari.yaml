@@ -30,6 +30,7 @@ faith:
     note: "FLAGGED: no text names a school for him, and the only structured value is generic. Wikidata gives Islam (Q432) generically; the Urdu article files him in 'Pakistani Shia' and 'Shia politicians' categories, and category filings never attest; neither the English nor the Arabic article has any religion content for him at all — no religion field and no mention in the text. On the wave-114 Chundrigar configuration (a lone structured generic value) the value stays unknown, with the Urdu filings recorded here so a founder can see them."
     sources: [source/wikipedia-asif-ali-zardari-en, source/wikipedia-asif-ali-zardari-ar, source/wikipedia-asif-ali-zardari-ur, source/wikidata-asif-ali-zardari]
 relations:
+  - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-asif-ali-zardari-en, source/wikipedia-asif-ali-zardari-ar, source/wikipedia-asif-ali-zardari-ur, source/wikidata-asif-ali-zardari], confidence: low }
   - type: spouse_of
     target: person/benazir-bhutto
     note: "He married Benazir Bhutto on 18 December 1987; she was assassinated on 27 December 2007. The English article's text and infobox and the Arabic article's lead (which calls him her widower) attest the relation. Written once, here in his record; her record carries no relations block and is untouched."

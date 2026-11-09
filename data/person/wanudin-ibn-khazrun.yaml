@@ -11,6 +11,8 @@ roles: [ruler]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb]
+relations:
+  - { type: ruler_of, target: place/sijilmasa, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "en: 'Wanudin ibn Khazrun ibn Fulful al-Maghrawi, second Khazrunid king of Sijilmasa; pardoned by Ziri ibn Atiy" }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

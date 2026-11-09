@@ -17,6 +17,7 @@ themes: [scripture-and-its-sciences]
 regions: [egypt-nile]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/ramla, note: "Place association from the person's nisba/name (الرملي); denotes association, not proven residence.", sources: [source/tabaqat-shafiiyya-subki], confidence: low }
   - { type: student_of, target: person/al-shafii, role: "صاحبه وراوية كتبه", sources: [source/tabaqat-shafiiyya-subki] }
 provenance:
   layer: own-research

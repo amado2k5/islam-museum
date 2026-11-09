@@ -14,6 +14,10 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans, maghreb]
 died: { hijri: "1113", edtf: "1701-07-21", calendar: julian, precision: day, status: tradition, derived: true, note: "١٤ صفر ١١١٣هـ/٢١ يوليو ١٧٠١م وهو في منصة القبطان باشا {cite:sicill-i-osmani vol. 3, 'Hüseyin Paşa (Mezemorta)'}", sources: [source/sicill-i-osmani] }
+relations:
+  - { type: born_in, target: place/majorca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/lesbos, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/paros, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/sicill-i-osmani]
 external_ids:
   wikidata: Q3133071

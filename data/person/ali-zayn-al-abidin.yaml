@@ -19,7 +19,12 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch36
 external_ids: { wikidata: "Q314978" }
-sources: [source/umayyad-birth-to-fall-2006, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy]
+sources: [source/umayyad-birth-to-fall-2006, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy, source/wikidata]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: born_in, target: place/medina, note: "Wikidata Q35484 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/medina, note: "Wikidata Q35484 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-baqi, note: "Wikidata Q154204 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

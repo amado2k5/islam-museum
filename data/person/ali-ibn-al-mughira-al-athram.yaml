@@ -19,5 +19,7 @@ provenance:
   source: "تاريخ بغداد للخطيب البغدادي (ج10، ترجمة 6547، ص107-108)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-tarikh-baghdad-tb4
+relations:
+  - { type: lived_in, target: place/baghdad, note: "One of Baghdad's three transmitters of the lugha per the record.", sources: [source/tarikh-baghdad-khatib], confidence: high }
 sources: [source/tarikh-baghdad-khatib]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

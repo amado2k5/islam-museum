@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/al-qatul, note: "From text: نزل البراذان ثم القاطول ثم سا", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: low }
   - { type: participated_in, target: event/sack-of-zibatra, role: "المغتاظ الغازي إلى عمورية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-amorium, role: "أمير الجيش", sources: [source/futuh-buldan-maarif-1407] }
   - { type: child_of, target: person/harun-al-rashid, sources: [source/futuh-buldan-maarif-1407] }

@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/masjid-al-dirar-builders-ask-the-prophet-to-pray, role: "بانٍ للمسجد", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/builders-of-masjid-al-dirar, note: "من الاثني عشر الذين سمّاهم ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-dubaya-ibn-zayd, note: "نُسب في المتن إلى بني ضبيعة؛ التفريع «بن زيد» للمتحف حيث لم يرد (needs_source)", sources: [source/ibn-hisham-saqqa] }

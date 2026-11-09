@@ -15,6 +15,7 @@ died:
   derived: true
   note: "ليلة الجمعة ثامن عشر رمضان 611هـ ودفن بباب حرب؛ التحويل مشتق {cite:shadharat-dhahab p. 49}."
 relations:
+  - { type: born_in, target: place/mosul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: lived_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
   - { type: buried_in, target: place/baghdad, sources: [source/shadharat-dhahab] }

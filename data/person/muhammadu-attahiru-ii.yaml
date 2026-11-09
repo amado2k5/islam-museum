@@ -33,6 +33,7 @@ faith:
 relations:
   - { type: ruler_of, target: polity/sokoto-caliphate, sources: [source/wikipedia-muhammadu-attahiru-ii-en] }
   - { type: successor_of, target: person/muhammadu-attahiru-i, sources: [source/wikipedia-muhammadu-attahiru-ii-en] }
+  - { type: died_in, target: place/sokoto, sources: [source/wikidata-muhammadu-attahiru-ii], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q336350)" }
 sources: [source/wikipedia-muhammadu-attahiru-ii-en, source/wikidata-muhammadu-attahiru-ii]
 external_ids:
   wikidata: "Q6932917"

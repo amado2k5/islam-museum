@@ -18,3 +18,6 @@ provenance:
   run: prose-fill-persons-batch47
 sources: [source/nafh-tib-maqqari]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: died_in, target: place/alexandria, note: "From text: توفي بالإسكندرية سنة ست وثمانين وستم", sources: [source/nafh-tib-maqqari] }
+  - { type: lived_in, target: place/alexandria, note: "From text: استقر بالإسكندرية فكان قبره مشهوراً ب", sources: [source/nafh-tib-maqqari] }

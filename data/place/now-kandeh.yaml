@@ -1,0 +1,21 @@
+id: place/now-kandeh
+class: place
+kind: city
+label: { ar: "نوكنده", en: "Now Kandeh", ur: "نو کندہ" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q719107)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [36.7375, 53.90888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q719107" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q719107 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

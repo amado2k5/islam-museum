@@ -15,7 +15,8 @@ regions: [levant-iraq, egypt-nile]
 faith:
   - value: sunni
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/damascus, note: "From text: from Damascus", sources: [source/shadharat-dhahab], confidence: low }
 sources: [source/shadharat-dhahab]
 status:
   review: published

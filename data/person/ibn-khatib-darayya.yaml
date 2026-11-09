@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: lived_in, target: place/darayya, confidence: low, note: "Associated with داريا per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 external_ids:
   wikidata: Q40379014

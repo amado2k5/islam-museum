@@ -1,0 +1,30 @@
+id: place/banten-sultanate
+class: place
+kind: region
+label:
+  ar: سلطنة بنتن
+  en: Banten Sultanate
+  ur: سلطنت بنتن
+summary:
+  ar: منطقة في إندونيسيا.
+  en: Sultanate located in north west Java, which functioned as one of the main hubs of the early modern spice trade.
+wings:
+- place
+regions:
+- global
+external_ids:
+  wikidata: Q734867
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q734867 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q734867 (labels, coordinates, description)

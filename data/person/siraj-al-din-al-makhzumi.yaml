@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "Nisba al-Makhzumi, of Quraysh of Mecca (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q110260192
 provenance:

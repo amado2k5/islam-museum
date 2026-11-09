@@ -13,6 +13,8 @@ regions: [andalus-europe, maghreb]
 periods: [period/gunpowder-empires]
 died: { edtf: "1578-08-04", hijri: "0986-06-30", calendar: gregorian, precision: day, status: tradition, derived: true, note: "قتل في وادي المخازن", sources: [source/dawlat-uthmaniyya-salabi] }
 relations:
+  - { type: ruled_over, target: place/portugal, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: died_in, target: place/morocco, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: allied_with, target: person/muhammad-ii-mutawakkil-saadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

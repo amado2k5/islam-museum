@@ -36,6 +36,10 @@ provenance:
   run: lib-wafayat-batch-16
 external_ids:
   wikidata: Q12219197
+relations:
+  - { type: born_in, target: place/dinavar-district, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q964561)" }
+  - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }
+  - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
 sources:
 - source/wafayat-ayan
 - source/alam-al-nisa-kahhala-risala-1984-v2

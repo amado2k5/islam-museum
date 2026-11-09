@@ -37,6 +37,7 @@ relations:
   - { type: child_of, target: person/naser-al-din-shah-qajar, sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en, source/wikidata-mozaffar-ad-din-shah-qajar] }
   - { type: successor_of, target: person/naser-al-din-shah-qajar, sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en] }
   - { type: buried_in, target: place/karbala, sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en, source/wikidata-mozaffar-ad-din-shah-qajar] }
+  - { type: ruler_of, target: place/azerbaijan, sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en, source/wikidata-mozaffar-ad-din-shah-qajar] }
 faith:
   - value: unknown
     basis: unknown

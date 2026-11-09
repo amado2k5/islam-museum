@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: died_in, target: place/dhi-as-sufal, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q20302206)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q56250502

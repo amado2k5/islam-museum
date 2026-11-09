@@ -17,6 +17,8 @@ faith:
   - value: sunni-shafii
     basis: tradition
 relations:
+  - { type: traveled_to, target: place/misr, note: "From text: went to Egypt", sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/damascus, note: "From text: returned to Damascus. The", sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

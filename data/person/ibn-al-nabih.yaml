@@ -8,6 +8,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Associated with مصر per the record's own text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (عارضة)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

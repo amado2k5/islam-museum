@@ -1,0 +1,21 @@
+id: place/santiago-de-compostela
+class: place
+kind: town
+label: { ar: "شنت ياقُب", en: "Santiago de Compostela", ur: "سانتیاگو دے کومپوستیلا" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q14314)."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [42.883333333333, -8.5333333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q14314" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q14314 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

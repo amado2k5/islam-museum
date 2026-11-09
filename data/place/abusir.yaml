@@ -1,0 +1,21 @@
+id: place/abusir
+class: place
+kind: town
+label: { ar: "أبو صير، الجيزة", en: "Abusir", ur: "ابو صیر ⁦(بدرشین)⁩" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q336098)."
+wings: [place]
+regions: [egypt-nile]
+coordinates: [29.896111111111, 31.203611111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q336098" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q336098 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

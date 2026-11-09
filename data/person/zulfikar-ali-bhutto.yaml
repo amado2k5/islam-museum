@@ -44,6 +44,9 @@ relations:
     target: person/benazir-bhutto
     note: "His daughter Benazir Bhutto, twice prime minister of Pakistan; the English article's text and infobox (children: Benazir, Murtaza, Sanam, Shahnawaz) and the Arabic article's family fields attest the relation. Written once, here in the father's record, by lane convention."
     sources: [source/wikipedia-zulfikar-ali-bhutto-en, source/wikipedia-zulfikar-ali-bhutto-ar]
+  - { type: born_in, target: place/larkana, sources: [source/wikidata-zulfikar-ali-bhutto], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q696605)" }
+  - { type: died_in, target: place/rawalpindi, sources: [source/wikidata-zulfikar-ali-bhutto], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q93230)" }
+  - { type: buried_in, target: building/bhutto-family-mausoleum, sources: [source/wikidata-zulfikar-ali-bhutto], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q6794060)" }
 external_ids: { wikidata: "Q131355" }
 sources:
   - source/wikipedia-zulfikar-ali-bhutto-en

@@ -22,6 +22,7 @@ periods:
 regions:
 - levant-iraq
 relations:
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: authored, target: work/futuh-buldan, sources: [source/futuh-buldan-maarif-1407] }
   - { type: authored, target: work/ansab-al-ashraf, sources: [source/kashf-zunun-furqan] }
 provenance:

@@ -37,6 +37,8 @@ faith:
     note: "No source names a school or order for him personally. The French article's infobox gives his religion as Islam, without a branch; the Spanish article carries no religion field and files him under Muslims of Morocco, a category. His father was qadi of the Ait Ouriaghel — family background and office, which never count. Recorded unknown under the doubt rule."
     sources: [source/wikipedia-mhamed-el-khattabi-fr, source/wikipedia-mhamed-el-khattabi-es, source/wikidata-mhamed-el-khattabi]
 relations:
+  - { type: born_in, target: place/ajdir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mhamed-el-khattabi] }
+  - { type: died_in, target: place/rabat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mhamed-el-khattabi] }
   - { type: sibling_of, target: person/abd-el-krim, sources: [source/wikipedia-mhamed-el-khattabi-fr, source/wikipedia-mhamed-el-khattabi-es] }
 external_ids: { wikidata: "Q97961898" }
 sources: [source/wikipedia-mhamed-el-khattabi-fr, source/wikipedia-mhamed-el-khattabi-es, source/wikidata-mhamed-el-khattabi]

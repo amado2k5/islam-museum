@@ -1,0 +1,36 @@
+id: place/plovdiv
+class: place
+kind: city
+label:
+  ar: بلوفديف
+  en: Plovdiv
+  ur: پلوودیف
+summary:
+  ar: مدينة في جمهورية بلغاريا الشعبية.
+  en: City in Plovdiv municipality, Plovdiv oblast, Bulgaria.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 42.1421
+- 24.7415
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q459
+  geonames: '728193'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q459 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q459 (labels, coordinates, description)

@@ -28,6 +28,7 @@ died:
   derived: true
   note: "توفي في ذي الحجة سنة تسع وثلاثين وخمسمائة ودفن بتربة أبي إسحاق الشيرازي {cite:shadharat-dhahab p. 602}؛ التحويل مشتق."
 relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
   - { type: student_of, target: person/al-ghazali-abu-hamid, sources: [source/shadharat-dhahab] }
   - { type: student_of, target: person/asad-al-mayhani, sources: [source/shadharat-dhahab] }
 provenance:

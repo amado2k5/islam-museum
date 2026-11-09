@@ -7,17 +7,31 @@ label:
 summary:
   ar: شارع بغداد للكتب والمطابع والمكتبات منذ القرن التاسع عشر — «القراءة عند العراقيين كالتنفس»؛ هُدّم وعاد.
   en: Baghdad's book and print street since the 19th century — 'reading is breathing to Iraqis'; bombed in 2007 and reborn.
-wings: [place]
-themes:
-- libraries-paper-and-the-book
-- literature
+wings:
+- place
 regions:
 - levant-iraq
+coordinates:
+- 33.340954
+- 44.388843
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata; approximate until checked against a gazetteer.
 external_ids:
   wikidata: Q2562384
 sources:
 - source/wikidata
+themes:
+- libraries-paper-and-the-book
+- literature
 status:
   review: draft
   completeness: 1
-  generated_by: Devin (SWE-2 High), culture lane; existence/year via Wikidata, 2026-10-16
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Recorded against source/wikidata; provenance block added in the person-place geo-enrichment run pending re-verification of the original research note.; Provenance added by the geo-enrichment pass; the record predates the lane and its original extraction details are not recorded.

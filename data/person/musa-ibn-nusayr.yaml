@@ -7,6 +7,8 @@ wings: [people]
 gender: male
 relations:
   - { type: participated_in, target: event/conquest-of-tanja, role: "الفاتح والمختطّ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: born_in, target: place/al-khalil, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168225)" }
+  - { type: died_in, target: place/wadi-al-qura, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q22690572)" }
 provenance: { layer: own-research, source: "Earlier content of this record: Tabari, Futuh al-Buldan and the other listed sources. Section added from Assabile, Al Dinu Al Qayem (Omar Abdelkafy), episodes 6 to 13", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3; extended by Devin (SWE-2 High) from Futuh al-Buldan (Maarif 1407), batch 21", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407], run: "lib-futuh-misr-batch-5-2026-10-31 (enrichment)" }
 external_ids: { wikidata: "Q301261" }
 sources: [source/umayyad-birth-to-fall-2006, source/nafh-tib-maqqari, source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020, source/assabile-omar-abdelkafy, source/futuh-misr-amir-1999]

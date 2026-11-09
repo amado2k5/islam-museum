@@ -13,6 +13,8 @@ regions: [south-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1947", precision: year, status: tradition, derived: true }
 died: { edtf: "2023", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/arrah, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q588587)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q115537308

@@ -17,6 +17,7 @@ faith:
 story_roles:
   - { role: military-opponent, toward: person/muhammad, status: tradition, note: "كان بخيبر يجمع غطفان لغزو النبي (ابن هشام ص266).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/khaybar, note: "From text: of Khaybar", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/jews-of-khaybar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/killing-of-al-yasir-ibn-rizam, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
 provenance:

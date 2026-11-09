@@ -1,0 +1,21 @@
+id: place/arak
+class: place
+kind: city
+label: { ar: "أراك", en: "Arak", ur: "اراک، ایران" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q212628)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [34.095, 49.698055555555555]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q212628" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q212628 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

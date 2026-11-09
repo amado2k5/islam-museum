@@ -15,6 +15,7 @@ regions: [south-asia]
 roles: [sufi-singer, singer]
 born: { edtf: "1952-11-13", calendar: gregorian, precision: day, status: historical, derived: false, note: "The English article gives 13 November 1952 in Hyderabad, India; Wikidata gives 1952. The family moved to Karachi in 1956.", sources: [source/wikipedia-fareed-ayaz-en, source/wikidata-fareed-ayaz] }
 relations:
+  - { type: born_in, target: place/hyderabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fareed-ayaz] }
   - { type: child_of, target: person/munshi-raziuddin, sources: [source/wikipedia-fareed-ayaz-en, source/wikipedia-munshi-raziuddin-en] }
 faith:
   - value: unknown

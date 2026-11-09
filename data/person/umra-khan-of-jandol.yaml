@@ -31,6 +31,7 @@ died:
   sources: [source/wikipedia-umra-khan-en, source/wikidata-umra-khan]
 relations:
   - { type: died_in, target: place/kabul, sources: [source/wikipedia-umra-khan-en, source/wikidata-umra-khan] }
+  - { type: lived_in, target: place/afghanistan, sources: [source/wikipedia-umra-khan-en, source/wikidata-umra-khan] }
 roles: [ruler]
 wings: [people]
 regions: [persia-central-asia]

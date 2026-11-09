@@ -16,6 +16,8 @@ regions: [anatolia-balkans]
 relations:
   - { type: child_of, target: person/abd-al-majid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/abd-al-aziz-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: buried_in, target: building/new-mosque-istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q911720)" }
 external_ids:
   wikidata: Q199827
 sources: [source/dawlat-uthmaniyya-salabi]

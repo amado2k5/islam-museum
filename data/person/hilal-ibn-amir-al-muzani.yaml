@@ -12,7 +12,8 @@ summary:
   ar: "هلال بن عامر بن عمرو المزني الكوفي، صحابي، روى عن أبيه ورافع بن عمرو المزني، وعنه سيف بن عمر التميمي ويحيى بن سعيد الأموي وأبو معاوية الضرير ومروان بن معاوية. قال إسحاق بن منصور عن ابن معين: ثقة، وذكره ابن حبان في الثقات. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3495}"
   en: "Hilal ibn Amir ibn Amr al-Muzani of Kufa, a Companion who narrated from his father and from Rafi' ibn Amr al-Muzani. Sayf ibn Umar al-Tamimi, Yahya ibn Sa'id al-Umawi, Abu Mu'awiya al-Darir and Marwan ibn Mu'awiya narrated from him. Ishaq ibn Mansur reported from Ibn Ma'in that he was reliable, and Ibn Hibban listed him among the trustworthy. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3495}"
 relations:
- - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with Kufa per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance:
   layer: own-research

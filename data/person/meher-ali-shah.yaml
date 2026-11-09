@@ -41,6 +41,9 @@ faith:
     note: "Two independent texts name his school personally. The English text's lead describes him as belonging to the Chishti order and known as a Hanafi scholar; the Urdu text, independently written, likewise calls him a Hanafi scholar (حنفی عالم) in its account of his character and work. His tariqa affiliation and his madhhab are recorded as separate segments, neither inferred from the other; Wikidata's single religion value (Sunni Islam) is a structured value and is not counted."
     sources: [source/wikipedia-meher-ali-shah-en, source/wikipedia-meher-ali-shah-ur]
 relations:
+  - { type: born_in, target: place/golra-sharif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-meher-ali-shah] }
+  - { type: died_in, target: place/golra-sharif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-meher-ali-shah] }
+  - { type: buried_in, target: building/shrine-of-meher-ali-shah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-meher-ali-shah] }
   - { type: member_of, target: group/chishtiyya, sources: [source/wikipedia-meher-ali-shah-en, source/wikipedia-meher-ali-shah-ur] }
 external_ids: { wikidata: "Q6809463" }
 sources: [source/wikipedia-meher-ali-shah-en, source/wikipedia-meher-ali-shah-ar, source/wikipedia-meher-ali-shah-ur, source/wikidata-meher-ali-shah]

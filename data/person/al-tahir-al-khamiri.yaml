@@ -27,3 +27,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch54
+relations:
+  - { type: born_in, target: place/tunis, note: "From text: ولد بحي باب سويقة في مدينة تونس الع", sources: [source/mawsuat-a3lam-ulama-adaba] }

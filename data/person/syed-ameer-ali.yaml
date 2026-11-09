@@ -38,7 +38,9 @@ died:
   note: "Died 3 August 1928 at Rudgwick, Sussex, and was buried at Brookwood Cemetery; so the English article's lead, Wikidata (day precision) and the Arabic article, which gives the year 1347 AH itself — the record's Hijri year is the article's own, not a derivation. VARIANT: the English article's own early-life section says 'He died on August 4'; the record follows 3 August on the lead and the structured data and records the variant. Place of death as recorded: Rudgwick, Sussex, England; buried at Brookwood Cemetery."
   sources: [source/wikipedia-syed-ameer-ali-en, source/wikipedia-syed-ameer-ali-ar, source/wikidata-syed-ameer-ali]
 
-relations: []
+relations:
+  - { type: died_in, target: place/sussex, sources: [source/wikidata-syed-ameer-ali], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q23346)" }
+  - { type: buried_in, target: place/brookwood-cemetery, sources: [source/wikidata-syed-ameer-ali], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q990618)" }
 
 external_ids:
   wikidata: Q2525731

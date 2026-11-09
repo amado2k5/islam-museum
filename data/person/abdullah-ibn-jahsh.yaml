@@ -37,6 +37,14 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- type: traveled_to
+  target: place/abyssinia
+  note: "From text: هاجر إلى الحبشة وشهد بدراً"
+  sources: [source/ibn-hajar-isaba]
+- type: died_in
+  target: place/uhud
+  note: "From text: was killed at Uhud"
+  sources: [source/ibn-hajar-isaba]
 - type: member_of
   target: group/banu-abd-shams
   sources:

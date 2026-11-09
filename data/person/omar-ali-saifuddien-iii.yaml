@@ -36,6 +36,8 @@ died:
   sources: [source/wikipedia-omar-ali-saifuddien-iii-en, source/wikidata-omar-ali-saifuddien-iii]
 relations:
   - { type: parent_of, target: person/hassanal-bolkiah, sources: [source/wikipedia-hassanal-bolkiah-en, source/wikidata-hassanal-bolkiah] }
+
+  - { type: lived_in, target: place/al-haditha, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-omar-ali-saifuddien-iii-en, source/wikipedia-omar-ali-saifuddien-iii-ar, source/wikipedia-omar-ali-saifuddien-iii-ur, source/wikidata-omar-ali-saifuddien-iii] }
 faith:
   - value: unknown
     basis: unknown

@@ -20,3 +20,5 @@ provenance:
   run: lib-muntazam-258-349-batch36
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: lived_in, target: place/iraq, note: "Hadith transmitter heard by Ja'far al-Khaldi and Ibn Malik al-Qutay'i; record gives only a broad Iraqi association.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }

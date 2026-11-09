@@ -1,0 +1,21 @@
+id: place/t-jola
+class: place
+kind: town
+label: { ar: "طوجالة", en: "Tíjola", ur: "تیخولا" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q284894)."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [37.34646397090266, -2.4364835025653995]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q284894" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q284894 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

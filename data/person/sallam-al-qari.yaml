@@ -15,3 +15,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch20
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Early Arabian singer cited in the Fihrist; no specific town attested.", sources: [source/fihrist-ibn-al-nadim] }

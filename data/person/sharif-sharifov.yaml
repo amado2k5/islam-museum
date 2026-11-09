@@ -29,6 +29,8 @@ faith:
     note: "No consulted source names any religious affiliation for him personally. The English, Azerbaijani and Arabic article texts are silent on religion, and Wikidata carries no religion value (P140). His bronze medal at the 2017 Islamic Solidarity Games and the related category filings are event participation and filings, which never attest. His Avar origin, given in the Arabic article's infobox, is ethnic background and never attests. No source makes any Shia claim for him, so the Shia-mapping rule is not engaged."
     sources: [source/wikipedia-sharif-sharifov-en, source/wikipedia-sharif-sharifov-az, source/wikipedia-sharif-sharifov-ar, source/wikidata-sharif-sharifov]
 external_ids: { wikidata: "Q466133" }
+relations:
+  - { type: lived_in, target: place/makhachkala, sources: [source/wikidata-sharif-sharifov], confidence: low, note: "Wikidata P551 residence (Wikidata Q5168)" }
 sources: [source/wikipedia-sharif-sharifov-en, source/wikipedia-sharif-sharifov-az, source/wikipedia-sharif-sharifov-ar, source/wikidata-sharif-sharifov]
 provenance:
   layer: own-research

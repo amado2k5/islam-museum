@@ -45,7 +45,8 @@ died:
   note: "Died on 27 June 1922; the English article gives the date and Wikidata gives the same day with the place as Tivaouane, the town where he had settled in 1902 and built his zawiya. The Hijri year is derived by tabular conversion (27 June 1922 falls in Dhu al-Qa'da 1340 AH). Place of death as recorded: Tivaouane, Senegal."
   sources: [source/wikipedia-el-hadj-malik-sy-en, source/wikidata-el-hadj-malik-sy]
 
-relations: []
+relations:
+  - { type: died_in, target: place/tivaouane, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-el-hadj-malik-sy] }
 
 external_ids:
   wikidata: Q7471083

@@ -12,6 +12,11 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1599", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/fatehpur-sikri, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q179046)" }
+  - { type: died_in, target: place/lahore-fort, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q613720)" }
+  - { type: buried_in, target: building/humayun-tomb, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q189648)" }
+  - { type: buried_in, target: place/delhi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1353)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7244169

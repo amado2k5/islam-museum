@@ -6,6 +6,7 @@ wings: [people]
 story_roles: [{ role: rival-claimant }]
 themes: [family-marriage-kinship]
 relations:
+  - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: child_of, target: person/abd-manaf-ibn-qusayy }
   - { type: member_of, target: group/quraysh }
   - { type: opposed, target: person/abd-al-muttalib }

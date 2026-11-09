@@ -14,6 +14,9 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 relations:
+  - { type: born_in, target: place/ardabil, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/khaneqah-sheikh-safi-ardabil, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: founder_of, target: polity/safavid-iran, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/battle-chaldiran-920, role: "المهزوم", sources: [source/dawlat-uthmaniyya-salabi] }

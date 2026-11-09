@@ -17,6 +17,8 @@ relations:
   - { type: parent_of, target: person/ibrahim-ibn-shah-rukh, sources: [source/shadharat-dhahab] }
   - { type: parent_of, target: person/ahmad-ibn-shah-rukh, sources: [source/shadharat-dhahab] }
   - { type: parent_of, target: person/ulugh-beg, sources: [source/shadharat-dhahab] }
+  - { type: ruler_of, target: place/bukhara, sources: [source/wikidata], confidence: low, note: "- { value: 'القان معين الدين شاه رخ بن تيمور لنك صاحب سمرقند وبخارى وغيرهما', kind: full }" }
+  - { type: ruler_of, target: place/samarqand, sources: [source/wikidata], confidence: low, note: "- { value: 'القان معين الدين شاه رخ بن تيمور لنك صاحب سمرقند وبخارى وغيرهما', kind: full }" }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 851)، قراءة آبل فيجن"

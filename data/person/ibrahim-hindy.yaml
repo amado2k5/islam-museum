@@ -17,6 +17,8 @@ gender: male
 roles: [scholar, teacher, activist]
 wings: [people, living]
 regions: [americas-oceania]
+relations:
+  - { type: lived_in, target: place/mississauga, confidence: low, note: "Associated with ميسيساغا per the record's own summary text; relation type pending review.", sources: [source/canadadocs-ibrahim-hindy] }
 faith:
   - value: unknown
     basis: unknown

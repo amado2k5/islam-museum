@@ -18,3 +18,5 @@ provenance:
   run: lib-wafayat-batch-3
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruler_of, target: place/majorca, note: "From text: صاحب ميورقة ومنورقة ويابسة الج", sources: [source/wafayat-ayan], confidence: low }

@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: buried_in, target: place/al-eddin-mosque, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q58810

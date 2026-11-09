@@ -18,3 +18,6 @@ provenance:
   run: lib-wafayat-batch-26
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: born_in, target: place/al-haditha, note: "From text: ولد بألوس قرية بقرب الحديثة ونشأ بد", sources: [source/wafayat-ayan] }
+  - { type: lived_in, target: place/baghdad, note: "From text: نشأ بدجيل ودخل بغداد وصار جاوشاً في", sources: [source/wafayat-ayan] }

@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/zabid, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q138986)" }
+  - { type: died_in, target: place/old-city-of-taiz, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q139829337)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q140452462

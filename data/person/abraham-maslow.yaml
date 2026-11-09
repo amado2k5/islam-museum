@@ -12,3 +12,5 @@ regions: [global]
 sources: [source/assabile-tareq-al-suwaidan]
 provenance: { layer: copyrighted-reference, source: "Assabile, administrative-processus-abilities ep01 (transcript pass5-qwen; engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Devin (SWE-2 High)", model: swe-2-high, run: devin-tareq-al-suwaidan-admin-1 }
 status: { review: published, generated_by: "Devin (SWE-2 High); run devin-tareq-al-suwaidan-admin-1" }
+relations:
+  - { type: lived_in, target: place/united-states, note: "From text: American (nationality adjective); broad association, flagged for review.", sources: [source/assabile-tareq-al-suwaidan], confidence: low }

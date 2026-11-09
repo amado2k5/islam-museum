@@ -17,6 +17,8 @@ periods: [period/abbasid-early]
 regions: [persia-central-asia]
 story_roles:
   - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/bastam, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
   wikidata: Q380241
 sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/talbis-iblis-muniriyya-1928, source/luma-sarraj-jadir-dar-al-fath]

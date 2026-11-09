@@ -18,6 +18,8 @@ faith:
     note: "No source names any affiliation for her, and none is recorded; the configuration is absence. The English, Persian and Arabic article texts contain no statement of her religion at all; the English categories file her by profession and origin only; Wikidata carries no religion value. The Persian article's mention of Jewish women among her ovarian-cancer study populations concerns her research subjects, not her own affiliation."
     sources: [source/wikipedia-moslehi-en, source/wikipedia-moslehi-fa, source/wikipedia-moslehi-ar, source/wikidata-moslehi]
 external_ids: { wikidata: "Q4814466" }
+relations:
+  - { type: born_in, target: place/iran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q794)" }
 sources: [source/wikipedia-moslehi-en, source/wikipedia-moslehi-fa, source/wikipedia-moslehi-ar, source/wikidata-moslehi]
 provenance:
   layer: own-research

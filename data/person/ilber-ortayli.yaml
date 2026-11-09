@@ -36,6 +36,8 @@ roles: [historian, writer]
 regions: [anatolia-balkans]
 wings: [people]
 relations:
+  - { type: born_in, target: place/bregenz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/fatih-mosque-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-ortayli-en, source/wikipedia-ortayli-tr] }
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-ortayli-en, source/wikipedia-ortayli-tr] }
 faith:

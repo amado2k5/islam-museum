@@ -19,6 +19,8 @@ born:
   derived: false
   note: "Born in Havza, Samsun, in 1956, per her standard publisher biography carried by Kitapyurdu; the biography gives no month or day, so no Hijri year is recorded for a year-precision date. No place record for Havza or Samsun exists in the museum, so no born_in edge is written."
   sources: [source/kitapyurdu-saliha-erdim]
+relations:
+  - { type: born_in, target: place/samsun, sources: [source/kitapyurdu-saliha-erdim] }
 faith:
   - value: unknown
     basis: unknown

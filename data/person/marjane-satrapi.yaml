@@ -27,6 +27,9 @@ died:
   status: debated
   note: "QUEUE CORRECTION: the queue lists Satrapi as living; she died in Paris in June 2026. The English article gives 3 June 2026 on the strength of her death certificate, while noting that the family's announcement came on 4 June and that some reporting, and the Académie des Beaux-Arts, gave the 4th; the Arabic article gives 4 June, and Wikidata carries both dates. The block follows the certificate reading with status debated and the variant preserved. Paris has no place entity, so no died_in edge is written."
   sources: [source/wikipedia-marjane-satrapi-en, source/wikipedia-marjane-satrapi-ar, source/wikidata-marjane-satrapi]
+relations:
+  - { type: born_in, target: place/rasht, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-marjane-satrapi] }
+  - { type: died_in, target: place/3rd-arrondissement-of-paris, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-marjane-satrapi] }
 faith:
   - value: unknown
     basis: unknown

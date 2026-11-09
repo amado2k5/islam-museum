@@ -16,6 +16,9 @@ wings: [people]
 periods: [period/mongol-post-mongol, period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: born_in, target: place/edirne, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/gebze, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/fatih-mosque-istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/murad-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruler_of, target: place/istanbul, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: died_in, target: place/istanbul, sources: [source/dawlat-uthmaniyya-salabi] }

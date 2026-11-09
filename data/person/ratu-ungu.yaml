@@ -12,6 +12,8 @@ wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1635", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/patani, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2478838)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q7296059

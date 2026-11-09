@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born 17 April 1959, as given by the English Wikipedia article's lead, Wikidata and iFilm, which agree on the date. PLACE IN CONFLICT: the current English Wikipedia infobox gives Talesh as his birthplace, while Wikidata, iFilm's profile and many older biographies give Tehran; all sources agree he grew up in Tehran. The place is therefore carried as debated and no born_in relation is written (neither Talesh nor Tehran has a place entity in data/place/ in any case). The Hijri year (1378) is derived by tabular conversion from the agreed date."
   sources: [source/wikipedia-majid-majidi-en, source/wikidata-majid-majidi, source/ifilm-majid-majidi]
+relations:
+  - { type: born_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-majid-majidi] }
 faith:
   - value: unknown
     basis: unknown

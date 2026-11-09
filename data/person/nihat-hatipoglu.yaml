@@ -26,6 +26,8 @@ faith:
     basis: unknown
     note: "No two prose texts attest a faith value for Nihat Hatipoğlu himself. What the texts give is structured data: the Turkish article's infobox records his religion as 'Sünni İslam' and the English article's infobox gives his jurisprudence as Hanafi — one structured family, which never settles faith. His posts — a Diyanet Religious Affairs High Council expert post, a theology professorship, a university rectorship — are offices, which never count. Both readings are preserved here; under the doubt rule the value stays unknown."
     sources: [source/wikipedia-nihat-hatipoglu-tr, source/wikipedia-nihat-hatipoglu-en]
+relations:
+  - { type: born_in, target: place/hazro, sources: [source/wikidata], confidence: low, note: "Born in Hazro, Diyarbakir per the record text." }
 sources: [source/wikipedia-nihat-hatipoglu-tr, source/wikipedia-nihat-hatipoglu-en]
 provenance:
   layer: own-research

@@ -23,6 +23,7 @@ born:
   note: "The English and Arabic articles and Wikidata all give 1 January 1990, born in Sfax, Tunisia. The Hijri year 1410 is derived from the Gregorian date."
   sources: [source/wikipedia-ali-maaloul-en, source/wikipedia-ali-maaloul-ar, source/wikidata-ali-maaloul]
 relations:
+  - { type: born_in, target: place/sfax, note: "From text: born in Sfax", sources: [source/wikipedia-ali-maaloul-en, source/wikipedia-ali-maaloul-ar, source/wikidata-ali-maaloul] }
   - { type: born_in, target: place/sfax, sources: [source/wikipedia-ali-maaloul-en, source/wikipedia-ali-maaloul-ar] }
 faith:
   - value: unknown

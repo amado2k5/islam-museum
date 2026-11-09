@@ -20,6 +20,8 @@ faith:
     note: "No affiliation is recorded: a complete absence. Neither the English article's text nor the Arabic stub makes any statement of Schilt's religion, none of either article's categories is a religion category, and Wikidata (Q311016) has no religion value at all. There is nothing to weigh."
     sources: [source/wikipedia-semmy-schilt-en, source/wikipedia-semmy-schilt-ar, source/wikidata-semmy-schilt]
 external_ids: { wikidata: "Q311016" }
+relations:
+  - { type: born_in, target: place/rotterdam, sources: [source/wikidata-semmy-schilt], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q34370)" }
 sources: [source/wikipedia-semmy-schilt-en, source/wikipedia-semmy-schilt-ar, source/wikidata-semmy-schilt]
 provenance:
   layer: own-research

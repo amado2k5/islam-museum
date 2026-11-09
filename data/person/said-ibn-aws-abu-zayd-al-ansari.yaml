@@ -1,31 +1,72 @@
 id: person/said-ibn-aws-abu-zayd-al-ansari
 class: person
-label: { ar: "سعيد بن أوس أبو زيد الأنصاري", en: "Said ibn Aws Abu Zayd al-Ansari" }
+label:
+  ar: سعيد بن أوس أبو زيد الأنصاري
+  en: Said ibn Aws Abu Zayd al-Ansari
 names:
-  - { kind: full, lang: ar, value: "سعيد بن أوس بن ثابت الخزرجي" }
-  - { kind: kunya, lang: ar, value: "أبو زيد" }
-  - { kind: nisba, lang: ar, value: "الأنصاري" }
+- kind: full
+  lang: ar
+  value: سعيد بن أوس بن ثابت الخزرجي
+- kind: kunya
+  lang: ar
+  value: أبو زيد
+- kind: nisba
+  lang: ar
+  value: الأنصاري
 gender: male
-roles: [scholar, writer]
-traditions: [sunni]
-born: { edtf: "0740", hijri: "0122", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba], note: "تختلف المصادر في سنة الولادة" }
-died: { edtf: "0830", hijri: "0215", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+roles:
+- scholar
+- writer
+traditions:
+- sunni
+born:
+  edtf: '0740'
+  hijri: '0122'
+  calendar: julian
+  precision: year
+  status: tradition
+  sources:
+  - source/mawsuat-a3lam-ulama-adaba
+  note: تختلف المصادر في سنة الولادة
+died:
+  edtf: '0830'
+  hijri: '0215'
+  calendar: julian
+  precision: year
+  status: tradition
+  sources:
+  - source/mawsuat-a3lam-ulama-adaba
 summary:
-  ar: "اللغوي النحوي والراوي أبو زيد سعيد بن أوس بن ثابت الأنصاري، أخذ اللغة والنحو والقراءة والحديث عن علماء عصره، وله مصنفات في اللغة."
-  en: "The philologist, grammarian and transmitter Abu Zayd Said ibn Aws ibn Thabit al-Ansari, who studied language, grammar, recitation and hadith with the scholars of his age and wrote works on language."
-wings: [people]
-themes: [linguistics]
-periods: [period/abbasid-early]
-regions: [levant-iraq]
+  ar: اللغوي النحوي والراوي أبو زيد سعيد بن أوس بن ثابت الأنصاري، أخذ اللغة والنحو والقراءة والحديث عن علماء عصره، وله مصنفات في اللغة.
+  en: The philologist, grammarian and transmitter Abu Zayd Said ibn Aws ibn Thabit al-Ansari, who studied language, grammar, recitation and hadith with the scholars of his age and wrote works on language.
+wings:
+- people
+themes:
+- linguistics
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
 story_roles:
-  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+- role: scholar
+  status: tradition
+  sources:
+  - source/mawsuat-a3lam-ulama-adaba
+sources:
+- source/mawsuat-a3lam-ulama-adaba
+- source/encyclopaedia-of-islam-2
 status:
   review: published
   completeness: 3
 provenance:
-  layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص445-446"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
+  layer: own-research
+  source: موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص445-446
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
   run: prose-fill-persons-batch62
+relations:
+- type: lived_in
+  target: place/basra
+  sources:
+  - source/mawsuat-a3lam-ulama-adaba
+  - source/encyclopaedia-of-islam-2

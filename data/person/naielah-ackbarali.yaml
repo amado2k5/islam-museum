@@ -12,6 +12,11 @@ summary:
 roles: [teacher, writer]
 wings: [people, living]
 regions: [americas-oceania, andalus-europe]
+relations:
+  - { type: born_in, target: place/trinidad-and-tobago, sources: [source/muslimacoaching-about, source/islamqa-naielah-ackbarali, source/inspiredmuslimwomen-counseling] }
+  - { type: lived_in, target: place/florida, sources: [source/muslimacoaching-about, source/islamqa-naielah-ackbarali, source/inspiredmuslimwomen-counseling] }
+  - { type: lived_in, target: place/syria, sources: [source/muslimacoaching-about, source/islamqa-naielah-ackbarali, source/inspiredmuslimwomen-counseling] }
+  - { type: lived_in, target: place/jordan, sources: [source/muslimacoaching-about, source/islamqa-naielah-ackbarali, source/inspiredmuslimwomen-counseling] }
 faith:
   - value: unknown
     basis: unknown

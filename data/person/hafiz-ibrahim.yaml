@@ -33,6 +33,7 @@ died:
   note: "Died at Cairo on 21 June 1932 (all three articles) and was buried in the Sayyida Nafisa cemeteries there (Arabic article). Wikidata's alternative death value of 31 July 1932 conflicts with the articles and is not followed."
   sources: [source/wikipedia-hafiz-ibrahim-en, source/wikipedia-hafiz-ibrahim-ar, source/wikipedia-hafiz-ibrahim-ur, source/wikidata-hafiz-ibrahim]
 relations:
+  - { type: born_in, target: place/asyut-governorate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hafiz-ibrahim] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-hafiz-ibrahim-en, source/wikipedia-hafiz-ibrahim-ar] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-hafiz-ibrahim-ar] }
 faith:

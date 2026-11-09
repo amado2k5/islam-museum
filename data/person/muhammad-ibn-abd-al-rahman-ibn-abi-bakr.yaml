@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch118
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/wafayat-ayan] }
 sources: [source/wafayat-ayan]
 status:
   review: published

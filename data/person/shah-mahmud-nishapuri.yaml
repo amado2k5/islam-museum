@@ -30,3 +30,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/nishapur, confidence: low, note: "Association inferred from the nisba in the name 'Shah Mahmud Nishapuri'; specific residence not individually documented.", sources: [source/al-aalam] }

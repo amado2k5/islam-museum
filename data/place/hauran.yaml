@@ -1,0 +1,16 @@
+id: place/hauran
+class: place
+kind: mountain
+label: { en: "Hauran", ar: "حوران" }
+summary:
+  en: "Region and mountain range."
+  ar: "جبل في سوريا."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [33.0296, 35.8184]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q1589883" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q1589883 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

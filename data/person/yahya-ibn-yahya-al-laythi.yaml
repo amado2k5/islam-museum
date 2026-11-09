@@ -16,6 +16,7 @@ born: { hijri: "0152", calendar: julian, precision: year, status: historical, no
 died: { hijri: "0234", calendar: julian, precision: year, status: historical, note: "عنوان الطبعة يُقرأ بالتعرف الضوئي (OCR) ٢٤٤؛ الأرجح ٢٣٤هـ. يُتحقَّق من الرقم المطبوع قبل الاعتماد عليه.", sources: [source/muwatta-maruf-1997] }
 relations:
   - { type: student_of, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: lived_in, target: place/medina, sources: [source/nafh-tib-maqqari, source/muwatta-maruf-1997] }
 provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, title page (PDF p. 1) and editor's introduction (PDF pp. 5–6)", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
 external_ids:
   wikidata: Q8046936

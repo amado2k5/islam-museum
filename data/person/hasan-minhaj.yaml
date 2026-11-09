@@ -19,6 +19,8 @@ born:
   derived: true
   note: "Born on 23 September 1985 in Davis, California (English and Arabic articles and Wikidata agree). No place entity for Davis exists in data/place/, so no born_in relation is written. The Hijri year (1406) is derived by tabular conversion."
   sources: [source/wikipedia-hasan-minhaj-en, source/wikidata-hasan-minhaj]
+relations:
+  - { type: born_in, target: place/davis-california, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-minhaj] }
 faith:
   - value: unknown
     basis: unknown

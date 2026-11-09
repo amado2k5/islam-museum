@@ -12,6 +12,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/tripoli-al-sham, confidence: low, note: "Associated with طرابلس الشام per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 provenance:
   layer: own-research

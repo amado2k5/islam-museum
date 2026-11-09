@@ -40,6 +40,10 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- type: died_in
+  target: place/al-sham
+  note: "From text: died in Syria"
+  sources: [source/ibn-hajar-isaba, source/ibn-hisham-saqqa]
 - { type: authored, target: work/abdullah-ibn-unays-verses-on-ibn-nubayh, sources: [source/ibn-hisham-saqqa] }
 - { type: participated_in, target: event/killing-of-khalid-ibn-sufyan-al-hudhali, role: "القاتل والراوي", sources: [source/ibn-hisham-saqqa] }
 - { type: participated_in, target: event/killing-of-al-yasir-ibn-rizam, role: "قتل اليسير وشُجّ", sources: [source/ibn-hisham-saqqa] }

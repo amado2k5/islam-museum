@@ -12,6 +12,8 @@ wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
 died: { edtf: "0738", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/siyar-alam-nubala-abyari] }
 sources: [source/siyar-alam-nubala-abyari]
 external_ids:
   wikidata: Q5674734

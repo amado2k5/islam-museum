@@ -1,0 +1,21 @@
+id: place/coventry
+class: place
+kind: city
+label: { ar: "كوفنتري", en: "Coventry" }
+summary:
+  ar: "مدينة كوفنتري."
+  en: "City (Coventry)."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [52.416666666667, -1.5166666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q6225; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q6225" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q6225 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -33,6 +33,7 @@ died:
   sources: [source/wikipedia-omer-vrioni-ii-en, source/wikipedia-omer-vrioni-ii-sq, source/wikidata-omer-vrioni-ii]
 relations:
   - { type: member_of, target: group/bektashiyya, sources: [source/wikipedia-omer-vrioni-ii-en, source/wikipedia-omer-vrioni-ii-sq, source/wikipedia-omer-vrioni-ii-tr] }
+  - { type: born_in, target: place/berat, sources: [source/wikidata-omer-vrioni-ii], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170244)" }
 faith:
   - value: sufi
     basis: documented

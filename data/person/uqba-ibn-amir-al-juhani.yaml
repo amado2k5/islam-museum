@@ -8,6 +8,10 @@ wings: [people]
 periods: [period/rashidun]
 relations:
   - { type: participated_in, target: event/conquest-of-egypt, role: "شاهد العهد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: born_in, target: place/arabian-peninsula, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q31945)" }
+  - { type: died_in, target: place/misr, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q79)" }
+  - { type: lived_in, target: place/medina, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q35484)" }
+  - { type: lived_in, target: place/damascus, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q3766)" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 306"

@@ -16,6 +16,9 @@ summary:
 roles: [scholar, teacher]
 wings: [people, living]
 regions: [americas-oceania]
+relations:
+  - { type: lived_in, target: place/sydney, sources: [source/ummjamaaluddin-about, source/humanitix-umm-jamaal-ud-din-bio] }
+  - { type: lived_in, target: place/australia, sources: [source/ummjamaaluddin-about, source/humanitix-umm-jamaal-ud-din-bio] }
 faith:
   - value: unknown
     basis: unknown

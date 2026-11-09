@@ -12,6 +12,10 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 relations:
+- type: lived_in
+  target: place/alexandria
+  note: "From text: استقر بالإسكندرية"
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: participated_in
   target: event/tripoli-rising-against-normans
   note: قائد الثورة على النصارى بطرابلس.

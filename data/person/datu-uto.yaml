@@ -26,6 +26,8 @@ died:
   derived: true
   note: "The English article's infobox gives March 1902 at Sapakan, Buayan, its text that he had disappeared from the political scene by 1900 and died two years later, and Wikidata gives the year 1902. The Arabic article, a rendering of the English, carries the older variant readings — a reign ending in 1888 in its lead and death 'c. 1900' in its infobox — which are not followed. The Hijri year 1319 is the conversion of March 1902, hence derived. No place entity exists for Sapakan, so no died_in relation is written."
   sources: [source/wikipedia-datu-uto-en, source/wikidata-datu-uto, source/wikipedia-datu-uto-ar]
+relations:
+  - { type: lived_in, target: place/philippines, confidence: low, note: "Sultan of Buayan in Mindanao per the record's own summary; precise seat pending review.", sources: [source/wikipedia-datu-uto-en] }
 faith:
   - value: unknown
     basis: unknown

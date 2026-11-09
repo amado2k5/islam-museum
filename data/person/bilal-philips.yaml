@@ -14,6 +14,8 @@ summary:
 roles: [scholar, teacher, writer]
 wings: [people, living]
 regions: [americas-oceania, arabia]
+relations:
+  - { type: born_in, target: place/kingston, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bilal-philips] }
 external_ids: { wikidata: Q860317 }
 born:
   edtf: "1947-07-17"

@@ -25,6 +25,8 @@ relations:
   - { type: ruler_of, target: polity/sasanian-empire, start: { edtf: "0590" }, end: { edtf: "0628" }, sources: [source/tabari-bosworth-1999] }
   - { type: corresponded_with, target: person/muhammad, note: "The tradition reports the Prophet's letter to Kisra and the shah's contemptuous reply.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-bosworth-1999] }
   - { type: fought, target: polity/byzantine-empire, start: { edtf: "0602" }, end: { edtf: "0628" }, note: "The great Byzantine-Sasanian war that exhausted both empires.", sources: [source/kaegi-2003, source/tabari-bosworth-1999] }
+  - { type: ruled_over, target: place/iran, confidence: low, note: "Sasanian shahanshah 590-628 ruling the Persian empire.", sources: [source/tabari-bosworth-1999] }
+  - { type: died_in, target: place/al-madain, confidence: low, note: "Deposed and executed in his son Kavadh II's coup at Ctesiphon (al-Mada'in), February 628.", sources: [source/tabari-bosworth-1999, source/kaegi-2003] }
 external_ids:
   wikidata: Q212732
 sources: [source/tabari-bosworth-1999, source/kaegi-2003, source/tabari-tarikh-abu-al-fadl, source/akhbar-tiwal-amir]

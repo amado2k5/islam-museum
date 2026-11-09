@@ -35,6 +35,7 @@ died:
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/abu-manneh-sayyid-fadl-pasha] }
   - { type: died_in, target: place/istanbul, sources: [source/abu-manneh-sayyid-fadl-pasha, source/jacob-for-god-or-empire-2019, source/wikipedia-fazal-pookoya-thangal-en] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-fazal-pookoya-thangal-en, source/jacob-for-god-or-empire-2019, source/abu-manneh-sayyid-fadl-pasha, source/randathani-hadrami-sayyids] }
 faith:
   - value: sufi
     basis: documented

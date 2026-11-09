@@ -57,6 +57,9 @@ faith:
 
 external_ids: { wikidata: "Q8061952" }
 
+relations:
+  - { type: born_in, target: place/vilnius, sources: [source/wikidata-yusuf-hamied], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q216)" }
+  - { type: lived_in, target: place/mumbai, sources: [source/wikidata-yusuf-hamied], confidence: low, note: "Wikidata P551 residence (Wikidata Q1156)" }
 sources:
   - source/wikipedia-yusuf-hamied-en
   - source/wikipedia-yusuf-hamied-ar

@@ -10,6 +10,8 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq, persia-central-asia]
 died: { edtf: "0879-06~", hijri: "0265-04", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الآخر ٢٦٥؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 50}." }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، وفيات سنة 265)، قراءة آبل فيجن"

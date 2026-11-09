@@ -7,6 +7,9 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 external_ids: { wikidata: "Q5666131" }
+relations:
+  - { type: born_in, target: place/najd, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q208154)" }
+  - { type: died_in, target: place/al-ahwaz, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q170366)" }
 sources: [source/khudari-umayyad-state]
 provenance: { layer: own-research, source: "khudari-umayyad-state p. 309", generated_by: "Claude (subagent), extracted from khudari-umayyad-state pp. 308–309; the doctrines are the book's report of him, not endorsed here" }
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from khudari-umayyad-state pp. 308–309" }

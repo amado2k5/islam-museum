@@ -1,0 +1,21 @@
+id: place/volubilis
+class: place
+kind: site
+label: { ar: "وليلي", en: "Volubilis", ur: "ولیلی" }
+summary:
+  ar: "موقع في المغرب."
+  en: "Site in Morocco."
+wings: [place]
+regions: [maghreb]
+coordinates: [34.0399646, -5.5626871]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q391215" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q391215 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

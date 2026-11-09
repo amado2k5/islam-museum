@@ -14,6 +14,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 roles: [royal]
 relations:
+  - { type: lived_in, target: place/rayy, note: "From text: qadi of Rayy", sources: [source/muntazam-ibn-al-jawzi, source/shadharat-dhahab] }
   - { type: child_of, target: person/al-qaim-billah, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: spouse_of, target: person/tughril-beg, sources: [source/muntazam-ibn-al-jawzi, source/shadharat-dhahab] }
 provenance:

@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/umayyad]
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with الكوفة per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء السادس (عارضة داخل ترجمة الفرزدق)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

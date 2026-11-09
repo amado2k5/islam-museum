@@ -13,6 +13,7 @@ regions: [maghreb]
 periods: [period/gunpowder-empires]
 died: { edtf: "1578-08-04", hijri: "0986-06-30", calendar: gregorian, precision: day, status: tradition, derived: true, note: "توفي يوم وادي المخازن", sources: [source/dawlat-uthmaniyya-salabi] }
 relations:
+  - { type: lived_in, target: place/portugal, note: "Place association from the person's nisba/name (البرتغالي); denotes association, not proven residence.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: sibling_of, target: person/ahmad-al-mansur-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: allied_with, target: polity/ottoman-empire, sources: [source/dawlat-uthmaniyya-salabi] }

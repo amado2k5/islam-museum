@@ -8,8 +8,9 @@ wings: [people]
 gender: male
 periods: [period/abbasid-fragmentation]
 relations:
-  - { type: lived_in, target: place/marand }
   - { type: participated_in, target: event/muhammad-ibn-al-baith-revolt }
+  - { type: lived_in, target: place/marand }
+  - { type: ruler_of, target: place/marand, sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
 sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 13", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
 status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); body pages read" }

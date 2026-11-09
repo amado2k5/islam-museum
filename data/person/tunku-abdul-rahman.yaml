@@ -37,6 +37,10 @@ faith:
 honours:
   - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1983, note: "shared with Hasanein Makhlouf", sources: [source/wikipedia-king-faisal-prize-en] }
 external_ids: { wikidata: "Q296317" }
+relations:
+  - { type: born_in, target: place/alor-setar, sources: [source/wikidata-tunku-abdul-rahman], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q474868)" }
+  - { type: died_in, target: place/penang, sources: [source/wikidata-tunku-abdul-rahman], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q188096)" }
+  - { type: buried_in, target: building/kedah-royal-mausoleum, sources: [source/wikidata-tunku-abdul-rahman], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q6382509)" }
 sources: [source/wikipedia-tunku-abdul-rahman-en, source/wikipedia-tunku-abdul-rahman-ar, source/wikipedia-tunku-abdul-rahman-ur, source/wikipedia-tunku-abdul-rahman-id, source/wikidata-tunku-abdul-rahman, source/wikipedia-king-faisal-prize-en]
 provenance:
   layer: own-research

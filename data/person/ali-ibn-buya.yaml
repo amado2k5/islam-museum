@@ -15,3 +15,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-34
 sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: died_in, target: place/shiraz, note: "From text: died at Shiraz", sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir] }

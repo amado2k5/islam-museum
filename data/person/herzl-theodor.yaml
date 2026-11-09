@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [anatolia-balkans]
+relations:
+  - { type: lived_in, target: place/al-yahudiyya, confidence: low, note: "Associated with اليهودية per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

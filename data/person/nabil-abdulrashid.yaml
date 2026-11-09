@@ -28,8 +28,8 @@ born:
   note: "Born in North London, England. The English and Arabic articles both give 3 September 1985, while Wikidata gives 3 September 1987 — the same day and month with the year split — so the block is built on the two articles' reading and marked debated, with Wikidata's year preserved here. No Hijri year is recorded: the two readings fall in different Hijri years (1405 and 1408), so no single pairing is consistent. No place entity for London exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-nabil-abdulrashid-en, source/wikipedia-nabil-abdulrashid-ar, source/wikidata-nabil-abdulrashid]
 
-relations: []
-
+relations:
+  - { type: born_in, target: place/north-london, sources: [source/wikidata-nabil-abdulrashid], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q734547)" }
 faith:
   - value: unknown
     basis: unknown

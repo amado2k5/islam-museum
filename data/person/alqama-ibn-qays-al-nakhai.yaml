@@ -13,6 +13,7 @@ themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
 died: { hijri: "0062", edtf: "0681~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة اثنتين وستين (PDF ص42).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
+  - { type: lived_in, target: place/kufa, note: "From text: من فقهاء الكوفة من التابعين", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/tabaqat-fuqaha-abbas-1981] }
 external_ids:
   wikidata: Q2840135

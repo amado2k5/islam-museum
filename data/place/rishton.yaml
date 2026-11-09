@@ -1,0 +1,21 @@
+id: place/rishton
+class: place
+kind: city
+label: { ar: "رشتان", en: "Rishton", ur: "رشتون، ازبکستان" }
+summary:
+  ar: "مدينة في أوزبكستان."
+  en: "City in Uzbekistan."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [40.356666666667, 71.284722222222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q250276" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q250276 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

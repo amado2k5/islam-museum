@@ -14,3 +14,5 @@ provenance:
   run: lib-ibar-batch-1
 sources: [source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruler_of, target: place/maghreb, note: "Amir of Awraba in the far Maghreb who sheltered Idris ibn Abdallah in 172 and rallied the Berbers.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: medium }

@@ -34,6 +34,7 @@ roles: [politician, writer]
 wings: [people]
 regions: [anatolia-balkans]
 relations:
+  - { type: buried_in, target: place/ferik-y-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cafer-seydamet-kirimer] }
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-cafer-seydamet-kirimer-en, source/wikipedia-cafer-seydamet-kirimer-tr] }
   - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-cafer-seydamet-kirimer-tr] }
 faith:

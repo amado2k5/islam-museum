@@ -18,6 +18,8 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
 relations:
+  - { type: born_in, target: place/shahrazur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/sufism-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/shahrazur, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
   - { type: child_of, target: person/salah-al-din-al-nasri, sources: [source/tarikh-islam-dhahabi] }

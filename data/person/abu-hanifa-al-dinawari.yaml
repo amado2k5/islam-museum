@@ -56,6 +56,11 @@ died:
   sources:
   - source/akhbar-tiwal-amir
 relations:
+- type: lived_in
+  target: place/iran
+  note: "From text: Persian (nationality adjective); broad association, flagged for review."
+  confidence: low
+  sources: [source/akhbar-tiwal-amir, source/muruj-al-dhahab]
 - type: authored
   target: work/al-akhbar-al-tiwal
   sources:

@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/kafr-qaddum, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2896936)" }
+  - { type: died_in, target: place/nablus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q214178)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q126164295

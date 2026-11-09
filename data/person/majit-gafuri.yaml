@@ -35,6 +35,8 @@ tags: [volga-tatars, bashkir-literature]
 roles: [poet, writer]
 wings: [people]
 regions: [anatolia-balkans]
+relations:
+  - { type: died_in, target: place/ufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-majit-gafuri] }
 faith:
   - value: unknown
     basis: unknown

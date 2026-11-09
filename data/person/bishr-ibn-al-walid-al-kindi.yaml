@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Qadi of Egypt under the Umayyads per the record's own summary.", sources: [source/fihrist-ibn-al-nadim] }
   - { type: participated_in, target: event/mihna-of-the-quran, role: "الممتحَن", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

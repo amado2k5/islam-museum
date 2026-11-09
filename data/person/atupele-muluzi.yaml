@@ -31,6 +31,7 @@ faith:
     note: "No source names a school for him. The English article's text states 'He is a Muslim' in its personal-life section, citing the Palgrave Handbook of Islam in Africa (2020) — an attestation of Muslim identity from one text family, naming no school — and files him under Malawian Muslims; Wikidata gives his religion (P140) as Islam, with no branch, the same family's structured echo. His father's Muslim identity, attested in his father's record, is family background and never counts for the son. The value stays unknown."
     sources: [source/wikipedia-atupele-muluzi-en, source/wikidata-atupele-muluzi]
 relations:
+  - { type: lived_in, target: place/east-africa, note: "Only the record-level region (east-africa) is attested; broad-region edge flagged for review.", sources: [source/wikipedia-atupele-muluzi-en, source/wikidata-atupele-muluzi], confidence: low }
   - type: child_of
     target: person/bakili-muluzi
     sources: [source/wikipedia-atupele-muluzi-en, source/wikidata-atupele-muluzi]

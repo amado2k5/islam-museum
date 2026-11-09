@@ -12,6 +12,8 @@ wings: [people]
 regions: [east-africa]
 periods: [period/colonial-era]
 born: { edtf: "1855~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/lindi, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q829886)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3453145

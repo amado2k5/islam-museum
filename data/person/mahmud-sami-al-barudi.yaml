@@ -13,6 +13,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [egypt-nile]
+relations:
+  - { type: lived_in, target: place/al-harbiyya, confidence: low, note: "Associated with الحربية per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 provenance:
   layer: own-research

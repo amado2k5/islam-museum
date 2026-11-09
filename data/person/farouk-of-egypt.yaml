@@ -30,6 +30,9 @@ died:
   note: "Died in exile in Rome, Italy. Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1384) is converted with the repo's converter and marked derived."
   sources: [source/wikipedia-farouk-of-egypt-en, source/wikipedia-farouk-of-egypt-ar, source/wikidata-farouk-of-egypt]
 relations:
+  - { type: born_in, target: place/abdeen-palace, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-farouk-of-egypt] }
+  - { type: died_in, target: place/rome, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-farouk-of-egypt] }
+  - { type: buried_in, target: building/masjid-al-rifai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-farouk-of-egypt] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-farouk-of-egypt-en] }
 faith:
   - value: unknown

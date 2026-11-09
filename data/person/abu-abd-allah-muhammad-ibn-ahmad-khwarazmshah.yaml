@@ -13,6 +13,7 @@ roles: [ruler]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "0995", hijri: "0385", calendar: julian, precision: year, status: historical, note: "Killed in Jurjaniyya after Ma'mun ibn Muhammad took Kath {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 70}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
 relations:
+  - { type: ruler_of, target: place/jurjaniyya, note: "From text: emir of Jurjaniyya", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
   - { type: ruler_of, target: polity/afrighid-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
   - { type: died_in, target: place/jurjaniyya, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
 sources: [source/ismoilov-xorazmshohlar-tangalari-2025]

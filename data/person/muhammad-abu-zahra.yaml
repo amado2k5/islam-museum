@@ -12,6 +12,8 @@ wings: [people]
 regions: [egypt-nile]
 periods: [period/modern-era]
 died: { edtf: "1974", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/misr, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q79)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q718677

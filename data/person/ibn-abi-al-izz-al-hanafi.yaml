@@ -18,6 +18,9 @@ regions: [levant-iraq]
 faith:
   - { value: sunni-hanafi, basis: documented, note: "Named al-Hanafi on the title page and he speaks of Abu Hanifa's followers as 'our companions' in his commentary.", sources: [source/sharh-tahawiyya-ibn-abi-al-izz] }
 relations:
+  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/mount-qasioun, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/sharh-aqida-tahawiyya, sources: [source/sharh-tahawiyya-ibn-abi-al-izz] }
 provenance: { layer: own-research, source: "شرح الطحاوية، دار الحديث، صفحة العنوان وص 267", generated_by: "Claude (maintainer session)", model: claude-sonnet-5-5, run: izz-1 }
 external_ids: { wikidata: "Q5984169" }

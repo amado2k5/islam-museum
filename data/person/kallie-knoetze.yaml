@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born on 24 April 1953 in South Africa; the date is agreed by the English, German and Arabic articles and by Wikidata. His birthplace is contested: the English article's infobox gives Roodepoort, while the German article and Wikidata (Q3643661) give Pretoria. Neither place has an entity in the museum, so both are carried here and no birthplace relation is written. The Hijri year 1372 is derived from the Gregorian date on the tabular calendar."
   sources: [source/wikipedia-kallie-knoetze-en, source/wikipedia-kallie-knoetze-de, source/wikidata-kallie-knoetze]
+relations:
+  - { type: born_in, target: place/pretoria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kallie-knoetze] }
 faith:
   - value: unknown
     basis: unknown

@@ -28,6 +28,11 @@ themes: [medicine, philosophy-and-logic, golden-age-and-decline]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 relations:
+  - { type: born_in, target: place/afshana, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/hamadan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/urgench, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/gorgan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/hamadan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/afshana }
   - { type: died_in, target: place/hamadan }
   - { type: participated_in, target: event/ibn-sina-leaves-for-gurgan-1012, sources: [source/wikipedia-avicenna-en] }

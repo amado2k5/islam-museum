@@ -22,7 +22,8 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [arabia]
 relations:
-- { type: "ruler_of", target: "polity/najahid-dynasty", note: "ثالث ملوك بني نجاح بزبيد وقاتل علي الصليحي", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: lived_in, target: place/zabid, confidence: low, note: "Associated with زبيد per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
+  - { type: "ruler_of", target: "polity/najahid-dynasty", note: "ثالث ملوك بني نجاح بزبيد وقاتل علي الصليحي", sources: [source/tarikh-ibn-khaldun-ibar] }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

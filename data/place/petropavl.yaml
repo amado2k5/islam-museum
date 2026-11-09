@@ -1,0 +1,21 @@
+id: place/petropavl
+class: place
+kind: city
+label: { ar: "بتروبافل", en: "Petropavl", ur: "پیتروپاول" }
+summary:
+  ar: "مدينة في كازاخستان."
+  en: "City in Kazakhstan."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [54.862222222222, 69.140833333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q488379" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q488379 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

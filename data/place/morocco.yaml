@@ -1,0 +1,39 @@
+id: place/morocco
+class: place
+kind: region
+label:
+  ar: المغرب
+  en: Morocco
+  ur: المغرب
+summary:
+  ar: المغرب الأقصى؛ قامت فيه دول المرابطين والموحدين والمرينيين والسعديين والعلويين، وهو منذ 1956م مملكة عاصمتها الرباط.
+  en: 'The far Maghreb (al-Maghrib al-Aqsa): the Almoravid, Almohad, Marinid, Sa''di and Alawite states ruled from its capitals; a kingdom since 1956.'
+  ur: مغربِ اقصیٰ کی سرزمین؛ مرابطین تا علویین کی سلطنتیں، 1956ء سے بادشاہت۔
+wings:
+- place
+regions:
+- maghreb
+coordinates:
+- 32
+- -6
+coordinate_precision: locality
+coordinate_note: Wikidata Q1028 coordinates; representative point for the region.
+external_ids:
+  wikidata: Q1028
+  geonames: '2542007'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1028 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry and Wikidata Q1028; regional centroid

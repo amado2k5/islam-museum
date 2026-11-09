@@ -17,6 +17,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
 story_roles:
   - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/valencia, confidence: low, note: "The Andalusi poet Ibn Khafaja of the Valencia region per the record's own summary.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

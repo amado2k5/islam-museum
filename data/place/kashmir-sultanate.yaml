@@ -1,0 +1,30 @@
+id: place/kashmir-sultanate
+class: place
+kind: region
+label:
+  ar: سلطنة كشمير
+  en: Kashmir Sultanate
+  ur: سلطنت کشمیر
+summary:
+  ar: منطقة تُعرف بالإنجليزية باسم Kashmir Sultanate.
+  en: 1320–1589 Islamic state in Kashmir.
+wings:
+- place
+regions:
+- global
+external_ids:
+  wikidata: Q123027565
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q123027565 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q123027565 (labels, coordinates, description)

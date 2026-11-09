@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born at Dogondoutchi, Niger. The Hijri year (1376) is derived by tabular conversion. Dogondoutchi and Rufisque have no place entities in the museum, so no born_in relation is written."
   sources: [source/wikipedia-ismael-lo-en, source/wikipedia-ismael-lo-fr, source/wikidata-ismael-lo]
+relations:
+  - { type: lived_in, target: place/dakar, confidence: low, note: "Associated with Dakar per the record's own summary text; relation type pending review.", sources: [source/wikipedia-ismael-lo-en] }
 faith:
   - value: unknown
     basis: unknown

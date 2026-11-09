@@ -8,6 +8,9 @@ wings: [people]
 periods: [period/umayyad]
 relations:
   - { type: participated_in, target: event/conquest-of-sind-89, role: "القائد الفاتح", sources: [source/umayyad-birth-to-fall-2006] }
+  - { type: born_in, target: place/taif, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q182640)" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+  - { type: died_in, target: place/mosul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q83317)" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 221–222"

@@ -20,6 +20,8 @@ born:
   status: debated
   note: "The English and Arabic Wikipedia articles give his birth as 1985 or 1986, the English article's estimate resting on an August 2007 Los Angeles Times report describing him as a 21-year-old Harvard student. Wikidata (Q127636271) gives 1980 at year precision, which agrees with neither article and is not followed. No Hijri year is recorded, because the Gregorian year is itself an estimate spanning two years. His birthplace, Houston, is carried in the prose: the museum has no place entity for Houston, so no born_in relation is written."
   sources: [source/wikipedia-daniel-haqiqatjou-en, source/wikipedia-daniel-haqiqatjou-ar, source/wikidata-daniel-haqiqatjou]
+relations:
+  - { type: born_in, target: place/houston, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-daniel-haqiqatjou-en, source/wikipedia-daniel-haqiqatjou-ar, source/wikidata-daniel-haqiqatjou] }
 faith:
   - value: unknown
     basis: unknown

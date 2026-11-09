@@ -36,6 +36,7 @@ faith:
     note: "No text in either article names a school or madhhab for the man, and neither infobox carries a religion field. FLAGGED for the founder: the Sunni reading rests on one source family — structured data: the Wikidata item carries two religion values, Islam (Q432) and Sunni Islam (Q483654), sitting in the same item. No article text corroborates the Sunni value, and one family never attests a school on its own (the Beji Caid Essebsi configuration exactly). His presidency's dealings with the Islamic Salvation Front are state politics, not a personal attestation."
     sources: [source/wikipedia-chadli-bendjedid-en, source/wikipedia-chadli-bendjedid-ar, source/wikidata-chadli-bendjedid]
 relations:
+  - { type: born_in, target: place/bouteldja, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chadli-bendjedid] }
   - { type: died_in, target: place/algiers, sources: [source/wikipedia-chadli-bendjedid-en, source/wikipedia-chadli-bendjedid-ar] }
   - { type: buried_in, target: place/algiers, sources: [source/wikipedia-chadli-bendjedid-en] }
 wings: [people]

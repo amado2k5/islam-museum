@@ -26,6 +26,8 @@ faith:
     note: "Wikidata gives his religion only as Islam, and neither Wikipedia article names a school. The 'Hanafi' in his full name (Ragheb Hanafi Ragheb el-Sergany) is a family name, not a jurisprudential attestation, and is not counted. Not recorded as sunni until a second source confirms a school."
     sources: [source/wikipedia-ragheb-al-sergani-en, source/wikipedia-ragheb-al-sergani-ar, source/wikidata-ragheb-al-sergani]
 external_ids: { wikidata: "Q7282965" }
+relations:
+  - { type: born_in, target: place/el-mahalla-el-kubra, sources: [source/wikidata-ragheb-al-sergani], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q312723)" }
 sources: [source/wikipedia-ragheb-al-sergani-en, source/wikipedia-ragheb-al-sergani-ar, source/wikidata-ragheb-al-sergani, source/youtube-raghebelserganyst, source/assabile-ragheb-el-sergani]
 provenance:
   layer: own-research

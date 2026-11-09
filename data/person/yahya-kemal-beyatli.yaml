@@ -38,6 +38,7 @@ died:
   sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikipedia-yahya-kemal-beyatli-tr, source/wikipedia-yahya-kemal-beyatli-ar, source/wikidata-yahya-kemal-beyatli]
 relations:
   - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 1 November 1958 (English, Turkish and Arabic articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikidata-yahya-kemal-beyatli] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikipedia-yahya-kemal-beyatli-tr, source/wikipedia-yahya-kemal-beyatli-ar, source/wikipedia-yahya-kemal-beyatli-ur, source/wikidata-yahya-kemal-beyatli] }
 faith:
   - value: unknown
     basis: unknown

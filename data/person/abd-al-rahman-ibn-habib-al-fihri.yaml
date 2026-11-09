@@ -7,12 +7,13 @@ summary:
 wings: [people]
 gender: male
 relations:
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: participated_in, target: event/abd-al-rahman-ibn-habib-sus-raid, role: "المُغزى الغانم", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-22
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 external_ids: { wikidata: "Q4664589" }
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

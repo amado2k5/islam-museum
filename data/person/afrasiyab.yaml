@@ -16,3 +16,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 258-259 (EI2 enrichment, batch ei2-b003 part 3bo; the Basra governors line in the same row is not yet written)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/iran, note: "From text: Iranian (nationality adjective); broad association, flagged for review.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

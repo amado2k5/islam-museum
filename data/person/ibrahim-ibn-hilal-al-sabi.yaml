@@ -8,6 +8,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with Baghdad per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — المسح المحلي المقروء بآبل فيجن (الجزء الأول)"

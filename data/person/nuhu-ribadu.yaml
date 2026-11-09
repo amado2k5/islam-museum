@@ -29,6 +29,8 @@ faith:
     note: "The English article makes no statement of his religion anywhere in its text and files him only in the category 'Nigerian Muslims' — a category filing, which never counts. Wikidata gives a single structured value, Islam, with no school. No source used names an affiliation beyond that or a school at all, so under the two-source rule the value stays unknown, unflagged: this is the plain configuration in which even 'Muslim' rests on a filing and a structured value, and no reading stands one attestation short."
     sources: [source/wikipedia-nuhu-ribadu-en, source/wikidata-nuhu-ribadu]
 external_ids: { wikidata: "Q551605" }
+relations:
+  - { type: born_in, target: place/yola, sources: [source/wikidata-nuhu-ribadu], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q994114)" }
 sources: [source/wikipedia-nuhu-ribadu-en, source/wikidata-nuhu-ribadu]
 provenance:
   layer: own-research

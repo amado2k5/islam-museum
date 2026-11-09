@@ -1,0 +1,36 @@
+id: place/serres
+class: place
+kind: city
+label:
+  ar: سيرس
+  en: Serres
+  ur: سیرس
+summary:
+  ar: مدينة في مملكة سالونيك.
+  en: City in Central Macedonia, Greece.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 41.0833
+- 23.55
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q206957
+  geonames: '734330'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q206957 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q206957 (labels, coordinates, description)

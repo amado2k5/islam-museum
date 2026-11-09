@@ -18,3 +18,7 @@ provenance:
 external_ids: { wikidata: "Q2627801" }
 sources: [source/shadharat-dhahab, source/mujam-awsat-haramayn-1415-v1]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: traveled_to, target: place/jerusalem, note: "From text: رحل إلى القدس سنة أربع وسبعين وإلى قيس", sources: [source/shadharat-dhahab, source/mujam-awsat-haramayn-1415-v1] }
+  - { type: traveled_to, target: place/homs, note: "From text: رحل إلى حمص وجبلة ومدائن الشام وحج ودخ", sources: [source/shadharat-dhahab, source/mujam-awsat-haramayn-1415-v1] }
+  - { type: traveled_to, target: place/iraq, note: "From text: رحل إلى العراق وأصبهان وفارس", sources: [source/shadharat-dhahab, source/mujam-awsat-haramayn-1415-v1] }

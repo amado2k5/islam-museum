@@ -36,7 +36,9 @@ faith:
     basis: unknown
     note: "No source names a school for him. Wikidata's single structured family gives his religion only as Islam. The element Haxhi in his name is the hajj title he bore and never counts as an attestation of a school, and his leadership of the nationally mixed Albanian leagues is national-movement activity, which never counts; there is nothing to preserve as a reading, so the value is unknown, unflagged."
     sources: [source/wikipedia-haxhi-zeka-en, source/wikidata-haxhi-zeka]
-relations: []
+relations:
+  - { type: born_in, target: place/albania, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-haxhi-zeka] }
+  - { type: died_in, target: place/peja, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-haxhi-zeka] }
 summary:
   ar: "قائد وطني ألباني من بيجا، من منظّمي رابطة بريزرن (1878) ورئيس رابطة بيجا (1899)، قاد المقاومة المسلحة دفاعاً عن الحكم الذاتي الألباني وسلامة أراضيه حتى اغتياله سنة 1902."
   en: "Albanian national leader from Peja, an organizer of the League of Prizren (1878) and chairman of the League of Peja (1899), who led armed resistance for Albanian autonomy and territorial integrity until his assassination in 1902."

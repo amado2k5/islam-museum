@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [west-africa-sahel]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/senegal, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1041)" }
+  - { type: died_in, target: place/touba, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q657072)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q73672059

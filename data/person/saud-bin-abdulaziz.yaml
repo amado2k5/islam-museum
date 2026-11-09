@@ -39,6 +39,8 @@ relations:
   - { type: successor_of, target: person/ibn-saud, sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikipedia-saud-bin-abdulaziz-ar] }
   - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikidata-saud-bin-abdulaziz] }
   - { type: member_of, target: group/al-saud, sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikipedia-saud-bin-abdulaziz-ar] }
+  - { type: died_in, target: place/athens, sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikidata-saud-bin-abdulaziz] }
+  - { type: buried_in, target: place/mecca, sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikidata-saud-bin-abdulaziz] }
 faith:
   - value: unknown
     basis: unknown

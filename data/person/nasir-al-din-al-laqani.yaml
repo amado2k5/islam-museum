@@ -12,6 +12,8 @@ summary:
 gender: male
 roles: [jurist]
 wings: [people]
+relations:
+  - { type: lived_in, target: place/sawl, sources: [source/wikidata], confidence: low, note: "Nisba صولي attested in the record." }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status:
   review: published

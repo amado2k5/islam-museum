@@ -22,6 +22,8 @@ born:
   derived: true
   note: "The English, Arabic and French articles and Wikidata (Q264657) all give 2 April 1959, born in Sidi Kacem, Morocco. No museum place entity exists for Sidi Kacem, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1378 is derived from the Gregorian date."
   sources: [source/wikipedia-badou-zaki-en, source/wikipedia-badou-zaki-ar, source/wikipedia-badou-zaki-fr, source/wikidata-badou-zaki]
+relations:
+  - { type: born_in, target: place/sidi-kacem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-badou-zaki] }
 faith:
   - value: unknown
     basis: unknown

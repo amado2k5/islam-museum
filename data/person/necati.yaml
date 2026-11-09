@@ -40,9 +40,10 @@ died:
   sources: [source/tdv-necati-bey, source/wikipedia-necati-en, source/wikipedia-necati-ar, source/wikidata-necati]
 
 relations:
+
   - { type: born_in, target: place/edirne, sources: [source/tdv-necati-bey, source/wikipedia-necati-en] }
   - { type: died_in, target: place/istanbul, sources: [source/tdv-necati-bey, source/wikipedia-necati-en] }
-
+  - { type: died_in, target: place/constantinople, sources: [source/tdv-necati-bey, source/wikipedia-necati-en, source/wikipedia-necati-ar, source/wikidata-necati] }
 faith:
   - value: unknown
     basis: unknown

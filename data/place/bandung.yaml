@@ -1,0 +1,20 @@
+id: place/bandung
+class: place
+kind: city
+label: { ar: "باندونغ", en: "Bandung" }
+summary:
+  ar: "مدينة كبرى في غرب جاوة بإندونيسيا."
+  en: "Major city in West Java, Indonesia."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [-6.92194, 107.60694]
+coordinate_precision: locality
+coordinate_note: "Wikidata Q10389 coordinates; representative point for the city."
+external_ids: { wikidata: "Q10389" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Coordinates, labels and identifiers from Wikidata Q10389 and GeoNames; entity created so persons' place relations resolve on the map."

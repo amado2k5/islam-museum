@@ -1,0 +1,36 @@
+id: place/al-wardya-cemetery
+class: place
+kind: site
+label:
+  ar: المقبرة الوردية
+  en: Al wardya Cemetery
+  ur: مقبرہ وردیہ
+summary:
+  ar: المقبرة الوردية.
+  en: Al wardya Cemetery; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- global
+coordinates:
+- 0
+- 0
+coordinate_precision: locality
+coordinate_note: Wikidata Q29513771.
+external_ids:
+  wikidata: Q29513771
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q29513771 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q29513771 (labels, coordinates, description)

@@ -12,6 +12,9 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1512", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/kazarun, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/jalal-al-din-davani-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q4116938

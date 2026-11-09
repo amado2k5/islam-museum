@@ -37,6 +37,9 @@ faith:
     note: "The Khan configuration, unflagged. The English article's text attests the man personally as a Muslim ('a Southern Muslim' in its election narrative), records his membership of the Ansar-Ud-Deen society, his newspaper's support for Islamic causes and the clerical title Baba Adinni of Yorubaland conferred on him in 1984 — association, activity and title, none of which names a school. Wikidata gives a single structured value, Islam; the article's categories file him under 'Nigerian Muslims'. No source used names a madhhab or affiliation beyond Islam, so under the two-source rule the value stays unknown."
     sources: [source/wikipedia-moshood-abiola-en, source/wikidata-moshood-abiola]
 external_ids: { wikidata: "Q1528125" }
+relations:
+  - { type: born_in, target: place/abeokuta, sources: [source/wikidata-moshood-abiola], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q206484)" }
+  - { type: died_in, target: place/abuja, sources: [source/wikidata-moshood-abiola], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3787)" }
 sources: [source/wikipedia-moshood-abiola-en, source/wikidata-moshood-abiola]
 provenance:
   layer: own-research

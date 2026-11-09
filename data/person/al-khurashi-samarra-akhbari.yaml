@@ -26,3 +26,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch54
+relations:
+  - { type: lived_in, target: place/samarra, note: "Place association from the person's nisba/name (سامرائي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

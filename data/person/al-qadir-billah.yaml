@@ -22,3 +22,5 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+relations:
+  - { type: lived_in, target: place/herat, note: "Place association from the person's nisba/name (الهروي); denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }

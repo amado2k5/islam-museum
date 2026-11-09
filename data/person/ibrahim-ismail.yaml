@@ -24,6 +24,8 @@ born:
   derived: true
   note: "Born on 22 November 1958 at the Sultanah Aminah Hospital, Johor Bahru, the third child and eldest son of Sultan Iskandar by his first wife Josephine Ruby Trevorrow (Khalsom binti Abdullah), as the English, Arabic and Urdu articles and Wikidata give. The Hijri year (1378) is by tabular conversion. Johor Bahru has no place entity, so no born_in relation is written. His father Sultan Iskandar (Q375278) has no person record in this graph (verified against origin/main in this session), so no parent_of edge is written anywhere for this pair; the filiation is carried here and in the prose and is reported to the lane coordinator."
   sources: [source/wikipedia-ibrahim-ismail-en, source/wikipedia-ibrahim-ismail-ar, source/wikipedia-ibrahim-ismail-ur, source/wikidata-ibrahim-ismail]
+relations:
+  - { type: born_in, target: place/johor-bahru, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-ismail] }
 faith:
   - value: unknown
     basis: unknown

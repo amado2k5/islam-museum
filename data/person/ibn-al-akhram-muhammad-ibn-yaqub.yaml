@@ -17,6 +17,8 @@ periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/nishapur, confidence: low, note: "Associated with نيسابور per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

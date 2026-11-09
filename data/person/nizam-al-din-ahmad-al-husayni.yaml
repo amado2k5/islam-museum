@@ -39,9 +39,10 @@ died:
   sources: [source/wikipedia-nizam-al-din-ahmad-al-husayni-en, source/wikipedia-nizam-al-din-ahmad-al-husayni-ar, source/wikidata-nizam-al-din-ahmad-al-husayni]
 
 relations:
+
   - { type: born_in, target: place/taif, sources: [source/wikipedia-nizam-al-din-ahmad-al-husayni-en, source/wikipedia-nizam-al-din-ahmad-al-husayni-ar] }
   - { type: died_in, target: place/hyderabad-deccan, sources: [source/wikipedia-nizam-al-din-ahmad-al-husayni-en, source/wikipedia-nizam-al-din-ahmad-al-husayni-ar] }
-
+  - { type: lived_in, target: place/hijaz, sources: [source/wikipedia-nizam-al-din-ahmad-al-husayni-en, source/wikipedia-nizam-al-din-ahmad-al-husayni-ar, source/wikidata-nizam-al-din-ahmad-al-husayni] }
 faith:
   - value: unknown
     basis: unknown

@@ -17,6 +17,7 @@ story_roles:
   - { role: ally, toward: person/muhammad, status: tradition, note: "آوى خزاعة المحزوة، وقاد وفدهم إلى المدينة، ودلّ النبي على عدد الجيش بمر الظهران حين أفلت من التجسس.", sources: [source/ibn-hisham-saqqa] }
   - { role: victim, toward: group/banu-al-dil, status: tradition, note: "أصابتهم بنو الديل مع خزاعة فتحصن في داره ودار رافع مولاهم.", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/medina, confidence: low, note: "Associated with Medina per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/khuzaa }
   - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: shelter-provider, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/khuzaa-appeal-to-medina, role: envoy, sources: [source/ibn-hisham-saqqa] }

@@ -25,6 +25,8 @@ born:
   note: "Born at Aradan in Semnan province on 28 October 1956; the English article and Wikidata agree. The Hijri year is derived by tabular conversion from the Gregorian date."
   sources: [source/wikipedia-ahmadinejad-en, source/wikidata-ahmadinejad]
 relations:
+  - { type: born_in, target: place/aradan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - type: successor_of
     target: person/mohammad-khatami
     note: "He succeeded Mohammad Khatami as president of Iran in August 2005; the English and Persian article infoboxes name Khatami as his predecessor."

@@ -13,6 +13,8 @@ regions: [southeast-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1560", precision: year, status: tradition, derived: true }
 died: { edtf: "1624", precision: year, status: tradition, derived: true }
+relations:
+  - { type: ruled_over, target: place/patani, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q7296051

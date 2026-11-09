@@ -39,6 +39,8 @@ died:
   sources: [source/wikipedia-mohamed-al-fayed-en, source/wikidata-mohamed-al-fayed]
 
 relations:
+  - { type: born_in, target: place/ras-el-tin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-al-fayed] }
+  - { type: died_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-al-fayed] }
   - { type: born_in, target: place/alexandria, sources: [source/wikipedia-mohamed-al-fayed-en, source/wikidata-mohamed-al-fayed] }
 
 faith:

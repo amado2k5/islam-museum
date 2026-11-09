@@ -16,6 +16,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
 story_roles:
   - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/cordoba, confidence: low, note: "Associated with Cordoba per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

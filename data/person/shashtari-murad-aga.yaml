@@ -12,6 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/bosnia, confidence: low, note: "Bosnian figure (regions: anatolia-balkans).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q136126076
 provenance:

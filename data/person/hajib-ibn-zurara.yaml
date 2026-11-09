@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/banu-tamim, sources: [source/mubarakpuri-raheeq] }
 provenance:
   layer: own-research

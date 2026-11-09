@@ -32,6 +32,8 @@ died:
   note: "The death year is genuinely split. The English article's body states that he remained in Vienna until his death in 1922 and was buried at Beşiktaş, Istanbul, and Wikidata's only death value is the year 1922; the record follows that reading. Against it, the Turkish article's lead gives April 1923 at Vienna, citing the TDV İslâm Ansiklopedisi entry of 1994, and two scholarly books quoted in the English article's own lead (Archivum Ottomanicum and Kent 1996) print his years as 1855–1923. Both readings are preserved here; nothing consulted gives a day or month for the 1922 reading. The Hijri year 1340 is the derived conversion of 1922."
   sources: [source/wikipedia-huseyin-hilmi-pasha-en, source/wikipedia-huseyin-hilmi-pasha-tr, source/wikidata-huseyin-hilmi-pasha]
 relations:
+  - { type: born_in, target: place/mytilene, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-huseyin-hilmi-pasha] }
+  - { type: died_in, target: place/vienna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-huseyin-hilmi-pasha] }
   - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-huseyin-hilmi-pasha-en] }
 faith:
   - value: unknown

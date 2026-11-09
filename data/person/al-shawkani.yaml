@@ -34,6 +34,8 @@ themes: [scripture-and-its-sciences, sects-and-schools]
 periods: [period/modern-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/sanaa, note: "From text: judge of Sana'a", sources: [source/al-aalam, source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1, source/irshad-al-fuhul-dar-al-fikr] }
+  - { type: died_in, target: place/sanaa, note: "From text: died in Sana'a", sources: [source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1, source/al-aalam] }
   - { type: lived_in, target: place/sanaa, sources: [source/fath-al-qadir-dar-al-marifa] }
   - { type: died_in, target: place/sanaa, sources: [source/fath-al-qadir-dar-al-marifa] }
   - { type: student_of, target: person/al-qasim-ibn-yahya-al-khawlani, sources: [source/fath-al-qadir-dar-al-marifa] }

@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/colonial-era]
+relations:
+  - { type: born_in, target: place/russia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q159)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: buried_in, target: building/nuruosmaniye-mosque, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1430090)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q623087

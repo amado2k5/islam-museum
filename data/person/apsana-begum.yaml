@@ -29,7 +29,8 @@ born:
   note: "Born in Shadwell, London on 25 May 1990; the English and Arabic articles and Wikidata agree. The Hijri year 1410 is the tabular conversion of the built date, marked derived. No place entity for Shadwell or London exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-apsana-begum-en, source/wikipedia-apsana-begum-ar, source/wikidata-apsana-begum]
 
-relations: []
+relations:
+  - { type: lived_in, target: place/bangladesh, note: "From text: Bangladeshi (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-apsana-begum-en, source/wikipedia-apsana-begum-ar, source/wikipedia-apsana-begum-ur, source/wikidata-apsana-begum], confidence: low }
 
 faith:
   - value: unknown

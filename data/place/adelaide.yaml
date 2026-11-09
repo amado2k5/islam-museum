@@ -1,0 +1,21 @@
+id: place/adelaide
+class: place
+kind: city
+label: { ar: "أديلايد", en: "Adelaide" }
+summary:
+  ar: "مدينة أديلايد."
+  en: "City (Adelaide)."
+wings: [place]
+regions: [africa]
+coordinates: [-34.928, 138.6]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q5112; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5112" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5112 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

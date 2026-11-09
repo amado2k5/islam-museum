@@ -30,3 +30,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (أندلسي); denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }

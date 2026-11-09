@@ -17,6 +17,9 @@ periods: [period/colonial-era]
 regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikidata], confidence: low, note: "ar: 'ولد في القدس، واضطربت دراسته بين مدارس القدس ونابلس.'" }
+  - { type: traveled_to, target: place/nablus, sources: [source/wikidata], confidence: low, note: "en: 'Born in Jerusalem, where his schooling moved between Jerusalem and Nablus.'" }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

@@ -20,6 +20,8 @@ roles: [scholar, jurist]
 regions: [southeast-asia]
 wings: [people]
 
+relations:
+  - { type: lived_in, target: place/minangkabau, confidence: low, note: "Associated with Minangkabau per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

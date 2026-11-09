@@ -1,0 +1,32 @@
+id: place/ottoman-empire
+class: place
+kind: region
+label:
+  ar: الدولة العثمانية
+  en: Ottoman Empire
+summary:
+  ar: منطقة في الدولة العثمانية.
+  en: Ottoman Empire; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 41
+- 29
+coordinate_precision: locality
+coordinate_note: Wikidata Q12560 (ID held on the matching polity entity).
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q12560 (labels, coordinates, description)

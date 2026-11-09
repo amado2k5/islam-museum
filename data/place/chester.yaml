@@ -1,0 +1,16 @@
+id: place/chester
+class: place
+kind: city
+label: { en: "Chester", ar: "تشيستر" }
+summary:
+  en: "City in Delaware County, Pennsylvania, United States."
+  ar: "مدينة في الولايات المتحدة."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [39.8472, -75.3728]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q368045", geonames: "4557137" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q368045 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

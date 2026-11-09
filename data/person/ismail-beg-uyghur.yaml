@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [china-east-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/aksu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6084473

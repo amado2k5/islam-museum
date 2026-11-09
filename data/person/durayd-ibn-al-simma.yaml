@@ -16,6 +16,7 @@ died: { edtf: "0630-01~", hijri: "0008-10", calendar: julian, precision: month, 
 story_roles:
   - { role: military-opponent, toward: group/early-muslims, status: tradition, note: "حضر حنين في بني جشم مستشاراً حربياً وقُتل بأوطاس.", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/awtas, confidence: low, note: "Associated with Awtas per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-jusham }
   - { type: member_of, target: group/hawazin }
   - { type: participated_in, target: event/battle-of-hunayn, role: military-adviser, sources: [source/ibn-hisham-saqqa] }

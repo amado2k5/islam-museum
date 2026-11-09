@@ -1,0 +1,16 @@
+id: place/almaty
+class: place
+kind: city
+label: { en: "Almaty", ar: "ألماطة" }
+summary:
+  en: "Largest city of Kazakhstan."
+  ar: "مدينة في كازاخستان."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [43.24, 76.915]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q35493", geonames: "1526384" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q35493 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -13,5 +13,7 @@ provenance:
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-15
 external_ids: { wikidata: "Q7881640" }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 sources: [source/wafayat-ayan, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

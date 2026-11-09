@@ -18,6 +18,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: lived_in, target: place/abyssinia, confidence: low, note: "Associated with الحبشة per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-tahm, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/al-harith-ibn-khalid, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/rayta-bint-al-harith, sources: [source/ibn-hisham-saqqa] }

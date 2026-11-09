@@ -14,6 +14,7 @@ themes: [spirituality-and-sufism]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/siyar-alam-nubala-ideas-house] }
   - { type: student_of, target: person/abu-al-abbas-al-mursi, sources: [source/siyar-alam-nubala-ideas-house] }
 external_ids: { wikidata: "Q2827445" }
 sources: [source/siyar-alam-nubala-ideas-house, source/durar-kamina-jil-1993, source/assabile-omar-abdelkafy, source/miftah-al-falah-saada-1332]

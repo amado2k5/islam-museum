@@ -21,3 +21,6 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 214-215 (EI2 enrichment, batch ei2-b003 part 3aq)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/lalish, note: "Founded the Adawiyya order at Laylash near Mosul where his tomb stands.", sources: [source/encyclopaedia-of-islam-2], confidence: high }
+  - { type: buried_in, target: place/lalish, note: "Venerated tomb at Lalish; destroyed and the bones burned in 817/1414.", sources: [source/encyclopaedia-of-islam-2], confidence: medium }

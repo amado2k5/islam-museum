@@ -32,6 +32,7 @@ relations:
   - { type: child_of, target: person/ageng-tirtayasa, sources: [source/wikipedia-sultan-haji-of-banten-en, source/wikipedia-sultan-haji-of-banten-id] }
   - { type: successor_of, target: person/ageng-tirtayasa, sources: [source/wikipedia-sultan-haji-of-banten-en, source/wikipedia-sultan-haji-of-banten-id] }
 
+  - { type: born_in, target: place/banten-sultanate, sources: [source/wikidata-sultan-haji-of-banten], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q734867)" }
 faith:
   - value: unknown
     basis: unknown

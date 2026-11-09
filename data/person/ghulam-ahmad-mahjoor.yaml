@@ -35,7 +35,8 @@ faith:
     basis: unknown
     note: "No consulted source names a school or affiliation for him, and his Wikidata item carries no religion value at all. A maktab primary education and a father who was a Persian scholar are schooling and family background, which never count."
     sources: [source/wikipedia-mahjoor-en, source/wikidata-mahjoor]
-relations: []
+relations:
+  - { type: lived_in, target: place/kashmir, confidence: low, note: "Associated with كشمير per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 summary:
   ar: "شاعر كشميري لُقّب بـ«شاعر كشمير»، أدخل أسلوباً جديداً في الشعر الكشميري ووسّع موضوعاته إلى الحب والوحدة الاجتماعية والإصلاح، وعمل موظفاً في إدارة الإيرادات ⁦(بتواري)⁩ متنقلاً في أرجاء الوادي."
   en: "Kashmiri poet honoured as Shayar-e-Kashmir, 'the poet of Kashmir', who brought a new style to Kashmiri poetry and widened its themes to love, communal unity and social reform, while working as a revenue official (patwari) posted across the valley."

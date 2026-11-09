@@ -24,6 +24,8 @@ wings:
   - living
 regions:
   - americas-oceania
+relations:
+  - { type: lived_in, target: place/melbourne, confidence: low, note: "Associated with ملبورن per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

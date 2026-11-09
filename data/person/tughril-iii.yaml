@@ -17,5 +17,7 @@ provenance:
   run: lib-kamil-562-629-05
   explorer_localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fifth-40-stories-2026-11-04","source":"Missing English/Urdu labels and concise summaries restated from this existing Arabic museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
+relations:
+  - { type: ruler_of, target: place/hamadhan, sources: [source/kamil-ibn-al-athir], confidence: low, note: "ar: 'السلطان طغرل بن أرسلان بن طغرل بن محمد بن ملكشاه بن ألب أرسلان السلجوقي، آخر سلاطين السلاجقة بالعراق والج" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

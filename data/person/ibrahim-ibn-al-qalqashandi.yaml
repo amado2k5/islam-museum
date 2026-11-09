@@ -15,6 +15,8 @@ summary:
   en: "The last transmitter of Ibn Hajar's generation — a travelling hafiz who heard al-Bulqini, al-Damiri and al-Sakhawi too; d. Tuesday 10 Jumada II 922, aged ninety-one {cite:shadharat-dhahab p. 473}."
 born: { edtf: "1426~", hijri: "0831~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات عن 91 سنة {cite:shadharat-dhahab p. 473}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1516-07-16~", hijri: "0922-06-10", calendar: julian, precision: day, status: tradition, derived: true, note: "مات الثلاثاء 10 جمادى الآخرة 922 عن 91 سنة {cite:shadharat-dhahab p. 473}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 922)، قراءة آبل فيجن"

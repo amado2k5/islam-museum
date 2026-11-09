@@ -1,0 +1,21 @@
+id: place/hawraman
+class: place
+kind: town
+label: { ar: "هورامان", en: "Hawraman" }
+summary:
+  ar: "بلدة في العراق."
+  en: "Town in Iraq."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [35.08091044983154, 46.879053466253566]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1585478" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1585478 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

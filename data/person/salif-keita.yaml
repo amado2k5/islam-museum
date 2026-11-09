@@ -27,6 +27,8 @@ faith:
     note: "The only religious statement in any source is family background: the English Wikipedia article says he was 'raised in a Muslim family' and 'went to an Islamic school where he was influenced by his Qur'an teacher's singing'. Family background and schooling never count as an attestation of a person's own school. The French and Arabic articles state no religion for him, and Wikidata (Q313318) carries no religion claim at all; no source names a school for Keita himself. Under the two-source rule and the doubt rule his faith is recorded as unknown."
     sources: [source/wikipedia-salif-keita-en, source/wikipedia-salif-keita-fr, source/wikipedia-salif-keita-ar, source/wikidata-salif-keita]
 external_ids: { wikidata: "Q313318" }
+relations:
+  - { type: born_in, target: place/mali, sources: [source/wikidata-salif-keita], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q912)" }
 sources: [source/wikipedia-salif-keita-en, source/wikipedia-salif-keita-fr, source/wikipedia-salif-keita-ar, source/wikidata-salif-keita]
 provenance:
   layer: own-research

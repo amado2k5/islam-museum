@@ -14,5 +14,7 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-20
+relations:
+  - { type: ruler_of, target: place/ifriqiya, sources: [source/wikidata], confidence: low, note: "en: 'First of the governors al-Andalus received from the amirs of Ifriqiya; sent by Bishr b." }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

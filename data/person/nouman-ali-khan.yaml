@@ -24,6 +24,9 @@ faith:
     note: "The English Wikipedia article gives his religion as Islam only, and Wikidata records only 'Islam'. The Arabic Wikipedia article states no school in its text or infobox. Not recorded as sunni until a second source confirms a school."
     sources: [source/wikipedia-nouman-ali-khan-en, source/wikipedia-nouman-ali-khan-ar, source/wikidata-nouman-ali-khan]
 external_ids: { wikidata: "Q16212126" }
+relations:
+  - { type: born_in, target: place/east-berlin, sources: [source/wikidata-nouman-ali-khan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q56037)" }
+  - { type: lived_in, target: place/dallas, sources: [source/wikidata-nouman-ali-khan], confidence: low, note: "Wikidata P937 work location (Wikidata Q16557)" }
 sources: [source/wikipedia-nouman-ali-khan-en, source/wikipedia-nouman-ali-khan-ar, source/wikidata-nouman-ali-khan]
 provenance:
   layer: own-research

@@ -36,6 +36,11 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- type: lived_in
+  target: place/jazirat-al-arab
+  note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review."
+  confidence: low
+  sources: [source/ibn-hajar-isaba]
 - type: member_of
   target: group/ansar
   sources:

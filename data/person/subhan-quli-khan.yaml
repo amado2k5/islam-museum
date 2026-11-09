@@ -36,9 +36,10 @@ died:
   sources: [source/wikipedia-subhan-quli-khan-en, source/wikipedia-subhan-quli-khan-ru, source/wikidata-subhan-quli-khan]
 
 relations:
+
   - { type: born_in, target: place/bukhara, sources: [source/wikipedia-subhan-quli-khan-en, source/wikipedia-subhan-quli-khan-ru] }
   - { type: died_in, target: place/bukhara, sources: [source/wikipedia-subhan-quli-khan-en, source/wikipedia-subhan-quli-khan-ru] }
-
+  - { type: ruler_of, target: place/bukhara, sources: [source/wikipedia-subhan-quli-khan-en, source/wikipedia-subhan-quli-khan-ru, source/wikidata-subhan-quli-khan] }
 faith:
   - value: unknown
     basis: unknown

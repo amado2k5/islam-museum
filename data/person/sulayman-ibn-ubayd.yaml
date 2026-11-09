@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
+relations:
+  - { type: born_in, target: place/ral, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q97291223)" }
+  - { type: died_in, target: place/taif, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q182640)" }
+  - { type: buried_in, target: place/al-adl-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4703442)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q126934627

@@ -31,3 +31,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
+relations:
+  - { type: lived_in, target: place/safad, note: "From text: نشأ بها ثم توجه إلى صفد فأقام بها و", sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/ramla, note: "From text: ولد بالرملة 807 {cite:shadharat-dha", sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/jerusalem, note: "From text: qadi of Jerusalem", sources: [source/shadharat-dhahab] }

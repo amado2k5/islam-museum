@@ -16,6 +16,8 @@ roles: [athlete]
 wings: [people, living]
 regions: [andalus-europe, maghreb]
 born: { edtf: "1984-12-08", hijri: "1405", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 8 December 1984 in Amsterdam, Netherlands, to Moroccan parents of the Houara tribe, who had moved to the Netherlands before his birth. The English article's infobox cites the K-1 fighter profile for the date and place; Wikidata agrees. No place entity for Amsterdam exists in the museum, so the birthplace is carried here only. The Hijri year 1405 is derived from the Gregorian date on the tabular calendar.", sources: [source/wikipedia-badr-hari-en, source/wikipedia-badr-hari-ar, source/wikidata-badr-hari] }
+relations:
+  - { type: born_in, target: place/amsterdam, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-badr-hari] }
 faith:
   - value: unknown
     basis: unknown

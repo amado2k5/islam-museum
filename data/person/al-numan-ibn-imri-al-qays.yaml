@@ -14,3 +14,5 @@ provenance:
   run: lib-futuh-buldan-batch-36
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruler_of, target: place/al-hira, note: "From text: ملك الحيرة", sources: [source/futuh-buldan-maarif-1407], confidence: low }

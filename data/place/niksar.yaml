@@ -1,0 +1,16 @@
+id: place/niksar
+class: place
+kind: city
+label: { en: "Niksar", ar: "نيكسار" }
+summary:
+  en: "Town in Turkey."
+  ar: "مدينة في تركيا."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [40.5833, 36.9667]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q513980", geonames: "741304" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q513980 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

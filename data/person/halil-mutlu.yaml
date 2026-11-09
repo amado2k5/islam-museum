@@ -23,6 +23,8 @@ born:
   derived: true
   note: "Born Halil Aliev on 14 July 1973 in the village of Postnik near Momchilgrad (Mestanlı), Kardzhali Province, Bulgaria: the English article gives Postnik, the Turkish article gives Mestanlı, and Wikidata's birthplace is Kardzhali. No place entity exists for any of them, so no born_in relation is written. The Hijri year 1393 (14 Jumada al-awwal 1393) is the tabular conversion of 14 July 1973 and is marked derived."
   sources: [source/wikipedia-halil-mutlu-en, source/wikipedia-halil-mutlu-tr, source/wikipedia-halil-mutlu-ar, source/wikidata-halil-mutlu]
+relations:
+  - { type: born_in, target: place/kardzhali, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-halil-mutlu] }
 faith:
   - value: unknown
     basis: unknown

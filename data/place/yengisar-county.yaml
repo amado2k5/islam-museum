@@ -1,0 +1,21 @@
+id: place/yengisar-county
+class: place
+kind: region
+label: { ar: "مقاطعة ينجيسار", en: "Yengisar County", ur: "ینگیصر کاؤنٹی" }
+summary:
+  ar: "إقليم في الصين."
+  en: "Region in People's Republic of China."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [38.93158, 76.17013]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1023063" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1023063 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,21 @@
+id: place/hodh
+class: place
+kind: region
+label: { ar: "الحوض", en: "Hodh" }
+summary:
+  ar: "إقليم في موريتانيا."
+  en: "Region in Mauritania."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [16.685555555555556, -9.347777777777777]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q17004764" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q17004764 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

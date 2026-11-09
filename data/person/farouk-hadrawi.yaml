@@ -15,6 +15,7 @@ regions: [arabia]
 roles: [muezzin]
 born: { edtf: "1946-08-07", hijri: "1365-09-10", calendar: gregorian, precision: day, status: historical, derived: false, note: "The Arabic article gives 10 Ramadan 1365 AH at Taif; Wikidata gives 7 August 1946 and Taif, which is the same day.", sources: [source/wikipedia-farouk-hadrawi-ar, source/wikidata-farouk-hadrawi] }
 relations:
+  - { type: born_in, target: place/taif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-farouk-hadrawi] }
   - { type: born_in, target: place/taif, sources: [source/wikipedia-farouk-hadrawi-ar, source/wikidata-farouk-hadrawi] }
   - { type: lived_in, target: place/mecca, sources: [source/wikipedia-farouk-hadrawi-ar] }
 faith:

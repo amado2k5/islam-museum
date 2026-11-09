@@ -29,7 +29,9 @@ born:
   note: "Born in Croydon, Surrey, on 16 November 1964; the English article and Wikidata agree. No place entity for Croydon exists in the museum, so no born_in edge is written. The Hijri year 1384 is the tabular conversion of the built date, marked derived."
   sources: [source/wikipedia-waheed-alli-en, source/wikidata-waheed-alli]
 
-relations: []
+relations:
+  - { type: born_in, target: place/croydon, sources: [source/wikidata-waheed-alli], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2213391)" }
+  - { type: lived_in, target: place/london, sources: [source/wikidata-waheed-alli], confidence: low, note: "Wikidata P937 work location (Wikidata Q84)" }
 
 faith:
   - value: unknown

@@ -20,6 +20,8 @@ born:
   status: historical
   note: "The year 1978 rests on the Wikidata item alone: the English article gives no birth date at all and carries the category 'Year of birth missing (living people)'. No day or place is attested, and no Hijri year is recorded."
   sources: [source/wikidata-hassan-al-thawadi]
+relations:
+  - { type: lived_in, target: place/qatar, confidence: low, note: "Associated with Qatar per the record's own summary text; relation type pending review.", sources: [source/wikipedia-hassan-al-thawadi-en] }
 faith:
   - value: unknown
     basis: unknown

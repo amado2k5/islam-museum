@@ -12,6 +12,7 @@ themes: [spirituality-and-sufism]
 died:
   { edtf: "1007-08-27~", hijri: "0397-12-07", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الثلاثاء لسبع بقين من ذي الحجة 397؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.236}" }
 relations:
+  - { type: died_in, target: place/al-qal, note: "From text: توفي بدرب شماس من نهر القلائين بالجا", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: buried_in, target: place/baghdad, role: "مقبرة الإمام أحمد", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

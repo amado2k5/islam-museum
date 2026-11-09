@@ -14,3 +14,5 @@ provenance:
   run: lib-futuh-buldan-batch-34
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: traveled_to, target: place/basra, note: "From text: went to Basra.", sources: [source/futuh-buldan-maarif-1407] }

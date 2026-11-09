@@ -9,6 +9,8 @@ roles: [commander]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe, maghreb]
+relations:
+  - { type: lived_in, target: place/al-musayla, confidence: low, note: "Associated with المسيلة per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

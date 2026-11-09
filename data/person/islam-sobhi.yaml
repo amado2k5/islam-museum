@@ -19,6 +19,8 @@ born:
   derived: false
   note: "Birth year from the syndicated podcast-profile biography and an Arabic web biography, which also places his origin in Monufia Governorate (Shebin El-Kom). The Hijri year is omitted: the Gregorian year itself rests on profile biographies, and web sources conflict on finer detail. No Wikipedia article or Wikidata item exists for him."
   sources: [source/tunein-islam-sobhi-podcast, source/maal7ul-islam-sobhi]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Associated with مصر per the record's own text; relation type pending review.", sources: [source/youtube-islam-sobhi] }
 faith:
   - value: unknown
     basis: unknown

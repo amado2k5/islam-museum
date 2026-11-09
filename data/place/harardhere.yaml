@@ -1,0 +1,20 @@
+id: place/harardhere
+class: place
+kind: city
+label: { ar: "حررطيري", en: "Harardhere" }
+summary:
+  ar: "بلدة ساحلية في إقليم مدق بالصومال."
+  en: "Coastal town in Mudug region, Somalia."
+wings: [place]
+regions: [east-africa]
+coordinates: [4.65444, 47.8575]
+coordinate_precision: locality
+coordinate_note: "Wikidata Q598676 coordinates; representative point for the city."
+external_ids: { wikidata: "Q598676", geonames: "50064" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Coordinates, labels and identifiers from Wikidata Q598676 and GeoNames; entity created so persons' place relations resolve on the map."

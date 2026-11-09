@@ -13,6 +13,8 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch30
 external_ids: { wikidata: "Q939884" }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sallabi-ali-vol1]
 status:
   review: published

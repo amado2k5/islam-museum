@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
 relations:
+  - { type: ruled_over, target: place/syria, sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/tarikh-ard-al-quran] }
   - { type: member_of, target: group/dajaima, sources: [source/mubarakpuri-raheeq] }
 provenance:
   layer: own-research

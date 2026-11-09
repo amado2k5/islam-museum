@@ -10,6 +10,7 @@ relations:
 - type: member_of
   target: group/banu-uqayl
   sources: [source/muntazam-ibn-al-jawzi]
+- { type: ruled_over, target: place/mosul, sources: [source/muntazam-ibn-al-jawzi], confidence: low, note: "en: 'Mu'tamad al-Dawla — the Uqaylid amir seated by al-Qadir in 396 who ruled Mosul, Kufa and the Euphrates; t" }
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]

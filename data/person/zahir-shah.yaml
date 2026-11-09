@@ -33,6 +33,8 @@ relations:
   - { type: born_in, target: place/kabul, sources: [source/wikipedia-zahir-shah-en, source/wikidata-zahir-shah] }
   - { type: died_in, target: place/kabul, sources: [source/wikipedia-zahir-shah-en, source/wikidata-zahir-shah] }
   - { type: buried_in, target: place/kabul, sources: [source/wikipedia-zahir-shah-en, source/wikipedia-zahir-shah-ur] }
+  - { type: lived_in, target: place/afghanistan, sources: [source/wikipedia-zahir-shah-en, source/wikipedia-zahir-shah-ar, source/wikipedia-zahir-shah-ur, source/wikidata-zahir-shah] }
+  - { type: ruler_of, target: place/afghanistan, sources: [source/wikipedia-zahir-shah-en, source/wikipedia-zahir-shah-ar, source/wikipedia-zahir-shah-ur, source/wikidata-zahir-shah] }
 faith:
   - value: unknown
     basis: unknown

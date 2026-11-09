@@ -28,6 +28,8 @@ faith:
     note: "No source read names a school for him. The Arabic article, the only encyclopedia article on him in any language, names no madhhab or creed for him in its text, and its categories file him only among Moroccan jurists and scholars; Wikidata carries no religion claim at all. He presides over a regional scientific council inside Morocco's official religious establishment, but office in a state establishment does not attest a personal affiliation, and his book «شخصية الفقه المالكي» (The Character of Maliki Jurisprudence, 2004) is a work about the Maliki school: authorship about a school is subject expertise, not membership of it. Recorded unknown under the doubt rule."
     sources: [source/wikipedia-mustafa-benhamza-ar, source/wikidata-mustafa-benhamza]
 external_ids: { wikidata: "Q12243373" }
+relations:
+  - { type: born_in, target: place/oujda, sources: [source/wikidata-mustafa-benhamza], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q193802)" }
 sources: [source/wikipedia-mustafa-benhamza-ar, source/wikidata-mustafa-benhamza]
 provenance:
   layer: own-research

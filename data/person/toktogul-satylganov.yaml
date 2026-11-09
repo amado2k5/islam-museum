@@ -41,6 +41,8 @@ faith:
     sources: [source/wikipedia-toktogul-satylganov-en, source/wikipedia-toktogul-satylganov-ru, source/wikidata-toktogul-satylganov]
 external_ids:
   wikidata: Q426378
+relations:
+  - { type: died_in, target: place/toktogul, sources: [source/wikidata-toktogul-satylganov], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1647779)" }
 sources:
   - source/wikipedia-toktogul-satylganov-en
   - source/wikipedia-toktogul-satylganov-ru

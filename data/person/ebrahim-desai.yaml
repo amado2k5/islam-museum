@@ -13,6 +13,9 @@ regions: [south-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1963", precision: year, status: tradition, derived: true }
 died: { edtf: "2021", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/richmond, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/durban, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5331974

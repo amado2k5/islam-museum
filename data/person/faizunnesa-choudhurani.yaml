@@ -32,6 +32,8 @@ died:
   derived: true
   note: "Died in 1903 in her own village, Pashchimgaon, and was buried in the family graveyard there: the English article (which gives Laksam, Tipperah) and Banglapedia agree on the year; neither gives a month or day. The Hijri year is derived by tabular conversion: 1903 CE spans 1320–1321 AH, and 1321 is recorded with the span stated. No museum place entity exists for the place, so no died_in or buried_in relation is written."
   sources: [source/wikipedia-faizunnesa-choudhurani-en, source/banglapedia-faizunnesa-choudhurani]
+relations:
+  - { type: lived_in, target: place/bengal, confidence: low, note: "Associated with بنغال per the record's own text; relation type pending review.", sources: [source/wikipedia-faizunnesa-choudhurani-en] }
 faith:
   - value: unknown
     basis: unknown

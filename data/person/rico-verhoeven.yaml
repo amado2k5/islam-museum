@@ -20,6 +20,8 @@ faith:
     note: "No affiliation is recorded: a complete absence. Neither the English nor the Arabic article makes any statement of Verhoeven's religion in its text, infobox or categories, and Wikidata (Q7332289) has no religion value at all. There is nothing to weigh."
     sources: [source/wikipedia-rico-verhoeven-en, source/wikipedia-rico-verhoeven-ar, source/wikidata-rico-verhoeven]
 external_ids: { wikidata: "Q7332289" }
+relations:
+  - { type: born_in, target: place/bergen-op-zoom, sources: [source/wikidata-rico-verhoeven], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q192508)" }
 sources: [source/wikipedia-rico-verhoeven-en, source/wikipedia-rico-verhoeven-ar, source/wikidata-rico-verhoeven]
 provenance:
   layer: own-research

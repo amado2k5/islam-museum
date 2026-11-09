@@ -1,0 +1,21 @@
+id: place/swindon
+class: place
+kind: city
+label: { ar: "سويندون", en: "Swindon", ur: "سوِنڈن" }
+summary:
+  ar: "مدينة في المملكة المتحدة."
+  en: "City in United Kingdom."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [51.558333333333, -1.7811111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q200942" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q200942 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

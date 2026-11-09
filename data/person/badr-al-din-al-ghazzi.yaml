@@ -16,6 +16,9 @@ summary:
 born: { edtf: "1499-06-12~", hijri: "0904-11-14", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد وقت العشاء ليلة الاثنين 14 ذو القعدة 904 {cite:shadharat-dhahab p. 403}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1577-01-16~", hijri: "0984-10-16~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي الأربعاء 16 شوال ودُفن بتربة الشيخ أرسلان؛ التحويل مشتق {cite:shadharat-dhahab p. 405-406}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/shekh-rislan-cemetry, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: student_of, target: person/taqi-ibn-qadi-ajlun, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

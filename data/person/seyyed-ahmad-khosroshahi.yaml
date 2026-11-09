@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/khosrowshahr, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2407931)" }
+  - { type: died_in, target: place/tabriz, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80053)" }
+  - { type: buried_in, target: place/imam-reza-shrine, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1791841)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5948609

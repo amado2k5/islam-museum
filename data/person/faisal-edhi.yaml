@@ -13,6 +13,7 @@ roles: [philanthropist]
 wings: [people, living]
 regions: [south-asia]
 relations:
+  - { type: lived_in, target: place/pakistan, confidence: low, note: "Associated with باكستان per the record's own summary text; relation type pending review.", sources: [source/wikipedia-abdul-sattar-edhi-en] }
   - { type: child_of, target: person/abdul-sattar-edhi, sources: [source/wikipedia-abdul-sattar-edhi-en, source/wikipedia-edhi-foundation-en, source/edhi-foundation-faisal-edhi] }
   - { type: child_of, target: person/bilquis-edhi, sources: [source/wikipedia-abdul-sattar-edhi-en, source/saudi-aramco-world-edhi-2004, source/edhi-foundation-faisal-edhi] }
 faith:

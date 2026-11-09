@@ -19,6 +19,9 @@ relations:
   - { type: sibling_of, target: person/isa-calabi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: sibling_of, target: person/musa-ibn-bayezid, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/fetret-interregnum, role: "سلطان الروملي في أدرنة", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: born_in, target: place/k-tahya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q188894)" }
+  - { type: died_in, target: place/constan-a, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q79808)" }
+  - { type: lived_in, target: place/edirne, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q43387)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1095044

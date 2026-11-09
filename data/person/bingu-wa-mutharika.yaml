@@ -36,6 +36,8 @@ died:
   note: "He died of cardiac arrest in Lilongwe on 5 April 2012 (English and Arabic articles; Wikidata gives Lilongwe as the place of death), the first Malawian head of state to die in office; his death was officially confirmed on 7 April and Joyce Banda was sworn in the same day. No place entity for Lilongwe exists in the museum, so the place is carried in this note and no died_in relation is written. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-bingu-wa-mutharika-en, source/wikipedia-bingu-wa-mutharika-ar, source/wikidata-bingu-wa-mutharika]
 relations:
+  - { type: born_in, target: place/thyolo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bingu-wa-mutharika] }
+  - { type: died_in, target: place/lilongwe, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bingu-wa-mutharika] }
   - { type: successor_of, target: person/bakili-muluzi, sources: [source/wikipedia-bingu-wa-mutharika-en, source/wikipedia-bingu-wa-mutharika-ar] }
 faith:
   - value: unknown

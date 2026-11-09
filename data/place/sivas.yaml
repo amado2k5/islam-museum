@@ -1,0 +1,16 @@
+id: place/sivas
+class: place
+kind: city
+label: { en: "Sivas", ar: "سيواس" }
+summary:
+  en: "Central district and city in Sivas Province, Turkey."
+  ar: "مدينة في تركيا."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [39.75, 37.0167]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q107401", geonames: "300619" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q107401 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

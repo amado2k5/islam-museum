@@ -1,0 +1,16 @@
+id: place/bahamas
+class: place
+kind: region
+label: { en: "Bahamas", ar: "جزر البهاما", ur: "بہاماس" }
+summary:
+  en: "Island country in the Atlantic Ocean."
+  ar: "دولة جزرية في المحيط الأطلسي."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [24.25, -76.0]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q778" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q778 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -22,6 +22,8 @@ wings:
   - living
 regions:
   - anatolia-balkans
+relations:
+  - { type: lived_in, target: place/turkey, confidence: low, note: "Turkish public figure per the record's own text.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

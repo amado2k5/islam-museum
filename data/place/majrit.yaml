@@ -1,12 +1,36 @@
 id: place/majrit
 class: place
 kind: town
-label: { ar: "مجريط", en: "Majrit (Madrid)" }
+label:
+  ar: مجريط
+  en: Majrit (Madrid)
 summary:
-  ar: "مدينة صغيرة وقلعة منيعة، معمورة، لها مسجد جامع وخطبة قائمة، وتقع في شمال طليطلة. {cite:nuzhat-al-mushtaq-2002 p. 552}"
-  en: "A small town and strong fortress, populated, with a congregational mosque and regular Friday sermon, lying north of Toledo. {cite:nuzhat-al-mushtaq-2002 p. 552}"
-wings: [place]
-regions: [andalus-europe]
-provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 552 (scan page)", generated_by: "Claude (Haiku 5.5)", run: lib-nuzhat-batch }
-sources: [source/nuzhat-al-mushtaq-2002]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
+  ar: مدينة صغيرة وقلعة منيعة، معمورة، لها مسجد جامع وخطبة قائمة، وتقع في شمال طليطلة. {cite:nuzhat-al-mushtaq-2002 p. 552}
+  en: A small town and strong fortress, populated, with a congregational mosque and regular Friday sermon, lying north of Toledo. {cite:nuzhat-al-mushtaq-2002 p. 552}
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 40.41694444444445
+- -3.703333333333333
+coordinate_precision: approx
+coordinate_note: Matched to Wikidata Q2807 by name; coordinates approximate until verified against a gazetteer.
+external_ids:
+  wikidata: Q2807
+provenance:
+  layer: own-research
+  source: al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 552 (scan page)
+  generated_by: Claude (Haiku 5.5)
+  run: lib-nuzhat-batch
+  note: Merged duplicate record place/ma-r into this entity during consolidation. Merged duplicate record place/madrid into this entity during consolidation.
+sources:
+- source/nuzhat-al-mushtaq-2002
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude (Haiku 5.5); page refs are scan indices
+aliases:
+- place/ma-r
+- place/madrid

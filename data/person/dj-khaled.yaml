@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born in New Orleans, Louisiana, to Palestinian immigrant parents. The Hijri year (1395) is derived by tabular conversion. New Orleans has no place entity in the museum (place/orleans is Orléans in France), so no born_in relation is written."
   sources: [source/wikipedia-dj-khaled-en, source/wikidata-dj-khaled]
+relations:
+  - { type: born_in, target: place/new-orleans, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-dj-khaled] }
 faith:
   - value: unknown
     basis: unknown

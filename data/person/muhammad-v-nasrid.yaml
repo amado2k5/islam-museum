@@ -10,6 +10,7 @@ gender: male
 roles: [sultan]
 traditions: [sunni]
 relations:
+- { type: ruler_of, target: place/granada, sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: ruler_of
   target: polity/emirate-of-granada
   sources:

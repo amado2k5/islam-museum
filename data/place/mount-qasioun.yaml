@@ -1,0 +1,35 @@
+id: place/mount-qasioun
+class: place
+kind: mountain
+label:
+  ar: جبل قاسيون
+  en: Mount Qasioun
+  ur: جبل قاسیون
+summary:
+  ar: موقع جغرافي.
+  en: Mount Qasioun; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 33.5458
+- 36.2864
+coordinate_precision: locality
+coordinate_note: Wikidata Q1261879.
+external_ids:
+  wikidata: Q1261879
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1261879 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

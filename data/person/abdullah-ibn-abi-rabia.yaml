@@ -16,6 +16,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "أسلم لاحقاً على المشهور؛ في الوفادة كان على دين قومه.", sources: [source/ibn-hisham-sira] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/second-migration-to-abyssinia, role: "رسول قريش إلى النجاشي", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]

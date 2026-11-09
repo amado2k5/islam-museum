@@ -33,3 +33,5 @@ external_ids: { wikidata: "Q2537790" }
 sources: [source/wikipedia-abida-parvin-en, source/wikidata-abida-parvin]
 provenance: { layer: own-research, source: "English Wikipedia 'Abida Parveen' (revision 1368221575, 7 August 2026) and Wikidata Q2537790 (revision 2564832412), read in Chrome on 6 November 2026. Rebuilt on 6 November 2026 from a culture-lane draft (Devin, 16 October 2026) that cited only the generic Wikidata source; same id, facts now taken from the recorded revisions below.", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b06 }
 status: { review: published, completeness: 3, generated_by: "Claude Code" }
+relations:
+  - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-abida-parvin-en, source/wikidata-abida-parvin], confidence: low }

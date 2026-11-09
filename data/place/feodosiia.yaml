@@ -1,0 +1,21 @@
+id: place/feodosiia
+class: place
+kind: city
+label: { ar: "فيودوسيا", en: "Feodosiia", ur: "فیوڈوشیا" }
+summary:
+  ar: "مدينة في خانية القرم."
+  en: "City in Crimean Khanate."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [45.048888888889, 35.379166666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q158491" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q158491 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

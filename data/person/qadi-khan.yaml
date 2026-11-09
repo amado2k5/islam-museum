@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: born_in, target: place/zg-n, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765887)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q25550086

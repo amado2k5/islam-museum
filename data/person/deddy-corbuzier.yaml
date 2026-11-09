@@ -20,6 +20,7 @@ born:
   note: "Date as given by the English Wikipedia article; Wikidata gives 28 December 1974 instead, and the discrepancy is unresolved. The Hijri year is converter-derived from the article's date."
   sources: [source/wikipedia-deddy-corbuzier-en, source/wikidata-deddy-corbuzier]
 relations:
+  - { type: born_in, target: place/jakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-deddy-corbuzier] }
   - { type: born_in, target: place/jakarta, sources: [source/wikipedia-deddy-corbuzier-en, source/wikidata-deddy-corbuzier] }
 faith:
   - value: unknown

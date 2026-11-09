@@ -25,3 +25,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/encyclopaedia-of-islam-2]
+relations:
+  - { type: lived_in, target: place/samarqand, confidence: low, note: "Association inferred from the nisba 'السمرقندي'; specific birthplace or residence is not individually documented.", sources: [source/encyclopaedia-of-islam-2] }

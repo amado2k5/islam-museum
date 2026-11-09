@@ -14,6 +14,7 @@ regions: [arabia]
 died: { edtf: "1429-07-04~", hijri: "0832-10-04", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بمكة في رابع شوال 832 {cite:shadharat-dhahab p. 199}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: teacher_of, target: person/ibn-hajar-al-asqalani, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/mecca, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 832)، قراءة آبل فيجن"

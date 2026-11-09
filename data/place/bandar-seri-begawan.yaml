@@ -1,0 +1,36 @@
+id: place/bandar-seri-begawan
+class: place
+kind: city
+label:
+  ar: بندر سري بكاوان
+  en: Bandar Seri Begawan
+  ur: بندر سری بگاوان
+summary:
+  ar: مدينة في بروناي.
+  en: Capital and largest city of Brunei.
+wings:
+- place
+regions:
+- southeast-asia
+coordinates:
+- 4.9167
+- 114.9167
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q9279
+  geonames: '1820906'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q9279 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q9279 (labels, coordinates, description)

@@ -26,3 +26,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, p. 862, entry 'AL-AZDI' (queue seq 463, batch ei2-b019)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/mosul, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/encyclopaedia-of-islam-2] }

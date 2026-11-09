@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/rashidun]
 relations:
+  - { type: born_in, target: place/basra, note: "From text: born at Basra", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/ibn-hajar-isaba] }
   - { type: child_of, target: person/abu-bakra-al-thaqafi }
   - { type: born_in, target: place/basra }
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/ibn-hajar-isaba]

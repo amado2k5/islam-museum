@@ -47,6 +47,7 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/ibn-hajar-isaba], confidence: low }
 - { type: participated_in, target: event/burial-of-the-prophet, role: "حفر اللحد للنبي", sources: [source/ibn-hisham-saqqa] }
 - type: spouse_of
   target: person/umm-sulaym

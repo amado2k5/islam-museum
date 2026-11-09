@@ -6,6 +6,10 @@ summary:
   en: "Nizak, lord of Badghis or the Juzjan; he campaigned with Qutayba at Baykand in 87h — then Qutayba killed and crucified him in Tukharistan."
 periods: [period/umayyad]
 wings: [people]
+relations:
+  - { type: ruled_over, target: place/badghis, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: traveled_to, target: place/baykand, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: died_in, target: place/tukharistan, sources: [source/futuh-buldan-maarif-1407] }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

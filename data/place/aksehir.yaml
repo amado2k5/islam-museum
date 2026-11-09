@@ -1,12 +1,40 @@
 id: place/aksehir
 class: place
 kind: city
-label: { en: "Akşehir", ar: "آق شهر" }
+label:
+  ar: آق شهر
+  en: Akşehir
 summary:
-  en: "Town in Anatolia where the anecdotal Nasreddin Hoca is said to be buried; the edition notes his tomb there and a custom of visiting it. Named as the seat of Juha's tomb in the introduction {cite:juha-nawadir-kubra-djuwaydi p. 6}."
-  ar: "بلدة في الأناضول يُنسب إليها ضريح نصر الدين خوجة الذي تذكره المقدمة، ويزوره الناس تبركاً {cite:juha-nawadir-kubra-djuwaydi p. 6}."
-wings: [place]
-regions: [anatolia-balkans]
-sources: [source/juha-nawadir-kubra-djuwaydi, source/encyclopaedia-of-islam-2]
-status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 (Juha book introduction, scan p. 6-8, from OCR); EI2 account added in part 3cv" }
-provenance: { layer: copyrighted-reference, source: "archive.org civ-3027, scan pp. 6-8", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-juha-people" }
+  ar: بلدة في الأناضول يُنسب إليها ضريح نصر الدين خوجة الذي تذكره المقدمة، ويزوره الناس تبركاً {cite:juha-nawadir-kubra-djuwaydi p. 6}.
+  en: Town in Anatolia where the anecdotal Nasreddin Hoca is said to be buried; the edition notes his tomb there and a custom of visiting it. Named as the seat of Juha's tomb in the introduction {cite:juha-nawadir-kubra-djuwaydi p. 6}.
+wings:
+- place
+regions:
+- anatolia-balkans
+- levant-iraq
+coordinates:
+- 38.359166666667
+- 31.416388888889
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata Q169974; approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q169974
+  geonames: '324490'
+sources:
+- source/juha-nawadir-kubra-djuwaydi
+- source/encyclopaedia-of-islam-2
+- source/wikidata
+status:
+  review: draft
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - lib-juha-people
+  - lib-juha-people
+  note: Semantic merge of duplicate records written by parallel enrichment runs. Merged duplicate record place/ak-ehir into this entity during consolidation.
+  source: archive.org civ-3027, scan pp. 6-8
+aliases:
+- place/ak-ehir

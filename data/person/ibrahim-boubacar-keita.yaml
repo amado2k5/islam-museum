@@ -31,6 +31,9 @@ died:
   derived: true
   note: "The English article gives his death at his home in Bamako on 16 January 2022; the Arabic article and Wikidata give the same date. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-ibrahim-boubacar-keita-en, source/wikipedia-ibrahim-boubacar-keita-ar, source/wikidata-ibrahim-boubacar-keita]
+relations:
+  - { type: born_in, target: place/koutiala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-boubacar-keita] }
+  - { type: died_in, target: place/bamako, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-boubacar-keita] }
 faith:
   - value: unknown
     basis: unknown

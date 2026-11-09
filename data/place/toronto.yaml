@@ -1,0 +1,35 @@
+id: place/toronto
+class: place
+kind: city
+label:
+  ar: تورونتو
+  en: Toronto
+summary:
+  ar: مدينة تورونتو.
+  en: Capital and largest city of the province of Ontario, Canada.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 43.6703
+- -79.3867
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q172
+  geonames: '6167865'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q172 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q172 (labels, coordinates, description)

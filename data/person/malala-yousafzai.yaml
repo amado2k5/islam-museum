@@ -20,6 +20,9 @@ born:
   derived: true
   note: "Born at Mingora, Swat District, Khyber Pakhtunkhwa. Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1418) is converted with the repo's Umm al-Qura converter (scripts/hijri) and marked derived."
   sources: [source/wikipedia-malala-yousafzai-en, source/wikipedia-malala-yousafzai-ar, source/wikidata-malala-yousafzai]
+relations:
+  - { type: born_in, target: place/mingora, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-malala-yousafzai] }
+  - { type: lived_in, target: place/birmingham, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-malala-yousafzai] }
 faith:
   - value: sunni
     basis: documented

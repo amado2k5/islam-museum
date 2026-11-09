@@ -20,7 +20,8 @@ born:
   derived: true
   note: "Born on 13 August 1975 in Morgah, near Rawalpindi, Punjab, Pakistan, per the English, Arabic and Urdu Wikipedia articles and Wikidata. The Hijri year (1395) is derived by tabular conversion."
   sources: [source/wikipedia-shoaib-akhtar-en, source/wikipedia-shoaib-akhtar-ar, source/wikipedia-shoaib-akhtar-ur, source/wikidata-shoaib-akhtar]
-relations: []
+relations:
+  - { type: born_in, target: place/rawalpindi, sources: [source/wikidata-shoaib-akhtar], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q93230)" }
 faith:
   - value: unknown
     basis: unknown

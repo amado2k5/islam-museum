@@ -18,6 +18,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابي من بني أسلم." }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-al-ghaba, role: "قتل رفاعة بن قيس؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "من السرية وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-aslam }

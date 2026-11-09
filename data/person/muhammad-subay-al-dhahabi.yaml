@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
+relations:
+  - { type: born_in, target: place/basyoun, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1072210)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q105636311

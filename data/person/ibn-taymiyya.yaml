@@ -18,6 +18,11 @@ regions: [levant-iraq]
 faith:
   - { value: sunni-hanbali, basis: documented, note: "He presents the creed as that of Ahl al-Sunna wa'l-Jama'a on the way of the early generations.", sources: [source/aqida-wasitiyya] }
 relations:
+  - { type: born_in, target: place/harran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/sufism-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/harran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/cairo-citadel, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/aqida-wasitiyya, sources: [source/aqida-wasitiyya] }
   - { type: authored, target: work/iqtida-al-sirat-al-mustaqim, sources: [source/kashf-zunun-furqan] }
   - { type: born_in, target: place/harran, sources: [source/encyclopaedia-of-islam-2] }

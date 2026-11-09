@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/syria, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance: { layer: own-research, source: "الموسوعة الفقهية الكويتية، ملحق تراجم الفقهاء، ج11 ص5157-5158", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "mawsua-w03-41" }
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); appendix pp.5157-5158; no dates given in the source; not the Tamimi Qays ibn al-Harith (person/qays-ibn-al-harith-al-tamimi) nor Abu Qays ibn al-Harith of Sahm" }

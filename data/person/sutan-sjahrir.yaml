@@ -37,6 +37,13 @@ faith:
     note: "No article read names a school for Sjahrir, and none discusses a personal religious affiliation: the English and Indonesian articles treat his socialism and humanism as political philosophy, and the Arabic and Urdu articles are silent on religion. Wikidata's religion value is a structured value (Islam in general, Q432), which never counts. His Minangkabau Muslim family background likewise never counts. Historians have debated his personal beliefs — he is often characterised as a secular-leaning socialist humanist formed in a Muslim milieu — but scholarly characterisation is not self-attestation, and under the two-source rule and the doubt rule his school stays unknown, with the debate preserved here."
     sources: [source/wikipedia-sutan-sjahrir-en, source/wikipedia-sutan-sjahrir-id, source/wikidata-sutan-sjahrir]
 external_ids: { wikidata: "Q2470857" }
+relations:
+  - { type: born_in, target: place/padang-panjang, sources: [source/wikidata-sutan-sjahrir], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7256)" }
+  - { type: born_in, target: place/west-sumatra, sources: [source/wikidata-sutan-sjahrir], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2772)" }
+  - { type: died_in, target: place/zurich, sources: [source/wikidata-sutan-sjahrir], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q72)" }
+  - { type: buried_in, target: place/kalibata-heroes-cemetery, sources: [source/wikidata-sutan-sjahrir], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q6043072)" }
+  - { type: buried_in, target: place/south-jakarta, sources: [source/wikidata-sutan-sjahrir], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q10114)" }
+  - { type: lived_in, target: place/netherlands, sources: [source/wikidata-sutan-sjahrir], confidence: low, note: "Wikidata P937 work location (Wikidata Q55)" }
 sources: [source/wikipedia-sutan-sjahrir-en, source/wikipedia-sutan-sjahrir-ar, source/wikipedia-sutan-sjahrir-ur, source/wikipedia-sutan-sjahrir-id, source/wikidata-sutan-sjahrir]
 provenance:
   layer: own-research

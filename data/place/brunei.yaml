@@ -1,0 +1,36 @@
+id: place/brunei
+class: place
+kind: region
+label:
+  ar: بروناي
+  en: Brunei
+summary:
+  ar: سلطنة على الساحل الشمالي لجزيرة بورنيو.
+  en: Sovereign country and sultanate on the island of Borneo in south-east Asia, member of the Commonwealth of Nations.
+wings:
+- place
+regions:
+- southeast-asia
+coordinates:
+- 4.4
+- 114.56667
+coordinate_precision: locality
+coordinate_note: Wikidata Q921 coordinates; representative point for the region.
+external_ids:
+  wikidata: Q921
+  geonames: '1820814'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q921 (labels, coordinates, description)

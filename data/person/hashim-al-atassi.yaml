@@ -33,6 +33,9 @@ died:
   note: "Died at Homs. The English article and Wikidata give 5 December 1960; the Arabic article's lead gives 6 December 1960 and pairs his life with 1290–1380 AH."
   sources: [source/wikipedia-hashim-al-atassi-en, source/wikipedia-hashim-al-atassi-ar, source/wikidata-hashim-al-atassi]
 relations:
+  - { type: born_in, target: place/homs, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hashim-al-atassi] }
+  - { type: died_in, target: place/homs, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hashim-al-atassi] }
+  - { type: buried_in, target: place/homs, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hashim-al-atassi] }
   - { type: born_in, target: place/homs, sources: [source/wikipedia-hashim-al-atassi-en] }
   - { type: died_in, target: place/homs, sources: [source/wikipedia-hashim-al-atassi-en] }
 faith:

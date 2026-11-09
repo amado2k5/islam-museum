@@ -28,8 +28,8 @@ born:
   note: "Born in Ajdabiya, Libya, on 3 April 1973; the English and Urdu articles and Wikidata agree. No place entity for Ajdabiya exists in the museum, so no born_in edge is written. The Hijri year 1393 is the tabular conversion of the built date, marked derived."
   sources: [source/wikipedia-reham-khan-en, source/wikipedia-reham-khan-ur, source/wikidata-reham-khan]
 
-relations: []
-
+relations:
+  - { type: lived_in, target: place/khaybar, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-reham-khan-en, source/wikipedia-reham-khan-ur, source/wikidata-reham-khan] }
 faith:
   - value: unknown
     basis: unknown

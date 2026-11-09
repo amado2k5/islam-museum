@@ -44,6 +44,9 @@ faith:
       therefore unknown.
     sources: [source/wikipedia-sameera-moussa-en, source/wikipedia-sameera-moussa-ar, source/wikidata-sameera-moussa]
 external_ids: { wikidata: Q4116311 }
+relations:
+  - { type: born_in, target: place/sinbu-al-kubra, sources: [source/wikidata-sameera-moussa], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12216973)" }
+  - { type: died_in, target: place/sheridan, sources: [source/wikidata-sameera-moussa], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1017214)" }
 sources: [source/wikipedia-sameera-moussa-en, source/wikipedia-sameera-moussa-ar, source/wikipedia-sameera-moussa-ur, source/wikidata-sameera-moussa]
 provenance:
   layer: own-research

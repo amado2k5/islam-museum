@@ -35,6 +35,11 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- type: lived_in
+  target: place/medina
+  note: "Place association from the person's nisba/name (ansari); denotes association, not proven residence."
+  confidence: low
+  sources: [source/ibn-hajar-isaba]
 - type: member_of
   target: group/ansar
   sources:

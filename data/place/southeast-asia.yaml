@@ -1,0 +1,16 @@
+id: place/southeast-asia
+class: place
+kind: region
+label: { en: "Southeast Asia", ar: "جنوب شرق آسيا" }
+summary:
+  en: "South-eastern region of Asia."
+  ar: "منطقة في فيتنام."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [12, 105.1]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q11708", geonames: "7729896" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q11708 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

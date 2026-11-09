@@ -36,6 +36,7 @@ relations:
   - { type: child_of, target: person/amadou-bamba, sources: [source/wikipedia-fallou-mbacke-fr, source/wikipedia-fallou-mbacke-en] }
   - { type: student_of, target: person/amadou-bamba, sources: [source/wikipedia-fallou-mbacke-fr] }
   - { type: successor_of, target: person/serigne-mouhamadou-moustapha-mbacke, sources: [source/wikipedia-fallou-mbacke-fr, source/wikipedia-fallou-mbacke-en] }
+  - { type: died_in, target: place/touba, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q657072)" }
 faith:
   - value: unknown
     basis: unknown

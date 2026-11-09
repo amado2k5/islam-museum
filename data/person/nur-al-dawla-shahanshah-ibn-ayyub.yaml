@@ -15,3 +15,5 @@ provenance:
   run: lib-wafayat-batch-19
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: died_in, target: place/damascus, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wafayat-ayan] }

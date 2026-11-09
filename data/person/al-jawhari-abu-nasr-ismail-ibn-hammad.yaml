@@ -19,6 +19,8 @@ themes: [linguistics]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 relations:
+  - { type: lived_in, target: place/nishapur, note: "From text: settled in Nishapur", sources: [source/mawsuat-a3lam-ulama-adaba, source/sihah-attar-1979-v1, source/sihah-attar-1979-scan-b, source/sihah-tamir-dar-al-hadith-2009] }
+  - { type: died_in, target: place/nishapur, note: "From text: died at Nishapur", sources: [source/mawsuat-a3lam-ulama-adaba, source/sihah-tamir-dar-al-hadith-2009, source/sihah-attar-1979-scan-b, source/sihah-attar-1979-v1] }
   - { type: student_of, target: person/abu-ali-al-farisi, sources: [source/sihah-attar-1979-scan-b] }
   - { type: student_of, target: person/al-sirafi, sources: [source/sihah-attar-1979-scan-b] }
   - { type: lived_in, target: place/nishapur, sources: [source/sihah-attar-1979-scan-b] }

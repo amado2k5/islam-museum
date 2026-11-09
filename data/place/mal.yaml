@@ -1,0 +1,16 @@
+id: place/mal
+class: place
+kind: city
+label: { en: "Malé", ar: "ماليه" }
+summary:
+  en: "Capital of the Maldives."
+  ar: "مدينة في المالديف."
+wings: [place]
+regions: [global]
+coordinates: [4.175, 73.5083]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q9347", geonames: "1282027" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q9347 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

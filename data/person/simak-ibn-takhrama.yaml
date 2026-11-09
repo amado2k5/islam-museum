@@ -12,5 +12,7 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 399"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-35
+relations:
+  - { type: lived_in, target: place/raqqa, sources: [source/wikidata], confidence: low, note: "ar: 'سمّاك بن تخرمة بن حمين الأسدي من بني الهالك بن عمرو بن أسد؛ عند البلاذري نسب إليه مسجد سماك بالكوفة وهو ا" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

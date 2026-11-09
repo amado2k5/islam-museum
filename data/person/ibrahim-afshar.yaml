@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/colonial-era]
+relations:
+  - { type: died_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q197731

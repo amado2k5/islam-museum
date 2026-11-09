@@ -15,6 +15,7 @@ born: { edtf: "1353~", hijri: "0754", calendar: julian, precision: year, status:
 died: { edtf: "1411~", hijri: "0814", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 814 {cite:shadharat-dhahab p. 114}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: sibling_of, target: person/ibrahim-ibn-muflih, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/damascus, sources: [source/wikidata], confidence: low, note: "Nisba دمشقي attested in the record." }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 814)، قراءة آبل فيجن"

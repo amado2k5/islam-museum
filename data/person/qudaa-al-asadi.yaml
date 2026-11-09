@@ -1,18 +1,27 @@
 id: person/qudaa-al-asadi
 class: person
-label: { ar: "قضاعة الأسدي", en: "Quda'a al-Asadi" }
+label:
+  ar: قضاعة الأسدي
+  en: Quda'a al-Asadi
 summary:
-  ar: "شاعر بايع لابن الزبير ثم نكث وقال دعا ابن مطيع للبياع فجثته إلى بيعة قلبي لها غير آلف فناولني خشناء لما لمستها بكفي ليست من أكف الخلائف {cite:muruj-al-dhahab p. 79}."
-  en: "The Asadi poet who swore and broke with Ibn al-Zubayr — 'Ibn Muti' called me to allegiance, kneeling to a bay'a my heart never knew' {cite:muruj-al-dhahab p. 79}."
+  ar: شاعر بايع لابن الزبير ثم نكث وقال دعا ابن مطيع للبياع فجثته إلى بيعة قلبي لها غير آلف فناولني خشناء لما لمستها بكفي ليست من أكف الخلائف {cite:muruj-al-dhahab p. 79}.
+  en: The Asadi poet who swore and broke with Ibn al-Zubayr — 'Ibn Muti' called me to allegiance, kneeling to a bay'a my heart never knew' {cite:muruj-al-dhahab p. 79}.
 gender: male
-wings: [people]
+wings:
+- people
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 79"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
+  source: مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 79
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
   run: prose-fill-persons-batch41
-sources: [source/muruj-al-dhahab]
+sources:
+- source/muruj-al-dhahab
 status:
   review: published
   completeness: 3
+relations:
+- type: traveled_to
+  target: place/mecca
+  sources:
+  - source/muruj-al-dhahab

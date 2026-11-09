@@ -29,7 +29,8 @@ born:
   note: "Born in Lambeth, London on 19 February 1988; the English article and Wikidata agree, the article citing Companies House records for the date. The Hijri year 1408 is the tabular conversion of the built date, marked derived. No place entity for Lambeth or London exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-mo-gilligan-en, source/wikidata-mo-gilligan]
 
-relations: []
+relations:
+  - { type: born_in, target: place/london-borough-of-lambeth, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mo-gilligan] }
 
 faith:
   - value: unknown

@@ -38,6 +38,7 @@ died:
   sources: [source/wikipedia-amir-khusrow-en, source/wikipedia-amir-khusrow-ar, source/wikipedia-amir-khusrow-ur, source/wikidata-amir-khusrow]
 
 relations:
+  - { type: died_in, target: place/delhi, note: "From text: died in Delhi", sources: [source/wikipedia-amir-khusrow-en, source/wikipedia-amir-khusrow-ar, source/wikipedia-amir-khusrow-ur, source/wikidata-amir-khusrow] }
   - { type: student_of, target: person/nizam-al-din-awliya, sources: [source/wikipedia-amir-khusrow-en, source/wikipedia-amir-khusrow-ar, source/wikipedia-amir-khusrow-ur] }
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-amir-khusrow-ur] }
 

@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [andalus-europe, levant-iraq]
 relations:
+  - { type: lived_in, target: place/rashid, confidence: low, note: "Associated with Rashid per the record's own summary text; relation type pending review.", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: participated_in, target: event/rashid-charlemagne-embassies, role: "مترجم البعثة الأولى", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:

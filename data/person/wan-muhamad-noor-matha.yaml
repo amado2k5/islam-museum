@@ -27,6 +27,8 @@ faith:
     note: "No article read names a school for Wan Muhamad Noor Matha. The Thai article's infobox links his religion to Islam in general ('Islam in Thailand') and Wikidata's religion value is Islam in general (Q432) — generic attestations in structured filings, which never count toward a school, and no source naming a school for the man himself was found among the articles read. That he was the first Thai Muslim Speaker and led the Wahdah group of Malay-Muslim MPs is public and political identity, not an attestation of a school. Under the two-source rule and the doubt rule his school stays unknown. No school reading exists anywhere, so the value is unknown and unflagged."
     sources: [source/wikipedia-wan-muhamad-noor-matha-en, source/wikipedia-wan-muhamad-noor-matha-th, source/wikidata-wan-muhamad-noor-matha]
 external_ids: { wikidata: "Q2547790" }
+relations:
+  - { type: born_in, target: place/yala, sources: [source/wikidata-wan-muhamad-noor-matha], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1207083)" }
 sources: [source/wikipedia-wan-muhamad-noor-matha-en, source/wikipedia-wan-muhamad-noor-matha-th, source/wikipedia-wan-muhamad-noor-matha-id, source/wikidata-wan-muhamad-noor-matha]
 provenance:
   layer: own-research

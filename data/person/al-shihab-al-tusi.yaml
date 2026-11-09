@@ -29,3 +29,5 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: traveled_to, target: place/misr, note: "From text: went to Egypt", sources: [source/shadharat-dhahab] }

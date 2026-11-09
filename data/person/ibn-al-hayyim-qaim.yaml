@@ -14,6 +14,8 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 born: { edtf: "1397~", hijri: "0799", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد 799 {cite:shadharat-dhahab p. 346}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1482-07~", hijri: "0887-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي جمادى الآخرة 887 {cite:shadharat-dhahab p. 346}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 887)، قراءة آبل فيجن"

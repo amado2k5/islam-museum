@@ -22,6 +22,7 @@ born:
   note: "Birth year and place are contested and all variants are recorded. The English Wikipedia article, citing the Historical Dictionary of Afghanistan, gives born 1956 in Sarab, Ghazni province. Against this, her European Parliament CV and Wikidata's place of birth give Mazar-i-Sharif (Q130469), and Wikidata carries a second, conflicting birth date of 15 February 1958 alongside 1956. The record follows 1956, attested by the article and its dictionary source, and carries the year as debated. The Hijri year (1375, covering most of 1956) is derived by tabular conversion."
   sources: [source/wikipedia-habiba-sarabi-en, source/wikidata-habiba-sarabi]
 relations:
+  - { type: born_in, target: place/mazar-i-sharif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-habiba-sarabi] }
   - { type: lived_in, target: place/kabul, sources: [source/wikipedia-habiba-sarabi-en] }
   - { type: successor_of, target: person/sima-samar, sources: [source/wikipedia-habiba-sarabi-en, source/wikipedia-sima-samar-en] }
 faith:

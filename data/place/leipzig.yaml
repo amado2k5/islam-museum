@@ -1,0 +1,16 @@
+id: place/leipzig
+class: place
+kind: city
+label: { en: "Leipzig", ar: "لايبزيغ" }
+summary:
+  en: "Largest city in Saxony, Germany."
+  ar: "مدينة في انتخابية سكسونيا."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [51.3406, 12.3747]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q2079", geonames: "2879137" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q2079 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

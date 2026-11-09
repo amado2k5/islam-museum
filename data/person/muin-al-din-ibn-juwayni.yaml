@@ -18,6 +18,8 @@ faith:
     basis: tradition
 relations:
   - { type: participated_in, target: event/salih-ismail-takes-damascus-637, sources: [source/shadharat-dhahab] }
+
+  - { type: lived_in, target: place/damascus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:
   review: published

@@ -19,3 +19,5 @@ regions:
 sources: [source/assabile-omar-abdelkafy]
 provenance: { layer: copyrighted-reference, source: "Assabile, Tafsir Al Quran Al Qareem, episode 10 (Sheikh Omar Abdelkafy; transcript by ASR, lines used only where clear)", generated_by: "Claude Sonnet (subagent)", model: sonnet, run: omar-tafsir-bundle-3 }
 status: { review: published, generated_by: "Claude Sonnet (subagent)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/assabile-omar-abdelkafy], confidence: low }

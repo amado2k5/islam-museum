@@ -1,0 +1,36 @@
+id: place/kazakhstan
+class: place
+kind: region
+label:
+  ar: كازاخستان
+  en: Kazakhstan
+  ur: قازقستان
+summary:
+  ar: أكبر دولة غير ساحلية، في وسط آسيا.
+  en: Largest landlocked state, in Central Asia.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 48.0
+- 66.0
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q232
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q232 (labels, coordinates, description)

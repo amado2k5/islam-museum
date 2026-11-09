@@ -1,0 +1,16 @@
+id: place/mecca-province
+class: place
+kind: province
+label: { en: "Mecca Province", ar: "منطقة مكة المكرمة" }
+summary:
+  en: "Province of Saudi Arabia."
+  ar: "محافظة في السعودية."
+wings: [place]
+regions: [arabia]
+coordinates: [21.5, 41]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q234167", geonames: "104514" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q234167 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

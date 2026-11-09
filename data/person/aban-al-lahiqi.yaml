@@ -27,3 +27,5 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch47
   # Printed death date conflicts: "335 ه / 815 م"; the CE year is recorded as uncertain only.
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (بصري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/fihrist-ibn-al-nadim], confidence: low }

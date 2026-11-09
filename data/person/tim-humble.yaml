@@ -24,6 +24,9 @@ wings:
   - living
 regions:
   - andalus-europe
+relations:
+  - { type: lived_in, target: place/newcastle, sources: [source/listennotes-tim-humble, source/muslimink-tim-humble] }
+  - { type: lived_in, target: place/medina, sources: [source/listennotes-tim-humble, source/muslimink-tim-humble] }
 faith:
   - value: unknown
     basis: unknown

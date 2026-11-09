@@ -25,6 +25,8 @@ faith:
     basis: unknown
     note: "No source names a school for him. The English article has no denomination field; the Arabic article's infobox gives his religion as Islam only, and its party field records the Muslim Brotherhood, which is a movement affiliation, not a school attestation. The English article's categories ('Kuwaiti Sunni clerics', 'Kuwaiti Sunni Muslims') are category labels, not two independent attestations. Not recorded as sunni."
     sources: [source/wikipedia-tariq-al-suwaidan-en, source/wikipedia-tariq-al-suwaidan-ar]
+relations:
+  - { type: born_in, target: place/kuwait-city, sources: [source/wikidata], confidence: low, note: "Born in Kuwait in 1953 per the record text." }
 sources: [source/wikipedia-tariq-al-suwaidan-en, source/wikipedia-tariq-al-suwaidan-ar, source/youtube-dralsuwaidan, source/assabile-tareq-al-suwaidan]
 provenance:
   layer: own-research

@@ -16,3 +16,5 @@ status:
   review: published
   completeness: 3
 
+relations:
+  - { type: lived_in, target: place/khaffan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tabari-tarikh-abu-al-fadl, source/muntazam-ibn-al-jawzi] }

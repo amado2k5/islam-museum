@@ -12,6 +12,10 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq, persia-central-asia]
 died: { edtf: "1468~", hijri: "0872", calendar: julian, precision: year, status: tradition, derived: true, note: "ترجمته ضمن سنة 872 {cite:shadharat-dhahab p. 314}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: born_in, target: place/mardin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/mu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/masjid-kabud-tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 872)، قراءة آبل فيجن"

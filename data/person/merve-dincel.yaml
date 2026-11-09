@@ -23,6 +23,8 @@ born:
   derived: true
   note: "Born in Ankara. The English article gives 22 October 1999 in both its lead and its personal-life section, and that date is followed here; Wikidata carries two conflicting values, 22 October 1999 and 22 November 1999, and the conflict is preserved in this note. No place entity for Ankara exists, so no born_in relation is written. The Hijri year 1420 is the tabular conversion of the followed date, 22 October 1999, and is marked derived."
   sources: [source/wikipedia-merve-dincel-en, source/wikipedia-merve-dincel-tr, source/wikidata-merve-dincel]
+relations:
+  - { type: born_in, target: place/ankara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-merve-dincel] }
 faith:
   - value: unknown
     basis: unknown

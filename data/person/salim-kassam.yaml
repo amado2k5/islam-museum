@@ -22,6 +22,8 @@ wings:
   - living
 regions:
   - andalus-europe
+relations:
+  - { type: lived_in, target: place/united-kingdom, sources: [source/themuslimvibe-podcast-picks, source/spotify-muslim-vibe-podcast, source/athletic-ummah-salim-kassam] }
 faith:
   - value: unknown
     basis: unknown

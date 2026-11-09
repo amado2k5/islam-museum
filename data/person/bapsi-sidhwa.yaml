@@ -38,6 +38,8 @@ died:
   sources: [source/wikipedia-bapsi-sidhwa-en, source/fezana-bapsi-sidhwa-memoriam, source/wikidata-bapsi-sidhwa]
 
 relations:
+  - { type: born_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bapsi-sidhwa] }
+  - { type: died_in, target: place/houston, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bapsi-sidhwa] }
   - { type: lived_in, target: place/lahore, sources: [source/wikipedia-bapsi-sidhwa-en, source/fezana-bapsi-sidhwa-memoriam] }
 
 faith:

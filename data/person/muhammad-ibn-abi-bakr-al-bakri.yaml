@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Of the al-Bakri Sufi family centred in Egypt (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q106704860
 provenance:

@@ -33,6 +33,7 @@ died:
   note: "Died at al-Hadath in Lebanon, at his summer estate. The year is contested: the English article's lead gives 12 June 1885 citing Khayati, and Wikidata gives 12 June 1885, but the English article's own infobox and categories give 1884, and the Arabic article carries both an 1884 and an 1885 death category while its lead and infobox give 1885 (1302 AH). The 1885 tradition is followed and the 1884 reading preserved here. The Lebanese village of al-Hadath is not the museum's place/al-hadath (the Abbasid frontier fortress), so no died_in edge is written."
   sources: [source/wikipedia-adib-ishaq-en, source/wikipedia-adib-ishaq-ar, source/wikidata-adib-ishaq]
 relations:
+  - { type: lived_in, target: place/bayrut, note: "From text: عمل في الجمارك ثم الصحافة في بيروت وم", sources: [source/wikipedia-adib-ishaq-en, source/wikipedia-adib-ishaq-ar, source/wikipedia-adib-ishaq-ur, source/wikidata-adib-ishaq] }
   - { type: born_in, target: place/damascus, sources: [source/wikipedia-adib-ishaq-en, source/wikipedia-adib-ishaq-ar] }
   - { type: student_of, target: person/jamal-al-din-al-afghani, sources: [source/wikipedia-adib-ishaq-en] }
 faith:

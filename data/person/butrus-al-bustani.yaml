@@ -13,6 +13,9 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [levant-iraq]
+relations:
+  - { type: born_in, target: place/dibbiyeh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/bayrut, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
   wikidata: Q710866
 sources: [source/al-aalam]

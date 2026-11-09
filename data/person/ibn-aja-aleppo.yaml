@@ -13,6 +13,8 @@ themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 died: { edtf: "1475-10~", hijri: "0880-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بحلب جمادى الآخرة 880 عن 60 {cite:shadharat-dhahab p. 333}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/aleppo, confidence: low, note: "Associated with Aleppo per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 880)، قراءة آبل فيجن"

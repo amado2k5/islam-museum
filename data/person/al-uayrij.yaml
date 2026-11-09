@@ -18,6 +18,11 @@ periods:
 regions:
 - egypt-nile
 relations:
+- type: lived_in
+  target: place/anatolia
+  note: "Place association from the person's nisba/name (رومي); denotes association, not proven residence."
+  confidence: low
+  sources: [source/futuh-misr-amir-1999]
 - type: participated_in
   target: event/siege-of-babylon-fortress-640
   role: قائد الروم في القصر

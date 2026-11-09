@@ -1,0 +1,16 @@
+id: place/sinai-peninsula
+class: place
+kind: region
+label: { en: "Sinai Peninsula", ar: "شبه جزيرة سيناء" }
+summary:
+  en: "Peninsula in the Red Sea."
+  ar: "منطقة في مصر."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [29.5, 34]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q36755", geonames: "347930" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q36755 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

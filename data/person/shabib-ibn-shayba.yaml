@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch93
+relations:
+  - { type: traveled_to, target: place/baghdad, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'أبو معمر شبيب بن شيبة الخطيب المنقري البصري؛ حدث عن الحسن ومعاوية بن قرة وعطاء بن أبي رباح وروى عنه عيسى " }
 sources: [source/wafayat-ayan]
 status:
   review: published

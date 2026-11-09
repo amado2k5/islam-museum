@@ -7,6 +7,7 @@ summary:
 wings: [people]
 gender: male
 relations:
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/conquest-of-iqritish, role: "المتتم للفتح", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

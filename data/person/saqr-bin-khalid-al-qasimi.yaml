@@ -22,6 +22,7 @@ died:
   sources: [source/wikipedia-saqr-bin-khalid-al-qasimi-en, source/wikipedia-saqr-bin-khalid-al-qasimi-ar, source/wikidata-saqr-bin-khalid-al-qasimi]
 relations:
   - { type: member_of, target: group/al-qasimi, note: "Ruler of Sharjah, and from 1900 of Ras Al Khaimah, of the Al Qasimi house (English and Arabic articles); the edge is written to the house group as the museum models it.", sources: [source/wikipedia-saqr-bin-khalid-al-qasimi-en, source/wikipedia-saqr-bin-khalid-al-qasimi-ar] }
+  - { type: born_in, target: place/emirate-of-sharjah, sources: [source/wikidata-saqr-bin-khalid-al-qasimi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q188810)" }
 faith:
   - value: unknown
     basis: unknown

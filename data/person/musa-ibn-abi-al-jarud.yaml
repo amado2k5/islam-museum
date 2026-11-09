@@ -11,6 +11,7 @@ summary:
 wings: [people]
 relations:
   - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي المكيين (PDF ص53)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: lived_in, target: place/shiraz, sources: [source/wikidata], confidence: low, note: "Nisba شيرازي attested in the record." }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"

@@ -13,6 +13,9 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/diriyah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q277505)" }
+  - { type: buried_in, target: place/al-oud-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4165313)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q1319659

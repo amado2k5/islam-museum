@@ -12,6 +12,8 @@ summary:
 roles: [writer]
 wings: [people, living]
 regions: [global]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Egyptian public figure per the record's own text.", sources: [source/themuslimvibe-dina-aziz] }
 faith:
   - value: unknown
     basis: unknown

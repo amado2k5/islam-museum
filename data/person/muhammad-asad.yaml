@@ -32,6 +32,7 @@ died:
   sources: [source/wikipedia-muhammad-asad-en, source/wikipedia-muhammad-asad-ar, source/wikidata-muhammad-asad]
 relations:
   - { type: lived_in, target: place/lahore, sources: [source/wikipedia-muhammad-asad-en] }
+  - { type: buried_in, target: place/granada, sources: [source/wikipedia-muhammad-asad-en, source/wikipedia-muhammad-asad-ar, source/wikidata-muhammad-asad] }
 faith:
   - value: sunni
     basis: documented

@@ -10,6 +10,8 @@ gender: male
 roles: [poet]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/al-sham, confidence: low, note: "Associated with الشام per the record's own text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الرابع (ترجمة ابن حيوس)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

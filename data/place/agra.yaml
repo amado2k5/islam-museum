@@ -1,18 +1,34 @@
 id: place/agra
 class: place
 kind: city
-label: { ar: "آغرا", en: "Agra" }
+label:
+  ar: آغرا
+  en: Agra
 summary:
-  ar: "مدينة في شمال الهند، كانت عاصمة المغول في عهد أكبر، وفيها تاج محل."
+  ar: مدينة في شمال الهند، كانت عاصمة المغول في عهد أكبر، وفيها تاج محل.
   en: A city in northern India; it was the Mughal capital in the reign of Akbar and holds the Taj Mahal.
-wings: [place]
-regions: [south-asia]
-coordinates: [27.1833, 78.0167]
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 27.1833
+- 78.0167
 coordinate_precision: site
-external_ids: { geonames: "1279259", nomisma: "agra" }
-sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2, source/nomisma]
+external_ids:
+  geonames: '1279259'
+  wikidata: Q42941
+  nomisma: agra
+sources:
+- source/geonames-gazetteer
+- source/encyclopaedia-of-islam-2
+- source/wikidata
+- source/nomisma
 provenance:
   layer: own-research
-  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 274-276, article 'Agra' signed Nurul Hasan (EI2 enrichment, batch ei2-b003 part 3by); GeoNames for coordinates"
-  generated_by: "Claude Code (claude-haiku-5-5)"
-status: { review: published, completeness: 2 }
+  source: Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 274-276, article 'Agra' signed Nurul Hasan (EI2 enrichment,
+    batch ei2-b003 part 3by); GeoNames for coordinates
+  generated_by: Claude Code (claude-haiku-5-5)
+status:
+  review: published
+  completeness: 2

@@ -19,8 +19,6 @@ periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1327~", hijri: "0727", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالقاهرة سنة ٧٢٧هـ أو ٧٢٨هـ أو ٧٢٩هـ/١٣٢٧–١٣٢٩م {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}؛ وفي معجم الذهبي ٧٢٨هـ {cite:durar-kamina-jil-1993 2/425}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
 died: { edtf: "1370-07-02~", hijri: "0771-12-07", calendar: julian, precision: day, status: historical, derived: true, note: "مات بدمشق ليلة الثلاثاء سابع ذي الحجة سنة ٧٧١هـ {cite:durar-kamina-jil-1993 2/426-427} = ٧ ذي الحجة ٧٧١هـ/٢ يوليو ١٣٧٠م {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
 relations:
-  - { type: born_in, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
-  - { type: died_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/taqi-al-din-al-subki, role: "والده", sources: [source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/jamal-al-din-al-mizzi, sources: [source/durar-kamina-jil-1993] }
   - { type: student_of, target: person/al-dhahabi, sources: [source/durar-kamina-jil-1993] }
@@ -36,6 +34,9 @@ relations:
   - { type: participated_in, target: event/taj-al-din-restored-759, role: "القاضي المعاد", sources: [source/durar-kamina-jil-1993] }
   - { type: participated_in, target: event/taj-al-din-ordeal-769, role: "القاضي المعزول المحبوس", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/death-taj-al-din-771, role: "المتوفَّى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: born_in, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/al-bidaya-wal-nihaya] }
 sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/al-bidaya-wal-nihaya]
 external_ids:
   wikidata: Q12201802

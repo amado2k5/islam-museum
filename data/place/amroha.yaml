@@ -1,0 +1,36 @@
+id: place/amroha
+class: place
+kind: city
+label:
+  ar: أمروها
+  en: Amroha
+summary:
+  ar: مدينة في ولاية أتر برديش بالهند.
+  en: City in Uttar Pradesh, India.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 28.9044
+- 78.4675
+coordinate_precision: locality
+coordinate_note: Wikidata Q584515 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q584515
+  geonames: '1278708'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q584515 (labels, coordinates, description)

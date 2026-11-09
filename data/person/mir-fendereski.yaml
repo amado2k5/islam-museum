@@ -31,6 +31,9 @@ died:
   sources: [source/iranica-mir-fendereski, source/golha-mir-fendereski]
   note: "Died in Isfahan in 1050/1640 and was buried in the Takht-e Fulad cemetery there, in the tomb known as Tikyih-yi Mir by the tomb of Baba Rukn al-Din; his tombstone is dated 1640, but a manuscript of the Ṣenāʿiya and a chronogram quatrain give 1639, and both readings are preserved — 1640 follows the tombstone and Iranica. Iranica corrects the story that he was buried in an iron casket as a misunderstanding of the Takht-e Fulad burial. He left his library to Shah Safi."
 relations:
+  - { type: born_in, target: place/gorgan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-fendereski] }
+  - { type: lived_in, target: place/gorgan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-fendereski] }
+  - { type: lived_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-fendereski] }
   - {type: died_in, target: place/isfahan, sources: [source/iranica-mir-fendereski, source/golha-mir-fendereski]}
   - {type: buried_in, target: place/isfahan, sources: [source/golha-mir-fendereski, source/wikipedia-fa-mir-fendereski]}
 sources: [source/wikipedia-mir-fendereski, source/wikipedia-fa-mir-fendereski, source/wikipedia-ar-al-fendereski, source/iranica-mir-fendereski, source/golha-mir-fendereski, source/wikidata-mir-fendereski, source/al-aalam]

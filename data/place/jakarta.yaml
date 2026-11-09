@@ -9,10 +9,14 @@ summary:
   en: "Capital of Indonesia, on the island of Java. The Grand Imam met President Widodo at the palace here on 22 February 2016, gave his global address at Sharif Hidayatullah State Islamic University, and visited the Azhar Mosque named by Shaltut on an earlier visit."
 wings: [place]
 regions: [southeast-asia]
+coordinates: [-6.175277777777778, 106.82694444444445]
+coordinate_precision: approx
+coordinate_note: "Matched to Wikidata Q3630 by name; coordinates approximate until verified against a gazetteer."
 relations:
   - { type: capital_of, target: polity/indonesia, sources: [source/rihla-imam-akbar-indonesia-azhar] }
   - { type: located_in, target: place/java, sources: [source/rihla-imam-akbar-indonesia-azhar] }
-sources: [source/rihla-imam-akbar-indonesia-azhar]
+external_ids: { wikidata: "Q3630" }
+sources: [source/rihla-imam-akbar-indonesia-azhar, source/wikidata]
 provenance:
   layer: own-research
   source: "Al-Azhar Islamic Research Academy, 'The Grand Imam's Journey to Indonesia' (2018), pp. 24, 56, 79, 105 (PDF pagination)"

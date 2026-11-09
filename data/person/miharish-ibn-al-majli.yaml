@@ -6,6 +6,7 @@ summary:
 gender: male
 roles: [ruler]
 relations:
+- { type: lived_in, target: place/haditha, confidence: low, note: "Associated with حديثة per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
 - type: member_of
   target: group/banu-uqayl
   sources: [source/muntazam-ibn-al-jawzi]

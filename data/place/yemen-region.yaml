@@ -1,0 +1,30 @@
+id: place/yemen-region
+class: place
+kind: region
+label:
+  ar: إقليم اليمن
+  en: Yemen region
+  ur: یمن ⁦(علاقہ)⁩
+summary:
+  ar: إقليم في اليمن.
+  en: Geographic region in the southern Arabian Peninsula.
+wings:
+- place
+regions:
+- global
+external_ids:
+  wikidata: Q2152974
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q2152974 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q2152974 (labels, coordinates, description)

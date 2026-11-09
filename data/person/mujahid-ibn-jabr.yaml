@@ -9,6 +9,8 @@ gender: male
 relations:
   - { type: participated_in, target: event/conquest-of-rhodes, role: "المقيم المقرئ", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-arwad, role: "الفاتح المقرئ", sources: [source/futuh-buldan-maarif-1407] }
+
+  - { type: lived_in, target: place/arwad, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/salabi-umayyad-state-2020, source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 330"

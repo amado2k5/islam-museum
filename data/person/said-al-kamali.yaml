@@ -28,6 +28,8 @@ faith:
     note: "The Arabic Wikipedia infobox (unreferenced) gives his religion as Islam, his affiliation as Ahl al-Sunna wa-l-Jama'a and his school as Maliki. The Urdu Wikipedia article is a translation of the Arabic one — the same source family — and its infobox likewise gives Maliki. Wikidata records his religion only as Islam (Q432) and names no school. His university teaching of Maliki jurisprudence and his Imam Malik chair, where he teaches the Muwatta and a Maliki textbook, are scholarship and teaching of a school's texts, not an attestation of his own school. Not recorded as sunni-maliki until a second, independent source names his own school."
     sources: [source/wikipedia-said-al-kamali-ar, source/wikipedia-said-al-kamali-ur, source/wikidata-said-al-kamali]
 external_ids: { wikidata: "Q12216094" }
+relations:
+  - { type: born_in, target: place/rabat, sources: [source/wikidata-said-al-kamali], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3551)" }
 sources: [source/wikipedia-said-al-kamali-ar, source/wikipedia-said-al-kamali-ur, source/wikidata-said-al-kamali]
 provenance:
   layer: own-research

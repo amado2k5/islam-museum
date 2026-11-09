@@ -19,6 +19,8 @@ roles:
 wings:
   - people
   - living
+relations:
+  - { type: lived_in, target: place/united-states, confidence: low, note: "US-based author/speaker per the record's own text.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

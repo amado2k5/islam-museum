@@ -15,6 +15,8 @@ summary:
   en: "The speed-reader mystic — read all of Sahih al-Bukhari on al-Badr al-Ghazzi in six days and Sahih Muslim in five sittings within twenty days; al-Ghazzi wrote him up as 'one of the saints who do not know themselves'; martyred by dysentery Tuesday 11 Sha'ban 935 {cite:shadharat-dhahab p. 594}."
 born: { edtf: "1479-07~", hijri: "0885-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد ربيع الأول 885 {cite:shadharat-dhahab p. 594}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1530-04-06~", hijri: "0935-08-11", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي شهيداً بالبطن الثلاثاء 11 شعبان 935 {cite:shadharat-dhahab p. 594}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/badr, confidence: low, note: "Associated with Badr per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 935)، قراءة آبل فيجن"

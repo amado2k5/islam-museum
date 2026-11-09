@@ -12,6 +12,7 @@ wings: [people]
 themes: [translation-and-transmission]
 regions: [andalus-europe]
 relations:
+  - { type: lived_in, target: place/paris, confidence: low, note: "Associated with Paris per the record's own summary text; relation type pending review.", sources: [source/mujam-ma-istaajam-bakri] }
   - { type: wrote_about, target: work/mujam-ma-istaajam, sources: [source/mujam-ma-istaajam-bakri] }
 sources: [source/mujam-ma-istaajam-bakri]
 provenance:

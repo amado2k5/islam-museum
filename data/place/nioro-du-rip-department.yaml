@@ -1,0 +1,21 @@
+id: place/nioro-du-rip-department
+class: place
+kind: region
+label: { ar: "مقاطعة نيورو دو ريب", en: "Nioro du Rip Department" }
+summary:
+  ar: "إقليم في السنغال."
+  en: "Region in Senegal."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [13.744499277660656, -15.773597163801162]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2083026" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2083026 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

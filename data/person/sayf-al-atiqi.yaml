@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/harmah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3543429)" }
+  - { type: died_in, target: place/al-ahsa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q98972377)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q100501243

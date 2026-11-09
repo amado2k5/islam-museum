@@ -39,6 +39,8 @@ faith:
     note: "A school reading exists in exactly one infobox: the English article's infobox gives his religion as Sunni Islam. The Malay article's infobox gives Islam in general, the English article's text names no school, and Wikidata gives Islam (Q432) only. Crown headship of the Brunei sultanate and royal descent do not attest a personal school. One infobox family short of the two-source bar: unknown, flagged."
     sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin]
 relations:
+  - { type: born_in, target: place/bandar-seri-begawan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hashim-jalilul-alam-aqamaddin] }
+  - { type: died_in, target: place/bandar-seri-begawan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hashim-jalilul-alam-aqamaddin] }
   - { type: child_of, target: person/omar-ali-saifuddien-ii, sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin] }
 external_ids: { wikidata: "Q40101" }
 sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin]

@@ -42,6 +42,8 @@ died:
   sources:
   - source/tarikh-khalifa-umari-1985
 relations:
+- { type: born_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+- { type: died_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 - type: authored
   target: work/tarikh-khalifa-ibn-khayyat
   sources:

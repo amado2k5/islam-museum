@@ -12,6 +12,7 @@ wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
 relations:
+  - { type: ruler_of, target: place/tlemcen, note: "From text: ruler of Tlemcen", sources: [source/dawlat-uthmaniyya-salabi, source/al-aalam] }
   - { type: ruler_of, target: place/tlemcen, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi, source/al-aalam]

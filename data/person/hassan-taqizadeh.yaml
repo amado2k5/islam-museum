@@ -33,6 +33,9 @@ died:
   note: "Died at Tehran on 28 January 1970 — the Encyclopaedia Iranica dates it 8 Bahman 1348 in the Persian solar calendar, and the English and Persian articles and Wikidata agree on the Gregorian day — and was buried, after a funeral from the Sepahsalar mosque, in the Zahir al-Dawla cemetery. The lunar Hijri year 1389 is the derived conversion. There is no museum place entity for Tehran or for the cemetery, so no died_in or buried_in edge is written."
   sources: [source/iranica-taqizadeh, source/wikipedia-hassan-taqizadeh-en, source/wikipedia-hassan-taqizadeh-fa]
 relations:
+  - { type: born_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-taqizadeh] }
+  - { type: died_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-taqizadeh] }
+  - { type: buried_in, target: place/zahir-od-dowleh-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-taqizadeh] }
   - { type: born_in, target: place/tabriz, sources: [source/iranica-taqizadeh, source/wikipedia-hassan-taqizadeh-en] }
 faith:
   - value: unknown

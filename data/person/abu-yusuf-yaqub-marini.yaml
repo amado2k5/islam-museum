@@ -17,3 +17,5 @@ provenance:
 external_ids: { wikidata: "Q335496" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruler_of, target: place/fez, note: "From text: sultan of Fez", sources: [source/nafh-tib-maqqari] }

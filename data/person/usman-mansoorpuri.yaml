@@ -13,6 +13,8 @@ regions: [south-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1944", precision: year, status: tradition, derived: true }
 died: { edtf: "2021", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/muzaffarnagar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2768828)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q106920637

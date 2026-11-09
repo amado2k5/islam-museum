@@ -35,7 +35,8 @@ faith:
     basis: unknown
     note: "No fetched text names a school for Abdur Rahim himself. His scholarly work expounds the Hanafi, Maliki, Shafi'i and Hanbali schools alike, and teaching or writing a school's law is not adherence to it; his Muslim League leadership is political office, which never counts. Wikidata records his religion as Islam only. The value therefore stays unknown."
     sources: [source/wikipedia-abdur-rahim-en, source/wikipedia-abdur-rahim-ur, source/wikidata-abdur-rahim]
-relations: []
+relations:
+  - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (هندي); denotes association, not proven residence.", sources: [source/wikipedia-abdur-rahim-en, source/wikipedia-abdur-rahim-ur, source/wikidata-abdur-rahim], confidence: low }
 external_ids: { wikidata: "Q4666230" }
 sources: [source/wikipedia-abdur-rahim-en, source/wikipedia-abdur-rahim-ur, source/wikidata-abdur-rahim]
 provenance:

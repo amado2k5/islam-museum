@@ -21,6 +21,8 @@ born:
 roles: [basketball player, activist]
 regions: [americas-oceania]
 wings: [people, living]
+relations:
+  - { type: born_in, target: place/zurich, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-enes-kanter-freedom] }
 faith:
   - value: unknown
     basis: unknown

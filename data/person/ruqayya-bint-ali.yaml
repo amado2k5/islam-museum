@@ -13,6 +13,9 @@ regions: [arabia]
 periods: [period/prophetic-era]
 faith:
   - { value: sunni, basis: tradition }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: buried_in, target: building/mausoleum-sayyida-ruqayya-cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q12243219)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q13400692

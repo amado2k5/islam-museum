@@ -34,6 +34,8 @@ faith:
     note: "No source names a school or order for him, and Wikidata gives only Islam. The English biography notes that he self-identified as an ethnic Croat — an ethnic identification, which is not a religious attestation. His teaching posts at Muslim schools, among them the Gazi Husrev-beg Madrasa (1926–1945), are employment, which never counts. Absence configuration, so the record is unflagged."
     sources: [source/wikipedia-hamdija-kresevljakovic-en, source/wikipedia-hamdija-kresevljakovic-bs, source/wikipedia-hamdija-kresevljakovic-hr, source/wikidata-hamdija-kresevljakovic]
 relations:
+  - { type: born_in, target: place/sarajevo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamdija-kresevljakovic] }
+  - { type: died_in, target: place/sarajevo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamdija-kresevljakovic] }
   - { type: born_in, target: place/sarajevo, sources: [source/wikipedia-hamdija-kresevljakovic-en, source/wikipedia-hamdija-kresevljakovic-bs] }
   - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-hamdija-kresevljakovic-bs, source/wikidata-hamdija-kresevljakovic] }
 summary:

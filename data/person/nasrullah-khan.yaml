@@ -36,6 +36,7 @@ relations:
   - { type: sibling_of, target: person/habibullah-khan, sources: [source/wikipedia-nasrullah-khan-en, source/wikipedia-nasrullah-khan-ar, source/wikipedia-nasrullah-khan-ur] }
   - { type: died_in, target: place/kabul, sources: [source/wikipedia-nasrullah-khan-en, source/wikipedia-nasrullah-khan-ar, source/wikipedia-nasrullah-khan-ur] }
   - { type: buried_in, target: place/kabul, sources: [source/wikipedia-nasrullah-khan-en] }
+  - { type: ruler_of, target: place/afghanistan, sources: [source/wikipedia-nasrullah-khan-en, source/wikipedia-nasrullah-khan-ar, source/wikipedia-nasrullah-khan-ur] }
 faith:
   - value: unknown
     basis: unknown

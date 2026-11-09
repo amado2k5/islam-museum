@@ -28,6 +28,8 @@ died:
   derived: true
   note: "توفي يوم الجمعة وقت العصر سابع جمادى الآخرة سنة ثلاث وستين ببغداد ودفن في مدرسته {cite:shadharat-dhahab p. 689}؛ التحويل مشتق."
 relations:
+  - { type: lived_in, target: place/damascus, note: "From text: أقام بدمشق وأكرمه الملك العادل نور ا", sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baghdad, note: "From text: died at Baghdad Friday", sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

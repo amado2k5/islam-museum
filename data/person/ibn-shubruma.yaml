@@ -7,6 +7,8 @@ summary:
 born: { hijri: "0072", edtf: "0691~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: ولد سنة اثنتين وسبعين من الهجرة (PDF ص45).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 died: { hijri: "0144", edtf: "0761~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة أربع وأربعين ومائة (PDF ص45).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 wings: [people]
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with الكوفة per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
 sources: [source/futuh-buldan-maarif-1407, source/tabaqat-fuqaha-abbas-1981]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -1,0 +1,21 @@
+id: place/monte-carlo
+class: place
+kind: town
+label: { ar: "مونت كارلو", en: "Monte Carlo", ur: "مونٹی کارلو" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q45240)."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [43.738942, 7.425237]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q45240" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q45240 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

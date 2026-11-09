@@ -10,6 +10,10 @@ gender: male
 wings: [people]
 periods: [period/modern-era]
 external_ids: { wikidata: "Q311826" }
+relations:
+  - { type: born_in, target: place/shubra-khit, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5600888)" }
+  - { type: born_in, target: place/beheira-governorate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q30630)" }
+  - { type: died_in, target: place/alexandria, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q87)" }
 sources: [source/stoddard-arslan-hadir-1923, source/assabile-omar-abdelkafy]
 # Verification: one source (Arslan's commentary, a close disciple, so an admiring witness). Dates of exile and death need a second source before publication; the 1886 Beirut exile is Arslan's own account.
 status: { review: draft, completeness: 1 }

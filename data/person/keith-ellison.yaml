@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Gregorian date and Detroit birthplace from the English Wikipedia article and from the Minnesota Legislative Reference Library's legislator record, which gives 'Date of Birth: 8/4/1963, Birth Place: Detroit, Michigan'. Detroit has no place entity in data/place/ (the same gap noted in person/rashida-tlaib), so no born_in relation is written. The Hijri year (1383) is derived by tabular conversion."
   sources: [source/wikipedia-keith-ellison-en, source/mn-legislators-keith-ellison]
+relations:
+  - { type: lived_in, target: place/united-states, confidence: low, note: "Associated with الولايات المتحدة per the record's own summary text; relation type pending review.", sources: [source/wikipedia-keith-ellison-en] }
 faith:
   - value: unknown
     basis: unknown

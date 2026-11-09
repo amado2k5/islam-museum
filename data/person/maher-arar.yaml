@@ -22,6 +22,8 @@ born:
   sources: [source/wikipedia-maher-arar-en, source/wikipedia-maher-arar-ar, source/wikidata-maher-arar]
 gender: male
 roles: [engineer, activist]
+relations:
+  - { type: born_in, target: place/syria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-maher-arar] }
 faith:
   - value: unknown
     basis: unknown

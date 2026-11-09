@@ -26,6 +26,8 @@ wings:
   - living
 regions:
   - maghreb
+relations:
+  - { type: lived_in, target: place/rabat, confidence: low, note: "Associated with Rabat per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

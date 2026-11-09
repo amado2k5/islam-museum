@@ -23,6 +23,13 @@ relations:
   target: polity/almoravid-dynasty
   sources:
   - source/tarikh-ibn-khaldun-ibar
+
+- type: died_in
+  target: place/marrakesh
+  confidence: low
+  note: "Killed by the Almohads when they reached Marrakesh, per the record's summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]

@@ -24,6 +24,8 @@ born:
   sources: [source/wikipedia-israel-adesanya-en, source/wikipedia-israel-adesanya-ar, source/wikidata-israel-adesanya]
 gender: male
 roles: [mixed martial artist]
+relations:
+  - { type: born_in, target: place/lagos, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-israel-adesanya] }
 faith:
   - value: unknown
     basis: unknown

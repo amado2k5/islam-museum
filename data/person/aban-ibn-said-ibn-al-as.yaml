@@ -15,6 +15,7 @@ regions: [arabia]
 story_roles:
   - { role: poet, status: tradition, note: "نُسب إليه أو وُصف بالشعر في هذا الفصل (ص4)", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/khalid-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/amr-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }

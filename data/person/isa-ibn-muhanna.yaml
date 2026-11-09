@@ -15,7 +15,8 @@ regions: [levant-iraq]
 faith:
   - value: sunni
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/tadmur, confidence: low, note: "Associated with تدمر per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:
   review: published

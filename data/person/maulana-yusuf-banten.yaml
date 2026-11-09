@@ -33,6 +33,8 @@ died:
     - source/wikipedia-maulana-yusuf-banten-ur
     - source/wikidata-maulana-yusuf-banten
 
+relations:
+  - { type: died_in, target: place/banten-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-maulana-yusuf-banten] }
 faith:
   - value: unknown
     basis: unknown

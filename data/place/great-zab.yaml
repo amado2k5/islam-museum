@@ -1,0 +1,21 @@
+id: place/great-zab
+class: place
+kind: site
+label: { ar: "نهر الزاب الكبير", en: "Great Zab", ur: "دریائے زاب" }
+summary:
+  ar: "موقع في تركيا."
+  en: "Site in Turkey."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [35.9911, 43.3436]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q756018" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q756018 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

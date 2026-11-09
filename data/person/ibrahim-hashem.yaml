@@ -34,6 +34,7 @@ faith:
     note: "No source read names a religious school for Ibrahim Hashem himself, and Wikidata carries no religion value for him. The English biography's remark that his Nablus family claimed descent from the Prophet is a lineage claim about his family, not an attestation of his own school, and never counts; his al-Fatat membership in his youth, his judgeships and his premierships are affiliations and offices."
     sources: [source/wikipedia-ibrahim-hashem-en, source/wikipedia-ibrahim-hashem-ar, source/wikidata-ibrahim-hashem]
 relations:
+  - { type: born_in, target: place/nablus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-hashem] }
   - { type: born_in, target: place/nablus, sources: [source/wikipedia-ibrahim-hashem-en, source/wikipedia-ibrahim-hashem-ar, source/wikidata-ibrahim-hashem] }
   - { type: died_in, target: place/baghdad, sources: [source/wikipedia-ibrahim-hashem-en, source/wikipedia-ibrahim-hashem-ar, source/wikidata-ibrahim-hashem] }
 summary:

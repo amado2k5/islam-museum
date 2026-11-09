@@ -35,6 +35,8 @@ faith:
     note: "No article text attests his own affiliation personally. FLAGGED for the founder (Christian-evidence family): the English and Arabic texts say only that he was born into a Coptic (Orthodox) Christian family — family framing, which never counts. The personal datum exists in one family only: the Arabic article's infobox religion field ('Christian Orthodox'), echoed by one of the Wikidata item's two religion values (Coptic Orthodox Church, Q198998) — while the same item contradictorily carries a second value, Coptic Catholic Church (Q49378), so the structured family cannot settle even the denomination. The Urdu stub files him under Coptic categories, which are filings, not attestations. A funeral prayer led by the Coptic Pope, reported in the Arabic text, is a rite held for him, not a named affiliation. Two independent sources attesting him personally would settle christian/documented; the evidence is preserved here for the founder's ruling."
     sources: [source/wikipedia-boutros-boutros-ghali-en, source/wikipedia-boutros-boutros-ghali-ar, source/wikipedia-boutros-boutros-ghali-ur, source/wikidata-boutros-boutros-ghali]
 relations:
+  - { type: born_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-boutros-boutros-ghali] }
+  - { type: died_in, target: place/al-jizah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-boutros-boutros-ghali] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-boutros-boutros-ghali-en, source/wikipedia-boutros-boutros-ghali-ar] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-boutros-boutros-ghali-en] }
 wings: [people]

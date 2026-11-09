@@ -12,6 +12,9 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "0904", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/amol, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/samarra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam, source/risala-qushayriyya-minhaj-2017]
 external_ids:
   wikidata: Q5955876

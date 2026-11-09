@@ -1,0 +1,21 @@
+id: place/fenton
+class: place
+kind: city
+label: { ar: "فنتون", en: "Fenton", ur: "فینٹون" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q2209169)."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [42.7978, -83.705]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2209169" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2209169 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

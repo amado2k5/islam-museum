@@ -16,3 +16,5 @@ provenance:
   run: lib-nafh-tib-batch-63
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }

@@ -1,0 +1,16 @@
+id: place/astana
+class: place
+kind: city
+label: { en: "Astana", ar: "أستانا", ur: "استانا" }
+summary:
+  en: "Capital city of Kazakhstan."
+  ar: "عاصمة كازاخستان."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [51.13, 71.43]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q1520" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q1520 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

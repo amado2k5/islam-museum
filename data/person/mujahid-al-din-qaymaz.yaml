@@ -10,6 +10,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 roles: [ruler, military]
+relations:
+  - { type: ruled_over, target: place/mosul, sources: [source/kamil-ibn-al-athir], confidence: low, note: "en: 'Mujahid al-Din Qaymaz — the governing hand of Nur al-Din's house: appointed to Mosul's citadel in Dhu al-" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

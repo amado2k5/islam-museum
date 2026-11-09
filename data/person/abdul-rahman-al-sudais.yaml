@@ -43,3 +43,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-abdul-rahman-al-sudais-en, source/wikipedia-abdul-rahman-al-sudais-ar, source/wikipedia-abdul-rahman-al-sudais-ur, source/wikipedia-abdul-rahman-al-sudais-fr, source/wikidata-abdul-rahman-al-sudais]
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/wikipedia-abdul-rahman-al-sudais-en, source/wikipedia-abdul-rahman-al-sudais-ar, source/wikipedia-abdul-rahman-al-sudais-ur, source/wikipedia-abdul-rahman-al-sudais-fr, source/wikidata-abdul-rahman-al-sudais], confidence: low }

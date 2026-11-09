@@ -15,3 +15,5 @@ provenance:
 external_ids: { wikidata: "Q3147457" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruler_of, target: place/qayrawan, note: "From text: ولى على القيروان ثم فر منها إ", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }

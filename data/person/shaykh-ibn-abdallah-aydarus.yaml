@@ -17,6 +17,8 @@ born: { edtf: "1513~", hijri: "0919", calendar: julian, precision: year, status:
 died: { edtf: "1582-10-23~", hijri: "0990-09-26~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بأحمد أباد ليلة السبت لست وعشرين خلت من رمضان؛ التحويل مشتق {cite:shadharat-dhahab p. 424}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: teacher_of, target: person/ibn-hajar-al-haytami, sources: [source/shadharat-dhahab] }
+
+  - { type: lived_in, target: place/yemen, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 990، عن النور السافر)، قراءة آبل فيجن"

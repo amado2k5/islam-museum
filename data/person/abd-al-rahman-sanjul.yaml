@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 relations:
+  - { type: ruled_over, target: place/cordoba, note: "Son of al-Mansur ibn Abi Amir; succeeded his brother al-Muzaffar at the head of the Amirid state in Cordoba.", sources: [source/nafh-tib-maqqari], confidence: medium }
   - { type: child_of, target: person/al-mansur-ibn-abi-amir, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research

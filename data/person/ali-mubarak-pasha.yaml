@@ -14,6 +14,7 @@ wings: [people]
 periods: [period/modern-era]
 regions: [egypt-nile]
 relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: authored, target: work/al-khitat-al-tawfiqiyya, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 provenance:

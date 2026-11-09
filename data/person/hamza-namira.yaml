@@ -14,6 +14,8 @@ regions: [egypt-nile]
 roles: [singer, songwriter, composer]
 born: { edtf: "1980-11-15", calendar: gregorian, precision: day, status: historical, derived: false, note: "Wikidata gives 15 November 1980; the English article gives 1980 and Diriyah, Saudi Arabia, citing Al Arabiya and his own post of 6 March 2022 (which corrects an earlier 'Abha'). He grew up and went to school in Riyadh.", sources: [source/wikipedia-hamza-namira-en, source/wikidata-hamza-namira] }
 relations:
+  - { type: born_in, target: place/diriyah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-namira] }
+  - { type: lived_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-namira] }
   - { type: lived_in, target: place/alexandria, note: "Studied commerce at Alexandria University, graduating in 2003; played in Nabil Bakly's band 1999–2004", sources: [source/wikipedia-hamza-namira-en] }
 faith:
   - value: unknown

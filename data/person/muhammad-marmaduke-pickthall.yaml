@@ -34,7 +34,10 @@ faith:
     basis: self-identified
     note: "His own self-definition, attested in two independent works: Murad's biography quotes him — 'I call myself a Sunni Muslim of the Hanafi school' — said in self-definition against the Qadiani sect, for which he 'had no patience', and records that he was often asked for Hanafi fatwas; the English article, following Gilham's scholarship, likewise records that he identified himself as a Sunni Muslim of the Hanafi school. His November 1917 shahada at the Woking Muslim Mission, with Khwaja Kamal-ud-Din's support, is adjacency and is expressly not the basis of this settlement."
     sources: [source/wikipedia-muhammad-marmaduke-pickthall-en, source/murad-pickthall-biography]
-relations: []
+relations:
+  - { type: born_in, target: place/london, sources: [source/wikidata-muhammad-marmaduke-pickthall], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q84)" }
+  - { type: died_in, target: place/st-ives, sources: [source/wikidata-muhammad-marmaduke-pickthall], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q724182)" }
+  - { type: buried_in, target: place/brookwood-cemetery, sources: [source/wikidata-muhammad-marmaduke-pickthall], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q990618)" }
 summary:
   ar: "روائي وباحث إنجليزي (1875-1936) اعتنق الإسلام سنة 1917، أشهر أعماله ترجمته لمعاني القرآن الكريم «معنى القرآن المجيد» (1930)، من أوسع الترجمات الإنجليزية انتشاراً؛ خطب الجمعة في ووكينغ ولندن وعمل في الهند محرراً ومدير مدرسة في حيدر آباد."
   en: "English novelist and scholar (1875-1936) who declared his Islam in 1917; his 'The Meaning of the Glorious Koran' (1930) is among the most widely used English translations of the Qur'an. He preached Friday sermons at Woking and in London and worked in India as a newspaper editor and school principal in Hyderabad."

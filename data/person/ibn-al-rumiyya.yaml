@@ -12,6 +12,9 @@ roles: [scholar]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
+relations:
+  - { type: born_in, target: place/seville, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/seville, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: sunni
     basis: tradition

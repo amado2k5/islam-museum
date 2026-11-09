@@ -1,0 +1,36 @@
+id: place/mombasa
+class: place
+kind: city
+label:
+  ar: مومباسا
+  en: Mombasa
+  ur: ممباسا
+summary:
+  ar: مدينة وميناء سواحلي في كينيا على المحيط الهندي.
+  en: Swahili port city of Kenya on the Indian Ocean.
+wings:
+- place
+regions:
+- east-africa
+coordinates:
+- -4.05
+- 39.67
+coordinate_precision: locality
+coordinate_note: Identified location; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q5574
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Gazetteer identification from the entities citing this place (own research)

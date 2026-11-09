@@ -13,6 +13,8 @@ regions: [east-africa]
 periods: [period/modern-era]
 born: { edtf: "1888", precision: year, status: tradition, derived: true }
 died: { edtf: "1960", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/mutsamudu, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q691016)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q15814150

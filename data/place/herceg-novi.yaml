@@ -1,0 +1,21 @@
+id: place/herceg-novi
+class: place
+kind: city
+label: { ar: "هرسك نوفي", en: "Herceg Novi", ur: "خیرتسیگ نووی" }
+summary:
+  ar: "مدينة في مملكة يوغسلافيا."
+  en: "City in Kingdom of Yugoslavia."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [42.453055555556, 18.5375]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q193103" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q193103 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

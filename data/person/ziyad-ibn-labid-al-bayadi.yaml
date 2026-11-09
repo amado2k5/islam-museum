@@ -4,14 +4,21 @@ label:
   ar: زياد بن لبيد البياضي
   en: Ziyad ibn Labid al-Bayadi
 names:
-  - { kind: full, lang: ar, value: زياد بن لبيد البياضي الأنصاري }
+- kind: full
+  lang: ar
+  value: زياد بن لبيد البياضي الأنصاري
 gender: male
-roles: [companion]
-traditions: [sunni]
+roles:
+- companion
+traditions:
+- sunni
 summary:
-  ar: "صحابي أنصاري؛ أجمع رواة البلاذري على أن النبي ولّاه حضرموت، وكتب إليه أبو بكر لما استخلف بولاية كِندة والصَّدِف إلى ما كان يتولى من حضرموت."
-  en: "An Ansari Companion; al-Baladhuri's transmitters agree the Prophet appointed him over Hadramawt, and Abu Bakr on succeeding wrote him into the governorship of Kinda and al-Sadif in addition to what he held of Hadramawt."
-wings: [people]
+  ar: صحابي أنصاري؛ أجمع رواة البلاذري على أن النبي ولّاه حضرموت، وكتب إليه أبو بكر لما استخلف بولاية كِندة والصَّدِف إلى
+    ما كان يتولى من حضرموت.
+  en: An Ansari Companion; al-Baladhuri's transmitters agree the Prophet appointed him over Hadramawt, and Abu Bakr on succeeding
+    wrote him into the governorship of Kinda and al-Sadif in addition to what he held of Hadramawt.
+wings:
+- people
 periods:
 - period/prophetic-era
 - period/rashidun
@@ -19,13 +26,31 @@ regions:
 - arabia
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 93"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  source: فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 93
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
   run: lib-futuh-buldan-batch-4
 relations:
-  - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: "عامل النبي على حضرموت وصدقاتها", sources: [source/ibn-hisham-saqqa] }
-  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
-  - { type: member_of, target: group/ansar, sources: [source/ibn-hisham-saqqa]}
+- type: participated_in
+  target: event/dispatch-of-sadaqa-collectors
+  role: عامل النبي على حضرموت وصدقاتها
+  sources:
+  - source/ibn-hisham-saqqa
+- type: member_of
+  target: group/sahaba
+  sources:
+  - source/ibn-hisham-saqqa
+- type: lived_in
+  target: place/bayad
+  confidence: low
+  note: Association inferred from the nisba 'البياضي'; specific birthplace or residence is not individually documented.
+  sources:
+  - source/ibn-hisham-saqqa
+  - source/futuh-buldan-maarif-1407
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hisham-saqqa
 sources:
 - source/ibn-hisham-saqqa
 - source/futuh-buldan-maarif-1407
@@ -33,4 +58,4 @@ sources:
 status:
   review: draft
   completeness: 3
-  generated_by: "Devin (SWE-2 High)"
+  generated_by: Devin (SWE-2 High)

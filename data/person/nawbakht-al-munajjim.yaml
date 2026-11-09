@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch38
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/muruj-al-dhahab] }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

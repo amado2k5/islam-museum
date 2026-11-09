@@ -23,3 +23,6 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: born_in, target: place/anatolia, note: "From text: ولد بقصبة سماو من ولاية أناضولي واش", sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/samarqand, note: "From text: تربى بروحانيته ثم عاد إلى سمرقند وصح", sources: [source/shadharat-dhahab] }

@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
 relations:
+  - { type: lived_in, target: place/dania, confidence: low, note: "Associated with دانية per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
   - { type: authored, target: work/al-muhkam-ibn-sida, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research

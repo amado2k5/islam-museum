@@ -13,6 +13,9 @@ regions: [southeast-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1455", precision: year, status: tradition, derived: true }
 died: { edtf: "1518", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/jepara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2662601)" }
+  - { type: died_in, target: place/sultanate-of-demak, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q49322)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q940578

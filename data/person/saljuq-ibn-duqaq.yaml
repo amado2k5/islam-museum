@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: died_in, target: place/jand, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3820453)" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q5670642

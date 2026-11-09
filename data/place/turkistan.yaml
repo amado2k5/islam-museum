@@ -1,0 +1,38 @@
+id: place/turkistan
+class: place
+kind: region
+label:
+  ar: تركستان
+  en: Turkistan
+summary:
+  ar: بلاد الترك في ما وراء النهر وما حولها، من فرغانة إلى حدود الصين.
+  en: The lands of the Turks in and beyond Transoxiana, from Farghana to the Chinese frontier.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 43.3019
+- 68.2692
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q848638
+  geonames: '1517945'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs. Merged duplicate record place/turkestan into this entity during consolidation.
+  source: Wikidata item Q848638 (labels, coordinates, description)
+aliases:
+- place/turkestan

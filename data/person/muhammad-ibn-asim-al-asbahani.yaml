@@ -14,5 +14,7 @@ wings: [people]
 died:
   hijri: "0299"
   calendar: julian
+relations:
+  - { type: lived_in, target: place/isfahan, sources: [source/tabaqat-shafiiyya-subki] }
 sources: [source/tabaqat-shafiiyya-subki]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

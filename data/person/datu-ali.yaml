@@ -30,6 +30,7 @@ faith:
     note: "A school reading exists in exactly one infobox: the English article's infobox gives his religion as Sunni Islam. Wikidata gives Islam (Q432) in general; the article's text names no school — it frames his wars against Spain and the United States, and his refusal of the 1903 anti-slavery law, in political and economic terms, and resistance leadership is not affiliation. One infobox family short of the two-source bar: unknown, flagged."
     sources: [source/wikipedia-datu-ali-en, source/wikidata-datu-ali]
 relations:
+  - { type: lived_in, target: place/united-states, confidence: low, note: "Associated with الولايات المتحدة per the record's own summary text; relation type pending review.", sources: [source/wikipedia-datu-ali-en] }
   - { type: successor_of, target: person/datu-uto, sources: [source/wikipedia-datu-ali-en, source/wikipedia-datu-uto-en] }
 external_ids: { wikidata: "Q48805464" }
 sources: [source/wikipedia-datu-ali-en, source/wikidata-datu-ali]

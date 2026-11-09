@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
 relations:
+  - { type: ruler_of, target: place/al-andalus, note: "From text: ملك بطليوس من غرب الأندلس من بني ال", sources: [source/nafh-tib-maqqari, source/tarikh-ibn-khaldun-ibar] }
   - { type: authored, target: work/al-muzaffari, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research

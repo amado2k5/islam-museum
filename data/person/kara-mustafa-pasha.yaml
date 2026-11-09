@@ -11,6 +11,10 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
+relations:
+  - { type: born_in, target: place/merzifon, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/belgrade, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/edirne, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q334140" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:

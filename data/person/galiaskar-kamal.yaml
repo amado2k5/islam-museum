@@ -35,6 +35,9 @@ tags: [volga-tatars, tatar-theatre]
 roles: [playwright, writer]
 wings: [people]
 regions: [anatolia-balkans]
+relations:
+  - { type: born_in, target: place/kazan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-galiaskar-kamal] }
+  - { type: died_in, target: place/kazan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-galiaskar-kamal] }
 faith:
   - value: unknown
     basis: unknown

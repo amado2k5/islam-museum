@@ -27,6 +27,8 @@ faith:
     note: "No source read names a school or madhhab for Cissé personally. The English Wikipedia article calls him a practicing Muslim and records his sujud goal celebration and his objection, with Newcastle's other Muslim players, to the club's Wonga shirt sponsorship — observed practice and public stance, not a school attestation. The French article records that in 2012 he stated, as a Muslim, that he could not wear the sponsored shirt. The Arabic article's text makes no statement of his religion at all, filing him only under the category “Senegalese Muslims”. Wikidata Q309628 gives his religion as Islam (Q432), generically. Generic identification and observed practice are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with what each source gives documented here and in the prose."
     sources: [source/wikipedia-papiss-cisse-en, source/wikipedia-papiss-cisse-fr, source/wikipedia-papiss-cisse-ar, source/wikidata-papiss-cisse]
 external_ids: { wikidata: "Q309628" }
+relations:
+  - { type: born_in, target: place/dakar, sources: [source/wikidata-papiss-cisse], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3718)" }
 sources: [source/wikipedia-papiss-cisse-en, source/wikipedia-papiss-cisse-fr, source/wikipedia-papiss-cisse-ar, source/wikidata-papiss-cisse]
 provenance:
   layer: own-research

@@ -39,6 +39,7 @@ wings: [people]
 regions: [persia-central-asia]
 relations:
   - { type: allied_with, target: person/mustafa-shokay, sources: [source/wikipedia-sultanbek-khodzhanov-ru] }
+  - { type: died_in, target: place/butyrka-prison, sources: [source/wikidata-sultanbek-khodzhanov], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1018222)" }
 faith:
   - value: unknown
     basis: unknown

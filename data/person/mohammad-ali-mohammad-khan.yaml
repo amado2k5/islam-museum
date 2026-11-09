@@ -32,7 +32,8 @@ died:
   derived: true
   note: "Died on 23 March 1931, per the English and Urdu articles and Wikidata Q16029940. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-mohammad-ali-mohammad-khan-en, source/wikipedia-mohammad-ali-mohammad-khan-ur, source/wikidata-mohammad-ali-mohammad-khan]
-relations: []
+relations:
+  - { type: lived_in, target: place/lucknow, confidence: low, note: "Associated with Lucknow per the record's own summary text; relation type pending review.", sources: [source/wikipedia-mohammad-ali-mohammad-khan-en] }
 faith:
   - value: unknown
     basis: unknown

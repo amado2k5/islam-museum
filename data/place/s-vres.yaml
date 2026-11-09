@@ -1,0 +1,21 @@
+id: place/s-vres
+class: place
+kind: town
+label: { ar: "سيفر", en: "Sèvres" }
+summary:
+  ar: "بلدة في فرنسا."
+  en: "Town in France."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [48.823055555556, 2.2108333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q206493" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q206493 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

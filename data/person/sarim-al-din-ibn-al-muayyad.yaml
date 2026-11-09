@@ -15,6 +15,7 @@ born: { edtf: "1400~", hijri: "0802~", calendar: julian, precision: year, status
 died: { edtf: "1420~", hijri: "0823", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 823 {cite:shadharat-dhahab p. 168}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: child_of, target: person/al-muayyad-shaykh, sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/al-sham, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'صارم الدين إبراهيم بن المؤيد شيخ المحمودي؛ ولد بالبلاد الشامية في أوائل القرن تقريباً وأمه أم ولد جاركسية" }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 823)، قراءة آبل فيجن"

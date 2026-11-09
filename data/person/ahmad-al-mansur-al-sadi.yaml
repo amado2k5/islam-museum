@@ -12,6 +12,7 @@ wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
 relations:
+  - { type: lived_in, target: place/marrakesh, note: "From text: of Marrakesh", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: sibling_of, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }

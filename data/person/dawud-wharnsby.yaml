@@ -18,6 +18,8 @@ born:
   edtf: '1972'
   calendar: gregorian
   precision: year
+relations:
+  - { type: born_in, target: place/kitchener, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
   wikidata: Q5242719
 sources:

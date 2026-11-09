@@ -13,6 +13,13 @@ relations:
   target: polity/kakuyid-dynasty
   sources:
   - source/tarikh-ibn-khaldun-ibar
+
+- type: ruled_over
+  target: place/yazd
+  confidence: low
+  note: "Lord of the city of Yazd (صاحب مدينة يزد) per the record's summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]

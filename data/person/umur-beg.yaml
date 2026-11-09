@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: born_in, target: place/aydin, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170457)" }
+  - { type: died_in, target: place/izmir, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35997)" }
 sources:
 - source/bosworth-new-islamic-dynasties-1996
 - source/dawlat-uthmaniyya-salabi

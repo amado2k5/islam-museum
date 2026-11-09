@@ -14,6 +14,9 @@ summary:
   en: "A historian, hadith scholar, linguist and poet from Valencia (Balansiya) in eastern al-Andalus, author of al-Takmila li-Kitab al-Silla."
 wings: [people]
 relations:
+  - { type: born_in, target: place/valencia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/al-andalus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/takmila-ibn-al-abbar, sources: [source/nafh-tib-maqqari] }
 themes: [history-writing-and-social-thought, literature]
 periods: [period/crusades-ayyubid-mamluk]

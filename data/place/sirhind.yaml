@@ -1,0 +1,20 @@
+id: place/sirhind
+class: place
+kind: city
+label: { ar: "سرهند", en: "Sirhind-Fategarh" }
+summary:
+  ar: "مدينة في ولاية البنجاب بالهند، من مراكز الصوفية النقشبندية؛ تُعرف أيضاً بسرهند-فاتيغرة."
+  en: "City in Punjab, India, a centre of Naqshbandi Sufism; also Sirhind-Fategarh."
+wings: [place]
+regions: [south-asia]
+coordinates: [30.62511, 76.386]
+coordinate_precision: locality
+coordinate_note: "Wikidata Q2672955 coordinates; representative point for the city."
+external_ids: { wikidata: "Q2672955", geonames: "1256087" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Coordinates, labels and identifiers from Wikidata Q2672955 and GeoNames; entity created so persons' place relations resolve on the map."

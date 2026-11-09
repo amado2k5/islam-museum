@@ -26,6 +26,8 @@ born:
   derived: true
   note: "Born at Tehran. The day is contested between the editions: the Persian article gives 17 Dey 1338, the Arabic article gives 7 January 1960 citing the foreign ministry biography, the Urdu infobox gives 7 January 1960, and Wikidata gives 7 January 1960; the English article alone gives 8 January 1960. The majority reading (7 January) is carried, with the English variant stated. The Hijri year is derived by tabular conversion from the carried date. No born_in relation is written: Tehran has no museum place entity."
   sources: [source/wikipedia-zarif-fa, source/wikipedia-zarif-ar, source/wikipedia-zarif-ur, source/wikidata-zarif, source/wikipedia-zarif-en]
+relations:
+  - { type: born_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: lived_in, target: place/al-ahsa, confidence: low, note: "Associated with الأحساء per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q125626790

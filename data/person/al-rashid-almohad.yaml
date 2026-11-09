@@ -11,6 +11,11 @@ roles: [ruler]
 traditions: [sunni]
 died: { edtf: "1242", hijri: "0640", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل سنة 640هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
+- type: lived_in
+  target: place/maghreb
+  note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review."
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: child_of
   target: person/al-mamun-almohad
   sources:

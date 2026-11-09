@@ -1,0 +1,16 @@
+id: place/van
+class: place
+kind: city
+label: { en: "Van", ar: "وان" }
+summary:
+  en: "City in Turkey."
+  ar: "مدينة في تركيا."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [38.5019, 43.4167]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q83061", geonames: "298117" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q83061 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

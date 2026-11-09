@@ -1,0 +1,21 @@
+id: place/al-rehab-palace
+class: place
+kind: site
+label: { ar: "قصر الرحاب", en: "Al Rehab Palace" }
+summary:
+  ar: "موقع في العراق."
+  en: "Site in Iraq."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [33.32083333333334, 44.390277777777776]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q6831994" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q6831994 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

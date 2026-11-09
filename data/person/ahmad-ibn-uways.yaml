@@ -9,6 +9,10 @@ summary:
 gender: male
 died: { edtf: "1409-09-21~", hijri: "0812-04-30~", calendar: julian, precision: day, status: tradition, derived: true, note: "قتل أسيراً عند قرا يوسف التركماني يوم الأحد آخر شهر ربيع الآخر 812 بعد أن وقع الخلف بينهما فتقابلا للقتال {cite:shadharat-dhahab p. 110}", sources: [source/shadharat-dhahab] }
 relations:
+- type: ruler_of
+  target: place/baghdad
+  note: "From text: sultan of Baghdad"
+  sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar]
 - type: fought
   target: person/qara-yusuf
   sources:

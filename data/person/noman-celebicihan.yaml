@@ -36,6 +36,7 @@ wings: [people]
 regions: [anatolia-balkans]
 relations:
   - { type: allied_with, target: person/cafer-seydamet-kirimer, sources: [source/wikipedia-noman-celebicihan-ru, source/wikipedia-noman-celebicihan-uk] }
+  - { type: died_in, target: place/sevastopol, sources: [source/wikidata-noman-celebicihan], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q7525)" }
 faith:
   - value: unknown
     basis: unknown

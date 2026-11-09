@@ -11,6 +11,8 @@ summary:
 roles: [teacher]
 wings: [people, living]
 regions: [americas-oceania]
+relations:
+  - { type: lived_in, target: place/united-states, confidence: low, note: "Associated with الولايات المتحدة per the record's own summary text; relation type pending review.", sources: [source/mindful-muslimah-website] }
 faith:
   - value: unknown
     basis: unknown

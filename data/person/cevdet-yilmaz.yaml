@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born 1 April 1967 in Bingöl (the Turkish article and Wikidata give Bingöl; the English article specifies the village of Şabanköy in Bingöl). Bingöl has no place entity in the museum, so no born_in relation is written. The hijri year 1386 is a tabular derived conversion of the Gregorian date (derived: true). The queue's 1961 birth year is contradicted by every source and was not followed."
   sources: [source/wikipedia-cevdet-yilmaz-en, source/wikipedia-cevdet-yilmaz-tr, source/wikipedia-cevdet-yilmaz-ar, source/wikidata-cevdet-yilmaz]
+relations:
+  - { type: born_in, target: place/bing-l, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cevdet-yilmaz] }
 faith:
   - value: unknown
     basis: unknown

@@ -18,6 +18,7 @@ regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
+  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (الكوفي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan], confidence: low }
   - { type: authored, target: work/ikhtilaf-al-nuhat-thalab, sources: [source/kashf-zunun-furqan] }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan]
 status:

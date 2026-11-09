@@ -34,6 +34,10 @@ died:
 relations:
   - { type: lived_in, target: place/muscat, sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
   - { type: lived_in, target: place/zanzibar, sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
+  - { type: born_in, target: place/oman, sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
+  - { type: ruler_of, target: place/muscat, sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
+  - { type: ruler_of, target: place/oman, sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
+  - { type: ruler_of, target: place/zanzibar, sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
 faith:
   - value: ibadi
     basis: documented

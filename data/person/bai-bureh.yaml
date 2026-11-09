@@ -30,6 +30,8 @@ died:
   derived: true
   note: "The English article's lead, the French article and Wikidata all give his death as 24 August 1908, the French article and Wikidata placing it at Kasseh, where he had been reinstated as chief in 1905; the English article's narrative gives the year only. The Hijri year (1326) is derived by tabular conversion of that date. Kasseh has no place entity in the museum yet, so no died_in relation is written."
   sources: [source/wikipedia-bai-bureh-en, source/wikipedia-bai-bureh-fr, source/wikidata-bai-bureh]
+relations:
+  - { type: lived_in, target: place/sierra-leone, confidence: low, note: "Associated with سيراليون per the record's own text; relation type pending review.", sources: [source/wikipedia-bai-bureh-en] }
 faith:
   - value: unknown
     basis: unknown

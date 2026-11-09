@@ -1,0 +1,37 @@
+id: place/portugal
+class: place
+kind: region
+label:
+  ar: البرتغال
+  en: Portugal
+  ur: پرتگال
+summary:
+  ar: دولة في جنوب غرب أوروبا على المحيط الأطلسي.
+  en: Country in south-western Europe on the Atlantic.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 39.6
+- -8.0
+coordinate_precision: approx
+coordinate_note: Identified location; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q45
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q45 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q45 (labels, coordinates, description)

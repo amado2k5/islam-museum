@@ -50,3 +50,5 @@ provenance:
   source: "The Russian Wikipedia article on Akhmed Tembulatovich Tsalikov (he has no English article) and his Wikidata item Q4503048, read in full on 27 October 2026; the article's infobox and Wikidata give only generic Islam and its text only his family's background, so his faith is unknown. No relations are written: no place entity exists for Nogkau or Warsaw, and his appearance beside Mustafa Shokay in a 1920 photograph of Muslim political émigrés at Tiflis is not written as an alliance, as no text read attests joint work by the two men."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-109
+relations:
+  - { type: lived_in, target: place/russia, note: "From text: Russian (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-akhmed-tsalikov-ru, source/wikidata-akhmed-tsalikov], confidence: low }

@@ -44,6 +44,8 @@ faith:
     note: "No text names a school, order or movement for him. The English article, and the Arabic article translated from it, call him a Hui-Chinese Islamic scholar and translator who stressed the compatibility of Marxism and Islam; the Chinese article calls him a Hui Muslim scholar, and records that as a young man he studied Persian under Hu Songshan and translated the Wiqaya, a Hanafi legal manual, into Chinese — translating a manual is not the attestation of his own school. Wikidata's religion value is Sunni Islam (Q483654), a single structured value: one source family, which does not meet the two-text bar. Unknown, with the Sunni reading preserved here."
     sources: [source/wikipedia-ma-jian-en, source/wikipedia-ma-jian-zh, source/wikipedia-ma-jian-ar, source/wikidata-ma-jian]
 relations:
+  - { type: born_in, target: place/gejiu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-jian] }
+  - { type: died_in, target: place/beijing, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-jian] }
   - { type: student_of, target: person/ha-decheng, sources: [source/wikipedia-ha-decheng-zh, source/wikipedia-ma-jian-zh] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-ma-jian-en, source/wikipedia-ma-jian-zh] }
   - { type: traveled_to, target: place/mecca, sources: [source/wikipedia-ma-jian-en] }

@@ -1,0 +1,35 @@
+id: place/buda
+class: place
+kind: city
+label:
+  ar: بودا
+  en: Buda
+summary:
+  ar: مدينة في مملكة المجر.
+  en: Western part of Budapest, Hungary, former independent city.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 47.4667
+- 19.05
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q193478
+  geonames: '3054667'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q193478 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q193478 (labels, coordinates, description)

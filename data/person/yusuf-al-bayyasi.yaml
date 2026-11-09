@@ -16,6 +16,8 @@ regions: [andalus-europe, maghreb]
 relations:
   - { type: authored, target: work/hamasa-al-bayyasi, sources: [source/wafayat-ayan] }
   - { type: authored, target: work/al-ilam-bil-hurub, sources: [source/wafayat-ayan] }
+
+  - { type: lived_in, target: place/baeza, confidence: low, note: "Association inferred from the nisba 'البياسي'; specific birthplace or residence is not individually documented.", sources: [source/wafayat-ayan] }
 sources: [source/wafayat-ayan]
 provenance:
   layer: own-research

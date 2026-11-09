@@ -13,6 +13,7 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/kufa, sources: [source/duha-islam] }
   - { type: student_of, target: person/ibn-ishaq, sources: [source/duha-islam] }
 sources: [source/duha-islam]
 provenance:

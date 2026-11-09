@@ -12,6 +12,8 @@ wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
 died: { edtf: "1997", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/monastir, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q208715)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: "Q12240997"

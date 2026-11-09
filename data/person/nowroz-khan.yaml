@@ -65,6 +65,8 @@ faith:
     sources: [source/wikipedia-nowroz-khan-en, source/wikidata-nowroz-khan, source/iranica-baluchistan-i]
 external_ids:
   wikidata: Q6981322
+relations:
+  - { type: died_in, target: place/balochistan, sources: [source/wikipedia-nowroz-khan-en], confidence: low, note: "Died in Kohlu jail, Balochistan, in 1964 per the record text." }
 sources:
   - source/wikipedia-nowroz-khan-en
   - source/wikidata-nowroz-khan

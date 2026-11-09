@@ -1,0 +1,16 @@
+id: place/croydon
+class: place
+kind: city
+label: { en: "Croydon", ar: "كرويدون" }
+summary:
+  en: "Town in South London, England."
+  ar: "مدينة في المملكة المتحدة."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [51.3727, -0.1099]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q2213391", geonames: "2651817" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q2213391 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

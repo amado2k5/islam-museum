@@ -13,7 +13,10 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch32
 external_ids: { wikidata: "Q96793391" }
-sources: [source/muruj-al-dhahab]
+sources: [source/muruj-al-dhahab, source/wikidata]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: born_in, target: place/kufa, note: "Wikidata Q186234 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/samarra, note: "Wikidata Q170047 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -23,6 +23,7 @@ relations:
   role: على المقدمة
   sources:
   - source/futuh-misr-amir-1999
+- { type: lived_in, target: place/kom-sharik, sources: [source/futuh-misr-amir-1999], confidence: low, note: "ar: من قادة جيش عمرو بن العاص في فتح مصر، كان على مقدمته في الطريق إلى الإسكندرية، وإليه يُنسب الكوم الذي يقال" }
 sources: &id001
 - source/futuh-misr-amir-1999
 provenance:

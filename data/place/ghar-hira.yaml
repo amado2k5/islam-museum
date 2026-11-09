@@ -13,4 +13,10 @@ relations:
   - { type: part_of, target: place/mecca, note: "على مبعدة نحو ميلين من مكة (الرحيق ص65)" }
   - { type: site_of, target: event/first-revelation }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin]
+provenance:
+  layer: own-research
+  source: "Recorded against source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin; provenance block added in the person-place geo-enrichment run pending re-verification of the original research note."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 65; coordinates from docs/plan/16 §6" }

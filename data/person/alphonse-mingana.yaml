@@ -12,6 +12,7 @@ gender: male
 roles: [scholar]
 periods: [period/colonial-era]
 relations:
+  - { type: lived_in, target: place/mosul, note: "From text: from Mosul", sources: [source/mingana-lewis-leaves-from-three-ancient-qurans-1914], confidence: low }
   - { type: authored, target: work/leaves-from-three-ancient-qurans, sources: [source/mingana-lewis-leaves-from-three-ancient-qurans-1914] }
 sources: [source/mingana-lewis-leaves-from-three-ancient-qurans-1914]
 provenance:

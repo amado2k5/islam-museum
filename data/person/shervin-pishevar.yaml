@@ -27,6 +27,9 @@ faith:
     note: "No source read names any religious affiliation for him: the English and Persian articles are silent on religion and Wikidata carries no religion value. This is an absence configuration. His Iranian birth and family history — his father fled Iran after being placed on an execution list for broadcasting exit instructions to foreign nationals — are biography, not attestation, and no segment is recorded."
     sources: [source/wikipedia-pishevar-en, source/wikipedia-pishevar-fa, source/wikidata-pishevar]
 external_ids: { wikidata: "Q20987648" }
+relations:
+  - { type: born_in, target: place/tehran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3616)" }
+  - { type: lived_in, target: place/san-francisco, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q62)" }
 sources: [source/wikipedia-pishevar-en, source/wikipedia-pishevar-fa, source/wikidata-pishevar]
 provenance:
   layer: own-research

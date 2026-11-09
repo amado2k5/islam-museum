@@ -26,6 +26,10 @@ faith:
     note: "No source names her school. The Arabic article's infobox gives her religion as Islam, Wikidata gives Islam only, and the English article names no school. Her public statements and her swearing-in on a translation of the Quran are recorded in her prose; they are not a school attestation. Not recorded until a source names her own school."
     sources: [source/wikipedia-rashida-tlaib-ar, source/wikidata-rashida-tlaib, source/wikipedia-rashida-tlaib-en]
 external_ids: { wikidata: "Q7294939" }
+relations:
+  - { type: born_in, target: place/detroit, sources: [source/wikidata-rashida-tlaib], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12439)" }
+  - { type: lived_in, target: place/lansing, sources: [source/wikidata-rashida-tlaib], confidence: low, note: "Wikidata P937 work location (Wikidata Q28237)" }
+  - { type: lived_in, target: place/washington-dc, sources: [source/wikidata-rashida-tlaib], confidence: low, note: "Wikidata P937 work location (Wikidata Q61)" }
 sources: [source/wikipedia-rashida-tlaib-en, source/wikipedia-rashida-tlaib-ar, source/wikipedia-rashida-tlaib-ur, source/wikidata-rashida-tlaib, source/bioguide-rashida-tlaib]
 provenance:
   layer: own-research

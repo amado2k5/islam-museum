@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0629~" }, note: "أسلم قبيل فتح مكة." }
 relations:
+  - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-sulaym }
   - { type: authored, target: work/abbas-ibn-mirdas-hunayn }
   - { type: participated_in, target: event/battle-of-hunayn, role: sulaym-commander-and-poet, sources: [source/ibn-hisham-saqqa] }

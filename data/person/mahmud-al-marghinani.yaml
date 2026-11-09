@@ -18,6 +18,8 @@ wings: [people]
 themes: [development-of-law-theology-institutions]
 periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/bukhara, confidence: low, note: "Associated with Bukhara per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance:
   layer: own-research

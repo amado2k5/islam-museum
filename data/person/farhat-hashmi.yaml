@@ -34,6 +34,8 @@ born:
   derived: true
   note: "Born in Sargodha, Punjab, Pakistan, on 22 December 1957; the English and Urdu Wikipedia articles and Wikidata Q5435184 agree at day precision. No place entity for Sargodha exists in data/place/, so no born_in edge is written. The Hijri year (1377) is derived by tabular conversion."
   sources: [source/wikipedia-farhat-hashmi-en, source/wikipedia-farhat-hashmi-ur, source/wikidata-farhat-hashmi]
+relations:
+  - { type: born_in, target: place/sargodha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-farhat-hashmi] }
 faith:
   - value: unknown
     basis: unknown

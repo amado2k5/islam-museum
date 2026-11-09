@@ -32,6 +32,10 @@ died:
   derived: false
   note: "All four articles and Wikidata give 14 January 1916. The English article places his death at the Istana Negara, Bukit Chandan, Kuala Kangsar, and his burial on 17 January 1916 at the Al-Ghufran Royal Mausoleum there; the Malay article gives the same burial place under its Malay name, Makam Diraja Bukit Chandan. No source consulted gives a Hijri pairing, so no hijri key is carried. Kuala Kangsar has no museum place record, so no died_in or buried_in relation is written."
   sources: [source/wikipedia-idris-shah-i-of-perak-en, source/wikipedia-idris-shah-i-of-perak-ms, source/wikipedia-idris-shah-i-of-perak-ar, source/wikipedia-idris-shah-i-of-perak-id, source/wikidata-idris-shah-i-of-perak]
+relations:
+  - { type: buried_in, target: building/al-ghufran-royal-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-idris-shah-i-of-perak] }
+  - { type: born_in, target: place/perak, confidence: low, note: "Born at Kuala Keboi, Kampar, Perak per the record's born note.", sources: [source/wikipedia-idris-shah-i-of-perak-en, source/wikipedia-idris-shah-i-of-perak-ms, source/wikipedia-idris-shah-i-of-perak-id, source/wikidata-idris-shah-i-of-perak] }
+  - { type: died_in, target: place/perak, confidence: low, note: "Died at Bukit Chandan, Kuala Kangsar, Perak per the record's died note.", sources: [source/wikipedia-idris-shah-i-of-perak-en, source/wikipedia-idris-shah-i-of-perak-ms, source/wikidata-idris-shah-i-of-perak] }
 faith:
   - value: unknown
     basis: unknown

@@ -12,6 +12,8 @@ summary:
 roles: [writer, teacher]
 wings: [people, living]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/london, confidence: low, note: "Associated with لندن per the record's own summary text; relation type pending review.", sources: [source/islamic-sharia-khola-hasan] }
 faith:
   - value: unknown
     basis: unknown

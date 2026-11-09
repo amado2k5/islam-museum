@@ -12,6 +12,9 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 themes: [spirituality-and-sufism]
+relations:
+  - { type: born_in, target: place/aytos, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/bursa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q8084303

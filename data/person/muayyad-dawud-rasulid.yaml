@@ -19,6 +19,7 @@ died:
   sources:
   - source/tarikh-ibn-khaldun-ibar
 relations:
+- { type: ruler_of, target: place/yemen, sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: child_of
   target: person/muzaffar-yusuf-rasulid
   sources:

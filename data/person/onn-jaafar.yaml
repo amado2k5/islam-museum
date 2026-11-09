@@ -31,6 +31,7 @@ died:
   sources: [source/wikipedia-onn-jaafar-en, source/wikipedia-onn-jaafar-ms, source/wikidata-onn-jaafar]
 relations:
   - { type: parent_of, target: person/hussein-onn, sources: [source/wikipedia-hussein-onn-en, source/wikidata-hussein-onn] }
+  - { type: died_in, target: place/johor-bahru, sources: [source/wikidata-onn-jaafar], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q231318)" }
 faith:
   - value: unknown
     basis: unknown

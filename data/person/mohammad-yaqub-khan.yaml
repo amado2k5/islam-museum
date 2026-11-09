@@ -34,6 +34,8 @@ wings: [people]
 regions: [persia-central-asia]
 relations:
   - { type: buried_in, target: place/kabul, sources: [source/wikipedia-mohammad-yaqub-khan-ur] }
+  - { type: ruler_of, target: place/afghanistan, sources: [source/wikipedia-mohammad-yaqub-khan-en, source/wikipedia-mohammad-yaqub-khan-ur] }
+  - { type: ruler_of, target: place/harat, sources: [source/wikipedia-mohammad-yaqub-khan-en, source/wikipedia-mohammad-yaqub-khan-ur] }
 faith:
   - value: unknown
     basis: unknown

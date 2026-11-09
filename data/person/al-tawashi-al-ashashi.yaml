@@ -23,3 +23,5 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: died_in, target: place/mecca, note: "From text: died at Mecca", sources: [source/shadharat-dhahab] }

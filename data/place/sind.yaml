@@ -1,15 +1,35 @@
 id: place/sind
 class: place
 kind: region
-label: { ar: "السند", en: "al-Sind" }
+label:
+  ar: السند
+  en: al-Sind
+  ur: سندھ
 summary:
-  ar: "السند بلاد الهند على الساحل؛ وصفها حكيم بن جبلة لعثمان ماؤها وشل وثمرها دقل ولصها بطل إن قل الجيش فيها ضاعوا وإن كثروا جاعوا."
-  en: "al-Sind, India's seaboard; Hakim ibn Jabala's verdict to Uthman — scant water, worthless fruit, a trifling thief; small armies lost, large ones starved."
-regions: [persia-central-asia]
-wings: [place]
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1 }
+  ar: السند بلاد الهند على الساحل؛ وصفها حكيم بن جبلة لعثمان ماؤها وشل وثمرها دقل ولصها بطل إن قل الجيش فيها ضاعوا وإن كثروا جاعوا.
+  en: al-Sind, India's seaboard; Hakim ibn Jabala's verdict to Uthman — scant water, worthless fruit, a trifling thief; small armies lost, large ones starved.
+regions:
+- south-asia
+coordinates:
+- 25.5
+- 68.5
+coordinate_precision: approx
+coordinate_note: Approximate location; the exact classical/modern identification or extent is not fixed to the metre.
+wings:
+- place
+sources:
+- source/futuh-buldan-maarif-1407
+- source/geonames-gazetteer
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+  generated_by: Devin (SWE-2 High)
+  extraction_flow: Apple Vision OCR -> manual extraction
+  note: Merged duplicate record place/sindh into this entity during consolidation.
+external_ids:
+  wikidata: Q37211
+aliases:
+- place/sindh

@@ -9,6 +9,11 @@ summary:
 gender: male
 roles: [military-commander]
 relations:
+- type: lived_in
+  target: place/misr
+  note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review."
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar, source/muntazam-ibn-al-jawzi]
 - type: fought
   target: person/salih-ibn-mirdas
   sources:

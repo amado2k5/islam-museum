@@ -18,6 +18,8 @@ periods: [period/mongol-post-mongol]
 regions: []
 story_roles:
   - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/tadmur, note: "From the Tadmuri nisba; Maliki jurist, flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

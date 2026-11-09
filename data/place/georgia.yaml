@@ -1,0 +1,18 @@
+id: place/georgia
+class: place
+kind: region
+label: { ar: "جورجيا", en: "Georgia"}
+summary:
+  ar: "إقليم جورجيا."
+  en: "Region (Georgia)."
+wings: [place]
+regions: [global]
+external_ids: { wikidata: "Q230" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q230 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

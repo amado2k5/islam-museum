@@ -22,6 +22,7 @@ born:
   note: "The English and Indonesian articles and Wikidata agree on 23 October 1956, born at Jakarta. The date falls within the Hijri year 1376, which is given as the tabular conversion, marked derived."
   sources: [source/wikipedia-mari-elka-pangestu-en, source/wikipedia-mari-elka-pangestu-id, source/wikidata-mari-elka-pangestu]
 relations:
+  - { type: born_in, target: place/jakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mari-elka-pangestu] }
   - { type: born_in, target: place/jakarta, sources: [source/wikipedia-mari-elka-pangestu-en, source/wikipedia-mari-elka-pangestu-id, source/wikidata-mari-elka-pangestu] }
 faith:
   - value: christian

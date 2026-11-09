@@ -31,6 +31,7 @@ died:
   note: "Died at Constantinople (Istanbul) on 29 October 1918, in 1337 AH (the Arabic article files him under deaths of 1337 AH); he is buried in the Jellaz cemetery in Tunis."
   sources: [source/wikipedia-ali-bach-hamba-ar, source/wikipedia-ali-bach-hamba-fr, source/wikidata-ali-bach-hamba]
 relations:
+  - { type: died_in, target: place/istanbul, note: "From text: died in Istanbul", sources: [source/wikipedia-ali-bach-hamba-ar, source/wikipedia-ali-bach-hamba-fr, source/wikidata-ali-bach-hamba] }
   - { type: born_in, target: place/tunis, sources: [source/wikipedia-ali-bach-hamba-en, source/wikipedia-ali-bach-hamba-ar] }
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-ali-bach-hamba-ar, source/wikipedia-ali-bach-hamba-fr] }
   - { type: buried_in, target: place/tunis, sources: [source/wikipedia-ali-bach-hamba-ar] }

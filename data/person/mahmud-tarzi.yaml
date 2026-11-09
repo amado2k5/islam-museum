@@ -34,6 +34,7 @@ roles: [politician, writer]
 wings: [people]
 regions: [persia-central-asia]
 relations:
+  - { type: born_in, target: place/ghazna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmud-tarzi] }
   - { type: parent_of, target: person/soraya-tarzi, sources: [source/wikipedia-mahmud-tarzi-en, source/wikipedia-soraya-tarzi-en] }
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-mahmud-tarzi-en, source/wikidata-mahmud-tarzi] }
   - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-mahmud-tarzi-en] }

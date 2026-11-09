@@ -9,6 +9,8 @@ wings: [people]
 periods: [period/pre-islamic-arabia, period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/uhud, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/al-khazraj, sources: [source/samhudi-wafa-al-wafa] }
   - { type: related_to, target: person/abu-said-al-khudri, note: "جدّه", sources: [source/samhudi-wafa-al-wafa] }
 external_ids: { wikidata: "Q22689468" }

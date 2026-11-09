@@ -37,6 +37,8 @@ faith:
     note: "No text in any source read names a legal school or Sufi order for him. The Chinese article's infobox carries a religion field 'Islam, Sunni school' — one infobox in one source family, uncorroborated by any text; the English article names no school and has no religion field, and Wikidata carries no religion (P140) value at all. His decades of advocacy for a Muslim people's independence are political acts, not attestations of a personal school affiliation, and Hanafi convention among Central Asian Muslims is not an attestation. The single-infobox Sunni reading is preserved here; on the museum's two-source rule his faith segment is unknown."
     sources: [source/wikipedia-isa-alptekin-zh, source/wikipedia-isa-alptekin-en, source/wikidata-isa-alptekin]
 relations:
+  - { type: born_in, target: place/yengisar-county, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-isa-alptekin] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-isa-alptekin] }
   - type: died_in
     target: place/istanbul
     note: "He died at Istanbul on 17 December 1995 and was buried at Topkapı Cemetery there."

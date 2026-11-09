@@ -25,8 +25,9 @@ born:
   note: "Born at Baghdad in the Iraqi Republic on 4 March 1970; the English article's infobox and early-life text and the Arabic article's lead give the full date, and Wikidata agrees. His family hails from Maysan province. The Hijri year (1390) is derived by tabular conversion of the recorded date."
   sources: [source/wikipedia-mohammed-shia-al-sudani-en, source/wikipedia-mohammed-shia-al-sudani-ar, source/wikidata-mohammed-shia-al-sudani]
 relations:
-  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-mohammed-shia-al-sudani-en, source/wikipedia-mohammed-shia-al-sudani-ar, source/wikidata-mohammed-shia-al-sudani] }
   - { type: successor_of, target: person/mustafa-al-kadhimi, sources: [source/wikipedia-mohammed-shia-al-sudani-en, source/wikipedia-mohammed-shia-al-sudani-ar] }
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-mohammed-shia-al-sudani-en, source/wikipedia-mohammed-shia-al-sudani-ar, source/wikidata-mohammed-shia-al-sudani] }
+  - { type: ruler_of, target: place/maysan, sources: [source/wikipedia-mohammed-shia-al-sudani-en, source/wikipedia-mohammed-shia-al-sudani-ar, source/wikipedia-mohammed-shia-al-sudani-ur, source/wikidata-mohammed-shia-al-sudani] }
 faith:
   - value: unknown
     basis: unknown

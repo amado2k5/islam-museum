@@ -1,0 +1,21 @@
+id: place/tripoli-greece
+class: place
+kind: city
+label: { ar: "طرابلس", en: "Tripoli", ur: "تریپولی، یونان" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q193409)."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [37.508333333333, 22.375]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q193409" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q193409 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

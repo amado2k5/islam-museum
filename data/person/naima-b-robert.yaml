@@ -24,6 +24,9 @@ wings:
   - living
 regions:
   - andalus-europe
+relations:
+  - { type: born_in, target: place/united-kingdom, sources: [source/wikipedia-naima-b-robert-en, source/productivemuslim-naima-b-robert, source/youtube-naima-b-robert] }
+  - { type: lived_in, target: place/zimbabwe, sources: [source/wikipedia-naima-b-robert-en, source/productivemuslim-naima-b-robert, source/youtube-naima-b-robert] }
 faith:
   - value: unknown
     basis: unknown

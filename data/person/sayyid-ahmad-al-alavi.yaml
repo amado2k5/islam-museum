@@ -12,6 +12,10 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/jabal-amel, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1550572)" }
+  - { type: died_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q42053)" }
+  - { type: buried_in, target: place/takht-e-fulad, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5961894)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q22908529

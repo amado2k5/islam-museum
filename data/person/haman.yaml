@@ -13,6 +13,8 @@ wings: [people]
 themes: [prophets, scripture-and-its-sciences]
 regions: [global]
 sensitivity: contested
+relations:
+  - { type: lived_in, target: place/rashid, confidence: low, note: "Associated with رشيد per the record's own summary text; relation type pending review.", sources: [source/assabile-omar-abdelkafy] }
 sources: [source/assabile-omar-abdelkafy]
 provenance: { layer: copyrighted-reference, source: "Assabile, wa-nafsun-ma-sawaha (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: omar-abdelkafy-wa-nafsun-6 }
 status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run omar-abdelkafy-wa-nafsun-6" }

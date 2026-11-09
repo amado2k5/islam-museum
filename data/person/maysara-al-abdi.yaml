@@ -10,6 +10,8 @@ wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
 themes: [sects-and-schools]
+relations:
+  - { type: lived_in, target: place/al-abbasiyya, confidence: low, note: "Associated with العباسية per the record's own summary text; relation type pending review.", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:
   layer: own-research

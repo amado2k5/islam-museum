@@ -1,0 +1,39 @@
+id: place/united-states
+class: place
+kind: region
+label:
+  ar: الولايات المتحدة
+  en: United States
+  ur: ریاستہائے متحدہ امریکا
+summary:
+  ar: دولة تُعرف بالإنجليزية باسم United States.
+  en: Country located primarily in North America.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 39.8282
+- -98.5795
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q30
+  geonames: '6252001'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs. Merged duplicate record place/usa into this entity during consolidation.
+  source: Wikidata item Q30 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q30 (labels, coordinates, description)
+aliases:
+- place/usa

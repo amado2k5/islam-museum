@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: died_in, target: place/kedah-sultanate, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1317579)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q4251706

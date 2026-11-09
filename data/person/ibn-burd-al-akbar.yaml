@@ -9,6 +9,8 @@ roles: [vizier, scholar]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/cordoba, confidence: low, note: "Vizier of the Amiri state of Cordoba per the record's own summary.", sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

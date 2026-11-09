@@ -36,6 +36,7 @@ relations:
   - { type: student_of, target: person/shah-abd-al-aziz-dihlawi, sources: [source/wikipedia-shah-ismail-dehlvi-ar, source/wikipedia-shah-ismail-dehlvi-ur] }
   - { type: student_of, target: person/syed-ahmad-barelvi, sources: [source/wikipedia-shah-ismail-dehlvi-ar, source/wikipedia-shah-ismail-dehlvi-ur] }
   - { type: lived_in, target: place/delhi, sources: [source/wikipedia-shah-ismail-dehlvi-en] }
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-shah-ismail-dehlvi-en, source/wikipedia-shah-ismail-dehlvi-ar, source/wikipedia-shah-ismail-dehlvi-ur, source/wikidata-shah-ismail-dehlvi] }
 faith:
   - value: sunni-hanafi
     basis: documented

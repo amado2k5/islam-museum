@@ -30,6 +30,8 @@ story_roles:
 - role: ruler
   status: tradition
   sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: ruled_over, target: place/yemen, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

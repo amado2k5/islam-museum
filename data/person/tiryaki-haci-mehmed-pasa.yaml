@@ -13,6 +13,9 @@ regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1680", precision: year, status: tradition, derived: true }
 died: { edtf: "1751", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
+  - { type: died_in, target: place/rethymno, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q200908)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q1527905

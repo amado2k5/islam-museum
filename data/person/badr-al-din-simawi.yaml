@@ -25,6 +25,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 relations:
+  - { type: lived_in, target: place/edirne, confidence: low, note: "Associated with أدرنة per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: person/musa-ibn-bayezid, role: "قاضي عسكره", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/muhammad-i-jalabi, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

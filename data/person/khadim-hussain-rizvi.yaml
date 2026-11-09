@@ -12,6 +12,8 @@ summary:
 gender: male
 born: { edtf: "1966-05-22", hijri: "1386", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 22 May 1966 in Pindigheb, West Pakistan, per the English article's lead and infobox, citing The Express Tribune of 19 November 2020 for the date; the Hijri year 1386 is derived from the Gregorian date. Lower-authority copies elsewhere give 22 June 1966; the article's cited date is followed here.", sources: [source/wikipedia-khadim-hussain-rizvi-en] }
 died: { edtf: "2020-11-19", hijri: "1442", calendar: gregorian, precision: day, status: historical, derived: true, note: "Died 19 November 2020 in Lahore, Punjab, Pakistan, per the English article's lead, infobox and Death section, citing SAMAA TV of 19 November 2020 and Dawn; the Hijri year 1442 is derived from the Gregorian date.", sources: [source/wikipedia-khadim-hussain-rizvi-en] }
+relations:
+  - { type: lived_in, target: place/pakistan, confidence: low, note: "Associated with باكستان per the record's own summary text; relation type pending review.", sources: [source/wikipedia-khadim-hussain-rizvi-en] }
 faith:
   - value: unknown
     basis: unknown

@@ -34,6 +34,7 @@ wings: [people]
 regions: [persia-central-asia]
 roles: [scholar, poet, writer, teacher, politician]
 relations:
+  - { type: lived_in, target: place/kazakhstan, note: "From text: Kazakh (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-baitursynuly-en, source/wikipedia-baitursynuly-ru, source/wikipedia-baitursynuly-kk, source/wikipedia-baitursynuly-ar, source/wikidata-baitursynuly], confidence: low }
   - type: allied_with
     target: person/alikhan-bukeikhanov
     note: "In 1913 Baitursynuly, the former First Duma deputy Alikhan Bukeikhanov and the poet Mirjaqip Dulatuli together founded the Kazakh newspaper Qazaq in Orenburg, with Baitursynuly as chief editor, and the three went on to lead the Alash movement together; the relationship is attested in both the English and Russian articles on Baitursynuly. The Baitursynuly–Dulatuli and Bukeikhanov–Dulatuli edges are written once each in Dulatuli's record."

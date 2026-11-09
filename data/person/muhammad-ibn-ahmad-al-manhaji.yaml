@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: born_in, target: place/asyut, sources: [source/wikidata], confidence: low, note: "Born in Asyut, he learned the Qur'an by heart under Sa'd al-Din al-Wajiyy, and studied fiqh with al-Zaki al-Ma" }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance:
   layer: own-research

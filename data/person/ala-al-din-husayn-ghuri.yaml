@@ -19,6 +19,11 @@ died:
   sources:
   - source/tarikh-ibn-khaldun-ibar
 relations:
+- type: lived_in
+  target: place/sur
+  note: "Place association from the person's nisba/name (suri); denotes association, not proven residence."
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: ruler_of
   target: polity/ghurid-dynasty
   sources:

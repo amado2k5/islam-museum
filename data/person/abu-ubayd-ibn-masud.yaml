@@ -19,3 +19,5 @@ provenance:
   run: lib-futuh-buldan-batch-29
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }

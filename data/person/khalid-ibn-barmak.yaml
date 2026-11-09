@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/nawbahar, confidence: low, note: "Associated with النوبهار per the record's own summary text; relation type pending review.", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: member_of, target: group/barmakids, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:

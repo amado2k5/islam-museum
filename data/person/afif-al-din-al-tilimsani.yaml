@@ -16,7 +16,8 @@ regions: [maghreb, egypt-nile]
 faith:
   - value: sufi
     basis: tradition
-relations: []
+relations:
+  - { type: lived_in, target: place/tlemcen, note: "Place association from the person's nisba/name (التلمساني); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
 external_ids: { wikidata: "Q12190298" }
 sources: [source/shadharat-dhahab]
 status:

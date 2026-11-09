@@ -26,6 +26,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "مسلم من موالي أبي بكر؛ يسجَّل في الإطار السني للمتحف." }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad], confidence: low }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/ghar-thawr, role: "الراعي صاحب المنحة ومعفي الأثر", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: participated_in, target: event/hijra, role: "ارتحل معهما؛ كتب كتاب أمن سراقة", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }

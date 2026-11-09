@@ -10,6 +10,9 @@ relations:
   - { type: participated_in, target: event/conquest-of-egypt, role: "في جيش الزبير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/four-lieutenants-egypt, role: "موجّه تنيس ودمياط والبحري", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conversion-of-umayr-ibn-wahb, role: "المسلم" }
+  - { type: ruled_over, target: place/al-fustat, sources: [source/wikidata], confidence: low, note: "ar: 'عمير بن وهب الجمحي؛ كان في جيش الزبير بن العوام المعزّز إلى مصر ووجّهه عمرو بن العاص بعد فتح الفسطاط إلى " }
+  - { type: ruled_over, target: place/dimyat, sources: [source/wikidata], confidence: low, note: "ar: 'عمير بن وهب الجمحي؛ كان في جيش الزبير بن العوام المعزّز إلى مصر ووجّهه عمرو بن العاص بعد فتح الفسطاط إلى " }
+  - { type: ruled_over, target: place/dumyra, sources: [source/wikidata], confidence: low, note: "ar: 'عمير بن وهب الجمحي؛ كان في جيش الزبير بن العوام المعزّز إلى مصر ووجّهه عمرو بن العاص بعد فتح الفسطاط إلى " }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 299، 304"

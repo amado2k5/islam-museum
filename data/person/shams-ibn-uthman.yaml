@@ -14,6 +14,8 @@ periods: [period/umayyad]
 sources: [source/al-aalam]
 relations:
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam] }
+  - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+  - { type: died_in, target: place/uhud, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1436040)" }
 external_ids:
   wikidata: Q7487697
 provenance:

@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 themes: [sects-and-schools]
+relations:
+  - { type: lived_in, target: place/jazira, sources: [source/duha-islam] }
 sources: [source/duha-islam]
 provenance:
   layer: own-research

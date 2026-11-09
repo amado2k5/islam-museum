@@ -20,6 +20,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/nisa-hawl-alrasul, source/muruj-al-dhahab, source/assabile-omar-abdelkafy, source/alam-al-nisa-kahhala-risala-1984-v1], confidence: low }
   - { type: participated_in, target: event/battle-of-al-qadisiyya, role: "أم الشهداء الأربعة؛ ودّعت أبناءها إلى المعركة فاستشهدوا جميعاً (نساء حول الرسول ص288-289)", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/sahaba, sources: [source/nisa-hawl-alrasul] }
 sources: [source/nisa-hawl-alrasul, source/muruj-al-dhahab, source/assabile-omar-abdelkafy, source/alam-al-nisa-kahhala-risala-1984-v1]

@@ -36,6 +36,7 @@ faith:
     note: "No text in either article names a school or madhhab for the man, and neither infobox carries a religion field. FLAGGED for the founder: no school reading exists anywhere. The only religion datum is Wikidata's single religion value, Islam (Q432) in general — one structured-data family (the Erekat configuration). His conduct of the state during the civil war against armed Islamist groups is state politics, not a personal attestation."
     sources: [source/wikipedia-liamine-zeroual-en, source/wikipedia-liamine-zeroual-ar, source/wikidata-liamine-zeroual]
 relations:
+  - { type: born_in, target: place/batna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-liamine-zeroual] }
   - { type: died_in, target: place/algiers, sources: [source/wikipedia-liamine-zeroual-en, source/wikipedia-liamine-zeroual-ar, source/wikidata-liamine-zeroual] }
 wings: [people]
 regions: [maghreb]

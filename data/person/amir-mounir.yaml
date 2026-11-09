@@ -21,6 +21,7 @@ born:
   note: "Born in Cairo on 22 August 1993, as the Alafdel biography gives it; that biography is the single source for the date, and the Hijri year (1414) is a converter derivation from it."
   sources: [source/alafdel-amir-mounir-bio]
 relations:
+  - { type: born_in, target: place/cairo, note: "From text: born in Cairo", sources: [source/alafdel-amir-mounir-bio] }
   - { type: born_in, target: place/cairo, sources: [source/alafdel-amir-mounir-bio] }
 faith:
   - value: unknown

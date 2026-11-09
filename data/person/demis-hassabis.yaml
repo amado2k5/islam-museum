@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born at London on 27 July 1976 — the date in the English, Arabic, Persian and Urdu articles and Wikidata's value (P19 London). The Hijri year (1396) is derived by tabular conversion. No born_in relation is written: London has no museum place entity."
   sources: [source/wikipedia-hassabis-en, source/wikipedia-hassabis-ar, source/wikipedia-hassabis-fa, source/wikipedia-hassabis-ur, source/wikidata-hassabis]
+relations:
+  - { type: born_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

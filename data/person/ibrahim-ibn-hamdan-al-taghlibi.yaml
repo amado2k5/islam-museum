@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
+relations:
+  - { type: born_in, target: place/upper-mesopotamia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/diyar-rabi-a, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q28713373

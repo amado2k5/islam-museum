@@ -32,3 +32,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/damascus, note: "Hanbali jurist, author of the Mukhtasar; the Kharaqi nisba ties to Kharaq of the Damascus district. Inferred.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

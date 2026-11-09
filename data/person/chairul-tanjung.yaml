@@ -22,6 +22,7 @@ born:
   note: "The English and Indonesian articles and Wikidata agree on 18 June 1962, born at Jakarta. Indonesian profile sites widely give 16 June 1962, a reading copied from an older infobox version and one source family; it is not followed. The date falls within the Hijri year 1382, which is given as the tabular conversion, marked derived."
   sources: [source/wikipedia-chairul-tanjung-en, source/wikipedia-chairul-tanjung-id, source/wikidata-chairul-tanjung]
 relations:
+  - { type: born_in, target: place/jakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chairul-tanjung] }
   - { type: born_in, target: place/jakarta, sources: [source/wikipedia-chairul-tanjung-en, source/wikipedia-chairul-tanjung-id, source/wikidata-chairul-tanjung] }
 faith:
   - value: unknown

@@ -37,6 +37,8 @@ relations:
   - { type: successor_of, target: person/sabah-al-ahmad-al-jaber-al-sabah, sources: [source/wikipedia-nawaf-al-ahmad-al-jaber-al-sabah-en] }
   - { type: member_of, target: group/al-sabah, sources: [source/wikipedia-nawaf-al-ahmad-al-jaber-al-sabah-en, source/wikidata-nawaf-al-ahmad-al-jaber-al-sabah] }
   - { type: sibling_of, target: person/sabah-al-ahmad-al-jaber-al-sabah, sources: [source/wikipedia-nawaf-al-ahmad-al-jaber-al-sabah-en] }
+  - { type: born_in, target: place/kuwait-city, sources: [source/wikidata-nawaf-al-ahmad-al-jaber-al-sabah], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35178)" }
+  - { type: buried_in, target: place/sulaibikhat-cemetery, sources: [source/wikidata-nawaf-al-ahmad-al-jaber-al-sabah], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q12244629)" }
 wings: [people]
 regions: [arabia]
 external_ids: { wikidata: "Q641805" }

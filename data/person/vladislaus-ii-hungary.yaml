@@ -13,6 +13,8 @@ regions: [andalus-europe]
 periods: [period/gunpowder-empires]
 relations:
   - { type: opposed, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
+
+  - { type: lived_in, target: place/mohacs, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q160819

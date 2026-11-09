@@ -34,6 +34,7 @@ died:
   note: "The English and French articles and Wikidata agree on 26 July 1975, in London, where he was being treated; he was buried at Medina Baye near Kaolack. The Arabic article gives 15 Rajab 1395 AH, which converts to 24 July 1975 — two days earlier; the record follows the three agreeing sources. The Hijri year 1395 is common to both traditions. No place entity exists for London in the museum, so no died_in edge is written."
   sources: [source/wikipedia-ibrahim-niass-en, source/wikipedia-ibrahim-niass-fr, source/wikipedia-ibrahim-niass-ar, source/wikidata-ibrahim-niass]
 relations:
+  - { type: died_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-niass] }
   - { type: student_of, target: person/ahmed-skirej, sources: [source/wikipedia-ibrahim-niass-en, source/wikipedia-ibrahim-niass-ar] }
 faith:
   - value: sufi

@@ -9,6 +9,7 @@ periods: [period/umayyad]
 relations:
   - { type: participated_in, target: event/conquest-of-kamkh, role: "صعد السور وحده ففُتح له", sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/banu-sulaym, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: traveled_to, target: place/hisn-kamkh, sources: [source/wikidata], confidence: low, note: "ar: 'عمير بن الحباب السلمي؛ عند البلاذري: غزا حصن كمخ مع صفوان بن المعطل في سنة 59 فعلا سوره ولم يزل يجالد علي" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 260"

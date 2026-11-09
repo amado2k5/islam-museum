@@ -1,0 +1,16 @@
+id: place/kuching
+class: place
+kind: city
+label: { en: "Kuching", ar: "كوتشينغ" }
+summary:
+  en: "Capital of Sarawak, Malaysia."
+  ar: "مدينة في ماليزيا."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [1.5575, 110.3439]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q220445", geonames: "1735634" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q220445 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

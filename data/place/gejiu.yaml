@@ -1,0 +1,21 @@
+id: place/gejiu
+class: place
+kind: city
+label: { ar: "غيجيو", en: "Gejiu", ur: "گیجیو" }
+summary:
+  ar: "مدينة في الصين."
+  en: "City in People's Republic of China."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [23.36293, 103.1545]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1016730" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1016730 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,36 @@
+id: place/kolkata
+class: place
+kind: city
+label:
+  ar: كلكتا
+  en: Kolkata
+  ur: کولکاتا
+summary:
+  ar: مدينة في الهند.
+  en: Capital city of West Bengal, India.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 22.5675
+- 88.37
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q1348
+  geonames: '1275004'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1348 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1348 (labels, coordinates, description)

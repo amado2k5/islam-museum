@@ -27,6 +27,7 @@ born:
   sources: [source/wikipedia-superbon-singha-mawynn-en, source/wikidata-superbon-singha-mawynn]
 relations:
   - { type: student_of, target: person/buakaw-banchamek, sources: [source/wikipedia-superbon-singha-mawynn-en, source/wikipedia-buakaw-banchamek-en] }
+  - { type: born_in, target: place/thailand, sources: [source/wikidata-superbon-singha-mawynn], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q869)" }
 faith:
   - value: unknown
     basis: unknown

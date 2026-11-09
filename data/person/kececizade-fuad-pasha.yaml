@@ -32,6 +32,7 @@ died:
   note: "The English article gives 12 February 1869 at Nice, in both infobox and text (the text sentence itself carries a citation-needed tag). Wikidata gives 13 February 1869 at Nice, one day later. The Turkish article gives the death year as 1868 in both its lead and its infobox, against the English and Arabic articles and Wikidata, which all give 1869; the record follows 1869 and the English article's day, and states both disagreements here. The Hijri year 1285 is the tabular conversion of 12 February 1869. No died_in edge is written: the museum has no place entity for Nice (place/nicea is Nicaea, a different city)."
   sources: [source/wikipedia-kececizade-fuad-pasha-en, source/wikipedia-kececizade-fuad-pasha-tr, source/wikipedia-kececizade-fuad-pasha-ar, source/wikidata-kececizade-fuad-pasha]
 relations:
+  - { type: died_in, target: place/nice, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kececizade-fuad-pasha] }
   - { type: born_in, target: place/istanbul, note: "He was born in Constantinople in 1814 (English, Turkish and Arabic articles; Wikidata birthplace Istanbul, Q406).", sources: [source/wikipedia-kececizade-fuad-pasha-en, source/wikipedia-kececizade-fuad-pasha-tr, source/wikidata-kececizade-fuad-pasha] }
 faith:
   - value: unknown

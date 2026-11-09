@@ -23,6 +23,10 @@ born:
   sources: [source/wikipedia-mohammed-bin-abdulrahman-al-thani-en, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ur, source/wikidata-mohammed-bin-abdulrahman-al-thani]
 relations:
   - { type: member_of, target: group/al-thani, sources: [source/wikipedia-mohammed-bin-abdulrahman-al-thani-en, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar] }
+
+  - { type: born_in, target: place/doha, note: "Born in Doha, 1 November 1980 (official biography via USQBC and Qatari profiles).", sources: [source/wikipedia-mohammed-bin-abdulrahman-al-thani-en, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ur, source/wikidata-mohammed-bin-abdulrahman-al-thani] }
+
+  - { type: ruler_of, target: place/qatar, note: "Prime Minister of Qatar since March 2023; Foreign Minister since 2016.", sources: [source/wikipedia-mohammed-bin-abdulrahman-al-thani-en, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ur, source/wikidata-mohammed-bin-abdulrahman-al-thani] }
 faith:
   - value: unknown
     basis: unknown

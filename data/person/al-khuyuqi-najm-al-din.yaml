@@ -16,6 +16,8 @@ died:
   derived: true
   note: "استشهد بخوارزم في فتنة التتار سنة 618هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 80}."
 relations:
+  - { type: lived_in, target: place/khwarizm, note: "From text: shaykh of Khwarazm", sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/khwarizm, note: "From text: was martyred at Khwarazm", sources: [source/shadharat-dhahab] }
   - { type: lived_in, target: place/buhayrat-khwarazm, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/buhayrat-khwarazm, sources: [source/shadharat-dhahab] }
 provenance:

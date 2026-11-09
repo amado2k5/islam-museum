@@ -1,0 +1,37 @@
+id: place/rabat
+class: place
+kind: city
+label:
+  ar: الرباط
+  en: Rabat
+  ur: رباط
+summary:
+  ar: عاصمة المغرب على مصب أبي رقراق؛ مدينة رباطية أسسها الموحدون صارت دار ملك السلاطين العلويين.
+  en: Capital of Morocco on the Bou Regreg estuary; an Almohad ribat town that became the seat of the Alawite sultans.
+  ur: مراکش کا دارالحکومت دریائے بو رکرک کے منہ پر؛ موحدوں کا رباط جو علوی سلاطین کی نشست بنا۔
+wings:
+- place
+regions:
+- maghreb
+coordinates:
+- 34.0209
+- -6.8417
+coordinate_precision: locality
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q3551
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q3551 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry and Wikidata Q3551

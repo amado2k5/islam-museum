@@ -15,6 +15,7 @@ themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: تفقه بالرأي فلما قدم الشافعي بغداد ا", sources: [source/tabaqat-shafiiyya-subki] }
   - { type: student_of, target: person/al-shafii, role: "اختلف إليه لما قدم بغداد ورجع عن الرأي إلى الحديث (الخطيب عند السبكي)", sources: [source/tabaqat-shafiiyya-subki] }
 provenance:
   layer: own-research

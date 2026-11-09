@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: born_in, target: place/taftazan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7675058)" }
+  - { type: died_in, target: place/samarqand, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5753)" }
+  - { type: buried_in, target: place/sarakhs, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2588491)" }
 sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
 external_ids:
   wikidata: Q764947

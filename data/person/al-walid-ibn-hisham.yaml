@@ -7,9 +7,11 @@ summary:
 periods: [period/rashidun]
 wings: [people]
 external_ids: { wikidata: "Q96371657" }
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+relations:
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

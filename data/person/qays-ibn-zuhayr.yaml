@@ -22,3 +22,5 @@ story_roles:
 sources: [source/nihayat-al-arab-nuwayri-vol3-scan]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 3 proverbs, scan p. 24, from OCR; not image-checked)" }
 provenance: { layer: pd, source: "archive.org nefa03 (Nihayat al-Arab vol. 3), scan p. 24", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-vol3-pp22-24" }
+relations:
+  - { type: lived_in, target: place/oman, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/nihayat-al-arab-nuwayri-vol3-scan] }

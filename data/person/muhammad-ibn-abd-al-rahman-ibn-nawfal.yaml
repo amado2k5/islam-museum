@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q79)" }
 sources: [source/al-aalam, source/tahdhib-al-kamal-mizzi]
 external_ids:
   wikidata: Q106937551

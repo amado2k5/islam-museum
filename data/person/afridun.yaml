@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch34
+relations:
+  - { type: traveled_to, target: place/damavand, note: "Per the al-Masudi account he took and bound al-Dahhak at Mount Damavand; legendary figure, flagged for review.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

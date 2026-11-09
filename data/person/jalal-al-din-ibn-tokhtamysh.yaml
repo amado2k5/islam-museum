@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: born_in, target: place/golden-horde, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q912011

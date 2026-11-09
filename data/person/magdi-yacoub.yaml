@@ -22,6 +22,7 @@ born:
   note: "Born 16 November 1935 in Bilbeis, Sharqia, attested identically by the English and Arabic articles and by Wikidata. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; November 1935 falls inside 1354 AH."
   sources: [source/wikipedia-magdi-yacoub-en, source/wikipedia-magdi-yacoub-ar, source/wikidata-magdi-yacoub]
 relations:
+  - { type: born_in, target: place/bilbays, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-magdi-yacoub] }
   - { type: born_in, target: place/bilbays, sources: [source/wikipedia-magdi-yacoub-en, source/wikipedia-magdi-yacoub-ar] }
 faith:
   - value: christian

@@ -17,6 +17,8 @@ died:
   status: tradition
   note: "وفيها (سنة 628) توفي {cite:kamil-ibn-al-athir p. 439}."
   sources: [source/kamil-ibn-al-athir]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

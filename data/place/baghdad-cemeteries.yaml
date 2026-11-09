@@ -1,0 +1,18 @@
+id: place/baghdad-cemeteries
+class: place
+kind: site
+label: { ar: "مقابر بغداد", en: "Baghdad cemeteries" }
+summary:
+  ar: "موقع في العراق."
+  en: "Site in Iraq."
+wings: [place]
+regions: [global]
+external_ids: { wikidata: "Q67648328" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q67648328 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

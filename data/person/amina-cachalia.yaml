@@ -67,3 +67,7 @@ status:
   review: published
   completeness: 3
   generated_by: Muse (Muse Spark 1.3)
+relations:
+  - { type: born_in, target: place/vereeniging, note: "Wikidata Q503056 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/johannesburg, note: "Wikidata Q34647 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/south-africa, note: "Wikidata Q258 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

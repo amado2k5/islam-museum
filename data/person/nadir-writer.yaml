@@ -12,6 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/ottoman-empire, confidence: low, note: "Ottoman-era writer (al-A'lam; regions: anatolia-balkans); no specific city attested.", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q135458546
 provenance:

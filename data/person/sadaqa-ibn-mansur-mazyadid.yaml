@@ -23,6 +23,9 @@ relations:
   target: person/muhammad-tapar
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- { type: ruler_of, target: place/basra, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'صدقة بن منصور بن دبيس بن علي بن مزيد الأسدي، أمير بني مزيد وباني الحلة بالعراق؛ كان من أعظم أنصار السلطان" }
+- { type: ruler_of, target: place/hilla, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'صدقة بن منصور بن دبيس بن علي بن مزيد الأسدي، أمير بني مزيد وباني الحلة بالعراق؛ كان من أعظم أنصار السلطان" }
+- { type: ruler_of, target: place/iraq, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'صدقة بن منصور بن دبيس بن علي بن مزيد الأسدي، أمير بني مزيد وباني الحلة بالعراق؛ كان من أعظم أنصار السلطان" }
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]

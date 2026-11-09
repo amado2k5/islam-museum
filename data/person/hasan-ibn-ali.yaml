@@ -31,6 +31,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). He is also the second Imam of Twelver Shia; see perspectives." }
 relations:
+  - { type: buried_in, target: place/al-baqi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/medina }
   - { type: died_in, target: place/medina }
   - { type: buried_in, target: place/medina }

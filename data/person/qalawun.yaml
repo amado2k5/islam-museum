@@ -18,3 +18,5 @@ sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434, source/
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the Mansuri hospital, dome and madrasa and the works' overseer are read from al-Maqrizi's Khitat (local scan, pp. 1061, 1062, 1249); the Suyuti sentences keep their citation" }
 relations:
   - { type: built, target: building/qalawun-complex, sources: [source/yeomans-islamic-cairo-2006] }
+
+  - { type: ruler_of, target: place/al-karak, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "ar: 'أتابك الملك العادل بدر الدين سلامش وله سبع سنين لما خلع أخوه الملك السعيد وسير إلى الكرك، ثم نزع سلامش من" }

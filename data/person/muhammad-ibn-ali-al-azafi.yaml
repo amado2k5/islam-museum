@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [maghreb, andalus-europe]
 relations:
+- { type: ruler_of, target: place/ceuta, sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: participated_in
   target: event/battle-of-the-strait-740
   note: قائد أساطيل المسلمين في واقعة الزقاق.

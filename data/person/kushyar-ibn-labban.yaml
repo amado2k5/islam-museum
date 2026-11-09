@@ -17,6 +17,9 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/gilan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

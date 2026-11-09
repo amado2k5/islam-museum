@@ -23,6 +23,7 @@ born:
   note: "Gregorian date and Cairo birthplace from the English and Arabic Wikipedia articles and Wikidata, all in agreement; the Arabic article's category filings place the birth in the Hijri year 1369, agreeing with the derived Hijri year."
   sources: [source/wikipedia-ahdaf-soueif-en, source/wikipedia-ahdaf-soueif-ar, source/wikidata-ahdaf-soueif]
 relations:
+  - { type: born_in, target: place/cairo, note: "From text: born in Cairo", sources: [source/wikipedia-ahdaf-soueif-en, source/wikipedia-ahdaf-soueif-ar, source/wikidata-ahdaf-soueif] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-ahdaf-soueif-en, source/wikidata-ahdaf-soueif] }
 faith:
   - value: unknown

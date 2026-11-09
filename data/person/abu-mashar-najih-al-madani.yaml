@@ -27,3 +27,7 @@ provenance:
   generated_by: "Claude Code (claude-haiku-5-5)"
   run: ei2-b003-part3r
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: عاش بالمدينة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/baghdad, note: "From text: died in Baghdad", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/medina, note: "From text: lived in Medina", sources: [source/encyclopaedia-of-islam-2] }

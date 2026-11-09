@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/contemporary-era]
+relations:
+  - { type: born_in, target: place/douma, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q403446)" }
+  - { type: lived_in, target: place/lebanon, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q822)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q121752733

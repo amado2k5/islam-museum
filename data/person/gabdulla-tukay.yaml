@@ -35,6 +35,9 @@ tags: [volga-tatars, tatar-literature]
 roles: [poet, writer]
 wings: [people]
 regions: [anatolia-balkans]
+relations:
+  - { type: born_in, target: place/kazan, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-gabdulla-tukay-en, source/wikipedia-gabdulla-tukay-ru, source/wikidata-gabdulla-tukay] }
+  - { type: died_in, target: place/kazan, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-gabdulla-tukay-en, source/wikipedia-gabdulla-tukay-ru, source/wikidata-gabdulla-tukay] }
 faith:
   - value: unknown
     basis: unknown

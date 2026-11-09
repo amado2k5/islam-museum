@@ -1,0 +1,21 @@
+id: place/vize
+class: place
+kind: region
+label: { ar: "ويزة", en: "Vize", ur: "ویزے" }
+summary:
+  ar: "إقليم في تركيا."
+  en: "Region in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.573611111111, 27.765277777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q364021" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q364021 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

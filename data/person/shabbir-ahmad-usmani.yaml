@@ -12,6 +12,8 @@ wings: [people]
 regions: [south-asia]
 periods: [period/modern-era]
 died: { edtf: "1949", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/bahawalpur, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q318156)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q7460067

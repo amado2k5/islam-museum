@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born at Bamako, Mali. The French Wikipedia article and Wikidata give the year 1967; the English article's lead gives 1968. The record follows 1967 (also the queue's year) and states the conflict; his age of 13 at his father's death in 1981 fits either year. The tabular Hijri conversion is derived: 1967 spans 1386–1387 AH, and 1387 covers the greater part of it. Bamako has no place entity in the museum, so no born_in relation is written."
   sources: [source/wikipedia-ballake-sissoko-fr, source/wikidata-ballake-sissoko, source/wikipedia-ballake-sissoko-en]
+relations:
+  - { type: born_in, target: place/bamako, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ballake-sissoko] }
 faith:
   - value: unknown
     basis: unknown

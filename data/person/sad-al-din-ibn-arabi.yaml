@@ -15,6 +15,7 @@ born: { edtf: "1221-09~", hijri: "0618-09~", calendar: julian, precision: month,
 died: { edtf: "1258~", hijri: "0656~", calendar: julian, precision: year, status: tradition, note: "سنة 656هـ بدمشق سنة سقوط بغداد {cite:nafh-tib-maqqari p. 172}", sources: [source/nafh-tib-maqqari] }
 relations:
   - { type: child_of, target: person/ibn-arabi-muhyi-al-din, sources: [source/nafh-tib-maqqari] }
+  - { type: died_in, target: place/damascus, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

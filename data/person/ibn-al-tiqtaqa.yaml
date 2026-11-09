@@ -17,6 +17,8 @@ periods: [period/mongol-post-mongol]
 external_ids:
   wikidata: Q1959585
 relations:
+  - { type: born_in, target: place/mosul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/mosul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/taj-al-din-ali-ibn-muhammad-naqib, sources: [source/encyclopaedia-of-islam-2] }
   - { type: lived_in, target: place/mosul, sources: [source/encyclopaedia-of-islam-2, source/al-aalam] }
   - { type: traveled_to, target: place/tabriz, sources: [source/encyclopaedia-of-islam-2] }

@@ -17,3 +17,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 734, entry 'ASAD ALLAH ISFAHANI' (signed R. M. Savory; the story is reported by the entry from European accounts and cites A. K. S. Lambton, Islamic Society in Persia, 1954) (EI2 entry, batch ei2-b013 part 26, seq 361)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/isfahan, note: "Place association from the person's nisba/name (الأصفهاني); denotes association, not proven residence.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

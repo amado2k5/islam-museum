@@ -11,6 +11,10 @@ summary:
 wings: [people]
 died: { hijri: "0119", edtf: "0737~", calendar: julian, precision: year, status: debated, derived: true, note: "الشيرازي: مات سنة تسع عشرة ومائة، وقيل سنة عشرين ومائة (PDF ص44). «وقيل» علامة شك.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
+  - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: student_of, target: person/ibrahim-al-nakhai, role: "تفقه به (PDF ص44)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 external_ids: { wikidata: "Q12208657" }
 sources: [source/tabaqat-fuqaha-abbas-1981]

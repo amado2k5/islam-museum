@@ -13,6 +13,9 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch30
 external_ids: { wikidata: "Q7689344" }
+relations:
+  - { type: born_in, target: place/yemen, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q805)" }
+  - { type: died_in, target: place/muzdalifa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1788735)" }
 sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715]
 status:
   review: published

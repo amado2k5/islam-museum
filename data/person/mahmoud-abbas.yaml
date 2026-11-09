@@ -27,6 +27,13 @@ faith:
     note: "No text in any of the three articles names a school or affiliation for the man, and no infobox in any edition carries a religion field for him. FLAGGED for the founder: the only Sunni attestation anywhere is a single structured value — the Wikidata item's religion value (P140) is Sunni Islam (Q483654) — which by itself is one source family and cannot meet the two-independent-source bar. His Fatah and PLO leadership are political offices, which never attest personal affiliation. The reading is preserved here for the founder's ruling."
     sources: [source/wikipedia-mahmoud-abbas-en, source/wikipedia-mahmoud-abbas-ar, source/wikipedia-mahmoud-abbas-ur, source/wikidata-mahmoud-abbas]
 relations:
+  - { type: born_in, target: place/safad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-abbas] }
+  - { type: lived_in, target: place/safad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-abbas] }
+  - { type: lived_in, target: place/syria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-abbas] }
+  - { type: lived_in, target: place/qatar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-abbas] }
+  - { type: lived_in, target: place/jordan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-abbas] }
+  - { type: lived_in, target: place/lebanon, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-abbas] }
+  - { type: lived_in, target: place/tunisia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-abbas] }
   - { type: successor_of, target: person/yasser-arafat, sources: [source/wikipedia-mahmoud-abbas-en, source/wikipedia-yasser-arafat-en] }
 wings: [people, living]
 regions: [levant-iraq]

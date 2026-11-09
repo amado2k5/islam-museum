@@ -32,6 +32,8 @@ died:
   derived: true
   note: "Killed on 18 July 1867 at the battle of Fandane-Thiouthioune, commonly called the battle of Somb: the English article dates the battle to 18 July 1867, the French article gives the same date (its infobox names Somb as the place of death), and Wikidata carries 18 July 1867 as one of its two death values. Both articles say he was interred in the village of Fandène (Mbel Fandane), where his tomb has become a place of pilgrimage. Somb and Fandène have no place entities in the museum yet, so no died_in or buried_in relation is written. The Hijri year is derived by tabular conversion (18 July 1867 falls in Rabi' al-Awwal 1284)."
   sources: [source/wikipedia-maba-diakhou-ba-en, source/wikipedia-maba-diakhou-ba-fr, source/wikidata-maba-diakhou-ba]
+relations:
+  - { type: born_in, target: place/nioro-du-rip-department, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-maba-diakhou-ba] }
 faith:
   - value: sufi
     basis: documented

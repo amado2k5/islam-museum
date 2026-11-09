@@ -13,6 +13,7 @@ periods: [period/abbasid-early]
 regions: [arabia]
 themes: [sects-and-schools]
 relations:
+  - { type: lived_in, target: place/oman, note: "From text: imam of Oman", sources: [source/duha-islam] }
   - { type: participated_in, target: event/ibadi-revolt-oman-134, role: "إمام الثورة الإباضية", sources: [source/duha-islam] }
   - { type: member_of, target: group/ibadiyya, sources: [source/duha-islam] }
 sources: [source/duha-islam]

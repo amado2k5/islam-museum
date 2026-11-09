@@ -11,7 +11,10 @@ periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
 relations:
   - { type: part_of, target: place/arran, sources: [source/futuh-buldan-maarif-1407] }
-sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut]
+coordinates: [40.37, 47.13]
+coordinate_precision: approx
+coordinate_note: "Approximate identified/modern location; flagged for gazetteer verification."
+sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut, source/geonames-gazetteer]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 provenance:
   layer: own-research

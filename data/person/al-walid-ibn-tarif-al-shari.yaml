@@ -13,6 +13,7 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 themes: [sects-and-schools]
 relations:
+  - { type: lived_in, target: place/jazira, note: "From text: of the Jazira", sources: [source/duha-islam], confidence: low }
   - { type: participated_in, target: event/walid-ibn-tarif-revolt-178, sources: [source/duha-islam] }
 sources: [source/duha-islam]
 provenance:

@@ -38,8 +38,9 @@ died:
   sources: [source/wikipedia-muhammad-shah-mughal-en, source/wikipedia-muhammad-shah-mughal-ar, source/wikipedia-muhammad-shah-mughal-ur, source/wikidata-muhammad-shah-mughal]
 
 relations:
-  - { type: died_in, target: place/delhi, sources: [source/wikipedia-muhammad-shah-mughal-en, source/wikidata-muhammad-shah-mughal] }
 
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-muhammad-shah-mughal-en, source/wikidata-muhammad-shah-mughal] }
+  - { type: born_in, target: place/fatehpur-sikri, sources: [source/wikipedia-muhammad-shah-mughal-en, source/wikipedia-muhammad-shah-mughal-ar, source/wikipedia-muhammad-shah-mughal-ur, source/wikidata-muhammad-shah-mughal] }
 faith:
   - value: unknown
     basis: unknown

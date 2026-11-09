@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/al-hadath, confidence: low, note: "Associated with الحدث per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/michael-incursion-161, role: "أمير مرعش يوم الغارة", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

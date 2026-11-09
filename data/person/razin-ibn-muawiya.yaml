@@ -27,6 +27,8 @@ provenance:
   run: prose-fill-persons-batch102
 relations:
   - { type: authored, target: work/tajrid-al-sihah, sources: [source/jami-al-usul-arnaut-2016] }
+
+  - { type: lived_in, target: place/sarqusta, confidence: low, note: "Association inferred from the nisba 'السرقسطي'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab, source/jami-al-usul-arnaut-2016] }
 sources: [source/shadharat-dhahab, source/jami-al-usul-arnaut-2016]
 status:
   review: published

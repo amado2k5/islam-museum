@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
 relations:
+  - { type: ruler_of, target: place/tunis, note: "From text: sultan of Tunis", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruler_of, target: place/tunis, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruled_over, target: polity/hafsid-dynasty, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: sibling_of, target: person/al-rashid-ibn-muhammad-hafsi, sources: [source/dawlat-uthmaniyya-salabi] }

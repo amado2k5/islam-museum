@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: died_in, target: place/mal, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q9347)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q25683725

@@ -20,6 +20,8 @@ born:
   derived: true
   note: "The English and Indonesian articles and Wikidata agree on 16 January 1988, born at Padang, West Sumatra. The date falls within the Hijri year 1408, which is given as the tabular conversion, marked derived."
   sources: [source/wikipedia-ferry-unardi-en, source/wikipedia-ferry-unardi-id, source/wikidata-ferry-unardi]
+relations:
+  - { type: lived_in, target: place/rayy, confidence: low, note: "Associated with الري per the record's own text; relation type pending review.", sources: [source/wikipedia-ferry-unardi-en] }
 faith:
   - value: unknown
     basis: unknown

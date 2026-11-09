@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia, arabia]
 died: { edtf: "1412~", hijri: "0815", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بتعز سنة 815 {cite:shadharat-dhahab p. 129}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/yemen, confidence: low, note: "Associated with اليمن per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 815)، قراءة آبل فيجن"

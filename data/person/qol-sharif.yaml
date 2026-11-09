@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1552", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/kazan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q900)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2706487

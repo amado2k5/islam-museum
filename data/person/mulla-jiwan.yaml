@@ -13,6 +13,8 @@ regions: [south-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1637", precision: year, status: tradition, derived: true }
 died: { edtf: "1718", precision: year, status: tradition, derived: true }
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1353)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q20424892

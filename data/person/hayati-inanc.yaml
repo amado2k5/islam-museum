@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born on 10 February 1961 in Gürsu village, Çameli district, Denizli, per the KÜRE Encyclopedia entry; shorter biographies agree on February 1961 and Çameli. The Hijri year 1380 is a tabular conversion of the Gregorian date, marked derived. No place record for Çameli or Denizli exists in the museum, so no born_in edge is written."
   sources: [source/kure-hayati-inanc, source/kitapsec-hayati-inanc]
+relations:
+  - { type: born_in, target: place/denizli, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/kure-hayati-inanc, source/kitapsec-hayati-inanc] }
 faith:
   - value: unknown
     basis: unknown

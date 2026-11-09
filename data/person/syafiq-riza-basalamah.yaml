@@ -21,6 +21,7 @@ born:
   sources: [source/wikipedia-syafiq-riza-basalamah-en, source/wikipedia-syafiq-riza-basalamah-id]
 relations:
   - { type: lived_in, target: place/medina, sources: [source/wikipedia-syafiq-riza-basalamah-en, source/wikipedia-syafiq-riza-basalamah-id] }
+  - { type: born_in, target: place/java, sources: [source/wikipedia-syafiq-riza-basalamah-en, source/wikipedia-syafiq-riza-basalamah-id] }
 faith:
   - value: unknown
     basis: unknown

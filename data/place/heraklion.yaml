@@ -1,0 +1,16 @@
+id: place/heraklion
+class: place
+kind: city
+label: { en: "Heraklion", ar: "كاندية" }
+summary:
+  en: "City in the island of Crete, Greece."
+  ar: "مدينة في اليونان."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [35.3403, 25.1344]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q160544", geonames: "261745" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q160544 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

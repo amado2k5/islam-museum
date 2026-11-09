@@ -12,6 +12,10 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1635", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/kashan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q240475)" }
+  - { type: born_in, target: place/mashhad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q121157)" }
+  - { type: died_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q42053)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q380726

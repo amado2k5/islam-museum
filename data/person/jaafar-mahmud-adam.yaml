@@ -32,6 +32,7 @@ died:
   note: "The English and Arabic articles and Wikidata all give his assassination in Kano on 13 April 2007, shot during the dawn (Subh) prayer in his mosque; the Arabic article's categories file him under deaths of 1428 AH, and the date falls in Rabi' al-awwal 1428 AH."
   sources: [source/wikipedia-jaafar-mahmud-adam-en, source/wikipedia-jaafar-mahmud-adam-ar, source/wikidata-jaafar-mahmud-adam]
 relations:
+  - { type: died_in, target: place/kano, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jaafar-mahmud-adam] }
   - { type: died_in, target: place/kano, sources: [source/wikipedia-jaafar-mahmud-adam-en, source/wikipedia-jaafar-mahmud-adam-ar] }
 faith:
   - value: unknown

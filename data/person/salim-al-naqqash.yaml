@@ -24,6 +24,8 @@ died:
   sources: [source/wikipedia-salim-al-naqqash-ar, source/wikidata-salim-al-naqqash]
 relations:
   - { type: died_in, target: place/alexandria, sources: [source/wikipedia-salim-al-naqqash-ar] }
+  - { type: born_in, target: place/bayrut, sources: [source/wikipedia-salim-al-naqqash-ar, source/wikidata-salim-al-naqqash] }
+  - { type: lived_in, target: place/alexandria, sources: [source/wikipedia-salim-al-naqqash-ar, source/wikidata-salim-al-naqqash] }
 faith:
   - value: unknown
     basis: unknown

@@ -34,5 +34,9 @@ provenance:
   explorer_localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fifth-40-stories-2026-11-04","source":"Missing English/Urdu labels and concise summaries restated from this existing Arabic museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
 external_ids: { wikidata: "Q337506" }
+relations:
+  - { type: born_in, target: place/sinjar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q955690)" }
+  - { type: died_in, target: place/merv, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q193325)" }
+  - { type: buried_in, target: building/sultan-sanjar-mausoleum, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4273784)" }
 sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

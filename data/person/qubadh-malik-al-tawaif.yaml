@@ -13,6 +13,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch39
+relations:
+  - { type: ruler_of, target: place/hijaz, sources: [source/muruj-al-dhahab], confidence: low, note: "ar: 'ملك من ملوك الطوائف لقيه تبع أبو كرب بأرض العراق فانهزم قباد وأتى تبع على ملكه فملك العراق والشام والحجاز" }
+  - { type: ruler_of, target: place/iraq, sources: [source/muruj-al-dhahab], confidence: low, note: "ar: 'ملك من ملوك الطوائف لقيه تبع أبو كرب بأرض العراق فانهزم قباد وأتى تبع على ملكه فملك العراق والشام والحجاز" }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

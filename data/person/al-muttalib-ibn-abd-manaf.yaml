@@ -10,5 +10,8 @@ relations:
   - { type: child_of, target: person/abd-manaf-ibn-qusayy }
   - { type: sibling_of, target: person/hashim-ibn-abd-manaf }
   - { type: member_of, target: group/banu-hashim }
+  - { type: lived_in, target: place/mecca, note: "Qurashi chief, heir to the siqaya and rifada.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: medium }
+  - { type: traveled_to, target: place/medina, note: "Journeyed to Yathrib to fetch his nephew Shayba.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: medium }
+  - { type: died_in, target: place/radman, note: "Record's own note: died at Radman in Yemen.", sources: [source/mubarakpuri-raheeq], confidence: medium }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 48–53" }

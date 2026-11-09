@@ -44,6 +44,8 @@ died:
   - source/wikipedia-dullah-omar-en
   - source/wikipedia-dullah-omar-fa
   - source/wikidata-dullah-omar
+relations:
+  - { type: lived_in, target: place/south-africa, confidence: low, note: "Associated with جنوب أفريقيا per the record's own text; relation type pending review.", sources: [source/wikidata] }
 faith:
 - value: unknown
   basis: unknown

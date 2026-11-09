@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 relations:
+  - { type: lived_in, target: place/marw, note: "From text: of Marw", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2], confidence: low }
   - { type: child_of, target: person/alp-arslan, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

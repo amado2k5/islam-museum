@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born on 9 October 1983 in Johannesburg, Transvaal Province, South Africa, per the English and Urdu Wikipedia articles and Wikidata. No place entity for Johannesburg exists in data/place/, so no born_in relation is written. The Hijri year (1404) is derived by tabular conversion."
   sources: [source/wikipedia-farhaan-behardien-en, source/wikipedia-farhaan-behardien-ur, source/wikidata-farhaan-behardien]
+relations:
+  - { type: born_in, target: place/johannesburg, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-farhaan-behardien] }
 faith:
   - value: unknown
     basis: unknown

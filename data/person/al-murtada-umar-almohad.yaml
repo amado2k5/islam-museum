@@ -19,3 +19,5 @@ provenance:
   run: lib-wafayat-batch-3
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/wafayat-ayan], confidence: low }

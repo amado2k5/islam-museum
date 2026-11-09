@@ -45,6 +45,7 @@ died:
   sources: [source/wikipedia-ahmadu-tall-en, source/wikipedia-ahmadu-tall-fr, source/wikidata-ahmadu-tall]
 
 relations:
+  - { type: lived_in, target: place/france, note: "Place association from the person's nisba/name (الفرنسي); denotes association, not proven residence.", sources: [source/wikidata-ahmadu-tall, source/wikipedia-ahmadu-tall-ar, source/wikipedia-ahmadu-tall-en, source/wikipedia-ahmadu-tall-fr], confidence: low }
   - type: child_of
     target: person/al-hajj-umar-tal
     note: "Eldest son of al-Hajj Umar Tall, founder of the Toucouleur Empire, whom he succeeded in 1864. The father's museum record exists as person/al-hajj-umar-tal (a Wikidata-import draft skeleton under the name al-Hajj Umar ibn Sa'id al-Futi Tal, Q185938), not under the slug umar-tall the brief expected; the identity is confirmed by the QID and by all three articles."

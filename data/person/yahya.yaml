@@ -11,6 +11,8 @@ periods: [period/pre-islamic-arabia]
 story_roles:
   - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran] }
 sources: [source/tanzil-quran]
+relations:
+  - { type: lived_in, target: place/palestine, confidence: low, note: "John, son of Zechariah, of the Judaean-Jordanian milieu per the Islamic and biblical tradition.", sources: [source/tanzil-quran] }
 external_ids: { wikidata: "Q2422313" }
 provenance:
   layer: own-research

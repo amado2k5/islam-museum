@@ -31,6 +31,10 @@ themes:
 regions:
 - americas-oceania
 - arabia
+relations:
+  - { type: born_in, target: place/omaha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/manhattan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/washington-heights, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources:
 - source/wikidata
 - source/assabile-tareq-al-suwaidan

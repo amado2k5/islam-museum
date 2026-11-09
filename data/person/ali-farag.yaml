@@ -23,6 +23,7 @@ born:
   note: "Born 22 April 1992 in Cairo (the English and Arabic articles and Wikidata agree). The English article gives his full name as Ali Amr Farag; the Arabic article's birth-name field gives علي عمر فرج, the same name with the middle element romanized Omar rather than Amr. The Hijri year 1412 is the tabular conversion of 22 April 1992 and is marked derived."
   sources: [source/wikipedia-ali-farag-en, source/wikipedia-ali-farag-ar, source/wikipedia-ali-farag-ur, source/wikidata-ali-farag]
 relations:
+  - { type: born_in, target: place/cairo, note: "From text: born in Cairo", sources: [source/wikipedia-ali-farag-en, source/wikipedia-ali-farag-ar, source/wikipedia-ali-farag-ur, source/wikidata-ali-farag] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-ali-farag-en, source/wikipedia-ali-farag-ar, source/wikidata-ali-farag] }
 faith:
   - value: unknown

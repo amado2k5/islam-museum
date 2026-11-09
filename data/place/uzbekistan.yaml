@@ -1,0 +1,20 @@
+id: place/uzbekistan
+class: place
+kind: region
+label: { ar: "أوزبكستان", en: "Uzbekistan" }
+summary:
+  ar: "جمهورية في وسط آسيا على أرض ما وراء النهر القديمة."
+  en: "Central Asian republic on the land of old Transoxiana."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [41.5, 64.5]
+coordinate_precision: approx
+coordinate_note: "Identified location / approximate regional centre; flagged for gazetteer verification."
+external_ids: { wikidata: "Q265" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Country/region entity so persons substantiated only at country level resolve on the map."

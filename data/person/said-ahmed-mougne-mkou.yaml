@@ -13,6 +13,8 @@ regions: [east-africa]
 periods: [period/colonial-era]
 born: { edtf: "1793", precision: year, status: tradition, derived: true }
 died: { edtf: "1875", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/moroni, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3901)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q15617112

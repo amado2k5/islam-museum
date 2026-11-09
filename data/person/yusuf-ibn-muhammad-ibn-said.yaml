@@ -12,6 +12,8 @@ wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/saudi-arabia, confidence: low, note: "Contemporary-era Arabian figure (al-A'lam; regions: arabia).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q85876445
 provenance:

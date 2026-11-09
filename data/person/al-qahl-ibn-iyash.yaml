@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch100
+relations:
+  - { type: died_in, target: place/iraq, note: "Killed Yazid ibn al-Muhallab and died of the wound; the encounter was in Iraq.", sources: [source/wafayat-ayan], confidence: low }
 sources: [source/wafayat-ayan]
 status:
   review: published

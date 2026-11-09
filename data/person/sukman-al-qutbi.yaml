@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [anatolia-balkans]
 relations:
+
+- { type: lived_in, target: place/armenia, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tarikh-islam-hasan-ibrahim] }
 - { type: "founder_of", target: "polity/shah-arman-akhlat", note: "أسس دولة أخلاط 493هـ", sources: [source/tarikh-islam-hasan-ibrahim] }
 sources:
 - source/tarikh-islam-hasan-ibrahim

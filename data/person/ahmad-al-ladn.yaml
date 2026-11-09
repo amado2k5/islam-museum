@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q47010786
 provenance:
@@ -23,3 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+relations:
+  - { type: born_in, target: place/kherbet-rouha, note: "Wikidata Q6401334 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/bayrut, note: "Wikidata Q3820 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/kherbet-rouha, note: "Wikidata Q6401334 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/al-imam-al-ouzai-university, note: "Wikidata Q30294743 (P937); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -19,6 +19,9 @@ story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids:
   wikidata: Q2019161
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q87)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

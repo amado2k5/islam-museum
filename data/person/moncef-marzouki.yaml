@@ -27,6 +27,8 @@ faith:
 wings: [people, living]
 regions: [maghreb]
 external_ids: { wikidata: "Q4715" }
+relations:
+  - { type: born_in, target: place/grombalia, sources: [source/wikidata-moncef-marzouki], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1344058)" }
 sources:
   - source/wikipedia-moncef-marzouki-en
   - source/wikipedia-moncef-marzouki-ar

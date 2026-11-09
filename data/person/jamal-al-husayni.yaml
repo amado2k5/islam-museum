@@ -35,6 +35,8 @@ faith:
     note: "No source read names a religious school for Jamal al-Husayni himself, and Wikidata carries no religion value for him at all. His secretaryship of the Supreme Muslim Council — an office created by the Mandate administration — and his leadership of the Palestine Arab Party and the Arab Higher Committee are offices and affiliations, and never count."
     sources: [source/wikipedia-jamal-al-husayni-en, source/wikipedia-jamal-al-husayni-ar, source/wikidata-jamal-al-husayni]
 relations:
+  - { type: died_in, target: place/saudi-arabia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jamal-al-husayni] }
+  - { type: buried_in, target: place/al-oud-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jamal-al-husayni] }
   - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-jamal-al-husayni-en, source/wikipedia-jamal-al-husayni-ar, source/wikidata-jamal-al-husayni] }
 summary:
   ar: "سياسي فلسطيني من القدس (1893–1982)، أمين اللجنة التنفيذية للمؤتمر العربي الفلسطيني وأمين المجلس الإسلامي الأعلى، ومؤسس الحزب العربي الفلسطيني سنة 1935 ورئيسه، ثم رئيس اللجنة العربية العليا؛ قاد الوفد العربي إلى مؤتمر لندن 1939، وكان وزير خارجية حكومة عموم فلسطين سنة 1948، وانتهت مسيرته مستشارًا للملك سعود في السعودية وتوفي في الرياض."

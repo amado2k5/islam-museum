@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born 25 October 1971 in Strasbourg, attested by the English and Arabic articles and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1391 AH."
   sources: [source/wikipedia-elif-shafak-en, source/wikipedia-elif-shafak-ar, source/wikidata-elif-shafak]
+relations:
+  - { type: lived_in, target: place/istanbul, confidence: low, note: "Associated with إسطنبول per the record's own summary text; relation type pending review.", sources: [source/wikipedia-elif-shafak-en] }
 faith:
   - value: unknown
     basis: unknown

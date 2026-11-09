@@ -22,3 +22,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 336, article 'Ak Sunkur' signed H. A. R. Gibb (entry 1; entry 2 'Ak Sunkur al-Ahmadili' is a cross-reference) (EI2 enrichment, batch ei2-b003 part 3cv); Wikidata Q622698 for the identifier"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/aleppo, note: "From text: of Aleppo", sources: [source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2], confidence: low }

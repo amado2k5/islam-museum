@@ -32,6 +32,10 @@ died:
   derived: true
   note: "The English article and Wikidata give his death in Bucharest, Romania, on 27 April 1972, in exile after his 1966 overthrow; the Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-kwame-nkrumah-en, source/wikidata-kwame-nkrumah]
+relations:
+  - { type: died_in, target: place/bucharest, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kwame-nkrumah] }
+  - { type: buried_in, target: place/kwame-nkrumah-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kwame-nkrumah] }
+  - { type: buried_in, target: place/accra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kwame-nkrumah] }
 faith:
   - value: unknown
     basis: unknown

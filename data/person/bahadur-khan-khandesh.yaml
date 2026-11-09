@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: lived_in, target: place/delhi, confidence: low, note: "Sultan of Khandesh; no Khandesh place or polity entity yet; association pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q11907603

@@ -21,3 +21,5 @@ provenance:
 external_ids: { wikidata: "Q141317" }
 sources: [source/umayyad-birth-to-fall-2006, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/khudari-umayyad-state]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/umayyad-birth-to-fall-2006, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/khudari-umayyad-state], confidence: low }

@@ -13,8 +13,9 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 died: { edtf: "1050~", hijri: "0442", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة ٤٤٢ {cite:muntazam-ibn-al-jawzi j.8 p.489-490}" }
 relations:
-  - { type: ruler_of, target: polity/uqaylid-dynasty, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: participated_in, target: event/fatimid-khutba-iraq-401, role: "الذي أقام الدعوة ثم اعتذر", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: ruler_of, target: polity/uqaylid-dynasty, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: ruler_of, target: place/mosul, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٣٥ وترجمة سنة ٤٤٢)، قراءة آبل فيجن، مسح AAlexandrina-224011"

@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 died: { edtf: "0909", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/iraq, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q796)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q3093345

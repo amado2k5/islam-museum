@@ -12,6 +12,9 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
 died: { edtf: "1952", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/d-zce, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q206885)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q4702676

@@ -14,6 +14,8 @@ wings: [people]
 regions: [anatolia-balkans]
 roles: [politician, engineer]
 born: { edtf: "1937-01-20", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in the village of Anyakovo, Aktanyshsky District, Tatar ASSR, son of Shagisharip Shaimukhammetovich (English article; the prize's page and Wikidata give the same day and village).", sources: [source/wikipedia-mintimer-shaimiev-en, source/wikidata-mintimer-shaimiev, source/king-faisal-prize-laureates] }
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/wikipedia-mintimer-shaimiev-en] }
 faith:
   - value: unknown
     basis: unknown

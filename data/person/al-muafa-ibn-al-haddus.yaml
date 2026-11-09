@@ -21,6 +21,8 @@ died:
   derived: true
   note: "توفي بالموصل في شعبان أو في رمضان سنة ثلاثين؛ التحويل مشتق {cite:shadharat-dhahab p. 143}."
 relations:
+  - { type: born_in, target: place/mosul, note: "From text: ولد بالموصل وتفقه بها على ابن مهاجر", sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/mosul, note: "From text: died at Mosul", sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/mosul, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

@@ -27,6 +27,9 @@ died:
 roles: [activist]
 wings: [people]
 regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/nangarhar, sources: [source/edwards-heroes-of-the-age-1996, source/tribal-analysis-center-mad-mullahs, source/encyclopedia-1914-1918-afghanistan] }
+  - { type: lived_in, target: place/afghanistan, sources: [source/edwards-heroes-of-the-age-1996, source/tribal-analysis-center-mad-mullahs, source/encyclopedia-1914-1918-afghanistan] }
 faith:
   - value: sufi
     basis: documented

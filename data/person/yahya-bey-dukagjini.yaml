@@ -48,6 +48,9 @@ died:
 relations:
   - { type: student_of, target: person/fenarizade-muhyiddin, sources: [source/wikipedia-yahya-bey-dukagjini-tr] }
 
+  - { type: born_in, target: place/albania, sources: [source/wikipedia-yahya-bey-dukagjini-en, source/wikipedia-yahya-bey-dukagjini-tr, source/wikidata-yahya-bey-dukagjini] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-yahya-bey-dukagjini-en, source/wikipedia-yahya-bey-dukagjini-tr, source/wikidata-yahya-bey-dukagjini] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-yahya-bey-dukagjini-en, source/wikipedia-yahya-bey-dukagjini-tr, source/wikidata-yahya-bey-dukagjini] }
 faith:
   - value: unknown
     basis: unknown

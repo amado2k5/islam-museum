@@ -36,6 +36,10 @@ died:
 wings: [people]
 regions: [persia-central-asia]
 roles: [politician]
+relations:
+  - { type: born_in, target: place/ush, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kurmanjan-datka] }
+  - { type: died_in, target: place/ush, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kurmanjan-datka] }
+  - { type: buried_in, target: place/ush, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kurmanjan-datka] }
 faith:
   - value: unknown
     basis: unknown

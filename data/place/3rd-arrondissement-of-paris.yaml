@@ -1,0 +1,21 @@
+id: place/3rd-arrondissement-of-paris
+class: place
+kind: region
+label: { ar: "الدائرة الثالثة في باريس", en: "3rd arrondissement of Paris", ur: "پیرس کا تیسرا اراؤنڈڈسمنٹ" }
+summary:
+  ar: "إقليم في فرنسا."
+  en: "Region in France."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [48.864027, 2.361531]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q223140" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q223140 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

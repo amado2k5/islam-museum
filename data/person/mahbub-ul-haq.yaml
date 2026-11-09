@@ -31,7 +31,8 @@ died:
   derived: true
   note: "Died at New York City on 16 July 1998; the English and Arabic articles and Wikidata agree. No died_in relation is written: New York City has no museum place entity. The Hijri year (1419) is derived by tabular conversion."
   sources: [source/wikipedia-mahbub-ul-haq-en, source/wikipedia-mahbub-ul-haq-ar, source/wikidata-mahbub-ul-haq]
-relations: []
+relations:
+  - { type: born_in, target: place/gurdaspur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahbub-ul-haq] }
 faith:
   - value: unknown
     basis: unknown

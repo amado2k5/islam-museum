@@ -20,6 +20,8 @@ born:
   derived: true
   note: "The English and Indonesian articles and Wikidata agree on 17 April 1948, born at Singapore. The date falls within the Hijri year 1367, which is given as the tabular conversion, marked derived."
   sources: [source/wikipedia-low-tuck-kwong-en, source/wikipedia-low-tuck-kwong-id, source/wikidata-low-tuck-kwong]
+relations:
+  - { type: born_in, target: place/singapore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-low-tuck-kwong] }
 faith:
   - value: unknown
     basis: unknown

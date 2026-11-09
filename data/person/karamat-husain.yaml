@@ -32,6 +32,8 @@ died:
   derived: true
   note: "Year only, from the same sources as his birth; no source consulted gives a day, month or place of death, so no died_in edge is written. The Hijri year is a conversion of the Gregorian year and is marked derived."
   sources: [source/journal-indian-studies-karamat-husain]
+relations:
+  - { type: lived_in, target: place/al-muhammadiyya, confidence: low, note: "Associated with المحمدية per the record's own summary text; relation type pending review.", sources: [source/karamat-girls-college-founder] }
 faith:
   - value: unknown
     basis: unknown

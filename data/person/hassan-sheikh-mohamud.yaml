@@ -32,6 +32,7 @@ faith:
     note: "No article text attests his religion personally, and no text anywhere names a school for him. The English, Arabic and Urdu articles each file him under Somali Muslims — category filings only — and Wikidata carries no religion (P140) value at all, so there is not even a structured Sunni reading to preserve: the value stays unknown."
     sources: [source/wikipedia-hassan-sheikh-mohamud-en, source/wikipedia-hassan-sheikh-mohamud-ar, source/wikipedia-hassan-sheikh-mohamud-ur, source/wikidata-hassan-sheikh-mohamud]
 relations:
+  - { type: born_in, target: place/jalalaqsi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-sheikh-mohamud] }
   - type: successor_of
     target: person/mohamed-abdullahi-mohamed
     sources: [source/wikipedia-hassan-sheikh-mohamud-en, source/wikipedia-mohamed-abdullahi-mohamed-en]

@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابي أنصاري جليل." }
 relations:
+  - { type: lived_in, target: place/tabuk, confidence: low, note: "Associated with Tabuk per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/khazraj }
   - { type: authored, target: work/kaab-ibn-malik-hunayn }
   - { type: participated_in, target: event/battle-of-hunayn, role: poet-and-combatant, sources: [source/ibn-hisham-saqqa] }

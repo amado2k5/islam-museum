@@ -46,3 +46,5 @@ external_ids: { wikidata: Q126783 }
 sources: [source/wikipedia-abolqasem-lahouti-en, source/wikipedia-abolqasem-lahouti-fa, source/iranica-abolqasem-lahouti, source/wikidata-abolqasem-lahouti]
 provenance: { layer: own-research, source: "Lane brief century-additions-41 (group Z2); grounded from English Wikipedia revision 1371328924, Persian Wikipedia revision 42787135, the Encyclopaedia Iranica entry by Kamyar Abedi, and Wikidata item Q126783 (revision 2556630460), resolved via the Wikipedia API pageprops and Special:EntityData.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-41 }
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/iran, note: "From text: Iranian (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-abolqasem-lahouti-en, source/wikipedia-abolqasem-lahouti-fa, source/iranica-abolqasem-lahouti, source/wikidata-abolqasem-lahouti], confidence: low }

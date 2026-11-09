@@ -9,6 +9,8 @@ periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
 relations:
   - { type: founder_of, target: group/bani-al-ahmar, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: born_in, target: place/arjona, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1354411)" }
+  - { type: died_in, target: place/granada, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8810)" }
 provenance:
   layer: own-research
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"

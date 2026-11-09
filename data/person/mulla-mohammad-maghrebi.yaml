@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
+relations:
+  - { type: buried_in, target: building/posht-panjeh-pedar-mausoleum, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5874583)" }
+  - { type: lived_in, target: place/maghreb, confidence: low, note: "Nisba al-Maghrebi — from the Maghreb (al-A'lam).", sources: [source/al-aalam] }
+  - { type: buried_in, target: place/khalkhal-county, confidence: low, note: "His mausoleum (Posht Panjeh Pedar) stands in Khalkhal, Iran (Wikidata P119).", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q107983096

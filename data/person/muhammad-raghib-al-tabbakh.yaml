@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q41183)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12240476

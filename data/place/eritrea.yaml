@@ -1,0 +1,16 @@
+id: place/eritrea
+class: place
+kind: region
+label: { en: "Eritrea", ar: "إرتريا" }
+summary:
+  en: "Country in the Horn of Africa."
+  ar: "دولة تُعرف بالإنجليزية باسم Eritrea."
+wings: [place]
+regions: [egypt-nile]
+coordinates: [15.4833, 38.25]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q986", geonames: "338010" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q986 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

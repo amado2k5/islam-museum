@@ -22,6 +22,7 @@ regions:
 relations:
   - { type: participated_in, target: event/killing-of-al-aswad-al-ansi, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/sahaba, sources: [source/futuh-buldan-maarif-1407]}
+  - { type: traveled_to, target: place/hamadan, sources: [source/futuh-buldan-maarif-1407], confidence: low, note: "ar: 'مرادي لُقب بالمكشوح لأنه كُوي على كشحه من داء كان به؛ وجّهه النبي إلى اليمن لقتال الأسود العنسي وأمره باس" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 147–149"

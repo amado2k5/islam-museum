@@ -27,6 +27,8 @@ faith:
     note: "No source names a school of Islam for Noussair Mazraoui. The English article's personal-life text states that he is a devout Muslim, citing a Bayern Munich supporters' site, and reports that in December 2024 he declined to wear a rainbow jacket, citing religious reasons, which led Manchester United to drop the plan — an account of practice and conduct naming no school. The Arabic article's infobox gives his religion as Islam (الإسلام), generic. Wikidata (Q26266244) has no religion value at all. A devoutness report plus one generic infobox value, naming no school, do not meet the two-source bar, so the value is unknown."
     sources: [source/wikipedia-noussair-mazraoui-en, source/wikipedia-noussair-mazraoui-ar, source/wikidata-noussair-mazraoui]
 external_ids: { wikidata: "Q26266244" }
+relations:
+  - { type: born_in, target: place/leiderdorp, sources: [source/wikidata-noussair-mazraoui], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1000817)" }
 sources: [source/wikipedia-noussair-mazraoui-en, source/wikipedia-noussair-mazraoui-ar, source/wikidata-noussair-mazraoui]
 provenance:
   layer: own-research

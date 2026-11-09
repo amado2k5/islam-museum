@@ -38,6 +38,8 @@ died:
   derived: true
   note: "Executed on Zuo Zongtang's orders at Jinjipu on 2 March 1871, with his son Ma Yaobang and over eighty rebel officials (Dillon 1999, via the English article); the Chinese article gives the same event under the lunar date Tongzhi 10/1/13, executed by slow slicing at Wuzhong Siqiliangzi with his son. Some accounts said he was murdered by a traitor within his own ranks (English article). The Hijri year 1288 is the conversion of 2 March 1871, hence derived. Neither Jinjipu nor Wuzhong has a museum place record, so no died_in or buried_in relation is written; his tomb shrine (gongbei) traditions — Dongta near Wuzhong against Xuanhuagang in Zhangjiachuan — are carried in the prose."
   sources: [source/wikipedia-ma-hualong-en, source/wikipedia-ma-hualong-zh, source/wikidata-ma-hualong]
+relations:
+  - { type: born_in, target: place/gansu, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-ma-hualong-en, source/wikipedia-ma-hualong-zh, source/wikidata-ma-hualong] }
 faith:
   - value: sufi
     basis: documented

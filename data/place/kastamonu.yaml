@@ -1,0 +1,36 @@
+id: place/kastamonu
+class: place
+kind: city
+label:
+  ar: قسطمونة
+  en: Kastamonu
+  ur: قسطمونہ
+summary:
+  ar: مدينة في تركيا.
+  en: Central district and city in Kastamonu Province, Turkey.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 41.3833
+- 33.7833
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q155915
+  geonames: '743882'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q155915 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q155915 (labels, coordinates, description)

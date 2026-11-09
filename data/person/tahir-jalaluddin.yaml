@@ -42,6 +42,7 @@ faith:
     sources: [source/wikipedia-tahir-jalaluddin-ms, source/wikipedia-tahir-jalaluddin-id, source/wikidata-tahir-jalaluddin]
 relations:
   - { type: student_of, target: person/ahmad-khatib-al-minangkabawi, sources: [source/wikipedia-tahir-jalaluddin-ms, source/wikipedia-tahir-jalaluddin-id] }
+  - { type: lived_in, target: place/mecca, sources: [source/wikipedia-tahir-jalaluddin-en, source/wikipedia-tahir-jalaluddin-ms, source/wikipedia-tahir-jalaluddin-id, source/wikidata-tahir-jalaluddin] }
 external_ids: { wikidata: "Q2649246" }
 sources: [source/wikipedia-tahir-jalaluddin-en, source/wikipedia-tahir-jalaluddin-ms, source/wikipedia-tahir-jalaluddin-id, source/wikidata-tahir-jalaluddin]
 status: { review: published }

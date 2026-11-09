@@ -12,6 +12,10 @@ wings: [people]
 regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1236", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/sistan-and-baluchestan-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q939575)" }
+  - { type: died_in, target: place/ajmer, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q200049)" }
+  - { type: buried_in, target: place/ajmer-sharif-dargah, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5222593)" }
 sources: [source/duha-islam]
 external_ids:
   wikidata: Q741545

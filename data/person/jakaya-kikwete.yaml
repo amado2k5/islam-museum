@@ -26,6 +26,8 @@ born:
   derived: true
   note: "The English article and Wikidata give his birth on 7 October 1950 at Msoga, in what was then the Tanganyika Territory, where he was also raised. No place entity for Msoga exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-jakaya-kikwete-en, source/wikidata-jakaya-kikwete]
+relations:
+  - { type: lived_in, target: place/tanzania, confidence: low, note: "Associated with تنزانيا per the record's own text; relation type pending review.", sources: [source/wikipedia-jakaya-kikwete-en] }
 faith:
   - value: unknown
     basis: unknown

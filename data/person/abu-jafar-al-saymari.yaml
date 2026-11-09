@@ -13,6 +13,7 @@ themes: [politics-governance-and-authority]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 relations:
+  - { type: ruler_of, target: place/bataih, note: "From text: صاحب البطائح فحاربه مرة بعد مر", sources: [source/kamil-ibn-al-athir, source/tajarib-al-umam-surush-v6], confidence: low }
   - { type: participated_in, target: event/battle-of-baghdad-946, sources: [source/tajarib-al-umam-surush-v6] }
   - { type: participated_in, target: event/mustakfi-blinding-334, sources: [source/tajarib-al-umam-surush-v6] }
 provenance:

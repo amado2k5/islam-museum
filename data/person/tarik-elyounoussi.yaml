@@ -27,6 +27,8 @@ faith:
     note: "No article read makes any statement of Elyounoussi's religion: the English, French and Arabic Wikipedia articles, each read in full, contain no mention of it in their text or categories. The only attestation anywhere is Wikidata Q609141's religion value, Islam (Q432), generic and naming no school — a single structured-data value, which never counts alone. His Moroccan birth is not attestation. Under the two-source rule and the doubt rule, his faith is recorded as unknown, with the position documented here and in the prose."
     sources: [source/wikipedia-tarik-elyounoussi-en, source/wikipedia-tarik-elyounoussi-fr, source/wikipedia-tarik-elyounoussi-ar, source/wikidata-tarik-elyounoussi]
 external_ids: { wikidata: "Q609141" }
+relations:
+  - { type: born_in, target: place/al-hoceima, sources: [source/wikidata-tarik-elyounoussi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q310350)" }
 sources: [source/wikipedia-tarik-elyounoussi-en, source/wikipedia-tarik-elyounoussi-fr, source/wikipedia-tarik-elyounoussi-ar, source/wikidata-tarik-elyounoussi]
 provenance:
   layer: own-research

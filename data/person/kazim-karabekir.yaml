@@ -35,6 +35,8 @@ died:
   note: "Both articles and Wikidata give 26 January 1948 at Ankara; the English article adds that he died in office, as Speaker, after a heart attack, and that his remains were later relocated to the Turkish State Cemetery in Ankara. Ankara has no place entity in the museum, so his death and burial places are carried here and in the prose, with no died_in or buried_in edge. The Hijri year 1367 is the derived conversion of 1948."
   sources: [source/wikipedia-kazim-karabekir-en, source/wikipedia-kazim-karabekir-tr, source/wikidata-kazim-karabekir]
 relations:
+  - { type: died_in, target: place/ankara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kazim-karabekir] }
+  - { type: buried_in, target: place/turkish-state-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kazim-karabekir] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-kazim-karabekir-en, source/wikipedia-kazim-karabekir-tr] }
 faith:
   - value: unknown

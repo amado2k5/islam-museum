@@ -13,6 +13,8 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 born: { edtf: "1350~", hijri: "0750~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد في حدود الخمسين وسبعمائة {cite:shadharat-dhahab p. 208}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1431-01~", hijri: "0834-04-15~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في نصف ربيع الآخر 834 {cite:shadharat-dhahab p. 208}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with القاهرة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 834)، قراءة آبل فيجن"

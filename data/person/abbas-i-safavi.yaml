@@ -48,6 +48,7 @@ died:
     - source/iranica-abbas-i
 
 relations:
+  - { type: ruler_of, target: place/iran, note: "From text: shah of Iran", sources: [source/wikipedia-abbas-the-great-en, source/wikipedia-abbas-the-great-ar, source/wikipedia-abbas-the-great-ur, source/wikidata-abbas-the-great, source/iranica-abbas-i] }
   - { type: child_of, target: person/mohammad-khodabanda-safavi, sources: [source/wikipedia-abbas-the-great-en, source/wikidata-abbas-the-great, source/iranica-abbas-i] }
   - { type: born_in, target: place/herat, sources: [source/wikipedia-abbas-the-great-en, source/wikidata-abbas-the-great] }
 

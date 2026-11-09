@@ -1,0 +1,36 @@
+id: place/budapest
+class: place
+kind: city
+label:
+  ar: بودابست
+  en: Budapest
+  ur: بوداپست
+summary:
+  ar: مدينة في مملكة المجر.
+  en: Capital and largest city of Hungary.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 47.4983
+- 19.0408
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q1781
+  geonames: '3054643'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1781 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1781 (labels, coordinates, description)

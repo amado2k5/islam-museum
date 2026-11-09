@@ -17,6 +17,8 @@ gender: male
 roles: [scholar, teacher]
 wings: [people, living]
 regions: [americas-oceania]
+relations:
+  - { type: lived_in, target: place/texas, sources: [source/almaghrib-waleed-basyouni, source/listennotes-waleed-basyouni] }
 faith:
   - value: unknown
     basis: unknown

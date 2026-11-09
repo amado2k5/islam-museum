@@ -32,6 +32,8 @@ died:
   note: "The English article gives his death from a heart attack at Damascus on 10 June 2000; the Arabic article and Wikidata agree. The Hijri year (1421) is derived from the Gregorian date. He was buried beside his son Bassel in the family mausoleum at Qardaha; the mausoleum was burned in December 2024 and his remains were exhumed in 2025. No buried_in edge is written: neither Qardaha nor the mausoleum has an entity."
   sources: [source/wikipedia-hafez-al-assad-en, source/wikipedia-hafez-al-assad-ar, source/wikidata-hafez-al-assad]
 relations:
+  - { type: born_in, target: place/qardaha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hafez-al-assad] }
+  - { type: buried_in, target: place/assad-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hafez-al-assad] }
   - { type: died_in, target: place/damascus, sources: [source/wikipedia-hafez-al-assad-en, source/wikipedia-hafez-al-assad-ar, source/wikidata-hafez-al-assad] }
 faith:
   - value: alawite

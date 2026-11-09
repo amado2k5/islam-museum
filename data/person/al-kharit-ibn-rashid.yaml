@@ -11,9 +11,10 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 relations:
- - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: died_in, target: place/al-ahwaz, note: "Wikidata Q170366 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
 external_ids:
   wikidata: Q12186975
 provenance:

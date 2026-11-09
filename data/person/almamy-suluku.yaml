@@ -31,6 +31,7 @@ died:
   note: "Wikidata gives 1906 at year precision, the Sierra Leone Web biography's heading gives ca. 1820–1906, and Fyle's monograph title gives the same years; no source read gives a day, month or place of death. The Hijri year (1324) is derived by tabular conversion (the Gregorian year 1906 spans 1323–1324 AH; the mid-year falls in 1324)."
   sources: [source/wikidata-almamy-suluku, source/sierra-leone-web-heroes]
 relations:
+  - { type: lived_in, target: place/britain, note: "From text: British (nationality adjective); broad association, flagged for review.", sources: [source/wikidata-almamy-suluku, source/sierra-leone-web-heroes], confidence: low }
   - { type: allied_with, target: person/bai-bureh, note: "Direction: Suluku to Bai Bureh — material support given by the subject to the target. The Sierra Leone Web biography states expressly that when the 1898 rebellion broke out Suluku sent warriors and weapons to Bai Bureh, while simultaneously writing to the British professing support for their position and offering his services as mediator; later Sierra Leone history accounts repeat the covert support. The edge is written here, in Suluku's record, once.", sources: [source/sierra-leone-web-heroes] }
 faith:
   - value: unknown

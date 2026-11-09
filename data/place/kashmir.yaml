@@ -1,0 +1,38 @@
+id: place/kashmir
+class: place
+kind: region
+label:
+  ar: كشمير
+  en: Kashmir
+  ur: کشمیر
+summary:
+  ar: إقليم جبلي في شمال شبه القارة الهندية، أسلمه كثير من أهله تدريجاً عبر المتصوفة.
+  en: Mountainous region of the northern subcontinent, gradually Islamised through Sufi teachers.
+wings:
+- place
+regions:
+- south-asia
+- persia-central-asia
+coordinates:
+- 34.0
+- 76.0
+coordinate_precision: approx
+coordinate_note: Identified location; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q200304
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q43100 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q200304 (labels, coordinates, description)

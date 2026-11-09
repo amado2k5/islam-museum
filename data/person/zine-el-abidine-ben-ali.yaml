@@ -37,6 +37,7 @@ relations:
   - { type: successor_of, target: person/habib-bourguiba, sources: [source/wikipedia-zine-el-abidine-ben-ali-en, source/wikipedia-zine-el-abidine-ben-ali-ar] }
   - { type: died_in, target: place/jeddah, sources: [source/wikipedia-zine-el-abidine-ben-ali-en, source/wikidata-zine-el-abidine-ben-ali] }
   - { type: buried_in, target: place/medina, sources: [source/wikipedia-zine-el-abidine-ben-ali-en, source/wikipedia-zine-el-abidine-ben-ali-ar] }
+  - { type: born_in, target: place/sousse, sources: [source/wikipedia-zine-el-abidine-ben-ali-en, source/wikipedia-zine-el-abidine-ben-ali-ar, source/wikidata-zine-el-abidine-ben-ali] }
 wings: [people]
 regions: [maghreb]
 external_ids: { wikidata: "Q204487" }

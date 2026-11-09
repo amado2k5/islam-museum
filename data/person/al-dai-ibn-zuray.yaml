@@ -22,6 +22,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [arabia]
 relations:
+- { type: died_in, target: place/aden, note: "From text: مات بعد فتح عدن بسبعة أشهر سنة 533ه", sources: [source/tarikh-ibn-khaldun-ibar] }
 - { type: "founder_of", target: "polity/zurayid-dynasty", note: "أول من اجتمع له الملك من بني الزريع", sources: [source/tarikh-ibn-khaldun-ibar] }
 sources:
 - source/tarikh-ibn-khaldun-ibar

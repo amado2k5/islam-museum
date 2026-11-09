@@ -22,6 +22,9 @@ regions:
 - arabia
 - levant-iraq
 relations:
+  - { type: lived_in, target: place/medina, note: "From text: أقام بالمدينة ثم سار إلى الشام والعر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: died_in, target: place/kufa, note: "From text: died at Kufa", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: traveled_to, target: place/al-sham, note: "From text: went to Syria", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/siege-of-al-nujayr, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

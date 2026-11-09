@@ -27,7 +27,8 @@ born:
   note: "Born in Peshawar, Pakistan. The English article carries no birth date at all and files him under 'Year of birth missing (living people)'; Wikidata gives 28 November 1968, but its only reference for the statement is 'imported from English Wikipedia', and the current English article does not carry the date. The queue's year 1968 agrees with Wikidata's year, so the year is built at year precision as debated and the day and month are not adopted. No Hijri year is recorded: a bare 1968 spans 1387–1388 AH. No place entity for Peshawar exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-adnan-nawaz-en, source/wikidata-adnan-nawaz]
 
-relations: []
+relations:
+  - { type: lived_in, target: place/britain, note: "From text: British (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-adnan-nawaz-en, source/wikidata-adnan-nawaz], confidence: low }
 
 faith:
   - value: unknown

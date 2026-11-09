@@ -19,5 +19,8 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-4
 external_ids: { wikidata: "Q1112754" }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q839456)" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

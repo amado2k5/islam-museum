@@ -15,7 +15,9 @@ faith:
 roles: [preacher, writer]
 wings: [people, living]
 regions: [east-africa]
-relations: []
+relations:
+  - { type: lived_in, target: place/ethiopia, sources: [source/telegram-wahidcom, source/tiktok-wahid-omar-negash] }
+
 sources: [source/telegram-wahidcom, source/tiktok-wahid-omar-negash]
 provenance:
   layer: own-research

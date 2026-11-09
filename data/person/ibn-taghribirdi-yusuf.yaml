@@ -17,6 +17,11 @@ periods: [period/gunpowder-empires]
 regions: [egypt-nile]
 story_roles:
   - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/amasya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q481499" }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/daw-lami-jil-1992]
 status: { review: published, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 491, lib-mawsuat-a3lam" }

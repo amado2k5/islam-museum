@@ -12,6 +12,8 @@ summary:
 roles: [scholar, teacher]
 wings: [people, living]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/united-kingdom, confidence: low, note: "Associated with المملكة المتحدة per the record's own summary text; relation type pending review.", sources: [source/islamopedia-iffet-rafeeq-bio] }
 faith:
   - value: unknown
     basis: unknown

@@ -40,6 +40,7 @@ died:
   sources: [source/wikipedia-abdul-kader-kane-fr, source/wikidata-abdul-kader-kane, source/wikipedia-abdul-kader-kane-en]
 
 relations:
+  - { type: lived_in, target: place/france, note: "From text: French (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-abdul-kader-kane-en, source/wikipedia-abdul-kader-kane-fr, source/wikipedia-abdul-kader-kane-ur, source/wikidata-abdul-kader-kane], confidence: low }
   - { type: successor_of, target: person/sulayman-bal, sources: [source/wikipedia-abdul-kader-kane-en, source/wikipedia-abdul-kader-kane-fr, source/wikipedia-abdul-kader-kane-ur] }
 
 faith:

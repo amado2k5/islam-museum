@@ -30,6 +30,7 @@ died:
   note: "Killed in the bombing of the national security building in Damascus during a meeting of the Central Crisis Management Cell. Date from both articles and Wikidata; the Hijri year (1433) is converted with the repo's converter and marked derived."
   sources: [source/wikipedia-hassan-turkmani-en, source/wikipedia-hassan-turkmani-ar, source/wikidata-hassan-turkmani]
 relations:
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-turkmani] }
   - { type: born_in, target: place/aleppo, sources: [source/wikipedia-hassan-turkmani-en, source/wikipedia-hassan-turkmani-ar] }
 faith:
   - value: sunni

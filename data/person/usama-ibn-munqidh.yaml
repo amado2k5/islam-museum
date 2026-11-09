@@ -11,6 +11,8 @@ regions: [levant-iraq]
 died: { edtf: "1188-11-13~", hijri: "0584-09-23", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الثلاثاء الثالث والعشرين من شهر رمضان سنة أربع وثمانين ودفن من الغد شرقي جبل قاسيون {cite:shadharat-dhahab p. 760}؛ سنة 584هـ {cite:kashf-zunun-furqan p. 372}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan] }
 relations:
   - { type: authored, target: work/azhar-al-anhar, sources: [source/kashf-zunun-furqan] }
+  - { type: born_in, target: place/shaizar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1030058)" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
 provenance:
   layer: own-research
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 372 مدخل 768"

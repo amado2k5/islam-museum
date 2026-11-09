@@ -19,6 +19,10 @@ born:
   precision: year
 external_ids:
   wikidata: Q154216
+relations:
+  - { type: born_in, target: place/marylebone, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q123634)" }
+  - { type: born_in, target: place/london, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q84)" }
+  - { type: lived_in, target: place/dubai, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q612)" }
 sources:
 - source/wikidata
 status:

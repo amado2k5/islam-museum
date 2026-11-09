@@ -42,6 +42,7 @@ faith:
     note: "Two independent texts name his Sunni affiliation personally. The Urdu text states directly that his affiliation was with the maslak of Ahl-e-Sunnat wa Jama'at, the teachers he studied under being named in the same passage. The English text states that he presided over the All India Sunni Conference — elected its president at its founding in 1925 and declared Ameer-e-Millat at its 1935 session — and led its Sunni scholarly cause against the movements it opposed. No madhhab is named for him in any consulted text, so the segment is sunni without a school suffix; Wikidata's single religion value (Sunni Islam) is a structured value and is not counted."
     sources: [source/wikipedia-jamaat-ali-shah-en, source/wikipedia-jamaat-ali-shah-ur]
 relations:
+  - { type: born_in, target: place/british-raj, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jamaat-ali-shah] }
   - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-jamaat-ali-shah-en, source/wikipedia-jamaat-ali-shah-ur] }
 external_ids: { wikidata: "Q7496292" }
 sources: [source/wikipedia-jamaat-ali-shah-en, source/wikipedia-jamaat-ali-shah-ar, source/wikipedia-jamaat-ali-shah-ur, source/wikidata-jamaat-ali-shah]

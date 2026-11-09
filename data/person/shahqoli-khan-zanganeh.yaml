@@ -44,6 +44,8 @@ faith:
 
 external_ids: { wikidata: "Q20987981" }
 
+relations:
+  - { type: born_in, target: place/isfahan, sources: [source/wikidata-shahqoli-khan-zanganeh], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
 sources:
   - source/wikipedia-shahqoli-khan-zanganeh-en
   - source/wikipedia-shahqoli-khan-zanganeh-fa

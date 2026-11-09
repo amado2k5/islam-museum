@@ -12,6 +12,9 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1580", precision: year, status: tradition, derived: true }
+relations:
+  - { type: buried_in, target: building/qutb-shahi-tombs, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: ruled_over, target: place/golconda-sultanate, confidence: low, note: "Fourth Qutb Shahi sultan of Golconda per the record's own summary.", sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3764168

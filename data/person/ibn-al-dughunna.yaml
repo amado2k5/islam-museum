@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/abyssinia, confidence: low, note: "Associated with الحبشة per the record's own summary text; relation type pending review.", sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/year-of-sorrow, role: "أجار أبا بكر", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 provenance:

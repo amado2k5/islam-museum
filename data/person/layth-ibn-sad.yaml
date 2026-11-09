@@ -8,6 +8,8 @@ wings: [people]
 periods: [period/abbasid-early]
 died: { hijri: "0175", edtf: "0791~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات في النصف من شعبان يوم الخميس سنة خمس وسبعين ومائة (PDF ص42). حاشية الطبعة تذكر قراءة «خمس وتسعين»؛ مصدر ثان مطلوب.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
+  - { type: born_in, target: place/qarqashandah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/al-fustat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: student_of, target: person/muhammad-ibn-shihab-al-zuhri, role: "كتب من علمه كثيراً (PDF ص42)", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: participated_in, target: event/fuqaha-consulta-on-cyprus, role: "أفتى بالنبذ مع نظرة سنة", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

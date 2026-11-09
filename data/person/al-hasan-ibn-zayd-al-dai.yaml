@@ -12,5 +12,8 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 789–799"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-52
+relations:
+  - { type: ruled_over, target: place/tabaristan, note: "Expelled Sulayman ibn Tahir and founded the Tabaristan Alid state.", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: high }
+  - { type: lived_in, target: place/daylam, note: "Rose by the call to al-Haqq at Rayy and Daylam.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }
 sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

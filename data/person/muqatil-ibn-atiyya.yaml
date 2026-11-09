@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Buyid-era scholar (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q6932174
 provenance:

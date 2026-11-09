@@ -32,6 +32,8 @@ born:
 relations:
   - { type: sibling_of, target: person/mohamed-mansour, sources: [source/wikipedia-youssef-mansour-en, source/wikidata-youssef-mansour] }
 
+
+  - { type: born_in, target: place/cairo, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-youssef-mansour-en, source/wikipedia-youssef-mansour-ar, source/wikidata-youssef-mansour] }
 faith:
   - value: unknown
     basis: unknown

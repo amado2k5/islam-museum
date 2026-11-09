@@ -7,6 +7,8 @@ summary:
 wings: [people]
 gender: male
 relations:
+  - { type: born_in, target: place/khorasan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/qayrawan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/ibrahim-ibn-al-aghab-maghreb, role: "المولّى مؤسس ولاية الأغالبة", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

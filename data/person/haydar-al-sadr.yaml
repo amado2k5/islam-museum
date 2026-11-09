@@ -13,6 +13,8 @@ regions: [levant-iraq]
 periods: [period/modern-era]
 born: { edtf: "1891", precision: year, status: tradition, derived: true }
 died: { edtf: "1937", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/kadhimiya, confidence: low, note: "Associated with الكاظمية per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5686240

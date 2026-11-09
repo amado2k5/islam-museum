@@ -29,3 +29,5 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Association inferred from the nisba 'البغدادي'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab] }

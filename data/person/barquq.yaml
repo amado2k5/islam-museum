@@ -16,4 +16,5 @@ provenance:
 sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/yeomans-islamic-cairo-2006]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
+  - { type: lived_in, target: place/daher, confidence: low, note: "Associated with الظاهر per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
   - { type: built, target: building/complex-sultan-barquq, sources: [source/yeomans-islamic-cairo-2006] }

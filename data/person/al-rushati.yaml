@@ -14,5 +14,8 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 466"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-58
+relations:
+  - { type: born_in, target: place/uriyula, note: "Born at Uryula (Orihuela) in 466 per Nafh al-Tib.", sources: [source/nafh-tib-maqqari], confidence: high }
+  - { type: died_in, target: place/almeria, note: "Martyred in the sack of Almeria, 20 Jumada I 542.", sources: [source/nafh-tib-maqqari], confidence: high }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

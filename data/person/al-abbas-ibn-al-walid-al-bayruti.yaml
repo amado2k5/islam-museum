@@ -23,3 +23,5 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
+relations:
+  - { type: lived_in, target: place/bayrut, note: "Place association from the person's nisba/name (البيروتي); denotes association, not proven residence.", sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura], confidence: low }

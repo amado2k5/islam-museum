@@ -32,6 +32,8 @@ died:
   note: "The date, 3 June 1974, is agreed by all three articles. The English and Arabic articles give Paris as the place of death; the French article gives Gouvieux in the Oise. There is no place entity for either, so no died_in edge is written; he was buried at Tlemcen."
   sources: [source/wikipedia-messali-hadj-en, source/wikipedia-messali-hadj-ar, source/wikipedia-messali-hadj-fr]
 relations:
+  - { type: born_in, target: place/tlemcen, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-messali-hadj] }
+  - { type: buried_in, target: place/tlemcen, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-messali-hadj] }
   - { type: born_in, target: place/tlemcen, sources: [source/wikipedia-messali-hadj-en, source/wikipedia-messali-hadj-ar] }
   - { type: buried_in, target: place/tlemcen, sources: [source/wikipedia-messali-hadj-ar] }
 faith:

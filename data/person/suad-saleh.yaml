@@ -46,6 +46,8 @@ faith:
       - source/wikipedia-suad-saleh-en
 external_ids:
   wikidata: "Q2361335"
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-suad-saleh-en], confidence: low, note: "Al-Azhar University career per the record text." }
 sources:
   - source/wikipedia-suad-saleh-ar
   - source/wikipedia-suad-saleh-en

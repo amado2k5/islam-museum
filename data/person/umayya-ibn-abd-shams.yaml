@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 relations:
+  - { type: lived_in, target: place/mecca, sources: [source/ansab-al-ashraf] }
+  - { type: lived_in, target: place/syria, sources: [source/ansab-al-ashraf] }
   - { type: child_of, target: person/abd-shams-ibn-abd-manaf, sources: [source/ansab-al-ashraf] }
 periods: [period/pre-islamic-arabia]
 provenance:

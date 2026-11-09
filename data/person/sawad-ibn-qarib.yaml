@@ -13,8 +13,9 @@ periods: [period/prophetic-era]
 regions: [arabia]
 relations:
   - { type: member_of, target: group/al-azd, sources: [source/mustadrak-ilmiyya-ata-v3] }
-  - { type: traveled_to, target: place/medina, note: "قدم المدينة بعد الهجرة فأسلم {cite:mustadrak-ilmiyya-ata-v3 p. 705-706}", sources: [source/mustadrak-ilmiyya-ata-v3] }
   - { type: member_of, target: group/sahaba, sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: traveled_to, target: place/medina, note: "قدم المدينة بعد الهجرة فأسلم {cite:mustadrak-ilmiyya-ata-v3 p. 705-706}", sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: traveled_to, target: place/mecca, sources: [source/mustadrak-ilmiyya-ata-v3] }
 provenance:
   layer: own-research
   source: "al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 704-706, hadith 6558 with al-Dhahabi's note"

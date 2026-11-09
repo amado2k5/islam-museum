@@ -15,6 +15,7 @@ regions: [levant-iraq]
 periods: [period/umayyad]
 died: { hijri: "0139", edtf: "0756/0757", calendar: julian, precision: year, status: historical, derived: true, note: "«= 139هـ» في حاشية البحث عن الجرح والتعديل وتهذيب التهذيب {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49}؛ التحويل مشتق.", sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
 relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/al-aalam, source/qiraat-inda-al-tabari-thesis-umm-al-qura], confidence: low }
   - { type: student_of, target: person/abu-al-aliya-al-riyahi, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
   - { type: student_of, target: person/al-hasan-al-basri, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
 themes: [scripture-and-its-sciences]

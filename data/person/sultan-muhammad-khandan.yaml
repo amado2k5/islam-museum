@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/fars, sources: [source/wikidata], confidence: low, note: "Nisba فارسي attested in the record." }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5724548

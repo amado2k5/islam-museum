@@ -15,7 +15,10 @@ regions: [levant-iraq]
 faith:
   - value: sunni
     basis: tradition
-relations: []
+relations:
+  - { type: ruled_over, target: place/sahyun, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/sahyun, sources: [source/shadharat-dhahab] }
+
 sources: [source/shadharat-dhahab]
 status:
   review: published

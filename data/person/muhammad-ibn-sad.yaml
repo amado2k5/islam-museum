@@ -19,10 +19,11 @@ relations:
   - { type: related_to, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434, source/tabaqat-ibn-sad-qism-mutammim-mansur-1987], note: "امتحنه المأمون في خلق القرآن سنة 218هـ، الدراسة ص 36" }
   - { type: student_of, target: person/al-waqidi, sources: [source/tabaqat-ibn-sad-qism-mutammim-mansur-1987], note: "لازمه زمناً طويلاً وكتب له، الدراسة ص 17" }
   - { type: student_of, target: person/sufyan-ibn-uyayna, sources: [source/tabaqat-ibn-sad-qism-mutammim-mansur-1987], note: "أكثر أخذه بمكة عنه، الدراسة ص 36" }
+  - { type: authored, target: work/al-tabaqat-al-kubra-ibn-sad, sources: [source/tabaqat-ibn-sad-qism-mutammim-mansur-1987] }
   - { type: born_in, target: place/basra, sources: [source/tabaqat-ibn-sad-qism-mutammim-mansur-1987] }
   - { type: died_in, target: place/baghdad, sources: [source/tabaqat-ibn-sad-qism-mutammim-mansur-1987] }
   - { type: traveled_to, target: place/raqqa, sources: [source/tabaqat-ibn-sad-qism-mutammim-mansur-1987], note: "أُحضر إليها في المحنة، الدراسة ص 36" }
-  - { type: authored, target: work/al-tabaqat-al-kubra-ibn-sad, sources: [source/tabaqat-ibn-sad-qism-mutammim-mansur-1987] }
+  - { type: lived_in, target: place/baghdad, sources: [source/tarikh-khulafa-minhaj-1434, source/tabaqat-ibn-sad-qism-mutammim-mansur-1987] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 486–490؛ ثم دراسة زياد محمد منصور في القسم المتمم من الطبقات (1987) ص 17–58"

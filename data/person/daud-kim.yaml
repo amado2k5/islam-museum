@@ -24,6 +24,8 @@ born:
   derived: true
   note: "Born Kim Jae-han on 21 July 1992 in Seoul, per the StarsUnfolded biography profile, the only text consulted that gives a birth date; it is a single secondary profile and the date is recorded on its authority alone. The Hijri year 1413 is a tabular conversion of the recorded date, marked derived. No place record for Seoul exists in the museum, so no born_in edge is written."
   sources: [source/starsunfolded-daud-kim]
+relations:
+  - { type: lived_in, target: place/south-korea, confidence: low, note: "Associated with كوريا per the record's own text; relation type pending review.", sources: [source/vidiq-daud-kim] }
 faith:
   - value: unknown
     basis: unknown

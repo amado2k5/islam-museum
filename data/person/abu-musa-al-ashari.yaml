@@ -23,6 +23,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition }
 relations:
+  - { type: ruler_of, target: place/basra, note: "From text: governor of Basra", sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/sallabi-ali-vol1, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 external_ids: { wikidata: "Q335170" }

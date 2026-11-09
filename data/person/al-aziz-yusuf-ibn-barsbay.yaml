@@ -14,6 +14,7 @@ regions: [egypt-nile]
 faith: [{ value: sunni, basis: documented }]
 died: { edtf: "1463-09~", hijri: "0868-01", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بالإسكندرية محرم 868 وعمره نحو 40 {cite:shadharat-dhahab p. 305}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: died_in, target: place/alexandria, note: "From text: توفي بالإسكندرية محرم 868 وعمره نحو ", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/jaqmaq-accession-842, role: "السلطان المخلوع", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

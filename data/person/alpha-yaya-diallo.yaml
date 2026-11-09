@@ -44,3 +44,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-22
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/france, note: "From text: French (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-alfa-yaya-of-labe-en, source/wikipedia-alpha-yaya-diallo-fr, source/wikidata-alfa-yaya-of-labe], confidence: low }

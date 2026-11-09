@@ -17,6 +17,7 @@ died:
   derived: true
   note: "سنة 620هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 87}."
 relations:
+  - { type: born_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: lived_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
 provenance:

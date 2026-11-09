@@ -11,6 +11,7 @@ regions: [americas-oceania]
 gender: female
 roles: [scholar, historian]
 relations:
+  - { type: lived_in, target: place/boston, sources: [source/blair-islamic-calligraphy-2006] }
   - { type: authored, target: work/islamic-calligraphy-blair, sources: [source/blair-islamic-calligraphy-2006] }
 sources: [source/blair-islamic-calligraphy-2006]
 provenance:

@@ -14,5 +14,9 @@ provenance:
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-89
+relations:
+  - { type: born_in, target: place/al-jund, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'السلطان شرف الدولة، أمير بغداد البويهي، مات سنة ست عشرة وأربعمائة فنُهبت خزائنه وتسلطن جلال الدولة أبو طا" }
+  - { type: born_in, target: place/basra, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'السلطان شرف الدولة، أمير بغداد البويهي، مات سنة ست عشرة وأربعمائة فنُهبت خزائنه وتسلطن جلال الدولة أبو طا" }
+  - { type: ruler_of, target: place/baghdad, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'السلطان شرف الدولة، أمير بغداد البويهي، مات سنة ست عشرة وأربعمائة فنُهبت خزائنه وتسلطن جلال الدولة أبو طا" }
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

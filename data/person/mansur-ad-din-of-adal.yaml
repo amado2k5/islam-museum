@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [east-africa]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: ruler_of, target: polity/adal, confidence: low, note: "Ruler of Adal per the record's own summary; dates pending review.", sources: [source/al-aalam] }
+  - { type: ruled_over, target: place/adal-sultanate, confidence: low, note: "Ruler of Adal per the record's own summary.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6751903

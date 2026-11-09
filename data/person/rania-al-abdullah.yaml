@@ -26,6 +26,8 @@ faith:
     sources: [source/wikipedia-rania-al-abdullah-en, source/wikipedia-rania-al-abdullah-ar, source/wikipedia-rania-al-abdullah-ur, source/wikidata-rania-al-abdullah]
 relations:
   - { type: spouse_of, target: person/abdullah-ii, sources: [source/wikipedia-rania-al-abdullah-en, source/wikipedia-rania-al-abdullah-ar, source/wikidata-rania-al-abdullah] }
+
+  - { type: born_in, target: place/nablus, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-rania-al-abdullah-en, source/wikipedia-rania-al-abdullah-ar, source/wikidata-rania-al-abdullah] }
 wings: [people, living]
 regions: [levant-iraq]
 external_ids: { wikidata: "Q200678" }

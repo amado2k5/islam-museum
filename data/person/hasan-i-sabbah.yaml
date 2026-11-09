@@ -13,6 +13,13 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 died: { edtf: "1124~", hijri: "0518~", calendar: julian, precision: year, status: tradition, derived: true, note: "518هـ {cite:shadharat-dhahab p. 538}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: born_in, target: place/qumm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/hassan-sabbah-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/qumm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/mayyafariqin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/armenia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: lived_in, target: place/alamut }
 provenance:
   layer: own-research

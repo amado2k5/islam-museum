@@ -1,0 +1,16 @@
+id: place/zaria
+class: place
+kind: city
+label: { en: "Zaria", ar: "زاريا" }
+summary:
+  en: "City and local government area in Kaduna, Nigeria."
+  ar: "مدينة في نيجيريا."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [11.0667, 7.7]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q147975", geonames: "2317765" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q147975 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
