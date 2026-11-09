@@ -16,6 +16,7 @@ story_roles:
   - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; al-Isaba" }
 relations:
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين مع أخويه", sources: [source/mubarakpuri-raheeq] }

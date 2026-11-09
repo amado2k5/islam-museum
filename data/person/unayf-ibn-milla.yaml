@@ -11,6 +11,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~645, al-Isaba (Ibn Hajar)" }
 relations:
   - { type: member_of, target: group/banu-dubayb, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "من ركب الضبيب", sources: [source/ibn-hisham-saqqa] }

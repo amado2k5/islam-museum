@@ -12,6 +12,7 @@ wings: [people, living]
 periods: [period/prophetic-era]
 regions: [arabia]
 themes: [health-body-death]
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~660, Tahdhib al-Kamal; al-Isaba" }
 relations:
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion named in the fiqh encyclopaedia's sahaba lists (regions: arabia).", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

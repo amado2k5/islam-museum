@@ -15,6 +15,8 @@ regions: [global]
 sources: [source/assabile-tareq-al-suwaidan]
 provenance: { layer: copyrighted-reference, source: "Assabile, administrative-processus-abilities ep03 (transcript pass5-qwen; engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Devin (SWE-2 High)", model: swe-2-high, run: devin-tareq-al-suwaidan-admin-3 }
 status: { review: published, generated_by: "Devin (SWE-2 High); run devin-tareq-al-suwaidan-admin-3" }
+born: { edtf: "1848", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1923", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
   - { type: lived_in, target: place/italy, confidence: low, note: "Italian sociologist and economist (regions: global).", sources: [source/assabile-tareq-al-suwaidan] }
   - { type: died_in, target: place/switzerland, confidence: low, note: "Died at Celigny, Geneva (standard biography).", sources: [source/assabile-tareq-al-suwaidan] }

@@ -19,6 +19,7 @@ story_roles:
   - { role: companion, start: { edtf: "0621~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0621~" }, note: "صحابي بدري ونقيب من أشراف الأوس." }
+died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Usd al-Ghaba" }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }

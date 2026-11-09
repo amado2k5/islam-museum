@@ -20,6 +20,8 @@ story_roles:
   - { role: family-of-the-prophet, start: { edtf: "0628~" }, end: { edtf: "0632" }, status: tradition, note: "زواجها بالنبي بعقد أنجزه النجاشي في الحبشة بحضور جعفر بن أبي طالب؛ كانت قريش قد بعثت عمرو بن العاص وعبد الله بن أبي ربيعة لطلب ردها.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "من المهاجرات إلى الحبشة وأمهات المؤمنين." }
+born: { edtf: "594~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; al-Isaba" }
+died: { edtf: "664", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; al-Isaba" }
 relations:
   - { type: member_of, target: group/banu-umayya }
   - { type: member_of, target: group/ahl-al-bayt, note: "As a wife of the Prophet." }

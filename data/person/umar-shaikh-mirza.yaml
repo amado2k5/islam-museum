@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1356", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Zafarnama (Shami/Yazdi); EI2" }
+died: { edtf: "1394", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Zafarnama (Shami/Yazdi); EI2" }
 relations:
   - { type: died_in, target: place/tuz-khormato, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1023334)" }
   - { type: buried_in, target: place/shahrisabz, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q569766)" }

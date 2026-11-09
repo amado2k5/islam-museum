@@ -12,6 +12,7 @@ wings: [people]
 sensitivity: contested
 periods: [period/contemporary-era]
 regions: [arabia]
+born: { edtf: "1948", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Biographical Records" }
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
 provenance:

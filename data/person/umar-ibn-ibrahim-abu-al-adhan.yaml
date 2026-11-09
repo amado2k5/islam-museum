@@ -16,5 +16,6 @@ provenance:
   run: lib-muntazam-258-349-batch36
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+died: { edtf: "915", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
 relations:
   - { type: lived_in, target: place/samarra, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muntazam-ibn-al-jawzi] }

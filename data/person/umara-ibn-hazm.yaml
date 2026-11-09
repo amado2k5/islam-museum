@@ -16,6 +16,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص166-167)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr); al-Isaba" }
 relations:
   - { type: traveled_to, target: place/badr, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/the-prophets-she-camel-strays, role: host-of-the-speaker, sources: [source/ibn-hisham-saqqa] }

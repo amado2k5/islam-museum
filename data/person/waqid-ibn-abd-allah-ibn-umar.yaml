@@ -12,6 +12,7 @@ wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
 sources: [source/al-aalam]
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~720, Tahdhib al-Kamal; Tahdhib al-Tahdhib" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Member of the Medinan family of Ibn Umar (regions: arabia).", sources: [source/al-aalam] }
 external_ids:

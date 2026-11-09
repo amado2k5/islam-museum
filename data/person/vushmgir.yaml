@@ -12,6 +12,8 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-batch-16
+born: { edtf: "935", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil fi al-Tarikh; EI2" }
+died: { edtf: "967", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil fi al-Tarikh; EI2" }
 relations:
   - { type: ruled_over, target: place/tabaristan, sources: [source/kamil-ibn-al-athir] }
   - { type: ruled_over, target: place/jurjan, sources: [source/kamil-ibn-al-athir] }

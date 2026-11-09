@@ -20,5 +20,6 @@ story_roles:
 sources: [source/al-mustatraf-abshihi-scan-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Mustatraf misers chapter, scan p. 205, read on the image)" }
 provenance: { layer: pd, source: "archive.org mustatraf_01, scan p. 205 (checked against the page image)", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-mustatraf-batch-03" }
+died: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~780, Rijal al-Tusi; Rijal al-Najashi" }
 relations:
   - { type: lived_in, target: place/kufa, note: "Asadi clan of the hadith transmitter Umar ibn Yazid was based in Kufa.", sources: [source/tahdhib-al-kamal-mizzi] }

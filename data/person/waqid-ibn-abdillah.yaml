@@ -34,6 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba; Usd al-Ghaba" }
 relations:
 - { type: traveled_to, target: place/badr, sources: [source/ibn-hajar-isaba] }
 - type: member_of

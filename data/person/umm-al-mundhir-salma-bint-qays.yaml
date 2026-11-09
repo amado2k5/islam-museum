@@ -9,6 +9,7 @@ roles: [companion]
 periods: [period/prophetic-era]
 regions: [arabia]
 themes: [scripture-and-its-sciences]
+died: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~640, al-Tabaqat al-Kubra (Ibn Sa'd); al-Isaba" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/great-women-of-islam-ghadanfar-darussalam] }
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

@@ -14,6 +14,7 @@ regions: [arabia]
 periods: [period/prophetic-era]
 themes: [women]
 traditions: [sunni]
+died: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~650, Sahih Muslim; Tahdhib al-Kamal" }
 relations:
   - { type: child_of, target: person/haritha-ibn-al-numan, sources: [source/great-women-of-islam-ghadanfar-darussalam] }
   - { type: participated_in, target: event/bayat-al-ridwan, sources: [source/great-women-of-islam-ghadanfar-darussalam] }

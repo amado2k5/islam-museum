@@ -12,6 +12,8 @@ wings: [people]
 regions: [south-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [spirituality-and-sufism]
+born: { edtf: "1131", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar al-Awliya; Encyclopaedia of Islam" }
+died: { edtf: "1220", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar al-Awliya; Encyclopaedia of Islam" }
 relations:
   - { type: born_in, target: place/nishapur, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q131350)" }
   - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }

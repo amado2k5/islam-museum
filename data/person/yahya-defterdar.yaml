@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
+died: { edtf: "1663", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani; TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
   - { type: buried_in, target: place/al-baqi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154204)" }

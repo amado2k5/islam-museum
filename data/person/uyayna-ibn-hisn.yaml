@@ -18,6 +18,7 @@ story_roles:
   - { role: convert, status: tradition, note: "أعطاه النبي مئة بعير بالجعرانة تأليفاً لقلبه وقومه (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم بعد الفتح ثم تاب بعد الردة." }
+died: { edtf: "635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Isaba" }
 relations:
   - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "طلب بدم عامر بن الأضبط بحنين وهو رئيس غطفان", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/sariyya-of-uyayna-to-banu-tamim, role: "أمير السرية على بني العنبر", sources: [source/ibn-hisham-saqqa] }

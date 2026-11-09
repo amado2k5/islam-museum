@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [maghreb]
+born: { edtf: "1206", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar (Ibn Khaldun); EI2" }
+died: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar (Ibn Khaldun); EI2" }
 relations:
   - { type: founder_of, target: group/bani-abd-al-wad, sources: [source/tarikh-ibn-khaldun-ibar] }
 

@@ -13,6 +13,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 faith:
   - { value: sunni, basis: tradition, note: "صحابية تذكرها كتب الصحابة التي ينقل عنها كحالة؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
+died: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~650, al-Isaba; Usd al-Ghaba" }
 relations:
   - { type: participated_in, target: event/battle-of-khaybar, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
   - { type: related_to, target: person/umm-salama, role: "كانت معها في غزوة خيبر", sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }

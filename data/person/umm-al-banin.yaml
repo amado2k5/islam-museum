@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
+died: { edtf: "684~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (Abu al-Faraj al-Isfahani)" }
 relations:
   - { type: buried_in, target: place/al-baqi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154204)" }
 sources: [source/al-aalam]

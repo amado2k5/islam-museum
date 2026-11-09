@@ -9,6 +9,8 @@ summary:
 wings: [people]
 periods: [period/contemporary-era]
 regions: [levant-iraq]
+born: { edtf: "1905", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli / Addenda)" }
+died: { edtf: "1987", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli / Addenda)" }
 relations:
   - { type: authored, target: work/alam-al-nisa-kahhala, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: lived_in, target: place/damascus, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }

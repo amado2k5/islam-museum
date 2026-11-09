@@ -18,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~650, al-Isti'ab; al-Isaba" }
 relations:
   - { type: member_of, target: group/al-azd, note: "من بني دوس من الأزد (نساء حول الرسول ص313)." }
   - { type: spouse_of, target: person/abu-al-fakr, note: "زوجها أبو الفكر من بني دوس، هاجر إلى المدينة ثم توفي عنها (نساء حول الرسول ص314-319).", sources: [source/nisa-hawl-alrasul] }

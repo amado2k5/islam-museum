@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1584", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli); Mashra' al-Rawi" }
+died: { edtf: "1662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli); Mashra' al-Rawi" }
 relations:
   - { type: buried_in, target: place/al-huraydah, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4702529)" }
 sources: [source/al-aalam]
