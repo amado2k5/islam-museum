@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1138", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil" }
+died: { edtf: "1204", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil" }
 relations:
   - { type: born_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

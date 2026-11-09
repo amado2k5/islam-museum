@@ -10,6 +10,8 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [artist]
+born: { edtf: "1580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Welch (Mughal Painting)" }
+died: { edtf: "1650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Welch (Mughal Painting)" }
 relations:
   - { type: lived_in, target: place/india, confidence: low, note: "Mughal portrait painter under Jahangir/Shah Jahan per the record's own summary.", sources: [source/beach-grand-mogul-1978] }
   - { type: patronized_by, target: person/shah-jahan-mughal, sources: [source/beach-grand-mogul-1978] }

@@ -17,6 +17,8 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "أنصاري من أهل بدر؛ يسجَّل في الإطار السني للمتحف." }
+born: { edtf: "591~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/ansar }

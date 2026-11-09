@@ -9,6 +9,8 @@ roles: [caliph]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
+born: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1013", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with al-Andalus per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:

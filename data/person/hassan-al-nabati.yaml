@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
+died: { edtf: "1390~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 relations:
   - { type: lived_in, target: place/basra, confidence: low, note: "Associated with Basra per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

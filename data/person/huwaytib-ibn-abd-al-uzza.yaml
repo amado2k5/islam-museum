@@ -17,6 +17,8 @@ story_roles:
   - { role: convert, status: tradition, note: "أسلم عام الفتح وأعطاه النبي مائة بعير بالجعرانة (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح." }
+born: { edtf: "564~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "674", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/hudaybiyya, confidence: low, note: "Associated with Hudaybiyya per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh }

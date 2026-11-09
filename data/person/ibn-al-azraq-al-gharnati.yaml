@@ -12,6 +12,8 @@ traditions: [sunni-maliki]
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [andalus-europe, levant-iraq]
+born: { edtf: "1427", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1491", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/tlemcen, confidence: low, note: "Associated with تلمسان per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 provenance:

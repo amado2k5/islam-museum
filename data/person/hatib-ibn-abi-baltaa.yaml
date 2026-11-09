@@ -18,6 +18,8 @@ story_roles:
   - { role: interlocutor, toward: group/quraysh, status: tradition, note: "كتب إلى قريش يحذرهم مسير النبي إليهم؛ دافع بأنه لا أصل له ولا عشيرة بمكة وأراد أن يصنع عندهم يدًا يحمون بها أهله وماله.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي بدري في قول النبي في الخبر نفسه." }
+born: { edtf: "586~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "651", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ansab-al-ashraf] }
   - { type: authored, target: work/hatib-letter-to-quraysh }

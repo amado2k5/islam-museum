@@ -12,6 +12,7 @@ summary:
 roles: [teacher, writer]
 wings: [people, living]
 regions: [americas-oceania]
+born: { edtf: "1974", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary author profile" }
 relations:
   - { type: lived_in, target: place/afghanistan, confidence: low, note: "Associated with أفغانستان per the record's own summary text; relation type pending review.", sources: [source/hosaimojaddidi-website] }
   - type: student_of

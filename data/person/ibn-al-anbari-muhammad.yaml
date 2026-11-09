@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+born: { edtf: "885", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: born_in, target: place/al-anbar-governorate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

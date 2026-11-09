@@ -8,6 +8,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 roles: [scholar]
 themes: [scripture-and-its-sciences]
+born: { edtf: "1099", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "1172", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/al-rusafa, confidence: low, note: "Associated with الرصافة per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: teacher_of, target: person/ibn-al-raffa-qari, role: "تلقن عنه القراءة", sources: [source/muntazam-ibn-al-jawzi] }

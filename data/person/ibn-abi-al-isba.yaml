@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1256", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -9,6 +9,8 @@ gender: male
 wings: [people]
 themes: [politics-governance-and-authority]
 regions: [global]
+born: { edtf: "1863", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
   - { type: lived_in, target: place/dearborn, confidence: low, note: "Ford Motor Company founder based in Dearborn, Michigan.", sources: [source/assabile-tareq-al-suwaidan] }
 sources: [source/assabile-tareq-al-suwaidan]

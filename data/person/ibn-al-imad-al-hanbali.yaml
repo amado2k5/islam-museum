@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+born: { edtf: "1623", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+died: { edtf: "1679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
 relations:
   - { type: born_in, target: place/al-salihiyya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

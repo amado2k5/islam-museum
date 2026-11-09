@@ -6,6 +6,7 @@ summary:
   en: "Hayyan ibn Shurayh; Umar ibn Abd al-Aziz's governor over Egypt — his scribe al-Salt ibn Abi Asim read him Umar's letter stating that Egypt was conquered by force with neither covenant nor contract."
 wings: [people]
 periods: [period/umayyad]
+died: { edtf: "735~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-egypt, role: "متلقّي كتاب العنوة", sources: [source/futuh-buldan-maarif-1407] }

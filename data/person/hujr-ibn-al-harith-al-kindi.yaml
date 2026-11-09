@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "530~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
 relations:
   - { type: lived_in, target: place/al-qays, confidence: low, note: "Associated with القيس per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
   - { type: child_of, target: person/al-harith-ibn-amr-al-kindi, sources: [source/kamil-ibn-al-athir] }

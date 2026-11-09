@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1028", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sila (Ibn Bashkuwal)" }
 relations:
   - { type: died_in, target: place/valencia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

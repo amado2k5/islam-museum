@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 themes: [humour-and-everyday-life]
 periods: [period/pre-islamic-arabia]
+died: { edtf: "605~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/bayad, confidence: low, note: "Associated with بياض per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
 provenance:
