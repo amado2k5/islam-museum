@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+born: { edtf: "1863", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "1916", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
   - { type: born_in, target: place/bayrut, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3820)" }
   - { type: buried_in, target: place/al-bachoura-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q64729641)" }

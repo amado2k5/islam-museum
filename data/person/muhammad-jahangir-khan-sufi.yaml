@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1910~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tazkira-i Mashayikh-i Chisht" }
+died: { edtf: "1995~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tazkira-i Mashayikh-i Chisht" }
 relations:
   - { type: buried_in, target: place/kaimur-district, sources: [source/wikidata], confidence: low, note: "Wikidata Q134169961 ('Dargah Hazrat Shah Jahangir Khan'), located in Kaimur district" }
 sources: [source/al-aalam]

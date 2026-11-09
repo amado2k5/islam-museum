@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+born: { edtf: "1473", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib al-Sa'ira)" }
+died: { edtf: "1526", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib al-Sa'ira)" }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
   - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }

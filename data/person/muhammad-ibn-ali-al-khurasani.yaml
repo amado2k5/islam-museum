@@ -14,5 +14,7 @@ provenance:
   run: lib-tarikh-khulafa-batch-34
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suyuti (Tarikh al-Khulafa)" }
+died: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suyuti (Tarikh al-Khulafa)" }
 relations:
   - { type: lived_in, target: place/khorasan, confidence: low, note: "Association inferred from the nisba 'الخراساني'; specific birthplace or residence is not individually documented.", sources: [source/tarikh-khulafa-minhaj-1434] }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1933", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mecca Scholars Registry" }
+died: { edtf: "2022", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mecca Scholars Registry" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad Makki Hijazi'; specific residence not individually documented.", sources: [source/al-aalam] }

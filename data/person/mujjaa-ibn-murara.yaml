@@ -17,6 +17,7 @@ periods:
 - period/rashidun
 regions:
 - arabia
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (al-Tabaqat al-Kubra)" }
 relations:
   - { type: lived_in, target: place/al-yamama, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/battle-of-yamama, sources: [source/futuh-buldan-maarif-1407] }

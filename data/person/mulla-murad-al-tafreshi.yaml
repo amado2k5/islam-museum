@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a)" }
 relations:
   - { type: born_in, target: place/tafresh, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q614236)" }
 sources: [source/al-aalam]

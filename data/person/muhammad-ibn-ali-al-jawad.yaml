@@ -13,6 +13,8 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch28
 external_ids: { wikidata: "Q25088" }
+born: { edtf: "811", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Kulayni (al-Kafi)" }
+died: { edtf: "835", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Kulayni (al-Kafi)" }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
   - { type: died_in, target: place/kadhimiya, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q311315)" }

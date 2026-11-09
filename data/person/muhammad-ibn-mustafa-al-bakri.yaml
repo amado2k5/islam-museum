@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+born: { edtf: "1688", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar)" }
+died: { edtf: "1749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar)" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Of the al-Bakri Sufi family centred in Egypt (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
 external_ids:

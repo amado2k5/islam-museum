@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Najaf Hawza Biographical Index" }
+died: { edtf: "2005", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Najaf Hawza Biographical Index" }
 relations:
   - { type: born_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168193)" }
   - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }

@@ -23,5 +23,7 @@ provenance:
   model: "SWE-2 High"
   run: wikidata-import-0044
 status: { review: published, completeness: 2 }
+born: { edtf: "930~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi (Rijal)" }
+died: { edtf: "950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi (Rijal)" }
 relations:
   - { type: lived_in, target: place/samarqand, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2] }

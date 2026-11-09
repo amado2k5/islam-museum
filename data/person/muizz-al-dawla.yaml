@@ -8,6 +8,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "915", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn al-Athir (al-Kamil fi al-Tarikh)" }
+died: { edtf: "967", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn al-Athir (al-Kamil fi al-Tarikh)" }
 relations:
   - { type: patron_of, target: person/ibn-al-raffa-qari, role: "أخذه مع ابن البهلول ورتبهما لصلاة التراويح به", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: patron_of, target: person/ibn-al-bahlul, role: "أخذه مع ابن الرفاء ورتبهما لصلاة التراويح به", sources: [source/muntazam-ibn-al-jawzi] }

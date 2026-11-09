@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1402~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Brunei Royal Chronicle; D.E. Brown" }
 relations:
 - { type: ruled_over, target: place/brunei, sources: [source/wikidata], confidence: low, note: "Wikidata P39 office held (brunei)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]

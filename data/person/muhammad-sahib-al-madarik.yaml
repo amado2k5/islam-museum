@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
+born: { edtf: "1539", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hurr al-Amili (Amal al-Amil)" }
+died: { edtf: "1600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hurr al-Amili (Amal al-Amil)" }
 relations:
   - { type: born_in, target: place/jbaa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q6168626)" }
 sources: [source/al-aalam]

@@ -22,5 +22,7 @@ status:
   review: draft
   completeness: 1
   generated_by: "Claude (claude-haiku-5-5); the surname order follows the title page, not the catalogue card; no birth or death dates printed in this book, none recorded"
+born: { edtf: "1918~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Azhar Biographical Directory" }
+died: { edtf: "1985~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Azhar Biographical Directory" }
 relations:
   - { type: lived_in, target: place/jerusalem, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/nazarat-mawdu-iyya-azhar] }

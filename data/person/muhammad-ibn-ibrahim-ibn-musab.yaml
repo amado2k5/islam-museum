@@ -5,6 +5,7 @@ summary:
   ar: "محمد بن إبراهيم بن مصعب؛ وجهه المعتصم فيمن ضم إليه من جند الحضرة إلى محاربة مازيار بن قارن مع الحسن بن الحسين."
   en: "Muhammad ibn Ibrahim ibn Mus'ab; al-Mu'tasim sent him with the court's joined troops against Mazyar beside al-Hasan ibn al-Husayn."
 periods: [period/abbasid-early]
+died: { edtf: "857", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh al-Rusul wa-l-Muluk)" }
 relations:
   - { type: participated_in, target: event/mazyar-revolt }
   - { type: lived_in, target: place/iraq, confidence: low, note: "Early Abbasid-era figure (Futuh al-buldan); Iraqi milieu, no specific town attested.", sources: [source/futuh-buldan-maarif-1407] }

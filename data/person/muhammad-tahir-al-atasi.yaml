@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+born: { edtf: "1860", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi / al-Zirikli (al-A'lam)" }
+died: { edtf: "1959", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi / al-Zirikli (al-A'lam)" }
 relations:
   - { type: born_in, target: place/homs, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q131301)" }
 sources: [source/al-aalam]

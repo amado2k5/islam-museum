@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
+born: { edtf: "1800", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bitar (Hilyat al-Bashar)" }
+died: { edtf: "1882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bitar (Hilyat al-Bashar)" }
 relations:
   - { type: born_in, target: place/basyoun, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1072210)" }
 sources: [source/al-aalam]

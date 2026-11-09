@@ -12,6 +12,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch45
+died: { edtf: "870~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
 relations:
   - { type: ruled_over, target: place/mecca, sources: [source/muruj-al-dhahab], confidence: medium, note: "en: 'The Alid who ruled Mecca after his brother until Abu l-Saj al-Ashrusi drove him out {cite:muruj-al-dhahab" }
 sources: [source/muruj-al-dhahab]

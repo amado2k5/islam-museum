@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1640", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar)" }
+died: { edtf: "1720", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar)" }
 relations:
   - { type: lived_in, target: place/bukhara, confidence: low, note: "Association inferred from the nisba 'البخاري'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

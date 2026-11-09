@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1202", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
+died: { edtf: "1274", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
 relations:
   - { type: born_in, target: place/hama, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q173545)" }
 sources: [source/al-aalam]

@@ -39,6 +39,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "589~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "666", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
 - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 - { type: buried_in, target: place/al-baqi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154204)" }

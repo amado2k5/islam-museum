@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: participated_in, target: event/hypocrites-mock-the-army-and-excuse, role: speaker, sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/al-yamama, sources: [source/ibn-hisham-saqqa] }
