@@ -1069,6 +1069,17 @@ sources:
       robots_txt: to be read before bulk access
       note: 'ontology of numismatic concepts — coins, mints, issuing authorities, standards; ~1,300 years of Islamic numismatics; cite mint -> place, issuer -> person/polity, type/standard -> object kind coin; legend text and images never republished'
     status: enabled
+  ans-mantis:
+    name: ANS MANTIS Collection Database (American Numismatic Society)
+    url: https://numismatics.org/search/
+    licence: data ODbL + images Public Domain Mark / No Copyright-US (per-record rightsStmt, verified 9 Nov 2026); {cite:ans-mantis <accession-id>} is the attribution — ODbL share-alike attaches to derivative databases, so facts-only citation; bulk structured ingestion needs its own licence review first
+    layer: by
+    method: documented REST APIs (getNuds, getRDF), Atom/RSS feeds, per-record .xml/.rdf/.ttl/.jsonld/.kml/.geojson serializations, Solr/Lucene queries; NUDS records carry nomisma.org authority/mint URIs
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: '~98k coin objects total, ~60,672 in the Islamic department; cite object-level facts (denomination, mint, issuer, Hijri/CE date, weight, fabric) by accession id; catalogue prose, legend text and images never republished'
+    status: enabled
   british-museum:
     name: British Museum collection database
     url: https://www.britishmuseum.org/collection
