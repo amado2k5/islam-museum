@@ -17,5 +17,7 @@ status:
   review: published
   completeness: 3
 
+born: { edtf: "979", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "1039", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: ruler_of, target: place/mecca, note: "Sharif and lord of Mecca who made the caliphal claim in 381 as al-Rashid bi'llah.", sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi], confidence: high }

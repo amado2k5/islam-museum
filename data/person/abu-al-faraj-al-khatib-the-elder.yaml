@@ -23,5 +23,6 @@ provenance:
 status:
   review: published
   completeness: 3
+died: { edtf: "1100~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Asakir (Tarikh Dimashq)" }
 relations:
   - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

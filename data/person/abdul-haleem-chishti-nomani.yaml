@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1929", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wifaq al-Madaris / Obituary" }
+died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wifaq al-Madaris / Obituary" }
 relations:
   - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

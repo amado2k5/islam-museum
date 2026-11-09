@@ -12,6 +12,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sam'ani (al-Ansab)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "From text: lived in Baghdad", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: student_of, target: person/abu-al-husayn-ibn-al-qattan, role: "من أصحاب أبي الحسين ابن القطان (PDF ص62)", sources: [source/tabaqat-fuqaha-abbas-1981] }

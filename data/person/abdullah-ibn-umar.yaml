@@ -38,6 +38,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "610", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "693", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
 - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/ibn-hajar-isaba, source/sahih-muslim, source/al-masjid-fi-al-islam-azhar, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999], confidence: low }
 - { type: participated_in, target: event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal, role: "راوي الخبر؛ عاشر عشرة في المسجد", sources: [source/ibn-hisham-saqqa] }

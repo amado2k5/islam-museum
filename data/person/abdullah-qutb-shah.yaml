@@ -10,6 +10,8 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [sultan, patron]
+born: { edtf: "1614", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "1672", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: lived_in, target: place/hyderabad-deccan, sources: [source/zebrowski-deccani-painting-1983] }
 sources: [source/zebrowski-deccani-painting-1983]

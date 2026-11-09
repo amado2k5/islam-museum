@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq]
+died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
 relations:
   - { type: traveled_to, target: place/siffin, note: "Killed commanding Ali's right wing at Siffin on the second day.", sources: [source/sallabi-ali-vol2], confidence: medium }
   - { type: participated_in, target: event/battle-of-siffin, role: "قائد الميمنة في اليوم الثاني، استُشهد", sources: [source/sallabi-ali-vol2] }

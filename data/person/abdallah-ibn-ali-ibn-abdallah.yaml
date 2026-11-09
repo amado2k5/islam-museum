@@ -6,6 +6,8 @@ summary:
   en: "Abdallah ibn Ali ibn Abdallah ibn al-Abbas, the Abbasid commander; in al-Baladhuri he stayed at Basra, and Abu al-Asad — al-Mansur's mawla — was the one who brought him into Kufa; a fugitive from al-Mansur at his brother Sulayman's in Basra, the crowd cried at his door 'Commander of the Faithful, come down, we give you bay'a' till Sulayman dispersed them."
 wings: [people]
 periods: [period/umayyad, period/abbasid-early]
+born: { edtf: "721", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "764", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/al-sham, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }
   - { type: participated_in, target: event/basra-crowd-abdallah-ibn-ali }

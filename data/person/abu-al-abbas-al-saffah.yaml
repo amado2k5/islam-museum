@@ -16,5 +16,7 @@ external_ids: { wikidata: "Q252087" }
 sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/encyclopaedia-of-islam-2, source/tarikh-khalifa-umari-1985]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 4", source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 122 (EI2 enrichment, batch ei2-b002)", sources: [source/tabari-tarikh-abu-al-fadl], run: "lib-tarikh-khalifa-batch-2-2026-10-31 (enrichment)" }
 status: { review: published, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
+born: { edtf: "721", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh)" }
+died: { edtf: "754", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh)" }
 relations:
   - { type: died_in, target: place/al-anbar, note: "From text: مات بالأنبار في مدينته التي بناها {", sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/encyclopaedia-of-islam-2, source/tarikh-khalifa-umari-1985] }

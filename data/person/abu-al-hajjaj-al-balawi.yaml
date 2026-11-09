@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "1134", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Abbar (al-Takmila)" }
+died: { edtf: "1208", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Abbar (al-Takmila)" }
 relations:
   - { type: lived_in, target: place/malaga, note: "Place association from the person's nisba/name (المالقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

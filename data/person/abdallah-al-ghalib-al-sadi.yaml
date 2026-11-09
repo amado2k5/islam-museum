@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+born: { edtf: "1517", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Nuzhat al-Hadi)" }
+died: { edtf: "1574", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Nuzhat al-Hadi)" }
 relations:
   - { type: ruler_of, target: place/tlemcen, note: "From text: ملك وأحمد المنصور إلى تلمسان ", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }

@@ -17,6 +17,7 @@ story_roles:
   - { role: companion, status: tradition, note: "عين النبي واستخباراته بأوطاس قبل حنين.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي من بني أسلم." }
+died: { edtf: "690", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-al-ghaba, role: "قتل رفاعة بن قيس؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }

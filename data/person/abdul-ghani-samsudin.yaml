@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1950", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: SHURA Malaysia Biographical Profile" }
 relations:
   - { type: lived_in, target: place/malay, note: "Only the record-level region (southeast-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

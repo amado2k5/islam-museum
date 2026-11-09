@@ -21,6 +21,7 @@ story_roles:
   - { role: host, start: { edtf: "0586~" }, status: tradition, note: "داره كانت مجمع حلف الفضول لسنه وشرفه (الرحيق ص59).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "مكي ما قبل الإسلام." }
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sirah)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/mukhtasar-sirat-al-rasul-al-najdi], confidence: low }
   - { type: member_of, target: group/quraysh }

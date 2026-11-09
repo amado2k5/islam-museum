@@ -18,6 +18,8 @@ story_roles:
   - { role: convert, toward: person/muhammad, start: { edtf: "0630-12~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-12~" } }
+born: { edtf: "565~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba) / Ibn Sa'd (al-Tabaqat)" }
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba) / Ibn Sa'd (al-Tabaqat)" }
 relations:
   - { type: member_of, target: group/thaqif }
   - { type: born_in, target: place/taif }

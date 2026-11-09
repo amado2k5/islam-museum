@@ -18,6 +18,7 @@ story_roles:
   - { role: poet, status: tradition, note: "نُسب إليه أو وُصف بالشعر في هذا الفصل (ص8)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
 relations:
   - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة وهلك بها", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa] }
