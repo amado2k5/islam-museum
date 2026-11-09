@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1080~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

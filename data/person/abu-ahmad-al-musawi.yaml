@@ -14,5 +14,7 @@ provenance:
   run: lib-kamil-batch-1
 sources: [source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "1015", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi], confidence: low }

@@ -25,5 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1603", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shajara-i Tarakima" }
+died: { edtf: "1663", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shajara-i Tarakima" }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }

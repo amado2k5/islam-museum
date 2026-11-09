@@ -18,6 +18,8 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص3)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+born: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: born_in, target: place/abyssinia, note: "From text: ولد في أرض الحبشة", sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sallabi-ali-vol1] }
   - { type: member_of, target: group/banu-hashim, sources: [source/ibn-hisham-saqqa] }

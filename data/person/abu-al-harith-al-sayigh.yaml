@@ -30,5 +30,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+died: { edtf: "870~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Ya'la (Tabaqat al-Hanabila)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Among the closest companions of Ahmad ibn Hanbal, transmitting most of the recorded masa'il — Ahmad's circle was Baghdad.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: medium }

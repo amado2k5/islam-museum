@@ -12,6 +12,7 @@ wings: [people]
 themes: [armies-and-navies, seafaring-and-ports]
 periods: [period/rashidun]
 regions: [levant-iraq]
+died: { edtf: "674", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh)" }
 relations:
   - { type: lived_in, target: place/al-sham, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/sallabi-uthman-tawzi-2003], confidence: low }
   - { type: allied_with, target: group/banu-fazara, role: "حليف بني فزارة", sources: [source/sallabi-uthman-tawzi-2003] }

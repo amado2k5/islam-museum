@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1065", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+died: { edtf: "1121", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
 relations:
   - { type: lived_in, target: place/al-sham, note: "Place association from the person's nisba/name (شامي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

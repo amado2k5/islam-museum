@@ -17,6 +17,7 @@ periods:
 - period/rashidun
 regions:
 - arabia
+died: { edtf: "683", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (أنصاري); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/battle-of-yamama, sources: [source/futuh-buldan-maarif-1407] }

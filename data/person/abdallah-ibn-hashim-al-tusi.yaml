@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "869", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/tus, note: "Place association from the person's nisba/name (الطوسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
+born: { edtf: "1553", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Safwat man Intashar)" }
+died: { edtf: "1616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Safwat man Intashar)" }
 relations:
   - { type: lived_in, target: place/algiers, note: "From text: of Algiers", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: corresponded_with, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }

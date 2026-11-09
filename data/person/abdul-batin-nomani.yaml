@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1962", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Darul Uloom Mau Directory" }
 relations:
   - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (الهندي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

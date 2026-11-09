@@ -24,5 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1298", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina)" }
+died: { edtf: "1367", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina)" }
 relations:
   - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (yemeni); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

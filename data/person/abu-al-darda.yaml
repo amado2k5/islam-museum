@@ -37,6 +37,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "580", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "652", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
 - type: lived_in
   target: place/medina

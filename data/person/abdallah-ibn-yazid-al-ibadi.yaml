@@ -16,5 +16,6 @@ sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/kufa, note: "Described in al-Mas'udi as the Ibadi teacher of Kufa (alim al-Ibadiyya bi'l-Kufa) whose students came to him there.", sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim], confidence: high }

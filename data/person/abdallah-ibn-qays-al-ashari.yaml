@@ -14,5 +14,7 @@ provenance:
   run: lib-futuh-buldan-batch-43
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "597", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }

@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "715", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (al-Tabaqat)" }
 relations:
   - { type: lived_in, target: place/tabuk, note: "From text: from Tabuk.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: child_of, target: person/kaab-ibn-malik, note: "«أن أباه عبد الله... سمعت أبي كعب بن مالك»", sources: [source/ibn-hisham-saqqa] }

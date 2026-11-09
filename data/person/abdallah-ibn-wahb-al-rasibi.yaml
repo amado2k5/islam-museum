@@ -17,5 +17,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "658", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
 relations:
   - { type: traveled_to, target: place/al-nahrawan, note: "From text: نزل بهم النهروان سنة ثمان وثل", sources: [source/muruj-al-dhahab], confidence: low }

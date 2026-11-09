@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "1849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "1921", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

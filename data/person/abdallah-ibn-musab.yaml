@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "732", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad)" }
+died: { edtf: "790", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad)" }
 relations:
   - { type: died_in, target: place/baghdad, note: "Died at al-Rashid's court in Baghdad after the slander episode in al-Mas'udi.", sources: [source/muruj-al-dhahab], confidence: low }

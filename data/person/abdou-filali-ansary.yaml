@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: AKU-ISMC Institute Profile" }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
