@@ -1,7 +1,7 @@
 <script lang="ts">
   import { animate } from "motion";
   import { computePosition, flip, offset, shift } from "@floating-ui/dom";
-  import { ChevronLeft, ChevronRight, Minus, Moon, Plus, RotateCcw, Sun } from "@lucide/svelte";
+  import { ChevronLeft, ChevronRight, House, Minus, Moon, Plus, RotateCcw, Sun } from "@lucide/svelte";
   import { civilToHijri, hijriToCivil } from "../../../scripts/hijri/convert";
 
   type Span = { earliest: number; latest: number };
@@ -45,6 +45,11 @@
   let focusPage = $state(0);
   let panX = $state(0);
   let panY = $state(0);
+  let stageSize = $state({ w: 1000, h: 560 });
+  // slice-fit scale: css px per viewBox unit. Pan/zoom are applied to the world
+  // content inside the viewBox (not the svg element) so cropped edges pan in.
+  const sf = $derived(Math.max(stageSize.w / W, stageSize.h / H) || 1);
+  const camera = $derived(`translate(${panX / (sf * zoom)} ${panY / (sf * zoom)}) translate(500 280) scale(${zoom}) translate(-500 -280)`);
   let detail = $state<Item | null>(null);
   let dragging = $state(false);
   let dragDistance = $state(0);
@@ -185,11 +190,19 @@
     dragY = e.clientY;
   }
   function dragEnd() { dragging = false; }
+  $effect(() => {
+    if (!stageEl) return;
+    const ro = new ResizeObserver(() => { stageSize = { w: stageEl.clientWidth, h: stageEl.clientHeight }; });
+    ro.observe(stageEl);
+    return () => ro.disconnect();
+  });
   function clampPan() {
     const s = stageEl?.getBoundingClientRect();
     if (!s) return;
-    const mx = Math.max(0, (zoom - 1) * s.width / 2);
-    const my = Math.max(0, (zoom - 1) * s.height / 2);
+    const sceneW = Math.max(s.width, (s.height * W) / H) * zoom;
+    const sceneH = Math.max(s.height, (s.width * H) / W) * zoom;
+    const mx = Math.max(0, (sceneW - s.width) / 2);
+    const my = Math.max(0, (sceneH - s.height) / 2);
     panX = Math.min(mx, Math.max(-mx, panX));
     panY = Math.min(my, Math.max(-my, panY));
   }
@@ -332,6 +345,7 @@
 <div class="map-shell" class:full={fullscreen} style={`--hdr-top:${hdrTop}px`}>
 <div class="toolbar ui" style={`top:${fullscreen ? 0 : hdrTop}px`}>
     <button class="ctrl icon" onclick={back} disabled={!canBack} aria-label={tt("back", "عودة")}><RotateCcw size={16} /><span>{tt("back", "عودة")}</span></button>
+    <a class="ctrl icon" href={`/${lang}/`} aria-label={tt("home", "الرئيسية")}><House size={15} /></a>
     <div class="crumbs" aria-live="polite">
       <span>{tt("world", "العالم")}</span>
       {#if level !== "world"}<span>‹ {regionById.get(selectedRegion)?.label}</span>{/if}
@@ -366,6 +380,7 @@
         <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
       </defs>
       <rect width={W} height={H} class="sea" rx="24" />
+      <g class="camera" transform={camera}>
       <g class="world-map" aria-hidden="true" transform={activeWorldTransform}>
         {#each worldPaths as d}<path d={d} />{/each}
       </g>
@@ -435,6 +450,7 @@
           <text x={C.x} y={C.y + 34} text-anchor="middle" class="sub-label">{clsName(selectedEntityNode)} · {tt("details", "اضغط للتفاصيل")}</text>
         </g>
       {/if}
+      </g>
     </svg>
 
     {#if level === "city" && orbitPageCount > 1}
@@ -499,7 +515,8 @@
   .stage.dragging { cursor:grabbing; }
   .map-shell.full .stage { touch-action:none; }
   .map-viewer.light .stage,.map-viewer.light .preview { background:var(--ivory); }
-  .scene { display:block; width:100%; height:100%; direction:ltr; transform:translate(var(--panx),var(--pany)) scale(var(--zoom)); transform-origin:center; transition:transform .12s ease-out; }
+  .scene { display:block; width:100%; height:100%; direction:ltr; }
+  .camera { transition:transform .12s ease-out; }
   .stage.dragging { cursor:grabbing; }
   .sea { fill:#090909; }
   .map-viewer.light .sea { fill:var(--ivory); }
@@ -552,5 +569,5 @@
   .close { position:absolute; top:10px; inset-inline-end:10px; border:0;background:transparent;color:var(--fg);font-size:1.8rem;cursor:pointer; }
   .actions { display:flex; gap:10px; margin-top:18px; }
   .actions .chip { border:1px solid var(--gold); cursor:pointer; }
-  @media (max-width:720px) { .toolbar { align-items:flex-start; flex-direction:column; } .zoom { width:100%; } .preview { margin-inline-start:auto; } .region-label { font-size:20px; } .timebar { left:10px; right:10px; grid-template-columns:auto 1fr auto; } .timebar output { grid-column:1/-1; } }
+  @media (max-width:720px) { .toolbar { align-items:flex-start; flex-direction:column; } .zoom { width:100%; } .preview { margin-inline-start:auto; } .region-label { font-size:13px; opacity:.55; } .region-label.hover-label { font-size:18px; opacity:1; } .timebar { left:10px; right:10px; grid-template-columns:auto 1fr auto; } .timebar output { grid-column:1/-1; } }
 </style>
