@@ -18,6 +18,9 @@ open a new block on top with the new version and today's date.
 ### Added
 - **The Islam Map Viewer.** The Place wing (`/{lang}/place/`) now opens into a full-screen interactive map of the Islamic world: twelve hand-drawn regions on a Natural Earth world outline, collision-free place markers inside each region, city orbit and focus views that draw the real graph edges (people, events, buildings, works, journeys one hop from each place), a Hijri time slider from 74 BH to 1448 AH that dims everything outside its year, free pan and zoom, a parent-level preview button, and a black/ivory-gold theme toggle. All geometry is computed at build time from `world-atlas` topojson and the compiled graph — nothing is fetched at runtime — and readers without JavaScript still get the schematic MiniMap. The landing page and the Explore menu gain a localized "Islam map" card in Arabic, English and Urdu.
 
+### Fixed
+- **Validation and tour metadata corrected.** Kufa's founding year is stored as the EDTF string the schema expects, and the 3D tour's Medina and Córdoba stops now carry the same Wikidata source citation as the enriched place records, restoring the schema validation and halls parity checks.
+
 ---
 
 ## v1.4.0 — 2026-11-08
