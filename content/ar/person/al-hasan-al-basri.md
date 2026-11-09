@@ -61,3 +61,8 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 7)⁩
 
 يذكر الشيخ أن الحسن البصري سُئل عن مقامه عند الله فأجاب سائلًا: كم لله عندك؟ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:00:00} ⁦(needs_source: صيغة السؤال والجواب مضطربة في التسجيل)⁩
+
+## من برنامج «المنجيات» ⁦(الحلقة 14)⁩
+يذكر الشيخ أن الحسن البصري نشأ رضيع أم سلمة الذي كان يرضعه، وينقل عنه أربعة أمور جمعته: علم أن رزقه لن يأخذه غيره، وعمله لن يقوم به غيره، والله ينظر إليه في كل وقت، والقبر ينتظره؛ فيرى فيها ترجمة حياة كاملة من ثمار السكينة. {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:11:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:11:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:12:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:12:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:13:00}
+ويروي أن ابن تيمية كان يقرأ آيات السكينة الست إذا اشتدت عليه الأمور، وأن السكينة اسم لثلاثة أشياء منها «اللطائف التي تنطق بها ألسنة أهل الصدق كالحسن البصري». {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:09:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:09:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:10:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:10:30}
+ويستشهد بقول الحسن البصري «إن أردت أن تكلم الله فصلِّ، وإن أردت أن يكلمك الله فاقرأ القرآن» في فضل التهيؤ للصلاة قبله. {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:16:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:17:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:18:00}

@@ -26,3 +26,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يقف الشيخ عند وصف فؤاد أم موسى بأنه أصبح فارغًا، فيفسره بأنه فرغ من كل شيء إلا من موسى، ويقرّبه بأم أفلت طفلها الصغير منها في سوق مزدحم فلا تفكر في زينة ولا ثوب ولا خلاف مع زوجها، ويرى أنها كادت تقول هذا رضيعي لولا أن ربط الله على قلبها، وأن المؤمنين الصادقين فرغت قلوبهم من كل شيء إلا من حب الله والخوف منه ورجائه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:00}
+
+## من برنامج «المنجيات» ⁦(الحلقة 15)⁩
+يختم الشيخ قصتها في موضوع الطمأنينة: أوحى الله إليها أن ترضعه ثم تلقيه في اليم إن خافت عليه، فوصل الصندوق إلى قصر فرعون، فيرى في طمأنينتها أول درجة. {cite:assabile-omar-abdelkafy al-manjeyat/ep15 00:21:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep15 00:21:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep15 00:22:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep15 00:22:30}
