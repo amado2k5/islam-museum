@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1550~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ansab / Banu Siba" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

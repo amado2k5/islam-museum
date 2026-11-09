@@ -27,6 +27,8 @@ story_roles:
   - { role: companion, status: tradition }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+born: { edtf: "570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab / al-Isaba" }
+died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab / al-Isaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/assabile-mosaad-anwar, source/fadail-sahaba-ahmad-wasi-allah-1999, source/usd-ghaba], confidence: low }
   - { type: child_of, target: person/yasir-ibn-amir }

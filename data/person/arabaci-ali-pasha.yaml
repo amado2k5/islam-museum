@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1620", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDVIA / Sicill-i Osmani" }
+died: { edtf: "1693", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDVIA / Sicill-i Osmani" }
 relations:
   - { type: lived_in, target: place/belgrade, note: "From text: of Belgrade", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }

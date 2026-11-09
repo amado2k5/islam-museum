@@ -18,6 +18,7 @@ story_roles:
   - { role: poet, status: tradition, note: "استغاثة بالنبي في مسجد المدينة بأبياته الشهيرة بعد التبييت على الوتير.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "استغاثته بالنبي وقوله «أسلمنا» في قصيدته." }
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: of Mecca'", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-kab-ibn-khuzaa }

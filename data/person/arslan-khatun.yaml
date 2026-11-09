@@ -13,6 +13,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 roles: [royal]
+died: { edtf: "1114~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muntazam (Ibn al-Jawzi)" }
 relations:
   - { type: lived_in, target: place/rayy, note: "From text: qadi of Rayy", sources: [source/muntazam-ibn-al-jawzi, source/shadharat-dhahab] }
   - { type: child_of, target: person/al-qaim-billah, sources: [source/muntazam-ibn-al-jawzi] }

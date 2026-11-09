@@ -23,6 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1300~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 relations:
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: buried_in, target: place/al-wardya-cemetery, note: "Wikidata Q29513771 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }

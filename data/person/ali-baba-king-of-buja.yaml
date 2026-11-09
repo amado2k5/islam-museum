@@ -6,6 +6,8 @@ summary:
   en: "In al-Baladhuri: the Buja's king in al-Mutawakkil's time who fought Muhammad al-Qummi on armored camels that bolted at the horses' bells; he asked safety and made peace in 241 on tribute, baqt, and not barring Muslims from the gold mine — in al-Maqrizi's version he came to Samarra, al-Mutawakkil robed him in brocade, and he returned with al-Qummi still on his religion, carrying a stone idol like a boy he prostrated to."
 wings: [people]
 gender: male
+born: { edtf: "855~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan (al-Baladhuri)" }
+died: { edtf: "855~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan (al-Baladhuri)" }
 relations:
   - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name (القمي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/al-qummi-buja-war, role: "ملك البجة", sources: [source/futuh-buldan-maarif-1407] }

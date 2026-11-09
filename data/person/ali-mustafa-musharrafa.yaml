@@ -12,6 +12,8 @@ floruit: { edtf: "1937/1939", calendar: gregorian, precision: year, status: hist
 wings: [people, today]
 themes: [mathematics, education]
 regions: [egypt-nile]
+born: { edtf: "1898", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1950", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/murcia, note: "Place association from the person's nisba/name (مرسي); denotes association, not proven residence.", sources: [source/khwarizmi-jabr-cairo-1939], confidence: low }
   - { type: wrote_about, target: work/al-jabr-wal-muqabala, sources: [source/khwarizmi-jabr-cairo-1939] }

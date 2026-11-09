@@ -29,5 +29,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
+died: { edtf: "1360~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 relations:
   - { type: lived_in, target: place/algiers, note: "Place association from the person's nisba/name (الجزائري); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

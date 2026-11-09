@@ -25,5 +25,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch55
+born: { edtf: "749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "827", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: Egyptian (nationality adjective); broad association, flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

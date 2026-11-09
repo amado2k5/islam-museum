@@ -11,6 +11,7 @@ regions: [levant-iraq]
 gender: male
 roles: [calligrapher]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1357", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 relations:
   - { type: student_of, target: person/yaqut-al-mustasimi, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: lived_in, target: place/baghdad, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }

@@ -11,6 +11,7 @@ wings: [people]
 themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "540~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / Ibn Hisham" }
 relations:
   - { type: ruler_of, target: place/yemen, start: { edtf: "0525" }, end: { edtf: "0530~" }, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/abyssinian-occupation-of-yemen, role: "قائد الجيش المحتل", sources: [source/mubarakpuri-raheeq] }

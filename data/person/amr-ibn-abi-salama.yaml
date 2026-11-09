@@ -21,5 +21,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "623", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "702", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

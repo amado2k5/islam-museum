@@ -14,5 +14,7 @@ provenance:
   run: lib-futuh-buldan-batch-34
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "704", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: traveled_to, target: place/basra, note: "From text: went to Basra.", sources: [source/futuh-buldan-maarif-1407] }

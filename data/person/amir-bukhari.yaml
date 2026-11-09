@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1444", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDVIA / Mawsu'at al-Tasawwuf" }
+died: { edtf: "1516", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDVIA / Mawsu'at al-Tasawwuf" }
 relations:
   - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (بخاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

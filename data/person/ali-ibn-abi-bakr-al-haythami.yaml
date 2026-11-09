@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 1
+born: { edtf: "1335", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+died: { edtf: "1405", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
 relations:
   - { type: lived_in, target: place/cairo, note: "From text: of Cairo", sources: [source/shadharat-dhahab, source/daw-lami-jil-1992], confidence: low }

@@ -17,5 +17,7 @@ status:
   review: draft
   completeness: 1
   generated_by: Claude Haiku 5.5 (Wikidata insertion, slice S9)
+born: { edtf: "988", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a (Uyun al-Anba)" }
+died: { edtf: "1061", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a (Uyun al-Anba)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/ibn-abi-usaybia-uyun-al-anba], confidence: low }

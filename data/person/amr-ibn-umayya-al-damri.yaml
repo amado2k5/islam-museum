@@ -24,6 +24,7 @@ story_roles:
   - { role: official, toward: person/muhammad, start: { edtf: "0628~" }, status: historical, note: "سفير النبي إلى النجاشي (الرحيق ص352).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0625~" }, note: "صحابي وسفير النبي." }
+died: { edtf: "675~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/abyssinia, note: "From text: of Abyssinia.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "المبعوث لقتل أبي سفيان؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }

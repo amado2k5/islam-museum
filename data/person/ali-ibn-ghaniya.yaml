@@ -18,5 +18,6 @@ provenance:
   run: lib-wafayat-batch-3
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "1188", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
 relations:
   - { type: ruler_of, target: place/majorca, note: "From text: صاحب ميورقة ومنورقة ويابسة الج", sources: [source/wafayat-ayan], confidence: low }
