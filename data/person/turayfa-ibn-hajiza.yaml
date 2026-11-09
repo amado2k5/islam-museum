@@ -17,6 +17,7 @@ periods:
 regions:
 - arabia
 relations:
+  - { type: traveled_to, target: place/al-jawa, note: "Documented travel to al-Jawa in Qassim per al-Kamil and Futuh al-Buldan.", sources: [source/kamil-ibn-al-athir] }
   - { type: participated_in, target: event/ridda-wars, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

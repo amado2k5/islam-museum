@@ -20,3 +20,5 @@ story_roles:
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 41, from helper claims file; not yet image-checked)" }
 provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 41", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Anecdote places him at al-Mansur's court; Baghdad inferred from the Abbasid context.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
