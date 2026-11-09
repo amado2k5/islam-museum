@@ -1,0 +1,19 @@
+id: place/unayza
+class: place
+kind: locality
+label: { ar: "عنيزة", en: "Unaizah" }
+summary:
+  ar: "Unaizah, Al-Qassim Province, Saudi Arabia."
+  en: "Unaizah, Al-Qassim Province, Saudi Arabia."
+wings: [place]
+coordinates: [26.084, 43.9936]
+coordinate_precision: locality
+coordinate_note: "Unaizah, Al-Qassim Province, Saudi Arabia (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }
