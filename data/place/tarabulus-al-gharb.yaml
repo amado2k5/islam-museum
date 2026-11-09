@@ -1,0 +1,19 @@
+id: place/tarabulus-al-gharb
+class: place
+kind: locality
+label: { ar: "طرابلس الغرب", en: "Tarabulus al-Gharb" }
+summary:
+  ar: "Tripoli, Libya."
+  en: "Tripoli, Libya."
+wings: [place]
+coordinates: [32.8872, 13.1913]
+coordinate_precision: locality
+coordinate_note: "Tripoli, Libya (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -100,7 +100,7 @@ const mapData = wing === "place" ? (() => {
     const worldTransform = `translate(${(500 - ((x0 + x1) / 2) * zoomK).toFixed(2)} ${(270 - ((y0 + y1) / 2) * zoomK).toFixed(2)}) scale(${zoomK.toFixed(4)})`;
     const [labelX, labelY] = path.centroid(geo);
     const regionalPlaces = allMapPlaces
-      .filter((place) => place.coordinates && (place.regions ?? []).includes(r.id))
+      .filter((place) => place.coordinates && ((place.regions ?? []).includes(r.id) || geoContains(geo, [place.coordinates[1], place.coordinates[0]])))
       .sort((a, b) => labelOf(a, lang).localeCompare(labelOf(b, lang), "ar"));
     const placed: [number, number][] = [];
     const minDistance = 58;

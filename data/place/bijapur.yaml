@@ -1,0 +1,19 @@
+id: place/bijapur
+class: place
+kind: locality
+label: { ar: "بيجابور", en: "Bijapur" }
+summary:
+  ar: "Vijayapura (Bijapur, Adil Shahi capital), Karnataka, India."
+  en: "Vijayapura (Bijapur, Adil Shahi capital), Karnataka, India."
+wings: [place]
+coordinates: [16.8302, 75.71]
+coordinate_precision: locality
+coordinate_note: "Vijayapura (Bijapur, Adil Shahi capital), Karnataka, India (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }
