@@ -22,7 +22,20 @@ export default defineConfig({
   },
   integrations: [
     svelte(),
-    sitemap({ i18n: { defaultLocale: "ar", locales: { ar: "ar", en: "en", ur: "ur" } } }),
+    sitemap({
+      i18n: { defaultLocale: "ar", locales: { ar: "ar", en: "en", ur: "ur" } },
+      // Utility routes that are deliberately noindex (search, embeds, print/poster views,
+      // the time-browser) and the graph explorer — whose ?from= copies robots.txt blocks —
+      // stay out of the submitted sitemap, so the sitemap never contradicts the pages' own
+      // indexing signals (Google Search Console notices, 9 Nov 2026).
+      filter: (page) => {
+        const path = new URL(page).pathname;
+        return (
+          !/^\/(ar|en|ur)\/(search|embed|graph|time-browser)(\/|$)/.test(path) &&
+          !/\/(print|poster)\/$/.test(path)
+        );
+      },
+    }),
   ],
   vite: { plugins: [tailwindcss()], server: { fs: { allow: [".."] } } },
 });
