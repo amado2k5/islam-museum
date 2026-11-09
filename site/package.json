@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
     "@astrojs/svelte": "^7.2.5",
+    "@floating-ui/dom": "^1.8.0",
     "@fontsource/amiri": "^5.3.0",
     "@fontsource/amiri-quran": "^5.3.0",
     "@fontsource/cairo": "5.3.0",
@@ -19,18 +20,25 @@
     "@fontsource/noto-naskh-arabic": "^5.3.0",
     "@fontsource/reem-kufi": "^5.3.0",
     "@fontsource/source-serif-4": "^5.3.1",
+    "@lucide/svelte": "^1.70.0",
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^5.18.2",
+    "d3-geo": "^3.1.2",
     "marked": "^15.0.12",
+    "motion": "^14.10.1",
     "pagefind": "^1.6.0",
     "qrcode-generator": "2.0.4",
     "simple-icons": "14.15.0",
     "svelte": "^5.57.2",
     "tailwindcss": "^4.3.3",
     "three": "0.160.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2",
     "yaml": "^2.9.1"
   },
   "devDependencies": {
-    "@types/three": "0.160.0"
+    "@types/d3-geo": "^3.1.1",
+    "@types/three": "0.160.0",
+    "@types/topojson-client": "^3.1.5"
   }
 }
