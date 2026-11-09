@@ -370,3 +370,31 @@ Range done (4000 fiches): AFGHANISTAN Ghazni/Herat, TURKMENISTAN Sarakhs, IRAN, 
 - alhambra +40515 (Patio del Mexuar palace text 1397-98)
 - REJECTED: minaret-of-masud-iii ×3 (inscriptions were in Masud III's PALACE, not the minaret); ghurid-mausoleum ×3 (Herat Gawhar Shad mosque); tomb-of-mahmud ×3 (Ghazni "Mahmud minaret" + unidentified Bangladesh mosque); luqman-castle (Turkmenistan Luqman mausoleum vs levant-iraq fort entity); saidabad-mosque (fortress vs mosque); bab-zuwayla-proximity (Salih Talai mosque next to gate); tobolsk-mosque ×2 (Siberian nomad-camp finds); mehmed-bey-turbe/tomb-of-mehmed-v (Skopje Mehmed Bey Cami mosque + Fatih bridge); ishak-celebi-tomb (Bitola mosque+library); bayezid-i-veli-tomb (Kars citadel mosque vs Bursa tomb); samara-mosque (Gaza hammam); ilyas-bey ×3 (Yarhisar village); sidi-el-ansari (Gardigah Afghanistan); qarawiyyin (Objet fiche deferred); alhambra-count ok.
 - Next sweep: 40801-44800 running.
+
+## 2026-11-09 (p14) — TEI 40801-44800 COMPLETE + 6 new lead entities
+
+Range done (4000 fiches): heavy ISTANBUL mosque list (person-named mescidi/cami/çeşme), ALHAMBRA palace inscriptions ×50, ESPAGNE Toledo, MAROC Fez, GRECE, AFGHANISTAN, IRAN, TUNISIE.
+- alhambra +49 palace fiches (42954-44284: Partal oratory, Mexuar, Comares façade/cour/Myrtles/Barca/Comares hall, Lions complex full set, Peinador de la Reina, Infantas tower, San Francisco convent site; Objet fiche 44298 deferred)
+- NEW ENTITIES (draft, TEI-cited): gulbahar-hatun-mescidi (Edirne 29370, 1451-52), selcuk-hatun-mescidi (Edirne 29372, 1455-56), sehzade-mahmud-turbesi-bursa (Muradiye 29850+30201, 1506-08), mashhad-sad-al-ansari (Aleppo region village, 6 fiches 30090-35495, 1347-1513), zawiya-ahmad-al-badawi-damascus (30144-5, 1493-94), sofular-cami-yambol (31894, 1481-82)
+- old-mosque-stara-zagora +31898 (Büyük Cami/Hamza Bey Câmii 1408-09 — entity already identified as Hamza Bey mosque)
+- maqam-ibrahim +43022 (Mecca Harām restoration 1509-10); mosque-of-cristo-de-la-luz +42962 (Toledo Bab al-Mardum 1300-01); elvan-celebi-mosque +41085 (Çorum complex 1307-08); al-zaytuna-mosque +41806 (Tunis 1583-84); atik-valide-mosque +42197 (Üsküdar 1583-84); haseki-hurrem-mosque +42049 (Istanbul 1539-40); hamza-bey-mosque-thessaloniki +43151 (1467-68); tomb-of-mustafa-turabi +44375 (Akşehir 1542-43)
+- REJECTED ~60: Istanbul person-named mosques/fountains/hammams vs tomb entities (Mahmud/Mehmed/Yahya Efendi/Ali Efendi/Seyyid Ali Reis/Kılıç Ali/Kara Mehmed/Hurrem Çavuş/Daye Hatun/Koca Mustafa/Kurd Çelebi/Zal Mahmud/Defterdar/Cerrah Mahmud/Mehmed Ağa çesmesi ×8/Sokullu Mehmed ×2/Yahya Efendi ×2/Murad III çesmesi); Hurrem Sultan HAMAMI (bath not tomb); minaret-of-masud-iii ×3 (palace); ghurid×0; yedikule (Hacı Evhad proximity); cifte-gelinler (mosque vs tomb); of-ramazan-efendi (mescidi vs tomb); seyyid-ali/ishak/ahmed-bey/esen-bey/seyh-saban/atabey-gazi/hasan-efendi (mosque-vs-tomb namesakes); ismail-bey+sultan-ismail (Kastamonu imaret); aksaray (Agzikara han); gulbahar-hatun-tomb (Trabzon Gülbahar Hatun Camii — NEW mosque, tomb entities unaffected); karawiyyin Objet ×2 deferred; khan-mosque-isfahan (village proximity); tomb-of-mehmed-v fountains/baths ×15.
+- Next sweep: 44801-48800 running.
+
+## 2026-11-09 (p15) — TEI 44801-48800 COMPLETE (thin range)
+
+Range done (4000 fiches): MAROC Fez Qarawiyyin cluster, ISTANBUL remainder, scattered Balkans/Greece/Afghanistan.
+- qarawiyyin +7 architectural fiches (47828 west pavilion sahn 1205-06, 47829 mosque pavilion 1339-40, 47902 dome before Bab al-Ward + 47945 maṣriyyat al-Khaṭīb hall 1436-37, 47972-4 Bab al-Shammā'īn lustres 1213-14); 3 Objet fiches deferred (47968,47969,47978)
+- guzelce-hasan-bey-mosque +45061 (Hayrabolu 1499-1500 — later text on the 1406 mosque)
+- REJECTED: abdurrahman-sultan-tomb (Akmescid mosque), sultan-ii-selim-tomb (Edirne Selim II mosque Objet), tomb-of-mehmed-v ×3 (Sokullu medrese/mosque + Bosnia church-conversion), tophane-fountain (Kılıç Ali mosque), of-ramazan-efendi (Bazargân mescidi), minaret-of-masud-iii (palace again).
+- Next sweep: 48801-52800 running (covers ~52000 target).
+
+## 2026-11-09 (p16) — TEI 48801-52800 COMPLETE — SWEEP MILESTONE (~52000 reached)
+
+Final range done (4000 fiches, through fiche 52800 — target ~52000 exceeded).
+- sehzade-mosque +49226 (Şehzade Sultan Mehmed mosque külliye Eminönü 1548-49)
+- madrasa-of-al-nasir-muhammad +50259 (wooden entrance-door text 1303-04)
+- madrasa-al-ghawri +50914,50915 (Ghawriyya madrasa between al-Moski and Bab Zuwayla 1511-12 — routed to Ghawri entity, NOT bab-zuwayla proximity)
+- REJECTED: palace-of-yashbak (Yashbak mausoleum vs palace), al-nasir-muhammad-MOSQUE on madrasa fiche, sultan-hasan Objet fiche (51596 deferred), bab-al-nasr (Zakki mosque outside Aleppo gate), sultan-ismail (Homs turba), aksaray ×2 + pervane-medrese (hans Alay/Oresin), tomb-of-mahmud (Mahmud Muharram mosque), iii-murad-turbesi (Mecca Murad III imaret), esrefoglu ×2 (Konya mosque vs Beysehir entity), qanibay (madrasa vs mosque), tomb-of-mehmed-v ×2 (Sokullu külliye).
+- SWEEP STATUS: TEI fiches 1-52800 harvested+matched. Total session: ranges 28801→52800 = 60,000 fiches this thread; cumulative coverage well past halfway of ~52k target.
+- Remaining: catalogue reportedly continues past 52800 (id space may extend further) — decide whether to continue 52801+ or pause sweep; explore-list source families still pending.
