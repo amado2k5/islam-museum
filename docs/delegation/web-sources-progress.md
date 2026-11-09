@@ -187,3 +187,7 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 - REJECTED: 8483/8484 Aleppo Harawi mausoleum (part of Aleppo Maqam complex) ≠ Mecca object; 8488 Aleppo Bab al-Nasr ≠ cairo gate; 8563 Tunis Masjid al-Mihras neighbourhood oratory ≠ zaytuna (proximity); 8744 Kastamonu Frenkshah mosque in Atabey Gazi quarter ≠ atabey-gazi-tomb (quarter-name).
 - Next sweep fiches.py 8801 12800 running (PID 24630).
 - Range totals so far: 1-4800 = 5200 fiches (incl. earlier ranges); 4801-8800 = 4000. TEI id space continues to ~52k.
+
+## 2026-11-09 (p4) — duplicate merge: melik-gazi-turbesi → melikgazi-tomb
+
+- Both draft stubs modelled the same Niksar Melik Gazi türbe (TEI fiche 8238 confirms "mausolée Melik Gāzī Türbesi" at Niksar; fiche 2108 already on melikgazi-tomb). Survivor melikgazi-tomb is richer (tei-epigraphie source + tei:2108); loser's slug added to its `aliases`, file removed per workflow.md duplicates rule. Loser carried wikidata Q139419953 vs survivor Q131390466 — two Wikidata items for the same monument; survivor's kept (id immutable, alias preserves links).
