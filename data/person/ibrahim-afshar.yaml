@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/colonial-era]
+died: { edtf: "1748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: died_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

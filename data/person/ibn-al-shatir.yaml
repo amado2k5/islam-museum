@@ -11,6 +11,8 @@ roles: [scholar]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
+born: { edtf: "1304~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1375", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/kashf-zunun-furqan] }
 provenance:

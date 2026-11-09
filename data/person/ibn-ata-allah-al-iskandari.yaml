@@ -13,6 +13,8 @@ wings: [people]
 themes: [spirituality-and-sufism]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1259~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1309", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/siyar-alam-nubala-ideas-house] }
   - { type: student_of, target: person/abu-al-abbas-al-mursi, sources: [source/siyar-alam-nubala-ideas-house] }

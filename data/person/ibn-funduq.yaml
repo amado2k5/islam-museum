@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1097~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1169", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: lived_in, target: place/khorasan, confidence: low, note: "Associated with خراسان per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]

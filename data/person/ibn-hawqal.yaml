@@ -13,6 +13,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
+born: { edtf: "943~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "978~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: authored, target: work/surat-al-ard-ibn-hawqal, sources: [source/surat-al-ard-ibn-hawqal-dar-maktabat-al-hayat-1992] }
   - { type: traveled_to, target: place/baghdad, sources: [source/surat-al-ard-ibn-hawqal-dar-maktabat-al-hayat-1992], note: "بدأ منها سفره في رمضان 331هـ" }

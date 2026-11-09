@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+born: { edtf: "1827", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hilyat al-Bashar" }
+died: { edtf: "1908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hilyat al-Bashar" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

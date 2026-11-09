@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/contemporary-era]
+born: { edtf: "1958~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Diwan al-Ifta (Tunisia)" }
 relations:
   - { type: born_in, target: place/sousse, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

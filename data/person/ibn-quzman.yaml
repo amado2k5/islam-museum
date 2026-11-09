@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
+born: { edtf: "1078~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1160", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with الأندلس per the record's own text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:

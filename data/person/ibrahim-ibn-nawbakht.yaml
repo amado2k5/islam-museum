@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 traditions: [shia-twelver]
+born: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+died: { edtf: "940~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/duha-islam] }
 sources: [source/duha-islam]

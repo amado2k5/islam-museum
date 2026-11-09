@@ -6,6 +6,8 @@ summary:
   en: "Abdallah ibn al-Muqaffa'; the famed chancery secretary, Baladhuri's source for the Persian zamam, seals and diwan usages."
 periods: [period/umayyad, period/abbasid-early]
 wings: [people]
+born: { edtf: "724~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "759~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/fars, confidence: low, note: "Associated with فارس per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
 sources: [source/futuh-buldan-maarif-1407, source/fihrist-ibn-al-nadim, source/nihayat-al-arab-nuwayri-vol3-scan]

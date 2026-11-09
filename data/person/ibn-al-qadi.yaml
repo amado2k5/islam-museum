@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [maghreb]
+born: { edtf: "1553", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/riyadh, confidence: low, note: "Associated with الرياض per the record's own summary text; relation type pending review.", sources: [source/kashf-zunun-furqan] }
   - { type: authored, target: work/azhar-al-riyad, sources: [source/kashf-zunun-furqan] }
