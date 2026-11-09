@@ -1,0 +1,21 @@
+id: source/ans-mantis
+class: source
+kind: reference_data
+type: database
+label:
+  ar: "مانتيس ⁦(قاعدة بيانات مجموعات الجمعية الأمريكية لعلم النقود)⁩"
+  en: "MANTIS (ANS collection database)"
+  ur: "MANTIS (ANS collection database)"
+summary:
+  ar: "قاعدة بيانات مجموعات الجمعية الأمريكية لعلم النقود — كتالوج لنحو ٩٨ ألف قطعة نقدية، نحو ٦٠٬٦٧٢ منها في القسم الإسلامي وحده، بمعرّفات وصول ثابتة وسجلّات ببروتوكول NUDS/RDF/JSON-LD، وبياناتها مرخّصة برخصة Open Database License والصور بلا حقوق نشر."
+  en: "The American Numismatic Society's collection database — a catalogue of roughly 98,000 coin objects, about 60,672 in the Islamic department alone, with stable accession ids and NUDS/RDF/JSON-LD record serializations; data licensed ODbL, images Public Domain Mark / No Copyright-US."
+  ur: "The American Numismatic Society's collection database — a catalogue of roughly 98,000 coin objects, about 60,672 in the Islamic department alone, with stable accession ids and NUDS/RDF/JSON-LD record serializations; data licensed ODbL, images Public Domain Mark / No Copyright-US."
+title: "ANS MANTIS Collection Database"
+publisher: "American Numismatic Society (numismatics.org)"
+URL: "https://numismatics.org/search/"
+language: en
+reliability_note: "The object-level counterpart of Nomisma.org: where Nomisma carries the numismatic vocabulary, MANTIS carries the physical coins — accession id, denomination, mint, issuing authority (Wikidata- and Nomisma-linked), Hijri and Gregorian dates, weight and fabric — the primary evidence class for the museum's two kind:coin objects and the coin backlog behind them. Licence: data ODbL, images Public Domain Mark / No Copyright-US (verified per-record 9 Nov 2026); {cite:ans-mantis <accession-id>} is the attribution. Caveat: ODbL share-alike attaches to derivative databases — cite facts with attribution, and bulk structured ingestion needs its own licence review before it runs. Catalogue prose, legend text and images are never republished. Harvest channel: documented REST APIs (getNuds, getRDF), Atom/RSS feeds, per-record .xml/.rdf/.ttl/.jsonld/.kml/.geojson serializations, Solr/Lucene queries; ~60,672 Islamic-department records. Verified live 9 November 2026; decision dec-20261109-226 (supersedes engine false-positive dec-20261109-225)."
+sources: [source/ans-mantis]
+open_access: true
+provenance: { layer: own-research, source: "Muse web-sources lane assessment 2026-11-09 (decision ledger dec-20261109-226)", generated_by: "Devin", model: "SWE-2 Flash High", run: web-sources-explore-registration-2026-11-09 }
+status: { review: published, generated_by: "Devin" }
