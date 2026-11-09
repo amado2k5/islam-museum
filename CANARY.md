@@ -146,6 +146,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **The Bengali dawah scene enters the museum (modern-figures wave 197).** Twenty-one new records map the Bengali-language lecture (waz) world of Bangladesh and its diaspora: one preacher — Abdul Hai Muhammad Saifullah, khatib of Masjidul Juma Complex in Pallabi, Dhaka, whose verified Facebook page counts 3.3 million followers — and twenty lecture-aggregator channels from Islamer Rasta (5.14 million subscribers) down to Islamic Media Waz (291,000), each recorded from a dated platform read and each stating plainly that no named operator was identified for it. One promoted channel, Waz TV (886,000), is recorded from its statistics page because its handle could not be pinned, and one revived channel's three-year dormancy is stated rather than smoothed over. Channels already in the museum from an earlier pass (Shaykh Ahmadullah, Abu Taw Haa Muhammad Adnan, Holy Tune) were recognised and not duplicated.
+- **Tradition-judge outputs stay out of git.** `.gitignore` now also covers `tradition-golden-results.jsonl` and `islamlab-match.jsonl`, matching the existing regenerable-artifact policy for packets and audit output; the files remain in the working tree for the calibration runs.
 ## v1.3.1 — 2026-11-07
 
 ### Tests
