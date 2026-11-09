@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ya'rubids)" }
 relations:
   - { type: lived_in, target: place/oman, confidence: low, note: "Associated with Oman per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

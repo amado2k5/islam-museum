@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia, south-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1157", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Bahram Shah)" }
 relations:
   - { type: born_in, target: place/ghazna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/ghazna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

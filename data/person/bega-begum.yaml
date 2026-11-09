@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1511", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Bega Begum)" }
+died: { edtf: "1582", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Bega Begum)" }
 relations:
   - { type: born_in, target: place/khorasan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

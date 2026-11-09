@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia]
 roles: [ruler, military]
+died: { edtf: "1206", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Juzjani (Tabaqat-i Nasiri)" }
 relations:
   - { type: lived_in, target: place/bamiyan, confidence: low, note: "Associated with باميان per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]

@@ -10,6 +10,7 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [artist]
+died: { edtf: "1660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Beach (Grand Mogul)" }
 relations:
   - { type: lived_in, target: place/india, confidence: low, note: "Mughal court painter under Jahangir and Shah Jahan per the record's cited Beach study.", sources: [source/beach-grand-mogul-1978] }
   - { type: patronized_by, target: person/shah-jahan-mughal, sources: [source/beach-grand-mogul-1978] }

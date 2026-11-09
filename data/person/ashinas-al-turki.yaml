@@ -13,6 +13,7 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch44
+died: { edtf: "844", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh al-Rusul wa'l-Muluk)" }
 relations:
   - { type: lived_in, target: place/samarra, note: "Settled at Karkh Fayruz in Sur man Raa (Samarra) by al-Mu'tasim's iqta.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: high }
   - { type: lived_in, target: place/al-qatul, note: "Given Qasr al-Rashid at al-Qatul.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }

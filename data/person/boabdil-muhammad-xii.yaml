@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe, maghreb]
+born: { edtf: "1459", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqqari (Nafh al-Tib)" }
+died: { edtf: "1533", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqqari (Nafh al-Tib)" }
 relations:
   - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with الأندلس per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:

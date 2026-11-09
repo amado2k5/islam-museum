@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/contemporary-era]
+died: { edtf: "1630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Floor (Traditional Crafts in Qajar Iran)" }
 relations:
   - { type: lived_in, target: place/banna, confidence: low, note: "Associated with Banna per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

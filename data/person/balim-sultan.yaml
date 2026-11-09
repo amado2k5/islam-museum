@@ -12,6 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 themes: [spirituality-and-sufism]
+died: { edtf: "1516~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Balim Sultan)" }
 relations:
   - { type: born_in, target: place/didymoteicho, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/nev-ehir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

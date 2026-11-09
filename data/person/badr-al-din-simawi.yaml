@@ -24,6 +24,8 @@ sensitivity: contested
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1359", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Bedreddin Simavi)" }
+died: { edtf: "1420", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Bedreddin Simavi)" }
 relations:
   - { type: lived_in, target: place/edirne, confidence: low, note: "Associated with أدرنة per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: person/musa-ibn-bayezid, role: "قاضي عسكره", sources: [source/dawlat-uthmaniyya-salabi] }

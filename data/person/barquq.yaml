@@ -15,6 +15,8 @@ provenance:
   extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 198-202"]
 sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/yeomans-islamic-cairo-2006]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1336", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "1399", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/daher, confidence: low, note: "Associated with الظاهر per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
   - { type: built, target: building/complex-sultan-barquq, sources: [source/yeomans-islamic-cairo-2006] }

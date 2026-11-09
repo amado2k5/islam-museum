@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+died: { edtf: "1680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qadiri (Nashr al-Mathani)" }
 relations:
   - { type: born_in, target: place/morocco, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

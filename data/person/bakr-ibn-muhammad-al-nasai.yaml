@@ -12,6 +12,7 @@ traditions: [sunni-hanbali]
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+died: { edtf: "930", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/nasa, confidence: low, note: "Associated with Nasa per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 provenance:

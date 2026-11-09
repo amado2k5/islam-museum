@@ -12,6 +12,8 @@ wings: [people]
 regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [spirituality-and-sufism]
+born: { edtf: "1170", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Baha al-Din Zakariyya)" }
+died: { edtf: "1262", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Baha al-Din Zakariyya)" }
 relations:
   - { type: died_in, target: place/multan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/shrine-of-bahauddin-zakariya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

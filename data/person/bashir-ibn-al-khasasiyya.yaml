@@ -17,6 +17,7 @@ regions:
 - arabia
 periods:
 - period/prophetic-era
+died: { edtf: "645~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion renamed by the Prophet per the record's own summary; residence pending review.", sources: [source/wikidata] }
 sources:

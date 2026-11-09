@@ -12,6 +12,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch36
+died: { edtf: "672", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/medina, note: "Said ibn Zayd's sister and al-Zubayr's wife; Medinan milieu, flagged.", sources: [source/muruj-al-dhahab], confidence: medium }
 sources: [source/muruj-al-dhahab, source/assabile-mustafa-hosny, source/assabile-tareq-al-suwaidan]
