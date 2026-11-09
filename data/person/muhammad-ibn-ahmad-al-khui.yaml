@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1229", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidayah" }
+died: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidayah" }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
 sources: [source/al-aalam]

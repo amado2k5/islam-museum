@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+died: { edtf: "775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
 relations:
   - { type: born_in, target: place/hadramawt, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1517159)" }
   - { type: died_in, target: place/cordoba, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q25528561)" }

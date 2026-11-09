@@ -5,6 +5,8 @@ summary:
   ar: "أمير عربي عقيلي صاحب حديثة عانة على الفرات، آوى الخليفة العباسي القائم بأمر الله سنة كاملة لما نفاه البساسيري وقريش بن بدران من بغداد سنة 450هـ، وكان «حسن الطريقة» يتولى خدمته بنفسه حتى عاد مكرماً بعد قتل البساسيري {cite:muntazam-ibn-al-jawzi j.8 p.113} {cite:shadharat-dhahab p.296}. وعنده قال القائم شعره المشهور في الحديثة «خابت ظنوني فيمن كنت آمله» {cite:muntazam-ibn-al-jawzi j.8 p.114}."
 gender: male
 roles: [ruler]
+born: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "760~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
 - { type: lived_in, target: place/haditha, confidence: low, note: "Associated with حديثة per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
 - type: member_of

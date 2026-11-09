@@ -14,6 +14,8 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-39
+born: { edtf: "1120", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib" }
+died: { edtf: "1193", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib" }
 relations:
   - { type: lived_in, target: place/granada, sources: [source/nafh-tib-maqqari] }
 sources: [source/nafh-tib-maqqari]

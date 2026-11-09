@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1844", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+died: { edtf: "1932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
 relations:
   - { type: lived_in, target: place/kazarun, confidence: low, note: "Association inferred from the nisba 'كازروني'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

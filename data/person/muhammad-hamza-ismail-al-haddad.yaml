@@ -12,6 +12,7 @@ wings: [people, today]
 themes: [architecture, sacred-space-and-pilgrimage]
 regions: [egypt-nile, arabia]
 periods: [period/contemporary-era]
+born: { edtf: "1953", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Cairo University" }
 relations:
   - { type: lived_in, target: place/cairo, sources: [source/haddad-asbila-makka-madina-2004] }
   - { type: authored, target: work/al-asbila-bi-makka-wa-al-madina, sources: [source/haddad-asbila-makka-madina-2004] }

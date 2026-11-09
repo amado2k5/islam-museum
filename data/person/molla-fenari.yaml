@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1350", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1431", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: born_in, target: place/bursa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q40738)" }
 sources: [source/al-aalam]

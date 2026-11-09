@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1444", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib" }
+died: { edtf: "1515", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib" }
 relations:
   - { type: born_in, target: place/asyut, sources: [source/wikidata], confidence: low, note: "Born in Asyut, he learned the Qur'an by heart under Sa'd al-Din al-Wajiyy, and studied fiqh with al-Zaki al-Ma" }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

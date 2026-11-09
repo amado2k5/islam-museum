@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch49
+born: { edtf: "845~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+died: { edtf: "933", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
 relations:
   - { type: lived_in, target: place/balis, sources: [source/wikidata], confidence: low, note: "Nisba بالسي attested in the record." }
 sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]

@@ -13,6 +13,8 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq, persia-central-asia]
 roles: [military]
+born: { edtf: "1052", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
+died: { edtf: "1101", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
 relations:
   - { type: child_of, target: person/nizam-al-mulk, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }

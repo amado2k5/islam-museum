@@ -12,6 +12,8 @@ gender: male
 roles: [scholar]
 periods: [period/contemporary-era]
 floruit: { edtf: "1972", calendar: gregorian, precision: year, status: historical, note: "Title page of the 1972 study {cite:ush-kanz-umm-hajara-1972 p. 1}.", sources: [source/ush-kanz-umm-hajara-1972] }
+born: { edtf: "1916", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Arab Academy of Damascus" }
+died: { edtf: "1990", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Arab Academy of Damascus" }
 relations:
   - { type: authored, target: work/kanz-umm-hajara-al-fiddi, sources: [source/ush-kanz-umm-hajara-1972] }
 

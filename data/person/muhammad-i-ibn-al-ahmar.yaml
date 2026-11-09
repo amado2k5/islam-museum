@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
+born: { edtf: "1195", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1273", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: founder_of, target: group/bani-al-ahmar, sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: born_in, target: place/arjona, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1354411)" }

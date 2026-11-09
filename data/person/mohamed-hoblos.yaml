@@ -23,6 +23,7 @@ wings:
   - living
 regions:
   - americas-oceania
+born: { edtf: "1980~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Public registries" }
 relations:
   - { type: lived_in, target: place/lebanon, confidence: low, note: "Associated with لبنان per the record's own text; relation type pending review.", sources: [source/wikidata] }
 faith:

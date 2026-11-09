@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1621", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+died: { edtf: "1682", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
 relations:
   - { type: born_in, target: place/sanaa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2471)" }
   - { type: died_in, target: place/radaa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2125362)" }

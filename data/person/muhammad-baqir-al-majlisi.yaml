@@ -13,6 +13,8 @@ regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 faith:
 - { value: shia-twelver, basis: tradition, note: "Safavid Imami scholar and shaykh al-islam per the biographical tradition" }
+born: { edtf: "1627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: born_in, target: place/isfahan-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1367759)" }
   - { type: born_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
