@@ -40,6 +40,12 @@ relations:
   - { type: about, target: person/umar-ibn-al-khattab, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: person/uthman-ibn-affan, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: passage/quran-85, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/jabir-ibn-abdullah, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/abu-hanifa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/abdullah-ibn-masud, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/abu-hurayra, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/sadaqa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: passage/quran-26, sources: [source/assabile-omar-abdelkafy] }
 sources: [source/assabile-omar-abdelkafy]
 provenance: { layer: copyrighted-reference, source: "Assabile, silsilat-qissa-wa-ebra ep01 (transcript pass5-qwen; engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2; claims table approved by the founder 31 Oct 2026)", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: khutab-durus-silsilat-qissa-ep01 }
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5); run khutab-durus-silsilat-qissa-ep01" }
