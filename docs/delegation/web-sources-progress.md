@@ -167,3 +167,48 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 
 - match5 on ~2960-record partial: 33 candidates. Enriched minaret-of-masud-iii (Ghazni minaret inscription, brick, 1114-1115, sovereign testimony).
 - REJECTED: 7393 Bursa Şehadet Camii inscription (moved there 1890, origin uncertain — not attributed to tomb-of-orhan-gazi); 7431 Husayniyya shaykh-Isma'il tomb ≠ sultan-ismail-mosque; 7441 Damascus Tankiziyya madrasa ≠ jerusalem tankiziyya; 7483 Nasir Muhammad sabil fountain — monument is a fountain at madrasa corner, not the building itself (proximity-tier, skipped); 7542 enameled glass mosque lamp = movable object, no entity; 7623 Aleppo Maqam ≠ Mecca object.
+
+## 2026-11-08 (p4) — TEI batch 5 partial: fiches ~4801-8000 scanned, +2 entities
+
+- match5.py on ~3227-record partial: enriched mosque-of-al-salih-talai +7948 (Cairo Fatimid mosque construction text, 1160 — matches built:1160 exactly; earlier proximity-match to bab-zuwayla corrected to the mosque entity itself) and dar-al-arqam +7952 (Mecca basalt revetment plaque, restoration text 1160).
+- REJECTED: 7961 Damascus "Mosquée Hassan" outside Bab al-Jabiya — NOT umayyad-mosque (TEI calls that "Mosquée des Omeyyades"); NOT al-hassan-mosque/hassan-mosque (both are maghreb/gunpowder-era = Hassan II Casablanca). LEAD: unidentified Damascus mosque, possible new entity — needs identification before creating.
+- 7996 Aleppo Maqam Ibrahim ≠ Mecca object (recurring false).
+- Sweep still running (~80%).
+
+## 2026-11-08 (p4 cont.) — TEI batch 5: +5 entities, +12 fiches (partial ~3640/4000)
+
+- Enriched: al-madrasa-al-salahiyya-jerusalem +8184 (Salahiye madrasa near St Stephen's gate, 1192-1193); qarawiyyin +8279 (courtyard pavilion fountain, 1202-1203); hanabila-mosque +8282,8283,8284,8285 (4 Damascus inscriptions, 1197-1203); al-zaytuna-mosque +8415 (north facade, Tunis, 864-865); alhambra +8424,8425,8428 (3 Nasrid palace column inscriptions, 951-960).
+- REJECTED: 8045 Salhad Isma'il-Shufi house ≠ sultan-ismail-mosque; 8073/8235 Aleppo Maqam ≠ Mecca; 8238 Niksar citadel-tower inscription moved into Melik Gazi türbe — subject is the citadel wall, not the tomb (skipped both); 8278 Sinjar Iraq mosque ≠ bangladesh singar-mosque.
+- DUPLICATE LEAD: melik-gazi-turbesi vs melikgazi-tomb (both Niksar Melik Gazi tomb entities; latter has tei 2108) — alias-merge candidate for a future pass.
+
+## 2026-11-09 (p4) — TEI 4801-8800 COMPLETE (4000 fiches) + next range 8801-12800 launched
+
+- fiches-4801-8800.jsonl complete: exactly 4000 records. Final match pass on completed file: +9 fiches across 4 entities — al-zaytuna-mosque +8527,8528,8555,8557,8761 (5 Tunis inscriptions); qarawiyyin +8687,8721; bab-al-futuh +8616 (Cairo gate, first external_ids); pir-bakran-mausoleum +8628 (Isfahan-region Ilkhanid tomb).
+- REJECTED: 8483/8484 Aleppo Harawi mausoleum (part of Aleppo Maqam complex) ≠ Mecca object; 8488 Aleppo Bab al-Nasr ≠ cairo gate; 8563 Tunis Masjid al-Mihras neighbourhood oratory ≠ zaytuna (proximity); 8744 Kastamonu Frenkshah mosque in Atabey Gazi quarter ≠ atabey-gazi-tomb (quarter-name).
+- Next sweep fiches.py 8801 12800 running (PID 24630).
+- Range totals so far: 1-4800 = 5200 fiches (incl. earlier ranges); 4801-8800 = 4000. TEI id space continues to ~52k.
+
+## 2026-11-09 (p4) — duplicate merge: melik-gazi-turbesi → melikgazi-tomb
+
+- Both draft stubs modelled the same Niksar Melik Gazi türbe (TEI fiche 8238 confirms "mausolée Melik Gāzī Türbesi" at Niksar; fiche 2108 already on melikgazi-tomb). Survivor melikgazi-tomb is richer (tei-epigraphie source + tei:2108); loser's slug added to its `aliases`, file removed per workflow.md duplicates rule. Loser carried wikidata Q139419953 vs survivor Q131390466 — two Wikidata items for the same monument; survivor's kept (id immutable, alias preserves links).
+
+## 2026-11-09 (p4) — TEI 8801-12800 partial (~750/4000): +8 fiches, 2 entities
+
+- Enriched: al-muayyad-mosque-cairo +9039,9343,9344,9345,9346,9347,9348 (7 Cairo inscriptions for the Mu'ayyad Shaykh complex near Bab Zuwayla — matcher hit bab-zuwayla on proximity but the mosque entity exists; corrected); qarawiyyin +9177.
+- REJECTED: 8983 Bursa Orhan Camii ≠ tomb-of-orhan-gazi; 9165 Tlemcen Mechouar mosque ≠ el-mechouar-palace; 9330 Aleppo Zakki ≠ cairo bab-al-nasr; 9410 Bursa Selcuk Hatun Mescidi ≠ istanbul selcuk-hatun-mosque nor the two tomb entities; 9433 Marrakesh Kutubiyya mosque — only object/minbar-kutubiyya exists (LEAD: no building entity for the mosque); 9450 Safad Jami' Iskandar ≠ johor sultan-iskandar-mosque; 9508 Konya Darül-huffazı in Gazi Alemşah quarter ≠ alemsah-tomb (quarter-name); 9532 Damascus citadel Bab al-Nasr ≠ cairo gate.
+- Hassan cluster CHECKED: al-hassan-mosque (Q141458797 = unfinished Rabat Hassan mosque), hassan-mosque (Q60536409 = 1196 Moroccan heritage mosque, different coords), hassan-ii-mosque (Q41346 = Casablanca 1993) — three DISTINCT mosques, no merge.
+
+## 2026-11-09 (p4 cont.) — TEI 8801-12800 partial ~1135: +4 fiches, 2 entities
+
+- Enriched: dastur-khan-mosque +9880 (Ahmedabad Dastur Khan mosque construction text, Astodia Chakla, 1462-1463 — entity IS the Ahmedabad mosque); qarawiyyin +9802,9803,9804 (Bab Sbitrin + Bab Jana'iz gates, 1136-1137).
+- REJECTED: 9616 Kastamonu Ismail Bey CAMII (mosque portal) ≠ ismail-bey-tomb; 9791 Cairo Khushqadam-Ahmadi mosque ≠ tunis mosque-of-el-ahmadi; 9856 Cairo Sayyida Ruqayya ≠ baghdad bimaristan; 9873 Aleppo Maqam ≠ Mecca; 9882 Haram well of Ibrahim al-Rumi/Sabil al-Basiri — monument is a well, not the oratory (proximity).
+
+## 2026-11-09 (p4 cont.) — TEI 8801-12800 partial ~1580: +3 fiches, 2 entities
+
+- Enriched: uc-serefeli-mosque +10290,10316 (Edirne Üç Şerefeli Cami courtyard + left-door inscriptions, 15th c — fixed a duplicate external_ids key my insert created); hanabila-mosque +10221 (Jami' Muzaffari = al-Hanabila prayer hall, Damascus).
+- REJECTED: 10017 Haram Sabil al-Basiri (fountain ≠ oratory entity); 10019 Homs Kujuki mausoleum ≠ sultan-ismail-mosque; 10042 Aleppo Zakki; 10093 Edirne Topkapi Hamami (hamam, 'edirne' token only); 10145 Cairo Aynal al-Yusufi fountain (proximity); 10147 Iznik Mahmud Celebi Camii ≠ ghazni tomb-of-mahmud; 10148 Bursa-Karacabey road marker ≠ karacabey-tomb; 10192 Ankara Gecik mescidi (mosque) ≠ gecik-mescidi-turbesi (tomb); 10372 Bursa Mihrapli Kopru/Selcuk Hatun bridge ≠ istanbul selcuk entities.
+
+## 2026-11-09 (p4 cont.) — TEI 8801-12800 partial ~2050: +2 entities
+
+- Enriched: achut-bibi-mosque-tomb +10658 (Bibi Achut Kuki mosque Dudheshwar — entity covers mosque+tomb, kind:tomb but dual); firuz-aga-mosque +10751 (Istanbul Firuz Aga Cami, Sultanahmet, portal inscription).
+- REJECTED: 10648 Trabzon Ickale citadel mosque (Sirin Hatun/Yukari Hisar Cami) ≠ sirin-hatun-tomb.
