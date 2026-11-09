@@ -11,6 +11,8 @@ summary:
 wings: [people]
 themes: [translation-and-transmission]
 regions: [andalus-europe]
+born: { edtf: "1808", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Brockhaus Enzyklopadie" }
+died: { edtf: "1899", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Brockhaus Enzyklopadie" }
 relations:
   - { type: lived_in, target: place/paris, confidence: low, note: "Associated with Paris per the record's own summary text; relation type pending review.", sources: [source/mujam-ma-istaajam-bakri] }
   - { type: wrote_about, target: work/mujam-ma-istaajam, sources: [source/mujam-ma-istaajam-bakri] }

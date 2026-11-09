@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1649", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Athar Ali (Mughal Nobility)" }
+died: { edtf: "1710", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Athar Ali (Mughal Nobility)" }
 relations:
   - { type: born_in, target: place/bukhara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/ahmedabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

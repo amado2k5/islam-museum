@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/rashidun, period/umayyad, period/abbasid-early]
 regions: [persia-central-asia]
+born: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "690~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/al-mafaza, confidence: low, note: "Associated with المفازة per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

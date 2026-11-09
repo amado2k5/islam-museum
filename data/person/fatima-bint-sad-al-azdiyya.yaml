@@ -8,6 +8,8 @@ gender: female
 wings: [people]
 story_roles: [{ role: family-of-the-prophet }]
 themes: [family-marriage-kinship, women]
+born: { edtf: "400~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+died: { edtf: "460~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
 relations:
   - { type: lived_in, target: place/yemen, confidence: low, note: "Azdi woman counted among the Yemenites per the record's cited Ansab al-Ashraf passage.", sources: [source/ansab-al-ashraf] }
   - { type: child_of, target: person/qusayy-ibn-kilab, sources: [source/ansab-al-ashraf] }

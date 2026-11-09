@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+born: { edtf: "1948", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Egyptian Musicians Syndicate" }
+died: { edtf: "2007", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Egyptian Musicians Syndicate" }
 relations:
   - { type: born_in, target: place/jerusalem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

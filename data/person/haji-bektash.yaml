@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans, persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1209", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1271", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/nishapur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/nev-ehir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
