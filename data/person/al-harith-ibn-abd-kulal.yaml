@@ -18,6 +18,7 @@ story_roles:
   - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "كتب بإسلامه مقدم النبي من تبوك (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أعلن إسلامه في كتاب ملوك حمير (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab 1/280); Ibn Hajar (al-Isabah 1/676)" }
 relations:
   - { type: lived_in, target: place/tabuk, note: "From text: from Tabuk", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq], confidence: low }
   - { type: member_of, target: group/himyar, sources: [source/ibn-hisham-saqqa] }

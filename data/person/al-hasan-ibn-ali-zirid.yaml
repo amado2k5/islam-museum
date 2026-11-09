@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [maghreb]
+born: { edtf: "1109", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: H. R. Idris (La Berbérie orientale sous les Zirides); EI2" }
+died: { edtf: "1171", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: H. R. Idris (La Berbérie orientale sous les Zirides); EI2" }
 relations:
   - { type: ruler_of, target: place/al-mahdiyya, note: "From text: sultan of Mahdiyya", sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: child_of, target: person/ali-ibn-yahya-zirid, sources: [source/tarikh-ibn-khaldun-ibar] }

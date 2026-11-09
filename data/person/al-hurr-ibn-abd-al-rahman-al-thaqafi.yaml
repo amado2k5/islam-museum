@@ -14,5 +14,6 @@ provenance:
   source: "salabi-umayyad-state-2020 pp. 83-84"
   generated_by: "Claude (Haiku 5.5, subagent)"
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 pp. 83-84; the book gives no exact dates for his governorship" }
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hurr b. Abd al-Rahman'; governor 98–100 AH)" }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/salabi-umayyad-state-2020], confidence: low }

@@ -14,5 +14,6 @@ provenance:
   run: lib-tarikh-khulafa-batch-48
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "1352", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqrizi (al-Suluk li-Ma'rifat Duwal al-Muluk; d. 753 AH)" }
 relations:
   - { type: died_in, target: place/qus, note: "From text: مات بقوص فقدم عليه ابن عمه إبراهيم ", sources: [source/tarikh-khulafa-minhaj-1434] }

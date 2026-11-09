@@ -18,5 +18,7 @@ provenance:
   model: "unknown"
 sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1176", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'azzam' / R. S. Humphreys; 572–624 AH)" }
+died: { edtf: "1227", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'azzam' / R. S. Humphreys; 572–624 AH)" }
 relations:
   - { type: born_in, target: place/cairo, note: "From text: born in Cairo", sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab] }

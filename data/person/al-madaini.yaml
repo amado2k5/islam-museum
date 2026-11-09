@@ -12,6 +12,8 @@ summary:
   en: "In al-Baladhuri: al-Mada'ini via Maslama ibn Muharib — Khalid ibn Yazid counselled Abd al-Malik to forbid Roman dinars, prevent trading them, and bar papyrus from their lands, so none was carried to them for a time — a narrator in Futuh al-Buldan."
 wings: [people]
 gender: male
+born: { edtf: "752", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mada'ini' / U. Sezgin; 135–228 AH)" }
+died: { edtf: "843", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mada'ini' / U. Sezgin; 135–228 AH)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "The historian al-Mada'ini, whose akhbar corpus was transmitted in the Baghdad scholarly milieu where he worked.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim], confidence: medium }
   - { type: participated_in, target: event/qaratis-dinar-crisis, role: "راوي رواية المنع", sources: [source/futuh-buldan-maarif-1407] }

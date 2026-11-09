@@ -17,6 +17,7 @@ wings: [people]
 themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "554", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Lakhmids' / Irfan Shahid; al-Mundhir III; d. 554 CE)" }
 relations:
   - { type: ruler_of, target: place/al-hira, sources: [source/mubarakpuri-raheeq, source/al-aalam] }
   - { type: member_of, target: group/banu-lakhm }

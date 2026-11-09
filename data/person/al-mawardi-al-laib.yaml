@@ -12,6 +12,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch35
+died: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suli (Kitab al-Shatranj; chess master to caliphs)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Al-Muktafi's court chess-master at Baghdad.", sources: [source/muruj-al-dhahab], confidence: medium }
 sources: [source/muruj-al-dhahab]

@@ -17,5 +17,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "896~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mas'udi' / Ch. Pellat; d. 345 AH)" }
+died: { edtf: "956", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mas'udi' / Ch. Pellat; d. 345 AH)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

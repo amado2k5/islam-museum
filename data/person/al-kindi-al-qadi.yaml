@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [egypt-nile]
+born: { edtf: "897", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kindi" }
+died: { edtf: "961", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kindi" }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/kashf-zunun-furqan], confidence: low }
   - { type: authored, target: work/qudat-misr, sources: [source/kashf-zunun-furqan] }

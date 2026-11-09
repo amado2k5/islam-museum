@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+born: { edtf: "830~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mufaddal b. Salama' / R. Sellheim; d. c. 290 AH)" }
+died: { edtf: "903~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mufaddal b. Salama' / R. Sellheim; d. c. 290 AH)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Baghdad philology circle; al-Suli transmitted from him; regions field levant-iraq.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

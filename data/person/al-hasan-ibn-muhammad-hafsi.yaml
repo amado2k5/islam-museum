@@ -11,6 +11,7 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
+died: { edtf: "1550", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Hafsids' / Brunschvig)" }
 relations:
   - { type: ruler_of, target: place/tunis, note: "From text: sultan of Tunis", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruler_of, target: place/tunis, sources: [source/dawlat-uthmaniyya-salabi] }

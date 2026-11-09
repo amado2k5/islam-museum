@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1377", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami' 3/144; 779–855 AH)" }
+died: { edtf: "1451", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami' 3/144; 779–855 AH)" }
 relations:
   - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (اليمني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

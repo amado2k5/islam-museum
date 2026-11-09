@@ -22,6 +22,7 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 93"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-4
+died: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isabah 6/172; d. ~12 AH)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: "عامل النبي على صنعاء؛ خرج عليه الأسود العنسي وهو بها", sources: [source/ibn-hisham-saqqa] }

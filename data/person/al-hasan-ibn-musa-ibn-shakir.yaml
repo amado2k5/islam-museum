@@ -19,6 +19,8 @@ roles: [mathematician, astronomer]
 regions: [levant-iraq]
 wings: [people]
 
+born: { edtf: "810~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Banu Musa' / D. Pingree); Ibn al-Nadim" }
+died: { edtf: "873~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Banu Musa' / D. Pingree); Ibn al-Nadim" }
 relations:
   - { type: child_of, target: person/musa-ibn-shakir, sources: [source/wikipedia-banu-musa-en, source/wikipedia-banu-musa-ar] }
   - { type: lived_in, target: place/baghdad, sources: [source/wikipedia-banu-musa-en, source/wikipedia-banu-musa-ar] }

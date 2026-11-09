@@ -20,5 +20,6 @@ story_roles:
 sources: [source/sharh-muallaqat-sab-zawzani-1921]
 status: { review: published, completeness: 1 }
 provenance: { layer: own-research, source: "الزوزني، شرح المعلقات السبع، المكتبة التجارية الكبرى 1921، ص 163", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-muallaqat-4" }
+died: { edtf: "570~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 2/154); EI2 ('al-Harith b. Hilliza')" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/sharh-muallaqat-sab-zawzani-1921], confidence: low }

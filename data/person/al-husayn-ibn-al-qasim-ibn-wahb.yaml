@@ -14,5 +14,6 @@ provenance:
   run: lib-kamil-batch-7
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "932~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Ibn Wahb' / D. Sourdel; Abbasid vizier d. c. 320 AH)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Vizier of al-Muqtadir; the court sat in Baghdad.", sources: [source/kamil-ibn-al-athir], confidence: medium }

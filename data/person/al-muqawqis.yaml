@@ -7,6 +7,8 @@ summary:
   ur: "مصر کے حکمران، جن کی عمرو بن عاص کے ساتھ صلح اور قبطیوں و رومیوں کے لیے طے شدہ شرائط کا ذکر بلاذری کی روایت میں آتا ہے۔ {cite:futuh-buldan-maarif-1407}"
 wings: [people]
 periods: [period/rashidun]
+born: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mukawkis' / K. Ohlig; fl. Byzantine Egypt 628–641 CE)" }
+died: { edtf: "641~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mukawkis' / K. Ohlig; fl. Byzantine Egypt 628–641 CE)" }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999], confidence: low }
   - { type: participated_in, target: event/conquest-of-alexandria, role: "صاحب الصلح المرفوض", sources: [source/futuh-buldan-maarif-1407] }

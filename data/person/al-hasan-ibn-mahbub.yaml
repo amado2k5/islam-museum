@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
+born: { edtf: "766~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi (Rijal al-Najashi; d. 224 AH)" }
+died: { edtf: "839~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi (Rijal al-Najashi; d. 224 AH)" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Ninth-century transmitter; record regions field is levant-iraq.", sources: [source/al-aalam], confidence: low }
 sources: [source/al-aalam]

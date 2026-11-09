@@ -21,6 +21,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1075~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor; EI2 ('al-Khazini' / R. E. Hall; fl. 1115–1130)" }
+died: { edtf: "1130~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor; EI2 ('al-Khazini' / R. E. Hall; fl. 1115–1130)" }
 relations:
   - { type: lived_in, target: place/merv, sources: [source/khazini-hall-dsb] }
 inventions:

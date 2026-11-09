@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
+born: { edtf: "1707", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Djazair' / H. D. de Grammont" }
+died: { edtf: "1710", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Djazair' / H. D. de Grammont" }
 relations:
   - { type: ruled_over, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/hasan-aga-al-tushi, sources: [source/dawlat-uthmaniyya-salabi] }

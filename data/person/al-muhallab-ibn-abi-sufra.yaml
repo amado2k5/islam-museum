@@ -14,5 +14,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhallab b. Abi Sufra' / P. Crone; d. 82 AH)" }
+died: { edtf: "702", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhallab b. Abi Sufra' / P. Crone; d. 82 AH)" }
 relations:
   - { type: lived_in, target: place/basra, note: "From text: أهل البصرة وقائد حروب الأزارق", sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020, source/akhbar-tiwal-amir], confidence: low }

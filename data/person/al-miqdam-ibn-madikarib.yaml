@@ -49,6 +49,8 @@ sources:
 status:
   review: published
   completeness: 3
+born: { edtf: "590~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isabah 6/166; d. 80 AH at age 87/91)" }
+died: { edtf: "699~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isabah 6/166; d. 80 AH at age 87/91)" }
 relations:
   - { type: lived_in, target: place/al-sham, note: "From text: lived in Syria", sources: [source/ibn-hajar-isaba] }
   - { type: lived_in, target: place/homs, note: "From text: settled at Homs", sources: [source/ibn-hajar-isaba] }

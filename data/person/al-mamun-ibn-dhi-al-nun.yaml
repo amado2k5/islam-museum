@@ -16,5 +16,6 @@ provenance:
   run: prose-fill-persons-batch47
 sources: [source/nafh-tib-maqqari]
 status: { review: published, completeness: 3 }
+died: { edtf: "1075", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Dhu'l-Nunids' / D. M. Dunlop; d. 467 AH)" }
 relations:
   - { type: ruler_of, target: place/tulaytula, note: "From text: king of Toledo", sources: [source/nafh-tib-maqqari] }

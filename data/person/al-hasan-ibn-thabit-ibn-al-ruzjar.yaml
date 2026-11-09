@@ -23,5 +23,6 @@ status:
   review: draft
   completeness: 1
   generated_by: "Claude Haiku 5.5; biography read on scan pp.8192. Note: The book gives no dates (? - ?). The grade ('thiqa') is attributed by the book to Ibn Numayr via Ali ibn al-Junayd, as printed in Tahdhib al-tahdhib. Cross-reference entries in the appendix create no entity. Urdu is a short draft only."
+died: { edtf: "1053", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jawzi (al-Muntazam; d. 445 AH)" }
 relations:
   - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (الكوفي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

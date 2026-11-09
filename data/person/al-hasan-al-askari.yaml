@@ -17,5 +17,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "846", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hasan al-Askari' / B. Lewis); al-Kulayni (al-Kafi)" }
+died: { edtf: "874", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hasan al-Askari' / B. Lewis); al-Kulayni (al-Kafi)" }
 relations:
   - { type: died_in, target: place/samarra, note: "From text: died at Samarra", sources: [source/muruj-al-dhahab] }

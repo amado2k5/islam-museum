@@ -12,6 +12,8 @@ provenance:
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-86
+born: { edtf: "891", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqrizi (Itti'az al-Hunafa); al-Zirikli (al-A'lam 2/177)" }
+died: { edtf: "977", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqrizi (Itti'az al-Hunafa); al-Zirikli (al-A'lam 2/177)" }
 relations:
   - { type: ruled_over, target: place/damascus, note: "Held Damascus before 360 and defeated the Fatimid governor outside it, per Shadharat.", sources: [source/shadharat-dhahab], confidence: medium }
 sources: [source/shadharat-dhahab]

@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Khayyat' / D. Pingree; fl. late 8th/early 9th c.)" }
+died: { edtf: "835~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Khayyat' / D. Pingree; fl. late 8th/early 9th c.)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Court astrologer to Yahya al-Barmaki, pupil of Masha'allah; the Barmakid court was Baghdad.", sources: [source/fihrist-ibn-al-nadim], confidence: medium }

@@ -22,5 +22,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1022", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 5/288; al-Hakim al-Jishumi; 413–494 AH)" }
+died: { edtf: "1101", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 5/288; al-Hakim al-Jishumi; 413–494 AH)" }
 relations:
   - { type: lived_in, target: place/bayhaq, note: "Place association from the person's nisba/name (bayhaqi); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
