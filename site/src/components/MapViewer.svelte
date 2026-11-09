@@ -495,7 +495,9 @@
   .preview-world { fill:rgba(212,175,55,.03); stroke:rgba(212,175,55,.55); stroke-width:3; }
   .preview-region { fill:rgba(212,175,55,.22); stroke:var(--gold); stroke-width:4; }
   .preview-region.selected { fill:rgba(212,175,55,.34); }
-  .stage { position:relative; flex:1; min-height:0; border:0; border-radius:0; overflow:hidden; background:var(--panel); touch-action:pan-y; }
+  .stage { position:relative; flex:1; min-height:0; border:0; border-radius:0; overflow:hidden; background:var(--panel); touch-action:pan-y; cursor:grab; }
+  .stage.dragging { cursor:grabbing; }
+  .map-shell.full .stage { touch-action:none; }
   .map-viewer.light .stage,.map-viewer.light .preview { background:var(--ivory); }
   .scene { display:block; width:100%; height:100%; direction:ltr; transform:translate(var(--panx),var(--pany)) scale(var(--zoom)); transform-origin:center; transition:transform .12s ease-out; }
   .stage.dragging { cursor:grabbing; }
