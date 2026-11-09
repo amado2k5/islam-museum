@@ -44,3 +44,20 @@ The packet answers were drafted with an assistant's help; the founder re-reviewe
 4. **Headship never counts.** Family background, hereditary leadership, descent within a Sufi or clerical structure, and formal office in such a structure NEVER constitute personal faith attestation — order heads, hereditary pirs and office-holders are recorded exactly like anyone else, on attestation of the man himself alone (the re-review expressly reversed a headship-counts rule; the six records settled under it returned to `unknown`).
 5. **Practice in context.** Attested personal practice can settle `sufi` where the context is a living Sufi tradition (the Wahid precedent, Kashmiri context).
 6. **Grandfathered records.** `person/bilal-philips`, `person/siraj-wahhaj` and `person/qazi-muhammad-isa` carry bare `sunni`/documented by the founder's express ruling; they are settled cases, not precedents for new bare-value settlements.
+
+## Founder genre ruling, 9 November 2026 (standing doctrine)
+
+1. **Nasheed & audio arts are in scope.** Nasheed artists, composers, and related studio executives (e.g. Muhammad Badruzzaman) are explicitly in scope for biographical person records, aligning with the existing precedent for qawwals and reciters and with this lane's published performance person `person/muaz-habib` (wave 192).
+2. **Scripted drama & fiction are in scope.** Creators, directors, and primary figures of Islamic moral dramas and scripted short films (e.g. Akib Ahmed) are approved for person records, provided their catalog aligns with the museum's broader cultural and educational mandate.
+3. **Entity separation.** The individual creator receives a person record, while their production company, network, or primary YouTube channel (e.g. Holy Tune, Akib Islamic TV) is catalogued separately as a group record.
+
+This ruling applies to all future audio and dramatic arts candidates in the pipeline. First applications (wave 197 §C): `person/akib-ahmed` (his channel group `group/akib-islamic-tv` already stands from wave 192) and `person/muhammad-badruzzaman` (his label `group/holy-tune` already stands from wave 192).
+
+## Founder authorization dec-155, 9 November 2026 — Wave 198 (Somali pass) screening protocol
+
+Wave 198 (the Somali pass) is formally greenlit with mandatory conditions on every candidate:
+
+1. **Extremist adjacency screen.** Every record must undergo a strict al-Shabaab-adjacency screen. Any candidate with verified links, endorsements, or financial ties to designated terrorist organizations (cross-referenced against UN, FBI, Interpol, EU, and DHS databases) fails the screen.
+2. **Dated re-reads.** All biographical claims, institutional affiliations, and historical events must be corroborated with dated re-reads from primary or strictly verified secondary sources.
+
+Any candidate failing the adjacency screen is routed to the blacklist review queue and is not built.
