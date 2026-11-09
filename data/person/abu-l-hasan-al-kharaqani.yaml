@@ -24,5 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "963", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Attar, Tadhkirat al-Awliya; al-Dhahabi, Siyar" }
+died: { edtf: "1033", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Attar, Tadhkirat al-Awliya; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (khurasani); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -10,5 +10,6 @@ wings: [people]
 regions: [arabia]
 sources: [source/mubarakpuri-raheeq]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum pp. 230, 249" }
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham, al-Sira al-Nabawiyya; Ibn Hajar, al-Isaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq], confidence: low }

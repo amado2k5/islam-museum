@@ -18,6 +18,7 @@ story_roles:
   - { role: convert, start: { edtf: "0622" }, status: tradition, note: "أسلم عند اللقاء مع سبعين من قومه.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622" }, note: "أسلم في طريق الهجرة؛ يسجَّل في الإطار السني للمتحف." }
+died: { edtf: "682~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar, al-Isaba; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq], confidence: low }
   - { type: member_of, target: group/early-muslims }

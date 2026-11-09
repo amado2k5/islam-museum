@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "740", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
+died: { edtf: "828", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/basra, note: "The traditionist al-Dahhak ibn Makhlad al-Shaybani, d. 212; his transmitter circle was Basran.", sources: [source/muruj-al-dhahab], confidence: medium }

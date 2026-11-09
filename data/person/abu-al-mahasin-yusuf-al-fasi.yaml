@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+born: { edtf: "1531", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qadi, Durrat al-Hijal; al-Zirikli, al-A'lam" }
+died: { edtf: "1604", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qadi, Durrat al-Hijal; al-Zirikli, al-A'lam" }
 relations:
   - { type: lived_in, target: place/fez, note: "Place association from the person's nisba/name (الفاسي); denotes association, not proven residence.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: allied_with, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }

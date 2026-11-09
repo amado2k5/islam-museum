@@ -6,6 +6,7 @@ summary:
   en: "In al-Baladhuri: Abu Khatim al-Saddrati — the original reads al-Sudrani, of Sudrana — the Ibadi of Sadrata's people, a mawla of Kinda; he fought Umar ibn Hafs al-Ataki who was martyred and his city al-Abbasiyya demolished, then Yazid ibn Hatim killed him at Batr Iblis."
 wings: [people]
 gender: male
+died: { edtf: "895~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shammakhi, Kitab al-Siyar" }
 relations:
   - { type: lived_in, target: place/ifriqiya, note: "Ibadi of Sadrata's people (ahl Sadrata), a mawla of Kinda, who fought Umar ibn Hafs in Ifriqiya.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
   - { type: participated_in, target: event/martyrdom-of-umar-ibn-hafs, role: "الإباضي القاتل", sources: [source/futuh-buldan-maarif-1407] }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "984", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi, Rijal al-Najashi; al-Hurr al-Amili, Amal al-Amil" }
+died: { edtf: "1055", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi, Rijal al-Najashi; al-Hurr al-Amili, Amal al-Amil" }
 relations:
   - { type: lived_in, target: place/aleppo, note: "Place association from the person's nisba/name (الحلبي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

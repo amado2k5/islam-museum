@@ -19,6 +19,7 @@ story_roles:
   - { role: companion, start: { edtf: "0628" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0615~" }, note: "صحابي ومهاجر صابر." }
+died: { edtf: "639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr, al-Isti'ab; Ibn Hajar, al-Isaba" }
 relations:
   - { type: born_in, target: place/mecca }
   - { type: child_of, target: person/suhayl-ibn-amr }

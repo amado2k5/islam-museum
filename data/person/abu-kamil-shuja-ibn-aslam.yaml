@@ -17,6 +17,8 @@ wings: [people]
 themes: [mathematics]
 periods: [period/abbasid-early]
 regions: [egypt-nile]
+born: { edtf: "850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim, al-Fihrist; Sesiano, EI2" }
+died: { edtf: "930~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim, al-Fihrist; Sesiano, EI2" }
 relations:
   - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name (الخوارزمي); denotes association, not proven residence.", sources: [source/sezgin-gas-v-mathematik, source/khwarizmi-jabr-cairo-1939, source/abu-kamil-mactutor, source/tdv-abu-kamil, source/dosay-abu-kamil-1990], confidence: low }
   - { type: influenced_by, target: person/al-khwarizmi, sources: [source/khwarizmi-jabr-cairo-1939] }

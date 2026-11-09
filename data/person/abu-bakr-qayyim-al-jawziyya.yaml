@@ -23,6 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1323", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Rajab, al-Dhayl 'ala Tabaqat al-Hanabila" }
 relations:
   - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: buried_in, target: place/bab-al-saghir-cemetery, note: "Wikidata Q96372940 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }

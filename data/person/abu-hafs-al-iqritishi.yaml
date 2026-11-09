@@ -6,6 +6,7 @@ summary:
   en: "In al-Baladhuri: Umar ibn Isa al-Andalusi, known as al-Iqritishi; he raided Crete in al-Ma'mun's caliphate, opened a single fortress and settled it, then kept opening bit by bit until no Romans remained in it and he ruined their fortresses."
 wings: [people]
 gender: male
+died: { edtf: "855", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hayyan; Reinhart Dozy, Histoire des Musulmans d'Espagne" }
 relations:
   - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/conquest-of-iqritish, role: "المتتم للفتح", sources: [source/futuh-buldan-maarif-1407] }

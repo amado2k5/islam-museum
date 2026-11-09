@@ -32,5 +32,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/youtube-abu-bakr-zoud, source/website-abu-bakr-zoud, source/yaqeen-abu-bakr-zoud]
+born: { edtf: "1980~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Islamic preacher, active 21st c." }
 relations:
   - { type: lived_in, target: place/australia, note: "From text: Australian (nationality adjective); broad association, flagged for review.", sources: [source/youtube-abu-bakr-zoud, source/website-abu-bakr-zoud, source/yaqeen-abu-bakr-zoud], confidence: low }

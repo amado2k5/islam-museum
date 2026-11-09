@@ -12,6 +12,8 @@ gender: male
 roles: [scholar]
 periods: [period/crusades-ayyubid-mamluk]
 floruit: { edtf: "1261", hijri: "0660", calendar: julian, precision: year, status: tradition, note: "Date printed with his name in the Azhar catalogue {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 16}.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+born: { edtf: "1220~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Suter, Die Mathematiker und Astronomen der Araber" }
+died: { edtf: "1282~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Suter, Die Mathematiker und Astronomen der Araber" }
 relations:
   - { type: lived_in, target: place/marrakesh, note: "Place association from the person's nisba/name (المراكشي); denotes association, not proven residence.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006], confidence: low }
   - { type: authored, target: work/jami-al-mabadi-wal-ghayat, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }

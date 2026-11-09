@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+died: { edtf: "1554", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani, Nuzhat al-Hadi; Encyclopaedia of Islam 2nd Ed." }
 relations:
   - { type: ruled_over, target: place/fez, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: allied_with, target: person/salih-rais, sources: [source/dawlat-uthmaniyya-salabi] }

@@ -23,5 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani, Kitab al-Aghani; al-Zirikli, al-A'lam" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }

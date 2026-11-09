@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1447", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aydarus, al-Nur al-Safir; al-Zirikli, al-A'lam" }
+died: { edtf: "1508", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aydarus, al-Nur al-Safir; al-Zirikli, al-A'lam" }
 relations:
   - { type: lived_in, target: place/aden, note: "Place association from the person's nisba/name (العدني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

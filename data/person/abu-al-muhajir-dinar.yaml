@@ -10,5 +10,6 @@ regions: [maghreb]
 sources: [source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020]
 provenance: { layer: own-research, source: "umayyad-birth-to-fall-2006 p. 16, p. 17", generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 pp. 16-17" }
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 pp. 16-17; the book gives no exact dates for his command" }
+died: { edtf: "683", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Idhari, al-Bayan al-Mughrib; Ibn Abd al-Hakam" }
 relations:
   - { type: lived_in, target: place/ifriqiya, note: "From text: of Ifriqiya", sources: [source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020], confidence: low }
