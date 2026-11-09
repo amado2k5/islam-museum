@@ -167,3 +167,10 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 
 - match5 on ~2960-record partial: 33 candidates. Enriched minaret-of-masud-iii (Ghazni minaret inscription, brick, 1114-1115, sovereign testimony).
 - REJECTED: 7393 Bursa Şehadet Camii inscription (moved there 1890, origin uncertain — not attributed to tomb-of-orhan-gazi); 7431 Husayniyya shaykh-Isma'il tomb ≠ sultan-ismail-mosque; 7441 Damascus Tankiziyya madrasa ≠ jerusalem tankiziyya; 7483 Nasir Muhammad sabil fountain — monument is a fountain at madrasa corner, not the building itself (proximity-tier, skipped); 7542 enameled glass mosque lamp = movable object, no entity; 7623 Aleppo Maqam ≠ Mecca object.
+
+## 2026-11-08 (p4) — TEI batch 5 partial: fiches ~4801-8000 scanned, +2 entities
+
+- match5.py on ~3227-record partial: enriched mosque-of-al-salih-talai +7948 (Cairo Fatimid mosque construction text, 1160 — matches built:1160 exactly; earlier proximity-match to bab-zuwayla corrected to the mosque entity itself) and dar-al-arqam +7952 (Mecca basalt revetment plaque, restoration text 1160).
+- REJECTED: 7961 Damascus "Mosquée Hassan" outside Bab al-Jabiya — NOT umayyad-mosque (TEI calls that "Mosquée des Omeyyades"); NOT al-hassan-mosque/hassan-mosque (both are maghreb/gunpowder-era = Hassan II Casablanca). LEAD: unidentified Damascus mosque, possible new entity — needs identification before creating.
+- 7996 Aleppo Maqam Ibrahim ≠ Mecca object (recurring false).
+- Sweep still running (~80%).
