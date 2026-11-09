@@ -10,6 +10,8 @@ summary:
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+born: { edtf: "530~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil fi al-Tarikh / Ibn al-Athir" }
+died: { edtf: "550~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil fi al-Tarikh / Ibn al-Athir" }
 relations:
   - { type: lived_in, target: place/al-qays, confidence: low, note: "Associated with القيس per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/banu-asad-ibn-khuzayma, sources: [source/kamil-ibn-al-athir] }

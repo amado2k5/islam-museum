@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+born: { edtf: "753", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Husn al-Muhadara / al-Suyuti" }
+died: { edtf: "819", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Husn al-Muhadara / al-Suyuti" }
 relations:
   - { type: lived_in, target: place/al-furat-city, confidence: low, note: "Associated with الفرات per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

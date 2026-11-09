@@ -14,6 +14,7 @@ regions: [arabia]
 story_roles:
   - { role: ruler, toward: group/ghassan, status: tradition, sources: [source/mubarakpuri-raheeq] }
   - { role: convert, status: tradition, note: "انقاد للإسلام في عهد عمر ثم ارتد في روايات لاحقة — يُسجَّل هنا ما عند المباركفوري.", sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "645", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
 relations:
   - { type: member_of, target: group/ghassan }
   - { type: ruler_of, target: polity/ghassanid-kingdom, end: { edtf: "0636" }, sources: [source/mubarakpuri-raheeq] }

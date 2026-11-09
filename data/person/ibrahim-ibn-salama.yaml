@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/umayyad, period/abbasid-early]
 regions: [levant-iraq]
+born: { edtf: "747~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf / al-Baladhuri" }
+died: { edtf: "755~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf / al-Baladhuri" }
 relations:
   - { type: lived_in, target: place/al-khawarnaq, confidence: low, note: "Associated with الخورنق per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

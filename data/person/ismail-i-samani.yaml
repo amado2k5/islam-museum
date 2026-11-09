@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
+born: { edtf: "849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "907", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: born_in, target: place/ferghana-valley, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/balkh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1550", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
 relations:
   - { type: born_in, target: place/golconda-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/golconda-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

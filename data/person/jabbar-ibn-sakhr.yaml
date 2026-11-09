@@ -13,6 +13,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "650", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba / Ibn Hajar" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/ansar, sources: [source/ibn-hisham-saqqa] }

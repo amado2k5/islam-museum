@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/modern-era]
+born: { edtf: "1852", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a / Muhsin al-Amin" }
+died: { edtf: "1924", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a / Muhsin al-Amin" }
 relations:
   - { type: died_in, target: place/najaf, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/imam-ali-shrine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1394", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "1435", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: lived_in, target: place/fars, confidence: low, note: "Associated with فارس per the record's own summary text; relation type pending review.", sources: [source/bosworth-new-islamic-dynasties-1996] }
 sources: [source/bosworth-new-islamic-dynasties-1996]

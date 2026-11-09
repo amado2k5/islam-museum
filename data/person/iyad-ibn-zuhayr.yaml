@@ -17,6 +17,8 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص10)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+born: { edtf: "615~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab / Ibn Abd al-Barr" }
+died: { edtf: "635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab / Ibn Abd al-Barr" }
 relations:
   - { type: member_of, target: group/banu-al-harith, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }

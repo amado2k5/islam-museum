@@ -6,6 +6,8 @@ summary:
   en: "Isa ibn Ali ibn Abdallah ibn al-Abbas; in al-Baladhuri from al-Waqidi: he was at Mar'ash — having led that year's raid — when Michael came out of the Darb al-Hadath with eighty thousand in year 161 and reached the city gate; Isa's mawalis, the townsfolk and their fighters went out, shot him with arrows, pursued when he feigned flight, then he turned on them and killed eight of Isa's mawalis before besieging the shut city and withdrawing to Jayhan."
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "702", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala / al-Dhahabi" }
+died: { edtf: "780", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala / al-Dhahabi" }
 relations:
   - { type: lived_in, target: place/al-hadath, confidence: low, note: "Associated with الحدث per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/michael-incursion-161, role: "أمير مرعش يوم الغارة", sources: [source/futuh-buldan-maarif-1407] }

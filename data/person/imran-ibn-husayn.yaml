@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [arabia, levant-iraq]
 periods: [period/prophetic-era, period/rashidun]
+died: { edtf: "672", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
 relations:
   - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam, source/rijal-hawl-al-rasul-muqattam-1994]

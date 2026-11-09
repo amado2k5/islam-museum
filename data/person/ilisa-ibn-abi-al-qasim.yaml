@@ -12,6 +12,8 @@ traditions: [ibadi]
 wings: [people]
 periods: [period/abbasid-early]
 regions: [maghreb]
+born: { edtf: "810~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk / al-Tabari" }
+died: { edtf: "823~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk / al-Tabari" }
 relations:
   - { type: lived_in, target: place/sijilmasa, confidence: low, note: "Associated with Sijilmasa per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:

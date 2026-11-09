@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
+died: { edtf: "865", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
 relations:
   - { type: born_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/nishapur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

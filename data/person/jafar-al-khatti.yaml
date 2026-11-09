@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1572", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / al-Zirikli" }
+died: { edtf: "1619", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / al-Zirikli" }
 relations:
   - { type: buried_in, target: building/shah-chiragh-shiraz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: lived_in, target: place/bahrayn, confidence: low, note: "From the people of Bahrain (من أهل البحرين) per al-A'lam.", sources: [source/al-aalam] }

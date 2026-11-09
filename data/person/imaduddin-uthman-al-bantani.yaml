@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/contemporary-era]
+born: { edtf: "1976", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern contemporary scholar" }
 relations:
   - { type: born_in, target: place/kresek, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

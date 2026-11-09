@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+died: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
