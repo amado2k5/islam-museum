@@ -218,3 +218,15 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 - Sweep was killed at 2650 records (max fiche id 11450); fiches_resume.py created (append mode) and relaunched from 11451 (PID 99902).
 - Enriched: muhafiz-khan-mosque +11066 (Ahmedabad/Gheekanta mosque, 1491-1492); qarawiyyin +11146-11150 (5 Fez inscriptions incl. nave dome, 1133-1137).
 - REJECTED: 11270 Diyarbakir Hasan Pasha HAN (caravanserai) ≠ hasan-pasha-tomb; 11311 Zile Haci Ismail Mescidi ≠ sultan-ismail-mosque; 11321 Cairo Bahlul mosque ≠ baghdad bimaristan; 11401 Abu Hurayba mosque (proximity to Bab Zuwayla); 11463 Carthage stray object ≠ carthage-palace.
+
+## 2026-11-09 (p5 cont.) — TEI 8801-12800 partial ~3010: 7 more candidates reviewed, all rejected
+
+- 11496 Isfahan Darb-i Kushk/Chihil Sutun inscription — palace-garden structures, 'isfahan' token only; 11514 Cairo Wakala Bab al-Nasr caravanserai (proximity); 11545 Amasya Bayezid II Camii ≠ istanbul bayezid-ii-mosque (same sultan, different city); 11739 Seyitgazi Ummuhan Hatun turbe inside Seyid Battal Kulliyesi — entity is Kayseri-region; ambiguous, skipped; 11744 Konya Yeşil Türbe (Mevlana mausoleum) next to Selimiye Cami — monument is the tomb, not the mosque (proximity); 11746/11811 Aleppo repeats.
+
+## 2026-11-09 (p5 cont.) — TEI 8801-12800 COMPLETE (4000 fiches) + next range 12801-16800 launched
+
+- fiches-8801-12800.jsonl complete; fiches.py 12801 16800 running (PID 21396).
+- Enriched (final pass): goaldi-mosque +11910 (Sonargaon Shahi mosque, Bangladesh, 1519-1520); buyuk-aga-medrese +11936 (Amasya Kapı Agası/Büyük Ağa college, 1488-1489); pir-sucaeddin-ilyas-turbe +12234 (Amasya türbe in Cilehane quarter — NOT cilehane-tomb); bayezid-ii-mosque +12137 (Istanbul Beyazıt/Eminönü portal, inline external_ids map updated).
+- REJECTED (23 reviewed): Trabzon Iskender Pasha fountains/mosque ≠ pasha tomb entities or Johor mosque; Emir Mehmed Bay turbe/Haci Mehmed cesmesi ≠ mehmed-v; Gawriyya madrasa-mausoleum complex (6 fiches) has NO entity — LEAD for new entity; Wakala Bab al-Nasr caravanserais, Takiyya/Abu Hurayba/Gawriyya proximity to Bab Zuwayla; Zawawi Damanhur ≠ Muscat; Sidi El Ansari Damascus ≠ Tunis; Hurrem Pasa Konya ≠ Hurrem Sultan Istanbul; Homs Hasan Efendi house (van Berchem vs Korn ID debate) ≠ tomb entities.
+- DUPLICATE CHECK: tomb-of-iskender-pasha (Q131391277 Istanbul) vs -2 (Q131391513 Diyarbakır Sur) — VERIFIED DISTINCT via Wikidata coords, NO merge (unlike melik-gazi pair).
+- New leads: Gawriyya complex Cairo; Kutubiyya mosque Marrakesh (from earlier).
