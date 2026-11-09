@@ -14,6 +14,8 @@ regions: [levant-iraq, egypt-nile]
 faith:
   - value: sunni
     basis: tradition
+born: { edtf: "1222~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar)" }
+died: { edtf: "1292~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar)" }
 relations:
   - { type: ruled_over, target: place/damascus, sources: [source/shadharat-dhahab] }
   - { type: traveled_to, target: place/syria, sources: [source/shadharat-dhahab] }

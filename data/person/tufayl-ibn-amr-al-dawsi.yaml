@@ -19,6 +19,7 @@ story_roles:
   - { role: companion, start: { edtf: "0620~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0620~" }, note: "صحابي جليل من سادات دوس." }
+died: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: born_in, target: place/yemen }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0620~" }, sources: [source/mubarakpuri-raheeq] }

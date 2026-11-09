@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: born_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q48195)" }
   - { type: died_in, target: place/ard-abd-allah, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8076298)" }

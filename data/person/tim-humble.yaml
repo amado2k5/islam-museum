@@ -24,6 +24,7 @@ wings:
   - living
 regions:
   - andalus-europe
+born: { edtf: "1986", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Islamic speaker bio" }
 relations:
   - { type: lived_in, target: place/newcastle, sources: [source/listennotes-tim-humble, source/muslimink-tim-humble] }
   - { type: lived_in, target: place/medina, sources: [source/listennotes-tim-humble, source/muslimink-tim-humble] }

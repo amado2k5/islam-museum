@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1405", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Zafarnama (Shami/Yazdi)" }
 relations:
   - { type: died_in, target: place/harat, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q45313)" }
 sources: [source/al-aalam]

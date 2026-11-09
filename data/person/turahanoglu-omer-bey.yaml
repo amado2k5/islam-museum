@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1484", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12560)" }
 sources: [source/dawlat-uthmaniyya-salabi]

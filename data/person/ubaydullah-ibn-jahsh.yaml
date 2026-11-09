@@ -15,6 +15,7 @@ story_roles:
   - { role: left-islam, status: tradition, note: "قال ابن إسحاق: تنصّر بأرض الحبشة وفارق الإسلام ومات نصرانياً (ص6)؛ وفي رواية عروة أنه خرج مسلماً", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: christian, basis: tradition, sources: [source/ibn-hisham-saqqa], note: "بحسب ابن إسحاق تنصّر بالحبشة (ص6)؛ سُجّل نقلاً عنه دون استنتاج" }
+died: { edtf: "627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: spouse_of, target: person/umm-habiba-bint-abi-sufyan, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-asad-ibn-khuzayma, sources: [source/ibn-hisham-saqqa] }

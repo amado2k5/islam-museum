@@ -19,6 +19,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
+died: { edtf: "687", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/zuhd-ahmad-dkim-1983] }
 sources: [source/zuhd-ahmad-dkim-1983]

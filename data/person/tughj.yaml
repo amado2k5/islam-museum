@@ -12,6 +12,7 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 569–576"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-32
+died: { edtf: "906", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil fi al-Tarikh (Ibn al-Athir)" }
 relations:
   - { type: ruler_of, target: place/damascus, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "en: 'Amir of Damascus; he fought Ibn Zakrawayh the Qarmatian more than once in 289 when he sought the city, th" }
   - { type: lived_in, target: place/tarsus, sources: [source/muruj-al-dhahab], confidence: low, note: "وعند المسعودي سار طغج بن شبيب أبو الأخشيد في عساكر كثيرة من دمشق فدخل طرسوس غازياً وافتتح ملورية مما يلي بلاد " }
