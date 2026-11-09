@@ -15,7 +15,9 @@ location: place/cairo
 status_now: standing
 relations:
   - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
-sources: [source/yeomans-islamic-cairo-2006]
+external_ids:
+  tei: "38857"
+sources: [source/yeomans-islamic-cairo-2006, source/tei-epigraphie]
 provenance:
   layer: own-research
   source: "Yeomans 2006, printed pp. 44, 46, 49"
