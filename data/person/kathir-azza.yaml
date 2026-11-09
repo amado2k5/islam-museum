@@ -6,6 +6,8 @@ summary:
   en: "The poet whose death shared the day with 'Ikrima's — 'a great jurist and a great poet in one day' {cite:muruj-al-dhahab p. 377}."
 gender: male
 wings: [people]
+born: { edtf: "644~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Wafayat al-A'yan" }
+died: { edtf: "723", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Wafayat al-A'yan" }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q6448423" }

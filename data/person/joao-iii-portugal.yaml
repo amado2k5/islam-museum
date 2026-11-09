@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
+born: { edtf: "1502", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: História de Portugal" }
+died: { edtf: "1557", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: História de Portugal" }
 relations:
   - { type: lived_in, target: place/morocco, confidence: low, note: "Associated with المغرب per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }

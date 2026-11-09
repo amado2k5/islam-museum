@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/pre-islamic-arabia]
+born: { edtf: "550~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+died: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
 relations:
   - { type: lived_in, target: place/asfan, confidence: low, note: "Associated with عسفان per the record's own summary text; relation type pending review.", sources: [source/ansab-al-ashraf] }
 provenance:

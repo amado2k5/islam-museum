@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb, west-africa-sahel]
 periods: [period/gunpowder-empires]
+died: { edtf: "1605", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Sudan" }
 relations:
   - { type: born_in, target: place/cuevas-del-almanzora, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/marrakesh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -15,6 +15,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 faith:
   - { value: sunni, basis: tradition, note: "صحابية؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).", sources: [source/great-women-of-islam-ghadanfar-darussalam] }
+died: { edtf: "626~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat Ibn Sa'd" }
 relations:
   - { type: member_of, target: group/banu-abd-al-ashhal, sources: [source/great-women-of-islam-ghadanfar-darussalam] }
   - { type: participated_in, target: event/battle-of-uhud, role: "سقي الجرحى", sources: [source/great-women-of-islam-ghadanfar-darussalam] }

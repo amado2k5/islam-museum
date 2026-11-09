@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq]
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab Futuh al-Buldan" }
 relations:
   - { type: lived_in, target: place/sabur, confidence: low, note: "Associated with سابور per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

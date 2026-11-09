@@ -17,6 +17,7 @@ story_roles:
   - { role: companion, status: tradition, note: "صحابية رافقت الجيش في حصار الطائف (ابن هشام 4/127).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابية فاضلة." }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/taif, confidence: low, note: "Associated with Ta'if per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-sulaym }

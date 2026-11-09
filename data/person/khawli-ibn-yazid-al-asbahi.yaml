@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/umayyad]
 regions: [arabia]
+died: { edtf: "686", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: lived_in, target: place/karbala, confidence: low, note: "Associated with كربلاء per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:

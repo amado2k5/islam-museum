@@ -19,6 +19,7 @@ periods: [period/umayyad]
 regions: [arabia]
 story_roles:
   - { role: artist, status: tradition, sources: [source/juha-nawadir-kubra-djuwaydi] }
+died: { edtf: "777~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/juha-nawadir-kubra-djuwaydi] }
 sources: [source/juha-nawadir-kubra-djuwaydi]

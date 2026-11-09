@@ -9,6 +9,7 @@ roles: [military]
 wings: [people]
 periods: [period/rashidun]
 regions: [arabia, levant-iraq]
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Associated with الحجاز per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir, source/mustadrak-ilmiyya-ata-v3]

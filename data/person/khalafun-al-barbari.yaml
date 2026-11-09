@@ -6,6 +6,8 @@ summary:
   en: "In al-Baladhuri: a Berber said to be Rabi'a's mawla; he raided Barah in the Great Land and opened it at the start of al-Mutawakkil's caliphate after Jabala, al-Aghlab's mawla, had failed against it."
 wings: [people]
 gender: male
+born: { edtf: "847~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab Futuh al-Buldan" }
+died: { edtf: "850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab Futuh al-Buldan" }
 relations:
   - { type: lived_in, target: place/barah, confidence: low, note: "Associated with بارة per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-barah, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }

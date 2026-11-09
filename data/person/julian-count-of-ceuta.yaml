@@ -14,6 +14,8 @@ provenance:
   source: "salabi-umayyad-state-2020 pp. 67-68"
   generated_by: "Claude (Haiku 5.5, subagent)"
 status: { review: published, completeness: 1, generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 pp. 67-68; the book notes the reports differ on how contact was made" }
+born: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Nafh al-Tib" }
+died: { edtf: "711~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Nafh al-Tib" }
 relations:
   - { type: lived_in, target: place/ceuta, confidence: low, note: "Associated with سبتة per the record's own summary text; relation type pending review.", sources: [source/salabi-umayyad-state-2020] }
   - { type: participated_in, target: event/conquest-of-al-andalus, role: "المعبّر للمسلمين في السفن بأمان", sources: [source/futuh-buldan-maarif-1407] }
