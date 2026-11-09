@@ -16,5 +16,6 @@ provenance:
   run: lib-muntazam-258-349-batch38
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+died: { edtf: "1009", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 17/191; d. 400 AH)" }
 relations:
   - { type: died_in, target: place/misr, note: "From text: died in Egypt", sources: [source/muntazam-ibn-al-jawzi] }

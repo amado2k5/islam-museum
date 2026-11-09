@@ -10,6 +10,8 @@ external_ids: { wikidata: "Q293458" }
 sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/wikidata]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 6", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
+born: { edtf: "825~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhtadi' / K. V. Zettersteen; caliph murdered 256 AH)" }
+died: { edtf: "870", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhtadi' / K. V. Zettersteen; caliph murdered 256 AH)" }
 relations:
   - { type: born_in, target: place/samarra, note: "Wikidata Q170047 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/samarra, note: "Wikidata Q170047 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

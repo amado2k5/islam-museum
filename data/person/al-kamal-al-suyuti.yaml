@@ -14,5 +14,7 @@ provenance:
   run: lib-tarikh-khulafa-batch-51
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1399", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suyuti (Husn al-Muhadara 1/450; d. 855 AH)" }
+died: { edtf: "1451", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suyuti (Husn al-Muhadara 1/450; d. 855 AH)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Father of al-Suyuti, imam to the Cairo Abbasid caliph al-Mustakfi II and writer of his deed of appointment.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }

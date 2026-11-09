@@ -11,6 +11,7 @@ summary:
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia, levant-iraq]
+died: { edtf: "528", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Kinda' / Irfan Shahid; Procopius)" }
 relations:
   - { type: member_of, target: group/kinda, sources: [source/mubarakpuri-raheeq] }
   - { type: ruler_of, target: place/al-hira, note: "بتولية قباذ بعد عزل المنذر؛ المدة غير محددة في الكتاب.", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }

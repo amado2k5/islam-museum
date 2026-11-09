@@ -26,5 +26,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1298", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi / Ibn Hajar (al-Durar al-Kamina 2/306; 697–758 AH)" }
+died: { edtf: "1357", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi / Ibn Hajar (al-Durar al-Kamina 2/306; 697–758 AH)" }
 relations:
   - { type: lived_in, target: place/damascus, note: "From text: درّس بدار الحديث بالظاهرية في دمشق", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

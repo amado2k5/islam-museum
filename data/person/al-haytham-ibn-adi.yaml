@@ -17,5 +17,7 @@ external_ids: { wikidata: "Q27546923" }
 status:
   review: published
   completeness: 3
+born: { edtf: "747", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Haytham b. Adi' / S. Leder; 130–207 AH)" }
+died: { edtf: "822", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Haytham b. Adi' / S. Leder; 130–207 AH)" }
 relations:
   - { type: lived_in, target: place/mosul, note: "Place association from the person's nisba/name (الموصلي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim], confidence: low }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "892", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 16/463; 279–373 AH)" }
+died: { edtf: "984", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 16/463; 279–373 AH)" }
 relations:
   - { type: lived_in, target: place/sijistan, note: "Place association from the person's nisba/name (السجزي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -16,5 +16,6 @@ provenance:
   run: prose-fill-persons-batch48
 sources: [source/nafh-tib-maqqari]
 status: { review: published, completeness: 3 }
+died: { edtf: "1081", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Hudids' / D. M. Dunlop; Ahmad al-Muqtadir; d. 474 AH)" }
 relations:
   - { type: ruler_of, target: place/sarqusta, note: "From text: صاحب سرقسطة", sources: [source/nafh-tib-maqqari], confidence: low }

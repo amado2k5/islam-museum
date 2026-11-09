@@ -11,6 +11,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isabah 1/692; lived to caliphate of Mu'awiya/Marwan)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/raid-of-ghalib-on-banu-al-mulawwah, role: "أُخذ بقديد", sources: [source/ibn-hisham-saqqa] }

@@ -19,6 +19,8 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+born: { edtf: "575~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Khansa' / F. Gabrieli; d. 24 AH)" }
+died: { edtf: "645~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Khansa' / F. Gabrieli; d. 24 AH)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/nisa-hawl-alrasul, source/muruj-al-dhahab, source/assabile-omar-abdelkafy, source/alam-al-nisa-kahhala-risala-1984-v1], confidence: low }
   - { type: participated_in, target: event/battle-of-al-qadisiyya, role: "أم الشهداء الأربعة؛ ودّعت أبناءها إلى المعركة فاستشهدوا جميعاً (نساء حول الرسول ص288-289)", sources: [source/nisa-hawl-alrasul] }

@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "928", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad 13/231; 316–390 AH)" }
+died: { edtf: "1000", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad 13/231; 316–390 AH)" }
 relations:
   - { type: lived_in, target: place/al-nahrawan, note: "From text: من أهل النهروان", sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab], confidence: low }

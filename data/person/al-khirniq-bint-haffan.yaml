@@ -11,6 +11,7 @@ wings: [people]
 themes: [women, literature]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Qutayba (al-Shi'r wa'l-Shu'ara; sister of Tarafa)" }
 relations:
   - { type: lived_in, target: place/al-qays, note: "From text: of Qays", sources: [source/alam-al-nisa-kahhala-risala-1984-v1], confidence: low }
   - { type: sibling_of, target: person/tarafa-ibn-al-abd, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }

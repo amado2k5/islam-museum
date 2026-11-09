@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "986", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 2/236; 376–404 AH; Zaydi imam)" }
+died: { edtf: "1013", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 2/236; 376–404 AH; Zaydi imam)" }
 relations:
   - { type: lived_in, target: place/yemen, note: "From text: of Yemen", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

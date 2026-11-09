@@ -14,5 +14,6 @@ provenance:
   run: lib-kamil-batch-8
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "969", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Khasibi' / Heinz Halm; d. 358 AH)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Vizier of al-Qahir; the court sat in Baghdad.", sources: [source/kamil-ibn-al-athir], confidence: medium }

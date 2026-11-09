@@ -22,5 +22,6 @@ provenance:
   run: lib-futuh-buldan-batch-33
 sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/alam-al-nisa-kahhala-risala-1984-v1]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "789", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Khayzuran' / Nabia Abbott; d. 173 AH)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Mother of the caliphs; ordered the Mahdud canal dug at her agent's direction in the Abbasid capital milieu.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: medium }

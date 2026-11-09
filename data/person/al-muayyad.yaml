@@ -12,6 +12,7 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 553–559"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-30
+died: { edtf: "866", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh 9/368; executed Rajab 252 AH)" }
 relations:
   - { type: died_in, target: place/samarra, note: "Died in al-Mu'tazz's prison in 252; the caliphal court was at Samarra.", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: low }
 sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]

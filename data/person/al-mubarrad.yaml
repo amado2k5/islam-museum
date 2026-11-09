@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch35
+born: { edtf: "826", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mubarrad' / R. Sellheim; 210–285 AH)" }
+died: { edtf: "898", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mubarrad' / R. Sellheim; 210–285 AH)" }
 relations:
   - { type: lived_in, target: place/basra, note: "A wonder of the Basran grammarians; sent by al-Mutawakkil to the Basra governor.", sources: [source/muntazam-ibn-al-jawzi, source/muruj-al-dhahab], confidence: medium }
   - { type: lived_in, target: place/baghdad, note: "Later taught at the caliphal court; flagged for review.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }

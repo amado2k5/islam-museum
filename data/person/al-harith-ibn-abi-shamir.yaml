@@ -11,6 +11,7 @@ roles: [emir]
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
+died: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Ghassan' / Irfan Shahid; d. 7 AH)" }
 relations:
   - { type: ruler_of, target: place/al-sham, note: "From text: king of Syria", sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/ghassan, sources: [source/kamil-ibn-al-athir] }

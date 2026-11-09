@@ -8,5 +8,7 @@ wings: [people]
 external_ids: { wikidata: "Q16435706" }
 sources: [source/fihrist-ibn-al-nadim, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Nadjdjar' / J. van Ess; d. c. 220 AH)" }
+died: { edtf: "835~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Nadjdjar' / J. van Ess; d. c. 220 AH)" }
 relations:
   - { type: born_in, target: place/bamm, note: "Wikidata Q106636 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }

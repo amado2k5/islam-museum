@@ -28,6 +28,7 @@ story_roles:
 faith:
   - { value: christian, basis: tradition, end: { edtf: "0631~" }, note: "«وكان نصرانياً» قال ابن هشام (ص221).", sources: [source/ibn-hisham-saqqa] }
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم على يد النبي وحسن إسلامه (ابن هشام ص221-222).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "642", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isabah 1/541; killed battle of Aqaba Fars 21 AH)" }
 relations:
   - { type: lived_in, target: place/fars, note: "From text: of Fars.", sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq], confidence: low }
   - { type: member_of, target: group/abd-al-qays, sources: [source/ibn-hisham-saqqa] }

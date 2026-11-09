@@ -14,5 +14,6 @@ provenance: { layer: own-research, source: "al-Mas'udi, Muruj al-dhahab, ed. Mar
 external_ids: { wikidata: "Q5960492" }
 sources: [source/kamil-ibn-al-athir, source/muruj-mari-2005]
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); single source: Mar'i ed. (2005) juz' cited in summary" }
+died: { edtf: "927", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil fi al-Tarikh 8/182; d. 315 AH)" }
 relations:
   - { type: lived_in, target: place/daylam, note: "Place association from the person's nisba/name (الديلمي); denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir, source/muruj-mari-2005], confidence: low }

@@ -15,6 +15,8 @@ provenance:
 external_ids: { wikidata: "Q285731" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1074", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (P. H. Mamour / H. A. R. Gibb); al-Zirikli (al-A'lam)" }
+died: { edtf: "1149", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (P. H. Mamour / H. A. R. Gibb); al-Zirikli (al-A'lam)" }
 relations:
   - { type: born_in, target: place/askalan, note: "Wikidata Q60956 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/cairo, note: "Wikidata Q85 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

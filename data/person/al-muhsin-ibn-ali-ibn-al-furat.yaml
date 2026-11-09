@@ -12,6 +12,8 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-batch-4
+born: { edtf: "891", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh 10/215; executed 312 AH)" }
+died: { edtf: "924", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh 10/215; executed 312 AH)" }
 relations:
   - { type: died_in, target: place/baghdad, note: "Slaughtered with his father the vizier in 312 at Baghdad.", sources: [source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi], confidence: high }
 sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir]

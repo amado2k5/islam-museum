@@ -15,5 +15,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch17
+born: { edtf: "777", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 14/199; 160–292 AH)" }
+died: { edtf: "905", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 14/199; 160–292 AH)" }
 relations:
   - { type: lived_in, target: place/basra, note: "His father moved to Basra and built a gypsum-and-brick house there, whence the Kajji nickname.", sources: [source/fihrist-ibn-al-nadim, source/wafayat-ayan], confidence: medium }
