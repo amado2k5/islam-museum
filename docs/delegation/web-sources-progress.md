@@ -252,3 +252,28 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 - building/kutubiyya-mosque: NEW draft — Almohad Kutubiyya Mosque, Marrakesh. 3 mosque-structure fiches (9431 religious text, 9433 votive, 9434 restoration).
 - object/minbar-kutubiyya +7946: the minbar's fabrication inscription records it was MADE IN CORDOBA — Cordoba-origin fact added to the object entity.
 - Damascus "Mosquée Hassan" (fiche 7961) NOT created — single fiche, unidentified mosque, insufficient evidence.
+
+## 2026-11-09 — Abdülvehhab Gazi tomb pair RESOLVED (not duplicates)
+
+Wikidata coordinates show three distinct tombs, all "Abdulvehhab Gazi"/"Vehhab-i Ummi" labels but different districts: Q131390696 Bayburt (40.263,40.244), Q131391676 Bolvadin/Konya (38.695,31.080), Q131390683 Elmalı/Antalya (36.749,29.911). Retained as distinct entities; no merge.
+
+## 2026-11-09 (p7) — TEI 16801-20800 partial + Cizre Ulu Camii new entity
+
+- object/maqam-ibrahim +17726: second Maqām Ibrāhīm restoration inscription (1542-1543, Meccan Ḥaram) — tei now "2003,17616,17726".
+- NEW building/ulu-cami-cizre (draft): Ulu Camii ve Medresesi, Cizre SE Turkey — fiches 789 (minaret c.550/1155-56), 791 (portal 555/1160), 795 (mosque foundation 730/1329-30). Artuqid-era complex; no place/cizre entity so no located_in relation (matches draft-building convention).
+- Gaza congregational mosque lead: al-Sham'a mosque already evaluated and skipped earlier (ambiguous) — remains deferred.
+- Abdülvehhab Gazi tomb pair resolved: NOT duplicates (Bayburt vs Bolvadin/Konya vs Elmalı/Antalya coordinates).
+- Sweep 16801-20800 at ~1800/4000; match8 partial candidates: 4 (2 accepted maqam-ibrahim, 2 rejected namesakes).
+
+## 2026-11-09 (p7 cont.) — TEI 16801-20800 COMPLETE + SIX new entities
+
+Sweep 16801-20800 done: 4000 fiches, overwhelmingly Egyptian/Kyrgyz epitaphs; match8 found only 4 candidates (2 accepted maqam-ibrahim, 2 rejected namesakes). Manual scan of matched-nature records surfaced major new-entity leads:
+
+- NEW building/shah-i-zinda: Samarkand necropolis — 80 TEI fiches (801..17876) spanning 8th-10th c AH; richest single TEI entity yet.
+- NEW building/po-i-kalyan: Bukhara Kalyan complex (Jami' mosque + minaret) — 5 fiches (7670,16851,16934,17656,17666).
+- NEW building/vabkent-minaret: Minaret of Abd al-Aziz, Vabkent — 2 fiches (15845,15846).
+- NEW building/turabek-khanym-mausoleum: Kunya-Urgench — 2 fiches (16951,16952).
+- NEW building/mausoleum-of-najm-al-din-kubra: Taš Kala — 3 fiches (15794,16054,16948); attribution per catalogue.
+- NEW building/mausoleum-of-sultan-tekesh: Taš Kala — 2 fiches (16132,16949).
+- SKIPPED: mausoleum attributed to Fakhr al-din Razi (16950, nature ?, uncertain attribution); Shaykh Dzhunjejid mausoleum Khazry (17200, single fiche, uncertain identity); Qutluġ Tīmūr minaret (15793, nature ?).
+- Next range 20801+ to launch.
