@@ -1,0 +1,36 @@
+id: person/peshawa-qadir-al-kurdi
+class: person
+names:
+  - { kind: full, value: "Peshawa Qadir Al-Kurdi" }
+  - { kind: full, value: "پێشەوا قادر الكردي" }
+  - { kind: alternate, value: "Peshawa Qader Al-Kurdi" }
+  - { kind: alternate, value: "Peshawa Qadr Al-Kurdi" }
+  - { kind: alternate, value: "Peshawa Qadir Nabi" }
+  - { kind: alternate, value: "بيشەوا قادر الكردي" }
+label: { ar: "پێشەوا قادر الكردي", en: "Peshawa Qadir Al-Kurdi", ur: "پیشوا قادر الکردی" }
+summary:
+  ar: "قارئ قرآن كردي عراقي من إقليم كردستان العراق، يُدرج ضمن قرّاء المصحف الكامل برواية حفص عن عاصم، وتصفه ملفات القرّاء بأنه إمام في السليمانية. بدأت قناته على يوتيوب في 1 ديسمبر 2012، وبلغت 1,670,000 مشترك و372,622,074 مشاهدة و1,943 مقطعًا بحسب vidIQ كما في 9 نوفمبر 2026، وبلغت صفحته على فيسبوك 5,300,000 متابع بحسب بيانات منشور مؤرخ في 13 يناير 2026، وحسابه على إنستغرام 1,000,000 متابع بحسب منشوره المؤرخ في 4 نوفمبر 2026. نصّ تلاوته عربي كما هو عند كل قارئ، ومحتوى أدعيته وتأطير صفحاته يجريان بالكردية السورانية والعربية."
+  en: "Kurdish Iraqi Quran reciter from the Kurdistan Region of Iraq, listed among the full-mushaf reciters in the Hafs 'an 'Asim narration; reciter profiles describe him as an imam in Sulaymaniyah. His YouTube channel, started on 1 December 2012, counted 1,670,000 subscribers, 372,622,074 views and 1,943 videos as read by vidIQ on 9 November 2026; his Facebook page counted 5,300,000 followers by post metadata of 13 January 2026, and his Instagram account 1,000,000 followers by his own post of 4 November 2026. The recited text is Arabic, as for every reciter; his supplication content and his pages' framing run in Sorani Kurdish and Arabic."
+  ur: "عراق کے کردستان خطے سے تعلق رکھنے والے کرد عراقی قاریِ قرآن، جو حفص عن عاصم کی روایت میں مکمل مصحف کے قاریوں میں درج ہیں؛ قاری پروفائلز انھیں سلیمانیہ کا امام بیان کرتے ہیں۔ ان کا یوٹیوب چینل یکم دسمبر 2012ء کو شروع ہوا اور 9 نومبر 2026ء کی vidIQ قرأت کے مطابق اس کے سبسکرائبر 1,670,000، ویوز 372,622,074 اور ویڈیوز 1,943 تھے؛ ان کے فیس بک پیج کے فالوور 13 جنوری 2026ء کی پوسٹ میٹا ڈیٹا کے مطابق 5,300,000 اور انسٹاگرام اکاؤنٹ کے فالوور 4 نومبر 2026ء کی اپنی پوسٹ کے مطابق 1,000,000 تھے۔ ان کی تلاوت کا متن ہر قاری کی طرح عربی ہے، جب کہ ان کی دعاؤں کا مواد اور صفحات کی پیش کش سورانی کردی اور عربی میں ہے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a school or order for Peshawa Qadir al-Kurdi himself. He recites in the Hafs 'an 'Asim narration, which is a qira'a fact about the recitation, not a school attestation for the man, and neither his channel nor the reciter profiles name a school for him. Under this lane's two-text rule his school therefore stays unknown."
+    sources: [source/youtube-peshawakurdi, source/alquranaudio-peshawa-qadir-al-kurdi]
+roles: [reciter]
+wings: [people, living]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/sulaymaniyah, sources: [source/alquranaudio-peshawa-qadir-al-kurdi], confidence: low, note: "The Sulaymaniyah imamate rests on a single reciter-directory profile (AlQuranAudio); the wave-199 harvest settled his base as the Kurdistan Region of Iraq and left the city otherwise unresolved." }
+reach:
+  - { platform: youtube, metric: subscribers, value: 1670000, date: "2026-11-09", note: "@peshawakurdi (channel ID UCLEAwlZ-TpT4McPiQ5Z1pLA), started 1 December 2012, channel country Iraq: 1,670,000 subscribers, 372,622,074 views and 1,943 videos as read by vidIQ on 9 November 2026; the coordinator's re-read of the same page (data as of 8 November 2026) showed the same subscriber count. Uploads were current to 1 November 2026 (speakrj snapshot). The figure is a dated platform count, not a museum-verified fact", sources: [source/vidiq-peshawa-qadir-al-kurdi, source/youtube-peshawakurdi] }
+  - { platform: facebook, metric: followers, value: 5300000, date: "2026-01-13", note: "His Facebook page: 5,300,000 followers by the post metadata of his post dated 13 January 2026, as read by the wave-199 harvest on 9 November 2026; the figure is a dated platform count resting on the harvest's metadata read, not a direct read in this build run", sources: [source/facebook-peshawa-qadir-al-kurdi] }
+  - { platform: instagram, metric: followers, value: 1000000, date: "2026-11-04", note: "@peshawakurdi (account name 'Peshawa Qadir Nabi'): 1,000,000 followers by his own post dated 4 November 2026, as read by the wave-199 harvest. A separate account, @peshawakurdi_, states in its own bio that it is not official and is never used", sources: [source/instagram-peshawakurdi] }
+sources: [source/youtube-peshawakurdi, source/vidiq-peshawa-qadir-al-kurdi, source/facebook-peshawa-qadir-al-kurdi, source/instagram-peshawakurdi, source/alquranaudio-peshawa-qadir-al-kurdi]
+provenance:
+  layer: own-research
+  source: "Built from the wave-199 (Kurdish scene) harvest §1 and §2.1 and the wave-199 coordinator checks §2 and §5 (researched and checked 9 November 2026), under the lane's channel-queue rule: he has no Wikipedia article and no Wikidata item, so the record is sourced from his own channel and pages plus trusted profiles, as the lane directs. Qualification rests on his YouTube channel @peshawakurdi: 1,670,000 subscribers, 372,622,074 views and 1,943 videos as read by vidIQ on 9 November 2026 (coordinator's re-read of the same page matched within a day's views), with Facebook at 5,300,000 followers (post metadata, 13 January 2026) and Instagram at 1,000,000 (his own post, 4 November 2026) — all dated platform figures above the men's bar. A TikTok figure of 536,400 followers from a crawl of about March 2026 was also filed by the harvest; it is not printed as a reach entry because its crawl could not be dated to a day. He is keyed to the Kurdish scene by identity and community, on the precedent of person/raad-al-kurdi — a different, unrelated Kurdish reciter, with whom he shares only a scene and a nisba; no relation between the two men is recorded. No birth date is recorded: no source read gives one. The Sulaymaniyah imamate is recorded at low confidence on the single AlQuranAudio profile; the harvest itself left his base city unresolved beyond the Kurdistan Region. The coordinator's adjacency screen was run on him in both directions and is documented in the wave-199 coordinator checks file: no verified link, endorsement or financial tie to any designated organisation was found. De-duplicated against the tree: no peshawa-qadir-al-kurdi record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-199"
+status: { review: published, completeness: 2 }
