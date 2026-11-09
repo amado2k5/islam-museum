@@ -6,6 +6,7 @@ summary:
   en: "In al-Baladhuri: brother of Bishr ibn Safwan — one copy has 'father of Bishr' — appointed over Ifriqiya after Kulthum ibn Iyad; he fought the Khawarij and died there in office, Abd al-Rahman ibn Habib al-Fihri withdrawing from him when he opposed al-Walid ibn Yazid."
 wings: [people]
 gender: male
+died: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/ifriqiya, confidence: low, note: "Associated with إفريقية per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: sibling_of, target: person/bishr-ibn-safwan-al-kalbi, sources: [source/futuh-buldan-maarif-1407] }

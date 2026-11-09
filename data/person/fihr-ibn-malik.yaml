@@ -5,6 +5,8 @@ summary: { ar: "الملقب قريش وإليه تنتسب القبيلة؛ م�
 wings: [people]
 story_roles: [{ role: family-of-the-prophet }]
 themes: [family-marriage-kinship]
+born: { edtf: "250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham / Ibn Hazm" }
+died: { edtf: "320~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham / Ibn Hazm" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Ancestor of Quraysh at Mecca per the record's cited al-Raheeq al-Makhtum.", sources: [source/mubarakpuri-raheeq] }
   - { type: child_of, target: person/malik-ibn-al-nadr }

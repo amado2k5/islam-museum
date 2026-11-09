@@ -16,6 +16,8 @@ inventions:
   - invention: invention/harun-bimaristan
     role: commissioner
     sources: [source/tdv-bimaristan]
+born: { edtf: "766", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+died: { edtf: "809", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
 relations:
   - { type: died_in, target: place/tus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/harun-al-rashid-mausoleum-tus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

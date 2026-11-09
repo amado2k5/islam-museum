@@ -13,6 +13,8 @@ summary:
 roles: [military]
 wings: [people]
 regions: [southeast-asia]
+born: { edtf: "1900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Majul (Muslims in Philippines)" }
+died: { edtf: "1974~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Majul (Muslims in Philippines)" }
 relations:
   - { type: lived_in, target: place/philippines, confidence: low, note: "Associated with الفلبين per the record's own text; relation type pending review.", sources: [source/wikipedia-hadji-kamlon-en] }
 faith:

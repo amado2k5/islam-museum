@@ -11,6 +11,8 @@ wings: [people]
 themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+born: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil (Dhi Qar)" }
+died: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil (Dhi Qar)" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/banu-shayban }

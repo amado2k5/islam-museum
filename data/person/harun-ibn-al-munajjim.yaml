@@ -8,6 +8,8 @@ gender: male
 roles: [writer, poet]
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "865", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "901", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: lived_in, target: place/bari, confidence: low, note: "Associated with Bari per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:

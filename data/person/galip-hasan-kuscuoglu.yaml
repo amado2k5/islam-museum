@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
+born: { edtf: "1919", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "2013", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/orum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

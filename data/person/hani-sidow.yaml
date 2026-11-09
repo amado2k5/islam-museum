@@ -13,6 +13,7 @@ summary:
 roles: [artist, writer]
 wings: [people, living]
 regions: [andalus-europe]
+born: { edtf: "1992", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary author profile" }
 relations:
   - { type: lived_in, target: place/somalia, confidence: low, note: "Somali public figure per the record's own text.", sources: [source/stylist-hani-sidow] }
 faith:

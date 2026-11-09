@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / al-Mufid (Karbala)" }
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / al-Mufid (Karbala)" }
 relations:
   - { type: born_in, target: place/hijaz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/karbala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

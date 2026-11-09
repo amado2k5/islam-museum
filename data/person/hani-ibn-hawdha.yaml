@@ -8,6 +8,8 @@ summary:
   en: "A man of the Nakha' listed by the book as Ali's governor of Kufa {cite:sallabi-ali-vol1 p. 358}; the passage gives neither the dates of his office nor further reports."
 periods: [period/rashidun]
 wings: [people]
+born: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: ruler_of, target: place/kufa, sources: [source/sallabi-ali-vol1] }
 sources: [source/sallabi-ali-vol1]

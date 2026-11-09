@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [global]
 periods: [period/modern-era]
+born: { edtf: "1697", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Dictionary of National Biography" }
+died: { edtf: "1736", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Dictionary of National Biography" }
 relations:
   - { type: lived_in, target: place/london, confidence: low, note: "English Qur'an translator who lived and worked in London.", sources: [source/al-istishraq-wal-khalfiyya-azhar] }
 sources: [source/al-istishraq-wal-khalfiyya-azhar]

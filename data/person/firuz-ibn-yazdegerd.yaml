@@ -5,6 +5,8 @@ summary:
   ar: "ملك من ملوك الفرس الساسانيين، ذكره الطبري تحت عنوان «ذكر ملك فيروز بن يزدجرد» {cite:tabari-tarikh-abu-al-fadl j.2 p.82}. يُروى في هذا الموضع ما قيل في سني ملكه وأخباره."
 wings: [people]
 gender: male
+born: { edtf: "636", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Book of Tang / Daryaee" }
+died: { edtf: "679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Book of Tang / Daryaee" }
 relations:
   - { type: lived_in, target: place/yazd, confidence: low, note: "Associated with يزد per the record's own text; relation type pending review.", sources: [source/tabari-tarikh-abu-al-fadl] }
 sources: [source/tabari-tarikh-abu-al-fadl, source/akhbar-tiwal-amir]

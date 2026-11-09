@@ -7,6 +7,7 @@ summary:
 wings: [people]
 gender: male
 traditions: [sunni]
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Waqidi (Maghazi,  Uhud)" }
 relations:
   - { type: died_in, target: place/uhud, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/ansar }

@@ -17,6 +17,7 @@ wings: [people]
 themes: [literature]
 story_roles:
   - { role: poet, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
+died: { edtf: "1469", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
 relations:
   - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]

@@ -17,6 +17,8 @@ periods:
 - period/rashidun
 regions:
 - arabia
+born: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "673", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/yemen, confidence: low, note: "Associated with اليمن per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
   - { type: participated_in, target: event/killing-of-al-aswad-al-ansi, sources: [source/futuh-buldan-maarif-1407] }

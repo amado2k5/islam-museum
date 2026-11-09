@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/contemporary-era]
+born: { edtf: "1969", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Indian Election Commission" }
 relations:
   - { type: born_in, target: place/patna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/ballia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

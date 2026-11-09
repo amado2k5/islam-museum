@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+born: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/al-harbiyya, confidence: low, note: "Associated with الحربية per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

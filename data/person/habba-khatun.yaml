@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1554", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bamzai (Kashmir)" }
+died: { edtf: "1609", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bamzai (Kashmir)" }
 relations:
   - { type: born_in, target: place/pampore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/kashmir-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
