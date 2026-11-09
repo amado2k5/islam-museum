@@ -235,3 +235,8 @@ TEI fiches (ASP.NET postback search — needs scripted session or manual fiche i
 
 - Enriched: suleymaniye-mosque +12890 (Istanbul Suleymaniye kulliye marble construction text, in situ, 1556-1557); al-zaytuna-mosque +12939 (wooden construction text ORIGINALLY in Zaytuna, now Bardo Museum — origin explicit, accepted).
 - match7.py created for this range.
+
+## 2026-11-09 (p5 cont.) — TEI 12801-16800 partial ~1120: +4 fiches, 2 entities
+
+- Enriched: imamzadeh-muhammad-al-mahruq +13383 (Nishapur shrine mausoleum); al-zaytuna-mosque +13490,13499,13518 (maqṣūra Abu Amr Uthman + staircase, Tunis).
+- REJECTED: 13407 Jabalā Ibrahim Adham (Jerusalem entity ≠); 13503 Ankara Hallaj Mahmud mosque ≠ ghazni tomb; 13506 Sivas Abdülvehhab Gazi MESCIDI (mosque) ≠ the two abdulvehhab-gazi-tomb entities — ANOTHER dup pair logged (abdulvehhab-gazi-tomb vs -2); 13542/13566/13573 Gawriyya proximity (no entity — lead stands); 13707 Konya Yavuz Selim cesmesi fountain ≠ mosque/madrasa entities.
