@@ -20,6 +20,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker A)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: member_of, target: group/sahaba, sources: [source/mustadrak-ilmiyya-ata-v3] }
   - { type: lived_in, target: place/samandar, sources: [source/mustadrak-ilmiyya-ata-v3], confidence: low, note: "ur: 'سفینہ، نبی کے آزاد کردہ غلام، ابو عبد الرحمن۔ حاکم ان سے روایت کرتے ہیں کہ ان کا نام قیس تھا اور نبی نے ا" }

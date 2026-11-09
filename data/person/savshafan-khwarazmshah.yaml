@@ -12,6 +12,8 @@ gender: male
 roles: [ruler]
 periods: [period/umayyad, period/abbasid-early]
 floruit: { edtf: "0751", calendar: julian, precision: year, status: historical, note: "Embassy to China in 751 per Chinese sources, as reported by Ismoilov {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 35}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+born: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: ruler_of, target: polity/afrighid-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
   - { type: lived_in, target: place/khwarizm, sources: [source/wikidata], confidence: low, note: "Nisba خوارزمي attested in the record." }

@@ -10,6 +10,8 @@ roles: [scholar]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
+born: { edtf: "813~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist" }
+died: { edtf: "833~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist" }
 relations:
 - { type: lived_in, target: place/baghdad, sources: [source/duha-islam] }
 - { type: "related_to", target: "building/bayt-al-hikma", note: "صاحب بيت الحكمة", sources: [source/duha-islam] }

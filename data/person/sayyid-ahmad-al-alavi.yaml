@@ -12,6 +12,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1650", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: born_in, target: place/jabal-amel, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1550572)" }
   - { type: died_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q42053)" }

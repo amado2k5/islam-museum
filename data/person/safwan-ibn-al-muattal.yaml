@@ -20,6 +20,7 @@ story_roles:
   - { role: martyr, start: { edtf: "0638~" }, status: tradition, note: "استشهد في فتوح أرمينية في خلافة عمر.", sources: [source/ibn-sad-tabaqat-bewley] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0624~" }, note: "صحابي بدري برأه الله في القرآن." }
+died: { edtf: "638", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }

@@ -13,6 +13,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch42
+died: { edtf: "740", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/damascus, sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/alam-al-nisa-kahhala-risala-1984-v2] }
 sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/alam-al-nisa-kahhala-risala-1984-v2]

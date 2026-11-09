@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
+born: { edtf: "1947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
 relations:
   - { type: lived_in, target: place/tunis, confidence: medium, note: "Worked at al-Zaytuna and the Mouradiyya in Tunis (Wikidata P937); regions: maghreb.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
