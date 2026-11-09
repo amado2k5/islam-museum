@@ -1080,6 +1080,17 @@ sources:
       robots_txt: to be read before bulk access
       note: '~98k coin objects total, ~60,672 in the Islamic department; cite object-level facts (denomination, mint, issuer, Hijri/CE date, weight, fabric) by accession id; catalogue prose, legend text and images never republished'
     status: enabled
+  idai-gazetteer:
+    name: iDAI.gazetteer (German Archaeological Institute ancient-world place gazetteer)
+    url: https://gazetteer.dainst.org
+    licence: CC-BY 4.0 stated in site footer (verified 9 Nov 2026); {cite:idai-gazetteer <gazId>} is the attribution — gazetteer editorial text never republished
+    layer: by
+    method: unauthenticated JSON endpoints — search.json (full-text/fielded queries, facets, bbox), doc/<gazId>.json (full record), suggestions, children, geoSearch; canonical URIs https://gazetteer.dainst.org/place/<gazId>; records carry identifiers (zenon-systemnr, zenon-thesaurus, GND-ID) and owl:sameAs links to Pleiades/geonames/arachne
+    limits:
+      pause_seconds: 2
+      robots_txt: 'User-agent: * / Allow: / (read 9 Nov 2026)'
+      note: 'ancient-world place gazetteer — types, coordinates/polygons, ~25-language names incl. Arabic, parent/ancestor hierarchy; cite place-identity facts by gazId after per-record identity verification'
+    status: enabled
   british-museum:
     name: British Museum collection database
     url: https://www.britishmuseum.org/collection
